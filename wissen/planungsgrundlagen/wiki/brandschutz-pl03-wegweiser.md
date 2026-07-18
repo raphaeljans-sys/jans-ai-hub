@@ -1,8 +1,8 @@
 ---
 title: Brandschutz PL-03 — Wegweiser (VKF-Struktur, Brandschutznachweis, QSS, Brandschutzabstaende, Tragwerke)
 status: established
-last_updated: 2026-07-14 (Run 48)
-sources: [VKF-Brandschutzerläuterung 103-15de «Cheminées» (Stand 01.01.2015, genehmigt 23.09.2014, 14 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerläuterung 104-15de «Spänefeuerungen» (Stand 01.01.2015, genehmigt 23.09.2014, 17 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerläuterung 105-15de «Schnitzelfeuerungen» (Stand 01.01.2015, genehmigt 23.09.2014, 12 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerläuterung 106-15de «Pelletsfeuerungen» (Stand 01.01.2015, genehmigt 23.09.2014, 14 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1002-15de «Schulbauten» (Stand 01.01.2015, genehmigt 23.09.2014, 30 S. vollstaendig gelesen, PL-03/05 Arbeitshilfen Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1000-15de «Gebaeude mit geringen Abmessungen» (Stand 01.01.2015, 21 S. vollstaendig gelesen, PL-03/05 Arbeitshilfen Brandschutz 2015), VKF-Brandschutzerlaeuterung 108-15de «Gewaehrleistung der Betriebsbereitschaft von Brandfallsteuerungen (BFS)» (Stand 01.01.2015, Kernteil 11 S. gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerlaeuterung 107-15de «Temporaere Aufstellung von Fluessiggasanlagen» (Stand 01.01.2015, 13 S. vollstaendig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-BSR 26-15de «Gefaehrliche Stoffe» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Run 37), DIN EN 12101-2 (Produktnorm NRWG-Ausloesevorrichtungen, PL-03/02 Brandschutzrichtlinien, Run 37), VKF-Brandschutzerlaeuterung 100-15de «Brandmauern» (Stand 01.01.2015, PL-03/02+04, Dateien vormals 0-Byte, Run 37 synchronisiert+ausgewertet), Normen-KB-Destillate `wissen/normen/destillate/vkf-brl-*` (Run 37 Doppelspur-Bereinigung §5o-§5y auf Destillat-Verweis gekuerzt), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», VKF-BSR 15-15de «Brandschutzabstaende Tragwerke Brandabschnitte» (Stand 01.01.2015/2017, PL-03/02_Brandschutzrichtlinien), VKF-BSR 16-15de «Flucht- und Rettungswege» (PL-03/_Projekte Themen/KISPI Fotos Ziff. 3.3.2-3.3.4/3.6), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» (Stand 17.05.2018) inkl. Ziff. 5/6/7 (Brandschutzabstaende/Tragwerke/Fluchtwege-Treppen), VKF-Brandschutzarbeitshilfe 1002-03d «Parkhaeuser und Einstellraeume fuer Motorfahrzeuge» (genehmigt 06.08.2003, PL-03/05 Arbeitshilfen Brandschutz 2015, ⚠ Datenstand vor bsvonline.ch pruefen), «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22) inkl. realer Muster-Plansatz BSPUB-1394520214-207 (PL-03/00 Brandschutzplaene bsvonline.ch), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30, refresh 2026-07-13: unveraendert, politische Vernehmlassung startet 08/2026), reale JANS-Faelle PL-03/_Projekte Themen: «Brandschutzabstand Regensdorf» (EFP AG Anfrage 16.02.2024 + JANS-Antwort 17.02.2024), «Tragwerk Brandschutzanforderung Thalwil Bohlweg 3» (Factsheet 05.03.2025, Aufstockung EFH), «Gaststaetenbetriebe Alpin Grassen Biwak» (Brandschutzkonzept Schmitter Brandschutz GmbH/Yves Schmitter, 16.–18.01.2025), «Pflegeheim Wald» (Foto Feuerwehrzufahrten-Bewegungsflaechen IMG_0546 + Foto Fluchtwegplan Tertianum Gruenegg IMG_0412) und «KISPI» (Fotos BSR 16-15 Ziff. 3.3.2-3.3.4/3.6 Beherbergungsbetriebe), VKF-Brandschutzerlaeuterung 101-15de «Bauten mit Atrien und Innenhoefen» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), VKF-Brandschutzerlaeuterung 102-15de «Bauten mit Doppelfassaden» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), Lignum-Dokumentation Brandschutz Themenblock 4 «Bauteile in Holz — Decken, Waende und Bekleidungen mit Feuerwiderstand» (Ausgabe Mai 2015, geprueft/anerkannt als Stand der Technik Papier 06.09.2017, PL-03/06 Lignum Brandschutz), Fritzsche/Boesch/Wipf/Kunz «Zuercher Planungs- und Baurecht» Band 2, Kap. 18 «Brandschutz» S. 1331/1343 (PL-03/07 Blaues Buch), VKF-Verzeichnis «Weitere Bestimmungen» 40-15de (PL-03/03 Verzeichnisse Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» Ziff. 2.4/12.1/12.2 «Parkings» (PL-03/05 Arbeitshilfen Brandschutz 2015/1001-15_Wohnbauten.pdf, vollstaendig gelesen 29 S.), VKF-Brandschutzrichtlinie 21-15 «Rauch- und Waermeabzugsanlagen» (PL-03/02 Brandschutzrichtlinien 2015-17-22/Rauch & Waermeabzugsanlagen.pdf, Ziff. 3.1 Tabelle), brandschutznachweis.ch «BS-Symbole» 01.01.2017 (vollstaendiger Grundsymbole+Ergaenzende-Symbole-Katalog, PL-03/00 Brandschutznachweis.ch/03_Symbole), «Erdbebengerechte mehrgeschossige Holzbauten» (Technische Dokumentation Lignum/SIA/SGEB/usic/HEV Schweiz, 2010, PL-03/06 Lignum Brandschutz/Lignum Erdbeben), Lignatec «Bauten in Holz — Brandschutz-Anforderungen» (Lignum, materielle Uebereinstimmung VKF-Vorschriften seit 1.1.2005 anerkannt, PL-03/06 Lignum Brandschutz/Lignum Bauten in Holz - Brandschutzanforderungen), VKF-BSR 12-15de «Brandverhuetung und organisatorischer Brandschutz» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Volltext gelesen Run 36), VKF-BSR 22-15de «Blitzschutzsysteme» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Volltext gelesen Run 36), VKF-BSR 24-15de «Waermetechnische Anlagen» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Ziff. 1-4 gelesen Run 36), VKF-BSR 25-15de «Lufttechnische Anlagen» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Ziff. 1-4 gelesen Run 36), «Erlaeuternder Bericht fuer die Vernehmlassung — Gesamtrevision Schweizerische Brandschutzvorschriften VKF» (VKF, 01.11.2013, V-3-0de, PL-03/02 Brandschutzrichtlinien 2015-17-22/BSV2015-Bericht und Aenderungen.pdf, Run 39 erstmals ausgewertet), «Teilrevision VKF-Brandschutzvorschriften 2017 — Aenderungen Brandschutzrichtlinien 2017 vs 2015» (AFC Basel/Lisa Hugenschmidt, PL-03/02 Brandschutzrichtlinien 2015-17-22/Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf, 34 S. Volltext-Delta, Run 39 erstmals ausgewertet), SZS steeldoc 03/15 «Brandschutz im Stahlbau» tec 02:2015 (Stahlbau Zentrum Schweiz, PL-03/02 Brandschutzrichtlinien 2015-17-22/SService Nr19091815480.pdf, Run 39 identifiziert), VKF-BSR 14-15de «Verwendung von Baustoffen» (28 S., PL-03/02 Brandschutzrichtlinien 2015-17-22/BSPUB-1394520214-77.pdf, Ausgabestempel 01.01.2017 IOTH-Beschluss 22.09.2016, Run 41 volltext-gelesen S.1-14+Anhang-Stichprobe S.15-20, konsistent mit bereits vorhandenem Normen-KB-Destillat `wissen/normen/destillate/vkf-brl-verwendung-baustoffe.md`; Run-39-Fehlidentifikation korrigiert — `Baustoff & Bauteile.pdf` ist BSR 13-15, nicht 14-15), Web bsvonline.ch/de/aktuell/information-bsv-2026 (WebFetch Run 39, 2026-07-14) + VKG-Medienmitteilung «Neue schweizerische Brandschutzvorschriften: Marschhalt bei Liberalisierungsbestrebungen und Ueberpruefung» (vkg.ch, WebSearch Run 39) + presseportal.ch/baublatt.ch (Bestaetigung technische Vernehmlassung 15.09.2025-11.01.2026 + ca. 11'000 Rueckmeldungen, Run 39 Refresh), «Normkonzept BSV 2026» (VKF/Keel & Raster Planungs- und Baurecht GmbH, Stand 06.10.2022, 170 S., PL-02/02_Normen/VKF_Norm/07_BSV 2026 Projekt (noch nicht in Kraft)/260711 VKF Normkonzept BSV 2026 Stand 2022-10-06.pdf, neu abgelegt 11.07.2026, Run 48 Kap. 1-2 (S.1-15) + Kap. 5 "Eckpunkte der Totalrevision" (S.90-129) volltext gelesen, 38 Eckpunkte)]
+last_updated: 2026-07-18 (Run 52)
+sources: [VKF-Brandschutzerläuterung 103-15de «Cheminées» (Stand 01.01.2015, genehmigt 23.09.2014, 14 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerläuterung 104-15de «Spänefeuerungen» (Stand 01.01.2015, genehmigt 23.09.2014, 17 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerläuterung 105-15de «Schnitzelfeuerungen» (Stand 01.01.2015, genehmigt 23.09.2014, 12 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerläuterung 106-15de «Pelletsfeuerungen» (Stand 01.01.2015, genehmigt 23.09.2014, 14 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1002-15de «Schulbauten» (Stand 01.01.2015, genehmigt 23.09.2014, 30 S. vollstaendig gelesen, PL-03/05 Arbeitshilfen Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1000-15de «Gebaeude mit geringen Abmessungen» (Stand 01.01.2015, 21 S. vollstaendig gelesen, PL-03/05 Arbeitshilfen Brandschutz 2015), VKF-Brandschutzerlaeuterung 108-15de «Gewaehrleistung der Betriebsbereitschaft von Brandfallsteuerungen (BFS)» (Stand 01.01.2015, Kernteil 11 S. gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerlaeuterung 107-15de «Temporaere Aufstellung von Fluessiggasanlagen» (Stand 01.01.2015, 13 S. vollstaendig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-BSR 26-15de «Gefaehrliche Stoffe» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Run 37), DIN EN 12101-2 (Produktnorm NRWG-Ausloesevorrichtungen, PL-03/02 Brandschutzrichtlinien, Run 37), VKF-Brandschutzerlaeuterung 100-15de «Brandmauern» (Stand 01.01.2015, PL-03/02+04, Dateien vormals 0-Byte, Run 37 synchronisiert+ausgewertet), Normen-KB-Destillate `wissen/normen/destillate/vkf-brl-*` (Run 37 Doppelspur-Bereinigung §5o-§5y auf Destillat-Verweis gekuerzt), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», VKF-BSR 15-15de «Brandschutzabstaende Tragwerke Brandabschnitte» (Stand 01.01.2015/2017, PL-03/02_Brandschutzrichtlinien), VKF-BSR 16-15de «Flucht- und Rettungswege» (PL-03/_Projekte Themen/KISPI Fotos Ziff. 3.3.2-3.3.4/3.6), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» (Stand 17.05.2018) inkl. Ziff. 5/6/7 (Brandschutzabstaende/Tragwerke/Fluchtwege-Treppen), VKF-Brandschutzarbeitshilfe 1002-03d «Parkhaeuser und Einstellraeume fuer Motorfahrzeuge» (genehmigt 06.08.2003, PL-03/05 Arbeitshilfen Brandschutz 2015, ⚠ Datenstand vor bsvonline.ch pruefen), «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22) inkl. realer Muster-Plansatz BSPUB-1394520214-207 (PL-03/00 Brandschutzplaene bsvonline.ch), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30, refresh 2026-07-13: unveraendert, politische Vernehmlassung startet 08/2026), reale JANS-Faelle PL-03/_Projekte Themen: «Brandschutzabstand Regensdorf» (EFP AG Anfrage 16.02.2024 + JANS-Antwort 17.02.2024), «Tragwerk Brandschutzanforderung Thalwil Bohlweg 3» (Factsheet 05.03.2025, Aufstockung EFH), «Gaststaetenbetriebe Alpin Grassen Biwak» (Brandschutzkonzept Schmitter Brandschutz GmbH/Yves Schmitter, 16.–18.01.2025), «Pflegeheim Wald» (Foto Feuerwehrzufahrten-Bewegungsflaechen IMG_0546 + Foto Fluchtwegplan Tertianum Gruenegg IMG_0412) und «KISPI» (Fotos BSR 16-15 Ziff. 3.3.2-3.3.4/3.6 Beherbergungsbetriebe), VKF-Brandschutzerlaeuterung 101-15de «Bauten mit Atrien und Innenhoefen» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), VKF-Brandschutzerlaeuterung 102-15de «Bauten mit Doppelfassaden» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), Lignum-Dokumentation Brandschutz Themenblock 4 «Bauteile in Holz — Decken, Waende und Bekleidungen mit Feuerwiderstand» (Ausgabe Mai 2015, geprueft/anerkannt als Stand der Technik Papier 06.09.2017, PL-03/06 Lignum Brandschutz), Fritzsche/Boesch/Wipf/Kunz «Zuercher Planungs- und Baurecht» Band 2, Kap. 18 «Brandschutz» S. 1331/1343 (PL-03/07 Blaues Buch), VKF-Verzeichnis «Weitere Bestimmungen» 40-15de (PL-03/03 Verzeichnisse Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» Ziff. 2.4/12.1/12.2 «Parkings» (PL-03/05 Arbeitshilfen Brandschutz 2015/1001-15_Wohnbauten.pdf, vollstaendig gelesen 29 S.), VKF-Brandschutzrichtlinie 21-15 «Rauch- und Waermeabzugsanlagen» (PL-03/02 Brandschutzrichtlinien 2015-17-22/Rauch & Waermeabzugsanlagen.pdf, Ziff. 3.1 Tabelle), brandschutznachweis.ch «BS-Symbole» 01.01.2017 (vollstaendiger Grundsymbole+Ergaenzende-Symbole-Katalog, PL-03/00 Brandschutznachweis.ch/03_Symbole), «Erdbebengerechte mehrgeschossige Holzbauten» (Technische Dokumentation Lignum/SIA/SGEB/usic/HEV Schweiz, 2010, PL-03/06 Lignum Brandschutz/Lignum Erdbeben), Lignatec «Bauten in Holz — Brandschutz-Anforderungen» (Lignum, materielle Uebereinstimmung VKF-Vorschriften seit 1.1.2005 anerkannt, PL-03/06 Lignum Brandschutz/Lignum Bauten in Holz - Brandschutzanforderungen), VKF-BSR 12-15de «Brandverhuetung und organisatorischer Brandschutz» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Volltext gelesen Run 36), VKF-BSR 22-15de «Blitzschutzsysteme» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Volltext gelesen Run 36), VKF-BSR 24-15de «Waermetechnische Anlagen» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Ziff. 1-4 gelesen Run 36), VKF-BSR 25-15de «Lufttechnische Anlagen» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Ziff. 1-4 gelesen Run 36), «Erlaeuternder Bericht fuer die Vernehmlassung — Gesamtrevision Schweizerische Brandschutzvorschriften VKF» (VKF, 01.11.2013, V-3-0de, PL-03/02 Brandschutzrichtlinien 2015-17-22/BSV2015-Bericht und Aenderungen.pdf, Run 39 erstmals ausgewertet), «Teilrevision VKF-Brandschutzvorschriften 2017 — Aenderungen Brandschutzrichtlinien 2017 vs 2015» (AFC Basel/Lisa Hugenschmidt, PL-03/02 Brandschutzrichtlinien 2015-17-22/Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf, 34 S. Volltext-Delta, Run 39 erstmals ausgewertet), SZS steeldoc 03/15 «Brandschutz im Stahlbau» tec 02:2015 (Stahlbau Zentrum Schweiz, PL-03/02 Brandschutzrichtlinien 2015-17-22/SService Nr19091815480.pdf, Run 39 identifiziert), VKF-BSR 14-15de «Verwendung von Baustoffen» (28 S., PL-03/02 Brandschutzrichtlinien 2015-17-22/BSPUB-1394520214-77.pdf, Ausgabestempel 01.01.2017 IOTH-Beschluss 22.09.2016, Run 41 volltext-gelesen S.1-14+Anhang-Stichprobe S.15-20, konsistent mit bereits vorhandenem Normen-KB-Destillat `wissen/normen/destillate/vkf-brl-verwendung-baustoffe.md`; Run-39-Fehlidentifikation korrigiert — `Baustoff & Bauteile.pdf` ist BSR 13-15, nicht 14-15), Web bsvonline.ch/de/aktuell/information-bsv-2026 (WebFetch Run 39, 2026-07-14) + VKG-Medienmitteilung «Neue schweizerische Brandschutzvorschriften: Marschhalt bei Liberalisierungsbestrebungen und Ueberpruefung» (vkg.ch, WebSearch Run 39) + presseportal.ch/baublatt.ch (Bestaetigung technische Vernehmlassung 15.09.2025-11.01.2026 + ca. 11'000 Rueckmeldungen, Run 39 Refresh), «Normkonzept BSV 2026» (VKF/Keel & Raster Planungs- und Baurecht GmbH, Stand 06.10.2022, 170 S., PL-02/02_Normen/VKF_Norm/07_BSV 2026 Projekt (noch nicht in Kraft)/260711 VKF Normkonzept BSV 2026 Stand 2022-10-06.pdf, neu abgelegt 11.07.2026, Run 48 Kap. 1-2 (S.1-15) + Kap. 5 "Eckpunkte der Totalrevision" (S.90-129) volltext gelesen, 38 Eckpunkte), VKF-BSR 16-15de «Flucht- und Rettungswege» Stand 01.12.2022 (PL-03/02 Brandschutzrichtlinien 2015-17-22/BSPUB-1394520214-85.pdf, 35 S., Run 52 volltext-diff gegen 2015/2017-Fassungen), VKF-Brandschutznorm 1-15 Zweitkopie BSPUB-1394520214-57.pdf + VKF-BSR 13-15de Rev.2017 BSPUB-1394520214-71.pdf (Run 52, Register-Vervollstaendigung, redaktionelle Deltas), Web bsvonline.ch/de/aktuell/information-bsv-2026 (WebFetch Run 52, 2026-07-18) + vkg.ch-Medienmitteilungsseite (WebSearch Run 52, BSV-2026-Stand unveraendert bestaetigt)]
 links: [[recht-norm-quellenlandkarte]], [[energie-pv-brandschutz]], [[kartenportale-sharepoint-ablage]], [[recht-norm-tiefgarage-erschliessung]], [[kartenportale-naturgefahren-objektschutz]]
 ---
 
@@ -133,6 +133,21 @@ bsvonline.ch/de/aktuell/information-bsv-2026 (WebFetch 2026-07-14), VKG-Medienmi
 schweizerische Brandschutzvorschriften: Marschhalt bei Liberalisierungsbestrebungen und
 Ueberpruefung» (vkg.ch, WebSearch 2026-07-14), presseportal.ch/baublatt.ch (Bestaetigung
 15.09.2025-Start + 11'000-Rueckmeldungen-Zahl).
+
+**Refresh 2026-07-18 (Run 52, Token-Vollgas):** erneut per WebSearch + WebFetch
+(`bsvonline.ch/de/aktuell/information-bsv-2026`, vkg.ch-Medienmitteilungsseite) geprueft — Stand
+**unveraendert** bestaetigt: technische Vernehmlassung weiterhin 15.09.2025-11.01.2026 (abgeschlossen),
+Schulungsbeginn 12/2025, **politische Vernehmlassung 08-11/2026** (heutiges Datum 18.07.2026 liegt
+damit rund drei Wochen VOR dem angekuendigten Start), Genehmigung IOTH-Plenarversammlung **03/2027**,
+geplantes Inkrafttreten weiterhin mit Vorbehalt kommuniziert. Der WebFetch-Direktabgleich der
+bsvonline.ch-Seite bestaetigt wortgleich: "Konsolidierungsphase eingeschoben" (Grund Detailabstimmung,
+nicht der Marschhalt), keine neue Medienmitteilung von VKG/IOTH seit der 06.01.2026-Meldung
+"Marschhalt bei Liberalisierungsbestrebungen" gefunden. **Kein neuer Terminplan, keine Aenderung an
+den bereits dokumentierten Eckpunkten (§1a).** Naechster sinnvoller Check-Zeitpunkt bleibt der
+effektive Start der politischen Vernehmlassung (August 2026) — bis dahin sind Kurz-Refreshes nur noch
+Bestaetigungen ohne neuen Erkenntnisgewinn; naechster inhaltlicher Fortschritt ist eher am
+Normkonzept-Delta (falls VKF vor der politischen Vernehmlassung eine ueberarbeitete Fassung des
+Normkonzepts publiziert) als am reinen Terminplan-Rescan zu erwarten.
 
 **§1a · Normkonzept BSV 2026 — die materiellen Eckpunkte (Primaerquelle, Run 48, 2026-07-14):**
 
@@ -1234,11 +1249,13 @@ VKF-Definition (Untergeschoss-Kriterium >50 % Aussenwandflaeche unter Terrain), 
 deckungsgleich mit der baurechtlichen Definition (§ 275 PBG) — bei Fassaden-/
 Gebaeudehoehen-Grenzfaellen (§4b) beide Definitionen separat pruefen.
 
-## 5u · Flucht- und Rettungswege — Kernzahlen bestaetigt gegen BSR 16-15de (Run 34, 2026-07-13; gekuerzt Run 37, 2026-07-14)
+## 5u · Flucht- und Rettungswege — Kernzahlen bestaetigt gegen BSR 16-15de (Run 34, 2026-07-13; gekuerzt Run 37, 2026-07-14; aktualisierte Fassung + neue Verkaufsnutzungs-Tabelle → §5am, Run 52, 2026-07-18)
 
 Volltext siehe `wissen/normen/destillate/vkf-brl-16-15-flucht-rettungswege.md` (VKF-BSR 16-15de,
 01.01.2015/2017, vollstaendig destilliert — Kernkennwerte in beiden Ausgaben identisch; Quelle
-`PL-03/02 Brandschutzrichtlinien 2015-17-22/Flucht & Rettungswege.pdf`).
+`PL-03/02 Brandschutzrichtlinien 2015-17-22/Flucht & Rettungswege.pdf`). **Aktuellste amtliche
+Fassung ist Stand 01.12.2022** (`BSPUB-1394520214-85.pdf`) — Delta-Pruefung und neue
+Verkaufsnutzungs-Personenbelegungstabelle siehe §5am.
 
 **Fuer die Vorprojekt-Layoutplanung (Empfangshallen/Wartebereiche Spital/Pflegeheim) direkt
 anwendbare Kernzahlen:** Fluchtweglaengen max. **35 m** (ein Fluchtweg) bzw. **50 m** (zwei
@@ -1907,6 +1924,103 @@ häufigste Holzfeuerungs-Anfrage bei JANS-Kleinprojekten (Einfamilienhaus-/Mehrf
 Heizungsersatz Kt. ZH/SZ, energetische Sanierung). Der Umrechnungsfaktor **1 m³ ≈ 650 kg**
 sowie die CO-Belüftungspflicht sind bei der Lagerraum-Dimensionierung im Vorprojekt (Skill
 `machbarkeit`/`energie-berater`) direkt verwendbare, belegte Kennwerte.
+
+---
+
+## 5am · BSR 16-15 Flucht- und Rettungswege — aktualisierte Fassung Stand 01.12.2022, Delta-Pruefung (Run 52, 2026-07-18)
+
+Ordner-Abgleich (`find` gegen alle Unterordner von PL-03, systematischer BSPUB-Nummern-Check) deckt
+im Ordner `02 Brandschutzrichtlinien 2015-17-22/` eine **dritte, bisher nicht kartierte Fassung**
+der BSR 16-15 auf: `BSPUB-1394520214-85.pdf` (35 S., Kopfzeile "01.01.2017 / 16-15de", zusaetzlicher
+Stempel **"Stand 01.12.2022"**), neben den bereits dokumentierten Fassungen `Flucht & Rettungswege.pdf`
+(01.01.2015, §5u) und `16-15_rev2016_flucht_und_rettungswege.pdf` (01.01.2017, ohne 2022-Stempel).
+Volltext-Diff aller drei Fassungen gegeneinander gefahren (nicht nur Stichprobe):
+
+- **Aenderungshistorie im Anhang-Vorspann (neu, bisher nicht dokumentiert):** die 2022-Fassung
+  listet explizit drei Aenderungsstufen: **IOTH-Beschluss 22.03.2017** (Ziff. 2.4.3/2.4.4, S. 15/16),
+  **TKB-Beschluss 09.06.2021** (Ziff. 3.5.2, S. 24) und eine **Fehlerkorrektur 01.12.2022** (Ziff. 3.7,
+  S. 33).
+- **Fehlerkorrektur Ziff. 3.7 (S. 33, Dez. 2022) — gepruefte Kernzahl, KEINE Aenderung fuer JANS:**
+  korrigiert nur die Bezugsflaeche fuer die Schleusenpflicht bei Einstellraeumen von "Geschossflaeche"
+  auf **"Brandabschnittsflaeche > 1'200 m²"**. Der bereits in §5g/§5l dokumentierte JANS-Kennwert
+  "Schleusenpflicht ab 1'200 m² Brandabschnittsflaeche" **stammte bereits aus der praezisen
+  Wohnbauten-Arbeitshilfe (1001-15, Ziff. 12.2)** und war schon vor dieser Korrektur richtig
+  referenziert — kein Korrekturbedarf im Wegweiser, aber Bestaetigung, dass die BSR-16-15-Fassung
+  vor Dez. 2022 an dieser Stelle einen (inzwischen behobenen) Redaktionsfehler enthielt.
+- **Ziff. 3.5.2 Personenbelegungsdichte-Tabelle Verkauf (TKB-Beschluss 09.06.2021) — genuiner
+  Inhalts-Delta, bisher nicht im Wegweiser:** die bis 2021 gueltige einfache 3-stufige Tabelle
+  ("Verkaufsgeschaefte: ebenerdig 0.5 / 1.UG-1.OG 0.35 / tiefer-hoeher 0.25 Pers./m²") wurde durch
+  eine **differenzierte 3x2-Matrix nach Betriebstyp** ersetzt:
+
+  | Betriebstyp | ebenerdig | ueber Treppen (UG/OG) |
+  |---|---|---|
+  | Fachmaerkte/Kaufhaeuser/Einkaufszentren (wenig/kein Food) | 0.10 Pers./m² | 0.10 Pers./m² |
+  | Supermaerkte (Food-Schwerpunkt) | 0.38 Pers./m² | 0.15 Pers./m² |
+  | Hochfrequentierte Supermaerkte (ÖV-Knotenpunkt, Sonntagsverkauf, > 7 Besucher/Tag/m² BGF) | 0.45 Pers./m² | 0.21 Pers./m² |
+
+  Die Fachmarkt-/Kaufhaus-Werte (0.10) liegen **deutlich unter** dem alten Pauschalwert (0.25-0.5) —
+  regelkonform kleiner dimensionierte Fluchtwege moeglich; Supermaerkte/hochfrequentierte
+  Supermaerkte koennen dagegen **hoehere** Personenbelegung ergeben als der alte Pauschalwert.
+  **JANS-Praxisrelevanz:** bei Erdgeschoss-Retail in Wohn-/Mischnutzungsbauten (Apotheke, Kiosk,
+  Quartierladen im Sockelgeschoss von Alterswohnungen/Gesundheitszentren) ist seit 2021 die
+  **Betriebstyp-spezifische** Tabelle massgebend, nicht mehr der pauschale Altwert — bei
+  Fluchtwegbreiten-Berechnung (Formel 0.6 m/100 Pers. ebenerdig, §5u) korrekt zuordnen.
+- **Terminologie-/Formulierungsdelta ohne Kennzahlaenderung:** "Horizontaler Fluchtweg mit einem
+  Ausgang…" (2015/2017) → "Gesamtlaenge von Fluchtwegen mit einem Ausgang…" (2022, praeziser),
+  Bankett-/Konzertbestuhlung-Tabelle Aufzaehlungszeichen-Formatierung geaendert (kein Inhalts-Delta).
+
+→ **Konsequenz:** [[brandschutz-pl03-wegweiser]] §5u wird auf diese aktuellste Fassung
+(`BSPUB-1394520214-85.pdf`, Stand 01.12.2022) als primaere Quelle umgestellt; die bereits
+dokumentierten Kernzahlen (Fluchtweglaengen 35/50 m, Breitenformel, Sicherheitstreppenhaus-Masse)
+bleiben unveraendert `established`, die Verkaufsnutzungs-Personenbelegungstabelle ist NEU und wird
+mit `established` (amtliche Primaerquelle, Volltext gepruefte Fundstelle S. 24) gefuehrt. Das
+Normen-KB-Destillat `wissen/normen/destillate/vkf-brl-16-15-flucht-rettungswege.md` fuehrt noch die
+2015/2017-Kernzahlen ohne die 2021er-Verkaufstabelle — **Flag fuer normen-training** (Destillat auf
+2022-Stand nachziehen).
+
+---
+
+## 5an · Register-Vervollstaendigung `02 Brandschutzrichtlinien 2015-17-22/` (BSPUB-Nummern-Scan) + bestaetigt blockierte Kandidaten (Run 52, 2026-07-18)
+
+**Systematischer Abgleich aller `BSPUB-1394520214-*.pdf`-Dateien im Ordner** (die einzigen, die noch
+ohne sprechenden Dateinamen vorlagen — Fortsetzung des in B30/B31 begonnenen Scans) ergab zwei
+weitere, bisher nicht im Register gefuehrte Nummern:
+
+- **`BSPUB-1394520214-57.pdf`** = **1-15 Brandschutznorm**, 01.01.2015, 17 S. — inhaltsgleiche
+  Zweitkopie der bereits unter §1 referenzierten `01 Brandschutznorm 2015/1-15_Brandschutznorm.pdf`
+  (gleicher Titel/Datenstand, nur andere Dateibenennung, keine Volltext-Abweichung stichprobenartig
+  geprueft). **Bestaetigter Nicht-Fund** (kein neuer Inhalt).
+- **`BSPUB-1394520214-71.pdf`** = **13-15 Baustoffe und Bauteile, Rev. 01.01.2017** (25 S.) — Delta
+  gegen die bereits unter §4 dokumentierte 2015-Fassung (`Baustoff & Bauteile.pdf`) volltextlich
+  geprueft (Zeilen-Diff beider Fassungen): **rein redaktionell**, keine geaenderte Kernzahl. Die
+  RF-/VKF-BKZ-Klassifikationstabelle (Ziff. 2.4.1) ist inhaltlich identisch, nur Begriffs-Update
+  "Rohrisolationen" → **"Rohrdaemmungen"** und Fussnote "Fassung gemaess Beschluss IOTH vom
+  22.09.2016"; Bauteil-Nr. 208 wurde von "Bedachung, Dachelemente" in **"Dachkonstruktionen"**
+  umbenannt (Ziff. 3.4-Anhangtabelle S. 24, die zweite im Aenderungsvermerk angekuendigte Stelle).
+  Keine Auswirkung auf die bereits im Wegweiser genutzten RF-/EI-Kennzahlen.
+
+**Bestaetigt blockiert (technisch, nicht recherche-bedingt — EDEADLK/"Resource deadlock avoided",
+gleiches Muster wie Run 50/51 K41-K44):**
+
+- **`z_Administration/000_VKF_Lieferschein_Norm_2015.pdf`** + **`000_VKF_Bestellung_Norm_2015.pdf`**
+  (bisher nur als Ordnername in §1 erwaehnt, nie inhaltlich gelesen) — beide Dateien liessen sich
+  trotz drei Leseversuchen (`Read`, `cat`, Hintergrund-Priming mit 20 s Wartezeit) nicht oeffnen.
+  Nach Dateiname vermutlich reine administrative Bestellbelege der gedruckten VKF-Norm 2015 (niedrige
+  Prioritaet), aber nicht verifiziert — offen fuer den naechsten Lauf.
+- **Feuerwehrplan-Zusatzvariante `Stoerfall ABC-Objekt/`** (Unterordner von §5b, Musterplansatz
+  BSPUB-1394520214-207) — 8 PDF (Objektdatenblatt, Titelblatt, Anfahrts-/Situations-/Detailplaene EG+UG,
+  Oekologieplan, Lagerliste), bisher nur als Existenz/Zweck ("optionale Zusatzvariante fuer Betriebe
+  mit gefaehrlichen Stoffen") in §5b erwaehnt, nie inhaltlich geoeffnet. Alle 8 Dateien technisch
+  blockiert (EDEADLK, auch nach Retry). **Fachlicher Erwartungswert (unverifiziert, deshalb nicht in
+  den Haupttext uebernommen):** vermutlich ergaenzte ABC-Gefahrenkennzeichnung (Objektdatenblatt nennt
+  laut §5b bereits generisch "ABC-Gefahren" als Gefahren-Feld) — braucht den naechsten Lauf mit
+  erneutem Leseversuch.
+
+**Bestaetigt identisch (Duplikat-Check, kein neuer Inhalt):**
+`05 Arbeitshilfen Brandschutz 2015/1001-15_Wohnbauten Auszug Brandschutz_Arbeitshilfe_Wohnbauten.pdf`
+ist byte-identisch (452'363 Bytes, gleiches Datum) mit der bereits fuer die Benchmarks Regensdorf
+(§4b) und Thalwil Bohlweg 3 (§4b) verwendeten Datei `Brandschutz_Arbeitshilfe_Wohnbauten.pdf` — reine
+Mehrfachablage derselben Datei an drei Orten, kein neuer Fund.
 
 ---
 

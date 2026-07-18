@@ -1,8 +1,8 @@
 ---
 title: Recht & Norm — Raumprogramm-Referenzwerke (Raumpilot, WBS 2015, Sanitärbemessung)
 status: established
-last_updated: 2026-07-13 (Run 35)
-sources: [PL - 02_Recht_Norm/05_Raumpilot (Raumpilot-Grundlagen, Jocher/Loch, Wüstenrot Stiftung, 2012), PL - 02_Recht_Norm/01_Gesetze/06_Wohnbauförderung (BWO, Wohnungs-Bewertungs-System WBS, Ausgabe 2015; Kt. ZH Wohnbauförderungsreglement Merkblatt 15, Mai 2017, "Zimmerzählung Wohnungen.pdf"), PL - 02_Recht_Norm/09_Sanitaereinrichtung (Stadt Zürich UGZ, Merkblatt "Toilettenanlagen für Personal und Publikum", Version Mai 2012 UND Merkblatt Dezember 2020), PL - 02_Recht_Norm/07_Neuffert (Neuffert_3_edition.pdf, Bauentwurfslehre, bestätigt vorhanden, nicht destilliert), "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/041216 Bewilligungspraxis Trockenräume.pdf (Mailwechsel Meili Peter Architekten, 16.12.2004, Auskunft AfB Stadt Zürich zu § 297 PBG / § 39 BBV I)", "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/110523 TN BBV Art 40 Siegrist Wipfli RA.pdf (Mailwechsel haratori Architekten ↔ Sigrist Wipfli Meisser RA ↔ AfB Stadt Zürich, Mai 2011, § 40 BBV I Betten-Aufzüge + BRKE I Nr. 0117 v. 4.6.99)"]
+last_updated: 2026-07-18 (Run 52)
+sources: [PL - 02_Recht_Norm/04_Merkblätter/Flaechen_Wettbewerb.pdf (handschriftliche Technikraum-Flächenskizze, Provenienz ungeklärt, speculative), PL - 02_Recht_Norm/05_Raumpilot (Raumpilot-Grundlagen, Jocher/Loch, Wüstenrot Stiftung, 2012), PL - 02_Recht_Norm/01_Gesetze/06_Wohnbauförderung (BWO, Wohnungs-Bewertungs-System WBS, Ausgabe 2015; Kt. ZH Wohnbauförderungsreglement Merkblatt 15, Mai 2017, "Zimmerzählung Wohnungen.pdf"), PL - 02_Recht_Norm/09_Sanitaereinrichtung (Stadt Zürich UGZ, Merkblatt "Toilettenanlagen für Personal und Publikum", Version Mai 2012 UND Merkblatt Dezember 2020), PL - 02_Recht_Norm/07_Neuffert (Neuffert_3_edition.pdf, Bauentwurfslehre, bestätigt vorhanden, nicht destilliert), "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/041216 Bewilligungspraxis Trockenräume.pdf (Mailwechsel Meili Peter Architekten, 16.12.2004, Auskunft AfB Stadt Zürich zu § 297 PBG / § 39 BBV I)", "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/110523 TN BBV Art 40 Siegrist Wipfli RA.pdf (Mailwechsel haratori Architekten ↔ Sigrist Wipfli Meisser RA ↔ AfB Stadt Zürich, Mai 2011, § 40 BBV I Betten-Aufzüge + BRKE I Nr. 0117 v. 4.6.99)"]
 links: [[recht-norm-quellenlandkarte]], [[machbarkeit]], [[studien-generator]], [[stockwerkeigentum]], [[recht-norm-arbeitsplatz-bauvorschriften]], [[healthcare-wirtschaftlichkeit]], [[recht-norm-sanitaerraeume-planungsgrundlagen]], [[recht-norm-ahb-stadt-zuerich-projektstandards]]
 ---
 
@@ -265,9 +265,47 @@ direkt relevant für [[healthcare-wirtschaftlichkeit]] und die Erschliessungsfl�
 teurere Bettenlift **nicht** vorgeschrieben — diese BRKE-Praxis als Kostenargument gegenüber der
 Bauherrschaft/Behörde nutzbar, wenn ein Bettenlift unnötig gefordert würde.
 
+## 6. Technikräume — Flächenbedarf-Skizze Gebäudetechnik (Run 52, 2026-07-18, speculative)
+
+Quelle: `04_Merkblätter/Flaechen_Wettbewerb.pdf` — eine **handschriftliche, gescannte Skizze**
+(Konica-Minolta-Scanstempel, kein Verfasser/Projekt/Datum im Dokument selbst erkennbar), die trotz
+des irreführenden Dateinamens **kein Wettbewerbsbeitrag**, sondern eine **Technikraum-
+Flächenliste** ist: 11 Positionen (Nr. 7–17) mit Flächenangabe und Geschosszuordnung (UG/im EG/OG/
+auf dem Dach), Total je Geschoss unten aufsummiert.
+
+| Nr. | Raum | Fläche | Geschoss |
+|---|---|---|---|
+| 7 | Gebäudeverteilerraum Starkstrom | 16 m² | UG |
+| 8 | Elektrounterverteilung inkl. Gebäudeautomation | 10 m² | UG |
+| 9 | USV und Notlicht | 12 m² | UG |
+| 10 | Schwachstromraum inkl. medizinische Alarmierung | 10 m² + 16 m² | im EG |
+| 11 | IT-Rackraum | — | im EG (mit Pos. 10 gruppiert) |
+| 12 | Lüftungszentrale | 30 m² | auf dem Dach |
+| 13 | Zentrale HLKKS | 20 m² | UG |
+| 14 | Medgas-Raum inkl. Druckluft | 20 m² | im EG |
+| 15 | Stickstoff, CO2 | 10 m² | im EG |
+| 16 | Wartungs- und Lagerraum Technik | 15 m² | UG |
+| 17 | Wartungsraum Medizintechnik | 12 m² | OG |
+| **Total Technik** | | **UG 73 m² / EG 20 m² / OG 48 m² / Dach 30 m²** | |
+
+**Einordnung/Vorsicht (status `speculative`):** Die Skizze trägt keine Quellenangabe — sie könnte
+ein eigenes JANS-Arbeitsblatt aus einem früheren Healthcare-Projekt (die Positionen «Medgas-Raum»/
+«Stickstoff, CO2»/«medizinische Alarmierung» deuten auf ein Spital-/Klinikprojekt) oder ein
+Drittdokument sein. Die Zahlen werden deshalb **nicht als allgemeingültiger Kennwert**, sondern
+als **grobe Grössenordnungs-Orientierung für Technikraum-Flächenprogramme bei Healthcare-Neubauten**
+festgehalten — vor Verwendung in einem realen Raumprogramm gegen die tatsächliche
+Gebäudetechnik-Konzeption (Fachplaner HLKKS/Elektro/Medizintechnik) verifizieren. Ergänzt die
+bisher fehlende Technikraum-Dimension in diesem Artikel (bisher nur Sanitär-/Wohn-/Bettenlift-
+Flächen dokumentiert); Querverweis zu den AHB-GT-Richtlinien
+[[recht-norm-ahb-stadt-zuerich-projektstandards]] §12-14 (dort die *regulatorischen* Vorgaben zur
+Gebäudetechnik, hier reine Flächenrichtwerte) sowie zur Medgas-/Drucklufttechnik in
+[[recht-norm-ahb-stadt-zuerich-projektstandards]] §13.3 (Sanitär-/Lüftungsrichtlinie).
+
 ## Offen
 - Raumpilot-Kapitel "Wohnen" (S. 155–348) noch nicht im Detail ausgewertet — bei konkretem
   Wohnungsbau-Raumprogramm-Bedarf vertiefen.
+- §6 (Technikraum-Flächenskizze) hat ungeklärte Provenienz — Ursprungsprojekt/Autor bei Gelegenheit
+  klären (z.B. Abgleich mit realen JANS-Healthcare-Projektakten), dann Status auf `emerging` heben.
 - WBS-Kriterientabelle vollständig (K1–K25) nur als Struktur erfasst, nicht alle 25 Kriterien im
   Detail — bei konkretem Fall mit Wohnbauförderungs-Bezug (Gemeinnütziger Wohnungsbau) vertiefen.
 - § 297 PBG / § 39 BBV I / § 40 BBV I sind hier aus **Sekundärquellen** (Mailauskünfte AfB/Anwalt,

@@ -213,6 +213,75 @@ das Ergebnis in den passenden Wiki-Artikel.
   Fassung verifiziert, nur Kern-§§ 284/270/357 andernorts bereits bestaetigt) + Rueckverweis-
   Ergaenzung in [[kartenportale-oereb-kataster-system-zh]] §8.
 
+- [x] R55 Ordner `04_Merkblätter/Projektadmin AHB/13-CAD+Archivierung/13.2-CAD-Richtlinie/
+  Richtlinie-CAD-4.0-2008.pdf` (17-seitige Vollversion, seit R41 als Backlog gefuehrt) — schliesst
+  sie den in R41 offen gelassenen Backlog, und was liefert sie ueber die bereits dokumentierte
+  Kurzfassung hinaus? (2026-07-18 Run 52, Token-Vollgas: JA — vollstaendig gelesen. Zweispaltige
+  Basisrichtlinie/AHB-Ergaenzung-Struktur; neue Fakten: vollstaendige Layerbezeichnungs-Systematik
+  nach EKG/SIA-2014 (~45 Basislayer je Fachbereich), 31-stelliges Dateibezeichnungsschema inkl.
+  10 Projektphasen-Kuerzel (S/V/P/E/B/A/R/C/T/W, direkt uebertragbar auf JANS-Dateinamen-Konvention
+  bei Stadt-ZH-Mandaten), 26-Zeilen-Stiftfarben-/Linienstaerken-Tabelle, Referenzpunkt-Systematik
+  (Anknuepfung an amtliche Vermessung), rechtliche Nutzungsrechts-Uebertragung (§6) → NEU §7.1
+  [[recht-norm-ahb-stadt-zuerich-projektstandards]], Backlog in §9 geschlossen)
+- [x] R56 Ordner `04_Merkblätter/Flaechen_Wettbewerb.pdf` (nie kartierte Datei, systematischer
+  Ordner-Abgleich Run 52) — was verbirgt sich hinter dem irrefuehrenden Dateinamen? (2026-07-18
+  Run 52: KEIN Wettbewerbsbeitrag — eine handschriftliche 11-Positionen-Technikraum-Flaechenliste
+  (Gebaeudeverteilung Starkstrom/Elektrounterverteilung/USV/Schwachstrom+medizinische Alarmierung/
+  IT-Rackraum/Lueftungszentrale/HLKKS/Medgas/Stickstoff-CO2/Wartungsraeume) mit Geschosszuordnung
+  UG/EG/OG/Dach, Total UG 73/EG 20/OG 48/Dach 30 m² — Positionen wie Medgas/medizinische Alarmierung
+  deuten auf Spital-/Klinikprojekt, Autor/Herkunft aus dem Scan nicht ermittelbar → NEU §6
+  [[recht-norm-raumprogramm-referenzwerke]], Status **speculative** (Provenienz vor produktiver
+  Nutzung klaeren))
+- [x] R57 Ordner `04_Merkblätter/Procap MB_105_200910_D_rollstuhlgerechte_toiletten_oeffentlich__01.pdf`
+  (nie kartierte Datei ausserhalb des bereits erschlossenen `09_Sanitaereinrichtung`) — liefert das
+  Procap-Fachmerkblatt einen Delta zu den bereits dokumentierten SIA-500-Behindertenanlagen-Massen
+  (R27/§3-4 in [[recht-norm-sanitaerraeume-planungsgrundlagen]])? (2026-07-18 Run 52: JA — bemasste
+  IV-WC-Grundrissfiguren (Minimalraum 1.65×1.80 m aussen-, 1.80×2.30 m/2.15×1.80 m innenoeffnend),
+  vollstaendige Bauteil-/Bedienelement-Legende (Haltegriff-/Klappgriff-/Waschtisch-/Spiegel-Masse);
+  **wichtigster Fund:** expliziter Verweis der Quelle auf **Procap Merkblatt 401** als massgebliche
+  Fundstelle fuer Sonderbauten (Spitaeler/Pflegeheime/Betreutes Wohnen) — praezisiert den bereits
+  bekannten SIA-500-Vorbehalt (§4) um die konkrete Ausweich-Norm; handschriftliche Projektnotiz
+  "Pro Treppenhaus 1 IV-Toilette vorzusehen" bestaetigt Praxis-Anwendung → NEU §5
+  [[recht-norm-sanitaerraeume-planungsgrundlagen]]. Offen: Merkblatt 401 selbst nicht im Hub
+  vorhanden, bei Healthcare-Mandat bei Procap Bauen zu beschaffen)
+- [x] R58 Ordner `04_Merkblätter/AWEL_Merkblatt_Versickerung.pdf` (nie kartierte Datei, Delta-Check
+  gegen die bereits dokumentierte Regenwasser-Richtlinie R20/Teil A) — liefert die AWEL-Broschuere
+  "Versickerung des Regenwassers" (Gewerbe-/Industrieareale) neue, ueber die materielle Richtlinie
+  hinausgehende Praxiswerte? (2026-07-18 Run 52: JA, echtes Delta — Fuenf-Flaechentypologie mit
+  Zulaessigkeits-Matrix je Gewaesserschutzbereich (Verkehrsflaechen/Lagerflaechen/PW-Parkplaetze/
+  Arbeitsflaechen im Freien/Gueterumschlagplaetze), Kostenbenchmark-Tabelle CHF 20-200/m² fuer neun
+  Versickerungsloesungen, realer Praxisfall TOI TOI Buchs (ZH) mit CHF 30'000 eingesparten
+  Baukosten durch Verzicht auf Einlaufschaechte, Platzbedarf-Richtwert 5-10 % der entwaesserten
+  Flaeche (mit 5 realen ZH-Benchmarks), 5-Schritte-Planungsablauf → NEU Teil C
+  [[recht-norm-regenwasser-gewaesserraum-zh]])
+- [x] R59 Ordner `04_Merkblätter/Projektadmin AHB/09-Projektdokumentation/`,
+  `10-Projektablauf/`, `04-Grafikvorlagen-Ordnerruecken/` (letzte drei R39-Backlog-Kandidaten,
+  bisher als "vermutlich Nicht-Fund" eingestuft) — stimmt diese Einschaetzung wirklich fuer alle
+  drei? (2026-07-18 Run 52: TEILWEISE bestaetigt, TEILWEISE offen. **04-Grafikvorlagen-
+  Ordnerruecken bestaetigt als reiner Nicht-Fund** (drei Word-Vorlagen `.dot` fuer Ordnerruecken
+  hoch/schmal/quer + zwei fuer CD-Cover/-Label, keine Fachinhalte). **09-Projektdokumentation und
+  10-Projektablauf bleiben OFFEN** — enthalten potenziell substanziellen Inhalt
+  (`Projektdokumentation_Richtlinie.pdf` 22 KB + Muster-Dateien; `Abnahmeprotokoll-SIA.doc`),
+  aber der Dateizugriff war beim Lesen durch einen **OneDrive-File-Provider-Lock** (`EDEADLK`/
+  "Resource deadlock avoided") blockiert, auch nach Retry mit 15 s Wartezeit unveraendert —
+  dasselbe Sync-Timing-Muster wie beim Naturgefahren-/Lignum-Fall (dort loeste sich der Lock erst
+  im uebernaechsten Lauf). Kandidat fuer den naechsten Recht/Norm-Lauf, NICHT als Nicht-Fund
+  abschliessen → §9 [[recht-norm-ahb-stadt-zuerich-projektstandards]] praezisiert)
+- [x] R60 Ordner `04_Merkblätter/Merkblatt-TK004_Fluchtwege_DE.pdf` (nie kartierte Datei,
+  systematischer Ordner-Abgleich Run 52) — liefert das SMU/VST-Merkblatt "Tueren in Fluchtwegen"
+  eine neue, bisher nicht dokumentierte Fachdomaene (Schliesstechnik), und wie grenzt sie sich vom
+  Skill `brandschutz` ab (kein Doppel)? (2026-07-18 Run 52: JA, neue Domaene — vier Schutzziele
+  fuer Fluchtweg-Tueren, Abgrenzung Notausgangstuer (SN EN 179, max. 1 Handbewegung, F≤70N) vs.
+  Panikausgangstuer (SN EN 1125, Panikstange, F≤80-220N) inkl. Bedienkraft-Tabelle; **expliziter
+  Praxis-Warnhinweis der Quelle: Panikstangen problematisch fuer Kinder/aeltere Menschen/Spital-
+  Gehhilfen-Patienten/Rollstuhlfahrer** (direkt JANS-Healthcare-/Schulbau-relevant, Argument fuer
+  Notausgangstuer-mit-Druecker statt Panikstange wo baurechtlich zulaessig); fuenf mechanische
+  Panikschloss-Funktionsbuchstaben B-E+SVP; elektrische Fluchtwegtueren-Steuerung (Ruhestrom-/
+  Arbeitsstromprinzip, prEN 13633/13637, DIN 18650 automatische Tueren). VKF-Brandschutznorm-
+  Fundstellen (Art. 37/47/48, Anhang 3.5.5/7.3.5) im Anhang bewusst nur als Beleg referenziert,
+  nicht dupliziert (bleiben bei Skill `brandschutz`/Normen-KB) → NEU §4
+  [[recht-norm-arbeitshilfen-planungsdetails]])
+
 ## Domaene 4 — Brandschutz (PL-03)
 - [x] B1 Verhaeltnis zu Skill `brandschutz` festlegen (Verweis vs. eigene Grundlagen-Notizen). (2026-06-22 Run 8: Entscheid schlanker Wegweiser — Planungsgrundlagen/Prozess/QSS hier, Fach-/Detailarbeit im Skill `brandschutz`; kein Doppel → [[brandschutz-pl03-wegweiser]])
 - [x] B2 Brandschutznachweis-Vorlagen (brandschutznachweis.ch) — wann braucht es welche? (2026-06-22 Run 8: Anleitung V.3 A–F belegt — Inhalt D/E/Plaene F SIA 400/1:100-200/A3, EFH nur auf Verlangen, Umbau=Maengel aufzeigen, Vorlage MFH-5g-RF1 V.3 → [[brandschutz-pl03-wegweiser]] §2)
@@ -255,6 +324,11 @@ das Ergebnis in den passenden Wiki-Artikel.
 - [x] B37 VKF-Brandschutzerlaeuterung 104-15de «Spaenefeuerungen» (17 S., Run-42-Backlog) — welche Anforderungen gelten fuer Spaene-/Hackschnitzel-Feuerungsanlagen (Lagerraeume, Foerderanlagen, Brandschutzabstaende, Loescheinrichtungen)? (2026-07-14 Run 45: NEU §5aj [[brandschutz-pl03-wegweiser]] — Heizraum IMMER EI 60 unabhaengig Nennwaermeleistung (keine kW-Erleichterung), 2 unabhaengige Rueckbrandsicherungen SLE+RSE zwingend, freistehende Silos 10 m Sicherheitsabstand, offene Lagerbehaelter im Freien max. 40 m³. Niedrige Prioritaet, Gewerbe-/Schreinerei-Nebenanlage)
 - [x] B38 VKF-Brandschutzerlaeuterung 105-15de «Schnitzelfeuerungen» (12 S., Run-42-Backlog) — Delta zu Spaenefeuerung (B37)? (2026-07-14 Run 45: NEU §5ak [[brandschutz-pl03-wegweiser]] — eigenstaendige Kategorie (Korngroesse 40/20/10 mm, Feuchte >20 %), 70-kW-Erleichterungsschwelle (Aufstellraum EI 30 statt Heizraum EI 60, darf andere Zwecke dienen), dreistufiges Rueckbrandsicherungs-Regime RHE/RSE+TUEB/RSE+SLE+TUEB je nach Austragungsart, Ausraeumoeffnungs-Staffel 1.0x0.7/2.0x0.9/2.5x1.5 m identisch mit Pellets (B39). Niedrige bis mittlere Prioritaet, ländliche Sanierungsprojekte ZH/SZ)
 - [x] B39 VKF-Brandschutzerlaeuterung 106-15de «Pelletsfeuerungen» (14 S., Run-42-Backlog) — welche spezifischen Anforderungen gelten fuer Pelletlager und -feuerungen (Silogroesse, Rueckbrandsicherung, CO-Warnung)? (2026-07-14 Run 45: NEU §5al [[brandschutz-pl03-wegweiser]] — Pellets Ø5-7 mm/Feuchte ≤10 %/1 m³≈650 kg, gleiche 70-kW-Schwelle+Ausraeumoeffnungs-Staffel wie Schnitzel, FUENF gestaffelte Rueckbrandsicherungs-Fallgruppen (feinste Granularitaet aller vier Feuerungstypen), pelletsspezifische CO-Belueftungspflicht + Prallschutzmatten bei Befuellung. Niedrige bis mittlere Prioritaet, haeufigste Holzfeuerungs-Anfrage bei JANS-Kleinprojekten. **Backlog aus Run 42 (B36-B39) damit vollstaendig abgearbeitet.**
+- [x] B40 BSR 16-15 Flucht- und Rettungswege — systematischer BSPUB-Nummern-Scan im Ordner `02 Brandschutzrichtlinien 2015-17-22/` deckt eine dritte, bisher unkatalogisierte Fassung auf (`BSPUB-1394520214-85.pdf`, Stand 01.12.2022) neben den bereits dokumentierten 2015/2017-Fassungen — welche Aenderungen enthaelt sie? (2026-07-18 Run 52: Volltext-Diff aller drei Fassungen gefahren. Aenderungshistorie im Anhang belegt drei Stufen: IOTH-Beschluss 22.03.2017 (Ziff. 2.4.3/2.4.4), TKB-Beschluss 09.06.2021 (Ziff. 3.5.2) und Fehlerkorrektur 01.12.2022 (Ziff. 3.7). Fehlerkorrektur Ziff. 3.7 aendert nur die Bezugsflaeche der Schleusenpflicht bei Einstellraeumen von "Geschossflaeche" auf "Brandabschnittsflaeche > 1'200 m²" — der bereits im Wegweiser dokumentierte Kennwert stammte schon aus der praeziseren Wohnbauten-Arbeitshilfe und war korrekt, kein Korrekturbedarf. GENUINER Delta: Ziff. 3.5.2 Personenbelegungsdichte-Tabelle Verkauf wurde 2021 von einer einfachen 3-Stufen-Tabelle auf eine 3x2-Matrix nach Betriebstyp umgestellt (Fachmaerkte/Kaufhaeuser 0.10, Supermaerkte 0.38/0.15, hochfrequentierte Supermaerkte 0.45/0.21 Pers./m²) — JANS-relevant fuer Erdgeschoss-Retail in Wohn-/Mischnutzungsbauten → NEU §5am [[brandschutz-pl03-wegweiser]], §5u auf aktuellste Quelle umgestellt. Flag fuer normen-training: Destillat `vkf-brl-16-15-flucht-rettungswege.md` fuehrt noch 2015/2017-Stand ohne die 2021er-Verkaufstabelle.)
+- [x] B41 Register-Vervollstaendigung `02 Brandschutzrichtlinien 2015-17-22/` — zwei weitere bisher nicht katalogisierte BSPUB-Nummern (`BSPUB-1394520214-57.pdf`, `-71.pdf`) gefunden beim systematischen Scan — was steht drin, Delta zu bereits dokumentierten Fassungen? (2026-07-18 Run 52: -57 = 1-15 Brandschutznorm 2015, inhaltsgleiche Zweitkopie der bereits dokumentierten Datei, bestaetigter Nicht-Fund. -71 = 13-15 Baustoffe und Bauteile Rev. 01.01.2017 — Volltext-Diff gegen die bereits unter §4 dokumentierte 2015-Fassung ergibt rein redaktionelle Aenderungen: Begriffs-Update "Rohrisolationen"→"Rohrdaemmungen", Bauteil-Nr. 208 "Bedachung, Dachelemente"→"Dachkonstruktionen" umbenannt, keine Kernzahl-Aenderung → NEU §5an [[brandschutz-pl03-wegweiser]].)
+- [ ] B42 Feuerwehrplan-Zusatzvariante `Stoerfall ABC-Objekt/` (Unterordner des Musterplansatzes BSPUB-1394520214-207, §5b) — bisher nur als Existenz/Zweck erwaehnt, nie inhaltlich gelesen. Welche zusaetzlichen ABC-Gefahren-Angaben enthalten Objektdatenblatt/Feuerwehrplaene fuer Betriebe mit gefaehrlichen Stoffen? (2026-07-18 Run 52: alle 8 PDF technisch blockiert — EDEADLK "Resource deadlock avoided" trotz drei Leseversuchen inkl. Hintergrund-Priming mit Wartezeit, gleiches Muster wie Run 50 K41-K44. Bestaetigt technisch (nicht recherche-) bedingt offen, dokumentiert in §5an [[brandschutz-pl03-wegweiser]] — fuer naechsten Lauf vormerken.)
+- [ ] B43 `z_Administration/000_VKF_Lieferschein_Norm_2015.pdf` + `000_VKF_Bestellung_Norm_2015.pdf` — bisher nur als Ordnername in §1 erwaehnt, nie inhaltlich gelesen. Enthalten sie planungsrelevante Information oder sind es reine Bestellbelege? (2026-07-18 Run 52: beide Dateien technisch blockiert — EDEADLK trotz mehrerer Leseversuche. Vermutlich niedrige Prioritaet (administrative Bestellbelege der gedruckten VKF-Norm), aber unverifiziert → §5an [[brandschutz-pl03-wegweiser]], offen fuer naechsten Lauf.)
+- [x] B44 BSV-2026-Refresh (Fortsetzung Run 19/34/38/39/47) — hat sich der Terminplan seit dem letzten Check (14.07.2026) veraendert, insbesondere im Hinblick auf die fuer 08/2026 angekuendigte politische Vernehmlassung (heutiges Datum 18.07.2026 liegt kurz davor)? (2026-07-18 Run 52: WebSearch + WebFetch gegen bsvonline.ch/de/aktuell/information-bsv-2026 und die vkg.ch-Medienmitteilungsseite — Stand unveraendert bestaetigt, keine neue Medienmitteilung seit 06.01.2026 gefunden, politische Vernehmlassung weiterhin fuer 08-11/2026 angekuendigt, IOTH-Genehmigung 03/2027. Kein neuer Terminplan → §1-Ergaenzung [[brandschutz-pl03-wegweiser]].)
 
 ## Meta / Querschnitt
 - [x] M1 Grundlagen-Checkliste «neue Parzelle» (was holt man IMMER zuerst) als Standard-Output. (2026-06-30 Run 12: 8 Pflicht-Grundlagen EGRID→OEREB→Zonenplan→Baulinien→Vermessung→DTM/Ortho→GWR→Behoerden je mit Connector-Befehl, SZ-Kurzvariante, End-to-End-Benchmark Giebelweg 12 EGRID CH879777718909 validiert → [[kartenportale-grundlagen-checkliste-neue-parzelle]])

@@ -1,8 +1,8 @@
 ---
 title: Recht & Norm — Amt für Hochbauten Stadt Zürich (AHB): Projektstandards für Planende (Flächenerfassung SIA 416, CAFM, Elektro-Sicherheitsnachweis, Gebäudeautomation Pflegezentren, Honorarwesen, Nachhaltiges Bauen, CAD, Submissions-/Zahlungswesen)
 status: established
-last_updated: 2026-07-14 (Run 45)
-sources: [PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/12-Bauwerkdokumentation/12.1-Dokumentation/Richtlinie-Bauwerkdokumentation-2009.pdf (Januar 2009, 2 S.), .../12.2-Faltblatt/Faltblatt_Muster.pdf (Restaurant-Kiosk Hafen Riesbach, März 2005), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/16-Ingenieurwesen/16.2-Richtlinien/Tragwerkverstaerkungen+Tragelemente.pdf (März 2009), .../Betonneubauten.pdf (März 2009), .../Recyclingprodukte.pdf (Informationsblatt 5.6, Stand 1999/2001), .../Recyclingbeton-unbedenklich.pdf (Tages-Anzeiger 31.10.2003), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/IMMO_Richtlinie Flaechenerfassungpdf.pdf ("Richtlinie für die Flächenerfassung und Erstellung von Bewirtschaftungsplänen (RFB)", Immobilien-Bewirtschaftung der Stadt Zürich, Version 7.0, Stand 13.07.2007, 85 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/IMMO_Merkblatt_Bezeichnungen.pdf ("Merkblatt für Bezeichnungen IMMO", CAFM-Richtlinie V14.2, Stadt Zürich Immobilien-Bewirtschaftung, 13.12.2006), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/AHB_Merkblatt_SINA.pdf ("Merkblatt Sicherheitsnachweis (SiNa) Elektroinstallationen", Stadt Zürich Amt für Hochbauten, Fachstelle Energie und Gebäudetechnik, Version 1.1, 13.05.2005/23.11.2007), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.5-Standards/Standards_Gebaeudeautomation_Pflegezentren.pdf ("Pflegezentren der Stadt Zürich — Standard Gebäudeautomation", Amt für Hochbauten, Fachstelle Energie und Gebäudetechnik, Version 1.1, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.2-Honorarofferte/Allgemeine-Bedingungen-AHB-SIA-102-2009.pdf (Stand Januar 2009, 8 S.), .../Allgemeine-Bedingungen-AHB-SIA-103-2009.pdf, .../Allgemeine-Bedingungen-AHB-SIA-105-2009.pdf, .../Allgemeine-Bedingungen-AHB-SIA-108-2009.pdf (Stand November 2006, 9 S., inhaltlich mit SIA-102-Fassung ident geprüft), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.1-Allgemeine Unterlagen/Merkblatt-zu-Planungsauftraegen-AHB-2009.pdf (Stand Januar 2009, 9 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.5-Tarife/Zeittarifansaetze-2009.pdf (Stadtratsbeschluss Nr. 199 vom 4.2.2009), .../VSR-Netto-Preisempfehlung-2007.pdf (VSR Sektion Zürich, gültig ab 1.1.2007), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.1 Grundsaetze/Richtlinie_7-Meilenschritte_(Flyer).pdf (Stadtratsbeschluss Nr. 1094 vom 17.9.2008), .../Zielvereinbarungen_SIA112.1_Nachhaltiges_Bauen_(Uebersicht).pdf (Checkliste Öko 1.13, Stand 10.03.2008), .../Richtlinie_Bedingungen_fuer_Planungsleistungen_(Vertragsbestandteil).pdf (KBOB/eco-bau/IPB, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.3 Baustoffe (Bauoekologie & Stofffluesse)/Richtlinie_Bedingungen_fuer_Werkleistungen_(Vertragsbestandteil).pdf (KBOB/eco-bau/IPB, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.6 Organisation/Fachstelle_nachhaltiges_Bauen+Energie+Gebaeudetechnik.pdf (Öko 7.17.I, Stand 11.08.2006), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/13-CAD+Archivierung/13.2-CAD-Richtlinie/Richtlinie-CAD-Kurzfassung-4.0-2008.pdf (Januar 2008), .../Planarchiv-CAD-Formate.pdf (Stand 2009), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/11-Submissions+Zahlungswesen/11.1-Wegleitung+Anleitung/Bedingungen_Arbeiten+Lieferungen.pdf ("Bedingungen für Arbeiten und Lieferungen zu Hoch- und Tiefbauten der Stadtverwaltung", Systematische Rechtssammlung Stadt Zürich 720.110, Stadtratsbeschluss 29.3.1978 mit Änderungen bis 5.6.1991, 7 S.), .../Wegleitung_ueber_das_Submissions-+Zahlungswesen_(mitMusterbeispielen).pdf ("Wegleitung über das Submissions- und Zahlungswesen (mit Musterbeispielen)", AHB, Verfasst Thomas Braun/Eliane Bucher, Zürich September 2006, 36 S., Auszug S. 1-4, 13-15, 30-32 gelesen), .../Anleitung_Vorlagen.pdf (April 2009, 4 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.3-Richtlinien/GT_RL1_Planungsgrundlagen_V21.pdf (RichtlinieGT, Version 2.1, Juli 2008, 6 S.), .../Allgemeines_Uebersicht.pdf (Bau-Standards Gebäudetechnik, September 2005, 1 S.), .../GT_RL2_Systemwahl_V21.pdf (Version 2.1, Juli 2008, 5 S.), .../GT_RL9_Gebaeudeautomation_V21.pdf (Version 2.1, Juli 2008, 7 S.), .../GT_RL3_Heizungsanlagen_V21.pdf (Version 2.1, Juli 2008, 4 S.), .../GT_RL4_Raumkuehlung_V21.pdf (Version 2.1, Juli 2008, 4 S.), .../GT_RL5_Lueftungsanlagen_V21.pdf (Version 2.1, Juli 2008, 5 S.), .../GT_RL6_Sanitaerinstallationen_V21.pdf (Version 2.1, Juli 2008, 4 S.), .../GT_RL7_Elektroanlagen_V21.pdf (Version 2.1, Juli 2008, 4 S.), .../GT_RL8_Beleuchtung_V21.pdf (Version 2.1, Juli 2008, 4 S.), .../Uebersichtstabelle_Beleuchtung_EN12464-1.pdf (19.01.2007, 1 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.5-Standards/Standards_Kennzeichnungssystem_V2.2.pdf (Version 2.2, 1. September 2007, 24 S.), .../Standards_Raummodul_Buero.pdf (Version 1.1, Juli 2008, 11 S., GL AHB freigegeben 28.09.2005), .../Standards_Raummodul_Klassenzimmer.pdf (Version 2.1, Juli 2008, 10 S., GL AHB freigegeben 24.09.2003), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.3 Baustoffe (Bauoekologie & Stofffluesse)/Recycling_Beton_(KBOB-Empfehlung_2007.2).pdf (KBOB/eco-bau/IPB 2007/2, 6 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.4 Wohlbefinden (Innenraumklima)/PCB_in_Fugendichtung_(KBOB-Empfehlung_2004.4).pdf (KBOB/eco-bau/IPB 2004/4 + Grundlage "Umgang mit PCB-haltigen Fugendichtungsmassen", 8 S. Empfehlung, Grundlage S. 1-4 gelesen), .../Gutes_Innenraumklima_ist_planbar_(KBOB-Empfehlung_2004.1).pdf (KBOB/IPB 2004/1, 6 S.), .../Schadstoff_in_Bauten_(Checkliste).pdf (AHB/UGZ Stadt Zürich, 20.09.2005, 4 S.)]
+last_updated: 2026-07-18 (Run 52)
+sources: [PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/13-CAD+Archivierung/13.2-CAD-Richtlinie/Richtlinie-CAD-4.0-2008.pdf (Vollversion, 17 S., Ausgabe Januar 2008, Interessengemeinschaft CADexchange + AHB-Ergänzungen), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/12-Bauwerkdokumentation/12.1-Dokumentation/Richtlinie-Bauwerkdokumentation-2009.pdf (Januar 2009, 2 S.), .../12.2-Faltblatt/Faltblatt_Muster.pdf (Restaurant-Kiosk Hafen Riesbach, März 2005), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/16-Ingenieurwesen/16.2-Richtlinien/Tragwerkverstaerkungen+Tragelemente.pdf (März 2009), .../Betonneubauten.pdf (März 2009), .../Recyclingprodukte.pdf (Informationsblatt 5.6, Stand 1999/2001), .../Recyclingbeton-unbedenklich.pdf (Tages-Anzeiger 31.10.2003), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/IMMO_Richtlinie Flaechenerfassungpdf.pdf ("Richtlinie für die Flächenerfassung und Erstellung von Bewirtschaftungsplänen (RFB)", Immobilien-Bewirtschaftung der Stadt Zürich, Version 7.0, Stand 13.07.2007, 85 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/IMMO_Merkblatt_Bezeichnungen.pdf ("Merkblatt für Bezeichnungen IMMO", CAFM-Richtlinie V14.2, Stadt Zürich Immobilien-Bewirtschaftung, 13.12.2006), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/AHB_Merkblatt_SINA.pdf ("Merkblatt Sicherheitsnachweis (SiNa) Elektroinstallationen", Stadt Zürich Amt für Hochbauten, Fachstelle Energie und Gebäudetechnik, Version 1.1, 13.05.2005/23.11.2007), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.5-Standards/Standards_Gebaeudeautomation_Pflegezentren.pdf ("Pflegezentren der Stadt Zürich — Standard Gebäudeautomation", Amt für Hochbauten, Fachstelle Energie und Gebäudetechnik, Version 1.1, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.2-Honorarofferte/Allgemeine-Bedingungen-AHB-SIA-102-2009.pdf (Stand Januar 2009, 8 S.), .../Allgemeine-Bedingungen-AHB-SIA-103-2009.pdf, .../Allgemeine-Bedingungen-AHB-SIA-105-2009.pdf, .../Allgemeine-Bedingungen-AHB-SIA-108-2009.pdf (Stand November 2006, 9 S., inhaltlich mit SIA-102-Fassung ident geprüft), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.1-Allgemeine Unterlagen/Merkblatt-zu-Planungsauftraegen-AHB-2009.pdf (Stand Januar 2009, 9 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.5-Tarife/Zeittarifansaetze-2009.pdf (Stadtratsbeschluss Nr. 199 vom 4.2.2009), .../VSR-Netto-Preisempfehlung-2007.pdf (VSR Sektion Zürich, gültig ab 1.1.2007), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.1 Grundsaetze/Richtlinie_7-Meilenschritte_(Flyer).pdf (Stadtratsbeschluss Nr. 1094 vom 17.9.2008), .../Zielvereinbarungen_SIA112.1_Nachhaltiges_Bauen_(Uebersicht).pdf (Checkliste Öko 1.13, Stand 10.03.2008), .../Richtlinie_Bedingungen_fuer_Planungsleistungen_(Vertragsbestandteil).pdf (KBOB/eco-bau/IPB, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.3 Baustoffe (Bauoekologie & Stofffluesse)/Richtlinie_Bedingungen_fuer_Werkleistungen_(Vertragsbestandteil).pdf (KBOB/eco-bau/IPB, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.6 Organisation/Fachstelle_nachhaltiges_Bauen+Energie+Gebaeudetechnik.pdf (Öko 7.17.I, Stand 11.08.2006), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/13-CAD+Archivierung/13.2-CAD-Richtlinie/Richtlinie-CAD-Kurzfassung-4.0-2008.pdf (Januar 2008), .../Planarchiv-CAD-Formate.pdf (Stand 2009), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/11-Submissions+Zahlungswesen/11.1-Wegleitung+Anleitung/Bedingungen_Arbeiten+Lieferungen.pdf ("Bedingungen für Arbeiten und Lieferungen zu Hoch- und Tiefbauten der Stadtverwaltung", Systematische Rechtssammlung Stadt Zürich 720.110, Stadtratsbeschluss 29.3.1978 mit Änderungen bis 5.6.1991, 7 S.), .../Wegleitung_ueber_das_Submissions-+Zahlungswesen_(mitMusterbeispielen).pdf ("Wegleitung über das Submissions- und Zahlungswesen (mit Musterbeispielen)", AHB, Verfasst Thomas Braun/Eliane Bucher, Zürich September 2006, 36 S., Auszug S. 1-4, 13-15, 30-32 gelesen), .../Anleitung_Vorlagen.pdf (April 2009, 4 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.3-Richtlinien/GT_RL1_Planungsgrundlagen_V21.pdf (RichtlinieGT, Version 2.1, Juli 2008, 6 S.), .../Allgemeines_Uebersicht.pdf (Bau-Standards Gebäudetechnik, September 2005, 1 S.), .../GT_RL2_Systemwahl_V21.pdf (Version 2.1, Juli 2008, 5 S.), .../GT_RL9_Gebaeudeautomation_V21.pdf (Version 2.1, Juli 2008, 7 S.), .../GT_RL3_Heizungsanlagen_V21.pdf (Version 2.1, Juli 2008, 4 S.), .../GT_RL4_Raumkuehlung_V21.pdf (Version 2.1, Juli 2008, 4 S.), .../GT_RL5_Lueftungsanlagen_V21.pdf (Version 2.1, Juli 2008, 5 S.), .../GT_RL6_Sanitaerinstallationen_V21.pdf (Version 2.1, Juli 2008, 4 S.), .../GT_RL7_Elektroanlagen_V21.pdf (Version 2.1, Juli 2008, 4 S.), .../GT_RL8_Beleuchtung_V21.pdf (Version 2.1, Juli 2008, 4 S.), .../Uebersichtstabelle_Beleuchtung_EN12464-1.pdf (19.01.2007, 1 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.5-Standards/Standards_Kennzeichnungssystem_V2.2.pdf (Version 2.2, 1. September 2007, 24 S.), .../Standards_Raummodul_Buero.pdf (Version 1.1, Juli 2008, 11 S., GL AHB freigegeben 28.09.2005), .../Standards_Raummodul_Klassenzimmer.pdf (Version 2.1, Juli 2008, 10 S., GL AHB freigegeben 24.09.2003), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.3 Baustoffe (Bauoekologie & Stofffluesse)/Recycling_Beton_(KBOB-Empfehlung_2007.2).pdf (KBOB/eco-bau/IPB 2007/2, 6 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.4 Wohlbefinden (Innenraumklima)/PCB_in_Fugendichtung_(KBOB-Empfehlung_2004.4).pdf (KBOB/eco-bau/IPB 2004/4 + Grundlage "Umgang mit PCB-haltigen Fugendichtungsmassen", 8 S. Empfehlung, Grundlage S. 1-4 gelesen), .../Gutes_Innenraumklima_ist_planbar_(KBOB-Empfehlung_2004.1).pdf (KBOB/IPB 2004/1, 6 S.), .../Schadstoff_in_Bauten_(Checkliste).pdf (AHB/UGZ Stadt Zürich, 20.09.2005, 4 S.)]
 links: [[recht-norm-raumprogramm-referenzwerke]], [[recht-norm-quellenlandkarte]], [[recht-norm-sanitaerraeume-planungsgrundlagen]], [[recht-norm-submissionsverordnung-zh]], [[energie-uebersicht]], [[brandschutz-pl03-wegweiser]], [[energie-baustoffe-schadstoffe-rueckbau]]
 ---
 
@@ -440,8 +440,74 @@ auf externe, separat zu pflegende Online-Tools, kein eigener Fachinhalt zum Dest
 ## 7. CAD-Richtlinie AHB (Ordner 13-CAD+Archivierung, Unterordner 13.2)
 
 **Run 41.** Kurzfassung (1 S., Januar 2008) und «Planarchiv CAD-Formate»-Tabelle (1 S., Stand 2009)
-gelesen; die 17-seitige Vollversion «Richtlinie CAD 4.0» nicht im Detail durchgearbeitet (Backlog,
-§9). Ergänzt §2 (CAFM-Bezeichnungssystem) um die reine CAD-Zeichnungsebene.
+gelesen. Ergänzt §2 (CAFM-Bezeichnungssystem) um die reine CAD-Zeichnungsebene. **Run 52 (Recht/
+Norm, 2026-07-18): die 17-seitige Vollversion «Richtlinie für den CAD-Datenaustausch, Version 4.0»
+(Interessengemeinschaft CADexchange, Ausgabe Januar 2008) vollständig gelesen** — schliesst den
+bisherigen Backlog (§9). Die Vollversion ist eine **zweispaltige Struktur**: linke Spalte
+«Basisrichtlinie» (verbindlicher, von CADexchange erarbeiteter Kern, gilt schweizweit für alle
+Anwender dieser Basisrichtlinie, nicht nur Stadt ZH) + rechte Spalte «Angaben des Auftraggebers/
+der Auftraggeberin» (die AHB-spezifischen Ergänzungen — genau diese Spalte wurde bereits in der
+Kurzfassung zusammengefasst). Je Vorgabe zusätzlich markiert, ob sie für **AR** (Architektur-/
+Bauingenieurpläne) und/oder **HT** (Haustechnikpläne) gilt.
+
+### 7.1 Neue, über die Kurzfassung hinausgehende Fakten (echtes Delta)
+
+- **Referenzpunkte (§2.2.1):** auf separatem Layer `REF.PKT` + fortlaufender Nummer, über alle
+  drei Gebäudeachsen definiert (X/Y/Z-Koordinate); dürfen während der gesamten Lebensdauer eines
+  CAD-Plans **nicht mehr verschoben werden**, sobald gesetzt. Als X/Y-Referenzpunkte sind
+  Rasterschnittpunkte oder Grenzpunkte der amtlichen Vermessung (aus dem Katasterplan) zu
+  verwenden — **direkter Anknüpfungspunkt an die bereits dokumentierte amtliche Vermessung**
+  ([[kartenportale-oereb-kataster-system-zh]]). Ursprungspunkt = Schweizer Landeskoordinaten,
+  mit Fadenkreuz+Kreis gekennzeichnet, an der jeweils **linken unteren Gebäudeecke**. Jeder
+  Hauptplan (Grundriss) trägt zusätzlich die Höhe über Meer am Ursprungspunkt; Gebäudeschnitte
+  ein Referenzgeschoss (i.d.R. EG) mit Höhe ü.M. (Beispiel: +-0.00 = 456.78 m ü.M.).
+- **Vollständige Stiftfarben-/Linienstärken-Tabelle (§2.3, 26 Zeilen):** definiert Verwendung je
+  Stiftnummer (1 rot = Neu/Baueingabe, 2 gelb = Abbruch/Baueingabe, 71-76 oliv = Kataster/
+  Grundstück, 91-96 grün = Pflanzen/Grünflächen, 131-136 hellblau = Massivbau/Beton, 111-116
+  blaugrün = Fenster/Türen/Leichtbau, 201-206 violett = Achsen). Textgrösse minimal **2 mm** im
+  Originalformat, Schrifttyp **Arial TT** (Stift 7, schwarz/weiss).
+- **Vollständige Layerbezeichnungs-Systematik (§3.5):** Format `nn(xx)_qqqqqqq` (nn = Haupt-/
+  Untergruppe nach **Elementkostengliederung EKG gemäss SIA-Merkblatt 2014**, 2-stellig,
+  obligatorisch; xx = Erweiterungs-Code BEK, fakultativ; qqqqqqq = Bezeichnung nach SIA 2014,
+  max. 26-stellig). Vollständige Basislayer-Tabelle mit ~45 Zeilen (Architektur, u.a. `00 REFERENZ`,
+  `A0 GRUNDSTUECK`, `E2 STUETZEN`, `E51 FENSTER`, `M3 BODENBELAEGE`, `T1 TERRAINGESTALTUNG`) +
+  eigene Basislayer-Tabellen je Fachbereich Elektro/Heizung/Lüftung/Sanitär (I0-I453, konsistent mit
+  dem 1-stelligen Fachbereichs-Code aus §7.2 unten).
+- **Vollständiges Dateibezeichnungs-Schema (§3.4):** `ooooo-oo_f-aa-ggg-mmm-nnnpv.dwg` (31-stellig,
+  Beispiel `29050-00_A-GR-U02-100-001Rc.dwg`) — **oooo-oo** Inventarnummer (8-stellig) · **f**
+  Fachbereich 1-stellig (A Architektur, B Bauingenieurwesen, C Amt für Hochbauten/CAD, E Elektro,
+  F Feuerpolizei/Sicherheit, G Geologie, H Heizung, K Klima-/Energieplanung, L Lüftung,
+  M Mobiliarplanung, Q Koordination, R MSRL, S Sanitär, T Transport, U Landschaftsarchitektur,
+  V Vermessung/Geometer, W Werke, Z Bewirtschaftung) · **aa** Planart 2-stellig (AN Ansicht,
+  DE Detail, FA Fassade, GR Grundriss, KA Kanalisation, LA Layout, MX Mischplan, SA Schema,
+  SC Schnitt, SI Situation, VZ Vermessung) · **ggg** Ebene/Geschoss 3-stellig (E00 Erdgeschoss,
+  U01-99 Untergeschoss, O01-99/G00-99 Obergeschoss, D01-99 Dachgeschoss, S01-99 Schnitt,
+  A01-99 Ansicht, F01-99 Fassade, N00 neutral) · **mmm** Massstab 3-stellig (25k=1:25'000 bis
+  005=1:5) · **nnn** Plannummer 3-stellig · **p** Projektphase 1-stellig (**S** Studie, **V**
+  Vorprojekt, **P** Projekt, **E** Entwurf, **B** Baueingabe, **A** Ausführung, **R** Revision,
+  **C** Bestandesplan, **T** Transfer, **W** Wettbewerb) · **v** Version/Index 1-stellig. Diese
+  Datei-/Projektphasen-Kürzel (S/V/P/E/B/A/R/C/T/W) sind ein direkt übertragbares Muster für die
+  JANS-eigene [[dateinamen-konvention]] bei Stadt-ZH-Mandaten (auf Rule-Ebene, nicht KB-intern
+  zu ändern).
+- **Rechtliche Vorgaben (§6, bisher nicht dokumentiert):** der Auftragnehmer überträgt der Stadt
+  mit dem Datenträger das **vollständige Nutzungsrecht** (inkl. jeglicher Verwertungsrechte) an
+  den CAD-Daten, auch für Daten, die durch externe Planende Dritter übernommen wurden — Planende
+  dürfen keine Zeichnungselemente verwenden, an denen Urheber-/Nutzungsrechte Dritter liegen
+  könnten; Virenscan vor jeder Datenlieferung Pflicht.
+- **Datenmedien/-formate (§4, Ergänzung zu §7 oben):** akzeptierte Datenträger CD-R (ISO 9660,
+  Joliet) und E-Mail-Attachment für Vorabzüge; verbindliche Formate DWG 2000 und höher, PDF
+  (Plotfile), MS-Office-Formate, TIF/JPG; Datenkomprimierung nur für E-Mail-Versand (ZIP, nicht
+  selbstentpackend), keine Splitting/Spanning-Aufteilung über mehrere Datenträger.
+- **DXF/DWG-Testdatenaustausch (§5.1):** vor der Baueingabe verbindlich durchzuführen
+  (Plausibilitätstest, deckt sich mit der bereits dokumentierten Kurzfassung), formalisiert mit
+  Protokoll, das nach Abschluss **als erweiterte CAD-Richtlinie gilt** — allfällige Korrekturen
+  aus dem Test sind umgehend nachzubessern.
+
+**Einordnung:** kein grundsätzlicher Widerspruch zur Kurzfassung, aber die Vollversion liefert die
+technischen Ausführungsdetails (Layer-/Dateiname-/Stiftsystematik), die für eine tatsächliche
+CAD-Lieferung an die Stadt Zürich nötig sind — die Kurzfassung allein reicht für die Projektplanung
+nicht aus. Quelle: `13-CAD+Archivierung/13.2-CAD-Richtlinie/Richtlinie-CAD-4.0-2008.pdf`
+(17 S., Ausgabe Januar 2008, Interessengemeinschaft CADexchange + AHB-Ergänzungen).
 
 **Technische Eckwerte (Kurzfassung):** Grundmasseinheit **1 Meter**; Datenformat CAD **DWG 2000
 und höher**; Plotfile-Format **PDF**; Office-Dokumente MS Office 2003; Bitmap TIF/JPG; Datenträger
@@ -1098,9 +1164,19 @@ Planungsgrundlagen im engeren Sinn):
   (Kommunikationsverkabelung Verwaltungs-/Schulgebäude, Kommunikationsräume, LWL) — niedrige
   Priorität, da bereits mehrfach referenziert (§14.1) ohne eigenen Fachinhalt über die
   Titelnennung hinaus.
-- **09-Projektdokumentation / 10-Projektablauf / 04-Grafikvorlagen**: reine Büro-/CI-Vorlagen
-  (Ordnerrücken, CD-Label), niedrigste Priorität — vermutlich bestätigter Nicht-Fund für die
-  Planungsgrundlagen-KB.
+- **09-Projektdokumentation / 10-Projektablauf / 04-Grafikvorlagen**: Struktur Run 52 vollständig
+  kartiert. **04-Grafikvorlagen-Ordnerruecken bestätigt als reine Büro-/CI-Vorlagen** (drei
+  `.dot`-Word-Vorlagen für Ordnerrücken hoch/schmal/quer + zwei `.dot`-Vorlagen CD-Cover/-Label,
+  keine Word-Dokumente mit Fachinhalt) — Nicht-Fund verifiziert, kein weiterer Bearbeitungsbedarf.
+  **09-Projektdokumentation enthält dagegen potenziell substanziellen Inhalt**
+  (`09.1-Projektdokumentation/Projektdokumentation_Richtlinie.pdf`, 22 KB, + Musterdokumente
+  `Projektdokumentation_Muster.doc`/`_KV.xls`) und **10-Projektablauf/10.6-Projektabschluss**
+  ein `Abnahmeprotokoll-SIA.doc` — beide inhaltlich noch NICHT gelesen, da beim Zugriffsversuch
+  Run 52 (2026-07-18) durch einen OneDrive-File-Provider-Lock blockiert (`EDEADLK`/«Resource
+  deadlock avoided», auch nach Retry mit Wartezeit unverändert) — dasselbe Sync-Timing-Muster wie
+  beim Naturgefahren-/Lignum-Fall in der Kartenportale-Domäne (dort löste sich der Lock erst im
+  übernächsten Lauf). **Kandidat für den nächsten Recht/Norm-Lauf**, nicht als Nicht-Fund
+  abschliessen.
 
 **Einordnung für den nächsten Zugriff:** Der Ordner ist erkennbar das **Pflichtenheft der Stadt
 Zürich für beauftragte Planer** (analog einem kantonalen Pflichtenheft, aber Stadt-ZH-spezifisch)

@@ -1,8 +1,8 @@
 ---
 title: Recht & Norm — Regenwasserentsorgung und Gewaesserraum-Festlegung Kt. ZH
 status: established
-last_updated: 2026-07-13
-sources: [PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Wasser/Richtlinie_Regenwasserentsorgung_V2_2a.pdf (AWEL Kt. ZH, "Richtlinie und Praxishilfe Regenwasserentsorgung", 2005/Version 2.2 Maerz 2006, 48 S., basiert auf VSA-Richtlinie 2002 + SN 592'000), .../Wasser/AWEL_Merkblatt_ Gewässerraum.pdf (AWEL/ARE Kt. ZH, "Festlegung des Gewaesserraums bei nutzungsplanerischen Verfahren und bei Wasserbauprojekten", Juli 2014, 7 S.)]
+last_updated: 2026-07-18 (Run 52)
+sources: [PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Wasser/Richtlinie_Regenwasserentsorgung_V2_2a.pdf (AWEL Kt. ZH, "Richtlinie und Praxishilfe Regenwasserentsorgung", 2005/Version 2.2 Maerz 2006, 48 S., basiert auf VSA-Richtlinie 2002 + SN 592'000), .../Wasser/AWEL_Merkblatt_ Gewässerraum.pdf (AWEL/ARE Kt. ZH, "Festlegung des Gewaesserraums bei nutzungsplanerischen Verfahren und bei Wasserbauprojekten", Juli 2014, 7 S.), PL - 02_Recht_Norm/04_Merkblätter/AWEL_Merkblatt_Versickerung.pdf (AWEL Kt. ZH, "Versickerung des Regenwassers — Gruenflaechen in Industrie- und Gewerbearealen doppelt nutzen", Reihe Umweltpraxis Entwaesserung, Februar 2009, 12 S.)]
 links: [[recht-norm-quellenlandkarte]], [[recht-norm-abstandsvorschriften-wald-gewaesser]], [[energie-baueingabe-zusatzformulare]]
 ---
 
@@ -152,6 +152,67 @@ Gewaesserunterhalt, **Fruchtfolgeflaechen-Bilanz** (Rundschreiben ARE
 spezifischen Darstellungsvorgaben + Musterdatensatz
 (`www.gewaesserschutzgesetz.zh.ch`); bei privaten Gestaltungsplaenen ist der
 Gewaesserraum-Plan von **allen** Grundeigentuemern zu unterschreiben.
+
+## C) Praxis-Broschüre AWEL «Versickerung des Regenwassers — Grünflächen in Industrie- und Gewerbearealen doppelt nutzen» (Run 52, 2026-07-18)
+
+Quelle: **AWEL Baudirektion Kt. ZH, Broschüre «Versickerung des Regenwassers»**, Reihe
+«Umweltpraxis Entwässerung», Februar 2009, 12 S. (im selben Ordner `04_Merkblätter`, nicht
+`01_Gesetze/02_Zuerich/Wasser/`). Anders als die materielle Richtlinie in Teil A (Verfahren/
+Verschmutzungs-Abgrenzung) liefert diese Broschüre die **anwendungsorientierte Praxishilfe für
+Industrie-/Gewerbeareale** mit konkreten Kostenbenchmarks — echtes Delta, kein Duplikat.
+
+### C.1 Fünf-Flächentypologie mit Zulässigkeits-Matrix (üB/Au-Gewässerschutzbereiche)
+
+| Flächentyp | Versickerung in üB | Versickerung in Au | Empfohlene Lösung |
+|---|---|---|---|
+| **1 Verkehrsflächen** (Zufahrten, Plätze) | + | + | Oberflächliche Ableitung auf Grünfläche/Rinne mit Versickerung, oder Leitung in humusierte Mulde |
+| **2 Lagerflächen für Güter ohne wassergefährdendes Potenzial** | + | +/− (je nach Belag) | Ableitung auf Fläche + humusierte Mulde; bei Rasengittersteinen/Schotterrasen auch ohne belebte Bodenschicht (−) |
+| **3 Parkplätze für PW** | + | +/− | Versickerung auf Fläche durch teilbewachsene Systeme (Rasengittersteine, Rasenfugenpflaster, Schotterrasen) |
+| **4 Arbeitsflächen im Freien** | − | − | **Nicht versickern** — flüssigkeitsdichter Belag Pflicht, Entwässerung gemäss **SN 592'000** in die Schmutzwasserkanalisation; Fläche klein halten, Überdachung anstreben |
+| **5 Güterumschlagplätze** | − | − | Überdacht, flüssigkeitsdichter Belag, abflusslos (Verweis Merkblatt Güterumschlagplätze) |
+
+**+ = Versickerung zulässig, − = nicht zulässig.** In den Grundwasserschutzzonen **S1-S3** gelten
+zusätzlich spezielle Vorschriften (Rückfrage bei der Gewässerschutzfachstelle) — konsistent mit
+Teil A (dort bereits S1/S2 = Versickerung von Abwasser grundsätzlich verboten, S3 nur Dachwasser).
+**Generelle Prioritätenfolge** (deckt sich mit Teil A, Art. 7 GSchG): 1. Versickerung durch die
+belebte Bodenschicht, 2. Ableitung in ein Oberflächengewässer, 3. Einleitung in eine Kanalisation.
+
+### C.2 Kostenbenchmarks (Richtwerte, exkl. Honorare/MwSt.)
+
+| Lösung | Kosten CHF/m² |
+|---|---|
+| Humusierte Grünfläche (30 cm Humusschicht inkl. Ansaat) | 20–30 |
+| Humusierte Versickerungsmulde (30 cm Humusschicht inkl. Ansaat) | 30–40 |
+| Rasengittersteine (inkl. Fundationsschicht + Splitt + Ansaat) | 100–120 |
+| Verbund-/Sickersteine (inkl. Fundationsschicht) | 110–150 |
+| Schotterrasen (20 cm Kiessand/Kulturerde + 30 cm Fundation) | 50–60 |
+| Kiesplatz (5 cm Kiesschicht + 30 cm Fundation) | 40–50 |
+| Chaussierung (20 cm Mergel-Deckschicht + 30 cm Fundation) | 50–60 |
+| Asphaltbelag (inkl. 30 cm Fundation) | 110–140 |
+| Asphaltbelag mit Einlaufschächten/Rinnen/Leitungen | 150–200 |
+
+**Realer Praxis-Fallbeleg:** Firma **TOI TOI in Buchs (ZH)** — grosser Verkehrs- und Lagerplatz
+wird **ohne Einlaufschächte/Sammelleitungen** entwässert (Regenwasser fliesst oberflächlich in die
+Versickerungsmulde), damit ca. **CHF 30'000 Baukosten eingespart**. **Platzbedarf als Richtwert:
+5–10 % der entwässerten Fläche** für die Versickerungsanlage (Beispieltabelle: Prodega Dietikon
+8 %, TOI TOI Buchs 8 %, Post Paketsortierzentrum Schlieren 8 %, Stahl-Contor Embrach 7 %, Eishalle
+Deutweg Winterthur 3 %, Acifer Regensdorf 2 %). Weitere reale ZH-Beispiele: DHL Express
+Regensdorf (33'500 m² Grundstück, Grünflächen doppelt für Umgebungsgestaltung + Platz-/
+Dachwasser-Versickerung), Coop Megastore «Silbern» Dietikon (Parkplatz-Regenwasser direkt auf
+angrenzende Grünfläche).
+
+### C.3 Fünf-Schritte-Planungsablauf
+
+1. Nutzungsart der Teilflächen bestimmen (Zufahrt/Platzfläche/Parkplätze usw.).
+2. Prüfen, welche Flächen aufgrund der Nutzung zur Versickerung zulässig sind (→ Matrix C.1).
+3. Machbarkeitsprüfung: Zustandsplan/Versickerungsfähigkeit des Bodens beim Gemeindebauamt oder
+   bei Geologen konsultieren.
+4. Grünflächen ausscheiden, die für die Versickerung genutzt werden können.
+5. Entwässerungsprojekt erarbeiten gemäss **VSA-Richtlinie Regenwasserentsorgung** (= Teil A).
+
+**Hinweis auch für Wohn-/Bürobauten:** die Broschüre betont ausdrücklich, dass die Versickerung
+durch die belebte Bodenschicht **auch bei Wohn- und Bürobauten** die günstigste, effizienteste
+und ökologisch beste Variante ist — nicht nur für Gewerbe/Industrie.
 
 ## Praxis-Anker JANS
 

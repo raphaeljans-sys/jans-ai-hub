@@ -1,8 +1,9 @@
 ---
 title: Sanitärräume — Apparate-Bemessung und altersgerechtes/barrierefreies Bad (09_Sanitaereinrichtung)
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-07-18 (Run 52)
 sources: [
+  "Procap Bauen, Merkblatt 105 «Rollstuhlgerechte Toiletten in öffentlich zugänglichen Bauten nach Norm SIA 500» (Ausgabe 10/09, 6 S., PL-02/04_Merkblätter/Procap MB_105_200910_D_rollstuhlgerechte_toiletten_oeffentlich__01.pdf)",
   "Geberit, «Arbeitshilfen Sanitärapparate» (Achs-/Wandabstände und Platzbedarf Sanitärapparate, Tab. 1.9-1.11 + Bild 48-53, PL-02/09_Sanitaereinrichtung)",
   "Sanitas Troesch, «Masse für Badezimmer / Mesures pour salle de bains» (Apparatemasse-Merkblatt, Stand 01.03, PL-02/09_Sanitaereinrichtung, Teil von 'Arbeitshilfen Sanitärapparate.pdf')",
   "SGVSB (Schweiz. Genossenschaft für Sanitär- und Baubranche), «Grundrissvorschläge Minimal-/Komfort-Sanitärräume M 1:50» (000-1/000-2, gültig ab 11.1999, PL-02/09_Sanitaereinrichtung)",
@@ -131,6 +132,72 @@ vorsehen. Bei grösseren Projekten empfiehlt der Katalog den Bau eines **Musterb
 Ausführungsentscheid (Bemusterungspraxis analog zur Material-Bemusterung in der JANS-DNA).
 Einhebelmischer mit Griffhöhe ≥150 mm oder Bügelhebel; UP-Armaturen bei der Dusche bevorzugen.
 
+## 5. Rollstuhlgerechte Toiletten in öffentlich zugänglichen Bauten — Procap Merkblatt 105 (Run 52, 2026-07-18)
+
+Quelle: **Procap Bauen (für Menschen mit Handicap), Merkblatt 105 «Rollstuhlgerechte Toiletten in
+öffentlich zugänglichen Bauten nach Norm SIA 500»**, Ausgabe 10/09, 6 S. — gefunden im Ordner
+`04_Merkblätter` (PL-02), nicht im bereits erschlossenen `09_Sanitaereinrichtung`. Anders als
+Geberit/SGVSB/KL_Hochbau (§1-§3, generische Fachliteratur) ist Procap Bauen die **auf die
+Behinderten-Fachnorm SIA 500 spezialisierte Fachstelle** — das Merkblatt übersetzt den
+Normwortlaut in bemasste Grundrissfiguren.
+
+### 5.1 Geltungsbereich — und die entscheidende Ausnahme für Healthcare
+
+Das Merkblatt deckt zwei Kategorien ab: **öffentlich zugängliche Bauten** (Richtwert: mind. 1
+rollstuhlgerechte Toilette pro Geschoss) und **Bauten mit Arbeitsplätzen** (mind. 1 rollstuhl-
+gerechte Toilette pro Vertikalerschliessung/Treppenhaus). Eine handschriftliche Projektnotiz im
+Dokument präzisiert für Bauten mit Arbeitsplätzen: **«Pro Treppenhaus 1 IV-Toilette vorzusehen.
+Muss in der Nähe sein. Welches Geschoss spielt keine Rolle. Es muss frei zugänglich sein.»**
+
+**Zentraler, für JANS-Healthcare-Projekte entscheidender Vorbehalt (wörtlich aus dem Merkblatt):**
+> «Die Masse, Anordnungen und Ausstattungen der nachfolgenden Figuren und der dazugehörenden
+> Legende gelten **nicht** für Sonderbauten (Bauten zur Pflege und Betreuung von Personen, wie
+> Spitäler, Rehabilitationsstätten, Wohn- und Pflegeheime sowie Alterswohnungen u.ä). Für solche
+> Bauten sind die spezifischen, dem jeweiligen Zweck entsprechenden Anforderungen vorrangig.
+> Beispiele für rollstuhlgerechte Toiletten in Sonderbauten sind im **Merkblatt 401** dargestellt.»
+
+Das **bestätigt und präzisiert** den bereits in §4 dokumentierten SIA-500-Vorbehalt (dort nur
+Ziff. 0.1.5 der Norm selbst zitiert) — Procap Merkblatt 105 nennt jetzt konkret die **Ausweich-
+Fundstelle Merkblatt 401** für Spital-/Pflegeheim-WCs. **Offen:** Merkblatt 401 liegt nicht im
+Hub vor (weder in `09_Sanitaereinrichtung` noch in `04_Merkblätter` gefunden) — bei einem
+konkreten Healthcare-Projekt mit IV-WC-Pflicht in Patienten-/Pflegebereichen bei Procap Bauen
+(bauen@procap.ch) zu beschaffen; als offene Lücke in [[QUESTIONS]] vermerkt.
+
+### 5.2 Bemasste Grundrissfiguren (Standardlösung, für Nicht-Sonderbauten)
+
+- **Minimale Raumgrösse bei nach aussen öffnenden Flügeltüren: 1.65 × 1.80 m** (Breite × Länge).
+- Nach innen öffnende Drehflügeltüren nur zulässig, wenn Raumlänge **oder** -breite um
+  **mind. 0.50 m erhöht** wird → Minimalraum dann **1.80 × 2.30 m** bzw. **2.15 × 1.80 m**
+  (zwei Varianten je nach vergrösserter Dimension), zusätzlich Freifläche seitlich vom
+  Türdrücker (x = min. 0.60 m; x + Länge y hinter dem geöffneten Flügel = min. 1.20 m).
+- **Klosettbecken:** Ausladung ab Rückwand mind. 0.65 m, drei Varianten (AP-Spülkasten
+  aufgesetzt = bevorzugte Lösung; UP-Spülkasten in max. 0.20 m tiefer Vormauerung; langes
+  Klosettbecken mit Rückenlehne 0.15-0.20 m ab Rückwand, WC-Brille ohne Deckel).
+- **Haltegriffe:** horizontal + vertikal (L-förmig) an der Wand neben dem Klosett, plus
+  einhändig bedienbarer Klappgriff auf der freien Seite, beide auf gleicher Höhe montiert.
+- **Waschbecken:** unterfahrbar, gerundete Front, Einhebelmischer oder berührungslose Armatur
+  (keine Selbstschlussarmaturen), Seifenspender über/neben Becken; unterfahrbare Ablage
+  daneben (darf kombiniert werden).
+- **Spiegel:** fest montiert, **Kippspiegel unzulässig**.
+- **Türdrücker/Zuziehgriff:** Zuziehgriff 0.75 m ab Boden auf der Bandseite; Türen dürfen
+  **keine Türschliesser** haben (Ausnahme: automatisierte Türen).
+- **Geschlechterneutraler Zugang** ist vorgeschrieben; Zugang durch den Damentoiletten-Bereich
+  nur «bedingt zulässig» (Ersatzlösung im begründeten Einzelfall, z.B. bestehende Bausubstanz/
+  Topografie).
+- **Für Unterkünfte (Hotelzimmer) und Sportanlagen** gelten nach Ziff./Anhang 7.9, A.7, A.8 SIA
+  500 teilweise ergänzende oder abweichende Anforderungen (im Merkblatt nicht im Detail
+  ausgeführt) — weiterer möglicher Vertiefungspunkt für Hotel-/Sportprojekte.
+
+### 5.3 Einordnung zu §3 (Behindertenanlagen-Grundrissmasse aus KL_Hochbau)
+
+Die Procap-Zahlen sind **spezifischer und aktueller** (Ausgabe 10/09, direkt SIA-500-referenziert)
+als die generische KL_Hochbau-Fassung in §3 — beide widersprechen sich nicht (§3: seitliche
+Bewegungsfläche 80 cm + 120 cm Tiefe, konsistent mit der Procap-Freiflächenlogik x=0.60 m +
+x+y=1.20 m), Procap liefert aber die vollständige, massstäblich bemasste Grundrissfigur inkl.
+Türanschlag-Varianten. Für Healthcare-Projekte gilt weiterhin: SIA 500 (und damit auch dieses
+Procap-Merkblatt) **nicht direkt anwendbar** — Merkblatt 401 respektive projektspezifische
+Pflegekonzept-Vorgaben massgebend (§4 + §5.1).
+
 ## Relevanz JANS / Anwendung
 
 - **Vorprojekt Healthcare/Alterswohnen:** §3 (Grundrissmasse Behindertenanlagen) + §4 (Bedienhöhen
@@ -151,3 +218,8 @@ Einhebelmischer mit Griffhöhe ≥150 mm oder Bügelhebel; UP-Armaturen bei der 
   Bibliothek identifizieren.
 - `Kl Hochbau einzel/` enthält dieselben Seiten als Einzeldateien (S22/23/24/25/53/54/55/56) — reine
   Dopplung der bereits ausgewerteten Sammel-PDFs, kein zusätzlicher Inhalt.
+- **Procap Merkblatt 401** («Rollstuhlgerechte Toiletten in Sonderbauten», die von Merkblatt 105
+  ausdrücklich als massgeblich für Spital-/Pflegeheim-/Betreutes-Wohnen-Projekte referenzierte
+  Fundstelle) liegt weder in `09_Sanitaereinrichtung` noch in `04_Merkblätter` im Hub vor — bei
+  einem konkreten JANS-Healthcare-Mandat mit IV-WC-Pflicht direkt bei Procap Bauen
+  (bauen@procap.ch, www.procap-bauen.ch) zu beschaffen und nachzutragen.

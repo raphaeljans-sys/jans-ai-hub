@@ -2,6 +2,44 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-18 — Training Run 52 (Brandschutz, parallel zu Recht/Norm): BSR-16-15-Delta 2022, Register-Vervollstaendigung, BSV-2026-Refresh
+- **Ausloeser:** planungsgrundlagen-training, Schwerpunkt Brandschutz (PL-03), Token-Vollgas-
+  Intensivlauf. Backlog B1-B39 war laut Run-51-Empfehlung erschoepft — dieser Lauf fuehrt einen
+  systematischen BSPUB-Nummern-Scan im Ordner `02 Brandschutzrichtlinien 2015-17-22/` durch
+  (analog dem Ordner-Delta-Scan-Muster aus Run 50), der drei bisher unkatalogisierte Dateien
+  aufdeckt, plus BSV-2026-Terminplan-Refresh.
+- **`wiki/brandschutz-pl03-wegweiser.md` — NEU §5am (B40):** dritte Fassung der BSR 16-15
+  «Flucht- und Rettungswege» gefunden (`BSPUB-1394520214-85.pdf`, Stand 01.12.2022). Volltext-Diff
+  gegen die bereits dokumentierten 2015/2017-Fassungen: Fehlerkorrektur Ziff. 3.7 (Dez. 2022,
+  Geschossflaeche→Brandabschnittsflaeche bei der Schleusenpflicht Einstellraeume) ohne Auswirkung
+  auf die bereits korrekt referenzierte KB-Kernzahl; GENUINER Delta ist die neue
+  Personenbelegungsdichte-Matrix Verkaufsnutzungen (Ziff. 3.5.2, TKB-Beschluss 09.06.2021):
+  Fachmaerkte/Kaufhaeuser 0.10, Supermaerkte 0.38/0.15, hochfrequentierte Supermaerkte
+  0.45/0.21 Pers./m² statt der alten 3-stufigen Pauschaltabelle — JANS-relevant fuer
+  Erdgeschoss-Retail in Wohn-/Mischnutzungsbauten. §5u referenziert neu die 2022-Fassung als
+  aktuellste Quelle. Flag fuer normen-training: Destillat `vkf-brl-16-15-flucht-rettungswege.md`
+  noch ohne die 2021er-Tabelle.
+- **`wiki/brandschutz-pl03-wegweiser.md` — NEU §5an (B41/B42/B43):** Register-Vervollstaendigung
+  der restlichen BSPUB-Nummern — `BSPUB-1394520214-57.pdf` (1-15 Norm, Zweitkopie, kein neuer
+  Inhalt), `BSPUB-1394520214-71.pdf` (13-15 Baustoffe/Bauteile Rev. 2017, nur redaktionell:
+  Rohrisolationen→Rohrdaemmungen, Bauteil 208 Bedachung→Dachkonstruktionen umbenannt, keine
+  Kernzahl-Aenderung). Zusaetzlich bestaetigt identisch: `1001-15_Wohnbauten Auszug ...pdf` =
+  dreifache byte-identische Mehrfachablage der Regensdorf-/Thalwil-Benchmark-Datei. Bestaetigt
+  technisch blockiert (EDEADLK, mehrere Leseversuche inkl. Hintergrund-Priming): Feuerwehrplan-
+  Zusatzvariante `Stoerfall ABC-Objekt/` (8 PDF) sowie `z_Administration/`-Bestellbelege (2 PDF) —
+  offen fuer den naechsten Lauf.
+- **`wiki/brandschutz-pl03-wegweiser.md` — §1 Refresh (B44):** BSV-2026-Terminplan per
+  WebSearch+WebFetch (`bsvonline.ch/de/aktuell/information-bsv-2026`, vkg.ch) erneut geprueft —
+  unveraendert bestaetigt (politische Vernehmlassung weiterhin 08-11/2026, IOTH-Genehmigung
+  03/2027, keine neue Medienmitteilung seit 06.01.2026 Marschhalt).
+- **Register:** `training/curriculum.md` Domaene 4 B40-B44 ergaenzt (B42/B43 offen, Rest
+  abgeschlossen); `wiki/QUESTIONS.md` C34/C35 erledigt, C36 (Stoerfall-ABC/z_Administration) neu
+  offen; `wiki/INDEX.md` Eintrag brandschutz-pl03-wegweiser erweitert; `raw/_INGESTED.md` sechs
+  neue Zeilen; `last_updated` des Artikels auf 2026-07-18 (Run 52).
+- **Naechster Lauf:** C36 (Stoerfall ABC-Objekt + z_Administration) erneut versuchen; danach ist
+  auch die Brandschutz-Domaene weitgehend auto-schliessbar-luecken-frei (nur noch projektabhaengige
+  Vertiefungen und der periodische BSV-2026-Refresh bleiben).
+
 ## 2026-07-18 — Training Run 51 (Kartenportale): K41–K44 geloest, OneDrive-Lock aus Run 50 aufgeloest
 - **Ausloeser:** planungsgrundlagen-training, Schwerpunkt Kartenportale. Die vier seit Run 50 wegen
   OneDrive-Datei-Provider-Deadlock (`EDEADLK`) unlesbaren PL-01-Kandidaten K41–K44 waren jetzt

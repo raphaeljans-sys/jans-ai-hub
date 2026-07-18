@@ -1,9 +1,9 @@
 ---
-title: Recht & Norm — Arbeitshilfen Planungsdetails (2h-Schatten, Briefkastenanlage, Absturzsicherungen)
+title: Recht & Norm — Arbeitshilfen Planungsdetails (2h-Schatten, Briefkastenanlage, Absturzsicherungen, Türen in Fluchtwegen)
 status: established
-last_updated: 2026-07-13
-sources: [PL - 02_Recht_Norm/03_Arbeitshilfen/2h Schatten/2h-Schatten_AFB.pdf (Amt für Baubewilligungen/Amt für Regionalplanung Kt. ZH, "Die 2-Stunden-Schattenkurve", 1967/09.12.03 DEC), PL - 02_Recht_Norm/03_Arbeitshilfen/Post Briefkastenanlage/Post_Briefkastenanlage.pdf (Die Schweizerische Post, PostMail, Faktenblatt "Der Hausbriefkasten", 09.2010, gestützt auf Verordnung des UVEK zur Postverordnung vom 18.03.1998), PL - 02_Recht_Norm/04_Merkblätter/Absturzsicherungen Richtlinie.pdf (Stadt Zürich Amt für Baubewilligungen, Richtlinie "Absturzsicherungen im Hochbau", 1. Juni 2019)]
-links: [[recht-norm-quellenlandkarte]], [[recht-norm-baueingabe-verfahren-zh]], [[recht-norm-raumprogramm-referenzwerke]], [[machbarkeit]]
+last_updated: 2026-07-18 (Run 52)
+sources: [PL - 02_Recht_Norm/03_Arbeitshilfen/2h Schatten/2h-Schatten_AFB.pdf (Amt für Baubewilligungen/Amt für Regionalplanung Kt. ZH, "Die 2-Stunden-Schattenkurve", 1967/09.12.03 DEC), PL - 02_Recht_Norm/03_Arbeitshilfen/Post Briefkastenanlage/Post_Briefkastenanlage.pdf (Die Schweizerische Post, PostMail, Faktenblatt "Der Hausbriefkasten", 09.2010, gestützt auf Verordnung des UVEK zur Postverordnung vom 18.03.1998), PL - 02_Recht_Norm/04_Merkblätter/Absturzsicherungen Richtlinie.pdf (Stadt Zürich Amt für Baubewilligungen, Richtlinie "Absturzsicherungen im Hochbau", 1. Juni 2019), PL - 02_Recht_Norm/04_Merkblätter/Merkblatt-TK004_Fluchtwege_DE.pdf (Schweizerische Metall-Union SMU/Verband Schweizerischer Türenproduzenten VST, Merkblatt 004 "Türen in Fluchtwegen", 11 S.)]
+links: [[recht-norm-quellenlandkarte]], [[recht-norm-baueingabe-verfahren-zh]], [[recht-norm-raumprogramm-referenzwerke]], [[machbarkeit]], [[brandschutz-pl03-wegweiser]]
 ---
 
 # Recht & Norm — Arbeitshilfen Planungsdetails (2h-Schatten, Briefkastenanlage, Absturzsicherungen)
@@ -144,3 +144,109 @@ Stadt-ZH-Baueingabe und bei Umbauten (15-%-Abweichungs-Schwelle ist die praxisre
 ob eine bestehende Balkonbrüstung saniert werden muss). Ergänzt die generischen SIA-500-Vorgaben
 (→ [[recht-norm-raumprogramm-referenzwerke]] Hindernisfreies Bauen) um die konkreten
 Absturzsicherungs-Masse.
+
+## 4. Türen in Fluchtwegen — Schliesstechnik (SMU-Merkblatt 004, Run 52, 2026-07-18)
+
+Quelle: **Schweizerische Metall-Union (SMU)/Verband Schweizerischer Türenproduzenten (VST),
+Merkblatt 004 «Türen in Fluchtwegen»** (11 S., Erscheinungsjahr nicht im Dokument datiert,
+inhaltlich Stand VKF-Brandschutznorm 1.1.2005). Anders als die VKF-Brandschutznorm selbst
+(→ Skill `brandschutz`, keine Duplizierung der dortigen Fundstellen) behandelt dieses Merkblatt
+die **Schliesstechnik-Ebene**: welche Schloss-/Beschlagfunktionen (mechanisch und elektrisch) ein
+Türhersteller/Metallbauer für eine normkonforme Fluchtweg-/Panik-Tür konkret verbauen muss. Direkt
+JANS-relevant für Türdetail-Ausschreibungen (BKP 271/272) bei jedem Neubau mit Fluchtwegen —
+besonders bei Healthcare-Projekten, wo das Merkblatt explizit auf Kinder, ältere Menschen,
+Personen mit Gehhilfen (Spital) und Rollstuhlfahrer als Problemfall bei hohen Bedienkräften
+hinweist (§5.3).
+
+### 4.1 Begriffe und Schutzziel
+
+- **Fluchtweg** = kürzester Weg, der (a) Personen zur Verfügung steht, um von einer beliebigen
+  Stelle in Bauten/Anlagen ins Freie an einen sicheren Ort zu gelangen, oder (b) der Feuerwehr/
+  den Rettungskräften als Einsatzweg dient. Fluchtwege sind gleichzeitig Rettungswege (in
+  EU-Normen «Rettungsweg» genannt).
+- **Vier Schutzziele für Türen in Fluchtwegen** (§2): (1) jederzeit als solche erkennbar (Bezeichnung,
+  z.B. leuchtende/nachleuchtende Rettungszeichen, nicht verdeckbar), (2) jederzeit in
+  Fluchtrichtung ohne Hilfsmittel rasch öffenbar (SN EN 179/SN EN 1125: max. 1 Handbewegung von
+  innen; prEN 13637 elektrisch: max. 2 Handbewegungen), (3) jederzeit sicher benutzbar
+  (standortgerecht, nicht durch Schnee/Gegenstände blockierbar, Panik-/Notausgangstüren müssen
+  sich unter Vorlast von **1000 N** öffnen lassen), (4) auch Türen in Rettungswegen (von aussen mit
+  geeigneten Mitteln, z.B. Feuerwehrschlüssel, öffenbar).
+- **Türbreiten (§3.1):** minimale nutzbare Breite **900 mm**, je nach Personenbelegung um
+  Vielfache von 600 mm erweitert (1200/1800/2400 mm) — Bemessung nach VKF-Brandschutzrichtlinie
+  «Flucht- und Rettungswege».
+
+### 4.2 Notausgangs- vs. Panikausgangstüren (Abgrenzung, §4-5)
+
+| | Notausgangstür (SN EN 179 / prEN 13637) | Panikausgangstür (SN EN 1125 / prEN 13633) |
+|---|---|---|
+| Zielgruppe | Ortskundige Personen, kleine Räume (≤ 30 m²/≤ 6 Personen) — z.B. Wohnbereich | Ortsunkundige Personen, grosse Personenbelegung (Disco/Kino/Ausstellungshalle) oder besondere Gefährdung (Labor/Fabrikation) |
+| Öffnung | Türdrücker, max. 1 Handbewegung | Panikstange/Pushbar, horizontal gegen die Türe |
+| Bedienkraft normal | F ≤ 70 N senkrecht nach unten | F ≤ 80 N horizontal |
+| Bedienkraft bei 1000 N Vorlast (Gedränge) | — | F ≤ 220 N horizontal |
+
+Die europäischen Normen unterscheiden begrifflich Notausgang/Panikausgang; die **VKF-
+Brandschutznorm kennt diese Unterscheidung nicht** — sie fordert generell, dass Türen in
+Fluchtwegen in Fluchtrichtung ohne Hilfsmittel geöffnet werden können (Ausnahme: Türen zu kleinen
+Räumen ≤ 30 m²/≤ 6 Personen oder Räumen ohne erhöhte Brandgefahr).
+
+**Problematik Panikstangen/Pushbars (§5.3, wörtlich relevant):** «Die Bedienkräfte sind bei
+Paniktüren sehr hoch und in einer ungünstigen Richtung aufzubringen. […] Für kleine Kinder
+(Kindergarten, Schulen), ältere Leute (Altersheim), Personen mit Gehhilfen (Spital) und
+Rollstuhlfahrer kann es ein Problem sein, solche Kräfte horizontal aufzubringen.» — ein direkt
+übertragbarer Einwand gegen Panikstangen-Standardlösungen bei JANS-Healthcare-/Schulprojekten;
+Alternative: Notausgangstür mit Drücker (niedrigere, senkrecht wirkende Bedienkraft) statt
+Panikstange, wo baurechtlich zulässig (kleine Räume/geringe Personenzahl).
+
+### 4.3 Funktionen von Panikschlössern (mechanisch, §6-7)
+
+Fünf standardisierte Funktionsbuchstaben (Vorsicht: Hersteller weichen im Detail leicht ab,
+Funktionsbeschreibung je Fabrikat immer genau prüfen):
+
+- **Umschalt-Funktion B**: Aussendrücker beidseitig an-/abkoppelbar per Schlüssel (Grundstellung
+  frei begehbar ↔ Schaltstellung nur mit Schlüssel von aussen).
+- **Schliesszwangfunktion C**: Aussendrücker nur mit Schlüssel angekoppelt (Sicherungsfunktion —
+  Verschliessen kann nicht vergessen werden, da der Drücker nach Schlüsselabzug automatisch
+  wieder auf Grundstellung «verriegelt» springt).
+- **Durchgangs-Funktion D**: Aussendrücker angekoppelt (beidseitig frei begehbar), Riegel als
+  zusätzliches Sicherheitselement.
+- **Wechsel-Funktion E**: fluchtseitig Drücker, interventionsseitig Schild mit feststehendem
+  Knauf — von aussen nur mit Schlüssel.
+- **Selbstverriegelnd SVP**: Schlossriegel wird bei jeder Schliessung automatisch ausgestossen
+  (versicherungstechnisch relevant); geringerer Verschleiss, wenn nur in Position «verriegelt»
+  ausgestossen wird.
+
+### 4.4 Elektrisch gesteuerte Fluchtwegtüren (§8)
+
+- **Ruhestromprinzip** (Pflicht für Verriegelungen in Fluchtrichtung, stromlos offen) vs.
+  **Arbeitsstromprinzip** (stromlos verriegelt, nur in Interventionsrichtung/Eintritt zulässig,
+  nicht in Fluchtrichtung).
+- **Notausgangsverschluss nach prEN 13637**: mit Türsteuerterminal + Nottaster; Fernfreischaltung
+  automatisch über Brandfallsteuerung oder manuell aus der Sicherheitszentrale; Alarm muss vor
+  Ort quittiert werden.
+- **Panikverschluss nach prEN 13633**: kein Nottaster erlaubt (widerspräche der Panikfunktion) —
+  die Freigabe muss direkt durch Betätigen der Panikstange/des Pushbars ausgelöst werden.
+- **Automatische Türen nach DIN 18650-1/-2**: mit Brand-/Rauchschutzeigenschaften müssen im
+  Brandfall automatisch schliessen (Gefahr: Sensoren dürfen die Schliessfunktion wegen Rauchs
+  nicht blockieren); ohne solche Eigenschaften öffnen bei Brandfallsteuerung und bleiben offen
+  stehen.
+- Elektrische Verriegelungen dürfen **nur im Sturzbereich** angebracht werden, wenn auch der
+  Standflügel (zweiflügelige Tür) Fluchtwegfunktion erfüllen muss — die Verriegelung muss jederzeit
+  manuell entriegelbar bleiben.
+
+### 4.5 Anhang — VKF-Brandschutznorm-Auszug (nur Fundstellen, Volltext bleibt bei `brandschutz`)
+
+Das Merkblatt zitiert als Anhang die einschlägigen VKF-Artikel/Anhänge (Art. 37 Begriff Flucht-/
+Rettungsweg, Art. 47 Breite von Türen/Korridoren/Treppen — Mindestbreite Treppen/Korridore 1.2 m,
+wohnungsintern 0.9 m, lichtes Durchgangsmass Türen 0.9 m; Art. 48 Türen müssen in Fluchtrichtung
+öffnen; Anhang 3.5.5 automatische Schiebe-/Drehtüren nur zulässig, wenn Flucht jederzeit
+gewährleistet ist + Selbstschliesser-Pflicht bei Verwechslungsgefahr zu Treppenhäusern; Anhang
+7.3.5 Sonderbestimmungen Beherbergungsbetriebe). **Diese Ziffern sind bereits über den Skill
+`brandschutz`/die Normen-KB abzugleichen** ([[recht-norm-quellenlandkarte]] Prinzip «verlinken,
+nicht duplizieren») — hier nur als Beleg dafür referenziert, dass die Schliesstechnik-Vorgaben
+(§4.1-4.4) direkt aus derselben Norm abgeleitet sind, nicht als eigenständige Fundstelle.
+
+**JANS-Praxisrelevanz:** Bei jeder Fluchtweg-Türausschreibung (BKP 271/272, Metall-/Stahltüren)
+die Funktionsbuchstaben-Systematik (§4.3) und die Bedienkraft-Warnung bei Panikstangen (§4.2) als
+Grundlage für die Produktespezifikation nutzen — besonders in Schul-/Kindergarten- und Healthcare-
+Projekten, wo Panikstangen für die Nutzergruppe ungeeignet sein können und eine Notausgangstür mit
+Drücker die bessere Wahl ist (sofern die Raumgrösse/Personenzahl das zulässt, §4.1/§5.1).
