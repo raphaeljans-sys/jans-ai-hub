@@ -5,6 +5,18 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-18
+
+**Radar-Lauf (06:55).** Quellen: bexio `--verzug`, M365 (Eingang + Sent Items 17.07. 04:00 → heute frueh, gepaart), Apple Mail mail@ + raphaeljans@outlook.com, Kalender 7 Tage, Sync-/Remote-Queues, Konversations-Destillat 18.07.
+
+**Erledigt:** (1) KISPI Los 273.35 — Pruefbericht Geraetepreise Roethlisberger an KISPI raus (17.07. 13:49, Empfehlung Reduktion min. 5'000–8'000, max. 12'000); die im Destillat als geliefert vermerkte Pruefung ist damit auch belegt versendet. (2) Baumackerstrasse 43 — AFB (C. Kovacs) antwortet 17.07.: Nachforderungen am 08.07. via eBaugesuche eingegangen, Gesuch weiter in Vernehmlassung, Fachstellenfristen laufen; das geplante Nachfassen ab 20.07. ist gegenstandslos. (3) Tuer-ID 01.0.300.1 — Funktionsfrage geklaert (automatische Schiebetuere, kein brandfallgesteuertes Tor), Tuerfunktionsblatt geliefert, angepasster Plan zurueck. (4) Albertstrasse 7 — KV-Zusammenstellung, Stunden und Rechnung an R. Steinmann zur Freigabe raus.
+
+**Neu aufgenommen:** (a) **KISPI Prinzippläne Jegen, Rueckmeldefrist Di 21.07.** — zehn Punkte zu definieren/bestaetigen, danach Materialvorbestellung; Produktionsstart 01.09., sonst faellt der Montagestart 12.10. (b) **Selbstfrist Mo 20.07.** fuer die Pruefung der TeKoSi-Tuerfachplanungsofferte (RJ hat es Hiltmann zugesagt). (c) Abwesenheit F. Wuersch (KISPI) 17.07.–09.08. — bremst die KISPI-seitigen Freigaben.
+
+**Unveraendert:** RE-00087 (CHF 15'000, 93 Tage ueberfaellig, Mahnung 2, Frist verstrichen) — naechste Stufe Entscheid Raphael. AG-Gruendung ohne neuen UBS-/Notariats-Eingang. DWG ST1/ST2 an J. Ziegel weiterhin nicht zugestellt.
+
+**Token 17.07.:** MacBook Pro 193.33 Mio. (~215 USD) + Mac Mini 128.75 Mio. (~77 USD) = ~322.1 Mio. (~292 USD Aequivalent).
+
 ## 2026-07-17
 
 - **HUB-CHEF-LAUF 08:39 — MIT Befund (ein Deliverable fertiggestellt), EIN kurzes Briefing.**

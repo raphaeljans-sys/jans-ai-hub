@@ -21,6 +21,29 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-18 06:47 — [GEDROSSELT] Nachtfenster sauber abgearbeitet, Runner bleibt gestoppt, kein Blocker
+
+**Fensterzustand:** Drossel-Regime unveraendert. STOP + STOP-Macmini stehen seit 14.07. 12:53 mit
+unveraendertem Grund, Runner bleibt gestoppt (Schoner-Rolle, kein Wiederanfahren). Kein Login-Probe
+gefahren — reine Tokenkosten ohne Nutzen, solange der Runner ohnehin nicht anlaeuft; vor dem Reset
+(Mo 20.07. 11:59, noch ~2.2 Tage) wieder relevant.
+
+**Lagebild:** Das Nachtfenster 22:00–06:00 ist vollstaendig und planmaessig durchgelaufen — vier
+echte Trainings-Commits: `synobsis Nacht-Batch` (02:2x, 853/853, Vektorindex aktualisiert),
+`twin-mail-training` Batch 56 (Zeitraum 19.–23.06.), `spec-training` Lauf 22 (Verifikationslauf, neuer
+belegter Verifier-Fehlermodus «leeres Signal ist kein Beweis fuer Leere» bei silent-empty Connectoren)
+und `twin-fidelity-review` (06:0x). Das ist exakt die erlaubte Nachtfenster-Last nach Regel
+260711/260714, nicht der Endlos-Runner. Die uebrigen 24 der 28 Commits der letzten 6 Std. sind
+`nas-selfcommit` (DSM-Cron, 15-Min-Takt). Runner-Logs beider Stationen enden unveraendert am
+14.07. 12:39/12:37 — korrekt fuer den gestoppten Zustand. Pendenzen-Queues beider Stationen leer.
+
+**Vorschlaege:**
+- P1: keiner. Kein Blocker, kein Mail-Anlass.
+- P2 (unveraendert, Einzeiler): `synobsis-batch-nacht` stilllegen — der Lauf meldet erneut
+  853/853 ohne neues Quellmaterial, also weiterhin ein No-op; Umsetzung bewusst erst am
+  Reaktivierungs-Lauf Mo 20.07., um vor dem Reset keine Kleinlast auf dem Mini zu erzeugen.
+- P3: keiner.
+
 ## 2026-07-18 00:48 — [GEDROSSELT] Nachtfenster-Trainings laufen planmaessig, Runner bleibt gestoppt, kein Blocker
 
 **Fensterzustand:** Drossel-Regime unveraendert. STOP + STOP-Macmini stehen seit 14.07. 12:53 mit
