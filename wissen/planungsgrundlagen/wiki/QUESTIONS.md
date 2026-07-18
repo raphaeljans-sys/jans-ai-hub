@@ -227,6 +227,28 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   → [[kartenportale-geoportale-uebersicht]] (Offen A5).
 
 ## B — Recht & Norm
+- [x] **R52-R56 (Run 53, 2026-07-19, Token-Vollgas — OneDrive-Blocker-Ausweich-Lauf)** Der
+  planmaessige `raw/`-Lauf (PL-02/PL-04-Dateien lesen) war blockiert: **systemischer
+  EDEADLK/"Resource deadlock avoided"-Fehler** traf heute nicht nur die seit Run 52 bekannten
+  Brandschutz-Kandidaten (C36/B42/B43), sondern auch zuvor problemlos gelesene Dateien
+  (`EN-ZH.pdf`, `IVHB_Leitfaden...pdf`, mehrere `.docx`) — d.h. der gesamte OneDrive-Mount war
+  fuer diesen Lauf gesperrt, kein dateispezifisches Problem. Ausweichend auf WebSearch/WebFetch
+  (gemaess PROGRAMM.md Schritt 3a ausdruecklich fuer Aktualisierungen zulaessig) plus die bereits
+  lokal vorliegende `wissen/baurecht/raw/`-Kopie. **R52 NEU:** PBG-Revision «Erleichtertes Bauen im
+  Bestand» — bisher nicht erfasster Rechtsetzungsstrang, § 220a E-PBG (Abweichungsanspruch
+  Grenzabstand/Fassadenhoehe/-laenge/Vollgeschosse bei neuen Wohneinheiten im Rahmen der
+  bestehenden Ausnuetzung) + § 357 E-PBG-Ergaenzung fuer baurechtswidrige Bestandesbauten +
+  Streichung Mehrlaengenzuschlag ABV §§21/23/24; Primaerquelle (Vorentwurf + erlaeuternder
+  Bericht, RRB 827/2025, vzgv.ch) vollstaendig via WebFetch/PDF gelesen → NEU
+  [[recht-norm-pbg-revision-bauen-im-bestand]]. **R53 (=R11-Abschluss):** LSV-Novelle 01.04.2026
+  inhaltlich geschlossen — Art. 22 USG/Art. 31 LSV, KWL als Schallschutzmassnahme, keine
+  Uebergangsfrist → [[recht-norm-quellenlandkarte]]. **R54 (=R10-Refresh):** Denkmalschutz-PBG-
+  Revision RRB-Nr. 678/2026 + Motion 153/2020/Postulat 29/2022-Hintergrund ergaenzt, Verfahrensstand
+  unveraendert. **R55 (=M3-Abschluss):** § 49b PBG vollstaendig ausgewertet inkl. Referendums-
+  Ergebnis (14.06.2026, 57.14 % Ja, UmV in Kraft) — s. M3 unten; dabei auch fehlerhafte
+  Cross-Referenz im Energie-Artikel korrigiert. **R56 (Verifikation, kein Delta):** Solarpflicht-
+  Web-Treffer "§ 10b EnerG" gegen amtlichen Volltext geprueft — korrekt ist **§ 10c EnerG**, KB
+  war bereits richtig. Details/Quellenliste → `outputs/2026-07-19_training-run53.md`.
 - [x] **R44-R51 (Run 45, 2026-07-14, Token-Vollgas)** Acht Selbstfragen zur GT-Richtlinien-Serie
   AHB (Ordner `14-Energie-und Gebaeudetechnik/14.3-Richtlinien` + `14.5-Standards`) und drei
   KBOB-Einzelmerkblätter (`18-Nachhaltiges Bauen/18.3+18.4`) abgearbeitet, alle Quellen direkt
@@ -656,6 +678,17 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   SIA 261/261-1, DC bleibt unter Spannung. Solar-spezifisch, kein Doppel zu Skill `brandschutz`.
 
 ## D — Energie
+- [x] **D11 (Run 53, 2026-07-19, Refresh-Verifikationen, kein PL-04-Read moeglich —
+  OneDrive-Mount heute systemisch blockiert, s. B-Sektion R52-R56)** Drei WebSearch/WebFetch-
+  Refresh-Checks: (1) **Pronovo-Foerderstruktur** erneut gegen die Primaerquelle geprueft —
+  unveraendert seit 01.04.2025 bestaetigt; ein WebSearch-Snippet behauptete zusaetzlich einen
+  "Winterstrombonus ab 01.01.2026", der sich auf der Pronovo-Primaerseite **nicht bestaetigen**
+  liess und deshalb NICHT uebernommen wurde → [[energie-betriebsenergie-pv-wirtschaftlichkeit]].
+  (2) **MuKEn-2025-ZH-Ueberfuehrung** erneut unveraendert (weiterhin kein ZH-Termin) →
+  [[energie-energienachweis-zh-formulare]]. (3) **Solarpflicht-Gegenprobe:** korrigiert einen
+  ungenauen Web-Treffer ("§ 10b EnerG") gegen den amtlichen Volltext auf **§ 10c EnerG** — die KB
+  war bereits korrekt, kein inhaltlicher Fehler in dieser KB, nur Bestaetigung. **D9 (ZEV-
+  Betriebskostenfall) weiterhin offen** — unveraendert, wartet auf reales Projekt.
 - [x] **D10 / E39-Rest (Run 50, 2026-07-16)** Ist das GreenPV-Forschungsprojekt (HSLU, bisher nur
   als Workshop-2-Zwischenstand vom 15.06.2022 bekannt, Run 49) inzwischen abgeschlossen, und
   liefert ein Schlussbericht mehr als die Workshop-Folien? ✓ **JA** — WebSearch fand die
@@ -888,20 +921,19 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   belegt vorliegt (weniger Behoerdenfragen noetig) + Werkleitungen-Zustaendigkeit praezisiert
   (Werke, nicht Tiefbauamt) → [[kartenportale-grundlagen-checkliste-neue-parzelle]] Abschnitt
   "Anwendung/Anschluss".
-- [~] **M3 (neu Run 47, 2026-07-14; praezisiert Run 48)** Volksreferendum gegen die Verordnung
-  ueber die Umsetzung von § 49b PBG (UmV § 49b PBG). **Korrektur Run 48 (WebSearch
-  stadt-zuerich.ch, 2026-07-14):** Run 47s Vermutung "Flexibilisierung Parkplatzvorschriften"
-  war ein Fehlschluss aus dem blossen Suchtreffer-Titel — die Primaerquelle (Medienmitteilung
-  Stadt Zuerich) zeigt: § 49b PBG regelt **preisguenstigen Wohnraum als Gegenleistung fuer
-  Mehrausnuetzung** bei Um-/Aufzonungen bzw. Sondernutzungsplanung (Einkommenslimite nur bei
-  Mieteintritt relevant, keine laufende Kontrolle); das **staedtische** (nicht kantonale)
-  Referendum betrifft die Zuteilungs-/Verwaltungsregeln dieser Wohnungen in der Stadt Zuerich,
-  2'600 Unterschriften (2'063 gueltig, Quorum 2'000), zustande gekommen 21.11.2025,
-  **Volksabstimmung 14.06.2026**. Kein Bezug zu Parkierung/R9/R29 — Delta-Pruefung gegen
-  [[recht-norm-tiefgarage-erschliessung]] damit hinfaellig. **Neu relevant fuer** `machbarkeit`/
-  `nutzungsstrategie` (Mehrausnuetzung via BZO-Revision kann § 49b PBG-Pflicht ausloesen).
-  Weiterhin offen: Primaertext der Verordnung (§ 49b-Wortlaut, Einkommensgrenze, Anwendungs-
-  schwelle Mehrausnuetzung) noch nicht volltext gelesen — nur WebSearch-Zusammenfassung, daher
-  status `[~]` statt `[x]`; bei naechster Gelegenheit stadt-zuerich.ch/49b.html + kantonsrat.zh.ch
-  Primaerquelle lesen und in einen neuen Artikel (`recht-norm-mehrausnuetzung-wohnraum-zh.md`,
-  falls JANS-Projekt mit Verdichtung/Aufzonung ansteht) einarbeiten.
+- [x] **M3 (neu Run 47, 2026-07-14; praezisiert Run 48; abgeschlossen Run 53, 2026-07-19)**
+  Volksreferendum gegen die Verordnung ueber die Umsetzung von § 49b PBG (UmV § 49b PBG).
+  **Korrektur Run 48:** Run 47s Vermutung "Flexibilisierung Parkplatzvorschriften" war ein
+  Fehlschluss aus dem blossen Suchtreffer-Titel — § 49b PBG regelt **preisguenstigen Wohnraum
+  als Gegenleistung fuer Mehrausnuetzung**. Kein Bezug zu Parkierung/R9/R29.
+  **Vervollstaendigt Run 53 (WebFetch stadt-zuerich.ch/49b.html, 2026-07-19):** Primaerquelle
+  jetzt gelesen — Stadt Zuerich verlangt bei Aufzonungen **75 % der zusaetzlichen Ausnuetzung**
+  als preisguenstigen Wohnraum (**Bagatellgrenze 650 m² aGF**), bei Arealueberbauungs-Bonus
+  **100 %**; die staedtische UmV (Gemeinderatsbeschluss 17.09.2025) definiert dazu Wohnsitz-
+  pflicht/Mindestbelegung/Einkommenslimite (genaue Zahlen nicht ermittelt). **Ergebnis:**
+  Volksabstimmung 14.06.2026 mit **57.14 % Ja angenommen — UmV in Kraft**. Auch die dazugehoerige
+  falsche Fehlzuordnung im Wiki-Artikel [[energie-energienachweis-zh-formulare]] (dort war der
+  Nebenfund noch mit dem alten "Parkplatz"-Verdacht verlinkt) korrigiert. → NEU Abschnitt
+  "§ 49b PBG" in [[recht-norm-quellenlandkarte]]. Kein eigener Artikel noetig (Umfang reicht fuer
+  Abschnitt in der Quellenlandkarte); bei realem Verdichtungs-/Aufzonungsprojekt Primaertext der
+  UmV (Einkommenslimite-Zahlenwert) nachziehen.

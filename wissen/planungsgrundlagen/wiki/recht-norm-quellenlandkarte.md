@@ -1,9 +1,9 @@
 ---
 title: Recht & Norm — Quellenlandkarte (PL-02)
 status: established
-last_updated: 2026-07-14
-sources: [PL - 02_Recht_Norm (SharePoint), fedlex.admin.ch, zh.ch (RPG 2 / Klima-PBG / Denkmalschutz-Medienmitteilung 02.07.2026), kantonsrat.zh.ch, espace-suisse.ch, are.admin.ch, sz.ch (PBG 400.100 Stand 1.2.2025 / PBV 400.111 Stand 1.2.2026 / Vollzugsverordnungs-Vorlage), bauen-im-laerm.ch]
-links: [[kartenportale-oereb-egrid-bezug]], [[recht-norm-dispensrecht]], [[recht-norm-abstandsvorschriften-wald-gewaesser]], [[recht-norm-baurechtsanalysen-benchmarks]], [[recht-norm-raumprogramm-referenzwerke]], [[machbarkeit]]
+last_updated: 2026-07-19
+sources: [PL - 02_Recht_Norm (SharePoint), fedlex.admin.ch, zh.ch (RPG 2 / Klima-PBG / Denkmalschutz-Medienmitteilung 02.07.2026), kantonsrat.zh.ch, espace-suisse.ch, are.admin.ch, sz.ch (PBG 400.100 Stand 1.2.2025 / PBV 400.111 Stand 1.2.2026 / Vollzugsverordnungs-Vorlage), bauen-im-laerm.ch, stadt-zuerich.ch (§ 49b PBG + UmV-Volksabstimmung 14.06.2026), admin.ch/bauimmorecht.ch (LSV-Novelle 01.04.2026), vzgv.ch (Vorentwurf + erlaeuternder Bericht PBG "Erleichtertes Bauen im Bestand" 07.08.2025, abgerufen 2026-07-19)]
+links: [[kartenportale-oereb-egrid-bezug]], [[recht-norm-dispensrecht]], [[recht-norm-abstandsvorschriften-wald-gewaesser]], [[recht-norm-baurechtsanalysen-benchmarks]], [[recht-norm-raumprogramm-referenzwerke]], [[recht-norm-pbg-revision-bauen-im-bestand]], [[machbarkeit]]
 ---
 
 # Recht & Norm — Quellenlandkarte (PL-02)
@@ -190,6 +190,15 @@ Vernehmlassung hat bereits stattgefunden; **Inkrafttreten offen**, abhängig vom
 vor Anwendung den aktuellen Stand auf zh.ch prüfen). Ziel: die bauliche Weiterentwicklung
 geschützter Gebäude erleichtern.
 
+**Ergänzung Run 53 (2026-07-19, WebSearch zh.ch-Medienmitteilung + Folgequellen):** die Vorlage
+trägt den Titel **«Modernisierung der Denkmalpflege-Gesetzgebung (Baudenkmäler)»**, **RRB-Nr.
+678/2026**. Sie erfüllt zwei parlamentarische Vorstösse: **Motion KR-Nr. 153/2020** «Wir brauchen
+ein zukunftsgerichtetes Denkmalschutzgesetz» und **Postulat KR-Nr. 29/2022** «Denkmal- und
+Heimatschutz kontra Klimaschutz» — die Klimaschutz-Koppelung bestätigt die bereits dokumentierte
+Verknüpfung zur Energie-Domäne. Verfahrensstand seit 02.07.2026 unverändert (WebSearch 19.07.2026:
+keine Kantonsratsvorlage/Schlussabstimmung auffindbar) — weiterhin bei zh.ch/kantonsrat.zh.ch
+verfolgen, bevor auf das vereinfachte Verfahren abgestellt wird.
+
 **Kernpunkte der Vorlage (Medienmitteilung 02.07.2026):**
 - **Vereinfachtes Verfahren:** kleinere Änderungen an Baudenkmälern werden künftig direkt im
   Baubewilligungsverfahren geprüft, **ohne separaten Schutzbeschluss**.
@@ -212,10 +221,67 @@ Inkrafttretensdatum verifizieren, bevor auf das vereinfachte Verfahren abgestell
 **Kapitel 5 LSV** (Planen und Bauen in lärmbelasteten Gebieten): Empfindlichkeitsstufen (ES I
 Erholungszonen · ES II reine/gemischte Wohnzonen ohne störende Betriebe · ES III Wohn-/
 Gewerbe-Mischzonen · ES IV Industriezonen), Ausnahmebewilligungs-Mindestvoraussetzungen für Bauten
-in Zonen mit Grenzwertüberschreitung. **⚠ USG und LSV wurden per 01.04.2026 geändert** — vor
-Anwendung den aktuellen Stand auf bauen-im-laerm.ch/zh.ch prüfen (inhaltliche Details der Novelle
-noch nicht vertieft). Formularseitig ergänzt durch **Formular S Schallschutznachweis Aussenlärm**
-(Kt. ZH, Zusatzformular zum Energienachweis) → [[energie-baueingabe-zusatzformulare]].
+in Zonen mit Grenzwertüberschreitung. Formularseitig ergänzt durch **Formular S
+Schallschutznachweis Aussenlärm** (Kt. ZH, Zusatzformular zum Energienachweis) →
+[[energie-baueingabe-zusatzformulare]].
+
+**LSV-Novelle 01.04.2026 — Inhalt belegt (Run 53, 2026-07-19, WebSearch admin.ch/bauimmorecht.ch):**
+der Bundesrat hat am **25.02.2026** die Teilinkraftsetzung der USG-Änderung (Lärmschutz) sowie die
+Änderung der **LSV** per **01.04.2026** beschlossen — ohne Übergangsfrist, gilt für **alle
+Baueingaben ab diesem Datum**. Kernpunkte: **Art. 22 USG** («Baubewilligungen in lärmbelasteten
+Gebieten») und **Art. 31 LSV** wurden angepasst — Gemeinden können Wohnbauten in lärmbelasteten
+Gebieten bewilligen, wenn die Grenzwerte eingehalten sind ODER Lärmschutzmassnahmen vorgesehen
+werden; ist die Grenzwerteinhaltung mit verhältnismässigem Aufwand nicht möglich, kann unter
+bestimmten Voraussetzungen dennoch bewilligt werden. **Neu gilt eine kontrollierte
+Wohnraumlüftung (KWL) als zulässige bauliche Schallschutzmassnahme** (Fenster können damit auch in
+lärmexponierter Lage geschlossen bleiben, ohne dass ein separates Lüftungsfenster nachgewiesen
+werden muss) — Ziel ist die Siedlungsentwicklung nach innen besser mit dem Lärmschutz zu
+koordinieren. **JANS-Relevanz:** direkt einschlägig für Innenentwicklungsprojekte an
+verkehrsexponierten Lagen (z. B. Hauptstrassen/Bahnlinien) — KWL-Nachweis als Alternative zum
+klassischen Lärmschutzfenster-Konzept prüfen. Primärquelle noch nicht als PDF im PL-02-Ordner
+abgelegt (nur Web); bei realem Fall den amtlichen LSV-Text (SR 814.41) auf fedlex gegenprüfen.
+
+## § 49b PBG — Preisgünstiger Wohnraum bei Mehrausnützung (NEU + Korrektur, Run 53, 2026-07-19)
+
+**Korrektur eines Nebenfunds aus Run 47 (2026-07-14):** dort war ein unverifizierter Fund als
+«Volksreferendum gegen UmV § 49b PBG (**Parkplatzvorschriften**-Flexibilisierung)» vermerkt. Der
+Themenbezug war **falsch** — § 49b PBG regelt **nicht** Parkplätze, sondern **preisgünstigen
+Wohnraum bei zusätzlicher Ausnützung** (von den Stimmberechtigten 2014 angenommen, kantonale
+Verordnung von November 2019).
+
+**Belegter Inhalt (WebSearch + WebFetch stadt-zuerich.ch, 2026-07-19):**
+- § 49b PBG ermöglicht Gemeinden, bei **zusätzlichen Ausnützungsmöglichkeiten** (Aufzonung,
+  Arealüberbauungs-Bonus) einen Mindestanteil an bezahlbarem Wohnraum vorzuschreiben.
+- Stadt Zürich (Umsetzung via BZO): bei Aufzonungen müssen **75 % der zusätzlichen Ausnützung**
+  als preisgünstiger Wohnraum erstellt werden; **Bagatellgrenze 650 m² anrechenbare
+  Geschossfläche**. Bei Arealüberbauungen ist der freiwillige Bonus zu **100 %** dem
+  preisgünstigen Wohnraum zu widmen.
+- Die städtische **Umsetzungsverordnung (UmV § 49b PBG)** — Gemeinderatsbeschluss **17.09.2025** —
+  definiert dazu **Wohnsitzpflicht, Mindestbelegung und Einkommenslimite** für die Mietenden
+  (genaue Zahlenwerte in dieser Recherche nicht ermittelt — bei Anwendungsfall Primärverordnung
+  ziehen).
+- **Referendum:** gegen die UmV kam am 21.11.2025 mit 2'600 eingereichten Unterschriften
+  (2'063 gültig, Quorum 2'000) ein **Volksreferendum** zustande. **Volksabstimmung Stadt Zürich
+  14.06.2026:** die UmV wurde mit **57,14 % Ja-Stimmen angenommen** — die Umsetzungsverordnung
+  ist damit **in Kraft**.
+
+**JANS-Relevanz:** bei jeder Aufzonungs-/Arealüberbauungs-Studie in der Stadt Zürich mit
+Ausnützungsgewinn > 650 m² aGF ist die Wohnauflage nach § 49b PBG / UmV zwingend in die
+Wirtschaftlichkeitsrechnung (→ [[machbarkeit]] Typ B) einzupreisen — 75 %-Quote schmälert den
+frei vermarktbaren Anteil erheblich. Bei konkretem Fall Primärtext der UmV (Einkommenslimite/
+Belegungsvorschrift) über die Stadt-Zürich-Gesetzessammlung nachziehen.
+
+## PBG-Revision «Erleichtertes Bauen im Bestand» (§ 220a E-PBG, NEU, Run 53, 2026-07-19)
+
+**Neuer, bisher nicht erfasster Rechtsetzungsstrang** — nicht zu verwechseln mit RPG 2 oder der
+Denkmalschutz-Revision oben. Eigener Artikel mit vollständiger Auswertung des amtlichen
+Vorentwurfs + erläuternden Berichts: **[[recht-norm-pbg-revision-bauen-im-bestand]]**.
+Kurzfassung: neue Bestimmung § 220a E-PBG gibt Grundeigentümerschaften im Rahmen der
+**bestehenden** Ausnützung einen Anspruch auf **Abweichung von Grenzabstand/Fassadenhöhe/
+Fassadenlänge/Vollgeschosszahl**, sofern dadurch neue Wohneinheiten entstehen (Aufstockung,
+Dachausbau, Anbau) — plus Ergänzung § 357 E-PBG für bereits baurechtswidrige Bestandesbauten und
+Streichung des Mehrlängenzuschlags (§§ 21 Abs. 2/23/24 ABV). Vernehmlassung 26.09.2025–16.01.2026
+abgeschlossen; Kantonsratsvorlage/Inkraftsetzung noch offen.
 
 ## SZ ↔ ZH — Messweisen (belegte Kernregeln, Tiefe → `baurecht`)
 
@@ -312,12 +378,20 @@ es zieht** (belegt aus dem Ordner, Stand 2026-06-20):
   Vollzugshilfe fuer Gemeinden bekannt. Parallele ZH-PBG-Revision **«Klimaangepasste
   Siedlungsentwicklung»** **erledigt 2026-07-06 (Run 15): in Kraft seit 01.12.2024** (RRB 998/2024,
   § 238a PBG) — s. Abschnitt oben.
-- R10 (NEU): **Denkmalschutz-PBG-Revision erfasst 2026-07-13 (Run 23)** — RRB verabschiedet
-  02.07.2026 zuhanden Kantonsrat, Inkrafttreten offen; s. Abschnitt oben. Bei
+- R10 (NEU): **Denkmalschutz-PBG-Revision erfasst 2026-07-13 (Run 23), RRB-Nr. 678/2026 +
+  Vorstoss-Hintergrund ergaenzt 2026-07-19 (Run 53)** — Verfahrensstand seit 02.07.2026
+  unveraendert (zuhanden Kantonsrat, Inkrafttreten offen); s. Abschnitt oben. Bei
   Kantonsratsbeschluss/Inkrafttreten nachziehen.
-- R11 (NEU): **Laermschutz/LSV-Novelle 01.04.2026 erfasst 2026-07-13 (Run 23)** — Praxishilfe
-  bauen-im-laerm.ch dokumentiert, inhaltliche Details der Novelle noch offen; bei realem
-  Laermschutz-Fall vertiefen.
+- R11: **Laermschutz/LSV-Novelle 01.04.2026 — Inhalt vollstaendig erfasst 2026-07-19 (Run 53)**:
+  Art. 22 USG / Art. 31 LSV, KWL als zulaessige Schallschutzmassnahme, keine Uebergangsfrist; s.
+  Abschnitt oben. Erledigt.
+- R12 (NEU, Run 53): **§ 49b PBG (preisguenstiger Wohnraum) erfasst + Fehlzuordnung aus Run 47
+  korrigiert** (war faelschlich als "Parkplatzvorschriften" gefuehrt) — s. Abschnitt oben.
+  Referendum 14.06.2026 mit 57.14 % angenommen, UmV in Kraft. Primaertext (Einkommenslimite)
+  bei realem Fall nachziehen.
+- R13 (NEU, Run 53): **PBG-Revision "Erleichtertes Bauen im Bestand" (§ 220a E-PBG)** — neuer
+  Rechtsetzungsstrang, vollstaendig ausgewertet → NEU [[recht-norm-pbg-revision-bauen-im-bestand]].
+  Vernehmlassung abgeschlossen 16.01.2026; offen: Kantonsratsvorlage/Inkraftsetzung verfolgen.
 - B3: `06_Richtlinien`-Wegweiser **erledigt 2026-06-20** — vertiefen je nach Projektbedarf.
 - R2: **SZ-Mass-Definitionen gegen aktuelle amtliche SRSZ-Fassung geprueft — erledigt 2026-07-12
   (Run 18):** § 60/61/62/66/67 amtlich bestaetigt (PBG 400.100, **Stand 1.2.2025**, Volltext-Grep),

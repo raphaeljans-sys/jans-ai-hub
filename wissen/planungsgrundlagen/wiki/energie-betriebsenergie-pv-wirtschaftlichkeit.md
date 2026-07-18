@@ -1,8 +1,8 @@
 ---
 title: PV-Foerderung (Pronovo Einmalverguetung) & Wirtschaftlichkeit
 status: emerging
-last_updated: 2026-07-14
-sources: [Pronovo AG "Neuerungen Einmalverguetung Photovoltaik" (pronovo.ch/de/foerderinstrumente/neuerungen-einmalverguetung-photovoltaik, abgerufen 2026-07-14), Pronovo AG "Einmalverguetung (EIV) Photovoltaik" + Foerderung-Uebersicht (pronovo.ch/de/foerderung, abgerufen 2026-07-14), Pronovo Tarifrechner (pronovo.ch/de/services/tarifrechner), EnergieSchweiz "Einmalverguetungen | Investitionsbeitraege" (energieschweiz.ch/wohnen/einmalverguetungen, abgerufen 2026-07-14), realer Betriebskosten-Fall EFH 1957 → [[energie-uebersicht]] §Betriebsenergie]
+last_updated: 2026-07-19
+sources: [Pronovo AG "Neuerungen Einmalverguetung Photovoltaik" (pronovo.ch/de/foerderinstrumente/neuerungen-einmalverguetung-photovoltaik, abgerufen 2026-07-14 + Refresh 2026-07-19), Pronovo AG "Einmalverguetung (EIV) Photovoltaik" + Foerderung-Uebersicht (pronovo.ch/de/foerderung, abgerufen 2026-07-14), Pronovo Tarifrechner (pronovo.ch/de/services/tarifrechner), EnergieSchweiz "Einmalverguetungen | Investitionsbeitraege" (energieschweiz.ch/wohnen/einmalverguetungen, abgerufen 2026-07-14), realer Betriebskosten-Fall EFH 1957 → [[energie-uebersicht]] §Betriebsenergie]
 links: [[energie-uebersicht]], [[energie-pv-eignung-typenwahl]], [[energie-pv-brandschutz]]
 ---
 
@@ -104,3 +104,13 @@ Leistungsbeitrag-Senkung je CHF 20 (≤30 kW und ab 100 kW) per 01.04.2025 (iden
 in §1 erfassten Stand). Grundstruktur Grundbeitrag + degressiver Leistungsbeitrag + Neigungswinkel-
 /Parkflaechenbonus bleibt unveraendert gueltig; absolute CHF/kW weiterhin nur ueber den
 Tarifrechner beziehen (kein neuer statischer Wert noetig).
+
+**Refresh 2026-07-19 (Run 53):** erneute WebFetch-Gegenpruefung derselben Pronovo-Primaerquelle
+bestaetigt den Stand unveraendert — chronologisch: Neigungswinkelboni-Erhoehung ab 01.01.2025
+(stark geneigt integriert 250→400 CHF/kW, angebaut/freistehend 100→200 CHF/kW), Tarifanpassung
++ Leistungsbeitrag-Senkung je CHF 20 ab 01.04.2025, Parkflaechenbonus 250 CHF/kW fuer Anlagen
+≥100 kW ganzjaehrig 2025. Ein WebSearch-Snippet (nicht die Primaerquelle) hatte zusaetzlich einen
+"Winterstrombonus ab 01.01.2026 fuer Anlagen ≥100 kW bei Winterproduktion >500 kWh/kW" behauptet —
+**gegen die Pronovo-Primaerseite geprueft und nicht bestaetigt** (dort nicht erwaehnt); als
+unverifizierter Nebenfund verworfen statt uebernommen (Leitplanke "nie erfinden"). Naechster
+Check nur bei konkretem Hinweis.
