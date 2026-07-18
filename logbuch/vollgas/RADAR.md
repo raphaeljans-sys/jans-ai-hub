@@ -21,6 +21,38 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-19 00:50 — [GEDROSSELT] Vollstaendige Zeitplan-Pruefung beider Stationen: keine dritte Drossel-Luecke
+
+**Fensterzustand:** Drossel-Regime unveraendert. STOP + STOP-Macmini stehen seit 14.07. 12:53 mit
+unveraendertem Grund, Runner bleibt gestoppt (Schoner-Rolle, kein Wiederanfahren). Runner-Logs beider
+Stationen enden weiterhin am 14.07. 12:39/12:37 — korrekt. Kein Login-Probe gefahren; der Wochen-Reset
+ist morgen (Mo 20.07. 11:59, noch ~35 Std.).
+
+**Lagebild:** Der P2-Vorsatz vom Abend ist eingeloest — erstmals wurde nicht nur der Commit-Strom
+gezaehlt, sondern **jeder** Zeitplan Task fuer Task gelesen: 26 App-Scheduled-Tasks auf dem MacBook Pro
+plus die launchd-Plists beider Stationen. Ergebnis: **keine dritte Luecke**. Alle Lern-/Trainings-Loops
+stehen 1x taeglich im Nachtfenster (normen 01:20, wettbewerbs-dna 02:20 disabled, immobewertung 02:50,
+twin-mail 03:35, spec 04:10, twin-fidelity 05:40, wissens-chef 23:10, baurecht woechentlich Mo 23:40;
+Mac Mini: plg 00:30, synobsis 02:15, energie 22:30, normen-mini 05:30 mit `Disabled: true`). Die beiden
+gestrigen Korrekturen halten. Die operativen Briefings (logbuch-radar, konversations-log, hub-chef,
+heartbeat, mahnwesen, zahlungsabgleich, Monitore) liegen regelkonform unangetastet am Morgen. Der
+Commit-Strom bestaetigt das Bild: die drei inhaltlichen Commits seit dem letzten Lauf liegen alle im
+Fenster (Energie Run 80 22:46, Wissens-Chef Run 9 00:15, Recht-und-Norm Run 53 00:48), die uebrigen 23
+sind `nas-selfcommit`. Pendenzen-Queues beider Stationen leer.
+
+**Vorschlaege:**
+- P1: keiner. Kein Blocker, kein Mail-Anlass.
+- P2: Die Zeitplan-Pruefung ist jetzt als fixer Schritt etabliert und laeuft sauber — sie bleibt im
+  Lauf, aber der Fokus verschiebt sich auf morgen: um 11:59 faellt der Wochen-Reset, um 12:15/12:30
+  feuern `syn02-spec-anstoss` und `wettbewerbs-dna-reaktivierung`. Wichtig: die Reaktivierung setzt den
+  Wettbewerbs-Loop bewusst auf **gedrosselt 1x taeglich 02:20**, nicht auf VOLLGAS — das Drossel-Regime
+  bleibt bis zu einer ausdruecklichen Anweisung Raphaels bestehen. Der naechste Lauf nach dem Reset
+  sollte das verifizieren, nicht vorwegnehmen.
+- P3 (unveraendert, Einzeiler): `synobsis-batch-nacht` ganz stilllegen (853/853, kein neues
+  Quellmaterial); Entscheid morgen Mo 20.07.
+
+---
+
 ## 2026-07-18 18:50 — [GEDROSSELT] Zweite Drossel-Luecke geschlossen: `wissens-chef` lief noch mit VOLLGAS-Zeit 17:00
 
 **Fensterzustand:** Drossel-Regime unveraendert. STOP + STOP-Macmini stehen seit 14.07. 12:53 mit
