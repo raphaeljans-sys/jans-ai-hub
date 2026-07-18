@@ -167,7 +167,7 @@ muss ein übernommenes Modul aber vollständig/unverändert umsetzen).
 | Modul 4 | Ferienhäuser/-wohnungen | Effizienzanforderungen für Zweitwohnungen (Ausschöpfung wirtschaftlich nutzbaren Potenzials) | Keine substanzielle Neuerung erkennbar |
 | Modul 5 | Sanierungspflicht dezentrale Elektroheizungen | Bestehende ortsfeste Elektro-Widerstandsheizungen ohne Wasserverteilsystem müssen **innert 5 Jahren** ersetzt werden; Befreiungen Nassräume/WC, ≤3 kW oder <50 m² elektrisch beheizte EBF, Kirchen | **Übergangsfrist von 15 auf 5 Jahre verkürzt** (MuKEn 2014 Modul 6); Begründung: MuKEn 2025 rund 11 Jahre später verabschiedet, kürzere Frist führt zum selben Ziel-Zeitpunkt (BGer-Urteil 1C_37/2022 vom 23.03.2023 zur ZH-Regelung bestätigt Verhältnismässigkeit) |
 | Modul 6 | Ausführungsbestätigung | Schriftliche Bestätigung Bauherrschaft + Fachperson, ergänzt Teil Q Basismodul | Rein vollzugstechnisch |
-| Modul 7 | Betriebsoptimierung | HLKKSE+GA-Betriebsoptimierung für Bestandsbauten mit Elektrizitätsverbrauch ≥200'000 kWh, alle 5 Jahre periodisch, Dokumentation 10 Jahre | Erstmals explizite periodische 5-Jahres-Pflicht |
+| Modul 7 | Betriebsoptimierung | HLKKSE+GA-Betriebsoptimierung für Bestandsbauten mit Elektrizitätsverbrauch ≥200'000 kWh, alle 5 Jahre periodisch, Dokumentation 10 Jahre | **Korrektur 2026-07-18:** KEINE Neuerung — wortidentisch mit MuKEn-2014-Modul 8 (Art. 8.1-8.5), nur umnummeriert (8→7); im Kt. ZH bereits seit 1.9.2022 geltendes Recht (§ 13d EnerG). Details/Kantonsvergleich ZH/BL/SZ + Healthcare-Einordnung → [[muken-2025-modul-7-betriebsoptimierung-hlkkse]] |
 | Modul 8 | GEAK-Anordnung für bestimmte Bauten | Kantone können GEAK-Obligatorium für bestimmte Bautypen anordnen | Formulierungsvorschlag, keine erkennbare Verschärfung |
 | Modul 9 | Energieplanung | Kantonale/kommunale Energieplanung, inkl. Anschlusszwang an Fernwärme bei lokaler Abwärme/erneuerbarer Versorgung zu zumutbaren Bedingungen | Im Kern Fortführung |
 | Modul 10 | Energiedaten | Datenerhebungs-/Auskunftspflicht für Energieproduzenten/-lieferanten (Strom, Gas, Fernwärme, Heizöl/Holz), EGID-scharfe Übermittlung bis 31.3. Folgejahr | Neues, ausführlicheres Regelwerk |
@@ -427,5 +427,6 @@ M_Energiegesetz.pdf.
 [[foerderung-energie-sz]] · [[muken-2025-modul-g-co2-grenzwerte]] ·
 [[heizsysteme-vollkostenvergleich-energieschweiz]] (Anhang 7 macht diesen Vergleich zum
 Rechtsinstrument) · [[muken-2025-anhang-1-3-uwert-heizwaermebedarf]] ·
-[[muken-2025-anhang-4-5-daemmstaerken-leitungen]] · Themenartikel [[energienachweis-zh]]
+[[muken-2025-anhang-4-5-daemmstaerken-leitungen]] · [[muken-2025-modul-7-betriebsoptimierung-hlkkse]]
+(Modul 7 vertieft, inkl. Korrektur der Tabellenzeile oben) · Themenartikel [[energienachweis-zh]]
 (neuer Ausblick-Abschnitt).

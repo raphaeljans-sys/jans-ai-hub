@@ -2,6 +2,103 @@
 
 Neueste zuoberst.
 
+## 2026-07-18 — Run 78 (Intensiv-Lauf, 6 parallele Themen)
+
+PDF-Inventar weiterhin erschoepft (Kontrolle: keine neuen PDFs seit 01.07.2026). Sechs parallele
+Agent-Streams (Fan-out via Agent-Tool, geplanter Workflow-Orchestrator verlangte manuelle Freigabe):
+T1 Register-Audit (Fund: MuKEn-Anh.-6/7 fehlt in INDEX/FAQ, wie zuvor bei Anh. 4/5; E100-Rest
+positiv geloest — WDV Baudirektion ZH 2009 existiert), T2 MuKEn Modul 5 x Elektroheizungsfrist
+(established, Negativbefund kantonale Uebernahme, FAQ F98), T3 SZ-Fernwaerme-Sampling (Negativbefund,
+Tool-Ausfall), T4 E93 Massivdecke-Ψ-Wert geschlossen (established, echter Fund via Verknuepfungsluecke
++ zweiter Mirror), T5 neues Destillat Oel-/Gasheizungsersatzpflicht ZH+SZ (established, FAQ F99
+vorgeschlagen), T6 neues Destillat MuKEn Modul 7 Betriebsoptimierung HLKKSE (established, FAQ F100
+vorgeschlagen, korrigiert Fehlbehauptung in muken-2025-verabschiedet.md). Details:
+outputs/2026-07-18_energie-run78.md. Offen fuer naechsten Lauf: F99/F100 in BAUHERREN-FAQ eintragen,
+MuKEn-Anh.-6/7-Registerluecke schliessen, wiki/INDEX.md FAQ-Zaehlstand auf 100.
+
+## 2026-07-18 — Neues Destillat MuKEn 2025 Modul 7 «Betriebsoptimierung HLKKSE» + Korrektur bestehender Tabellenzeile
+- **Auftrag:** Modul 7 (HLKKSE+GA-Betriebsoptimierung, ≥200'000 kWh/a Elektrizität, alle 5 Jahre,
+  Dokumentation 10 Jahre) vertiefen — Umfang HLKKSE, Verhältnis zur Grossverbraucher-Schwelle
+  (Teil N, Art. 1.55: >5 GWh Wärme/>0,5 GWh Strom), kantonaler Umsetzungsstand, Healthcare-Bezug
+  (erreicht ein Pflegeheim/Spital die Schwelle).
+- **Neues Destillat:** `destillate/muken-2025-modul-7-betriebsoptimierung-hlkkse.md` (status
+  established). Kernbefund: Modul 7 ist **wortidentisch mit MuKEn-2014-Modul 8** (Art. 8.1-8.5),
+  keine inhaltliche Neuerung 2025 — nur Umnummerierung (8→7) plus Anpassung des internen
+  Grossverbraucher-Querverweises. Im Kt. ZH bereits **seit 1.9.2022 geltendes Recht** (§ 13d EnerG,
+  Primärtext bereits im Hub via `wissen/baurecht/raw/260712_amtlich_zh_energ.md`). Kt. Basel-Landschaft
+  hat eine sehr aktuelle Vollzugshilfe EN-142 (Ausgabe Juni 2026, curl+pdftotext gelesen) mit
+  zusätzlichen Vollzugsdefinitionen (Betriebsstätte = gemeinsame Einspeisung/Areal-Aggregation,
+  ZVM-Tool des BFE seit 2026, Fachperson-Zulassung). Kt. Schwyz hat **kein**
+  Betriebsoptimierungs-Modul (kEnG/KEnV im Volltext auf den Begriff durchsucht, kein Treffer) —
+  primärquellen-verneint. Healthcare-Einordnung: SIA-2024:2019/Minergie-Strommodell-Elektrizitäts-
+  kennzahlen für Gebäudekategorie VIII.1 Spital (36/65 kWh/m²EBF) und VIII.2 Pflege (29/63
+  kWh/m²EBF) aus dem SIA-Statusbericht «Harmonisierung SIA-Standardwerte» ausgewertet → daraus
+  EBF-Schwelle für die 200'000-kWh-Pflicht abgeleitet (rund 3'100-5'550 m² EBF Spital,
+  3'175-6'900 m² EBF Pflegeheim, je nach Kennwertmodell). Grossverbraucher (meist Spitäler) sind
+  über ihre Zielvereinbarung i.d.R. von Modul 7 befreit (Art. 7.2 lit. b) — die eigentliche
+  JANS-Zielgruppe ist die «Zwischenzone» mittelgrosser Pflegeheime zwischen 200'000 kWh und der
+  Grossverbraucher-Schwelle 0,5 GWh.
+- **Korrektur in `destillate/muken-2025-verabschiedet.md`:** Tabellenzeile Modul 7 (Abschnitt
+  «Module 2-14 ausserhalb Teil G») trug fälschlich «Erstmals explizite periodische
+  5-Jahres-Pflicht» als Neuerung — durch den jetzigen Volltextvergleich widerlegt (MuKEn 2014
+  Art. 8.4 hatte dieselbe Frist bereits wortgleich). Zeile korrigiert + auf neues Destillat
+  verlinkt; Backlink-Liste ergänzt.
+- **FAQ-Vorschlag F100** (Einreihung/Nummerierung obliegt dem konsolidierenden Lauf):
+  «Muss ich für mein Pflegeheim/meine Klinik eine periodische Betriebsoptimierung der
+  Haustechnik durchführen?»
+- Quelle: EnDK MuKEn 2025/2014 Volltexte, EnerG ZH § 13a/13d, Vollzugshilfe EN-142 BL
+  (Juni 2026), kEnG/KEnV SZ, SIA-Statusbericht Harmonisierung Standardwerte — alle per
+  curl+pdftotext/direktem Hub-Rohtext gelesen 2026-07-18.
+
+## 2026-07-18 — Energie-Training Run 79: E93 geschlossen (Ψ-Wert einbindende Massivdecke, Innendämmung)
+- **Auftrag:** letzter gezielter Rechercheversuch zum wiederholt offenen Punkt E93 («kein CH-Ψ-Wert
+  für einbindende Massivdecke in innengedämmter Aussenwand»), über einen neuen Quellenwinkel
+  (Empa, Lignum/Holzbau Schweiz, HSLU, IEA-EBC-Annex, alternative BFE-Mirrors).
+- **Ergebnis: E93 geschlossen, kein neuer Negativbefund.** Ein zweiter, unabhängiger Mirror des
+  bereits im Hub verwendeten BFE-Wärmebrückenkatalogs 2002 (Energie Zentralschweiz,
+  energie-zentralschweiz.ch/media/124, per curl+pdftotext im Volltext gelesen) zeigte, dass Gruppe
+  2.1 «Geschossdecke» einen eigenen Wandtyp **I = Innendämmung** führt — Detail 2.1-I1
+  «durchbetoniert» (Ψ 0,63-0,89 W/(m·K), die gesuchte einbindende Massivdecke) und 2.1-I2
+  «Stahlkorb» (Ψ 0,07-0,15 W/(m·K), thermisch getrennt). Diese Zahlen lagen bereits seit
+  2026-07-13 primärquellenverifiziert in `[[waermebrueckenkatalog-bfe-geschossdecke-kellerdecke]]`,
+  waren aber nie mit E93 verknüpft — eine reine Verknüpfungslücke zwischen zwei KB-Destillaten,
+  jetzt durch die zweite Quelle zusätzlich zahlengleich gegengeprüft.
+- **`destillate/innendaemmung-altbau-bauphysik-ch.md` aktualisiert:** Abschnitt 4 (Wärmebrücken) um
+  die Ψ-Wert-Tabelle, Zuschläge/Abzüge, Bauherren-Konsequenz und eine kleine Restlücke
+  (Übertragbarkeit auf Vorkriegs-/Naturstein-Mauerwerk) ergänzt; «Offene Punkte» E93-Bullet auf
+  geschlossen umgeschrieben; Backlink-Beschreibung zu `waermebrueckenkatalog-bfe-geschossdecke-
+  kellerdecke` präzisiert; Quellen-/Frontmatter-Datenstand auf 2026-07-18.
+- **`wiki/QUESTIONS.md`:** E93 auf `[x]` geschlossen mit Kurzbeleg.
+- **Auch geprüft, ohne Treffer:** Empa-Publikationssuche, Lignum/Holzbau Schweiz, HSLU-Direktsuche,
+  IEA-EBC-Annex-Programme, BFE-Publikation «Checkliste Wärmebrücken EN-ZH» Version 7.0
+  (pubdb.bfe.admin.ch/publication/download/7424 — nur Neubau-Prüfpunkte, keine Sanierungs-Ψ-Werte).
+- **Lern-Punkt fürs Register:** bei zukünftigen KB-Fragen zuerst die eigenen Schwester-Destillate
+  im selben Themenfeld auf bereits vorhandene, aber unverknüpfte Antworten prüfen, bevor eine
+  neue externe Quellensuche gestartet wird (Compounding-Disziplin).
+
+## 2026-07-18 — Energie-Training: MuKEn-2025-Modul-5-Lücke im Elektroheizungs-Destillat geschlossen
+- **Auftrag:** das bestehende Destillat `elektroheizungs-ersatzpflicht-zh-sz.md` (ZH bis 2030 §10b
+  EnerG, SZ bis 2050 §22a kEnG) verwies noch nicht auf MuKEn 2025 Modul 5 (Übergangsfrist 15→5 Jahre
+  verkürzt, BGer 1C_37/2022). Diese Lücke wird geschlossen.
+- **Neuer Abschnitt «MuKEn 2025 Modul 5 — Verkürzung der Übergangsfrist»:** Art. 5.1 MuKEn 2025
+  («Bestehende ortsfeste elektrische Widerstandsheizungen sind innerhalb von 5 Jahren nach
+  Inkraftsetzung dieses Gesetzes zu ersetzen») via Sekundärauszug energiehub-gebaeude.ch gelesen und
+  gegen das primärquellen-verifizierte Schwesterdestillat `muken-2025-verabschiedet.md` (Run 74)
+  kreuzgeprüft — deckungsgleich. Web-Recherche 18.07.2026 (Kantonsrat-ZH-Geschäftsdatenbank,
+  sz.ch-Vernehmlassungsliste, RRB Nr. 632/2025, SVP-SZ/Mieterverband-SZ) findet **keine** laufende
+  oder angekündigte kantonale Umsetzung von Modul 5 in ZH oder SZ — **Negativbefund**, dokumentiert
+  statt spekuliert. Damit bleiben die bestehenden Fristen (ZH 2030 / SZ 2050) unverändert massgebend;
+  die 5-Jahres-Frist beginnt erst mit der jeweiligen kantonalen Gesetzesrevision zu laufen.
+- **Offener Punkt neu markiert:** exakter Geltungsbereich von Art. 5.1 («ohne Wasserverteilsystem»?)
+  nur via Sekundärauszug plausibilisiert, nicht selbst am EnDK-PDF-Original nachgeprüft — bei
+  Gelegenheit direkt verifizieren.
+- **FAQ F98 neu** (`wiki/BAUHERREN-FAQ.md`): «Muss ich meine Elektroheizung jetzt noch früher
+  ersetzen — ändert MuKEn 2025 die Frist?» — Kurzantwort: nein, heute noch nicht, Fristen 2030/2050
+  bleiben in Kraft, bis ein Kanton Modul 5 übernimmt.
+- Register nachgeführt: `destillate/INDEX.md` (Zeile `elektroheizungs-ersatzpflicht-zh-sz`,
+  Datenstand + Status-Zusatz).
+- Bericht: keiner separat (Ergänzung eines bestehenden Destillats, kein neuer Output-Report nötig).
+
 ## 2026-07-17 — Energie-Training Run 77 (Konsolidierung + Verdichtung, Drossel-Rule 260714)
 - **Typ:** schlanker Konsolidierungs-/Verdichtungslauf (zweiter des Tages nach Run 76), bewusst ohne
   Multi-Agent-Fan-out — Drossel gemäss Rule 260714 (Wochenlimit 81 %). Schwerpunkt: die in Run 76 als

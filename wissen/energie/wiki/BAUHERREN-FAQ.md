@@ -3626,3 +3626,39 @@ gelesen 17.07.2026. Destillat `[[muken-2025-anhang-4-5-daemmstaerken-leitungen]]
 **established** (drei Primärquellen deckungsgleich). Offen: eigenes ZH-Vollzugsdokument für
 Verteilleitungs-Dämmstärken (in der KB nicht separat nachgewiesen; dürfte über die EnFK-Vollzugshilfe-
 Familie gelten).
+
+## F98 — «Muss ich meine Elektroheizung jetzt noch früher ersetzen — ändert MuKEn 2025 die Frist?»
+
+**Kurz-Antwort für den Bauherrn:** Nein, heute noch nicht. Die MuKEn 2025 sieht in ihrem Modul 5
+zwar eine deutlich kürzere Übergangsfrist für den Ersatz bestehender Elektro-Widerstandsheizungen
+vor (neu **5 statt bisher 15 Jahre**) — diese Frist beginnt aber erst zu laufen, wenn Ihr Kanton
+Modul 5 tatsächlich ins eigene Energiegesetz übernommen hat. Weder der Kanton Zürich noch der
+Kanton Schwyz haben das bislang getan; eine entsprechende Gesetzesrevision ist Stand 18.07.2026 in
+keinem der beiden Kantone beschlossen oder auch nur in Vernehmlassung. Für Sie gilt deshalb
+unverändert die heutige Frist: im **Kt. ZH bis 2030** (§ 10b Abs. 3 EnerG), im **Kt. SZ bis 2050**
+(§ 22a kEnG, nur für zentrale Anlagen mit Wasserverteilsystem).
+
+**Fachliche Begründung:** Art. 5.1 MuKEn 2025 (Modul 5, «Sanierungspflicht dezentraler
+Elektroheizungen») lautet: «Bestehende ortsfeste elektrische Widerstandsheizungen sind innerhalb
+von 5 Jahren nach Inkraftsetzung **dieses Gesetzes** durch Heizungen zu ersetzen, die den
+Anforderungen dieses Gesetzes entsprechen.» Gemeint ist das kantonale Gesetz, das Modul 5
+übernimmt, nicht die MuKEn-2025-Verabschiedung durch die EnDK am 29.08.2025 selbst. Modul 5 ist
+zudem ein **optionales** Modul (nicht Teil des für alle Kantone verbindlichen Basismoduls); ob und
+wann Ihr Kanton es übernimmt, ist offen. Zusätzliche Unsicherheit: Modul 5 zielt laut Titel primär
+auf **dezentrale** Anlagen (mutmasslich ohne Wasserverteilsystem) — das deckt sich nicht exakt mit
+den heutigen kantonalen Regelungen (ZH erfasst alle Anlagen inkl. zentraler Wassererwärmer, SZ nur
+zentrale Anlagen mit Wasserverteilsystem); wie eine künftige kantonale Umsetzung die Anlagetypen
+differenziert, ist heute nicht geklärt. Wichtig für die Planung: Zuwarten ist kein Freibrief, das
+Bundesgericht hat die grundsätzliche Zulässigkeit einer solchen Sanierungspflicht bereits 2023
+bestätigt (BGer 1C_37/2022), und eine spätere kantonale Verkürzung auf 5 Jahre ist nicht
+ausgeschlossen.
+
+**Quelle + Datenstand:** MuKEn 2025 Art. 5.1 (EnDK, 29.08.2025, via energiehub-gebaeude.ch,
+WebFetch 18.07.2026, Kreuzverifikation gegen primärquellen-gelesenes Schwesterdestillat
+`[[muken-2025-verabschiedet]]`, Run 74, curl+pdftotext); Web-Recherche Umsetzungsstand ZH/SZ
+18.07.2026 (Kantonsrat-ZH-Geschäftsdatenbank, sz.ch-Vernehmlassungsliste, RRB Nr. 632/2025), 
+Negativbefund, keine laufende Modul-5-Umsetzung gefunden. Destillat
+`[[elektroheizungs-ersatzpflicht-zh-sz]]`, Abschnitt «MuKEn 2025 Modul 5 — Verkürzung der
+Übergangsfrist». Status **established** für den Negativbefund «noch nicht kantonal umgesetzt»;
+**emerging** für den exakten Geltungsbereich von Art. 5.1 (nur Sekundärauszug gelesen, nicht selbst
+am PDF-Original nachgeprüft).

@@ -1,11 +1,11 @@
 ---
-quelle: SIA 180:2014 + SIA 4001:2022 (Wegleitung, Vorschau-PDF shop.sia.ch, Inhaltsverzeichnis/Vorwort gelesen — Volltext kostenpflichtig); enbau-online.ch «Bautechnik der Gebäudehülle», Kap. 2.4 Feuchteschutz (vdf Hochschulverlag ETH Zürich, 3. Aufl. 2022); Applica 2/2022 «So klappt es mit der Innenwärmedämmung» (Prof. Roger Blaser Zürcher, FHNW, im Volltext gelesen); Applica 12/2015 «Dämmung kann aussen oder innen sinnvoll sein» (Achim Pilz) + «Neues SMGV-Merkblatt Innenwärmedämmung» (Walter Schläpfer, SMGV, beide im Volltext gelesen); EnFK-Vollzugshilfe EN-102 (über KB); Förderprogramm Energie Kt. ZH 2026 (PDF im Volltext gelesen); Das Gebäudeprogramm, Massnahme Wärmedämmung (Web); Vollzugshilfe Förderprogramm Energie Kt. SZ 2026 (über KB); dena/Gebäudeforum «Leitfaden Wärmebrücken» (⚠ DEUTSCHLAND, im Volltext gelesen)
-herausgeber: SIA Zürich · vdf Hochschulverlag an der ETH Zürich · SMGV (Schweizerischer Maler- und Gipserunternehmer-Verband) / FHNW · EnFK / EnDK · Baudirektion Kt. ZH · Amt für Energie Kt. SZ · (⚠ D: dena / Gebäudeforum Klimaneutrale Gebäude)
-ausgabe: SIA 180:2014 (+ Korrigenda C1:2015) · SIA 4001:2022, gültig ab 01.08.2022 · SMGV-Merkblatt Nr. 70 «Innenwärmedämmung», 1. Aufl. ab Januar 2016 (⚠ nur mySMGV-Login, NICHT gelesen) · Förderprogramme ZH/SZ 2026
-gelesen: 2026-07-16 (Run 78)
-datenstand: 2026-07-16 (Web-/PDF-Recherche). Normbezüge aktuell in Kraft (SIA 180:2014, SIA 4001:2022). Förderbedingungen ZH/SZ Stand 2026 — jährlich neu, vor jedem Gesuch am Portal prüfen. λ-/μ-Kennwerte aus Applica 2/2022 = Materialklassen-Orientierung, Produktwerte = aktuelle Herstellerdeklaration.
+quelle: SIA 180:2014 + SIA 4001:2022 (Wegleitung, Vorschau-PDF shop.sia.ch, Inhaltsverzeichnis/Vorwort gelesen — Volltext kostenpflichtig); enbau-online.ch «Bautechnik der Gebäudehülle», Kap. 2.4 Feuchteschutz (vdf Hochschulverlag ETH Zürich, 3. Aufl. 2022); Applica 2/2022 «So klappt es mit der Innenwärmedämmung» (Prof. Roger Blaser Zürcher, FHNW, im Volltext gelesen); Applica 12/2015 «Dämmung kann aussen oder innen sinnvoll sein» (Achim Pilz) + «Neues SMGV-Merkblatt Innenwärmedämmung» (Walter Schläpfer, SMGV, beide im Volltext gelesen); EnFK-Vollzugshilfe EN-102 (über KB); Förderprogramm Energie Kt. ZH 2026 (PDF im Volltext gelesen); Das Gebäudeprogramm, Massnahme Wärmedämmung (Web); Vollzugshilfe Förderprogramm Energie Kt. SZ 2026 (über KB); dena/Gebäudeforum «Leitfaden Wärmebrücken» (⚠ DEUTSCHLAND, im Volltext gelesen); BFE-Wärmebrückenkatalog 2002 (Bestellnummer 805.159 d), Gruppe 2.1 «Geschossdecke» S. 40-41, Wandtyp I = Innendämmung — bereits primärquellenverifiziert in `[[waermebrueckenkatalog-bfe-geschossdecke-kellerdecke]]` (2026-07-13), am 2026-07-18 zusätzlich über einen zweiten, unabhängigen Mirror (Energie Zentralschweiz, energie-zentralschweiz.ch/media/124, per curl+pdftotext im Volltext gelesen) zahlengleich gegengeprüft
+herausgeber: SIA Zürich · vdf Hochschulverlag an der ETH Zürich · SMGV (Schweizerischer Maler- und Gipserunternehmer-Verband) / FHNW · EnFK / EnDK · Baudirektion Kt. ZH · Amt für Energie Kt. SZ · Bundesamt für Energie BFE (Wärmebrückenkatalog, ausgearbeitet durch Infomind GmbH) · (⚠ D: dena / Gebäudeforum Klimaneutrale Gebäude)
+ausgabe: SIA 180:2014 (+ Korrigenda C1:2015) · SIA 4001:2022, gültig ab 01.08.2022 · SMGV-Merkblatt Nr. 70 «Innenwärmedämmung», 1. Aufl. ab Januar 2016 (⚠ nur mySMGV-Login, NICHT gelesen) · Förderprogramme ZH/SZ 2026 · BFE-Wärmebrückenkatalog 2002, Grundlage SIA 380/1:2001 (⚠ ältere Normausgabe, Zahlenwerte als Grössenordnung verwenden)
+gelesen: 2026-07-16 (Run 78) · 2026-07-18 (Run 79, E93-Nachrecherche)
+datenstand: 2026-07-18 (Web-/PDF-Recherche). Normbezüge aktuell in Kraft (SIA 180:2014, SIA 4001:2022). Förderbedingungen ZH/SZ Stand 2026 — jährlich neu, vor jedem Gesuch am Portal prüfen. λ-/μ-Kennwerte aus Applica 2/2022 = Materialklassen-Orientierung, Produktwerte = aktuelle Herstellerdeklaration. Ψ-Werte Wärmebrückenkatalog = Datenstand 2002 (Grössenordnung, nicht für die formelle Baueingabe ohne Softwaresimulation).
 status: emerging
-last_updated: 2026-07-17
+last_updated: 2026-07-18
 ---
 
 # Innendämmung im Altbau — Bauphysik, Systeme, Nachweise und Förderung (CH)
@@ -218,12 +218,56 @@ Grenzwert **Ψ ≤ 0,20 W/(m·K)** (→ `[[enfk-en-102-waermeschutz-2018]]`).
    Innendämmung heisst das: wo U 0,25 nicht erreichbar ist, ist der **Systemnachweis der Ausweichweg**
    (Umbau-Grenzwert Q_H,li,re = **1,5-faches** des Neubauwerts) — dann aber mit den Wärmebrücken drin.
 
-**Ψ-Grössenordnung:** Für den Fall «einbindende Massivdecke in innengedämmter Aussenwand» wurde
-**keine Schweizer Ψ-Zahl** gefunden (der BFE-Wärmebrückenkatalog 2002 deckt in Gruppe 2 nur
-Neubau-Standarddetails ab → `[[waermebrueckenkatalog-bfe-geschossdecke-kellerdecke]]`; siehe
-«Offene Punkte»).
+**Ψ-Wert jetzt CH-belegt (Run 79, 2026-07-18):** Der BFE-Wärmebrückenkatalog 2002 (Bestellnummer
+805.159 d) führt in **Gruppe 2.1 «Geschossdecke» (S. 40-41)** neben den Neubau-Wandtypen (A/H/Z)
+explizit auch den **Wandtyp I = Innendämmung** — und deckt damit genau den hier gesuchten
+Sanierungsfall ab. Die Zahlen lagen bereits am 2026-07-13 destilliert in
+`[[waermebrueckenkatalog-bfe-geschossdecke-kellerdecke]]`, waren dort aber nicht mit dieser Frage
+verknüpft; am 2026-07-18 über einen zweiten, unabhängigen Mirror derselben BFE-Publikation
+(Energie Zentralschweiz, per curl+pdftotext im Volltext gelesen) zahlengleich gegengeprüft:
 
-> ⚠ **DEUTSCHE Quelle, nicht auf die Schweiz übertragbar, nur als Grössenordnung/Analogie:**
+| Ausführung Deckenauflager (Wandtyp I, Innendämmung) | Ψ-Wert [W/(m·K)] | Beurteilung ggü. Grenzwert Ψ ≤ 0,20 (SIA 380/1) |
+|---|---|---|
+| **2.1-I1 «durchbetoniert»** — Geschossdecke ohne thermische Trennung durch die Wand geführt, die klassische **einbindende Massivdecke** | **0,63-0,89**, je nach U-Wert Wand 0,15-0,40 (Mauerwerk Backstein 0,63-0,74, Mauerwerk Stahlbeton 0,71-0,89) | massiv über Grenzwert (3- bis 4,5-fach) |
+| **2.1-I2 «Stahlkorb»** — thermisch getrennter Bewehrungsanschluss (Isokorb-Prinzip) | **0,07-0,15** | unter Grenzwert |
+
+Zuschläge/Abzüge bei 2.1-I1 (Basis: keine Bodenheizung, keine Deckendämmeinlage, keine
+Deckenstirndämmung): Bodenheizung **+0,07**; Deckendämmeinlage (2× 50 cm) ohne
+Deckenstirndämmung **−0,13**; Deckenstirndämmung 4 cm ohne Deckendämmeinlage **−0,20**; beides
+kombiniert **−0,28 W/(m·K)**. Selbst im gerechneten Bestfall (U-Wert Wand 0,15, Mauerwerk
+Backstein: 0,63 − 0,28 = 0,35) bleibt der Wert **über** dem Grenzwert 0,20 — eine durchbetonierte
+Deckenkante lässt sich über randseitige Dämmmassnahmen allein nicht auf den Grenzwert bringen.
+
+**Konsequenz fürs Bauherrengespräch:** Eine durchbetonierte, nicht thermisch getrennte Massivdecke
+in einer innengedämmten Aussenwand ist mit Ψ 0,63-0,89 eine der grössten Einzel-Wärmebrücken des
+gesamten Katalogs. Die einzige Ausführung, die den Grenzwert sicher unterschreitet, ist eine echte
+thermische Trennung des Deckenauflagers (Stahlkorb/Isokorb-Prinzip) — im Neubau Standard, im
+**Bestand mit nachträglicher Innendämmung aber konstruktiv meist nicht mehr nachrüstbar** (die
+Decke ist bereits einbetoniert). Für die Bestandssanierung heisst das im Regelfall: Die
+Wärmebrücke am Deckenauflager bleibt bestehen und wird über den **Systemnachweis** (1,5-facher
+Neubau-Grenzwert, Abschnitt 5) mitgetragen; randseitige Deckendämmung/-stirndämmung mildert den
+Ψ-Wert, löst ihn aber nicht auf. Flankendämmung/Dämmkeil (unten) bleibt trotzdem sinnvoll — sie
+wirkt primär gegen die Tauwasser-/Oberflächentemperaturfolgen an der Bauteilschichtgrenze, nicht
+gegen den Ψ-Wert selbst.
+
+**Einschränkung/Restlücke:** Ob der Katalogwert 1:1 auf Vorkriegs-/Altbau-Mauerwerk (Naturstein,
+historische Backsteinformate vor 1920) übertragbar ist, wurde nicht gesondert geprüft — der
+Katalog ist «auf den konventionellen Wohnungsbau ausgerichtet», ohne explizite Baujahresgrenze.
+Für die Praxis vertretbar: Die Grössenordnung (Ψ nahe 0,7-0,9 bei durchbetonierter Decke) entsteht
+primär durch den Betonquerschnitt der Decke selbst und ist vom Wandmaterial nur nachrangig
+abhängig (Spannweite Backstein↔Stahlbeton in der Tabelle: 0,63-0,74 vs. 0,71-0,89 — ähnliche
+Grössenordnung).
+
+**Zusätzlich in diesem Lauf geprüfte, ohne direkten Treffer gebliebene Suchpfade** (damit sie bei
+künftigen Läufen nicht nochmals abgeklappert werden): Empa-Publikationssuche (Web, keine frei
+zugängliche Empa-Studie speziell zu Ψ-Werten Innendämmung/Massivdecke gefunden); Lignum/Holzbau
+Schweiz (Fokus dort auf Holzbau-Wärmebrücken, keine Massivdecken-Innendämmung-Kennwerte); HSLU
+(keine frei zugängliche HSLU-Publikation mit Ψ-Tabellen zu diesem Detail gefunden); IEA-EBC-Annex-
+Berichte (nicht gezielt gefunden, keine Zeit für Volltext-Sichtung eines ganzen Annex-Programms in
+diesem Lauf); pubdb.bfe.admin.ch/publication/download/7424 «Checkliste Wärmebrücken» EN-ZH (Kt. ZH,
+Version 7.0) geprüft — behandelt nur Neubau-Prüfpunkte, keine Ψ-Werte für Sanierungsdetails.
+
+> ⚠ **Ergänzend, DEUTSCHE Quelle, nicht auf die Schweiz übertragbar, nur als Grössenordnung:**
 > Der dena-/Gebäudeforum-«Leitfaden Wärmebrücken» (D, zu GEG/DIN 4108 Beiblatt 2:2019-06) beziffert
 > den **pauschalen Wärmebrückenzuschlag** auf die gesamte wärmeübertragende Umfassungsfläche mit
 > ΔU_WB = **0,10 W/(m²·K)** im Regelfall, aber **ΔU_WB = 0,15 W/(m²·K) «bei Aussenbauteilen mit
@@ -445,11 +489,16 @@ das muss dem Mieter mitgegeben werden.
   Kap.-Struktur über die Vorschau-PDFs von shop.sia.ch belegt, die inhaltliche Regel («Simulation bei
   Aussenwänden mit Innenwärmedämmung», Glaser-Grenzwerte 3 %/1 %/800 g/m²) über enbau-online.ch
   (vdf/ETH, 3. Aufl. 2022) als Sekundärquelle. Ebenso ungelesen: **SIA 4001:2022** Kap. 6.3/6.4.
-- **Keine Schweizer Ψ-Zahl für «einbindende Massivdecke in innengedämmter Aussenwand» gefunden.** Der
-  BFE-Wärmebrückenkatalog (2002) deckt diesen Sanierungsfall nicht ab. Der Grenzwert (EN-102 Typ 2,
-  Ψ ≤ 0,20) ist belegt, der **erreichte Wert nicht**. Nur der deutsche Pauschalzuschlag
-  (ΔU_WB 0,15 statt 0,10 W/m²K) liegt als Analogie vor. → Kandidat für eine eigene Berechnung im
-  nächsten Projekt (Skill `volumenstudie`/Bauphysiker) oder für eine HSLU-/FHNW-Publikationssuche.
+- **E93 GESCHLOSSEN (Run 79, 2026-07-18):** Schweizer Ψ-Zahl für «einbindende Massivdecke in
+  innengedämmter Aussenwand» liegt vor, siehe Abschnitt 4 oben — BFE-Wärmebrückenkatalog 2002,
+  Gruppe 2.1 «Geschossdecke», Wandtyp I (Innendämmung): Detail 2.1-I1 «durchbetoniert» Ψ 0,63-0,89
+  W/(m·K), Detail 2.1-I2 «Stahlkorb» (thermisch getrennt) Ψ 0,07-0,15 W/(m·K). Der Fund war bereits
+  am 2026-07-13 in `[[waermebrueckenkatalog-bfe-geschossdecke-kellerdecke]]` destilliert, aber nicht
+  mit dieser Frage verknüpft — eine reine Verknüpfungslücke innerhalb der KB, kein neuer externer
+  Fund; am 2026-07-18 über eine zweite, unabhängige Quelle (Mirror Energie Zentralschweiz derselben
+  BFE-Publikation) zahlengleich gegengeprüft. Restlücke: Übertragbarkeit auf Vorkriegs-/Altbau-
+  Mauerwerk (Naturstein, Formate vor 1920) nicht gesondert verifiziert (Katalog nennt keine
+  Baujahresgrenze, ist «auf den konventionellen Wohnungsbau ausgerichtet»).
 - **Konkrete CH-Masse für Flankendämmung/Dämmkeil nicht belegt** (nur qualitativ «Flanken, Leibungen
   und Nischen dämmen»); die Zahlen 40–50 cm Flanke / 30–40 cm Keil sind **deutsch**. Liegt vermutlich
   im SMGV-Merkblatt Nr. 70.
@@ -498,14 +547,35 @@ Aussenwandecke ist im ungedämmten Bestand die kritischste alle Wärmebrücken (
 deutlich unter der SIA-Grenze 0,75), wird aber durch 40–80 mm Innendämmung zuverlässig über die
 Mindestwärmeschutz-Grenze gehoben.
 
+**Run 79 (2026-07-18) — E93 geschlossen, neuer Quellenwinkel:** Statt eines weiteren externen
+Fachportals wurde der bereits im Hub liegende **BFE-Wärmebrückenkatalog 2002** (die «Mutter»-
+Publikation, aus der 2013 auch das BFH-«Arbeitspaket 5» abgeleitet wurde) über einen neuen Zugang
+erneut geprüft: einen zweiten, unabhängigen Mirror derselben Publikation bei **Energie
+Zentralschweiz** (energie-zentralschweiz.ch/media/124, per curl+pdftotext im Volltext ausgewertet,
+da der Standard-Mirror pubdb.bfe.admin.ch/publication/download/465 textlagenfrei ist). Dabei fiel
+auf, dass der Katalog in **Gruppe 2.1 «Geschossdecke»** einen eigenen **Wandtyp I (Innendämmung)**
+führt — mit den Details 2.1-I1 «durchbetoniert» (Ψ 0,63-0,89 W/(m·K), die gesuchte einbindende
+Massivdecke) und 2.1-I2 «Stahlkorb» (Ψ 0,07-0,15 W/(m·K), thermisch getrennt). Diese Zahlen waren
+bereits am 2026-07-13 in `[[waermebrueckenkatalog-bfe-geschossdecke-kellerdecke]]` primärquellen-
+verifiziert (dort per Bildextraktion aus dem PDF gelesen, da kein Textlayer vorhanden) — E93 blieb
+in den Runs 76-78 trotzdem offen, weil die Suche konsequent Richtung BFH-2013-Katalog und externe
+Portale ging, statt die bereits im eigenen Hub vorhandene Gruppe-2.1-Innendämmung-Tabelle mit der
+Frage zu verknüpfen. Der Fund am 2026-07-18 ist damit primär eine **Verknüpfungskorrektur**
+(Compounding-Lücke geschlossen), zusätzlich abgesichert durch die zweite, unabhängige Quelle mit
+zahlengleichem Ergebnis. Auch geprüft und ohne Treffer geblieben: Empa-Publikationssuche,
+Lignum/Holzbau Schweiz, HSLU-Direktsuche, IEA-EBC-Annex-Programme, sowie die BFE-Publikation
+«Checkliste Wärmebrücken EN-ZH» (pubdb.bfe.admin.ch/publication/download/7424, Kt. ZH, Version
+7.0) — Letztere behandelt nur Neubau-Prüfpunkte, keine Sanierungs-Ψ-Werte.
+
 ## Backlinks
 
 [[denkmalschutz-energiesanierung-zh-sz]] (rechtlicher Rahmen, wann aussen verboten ist — dieses
 Destillat ist die technische Ergänzung) · [[sia-2001-waermedaemmstoffe-lambda]] (λ-Bandbreiten aller
 Dämmstoffklassen, VIP, Holzfaser/Zellulose) · [[bfe-u-wert-bauteilekatalog-neubauten-2002]]
 (U-Wert-Ablesung, Aufbauten W25/W26 Innendämmung gegen unbeheizte Räume) ·
-[[waermebrueckenkatalog-bfe-geschossdecke-kellerdecke]] (Ψ-Systematik Geschossdecke/Innenwandanschluss,
-Neubau) · [[waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz]] (Leibungsdetail) ·
+[[waermebrueckenkatalog-bfe-geschossdecke-kellerdecke]] (Ψ-Wert einbindende Massivdecke Wandtyp
+Innendämmung 2.1-I1/I2 — beantwortet E93 direkt, Abschnitt 4) ·
+[[waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz]] (Leibungsdetail) ·
 [[enfk-en-102-waermeschutz-2018]] (U-Grenzwerte Umbau 0,25, Wärmebrücken Typ 2 Ψ 0,20, Systemnachweis
 1,5×) · [[en-zh-nachweis-uebersicht]] (EVEN seit 01.01.2026) ·
 [[foerderprogramm-energie-zh-2026]] · [[foerderprogramm-energie-sz-2026]] ·
@@ -539,6 +609,12 @@ ab CHF 10'000) · [[naturdaemmstoffe-kennwerte-sommerhitzeschutz]] (Speichermass
 - **EnFK-Vollzugshilfe EN-102 «Wärmeschutz»** (2018) — über `[[enfk-en-102-waermeschutz-2018]]`.
 - **Wärmedämmvorschriften Kt. ZH (WDV), LS 700.211**, vom 08.06.2022, § 2 Abs. 5 — über
   `[[denkmalschutz-energiesanierung-zh-sz]]` (dort primärquellen-verifiziert).
+- **BFE-Wärmebrückenkatalog** (Bundesamt für Energie, ausgearbeitet durch Infomind GmbH Zürich,
+  Copyright 2002, Bestellnummer 805.159 d, Grundlage SIA 380/1:2001), Gruppe 2.1 «Geschossdecke»,
+  S. 40-41, Details 2.1-I1/2.1-I2 — primärquellenverifiziert über `[[waermebrueckenkatalog-bfe-
+  geschossdecke-kellerdecke]]` (2026-07-13, Bildextraktion PDF); am 2026-07-18 zusätzlich über den
+  Mirror **Energie Zentralschweiz** (energie-zentralschweiz.ch/media/124/download, per curl+
+  pdftotext im Volltext gelesen) zahlengleich gegengeprüft.
 - ⚠ **DEUTSCHLAND, nur als Analogie gekennzeichnet:** dena/Gebäudeforum Klimaneutrale Gebäude,
   «Leitfaden Wärmebrücken» (zu GEG / DIN 4108 Beiblatt 2:2019-06) — PDF im Volltext gelesen;
   energie-experten.org, BauNetz Wissen, energytools.de (Flankendämmung/Dämmkeil-Masse);

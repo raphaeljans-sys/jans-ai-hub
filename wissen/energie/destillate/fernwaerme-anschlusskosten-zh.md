@@ -2,10 +2,10 @@
 quelle: ewz "Tarif Fernwärme im Wärmeverbund KVA und Holz" (Tarifsystem 2022, Ausgabe Juni 2026) + ewz AGB Fernwärme (Ausgabe Januar 2025) + Preisüberwacher "Marktbeobachtung Fernwärmetarife Schweiz" (06.07.2023) + Stadtwerk Winterthur + Agro Energie Schwyz AG "Tarife und Konditionen" (publiziert 04.09.2025) + Agro Energie Schwyz AG "Reglement für die Abgabe von Fernwärme" (Ausgabe 31.07.2022) + Energie Einsiedeln AG "Preisblatt für Fernwärme 2025" + Energie Ausserschwyz AG Live-Richtpreisrechner (klickstrecke.energie-ausserschwyz.ch, 17 zusätzliche Adress-Abfragen in 8 Gemeinden) + Energie Ausserschwyz AG "Allgemeine Geschäftsbedingungen (AGB) für Fernwärme" (V5.0, Ausgabe April 2024)
 herausgeber: ewz (vormals ERZ Fernwärme, Stadt Zürich) / Eidgenössischer Preisüberwacher / Stadtwerk Winterthur / Agro Energie Schwyz AG / Energie Einsiedeln AG / Energie Ausserschwyz AG
 ausgabe: Tarifsystem 2022, Ausgabe Juni 2026 (ewz); Preisüberwacher-Bericht Datenbasis 2022 (66 Anbieter); Agro Energie Schwyz "Tarife und Konditionen", publiziert 04.09.2025 (Anschlussgebühr gültig bis 31.12.2026, Grund-/Arbeitspreis gültig bis 30.09.2026); Agro Energie Schwyz Reglement, Ausgabe 31.07.2022; Energie Einsiedeln Preisblatt Fernwärme 2025; Energie Ausserschwyz AGB V5.0/April 2024
-gelesen: 2026-07-14/2026-07-15/2026-07-17 (Web via WebSearch/WebFetch; ewz-Tarifblatt, Preisüberwacher-PDF, Agro-Energie-Tarifblatt und Einsiedler Preisblatt vollständig gelesen — Agro-PDF seitenweise gerendert; 15.07. ergänzt um Energieverbund-Einsiedeln-Infoblatt 2017 (pdftotext), EBL Energie Rigi + ECOGEN Arth-Goldau Web; 17.07. Live-Richtpreisrechner Energie Ausserschwyz per curl/htmx-Endpunkt `/heating/?id=` für 17 weitere Adressen in Freienbach/Wollerau/Pfäffikon SZ/Altendorf/Siebnen/Galgenen/Lachen abgefragt, EASZ-AGB (15 Seiten) und Agro-Reglement (Art. 4+5, Vertragsdauer) vollständig per pdftotext gelesen)
-datenstand: 2026-06 (ewz-Formel), 2022/2023 (Preisüberwacher-Marktbeobachtung), 2025/2026 (Agro Energie Schwyz Tarife), 2022 (Agro Energie Schwyz Reglement/Vertragsdauer), 2025 (Energie Einsiedeln), 2017 (Energieverbund Einsiedeln, veraltet), 2026 (Küssnacht/Arth-Goldau, keine CHF-Zahlen; Live-Richtpreisrechner-Abfragen 17.07.2026), 2024 (Energie Ausserschwyz AGB), ⚠ "Herbst 2024"-Aktualisierung nur über Sekundärquelle, nicht PDF-primärverifiziert
+gelesen: 2026-07-14/2026-07-15/2026-07-17/2026-07-18 (Web via WebSearch/WebFetch; ewz-Tarifblatt, Preisüberwacher-PDF, Agro-Energie-Tarifblatt und Einsiedler Preisblatt vollständig gelesen — Agro-PDF seitenweise gerendert; 15.07. ergänzt um Energieverbund-Einsiedeln-Infoblatt 2017 (pdftotext), EBL Energie Rigi + ECOGEN Arth-Goldau Web; 17.07. Live-Richtpreisrechner Energie Ausserschwyz per curl/htmx-Endpunkt `/heating/?id=` für 17 weitere Adressen in Freienbach/Wollerau/Pfäffikon SZ/Altendorf/Siebnen/Galgenen/Lachen abgefragt, EASZ-AGB (15 Seiten) und Agro-Reglement (Art. 4+5, Vertragsdauer) vollständig per pdftotext gelesen; 18.07. erneuter Live-Rechner-Zugriff (Run T6): 1 neue Adresse Bäch SZ/Freienbach erfolgreich abgefragt (Fernwärme dort nicht verfügbar), danach durchgehend HTTP 500 auf dem Server bei jeder weiteren `/heating/?q=`-Suche — mit curl (mehrere frische Sessions) UND WebFetch bestätigt, also serverseitig und nicht clientseitig; EBL Energie Rigi FAQ-PDF + Fernwärme-Seite sowie ECOGEN-Arth-Goldau-Seite erneut per WebFetch geprüft, keine neuen CHF-Zahlen)
+datenstand: 2026-06 (ewz-Formel), 2022/2023 (Preisüberwacher-Marktbeobachtung), 2025/2026 (Agro Energie Schwyz Tarife), 2022 (Agro Energie Schwyz Reglement/Vertragsdauer), 2025 (Energie Einsiedeln), 2017 (Energieverbund Einsiedeln, veraltet), 2026 (Küssnacht/Arth-Goldau, keine CHF-Zahlen, 2. Bestätigung 18.07.2026; Live-Richtpreisrechner-Abfragen 17.07.2026 + 18.07.2026), 2024 (Energie Ausserschwyz AGB), ⚠ "Herbst 2024"-Aktualisierung nur über Sekundärquelle, nicht PDF-primärverifiziert
 status: emerging
-last_updated: 2026-07-17
+last_updated: 2026-07-18
 ---
 
 # Fernwärme-Anschlusskosten Kt. Zürich und Kt. Schwyz (ergänzt Anschlusspflicht-Destillate)
@@ -242,6 +242,30 @@ nicht anbieterspezifische Schätzung von Vergleichsportalen handelt. **Nicht ver
 Vergleich: die hier belegte 10-kW-Stufe liegt bei CHF 21'300 brutto (vor Förderabzug) bzw.
 CHF 15'300 netto (nach Förderabzug CHF 6'000) — beides deutlich über dem kursierenden CHF-18'000-Wert.
 
+**Sampling-Versuch 18.07.2026 (Run T6) — eine neue Adresse, danach Server-Ausfall des Tools
+(bestätigter Negativbefund für diesen Tag):** Der Live-Richtpreisrechner wurde erneut angesteuert,
+um Segment 2 (22–74 kW, bisher nur 3 Stützpunkte) mit weiteren Adressen nachzuverdichten sowie
+Küssnacht/Arth-Goldau erneut auf publizierte Tarife zu prüfen. Ergebnis:
+
+- Die Adresssuche (`GET /heating/?q=Seestrasse`) lieferte zunächst zwei Treffer in **Bäch SZ**
+  (Gemeinde Freienbach, PLZ 8806): "Seestrasse" (Objekt-ID 191956428) und "Seestrasse 101"
+  (Objekt-ID 243839). Beide Preisindikationsseiten (`GET /heating/?id=<ID>`) zeigten uebereinstimmend:
+  **"Leider ist für Ihre Adresse zurzeit keine Fernwärme verfügbar"** — Bäch SZ ist damit ein
+  weiterer, bisher nicht dokumentierter Strassenzug ohne aktuelle Netzverfügbarkeit (ergänzt die
+  bereits unten dokumentierte Lückenhaftigkeits-Liste).
+- Alle danach gestellten Suchanfragen (`Bahnhofstrasse Reichenburg`, `Zürcherstrasse Reichenburg`,
+  `Dorfstrasse Buttikon`, `Chappelistrasse Wilen`, `Bahnhofstrasse Siebnen`, `Poststrasse Lachen`,
+  sowie ein Re-Test des zuvor funktionierenden Begriffs `Blumenweg`/`Seestrasse`) lieferten
+  durchgehend **HTTP 500 "Server Error"** — reproduziert über mehrere frische curl-Sessions (neue
+  Cookies/CSRF-Token je Versuch, mehrere Wiederholungen mit Wartezeit) UND unabhängig über das
+  WebFetch-Werkzeug (ebenfalls HTTP 500 ohne Response-Body). Da der Fehler sowohl über curl als
+  auch über ein technisch unabhängiges Fetch-Werkzeug auftrat, ist er dem **Server von Energie
+  Ausserschwyz zuzuordnen, nicht der eigenen Abfrage-Methode** (kein Formatierungs-, Header- oder
+  Session-Problem auf unserer Seite). Damit konnte am 18.07.2026 kein zusätzlicher Preis-Stützpunkt
+  für Segment 2 gewonnen werden — bestätigter, dokumentierter Negativbefund für diesen Tag (nicht
+  gleichzusetzen mit einer dauerhaften Nichtverfügbarkeit des Tools; bei der nächsten Recherche
+  erneut versuchen, idealerweise mit gezielten Adressen im 30–60-kW-Bereich für Segment 2).
+
 ### Vertragsdauer und Kündigungsfrist — die drei SZ-Fernwärme-Verbünde (Primärquellen 17.07.2026)
 
 **Agro Energie Schwyz AG** ("Reglement für die Abgabe von Fernwärme", Ausgabe 31.07.2022, Art. 5
@@ -293,6 +317,17 @@ weiteren Bauabschnitt am 20.07.2026 in Küssnacht, Gebiete Seeplatz/Grepperstras
 Arth-Goldau: Aufbauprojekt, Fernwärme soll laut Lokalpresse "in zwei Jahren" fliessen). **Keine
 CHF-Zahl zu Anschlusskosten oder Tarifen ist auf den offiziellen Seiten publiziert** — beide
 verweisen auf eine individuelle Offerte ("Offerte anfragen").
+
+**2. Bestätigung 18.07.2026 (Run T6):** Erneute gezielte Prüfung per WebSearch + WebFetch —
+`ebl-rigi.ch/fernwaerme` (Fernwärme-Hauptseite Küssnacht), das dort verlinkte FAQ-PDF
+"2025.04_FAQ EBL Energie Rigi.pdf" sowie `ecogen-genossenschaft.ch/arth-goldau/` (Hauptseite
+Arth-Goldau). Ergebnis unverändert: EBL Energie Rigi wirbt nur mit "Transparente Tarife und
+langfristige Preisstabilität" ohne Zahlen und verweist auf Telefon/Mail für eine individuelle
+Offerte; das FAQ-PDF enthält keine CHF-Beträge zu Grundpreis/Arbeitspreis/Anschlussbeitrag.
+ECOGEN Arth-Goldau nennt weiterhin nur die Begriffe "Vorzugspreise" (Frühbucher) und
+"Genossenschaftspreise" sowie "einmalige Anschlusskosten" als Vorteil, ohne einen einzigen
+CHF-Betrag zu nennen. **Bestätigter Negativbefund (2. Bestätigung)** — für beide Verbünde bleibt
+nur der Weg über eine individuelle Offertanfrage.
 Strukturelle Besonderheit Arth-Goldau: **genossenschaftliches Modell** — der Anschluss macht die
 Liegenschaft automatisch zum Genossenschaftsmitglied, die einmaligen Anschlusskosten werden als
 Energieanteile (nicht als reiner Kaufpreis) verbucht; ein "Sorglos"-Vorabanschluss-Produkt sichert
@@ -386,9 +421,18 @@ Nutzungsdauer des Gebäudes abgleichen.
   (Talkessel-Schwyz-Netz), nicht zu Energie Ausserschwyz — dafür ist kein Live-Tool verfügbar,
   es gilt die bereits dokumentierte allgemeine Agro-Formel.
 - Wärmeverbünde Küssnacht am Rigi (EBL Energie Rigi) und Arth-Goldau (ECOGEN Arth-Goldau
-  Genossenschaft) recherchiert 15.07.2026: **beide existieren, publizieren aber keine Tarife** —
-  nur "Offerte anfragen". Damit als eigenständige Kostenquelle nicht nutzbar, aber immerhin als
-  Ansprechpartner für Bauherren in diesen Gemeinden dokumentiert.
+  Genossenschaft) recherchiert 15.07.2026, **erneut geprüft 18.07.2026 (Run T6, 2. Bestätigung)**:
+  **beide existieren, publizieren aber weiterhin keine Tarife** — nur "Offerte anfragen"/
+  "Vorzugspreise"/"Genossenschaftspreise" ohne Zahlen. Damit als eigenständige Kostenquelle nicht
+  nutzbar, aber immerhin als Ansprechpartner für Bauherren in diesen Gemeinden dokumentiert.
+- Energie Ausserschwyz Live-Richtpreisrechner: Versuch am 18.07.2026 (Run T6), Segment 2 (22–74 kW)
+  mit weiteren Adressen nachzuverdichten, scheiterte an einem **serverseitigen HTTP-500-Fehler**
+  des Tools bei jeder Suchanfrage ausser der ersten (reproduziert über curl mit mehreren frischen
+  Sessions UND über WebFetch, also nicht auf der eigenen Abfrage-Methode beruhend). Immerhin ein
+  neuer Datenpunkt: **Bäch SZ (Gemeinde Freienbach, Seestrasse) ist ohne Fernwärme-Verfügbarkeit**
+  — ergänzt die bereits dokumentierte strassenzugsspezifische Lückenhaftigkeit. Segment-2-
+  Nachverdichtung (idealerweise Adressen im 30–60-kW-Bereich) bleibt offen für den nächsten Lauf,
+  sobald das Tool wieder stabil antwortet.
 - Herkunft/Methodik der bereits in der KB vorhandenen EnergieSchweiz-4'940-CHF-Zahl nicht bis auf
   Eingabeprofil zurückverfolgt.
 

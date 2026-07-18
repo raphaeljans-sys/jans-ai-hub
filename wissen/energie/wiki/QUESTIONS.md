@@ -917,13 +917,18 @@ und die WDV-§-2-Abs.-5-Asymmetrie recherchiert. Status **emerging** (siehe offe
   Lauf ab Mitte Oktober nachziehen (Destillat `[[pv-rueckliefer-verguetung-mindestverguetung-2026]]`).
 - **E102 — ebs Energie AG (SZ)** weiterhin ohne publizierten Rp./kWh-Wert (wiederholter
   Negativbefund) — nicht erneut mit denselben Suchpfaden abklappern, nur bei neuer Rechercheidee.
-- **E93 (Innendämmung Ψ-Wert einbindende Massivdecke) bleibt offen, aber neu vertieft:** BFE-
-  Wärmebrückenkatalog «Arbeitspaket 5: Innendämmsysteme» (BFH, 2013, frei) liefert Ψ-Werte für
-  Geschossdecke/Innendämmung, modelliert aber eine **Holzbalkendecke**, keine Massivdecke — nur
-  Analogiewert, kein direkter Beleg. Kandidat für einen eigenen neuen Wiki-Artikel
-  `bfe-waermebrueckenkatalog-innendaemmsysteme-bfh-2013` (volle Auswertung inkl. Innenwandanschluss/
-  Sockel/Fensterleibung noch offen). SMGV-Merkblatt Nr. 70 weiterhin kostenpflichtig, Freigabe
-  Raphael ausstehend.
+- [x] **E93 (Innendämmung Ψ-Wert einbindende Massivdecke) GESCHLOSSEN ✓ 2026-07-18 (Run 79).**
+  BFE-Wärmebrückenkatalog 2002 (Bestellnummer 805.159 d), Gruppe 2.1 «Geschossdecke», Wandtyp
+  I = Innendämmung: Detail 2.1-I1 «durchbetoniert» (die gesuchte einbindende Massivdecke) Ψ
+  0,63-0,89 W/(m·K); Detail 2.1-I2 «Stahlkorb» (thermisch getrennt) Ψ 0,07-0,15 W/(m·K) — beide
+  gegen Grenzwert Ψ ≤ 0,20. Die Zahlen lagen bereits seit 2026-07-13 in
+  `[[waermebrueckenkatalog-bfe-geschossdecke-kellerdecke]]`, waren aber nicht mit E93 verknüpft
+  (reine Verknüpfungslücke); am 2026-07-18 über einen zweiten, unabhängigen Mirror (Energie
+  Zentralschweiz) derselben BFE-Publikation zahlengleich gegengeprüft. Eingearbeitet in
+  `[[innendaemmung-altbau-bauphysik-ch]]` Abschnitt 4. Restlücke (klein, nicht blockierend):
+  Übertragbarkeit auf Vorkriegs-/Naturstein-Mauerwerk nicht gesondert verifiziert. Das
+  BFH-Arbeitspaket-5-Analogie (Holzbalkendecke) aus Run 76/78 bleibt als Ergänzung für den
+  Holzbalkendecken-Fall gültig, ist aber nicht mehr die einzige Referenz.
 - **Ziff.-7-Frage Klimaprämie ZH** (ob ZH-Projekte durch die Regel «keine Vorschrift darf den
   erneuerbaren Ersatz zwingend verlangen» faktisch ausgeschlossen sind) bleibt offen.
 
