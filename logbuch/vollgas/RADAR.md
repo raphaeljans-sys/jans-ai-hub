@@ -21,6 +21,35 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-18 18:50 — [GEDROSSELT] Zweite Drossel-Luecke geschlossen: `wissens-chef` lief noch mit VOLLGAS-Zeit 17:00
+
+**Fensterzustand:** Drossel-Regime unveraendert. STOP + STOP-Macmini stehen seit 14.07. 12:53 mit
+unveraendertem Grund, Runner bleibt gestoppt (Schoner-Rolle, kein Wiederanfahren). Runner-Logs beider
+Stationen enden weiterhin am 14.07. 12:39/12:37 — korrekt. Kein Login-Probe gefahren; vor dem Reset
+(Mo 20.07. 11:59, noch ~1.7 Tage) wieder relevant.
+
+**Lagebild:** Der P2-Vorsatz vom Mittag (Zeitplaene selbst lesen statt nur Commits zaehlen) hat sofort
+einen zweiten Befund gebracht — diesmal auf dem MacBook Pro. Der einzige echte Trainings-Commit seit
+12:55 ist `Wissens-Chef Run 8` um **17:25**, also klar ausserhalb des Nachtfensters. Die Pruefung der
+Scheduled Tasks zeigte: `wissens-chef` trug unveraendert die VOLLGAS-Taktung «taeglich 17:00» samt
+Beschreibung «TOKEN-VOLLGAS bis 10.08.» — die Ruecktaktung nach Rule 260714 war hier nie nachgezogen
+worden, weil der Wettbewerbs-Fokus vom 13.07. nur die Trainings-Loops erfasst hatte, nicht den
+Cross-KB-Koordinator. Der Lauf ist mit Workflow-Fan-out tokenintensiv, also genau das, was die Drossel
+adressiert. Selbst korrigiert (regelkonform nach 260714 + 260711): Cron auf **23:10** verschoben, 1x
+taeglich, Beschreibung entsprechend nachgefuehrt; naechster Lauf heute 23:1x im Nachtfenster. Die am
+Mittag korrigierten Mini-Plists halten (energie 22:30, plg 00:30, synobsis 02:15, normen 05:30/disabled
+verifiziert). Uebrige 24 der 25 Commits der letzten 6 Std.: `nas-selfcommit` (DSM-Cron). Pendenzen-Queues
+beider Stationen leer.
+
+**Vorschlaege:**
+- P1: keiner. Kein Blocker, kein Mail-Anlass.
+- P2: die Zeitplan-Pruefung ist damit zweimal fuendig geworden — sie gehoert als **fixer Schritt** in
+  jeden Radar-Lauf (Scheduled Tasks der App + launchd-Plists beider Stationen gegen das Nachtfenster
+  spiegeln), nicht nur als Vorsatz. Vor der Reaktivierung am Mo 20.07. eine vollstaendige Liste
+  Task-fuer-Task durchgehen, damit keine dritte Luecke unbemerkt weiterlaeuft.
+- P3 (unveraendert, Einzeiler): `synobsis-batch-nacht` ganz stilllegen (853/853, kein neues
+  Quellmaterial); Entscheid am Mo 20.07.
+
 ## 2026-07-18 12:55 — [GEDROSSELT] Drossel-Luecke auf dem Mac Mini geschlossen: drei Trainings liefen noch mit VOLLGAS-Frequenz
 
 **Fensterzustand:** Drossel-Regime unveraendert. STOP + STOP-Macmini stehen seit 14.07. 12:53 mit
