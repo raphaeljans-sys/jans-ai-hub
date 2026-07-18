@@ -360,7 +360,7 @@ Gültigkeitsangaben direkt aus dem Titelblatt/Vorwort des jeweiligen Destillats 
 | SIA 416 | 2003 | SIA 416:1993 + SIA 116:1952 | gilt (bestätigt Register-Abschnitt B «116→416») |
 | SIA 451 | 1992 | SIA 451:1989 | gilt; technisch (LV-Datenformate), Kontext CRB/NPK |
 | VKF 1-15 Brandschutznorm | 2015 (in Kraft 01.01.2015) | BSN 2003 | gilt; BSV 2015 rechtsgültig (BSV 2026 frühestens nach IOTH-Plenum 03/2027, siehe QUESTIONS) |
-| VKF-BRL 16-15 Flucht-/Rettungswege | 2015, Änderungen IOTH 17.09.2015 + 22.09.2016 eingearbeitet (Fassung 01.01.2017) | BRL 16-03 | gilt |
+| VKF-BRL 16-15 Flucht-/Rettungswege | 2015; jüngste Fassung **Stand 01.12.2022** (Änderungsstufen: ABSV 22.03.2017, TKB 09.06.2021, Fehlerkorrektur 01.12.2022) | BRL 16-03 | gilt; ⚠ Destillat basiert auf Fassung 01.01.2017 — nur die Personenbelegung Verkauf ist auf 2022 nachgeführt (Wissens-Chef Run 8, 18.07.2026), übrige Deltas ungeprüft |
 | VKF-BRL 14-15 Verwendung von Baustoffen | 2015 | BRL 13-03/14-03 (RF-Klassen) | gilt |
 | VKF-BRL 27-15 Nachweisverfahren | 2015 (IVTH-Beschluss 18.09.2014, verbindlich für alle Kantone) | BRL 27-03 | gilt |
 

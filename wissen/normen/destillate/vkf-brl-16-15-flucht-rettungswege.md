@@ -5,10 +5,10 @@ herausgeber: VKF (Vereinigung Kantonaler Feuerversicherungen)
 ausgabe: "VKF-Brandschutzrichtlinie 16-15de, 01.01.2017 (Ausgabe 2015, Aenderungen IOTH 17.09.2015 und 22.09.2016 eingearbeitet)"
 ersetzt: "VKF-Brandschutzrichtlinie 16-15de, 01.01.2015 (Original-Ausgabe vor den IOTH-Revisionen 2015/2016) — Delta siehe Abschnitt 'Vorgaenger-Ausgabe' unten"
 gelesen: "S. 1-13 (Ziff. 1-5 vollstaendig); Anhang S. 14-25 gelesen (Zeichnungen/Erlaeuterungen zu Ziff. 2.3, 2.4.2, 2.4.4, 2.4.5, 2.5.1, 2.5.2, 2.5.5, 3.2.1/3.3.1/3.4.1, 3.3, 3.4.3, 3.5.2, 3.5.3); Kennwerte aus Anhang S. 17 (Treppen), S. 19 (Tuerverschluesse), S. 24 (Personenbelegung) am Original verifiziert und eingearbeitet (17.07.2026). Restlicher Anhang S. 26-35 noch nicht im Detail gelesen. Vorgaenger-Ausgabe 01.01.2015 (Datei 'Flucht & Rettungswege.pdf', 34 S.) vollstaendig gegen die Fassung 01.01.2017 abgeglichen (pdftotext-Volltextvergleich). Unabhaengige Gegenpruefung (Refuter, 17.07.2026): Personenbelegungs-Kennwerte (S. 24), Treppen-Steigungsformeln/Podeste (S. 17), Tuerverschluss-Zuordnung EN 179/EN 1125/EN 13637 (S. 19), Datierung/Ausgabe (S. 1, 2, 13) sowie die Messweise-Zuordnung Treppenbreite (S. 15) und der Anhang-Vorbehalt (S. 14) am Original nachgeprueft — keine Abweichung gefunden."
-datenstand: "Ausgabe 2015 (in Kraft 01.01.2015); Dokumentfassung 01.01.2017 mit den IOTH-Aenderungen 17.09.2015 und 22.09.2016"
-status: established
-last_updated: 2026-07-17
-links: [[REGISTER]]
+datenstand: "Ausgabe 2015 (in Kraft 01.01.2015); destilliert ab Dokumentfassung 01.01.2017 mit den IOTH-Aenderungen 17.09.2015 und 22.09.2016. ⚠ NICHT die juengste Fassung: im Bestand liegt die Fassung Stand 01.12.2022 (BSPUB-1394520214-85.pdf) mit drei weiteren Aenderungsstufen — Beschluss ABSV 22.03.2017 (Ziff. 2.4.3/2.4.4), Beschluss TKB 09.06.2021 (Ziff. 3.5.2 Personenbelegung Verkauf, ERSETZT) und Fehlerkorrektur 01.12.2022 (Ziff. 3.7). Nur die Personenbelegung Verkauf ist bisher nachgefuehrt (Wissens-Chef Run 8); die uebrigen Deltas sind ungeprueft."
+status: established-mit-vorbehalt
+last_updated: 2026-07-18
+links: [[REGISTER]], [[QUESTIONS]]
 ---
 
 # VKF-BRL 16-15de:2017 — Flucht- und Rettungswege
@@ -82,9 +82,30 @@ Massgebend, wenn die Personenbelegung nicht nach Ziff. 3.5.2 schriftlich/verbind
 ist. Bezugsflaeche: wenn nicht anders vermerkt geschossweise die **Brandabschnittsflaeche**
 (Fussnote [1] der Tabelle). Werte in Personen/m2 (eigene Zusammenfassung, Tabelle nicht kopiert):
 
-- Verkaufsgeschaefte, Bereiche mit ebenerdigem Zugang: **0.5**
-- Verkaufsgeschaefte, Bereiche im 1. UG oder 1. OG: **0.35**
-- Verkaufsgeschaefte, Bereiche tiefer als 1. UG oder hoeher als 1. OG: **0.25**
+> ⚠ **UEBERHOLT fuer den Verkauf (Wissens-Chef Run 8, 18.07.2026, am Original verifiziert).**
+> Die untenstehende 3-stufige Verkaufs-Zeile gilt nur fuer die hier destillierte Fassung
+> **01.01.2017**. Mit **Beschluss TKB vom 09.06.2021** wurde sie im Anhang zu Ziff. 3.5.2
+> (S. 24) **ersatzlos gestrichen** und durch eine nach Betriebstyp differenzierte Matrix
+> ersetzt (Fassung **Stand 01.12.2022**, `PL - 03 Brandschutz/02 Brandschutzrichtlinien
+> 2015-17-22/BSPUB-1394520214-85.pdf`, S. 24):
+>
+> | Betriebstyp | ebenerdig | ueber Treppen (UG/OG) |
+> |---|---|---|
+> | Fachmaerkte, Kaufhaeuser, Einkaufszentren | **0.10** | **0.10** |
+> | Supermaerkte | **0.38** | **0.15** |
+> | Hochfrequentierte Supermaerkte | **0.45** | **0.21** |
+>
+> **Fuer die Bemessung ist die 2022er-Matrix zu verwenden, nicht die Werte unten.**
+> Achtung: eine generische Auffangzeile «Verkaufsgeschaefte» gibt es seit 2021 **nicht mehr** —
+> Kleinverkauf ausserhalb dieser drei Typen (Apotheke, Kiosk, Quartierladen) ist im Einzelfall
+> mit der Brandschutzbehoerde zu klaeren. Weitere Aenderungsstufen der 2022er-Fassung:
+> Beschluss **ABSV** 22.03.2017 (Ziff. 2.4.3/2.4.4, S. 15/16) und Fehlerkorrektur 01.12.2022
+> (Ziff. 3.7, S. 33). Planerischer Kontext: `wissen/planungsgrundlagen/wiki/brandschutz-pl03-wegweiser`
+> §5am. Vollstaendige Destillation der 2022er-Fassung ist offen (siehe `wiki/QUESTIONS.md`).
+
+- Verkaufsgeschaefte, Bereiche mit ebenerdigem Zugang: **0.5** *(⚠ gestrichen per TKB 09.06.2021 — siehe Kasten)*
+- Verkaufsgeschaefte, Bereiche im 1. UG oder 1. OG: **0.35** *(⚠ gestrichen per TKB 09.06.2021)*
+- Verkaufsgeschaefte, Bereiche tiefer als 1. UG oder hoeher als 1. OG: **0.25** *(⚠ gestrichen per TKB 09.06.2021)*
   (massgebend sind alle den Kunden zugaenglichen Raeume inkl. Ladenstrassen/Verkehrsflaechen;
   WC-Anlagen mit direktem Zugang zu horizontalen/vertikalen Fluchtwegen zaehlen nicht mit)
 - Messen mit Ausstellungsraeumen: **0.6** (bei multifunktionaler Belegung, z. B. Konzert,

@@ -1,9 +1,9 @@
 ---
 title: Innendämmung im Altbau — wann, wie, welcher Nachweis, welche Förderung
 status: emerging
-last_updated: 2026-07-17
+last_updated: 2026-07-18
 sources: [destillate/innendaemmung-altbau-bauphysik-ch.md, destillate/bfe-waermebrueckenkatalog-innendaemmsysteme-bfh-2013.md, destillate/denkmalschutz-energiesanierung-zh-sz.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/foerderprogramm-energie-sz-2026.md]
-links: [[INDEX]] [[BAUHERREN-FAQ]] [[denkmalschutz-energiesanierung-zh-sz]] [[enfk-en-102-waermeschutz-2018]] [[naturdaemmstoffe]] [[fenster-verglasung]] [[graue-energie]]
+links: [[INDEX]] [[BAUHERREN-FAQ]] [[waermebrueckenkatalog-bfe-geschossdecke-kellerdecke]] [[denkmalschutz-energiesanierung-zh-sz]] [[enfk-en-102-waermeschutz-2018]] [[naturdaemmstoffe]] [[fenster-verglasung]] [[graue-energie]]
 ---
 
 # Innendämmung im Altbau
@@ -79,8 +79,21 @@ einbindenden Decken/Wände **schlechter**.
 
 ## Wärmebrücken — einbindende Decken/Innenwände
 Die Dämmebene ist an jeder einbindenden Decke/Innenwand **unterbrochen** → EN-102 Wärmebrücke
-**Typ 2**, Grenzwert **Ψ ≤ 0,20 W/(m·K)**. **Schweizer Ψ-Zahl für die einbindende Massivdecke:
-Negativbefund** — der BFE-Wärmebrückenkatalog «Innendämmsysteme» (BFH 2013,
+**Typ 2**, Grenzwert **Ψ ≤ 0,20 W/(m·K)** (Quelle: EnFK-Vollzugshilfe EN-102, Tab. 3, Basis
+SIA 380/1:2016 — Norm-Fundstelle siehe KB `normen`, `destillate/sia-380-1-2016`).
+
+**Schweizer Ψ-Zahl für die einbindende Massivdecke: liegt vor** (E93 geschlossen, Run 79,
+18.07.2026 — der frühere Negativbefund ist überholt). BFE-Wärmebrückenkatalog 2002, Gruppe 2.1
+«Geschossdecke», Wandtyp **I = Innendämmung**: Detail **2.1-I1 «durchbetoniert» Ψ 0,63–0,89 W/(m·K)**
+(der gesuchte Fall) und **2.1-I2 «Stahlkorb» Ψ 0,07–0,15 W/(m·K)** (thermisch getrennt). Belegt in
+`[[waermebrueckenkatalog-bfe-geschossdecke-kellerdecke]]`, an einem zweiten unabhängigen Mirror
+zahlengleich gegengeprüft. **Konsequenz:** die durchbetonierte Decke liegt mit Ψ 0,63–0,89 rund
+3- bis 4,5-fach über dem Grenzwert 0,20 — ohne thermische Trennung ist der Nachweis an dieser
+Stelle nicht führbar. ⚠ Die Katalogwerte fussen auf SIA 380/1:**2001**, der Grenzwert auf
+SIA 380/1:**2016** — Grössenordnung belastbar, Präzision nicht; Übertragbarkeit auf Vorkriegs-/
+Naturstein-Mauerwerk offen.
+
+Ergänzend (nicht mehr der Hauptbeleg): der BFE-Wärmebrückenkatalog «Innendämmsysteme» (BFH 2013,
 `[[bfe-waermebrueckenkatalog-innendaemmsysteme-bfh-2013]]`) liefert vollständige Ψ-/fRsi-Tabellen,
 modelliert aber durchgehend eine **historische Holzbalkendecke**, keine Betondecke → nur Analogiewert.
 Dort ebenfalls belegt: die **Aussenwandecke** ist im ungedämmten Bestand die kritischste Stelle
@@ -136,7 +149,7 @@ Offerte / eigene Kennwerte-DB** (Gewerk Gipser/Maler, BKP 271; → Skill `untern
 
 ## Offene Punkte
 SMGV-Merkblatt Nr. 70 (kostenpflichtig, mySMGV) mit den gezeichneten CH-Ausführungsdetails; SIA 180
-Anhang E/C + SIA 4001:2022 Volltext; CH-Ψ für einbindende **Massivdecke**; CH-Masse Flankendämmung/
+Anhang E/C + SIA 4001:2022 Volltext; ~~CH-Ψ für einbindende **Massivdecke**~~ (**geschlossen 18.07.2026**, siehe oben); CH-Masse Flankendämmung/
 Dämmkeil; EVEN-Abbildung der WDV-§-2-Abs.-5-Erleichterung; SZ-kEnV-Artikel; CHF/m². Details:
 `[[innendaemmung-altbau-bauphysik-ch]]` (Abschnitt «Offene Punkte»).
 

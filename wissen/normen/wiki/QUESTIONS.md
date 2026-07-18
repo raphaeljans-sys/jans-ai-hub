@@ -456,6 +456,26 @@ einzeln geprüft:
 - [ ] **Folgepruefung zur 2015er-BRL-Serie:** Dieselbe Verwechslung Fassungsdatum ↔ Ausgabejahr duerfte
   bei den uebrigen revidierten VKF-Richtlinien systematisch auftreten (deren Fassungsdaten sind
   ebenfalls 2016/2017). REGISTER und Destillate der ganzen Serie darauf durchsehen.
+  **Vorarbeit vorhanden (Run 8):** `planungsgrundlagen` hat fuer **BSR 13-15** (Rev. 2017,
+  redaktionelle Deltas) und **BSR 14-15** bereits Fassungs-Recherche geleistet — siehe
+  `wissen/planungsgrundlagen/wiki/brandschutz-pl03-wegweiser` (Run 41/52). Dort abholen statt neu machen.
+- [ ] **P1 — Fassung «Stand 01.12.2022» der VKF-BRL 16-15 vollstaendig destillieren.**
+  *Eingegangen ueber den Wissens-Chef Run 8 (18.07.2026); der Uebergabe-Flag stand seit Run 52 nur
+  in `planungsgrundlagen` und war hier nie angekommen.* Im Bestand liegt
+  `PL - 03 Brandschutz/02 Brandschutzrichtlinien 2015-17-22/BSPUB-1394520214-85.pdf`.
+  Das aktuelle Destillat basiert auf der Fassung 01.01.2017; **nur die Personenbelegung Verkauf**
+  (Beschluss TKB 09.06.2021) ist nachgefuehrt. **Ungeprueft bleiben:** Beschluss **ABSV 22.03.2017**
+  (Ziff. 2.4.3/2.4.4, S. 15/16) und die **Fehlerkorrektur 01.12.2022** (Ziff. 3.7, S. 33).
+  **Konkrete Teilfrage zu Ziff. 3.7:** die Fehlerkorrektur aendert laut planungsgrundlagen die
+  Bezugsflaeche der Schleusenpflicht bei Einstellraeumen von «Geschossflaeche» auf
+  «Brandabschnittsflaeche > 1'200 m2» — unser 2017er-Destillat schreibt aber **bereits**
+  «Brandabschnittsflaeche». Entweder ist die Beschreibung der Vorfassung unpraezis oder das
+  Destillat hat die Formulierung damals geglaettet. Am Wortlaut beider Fassungen klaeren.
+- [ ] **Strukturhinweis (Run 8): Fassungspflege ist der blinde Fleck der Destillate.** Die
+  Refuter-Notiz im 16-15-Destillat («keine Abweichung gefunden», 17.07.) prueft gegen **dieselbe
+  Datei**, aus der destilliert wurde — sie kann eine juengere Fassung im Bestand grundsaetzlich nicht
+  finden. Kuenftige Verifikationen sollten als ersten Schritt den **Bestand nach juengeren Fassungen
+  derselben Norm** durchsuchen (Dateiname/Stempel), bevor sie Werte gegenlesen.
 - [ ] **BRING-SCHULD P1 — Volltext SIA 380/1:2016 beschaffen.** Im Bestand liegt nur eine Vorschau
   (6 von 60 Seiten). Bis dahin sind Q_H-Grenz-/Zielwerte, U-Wert-Grenzwerte und Gebaeudekategorien
   **nicht belegbar** und duerfen von Agent `energie-berater` / Skill `planungsgrundlagen` NICHT

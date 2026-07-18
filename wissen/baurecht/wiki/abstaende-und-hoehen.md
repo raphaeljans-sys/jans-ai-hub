@@ -166,6 +166,19 @@ Machbarkeit/Ankauf die GIS-Gewässerraumkarte (geo.zh.ch) vor der Baufeldrechnun
 **Geodatum** (Linien login-frei als Vektor, senkrechter Abstand) liefert der Beschaffungs-Artikel
 `wissen/planungsgrundlagen/wiki/kartenportale-baulinien-abstandslinien-zh`.
 
+> **Querbezug KB planungsgrundlagen (Rueckverweis, gesetzt Wissens-Chef Run 8, 18.07.2026).**
+> Zum Gewaesserraum liefert die Schwester-KB ergaenzend: das **Festsetzungsverfahren** und die
+> AWEL-Bemessungspraxis in `wissen/planungsgrundlagen/wiki/recht-norm-abstandsvorschriften-wald-gewaesser`
+> und `.../recht-norm-regenwasser-gewaesserraum-zh`, die **Hochwasser-Gefahrenbereiche** in
+> `.../kartenportale-naturgefahren-objektschutz`, den **OEREB-Themenkatalog** (Thema 190) in
+> `.../kartenportale-oereb-kataster-system-zh`. Fuer das **Recht** ist dieser Artikel hier fuehrend —
+> die dortigen Artikel verweisen hierher zurueck.
+>
+> **Nummern-Wiederverwendung LS 724.11 (Achtung bei Altdokumenten):** bis 31.05.2026 trug diese
+> Nummer das **WWG**, seit 01.06.2026 traegt sie die **WsV** (Wasserverordnung vom 2. Juli 2025);
+> das WsG traegt LS 724.1. Beide Zuordnungen sind je fuer ihren Zeitraum korrekt — beim Zitieren
+> immer das Datum mitlesen. Belegt in `wissen/baurecht/raw/260717_amtlich_zh_hwschv.md`.
+
 **Zusätzlich, nicht ersetzend:** Im Gewässerraum dürfen nur **standortgebundene, im
 öffentlichen Interesse** liegende Anlagen erstellt werden (Art. 41c Abs. 1 GSchV). Eine
 zonenkonforme Verdichtung ist nur im **dicht überbauten Gebiet** und ohne entgegenstehende
