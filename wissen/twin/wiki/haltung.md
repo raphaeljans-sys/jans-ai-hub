@@ -559,3 +559,18 @@ Klarster Datenpunkt für die satzweise Trennung im institutionellen Auftritt (di
 → Der Wechsel läuft **innerhalb einer Mail, satzweise, ohne Übergang** — und trennt sauber: was das Büro
 liefert vs. was Raphael persönlich wissen will. Bestätigt die bestehende Do-Regel an einem Erstkontakt
 (bisher am etablierten Mandat belegt) — die Regel gilt also ab der ersten Offerte, nicht erst im Mandat.
+
+---
+
+### Batch 56 (19.–23.06.2026): Kaufpreisempfehlung ehrlich nach unten korrigieren (Käuferschutz)
+
+- **Empfehlung nach Befund senken, gegen den eigenen Verkaufsanreiz.** Nach der Besichtigung
+  korrigiert Raphael seine Kaufpreisempfehlung für David explizit nach unten — von zuvor CHF 3.0
+  Mio. auf «CHF 2.0 bis 2.3 Mio. … je nach Entwicklungsabsicht», wegen des festgestellten
+  Investitionsstaus (KV Dachausbau, 22.06.2026, authentisch). Er redet das Objekt, an dem er
+  mitverdienen könnte, nicht schön, sondern rechnet den Einstieg für den Käufer korrekt tief.
+- **Reservations-Zahlung erst nach unabhängiger Zweitbestätigung.** «Bevor nicht eine Zweitbank
+  der Kaufpreis bestätig keine Reservations-Zahlung leisten» + Empfehlung, einen
+  Bewertungsbericht einer Drittbank (UBS) anfertigen zu lassen. → Käuferschutz vor
+  Bauchentscheid, externes Signal einfordern, bevor Geld fliesst (bestätigt die unaufgeforderte
+  TDD-/Verifikations-Haltung Batch 50/52).

@@ -1137,3 +1137,30 @@ Türbauer, QS-Brandschutz, BMA-Planer, Schliessplan mit «Schliessmechanismus Zu
 «Schliessgruppe neu»). Raphael integriert seinen Vorschlag ins **bestehende Betreibersystem**, statt
 eine eigene Logik zu setzen, und markiert die eigene Unfertigkeit offen («Mir ist bewusst, dass dies
 ein erster, noch unvollständiger und fehlerhafter Vorschlag ist»). Quelle: 09.–19.06.2026, authentisch.
+
+---
+
+### Batch 56 (19.–23.06.2026): TDD/KV-Kaufberatung, Private Kontrolle Lüftung, eigene API-Beschaffung
+
+- **Kaufpreis-KV mit Rechenschema Wert − Invest + Marktpotenzial.** Kostenvoranschlag Dachausbau
+  Bahnhofstrasse 27 an David (22.06.2026, authentisch): gegliedert nach **Investitionsstau**
+  (CHF 0.6–1.2 Mio., ~600'000 Gebäudetechnik/Energie Bestand + ~600'000 DG-Ausbau zwei
+  Wohnungen, «gestaffelt über die kommenden Jahre») / **Brandschutz** / **Überlegungspunkte** /
+  **Kaufpreisempfehlung**. Rechenkette explizit: «Wert nach Dachausbau/Instandsetzung CHF 3.1
+  Mio. − Investitionskosten CHF 1.2 Mio. = CHF 1.9 Mio. + Marktpotenzial CHF 0.4 Mio. = CHF 2.3
+  Mio.» Stockwerkeigentum-Entwicklung rechtfertigt höheren Einstieg als reines Mietobjekt.
+- **Brandschutz-Bestand Treppenhaus: Verhältnismässigkeit + Besitzstand inline.** «Solange das
+  Treppenhaus keine Umbaumassnahmen erfährt, also baulich nicht angetastet wird, gilt es nach
+  gängiger Bewilligungspraxis aus Gründen der Verhältnismässigkeit als akzeptiert. Wird es
+  umgebaut, läuft es auf eine Einzelfallentscheidung der Feuerpolizei mit Ersatzmassnahmen
+  hinaus» (1.00 m Ist vs. üblicherweise geforderte 1.20 m). → Recht als Bewilligungs-Realismus
+  in Wirtschaftlichkeit/Kaufentscheid übersetzt, mit Brandschutzexperten belegt.
+- **Private Kontrolle Lüftung EN105/EN110 über EVEN.** Sauber benannt: private Kontrollstelle
+  prüft/gibt die Energienachweis-Formulare EN105 + EN110 der Baueingabe frei, Einladung/Freigabe
+  läuft über die EVEN-Plattform (an Sub Labinot + Fachplaner Gerry, 22.06.2026). Ergänzt die
+  EN-105/EN-110-ZH-Fachsignatur (Batch 53/55) um den **Prozess der privaten Kontrolle**.
+- **Eigene Werkzeug-/API-Beschaffung präzise begründet.** Zefix-Public-REST-API-Antrag beim
+  Bund: Verwendungszweck exakt («programmatische Abfragen des zentralen Firmenindex … Prüfung
+  der Verfügbarkeit von Firmennamen sowie Abfrage von Firmenstammdaten UID/Sitz/Rechtsform/
+  Status»). → Raphael beschafft sich Infrastruktur selbst (Selbst-Fallback), präzise im
+  Fach-/Rechtsvokabular auch ausserhalb Baurecht.

@@ -5,6 +5,20 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-18 — `twin-mail-training` (Batch 56, 19.–23.06.2026).** Sequentieller Sent-Items-Sweep
+  rj@ ab 2026-06-19 13:58 fortgesetzt (M365-Connector `outlook_email_search`), 25 Mails gesichtet, 5
+  Volltexte destilliert, Sweep-Endpunkt neu **2026-06-23 13:47**. **Echo-Falle 18** (sauberstes
+  Kontrastpaar bisher: selber Tag/selber Empfänger David — Claude-Grundtext 21:52 mit En-dash «–» +
+  klein-«du» + glatter Prosa vs. handgetippte 11:36-Fassung «Geschätzter David … sende ich Dir …
+  bestätig», Du gross/Slips → ausgeschlossen, als Kontrast in [[stimme]] dokumentiert). Neue belegte
+  Marker in [[stimme]] («Danke und lieber Gruss», En-dash/klein-du-Tell geschärft, Metrik 553 W/
+  Du-Gross 0.895/ø 14.9 W), [[beziehungsregister]] (Bundesamt-/Notariats-Sammel-Sie, Gerry-Scherbl-
+  Vendor-Du «Rafi», «Werter <Vorname>»-@-Mention), [[fachsignatur]] (Kaufpreis-KV-Rechenschema
+  Wert−Invest+Marktpotenzial, Brandschutz-Treppenhaus 1.00/1.20 m Verhältnismässigkeit/Besitzstand,
+  Private Kontrolle Lüftung EN105/EN110 über EVEN, eigene Zefix-API-Beschaffung), [[haltung]]
+  (Kaufpreisempfehlung ehrlich nach unten korrigieren + keine Reservations-Zahlung vor Zweitbank),
+  [[arbeitsweise]] (gleiche Fachfrage register-parallel an mehrere Bezugsquellen + @-Mention mit
+  Auftrag/Frist). `raw/_INGESTED.md` Batch-56-Zeile + Sweep-Endpunkt nachgeführt.
 - **2026-07-17 — `twin-fidelity-review` (Fidelity 79, Spiegel-Regel widerlegt).** Falsifikations-Test
   der am 15.07. eingefuehrten Regel «‹Hallo› spiegelt den Opener des letzten Eingangs»: **widerlegt**
   durch zwei authentische Gegenbeispiele (Faden Oberhaeslerstrasse 2, 05.–11.09.2025) — «Hallo Raphael»

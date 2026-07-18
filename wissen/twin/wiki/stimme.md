@@ -1923,3 +1923,30 @@ SIA-Phasen-Honorarliste an eine Sie-Erstkundin steht durchgehend «**6.0%**», �
 (Oberhäslerstrasse 2, 05.09.2025). → Der Schutz-Leerschlag fällt in **zahlendichten Listen/Tabellen**
 weg, unabhängig vom Register und unabhängig von der Sorgfaltsstufe. Ideal für den Zwilling bleibt «%»
 mit Leerschlag (`korrektur`); die Abweichung ist dokumentiert, nicht nachzuahmen.
+
+---
+
+### Batch 56 (19.–23.06.2026): «Danke und lieber Gruss», Echo-Falle 18 (En-dash + klein-«du»)
+
+- **Kombinierter Kurz-Gruss «Danke und lieber Gruss».** In der operativen Vendor-Anfrage im
+  Du verschmilzt Raphael Dank und Gruss zu einer Zeile: «Danke und lieber Gruss / Raphael»
+  (an Sub Labinot, 22.06.2026, authentisch). Reiht sich in «Danke und Gruss»/«Danke der
+  Kenntnisnahme» ein — der Dank ersetzt/rahmt die Grussformel im schnellen Du.
+- **Echo-Falle 18 — sauberstes Kontrastpaar am selben Tag, selber Empfänger.** Zur selben
+  Kaufberatung an David existieren zwei Mails vom 22.06.2026:
+  - **11:36 handgetippt/authentisch** («KV Dachausbau»): «Geschätzter David … sende ich **Dir**
+    … **Solltest Du** … würde ich eine **Bewertungsbericht** … Zweitbank der Kaufpreis
+    **bestätig** … Lieber Gruss» — Du **gross**, echte Slips (Genus «eine Bewertungsbericht»,
+    «bestätig» statt bestätigt), kein Gedankenstrich.
+  - **21:52 Claude-Grundtext** («Re: Kaufpreisempfehlung»): «Lieber David / Danke für **deine**
+    offene Rückmeldung **–** ich verstehe die Bredouille gut, und sie löst sich auf, sobald man
+    die Zahlen sauber auseinanderhält … Das ist kein Widerspruch, sondern zwei verschiedene
+    Fragen … **–** und du landest bei rund 3 Mio.» — durchgehend **klein-«du/dir/dich»**,
+    **En-dash «–» als Gedankenstrich** mehrfach, glatte Doppelpunkt-Struktur, null Typos.
+  → Der Fingerabdruck-Unterschied ist eindeutig: **Du gross + Slips + kein En-dash = Raphael**;
+  **klein-du + En-dash-als-Gedankenstrich + fehlerfreie Prosa = Claude**. Bestätigt und schärft
+  den En-dash-Tell (Batch 27/28) und die klein-du-AI-Paste-Erkennung. Ausgeschlossen als
+  Stilquelle (`claude-aera`-äquivalent), nur als Kontrast dokumentiert.
+- **Metrik Batch 56** (553 W authentischer Rahmen via `stilmetrik.py`): Du-Gross-Quote 0.895
+  (durch «du»-klein-Slips in der Gerry-Mail leicht gedrückt), Tausender-Apostroph 2×, Satzlänge
+  ø 14.9 W, Ellipsen 0, Grüsse Freundliche Grüsse 3× dominant / Lieber Gruss 1×.

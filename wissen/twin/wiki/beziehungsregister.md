@@ -1278,3 +1278,24 @@ jemanden kennen» (Register per Person via @-Mention, bereits belegt). Quelle: 1
 - **Tim Harder** (Jomos, Sprinkler-Lieferant) — **Sie**, «Geschätzter Herr Harder, / Ich hoffe es geht
   Ihnen gut.» — der Kontakt bleibt nach dem Mandatsabschluss (Batch 53) im warmen Sie und wird aktiv
   weitergepflegt.
+
+---
+
+### Batch 56 (19.–23.06.2026): Bundesamt-Sie, Vendor-Du «Rafi», «Werter <Vorname>»-@-Mention
+
+- **Eidgenössisches Amt / Bundesstelle — «Sehr geehrte Damen und Herren» + «Freundliche Grüsse».**
+  Own-Admin-Anfrage an das Bundesamt für Justiz (Zefix Public REST API, zefix@bj.admin.ch,
+  21.06.2026): unpersönliches Sammel-Sie, «Bitte teilen Sie mir … mit», «Besten Dank für Ihre
+  Unterstützung». Ebenso an das Notariat Wiedikon-Zürich (JANS-AG-Beurkundung, 21.06.2026,
+  «Sehr geehrte Damen und Herren»). → Die kälteste Sie-Stufe bleibt der unbekannten
+  Amtsstelle/Behörden-Sammeladresse vorbehalten (bestätigt ESTV/UGZ-Sammelpostfach-Muster).
+- **Gerhard «Gerry» Scherbl** (Wintec Engineering, HLKS-Gesamtprojektleiter, Private Kontrolle
+  Lüftung) — **Du**, «Geschätzter Gerry» / «Geschätzter Gerry,» / «Guten Morgen Gerry,»; er
+  spiegelt «Hallo Rafi» → bestätigt die Vendor-Koseform **«Rafi/Rafi»** (vgl. «Hoi Marca»).
+- **Labinot Shabani** (38grad, Sub) — **Du**, «Geschätzter Labinot», Empfehlungs-/Fach-Anfrage
+  im Du (bestätigt bekanntes Sub-Du-Mapping).
+- **«Werter <Vorname>» als Register des @-Mention im Body.** In der Gruppenmail an Gerry (Du)
+  adressiert Raphael den Mitempfänger Cekdar Duran per Inline-@-Mention mit eigenem Register:
+  «@Cekdar Duran / **Werter Cekdar**, darf ich Dich bitten …» — «Werter» als warm-höfliche
+  Du-Zwischenstufe im Fliesstext, statt gestapelter Kopf-Anrede (bestätigt @-Mention-Muster,
+  hier mit «Werter» statt «@Name» blank).

@@ -1261,3 +1261,21 @@ Platform EVEN möglich ist das Hauptformular EN-ZH zu aktivieren / auszulösen?�
 steht im Betreff («Bauentscheid 1171/26: Ziff.II.8a_Hauptformular EN-ZH-005») — ziffernscharfes
 Tracking, bereits belegt. Muster: ein Werkzeug-Hindernis auf dem kritischen Pfad zur Baufreigabe wird
 sofort zur Frage an die zuständige Stelle, nicht zum stillen Zeitverlust. Quelle: 17.06.2026, authentisch.
+
+---
+
+### Batch 56 (19.–23.06.2026): gleiche Fachfrage register-parallel an mehrere Kontakte
+
+- **Eine Fach-/Beschaffungsfrage gleichzeitig an mehrere Kontakte, je im passenden Register.**
+  Für die private Kontrolle der Lüftung (KISPI, EN105/EN110) streut Raphael dieselbe Frage am
+  22.06.2026 parallel: an den Sub **Labinot** («Geschätzter Labinot … Machst Du Private
+  Kontrolle von Lüftungen? Könntest Du jemand empfehlen?», Du), an den Fachplaner **Gerry**
+  («Geschätzter Gerry … Würdest du die Private Kontrolle machen?», Du) und formell-Sie an
+  **3-plan** («Sehr geehrte Damen und Herren»). → Bezugsquellensuche als paralleler Fan-out,
+  Register je Kontakt kalibriert (bestätigt paralleler-Fachstellen-Versand Batch 32).
+- **@-Mention mit Handlungsauftrag + Frist-Frage in der Gruppenmail.** In der Gerry-Mail
+  delegiert Raphael inline: «@Cekdar Duran / Werter Cekdar, darf ich Dich bitten der Private
+  Kontrolleur …@wintecag.ch auf der EVEN-Platform einzuladen, könntest du Dies **unverzüglich**
+  machen, danke!» + Nachschub-Bitte Grundrissplan + Steuerungsfrage «Bis wann können wir mit den
+  besagten Unterlagen rechnen?». → @-Name-Adressierung einzelner Mitempfänger im Fliesstext mit
+  konkretem Auftrag und Fristnachfrage (bestätigt @-Mention-Muster).
