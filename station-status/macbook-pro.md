@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 18.07.2026 04:07:19
+Stand: 18.07.2026 04:37:36
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 03:46)
+- Developer/jans/ai/hub  (letzte Aktivitaet 04:31)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 18.07.2026 04:07:19
 - 6 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- d03027db nas-selfcommit: 2 Datei(en) 2026-07-18 04:00
+- 651ccdad spec-training Lauf 22: Verifikationslauf — neuer belegter Verifier-Fehlermodus (leeres Signal = kein Beweis fuer Leere, silent-empty Connector) + Nachtrag Lauf 21
