@@ -2,6 +2,26 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-18 — Training-Run 37: schlanker Bestaetigungs-/Delta-Lauf (kein neuer Befund)
+
+- **Kein neuer Ingest, keine Artikelaenderung.** Die KB ist saturiert; alle auto-schliessbaren
+  Aufgaben sind seit Run 36 abgearbeitet. 10 Themen zu waehlen waere ein Leitplanken-Verstoss.
+- Bewertungsordner (`IMMO - 01 Projekte/01 BEWERTUNG PROJEKTE/`) geprueft: **unveraendert**,
+  juengster Fall weiterhin Wangen 8855 (Ordner-Stand 09.06.2026).
+- Marktpuls (E7) **bewusst nicht** per Web geprueft (Drossel-Rule 260714, Wochenlimit-Schonung;
+  naechster amtlicher Wert 01.09.2026). KB-Anker unveraendert: SNB 0.00 %, Referenzzins 1.25 %,
+  Durchschnittszinssatz 1.31 % per 31.03.2026.
+- **Kein Verifier-Lauf** — alle Kernkomplexe wurden in den Runs 18–22 bereits exakt reproduziert;
+  eine Wiederholung waere unter der Token-Drosselung nicht gerechtfertigt.
+- **Oberrieden-Hoehenkorrektur nicht erneut geflaggt:** Run 36 hat den Punkt korrekt aus dem Loop
+  in `logbuch/fristen.md` (Pendenz an Raphael) ueberfuehrt. Der Trainings-Report war als Meldekanal
+  untauglich → hier nicht ein 10. Mal wiederholt.
+- **Empfehlung an Raphael:** Ruecktaktung dieser KB auf woechentlich oder ereignisgesteuert
+  (neuer JANS-Fall / Marktpuls-Stichtag 01.09.2026) — bis dahin produziert jeder Lauf nur einen
+  Delta-Null-Bericht. Der Loop taktet sich nicht selbst zurueck.
+- Geaendert: `outputs/2026-07-18_training-run37.md` (neu), `training/curriculum.md`,
+  `wiki/wissensluecken.md`, `raw/_INGESTED.md`, dieser CHANGELOG.
+
 ## 2026-07-17 — Training-Run 36: D6-Restposten Luzern geschlossen + **materielle Korrektur**
 
 - **Erster materieller Korrekturbefund seit Run 27.** Statt eines vierten Bestaetigungslaufs den

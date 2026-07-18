@@ -8,6 +8,9 @@ Ingest-Stand fest. Basis-Pfad:
 Legende Status: `offen` (noch nicht gelesen) · `teilweise` (angelesen/quergelesen) ·
 `eingearbeitet` (in Wiki-Artikel verdichtet).
 
+**Run 37 (2026-07-18):** kein neuer Ingest — KB saturiert, kein neuer JANS-Bewertungsfall
+(juengster Wangen 8855), Marktpuls-Stichtag erst 01.09.2026. Delta-Null-Lauf.
+
 **Externe amtliche Quellen (Run 24/25, D6 — Dichte-Kennwerte):** die BZO/Baureglemente der
 JANS-Bezugsmaerkte liegen NICHT in den IMMO-Ordnern, sondern werden bei Bedarf direkt von der
 Gemeinde-/Kantonsseite gezogen (`curl` amtliche PDF → `pdftotext -layout` → Grundmasse-Tabelle).
