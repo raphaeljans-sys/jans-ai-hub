@@ -5,6 +5,18 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-19 — `twin-fidelity-review` (Gesamt-Fidelity 88).** Drei Goldproben Okt 2025 (ESTV-Gesuch
+  kalt-formell Sie · «Hoi lieber Sämi» Peer-Du · Objekt-Offerte Lu warmes Geschäfts-Du). Die Charge war
+  bereits über 260618 destilliert → der Lauf wirkte als **Regressionstest**: Abruf statt Neuwissen.
+  Hauptbefund: die zweite Fachsäule (Design/Objekt) wurde in einer Objekt-Offerte NICHT gezogen, obwohl
+  belegt im Wiki — Abruf-/Klassifikationslücke, weil der Auslöser am Wort «Design» statt am Gegenstand
+  hing. Umgesetzt: `fachsignatur.md` Do-Block auf **Objekt-Auslöser** umgestellt (inkl. A)/B)/C)-
+  Bandbreite, fixer Planungs-Budgetposten, ehrliche Unvollständigkeits-Markierung); `stimme.md` neuer
+  belegter Abschnitt «Gesuch/Antrag ans Amt schliesst mit dem ANTRAG — ohne Service-Satz» + Do-Zeile.
+  QUESTIONS 260719: 5 Fragen + vermerkte Struktur-Schwäche (Marker nach Themenfeld vs. Anlass nach
+  Sprechakt). Nebenbefund: QUESTIONS 260610 #4 (Schreiner-Selbstzeugnis) und #5 (Design-Honorarlogik)
+  durch Gold 3 belegt beantwortet. Gehirn neu kompiliert. Report `outputs/2026-07-19_fidelity.md`.
+
 - **2026-07-19 — `twin-mail-training` Batch 57 (2026-06-23 13:47 – 2026-06-26).** 20 Sent-Items
   gesichtet, 4 Volltexte destilliert (Vergabe-Nachverhandlung + Auftragserteilung LOS274.01 Innere
   Verglasung, Brandlast-Nachweis ELE in EI30-RF1-Leichtbauwänden, Küchenbau-Unterlagen). Erstmals

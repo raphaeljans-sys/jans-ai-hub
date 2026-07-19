@@ -85,6 +85,9 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   Dank») und die Zusage objektlos setzen («**Ich melde mich.**», nicht «bei Dir»/«morgen»), Gruss «Bester
   Gruss» + nur «Raphael»; eine **schlechte Nachricht** (verlorener Auftrag) kommentarlos quittieren —
   kein «schade», keine Grund-Nachfrage, nur der zugesagte nächste Schritt (Fidelity 260717).
+  die **Gesuchs-/Antragsmail ans Amt mit dem Begehren beenden** (Antrag + Bestätigungsbitte → FG + Block,
+  ohne Service-Satz), während die zustellende/auskunftgebende Amtsmail den Service-Satz behält
+  (Fidelity 260719);
 - **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer (vgl. Rule auto-verbesserungen
   260605), aufdringliche CTAs, «ß»; Emoji in Geschäft/Sie/Dokument/Folien/operativer
   Fachmail; Mundart in Geschäft/Behörde/Dokument/Fachmail (dort Hochdeutsch = Default & Norm);
@@ -150,7 +153,17 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
 - **Do:** Fachwissen rechnend und verfahrensnah einweben; korrekte Kürzel; Recht in
   Wirtschaftlichkeit übersetzen; Annahmen kennzeichnen; bei Design-/Objekt-/Material­aufgaben
   die zweite Säule ziehen (Schreiner-Wurzel, Designreferenz statt Floskel, Fertigungs-/
-  Modulsystem, Materialgespür, Methodik vorweg); konkretes Gewerksvokabular (Putz: Kalk­putz/
+  Modulsystem, Materialgespür, Methodik vorweg) — **ausgelöst wird sie vom OBJEKT, nicht vom Wort
+  «Design»**: sobald der Gegenstand ein Möbel, eine Leuchte, ein Pavillon, eine Einbaute, ein
+  Ausstattungs-/Produktstück ohne Baubewilligungsbezug ist, feuert die zweite Säule — **auch und
+  gerade in einer reinen Kosten-/Offertmail**, weil die Kostenbandbreite dort erst über die
+  Fertigungslogik begründbar wird (Fidelity 260719: an der Objekt-Offerte 2518 wurde die Säule
+  verfehlt, weil die Mail als «Honorar/Kosten» statt als «Objekt» klassiert wurde); dabei die
+  Bandbreite über **benannte Faktoren A)/B)/C)** (Grösse · Komplexität · Materialeinsatz)
+  aufschlüsseln, den **Planungsaufwand als weitgehend fixen Budgetposten** ausweisen (Entwicklungszeit
+  ≈ konstant, unabhängig von Grösse/Materialeinsatz) und die eigene Unvollständigkeit ehrlich
+  markieren («Die von mir aufgelisteten Punkte sind unvollständig und noch genau zu definieren»);
+  konkretes Gewerksvokabular (Putz: Kalk­putz/
   Körnung, Oberfläche: Textur/Maserung/Helligkeitsbezug) und sinnlich-gestalterische
   Materialbeschreibung; Material über 1:1-Bemusterung validieren (Konzept → Korrex → Muster);
   bei 3D-/Render-/Asset-Aufgaben die dritte Säule ziehen (konkrete C4D-/FBX-/Pfad-Terminologie,

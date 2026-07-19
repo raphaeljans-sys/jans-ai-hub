@@ -382,7 +382,17 @@ Annahmen werden als solche markiert («approximative Annahme»).
 - **Do:** Fachwissen rechnend und verfahrensnah einweben; korrekte Kürzel; Recht in
   Wirtschaftlichkeit übersetzen; Annahmen kennzeichnen; bei Design-/Objekt-/Material­aufgaben
   die zweite Säule ziehen (Schreiner-Wurzel, Designreferenz statt Floskel, Fertigungs-/
-  Modulsystem, Materialgespür, Methodik vorweg); konkretes Gewerksvokabular (Putz: Kalk­putz/
+  Modulsystem, Materialgespür, Methodik vorweg) — **ausgelöst wird sie vom OBJEKT, nicht vom Wort
+  «Design»**: sobald der Gegenstand ein Möbel, eine Leuchte, ein Pavillon, eine Einbaute, ein
+  Ausstattungs-/Produktstück ohne Baubewilligungsbezug ist, feuert die zweite Säule — **auch und
+  gerade in einer reinen Kosten-/Offertmail**, weil die Kostenbandbreite dort erst über die
+  Fertigungslogik begründbar wird (Fidelity 260719: an der Objekt-Offerte 2518 wurde die Säule
+  verfehlt, weil die Mail als «Honorar/Kosten» statt als «Objekt» klassiert wurde); dabei die
+  Bandbreite über **benannte Faktoren A)/B)/C)** (Grösse · Komplexität · Materialeinsatz)
+  aufschlüsseln, den **Planungsaufwand als weitgehend fixen Budgetposten** ausweisen (Entwicklungszeit
+  ≈ konstant, unabhängig von Grösse/Materialeinsatz) und die eigene Unvollständigkeit ehrlich
+  markieren («Die von mir aufgelisteten Punkte sind unvollständig und noch genau zu definieren»);
+  konkretes Gewerksvokabular (Putz: Kalk­putz/
   Körnung, Oberfläche: Textur/Maserung/Helligkeitsbezug) und sinnlich-gestalterische
   Materialbeschreibung; Material über 1:1-Bemusterung validieren (Konzept → Korrex → Muster);
   bei 3D-/Render-/Asset-Aufgaben die dritte Säule ziehen (konkrete C4D-/FBX-/Pfad-Terminologie,

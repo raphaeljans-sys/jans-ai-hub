@@ -3,6 +3,45 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260719 (twin-fragesteller, aus Fidelity-Review 2026-07-19)
+
+Quelle: Drift-Report `outputs/2026-07-19_fidelity.md` (Gesamt-Fidelity 88; schwächste Facette
+Fachsignatur 81 — die Design-/Objekt-Säule wurde in einer Objekt-Offerte nicht abgerufen, obwohl
+sie belegt im Wiki steht). Je in 1–2 Sätzen beantwortbar.
+
+1. **Objekt-Offerte als eigener Mail-Typ:** Wenn Dich jemand nach den Kosten für ein Objekt fragt
+   (Möbel, Leuchte, Pavillon, Einbaute), ziehst Du regelmässig die ganze Design-Argumentation mit
+   — Faktoren A)/B)/C), Fertigungsprinzip, Referenzen, Schreiner-Wurzel — oder war das bei der
+   St.-Moritz-Anfrage der besonderen Aufgabe geschuldet? *Warum: entscheidet, ob die zweite
+   Fachsäule bei jeder Objekt-Kostenfrage automatisch feuern soll oder nur auf Zuruf.*
+   → [[fachsignatur]], [[denken]]
+2. **Design-Referenzen als Vertrauensmittel:** Nennst Du Noguchi/Radić, um die Idee zu verorten,
+   oder auch, um dem Gegenüber Deine gestalterische Herkunft zu zeigen — und würdest Du sie auch
+   einem nüchternen Investor gegenüber setzen? *Warum: klärt, ob die Referenz inhaltlich oder
+   beziehungsbildend gemeint ist.* → [[fachsignatur]], [[haltung]]
+3. **Akquise-Öffnung am Schluss:** «… und freue mich über weitere Offertenanfragen» — setzt Du
+   diese Zeile nur bei neuen Kundinnen/Kunden in der ersten Offerte, oder auch bei bestehenden
+   Mandaten? *Warum: trennt die Akquise-Öffnung sauber von der Telefon-Verlagerung «ruf mich kurz
+   an», die der Zwilling 260719 fälschlich gewählt hat.* → [[stimme]], [[arbeitsweise]]
+4. **Anrede-Warming, Auslöser bestätigen:** Bei Lu bist Du innert eines Tages von «Geschätzte» auf
+   «Liebe» gewechselt, nachdem sie warm und mit 😊 geantwortet hatte. Stimmt die Lesart, dass die
+   **erwiderte Wärme des Gegenübers** den Wechsel auslöst (und nicht Zeit/Anzahl Kontakte)?
+   *Warum: macht den bisher nur beschriebenen Warming-Marker operationalisierbar — der Zwilling
+   hat ihn 260719 genau deshalb verfehlt.* → [[beziehungsregister]]
+5. **Unvollständigkeit offen markieren:** «Die von mir aufgelisteten Punkte sind unvollständig und
+   noch genau zu definieren» — ist das Deine Standard-Absicherung in frühen Phasen, oder war es
+   hier eine bewusste Erwartungssteuerung bei einer noch unscharfen Aufgabe? *Warum: klärt, ob der
+   Zwilling die ehrliche Selbstbegrenzung in jedem Frühphasen-Erzeugnis setzen soll.*
+   → [[haltung]], [[arbeitsweise]]
+
+### Vermerkte Struktur-Schwäche (260719, offen — betrifft alle Facetten)
+Die Do-Blöcke taggen ihre Marker nach **Themenfeld** («bei Design-/Objektaufgaben …»), der
+eingehende Anlass kommt aber als **Sprechakt** («eine Offerte schreiben», «Kosten nennen»). Fallen
+beide auseinander, feuert der richtige Marker nicht — belegt am Fehlschlag 260719 (Objekt-Offerte
+wurde als Kostenmail klassiert). Arbeits-Auflösung des twin-chef: Auslöser dort, wo möglich, an den
+**Gegenstand** koppeln statt an das Themenwort (in `fachsignatur.md` bereits umgesetzt). Zu prüfen,
+ob dieselbe Kopplung in den übrigen fünf Do-Blöcken nötig ist.
+
 ## Offen — Runde 260718 (twin-fragesteller, aus Fidelity-Review 2026-07-18)
 
 Quelle: Drift-Report `outputs/2026-07-18_fidelity.md` (Gesamt-Fidelity 89; drei authentische Dez-2025-
