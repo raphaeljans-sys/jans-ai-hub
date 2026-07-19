@@ -21,6 +21,53 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-19 12:47 — [GEDROSSELT] Kontext-Diaet halbiert den Grundkontext: 72 kB verifiziert, wirkt ab sofort auf JEDEN Lauf
+
+**Fensterzustand:** Drossel-Regime unveraendert. STOP + STOP-Macmini stehen seit 14.07. 12:53 mit
+unveraendertem Grund, Runner bleibt gestoppt (Schoner-Rolle, kein Wiederanfahren). Runner-Logs beider
+Stationen enden weiterhin am 14.07. 12:39/12:37 — korrekt. Kein Login-Probe gefahren: der Wochen-Reset
+faellt morgen um 11:59 (noch ~23 Std.), eine Probe kostete nur Kontingent ohne Erkenntnisgewinn.
+
+**Lagebild:** Der wichtigste Vorgang seit dem letzten Lauf ist **nicht** im Loop-Betrieb passiert,
+sondern strukturell: Commit `bae52aa0` (09:15) hat die Kontext-Diaet umgesetzt — CLAUDE.md ist
+Wegweiser statt Dokumentation, `auto-verbesserungen.md` konsolidiert, die Historie ins nicht
+importierte `auto-verbesserungen-archiv.md` ausgelagert. Nachgemessen und bestaetigt: der wirklich
+per @-Import geladene Grundkontext betraegt jetzt **74'632 Bytes (72 kB)** — CLAUDE.md 16.7 kB plus
+19 importierte Rules; die 52 kB Archiv liegen ausserhalb. Das ist der erste Hebel des
+Drossel-Regimes, der **jeden** Lauf jeder Station verbilligt, nicht nur einen Loop: die
+Nachtfenster-Trainings, die vier Radar-Laeufe und alle operativen Briefings tragen diesen Kontext
+jedes Mal mit. Zugleich verankert die neue Rule 260719 das Minimum Viable Model (mechanische Stufen
+auf Haiku/Sonnet) und deterministische Vorfilter statt Rohmaterial-Lektuere — beides zahlt auf
+dieselbe Richtung ein.
+
+Der uebrige Betrieb ist unauffaellig. Seit dem 00:50-Lauf sechs inhaltliche Commits, alle im
+Nachtfenster oder als Tages-Briefing regelkonform: Normen Run 16 (SIA/VKF-Nachtrag, 31 Positionen
+destilliert und verifiziert), Recht-und-Norm Run 53, Wissens-Chef Run 9 (zwei falsche
+ZH-Rechtszuschreibungen korrigiert), immobewertung Run 38, twin-mail Batch 57, twin-fidelity-Review;
+die restlichen 57 Commits sind `nas-selfcommit`. Zeitplan-Kontrolle beider Stationen erneut
+durchgezogen: alle Loops stehen 1x taeglich im Nachtfenster, `wettbewerbs-dna-training` ist wie
+vorgesehen `enabled: false`, und die beiden One-Time-Tasks fuer morgen sind scharf und korrekt
+datiert (`syn02-spec-anstoss` 20.07. 12:15, `wettbewerbs-dna-reaktivierung` 20.07. 12:30).
+Pendenzen-Queues beider Stationen leer.
+
+Ein Punkt zum Vormerken statt zum Handeln: `spec-training` Lauf 23 hat die Schliessung von Lauf 22
+**widerrufen**, weil eine gemeldete Monitor-Reparatur nie erfolgt war. Das ist inhaltlich die richtige
+Reaktion (ehrliche Selbstkorrektur statt Fortschritts-Fiktion), aber es heisst, dass in der KB `spec`
+ein offener Punkt zurueck auf den Tisch kommt — nicht Radar-Sache, gehoert dem Loop selbst.
+
+**Vorschlaege:**
+- P1: keiner. Kein Blocker, kein Mail-Anlass.
+- P2: Morgen ist der Tag mit Entscheidungsbedarf — 11:59 Wochen-Reset, danach feuern die beiden
+  One-Time-Tasks. Der 12:40-Lauf soll verifizieren, dass die Reaktivierung den Wettbewerbs-Loop
+  tatsaechlich auf **gedrosselt 02:20** setzt und nicht versehentlich auf VOLLGAS: das Drossel-Regime
+  bleibt bis zu einer ausdruecklichen Anweisung Raphaels bestehen, der Reset allein hebt es nicht auf.
+- P3: `synobsis-batch-nacht` (Mac Mini) hat mit dem heutigen Lauf 853/853 zum **18. Mal ergebnislos**
+  bestaetigt. Der Entscheid war auf morgen Mo 20.07. terminiert und bleibt es; Empfehlung unveraendert
+  Stilllegung bis neues Quellmaterial in `05_Architekten_Synobsis` landet oder eine Stufe-3-Kuration
+  freigegeben wird.
+
+---
+
 ## 2026-07-19 00:50 — [GEDROSSELT] Vollstaendige Zeitplan-Pruefung beider Stationen: keine dritte Drossel-Luecke
 
 **Fensterzustand:** Drossel-Regime unveraendert. STOP + STOP-Macmini stehen seit 14.07. 12:53 mit
