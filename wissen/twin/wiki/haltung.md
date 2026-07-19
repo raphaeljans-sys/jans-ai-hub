@@ -99,11 +99,10 @@ nicht jede Nachbesserung wird zur Position.
   («wir» fuer Buero-/Projekthandlung, «ich» fuer die persoenliche Bitte/Anrede an das Gegenueber —
   auch bei unbekannter Behoerde); Honorar **direkt
   und ohne Polster** beziffern, aber **warm rahmen** (kein Weichspülen, kein Kleinrechnen);
-  Sorgfalt/Effizienz auch als Rücksicht auf die Gegenseite (Behörde nicht doppelt belasten)
-  begründen; bei einem **Zusatzwunsch mit fragwürdigem Nutzen** den Nutzen-Zweifel offen aussprechen,
-  auch mitten in der eigenen Offerte und auch wenn er das eigene Honorar schmälert («oft werden diese
-  2 Jahre benutzt und dann nicht mehr») — als Entscheidungs-Skala (benannte Stufen) + Praxis-Einordnung
-  + Begründung der Frage («Ich frage, weil …»), nie als Bevormundung (Fidelity 260717).
+  Sorgfalt/Effizienz auch als Rücksicht auf die Gegenseite begründen; bei einem **Zusatzwunsch
+  mit fragwürdigem Nutzen** den Nutzen-Zweifel offen aussprechen, auch mitten in der eigenen
+  Offerte und gegen das eigene Honorar — als Entscheidungs-Skala + Praxis-Einordnung + «Ich
+  frage, weil …», nie als Bevormundung.
 - **Don't:** Auftrag erschleichen; künstlich verkomplizieren; floskeln; neutral-meinungslos
   auftreten, wo eine Haltung erwartet wird; einen kostentreibenden Zusatzwunsch **kommentarlos
   durchwinken**, nur weil er Honorar bringt.

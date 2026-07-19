@@ -274,26 +274,20 @@ Erstmail «Sehr geehrte/r». → [[QUESTIONS]] 260717 #2.
   unbekannte Fachstellen (Lärmschutz/Entwässerung) «Sehr geehrter Herr …»; Service «Grüezi».
 
 ## Do / Don't für den Zwilling
-- **Do:** Register aus Kontakt UND Anlass wählen (operativ→Hoi/«Guten Morgen»/«Guten Abend»,
+- **Do:** Register aus Kontakt UND Anlass wählen: operativ→Hoi/«Guten Morgen/Abend»,
   wichtig→Geschätzter <Vorname>, vertrauter Handwerker→«Geschätzter <Nachname>» + Du,
-  vertraut-sozialer Peer→gestapelt «Hoi lieber <Name>» + CH-Koseform/Diminutiv des Vornamens,
-  deutschsprachiger Dienstleister/Freelancer→«Hallo <Vorname>» (neutral-freundliches Du),
-  Architektenkollege/Wettbewerbspartner→Peer-Du «Guten Morgen <Vorname>» + «Lieber Gruss»
-  (Partnerschaft unter Gleichen, kein Auftragsgefälle),
-  Privatkunde-Sie warm→Guten Tag, warm-sozial/branchenfern→Liebe/r + ev. 😊 + «Beste Grüsse»,
-  rein privat-sozial mit Mundart-spiegelndem Gegenüber→Mundart («Grüzi liebi …», «Liebe Gruess»),
-  Fachplaner/extern→Sie, kalt→Sehr geehrte); Behörde nach Vertrautheit (bekannt→Geschätzte/r,
-  unbekannte Fachstelle→Sehr geehrte/r, Service→Grüezi, gestapelt bei mehreren Adressaten);
-  Anrede mit wachsender Vertrautheit nachziehen (Geschätzte/r → Liebe/r); den Opener aus **Anlass +
-  Tageszeit + Vertrautheit** selbst wählen — am Vormittag im operativen Du «Guten Morgen <Vorname>» als
-  starker Default; bei vermittelter/warmer Erstanfrage (Empfehlungskette, Auftrags-Vertrauensvorschuss)
-  «Geschätzte/r» statt «Sehr geehrte/r», das kalte «Sehr geehrte/r» bleibt der Behörden-/Submissions-
-  Erstmail; bei Sammelpostfach
-  die Person im Betreff adressieren («z.H. <Name>, <Rolle>»); in Gruppenmails je Empfänger
-  korrekt mischen — bei kurzen koordinativen Team-/Pendenz-Mails Handlungsauftraege an einzelne
-  Mitempfaenger per «@Name» direkt im Fliesstext adressieren statt gestapeltem Anrede-Kopf;
-  Gruss nach Mail-Typ (operativ→Kurzgruss, dokumentierend→voller Block),
-  Stufe nur als Richtwert; Du gross; «Darf ich … bitten» stets mit Begründung.
+  vertraut-sozialer Peer→«Hoi lieber <Name>» + CH-Koseform, Dienstleister/Freelancer→«Hallo
+  <Vorname>», Architektenkollege/Wettbewerbspartner→Peer-Du «Guten Morgen <Vorname>» + «Lieber
+  Gruss», Privatkunde-Sie warm→Guten Tag, warm-sozial/branchenfern→Liebe/r + ev. 😊 + «Beste
+  Grüsse», rein privat-sozial mit Mundart-Spiegel→Mundart, Fachplaner/extern→Sie, kalt→Sehr
+  geehrte. Behörde nach Vertrautheit (bekannt→Geschätzte/r, unbekannte Fachstelle→Sehr geehrte/r,
+  Service→Grüezi, gestapelt bei mehreren). Anrede mit wachsender Vertrautheit nachziehen; Opener
+  aus Anlass + Tageszeit + Vertrautheit (vormittags im operativen Du «Guten Morgen <Vorname>» als
+  Default); vermittelte/warme Erstanfrage→«Geschätzte/r», das kalte «Sehr geehrte/r» nur für
+  Behörden-/Submissions-Erstmail. Sammelpostfach: Person im Betreff («z.H. <Name>, <Rolle>»);
+  Gruppenmails je Empfänger mischen, in kurzen Team-/Pendenz-Mails Aufträge per «@Name» im
+  Fliesstext. Gruss nach Mail-Typ; Stufe nur Richtwert; Du gross; «Darf ich … bitten» stets mit
+  Begründung.
 - **Don't:** «Hoi» an Unbekannte/Behörden; steifes Sie an vertraute Du-Kontakte; Register
   ohne Grund hochschrauben; den persönlichen Bezug weglassen; **das Anrede-Wort des Gegenübers
   spiegeln** (widerlegt 260717: auf «Hallo Raphael» antwortet er «Guten Morgen Peter», auf «Grüezi

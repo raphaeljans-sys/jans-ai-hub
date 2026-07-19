@@ -5,6 +5,12 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-19 — Kontext-Diaet: Do/Don't-Bloecke kompaktiert (Freigabe Raphael).** In den Facetten
+  `stimme`, `beziehungsregister`, `fachsignatur`, `haltung` die Do/Don't-Bloecke zu dichten Markern
+  verdichtet; die datierten Praezedenz-Abschnitte darunter bleiben vollstaendig erhalten und werden
+  vom twin-chef bei der Veredelung weiterhin gelesen (nur der kompilierte DNA-Block wird schlanker:
+  `rules/jans-dna.md` 15.4 → 11.7 kB via `build_dna.py`). Kein Marker geloescht, nur verdichtet;
+  Konzept `docs/konzepte/260719-Kontext-Diaet-Token-Reduktion/`.
 - **2026-07-19 — `twin-fidelity-review` (Gesamt-Fidelity 88).** Drei Goldproben Okt 2025 (ESTV-Gesuch
   kalt-formell Sie · «Hoi lieber Sämi» Peer-Du · Objekt-Offerte Lu warmes Geschäfts-Du). Die Charge war
   bereits über 260618 destilliert → der Lauf wirkte als **Regressionstest**: Abruf statt Neuwissen.
