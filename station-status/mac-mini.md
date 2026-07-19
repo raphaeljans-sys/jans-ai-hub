@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 19.07.2026 03:58:18
+Stand: 19.07.2026 04:08:21
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 19.07.2026 03:58:18
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 640b6589 nas-selfcommit: 10 Datei(en) 2026-07-19 03:45
+- 3787a7a8 sync: twin-mail-training: Batch 57 (2026-06-23 bis 2026-06-26)
