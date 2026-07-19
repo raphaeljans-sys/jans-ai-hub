@@ -2,6 +2,21 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-19 — Training-Run 38: Delta-Lauf; Ruecktaktungs-Empfehlung eskaliert ins Fristen-Register
+
+- **Kein neuer Ingest, keine Artikelaenderung.** KB unveraendert saturiert; kein neuer
+  JANS-Bewertungsfall (juengster Wangen 8855), keine auto-schliessbare Aufgabe offen.
+  Marktpuls bewusst nicht geprueft (Drossel-Rule 260714, naechster Wert 01.09.2026), kein
+  Verifier-Wiederholungslauf.
+- **Delta:** die seit Run 22 (13.07.) **siebenmal** folgenlos im Report wiederholte Empfehlung
+  «Loop ruecktakten» ist nach `logbuch/fristen.md` ueberfuehrt (Eintrag 19.07.2026, Status
+  «offen, Entscheid Raphael»; Optionen: woechentlich ODER ereignisgesteuert bei neuem Fall /
+  Stichtag 01.09.2026). Gleicher Mechanismus wie Run 36 beim Oberrieden-Flag — der
+  Trainings-Report ist als Meldekanal an Raphael nachweislich untauglich. Der Loop taktet sich
+  nicht selbst zurueck.
+- Register gepflegt: `training/curriculum.md`, `wiki/wissensluecken.md`, `raw/_INGESTED.md`.
+  Report: `outputs/2026-07-19_training-run38.md`.
+
 ## 2026-07-18 — Training-Run 37: schlanker Bestaetigungs-/Delta-Lauf (kein neuer Befund)
 
 - **Kein neuer Ingest, keine Artikelaenderung.** Die KB ist saturiert; alle auto-schliessbaren

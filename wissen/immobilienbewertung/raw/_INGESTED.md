@@ -8,6 +8,10 @@ Ingest-Stand fest. Basis-Pfad:
 Legende Status: `offen` (noch nicht gelesen) · `teilweise` (angelesen/quergelesen) ·
 `eingearbeitet` (in Wiki-Artikel verdichtet).
 
+**Run 38 (2026-07-19):** kein neuer Ingest — KB saturiert, Bewertungsordner unveraendert
+(juengster Wangen 8855), Marktpuls-Stichtag erst 01.09.2026. Delta-Null-Lauf; einziger Delta:
+Ruecktaktungs-Pendenz nach `logbuch/fristen.md` ueberfuehrt.
+
 **Run 37 (2026-07-18):** kein neuer Ingest — KB saturiert, kein neuer JANS-Bewertungsfall
 (juengster Wangen 8855), Marktpuls-Stichtag erst 01.09.2026. Delta-Null-Lauf.
 
