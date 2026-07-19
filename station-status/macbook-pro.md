@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 19.07.2026 09:05:57
+Stand: 19.07.2026 09:26:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 09:00)
@@ -12,4 +12,4 @@ Stand: 19.07.2026 09:05:57
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d0a2bbbd nas-selfcommit: 14 Datei(en) 2026-07-19 09:00
+- bae52aa0 Kontext-Diaet 260719: CLAUDE.md+Rules halbiert (163->75 kB), MVM-Loops, Mail-Vorfilter, DNA kompakt
