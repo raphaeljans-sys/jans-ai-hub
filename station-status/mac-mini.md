@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 19.07.2026 01:57:30
+Stand: 19.07.2026 02:07:33
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 19.07.2026 01:57:30
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 097ede67 Normen Run 16 (MacBook Pro): SIA/VKF-Nachtrag komplett — 31 Positionen destilliert + verifiziert
+- e8ac0c0a nas-selfcommit: 2 Datei(en) 2026-07-19 02:00
