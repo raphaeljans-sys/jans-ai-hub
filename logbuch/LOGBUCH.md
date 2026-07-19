@@ -5,6 +5,23 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-19
+
+**Radar-Lauf (06:55, Sonntag).** Quellen: Fristen-Register + Journal, Konversations-Destillat 19.07., bexio `--verzug`, M365 (Eingang + Sent Items 18.07. 06:00 → heute frueh, gepaart), Apple Mail mail@ + raphaeljans@outlook.com, Kalender 7 Tage, Sync-/Remote-Queues.
+
+**Lagebild: das ruhigste Fenster seit Wochen.** Der M365-Eingang enthaelt genau ZWEI Mails (die eigene Hub-Chef-Briefingmail und eine SharePoint-Systemwarnung), die Sent Items **keine einzige ausgehende RJ-Mail**. Daraus folgt der wichtigste Befund des Laufs: **die am 18.07. vom Hub-Chef erstellten Entwuerfe sind nicht versendet** — weder die Jegen-Rueckmeldung (zehn Punkte, davon sieben mit Marker `[Entscheid Raphael]`) noch die Notariats-Mail. Beide Fristen (TeKoSi Mo 20.07., Jegen Di 21.07.) fallen auf die kommenden zwei Werktage; heute ist Sonntag. Kein Fehler, aber der Radar fuehrt es ausdruecklich als Zustand, nicht als erledigt.
+
+**Neu aufgenommen:**
+
+- **SharePoint-Zugriff KISPI laeuft am 08.08. fuer sieben Personen ab** (Systemmail 19.07. 00:35, 20 Tage Vorwarnung; Mail vollstaendig gelesen, alle sieben Namen aus dem Body und nicht aus der Vorschau entnommen — die Vorschau zeigte nur vier). Betroffen: **B. Kuebler, Y. Cetin, C. Duran, J. Ziegel** (Gruner) sowie **F. Wuersch, M. Spoerri** (KISPI) und **M. Schwander**. Das ist das aktive Projektteam mitten in Auflagenbereinigung und Tuerplanung. **Zwei belegte Verschaerfungen:** (1) F. Wuersch ist bis und mit 09.08. abwesend und kehrt damit **einen Tag nach Ablauf seines eigenen Zugriffs** zurueck; (2) Praezedenzfall — die Gastzugriffe «JANS DATENAUSTAUSCH» sind am 10.07. unbemerkt verstrichen, ohne dass jemand verlaengert hat. Natuerlicher Anlass zur Bereinigung: die Koordinationssitzung 23.07., an der sechs der sieben Betroffenen teilnehmen (per Teilnehmerliste des Termins verifiziert).
+- **Ueberwachungsluecke AG-Gruendung bestaetigt und NICHT behoben** (aus dem Konversations-Destillat, Spec-Training Lauf 23). Der Task `ag-gruendung-monitor` liest mail@ ueber den M365-Connector, der dort als rj@ keinen Delegate-Zugriff hat und **still eine leere Antwort** liefert; der gesamte UBS-Strang liegt in mail@. Lauf 22 hatte die Reparatur als «behoben» verbucht — gestuetzt auf einen Satz im Register, nicht auf die Primaerquelle. Die Gegenpruefung zeigt: die Task-Definition ist **unveraendert seit 21.06.2026 14:49**, Schritt 1 lautet weiterhin «mail@ via M365/Outlook-Suche». Genau der Fehlertyp, den Regel 260709 adressiert, hier einmal am eigenen System statt am Kundenbeleg.
+
+**Gegenverifikation (Regel 260709):** Kontext-Diaet-Deliverable stichprobenartig am Dateisystem geprueft — `docs/konzepte/260719-Kontext-Diaet-Token-Reduktion/` enthaelt md, docx und pdf (19.07. 02:17), der Gespraechsstand ist damit belegt und nicht bloss behauptet. RE-00087 an bexio `--verzug` gegengeprueft (unveraendert im Verzug, jetzt 94 Tage) — kein Zahlungseingang, also kein Schliessen. Sync-/Remote-Queues leer.
+
+**Unveraendert:** RE-00087 (CHF 15'000, 94 Tage, Mahnung 2, Frist verstrichen) — naechste Stufe Entscheid Raphael, A1 greift bei Stufe 2+ nicht. AG-Gruendung ohne UBS-/Notariats-Eingang. DWG ST1/ST2 an J. Ziegel weiterhin nicht zugestellt. SharePoint-Speicher weiterhin ueber der Grenze.
+
+**Token 18.07.:** MacBook Pro 107.09 Mio. (~135 USD) + Mac Mini 123.75 Mio. (~55 USD) = ~230.8 Mio. (~190 USD Aequivalent). Bemerkenswert und fuer die offene Kontext-Diaet-Entscheidung direkt relevant: **215.9 Mio. davon (93 %) sind reiner Cache-Read** — also Grundlast, die vor jeder Arbeit anfaellt.
+
 ## 2026-07-18
 
 **Hub-Chef-Lauf (08:39).** Quellen: Fristen-Register + Logbuch (Horizont 7 Tage), Konversations-Destillat 18.07., Radar-Ergebnis 06:55, bexio `--verzug` + `--abgleich`, M365 Eingang (seit 17.07. 20:00 nichts Neues ausser der Radar-Mail selbst), Kalender 7 Tage, Whitelist v1.
