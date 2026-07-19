@@ -1,9 +1,9 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-07-17
+last_updated: 2026-07-19
 gewichtung: authentisch
-sources: [260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
+sources: [260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -394,3 +394,19 @@ VOR der Rechnung» und «Annahmen markieren, Kennwerte belegen»: die Zahl wird 
 sondern an ihrer sensitiven Annahme aufgehängt — wer die Annahme kippt, kippt die Zahl, und das
 steht offen da. Bemerkenswert die ehrliche Nebenbemerkung, die den Wert nicht schönt, aber die Lage
 würdigt: «jedoch wunderbares Alpenpanorama». Quelle: 18.06.2026, authentisch.
+
+## Termindruck als Begründung statt als Druckmittel (belegt Mailbatch 57, authentisch)
+
+Die kürzeste Mail des Batches führt einen vollständigen Gedanken in zwei Sätzen: «Können wir uns
+kurz telefonisch absprechen Bezüglich Anpassung Sprinklerplan? **Wir müssen diesen Monat die
+Baufreigabe erlangen.**» (an den Sprinkler-Anbieter, 23.06.2026, Sie).
+
+Die Bewegung: (1) die konkrete Handlung erbitten (Telefonat, nicht Mailverkehr — weil das Thema
+in einem Zug zu klären ist); (2) sofort das **übergeordnete Ziel** nachschieben, das die
+Dringlichkeit trägt. Der Termindruck wird nicht als Vorwurf oder Frist an den Empfänger gerichtet
+(«bis Freitag»), sondern als gemeinsame Randbedingung des Projekts hingestellt — «**wir** müssen».
+Damit wird aus einer Bitte eine nachvollziehbare Notwendigkeit, ohne dass jemand unter Druck
+gesetzt wird. Dasselbe Muster trägt die Plangrundlagen-Mail desselben Fadens: «**Wichtig:** Die
+Raumnummerierung hat sich geändert; Bitte verwenden Sie diesen Plan als Grundlage» — die
+Warnung vor dem Fehler steht vor der Anweisung, nicht danach. Reiht sich an «Bedingung + Folge +
+Aufwand koppeln» und den Root-Cause-Reframing-Marker (Batch 32).

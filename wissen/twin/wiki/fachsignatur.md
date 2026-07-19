@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-07-17
+last_updated: 2026-07-19
 gewichtung: authentisch
-sources: [260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -1164,3 +1164,29 @@ ein erster, noch unvollständiger und fehlerhafter Vorschlag ist»). Quelle: 09.
   der Verfügbarkeit von Firmennamen sowie Abfrage von Firmenstammdaten UID/Sitz/Rechtsform/
   Status»). → Raphael beschafft sich Infrastruktur selbst (Selbst-Fallback), präzise im
   Fach-/Rechtsvokabular auch ausserhalb Baurecht.
+
+---
+
+### Batch 57 (23.–26.06.2026): Brandlast-Nachweis bei Wand-Aufwertung, Linienlast Vollverglasung
+
+- **Aufwertung einer Bestandeswand auf EI30-RF1 zieht den Brandlast-Nachweis der bestehenden
+  Elektroinstallationen nach sich.** Der Sachverhalt sauber in drei Schritten: «Dabei werden
+  bestehende Wände **ohne Anforderung an den Feuerwiderstand, NEU als brandabschnittsbildende
+  EI30-RF1** … definiert. Dafür sind die **bestehenden Installationen in diesen Wänden zu
+  definieren und zu bewerten** … Mit Ihren Angaben kann der Trockenbauer **mit dem Systemhalter**
+  der bestehenden Trockenbaukonstruktionen prüfen, welche Massnahmen zu treffen sind, um die
+  Wände entsprechend zu **erstellen/ertüchtigen**» (25.06.2026, mit dem QS-Verantwortlichen
+  abgestimmt). → Kernsignatur: die Brandschutz-Anforderung wird nicht an der Wand allein
+  festgemacht, sondern an ihrem **Inhalt** (Brandlast der Installationen), und die Prüfung läuft
+  über den **Systemhalter** des verbauten Trockenbausystems — nicht über eine Pauschalannahme.
+- **Linienlast-Warnung als Konstruktionsvorgabe an den Unternehmer.** Zur inneren Vollverglasung:
+  «Subkonstruktion oder Aufhängung: Ziel **keine Last auf UB und Bodenheizung** >>> Wasserschaden
+  / Totalschaden Bodenheizung oder UB zerbricht, weil **Linienlast Vollverglasung vierfach höher
+  ist als die Nutzlast des UB**» (Fadenverlauf 12.06.2026). → Die Anforderung wird über das
+  **Schadensbild** und ein gerechnetes Verhältnis begründet, nicht als blosser Wunsch — typisch
+  für die rechnende Fachsignatur.
+- **Bestandsaufnahme über Reality Capture als Submissionsgrundlage.** Dem Küchenbauer werden zwei
+  Matterport-Links mitgeliefert — bestehender Standort («Stand Dolderstrasse, jetziger Standort
+  der Therapiestation») und Umbauort — plus Fachplaner-Variantenstudie zur Dampfabzugshaube,
+  eigene Integrations-Idee (Abzug im Korpus der Kochinsel) und eine Referenz. → Der eigene
+  3D-Scan (Selbst-Fallback, Batch 23/24) ist inzwischen **Standard-Beilage der Ausschreibung**.

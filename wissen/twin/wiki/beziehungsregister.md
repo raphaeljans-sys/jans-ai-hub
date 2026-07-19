@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-07-17
+last_updated: 2026-07-19
 gewichtung: authentisch
-sources: [260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -1299,3 +1299,34 @@ jemanden kennen» (Register per Person via @-Mention, bereits belegt). Quelle: 1
   «@Cekdar Duran / **Werter Cekdar**, darf ich Dich bitten …» — «Werter» als warm-höfliche
   Du-Zwischenstufe im Fliesstext, statt gestapelter Kopf-Anrede (bestätigt @-Mention-Muster,
   hier mit «Werter» statt «@Name» blank).
+
+---
+
+### Batch 57 (23.–26.06.2026): zwei Sie-Wärmestufen in EINER Anrede — und der Vertragsakt kühlt zurück
+
+- **Gestapelte Sie-Anrede mit ABGESTUFTER Wärme an zwei Personen derselben Firma.** An den
+  Kalkulator und den Geschäftsleitungs-Vertreter desselben Unternehmers schreibt Raphael
+  «**Geschätzter Herr Grob,** / **Werter Herr Arter**» (25.06.2026) — zwei verschiedene
+  Wärmestufen des Sie in einem Anrede-Block, statt einer gemeinsamen Formel. Ergänzt die bekannte
+  Zwei-Honorifika-Regel im Du (Batch 29) um den **Sie-Fall**.
+- **Der Vertragsakt kühlt das Register wieder auf «Sehr geehrter».** Derselbe Faden über fünf
+  Wochen: 18.05. «Sehr geehrter Herr Grob, geschätzter Herr Arter» → 25.06. 14:37 (Preisbitte)
+  «Geschätzter Herr Grob, Werter Herr Arter» → 25.06. 15:12 (**Auftragserteilung**) zurück auf
+  «**Sehr geehrter Herr Grob**». → Nicht die Vertrautheit steuert hier, sondern der **Anlass**:
+  der rechtsverbindliche Akt (Auftragsbestätigung) bekommt die formellste Stufe, auch wenn der
+  Faden vorher wärmer lief. Parallel zur bekannten Regel «Geld/Beleg kippt ins Sie bzw. zum vollen
+  Block» (Batch 14/27), hier auf der Anrede-Ebene.
+- **«Geschätzter <Kosename>» an den Fachkollegen der Bauherrschaft.** Der HLK-Teamleiter des
+  Spitals wird als «**Geschätzter Michi**» angesprochen (25.06.2026) — Kurzform des Vornamens in
+  der warmen Du-Anrede, während derselbe Kontakt im Kurz-Reply nur «**Michi, sieht gut aus,
+  oder?**» als nackten Namens-Opener bekommt (24.06.2026; bestätigt den «<Vorname>,»-Opener
+  ohne Hoi, Batch 33).
+- **«Guten Abend <Vorname>» im Du.** An den Sicherheitsverantwortlichen der Bauherrschaft
+  abends: «Guten Abend Lior, … Danke für Deine Unterstützung. / Lgr» (24.06.2026) — bestätigt
+  die Tageszeit-Anrede im operativen Du (bisher meist «Guten Morgen»).
+- **Neue Mappings (Sie):** Roland Grob (Kalkulation Innenausbau, Jegen AG) — Sie, «Sehr
+  geehrter»/«Geschätzter»; Heinrich Arter (Mitglied der GL, Jegen AG) — Sie, «Geschätzter»/
+  «Werter»; Tobias Inniger (Beratung/Verkauf, Schreinermanufaktur) — Sie, «Geschätzter Herr
+  Inniger»; Tim Harder (Jomos, Sprinkler) — Sie, «Geschätzter Herr Harder». **(Du):** Michael
+  «Michi» Spörri (Teamleiter HLKKS, KISPI) — Du; Lior Merci (Sicherheitsverantwortlicher, KISPI)
+  — Du; Marco Schwander (Gastro-Fachplanung) — Du, «Geschätzter Marco».

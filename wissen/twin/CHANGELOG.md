@@ -5,6 +5,24 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-19 — `twin-mail-training` Batch 57 (2026-06-23 13:47 – 2026-06-26).** 20 Sent-Items
+  gesichtet, 4 Volltexte destilliert (Vergabe-Nachverhandlung + Auftragserteilung LOS274.01 Innere
+  Verglasung, Brandlast-Nachweis ELE in EI30-RF1-Leichtbauwänden, Küchenbau-Unterlagen). Erstmals
+  **Claude-generierte Selbstmails** im Postfach als `claude-aera` markiert und ausgeschlossen
+  (Logbuch-Radar, AG-Gründungs-Update — Erkennung über ASCII-«fuer/naechster» + Report-Struktur);
+  Hinweis dazu im `raw/_INGESTED.md` verankert. Neue Marker: [[stimme]] («Hello,» als deutscher
+  Du-Opener, «lgr»/«Lgr» nicht bedeutungstragend, Aufzählung «A) B) C)»), [[beziehungsregister]]
+  (gestapelte Sie-Anrede mit abgestufter Wärme; **der Vertragsakt kühlt zurück auf «Sehr geehrter»**
+  — Anlass schlägt Vertrautheit), [[arbeitsweise]] (Auftragserteilung liefert die Ausführungs-
+  Choreografie mit; Wunschtermin vom Unternehmer eintragen lassen; Delegation mit fertigem,
+  QS-abgesegnetem Weiterleitungstext; Gesamt-Nachlassquote «-8%tot» als eine Kennzahl),
+  [[fachsignatur]] (Wand-Aufwertung auf EI30-RF1 zieht Brandlast-Nachweis der bestehenden
+  Installationen nach sich, Prüfung über den Systemhalter; Linienlast Vollverglasung 4× Nutzlast UB),
+  [[haltung]] («Im Auftrag der Bauherrschaft» — Zurechnungs-Ehrlichkeit beim Preisdruck; Nachlass
+  quittieren statt ausreizen), [[denken]] (Termindruck als gemeinsame Randbedingung «wir müssen»).
+  Metrik 387 W: Du-Gross 1.0, Satzlänge ø 14.3 W, Freundliche Grüsse 4×. Sweep abgedeckt bis
+  2026-06-26 10:09.
+
 - **2026-07-18 — `twin-fidelity-review`.** Fidelity-Selbsttest gegen drei authentische Dez-2025-
   Goldproben in drei Registern (Hofer-Bauentscheid-Sie / Weisser-Offert-Du nachts / Bopp-STWEG-Korrektur;
   M365 Sent Items rj@). **Gesamt-Fidelity 89** (Stimme 94 · Beziehung 97 · Denken 89 · Haltung 88 ·

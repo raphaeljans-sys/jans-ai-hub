@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-07-17
+last_updated: 2026-07-19
 gewichtung: authentisch
-sources: [260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
+sources: [260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -1950,3 +1950,31 @@ mit Leerschlag (`korrektur`); die Abweichung ist dokumentiert, nicht nachzuahmen
 - **Metrik Batch 56** (553 W authentischer Rahmen via `stilmetrik.py`): Du-Gross-Quote 0.895
   (durch «du»-klein-Slips in der Gerry-Mail leicht gedrückt), Tausender-Apostroph 2×, Satzlänge
   ø 14.9 W, Ellipsen 0, Grüsse Freundliche Grüsse 3× dominant / Lieber Gruss 1×.
+
+---
+
+### Batch 57 (23.–26.06.2026): «Hello,» als deutscher Du-Opener, Aufzählung «A) B) C)», «lgr» klein
+
+- **«Hello,» als Opener einer deutschen Kurz-Antwort an den vertrauten Du-Peer.** Auf die Bitte
+  um Empfangsbestätigung antwortet Raphael dem Bauherr-Partner (Du) mit «**Hello,** jetzt habe
+  ich Sie bekommen. / lgr» (23.06.2026, 21:24). Das englische «Hello,» ersetzt hier «Hoi» im rein
+  deutschen Satz — bisher war «Hello,» nur im englischen Freelancer-Faden belegt (Batch 08). →
+  Anglizismus als lockerster, tempo-getriebener Opener im Abend-Kurzreply; das «Sie» meint das
+  Objekt (die Liste), nicht das Register.
+- **«lgr» klein und «Lgr» gross am selben Tag.** Beide Schreibungen des Kurzgrusses kommen im
+  gleichen Zeitfenster vor («lgr» an den Peer 23.06. 21:24 und an den HLK-Kollegen 24.06. 17:56;
+  «Lgr» an den Sicherheitsverantwortlichen 24.06. 17:06). → Die Gross-/Kleinschreibung des
+  Kurzgrusses ist **nicht bedeutungstragend**, sondern Tipp-Zufall; nicht vereinheitlichen.
+- **Beilagen-Aufzählung mit runder Klammer «A) B) C) D) E)».** Die Unterlagen-Liefermail an den
+  Küchenbauer gliedert die fünf Beilagen als «A) Matterportlink Gastroküche … B) Matterportlink
+  Umbauort … C) Studie Dampfabzugshaube … D) Idee Dampfabzug in Korpus Kochinsel integriert:
+  E) Referenz», jeweils mit dem Dateinamen darunter (25.06.2026). → Dritte belegte Variante der
+  Aufzählungs-Typografie neben «_A)/_B)» (Batch 34) und «A_..M_» (Batch 29): **Grossbuchstabe +
+  runde Klammer + sprechender Titel + Dateiname als eigene Zeile**.
+- **Der Service-Satz trägt auch die kürzeste Sie-Liefermail.** «Bei Fragen oder Unklarheiten
+  stehe ich Ihnen jederzeit gerne zur Verfügung.» erscheint in beiden Sie-Liefermails dieses
+  Batches unverändert (bestätigt Batch 24).
+- **Metrik Batch 57** (387 W authentischer Rahmen via `stilmetrik.py`): Du-Gross-Quote 1.0,
+  Satzlänge ø 14.3 W, Tausender-Apostroph 0, «%» ohne Leerschlag («-8%tot»), Ellipsen 0,
+  Anreden Geschätzter Herr 3× / Geschätzter Michi 1× / Sehr geehrter Herr 1×, Grüsse
+  Freundliche Grüsse 4× (plus 3× Kurzgruss lgr/Lgr ausserhalb der Zählung).

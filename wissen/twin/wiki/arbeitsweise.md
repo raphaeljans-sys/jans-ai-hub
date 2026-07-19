@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-07-18
+last_updated: 2026-07-19
 gewichtung: authentisch
-sources: [../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -1295,3 +1295,34 @@ sofort zur Frage an die zuständige Stelle, nicht zum stillen Zeitverlust. Quell
   machen, danke!» + Nachschub-Bitte Grundrissplan + Steuerungsfrage «Bis wann können wir mit den
   besagten Unterlagen rechnen?». → @-Name-Adressierung einzelner Mitempfänger im Fliesstext mit
   konkretem Auftrag und Fristnachfrage (bestätigt @-Mention-Muster).
+
+---
+
+### Batch 57 (23.–26.06.2026): Auftragserteilung als Choreografie, fertiger Weiterleitungstext
+
+- **Die Auftragserteilung liefert die Ausführungs-Choreografie gleich mit.** Mit der
+  Auftragsbestätigung benennt Raphael in EINEM Satz die ganze Kette, für die er den Unternehmer
+  in die Pflicht nimmt: «Für die **Koordination Massaufnahme, Koordination Fachplanung
+  Türfachplaner – TEKOSI, Ausführungsplanung, Werkplanung, Gut Zur Ausführung, Produktion,
+  Montagetermin** bin ich Ihnen dankbar» (25.06.2026). → Der Vergabe-Moment ist zugleich der
+  Moment, in dem die Prozesskette verbindlich gemacht wird — nicht erst später im Bauprogramm.
+- **Termin vom Unternehmer selbst eintragen lassen, dann in die Bauleitungs-Anweisung
+  überführen.** «Sie finden im Anhang der Grobtermin Ausführung mit der Bitte um
+  **handschriftliche Ergänzung** für Ihr Gewerk wann Sie gerne den Montagetermin hätten. Ich
+  nehme dann dies so in die Terminplanung auf und Erteile der Bauleitung die Anweisung der
+  Gewerksvorbereitung Baustelle.» → Der Ausführende bestimmt seinen Wunschtermin selbst; Raphael
+  konsolidiert und löst daraus die Vorbereitung aus. Verbindlichkeit ohne Diktat.
+- **Delegation mit fertigem, fachlich abgesegnetem Textbaustein.** Statt den Kollegen der
+  Bauherrschaft die Anfrage selbst formulieren zu lassen, liefert Raphael den kompletten
+  Weiterleitungstext kursiv abgesetzt mit: «**Text zur Weiterleitung an** Jassi – Xamax AG;
+  Unternehmer der die Elektroinstallationsarbeiten im Bestandesbau ausgeführt hat. **Dieser Text
+  ist mit Jens Ziegel QS-Verantwortlicher Gruner AG abgesprochen:**» (25.06.2026). → Zwei
+  Wirkungen in einem Zug: der Empfänger muss nur weiterleiten (Reibung null), und die
+  **Legitimation ist vorab genannt** (Fachverantwortlicher hat den Wortlaut geprüft), damit die
+  Anfrage beim Unternehmer nicht diskutiert wird. Steigerung des «fertige Prompts/Vorlagen
+  mitliefern»-Musters (Batch 22/34).
+- **Gesamt-Nachlassquote als Zielgrösse zurückspiegeln.** Die Bauherrschaft forderte 10 %, der
+  Unternehmer bot 6 % Rabatt + 2 % Skonto; Raphael fasst das in der Bitte um das bereinigte
+  Angebot als «gemäss Rücksprache Verkauf KISPI (**-8%tot**)» zusammen. → Rabatt und Skonto
+  werden zur **einen** verhandelten Kennzahl verdichtet und schriftlich festgehalten, bevor das
+  bereinigte Angebot kommt (bestätigt und schärft «Abgebot»-Sequenz Batch 30/31).
