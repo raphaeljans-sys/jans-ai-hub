@@ -1,7 +1,7 @@
 ---
 title: Layer 2 — The Verifier (Verifikations-Hebel)
 status: established
-last_updated: 2026-07-18
+last_updated: 2026-07-19
 sources: [260616_marchese_the-spec_karpathy-method_transkript.md, bcherny_x_2007179861115511237]
 links: [[the-spec]], [[3-schritte-spec]], [[environment-jans-hub]], [[anwendung-jans]]
 ---
@@ -253,3 +253,41 @@ Treffer, der zwingend existieren muss — kommt er nicht, ist der Kanal blind, n
 Apple Mail). Reiht sich in die Falsch-Signal-Familie: Lauf 1 (falsches Gruen: Proxy ≠ Abnahmekriterium) ·
 Lauf 10 (Mass misst den Fix nicht) · Lauf 12 (ein Flag ist keine Reparatur) · **hier (ein leeres Signal
 ist kein Beweis fuer Leere)**.
+
+## Eine als «behoben» gemeldete Reparatur ist selbst ein Verifier-Signal (Lektion AG-Monitor, Lauf 23, 19.07.2026)
+
+Reue-Pruefung der Sektion direkt darueber. Der 17.07.-Eintrag in `fristen.md` schliesst den
+«silent-empty»-Befund mit dem Satz: «Task-Definition auf Apple Mail als Primaerkanal fuer mail@
+umgestellt.» Lauf 22 hat diese Meldung uebernommen und den Fehlermodus als behoben abgehakt.
+
+**Gegenpruefung an der Primaerquelle — die Reparatur ist nicht eingetreten:**
+- Die Task-Registry nennt als einzige Definition `~/.claude/scheduled-tasks/ag-gruendung-monitor/SKILL.md`
+  (kein zweites Artefakt). Deren mtime ist **21.06.2026 14:49** — seit der Erstellung nie geaendert,
+  also auch nicht am 17.07.
+- Schritt 1 lautet unveraendert: Posteingaenge «(Konten rj@ und mail@ **via M365/Outlook-Suche**;
+  **falls verfuegbar zusaetzlich** Apple Mail)». M365 ist weiterhin Primaerkanal, Apple Mail weiterhin
+  optionaler Anhang — exakt die Konstellation, die den blinden Fleck erzeugt hat.
+- Folge: der naechste Lauf (Mo 20.07., 07:46, Cron Mo–Fr) sucht mail@ wieder ueber den Kanal ohne
+  Delegate-Zugriff. Eine dort eintreffende Kapitalbescheinigung — der eine Fund, fuer den der Monitor
+  existiert — wuerde erneut nicht erkannt.
+
+**Warum das schlimmer ist als das offene Flag (Lauf 12):** ein Flag bleibt wenigstens sichtbar offen.
+Eine als «behoben» formulierte Meldung **schliesst den Faden aktiv** — nachfolgende Pruefinstanzen
+(hier: Lauf 22) hoeren auf zu suchen. Der Fehler wird dadurch nicht nur nicht repariert, sondern
+unsichtbar. Reihe: Lauf 1 (falsches Gruen) · Lauf 10 (Mass konsumiert den Fix nicht) · Lauf 12 (ein
+Flag ist keine Reparatur) · Lauf 22 (ein leeres Signal ist kein Beweis fuer Leere) · **hier (eine
+gemeldete Reparatur ist kein Beweis fuer eine Reparatur)**.
+
+**Regel fuer den Verifier:** Erledigt-Meldungen sind Behauptungen, keine Belege — auch die eigenen.
+Wer eine Reparatur abnimmt, prueft **das Artefakt, das das Verhalten steuert**, nicht den Text, der die
+Aenderung behauptet. Konkret: hat sich die verhaltenssteuernde Datei nachweislich geaendert (mtime,
+Commit, Diff), und steht die neue Regel wirklich drin? Trennfrage: «Wurde etwas geaendert — oder wurde
+nur gesagt, dass etwas geaendert wurde?» Das ist die Anwendung von [[3-schritte-spec]]-Verifier-Denken
+auf den Reparatur-Vorgang selbst.
+
+**Zweiter Befund desselben Laufs — Kadenz vor Stille pruefen:** die Zeile in `fristen.md` trug am
+19.07. immer noch «Monitor 17.07.», was nach einer Wiederholung der Schweige-Regression (Laeufe 11–14)
+aussah. Die Registry zeigt aber Cron **Mo–Fr** mit `lastRunAt` = Fr 17.07. — der 18./19.07. sind Samstag
+und Sonntag, die Stille ist planmaessig. Ergaenzung zur Reue-Pruefungs-Disziplin (Lauf 14, «eine
+haelt-an-Diagnose hat ein Ablaufdatum»): **vor jeder Schweige-Diagnose den Fahrplan pruefen** — ein
+Monitor, der laut Plan gar nicht laufen sollte, schweigt nicht, er hat frei.

@@ -1,5 +1,33 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-19 — Trainingslauf 23
+- Output `outputs/2026-07-19_training-run23.md`. **Verifikationslauf** — keine neue reale Spec; SYN-02
+  ist laut Task-Registry auf **Mo 20.07. 12:15** terminiert (`syn02-spec-anstoss`, nie gefeuert),
+  Abwesenheit erwartet.
+- **Reue-Pruefung der Lauf-22-Lektion — Schliessung WIDERRUFEN:** die im 17.07.-Eintrag gemeldete
+  Behebung («Task-Definition auf Apple Mail als Primaerkanal fuer mail@ umgestellt») hat **nie
+  stattgefunden**. Primaerquelle Task-Registry: einzige Definition `~/.claude/scheduled-tasks/
+  ag-gruendung-monitor/SKILL.md`, mtime **21.06.2026 14:49** (seit Erstellung unveraendert); Schritt 1
+  nennt weiterhin «mail@ via M365/Outlook-Suche; falls verfuegbar zusaetzlich Apple Mail». Der blinde
+  Fleck besteht fort — der naechste Lauf (Mo 20.07. 07:46, Cron Mo–Fr) sucht mail@ wieder ueber den
+  Kanal ohne Delegate-Zugriff, eine Kapitalbescheinigung wuerde erneut nicht erkannt.
+- **Neue Lehre (Verschaerfung von Lauf 12):** eine als «behoben» gemeldete Reparatur **schliesst den
+  Faden aktiv** und ist gefaehrlicher als ein offenes Flag — Lauf 22 hat die Meldung geglaubt und
+  aufgehoert zu pruefen. Abnahme gehoert ans verhaltenssteuernde Artefakt (mtime/Commit/Diff), nicht an
+  den Text, der die Aenderung behauptet. Fuenftes Glied der Falsch-Signal-Familie (Lauf 1/10/12/22).
+- **Fehlalarm vermieden:** «Monitor 17.07.» sah nach neuer Schweige-Regression aus; Registry zeigt Cron
+  **Mo–Fr** + `lastRunAt` Fr 17.07. → 18./19.07. Wochenende, Stille planmaessig. Zusatzregel: **vor jeder
+  Schweige-Diagnose den Fahrplan pruefen.**
+- **Umgesetzt:** `wiki/verifier.md` neue Sektion «Eine als «behoben» gemeldete Reparatur ist selbst ein
+  Verifier-Signal (Lauf 23)» inkl. Kadenz-Regel, `last_updated` → 07-19; `wiki/QUESTIONS.md` F2
+  (Widerruf + Fehlalarm-Notiz).
+- **Bewusst nicht getan:** Task-Definition NICHT selbst geaendert (Verhaltensaenderung an laufendem
+  Scheduled Task, `logbuch`-Betrieb ausserhalb KB-Mandat) — an Raphael eskaliert mit konkretem Fix und
+  Termindruck; kein Environment-Sweep, keine Rule-/Gate-Aenderung, keine erfundene F3-Zeile, kein Mailversand.
+- Offen: **P1 — Monitor-Schritt 1 auf Apple Mail umstellen vor Mo 07:46**; SYN-02 ab 20.07. → Auswertungslauf;
+  F1-Ueberdehnungs-Gegentest unbelegt; F3 Marketing/Text offen; Sweep-Kandidat «behoben, aber nicht behoben»
+  bei anderen Hub-Monitoren.
+
 ## 2026-07-18 — Trainingslauf 22
 - Output `outputs/2026-07-18_training-run22.md`. **Verifikationslauf** — keine neue reale Spec seit
   Lauf 20; die naechste (SYN-02) ist auf **Spec-Start ab 20.07.** terminiert (`SYNERGIE-REGISTER`),

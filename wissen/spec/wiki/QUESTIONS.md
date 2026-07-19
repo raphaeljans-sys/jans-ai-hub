@@ -166,6 +166,22 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     nichts verpasst, Task auf Apple Mail als Primaerkanal umgestellt (`logbuch`-Betrieb). Die **Verifier-
     Lehre** («ein leeres Signal ist kein Beweis fuer Leere — Zugriff vor Inhalt pruefen, Positivkontrolle +
     zweiter Kanal») steht in [[verifier]]. Kein Gate-/Rule-Bezug — reine Verifier-Disziplin.
+  - Widerruf 19.07. (Lauf 23) zur Lauf-22-Schliessung: die im 17.07.-Eintrag gemeldete Behebung
+    («Task-Definition auf Apple Mail als Primaerkanal fuer mail@ umgestellt») ist **nicht eingetreten**.
+    Primaerquelle Task-Registry: einzige Definition ist `~/.claude/scheduled-tasks/ag-gruendung-monitor/
+    SKILL.md`, mtime **21.06.2026 14:49** — seit Erstellung nie geaendert; Schritt 1 nennt weiterhin
+    «mail@ **via M365/Outlook-Suche**; **falls verfuegbar zusaetzlich** Apple Mail». Der blinde Fleck
+    besteht also fort; der naechste Lauf (Mo 20.07. 07:46, Cron Mo–Fr) sucht mail@ wieder ueber den
+    Kanal ohne Delegate-Zugriff. Neue Lehre (Verschaerfung von Lauf 12): **eine als «behoben» gemeldete
+    Reparatur schliesst den Faden aktiv und ist gefaehrlicher als ein offenes Flag** — Lauf 22 hat die
+    Meldung geglaubt und aufgehoert zu pruefen. Abnahme muss am verhaltenssteuernden Artefakt erfolgen
+    (mtime/Commit/Diff), nicht am Text, der die Aenderung behauptet. → [[verifier]] «Eine als behoben
+    gemeldete Reparatur ist selbst ein Verifier-Signal». Fix bleibt `logbuch`-Betrieb (ausserhalb
+    KB-Mandat) → an Raphael eskaliert, nicht autonom geaendert.
+  - Fehlalarm vermieden 19.07. (Lauf 23): die Zeile trug am 19.07. weiterhin «Monitor 17.07.», was nach
+    einer Wiederholung der Schweige-Regression aussah. Registry: Cron **Mo–Fr**, `lastRunAt` = Fr 17.07.
+    — der 18./19.07. sind Wochenende, die Stille ist planmaessig. Ergaenzung zur Reue-Pruefungs-Disziplin:
+    **vor jeder Schweige-Diagnose den Fahrplan pruefen**. → [[verifier]] (zweiter Befund derselben Sektion).
 - F3: Welcher zweite Kritiker ist je Domaene der beste Verifier (korrektur vs. twin vs.
   /code-review vs. Connector)? Zuordnungstabelle aufbauen.
   - Erster Eintrag (Recht/Behoerde, belegt AG-Gruendung): die **autoritative Instanz**
