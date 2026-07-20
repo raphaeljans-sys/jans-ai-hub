@@ -176,6 +176,42 @@ const BAULINIE_PROJ_LAYER = {
   waldgrenze:    "ms:ogd-0150_arv_basis_abstandslinie_waldgrenze_prj_l", // "_prj_l" statt "_proj_l"!
   gewaesserraum: "ms:ogd-0185_arv_basis_gewaesserraum_proj_f",
 };
+// Grundwasserschutzzonen + -areale Kt. ZH (K10-Rest, Run 54 2026-07-20). Layer-Existenz war seit
+// Run 33 belegt, aber nur mit 0-Treffer-Abfragen — d.h. es war NICHT unterscheidbar, ob der
+// Endpunkt korrekt arbeitet oder stumm nichts liefert. Run 54 schliesst das mit einem
+// POSITIV-Benchmark (Zone "Rotzibuech", Rorbas BFS 53, S2, E=2685087/N=1264182 -> 1 Treffer).
+// Codes empirisch aus einer 300er-Stichprobe: S1 Fassungsbereich, S2/S2a/S2b/S2c Engere
+// Schutzzone, S3/S3a Weitere Schutzzone, vereinzelt "Spezialzone". Das Areal-Layer (0149) fuehrt
+// planerisch gesicherte KUENFTIGE Zonen (code "ZukuenftigeZoneS1"/"...S2").
+const GRUNDWASSER_LAYER = {
+  schutzzone: "ms:ogd-0143_arv_basis_grundwasser_gws_zone_f",   // rechtskraeftige Zonen S1-S3
+  schutzareal: "ms:ogd-0149_arv_basis_grundwasser_gws_areal_f", // kuenftige Zonen (Areal)
+};
+// Zonen liegen flaechig auf der Parzelle -> kleiner Radius genuegt (Punktlage entscheidet).
+// Liefert je Treffer Zonencode, Bezeichnung, Rechtsstatus und die Grundwasserrechts-Nr.
+async function fetchGrundwasser(e, n, half = 5) {
+  const out = {};
+  for (const [key, layer] of Object.entries(GRUNDWASSER_LAYER)) {
+    try {
+      const d = await getJson(ogdWfsUrl(layer, e, n, half));
+      out[key] = (d.features || []).map((f) => {
+        const p = f.properties || {};
+        return {
+          code: p.code_txt || null,
+          code_bezeichnung: p.code_bezeichnung || null,
+          bezeichnung: p.bezeichnung || p.bemerkungen || null,
+          nutzniesser: p.nutzniesser || null,
+          rechtsstatus: p.rechtsstatus || null,
+          grundwasserrechtsnr: p.grundwasserrechtsnr || null,
+          festsetzungsdatum: (p.festsetzungsdatum || "").slice(0, 10) || null,
+          bfs: p.bfsnr ?? null,
+        };
+      });
+    } catch { out[key] = []; }
+  }
+  const total = Object.values(out).reduce((s, a) => s + a.length, 0);
+  return { ...out, treffer: total, radius_m: half };
+}
 function ogdWfsUrl(layer, e, n, half = 2) {
   const bbox = `${e - half},${n - half},${e + half},${n + half},urn:ogc:def:crs:EPSG::2056`;
   return `${OGDZH_WFS}?SERVICE=WFS&VERSION=2.0.0&REQUEST=GetFeature&TYPENAMES=${layer}`
@@ -606,6 +642,30 @@ function isoDate() {
                 for (const dir of a.out) {
                   if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
                   const dest = join(dir, fn); writeFileSync(dest, JSON.stringify(b, null, 2)); result.files.push(dest);
+                  L(`     -> ${dest}`);
+                }
+              }
+            } else if (prod === "grundwasser") {
+              if (result.kanton !== "zh") throw new Error(`grundwasser ist nur fuer Kt. ZH hinterlegt (Kanton ${result.kanton})`);
+              const half = a.radius ? Number(a.radius) : 5;
+              const gw = await fetchGrundwasser(c.east, c.north, half);
+              result.produkte.grundwasser = gw;
+              if (gw.treffer) {
+                for (const z of gw.schutzzone) {
+                  L(`   grundwasser: Schutzzone ${z.code ?? "?"} (${z.code_bezeichnung ?? "?"}) «${z.bezeichnung ?? "?"}», ${z.rechtsstatus ?? "?"}, GW-Recht ${z.grundwasserrechtsnr ?? "?"}`);
+                }
+                for (const z of gw.schutzareal) {
+                  L(`   grundwasser: ⚠ Schutzareal (kuenftige Zone) ${z.code ?? "?"} «${z.bezeichnung ?? "?"}», ${z.rechtsstatus ?? "?"}`);
+                }
+                L(`   → Bauen in S1/S2 stark eingeschraenkt bis unzulaessig; UG/Aushub/Waermesonden mit AWEL klaeren (GSchG/GSchV).`);
+              } else {
+                L(`   grundwasser (±${half}m): keine Schutzzone/kein Schutzareal — Parzelle liegt ausserhalb (Negativbefund, Endpunkt positiv-verifiziert Run 54)`);
+              }
+              if (a.out.length) {
+                const fn = `Grundwasserschutz-ZH_${result.bfs ?? "X"}_${result.parzelle ?? "X"}_${isoDate()}.json`;
+                for (const dir of a.out) {
+                  if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
+                  const dest = join(dir, fn); writeFileSync(dest, JSON.stringify(gw, null, 2)); result.files.push(dest);
                   L(`     -> ${dest}`);
                 }
               }

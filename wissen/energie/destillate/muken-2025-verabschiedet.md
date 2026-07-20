@@ -28,9 +28,9 @@ Kanton Zürich (aktuell EnerG auf Basis MuKEn 2014) ist das die nächste absehba
 ## Die wichtigsten inhaltlichen Änderungen gegenüber MuKEn 2014
 | Bereich | MuKEn 2014 (heute, Basis EnerG ZH) | MuKEn 2025 (neu) |
 |---|---|---|
-| Wärmeerzeugung Neubau | Mindestanteil erneuerbare Energie (Basismodul D) | **Verbot fossiler Brennstoffe** — Neubauten müssen **vollständig** erneuerbar versorgt werden |
+| Wärmeerzeugung Neubau | Mindestanteil erneuerbare Energie (Basismodul D) | **Vollständig-erneuerbar-Gebot** (Art. 1.28 Abs. 1) — mit Rändern: fossile Spitzenlast >100 kW bis 10 % zulässig (Art. 1.31), Fernwärme genügt ab 70 % CO₂-frei (Art. 1.32) |
 | Heizungsersatz (Bestand) | Erneuerbar-Pflicht mit Ausnahmen bei Unwirtschaftlichkeit | Neu **25-%-Schwelle** für wirtschaftliche Unzumutbarkeit als Ausnahmekriterium |
-| Eigenstromerzeugung (PV) | Pflicht ab Neubaugrösse, kantonal unterschiedlich konkretisiert (ZH: EN-104-ZH ≥10 W/m² EBF) | Konkretisiert: **mind. 20 W/m² EBF bei Neubauten**, **10 W/m² bei Dachsanierungen** |
+| Eigenstromerzeugung (PV) | Pflicht ab Neubaugrösse, **gekappt bei «nie 30 kW oder mehr»** (Art. 1.26 MuKEn 2014); ZH: EN-104-ZH ≥10 W/m² EBF | **mind. 20 W/m² EBF bei Neubauten**, **10 W/m² nach Dachsanierungen ab 50 m² betroffener Fläche** — und **die 30-kW-Kappung entfällt ersatzlos** (Art. 1.25, kein Deckel im Volltext). Geltungsbereich neu «Neu- **und Bestandesbauten**» |
 | Graue Energie | Kein eigenes Modul — nur über freiwillige Labels (Minergie-ECO/-A) erfasst | **Neues Modul (Teil G)**: begrenzt Treibhausgasemissionen aus Erstellung **und Rückbau**, methodisch an **Minergie** angelehnt |
 | Energiebedarfsberechnung | Vollständige SIA-380/1-Berechnung inkl. Wärmeerzeugertyp | **Vereinfacht**, weil fossile Heizungen im Neubau grundsätzlich wegfallen |
 

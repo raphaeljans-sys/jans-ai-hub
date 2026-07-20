@@ -960,6 +960,15 @@ Dateiänderung prüfen, bevor das Register nachgeführt wird.
   ein Compounding-Kandidat, der über die Energie-KB hinaus auch `healthcare-wirtschaftlichkeit` und
   `kostenschaetzung` aufwerten würde. Entscheid Raphael nötig, ob die eigenen Projektdaten dafür
   ausgewertet werden sollen.
-- [ ] **E104 — WDV-Nachtrag nach 118?** Ein Regierungsratsbeschluss `RRB-2025-1082` wurde beim
-  Suchlauf gestreift, aber nicht geöffnet. zhlex führt für LS 700.211 keinen Nachtrag nach 118 — eine
-  WDV-Änderung 2025 ist unwahrscheinlich, aber nicht belegt ausgeschlossen. Kleine Restlücke.
+- [x] **E104 — WDV-Nachtrag nach 118?** — geschlossen ✓ 2026-07-20 (Run 81). **Es gibt keinen
+  Nachtrag nach 118**; massgebend bleibt die WDV vom **8.6.2022, Nachtrag 118, in Kraft seit
+  1.9.2022**. Drei unabhängige Belege: (1) der kanonische zhlex-Resolver nach Ordnungsnummer
+  (`lawcollection-directlink?Ordnr=700.211`) leitet per 302 direkt auf
+  `erlass-700_211-2022_06_08-2022_09_01-118.html`, die Historie weist nach Nr. 118 nichts aus;
+  (2) die amtlich konsolidierte PDF-Fassung auf zh.ch trägt unverändert «Wärmedämmvorschriften
+  (WDV) (vom 8. Juni 2022)»; (3) **RRB-2025-1082 selbst zitiert am 29.10.2025** wörtlich «§ 8 Abs. 6
+  der Wärmedämmvorschriften vom 8. Juni 2022 (LS 700.211)» als geltendes Recht.
+  **Der Verdacht war eine Fehlspur:** RRB-2025-1082 ist **kein Nachtrag**, sondern die Antwort des
+  Regierungsrates auf die parlamentarische Anfrage KR-Nr. 226/2025 (Rensch/Huber/Hasler) zur
+  **Bewilligungspraxis für Klimaanlagen**; die WDV wird darin nur als bestehende Rechtsgrundlage
+  zitiert (§ 8 Abs. 6, PV-Anrechnung bei Kühlbedarf), nicht geändert.

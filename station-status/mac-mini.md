@@ -1,15 +1,15 @@
 # Stations-Status: mac-mini
 
-Stand: 20.07.2026 11:39:31
+Stand: 20.07.2026 11:59:40
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 11:58)
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 11 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 12 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 1 Datei(en): AR - 07 Archiv / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 06 Referenzen / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 05 Transfer / .849C9593-D756-4E56-8D6E-42412F2A707B
@@ -19,4 +19,4 @@ Stand: 20.07.2026 11:39:31
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 5fed7e42 nas-selfcommit: 2 Datei(en) 2026-07-20 11:30
+- bd6d1f5b synobsis: Batch-Lauf 20.07. (nachgeholt), 853/853, Vektorindex neu

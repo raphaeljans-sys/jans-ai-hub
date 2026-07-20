@@ -2,10 +2,10 @@
 quelle: Foerderprogramm Energie Kanton Zuerich 2026 (Baudirektion ZH, AWEL), PDF — https://www.zh.ch/.../ktzh_foerderprogramm_2026.pdf
 herausgeber: Kanton Zuerich, Baudirektion, Amt fuer Abfall Wasser Energie und Luft (AWEL)
 ausgabe: Version 01.01.2026
-gelesen: S. 1-37 VOLLSTAENDIG (alle Foerdersaetze inkl. Minergie-ECO + Solarthermie, 2026-06-26)
-datenstand: 2026-06-26 (Programm Version 01.01.2026; 2026 ggue. 2025 unveraendert, bestaetigt Baudirektion-Mitteilung 24.10.2025)
+gelesen: S. 1-38 VOLLSTAENDIG (alle Foerdersaetze inkl. Minergie-ECO + Solarthermie, 2026-06-26; PDF hat 38 statt der frueher notierten 37 Seiten, korrigiert 2026-07-20)
+datenstand: 2026-07-20 (Programm Version 01.01.2026; alle 20 geprueften Foerdersaetze am amtlichen PDF nachverifiziert Run 81; Befristung praezisiert: Rahmenkredit laut RR-Mitteilung 15.01.2026 bis «Mitte 2026», Anschlusskredit 60 Mio. beantragt, Kantonsratsbeschluss unbelegt)
 status: established
-last_updated: 2026-06-26
+last_updated: 2026-07-20
 ---
 
 # Destillat — Foerderprogramm Energie Kanton Zuerich 2026
@@ -118,6 +118,38 @@ oder Bodenheizung; separates Gesuch noetig.
   bleiben im kommenden Jahr unverändert.» Befristet bis Ende 2026 bzw. bis Budget erschoepft
   (Rahmenkredit 2023–2026 + CO₂-Abgabemittel). 2025 standen **61 Mio. CHF** fuer den Gebaeudebereich
   bereit. Bundesweite Sparmassnahmen haben laut Mitteilung **keine** Auswirkung auf 2026.
+
+## Verifikation + Ausblick (adversariale Nachpruefung 2026-07-20, Run 81)
+**Alle Foerdersaetze am heute live abrufbaren amtlichen PDF nachgeprueft — 20 von 20 Positionen
+unveraendert bestaetigt**, kein einziger Wert weicht ab (Version 01.01.2026, `pdftotext -layout`;
+Quelle im `sources`-Block). Der Zahlenstand dieses Destillats traegt per 20.07.2026.
+
+- ⚠ **Korrektur zur Befristung:** Die bisherige Angabe «befristet bis Ende 2026» ist optimistischer
+  als die Quelle. Der Regierungsrat datiert den Anschlussbedarf in seiner Medienmitteilung vom
+  **15.01.2026** ausdruecklich auf **«Mitte 2026 bis Ende 2029»** — der Rahmenkredit 2023–2026
+  traegt also offenbar **nicht bis Jahresende**. Fuer die Beratung heisst das: die Mittelfrage ist
+  im 2. Halbjahr 2026 offen, nicht erst 2027.
+- **Ausblick 2027 ff.:** Der Regierungsrat beantragt dem Kantonsrat einen **neuen Rahmenkredit von
+  60 Mio. CHF** fuer Mitte 2026–2029; zusammen mit CO₂-Abgabe und Bundes-Impulsprogramm bis
+  **286 Mio. CHF fuer 2026–2029**, unter dem Vorbehalt, dass das **Entlastungspaket 2027** des
+  Bundes nicht kuerzt. Die Fortsetzung ist damit politisch aufgegleist, aber **noch nicht
+  rechtskraeftig beschlossen** — der Kantonsratsbeschluss konnte nicht verifiziert werden
+  (Geschaeftsdatenbank kantonsrat.zh.ch liefert nur per JavaScript, keine serverseitige Trefferliste).
+- **Programmstatus 20.07.2026:** offen, kein Antragsstopp und keine Warteliste auffindbar.
+  **Das ist ein Negativbefund, kein Freibrief:** es gilt «first come, first served» bis
+  Budgeterschoepfung, und der Kanton publiziert eine Erschoepfung erfahrungsgemaess nicht prominent
+  (die Grafik «Foerdermittel pro Foerderprogramm» datiert noch von April 2025). Verbindlicher
+  Statuskanal bleibt **0800 93 93 93 / foerdergesuche@bd.zh.ch**.
+- **KliK-Ausschluss haerter als bisher formuliert:** Das Heft 2026 sagt woertlich, die Kombination
+  mit anderen Programmen (Stiftung KliK, Energie Zukunft Schweiz) sowie einer laufenden
+  CO₂-Verminderungsverpflichtung sei **nicht moeglich**. Fuer ZH ist das ein **hartes
+  Ausschlusskriterium**, nicht ein «meist alternativ» → `[[klimapraemie-heizungsersatz-klik]]`,
+  `[[energiefranken-foerder-suchmaschine-ch]]`.
+- **Zwei Foerderbedingungen aus dem Aenderungsprotokoll 01.01.2026 ergaenzt** (fehlten bisher):
+  Leistungsstaffel fossiler Sekundaerheizung (bis 70 kWth / 70–100 kWth / ab 100 kWth **max. 10 %
+  fossil**) und **Ausschluss von Prozessenergie sowie reiner Warmwasseraufbereitung ohne
+  Raumwaerme**. Bei Healthcare-Objekten (grosse Anlagen, hoher Warmwasseranteil) ist das kein
+  Detail, sondern kann die Foerderfaehigkeit kippen → `[[healthcare-energie]]`-relevant.
 
 ## Faustregel-Beispiele 2026 (Bauherren-Zahlen, komplett)
 - Oelheizung raus → **Luft-Wasser-WP CHF 2'900**, **Erdsonden-/Grundwasser-WP CHF 6'800**,

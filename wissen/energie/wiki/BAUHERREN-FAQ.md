@@ -252,12 +252,31 @@ Details → `[[pv-einmalverguetung-bund-bfe]]`, Marktpreise → `[[pv-marktzahle
 F27, `[[gebaeudeprogramm-bund-hfm-2015]]`. **Im Kanton Schwyz** gelten andere (linear gerechnete)
 Saetze → **F28**, `[[foerderung-energie-sz]]`.
 
-**Quelle:** Foerderprogramm Energie Kt. ZH, Version 01.01.2026, vollst. erfasst (S. 1-37) →
-`[[foerderprogramm-energie-zh-2026]]`; Themenartikel → `[[foerderung-energie-zh]]`. ⚠ **Datenstand
-2026-06-26:** Baudirektion ZH bestaetigt (Mitteilung 24.10.2025): **2026 unveraendert ggue. 2025**,
-befristet bis Ende 2026 bzw. bis Budget erschoepft (Rahmenkredit, 2025 = 61 Mio. CHF). Vor Zusage
-aktuellen Stand `zh.ch` pruefen (Budget kann unterjaehrig erschoepft sein). Energierecht/Heizverbot
-→ Skill `baurecht`.
+**Achtung Zeitfenster (praezisiert 2026-07-20):** Die frueher hier stehende Angabe «befristet bis
+Ende 2026» war optimistischer als die Quelle. Der Regierungsrat datiert den Anschlussbedarf in
+seiner Mitteilung vom **15.01.2026** ausdruecklich auf **«Mitte 2026 bis Ende 2029»** — der laufende
+Rahmenkredit 2023–2026 traegt also **nicht zwingend bis Jahresende**. Beantragt ist ein
+**Anschlusskredit von 60 Mio. CHF** (mit CO₂-Abgabe und Bundes-Impulsprogramm bis 286 Mio. fuer
+2026–2029), unter dem Vorbehalt des Bundes-Entlastungspakets 2027; der **Kantonsratsbeschluss dazu
+ist nicht belegt**. Praktisch heisst das: **Gesuch nicht auf das 2. Halbjahr schieben.** Es gilt
+«first come, first served», und eine Budgeterschoepfung wird nicht prominent publiziert —
+verbindlich Auskunft gibt nur **0800 93 93 93 / foerdergesuche@bd.zh.ch**.
+
+**Keine Kombination mit KliK:** Foerdergelder des Kantons ZH lassen sich **nicht** mit anderen
+Programmen (Stiftung KliK, Energie Zukunft Schweiz) oder einer laufenden
+CO₂-Verminderungsverpflichtung kumulieren — fuer ZH ein hartes Ausschlusskriterium, nicht bloss ein
+«meist alternativ» → F29, `[[klimapraemie-heizungsersatz-klik]]`.
+
+**Zwei Ausschluesse, die grosse Objekte treffen:** fossile Sekundaerheizungen sind nur gestaffelt
+zulaessig (ab 100 kWth **max. 10 % fossil**), und **Prozessenergie sowie reine Warmwasseraufbereitung
+ohne Raumwaerme sind von der Foerderung ausgeschlossen** — bei Healthcare-Objekten mit hohem
+Warmwasseranteil kann das die Foerderfaehigkeit kippen.
+
+**Quelle:** Foerderprogramm Energie Kt. ZH, Version 01.01.2026, vollst. erfasst (S. 1-38) →
+`[[foerderprogramm-energie-zh-2026]]`; Themenartikel → `[[foerderung-energie-zh]]`. **Datenstand
+2026-07-20:** alle **20 geprueften Foerdersaetze am amtlichen PDF nachverifiziert und unveraendert**
+(adversariale Pruefung Run 81, kein einziger Wert weicht ab); Programm per 20.07.2026 offen, kein
+Antragsstopp auffindbar. Energierecht/Heizverbot → Skill `baurecht`.
 
 ---
 
@@ -3698,9 +3717,27 @@ Stand 1.4.2024) + Kantonales Energiegesetz (kEnG) Kt. SZ, SRSZ 420.100, § 8d + 
 Energieverordnung (KEnV) Kt. SZ, SRSZ 420.111, §§ 24f/24g + Anhang 6 — alle vier Primärdokumente per
 curl+pdftotext im Volltext gelesen, 18.07.2026. Destillat
 `[[oelheizung-gasheizung-ersatzpflicht-zh-sz]]`. Status **established** (Kernartikel ZH § 11 EnerG +
-§§ 47a-47n BBV I sowie SZ § 8d kEnG + § 24f/Anhang 6 KEnV wörtlich verifiziert); offen bleibt der
-konkrete ZH-Standardlösungs-Katalog (Verweisnorm auf eine separate Vollzugshilfe der Baudirektion,
-nicht im Gesetzestext selbst enthalten).
+§§ 47a-47n BBV I sowie SZ § 8d kEnG + § 24f/Anhang 6 KEnV wörtlich verifiziert).
+
+**Nachtrag 2026-07-20 — der ZH-Standardlösungs-Katalog ist jetzt beschafft (schliesst den bisher
+hier vermerkten offenen Punkt):** Zürich führt **keinen eigenen** Katalog, sondern übernimmt den
+nationalen. Das amtliche AWEL-Ablaufschema «Wärmeerzeugerersatz gemäss § 11 EnerG» (Version 2.2,
+19.04.2022) weist den Pfad «Standardlösung (SL) MuKEn / Modul F» als Nachweisweg zu **§ 47e Abs. 1
+lit. a BBV I** aus; die Definitionen stehen in der **EnDK-Vollzugshilfe EN-120 «Erneuerbare Wärme
+beim Wärmeerzeugerersatz»** (Ausgabe Januar 2020). Damit gelten in **ZH dieselben 11 Standardlösungen
+SL 1–11 wie in SZ** — unter anderem SL 1 Solarthermie (≥ 2 % EBF), SL 3 Wärmepumpe ganzjährig,
+SL 8 Fensterersatz (U ≤ 0,70 W/m²K), SL 9 Dämmung (U ≤ 0,20 W/m²K, ≥ 0,5 m²/m² EBF), SL 11
+Komfortlüftung (WRG ≥ 70 %). **Auch in Zürich lassen SL 4 (Erdgas-Wärmepumpe), SL 6
+(Wärmekraftkopplung) und SL 10 (bivalenter fossiler Spitzenlastkessel) weiterhin fossile Komponenten
+zu** — der oben beschriebene Unterschied ZH/SZ liegt also **nicht** im Katalog, sondern
+ausschliesslich in der vorgelagerten ZH-Vorrangstufe (vollständig erneuerbar, wenn ≤ 5 % teurer).
+Alternativ zum Katalog: **MINERGIE-Zertifikat oder GEAK-Klasse D**. **Bagatellgrenze:** Mischnutzung
+mit Wohnanteil **≤ 150 m² EBF** ist von der Pflicht befreit. Einreichung seit 1.1.2026 über EVEN
+(`energievollzug.ch`), Formular EN-120 (gültig bis 31.12.2026). Destillat
+`[[en-120-standardloesungen-waermeerzeugerersatz-zh]]`, Status **established** (drei amtliche
+Primärquellen im Volltext). **Rest-Vorbehalt:** § 47e BBV I benennt den Katalog nicht namentlich —
+die Zuordnung stützt sich auf das AWEL-Vollzugsdokument, nicht auf einen Gesetzestext-Verweis; und
+eine MuKEn-2025-Übernahme dürfte SL 4/6/10 streichen (keine ZH-Roadmap dokumentiert).
 
 ## F100 — «Muss ich für mein Pflegeheim/meine Klinik eine periodische Betriebsoptimierung der Haustechnik durchführen?»
 
