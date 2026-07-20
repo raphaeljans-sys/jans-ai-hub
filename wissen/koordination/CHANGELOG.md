@@ -3,6 +3,18 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-20 — SYN-02 Spec startklar: Faktenlage nach Limit-Reset verifiziert (Task `syn02-spec-anstoss`)
+- Das Wochenlimit ist am 20.07.2026 zurueckgesetzt; der One-Time-Task hat die am 15.07.
+  vorbereitete Interview-Grundlage **gegen den heutigen Stand geprueft statt sie zu duplizieren**.
+- Ergebnis: **unveraendert gueltig.** Schulbau-B5-Parameter-Set weiterhin ausstehend,
+  Param-Sets Healthcare/Wohnen seit 14.07. unberuehrt, `volumen_generator.py` liest weiterhin
+  nur CLI-Variantenflags (kein JSON-Set-Import) — die SYN-02-Luecke besteht unveraendert,
+  SYN-01 bleibt offen. Keine der Fragen E1–E9 muss neu gestellt werden.
+- Gueltigkeits-Check als Abschnitt 7 in `wissen/spec/outputs/2026-07-15_syn-02-typologischer-
+  entwurfsprozess-spec-interview/` nachgetragen (kein zweites, fast identisches Dokument).
+- Info-Mail an rj@ gesendet: Interview startklar, Start auf Zuruf «Spec SYN-02 starten».
+  Kein Interview automatisch gefuehrt, kein Bau begonnen.
+
 ## 2026-07-19 — Run 9 (3 Paare am energie-Run-79/80-Stoff; 3 Leser + 13 adversariale Verifier)
 - Gedrosselter Lauf (Rule 260714): Workflow-Fan-out mit 3 Lese-Agenten, danach ein Refuter je Befund.
   **16 Befunde gemeldet, 12 CONFIRMED, 4 REFUTED.** Vier Befunde von hoher Schwere.

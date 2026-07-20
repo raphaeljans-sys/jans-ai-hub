@@ -172,3 +172,21 @@ Interview auf Zuruf starten («Spec SYN-02 starten»). Ablauf dann: E1–E9 durc
 AskUserQuestion), bestaetigte Entscheide in eine finale Spec `..._syn-02_spec.md` giessen,
 Deliverable-Checkliste (TaskCreate) fuer den MVP-Scope, dann erst bauen. Kein Bau vor
 bestaetigter Spec.
+
+---
+
+## 7. Gueltigkeits-Check 20.07.2026 (Limit-Reset-Lauf)
+
+Das Wochenlimit ist am 20.07.2026 zurueckgesetzt worden; der Task `syn02-spec-anstoss` hat
+die Faktenlage von Abschnitt 2 gegen den heutigen Stand geprueft. Ergebnis: **unveraendert
+gueltig, keine Frage muss neu gestellt werden.**
+
+| Geprueft | Stand 15.07. | Stand 20.07. | Folge |
+|---|---|---|---|
+| Schulbau B5 Parameter-Set | ausstehend | weiterhin ausstehend (ETAPPE-3 Stand-Tabelle) | E1 bleibt offen wie formuliert |
+| Param-Sets Healthcare/Wohnen | je v1.0 | unveraendert (letzte Aenderung 14.07., `wohnen-mfh-urban.json`) | MVP-Basis weiterhin gegeben |
+| `volumen_generator.py` | liest nur CLI-Flags | unveraendert — kein `--parameter-set`, kein JSON-Set-Import | SYN-02-Luecke besteht, E4 bleibt der Kern-Entscheid |
+| SYN-01 (fuehrende Kennwerte-DB) | offen | weiterhin offen | E8 bleibt wie vorgeschlagen (MVP liest `wissen/grobkosten` mit) |
+| DNA-Loop | B3/B4 Schulbau established | keine neue Etappen-3-Zelle geschlossen (Drossel Rule 260714) | Prioritaetenbild unveraendert |
+
+Damit ist der Spec-Start ohne Nacharbeit moeglich: E1–E9 gelten unveraendert.
