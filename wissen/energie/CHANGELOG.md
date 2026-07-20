@@ -2,6 +2,61 @@
 
 Neueste zuoberst.
 
+## 2026-07-20 — Run 81: zwei materielle Rechtsfehler in F47 korrigiert, F101 neu, E104 geschlossen
+
+Lauf einen Tag verspätet (NAS am 19.07. weder über LAN noch Tailscale erreichbar, Ping-Negativbefund).
+Kein PDF-Transfer — Inventar seit Run 65 erschöpft, SharePoint-Kontrolle bestätigt **keine neue Datei
+in PL-04 seit 01.07.2026**. Vollständig Block 2. Batch auf Standard statt Vollgas (Rule 260714
+überschreibt 260712b), fünf Agenten, mechanische Stufen auf Sonnet (Rule 260719).
+
+- **F47/MuKEn 2025 (BEANSTANDET, hoch — drei Befunde):** Die **25-%-Unzumutbarkeitsschwelle** war dem
+  **Neubau** zugeordnet; sie gilt ausschliesslich dem Wärmeerzeugerersatz im Bestand (Art. 1.29
+  Abs. 2). Das Destillat widersprach sich selbst — Tabellenzeile richtig, Fliesstext falsch. **Teil G**
+  war als «vermutlich optional» geführt; er liegt innerhalb der Teile B–R des **Basismoduls**, die
+  «materiell unverändert zu übernehmen» sind (S. 14), und setzt Art. 45 Abs. 3 Bst. e EnG um — für
+  jeden Kanton obligatorisch. Nicht erfasst war der **ersatzlose Wegfall der 30-kW-Kappung** bei der
+  PV-Pflicht (Art. 1.26 MuKEn 2014 → kein Deckel in Art. 1.25 MuKEn 2025): bei 10'000 m² EBF steigt
+  die Pflicht von max. 30 kW auf 200 kW, **Faktor 6,7 statt Faktor 2** — im JANS-Segment die
+  praktisch grösste Änderung der Revision. Zudem Delta im Heimkanton überzeichnet (ZH verbietet
+  Neubau-Fossil bereits seit 1.9.2022, § 11 Abs. 1 EnerG) und Befreiungsschwelle falsch verortet
+  (Art. 1.40 Abs. 2 statt 1.39, Und/Oder-Logik verdreht). Alles korrigiert in Destillat, F47,
+  `destillate/INDEX`; Hinweis auf den Kappungs-Wegfall zusätzlich in
+  `destillate/enfk-en-104-eigenstromerzeugung`. **Zahlen-Layer unabhängig BESTÄTIGT** (Anhänge 1–7,
+  Grenzwerte Art. 1.39, Modulliste). Neuer ⚠-Vorbehalt: Volltext liegt nur als PDF-Spiegel auf
+  energiehub-gebaeude.ch vor, endk.ch liefert 404.
+- **F7/Förderprogramm ZH 2026 (teilweise BEANSTANDET):** **20 von 20 CHF-Sätzen am amtlichen PDF
+  unverändert bestätigt**, kein Wert weicht ab. Beanstandet die Befristung: «bis Ende 2026» war
+  optimistischer als die Quelle — der Regierungsrat datiert den Anschlussbedarf am 15.01.2026 auf
+  **«Mitte 2026 bis Ende 2029»**. Neu aufgenommen: Ausblick 2027 ff. (Anschlusskredit 60 Mio.
+  beantragt, bis 286 Mio. für 2026–2029, Vorbehalt Entlastungspaket 2027; Kantonsratsbeschluss
+  unbelegt), **KliK-Ausschluss als hartes Kriterium** statt «meist alternativ», sowie zwei
+  Healthcare-relevante Ausschlüsse (fossile Sekundärheizung ab 100 kWth max. 10 %, Prozessenergie
+  und reine Warmwasseraufbereitung ausgeschlossen). Programmstatus offen, kein Antragsstopp — als
+  Negativbefund dokumentiert, nicht als Freibrief.
+- **F101 NEU — «Brauche ich für eine Klimaanlage eine Baubewilligung?»:** Kt. ZH ja, § 309 Abs. 1
+  lit. d PBG, Gemeinde-Bauamt; **kantonsweit keine bekannte Ablehnung**, Kosten Fr. 100–23'000,
+  einfache Gesuche Stadt ZH ~20 Arbeitstage; Meldeverfahren bisher nur für WP mit Kühlmöglichkeit,
+  Ausweitung erst Vernehmlassungsvorschlag; Sommerbetrieb lärmtechnisch heikler als WP; PV-Deckung
+  des Kühlstroms § 8 Abs. 6 WDV (Neubau) bzw. EN-110-ZH (Bestand) →
+  `destillate/rrb-2025-1082-klimaanlagen-bewilligungspraxis-zh` (emerging für die Praxisauskunft,
+  established für die zwei am Erlass-PDF verifizierten Wortlaute).
+- **F99 ergänzt — ZH-Standardlösungs-Katalog beschafft (offener Punkt geschlossen):** ZH führt
+  **keinen eigenen** Katalog, sondern übernimmt die 11 nationalen SL 1–11 (EnDK-Vollzugshilfe EN-120,
+  Jan. 2020) via § 47e Abs. 1 lit. a BBV I (AWEL-Ablaufschema V2.2). Korrigiert eine Nuance: **auch
+  in ZH lassen SL 4/6/10 fossile Komponenten zu** — der ZH/SZ-Unterschied liegt allein in der
+  vorgelagerten ZH-Vorrangregel, nicht im Katalog. →
+  `destillate/en-120-standardloesungen-waermeerzeugerersatz-zh` (established).
+- **E104 GESCHLOSSEN — die Restlücke war eine Fehlspur:** Kein WDV-Nachtrag nach Nr. 118; massgebend
+  bleibt die Ausgabe 8.6.2022. Drei Belege, darunter **RRB-2025-1082 selbst**, der am 29.10.2025
+  «§ 8 Abs. 6 der Wärmedämmvorschriften vom 8. Juni 2022» als geltendes Recht zitiert. Der
+  verdächtigte Beschluss ist kein Nachtrag, sondern die Antwort des Regierungsrates auf die Anfrage
+  KR-Nr. 226/2025 zur Klimaanlagen-Bewilligungspraxis — und lieferte damit den Stoff für F101.
+- **Lehre (M9, neu):** Alle drei MuKEn-Fehler standen in einem Destillat, das bereits eine
+  Volltext-Verifikation hinter sich hatte. Primärquellenlektüre schützt vor falschen **Zahlen**, nicht
+  vor falscher **Zuordnung** (Geltungsbereich, Modulstatus, weggefallene Deckelungen). Für diese
+  Fehlerklasse braucht es eine zweite, gegnerisch gestimmte Lektüre.
+- FAQ-Stand: **101 Kernfragen F1–F101**. Report: `outputs/2026-07-20_energie-run81.md`.
+
 ## 2026-07-19 — Wissens-Chef Run 9 (Cross-KB): zwei falsche Rechtszuschreibungen korrigiert, Bring-Schuld geschlossen
 - **F100/Modul-7-Destillat (CONFIRMED, hoch):** Die behauptete **5-Jahres-Kadenz der
   Betriebsoptimierung als geltendes ZH-Recht** ist am amtlichen Volltext widerlegt. § 13d Abs. 1

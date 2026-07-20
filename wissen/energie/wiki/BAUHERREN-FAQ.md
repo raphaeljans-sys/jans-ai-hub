@@ -1813,13 +1813,27 @@ verabschiedet — das ist noch **kein geltendes Recht**, sondern eine Empfehlung
 erst in sein eigenes Gesetz überführen muss (Umsetzungshorizont laut Fachpresse 2025–2030). Für
 ein heute eingereichtes Baugesuch gilt weiter das aktuelle kantonale Recht.
 
-**Fachlich:** Die wichtigsten Änderungen gegenüber der heutigen Basis (MuKEn 2014, im Kt. ZH als
-EnerG seit 1.9.2022 umgesetzt): Neubauten müssen künftig **vollständig** mit erneuerbarer Energie
-versorgt werden (Verbot statt Mindestquote fossiler Heizungen, Ausnahme nur über eine neue
-25-%-Unzumutbarkeitsschwelle); die PV-Pflicht wird konkretisiert auf **mind. 20 W/m² EBF bei
-Neubauten** bzw. 10 W/m² bei Dachsanierungen; und erstmals gibt es ein **eigenes Modul zur grauen
-Energie** (Teil G), das die Treibhausgasemissionen aus Erstellung und Rückbau begrenzt — nach
-heutigem Recht ist das nur bei freiwilligem Minergie-ECO-Label bindend.
+**Fachlich (korrigiert 2026-07-20, Run 81):** Die wichtigsten Änderungen gegenüber der heutigen
+Basis (MuKEn 2014, im Kt. ZH als EnerG seit 1.9.2022 umgesetzt):
+
+Der Wärmebedarf von Neubauten ist **vollständig mit erneuerbarer Energie oder Abwärme** zu decken
+(Art. 1.28 Abs. 1) — mit zwei praktisch relevanten Rändern: fossile **Spitzenlast bleibt ab 100 kW
+Wärmeleistung bis 10 %** des Jahresbedarfs zulässig (Art. 1.31), und ein **Fernwärmeanschluss genügt
+bereits ab 70 % CO₂-freier Erzeugung** (Art. 1.32). Im **Kanton Zürich ändert sich beim Neubau
+faktisch nichts**, weil § 11 Abs. 1 EnerG dort schon heute fossilfrei verlangt. **Die
+25-%-Unzumutbarkeitsschwelle betrifft ausschliesslich den Heizungsersatz im Bestand, nicht den
+Neubau** (Art. 1.29 Abs. 2) — die frühere Fassung dieser Antwort ordnete sie falsch dem Neubau zu
+und suggerierte damit einen Ausweg über Unwirtschaftlichkeit, den es im Neubau nicht gibt.
+
+Die **PV-Pflicht** steigt auf mind. **20 W/m² EBF bei Neubauten** und **10 W/m² EBF nach
+Dachsanierungen ab 50 m² betroffener Fläche**. Entscheidend ist dabei etwas, das die blosse
+Verdoppelung des Kennwerts verdeckt: **die bisherige Kappung bei 30 kW entfällt ersatzlos.** Bei
+einem grossen Bau mit 10'000 m² EBF verlangte MuKEn 2014 höchstens 30 kW, MuKEn 2025 verlangt
+200 kW — Faktor 6,7 statt Faktor 2.
+
+Und erstmals gibt es ein eigenes Kapitel zur **grauen Energie** (Teil G, Art. 1.38–1.41), das die
+Treibhausgasemissionen aus Erstellung und Rückbau begrenzt — nach heutigem Recht ist das nur bei
+freiwilligem Minergie-ECO-Label bindend.
 
 **Ergänzung — konkrete Grenzwerte des Graue-Energie-Moduls G jetzt gefunden (13.07.2026):** Art. 1.39
 MuKEn 2025 setzt einen objektspezifischen Grenzwert der Erstellungs-Treibhausgasemissionen zwischen
@@ -1842,17 +1856,31 @@ am Original bestätigt, nicht mehr nur an Sekundärquellen. Vollständige Modull
 (Teile A-T, Pflicht) plus 14 optionale Zusatzmodule (u.a. Elektromobilität, Gebäudehülleneffizienz,
 GEAK-Anordnung, verbrauchsabhängige Heizkostenabrechnung Bestand).
 
-**Ergänzung — Umsetzungsfahrplan + Modulstruktur (15.07.2026):** offizieller Terminplan der EnDK
-zielt auf eine Umsetzung in **allen Kantonen bis 2030**. Nur das **Basismodul** (bundesrechtliche
-Minimalvorgaben) ist für jeden Kanton **Pflicht** — die **Module 2–14** (u.a. das neue
-Graue-Energie-Modul) sind **optional**: ein Kanton kann sie übernehmen oder weglassen, muss sie bei
-Übernahme aber unverändert lassen. Ob und wann ZH/SZ das Graue-Energie-Modul übernehmen, ist Stand
-15.07.2026 nirgends öffentlich dokumentiert.
+**Umsetzungsfahrplan + Modulstruktur (korrigiert 2026-07-20, Run 81):** Der EnDK-Terminplan zielt
+auf eine Umsetzung in **allen Kantonen bis 2030**. Das **Basismodul (Teile A–T) ist für jeden Kanton
+Pflicht**, wobei die **Teile B–R materiell unverändert zu übernehmen** sind — **das
+Graue-Energie-Kapitel Teil G gehört dazu und ist damit für alle Kantone verbindlich, nicht
+wählbar** (MuKEn 2025, S. 14; setzt Art. 45 Abs. 3 Bst. e EnG um, in Kraft seit 1.1.2025). Optional
+sind ausschliesslich die **Zusatzmodule 2–14** (u.a. Elektromobilität, Gebäudehülleneffizienz);
+übernimmt ein Kanton eines davon, muss er es unverändert übernehmen. **Die frühere Fassung dieser
+Antwort zählte das Graue-Energie-Modul fälschlich zu den optionalen Modulen** — offen ist nur der
+Zeitpunkt der Umsetzung, nicht das Ob.
 
-**Quelle:** Medienmitteilung EnDK (29.08.2025) + Folgeberichte VSE/aeesuisse/energie-cluster.ch,
-drei unabhängige Quellen inhaltlich deckungsgleich → `[[muken-2025-verabschiedet]]`, established.
-Modul-G-Grenzwerte (Art. 1.39) → `[[muken-2025-modul-g-co2-grenzwerte]]`. Ergänzt `[[energienachweis-zh]]`
-und `[[graue-energie]]` (Ausblick).
+Wie realistisch der 2030-Horizont ist, bleibt allerdings offen: der Kanton **St. Gallen will erst
+2027 mit der Gesetzgebungsarbeit beginnen**, was eine Umsetzung frühestens 2031 bedeutet. Per
+20.07.2026 hat **kein Kanton** die MuKEn 2025 umgesetzt (ZH RRB 65/2026 betrifft nur die
+Energieförderungsverordnung).
+
+**Quelle + Datenstand:** MuKEn-2025-Volltext (117 S., EnDK, verabschiedet 29.08.2025), per
+curl+pdftotext im Volltext gelesen und am **20.07.2026 adversarial nachgeprüft** (Run 81) →
+`[[muken-2025-verabschiedet]]`. Der **Zahlen-Layer ist dabei unabhängig bestätigt worden**
+(Anhänge 1–7, Grenzwerte Art. 1.39, Modulliste); beanstandet und hier korrigiert wurden zwei
+materielle Zuordnungsfehler (25-%-Schwelle, Modulstatus Teil G) und eine Auslassung (Wegfall der
+30-kW-PV-Kappung). Status **established**. Modul-G-Grenzwerte (Art. 1.39) →
+`[[muken-2025-modul-g-co2-grenzwerte]]`. Ergänzt `[[energienachweis-zh]]` und `[[graue-energie]]`
+(Ausblick). ⚠ **Vorbehalt Quellenprovenienz:** Der Volltext liegt nur als PDF-Spiegel auf
+energiehub-gebaeude.ch vor (endk.ch liefert 404); für eine verbindliche Zitierung im
+Bewilligungsverfahren ist die amtliche EnDK-Fassung zu beschaffen.
 
 ---
 
@@ -3811,3 +3839,45 @@ Plätze), stand im Widerspruch zur eigenen Quelle (das Destillat rechnet 34–75
 sich auf einen österreichischen Passivhaus-Einzelfall; ein Schweizer m²EBF/Pflegeplatz-Benchmark
 existiert weder in der KB noch öffentlich (Negativbefund, auch `skills/healthcare-wirtschaftlichkeit`
 und `skills/kostenschaetzung` durchsucht).
+
+---
+
+## F101 — «Brauche ich für eine Klimaanlage eine Baubewilligung?»
+
+**Kurz:** Ja — eine fest installierte Klimaanlage, insbesondere die Ausseneinheit eines Split-Geräts,
+braucht im Kanton Zürich ein Baugesuch bei der Gemeinde. Ein vereinfachtes Meldeverfahren wie bei
+Wärmepumpen gibt es dafür heute noch nicht. Mobile Schlauch-/Zweischlauchgeräte sind
+bewilligungsfrei, dafür lauter und ineffizienter. Entwarnung bei der Erfolgsaussicht: Ablehnungen
+sind die grosse Ausnahme.
+
+**Fachlich:** Klimaanlagen fallen unter **§ 309 Abs. 1 lit. d PBG** («Anlagen, Ausstattungen und
+Ausrüstungen») und sind damit grundsätzlich bewilligungspflichtig; zuständig ist das örtliche
+Bauamt, der Kanton nur bei kantonaler Zuständigkeit (z.B. Denkmalpflege). Ablehnungen sind laut
+Auskunft des Regierungsrates die Ausnahme — **kantonsweit ist keine einzige bekannt**; auch bei
+Denkmalschutz- und Ortsbildobjekten wurden seit 2021 alle geprüften Gesuche bewilligt, teils mit
+Nebenbestimmungen zur Einordnung. Als Grössenordnung nennt der Regierungsrat Bewilligungskosten
+zwischen Fr. 100 und Fr. 23'000 je nach Grösse und Komplexität; einfache Gesuche sind in der Stadt
+Zürich in rund 20 Arbeitstagen bearbeitet. Ein einfacheres **Meldeverfahren besteht bisher nur für
+Wärmepumpen mit Kühlmöglichkeit**; die Ausweitung auf Klimaanlagen ist erst ein Vorschlag der
+Baudirektion in der noch nicht abgeschlossenen PBG-Revision «erleichtertes Bauen im Bestand» — für
+die Terminplanung heute gilt weiterhin das ordentliche Baubewilligungsverfahren.
+
+**Der Praxispunkt, der in dichten Lagen entscheidet, ist der Lärm:** Klimaanlagen laufen im Sommer,
+also bei offenen Nachbarfenstern, und sind deshalb lärmtechnisch heikler als winterlich betriebene
+Wärmepumpen; bei mehreren Anlagen ist eine Gesamtlärmbeurteilung nötig. Den Lärmschutznachweis
+früh einplanen → `[[waermepumpen-laermschutz]]`,
+`[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]`.
+
+**Energetisch gegensteuern:** Wer den Kühlstrom mit einer eigenen PV-Anlage deckt, kann den
+Kühlbedarf im Energienachweis vergünstigt anrechnen — im **Neubau** nach § 8 Abs. 6 WDV bis
+5 kWh/m² bei den Gebäudekategorien I/II/IV, wenn eine zusätzliche PV-Anlage die Kälteleistung
+deckt; im **Bestand** über das EN-110-ZH-Kriterium (≤ 12 W/m² oder PV-Deckung) →
+`[[en-lueftung-kuehlung-zh]]`, `[[energienachweis-zh]]`.
+
+**Quelle + Datenstand:** RRB-2025-1082 vom 29.10.2025 (Antwort des Regierungsrates auf die Anfrage
+KR-Nr. 226/2025 — eine **Praxisauskunft, kein Erlass**) + § 309 Abs. 1 lit. d PBG und § 8 Abs. 6 WDV,
+beide am amtlichen Erlass-PDF im Wortlaut verifiziert → `[[rrb-2025-1082-klimaanlagen-bewilligungspraxis-zh]]`.
+Datenstand 2026-07-20. Status **emerging** für die Verfahrensdarstellung (Praxisauskunft, teils nur
+sekundär belegt), **established** für die beiden geprüften Erlasswortlaute. ⚠ Die Fallzahlen, Fristen
+und Kostenangaben sind laut Regierungsrat kantonsweit **selbst lückenhaft erhoben** — als
+Grössenordnung verwendbar, nicht als belastbare Zahl in einem Devis.

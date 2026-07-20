@@ -4,17 +4,18 @@ herausgeber: Konferenz Kantonaler Energiedirektoren (EnDK)
 ausgabe: MuKEn 2025, verabschiedet 29.08.2025 (löst MuKEn 2014 als Empfehlung ab)
 gelesen: 2026-07-12 (Web via WebSearch/WebFetch, Sekundärquellen); 2026-07-16 (Originaltext 117 S. per curl+pdftotext vollständig gelesen); 2026-07-16 Run 75 (Anhänge 6+7 im Volltext ausgewertet, Vergleich gegen MuKEn-2014-Volltext Art. 1.31); 2026-07-17 (Anhänge 4+5 ausgewertet + Kt.-SZ-Übernahmestand geprüft, kEnG/KEnV SZ im Volltext gelesen)
 datenstand: 2025-08-29 — ⚠ Empfehlung an die Kantone, noch NICHT automatisch geltendes Recht; Umsetzung erfolgt erst mit kantonaler Gesetzesänderung
-status: established (jetzt primärquellen-verifiziert am Originaltext, nicht mehr nur an Sekundärquellen)
-last_updated: 2026-07-17
+status: established (primärquellen-verifiziert am Originaltext; adversarial nachgeprüft 2026-07-20 Run 81 — Zahlen-Layer unabhängig bestätigt, zwei materielle Rechtsfehler + eine Auslassung korrigiert; Vorbehalt Quellenprovenienz siehe Schlussabschnitt)
+last_updated: 2026-07-20
 ---
 
 # MuKEn 2025 — die neuen Mustervorschriften der Kantone im Energiebereich
 
-**Das Wichtigste in 1 Satz:** Die EnDK hat am 29. August 2025 die MuKEn 2025 verabschiedet — die
-wichtigste Neuerung ist, dass Neubauten künftig **vollständig mit erneuerbarer Energie** versorgt
-werden müssen (kein Mindestanteil mehr wie bisher, sondern ein **Verbot fossiler Wärmeerzeugung**),
-dazu kommen schärfere PV-Pflichten und **erstmals ein eigenes Modul zur grauen Energie** — für den
-Kanton Zürich (aktuell EnerG auf Basis MuKEn 2014) ist das die nächste absehbare Revisionsstufe.
+**Das Wichtigste in 1 Satz:** Die EnDK hat am 29. August 2025 die MuKEn 2025 verabschiedet —
+Neubauten sind künftig **vollständig mit erneuerbarer Energie** zu versorgen (Art. 1.28 Abs. 1, mit
+Rändern für fossile Spitzenlast >100 kW und Fernwärme ab 70 % CO₂-frei), die PV-Pflicht steigt auf
+20 W/m² EBF **und verliert ihre bisherige 30-kW-Kappung**, und **graue Energie wird über den neuen
+Teil G erstmals obligatorischer Bestandteil des Basismoduls** — für den Kanton Zürich (aktuell
+EnerG auf Basis MuKEn 2014) ist das die nächste absehbare Revisionsstufe.
 
 ## Status — wichtig für die Beratung
 - **Verabschiedet, aber noch kein Gesetz.** Die MuKEn sind eine **Musterempfehlung** der EnDK an
@@ -31,21 +32,34 @@ Kanton Zürich (aktuell EnerG auf Basis MuKEn 2014) ist das die nächste absehba
 | Wärmeerzeugung Neubau | Mindestanteil erneuerbare Energie (Basismodul D) | **Vollständig-erneuerbar-Gebot** (Art. 1.28 Abs. 1) — mit Rändern: fossile Spitzenlast >100 kW bis 10 % zulässig (Art. 1.31), Fernwärme genügt ab 70 % CO₂-frei (Art. 1.32) |
 | Heizungsersatz (Bestand) | Erneuerbar-Pflicht mit Ausnahmen bei Unwirtschaftlichkeit | Neu **25-%-Schwelle** für wirtschaftliche Unzumutbarkeit als Ausnahmekriterium |
 | Eigenstromerzeugung (PV) | Pflicht ab Neubaugrösse, **gekappt bei «nie 30 kW oder mehr»** (Art. 1.26 MuKEn 2014); ZH: EN-104-ZH ≥10 W/m² EBF | **mind. 20 W/m² EBF bei Neubauten**, **10 W/m² nach Dachsanierungen ab 50 m² betroffener Fläche** — und **die 30-kW-Kappung entfällt ersatzlos** (Art. 1.25, kein Deckel im Volltext). Geltungsbereich neu «Neu- **und Bestandesbauten**» |
-| Graue Energie | Kein eigenes Modul — nur über freiwillige Labels (Minergie-ECO/-A) erfasst | **Neues Modul (Teil G)**: begrenzt Treibhausgasemissionen aus Erstellung **und Rückbau**, methodisch an **Minergie** angelehnt |
+| Graue Energie | Kein eigenes Modul — nur über freiwillige Labels (Minergie-ECO/-A) erfasst | **Neuer Teil G (Art. 1.38–1.41), Bestandteil des BASISMODULS und damit für jeden Kanton obligatorisch**: begrenzt Treibhausgasemissionen aus Erstellung **und Rückbau**, methodisch an **Minergie** angelehnt |
 | Energiebedarfsberechnung | Vollständige SIA-380/1-Berechnung inkl. Wärmeerzeugertyp | **Vereinfacht**, weil fossile Heizungen im Neubau grundsätzlich wegfallen |
 
 ## Einordnung für JANS-Projekte
-- **Graue Energie wird zum Pflichtthema, nicht nur zum Label-Extra.** Bisher war die THGE-Limite
-  (z.B. 11 kg CO₂-eq/m²·a Wohnen) nur bei freiwilligem Minergie-ECO-Zertifikat bindend
-  (→ [[graue-energie]]). MuKEn 2025 Teil G bringt diese Logik **grundsätzlich ins kantonale
-  Baurecht** — sobald ein Kanton MuKEn 2025 übernimmt, wird die Grauenergie-Limite zur
-  gesetzlichen Auflage, nicht mehr nur zur Zertifizierungsvoraussetzung.
-- **PV-Pflicht verschärft sich weiter** (20 W/m² EBF Neubau statt bisher 10 W/m² im Kt. ZH) —
-  bei künftigen Studien/Machbarkeitsabklärungen als Trend einplanen, auch wenn heute noch die
-  tieferen ZH-Werte gelten (→ [[energienachweis-zh]] EN-104-ZH).
-- **Fossilverbot statt Mindestquote** ist eine qualitative Verschärfung: Wo heute noch (mit
-  Auflagen) eine Gasheizung im Neubau denkbar ist, wird das nach MuKEn-2025-Umsetzung
-  grundsätzlich ausgeschlossen — Ausnahme nur über die neue 25-%-Unzumutbarkeitsschwelle.
+- **Graue Energie wird zum Pflichtthema, nicht nur zum Label-Extra — und zwar ohne kantonalen
+  Ermessensspielraum.** Bisher war die THGE-Limite (z.B. 11 kg CO₂-eq/m²·a Wohnen) nur bei
+  freiwilligem Minergie-ECO-Zertifikat bindend (→ [[graue-energie]]). Teil G liegt **innerhalb der
+  Teile B–R des Basismoduls**, die «von den Kantonen materiell **unverändert zu übernehmen**» sind
+  (MuKEn 2025, S. 14); er setzt den bundesrechtlichen Auftrag aus **Art. 45 Abs. 3 Bst. e EnG**
+  (in Kraft seit 1.1.2025) um. Offen ist damit nur der **Zeitpunkt** der kantonalen Umsetzung,
+  nicht das Ob.
+- **PV-Pflicht: die Kappung ist die eigentliche Nachricht, nicht der Kennwert.** MuKEn 2014
+  begrenzte die Eigenstrompflicht auf «nie 30 kW oder mehr» (Art. 1.26). MuKEn 2025 kennt **keine
+  Obergrenze mehr**. Bei grossen Bauten wirkt das weit stärker als die Verdoppelung des Kennwerts:
+  Bei **10'000 m² EBF steigt die Pflicht von max. 30 kW auf 200 kW — Faktor 6,7 statt Faktor 2.**
+  Genau der Bereich der JANS-Healthcare-Projekte (→ [[energienachweis-zh]] EN-104-ZH). Die
+  Dachsanierungs-Pflicht greift erst ab **50 m²** betroffener Eindeckung/Abdichtung, Terrassen
+  ausgenommen, bestehende Anlagen werden angerechnet.
+- **Vollständig-erneuerbar-Gebot im Neubau — aber mit Rändern, und im Kt. ZH ohne Neuigkeitswert.**
+  Art. 1.28 Abs. 1 verlangt Deckung «vollständig mit erneuerbarer Energie oder nicht anderweitig
+  nutzbarer Abwärme». Das ist **kein absolutes Fossilverbot**: Art. 1.31 lässt fossile Brennstoffe
+  ab einer notwendigen Wärmeleistung **>100 kW für Spitzenlast bis 10 % des Jahreswärmebedarfs**
+  ausdrücklich zu, Art. 1.32 anerkennt Fernwärme bereits **ab 70 % CO₂-freier Erzeugung**, und
+  Art. 1.28 Abs. 2 delegiert weitere Ausnahmen an die Verordnung. **Die 25-%-Unzumutbarkeitsschwelle
+  gilt NICHT für Neubauten**, sondern ausschliesslich für den Wärmeerzeugerersatz im Bestand
+  (Art. 1.29 Abs. 2). Für den **Kanton ZH ist das Neubau-Gebot ohnehin keine Verschärfung**:
+  § 11 Abs. 1 EnerG verlangt seit 1.9.2022 bereits eine Deckung ohne fossile Brennstoffe
+  (→ [[energienachweis-zh]]).
 
 ## Bauherren-Transfer
 Für ein Bauvorhaben, das **heute** eingereicht wird, gilt weiterhin das **aktuelle** kantonale
@@ -57,8 +71,14 @@ formal erst mit der kantonalen Umsetzung (bis 2030) bindend werden.
 
 ## Graue-Energie-Modul Teil G — präzisiert (2026-07-12, ecobau.ch/Sekundärquelle)
 Art. 1.39 MuKEn 2025 verlangt für **Neubauten und wesentliche Erneuerungen** (Auskernungen u.ä.)
-mit EBF ≥ 50 m² oder > 20 % der bestehenden EBF (max. 1000 m²) einen **objektspezifischen
-Grenzwert der Grauen Energie** nach Formel:
+einen **objektspezifischen Grenzwert der Grauen Energie** nach Formel:
+
+> **Korrektur 2026-07-20 (Run 81) zur Schwelle:** Die Schwelle steht in **Art. 1.40 Abs. 2**, nicht
+> in Art. 1.39, und ist als **Befreiungs-**, nicht als Anwendungsschwelle formuliert. Wortlaut:
+> «Von den Anforderungen befreit sind Neubauten und Erweiterungen …, wenn die neu geschaffene
+> Energiebezugsfläche weniger als 50 m² **oder** maximal 20 % der Energiebezugsfläche des
+> bestehenden Gebäudeteiles **und** nicht mehr als 1000 m² beträgt.» Die frühere Formulierung hier
+> hatte die Und/Oder-Logik verdreht.
 
 `GWObjekt = (GWEBF × EBF) + (GWGF-EBF × (GF-EBF)) + ZErdsonde + ZPV + ZThermie`
 
@@ -129,11 +149,14 @@ Referenz für einen künftigen Modul-Vorher/Nachher-Vergleich vermerkt.
   Umsetzung der MuKEn 2025 in allen Kantonen bis 2030**. Modul-Systematik bestätigt: **Basismodul
   ist für alle Kantone Pflicht** (setzt die bundesrechtlichen Minimalvorgaben nach Art. 45 Abs. 2/3
   EnG um), die **Module 2–14 sind für jeden Kanton optional** — werden sie übernommen, müssen sie
-  aber unverändert bleiben (keine kantonale "Rosinenpickerei" innerhalb eines Moduls). Damit bleibt
-  offen, WELCHE der optionalen Module (insb. das neue Graue-Energie-Modul, vermutlich Teil eines
-  optionalen Moduls, nicht des Basismoduls) ZH/SZ übernehmen werden — kantonsspezifische
-  Übernahmeentscheide sind Stand 15.07.2026 nirgends dokumentiert auffindbar, auch nicht auf der
-  offiziellen Übersichtsseite.
+  aber unverändert bleiben (keine kantonale "Rosinenpickerei" innerhalb eines Moduls).
+  **KORREKTUR 2026-07-20 (Run 81): Teil G ist NICHT optional.** Das Graue-Energie-Modul ist
+  Bestandteil des **Basismoduls** und liegt innerhalb der Teile B–R, die «von den Kantonen
+  materiell unverändert zu übernehmen» sind (S. 14). Optional sind ausschliesslich die **Module
+  2–14**; Teil G gehört nicht dazu. Die frühere Vermutung an dieser Stelle stand im Widerspruch
+  zum eigenen Fliesstext und ist ersatzlos gestrichen. Offen bleibt nur, welche der **optionalen**
+  Module ZH/SZ übernehmen — kantonsspezifische Übernahmeentscheide sind Stand 20.07.2026 nirgends
+  dokumentiert auffindbar.
 - ~~Genaue Ausgestaltung der **25-%-Unzumutbarkeitsschwelle** (Berechnungsbasis) nicht im Detail
   recherchiert.~~ **Erledigt 2026-07-16 (Run 75):** Berechnungsbasis ist Anhang 7 (Jahreskosten =
   Energie- + Betriebskosten + Annuität der Investition; Diskontsatz = hypothekarischer
@@ -430,3 +453,33 @@ Rechtsinstrument) · [[muken-2025-anhang-1-3-uwert-heizwaermebedarf]] ·
 [[muken-2025-anhang-4-5-daemmstaerken-leitungen]] · [[muken-2025-modul-7-betriebsoptimierung-hlkkse]]
 (Modul 7 vertieft, inkl. Korrektur der Tabellenzeile oben) · Themenartikel [[energienachweis-zh]]
 (neuer Ausblick-Abschnitt).
+
+## Adversariale Nachprüfung 2026-07-20 (Run 81) — vier Befunde
+
+Unabhängiger Widerlegungs-Agent, erneuter Volltext-Download (117 S., curl+pdftotext), Abgleich
+Artikel für Artikel. Die **Zahlenwerte halten durchgehend** (Anhänge 1–7, Grenzwerte Art. 1.39,
+Modulliste) — der Zahlen-Layer ist unabhängig bestätigt. Beanstandet wurden dagegen:
+
+| Befund | Art | Status |
+|---|---|---|
+| **25-%-Schwelle dem Neubau zugeordnet** — sie gilt ausschliesslich dem Wärmeerzeugerersatz im Bestand (Art. 1.29 Abs. 2). Das Destillat widersprach sich selbst: die Tabellenzeile ordnete sie korrekt dem Bestand zu, der Fliesstext dem Neubau. | materieller Rechtsfehler | **korrigiert** |
+| **Teil G als «vermutlich optional» bezeichnet** — Teil G ist Basismodul, für jeden Kanton obligatorisch (S. 14, Art. 45 Abs. 3 Bst. e EnG). Der Fehler entwertete ausgerechnet die als strategisch wichtigste verkaufte Aussage. | materieller Rechtsfehler | **korrigiert** |
+| **Wegfall der 30-kW-PV-Kappung nicht erfasst** — im JANS-Segment die praktisch grösste Änderung der ganzen Revision (Faktor 6,7 statt 2 bei 10'000 m² EBF). | materielle Auslassung | **ergänzt** |
+| **Delta im Heimkanton überzeichnet** — «wo heute noch eine Gasheizung im Neubau denkbar ist» trifft für ZH nicht zu (§ 11 Abs. 1 EnerG seit 1.9.2022). | Überzeichnung | **korrigiert** |
+| Befreiungsschwelle Art. 1.40 Abs. 2 statt Art. 1.39, Und/Oder-Logik verdreht | Fundstellenfehler | **korrigiert** |
+| Rechtsstatus «noch nicht in Kraft, Umsetzung bis 2030» | **bestanden** — kein Kanton hat per 20.07.2026 umgesetzt; ZH RRB 65/2026 betrifft nur die Energieförderungsverordnung. Nuance neu: **St. Gallen will erst 2027 mit der Gesetzgebungsarbeit beginnen** (Umsetzung frühestens 2031) — der 2030-Horizont ist eher optimistisch als konservativ. | bestätigt |
+
+**Lehre für die KB:** Alle vier Fehler standen in einem Destillat, das bereits eine
+Volltext-Verifikation hinter sich hatte. Primärquellenlektüre schützt vor falschen **Zahlen**, aber
+nicht vor falscher **Zuordnung** — Geltungsbereich, Modulstatus und weggefallene Deckelungen sind
+die Fehlerklasse, die eine zweite, gegnerisch gestimmte Lektüre braucht.
+
+## Offener Vorbehalt zur Quellenprovenienz (neu 2026-07-20)
+Der MuKEn-2025-Volltext liegt der KB nur als PDF-Spiegel auf **energiehub-gebaeude.ch** vor (Seite
+präsentiert sich als offizielle EnDK-Seite, Impressum nennt die EnDK); **endk.ch liefert auf den
+geprüften Pfaden 404**. Ein zweiter, unabhängiger Download derselben Datei bei einer Behördendomain
+konnte nicht gegengeprüft werden. Der Vermerk «Entwurf Ausgabe 2025» im Dateititel ist ein
+abgestandenes Word-Metadatum (Datei erstellt 23.08.2025, also **vor** der Plenarversammlung vom
+29.08.2025) und **kein** Entwurfsstatus — der Dokumentkopf S. 1 nennt die Verabschiedung
+ausdrücklich. Für eine verbindliche Zitierung in einem Bewilligungsverfahren ist die amtliche
+EnDK-Fassung zu beschaffen.

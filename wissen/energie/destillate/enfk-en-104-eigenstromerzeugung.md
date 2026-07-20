@@ -18,6 +18,12 @@ Leistung berechnet sich aus der Energiebezugsflaeche mit **10 W/m² EBF**, gedec
 - **Notwendige Leistung = EBF (neu) × 10 W/m²**, **Maximum 30 kW**.
 - Der Deckel bei 30 kW sorgt dafuer, dass auch kompakte/hohe Bauten mit kleinem Verhaeltnis
   Dachflaeche zu EBF die Vorgabe erfuellen koennen.
+- ⚠ **Dieser Deckel faellt mit MuKEn 2025 ersatzlos weg** (ergaenzt 2026-07-20, Run 81): Art. 1.25
+  MuKEn 2025 kennt keine Obergrenze mehr, und der Kennwert steigt auf 20 W/m² EBF. Fuer grosse
+  Bauten ist das die eigentliche Verschaerfung — bei **10'000 m² EBF steigt die Pflicht von heute
+  max. 30 kW auf 200 kW (Faktor 6,7)**. Solange ZH die MuKEn 2025 nicht umgesetzt hat (Stand
+  20.07.2026: kein Kanton), gilt hier weiterhin 10 W/m² mit 30-kW-Deckel
+  → [[muken-2025-verabschiedet]], FAQ F47.
 - **Ersatzabgabe** anstelle einer eigenen Anlage ist nach kantonalen Vorgaben moeglich.
 - Erweiterungen (Anbau, Aufstockung) koennen von der Anforderung befreit sein.
 
