@@ -1,5 +1,24 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-20 — Beobachtung 6 (Dauerschicht-Zyklus 15): 2507 Halden ENTSCHIEDEN, Jurybericht publiziert
+- **Hauptbefund:** Der Projektwettbewerb 2507 TKHL Halden (St.Gallen) ist seit
+  **02.04.2026 entschieden** — Siegerprojekt **«ZVIERI», Richter Tobler GmbH, Basel**,
+  einstimmig, **51 Beiträge** (Medienmitteilung stadt.sg.ch 02.04.2026, 09:30). Der
+  **Jurybericht Stand 14.04.2026 ist als PDF auf stadt.sg.ch publiziert** (Wettbewerbe
+  Hochbauamt, >10 MB). Die Destillation (raw-Extrakt, Dossier-Ergebnisteil, Rang LIMO,
+  Delta-Muster-Erweiterung, Refuter) ist die naechste faellige Lektion; PDF-Download
+  braucht Freigabe Raphael (Regel: keine Datei-Downloads ohne Freigabe).
+- **Methoden-Korrektur:** Die Beobachtungslaeufe 1–5 pruefen competitions.espazium.ch —
+  dort war der Entscheid vom 02.04. bis mindestens 13.07. NICHT sichtbar (Eintrag stand
+  weiter unter «Wettbewerbsausschreibungen»). Sekundaerquellen laufen nach; kuenftig
+  immer auch die Ausloberin-Website pruefen. In QUESTIONS.md als Methoden-Lehre
+  festgehalten.
+- **2501 Steinfabrik:** unveraendert (konkurado «Abgeschlossen», kein Jurybericht
+  downloadbar, kein Sieger genannt — 6. Pruefung). Lokales OneDrive-Archiv beider
+  Projekte ohne neue Dateien seit 20.03.2026.
+- **Quellen:** stadt.sg.ch Medienmitteilung 02.04.2026 + Downloadliste Wettbewerbe
+  Hochbauamt; konkurado.ch/de/areal-steinfabrik-pfaffikon-sz; WebSearch 20.07.2026.
+
 ## 2026-07-14 — Nachbrenner: Muster `jans-board-dna.md` refuter-verifiziert, `draft` → `established`
 - **Anlass:** erneute Ausfuehrung des Nachbrenner-Auftrags (Original-Kontext: Session-
   Limit-Abbruch 12.07.2026 abends). Bestandspruefung ergab: die 8 Original-Schritte sind

@@ -16,15 +16,28 @@ Stand: 14.07.2026 (Etappe-3-Start: Bauaufgaben-Blocker geschlossen)
 - **2101 KSSG:** Kein individuelles Jury-Feedback zu «LOUISE» (nur Sammelurteil
   2. Rundgang, Bericht S. 13) — welche Kritikpunkte den Ausschlag gaben, bleibt
   unbelegbar, sofern keine Nachbesprechungs-Notizen existieren.
-- **Ausstehende Juryberichte:** 2501 Steinfabrik (externe Prüfung 13.07.2026 via
-  konkurado.ch, 3x geprüft: Verfahren als «abgeschlossen» markiert, im Terminplan der
-  Seite steht «Jurybericht: 14.01.2026», das Dokument selbst ist aber weiterhin nicht
-  verlinkt/downloadbar — Terminplan-Datum ist kein Publikationsbeleg; nachfassen); 2507
-  PS Halden (laut competitions.espazium.ch 13.07.2026, 3x geprüft, weiterhin unter
-  «Wettbewerbsausschreibungen», nicht «Entschiedene Wettbewerbe», Planabgabe war
-  30.10.2025, Entscheid noch nicht publiziert). Bei Eintreffen (lokal im Archiv ODER
-  extern via konkurado.ch/competitions.espazium.ch): Dossier ergänzen, Delta-Muster
-  erweitern.
+- **2507 TKHL Halden IST ENTSCHIEDEN — Jurybericht publiziert, Destillation fällig
+  (Befund Dauerschicht-Zyklus 15, 20.07.2026):** Medienmitteilung Stadt St.Gallen vom
+  **02.04.2026**: Siegerprojekt **«ZVIERI» der Richter Tobler GmbH, Basel**, vom
+  Preisgericht «einstimmig zum Wettbewerbssieger» gekürt, **51 eingereichte Beiträge**;
+  nächste Schritte: Vorprojekt + Kostenfeststellung, Baukredit voraussichtlich Sommer
+  2027, Eröffnung Schuljahr 2030/31; Ausstellung war 12.–27.05.2026 (verpasst). Der
+  **Jurybericht (Stand 14.04.2026) liegt als PDF auf stadt.sg.ch** (Rubrik Wettbewerbe
+  Hochbauamt, Downloadliste; Datei «Halden TB KG Bericht 2026_ Stand_14.04.2026_mittel
+  .pdf», >10 MB — WebFetch-Extraktion an der Groesse gescheitert, Download braucht
+  Freigabe Raphael). **Nächste Lektion:** PDF beschaffen → raw/-Extrakt → Dossier 2507
+  um Ergebnisteil ergänzen (Rang LIMO?) → Muster `delta-zum-ersten-rang` um 2507
+  erweitern → Refuter. **Methoden-Lehre:** competitions.espazium.ch war über 3 Monate
+  veraltet (Entscheid 02.04. dort bis mindestens 13.07. nicht sichtbar) — künftig IMMER
+  auch die Website der Ausloberin prüfen (hier stadt.sg.ch), espazium/konkurado sind
+  nachlaufende Sekundärquellen.
+- **Ausstehender Jurybericht 2501 Steinfabrik:** unverändert (6. Prüfung 20.07.2026 via
+  konkurado.ch/de/areal-steinfabrik-pfaffikon-sz: Verfahren «Abgeschlossen», Terminplan
+  nennt «Jurybericht: 14.01.2026», downloadbar sind nur Ausschreibungsdokument + ICS —
+  kein Jurybericht verlinkt, kein Sieger genannt). Gemäss Methoden-Lehre oben bei der
+  nächsten Prüfung zusätzlich die Ausloberin (Hafenareal Pfäffikon SZ AG /
+  Verfahrensbegleitung SUTER • VON KÄNEL • WILD) bzw. deren Kanäle prüfen. Bei
+  Eintreffen: Dossier ergänzen, Delta-Muster erweitern.
 - **Loop-Takt wettbewerbs-dna-training:** Vier aufeinanderfolgende Beobachtungs-Läufe
   (13.07.2026) ohne neues Material bei 2501/2507, Etappe 3 weiter blockiert auf
   Bauaufgaben-Prioritäten. Reine Beobachtung bringt ohne aussenliegendes Ereignis
