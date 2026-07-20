@@ -1,15 +1,15 @@
 # Stations-Status: mac-mini
 
-Stand: 20.07.2026 23:44:50
+Stand: 21.07.2026 00:25:06
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:33)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 16 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 15 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 78a574ef Wissens-Chef Run 10: § 2a BVV Meldeverfahren dreiseitig verlinkt, GVZ-Artikel an VKF-BRL angebunden (0 Widerspruch)
+- 6b890e0f Baurecht-Buch Run 50: WsG/WsV-Nachzug abgeschlossen + Meldeverfahren §§ 2a-2e BVV als vierter Verfahrenstyp integriert
