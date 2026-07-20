@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 20.07.2026 11:59:40
+Stand: 20.07.2026 12:09:45
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 11:58)
@@ -19,4 +19,4 @@ Stand: 20.07.2026 11:59:40
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- bd6d1f5b synobsis: Batch-Lauf 20.07. (nachgeholt), 853/853, Vektorindex neu
+- 5b6f7aa3 planungsgrundlagen Run 54: ZH-Naturgefahren-Endpunkt gefunden, Grundwasser established, ABC-Plansatz erschlossen
