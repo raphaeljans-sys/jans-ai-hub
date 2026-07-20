@@ -522,26 +522,32 @@ einzeln geprüft:
 ### Uebergabe an den Mac Mini (DIN/VSS/RAL — nicht MacBook-Scope, Stations-Split)
 
 Run 15 hat auf der SIA/VKF-Seite zwei Fehlerklassen gefunden, die auch die DIN/VSS/RAL-Seite treffen
-koennten. Da diese Familien dem Mac Mini gehoeren, hier nur die Meldung — **nicht destilliert, nichts
-abgehakt**:
+koennten. Bearbeitungsstand Mini-Run 33 (20.07.2026):
 
-- [ ] **Zaehl-Differenz Inventar ↔ Live-Ablage.** Rekursiver Zaehl-Check am 17.07.2026:
-  DIN **live 71** vs. Inventar **72**, VSS **live 14** vs. Inventar **17**, RAL 1 = 1, Lignum 0 = 0.
-  Hier fehlen also keine Dateien, im Gegenteil: das Inventar fuehrt 4 Positionen, die live nicht (mehr)
-  auffindbar sind — moeglicherweise geloescht/verschoben, oder Zaehlweise (.docx, Duplikate). Der Mini
-  sollte das aufloesen, bevor «DIN/VSS/RAL komplett» weiter als gesichert gilt.
-- [ ] **Auszug-Plausibilisierung fuer DIN/VSS ist offen (nicht: bestanden).** Der SIA-Test (PDF-Seitenzahl
-  gegen die auf dem Titelblatt deklarierte «Anzahl Seiten») hat bei DIN/VSS **0 Treffer** — aber nur,
-  weil DIN-Titelblaetter diese Angabe gar nicht fuehren. Das Ergebnis ist damit **unschluessig, kein
-  Freispruch**. Auffaellig kurze Dateien, die einen Blick verdienen: `DIN 277-1.pdf` (6 S.),
-  `DIN EN 12207.pdf` (6 S.) — DIN 277-1 ist im Original deutlich umfangreicher. Der Mini braucht einen
-  eigenen Test (z.B. Abgleich gegen den Beuth-Umfang oder Pruefung, ob der letzte Abschnitt des
-  Inhaltsverzeichnisses im PDF vorhanden ist).
+- [x] **ERLEDIGT Mini-Run 33 (2026-07-20): Zaehl-Differenz Inventar ↔ Live-Ablage aufgeloest.**
+  Frischer rekursiver `find`-Abgleich zeigt **DIN live 72 = Inventar 72**, **VSS live 17 = Inventar 17**
+  (netto, nach Abzug der einen virtuellen Tabellenzeile `SN 640 105a`, die als Anhang in
+  `VSS 640 291a.PDF` steckt und keine eigene Datei ist), RAL 1 = 1, Lignum 0 = 0. Die von Run 15
+  gemeldete Differenz (DIN 71, VSS 14) reproduziert sich heute nicht — vermutlich transienter
+  OneDrive-Sync-Zustand auf der Gegenstation am 17.07., kein echter Bestandsfehler. «DIN/VSS/RAL
+  komplett» bleibt bestaetigt. Details `outputs/2026-07-20_normen-mini-run33.md`.
+- [ ] **Auszug-Plausibilisierung fuer DIN/VSS — TEILBEFUND Mini-Run 33, neue technische Huerde.**
+  `DIN EN 12207.pdf` liest sich normal (6 S. bestaetigt, Adobe-Scan 2012), kein Auffaelligkeitsbefund
+  ueber die reine Seitenzahl hinaus. **`DIN 277-1.pdf` ist auf dem Mac Mini aktuell NICHT lesbar**
+  (`pdfinfo`: "Couldn't find trailer dictionary/xref table"; `cat`/`tail`/Read-Tool: reproduzierbar
+  `EDEADLK`/"Resource deadlock avoided") — spezifisch auf diese eine Datei begrenzt, vier
+  Vergleichsdateien im selben Ordner lesen sich einwandfrei. Das bestehende Destillat
+  `din-277-1-2005.md` dokumentiert eine erfolgreiche Vollstaendigkeits-Verifikation (S.1-6,
+  mehrfache Q&A-Gegenpruefung) aus fruehen Laeufen (12.-14.07., vermutlich MacBook Pro) — dort war
+  die Datei also lesbar. Vermutung: defekter/teilweise materialisierter OneDrive-Platzhalter lokal
+  auf dem Mini, kein Beleg fuer einen echten Auszugs-Fehler der Norm. **Naechster Schritt:** auf dem
+  MacBook Pro gegenpruefen, ob die Datei dort weiterhin oeffenbar ist — wenn ja, lokales
+  Mac-Mini-Problem (kein Raphael-Handlungsbedarf); wenn nein, echter Datenverlust in der
+  SharePoint-Ablage, Raphael melden. Details `outputs/2026-07-20_normen-mini-run33.md`.
 - [ ] **Stilllegung des Tasks `normen-training-mini` (Radar-Entscheid 17.07., Commit `fd6ce35f`) beruht auf
-  «Inventar dreimal komplett bestaetigt».** Genau diese Schlussweise hat sich auf der SIA-Seite als falsch
-  erwiesen — dort war die Grundmenge unvollstaendig, nicht die Abarbeitung. Vor einer endgueltigen
-  Stilllegung sollten die zwei Punkte oben geklaert sein. Der Loop ist deaktiviert, nicht geloescht —
-  Reaktivierung ist ein Klick.
+  «Inventar dreimal komplett bestaetigt».** Nach Mini-Run 33 ist Punkt 1 (Zaehl-Differenz) geklaert;
+  Punkt 2 (Auszug-Plausibilisierung DIN 277-1) bleibt wegen der lokalen Lese-Huerde offen. Der Loop
+  ist deaktiviert, nicht geloescht — Reaktivierung ist ein Klick, sobald Punkt 2 geklaert ist.
 
 ### Run 16 (MacBook Pro, 260719) — offene Punkte aus den Merkblatt-/Wegleitungs-Destillaten
 

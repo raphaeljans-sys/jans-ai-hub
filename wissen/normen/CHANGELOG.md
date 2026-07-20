@@ -1,3 +1,19 @@
+## 2026-07-20 — Normen Mini-Run 33 (Mac Mini): Uebergabe-Punkte aus Run 15 abgearbeitet
+- **Zaehl-Differenz aufgeloest:** frischer rekursiver Datei-Abgleich zeigt DIN live 72 = Inventar 72,
+  VSS live 17 = Inventar 17 (netto), RAL 1 = 1 — die von Run 15 (17.07.) gemeldete Differenz
+  (DIN 71, VSS 14) reproduziert sich heute nicht, vermutlich transienter OneDrive-Sync-Zustand
+  auf der Gegenstation, kein Bestandsfehler. «DIN/VSS/RAL komplett» bleibt bestaetigt.
+- **Auszug-Plausibilisierung — neuer technischer Fund:** `DIN EN 12207.pdf` liest sich normal
+  (6 S. bestaetigt). `DIN 277-1.pdf` ist auf dem Mac Mini aktuell NICHT lesbar (`pdfinfo`: kein
+  gueltiges Trailer/xref; `cat`/`tail`/Read-Tool: reproduzierbar `EDEADLK`) — spezifisch auf diese
+  eine Datei begrenzt, vier Vergleichsdateien im selben Ordner lesen sich einwandfrei. Vermutlich
+  defekter/teilweise materialisierter OneDrive-Platzhalter lokal auf dieser Station, kein Beleg
+  gegen das bestehende, mehrfach verifizierte Destillat. Naechster Schritt: Gegenprobe auf dem
+  MacBook Pro (dort war die Datei beim urspruenglichen Destillieren lesbar).
+- Register nachgefuehrt: `wiki/QUESTIONS.md` (Abschnitt "Uebergabe an den Mac Mini"). Kein Task
+  reaktiviert, keine Aenderung an `norm-inventar.md` noetig (Zahlen bereits korrekt). Report
+  `outputs/2026-07-20_normen-mini-run33.md`.
+
 ## 2026-07-19 — Normen Run 16 (MacBook Pro): SIA/VKF-Nachtrag komplett — 0 offene Positionen
 - **31 von 31 offenen SIA/VKF-Positionen destilliert + adversarial verifiziert.** Abgearbeitet
   wurden die im Run 15 (17.07.) nachgetragenen Bestaende: 18 Merkblaetter der 2000er-Serie,
