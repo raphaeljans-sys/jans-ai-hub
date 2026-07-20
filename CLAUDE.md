@@ -158,6 +158,7 @@ Inputs, Ablage) steht dort und laedt beim Aufruf; hier nur der Zweck-Einzeiler.
 | `oereb-schwyz` | OEREB-Auszug Kt. SZ via `geo-sz.mjs`, Parzellensuche bevorzugt |
 | `massgebendes-terrain` | MT an Hanglagen: Baumasse ueber MT-Flaeche, Fassadenhoehe je Ecke |
 | `volumenstudie` | 3D-Volumen: Rhino-3dm, C4D-Renderings, Kennzahlen (venv `~/.venvs/volumen3d`) |
+| `pdf2dwg` | Vektor-PDF zu leichtem DWG/DXF fuer ArchiCAD (venv `~/.venvs/pdf2dwg`, LibreDWG) |
 | `hub-chef` | Dach-Orchestrator: Tagesbriefing, Whitelist-Aktionen (`logbuch/AKTIONS-WHITELIST.md`) |
 | `synergie-orchestrator` | Struktur-Aufsicht: Synergie-Register, Geschaeftsmodell-Entwuerfe (monatlich) |
 | `workstation-setup` | Stations-Onboarding inkl. Pflichtschritt FDA fuer /bin/bash |

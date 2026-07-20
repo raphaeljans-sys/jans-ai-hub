@@ -290,7 +290,8 @@ def main():
     for page in pages:
         suffix = f"_p{page.number + 1}" if multi else ""
         stats = defaultdict(int)
-        dxf_doc = ezdxf.new("R2010", setup=True)
+        # R2000 ohne setup: minimale Header/Styles -> stabilste dxf2dwg-Ausgabe
+        dxf_doc = ezdxf.new("R2000")
         dxf_doc.header["$INSUNITS"] = 4  # mm
         msp = dxf_doc.modelspace()
         convert_page(page, msp, dxf_doc, args.scale, args.min_len,
