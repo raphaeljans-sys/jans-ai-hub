@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 21.07.2026 00:25:06
+Stand: 21.07.2026 00:35:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 00:33)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 21.07.2026 00:25:06
 - 15 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 6b890e0f Baurecht-Buch Run 50: WsG/WsV-Nachzug abgeschlossen + Meldeverfahren §§ 2a-2e BVV als vierter Verfahrenstyp integriert
+- 7da421e6 nas-selfcommit: 2 Datei(en) 2026-07-21 00:30
