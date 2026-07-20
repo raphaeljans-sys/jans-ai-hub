@@ -3,6 +3,14 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-20 — Erst-Wissenscheck Phase 1 (Dauerschicht-Zyklus 26, kompakt)
+- KB hochaktiv und diszipliniert; Register-Stichproben 3/3 bestanden (SYN-02-Spec-Datei
+  existiert, S5/S6 im Katalog, Rollen-Matrix-Ziele vorhanden). Einziger operativer
+  Befund: **Wissens-Chef-Run 10 fehlt fuer heute** (mutmasslich Buero-Ausfall bis 09:30)
+  — beobachten, ob der Takt am 21.07. selbststaendig greift. Struktur-Abweichung vom
+  Metaschema ist als Register-KB dokumentiert und gewollt.
+  Report: outputs/2026-07-20_health-check.md
+
 ## 2026-07-20 — SYN-02 Spec startklar: Faktenlage nach Limit-Reset verifiziert (Task `syn02-spec-anstoss`)
 - Das Wochenlimit ist am 20.07.2026 zurueckgesetzt; der One-Time-Task hat die am 15.07.
   vorbereitete Interview-Grundlage **gegen den heutigen Stand geprueft statt sie zu duplizieren**.
