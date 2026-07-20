@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 20.07.2026 19:36:58
+Stand: 20.07.2026 19:57:14
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 19:57)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 20.07.2026 19:36:58
 - 4 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 8370e57c Skill pdf2dwg: Vektor-PDF zu leichtem DWG/DXF fuer ArchiCAD
+- 0f55e0a5 nas-selfcommit: 4 Datei(en) 2026-07-20 19:45
