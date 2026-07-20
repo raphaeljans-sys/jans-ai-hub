@@ -21,6 +21,41 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-20 12:30 — [GEDROSSELT] Wochen-Reset bestaetigt, Wettbewerbs-DNA-Loop wieder scharf — im Nachttakt, nicht auf VOLLGAS
+
+**Fensterzustand:** Der Wochen-Reset um 11:59 ist erfolgt und belegt, nicht angenommen. Die im
+Auftrag vorgesehene Probe `claude -p --model haiku` ist NICHT verwertbar: sie endet mit
+«Not logged in · Please run /login», also im bekannten headless-Login-Block ([LOGIN]) und nicht in
+einer Usage-Meldung. Ein fehlgeschlagener Login sagt nichts ueber das Kontingent. Stattdessen zwei
+belastbare Signale: der One-Time-Task `syn02-spec-anstoss` ist heute um 12:15 regulaer durchgelaufen
+und hat um 12:24 den Commit `e0ec7d4e` («SYN-02: Faktenlage … nach Limit-Reset verifiziert»)
+hinterlassen, und dieser Reaktivierungslauf selbst arbeitet nach 11:59 ohne Drosselung. Das Fenster
+ist frei. Der headless-Login-Block besteht davon unabhaengig weiter und bleibt Beobachtungspunkt.
+
+**Was reaktiviert wurde:** `wettbewerbs-dna-training` steht wieder auf `enabled: true`. Verifiziert
+statt vertraut: Cron unveraendert `20 2 * * *`, erster Lauf in der Nacht auf den 21.07. um 02:26.
+Der Takt bleibt damit exakt der am 17.07. korrigierte gedrosselte Nachtbetrieb — EIN Baustein pro
+Lauf, 1x taeglich im Fenster 22:00–06:00 gemaess Regel 260711. Bewusst NICHT auf den historischen
+Zwei-Stunden-Takt zurueckgestellt: der Reset gibt Kontingent frei, er hebt das Drossel-Regime nicht
+auf. Die Task-Beschreibung wurde entsprechend nachgefuehrt, damit der alte Vermerk «deaktiviert bis
+Wochen-Reset» nicht als Zustand stehen bleibt. Der Endlos-Runner bleibt unangetastet, die
+STOP-Dateien beider Stationen wurden nicht angefasst.
+
+**Zum Drossel-Banner im Kopf dieser Datei:** Es verweist auf «mindestens bis zum naechsten
+Wochen-Reset» — dieser ist jetzt eingetreten, die Bedingung also formal erfuellt. Aufgehoben wird
+das Banner hier trotzdem nicht: Rule 260714 behaelt das Wiederhochfahren ausdruecklich Raphael vor.
+**Das ist der offene Entscheid** — laeuft das Drossel-Regime weiter, oder kehrt das alte Lastprofil
+zurueck? Bis zu dieser Anweisung bleibt der Radar im Schoner-Modus und alle Loops im Nachttakt.
+
+**Vorschlaege:**
+- P1: keiner. Kein Blocker, keine Mail noetig; Radar und Hub-Chef-Briefing melden den Vorgang.
+- P2: Entscheid Raphael zum Drossel-Regime (siehe oben). Bis dahin gilt der Status quo.
+- P3: Der naechste Lauf soll am 21.07. bestaetigen, dass `wettbewerbs-dna-training` um 02:26
+  tatsaechlich gefeuert hat — die Reaktivierung ist erst mit einem echten Lauf belegt, nicht mit
+  dem gesetzten Flag.
+
+---
+
 ## 2026-07-19 12:47 — [GEDROSSELT] Kontext-Diaet halbiert den Grundkontext: 72 kB verifiziert, wirkt ab sofort auf JEDEN Lauf
 
 **Fensterzustand:** Drossel-Regime unveraendert. STOP + STOP-Macmini stehen seit 14.07. 12:53 mit
