@@ -144,5 +144,9 @@ Dieser Kapitelteil behandelt die restlichen Gebaeudedimensionen: **Hochhaeuser**
 
 - **Status Aenderung §30 ABV** (2-Std. → 3-Std.-Schatten): 2018 in Vernehmlassung (RRB 1055/2018) — **geklaert (Modell-D-Volltextabgleich 2026-07-13):** die Vernehmlassung wurde umgesetzt. Amtlicher Volltext `raw/260607_amtlich_zh_abv.md` § 30 Abs. 1 lit. a/b ABV (Fussnote 18: "Fassung gemaess RRB vom 18. Maerz 2020, OS 76, 263; ABl 2020-03-27. In Kraft seit 1. August 2021") nennt wortwoertlich **drei Stunden** in beiden Litera — nicht mehr die im Buch (Stand 6. Aufl. 2019) referierten zwei Stunden. Buchstand damit ueberholt; massgebend ist die 3-Stunden-Schwelle. Nicht mehr `speculative`.
 - Seitenspanne Teil 3: **1194-1229**. Der Anfang von S. 1194 traegt noch den Schluss von **16.5** (Gebaeudeprofil Flachdach/«Kaeseglocke», Unterscheidung zur Gebaeudehoehe §280/§281 PBG) — bereits in Teil 2 abgedeckt, hier nur als Uebergang vermerkt.
-- **16.9 endet nicht auf S. 1229** — der Abgrabungs-/Freilegungs-Abschnitt laeuft ueber S. 1229 hinaus weiter (Shot 618 ist die letzte gelesene Doppelseite 1228/1229). Der Rest von 16.9 und der Uebergang zu **16.10 Harmonisierungsvorlage** (ab S. 1230 / Shot 619, bereits distilliert) sind hier nicht erfasst — ggf. S. 1230 f. nachlesen, ob 16.9 dort noch endet.
+- **GEKLAERT (Buch-Run 49, 2026-07-20, Shot 619 direkt nachgelesen):** 16.9 endet auf
+  **S. 1230** mit **16.9.3 Nachbarrechtliche Bedeutung** (Art. 685 ZGB, Kostentragung
+  Stuetzmauern Unterlieger/Oberlieger, § 178 EG ZGB) — erfasst und angereichert in
+  [[band-2/kap16-10_gebaeudedimensionen-harmonisierung]] (Abschnitt «Nachbarrecht
+  Terrainveraenderungen»). Ab S. 1231 beginnt 16.10. Kap. 16 ist damit LUECKENLOS.
 - Exakte Fundstelle-Nr. VB.2002.000149 (Maur) im Buch mit doppelter Null geschrieben — so uebernommen, Schreibweise am Original verifizieren.

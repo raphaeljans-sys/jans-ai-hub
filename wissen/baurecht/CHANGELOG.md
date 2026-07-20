@@ -4,6 +4,21 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-20 — Buch-Run 49 (Dauerschicht): Transfer-Abschluss festgestellt, 16.9.3 angereichert, Programm-Hygiene
+- [verifiziert] Restschuld-Liste im PROGRAMM war komplett veraltet (Kap. 6/14/15/16/17
+  laengst erledigt) — jede Position am Inventar bzw. direkt am Shot geprueft; ersetzt durch
+  Transfer-Abschluss-Feststellung + Klassifikation der offenen Shots: 1-40 + 321-344
+  Front-Matter (Shot 321 = Band-2-Titel, am Bild verifiziert), 664-681 Kap. 18 bewusst
+  ausgelassen (Skill brandschutz) (training/PROGRAMM.md)
+- [angereichert] 16.9.3 Nachbarrechtliche Bedeutung (S. 1230, Shot 619 direkt nachgelesen):
+  Kostentragung Stuetzmauern (Verursacher; Unterlieger bergseitig / Oberlieger talseitig),
+  Art. 685 ZGB Abs. 1+2, BEZ 1991 Nr. 46, § 178 EG ZGB; offene 16.9-Endnotiz im
+  Teil-3-Destillat auf GEKLAERT — Kap. 16 lueckenlos
+  (band-2/kap16-10_gebaeudedimensionen-harmonisierung.md, band-2/16-gebaeudedimensionen-teil3-umgebung.md)
+- [inventar] Shot 212 = Kapiteltrenner Kap. 7 (S. 422/423, kein Inhalt) → [x] mit Vermerk;
+  «Restschuld Kap. 6 S. 405-422» damit gegenstandslos (buecher/seiten-inventar.md)
+- [report] outputs/2026-07-20_buch-run49.md (inkl. Drill Modell A, bestanden)
+
 ## 2026-07-19 — Wissens-Chef Run 9 (Cross-KB): veraltete EnerG-Nummerierung im Erschliessungsartikel nachgefuehrt
 - **VERALTETES (CONFIRMED):** `wiki/baureife-und-erschliessung.md` zitierte im Praesens
   «§§ 8a/9–13 EnerG». Die Spanne ist ein korrekt uebernommener **Buchstand 2019**

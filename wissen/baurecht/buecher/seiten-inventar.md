@@ -227,7 +227,7 @@ setzen und die ECHTE Seitenzahl + das distillierte .md verlinken.
 | 209 | 1 | 416/417 | [x] | `Bildschirmfoto 2026-06-07 um 11.46.50.jpg` | [[band-1/06-baurechtliches-verfahren-teil2]] |
 | 210 | 1 | 418/419 | [x] | `Bildschirmfoto 2026-06-07 um 11.46.51.jpg` | [[band-1/06-baurechtliches-verfahren-teil2]] |
 | 211 | 1 | 420/421 | [x] | `Bildschirmfoto 2026-06-07 um 11.46.53.jpg` | [[band-1/06-baurechtliches-verfahren-teil2]] |
-| 212 | 1 | ~420 | [ ] | `Bildschirmfoto 2026-06-07 um 11.46.55.jpg` |  |
+| 212 | 1 | 422/423 | [x] | `Bildschirmfoto 2026-06-07 um 11.46.55.jpg` | Kapiteltrenner Kap. 7 (S. 422 leer, S. 423 Titelblatt) — kein Inhalt, kein Destillat noetig (Run 49) |
 | 213 | 1 | 424/425 | [x] | `Bildschirmfoto 2026-06-07 um 11.46.57.jpg` | [[band-1/07-zustaendigkeiten-entscheide-auskuenfte]] |
 | 214 | 1 | 426/427 | [x] | `Bildschirmfoto 2026-06-07 um 11.46.59.jpg` | [[band-1/07-zustaendigkeiten-entscheide-auskuenfte]] |
 | 215 | 1 | 426/427 (dup) | [x] | `Bildschirmfoto 2026-06-07 um 11.47.00.jpg` | [[band-1/07-zustaendigkeiten-entscheide-auskuenfte]] |

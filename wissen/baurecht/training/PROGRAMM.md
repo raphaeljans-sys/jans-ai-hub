@@ -510,13 +510,21 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
 - ~~**Restschuld Kap. 20:**~~ **erledigt Run 25 (2026-07-10):** § 357 Abs. 5 Milderung + § 358 baupolizeiliche
   Missstaende + Brandstattrecht § 307 PBG (S. 1456-1457) → [[band-2/20-ausnahmen-teil2-milderung-missstaende-brandstatt]].
   **Kap. 20 vollstaendig.**
-- **Restschuld Kap. 14:** Mischrechnungsverbot + § 10/13 ABV (Shots 486-495) bei Gelegenheit.
-- **Restschuld Kap. 15:** nur noch § 274 PBG (Grenzbaurecht/geschlossene Bauweise/Anbau) + § 27 Abs. 2 ABV — Shots ab 560, S. 1112 ff. (§§ 269-273 erledigt 2026-06-15/16).
-- **Restschuld Kap. 16:** Gebaeude-/Firsthoehe, Dachgestaltung, Dachaufbauten/Lukarnen, Umgebung
-  (Shots ab 581, S. 1154 ff.).
-- **Restschuld Kap. 17:** Ausruestungen-Teil (Heizung/Klima/Elektro/Beförderungsanlagen § 4 ABV),
-  §§ 295-298 PBG, Einstellraeume-Detail (Garagen §§ 37-39 BBV I) — Shots ab 632, S. 1256 ff.
-- **Kap. 7: erledigt** (Teil 1 + Teil 2, S. 424-484). Restschuld Kap. 6 S. 405-422 offen.
+- **TRANSFER ABGESCHLOSSEN (festgestellt Buch-Run 49, 20.07.2026):** Alle Inhaltskapitel
+  beider Baende sind destilliert (Kap. 1–17 und 19–23; Kap. 2 mit bekanntem Set-Rest
+  S. 152–169, siehe curriculum.md). Die frueheren Restschuld-Notizen (Kap. 6/14/15/16/17)
+  waren VERALTET — am Inventar und an den Quellen verifiziert: Shots 486–495 [x], §§ 269–274
+  [x], Kap.-16-Schluss S. 1230 (16.9.3) in [[band-2/kap16-10_gebaeudedimensionen-harmonisierung]]
+  erfasst (Run 49 direkt am Shot 619 verifiziert und angereichert), Kap.-17-Ausruestungen [x],
+  «Restschuld Kap. 6 S. 405–422» war nur der Kapiteltrenner Kap. 7 (Shot 212, S. 422/423, leer).
+- **Verbleibende offene Shots — KEIN Destillationsstoff:** 1–40 Front-Matter Band 1 (Titel/
+  Verzeichnisse bis S. ~77); 321–344 Front-Matter Band 2 (Titelseite S. 638/639 am Bild
+  verifiziert, Verzeichnisse bis Kap.-11-Start S. 685); 664–681 Kap. 18 Brandschutz (BEWUSST
+  ausgelassen → Skill `brandschutz`, kein Doppelaufbau).
+- **Kuenftige Laeufe = Phase 3:** Drills, Modell-D-Volltextverifikationen offener Wiki-Artikel
+  (z.B. [[wohnhygiene-und-raumanforderungen]] `emerging` bis PBG §§ 299–306 verifiziert),
+  QUESTIONS-Restposten, Aktualitaets-Checks (Beispiel HWSchV-Aufhebung Run 48). Die
+  Ruecktaktung auf woechentlich (Phase 3) ist seit Run 48 VORGESCHLAGEN — Entscheid Raphael.
 - Detailstand: `buecher/seiten-inventar.md` (Shots) + `buecher/INDEX.md` (Abdeckung) +
   `curriculum.md` (Kapitel).
 

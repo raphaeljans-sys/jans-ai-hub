@@ -104,9 +104,23 @@ Abgrabungen/Aufschuettungen aendern das massgebende Terrain nicht.
   Rechtecks**, das die **projizierte Fassadenlinie** umfasst. Vorspringende und
   unbedeutend rueckspringende Gebaeudeteile bleiben unberuecksichtigt (§ 6 nABV).
 
-### Nachbarrecht Terrainveraenderungen (S. 1230, 16.9.3)
-- Terrainveraenderungen zusaetzlich zivilrechtlich erfasst: Art. 685 ZGB (Grabungen
-  und Bauten), kant. Zivilrecht § 178 EG ZGB fuer Stuetzmauern an der Grenze.
+### Nachbarrecht Terrainveraenderungen (S. 1230, 16.9.3 — Schluss von 16.9)
+- Terrainveraenderungen zusaetzlich zivilrechtlich erfasst: **Art. 685 ZGB** (vgl.
+  BEZ 1991 Nr. 46): Abs. 1 — bei Grabungen und Bauten duerfen die nachbarlichen
+  Grundstuecke nicht geschaedigt werden, indem Erdreich in Bewegung gebracht oder
+  gefaehrdet wird oder vorhandene Vorrichtungen beeintraechtigt werden; Abs. 2 —
+  auf Bauten, die dem Nachbarrecht zuwiderlaufen, finden die Bestimmungen betreffend
+  ueberragende Bauten Anwendung.
+- **Kostentragung Stuetzmauern (S. 1230):** Wer zuerst graebt oder aufschuettet und
+  ausserdem Nachbarn gefaehrdet, bezahlt die Vorkehr gegen die Gefaehrdung — in der
+  Regel die Stuetzmauer. Der **Unterlieger**, der zuerst den Hang anschneidet, hat die
+  **bergseitige** Stuetzmauer auf seinem Grundstueck zu erstellen; der **Oberlieger**,
+  der zuerst aufschuettet, besorgt die **talseitige** Hangsicherung. Praktisch relevant
+  beim Trend, Steilhaenge zu ueberbauen (bastionsartige Gartensitzplaetze).
+- Wie nahe und wie hoch eine Stuetzmauer an die nachbarliche Grenze erstellt werden
+  darf, bestimmt das kantonale Zivilrecht, insb. **§ 178 EG ZGB**.
+- Damit endet 16.9 auf S. 1230; ab S. 1231 folgt 16.10 (Harmonisierungsvorlage).
+  Quelle: Shot 619 (S. 1230/1231), direkt verifiziert 2026-07-20 (Buch-Run 49).
 
 ## Anwendungs-Transfer JANS (eigene Einordnung)
 
