@@ -1,5 +1,17 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-20 — SYN-02-Spec bestaetigt (achte reale Spec-Anwendung)
+- Interview E1–E9 auf Zuruf Raphaels («Spec SYN-02 starten») via AskUserQuestion gefuehrt;
+  Spec abgelegt: `outputs/2026-07-20_syn-02-typologischer-entwurfsprozess_spec.md`.
+- Zwei Abweichungen von den Default-Vorschlaegen der Interview-Vorbereitung: **E2 =
+  Wettbewerbs-Fabrik (GM3) zuerst** (statt Variantenstudie GM2) und **E3 = nur Gate c
+  (Parti)** (statt Dreiteilung a/b/c — Pipeline laeuft autonom bis zum Variantenkatalog).
+  E5 dadurch strenger: voller `programm-pruefer`-Durchlauf schon im MVP.
+- [[verifier]]: Pending-Zeile «Entwurfsprozess / generative Geometrie-Pipeline» zur vollen
+  Tabellenzeile promoviert (vierte Auspraegung: bueroeigener Entwerfer am Parti-Gate).
+- `SYNERGIE-REGISTER` SYN-02 auf «Spec bestaetigt 20.07.2026» gesetzt; MVP-Bau (Block 1:
+  Adapter `typologie_zu_variante.py`) startet auf Freigabe.
+
 ## 2026-07-19 — Trainingslauf 23
 - Output `outputs/2026-07-19_training-run23.md`. **Verifikationslauf** — keine neue reale Spec; SYN-02
   ist laut Task-Registry auf **Mo 20.07. 12:15** terminiert (`syn02-spec-anstoss`, nie gefeuert),

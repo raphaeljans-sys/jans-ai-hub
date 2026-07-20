@@ -84,15 +84,14 @@ Waechst mit jeder realen Spec-Anwendung. Muster: **autoritative Instanz** (binde
 | Ausschreibung / Submission (Uebergabe) | **abnehmende Bauleitung** («Null Rueckfragen» = bestandenes Abnahmekriterium) | internes **Konsistenz-Gate** (Baustein 13: Plan↔LV widerspruchsfrei) · `korrektur`+`twin` · Identifikatoren gegen Projektordner (`identifikatoren-verifizieren`) | Goldstandard 2620 Albertstrasse | Submission 2414 Thalwil 2026-07-11 |
 | Wettbewerb / Design / Studie | die **Jury** (Jury-Urteil / Jurybericht = bindende Wertung) | Refuter-Agent liest **Jurybericht gegen Dossier** · SIA-416-Rueckrechnung Zahlen↔Original-Excel · `programm-pruefer`-Konformitaets-Schleife (gruen) · `korrektur`+`twin` | **Jurybericht eines 2. Platzes** (Muttenz/Schoental) — nennt das Delta zum 1. Platz | Wettbewerbs-Layer 2026-07-12 |
 | Text / Dokument / Mail | — (kein amtl. Abnehmer) | — | Goldstandard-Dokument | quer (jede Spec) |
+| Entwurfsprozess / generative Geometrie-Pipeline | der **Architekt am Parti-Human-Gate** (bueroeigener Entwerfer; im Wettbewerbs-Einsatz die Jury) | `wissen/grobkosten`-Kennwertband (CHF/m3 GV) · geometrische Rueckrechnung Kennzahlen↔Baufeld · zweite Instanz: `flaechen-nachweis` SIA 416 gegen Set-Soll + Baurecht-Max `machbarkeit` + `programm-pruefer`-Ampel · Texte `korrektur`+`twin` | JANS-Referenz-Variantenstudien · Grobkosten-Onepager | SYN-02-Spec 2026-07-20 |
 
-**Pending-Zeile (vorgeschlagen, noch nicht bestaetigt — SYN-02 Interview-Vorbereitung 2026-07-15):**
-Domaene **Entwurfsprozess / generative Geometrie-Pipeline**. Vorgeschlagen (E5 im Interview noch offen):
-autoritative Instanz = der **Architekt am Parti-Human-Gate** (bueroeigener Mensch, keine Behoerde);
-externes Signal = **`wissen/grobkosten`**-Kennwertband (CHF/m3 GV) + **geometrische Exaktheit** (Kennzahlen
-gegen Baufeld rueckgerechnet); zweite Instanz = **`flaechen-nachweis` SIA 416 gegen Parameter-Set-Soll** +
-**Baurecht-Max `machbarkeit`**; Texte im Dossier = `korrektur`+`twin`. Waere die vierte «autoritative Instanz
-muss keine Behoerde sein»-Auspraegung (Behoerde · abnehmende Bauleitung · Jury · bueroeigener Entwerfer).
-Erst nach bestaetigtem E5 als volle Tabellenzeile promovieren (Beleg-Fall dann `..._syn-02_spec.md`).
+**Promotion 2026-07-20:** die Pending-Zeile vom 15.07. ist mit dem bestaetigten E5 (Interview
+SYN-02, Raphael 20.07.) zur vollen Tabellenzeile promoviert — E5 fiel STRENGER aus als der
+Default-Vorschlag: nicht nur Flaechen+Baurecht, sondern zusaetzlich der volle
+`programm-pruefer`-Durchlauf schon im MVP (Folge des E2-Entscheids Wettbewerbs-Fabrik GM3).
+Damit ist die vierte «autoritative Instanz muss keine Behoerde sein»-Auspraegung belegt
+(Behoerde · abnehmende Bauleitung · Jury · bueroeigener Entwerfer am Parti-Gate).
 
 Lektion aus dem Buchhaltungs-Fall: das externe Connector-Signal (`bexio --abgleich`) ist hier
 stark, weil es zwei unabhaengige Realitaeten kreuzt (Bankeingang vs. Buchung) — trotzdem bleibt
