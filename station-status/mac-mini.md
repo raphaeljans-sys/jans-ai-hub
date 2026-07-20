@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 20.07.2026 12:29:56
+Stand: 20.07.2026 12:40:01
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 12:04)
+- Developer/jans/ai/hub  (letzte Aktivitaet 12:36)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 20.07.2026 12:29:56
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- e0ec7d4e SYN-02: Faktenlage der Spec-Interview-Vorbereitung nach Limit-Reset verifiziert (unveraendert gueltig)
+- 593f368e vollgas-radar: wettbewerbs-dna-training nach Wochen-Reset reaktiviert (gedrosselter Nachttakt)
