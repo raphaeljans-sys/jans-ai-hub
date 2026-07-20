@@ -2,6 +2,20 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-20 — Firmenrollen verifiziert (Mac Mini Nachtschicht)
+- Offene Faktenfrage aus QUESTIONS.md beantwortet: exakte Rollen bei WOMA Maur und Nova
+  Property via oeffentliche Register/Webseiten verifiziert (kein Mail-Archiv noetig).
+  WOMA Maur ist eine **Genossenschaft** (UID CHE-103.976.168, Sitz Binz), Christoph seit 2013
+  Vorstand Ressort Liegenschaften + Vizepraesident. Nova Property Fund Management AG
+  (UID CHE-403.795.970, Sitz Freienbach/Pfaeffikon SZ), Christoph seit 2021 Head Development &
+  Construction, erweiterte Geschaeftsleitung (davor Losinger Marazzi AG 2010-2021).
+- Neuer Lead: drittes, nicht identifiziertes KMU-Vorstandsmandat seit 2004 (Nova-Kurzbio) —
+  als neue Frage in QUESTIONS.md aufgenommen.
+- `wiki/profil-christoph-bopp.md` aktualisiert (Rollen-Tabelle, Qualifikation) und dabei die im
+  Health-Check 01.07. als "rot" geflaggten ae/oe/ue-Digraphen auf echte Umlaute korrigiert.
+- Report: `outputs/2026-07-20_firmenrollen-verifikation.md`. Read-only Web-Recherche, kein
+  Versand, kein Kontakt mit Dritten.
+
 ## 2026-07-01 — Health-Check Phase 1 (Audit)
 - Erster Wissens-Health-Check (Skill `wissenscheck`, unbeaufsichtigt) durchgefuehrt.
   Report: `outputs/2026-07-01_health-check.md`.
