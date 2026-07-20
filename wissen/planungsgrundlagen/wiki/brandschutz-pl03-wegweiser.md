@@ -1,7 +1,7 @@
 ---
 title: Brandschutz PL-03 — Wegweiser (VKF-Struktur, Brandschutznachweis, QSS, Brandschutzabstaende, Tragwerke)
 status: established
-last_updated: 2026-07-18 (Run 52)
+last_updated: 2026-07-20 (Run 54)
 sources: [VKF-Brandschutzerläuterung 103-15de «Cheminées» (Stand 01.01.2015, genehmigt 23.09.2014, 14 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerläuterung 104-15de «Spänefeuerungen» (Stand 01.01.2015, genehmigt 23.09.2014, 17 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerläuterung 105-15de «Schnitzelfeuerungen» (Stand 01.01.2015, genehmigt 23.09.2014, 12 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerläuterung 106-15de «Pelletsfeuerungen» (Stand 01.01.2015, genehmigt 23.09.2014, 14 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1002-15de «Schulbauten» (Stand 01.01.2015, genehmigt 23.09.2014, 30 S. vollstaendig gelesen, PL-03/05 Arbeitshilfen Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1000-15de «Gebaeude mit geringen Abmessungen» (Stand 01.01.2015, 21 S. vollstaendig gelesen, PL-03/05 Arbeitshilfen Brandschutz 2015), VKF-Brandschutzerlaeuterung 108-15de «Gewaehrleistung der Betriebsbereitschaft von Brandfallsteuerungen (BFS)» (Stand 01.01.2015, Kernteil 11 S. gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerlaeuterung 107-15de «Temporaere Aufstellung von Fluessiggasanlagen» (Stand 01.01.2015, 13 S. vollstaendig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-BSR 26-15de «Gefaehrliche Stoffe» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Run 37), DIN EN 12101-2 (Produktnorm NRWG-Ausloesevorrichtungen, PL-03/02 Brandschutzrichtlinien, Run 37), VKF-Brandschutzerlaeuterung 100-15de «Brandmauern» (Stand 01.01.2015, PL-03/02+04, Dateien vormals 0-Byte, Run 37 synchronisiert+ausgewertet), Normen-KB-Destillate `wissen/normen/destillate/vkf-brl-*` (Run 37 Doppelspur-Bereinigung §5o-§5y auf Destillat-Verweis gekuerzt), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», VKF-BSR 15-15de «Brandschutzabstaende Tragwerke Brandabschnitte» (Stand 01.01.2015/2017, PL-03/02_Brandschutzrichtlinien), VKF-BSR 16-15de «Flucht- und Rettungswege» (PL-03/_Projekte Themen/KISPI Fotos Ziff. 3.3.2-3.3.4/3.6), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» (Stand 17.05.2018) inkl. Ziff. 5/6/7 (Brandschutzabstaende/Tragwerke/Fluchtwege-Treppen), VKF-Brandschutzarbeitshilfe 1002-03d «Parkhaeuser und Einstellraeume fuer Motorfahrzeuge» (genehmigt 06.08.2003, PL-03/05 Arbeitshilfen Brandschutz 2015, ⚠ Datenstand vor bsvonline.ch pruefen), «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22) inkl. realer Muster-Plansatz BSPUB-1394520214-207 (PL-03/00 Brandschutzplaene bsvonline.ch), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30, refresh 2026-07-13: unveraendert, politische Vernehmlassung startet 08/2026), reale JANS-Faelle PL-03/_Projekte Themen: «Brandschutzabstand Regensdorf» (EFP AG Anfrage 16.02.2024 + JANS-Antwort 17.02.2024), «Tragwerk Brandschutzanforderung Thalwil Bohlweg 3» (Factsheet 05.03.2025, Aufstockung EFH), «Gaststaetenbetriebe Alpin Grassen Biwak» (Brandschutzkonzept Schmitter Brandschutz GmbH/Yves Schmitter, 16.–18.01.2025), «Pflegeheim Wald» (Foto Feuerwehrzufahrten-Bewegungsflaechen IMG_0546 + Foto Fluchtwegplan Tertianum Gruenegg IMG_0412) und «KISPI» (Fotos BSR 16-15 Ziff. 3.3.2-3.3.4/3.6 Beherbergungsbetriebe), VKF-Brandschutzerlaeuterung 101-15de «Bauten mit Atrien und Innenhoefen» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), VKF-Brandschutzerlaeuterung 102-15de «Bauten mit Doppelfassaden» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), Lignum-Dokumentation Brandschutz Themenblock 4 «Bauteile in Holz — Decken, Waende und Bekleidungen mit Feuerwiderstand» (Ausgabe Mai 2015, geprueft/anerkannt als Stand der Technik Papier 06.09.2017, PL-03/06 Lignum Brandschutz), Fritzsche/Boesch/Wipf/Kunz «Zuercher Planungs- und Baurecht» Band 2, Kap. 18 «Brandschutz» S. 1331/1343 (PL-03/07 Blaues Buch), VKF-Verzeichnis «Weitere Bestimmungen» 40-15de (PL-03/03 Verzeichnisse Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» Ziff. 2.4/12.1/12.2 «Parkings» (PL-03/05 Arbeitshilfen Brandschutz 2015/1001-15_Wohnbauten.pdf, vollstaendig gelesen 29 S.), VKF-Brandschutzrichtlinie 21-15 «Rauch- und Waermeabzugsanlagen» (PL-03/02 Brandschutzrichtlinien 2015-17-22/Rauch & Waermeabzugsanlagen.pdf, Ziff. 3.1 Tabelle), brandschutznachweis.ch «BS-Symbole» 01.01.2017 (vollstaendiger Grundsymbole+Ergaenzende-Symbole-Katalog, PL-03/00 Brandschutznachweis.ch/03_Symbole), «Erdbebengerechte mehrgeschossige Holzbauten» (Technische Dokumentation Lignum/SIA/SGEB/usic/HEV Schweiz, 2010, PL-03/06 Lignum Brandschutz/Lignum Erdbeben), Lignatec «Bauten in Holz — Brandschutz-Anforderungen» (Lignum, materielle Uebereinstimmung VKF-Vorschriften seit 1.1.2005 anerkannt, PL-03/06 Lignum Brandschutz/Lignum Bauten in Holz - Brandschutzanforderungen), VKF-BSR 12-15de «Brandverhuetung und organisatorischer Brandschutz» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Volltext gelesen Run 36), VKF-BSR 22-15de «Blitzschutzsysteme» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Volltext gelesen Run 36), VKF-BSR 24-15de «Waermetechnische Anlagen» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Ziff. 1-4 gelesen Run 36), VKF-BSR 25-15de «Lufttechnische Anlagen» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Ziff. 1-4 gelesen Run 36), «Erlaeuternder Bericht fuer die Vernehmlassung — Gesamtrevision Schweizerische Brandschutzvorschriften VKF» (VKF, 01.11.2013, V-3-0de, PL-03/02 Brandschutzrichtlinien 2015-17-22/BSV2015-Bericht und Aenderungen.pdf, Run 39 erstmals ausgewertet), «Teilrevision VKF-Brandschutzvorschriften 2017 — Aenderungen Brandschutzrichtlinien 2017 vs 2015» (AFC Basel/Lisa Hugenschmidt, PL-03/02 Brandschutzrichtlinien 2015-17-22/Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf, 34 S. Volltext-Delta, Run 39 erstmals ausgewertet), SZS steeldoc 03/15 «Brandschutz im Stahlbau» tec 02:2015 (Stahlbau Zentrum Schweiz, PL-03/02 Brandschutzrichtlinien 2015-17-22/SService Nr19091815480.pdf, Run 39 identifiziert), VKF-BSR 14-15de «Verwendung von Baustoffen» (28 S., PL-03/02 Brandschutzrichtlinien 2015-17-22/BSPUB-1394520214-77.pdf, Ausgabestempel 01.01.2017 IOTH-Beschluss 22.09.2016, Run 41 volltext-gelesen S.1-14+Anhang-Stichprobe S.15-20, konsistent mit bereits vorhandenem Normen-KB-Destillat `wissen/normen/destillate/vkf-brl-verwendung-baustoffe.md`; Run-39-Fehlidentifikation korrigiert — `Baustoff & Bauteile.pdf` ist BSR 13-15, nicht 14-15), Web bsvonline.ch/de/aktuell/information-bsv-2026 (WebFetch Run 39, 2026-07-14) + VKG-Medienmitteilung «Neue schweizerische Brandschutzvorschriften: Marschhalt bei Liberalisierungsbestrebungen und Ueberpruefung» (vkg.ch, WebSearch Run 39) + presseportal.ch/baublatt.ch (Bestaetigung technische Vernehmlassung 15.09.2025-11.01.2026 + ca. 11'000 Rueckmeldungen, Run 39 Refresh), «Normkonzept BSV 2026» (VKF/Keel & Raster Planungs- und Baurecht GmbH, Stand 06.10.2022, 170 S., PL-02/02_Normen/VKF_Norm/07_BSV 2026 Projekt (noch nicht in Kraft)/260711 VKF Normkonzept BSV 2026 Stand 2022-10-06.pdf, neu abgelegt 11.07.2026, Run 48 Kap. 1-2 (S.1-15) + Kap. 5 "Eckpunkte der Totalrevision" (S.90-129) volltext gelesen, 38 Eckpunkte), VKF-BSR 16-15de «Flucht- und Rettungswege» Stand 01.12.2022 (PL-03/02 Brandschutzrichtlinien 2015-17-22/BSPUB-1394520214-85.pdf, 35 S., Run 52 volltext-diff gegen 2015/2017-Fassungen), VKF-Brandschutznorm 1-15 Zweitkopie BSPUB-1394520214-57.pdf + VKF-BSR 13-15de Rev.2017 BSPUB-1394520214-71.pdf (Run 52, Register-Vervollstaendigung, redaktionelle Deltas), Web bsvonline.ch/de/aktuell/information-bsv-2026 (WebFetch Run 52, 2026-07-18) + vkg.ch-Medienmitteilungsseite (WebSearch Run 52, BSV-2026-Stand unveraendert bestaetigt)]
 links: [[recht-norm-quellenlandkarte]], [[energie-pv-brandschutz]], [[kartenportale-sharepoint-ablage]], [[recht-norm-tiefgarage-erschliessung]], [[kartenportale-naturgefahren-objektschutz]]
 querbezug_kb_normen: "Norm-Fundstellen (Ziffer/Ausgabe/Kennwert) der VKF-Richtlinien sind gemaess Fuehrungs-Matrix in der KB `normen` fuehrend: `wissen/normen/destillate/vkf-brl-*` + `wissen/normen/wiki/REGISTER`. Dieser Artikel liefert den PLANERISCHEN Kontext (Beschaffung, Verfahren, Anwendung), nicht die Fundstelle. Uebergaben an normen laufen ueber `wissen/normen/wiki/QUESTIONS.md` — nicht nur als Notiz hier ablegen (Lehre aus Run 8: der Fassungs-Flag aus Run 52 stand vier Wochen lang nur hier und kam in normen nie an)."
@@ -2027,6 +2027,89 @@ Mehrfachablage derselben Datei an drei Orten, kein neuer Fund.
 
 ---
 
+## 5ao · Feuerwehrplan-Zusatzvariante «Stoerfall ABC-Objekt» — was ein StFV-Betrieb zusaetzlich braucht (Run 54, 2026-07-20)
+
+Quelle: `PL - 03 Brandschutz/00 Brandschutzplaene bsvonline.ch/Brandschutzplaene BSPUB-1394520214-207/
+Feuerwehrplaene pdf/Stoerfall ABC-Objekt/` — alle 8 PDF (Titelblatt, Objektdatenblatt, Lagerliste,
+Anfahrts-, Situations-, Detailplan EG, Detailplan UG, Oekologieplan). Schliesst B42/C36; die Dateien
+waren in Run 50/52 nur **technisch** blockiert (EDEADLK), am 20.07.2026 wieder lesbar.
+
+Anonymisierter Musterbetrieb «Muster Spezialfarben AG» (Farbenproduktion + -lagerung, 150 Personen),
+Objektnummer 99.54321, Stand 30.05.2018, Plaene gezeichnet 08/2017, geaendert 16.05.2018.
+Klassifizierung im Titelblatt-Kopf: **«Stoerfall ABC-Objekt / Betrieb Stoerfallverordnung /
+Produktion + Lagerung Farben»**.
+
+**Der Delta gegenueber einem normalen Feuerwehrplansatz (§5b) — neun Zusatzelemente:**
+
+1. **Eigenstaendige «Lagerliste» der gefaehrlichen Gueter** — das zentrale Zusatzdokument. Spalten:
+   Stoff · Aggregatzustand (fest/fluessig/gasfoermig) · **Gefahren-/UN-Nr.** · **CAS-Nr.** ·
+   Behaelter · Menge · Geschoss · Gebaeude/Raum. Im Muster u. a. Butylacetat (33/1123, CAS
+   123-86-4, 200-l-Fass, 20 t), Xylol (30+33/1307, Tank 30 m³ erdverlegt), Heizoel extra leicht
+   (30/1202, 45 m³), Batteriesaeure (80/2796) und Laborgasflaschen. Ein Standard-Feuerwehrplan
+   fuehrt hoechstens eine grobe Zeile «besondere Gefahren».
+2. **Rubrik «ABC Gefahren» im Objektdatenblatt** (Verweis auf die Lagerliste) plus ABC-taugliche
+   **Sofortmassnahmen**: «Schliessen Auslauf Rueckhaltebecken / Abschalten Photovoltaik / bei Brand:
+   Schadstoffmessungen» — nicht die uebliche Raeumungs-/Rauchlogik.
+3. **Zusatz-Symbolik in den Detailplaenen:** «ABC Gefahren allgemein» sowie **Gefahrentafel mit
+   UN-Nummer**, differenziert nach entzuendbaren Gasen · entzuendbaren fluessigen Stoffen ·
+   entzuendbaren festen Stoffen · aetzenden Stoffen · **umweltgefaehrdenden Stoffen** ·
+   verschiedenen gefaehrlichen Stoffen.
+4. **«Ex Zone 2»-Kennzeichnung** explosionsgefaehrdeter Bereiche (im Muster: Abfuellerei,
+   Produktion 1+2, Rohstofflager Harze, Leergebindelager).
+5. **Eigener Oekologieplan «Entwaesserung»** (1:600) mit getrennter Fuehrung von Regen-, Schmutz-
+   und Mischabwasser, Rueckhaltebecken mit m³-Angaben (RHB Sued 400 m³), Versickerungsanlage,
+   Kontroll-/Einlaufschaechten und **Schiebern zur Notabsperrung**. Warnkasten im Muster:
+   «Vorplatz Produktion entwaessert Untergeschoss direkt in den Bach! Im Ereignisfall Schieber RHB
+   Sued umgehend schliessen.» Zusaetzlich die **ARA-Fliesszeiten** (Trockenwetter 40 Min. /
+   Regenwetter 20 Min.) als Einsatzgroesse.
+6. **Loeschwasserrueckhaltung als eigenes Planthema** — im Inhaltsverzeichnis als «Spezialplan
+   Loeschwasserrueckhalt UG» gefuehrt, im Musterset inhaltlich in den UG-Detailplan integriert:
+   Rueckhaltebecken je Lagerraum (109/180/15/111 m³), «Sumpf Loeschwasser unter Gitterrost» (8 m³),
+   Warnhinweis «Loeschwasserableitung in 1. UG» im EG-Plan.
+7. **Emulsionsspaltanlage** mit eigener Pumpenstation im UG (Behandlung oelhaltigen Loesch-/
+   Prozesswassers).
+8. **PV-Sicherheitssymbole** «Wechselrichter PV» und «Stromabschaltung (HV, PV, …)» als eigene
+   Abschaltpunkte — deckt sich mit dem Vollkatalog-Befund in §5b, Querverweis [[energie-pv-brandschutz]].
+9. **Erweiterter Verteiler** im Titelblatt: zusaetzlich **ABC-Wehr** und **kantonale Fachstelle**
+   neben Orts-/Stuetzpunktfeuerwehr und Feuerwehrinspektorat.
+
+**JANS-Praxiswert.** Der Satz ist die belegte Checkliste fuer die Frage, was ein Bauvorhaben
+**mit StFV-Unterstellung** ueber den normalen Brandschutz hinaus an Planungsleistung ausloest —
+und zwar frueh, weil drei davon **bauliche** Konsequenzen mit Flaechen-/Volumenbedarf haben:
+Loeschwasserrueckhalt (Beckenvolumen im UG), Abwassertrennung mit Schiebern, Spaltanlage. Wer
+das erst in der Ausfuehrungsplanung entdeckt, hat im UG kein Volumen mehr dafuer. In einer
+Machbarkeits-/Volumenstudie fuer Produktions-/Lagernutzungen gehoert die Frage «faellt der
+Betrieb unter die Stoerfallverordnung?» deshalb in die Grundlagenphase.
+
+⚠ Alle Zahlen oben sind **Beispielwerte des anonymisierten Musterplansatzes**, keine Bemessungs-
+werte. Die materielle StFV-Pflicht (Kurzbericht, Risikoermittlung) ist **nicht** Gegenstand dieses
+Plansatzes und bleibt Sache der kantonalen Fachstelle / des Stoerfall-Fachplaners.
+
+---
+
+## 5ap · `z_Administration/` — geklaert, ohne Fachinhalt (Run 54, 2026-07-20)
+
+`z_Administration/000_VKF_Lieferschein_Norm_2015.pdf` + `000_VKF_Bestellung_Norm_2015.pdf`
+(B43/C36) sind jetzt gelesen und **bestaetigt ohne planungsrelevanten Inhalt** — reine
+kaufmaennische Belege (Bestellformular + Lieferschein), **keine** Normenliste, keine VKF-Nummern,
+keine Gliederung des Normenwerks. Die Vermutung aus Run 52 ist damit verifiziert; der Ordner
+braucht keine weitere Beachtung.
+
+Ein einziger verwertbarer Nebenbefund zum **Bezugsweg** der gedruckten Vorschriften: die
+VKF-Brandschutzvorschriften wurden im Kt. ZH ueber den **Vorschriftenversand der Kantonalen
+Feuerpolizei / GVZ** bezogen — Produkt «Schweizerische Brandschutzvorschriften VKF, Ausgabe 2015,
+ergaenzt mit den Rechtsgrundlagen und den Ausfuehrungs-/Vollzugsbestimmungen fuer den Kanton
+Zuerich», mit einem **Aktualisierungs-Abonnement** fuer eben diesen ZH-Zusatzteil. Das erklaert,
+warum die ZH-Vollzugsbestimmungen in §1 als eigener Dokumentstrang neben der VKF-Norm gefuehrt
+werden. ⚠ Preis- und Kontaktangaben stammen von 2014/2015 und sind heute nicht mehr belastbar;
+aktueller Bezug laeuft ueber bsvonline.ch bzw. die GVZ direkt.
+
+Die Belege stammen aus einer Vorgaenger-Ablage eines fremden Architekturbueros und enthalten
+Personendaten Dritter — diese wurden **bewusst nicht** in die KB uebernommen (gleiche Praxis wie
+K31/K33, vgl. `raw/_INGESTED.md`).
+
+---
+
 ## 6 · Wann Skill `brandschutz`, wann nur Verweis
 
 - **Skill `brandschutz` aufrufen** bei: EI30/EI60-Ertuechtigung Bestand-Wand, RF-Klassen,
@@ -2068,7 +2151,8 @@ Mehrfachablage derselben Datei an drei Orten, kein neuer Fund.
   Anforderungen gelten fuer eine Spaenefeuerung/ein Spaenesilo in einer Schreinerei» (→ §5aj),
   «ab welcher Nennwaermeleistung braucht meine Schnitzelfeuerung einen eigenen Heizraum, und wie
   gross muss die Ausraeumoeffnung des Schnitzellagers sein» (→ §5ak), «welche Anforderungen gelten
-  fuer ein Pelletslager (Groesse, Rueckbrandsicherung, CO-Lueftung)» (→ §5al).
+  fuer ein Pelletslager (Groesse, Rueckbrandsicherung, CO-Lueftung)» (→ §5al), «was braucht ein Betrieb unter der Stoerfallverordnung zusaetzlich an
+  Feuerwehrplan-/Loeschwasserrueckhalt-Planung» (→ §5ao).
 - **Faktenbasis Recht:** Verfahrenseinbindung/Bestandesschutz → [[recht-norm-quellenlandkarte]]
   (GVZ-Brandschutz dort als Behoerde gefuehrt) + Skill `baurecht`. Solar-Schnittstelle →
   [[energie-pv-brandschutz]]. Erschliessungsgeometrie derselben Bauaufgabe (VSS-Normen) →

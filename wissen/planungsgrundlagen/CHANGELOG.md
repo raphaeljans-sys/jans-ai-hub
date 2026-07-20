@@ -2,6 +2,45 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-20 — Training Run 54 (Brandschutz + Kartenportale, Token-Vollgas)
+- **Blocker aus Run 53 aufgeloest:** OneDrive-Mount wieder normal lesbar (Lesbarkeits-Test ueber
+  alle vier PL-Ordner als erste Handlung, wie von Run 53 empfohlen). Dadurch liessen sich die seit
+  Run 50/52 rein technisch blockierten Kandidaten in einem Zug abarbeiten. `EDEADLK` bestaetigt
+  sich zum dritten Mal als voruebergehendes Sync-Timing-Problem, nicht als Recherche-Befund.
+- **NEU §5ao [[brandschutz-pl03-wegweiser]] (B42/C36 geschlossen):** Feuerwehrplan-Zusatzvariante
+  «Stoerfall ABC-Objekt» volltextlich ausgewertet (8 PDF) — 9 Delta-Elemente ggue. Standardsatz
+  (Lagerliste mit UN-/CAS-Nr., ABC-Rubrik + Sofortmassnahmen, Gefahrentafel-/Ex-Zonen-Symbolik,
+  Oekologieplan mit Notabsperr-Schiebern + ARA-Fliesszeiten, Loeschwasserrueckhalt,
+  Emulsionsspaltanlage, PV-Abschaltsymbole, erweiterter Verteiler). **Kernbefund fuer JANS:** drei
+  davon sind bauliche Anlagen mit UG-Volumenbedarf → die StFV-Frage gehoert in die Grundlagenphase
+  jeder Machbarkeits-/Volumenstudie fuer Produktions-/Lagernutzungen.
+- **NEU §5ap [[brandschutz-pl03-wegweiser]] (B43/C36 geschlossen):** `z_Administration/` als reine
+  kaufmaennische Belege **verifiziert** (keine Normenliste). Nebenbefund Bezugsweg BSV ueber
+  Vorschriftenversand Kant. Feuerpolizei/GVZ inkl. Aktualisierungs-Abo fuer den ZH-Zusatzteil
+  (⚠ Stand 2014/2015). Personendaten Dritter bewusst nicht uebernommen (Praxis wie K31/K33).
+- **NEU §8a [[kartenportale-naturgefahren-objektschutz]] (K35, seit Run 22 offen):** ZH-Naturgefahren-
+  Endpunkt gefunden — liegt im bekannten OGDZHWFS unter AWEL-Themengruppe **44 «Gewaesser»**, nicht
+  unter «Naturgefahr»; deshalb blieben fuenf Stichwort-Suchen erfolglos. Layer 44.13/44.2/44.7 +
+  Kartierungsstand 44.1, Stufen 1-4. Eigenstaendig nachverifiziert (200 Flaechen, volle
+  Stufenverteilung). Zwei Fehlinterpretations-Fallen explizit dokumentiert.
+- **§8b [[kartenportale-naturgefahren-objektschutz]] (K36):** Grundwasserschutzzonen von **emerging
+  auf established** gehoben — Positiv-Benchmark nachgeholt (bisher nur 0-Treffer, was
+  «funktioniert» und «liefert stumm nichts» nicht unterscheidet). Codeliste S1/S2(a-c)/S3(a)/
+  Spezialzone empirisch belegt; Klartext-Inkonsistenz im Areal-Layer vermerkt.
+- **Connector `geo-zh.mjs`:** zwei neue Produkte `--produkt naturgefahren` und `--produkt
+  grundwasser`, beide vor der Dokumentation live getestet (Positiv- + Negativfall). Grundwasser-
+  Ausgabe zonengerecht (S1/S2/S3 haben verschiedene Bauwirkung — erste Fassung gab pauschal den
+  S1/S2-Hinweis auch bei S3 aus, korrigiert). Regression zonenplan/baulinien gruen
+  (Giebelweg 12: 116.2/105.6 m · Seuzach: 29.8 m unveraendert).
+- **[[kartenportale-grundlagen-checkliste-neue-parzelle]]:** beide Pruefungen als Querschnitt-
+  Schritte aufgenommen; stale «ZH-Naturgefahren noch nicht kartiert»-Notiz bereinigt.
+- Register nachgefuehrt: `raw/_INGESTED.md` (4 Zeilen), `training/curriculum.md` (B42/B43 [x],
+  K35/K36 neu), `wiki/QUESTIONS.md` (C36 geschlossen). Report:
+  `outputs/2026-07-20_training-run54.md`.
+- **Hinweis fuer die Steuerung:** das Curriculum hat nach diesem Lauf **keine offenen
+  `[ ]`-Lektionen** mehr — naechste Laeufe ziehen aus QUESTIONS.md/Delta-Scans, eine neue
+  Curriculum-Staffel waere faellig.
+
 ## 2026-07-19 — Training Run 53 (Recht & Norm + Energie, Token-Vollgas, OneDrive-Ausweich-Lauf)
 - **Blocker:** der OneDrive-Mount war fuer diesen Lauf **systemisch** durch `EDEADLK` gesperrt —
   betraf auch bereits mehrfach erfolgreich gelesene Referenzdateien (`EN-ZH.pdf`,

@@ -1,7 +1,7 @@
 ---
 title: Naturgefahrenkarte & Objektschutzkonzept — Gefahrenstufen, Schutzziele, Bezugswege ZH/SZ
-status: emerging
-last_updated: 2026-07-18
+status: established
+last_updated: 2026-07-20 (Run 54)
 sources:
   - PL-02/04_Merkblätter/GVZ_Leitfaden_Hochwassergefahrenkarte.pdf ("Leitfaden zur Umsetzung der
     Gefahrenkarten Hochwasser", Baudirektion Kt. ZH/AWEL Abt. Wasserbau + Gebäudeversicherung
@@ -90,7 +90,7 @@ bautechnische Auflage.
 | Kanton | Portal | Layer/Endpunkt | Login |
 |---|---|---|---|
 | **SZ** | `map.geo.sz.ch` | Gruppe `grp_Naturrisiken_Naturgefahrenkarte_V2`, Layer `ch.sz.a012b.naturgefahrenkarte.{gefahrenflaechen,hinweisflaechen,perimeter_nicht_beurteilt,perimeter_in_ueberarbeitung}.ueberlagert` — direkter Kartenlink mit Zentrumskoordinate (E/N) + Zoom moeglich (siehe Beispiel unten) | login-frei (WebGIS-Ansicht) |
-| **ZH** | vermutlich `maps.zh.ch` GIS-Browser (AWEL-Zustaendigkeit) analog zum Gewaesserraum-Layer | **noch nicht kartiert/getestet** — offene Aufgabe (der **rechtliche/verfahrensmaessige** Unterbau fuer Hochwasser ist seit Run 37 belegt, s. Abschnitt 9) | offen |
+| **ZH** | `maps.zh.ch/wfs/OGDZHWFS` (OGD-WFS, AWEL Wasserbau) | **GELOEST Run 54, 2026-07-20** — `ms:ogd-0044_giszhpub_wb_syn_gk_f` (synoptische Gefahrenkarte 44.13) + `_wb_hw_gk_f` (Hochwasser 44.2) + `_wb_mb_gk_f` (Massenbewegungen 44.7); im Connector als `--produkt naturgefahren`. Details Abschnitt 8a | login-frei |
 | **Alle CH (privat)** | `schutz-vor-naturgefahren.ch` | Adressgenauer "Naturgefahren-Check" (Eigentuemer/Architekten-Ansicht) + generische Gebaeudeschutz-Empfehlungen je Bauteilgruppe (Dach/Fassade, Innenraum, Technik, Tragstruktur, Oeffnungen/Zugaenge, Umgebung) x Naturgefahr (Hochwasser, Rutschung, Hagel, Schnee, Erdbeben, ...) | login-frei |
 
 **Beispiel echter SZ-Direktlink** (Reckholdernstrasse 20, Willerzell, Zentrumskoordinate
@@ -457,10 +457,8 @@ prüfen (dieselbe offene Aufgabe wie für die generelle ZH-Naturgefahrenkarte in
   `numberMatched="0"` — der Endpunkt **funktioniert** (kein Server-/Auth-Fehler),
   an diesen zwei Benchmark-Parzellen liegt schlicht **keine** Grundwasserschutz-
   zone (plausibel, beide nicht in einem bekannten Grundwasserfassungsgebiet).
-  **Noch offen:** ein Positiv-Benchmark (Parzelle mit tatsaechlicher GWS-Zone,
-  z.B. Talnaehe Glattal/Limmattal) zur Feldliste-Verifikation, bevor der
-  Connector einen `--produkt grundwasserschutz` erhaelt (Status **emerging**
-  — Endpunkt belegt, aber noch nicht am Positiv-Fall verifiziert).
+  **ERLEDIGT Run 54 (2026-07-20):** Positiv-Benchmark erbracht, Status
+  **established**, Connector-Produkt gebaut — s. Abschnitt 8b.
 - **ZH-Endpunkt fuer Naturgefahrenkarte weiterhin offen (Run 33 bestaetigt):**
   dieselbe erfolgreich abgerufene `GetCapabilities`-Antwort enthaelt **keinen**
   Treffer fuer die Stichworte "gefahr"/"hazard"/"naturgefahr" (ausser dem
@@ -472,9 +470,112 @@ prüfen (dieselbe offene Aufgabe wie für die generelle ZH-Naturgefahrenkarte in
   offener Layer. Naechster Ansatz bleibt: den Datensatz-Alias direkt bei der
   AWEL-Fachstelle erfragen, nicht weiter erraten.
 - **SZ-Layer-Endpunkt** nur als manueller WebGIS-Link bekannt, nicht als `identify`-faehiger
-  REST-Endpunkt getestet — Connector-Erweiterung erst nach erfolgreichem Test, nicht vorher als
-  `--produkt naturgefahren` versprechen.
+  REST-Endpunkt getestet — Connector-Erweiterung erst nach erfolgreichem Test. (Der **ZH**-Teil
+  dieser Aufgabe ist mit Run 54 erledigt, s. Abschnitt 8a; SZ bleibt offen.)
+
+## 8a. ZH-Naturgefahrenkarte — Endpunkt gefunden und verifiziert (Run 54, 2026-07-20)
+
+**Der Fund.** Die ZH-Gefahrenkarte liegt im **bereits bekannten** `maps.zh.ch/wfs/OGDZHWFS` —
+kein neuer Dienst, kein Login. Sie war nur deshalb ueber fuenf Laeufe hinweg unauffindbar, weil
+alle bisherigen Suchen nach den Stichworten *naturgefahr* / *gefahr* / *hazard* im Layer-**Namen**
+filterten. Der Kanton fuehrt die Gefahrenkarte aber unter der **AWEL-Themengruppe 44 «Gewaesser/
+Wasserbau»**, weil Hochwasser der dominante Prozess ist. Ein Volltext-Grep ueber das gesamte
+`GetCapabilities` (801 KB, 516 Layer) statt einer Stichwort-Suche legte sie frei.
+
+> **Lehre fuer kuenftige Endpunkt-Suchen:** nicht nach dem Fach-Stichwort im Layer-Namen suchen,
+> sondern das GetCapabilities **vollstaendig** durchsuchen und die kantonale **Themengruppen-Logik**
+> mitdenken (wer ist fachlich zustaendig — hier AWEL Wasserbau, nicht ein «Naturgefahren»-Amt).
+
+**Layer (alle login-frei, GeoJSON via `OUTPUTFORMAT=geojson`):**
+
+| Zweck | Typname | Nr. |
+|---|---|---|
+| **Synoptische Gefahrenkarte** (Kombination aller Prozesse) — der Standardlayer | `ms:ogd-0044_giszhpub_wb_syn_gk_f` | 44.13 |
+| Gefahrenbereiche **Hochwasser** | `ms:ogd-0044_giszhpub_wb_hw_gk_f` | 44.2 |
+| Gefahrenbereiche **Massenbewegungen** (Rutschung) | `ms:ogd-0044_giszhpub_wb_mb_gk_f` | 44.7 |
+| Intensitaetsflaechen HW je Wiederkehrperiode | `…_wb_hw_ik30/100/300/1000_f` | — |
+| Intensitaetsflaechen MB (inkl. `_ikp_f` permanente Rutschungen) | `…_wb_mb_ik30/100/300_f` | — |
+| **Kartierungsstand je Gemeinde** | `…_wb_gk_projektuebersicht_f` | 44.1 |
+
+**Attribute** (per `DescribeFeatureType` + realer Antwort verifiziert): `gefstufe` (Integer 1-4) und
+`gefstufe_txt`, zusaetzlich prozessgetrennt `gefstufe_hw`/`_txt` (Hochwasser) und `gefstufe_mb`/`_txt`
+(Massenbewegung). Die Stufenskala deckt sich exakt mit der in Abschnitt 2 dokumentierten
+CH-Systematik:
+
+| `gefstufe` | `gefstufe_txt` | Farbe |
+|---|---|---|
+| 1 | Restgefaehrdung | gelb-weiss |
+| 2 | geringe Gefaehrdung | gelb |
+| 3 | mittlere Gefaehrdung | blau |
+| 4 | erhebliche Gefaehrdung | rot |
+
+**Eigenstaendig verifiziert 2026-07-20** (nicht nur Layer-Existenz): `GetFeature` ueber ein
+10x10-km-Fenster Langnau/Adliswil lieferte 200 Flaechen mit der vollstaendigen Stufenverteilung
+(80x Stufe 1, 94x Stufe 2, 25x Stufe 3, 1x Stufe 4) — der Layer ist also nicht nur vorhanden,
+sondern **inhaltlich gefuellt und differenziert**.
+
+**Positiv-Benchmark (Punktlage):** *Buchserstrasse 9, 8108 Daellikon* — EGRID `CH875077785530`,
+Parzelle 1923, BFS 84 → **Stufe 3 «mittlere Gefaehrdung» (blau)**, Prozess Hochwasser
+(Massenbewegung: keine). **Negativ-Kontrolle:** *Giebelweg 12, 8135 Langnau am Albis*
+(EGRID `CH879777718909`, Parz. 3338) → keine Gefahrenflaeche.
+
+**Connector.** `geo-zh.mjs --produkt naturgefahren` (Run 54) fragt alle drei Gefahrenbereich-Layer
+ab, meldet die **hoechste** Stufe als planungsbestimmend und gibt ab Stufe 3 einen Objektschutz-
+Hinweis aus. Default-Radius ±5 m (die Punktlage entscheidet, anders als bei Baulinien).
+
+⚠ **Zwei Fallen beim Lesen des Ergebnisses:**
+1. **Kein Treffer heisst «hier keine Gefahrenflaeche», nicht «Gemeinde nicht kartiert».** Wer das
+   verwechselt, haelt eine unkartierte Parzelle faelschlich fuer sicher. Der Kartierungsstand ist
+   ein **eigener** Layer (44.1) — bei Verdacht dort gegenpruefen.
+2. **Sturz/Steinschlag fuehrt der ZH-WFS nicht** (topografisch plausibel, ZH ist kein alpiner
+   Sturzkanton). Fuer Sturzprozesse bleibt die kantonale Fachstelle zustaendig — im Kt. SZ dagegen
+   ist Sturz Teil der Gefahrenkarte (Abschnitt 3).
 - Verhaeltnis zu [[recht-norm-abstandsvorschriften-wald-gewaesser]] (Wald/Gewaesser als eigene
   Abstandsvorschrift) und Brandschutz-Naturgefahren-Bezug in [[energie-pv-brandschutz]] (SIA 261
   bei Solaranlagen) — Naturgefahrenkarte ist die uebergeordnete Planungsgrundlage, aus der sich
   Teile dieser Anforderungen ableiten.
+
+## 8b. ZH-Grundwasserschutzzonen — Positiv-Benchmark und Connector (Run 54, 2026-07-20)
+
+Seit Run 33 war der Endpunkt bekannt, aber **nur mit 0-Treffer-Abfragen** belegt. Das ist ein
+schwacher Beweis: eine leere `FeatureCollection` unterscheidet nicht zwischen «Endpunkt arbeitet
+korrekt, hier liegt keine Zone» und «Endpunkt liefert stumm nichts». Run 54 schliesst diese Luecke.
+
+**Verifikation.** Eine 300er-Stichprobe aus `ms:ogd-0143_arv_basis_grundwasser_gws_zone_f` liefert
+die vollstaendige, empirisch belegte Codeliste:
+
+| Code | `code_bezeichnung` | n (Stichprobe 300) |
+|---|---|---|
+| S1 | Fassungsbereich | 127 |
+| S2 / S2a / S2b / S2c | Engere Schutzzone | 71 / 13 / 7 / 1 |
+| S3 / S3a | Weitere Schutzzone | 79 / 1 |
+| Spezialzone | Spezialzone | 1 |
+
+Das **Schutzareal** (`…_gws_areal_f`, Layer 0149) fuehrt planerisch gesicherte **kuenftige** Zonen
+mit eigenem Codewert `ZukuenftigeZoneS1` / `ZukuenftigeZoneS2` (Beispiele: «Grundwasserschutzareal
+Weiacher Hard», «… Zelgli»). ⚠ Beobachtete Eigenheit der Quelldaten: bei `ZukuenftigeZoneS1` steht
+als Klartext «zukuenftige **engere** Schutzzone», obwohl S1 sonst der Fassungsbereich ist — im
+Zweifel den **Code**, nicht den Klartext auswerten.
+
+**Weitere belegte Felder je Treffer:** `bezeichnung` (Fassungsname), `nutzniesser` (Gemeinde/Werk),
+`rechtsstatus` (z. B. `inKraft`), `grundwasserrechtsnr`, `festsetzungsdatum`, `bfsnr`.
+
+**Positiv-Benchmark:** *Hardau 24, 8408 Winterthur* — EGRID `CH827726200895`, Parzelle WU2856,
+BFS 230 → **S3 «Weitere Schutzzone» «Hard, Klaeranlage»**, `inKraft`, GW-Recht `i 01-0028, i 03-0025`.
+Zusaetzlich Punkt-in-Polygon gegen Zone «Rotzibuech» (Rorbas, BFS 53, S2) — 1 Treffer.
+**Negativ-Kontrolle:** Giebelweg 12 Langnau → keine Zone. Damit sind die frueheren 0-Treffer an
+Langnau/Wetzikon als **echte Negativbefunde** bestaetigt.
+
+**Connector.** `geo-zh.mjs --produkt grundwasser` (Run 54), Default-Radius ±5 m. Die Ausgabe ist
+**zonengerecht** formuliert, weil sich die Bauwirkung fundamental unterscheidet:
+
+- **S1 Fassungsbereich** — Bauten grundsaetzlich unzulaessig.
+- **S2 engere Schutzzone** — stark eingeschraenkt; UG/Aushub ins Grundwasser i. d. R. unzulaessig,
+  Erdwaermesonden verboten; AWEL-Vorabklaerung noetig.
+- **S3 weitere Schutzzone** — Bauen moeglich, aber auflagenbehaftet (Aushubtiefe/Grundwasserabstand,
+  Waermesonden meist verboten, Tankanlagen eingeschraenkt).
+
+Rechtsgrundlage GSchG/GSchV, Vollzug AWEL. Fuer die Grundwasser**karte** (Flurabstand, Weisse-Wanne-
+Entscheid) bleibt Abschnitt 6 massgeblich; die Schutzzone ist die **rechtliche**, die Karte die
+**bautechnische** Grundlage — beide gehoeren in die Grundlagenphase, vgl.
+[[kartenportale-grundlagen-checkliste-neue-parzelle]].

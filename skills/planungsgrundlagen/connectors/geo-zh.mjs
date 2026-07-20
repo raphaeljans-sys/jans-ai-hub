@@ -47,7 +47,20 @@
  *                                           separat, hier nicht erschlossen. Kein Negativbeweis: auch
  *                                           ohne Treffer kann ein Gebaeude Schutzobjekt sein (§ 209
  *                                           Abs. 2 PBG).
- *                             height/orthofoto/dtm/bauzonen/zonenplan/baulinien/denkmalschutz brauchen eine Koordinate -> nur mit --adresse
+ *                               grundwasser = Grundwasserschutzzonen S1/S2/S3 (0143) + Schutzareale
+ *                                           (0149, kuenftige Zonen) Kt. ZH an der Punktlage (±5 m,
+ *                                           --radius). Meldet Zonencode, Rechtsstatus, GW-Rechts-Nr.
+ *                                           und die zonengerechte Bauwirkung (S1 unzulaessig / S2 stark
+ *                                           eingeschraenkt / S3 auflagenbehaftet).
+ *                               naturgefahren = Gefahrenkarte Kt. ZH (synoptisch 44.13 + Hochwasser 44.2
+ *                                           + Massenbewegung 44.7) an der Punktlage (±5 m, --radius).
+ *                                           Stufen 1-4 = Restgefaehrdung/gering/mittel/erheblich
+ *                                           (gelb-weiss/gelb/blau/rot); ab Stufe 3 Objektschutz-Hinweis.
+ *                                           ACHTUNG: kein Treffer heisst "hier keine Gefahrenflaeche",
+ *                                           NICHT "Gemeinde nicht kartiert" (Kartierungsstand: 44.1).
+ *                                           Sturz/Steinschlag fuehrt der ZH-WFS nicht.
+ *                             height/orthofoto/dtm/bauzonen/zonenplan/baulinien/denkmalschutz/grundwasser/
+ *                             naturgefahren brauchen eine Koordinate -> nur mit --adresse
  *   --download                bei orthofoto/dtm zusaetzlich die hoechstaufgeloesten Kacheln laden
  *   --radius <n>              Suchradius: Meter fuer baulinien (default 150) bzw. STAC-bbox-Grad
  *                             fuer orthofoto/dtm (default 0.0008, sonst adaptiv verdoppelt)
@@ -211,6 +224,43 @@ async function fetchGrundwasser(e, n, half = 5) {
   }
   const total = Object.values(out).reduce((s, a) => s + a.length, 0);
   return { ...out, treffer: total, radius_m: half };
+}
+// Naturgefahren Kt. ZH (K10-ZH-Endpunkt, Run 54 2026-07-20). Seit Run 22 offen, weil frühere
+// Läufe im GetCapabilities nach "naturgefahr"/"gefahren" als Layer-NAMEN suchten. Die ZH-
+// Gefahrenkarte liegt aber unter der AWEL-Themengruppe 44 «Gewässer/Wasserbau» — deshalb blieb
+// sie unentdeckt. Kein neuer Dienst nötig, derselbe OGDZHWFS. Verifiziert 2026-07-20:
+// Stufen 1-4 = Restgefährdung (gelb-weiss) / gering (gelb) / mittel (blau) / erheblich (rot),
+// zusätzlich getrennt nach Prozess HW (Hochwasser) und MB (Massenbewegung/Rutschung).
+// Sturz/Steinschlag ist im ZH-WFS nicht geführt (kein alpiner Sturzprozess im Kanton).
+const NATURGEFAHR_LAYER = {
+  synoptisch: "ms:ogd-0044_giszhpub_wb_syn_gk_f",  // Kombination HW + MB (44.13)
+  hochwasser: "ms:ogd-0044_giszhpub_wb_hw_gk_f",   // Gefahrenbereiche Hochwasser (44.2)
+  massenbewegung: "ms:ogd-0044_giszhpub_wb_mb_gk_f", // Gefahrenbereiche Massenbewegungen (44.7)
+};
+// Gefahrenflaechen liegen auf der Parzelle -> kleiner Radius; die Punktlage entscheidet.
+async function fetchNaturgefahren(e, n, half = 5) {
+  const out = {};
+  for (const [key, layer] of Object.entries(NATURGEFAHR_LAYER)) {
+    try {
+      const d = await getJson(ogdWfsUrl(layer, e, n, half));
+      out[key] = (d.features || []).map((f) => {
+        const p = f.properties || {};
+        return {
+          stufe: p.gefstufe ?? null,
+          stufe_txt: p.gefstufe_txt || null,
+          hochwasser: p.gefstufe_hw_txt || null,
+          massenbewegung: p.gefstufe_mb_txt || null,
+        };
+      });
+    } catch { out[key] = []; }
+  }
+  // hoechste Gefahrenstufe ueber alle Prozesse = die planungsbestimmende
+  const alle = Object.values(out).flat().map((r) => r.stufe).filter((v) => v != null);
+  const max = alle.length ? Math.max(...alle) : null;
+  const MAXTXT = { 1: "Restgefährdung (gelb-weiss)", 2: "geringe Gefährdung (gelb)",
+    3: "mittlere Gefährdung (blau)", 4: "erhebliche Gefährdung (rot)" };
+  return { ...out, stufe_max: max, stufe_max_txt: max ? MAXTXT[max] : null,
+    treffer: Object.values(out).reduce((s, a) => s + a.length, 0), radius_m: half };
 }
 function ogdWfsUrl(layer, e, n, half = 2) {
   const bbox = `${e - half},${n - half},${e + half},${n + half},urn:ogc:def:crs:EPSG::2056`;
@@ -657,7 +707,15 @@ function isoDate() {
                 for (const z of gw.schutzareal) {
                   L(`   grundwasser: ⚠ Schutzareal (kuenftige Zone) ${z.code ?? "?"} «${z.bezeichnung ?? "?"}», ${z.rechtsstatus ?? "?"}`);
                 }
-                L(`   → Bauen in S1/S2 stark eingeschraenkt bis unzulaessig; UG/Aushub/Waermesonden mit AWEL klaeren (GSchG/GSchV).`);
+                // Hinweis zonengerecht: S1/S2 und S3 haben deutlich verschiedene Bauwirkung.
+                const codes = gw.schutzzone.map((z) => z.code || "");
+                if (codes.some((k) => k.startsWith("S1"))) {
+                  L(`   ⚠ S1 (Fassungsbereich): Bauten grundsaetzlich unzulaessig — vor jeder weiteren Planung AWEL kontaktieren.`);
+                } else if (codes.some((k) => k.startsWith("S2"))) {
+                  L(`   ⚠ S2 (engere Schutzzone): Bauten stark eingeschraenkt, UG/Aushub ins Grundwasser i.d.R. unzulaessig, Waermesonden verboten — AWEL-Vorabklaerung noetig.`);
+                } else {
+                  L(`   S3 (weitere Schutzzone): Bauen moeglich, aber bewilligungspflichtige Auflagen — Aushubtiefe/Grundwasserabstand, Waermesonden meist verboten, Tankanlagen eingeschraenkt (GSchG/GSchV, AWEL).`);
+                }
               } else {
                 L(`   grundwasser (±${half}m): keine Schutzzone/kein Schutzareal — Parzelle liegt ausserhalb (Negativbefund, Endpunkt positiv-verifiziert Run 54)`);
               }
@@ -666,6 +724,28 @@ function isoDate() {
                 for (const dir of a.out) {
                   if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
                   const dest = join(dir, fn); writeFileSync(dest, JSON.stringify(gw, null, 2)); result.files.push(dest);
+                  L(`     -> ${dest}`);
+                }
+              }
+            } else if (prod === "naturgefahren") {
+              if (result.kanton !== "zh") throw new Error(`naturgefahren ist nur fuer Kt. ZH hinterlegt (Kanton ${result.kanton})`);
+              const half = a.radius ? Number(a.radius) : 5;
+              const ng = await fetchNaturgefahren(c.east, c.north, half);
+              result.produkte.naturgefahren = ng;
+              if (ng.treffer) {
+                L(`   naturgefahren: massgebende Stufe ${ng.stufe_max} — ${ng.stufe_max_txt}`);
+                for (const r of ng.synoptisch) {
+                  L(`     synoptisch: ${r.stufe_txt} (Hochwasser ${r.hochwasser ?? "?"} / Massenbewegung ${r.massenbewegung ?? "?"})`);
+                }
+                if (ng.stufe_max >= 3) L(`   ⚠ Stufe ${ng.stufe_max}: Objektschutznachweis erforderlich, Bauvorschriften je Stufe pruefen (§ 20/17 PBG, SIA 261/261-1) → Skill planungsgrundlagen`);
+              } else {
+                L(`   naturgefahren (±${half}m): keine kartierte Gefahrenflaeche (Negativbefund; Endpunkt positiv-verifiziert Run 54 — nicht mit "nicht kartiert" verwechseln, Kartierungsstand je Gemeinde via Layer 44.1)`);
+              }
+              if (a.out.length) {
+                const fn = `Naturgefahren-ZH_${result.bfs ?? "X"}_${result.parzelle ?? "X"}_${isoDate()}.json`;
+                for (const dir of a.out) {
+                  if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
+                  const dest = join(dir, fn); writeFileSync(dest, JSON.stringify(ng, null, 2)); result.files.push(dest);
                   L(`     -> ${dest}`);
                 }
               }

@@ -1,7 +1,7 @@
 ---
 title: Grundlagen-Checkliste «neue Parzelle» — was JANS IMMER zuerst holt (M1)
 status: established
-last_updated: 2026-06-30
+last_updated: 2026-07-20 (Run 54)
 sources: [eigene Connectoren skills/planungsgrundlagen/connectors/ (geo-zh.mjs, geo-sz.mjs, geoshop-zh.mjs, gwr-bund.mjs, behoerden-zh.mjs), validiert end-to-end am Benchmark Giebelweg 12 Langnau a.A. (EGRID CH879777718909, Kat. 3338, BFS 136) am 2026-06-30, zusammengefuehrt aus den established-Artikeln der KB]
 links: [[kartenportale-oereb-egrid-bezug]], [[kartenportale-zonenplan-zh]], [[kartenportale-baulinien-abstandslinien-zh]], [[kartenportale-bund-geodaten]], [[kartenportale-geoportale-uebersicht]], [[kartenportale-sharepoint-ablage]], [[recht-norm-quellenlandkarte]], [[brandschutz-pl03-wegweiser]], [[energie-uebersicht]], [[oereb-schwyz]], [[kartenportale-naturgefahren-objektschutz]], [[kartenportale-werkleitungskataster]]
 ---
@@ -38,8 +38,16 @@ eigenen Connectoren automatisiert; jeder Punkt verlinkt den vertiefenden Artikel
 - **Recht/Norm**: welcher Erlass/Datenstand gilt → [[recht-norm-quellenlandkarte]] (Skill `baurecht` fuer die Wuerdigung).
 - **Brandschutz**: QSS-Einstufung + Vorschriftenstand BSV 2015/17/22 (⚠ BSV 2026 verschoben/Marschhalt) → [[brandschutz-pl03-wegweiser]].
 - **Naturgefahren** (bei Hang-/Bachlage IMMER pruefen, nicht nur bei offensichtlichem Risiko):
-  Gefahrenstufe rot/blau/gelb kann trotz unauffaelligem Zonenplan/Baulinien das Baufeld einschraenken
-  → [[kartenportale-naturgefahren-objektschutz]].
+  Gefahrenstufe rot/blau/gelb kann trotz unauffaelligem Zonenplan/Baulinien das Baufeld einschraenken.
+  **Seit Run 54 automatisiert** (Kt. ZH): `geo-zh.mjs --adresse "…" --produkt naturgefahren` —
+  meldet die massgebende Gefahrenstufe 1-4 und ab Stufe 3 den Objektschutz-Hinweis.
+  ⚠ Kein Treffer = «hier keine Gefahrenflaeche», NICHT «Gemeinde nicht kartiert»
+  → [[kartenportale-naturgefahren-objektschutz]] §8a.
+- **Grundwasserschutzzone** (bei jedem Vorhaben mit **Untergeschoss/Aushub/Erdwaermesonde**):
+  S1 = faktisches Bauverbot, S2 = UG/Sonden i.d.R. unzulaessig, S3 = auflagenbehaftet — das
+  entscheidet ueber das UG und damit ueber die Wirtschaftlichkeit, bevor gezeichnet wird.
+  `geo-zh.mjs --adresse "…" --produkt grundwasser` (Run 54)
+  → [[kartenportale-naturgefahren-objektschutz]] §8b.
 - **Ablage**: Produkte sofort in die PL-01-Sollstruktur legen → [[kartenportale-sharepoint-ablage]].
 
 **Nicht Teil der 8 Pflicht-Grundlagen, aber vor Baueingabe/Ausfuehrung noetig:** der
@@ -87,8 +95,10 @@ des Connectors zu Beginn jedes Laufs.
   Festsetzungsdatum; BSV-Stand). ⚠ Laufende BZO-Revision (proj-Layer) immer mitziehen — sonst
   rechnet die Studie auf veraltetem Recht.
 - **Offen (Folge-Loops):** senkrechtes Abstandsmass Linie↔Grenze automatisiert (Agent
-  `baulinien-analyst` mit Parzellengeometrie aus Schritt 4); ZH-Naturgefahren-Endpunkt noch nicht
-  kartiert (vermutlich AWEL, analog Gewaesserraum-Layer).
+  `baulinien-analyst` mit Parzellengeometrie aus Schritt 4).
+  **ERLEDIGT Run 54 (2026-07-20):** der ZH-Naturgefahren-Endpunkt ist gefunden, verifiziert und
+  als `--produkt naturgefahren` gebaut (AWEL-Themengruppe 44 «Gewaesser», nicht «Naturgefahr» —
+  daher die lange Suche); ebenso `--produkt grundwasser` (Schutzzonen S1/S2/S3).
 - **M2 erledigt 2026-07-13 (Run 22):** die Studien-Skills `machbarkeit`/`ankaufspruefung`/
   `behoerden-vorabklaerung` referenzieren den Skill `planungsgrundlagen` jetzt explizit als
   bevorzugte GIS-/Geodaten-Quelle (statt nur manuellem GIS-Browser-Verweis) — Anbindung war zuvor
