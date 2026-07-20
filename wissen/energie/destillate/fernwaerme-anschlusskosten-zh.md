@@ -5,7 +5,7 @@ ausgabe: Tarifsystem 2022, Ausgabe Juni 2026 (ewz); Preisüberwacher-Bericht Dat
 gelesen: 2026-07-14/2026-07-15/2026-07-17/2026-07-18 (Web via WebSearch/WebFetch; ewz-Tarifblatt, Preisüberwacher-PDF, Agro-Energie-Tarifblatt und Einsiedler Preisblatt vollständig gelesen — Agro-PDF seitenweise gerendert; 15.07. ergänzt um Energieverbund-Einsiedeln-Infoblatt 2017 (pdftotext), EBL Energie Rigi + ECOGEN Arth-Goldau Web; 17.07. Live-Richtpreisrechner Energie Ausserschwyz per curl/htmx-Endpunkt `/heating/?id=` für 17 weitere Adressen in Freienbach/Wollerau/Pfäffikon SZ/Altendorf/Siebnen/Galgenen/Lachen abgefragt, EASZ-AGB (15 Seiten) und Agro-Reglement (Art. 4+5, Vertragsdauer) vollständig per pdftotext gelesen; 18.07. erneuter Live-Rechner-Zugriff (Run T6): 1 neue Adresse Bäch SZ/Freienbach erfolgreich abgefragt (Fernwärme dort nicht verfügbar), danach durchgehend HTTP 500 auf dem Server bei jeder weiteren `/heating/?q=`-Suche — mit curl (mehrere frische Sessions) UND WebFetch bestätigt, also serverseitig und nicht clientseitig; EBL Energie Rigi FAQ-PDF + Fernwärme-Seite sowie ECOGEN-Arth-Goldau-Seite erneut per WebFetch geprüft, keine neuen CHF-Zahlen)
 datenstand: 2026-06 (ewz-Formel), 2022/2023 (Preisüberwacher-Marktbeobachtung), 2025/2026 (Agro Energie Schwyz Tarife), 2022 (Agro Energie Schwyz Reglement/Vertragsdauer), 2025 (Energie Einsiedeln), 2017 (Energieverbund Einsiedeln, veraltet), 2026 (Küssnacht/Arth-Goldau, keine CHF-Zahlen, 2. Bestätigung 18.07.2026; Live-Richtpreisrechner-Abfragen 17.07.2026 + 18.07.2026), 2024 (Energie Ausserschwyz AGB), ⚠ "Herbst 2024"-Aktualisierung nur über Sekundärquelle, nicht PDF-primärverifiziert
 status: emerging
-last_updated: 2026-07-18
+last_updated: 2026-07-20
 ---
 
 # Fernwärme-Anschlusskosten Kt. Zürich und Kt. Schwyz (ergänzt Anschlusspflicht-Destillate)
@@ -175,6 +175,17 @@ Pfäffikon SZ (Alte Landstrasse 3), Siebnen (Aabächliweg 5), Altendorf (Acheren
 | 22 | CHF 37'900 | CHF 3'400 | Freienbach (Blumenweg 1, 3), Galgenen (Allmeindstrasse 10), Siebnen (Aabächliweg 5) — 4 Adressen, identisch |
 | 48 | CHF 58'300 | CHF 5'200 | Pfäffikon SZ (Alte Landstrasse 3) |
 | 74 | CHF 73'400 | CHF 6'600 | Galgenen (Allmeindstrasse 1) |
+| 15 | CHF 28'400 | CHF 2'500 | Lachen SZ (Zürcherstrasse 10a) — 20.07.2026, Run 82 |
+| 33 | CHF 48'300 | CHF 4'300 | Pfäffikon SZ (Etzelstrasse 10) — 20.07.2026, Run 82 |
+| 41 | CHF 54'000 | CHF 4'800 | Pfäffikon SZ (Bahnhofstrasse 11) — 20.07.2026, Run 82 |
+| 44 | CHF 56'100 | CHF 5'000 | Pfäffikon SZ (Bahnhofstrasse 13) — 20.07.2026, Run 82 |
+| 50 | CHF 59'200 | CHF 5'300 | Pfäffikon SZ (Etzelstrasse 103) — 20.07.2026, Run 82 |
+| 51 | CHF 59'800 | CHF 5'400 | Lachen SZ (Zürcherstrasse 1, 10), Pfäffikon SZ (Bahnhofstrasse 1) — 3 Adressen, identisch, 20.07.2026, Run 82 |
+| 72 | CHF 72'300 | CHF 6'500 | Pfäffikon SZ (Etzelstrasse 101) — 20.07.2026, Run 82 |
+| 78 | CHF 75'800 | CHF 6'800 | Pfäffikon SZ (Bahnhofstrasse 14) — 20.07.2026, Run 82 |
+| 107 | CHF 94'800 | CHF 8'500 | Pfäffikon SZ (Churerstrasse 103) — 20.07.2026, Run 82 |
+| 144 | CHF 115'500 | CHF 10'300 | Pfäffikon SZ (Bahnhofstrasse 16) — 20.07.2026, Run 82 |
+| 168 | CHF 130'300 | CHF 11'700 | Pfäffikon SZ (Churerstrasse 101) — 20.07.2026, Run 82 |
 
 \* kW wie zuvor aus dem kantonalen Förderbeitrag zurückgerechnet: kW = (Förderbeitrag − 4'000)/200
 ([[foerderprogramm-energie-sz-2026]]).
@@ -195,8 +206,13 @@ eine einzige Gerade über den gesamten Bereich):
 
 - **Segment 1 (10–22 kW, 6 Stützpunkte, Residuen < CHF 230, < 1 %):**
   Investitionsbeitrag ≈ CHF 7'540 + CHF 1'390 × kW; Grundgebühr ≈ CHF 697 + CHF 123.3 × kW·Jahr.
-- **Segment 2 (22–74 kW, nur 3 Stützpunkte, Residuen bis CHF 1'770, geringere Konfidenz):**
-  Investitionsbeitrag ≈ CHF 23'760 + CHF 683 × kW; Grundgebühr ≈ CHF 2'113 + CHF 61.5 × kW·Jahr.
+- **Segment 2 (33–168 kW, neu verdichtet auf 12 Stützpunkte per 20.07.2026 Run 82, Residuen bis
+  CHF 1'186, < 2 %):** Investitionsbeitrag ≈ CHF 29'080 + CHF 603 × kW; Grundgebühr ≈ CHF 2'592 +
+  CHF 54.2 × kW·Jahr (neu berechnet, ersetzt die alte 3-Stützpunkte-Formel CHF 23'760 + 683×kW,
+  die am oberen Ende um 5-6 % abwich; eigener Berechnungsschritt Python-OLS auf den 12
+  Live-Stützpunkten). Der 22-kW-Punkt (CHF 37'900) liegt näher an der Segment-1-Formel
+  (37'120, Δ 2 %) als an Segment 2 (Δ 10 %) und wird deshalb weiterhin dem Übergangsbereich
+  zugeschlagen, nicht in die Segment-2-Regression einbezogen.
 
 Die tiefere Grenzrate oberhalb von ca. 20–22 kW ist strukturell **analog zur publizierten Formel
 von Agro Energie Schwyz** (dort explizit zweistufig: CHF 800/kW bis 20 kW, CHF 380/kW ab 20 kW) —
@@ -265,6 +281,36 @@ Küssnacht/Arth-Goldau erneut auf publizierte Tarife zu prüfen. Ergebnis:
   für Segment 2 gewonnen werden — bestätigter, dokumentierter Negativbefund für diesen Tag (nicht
   gleichzusetzen mit einer dauerhaften Nichtverfügbarkeit des Tools; bei der nächsten Recherche
   erneut versuchen, idealerweise mit gezielten Adressen im 30–60-kW-Bereich für Segment 2).
+
+**Ursache des HTTP-500-Fehlers gefunden und behoben (20.07.2026, Run 82) — der Server-Ausfall vom
+18.07.2026 war KEIN dauerhaftes Problem.** Isolierter curl-Test mit verschiedenen Header-
+Kombinationen zeigt: die Such-Route `GET /heating/?q=<Adresse>` verlangt serverseitig den
+htmx-Marker-Header `HX-Request: true` (das Suchfeld auf der eingebetteten Seite triggert diesen
+Header selbst per `hx-get`/`hx-trigger`); ohne ihn wählt die Django-Anwendung einen Codepfad, der
+zuverlässig HTTP 500 wirft — reproduziert und wieder aufgelöst. Die Preis-Route (`?id=<Objekt-ID>`)
+braucht diesen Header nicht (funktionierte deshalb immer schon per einfachem curl). **Merksatz für
+künftige Abfragen:** Adress-Suche zwingend mit `-H "HX-Request: true"`, Preisabfrage ohne
+Sonder-Header.
+
+Mit dem Fix liess sich der Rechner am 20.07.2026 erneut befragen (11 neue Adressen in Lachen/
+Pfäffikon SZ) — Ergebnis oben in die Sampling-Tabelle und die Segment-2-Regression eingearbeitet.
+**Tariflogik seit 17.07.2026 unverändert:** vier Wiederholungen bereits bekannter Stützpunkte
+(10 kW, 18 kW) lieferten exakt identische Beträge. **Kreuzvalidierung der Adress-Unabhängigkeit
+erneut bestätigt:** kW 51 liefert an drei Adressen in zwei Gemeinden (Lachen, Pfäffikon) exakt
+denselben Betrag.
+
+**Neue offene Beobachtungen (20.07.2026, nicht abschliessend geklärt):**
+- Galgenen, Bodenwiesweg 3/5/6/6b/7 → "keine Fernwärme verfügbar", obwohl Galgenen laut Factsheet
+  bereits am Netz ist — bestätigt erneut die Strassenzug-Spezifität der Verfügbarkeit.
+- Neues Primärdokument `EASZ_Factsheet_20260203.pdf` (Stand Februar 2026): Ausbauplan je Gemeinde
+  — am Netz per 01/2026: Galgenen, Lachen, Altendorf, Pfäffikon; geplant: Siebnen ab 2027,
+  Freienbach ab 2028, Reichenburg + Schübelbach ab 2029, Wilen + Buttikon ab 2030, Feusisberg +
+  Schindellegi ab 2040. Netzlänge 31,5 km, 270 Wärmebezüger, installierte Anschlussleistung
+  15,7 MW (Stand 01/2026). **Widerspruch, nicht aufgelöst:** Freienbach lieferte in Run T5
+  (17.07.2026) bereits reale Preisdaten (Blumenweg), obwohl der Factsheet-Rollout dort erst
+  "ab 2028" verortet — mögliche Erklärung: einzelne Pilotanschlüsse vor dem gemeindeweiten Ausbau.
+- Pfäffikon SZ, Churerstrasse 100 und 104: Seite zeigt Adresse + Karte, aber weder Preisblock noch
+  "nicht verfügbar"-Text — unklarer Sonderfall (evtl. Gewerbe-/Nichtwohnobjekt), nicht aufgeklärt.
 
 ### Vertragsdauer und Kündigungsfrist — die drei SZ-Fernwärme-Verbünde (Primärquellen 17.07.2026)
 

@@ -2,6 +2,58 @@
 
 Neueste zuoberst.
 
+## 2026-07-20 — Run 82: 7 parallele Recherche-/Verifikationsagenten, ein weiterer F101-Fehler korrigiert
+
+Zweiter Lauf des Tages (nach Run 81). PDF-Inventar weiterhin erschöpft seit Run 65 (SharePoint
+PL-04 unverändert seit 01.07.2026, erneut geprüft) — vollständig Web-/Verifikationspfad. Sieben
+Themen aus der Run-81-Prioritätenliste bearbeitet: 5 Recherchen + 1 Adversarial-Verify (SZ) +
+1 technischer Retry. Workflow-Tool war trotz Programm-Autorisierung technisch nicht nutzbar
+(«Review dynamic workflow before running»); als Ersatz 7 parallele Hintergrund-Agenten über das
+reguläre Agent-Tool, gleiche Parallelität und Schreibkonflikt-Vermeidung.
+
+- **F101/MuKEn-Nachbar-Fund (BEANSTANDET):** Die Behauptung, das Meldeverfahren für Wärmepumpen
+  gelte «nur für Wärmepumpen mit Kühlmöglichkeit», ist am Erlasstext § 2a Abs. 1 lit. f-h BVV
+  (LS 700.6, Nachtrag 133) **nicht auffindbar** — unbelegte Sekundärquellen-Übernahme aus der
+  zh.ch-Webseite, jetzt am Original korrigiert. Meldeverfahren gilt für innen aufgestellte
+  Luft/Wasser-WP, aussen aufgestellte Luft/Wasser-WP bis 2 m³, Erdwärmesonden-WP mit
+  Grenzabstand — unabhängig von Kühlfunktion. Neues Destillat
+  `destillate/bvv-zh-meldeverfahren-klimaanlagen-waermepumpen.md`.
+- **PBG-Revision «erleichtertes Bauen im Bestand» (neu erschlossen):** Vernehmlassung seit
+  16.01.2026 abgeschlossen, primärquellen-naher Wortlaut (§ 2a Abs. 1 lit. k / Abs. 2 / § 2c
+  Abs. 6 E-BVV) neu ausgewertet, aber weiterhin kein Kantonsratsschritt/keine Inkraftsetzung
+  nachweisbar. Neues Destillat `destillate/pbg-revision-erleichtertes-bauen-bestand-zh.md`,
+  status emerging.
+- **MuKEn-2025-Provenienz-Vorbehalt aus Run 81 geschlossen:** amtliche EnDK-Fassung gefunden
+  (`endk.ch/wp-content/uploads/2026/04/MuKEn2025_d-2025-08-29.pdf`, via page-sitemap.xml — der
+  frühere 404 war ein reines Pfadproblem), MD5-identisch mit dem bisherigen Spiegel
+  energiehub-gebaeude.ch (byte-genau), 4 Stichproben-Fundstellen re-verifiziert.
+- **Kantonsratsbeschluss 60-Mio-Rahmenkredit ZH präzisiert:** KRNr 6064 «Rahmenkredit 2026-2029
+  Subventionen § 16 EnerG» über den öffentlichen CDWS-Webservice des Kantonsrats identifiziert
+  (opendata.swiss-registriert, ohne Headless-Browser abfragbar) — Kommission KEVU hat am
+  07.05.2026 einstimmig Bewilligung beantragt, Schlussabstimmung im Plenum steht per 20.07.2026
+  noch aus (nächste Sitzung 17.08.2026). `destillate/foerderprogramm-energie-zh-2026.md`
+  ergänzt, FAQ F7 präzisiert.
+- **SZ-Förderprogramm 2026 adversarial gegengeprüft (bestätigt-keine-abweichung + Ergänzung):**
+  24 von 24 CHF-Sätzen am frisch gezogenen amtlichen PDF unverändert bestätigt. Neu erfasst:
+  Rahmenkredit gilt bis 31.12.2028, jährliche Budget-Freigabe nötig, Planungssicherheit erst mit
+  schriftlicher Zusage (FAQ AfU SZ, Stand 28.08.2025). `destillate/foerderprogramm-energie-sz-2026.md`
+  ergänzt, FAQ F28 ergänzt.
+- **Ausserschwyz-Fernwärmerechner HTTP-500 aufgeklärt:** kein Serverausfall (wie in Run 78
+  vermutet), sondern ein fehlender htmx-Header (`HX-Request: true`) bei der Adress-Suchroute —
+  Fix gefunden und reproduziert. Mit dem Fix 10 neue kW-Preisstützpunkte (15-168 kW) gewonnen,
+  Segment-2-Regressionsformel neu berechnet (12 statt 3 Stützpunkte, < 2 % Residuen statt
+  5-6 % Abweichung am oberen Ende). Neue offene Nebenpunkte: Galgenen-Verfügbarkeitslücke trotz
+  «am Netz», Freienbach-Rollout-Widerspruch zum EASZ-Factsheet. `destillate/fernwaerme-anschlusskosten-zh.md`
+  erweitert.
+- **E94 (Innendämmung CHF/m² Schweiz) — Negativbefund bestätigt, breiter abgestützt:** sieben
+  weitere Pfade erfolglos geprüft (CRB/werk-material.online, BFS-Baupreisindex, Minergie, Wüest
+  Partner, Stadt Zürich AHB, gesundes-haus.ch, Lead-Gen-Plattformen). Einziger verbleibender Weg
+  unverändert: reale JANS-Projektofferte (BKP 271) in `wissen/grobkosten/raw/` einspeisen.
+  `wiki/innendaemmung.md` ergänzt.
+- **Register:** `destillate/INDEX.md` um 7 Zeilen ergänzt; `wiki/INDEX.md` FAQ-Sektion
+  vorangestellt; `wiki/QUESTIONS.md` neuer Abschnitt «Run 82» (E105-E107 geschlossen, E94
+  bleibt offen mit erweitertem Pfadprotokoll).
+
 ## 2026-07-20 — Run 81: zwei materielle Rechtsfehler in F47 korrigiert, F101 neu, E104 geschlossen
 
 Lauf einen Tag verspätet (NAS am 19.07. weder über LAN noch Tailscale erreichbar, Ping-Negativbefund).

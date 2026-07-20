@@ -3,9 +3,9 @@ quelle: Vollzugshilfe Förderprogramm Energie 2026 — Förderbedingungen, Förd
 herausgeber: Kanton Schwyz, Umweltdepartement / Amt für Umwelt und Energie (AfU), Kollegiumstrasse 28, 6431 Schwyz (energie@sz.ch, 041 819 20 35)
 ausgabe: 01. Januar 2026 (40 Seiten)
 gelesen: 2026-06-29 (vollständig S. 1-40 via Read)
-datenstand: 01.01.2026 — es gelten die zum Zeitpunkt der Gesuchseingabe gültigen Sätze; Energie-/Klimaplanung gültig bis 2032; Mittel solange jährliches Förderbudget nicht ausgeschöpft (kein Rechtsanspruch)
+datenstand: 01.01.2026 — es gelten die zum Zeitpunkt der Gesuchseingabe gültigen Sätze; Energie-/Klimaplanung gültig bis 2032; Mittel solange jährliches Förderbudget nicht ausgeschöpft (kein Rechtsanspruch). Adversarial gegengeprüft 2026-07-20 (Run 82): alle 24 CHF-Sätze am frisch gezogenen amtlichen PDF unverändert bestätigt, keine Abweichung.
 status: established
-last_updated: 2026-06-29
+last_updated: 2026-07-20
 ---
 
 # Förderprogramm Energie Kanton Schwyz 2026
@@ -69,6 +69,12 @@ Der Kanton Schwyz fördert 2026 die energetische Gebäudesanierung und den Ersat
 - **PV ≠ kantonale Förderung:** Photovoltaik läuft über die Pronovo-Einmalvergütung des Bundes (nach Inbetriebnahme), nicht über das SZ-Programm.
 - **Faustzahl-Beispiele 2026 (eigene Rechnung, markiert):** *EFH-Heizungsersatz Öl→Luft/Wasser-WP 8 kW_th:* 3'200 + 8 × 120 = **~4'160 CHF**. *Erdsonden-WP 10 kW_th:* 4'800 + 10 × 360 = **~8'400 CHF**. *Solarthermie 6 kW_th:* 2'400 + 6 × 1'000 = **~8'400 CHF**. *Fassadendämmung 200 m²:* 200 × 60 = **12'000 CHF** (mit Gesamtsanierungsbonus +40/m² = total **20'000 CHF**). *Minergie-P-EFH-Gesamtsanierung 180 m² EBF:* 180 × 155 = **~27'900 CHF**. *(Sätze fix, eigene Multiplikation.)*
 - **ZH ↔ SZ — Unterschied in der Mechanik:** ZH zahlt bei der WP eine **Pauschale je Stufe** (Luft/Wasser CHF 2'900 ≤15 kW + 160/zusätzl. kW; Erdsonde 6'800 + 420), SZ rechnet **Grundbeitrag + CHF/kW_th** linear (Luft/Wasser 3'200 + 120/kW_th; Erdsonde 4'800 + 360/kW_th). SZ-Dämmung **CHF 60/m²** ist höher als die ZH-Einzelmassnahme (40/m²), aber ZH hat einen +60/m²-Vollsanierungs-Bonus (bis 100/m²) — bei SZ ist der Bonus +40/m². Max. pro Gesuch: SZ **300'000**, ZH **500'000**.
+
+## Verifikation + Befristung (adversariale Nachprüfung 2026-07-20, Run 82)
+**Alle 24 im Destillat genannten CHF-Sätze am heute live abrufbaren amtlichen PDF nachgeprüft — 24 von 24 Positionen unverändert bestätigt**, kein einziger Wert weicht ab (Volltext frisch per `curl` gezogen, `pdftotext -layout`, nicht aus dem Destillat abgeschrieben). Der Zahlenstand trägt per 20.07.2026.
+
+- ⚠ **Rahmenkredit-Befristung neu erfasst:** Der vom Kantonsrat gesprochene Rahmenkredit gilt grundsätzlich **bis 31.12.2028**, muss aber **jährlich neu ins kantonale Budget** aufgenommen werden — Planungssicherheit besteht erst mit **schriftlicher Förderzusage**, nicht schon mit Gesuchseingabe. Quelle: FAQ AfU SZ «Häufig gestellte Fragen zu den Themen Förderprogramm und Energie-Gesetz», Stand 28.08.2025.
+- ⚠ **Verwechslungsgefahr geprüft und ausgeschlossen:** ein WebSearch-Treffer «Förderprogramm Energie 2027-2030; Verpflichtungskredit» (AIHK-Anhörungsbericht 02.04.2026) betrifft den **Kanton Aargau**, nicht Schwyz — nicht als SZ-Quelle verwenden.
 
 ## Offene Punkte
 - 2026er Sätze sind Stand 01.01.2026 fixiert; vor jeder Zusage Budget-/Aktualstand auf `sz.ch` bzw. `portal.dasgebaeudeprogramm.ch/sz` prüfen (Mittel können unterjährig ausgeschöpft sein).

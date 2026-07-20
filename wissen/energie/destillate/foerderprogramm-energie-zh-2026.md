@@ -133,8 +133,22 @@ Quelle im `sources`-Block). Der Zahlenstand dieses Destillats traegt per 20.07.2
   60 Mio. CHF** fuer Mitte 2026–2029; zusammen mit CO₂-Abgabe und Bundes-Impulsprogramm bis
   **286 Mio. CHF fuer 2026–2029**, unter dem Vorbehalt, dass das **Entlastungspaket 2027** des
   Bundes nicht kuerzt. Die Fortsetzung ist damit politisch aufgegleist, aber **noch nicht
-  rechtskraeftig beschlossen** — der Kantonsratsbeschluss konnte nicht verifiziert werden
-  (Geschaeftsdatenbank kantonsrat.zh.ch liefert nur per JavaScript, keine serverseitige Trefferliste).
+  rechtskraeftig beschlossen**.
+- ⚠ **Kantonsratsbeschluss praezisiert (2026-07-20, Run 82):** Geschaeft **KRNr/Vorlage 6064**,
+  Titel «Rahmenkredit 2026-2029 Subventionen gestuetzt auf § 16 Energiegesetz», Direktion BD.
+  Ablauf: Antrag Regierungsrat 10.12.2025 (RRB Nr. 1306/2025, deckt sich mit der Mitteilung
+  15.01.2026) → Antrag Kommission KEVU an den Kantonsrat **EINSTIMMIG zur Bewilligung**,
+  07.05.2026 → **PendentBeiNeu = Kantonsrat** (Stand 20.07.2026): die Schlussabstimmung im Plenum
+  steht noch aus. Cross-Check gegen alle Traktandenlisten der Plenarsitzungen 04.05.–06.07.2026
+  (153.–163. Sitzung, 244 Traktanden) bestaetigt: nicht traktandiert. Naechste moegliche Sitzung
+  nach der Sommerpause: **164. KR-Sitzung, 17.08.2026** (Traktandenliste zum Abfragezeitpunkt noch
+  nicht publiziert). Quelle: CDWS-Geschaeftsdatenbank Kantonsrat ZH
+  (`parlzhcdws.cmicloud.ch/parlzh5/cdws/Index/GESCHAEFT/searchdetails?q=krnr%20any%206064`), live
+  abgefragt 20.07.2026 — opendata.swiss-registrierter Webservice, ohne Headless-Browser abfragbar.
+  ⚠ **Verwechslungsgefahr:** ein gleichnamiges Dokument «Foerderprogramm Energie 2027-2030;
+  Verpflichtungskredit» (aihk.ch) betrifft den **Kanton Aargau**, nicht ZH — nicht als Quelle
+  verwenden. Naechster Lauf: dieselbe Query auf einen dritten Ablaufschritt (Schlussabstimmung)
+  pruefen.
 - **Programmstatus 20.07.2026:** offen, kein Antragsstopp und keine Warteliste auffindbar.
   **Das ist ein Negativbefund, kein Freibrief:** es gilt «first come, first served» bis
   Budgeterschoepfung, und der Kanton publiziert eine Erschoepfung erfahrungsgemaess nicht prominent

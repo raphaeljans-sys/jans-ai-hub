@@ -248,10 +248,11 @@ Gleichbehandlungsgruenden.
   Nachtrag 133) verifiziert — siehe [[bvv-zh-meldeverfahren-klimaanlagen-waermepumpen]]. Erledigt;
   verbleibt offen: die genaue RRB-Aussage zu "aktiven Kaelteelementen" als Ausloeser einer
   erneuten Bewilligungspflicht ist weiterhin nur Sekundaerquelle (nicht am Erlasstext verankert).
-- **Stand der PBG-Revision «erleichtertes Bauen im Bestand»** (mit dem Meldeverfahren-Vorschlag
-  fuer Klimaanlagen) war zum RRB-Datum (29.10.2025) eine **Vernehmlassungsvorlage** — Stand
-  Inkrafttreten/definitive Kriterien (Leistungsgrenzen, Laermwerte, Einbauorte) periodisch
-  gegen den aktuellen Gesetzgebungsstand pruefen, bevor sie als geltendes Recht zitiert wird.
+- **Stand der PBG-Revision «erleichtertes Bauen im Bestand»** am 20.07.2026 (Run 82) aktualisiert:
+  Vernehmlassung seit 16.01.2026 abgeschlossen, primaerquellen-naher Wortlaut des Vorschlags
+  (neuer § 2a Abs. 1 lit. k / Abs. 2 / § 2c Abs. 6 E-BVV) ausgewertet — siehe eigenes Destillat
+  [[pbg-revision-erleichtertes-bauen-bestand-zh]]. Ein Kantonsratsschritt oder eine Inkraftsetzung
+  sind weiterhin nicht nachweisbar; bleibt Vorschlag, kein geltendes Recht.
 - **Kein eigenes amtliches Merkblatt** der Baudirektion/AWEL speziell zu Klimaanlagen
   identifiziert (anders als der bestehende «Leitfaden fuer Waermepumpen im Kanton Zuerich»,
   → `[[waermepumpe-systemvergleich]]`-Umfeld). Die Stadt Zuerich fuehrt Lueftungs-/
@@ -282,3 +283,5 @@ Gleichbehandlungsgruenden.
   `[[waermepumpen-laermschutz]]`
 - Baulich statt technisch kuehlen: `[[sommerlicher-waermeschutz]]`
 - Kaeltemittel-Hintergrund: `[[kaeltemittel-r290-waermepumpen-ch]]`
+- Geplante Meldeverfahrens-Ausweitung auf Klimaanlagen (Vorschlag, noch nicht in Kraft):
+  `[[pbg-revision-erleichtertes-bauen-bestand-zh]]`

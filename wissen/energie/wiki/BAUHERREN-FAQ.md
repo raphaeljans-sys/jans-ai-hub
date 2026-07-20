@@ -258,7 +258,12 @@ seiner Mitteilung vom **15.01.2026** ausdruecklich auf **«Mitte 2026 bis Ende 2
 Rahmenkredit 2023–2026 traegt also **nicht zwingend bis Jahresende**. Beantragt ist ein
 **Anschlusskredit von 60 Mio. CHF** (mit CO₂-Abgabe und Bundes-Impulsprogramm bis 286 Mio. fuer
 2026–2029), unter dem Vorbehalt des Bundes-Entlastungspakets 2027; der **Kantonsratsbeschluss dazu
-ist nicht belegt**. Praktisch heisst das: **Gesuch nicht auf das 2. Halbjahr schieben.** Es gilt
+ist präzisiert (2026-07-20):** Geschäft KRNr 6064 «Rahmenkredit 2026-2029 Subventionen gestützt auf
+§ 16 Energiegesetz», die Kommission KEVU hat dem Kantonsrat am 07.05.2026 **einstimmig** die
+Bewilligung beantragt, das Geschäft wartet aber weiterhin auf die Schlussabstimmung im Plenum
+(Stand 20.07.2026: `PendentBeiNeu = Kantonsrat`; nächste Plenarsitzung nach der Sommerpause
+17.08.2026, noch ohne publizierte Traktandenliste). Praktisch heisst das: **Gesuch nicht auf das
+2. Halbjahr schieben.** Es gilt
 «first come, first served», und eine Budgeterschoepfung wird nicht prominent publiziert —
 verbindlich Auskunft gibt nur **0800 93 93 93 / foerdergesuche@bd.zh.ch**.
 
@@ -1036,6 +1041,12 @@ Grundwasser-WP CHF 4'800 + 360/kW_th**, einen **Fernwaerme-Anschluss CHF 4'000 +
 | Minergie-P-Gesamtsanierung EFH/MFH/andere | 155 / 90 / 60 CHF/m² EBF |
 | Bonus Ersatz dezentrale Elektro-/fossile Heizung | CHF 15'000 (≤ 250 m² EBF) bzw. 60/m² EBF |
 | GEAK Plus | CHF 1'000 (EFH/ZFH) / 1'500 (andere) |
+
+**Zeitfenster (adversarial gegengeprüft 2026-07-20, alle 24 CHF-Sätze am amtlichen PDF unverändert
+bestätigt):** Der vom Kantonsrat gesprochene Rahmenkredit gilt grundsätzlich **bis 31.12.2028**,
+muss aber **jährlich neu ins kantonale Budget** aufgenommen werden — Planungssicherheit besteht
+erst mit **schriftlicher Förderzusage**, nicht schon mit Gesuchseingabe (Quelle: FAQ AfU SZ,
+Stand 28.08.2025).
 
 Bedingungen: **Gesuch vor Baubeginn** (`portal.dasgebaeudeprogramm.ch/sz`), nur **Ersatz** einer
 Oel-/Gas-/Elektroheizung im **Bestand** (Ersatzneubau = Neubau, nicht gefoerdert), Daemmung nur bei
@@ -3858,9 +3869,16 @@ Denkmalschutz- und Ortsbildobjekten wurden seit 2021 alle geprüften Gesuche bew
 Nebenbestimmungen zur Einordnung. Als Grössenordnung nennt der Regierungsrat Bewilligungskosten
 zwischen Fr. 100 und Fr. 23'000 je nach Grösse und Komplexität; einfache Gesuche sind in der Stadt
 Zürich in rund 20 Arbeitstagen bearbeitet. Ein einfacheres **Meldeverfahren besteht bisher nur für
-Wärmepumpen mit Kühlmöglichkeit**; die Ausweitung auf Klimaanlagen ist erst ein Vorschlag der
-Baudirektion in der noch nicht abgeschlossenen PBG-Revision «erleichtertes Bauen im Bestand» — für
-die Terminplanung heute gilt weiterhin das ordentliche Baubewilligungsverfahren.
+bestimmte Wärmepumpen-Typen** (innen aufgestellte Luft/Wasser-Wärmepumpen, aussen aufgestellte
+Luft/Wasser-Wärmepumpen bis 2 m³, Erdwärmesonden-Wärmepumpen mit ausreichendem Grenzabstand;
+**§ 2a Abs. 1 lit. f-h BVV, am Erlasstext verifiziert**) — unabhängig davon, ob die Anlage kühlen
+kann oder nicht (die frühere Zuschreibung «mit Kühlmöglichkeit» ist am Erlass nicht auffindbar und
+war eine unbelegte Übernahme aus einer Sekundärquelle, korrigiert 2026-07-20). Die Ausweitung des
+Meldeverfahrens auf Klimaanlagen selbst ist Gegenstand der PBG-Revision «erleichtertes Bauen im
+Bestand»: die Vernehmlassung ist seit 16.01.2026 abgeschlossen, ein Kantonsratsbeschluss oder eine
+Inkraftsetzung sind aber weiterhin nicht nachweisbar (Stand 20.07.2026) → `[[bvv-zh-meldeverfahren-klimaanlagen-waermepumpen]]`,
+`[[pbg-revision-erleichtertes-bauen-bestand-zh]]`. Für die Terminplanung heute gilt weiterhin das
+ordentliche Baubewilligungsverfahren.
 
 **Der Praxispunkt, der in dichten Lagen entscheidet, ist der Lärm:** Klimaanlagen laufen im Sommer,
 also bei offenen Nachbarfenstern, und sind deshalb lärmtechnisch heikler als winterlich betriebene

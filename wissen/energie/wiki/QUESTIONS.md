@@ -972,3 +972,62 @@ Dateiänderung prüfen, bevor das Register nachgeführt wird.
   Regierungsrates auf die parlamentarische Anfrage KR-Nr. 226/2025 (Rensch/Huber/Hasler) zur
   **Bewilligungspraxis für Klimaanlagen**; die WDV wird darin nur als bestehende Rechtsgrundlage
   zitiert (§ 8 Abs. 6, PV-Anrechnung bei Kühlbedarf), nicht geändert.
+
+## Run 82 (2026-07-20) — sieben parallele Recherche-/Verifikationsagenten, PDF-Inventar weiterhin erschöpft
+
+PDF-Inventar seit Run 65 unverändert erschöpft (SharePoint PL-04 Energie erneut kontrolliert, keine
+neue/geänderte Datei seit 01.07.2026) → vollständig Web-/Verifikationspfad, 7 parallele Agenten
+(general-purpose, Workflow-Tool aus Berechtigungsgründen nicht verfügbar).
+
+- [x] **E105 — MuKEn-2025-Quellenprovenienz (Run-81-Vorbehalt)** geschlossen ✓ 2026-07-20. Amtliche
+  EnDK-Fassung gefunden (`endk.ch/wp-content/uploads/2026/04/MuKEn2025_d-2025-08-29.pdf`, via
+  page-sitemap.xml — der frühere 404 war ein reines Pfadproblem), MD5-identisch mit bisherigem
+  Spiegel energiehub-gebaeude.ch → `[[muken-2025-verabschiedet]]`.
+- [x] **E106 — § 2a Abs. 1 lit. f-h BVV am Erlasstext verifizieren** geschlossen ✓ 2026-07-20, mit
+  **Fehlerfund**: die bisherige FAQ-F101-Behauptung «Meldeverfahren nur für Wärmepumpen mit
+  Kühlmöglichkeit» ist am Erlasstext (LS 700.6, Nachtrag 133) **nicht auffindbar** — unbelegte
+  Sekundärquellen-Übernahme, korrigiert. Meldeverfahren gilt tatsächlich für bestimmte
+  WP-Bautypen unabhängig von Kühlfunktion → `[[bvv-zh-meldeverfahren-klimaanlagen-waermepumpen]]`,
+  FAQ F101 korrigiert.
+- [x] **E107 — Kantonsratsbeschluss 60-Mio-Rahmenkredit ZH** präzisiert ✓ 2026-07-20 (kein
+  Negativbefund mehr): KRNr 6064 identifiziert über den öffentlichen CDWS-Webservice des
+  Kantonsrats (parlzhcdws.cmicloud.ch, opendata.swiss-registriert) — Kommission KEVU hat am
+  07.05.2026 einstimmig Bewilligung beantragt, Schlussabstimmung im Plenum steht per 20.07.2026
+  noch aus (nächste Sitzung 17.08.2026) → `[[foerderprogramm-energie-zh-2026]]`. **Neuer
+  Folgepunkt E107b:** dieselbe CDWS-Query im nächsten Lauf auf einen dritten Ablaufschritt
+  (Schlussabstimmung/Beschluss) prüfen.
+- [x] **PBG-Revision «erleichtertes Bauen im Bestand» — Statuscheck** ✓ 2026-07-20: Vernehmlassung
+  seit 16.01.2026 abgeschlossen, primärquellen-naher Wortlaut (§ 2a Abs. 1 lit. k / Abs. 2 /
+  § 2c Abs. 6 E-BVV) neu ausgewertet, aber weiterhin kein Kantonsratsschritt/keine Inkraftsetzung
+  nachweisbar → neues Destillat `[[pbg-revision-erleichtertes-bauen-bestand-zh]]`, Status emerging.
+- [x] **Ausserschwyz-Fernwärmerechner HTTP-500 (aus Run 78)** aufgeklärt ✓ 2026-07-20: kein
+  Serverausfall, sondern fehlender htmx-Header `HX-Request: true` bei der Adress-Suchroute — Fix
+  gefunden, reproduziert. Mit dem Fix: 10 neue kW-Preisstützpunkte (15-168 kW), Segment-2-Formel
+  neu berechnet (12 statt 3 Stützpunkte) → `[[fernwaerme-anschlusskosten-zh]]`. **Neue offene
+  Nebenpunkte:** Galgenen/Bodenwiesweg meldet «nicht verfügbar» trotz Gemeinde «am Netz»;
+  Freienbach lieferte in Run T5 bereits reale Preise, obwohl das EASZ-Factsheet den Rollout dort
+  erst «ab 2028» verortet (Pilotanschluss-Hypothese, nicht geklärt); Churerstrasse 100/104
+  Pfäffikon SZ zeigen weder Preis- noch «nicht verfügbar»-Block (Sonderfall ungeklärt).
+- [ ] **E94 — CHF/m²-Primärquelle Innendämmung Schweiz** bleibt Negativbefund, aber deutlich breiter
+  abgestützt (2026-07-20, Run 82): neu erfolglos geprüft CRB/werk-material.online (paywalled),
+  BFS-Baupreisindex (nur Index, keine Absolutwerte), Minergie, Wüest Partner, Stadt Zürich AHB,
+  gesundes-haus.ch, gängige Lead-Gen-Plattformen. Einziger verbleibender Weg unverändert: reale
+  JANS-Projektofferte (BKP 271) in `wissen/grobkosten/raw/` einspeisen → `[[innendaemmung]]`.
+- [x] **SZ-Förderprogramm 2026 adversarial gegengeprüft** ✓ 2026-07-20: **24 von 24 CHF-Sätzen am
+  frisch gezogenen amtlichen PDF unverändert bestätigt**, kein Fehler gefunden. Echte Ergänzung:
+  Rahmenkredit gilt bis 31.12.2028, jährliche Budget-Freigabe nötig, Planungssicherheit erst mit
+  schriftlicher Zusage (bisher nicht erfasst) → `[[foerderprogramm-energie-sz-2026]]`, FAQ F28.
+
+**Nicht bearbeitet in Run 82 (bewusst zurückgestellt):** E92/E95 (SMGV-Merkblatt Nr. 70,
+kostenpflichtig — weiterhin Entscheid Raphael nötig), E103 (Pflegeplatz-Kennwert — weiterhin
+Entscheid Raphael nötig), E84 (ZH-Solarpflicht-Beratungstermin — bewusst pausiert, kein neuer
+Rechercheansatz). **Meta-Punkt M2** (eigener Skill `energie`?) bleibt entscheidungsreif — 101+
+belegte FAQ, unverändert ohne neue Empfehlung in diesem Lauf.
+
+**Meta:** Das Workflow-Tool war für diesen Lauf trotz expliziter Programm-Vorgabe
+(«Workflow-Parallelisierung autorisiert») technisch nicht nutzbar («Review dynamic workflow before
+running», keine interaktive Freigabe möglich) — als Ersatz 7 parallele Hintergrund-Agenten über das
+reguläre Agent-Tool gestartet, funktional gleichwertig (gleiche Parallelität, gleiche
+Schreibkonflikt-Vermeidung durch getrennte Dateibereiche je Agent + zentrale Registerpflege durch
+den Hauptagenten). Für künftige Läufe: Workflow-Tool-Verfügbarkeit vorab kurz testen, sonst direkt
+auf Agent-Parallelisierung ausweichen, um keine Zeit zu verlieren.

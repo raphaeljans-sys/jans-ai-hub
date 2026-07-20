@@ -1,7 +1,7 @@
 ---
 title: Innendämmung im Altbau — wann, wie, welcher Nachweis, welche Förderung
 status: emerging
-last_updated: 2026-07-18
+last_updated: 2026-07-20
 sources: [destillate/innendaemmung-altbau-bauphysik-ch.md, destillate/bfe-waermebrueckenkatalog-innendaemmsysteme-bfh-2013.md, destillate/denkmalschutz-energiesanierung-zh-sz.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/foerderprogramm-energie-sz-2026.md]
 links: [[INDEX]] [[BAUHERREN-FAQ]] [[waermebrueckenkatalog-bfe-geschossdecke-kellerdecke]] [[denkmalschutz-energiesanierung-zh-sz]] [[enfk-en-102-waermeschutz-2018]] [[naturdaemmstoffe]] [[fenster-verglasung]] [[graue-energie]]
 ---
@@ -146,6 +146,18 @@ amtlich, ohne Datenbasis — **nicht in JANS-Erzeugnisse übernehmen**). Grobkos
 Offerte / eigene Kennwerte-DB** (Gewerk Gipser/Maler, BKP 271; → Skill `unternehmerfindung`,
 `kostenschaetzung`, `grobkosten-onepager`). Kostenvorteile ggü. Aussendämmung: **ohne Gerüst** und
 **partiell/wohnungsweise** machbar; dem stehen Raumverlust + Bauphysiker-Honorar gegenüber.
+
+**Erneut erfolglos geprüft (20.07.2026, Run 82):** CRB/werk-material.online (kostenpflichtig,
+Gipser-/Innendämmungs-Position nicht bestätigt), BFS-Baupreisindex/opendata.swiss (nur relative
+Preisentwicklung, keine Absolutwerte je Position), Minergie-Modernisierungsseiten, Wüest Partner
+(nur Holzbau-Neubau-Kennzahlen gefunden), Stadt Zürich Amt für Hochbauten/Energie-Coaching (keine
+publizierten Bauteil-Kennwerte), gesundes-haus.ch (CH-Quelle, referenziert BKP 271, aber
+Preisbasis Ostschweiz 2014 und keine Innendämmungs-Position), bauteilkatalog.ch (keine
+Kostendaten). Die kursierenden 40–200 CHF/m² stammen durchweg von Lead-Gen-Plattformen (ofri.ch,
+handwerker-kosten.ch, daibau.ch u.ä.) ohne Methodik — bestätigt nur den bestehenden Befund, kein
+neuer Beleg. Einziger belastbarer Weg bleibt: reale JANS-Projektofferte (Gipser/Maler, BKP 271)
+in `wissen/grobkosten/raw/` einspeisen (wissen/grobkosten führt heute keine Gewerks-/
+Detailkosten, nur CHF/m³-GV-Kennwerte für Neubau BKP 1-5).
 
 ## Offene Punkte
 SMGV-Merkblatt Nr. 70 (kostenpflichtig, mySMGV) mit den gezeichneten CH-Ausführungsdetails; SIA 180
