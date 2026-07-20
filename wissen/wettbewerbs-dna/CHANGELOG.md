@@ -1,5 +1,28 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-21 — Erster Wissens-Health-Check (Phase 1, Skill wissenscheck, Mac Mini Nachtschicht)
+- Kurzbefund (Audits A-G): A 2 Widersprueche — u.a. `kennwerte-schulbauten.md`/
+  `QUESTIONS.md` fuehren den GF-Wert von 2206 Schoental als ungeloesten
+  Quellen-Widerspruch, obwohl `teilnahmen/2206-schoental.md` ihn bereits am 13.07.2026
+  aufgeloest hatte (1'792 m2 massgebend, 1'545 m2 nur luckenhafte Teilsumme) —
+  Regression, kein neuer Fund; ausserdem behauptet `jury-argumente-schulbauten.md`
+  23 ausgewertete Quellen, verlinkt aber nur 22 (Boppartshof St.Gallen fehlt). B 18
+  Funde — 13 kaputte Backlinks (7x Board-DNA-Artikel verlinken ihr Teilnahme-Dossier
+  mit falschem Dateinamen, 5x externe Juryberichte verlinken auf die Ordnernamen
+  `[[teilnahmen]]`/`[[muster]]` statt auf Artikel, 1x Ziel `board-dna/uebersicht`
+  existiert gar nicht) plus 5 Orphan-Artikel ohne gueltigen eingehenden Link (2104
+  Theater Luzern, 2207 Schliengerweg, 2501 Steinfabrik, 2503 Glockenacker,
+  extern-Bericht Boppartshof). C 0 unbelegte Claims (KB betreibt eigenes
+  Refuter-Verifikationsregime, Unsicherheiten bereits selbst geflaggt). D 0
+  RAW-Coverage-Luecken (alle 73 raw-Dateien in `sources` zitiert). E 0 veraltete
+  Artikel (KB erst 9 Tage alt; der Sonderfall 2507 TKHL Halden — Jurybericht laut
+  QUESTIONS.md bereits verfuegbar, Dossier noch nicht nachgefuehrt — ist dort bereits
+  aktiv verfolgt, kein neuer Fund). F 2 Funde (kein `raw/_INGESTED.md`-Register gemaess
+  Meta-Schema; uneinheitliches Link-Format mit Freitext-Anhaengen an `[[...]]`-Links).
+  G 1 Fund (QUESTIONS-Eintrag zum 2206-GF-Widerspruch sollte nach Korrektur ins
+  Geklaert-Kapitel wandern; keine `speculative`/`emerging`-Artikel mehr vorhanden).
+  Voller Report → `outputs/2026-07-21_health-check.md`.
+
 ## 2026-07-20 — Etappe 3, Baustein B6 Schulbau: Kennwert-Benchmark erstellt (`established`)
 - **Neuer Artikel:** `wiki/muster/kennwerte-schulbauten.md` — Referenzbaender fuer
   Flaeche, Programm-Mengen, Kostendach und Vorpruefungs-Toleranzen im Schul-/Bildungsbau.
