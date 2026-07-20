@@ -5,6 +5,18 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-20
+
+**Logbuch-Radar (Montag, 07:00) — ohne NAS gelaufen.** `/Volumes/daten` war waehrend des gesamten Laufs nicht erreichbar; Register, Journal und Konversations-Destillat wurden deshalb im lokalen Repo-Spiegel gefuehrt und muessen nach Rueckkehr des NAS mit dem NAS-Stand abgeglichen werden. Quellen: Konversations-Destillat 20.07., bexio `--verzug`, Mail-Vorfilter ueber alle Apple-Mail-Konten (rj@, mail@, outlook.com; Posteingang und Gesendete), Outlook-Kalender 7 Tage, ccusage.
+
+**Erledigt.** (1) **TeKoSi Los 231.10:** die am 19.07. vorbereitete Rueckmeldung ist am **19.07. 09:26** aus rj@ versendet worden, mit Tuerliste als PDF und Excel im Anhang — die Selbstfrist 20.07. ist eingehalten, der Punkt ist archiviert, der Ball liegt bei L. Hiltmann (korrigierte Summe auf Basis 32 Tueren, Kostendach, Wegfall Pos. 4). (2) **Kontext-Diaet:** der Registerstand «Kuerzungsvorschlag liegt zur Freigabe» ist ueberholt — freigegeben und am 19.07. umgesetzt, Grundlast 163 → 74.6 kB, Commit `bae52aa0`; archiviert. Der Teilpunkt «deterministische Vorfilter-Scripts» wurde heute am Beleg verifiziert, weil `scripts/mail-vorfilter.sh` in diesem Lauf produktiv lief.
+
+**Offen und neu aufgenommen.** Betriebsausfall Buero (NAS und Mac Mini seit 19.07. ca. 14:45 gleichzeitig offline, Vor-Ort-Kontrolle noetig, Wake-on-LAN als Folgemassnahme), Dauerschicht-Loop MacBook Pro plus Mac-Mini-Nachtschicht 18:00–09:00 (Auftrag Raphaels, durch den Ausfall blockiert), TeKoSi-Beobachtungszeile, Restposten Minimum Viable Model, VOLLGAS-Abbruch mit 401-OAuth-Fehler, Dropbox-Verlaengerung 18.08.
+
+**Was kommt.** Heute faellig RE-00098 (CHF 13'600) und RE-00099 (CHF 3'680), beide KISPI, ohne Verzug. Morgen 21.07. die Jegen-Rueckmeldung Los 274.01 mit sieben offenen Entscheiden. RE-00087 unveraendert 95 Tage ueberfaellig auf Mahnung 2, naechste Stufe Entscheid Raphael. Kalender: Koordinationssitzung 23.07. 13:00–14:00.
+
+---
+
 ## 2026-07-19
 
 **Hub-Chef-Lauf (08:39).** Quellen: Fristen-Register + Logbuch (Horizont 7 Tage), Konversations-Destillat 19.07., Radar-Ergebnis 06:55, bexio `--verzug`, M365 Eingang + Sent Items, Apple Mail alle Konten (mail@, outlook.com, iCloud), Draft-Bestand aller Postfaecher, Whitelist v1.
