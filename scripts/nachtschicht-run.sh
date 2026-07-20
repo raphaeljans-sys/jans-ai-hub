@@ -68,7 +68,12 @@ Jeder Zyklus endet mit: Ergebnis in wiki/ bzw. outputs/ auf dem NAS, CHANGELOG-E
 
 Harte Grenzen: nur Aktionen gemaess logbuch/AKTIONS-WHITELIST.md. Nie E-Mails versenden, nichts publizieren, nichts buchen, nichts loeschen, keine Einkaeufe. Wenn keine sinnvolle Aufgabe ansteht: in einem Satz begruenden und sauber beenden statt Beschaeftigung zu erfinden.'
 
+# Background-Agenten brauchen Zeit zum Fertigschreiben: Der Lauf 21.07. 00:30 wurde
+# nach dem 600-s-Default terminiert, BEVOR der Orchestrator Verifikation/Register/Commit
+# ausfuehren konnte — alle Agent-Ergebnisse verloren. 30 Min Ceiling; der Lock oben
+# verhindert Ueberlappung mit dem naechsten Stundenzyklus (der dann sauber uebersprungen wird).
 DISPATCH_MAX_BUDGET_USD="${NACHTSCHICHT_BUDGET_USD:-5}" \
+CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS="${NACHTSCHICHT_BG_WAIT_MS:-1800000}" \
     bash "$HOME/Developer/jans-ai-hub/scripts/dispatch-run.sh" "$PROMPT"
 RC=$?
 
