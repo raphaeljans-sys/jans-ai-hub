@@ -39,9 +39,9 @@ Referenzfall 2619 KISPI: 240'414 Striche → ~14'500 Entities
   "<pfad/zum/plan.pdf>" [--keep-dxf] [--schraffur layer] [--min-len 0.45] [--scale N]
 ```
 
-- Output: `<gleicher Ordner>/<gleicher Name>.dwg` (Mehrseiter: `_pN`-Suffix)
-- `--keep-dxf`: DXF-Zwischendatei zusaetzlich behalten (Fallback, falls ein
-  Empfaenger das LibreDWG-DWG nicht mag)
+- Output: `<gleicher Ordner>/<gleicher Name>.dwg` + `.dxf` (Mehrseiter:
+  `_pN`-Suffix). Das DXF bleibt IMMER liegen — ArchiCAD importiert DXF ueber
+  denselben Dialog; es ist der sichere Fallback, falls das DWG abgelehnt wird.
 - `--schraffur layer`: Mikro-Striche nicht loeschen, sondern auf Layer
   SCHRAFFUR ablegen (Default: loeschen)
 - `--min-len`: Schwelle in Papier-mm, unter der ein Strich als
@@ -66,7 +66,13 @@ Referenzfall 2619 KISPI: 240'414 Striche → ~14'500 Entities
 - Koordinaten sind **Papier-mm**: Massstab beim ArchiCAD-Import setzen oder
   mit `--scale` vorskalieren; bei Plaenen mit Mischmassstab (Details) bleibt
   Papier-mm die einzige konsistente Wahl.
-- DWG-Writer ist LibreDWG (experimentell, R2000): importiert ArchiCAD ein
-  DWG nicht, das mitgelieferte/erneut erzeugte DXF (`--keep-dxf`) verwenden.
+- DWG-Writer ist LibreDWG (experimentell, R2000). ArchiCAD-Vorfall 260720:
+  DWGs mit ezdxf-OBJECTS-Sektion wurden abgelehnt (korrupte MATERIAL-/
+  MLEADERSTYLE-Objekte); seither strippt das Script die OBJECTS-Sektion vor
+  dxf2dwg (47 → 1 dwgread-Fehler). Lehnt ArchiCAD ein DWG weiterhin ab:
+  das DXF daneben verwenden (gleicher Import-Dialog, identischer Inhalt).
+  Dauerhaft wasserdichte DWGs gaebe es nur via ODA File Converter
+  (opendesign.com, Gratis-Tool, manueller Download) — bei Bedarf installieren
+  und im Script LibreDWG ersetzen.
 - Linienstaerken werden nicht uebertragen (Layer tragen nur Farbe);
   gestrichelte Linien bleiben als Einzelstriche erhalten (kein Linientyp-Rebuild).

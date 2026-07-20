@@ -25,8 +25,8 @@ Optionen:
                      Schraffur-Fragment (Default 0.45)
   --schraffur MODE   weg | layer  (Default weg): Mikro-Striche verwerfen
                      oder auf Layer SCHRAFFUR ablegen
-  --keep-dxf         DXF-Zwischendatei behalten (Default: behalten wenn
-                     dxf2dwg fehlt, sonst loeschen)
+  --keep-dxf         (veraltet, jetzt Standard) DXF bleibt immer als
+                     Import-Fallback neben dem DWG liegen
   --page N           nur Seite N (1-basiert); Default: alle Seiten,
                      bei Mehrseitern Suffix _pN
 """
@@ -266,6 +266,29 @@ def convert_page(page, msp, doc_dxf, scale, min_len, schraffur_mode, stats):
                 stats["texte"] += 1
 
 
+def strip_objects_section(dxf_path, out_path):
+    """Entfernt die OBJECTS-Sektion aus einem DXF.
+
+    LibreDWGs dxf2dwg schreibt aus den ezdxf-Standardobjekten (MATERIAL,
+    MLEADERSTYLE, Dictionaries) korrupte DWG-Objekte, an denen strikte
+    Importer (ArchiCAD) scheitern. Ohne OBJECTS-Sektion legt dxf2dwg saubere
+    Minimal-Defaults an. Geometrie/Layer/Text sind nicht betroffen.
+    """
+    lines = open(dxf_path, encoding="utf-8", errors="replace").read().splitlines()
+    out, skip, i = [], False, 0
+    while i < len(lines):
+        if (not skip and lines[i].strip() == "0" and i + 3 < len(lines)
+                and lines[i + 1].strip() == "SECTION"
+                and lines[i + 3].strip() == "OBJECTS"):
+            skip = True
+        if not skip:
+            out.append(lines[i])
+        if skip and lines[i].strip() == "ENDSEC":
+            skip = False
+        i += 1
+    open(out_path, "w", encoding="utf-8").write("\n".join(out) + "\n")
+
+
 def main():
     ap = argparse.ArgumentParser(description="Vektor-PDF -> leichtes DWG/DXF")
     ap.add_argument("pdf")
@@ -306,15 +329,19 @@ def main():
             try:
                 if os.path.exists(dwg_path):
                     os.remove(dwg_path)
-                r = subprocess.run([dxf2dwg, dxf_path, "-y", "-o", dwg_path],
-                                   capture_output=True, text=True, timeout=600)
+                # dxf2dwg bekommt ein DXF OHNE OBJECTS-Sektion (ArchiCAD-Fix)
+                tmp_dxf = dxf_path + ".noobj.tmp.dxf"
+                strip_objects_section(dxf_path, tmp_dxf)
+                subprocess.run([dxf2dwg, tmp_dxf, "--as", "r2000", "-y",
+                                "-o", dwg_path],
+                               capture_output=True, text=True, timeout=600)
+                os.remove(tmp_dxf)
                 dwg_ok = os.path.exists(dwg_path) and os.path.getsize(dwg_path) > 500
             except Exception:
                 dwg_ok = False
 
-        if dwg_ok and not args.keep_dxf:
-            os.remove(dxf_path)
-
+        # DXF bleibt immer liegen: ArchiCAD importiert DXF ueber denselben
+        # Dialog — der sichere Fallback, falls das LibreDWG-DWG abgelehnt wird.
         results.append((dwg_path if dwg_ok else dxf_path, dict(stats)))
 
     for path, stats in results:
