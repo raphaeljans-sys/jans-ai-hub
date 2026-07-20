@@ -9,6 +9,15 @@ und Historie) liegen in `rules/auto-verbesserungen-archiv.md` (nicht importiert)
 steht nur der aktive, imperative Kern. Konsolidiert am 19.07.2026 (Kontext-Diaet,
 Konzept: `docs/konzepte/260719-Kontext-Diaet-Token-Reduktion/`).
 
+## 260720 — Stations-Koordination Dauerschicht/Nachtschicht: Dispatch-Protokoll INHALTLICH lesen
+- **Regel:** Bevor ein Dauerschicht-/Nachtschicht-Zyklus seine Aufgabe waehlt, liest er das
+  juengste Protokoll unter `dispatch/log/` (bzw. die juengste Journalzeile) INHALTLICH —
+  der Dateiname allein genuegt nicht. Ausloeser: Zyklus 27 (20.07.) begann das normen-Audit,
+  das die Nachtschicht um 22:41 bereits abgeschlossen hatte; der Namens-Check hatte die
+  Kollision nicht erkannt. Grosse Einzelaufgaben (Audits, Seeds, Specs) zusaetzlich VOR
+  Beginn per Journalzeile «in Arbeit» ankuendigen, damit die andere Station sie sieht.
+- **Gilt fuer:** MacBook-Dauerschicht-Loop und Mac-Mini-Nachtschicht, ab 20.07.2026.
+
 ## 260719 — Kontext-Diaet: Grundkontext schlank halten
 - **Regel:** CLAUDE.md ist Wegweiser, nicht Dokumentation (Einzeiler-Tabellen; Langtexte
   gehoeren in SKILL.md/agents/wiki). Diese Datei bleibt konsolidiert; Historie ins Archiv.
