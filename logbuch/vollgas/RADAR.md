@@ -21,6 +21,37 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-20 18:48 — [GEDROSSELT] Vier KBs am Nachmittag gewachsen, Login-Block unveraendert, STOP unangetastet
+
+**Fensterzustand:** Die Probe `claude -p --model haiku` endet unveraendert mit «Not logged in ·
+Please run /login» — also [LOGIN] und kein Usage-Signal; ueber das Kontingent sagt sie nichts.
+Belastbar ist der Durchsatz: 25 Commits in den letzten sechs Stunden, davon inhaltlich vier
+gewachsene Wissensbasen — `auflagebereinigung` (neuer Artikel GVZ-Einreichung BMA/Sprinkler),
+`firmengruendung-ch` (Steuern AG/Inhaber), `kunde-bopp` (Profil Christoph Bopp plus Output
+Firmenrollen-Verifikation) und `wettbewerbs-dna` (Kennwerte Schulbauten, Etappe 3). Dazu
+Logbuch/Fristen und die `nas-selfcommit`-Laeufe im 15-Minuten-Takt bis 18:45. Das Fenster hat
+Kapazitaet, die App-Task-Flotte arbeitet ungebremst — genau das im Drossel-Regime gewuenschte Bild.
+
+**Runner/STOP:** Endlos-Runner bleibt gestoppt; die Logs beider Stationen enden unveraendert am
+14.07. um 12:37/12:40. Kein Defekt: die STOP-Datei nennt als Grund die Drosselung auf Anweisung
+Raphaels mit Vorbehalt «Wiederanlauf nur auf ausdrueckliche Anweisung». Es liegt damit kein
+loeschbarer Login- oder Limit-Grund vor — STOP und STOP-Macmini wurden nicht angetastet.
+`STOP-Macbookpro` existiert nicht (die generische STOP-Datei deckt beide Stationen).
+
+**Mail:** keine. Der Login-Blocker ist seit 19.07. 22:52 gemailt, eine Wiederholungsmail ist
+ausgeschlossen; ein neuer P1 ist nicht entstanden.
+
+**Vorschlaege:**
+- P1: keiner.
+- P2: Weiterhin offen der Entscheid Raphaels zum Drossel-Regime (siehe Eintrag 12:30). Bis dahin
+  Status quo, Radar bleibt Schoner.
+- P3: (a) Am 21.07. bestaetigen, dass `wettbewerbs-dna-training` um 02:26 gefeuert hat — der
+  heutige Etappe-3-Fortschritt spricht dafuer, ist aber noch nicht der Beleg fuer den Nachttakt.
+  (b) Der erledigte One-Time-Task `wettbewerbs-dna-reaktivierung` liegt weiterhin unter
+  `~/.claude/scheduled-tasks/`; bewusst nicht geloescht, gehoert Raphael vorgelegt.
+
+---
+
 ## 2026-07-20 12:52 — [GEDROSSELT] Fenster frei und produktiv, Login-Block unveraendert, STOP bleibt bewusst stehen
 
 **Fensterzustand:** Die Probe `claude -p --model haiku` endet erneut mit «Not logged in · Please
