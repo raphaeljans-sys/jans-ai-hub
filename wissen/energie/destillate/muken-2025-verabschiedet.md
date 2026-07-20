@@ -1,10 +1,10 @@
 ---
-quelle: MuKEn-2025-Originaltext (117 S., EnDK, «Mustervorschriften der Kantone im Energiebereich, Entwurf Ausgabe 2025», verabschiedet 29.08.2025, PDF-Metadaten bestätigen EnDK-Herausgeberschaft), PDF-Spiegel energiehub-gebaeude.ch/wp-content/uploads/2025/09/MuKEn2025_d-2025-08-29.pdf, per curl+pdftotext im Volltext gelesen 2026-07-16; EnDK-Medienmitteilung 25.08.2025 (endk.ch); Folgeberichte VSE, aeesuisse, energie-cluster.ch, Gebäudehülle Schweiz-Magazin (13.10.2025); MuKEn-2014-Volltext (98 S., endk.ch) als Vorher/Nachher-Referenz; Kanton Schwyz kEnG (SRSZ 420.100) + KEnV (SRSZ 420.111), gelesen 2026-07-17 via curl+pdftotext, sz.ch; RRB Nr. 632/2025 (Kt. SZ, 02.09.2025, Motion M 7/25 Beantwortung), gelesen 2026-07-17
+quelle: MuKEn-2025-Originaltext (117 S., EnDK, «Mustervorschriften der Kantone im Energiebereich, Entwurf Ausgabe 2025», verabschiedet 29.08.2025, PDF-Metadaten bestätigen EnDK-Herausgeberschaft), **amtliche EnDK-Fassung endk.ch/wp-content/uploads/2026/04/MuKEn2025_d-2025-08-29.pdf gefunden und verifiziert 2026-07-20** (MD5 32a7f38c82f057015904a9c0c8c601de, byte-identisch mit dem bisherigen Spiegel energiehub-gebaeude.ch/wp-content/uploads/2025/09/MuKEn2025_d-2025-08-29.pdf); Spiegel-URL bleibt als Fallback dokumentiert; per curl+pdftotext im Volltext gelesen 2026-07-16 (Spiegel) und 2026-07-20 (amtliche Fassung); EnDK-Medienmitteilung 25.08.2025 (endk.ch); Folgeberichte VSE, aeesuisse, energie-cluster.ch, Gebäudehülle Schweiz-Magazin (13.10.2025); MuKEn-2014-Volltext (98 S., endk.ch) als Vorher/Nachher-Referenz; Kanton Schwyz kEnG (SRSZ 420.100) + KEnV (SRSZ 420.111), gelesen 2026-07-17 via curl+pdftotext, sz.ch; RRB Nr. 632/2025 (Kt. SZ, 02.09.2025, Motion M 7/25 Beantwortung), gelesen 2026-07-17
 herausgeber: Konferenz Kantonaler Energiedirektoren (EnDK)
 ausgabe: MuKEn 2025, verabschiedet 29.08.2025 (löst MuKEn 2014 als Empfehlung ab)
-gelesen: 2026-07-12 (Web via WebSearch/WebFetch, Sekundärquellen); 2026-07-16 (Originaltext 117 S. per curl+pdftotext vollständig gelesen); 2026-07-16 Run 75 (Anhänge 6+7 im Volltext ausgewertet, Vergleich gegen MuKEn-2014-Volltext Art. 1.31); 2026-07-17 (Anhänge 4+5 ausgewertet + Kt.-SZ-Übernahmestand geprüft, kEnG/KEnV SZ im Volltext gelesen)
+gelesen: 2026-07-12 (Web via WebSearch/WebFetch, Sekundärquellen); 2026-07-16 (Originaltext 117 S. per curl+pdftotext vollständig gelesen); 2026-07-16 Run 75 (Anhänge 6+7 im Volltext ausgewertet, Vergleich gegen MuKEn-2014-Volltext Art. 1.31); 2026-07-17 (Anhänge 4+5 ausgewertet + Kt.-SZ-Übernahmestand geprüft, kEnG/KEnV SZ im Volltext gelesen); 2026-07-20 (amtliche EnDK-Quelle endk.ch/wp-content/uploads/2026/04/MuKEn2025_d-2025-08-29.pdf gefunden, per curl+pdftotext gelesen, Volltext-Stichprobe Art. 1.28/1.39/1.40 + 20-W/m²-Kennwert gegengeprüft)
 datenstand: 2025-08-29 — ⚠ Empfehlung an die Kantone, noch NICHT automatisch geltendes Recht; Umsetzung erfolgt erst mit kantonaler Gesetzesänderung
-status: established (primärquellen-verifiziert am Originaltext; adversarial nachgeprüft 2026-07-20 Run 81 — Zahlen-Layer unabhängig bestätigt, zwei materielle Rechtsfehler + eine Auslassung korrigiert; Vorbehalt Quellenprovenienz siehe Schlussabschnitt)
+status: established (primärquellen-verifiziert am Originaltext; adversarial nachgeprüft 2026-07-20 Run 81 — Zahlen-Layer unabhängig bestätigt, zwei materielle Rechtsfehler + eine Auslassung korrigiert; Quellenprovenienz 2026-07-20 abschliessend geklärt — amtliche EnDK-Fassung gefunden und byte-identisch mit bisherigem Spiegel bestätigt, siehe Schlussabschnitt)
 last_updated: 2026-07-20
 ---
 
@@ -474,12 +474,41 @@ Volltext-Verifikation hinter sich hatte. Primärquellenlektüre schützt vor fal
 nicht vor falscher **Zuordnung** — Geltungsbereich, Modulstatus und weggefallene Deckelungen sind
 die Fehlerklasse, die eine zweite, gegnerisch gestimmte Lektüre braucht.
 
-## Offener Vorbehalt zur Quellenprovenienz (neu 2026-07-20)
-Der MuKEn-2025-Volltext liegt der KB nur als PDF-Spiegel auf **energiehub-gebaeude.ch** vor (Seite
-präsentiert sich als offizielle EnDK-Seite, Impressum nennt die EnDK); **endk.ch liefert auf den
-geprüften Pfaden 404**. Ein zweiter, unabhängiger Download derselben Datei bei einer Behördendomain
-konnte nicht gegengeprüft werden. Der Vermerk «Entwurf Ausgabe 2025» im Dateititel ist ein
-abgestandenes Word-Metadatum (Datei erstellt 23.08.2025, also **vor** der Plenarversammlung vom
-29.08.2025) und **kein** Entwurfsstatus — der Dokumentkopf S. 1 nennt die Verabschiedung
-ausdrücklich. Für eine verbindliche Zitierung in einem Bewilligungsverfahren ist die amtliche
-EnDK-Fassung zu beschaffen.
+## Quellenprovenienz — amtliche EnDK-Fassung gefunden und verifiziert (2026-07-20, Provenienz-Nachtrag)
+
+**Erledigt.** Die frühere Lücke (Volltext nur als Spiegel auf energiehub-gebaeude.ch, endk.ch
+lieferte auf den zuvor geprüften Pfaden 404) ist geschlossen: Die **amtliche EnDK-Fassung** liegt
+unter
+
+> **https://endk.ch/wp-content/uploads/2026/04/MuKEn2025_d-2025-08-29.pdf**
+
+Gefunden über die endk.ch-Seite **Publikationen** (`https://endk.ch/publikationen/`, verlinkt aus
+der Sitemap `page-sitemap.xml`) — dort ist der Volltext als reguläre PDF-Publikation der EnDK
+gelistet, nicht (mehr) über die EnDK-Medienmitteilung vom 29.08.2025 direkt verlinkt (diese bindet
+stattdessen per oEmbed einen Blogbeitrag auf energiehub-gebaeude.ch ein).
+
+**Identitätsprüfung:**
+- **MD5-Hash beider Dateien identisch:** `32a7f38c82f057015904a9c0c8c601de` — die amtliche
+  endk.ch-Fassung und der bisherige Spiegel energiehub-gebaeude.ch/wp-content/uploads/2025/09/
+  MuKEn2025_d-2025-08-29.pdf sind **byte-identisch** (beide 1'273'299 Bytes, 117 Seiten).
+- **PDF-Metadaten identisch:** Titel «Mustervorschriften der Kantone im Energiebereich, Entwurf
+  Ausgabe 2025», Autor Christoph Gmür, Erstellt/Geändert 23.08.2025 22:21:44 MESZ (Microsoft Word
+  für Microsoft 365).
+- **Volltext-Stichprobe (curl+pdftotext) am amtlichen endk.ch-PDF bestätigt:** Art. 1.28 «Neubauten
+  (G)», Art. 1.39 «Anforderung und Nachweis graue Energie (V)», Art. 1.40 «Anwendungsbereich und
+  Befreiungen (V)», Kennwert «mindestens 20 W/m²» (Eigenstromerzeugung) — alle vier Fundstellen
+  liegen an denselben Textpositionen wie im bisher ausgewerteten Spiegel.
+- **404 auf endk.ch war ein Pfadproblem, kein Provenienzproblem:** der frühere Upload-Pfad
+  (`/wp-content/uploads/2025/09/…`) existiert auf endk.ch nicht; die Datei liegt dort unter
+  `/wp-content/uploads/2026/04/…` (WordPress-Medienbibliothek, Upload-Datum ≠ Ausgabedatum der
+  MuKEn). Der Vermerk «Entwurf Ausgabe 2025» im Dateititel bleibt ein abgestandenes Word-Metadatum
+  (Erstellt vor der Plenarversammlung 29.08.2025) und kein Entwurfsstatus — unverändert zur
+  bisherigen Einordnung.
+
+**Für Zitierungen in Bewilligungsverfahren/Dokumenten gilt ab sofort die amtliche EnDK-URL
+(`endk.ch/wp-content/uploads/2026/04/MuKEn2025_d-2025-08-29.pdf`) als Primärverweis**; der
+Spiegel energiehub-gebaeude.ch bleibt als Fallback dokumentiert (Frontmatter oben).
+
+Quelle: EnDK, Website endk.ch, Seite «Publikationen» (`endk.ch/publikationen/`), gefunden und per
+curl+pdftotext verifiziert 2026-07-20 (Wayback/Sitemap-Recherche, kein Wayback-Fund nötig — Datei
+liegt live auf endk.ch).

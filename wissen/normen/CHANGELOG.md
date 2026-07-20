@@ -1,3 +1,17 @@
+## 2026-07-20 — Erster Wissens-Health-Check (Phase 1, Skill wissenscheck, Mac Mini Nachtschicht)
+- **Erster Lauf ueberhaupt** (kein vorheriger health-check/Audit-Eintrag im CHANGELOG gefunden).
+  A1 (SIA-112-Destillat ordnet SIA 104/105 falschen Berufsgruppen zu, seit 17.07. offen und noch
+  unkorrigiert) · B64 (39 tote `[[Backlink]]`-Vorkommen in 26 Destillaten, ueberwiegend fehlende
+  Jahres-Suffixe; 25 Destillate nicht in `destillate/INDEX.md` registriert) · C1 (Destillat
+  `sia-vertragsunterschiede-2023.md` beruht auf einer als ChatGPT-Antwort gekennzeichneten Quelle,
+  korrekt `speculative` gefuehrt) · D0 (Inventar `training/norm-inventar.md` vollstaendig, 0 offene
+  `[ ]`) · E0 (KB erst 9 Tage alt, 90-Tage-Kriterium noch nicht anwendbar) · F143 (11x «ß» statt
+  «ss», 1x Deko-Symbol, 4x fehlendes Pflichtfeld last_updated/datenstand, 127x fehlendes
+  Pflichtfeld ersetzt/ersetzt_durch) · G0 (6 speculative-Destillate geprueft, alle korrekt
+  zurueckgehalten, keine Promotion-Kandidaten). Keine inhaltlichen Sachfehler gefunden — die
+  adversariale Verifikationskultur des Trainings-Loops faengt diese bereits selbst ab. Voller
+  Report → `outputs/2026-07-20_health-check.md`.
+
 ## 2026-07-20 — Normen Mini-Run 33 (Mac Mini): Uebergabe-Punkte aus Run 15 abgearbeitet
 - **Zaehl-Differenz aufgeloest:** frischer rekursiver Datei-Abgleich zeigt DIN live 72 = Inventar 72,
   VSS live 17 = Inventar 17 (netto), RAL 1 = 1 — die von Run 15 (17.07.) gemeldete Differenz

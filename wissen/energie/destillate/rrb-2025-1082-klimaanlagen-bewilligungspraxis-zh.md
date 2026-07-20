@@ -10,9 +10,10 @@ herausgeber: Regierungsrat Kanton Zuerich (RRB, auf Antrag der Baudirektion); Ba
 ausgabe: RRB-2025-1082, 6 Seiten, vollstaendig via curl+pdftotext -layout gelesen (Quell-URL
   https://www.zh.ch/bin/zhweb/publish/regierungsratsbeschluss-unterlagen./2025/1082/RRB-2025-1082.pdf);
   § 309 PBG direkt am amtlichen Erlass-PDF (www2.zhlex.zh.ch, Fassung mit Nachtrags-Fussnoten
-  24/25) verifiziert; § 8 WDV direkt am amtlichen PDF vom 8.6.2022 verifiziert; § 2a BVV NICHT
-  am Erlasstext gelesen, nur ueber die zh.ch-Webseite «Meldeverfahren fuer Solaranlagen,
-  Waermepumpen und E-Ladestationen» zusammengefasst
+  24/25) verifiziert; § 8 WDV direkt am amtlichen PDF vom 8.6.2022 verifiziert; § 2a BVV
+  (LS 700.6) am 2026-07-20 nachtraeglich direkt am amtlichen Erlass-PDF (Nachtrag 133) verifiziert
+  — siehe eigenes Destillat [[bvv-zh-meldeverfahren-klimaanlagen-waermepumpen]], das die
+  zh.ch-Sekundaerquellen-Formulierung "mit Kuehlmoeglichkeit" korrigiert
 gelesen: 2026-07-20
 datenstand: RRB vom 29.10.2025 (Praxisstand der Anfragebeantwortung, keine neue Rechtsnorm);
   § 309 PBG und § 8 WDV Stand des jeweils zuletzt eingesehenen amtlichen Erlasstexts (WDV in
@@ -22,10 +23,14 @@ datenstand: RRB vom 29.10.2025 (Praxisstand der Anfragebeantwortung, keine neue 
   PBG-Aenderung «erleichtertes Bauen im Bestand» — kein geltendes Recht.
 status: emerging (Kern: RRB als Praxisauskunft, keine Erlassnorm — siehe Abschnitt
   "Rechtsnatur"); § 309 Abs. 1 lit. d PBG und § 8 Abs. 6 WDV: established (Wortlaut direkt am
-  amtlichen Original-PDF geprueft); § 2a BVV / Ablauf des bestehenden WP-Meldeverfahrens:
-  emerging (nur Sekundaerquelle zh.ch, Erlasstext nicht selbst gelesen); Statistiken (Fallzahlen,
-  Fristen, Kosten) laut RRB selbst kantonsweit nur lueckenhaft erhoben — als Naeherung, nicht
-  als belastbare Statistik zu verwenden
+  amtlichen Original-PDF geprueft); § 2a Abs. 1 lit. f-h BVV: established seit 2026-07-20 direkt
+  am amtlichen Erlass-PDF verifiziert (siehe [[bvv-zh-meldeverfahren-klimaanlagen-waermepumpen]])
+  — KORRIGIERT: die Qualifikation "Waermepumpen MIT Kuehlmoeglichkeit" ist am Erlasstext NICHT
+  auffindbar und war eine unbelegte Uebernahme aus der zh.ch-Sekundaerquelle; das Meldeverfahren
+  gilt fuer innen aufgestellte Luft/Wasser-WP, aussen aufgestellte Luft/Wasser-WP ≤2 m³ und
+  Erdwaermesonden-WP mit Abstandskriterien, unabhaengig von einer Kuehlfunktion; Statistiken
+  (Fallzahlen, Fristen, Kosten) laut RRB selbst kantonsweit nur lueckenhaft erhoben — als
+  Naeherung, nicht als belastbare Statistik zu verwenden
 last_updated: 2026-07-20
 ---
 
@@ -33,8 +38,11 @@ last_updated: 2026-07-20
 
 **Das Wichtigste in 1 Satz:** Fest installierte Klimaanlagen (insbesondere die Aussen­einheit
 eines Split-Geraets) sind im Kt. Zuerich gestuetzt auf **§ 309 Abs. 1 lit. d PBG**
-grundsaetzlich **baubewilligungspflichtig** bei der **Gemeinde**, waehrend fuer Waermepumpen mit
-Kuehlmoeglichkeit bereits ein **Meldeverfahren** existiert (§ 2a BVV) — eine analoge Ausweitung
+grundsaetzlich **baubewilligungspflichtig** bei der **Gemeinde**, waehrend fuer bestimmte
+Waermepumpen-Typen (innen aufgestellte Luft/Wasser-WP, aussen aufgestellte Luft/Wasser-WP bis
+2 m³, Erdwaermesonden-WP mit Abstandskriterien) bereits ein **Meldeverfahren** existiert
+(**§ 2a Abs. 1 lit. f–h BVV**, amtlich verifiziert — unabhaengig von einer Kuehlfunktion) —
+eine analoge Ausweitung
 auf Klimaanlagen ist gemaess RRB-2025-1082 **erst vorgeschlagen** (Vernehmlassungsvorlage PBG
 «erleichtertes Bauen im Bestand»), aber **noch nicht geltendes Recht**.
 
@@ -137,20 +145,29 @@ Gleichbehandlungsgruenden.
   genannt, ohne dass der RRB hierzu bereits ein konkretes Instrument ankuendigt.
 
 ## Meldeverfahren heute (Waermepumpen) und Reformvorschlag fuer Klimaanlagen (RRB Antwort 9–11)
-- **Heute (Sekundaerquelle zh.ch, status emerging):** Fuer Waermepumpen **mit Kuehlmoeglichkeit**
-  besteht bereits ein Meldeverfahren (**§ 2a Abs. 1 lit. f–h BVV**, LS 700.6), weil diese das
-  bestehende Waermeverteilsystem nutzen und **ohne zusaetzliche Installationen** eine gewisse
-  Kuehlung bewirken. **Sobald aktive Elemente zur Kaelteabgabe installiert werden**, ist zurzeit
-  **immer ein Bewilligungsverfahren** noetig — also auch bei Waermepumpen, wenn eine aktive
-  Kuehlfunktion nachgeruestet wird.
-- Gemaess der (nicht am Erlasstext, sondern nur ueber die zh.ch-Webseite «Meldeverfahren fuer
-  Solaranlagen, Waermepumpen und E-Ladestationen» geprueften) Verfahrensbeschreibung: Meldung an
-  die Gemeinde, **Eingangsbestaetigung**, wenn **innert 30 Tagen** nichts angeordnet wird, darf
-  das Vorhaben realisiert werden. **Ausnahmen (weiterhin bewilligungspflichtig):** Kernzonen,
-  Geltungsbereich von Ortsbild-/Denkmalschutzinventaren oder denkmalpflegerischen
-  Schutzanordnungen; zusaetzlich aussen aufgestellte Luft/Wasser-Waermepumpen in diesen Zonen.
-  Diese Webseite behandelt **ausschliesslich** Solaranlagen, Waermepumpen, Fernwaermeanschluss
-  und E-Ladestationen — **Klimaanlagen werden dort (Stand 2026-07-20) nicht erwaehnt.**
+- **Heute (§ 2a Abs. 1 lit. f–h BVV, LS 700.6, status established seit 2026-07-20 — Wortlaut
+  direkt am amtlichen Erlass-PDF verifiziert, siehe
+  [[bvv-zh-meldeverfahren-klimaanlagen-waermepumpen]]):** Meldepflichtig statt
+  bewilligungspflichtig sind **innen aufgestellte Luft/Wasser-Waermepumpen** (lit. f), **aussen
+  aufgestellte Luft/Wasser-Waermepumpen bis 2 m³ Volumen** (lit. g) sowie
+  **Erdwaermesonden-Waermepumpen mit mindestens 2,5 m Grenzabstand ausserhalb Bau-/
+  Abstandslinien** (lit. h, gewaesserschutzrechtliche Bewilligung bleibt vorbehalten). **KORREKTUR:**
+  Der Erlasstext differenziert **nicht** nach Kuehlfunktion — die frueher hier verwendete
+  Formulierung "Waermepumpen mit Kuehlmoeglichkeit" stammte ungeprueft aus der
+  zh.ch-Sekundaerquelle und ist am Gesetzestext nicht auffindbar; das Meldeverfahren gilt fuer
+  die genannten WP-Typen als solche, unabhaengig davon, ob sie kuehlen koennen. Die RRB-Aussage,
+  dass **aktive Kaelteelemente** (im Unterschied zur passiven Systemkuehlung) wieder ein
+  ordentliches Bewilligungsverfahren ausloesen, bleibt Vollzugspraxis-Auskunft (nur
+  Sekundaerquelle, nicht am § 2a-Wortlaut selbst verankert).
+- Verfahrensbeschreibung (Sekundaerquelle zh.ch, status emerging): Meldung an die Gemeinde,
+  **Eingangsbestaetigung**, wenn **innert 30 Tagen** nichts angeordnet wird, darf das Vorhaben
+  realisiert werden. **Ausnahmen (weiterhin bewilligungspflichtig, § 2a Abs. 2 BVV, amtlich
+  verifiziert):** saemtliche Solaranlagen sowie aussen aufgestellte Luft/Wasser-Waermepumpen in
+  Kernzonen, im Geltungsbereich eines Ortsbild- oder Denkmalschutzinventars oder einer
+  denkmalpflegerischen Schutzanordnung. Die zh.ch-Webseite «Meldeverfahren fuer Solaranlagen,
+  Waermepumpen und E-Ladestationen» behandelt **ausschliesslich** Solaranlagen, Waermepumpen,
+  Fernwaermeanschluss und E-Ladestationen — **Klimaanlagen werden dort (Stand 2026-07-20) nicht
+  erwaehnt**, und die BVV kennt fuer Klimaanlagen keine eigene Meldeverfahren-Position.
 - **Reformvorschlag (noch kein geltendes Recht):** Im Rahmen der Vernehmlassungsvorlage zur
   PBG-Aenderung «erleichtertes Bauen im Bestand» hat die Baudirektion einen Vorschlag zur
   **Ausweitung des Meldeverfahrens auf ausgewaehlte Typen von Klimaanlagen in
@@ -227,9 +244,10 @@ Gleichbehandlungsgruenden.
   eher eine Uebergangsloesung.
 
 ## Offene Punkte
-- **§ 2a Abs. 1 lit. f–h BVV** ist hier nur ueber die zh.ch-Webseite zusammengefasst, **nicht am
-  Erlasstext selbst geprueft** — Primaertext (LS 700.6) nachholen, sobald verfuegbar (Status
-  bleibt bis dahin emerging fuer den Meldeverfahren-Ablauf).
+- **§ 2a Abs. 1 lit. f–h BVV** wurde am 2026-07-20 direkt am amtlichen Erlasstext (LS 700.6,
+  Nachtrag 133) verifiziert — siehe [[bvv-zh-meldeverfahren-klimaanlagen-waermepumpen]]. Erledigt;
+  verbleibt offen: die genaue RRB-Aussage zu "aktiven Kaelteelementen" als Ausloeser einer
+  erneuten Bewilligungspflicht ist weiterhin nur Sekundaerquelle (nicht am Erlasstext verankert).
 - **Stand der PBG-Revision «erleichtertes Bauen im Bestand»** (mit dem Meldeverfahren-Vorschlag
   fuer Klimaanlagen) war zum RRB-Datum (29.10.2025) eine **Vernehmlassungsvorlage** — Stand
   Inkrafttreten/definitive Kriterien (Leistungsgrenzen, Laermwerte, Einbauorte) periodisch
