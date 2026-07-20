@@ -3,6 +3,37 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-20 — Run 10 (4 Lese-Agenten, 4 Paare; 0 Widerspruch → 0 Verifikationsrunde nötig)
+- Gedrosselter Cross-KB-Lauf (Rule 260714): 4 parallele Lese-Agenten am frischen Stoff seit Run 9
+  (energie Run 81/82, planungsgrundlagen Run 54, auflagebereinigung GVZ-Artikel, kunde-bopp
+  Firmenrollen). Workflow-Tool wie in energie Run 82 headless nicht nutzbar → 4 Hintergrund-Agenten
+  über das reguläre Agent-Tool (gleiche Parallelität). **Ergebnis: KEIN einziger Widerspruch, kein
+  Veraltetes, keine echte Doppelspur** — alle Befunde strukturell (fehlende Cross-Links, eine
+  Vollständigkeitslücke). Weil keine Widersprüche gemeldet wurden, entfiel die adversariale
+  Verifikationsrunde (nichts zu widerlegen); jeder Befund ist direkt am zitierten file:line-Anker
+  verifiziert.
+- **§ 2a BVV Wärmepumpen-Meldeverfahren dreiseitig verlinkt (energie ↔ baurecht ↔ planungsgrundlagen):**
+  der frische Run-82-Stoff (§ 2a/§ 2c BVV, LS 700.6) war **fassungsgleich** mit baurecht (BVV NT 133,
+  EnerG NT 129) und konfliktfrei; einzige Lücke war die Verlinkung. Rollenteilung fixiert: energie =
+  Rechtsgrundlage/WP-Weichen, baurecht = Verfahrenstyp-Systematik, planungsgrundlagen = WTA-Formular.
+  Dabei **§ 2a BVV ≠ § 2a ABV**-Namensgleichheit in baurecht markiert und die undestillierte
+  Meldeverfahren-Systematik als baurecht-QUESTIONS-Bring-Schuld aufgenommen (arbeitsteilig zu energie,
+  um eine BVV-Doppelspur analog E1 zu vermeiden).
+- **Brandschutz/VKF-Dreieck (normen ↔ planungsgrundlagen ↔ auflagebereinigung) sauber:** der neue
+  GVZ-Artikel (auflagebereinigung) spiegelte VKF-BRL-Schwellen ohne normen-Link → Cross-Link auf
+  VKF-BRL 20-15/19-15 gesetzt (beide Richtungen), reziproker Backlink zu `brandschutz-auflagen-qss`.
+  Die frischen §5ao/§5ap (pg Run 54) schreiben **keine** VKF-Ziffern fort — das wiederkehrende
+  «VKF-Wortlaut fortgeschrieben»-Muster trat diesmal nicht auf. 0 Kennwert-Widerspruch.
+- **Rotationspaar kunde-bopp ↔ firmengruendung-ch (Erst-Check): legitimes Null-Ergebnis.** Disjunkte
+  KBs (Kundenwissen vs. allgemeines Gründungswissen); «Genossenschaft»/«AG» in kunde-bopp reine
+  Identifikatoren. Paar aus der prioritären Rotation genommen. Nebenbeobachtung (KB-intern, NICHT
+  Cross-KB): firmengruendung-ch hat keinen Genossenschafts-Artikel — nur als Coverage-Notiz vermerkt.
+- **7 Dateien in 5 KBs berührt** (energie, planungsgrundlagen, baurecht, auflagebereinigung, normen),
+  ausschliesslich Links/Querbezüge + 1 QUESTIONS-Eintrag. Register QUERBEZUEGE um 4 datierte
+  Paar-Einträge ergänzt. **Keine neuen offenen Entscheide für Raphael** (E1 bleibt bestehen; das neue
+  baurecht-Meldeverfahren-Destillat ist Loop-Arbeit, keine Entscheidung).
+  Bericht: `outputs/2026-07-20_wissens-chef-run10.md`.
+
 ## 2026-07-20 — Erst-Wissenscheck Phase 1 (Dauerschicht-Zyklus 26, kompakt)
 - KB hochaktiv und diszipliniert; Register-Stichproben 3/3 bestanden (SYN-02-Spec-Datei
   existiert, S5/S6 im Katalog, Rollen-Matrix-Ziele vorhanden). Einziger operativer

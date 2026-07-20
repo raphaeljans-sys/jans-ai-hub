@@ -1,3 +1,11 @@
+## 2026-07-20 — Wissens-Chef Run 10 (Cross-KB): VKF-BRL 20-15/19-15 an GVZ-Artikel angebunden
+- [link] `destillate/vkf-brl-20-15-brandmeldeanlagen.md` + `destillate/vkf-brl-19-15-sprinkleranlagen.md`:
+  JANS-Praxis-Transfer präzisiert — der generische `auflagebereinigung`-Verweis zeigt jetzt auf den
+  konkreten neuen Artikel `wissen/auflagebereinigung/wiki/gvz-einreichung-bma-sprinkler` (GVZ-Weisung
+  20.07/20.08 spiegelt Ziff. 4.1/3.10 bzw. 5.1/4.4). normen bleibt für den Norm-Wortlaut führend.
+  Cross-KB-Audit: 0 Kennwert-Widerspruch (GVZ-Schwellen deckungsgleich mit VKF-BRL).
+  Bericht: `koordination/outputs/2026-07-20_wissens-chef-run10.md`.
+
 ## 2026-07-20 — Erster Wissens-Health-Check (Phase 1, Skill wissenscheck, Mac Mini Nachtschicht)
 - **Erster Lauf ueberhaupt** (kein vorheriger health-check/Audit-Eintrag im CHANGELOG gefunden).
   A1 (SIA-112-Destillat ordnet SIA 104/105 falschen Berufsgruppen zu, seit 17.07. offen und noch

@@ -5,6 +5,18 @@ geplante Artikel. Der Health-Check (`wissenscheck`) prüft, ob bereits geflaggte
 Lücken erneut auftauchen (Doppel-Flag vermeiden) und ob sie inzwischen geschlossen
 wurden.
 
+## 2026-07-20 (Cross-KB Wissens-Chef Run 10) — Meldeverfahren §§ 2a-2c BVV als eigener Verfahrenstyp fehlt
+
+`wiki/baubewilligungsverfahren.md` enumeriert nur bewilligungsfrei / Anzeigeverfahren / ordentliches
+Verfahren; das **Meldeverfahren (§§ 2a-2c BVV, LS 700.6)** — der vierte ZH-Verfahrenstyp, unter den
+Wärmepumpen und Solaranlagen fallen — fehlt, obwohl der Erlasstext im eigenen raw (`raw/260607_amtlich_zh_bvv.md`
+ab «II. Meldepflicht», § 2a) voll vorliegt. Cross-KB-Lauf hat vorerst nur einen **Querbezug-Block auf die
+KB energie** (`bvv-zh-meldeverfahren-klimaanlagen-waermepumpen`) gesetzt + die Namensgleichheit
+**§ 2a BVV ≠ § 2a ABV** (LS 700.2, Klein-/Anbauten) markiert. Offene Bring-Schuld baurecht-Loop:
+Meldeverfahren als eigenen Abschnitt aufnehmen, **arbeitsteilig** (baurecht = Verfahrenstyp-Systematik,
+energie = WP-Fachvertiefung) — sonst entsteht dieselbe Absatz-Doppelspur wie beim offenen Entscheid E1
+(ZH-EnerG-§§), nur auf der BVV.
+
 ## 2026-07-17 (Buch-Run 48, Modell-D — die drei «beschaffbaren» Luecken aus Run 47 geschlossen: 4 neue amtliche Volltexte)
 
 Freigabe Raphael 17.07.2026 («so weiter verfahren wie es richtig ist»): erst die beschaffbaren

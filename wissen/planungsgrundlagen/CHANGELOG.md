@@ -2,6 +2,14 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-20 — Wissens-Chef Run 10 (Cross-KB): WTA-Artikel auf § 2a-BVV-Rechtsgrundlage verlinkt
+- [link] `wiki/energie-baueingabe-zusatzformulare.md`: Querbezug-Block «KB energie» im WTA-Abschnitt —
+  die Verfahrensweiche für Wärmepumpen (Melde-/Anzeige-/ordentliches Verfahren) zeigt jetzt auf die
+  energie-Rechtsgrundlage § 2a BVV (`bvv-zh-meldeverfahren-klimaanlagen-waermepumpen`). Schliesst die
+  im Cross-KB-Audit gefundene Führungslücke (verfahrensführende KB ohne Link auf die Erlassgrundlage);
+  dieser Artikel bleibt führend für Formular/Verfahrensablauf. 0 Widerspruch, 0 Doppelspur.
+  Bericht: `koordination/outputs/2026-07-20_wissens-chef-run10.md`.
+
 ## 2026-07-20 — Training Run 54 (Brandschutz + Kartenportale, Token-Vollgas)
 - **Blocker aus Run 53 aufgeloest:** OneDrive-Mount wieder normal lesbar (Lesbarkeits-Test ueber
   alle vier PL-Ordner als erste Handlung, wie von Run 53 empfohlen). Dadurch liessen sich die seit

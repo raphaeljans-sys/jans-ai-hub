@@ -4,6 +4,15 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-20 — Wissens-Chef Run 10 (Cross-KB): Meldeverfahren § 2a BVV verlinkt + ABV/BVV-Namensgleichheit markiert
+- [link] `wiki/baubewilligungsverfahren.md`: Querbezug-Block «KB energie» zum **Meldeverfahren
+  §§ 2a-2c BVV** (4. ZH-Verfahrenstyp, WP/Solar) → energie-Destillat; **Namensgleichheit § 2a BVV
+  (LS 700.6) ≠ § 2a ABV (LS 700.2, Klein-/Anbauten)** ausdrücklich abgegrenzt.
+- [questions] `wiki/QUESTIONS.md`: offener Punkt aufgenommen — Meldeverfahren als eigenen Abschnitt
+  destillieren (raw liegt vor: `raw/260607_amtlich_zh_bvv.md`), arbeitsteilig zu energie, um eine
+  BVV-Doppelspur analog E1 zu vermeiden. Cross-KB bestätigte 0 Widerspruch, fassungsgleich (BVV NT 133,
+  EnerG NT 129). Bericht: `koordination/outputs/2026-07-20_wissens-chef-run10.md`.
+
 ## 2026-07-20 — Buch-Run 49 (Dauerschicht): Transfer-Abschluss festgestellt, 16.9.3 angereichert, Programm-Hygiene
 - [verifiziert] Restschuld-Liste im PROGRAMM war komplett veraltet (Kap. 6/14/15/16/17
   laengst erledigt) — jede Position am Inventar bzw. direkt am Shot geprueft; ersetzt durch

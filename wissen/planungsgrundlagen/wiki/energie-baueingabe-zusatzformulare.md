@@ -31,6 +31,14 @@ brandschutzrelevanten Anlagen, z.B. Holzfeuerung, Flüssiggas), **AWEL/Lufthygie
 hydraulisches Schema), **GVZ** (Brandschutz-Bewilligung, sofern nach GVZ-Weisung 20.01 Ziff.
 2.1 Abs. 5 nötig).
 
+> **Querbezug KB energie (Rechtsgrundlage Meldeverfahren, Cross-KB Wissens-Chef Run 10):** Welcher
+> der drei Verfahrenswege für **Wärmepumpen** greift, richtet sich nach **§ 2a BVV** (LS 700.6);
+> die WP-Weichen (innen aufgestellte L/W-WP → Meldeverfahren; aussen aufgestellte L/W-WP nur bis
+> **2 m³**; Erdwärmesonde bei **2,5 m Grenzabstand** ausserhalb Bau-/Abstandslinien; Kernzonen-/
+> Denkmalschutz → Bewilligung, § 2a Abs. 2) samt einzureichenden Unterlagen (§ 2c BVV) führt am
+> Erlasstext die KB energie: `wissen/energie/destillate/bvv-zh-meldeverfahren-klimaanlagen-waermepumpen`.
+> Dieser Artikel bleibt führend für **Formular/Verfahrensablauf** (WTA-Formular Seite 2, Zuständigkeiten).
+
 **Neubau-Kopplung:** Bei Neubauten ist **immer** das Formular **EN-103** (mit Privater Kontrolle)
 nötig — fehlt bei bestehenden Gebäuden Seite 4 des WTA-Formulars UND das EN-103, erfolgt eine
 **kostenpflichtige behördliche Kontrolle** statt der privaten. Für Luft-Wärmepumpen zusätzlich

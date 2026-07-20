@@ -17,6 +17,14 @@ Abnahmen und periodische Kontrollen laufen bei ihr (oder einer von ihr bezeichne
 Inspektionsstelle), nicht bei der Gemeinde. Die kommunale Feuerpolizei ist fuer WTA
 u.ae. zustaendig, die Anlagen-Schiene BMA/SPA gehoert der GVZ.
 
+> **Querbezug KB normen (fuehrende Norm-Fundstelle, Cross-KB Wissens-Chef Run 10, 2026-07-20):**
+> Die hier aus den GVZ-Weisungen 20.07/20.08 gespiegelten **Anmeldeschwellen** (BMA >10 Melder
+> oder 600 m²; SPA >10 Sprinkler oder 100 m²) und die Ausserbetriebsetzungs-Frist (>24 h, 3 Tage
+> vorher) sind norm-gefuehrte Fundstellen: **VKF-BRL 20-15 Ziff. 4.1 / 3.10** bzw. **VKF-BRL 19-15
+> Ziff. 5.1 / 4.4**. Massgeblich am Normwortlaut sind die Destillate
+> `wissen/normen/destillate/vkf-brl-20-15-brandmeldeanlagen` und `.../vkf-brl-19-15-sprinkleranlagen`
+> (KB normen fuehrend); dieser Artikel fuehrt den **GVZ-Einreichungsweg/Vollzug** (kantonal).
+
 ## 1. Projektbegutachtung — VOR Ausfuehrungsbeginn (Pflichtschritt)
 
 **BMA (Weisung 20.07 Ziff. 7.1):** Projekte (Neuanlagen, wesentliche Erweiterungen/

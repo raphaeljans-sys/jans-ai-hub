@@ -119,3 +119,14 @@ RRB 29.10.2025) erst Vernehmlassungsvorschlag, kein geltendes Recht.
   hier korrigiert um die "Kuehlmoeglichkeit"-Fehlqualifikation
 - [[waermepumpe-systemvergleich]]
 - [[wta-formular-zh-waermetechnische-anlagen]]
+
+**Querbezug KB baurecht + KB planungsgrundlagen (Cross-KB, Wissens-Chef Run 10, 2026-07-20):**
+Dieses Destillat fuehrt die **Rechtsgrundlage** des Meldeverfahrens (Erlasstext § 2a/§ 2c BVV,
+LS 700.6, Fassung Nachtrag 133) und die WP-spezifischen Weichen (2-m³-Grenze aussen aufgestellte
+L/W-WP, 2,5-m-Grenzabstand Erdwaermesonde, Kernzonen-/Denkmalschutz-Ausnahme Abs. 2). Fuer die
+**verfahrensrechtliche Systematik** (Meldeverfahren als eigener ZH-Verfahrenstyp neben
+bewilligungsfrei/Anzeige-/ordentlichem Verfahren) ist die KB `baurecht` fuehrend
+(`wissen/baurecht/wiki/baubewilligungsverfahren`); fuer **Verfahrensablauf/Formular** (WTA-Formular
+Seite 2, einzureichende Unterlagen, GVZ/AWEL-Wege) die KB `planungsgrundlagen`
+(`wissen/planungsgrundlagen/wiki/energie-baueingabe-zusatzformulare`). Fassungsstand BVV in allen
+drei KBs deckungsgleich (Nachtrag 133).

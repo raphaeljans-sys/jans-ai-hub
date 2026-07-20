@@ -89,7 +89,7 @@ Anhang-Tabelle zu Ziff. 3.2.2 lit. i (S. 12): Kombination Brandbelastung (< 50 /
 - Skill `machbarkeit`/`behoerden-vorabklaerung`: Schwellenwerte (Ziff. 2.2.2/2.2.4, Verkaufsflächen/Einstellräume) sind früh im Raumprogramm zu prüfen, da Sprinklerpflicht Flächen-/Kostenfolgen hat
 - Skill `kostenschaetzung`/`grobkosten-onepager`: Sprinkleranlagen-Pflicht ist ein Kostentreiber (BKP-Zuordnung Gebäudetechnik) — sobald Ziff. 2.2/2.3-Schwelle erreicht, in der Grobkostenschätzung berücksichtigen
 - Skill `unternehmerkontrolle`/`kostenkontrolle`: Ziff. 5.1 (VKF-Formulare Vorabklärung/Anmeldung/Installations-Attest) als Fristen-/Nachweis-Kette für die Bauleitung bei Sprinkler-Vergaben
-- Skill `auflagebereinigung`: Sprinkler-bezogene Auflagen aus Bauentscheiden (z. B. Vorabklärung/Anmeldung-Pflicht) lassen sich gegen Ziff. 5.1 verifizieren
+- Skill `auflagebereinigung`: Sprinkler-bezogene Auflagen aus Bauentscheiden (z. B. Vorabklärung/Anmeldung-Pflicht) lassen sich gegen Ziff. 5.1 verifizieren. Der kantonale GVZ-Einreichungsweg ist in `wissen/auflagebereinigung/wiki/gvz-einreichung-bma-sprinkler` destilliert (spiegelt Ziff. 5.1/4.4 als GVZ-Weisung 20.08); dieses Destillat bleibt für den Norm-Wortlaut führend *(Querbezug ergänzt Wissens-Chef Run 10, 2026-07-20)*
 
 ## Offene Punkte
 - Anhang-Erläuterungen zu Ziff. 3.5 (Wasserversorgung, Wirkflächen-Prinzipskizze) und Ziff. 3.6.1/3.8 nur in ihrer textlichen Kernaussage übernommen, Zeichnungen selbst nicht wiedergegeben (Urheberrecht) — bei Detailfragen Original konsultieren

@@ -2,6 +2,17 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-20 — Wissens-Chef Run 10 (Cross-KB): GVZ-Artikel an normen-Fundstellen angebunden
+- [link] `wiki/gvz-einreichung-bma-sprinkler.md`: Querbezug-Block «KB normen» — die aus den
+  GVZ-Weisungen gespiegelten Anmeldeschwellen (BMA >10/600 m², SPA >10/100 m²) und die
+  Ausserbetriebsetzungs-Frist sind norm-geführte Fundstellen (**VKF-BRL 20-15 Ziff. 4.1/3.10**,
+  **19-15 Ziff. 5.1/4.4**); normen-Destillate als führend markiert, dieser Artikel führt den
+  kantonalen GVZ-Vollzug.
+- [link] `wiki/brandschutz-auflagen-qss.md`: reziproker Backlink im GVZ-Abschnitt (II.25/II.26) auf
+  `[[gvz-einreichung-bma-sprinkler]]`. Cross-KB bestätigte: **0 Widerspruch, 0 Doppelspur** zwischen
+  planungsgrundlagen/auflagebereinigung; die neuen §5ao/§5ap (pg) schreiben keine VKF-Ziffern fort.
+  Bericht: `koordination/outputs/2026-07-20_wissens-chef-run10.md`.
+
 ## 2026-07-20 — Neuer Artikel: GVZ-Einreichungsweg BMA/Sprinkler (Dauerschicht-Zyklus 21)
 - [neu] [[gvz-einreichung-bma-sprinkler]] — QUESTIONS-Punkt «GVZ-Einreichungsweg
   BMA/Sprinkler» (Ziff. II.25/II.26 Bauentscheid 2619-KISPI) geschlossen. Quellen an

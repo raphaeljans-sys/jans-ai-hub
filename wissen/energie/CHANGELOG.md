@@ -2,6 +2,14 @@
 
 Neueste zuoberst.
 
+## 2026-07-20 — Wissens-Chef Run 10 (Cross-KB): § 2a BVV Meldeverfahren dreiseitig verlinkt
+- [link] `destillate/bvv-zh-meldeverfahren-klimaanlagen-waermepumpen.md`: Cross-KB-Querbezug-Block in
+  «Querverweise» ergänzt — Rollenteilung fixiert: energie = Rechtsgrundlage § 2a/§ 2c BVV + WP-Weichen
+  (2 m³, 2,5 m Erdsonde, Kernzonen-Ausnahme), `baurecht` = Verfahrenstyp-Systematik, `planungsgrundlagen`
+  = WTA-Formular/Verfahrensablauf. Cross-KB-Audit bestätigte: **fassungsgleich** mit baurecht (BVV
+  Nachtrag 133, EnerG Nachtrag 129), 0 Widerspruch, F101-Korrektur aus Run 82 war rein energie-intern.
+  Bericht: `koordination/outputs/2026-07-20_wissens-chef-run10.md`.
+
 ## 2026-07-20 — Run 82: 7 parallele Recherche-/Verifikationsagenten, ein weiterer F101-Fehler korrigiert
 
 Zweiter Lauf des Tages (nach Run 81). PDF-Inventar weiterhin erschöpft seit Run 65 (SharePoint

@@ -48,6 +48,8 @@ Faktentiefe zu Klassen (EI/RF, Bfl-s1 etc.) liefert der Skill `brandschutz`.
   und **Sprinkleranlage (SPA, II.26)** — Anpassung nach VKF-RL + GVZ-Weisung + Stand der
   Technik; Projektunterlagen vor Ausführung einreichen + genehmigen lassen.
   → BMA = Gewerk **ELE**, SPA = Gewerk **SAN** (siehe [[auflagentypen-gewerkzuteilung]]).
+  Den vollständigen **GVZ-Einreichungsweg** (Projektbegutachtung vor Ausführung, Unterlagen,
+  Atteste, Abnahme, Risikogruppen-Kontrollturnus) führt [[gvz-einreichung-bma-sprinkler]].
 
 ## Integral-Test (BFS)
 

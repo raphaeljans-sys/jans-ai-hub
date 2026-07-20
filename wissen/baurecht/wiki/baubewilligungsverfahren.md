@@ -130,6 +130,19 @@ ggf. Lärm-/Altlastennachweis.
 > `energie-berater`). Dieser Artikel bleibt führend für die **verfahrensrechtliche**
 > Einbindung (Beilagepflicht, Anzeige- vs. ordentliches Verfahren, Minergie-Vermutung).
 
+> **Querbezug KB energie (Meldeverfahren §§ 2a-2c BVV, Cross-KB Wissens-Chef Run 10, 2026-07-20):**
+> Neben bewilligungsfrei / Anzeigeverfahren / ordentlichem Verfahren kennt das ZH-Recht einen
+> vierten Verfahrenstyp, das **Meldeverfahren** (**§§ 2a-2c BVV**, LS 700.6), unter das
+> insbesondere **Wärmepumpen** und Solaranlagen fallen. Die WP-spezifischen Weichen (2-m³-Grenze,
+> 2,5-m-Grenzabstand Erdwärmesonde, Kernzonen-Ausnahme Abs. 2) und die einzureichenden Unterlagen
+> führt derzeit am Erlasstext die KB energie
+> (`wissen/energie/destillate/bvv-zh-meldeverfahren-klimaanlagen-waermepumpen`). **Achtung
+> Namensgleichheit:** das hier gemeinte **§ 2a BVV** (Bauverfahrensverordnung LS 700.6) ist NICHT
+> das **§ 2a ABV** (Allgemeine Bauverordnung LS 700.2) für Klein-/Anbauten
+> (vgl. [[gebaeudearten-und-abstandssystem]]). *Offen (Verfahrenstyp-Systematik hier noch
+> undestilliert, Bring-Schuld baurecht-Loop, s. QUESTIONS): Meldeverfahren arbeitsteilig als
+> eigenen Abschnitt aufnehmen — baurecht = Verfahrenstyp-Systematik, energie = WP-Fachvertiefung.*
+
 ## Häufige Stolpersteine
 Unvollständige Unterlagen (Nachforderung mit Zeitverlust), Baugespann nicht
 fristgerecht, Waldabstand 30 m nicht eingehalten — führt zu Verzögerung (siehe [[abstaende-und-hoehen]]),

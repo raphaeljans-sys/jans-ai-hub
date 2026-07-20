@@ -44,6 +44,68 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### energie ↔ baurecht (§ 2a BVV Wärmepumpen-Meldeverfahren) — geprueft 2026-07-20 (Run 10)
+- **Anlass:** frischer Stoff energie Run 81/82 (§ 2a/§ 2c BVV, LS 700.6, WP-Meldeverfahren; F101-Korrektur).
+- **Null-Ergebnisse (ausdrücklich):** BVV **fassungsgleich** (beide Nachtrag 133, Datei `700.6_3.12.97_133.pdf`);
+  EnerG **fassungsgleich** (beide Nachtrag 129); Fossilfrei-Neubau-Gebot in beiden korrekt an § 11 EnerG
+  (kein Rückfall auf § 10a — Run-9-Ergebnis hält); F101-«Kühlmöglichkeit»-Fehler war rein energie-intern,
+  kein Cross-KB-Ausläufer; § 325a PBG sauber verlinkt. **0 Widerspruch, 0 Veraltetes.**
+- **Befund 1 (CONFIRMED, mittel):** FEHLENDE QUERVERLINKUNG (beide Richtungen). Das neue Destillat
+  `energie/destillate/bvv-zh-meldeverfahren-...` verlinkte nur energie-intern; baurecht
+  `baubewilligungsverfahren.md` verwies für energie nur auf den Energienachweis, nicht aufs Meldeverfahren.
+  → gegenseitiger Querbezug gesetzt; Rollenteilung fixiert (energie = Rechtsgrundlage/WP-Weichen, baurecht
+  = Verfahrenstyp-Systematik).
+- **Befund 2 (CONFIRMED, mittel):** VOLLSTÄNDIGKEITSLÜCKE in baurecht — «Meldeverfahren» kommt in keinem
+  baurecht-Hauptartikel vor (0 Treffer), obwohl §§ 2a-2c BVV im eigenen raw voll vorliegen; der 4.
+  ZH-Verfahrenstyp (WP/Solar) fehlt in der Enumeration. → **NICHT autonom destilliert** (Umstrukturierung
+  + E1-analoge Doppelspur-Gefahr): als baurecht-QUESTIONS-Bring-Schuld aufgenommen, arbeitsteilig zu energie.
+- **Befund 3 (CONFIRMED, tief):** VERWECHSLUNGSRISIKO § 2a **ABV** (LS 700.2, Klein-/Anbauten) vs. § 2a **BVV**
+  (LS 700.6, Meldeverfahren) — gleiche Nummer, andere Erlasse. → Abgrenzung im baurecht-Querbezug-Block markiert.
+- **Status: verlinkt/bereinigt; 1 Bring-Schuld (baurecht-Meldeverfahren-Destillat, Loop-Arbeit).**
+
+### energie ↔ planungsgrundlagen (§ 2a BVV WP-Meldeverfahren / WTA-Formular) — geprueft 2026-07-20 (Run 10)
+- **Anlass:** derselbe Run-82-Stoff; Meldeverfahren ist ein Verfahren → planungsgrundlagen matrix-führend.
+- **Null-Ergebnisse:** Fakten deckungsgleich (3 Verfahrenswege, LN-1a/1b, AWEL-Gewässerschutzgesuch Erdsonde);
+  2-m³-/§-2a-Kriterien nur in energie, von pg nirgends abweichend dargestellt. **0 Widerspruch, 0 Veraltetes,
+  keine echte Textdoppelung.**
+- **Befund 1 (CONFIRMED, hoch):** FEHLENDE QUERVERLINKUNG (beide Richtungen) — das energie-Destillat und der
+  pg-WTA-Artikel `energie-baueingabe-zusatzformulare.md` (der das Meldeverfahren voll beschreibt) zeigten
+  nirgends aufeinander. → Querbezug in pg gesetzt (WTA-Weiche → energie-Rechtsgrundlage § 2a BVV); energie-Block
+  zeigt zurück auf pg (Formular/Verfahren).
+- **Befund 2 (CONFIRMED, mittel):** FÜHRUNGSLÜCKE — die verfahrensführende KB (pg) enthielt die WP-Meldeverfahren-
+  Entscheidungsregel weder selbst noch als Verweis; die § 2a/§ 2c-Grundlage liegt matrix-konform in energie.
+  → Brückenlink schliesst die Lücke (kein Trim/keine Umstrukturierung nötig).
+- **Status: bereinigt.**
+
+### normen ↔ planungsgrundlagen ↔ auflagebereinigung (Brandschutz/GVZ/BMA/Sprinkler) — geprueft 2026-07-20 (Run 10)
+- **Anlass:** pg Run 54 (§5ao/§5ap Feuerwehrplan Störfall ABC / StFV) + neuer auflagebereinigung-Artikel
+  `gvz-einreichung-bma-sprinkler`.
+- **Null-Ergebnisse (ausdrücklich):** **0 Kennwert-Widerspruch** (GVZ-Schwellen deckungsgleich mit VKF-BRL);
+  **keine Doppelspur** GVZ-Einreichungsweg pg↔auflagebereinigung (pg-Wegweiser führt ihn nicht, nur der neue
+  Artikel); die frischen §5ao/§5ap schreiben **keine** VKF-Ziffern materiell fort (Musterplan-Beispielwerte
+  markiert) — das wiederkehrende «VKF-Wortlaut fortgeschrieben»-Muster trat **nicht** auf; Zuständigkeit
+  GVZ (Brandschutzbehörde + Inspektionsstelle) vs. Feuerpolizei konsistent; Risikogruppen-Turnus = GVZ-Vollzug,
+  korrekt nur in auflagebereinigung (kein Konflikt mit normen).
+- **Befund 1 (CONFIRMED, mittel):** der GVZ-Artikel trägt norm-geführte Schwellen (BMA >10/600 m² = VKF-BRL
+  20-15 Ziff. 4.1; SPA >10/100 m² = 19-15 Ziff. 5.1; Ausserbetriebsetzung = 20-15 Ziff. 3.10 / 19-15 Ziff. 4.4)
+  ohne normen-Link. Mildernd: GVZ-Weisung ist ein eigenständiges kantonales Dokument, das die Werte selbst trägt
+  (kein Erfinden/Duplizieren von VKF-Wortlaut). → Querbezug beidseitig gesetzt (auflagebereinigung → normen führend;
+  normen-JANS-Praxis-Transfer → konkreter GVZ-Artikel).
+- **Befund 2 (CONFIRMED, tief):** reziproker Backlink `brandschutz-auflagen-qss` → `gvz-einreichung-bma-sprinkler`
+  fehlte. → gesetzt.
+- **Status: bereinigt + verlinkt.**
+
+### kunde-bopp ↔ firmengruendung-ch (Erst-Check, Rotation) — geprueft 2026-07-20 (Run 10)
+- **Befund:** **Legitimes Null-Ergebnis — keine substanzielle Überschneidung.** firmengruendung-ch führt weder
+  «Genossenschaft» noch «UID/CHE-» (0 Treffer); die Rechtsform-Tabelle deckt nur Einzelfirma/Kollektiv-Komm./
+  GmbH/AG/Ltd ab. In kunde-bopp sind «Genossenschaft»/«AG» reine Identifikatoren (WOMA = Genossenschaft
+  CHE-103.976.168; Nova = AG CHE-403.795.970), kein materielles Rechtsform-Fachwissen → **0 Widerspruch,
+  0 Doppelspur, kein sinnvoller Querlink.**
+- **Nebenbeobachtung (KB-intern, NICHT Cross-KB):** firmengruendung-ch hat keinen Genossenschafts-Artikel
+  (interne Coverage-Lücke; kunde-bopp liefert dafür keine verallgemeinerbaren Inhalte). Nur vermerkt.
+- **Aktion: keine.** Paar aus der prioritären Rotation genommen (künftig nicht mehr vorrangig gegeneinander prüfen).
+- **Status: kein Befund.**
+
 ### energie ↔ normen (SIA 279 Bemessungswert, VKF-BRL 13-15, SIA 2024) — geprueft 2026-07-19 (Run 9)
 - **Anlass:** neuer Stoff aus energie Run 79/80 (18.07.2026).
 - **Befund 1 (CONFIRMED, hoch):** WIDERSPRUCH. Das neue Destillat
@@ -454,7 +516,10 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 - kunde-bopp ↔ machbarkeit/stockwerkeigentum/ankaufspruefung (Kunden-Kontext)
 - architekten-synobsis ↔ entwurfs-referenzen (Referenz-/Entwurfswissen)
+- grobkosten ↔ immobilienbewertung ↔ kostenschaetzung-Ref (Kennwerte, seit Run 3 stabil — Delta-Check bei neuem Fall)
 
-*Ausgetragen 19.07.2026 (bereits gepruefte Paare):* energie ↔ baurecht (2x, → Run 3/Run 6/Run 9) ·
+*Ausgetragen 20.07.2026 (Run 10, bereits gepruefte Paare):* kunde-bopp ↔ firmengruendung-ch
+(→ Run 10, Erst-Check = Null-Ergebnis, disjunkt).
+*Ausgetragen 19.07.2026 (bereits gepruefte Paare):* energie ↔ baurecht (mehrfach, → Run 3/Run 6/Run 9/Run 10) ·
 immobilienbewertung ↔ grobkosten vertieft (→ Run 3, bereinigt) · normen ↔ energie SIA 380/1,
 SIA 180/181 (→ Run 3 + Run 7; offener Restpunkt SIA-181:2020-Destillat bleibt dort vermerkt).
