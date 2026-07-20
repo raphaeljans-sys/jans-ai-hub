@@ -1,15 +1,15 @@
 # Stations-Status: mac-mini
 
-Stand: 20.07.2026 12:09:45
+Stand: 20.07.2026 12:29:56
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 11:58)
+- Developer/jans/ai/hub  (letzte Aktivitaet 12:04)
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 12 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 13 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 1 Datei(en): AR - 07 Archiv / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 06 Referenzen / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 05 Transfer / .849C9593-D756-4E56-8D6E-42412F2A707B
@@ -19,4 +19,4 @@ Stand: 20.07.2026 12:09:45
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 5b6f7aa3 planungsgrundlagen Run 54: ZH-Naturgefahren-Endpunkt gefunden, Grundwasser established, ABC-Plansatz erschlossen
+- e0ec7d4e SYN-02: Faktenlage der Spec-Interview-Vorbereitung nach Limit-Reset verifiziert (unveraendert gueltig)

@@ -36,8 +36,40 @@ function tokenAusKeychain(service) {
   } catch { return null; }
 }
 
+function kontoDesEintrags(service) {
+  // Account-Name (-a) des Keychain-Eintrags ermitteln — noetig fuer das Update mit -U
+  try {
+    const out = execFileSync('security', ['find-generic-password', '-s', service],
+      { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] });
+    const m = out.match(/"acct"<blob>="([^"]*)"/);
+    return m ? m[1] : null;
+  } catch { return null; }
+}
+
+function persistiereRotation(rawJson, tokenAntwort) {
+  // KRITISCH (Befund 20.07.2026): OAuth-Refresh-Tokens ROTIEREN bei jeder Verwendung.
+  // Wird der neue Refresh-Token nicht zurueckgeschrieben, ist der gespeicherte nach dem
+  // naechsten Refresh entwertet — jeder unbeaufsichtigte Lauf waere der letzte funktionierende
+  // (Muster der Ausfaelle vom 12.07. und 19.07.). Darum: rotierten Token in die Keychain
+  // zurueckschreiben, alle uebrigen Felder des Eintrags unveraendert lassen.
+  try {
+    const obj = JSON.parse(rawJson);
+    if (!obj.claudeAiOauth) return false;
+    obj.claudeAiOauth.accessToken = tokenAntwort.access_token;
+    if (tokenAntwort.refresh_token) obj.claudeAiOauth.refreshToken = tokenAntwort.refresh_token;
+    if (tokenAntwort.expires_in) obj.claudeAiOauth.expiresAt = Date.now() + tokenAntwort.expires_in * 1000;
+    const konto = kontoDesEintrags('Claude Code-credentials');
+    if (!konto) return false;
+    execFileSync('security', ['add-generic-password', '-U',
+      '-s', 'Claude Code-credentials', '-a', konto, '-w', JSON.stringify(obj)],
+      { stdio: ['ignore', 'ignore', 'ignore'] });
+    return true;
+  } catch { return false; }
+}
+
 async function refreshToken(oauth) {
-  // Erneuert ein abgelaufenes CLI-Token (nur im Speicher, Keychain bleibt unangetastet)
+  // Erneuert ein abgelaufenes CLI-Token. Gibt die GANZE Token-Antwort zurueck
+  // (access_token + rotierter refresh_token + expires_in) fuer die Persistierung.
   const res = await fetch('https://console.anthropic.com/v1/oauth/token', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -47,9 +79,18 @@ async function refreshToken(oauth) {
       client_id: '9d1c250a-e61b-44d9-88ed-5944d1962f5e',
     }),
   });
-  if (!res.ok) return null;
+  if (!res.ok) {
+    let detail = '';
+    try { detail = JSON.stringify(await res.json()); } catch { /* egal */ }
+    console.log(`Token-Refresh fehlgeschlagen (HTTP ${res.status}${detail ? ', ' + detail : ''}).`);
+    if (res.status === 400 || res.status === 401) {
+      console.log('Der gespeicherte Refresh-Token ist entwertet (Rotation). BEHEBUNG: im Terminal');
+      console.log('`claude` starten und `/login` ausfuehren — danach laeuft der Connector wieder unbeaufsichtigt.');
+    }
+    return null;
+  }
   const d = await res.json();
-  return d.access_token || null;
+  return d.access_token ? d : null;
 }
 
 async function findeToken() {
@@ -62,7 +103,10 @@ async function findeToken() {
       if (oauth?.accessToken) {
         if (oauth.expiresAt && oauth.expiresAt < Date.now() && oauth.refreshToken) {
           const neu = await refreshToken(oauth);
-          if (neu) return { token: neu, quelle: 'Keychain (refreshed)' };
+          if (neu) {
+            const gesichert = persistiereRotation(raw, neu);
+            return { token: neu.access_token, quelle: `Keychain (refreshed${gesichert ? ', Rotation gesichert' : ', WARNUNG: Rotation NICHT gesichert'})` };
+          }
         }
         return { token: oauth.accessToken, quelle: 'Keychain CLI' };
       }
@@ -103,6 +147,13 @@ async function offizielleAuslastung() {
   });
 
   if (!res.ok) {
+    if (res.status === 401 || res.status === 403) {
+      // Kein Fallback bei Auth-Fehlern: der Messages-Endpunkt lehnt dasselbe Token ebenso
+      // ab (Befund 20.07.2026) — ein zweiter 401 waere nur irrefuehrend.
+      console.log(`Usage-Endpunkt antwortet ${res.status}: Token ungueltig oder abgelaufen.`);
+      console.log('BEHEBUNG: im Terminal `claude` starten und `/login` ausfuehren (Browser-Flow).');
+      return false;
+    }
     console.log(`Usage-Endpunkt antwortet ${res.status} — versuche Fallback via Rate-Limit-Header...`);
     return await headerFallback(t.token);
   }
