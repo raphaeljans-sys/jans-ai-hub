@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 20.07.2026 20:37:43
+Stand: 20.07.2026 20:57:58
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -9,7 +9,7 @@ Stand: 20.07.2026 20:37:43
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 4 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 6 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- d8508c4b nas-selfcommit: 2 Datei(en) 2026-07-20 20:30
+- fe61f1b6 pdf2dwg: ArchiCAD-Fix — OBJECTS-Sektion vor dxf2dwg strippen
