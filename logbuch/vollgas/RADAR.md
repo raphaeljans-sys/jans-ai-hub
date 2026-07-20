@@ -21,6 +21,38 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-20 12:52 — [GEDROSSELT] Fenster frei und produktiv, Login-Block unveraendert, STOP bleibt bewusst stehen
+
+**Fensterzustand:** Die Probe `claude -p --model haiku` endet erneut mit «Not logged in · Please
+run /login» — also [LOGIN], kein Usage-Signal. Sie sagt damit nichts ueber das Kontingent aus.
+Belastbar ist stattdessen der Durchsatz der letzten zwei Stunden: `planungsgrundlagen` Run 54
+(ZH-Naturgefahren-Endpunkt gefunden, Grundwasser auf `established`), Energie-KB Run 81 (zwei
+materielle Rechtsfehler in F47 korrigiert), synobsis-Batch mit neuem Vektorindex, der
+SYN-02-Spec-Abschluss (`b262e60b`) und der eigene Reaktivierungs-Commit `593f368e`. Dazu die
+regulaeren `nas-selfcommit`-Laeufe im 15-Minuten-Takt bis 12:45. Das Fenster hat Kapazitaet, die
+App-Task-Flotte arbeitet ungebremst.
+
+**Runner/STOP:** Endlos-Runner bleibt gestoppt, die Logs beider Stationen enden unveraendert am
+14.07. um 12:37/12:40. Das ist korrekt und kein Defekt: die STOP-Datei nennt als Grund die
+Drosselung auf Anweisung Raphaels, mit ausdruecklichem Vorbehalt «Wiederanlauf nur auf
+ausdrueckliche Anweisung». Damit liegt kein loeschbarer Login-/Limit-Grund vor — STOP und
+STOP-Macmini wurden nicht angetastet.
+
+**Mail:** keine. Der Login-Blocker ist seit 22:52 gemailt, eine Wiederholungsmail ist ausgeschlossen.
+Ein neuer P1 ist nicht entstanden.
+
+**Vorschlaege:**
+- P1: keiner.
+- P2: Weiterhin offen der Entscheid Raphaels zum Drossel-Regime (siehe Eintrag 12:30). Bis dahin
+  Status quo, Radar bleibt Schoner.
+- P3: (a) Am 21.07. bestaetigen, dass `wettbewerbs-dna-training` um 02:26 wirklich gefeuert hat
+  (unveraendert offen aus dem 12:30-Eintrag). (b) Der One-Time-Task
+  `wettbewerbs-dna-reaktivierung` hat heute 12:30 gefeuert und ist damit erledigt; sein Ordner
+  liegt noch unter `~/.claude/scheduled-tasks/`. Bewusst NICHT geloescht — Aufraeumen eines
+  Task-Verzeichnisses ist keine Beschleunigung und gehoert Raphael vorgelegt.
+
+---
+
 ## 2026-07-20 12:30 — [GEDROSSELT] Wochen-Reset bestaetigt, Wettbewerbs-DNA-Loop wieder scharf — im Nachttakt, nicht auf VOLLGAS
 
 **Fensterzustand:** Der Wochen-Reset um 11:59 ist erfolgt und belegt, nicht angenommen. Die im

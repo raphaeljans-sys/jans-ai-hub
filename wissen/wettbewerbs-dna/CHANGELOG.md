@@ -1,5 +1,41 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-20 — Etappe 3, Baustein B6 Schulbau: Kennwert-Benchmark erstellt (`established`)
+- **Neuer Artikel:** `wiki/muster/kennwerte-schulbauten.md` — Referenzbaender fuer
+  Flaeche, Programm-Mengen, Kostendach und Vorpruefungs-Toleranzen im Schul-/Bildungsbau.
+- **Methodik (Workflow-Fan-out, 49 Agenten):** 25 Quellen (19 externe Juryberichte +
+  6 eigene JANS-Quellen aus 2102/2103/2206/2507), je 1 Extraktions-Agent (Sonnet,
+  mechanisch) und 1 unabhaengiger Refuter-Agent (Hauptmodell) gegen den Rohtext.
+  Bilanz: **436 Kennzahlen geprueft, 431 bestaetigt, 5 verworfen.**
+- **Verworfen durch die Refuter:** zwei Spaltenverwechslungen in einer Layout-Tabelle
+  (Grossaffoltern: «100 Stk» / «130 Stk» Parkplaetze waren m2-Werte — Nachweis ueber
+  Zeichenposition der Spalte), eine Textangabe ohne Zahlwert (Sandgruben), eine nicht
+  haltbare Turnhallentyp-Ableitung (Froeschmatt) und ein ungeklaerter Widerspruch im
+  Original (Steffisburg, GF Aula EG doppelt belegt). Zahlreiche Fundstellen und Bezuege
+  wurden korrigiert, u.a. «Kostendach» → «Zielkosten» (Hausen am Albis: der Text spricht
+  ausschliesslich von Zielkosten).
+- **Kernbefunde:** HNF/GF **0.52–0.54** aus zwei unabhaengigen Quellen (Kantonsschule
+  Wattwil Programm-Soll 0.532, eigene SIA-416-Abgabe 2507 Halden Ist 0.528) — der
+  tragfaehigste Kennwert des Laufs; Klassenzimmer **64–75 m2** (75 in zwei Programmen);
+  **2 Klassenzimmer je Gruppenraum** (Sursee, Zelgli); **900-m2-GF-Schwelle je Geschoss**
+  als brandschutzgetriebener Typologie-Treiber in zwei Kantonen (Muttenz BL, Steffisburg
+  BE) — erklaert zahlenmaessig, warum in knappen Arealen der kompakte hoehere Solitaer
+  gewinnt; Neubau **1.6–1.8 Mio. CHF je Klassenzimmer** (Sonderschule 2.5, Einzelfall).
+- **Methodischer Beleg fuer die Kriterien-Rangordnung:** Die Kostenspreizung zwischen
+  Finalisten (16 % Littau, 21 % Stoeckacker, 24 % Heilpaed. Bern) liegt in derselben
+  Groessenordnung wie die Genauigkeitstoleranz der Vorpruefung (±20 %, zwei Quellen).
+  Kosten koennen deshalb methodisch nicht ranggebend sein — quantitative Stuetze fuer
+  These 3 in `muster/jury-argumente-schulbauten.md`.
+- **Strukturbefund (negativ, aber wertvoll):** **CHF/m3 GV ist aus dieser Quellengattung
+  nicht belegbar** — absolute GV-Werte in 1 von 25 Quellen; Juryberichte fuehren Kosten
+  als Kostendach und Volumen nur relativ zur Machbarkeitsstudie. Bleibt bei
+  `wissen/grobkosten/`; als Entscheid-Frage in QUESTIONS.md.
+- **QUESTIONS.md:** drei neue offene Punkte (CHF/m3-Quellengattung mit Entscheid-Bedarf
+  Raphael; GF-Widerspruch 2206 ARCHE 1'792 vs. 1'545 m2 → ARCHE bewusst NICHT ins Band
+  aufgenommen; GV/GF-Kennwert auf nur einer Quelle).
+- **Stand Etappe 3:** Schulbau B1–B4 und B6 erledigt, **B5 Parameter-Set offen**
+  (naechster Lauf). Bewusst nur EIN Baustein je Lauf gemaess Takt-Regel 260714.
+
 ## 2026-07-20 — Beobachtung 6 (Dauerschicht-Zyklus 15): 2507 Halden ENTSCHIEDEN, Jurybericht publiziert
 - **Hauptbefund:** Der Projektwettbewerb 2507 TKHL Halden (St.Gallen) ist seit
   **02.04.2026 entschieden** — Siegerprojekt **«ZVIERI», Richter Tobler GmbH, Basel**,

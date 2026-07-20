@@ -3,6 +3,28 @@
 Stand: 14.07.2026 (Etappe-3-Start: Bauaufgaben-Blocker geschlossen)
 
 ## Offen
+- **CHF/m³ GV ist aus Schul-Juryberichten strukturell nicht belegbar (Befund B6,
+  20.07.2026):** In 25 ausgewerteten Quellen fand sich **genau ein** absoluter
+  GV-Wert (eigene Berechnung 2206 Schöntal). Juryberichte nennen Kosten als
+  absolutes Kostendach der Auslobung und Flächen/Volumen der Beiträge nur relativ
+  zur Machbarkeitsstudie («GV unter 95 %»). Ein CHF/m³-Band für Schulbauten kann
+  aus dieser Quellengattung nicht entstehen — es müsste aus abgerechneten Projekten
+  (KB `wissen/grobkosten/`, Wüest-Kennwerte, CRB) kommen. **Entscheid Raphael nötig:**
+  soll der Kennwert aus einer anderen Quellengattung beschafft werden, oder bleibt
+  `wissen/grobkosten/` allein zuständig? Bis dahin führt B5 kein `chf_m3_gv_band`.
+- **Widerspruch in der eigenen Flächenberechnung 2206 Schöntal «ARCHE» (Befund B6,
+  20.07.2026):** Die Quelle `raw/2206-schoental_eigenes-b12-volumen-flaechen.txt` führt
+  zwei GF-Totale — **1'792 m²** (Summe oberirdisch 1'446 + unterirdisch 346) und
+  **1'545 m²** (Summe der Geschoss-Aufstellung UG + 1. OG + 2. OG). Daraus folgen zwei
+  unvereinbare Kennwerte (HNF/GF 0.655 vs. 0.759; GV/GF 3.84 vs. 4.46 m³/m²). Beide
+  liegen über dem sonst belegten Band 0.52–0.54. Nur durch Raphael bzw. die
+  Original-Abgabeunterlagen klärbar: welche Aufstellung ist die abgegebene? Bis zur
+  Klärung ist ARCHE **nicht** in das Referenzband aufgenommen.
+- **GV/GF-Kennwert Schulbau ruht auf einer einzigen Quelle:** 3.84–4.46 m³/m² (2206
+  Schöntal, s.o.). Solange keine zweite Quelle vorliegt, bleibt der Wert Arbeitsannahme
+  und darf nicht als Benchmark verwendet werden. Beschaffung: Juryberichte mit
+  Kenndatenblatt/Mengenübersicht bevorzugt sichten (die Vorprüfungs-Tabellen enthalten
+  GV, sind aber in den vorliegenden Extrakten meist nicht mitextrahiert).
 - **Druckvorstufen-Standard JANS:** Im gesamten Wettbewerbsarchiv existiert kein
   dokumentierter Prepress-Standard (keine .joboptions, kein PDF/X-/Beschnitt-/
   Druckerei-Dokument; geprüft 12.07.2026). Muss neu aufgesetzt werden (Vorschlag:

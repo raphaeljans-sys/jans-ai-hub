@@ -1,6 +1,10 @@
 # INDEX — KB wettbewerbs-dna
 
-Stand: 14.07.2026 (Etappe-3-Nachbrenner: **alle 9 verbliebenen Draft-Destillate auf
+Stand: 20.07.2026 (Etappe 3, **Baustein B6 Schulbau erledigt**: neuer Muster-Artikel
+`muster/kennwerte-schulbauten.md` aus 25 Quellen, 431 von 436 Kennzahlen refuter-
+bestaetigt. Tragfaehigster Kennwert: HNF/GF 0.52–0.54 aus zwei unabhaengigen Quellen.
+Strukturbefund: CHF/m3 GV ist aus Schul-Juryberichten nicht belegbar. Naechste offene
+Zelle: B5 Parameter-Set Schulbau.) — vorher 14.07.2026 (Etappe-3-Nachbrenner: **alle 9 verbliebenen Draft-Destillate auf
 established gehoben** — parallele Refuter-Welle gegen `raw/extern-jurybericht-*.txt`
 fuer hinter-gaerten-riehen, kantonsschule-baden, niederrohrdorf,
 oberstufe-schoenau-steffisburg, ochsenmatt-4-menzingen, schulhaus-littau-luzern,
@@ -47,6 +51,7 @@ Teil 2 Rang-Klaerung UND Teil 3 Muster-Verdichtung, siehe `training/PROGRAMM.md`
   strukturelles Maximum, da die uebrigen 5 Teilnahmen keinen Jurybericht im Archiv haben.
   Status **established** (refuter-verifiziert, Lauf 3 13.07.2026, VERDIKT BESTANDEN)
 - muster/jury-argumente-schulbauten.md — Jury-DNA Schul-/Bildungsbau: Kriterien-Rangordnung, Gewinner-Typologien je Aufgabe, 10 Siegargumente, K.-o.-Liste, Verfahrensmechanik; Basis erweitert von 11 auf **23** ausgewertete Fremd-Juryberichte + 3 eigene (Etappe-3-Schulbau-Sweep 14.07.2026, B4 abgeschlossen). Status **established** (Refuter-Erstlauf 13.07. «nicht bestanden», 10 Korrekturen eingearbeitet, fokussierter Zweitlauf 10/10 bestaetigt; Basis-Erweiterung 14.07. mit eigenem Verifikations-Hinweis im Artikel belegt)
+- muster/kennwerte-schulbauten.md — **Kennwert-Benchmark Schul-/Bildungsbau (Etappe 3, Baustein B6, 20.07.2026):** Flaecheneffizienz HNF/GF **0.52–0.54** (zwei unabhaengige Quellen: Kantonsschule Wattwil Soll 0.532, eigene SIA-416-Abgabe 2507 Halden Ist 0.528), Klassenzimmer **64–75 m2** (Planungswert 75), Verhaeltnis **2 Klassenzimmer je Gruppenraum**, Cluster **3–4 Klassen je Geschoss**, Regelklasse **19–21 Schueler**, **900-m2-GF-Schwelle je Geschoss** als brandschutzgetriebener Typologie-Treiber (Muttenz + Steffisburg), Kostendach-Tabelle 10 Faelle, Neubau **1.6–1.8 Mio. CHF je Klassenzimmer** (Sonderschule 2.5), Vorpruefungs-Toleranz **±20 %** bei Finalisten-Spreizung 16–24 %. **Strukturbefund: CHF/m3 GV ist aus Schul-Juryberichten NICHT belegbar** (absolute GV-Werte in 1 von 25 Quellen) — bleibt bei `wissen/grobkosten/`. Basis 25 Quellen, **436 Kennzahlen geprueft / 431 bestaetigt / 5 verworfen**. Status **established** (25 Extraktions- + 25 unabhaengige Refuter-Agenten)
 - muster/jans-board-dna.md — grafische Handschrift der Abgabe-Boards + Vorgaben-Liste fuer den Agenten plakat-setzer; Basis 9 Board-Analysen. Status **established** (9 unabhaengige Quellen-Refuter 14.07.2026, 4 Korrekturen eingearbeitet: Plan-first-Zuordnung 2205, Werkplan-Vorbehalt 2205, Massstabsbeleg 2206, Alt-Neu-Praezisierung 2408)
 
 ## Referenz-Katalog (wiki/referenz-katalog.md) — established
