@@ -3,6 +3,17 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-20 — Promotion: Wiki-Artikel `steuern-ag-inhaber` (Dauerschicht-Zyklus 20)
+- [neu] `wiki/steuern-ag-inhaber.md` — Evergreen-Fassung des established-Outputs
+  `outputs/2026-07-02_steuern-sparen-ag-inhaber.md` (drei Haupthebel PK-Einkauf/3a/
+  Lohn-Dividende inkl. Rechtsgrundlagen Art. 20 Abs. 1bis DBG, § 35 Abs. 4 StG ZH,
+  Art. 79b Abs. 3 BVG; sieben situative Hebel; Jahresende-Checkliste). Situative
+  Anlass-Rahmung entfernt, Alterungs-Warnung (3a-Maximum/Sätze jährlich) ergänzt;
+  needs-verification-Punkte (KER, 1e) im Artikel belassen.
+- [index] `wiki/INDEX.md` neue Sektion «Steuern (laufend)» mit dem Artikel.
+- [questions] Steuern-Punkt präzisiert (offen bleibt nur der Gründungsteil);
+  Promotion im Archiv dokumentiert.
+
 ## 2026-07-02
 - [output] Frage Raphael (steuerbares Einkommen 2026 ca. 100–200k): Hebel-Uebersicht Steuern sparen als AG-Inhaber (PK-Einkauf, Saeule 3a 7'258, Lohn/Dividenden-Mix Teilbesteuerung Bund 70 %/ZH 50 %, Thesaurierung, Spesenreglement, Timing) → outputs/2026-07-02_steuern-sparen-ag-inhaber.md. Web-verifiziert 02.07.2026 (3a-Maximalbetrag 2026, ZStB 35.1).
 - [index] Outputs-Statistik nachgefuehrt; QUESTIONS: Steuern-Gap teilweise gedeckt (laufende Optimierung Inhaber), Rest-Gap praezisiert (Gruendungs-/Gesellschaftssteuern, Holding).

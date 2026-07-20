@@ -4,11 +4,11 @@
 - **Holding-Struktur** über die bestehende Raphael Jans AG (Beteiligungen, Steuer-
   optimierung, Nachfolge) — noch kein Artikel.
 - **GmbH-Gründungsablauf** als Pendant zu [[ag-gruendungsablauf]].
-- **Steuern** bei Gründung und laufend (Kapital-, Gewinn-, Verrechnungssteuer, MWST-
-  Pflicht-Schwelle CHF 100'000 Umsatz). *Teilweise gedeckt:* laufende Steuer-
-  optimierung des Inhabers (Lohn/Dividende, PK-Einkauf, 3a) siehe
-  `outputs/2026-07-02_steuern-sparen-ag-inhaber.md` — Promotion zu einem
-  Wiki-Artikel `steuern-ag-inhaber` prüfen.
+- **Steuern bei Gründung** (Kapital-, Gewinn-, Verrechnungssteuer, MWST-Pflicht-
+  Schwelle CHF 100'000 Umsatz) — Gründungsteil weiterhin offen. Die laufende
+  Steueroptimierung des Inhabers ist seit 20.07.2026 als Wiki-Artikel
+  [[steuern-ag-inhaber]] gedeckt (Promotion aus dem Output vom 02.07., siehe
+  Archiv unten).
 - **1e-/Kaderplan + Einkaufspotenzial** der Raphael Jans AG konkret erheben
   (Vorsorgeausweis, Schwellenwert 1e) — Grundlage für den PK-Hebel.
 - **Nach-Gründung im Detail:** AHV-Ausgleichskasse, BVG, UVG, MWST-Registrierung.
@@ -26,4 +26,9 @@
 - Noch keine erfasst.
 
 ## Beantwortete Fragen (Archiv)
-- (leer)
+- **Promotion `steuern-ag-inhaber` (20.07.2026, Dauerschicht-Zyklus 20):** Der Output
+  `outputs/2026-07-02_steuern-sparen-ag-inhaber.md` (established) ist als Evergreen-
+  Wiki-Artikel [[steuern-ag-inhaber]] ins Wiki überführt (situative Anlass-Rahmung
+  entfernt, Jahresende-Checkliste statt «2026»-Fahrplan, Alterungs-Warnung für
+  Beträge ergänzt). Die zwei *needs-verification*-Punkte (KER-Bestand, 1e-Schwelle/
+  Einkaufspotenzial) bleiben im Artikel markiert.

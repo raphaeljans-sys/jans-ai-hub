@@ -18,6 +18,9 @@
 ### Kosten & Zeit
 - [[kosten-und-zeit]] — Gründungskosten und Zeitbedarf · *established*
 
+### Steuern (laufend)
+- [[steuern-ag-inhaber]] — Steuerhebel des AG-Inhabers ZH: PK-Einkauf, Säule 3a, Lohn/Dividende, situative Hebel, Jahresende-Checkliste · *established* (promoviert aus Output 02.07.2026)
+
 ## Backlog / Lücken
 Siehe [[QUESTIONS]]:
 - Holding-Struktur über bestehende AG (Beteiligungen/Steuer/Nachfolge)
