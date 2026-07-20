@@ -2,6 +2,20 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-20 — Neuer Artikel: GVZ-Einreichungsweg BMA/Sprinkler (Dauerschicht-Zyklus 21)
+- [neu] [[gvz-einreichung-bma-sprinkler]] — QUESTIONS-Punkt «GVZ-Einreichungsweg
+  BMA/Sprinkler» (Ziff. II.25/II.26 Bauentscheid 2619-KISPI) geschlossen. Quellen an
+  den Primärdokumenten gelesen: GVZ-Weisung 20.07 Brandmeldeanlagen (Volltext, 27 S.)
+  und 20.08 Sprinkleranlagen (Kap. 5–7). Kernpunkte: Projektbegutachtung VOR
+  Ausführungsbeginn durch VKF-Fachfirma (BMA-Schwelle >10 Melder/600 m²; SPA >10
+  Sprinkler/100 m², inkl. Vorabklärung/Nutzungsplan/Hydraulik), Installations-Attest
+  vor Abnahme, GVZ = Brandschutzbehörde UND Inspektionsstelle, ELZ-Aufschaltung nach
+  Weisung 30.25, Ausserbetriebsetzung >24 h mit 3-Tage-Vorlauf + Genehmigung,
+  Kontrollturnus Risikogruppe 1 (Spitäler/Pflegeheime) = 5 Jahre, GVZ-Prüfungen
+  kostenlos. Transfer-Abschnitt für die Deliverable-Zuteilung ergänzt.
+- [index] INDEX.md ergänzt; QUESTIONS.md Punkt ins Archiv überführt (offen bleiben
+  30.25-Destillat und Portal-Frage, im Artikel vermerkt).
+
 ## 2026-07-12 — Wissens-Chef Run 2 (Cross-KB): Querbezuege zu baurecht + Baubeginn praezisiert
 - [link] [[fristenlogik-bauentscheid-zh]] -> baurecht `nebenbestimmungen-und-reverse` (Rechtsnatur § 321 PBG) + `bauausfuehrung-und-baukontrolle` (Baufreigabe § 326 / Meldepflichten § 327 / § 23 BVV). [[aemter-stadt-zuerich]] -> baurecht `baubewilligungsverfahren` (§ 318/§ 329, Wer-Adressat).
 - [praezisiert] [[fristenlogik-bauentscheid-zh]]: «vor Baubeginn = vor erstem Spatenstich» ergaenzt um juristische Definition **Aushubbeginn** (Abstecken/Installation kein Baubeginn, § 326 PBG / RB 1994 Nr. 88). Cross-KB-Fund W1 adversarial WIDERLEGT (nur Praezisionsstufe, kein Sachwiderspruch) — Praezisierung statt Korrektur.
