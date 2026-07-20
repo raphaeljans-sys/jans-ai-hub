@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 20.07.2026 20:57:58
+Stand: 20.07.2026 21:08:05
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 21:00)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 20.07.2026 20:57:58
 - 6 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- fe61f1b6 pdf2dwg: ArchiCAD-Fix — OBJECTS-Sektion vor dxf2dwg strippen
+- ae553460 nas-selfcommit: 5 Datei(en) 2026-07-20 21:00
