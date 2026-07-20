@@ -21,6 +21,36 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-21 00:49 — [GEDROSSELT] Nachtschicht laeuft, Login-Block unveraendert, STOP bleibt stehen
+
+**Fensterzustand:** Die Probe `claude -p --model haiku` endet unveraendert mit «Not logged in ·
+Please run /login» — also [LOGIN], kein Usage-Signal, keine Aussage ueber das Kontingent.
+Belastbar ist der Durchsatz: 5 Commits in den letzten 90 Minuten, davon inhaltlich
+`baurecht`-Buch Run 50 (WsG/WsV-Nachzug abgeschlossen, Meldeverfahren §§ 2a-2e BVV als vierter
+Verfahrenstyp integriert) und Wissens-Chef Run 10 (§ 2a BVV dreiseitig verlinkt, GVZ-Artikel an
+VKF-BRL angebunden), dazu die `nas-selfcommit`-Laeufe im 15-Minuten-Takt bis 00:45. Die
+Nachtschicht des Mac Mini (Dispatch-Fenster 18:00-09:00) hat um 00:30 einen frischen Zyklus
+gestartet. Das Fenster hat Kapazitaet, die App-/Nacht-Task-Flotte arbeitet ungebremst — genau
+das im Drossel-Regime gewuenschte Bild.
+
+**Runner/STOP:** Endlos-Runner bleibt gestoppt (STOP + STOP-Macmini vom 14.07. 12:53,
+unangetastet). Als Grund nennt die STOP-Datei die Drosselung auf Anweisung Raphaels mit dem
+Vorbehalt «Wiederanlauf nur auf ausdrueckliche Anweisung» — es liegt kein loeschbarer Login-
+oder Limit-Grund vor. `STOP-Macbookpro` existiert bewusst nicht (die generische STOP-Datei
+deckt beide Stationen).
+
+**Mail:** keine. Der Login-Blocker ist seit 19.07. 22:52 gemailt, eine Wiederholungsmail ist
+ausgeschlossen; ein neuer P1 ist nicht entstanden, ein geloester ebenfalls nicht.
+
+**Vorschlaege:**
+- P1: keiner.
+- P2: Weiterhin offen der Entscheid Raphaels zum Drossel-Regime. Bis dahin Status quo, Radar
+  bleibt Schoner.
+- P3: Am 21.07. bestaetigen, dass `wettbewerbs-dna-training` um 02:26 im Nachtfenster feuert —
+  Beleg fuer den Nachttakt steht noch aus.
+
+---
+
 ## 2026-07-20 18:48 — [GEDROSSELT] Vier KBs am Nachmittag gewachsen, Login-Block unveraendert, STOP unangetastet
 
 **Fensterzustand:** Die Probe `claude -p --model haiku` endet unveraendert mit «Not logged in ·

@@ -32,8 +32,12 @@
  *   --gemeinde <name> --nr <n>    Alternative Schreibweise der Parzellensuche
  *   --adresse "<Strasse Nr Ort>"  Fallback ueber Geokodierung (Hausnummer kann verfehlen!)
  *   --plz <nnnn>                  schaerft die Adresssuche
- *   --egrid <CHxxxxxxxxxxxx>      EGRID direkt setzen (ueberspringt Suche)
+ *   --egrid <CHxxxxxxxxxxxx>      EGRID direkt setzen (ueberspringt Suche; ohne Koordinate ->
+ *                                 --produkt naturgefahren nicht moeglich, dafuer --parzelle/--adresse nutzen)
  *   --oereb                       OEREB-Auszug als PDF herunterladen
+ *   --produkt naturgefahren       Gefahrenkarte SZ (Run 55, 2026-07-21) — braucht Koordinate,
+ *                                 also nur mit --parzelle/--adresse (nicht mit --egrid allein)
+ *   --radius <m>                  Suchradius Naturgefahren-Layer (Default 5 m, Punktlage entscheidet)
  *   --out <dir>                   Zielordner (mehrfach moeglich); PDF in jeden ablegen
  *   --json / --quiet              Ausgabesteuerung
  *
@@ -129,6 +133,74 @@ async function identifyParcel(east, north) {
   };
 }
 
+// --- Naturgefahren SZ (Run 55, 2026-07-21) -------------------------------------
+// Endpunkt gefunden ueber opendata.swiss (CKAN-API package_show?id=gefahrenkarte1) -> Ressource
+// "ch.sz.a012b.naturgefahrenkarte.gefahrenflaechen.ueberlagert" (WMS) verweist auf
+// map.geo.sz.ch/mapserv_proxy. GetCapabilities dort existiert auch fuer WFS (Redirect von
+// wfs.geo.sz.ch) und fuehrt exakt die Layer-Namen, die bisher nur als manueller WebGIS-Link
+// bekannt waren (ch.sz.a012b.naturgefahrenkarte.*). WICHTIG: WFS 2.0.0 + TYPENAMES/OUTPUTFORMAT=
+// geojson liefert HTTP 400 ("outputformat 'geojson' is not permitted") — der Dienst spricht nur
+// WFS 1.1.0 + GML 3.1.1 (TYPENAME Singular, SRSNAME als urn:ogc:def:crs:EPSG::2056). Deshalb hier
+// ein simpler GML-Attribut-Parser statt JSON. Live verifiziert am Benchmark Reckholdernstrasse 20
+// Willerzell (E=2703371/N=1222906): 11 Gefahrenflaechen mit gemischten Rutsch-Gefaehrdungsstufen
+// auf derselben Parzelle (deckt sich mit dem Objektschutzkonzept 26.09.2023, s. Wiki-Artikel);
+// Negativkontrolle Wangen SZ Seeufer (E=2710588/N=1226218, flach) -> 0 Treffer, schema-valide.
+const NATURGEFAHR_LAYER_SZ = {
+  gefahrenflaechen: "ms:ch.sz.a012b.naturgefahrenkarte.gefahrenflaechen.ueberlagert", // Perimeter A, parzellenscharf
+  hinweisflaechen: "ms:ch.sz.a012b.naturgefahrenkarte.hinweisflaechen.ueberlagert",   // Perimeter B, ausserhalb Siedlung
+  erhebungsgebiet: "ms:ch.sz.a012b.naturgefahrenkarte.erhebungsgebiet",               // Kartierungsstand (analog ZH Layer 44.1)
+};
+const MAPSERV_PROXY_SZ = "https://map.geo.sz.ch/mapserv_proxy";
+const RANG_HOCH = new Set(["mittlere Gefährdung", "erhebliche Gefährdung"]);
+
+async function fetchGmlFeatures(typename, e, n, half) {
+  const bbox = `${e - half},${n - half},${e + half},${n + half}`;
+  const url = `${MAPSERV_PROXY_SZ}?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature`
+    + `&TYPENAME=${encodeURIComponent(typename)}`
+    + `&SRSNAME=${encodeURIComponent("urn:ogc:def:crs:EPSG::2056")}`
+    + `&BBOX=${bbox},${encodeURIComponent("urn:ogc:def:crs:EPSG::2056")}`;
+  const r = await fetch(url, { headers: { "User-Agent": UA } });
+  if (!r.ok) throw new Error(`HTTP ${r.status} bei ${url}`);
+  const xml = await r.text();
+  if (xml.includes("ExceptionReport")) throw new Error(`WFS-Fehler (${typename}): ${xml.slice(0, 200)}`);
+  // Ein <ms:LAYERNAME ...>...</ms:LAYERNAME>-Block je Feature; simple Attribute (kein Nested-GML
+  // ausser <ms:geom>) via Regex herausziehen — kein XML-Parser-Package im Hub-Node vorausgesetzt.
+  const localName = typename.replace(/^ms:/, "");
+  const blockRe = new RegExp(`<ms:${localName}[^>]*>([\\s\\S]*?)</ms:${localName}>`, "g");
+  const attrRe = /<ms:(?!geom\b)([a-zA-Z0-9_]+)>([^<]*)<\/ms:\1>/g;
+  const out = [];
+  let bm;
+  while ((bm = blockRe.exec(xml))) {
+    const attrs = {};
+    let am;
+    attrRe.lastIndex = 0;
+    while ((am = attrRe.exec(bm[1]))) attrs[am[1]] = am[2];
+    out.push(attrs);
+  }
+  return out;
+}
+
+// Radius klein (Default 5 m) — die Flaechen liegen direkt auf der Parzelle, Punktlage entscheidet
+// (analog ZH-Naturgefahren/-Grundwasser; anders als Baulinien mit grossem Suchfenster).
+async function fetchNaturgefahrenSz(e, n, half = 5) {
+  const out = {};
+  for (const [key, typ] of Object.entries(NATURGEFAHR_LAYER_SZ)) {
+    try { out[key] = await fetchGmlFeatures(typ, e, n, half); }
+    catch (err) { out[key] = { fehler: err.message }; }
+  }
+  const PROZESSE = ["lawine", "rutsch", "wasser", "steinschlag"];
+  const stufen = new Set();
+  const gf = Array.isArray(out.gefahrenflaechen) ? out.gefahrenflaechen : [];
+  for (const f of gf) for (const p of PROZESSE) {
+    const v = f[`${p}_gefahrenstufe_tx`];
+    if (v && v !== "keine Gefährdung") stufen.add(v);
+  }
+  const RANG = { "erhebliche Gefährdung": 4, "mittlere Gefährdung": 3, "geringe Gefährdung": 2, "Restgefährdung": 1 };
+  let massgebend = null;
+  for (const s of stufen) if (!massgebend || (RANG[s] ?? 0) > (RANG[massgebend] ?? 0)) massgebend = s;
+  return { ...out, treffer_gefahrenflaechen: gf.length, stufe_massgebend: massgebend, radius_m: half, layer: NATURGEFAHR_LAYER_SZ };
+}
+
 // --- OEREB-PDF ziehen + auf JANS-Konvention umbenennen -------------------------
 async function fetchOereb(egrid) {
   const url = OEREB_SZ(egrid);
@@ -145,7 +217,8 @@ async function fetchOereb(egrid) {
   const a = parseArgs(process.argv);
   const L = log(a.quiet);
   const result = { ok: false, kanton: "sz", egrid: null, parzelle: null, bfs: null,
-                   gemeinde: null, source: null, oereb: null, files: [] };
+                   gemeinde: null, source: null, east: null, north: null, oereb: null,
+                   produkte: {}, files: [] };
 
   try {
     // ---- EGRID bestimmen ----
@@ -169,7 +242,7 @@ async function fetchOereb(egrid) {
       if (!hits.length) throw new Error(`Keine SZ-Parzelle "${gem} ${nr}" gefunden. Schreibweise/Gemeinde pruefen.`);
       if (hits.length > 1) throw new Error(`Mehrdeutig (${hits.length} Treffer): ${hits.map((h)=>`${h.label} [${h.egrid}]`).join(" | ")}. EGRID manuell waehlen (--egrid).`);
       const h = hits[0];
-      Object.assign(result, { egrid: h.egrid, parzelle: h.parzelle, bfs: h.bfs, gemeinde: h.label, source: "parzelle" });
+      Object.assign(result, { egrid: h.egrid, parzelle: h.parzelle, bfs: h.bfs, gemeinde: h.label, source: "parzelle", east: h.east, north: h.north });
       L(`   -> EGRID ${h.egrid} · Parzelle ${h.parzelle} · BFS ${h.bfs} · ${h.label}`);
     } else if (a.adresse) {
       L(`1) Geocoding (Fallback): ${a.adresse}${a.plz ? " " + a.plz : ""}`);
@@ -182,7 +255,7 @@ async function fetchOereb(egrid) {
         L(`   !! WARNUNG: Hausnummer nicht exakt aufgeloest ("#"). Gefahr Nachbarparzelle! Per --parzelle gegenpruefen.`);
       const p = await identifyParcel(hit.east, hit.north);
       if (!p || !p.egrid) throw new Error(`Kein EGRID an Koordinate. Per --parzelle suchen.`);
-      Object.assign(result, { egrid: p.egrid, parzelle: p.parzelle, bfs: p.bfs, gemeinde: p.gemeinde, source: "adresse" });
+      Object.assign(result, { egrid: p.egrid, parzelle: p.parzelle, bfs: p.bfs, gemeinde: p.gemeinde, source: "adresse", east: hit.east, north: hit.north });
       if (hnrUnscharf) result.warnung = "Hausnummer unscharf — Parzelle ggf. falsch, per --parzelle verifizieren.";
       L(`   -> EGRID ${p.egrid} · Parzelle ${p.parzelle} · BFS ${p.bfs}${p.gemeinde ? " " + p.gemeinde : ""}`);
     } else {
@@ -205,6 +278,29 @@ async function fetchOereb(egrid) {
         writeFileSync(dest, buf);
         result.files.push(dest);
         L(`   -> abgelegt: ${dest} (${(buf.length / 1024).toFixed(0)} KB)`);
+      }
+    }
+
+    // ---- Produkte (bisher nur naturgefahren) ----
+    if (a.produkt) {
+      const prods = String(a.produkt).split(",").map((s) => s.trim());
+      for (const prod of prods) {
+        if (prod === "naturgefahren") {
+          if (result.east == null || result.north == null)
+            throw new Error(`--produkt naturgefahren braucht eine Koordinate — mit --parzelle oder --adresse suchen (nicht --egrid allein).`);
+          L(`3) Naturgefahren SZ (map.geo.sz.ch/mapserv_proxy, ±${a.radius || 5} m) ...`);
+          const ng = await fetchNaturgefahrenSz(result.east, result.north, Number(a.radius) || 5);
+          result.produkte.naturgefahren = ng;
+          if (ng.stufe_massgebend) {
+            L(`   naturgefahren: massgebende Stufe — ${ng.stufe_massgebend} (${ng.treffer_gefahrenflaechen} Flaechen im Suchfenster, mehrere Prozesse/Stufen moeglich)`);
+            if (RANG_HOCH.has(ng.stufe_massgebend))
+              L(`   ⚠ Objektschutz pruefen: § 20/17 PBG SZ, SIA 261/261-1-Schutzziele, sensible Nutzungen (Alters-/Pflegeheim) besonders kritisch in blauer/roter Zone.`);
+          } else {
+            L(`   naturgefahren (±${a.radius || 5}m): keine kartierte Gefahrenflaeche (Negativbefund — Erhebungsgebiet-Layer zeigt den Kartierungsstand, nicht mit "nicht kartiert" verwechseln)`);
+          }
+        } else {
+          L(`   ! Unbekanntes Produkt fuer Kt. SZ: "${prod}" (bisher nur "naturgefahren" hinterlegt)`);
+        }
       }
     }
 

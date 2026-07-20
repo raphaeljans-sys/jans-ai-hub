@@ -1,8 +1,15 @@
 ---
 title: Naturgefahrenkarte & Objektschutzkonzept — Gefahrenstufen, Schutzziele, Bezugswege ZH/SZ
 status: established
-last_updated: 2026-07-20 (Run 54)
+last_updated: 2026-07-21 (Run 55)
 sources:
+  - opendata.swiss CKAN-API (`package_show?id=gefahrenkarte1`, Amt fuer Geoinformation Kt. SZ) —
+    liefert die realen Service-URLs hinter dem bisher nur als manuellem WebGIS-Link bekannten
+    Layer-Namen `ch.sz.a012b.naturgefahrenkarte.*`; live GetCapabilities/GetFeature/
+    DescribeFeatureType gegen `map.geo.sz.ch/mapserv_proxy` (Run 55, 2026-07-21)
+  - maps.zh.ch/wfs/OGDZHWFS GetCapabilities Volltext-Grep — Datensatz 0327
+    `giszhpub_gs_gw_isohypse_{hw,mw,mw_halb}_l` (Grundwasser-Isohypsen), live GetFeature-Test
+    Hardau 24 Winterthur (Run 55, 2026-07-21)
   - PL-02/04_Merkblätter/GVZ_Leitfaden_Hochwassergefahrenkarte.pdf ("Leitfaden zur Umsetzung der
     Gefahrenkarten Hochwasser", Baudirektion Kt. ZH/AWEL Abt. Wasserbau + Gebäudeversicherung
     Kt. ZH, Autor Ernst Basler + Partner AG, © 2003 — ⚠ Datenstand 2003, Run 37 2026-07-14)
@@ -89,12 +96,13 @@ bautechnische Auflage.
 
 | Kanton | Portal | Layer/Endpunkt | Login |
 |---|---|---|---|
-| **SZ** | `map.geo.sz.ch` | Gruppe `grp_Naturrisiken_Naturgefahrenkarte_V2`, Layer `ch.sz.a012b.naturgefahrenkarte.{gefahrenflaechen,hinweisflaechen,perimeter_nicht_beurteilt,perimeter_in_ueberarbeitung}.ueberlagert` — direkter Kartenlink mit Zentrumskoordinate (E/N) + Zoom moeglich (siehe Beispiel unten) | login-frei (WebGIS-Ansicht) |
+| **SZ** | `map.geo.sz.ch/mapserv_proxy` (WFS 1.1.0) | **GELOEST Run 55, 2026-07-21** — `ms:ch.sz.a012b.naturgefahrenkarte.gefahrenflaechen.ueberlagert` (Perimeter A) + `.hinweisflaechen.ueberlagert` (Perimeter B) + `.erhebungsgebiet` (Kartierungsstand); im Connector als `geo-sz.mjs --produkt naturgefahren`. Details Abschnitt 8c | login-frei |
 | **ZH** | `maps.zh.ch/wfs/OGDZHWFS` (OGD-WFS, AWEL Wasserbau) | **GELOEST Run 54, 2026-07-20** — `ms:ogd-0044_giszhpub_wb_syn_gk_f` (synoptische Gefahrenkarte 44.13) + `_wb_hw_gk_f` (Hochwasser 44.2) + `_wb_mb_gk_f` (Massenbewegungen 44.7); im Connector als `--produkt naturgefahren`. Details Abschnitt 8a | login-frei |
 | **Alle CH (privat)** | `schutz-vor-naturgefahren.ch` | Adressgenauer "Naturgefahren-Check" (Eigentuemer/Architekten-Ansicht) + generische Gebaeudeschutz-Empfehlungen je Bauteilgruppe (Dach/Fassade, Innenraum, Technik, Tragstruktur, Oeffnungen/Zugaenge, Umgebung) x Naturgefahr (Hochwasser, Rutschung, Hagel, Schnee, Erdbeben, ...) | login-frei |
 
-**Beispiel echter SZ-Direktlink** (Reckholdernstrasse 20, Willerzell, Zentrumskoordinate
-E=2'703'371 N=1'222'906, EPSG:2056):
+**Historischer WebGIS-Direktlink** (Reckholdernstrasse 20, Willerzell, Zentrumskoordinate
+E=2'703'371 N=1'222'906, EPSG:2056) — bis Run 54 der einzige bekannte Zugriffsweg, jetzt durch den
+REST-Endpunkt in Abschnitt 8c abgeloest, bleibt als manuelle Kartenansicht nuetzlich:
 ```
 https://map.geo.sz.ch/?lang=de&baselayer_ref=Landeskarte grau (aktuell)
   &tree_groups=grp_Naturrisiken_Naturgefahrenkarte_V2
@@ -105,12 +113,6 @@ https://map.geo.sz.ch/?lang=de&baselayer_ref=Landeskarte grau (aktuell)
     ch.sz.a012b.naturgefahrenkarte.perimeter_nicht_beurteilt
   &map_x=2703371&map_y=1222906&map_zoom=9
 ```
-Das Layer-Namensschema (`ch.sz.a012b.naturgefahrenkarte.*`) ist **nicht** im bisherigen
-`geo-sz.mjs`-Connector hinterlegt und **nicht getestet** (kein `identify`-Aufruf verifiziert, nur
-der manuelle WebGIS-Link aus einem realen Auftraggeber-Dokument entnommen) — daher Status
-`emerging`, nicht `established`. Vor Automatisierung: pruefen, ob der Layer per
-`map.geo.sz.ch/wms`/`/rest`-Endpunkt abfragbar ist (analog zum OEREB-PDF-Endpunkt in
-`geo-sz.mjs`), sonst bleibt der Weg vorerst der manuelle WebGIS-Link.
 
 ## 4. Reale Anwendung: Objektschutzkonzept Reckholdern 20 (2023)
 
@@ -235,10 +237,28 @@ Untergeschoss** zu pruefen ist — sie entscheidet ueber die Notwendigkeit einer
 (wasserundurchlaessige Betonkonstruktion) vs. einer einfachen Abdichtung gegen nicht druckendes
 Wasser. Der übliche rechtliche Vorbehalt gilt auch hier: **nur informativer Charakter**, keine
 rechtsverbindliche Auskunft — verbindlich ist die zustaendige Fachstelle (Amt fuer Geoinformation
-AGI Kt. SZ). Fuer ZH gilt der analoge Bezug ueber `maps.zh.ch` (Grundwasserschutzzonen +
-Grundwasservorkommen als eigener Themenlayer im GIS-Browser, bisher nicht als Connector-Produkt
-kartiert — Anschlussaufgabe an den naechsten Kartenportale-Run, sinngemaess wie beim
-Naturgefahren-Endpunkt unten).
+AGI Kt. SZ).
+
+**ZH-Pendant GEFUNDEN (Run 55, 2026-07-21):** `maps.zh.ch/wfs/OGDZHWFS` fuehrt unter Datensatz
+**0327** die **Grundwasser-Isohypsen** als eigenstaendigen, von den bereits dokumentierten
+Grundwasserschutzzonen (§8b, Datensatz 0143/0149) unabhaengigen Layer — dieselbe informative
+Aquifer-Ebene wie die SZ-Grundwasserkarte oben, nicht die rechtliche Schutzzonen-Ebene:
+
+| Zweck | Typname |
+|---|---|
+| Isohypsen Hochwasserstand | `ms:ogd-0327_giszhpub_gs_gw_isohypse_hw_l` |
+| Isohypsen Mittelwasserstand | `ms:ogd-0327_giszhpub_gs_gw_isohypse_mw_l` |
+| Isohypsen Mittelwasserstand (Halblinien) | `ms:ogd-0327_giszhpub_gs_gw_isohypse_mw_halb_l` |
+
+Live `GetFeature` an der bereits bekannten Grundwasserschutzzonen-Benchmark-Parzelle **Hardau 24,
+8408 Winterthur** (±200 m um E=2'693'598/N=1'263'249) liefert 3 Isohypsenlinien mit Attribut
+`label` = Kote in m ü. M. (397/398/399) — der Layer ist gefuellt und funktionsfaehig, aber noch
+**nicht** als Connector-Produkt gebaut (nur der Live-Test, kein `--produkt grundwasserkarte`
+in `geo-zh.mjs`). Attribute zusaetzlich `linientyp`, `created`/`edited`/`editedby`
+(Nachfuehrungsdatum je Linie — nuetzlich fuer eine Datenstand-Angabe im Bericht). Status
+`emerging`: Endpunkt live verifiziert, aber noch nicht produktiv im Connector verdrahtet — das ist
+die naheliegende Anschlussaufgabe fuer den naechsten Kartenportale-Run (Analogie zu §8a/§8b: erst
+Positiv-Benchmark, dann Connector-Feature, dann `established`).
 
 ## 6b. Gewaesser-Oekomorphologie als mitgelieferte Planungsgrundlage (Run 27, 2026-07-13)
 
@@ -469,9 +489,12 @@ prüfen (dieselbe offene Aufgabe wie für die generelle ZH-Naturgefahrenkarte in
   denied"** — d.h. falls ein WMS existiert, ist er **login-pflichtig**, kein
   offener Layer. Naechster Ansatz bleibt: den Datensatz-Alias direkt bei der
   AWEL-Fachstelle erfragen, nicht weiter erraten.
-- **SZ-Layer-Endpunkt** nur als manueller WebGIS-Link bekannt, nicht als `identify`-faehiger
-  REST-Endpunkt getestet — Connector-Erweiterung erst nach erfolgreichem Test. (Der **ZH**-Teil
-  dieser Aufgabe ist mit Run 54 erledigt, s. Abschnitt 8a; SZ bleibt offen.)
+- **SZ-Layer-Endpunkt GELOEST (Run 55, 2026-07-21):** war nur als manueller WebGIS-Link bekannt —
+  jetzt REST-faehig getestet und im Connector, s. Abschnitt 8c. Damit sind **beide** Kantone
+  (ZH Abschnitt 8a, SZ Abschnitt 8c) auf einen automatisierten Naturgefahren-Zugriff gebracht.
+- **ZH-Grundwasserisohypsen (informative Aquiferkarte) neu gefunden, noch nicht im Connector**
+  (Run 55) — s. Abschnitt 6, Status `emerging`. Naechster Schritt: `--produkt grundwasserkarte`
+  in `geo-zh.mjs` bauen (analog zu `--produkt grundwasser` fuer die Schutzzonen).
 
 ## 8a. ZH-Naturgefahrenkarte — Endpunkt gefunden und verifiziert (Run 54, 2026-07-20)
 
