@@ -5,17 +5,18 @@ geplante Artikel. Der Health-Check (`wissenscheck`) prüft, ob bereits geflaggte
 Lücken erneut auftauchen (Doppel-Flag vermeiden) und ob sie inzwischen geschlossen
 wurden.
 
-## 2026-07-20 (Cross-KB Wissens-Chef Run 10) — Meldeverfahren §§ 2a-2c BVV als eigener Verfahrenstyp fehlt
+## 2026-07-20 (Cross-KB Wissens-Chef Run 10) — Meldeverfahren §§ 2a-2c BVV als eigener Verfahrenstyp fehlt → ✅ ERLEDIGT (Buch-Run 50, 2026-07-20)
 
-`wiki/baubewilligungsverfahren.md` enumeriert nur bewilligungsfrei / Anzeigeverfahren / ordentliches
-Verfahren; das **Meldeverfahren (§§ 2a-2c BVV, LS 700.6)** — der vierte ZH-Verfahrenstyp, unter den
-Wärmepumpen und Solaranlagen fallen — fehlt, obwohl der Erlasstext im eigenen raw (`raw/260607_amtlich_zh_bvv.md`
-ab «II. Meldepflicht», § 2a) voll vorliegt. Cross-KB-Lauf hat vorerst nur einen **Querbezug-Block auf die
-KB energie** (`bvv-zh-meldeverfahren-klimaanlagen-waermepumpen`) gesetzt + die Namensgleichheit
-**§ 2a BVV ≠ § 2a ABV** (LS 700.2, Klein-/Anbauten) markiert. Offene Bring-Schuld baurecht-Loop:
-Meldeverfahren als eigenen Abschnitt aufnehmen, **arbeitsteilig** (baurecht = Verfahrenstyp-Systematik,
-energie = WP-Fachvertiefung) — sonst entsteht dieselbe Absatz-Doppelspur wie beim offenen Entscheid E1
-(ZH-EnerG-§§), nur auf der BVV.
+~~`wiki/baubewilligungsverfahren.md` enumeriert nur bewilligungsfrei / Anzeigeverfahren / ordentliches
+Verfahren; das **Meldeverfahren (§§ 2a-2c BVV, LS 700.6)** — der vierte ZH-Verfahrenstyp — fehlt.~~
+**Geschlossen im Buch-Run 50 (2026-07-20):** das Meldeverfahren ist jetzt als **vierter Verfahrenstyp**
+unter «Verfahrensarten» integriert — volle Systematik am raw verifiziert (`raw/260607_amtlich_zh_bvv.md`,
+Fassungsstand 1.7.2026 Nachtrag 133). **Korrektur der Flag-Notiz:** der Typ spannt **§§ 2a-2e BVV**
+(nicht nur 2a-2c) — § 2a Tatbestände + Rückausnahme Abs. 2 (Kernzonen/Denkmalschutz bewilligungspflichtig),
+§ 2b Tragweite (keine Aussteckung), § 2c Unterlagen, § 2d Einreichung (30 T vor Baubeginn, Behandlungsfrist
+30 T, Anordnungsvorbehalt), § 2e Baufreigabe (Genehmigungsfiktion). Namensgleichheit § 2a BVV ≠ § 2a ABV
+markiert. Arbeitsteilung: baurecht = Verfahrenstyp-Systematik (erledigt), energie = WP-Fachvertiefung
+(`bvv-zh-meldeverfahren-klimaanlagen-waermepumpen`). Bring-Schuld baurecht-Loop damit erledigt.
 
 ## 2026-07-17 (Buch-Run 48, Modell-D — die drei «beschaffbaren» Luecken aus Run 47 geschlossen: 4 neue amtliche Volltexte)
 
@@ -80,10 +81,17 @@ synchronisiert, 4 Drill-Karten.
 **needs-verification (neu/verbleibend):**
 - **Anhang 6 LSV** (Industrie-/Gewerbelaerm) — nicht im raw, beschaffbar (Anhang 4 Ziff. 1 Abs. 3
   verweist darauf).
-- **Systematischer WsG/WsV-Nachzug:** die HWSchV-Aufhebung betrifft potenziell mehr Stellen als die
+- ~~**Systematischer WsG/WsV-Nachzug:** die HWSchV-Aufhebung betrifft potenziell mehr Stellen als die
   hier geprueften — ein KB-weiter Check aller kantonalen Gewaesser-/Hochwasser-Zitate gegen WsG/WsV
-  ist vorzumerken. **Generell:** kantonale Erlasse altern schneller als die KB — ein periodischer
-  Fassungsstand-Check (zhlex) gehoert in den Festigungsmodus.
+  ist vorzumerken.~~ → **✅ ERLEDIGT (Buch-Run 50, 2026-07-20):** KB-weiter `grep -rniI "HWSchV"` ueber
+  wiki/buecher/training durchgefuehrt. Alle materiellen Aussagen tragen bereits den Aufhebungsvermerk
+  (01.06.2026 → WsG/WsV); **2 verbliebene veraltete Register-Stellen korrigiert:** (1) `training/drills.md`
+  Z. 83 zitierte «§ 15d HWSchV / 11 m eingedolt» als geltendes Recht (dreifach falsch: Renumbering
+  § 15d→§ 15k, HWSchV aufgehoben, § 24 WsV kennt KEIN Mindestmass mehr) → Karte auf aktuelle Rechtslage
+  gesetzt; (2) `training/curriculum.md` Z. 74 «§ 15m HWSchV» ohne Aufhebungsvermerk → «(aufgehoben
+  01.06.2026 → § 20 WsG)» ergaenzt. § 183 lit. b WsV als Nachfolger von § 15h (Festlegung Baudirektion)
+  in baulinien-Tabelle als korrekt bestaetigt. **Generell:** kantonale Erlasse altern schneller als die
+  KB — der periodische Fassungsstand-Check (zhlex) bleibt Teil des Festigungsmodus (Leitplanke Run 48).
 - **VASA-Abgabesatz Art. 3** (5 Fr./t Deponietyp B, 16 Fr./t Typen C/D/E): nur Stand **1.1.2016**
   beschaffbar (spaetere Konsolidierungen ueber den Fedlex-Datenspeicher nicht abrufbar) — mit
   Fassungsvermerk zitieren, nicht als «aktuell».

@@ -1,14 +1,18 @@
 ---
 title: Baubewilligungsverfahren — Kanton Zürich
 status: established
-last_updated: 2026-07-13
-sources: [260602_docs-baurecht-verfahren.md, 260602_docs-baurecht-pbg-zh.md, "§§ 309 ff. PBG", "§ 315 PBG", "§ 316 PBG", "§ 322 PBG", "§ 325 PBG", "§ 325a PBG", "§ 328 PBG", "§§ 13-18 BVV", "§§ 4-7 BBV I", "BVV", "BBV I", 06-baurechtliches-verfahren.md, 06-baurechtliches-verfahren-teil2.md, 260607_amtlich_zh_pbg.md, 260607_amtlich_zh_bvv.md, 260607_amtlich_zh_bbv1.md]
+last_updated: 2026-07-20
+sources: [260602_docs-baurecht-verfahren.md, 260602_docs-baurecht-pbg-zh.md, "§§ 309 ff. PBG", "§ 315 PBG", "§ 316 PBG", "§ 322 PBG", "§ 325 PBG", "§ 325a PBG", "§ 328 PBG", "§ 1 BVV", "§§ 2a-2e BVV", "§§ 13-18 BVV", "§§ 4-7 BBV I", "BVV", "BBV I", 06-baurechtliches-verfahren.md, 06-baurechtliches-verfahren-teil2.md, 260607_amtlich_zh_pbg.md, 260607_amtlich_zh_bvv.md, 260607_amtlich_zh_bbv1.md]
 links: [[nutzungsziffern]], [[abstaende-und-hoehen]], [[zonenkonformitaet]], [[nebenbestimmungen-und-reverse]], [[baurechtlicher-vorentscheid-und-voranfrage]], [[raumplanung-und-gestaltung]], [[07-zustaendigkeiten-entscheide-auskuenfte]], [[06-baurechtliches-verfahren-teil2]]
 verifiziert:
   - datum: 2026-07-13
     methode: "Modell-D-Volltextabgleich (adversarial)"
     umfang: "Anzeigeverfahren: § 325 PBG, § 325a PBG, §§ 13-15 BVV, §§ 4-7 BBV I"
     ergebnis: "CONFIRMED mit Praezisierungen (Normhierarchie § 325 PBG/§ 13 BVV, Minergie-Vermutung § 4 Abs. 4 BBV I ergaenzt); Fassungsstand amtlicher Volltext 1.7.2026"
+  - datum: 2026-07-20
+    methode: "Beschaffbare Luecke aus raw geschlossen (Buch-Run 50, Bring-Schuld Cross-KB Run 10)"
+    umfang: "Meldeverfahren §§ 2a-2e BVV (Tatbestaende/Rueckausnahme/Tragweite/Unterlagen/Einreichung/Baufreigabe) gegen raw/260607_amtlich_zh_bvv.md"
+    ergebnis: "als vierter Verfahrenstyp integriert; Fassungsstand 1.7.2026 Nachtrag 133; Flag-Notiz «§§ 2a-2c» auf §§ 2a-2e korrigiert (Typ spannt bis Baufreigabe § 2e)"
 ---
 
 # Baubewilligungsverfahren
@@ -45,6 +49,36 @@ sich u.a. auf das Einordnungsgebot (§ 238 PBG, siehe [[raumplanung-und-gestaltu
   2026-07-13 gegen § 325 PBG + §§ 13-15 BVV (amtlicher Volltext, Fassungsstand 1.7.2026):
   CONFIRMED, mit Präzisierung der § 325/§ 13-BVV-Normhierarchie (Delegationsnorm vs.
   materielle Regel).
+- **Meldeverfahren (§§ 2a-2e BVV, LS 700.6):** der **vierte** ZH-Verfahrenstyp, ein
+  besonders schlankes Verfahren für **haustechnische Energie-Anlagen**. Erfasst (§ 2a Abs. 1
+  BVV) namentlich: Solaranlagen auf Dächern (nach Art. 32a RPV genügend angepasst),
+  Solaranlagen an Fassaden in Bauzonen (reflexionsarm, kompakt, parallel, ≤ 20 cm überragend),
+  freistehende Solaranlagen in Bauzonen bis **20 m²**, Solaranlagen in Industrie-/Gewerbezonen
+  (Dach auch ohne Art. 32a-Anpassung, Fassade, freistehend), innen aufgestellte Luft/Wasser-
+  Wärmepumpen, aussen aufgestellte Luft/Wasser-Wärmepumpen bis **2 m³** Volumen, Erdwärmesonden-
+  Wärmepumpen (alle neuen Sonden ≥ **2,5 m** Grenzabstand, nicht im Bereich von Bau-/
+  Abstandslinien; gewässerschutzrechtliche Bewilligung vorbehalten), Fernwärme-Anschlüsse
+  (§ 47g BBV I) und öffentlich zugängliche Ladestationen für Elektrofahrzeuge an bestehenden
+  Abstellplätzen. **Rückausnahme (§ 2a Abs. 2 BVV):** sämtliche Solaranlagen und aussen
+  aufgestellte Luft/Wasser-Wärmepumpen in **Kernzonen**, im Geltungsbereich eines Ortsbild-/
+  Denkmalschutzinventars oder einer denkmalpflegerischen Schutzanordnung sind
+  **bewilligungspflichtig** (kein Meldeverfahren). Tragweite (§ 2b BVV): **keine Aussteckung,
+  keine öffentliche Bekanntmachung**; die Meldung entbindet aber nicht von der Einhaltung des
+  materiellen Rechts. Unterlagen je Anlagentyp (§ 2c BVV, z.B. bei Solaranlagen Situationsplan
+  1:500/1000, Dachaufsicht/Fassaden-Darstellungen, Produktbeschrieb, VKF-Orientierungsplan
+  «Solaranlagen»; bei Luft/Wasser-WP zusätzlich **Lärmschutznachweis**). Einreichung (§ 2d BVV):
+  elektronisch (PDF, Plattform §§ 19a-19c) **spätestens 30 Tage vor Baubeginn** bei der
+  örtlichen Baubehörde; **Behandlungsfrist 30 Tage** (verlängerbar bei erhöhtem Aufwand); die
+  Baubehörde **kann ein Bewilligungsverfahren anordnen**, um öffentliche Interessen zu wahren
+  oder Rechte Dritter zu schützen (§ 2d Abs. 4), und die Gesuchstellenden können anstelle des
+  Meldeverfahrens ein **ordentliches Verfahren verlangen** (§ 2d Abs. 5). Baufreigabe (§ 2e BVV):
+  wird ein Bewilligungsverfahren nötig, teilt die Baubehörde dies **innert 30 Tagen** mit;
+  **andernfalls darf das Projekt ausgeführt werden** (Genehmigungsfiktion, Schweigen = Freigabe).
+  **Achtung Namensgleichheit:** § 2a **BVV** (Bauverfahrensverordnung LS 700.6, Meldeverfahren)
+  ist NICHT § 2a **ABV** (Allgemeine Bauverordnung LS 700.2, Klein-/Anbauten). Volltextbeleg
+  `raw/260607_amtlich_zh_bvv.md` (§§ 2a-2e, Fassungsstand 1.7.2026, Nachtrag 133), verifiziert
+  2026-07-20. Fachvertiefung Wärmepumpen in der KB energie
+  (`bvv-zh-meldeverfahren-klimaanlagen-waermepumpen`).
 - **Bewilligungsfrei:** bestimmte Kleinbauten/-anlagen nach **§ 1 BVV** (z.B. Bauten bis
   2,5 m Höhe/6 m2 Grundfläche, steckerfertige Solaranlagen bis 4 m2 ausserhalb
   Kernzonen/Schutzgebieten). *Korrektur Modell-D-Abgleich 2026-07-13:* zuvor fälschlich
@@ -130,18 +164,16 @@ ggf. Lärm-/Altlastennachweis.
 > `energie-berater`). Dieser Artikel bleibt führend für die **verfahrensrechtliche**
 > Einbindung (Beilagepflicht, Anzeige- vs. ordentliches Verfahren, Minergie-Vermutung).
 
-> **Querbezug KB energie (Meldeverfahren §§ 2a-2c BVV, Cross-KB Wissens-Chef Run 10, 2026-07-20):**
-> Neben bewilligungsfrei / Anzeigeverfahren / ordentlichem Verfahren kennt das ZH-Recht einen
-> vierten Verfahrenstyp, das **Meldeverfahren** (**§§ 2a-2c BVV**, LS 700.6), unter das
-> insbesondere **Wärmepumpen** und Solaranlagen fallen. Die WP-spezifischen Weichen (2-m³-Grenze,
-> 2,5-m-Grenzabstand Erdwärmesonde, Kernzonen-Ausnahme Abs. 2) und die einzureichenden Unterlagen
-> führt derzeit am Erlasstext die KB energie
+> **Querbezug KB energie (Meldeverfahren §§ 2a-2e BVV, Cross-KB Wissens-Chef Run 10, 2026-07-20):**
+> Die Verfahrenstyp-Systematik des Meldeverfahrens ist **seit 2026-07-20 (Buch-Run 50) oben unter
+> «Verfahrensarten» als vierter Verfahrenstyp integriert** (Erlasstext §§ 2a-2e BVV am raw
+> verifiziert; die ursprüngliche Flag-Notiz «§§ 2a-2c» war zu eng — der Typ spannt bis § 2e/Baufreigabe).
+> Die WP-spezifische **Fachvertiefung** (2-m³-Grenze, 2,5-m-Grenzabstand Erdwärmesonde, Lärmschutz-
+> nachweis, Kernzonen-Rückausnahme Abs. 2) führt arbeitsteilig weiter am Erlasstext die KB energie
 > (`wissen/energie/destillate/bvv-zh-meldeverfahren-klimaanlagen-waermepumpen`). **Achtung
 > Namensgleichheit:** das hier gemeinte **§ 2a BVV** (Bauverfahrensverordnung LS 700.6) ist NICHT
 > das **§ 2a ABV** (Allgemeine Bauverordnung LS 700.2) für Klein-/Anbauten
-> (vgl. [[gebaeudearten-und-abstandssystem]]). *Offen (Verfahrenstyp-Systematik hier noch
-> undestilliert, Bring-Schuld baurecht-Loop, s. QUESTIONS): Meldeverfahren arbeitsteilig als
-> eigenen Abschnitt aufnehmen — baurecht = Verfahrenstyp-Systematik, energie = WP-Fachvertiefung.*
+> (vgl. [[gebaeudearten-und-abstandssystem]]). Bring-Schuld baurecht-Loop damit **erledigt**.
 
 ## Häufige Stolpersteine
 Unvollständige Unterlagen (Nachforderung mit Zeitverlust), Baugespann nicht

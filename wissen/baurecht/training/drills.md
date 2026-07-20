@@ -79,9 +79,13 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   Gebaeude ohne Daueraufenthalt, groesste Hoehe ≤ 4 m (Schraegdach ≤ 5 m) (§ 49 Abs. 3 PBG) →
   **reduzierte** Grenz-/Gebaeudeabstaende (§ 49 Abs. 3 / § 273 PBG; Bd 2, S. 997). _[2026-06-11]_
 - **F:** Welcher Gewaesserraum gilt fuer ein Fliessgewaesser mit Gerinnesohle < 1 m, und ueberlagert
-  er die BZO? — **A:** Mind. **11 m** (Art. 41a Abs. 2 GSchV) — **Bundesrecht**, ueberlagert die
-  kommunale BZO; in ZH selbst bei eingedolten Gewaessern 11 m (§ 15d HWSchV; Bd 2, S. 1008, 1013).
-  _[2026-06-11]_
+  er die BZO? — **A:** Mind. **11 m** (Art. 41a Abs. 2 lit. a GSchV, Sohle < 2 m) — **Bundesrecht**,
+  ueberlagert die kommunale BZO. **ACHTUNG Rechtsaenderung:** in ZH galt bei **eingedolten** Gewaessern
+  bis 31.5.2026 ebenfalls mind. 11 m (§ 15k Abs. 3 HWSchV, alt § 15d — Renumbering Nachtrag 95); **seit
+  01.06.2026 ist die HWSchV aufgehoben** (OS 81, 144), und die Nachfolgenorm **§ 24 WsV kennt KEIN
+  Mindestmass mehr** (nur eine Verringerungsregel bis auf den Unterhalts-/Ersatzraum) — die 11 m folgen
+  heute allein bundesrechtlich aus Art. 41a Abs. 2 lit. a GSchV. Beleg: raw/260717_amtlich_zh_hwschv.md;
+  Bd 2, S. 1008, 1013. _[2026-06-11, aktualisiert 2026-07-20 (WsG/WsV-Nachzug, Run 50)]_
 - **F:** Muss man von einer Zonengrenze einen Abstand einhalten? — **A:** Nein, mangels Vorschrift
   **kein** kantonaler Abstand (BEZ 1989 Nr. 21); Gebaeude duerfen Zonengrenzen ueberschreiten, jeder
   Gebaeudeteil haelt aber die Vorschriften seiner Zone ein (RB 1991 Nr. 84; Bd 2, S. 998).
@@ -1238,10 +1242,10 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   Strassenachse (Verkehrsbaulinien). Fruehere Wiki-Fassung war auf den Verkehrsbaulinien-Fall verengt.
   Beleg: raw/260607_amtlich_zh_pbg.md, Buch-Run 36. _[2026-07-13]_
 - **F:** Sind Solaranlagen im Anzeigeverfahren-Katalog nach § 14 BVV geregelt? — **A:** **Nein.**
-  Solaranlagen sind eigenstaendig in **§ 1 BVV** (bewilligungsfrei bis 4 m²) und **§§ 2a-2c BVV**
-  (gestaffelte Meldepflicht) geregelt — nicht Teil des Anzeigeverfahren-Katalogs § 14 BVV. Der
-  fruehere Verweis auf «§ 48 Abs. 2 lit. b-f PBG» existiert im geltenden Recht nicht mehr in diesem
-  Kontext. _[2026-07-13]_
+  Solaranlagen sind eigenstaendig in **§ 1 BVV** (bewilligungsfrei bis 4 m²) und im **Meldeverfahren
+  §§ 2a-2e BVV** (§ 2a Tatbestaende, Rueckausnahme Kernzone/Denkmalschutz Abs. 2) geregelt — nicht Teil
+  des Anzeigeverfahren-Katalogs § 14 BVV. Der fruehere Verweis auf «§ 48 Abs. 2 lit. b-f PBG» existiert
+  im geltenden Recht nicht mehr in diesem Kontext. _[2026-07-13, praezisiert 2026-07-20: §§ 2a-2e]_
 
 ### Modell A — Frage→Beleg-Drill
 
@@ -1686,3 +1690,46 @@ die KB zitierte also totes kantonales Recht; zudem stand die § 15m-Aussage **au
 2013er-Fassung (Renumbering Nachtrag 95: § 15d→§ 15k, § 15b→§ 15h, § 15g→§ 15m). Ferner:
 **Additionsprinzip ohne seine Ausnahme** (PW neue Anlagen) und **VASA-Stichtag** falsch
 («nur bis Ende Januar 1996» vermengte Berechtigung [1.2.2001] mit Satz-Staffelung [40 %/30 %]).
+
+## Buch-Run 50 (2026-07-20) — Modell A/D: Meldeverfahren §§ 2a-2e BVV + WsG/WsV-Nachzug abgeschlossen
+
+- **F (Modell A · Frage→Beleg):** Ein Bauherr will auf dem Flachdach seines Mehrfamilienhauses in
+  einer Wohnzone eine gut angepasste Photovoltaikanlage und aussen eine Luft/Wasser-Wärmepumpe von
+  1,5 m³ montieren. Welcher Verfahrenstyp gilt, welche Frist, und was gilt, wenn die Behörde 30 Tage
+  schweigt? — **A:** Das **Meldeverfahren** (§§ 2a-2e BVV, LS 700.6) — der vierte ZH-Verfahrenstyp
+  neben ordentlich/Anzeige/bewilligungsfrei. Beide Anlagen sind meldepflichtig (§ 2a Abs. 1 BVV:
+  Solaranlage auf Dach nach Art. 32a RPV angepasst; aussen aufgestellte Luft/Wasser-WP **bis 2 m³**).
+  Einreichung elektronisch **spätestens 30 Tage vor Baubeginn** (§ 2d Abs. 1), **Behandlungsfrist
+  30 Tage** (§ 2d Abs. 3). Schweigt die Behörde 30 Tage, **darf das Projekt ausgeführt werden**
+  (**Genehmigungsfiktion**, § 2e BVV). ABER: läge das Haus in einer **Kernzone** oder unter einem
+  Ortsbild-/Denkmalschutzinventar, wären Solaranlage UND aussen aufgestellte WP **bewilligungspflichtig**
+  (§ 2a Abs. 2 BVV — Rückausnahme). Beleg: raw/260607_amtlich_zh_bvv.md (Fassungsstand 1.7.2026).
+  Vgl. [[baubewilligungsverfahren]]. _[2026-07-20]_
+
+- **F (Modell D · Gegenprobe/Adversarial):** Eine ältere Drill-Karte behauptete: «in ZH gilt selbst
+  bei eingedolten Gewässern ein Gewässerraum von 11 m (§ 15d HWSchV)». Stimmt das noch? — **A:**
+  **Nein — dreifach überholt.** (1) **Renumbering:** § 15d wurde 2017 (Nachtrag 95) zu § 15k. (2)
+  **Aufhebung:** die HWSchV ist seit **01.06.2026 aufgehoben** (OS 81, 144), Nachfolge WsG/WsV. (3)
+  **Materiell:** die Nachfolgenorm **§ 24 WsV kennt KEIN Mindestmass mehr**, sondern nur eine
+  Verringerungsregel (bis auf den für Unterhalt/Ersatz der Eindolung nötigen Raum). Die 11 m folgen
+  heute allein **bundesrechtlich** aus Art. 41a Abs. 2 lit. a GSchV (Gerinnesohle < 2 m). Die
+  Aussagerichtung kippt: ZH ist **nicht strenger** als der Bund, sondern nutzt den Verzichtsspielraum.
+  Beleg: raw/260717_amtlich_zh_hwschv.md (§ 24 WsV). _[2026-07-20]_
+
+- **F (Modell C · Karteikarte):** Wodurch unterscheidet sich das Meldeverfahren (§§ 2a-2e BVV) vom
+  Anzeigeverfahren (§ 325 PBG / §§ 13-18 BVV)? — **A:** Das **Anzeigeverfahren** ist das
+  beschleunigte Verfahren für Vorhaben **untergeordneter Bedeutung** (Katalog § 14 BVV), ohne
+  Aussteckung/Auflage, mit **Nachbaranzeige** und 30-Tage-Behandlungsfrist. Das **Meldeverfahren**
+  ist noch schlanker und auf einen **abschliessenden Katalog haustechnischer Energie-Anlagen**
+  beschränkt (Solaranlagen, Wärmepumpen, Fernwärme-Anschluss, E-Ladestationen — § 2a Abs. 1 BVV):
+  **keine Aussteckung, keine öffentliche Bekanntmachung** (§ 2b), blosse **Meldung** 30 Tage vor
+  Baubeginn statt Baugesuch, **Genehmigungsfiktion** bei Schweigen (§ 2e). Gemeinsam: die Behörde
+  kann in ein Bewilligungsverfahren hochstufen (§ 2d Abs. 4), und die Gesuchsteller können freiwillig
+  das ordentliche Verfahren wählen (§ 2d Abs. 5). _[2026-07-20]_
+
+**Ergebnis Buch-Run 50 (Festigungsmodus, 2 beschaffbare Blöcke):** (a) **WsG/WsV-Nachzug
+abgeschlossen** — KB-weiter HWSchV-Sweep, 2 veraltete Register-Stellen (drills.md/curriculum.md)
+auf die Rechtslage seit 01.06.2026 gesetzt; alle materiellen Aussagen tragen bereits den
+Aufhebungsvermerk. (b) **Meldeverfahren §§ 2a-2e BVV** als vierter Verfahrenstyp ins Wiki
+[[baubewilligungsverfahren]] integriert (Bring-Schuld Cross-KB Run 10 erledigt; Flag-Notiz «§§ 2a-2c»
+auf §§ 2a-2e korrigiert). 0 Halluzinationen, alles am raw belegt.

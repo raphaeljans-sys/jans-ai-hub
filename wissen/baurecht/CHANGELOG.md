@@ -4,6 +4,29 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-20 — Buch-Run 50 (Festigungsmodus): 2 beschaffbare Lücken geschlossen — WsG/WsV-Nachzug abgeschlossen + Meldeverfahren §§ 2a-2e BVV integriert
+- [distill] `wiki/baubewilligungsverfahren.md`: **Meldeverfahren als vierter Verfahrenstyp**
+  integriert (§§ 2a-2e BVV, LS 700.6) — Tatbestände § 2a (Solar/WP/Fernwärme/E-Ladestation, WP aussen
+  bis 2 m³, Erdsonde ≥ 2,5 m), **Rückausnahme Abs. 2** (Kernzonen/Denkmalschutz bewilligungspflichtig),
+  Tragweite § 2b (keine Aussteckung), Unterlagen § 2c (WP: Lärmschutznachweis), Einreichung § 2d
+  (30 T vor Baubeginn, Behandlungsfrist 30 T, Anordnungs-/Wahlvorbehalt), **Baufreigabe § 2e
+  Genehmigungsfiktion**. Belegt gegen `raw/260607_amtlich_zh_bvv.md` (Fassungsstand 1.7.2026 NT 133).
+- [korrigiert] Flag-Notiz «§§ 2a-2c BVV» → **§§ 2a-2e BVV** (Typ spannt bis Baufreigabe § 2e);
+  Querbezug-Block (Run 10) von «offen/Bring-Schuld» auf «erledigt» umgeschrieben; Frontmatter sources
+  (§§ 2a-2e/§ 1 BVV) + verifiziert-Eintrag 2026-07-20; `wiki/INDEX.md`-Zeile auf «vier Verfahrenstypen».
+- [korrigiert] **WsG/WsV-Nachzug abgeschlossen** (Restposten Run 48): KB-weiter HWSchV-Sweep;
+  `training/drills.md` Z. 83 «§ 15d HWSchV / 11 m eingedolt» (dreifach überholt: Renumbering § 15d→§ 15k,
+  Aufhebung 01.06.2026, § 24 WsV ohne Mindestmass) auf aktuelle Rechtslage gesetzt; `training/curriculum.md`
+  Z. 74 «§ 15m HWSchV» um «(aufgehoben 01.06.2026 → § 20 WsG)» ergänzt. § 183 lit. b WsV als Nachfolger
+  von § 15h in baulinien-Tabelle als korrekt bestätigt.
+- [questions] `wiki/QUESTIONS.md`: Meldeverfahren-Kopfeintrag (Run 10) + WsG/WsV-Nachzug-Restposten
+  (Run 48) auf **ERLEDIGT** gesetzt.
+- [drill] 3 neue Karten (`training/drills.md`, Run-50-Block): Meldeverfahren-Fallfrage (Modell A),
+  Gegenprobe § 15d HWSchV (Modell D), Abgrenzung Meldeverfahren↔Anzeigeverfahren (Modell C).
+- **0 Halluzinationen**, alles am raw belegt. «Rückstand abgebaut» NICHT ausgerufen: Anhang 6 LSV +
+  periodischer zhlex-Fassungsstand-Check brauchen externen Abruf (online-fähiger Lauf).
+  Bericht: `outputs/2026-07-20_buch-run50.md`.
+
 ## 2026-07-20 — Wissens-Chef Run 10 (Cross-KB): Meldeverfahren § 2a BVV verlinkt + ABV/BVV-Namensgleichheit markiert
 - [link] `wiki/baubewilligungsverfahren.md`: Querbezug-Block «KB energie» zum **Meldeverfahren
   §§ 2a-2c BVV** (4. ZH-Verfahrenstyp, WP/Solar) → energie-Destillat; **Namensgleichheit § 2a BVV

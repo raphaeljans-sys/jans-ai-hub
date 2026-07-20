@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-15
+last_updated: 2026-07-20
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -113,6 +113,19 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 50 (2026-07-20, Festigungsmodus — 2 beschaffbare Luecken aus dem eigenen raw geschlossen, kein
+    externer Abruf):** (a) **WsG/WsV-Nachzug abgeschlossen** (Restposten Run 48): KB-weiter HWSchV-Sweep ueber
+    wiki/buecher/training; 2 veraltete Register-Stellen korrigiert — `training/drills.md` Z. 83 «§ 15d HWSchV /
+    11 m eingedolt» war dreifach ueberholt (Renumbering § 15d→§ 15k, Aufhebung 01.06.2026, § 24 WsV OHNE
+    Mindestmass — 11 m nur noch via Art. 41a Abs. 2 lit. a GSchV) + `training/curriculum.md` Z. 74 «§ 15m HWSchV»
+    ohne Aufhebungsvermerk. § 183 lit. b WsV als Nachfolger von § 15h (Festlegung Baudirektion) bestaetigt.
+    (b) **Meldeverfahren §§ 2a-2e BVV** (LS 700.6) als **vierter Verfahrenstyp** ins Wiki [[baubewilligungsverfahren]]
+    integriert (Bring-Schuld Cross-KB Run 10 erledigt) — § 2a Tatbestaende + Rueckausnahme Abs. 2 (Kernzonen/
+    Denkmalschutz bewilligungspflichtig), § 2b Tragweite, § 2c Unterlagen, § 2d Einreichung (30 T vor Baubeginn,
+    Behandlungsfrist 30 T), § 2e **Genehmigungsfiktion**; Flag-Notiz «§§ 2a-2c» → §§ 2a-2e korrigiert. Belegt
+    gegen `raw/260607_amtlich_zh_bvv.md` (Fassungsstand 1.7.2026 NT 133). **0 Halluzinationen**, 3 Drills, ~7
+    Fundorte synchronisiert. **«Rueckstand abgebaut» NICHT ausgerufen:** Anhang 6 LSV + periodischer
+    zhlex-Fassungsstand-Check brauchen externen Abruf (online-faehiger Lauf). Report `outputs/2026-07-20_buch-run50.md`.
   - **Run 48 (2026-07-17, Modell-D Beschaffungslauf — die 3 «beschaffbaren» Luecken aus Run 47 geschlossen,
     Freigabe Raphael):** **4 neue amtliche Volltexte** (LSV Art. 40-42 + Anhang 3/4; GSchV Art. 41c +
     UebgBest. 4.5.2011; HWSchV ZH + **Nachfolgerecht WsG/WsV**; USG Art. 32e + VASA). **Jede Luecke deckte

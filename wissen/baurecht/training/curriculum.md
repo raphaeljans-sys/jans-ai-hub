@@ -71,7 +71,7 @@ Das Training arbeitet **nutzenorientiert**, nicht seitenlinear. Reihenfolge:
    *(Teil 1 distilliert 2026-06-11, Run 3, S. 995-1013: Abstandssystem §§ 260-274, Gebaeudearten,
    politische/Zonengrenzen, Waldabstand § 262 PBG, Gewaesserraum Art. 36a GSchG. Teil 2a distilliert
    2026-06-12, Run 4, S. 1014-1033: Uferstreifen-Messweise, dicht ueberbautes Gebiet Art. 41c GSchV,
-   Besitzstand/Brandstattrecht § 15m HWSchV, Gewaesserabstandslinien § 67 PBG, Hochwasser-Gefahren-
+   Besitzstand/Brandstattrecht § 15m HWSchV (aufgehoben 01.06.2026 → § 20 WsG), Gewaesserabstandslinien § 67 PBG, Hochwasser-Gefahren-
    bereiche, Baulinien-Arten § 96 PBG + subsidiaerer 6-m-Abstand § 51 Abs. 2 PBG. Destillat
    [[15-lage-von-gebaeuden]], neuer Wiki-Artikel [[baulinien-und-abstandslinien]]. Teil 2b distilliert
    2026-06-14, Run 5, S. 1034-1061: Baulinien-Rechtswirkungen §§ 99-101 PBG (Bauverbot, Vorspruenge
