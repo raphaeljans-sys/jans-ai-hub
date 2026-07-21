@@ -1,7 +1,7 @@
 ---
 title: Layer 2 — The Verifier (Verifikations-Hebel)
 status: established
-last_updated: 2026-07-19
+last_updated: 2026-07-21
 sources: [260616_marchese_the-spec_karpathy-method_transkript.md, bcherny_x_2007179861115511237]
 links: [[the-spec]], [[3-schritte-spec]], [[environment-jans-hub]], [[anwendung-jans]]
 ---
@@ -290,3 +290,13 @@ aussah. Die Registry zeigt aber Cron **Mo–Fr** mit `lastRunAt` = Fr 17.07. —
 und Sonntag, die Stille ist planmaessig. Ergaenzung zur Reue-Pruefungs-Disziplin (Lauf 14, «eine
 haelt-an-Diagnose hat ein Ablaufdatum»): **vor jeder Schweige-Diagnose den Fahrplan pruefen** — ein
 Monitor, der laut Plan gar nicht laufen sollte, schweigt nicht, er hat frei.
+
+**Reue-Bestaetigung (Lauf 24, 21.07.2026): das Flag selbst wurde nicht konsumiert.** Zwei Tage nach der
+Lauf-23-Eskalation ist das verhaltenssteuernde Artefakt unberuehrt: `ag-gruendung-monitor/SKILL.md` traegt
+weiter mtime **21.06.2026 14:49**, Schritt 1 sucht mail@ unveraendert «via M365/Outlook-Suche; falls
+verfuegbar zusaetzlich Apple Mail». Das schliesst den Kreis der Falsch-Signal-Familie an ihrem eigenen
+Ende: die Lauf-12-Lehre («ein Flag ist keine Reparatur») gilt auch fuer eine an einen **Menschen**
+gerichtete P1-Notiz — sie remediert nichts, solange der Adressat sie nicht konsumiert. Praktischer Nutzen
+der Disziplin hier: die Abnahme am Artefakt (mtime/Diff) statt am Meldetext hat verhindert, dass Lauf 24
+den Faden faelschlich als «eskaliert, also erledigt» abhakt. Weiter `logbuch`-Betrieb (ausserhalb Mandat)
+→ erneut geflaggt, nicht autonom geaendert.

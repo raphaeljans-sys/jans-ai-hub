@@ -1,7 +1,7 @@
 ---
 title: Anwendung der Spec-Methode im JANS AI Hub
 status: established
-last_updated: 2026-07-17
+last_updated: 2026-07-21
 sources: [260616_marchese_the-spec_karpathy-method_transkript.md]
 links: [[the-spec]], [[3-schritte-spec]], [[verifier]], [[environment-jans-hub]]
 ---
@@ -67,6 +67,21 @@ Ziel, Abgrenzung, Kriterien — bevor ich baue?"), statt blind loszulegen.
    wird — genau die «zuerst die Faktenbasis ziehen»-Vorgabe der Rule, hier vollstaendig ausgefuehrt.
    Das Format reift damit zu einem eigenen Zwischen-Artefakt `..._spec-interview.md` (Vorstufe der
    `..._spec.md`).
+   **Gemessene Trefferquote der Defaults (SYN-02, Vorbereitung 15.07. → Interview 20.07., Lauf 24):**
+   von neun vorbereiteten Default-Vorschlaegen hielten **sieben** bei der Bestaetigung, **zwei** wurden
+   ueberstimmt — und zwar genau die beiden **strategischen Geschaeftsmodell-Entscheide** (E2 Absatzkanal:
+   Vorschlag «Variantenstudie GM2 zuerst» → bestaetigt «Wettbewerbs-Fabrik GM3 zuerst»; E3
+   Automatisierungsgrad/Human-Gates: Vorschlag «drei Gates a/b/c» → bestaetigt «nur Gate c, Pipeline
+   laeuft autonom durch»). **Alle technischen Folgeentscheide** (E1/E4/E6/E7/E8/E9 — Tiefe, Ablage,
+   Kennwerte, MVP-Grenze) hielten. Lehre fuer die Vorbereitung: **fuer die technischen Folgefragen
+   ruhig einen festen Default setzen** (sie halten meist), die **strategischen Richtungsentscheide
+   (Kanal-Prioritaet, Automatisierungsgrad) bewusst offen lassen** — dort entscheidet der Mensch, und
+   ein Override dort **kaskadiert** oft auf spaetere Entscheide (E2-Override → E5 strenger: voller
+   `programm-pruefer` schon im MVP). Genau darum in der Vorbereitung die **Kopplungen mitflaggen** (die
+   SYN-02-Vorbereitung tat das korrekt: E5 war als «reicht das, oder willst Du den vollen
+   programm-pruefer?» an E2 gekoppelt notiert, weshalb der E2-Override sauber durchschlug). Das ist der
+   erste **gemessene** Beleg fuer die F2-Hypothese: die teure Recherche wandert vor das Interview, das
+   Live-Gespraech schrumpft auf **zwei echte Entscheidungen + sieben Bestaetigungen**.
 2. **Agil** — `TaskCreate`-Checkliste, enge Scopes, Checkpoints, Review je Block.
    Die Spec ist ein **lebendes Dokument**: kippt ein Schluesselentscheid spaeter, wird er
    im **Schluesselentscheide-Abschnitt selbst** korrigiert (nicht nur als Log-Zeile angehaengt)

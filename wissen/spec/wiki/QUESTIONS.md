@@ -182,6 +182,27 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     einer Wiederholung der Schweige-Regression aussah. Registry: Cron **Mo–Fr**, `lastRunAt` = Fr 17.07.
     — der 18./19.07. sind Wochenende, die Stille ist planmaessig. Ergaenzung zur Reue-Pruefungs-Disziplin:
     **vor jeder Schweige-Diagnose den Fahrplan pruefen**. → [[verifier]] (zweiter Befund derselben Sektion).
+  - Auswertung 21.07. (Lauf 24, gemessenes Vorbereitung→Interview-Delta): die **achte reale Spec**
+    (SYN-02, bestaetigt 20.07.) ist der erste Fall, in dem eine **Interview-Vorbereitung** (15.07.,
+    Deliverable-Typ aus Lauf 20) tatsaechlich zu einem gefuehrten Interview fuehrte — damit ist ihre
+    Trefferquote **messbar**: von neun Default-Vorschlaegen hielten **sieben**, **zwei** wurden
+    ueberstimmt (E2 GM2→GM3, E3 drei Gates→nur Gate c). Die zwei Overrides trafen genau die
+    **strategischen Geschaeftsmodell-Entscheide** (Kanal-Prioritaet, Automatisierungsgrad); **alle
+    technischen Folgeentscheide** hielten. Der E2-Override **kaskadierte** (→ E5 strenger: voller
+    `programm-pruefer` im MVP), was die Vorbereitung korrekt vorhergesehen hatte (E5 als an E2 gekoppelt
+    geflaggt). Konsequenz fuer die Interview-Laenge (Kern von F2): das Live-Gespraech schrumpfte auf
+    **2 echte Entscheidungen + 7 Bestaetigungen** — erster gemessener Beleg, dass die Vorbereitung die
+    teure Recherche vor das Interview zieht. Nachschaerfung in [[anwendung-jans]] Schritt 1: technische
+    Folgefragen mit festem Default, strategische Richtungsentscheide bewusst offen, Kopplungen mitflaggen.
+  - Reue-Check 21.07. (Lauf 24) zum Lauf-23-P1 (mail@-Blindstelle des `ag-gruendung-monitor`): der Fix
+    ist **nicht gelandet**. `~/.claude/scheduled-tasks/ag-gruendung-monitor/SKILL.md` traegt unveraendert
+    mtime **21.06.2026 14:49**; Schritt 1 sucht mail@ weiter «via M365/Outlook-Suche; falls verfuegbar
+    zusaetzlich Apple Mail». Zwei Tage nach der Eskalation (19.07.) ist das verhaltenssteuernde Artefakt
+    unberuehrt. Das ist die Lauf-12-Lehre («ein Flag ist keine Reparatur») **auf die Eskalation selbst
+    angewandt**: auch eine an einen Menschen gerichtete P1-Notiz remediert nichts, solange kein Prozess
+    (hier: Raphael) sie konsumiert. Bleibt `logbuch`-Betrieb ausserhalb KB-Mandat — erneut geflaggt, nicht
+    autonom geaendert; die Reue-Pruefungs-Disziplin (Abnahme am Artefakt, nicht am Meldetext) hat den
+    Schein-Abschluss verhindert.
 - F3: Welcher zweite Kritiker ist je Domaene der beste Verifier (korrektur vs. twin vs.
   /code-review vs. Connector)? Zuordnungstabelle aufbauen.
   - Erster Eintrag (Recht/Behoerde, belegt AG-Gruendung): die **autoritative Instanz**

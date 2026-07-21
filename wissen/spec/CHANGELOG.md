@@ -1,5 +1,31 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-21 — Trainingslauf 24
+- Output `outputs/2026-07-21_training-run24.md`. **Auswertungslauf** — neue reale Spec seit Lauf 23:
+  SYN-02 (bestaetigt 20.07., achte Anwendung), erster Fall mit real gefuehrtem Interview aus einer
+  Interview-Vorbereitung.
+- **Gemessenes Vorbereitung→Interview-Delta (F2, erster harter Beleg):** von neun Default-Vorschlaegen
+  der Vorbereitung (15.07.) hielten **7**, **2** wurden ueberstimmt — genau die strategischen
+  Geschaeftsmodell-Entscheide (E2 GM2→GM3, E3 drei Gates→nur Gate c); alle technischen Folgeentscheide
+  hielten. Der E2-Override kaskadierte auf E5 (voller `programm-pruefer` im MVP), von der Vorbereitung
+  korrekt als Kopplung vorhergesehen. Das Live-Interview schrumpfte auf **2 Entscheidungen + 7
+  Bestaetigungen** → belegt, dass die Vorbereitung die teure Recherche vor das Gespraech zieht.
+- **Reue-Check Lauf-23-P1 — Fix nicht gelandet:** `ag-gruendung-monitor/SKILL.md` unveraendert (mtime
+  21.06.2026 14:49), Schritt 1 sucht mail@ weiter ueber den Kanal ohne Delegate-Zugriff. Lauf-12-Lehre
+  («ein Flag ist keine Reparatur») **auf die Eskalation selbst angewandt** — auch eine P1-Notiz an einen
+  Menschen remediert nichts, solange sie nicht konsumiert wird. Abnahme am Artefakt (mtime) statt am
+  «eskaliert»-Vermerk verhinderte den Schein-Abschluss.
+- **Umgesetzt:** `wiki/anwendung-jans.md` Schritt 1 (Default-Trefferquote 7/9 + Regel «technische
+  Defaults fest, strategische offen, Kopplungen flaggen», `last_updated` → 07-21); `wiki/QUESTIONS.md`
+  F2 (SYN-02-Delta + P1-Reue-Check); `wiki/verifier.md` (Reue-Bestaetigung an Lauf-23-Sektion,
+  `last_updated` → 07-21).
+- **Bewusst nicht getan:** Task-Definition nicht selbst geaendert (`logbuch`-Betrieb ausserhalb Mandat,
+  erneut geflaggt); Gate-Rule unveraendert (kein Ueberdehnungs-Beleg); Verifier-Tabelle nicht gedoppelt
+  (Zeile «Entwurfsprozess» bereits 20.07. promoviert); kein Mailversand.
+- Offen: **P1 mail@-Umstellung** (2 Tage alt); SYN-02-MVP-Bau Block 1; F1-Ueberdehnungs-Gegentest
+  unbelegt; F3 Marketing/Text letzte offene Domaenenzeile; Sweep «behoben, aber nicht behoben» bei
+  anderen Hub-Monitoren.
+
 ## 2026-07-20 — SYN-02-Spec bestaetigt (achte reale Spec-Anwendung)
 - Interview E1–E9 auf Zuruf Raphaels («Spec SYN-02 starten») via AskUserQuestion gefuehrt;
   Spec abgelegt: `outputs/2026-07-20_syn-02-typologischer-entwurfsprozess_spec.md`.
