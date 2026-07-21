@@ -1,3 +1,27 @@
+## 2026-07-21 — Normen Run 17 (MacBook Pro, SIA/VKF): Vertiefung Stufe a verifiziert + Inventar bestaetigt komplett
+- **Inventar-Kontrolle:** 0 offene `[ ]`-Grunddestillations-Positionen in SIA/VKF (bestaetigt
+  Run 15/16/17); ein 30-40-Positionen-Batch ist gegenstandslos. Zugriffs-Check OK (Read auf
+  382/1-PDF, keine TCC-Blockade).
+- **Adversariale Verifikation der Run-17-Vertiefungen (Hauptmodell):** `sia-382-1-2014.md`
+  (Anh. A-G, 44 Aussagen, 2 Befunde korrigiert → **established vollstaendig**) und
+  `sia-384-201-2017.md` (vereinfachte Verfahren Kap. 7/8 + Uebereinstimmung Kap. 9 + Anh. A/B,
+  42 Aussagen, 3 Befunde korrigiert → teil-destillat, informative Anh. C-G offen).
+  Befunde: SIA 382/1 D.3.2 (2,5-Potenz P_V statt η_V), Fundstelle C.5; SIA 384/201 Tab. B.15
+  Baujahr-Grenze, Tab. 9/10 Ein-/Ausgangsgroesse, B.2.12 Druckdifferenz 4 Pa. Alle direkt korrigiert.
+- **`sia-384-201-2017.md` neu erweitert** (Kap. 7/8 Gl. 50-56, Aufheizleistung 6.3.4/Gl. 39,
+  Uebereinstimmungspruefung Kap. 9, Anh. A normativ + Anh. B informativ inkl. der kritischen
+  Abweichungswarnung Tab. B.13 EN gegen CH-Tab. NA.10). Frontmatter: gelesen S. 1-90, status
+  teil-destillat (C-G offen), last_updated 2026-07-21.
+- **Register/QUESTIONS nachgefuehrt:** `norm-inventar.md` beide SIA-Zeilen auf `[x] 260721`;
+  `wiki/QUESTIONS.md` «offene Anhaenge» auf `[~]` (382/1 erledigt, 384/201 nur C-G). Zwei
+  veraltete Eintraege am Bestand widerlegt und auf `[x]` gesetzt: VKF Verz 40-15 (laengst
+  vollstaendig) und VKF-BRL 15-15 (existiert als Destillat seit 260714).
+- **Empfehlung:** Task auf luecken-getriebenen, gedrosselten Takt umstellen (Rule 260714);
+  VOLLGAS-Absatz aus dem Auftragstext entfernen. Report `outputs/2026-07-21_normen-nacht-run17.md`.
+- **Commit:** NAS-`.git` beim Lauf durch nativen Synology-Selfcommit-Cron gesperrt (index.lock);
+  Git ueber SMB nicht erzwungen (Rule sync-kanonische-quelle) — Edits liegen auf ext4, der
+  native Cron sichert sie automatisch.
+
 ## 2026-07-21 — Normen Run 17: SIA 382/1:2014 Anhänge A-G nachdestilliert
 - `destillate/sia-382-1-2014.md`: Teil-Destillat (nur Hauptteil Kap. 0-8, S. 1-63) um die
   bisher offenen Anhänge A-G (S. 64-82) ergänzt — A (Raumbedarf Technikzentralen/Schächte/
