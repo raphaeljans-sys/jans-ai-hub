@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 21.07.2026 06:35:08
+Stand: 21.07.2026 07:05:31
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:21)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:04)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 21.07.2026 06:35:08
 - 5 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 014ee380 nas-selfcommit: 4 Datei(en) 2026-07-21 06:30
+- 45edeb85 Logbuch-Radar 21.07.: Register/Journal aktualisiert, Briefing versendet
