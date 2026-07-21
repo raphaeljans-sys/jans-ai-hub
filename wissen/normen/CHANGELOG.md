@@ -1,3 +1,11 @@
+## 2026-07-21 — Audit-Top-1 korrigiert: SIA-112-Fehlzuordnung 104/105 (Dauerschicht-Zyklus 39)
+- [korrigiert] `destillate/sia-112-2014.md` Z. 19: SIA 104 war als «Landschaftsarchitektur»,
+  SIA 105 als «Maschinen-/Elektroingenieur» gefuehrt — korrigiert auf **104 = Forstingenieure,
+  105 = Landschaftsarchitektur, 108 = Gebaeudetechnik/Maschinenbau/Elektrotechnik**, verifiziert
+  an den Titeln der drei etablierten Ordnungs-Destillate. Damit ist das Ausschreibungs-Risiko
+  (falsche Norm-Nummer bei Berufsgruppen-Zitat via `ausschreibung`/`werkvertrag`) beseitigt.
+  QUESTIONS-Punkt auf [x] mit Restvermerk (Original-Gegenlesung S. 4/10 bei Gelegenheit).
+
 ## 2026-07-21 — Mac Mini Nachtschicht: DIN 1946-6 ↔ SIA 382/1 Methodenvergleich (QUESTIONS geschlossen)
 - Neuer Wiki-Artikel `din-1946-6-sia-382-1-lueftungsauslegung-methodenvergleich.md`: schliesst
   den seit Run 5 (260713) offenen Punkt in `wiki/QUESTIONS.md`. Grundlage waren die zwei bereits

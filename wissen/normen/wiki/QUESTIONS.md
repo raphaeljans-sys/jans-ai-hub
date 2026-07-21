@@ -511,11 +511,14 @@ einzeln geprüft:
   werden laut Norm periodisch vom SIA publiziert, stehen aber nicht im PDF. Folge: **Honorar nach
   Baukosten ist nach SIA 103 derzeit nicht durchrechenbar.** Fuer SIA 102 liefert das neue Destillat
   `sia-honorar-hilfsmittel.md` die z-Werte 2015 — der SIA-103-Gegenpart fehlt.
-- [ ] **Widerspruch zwischen Destillaten (Neubefund der Synthese):** `sia-112-2014.md` ordnet
-  SIA 104 = «Landschaftsarchitektur» und SIA 105 = «Maschinen-/Elektroingenieur» zu. Das widerspricht
-  `sia-104-2003.md` (Forstingenieure), `sia-105-2020.md` (Landschaftsarchitekten) und
-  `sia-108-2014.md` (Gebaeudetechnik). Vermutlich OCR-Fehler (SIA-112-Quelle ist ein Scan ohne
-  Textlayer). Am Original SIA 112:2014 S. 4/S. 10 nachpruefen und korrigieren.
+- [x] **Widerspruch zwischen Destillaten — KORRIGIERT 21.07.2026 (Dauerschicht-Zyklus 39,
+  Audit-Top-1):** `sia-112-2014.md` Z. 19 ordnete SIA 104 = «Landschaftsarchitektur» und
+  SIA 105 = «Maschinen-/Elektroingenieur» zu; korrigiert auf 104 = Forstingenieure,
+  105 = Landschaftsarchitektur, 108 = Gebaeudetechnik/Maschinenbau/Elektrotechnik —
+  verifiziert an den drei etablierten Ordnungs-Destillaten (sia-104-2003, sia-105-2020,
+  sia-108-2014, je Titelseite der Original-PDFs). Restpunkt bleibt: bei Gelegenheit am
+  SIA-112-Original S. 4/S. 10 gegenlesen, ob der Scan dort tatsaechlich anders lautet
+  (vermuteter OCR-/Uebertragungsfehler des Erst-Destillats).
 - [ ] **Beherbergungs-Kategorien [a]/[b]/[c] der VKF sind nirgends definiert** — kritisch fuer die
   Healthcare-Projekte (Pflege/Spital laufen ueber diese Kategorien). Definition suchen (vermutlich
   VKF-BRL 10-15 Begriffe oder Brandschutznorm 1-15) und in die Destillate nachtragen.
