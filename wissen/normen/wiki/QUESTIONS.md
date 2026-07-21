@@ -125,10 +125,11 @@
 - [ ] **DIN EN 12101-2 im VKF-Ordner:** `VKF_Norm/02_Brandschutzrichtlinien 2015/DIN EN 12101-2.pdf`
   ist eine Dublette der bereits unter DIN destillierten `din-en-12101-2-2003.md` (Mac Mini) — beim
   Reconcile referenziert statt neu destilliert, keine Aktion nötig.
-- [ ] **VKF-Verzeichnis 40-15 (Weitere Bestimmungen) — Teil-Destillat.** Ziff. 3.7-3.9
-  (Pelletsfeuerungen/Flüssiggas-temporär/BFS) und das Abkürzungsverzeichnis (Kap. 4) fehlen im
-  Destillat `vkf-verz-40-15-weitere-bestimmungen.md` (21/ca. 22 Seiten gelesen); im nächsten
-  VKF-Lauf ergänzen. Notiert 13.07.2026 (Run 6).
+- [x] **VKF-Verzeichnis 40-15 (Weitere Bestimmungen) — ERLEDIGT, Bestandskontrolle Run 17 (260721):**
+  das Destillat `vkf-verz-40-15-weitere-bestimmungen.md` ist am Bestand als vollständig belegt
+  (Frontmatter `gelesen: S. 1-22 komplett (Titelblatt bis Ziffer 4 Abkürzungsverzeichnis, gesamtes
+  Dokument)`, status `established (verifiziert 260714, vollstaendig)`). Die 13.07. notierte Lücke
+  (Ziff. 3.7-3.9 + Abkürzungsverzeichnis) wurde zwischenzeitlich geschlossen; Notat war veraltet.
 - [ ] **Workflow-Tool blockiert Hintergrundläufe:** In diesem Scheduled-Task-Lauf (13.07.2026)
   verweigerte das Workflow-Orchestrierungstool die Ausführung mit „Review dynamic workflow
   before running" — vermutlich ein interaktives Freigabe-Gate, das in einem unbeaufsichtigten
@@ -325,8 +326,10 @@
   **SIA 282:2019** (SN 564282). Die Destillate behalten den PDF-abgeleiteten Dateinamen
   (`sia-592-056.md`, `sia-564-282.md`), INDEX/REGISTER weisen die echte Norm-Nr aus. Bei
   Bedarf später umbenennen (destruktiv → nur mit Bestätigung).
-- [ ] **Teil-Destillate mit offenen Anhängen (Vertiefung Stufe a):** SIA 196 (Anh. A1-A4),
-  SIA 382/1 (Anh. A-G), SIA 384/201 (Kap. 7-9 + Anh. A-I), SIA 2056/592 (Detailkataloge
+- [~] **Teil-Destillate mit offenen Anhängen (Vertiefung Stufe a) — Fortschritt Run 17 (260721):**
+  ~~SIA 382/1 (Anh. A-G)~~ **ERLEDIGT** (Anhänge A-G S.64-82 destilliert + adversarial verifiziert,
+  established VOLLSTÄNDIG). SIA 384/201: Kap. 7-9 + Anh. A/B **ERLEDIGT** (verifiziert); nur noch die
+  informativen **Anh. C-G** offen. Weiterhin offen: SIA 196 (Anh. A1-A4), SIA 2056/592 (Detailkataloge
   Kap. 3.2-3.9/4/6.3+), SIA 343.051 (informative Anh. D/E), SIA 405 (medienspez. Datenkataloge),
   SIA 193.111 (Anh. A-G). Normativer Kern jeweils established/verifiziert; Anhänge nachziehen.
 - [ ] **Fehlende verlinkte Destillate (Cross-Link-Lücke):** `sia-en-13200-1-2019.md` verweist
@@ -425,11 +428,11 @@ einzeln geprüft:
   Geländer/Absturzsicherung allgemein ab, nicht die Gerüstverankerungskräfte oder die
   Dachhaken-Bestückungsregel. Eine Suva-/EKAS-Quelle dazu ist in der KB nicht vorhanden und
   müsste separat beschafft werden (kein SharePoint-Fund im Normen-Inventar).
-- [ ] **VKF-BRL 15-15 (Brandschutzabstände Tragwerke/Brandabschnitte) noch nicht destilliert:**
-  das SZS-steeldoc-Heft (Abschnitt 12.1) zitiert BRL 15-15 als Primärquelle für die
-  Feuerwiderstands-Anforderungstabelle je Nutzung/Gebäudehöhe. Ohne dieses Destillat bleibt
-  die verbindliche Anforderungstabelle für Stahlbau-Brandschutz nicht direkt in der KB
-  abrufbar (nur über das SZS-Sekundärdokument).
+- [x] **VKF-BRL 15-15 (Brandschutzabstände Tragwerke/Brandabschnitte) — ERLEDIGT, Bestandskontrolle
+  Run 17 (260721):** das Destillat `vkf-brl-15-15-brandschutzabstaende-tragwerke.md` existiert
+  (destilliert 260714). Die Mini-Run-30-Notiz «noch nicht destilliert» war aus DIN/VSS/RAL-Sicht
+  (Mac Mini, kein VKF-Zugriff) verfasst und ist veraltet. Die Feuerwiderstands-Anforderungstabelle
+  je Nutzung/Gebäudehöhe ist damit direkt in der KB abrufbar, nicht nur über das SZS-Sekundärdokument.
 - [ ] **Keine Bestätigung/Recherche zu einer «2026 verschärften kantonalen Velo-Abstellpflicht»:**
   Abschnitt 6b der Synthese (Erschliessung/Velo) hält fest, dass kein geprüftes VSS-Destillat
   (Quellen 1983-2011 bzw. Merkblatt Stadt ZH 1996/1998) eine solche 2026er-Verschärfung

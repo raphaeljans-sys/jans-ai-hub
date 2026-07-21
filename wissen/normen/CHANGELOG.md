@@ -1,3 +1,16 @@
+## 2026-07-21 — Normen Run 17: SIA 382/1:2014 Anhänge A-G nachdestilliert
+- `destillate/sia-382-1-2014.md`: Teil-Destillat (nur Hauptteil Kap. 0-8, S. 1-63) um die
+  bisher offenen Anhänge A-G (S. 64-82) ergänzt — A (Raumbedarf Technikzentralen/Schächte/
+  Doppeldecken, Figur 10-15), B (Richtwerte Lebensdauer/Wartungsaufwand, Tab. 25), C (EER/EER+/
+  ESEER, Elektro-Thermo-Verstärkungsfaktor Rückkühlung), D (Volllaststunden-Formel Elektrizitäts-
+  bedarf Lüftung), E (Simulations-Randbedingungen sommerliche Übertemperatur), F (Übergabe/
+  Abnahme SIA 118, Toleranzen Tab. 27 — werkvertragsrelevant), G (Checklisten Planung/Betrieb).
+  Frontmatter aktualisiert: `gelesen` jetzt S. 1-82 komplett, `status` von teil-destillat auf
+  vollständig destilliert. JANS-Praxis-Transfer um Bezüge zu machbarkeit/volumenstudie
+  (Anhang A), werkvertrag/unternehmerkontrolle (Anhang F.4 Toleranzen), energie-berater
+  (Anhang C/D) und behoerden-vorabklaerung (Anhang E) erweitert. Keine neuen Widersprüche zum
+  bereits verifizierten Hauptteil; keine Ziffern erfunden, alle Werte mit Anhang-Fundstelle.
+
 ## 2026-07-20 — Wissens-Chef Run 10 (Cross-KB): VKF-BRL 20-15/19-15 an GVZ-Artikel angebunden
 - [link] `destillate/vkf-brl-20-15-brandmeldeanlagen.md` + `destillate/vkf-brl-19-15-sprinkleranlagen.md`:
   JANS-Praxis-Transfer präzisiert — der generische `auflagebereinigung`-Verweis zeigt jetzt auf den

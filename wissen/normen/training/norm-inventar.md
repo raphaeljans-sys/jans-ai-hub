@@ -122,9 +122,9 @@
 | [x] 260712 | P2 | `358_2010 Geländer und Brüstungen.pdf` | 358 | 2010 |  |
 | [x] 260713 | P2 | `370.028_2003_d.pdf` | 370 | 2003 | verifiziert established 260713 Run5 (bestanden); sia-370-028-2003.md |
 | [x] 260713 | P2 | `370.080_2003_d.pdf` | 370 | 2003 | established (Run5, SN EN 81-80:2003 Aufzuege-Nachruestung SNEL); sia-370-080-2003.md |
-| [x] 260713 | P2 | `382 1-2014.pdf` | 382 | 2014 | teil-destillat (Run5, Lueftung/Klima Kern S.1-63; beanst.-korr. Ziff.); sia-382-1-2014.md |
+| [x] 260721 | P2 | `382 1-2014.pdf` | 382 | 2014 | established VOLLSTAENDIG (Run 17, 260721: Anhaenge A-G S.64-82 ergaenzt + adversarial verifiziert, 44 Aussagen, 2 Befunde korrigiert [D.3.2 P_V/η_V, Fundstelle C.5]); Kern S.1-63 verifiziert Run5; sia-382-1-2014.md |
 | — | — | `384.201_2003_d.pdf` | 384 | 2003 | ersetzt durch 384/201:2017 (destilliert 260713 Run 7); Altausgabe uebersprungen |
-| [x] 260713 | P2 | `384.201_2017.pdf` | 384 | 2017 | teil-destillat (Run5, SN EN 12831-1:2017 Heizlast Kap.1-6; beanst.-korr. Gl.17); sia-384-201-2017.md |
+| [x] 260721 | P2 | `384.201_2017.pdf` | 384 | 2017 | teil-destillat (Run 17, 260721: vereinfachte Verfahren Kap.7/8 + Uebereinstimmung Kap.9 + Anh. A/B ergaenzt/verifiziert, 42 Aussagen, 3 Befunde korrigiert; informative Anh. C-G offen); Kern Kap.1-6+NA verifiziert Run5; sia-384-201-2017.md |
 | [x] 260714 | P2 | `400_2000_d.pdf` | 400 | 2000 | established (verifiziert 260714, 0 Fehler, Anhang C Normtext ergaenzt); sia-400-2000.md, Wettbewerbs-Layer — Linien/Schraffuren/Masse/CAD |
 | [x] 260713 | P2 | `405_1998_d.pdf` | 405 | 1998 | teil-destillat (Run5, Leitungskataster GIS, Kern verifiziert); sia-405-1998.md |
 | [x] 260713 | P2 | `414_1980_d.pdf` | 414 | 1980 | destilliert (sia-414-1980.md), Masstoleranzen im Bauwesen |
