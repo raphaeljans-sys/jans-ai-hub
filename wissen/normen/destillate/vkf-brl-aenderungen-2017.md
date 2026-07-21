@@ -7,6 +7,7 @@ gelesen: "S. 1-33 komplett (Text via pdftotext, Bild-Anhänge visuell verifizier
 datenstand: "2017 (Teilrevision), Aufbereitung 2026-07-13"
 status: established
 links: [[vkf-brandschutznorm-2015]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brl-verwendung-baustoffe]], [[vkf-brl-nachweisverfahren]], [[REGISTER]]
+last_updated: "2026-07-21"
 ---
 
 # VKF Teilrevision 2017 — Änderungsübersicht Brandschutzrichtlinien 2015 → 2017

@@ -434,7 +434,7 @@ und dient nur als Vergleichs-/Orientierungsmaterial.
 - **Ergänzung 260714 (Mini-Run 28, fehlte im Destillat): Objektdokumentation** als weitere
   Grundleistung LP9 (S. 45) — die systematische Zusammenstellung der zeichnerischen und
   rechnerischen Darstellungen und Ergebnisse des Objektes dient als Grundlage der
-  Gebäudeunterhaltung und späterer Maßnahmen, die am Objekt vorgenommen werden.
+  Gebäudeunterhaltung und späterer Massnahmen, die am Objekt vorgenommen werden.
 - Besondere Leistungen: Erstellen von Bestandsplänen (Ist-Zustand als Grundlage für Umbau-/
   Erweiterungs-/Reparaturarbeiten), Ausrüstungs-/Inventarverzeichnisse, Wartungs-/
   Pflegeanweisungen, Objektbeobachtung, Objektverwaltung, Baubegehung nach Übergabe,

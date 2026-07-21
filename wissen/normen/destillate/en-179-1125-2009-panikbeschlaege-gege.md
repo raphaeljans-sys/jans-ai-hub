@@ -7,6 +7,7 @@ gelesen: "S. 1-8 (komplett, 8 Seiten)"
 datenstand: "2009 (Katalogstand), PDF 2013"
 status: established
 links: [[REGISTER]]
+last_updated: "2026-07-21"
 ---
 
 # GEGE/Kaba «Beschläge und Schlösser für Notausgänge und Paniktüren» — Produktkatalog zu EN 179 / EN 1125

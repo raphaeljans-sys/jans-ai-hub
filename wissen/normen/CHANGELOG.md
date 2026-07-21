@@ -1,3 +1,14 @@
+## 2026-07-21 — Audit-F abgearbeitet: ss-Konvention + Pflichtfelder (Dauerschicht-Zyklus 41)
+- [korrigiert] **ss-Konvention hergestellt:** 118 ß-Vorkommen in 13 DIN-/VdS-Destillaten
+  (inkl. qa/) auf ss umgestellt (Rule umlaute-konvention, Schweizer Hochdeutsch).
+- [frontmatter] 4 Destillate um fehlende Pflichtfelder ergaenzt: sia-1001-2-2020
+  (+datenstand), en-179-1125-2009 / vkf-brl-aenderungen-2017 /
+  vkf-bsv2015-vernehmlassungsbericht (+last_updated).
+- Offen aus Audit F bleibt bewusst: das Feld ersetzt/ersetzt_durch fehlt in 127 Destillaten —
+  KEIN mechanischer Fix (braucht je Norm die Nachfolge-Recherche); gehoert dem normen-Loop
+  bzw. einem dedizierten Lauf. Ebenso offen: INDEX-Registrierung der 25 Destillate (Audit B,
+  naechster Zyklus-Kandidat).
+
 ## 2026-07-21 — Audit-B abgearbeitet: 21 tote Backlinks korrigiert (Dauerschicht-Zyklus 40)
 - [korrigiert] 21 tote `[[Link]]`-Vorkommen in 12+ Dateien aufgeloest (Audit-B des
   Health-Checks 20.07.): Jahres-Suffixe ergaenzt/berichtigt (sia-118→-1991, sia-112→-2014,

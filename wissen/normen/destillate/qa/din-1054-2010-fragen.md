@@ -21,9 +21,9 @@ Einstufung erfolgen?
 
 **Antwort:** GK 1 = geringer Schwierigkeitsgrad (einfache, überschaubare Baugrundverhältnisse,
 Grundwasser unter Sohle, setzungsunempfindliche Flachgründungen); GK 2 = mittlerer Schwierigkeitsgrad,
-erfordert ingenieurmäßige Bearbeitung und rechnerischen Nachweis; GK 3 = hoher Schwierigkeitsgrad,
+erfordert ingenieurmässige Bearbeitung und rechnerischen Nachweis; GK 3 = hoher Schwierigkeitsgrad,
 zusätzliche Untersuchungen und vertiefte geotechnische Kenntnisse nötig. Die Einstufung erfolgt VOR
-Beginn der geotechnischen Erkundung; maßgebend ist das Kriterium mit der höchsten Kategorie; die
+Beginn der geotechnischen Erkundung; massgebend ist das Kriterium mit der höchsten Kategorie; die
 Einstufung ist im Projektverlauf anhand der Untersuchungsergebnisse zu überprüfen und ggf. anzupassen.
 (Fundstelle: A 2.1.2.1 A (11), S. 16; A 2.1.2.2-2.1.2.4, S. 17-19.)
 **Abgleich Destillat:** deckungsgleich.
@@ -44,7 +44,7 @@ DIN EN 1998-5/NA erforderlich ist und Nachbarbauten/Verkehrswege/Leitungen nicht
 **Frage 3:** Welche vier Bemessungssituationen kennt DIN 1054, und wofür stehen sie?
 
 **Antwort:** BS-P (ständig/persistent) = übliche Nutzungsbedingungen; BS-T (vorübergehend/transient) =
-zeitlich begrenzte Zustände wie Bauzustände oder Baugrubenböschungen; BS-A (außergewöhnlich/accidental) =
+zeitlich begrenzte Zustände wie Bauzustände oder Baugrubenböschungen; BS-A (aussergewöhnlich/accidental) =
 Feuer, Explosion, Anprall, extremes Hochwasser, Ankerausfall; BS-E = Bemessungssituation bei Erdbeben.
 Bei Baugrubenkonstruktionen darf in besonderen, in EAB beschriebenen Situationen zusätzlich die
 Bemessungssituation BS-T mit abgeminderten Teilsicherheitsbeiwerten als "BS-T/A" eingeführt werden.
@@ -57,7 +57,7 @@ Bemessungssituation BS-T mit abgeminderten Teilsicherheitsbeiwerten als "BS-T/A"
 Grenzzustandsbedingung?
 
 **Antwort:** E_d = Σ E_d,j ≤ Σ R_d,j = R_d — die Bemessungswerte der Beanspruchungen müssen kleiner oder
-gleich den Bemessungswerten der Widerstände in den maßgebenden Schnitten sein.
+gleich den Bemessungswerten der Widerstände in den massgebenden Schnitten sein.
 (Fundstelle: Gleichung A (2.7e), S. 28.)
 **Abgleich Destillat:** deckungsgleich.
 
@@ -99,10 +99,10 @@ bisher bewährte (deutsche) Sicherheitsniveau beizubehalten.
 ---
 
 **Frage 8:** Welche Teilsicherheitsbeiwerte sind in der Bemessungssituation BS-E (Erdbeben) für
-Einwirkungen, Bodenkenngrößen und Widerstände anzusetzen?
+Einwirkungen, Bodenkenngrössen und Widerstände anzusetzen?
 
 **Antwort:** In der Bemessungssituation BS-E werden nach DIN EN 1990 KEINE Teilsicherheitsbeiwerte
-angesetzt — dies gilt einheitlich für alle drei Tabellen (Einwirkungen A 2.1, Bodenkenngrößen A 2.2,
+angesetzt — dies gilt einheitlich für alle drei Tabellen (Einwirkungen A 2.1, Bodenkenngrössen A 2.2,
 Widerstände A 2.3).
 (Fundstelle: Anmerkung 3 zu Tabelle A 2.1, S. 31; Anmerkung zu Tabelle A 2.2, S. 31; Anmerkung 3 zu
 Tabelle A 2.3, S. 32.)
@@ -112,13 +112,13 @@ Tabelle A 2.3, S. 32.)
 
 **Frage 9:** Wie hoch ist der Bemessungswert des Sohlwiderstands σ_R,d für ein Streifenfundament auf
 nichtbindigem Boden mit 1,00 m Einbindetiefe und 1,00 m Fundamentbreite — und welche Tabelle (Grundbruch
-oder Setzung) ist hier maßgebend?
+oder Setzung) ist hier massgebend?
 
 **Antwort:** Nach Tabelle A 6.1 (Grundbruchsicherheit) ergibt sich bei Einbindetiefe 1,00 m und
 b = 1,00 m ein Wert von 520 kN/m². Nach Tabelle A 6.2 (Setzungsbegrenzung) ergibt sich bei denselben
-Parametern ebenfalls 520 kN/m². Maßgebend ist grundsätzlich der KLEINERE Wert aus beiden Tabellen — bei
-b = 1,00 m sind beide Werte identisch, ab größeren Breiten (b > 1,50 m) wird jedoch Tabelle A 6.2
-(Setzung) zunehmend maßgebend, weil ihre Werte mit wachsender Breite wieder abnehmen, während Tabelle
+Parametern ebenfalls 520 kN/m². Massgebend ist grundsätzlich der KLEINERE Wert aus beiden Tabellen — bei
+b = 1,00 m sind beide Werte identisch, ab grösseren Breiten (b > 1,50 m) wird jedoch Tabelle A 6.2
+(Setzung) zunehmend massgebend, weil ihre Werte mit wachsender Breite wieder abnehmen, während Tabelle
 A 6.1 (Grundbruch) bis zum Plateau bei 800 kN/m² weiter ansteigt.
 (Fundstelle: Tabelle A 6.1, S. 49; Tabelle A 6.2, S. 50; A 6.10.2.1 A (1), S. 48-49.)
 **Abgleich Destillat:** deckungsgleich (beide Tabellenwerte korrekt zitiert).
@@ -130,7 +130,7 @@ Fundamenten bzw. bei nachgewiesener hoher Bodenfestigkeit erhöht werden?
 
 **Antwort:** Bei Rechteckfundamenten mit Seitenverhältnis b_B/b_L < 2 bzw. bei Kreisfundamenten darf der
 Wert um 20 % erhöht werden (bei den grundbruchbasierten Werten aus Tabelle A 6.1 nur, wenn die
-Einbindetiefe größer ist als 0,60·b). Bei nachgewiesener hoher Bodenfestigkeit (Tabelle A 6.4) darf der
+Einbindetiefe grösser ist als 0,60·b). Bei nachgewiesener hoher Bodenfestigkeit (Tabelle A 6.4) darf der
 Wert um bis zu 50 % erhöht werden — beide Erhöhungen dürfen gegebenenfalls addiert werden.
 (Fundstelle: A 6.10.2.2 A (1)-(3), S. 50-51.)
 **Abgleich Destillat:** deckungsgleich.
@@ -141,7 +141,7 @@ Wert um bis zu 50 % erhöht werden — beide Erhöhungen dürfen gegebenenfalls 
 reduziert werden, wenn der Grundwasserspiegel genau auf Höhe der Gründungssohle liegt?
 
 **Antwort:** Um 40 %. Liegt der Grundwasserspiegel höher als die Gründungssohle, aber der Abstand
-zwischen dem maßgebenden Grundwasserspiegel und der Gründungssohle kleiner als die maßgebende
+zwischen dem massgebenden Grundwasserspiegel und der Gründungssohle kleiner als die massgebende
 Fundamentbreite ist, darf zwischen dem um 40 % abgeminderten und dem nicht abgeminderten Wert
 geradlinig interpoliert werden.
 (Fundstelle: A 6.10.2.3 A (1)-(2), S. 51.)
@@ -203,7 +203,7 @@ erforderlich?
 allgemeine bauaufsichtliche Zulassung erforderlich. Ebenso ist bei Dauerankern der Korrosionsschutz des
 Ankerkopfes und der Verbund zwischen Stahlzugglied und Verpresskörper durch eine allgemeine
 bauaufsichtliche Zulassung nachzuweisen, und bei Verpressankern ist der Grenzzustand des Versagens
-infolge Verdrehung des Ankerkopfes/Verlust der Ankerkraft durch übermäßiges Nachgeben ebenfalls über
+infolge Verdrehung des Ankerkopfes/Verlust der Ankerkraft durch übermässiges Nachgeben ebenfalls über
 eine allgemeine bauaufsichtliche Zulassung nachzuweisen.
 (Fundstelle: A 8.1.1 (2c), S. 72; A 8.2 A (1a)-(1c), S. 73.)
 **Abgleich Destillat:** Lücke ergänzt — die zwingende Zulassungspflicht für Daueranker fehlte bisher
@@ -217,7 +217,7 @@ darf ausnahmsweise auf eine Eignungsprüfung verzichtet werden?
 **Antwort:** Die Eignungsprüfung (8.7) ermittelt VOR Baubeginn den charakteristischen Herausziehwiderstand
 an mindestens drei Ankern unter baugrundlich ungünstigsten Bedingungen (Regelfall bei Verpressankern und
 Schraubankern). Die Abnahmeprüfung (8.8) kontrolliert JEDEN einzelnen eingebauten Anker auf Einhaltung
-der Abnahmekriterien (Kriechmaß ≤ 2,0 mm bei Erreichen der Prüfkraft). Auf die Eignungsprüfung darf bei
+der Abnahmekriterien (Kriechmass ≤ 2,0 mm bei Erreichen der Prüfkraft). Auf die Eignungsprüfung darf bei
 Verpressankern, die als KURZZEITANKER zum Einsatz kommen, verzichtet werden, wenn Ergebnisse von
 Eignungsprüfungen mit demselben Ankersystem in vergleichbarem Baugrund und mit demselben
 Herstellungsverfahren bereits vorliegen.
@@ -239,7 +239,7 @@ belasten sind.
 
 ---
 
-**Frage 19:** Wie hoch sind die Teilsicherheitsbeiwerte γ_φ' und γ_c' für die geotechnischen Kenngrößen
+**Frage 19:** Wie hoch sind die Teilsicherheitsbeiwerte γ_φ' und γ_c' für die geotechnischen Kenngrössen
 (Reibungsbeiwert, Kohäsion) beim Nachweisverfahren GEO-3 in den drei Bemessungssituationen BS-P/BS-T/
 BS-A?
 
@@ -255,8 +255,8 @@ durchgehend γ = 1,00 (keine Abminderung der charakteristischen Scherfestigkeit)
 gegen Aufschwimmen (UPL), ohne dass zusätzlich ein hydraulischer Grundbruch nachgewiesen werden muss?
 
 **Antwort:** Bei homogenen, von unten nach oben durchströmten BINDIGEN Bodenschichten, bei denen ein
-Austrag von einzelnen Bodenpartikeln durch eine ausreichend große Kohäsion verhindert wird, ist nur ein
-Nachweis gegen Aufschwimmen erforderlich. Eine ausreichend große Kohäsion kann angenommen werden, wenn
+Austrag von einzelnen Bodenpartikeln durch eine ausreichend grosse Kohäsion verhindert wird, ist nur ein
+Nachweis gegen Aufschwimmen erforderlich. Eine ausreichend grosse Kohäsion kann angenommen werden, wenn
 mindestens steifer toniger bindiger Boden ansteht.
 (Fundstelle: A 10.1.1 A (2), S. 90.)
 **Abgleich Destillat:** deckungsgleich.

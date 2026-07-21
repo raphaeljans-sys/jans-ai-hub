@@ -7,6 +7,7 @@ gelesen: "Vollständig, S. 1–21 (Titelblatt + Kap. 1–4, Text-PDF vollständi
 datenstand: "2013 (Vernehmlassung), Inkrafttreten der revidierten BSV per 01.01.2015"
 status: established
 links: [[REGISTER]], [[vkf-brandschutznorm-2015]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brl-verwendung-baustoffe]], [[vkf-brl-nachweisverfahren]]
+last_updated: "2026-07-21"
 ---
 
 # VKF — Erläuternder Bericht für die Vernehmlassung: Gesamtrevision Schweizerische Brandschutzvorschriften (BSV 2015)
