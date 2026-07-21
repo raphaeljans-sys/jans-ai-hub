@@ -7,6 +7,21 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-21
 
+**Nachtschicht-Zyklus Mac Mini (~18:30) — kunde-bopp: viertes KMU-Mandat identifiziert (Feag Facility Engineering AG).**
+Doppelarbeit-Guard geprueft (dispatch/log/ 08:30 inhaltlich, CHANGELOGs der letzten 24h,
+remote-tasks/pending + sync-tasks/mac-mini leer). Prioritaeten 1–4 leer/erschoepft. Bei
+Prioritaet 5 (offene QUESTIONS.md) die von der MacBook-Kette am 20.07. selbst aufgeworfene,
+gut abgegrenzte Frage aus `kunde-bopp` genommen (KB ausserhalb der Arbeitsteilungs-Zuordnung
+beider Stationen, daher konfliktfrei): welches nicht namentlich genannte KMU Christoph Bopp
+laut Nova-Kurzbio seit 2004 zusaetzlich im Vorstand fuehrt. Read-only Web-Recherche
+(moneyhouse.ch Personensuche, northdata.com Handelsregister-Historie, business-monitor.ch)
+ergab **Feag Facility Engineering AG, Zuerich** (UID CHE-108.531.313) — Bopp-Familienbetrieb
+(Bauphysik/-akustik/Energie, Facility Management); Christoph Bopp seit Jan. 2003 im Vorstand,
+seit Maerz 2019 Praesident des Verwaltungsrats (Nachfolge Vater Walter Bopp). `wiki/profil-
+christoph-bopp.md` aktualisiert, QUESTIONS.md-Eintrag ins Archiv verschoben, Report
+`outputs/2026-07-21_drittes-kmu-mandat.md`, CHANGELOG nachgefuehrt. Kosten ca. 1.7 USD von
+5 USD Budget. Kein Versand, keine Buchung, keine Loeschung.
+
 **Dauerschicht-Zyklus 42 (MacBook Pro, ~15:50) — normen-Audit KOMPLETT abgearbeitet: 26 Destillate im INDEX nachregistriert.** Letzter mechanischer Punkt des Nacht-Audits: destillate/INDEX.md um die 26 vorhandenen, aber nie registrierten Destillate ergaenzt (Zeilen aus Titel/ausgabe/status generiert; Tabellen-Integritaet geprueft, 269 Zeilen). Damit ist der normen-Health-Check vom 20.07. vollstaendig umgesetzt: Top-1 SIA-112-Fehlzuordnung (Z. 39), 21 tote Backlinks (Z. 40), ss-Konvention + Pflichtfelder (Z. 41), INDEX-Registrierung (Z. 42). Offen bleiben nur nicht-mechanische Punkte (ersetzt/ersetzt_durch-Recherche, Bring-Schulden) — die gehoeren dem dedizierten normen-Loop. Kein Versand, additiv.
 
 **Dauerschicht-Zyklus 41 (MacBook Pro, ~14:45) — normen Audit-F: ss-Konvention und Pflichtfelder.** 118 ß-Vorkommen in 13 DIN-/VdS-Destillaten auf Schweizer ss umgestellt; 4 Destillate um fehlende Pflichtfelder ergaenzt (datenstand bzw. last_updated, quellengerecht abgeleitet). Bewusst NICHT mechanisch angefasst: das in 127 Destillaten fehlende Feld ersetzt/ersetzt_durch — das braucht je Norm eine Nachfolge-Recherche und gehoert dem dedizierten normen-Loop. Vom Nacht-Audit verbleibt damit nur die INDEX-Registrierung der 25 Destillate. CHANGELOG nachgefuehrt. Kein Versand, additiv.

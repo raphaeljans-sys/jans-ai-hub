@@ -1,8 +1,8 @@
 ---
 title: Profil Christoph Bopp
 status: emerging
-last_updated: 2026-07-20
-sources: [Apple-Mail-Archiv 25 Mails 2025-06 bis 2026-06, christoph.bopp@woma-maur.ch, christoph.bopp@novaproperty.ch, christoph.bopp@bluewin.ch, Zefix/Handelsregister ZH (woma-maur.ch/organisation.php, novaproperty.ch/en/team/christoph-bopp, zh.chregister.ch UID CHE-403.795.970), Stand 2026-07-20]
+last_updated: 2026-07-21
+sources: [Apple-Mail-Archiv 25 Mails 2025-06 bis 2026-06, christoph.bopp@woma-maur.ch, christoph.bopp@novaproperty.ch, christoph.bopp@bluewin.ch, Zefix/Handelsregister ZH (woma-maur.ch/organisation.php, novaproperty.ch/en/team/christoph-bopp, zh.chregister.ch UID CHE-403.795.970), moneyhouse.ch Personensuche, northdata.com Feag Facility Engineering AG UID CHE-108.531.313, Stand 2026-07-21]
 links: [[auftrags-muster-bopp]], [[zusammenarbeit-lessons-bopp]]
 ---
 
@@ -20,9 +20,12 @@ verschiedenen Rollen/Eigentümerschaften auf — bei jedem Projekt klären, in w
 **Qualifikation (Quelle novaproperty.ch/team):** dipl. Bauingenieur FH, Immobilienschätzer
 CAS SIV, eidg. Zimmermann-Fähigkeitszeugnis.
 
-**Weiteres Mandat (Lead, noch nicht identifiziert):** laut Nova-Kurzbio zusätzlich seit 2004
-im Vorstand/Verwaltungsrat eines nicht namentlich genannten KMU — welches Vehikel das ist,
-ist offen (siehe [[QUESTIONS]]).
+**Viertes Mandat, verifiziert 2026-07-21:** Familienunternehmen **Feag Facility Engineering AG**,
+Zürich (UID CHE-108.531.313) — Ingenieurdienstleistungen Bauphysik/-akustik/Energie sowie
+Facility Management. Christoph Bopp seit Jan. 2003 im Vorstand (Wiedereintritt Juli 2010 nach
+kurzem Unterbruch), seit März 2019 **Präsident des Verwaltungsrats** (Nachfolge Vater Walter
+Bopp). Mathias Bopp (Vorstand seit 2004) und André Schindler (VR/Geschäftsführer seit 2021)
+als weitere Organe. Quelle: `outputs/2026-07-21_drittes-kmu-mandat.md`.
 
 - **Natel:** 079 405 65 75 (von ihm selbst in Mail 2026-06-03 geteilt).
 - **Ansprache:** Du-Form, Vorname ("Lieber Raphael" / Anrede "Christoph"). Persönliches,

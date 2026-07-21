@@ -11,18 +11,20 @@
   (Pauschale CHF 1'000). Ergebnis-Memo nach `outputs/` und hierher zurueckspeisen.
 
 ## Offene Faktenfragen
-- **NEU (aus Recherche 2026-07-20):** Welches KMU ist das dritte Vehikel? Laut Nova-Kurzbio
-  ist Christoph seit 2004 zusaetzlich im Vorstand/Verwaltungsrat eines nicht namentlich
-  genannten KMU (neben WOMA seit 2013 und Nova seit 2021) — noch nicht identifiziert, keine
-  vierte Absenderadresse bekannt. Bei naechster Gelegenheit direkt erfragen oder gezielt
-  nachrecherchieren (Zefix-Personensuche "Bopp Christoph").
-- Standard-Rechnungsadresse / Korrespondenzweg je Rolle (woma vs. nova vs. privat).
+- Standard-Rechnungsadresse / Korrespondenzweg je Rolle (woma vs. nova vs. privat vs. Feag).
 
 ## Prozess
 - Sobald ein Bopp-Auftrag erledigt ist: Output nach `outputs/`, Profil/Projektartikel
   aktualisieren, CHANGELOG-Eintrag (Compounding-Loop).
 
 ## Beantwortet (Archiv)
+- **Drittes/viertes KMU-Vehikel** — beantwortet 2026-07-21: **Feag Facility Engineering AG**,
+  Zürich (UID CHE-108.531.313), Familienunternehmen (Bauphysik/-akustik/Energie, Facility
+  Management). Christoph Bopp seit Jan. 2003 im Vorstand (Wiedereintritt Juli 2010), seit
+  März 2019 Präsident des Verwaltungsrats (Nachfolge Vater Walter Bopp). Quellen:
+  moneyhouse.ch Personensuche, northdata.com Vorstands-Historie, business-monitor.ch
+  aktuelle Organe. Details in [[profil-christoph-bopp]], Report
+  `outputs/2026-07-21_drittes-kmu-mandat.md`.
 - **Exakte Firmenrollen (Handelsregister/Zefix)** — beantwortet 2026-07-20: WOMA Maur ist
   eine **Genossenschaft** (nicht AG), UID CHE-103.976.168, Sitz Binz; Christoph ist seit 2013
   Vorstandsmitglied, Ressort «Liegenschaften» + Vizepraesident. Nova Property Fund Management AG,

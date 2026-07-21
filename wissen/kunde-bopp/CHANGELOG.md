@@ -2,6 +2,16 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-21 — Viertes Mandat identifiziert (Mac Mini Nachtschicht)
+- Offene Faktenfrage aus QUESTIONS.md (2026-07-20, "drittes KMU-Vehikel") beantwortet:
+  **Feag Facility Engineering AG**, Zuerich (UID CHE-108.531.313) — Bopp-Familienunternehmen
+  (Bauphysik/-akustik/Energie, Facility Management). Christoph Bopp seit Jan. 2003 im
+  Vorstand, seit Maerz 2019 Praesident des Verwaltungsrats (Nachfolge Vater Walter Bopp).
+  Read-only Web-Recherche (moneyhouse.ch Personensuche, northdata.com Vorstands-Historie,
+  business-monitor.ch aktuelle Organe).
+- `wiki/profil-christoph-bopp.md` aktualisiert (neues Mandat, sources/last_updated).
+- Report: `outputs/2026-07-21_drittes-kmu-mandat.md`.
+
 ## 2026-07-20 — Firmenrollen verifiziert (Mac Mini Nachtschicht)
 - Offene Faktenfrage aus QUESTIONS.md beantwortet: exakte Rollen bei WOMA Maur und Nova
   Property via oeffentliche Register/Webseiten verifiziert (kein Mail-Archiv noetig).
