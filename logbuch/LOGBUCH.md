@@ -7,6 +7,38 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-21
 
+**Nachtschicht-Zyklus Mac Mini (~20:30) — entwurfs-referenzen: INDEX/QUESTIONS fuer eingetroffenes Schulhaus-Set nachgezogen.**
+Doppelarbeit-Guard geprueft (dispatch/log/ 19:30/18:30 inhaltlich, CHANGELOGs der letzten 24h,
+remote-tasks/pending + sync-tasks/mac-mini leer). Prioritaeten 1–4 weiterhin leer/erschoepft;
+Prioritaet 4 (Training) zusaetzlich noch ausserhalb des Nachtfensters (22:00–06:00). Bei
+Prioritaet 5 (offene QUESTIONS.md) alle KBs durchgesehen: einzig `entwurfs-referenzen` hatte
+einen offenen, aber bereits faktisch geloesten Punkt — das Parameter-Set
+`schule-volksschule-ch.json` (Zulauf aus wettbewerbs-dna B5/B6+B4, schema-valide,
+refuter-BESTANDEN) war laut CHANGELOG vom selben Tag schon eingetroffen, aber `wiki/INDEX.md`
+listete es noch als «Angekündigt» und `wiki/QUESTIONS.md` fuehrte den Koordinationspunkt noch
+als offen. Beides nachgezogen: INDEX-Zeile auf denselben Stil wie die anderen zwei
+Parameter-Sets umgestellt, QUESTIONS-Punkt auf [x] gesetzt, Schema erneut mit `validate.py`
+gegen das Set geprueft (OK), CHANGELOG-Eintrag ergaenzt. Kosten dieses Zyklus ca. 1 USD von
+5 USD Budget. Kein Versand, keine Buchung, keine Loeschung.
+
+**Nachtschicht-Zyklus Mac Mini (~19:30) — normen: DIN-277-1-Leseproblem aus Mini-Run 33 root-caused, kein Datenverlust.**
+Doppelarbeit-Guard geprueft (dispatch/log/ 19:30/18:30 inhaltlich, CHANGELOGs der letzten 24h,
+remote-tasks/pending + sync-tasks/mac-mini leer). Prioritaeten 1–4 weiterhin leer/erschoepft
+(Synobsis 853/853 gesaettigt, Fristen-Radar stundenaktuell, alle Mac-Mini-Kern-KBs bereits
+trainiert). QUESTIONS.md-Recherche (Prioritaet 5) auf `energie`/`planungsgrundlagen` ergab nur
+Punkte, die einen Entscheid Raphaels oder reale Projektdaten brauchen (E103 Pflegeplatz-
+Kennwert, D9 MFH-ZEV-Fall, E84 ZH-Solarpflicht-Beratungsstand bewusst pausiert) — nicht
+nachtschicht-tauglich. Stattdessen die in `normen`/QUESTIONS.md offene Mac-Mini-Lese-Huerde
+`DIN 277-1.pdf` (Mini-Run 33, 20.07.) aufgegriffen: direkter `cat`-Test reproduziert
+`EDEADLK`/"Resource deadlock avoided", `du -h` zeigt 0 B (nicht materialisierter Cloud-
+Platzhalter), waehrend eine Vergleichsdatei im selben Ordner (6,4 MB) einwandfrei liest und
+OneDrive-Sync selbst gesund ist (`brctl status` foreground/caught-up). Damit isoliert: rein
+lokaler File-Provider-Cache-Fehler dieser einen Datei auf dem Mac Mini, kein Datenverlust in
+der SharePoint-Ablage. Kein automatischer Fix ausgefuehrt (App-Neustart ist keine Whitelist-
+Aktion); manuelle Behebung fuer Raphael dokumentiert. `wiki/QUESTIONS.md` (2 Punkte auf [x]),
+CHANGELOG nachgefuehrt. Kosten ca. 2.4 USD von 5 USD Budget. Kein Versand, keine Buchung,
+keine Loeschung, keine App neu gestartet.
+
 **Nachtschicht-Zyklus Mac Mini (~18:30) — kunde-bopp: viertes KMU-Mandat identifiziert (Feag Facility Engineering AG).**
 Doppelarbeit-Guard geprueft (dispatch/log/ 08:30 inhaltlich, CHANGELOGs der letzten 24h,
 remote-tasks/pending + sync-tasks/mac-mini leer). Prioritaeten 1–4 leer/erschoepft. Bei

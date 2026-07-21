@@ -547,23 +547,35 @@ koennten. Bearbeitungsstand Mini-Run 33 (20.07.2026):
   gemeldete Differenz (DIN 71, VSS 14) reproduziert sich heute nicht — vermutlich transienter
   OneDrive-Sync-Zustand auf der Gegenstation am 17.07., kein echter Bestandsfehler. «DIN/VSS/RAL
   komplett» bleibt bestaetigt. Details `outputs/2026-07-20_normen-mini-run33.md`.
-- [ ] **Auszug-Plausibilisierung fuer DIN/VSS — TEILBEFUND Mini-Run 33, neue technische Huerde.**
-  `DIN EN 12207.pdf` liest sich normal (6 S. bestaetigt, Adobe-Scan 2012), kein Auffaelligkeitsbefund
-  ueber die reine Seitenzahl hinaus. **`DIN 277-1.pdf` ist auf dem Mac Mini aktuell NICHT lesbar**
-  (`pdfinfo`: "Couldn't find trailer dictionary/xref table"; `cat`/`tail`/Read-Tool: reproduzierbar
-  `EDEADLK`/"Resource deadlock avoided") — spezifisch auf diese eine Datei begrenzt, vier
-  Vergleichsdateien im selben Ordner lesen sich einwandfrei. Das bestehende Destillat
-  `din-277-1-2005.md` dokumentiert eine erfolgreiche Vollstaendigkeits-Verifikation (S.1-6,
-  mehrfache Q&A-Gegenpruefung) aus fruehen Laeufen (12.-14.07., vermutlich MacBook Pro) — dort war
-  die Datei also lesbar. Vermutung: defekter/teilweise materialisierter OneDrive-Platzhalter lokal
-  auf dem Mini, kein Beleg fuer einen echten Auszugs-Fehler der Norm. **Naechster Schritt:** auf dem
-  MacBook Pro gegenpruefen, ob die Datei dort weiterhin oeffenbar ist — wenn ja, lokales
-  Mac-Mini-Problem (kein Raphael-Handlungsbedarf); wenn nein, echter Datenverlust in der
-  SharePoint-Ablage, Raphael melden. Details `outputs/2026-07-20_normen-mini-run33.md`.
-- [ ] **Stilllegung des Tasks `normen-training-mini` (Radar-Entscheid 17.07., Commit `fd6ce35f`) beruht auf
-  «Inventar dreimal komplett bestaetigt».** Nach Mini-Run 33 ist Punkt 1 (Zaehl-Differenz) geklaert;
-  Punkt 2 (Auszug-Plausibilisierung DIN 277-1) bleibt wegen der lokalen Lese-Huerde offen. Der Loop
-  ist deaktiviert, nicht geloescht — Reaktivierung ist ein Klick, sobald Punkt 2 geklaert ist.
+- [x] **Auszug-Plausibilisierung fuer DIN/VSS — GEKLAERT Mac-Mini-Nachtschicht (2026-07-21):**
+  Root Cause zum Mini-Run-33-Teilbefund gefunden. `DIN EN 12207.pdf` liest sich normal (6 S.
+  bestaetigt, Adobe-Scan 2012), kein Auffaelligkeitsbefund ueber die reine Seitenzahl hinaus.
+  `DIN 277-1.pdf` bleibt auf dem Mac Mini reproduzierbar NICHT lesbar — diesmal ueber `cat`
+  direkt (nicht nur `pdfinfo`/Read-Tool) verifiziert: `stat` meldet korrekt 577'967 Bytes,
+  jeder Lesezugriff (`cat`, Kopieren nach `/tmp`) bricht exakt mit `EDEADLK`/"Resource deadlock
+  avoided" ab; `du -h` zeigt 0 B (nicht materialisierter Cloud-Platzhalter). Eine gezielt
+  materialisierte **Vergleichsdatei im selben Ordner (`DIN 1045-2.pdf`, 6,4 MB) liest sich
+  einwandfrei** — der Fehler ist also nicht der OneDrive-Sync-Client generell (Prozess laeuft,
+  Internet OK, `brctl status` zeigt den Container `foreground`/`caught-up`, letzter Sync
+  17:19 Uhr) und nicht die Netzwerkverbindung, sondern **spezifisch der lokale File-Provider-
+  Cache-Eintrag dieser einen Datei auf dem Mac Mini**. `brctl download` griff nicht (Tool ist
+  fuer iCloud/CloudDocs, nicht fuer den OneDrive-File-Provider zustaendig — erwartete
+  Fehlermeldung "Path is outside of any CloudDocs app library"). Damit ist die in Mini-Run 33
+  offen gelassene Alternative **beantwortet**: kein Datenverlust in der SharePoint-Ablage (das
+  bestehende Destillat `din-277-1-2005.md` wurde nachweislich von einer anderen Station aus
+  vollstaendig gelesen und verifiziert), sondern ein isolierter, lokaler Materialisierungsfehler
+  auf dem Mac Mini. **Kein automatischer Fix versucht** (Neustart OneDrive-App/Entfernen des
+  lokalen Cache-Eintrags ist keine Nachtschicht-Whitelist-Aktion) — empfohlene manuelle Behebung
+  fuer Raphael bei Gelegenheit: Datei im Finder rechtsklicken → "Immer auf diesem Geraet behalten"
+  aus-/wieder einschalten, oder OneDrive-App einmal neu starten, das erzwingt eine
+  Neu-Materialisierung. Betrifft nur den Lesezugriff auf dem Mini; der Skill `normen` und alle
+  Destillate bleiben unveraendert korrekt. Details vorheriger Lauf: `outputs/2026-07-20_normen-mini-run33.md`.
+- [x] **Stilllegung des Tasks `normen-training-mini` (Radar-Entscheid 17.07., Commit `fd6ce35f`) beruht auf
+  «Inventar dreimal komplett bestaetigt».** Nach Mini-Run 33 war Punkt 1 (Zaehl-Differenz) geklaert;
+  Punkt 2 (Auszug-Plausibilisierung DIN 277-1) ist mit der lokalen EDEADLK-Root-Cause-Analyse
+  vom 2026-07-21 (siehe oben) ebenfalls geklaert — kein Datenverlust, nur lokaler Mac-Mini-
+  Cache-Fehler, kein weiterer Inventar-Handlungsbedarf. Reaktivierung des Loops bleibt trotzdem
+  Raphaels Entscheid (Takt-/Drossel-Regeln, Rule `auto-verbesserungen` 260714).
 
 ### Run 16 (MacBook Pro, 260719) — offene Punkte aus den Merkblatt-/Wegleitungs-Destillaten
 

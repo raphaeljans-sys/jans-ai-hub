@@ -1,5 +1,14 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-07-21 (2. Eintrag, Nachtschicht-Zyklus Mac Mini ~20:30 — INDEX/QUESTIONS nachgezogen)
+- [index] `wiki/INDEX.md` Zeile Schulhaus-Set war noch als «Angekündigt aus wettbewerbs-dna B5»
+  formuliert, obwohl das Set laut Eintrag weiter unten (selber Tag) bereits eingetroffen,
+  schema-valide und refuter-BESTANDEN ist. Auf denselben Eintrags-Stil wie die anderen beiden
+  Parameter-Sets umgestellt (Datei-Link + Kurzbeleg).
+- [questions] `wiki/QUESTIONS.md`: Koordinationspunkt «Namens-Abstimmung Schulhaus-Set» auf
+  [x] erledigt gesetzt (war durch den Zulauf bereits faktisch geloest, aber nicht abgehakt).
+  Erneut per `validate.py` gegen das Schema geprueft: OK.
+
 ## 2026-07-21 (Zulauf aus wettbewerbs-dna B5 — Schulhaus-Set eingetroffen)
 - [parameter-set] `wiki/parameter-sets/schule-volksschule-ch.json` NEU eingetroffen aus dem
   Task `wettbewerbs-dna-training` (Etappe 3, Baustein B5). Abgeleitet ausschliesslich aus den

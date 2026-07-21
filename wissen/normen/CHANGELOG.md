@@ -1,3 +1,19 @@
+## 2026-07-21 — DIN-277-1-Leseproblem (Mini-Run 33) root-caused: lokaler File-Provider-Fehler, kein Datenverlust (Mac-Mini-Nachtschicht 19:30)
+- [geklaert] `wiki/QUESTIONS.md`: die in Mini-Run 33 (20.07.) offen gelassene Frage "ist die
+  SharePoint-Datei `DIN 277-1.pdf` beschaedigt oder nur lokal auf dem Mac Mini nicht lesbar?"
+  beantwortet. Direkter `cat`-Test (nicht nur `pdfinfo`/Read-Tool) reproduziert zuverlaessig
+  `EDEADLK`/"Resource deadlock avoided"; `stat` meldet korrekt 577'967 Bytes, `du -h` zeigt
+  0 B (nicht materialisierter Cloud-Platzhalter). Eine Vergleichsdatei im selben Ordner
+  (`DIN 1045-2.pdf`, 6,4 MB) materialisiert und liest sich einwandfrei — OneDrive-Sync-Client
+  selbst ist gesund (Prozess laeuft, `brctl status` zeigt `foreground`/`caught-up`, Internet OK).
+  Damit isoliert: **nur der lokale File-Provider-Cache-Eintrag dieser einen Datei auf dem Mac
+  Mini ist betroffen**, kein Datenverlust in der SharePoint-Ablage (das Destillat
+  `din-277-1-2005.md` wurde nachweislich von einer anderen Station vollstaendig verifiziert).
+  Kein automatischer Fix ausgefuehrt (App-Neustart/Cache-Eingriff ist keine Whitelist-Aktion);
+  empfohlene manuelle Behebung fuer Raphael dokumentiert (Finder: "Immer auf diesem Geraet
+  behalten" toggeln, oder OneDrive-App neu starten). Zwei QUESTIONS-Punkte auf [x] gesetzt
+  (Auszug-Plausibilisierung DIN/VSS + Stilllegungs-Bedingung `normen-training-mini`).
+
 ## 2026-07-21 — Audit-B-Rest abgearbeitet: 26 Destillate im INDEX nachregistriert (Dauerschicht-Zyklus 42)
 - [index] destillate/INDEX.md um 26 vorhandene, bisher nicht registrierte Destillate ergaenzt
   (Zeilen automatisch aus Titel/ausgabe/status-Frontmatter generiert): u.a. SIA 108/121/125/

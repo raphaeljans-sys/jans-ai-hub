@@ -1,12 +1,12 @@
 # Offene Fragen — Entwurfs-Referenzen
 
-## Koordination mit Nachbar-KBs (neu 20.07.2026, Erst-Audit)
-- [ ] **Namens-Abstimmung Schulhaus-Set:** wettbewerbs-dna B5 liefert
-  `schule-volksschule-ch.json` (aus Benchmark [[kennwerte-schulbauten]] der KB
-  wettbewerbs-dna, established); die Planungsliste hier hiess `bildung-schulhaus.json`.
-  Vorschlag: B5-Name übernehmen, Naming-Konvention `<nutzung>-<subtyp>-<kontext>` bleibt
-  gewahrt (`schule-volksschule-ch`). Beim Eintreffen: gegen
-  `parameter-schema/entwurfs-parameter.schema.json` validieren (validate.py).
+## Koordination mit Nachbar-KBs — ERLEDIGT (geschlossen 21.07.2026)
+- [x] **Namens-Abstimmung Schulhaus-Set:** `schule-volksschule-ch.json` ist aus
+  wettbewerbs-dna B5/B6 (`kennwerte-schulbauten`, established) + B4
+  (`jury-argumente-schulbauten`) eingetroffen, gegen `parameter-schema/entwurfs-parameter.schema.json`
+  validiert (validate.py: OK) und durch einen unabhaengigen Refuter-Agenten bestanden
+  (CHANGELOG 21.07.2026). Haupt-INDEX (`wiki/INDEX.md`) war noch auf «angekündigt» stehen
+  geblieben — am 21.07.2026 (Nachtschicht-Zyklus Mac Mini) nachgezogen.
 
 ## Seed-Import — ÜBERHOLT (geklärt 20.07.2026, Erst-Audit)
 Die drei ursprünglichen Seed-Fragen sind durch die KB `architekten-synobsis` beantwortet:

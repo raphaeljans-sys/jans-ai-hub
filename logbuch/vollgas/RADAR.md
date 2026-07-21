@@ -21,6 +21,35 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-21 18:48 — [GEDROSSELT] Abendbetrieb ruhig, Login-Probe jetzt belastbar (perl-alarm)
+
+**Fensterzustand:** Die Login-Probe laeuft erstmals wieder sauber durch — der P3-Vorschlag vom
+12:47-Eintrag ist umgesetzt: statt des auf macOS fehlenden `timeout` nun `perl -e 'alarm 90; exec
+@ARGV' -- claude -p …`. Ergebnis: kein «Not logged in», kein Usage-/Rate-Limit-Fehler (rc=0). Der
+CLI meldet lediglich Trust-Dialog-Hinweise fuers `/Volumes`-Verzeichnis (unkritisch, betrifft nur
+die Permission-Uebernahme, nicht den Login). Damit ist der fruehere [LOGIN]-Verdacht nicht mehr
+belegbar; im Drossel-Regime bleibt der Fensterzustand ohnehin nachrangig, der Runner ruht so oder so.
+
+**Durchsatz Tagesfenster (bis 18:48):** ruhig und regelkonform. 25 Commits in den letzten 6 h,
+in den letzten 90 Min ausschliesslich `nas-selfcommit` im 15-Minuten-Takt — kein KB-Training. Das
+ist das gewuenschte Bild: die Lern-/Trainings-Loops liegen im Nachtfenster 22:00–06:00 (Regel
+260711), das jetzt (18:48) noch nicht erreicht ist; tagsueber ruht die Flotte bewusst.
+
+**Runner/STOP:** unveraendert. `STOP` + `STOP-Macmini` vom 14.07. 12:53 stehen (Grund: Drosselung
+auf Anweisung Raphaels, «Wiederanlauf nur auf ausdrueckliche Anweisung»). Kein loeschbarer Login-/
+Limit-Grund — nicht angetastet. Runner-Logs enden erwartungsgemaess am 14.07. 12:40.
+
+**Mail:** keine. Kein neuer/geloester P1; der Login-Verdacht loest sich zudem als Mess-Artefakt auf.
+
+**Vorschlaege:**
+- P1: keiner.
+- P2: Weiter offen der Entscheid Raphaels zum Drossel-Regime (naechster Wochen-Reset Mo 11:59).
+  Bis dahin Status quo, Radar bleibt Schoner.
+- P3: Login-Probe-Fix (perl-alarm) als erledigt vermerkt. Verbleibend die No-op-Flags aus dem
+  06:49-Eintrag (`synobsis` saturiert, `immobewertung` Delta-Null) zur Frequenzsenkung im Nachtfenster.
+
+---
+
 ## 2026-07-21 12:47 — [GEDROSSELT] Ruhiger Tagesbetrieb wie erwartet, Runner unangetastet
 
 **Fensterzustand:** Diesmal keine belastbare Login-Probe — das aufgerufene `timeout` fehlt auf
