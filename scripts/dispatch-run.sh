@@ -69,6 +69,18 @@ fi
 # Homebrew/Node-/lokale Bin-Pfade voranstellen, damit claude UND node gefunden werden.
 export PATH="/opt/homebrew/bin:/usr/local/bin:$HOME/.local/bin:$HOME/.bun/bin:$HOME/.claude/local:$PATH"
 
+# --- Locale abhaerten --------------------------------------------------------
+# launchd/Cowork-Prozesse laufen ohne interaktives Login-Profil in der POSIX-
+# "C"-Locale (LANG leer, LC_CTYPE=C) statt der Terminal-UTF-8-Locale. Befund
+# Nachtschicht 21.07.2026: wissenscheck-Audits fanden in drei ueber launchd
+# trainierten KBs (energie, planungsgrundlagen, architekten-synobsis) am selben
+# Abend flaechendeckend ae/oe/ue-Ersatzschreibungen statt echter Umlaute (Rule
+# umlaute-konvention.md) — Symptom einer ASCII-Locale-Umgebung, nicht einzelner
+# Schreibfehler. UTF-8-Locale erzwingen, damit die Laufumgebung von launchd/Cowork
+# der einer interaktiven Terminal-Session entspricht.
+export LANG="de_CH.UTF-8"
+export LC_ALL="de_CH.UTF-8"
+
 # --- Auftrag einlesen (Argumente ODER stdin) --------------------------------
 if [ "$#" -gt 0 ]; then
     TASK="$*"

@@ -7,6 +7,26 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-21
 
+**Nachtschicht-Zyklus Mac Mini (~06:30) — Root-Cause des Umlaut-Befunds gefunden + Infra-Fix.**
+Doppelarbeit-Guard geprueft (dispatch/log/ inhaltlich): alle vorrangigeren Prioritaeten leer
+oder diese Nacht bereits bedient (remote-tasks/sync-tasks leer; Synobsis-Scan saturiert;
+Fristen-Register stundenaktuell; Trainingslektionen energie/planungsgrundlagen/normen heute
+Nacht mehrfach gelaufen; QUESTIONS.md-Luecken brauchen Raphael-Entscheid). Statt eines vierten
+Wissenscheck-Audits (Prioritaet 6) wurde der seit 02:30/04:30/05:30 dreimal identisch
+aufgetretene Befund untersucht: fast alle Wiki-Artikel in `energie`, `planungsgrundlagen` und
+`architekten-synobsis` verletzen die Umlaut-Konvention (ae/oe/ue statt ä/ö/ü) — zu
+flaechendeckend fuer Einzelfehler. **Ursache gefunden:** die launchd-Jobs, die genau diese drei
+KBs trainieren (`ch.jans.training-energie`, `ch.jans.training-plg`, `ch.jans.synobsis-batch`,
+alle ueber `scripts/dispatch-run.sh`), laufen ohne Login-Profil in der POSIX-"C"-Locale
+(`LANG=""`, `LC_CTYPE=C`) statt UTF-8 — bestaetigt durch `locale`-Check auf dieser Station.
+Keine iconv/unidecode/Ascii-Fold-Logik im Hub-Code gefunden, also kein Skript-Bug, sondern ein
+Umgebungs-Defekt. **Fix:** `scripts/dispatch-run.sh` erzwingt neu `LANG=de_CH.UTF-8` /
+`LC_ALL=de_CH.UTF-8` (Abschnitt "Locale abhaerten", analog zum bestehenden PATH-Haerten);
+Syntax + Locale-Aufloesung verifiziert. Bestehende ae/oe/ue-Stellen im Wiki bleiben unveraendert
+(Content-Korrektur ist Wissenscheck-Phase-2, nur interaktiv) — der Fix verhindert neue Faelle ab
+dem naechsten Trainingslauf. CHANGELOG-Eintrag in allen drei betroffenen KBs ergaenzt. Kosten
+dieses Zyklus ca. 1.8 USD von 5 USD Budget. Zyklus sauber beendet.
+
 **Nachtschicht-Zyklus Mac Mini (~05:30) — Wissens-Health-Check KB architekten-synobsis (Phase 1, Skill wissenscheck).**
 Doppelarbeit-Guard geprueft (dispatch/log/ inhaltlich, CHANGELOGs, Fristen-Register): alle
 vorrangigeren Prioritaeten leer/erschoepft (remote-tasks/sync-tasks leer, Synobsis-Scan

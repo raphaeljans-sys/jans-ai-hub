@@ -4,6 +4,18 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-07-21 — Root-Cause zum Umlaut-Befund gefunden + Infra-Fix (Mac Mini Nachtschicht)
+Die drei heutigen Wissenscheck-Audits (energie, planungsgrundlagen, architekten-synobsis)
+fanden alle dasselbe Muster: flaechendeckende ae/oe/ue-Ersatzschreibungen statt echter
+Umlaute, quer durch praktisch alle Wiki-Artikel — kein Einzelfehler. Ursache identifiziert:
+die launchd-Jobs, die diese drei KBs trainieren (`ch.jans.training-energie`,
+`ch.jans.training-plg`, `ch.jans.synobsis-batch`, alle ueber `scripts/dispatch-run.sh`),
+laufen ohne interaktives Login-Profil in der POSIX-"C"-Locale (`LANG=""`, `LC_CTYPE=C`)
+statt einer UTF-8-Locale. Fix: `scripts/dispatch-run.sh` erzwingt jetzt `LANG=de_CH.UTF-8` /
+`LC_ALL=de_CH.UTF-8` im Abschnitt "Locale abhaerten" (analog zum bestehenden PATH-Haerten).
+Bestehende ae/oe/ue-Stellen im Wiki sind davon nicht betroffen (Phase 2/Korrektur bleibt
+interaktiv) — der Fix verhindert nur neue Faelle ab dem naechsten Trainingslauf.
+
 ## 2026-07-21 — Wissens-Health-Check (Phase 1, Skill wissenscheck, Mac Mini Nachtschicht)
 Erster Check seit dem Aufbau der Stufe-3-Kuratierungs-Wiki (02.–03.07.); der Check vom 01.07.
 kannte `wiki/` noch nicht. Skriptgestuetzter Backlink-Abgleich `THEMEN.md` (697 Slugs) gegen

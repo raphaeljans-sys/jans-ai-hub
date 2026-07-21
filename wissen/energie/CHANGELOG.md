@@ -2,6 +2,18 @@
 
 Neueste zuoberst.
 
+## 2026-07-21 — Root-Cause zum Umlaut-Befund gefunden + Infra-Fix (Mac Mini Nachtschicht)
+Die drei heutigen Wissenscheck-Audits (energie, planungsgrundlagen, architekten-synobsis)
+fanden alle dasselbe Muster: flaechendeckende ae/oe/ue-Ersatzschreibungen statt echter
+Umlaute, quer durch praktisch alle Wiki-Artikel — kein Einzelfehler. Ursache identifiziert:
+die launchd-Jobs, die diese drei KBs trainieren (`ch.jans.training-energie`,
+`ch.jans.training-plg`, `ch.jans.synobsis-batch`, alle ueber `scripts/dispatch-run.sh`),
+laufen ohne interaktives Login-Profil in der POSIX-"C"-Locale (`LANG=""`, `LC_CTYPE=C`)
+statt einer UTF-8-Locale. Fix: `scripts/dispatch-run.sh` erzwingt jetzt `LANG=de_CH.UTF-8` /
+`LC_ALL=de_CH.UTF-8` im Abschnitt "Locale abhaerten" (analog zum bestehenden PATH-Haerten).
+Bestehende ae/oe/ue-Stellen in den Wiki-Artikeln sind davon nicht betroffen (Phase 2/Korrektur
+bleibt interaktiv) — der Fix verhindert nur neue Faelle ab dem naechsten Trainingslauf.
+
 ## 2026-07-21 — Wissens-Health-Check (Phase 1, Skill wissenscheck, Mac Mini Nachtschicht): 0 kaputte Links/0 unbelegte Claims, aber Umlaut-Konvention in 8 Wiki-Artikeln + der BAUHERREN-FAQ verletzt (Top-Finding) und destillate/INDEX.md mit 35 Dubletten-Zeilen (19 Destillate) plus 2 unregistrierten Destillaten; wiki/INDEX.md vermischt 25 destillat-basierte Eintraege mit den 21 echten Themenartikeln; die zwei am 01.07. empfohlenen Promotionen (regenwasserbewirtschaftung-versickerung-zh, sommerlicher-waermeschutz) sind weiterhin nicht umgesetzt. Report: `outputs/2026-07-21_health-check.md`.
 
 ## 2026-07-20 — Wissens-Chef Run 10 (Cross-KB): § 2a BVV Meldeverfahren dreiseitig verlinkt

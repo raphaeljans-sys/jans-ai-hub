@@ -2,6 +2,18 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-21 — Root-Cause zum Umlaut-Befund gefunden + Infra-Fix (Mac Mini Nachtschicht)
+Die drei heutigen Wissenscheck-Audits (energie, planungsgrundlagen, architekten-synobsis)
+fanden alle dasselbe Muster: flaechendeckende ae/oe/ue-Ersatzschreibungen statt echter
+Umlaute, quer durch praktisch alle Wiki-Artikel — kein Einzelfehler. Ursache identifiziert:
+die launchd-Jobs, die diese drei KBs trainieren (`ch.jans.training-energie`,
+`ch.jans.training-plg`, `ch.jans.synobsis-batch`, alle ueber `scripts/dispatch-run.sh`),
+laufen ohne interaktives Login-Profil in der POSIX-"C"-Locale (`LANG=""`, `LC_CTYPE=C`)
+statt einer UTF-8-Locale. Fix: `scripts/dispatch-run.sh` erzwingt jetzt `LANG=de_CH.UTF-8` /
+`LC_ALL=de_CH.UTF-8` im Abschnitt "Locale abhaerten" (analog zum bestehenden PATH-Haerten).
+Bestehende ae/oe/ue-Stellen in den Wiki-Artikeln sind davon nicht betroffen (Phase 2/Korrektur
+bleibt interaktiv) — der Fix verhindert nur neue Faelle ab dem naechsten Trainingslauf.
+
 ## 2026-07-21 — Wissens-Health-Check (Phase 1, Skill wissenscheck, Mac Mini Nachtschicht)
 Audit nach 20 Tagen (aeltester unter Mac-Mini-KBs). Top-Finding: Umlaut-Konvention in 39 von
 48 Wiki-Artikeln verletzt (fuer/ueber/moeglich/... statt ä/ö/ü) — deckt sich mit dem identischen
