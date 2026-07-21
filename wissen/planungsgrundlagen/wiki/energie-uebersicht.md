@@ -1,8 +1,8 @@
 ---
 title: Energie — Uebersicht (PV, U-Wert, Energienachweis)
 status: established
-last_updated: 2026-07-14
-sources: [PL - 04 Energie (SharePoint), _Formulare Kanton ZH Baueingabe/EN-ZH, endk.ch, zh.ch/energienachweise (12.06.2026), SIA 380/1, "CLT by Stora Enso — Technical documentation Building physics" (Version 06.2021, PL-04/U Wert berechnung/clt), realer JANS-Fall Biwak Grassen U-Wert-Optimierung (PL-04/U Wert berechnung/Grassen Biwak, Run 25), PL-04/_Betriebsenergie/IMG_3525-3538 (Fallbeispiel-Screenshots, ungeklaerte Primaerquelle), zh.ch/planen-bauen/bauvorschriften-gebaeude-energie + zh.ch/umwelt-tiere/klima/langfristige-klimastrategie (Massnahmen GE01-GE05) + hev-zh.ch/muken + espazium.ch (Refresh 14.07.2026, Run 38)]
+last_updated: 2026-07-22
+sources: [PL - 04 Energie (SharePoint), _Formulare Kanton ZH Baueingabe/EN-ZH, endk.ch, zh.ch/energienachweise (12.06.2026), SIA 380/1, "CLT by Stora Enso — Technical documentation Building physics" (Version 06.2021, PL-04/U Wert berechnung/clt, S.6-11 vollstaendig Run 25+56), realer JANS-Fall Biwak Grassen U-Wert-Optimierung (PL-04/U Wert berechnung/Grassen Biwak, Run 25), PL-04/_Betriebsenergie/IMG_3525-3538 (Fallbeispiel-Screenshots, ungeklaerte Primaerquelle, erneut vollstaendig gelesen Run 56), zh.ch/planen-bauen/bauvorschriften-gebaeude-energie + zh.ch/umwelt-tiere/klima/langfristige-klimastrategie (Massnahmen GE01-GE05) + hev-zh.ch/muken + espazium.ch (Refresh 14.07.2026, Run 38)]
 links: [[recht-norm-quellenlandkarte]], [[energie-pv-eignung-typenwahl]], [[energie-energienachweis-zh-formulare]], [[energie-private-kontrolle-zh]], [[energie-baueingabe-zusatzformulare]], [[energie-minergie-referenzprojekt-maison-climat]], [[energie-betriebsenergie-pv-wirtschaftlichkeit]]
 ---
 
@@ -45,6 +45,13 @@ duplizieren:
   Diffusion** (sd-Wert, Gutachten Holzforschung Austria) sowie ueber 150 gepruefte
   **Bauteilaufbauten** (Aussen-/Innen-/Trennwaende, Decken, Daecher) — bei Bedarf gezielt
   nachschlagen statt hier zu duplizieren.
+  **Vollstaendige Vergleichstabelle nachgetragen (Run 56, 2026-07-22, S.10-11 derselben Doku):**
+  CLT 100 mm 3s + Mineralwolle-Daemmung 40-240 mm ergibt U-Werte von **0,47** (40 mm) bis **0,13**
+  (240 mm) W/m²K; eine zusaetzliche **12,5 mm Gipskartonplatte** innen (λ = 0,21) veraendert den
+  U-Wert **kaum** (max. 0,02 Differenz) — bauphysikalisch fast irrelevant, aber relevant fuer
+  Brandschutz/Oberflaeche (→ Skill `brandschutz`). Faustregel Vorprojekt: fuer ein Minergie-
+  taugliches Bauteil (U ≤ 0,17-0,20) braucht eine CLT-Aussenwand **mindestens ~140-160 mm**
+  Zusatzdaemmung; Einzelfallrechnung (SIA 380/1) bleibt Pflicht.
 - **Realer JANS-Benchmark — Biwak Grassen** (alpine Kleinstbeherbergung, vgl. Brandschutz-Benchmark
   in [[brandschutz-pl03-wegweiser]] §4f): Wandaufbau Schutzblech (Aluminium) + 40 mm luftgefuellte
   Unterkonstruktion (λ ≈ 0,15) + 40 mm Mineralwolle (λ = 0,035) + 140 mm CLT (Stora Enso, λ = 0,13)
@@ -53,7 +60,11 @@ duplizieren:
   (λ ≈ 0,045) haelt den Zielwert weiterhin ein. Zeigt exemplarisch, wie eine schlanke
   CLT-Aussenwand ohne zusaetzliche Innendaemmung bereits mit moderater Daemmstaerke den
   Alpin-Zielwert erreicht — relevant fuer Kleinstbauten mit beschraenktem Wandaufbau-Budget
-  (Gewicht/Transport auf Helikopter-Baustellen).
+  (Gewicht/Transport auf Helikopter-Baustellen). ⚠ **Beleg-Delta nachgetragen (Run 56):** die
+  Quelle dieses Falls (KI-gestuetzte Chat-Berechnung, kein Normverweis, Herkunft nicht mehr
+  auffindbar) rechnet mit λ_CLT = 0,13 statt dem herstellerbelegten 0,12 W/mK — Delta ~8 %, ohne
+  Praxisrelevanz fuer das Ergebnis, aber ein Beleg-Bruch; der Fall bleibt als reales
+  Planungsbeispiel dokumentiert, ist aber selbst **nicht** als belegter Kennwert zu zitieren.
 
 ## Betriebsenergie — reales Sanierungs-Fallbeispiel EFH (PL-04/`_Betriebsenergie`)
 

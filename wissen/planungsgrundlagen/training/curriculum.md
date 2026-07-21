@@ -65,6 +65,17 @@ das Ergebnis in den passenden Wiki-Artikel.
   Spezialzone empirisch belegt, Positiv-Benchmark Hardau 24 Winterthur (S3), Negativ-Kontrolle
   Giebelweg 12; Status established, Connector `--produkt grundwasser` gebaut + getestet
   → [[kartenportale-naturgefahren-objektschutz]] §8b.
+- [x] K45 SZ-Naturgefahren-Endpunkt (offen seit Run 22, hoechste Prioritaet laut Run 54) —
+  **retroaktiv im Register nachgetragen (Run 56, 2026-07-22):** Wiki-Artikel und Connector
+  `geo-sz.mjs` zeigen, dass dies bereits am 2026-07-21 geloest wurde (Datei-interner Vermerk
+  "Run 55"), aber nie in curriculum.md/QUESTIONS.md/CHANGELOG.md/outputs/ dokumentiert war — ein
+  Registrierungs-Luecke, kein Recherche-Fund dieses Laufs. **Fund:** Endpunkt via opendata.swiss
+  CKAN-API gefunden (`ch.sz.a012b.naturgefahrenkarte.*`), WFS 1.1.0 (nicht 2.0.0/GeoJSON wie ZH)
+  ueber `map.geo.sz.ch/mapserv_proxy`, drei Layer (gefahrenflaechen/hinweisflaechen/
+  erhebungsgebiet); live verifiziert Reckholdernstrasse 20 Willerzell (11 Gefahrenflaechen,
+  gemischte Rutsch-Stufen) + Negativkontrolle Wangen SZ Seeufer (0 Treffer); Connector-Flag
+  `geo-sz.mjs --produkt naturgefahren` gebaut + getestet → [[kartenportale-naturgefahren-
+  objektschutz]] §8c, established.
 
 ## Domaene 2 — Energie (PL-04)  · Prioritaet
 - [x] E1 PV-Typenwahl: Entscheidungsbaum (Indach/Ziegel/transparent/Fassade/Aufdach)? (2026-06-06, → [[energie-pv-eignung-typenwahl]])
@@ -138,6 +149,21 @@ das Ergebnis in den passenden Wiki-Artikel.
   Status auf `established` gehoben (offizielle Publikation, Autoren/Kontaktstellen benannt).
 
 - [x] E40 (Token-Vollgas, OneDrive-Ausweich) Drei Refresh-/Verifikations-Checks per WebSearch/WebFetch: gibt es eine Solarpflicht im EnerG ZH, ist die Pronovo-Foerderstruktur weiterhin unveraendert, und ist die MuKEn-2025-ZH-Ueberfuehrung weiterhin ausstehend? (2026-07-19 Run 53: Solarpflicht **§ 10c EnerG** "Eigenstromerzeugung" — ein Web-Treffer nannte faelschlich "§ 10b" (das ist tatsaechlich "Ortsfeste elektrische Widerstandsheizungen"), gegen amtlichen Volltext `wissen/baurecht/raw/260712_amtlich_zh_energ.md` korrigiert; KB-Kennwerte (10 W/m² EBF etc.) waren bereits richtig, kein Delta. Pronovo unveraendert seit 01.04.2025 bestaetigt, ein unbelegter "Winterstrombonus"-Websuch-Treffer NICHT uebernommen (Primaerquelle bestaetigt ihn nicht). MuKEn-2025-ZH weiterhin ohne Termin → [[energie-energienachweis-zh-formulare]], [[energie-betriebsenergie-pv-wirtschaftlichkeit]])
+- [x] D9-Refresh (Run 56, Token-Vollgas) `_Betriebsenergie` erneut vollstaendig gelesen (alle 15
+  Bilddateien derselben Praesentation) — bestaetigt: kein MFH-/ZEV-Fall vorhanden, nur der bereits
+  dokumentierte EFH-Fall. D9 bleibt in QUESTIONS.md offen, kein neuer Quellenfund.
+- [x] E41 (Run 56, Token-Vollgas) Ordner `U Wert berechnung/clt` + `U Wert berechnung/Grassen Biwak`
+  erneut geprueft: liefert die Stora-Enso-Bauphysik-Dokumentation weitere Kennwerte ueber das
+  bereits Belegte (E13/E14, Run 25) hinaus? (2026-07-22: **Korrektur waehrend des Laufs** — zunaechst
+  faelschlich ein neuer Artikel angelegt, dann als Doppelspur zu [[energie-uebersicht]] §U-Wert
+  erkannt (E13/E14 hatten dasselbe Dokument bereits Run 25 ausgewertet) und wieder geloescht.
+  Genuiner Delta-Wert: die **vollstaendige Vergleichstabelle S.10-11** (CLT 100mm + Mineralwolle
+  40-240mm, U 0.47→0.13, Gipskarton-Variante) war noch nicht erfasst — als Ergaenzung in
+  [[energie-uebersicht]] §U-Wert nachgetragen, plus Beleg-Delta-Hinweis (Grassen-Biwak-Fall rechnet
+  mit λ=0.13 statt dem herstellerbelegten 0.12). Lehre: vor Artikel-Neuanlage IMMER curriculum.md
+  nach Dateinamen/Themenstichwort durchsuchen, nicht nur nach Artikel-Dateinamen. Offen:
+  Feuchte-/Luftdichtheits-Kapitel-Detailtiefe (S. 14-37) bereits in Run 34 (E-Vollzugshilfen)
+  ausgewertet — keine weitere Luecke mehr in diesem Dokument.
 
 ## Domaene 3 — Recht & Norm (PL-02)
 - [x] R1 Quellenlandkarte PL-02 vervollstaendigen (welcher Erlass wo, Datenstand fedlex). (2026-06-08, 10 Ordner kartiert, SR→fedlex-Schema, → [[recht-norm-quellenlandkarte]])

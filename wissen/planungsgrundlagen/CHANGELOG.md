@@ -2,6 +2,36 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-22 — Training Run 56 (Kartenportale + Energie, Token-Vollgas + Register-Nachtrag)
+- **Registrierungs-Luecke geschlossen:** der Wiki-Artikel `kartenportale-naturgefahren-objektschutz.md`
+  und der Connector `geo-sz.mjs` enthielten bereits einen vollstaendig geloesten SZ-Naturgefahren-
+  Endpunkt (Datei-interner Vermerk «Run 55, 2026-07-21» — via opendata.swiss CKAN-API gefunden,
+  WFS 1.1.0 `map.geo.sz.ch/mapserv_proxy`, live verifiziert Reckholdernstrasse 20 Willerzell +
+  Negativkontrolle Wangen SZ), der aber **nie** in curriculum.md/QUESTIONS.md/CHANGELOG.md/outputs/
+  registriert wurde. Retroaktiv als K45 in curriculum.md nachgetragen — kein neuer Recherche-Fund
+  dieses Laufs, sondern Konsolidierung eines bereits vorhandenen, aber verwaisten Ergebnisses.
+- **D9 (Energie, aelteste offene Frage) erneut geprueft:** `_Betriebsenergie`-Ordner vollstaendig
+  neu gelesen (alle 15 Bilddateien) — enthaelt weiterhin nur den bereits dokumentierten EFH-Fall,
+  kein MFH-/ZEV-Material. Luecke bleibt in QUESTIONS.md bestaetigt offen.
+- **Selbstkorrektur waehrend des Laufs:** ein neuer Artikel `energie-clt-brettsperrholz-
+  waermeschutz.md` wurde angelegt (Stora-Enso-CLT-Bauphysik + Fallbeispiel Biwak Grassen), dann
+  als Doppelspur zu `energie-uebersicht.md` §U-Wert erkannt (dieselbe Quelle war bereits Run 25/
+  E13-E14 ausgewertet) — Artikel geloescht, nur der genuine Delta-Wert (vollstaendige U-Wert-
+  Vergleichstabelle S.10-11 + Beleg-Delta-Hinweis λ=0.13 vs. 0.12) in den bestehenden Artikel
+  nachgetragen. Lehre in curriculum.md E41 festgehalten.
+- **Infrastruktur-Befunde (kein KB-Inhalt, aber relevant fuer kuenftige Laeufe):** (1) die
+  Delegation an die Fach-Agenten `geodaten-beschaffer`/`energie-berater` via Agent-Tool brach beide
+  Male nach dem ersten Read-Aufruf ab (0 protokollierte Tool-Aufrufe) — Ursache nicht abschliessend
+  geklaert, vermutlich ein Sandbox-/Berechtigungsproblem bei Hintergrund-Subagenten auf den
+  OneDrive-Pfad; der Lauf wurde daher direkt in der Hauptsession statt per Fan-out durchgefuehrt,
+  was den Umfang gegenueber dem Token-Vollgas-Zielkorridor (10-16 Fragen) auf real bearbeitete
+  Punkte reduziert hat. (2) `git status`/`git log` auf dem NAS-Repo (`/Volumes/daten/jans-ai-hub`)
+  haengt zuverlaessig >90s über den SMB-Mount — bestaetigt die bestehende Warnung in Rule
+  `sync-kanonische-quelle.md`; Commit/Push dieses Laufs erfolgt daher **nicht** manuell aus dieser
+  Session, sondern ueber den nativen NAS-Cron `nas-selfcommit.sh` (laeuft alle 15 Min direkt auf
+  der Synology, siehe Memory `projekt_nas_selfcommit_verhalten`).
+- Bericht: `outputs/2026-07-22_training-run56.md`.
+
 ## 2026-07-21 — Wissens-Chef Run 11 (Cross-KB): Private-Kontrolle-Querbezug zu KB energie
 - Cross-KB-Lauf energie ↔ planungsgrundlagen (Run 11). **wiki/energie-private-kontrolle-zh.md:** parallel
   geführtes energie-Destillat `wissen/energie/destillate/private-kontrolle-zh` verlinkt (bisher kein
