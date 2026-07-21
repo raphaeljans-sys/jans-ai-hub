@@ -21,6 +21,37 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-21 12:47 — [GEDROSSELT] Ruhiger Tagesbetrieb wie erwartet, Runner unangetastet
+
+**Fensterzustand:** Diesmal keine belastbare Login-Probe — das aufgerufene `timeout` fehlt auf
+macOS von Haus aus (`command not found`), die Haiku-Probe lief also nicht durch. Im Drossel-Regime
+ist der Fensterzustand ohnehin nicht das operative Signal: der Runner bleibt gestoppt, unabhaengig
+vom Kontingent. Belastbar bleibt der Durchsatz.
+
+**Durchsatz Tagesfenster (06:00–12:47):** ruhig und regelkonform. Ausser den beiden Morgen-Commits
+(`vollgas-radar` 06:49 und `Logbuch-Radar` 07:xx) laeuft tagsueber nur `nas-selfcommit` im
+15-Minuten-Takt — kein KB-Training. Das ist das gewuenschte Bild: die Lern-/Trainings-Loops liegen
+im Nachtfenster 22:00–06:00 (Regel 260711), tagsueber ruht die Flotte bewusst. Die kraeftige
+Nachtleistung ist im 06:49-Eintrag belegt (Schulbau B1–B6 abgeschlossen, baurecht Run 50, Normen
+Run 17, Energie Run 82 u.a.).
+
+**Runner/STOP:** unveraendert. `STOP` + `STOP-Macmini` vom 14.07. 12:53 stehen (Grund: Drosselung auf
+Anweisung Raphaels, «Wiederanlauf nur auf ausdrueckliche Anweisung»). Kein loeschbarer Login-/Limit-
+Grund — nicht angetastet. Runner-Logs enden erwartungsgemaess am 14.07. 12:40.
+
+**Mail:** keine. Login-Blocker seit 19.07. 22:52 gemailt, keine Wiederholung; kein neuer/geloester P1.
+
+**Vorschlaege:**
+- P1: keiner.
+- P2: Weiter offen der Entscheid Raphaels zum Drossel-Regime (naechster Wochen-Reset Mo 11:59).
+  Bis dahin Status quo, Radar bleibt Schoner.
+- P3: (a) Login-Probe robuster machen — `timeout` durch native Alternative ersetzen (z.B.
+  `perl -e 'alarm 90; exec @ARGV' -- claude -p …` oder `gtimeout` aus coreutils), damit der
+  Fensterzustand wieder belastbar erfasst wird. (b) No-op-Flags aus dem 06:49-Eintrag (`synobsis`
+  saturiert, `immobewertung` Delta-Null) bleiben zur Frequenzsenkung offen.
+
+---
+
 ## 2026-07-21 06:49 — [GEDROSSELT] Nachtfenster stark gelaufen, Nachttakt jetzt belegt, Login-Block unveraendert
 
 **Fensterzustand:** Die Probe `claude -p --model haiku` liefert unveraendert kein «OK» (haengt bis
