@@ -47,7 +47,9 @@ Faktentiefe zu Klassen (EI/RF, Bfl-s1 etc.) liefert der Skill `brandschutz`.
 - **Gebäudeversicherung Kanton Zürich (GVZ)**: technische **Brandmeldeanlage (BMA, II.25)**
   und **Sprinkleranlage (SPA, II.26)** — Anpassung nach VKF-RL + GVZ-Weisung + Stand der
   Technik; Projektunterlagen vor Ausführung einreichen + genehmigen lassen.
-  → BMA = Gewerk **ELE**, SPA = Gewerk **SAN** (siehe [[auflagentypen-gewerkzuteilung]]).
+  → BMA = Gewerk **ELE**; SPA = Gewerk **SPR** (eigener Sprinklerplaner, im Fall 2619:
+  JOMOS Brandschutz AG), nur wenn KEIN eigener Sprinklerplaner beauftragt ist **SAN**
+  (massgeblich [[auflagentypen-gewerkzuteilung]], Split vom 04.06.2026).
   Den vollständigen **GVZ-Einreichungsweg** (Projektbegutachtung vor Ausführung, Unterlagen,
   Atteste, Abnahme, Risikogruppen-Kontrollturnus) führt [[gvz-einreichung-bma-sprinkler]].
 

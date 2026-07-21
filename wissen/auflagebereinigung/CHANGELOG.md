@@ -2,6 +2,13 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-21 — Phase-2-Fix aus dem Nacht-Audit (Dauerschicht-Zyklus 37)
+- [korrigiert] **SPA-Gewerk-Widerspruch behoben** (Top-1 des Health-Checks 21.07., offen seit
+  dem Check vom 01.07.): `brandschutz-auflagen-qss.md` führte «SPA = SAN», massgeblich ist seit
+  dem Split vom 04.06. **SPR** (eigener Sprinklerplaner, Fall 2619: JOMOS; nur ohne eigenen
+  Sprinklerplaner SAN). Zeile an [[auflagentypen-gewerkzuteilung]] angeglichen — beide Artikel
+  sind jetzt konsistent.
+
 ## 2026-07-21 — Wissens-Health-Check (Phase 1, Skill wissenscheck, Mac Mini Nachtschicht)
 Audit A–G, Report `outputs/2026-07-21_health-check.md`. Ampel: B/C grün, D/E/G orange, A/F rot.
 Top-Finding: der am 01.07. gefundene SPA=SAN/SPR-Widerspruch (`brandschutz-auflagen-qss.md`
