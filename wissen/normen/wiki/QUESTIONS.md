@@ -305,9 +305,14 @@
   Mini-Run 13 (260713): Volltextabgleich S.89-92 direkt am Original zeigt EINEN
   informativen Anhang D mit einer einzigen, über den Seitenumbruch 90/91 fortgesetzten
   Tabelle D.4 (Nr. 1-15); Destillat korrigiert.
-- [ ] **din-1946-6-2009 ↔ SIA 382/1 Methodenvergleich** weiterhin offen (Schweizer
-  Lüftungsauslegung über Aussenluft-Volumenstrom/Person/Fläche + Lüftungseffizienz vs.
-  deutsches 4-Stufen-Modell) — eigene Recherche in SIA 382/1 nötig.
+- [x] **din-1946-6-2009 ↔ SIA 382/1 Methodenvergleich** geschlossen ✓ 2026-07-21
+  (Mac Mini Nachtschicht): Vergleichsartikel aus beiden bereits vollständig destillierten
+  Quellen (keine neue Primärquelle nötig) → `[[din-1946-6-sia-382-1-lueftungsauslegung-methodenvergleich]]`.
+  Kernbefund: DIN 1946-6 bemisst hüllen-/feuchteschutzgetrieben (Flächenformel + Raum-
+  Pauschalwerte), SIA 382/1 nutzungs-/lastgetrieben (Personen/Wärme/Schadstoffe als
+  gleichrangige Kriterien) — ein direkter Zahlenvergleich einzelner Tabellenwerte ist
+  deshalb nur bedingt aussagekräftig. Für CH-Baueingaben bleibt ausschliesslich SIA 382/1
+  (+ SIA 180/380/1/2023) massgebend.
 - [x] **Retro-Verifikation für din-1946-6-2009 (125 S.)** — erledigt Mini-Run 13 (260713):
   4 unabhängige Prüf-Agenten, ca. 100 Aussagen geprüft, 14 Fehler/Lücken gefunden und im
   Destillat korrigiert (siehe destillate/din-1946-6-2009.md, Abschnitt „Offene Punkte").

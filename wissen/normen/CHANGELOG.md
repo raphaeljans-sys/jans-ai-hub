@@ -1,3 +1,18 @@
+## 2026-07-21 — Mac Mini Nachtschicht: DIN 1946-6 ↔ SIA 382/1 Methodenvergleich (QUESTIONS geschlossen)
+- Neuer Wiki-Artikel `din-1946-6-sia-382-1-lueftungsauslegung-methodenvergleich.md`: schliesst
+  den seit Run 5 (260713) offenen Punkt in `wiki/QUESTIONS.md`. Grundlage waren die zwei bereits
+  vollstaendig destillierten/verifizierten Quellen `din-1946-6-2009.md` und `sia-382-1-2014.md`
+  (Anhaenge A-G von SIA 382/1 erst heute in Run 17 durch die MacBook-Station ergaenzt) — keine
+  neue Primaerquelle noetig, reine Synthese-Arbeit ohne Recherche-Kosten.
+- Kernbefund: DIN 1946-6 bemisst huellen-/feuchteschutzgetrieben (Flaechenformel Tabelle 5 +
+  Raum-Pauschalwerte Tabelle 6/7), SIA 382/1 nutzungs-/lastgetrieben (Personen/Waerme/
+  Schadstoffe als gleichrangige Bemessungskriterien, Ziff. 5.3). Ein direkter Zahlenvergleich
+  einzelner Tabellenwerte ist deshalb nur bedingt aussagekraeftig — unterschiedliche
+  Bemessungsphilosophie, nicht falsch/richtig. Fuer CH-Baueingaben bleibt ausschliesslich
+  SIA 382/1 (+ SIA 180/380/1/2023) massgebend, DIN 1946-6 dient nur als Kontext bei deutscher
+  Bauherrschaft/Lieferantenunterlagen.
+- Register nachgefuehrt: `wiki/INDEX.md`, `wiki/QUESTIONS.md`. Report `outputs/2026-07-21_din1946-6-sia382-1-methodenvergleich.md`.
+
 ## 2026-07-21 — Normen Run 17 (MacBook Pro, SIA/VKF): Vertiefung Stufe a verifiziert + Inventar bestaetigt komplett
 - **Inventar-Kontrolle:** 0 offene `[ ]`-Grunddestillations-Positionen in SIA/VKF (bestaetigt
   Run 15/16/17); ein 30-40-Positionen-Batch ist gegenstandslos. Zugriffs-Check OK (Read auf

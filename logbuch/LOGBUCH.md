@@ -7,6 +7,20 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-21
 
+**Nachtschicht-Zyklus Mac Mini (~03:30) — DIN 1946-6 ↔ SIA 382/1 Methodenvergleich (KB normen).**
+Doppelarbeit-Guard geprueft (dispatch/log/, CHANGELOG): Mac-Mini-Baustellen energie/
+planungsgrundlagen/normen-DIN-VSS-RAL alle frisch bearbeitet oder erschoepft (offene
+QUESTIONS-Punkte brauchen Raphael-Entscheid bzw. sind bestaetigte Negativbefunde). Einzig
+tragfaehiger kleiner Auftrag: der seit Run 5 (13.07.) offene QUESTIONS-Punkt «DIN 1946-6 ↔
+SIA 382/1 Methodenvergleich» in `wissen/normen/wiki/QUESTIONS.md` — die noetige SIA-382/1-
+Anhang-Ergaenzung kam just heute frueh durch die MacBook-Station (Run 17). Vergleichsartikel
+`wissen/normen/wiki/din-1946-6-sia-382-1-lueftungsauslegung-methodenvergleich.md` aus den
+beiden bereits vollstaendig verifizierten Destillaten geschrieben (keine neue Primaerquelle,
+keine Agent-Fan-outs) — Kernbefund: DIN huellen-/feuchteschutzgetrieben vs. SIA nutzungs-/
+lastgetrieben, fuer CH-Baueingaben bleibt SIA 382/1 massgebend. Register (QUESTIONS/INDEX/
+CHANGELOG) nachgefuehrt, Report `wissen/normen/outputs/2026-07-21_din1946-6-sia382-1-methodenvergleich.md`.
+Deutlich unter Budget; Zyklus sauber beendet.
+
 **Dauerschicht-Zyklus 31 (MacBook Pro, ~03:20) — Nachtschicht-Fixes VERIFIZIERT, B5-Zulauf bestaetigt.** (1) Der 02:30-Nachtschicht-Lauf endete sauber (Exit 0) und schloss explizit budgetbewusst ab — Background-Wait-Fix (Zyklus 29) und Budget-Disziplin im Prompt (Zyklus 30) greifen; die Verlustserie 00:30/01:30 ist beendet. (2) Ueber Nacht ist das Schulhaus-Parameter-Set `schule-volksschule-ch.json` aus wettbewerbs-dna B5 in entwurfs-referenzen eingetroffen — unter dem am Abend abgestimmten Namen, schema-validiert, refuter-geprueft (Verdikt bestanden, 2 Praezisierungen); der Koordinationspunkt aus Zyklus 25 ist geschlossen. Die Cross-KB-Pipeline (Benchmark → Parameter-Set → Schema-Validierung) hat damit ihren ersten vollstaendigen Durchlauf. Kein weiterer Eingriff; ruhiger Nachtbetrieb.
 
 **Nachtschicht-Zyklus Mac Mini — Wissens-Health-Check KB energie (Phase 1, Skill wissenscheck).**
