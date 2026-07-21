@@ -1,0 +1,92 @@
+{
+  "id": "schule-volksschule-ch",
+  "name": "Schul-/Bildungsbau — Volksschule (CH)",
+  "version": "1.0",
+  "quellen": [
+    "wissen/wettbewerbs-dna/wiki/muster/kennwerte-schulbauten.md (B6, established, 25 Quellen / 431 refuter-bestaetigte Kennzahlen, 20.07.2026)",
+    "wissen/wettbewerbs-dna/wiki/muster/jury-argumente-schulbauten.md (B4, established, 23 ausgewertete Juryberichte + 3 eigene Teilnahmen, 14.07.2026)",
+    "JANS Teilnahme 2507 Halden — eigene SIA-416-Abgabe (HNF/GF 0.528, Klassenzimmer 75 m2)",
+    "JANS Teilnahme 2206 Schoental — Raumprogramm (Klassenzimmer 75 m2, lichte Raumhoehe 3.00 m)",
+    "JANS Teilnahme 2102 Muttenz — Siegerprojekt hannes (900-m2-Schwelle je Geschoss)"
+  ],
+  "gebaeude": {
+    "geschosse_min": 1,
+    "geschosse_max": 5,
+    "erschliessung": "atrium",
+    "orientierung_regeln": [
+      "Klassenzimmer in die Gebaeudeecken, zweiseitig belichtet (Stoeckacker Bern: Sieger + Rang 2 gleichermassen gelobt)",
+      "Sichtbezug Lernlandschaft <-> Klassenzimmer sicherstellen (2206 Schoental: fehlende Transparenz war K.o.-Beleg gegen den eigenen Beitrag)",
+      "Erdgeschoss oeffentlich/belebt; Freiraum zonieren in oeffentlichen Vorplatz (Quartier-Adresse) + baulich gefassten, geschuetzten Schulfreiraum",
+      "Bei Dorf-/Landkontext flacher (ein-/zweigeschossig) statt kompakter Solitaer — Geschossigkeit aus Ort/Bestand/Betrieb herleiten (Grossaffoltern: mehrgeschossig hier funktional nachteilig)"
+    ]
+  },
+  "flaechen": {
+    "hnf_pro_einheit_m2": [64, 75],
+    "einheit_bezeichnung": "Klassenzimmer (Planungswert 75 m2; 64 m2 belegter unterer Rand Mittelstufe)",
+    "nf_gf_faktor": 0.53
+  },
+  "materialien": {
+    "tragwerk": "Vorfabrikation / Systemtrennung, reversibel in klassische Zimmer (Holz-/Hybridbau belegt, Grossspannweiten statisch kritisch)",
+    "fassade": [
+      "warm, kindgerecht, geschlossen (Primarschul-Massstab; institutioneller Ausdruck ist Abwertungsgrund)",
+      "Glasanteil unter 50 % (Minergie-P / graue Energie SIA 2040)"
+    ],
+    "innenausbau_standard": "mittel"
+  },
+  "kosten_referenz": {
+    "bkp_schwerpunkte": ["2 Gebaeude", "4 Umgebung"],
+    "quelle_kb": "wissen/grobkosten/"
+  },
+  "entwurfs_regeln": [
+    "GF je Geschoss unter 900 m2 halten: unterhalb dieser Schwelle genuegt ein Fluchttreppenhaus, was Erschliessungsflaeche spart und direkt auf die HNF/GF-Effizienz einzahlt (2102 Muttenz + Oberstufe Steffisburg, 2 Kantone) — erklaert, warum im knappen Areal der kompakte, hoehere Solitaer gewinnt (Stapeln statt Ausbreiten)",
+    "Typologie nicht waehlen, sondern aus Ort, Bestand und Betrieb herleiten und benennen; unbegruendete Grossform wird bestraft (23 Juryberichte)",
+    "Nutzbare Erschliessung statt reinem Korridor: zentrale moeblierbare Halle / Marktplatz / Atrium, zugleich Aufenthalts-/Unterrichtsflaeche (Faellanden, Wattwil, Muhen)",
+    "Lichte Raumhoehe Klassenzimmer mindestens 3.00 m (2206 Schoental, Raumprogramm)",
+    "2 Klassenzimmer je Gruppen-/Halbklassenzimmer (Sursee, Zelgli Schlieren)",
+    "Cluster-Koernung 3-4 Klassenzimmer je Geschoss bzw. Cluster (Niederrohrdorf, Sursee, Stoeckacker); der eigene 2103-Beitrag lag mit 2 je Lernwelt darunter",
+    "Regelklasse 19-21 Schueler (Steffisburg ~21, 2206 Schoental 18.9); Foerder-/Integrationsklasse rund 10 (Steffisburg KbF/IK)",
+    "Zweites Fluchttreppenhaus befreit die Erschliessungsflaeche von Brandschutzauflagen und wird der Lernlandschaft zugeschlagen (Zelgli Schlieren)",
+    "Betriebs-Entflechtung sichtbar loesen: getrennte Zugaenge je Nutzung (Schule/Sport/Tagesstruktur/Kindergarten), Mittagsspitze und Kueche-Anlieferung konfliktfrei",
+    "Bei kombiniertem Programm Kindergarten/Primar die Stufen erkennbar durchmischen, nicht additiv trennen (Ochsenmatt Menzingen, 4-fach belegt)",
+    "Unterirdische/versenkte Raeume nur mit Tageslichtkonzept (Rundgang/Oblicht) und ueber Grundwasser — meistwiederholter Abwertungsgrund",
+    "Vorpruefungs-Toleranz Anlagekosten +/-20 %; Finalisten-Spreizung 16-24 % liegt in derselben Groessenordnung: Kosten wirken als Korridor/Tie-Breaker, nicht ranggebend — GV unter der Referenz (Machbarkeitsstudie, ~95 %) bleiben",
+    "Kostendach-Groessenordnung Regelschul-Neubau rund 1.6-1.8 Mio. CHF je Klassenzimmer (Gesamtanlage), Sonderschule rund 2.5 Mio. — nur zur Plausibilisierung, CHF/m3 aus wissen/grobkosten/",
+    "Klassenzimmer zweiseitig belichtet, in Gebaeudeecken; gleichwertige, vollstaendige Lerncluster mit Aussenraumbezug, reversibel in klassische Zimmer"
+  ],
+  "referenz_projekte": [
+    {
+      "name": "2507 Halden (TKHL, PS St. Gallen)",
+      "jans_nr": "2507",
+      "relevanz": "eigene SIA-416-Abgabe: HNF/GF 0.528, Klassenzimmer/Gruppenraum 75 m2, Mehrfachnutzungsquote 25 % der HNF"
+    },
+    {
+      "name": "2206 Schoental (Altstaetten)",
+      "jans_nr": "2206",
+      "relevanz": "Programm 75-m2-Klassenzimmer, lichte Raumhoehe 3.00 m; fehlende Transparenz Lernlandschaft<->Klassenzimmer als eigener K.o.-Beleg"
+    },
+    {
+      "name": "2102 Muttenz — Siegerprojekt hannes",
+      "jans_nr": "2102",
+      "relevanz": "900-m2-Schwelle je Geschoss (viergeschossiger Klassentrakt bleibt Gebaeude mittlerer Hoehe); eigener Beitrag scheiterte am Extremwert groesste GF+GV"
+    },
+    {
+      "name": "Kantonsschule Wattwil — CELESTE",
+      "jans_nr": null,
+      "relevanz": "kompakter Grossbaukoerper mit zentralem Atrium als Schullandschaft; HNF/GF-Soll 0.532 (720 Schueler, GF 14'100 m2)"
+    },
+    {
+      "name": "Oberstufe Schoenau Steffisburg",
+      "jans_nr": null,
+      "relevanz": "GF knapp unter 900 m2 -> eine Fluchttreppe genuegt; begruendeter Ersatzneubau statt Vollerhalt bei Paedagogik-Zielkonflikt"
+    },
+    {
+      "name": "Volksschule Stoeckacker Bern",
+      "jans_nr": null,
+      "relevanz": "Klassenzimmer in den Gebaeudeecken, zweiseitig belichtet (Sieger + Rang 2); Vorpruefungs-Toleranz +/-20 %"
+    }
+  ],
+  "rendering": {
+    "farbpalette": ["#FFFFFF", "#F5F5F0", "#C8C0B8"],
+    "stil": "weissmodell"
+  }
+}

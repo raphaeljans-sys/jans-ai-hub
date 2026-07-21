@@ -1,5 +1,18 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-07-21 (Zulauf aus wettbewerbs-dna B5 — Schulhaus-Set eingetroffen)
+- [parameter-set] `wiki/parameter-sets/schule-volksschule-ch.json` NEU eingetroffen aus dem
+  Task `wettbewerbs-dna-training` (Etappe 3, Baustein B5). Abgeleitet ausschliesslich aus den
+  established Mustern `kennwerte-schulbauten.md` (B6) + `jury-argumente-schulbauten.md` (B4).
+  Schema-validiert (validate.py OK) und durch einen unabhaengigen Refuter-Agenten Wert fuer
+  Wert gegen die Quellen geprueft: VERDIKT BESTANDEN, kein erfundener Kennwert; 2 Praezisierungen
+  eingearbeitet (geschosse_min 3→1 wegen belegtem Dorf-Fall Grossaffoltern; Regelklasse-Fundstelle
+  geschaerft). `chf_m3_gv_band` bewusst NICHT gesetzt (aus Schul-Juryberichten strukturell nicht
+  belegbar — bleibt bei `wissen/grobkosten/`; QUESTIONS wettbewerbs-dna).
+- [index] parameter-sets/INDEX.md: Set unter «Vorhandene» gefuehrt; geplantes `bildung-schulhaus.json`
+  gestrichen (durch dieses Set unter dem abgestimmten Namen realisiert, vgl. Koordinationspunkt
+  CHANGELOG 2026-07-20). Damit die am 20.07. offene Namens-Abstimmung geschlossen.
+
 ## 2026-07-20 (2. Eintrag, Phase-2-Fixes aus dem Erst-Audit, Dauerschicht-Zyklus 25)
 - [index] Haupt-INDEX: wohnen-mfh-urban ergaenzt, [[...]]-Links auf JSONs durch relative
   Links ersetzt (Konvention), Ankuendigung schule-volksschule-ch.json aus wettbewerbs-dna B5.

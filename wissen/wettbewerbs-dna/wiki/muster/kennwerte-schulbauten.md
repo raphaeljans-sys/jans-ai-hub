@@ -232,11 +232,12 @@ Schülerinnen und Schüler bei 6 Kindergarten- und 6 Primarklassen.
   Grössenordnung; CHF/m³ weiterhin aus `wissen/grobkosten/` (hier nicht belegbar).
 - **Skill `volumenstudie` / `machbarkeit`:** 900-m²-Schwelle als harte Entwurfsregel;
   GV/GF 3.8–4.5 m³/m² nur als Arbeitsannahme.
-- **Parameter-Set:** noch nicht angelegt. Baustein B5 (nächster Lauf) leitet daraus
-  `wissen/entwurfs-referenzen/wiki/parameter-sets/schule-volksschule-ch.json` ab —
-  belegbar sind daraus insbesondere `flaechen.nf_gf_faktor` (0.53),
-  `flaechen.hnf_pro_einheit_m2` (Klassenzimmer 64–75 m²) und die Entwurfsregel
-  «GF je Geschoss < 900 m²». `kosten_referenz.chf_m3_gv_band` bleibt offen (Abschnitt 0).
+- **Parameter-Set:** angelegt (Baustein B5, 21.07.2026):
+  `wissen/entwurfs-referenzen/wiki/parameter-sets/schule-volksschule-ch.json` (v1.0),
+  schema-valide + refuter-BESTANDEN. Belegt gesetzt insbesondere `flaechen.nf_gf_faktor`
+  (0.53), `flaechen.hnf_pro_einheit_m2` (Klassenzimmer 64–75 m²) und die Entwurfsregel
+  «GF je Geschoss < 900 m²»; `kosten_referenz.chf_m3_gv_band` bewusst weggelassen
+  (Abschnitt 0, bleibt bei `wissen/grobkosten/`).
 
 ## Verifikations-Hinweis (20.07.2026)
 

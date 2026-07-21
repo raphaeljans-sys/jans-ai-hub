@@ -1,5 +1,25 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-21 — Etappe 3, Baustein B5 Schulbau erledigt (Task wettbewerbs-dna-training, MacBook Pro Nachtlauf)
+- **Schulbau (Prio 1) damit vollstaendig abgeschlossen (B1–B6).** Neues maschinenlesbares
+  Parameter-Set in der Nachbar-KB: `entwurfs-referenzen/wiki/parameter-sets/schule-volksschule-ch.json`
+  (v1.0). Rein aus den beiden established Mustern dieser KB abgeleitet — `muster/kennwerte-schulbauten.md`
+  (B6) + `muster/jury-argumente-schulbauten.md` (B4); ausschliesslich belegte Werte.
+- Belegt gesetzt u.a.: `flaechen.nf_gf_faktor` 0.53 (HNF/GF-Band 0.52–0.54), `hnf_pro_einheit_m2`
+  [64,75] Klassenzimmer, `gebaeude.erschliessung` atrium, `geschosse` 1–5, 14 Entwurfsregeln
+  (900-m2-Schwelle, 2:1 Klassen:Gruppenraum, Cluster 3–4, Eck-Klassenzimmer zweiseitig belichtet,
+  KG/Primar-Durchmischung, Glasanteil <50 %, Vorpruefungs-Korridor ±20 %). `chf_m3_gv_band`
+  bewusst weggelassen (B6-Strukturbefund: aus Schul-Juryberichten nicht belegbar → QUESTIONS,
+  bleibt bei `wissen/grobkosten/`).
+- Verifikation: validate.py OK (schema-valide) + 1 unabhaengiger Refuter-Agent (Hauptmodell)
+  hat jeden Kennwert/jede Regel/jedes Referenzprojekt Wert-fuer-Wert gegen die Quelldateien
+  zurueckgeprueft: **VERDIKT BESTANDEN**, kein erfundener Kennwert. 2 Praezisierungen eingearbeitet
+  (`geschosse_min` 3→1 wegen belegtem Dorf-Fall Grossaffoltern; Regelklasse-Fundstelle geschaerft).
+- Bookkeeping: `training/ETAPPE-3.md` (Stand-Tabelle Schulbau abgeschlossen + Lauf-Log-Zeile),
+  `wiki/INDEX.md` (Stand), `muster/kennwerte-schulbauten.md` §8 (Vorwaertsverweis auf «angelegt»
+  aktualisiert), Nachbar-KB `entwurfs-referenzen` (parameter-sets/INDEX + CHANGELOG). Naechste
+  offene Zelle: **Healthcare (Prio 2), B1 Quellen-Sweep**.
+
 ## 2026-07-21 — Erster Wissens-Health-Check (Phase 1, Skill wissenscheck, Mac Mini Nachtschicht)
 - Kurzbefund (Audits A-G): A 2 Widersprueche — u.a. `kennwerte-schulbauten.md`/
   `QUESTIONS.md` fuehren den GF-Wert von 2206 Schoental als ungeloesten

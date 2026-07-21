@@ -1,10 +1,14 @@
 # INDEX — KB wettbewerbs-dna
 
-Stand: 20.07.2026 (Etappe 3, **Baustein B6 Schulbau erledigt**: neuer Muster-Artikel
+Stand: 21.07.2026 (Etappe 3, **Baustein B5 Schulbau erledigt — Schulbau (Prio 1) damit
+VOLLSTAENDIG abgeschlossen, B1–B6**: maschinenlesbares Parameter-Set
+`entwurfs-referenzen/wiki/parameter-sets/schule-volksschule-ch.json` (v1.0) rein aus den
+established Mustern B6 + B4 abgeleitet, schema-valide + refuter-BESTANDEN; nur belegte Werte,
+`chf_m3_gv_band` bewusst weggelassen. Naechste offene Zelle: **Healthcare (Prio 2), B1
+Quellen-Sweep**.) — vorher 20.07.2026 (Etappe 3, **Baustein B6 Schulbau erledigt**: neuer Muster-Artikel
 `muster/kennwerte-schulbauten.md` aus 25 Quellen, 431 von 436 Kennzahlen refuter-
 bestaetigt. Tragfaehigster Kennwert: HNF/GF 0.52–0.54 aus zwei unabhaengigen Quellen.
-Strukturbefund: CHF/m3 GV ist aus Schul-Juryberichten nicht belegbar. Naechste offene
-Zelle: B5 Parameter-Set Schulbau.) — vorher 14.07.2026 (Etappe-3-Nachbrenner: **alle 9 verbliebenen Draft-Destillate auf
+Strukturbefund: CHF/m3 GV ist aus Schul-Juryberichten nicht belegbar.) — vorher 14.07.2026 (Etappe-3-Nachbrenner: **alle 9 verbliebenen Draft-Destillate auf
 established gehoben** — parallele Refuter-Welle gegen `raw/extern-jurybericht-*.txt`
 fuer hinter-gaerten-riehen, kantonsschule-baden, niederrohrdorf,
 oberstufe-schoenau-steffisburg, ochsenmatt-4-menzingen, schulhaus-littau-luzern,
