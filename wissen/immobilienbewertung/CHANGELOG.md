@@ -2,6 +2,17 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-21 — Wissens-Chef Run 11 (Cross-KB): führende Wuest-Median-Quelle in realwert verlinkt
+- Cross-KB-Lauf Kennwert-Dreieck grobkosten ↔ immobilienbewertung ↔ kostenschaetzung/referenzen (Run 11).
+  **0 Zahlen-Widerspruch** — alle deckungsgleichen Kennwerte (4'360/Quantile 3'460-7'250, 4'800, 2'840/2'330,
+  ~1'020 CHF/m³) exakt identisch; Faktor 0.70/0.60-61 kontextabhängig aufgelöst (E1); Doppelzählungs-Guard
+  (Run 4) weiter gültig.
+- **wiki/realwert-sachwert.md:** die eigenständig aus dem Wüest-Kurs (S.33) getragenen Median-/Quantilswerte
+  an die laut Rollen-Matrix führende Quelle `skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-
+  Wohnen-CHF-m2.md` verlinkt (grobkosten verwies bereits korrekt, immobilienbewertung nicht).
+- **Nur gemeldet:** realwert-BFS-Teuerung steht noch auf alter Basis (Okt-2020=100) ggü. grobkosten
+  (rebasiert Okt-2025=100) — KB-intern (Abgleich mit `investorenmarkt-makro`), durch ±25%-Spanne abgesichert.
+
 ## 2026-07-21 — Training-Run 39: Delta-Null-Bestaetigungslauf (kein neuer Befund)
 
 - **Kein neuer Ingest, keine Artikelaenderung.** KB unveraendert saturiert; kein neuer

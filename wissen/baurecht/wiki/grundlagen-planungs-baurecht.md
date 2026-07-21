@@ -57,12 +57,14 @@ Häufige Bürofrage. SIA-/VSS-Normen sind als Ganzes **kein verbindliches öffen
 Recht** — es gibt drei Stufen:
 
 1. **Verbindliche Normen** — ausdrücklich für verbindlich erklärt (**§ 3 Abs. 12 BBV I**),
-   z. B. **SIA 181 «Schallschutz im Hochbau»**; teilverbindlich SIA 380/1 «Thermische
-   Energie im Hochbau» (S. 85).
+   z. B. **SIA 181 «Schallschutz im Hochbau»** (Norm-Destillat
+   `wissen/normen/destillate/sia-181-2006`; ⚠ neuere Ausgabe SIA 181:2020, Re-Destillat in normen
+   ausstehend); teilverbindlich SIA 380/1 «Thermische Energie im Hochbau» (S. 85).
 2. **Beachtliche Normen** — vom Regierungsrat für massgeblich erklärt (§ 2 lit. a /
    **§ 360 Abs. 3 PBG**); **Abweichung nur «aus wichtigen Gründen»** (S. 85).
 3. **Weitere Normen** — ohne ausdrückliche Verbindlichkeit (SIA 358 «Geländer und
-   Brüstungen», SIA 414/10 «Masstoleranzen», VSS SN 640 291a «Parkierung»); dienen der
+   Brüstungen», SIA 414/10 «Masstoleranzen», VSS 40 291 «Parkierung» (Ausgabe 2021; vormals
+   SN 640 291a — siehe [[fahrzeugabstellplaetze-und-parkierung]])); dienen der
    einheitlichen Rechtsanwendung und sind **Ausdruck der gebotenen Sorgfalt** — faktisch
    oft mitentscheidend (S. 86).
 

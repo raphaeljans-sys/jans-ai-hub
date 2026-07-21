@@ -1,5 +1,16 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-21 — Wissens-Chef Run 11 (Cross-KB): Drift-Guard für den Schulbau-Parameter-Set-Handoff
+- Erst-Check des Rotationspaars wettbewerbs-dna ↔ entwurfs-referenzen am B5-Schulbau-Stoff. Handoff in
+  `entwurfs-referenzen/.../schule-volksschule-ch.json` **inhaltlich korrekt** — alle Kennwerte deckungsgleich
+  (HNF/GF 0.53, Klassenzimmer 64-75, 900-m²-Schwelle, Kostendach 1.6-1.8 Mio/KZ), beidseitig verlinkt,
+  0 Widerspruch.
+- **wiki/muster/kennwerte-schulbauten.md §8:** Drift-Guard ergänzt — das Parameter-Set ist ein eingefrorenes
+  Derivat (v1.0); bei Revision eines Schulbau-Bands (B4/B6) muss es neu abgeleitet und die Version hochgezählt
+  werden (bisher kein Regenerierungs-Trigger festgehalten).
+- **Nur gemeldet (KB-intern):** die aus der Quelle geerbte «23 Juryberichte»-Zahl trägt den vom Health-Check
+  gefundenen 23-vs-22-Zählfehler (Boppartshof fehlt) — beim nächsten Muster-Lauf korrigieren.
+
 ## 2026-07-21 — Etappe 3, Baustein B5 Schulbau erledigt (Task wettbewerbs-dna-training, MacBook Pro Nachtlauf)
 - **Schulbau (Prio 1) damit vollstaendig abgeschlossen (B1–B6).** Neues maschinenlesbares
   Parameter-Set in der Nachbar-KB: `entwurfs-referenzen/wiki/parameter-sets/schule-volksschule-ch.json`

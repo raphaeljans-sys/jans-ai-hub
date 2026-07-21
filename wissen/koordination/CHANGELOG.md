@@ -3,6 +3,27 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-21 — Run 11 (5 Lese-Agenten, 5 Paare; 1 Widerspruch adversarial verifiziert)
+- Gedrosselter Cross-KB-Lauf (Rule 260714): 5 parallele Lese-Agenten über das reguläre Agent-Tool
+  (Workflow-Tool headless weiter nicht nutzbar) am frischen Stoff seit Run 10 — baurecht Buch-Run 50,
+  normen Audit-B, energie Run 83, Zulauf wettbewerbs-dna B5 → entwurfs-referenzen. Ein einziger
+  materieller Widerspruch gemeldet → **1 adversarialer Verifier**; Verdikt **TEILWEISE** (Befund präzisiert).
+- **Kern-Ergebnis: Run-10-Bring-Schuld geschlossen, verifiziert.** baurecht hat die §§ 2a-2e BVV integriert;
+  am raw geprüft fassungsgleich mit energie (Nachtrag 133), 0 Widerspruch, bidirektional verlinkt. Einzig
+  eine geringfügige WP-Schwellen-Doppelspur bleibt als Struktur-Punkt (Trim über KB-Grenze = nicht autonom).
+- **Adversariale Verifikation zahlte sich aus (normen ↔ baurecht):** Der gemeldete «SN 521 500 abgelöst»-Befund
+  wurde zu «Nummer gilt weiter, aber unpräzise Zitierung + Kennwert-Mismatch» korrigiert. SIA 500:2009 regelt
+  «1 je 25 **Parkplätze**», baurecht schreibt «1 je 25 **Wohnungen** / 100 m» — Herkunft offen → Bezeichnung
+  präzisiert + verlinkt, **Zahlenwert NICHT geraten**, als QUESTIONS-Flag hinterlegt.
+- **Aktionen (9 Dateien in 5 KBs, ausschliesslich Links/Präzisierungen/1 Flag):** baurecht (SIA-500-Präzisierung
+  + Kennwert-Flag, SIA-181-Link + Fassungsvorbehalt, VSS 40 291 nachgezogen, VKF-BRL 12-15-Link, QUESTIONS-Titel);
+  energie (Private-Kontrolle-Querbezug, § 11-Angleichung in wta); planungsgrundlagen (Private-Kontrolle-Rücklink);
+  immobilienbewertung (führende Wüest-Quelle verlinkt); wettbewerbs-dna (Schulbau-Drift-Guard).
+- **Register QUERBEZUEGE** um 5 datierte Paar-Einträge ergänzt (1 neues Paar: wettbewerbs-dna ↔ entwurfs-referenzen).
+- **Offene Punkte für Raphael:** keine neuen Entscheide. Zwei Struktur-/Loop-Punkte (WP-Schwellen-Doppelspur baurecht;
+  Private-Kontrolle-Rollen-Trim) + der SIA-500-Kennwert-Flag sind Loop-Arbeit, keine Entscheidung. E1 (Doppelspur
+  Energierecht ZH) bleibt unverändert offen. Bericht: `outputs/2026-07-21_wissens-chef-run11.md`.
+
 ## 2026-07-20 — Run 10 (4 Lese-Agenten, 4 Paare; 0 Widerspruch → 0 Verifikationsrunde nötig)
 - Gedrosselter Cross-KB-Lauf (Rule 260714): 4 parallele Lese-Agenten am frischen Stoff seit Run 9
   (energie Run 81/82, planungsgrundlagen Run 54, auflagebereinigung GVZ-Artikel, kunde-bopp

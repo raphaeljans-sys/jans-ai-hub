@@ -2,6 +2,15 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-21 — Wissens-Chef Run 11 (Cross-KB): Private-Kontrolle-Querbezug zu KB energie
+- Cross-KB-Lauf energie ↔ planungsgrundlagen (Run 11). **wiki/energie-private-kontrolle-zh.md:** parallel
+  geführtes energie-Destillat `wissen/energie/destillate/private-kontrolle-zh` verlinkt (bisher kein
+  gegenseitiger Verweis, obwohl beide dasselbe AWEL-Merkblatt destillieren). pg bleibt führend für das
+  Verfahren (Rollen-Matrix), energie hält den Quellstand. Rollen-TRIM (Substanz zusammenführen) nicht
+  autonom — als offener Struktur-Punkt im Run-11-Bericht.
+- WP-Weichen (innen/aussen/Erdsonde) in `energie-baueingabe-zusatzformulare.md` bereits in korrigierter
+  Fassung, deckungsgleich mit dem energie-BVV-Destillat (Run-10-Fix hält) — 0 Widerspruch.
+
 ## 2026-07-21 — Root-Cause zum Umlaut-Befund gefunden + Infra-Fix (Mac Mini Nachtschicht)
 Die drei heutigen Wissenscheck-Audits (energie, planungsgrundlagen, architekten-synobsis)
 fanden alle dasselbe Muster: flaechendeckende ae/oe/ue-Ersatzschreibungen statt echter

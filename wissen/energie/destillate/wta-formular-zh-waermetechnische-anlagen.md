@@ -70,7 +70,8 @@ im Neubau verboten / im Bestand nur mit Wirtschaftlichkeitsnachweis erlaubt**.
 
 ## Bauherren-Transfer
 - **Heizungsersatz ist meldepflichtig — und der Weg fuehrt fast immer weg von fossil.** Im Neubau
-  ist Oel/Gas verboten (§ 10a). Im Bestand ist ein neuer fossiler Kessel nur mit
+  ist Oel/Gas verboten (§ 11 Abs. 1 EnerG; § 10a EnerG regelt die Effizienz, nicht das Fossilverbot).
+  Im Bestand ist ein neuer fossiler Kessel nur mit
   Wirtschaftlichkeits-/Erneuerbar-Nachweis (EN-LCC-ZH + EN-120) ueberhaupt bewilligungsfaehig —
   praktisch der Push Richtung Waermepumpe oder Fernwaerme.
 - **Welche Beilagen anfallen, haengt an der Waermequelle:** Luft-WP → Laermschutznachweis LN-1a

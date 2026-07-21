@@ -4,6 +4,20 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-21 — Wissens-Chef Run 11 (Cross-KB): Norm-Fundstellen an normen-Destillate angebunden + SIA-500-Kennwert geflaggt
+- Cross-KB-Lauf normen ↔ baurecht (Run 11). Der frische WsG/WsV/BVV-Stoff aus Buch-Run 50 brachte keine
+  neuen SIA/VKF/VSS-Fundstellen; geprüft wurden die stehenden Norm-Nennungen.
+- **Behinderten-Parkplatz (fahrzeugabstellplaetze-und-parkierung.md):** Bezeichnung «SN 521 500»
+  präzisiert auf «SIA 500:2009 «Hindernisfreie Bauten» (vormals SN 521 500:1988), Ziff. 9.7» +
+  Norm-Destillat-Link `wissen/normen/destillate/sia-500-2009`. Adversariale Verifikation ergab einen
+  **Kennwert-Mismatch** (Wiki «1 je 25 Wohnungen / 100 m» vs. SIA 500:2009 «1 je 25 Parkplätze, keine
+  100 m») — Wert NICHT geändert (Herkunft offen), als QUESTIONS-Punkt 2026-07-21 geflaggt.
+- **grundlagen-planungs-baurecht.md:** SIA 181 mit Norm-Destillat-Link + Fassungsvorbehalt (2006 vs.
+  ausstehendes 2020) versehen; «VSS SN 640 291a» auf aktuelle Bezeichnung «VSS 40 291 (2021)» nachgezogen.
+- **bauausfuehrung-und-baukontrolle.md:** VKF-BRL 12-15 (Brandverhütung/organisatorischer Brandschutz)
+  an das normen-Destillat verlinkt.
+- QUESTIONS-Titelzeile Run 10 von «§§ 2a-2c» auf «§§ 2a-2e BVV» korrigiert (Body war bereits korrekt).
+
 ## 2026-07-20 — Buch-Run 50 (Festigungsmodus): 2 beschaffbare Lücken geschlossen — WsG/WsV-Nachzug abgeschlossen + Meldeverfahren §§ 2a-2e BVV integriert
 - [distill] `wiki/baubewilligungsverfahren.md`: **Meldeverfahren als vierter Verfahrenstyp**
   integriert (§§ 2a-2e BVV, LS 700.6) — Tatbestände § 2a (Solar/WP/Fernwärme/E-Ladestation, WP aussen

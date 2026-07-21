@@ -44,6 +44,64 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### baurecht ↔ energie (BVV-Meldeverfahren §§ 2a-2e, Bring-Schuld-Abschluss) — geprueft 2026-07-21 (Run 11)
+- **Anlass:** baurecht Buch-Run 50 (20.07.) hat die §§ 2a-2e BVV integriert = die Run-10-Bring-Schuld.
+- **Verifiziert am raw-BVV.** 0 Widerspruch: §-Zuordnung/Schwellen (2 m³, 2,5 m)/Fristen (30 T) deckungsgleich,
+  BVV **Nachtrag 133** beidseits, EnerG § 11 (nicht § 10a) hält. **Bring-Schuld materiell ERFÜLLT**,
+  QUESTIONS als ✅ ERLEDIGT geführt; bidirektionale Verlinkung vorhanden (Run-10-Fix hält).
+- **Aktion:** QUESTIONS-Titelzeile «§§ 2a-2c» → «§§ 2a-2e» korrigiert (Body war korrekt).
+- **Offen (nicht autonom, Struktur):** geringfügige Doppelspur — baurecht restatet die WP-Detailschwellen
+  (2 m³ / 2,5 m / Lärmschutznachweis), die laut Rollen-Matrix energie führt; trimmbar auf reinen Verweis,
+  aber Trim über KB-Grenze → Bericht (mittel-tief, beide fassungsgleich, nur Pflege-Risiko).
+- **Status: bereinigt; Bring-Schuld geschlossen; 1 offener Struktur-Punkt (WP-Schwellen-Doppelspur).**
+
+### normen ↔ baurecht (Norm-Fundstellen SIA/VKF/VSS + SIA-500-Kennwert) — geprueft 2026-07-21 (Run 11)
+- **Anlass:** normen Audit-B (26 Destillate registriert) + baurecht Buch-Run 50. Der frische WsG/WsV/BVV-Stoff
+  = Bundes-/Kantonsrecht, **keine** neuen SIA/VKF/VSS-Fundstellen → Prüfung an den stehenden Norm-Nennungen.
+- **Befund adversarial verifiziert (TEILWEISE, wichtig):** parkierung.md nannte «SN 521 500» als massgebend.
+  Die **Nummer ist NICHT abgelöst** (persistente SN-Registriernummer der geltenden SIA 500:2009) — der
+  ursprüngliche «veraltete Bezeichnung»-Vorwurf war zu stark. Der **reale Mangel:** (a) unpräzise Zitierung
+  (Ausgabe/Ziffer fehlten) → korrigiert auf «SIA 500:2009, Ziff. 9.7» + Destillat-Link; (b) **Kennwert-Mismatch**
+  — Wiki «1 je 25 **Wohnungen** / 100 m» vs. SIA 500:2009 Ziff. 9.7.2 «1 je weitere 25 **Parkplätze**, keine 100 m».
+  Herkunft des Wiki-Werts offen → **Wert NICHT geändert, geflaggt** (QUESTIONS 2026-07-21).
+- **Aktion (fehlende Querverlink./veraltet, autonom):** SIA 181 (grundlagen) mit Destillat-Link + Fassungs-
+  vorbehalt (2006/⚠2020); «VSS SN 640 291a» → «VSS 40 291 (2021)»; VKF-BRL 12-15 (bauausfuehrung) verlinkt.
+- **Doppelspur:** weitgehend KEIN BEFUND (baurecht diszipliniert, «kein Volltext-/Tabellenzitat»).
+- **Offen (Bring-Schuld normen):** SIA 181:2020 Re-Destillat (bekannt, REGISTER). **Status: bereinigt + verlinkt; 1 Kennwert-Flag, 1 Bring-Schuld.**
+
+### energie ↔ planungsgrundlagen (Private Kontrolle ZH) — geprueft 2026-07-21 (Run 11)
+- **Anlass:** energie Run 83. **0 Widerspruch** zwischen den KBs: WP-Weichen korrigiert-fassungsgleich,
+  WDV §8 Abs.6 (5 kWh/m² Neubau) vs. EN-110-ZH (12 W/m² Bestand) sauber getrennt, EN-104 30-kW übereinstimmend;
+  Formularmatrix EN-101…141 bewusst abgegrenzt (expliziter Querbezug-Block, korrekt umgesetzt).
+- **Befund (mittel):** `energie/destillate/private-kontrolle-zh` und `pg/wiki/energie-private-kontrolle-zh`
+  destillieren dasselbe AWEL-Merkblatt, ohne gegenseitigen Verweis. → **beidseitig verlinkt** (pg führend
+  fürs Verfahren, energie hält Quellstand). Rollen-TRIM (Substanz zusammenführen) nicht autonom → Bericht.
+- **Nur gemeldet (energie-intern):** destillate/INDEX.md Z.166 trägt die in Run 82 widerlegte
+  «Kühlmöglichkeit»-Aussage (Z.167 korrigiert) = Teil der 35 Dubletten-Zeilen (Health-Check 21.07.).
+- **Status: bereinigt + verlinkt; 1 offener Struktur-Punkt (PK-Rollen-Trim); 1 energie-Loop-Backlog gemeldet.**
+
+### grobkosten ↔ immobilienbewertung ↔ kostenschaetzung/referenzen (Kennwerte) — geprueft 2026-07-21 (Run 11)
+- **0 Zahlen-Widerspruch:** alle deckungsgleichen Kennwerte exakt identisch (Wüest-Median 4'360 /
+  Quantile 3'460-7'250 / mind. 4'800 / GF 2'840-2'330 / SIA-2020 MFH 2'800 / m³-Brücke ~1'020 CHF/m³).
+  Faktor 0.70/0.60-61 kontextabhängig aufgelöst (E1-Entscheid 12.07.); **Doppelzählungs-Guard (Run 4) weiter gültig**
+  (beide zitieren dasselbe Prinzip/Datum).
+- **Befund (mittel):** immobilienbewertung `realwert-sachwert` verwies nicht auf die laut Matrix führende
+  Median/Quantile-Quelle (kostenschaetzung-Referenzdatei); grobkosten tat es korrekt. → **Link gesetzt**.
+- **Veraltet (tief, ±25%-Spanne abgesichert):** realwert-BFS-Teuerung auf alter Basis (Okt-2020=100) ggü.
+  grobkosten (rebasiert Okt-2025=100) → KB-intern immo (Abgleich `investorenmarkt-makro`); führende
+  kostenschaetzung-Referenzdatei teuerungsseitig am ältesten Stand (Kernzahl 4'360→4'800 überall gleich).
+- **Status: bereinigt + verlinkt; 2 Veraltet-Nebenpunkte gemeldet (KB-intern/Skill-Referenz).**
+
+### wettbewerbs-dna ↔ entwurfs-referenzen (Schulbau-Handoff B5, Erst-Check) — geprueft 2026-07-21 (Run 11)
+- **Substanzielle Überschneidung JA** (echter Produzent→Konsument-Handoff `schule-volksschule-ch.json`).
+  **0 Kennwert-Widerspruch:** HNF/GF 0.53, Klassenzimmer 64-75, 900-m²-Schwelle, 2:1, Kostendach 1.6-1.8 Mio/KZ
+  deckungsgleich; chf_m3_gv bewusst weggelassen (→grobkosten). Beidseitig verlinkt (Pfad-Strings, cross-KB korrekt).
+  Kein veralteter Stand (B5-Set 21.07. nach B6-Benchmark 20.07., zitiert ihn).
+- **Befund (mittel, prozessual):** JSON = eingefrorenes Derivat v1.0 ohne Regenerierungs-Trigger → **Drift-Guard
+  in kennwerte-schulbauten §8 gesetzt** («bei B4/B6-Änderung neu ableiten»). Führend = wettbewerbs-dna.
+- **Nur gemeldet (KB-intern wettbewerbs-dna):** geerbte «23 statt 22 Juryberichte»-Zählung (Boppartshof fehlt),
+  nf_gf_faktor-Etikett (NF/GF vs. HNF/GF), erschliessung «atrium» als Einzelwert. **Status: verlinkt; Paar neu im Register.**
+
 ### energie ↔ baurecht (§ 2a BVV Wärmepumpen-Meldeverfahren) — geprueft 2026-07-20 (Run 10)
 - **Anlass:** frischer Stoff energie Run 81/82 (§ 2a/§ 2c BVV, LS 700.6, WP-Meldeverfahren; F101-Korrektur).
 - **Null-Ergebnisse (ausdrücklich):** BVV **fassungsgleich** (beide Nachtrag 133, Datei `700.6_3.12.97_133.pdf`);

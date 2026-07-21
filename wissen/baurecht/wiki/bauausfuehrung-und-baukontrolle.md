@@ -107,7 +107,9 @@ Verantwortung bleibt bei Bauherr/Unternehmer/Planer. Faktenbasis Detail: [[08-au
   ZGB), Beweissicherung auf eigene Kosten; nachbarrechtliche Grundlage Art. 679/684 ZGB, Inanspruchnahme
   Nachbargrundstueck §§ 229 ff. PBG (Hammerschlagsrecht → [[11-allgemeine-bestimmungen-baupolizeirecht]]).
 - **Feuerpolizei auf der Baustelle:** seit 2015 Brandschutzrichtlinie «Brandverhuetung/organisator.
-  Brandschutz» (Art. 58 BSN) — Detail **nicht hier**, Skill `brandschutz`.
+  Brandschutz» (Art. 58 BSN; VKF-BRL 12-15, Norm-Destillat
+  `wissen/normen/destillate/vkf-brl-12-15-brandverhuetung-organisatorischer-brandschutz`) — Detail
+  **nicht hier**, Skill `brandschutz`.
 - **Arbeitnehmerschutz:** Bundesrecht **VUV** (Unfallverhuetung) + **BauAV** (Bauarbeiten); Asbestsanierung
   nur durch anerkannte Spezialfirmen mit **SUVA-Meldung** (Art. 60a/60b BauAV). Vollzug SUVA/kant.
   Arbeitsinspektorat, nicht die Baubehoerde.

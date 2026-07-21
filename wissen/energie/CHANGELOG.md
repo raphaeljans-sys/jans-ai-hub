@@ -2,6 +2,19 @@
 
 Neueste zuoberst.
 
+## 2026-07-21 — Wissens-Chef Run 11 (Cross-KB): Private-Kontrolle-Querbezug zu planungsgrundlagen + §-11-Angleichung
+- Cross-KB-Lauf energie ↔ planungsgrundlagen (Run 11). WP-/BVV-Fassungen widerspruchsfrei (NT 133),
+  WDV vs. EN-110-ZH sauber getrennt — 0 Widerspruch zwischen den KBs.
+- **destillate/private-kontrolle-zh.md:** Querbezug-Block gesetzt — planungsgrundlagen ist für das
+  Verfahren/die Zuständigkeit der Privaten Kontrolle führend (Rollen-Matrix); dieses Destillat hält den
+  AWEL-Merkblatt-Quellstand, kein Doppelpflegen. (Gegenrichtung in pg gesetzt.)
+- **destillate/wta-formular-zh-waermetechnische-anlagen.md:** im Bauherren-Transfer stand das
+  Neubau-Fossilverbot fälschlich an «§ 10a», korrigiert auf «§ 11 Abs. 1 EnerG» (§ 10a = Effizienz) —
+  Nachzug der Run-9-Cross-KB-Korrektur, eine übersehene Fundstelle.
+- **Nur gemeldet, nicht geändert (energie-Loop-Backlog):** destillate/INDEX.md Z.166 trägt weiterhin die
+  in Run 82 widerlegte «nur für WP mit Kühlmöglichkeit»-Aussage (Z.167 korrigiert sie); Teil der 35
+  Dubletten-Zeilen aus dem Health-Check 2026-07-21 — beim Dedup mit-entfernen.
+
 ## 2026-07-21 — Run 83: Intensivlauf, 7 parallele Agenten, PDF-Inventar weiterhin erschöpft
 - **PDF-Transfer nicht möglich:** SharePoint PL-04 Energie erneut geprüft (`find -newermt
   2026-07-14`), keine neue/geänderte Datei, weiterhin 134 Dateien total. Vollständig Verdichtungs-/

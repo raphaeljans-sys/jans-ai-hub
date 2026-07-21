@@ -113,7 +113,9 @@ Ertrag von Geschaeftsflaechen grob mit **5.5 % Bruttorendite** rechenbar (S. 37)
 Quervergleiche/Herleitung (alle Werte Datenstand 2021-2023, ⚠ Teuerung seither pruefen):
 - WP-Baukostenanalyse (Daten bis 2021): Median Wohnen Vollausbau **BKP 1-5 ~4'360 CHF/m2
   HNF** (Quantile 1.0-5.0: 3'460-7'250), BKP 2 ~3'580; pro m2 GF: BKP 1-5 Median 2'840,
-  BKP 2 Median 2'330. Inkl. Teuerung 2023: **mind. 4'800 CHF/m2 HNF** (S. 33).
+  BKP 2 Median 2'330. Inkl. Teuerung 2023: **mind. 4'800 CHF/m2 HNF** (S. 33). Fuehrende Quelle
+  fuer die Wuest-Median-/Quantilswerte (Rollen-Matrix Wissens-Chef):
+  `skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md`.
 - SIA-Kurs «Baukosten- und Terminschaetzung» (Stand 2020): MFH Median BKP 2 = 2'800 CHF/m2
   GF → /0.70 HNF-Effizienz = 4'000 CHF/m2 HNF → +20 % Teuerung = 4'800 (S. 34).
 - Studie Kostenklarheit Stadt Zuerich (2012, grosse kostenguenstige Ueberbauungen):

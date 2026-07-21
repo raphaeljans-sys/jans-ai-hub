@@ -5,7 +5,18 @@ geplante Artikel. Der Health-Check (`wissenscheck`) prüft, ob bereits geflaggte
 Lücken erneut auftauchen (Doppel-Flag vermeiden) und ob sie inzwischen geschlossen
 wurden.
 
-## 2026-07-20 (Cross-KB Wissens-Chef Run 10) — Meldeverfahren §§ 2a-2c BVV als eigener Verfahrenstyp fehlt → ✅ ERLEDIGT (Buch-Run 50, 2026-07-20)
+## 2026-07-21 (Cross-KB Wissens-Chef Run 11) — SIA-500-Behinderten-Parkplatz-Kennwert vs. Normtext klären
+
+`wiki/fahrzeugabstellplaetze-und-parkierung.md` nennt für Behinderten-Parkplätze «1 Platz je **25 Wohnungen**
+(min. 1) + 1 je Besucher-Standort, Gehdistanz max. **100 m**». Adversariale Verifikation (Run 11) am
+normen-Destillat `sia-500-2009` ergab: SIA 500:2009 Ziff. 9.7.2/9.7.3 regelt «mind. 1 für Bewohner +
+1 je weitere **25 Parkplätze** + mind. 1 für Besucher», **ohne** 100-m-Gehdistanz. Der Wiki-Wert stammt
+also nicht aus SIA 500:2009 (vermutlich abgelöste Ausgabe 1988 oder eine ZH-Parkierungs-Wegleitung).
+**Zu tun:** wahre Quelle des Kennwerts belegen, dann Wert auf SIA 500:2009 Ziff. 9.7 angleichen ODER die
+Quelle korrekt benennen. Bezeichnung/Ausgabe/Ziffer + Norm-Destillat-Link sind in Run 11 gesetzt, der
+**Zahlenwert** bleibt offen (nicht raten). Die SN-Nummer 521 500 ist nicht abgelöst — nur die Ausgabe 1988.
+
+## 2026-07-20 (Cross-KB Wissens-Chef Run 10) — Meldeverfahren §§ 2a-2e BVV als eigener Verfahrenstyp fehlt → ✅ ERLEDIGT (Buch-Run 50, 2026-07-20)
 
 ~~`wiki/baubewilligungsverfahren.md` enumeriert nur bewilligungsfrei / Anzeigeverfahren / ordentliches
 Verfahren; das **Meldeverfahren (§§ 2a-2c BVV, LS 700.6)** — der vierte ZH-Verfahrenstyp — fehlt.~~

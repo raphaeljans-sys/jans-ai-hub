@@ -237,7 +237,9 @@ Schülerinnen und Schüler bei 6 Kindergarten- und 6 Primarklassen.
   schema-valide + refuter-BESTANDEN. Belegt gesetzt insbesondere `flaechen.nf_gf_faktor`
   (0.53), `flaechen.hnf_pro_einheit_m2` (Klassenzimmer 64–75 m²) und die Entwurfsregel
   «GF je Geschoss < 900 m²»; `kosten_referenz.chf_m3_gv_band` bewusst weggelassen
-  (Abschnitt 0, bleibt bei `wissen/grobkosten/`).
+  (Abschnitt 0, bleibt bei `wissen/grobkosten/`). ⚠ **Kein Auto-Sync (Cross-KB Run 11):** das
+  Parameter-Set ist ein eingefrorenes Derivat (v1.0) dieser Muster; wird ein Schulbau-Band hier
+  (bzw. in Baustein B6) revidiert, muss das Set neu abgeleitet und die Version hochgezaehlt werden.
 
 ## Verifikations-Hinweis (20.07.2026)
 

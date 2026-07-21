@@ -150,8 +150,14 @@ als Abs. 2; die aktuelle §-Zaehlung fuer Reverse/Bewilligungen ist Abs. 3.)*
   (Bedarfsermittlung/Standortwahl Motorradparkierung) erst in Erarbeitung (Stand 2025); bis dahin
   gilt in der Praxis vielerorts ein Richtwert von 10 % der zu erstellenden PW-Abstellplaetze
   (vgl. auch **Art. 8ter PPV Stadt Zuerich**: mind. 1/10 der minimal erforderlichen PW-Plaetze).
-- **Behinderte**: keine PBG-Regel, massgebend **SIA-Norm SN 521 500** — **1 Platz je 25
-  Wohnungen** (min. 1) + **1 je Besucher-Standort**, Gehdistanz Richtwert **max. 100 m**.
+- **Behinderte**: keine PBG-Regel, massgebend **SIA 500:2009 «Hindernisfreie Bauten»** (vormals
+  SN 521 500:1988 «Behindertengerechtes Bauen» — die SN-Nummer 521 500 bleibt gueltig, abgeloest ist
+  nur die Ausgabe 1988), Ziff. 9.7; Norm-Destillat `wissen/normen/destillate/sia-500-2009`.
+  Bisheriger Wiki-Wert: **1 Platz je 25 Wohnungen** (min. 1) + **1 je Besucher-Standort**, Gehdistanz
+  Richtwert **max. 100 m**. ⚠ **Kennwert zu verifizieren (Cross-KB Run 11):** SIA 500:2009 Ziff. 9.7.2/9.7.3
+  regelt «mind. 1 fuer Bewohner + 1 je weitere 25 **Parkplaetze** + mind. 1 fuer Besucher» (nicht «25
+  Wohnungen»), **ohne** 100-m-Gehdistanz; die Herkunft des hier genannten Werts (Ausgabe 1988 oder eine
+  ZH-Parkierungs-Wegleitung) ist offen und vor Anwendung zu belegen, nicht aus dieser Zeile zu uebernehmen.
 
 ## Spiel- und Ruheflaechen (§ 248 PBG)
 
