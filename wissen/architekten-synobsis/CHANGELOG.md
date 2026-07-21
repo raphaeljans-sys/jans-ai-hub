@@ -4,6 +4,19 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-07-21 — Wissens-Health-Check (Phase 1, Skill wissenscheck, Mac Mini Nachtschicht)
+Erster Check seit dem Aufbau der Stufe-3-Kuratierungs-Wiki (02.–03.07.); der Check vom 01.07.
+kannte `wiki/` noch nicht. Skriptgestuetzter Backlink-Abgleich `THEMEN.md` (697 Slugs) gegen
+`INDEX.md` (849 Eintraege): **0 tatsaechlich toter Link**, aber 38 Unterstrich-vs-Leerzeichen-
+und 6 Sonderzeichen/Umlaut-Format-Inkonsistenzen (alle gegen `catalog/<slug>.json` verifiziert,
+Katalogdatei existiert je). **Top-Finding: 32 Umlaut-Ersatzschreibungen in `wiki/INDEX.md`**
+(fuer/ueber/moeglich/…, Stichwortsuche) — deckt sich mit dem identischen Befund derselben Nacht
+in den KBs `energie` und `planungsgrundlagen` (drittes von drei Mac-Mini-KBs, staerkt den
+Verdacht auf eine gemeinsame Ursache im Kuratierungs-/Trainings-Loop). `wiki/QUESTIONS.md` seit
+Kuratierungs-Abschluss 03.07. inhaltlich eingefroren (konsistent mit dem bekannten, bereits
+mehrfach eskalierten Befund: Scan-Batch seit 02.07. ohne neuen Quellstoff). Nichts selbst
+korrigiert (Phase 2 nur interaktiv). Report: `outputs/2026-07-21_health-check.md`.
+
 ## 2026-07-21
 - Nacht-Batch (`synobsis-batch-nacht`, Mac Mini, 02:18–02:19): Ergebnis wie die ganze Serie seit 2026-07-13 — 853/853, offen 0, `vectors.npz` deterministisch neu geschrieben (853 × 768), kein inhaltlicher Diff, nur Zeitstempel in `INDEX.md`/`cad-index.json` (`git diff --stat`: 2 files, 2 ins, 2 del). Quelle unabhaengig gegengeprueft: unveraendert 854 Top-Level-Verzeichnisse (853 Architekten + `00_Organisation`), juengste Architekten-Ordner-Aenderung `HdM`, 07.04.2026 — kein neuer Stoff seit dem Katalog-Stand 2026-07-02 (19 Tage). Stufe 2 per Stichprobe funktionsgeprueft (`--semantic "introvertierter Hof Beton Kapelle"` → plausible Rangfolge, Top-Score 0.85). **Empfehlung an Raphael zum neunten Mal in Folge: Scheduled Task `synobsis-batch-nacht` loeschen oder pausieren** — Endbedingung erreicht, Regel 260712b; damit 19 ergebnislose Wiederholungslaeufe seit dem 13.07. Nicht selbst umgesetzt (Task-Auftrag deckt keine Konfigurationsaenderung). Protokoll: `outputs/2026-07-21_batch-lauf.md`.
 

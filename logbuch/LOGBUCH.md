@@ -7,6 +7,23 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-21
 
+**Nachtschicht-Zyklus Mac Mini (~05:30) — Wissens-Health-Check KB architekten-synobsis (Phase 1, Skill wissenscheck).**
+Doppelarbeit-Guard geprueft (dispatch/log/ inhaltlich, CHANGELOGs, Fristen-Register): alle
+vorrangigeren Prioritaeten leer/erschoepft (remote-tasks/sync-tasks leer, Synobsis-Scan
+853/853 seit 02.07. saturiert, energie/planungsgrundlagen/normen heute Nacht bereits geprueft
+bzw. trainiert, Fristen-Register aktuell ohne neu draftbaren Punkt). Genommen: Wissenscheck
+Phase 1 auf `architekten-synobsis` — mit 20 Tagen (01.07.) der aelteste Audit unter den vier
+Mac-Mini-KBs. Erster Check seit Aufbau der Stufe-3-Kuratierungs-Wiki (02.–03.07.): Backlink-
+Abgleich `THEMEN.md` (697 Slugs) gegen `INDEX.md` (849 Eintraege) skriptgestuetzt — 0 echte
+Bruecke, aber 38 Unterstrich-vs-Leerzeichen- und 6 Sonderzeichen/Umlaut-Format-Inkonsistenzen
+(alle gegen Katalogdatei verifiziert). **Top-Fund: 32 Umlaut-Ersatzschreibungen in
+`wiki/INDEX.md`** — drittes von drei Mac-Mini-KBs mit demselben Muster diese Nacht (nach
+energie und planungsgrundlagen), staerkt den Verdacht auf eine gemeinsame Ursache im
+Kuratierungs-/Trainings-Loop. `QUESTIONS.md` seit 03.07. konsistent eingefroren (kein neuer
+Quellstoff, bekannt/bereits eskaliert). Nichts selbst korrigiert (Phase 2 nur interaktiv).
+Report `wissen/architekten-synobsis/outputs/2026-07-21_health-check.md`, CHANGELOG ergaenzt.
+Kosten dieses Zyklus ca. 2.7 USD von 5 USD Budget. Zyklus sauber beendet.
+
 **Nachtschicht-Zyklus Mac Mini (~04:30) — Wissens-Health-Check KB planungsgrundlagen (Phase 1, Skill wissenscheck).**
 Doppelarbeit-Guard geprueft: alle vorrangigeren Baustellen (remote-tasks/sync-tasks leer,
 synobsis seit 13.07. ergebnislos/kein neuer Stoff, energie/normen heute bereits bearbeitet,
