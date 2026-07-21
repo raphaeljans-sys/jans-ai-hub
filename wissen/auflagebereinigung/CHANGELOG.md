@@ -2,6 +2,20 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-21 — Wissens-Health-Check (Phase 1, Skill wissenscheck, Mac Mini Nachtschicht)
+Audit A–G, Report `outputs/2026-07-21_health-check.md`. Ampel: B/C grün, D/E/G orange, A/F rot.
+Top-Finding: der am 01.07. gefundene SPA=SAN/SPR-Widerspruch (`brandschutz-auflagen-qss.md`
+Z. 50 vs. `auflagentypen-gewerkzuteilung.md`) ist 20 Tage später unverändert unkorrigiert,
+obwohl die Datei am 20.07. für den GVZ-Cross-Link bereits geöffnet/editiert wurde. Neuer
+schwerer Befund: `formular-verifizierung.md` (0 echte Umlaute) und der heute frisch erstellte
+`gvz-einreichung-bma-sprinkler.md` (MacBook-Pro-Dauerschicht-Zyklus 21) sind fast vollständig
+in ae/oe/ue statt ä/ö/ü geschrieben — Hinweis, dass die um 06:30 behobene Locale-Ursache
+(training-energie/-plg/synobsis-batch) mutmasslich nicht jeden Erzeugungspfad abdeckt, auch
+die MacBook-Dauerschicht-Kette scheint betroffen. Zusätzlich: einer der beiden am 01.07. als
+"geklärt" gemeldeten QUESTIONS-Punkte (Adressdiskrepanz Lenggstrasse/Lengstrasse) erweist sich
+bei Gegenprüfung als **nicht** durch den zitierten Beleg gedeckt — bleibt echt offen. Nichts
+selbst korrigiert (Phase 2 nur interaktiv).
+
 ## 2026-07-20 — Wissens-Chef Run 10 (Cross-KB): GVZ-Artikel an normen-Fundstellen angebunden
 - [link] `wiki/gvz-einreichung-bma-sprinkler.md`: Querbezug-Block «KB normen» — die aus den
   GVZ-Weisungen gespiegelten Anmeldeschwellen (BMA >10/600 m², SPA >10/100 m²) und die

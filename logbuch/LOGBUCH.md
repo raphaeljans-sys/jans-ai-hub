@@ -7,6 +7,27 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-21
 
+**Nachtschicht-Zyklus Mac Mini (~07:30) — Wissenscheck Phase 1 auf `auflagebereinigung`.**
+Doppelarbeit-Guard geprueft (dispatch/log/ inhaltlich, CHANGELOGs): Prioritaeten 1–5 leer/
+erschoepft, Mac-Mini-Kern-KBs (energie, planungsgrundlagen, synobsis, normen DIN/VSS/RAL)
+bereits diese Nacht wissenscheck-geprueft bzw. saturiert. Genommen: Wissenscheck Phase 1 auf
+`auflagebereinigung` (mit `baurecht`/`twin`/`immobilienbewertung`/`spec`/`kunde-bopp`/
+`firmengruendung-ch`/`grobkosten`/`projekt-lessons` gemeinsam aeltester Audit, 01.07., 20 Tage;
+nicht in der Arbeitsteilungs-Liste einer Station, daher konfliktfrei). Top-Fund: derselbe
+SPA=SAN/SPR-Gewerk-Widerspruch aus dem 01.07.-Check ist 20 Tage spaeter unveraendert
+unkorrigiert, obwohl die betroffene Datei am 20.07. bereits editiert wurde — konkreter Beleg,
+dass Health-Check-Empfehlungen ohne Phase-2-Session folgenlos bleiben. Neuer Befund:
+`formular-verifizierung.md` (0 echte Umlaute) und der heute frisch erstellte
+`gvz-einreichung-bma-sprinkler.md` (**MacBook-Pro-Dauerschicht-Zyklus 21**) verletzen die
+Umlaut-Konvention fast vollstaendig — Hinweis, dass die um 06:30 auf dem Mac Mini behobene
+Locale-Ursache (training-energie/-plg/synobsis-batch) mutmasslich nicht die MacBook-Dauerschicht-
+Kette abdeckt; nicht weiter untersucht (ausserhalb Phase-1-Scope, Budget-Disziplin). Zusaetzlich:
+einer der beiden am 01.07. als "geklaert" gemeldeten QUESTIONS-Punkte (Adressdiskrepanz
+Lenggstrasse/Lengstrasse) haelt der Gegenpruefung nicht stand — bleibt echt offen, der zitierte
+Beleg klaert eine andere Adressfrage. Nichts selbst korrigiert (Phase 2 nur interaktiv). Report:
+`wissen/auflagebereinigung/outputs/2026-07-21_health-check.md`. Kosten dieses Zyklus ca. 2.9 USD
+von 5 USD Budget.
+
 **Logbuch-Radar (Dienstag, 07:00) — NAS wieder online, ruhiges Fenster, harte Frist heute.** Quellen: Register + Journal, Konversations-Destillat 21.07., bexio `--verzug`, Mail-Vorfilter alle Apple-Mail-Konten (rj@/mail@, iCloud; Posteingang + Gesendete), Outlook-/iCloud-Kalender 7 Tage. **Erledigt seit gestern:** Buero-Ausfall behoben (NAS + Mac Mini seit 20.07. ca. 09:30 online, Dauerschicht/Nachtschicht verifiziert LIVE); Token-Rotations-Bug in `claude-usage.mjs` implementiert (nur Re-Login durch Raphael offen); Spec SYN-02 Interview abgeschlossen (E1–E9 bestaetigt, Umsetzung `volumen_generator.py` steht aus). **Aktiv/neu:** Thalwil 2414 — SBB (Wiedmer 20.07. 11:39) versendet die Naeherbaurechts-Vereinbarung per Post an die Eigentuemerschaft zur Unterschrift (von SBB- auf Eigentuemer-Unterschrift verschoben), SBB will zusaetzlich das aktualisierte Naeherbaurecht als Teil der Auflagebereinigung → JANS-Bringschuld; KISPI Auflagebereinigung Feuerpolizei — RJ fordert 20.07. 22:38 VKF-Nachweise LBW (W320/W340/W430/W440) bei Ziegel an, Ball bei Gruner (OOO). Drei Selbstfristen (Jegen 24.07., Roethlisberger 24.07./31.07.) in die bestehenden Los-Zeilen konsolidiert; LBW-Beschichtungs-Fachfrage weiterhin unbeantwortet (Usage-Limit). **Ueberfaellig:** RE-00087 (KISPI, CHF 15'000) 96 Tage auf Mahnung 2, Entscheid Stufe 3 / Betreibung offen; RE-00098/99 (KISPI) je 1 Tag ueber Frist. **Heute hart:** Jegen Prinzippläne Los 274.01, 7 Entscheide brauchen Raphael. **Kalender:** Koordinationssitzung 23.07. 13:00–14:00. Briefing an rj@ versendet.
 
 **Nachtschicht-Zyklus Mac Mini (~06:30) — Root-Cause des Umlaut-Befunds gefunden + Infra-Fix.**
