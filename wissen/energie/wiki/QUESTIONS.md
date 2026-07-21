@@ -1031,3 +1031,48 @@ reguläre Agent-Tool gestartet, funktional gleichwertig (gleiche Parallelität, 
 Schreibkonflikt-Vermeidung durch getrennte Dateibereiche je Agent + zentrale Registerpflege durch
 den Hauptagenten). Für künftige Läufe: Workflow-Tool-Verfügbarkeit vorab kurz testen, sonst direkt
 auf Agent-Parallelisierung ausweichen, um keine Zeit zu verlieren.
+
+## Run 83 (2026-07-21) — sieben parallele Agenten, PDF-Inventar weiterhin erschöpft
+
+Direkt auf Agent-Parallelisierung gesetzt (Workflow-Tool nicht erneut versucht, gemäss Run-82-
+Empfehlung). SharePoint PL-04 Energie erneut geprüft, keine neue Datei seit 14.07.2026.
+
+- [x] **Galgenen Bodenwiesweg-Verfügbarkeitslücke (aus Run 82)** geschlossen ✓ 2026-07-21: reale,
+  noch nicht erschlossene Randlage (5/5 Adressen konsistent nicht verfügbar), Dorfkern (17 Adressen
+  Schulstrasse/Untergasse/Obergasse/Altersheimstrasse) längst am Netz → `[[fernwaerme-anschlusskosten-zh]]`.
+- [x] **Freienbach-Rollout-Widerspruch (aus Run 82)** geschlossen ✓ 2026-07-21: kein Widerspruch,
+  Freienbach-Dorfzentrum als Netzerweiterung ab Pfäffikon bereits seit ca. 2025/26 erschlossen,
+  «ab 2028» betrifft nur abgesetzte Ortsteile (Bäch, 6/6 Adressen ohne Verfügbarkeit als Gegenprobe).
+- [x] **Segment-2-Formel Fernwärme > 168 kW (aus Run 82)** erweitert ✓ 2026-07-21: 4 neue
+  Grossobjekt-Stützpunkte (162/188/202/290 kW), Formel über 30 Stützpunkte bestätigt/verfeinert,
+  290-kW-Ausreisser (Galgenen Schulstrasse 1) bewusst nicht in Regression einbezogen.
+- [ ] **Neu:** Pfäffikon SZ Churerstrasse 100/104 (Sonderfall, weder Preis noch «nicht verfügbar»)
+  weiterhin ungeklärt; 290-kW-Ausreisser mit weiteren Stützpunkten >200 kW nachverdichten.
+- [x] **SIA-279-Bemessungswert-Zuschlagsformel Naturdämmstoffe** geschlossen ✓ 2026-07-21: kein
+  fester Zuschlag, Einzelfallentscheid der SIA-279-Kommission (Ziff. 3.2.2.1/3.2.2.2) — Formel
+  existiert bewusst nicht generisch.
+- [x] **VKF-Register Stroh-Dämmung** Negativbefund erneut bestätigt (variierte Methode: Suche nach
+  gebauten Referenzobjekten statt Zulassungen), aber echter Praxispfad gefunden: Siedlung
+  «Im Vogelsang», Nänikon ZH, R 60, Ansprechpartner B3 Gruppe AG → FAQ F102.
+- [x] **KBOB/SIA-2032 kg CO2-eq/m² je Bauteil** — Lücke aus D2 geschlossen ✓ 2026-07-21 über zwei
+  frei zugängliche Quellen (Minergie/eco-bau-Grenzwerttabelle 2021 + Wüest/Lignum/BAFU-Vergleich
+  2025) → FAQ F103. Bleibt offen: kostenpflichtige KBOB-Ökobilanzdaten v8.0 für projektgenaue Werte.
+- [x] **Wärmebrückenkatalog Gruppe 6.2** — kein neuer Fund nötig, war bereits seit 13.07.2026
+  vollständig destilliert; curriculum.md-Verweis ist stale (zur Bereinigung vorgemerkt).
+- [x] **SIA 380/1:2016 Q_H,li-Grenzwerte je Kategorie** — Lücke aus A2 geschlossen ✓ 2026-07-21,
+  drei unabhängige Sekundärquellen zahlengleich (EN-102-Vollzugshilfe KKE/EnDK, ZH-
+  Anforderungsprofil 16.01a, ENTECH-Handbuch) → FAQ F104. Zusatzfund: amtliches ZH-Testbeispiel
+  bestätigt Pflegeheim-Rechenpraxis (Pflegestation=Kat. VIII, Wohnen=Kat. I). Bleibt offen: exakte
+  Kombinationsformel Gebäudehüllzahl-Steigungswert × Klimastations-Korrektur.
+- [x] **Adversarial Verify Minergie-THGE-Kennzahlen** ✓ 2026-07-21: Produktreglement 2026.1 (frisch
+  abgerufen) zeigt angehobene THGE-Grenzwerte gegenüber der 2023er-Kursunterlage (Wohnen MFH 11,5
+  statt 11, Spital 18,5 statt 17 kg CO2-eq/m²·a) — Fehlerfund/Aktualisierung, kein Fixwert-Fehler.
+  MKZ 51/46/29 als Richtwert (nicht Reglement-Fixwert) präzisiert.
+- [x] **Adversarial Verify ZH-Förderprogramm 2026, Runde 2** ✓ 2026-07-21: 20/20 CHF-Sätze am
+  frisch gezogenen amtlichen PDF (SHA-256-verifiziert) unverändert bestätigt, kein Fehlerfund;
+  KRNr-6064-Verfahrensstand unverändert (Kommission KEVU, Schlussabstimmung weiterhin ausstehend,
+  nächste Prüfung nach 17.08.2026).
+
+**Nicht bearbeitet in Run 83 (bewusst zurückgestellt):** E92/E95 (SMGV-Merkblatt Nr. 70,
+kostenpflichtig), E103 (Pflegeplatz-Kennwert), E84 (ZH-Solarpflicht-Beratungstermin) — alle
+weiterhin Entscheid Raphael nötig bzw. bewusst pausiert.

@@ -2,6 +2,38 @@
 
 Neueste zuoberst.
 
+## 2026-07-21 — Run 83: Intensivlauf, 7 parallele Agenten, PDF-Inventar weiterhin erschöpft
+- **PDF-Transfer nicht möglich:** SharePoint PL-04 Energie erneut geprüft (`find -newermt
+  2026-07-14`), keine neue/geänderte Datei, weiterhin 134 Dateien total. Vollständig Verdichtungs-/
+  Verifikationspfad, Themenanzahl (7) als Vollgas-Massstab statt PDF-Anzahl.
+- **[neu] F102** Strohdämmung ohne VKF-Registereintrag, Praxisfall Nänikon ZH (R 60) →
+  `[[naturdaemmstoffe-bemessungswerte-brandverhalten]]`. SIA-279-Zuschlagsformel-Frage geschlossen
+  (kein fester Zuschlag, Einzelfallentscheid Kommission).
+- **[neu] F103** kg CO2-eq/m² je Bauteil (Minergie/eco-bau-Tabelle + Wüest/Lignum-Holzbau-Vergleich)
+  → `[[kbob-graue-treibhausgasemissionen-2025]]`, `[[graue-energie]]`.
+- **[neu] F104** alle 12 SIA-380/1:2016-Q_H,li-Grenzwerte je Gebäudekategorie primärquellenbelegt
+  (3 unabhängige Quellen), Pflegeheim-Praxis (Pflegestation=Kat. VIII, Wohnen=Kat. I) →
+  `[[sia-380-1-2016-aenderungen-gegenueber-2009]]`.
+- **[korrigiert] F5** Adversarial Verify Minergie-Kennzahlen: Produktreglement 2026.1 hebt
+  THGE-Grenzwerte gegenüber 2023er-Kursquelle an (Wohnen MFH 11,5 statt 11, Spital 18,5 statt 17
+  kg CO2-eq/m²·a); MKZ 51/46/29 als Richtwert statt Reglement-Fixwert präzisiert →
+  `[[minergie-nachweiskurs-2023-mkz-thge]]`, `wiki/minergie-standards.md`.
+- **[bestätigt] F7** Adversarial Verify Runde 2 ZH-Förderprogramm: 20/20 CHF-Sätze am frisch
+  gezogenen amtlichen PDF (SHA-256 verifiziert) erneut unverändert bestätigt, kein Fehlerfund;
+  KRNr-6064-Verfahrensstand unverändert (nächste Prüfung nach Plenarsitzung 17.08.2026) →
+  `[[foerderprogramm-energie-zh-2026]]`.
+- **[erweitert] Fernwärme Ausserschwyz** — Galgenen-Bodenwiesweg-Lücke geklärt (reale, noch nicht
+  erschlossene Randlage, Dorfkern längst am Netz), Freienbach-Rollout-Widerspruch geklärt (Netzerweiterung
+  ab Pfäffikon bereits seit ca. 2025/26, "ab 2028" betrifft nur abgesetzte Ortsteile wie Bäch), 20 neue
+  kW-Stützpunkte (13-290 kW, inkl. Grossobjekt-Bereich), Segment-1/2-Formeln über 30 Stützpunkte
+  bestätigt/verfeinert → `[[fernwaerme-anschlusskosten-zh]]`.
+- **Negativbefund bestätigt (kein neues Destillat):** Wärmebrückenkatalog Gruppe 6.2
+  (ATK/Clickpress/Halfen-Spezialanker) war bereits seit 13.07.2026 vollständig in
+  `[[waermebrueckenkatalog-bfe-stuetzen-fassadenanker]]` destilliert — Curriculum-Verweis war stale,
+  zur Bereinigung vorgemerkt.
+- **FAQ-Stand:** 101 → **104 Kernfragen (F1–F104)**, drei bestehende Antworten (F5, F7,
+  Fernwärme-Destillat) geschärft/bestätigt.
+
 ## 2026-07-21 — Phase-2-Fix aus dem Nacht-Audit: Umlaut-Konvention KB-weit hergestellt (Dauerschicht-Zyklus 38)
 - [korrigiert] **Finding F1 (Top-1) des Health-Checks 21.07. behoben:** 13 Wiki-Dateien inkl.
   BAUHERREN-FAQ von ae/oe/ue auf echte Umlaute konvertiert (Rule `umlaute-konvention`).
