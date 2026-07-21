@@ -22,8 +22,10 @@ Siehe [[QUESTIONS]]:
 - Projekt-Detailartikel: Giebelweg 12 Langnau a/A (Machbarkeit BZO/Baulinie, 06/2026)
 - Artikel `auftrags-muster-bopp` und `zusammenarbeit-lessons-bopp` ausformulieren
 
-## Statistik (Stand 2026-07-20)
+## Statistik (Stand 2026-07-21)
 - Artikel im Wiki: 1 (profil-christoph-bopp)
 - Geplante Artikel: 6
-- Outputs: 2 (Health-Check 01.07.; Firmenrollen-Verifikation 20.07.)
-- Letzter Health-Check: 01.07.2026 (Phase 1, Ampel B/C/G gelb, F rot — F seither behoben, siehe CHANGELOG 20.07.)
+- Outputs: 4 (Health-Check 01.07.; Firmenrollen-Verifikation 20.07.; viertes Mandat 21.07.;
+  Health-Check 2 21.07.)
+- Letzter Health-Check: 21.07.2026 (Phase 1, zweiter Lauf, Ampel B/G gelb, A/C/D/E/F gruen —
+  C und F seit dem 01.07.-Check geschlossen, siehe CHANGELOG)

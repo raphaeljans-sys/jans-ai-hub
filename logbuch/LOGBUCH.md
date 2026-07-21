@@ -7,6 +7,21 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-21
 
+**Nachtschicht-Zyklus Mac Mini (~23:30) — kunde-bopp: zweiter Wissens-Health-Check (Re-Audit).**
+Doppelarbeit-Guard geprueft (dispatch/log/ 23:30/22:30 inhaltlich, remote-tasks/pending +
+sync-tasks/mac-mini leer, Synobsis gesaettigt seit 02.07., Energie-Training bereits zweimal
+heute gelaufen, firmengruendung-ch-GmbH-Artikel schon von der Dauerschicht amtlich verifiziert).
+Priorität 6 gezogen: `kunde-bopp` war mit `baurecht`/`immobilienbewertung`/`spec` seit 01.07.
+unauditiert (20 Tage), aber im Gegensatz zu `projekt-lessons` (weiterhin leer) real gewachsen —
+zwei eigene Nachtschicht-Updates am 20./21.07. Re-Audit bestaetigt: die am 01.07. rot geflaggte
+ae/oe/ue-Digraphen-Verletzung (F) und die gelbe Unbelegt-Ampel (C, Firmenrollen) sind bereits
+durch die vorangegangenen Zyklen geschlossen — unabhaengig verifiziert. Neu als Ampel gelb: 2
+unveraendert tote Backlinks (B) und ein Status-Promotion-Kandidat (G, `profil-christoph-bopp`
+emerging→established), beide fuer Phase 2 vorgemerkt, nicht selbst umgesetzt (Skill-Contract:
+Phase 2 nur interaktiv). `wiki/INDEX.md`-Statistikzeile (war einen Tag veraltet) nachgezogen.
+Report `wissen/kunde-bopp/outputs/2026-07-21_health-check-2.md`, CHANGELOG ergaenzt. Kosten
+dieses Zyklus ca. 2 USD von 5 USD Budget. Kein Versand, keine Buchung, keine Loeschung.
+
 **Dauerschicht-Zyklus 49 (MacBook Pro, ~23:05) — GmbH-Artikel amtlich verifiziert, Fedlex-Blockade dauerhaft geloest.** Der um 22:30 von der Nachtschicht kompilierte [[gmbh-gruendungsablauf]] (needs-verification, da Fedlex ohne JS keinen Text liefert) ist jetzt am AMTLICHEN OR-Volltext gegengelesen: Zugriffsweg ueber das Fedlex-Filestore-URL-Muster gefunden (Konsolidierung 01.01.2026, 2.6 MB HTML, Artikel-Anker extrahierbar) — Art. 773/778/786/809/818 alle bestaetigt, EINE Fundstellen-Praezisierung (Voll-Liberierung = Art. 777c Abs. 1, nicht Art. 773; Artikel berichtigt). Der Zugriffsweg ist als Rule 260721 (auto-verbesserungen) fuer alle Bundesrecht-zitierenden KBs hinterlegt — die Fedlex-JS-Blockade ist damit dauerhaft behoben. CHANGELOG/Artikel nachgefuehrt. Kein Versand, kein Download (nur curl-Textlesen), additiv.
 
 **Nachtschicht-Zyklus Mac Mini (~22:30) — firmengruendung-ch: neuer Wiki-Artikel GmbH-Gründungsablauf.**

@@ -2,6 +2,19 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-21 — Zweiter Health-Check: Re-Audit bestaetigt Verbesserung (Mac Mini Nachtschicht, ~23:35)
+- Wissenscheck Phase 1 (unbeaufsichtigt) auf `kunde-bopp` erneut ausgefuehrt — letzter Check
+  war 01.07., seither zwei inhaltliche Aktualisierungen (20./21.07., ebenfalls Mac-Mini-
+  Nachtschicht). Ampel jetzt A gruen · B gelb (unveraendert) · C gruen (**verbessert**,
+  Firmenrollen jetzt registerverifiziert) · D gruen* · E gruen · F gruen (**behoben**, die am
+  01.07. rot geflaggten ae/oe/ue-Digraphen sind seit 20.07. korrigiert, hiermit unabhaengig
+  bestaetigt) · G 3 Kandidaten (neu: Status-Promotion `profil-christoph-bopp` emerging→
+  established; unveraendert: 2 Cluster-Artikel `auftrags-muster-bopp`/
+  `zusammenarbeit-lessons-bopp` anlegbar).
+- Nur Audit + Ablegen (Phase 1); keine Phase-2-Aktionen (Status-Hebung/Artikel-Auslagerung
+  bleiben fuer eine interaktive Session vorgemerkt).
+- Report: `outputs/2026-07-21_health-check-2.md`.
+
 ## 2026-07-21 — Viertes Mandat identifiziert (Mac Mini Nachtschicht)
 - Offene Faktenfrage aus QUESTIONS.md (2026-07-20, "drittes KMU-Vehikel") beantwortet:
   **Feag Facility Engineering AG**, Zuerich (UID CHE-108.531.313) — Bopp-Familienunternehmen
