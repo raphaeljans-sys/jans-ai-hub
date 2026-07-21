@@ -21,6 +21,34 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-22 00:47 — [GEDROSSELT] Nachtfenster laeuft produktiv, Login-Probe sauber
+
+**Fensterzustand:** Login-Probe (perl-alarm 90s) sauber durch: kein «Not logged in», kein Usage-/
+Rate-Limit-Fehler (rc=0), nur die bekannten Trust-Dialog-Hinweise fuers `/Volumes`-Verzeichnis
+(unkritisch). Fenster hat also Kapazitaet — im Drossel-Regime bleibt der Runner davon unberuehrt.
+
+**Durchsatz Nachtfenster (ab 22:00):** regelkonform aktiv. Die Lern-/Trainings-Loops arbeiten wie
+vorgesehen im Nachtfenster: `Wissens-Chef Run 11` (23:45) und `Energie-KB Run 83` (7 parallele
+Agenten, PDF-Inventar erschoepft, FAQ F1–F104). Die acht aktiven KB-CHANGELOGs sind alle taufrisch
+(normen/baurecht/twin/immobewertung/wettbewerbs-dna/spec/energie 21.07., planungsgrundlagen bereits
+22.07.). 19 Commits in 6 h, davon der 15-Minuten-`nas-selfcommit`-Takt plus die zwei KB-Runs — das
+gewuenschte Bild.
+
+**Runner/STOP:** unveraendert. `STOP` + `STOP-Macmini` vom 14.07. 12:53 stehen (Drosselung auf
+Anweisung Raphaels, Wiederanlauf nur auf ausdrueckliche Anweisung). Kein loeschbarer Login-/Limit-
+Grund — nicht angetastet. Runner-Logs enden erwartungsgemaess am 14.07. 12:40.
+
+**Mail:** keine. Kein neuer/geloester P1.
+
+**Vorschlaege:**
+- P1: keiner.
+- P2: Weiter offen der Entscheid Raphaels zum Drossel-Regime (naechster Wochen-Reset Mo 11:59).
+  Bis dahin Status quo, Radar bleibt Schoner.
+- P3: Login-Probe-Fix (perl-alarm) bestaetigt stabil. No-op-Flags aus dem 06:49-Eintrag (`synobsis`
+  saturiert, `immobewertung` Delta-Null) weiter offen zur Frequenzsenkung im Nachtfenster.
+
+---
+
 ## 2026-07-21 18:48 — [GEDROSSELT] Abendbetrieb ruhig, Login-Probe jetzt belastbar (perl-alarm)
 
 **Fensterzustand:** Die Login-Probe laeuft erstmals wieder sauber durch — der P3-Vorschlag vom
