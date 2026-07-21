@@ -1970,3 +1970,23 @@ mit Leerschlag (`korrektur`); die Abweichung ist dokumentiert, nicht nachzuahmen
   Satzlänge ø 14.3 W, Tausender-Apostroph 0, «%» ohne Leerschlag («-8%tot»), Ellipsen 0,
   Anreden Geschätzter Herr 3× / Geschätzter Michi 1× / Sehr geehrter Herr 1×, Grüsse
   Freundliche Grüsse 4× (plus 3× Kurzgruss lgr/Lgr ausserhalb der Zählung).
+
+## 260721 — Batch 58 (2026-06-26 … 2026-06-30)
+
+- **Vollversal-Zeile als reine Begeisterung im wärmsten Peer-Du.** Reply an den Küchenbauer
+  nach gelungener Vergabe: «HAMMER DANKE VIEL MOL LIEBE MARCO» (ganze Zeile Versalien, Mundart
+  «viel mol», Genus-Slip «liebe» an einen Mann). Anders als die Versalien in Batch 55 (ein
+  sicherheitskritisches Wort) sind hier ganze Zeilen Versalien = überschwängliche Freude,
+  ausschliesslich im engsten Peer-Du. Quelle: 260721-mailbatch-58 (authentisch).
+- **Weichgezeichneter Telefon-Bitte-Sie.** Knappe Anruf-Bitten an Fachfirmen tragen einen
+  Höflichkeits-Weichzeichner: «Rufen Sie mich **doch kurz** an um … miteinander abzusprechen»,
+  «Darf ich Sie bitten mich kurz Rückzurufen, **wenn es Ihnen zeitlich passt**?», «Können Sie
+  mich bezüglich … auf der Nummer … anrufen?». Bestätigt und mildert den terser-Kommando-Sie
+  (Batch 28): die Bitte bleibt kurz, aber nie schroff. Quelle: 260721-mailbatch-58 (authentisch).
+- **«Grüzi Herr <Nachname>»** (verkürzt getippt «Grüzi») als warm-knapper Service-Sie an eine
+  Fachfirma (ELE-Kalkulator). Reiht sich in die Gruss-/Anrede-Skala unterhalb «Geschätzter»,
+  oberhalb «Sehr geehrter». Quelle: 260721-mailbatch-58 (authentisch).
+- **Metrik Batch 58** (437 W authentischer Rahmen via `stilmetrik.py`): Du-Gross-Quote 1.0,
+  Satzlänge ø 15.6 W, Tausender-Apostroph 0, «%» 0, Ellipsen 0; Anreden Geschätzter Herr 3× /
+  Geschätzter Christoph 1× / Geschätzte Frau 1× / Sehr geehrter Herr 1× / Hoi zäme 1×; Grüsse
+  Freundliche Grüsse 6× dominant, Lieber Gruss 1× (einzige Du-operative Beratungsmail).

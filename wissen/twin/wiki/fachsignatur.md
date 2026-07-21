@@ -1187,3 +1187,21 @@ ein erster, noch unvollständiger und fehlerhafter Vorschlag ist»). Quelle: 09.
   der Therapiestation») und Umbauort — plus Fachplaner-Variantenstudie zur Dampfabzugshaube,
   eigene Integrations-Idee (Abzug im Korpus der Kochinsel) und eine Referenz. → Der eigene
   3D-Scan (Selbst-Fallback, Batch 23/24) ist inzwischen **Standard-Beilage der Ausschreibung**.
+
+## 260721 — Batch 58 (2026-06-26 … 2026-06-30)
+
+- **Baulinien-Einwendung / Mitwirkungsverfahren.** Verfahrensrechtliche Einordnung informelle
+  Mitwirkung vs. formelle Rekursfrist ans Baurekursgericht; als Ziel-Kaskade knapp gefasst
+  («zwei Ziele: keine neue Baulinie am Giebelweg / Giebelweg final als Weg klassifiziert»);
+  Forderung «Edition des vermassten Baulinienverlaufs» ans Amt; Belegpaket beigelegt (Buchauszug
+  «Zürcher Planungs- und Baurecht» PBG, Textbausteine als DOCX). Recht → Verhandlungsposition
+  übersetzt (Eigentumsgarantie/Verhältnismässigkeit als Gegenargument-Gerüst). Quelle:
+  260721-mailbatch-58 (authentisch).
+- **Türfachplanung KISPI PPTS** (Rahmen authentisch; polierter Prosakern skill-/Claude-assistiert
+  → nur Rahmen + Fachvokabular als Stilquelle, Echo-Vorsicht). Eigene Fachplanung sauber von
+  Lieferung/Montage/IBN trennen: «Türfunktionsmatrix, Türkonzept, Spezifikation und
+  Schnittstellen sowie ausschreibungsreife Grundlagen» — «bezüglich Lieferung, Montage und
+  Inbetriebnahme … bitte ich um einen Rückruf». Devisierungsgrundlage + Türliste/Türplan als
+  numeriertes Grundlagenpaket (01–14). Honorar «pauschal oder nach Aufwand (mit Stundenansätzen)»,
+  Begehung anbieten + bestätigen lassen. **wir/ich satzweise** bestätigt («Wir bitten Sie …» /
+  «bitte ich um einen Rückruf»). Quelle: 260721-mailbatch-58.

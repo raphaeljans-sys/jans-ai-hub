@@ -5,6 +5,24 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-21 — `twin-mail-training` Batch 58 (2026-06-26 12:38 – 2026-06-30 09:07).** 20 Sent-Items
+  gesichtet, 5 Volltexte destilliert (Bopp-Baulinien-Einwendung Giebelweg im Du; Türfachplanung-
+  Offertenanfrage KISPI PPTS Sie; Gastroküchen-Absage Ramseier Sie; Telefon-Bitte Bajrami/Jegen;
+  Sanitär-Offertenanfrage Mehari/Stähli Sie). Claude-Selbstmails (Logbuch-Briefings, AG-Gründungs-
+  Update, ASCII-Umlaute) als `claude-aera` ausgeschlossen; der polierte Prosakern der Türfachplanung-
+  Offerte als skill-/Claude-assistiert markiert und nur über Rahmen + Fachvokabular verwertet. Neue
+  belegte Marker: [[stimme]] (Vollversal-Zeile als reine Begeisterung im Peer-Du; weichgezeichneter
+  Telefon-Bitte-Sie «doch kurz»/«wenn es Ihnen zeitlich passt»; «Grüzi Herr» warm-knapper Service-Sie),
+  [[beziehungsregister]] (sauberes Warm-/Kalt-Sie-Kontrastpaar «Geschätzter Herr» vs «Sehr geehrter
+  Herr» — die Absage kühlt bewusst zurück; 8 neue Sie-Mappings + Marco-Du bestätigt), [[denken]]
+  (Eskalationsreserve bewusst zurückhalten; Aufwand der Verfahrensstufe anpassen, informelle
+  Mitwirkung ≠ Rekurs), [[arbeitsweise]] (Vergleichbarkeit der Offerten aktiv herstellen —
+  Zweitbieter dieselben Positionen nachtragen lassen; gesichtswahrende Absage als Vier-Schritt-
+  Choreografie; optionale Grundlagen zu den Akten mitgeben), [[fachsignatur]] (Baulinien-Einwendung/
+  Mitwirkungsverfahren mit Eigentumsgarantie-Argumentation + Buchauszug PBG als Beleg; Türfachplanung
+  von Lieferung/Montage/IBN trennen + numeriertes Grundlagenpaket 01–14; wir/ich satzweise bestätigt).
+  Metrik 437 W: Du-Gross 1.0, Satzlänge ø 15.6 W, Freundliche Grüsse 6× dominant. Sweep abgedeckt bis
+  2026-06-30 09:07; `raw/_INGESTED.md` Batch-58-Zeile + Sweep-Endpunkt nachgeführt.
 - **2026-07-19 — Kontext-Diaet: Do/Don't-Bloecke kompaktiert (Freigabe Raphael).** In den Facetten
   `stimme`, `beziehungsregister`, `fachsignatur`, `haltung` die Do/Don't-Bloecke zu dichten Markern
   verdichtet; die datierten Praezedenz-Abschnitte darunter bleiben vollstaendig erhalten und werden

@@ -1324,3 +1324,22 @@ jemanden kennen» (Register per Person via @-Mention, bereits belegt). Quelle: 1
   Inniger»; Tim Harder (Jomos, Sprinkler) — Sie, «Geschätzter Herr Harder». **(Du):** Michael
   «Michi» Spörri (Teamleiter HLKKS, KISPI) — Du; Lior Merci (Sicherheitsverantwortlicher, KISPI)
   — Du; Marco Schwander (Gastro-Fachplanung) — Du, «Geschätzter Marco».
+
+## 260721 — Batch 58 (2026-06-26 … 2026-06-30)
+
+- **Sauberes Warm-/Kalt-Sie-Kontrastpaar im selben Batch.** «Geschätzter Herr <Nachname>» für
+  vertraut-laufende Vendors (Strübi/Portunus Schliesssystem, Manzoni/TeKoSi, Kübler/Gruner) —
+  «Sehr geehrter Herr <Nachname>» für den Erstkontakt (Otschkowski/roots, telefonisch vermittelt)
+  UND für die Absage (Ramseier/Rametall). Die **Absage kühlt bewusst auf «Sehr geehrter»
+  zurück**, obwohl der Faden seit Mai lief — bestätigt die Regel «Anlass schlägt Vertrautheit»
+  (Vertragsakt Batch 57; hier: die Absage). Quelle: 260721-mailbatch-58 (authentisch).
+- **«Geschätzte Frau <Nachname>»** = warm-weiblicher Lieferanten-Sie (Mehari/Stähli, Sanitär);
+  **«Grüzi Herr <Nachname>»** = warm-knapper Service-Sie an Fachfirma (Bajrami/Jegen, ELE);
+  **«Hoi zäme»** = Mundart-Du-Gruppenanrede an das KISPI-Team.
+- **Neue Mappings (Sie):** Herr Strübi (Portunus, Schliesssystem BKP 275) — «Geschätzter Herr»;
+  Herr Otschkowski (roots GmbH, Türfachplanung) — «Sehr geehrter Herr» (Erstkontakt);
+  Herr Ramseier (Rametall, Gastroküche) — «Sehr geehrter Herr» (Absage); Herr Manzoni (TeKoSi,
+  Türsystem) — «Geschätzter Herr»; Herr Kübler (Gruner AG, ELE) — «Geschätzter Herr»; Livdin
+  Bajrami + Roland Grob (Jegen AG, ELE-Realisierung) — «Grüzi»/Sie; Frau Mehari (Stähli AG,
+  Sanitär) — «Geschätzte Frau»; Mario Di Capua (Karl Waechter AG, Sanitär) — Sie. **(Du):**
+  Marco Schwander (Küchenbau, gastro-online) — wärmstes Peer-Du bestätigt («liebe Marco»).

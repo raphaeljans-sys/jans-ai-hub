@@ -410,3 +410,19 @@ gesetzt wird. Dasselbe Muster trägt die Plangrundlagen-Mail desselben Fadens: �
 Raumnummerierung hat sich geändert; Bitte verwenden Sie diesen Plan als Grundlage» — die
 Warnung vor dem Fehler steht vor der Anweisung, nicht danach. Reiht sich an «Bedingung + Folge +
 Aufwand koppeln» und den Root-Cause-Reframing-Marker (Batch 32).
+
+## 260721 — Batch 58 (2026-06-26 … 2026-06-30)
+
+- **Eskalationsreserve bewusst zurückhalten.** In der Baulinien-Einwendung (Giebelweg, an den
+  Bauherr-Partner im Du) hält Raphael die selbst gerechneten, vermassten Baulinienverläufe
+  absichtlich zurück: «Die von mir gemachten Baulinienverläufe könnten dann, wenn die Gemeinde
+  hart bleibt, und auf neue Baulinien pocht, zur gegebenen Zeit ins Spiel gebracht werden.» →
+  nicht alle Karten auf einmal; das substanziierte Gegenargument bleibt Reserve für die
+  Eskalationsstufe. Spiegelbild zum «Worst-Case-Variante als Verhandlungsanker beim Bauamt»
+  (Batch 54): dort der offensive Anker, hier die zurückgehaltene Reserve. Quelle:
+  260721-mailbatch-58 (authentisch).
+- **Aufwand der Verfahrensstufe anpassen.** Er ordnet die Eingabe explizit ein — «informelle
+  Mitwirkungsfrist und nicht … formelle Rekursfrist ans Baurekursgericht» — und beruhigt daraus,
+  es sei «alles korrekt getan, um Euren Anliegen Nachdruck zu verleihen». Die Verfahrensstufe
+  bestimmt die nötige Formtiefe; eine informelle Stufe wird nicht über-formalisiert. Reiht sich
+  an den Verfahrensrealismus in [[fachsignatur]].

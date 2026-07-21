@@ -1326,3 +1326,21 @@ sofort zur Frage an die zuständige Stelle, nicht zum stillen Zeitverlust. Quell
   Angebot als «gemäss Rücksprache Verkauf KISPI (**-8%tot**)» zusammen. → Rabatt und Skonto
   werden zur **einen** verhandelten Kennzahl verdichtet und schriftlich festgehalten, bevor das
   bereinigte Angebot kommt (bestätigt und schärft «Abgebot»-Sequenz Batch 30/31).
+
+## 260721 — Batch 58 (2026-06-26 … 2026-06-30)
+
+- **Vergleichbarkeit der Offerten aktiv herstellen.** Die Zweitofferte (Stähli/Mehari) wird
+  gebeten, exakt die Positionen nachzutragen, die der Erstbieter aufgeführt hatte: «Herr Di Capua
+  Mario hat in seiner Offerte Waschautomat und Wäschetrockner aufgefüllt. Gerne würde ich Sie
+  bitten die entsprechenden Gerätschaften bei Ihrem Angebot aufzuführen.» → damit die Angebote
+  spiegelgleich vergleichbar werden. Konkrete Submissions-Handwerksregel (ergänzt «eigene
+  Grundlagen proaktiv beisteuern» Batch 28). Quelle: 260721-mailbatch-58 (authentisch).
+- **Gesichtswahrende Absage mit fester Struktur.** Grund transparent zuerst (Bauherr-Entscheid +
+  Kostengrund: «hat sich diese für eine Schreinerküche entschieden; dies aus
+  Kosteneinspargründen») → Absage-Satz → Dank + Tür offen halten («kommen gerne für weitere
+  Projektanfragen auf Sie zu») → Service-Satz. Schärft die «knappe höfliche Absage» (Batch 13)
+  zur wiederkehrenden Vier-Schritt-Choreografie. Quelle: 260721-mailbatch-58 (authentisch).
+- **Optionale Grundlagen zu den Akten mitgeben.** Bopp-Baulinie: «optional gewisse Textbausteine
+  beigelegt welche Du je nach Bedarf … beilegen kannst» + Buchauszug PBG «zu Deinen Akten … die
+  Zusammenfassung aller relevanten Gesetzesartikel». Bestätigt das proaktive Beisteuern eigener
+  Grundlagen mit ausdrücklicher Kann-Markierung (Empfänger entscheidet über die Tiefe).
