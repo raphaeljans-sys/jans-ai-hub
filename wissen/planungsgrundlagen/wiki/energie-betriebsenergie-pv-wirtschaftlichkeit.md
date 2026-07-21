@@ -105,6 +105,11 @@ in §1 erfassten Stand). Grundstruktur Grundbeitrag + degressiver Leistungsbeitr
 /Parkflaechenbonus bleibt unveraendert gueltig; absolute CHF/kW weiterhin nur ueber den
 Tarifrechner beziehen (kein neuer statischer Wert noetig).
 
+**Refresh 2026-07-22 (Run 55):** Ordner `_Betriebsenergie` erneut vollstaendig geprueft (D9,
+aelteste offene Energie-Frage) — er enthaelt weiterhin **nur** den hier dokumentierten EFH-Fall
+(15 Screenshots derselben Praesentation), keinen MFH-/ZEV-Fall. Die Luecke «realer MFH-/ZEV-Fall
+fehlt» bleibt damit **bestaetigt offen** statt geloest; kein neuer Quellenfund in diesem Lauf.
+
 **Refresh 2026-07-19 (Run 53):** erneute WebFetch-Gegenpruefung derselben Pronovo-Primaerquelle
 bestaetigt den Stand unveraendert — chronologisch: Neigungswinkelboni-Erhoehung ab 01.01.2025
 (stark geneigt integriert 250→400 CHF/kW, angebaut/freistehend 100→200 CHF/kW), Tarifanpassung

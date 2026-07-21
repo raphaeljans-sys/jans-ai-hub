@@ -35,9 +35,12 @@
  *   --egrid <CHxxxxxxxxxxxx>      EGRID direkt setzen (ueberspringt Suche; ohne Koordinate ->
  *                                 --produkt naturgefahren nicht moeglich, dafuer --parzelle/--adresse nutzen)
  *   --oereb                       OEREB-Auszug als PDF herunterladen
- *   --produkt naturgefahren       Gefahrenkarte SZ (Run 55, 2026-07-21) — braucht Koordinate,
- *                                 also nur mit --parzelle/--adresse (nicht mit --egrid allein)
- *   --radius <m>                  Suchradius Naturgefahren-Layer (Default 5 m, Punktlage entscheidet)
+ *   --produkt naturgefahren       Gefahrenkarte SZ (Run 55) — braucht Koordinate, also nur
+ *                                 mit --parzelle/--adresse (nicht mit --egrid allein)
+ *   --produkt grundwasser         Grundwasserschutz SZ (Run 55, 2026-07-22) — S1/S2/S3-Zonen +
+ *                                 Gewaesserschutzbereich Au + Schutzareal; entscheidet ueber das
+ *                                 Untergeschoss (Weisse Wanne/Aushub/Erdsonde); braucht Koordinate
+ *   --radius <m>                  Suchradius Naturgefahren-/Grundwasser-Layer (Default 5 m, Punktlage entscheidet)
  *   --out <dir>                   Zielordner (mehrfach moeglich); PDF in jeden ablegen
  *   --json / --quiet              Ausgabesteuerung
  *
@@ -201,6 +204,46 @@ async function fetchNaturgefahrenSz(e, n, half = 5) {
   return { ...out, treffer_gefahrenflaechen: gf.length, stufe_massgebend: massgebend, radius_m: half, layer: NATURGEFAHR_LAYER_SZ };
 }
 
+// --- Grundwasserschutz SZ (Run 55, 2026-07-22) ---------------------------------
+// Zweites Grundlagen-Paar zur Naturgefahr (analog ZH-Run-54): entscheidet ueber das
+// Untergeschoss (Weisse Wanne / Aushub / Erdwaermesonden) VOR dem ersten Strich. Endpunkt
+// derselbe WFS wie Naturgefahren (map.geo.sz.ch/mapserv_proxy, WFS 1.1.0 + GML). Layer ueber
+// den Volltext-Scan des GetCapabilities (1'016 FeatureTypes) unter dem AMT-Themencode a013a
+// «planerischer Gewaesserschutz» gefunden — NICHT unter einem "grundwasser"-Layernamen (gleiche
+// ZH-Lehre: nach Inhalt scannen, nicht nach dem Fachwort). Schema per DescribeFeatureType belegt:
+// gwszone traegt typ (S1/S2/S3) + bezeichnung + wasserversorger + rechtskraftdatum; der Bereich Au
+// ist ein reines Praesenz-Polygon (nur identifikator). Live verifiziert 2026-07-22:
+//   - S3-Treffer Galgenen 439 (BFS 1342): «Altstofel Ruchweid», Skiklub Galgenen, rk 2011-10-18
+//   - Bereich-Au-Treffer Wangen 25 (Talboden Obersee), aber KEINE S-Zone
+//   - Willerzell 3301: weder S-Zone noch Bereich Au (Negativbefund)
+const GRUNDWASSER_LAYER_SZ = {
+  schutzzone: "ms:ch.sz.a013a.planerischergewaesserschutz.gwszonen.gwszone.inkraft",       // rechtskraeftige S1/S2/S3
+  schutzzone_prov: "ms:ch.sz.a013a.planerischergewaesserschutz.gwszonen.gwszone.provisorisch", // provisorische Zonen
+  schutzareal: "ms:ch.sz.a013a.planerischergewaesserschutz.gwszonen.gwsareal",             // Schutzareal (Vorsorge)
+  bereich_au: "ms:ch.sz.a013a.planerischergewaesserschutz.gsbereiche.bereich.au",          // Gewaesserschutzbereich Au
+};
+
+async function fetchGrundwasserSz(e, n, half = 5) {
+  const out = {};
+  for (const [key, typ] of Object.entries(GRUNDWASSER_LAYER_SZ)) {
+    try { out[key] = await fetchGmlFeatures(typ, e, n, half); }
+    catch (err) { out[key] = { fehler: err.message }; }
+  }
+  const zonen = [];
+  for (const f of (Array.isArray(out.schutzzone) ? out.schutzzone : []))
+    zonen.push({ typ: f.typ || null, bezeichnung: f.bezeichnung || null,
+                 wasserversorger: f.wasserversorger || null, rechtskraftdatum: f.rechtskraftdatum || null, status: "inkraft" });
+  for (const f of (Array.isArray(out.schutzzone_prov) ? out.schutzzone_prov : []))
+    zonen.push({ typ: f.typ || null, bezeichnung: f.bezeichnung || null,
+                 wasserversorger: f.wasserversorger || null, rechtskraftdatum: f.rechtskraftdatum || null, status: "provisorisch" });
+  const areal = (Array.isArray(out.schutzareal) ? out.schutzareal : []).length > 0;
+  const bereichAu = (Array.isArray(out.bereich_au) ? out.bereich_au : []).length > 0;
+  const RANG = { S1: 4, S2: 3, S3: 2 }; // S1 am strengsten
+  let zone_massgebend = null;
+  for (const z of zonen) if (z.typ && (!zone_massgebend || (RANG[z.typ] ?? 0) > (RANG[zone_massgebend] ?? 0))) zone_massgebend = z.typ;
+  return { ...out, zonen, zone_massgebend, schutzareal: areal, bereich_au: bereichAu, radius_m: half, layer: GRUNDWASSER_LAYER_SZ };
+}
+
 // --- OEREB-PDF ziehen + auf JANS-Konvention umbenennen -------------------------
 async function fetchOereb(egrid) {
   const url = OEREB_SZ(egrid);
@@ -298,8 +341,40 @@ async function fetchOereb(egrid) {
           } else {
             L(`   naturgefahren (±${a.radius || 5}m): keine kartierte Gefahrenflaeche (Negativbefund — Erhebungsgebiet-Layer zeigt den Kartierungsstand, nicht mit "nicht kartiert" verwechseln)`);
           }
+        } else if (prod === "grundwasser") {
+          if (result.east == null || result.north == null)
+            throw new Error(`--produkt grundwasser braucht eine Koordinate — mit --parzelle oder --adresse suchen (nicht --egrid allein).`);
+          L(`3) Grundwasserschutz SZ (map.geo.sz.ch/mapserv_proxy, ±${a.radius || 5} m) ...`);
+          const gw = await fetchGrundwasserSz(result.east, result.north, Number(a.radius) || 5);
+          result.produkte.grundwasser = gw;
+          if (gw.zone_massgebend) {
+            for (const z of gw.zonen)
+              L(`   grundwasser: Schutzzone ${z.typ ?? "?"} «${z.bezeichnung ?? "?"}» (${z.status}${z.wasserversorger ? ", " + z.wasserversorger : ""}${z.rechtskraftdatum ? ", rk " + z.rechtskraftdatum : ""})`);
+            if (gw.zone_massgebend === "S1")
+              L(`   ⚠ S1 (Fassungsbereich): faktisches Bauverbot — nur der Wasserfassung dienende Bauten (GSchG Art. 20, GSchV Anh. 4).`);
+            else if (gw.zone_massgebend === "S2")
+              L(`   ⚠ S2 (engere Schutzzone): Bauten stark eingeschraenkt, UG/Aushub ins Grundwasser + Erdwaermesonden i.d.R. unzulaessig — AWN/AfU-Vorabklaerung noetig.`);
+            else if (gw.zone_massgebend === "S3")
+              L(`   S3 (weitere Schutzzone): Bauen moeglich, aber Auflagen (Aushubtiefe/Grundwasserabstand, Erdwaermesonden meist verboten, Tank-/Lageranlagen eingeschraenkt; GSchG/GSchV, AWN/AfU SZ).`);
+          } else if (gw.bereich_au) {
+            L(`   grundwasser: Gewaesserschutzbereich Au (nutzbares Grundwasservorkommen) — keine S-Schutzzone, aber Anlagen/Aushub/Versickerung im Bereich Au bewilligungspflichtig (GSchG Art. 19, GSchV Anh. 4 Ziff. 21).`);
+          } else if (gw.schutzareal) {
+            L(`   grundwasser: ⚠ Grundwasserschutzareal (Vorsorge fuer kuenftige Fassung) — Nutzungsbeschraenkungen moeglich, AWN/AfU pruefen.`);
+          } else {
+            L(`   grundwasser (±${a.radius || 5}m): keine Schutzzone / kein Bereich Au / kein Areal — Parzelle ausserhalb (Negativbefund, Endpunkt positiv-verifiziert Run 55).`);
+          }
+          if (a.out && a.out.length) {
+            const fn = `Grundwasserschutz-SZ_${result.bfs ?? "SZ"}_${result.parzelle ?? "X"}_${isoDate()}.json`;
+            for (const dir of a.out) {
+              if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
+              const dest = join(dir, fn);
+              writeFileSync(dest, JSON.stringify(gw, null, 2));
+              result.files.push(dest);
+              L(`   -> abgelegt: ${dest}`);
+            }
+          }
         } else {
-          L(`   ! Unbekanntes Produkt fuer Kt. SZ: "${prod}" (bisher nur "naturgefahren" hinterlegt)`);
+          L(`   ! Unbekanntes Produkt fuer Kt. SZ: "${prod}" (hinterlegt: "naturgefahren", "grundwasser")`);
         }
       }
     }

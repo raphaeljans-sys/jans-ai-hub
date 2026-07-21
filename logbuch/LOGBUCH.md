@@ -5,6 +5,30 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-22
+
+**Nachtschicht-Zyklus Mac Mini (~00:30) — kein Zyklus-Ergebnis: alle Prioritaeten heute Nacht bereits erschoepft/blockiert.**
+Doppelarbeit-Guard inhaltlich geprueft (dispatch/log/ 23:30/22:30 sowie Logbuch-Kette der ganzen
+Nacht 20:30-23:30). Ergebnis der Pruefung, damit der naechste Zyklus nicht dieselbe Recherche
+wiederholt: Prio 1 (remote-tasks/pending, sync-tasks/mac-mini) leer. Prio 2 (Synobsis Stufe 2)
+gesaettigt seit 02.07. Prio 3 (Fristen-Radar) ist Tagesgeschaeft von logbuch-radar, nicht
+nachtschicht-spezifisch. Prio 4 (Training): planungsgrundlagen laeuft bereits parallel in einem
+zweiten Dispatch-Prozess (run_id 20260722-003002-26379, 25 USD Budget); energie bereits zweimal
+heute gelaufen (Run 83 + Wissens-Chef Run 11); synobsis heute bereits mit Root-Cause-Fix +
+Health-Check bearbeitet; normen-training-mini (DIN/VSS/RAL) seit 17.07. dauerhaft stillgelegt
+(Inventar komplett) — alle vier Mac-Mini-Kern-KBs damit fuer heute erschoepft. Prio 5/6: die
+heutige Nacht hat bereits entwurfs-referenzen (20:30), grobkosten (21:30), firmengruendung-ch
+(22:30) und kunde-bopp (23:30) abgearbeitet; koordination (letzter Audit 20.07.) heute selbst
+einen grossen Cross-KB-Lauf (Run 11) gefahren, ein Re-Audit direkt danach waere reine
+Wiederholung; auflagebereinigung braucht reale Projektdaten (nicht nachtschichttauglich);
+projekt-lessons bleibt seit 02.06. leer (Re-Audit ohne neue Information); baurecht/
+immobilienbewertung/spec/twin (aeltester Audit-Stand, 01.07.) sind MacBook-Pro-exklusive
+Domaenen (Rule 260714) und werden von der Dauerschicht bearbeitet; die offene SIA-500-
+Kennwert-Flag (koordination Run 11) gehoert ebenfalls dem baurecht-Loop. Kein Verstoss gegen
+die Aktions-Whitelist, kein Versand, keine Buchung, keine Loeschung. Kosten dieses Zyklus ca.
+2 USD von 5 USD Budget (reine Pruefung, keine Aenderung an einer KB). Zyklus sauber beendet
+statt Beschaeftigung erfunden.
+
 ## 2026-07-21
 
 **Nachtschicht-Zyklus Mac Mini (~23:30) — kunde-bopp: zweiter Wissens-Health-Check (Re-Audit).**
