@@ -3,6 +3,39 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260721 (twin-fragesteller, aus Fidelity-Review 2026-07-21)
+
+Quelle: Drift-Report `outputs/2026-07-21_fidelity.md` (Gesamt-Fidelity 91; drei authentische
+Vor-Claude-Goldproben Okt 2025 in drei Registern — Lu/St. Moritz warm-sozial-Du-Akquise,
+boesner/Washi Objekt-Material-Sie, ESTV/Ruprecht Behörde-Beleg-Zustellung). Die Design-/Material-
+Säule (260719-Schwachpunkt) feuerte diesmal korrekt; der neue Befund ist eine Lücke im emotionalen
+Subtext. Je in 1–2 Sätzen beantwortbar.
+
+1. **Die Sorge des Absenders direkt beantworten, nicht nur die Sachaufgabe:** Als Lu besorgt fragte,
+   ob Du ihre Mail überhaupt bekommen hast, hast Du das mitten im Fluss beiläufig bestätigt («Damit
+   erhalte ich natürlich Deine E-Mails.») — zusätzlich zur eigentlichen Offerten-Auskunft. Ist es Dein
+   bewusstes Muster, den **ausgesprochenen oder mitschwingenden Wunsch/die Sorge des Absenders** in
+   einem Satz direkt zu quittieren (Rückversicherung, Beruhigung), bevor/während Du die Sachaufgabe
+   erledigst, oder war das hier situativ? *Warum: der Zwilling arbeitet bisher rein aufgaben-getrieben
+   und überliest die emotionale Frage hinter der Mail — ein bestätigtes Muster würde «warm rahmen»
+   um das aktive Adressieren des Subtexts erweitern.* → [[stimme]], [[denken]], [[haltung]]
+
+2. **Rauheits-Grad der schnellen Lieferanten-/Service-Sie-Anfrage:** Deine Material-Anfrage an den
+   Künstlerbedarf war mündlich-direkt und leicht flüchtig getippt («Ich wollte mich bei Ihnen erkundigen
+   ob Sie ein solche Faserpapier … haben?»), nicht durchgeglättet. Ist die schnelle, unpolierte
+   Sprechweise bei einer beiläufigen Lieferanten-Anfrage für Dich normal (also soll `korrektur` sie nicht
+   zu einer förmlich-glatten Anfrage bügeln), oder war das nur Tempo? *Warum: entscheidet, wie stark der
+   Zwilling/`korrektur` eine schnelle Service-Sie-Anfrage glätten darf, ohne den authentischen
+   Direkt-Ton zu verlieren.* → [[stimme]]
+
+3. **Emoji im warm-sozialen Du: ton-getaktet, nicht spiegel-getaktet — Schwelle?** Lu schrieb Dir mit
+   «😊», Deine unmittelbare Antwort (08.10) trug KEINES, erst die nächste (09.10 «Liebe Lu») und eine
+   spätere («sehr gerne😊») schon. Das Emoji scheint bei Dir an eine **Dank-/Wärme-Spitze** gekoppelt,
+   nicht an das Spiegeln eines eingehenden Emojis. Stimmt die Lesart — setzt Du 😊 nur, wenn der Moment
+   selbst dankbar/herzlich ist (Einladung, Dank, gemeinsame Freude), und lässt es in der reinen
+   Status-/Sachantwort auch im warm-sozialen Du weg? *Warum: schützt den Zwilling vor reflexartigem
+   Emoji-Mirroring und macht die Emoji-Regel operationalisierbar.* → [[stimme]]
+
 ## Offen — Runde 260719 (twin-fragesteller, aus Fidelity-Review 2026-07-19)
 
 Quelle: Drift-Report `outputs/2026-07-19_fidelity.md` (Gesamt-Fidelity 88; schwächste Facette

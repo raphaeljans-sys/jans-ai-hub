@@ -5,6 +5,17 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-21 — `twin-fidelity-review` (Selbsttest, Gesamt-Fidelity 91).** Drei authentische Vor-Claude-
+  Goldproben Okt 2025 in drei Registern gezogen (Lu/St. Moritz warm-sozial-Du-Akquise; boesner/Washi
+  Objekt-Material-Sie; ESTV/Ruprecht Behörde-Beleg-Zustellung), Twin-Fassungen aus den Facetten-Wikis
+  erzeugt und je Facette gescort (Stimme 92 · Denken 90 · Haltung 93 · Beziehung 93 · Fachsignatur 90 ·
+  Arbeitsweise 91). Regression-Check positiv: die 260719 verfehlte Design-/Material-Säule feuerte diesmal
+  korrekt (Washi/Grammatur/Lichtverhalten). Ein echter Befund (Lücke, kein Widerspruch): den emotionalen
+  Subtext/die Sorge des Absenders direkt quittieren fehlt in allen Facetten. Marker «Emoji ist ton-getaktet,
+  nicht spiegel-getaktet» in [[stimme]] verankert (Guard gegen Auto-Mirroring, belegt Lu-Faden). 3 Selbst-
+  fragen (twin-fragesteller) an [[QUESTIONS]] Runde 260721 (Subtext-Antwort, Rauheitsgrad Lieferanten-Sie,
+  Emoji-Schwelle). Keine Do-Block-Änderung (Einzeldatenpunkte, Overfitting-Guard); DNA-Neukompilierung
+  no-op (Auto-Block bereits aktuell). Report: `outputs/2026-07-21_fidelity.md`.
 - **2026-07-21 — `twin-mail-training` Batch 58 (2026-06-26 12:38 – 2026-06-30 09:07).** 20 Sent-Items
   gesichtet, 5 Volltexte destilliert (Bopp-Baulinien-Einwendung Giebelweg im Du; Türfachplanung-
   Offertenanfrage KISPI PPTS Sie; Gastroküchen-Absage Ramseier Sie; Telefon-Bitte Bajrami/Jegen;
