@@ -7,6 +7,25 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-22
 
+**Nachtschicht-Zyklus Mac Mini (~01:30) — kein Zyklus-Ergebnis: Befund von 00:30 bestaetigt, keine neuen Deltas.**
+Doppelarbeit-Guard inhaltlich geprueft (dispatch/log/ 00:30 zweifach, 23:30 sowie die 00:30-
+Journalzeile oben). Seit dem 00:30-Befund ist nur der planungsgrundlagen-Trainingslauf 56
+(run_id 20260722-003002-26379) fertig geworden und bereits selbst registriert/gepusht
+(Commit `4f373830`) — kein neues Delta fuer diesen Zyklus. Eigene Nachpruefung statt reines
+Vertrauen auf den Vorbefund: remote-tasks/pending + sync-tasks/mac-mini weiterhin leer;
+QUESTIONS.md-Zaehlung ueber alle Mac-Mini-relevanten KBs (energie 5, planungsgrundlagen 1,
+architekten-synobsis 0, normen 46, grobkosten/firmengruendung-ch/kunde-bopp/auflagebereinigung/
+projekt-lessons je 0); die 46 normen-Punkte naeher geprueft — die vier tatsaechlich DIN-
+bezogenen Eintraege sind bereits mit Loesung/Verweis dokumentiert (Dublette referenziert, Luecke
+mit Retro-Verifikation Mini-Run-14 belegt, Sonstiges-Ordner-Hinweis erledigt) oder gehoeren dem
+SIA/VKF-Loop (MacBook); DIN/VSS/RAL bleibt damit inventar-komplett wie seit 17.07. Synobsis
+weiterhin gesaettigt (0 offene QUESTIONS, 19+ ertraglose Batch-Laeufe dokumentiert). Kein
+Verstoss gegen die Aktions-Whitelist, kein Versand, keine Buchung, keine Loeschung. Kosten dieses
+Zyklus ca. 1 USD von 5 USD Budget (reine Pruefung, keine KB-Aenderung). Zyklus sauber beendet
+statt Beschaeftigung erfunden — naechster Zyklus (02:30) sollte pruefen, ob bis dahin neuer
+Input (Queues, laufende Prozesse) eingetroffen ist, bevor dieselbe Erschoepfungspruefung
+wiederholt wird.
+
 **Nachtschicht-Zyklus Mac Mini (~00:30) — kein Zyklus-Ergebnis: alle Prioritaeten heute Nacht bereits erschoepft/blockiert.**
 Doppelarbeit-Guard inhaltlich geprueft (dispatch/log/ 23:30/22:30 sowie Logbuch-Kette der ganzen
 Nacht 20:30-23:30). Ergebnis der Pruefung, damit der naechste Zyklus nicht dieselbe Recherche
