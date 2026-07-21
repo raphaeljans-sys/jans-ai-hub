@@ -7,6 +7,8 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-21
 
+**Dauerschicht-Zyklus 31 (MacBook Pro, ~03:20) — Nachtschicht-Fixes VERIFIZIERT, B5-Zulauf bestaetigt.** (1) Der 02:30-Nachtschicht-Lauf endete sauber (Exit 0) und schloss explizit budgetbewusst ab — Background-Wait-Fix (Zyklus 29) und Budget-Disziplin im Prompt (Zyklus 30) greifen; die Verlustserie 00:30/01:30 ist beendet. (2) Ueber Nacht ist das Schulhaus-Parameter-Set `schule-volksschule-ch.json` aus wettbewerbs-dna B5 in entwurfs-referenzen eingetroffen — unter dem am Abend abgestimmten Namen, schema-validiert, refuter-geprueft (Verdikt bestanden, 2 Praezisierungen); der Koordinationspunkt aus Zyklus 25 ist geschlossen. Die Cross-KB-Pipeline (Benchmark → Parameter-Set → Schema-Validierung) hat damit ihren ersten vollstaendigen Durchlauf. Kein weiterer Eingriff; ruhiger Nachtbetrieb.
+
 **Nachtschicht-Zyklus Mac Mini — Wissens-Health-Check KB energie (Phase 1, Skill wissenscheck).**
 Erster Health-Check der KB seit dem 01.07. (23 → 82 Runs, 50 → 133 Destillate, 29 → 101
 FAQ-Fragen). Zahlenbild: A0 (keine offenen Widersprueche, gute Selbstkorrektur-Kultur), B4
