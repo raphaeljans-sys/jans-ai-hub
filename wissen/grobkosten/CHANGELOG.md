@@ -1,5 +1,13 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-21 — Wissens-Health-Check Phase 1 (Mac Mini Nachtschicht)
+- [health-check] A0·B2·C1offen/3neu-verifiziert·D0·E0·F3·G0 — inhaltlich weiterhin sauber
+  (neue Cross-KB-Bezuege aus den Wissens-Chef-Runs 12./14.07. widerspruchsfrei, Quellen
+  verifiziert), aber die drei strukturellen Findings vom 01.07. (fehlende `wiki/QUESTIONS.md` +
+  `raw/_INGESTED.md`, kein Frontmatter in `kennwerte.md`, Umlaut-Umschrift ae/oe/ue statt
+  ä/ö/ü) sind trotz dreimaliger inhaltlicher Bearbeitung unveraendert offen — 3 Wochen
+  faellig, Phase 2 fuer diese KB nie gelaufen. Report: outputs/2026-07-21_health-check.md.
+
 ## 2026-07-14 — Wissens-Chef Run 4 (Cross-KB): Querbezug KB energie (Doppelzaehlungs-Guard)
 - [link] `wiki/kennwerte.md`: neuer Abschnitt «Querbezug KB energie» — Waermeerzeuger-/PV-/Fernwaerme-Komponentenkosten (CHF/kWp, Anschluss, Rp/kWh) werden in `wissen/energie` gefuehrt, stecken als BKP 23/24/25 bereits in den hier gefuehrten CHF/m3-GV-Kennwerten (BKP 1-5) — **nicht additiv** aufrechnen. Fuehrung m3-GV-Erstellungskennwerte bleibt hier; energie liefert Detail-/Betriebskosten. Kein Widerspruch/Doppelspur. Bericht: koordination/outputs/2026-07-14_wissens-chef-run4.md.
 

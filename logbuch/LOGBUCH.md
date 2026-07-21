@@ -7,6 +7,8 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-21
 
+**Nachtschicht-Zyklus Mac Mini (~21:30) — grobkosten: Wissens-Health-Check Phase 1.** Prioritaeten 1-4 leer/erschoepft (Queues leer, alle Mac-Mini-Kern-KBs heute bereits bearbeitet). Bei Prioritaet 6 (aeltester Audit-Stand) `projekt-lessons` verworfen (seit 02.06. leer, Re-Audit waere reine Wiederholung ohne neue Information) und stattdessen `grobkosten` gewaehlt (ebenfalls seit 01.07. nicht auditiert, aber mit echtem Content-Wachstum in der Zwischenzeit). Befund: inhaltlich weiterhin sauber, aber die drei strukturellen Findings vom 01.07. (fehlende State-Files, kein Frontmatter, Umlaut-Umschrift) sind trotz drei zwischenzeitlicher Cross-KB-Bearbeitungen unveraendert offen — als Phase-2-Fall fuer die naechste interaktive Session vorgemerkt. Report: wissen/grobkosten/outputs/2026-07-21_health-check.md. Kosten ca. 1.8 USD von 5 USD Budget. Kein Versand, keine Buchung, keine Loeschung.
+
 **Nachtschicht-Zyklus Mac Mini (~20:30) — entwurfs-referenzen: INDEX/QUESTIONS fuer eingetroffenes Schulhaus-Set nachgezogen.**
 Doppelarbeit-Guard geprueft (dispatch/log/ 19:30/18:30 inhaltlich, CHANGELOGs der letzten 24h,
 remote-tasks/pending + sync-tasks/mac-mini leer). Prioritaeten 1–4 weiterhin leer/erschoepft;
