@@ -7,7 +7,7 @@ gelesen: "S. 1-11 (komplett, inkl. Anhang/Skizze)"
 datenstand: "2015-03-06"
 status: established
 last_updated: 2026-07-13
-links: [[vkf-brandschutznorm-2015]], [[vkf-brl-14-15-verwendung-baustoffe]], [[REGISTER]]
+links: [[vkf-brandschutznorm-2015]], [[vkf-brl-verwendung-baustoffe]], [[REGISTER]]
 ---
 
 # VKF-Brandschutzmerkblatt 2001-15de — Solaranlagen

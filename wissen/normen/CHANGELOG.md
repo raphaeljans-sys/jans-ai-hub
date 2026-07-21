@@ -1,3 +1,16 @@
+## 2026-07-21 — Audit-B abgearbeitet: 21 tote Backlinks korrigiert (Dauerschicht-Zyklus 40)
+- [korrigiert] 21 tote `[[Link]]`-Vorkommen in 12+ Dateien aufgeloest (Audit-B des
+  Health-Checks 20.07.): Jahres-Suffixe ergaenzt/berichtigt (sia-118→-1991, sia-112→-2014,
+  sia-262/267-2013→-2003, sia-272(-2009)→-1980, sia-380-1(-energie)→-2016, sia-198→-2004,
+  sia-423→-2006), Tippfehler (vkf-bsr-16-15→vkf-brl-16-15-flucht-rettungswege,
+  brl-14-15→vkf-brl-verwendung-baustoffe), Alias-Namen (sia-451-datenaustausch→sia-451-1992,
+  sia-102-honorar→sia-honorar-hilfsmittel, sia-d-0165→sia-d0165-2000-…) und zwei woertliche
+  «...»-Platzhalter (din-105-100/din-1053-1). Sicherung: Script prueft VOR Ersetzung, dass
+  jedes Mapping-Ziel existiert. NICHT angefasst (dokumentiert): mehrdeutiges [[sia-102-2003]]
+  und die echten Bring-Schulden ([[sia-160/162/180/190/215/380-4/382-2]], Merkblattserie
+  [[sia-2024/2028/2032/2039/2047]], [[din-1961-2012]]) — bereits in QUESTIONS gefuehrt;
+  Cross-KB-Verweis [[bkp-2017]] bleibt (existiert unter references/).
+
 ## 2026-07-21 — Audit-Top-1 korrigiert: SIA-112-Fehlzuordnung 104/105 (Dauerschicht-Zyklus 39)
 - [korrigiert] `destillate/sia-112-2014.md` Z. 19: SIA 104 war als «Landschaftsarchitektur»,
   SIA 105 als «Maschinen-/Elektroingenieur» gefuehrt — korrigiert auf **104 = Forstingenieure,
