@@ -2,6 +2,20 @@
 
 Neueste zuoberst.
 
+## 2026-07-21 — Phase-2-Fix aus dem Nacht-Audit: Umlaut-Konvention KB-weit hergestellt (Dauerschicht-Zyklus 38)
+- [korrigiert] **Finding F1 (Top-1) des Health-Checks 21.07. behoben:** 13 Wiki-Dateien inkl.
+  BAUHERREN-FAQ von ae/oe/ue auf echte Umlaute konvertiert (Rule `umlaute-konvention`).
+  Methodik: deterministisches Script mit Schutzmechanismen — Code-Spans, `[[Links]]`,
+  Markdown-Linkziele, URLs und .md-Dateinamen blieben unangetastet; Ausnahme-Regeln fuer
+  q-ue (Quelle/Frequenz), Diphthonge (bauen/neue/graue/Steuer/Feuer/Dauer) und
+  Ausnahme-Staemme (aktuell/individuell/Raphael u.a.). Umfang: 8 reine ASCII-Artikel
+  (u-werte, foerderung, graue-energie, heizleistung, minergie, pv-eigenverbrauch,
+  sommerlicher-waermeschutz, regenwasser) + 4 gemischte (daemmstoffe-lambda,
+  energienachweis-zh, holzbau-clt, pv-solar) + BAUHERREN-FAQ (1'881 → 724 Restvorkommen,
+  Reste = geschuetzte Dateiverweise und legitime Woerter). Verifikation: Rest-Klassifikation
+  manuell geprueft, alle 141 FAQ-`[[Links]]` aufloesbar, kein Link mit Umlaut korrumpiert.
+  Dateinamen bewusst NICHT umbenannt (ASCII-Konvention fuer Dateien/Links bleibt).
+
 ## 2026-07-21 — Root-Cause zum Umlaut-Befund gefunden + Infra-Fix (Mac Mini Nachtschicht)
 Die drei heutigen Wissenscheck-Audits (energie, planungsgrundlagen, architekten-synobsis)
 fanden alle dasselbe Muster: flaechendeckende ae/oe/ue-Ersatzschreibungen statt echter
