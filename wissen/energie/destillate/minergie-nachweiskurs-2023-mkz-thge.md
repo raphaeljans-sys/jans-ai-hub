@@ -6,7 +6,13 @@ ausgabe: "25.09.2023 (Tabellen-Stand 13.09.2023); Bezug: Produktreglement Minerg
 gelesen: 2026-06-17 (S. 1-42, Teil 1 Anforderungen + Nachweisfuehrung MKZ; Teil 2/3 Label-Plattform-Tool offen)
 datenstand: "⚠ Minergie 2023 / MuKEn 2014; periodisch revidiert — Limiten auf minergie.ch pruefen"
 status: established
-last_updated: 2026-06-17
+last_updated: 2026-07-21
+verifikation: "Adversarial Verify 2026-07-21 gegen Produktreglement Gebaeudestandards MINERGIE/-P/-A,
+  Version 2026.1 (Ausgabe 08.01.2026, gueltig ab 01.01.2026, minergie.ch/media/produktreglement-minergie-p-a-v2026-1.pdf).
+  Ergebnis: THGE-Grenzwerte je Gebaeudekategorie SEIT Kursstand 2023 revidiert (siehe Abschnitt 2 +
+  Verifikations-Update unten); Wetterdaten-Bezugsjahr 2035 bestaetigt unveraendert; MKZ-Fixwerte
+  51/46/29 kWh/m² stammen NICHT aus diesem Kursdestillat, sondern aus der separaten Planungsbroschuere
+  `[[minergie-besser-planen-bauen]]` — dort und im wiki-Artikel gesondert vermerkt."
 ---
 
 # Minergie-Nachweiskurs 2023 — Minergie 2023, MKZ & THGE
@@ -41,9 +47,10 @@ gewichteter Endenergie gebildete Gesamtenergiebilanz abzueglich Eigenproduktion.
 ## 2 — THGE in der Erstellung (Produktreglement Minergie 2023)
 - Grenzwert in **kg CO₂-eq je m² EBF und Jahr**; **gleiche Berechnungsmethodik wie Minergie-ECO**;
   der gespeicherte Kohlenstoff (z. B. im Holz) wird ausgewiesen.
-- **Basisgrenzwerte je Gebaeudekategorie** (fuer Anteil EBF/GF = 80 %):
+- **Basisgrenzwerte je Gebaeudekategorie** (fuer Anteil EBF/GF = 80 %) **— Stand Kursunterlage 2023
+  / Produktreglement 2023.1, seither REVIDIERT, siehe ⚠ Verifikations-Update unten:**
 
-| Kat | Gebaeudekategorie | Grenzwert kg CO₂-eq/m² EBF·a |
+| Kat | Gebaeudekategorie | Grenzwert kg CO₂-eq/m² EBF·a (Stand 2023) |
 |---|---|---|
 | I | Wohnen MFH | **11** |
 | II | Wohnen EFH | 12 |
@@ -58,8 +65,10 @@ gewichteter Endenergie gebildete Gesamtenergiebilanz abzueglich Eigenproduktion.
 | XI | Sportbauten | 15 |
 | XII | Hallenbaeder | 15 |
 
-- Objektwert: GW_OBJ = (GW_EBF·EBF + GW_(GF−EBF)·(GF−EBF))/EBF. **Rechenbeispiel MFH: 12,4 kg·80 % +
-  5,5 kg·20 % = 11 kg** (warmer EBF-Anteil teurer, kalter GF-Anteil guenstiger).
+- Objektwert: GW_OBJ = (GW_EBF·EBF + GW_(GF−EBF)·(GF−EBF))/EBF. **Rechenbeispiel MFH (Stand 2023):
+  12,4 kg·80 % + 5,5 kg·20 % = 11 kg** (warmer EBF-Anteil teurer, kalter GF-Anteil guenstiger). Die
+  Formel/Systematik gilt unveraendert auch im Produktreglement 2026.1 (Anhang G) — nur die
+  GW_EBF-Werte je Kategorie wurden angepasst, siehe Verifikations-Update.
 - **Zum Vergleich:** Klimapfad-Norm **SIA 390/1** (damals in Vernehmlassung) fordert fuer Kat. I–VI
   **9 kg/m²·a inkl. PV/Erdsonde/Solarthermie** — strenger als der Minergie-Basisgrenzwert.
 - **THGE-Logik (3 Schichten):** Betrieb *im Gebaeude* → 0 (Fossilverbot, ausser Spitzenlast);
@@ -112,9 +121,11 @@ gewichteter Endenergie gebildete Gesamtenergiebilanz abzueglich Eigenproduktion.
   Management · C Energie und Treibhausgase · D Komfort und Klimaanpassung · E Mobilitaet.
 
 ## Bauherren-Transfer
-- **Healthcare relevant:** Fuer **Spitaeler (Kat. VIII)** liegt der THGE-Erstellungsgrenzwert bei
-  **17 kg CO₂-eq/m²·a** — hoeher als Wohnen (11), weil Healthcare technik- und materialintensiver ist;
-  das ist beim JANS-Pflegeheim/Klinik-Geschaeft ein konkretes Planungsziel, nicht nur ein Label-Detail.
+- **Healthcare relevant:** Fuer **Spitaeler (Kat. VIII)** lag der THGE-Erstellungsgrenzwert 2023 bei
+  **17 kg CO₂-eq/m²·a** — hoeher als Wohnen (11), weil Healthcare technik- und materialintensiver ist.
+  **Aktualisiert (Produktreglement 2026.1): GW_EBF Spital 18,5 statt vormals implizit 17** (siehe
+  Verifikations-Update) — die Kategorie-Rangfolge (Spital > Wohnen) bleibt unveraendert, das ist beim
+  JANS-Pflegeheim/Klinik-Geschaeft weiterhin ein konkretes Planungsziel, nicht nur ein Label-Detail.
 - Der groesste THGE-Hebel ist **architektonisch**, nicht haustechnisch: **kompakt bauen, wenig/kein UG,
   einfache Tragstruktur, Bestand weiterverwenden** schlaegt jede nachtraegliche Technikoptimierung.
 - «Dach voll PV» ist faktisch Pflicht; die explizite 20-Wp/m²-Zahl ist (Stand Kursunterlage 2023)
@@ -122,13 +133,55 @@ gewichteter Endenergie gebildete Gesamtenergiebilanz abzueglich Eigenproduktion.
 - **Hitzeschutz mit Klima 2035 + max. 100 h** ist die wohl spuerbarste Verschaerfung fuer den Komfort —
   aussenliegender Sonnenschutz und Speichermasse von Anfang an einplanen (vgl. F11).
 
+## Verifikations-Update (Adversarial Verify, 2026-07-21)
+Gegenprüfung der drei Kern-Kennzahlen dieses Destillats direkt am **offiziellen Produktreglement
+Gebäudestandards MINERGIE®/MINERGIE-P®/MINERGIE-A®, Version 2026.1** (Ausgabe 08.01.2026, vom
+Vorstand Verein Minergie im November 2025 genehmigt, gültig ab 01.01.2026, ersetzt alle früheren
+Reglemente; Quelle: `https://www.minergie.ch/media/produktreglement-minergie-p-a-v2026-1.pdf`,
+frisch abgerufen 2026-07-21):
+
+| Kennzahl | Kursunterlage 2023 | Produktreglement 2026.1 | Verdikt |
+|---|---|---|---|
+| Wetterdaten-Bezugsjahr sommerlicher Wärmeschutz | 2035 (DRY), max. 100 h > 26,5 °C | Kap. 7, S. 13: «Für den Nachweis sind die Wetterdaten für den Zeitraum 2035 (DRY) von Meteo Schweiz zu verwenden» — unverändert | **bestätigt** |
+| THGE-Grenzwert Wohnen MFH (Kat. I) | 11 kg CO₂-eq/m²·a (Objektwert-Beispiel bei 80/20-Split, aus GW_EBF≈12,4 + GW_GF-EBF 5,5) | Anhang G, S. 43: GW_EBF = **11,5** kg CO₂-eq/(m²EBF·a); GW_GF-EBF weiterhin 5,5. Bei identischem 80/20-Split ergibt sich neu ≈ **10,3 kg CO₂-eq/m²·a** (eigene Berechnung nach der im Reglement selbst angegebenen Formel, gleiche Methodik wie im 2023er-Rechenbeispiel) | **abweichend/aktualisiert** — Wert im Reglement 2026.1 revidiert (in der Quelle blau als Neuerung ggü. Version 2025.1 markiert) |
+| THGE-Grenzwert Spitäler (Kat. VIII) | 17 kg CO₂-eq/m²·a | Anhang G: GW_EBF Spital = **18,5** kg CO₂-eq/(m²EBF·a); bei 80/20-Split ≈ **15,9 kg CO₂-eq/m²·a** (eigene Berechnung, gleiche Methodik) | **abweichend/aktualisiert** |
+| MKZ-Fixwerte 51/46/29 kWh/m² (Wohnen MFH Neubau) | *(nicht in diesem Kursdestillat enthalten — stammt aus `[[minergie-besser-planen-bauen]]`, Tabelle 1 der Planungsbroschüre)* | Anhang B2, S. 33: «Da verschiedene Anforderungen an die Minergie-Kennzahl projektabhängig sind, ist die Kennzahl **nicht als fixer Wert definiert**, sondern wird für jedes Projekt individuell ermittelt» (Grundlage «Tabelle 6», Klimazuschläge, Dachfläche, Wohnungsgrösse etc.) | **nicht abschliessend verifizierbar als Fixwert** — Reglement selbst nennt keine pauschale MFH-Zahl; 51/46/29 ist ein illustrativer Richtwert der Planungsbroschüre, keine harte Reglement-Schwelle. Prüfung im zugehörigen Destillat `[[minergie-besser-planen-bauen]]` nachzuholen |
+
+**Neue Volltext-Grenzwerttabelle THGE-Erstellung (Anhang G, Produktreglement 2026.1, Neubauten,
+GW_EBF in kg CO₂-eq/(m²EBF·a), GW_GF-EBF einheitlich 5,5 für alle Kategorien):**
+
+| Kat | Gebäudekategorie | GW_EBF 2026.1 | Kat | Gebäudekategorie | GW_EBF 2026.1 |
+|---|---|---|---|---|---|
+| I | Wohnen MFH | 11,5 | VII | Versammlungslokal | 16 |
+| II | Wohnen EFH | 12,5 | VIII | Spital | 18,5 |
+| III | Verwaltung | 12,5 | IX | Industrie | 16 |
+| IV | Schule | 12 | X | Lager | 16 |
+| V | Verkauf | 18,5 | XI | Sportbaute | 16 |
+| VI | Restaurant | 15 | XII | Hallenbad | 16 |
+
+Zuschläge (unverändert Systematik): Erdsonden +0,3 kg CO₂-eq/(m²EBF·a); PV-Anlagen +7,1 kg
+CO₂-eq/(m²Panelfläche·a, angerechnet 100 % Eigenverbrauch + 40 % Netzeinspeisung); thermische
+Kollektoren +5,6 kg CO₂-eq/(m²Solarkollektorfläche·a).
+
+**Einordnung:** Sämtliche 2023er-THGE-Basisgrenzwerte in diesem Destillat sind mit dem Produktreglement
+2026.1 **überholt** — die Struktur/Berechnungsformel (GW_Objekt aus EBF- und GF-Anteil, plus Zuschläge)
+ist identisch geblieben, nur die Zahlenwerte je Gebäudekategorie wurden verschärft. Alte Nachweise
+(Antrag bis 31.12.2026 nach Reglement 2025.1 möglich, Kap. 17.1) dürfen noch mit den alten Werten
+laufen; alle neuen Nachweise ab 2026 verwenden zwingend die Tabelle oben.
+
 ## Offene Punkte
 - Teil 2 (Fallbeispiel «Maison Climat» auf der Label-Plattform, S. 45 ff.) → eigenes Destillat
   `[[minergie-fallstudie-maison-climat]]`.
 - Teil 3 (Projekte einreichen/zertifizieren, weitere Arbeitsdokumente, S. 53 ff.) noch nicht destilliert.
-- Genaue **Standardabzuege Effizienz je Gebaeudekategorie** und die vollstaendige MKZ-Anforderungs-Tabelle
-  stehen im Produktreglement 2023.1 (nicht in dieser Kursunterlage) — bei Bedarf separat belegen.
-- ⚠ Minergie revidiert periodisch; vor Projektzusagen Reglement-/Kennzahlenstand auf `minergie.ch` pruefen.
+- Genaue **Standardabzüge Effizienz je Gebäudekategorie** und die vollständige MKZ-Anforderungs-Tabelle
+  («Tabelle 6» gemäss Anhang B2) stehen nicht im Produktreglement selbst, sondern in der separaten
+  Anwendungshilfe (`minergie.ch/media/250701_anwendungshilfe_gebaeudestandards_minergie_2025-2_de.pdf`
+  bzw. Nachfolgeversion) — bei Bedarf separat destillieren.
+- Adversarial Verify hat die Fixwerte 51/46/29 kWh/m² NICHT im Kursdestillat, sondern nur im
+  Schwester-Destillat `[[minergie-besser-planen-bauen]]` gefunden; dieses sollte in einem eigenen
+  Verifikationslauf gegen die aktuelle Ausgabe der Planungsbroschüre/Anwendungshilfe geprüft werden.
+- ⚠ Minergie revidiert periodisch (2025.1 → 2026.1 nur ein Jahr Abstand); vor jeder Projektzusage
+  Reglement-/Kennzahlenstand auf `minergie.ch` neu prüfen, insbesondere die THGE-Grenzwerte.
 
 Verwandt: `[[minergie-besser-planen-bauen]]`, `[[graue-energie-betriebsenergie]]`,
 `[[enfk-en-104-eigenstromerzeugung]]`, `[[tec21-solares-bauen-pv-typen-2012]]`. Brandschutz Fassaden-/

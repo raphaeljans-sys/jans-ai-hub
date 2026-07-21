@@ -1,11 +1,11 @@
 ---
-quelle: Foerderprogramm Energie Kanton Zuerich 2026 (Baudirektion ZH, AWEL), PDF — https://www.zh.ch/.../ktzh_foerderprogramm_2026.pdf
+quelle: Foerderprogramm Energie Kanton Zuerich 2026 (Baudirektion ZH, AWEL), PDF — https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/umwelt-tiere/energie/energieberatung-und-energiefoerderung/ktzh_foerderprogramm_2026.pdf (vollstaendige URL ergaenzt 2026-07-21, Run 83; zuvor nur verkuerzt mit «...» notiert)
 herausgeber: Kanton Zuerich, Baudirektion, Amt fuer Abfall Wasser Energie und Luft (AWEL)
 ausgabe: Version 01.01.2026
 gelesen: S. 1-38 VOLLSTAENDIG (alle Foerdersaetze inkl. Minergie-ECO + Solarthermie, 2026-06-26; PDF hat 38 statt der frueher notierten 37 Seiten, korrigiert 2026-07-20)
-datenstand: 2026-07-20 (Programm Version 01.01.2026; alle 20 geprueften Foerdersaetze am amtlichen PDF nachverifiziert Run 81; Befristung praezisiert: Rahmenkredit laut RR-Mitteilung 15.01.2026 bis «Mitte 2026», Anschlusskredit 60 Mio. beantragt, Kantonsratsbeschluss unbelegt)
+datenstand: 2026-07-21 (Programm Version 01.01.2026 unveraendert; alle 20 geprueften Foerdersaetze am amtlichen PDF ZUM ZWEITEN MAL unabhaengig nachverifiziert, Run 83, frischer Download 21.07.2026 22:33 Uhr, SHA-256 ad95248d…; Befristung/Kantonsratsbeschluss KRNr 6064 Stand unveraendert gegenueber Run 82)
 status: established
-last_updated: 2026-07-20
+last_updated: 2026-07-21
 ---
 
 # Destillat — Foerderprogramm Energie Kanton Zuerich 2026
@@ -164,6 +164,50 @@ Quelle im `sources`-Block). Der Zahlenstand dieses Destillats traegt per 20.07.2
   fossil**) und **Ausschluss von Prozessenergie sowie reiner Warmwasseraufbereitung ohne
   Raumwaerme**. Bei Healthcare-Objekten (grosse Anlagen, hoher Warmwasseranteil) ist das kein
   Detail, sondern kann die Foerderfaehigkeit kippen → `[[healthcare-energie]]`-relevant.
+
+## Zweite adversariale Nachpruefung (2026-07-21, Run 83)
+**Frischer, unabhaengiger Download des amtlichen PDF von der zh.ch-Domain (nicht aus dem Cache
+kopiert)** am 21.07.2026, 22:33 Uhr: 2'938'846 Bytes, 38 Seiten (`pdfinfo`), SHA-256
+`ad95248da3808a5352af3ab6e41de694d4306d9adf5fb77a444cbcb1c2fa77a1`, extrahiert mit
+`pdftotext -layout`. Jeder im Destillat genannte Betrag/Kennwert wurde einzeln gegen den
+Volltext gegengeprueft (Verdikt-Tabelle):
+
+| Nr. | Wert im Destillat | Fundstelle im frischen PDF (21.07.2026) | Verdikt |
+|---|---|---|---|
+| 1 | Luft-Wasser-WP ≤15 kWth CHF 2'900 / >15 kWth +160/kWth | «CHF 2 900.–» / «+ 160.–/zusätzlichem kWth» | bestaetigt |
+| 2 | Sole-Wasser-WP (Erdsonde) ≤15 kWth CHF 6'800 / >15 kWth +420/kWth | «CHF 6 800.–» / «+ 420.–/zusätzlichem kWth» | bestaetigt |
+| 3 | Zusatz fossilfreie Erdsonden-Regeneration CHF 3'000 + 100/kWth | «CHF 3'000.– + 100.–/zusätzlichem kWth» | bestaetigt |
+| 4 | Wasser-Wasser-WP (Grundwasser) ≤15 kWth CHF 6'800 / >15 kWth +420/kWth | identischer Absatz wie Sole-Wasser-WP | bestaetigt |
+| 5 | Fernwaerme-Anschluss ≤15 kWth CHF 5'200 / >15 kWth +100/kWth | «CHF 5 200.–» / «+ 100.–/zusätzlichem kWth» | bestaetigt |
+| 6 | Fernwaerme max. 30 % fossil | «Die bezogene Wärme darf aus max. 30% fossiler Energien stammen» | bestaetigt |
+| 7 | Foerderbeitrag gedeckelt auf max. 50 Wth/m² EBF | «maximal 50 Wth installierter Nennleistung pro Quadratmeter … EBF» | bestaetigt |
+| 8 | Erstinstallation Waermeverteilung ≤250 m² EBF CHF 15'000 | «≤ 250 m2 … CHF 15 000.–» | bestaetigt |
+| 9 | Erstinstallation Waermeverteilung >250 m² EBF CHF 60/m² | «> 250 m2 … CHF 60.– pro m2 EBF» | bestaetigt |
+| 10 | Daemmung Dach/Wand/Boden CHF 40/m² | «CHF 40.–/m2 wärmegedämmtem Bauteil» | bestaetigt |
+| 11 | Zusatzbeitrag PV-Kombi CHF 20/m² Modulflaeche | «CHF 20.–/m2 Modulfläche» | bestaetigt |
+| 12 | Bonus Gebaeudehuelleneffizienz CHF 60/m² (≥90 % Bauteile) | «Zusatzbeitrag … CHF 60.–/m2» / «Mindestens 90% aller Bauteilflächen» | bestaetigt |
+| 13 | U-Wert-Grenze ≤0,20 W/m²K (Erdreich >2 m ≤0,25); Verbesserung ≥0,07; geschuetzt bis 0,3 | «U ≤ 0.20 W/m2K … U ≤0.25 W/m2K» / «mindestens 0.07 W/m2K» / «bis max. 0.3 W/m2K» | bestaetigt |
+| 14 | Foerderbeitraege unter CHF 2'000 nicht ausgerichtet; ab CHF 10'000 GEAK Plus Pflicht | «unter CHF 2 000.– werden nicht ausgerichtet» / «≥ CHF 10 000.– ist ein GEAK Plus Bericht … notwendig» | bestaetigt |
+| 15 | Minergie-ECO EFH 110 / MFH 70 / uebrige 50 CHF/m² EBF | «110 CHF/m2 EBF» / «70 CHF/m2 EBF» / «50 CHF/m2 EBF» | bestaetigt |
+| 16 | Minergie-P-ECO EFH 165 / MFH 100 / uebrige 80 CHF/m² EBF | «165 CHF/m2 EBF» / «100 CHF/m2 EBF» / «80 CHF/m2 EBF» | bestaetigt |
+| 17 | Solarthermie CHF 2'400 + 1'000/kWth, min. 2 kW, Ueberwachungspflicht ab 20 kW | «CHF 2 400.- + 1 000.-/kWth» / «mindestens 2 kW» / «ab 20 kW … vorausgesetzt» | bestaetigt |
+| 18 | GEAK Plus EFH/ZFH CHF 1'000, uebrige Kategorien CHF 1'500 | «Ein- und Zweifamilienhäuser CHF 1 000.–» / «Alle anderen Gebäudekategorien CHF 1 500.–» | bestaetigt |
+| 19 | Max. CHF 500'000/Gesuch, max. 50 % Investitionskosten, ab CHF 100'000 Minimalfoerdersaetze | «maximale Förderbeitrag pro Gesuch beträgt CHF 500 000.–» / «max. 50%» / «Ab einer Fördersumme von CHF 100 000.–» (durchgaengig in allen Massnahmen-Abschnitten) | bestaetigt |
+| 20 | Keine Kombination mit KliK / Energie Zukunft Schweiz / laufender CO₂-Befreiung | «Nicht möglich ist die Kombination von Fördergeldern mit anderen Programmen (z.B. Stiftung KliK, Energie Zukunft Schweiz) sowie einer laufenden Verminderungsverpflichtung» | bestaetigt |
+
+**Ergebnis: 20 von 20 Positionen ein zweites Mal unveraendert bestaetigt — kein einziger
+CHF-Betrag, Prozentsatz oder Kennwert weicht vom Destillat ab.** Kein Fehlerfund in dieser
+Runde (anders als beim analogen SZ-Programm, dort ebenfalls 24/24 in Run 82 bestaetigt).
+Zusaetzlich neu geprueft und bestaetigt: PDF-Umfang weiterhin 38 Seiten, Programmversion
+weiterhin 01.01.2026 (Deckblatt).
+
+**KRNr 6064 — Verfahrensstand unveraendert.** Live-Abfrage der CDWS-Geschaeftsdatenbank
+Kantonsrat ZH (`parlzhcdws.cmicloud.ch/parlzh5/cdws/Index/GESCHAEFT/searchdetails?q=krnr%20any%206064&l=de-CH`,
+21.07.2026): `PendentBeiNeu` weiterhin **Kantonsrat**; letzter Ablaufschritt weiterhin «Antrag
+Kommission» (KEVU, 07.05.2026, einstimmig zur Bewilligung) — kein neuer Ablaufschritt
+(insbesondere keine Schlussabstimmung) seit Run 82 hinzugekommen. Erwartungsgemaess, da die
+naechste moegliche Sitzung (164., 17.08.2026) heute (21.07.2026) noch nicht stattgefunden hat.
+Naechster Pruefpunkt: nach dem 17.08.2026 erneut abfragen.
 
 ## Faustregel-Beispiele 2026 (Bauherren-Zahlen, komplett)
 - Oelheizung raus → **Luft-Wasser-WP CHF 2'900**, **Erdsonden-/Grundwasser-WP CHF 6'800**,

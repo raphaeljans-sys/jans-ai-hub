@@ -3,6 +3,19 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-21 — Neuer Artikel: GmbH-Gründungsablauf (Nachtschicht-Zyklus Mac Mini, 22:30)
+- [neu] `wiki/gmbh-gruendungsablauf.md` — Master-Ablauf als Pendant zu
+  [[ag-gruendungsablauf]] (Backlog-Punkt aus QUESTIONS.md seit 02.06. offen). 12 Schritte
+  + Delta-Tabelle zur AG (Kapital CHF 20'000 voll liberiert, keine Organe-Pflicht/Default
+  Gesellschafter-Geschäftsführung, öffentliche Gesellschafterliste, zustimmungspflichtige
+  Stammanteil-Übertragung, Revision sinngemäss nach Aktienrecht via Art. 818 OR,
+  Nachschusspflicht-Option). Recherchiert via WebSearch/WebFetch (Fedlex ohne
+  JavaScript nicht direkt lesbar, daher Sekundärquellen: eskript.ius.unibas.ch,
+  law.ch, Kanton-SG-Merkblatt) — Artikel als *needs-verification* markiert
+  (Artikelnummern vor realem Gründungsfall gegen OR-Volltext nachprüfen).
+- [aktualisiert] `wiki/INDEX.md` (neue Sektion GmbH-Gründungsprozess, Statistik,
+  Backlog-Punkt gestrichen), `wiki/QUESTIONS.md` (Punkt ins Archiv verschoben).
+
 ## 2026-07-21 — Phase-2-Umsetzung des Nacht-Audits (Dauerschicht-Zyklus 36)
 - [eingearbeitet] **Firmenname-Distinktivitäts-Lesson** (Health-Check-Top-Fund seit 01.07.):
   [[ag-gruendungsablauf]] Schritt 2 ergänzt um die EHRA-Ziff.-IV-Regel (gleicher Firmenkern +

@@ -3,7 +3,6 @@
 ## Offene Wissenslücken (Coverage-Gaps)
 - **Holding-Struktur** über die bestehende Raphael Jans AG (Beteiligungen, Steuer-
   optimierung, Nachfolge) — noch kein Artikel.
-- **GmbH-Gründungsablauf** als Pendant zu [[ag-gruendungsablauf]].
 - **Steuern bei Gründung** (Kapital-, Gewinn-, Verrechnungssteuer, MWST-Pflicht-
   Schwelle CHF 100'000 Umsatz) — Gründungsteil weiterhin offen. Die laufende
   Steueroptimierung des Inhabers ist seit 20.07.2026 als Wiki-Artikel
@@ -26,6 +25,18 @@
 - Noch keine erfasst.
 
 ## Beantwortete Fragen (Archiv)
+- **GmbH-Gründungsablauf (21.07.2026, Nachtschicht-Zyklus Mac Mini):** Neuer Artikel
+  [[gmbh-gruendungsablauf]] als Pendant zu [[ag-gruendungsablauf]] kompiliert. Recherche
+  via WebSearch/WebFetch (Fedlex ohne JS nicht direkt lesbar, daher Sekundärquellen:
+  eskript.ius.unibas.ch Lehrstuhl Handschin, law.ch, Kanton-SG-Merkblatt). Kernbefunde:
+  Stammkapital CHF 20'000 voll liberiert (Art. 773 OR) statt AG-Teilliberierung; keine
+  Organe-Pflicht in den Statuten, Default = alle Gesellschafter geschäftsführungsbefugt
+  (Art. 809 OR); Gesellschafter im HR öffentlich (vs. AG-Aktionäre); Stammanteil-Übertragung
+  grundsätzlich zustimmungspflichtig (Art. 786 OR); Revisionsstelle folgt sinngemäss dem
+  Aktienrecht (Art. 818 OR), mit Sonderrecht nachschusspflichtiger Gesellschafter auf
+  ordentliche Revision. Artikel markiert als *needs-verification* für die Artikelnummern
+  (Sekundärquellen, kein direkter Fedlex-Volltextabgleich) — vor einem realen Gründungsfall
+  gegen den OR-Wortlaut nachzuprüfen.
 - **Firmen-Distinktivität / EHRA-Weisung Ziff. IV (21.07.2026, Dauerschicht-Zyklus 36):**
   Die im Health-Check 01.07. geflaggte und 20 Tage unbearbeitete Lesson aus dem realen
   Fall JANS AG ist jetzt in [[ag-gruendungsablauf]] Schritt 2 eingearbeitet: gleicher

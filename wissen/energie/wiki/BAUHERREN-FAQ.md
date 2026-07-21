@@ -3899,3 +3899,45 @@ Datenstand 2026-07-20. Status **emerging** für die Verfahrensdarstellung (Praxi
 sekundär belegt), **established** für die beiden geprüften Erlasswortlaute. ⚠ Die Fallzahlen, Fristen
 und Kostenangaben sind laut Regierungsrat kantonsweit **selbst lückenhaft erhoben** — als
 Grössenordnung verwendbar, nicht als belastbare Zahl in einem Devis.
+
+## F102 — «Kann ich in der Schweiz mit Strohdämmung bauen, ohne VKF-Zulassung?»
+
+Ja, aber nur über einen **Einzelfall-Brandschutznachweis**, nicht über ein Produkt mit
+Registereintrag. Das VKF-Brandschutzregister enthält keinen Eintrag für Stroh/Strohballen (erneut
+geprüft mit variierter Methode: direkte Registerabfrage statt Suchmaschine). Es existiert aber ein
+realisierter Schweizer Referenzfall: die Siedlung «Im Vogelsang» in Nänikon ZH (28 Wohnungen, 2020,
+grösste Schweizer Strohballensiedlung), Architektur Atelier Schmidt GmbH, Brandschutz-/
+Holzbauingenieur B3 Gruppe AG. Laut Fachpresse erreichen die verputzten Strohwände Feuerwiderstand
+**R 60**. ⚠ Nur Presse-Zitat, kein Prüfbericht gelesen — für ein eigenes Projekt ist ein
+projektspezifischer Brandschutznachweis (analog Nänikon) nötig, kein Verweis auf eine bestehende
+Zulassung möglich → `[[naturdaemmstoffe-bemessungswerte-brandverhalten]]`, `[[naturdaemmstoffe]]`.
+Datenstand 2026-07-21. Status **emerging** (Negativbefund Register bestätigt, Praxispfad neu).
+
+## F103 — «Wieviel CO2 steckt in einer Aussenwand oder einem Dach?»
+
+Zwei belegte Grössenordnungen (kg CO2-eq/m² Bauteilfläche·a): (1) **Minergie/eco-bau-
+Grenzwerttabelle** (Zertifizierungs-Grenzwerte, Wohnen MFH): Aussenwand 0,78/1,57, Dach 1,18/1,93,
+Bodenplatte 1,43/2,35, Fenster 3,00/4,34 (zwei Grenzwertstufen GW1/GW2). (2) **Wüest Partner/
+Lignum/BAFU-Vergleich** (35 reale Holzbauten vs. mineralischer digitaler Zwilling, Median-Werte):
+Aussenwand Holz ~1,4 / Mineralisch ~2,1, Dach ~2,7/~4,9, Innenwände ~1,0/~1,5, Geschossdecken
+~1,5/~2,4 — **Dachkonstruktion ist der grösste Bauteil-Hebel** (Holzbau spart dort am meisten,
+~38 % gegenüber mineralisch). ⚠ Beide Quellen sind Zertifizierungs-/Vergleichswerte, keine
+projektgenauen Werte — für einen verbindlichen Nachweis bleiben die kostenpflichtigen
+KBOB-Ökobilanzdaten v8.0 / SIA-2032-Vorprojektwerte präziser → `[[kbob-graue-treibhausgasemissionen-2025]]`,
+`[[graue-energie]]`. Datenstand 2026-07-21. Status **emerging**.
+
+## F104 — «Welche Grenzwerte Q_H,li gelten nach SIA 380/1:2016 je Gebäudekategorie, und nach
+welcher Kategorie wird ein Pflegeheim gerechnet?»
+
+Die 12 SIA-380/1:2016-Gebäudekategorien haben je einen Grundwert/Steigungswert Q_H,li0/Q_H,li
+(kWh/m², dreifach primärquellenbelegt — EN-102-Vollzugshilfe, ZH-Anforderungsprofil, ENTECH-
+Handbuch): I Wohnen MFH 13/15, II Wohnen EFH 16/15, III Verwaltung 13/15, IV Schule 14/15,
+V Verkauf 7/14, VI Restaurant 16/15, VII Versammlungslokal 18/15, **VIII Spital 18/17**, IX
+Industrie 10/14, X Lager 14/14, XI Sportbaute 16/14, XII Hallenbad 15/18. Umbau/Umnutzung:
+1,5× Neubau-Grenzwert. **Healthcare-Praxis (amtliches ZH-Testbeispiel «Alterssiedlung mit
+Pflegestation und Lager»):** die Pflegestation wird als Kategorie **VIII Spital** gerechnet, die
+Alterswohnungen als Kategorie **I Wohnen MFH** — SIA 380/1 kennt keine eigene Kategorie
+«Pflegeheim» → `[[sia-380-1-2016-aenderungen-gegenueber-2009]]`. Offen: exakte Formel, wie
+Gebäudehüllzahl-Steigungswert und Klimastations-Temperaturkorrektur zum projektspezifischen
+Q_H,li kombiniert werden. Datenstand 2026-07-21. Status **established** (drei unabhängige Quellen
+zahlengleich).

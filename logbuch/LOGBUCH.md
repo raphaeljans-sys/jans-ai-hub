@@ -7,6 +7,27 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-21
 
+**Nachtschicht-Zyklus Mac Mini (~22:30) — firmengruendung-ch: neuer Wiki-Artikel GmbH-Gründungsablauf.**
+Doppelarbeit-Guard geprueft (dispatch/log/ 21:30/20:30 inhaltlich, remote-tasks/pending +
+sync-tasks/mac-mini leer, Mac-Mini-Kern-KBs energie/planungsgrundlagen/architekten-synobsis/
+normen heute bereits bearbeitet, Prioritaet 4 damit erschoepft). Bei Prioritaet 5 (offene
+QUESTIONS.md) firmengruendung-ch/kunde-bopp/auflagebereinigung durchgesehen (die vom 20:30-Lauf
+bereits gepruefte Liste ergaenzend): kunde-bopp und auflagebereinigung brauchen reale
+Projektdaten/Behoerdenantworten, nicht nachtschicht-tauglich. In firmengruendung-ch der seit
+02.06. offene Backlog-Punkt «GmbH-Gruendungsablauf als Pendant zu ag-gruendungsablauf»
+aufgegriffen: via WebSearch/WebFetch recherchiert (Fedlex liefert ohne JavaScript keinen
+Volltext, daher Sekundaerquellen: eskript.ius.unibas.ch Lehrstuhl Handschin, law.ch,
+Kanton-SG-Merkblatt), neuer Artikel `wiki/gmbh-gruendungsablauf.md` mit 12-Schritte-Ablauf +
+Delta-Tabelle zur AG (Stammkapital CHF 20'000 voll liberiert, keine Organe-Pflicht/Default
+Gesellschafter-Geschaeftsfuehrung Art. 809 OR, oeffentliche Gesellschafterliste,
+zustimmungspflichtige Stammanteil-Uebertragung Art. 786 OR, Revision sinngemaess nach
+Aktienrecht via Art. 818 OR, Nachschusspflicht-Option) — als *needs-verification* markiert,
+da Artikelnummern nur ueber Sekundaerquellen plausibilisiert wurden. `wiki/INDEX.md` und
+`wiki/QUESTIONS.md` nachgezogen (Backlog-Punkt geschlossen, ins Archiv verschoben).
+Aktualisiert: `wissen/firmengruendung-ch/wiki/gmbh-gruendungsablauf.md` (neu), `wiki/INDEX.md`,
+`wiki/QUESTIONS.md`, `CHANGELOG.md`. Kosten dieses Zyklus ca. 2 USD von 5 USD Budget. Kein
+Versand, keine Buchung, keine Loeschung.
+
 **Nachtschicht-Zyklus Mac Mini (~21:30) — grobkosten: Wissens-Health-Check Phase 1.** Prioritaeten 1-4 leer/erschoepft (Queues leer, alle Mac-Mini-Kern-KBs heute bereits bearbeitet). Bei Prioritaet 6 (aeltester Audit-Stand) `projekt-lessons` verworfen (seit 02.06. leer, Re-Audit waere reine Wiederholung ohne neue Information) und stattdessen `grobkosten` gewaehlt (ebenfalls seit 01.07. nicht auditiert, aber mit echtem Content-Wachstum in der Zwischenzeit). Befund: inhaltlich weiterhin sauber, aber die drei strukturellen Findings vom 01.07. (fehlende State-Files, kein Frontmatter, Umlaut-Umschrift) sind trotz drei zwischenzeitlicher Cross-KB-Bearbeitungen unveraendert offen — als Phase-2-Fall fuer die naechste interaktive Session vorgemerkt. Report: wissen/grobkosten/outputs/2026-07-21_health-check.md. Kosten ca. 1.8 USD von 5 USD Budget. Kein Versand, keine Buchung, keine Loeschung.
 
 **Nachtschicht-Zyklus Mac Mini (~20:30) — entwurfs-referenzen: INDEX/QUESTIONS fuer eingetroffenes Schulhaus-Set nachgezogen.**

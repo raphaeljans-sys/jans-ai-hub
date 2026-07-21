@@ -1,7 +1,7 @@
 ---
 title: Graue Energie & THGE — das CO₂ im Bauteil
 status: established
-last_updated: 2026-07-12
+last_updated: 2026-07-21
 sources: [destillate/graue-energie-betriebsenergie.md, destillate/minergie-besser-planen-bauen.md, destillate/clt-bauphysik-stora-enso.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/muken-2025-verabschiedet.md]
 links: [[INDEX]], [[minergie-standards]], [[minergie-nachweiskurs-2023-mkz-thge]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[holzbau-bauphysik-clt]], [[kbob-graue-treibhausgasemissionen-2025]], [[muken-2025-verabschiedet]]
 ---
@@ -94,7 +94,34 @@ liefert den Rahmen (Datenstand 04.04.2025) → `[[kbob-graue-treibhausgasemissio
   **Grenzwerte für graue Energie** festlegen (kommende MuKEn). Heute schon im Vollzug nur über Labels:
   **Minergie-ECO** (GW1/GW2), **SNBS**, **SIA 390/1 Klimapfad** (strengste Zielwerte, inkl. Betrieb).
 
+## Konkrete kg CO₂-eq/m² je Bauteil (belegt 2026-07-21)
+Zwei frei zugängliche Quellen liefern jetzt Bauteil-Kennwerte (Detail-Tabellen und Vorbehalte →
+`[[kbob-graue-treibhausgasemissionen-2025]]`, Nachtrag):
+
+**Minergie/eco-bau-Grenzwerte** (Basis KBOB 2016, kg CO₂/m² Bauteilfläche und Jahr, Nutzung Wohnen
+MFH, GW1 = gut↔befriedigend / GW2 = befriedigend↔unbefriedigend):
+
+| Bauteil | GW1 | GW2 |
+|---|---|---|
+| Aussenwände über Terrain | 0.78 | 1.57 |
+| Dächer | 1.18 | 1.93 |
+| Bodenplatte | 1.43 | 2.35 |
+| Fenster/Aussentüren | 3.00 | 4.34 |
+| Innenbauteile | 0.39 | 0.78 |
+
+Das sind **Zertifizierungs-Grenzwerte**, keine Durchschnittswerte — Vorsicht bei der Übertragung auf
+ein konkretes Projekt.
+
+**Wüest Partner/Lignum/BAFU (25.09.2025), 35 Holzbauten vs. mineralischer Zwilling:** Median-THGE
+Gesamtgebäude **Holz 7.5 vs. Mineralisch 9.8 kg CO₂-equ./m²EBF·a** (≈23 % tiefer, durchgehend über alle
+35 Objektpaare). Je Bauteil (Median, aus Boxplot, ca.-Werte): Aussenwand ~1.4 vs. ~2.1 · Dach ~2.7 vs.
+~4.9 · Innenwände ~1.0 vs. ~1.5 · Geschossdecken ~1.5 vs. ~2.4 kg CO₂/m² Bauteil·a. Grösster Hebel: die
+**Dachkonstruktion** («38 % Einsparung auf Bauteilebene möglich») — deckt sich mit dem oben belegten
+Tragstruktur-Hebel (Klingler/Kasser 2012, 49 % / 40 % Anteil am Gesamt-GTHGE), zwei unabhängige Quellen
+13 Jahre auseinander mit derselben Struktur-Aussage.
+
 ## Offen
-- Konkrete **kg CO₂-eq/m² je Bauteilaufbau** aus KBOB-Ökobilanzdaten v8.0 / SIA-2032-Vorprojektwerten
-  belegen (kostenpflichtig/Tool eco-bau; frei zugängliche Bauteil-Liste suchen) — nicht schätzen.
-- Konkrete Sanieren-vs-Neubau-Schwelle (Amortisation der grauen Energie) — eigene Quelle nötig.
+- Für eine **projektgenaue** Berechnung bleiben die kostenpflichtigen KBOB-Ökobilanzdaten v8.0 /
+  SIA-2032:2020-Vorprojektwerte (exakte m²-Bauteilaufbauten statt Grenzwert/Median) die präzisere Quelle.
+- Konkrete Sanieren-vs-Neubau-Schwelle (Amortisation der grauen Energie): keine belegte CH-Jahreszahl
+  auffindbar, siehe Negativbefund `[[graue-energie-sanieren-vs-neubau-amortisation]]`.
