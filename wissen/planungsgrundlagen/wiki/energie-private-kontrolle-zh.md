@@ -16,7 +16,7 @@ in diesen Fachbereichen nur stichprobenweise. Quelle: Merkblatt der Baudirektion
 Abteilung Energie) **«Private Kontrolle — Liste der Befugten, Stand April 2025»** + BBV I.
 Faktenbasis Recht → `[[recht-norm-quellenlandkarte]]`; Formular-Logik → `[[energie-energienachweis-zh-formulare]]`.
 Paralleles Quell-Destillat (AWEL-Merkblatt «Liste der Befugten») in KB energie:
-`wissen/energie/destillate/private-kontrolle-zh` (Cross-KB Run 11 verlinkt; hier fuehrend fuer das Verfahren).
+`wissen/energie/destillate/private-kontrolle-zh` (Cross-KB Run 11 verlinkt; hier führend für das Verfahren).
 
 ## 1 — Was die Private Kontrolle ist (BBV I § 4, LS 700.21)
 

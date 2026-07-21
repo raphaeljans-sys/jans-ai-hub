@@ -16,10 +16,10 @@ gefuehrt: nicht das Amt prueft, sondern **befugte Fachleute bestaetigen untersch
 Plan und Bericht, dass das Projekt den Vorschriften entspricht — die Behoerde darf, muss aber
 nicht nachpruefen.
 
-> **Querbezug KB planungsgrundlagen (Cross-KB Run 11):** Fuer die Verfahrens-/Zustaendigkeitsfuehrung
+> **Querbezug KB planungsgrundlagen (Cross-KB Run 11):** Für die Verfahrens-/Zuständigkeitsführung
 > (wer zeichnet welches EN-Formular, Ablauf der Privaten Kontrolle) ist
-> `planungsgrundlagen/wiki/energie-private-kontrolle-zh` fuehrend (Rollen-Matrix Wissens-Chef).
-> Dieses energie-Destillat haelt den AWEL-Merkblatt-Quellstand; nicht doppelt pflegen.
+> `planungsgrundlagen/wiki/energie-private-kontrolle-zh` führend (Rollen-Matrix Wissens-Chef).
+> Dieses energie-Destillat hält den AWEL-Merkblatt-Quellstand; nicht doppelt pflegen.
 
 ---
 
