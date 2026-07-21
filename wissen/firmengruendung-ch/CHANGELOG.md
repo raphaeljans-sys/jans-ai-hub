@@ -3,6 +3,18 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-21 — Phase-2-Umsetzung des Nacht-Audits (Dauerschicht-Zyklus 36)
+- [eingearbeitet] **Firmenname-Distinktivitäts-Lesson** (Health-Check-Top-Fund seit 01.07.):
+  [[ag-gruendungsablauf]] Schritt 2 ergänzt um die EHRA-Ziff.-IV-Regel (gleicher Firmenkern +
+  Rechtsform-Zusatz genügt nicht, Fall «JANS AG»/«JANS GmbH»), Zefix-Vorbehalt und
+  HRA-Voranfrage-Empfehlung VOR Statuten/Kapitaleinzahlungskonto. QUESTIONS-Archiv nachgeführt.
+- [backlinks] Orphan-Befund B des Nacht-Audits behoben: [[steuern-ag-inhaber]] erhält
+  Content-Backlinks aus [[rechtsform-vergleich]] (Einleitung) und [[kapital-und-liberierung]]
+  (Agio/KER-Steuerwirkung).
+- Offen aus dem Audit bleiben: 2023-Aktienrecht-Verifikation (Kapitalband/Fremdwährung/
+  Art. 727 OR) und Beleg der Kosten-Richtwerte durch reale Offerten (braucht den laufenden
+  Gründungsfall).
+
 ## 2026-07-21 — Wissens-Health-Check Phase 1 (Nachtschicht Mac Mini)
 - [health-check] Phase-1-Audit (A–G) → outputs/2026-07-21_health-check.md. Ampeln: A gelb
   (Firmenname-Blocker-Lesson vom 01.07. weiterhin nicht eingearbeitet), B gelb (neuer Artikel

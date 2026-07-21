@@ -9,7 +9,9 @@ links: [[ag-gruendungsablauf]], [[kapital-und-liberierung]], [[kosten-und-zeit]]
 # Rechtsform-Vergleich Schweiz
 
 Entscheidungsgrundlage für die Wahl der Rechtsform. Detaillierte Kosten siehe
-[[kosten-und-zeit]], Kapitalregeln siehe [[kapital-und-liberierung]].
+[[kosten-und-zeit]], Kapitalregeln siehe [[kapital-und-liberierung]]. Für die laufende
+Steueroptimierung nach der Gründung (Lohn/Dividende, PK-Einkauf, Säule 3a) siehe
+[[steuern-ag-inhaber]].
 
 | Rechtsform | Mindestkapital | Haftung | Gründungskosten (ca.) | Rechtsgrundlage |
 |---|---|---|---|---|

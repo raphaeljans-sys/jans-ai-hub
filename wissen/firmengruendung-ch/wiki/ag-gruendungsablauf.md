@@ -14,6 +14,14 @@ Detailartikel.
 1. **Gründungskosten budgetieren** — siehe [[kosten-und-zeit]].
 2. **Firmenname festlegen & prüfen** — Verfügbarkeit/Zulässigkeit via Zefix
    (zefix.ch) und ggf. Vorabklärung beim Handelsregisteramt. Firmenrecht: Art. 944/950 OR.
+   **Distinktivitäts-Regel (Lesson aus dem realen Fall JANS AG, Juli 2026):** Der neue
+   Name muss sich vom Bestand **im Firmenkern** unterscheiden — **derselbe Kern mit blossem
+   Rechtsform-Zusatz genügt NICHT** (EHRA-Weisung Ziff. IV; «JANS AG» war durch die
+   bestehende «JANS GmbH» blockiert, Hinweis Notar). Ein Zefix-Treffer «kein identischer
+   Eintrag» ist also KEINE Freigabe: gleichlautende Kerne anderer Rechtsformen prüfen und
+   bei Nähe eine **schriftliche Voranfrage ans kantonale HRA** stellen (ZH:
+   kanzlei.hra@ji.zh.ch) — erst mit deren Antwort den Namen fixieren, da nachgelagerte
+   Schritte (Statuten, Kapitaleinzahlungskonto der Bank) am definitiven Namen hängen.
 3. **Zweck formulieren** — allgemeinverständlich und bestimmt (siehe [[statuten-ag]]).
 4. **Aktienkapital, Aktienaufteilung und Liberierung festlegen** — siehe
    [[kapital-und-liberierung]].

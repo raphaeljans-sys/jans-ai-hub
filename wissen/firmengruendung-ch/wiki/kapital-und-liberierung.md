@@ -34,3 +34,6 @@ typischer KMU-Gründung fällt sie damit nicht an (siehe [[kosten-und-zeit]]).
 > *needs-verification:* Revidiertes Aktienrecht ab 01.01.2023 erlaubt u.a. Aktienkapital
 > in zugelassener Fremdwährung und das Kapitalband — bei solchen Varianten aktuellen
 > OR-Stand und Notariat beiziehen.
+
+Agio/Kapitaleinlagereserven bei der Gründung wirken später steuerlich (einkommenssteuerfreie
+Rückzahlung) — Zusammenhang und weitere Inhaber-Steuerhebel in [[steuern-ag-inhaber]].

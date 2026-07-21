@@ -26,6 +26,11 @@
 - Noch keine erfasst.
 
 ## Beantwortete Fragen (Archiv)
+- **Firmen-Distinktivität / EHRA-Weisung Ziff. IV (21.07.2026, Dauerschicht-Zyklus 36):**
+  Die im Health-Check 01.07. geflaggte und 20 Tage unbearbeitete Lesson aus dem realen
+  Fall JANS AG ist jetzt in [[ag-gruendungsablauf]] Schritt 2 eingearbeitet: gleicher
+  Firmenkern + blosser Rechtsform-Zusatz genügt nicht; Zefix-«frei» ist keine Freigabe;
+  bei Nähe schriftliche HRA-Voranfrage (ZH: kanzlei.hra@ji.zh.ch) VOR Statuten/Bankkonto.
 - **Promotion `steuern-ag-inhaber` (20.07.2026, Dauerschicht-Zyklus 20):** Der Output
   `outputs/2026-07-02_steuern-sparen-ag-inhaber.md` (established) ist als Evergreen-
   Wiki-Artikel [[steuern-ag-inhaber]] ins Wiki überführt (situative Anlass-Rahmung
