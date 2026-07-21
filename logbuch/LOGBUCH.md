@@ -7,6 +7,22 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-21
 
+**Nachtschicht-Zyklus Mac Mini (~04:30) — Wissens-Health-Check KB planungsgrundlagen (Phase 1, Skill wissenscheck).**
+Doppelarbeit-Guard geprueft: alle vorrangigeren Baustellen (remote-tasks/sync-tasks leer,
+synobsis seit 13.07. ergebnislos/kein neuer Stoff, energie/normen heute bereits bearbeitet,
+planungsgrundlagen selbst zweimal heute trainiert) liessen keinen kleineren Auftrag zu — daher
+faelligster Wissenscheck genommen: planungsgrundlagen zuletzt am 01.07. geprueft (20 Tage,
+aeltester unter den Mac-Mini-KBs). Zahlenbild: A0/C0 (nicht erschoepfend, Budget-Stichprobe),
+B3 (2 durch Zeilenumbruch zerbrochene `[[...]]`-Backlinks, 2 Artikel fehlen im INDEX.md, 0
+echte Orphans), D0 (RAW-Register vollstaendig inline verlinkt), E0 (aeltester Artikel 46 Tage,
+alles unter der 90-Tage-Schwelle), **F2** (39 von 48 Wiki-Artikeln mit Umlaut-Ersatzschreibweisen
+— deckt sich mit dem identischen Befund heute Nacht in KB energie, moeglicherweise gemeinsame
+Ursache im Trainings-Loop, Nebenbefund an `koordination` zur Pruefung vermerkt; 1 Artikel ohne
+Frontmatter), G10 (10 emerging-Artikel als Promotion-Kandidaten fuer den naechsten Trainingslauf,
+nicht einzeln geprueft). Nichts selbst korrigiert (Phase 2 nur interaktiv). Register (CHANGELOG)
+nachgefuehrt, Report `wissen/planungsgrundlagen/outputs/2026-07-21_health-check.md`. Deutlich
+unter Budget; Zyklus sauber beendet.
+
 **Nachtschicht-Zyklus Mac Mini (~03:30) — DIN 1946-6 ↔ SIA 382/1 Methodenvergleich (KB normen).**
 Doppelarbeit-Guard geprueft (dispatch/log/, CHANGELOG): Mac-Mini-Baustellen energie/
 planungsgrundlagen/normen-DIN-VSS-RAL alle frisch bearbeitet oder erschoepft (offene

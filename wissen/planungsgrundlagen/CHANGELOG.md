@@ -2,6 +2,17 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-21 — Wissens-Health-Check (Phase 1, Skill wissenscheck, Mac Mini Nachtschicht)
+Audit nach 20 Tagen (aeltester unter Mac-Mini-KBs). Top-Finding: Umlaut-Konvention in 39 von
+48 Wiki-Artikeln verletzt (fuer/ueber/moeglich/... statt ä/ö/ü) — deckt sich mit dem identischen
+Befund heute Nacht in KB `energie`, moeglicherweise gemeinsame Ursache im Trainings-Loop.
+Weitere Funde: 2 durch Zeilenumbruch zerbrochene `[[...]]`-Backlinks, 2 Artikel fehlen im
+INDEX.md, 1 Artikel ohne Frontmatter (`kartenportale-sharepoint-ablage.md`), 10 emerging-Artikel
+als Promotion-Kandidaten fuer den naechsten Trainingslauf. Keine Widersprueche, keine
+RAW-Coverage-Luecken, keine veralteten Artikel gefunden (Audits A/C nicht erschoepfend,
+Budget-Disziplin). Nichts selbst korrigiert (Phase 2 nur interaktiv). Report:
+`outputs/2026-07-21_health-check.md`.
+
 ## 2026-07-20 — Wissens-Chef Run 10 (Cross-KB): WTA-Artikel auf § 2a-BVV-Rechtsgrundlage verlinkt
 - [link] `wiki/energie-baueingabe-zusatzformulare.md`: Querbezug-Block «KB energie» im WTA-Abschnitt —
   die Verfahrensweiche für Wärmepumpen (Melde-/Anzeige-/ordentliches Verfahren) zeigt jetzt auf die

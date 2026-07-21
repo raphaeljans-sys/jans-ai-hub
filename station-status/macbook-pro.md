@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 21.07.2026 04:13:23
+Stand: 21.07.2026 04:43:46
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 03:49)
+- Developer/jans/ai/hub  (letzte Aktivitaet 04:18)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 21.07.2026 04:13:23
 - 5 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 4924f3b0 sync: twin-mail-training: Batch 58 (2026-06-26 12:38 - 2026-06-30 09:07)
+- 4662174e spec-training Lauf 24: gemessenes Vorbereitung->Interview-Delta (SYN-02, 7/9) + Reue-Check Lauf-23-P1
