@@ -251,3 +251,30 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `sia-1031-einzelarbeitsvertrag.md` | SIA-Einzelarbeitsvertrag, Nr. 1031, 2007 | SIA 1031, Nr. 1031 / 2007 (Formular von der… | established (Run 16 260719, beanstandet, 12 Aussagen, 2 Befund(e)) |
 | `sia-praktikantenvertrag.md` | Einzelarbeitsvertrag für Praktikantinnen und Praktikanten (Deckblatt-Titel;… | unbekannt (kein Ausgabevermerk im PDF; PDF-… | established (Run 16 260719, beanstandet, 13 Aussagen, 4 Befund(e)) |
 | `vkf-normkonzept-bsv-2026-entwurf.md` | Normkonzept BSV 2026 (Totalrevision der Brandschutzvorschriften (BSV 2026)) | Normkonzept BSV 2026, Stand 06.10.2022 (Pro… | established (Run 16 260719, beanstandet, 13 Aussagen, 6 Befund(e)) |
+<!-- Nachregistrierung 21.07.2026 (Dauerschicht-Zyklus 42, Audit-B-Rest): 26 vorhandene, bisher nicht registrierte Destillate -->
+| `de-arbstaettv-2004.md` | ArbStättV (2004/2010) Verordnung über Arbeitsstätten (Arbeitsstättenverordnung) | Arbeitsstättenverordnung (ArbStättV), Au | destilliert |
+| `de-baunvo-1990.md` | BauNVO (1990/1993) Verordnung über die bauliche Nutzung der Grundstücke (Baunutzungsveror | Baunutzungsverordnung (BauNVO), Ausferti | destilliert |
+| `de-vstaettvo-niedersachsen-2004.md` | VStättVO Niedersachsen (2004) Versammlungsstättenverordnung | VStättVO Niedersachsen vom 8. November 2 | destilliert |
+| `sia-108-2003.md` | SIA 108:2003 Ordnung für Leistungen und Honorare der Maschinen- und der Elektroinge | SIA 108, Ordnung 2003, 1. Auflage (2003- | destilliert |
+| `sia-121-2003.md` | SIA 121:2003 Verrechnung der Preisänderungen mit dem Objekt-Index-Verfahren (OIV) | Ordnung SIA 121:2003 (SN 508 121), 1. Au | destilliert (Korrektur nach Verifikation 13.07.2026, s. Beme |
+| `sia-125-2017.md` | SIA 125:2017 Preisänderungen infolge Teuerung für Leistungen der General- und Total | SIA 125:2017 (SN 507 125), 1. Auflage 20 | established (verifiziert 13.07.2026) |
+| `sia-142-1998.md` | SIA 142:1998 Ordnung für Architektur- und Ingenieurwettbewerbe (VORGÄNGER-Ausgabe) | SIA 142, Ordnung für Architektur- und In | destilliert |
+| `sia-144-2013.md` | SIA 144:2013 Ordnung für Ingenieur- und Architekturleistungsofferten | SIA 144:2013 (SN 507 144), 1. Auflage 20 | established (verifiziert 13.07.2026) |
+| `sia-150-2018.md` | SIA 150:2018 Bestimmungen für das Verfahren vor einem Schiedsgericht | SIA 150:2018 (SN 509150:2018 de), 1. Auf | established (verifiziert 13.07.2026) |
+| `sia-162-152-2001.md` | SIA 162.152 (SN EN 934-2:2001) Zusatzmittel fuer Beton, Moertel und Einpressmoertel, Teil 2: Betonzus | SIA 162.152 = SN EN 934-2:2001, gueltig | established (verifiziert 13.07.2026) |
+| `sia-166-2004.md` | SIA 166:2004 Klebebewehrungen | Vornorm SIA 166 (SN 505 166), Ausgabe 20 | established (verifiziert 13.07.2026) |
+| `sia-1695-4-2018.md` | SN EN 16954:2018 (SIA 244.153) Künstlich hergestellter Stein: Platten und zugeschnittene Produkte für | SIA 244.153 / SN EN 16954:2018, gültig a | established (verifiziert 13.07.2026) |
+| `sia-179-1998.md` | SIA 179:1998 Befestigungen in Beton und Mauerwerk | SIA 179:1998 (Empfehlung, Ausgabe 1998; | established (verifiziert 13.07.2026) |
+| `sia-180-081-2017.md` | SIA 180.081:2017 Wärmetechnisches Verhalten von Fenstern, Türen und Abschlüssen | SIA 180.081 = SN EN ISO 10077-1:2017 de, | established (verifiziert 13.07.2026) |
+| `sia-180-082-2017.md` | SIA 180.082:2017 Wärmetechnisches Verhalten von Fenstern, Türen und Abschlüssen | SIA 180.082 = SN EN ISO 10077-2:2017 de, | destilliert (Original teilweise gelesen; Teilbereich verifiz |
+| `sia-180-2014.md` | SIA 180:2014 Wärmeschutz, Feuchteschutz und Raumklima in Gebäuden | SIA 180:2014 (SN 520180:2014 de), 1. Auf | destilliert (Original teilweise gelesen; Kernkapitel verifiz |
+| `sia-181-2006.md` | SIA 181:2006 Schallschutz im Hochbau | SIA 181:2006 (SN 520 181), 1. Auflage 20 | destilliert (Original teilweise gelesen; Teilbereich verifiz |
+| `sia-270-1992.md` | SIA 270 Abdichtungen aus Dichtungsbahnen oder Gussasphalt | SIA 270:1992 «Abdichtungen aus Dichtungs | destilliert (Original vollstaendig gelesen, 2026-07-13) |
+| `sia-273-1998.md` | SIA 273 Gussasphalt im Hochbau | SIA 273, Empfehlung Ausgabe 1989 (Bauwes | destilliert (Original vollstaendig gelesen, 2026-07-13) |
+| `sia-318-1988.md` | SIA 318 Garten- und Landschaftsbau | SIA 318:1988 (SN 568 318, Ausgabe 1988; | destilliert (Original vollstaendig gelesen, 2026-07-13) |
+| `sia-331-1988.md` | SIA 331 Fenster | SIA 331:1988 Fenster (Ausgabe 1988, erse | destilliert (Original vollstaendig gelesen, 2026-07-13) |
+| `sia-342-1988.md` | SIA 342 Sonnen- und Wetterschutzanlagen | SIA 342:1988 «Sonnen- und Wetterschutzan | destilliert (Original vollstaendig gelesen, 2026-07-13) |
+| `sia-343-1990.md` | SIA 343 Türen und Tore | SIA 343:1990 «Türen und Tore» | destilliert (Original vollstaendig gelesen, 2026-07-13) |
+| `sia-414-1980.md` | SIA 414 Masstoleranzen im Bauwesen: Begriffe, Grundsätze und Anwendungsregeln | SIA 414:1980 «Masstoleranzen im Bauwesen | destilliert (Original vollstaendig gelesen, 2026-07-13) |
+| `sia-423-2006.md` | 423:2006 Gebäudedimensionen und Abstände | 423 2006 | established (verifiziert 260713) |
+| `sia-430-1993.md` | SIA 430 Entsorgung von Bauabfällen bei Neubau-, Umbau- und Abbrucharbeiten | SIA 430:1993, Empfehlung «Entsorgung von | destilliert (Original vollstaendig gelesen, 2026-07-13) |
