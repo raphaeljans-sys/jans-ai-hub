@@ -62,7 +62,9 @@ Prioritaeten (nimm die erste, die faellig ist):
 5. Offene QUESTIONS.md einer KB recherchieren und als Wiki-Artikel kompilieren
 6. Sonst: wissenscheck Phase 1 (unbeaufsichtigt) auf der KB mit dem aeltesten Audit-Datum
 
-Doppelarbeit-Guard: Der Dauerschicht-Loop auf dem MacBook Pro arbeitet dieselbe Liste rund um die Uhr. Lies darum IMMER zuerst CHANGELOG.md und Logbuch-Journal der betroffenen KB; ist die Aufgabe erledigt oder erkennbar in Arbeit, nimm die naechste Prioritaet.
+Doppelarbeit-Guard: Der Dauerschicht-Loop auf dem MacBook Pro arbeitet dieselbe Liste rund um die Uhr. Lies darum IMMER zuerst das juengste Protokoll unter dispatch/log/ (INHALTLICH, nicht nur den Namen) sowie CHANGELOG.md und Logbuch-Journal der betroffenen KB; ist die Aufgabe erledigt oder erkennbar in Arbeit, nimm die naechste Prioritaet.
+
+Budget-Disziplin (Lehre aus den Laeufen 00:30/01:30 am 21.07.): Dein Lauf hat ein hartes Budget von 5 USD. Waehle NUR Aufgaben, die inklusive Verifikation und Registerpflege in ~4 USD machbar sind — keine grossen Agent-Fan-outs, keine Recherchen ueber viele Quellen. Ist die naechste faellige Aufgabe erkennbar groesser: NICHT anfangen, sondern in der QUESTIONS.md der KB als «zu gross fuer Nachtschicht-Budget, braucht dedizierten Lauf» vermerken und eine kleinere Aufgabe nehmen. Scheiterte der letzte Lauf an Budget oder Timeout an einer Aufgabe, nimm NIE dieselbe Aufgabe direkt erneut.
 
 Jeder Zyklus endet mit: Ergebnis in wiki/ bzw. outputs/ auf dem NAS, CHANGELOG-Eintrag, eine Journalzeile im Logbuch (der NAS committet sich selbst, kein Git ueber SMB).
 
