@@ -2,6 +2,19 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-21 — Training-Run 39: Delta-Null-Bestaetigungslauf (kein neuer Befund)
+
+- **Kein neuer Ingest, keine Artikelaenderung.** KB unveraendert saturiert; kein neuer
+  JANS-Bewertungsfall (Bewertungsordner direkt gelistet, juengster weiterhin Wangen 8855),
+  keine auto-schliessbare Aufgabe offen. Marktpuls bewusst nicht geprueft (Drossel-Rule 260714,
+  naechster Wert 01.09.2026), kein Verifier-Wiederholungslauf (Kernkomplexe in Runs 18–22 exakt
+  reproduziert). 10 Themen zu erfinden waere ein Leitplanken-Verstoss.
+- **Kein Eskalations-Delta** (anders als Run 38): beide offenen Pendenzen — Loop-Ruecktaktung
+  (Fristen-Register 19.07.) und Oberrieden-Hoehenkorrektur (Fristen-Register 17.07.) — stehen
+  bereits sichtbar in `logbuch/fristen.md`; nicht erneut geflaggt.
+- Register gepflegt: `training/curriculum.md`, `wiki/wissensluecken.md`, `raw/_INGESTED.md`.
+  Report: `outputs/2026-07-21_training-run39.md`.
+
 ## 2026-07-19 — Training-Run 38: Delta-Lauf; Ruecktaktungs-Empfehlung eskaliert ins Fristen-Register
 
 - **Kein neuer Ingest, keine Artikelaenderung.** KB unveraendert saturiert; kein neuer

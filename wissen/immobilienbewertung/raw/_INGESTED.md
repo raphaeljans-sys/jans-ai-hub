@@ -8,6 +8,10 @@ Ingest-Stand fest. Basis-Pfad:
 Legende Status: `offen` (noch nicht gelesen) · `teilweise` (angelesen/quergelesen) ·
 `eingearbeitet` (in Wiki-Artikel verdichtet).
 
+**Run 39 (2026-07-21):** kein neuer Ingest — KB saturiert, Bewertungsordner direkt gelistet und
+unveraendert (juengster Wangen 8855), Marktpuls-Stichtag erst 01.09.2026. Delta-Null-Lauf, kein
+Eskalations-Delta (beide Pendenzen bereits in `logbuch/fristen.md`).
+
 **Run 38 (2026-07-19):** kein neuer Ingest — KB saturiert, Bewertungsordner unveraendert
 (juengster Wangen 8855), Marktpuls-Stichtag erst 01.09.2026. Delta-Null-Lauf; einziger Delta:
 Ruecktaktungs-Pendenz nach `logbuch/fristen.md` ueberfuehrt.
