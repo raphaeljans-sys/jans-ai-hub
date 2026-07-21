@@ -21,7 +21,36 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
-## 2026-07-21 00:49 — [GEDROSSELT] Nachtschicht laeuft, Login-Block unveraendert, STOP bleibt stehen
+## 2026-07-21 06:49 — [GEDROSSELT] Nachtfenster stark gelaufen, Nachttakt jetzt belegt, Login-Block unveraendert
+
+**Fensterzustand:** Die Probe `claude -p --model haiku` liefert unveraendert kein «OK» (haengt bis
+zum Timeout, kein Usage-Signal) — also weiter [LOGIN], keine Aussage ueber das Kontingent.
+Belastbar bleibt der Durchsatz.
+
+**Durchsatz Nachtfenster (22:00–06:00):** kraeftig. Neun inhaltliche Commits, u.a. `wettbewerbs-dna`
+Etappe 3 Baustein B5 — damit **Schulbau B1–B6 vollstaendig abgeschlossen** (neues Parameter-Set
+`entwurfs-referenzen/.../schule-volksschule-ch.json`), `baurecht`-Buch Run 50 (WsG/WsV + Meldeverfahren
+§§ 2a–2e BVV), Normen Run 17 (SIA 382/1 + 384/201 verifiziert), Energie-KB Run 82 (§ 2a BVV korrigiert,
+ZH-Kantonsratsbeschluss 60 Mio lokalisiert), Wissens-Chef Run 10, `spec`-training Lauf 24, `twin`-Mail
+Batch 58. Seit Fensterschluss (06:00) nur noch `nas-selfcommit` im 15-Minuten-Takt — erwartbar am Morgen.
+Das Fenster hat Kapazitaet, die Nacht-Task-Flotte arbeitet ungebremst — das im Drossel-Regime
+gewuenschte Bild.
+
+**Runner/STOP:** unveraendert. Endlos-Runner gestoppt (STOP + STOP-Macmini vom 14.07. 12:53,
+unangetastet), Logs enden am 14.07. 12:40. Kein loeschbarer Login-/Limit-Grund — Grund ist die
+Drosselung auf Anweisung Raphaels mit Vorbehalt «Wiederanlauf nur auf ausdrueckliche Anweisung».
+
+**Mail:** keine. Login-Blocker seit 19.07. 22:52 gemailt, keine Wiederholung; kein neuer/geloester P1.
+
+**Vorschlaege:**
+- P1: keiner.
+- P2: Offen bleibt der Entscheid Raphaels zum Drossel-Regime. Bis dahin Status quo, Radar bleibt Schoner.
+- P3: (a) **ERLEDIGT** — der ausstehende Nachttakt-Beleg fuer `wettbewerbs-dna-training` liegt vor: das
+  CHANGELOG datiert den B5-Fortschritt ausdruecklich als «MacBook Pro Nachtlauf 2026-07-21», der 02:26-Takt
+  feuert. (b) Zwei wiederholte No-op-Laeufe fallen auf: `synobsis` (Nacht-Batch «853/853, kein neuer Stoff»,
+  KB saturiert — Stilllegung war bereits Raphaels Entscheid) und `immobewertung` Run 39 («Delta-Null-
+  Bestaetigungslauf»). Beide erzeugen im Drossel-Regime keinen Mehrwert; Frequenz je 1x pro mehrere Tage
+  bzw. bis neuer Stoff/Greenlight genuegt — nicht taeglich.
 
 **Fensterzustand:** Die Probe `claude -p --model haiku` endet unveraendert mit «Not logged in ·
 Please run /login» — also [LOGIN], kein Usage-Signal, keine Aussage ueber das Kontingent.
