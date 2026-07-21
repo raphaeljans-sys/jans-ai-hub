@@ -81,6 +81,11 @@
   Normen-Bestand. Bring-Schuld für den Wettbewerbs-Layer / die maschinelle DXF-Layer-Codierung —
   bei konkreter Layer-Benennung SIA 2014 beiziehen (SIA-Shop, nur auf Zuruf). (Notiert 12.07.2026
   beim Destillieren von SIA 400.)
+- [ ] **SIA 242 «Verputz- und Gipserarbeiten» ist NICHT im Normen-Bestand** (inkl. der
+  Qualitätsstufen-Systematik Q1–Q4 für gespachtelte Gipsplatten-Oberflächen). Bring-Schuld;
+  gebraucht am 21.07.2026 für die KISPI-Fachfrage LBW-Beschichtung (Antwort aus Fachpraxis
+  erstellt, Projektordner `2619 .../KISPI Trockenbau LBW/260721-LBW-Beschichtung-Antwort.md`) —
+  bei Beschaffung das Destillat dagegen verifizieren. (Notiert Dauerschicht-Zyklus 35.)
 
 - [x] **P2-SIA-Batch 1 destilliert — 12.07.2026 (Run 3):** SIA 260–267 (Tragwerk),
   500/358/251/252/253/257/271/281/279/232/329/240 (Hochbau) — 20 Normen am Original

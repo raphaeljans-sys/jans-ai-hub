@@ -7,6 +7,8 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-21
 
+**Dauerschicht-Zyklus 35 (MacBook Pro, ~07:45) — Raphaels LBW-Beschichtungs-Fachfrage BEANTWORTET (offen seit 17.07.).** Die dreimal vom Wochenlimit abgeschnittene Frage (Legende Putz/Abrieb vs. direkter Anstrich auf Gipskarton, KISPI-Trockenbau) ist beantwortet: Standard bei LBW ist direkter Anstrich auf gespachtelter Platte (Q2–Q4, Grundierung, Dispersion), kein Putz/Abrieb; Abrieb auf GK nur bei ausdruecklicher Legenden-Nennung (Spitalbau unueblich); die bekannten WO21/WO23-Positionen (Hochglanz-Endversiegelung = Q4) stuetzen die Anstrich-Lesart. Antwortdokument mit Entscheidungsregel und Ausschreibungs-Hinweis im Projektordner `.../KISPI Trockenbau LBW/260721-LBW-Beschichtung-Antwort.md` (der Ordner war leer — Raphael hatte ihn am 17.07. angelegt; DS3-Suche nach der Legende ohne Treffer). Rest: positionsgenaue Verifikation, sobald die Legende im Ordner liegt (Register-Zeile auf «Legende nachliefern»); SIA-242-Bring-Schuld in der Normen-KB notiert. Kein Versand, additiv.
+
 **Nachtschicht-Zyklus Mac Mini (~07:30) — Wissenscheck Phase 1 auf `auflagebereinigung`.**
 Doppelarbeit-Guard geprueft (dispatch/log/ inhaltlich, CHANGELOGs): Prioritaeten 1–5 leer/
 erschoepft, Mac-Mini-Kern-KBs (energie, planungsgrundlagen, synobsis, normen DIN/VSS/RAL)
