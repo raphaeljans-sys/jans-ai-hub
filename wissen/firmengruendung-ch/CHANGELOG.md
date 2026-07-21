@@ -3,6 +3,17 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-21 — Wissens-Health-Check Phase 1 (Nachtschicht Mac Mini)
+- [health-check] Phase-1-Audit (A–G) → outputs/2026-07-21_health-check.md. Ampeln: A gelb
+  (Firmenname-Blocker-Lesson vom 01.07. weiterhin nicht eingearbeitet), B gelb (neuer Artikel
+  `steuern-ag-inhaber` ist Orphan, keine Content-Backlinks), C gelb (HR-/Kostenzahlen weiterhin
+  ohne Tarifquelle), D grün, E gelb (2023-Aktienrecht-Check weiterhin offen), F grün, G gelb
+  (eine Promotion vollzogen `steuern-ag-inhaber`, Firmenname-Blocker-Promotion weiterhin
+  ausstehend). Keine Phase-2-Aktionen (unbeaufsichtigt). Top-Fund: Firmenname-Blocker-Lesson
+  ist trotz aktiver KB-Pflege seit 20 Tagen unverändert nicht promoviert — drittes Beispiel in
+  derselben Nacht (neben `auflagebereinigung`), dass Health-Check-Empfehlungen ohne interaktive
+  Phase-2-Session folgenlos bleiben.
+
 ## 2026-07-20 — Promotion: Wiki-Artikel `steuern-ag-inhaber` (Dauerschicht-Zyklus 20)
 - [neu] `wiki/steuern-ag-inhaber.md` — Evergreen-Fassung des established-Outputs
   `outputs/2026-07-02_steuern-sparen-ag-inhaber.md` (drei Haupthebel PK-Einkauf/3a/

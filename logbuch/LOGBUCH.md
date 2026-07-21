@@ -7,6 +7,27 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-21
 
+**Hub-Chef-Lauf (08:39) — ohne neuen Befund, keine zweite Mail.** Quellen: Fristen-Register + Logbuch (Horizont 7 Tage), Konversations-Destillat 21.07., Radar-Ergebnis 07:00, bexio `--verzug` + `--abgleich`, Mail-Vorfilter alle Apple-Mail-Konten (rj@/mail@/iCloud, Posteingang + Gesendete), Sync-/Remote-Task-Queues, Whitelist v1. Der Logbuch-Radar hat heute um 07:00 bereits vollstaendig an rj@ gebrieft (harte Frist Jegen Prinzippläne Los 274.01 mit 7 offenen Raphael-Entscheiden; RE-00087 96 Tg auf Mahnung 2; RE-00098/99 je 1 Tg ueber Frist; Thalwil 2414 SBB; KISPI Feuerpolizei VKF-Nachweise; SharePoint-Ablauf 08.08.; Kalender 23.07. 13:00–14:00). **Delta seit 07:00: kein neuer externer Eingang** (Mail-Vorfilter zeigt nur das Radar-Briefing selbst 07:04 sowie bereits erfasste Threads: Kepenek Kaffeekosten 20.07. von RJ 16:08 beantwortet, Ziegel OOO, Estermann Dankesschreiben z.K., SBB Wiedmer 20.07.). bexio `--verzug` unveraendert gegenueber dem Radar; `--abgleich` ohne neue echte Bankeingaenge. **Keine Whitelist-Aktion zulaessig:** A1 greift nicht — RE-00087 steht auf Mahnung 2 (Stufe 3/Betreibung ist Entscheid Raphael, A1 nur Stufe 1), RE-00098/99 erst 1 Tag ueberfaellig (A1-Guard verlangt >=5 Tage). Keine neuen, eindeutig bestaetigten Termine fuer A2 (23.07. seit >1 Woche im Register/Kalender, kein Neu-Anlass). Sync-/Remote-Queues leer. Keine neuen Mail-Entwuerfe noetig (kein zu beantwortender Neueingang). **Ergebnis:** keine neuen Befunde/Aktionen/Entwuerfe → gemaess Skill hub-chef (Non-Ziel) KEINE zweite Briefing-Mail; der 07:00-Radar deckt den Stand. Nebenbei bereits durch andere Loops erledigt und hier nur vermerkt: LBW-Beschichtungs-Fachfrage vom Dauerschicht-Zyklus 35 (~07:45) beantwortet. Kein Versand, keine Buchung, keine Loeschung.
+
+**Nachtschicht-Zyklus Mac Mini (~08:30) — Wissenscheck Phase 1 auf `firmengruendung-ch`.**
+Doppelarbeit-Guard geprueft (dispatch/log/ inhaltlich bis 07:30, CHANGELOGs, remote-tasks/
+sync-tasks leer, Locale-Fix aus dem 06:30-Zyklus bereits im gemeinsamen `dispatch-run.sh`
+verifiziert — deckt beide Stationen ab, keine weitere Aktion noetig). Prioritaeten 1–5 erneut
+leer/erschoepft. Erst `projekt-lessons` (gemeinsam aeltester Audit, 01.07.) angeschaut, dann
+verworfen: KB ist seit Anlage (02.06.) komplett leer (0 Rohmaterial, nur Geruest) — ein Audit
+haette nur das bereits bekannte Nullergebnis vom 01.07. wiederholt. Stattdessen `firmengruendung-
+ch` gewaehlt (gleich alter Audit, aber echter Inhalt: 9 Wiki-Artikel, 6 raw-Quellen). Top-Fund:
+die am 01.07. als "hoechster Compounding-Wert" markierte Firmenname-Blocker-Lesson (JANS AG
+durch bestehende JANS GmbH blockiert, EHRA-Weisung Ziff. IV) ist 20 Tage spaeter unveraendert
+nicht in die KB eingearbeitet — obwohl im selben Zeitraum eine andere Promotion
+(`steuern-ag-inhaber`) sehr wohl durchgefuehrt wurde. Drittes Beispiel in derselben Nacht (nach
+`auflagebereinigung` um 07:30), dass Health-Check-Empfehlungen ohne interaktive Phase-2-Session
+folgenlos bleiben. Zusaetzlich: neuer Artikel `steuern-ag-inhaber` ist ein Orphan (keine
+Content-Backlinks, nur INDEX/QUESTIONS verlinken darauf); Aktienrecht-2023-Verifikation
+weiterhin offen. Nichts selbst korrigiert (Phase 2 nur interaktiv). Report:
+`wissen/firmengruendung-ch/outputs/2026-07-21_health-check.md`. Kosten dieses Zyklus ca. 2.0
+USD von 5 USD Budget.
+
 **Dauerschicht-Zyklus 35 (MacBook Pro, ~07:45) — Raphaels LBW-Beschichtungs-Fachfrage BEANTWORTET (offen seit 17.07.).** Die dreimal vom Wochenlimit abgeschnittene Frage (Legende Putz/Abrieb vs. direkter Anstrich auf Gipskarton, KISPI-Trockenbau) ist beantwortet: Standard bei LBW ist direkter Anstrich auf gespachtelter Platte (Q2–Q4, Grundierung, Dispersion), kein Putz/Abrieb; Abrieb auf GK nur bei ausdruecklicher Legenden-Nennung (Spitalbau unueblich); die bekannten WO21/WO23-Positionen (Hochglanz-Endversiegelung = Q4) stuetzen die Anstrich-Lesart. Antwortdokument mit Entscheidungsregel und Ausschreibungs-Hinweis im Projektordner `.../KISPI Trockenbau LBW/260721-LBW-Beschichtung-Antwort.md` (der Ordner war leer — Raphael hatte ihn am 17.07. angelegt; DS3-Suche nach der Legende ohne Treffer). Rest: positionsgenaue Verifikation, sobald die Legende im Ordner liegt (Register-Zeile auf «Legende nachliefern»); SIA-242-Bring-Schuld in der Normen-KB notiert. Kein Versand, additiv.
 
 **Nachtschicht-Zyklus Mac Mini (~07:30) — Wissenscheck Phase 1 auf `auflagebereinigung`.**
