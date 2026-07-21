@@ -9,6 +9,18 @@ und Historie) liegen in `rules/auto-verbesserungen-archiv.md` (nicht importiert)
 steht nur der aktive, imperative Kern. Konsolidiert am 19.07.2026 (Kontext-Diaet,
 Konzept: `docs/konzepte/260719-Kontext-Diaet-Token-Reduktion/`).
 
+## 260721 — Bundesrecht-Volltexte: Fedlex ueber die Filestore-URL lesen (nicht das JS-Portal)
+- **Regel:** Das Fedlex-Portal (fedlex.admin.ch/eli/...) liefert ohne JavaScript keinen
+  Text. Amtliche Volltexte des Bundesrechts IMMER ueber das Filestore-Muster beziehen:
+  `https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/<ELI>/<JJJJMMTT>/de/html/fedlex-data-admin-ch-eli-cc-<ELI-mit-Bindestrichen>-<JJJJMMTT>-de-html.html`
+  (Konsolidierungsdatum meist 01.01. des laufenden Jahres; per curl-Statuscode testen).
+  Beispiel OR (SR 220): ELI `27/317_321_377`, Stand 20260101, ~2.6 MB — Artikel per
+  `<article id="art_NNN">` extrahierbar (Buchstaben-Artikel mit Unterstrich: `art_777_c`).
+  Ausloeser: GmbH-Artikel 21.07. musste zunaechst auf Sekundaerquellen ausweichen;
+  Dauerschicht-Zyklus 49 hat den Weg gefunden und alle OR-Zitate amtlich verifiziert.
+- **Gilt fuer:** alle KBs/Loops, die Bundesrecht zitieren (firmengruendung, normen,
+  baurecht fuer Bundesnormen, energie), ab 21.07.2026.
+
 ## 260720 — Stations-Koordination Dauerschicht/Nachtschicht: Dispatch-Protokoll INHALTLICH lesen
 - **Regel:** Bevor ein Dauerschicht-/Nachtschicht-Zyklus seine Aufgabe waehlt, liest er das
   juengste Protokoll unter `dispatch/log/` (bzw. die juengste Journalzeile) INHALTLICH —

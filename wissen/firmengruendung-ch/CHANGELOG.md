@@ -3,6 +3,16 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-21 — GmbH-Artikel AMTLICH VERIFIZIERT + Fundstellen-Präzisierung (Dauerschicht-Zyklus 49, ~23:05)
+- [verifiziert] Die needs-verification-Markierung des neuen [[gmbh-gruendungsablauf]] ist
+  aufgelöst: alle Kern-Artikel am amtlichen OR-Volltext gegengelesen (Fedlex-Filestore,
+  Konsolidierung 01.01.2026) — Art. 773/778/786/809/818 bestätigt.
+- [korrigiert] **Fundstellen-Präzisierung:** Die Voll-Liberierung steht in **Art. 777c
+  Abs. 1 OR** (vollständige Leistung jeder Einlage), NICHT in Art. 773 (der regelt nur
+  Betrag + Fremdwährungs-Option) — Zitat im Artikel berichtigt.
+- [methodik] Fedlex-Filestore-Zugriffsweg als Rule dokumentiert (auto-verbesserungen
+  260721) — behebt die von der Nachtschicht gemeldete Fedlex-JS-Blockade dauerhaft.
+
 ## 2026-07-21 — Neuer Artikel: GmbH-Gründungsablauf (Nachtschicht-Zyklus Mac Mini, 22:30)
 - [neu] `wiki/gmbh-gruendungsablauf.md` — Master-Ablauf als Pendant zu
   [[ag-gruendungsablauf]] (Backlog-Punkt aus QUESTIONS.md seit 02.06. offen). 12 Schritte

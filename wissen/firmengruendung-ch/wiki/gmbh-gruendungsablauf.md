@@ -24,8 +24,9 @@ Abweichungen; wo die AG-Regel unverändert gilt, wird auf den AG-Artikel verwies
    der AG braucht es **keine Organe-Bestellung in den Statuten**: regeln die
    Gesellschafter die Geschäftsführung nicht ausdrücklich, sind kraft Gesetz
    **alle Gesellschafter gemeinsam geschäftsführungsbefugt** (Art. 809 OR).
-4. **Stammkapital festlegen und voll liberieren** — **CHF 20'000 Mindestkapital,
-   muss vollständig einbezahlt sein** (Art. 773 OR) — anders als die AG, bei der
+4. **Stammkapital festlegen und voll liberieren** — **CHF 20'000 Mindestkapital**
+   (Art. 773 Abs. 1 OR; Abs. 2 erlaubt neu auch Fremdwährungskapital), **jede Einlage
+   muss vollständig geleistet sein** (Art. 777c Abs. 1 OR) — anders als die AG, bei der
    nur 20 % bzw. min. CHF 50'000 von CHF 100'000 einzuzahlen sind (siehe
    [[kapital-und-liberierung]] für die Sperrkonto-/Bankbestätigungs-Mechanik, die
    analog gilt). Nennwert je Stammanteil mind. CHF 100, Stückelung frei wählbar.
@@ -82,8 +83,13 @@ Abweichungen; wo die AG-Regel unverändert gilt, wird auf den AG-Artikel verwies
 - **Nachschusspflicht:** GmbH-spezifische Option (Art. 795 ff. OR), bei AG nicht
   vorgesehen.
 
-> *needs-verification:* Artikelnummern wurden über Sekundärquellen (Lehrstuhl-
-> Skript Uni Basel, law.ch, Kantons-Merkblatt SG) plausibilisiert, nicht direkt am
-> Fedlex-Gesetzestext gegengelesen (Fedlex liefert ohne JavaScript keinen
-> Volltext). Vor einem echten GmbH-Gründungsfall den Wortlaut Art. 772–827 OR
-> direkt nachschlagen.
+> *Verifikation 21.07.2026 (Dauerschicht-Zyklus 49):* Die Kern-Artikel wurden am
+> **amtlichen OR-Volltext** gegengelesen (Fedlex-Filestore, Konsolidierung 01.01.2026):
+> **Art. 773** (Stammkapital min. 20'000, Abs. 2 Fremdwährung), **Art. 777c Abs. 1**
+> (vollständige Leistung jeder Einlage — die Voll-Liberierung steht HIER, nicht in
+> Art. 773; Zitat oben präzisiert), **Art. 778** (HR-Eintragung am Sitz), **Art. 786**
+> (Abtretung braucht Zustimmung der Gesellschafterversammlung; statutarische
+> Abweichungen Abs. 2), **Art. 809** (alle Gesellschafter führen gemeinsam; Statuten
+> können abweichen), **Art. 818** (Revisionsstelle nach Aktienrecht; Abs. 2
+> Nachschusspflicht-Sonderrecht) — alle bestätigt. Übrige Detailzitate (Art. 772 ff.)
+> bei Bedarf am selben Weg nachschlagen.

@@ -7,6 +7,8 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-21
 
+**Dauerschicht-Zyklus 49 (MacBook Pro, ~23:05) — GmbH-Artikel amtlich verifiziert, Fedlex-Blockade dauerhaft geloest.** Der um 22:30 von der Nachtschicht kompilierte [[gmbh-gruendungsablauf]] (needs-verification, da Fedlex ohne JS keinen Text liefert) ist jetzt am AMTLICHEN OR-Volltext gegengelesen: Zugriffsweg ueber das Fedlex-Filestore-URL-Muster gefunden (Konsolidierung 01.01.2026, 2.6 MB HTML, Artikel-Anker extrahierbar) — Art. 773/778/786/809/818 alle bestaetigt, EINE Fundstellen-Praezisierung (Voll-Liberierung = Art. 777c Abs. 1, nicht Art. 773; Artikel berichtigt). Der Zugriffsweg ist als Rule 260721 (auto-verbesserungen) fuer alle Bundesrecht-zitierenden KBs hinterlegt — die Fedlex-JS-Blockade ist damit dauerhaft behoben. CHANGELOG/Artikel nachgefuehrt. Kein Versand, kein Download (nur curl-Textlesen), additiv.
+
 **Nachtschicht-Zyklus Mac Mini (~22:30) — firmengruendung-ch: neuer Wiki-Artikel GmbH-Gründungsablauf.**
 Doppelarbeit-Guard geprueft (dispatch/log/ 21:30/20:30 inhaltlich, remote-tasks/pending +
 sync-tasks/mac-mini leer, Mac-Mini-Kern-KBs energie/planungsgrundlagen/architekten-synobsis/
