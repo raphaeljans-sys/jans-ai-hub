@@ -7,6 +7,26 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-21
 
+**Nachtschicht-Zyklus Mac Mini — Wissens-Health-Check KB energie (Phase 1, Skill wissenscheck).**
+Erster Health-Check der KB seit dem 01.07. (23 → 82 Runs, 50 → 133 Destillate, 29 → 101
+FAQ-Fragen). Zahlenbild: A0 (keine offenen Widersprueche, gute Selbstkorrektur-Kultur), B4
+(0 kaputte `[[Links]]` unter 154 Zielen, aber `destillate/INDEX.md` mit 35 Dubletten-Zeilen ueber
+19 Destillate — Extremfall `muken-2025-verabschiedet` 7× — plus 2 komplett unregistrierte
+Destillate; `wiki/INDEX.md` vermischt 25 destillat-basierte Eintraege mit den 21 echten
+Themenartikeln, der FAQ-Indexeintrag ist zu einem mehrere tausend Woerter langen Mega-Absatz
+angewachsen), C0 (Stichprobe zentraler Zahlen durchgehend belegt), D0 (RAW-Coverage vollstaendig),
+E2 (`foerderung-energie-zh` und `graue-energie` ziehen je eine bereits destillierte, neuere
+Erkenntnis nicht nach), **F1 schwer** (Umlaut-Konvention in 8 Wiki-Artikeln zu 100 % verletzt —
+ae/oe/ue statt ä/ö/ü, u.a. `u-werte-grenzwerte-ch`, `minergie-standards`, `graue-energie` — und
+auch im established-Kernprodukt BAUHERREN-FAQ zu rund 40 % betroffen; der 01.07.-Check hatte nur
+Artikel-Titel stichprobenartig geprueft und den Fliesstext-Befund verpasst), G3 (2 der 3
+Promotion-Kandidaten sind die exakt gleichen, die der 01.07.-Check bereits empfahl und die seither
+unveraendert auf `emerging` stehen geblieben sind — Phase-2-Empfehlungen wurden bislang nicht
+nachverfolgt). Keiner der Befunde verfaelscht eine Bauherren-Antwort inhaltlich; es sind reine
+Form-/Pflege-Schulden der schnell gewachsenen Verwaltungsschicht. Report
+`wissen/energie/outputs/2026-07-21_health-check.md`, CHANGELOG nachgefuehrt. Read-only Audit,
+kein Versand, keine Aenderung an Wiki/Destillaten (Phase 2 nicht Teil dieses Laufs).
+
 **Dauerschicht-Zyklus 30 (MacBook Pro, ~02:20) — zweiter Nachtschicht-Befund: Budget-Abbruch 01:30, Prompt geschaerft.** Der 01:30-Lauf endete mit «Error: Exceeded USD budget (5)» (exit 1) — nach dem Timeout-Verlust von 00:30 der zweite Lauf in Folge, der eine zu grosse Recherche-Aufgabe anpackte und die Ergebnisse verlor. Der Background-Wait-Fix aus Zyklus 29 ist inzwischen auf dem Mini angekommen (ab 02:30 wirksam). Zusaetzlich jetzt im Nachtschicht-Prompt verankert: **Budget-Disziplin** (nur Aufgaben ~4 USD inkl. Verifikation; groessere Aufgaben in QUESTIONS als «zu gross fuer Nachtschicht-Budget» vermerken statt anfangen; nach Budget-/Timeout-Abbruch NIE dieselbe Aufgabe direkt wiederholen) und der Dispatch-Protokoll-Inhaltscheck (Regel 260720). Wirksam ab Sync (~02:30/03:30). Verifikation im Morgenzyklus; falls die Nacht-Laeufe weiter abbrechen, ist der Takt oder das Budget der Nachtschicht ein Entscheid fuer Raphael. Kein Versand, additiv.
 
 **Dauerschicht-Zyklus 29 (MacBook Pro, ~01:15) — Nachtschicht-Abbruch 00:30 diagnostiziert und strukturell behoben.** Das Dispatch-Protokoll 00:30 zeigt: Der Nachtschicht-Lauf startete eine Energie-Recherche mit Hintergrund-Agenten und wurde nach dem 600-s-Background-Wait-Default TERMINIERT, bevor der Orchestrator Verifikation, Registerpflege und Ablage ausfuehren konnte — kein Output, kein CHANGELOG-Eintrag, keine halbfertigen Dateien (per find geprueft): die Agent-Ergebnisse sind verloren (Token ohne Ertrag). Kontext: Run 82 dokumentierte bereits, dass das Workflow-Tool im Dispatch-Headless-Betrieb gesperrt ist («Review dynamic workflow before running») und die Nachtschicht deshalb auf Hintergrund-Agenten ausweicht — genau diese laufen in den 600-s-Deckel. **Fix:** `scripts/nachtschicht-run.sh` setzt jetzt CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS=1800000 (30 Min) fuer den Dispatch-Aufruf; der bestehende Lock laesst den naechsten Stundenzyklus sauber ueberspringen statt zu ueberlappen. Wirksam ab Sync auf den Mini (naechster Lauf 01:30 evtl. noch alt, ab 02:30 sicher). Verifikation des Fixes im Morgenzyklus. Kein Versand, additiv.

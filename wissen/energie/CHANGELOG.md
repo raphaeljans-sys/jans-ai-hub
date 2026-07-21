@@ -2,6 +2,8 @@
 
 Neueste zuoberst.
 
+## 2026-07-21 — Wissens-Health-Check (Phase 1, Skill wissenscheck, Mac Mini Nachtschicht): 0 kaputte Links/0 unbelegte Claims, aber Umlaut-Konvention in 8 Wiki-Artikeln + der BAUHERREN-FAQ verletzt (Top-Finding) und destillate/INDEX.md mit 35 Dubletten-Zeilen (19 Destillate) plus 2 unregistrierten Destillaten; wiki/INDEX.md vermischt 25 destillat-basierte Eintraege mit den 21 echten Themenartikeln; die zwei am 01.07. empfohlenen Promotionen (regenwasserbewirtschaftung-versickerung-zh, sommerlicher-waermeschutz) sind weiterhin nicht umgesetzt. Report: `outputs/2026-07-21_health-check.md`.
+
 ## 2026-07-20 — Wissens-Chef Run 10 (Cross-KB): § 2a BVV Meldeverfahren dreiseitig verlinkt
 - [link] `destillate/bvv-zh-meldeverfahren-klimaanlagen-waermepumpen.md`: Cross-KB-Querbezug-Block in
   «Querverweise» ergänzt — Rollenteilung fixiert: energie = Rechtsgrundlage § 2a/§ 2c BVV + WP-Weichen
