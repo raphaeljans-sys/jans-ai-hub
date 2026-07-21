@@ -1,12 +1,18 @@
 ---
 title: Naturgefahrenkarte & Objektschutzkonzept — Gefahrenstufen, Schutzziele, Bezugswege ZH/SZ
 status: established
-last_updated: 2026-07-21 (Run 55)
+last_updated: 2026-07-22 (Run 55)
 sources:
   - opendata.swiss CKAN-API (`package_show?id=gefahrenkarte1`, Amt fuer Geoinformation Kt. SZ) —
     liefert die realen Service-URLs hinter dem bisher nur als manuellem WebGIS-Link bekannten
     Layer-Namen `ch.sz.a012b.naturgefahrenkarte.*`; live GetCapabilities/GetFeature/
-    DescribeFeatureType gegen `map.geo.sz.ch/mapserv_proxy` (Run 55, 2026-07-21)
+    DescribeFeatureType gegen `map.geo.sz.ch/mapserv_proxy`; Connector `geo-sz.mjs --produkt
+    naturgefahren` end-to-end verifiziert Willerzell 3301 (±5/60 m) + Negativ Wangen 25 (Run 55, 2026-07-22)
+  - map.geo.sz.ch/mapserv_proxy WFS 1.1.0 GetCapabilities Volltext-Scan (1'016 FeatureTypes) —
+    SZ-Grundwasserschutz unter Themencode `a013a.planerischergewaesserschutz.*` (gwszone S1/S2/S3
+    inkraft/provisorisch, gwsareal, gsbereiche.bereich.au); Schema per DescribeFeatureType; Connector
+    `geo-sz.mjs --produkt grundwasser` gebaut + end-to-end verifiziert Freienbach 1976 (S2/S3 «Halten»),
+    Wangen 25 (Bereich Au), Galgenen 439 (Punktlage-Nuance), Negativ Willerzell 3301 (Run 55, 2026-07-22)
   - maps.zh.ch/wfs/OGDZHWFS GetCapabilities Volltext-Grep — Datensatz 0327
     `giszhpub_gs_gw_isohypse_{hw,mw,mw_halb}_l` (Grundwasser-Isohypsen), live GetFeature-Test
     Hardau 24 Winterthur (Run 55, 2026-07-21)
@@ -489,9 +495,13 @@ prüfen (dieselbe offene Aufgabe wie für die generelle ZH-Naturgefahrenkarte in
   denied"** — d.h. falls ein WMS existiert, ist er **login-pflichtig**, kein
   offener Layer. Naechster Ansatz bleibt: den Datensatz-Alias direkt bei der
   AWEL-Fachstelle erfragen, nicht weiter erraten.
-- **SZ-Layer-Endpunkt GELOEST (Run 55, 2026-07-21):** war nur als manueller WebGIS-Link bekannt —
-  jetzt REST-faehig getestet und im Connector, s. Abschnitt 8c. Damit sind **beide** Kantone
-  (ZH Abschnitt 8a, SZ Abschnitt 8c) auf einen automatisierten Naturgefahren-Zugriff gebracht.
+- **SZ-Naturgefahren-Endpunkt GELOEST (Run 55, 2026-07-22):** war nur als manueller WebGIS-Link
+  bekannt — jetzt REST-faehig getestet und im Connector, s. Abschnitt 8c. Damit sind **beide**
+  Kantone (ZH Abschnitt 8a, SZ Abschnitt 8c) auf einen automatisierten Naturgefahren-Zugriff gebracht.
+- **SZ-Grundwasserschutz-Endpunkt GELOEST (Run 55, 2026-07-22):** S1/S2/S3-Zonen + Gewaesserschutz-
+  bereich Au + Schutzareal ueber `map.geo.sz.ch/mapserv_proxy` (a013a), Connector-Produkt
+  `geo-sz.mjs --produkt grundwasser` gebaut + verifiziert, s. Abschnitt 8d. Damit deckt auch der
+  SZ-Connector das UG-relevante Grundlagenpaar (Naturgefahr + Grundwasserschutz) ab.
 - **ZH-Grundwasserisohypsen (informative Aquiferkarte) neu gefunden, noch nicht im Connector**
   (Run 55) — s. Abschnitt 6, Status `emerging`. Naechster Schritt: `--produkt grundwasserkarte`
   in `geo-zh.mjs` bauen (analog zu `--produkt grundwasser` fuer die Schutzzonen).
@@ -602,3 +612,101 @@ Rechtsgrundlage GSchG/GSchV, Vollzug AWEL. Fuer die Grundwasser**karte** (Flurab
 Entscheid) bleibt Abschnitt 6 massgeblich; die Schutzzone ist die **rechtliche**, die Karte die
 **bautechnische** Grundlage — beide gehoeren in die Grundlagenphase, vgl.
 [[kartenportale-grundlagen-checkliste-neue-parzelle]].
+
+## 8c. SZ-Naturgefahrenkarte — Endpunkt gefunden und verifiziert (Run 55, 2026-07-22)
+
+Der SZ-Layer `ch.sz.a012b.naturgefahrenkarte.*` war seit Run 22 (K10) **nur als manueller WebGIS-
+Link** bekannt, nie als REST-Endpunkt getestet. Jetzt geschlossen — beide Kantone (ZH Abschnitt 8a,
+SZ hier) sind auf einen automatisierten Naturgefahren-Zugriff gebracht.
+
+**Der Fund (gleiche Lehre wie ZH: nach Inhalt, nicht nach dem Fachwort suchen).** Der reale
+Service hinter dem WebGIS wurde ueber die **opendata.swiss-CKAN-API** (`package_show?id=gefahrenkarte1`,
+Amt fuer Geoinformation Kt. SZ) gefunden: die WMS-/WFS-Ressourcen zeigen auf
+**`map.geo.sz.ch/mapserv_proxy`**. Das dortige `GetCapabilities` fuehrt exakt die aus dem WebGIS
+bekannten Layer-Namen.
+
+⚠ **Protokoll-Falle:** Der Dienst spricht **nur WFS 1.1.0 + GML 3.1.1**, nicht WFS 2.0.0. Ein
+`OUTPUTFORMAT=geojson` liefert HTTP 400 («outputformat 'geojson' is not permitted»). Deshalb liest
+der Connector die GML-Attribute mit einem simplen Regex-Parser (kein XML-Package im Hub-Node
+vorausgesetzt); `TYPENAME` (Singular), `SRSNAME`/`BBOX-CRS` als `urn:ogc:def:crs:EPSG::2056`.
+
+**Layer:**
+
+| Zweck | Typname |
+|---|---|
+| **Gefahrenflaechen ueberlagert** (Perimeter A, parzellenscharf) — der Standardlayer | `ms:ch.sz.a012b.naturgefahrenkarte.gefahrenflaechen.ueberlagert` |
+| Hinweisflaechen ueberlagert (Perimeter B, ausserhalb Siedlung) | `ms:ch.sz.a012b.naturgefahrenkarte.hinweisflaechen.ueberlagert` |
+| **Erhebungsgebiet** (Kartierungsstand — analog ZH-Layer 44.1) | `ms:ch.sz.a012b.naturgefahrenkarte.erhebungsgebiet` |
+
+**Attribute** (per realer Antwort verifiziert): je Prozess ein eigenes Textfeld —
+`lawine_gefahrenstufe_tx`, `rutsch_gefahrenstufe_tx`, `wasser_gefahrenstufe_tx`,
+`steinschlag_gefahrenstufe_tx` mit den Werten `keine` / `Restgefährdung` / `geringe` / `mittlere` /
+`erhebliche Gefährdung`. Anders als ZH (dort nur HW + MB) fuehrt SZ **alle vier alpinen Prozesse
+getrennt** (inkl. Lawine + Steinschlag) — das deckt sich mit der in Abschnitt 3 dokumentierten
+SZ-Besonderheit. Das `erhebungsgebiet`-Feature traegt `a012b_typ_tx` (z. B. «Erhebung
+abgeschlossen») + Info-Link auf die AWN-Fachstelle.
+
+**Eigenstaendig verifiziert 2026-07-22 am realen JANS-Benchmark:**
+
+| Fall | Radius | Ergebnis |
+|---|---|---|
+| **Willerzell/Reckholdern** Parz. 3301 Einsiedeln (EGRID `CH527708492462`) | ±5 m | 1 Flaeche, Rutsch **geringe Gefaehrdung** (parzellenpunkt-genau) |
+| dieselbe Parzelle | ±60 m | **10 Flaechen**, Rutsch gemischt (3x erheblich / 2x mittel / 5x gering), **massgebend erhebliche Gefaehrdung** — deckt sich mit dem Objektschutzkonzept 26.09.2023 (Abschnitt 4) |
+| **Negativ-Kontrolle** Wangen 25 (flaches Seeufer Obersee) | ±5 m | 0 Treffer, sauberer Negativbefund |
+
+⚠ **Radius-Nuance (wichtig fuer die Auslegung):** Der Default ±5 m gibt die **punktgenaue** Stufe
+am Parzellenschwerpunkt. Eine Parzelle kann aber mehrere Prozess-/Stufenfelder ueberlagern (hier:
+gering am Schwerpunkt, erheblich am Hang derselben Parzelle) — fuer die **parzellenweite**
+massgebende Stufe mit `--radius` (z. B. 40-60 m) auf die Parzellenausdehnung erweitern und die
+hoechste Stufe werten. Der Negativbefund ist ausserdem gegen den `erhebungsgebiet`-Layer zu lesen
+(Kartierungsstand ≠ Gefahrenfreiheit — dieselbe Falle wie ZH-Layer 44.1).
+
+**Connector.** `geo-sz.mjs --produkt naturgefahren` (braucht Koordinate, also `--parzelle`/
+`--adresse`, nicht `--egrid` allein) meldet die massgebende Stufe ueber alle vier Prozesse und gibt
+ab «mittlere»/«erhebliche Gefaehrdung» den Objektschutz-Hinweis (§ 20/17 PBG SZ, SIA 261/261-1,
+sensible Nutzungen) aus. Status **established** (Endpunkt + Positiv/Negativ-Benchmark verifiziert).
+
+## 8d. SZ-Grundwasserschutz — Endpunkt gebaut und verifiziert (Run 55, 2026-07-22)
+
+Das SZ-Pendant zum ZH-Grundwasser-Paar (Abschnitt 8b): entscheidet ueber das **Untergeschoss**
+(Weisse Wanne / Aushub / Erdwaermesonde), bevor gezeichnet wird. Derselbe WFS wie die
+Naturgefahren (8c). Die Layer wurden ueber einen **Volltext-Scan des GetCapabilities** (1'016
+FeatureTypes) unter dem SZ-Themencode **a013a «planerischer Gewaesserschutz»** gefunden — nicht
+unter einem «grundwasser»-Layernamen (gleiche ZH-Lehre).
+
+**Layer:**
+
+| Zweck | Typname |
+|---|---|
+| **Grundwasserschutzzone** S1/S2/S3 (rechtskraeftig) | `ms:ch.sz.a013a.planerischergewaesserschutz.gwszonen.gwszone.inkraft` |
+| Schutzzone (provisorisch) | `…gwszonen.gwszone.provisorisch` |
+| Schutzareal (Vorsorge fuer kuenftige Fassung) | `…gwszonen.gwsareal` |
+| **Gewaesserschutzbereich Au** (nutzbares Grundwasservorkommen) | `…gsbereiche.bereich.au` |
+
+**Attribute** (per `DescribeFeatureType` + realer Antwort belegt): die Zone traegt `typ` (S1/S2/S3),
+`bezeichnung` (Fassungsname), `wasserversorger`, `rechtskraftdatum`. Der **Bereich Au** ist ein
+reines Praesenz-Polygon (nur `identifikator`) — ein Treffer heisst «Parzelle liegt im
+Gewaesserschutzbereich Au».
+
+**Eigenstaendig verifiziert 2026-07-22 (Connector-Produkt heute gebaut + end-to-end getestet):**
+
+| Fall | Ergebnis |
+|---|---|
+| **Freienbach 1976** (EGRID `CH707738332629`) | Schutzzone **S3 UND S2 «Halten»** (Kloster Einsiedeln, rk 2006-07-04); Parzelle ueberlagert beide Ringe, massgebend **S2** |
+| **Wangen 25** (EGRID `CH379377805305`) | **Gewaesserschutzbereich Au**, aber **keine** S-Schutzzone |
+| **Galgenen 439** (EGRID `CH656153779347`) | am Schwerpunkt ±5/40 m **negativ**, obwohl die S3-Zone «Altstofel Ruchweid» die Parzellengrenze beruehrt — belegt die Punktlage-Nuance (s. u.) |
+| **Negativ-Kontrolle** Willerzell 3301 | weder S-Zone noch Bereich Au |
+
+⚠ **Punktlage-Nuance (wie bei Naturgefahren):** Default ±5 m ist parzellenpunkt-genau. Beruehrt eine
+Zone nur die Parzellengrenze (Galgenen 439), meldet der Punkt-Test korrekt **negativ** — fuer die
+parzellenweite Aussage `--radius` erhoehen. Umgekehrt kann eine Parzelle wie Freienbach 1976 zwei
+Ringe (S2 **und** S3) ueberlagern; der Connector wertet den **strengsten** (S2) als massgebend.
+
+**Connector.** `geo-sz.mjs --produkt grundwasser` (braucht Koordinate), Ausgabe **zonengerecht**
+identisch zur ZH-Logik (Abschnitt 8b): S1 faktisches Bauverbot · S2 UG/Aushub/Erdsonden i. d. R.
+unzulaessig · S3 auflagenbehaftet · **Bereich Au** = Anlagen/Aushub/Versickerung bewilligungspflichtig
+(GSchG Art. 19 / GSchV Anh. 4 Ziff. 21). Kombinierbar mit Naturgefahren in einem Lauf
+(`--produkt naturgefahren,grundwasser`). Status **established** (Endpunkt + S-Zonen-/Bereich-Au-/
+Negativ-Benchmark verifiziert). Damit deckt der SZ-Connector dieselben zwei UG-relevanten Grundlagen
+ab wie der ZH-Connector; vgl. [[kartenportale-grundlagen-checkliste-neue-parzelle]] und
+[[recht-norm-abstandsvorschriften-wald-gewaesser]] (SZ § 66/67, Gewaesser-Oekomorphologie).
