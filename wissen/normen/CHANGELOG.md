@@ -1,3 +1,12 @@
+## 2026-07-21 — Audit-B-Rest abgearbeitet: 26 Destillate im INDEX nachregistriert (Dauerschicht-Zyklus 42)
+- [index] destillate/INDEX.md um 26 vorhandene, bisher nicht registrierte Destillate ergaenzt
+  (Zeilen automatisch aus Titel/ausgabe/status-Frontmatter generiert): u.a. SIA 108/121/125/
+  142(1998)/144/150/166/179/180(+081/082)/181/270/273/318/331/342/343/414/423/430,
+  SN-EN-Ableitungen (162.152, 244.153) und die drei DE-Verordnungen (ArbStaettV, BauNVO,
+  VStaettVO NDS). Damit ist der normen-Health-Check vom 20.07. vollstaendig abgearbeitet,
+  soweit mechanisch moeglich (offen bleiben nur die ersetzt/ersetzt_durch-Recherche je Norm
+  und die inhaltlichen Bring-Schulden).
+
 ## 2026-07-21 — Audit-F abgearbeitet: ss-Konvention + Pflichtfelder (Dauerschicht-Zyklus 41)
 - [korrigiert] **ss-Konvention hergestellt:** 118 ß-Vorkommen in 13 DIN-/VdS-Destillaten
   (inkl. qa/) auf ss umgestellt (Rule umlaute-konvention, Schweizer Hochdeutsch).

@@ -251,7 +251,6 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `sia-1031-einzelarbeitsvertrag.md` | SIA-Einzelarbeitsvertrag, Nr. 1031, 2007 | SIA 1031, Nr. 1031 / 2007 (Formular von der… | established (Run 16 260719, beanstandet, 12 Aussagen, 2 Befund(e)) |
 | `sia-praktikantenvertrag.md` | Einzelarbeitsvertrag für Praktikantinnen und Praktikanten (Deckblatt-Titel;… | unbekannt (kein Ausgabevermerk im PDF; PDF-… | established (Run 16 260719, beanstandet, 13 Aussagen, 4 Befund(e)) |
 | `vkf-normkonzept-bsv-2026-entwurf.md` | Normkonzept BSV 2026 (Totalrevision der Brandschutzvorschriften (BSV 2026)) | Normkonzept BSV 2026, Stand 06.10.2022 (Pro… | established (Run 16 260719, beanstandet, 13 Aussagen, 6 Befund(e)) |
-<!-- Nachregistrierung 21.07.2026 (Dauerschicht-Zyklus 42, Audit-B-Rest): 26 vorhandene, bisher nicht registrierte Destillate -->
 | `de-arbstaettv-2004.md` | ArbStättV (2004/2010) Verordnung über Arbeitsstätten (Arbeitsstättenverordnung) | Arbeitsstättenverordnung (ArbStättV), Au | destilliert |
 | `de-baunvo-1990.md` | BauNVO (1990/1993) Verordnung über die bauliche Nutzung der Grundstücke (Baunutzungsveror | Baunutzungsverordnung (BauNVO), Ausferti | destilliert |
 | `de-vstaettvo-niedersachsen-2004.md` | VStättVO Niedersachsen (2004) Versammlungsstättenverordnung | VStättVO Niedersachsen vom 8. November 2 | destilliert |
@@ -278,3 +277,4 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `sia-414-1980.md` | SIA 414 Masstoleranzen im Bauwesen: Begriffe, Grundsätze und Anwendungsregeln | SIA 414:1980 «Masstoleranzen im Bauwesen | destilliert (Original vollstaendig gelesen, 2026-07-13) |
 | `sia-423-2006.md` | 423:2006 Gebäudedimensionen und Abstände | 423 2006 | established (verifiziert 260713) |
 | `sia-430-1993.md` | SIA 430 Entsorgung von Bauabfällen bei Neubau-, Umbau- und Abbrucharbeiten | SIA 430:1993, Empfehlung «Entsorgung von | destilliert (Original vollstaendig gelesen, 2026-07-13) |
+<!-- Nachregistrierung 21.07.2026 (Dauerschicht-Zyklus 42, Audit-B-Rest): 26 vorhandene, bisher nicht registrierte Destillate -->
