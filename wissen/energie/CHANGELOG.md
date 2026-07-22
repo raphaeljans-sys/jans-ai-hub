@@ -2,6 +2,18 @@
 
 Neueste zuoberst.
 
+## 2026-07-22 — Nachtschicht Mac Mini: Sonderfall Pfäffikon SZ Churerstrasse 100/104 geklärt
+- Letzter offener Punkt zur Fernwärme-Ausserschwyz-Recherche (seit Run 82/83 als «ungeklärter
+  Sonderfall» offen) direkt am Live-Richtpreisrechner geklärt: kein Tool-Defekt, sondern ein
+  dritter Verfügbarkeitsstatus des Rechners — **«Fernwärmeanschluss möglich, ab 2024 geplant»**
+  ohne Preisberechnung (Objekt-IDs 245489/245496 per Adress-Suche ermittelt und direkt abgefragt).
+- **Technischer Merksatz neu:** die `?id=`-Pricing-Route der klickstrecke.energie-ausserschwyz.ch
+  braucht **keinen** `HX-Request`-Header (mit Header nur 2-Byte-Leerantwort) — anders als die
+  `?q=`-Adress-Suchroute, die den Header zwingend braucht (Run 78/T6). Für künftige Läufe wichtig,
+  um den Fehler nicht erneut als Serverproblem zu deuten.
+- `destillate/fernwaerme-anschlusskosten-zh.md` (Abschnitt 3) + `wiki/QUESTIONS.md` aktualisiert.
+  Kein neuer Rechercheaufwand nötig, Priorität-5-Nachtschicht-Aufgabe (Restpunkt statt Vollauf).
+
 ## 2026-07-21 — Wissens-Chef Run 11 (Cross-KB): Private-Kontrolle-Querbezug zu planungsgrundlagen + §-11-Angleichung
 - Cross-KB-Lauf energie ↔ planungsgrundlagen (Run 11). WP-/BVV-Fassungen widerspruchsfrei (NT 133),
   WDV vs. EN-110-ZH sauber getrennt — 0 Widerspruch zwischen den KBs.

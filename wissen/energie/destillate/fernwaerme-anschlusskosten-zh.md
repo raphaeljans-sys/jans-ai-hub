@@ -368,8 +368,19 @@ Ausbau-Mechanismus, der bei allen anderen Gemeinden bereits dokumentiert ist —
 Freienbach-Adresse also immer die exakte Strasse im Rechner prüfen, nicht die "ab 2028"-Angabe
 des Factsheets als pauschale Absage werten.
 
-**3. Pfäffikon SZ, Churerstrasse 100/104 — weiterhin ungeklärter Sonderfall.** Nicht Teil dieses
-Laufs (kein neuer Versuch unternommen); bleibt offen für einen künftigen Lauf.
+**3. Pfäffikon SZ, Churerstrasse 100/104 — Sonderfall geklärt ✓ 2026-07-22 (Mac Mini Nachtschicht).**
+Ursache war kein Tool-Fehler, sondern schlicht eine unvollständige Objekt-ID-Abfrage: die frühere
+Beobachtung («weder Preis- noch nicht-verfügbar-Block») kam zustande, weil die `?id=`-Route mit
+dem htmx-Header `HX-Request: true` (der nur für die `?q=`-Suchroute nötig ist, vgl. T6) lediglich
+einen leeren 2-Byte-Fragment-Rumpf liefert. Ohne diesen Header liefert `?id=` die vollständige
+Seite (37 kB) inkl. Verfügbarkeits-/Preisblock. Direkt abgefragt (`curl` ohne HX-Request-Header,
+Objekt-IDs 245489/245496 über die Adress-Suche ermittelt): beide Adressen zeigen **«Fernwärmeanschluss
+möglich»** UND **«Fernwärmeanschluss ab 2024 geplant»** — der Rechner kennt also einen dritten
+Verfügbarkeitsstatus zwischen «verfügbar» (mit Preis) und «nicht verfügbar»: **angekündigt/geplant,
+noch ohne Preisberechnung**, deshalb bleibt die Preisindikation leer, obwohl der Anschluss möglich
+ist. Sonderfall damit vollständig aufgeklärt, kein weiterer Rechercheaufwand nötig. Merksatz für
+künftige Läufe: bei der `?id=`-Pricing-Route **kein** `HX-Request`-Header setzen (Gegenteil der
+`?q=`-Suchroute).
 
 ### Vertragsdauer und Kündigungsfrist — die drei SZ-Fernwärme-Verbünde (Primärquellen 17.07.2026)
 

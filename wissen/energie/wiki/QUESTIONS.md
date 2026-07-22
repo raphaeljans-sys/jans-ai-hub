@@ -1046,8 +1046,13 @@ Empfehlung). SharePoint PL-04 Energie erneut geprüft, keine neue Datei seit 14.
 - [x] **Segment-2-Formel Fernwärme > 168 kW (aus Run 82)** erweitert ✓ 2026-07-21: 4 neue
   Grossobjekt-Stützpunkte (162/188/202/290 kW), Formel über 30 Stützpunkte bestätigt/verfeinert,
   290-kW-Ausreisser (Galgenen Schulstrasse 1) bewusst nicht in Regression einbezogen.
-- [ ] **Neu:** Pfäffikon SZ Churerstrasse 100/104 (Sonderfall, weder Preis noch «nicht verfügbar»)
-  weiterhin ungeklärt; 290-kW-Ausreisser mit weiteren Stützpunkten >200 kW nachverdichten.
+- [x] **Pfäffikon SZ Churerstrasse 100/104** geklärt ✓ 2026-07-22 (Mac Mini Nachtschicht): kein
+  Tool-Fehler, sondern dritter Verfügbarkeitsstatus «Anschluss möglich, ab 2024 geplant» ohne
+  Preisberechnung; zusätzlich Merksatz gefunden — die `?id=`-Pricing-Route braucht (anders als die
+  `?q=`-Suchroute) **keinen** `HX-Request`-Header, sonst leerer 2-Byte-Rumpf →
+  `[[fernwaerme-anschlusskosten-zh]]`.
+- [ ] **Neu:** 290-kW-Ausreisser (Galgenen Schulstrasse 1) mit weiteren Stützpunkten >200 kW
+  nachverdichten.
 - [x] **SIA-279-Bemessungswert-Zuschlagsformel Naturdämmstoffe** geschlossen ✓ 2026-07-21: kein
   fester Zuschlag, Einzelfallentscheid der SIA-279-Kommission (Ziff. 3.2.2.1/3.2.2.2) — Formel
   existiert bewusst nicht generisch.

@@ -7,6 +7,23 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-22
 
+**Nachtschicht-Zyklus Mac Mini (~02:30) — Priorität 5, ein Delta: Sonderfall Pfäffikon SZ Churerstrasse 100/104 (KB energie) geklärt.**
+Doppelarbeit-Guard geprüft (dispatch/log/ 02:30 sowie die 01:30-Journalzeile unten): Prio 1
+(remote-tasks/pending, sync-tasks/mac-mini) weiterhin leer; Synobsis-Batch (separater launchd-Job)
+lief in diesem Fenster zum 10. Mal leer (Vektorindex nur neu gebaut, kein neuer Content) — keine
+Nachtschicht-Aktion nötig. Statt die Erschöpfungsprüfung ein drittes Mal zu wiederholen, den letzten
+bounded offenen QUESTIONS.md-Punkt der KB energie bearbeitet (die anderen vier brauchen Raphaels
+Entscheid oder sind Negativbefund ohne neuen Ansatz): der seit Run 82/83 offene Sonderfall Pfäffikon
+SZ Churerstrasse 100/104 im Fernwärme-Ausserschwyz-Rechner (weder Preis noch «nicht verfügbar»)
+direkt per curl aufgeklärt — kein Tool-Defekt, sondern ein dritter Verfügbarkeitsstatus des Rechners
+(«Anschluss möglich, ab 2024 geplant», daher ohne Preisberechnung); zusätzlich Root-Cause-Merksatz
+gefunden (die `?id=`-Pricing-Route braucht anders als die `?q=`-Suchroute **keinen**
+`HX-Request`-Header, sonst 2-Byte-Leerantwort trotz HTTP 200). Dokumentiert in
+`wissen/energie/destillate/fernwaerme-anschlusskosten-zh.md`, `wiki/QUESTIONS.md`, CHANGELOG.md und
+`outputs/2026-07-22_nachtschicht-pfaeffikon-churerstrasse.md`. Kein Verstoss gegen die
+Aktions-Whitelist, kein Versand, keine Buchung, keine Löschung. Kosten dieses Zyklus ca. 3 USD von
+5 USD Budget.
+
 **Nachtschicht-Zyklus Mac Mini (~01:30) — kein Zyklus-Ergebnis: Befund von 00:30 bestaetigt, keine neuen Deltas.**
 Doppelarbeit-Guard inhaltlich geprueft (dispatch/log/ 00:30 zweifach, 23:30 sowie die 00:30-
 Journalzeile oben). Seit dem 00:30-Befund ist nur der planungsgrundlagen-Trainingslauf 56
