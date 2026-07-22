@@ -21,6 +21,35 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-22 12:52 — [GEDROSSELT] Tagfenster ruhig, Nachttraining hat gegriffen, Produktion gesund
+
+**Fensterzustand:** Interaktive Login-Probe (`claude -p` mit `source ~/.jans-dispatch.env`) lief
+zweimal in den Timeout (90s rc=142, danach 120s ueber das Bash-Limit hinaus) — kein «Not logged
+in», kein Usage-/Rate-Limit-Text, nur die bekannten Trust-Dialog-Hinweise. Das ist der schon am
+06:50 dokumentierte kosmetische Effekt des interaktiven `~/.claude`-Stores (abgelaufener OAuth,
+haengt in Tageszeit), NICHT der Produktionspfad. Kein realer Blocker, keine Mail.
+
+**Beleg aus dem Betrieb:** Die token-getriebene Task-Flotte laeuft einwandfrei — Dispatch-Runs
+heute um 06:37, 07:33 und 08:37 abgelegt (`dispatch/log/`). Das bleibt der massgebliche
+Login-Beweis, nicht die interaktive Probe.
+
+**Durchsatz:** 6 Commits/90 Min, ausschliesslich der 15-Min-`nas-selfcommit`-Takt (Tagbetrieb,
+kein Training aktiv — regelkonform, Trainings laufen im Nachtfenster 22:00–06:00). Das Nachtfenster
+hat gegriffen: KB-CHANGELOGs von baurecht, twin, immobilienbewertung, spec, energie und
+planungsgrundlagen bereits auf 22.07.; normen und wettbewerbs-dna auf 21.07. Kein stockender Loop.
+
+**Runner/STOP:** unveraendert. `STOP` + `STOP-Macmini` vom 14.07. 12:53 stehen (Drossel-Regime,
+Wiederanlauf nur auf ausdrueckliche Anweisung Raphaels). Kein loeschbarer Grund — nicht angetastet.
+
+**Vorschlaege:**
+- P1: keiner.
+- P2: Drossel-Entscheid Raphaels weiterhin offen (naechster Wochen-Reset Mo 11:59). Status quo halten.
+- P3: Interaktive Login-Probe bleibt im Tagbetrieb wenig aussagekraeftig (haengt). Kuenftig primaer
+  am Betriebsbeleg (`dispatch/log/` + KB-CHANGELOGs) messen statt an der `claude -p`-Probe; diese nur
+  noch als Schnelltest, mit hartem Timeout und ohne Interpretation eines blossen Timeouts als Block.
+
+---
+
 ## 2026-07-22 06:50 — [GEDROSSELT] Falscher LOGIN-Alarm entlarvt: Produktionspfad (Token) gesund
 
 **Fensterzustand:** Ein blanker `claude -p`-Probe (ohne Env) meldete diesmal «Failed to
