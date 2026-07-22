@@ -5,6 +5,24 @@ geplante Artikel. Der Health-Check (`wissenscheck`) prüft, ob bereits geflaggte
 Lücken erneut auftauchen (Doppel-Flag vermeiden) und ob sie inzwischen geschlossen
 wurden.
 
+## 2026-07-22 (Wissens-Health-Check, Mac Mini Nachtschicht) — Umlaut-Bereinigung + Locale-Fix-Verifikation, Promotion-Kandidaten
+- **Flaechendeckende ae/oe/ue-statt-Umlaut-Verstoesse** (Audit F) quer durch praktisch alle
+  24 Wiki-Artikel (z.B. `abstaende-und-hoehen.md`: "gebaeuden", "Gewaesserraum",
+  "zonenkonformitaet", "traegt", "zusaetzlich", "zurueck", "praezisiert", "hoehen", "geprueft").
+  Vermutlich derselbe Locale-Bug wie am 2026-07-21 in energie/planungsgrundlagen/
+  architekten-synobsis gefunden (launchd-Trainingsjobs ohne `LANG=de_CH.UTF-8`, Fix bereits
+  in `scripts/dispatch-run.sh` eingebaut). **Zwei offene Teilschritte:** (1) verifizieren, ob
+  der Baurecht-Trainingsjob (MacBook Pro, "Baurecht-Buch Run") denselben Fix schon erhaelt
+  oder ueber einen anderen Mechanismus laeuft — falls nicht, Fix nachziehen. (2) Bestehende
+  ae/oe/ue-Stellen im Wiki sind vom Fix nicht betroffen und brauchen eine eigene Bereinigung
+  (gross genug fuer einen dedizierten Lauf, kein Nachtschicht-Fix). Details: Audit-F im
+  Report `outputs/2026-07-22_health-check.md`.
+- **4 Promotion-Kandidaten** (Audit G, `status: emerging`, inhaltlich reif wirkend, kein
+  offener needs-verification-Flag gefunden): `baurechtlicher-vorentscheid-und-voranfrage`,
+  `enteignung-und-entschaedigung`, `nebenbestimmungen-und-reverse`,
+  `grundlagen-planungs-baurecht`. Vor Promotion je ein kurzer Volltextabgleich gegen den
+  zugrundeliegenden Buch-Abschnitt (Phase-2-/Interaktiv-Aufgabe).
+
 ## 2026-07-21 (Cross-KB Wissens-Chef Run 11) — SIA-500-Behinderten-Parkplatz-Kennwert vs. Normtext klären
 
 `wiki/fahrzeugabstellplaetze-und-parkierung.md` nennt für Behinderten-Parkplätze «1 Platz je **25 Wohnungen**

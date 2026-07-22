@@ -4,6 +4,18 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-22 — Wissens-Health-Check (Phase 1, Skill wissenscheck, Mac Mini Nachtschicht)
+Erster Check seit 2026-07-01. A0 · B0 · C1 (bekannt, weiterhin offen: SIA-500-Kennwert
+Behindertenparkplaetze) · D0 · E0 · **F1 gross** (neu: flaechendeckende ae/oe/ue-statt-
+Umlaut-Verstoesse quer durch praktisch alle 24 Wiki-Artikel, vermutlich derselbe
+Locale-Bug wie am 2026-07-21 in energie/planungsgrundlagen/architekten-synobsis gefunden
+und in `scripts/dispatch-run.sh` gefixt — fuer den Baurecht-Trainingsjob nicht
+verifiziert) · G4 (vier `emerging`-Artikel wirken inhaltlich reif fuer Promotion:
+baurechtlicher-vorentscheid-und-voranfrage, enteignung-und-entschaedigung,
+nebenbestimmungen-und-reverse, grundlagen-planungs-baurecht). Backlinks/Orphans/RAW-
+Coverage sauber. Report: `outputs/2026-07-22_health-check.md`. Nur Phase 1 (unbeaufsichtigt,
+keine Korrekturen ausgefuehrt).
+
 ## 2026-07-21 — Wissens-Chef Run 11 (Cross-KB): Norm-Fundstellen an normen-Destillate angebunden + SIA-500-Kennwert geflaggt
 - Cross-KB-Lauf normen ↔ baurecht (Run 11). Der frische WsG/WsV/BVV-Stoff aus Buch-Run 50 brachte keine
   neuen SIA/VKF/VSS-Fundstellen; geprüft wurden die stehenden Norm-Nennungen.

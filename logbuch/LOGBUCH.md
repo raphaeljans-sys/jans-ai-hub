@@ -7,6 +7,29 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-22
 
+**Nachtschicht-Zyklus Mac Mini (~06:30) — Priorität 6: Wissens-Health-Check baurecht (ältestes Audit-Datum, 2026-07-01).**
+Doppelarbeit-Guard geprüft (dispatch/log/ 06:30/05:30/04:30/03:30 inhaltlich gelesen, Queues
+`remote-tasks/pending`/`sync-tasks/mac-mini` leer, Synobsis 10. ergebnisloser Nachtlauf in Folge
+und bereits zur Pausierung empfohlen, Prio 4 Trainingslektionen für Mac Minis eigene KBs
+energie/planungsgrundlagen sowie normen DIN/VSS/RAL bereits heute abgedeckt bzw. gesättigt,
+Prio 6 twin/projekt-lessons durch die 03:30/04:30-Läufe soeben erledigt). Deshalb `wissenscheck`
+Phase 1 auf `baurecht` (letzter Check 2026-07-01, seither ~20 Buch-/Wissens-Chef-Trainingsläufe
+auf dem MacBook Pro) — als grösste, meistgenutzte KB im Hub überfällig für eine strukturelle
+Prüfung. Ergebnis: A0 · B0 (Backlinks/Orphans/INDEX sauber) · C1 (bereits bekannt: SIA-500-
+Kennwert Behindertenparkplätze weiterhin unverifiziert) · D0 (RAW-Coverage vollständig) · E0
+(kein Artikel über 90 Tage alt) · **F1 gross, neu:** flächendeckende ae/oe/ue-statt-Umlaut-
+Verstösse quer durch praktisch alle 24 Wiki-Artikel — vermutlich derselbe Locale-Bug, der am
+2026-07-21 in energie/planungsgrundlagen/architekten-synobsis gefunden und in
+`scripts/dispatch-run.sh` gefixt wurde; ob der Baurecht-Trainingsjob denselben Fix bereits
+erhält, ist NICHT verifiziert und als offener Punkt vermerkt · G4 (vier `emerging`-Artikel wirken
+inhaltlich reif für Promotion auf `established`: baurechtlicher-vorentscheid-und-voranfrage,
+enteignung-und-entschaedigung, nebenbestimmungen-und-reverse, grundlagen-planungs-baurecht).
+Report `wissen/baurecht/outputs/2026-07-22_health-check.md`, CHANGELOG + QUESTIONS.md
+nachgeführt. Nur Phase 1 (unbeaufsichtigt, keine Korrekturen ausgeführt — Umlaut-Bereinigung
+ist als eigener, grösserer Auftrag vermerkt). Kosten ca. 2.8 USD von 5 USD Budget.
+
+---
+
 **Nachtschicht-Zyklus Mac Mini (~05:30) — Priorität 5: offene QUESTIONS.md recherchiert und als Wiki-Artikel kompiliert (firmengruendung-ch).**
 Doppelarbeit-Guard geprüft (dispatch/log/ 05:30/04:30 inhaltlich gelesen, CHANGELOGs aller KBs
 gescannt): Prio 1 leer, Prio 2 (Synobsis) läuft gesättigt als eigener launchd-Job, Prio 3
