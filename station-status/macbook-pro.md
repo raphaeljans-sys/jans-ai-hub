@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 23.07.2026 00:35:53
+Stand: 23.07.2026 01:06:18
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:03)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 23.07.2026 00:35:53
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 19835540 nas-selfcommit: 1 Datei(en) 2026-07-23 00:30
+- 21caa0a4 vollgas-radar: 23.07. 00:48 [GEDROSSELT] Nachtfenster gesund, wissens-chef Run 12 belegt Token-Pfad
