@@ -7,6 +7,28 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-22
 
+**Hub-Chef-Lauf (~08:40, Mittwoch) — Lauf ohne eigenständigen Befund, keine zweite Mail.** Signale konsolidiert: Register + Journal (Horizont 7 Tage), Konversations-Destillat 22.07., bexio `--verzug`/`--abgleich`, Mail-Vorfilter aller Apple-Mail-Konten (Posteingang + Gesendete, 26 h), Kalender. **Ergebnis:** Der Logbuch-Radar hat um 07:00 bereits das vollständige Tagesbriefing an rj@ versendet (KISPI-Zahlungsstau, Brandschutz-Termin 10:00, Selbstfristen 24.07., van-Velsen-Lüftungskontrolle, Thalwil-Näherbaurecht, AG-Monitor-Fix) — keine Doppelmeldung. **Keine Whitelist-Aktion gerechtfertigt:** RE-00087 auf Mahnung 2 (Entscheid Mahnung 3/Betreibung bei Raphael, nie autonom); RE-00098/00099 tragen seit RJs eigener gebündelter Mahnung 21.07. bereits Mahnstufe 1 (Zahlungserinnerung, Frist bis 03.08.), Verzug erst 2 Tage → A1 greift nicht. Kein neuer bestätigter Termin für A2 (Brandschutz 10:00 von RJ am 21.07. bereits angenommen; die 08:24-Frage «TeKoSi zur Fachplanersitzung 23.07. einladen?» ist RJ-getrieben, kein Hub-Auftrag). **Einziger neuer Datenpunkt (in bexio, nicht im Radar):** zwei bald fällige, noch nicht überfällige Debitoren — RE-00100 CHF 13'120 Nova Property Fund (fällig 30.07.) und RE-00101 CHF 6'000 Tschopp (fällig 31.07.); zur Beobachtung ins Register aufgenommen (A4), damit der nächste Radar/Mahnwesen-Lauf sie erfasst. `--abgleich`: 19 historische «gebucht ohne Bankbeleg» (2022–2025) unverändert = bekanntes bexio-Hygiene-Artefakt, keine autonome Aktion (Buchen/Reconcilen verboten). Sync-/Remote-Queues leer.
+
+**Nachtschicht-Zyklus Mac Mini (~08:30) — Offene Frage aus dem 06:30-Health-Check geklärt (baurecht, Mechanismus Locale-Fix).**
+Doppelarbeit-Guard geprüft (dispatch/log/ 08:30/07:30 inhaltlich gelesen, Prio 1–4 und 6 laut
+07:30-Protokoll bereits abgedeckt, Prio 5 dort auf einer anderen KB (auflagebereinigung)
+erledigt) — daher als Fortsetzung von Prio 5 die offene Frage aus dem eigenen 06:30-Health-Check
+(Audit F, KB baurecht) verifiziert: ob der Trainings-Task `baurecht-buch-training` denselben
+`LANG=de_CH.UTF-8`-Fix erhält, der am 21.07. in `scripts/dispatch-run.sh` eingebaut wurde.
+**Befund:** nein, strukturell unmöglich — `baurecht-buch-training` (wie `energie-training`/
+`planungsgrundlagen-training`/`normen-training-mini`/`synobsis-batch-nacht`) ist ein natives
+Claude-Code-App-Scheduled-Task (lokale Registry `~/.claude/scheduled-tasks/`, auf dem Mac Mini
+korrekt `enabled: false` seit Stations-Split 12.07.), der nicht über `dispatch-run.sh` läuft —
+der 21.07.-Fix bedient nur den Handy/Cowork-Kanal und die crontab-Zusatzläufe. Neue, plausiblere
+Root-Cause-Hypothese aufgestellt (nicht abschliessend bewiesen): die seit 19.07. eingeführte
+Haiku/Sonnet-Subagenten-Delegation ("Minimum Viable Model") könnte den CLAUDE.md-Kontext
+(inkl. Umlaut-Regel) verlieren, wenn der delegierende Prompt sie nicht explizit mitgibt — passt
+zeitlich, aber Gegenprobe (`normen-training-mini` trägt denselben Anhang, war 21.07. nicht als
+betroffen genannt) nicht rund. Keine Prompt-Änderung vorgenommen (Hypothese unbewiesen,
+MacBook-Pro-Registry von hier aus nicht einsehbar) — dedizierter Verifikationslauf empfohlen.
+Abgelegt: `wissen/baurecht/wiki/QUESTIONS.md`, `wissen/baurecht/CHANGELOG.md`. Kosten ca. 2.0
+USD von 5 USD Budget.
+
 **Logbuch-Radar (Mittwoch, 07:00) — RJ hat den Zahlungsstau selbst gemahnt, Auftragsbestätigung als Knackpunkt.** Quellen: Register + Journal, Konversations-Destillat 22.07., bexio `--verzug`, Mail-Vorfilter alle Apple-Mail-Konten (rj@/mail@, iCloud; Posteingang + Gesendete), Outlook-Kalender 7 Tage. **Erledigt seit gestern:** AG-Gründungs-Monitor-Blindfleck tatsächlich behoben und verifiziert (frühere «erledigt»-Meldung war falsch; mail@ ab sofort primär via Apple Mail, kein neuer UBS-/Notariats-Eingang); RJ hat 21.07. 10:42 die drei offenen KISPI-Rechnungen (Total CHF 32'280) selbst gebündelt an KISPI gemahnt und die **fehlende Auftragsbestätigung** als Kern des Zahlungsstaus angesprochen. **Aus Gesprächen:** Dispatch-Connector-Token abgelaufen → Raphael muss einmal `claude setup-token` im Terminal ausführen (Handy-Dispatch bis dahin blockiert; anderer Mechanismus als der claude-usage.mjs-Re-Login). **Überfällig:** RE-00087 (CHF 15'000) 97 Tage auf Mahnung 2; RE-00098/99 (CHF 13'600 + 3'680) je 2 Tage über Frist. **Heute:** 10:00 KISPI Brandschutz-Abstimmung mit J. Ziegel (Teams) — terminiert das offene «Ziegel anrufen». **Aktiv/beobachten:** private Lüftungskontrolle van Velsen (3-plan) prüft aktiv, verrechnet CHF 800 an KISPI, fragt nach EVEN-Zugriff; Bajrami (Jegen) OOO bis 11.08., Wuersch (KISPI) bis 09.08. — Tür-Kette Los 274.01 verzögert; VKF-Nachweise LBW zusätzlich bei O. Stadelmann angefordert. **Kalender 7 Tage:** 22.07. 10:00 Brandschutz-Abstimmung, 23.07. 09:00 Saumstrasse 21 Lüftungsgitter-Lieferung, 23.07. 13:00 Koordinationssitzung; Do 24.07. Selbstfristen Jegen/Roethlisberger. Briefing an rj@ versendet. Token gestern (21.07.): MacBook 173.54 Mio. (~427 USD) + Mini 133.05 Mio. (~58 USD).
 
 **Nachtschicht-Zyklus Mac Mini (~07:30) — Priorität 5: QUESTIONS.md-Lücke geklärt (auflagebereinigung).**

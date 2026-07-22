@@ -4,6 +4,22 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-22 — Locale-Fix-Frage aus dem Health-Check geklärt (Mechanismus), Nachtschicht Mac Mini ~08:30
+Die im Health-Check offen gelassene Frage (verifizieren, ob `baurecht-buch-training` denselben
+`LANG=de_CH.UTF-8`-Fix wie `scripts/dispatch-run.sh` erhält) ist beantwortet: nein, kann er
+strukturell nicht — `baurecht-buch-training` läuft wie `energie-training`/
+`planungsgrundlagen-training`/`normen-training-mini`/`synobsis-batch-nacht` als natives
+Claude-Code-App-Scheduled-Task (lokale Registry `~/.claude/scheduled-tasks/`, nicht über
+`dispatch-run.sh`). Der 21.07.-Fix bedient nur den Handy/Cowork-Dispatch-Kanal und die
+crontab-Zusatzläufe, nicht den nativen App-Scheduler. Neue, plausiblere (noch nicht
+abschliessend verifizierte) Root-Cause-Hypothese: die seit 19.07. eingeführte
+Haiku/Sonnet-Subagenten-Delegation ("Minimum Viable Model") verliert den CLAUDE.md-Kontext
+(inkl. `umlaute-konvention.md`), wenn der delegierende Prompt die Regel nicht explizit
+mitgibt. Details + offene Gegenprobe (normen-training-mini) in `wiki/QUESTIONS.md`
+(Eintrag 2026-07-22). Keine Korrektur an den Trainings-Prompts vorgenommen (Hypothese nicht
+bewiesen, MacBook-Pro-Registry von hier aus nicht einsehbar) — dedizierter Verifikationslauf
+empfohlen.
+
 ## 2026-07-22 — Wissens-Health-Check (Phase 1, Skill wissenscheck, Mac Mini Nachtschicht)
 Erster Check seit 2026-07-01. A0 · B0 · C1 (bekannt, weiterhin offen: SIA-500-Kennwert
 Behindertenparkplaetze) · D0 · E0 · **F1 gross** (neu: flaechendeckende ae/oe/ue-statt-

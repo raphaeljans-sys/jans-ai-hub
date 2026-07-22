@@ -5,18 +5,37 @@ geplante Artikel. Der Health-Check (`wissenscheck`) prüft, ob bereits geflaggte
 Lücken erneut auftauchen (Doppel-Flag vermeiden) und ob sie inzwischen geschlossen
 wurden.
 
-## 2026-07-22 (Wissens-Health-Check, Mac Mini Nachtschicht) — Umlaut-Bereinigung + Locale-Fix-Verifikation, Promotion-Kandidaten
+## 2026-07-22 (Wissens-Health-Check, Mac Mini Nachtschicht) — Umlaut-Bereinigung, Locale-Fix-Frage GEKLAERT (Mechanismus), Promotion-Kandidaten
 - **Flaechendeckende ae/oe/ue-statt-Umlaut-Verstoesse** (Audit F) quer durch praktisch alle
   24 Wiki-Artikel (z.B. `abstaende-und-hoehen.md`: "gebaeuden", "Gewaesserraum",
   "zonenkonformitaet", "traegt", "zusaetzlich", "zurueck", "praezisiert", "hoehen", "geprueft").
-  Vermutlich derselbe Locale-Bug wie am 2026-07-21 in energie/planungsgrundlagen/
-  architekten-synobsis gefunden (launchd-Trainingsjobs ohne `LANG=de_CH.UTF-8`, Fix bereits
-  in `scripts/dispatch-run.sh` eingebaut). **Zwei offene Teilschritte:** (1) verifizieren, ob
-  der Baurecht-Trainingsjob (MacBook Pro, "Baurecht-Buch Run") denselben Fix schon erhaelt
-  oder ueber einen anderen Mechanismus laeuft — falls nicht, Fix nachziehen. (2) Bestehende
-  ae/oe/ue-Stellen im Wiki sind vom Fix nicht betroffen und brauchen eine eigene Bereinigung
-  (gross genug fuer einen dedizierten Lauf, kein Nachtschicht-Fix). Details: Audit-F im
-  Report `outputs/2026-07-22_health-check.md`.
+  Details: Audit-F im Report `outputs/2026-07-22_health-check.md`.
+- **Teilschritt (1) verifiziert (~08:30-Lauf, Mac Mini):** Die im health-check vermutete
+  Verbindung zum `dispatch-run.sh`-Locale-Fix vom 21.07. trifft NICHT zu. `baurecht-buch-training`
+  (wie `energie-training`/`planungsgrundlagen-training`/`normen-training-mini`/
+  `synobsis-batch-nacht`) ist ein natives Claude-Code-App-Scheduled-Task, Registry lokal je
+  Station unter `~/.claude/scheduled-tasks/<name>/SKILL.md` (auf dem Mac Mini vorhanden, dort
+  aber `enabled: false` — "DEAKTIVIERT auf Mac Mini, laeuft exklusiv auf MacBook Pro",
+  Stations-Split Rule 260712). Dieser App-Scheduler ruft NICHT `scripts/dispatch-run.sh` auf
+  (das bedient nur den Handy/Cowork-Dispatch-Kanal und die crontab-Zusatzlaeufe
+  `cron-training-mini.sh`) — der LANG/LC_ALL-Fix vom 21.07. kann diesen Ausfuehrungspfad
+  strukturell gar nicht erreichen. Das gilt fuer alle fuenf genannten Trainings-Tasks auf
+  beiden Stationen, nicht nur Baurecht. Die MacBook-Pro-eigene Kopie der Registry
+  (`~/.claude/scheduled-tasks/`) ist vom Mac Mini aus nicht erreichbar (kein Reverse-SSH,
+  kein Sync) — muss auf der Station selbst geprueft werden.
+- **Neue, praezisere Root-Cause-Hypothese (nicht abschliessend verifiziert):** Alle fuenf
+  Trainings-Tasks tragen seit 19.07.2026 denselben "Minimum Viable Model"-Anhang
+  (mechanische Stufen an Haiku/Sonnet-Subagenten delegieren). Agent-Aufrufe sind
+  selbststaendige Prompts ohne automatischen CLAUDE.md-/Rules-Kontext — trifft der delegierende
+  Prompt die Umlaut-Regel (`umlaute-konvention.md`) nicht explizit, kann der guenstige
+  Subagent auf ASCII-Ersatzschreibung zurueckfallen. Passt zum Zeitpunkt (Bug zuerst 21.07.,
+  eine Nacht nach Einfuehrung der Delegation 19.07.). Gegenprobe nicht rund: `normen-training-mini`
+  traegt denselben Anhang, war aber im 21.07.-Fund nicht als betroffen genannt (evtl. nur noch
+  nicht geprueft). **Braucht einen dedizierten Lauf** (echte Haiku-Subagent-Outputs direkt
+  pruefen), keine Nachtschicht-Spekulation.
+- **Teilschritt (2) unveraendert offen:** bestehende ae/oe/ue-Stellen im Wiki brauchen eine
+  eigene Bereinigung (13+ Treffer allein in einem Artikel) — zu gross fuer einen
+  Nachtschicht-Lauf, eigener Auftrag.
 - **4 Promotion-Kandidaten** (Audit G, `status: emerging`, inhaltlich reif wirkend, kein
   offener needs-verification-Flag gefunden): `baurechtlicher-vorentscheid-und-voranfrage`,
   `enteignung-und-entschaedigung`, `nebenbestimmungen-und-reverse`,
