@@ -7,6 +7,28 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-22
 
+**Nachtschicht-Zyklus Mac Mini (~05:30) — Priorität 5: offene QUESTIONS.md recherchiert und als Wiki-Artikel kompiliert (firmengruendung-ch).**
+Doppelarbeit-Guard geprüft (dispatch/log/ 05:30/04:30 inhaltlich gelesen, CHANGELOGs aller KBs
+gescannt): Prio 1 leer, Prio 2 (Synobsis) läuft gesättigt als eigener launchd-Job, Prio 3
+(Fristen-Radar) ohne neu zu entwerfende Aktion, Prio 4 (Trainingslektionen) für praktisch alle
+KBs bereits heute abgedeckt, Prio 6 (wissenscheck twin) durch den 04:30-Lauf soeben erledigt und
+dessen Root-Cause-Befund als «zu gross für Nachtschicht-Budget» geflaggt. Deshalb Priorität 5:
+Backlog-Lücke aus `wissen/firmengruendung-ch/wiki/QUESTIONS.md` («Nach-Gründung im Detail:
+AHV-Ausgleichskasse, BVG, UVG, MWST-Registrierung») recherchiert (WebSearch/WebFetch, Sekundär-
+quellen kmu.admin.ch/sva-ag.ch/ahv-iv.ch/estv.admin.ch/koordination.ch) und als neuer Artikel
+[[nachgruendung-anmeldungen]] kompiliert — direkt anschlussfähig an die laufende AG-Gründung
+Raphael Jans AG (offener Fristen-Punkt «nach HR-Eintrag: AHV/BVG/UVG/MWST + Betriebshaftpflicht»
+in `logbuch/fristen.md`). Kernbefunde im Artikel: AHV-Kasse meldet sich automatisch nach
+SHAB-Publikation; BVG-Anschlusspflicht Art. 11 BVG (Eintrittsschwelle 2026 CHF 22'680, aktiver
+Anschluss vor erster Lohnzahlung empfohlen statt Auffangeinrichtungs-Automatik abzuwarten); UVG
+Anmeldefrist 14 Tage vor Stellenantritt, Architekturbüro nicht Suva-pflichtig (Art. 68 UVG); MWST
+Schwelle CHF 100'000, 30-Tage-Frist ab Gründung bei absehbarem Überschreiten. Artikel als
+`needs-verification` bei Fristen-Details markiert (kein Fedlex-Volltextabgleich, nur
+Sekundärquellen). `INDEX.md`/`QUESTIONS.md`/`CHANGELOG.md` der KB nachgeführt. Kosten ca. 2.8 USD
+von 5 USD Budget.
+
+---
+
 **Nachtschicht-Zyklus Mac Mini (~03:30) — Priorität 6: Wissens-Health-Check projekt-lessons (älteste Audit-Datum).**
 Doppelarbeit-Guard geprüft (dispatch/log/ 03:30 sowie die 02:30/01:30-Journalzeilen unten,
 inhaltlich gelesen): Prio 1 leer, Prio 2 (Synobsis) läuft als eigener launchd-Job gesättigt,

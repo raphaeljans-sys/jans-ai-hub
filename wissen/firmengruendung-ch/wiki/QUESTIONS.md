@@ -10,7 +10,6 @@
   Archiv unten).
 - **1e-/Kaderplan + Einkaufspotenzial** der Raphael Jans AG konkret erheben
   (Vorsorgeausweis, Schwellenwert 1e) — Grundlage für den PK-Hebel.
-- **Nach-Gründung im Detail:** AHV-Ausgleichskasse, BVG, UVG, MWST-Registrierung.
 - **Verwaltungsrat:** Pflichten/Haftung/Konstituierung als eigener Artikel (bisher nur
   in [[belege-handelsregister]] und [[ag-gruendungsablauf]] gestreift).
 
@@ -25,6 +24,18 @@
 - Noch keine erfasst.
 
 ## Beantwortete Fragen (Archiv)
+- **Nach-Gründung im Detail: AHV/BVG/UVG/MWST (22.07.2026, Nachtschicht-Zyklus Mac Mini):**
+  Neuer Artikel [[nachgruendung-anmeldungen]] als Detaillierung von Schritt 13 in
+  [[ag-gruendungsablauf]]. Kernbefunde: AHV-Ausgleichskasse meldet sich nach
+  SHAB-Publikation automatisch (kantonale Kasse Sitzkanton, ZH → SVA Zürich); BVG-
+  Eintrittsschwelle 2026 CHF 22'680, Anschlusspflicht Art. 11 BVG (Auffangeinrichtung
+  erst nach 6 Monaten Untätigkeit — kein Regelweg, aktiv anschliessen empfohlen); UVG
+  Anmeldefrist 14 Tage vor Stellenantritt (Art. 59 UVG), Architektur-/Planungsbüro als
+  Bürobetrieb NICHT Suva-pflichtig (Art. 68 UVG, freie Versichererwahl); MWST-Schwelle
+  CHF 100'000 Jahresumsatz, Anmeldefrist 30 Tage ab Gründung bei absehbarem Überschreiten
+  (Art. 10/66 MWSTG). Recherche via WebSearch/WebFetch (Sekundärquellen: kmu.admin.ch,
+  sva-ag.ch, ahv-iv.ch, estv.admin.ch, koordination.ch — kein Fedlex-Volltextabgleich,
+  Artikel als needs-verification bei Fristen-Details markiert).
 - **GmbH-Gründungsablauf (21.07.2026, Nachtschicht-Zyklus Mac Mini):** Neuer Artikel
   [[gmbh-gruendungsablauf]] als Pendant zu [[ag-gruendungsablauf]] kompiliert. Recherche
   via WebSearch/WebFetch (Fedlex ohne JS nicht direkt lesbar, daher Sekundärquellen:

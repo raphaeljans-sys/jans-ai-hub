@@ -16,6 +16,11 @@
   Kapital/Organe/Öffentlichkeit/Übertragbarkeit/Revision/Nachschusspflicht) · *established*
   (Artikelnummern über Sekundärquellen plausibilisiert, needs-verification am Fedlex-Volltext)
 
+### Nach der Gründung
+- [[nachgruendung-anmeldungen]] — AHV-Ausgleichskasse, BVG-Anschluss, UVG-Versicherer,
+  MWST-Registrierung: wer/Frist/Schwelle je Anmeldung, Reihenfolge in der Praxis · *established*
+  (needs-verification bei Fristen-Details/Kanton-Spezifika, Sekundärquellen)
+
 ### Kapital & Organe
 - [[kapital-und-liberierung]] — Mindestkapital, Bar-/Sacheinlage, Sperrkonto, Emissionsabgabe · *established*
 - [[revision-und-opting-out]] — Revisionsstelle & Verzicht (Opting-out) · *established*
@@ -30,11 +35,11 @@
 Siehe [[QUESTIONS]]:
 - Holding-Struktur über bestehende AG (Beteiligungen/Steuer/Nachfolge)
 - Steuern bei Gründung/laufend (Kapital-, Gewinn-, Verrechnungssteuer)
-- Nach-Gründung: AHV/BVG/UVG/MWST-Anmeldungen im Detail
 - Verwaltungsrat: Pflichten, Haftung, Konstituierung (eigener Artikel)
 
-## Statistik (Stand 2026-07-21)
-- Artikel im Wiki: 9
-- Offene Coverage-Lücken: 4 (siehe Backlog oben; GmbH-Gründungsablauf am 21.07.2026 geschlossen)
+## Statistik (Stand 2026-07-22)
+- Artikel im Wiki: 10
+- Offene Coverage-Lücken: 3 (siehe Backlog oben; Nach-Gründung AHV/BVG/UVG/MWST am
+  22.07.2026 geschlossen)
 - Outputs: 3 (neue-ag-gruenden_vorgehen, health-check 2026-07-01, steuern-sparen-ag-inhaber)
 - Letzter Health-Check: 2026-07-21 (Mac Mini Nachtschicht)

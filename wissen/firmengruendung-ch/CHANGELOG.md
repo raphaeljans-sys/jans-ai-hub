@@ -3,6 +3,24 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-22 — Neuer Artikel: Nach der Gründung — AHV/BVG/UVG/MWST-Anmeldungen (Nachtschicht-Zyklus Mac Mini, ~06:15)
+- [ingest] Backlog-Lücke aus `QUESTIONS.md` («Nach-Gründung im Detail») geschlossen:
+  neuer Artikel [[nachgruendung-anmeldungen]] (Detaillierung Schritt 13 in
+  [[ag-gruendungsablauf]]) — AHV-Ausgleichskasse (automatische Meldung nach
+  SHAB-Publikation, Sitzkanton ZH → SVA Zürich), BVG-Anschlusspflicht (Art. 11 BVG,
+  Eintrittsschwelle 2026 CHF 22'680, Auffangeinrichtung erst nach 6 Monaten als
+  Ausnahmefall), UVG (Art. 59/66/68 UVG, Anmeldefrist 14 Tage vor Stellenantritt,
+  Architekturbüro nicht Suva-pflichtig), MWST (Art. 10/66 MWSTG, Schwelle CHF 100'000,
+  30-Tage-Frist ab Gründung bei absehbarem Überschreiten). Praxis-Reihenfolge und
+  Bezug zur offenen Betriebshaftpflicht-Pendenz aus `logbuch/fristen.md` ergänzt.
+- [quelle] Web-Recherche (WebSearch/WebFetch, 4 Suchläufe + 1 erfolgreicher Fetch
+  estv.admin.ch, ahv-iv.ch-Fetch 403 abgewiesen → über Suchresultate/Sekundärquellen
+  abgedeckt): kmu.admin.ch, sva-ag.ch, ahv-iv.ch Merkblätter 6.05/6.06, estv.admin.ch,
+  koordination.ch Online-Handbuch. Kein Fedlex-Volltextabgleich der Artikelnummern —
+  Artikel als `needs-verification` bei Fristen-Details/Kanton-Spezifika markiert.
+- [pflege] `INDEX.md` (neue Sektion «Nach der Gründung», Statistik 9→10 Artikel,
+  Backlog 4→3) und `QUESTIONS.md` (Punkt ins Archiv verschoben) nachgeführt.
+
 ## 2026-07-21 — GmbH-Artikel AMTLICH VERIFIZIERT + Fundstellen-Präzisierung (Dauerschicht-Zyklus 49, ~23:05)
 - [verifiziert] Die needs-verification-Markierung des neuen [[gmbh-gruendungsablauf]] ist
   aufgelöst: alle Kern-Artikel am amtlichen OR-Volltext gegengelesen (Fedlex-Filestore,
