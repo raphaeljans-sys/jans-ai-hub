@@ -21,6 +21,30 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-22 18:48 — [GEDROSSELT] Abendfenster ruhig, Token-Pfad belegt, sogar Tag-KB-Arbeit
+
+**Fensterzustand:** Keine Login-Probe noetig, weil der Betriebsbeleg eindeutig ist (P3-Empfehlung
+vom 12:52 umgesetzt): der juengste Dispatch-Run liegt um 18:30 (`dispatch/log/20260722-183005-70874.md`),
+davor luecklos im Stundentakt zurueck. Der Produktions-Token in `~/.jans-dispatch.env` traegt also,
+kein «Not logged in», kein Usage-/Rate-Limit. Kein Blocker, keine Mail.
+
+**Durchsatz:** 6 Commits/90 Min. Neben dem 15-Min-`nas-selfcommit`-Takt heute auch eine echte
+inhaltliche KB-Arbeit im Tagbetrieb: `3ce64862` normen-KB um 17:30 (Luecke SN EN 520, Anlass 2619
+KISPI Korrex Gipsplatten-Rohdichte). KB-CHANGELOGs von normen, baurecht, twin, immobilienbewertung,
+spec, energie und planungsgrundlagen stehen auf 22.07.; wettbewerbs-dna auf 21.07. (gedrosselt,
+regelkonform). Kein stockender Loop.
+
+**Runner/STOP:** unveraendert. `STOP` + `STOP-Macmini` vom 14.07. 12:53 stehen (Drossel-Regime,
+Wiederanlauf nur auf ausdrueckliche Anweisung Raphaels). Kein loeschbarer Grund — nicht angetastet.
+
+**Vorschlaege:**
+- P1: keiner.
+- P2: Drossel-Entscheid Raphaels weiterhin offen (naechster Wochen-Reset Mo 11:59). Status quo halten.
+- P3: keiner. Betriebsbeleg-Messung (`dispatch/log/` + KB-CHANGELOGs) statt `claude -p`-Probe hat
+  sich bewaehrt; so weiterfuehren.
+
+---
+
 ## 2026-07-22 12:52 — [GEDROSSELT] Tagfenster ruhig, Nachttraining hat gegriffen, Produktion gesund
 
 **Fensterzustand:** Interaktive Login-Probe (`claude -p` mit `source ~/.jans-dispatch.env`) lief
