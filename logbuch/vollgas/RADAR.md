@@ -21,6 +21,37 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-22 06:50 — [GEDROSSELT] Falscher LOGIN-Alarm entlarvt: Produktionspfad (Token) gesund
+
+**Fensterzustand:** Ein blanker `claude -p`-Probe (ohne Env) meldete diesmal «Failed to
+authenticate: OAuth session expired and could not be refreshed» — das haette als P1-[LOGIN]
+durchgehen koennen. Gegenprobe MIT `source ~/.jans-dispatch.env` (also der Weg, den Runner und
+alle geplanten Tasks tatsaechlich gehen): sauber durch, rc=0, nur die bekannten Trust-Dialog-
+Hinweise fuers `/Volumes`. Der abgelaufene OAuth betrifft also **nur** den interaktiven
+`~/.claude`-Credential-Store, NICHT den Produktions-Token in `~/.jans-dispatch.env`. Kein realer
+Blocker, keine Mail.
+
+**Beleg aus dem Betrieb:** Der Nachtschicht-Dispatch lief durch bis 06:37 — Baurecht Wissens-
+Health-Check (Phase 1), exit_code 0, 2.9/5 USD, Report unter `wissen/baurecht/outputs/
+2026-07-22_health-check.md` abgelegt. Das ist der beste Gegenbeweis zum vermeintlichen Login-
+Block: die token-getriebene Task-Flotte authentifiziert einwandfrei.
+
+**Durchsatz:** 6 Commits/90 Min (15-Min-`nas-selfcommit`-Takt + `sync: twin-fidelity-review`).
+KB-CHANGELOGs taufrisch (planungsgrundlagen/baurecht bereits 22.07.). Nachtfenster wie vorgesehen.
+
+**Runner/STOP:** unveraendert. `STOP` + `STOP-Macmini` vom 14.07. 12:53 stehen (Drossel-Regime,
+Wiederanlauf nur auf ausdrueckliche Anweisung). Kein loeschbarer Grund — nicht angetastet.
+
+**Vorschlaege:**
+- P1: keiner. Der OAuth-Ablauf im `~/.claude`-Store ist kosmetisch, solange der Token-Pfad steht.
+- P2: Weiter offen der Drossel-Entscheid Raphaels (naechster Wochen-Reset Mo 11:59). Status quo.
+- P3: **Login-Probe des Radars kuenftig IMMER mit `source ~/.jans-dispatch.env`** ausfuehren —
+  sonst produziert sie einen falschen [LOGIN]-Alarm gegen den irrelevanten interaktiven Store.
+  Optional bei Gelegenheit den interaktiven `~/.claude`-OAuth per Trust-Dialog auffrischen, damit
+  auch blanke `claude -p`-Aufrufe ohne Env sauber sind (kein Betriebsdruck).
+
+---
+
 ## 2026-07-22 00:47 — [GEDROSSELT] Nachtfenster laeuft produktiv, Login-Probe sauber
 
 **Fensterzustand:** Login-Probe (perl-alarm 90s) sauber durch: kein «Not logged in», kein Usage-/

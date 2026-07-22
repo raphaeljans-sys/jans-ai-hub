@@ -2,6 +2,16 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-22 — QUESTIONS-Lücke geklärt: Schallschutz SIA 181 Federführung (Mac Mini Nachtschicht)
+- [geklärt] **Schallschutz SIA 181 (Ziff. II.10) — Federführung** gegen das Normen-Destillat
+  `wissen/normen/destillate/sia-181-2006.md` geprüft (Ziff. 4.2/4.3 Bauteile vs. Ziff. 4.4
+  Geräusche haustechnischer Anlagen). Ergebnis: SIA 181 weist keine Federführung zu — die
+  bestehende Praxisregel in [[auflagentypen-gewerkzuteilung]] («Bauteile → ARC/Bauphysik;
+  haustechnische Anlagen → HLK») war richtig, aber unbelegt; jetzt mit Fundstellen und einer
+  Faustregel (Bauphysiker im Team → gesamthaft federführend für Ziff. 4) präzisiert. Artikel
+  `sources` um das Normen-Destillat ergänzt, `last_updated` auf 2026-07-22. QUESTIONS.md-Punkt
+  ins Archiv verschoben.
+
 ## 2026-07-21 — Phase-2-Fix aus dem Nacht-Audit (Dauerschicht-Zyklus 37)
 - [korrigiert] **SPA-Gewerk-Widerspruch behoben** (Top-1 des Health-Checks 21.07., offen seit
   dem Check vom 01.07.): `brandschutz-auflagen-qss.md` führte «SPA = SAN», massgeblich ist seit

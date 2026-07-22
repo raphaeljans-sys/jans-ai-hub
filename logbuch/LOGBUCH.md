@@ -7,6 +7,27 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-22
 
+**Logbuch-Radar (Mittwoch, 07:00) — RJ hat den Zahlungsstau selbst gemahnt, Auftragsbestätigung als Knackpunkt.** Quellen: Register + Journal, Konversations-Destillat 22.07., bexio `--verzug`, Mail-Vorfilter alle Apple-Mail-Konten (rj@/mail@, iCloud; Posteingang + Gesendete), Outlook-Kalender 7 Tage. **Erledigt seit gestern:** AG-Gründungs-Monitor-Blindfleck tatsächlich behoben und verifiziert (frühere «erledigt»-Meldung war falsch; mail@ ab sofort primär via Apple Mail, kein neuer UBS-/Notariats-Eingang); RJ hat 21.07. 10:42 die drei offenen KISPI-Rechnungen (Total CHF 32'280) selbst gebündelt an KISPI gemahnt und die **fehlende Auftragsbestätigung** als Kern des Zahlungsstaus angesprochen. **Aus Gesprächen:** Dispatch-Connector-Token abgelaufen → Raphael muss einmal `claude setup-token` im Terminal ausführen (Handy-Dispatch bis dahin blockiert; anderer Mechanismus als der claude-usage.mjs-Re-Login). **Überfällig:** RE-00087 (CHF 15'000) 97 Tage auf Mahnung 2; RE-00098/99 (CHF 13'600 + 3'680) je 2 Tage über Frist. **Heute:** 10:00 KISPI Brandschutz-Abstimmung mit J. Ziegel (Teams) — terminiert das offene «Ziegel anrufen». **Aktiv/beobachten:** private Lüftungskontrolle van Velsen (3-plan) prüft aktiv, verrechnet CHF 800 an KISPI, fragt nach EVEN-Zugriff; Bajrami (Jegen) OOO bis 11.08., Wuersch (KISPI) bis 09.08. — Tür-Kette Los 274.01 verzögert; VKF-Nachweise LBW zusätzlich bei O. Stadelmann angefordert. **Kalender 7 Tage:** 22.07. 10:00 Brandschutz-Abstimmung, 23.07. 09:00 Saumstrasse 21 Lüftungsgitter-Lieferung, 23.07. 13:00 Koordinationssitzung; Do 24.07. Selbstfristen Jegen/Roethlisberger. Briefing an rj@ versendet. Token gestern (21.07.): MacBook 173.54 Mio. (~427 USD) + Mini 133.05 Mio. (~58 USD).
+
+**Nachtschicht-Zyklus Mac Mini (~07:30) — Priorität 5: QUESTIONS.md-Lücke geklärt (auflagebereinigung).**
+Doppelarbeit-Guard geprüft (dispatch/log/ 07:30/06:30/05:30/04:30 inhaltlich gelesen,
+`logbuch/fristen.md` gescannt): Prio 1 (Queues) leer, Prio 2 (Synobsis) 10. ergebnisloser
+Nachtlauf, weiter pausiert, Prio 3 (Fristen-Radar) keine neu zu entwerfende Aktion (KISPI-
+Mahnungen bereits von RJ selbst gebündelt versendet, restliche Einträge reine Beobachtung),
+Prio 4 (Trainingslektionen) für Mac Minis KBs bereits heute Nacht abgedeckt/gesättigt, Prio 6
+(wissenscheck) soeben um 06:30 auf `baurecht` erledigt. Deshalb Priorität 5 genommen: die offene
+Frage «Schallschutz SIA 181 (Ziff. II.10) — Federführung Bauphysiker vs. ARC vs. HLK» aus
+`wissen/auflagebereinigung/wiki/QUESTIONS.md` gegen das Normen-Destillat
+`wissen/normen/destillate/sia-181-2006.md` geprüft. Befund: SIA 181 weist selbst keine
+Federführung zu (regelt nur Anforderungswerte/Nachweisformeln, Ziff. 4) — die bestehende
+Praxisregel in `auflagentypen-gewerkzuteilung.md` war richtig, aber unbelegt; jetzt mit
+Fundstellen präzisiert (Ziff. 4.2/4.3 Bauteile → ARC/Bauphysik, Ziff. 4.4 Geräusche
+haustechnischer Anlagen → das liefernde Fachgewerk, nicht pauschal HLK) plus Faustregel für den
+Fall mit/ohne eigenen Bauphysiker. QUESTIONS.md-Punkt ins Archiv verschoben, CHANGELOG der KB
+nachgeführt. Kosten ca. 1.9 USD von 5 USD Budget.
+
+---
+
 **Nachtschicht-Zyklus Mac Mini (~06:30) — Priorität 6: Wissens-Health-Check baurecht (ältestes Audit-Datum, 2026-07-01).**
 Doppelarbeit-Guard geprüft (dispatch/log/ 06:30/05:30/04:30/03:30 inhaltlich gelesen, Queues
 `remote-tasks/pending`/`sync-tasks/mac-mini` leer, Synobsis 10. ergebnisloser Nachtlauf in Folge

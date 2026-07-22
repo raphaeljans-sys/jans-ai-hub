@@ -1,8 +1,8 @@
 ---
 title: Auflagentypen → Gewerk-Zuteilung (BRA/HLK/SAN/ELE/FKO/ARC/BAU)
 status: emerging
-last_updated: 2026-06-04
-sources: [Vorabzug Bauentscheid 2619-KISPI Stadt ZH, GRUNER-Adressliste 2619 PPTS KISPI]
+last_updated: 2026-07-22
+sources: [Vorabzug Bauentscheid 2619-KISPI Stadt ZH, GRUNER-Adressliste 2619 PPTS KISPI, wissen/normen/destillate/sia-181-2006.md]
 links: [[aemter-stadt-zuerich]], [[fristenlogik-bauentscheid-zh]], [[brandschutz-auflagen-qss]], [[vorgehen-auflagebereinigung]]
 ---
 
@@ -54,6 +54,31 @@ Manche Auflagen verlangen **Beiträge mehrerer Gewerke**, mit einer federführen
 
 In der Liste erhält jedes beitragende Gewerk eine **eigene Zeile** mit Vermerk
 «via BRA / via FKO» (federführende Einreichung), siehe [[vorgehen-auflagebereinigung]].
+
+### Schallschutz SIA 181 — Federführung im Detail (belegt, SIA 181:2006)
+
+SIA 181 selbst weist die Federführung **keinem Gewerk organisatorisch zu** — die Norm
+regelt nur die bauakustischen Anforderungswerte und Nachweisformeln (Ziff. 4), nicht
+Zuständigkeiten. Die Gewerk-Zuteilung ist deshalb JANS-Praxiskonvention, aber an der
+Nachweis-Systematik der Norm ausgerichtet:
+
+- **Bauteile (Luft-/Trittschall, Ziff. 4.2/4.3)**: betreffen Aussen-/Trennbauteile,
+  Fassade, Geschossdecken, Wandaufbauten — Konstruktionsentscheide, die beim
+  Architekten liegen (ARC); bei anspruchsvollen Fällen (Spezialanforderungen Ziff.
+  2.2.3, Healthcare-Ruheräume) zieht ARC einen Bauphysiker als Fachplaner bei, der
+  den rechnerischen Nachweis (Ziff. 4.2.2/4.3) führt.
+- **Geräusche haustechnischer Anlagen (Ziff. 4.4)**: der Nachweis (Prognose +
+  Kontrolle am Bauwerk) betrifft explizit die eingebauten Anlagen selbst — damit
+  federführend beim Gewerk, das die Anlage liefert (HLK/SAN/ELE, je nach Anlage;
+  nicht pauschal HLK).
+- Ist die Anforderungsstufe im Werkvertrag nicht explizit festgelegt (Ziff. 2.2.4,
+  siehe `wissen/normen/destillate/sia-181-2006.md`), gilt keine Stufe automatisch als
+  vereinbart — vor der Devisierung klären, nicht annehmen.
+
+Praxis-Faustregel: **kein eigener Bauphysiker beauftragt** → ARC führt den
+Bauteil-Nachweis mit; **Bauphysiker im Projektteam** → er ist federführend für Ziff. 4
+gesamthaft (Bauteile UND Koordination der Haustechnik-Anlagenwerte), die
+Fachplaner liefern nur ihre anlagenspezifischen Werte zu.
 
 ## Heuristik bei Unsicherheit
 1. Welche Fachnorm/VKF-RL nennt die Auflage? → bestimmt das Fachgewerk.
