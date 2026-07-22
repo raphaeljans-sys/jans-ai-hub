@@ -1,3 +1,10 @@
+## 2026-07-22 — Lücke SN EN 520 (Gipsplatten) erfasst (Anlass: 2619 KISPI, Korrex Brandschutzexperte)
+- [ergänzt] `wiki/QUESTIONS.md`: neuer Bring-Schulden-Punkt SN EN 520 (Gipsplatten-Typen,
+  insb. Typ D/F/DF und Rohdichte-Kriterium). Auslöser: QS-Korrex des Brandschutzexperten
+  vom 21.07.2026 zu den BIK-Plänen 2619 KISPI («Rohdichte muss min. 800 kg/m³ betragen»,
+  Pläne 33.24/33.29-33.31). Bis zum Volltextabgleich wird das Typ-D-Kriterium nicht als
+  Norm-Fundstelle zitiert.
+
 ## 2026-07-21 — DIN-277-1-Leseproblem (Mini-Run 33) root-caused: lokaler File-Provider-Fehler, kein Datenverlust (Mac-Mini-Nachtschicht 19:30)
 - [geklaert] `wiki/QUESTIONS.md`: die in Mini-Run 33 (20.07.) offen gelassene Frage "ist die
   SharePoint-Datei `DIN 277-1.pdf` beschaedigt oder nur lokal auf dem Mac Mini nicht lesbar?"

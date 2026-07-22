@@ -600,6 +600,15 @@ koennten. Bearbeitungsstand Mini-Run 33 (20.07.2026):
   der Bestand veraltet. SIA 2024 ist über die KB `energie` bereits teilweise erschlossen
   (Grundlagenbericht Revision 2021 + Korrigenda C1:2024, siehe CHANGELOG 2026-07-19 Wissens-Chef Run 9).
 
+- [ ] **SN EN 520 (Gipsplatten — Begriffe, Anforderungen, Prüfverfahren) fehlt im Bestand.**
+  Gebraucht für 2619 KISPI (Korrex Brandschutzexperte 21.07.2026: «Rohdichte Gipskartonplatten
+  min. 800 kg/m³» in den BIK-Plänen). Zu klären und mit Fundstelle zu belegen: Plattentypen
+  nach EN 520 (insb. Typ D «Platten mit definierter Dichte» und Typ F «Platten mit verbessertem
+  Gefügezusammenhalt des Kerns bei hohen Temperaturen», Kombination Typ DF = übliche
+  Brandschutzplatte GKF), inkl. exaktem Rohdichte-Kriterium des Typs D (mutmasslich
+  ≥ 800 kg/m³ — bis zum Volltextabgleich NICHT als Norm-Fundstelle zitieren). Volltext
+  beschaffen (SharePoint PL-02 prüfen, sonst SIA/SNV-Shop).
+
 **Systematische Lehre aus der Verifikation (für kommende Läufe):**
 
 - [ ] **Häufigster Fehlertyp ist die modale Überdehnung** (23 von 73 Befunden): Der Destillier-Agent
