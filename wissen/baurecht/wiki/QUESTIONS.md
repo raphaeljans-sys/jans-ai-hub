@@ -23,16 +23,21 @@ wurden.
   beiden Stationen, nicht nur Baurecht. Die MacBook-Pro-eigene Kopie der Registry
   (`~/.claude/scheduled-tasks/`) ist vom Mac Mini aus nicht erreichbar (kein Reverse-SSH,
   kein Sync) — muss auf der Station selbst geprueft werden.
-- **Neue, praezisere Root-Cause-Hypothese (nicht abschliessend verifiziert):** Alle fuenf
-  Trainings-Tasks tragen seit 19.07.2026 denselben "Minimum Viable Model"-Anhang
-  (mechanische Stufen an Haiku/Sonnet-Subagenten delegieren). Agent-Aufrufe sind
-  selbststaendige Prompts ohne automatischen CLAUDE.md-/Rules-Kontext — trifft der delegierende
-  Prompt die Umlaut-Regel (`umlaute-konvention.md`) nicht explizit, kann der guenstige
-  Subagent auf ASCII-Ersatzschreibung zurueckfallen. Passt zum Zeitpunkt (Bug zuerst 21.07.,
-  eine Nacht nach Einfuehrung der Delegation 19.07.). Gegenprobe nicht rund: `normen-training-mini`
-  traegt denselben Anhang, war aber im 21.07.-Fund nicht als betroffen genannt (evtl. nur noch
-  nicht geprueft). **Braucht einen dedizierten Lauf** (echte Haiku-Subagent-Outputs direkt
-  pruefen), keine Nachtschicht-Spekulation.
+- **Root-Cause-Hypothese CONFIRMED (~19:00-Lauf, Mac Mini, dedizierte Verifikation):**
+  Alle fuenf Trainings-Tasks tragen seit 19.07.2026 denselben wortgleichen "Minimum Viable
+  Model"-Anhang (mechanische Stufen an Haiku/Sonnet-Subagenten delegieren), OHNE die
+  Umlaut-Regel (`umlaute-konvention.md`) an den delegierten Prompt weiterzugeben — Agent-
+  Aufrufe erben CLAUDE.md/Rules nicht automatisch. Empirisch bestaetigt: echte
+  `outputs/*.md` seit 19.07. auf ASCII-Ersatzformen (fuer/ueber/waere/moeglich/...)
+  durchsucht — **alle fuenf KBs sind betroffen** (baurecht, energie, planungsgrundlagen,
+  normen, architekten-synobsis), nicht nur baurecht. Die fruehere "Gegenprobe nicht rund"
+  ist damit widerlegt: `normen-mini-run33` (20.07.) zeigt dieselben ASCII-Formen, war nur
+  noch nicht geprueft. Details/Tabelle: `outputs/2026-07-22_umlaut-bug-verifikation-nachtschicht.md`.
+  **Fix vorgeschlagen, NICHT autonom ausgefuehrt** (Config-Aenderung an lokalen
+  Scheduled-Task-Dateien = Infrastruktur-Aenderung, laut `logbuch/AKTIONS-WHITELIST.md`
+  verboten): allen fuenf "Modell-Politik"-Bloecken (beide Stationen) einen Satz ergaenzen,
+  dass delegierte Prompts die Umlaut-/Hochdeutsch-Kernregel explizit wiederholen muessen.
+  Naechstes hub-chef-Briefing bzw. Raphael direkt vorlegen.
 - **Teilschritt (2) unveraendert offen:** bestehende ae/oe/ue-Stellen im Wiki brauchen eine
   eigene Bereinigung (13+ Treffer allein in einem Artikel) — zu gross fuer einen
   Nachtschicht-Lauf, eigener Auftrag.

@@ -4,6 +4,13 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-07-22 — Umlaut-Bug (ASCII-Ersatzschreibung in Haiku/Sonnet-Subagenten-Outputs) bestätigt betroffen
+Cross-KB-Verifikation (Nachtschicht Mac Mini ~19:00, ausgehend von der KB baurecht): die
+"Minimum Viable Model"-Subagenten-Delegation seit 19.07. gibt die Umlaut-Regel nicht an
+den Subagenten weiter — auch in `architekten-synobsis` empirisch nachgewiesen (Batch-Laeufe
+19.-21.07. mit "fuer/geprueft/moeglich/natuerlich"). Voller Befund + vorgeschlagener Fix:
+`wissen/baurecht/outputs/2026-07-22_umlaut-bug-verifikation-nachtschicht.md`.
+
 ## 2026-07-22 — Batch-Lauf (leer, 10. Mal in Folge) + Vektorindex neu (Mac Mini Nachtschicht)
 Batch 25, 02:18–02:19. Stufe 1 ohne neuen Stoff (853/853, offen 0, Stand unveraendert
 2026-07-02). Stufe 2 hat `catalog/vectors.npz` deterministisch neu gebaut (853 × 768,

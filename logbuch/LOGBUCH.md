@@ -7,6 +7,23 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-22
 
+**Nachtschicht-Zyklus Mac Mini (~19:00) — Umlaut-Bug-Hypothese aus dem 08:30-Lauf dediziert verifiziert: CONFIRMED, betrifft alle 5 Trainings-KBs.**
+Doppelarbeit-Guard geprüft (dispatch/log/ 18:30 inhaltlich gelesen, Queues leer, Synobsis
+Stufe 2 läuft stabil automatisiert weiter). Aufgegriffen: die im ~08:30-Lauf ausdrücklich als
+unbewiesen markierte Hypothese, dass die seit 19.07. eingeführte Haiku/Sonnet-Subagenten-
+Delegation ("Minimum Viable Model") die Umlaut-Regel nicht an die Subagenten weitergibt. Statt
+zu spekulieren: (1) alle fünf lokalen Scheduled-Task-Prompts (`~/.claude/scheduled-tasks/`)
+geprüft — identischer "Modell-Politik"-Block, keiner erwähnt die Umlaut-Konvention; (2) echte
+`outputs/*.md` seit 19.07. in allen fünf betroffenen KBs (baurecht/energie/planungsgrundlagen/
+normen/architekten-synobsis) auf ASCII-Ersatzformen (fuer/ueber/waere/moeglich/...) durchsucht.
+**Befund: CONFIRMED, alle fünf KBs betroffen** — auch `normen-training-mini`, das im 21.07.-Fund
+fälschlich als Gegenprobe für "nicht betroffen" galt. Fix ist klar (ein Satz je Scheduled-Task-
+Prompt), aber NICHT autonom umgesetzt: Config-/Infrastruktur-Änderung an lokalen Task-Dateien
+fällt unter das Verbot in `logbuch/AKTIONS-WHITELIST.md`. Für nächstes hub-chef-Briefing bzw.
+Raphael direkt vorgemerkt. Abgelegt: `wissen/baurecht/outputs/2026-07-22_umlaut-bug-verifikation-nachtschicht.md`,
+`wissen/baurecht/wiki/QUESTIONS.md` + `CHANGELOG.md`, Cross-Reference-Einträge in den CHANGELOGs
+von energie/planungsgrundlagen/normen/architekten-synobsis. Kosten ca. 2.2 USD von 5 USD Budget.
+
 **Hub-Chef-Lauf (~08:40, Mittwoch) — Lauf ohne eigenständigen Befund, keine zweite Mail.** Signale konsolidiert: Register + Journal (Horizont 7 Tage), Konversations-Destillat 22.07., bexio `--verzug`/`--abgleich`, Mail-Vorfilter aller Apple-Mail-Konten (Posteingang + Gesendete, 26 h), Kalender. **Ergebnis:** Der Logbuch-Radar hat um 07:00 bereits das vollständige Tagesbriefing an rj@ versendet (KISPI-Zahlungsstau, Brandschutz-Termin 10:00, Selbstfristen 24.07., van-Velsen-Lüftungskontrolle, Thalwil-Näherbaurecht, AG-Monitor-Fix) — keine Doppelmeldung. **Keine Whitelist-Aktion gerechtfertigt:** RE-00087 auf Mahnung 2 (Entscheid Mahnung 3/Betreibung bei Raphael, nie autonom); RE-00098/00099 tragen seit RJs eigener gebündelter Mahnung 21.07. bereits Mahnstufe 1 (Zahlungserinnerung, Frist bis 03.08.), Verzug erst 2 Tage → A1 greift nicht. Kein neuer bestätigter Termin für A2 (Brandschutz 10:00 von RJ am 21.07. bereits angenommen; die 08:24-Frage «TeKoSi zur Fachplanersitzung 23.07. einladen?» ist RJ-getrieben, kein Hub-Auftrag). **Einziger neuer Datenpunkt (in bexio, nicht im Radar):** zwei bald fällige, noch nicht überfällige Debitoren — RE-00100 CHF 13'120 Nova Property Fund (fällig 30.07.) und RE-00101 CHF 6'000 Tschopp (fällig 31.07.); zur Beobachtung ins Register aufgenommen (A4), damit der nächste Radar/Mahnwesen-Lauf sie erfasst. `--abgleich`: 19 historische «gebucht ohne Bankbeleg» (2022–2025) unverändert = bekanntes bexio-Hygiene-Artefakt, keine autonome Aktion (Buchen/Reconcilen verboten). Sync-/Remote-Queues leer.
 
 **Nachtschicht-Zyklus Mac Mini (~08:30) — Offene Frage aus dem 06:30-Health-Check geklärt (baurecht, Mechanismus Locale-Fix).**

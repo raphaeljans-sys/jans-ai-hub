@@ -2,6 +2,13 @@
 
 Neueste zuoberst.
 
+## 2026-07-22 — Umlaut-Bug (ASCII-Ersatzschreibung in Haiku/Sonnet-Subagenten-Outputs) bestätigt betroffen
+Cross-KB-Verifikation (Nachtschicht Mac Mini ~19:00, ausgehend von der KB baurecht): die
+"Minimum Viable Model"-Subagenten-Delegation seit 19.07. gibt die Umlaut-Regel nicht an
+den Subagenten weiter — auch in `energie` empirisch nachgewiesen (`outputs/2026-07-21_health-check.md`
+u.a. mit "fuer/gruen/praeziser/ueberschreitet"). Voller Befund + vorgeschlagener Fix:
+`wissen/baurecht/outputs/2026-07-22_umlaut-bug-verifikation-nachtschicht.md`.
+
 ## 2026-07-22 — Nachtschicht Mac Mini: Sonderfall Pfäffikon SZ Churerstrasse 100/104 geklärt
 - Letzter offener Punkt zur Fernwärme-Ausserschwyz-Recherche (seit Run 82/83 als «ungeklärter
   Sonderfall» offen) direkt am Live-Richtpreisrechner geklärt: kein Tool-Defekt, sondern ein

@@ -2,6 +2,13 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-22 — Umlaut-Bug (ASCII-Ersatzschreibung in Haiku/Sonnet-Subagenten-Outputs) bestätigt betroffen
+Cross-KB-Verifikation (Nachtschicht Mac Mini ~19:00, ausgehend von der KB baurecht): die
+"Minimum Viable Model"-Subagenten-Delegation seit 19.07. gibt die Umlaut-Regel nicht an
+den Subagenten weiter — auch in `planungsgrundlagen` empirisch nachgewiesen (mehrere
+Runs 19.-22.07. mit "fuer/erlaeuterndem/moeglicherweise/ueberbauungsordnung"). Voller
+Befund + vorgeschlagener Fix: `wissen/baurecht/outputs/2026-07-22_umlaut-bug-verifikation-nachtschicht.md`.
+
 ## 2026-07-22 — Training Run 56 (Kartenportale + Energie, Token-Vollgas + Register-Nachtrag)
 - **Registrierungs-Luecke geschlossen:** der Wiki-Artikel `kartenportale-naturgefahren-objektschutz.md`
   und der Connector `geo-sz.mjs` enthielten bereits einen vollstaendig geloesten SZ-Naturgefahren-

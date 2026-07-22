@@ -1,3 +1,11 @@
+## 2026-07-22 — Umlaut-Bug (ASCII-Ersatzschreibung in Haiku/Sonnet-Subagenten-Outputs) bestätigt betroffen
+Cross-KB-Verifikation (Nachtschicht Mac Mini ~19:00, ausgehend von der KB baurecht): die
+"Minimum Viable Model"-Subagenten-Delegation seit 19.07. gibt die Umlaut-Regel nicht an
+den Subagenten weiter — auch in `normen` empirisch nachgewiesen, inkl. `normen-training-mini`
+(Run 33 vom 20.07., "fuer/muessen/praezisiert/waere"), das zuvor fälschlich als Gegenprobe
+für "nicht betroffen" galt. Voller Befund + vorgeschlagener Fix:
+`wissen/baurecht/outputs/2026-07-22_umlaut-bug-verifikation-nachtschicht.md`.
+
 ## 2026-07-22 — Lücke SN EN 520 (Gipsplatten) erfasst (Anlass: 2619 KISPI, Korrex Brandschutzexperte)
 - [ergänzt] `wiki/QUESTIONS.md`: neuer Bring-Schulden-Punkt SN EN 520 (Gipsplatten-Typen,
   insb. Typ D/F/DF und Rohdichte-Kriterium). Auslöser: QS-Korrex des Brandschutzexperten

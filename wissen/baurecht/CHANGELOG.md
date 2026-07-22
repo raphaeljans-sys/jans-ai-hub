@@ -4,6 +4,18 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-22 — Umlaut-Bug-Root-Cause CONFIRMED (empirisch), Nachtschicht Mac Mini ~19:00
+Dedizierte Verifikation der am ~08:30-Lauf offen gelassenen Hypothese: die "Minimum Viable
+Model"-Subagenten-Delegation (seit 19.07.) gibt die Umlaut-Regel nicht an Haiku/Sonnet-
+Subagenten weiter. Konfiguration aller fünf Trainings-Tasks geprüft (identischer Anhang,
+keine Umlaut-Regel drin) UND echte `outputs/*.md` seit 19.07. in allen fünf KBs
+(baurecht/energie/planungsgrundlagen/normen/architekten-synobsis) auf ASCII-Ersatzformen
+durchsucht — alle fünf betroffen, auch `normen-training-mini` (zuvor fälschlich als
+Gegenprobe geführt). Fix vorgeschlagen (ein Satz je Scheduled-Task-Prompt), aber NICHT
+autonom ausgeführt (Config-/Infrastruktur-Änderung, Whitelist-verboten) — für hub-chef-
+Briefing/Raphael vorgemerkt. Report: `outputs/2026-07-22_umlaut-bug-verifikation-nachtschicht.md`,
+QUESTIONS.md-Eintrag 2026-07-22 aktualisiert.
+
 ## 2026-07-22 — Locale-Fix-Frage aus dem Health-Check geklärt (Mechanismus), Nachtschicht Mac Mini ~08:30
 Die im Health-Check offen gelassene Frage (verifizieren, ob `baurecht-buch-training` denselben
 `LANG=de_CH.UTF-8`-Fix wie `scripts/dispatch-run.sh` erhält) ist beantwortet: nein, kann er
