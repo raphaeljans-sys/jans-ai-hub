@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 22.07.2026 01:39:58
+Stand: 22.07.2026 01:50:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 01:39)
@@ -12,4 +12,4 @@ Stand: 22.07.2026 01:39:58
 - 3 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 2a548e99 Nachtschicht Mac Mini 01:30: kein neues Delta, Erschoepfung von 00:30 bestaetigt
+- 3ce665bd nas-selfcommit: 2 Datei(en) 2026-07-22 01:45
