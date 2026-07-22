@@ -5,6 +5,16 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-22 — `twin-mail-training` Batch 45 (Sent Items rj@, 2026-05-14…05-19).** Sequenzielle
+  Fortsetzung nach mailbatch-44; 20 Mails gesichtet, 5 Volltexte destilliert (alle authentisch/handgetippt,
+  keine Echo-Falle), KISPI-Umnutzung Therapiestation 2619 Submissions-/Brandschutz-Phase. Metrik 413 W,
+  Du-Gross 1.0, ø 15.9 W, FG 5× dominant. Neue belegte Marker in vier Facetten: [[beziehungsregister]]
+  (Fachplaner-Warm-Sie «Geschätzter Herr», Zwei-Wärmestufen-Sie Grob/Arter, Mapping Timo Hayen Du, 3.
+  Anti-Spiegelungs-Beleg), [[fachsignatur]] (Brandschutz-Ertüchtigung Trockenbau EI30-RF1, Einsichtsschutz
+  als Entwurfstreiber), [[arbeitsweise]] (fette-Zwischentitel-Gewerksanfrage, delegierte Rückfrage-
+  Weiterleitung, Bestätigungs-Reflex bei Zustellaufträgen), [[stimme]] (FG-nach-Mailtyp-auch-im-Du,
+  Bitt-Reflex-Verb-Grossschreibung als Echtheitssignal, konditionale Hilfsbereitschaft). Bookkeeping-Hinweis
+  vermerkt: Wiki-«Batch»-Nummern (bis 58) sind der separate Fidelity-Review-Strang, nicht die mailbatch-Kette.
 - **2026-07-21 — `twin-fidelity-review` (Selbsttest, Gesamt-Fidelity 91).** Drei authentische Vor-Claude-
   Goldproben Okt 2025 in drei Registern gezogen (Lu/St. Moritz warm-sozial-Du-Akquise; boesner/Washi
   Objekt-Material-Sie; ESTV/Ruprecht Behörde-Beleg-Zustellung), Twin-Fassungen aus den Facetten-Wikis
