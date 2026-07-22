@@ -1,5 +1,21 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-22 — Nachtschicht Mac Mini: Jurybericht-Termin 2501 Steinfabrik korrigiert (Ende März → Sommer 2026)
+- 7. Beobachtungsprüfung des ausstehenden Juryberichts 2501 Steinfabrik (Hafenareal Pfäffikon
+  SZ). konkurado.ch weiterhin ohne Jurybericht/Sieger. Erstmals zusätzlich die
+  Verfahrensbegleitung SUTER • VON KÄNEL • WILD direkt geprüft (skw.ch, eigene
+  Downloads-Seite zum Verfahren) — gemäss der in `wettbewerbs-dna-training` bereits
+  gelernten Methoden-Lehre (immer auch die Ausloberin/Verfahrensbegleitung prüfen, nicht
+  nur konkurado/espazium).
+- **Befund:** SKW nennt dort neu explizit «Verfahren abgeschlossen. Jurybericht folgt im
+  Sommer 2026.» — die ursprüngliche Ankündigung «Ende März 2026» (Entscheid-E-Mail Christof
+  Brack, 10.02.2026) ist damit belegt überholt.
+- Aktualisiert: `wiki/teilnahmen/2501-steinfabrik-hafenareal.md` (offene Frage Jurybericht),
+  `wiki/QUESTIONS.md` (Beobachtungspunkt mit neuem Termin und Prüf-Empfehlung: nicht vor
+  Spätsommer 2026 erneut prüfen, statt wöchentlich redundant zu beobachten).
+- Kein neuer Wiki-Artikel nötig (kein neues Faktum, nur korrigierte Frist). Kosten dieses
+  Zyklus: ca. 1.9 von 5 USD Budget.
+
 ## 2026-07-21 — Wissens-Chef Run 11 (Cross-KB): Drift-Guard für den Schulbau-Parameter-Set-Handoff
 - Erst-Check des Rotationspaars wettbewerbs-dna ↔ entwurfs-referenzen am B5-Schulbau-Stoff. Handoff in
   `entwurfs-referenzen/.../schule-volksschule-ch.json` **inhaltlich korrekt** — alle Kennwerte deckungsgleich

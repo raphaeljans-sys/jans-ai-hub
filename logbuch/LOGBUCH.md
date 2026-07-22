@@ -7,6 +7,20 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-22
 
+**Nachtschicht-Zyklus Mac Mini (~21:30) — Priorität 5: Jurybericht-Beobachtung 2501 Steinfabrik in `wettbewerbs-dna` — Termin von «Ende März» auf «Sommer 2026» korrigiert.**
+Doppelarbeit-Guard geprüft (dispatch/log/ 20:30/19:30 inhaltlich gelesen; Queues leer;
+Synobsis stabil; Fristen-Radar heute bereits vom Hub-Chef abgedeckt; Priorität 5 im
+20:30-Lauf auf einer anderen KB — `auflagebereinigung` — erledigt). Offenen
+Beobachtungspunkt aus `wissen/wettbewerbs-dna/wiki/QUESTIONS.md` aufgegriffen (Jurybericht
+2501 Steinfabrik/Hafenareal Pfäffikon SZ, seit sechs Prüfungen ohne Fortschritt auf
+konkurado.ch). Diesmal gemäss der bereits dokumentierten Methoden-Lehre (Fall 2507)
+zusätzlich die Verfahrensbegleitung selbst geprüft: SUTER • VON KÄNEL • WILD (skw.ch,
+Downloads-Seite zum Verfahren) nennt neu «Verfahren abgeschlossen. Jurybericht folgt im
+Sommer 2026» — die im Programm/Entscheid-E-Mail angekündigte Frist «Ende März 2026» ist
+damit primärquellenbelegt überholt. Dossier `wiki/teilnahmen/2501-steinfabrik-hafenareal.md`
+und QUESTIONS.md nachgeführt, inkl. Empfehlung, erst wieder ab Spätsommer 2026 zu prüfen
+statt wöchentlich redundant zu beobachten. CHANGELOG ergänzt. Kosten ca. 1.9 von 5 USD.
+
 **Nachtschicht-Zyklus Mac Mini (~20:30) — Priorität 5: zwei QUESTIONS-Lücken 2619-KISPI in der KB `auflagebereinigung` echt geklärt (Primärquelle statt Sekundär-Zitat).**
 Doppelarbeit-Guard geprüft (dispatch/log/ 19:30/18:30 inhaltlich gelesen; Queues leer;
 Synobsis stabil; Fristen-Radar heute bereits mehrfach vom Hub-Chef-Lauf abgedeckt, kein

@@ -53,13 +53,15 @@ Stand: 14.07.2026 (Etappe-3-Start: Bauaufgaben-Blocker geschlossen)
   veraltet (Entscheid 02.04. dort bis mindestens 13.07. nicht sichtbar) — künftig IMMER
   auch die Website der Ausloberin prüfen (hier stadt.sg.ch), espazium/konkurado sind
   nachlaufende Sekundärquellen.
-- **Ausstehender Jurybericht 2501 Steinfabrik:** unverändert (6. Prüfung 20.07.2026 via
-  konkurado.ch/de/areal-steinfabrik-pfaffikon-sz: Verfahren «Abgeschlossen», Terminplan
-  nennt «Jurybericht: 14.01.2026», downloadbar sind nur Ausschreibungsdokument + ICS —
-  kein Jurybericht verlinkt, kein Sieger genannt). Gemäss Methoden-Lehre oben bei der
-  nächsten Prüfung zusätzlich die Ausloberin (Hafenareal Pfäffikon SZ AG /
-  Verfahrensbegleitung SUTER • VON KÄNEL • WILD) bzw. deren Kanäle prüfen. Bei
-  Eintreffen: Dossier ergänzen, Delta-Muster erweitern.
+- **Ausstehender Jurybericht 2501 Steinfabrik — neuer Termin «Sommer 2026» (7. Prüfung,
+  22.07.2026):** konkurado.ch weiterhin ohne Jurybericht/Sieger (wie 6. Prüfung). Diesmal
+  zusätzlich die Verfahrensbegleitung SUTER • VON KÄNEL • WILD direkt geprüft
+  (skw.ch/Downloads-Seite zum Verfahren) — dort neu: «Verfahren abgeschlossen. Jurybericht
+  folgt im Sommer 2026.» Damit ist die ursprüngliche Ankündigung «Ende März 2026»
+  (Entscheid-E-Mail 10.02.2026) belegt überholt; kein Downloadlink. Bei Eintreffen: Dossier
+  `wiki/teilnahmen/2501-steinfabrik-hafenareal.md` Sektion 4/5 ergänzen, Delta-Muster
+  erweitern. Nächste Prüfung: nicht vor Spätsommer 2026 (Fristangabe ernst nehmen statt
+  wöchentlich redundant zu prüfen).
 - **Loop-Takt wettbewerbs-dna-training:** Vier aufeinanderfolgende Beobachtungs-Läufe
   (13.07.2026) ohne neues Material bei 2501/2507, Etappe 3 weiter blockiert auf
   Bauaufgaben-Prioritäten. Reine Beobachtung bringt ohne aussenliegendes Ereignis

@@ -202,10 +202,15 @@ Vorläufig (status draft; substanzielle DNA erst nach Vorliegen des Juryberichts
   Abgabeordner nachtragen.
 - **Material/Tragwerk/Fassade** von SEESTERN: nicht im raw (nur Text + Kenndatenblatt);
   aus den Abgabeplänen (`10 ABGABE STEINFABRIK -Seestern-`) nachziehen.
-- **Jurybericht (Ende März 2026):** Verfasser und Würdigung des Siegers ALINGHI, der
-  weiteren Ränge sowie die Beurteilung/Kritik von SEESTERN. Erst damit ist Sektion 4
-  (Delta zum 1. Platz) und eine belastbare Sektion 5 (DNA) schreibbar; danach
-  Status-Hebung prüfen.
+- **Jurybericht verzögert sich weiter — neu «Sommer 2026» (7. Prüfung, 22.07.2026):**
+  ursprünglich «Ende März 2026» angekündigt (Entscheid-E-Mail 10.02.2026), 6. Prüfung
+  20.07.2026 fand auf konkurado.ch weiterhin keinen Jurybericht. Diesmal zusätzlich die
+  Verfahrensbegleiterin selbst geprüft (Suter von Känel Wild, skw.ch/Downloads-Seite zum
+  Verfahren) — dort neu explizit: «Verfahren abgeschlossen. Jurybericht folgt im Sommer
+  2026.» Damit ist die März-Ankündigung belegt überholt; kein Downloadlink verfügbar.
+  Verfasser und Würdigung des Siegers ALINGHI, der weiteren Ränge sowie die Beurteilung/
+  Kritik von SEESTERN bleiben offen. Erst mit dem Jurybericht ist Sektion 4 (Delta zum
+  1. Platz) und eine belastbare Sektion 5 (DNA) schreibbar; danach Status-Hebung prüfen.
 - **Bauaufgabe-Doppelname Pfäffikon/Freienbach:** Areal liegt im Ortsteil Pfäffikon,
   politische Gemeinde Freienbach SZ (Programm-Kopf «Freienbach SZ», Titel «Pfäffikon SZ»)
   — für Registereinträge einheitlich «Pfäffikon SZ (Gemeinde Freienbach)» verwenden.
