@@ -299,15 +299,18 @@ recherchiert. Betroffener Artikel: [[fahrzeugabstellplaetze-und-parkierung]] (bl
   2024: «PPV vom 11. Dezember 1996 mit Änderungen bis 16. Dezember 2015»). Wiki jetzt mit vollem
   Wortlaut (Abs. 5-8), Kaskade Grundstück→Gemeinschaftsanlage/Zumietung (300 m)→Ersatzabgabe, und
   Abgrenzung zu Art. 8 Abs. 3 PPV (einfacheres Betriebskonzept ohne Mobilitätskonzept) ergänzt.
-- **✅ VSS-Veloabstellplatz-Normen KORRIGIERT (Fehlzitat entfernt).** Das Wiki nannte bisher
-  «SN 640 060/065/066». Die Wegleitung 1997 stützt sich nur auf **SN 640 065** («Leichter
-  Zweiradverkehr – Abstellanlagen, Bedarfsermittlung», Oktober 1996) — bestätigt durch den
-  amtlichen Volltext. Eine Norm **«SN 640 060» existiert in der aktuellen VSS-Parkierungsnormen-
-  Struktur nicht** (geprüft gegen ParkingSwiss ParkingGuideline 05-V1.2025 «VSS-Parkierungsnormen
-  und verwandte Normen», Stand Juni 2025, vollständige Liste aller PW-/Motorrad-/Velo-Normen) —
-  als Fehlzitat aus dem Wiki entfernt. SN/VSS 640 065 und 640 066 entsprechen in der aktuellen
-  VSS-Nomenklatur **VSS 40 065** (2011/2019, Bedarfsermittlung/Standortwahl) und **VSS 40 066**
-  (2011/2019, Projektierung) — inhaltlich dieselben Normen, nur umnummeriert.
+- **✅ VSS-Veloabstellplatz-Normen ROLLEN-KORRIGIERT (Cross-KB Run 12, 2026-07-22).** Das Wiki
+  nannte bisher «SN 640 060/065/066» und ordnete **SN 640 060** faelschlich als dritte
+  Veloabstellplatz-**Bedarfsnorm** ein. Richtig: die Wegleitung 1997 stützt den Bedarf nur auf
+  **SN 640 065** («Leichter Zweiradverkehr – Abstellanlagen, Bedarfsermittlung», Oktober 1996,
+  amtlicher Volltext). **SN 640 060 existiert real**, aber als eigenstaendige Grundlagennorm
+  «Leichter Zweiradverkehr – Grundlagen» (VSS, gen. November 1994) — deshalb erscheint sie nicht
+  im Parkierungsnormen-Paket (ParkingSwiss ParkingGuideline 05-V1.2025). Der frühere «existiert
+  nicht / Fehlzitat»-Vermerk war zu absolut (widersprach dem eigenen Buch-Destillat Bd. 2 S. 914-915
+  und dem normen-Destillat `wissen/normen/destillate/vss-640060-1994`, established); auf Rollen-Korrektur
+  umgestellt statt Löschung. SN/VSS 640 065 und 640 066 entsprechen in der aktuellen VSS-Nomenklatur
+  **VSS 40 065** (2011/2019, Bedarfsermittlung/Standortwahl) und **VSS 40 066** (2011/2019,
+  Projektierung) — inhaltlich dieselben Normen, nur umnummeriert.
 - **⚠️ VSS-Rampenneigungsnorm «SN 640 291a» — Normbezeichnung präzisiert, Kennwerte bleiben
   DAUERHAFT needs-verification (Kostenpflicht).** Die alte Bezeichnung «SN 640 291a» entspricht in
   der aktuellen VSS-Struktur **VSS 40 291** «Parkieren – Anordnung und Geometrie der

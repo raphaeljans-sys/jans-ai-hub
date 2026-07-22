@@ -52,6 +52,10 @@ duplizieren:
   Brandschutz/Oberflaeche (→ Skill `brandschutz`). Faustregel Vorprojekt: fuer ein Minergie-
   taugliches Bauteil (U ≤ 0,17-0,20) braucht eine CLT-Aussenwand **mindestens ~140-160 mm**
   Zusatzdaemmung; Einzelfallrechnung (SIA 380/1) bleibt Pflicht.
+  **Querbezug KB energie (Cross-KB Run 12):** Führend für die CLT-Fachphysik (λ, Bauteilaufbauten,
+  Feuchte/Diffusion) ist `wissen/energie/destillate/clt-bauphysik-stora-enso` (established, λ = 0,12 W/mK
+  herstellerbelegt) bzw. `.../clt-bauteilkatalog-stora-enso`; hier nur das planungsrelevante Delta,
+  nicht doppelt pflegen.
 - **Realer JANS-Benchmark — Biwak Grassen** (alpine Kleinstbeherbergung, vgl. Brandschutz-Benchmark
   in [[brandschutz-pl03-wegweiser]] §4f): Wandaufbau Schutzblech (Aluminium) + 40 mm luftgefuellte
   Unterkonstruktion (λ ≈ 0,15) + 40 mm Mineralwolle (λ = 0,035) + 140 mm CLT (Stora Enso, λ = 0,13)

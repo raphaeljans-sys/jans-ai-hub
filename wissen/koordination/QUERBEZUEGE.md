@@ -44,6 +44,70 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### normen ↔ auflagebereinigung (SIA 181 Schallschutz Federführung, Erst-Check) — geprueft 2026-07-22 (Run 12)
+- **Anlass:** auflagebereinigung hat am 22.07. die QUESTIONS-Lücke «Schallschutz SIA 181 Federführung» geklärt
+  (neuer Abschnitt in `auflagentypen-gewerkzuteilung.md`). SIA 181 ist laut Rollen-Matrix normen-geführt.
+- **0 Kennwert-/Aussage-Widerspruch:** auflagebereinigung zitiert **keine** dB-Werte, nur die Ziffer-Struktur
+  (4.2/4.3/4.4, 2.2.3/2.2.4) — exakt deckungsgleich mit dem normen-Destillat `sia-181-2006`. Kernaussage «SIA 181
+  weist keine Federführung zu» ist normkonform (Norm regelt Anforderungswerte, keine Zuständigkeiten). **KEINE
+  Doppelspur:** auflagebereinigung ergänzt nur die organisatorische Gewerk-Ebene (genuin eigene Domäne), schreibt
+  keine Norm-Substanz fort. Verlinkung auflagebereinigung → normen vorbildlich (sources + inline).
+- **Befund (VERALTETES, mittel):** auflagebereinigung verankert auf **SIA 181:2006** ohne Fassungs-Vorbehalt,
+  obwohl normen die neuere **SIA 181:2020** flaggt (Re-Destillat ausstehend); die Supersession lebte nur in
+  normen-REGISTER/QUESTIONS, **nicht im Destillat-Frontmatter** — wer nur das verlinkte Destillat liest, sah sie nicht.
+- **Aktion (autonom):** `ersetzt_durch`-Hinweis ins normen-Destillat-Frontmatter gesetzt; Fassungs-Vorbehalt-Kasten
+  in die auflagebereinigung-SIA-181-Sektion (Ziffern beim Re-Destillat gegenprüfen). **Status: bereinigt + verlinkt;
+  Paar neu im Register; Bring-Schuld SIA 181:2020 Re-Destillat bleibt (normen-Loop).**
+
+### normen ↔ baurecht (SN 640 060 + SIA-500-Follow-up + DIN-Ersetzung) — geprueft 2026-07-22 (Run 12)
+- **Befund 1 (WIDERSPRUCH → adversarial TEILWEISE, wichtig):** baurecht `fahrzeugabstellplaetze` (Buch-Run 33)
+  führte «SN 640 060 existiert nicht / Fehlzitat entfernt». normen hält `vss-640060-1994` (established, echtes VSS-PDF).
+  **Verifier-Verdikt TEILWEISE:** das normen-Destillat ist KEINE Halluzination (gegen baurechts EIGENES Buch-Destillat
+  Bd. 2 S. 914-915 gegengeprüft, das SN 640 060/065/066 als reale ergänzende Zweiradverkehr-Normen zitiert). Der
+  baurecht-Wiki-Fliesstext war eng korrekt («in der Parkierungsnormen-Struktur nicht»), aber die «Fehlzitat/existiert
+  nicht»-Etikettierung widersprach der eigenen Buchquelle → **Rollen-Korrektur** (640 060 = Grundlagen, 640 065 = Bedarf,
+  640 066 = Geometrie) + Cross-Link, statt Löschung. Autonom umgesetzt in Wiki + QUESTIONS + INDEX-Zeile.
+- **Befund 2 (SIA-500-Follow-up):** der Run-11-Kennwert-Flag («1/25 Wohnungen/100 m» vs. SIA 500:2009 Ziff. 9.7.2
+  «1 je 25 Parkplätze») ist vom baurecht-Loop NICHT aufgelöst worden — steht sachgerecht offen im Haupttext (kein
+  Live-Fehler, korrekt geflaggt). Aber der **INDEX** trug den umstrittenen Wert + alte Bezeichnung «SN 521 500» noch
+  als Faktum → autonom auf den geflaggten Stand nachgezogen. Wert selbst bleibt offen (nicht raten).
+- **Befund 3 (DIN-Ersetzung 22.07.): NULL-BEFUND** — grep «DIN 276/4102/1356» in baurecht = 0 Treffer; die am 22.07.
+  in normen geschlossene ersetzt_durch-Lücke berührt baurecht nicht.
+- **Status: bereinigt + verlinkt; SIA-500-Kennwert-Herkunft weiter offen (baurecht-Loop).**
+
+### baurecht ↔ planungsgrundlagen (WWG/Naturgefahren, GSchV-Doppelspur) — geprueft 2026-07-22 (Run 12)
+- **0 materieller Cross-KB-Widerspruch.** Das Wasserrecht-Fundament (WWG/HWSchV → WsG/WsV per 1.6.2026) ist zwischen
+  beiden KBs durchgängig und korrekt nachgeführt; der baurecht-KB-weite Nachzug ist laut baurecht-QUESTIONS (Buch-Run 50)
+  abgeschlossen. Der frische K45-SZ-Naturgefahren-Stoff (pg Run 55/56) ist reines Geodatum/Connector, keine Recht-Kollision.
+- **Befund 1 (VERALTETES, weich, autonom):** pg `kartenportale-naturgefahren-objektschutz.md` Z.407 nannte § 22 WWG im
+  Präsens; der Aufhebungs-Flag stand ~14 Zeilen entfernt. → Inline-Kurzflag an der Bullet gesetzt.
+- **Befund 2 (DANGLING-DELEGATION, nicht autonom):** pg delegiert den § 22 WWG-Nachfolge-§ an baurecht als «führend»,
+  aber baurecht führt Gefahrenbereiche/§ 22 WWG in KEINEM Artikel (0 Treffer) — die Delegation zeigt ins Leere.
+  Bring-Schuld in der führenden KB baurecht. → **Bericht.**
+- **Befund 3 (DOPPELSPUR, nicht autonom, WEITER OFFEN):** GSchV Art. 41a/41b-Bemessungstabelle materiell in baurecht
+  `abstaende-und-hoehen` UND pg `abstandsvorschriften-wald-gewaesser` (Zahlen identisch, kein Widerspruch); Trim auf
+  Verweis = Umstrukturierung, seit Run 7/8 offen. **Status: 1 Inline-Flag autonom; 2 Struktur-Punkte offen.**
+
+### energie ↔ planungsgrundlagen (Private Kontrolle, CLT-U-Werte) — geprueft 2026-07-22 (Run 12)
+- **0 Kennwert-Widerspruch:** EN-Formular-Matrix, Drei-Unterschriften-Tabelle, EN-104-30-kW-Deckel, CLT-λ (0,12),
+  WDV §8/6 vs. EN-110-ZH-Trennung — alle fassungsgleich. Private-Kontrolle-Verlinkung (Run 11) hält bidirektional.
+- **Befund 1 (VERALTETES Frontmatter, autonom):** energie `private-kontrolle-zh.md` `last_updated` 2026-06-11 trotz
+  Run-11-Edit vom 21.07. → auf 2026-07-21 nachgezogen.
+- **Befund 2 (FEHLENDE QUERVERLINKUNG, autonom):** pg `energie-uebersicht` (CLT-Abschnitt) destilliert dieselbe
+  Stora-Enso-Doku wie energie `clt-bauphysik-stora-enso`, ohne Verweis → Querlink zum führenden energie-Destillat gesetzt.
+- **Befund 3 (DOPPELSPUR, nicht autonom, WEITER OFFEN):** Private-Kontrolle-Rollen-Trim (Verfahrens-Substanz aus dem
+  energie-Destillat an pg abgeben) seit Run 11 offen. **Status: 2 Fixe autonom; 1 Rollen-Trim offen.**
+
+### firmengruendung-ch ↔ spec ↔ kunde-bopp (Nach-Gründung AHV/BVG/UVG/MWST, Erst-Check) — geprueft 2026-07-22 (Run 12)
+- **Anlass:** neuer firmengruendung-Artikel `nachgruendung-anmeldungen` (22.07.). **0 Widerspruch, 0 substanzielle
+  Doppelspur:** Gründungs-Fachfakten (MWST-Schwelle 100'000, Fristen, BVG-Eintritt 22'680) liegen ausschliesslich in
+  firmengruendung-ch; spec führt sie nur als Next-Step-Stichzeile + Fall-Log — saubere Arbeitsteilung (firmengruendung =
+  Fakten, spec = Methode/Live-Fall). Namens-Lektion «JANS AG durch JANS GmbH blockiert» beidseits konsistent.
+- **kunde-bopp: NULL-BEFUND bestätigt** (Run 10) — «AG/Genossenschaft» dort nur Identifikatoren, kein Fachwissen.
+- **Nur gemeldet (schwache Links, KEIN autonomer Edit):** spec-Output ist ein datiert-eingefrorenes Fall-Log (nicht editieren);
+  die tragfähige Verlinkung gehört ins lebende `logbuch/fristen.md` (Betriebshaftpflicht-/Anmeldungs-Pendenz, auf die der
+  neue Artikel bereits zeigt). **Status: kein Befund; Feld aus prioritärer Rotation, sauber.**
+
 ### baurecht ↔ energie (BVV-Meldeverfahren §§ 2a-2e, Bring-Schuld-Abschluss) — geprueft 2026-07-21 (Run 11)
 - **Anlass:** baurecht Buch-Run 50 (20.07.) hat die §§ 2a-2e BVV integriert = die Run-10-Bring-Schuld.
 - **Verifiziert am raw-BVV.** 0 Widerspruch: §-Zuordnung/Schwellen (2 m³, 2,5 m)/Fristen (30 T) deckungsgleich,

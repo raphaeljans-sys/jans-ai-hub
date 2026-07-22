@@ -1,3 +1,13 @@
+## 2026-07-22 — Wissens-Chef Run 12 (Cross-KB): SIA-181-Destillat mit ersetzt_durch-Hinweis + SN-640-060 bestätigt
+- [ergänzt] `destillate/sia-181-2006.md`: Frontmatter um `ersetzt_durch: SIA 181:2020 (Re-Destillat
+  ausstehend)` ergänzt. Anlass: auflagebereinigung konsumiert das 2006er-Destillat als Federführungs-
+  Grundlage (Schallschutz-Gewerkzuteilung), sah die Supersession aber nicht — die 2020-Info lebte nur
+  in REGISTER/QUESTIONS, nicht im Destillat selbst. Konsistent mit der DIN-ersetzt_durch-Konvention (22.07.).
+- [bestätigt] SN 640 060: der baurecht-Vermerk «existiert nicht» wurde im Cross-KB-Lauf adversarial
+  gegen `destillate/vss-640060-1994.md` (established) geprüft — Destillat ist quellenbelegt (echtes
+  VSS-PDF, gen. Nov 1994), keine Halluzination; baurecht auf Rollen-Korrektur nachgezogen. Kein normen-Fix nötig.
+  Bericht: `wissen/koordination/outputs/2026-07-22_wissens-chef-run12.md`.
+
 ## 2026-07-22 — ersetzt/ersetzt_durch-Lücke: DIN-Teilmenge geschlossen (Mac Mini Nachtschicht ~19:30)
 - [ergänzt] Aus dem Audit-F-Fund vom 21.07. (127 Destillate ohne `ersetzt`/`ersetzt_durch`)
   die DIN/VSS/RAL-Teilmenge (Mac-Mini-Scope) bearbeitet: 67 Destillate gescannt, 3 ohne Feld

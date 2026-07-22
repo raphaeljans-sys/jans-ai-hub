@@ -141,12 +141,16 @@ als Abs. 2; die aktuelle §-Zaehlung fuer Reverse/Bewilligungen ist Abs. 3.)*
   (2011/2019, Projektierung) gefuehrt — inhaltlich dieselben Normen, nur umnummeriert/revidiert.
   Belegte Bemessungswerte (Stellplatzzahl/Fläche je Nutzung) im normen-Destillat
   `wissen/normen/destillate/vss-merkblatt-veloabstellplaetze-1998`.
-  **Verifiziert/korrigiert 2026-07-13 (Buch-Run 33):** Die zuvor im Wiki genannte dritte
-  Normnummer **«SN 640 060» existiert in der aktuellen VSS-Parkierungsnormen-Struktur NICHT**
-  (Quelle: ParkingSwiss ParkingGuideline 05-V1.2025 «VSS-Parkierungsnormen und verwandte
-  Normen», Stand Juni 2025 — dort ist das vollstaendige Normenpaket Personenwagen/Motorrad/Velo
-  aufgelistet, eine SN/VSS 640 060/40 060 kommt nicht vor). Es handelt sich um ein Fehlzitat im
-  vorherigen Wiki-Stand; entfernt. Fuer Motorraeder ist eine eigene Norm **VSS 40 XYZ**
+  **Verifiziert 2026-07-13 (Buch-Run 33), Rollen-Korrektur 2026-07-22 (Cross-KB Run 12):** Die
+  zuvor im Wiki als dritte **Veloabstellplatz-Bedarfsnorm** genannte **SN 640 060** war falsch
+  zugeordnet — sie ist keine Abstellplatz-/Bedarfsnorm und erscheint deshalb nicht in der
+  VSS-Parkierungsnormen-Struktur (ParkingSwiss ParkingGuideline 05-V1.2025, Stand Juni 2025).
+  Die Norm **existiert jedoch** als eigenstaendige Grundlagennorm **«SN 640 060 – Leichter
+  Zweiradverkehr, Grundlagen»** (VSS, genehmigt November 1994; Netzplanung, Routengeometrie,
+  Sichtweiten) und wird vom Standardwerk (Bd. 2, S. 914-915) neben SN 640 065/066 als ergaenzende,
+  nicht verbindliche Zweiradverkehrsnorm gefuehrt (BEZ 2013 Nr. 15). Fuer den Abstellplatz-**Bedarf**
+  ist **SN 640 065** einschlaegig, fuer **Projektierung/Geometrie SN 640 066**; Grundlagen-Destillat
+  `wissen/normen/destillate/vss-640060-1994`. Fuer Motorraeder ist eine eigene Norm **VSS 40 XYZ**
   (Bedarfsermittlung/Standortwahl Motorradparkierung) erst in Erarbeitung (Stand 2025); bis dahin
   gilt in der Praxis vielerorts ein Richtwert von 10 % der zu erstellenden PW-Abstellplaetze
   (vgl. auch **Art. 8ter PPV Stadt Zuerich**: mind. 1/10 der minimal erforderlichen PW-Plaetze).

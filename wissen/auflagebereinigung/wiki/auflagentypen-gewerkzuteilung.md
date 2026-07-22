@@ -57,6 +57,12 @@ In der Liste erhält jedes beitragende Gewerk eine **eigene Zeile** mit Vermerk
 
 ### Schallschutz SIA 181 — Federführung im Detail (belegt, SIA 181:2006)
 
+> **Fassungs-Vorbehalt (Cross-KB Run 12, 2026-07-22):** Die Ziff.-Referenzen unten (4.2/4.3/4.4,
+> 2.2.3/2.2.4) beziehen sich auf **SIA 181:2006**. In der KB `normen` ist eine neuere Ausgabe
+> **SIA 181:2020** geflaggt (Re-Destillat ausstehend); bei dessen Landung die Ziffern-Verweise
+> gegenprüfen (mögliche Umnummerierung). Führend für den Norminhalt bleibt
+> `wissen/normen/destillate/sia-181-2006`.
+
 SIA 181 selbst weist die Federführung **keinem Gewerk organisatorisch zu** — die Norm
 regelt nur die bauakustischen Anforderungswerte und Nachweisformeln (Ziff. 4), nicht
 Zuständigkeiten. Die Gewerk-Zuteilung ist deshalb JANS-Praxiskonvention, aber an der

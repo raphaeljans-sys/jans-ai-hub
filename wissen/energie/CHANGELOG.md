@@ -2,6 +2,13 @@
 
 Neueste zuoberst.
 
+## 2026-07-22 — Wissens-Chef Run 12 (Cross-KB): stale last_updated korrigiert
+- [veraltet] `destillate/private-kontrolle-zh.md`: `last_updated` stand auf 2026-06-11, obwohl der
+  Cross-KB-Querbezug-Block (Run 11) am 2026-07-21 eingefügt wurde — auf 2026-07-21 nachgezogen.
+  0 Kennwert-Widerspruch mit planungsgrundlagen (Private Kontrolle beidseitig verlinkt, Run-11-Fix hält).
+  Offen (nicht autonom): Private-Kontrolle-Rollen-Trim (Verfahrens-Substanz an pg abgeben) weiter offen.
+  Bericht: `wissen/koordination/outputs/2026-07-22_wissens-chef-run12.md`.
+
 ## 2026-07-22 — Umlaut-Bug (ASCII-Ersatzschreibung in Haiku/Sonnet-Subagenten-Outputs) bestätigt betroffen
 Cross-KB-Verifikation (Nachtschicht Mac Mini ~19:00, ausgehend von der KB baurecht): die
 "Minimum Viable Model"-Subagenten-Delegation seit 19.07. gibt die Umlaut-Regel nicht an

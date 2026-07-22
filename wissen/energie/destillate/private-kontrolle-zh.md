@@ -5,7 +5,7 @@ ausgabe: "Stand April 2025 (Liste 9. April 2025)"
 gelesen: "S. 1-3 (Grundlagen + EN-Formular-Matrix); ab S. 4 Namensregister der Befugten — nicht destilliert"
 datenstand: "April 2025; Rechtsgrundlage BBV I vom 6.5.1981 (LS 700.21)"
 status: established
-last_updated: 2026-06-11
+last_updated: 2026-07-21
 ---
 
 # Private Kontrolle Kt. Zuerich — wer unterschreibt welchen Energienachweis

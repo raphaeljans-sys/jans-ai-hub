@@ -2,6 +2,18 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-22 — Wissens-Chef Run 12 (Cross-KB): § 22 WWG Inline-Flag + CLT-Querlink zu energie
+- [veraltet] `wiki/kartenportale-naturgefahren-objektschutz.md` Z.407: die § 22 WWG-Bullet las sich
+  isoliert wie geltendes Recht (der Aufhebungs-Flag stand ~14 Zeilen darüber im Blockquote). Inline-
+  Kurzflag «WWG per 1.6.2026 aufgehoben, Nachfolge WsG/WsV» direkt an der Bullet ergänzt.
+- [link] `wiki/energie-uebersicht.md` (CLT-Abschnitt): Querbezug auf das führende energie-Fachphysik-
+  Destillat `wissen/energie/destillate/clt-bauphysik-stora-enso` gesetzt (beide destillieren dieselbe
+  Stora-Enso-Doku; Fachphysik-Führung = energie, hier nur planungsrelevantes Delta).
+- Offen (nicht autonom, gemeldet): (a) § 22 WWG Gefahrenbereiche — die als führend benannte KB baurecht
+  führt diese Recht-Frage gar nicht (Bring-Schuld/Dangling-Delegation); (b) GSchV-41a/41b-Bemessungs-
+  Doppelspur baurecht↔pg weiter offen (Trim = Umstrukturierung, seit Run 7/8); (c) Private-Kontrolle-
+  Rollen-Trim energie↔pg weiter offen. Bericht: `wissen/koordination/outputs/2026-07-22_wissens-chef-run12.md`.
+
 ## 2026-07-22 — Umlaut-Bug (ASCII-Ersatzschreibung in Haiku/Sonnet-Subagenten-Outputs) bestätigt betroffen
 Cross-KB-Verifikation (Nachtschicht Mac Mini ~19:00, ausgehend von der KB baurecht): die
 "Minimum Viable Model"-Subagenten-Delegation seit 19.07. gibt die Umlaut-Regel nicht an

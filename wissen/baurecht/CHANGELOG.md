@@ -4,6 +4,20 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-22 — Wissens-Chef Run 12 (Cross-KB): SN 640 060 Rollen-Korrektur + INDEX/SIA-500 nachgezogen
+- [korrektur] `wiki/fahrzeugabstellplaetze-und-parkierung.md`: der Vermerk «SN 640 060 existiert
+  nicht / Fehlzitat entfernt» (Buch-Run 33) war zu absolut — adversarial verifiziert (Cross-KB Run 12):
+  SN 640 060 existiert real als VSS-Grundlagennorm «Leichter Zweiradverkehr – Grundlagen» (gen. Nov 1994),
+  belegt durch das eigene Buch-Destillat Bd. 2 S. 914-915 UND das established normen-Destillat
+  `wissen/normen/destillate/vss-640060-1994`. Auf **Rollen-Korrektur** umgestellt (640 060 = Grundlagen,
+  640 065 = Bedarf, 640 066 = Geometrie) statt Löschung; Cross-Link zum normen-Destillat gesetzt.
+  `wiki/QUESTIONS.md`-Eintrag entsprechend nachgezogen.
+- [veraltet] `wiki/INDEX.md` Z.61 trug den Cross-KB-geflaggten Behinderten-Parkplatz-Kennwert
+  «SN 521 500: 1/25 WE, 100 m» als Faktum + alte Normbezeichnung — auf «SIA 500:2009 Ziff. 9.7;
+  Kennwert Cross-KB-geflaggt Run 11» nachgezogen (Hauptartikel war bereits geflaggt, INDEX hinkte nach).
+- SIA-500-Kennwert-Flag selbst bleibt offen (Herkunft «25 Wohnungen/100 m» weiter zu belegen, nicht raten).
+  Bericht: `wissen/koordination/outputs/2026-07-22_wissens-chef-run12.md`.
+
 ## 2026-07-22 — Umlaut-Bug-Root-Cause CONFIRMED (empirisch), Nachtschicht Mac Mini ~19:00
 Dedizierte Verifikation der am ~08:30-Lauf offen gelassenen Hypothese: die "Minimum Viable
 Model"-Subagenten-Delegation (seit 19.07.) gibt die Umlaut-Regel nicht an Haiku/Sonnet-

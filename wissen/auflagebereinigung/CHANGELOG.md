@@ -2,6 +2,14 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-22 — Wissens-Chef Run 12 (Cross-KB): SIA-181-Fassungs-Vorbehalt gesetzt
+- [ergänzt] `wiki/auflagentypen-gewerkzuteilung.md`: an der SIA-181-Federführungs-Sektion einen
+  Fassungs-Vorbehalt eingefügt — die Ziff.-Referenzen (4.2/4.3/4.4, 2.2.3/2.2.4) beziehen sich auf
+  **SIA 181:2006**; in der KB `normen` ist **SIA 181:2020** als neuere Ausgabe geflaggt (Re-Destillat
+  ausstehend). Bei dessen Landung sind die Ziffern-Verweise gegenzuprüfen. Kein Kennwert-Widerspruch
+  festgestellt (auflagebereinigung zitiert nur die Ziffer-Struktur, keine dB-Werte; Rollen-Grenze zu
+  normen sauber eingehalten). Bericht: `wissen/koordination/outputs/2026-07-22_wissens-chef-run12.md`.
+
 ## 2026-07-22 — Zwei QUESTIONS-Lücken 2619-KISPI geklärt (Primärquelle gelesen, Mac Mini Nachtschicht ~20:30)
 - [geklärt] **Adressdiskrepanz Lenggstrasse/Lengstrasse.** Der Health-Check vom 21.07. hatte
   zurecht bemängelt, dass der frühere «geklärt»-Vermerk (01.07.) zwei verschiedene

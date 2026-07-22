@@ -404,9 +404,10 @@ GIS-Layer-Endpunkt weiterhin nicht kartiert ist.
 - **Bund:** WBG (Wasserbaugesetz, 1991) + WaG (Waldgesetz, 1991) verpflichten die Kantone,
   Gefahrenkarten zu erstellen und bei raumwirksamen Tätigkeiten zu berücksichtigen — konkretisiert
   den Auftrag zur Ausscheidung gefährdeter Gebiete nach **Art. 6 RPG**.
-- **Kanton ZH:** **§ 22 WWG** (Wasserwirtschaftsgesetz, 2.6.1991) verpflichtet die **Gemeinden**,
-  die Gefahrenbereiche bei planungsrechtlichen Festlegungen **und** bei baurechtlichen Verfahren
-  zu berücksichtigen. Die **Baudirektion erlässt** — nach Anhören der Gemeinden — die Pläne über
+- **Kanton ZH:** **§ 22 WWG** (Wasserwirtschaftsgesetz, 2.6.1991; ⚠ WWG per 1.6.2026 aufgehoben,
+  Nachfolge WsG/WsV — Nachfolge-§ für die Gefahrenbereiche noch zu belegen, siehe Bring-Schuld unten)
+  verpflichtet die **Gemeinden**, die Gefahrenbereiche bei planungsrechtlichen Festlegungen **und**
+  bei baurechtlichen Verfahren zu berücksichtigen. Die **Baudirektion erlässt** — nach Anhören der Gemeinden — die Pläne über
   die Gefahrenbereiche.
 - Zuständig für die Kartierung: **AWEL, Abteilung Wasserbau** (in einer ersten Phase die am
   meisten gefährdeten Gemeinden, danach Prüfung weiterer Gemeinden — Prioritätenliste von 2003

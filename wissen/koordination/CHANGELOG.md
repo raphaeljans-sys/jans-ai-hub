@@ -3,6 +3,26 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-22 — Run 12 (5 Lese-Agenten, 6 Paare/Felder; 1 Widerspruch adversarial verifiziert)
+- Gedrosselter Cross-KB-Lauf (Rule 260714): 5 parallele Lese-Agenten über das reguläre Agent-Tool
+  (Workflow-Tool headless weiter nicht nutzbar, wie Run 10/11) am frischen Stoff seit Run 11 — auflagebereinigung
+  SIA-181-Federführung (22.07.), normen DIN-ersetzt_durch (22.07.) + SIA-500-Follow-up, planungsgrundlagen Run 56,
+  firmengruendung-ch neuer Artikel `nachgruendung-anmeldungen`. Ein materieller Widerspruch (SN 640 060) → **1 adversarialer Verifier**, Verdikt **TEILWEISE**.
+- **Kern-Ergebnis: SN 640 060 Rollen-Korrektur.** baurecht führte «SN 640 060 existiert nicht / Fehlzitat»;
+  adversarial gegen das established normen-Destillat UND baurechts EIGENES Buch-Destillat (Bd. 2 S. 914-915) geprüft —
+  Norm existiert real als Grundlagennorm. baurecht auf Rollen-Korrektur (Grundlagen vs. Bedarf 640 065 vs. Geometrie 640 066)
+  + Cross-Link nachgezogen, statt Löschung. Der Verifier hat den Melder-Befund korrigiert (nicht «baurecht falsch», sondern «zu absolut»).
+- **8 autonome Aktionen in 5 KBs** (nur Links/Präzisierungen/Flags/1 Frontmatter-Feld, keine Löschung):
+  baurecht (SN-640-060-Wiki + QUESTIONS + INDEX-SIA-500-Nachzug), normen (sia-181 ersetzt_durch),
+  auflagebereinigung (SIA-181-Fassungs-Vorbehalt), planungsgrundlagen (§22-WWG-Inline-Flag + CLT-Querlink),
+  energie (private-kontrolle last_updated). Je KB CHANGELOG protokolliert; QUERBEZUEGE um 6 Einträge ergänzt.
+- **Offene Punkte (kein neuer Entscheid für Raphael):** SIA-500-Kennwert-Herkunft (baurecht-Loop); § 22 WWG
+  Gefahrenbereiche Bring-Schuld in baurecht (Dangling-Delegation von pg); GSchV-41a/41b-Doppelspur (Trim, seit Run 7/8);
+  Private-Kontrolle-Rollen-Trim energie↔pg (seit Run 11); SIA-181:2020-Re-Destillat (normen). **Cross-KB-Beobachtung:
+  Umlaut-Bug** (ASCII-Ersatz in Haiku/Sonnet-Subagenten-Outputs seit 19.07.) ist in 5 KBs bestätigt — Config-Sache,
+  nicht autonom (Whitelist-verboten), für hub-chef/Raphael vorgemerkt; hier nur registriert, keine Doppelmeldung.
+  Report: `outputs/2026-07-22_wissens-chef-run12.md`.
+
 ## 2026-07-21 — Run 11 (5 Lese-Agenten, 5 Paare; 1 Widerspruch adversarial verifiziert)
 - Gedrosselter Cross-KB-Lauf (Rule 260714): 5 parallele Lese-Agenten über das reguläre Agent-Tool
   (Workflow-Tool headless weiter nicht nutzbar) am frischen Stoff seit Run 10 — baurecht Buch-Run 50,
