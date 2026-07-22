@@ -24,6 +24,27 @@ eigener, grösserer Lauf, kein Nachtschicht-Restposten). Report: `wissen/projekt
 
 ---
 
+**Nachtschicht-Zyklus Mac Mini (~04:30) — Priorität 6: Wissens-Health-Check twin (nie zuvor auditiert).**
+Doppelarbeit-Guard geprüft (dispatch/log/ 04:30/03:30 inhaltlich gelesen, Git-Log der letzten
+20 Commits, CHANGELOGs mehrerer KBs): Prio 1 (Queues) leer, Prio 2 (Synobsis) läuft gesättigt als
+eigener launchd-Job, Prio 4 (Trainingslektionen) für alle drei Mac-Mini-KBs (energie, planungs-
+grundlagen, Normen DIN/VSS/RAL) bereits heute Nacht abgedeckt/pausiert. Bei Prio 6 fiel auf: die
+KB `twin` — trotz täglicher Facetten-/Fidelity-Läufe seit 05.06. — wurde noch **nie** mit
+`wissenscheck` auditiert (alle anderen KBs zuletzt 01.07. oder später). Audit ausgeführt (A0 · B2 ·
+C0 · D1 schwerwiegend · E0 · F2 · G1). Wichtigster Fund: von 60 in `raw/_INGESTED.md`
+registrierten Quelldateien liegen nur noch 26 (43 %) physisch auf der Platte — 33 fehlen,
+darunter `260722-mailbatch-45.md`, das HEUTE als Quelle in vier der sechs Facetten-Artikel
+zitiert wird. Die frischesten Wiki-Aktualisierungen stützen sich damit auf nicht mehr
+nachprüfbares Quellmaterial; Ursache (Absicht/Sync-Verlust/versehentliches Aufräumen) ungeklärt,
+braucht einen dedizierten Lauf (Git-Historie je Datei). Weitere Funde: durchgängige
+`ae/oe/ue`-statt-Umlaut-Verstösse in der Analyseprosa (nicht in den Zitaten) über praktisch alle
+Artikel + QUESTIONS.md, vereinzelte `ß`; 2 kaputte/inkonsistente Backlinks; `INDEX.md` zeigt
+stale `emerging` statt der tatsächlichen `established`-Status. Nur Audit, keine Aktionen (Phase 2
+bleibt interaktiv). Report: `wissen/twin/outputs/2026-07-22_health-check.md`, CHANGELOG
+aktualisiert. Kosten ca. 2.7 USD von 5 USD Budget.
+
+---
+
 **Nachtschicht-Zyklus Mac Mini (~02:30) — Priorität 5, ein Delta: Sonderfall Pfäffikon SZ Churerstrasse 100/104 (KB energie) geklärt.**
 Doppelarbeit-Guard geprüft (dispatch/log/ 02:30 sowie die 01:30-Journalzeile unten): Prio 1
 (remote-tasks/pending, sync-tasks/mac-mini) weiterhin leer; Synobsis-Batch (separater launchd-Job)

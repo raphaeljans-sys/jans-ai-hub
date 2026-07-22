@@ -5,6 +5,16 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-22 — Wissens-Health-Check (Phase 1, Skill `wissenscheck`, Mac Mini Nachtschicht).**
+  Erster Wissenscheck ueberhaupt fuer diese KB. A0 · B2 · C0 · D1(schwerwiegend) · E0 · F2 · G1.
+  Top-Fund: von 60 in `raw/_INGESTED.md` registrierten Quelldateien liegen nur noch 26 (43 %)
+  physisch in `raw/` — 33 fehlen, darunter `260722-mailbatch-45.md` (heute in vier Facetten
+  zitiert). Weiter: durchgaengige `ae/oe/ue`-statt-Umlaut-Verstoesse in der Analyseprosa (nicht
+  in den Zitaten) ueber praktisch alle sechs Artikel + QUESTIONS.md; vereinzelte `ß`; 2 kaputte/
+  inkonsistente Backlinks (QUESTIONS→raw-Datei, arbeitsweise.md-Selbstlink); `INDEX.md` zeigt
+  stale `emerging` statt `established`. Nur Audit, keine Aktionen (Root-Cause der fehlenden
+  raw-Dateien braucht dedizierten Lauf). Report: `outputs/2026-07-22_health-check.md`.
+
 - **2026-07-22 — `twin-mail-training` Batch 45 (Sent Items rj@, 2026-05-14…05-19).** Sequenzielle
   Fortsetzung nach mailbatch-44; 20 Mails gesichtet, 5 Volltexte destilliert (alle authentisch/handgetippt,
   keine Echo-Falle), KISPI-Umnutzung Therapiestation 2619 Submissions-/Brandschutz-Phase. Metrik 413 W,
