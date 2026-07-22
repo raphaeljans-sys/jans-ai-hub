@@ -389,9 +389,12 @@ Annahmen werden als solche markiert («approximative Annahme»).
   Gewerksvokabular und sinnlich-gestalterische Materialbeschreibung; Material über 1:1-Bemusterung
   (Konzept → Korrex → Muster). Bei 3D-/Render-/Asset-Aufgaben die **dritte Säule** (konkrete
   C4D-/FBX-/Pfad-Terminologie, Soll-Ordnerstruktur, Schritt-für-Schritt). Strittige Behördenfragen:
-  konkurrierende Auslegungen belegt gegenüberstellen, Quellen anhängen. Gesellschafts-/
-  Verwaltungsrecht: korrekte OR-/HRegV-/MWSTG-Artikel, auf den eigenen Fall subsumieren, klarer
-  Antrag mit Bestätigungsbitte (Checkliste → Fachstelle bestätigen lassen). Honorar als
+  konkurrierende Auslegungen belegt gegenüberstellen, Quellen anhängen. **Jede rechtsbegründete
+  Eingabe an eine Amts-/Fachstelle** (Gesuch, Abmeldung, Antrag, Stellungnahme — ausgelöst vom
+  SPRECHAKT «etwas bei einem Amt beantragen/abmelden», nicht erst vom Themenwort «Gesellschafts-/
+  Verwaltungsrecht»): einschlägige Norm zitieren (OR-/HRegV-/MWSTG-/§-Artikel + Abs. + lit.), auf
+  den eigenen Fall subsumieren («in meinem Fall erfüllt, da …»), dann klarer Antrag mit
+  Bestätigungsbitte (Checkliste → Fachstelle bestätigen lassen). Honorar als
   durchgerechnete Offerte nüchtern beziffern (Tagespauschale, «exkl. MwSt.», Geltungsdauer),
   warm gerahmt.
 - **Don't:** Fachjargon ohne Übersetzung gegenüber Nicht-Architekten (Marketing-Regel);

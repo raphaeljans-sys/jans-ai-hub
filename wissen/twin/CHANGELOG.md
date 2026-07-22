@@ -5,6 +5,17 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-22 — `twin-fidelity-review` (Selbsttest, Gesamt-Fidelity 87).** Drei authentische Vor-Claude-
+  Goldproben 25.09.–03.10.2025 in drei Registern gezogen (Labinot/38grad operative-Kostenauskunft-Sub-Du;
+  Fabio-Don-Druckerkosten-Rechnung-Sie; ESTV Gesuch-Behörde-Sie), Twin-Fassungen blind aus den Facetten-Wikis
+  erzeugt und gescort. Score je Facette: Beziehungsregister 93 · Stimme 88 · Arbeitsweise 88 · Haltung 88 ·
+  Denken 82 · Fachsignatur 74. Befund: alle drei Golds bereits destilliert, dennoch verfehlte der Twin zwei
+  belegte Marker (MWSTG-Artikel+Subsumtion im Gesuch; «Danke und Gruss»-Signoff) — zwei **Retrieval-Lücken**,
+  weil die Marker am Themenwort statt am Sprechakt hingen (2. Beleg Struktur-Schwäche 260719). Massnahmen:
+  fachsignatur.md-Do-Block auf den SPRECHAKT «rechtsbegründete Eingabe an eine Amtsstelle» umgeschlüsselt;
+  stimme.md-Do-Block um «Danke und Gruss» (operative Kurzform) ergänzt; Gehirn `rules/jans-dna.md` neu
+  kompiliert (beide Schärfungen verifiziert im Auto-Block); 4 neue Selbstfragen (Runde 260722) in QUESTIONS.md.
+  Report: `outputs/2026-07-22_fidelity.md`.
 - **2026-07-22 — Wissens-Health-Check (Phase 1, Skill `wissenscheck`, Mac Mini Nachtschicht).**
   Erster Wissenscheck ueberhaupt fuer diese KB. A0 · B2 · C0 · D1(schwerwiegend) · E0 · F2 · G1.
   Top-Fund: von 60 in `raw/_INGESTED.md` registrierten Quelldateien liegen nur noch 26 (43 %)

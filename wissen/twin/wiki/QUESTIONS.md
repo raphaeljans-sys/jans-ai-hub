@@ -3,6 +3,45 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260722 (twin-fragesteller, aus Fidelity-Review 2026-07-22)
+
+Quelle: Drift-Report `outputs/2026-07-22_fidelity.md` (Gesamt-Fidelity 87; drei authentische Vor-Claude-
+Goldproben 25.09.–03.10.2025 in drei Registern — Labinot/38grad operative-Kostenauskunft-Sub-Du, Fabio-Don-
+Druckerkosten-Rechnung-Sie, ESTV Gesuch-Behörde-Sie). Besonderheit: alle drei Golds sind bereits im Korpus
+destilliert — der Lauf hat KEINE neuen Marker gefunden, sondern zwei **Retrieval-Lücken** freigelegt: die
+Twin-Fassung hat zwei belegte Marker («Danke und Gruss»-Signoff; MWSTG-Artikel + Subsumtion im Gesuch) NICHT
+gefeuert, weil sie an einem Themenwort statt am Sprechakt hingen (bekannte Struktur-Schwäche 260719). Beide
+Do-Blöcke wurden auf den Sprechakt umgeschlüsselt. Die Fragen zielen auf die verbliebenen Schwellen. Je in
+1–2 Sätzen beantwortbar.
+
+1. **Norm-Zitat im Amts-Gesuch — Pflicht bei JEDER Eingabe oder nur bei begründungsbedürftiger?** In der
+   ESTV-Abmeldung zitierst Du Art. 10 Abs. 2 lit. a MWSTG und subsumierst («in meinem Fall erfüllt, da …»).
+   Ziehst Du diese Norm→Subsumtion→Antrag-Kette bei JEDER rechtsbegründeten Eingabe an ein Amt durch (auch
+   bei einer simplen Zustellung/Kenntnisnahme), oder nur, wenn der Antrag eine Voraussetzung/Schwelle
+   nachweisen muss (Umsatzgrenze, Frist, Anspruch)? *Warum: entscheidet, ob der Zwilling die Rechtsgrundlage
+   in jeder Amtsmail einwebt oder nur bei nachweispflichtigen Begehren — der Twin hat sie 260722 ganz
+   weggelassen.* → [[fachsignatur]], [[denken]]
+
+2. **«Danke und Gruss» vs «Lieber Gruss»/«Lgr» — welcher operative Signoff wann?** In der Labinot-Kostenmail
+   schliesst Du mit «Danke und Gruss» (Antwort/Lieferung einer erbetenen Auskunft), während das reine
+   Plan-Transmittal an Weisser «Lieber Gruss» trägt. Wählst Du «Danke und Gruss» gezielt, wenn die Mail eine
+   erfragte Auskunft/Zahl LIEFERT (implizierter Dank fürs Fragen), und «Lieber Gruss»/«Lgr» beim reinen
+   Weiterreichen? *Warum: der Twin kennt beide Formen, hat aber 260722 die falsche gewählt — eine
+   Anlass-Kopplung macht die Wahl operationalisierbar.* → [[stimme]]
+
+3. **Zahl flach behaupten statt banden — bewusst im Sub-/Peer-Du?** An Labinot schreibst Du die
+   Erstellungskosten blank «Du kannst von … 2.MIO ausgehen» ohne Hedge («rund/ca./+-»), während Du bei
+   Bauherren/Investoren dieselbe Grösse oft als Band führst (+/-25 %). Setzt Du im operativen Sub-/
+   Kollegen-Du die Zahl bewusst flach (Du besitzt sie, er soll damit rechnen), oder war das Tempo? *Warum:
+   der Twin hat reflexartig «rund» ergänzt — klärt, wann die Banden-DNA aussetzt.* → [[stimme]], [[denken]]
+
+4. **«Sehr geehrter» statt «Geschätzter» beim rein transaktionalen Lieferanten — Default?** Deine
+   Druckerkosten-Rechnung an Fabio Don trägt «Sehr geehrter Herr Don» + Service-Satz + FG, nicht das wärmere
+   «Geschätzter». Ist «Sehr geehrter» Dein Default für einen rein abrechnungs-transaktionalen Lieferanten-
+   Kontakt (Weiterverrechnung, Belegzustellung), und «Geschätzter» bleibt den Partnern vorbehalten, mit
+   denen Du aktiv zusammen-ARBEITEST? *Warum: präzisiert die Warming-Schwelle für Lieferanten — der Twin traf
+   «Sehr geehrter» richtig, die Regel dahinter ist aber unbelegt.* → [[beziehungsregister]]
+
 ## Offen — Runde 260721 (twin-fragesteller, aus Fidelity-Review 2026-07-21)
 
 Quelle: Drift-Report `outputs/2026-07-21_fidelity.md` (Gesamt-Fidelity 91; drei authentische

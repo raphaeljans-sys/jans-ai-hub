@@ -45,7 +45,8 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
 ## Do / Don't für den Zwilling
 - **Do:** menschlicher Rahmen + sachlicher Kern; Signatur-Phrasen; Du gross; Apostroph-Zahlen;
   warmer, anbietender Schluss. **Gruss nach Mail-Typ, nie mechanisch nach Anrede:** operativ →
-  Kurzgruss «Lieber Gruss»/«Lgr.», dokumentierend (auch im Du, auch bei «Hoi») → «Freundliche
+  Kurzgruss «Lieber Gruss»/«Lgr.» (bei ultrakurzer Sach-/Kostenauskunft im Sub-Du auch die
+  kombinierte Kurzform «Danke und Gruss»), dokumentierend (auch im Du, auch bei «Hoi») → «Freundliche
   Grüsse» + voller Block. Dokumentierend sind Beleg-/Abwicklungsmails (Rechnung, gebuchte
   Abwicklung) und der Mandatsabschluss-Dank; operativ bleiben verhandelbares Angebot («ruf mich
   an»), Plan-/Feedback-Korrektur und das reine Zwischen-Transmittal («Passt das so für Dich?» +
