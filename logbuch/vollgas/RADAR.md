@@ -21,6 +21,30 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-23 00:48 — [GEDROSSELT] Nachtfenster: Wissens-Chef arbeitet, alle KBs auf Stand
+
+**Fensterzustand:** Keine Login-Probe noetig, Betriebsbeleg eindeutig (Methode 22.07. weitergefuehrt):
+in der Nacht laeuft aktiver KB-Betrieb (`7450fdb4` wissens-chef Run 12 um 23:41), das belegt einen
+tragenden Token-Pfad besser als jede `claude -p`-Probe. Kein «Not logged in», kein Usage-/Rate-Limit.
+Kein Blocker, keine Mail.
+
+**Durchsatz:** 6 Commits/90 Min. Darunter eine echte inhaltliche Nachtarbeit: `7450fdb4`
+wissens-chef Run 12 (Cross-KB-Konsistenz, SN-640-060-Rollenkorrektur + 7 Flags/Links in 5 KBs),
+Rest der 15-Min-`nas-selfcommit`-Takt. Alle acht beobachteten KB-CHANGELOGs (normen, baurecht, twin,
+immobilienbewertung, wettbewerbs-dna, spec, energie, planungsgrundlagen) stehen auf 22.07. — kein
+stockender Loop, regelkonform im Nachtfenster (22:00–06:00). Dispatch-Runs liefen tagsueber
+stuendlich bis 21:30, danach naechtliche Ruhe (erwartbar, kein Ausfall).
+
+**Runner/STOP:** unveraendert. `STOP` + `STOP-Macmini` vom 14.07. 12:53 stehen (Drossel-Regime,
+Wiederanlauf nur auf ausdrueckliche Anweisung Raphaels). Kein loeschbarer Grund — nicht angetastet.
+
+**Vorschlaege:**
+- P1: keiner.
+- P2: Drossel-Entscheid Raphaels weiterhin offen (naechster Wochen-Reset Mo 11:59). Status quo halten.
+- P3: keiner. Betriebsbeleg-Messung (KB-CHANGELOGs + juengster Nicht-selfcommit) traegt zuverlaessig.
+
+---
+
 ## 2026-07-22 18:48 — [GEDROSSELT] Abendfenster ruhig, Token-Pfad belegt, sogar Tag-KB-Arbeit
 
 **Fensterzustand:** Keine Login-Probe noetig, weil der Betriebsbeleg eindeutig ist (P3-Empfehlung
