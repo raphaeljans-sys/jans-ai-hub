@@ -4,6 +4,16 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-07-22 — Batch-Lauf (leer, 10. Mal in Folge) + Vektorindex neu (Mac Mini Nachtschicht)
+Batch 25, 02:18–02:19. Stufe 1 ohne neuen Stoff (853/853, offen 0, Stand unveraendert
+2026-07-02). Stufe 2 hat `catalog/vectors.npz` deterministisch neu gebaut (853 × 768,
+`intfloat/multilingual-e5-base`); Semantiksuche per Stichprobe intakt (Boehm/Zumthor auf
+"introvertierter Hof Beton Kapelle"). Quelle gegengeprueft: juengste Ordner-Aenderung `HdM`
+2026-04-07, kein neues Rohmaterial. Diff nur Zeitstempel (`INDEX.md`, `cad-index.json`).
+Zehnter ergebnisloser Nachtlauf in Folge — Empfehlung zum 10. Mal: Task
+`synobsis-batch-nacht` pausieren/loeschen (Endbedingung erreicht). Protokoll:
+`outputs/2026-07-22_batch-lauf.md`.
+
 ## 2026-07-21 — Root-Cause zum Umlaut-Befund gefunden + Infra-Fix (Mac Mini Nachtschicht)
 Die drei heutigen Wissenscheck-Audits (energie, planungsgrundlagen, architekten-synobsis)
 fanden alle dasselbe Muster: flaechendeckende ae/oe/ue-Ersatzschreibungen statt echter
