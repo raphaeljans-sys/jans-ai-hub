@@ -2,6 +2,19 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-22 — Training-Run 40: Delta-Null-Bestaetigungslauf (kein neuer Befund)
+
+- **Kein neuer Ingest, keine Artikelaenderung.** KB unveraendert saturiert; kein neuer
+  JANS-Bewertungsfall (Bewertungsordner direkt gelistet, juengster weiterhin Wangen 8855),
+  keine auto-schliessbare Aufgabe offen. Marktpuls bewusst nicht geprueft (Drossel-Rule 260714,
+  naechster Wert 01.09.2026), kein Verifier-Wiederholungslauf. 10 Themen zu erfinden waere ein
+  Leitplanken-Verstoss — sechster Delta-Null-Lauf in Folge (Runs 34/35/37/38/39/40).
+- **Kein Eskalations-Delta:** beide offenen Pendenzen — Loop-Ruecktaktung (Fristen-Register
+  19.07.) und Oberrieden-Hoehenkorrektur (Fristen-Register 17.07.) — stehen bereits sichtbar in
+  `logbuch/fristen.md`; nicht erneut geflaggt.
+- Register gepflegt: `training/curriculum.md`, `wiki/wissensluecken.md`, `raw/_INGESTED.md`.
+  Report: `outputs/2026-07-22_training-run40.md`.
+
 ## 2026-07-21 — Wissens-Chef Run 11 (Cross-KB): führende Wuest-Median-Quelle in realwert verlinkt
 - Cross-KB-Lauf Kennwert-Dreieck grobkosten ↔ immobilienbewertung ↔ kostenschaetzung/referenzen (Run 11).
   **0 Zahlen-Widerspruch** — alle deckungsgleichen Kennwerte (4'360/Quantile 3'460-7'250, 4'800, 2'840/2'330,
