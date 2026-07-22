@@ -1,5 +1,17 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
+- [x] **ersetzt/ersetzt_durch-Lücke (Mac Mini Nachtschicht, 2026-07-22, DIN-Teilmenge):** aus dem
+  Audit-F-Befund vom 21.07. ("Feld ersetzt/ersetzt_durch fehlt in 127 Destillaten") die DIN/VSS/
+  RAL-Teilmenge (Mac-Mini-Scope) geprüft: von 67 DIN/VSS/RAL-Destillaten hatten nur 3 das Feld
+  komplett unbelegt — `din-1356-6-2006` (kein Nachfolger, Status [CURRENT] gemäss DIN Media),
+  `din-276-4-2009` (zurückgezogen, ersetzt durch DIN 276:2018-12) und `din-4102-2-1977`
+  (formal weiterhin [CURRENT], Prüfverfahren aber teilweise durch DIN EN 1363-1/1364-1-2/
+  1365-1-4:1999-2000 abgelöst). Alle drei mit Quellenbeleg (DIN Media, dinmedia.de, abgerufen
+  22.07.2026) nachgetragen; als Bonus dieselbe Lücke im verlinkten `din-276-1-2008` (fehlte dort
+  nur `ersetzt_durch`, `ersetzt` war schon belegt) geschlossen. **Restumfang (~123 Destillate,
+  weit überwiegend SIA/VKF) bleibt offen — MacBook-Pro-Scope** (Rule auto-verbesserungen 260714,
+  Arbeitsteilung). Report: `outputs/2026-07-22_din-ersetzt-durch-luecke.md`.
+
 - [x] **ERLEDIGT Run 15 (2026-07-17): Die 30 Ergaenzungskandidaten aus Run 14 sind eingearbeitet.**
   29 gemeldete Luecken am Original verifiziert und in die Destillate eingebaut (SIA 103: 10,
   SIA 105: 7, SIA 118: 2, SIA 112: 2, SIA 451: 4, VKF BRL 16-15: 4). Verdikt: 28x `belegt`,

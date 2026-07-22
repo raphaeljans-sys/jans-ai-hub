@@ -7,6 +7,19 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-22
 
+**Nachtschicht-Zyklus Mac Mini (~19:30) — Priorität 5: ersetzt/ersetzt_durch-Lücke (DIN-Teilmenge) geschlossen.**
+Doppelarbeit-Guard geprüft (dispatch/log/ 19:30/18:30 inhaltlich gelesen, Queues leer,
+Synobsis stabil, Fristen-Radar heute bereits mehrfach abgedeckt). Aus dem Audit-F-Fund vom
+21.07. (127 Destillate der KB `normen` ohne Nachfolge-Feld) die Mac-Mini-exklusive DIN/VSS/
+RAL-Teilmenge bearbeitet: 3 von 67 Destillaten ohne `ersetzt`/`ersetzt_durch` gefunden
+(din-1356-6-2006, din-276-4-2009, din-4102-2-1977), via DIN Media (dinmedia.de) belegt
+nachgetragen — din-276-4-2009 zurückgezogen/ersetzt durch DIN 276:2018-12, din-4102-2-1977
+formal weiterhin gültig (Prüfverfahren teilweise durch DIN-EN-13xx-Reihe abgelöst),
+din-1356-6-2006 ohne Nachfolger. Bonus-Konsistenzfix im verlinkten din-276-1-2008. Restumfang
+(~123 Destillate, SIA/VKF) bleibt MacBook-Pro-Scope. Abgelegt: `wissen/normen/outputs/
+2026-07-22_din-ersetzt-durch-luecke.md`, QUESTIONS.md/CHANGELOG nachgeführt. Kosten ca. 4.1
+von 5 USD Budget.
+
 **Nachtschicht-Zyklus Mac Mini (~19:00) — Umlaut-Bug-Hypothese aus dem 08:30-Lauf dediziert verifiziert: CONFIRMED, betrifft alle 5 Trainings-KBs.**
 Doppelarbeit-Guard geprüft (dispatch/log/ 18:30 inhaltlich gelesen, Queues leer, Synobsis
 Stufe 2 läuft stabil automatisiert weiter). Aufgegriffen: die im ~08:30-Lauf ausdrücklich als

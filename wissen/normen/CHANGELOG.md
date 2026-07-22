@@ -1,3 +1,14 @@
+## 2026-07-22 — ersetzt/ersetzt_durch-Lücke: DIN-Teilmenge geschlossen (Mac Mini Nachtschicht ~19:30)
+- [ergänzt] Aus dem Audit-F-Fund vom 21.07. (127 Destillate ohne `ersetzt`/`ersetzt_durch`)
+  die DIN/VSS/RAL-Teilmenge (Mac-Mini-Scope) bearbeitet: 67 Destillate gescannt, 3 ohne Feld
+  gefunden (`din-1356-6-2006`, `din-276-4-2009`, `din-4102-2-1977`) und mit belegtem
+  DIN-Media-Quellenstand ergänzt — `din-276-4-2009` ist zurückgezogen (ersetzt durch
+  DIN 276:2018-12), `din-4102-2-1977` formal weiterhin [CURRENT] (Prüfverfahren teilweise
+  durch DIN EN 1363-1/1364-1-2/1365-1-4 abgelöst), `din-1356-6-2006` kein Nachfolger. Als
+  Konsistenz-Bonus dieselbe Lücke im verlinkten `din-276-1-2008` geschlossen. Restumfang
+  (~123 Destillate, SIA/VKF) bleibt MacBook-Pro-Scope. `wiki/QUESTIONS.md` nachgeführt.
+  Report: `outputs/2026-07-22_din-ersetzt-durch-luecke.md`.
+
 ## 2026-07-22 — Umlaut-Bug (ASCII-Ersatzschreibung in Haiku/Sonnet-Subagenten-Outputs) bestätigt betroffen
 Cross-KB-Verifikation (Nachtschicht Mac Mini ~19:00, ausgehend von der KB baurecht): die
 "Minimum Viable Model"-Subagenten-Delegation seit 19.07. gibt die Umlaut-Regel nicht an
