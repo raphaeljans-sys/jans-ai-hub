@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 22.07.2026 03:20:29
+Stand: 22.07.2026 03:40:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 03:35)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 22.07.2026 03:20:29
 - 3 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 1c0f769c nas-selfcommit: 2 Datei(en) 2026-07-22 03:15
+- f8e83da5 Nachtschicht Mac Mini 22.07. ~03:30: Wissens-Health-Check projekt-lessons (Delta-Null, Bootstrap-Empfehlung im Register)
