@@ -7,6 +7,23 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-22
 
+**Nachtschicht-Zyklus Mac Mini (~03:30) — Priorität 6: Wissens-Health-Check projekt-lessons (älteste Audit-Datum).**
+Doppelarbeit-Guard geprüft (dispatch/log/ 03:30 sowie die 02:30/01:30-Journalzeilen unten,
+inhaltlich gelesen): Prio 1 leer, Prio 2 (Synobsis) läuft als eigener launchd-Job gesättigt,
+Prio 3/4 (Fristen-Radar, Trainingslektionen) für energie/planungsgrundlagen/normen-DIN-VSS-RAL
+bereits heute (Run 56 planungsgrundlagen, Sonderfall-Klärung energie 02:30, DIN/VSS/RAL seit
+Mini-Run 29/32 vollständig gesättigt) abgedeckt. Deshalb Priorität 6: `wissenscheck` Phase 1 auf
+der KB mit dem ältesten Audit (`projekt-lessons`, zuletzt 01.07.2026) ausgeführt. Befund:
+Delta-Null — KB weiterhin strukturell leer (0 Wiki-Artikel, `raw/` leer, kein neues Material seit
+Anlage 02.06.2026), kerngesund. Neu gegenüber dem letzten Check: konkrete Bootstrap-Quellenhinweise
+(reale, bereits im Hub dokumentierte Fälle wie KISPI Los 273.35 Roethlisberger-Preischeck,
+SBB-Näherbaurecht Thalwil 2414) im Report festgehalten, statt den allgemeinen Befund ein drittes
+Mal folgenlos zu wiederholen — als Pendenz unten im Fristen-Register vermerkt (Bootstrap ist ein
+eigener, grösserer Lauf, kein Nachtschicht-Restposten). Report: `wissen/projekt-lessons/outputs/
+2026-07-22_health-check.md`, CHANGELOG aktualisiert. Kosten ca. 2.2 USD von 5 USD Budget.
+
+---
+
 **Nachtschicht-Zyklus Mac Mini (~02:30) — Priorität 5, ein Delta: Sonderfall Pfäffikon SZ Churerstrasse 100/104 (KB energie) geklärt.**
 Doppelarbeit-Guard geprüft (dispatch/log/ 02:30 sowie die 01:30-Journalzeile unten): Prio 1
 (remote-tasks/pending, sync-tasks/mac-mini) weiterhin leer; Synobsis-Batch (separater launchd-Job)
