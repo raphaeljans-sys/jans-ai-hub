@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 22.07.2026 02:40:19
+Stand: 22.07.2026 03:10:26
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 02:35)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 22.07.2026 02:40:19
 - 3 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 0e6b58d1 Nachtschicht Mac Mini 22.07. ~02:30: Sonderfall Pfaeffikon SZ Churerstrasse 100/104 (Fernwaerme-KB energie) geklaert
+- 14a3df1e immobewertung-training Run 40: Delta-Null-Bestaetigungslauf (2026-07-22)
