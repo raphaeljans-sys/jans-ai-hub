@@ -1,5 +1,28 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-22 — Trainingslauf 25
+- Output `outputs/2026-07-22_training-run25.md`. **Verifikationslauf** — keine neue reale Spec seit
+  Lauf 24 (SYN-02). Legitimer Beitrag: Reue-Pruefung mit substanziellem Fund.
+- **P1 (mail@-Blindstelle) gelandet — am Artefakt verifiziert:** `ag-gruendung-monitor/SKILL.md` traegt
+  jetzt mtime **21.07.2026 07:49** (zuvor vier Laeufe lang 21.06.2026 14:49); Schritt 1 nennt mail@ jetzt
+  «**IMMER via Apple Mail … PRIMAERKANAL**; niemals allein M365 fuer mail@ vertrauen», Begruendung
+  «Blind-Fleck, bestaetigt 19.07.2026». Der blinde Fleck ist geschlossen; die Falsch-Signal-Familie ist
+  an ihrem Ende **positiv aufgeloest**. Jede Diagnose (Lauf 22 «behoben», Lauf 23/24 «nicht gelandet»,
+  Lauf 25 «gelandet») war zu ihrem Pruefzeitpunkt korrekt, weil die Abnahme immer am mtime/Wortlaut
+  erfolgte, nie am Meldetext.
+- **Zwei Praezisierungen:** (a) Timing — Lauf 24 (~04:21) meldete korrekt «nicht gelandet», der Fix kam
+  ~3.5 h spaeter (07:49); ein «nicht gelandet» hat wie eine «haelt-an»-Diagnose ein Ablaufdatum
+  (Lauf-14-Lehre in Gegenrichtung). (b) Kausalitaet bewusst offen — dass das Flag nach der Eskalation
+  konsumiert wurde, belegt nicht, dass die spec-KB-Eskalation es ausloeste (Disziplin Lauf 10/12/21);
+  registriert wird die Landung als Faktum.
+- **Umgesetzt:** `wiki/verifier.md` (Aufloesungs-Absatz an der Lauf-23-Sektion, `last_updated` → 07-22);
+  `wiki/QUESTIONS.md` F2 (Aufloesungs-Datenpunkt 22.07.).
+- **Bewusst nicht getan:** kein erfundenes Refinement ohne Beleg (waere Gate-Ueberdehnung nach innen);
+  keine Kausal-Behauptung KB→Fix; Gate-Rule unveraendert (kein Ueberdehnungs-Beleg); kein Mailversand.
+- Offen: SYN-02-MVP-Bau Block 1 (`typologie_zu_variante.py` noch nicht gebaut); F1-Ueberdehnungs-Gegentest
+  unbelegt; F3 Marketing/Text letzte offene Domaenenzeile; Sweep «behoben, aber nicht behoben» bei anderen
+  Hub-Monitoren (jetzt spruchreif, `logbuch`/`heartbeat`-Mandat).
+
 ## 2026-07-21 — Trainingslauf 24
 - Output `outputs/2026-07-21_training-run24.md`. **Auswertungslauf** — neue reale Spec seit Lauf 23:
   SYN-02 (bestaetigt 20.07., achte Anwendung), erster Fall mit real gefuehrtem Interview aus einer

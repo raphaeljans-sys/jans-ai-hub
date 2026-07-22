@@ -1,7 +1,7 @@
 ---
 title: Layer 2 — The Verifier (Verifikations-Hebel)
 status: established
-last_updated: 2026-07-21
+last_updated: 2026-07-22
 sources: [260616_marchese_the-spec_karpathy-method_transkript.md, bcherny_x_2007179861115511237]
 links: [[the-spec]], [[3-schritte-spec]], [[environment-jans-hub]], [[anwendung-jans]]
 ---
@@ -300,3 +300,27 @@ gerichtete P1-Notiz — sie remediert nichts, solange der Adressat sie nicht kon
 der Disziplin hier: die Abnahme am Artefakt (mtime/Diff) statt am Meldetext hat verhindert, dass Lauf 24
 den Faden faelschlich als «eskaliert, also erledigt» abhakt. Weiter `logbuch`-Betrieb (ausserhalb Mandat)
 → erneut geflaggt, nicht autonom geaendert.
+
+**Aufloesung (Lauf 25, 22.07.2026): der Fix ist gelandet — am Artefakt verifiziert.** Gegenpruefung an
+derselben Primaerquelle: `ag-gruendung-monitor/SKILL.md` traegt jetzt mtime **21.07.2026 07:49** (zuvor
+ueber vier Laeufe unveraendert 21.06.2026 14:49). Der neue Wortlaut kehrt die Kanal-Prioritaet exakt so
+um, wie ueber die Laeufe 22–24 eskaliert: Schritt 1 nennt jetzt «mail@raphaeljans.ch: **IMMER via Apple
+Mail** … das ist der **PRIMAERKANAL** fuer diesen Strang. Niemals allein M365 fuer mail@ vertrauen», mit
+der explizit dokumentierten Begruendung «Blind-Fleck, bestaetigt 19.07.2026» (silent-empty ohne
+Delegate-Zugriff). M365 ist fuer mail@ vom Primaer- zum ausgeschlossenen Kanal geworden — der blinde
+Fleck ist geschlossen. Damit ist die ganze Falsch-Signal-Familie an ihrem Ende **positiv aufgeloest**:
+die als «behoben» gemeldete Reparatur (Lauf 22) war zunaechst falsch (Laeufe 23/24: nicht gelandet), ist
+nun aber real eingetreten — und beide Diagnosen waren zu ihrem jeweiligen Pruefzeitpunkt korrekt, weil
+die Abnahme jedes Mal am mtime/Wortlaut erfolgte, nie am Meldetext.
+
+Zwei Praezisierungen fallen dabei ab:
+- **Timing (Anwendung der Lauf-14-Lehre in Gegenrichtung):** Lauf 24 lief ~04:21 und meldete korrekt
+  «nicht gelandet» (mtime noch 21.06); der Fix landete **~3.5 h spaeter am selben Tag** (21.07. 07:49).
+  Wie eine «haelt-an»-Diagnose ein Ablaufdatum hat, hat auch ein «nicht gelandet» eines — beide gelten
+  nur fuer den Pruefzeitpunkt. Ein «nicht gelandet» ist kein «wird nie landen».
+- **Kausalitaet bewusst offen (Disziplin Lauf 10/12/21):** dass das Flag **nach** der Eskalation
+  konsumiert wurde, belegt **nicht**, dass die spec-KB-Eskalation es ausloeste. Die geaenderte SKILL.md
+  zitiert die 19.07.-Diagnose, die zugleich in `logbuch`/`fristen.md` und hier stand; wer den Fix
+  tatsaechlich anstiess (Raphael direkt, das logbuch-Flag oder diese Notiz), steht in keinem Artefakt.
+  Registriert wird die **Landung als Faktum**, nicht eine Wirkungskette. Der Faden wird hiermit
+  **geschlossen** — solange die neue Kanal-Regel im Artefakt steht, ist keine weitere Reue-Pruefung noetig.

@@ -203,6 +203,17 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     (hier: Raphael) sie konsumiert. Bleibt `logbuch`-Betrieb ausserhalb KB-Mandat — erneut geflaggt, nicht
     autonom geaendert; die Reue-Pruefungs-Disziplin (Abnahme am Artefakt, nicht am Meldetext) hat den
     Schein-Abschluss verhindert.
+  - Aufloesung 22.07. (Lauf 25, Verifikationslauf): der ueber die Laeufe 22–24 verfolgte P1 (mail@-
+    Blindstelle des `ag-gruendung-monitor`) ist **gelandet** — am Artefakt verifiziert. `SKILL.md` traegt
+    jetzt mtime **21.07.2026 07:49** (zuvor vier Laeufe lang 21.06.2026 14:49); Schritt 1 nennt mail@ jetzt
+    «**IMMER via Apple Mail … PRIMAERKANAL**; niemals allein M365 fuer mail@ vertrauen», mit Begruendung
+    «Blind-Fleck, bestaetigt 19.07.2026». Der blinde Fleck ist geschlossen, der Faden geschlossen. Zwei
+    Nebenbefunde: (a) **Timing** — Lauf 24 (~04:21) meldete korrekt «nicht gelandet», der Fix kam ~3.5 h
+    spaeter am selben Tag (07:49); ein «nicht gelandet» hat wie eine «haelt-an»-Diagnose ein Ablaufdatum
+    (Lauf-14-Lehre in Gegenrichtung). (b) **Kausalitaet offen** — dass das Flag nach der Eskalation
+    konsumiert wurde, belegt nicht, dass die spec-KB-Eskalation es ausloeste (Disziplin Lauf 10/12/21:
+    ein Artefakt ist keine Quelle fuer seine eigene Herkunft); registriert wird die Landung als Faktum.
+    → [[verifier]] «Aufloesung (Lauf 25)».
 - F3: Welcher zweite Kritiker ist je Domaene der beste Verifier (korrektur vs. twin vs.
   /code-review vs. Connector)? Zuordnungstabelle aufbauen.
   - Erster Eintrag (Recht/Behoerde, belegt AG-Gruendung): die **autoritative Instanz**
