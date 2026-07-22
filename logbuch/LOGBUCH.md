@@ -7,6 +7,21 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-22
 
+**Nachtschicht-Zyklus Mac Mini (~20:30) — Priorität 5: zwei QUESTIONS-Lücken 2619-KISPI in der KB `auflagebereinigung` echt geklärt (Primärquelle statt Sekundär-Zitat).**
+Doppelarbeit-Guard geprüft (dispatch/log/ 19:30/18:30 inhaltlich gelesen; Queues leer;
+Synobsis stabil; Fristen-Radar heute bereits mehrfach vom Hub-Chef-Lauf abgedeckt, kein
+neuer Beitrag nötig). Aus dem eigenen Health-Check-Fund vom 21.07. aufgegriffen: der Punkt
+«Adressdiskrepanz Lenggstrasse/Lengstrasse» war am 01.07. fälschlich als geklärt archiviert
+worden (Verwechslung mit einer anderen Adressfrage, «ETC»-Tippfehler), der 21.07.-Check hatte
+das korrekt bemängelt und den Punkt zurück auf «echt offen» gesetzt. Diesmal das Dispositiv
+selbst gelesen statt zu zitieren: Bauentscheid 1171/26 vom 8. Juni 2026 (B26-00705.01, Stadt
+Zürich Amt für Baubewilligungen) — Titel und Bauherrschaftsadresse lauten beide «Lenggstrasse
+30» (Doppel-g), deckungsgleich mit der GRUNER-Adressliste; vereinzelte Dateinamen mit Einzel-g
+sind blosse Benennungsvarianten. Als Nebenbefund die zweite offene Frage «Vorabzug vs.
+rechtskräftig» mitgeklärt (bereits durch Diff-Output 13.06. faktisch beantwortet, jetzt formal
+archiviert). QUESTIONS.md/CHANGELOG der KB `auflagebereinigung` nachgeführt. Kosten ca. 2.3
+von 5 USD Budget.
+
 **Nachtschicht-Zyklus Mac Mini (~19:30) — Priorität 5: ersetzt/ersetzt_durch-Lücke (DIN-Teilmenge) geschlossen.**
 Doppelarbeit-Guard geprüft (dispatch/log/ 19:30/18:30 inhaltlich gelesen, Queues leer,
 Synobsis stabil, Fristen-Radar heute bereits mehrfach abgedeckt). Aus dem Audit-F-Fund vom

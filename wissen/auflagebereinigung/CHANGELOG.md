@@ -2,6 +2,19 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-22 — Zwei QUESTIONS-Lücken 2619-KISPI geklärt (Primärquelle gelesen, Mac Mini Nachtschicht ~20:30)
+- [geklärt] **Adressdiskrepanz Lenggstrasse/Lengstrasse.** Der Health-Check vom 21.07. hatte
+  zurecht bemängelt, dass der frühere «geklärt»-Vermerk (01.07.) zwei verschiedene
+  Adressthemen verwechselt hatte. Jetzt das Dispositiv selbst gelesen (Bauentscheid 1171/26
+  vom 8. Juni 2026, Geschäfts-Nr. B26-00705.01): Titel und Bauherrschaftsadresse lauten
+  beide «Lenggstrasse 30» (Doppel-g), deckungsgleich mit der GRUNER-Adressliste. Vereinzelte
+  Dateinamen mit Einzel-g sind Benennungsvarianten, nicht der Dispositiv-Wortlaut.
+- [geklärt] **Vorabzug vs. rechtskräftiger Entscheid.** Der definitive BE 1171/26 liegt seit
+  13.06. vor; der dort dokumentierte Diff bestätigt keine materiellen Änderungen gegenüber
+  dem Vorabzug. Fall ist damit nicht mehr «nur Vorabzug».
+- Beide Punkte von QUESTIONS.md «Offen» nach «Geklärt (archiviert)» verschoben, mit
+  Primärquellen-Pfad belegt (kein Raten, echte PDF-Lektüre statt Sekundär-Zitat).
+
 ## 2026-07-22 — QUESTIONS-Lücke geklärt: Schallschutz SIA 181 Federführung (Mac Mini Nachtschicht)
 - [geklärt] **Schallschutz SIA 181 (Ziff. II.10) — Federführung** gegen das Normen-Destillat
   `wissen/normen/destillate/sia-181-2006.md` geprüft (Ziff. 4.2/4.3 Bauteile vs. Ziff. 4.4
