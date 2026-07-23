@@ -3,9 +3,9 @@ quelle: Vollzugshilfe Förderprogramm Energie 2026 — Förderbedingungen, Förd
 herausgeber: Kanton Schwyz, Umweltdepartement / Amt für Umwelt und Energie (AfU), Kollegiumstrasse 28, 6431 Schwyz (energie@sz.ch, 041 819 20 35)
 ausgabe: 01. Januar 2026 (40 Seiten)
 gelesen: 2026-06-29 (vollständig S. 1-40 via Read)
-datenstand: 01.01.2026 — es gelten die zum Zeitpunkt der Gesuchseingabe gültigen Sätze; Energie-/Klimaplanung gültig bis 2032; Mittel solange jährliches Förderbudget nicht ausgeschöpft (kein Rechtsanspruch). Adversarial gegengeprüft 2026-07-20 (Run 82): alle 24 CHF-Sätze am frisch gezogenen amtlichen PDF unverändert bestätigt, keine Abweichung.
+datenstand: 01.01.2026 — es gelten die zum Zeitpunkt der Gesuchseingabe gültigen Sätze; Energie-/Klimaplanung gültig bis 2032; Mittel solange jährliches Förderbudget nicht ausgeschöpft (kein Rechtsanspruch). Adversarial gegengeprüft 2026-07-20 (Run 82) und erneut 2026-07-23 (Runde 2): alle 24 CHF-Sätze am frisch gezogenen amtlichen PDF unverändert bestätigt, keine Abweichung.
 status: established
-last_updated: 2026-07-20
+last_updated: 2026-07-23
 ---
 
 # Förderprogramm Energie Kanton Schwyz 2026
@@ -70,11 +70,13 @@ Der Kanton Schwyz fördert 2026 die energetische Gebäudesanierung und den Ersat
 - **Faustzahl-Beispiele 2026 (eigene Rechnung, markiert):** *EFH-Heizungsersatz Öl→Luft/Wasser-WP 8 kW_th:* 3'200 + 8 × 120 = **~4'160 CHF**. *Erdsonden-WP 10 kW_th:* 4'800 + 10 × 360 = **~8'400 CHF**. *Solarthermie 6 kW_th:* 2'400 + 6 × 1'000 = **~8'400 CHF**. *Fassadendämmung 200 m²:* 200 × 60 = **12'000 CHF** (mit Gesamtsanierungsbonus +40/m² = total **20'000 CHF**). *Minergie-P-EFH-Gesamtsanierung 180 m² EBF:* 180 × 155 = **~27'900 CHF**. *(Sätze fix, eigene Multiplikation.)*
 - **ZH ↔ SZ — Unterschied in der Mechanik:** ZH zahlt bei der WP eine **Pauschale je Stufe** (Luft/Wasser CHF 2'900 ≤15 kW + 160/zusätzl. kW; Erdsonde 6'800 + 420), SZ rechnet **Grundbeitrag + CHF/kW_th** linear (Luft/Wasser 3'200 + 120/kW_th; Erdsonde 4'800 + 360/kW_th). SZ-Dämmung **CHF 60/m²** ist höher als die ZH-Einzelmassnahme (40/m²), aber ZH hat einen +60/m²-Vollsanierungs-Bonus (bis 100/m²) — bei SZ ist der Bonus +40/m². Max. pro Gesuch: SZ **300'000**, ZH **500'000**.
 
-## Verifikation + Befristung (adversariale Nachprüfung 2026-07-20, Run 82)
+## Verifikation + Befristung (adversariale Nachprüfung 2026-07-20, Run 82; erneut 2026-07-23, Runde 2)
 **Alle 24 im Destillat genannten CHF-Sätze am heute live abrufbaren amtlichen PDF nachgeprüft — 24 von 24 Positionen unverändert bestätigt**, kein einziger Wert weicht ab (Volltext frisch per `curl` gezogen, `pdftotext -layout`, nicht aus dem Destillat abgeschrieben). Der Zahlenstand trägt per 20.07.2026.
 
 - ⚠ **Rahmenkredit-Befristung neu erfasst:** Der vom Kantonsrat gesprochene Rahmenkredit gilt grundsätzlich **bis 31.12.2028**, muss aber **jährlich neu ins kantonale Budget** aufgenommen werden — Planungssicherheit besteht erst mit **schriftlicher Förderzusage**, nicht schon mit Gesuchseingabe. Quelle: FAQ AfU SZ «Häufig gestellte Fragen zu den Themen Förderprogramm und Energie-Gesetz», Stand 28.08.2025.
 - ⚠ **Verwechslungsgefahr geprüft und ausgeschlossen:** ein WebSearch-Treffer «Förderprogramm Energie 2027-2030; Verpflichtungskredit» (AIHK-Anhörungsbericht 02.04.2026) betrifft den **Kanton Aargau**, nicht Schwyz — nicht als SZ-Quelle verwenden.
+
+**Adversarial-Verify Runde 2, 2026-07-23:** alle 24 CHF-Sätze erneut unverändert bestätigt (Quelle: `https://www.sz.ch/public/upload/assets/75196/Vollzugshilfe_Foerderprogramm_Energie_2026.pdf`, frisch per `curl` gezogen und `pdftotext -layout` extrahiert, Abrufdatum 23.07.2026). Identisches PDF wie bei Run 82 (Autor Heinz Ziegler, `CreationDate` 23.12.2025, 40 Seiten, unverändert seit 20.07.2026) — keine neue Ausgabe, kein Budgetstopp, keine gestrichenen/neuen Fördertatbestände. Zusätzlich die Kernbedingungen stichprobenartig gegengeprüft (unverändert): Baubewilligung vor 2000 (Dämmung Kap. 3 Ziff. 3, S. 8; Minergie-Gesamtsanierung Kap. 15 Ziff. 2, S. 30), U-Wert-Schwellen 0.20/0.25/0.30 W/m²K und Verbesserung ≥ 0.07 W/m²K (Kap. 3), Ausführungskontrollen ≥ 4 % bzw. ≥ 25 % ab CHF 100'000 (Kap. 2, S. 6), WPSM-Pflicht bis 15 kW_th und FWS-Gütesiegel bei Erdsonden (Kap. 7-10), min. 2 kW Kollektor-Nennleistung Solarthermie (Kap. 13/14), 90-%-Flächennachweis Gesamtsanierungsbonus (Kap. 16). Einzige Nebenfeststellung ohne Auswirkung auf CHF-Sätze: die im Destillat-Frontmatter genannte E-Mail-Adresse `energie@sz.ch` erscheint im PDF-Footer als `afu@sz.ch` (Telefon 041 819 20 35 stimmt) — nicht korrigiert, da keine CHF-Angabe und ausserhalb des Prüfauftrags.
 
 ## Offene Punkte
 - 2026er Sätze sind Stand 01.01.2026 fixiert; vor jeder Zusage Budget-/Aktualstand auf `sz.ch` bzw. `portal.dasgebaeudeprogramm.ch/sz` prüfen (Mittel können unterjährig ausgeschöpft sein).
