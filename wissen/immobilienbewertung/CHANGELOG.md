@@ -2,6 +2,19 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-23 — Wissens-Health-Check (Phase 1, Nachtschicht Mac Mini)
+
+Audit gegen den letzten Check (01.07., 22 Tage): alle 5 damaligen Findings korrekt behoben
+(Run-11-Nachtrag, 2 Backlink-Fixes, Kanton-Vereinheitlichung, Thalwil-PLZ, nutzungskonzepte-
+Status). Neuer Hauptfund: **KB-weite ae/oe/ue-Ersatzschreibung statt echter Umlaute** ueber
+praktisch alle 26 Wiki-Dateien (>2'000 Vorkommen; residualwertmethode.md 0 echte Umlaute vs.
+197 Ersatzschreibungen) — der 01.07.-Check hatte Audit F faelschlich gruen bewertet, ohne
+tatsaechlich auszuzaehlen. Gleicher Fehlertyp heute auch in `wissen/spec` gefunden (paralleler
+Lauf 07:30). Zweiter Fund: ~30 Pseudo-Backlinks `[[marktdaten-gemeinden]]` ohne Artikel-Ziel
+(Ordner statt Datei, Meta-Schema-Verstoss, kosmetisch). Dritter Fund: `az-gfz-kennwerte.md`
+reifer Promotion-Kandidat (emerging → established), haengt nur noch an Langnau-BZO-Revision.
+Keine Phase-2-Aktion (Nachtschicht-Scope, nur Audit). Report: `outputs/2026-07-23_health-check.md`.
+
 ## 2026-07-23 — Training-Run 41: Delta-Null-Bestaetigungslauf (kein neuer Befund)
 
 - **Kein neuer Ingest, keine Artikelaenderung.** KB unveraendert saturiert; kein neuer

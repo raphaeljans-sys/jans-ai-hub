@@ -7,6 +7,26 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-23
 
+**Hub-Chef-Lauf ohne Befund (~08:40).** Signale eingesammelt: Fristen-Register + LOGBUCH (7-Tage-Horizont), Konversations-Destillat 23.07. (Kernbefund: keine echten Gespraeche im 26h-Fenster, alle Sessions Routine/Loops), Mail-Vorfilter 26h (alle Konten inkl. M365 + outlook.com), bexio `--verzug` und `--abgleich`. Ergebnis: **kein neuer Befund, keine Whitelist-Aktion, kein Entwurf faellig.** Begruendung im Einzelnen: (1) Der Radar-Lauf ~07:00 hat heute bereits EIN umfassendes Briefing an rj@ versendet (TeKoSi Los 231.10 beauftragt, KISPI-Brandschutz finale Abgabe/Upload bis Mittag, Debitoren CHF 32'280, Saumstrasse 21 Frist 24.07., Koordinationssitzung 13:00, Standing-Infra Umlaut-Config/Dispatch-Token/Twin-KB) — eine zweite Mail waere reine Doppelmeldung. (2) bexio `--verzug` unveraendert (RE-00087 98 Tg auf **Mahnung 2** → naechste Stufe waere 3/Betreibung = NICHT A1-whitelisted, nur Entwurf/Entscheid Raphael; RE-00098/99 je 3 Tg, bereits auf **Stufe 1 Zahlungserinnerung** mit laufender Frist 03.08. → keine A1-Auslösung). `--abgleich`: die drei KISPI-Positionen sind echt-offen verifiziert (die 19 «gebucht ohne Bankbeleg» sind Alt-Positionen 2022–2025, kein Bezug). (3) A2 (Kalender): heutige 13:00-Sitzung bereits im Kalender, kein neuer eindeutiger Termin. (4) Zeitkritische Punkte heute (Ziegel-Korrekturfassung → Upload bis Mittag; Stadelmann-Rohdichte-Antwort 06:53) werden von Raphael aktiv bearbeitet (RJ-Sent 07:21), kein autonomer Beitrag ohne Ziegel-Fassung moeglich. Standing «Aktion Raphael (Config/Infra)» bleibt offen und ist im Register + Radar-Mail bereits gefuehrt. Keine Mail versendet.
+
+**Nachtschicht Mac Mini (~08:35, Wissens-Health-Check Folgelauf).** Doppelarbeit-Guard: 07:30-
+Lauf (siehe Eintrag unten) inhaltlich geprueft — Prioritaeten 1-5 dort bereits als gesaettigt
+bestaetigt (Queues leer, Synobsis erschoepft, Fristen-Radar erledigt, Trainings-Loops gesaettigt),
+Prioritaet 6 (wissenscheck) dort auf `spec` angewendet. Fuer diesen Lauf naechstaelteste
+Audit-KB gewaehlt: `immobilienbewertung` (letzter Check 01.07., 22 Tage, noch nicht vom 07:30-Lauf
+abgedeckt). Ergebnis: alle 5 Findings vom 01.07. korrekt behoben. Neuer Hauptfund — analog zu
+`spec` derselben Nacht — **KB-weite ae/oe/ue-Ersatzschreibung statt echter Umlaute** ueber
+praktisch alle 26 Wiki-Dateien (>2'000 Vorkommen; `residualwertmethode.md` sogar 0 echte Umlaute
+gegen 197 Ersatzschreibungen); der 01.07.-Check hatte dies faelschlich als gruen bewertet, ohne
+auszuzaehlen. Zwei kleinere Funde: ~30 Pseudo-Backlinks `[[marktdaten-gemeinden]]` ohne
+Artikel-Ziel (Ordner statt Datei); `az-gfz-kennwerte.md` reifer Promotion-Kandidat
+(emerging→established, haengt nur an Langnau-BZO-Revision). Report
+`wissen/immobilienbewertung/outputs/2026-07-23_health-check.md`, CHANGELOG ergaenzt. Keine
+Phase-2-Aktion (Nachtschicht-Scope). **Beobachtung fuer Raphael:** zwei KBs in derselben Nacht
+zeigen denselben Blindspot — Audit F ("Schreibregel-Verstoesse") im Skill `wissenscheck` wurde
+bisher offenbar nur "gelesen", nie tatsaechlich ausgezaehlt. Lohnt sich, den Skill um eine
+verbindliche Grep-Auszaehlung zu ergaenzen, bevor weitere KBs denselben Fehlbefund erben.
+
 **Nachtschicht Mac Mini (~07:35, Wissens-Health-Check).** Priorisierung durchlaufen: sync-tasks/
 mac-mini (2 Commit-Anfragen, bereits vom NAS-Selfcommit d83fcdf1 erfasst → nach `done/`
 verschoben), Synobsis Stufe 2 (Inventar seit 17+ Naechten unveraendert erschoepft, keine
