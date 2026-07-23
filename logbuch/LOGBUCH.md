@@ -7,6 +7,22 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-23
 
+**Nachtschicht Mac Mini (~20:45, Registerpflege entwurfs-referenzen, Dispatch-Run
+20260723-203001).** Priorisierung durchlaufen: Queues weiterhin leer, Synobsis Stufe 2 nicht
+erneut angestossen, keine neue Trainingslektion faellig, keine offene QUESTIONS-Recherche mit
+gutem Kosten-Nutzen-Verhaeltnis. Stattdessen den im 19:00-Health-Check gefundenen Widerspruch
+in `wissen/entwurfs-referenzen` behoben: die vier Domaenen-Sub-Indizes
+(architekten/entwurfsprinzipien/materialien/typologien, je `wiki/<domaene>/INDEX.md`) sowie
+die vier Domaenen-Abschnitte im Haupt-`wiki/INDEX.md` behaupteten weiterhin woertlich einen
+ausstehenden Roh-Seed-Import, obwohl dieser Weg bereits seit 20.07.2026 als UEBERHOLT gilt
+(Abfrage-Workflow gegen `architekten-synobsis` statt Roh-Import). Alle acht Stellen auf den
+aktuellen Wortlaut umgestellt, `QUESTIONS.md` nachgezogen und den Promotion-Kandidaten
+`typologien/bildung.md` (aus dem 19:00-Lauf) dort als offene Aufgabe verankert, damit er nicht
+nur im CHANGELOG steht. CHANGELOG-Eintrag ergaenzt. Bewusst NICHT begonnen: die Kompilation von
+`bildung.md` selbst (neuer Wiki-Artikel mit Quellenpruefung, zu gross fuer den Nachtschicht-
+Rahmen) — bleibt als Promotion-Kandidat fuer einen dedizierten Lauf offen. Reine
+Registerpflege, kein neuer Rechercheaufwand. Verbrauch: unter 2 USD von 5 USD Budget.
+
 **Nachtschicht Mac Mini (~19:45, Registerpflege planungsgrundlagen, Dispatch-Run 20260723-193005).**
 Priorisierung durchlaufen (identisch zum 19:00-Lauf unten bestaetigt): Queues leer, Synobsis
 Stufe 2 zum 11. Mal leer (nicht wiederholt), `energie` heute bereits trainiert (Run 84),

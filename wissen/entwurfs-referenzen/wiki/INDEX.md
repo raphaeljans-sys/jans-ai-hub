@@ -1,16 +1,20 @@
 # INDEX — Entwurfs-Referenzen
 
 ## Typologien
-*(noch leer — Seed-Import ausstehend)*
+*(noch leer — kein Roh-Seed-Import mehr geplant, Artikel entstehen on-demand aus
+[[architekten-synobsis]]-Abfragen, vgl. Domänen-INDEX + CHANGELOG 2026-07-20)*
 
 ## Entwurfsprinzipien
-*(noch leer — Seed-Import ausstehend)*
+*(noch leer — kein Roh-Seed-Import mehr geplant, Artikel entstehen on-demand aus
+[[architekten-synobsis]]-Abfragen, vgl. Domänen-INDEX + CHANGELOG 2026-07-20)*
 
 ## Architekten
-*(noch leer — Seed-Import ausstehend)*
+*(noch leer — kein Roh-Seed-Import mehr geplant, Artikel entstehen on-demand aus
+[[architekten-synobsis]]-Abfragen, vgl. Domänen-INDEX + CHANGELOG 2026-07-20)*
 
 ## Materialien
-*(noch leer — Seed-Import ausstehend)*
+*(noch leer — kein Roh-Seed-Import mehr geplant, Artikel entstehen on-demand aus
+[[architekten-synobsis]]-Abfragen, vgl. Domänen-INDEX + CHANGELOG 2026-07-20)*
 
 ## Parameter-Sets
 - [healthcare-neubau-zh.json](parameter-sets/healthcare-neubau-zh.json) — Langzeitpflege Neubau Kt. ZH (schema-valide, Quellen CURAVIVA/Wüest/JANS 2410+2619/SIA 416)

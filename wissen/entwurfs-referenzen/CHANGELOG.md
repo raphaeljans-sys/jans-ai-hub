@@ -1,5 +1,23 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-07-23 (2. Eintrag, Nachtschicht-Zyklus Mac Mini ~20:30 — Sub-Index-Widerspruch behoben)
+- [index] Den im Health-Check ~19:00 gefundenen Widerspruch nachgezogen: die vier Domänen-
+  Sub-Indizes (`wiki/typologien|entwurfsprinzipien|architekten|materialien/INDEX.md`)
+  behaupteten weiterhin wörtlich einen ausstehenden Roh-Seed-Import aus
+  `05_Architekten_Synobsis`, obwohl dieser Weg bereits seit 20.07.2026 als ÜBERHOLT
+  gilt (Abfrage-Workflow gegen `architekten-synobsis` statt Roh-Import). Alle vier
+  Sub-Indizes sowie die vier entsprechenden Abschnitte im Haupt-`wiki/INDEX.md` auf den
+  Abfrage-Workflow-Wortlaut umgestellt (Verweis auf `[[architekten-synobsis]]` +
+  CHANGELOG-Datum).
+- [questions] `wiki/QUESTIONS.md`: Nachzug im Seed-Import-Abschnitt vermerkt; neuen
+  Abschnitt «Promotion-Kandidat» für `typologien/bildung.md` (aus dem Health-Check
+  ~19:00) angelegt, damit der Vorschlag nicht nur im CHANGELOG verpufft, sondern als
+  offene Aufgabe nachverfolgbar bleibt.
+- Keine inhaltliche Recherche, reine Registerpflege/Konsistenz-Fix (Doppelarbeit-Guard:
+  bewusst NICHT die grössere Aufgabe — Kompilation von `bildung.md` selbst — begonnen,
+  da das ein neuer Wiki-Artikel mit Quellenprüfung wäre und den Nachtschicht-Rahmen
+  sprengen würde; bleibt als Promotion-Kandidat offen für einen dedizierten Lauf).
+
 ## 2026-07-23 (Wissens-Health-Check, Nachtschicht Mac Mini ~19:00)
 - Wissenscheck Phase 1 (aeltestes Audit-Datum, 20.07., 3 Tage): die 20./21.07.-Fixes
   (Haupt-INDEX, QUESTIONS) sind weiterhin korrekt wirksam, alle drei Parameter-Sets

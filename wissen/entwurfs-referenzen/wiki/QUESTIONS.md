@@ -15,6 +15,18 @@ Themenregister THEMEN.md + 849 Kurzdossiers (Stufe 3). **Neuer Weg statt Roh-Imp
 Artikel dieser KB werden bei Bedarf aus synobsis-Abfragen destilliert
 (`tools/synobsis_query.py`, Stichwort + `--semantic`); `raw/` bleibt für KB-eigene
 Quellen (Kennwert-Extrakte, Buch-Destillate) reserviert.
+- **Nachgezogen 23.07.2026 (Nachtschicht Mac Mini):** Die vier Domänen-Sub-Indizes
+  (`wiki/typologien|entwurfsprinzipien|architekten|materialien/INDEX.md`) sowie das
+  Haupt-`wiki/INDEX.md` behaupteten bis dahin noch wörtlich einen ausstehenden
+  Roh-Seed-Import — Widerspruch zu diesem Beschluss. Alle fünf Dateien auf den
+  Abfrage-Workflow-Wortlaut umgestellt.
+
+## Promotion-Kandidat (offen, aus Wissenscheck 23.07.2026)
+- [ ] **typologien/bildung.md**: liesse sich verlustfrei aus dem refuter-verifizierten
+  `parameter-sets/schule-volksschule-ch.json` + dem established wettbewerbs-dna-Benchmark
+  `kennwerte-schulbauten.md` kompilieren — wäre der erste echte Wiki-Artikel dieser
+  bisher reinen JSON-Parameter-Set-KB. Noch nicht umgesetzt (Nachtschicht-Scope bisher
+  nur Audit/Registerpflege, keine neue Artikel-Kompilation).
 
 ## Parameter-Sets
 - [ ] Sollen Parameter-Sets auch Rendering-Vorgaben enthalten (Kamerawinkel, Lichtstimmung)?

@@ -1,6 +1,8 @@
 # INDEX — Entwurfsprinzipien
 
-*(Seed-Import aus 05_Architekten_Synobsis ausstehend)*
+*(Kein Roh-Seed-Import mehr geplant — ÜBERHOLT seit 20.07.2026, vgl. CHANGELOG. Artikel
+entstehen bei Bedarf aus Abfragen gegen [[architekten-synobsis]] (Themenregister/Vektorindex)
+statt aus einem Roh-Import von 05_Architekten_Synobsis.)*
 
 Geplante Artikel:
 - proportion-goldener-schnitt.md — Proportionssysteme
