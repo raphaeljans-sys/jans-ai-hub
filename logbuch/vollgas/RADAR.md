@@ -21,6 +21,31 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-23 06:48 — [GEDROSSELT] Nachtfenster sauber gelaufen, 4 KBs frisch auf 23.07.
+
+**Fensterzustand:** Keine Login-Probe (Betriebsbeleg-Methode, spart Token im Drossel-Sinn). Belegt
+durch drei echte Trainings-Commits um 06:04–06:05: `d960c1c9` spec-training Lauf 26 (Verifikation,
+P1 haelt), `37a59acf` wettbewerbs-dna Etappe 3 (B1 Healthcare-Sweep, 42 frei-pdf-Kandidaten),
+`4267a94d` twin-mail-training Batch 46 (Beziehungsregister-Mappings). Aktiver Token-Pfad trägt, kein
+«Not logged in», kein Usage-/Rate-Limit. Kein Blocker, keine Mail.
+
+**Durchsatz:** 7 Commits/90 Min — die drei Nacht-Trainingslaeufe plus 15-Min-`nas-selfcommit`-Takt.
+Alle acht beobachteten KB-CHANGELOGs aktuell: twin, immobilienbewertung, wettbewerbs-dna, spec auf
+23.07. (Nachttraining), normen, baurecht, energie, planungsgrundlagen auf 22.07. — kein stockender
+Loop, sauber im Nachtfenster (22:00–06:00). Dispatch tagsueber stuendlich bis 21:30, danach naechtliche
+Ruhe (erwartbar).
+
+**Runner/STOP:** unveraendert. `STOP` + `STOP-Macmini` (in `logbuch/vollgas/`) vom 14.07. 12:53 stehen;
+kein `vollgas-runner`-Prozess, letzter Runner-Log-Eintrag 14.07. 12:40. Drossel-Guard intakt,
+Wiederanlauf nur auf ausdrueckliche Anweisung Raphaels. Nicht angetastet.
+
+**Vorschlaege:**
+- P1: keiner.
+- P2: Drossel-Entscheid Raphaels weiterhin offen (naechster Wochen-Reset Mo 11:59). Status quo halten.
+- P3: keiner. Ab 10.08. (token-drosselung-100810) Radar auf 1x taeglich reduzieren — noch nicht faellig.
+
+---
+
 ## 2026-07-23 00:48 — [GEDROSSELT] Nachtfenster: Wissens-Chef arbeitet, alle KBs auf Stand
 
 **Fensterzustand:** Keine Login-Probe noetig, Betriebsbeleg eindeutig (Methode 22.07. weitergefuehrt):

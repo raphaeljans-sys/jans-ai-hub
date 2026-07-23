@@ -73,9 +73,9 @@
 | [x] 260713 | P2 | `180_2014.pdf` | 180 | 2014 | Teil-Destillat (Kernkapitel, Anhaenge A-H offen), verifiziert 260713; sia-180-2014.md |
 | [x] 260713 | P2 | `181_2006_d.pdf` | 181 | 2006 | Teil-Destillat (normativer Kern + Teile Anhang), verifiziert 260713; sia-181-2006.md |
 | [x] 260714 | P2 | `184_1972_d.pdf` | 184 | 1972 | established (verifiziert 260714, Volltextabgleich, sia-184-1972.md), Baureinigungs-Arbeiten |
-| [x] 260713 | P2 | `193.111_1999_d.pdf` | 193 | 1999 | established (Run5, SN EN 12063:1999 Spundwaende, Kern S.1-46 verifiziert); sia-193-111-1999.md |
+| [x] 260723 | P2 | `193.111_1999_d.pdf` | 193 | 1999 | established VOLLSTAENDIG (Run 18, 260723: informative Anh. A-G S.47-89 destilliert + adversarial verifiziert, 30 Aussagen, 1 Befund korrigiert [Tab. B.3 Vorwaermtemperatur-Gruppierung]); Kern S.1-46 verifiziert Run5; sia-193-111-1999.md |
 | [x] 260713 | P2 | `195_1999_d.pdf` | 195 | 1999 | established (Run5, Rohrvortrieb, beanstandet-korrigiert gamma_Q); sia-195-1999.md |
-| [x] 260713 | P2 | `196_1998_d.pdf` | 196 | 1998 | teil-destillat (Run5, Baulueftung Untertagbau, Kern S.1-37); sia-196-1998.md |
+| [x] 260723 | P2 | `196_1998_d.pdf` | 196 | 1998 | established VOLLSTAENDIG (Run 18, 260723: Anh. A1-A4 S.38-64 destilliert + verifiziert bestanden, 55 Aussagen, 0 Sachfehler, nur Metadaten-Praezisierung S.64); Kern S.1-37 verifiziert Run5; sia-196-1998.md |
 | [x] 260713 | P2 | `197_2004_d.pdf` | 197 | 2004 | established (Run5, Verkehrstunnel Grundlagen, Volltext verifiziert); sia-197-2004.md |
 | [x] 260713 | P2 | `198_2004_d.pdf` | 198 | 2004 | established (Run5, Untertagbau Ausfuehrung, Kern verifiziert); sia-198-2004.md |
 | [x] 260713 | P2 | `199_1998_d.pdf` | 199 | 1998 | established (Run5, Geologie/Geotechnik Untertagbau); sia-199-1998.md |
@@ -117,14 +117,14 @@
 | [x] 260712 | P2 | `329_2018.pdf` | 329 | 2018 | gilt (jüngste im Bestand) |
 | [x] 260713 | P2 | `331_1988_d.pdf` | 331 | 1988 | destilliert (sia-331-1988.md), Fenster |
 | [x] 260713 | P2 | `342_1988_d.pdf` | 342 | 1988 | destilliert (sia-342-1988.md), Sonnen- und Wetterschutzanlagen |
-| [x] 260713 | P2 | `343.051_2018.pdf` | 343 | 2018 | teil-destillat (Run5, SN EN 14351-2:2018 Innentueren; beanst.-korr. EN 1191); sia-343-051-2018.md |
+| [x] 260723 | P2 | `343.051_2018.pdf` | 343 | 2018 | established VOLLSTAENDIG (Run 18, 260723: informative Anh. D [Oeffnungsmasse] + E [Handhabung] S.38-40 destilliert + verifiziert bestanden, 16 Aussagen, 0 Fehler); Normteil Kap.1-7 + Anh. A/B/C/F/ZA verifiziert Run5 (beanst.-korr. EN 1191); sia-343-051-2018.md |
 | [x] 260713 | P2 | `343_1990_d.pdf` | 343 | 1990 | destilliert (sia-343-1990.md), Türen und Tore |
 | [x] 260712 | P2 | `358_2010 Geländer und Brüstungen.pdf` | 358 | 2010 |  |
 | [x] 260713 | P2 | `370.028_2003_d.pdf` | 370 | 2003 | verifiziert established 260713 Run5 (bestanden); sia-370-028-2003.md |
 | [x] 260713 | P2 | `370.080_2003_d.pdf` | 370 | 2003 | established (Run5, SN EN 81-80:2003 Aufzuege-Nachruestung SNEL); sia-370-080-2003.md |
 | [x] 260721 | P2 | `382 1-2014.pdf` | 382 | 2014 | established VOLLSTAENDIG (Run 17, 260721: Anhaenge A-G S.64-82 ergaenzt + adversarial verifiziert, 44 Aussagen, 2 Befunde korrigiert [D.3.2 P_V/η_V, Fundstelle C.5]); Kern S.1-63 verifiziert Run5; sia-382-1-2014.md |
 | — | — | `384.201_2003_d.pdf` | 384 | 2003 | ersetzt durch 384/201:2017 (destilliert 260713 Run 7); Altausgabe uebersprungen |
-| [x] 260721 | P2 | `384.201_2017.pdf` | 384 | 2017 | teil-destillat (Run 17, 260721: vereinfachte Verfahren Kap.7/8 + Uebereinstimmung Kap.9 + Anh. A/B ergaenzt/verifiziert, 42 Aussagen, 3 Befunde korrigiert; informative Anh. C-G offen); Kern Kap.1-6+NA verifiziert Run5; sia-384-201-2017.md |
+| [x] 260723 | P2 | `384.201_2017.pdf` | 384 | 2017 | established VOLLSTAENDIG (Run 18, 260723: informative Anh. C-G S.81-99 destilliert + adversarial verifiziert, 38 Aussagen, 1 Befund korrigiert [EN ISO 6946 faelschl. in Literaturliste]; Rest-Bring-Schuld nur exakte NA-/E.1-Tabellenwerte bewusst nicht 1:1); Kap.7-9 + Anh. A/B verifiziert Run 17; Kern Kap.1-6+NA Run5; sia-384-201-2017.md |
 | [x] 260714 | P2 | `400_2000_d.pdf` | 400 | 2000 | established (verifiziert 260714, 0 Fehler, Anhang C Normtext ergaenzt); sia-400-2000.md, Wettbewerbs-Layer — Linien/Schraffuren/Masse/CAD |
 | [x] 260713 | P2 | `405_1998_d.pdf` | 405 | 1998 | teil-destillat (Run5, Leitungskataster GIS, Kern verifiziert); sia-405-1998.md |
 | [x] 260713 | P2 | `414_1980_d.pdf` | 414 | 1980 | destilliert (sia-414-1980.md), Masstoleranzen im Bauwesen |

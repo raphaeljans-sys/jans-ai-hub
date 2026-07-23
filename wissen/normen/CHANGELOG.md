@@ -1,3 +1,32 @@
+## 2026-07-23 — Normen-Training Run 18 (MacBook Pro, SIA/VKF): 4 Anhang-Vertiefungen (Stufe a) geschlossen
+- [Vertiefung Stufe a] Vier Teil-Destillate um ihre offenen informativen Anhänge ergänzt und je
+  adversarial am Original-PDF verifiziert (Destillier-Agent Sonnet → Verifikations-Agent Hauptmodell):
+  - `sia-193-111-1999.md` (SN EN 12063, Spundwände): Anh. A-G (S.47-89) destilliert; **beanstandet →
+    1 Sachfehler korrigiert** (Tab. B.3 Vorwärmtemperatur: nur unterste Stahlgruppe durchwegs 5 °C, die
+    mittleren Gruppen S320/S355GP steigen dickenabhängig; 30 Aussagen geprüft) → **established vollständig**.
+  - `sia-384-201-2017.md` (SN EN 12831-1, Norm-Heizlast): informative Anh. C-G (S.81-99) destilliert;
+    **beanstandet → 1 Fundstellen-Fehler korrigiert** (EN ISO 6946 fälschlich in der 25er-Literaturliste;
+    38 Aussagen geprüft) → **established vollständig** (Rest-Bring-Schuld nur exakte NA-/E.1-Tabellenwerte,
+    bewusst nicht 1:1 kopiert — Urheberrecht).
+  - `sia-196-1998.md` (Baulüftung Untertagbau): Anh. A1-A4 (S.38-64, Luttenberechnung-Theorie,
+    ζ-Werte, 4 Rechenbeispiele, Messformulare) destilliert; **bestanden, 0 Sachfehler** (55 Aussagen,
+    nur Metadaten-Präzisierung gelesen S.64) → **established vollständig**.
+  - `sia-343-051-2018.md` (SN EN 14351-2, Innentüren): informative Anh. D (Öffnungsmasse) + E
+    (Handhabung) destilliert; **bestanden, 0 Fehler** (16 Aussagen) → **established vollständig**.
+- [Verifikation] Adversariale Widerlegungspruefung griff: 2 von 4 Positionen beanstandet, beide Sach-/
+  Fundstellenfehler direkt im Destillat korrigiert; keine erfundenen Kennwerte, keine wörtlichen
+  Tabellenkopien. Workflow: 8 Agenten, 0 Ausfälle, ~72 Min, ~1,31 Mio. Subagent-Tokens.
+- [Umlaut-Bug] Der am 22.07. bestätigte ASCII-Ersatz in Sonnet-Subagenten-Outputs trat in
+  `sia-384-201-2017.md` (Frontmatter: „Anhaenge"/„fuer") und `sia-196-1998.md` (Überschrift
+  „sinngemaess") auf — nach dem Lauf gezielt geprüft und auf echte Umlaute korrigiert.
+- [Stand SIA/VKF Vertiefung a] Nach diesem Lauf noch **2 offene Anhang-/Katalog-Lücken**: SIA 2056/592
+  (Detailkataloge, 130 S.), SIA 405 (medienspez. Datenkataloge, 52 S.). Alle übrigen Teil-Destillate
+  sind vollständig. Nachgeführt: `norm-inventar.md` (4 Zeilen), `wiki/QUESTIONS.md`,
+  `outputs/2026-07-23_normen-nacht-run18.md`.
+- [Taktung] VOLLGAS-ENDLOS im Auftragstext bleibt durch die Drosselung 260714 aufgehoben; dieser Lauf
+  war lücken-getrieben (echtes Compounding), kein Mengenzwang. Empfehlung an Raphael unverändert
+  (siehe Report): Task auf lücken-/datei-getriebenen Takt umstellen.
+
 ## 2026-07-22 — Wissens-Chef Run 12 (Cross-KB): SIA-181-Destillat mit ersetzt_durch-Hinweis + SN-640-060 bestätigt
 - [ergänzt] `destillate/sia-181-2006.md`: Frontmatter um `ersetzt_durch: SIA 181:2020 (Re-Destillat
   ausstehend)` ergänzt. Anlass: auflagebereinigung konsumiert das 2006er-Destillat als Federführungs-

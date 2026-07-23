@@ -5,6 +5,12 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-23
+
+**Radar-Lauf (Donnerstag, ~07:00).** KISPI im Zentrum, zwei echte Fortschritte. (1) **TeKoSi Tuerfachplanung Los 231.10 beauftragt** — RJ 22.07. 22:11 an Hiltmann, Kostendach CHF 14'000 inkl. MwSt in Ruecksprache mit dem Bauherrn; schliesst die lange offene 32/42-Tueren-Kette und die Selbstfrist 20.07. (2) **KISPI Brandschutz-Auflagenbereinigung: finale Abgabe** von J. Ziegel (22.07. 15:34, 13 Anhaenge); RJ prueft, verlangt 18:19 die Korrektur der Brandlastberechnungs-Verweise und die korrigierte Fassung fuer heute Morgen → Upload bis Mittag = harte Naheliegend-Aktion heute (Ziegel-Antwort um 06:55 noch nicht da). Ergaenzend O. Stadelmann antwortet 06:53 zur LBW-Rohdichte (VKF-Nachweis). Neu: Saumstrasse 21 Geschirrspueler-Ersatz (BKP 258), Offerte reap.ch, Eingabefrist NETTOSHOP 24.07.; Lueftungsgitter-Lieferung heute 09:00; Koordinationssitzung Gruner/Jans/KISPI heute 13:00 (ohne TeKoSi, Hiltmann sagte kurzfristig ab). Debitoren: RE-00087 98 Tage/Mahnung 2 unbezahlt, RE-00098/99 jetzt Stufe 1 (RJs Zahlungserinnerungen 21.07.), Total CHF 32'280. Unveraendert offen (Aktion Raphael): Umlaut-Regel in Mini-Scheduled-Tasks (Config), Dispatch-Token (`claude setup-token`), Twin-KB-Rohquellen. Mac Mini erneut nicht per SSH erreichbar (Nachtschicht via Dispatch aktiv). Token 22.07.: MacBook 54.95 Mio./~64 USD; Mini nicht messbar. Register-Stand nachgefuehrt; Briefing an rj@ versendet.
+
+---
+
 ## 2026-07-22
 
 **Nachtschicht-Zyklus Mac Mini (~21:30) — Priorität 5: Jurybericht-Beobachtung 2501 Steinfabrik in `wettbewerbs-dna` — Termin von «Ende März» auf «Sommer 2026» korrigiert.**
