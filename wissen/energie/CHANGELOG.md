@@ -2,6 +2,17 @@
 
 Neueste zuoberst.
 
+## 2026-07-23 — Aktualitäts-Check MuKEn 2025 Umsetzungsstand ZH/SZ: unverändert
+- `destillate/muken-2025-verabschiedet.md` und `destillate/zh-energiegesetz-revision-solarpflicht-2026.md`
+  gezielt gegen den aktuellen Kantonsrats-/Regierungsratsstand geprüft (WebSearch/WebFetch).
+  Kein neuer Sachstand gegenüber Run 81 (20.07.2026): ZH weiterhin nur Regierungsrats-Botschaft
+  vom 06.01.2026 (Solarpflicht >300 m² Dächer), kein Kommissions-/Plenartermin auffindbar
+  (`kantonsrat.zh.ch` bleibt per WebFetch nicht auslesbar, JS-SPA); SZ ohne neue MuKEn-2025-
+  Vernehmlassung. Eine im Rechercheauftrag genannte Geschäftsnummer «KR-Nr. 6064» /
+  Plenarsitzung 17.08.2026 konnte **nicht verifiziert** werden (kein Treffer) — als offen/
+  unbestätigt vermerkt, nicht übernommen. Beide Destillate mit datiertem Aktualitäts-Check-
+  Abschnitt versehen, `last_updated` auf 2026-07-23 nachgezogen.
+
 ## 2026-07-22 — Wissens-Chef Run 12 (Cross-KB): stale last_updated korrigiert
 - [veraltet] `destillate/private-kontrolle-zh.md`: `last_updated` stand auf 2026-06-11, obwohl der
   Cross-KB-Querbezug-Block (Run 11) am 2026-07-21 eingefügt wurde — auf 2026-07-21 nachgezogen.

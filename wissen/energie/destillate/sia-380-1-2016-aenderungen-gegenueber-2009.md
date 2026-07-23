@@ -3,9 +3,9 @@ quelle: "Web: SIA-Shop-Produktbeschreibung SIA 380/1:2016 + Fachartikel espazium
 herausgeber: "SIA / espazium — Der Baublog; Konferenz Kantonaler Energiefachstellen (KKE/EnDK); Kt. Zürich (Arbeitsgruppe MuKEn der KKE); Huber Energietechnik AG"
 ausgabe: "SIA 380/1:2016 (ersetzt SIA 380/1:2009); Vollzugshilfe EN-102 Ausgabe Dezember 2018 (Basis: Norm SIA 380/1, Ausgabe 2016); Anforderungsprofil Version 16.01a, Ausgabe 11.04.2017 (Beilage 2: Version 16.01, Ausgabe 21.02.2017)"
 gelesen: "Web-Recherche + Volltext dreier Sekundär-/Vollzugsdokumente (PDF via curl+pdftotext), kein SIA-Norm-Volltext selbst gekauft"
-datenstand: "2026-07-13 SIA-Shop/espazium abgerufen; 2026-07-21 EN-102-Vollzugshilfe (energie.tg.ch), ZH-Anforderungsprofil (zh.ch) und ENTECH-Handbuch (hetag.ch) abgerufen; Korrigenda C1 zu SIA 380/1:2016 vom SIA vorhanden (Inhalt weiterhin nicht gelesen)"
-status: emerging
-last_updated: 2026-07-21
+datenstand: "2026-07-13 SIA-Shop/espazium abgerufen; 2026-07-21 EN-102-Vollzugshilfe (energie.tg.ch), ZH-Anforderungsprofil (zh.ch) und ENTECH-Handbuch (hetag.ch) abgerufen; 2026-07-23 Adversarial-Verify Runde 2 an unabhängiger Quelle (Kt. Luzern KEnV Anhang, Nr. 774-A1) gegengeprüft; Korrigenda C1 zu SIA 380/1:2016 vom SIA vorhanden (Inhalt weiterhin nicht gelesen)"
+status: established
+last_updated: 2026-07-23
 ---
 
 # SIA 380/1:2016 — was hat sich gegenüber SIA 380/1:2009 geändert?
@@ -90,6 +90,24 @@ Zahlen oben aber direkt verwendbar und dreifach verifiziert.
 
 **Umbau/Umnutzung:** Der Grenzwert für Umbauten und Umnutzungen Q_H,li,re beträgt das
 **1,5-Fache** des jeweiligen Neubau-Grenzwerts Q_H,li (alle drei Quellen identisch).
+
+**Adversarial-Verify Runde 2 2026-07-23:** Q_H,li-Werte an unabhängiger Quelle Kanton Luzern
+(Kantonale Energieverordnung KEnV, Anhang 1-3, Dokument Nr. 774-A1, Amt für Umwelt und Energie
+Luzern, uwe.lu.ch) zahlengleich bestätigt. Diese vierte Quelle ist von den drei bisherigen
+(EnFK/KKE, Kt. ZH, Huber Energietechnik) unabhängig: eine kantonale Rechtsnorm (Verordnungsanhang),
+kein Vollzugs-/Software-Sekundärdokument. Geprüft per curl+pdftoppm (Tabelle liegt dort als
+Bildgrafik vor, PDF-Text-Layer enthält sie nicht) gegen alle 12 Kategorien I-XII inkl. p_H,li und
+den Umbau-Faktor 1,5×Q_H,li — alle Werte identisch, keine Abweichung. Zusätzlich bestätigt: die
+Einzelbauteil-U-Werte (Anhang 1/2, deckungsgleich mit EN-102 Tab. 2/4: 0,17/0,25 opak Neubau,
+0,25/0,28 opak Umbau, 1,0/1,3 Fenster, 1,2/1,5 Türen, 1,7/2,0 Tore, 0,50/0,50 Storenkasten) und
+die Wärmebrücken-Grenzwerte (Typ 1 0,30 / Typ 2 0,20 / Typ 3 0,20 / Typ 5 0,15 / punktuell 0,30,
+deckungsgleich mit EN-102 Tab. 3). Damit ist die im vorigen Lauf (2026-07-17) in
+`enfk-en-102-waermeschutz-2018.md` korrigierte Tabelle 5 (der frühere Transkriptionsfehler
+Q_H,li0 14/16/16/18/13/24/24/20/15/15/19/19 war falsch) an einer vierten, unabhängigen Quelle
+widerlegt bestätigt: die korrigierten Werte 13/16/13/14/7/16/18/18/10/14/16/15 sind die richtigen.
+Status auf `established` gehoben (vierfache unabhängige Übereinstimmung, davon eine kantonale
+Rechtsnorm). Quelle: uwe.lu.ch/-/media/UWE/Dokumente/Themen/Energie/Energiegesetz_EnG/Anhang_KEnV.pdf,
+Anhang 3 S. 3 von 17, Dokument Nr. 774-A1, abgerufen 2026-07-23.
 
 **Interne Wärmeeinträge qEL (Bonus-Kennwert, W/m², SIA 384/3:2013-Bezug, nur im ZH-
 Anforderungsprofil gefunden):** I Wohnen MFH 3,1 · II Wohnen EFH 2,4 · III Verwaltung 3,3 ·

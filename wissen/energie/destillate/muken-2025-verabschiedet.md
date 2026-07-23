@@ -5,7 +5,7 @@ ausgabe: MuKEn 2025, verabschiedet 29.08.2025 (löst MuKEn 2014 als Empfehlung a
 gelesen: 2026-07-12 (Web via WebSearch/WebFetch, Sekundärquellen); 2026-07-16 (Originaltext 117 S. per curl+pdftotext vollständig gelesen); 2026-07-16 Run 75 (Anhänge 6+7 im Volltext ausgewertet, Vergleich gegen MuKEn-2014-Volltext Art. 1.31); 2026-07-17 (Anhänge 4+5 ausgewertet + Kt.-SZ-Übernahmestand geprüft, kEnG/KEnV SZ im Volltext gelesen); 2026-07-20 (amtliche EnDK-Quelle endk.ch/wp-content/uploads/2026/04/MuKEn2025_d-2025-08-29.pdf gefunden, per curl+pdftotext gelesen, Volltext-Stichprobe Art. 1.28/1.39/1.40 + 20-W/m²-Kennwert gegengeprüft)
 datenstand: 2025-08-29 — ⚠ Empfehlung an die Kantone, noch NICHT automatisch geltendes Recht; Umsetzung erfolgt erst mit kantonaler Gesetzesänderung
 status: established (primärquellen-verifiziert am Originaltext; adversarial nachgeprüft 2026-07-20 Run 81 — Zahlen-Layer unabhängig bestätigt, zwei materielle Rechtsfehler + eine Auslassung korrigiert; Quellenprovenienz 2026-07-20 abschliessend geklärt — amtliche EnDK-Fassung gefunden und byte-identisch mit bisherigem Spiegel bestätigt, siehe Schlussabschnitt)
-last_updated: 2026-07-20
+last_updated: 2026-07-23
 ---
 
 # MuKEn 2025 — die neuen Mustervorschriften der Kantone im Energiebereich
@@ -512,3 +512,40 @@ Spiegel energiehub-gebaeude.ch bleibt als Fallback dokumentiert (Frontmatter obe
 Quelle: EnDK, Website endk.ch, Seite «Publikationen» (`endk.ch/publikationen/`), gefunden und per
 curl+pdftotext verifiziert 2026-07-20 (Wayback/Sitemap-Recherche, kein Wayback-Fund nötig — Datei
 liegt live auf endk.ch).
+
+## Aktualitäts-Check 2026-07-23 — kantonaler Umsetzungsstand ZH/SZ unverändert
+
+Gezielte Nachrecherche (WebSearch/WebFetch) zum Umsetzungsstand in den Kantonen ZH und SZ, im
+Kontext der Bauherren-Frage «ab wann gilt das Fossilheizungsverbot/die 20-W/m²-PV-Pflicht/Teil G
+verbindlich». Ergebnis: **kein neuer Sachstand gegenüber dem Run-81-Stand vom 20.07.2026.**
+
+- **Kt. ZH:** Presseecho (limmattalerzeitung.ch, 20min.ch, NZZ, Baublatt) bestätigt weiterhin nur
+  die Regierungsrats-Botschaft vom 06.01.2026 (Solarpflicht Dächer >300 m² + Langzeitspeicher-
+  Auftrag, Details siehe `[[zh-energiegesetz-revision-solarpflicht-2026]]`) — **keine dieser
+  Vorlagen ist die MuKEn-2025-Gesamtumsetzung** (Fossilverbot, 20-W/m²-PV-Pflicht, Teil G bleiben
+  in ZH weiterhin ohne eigene Vorlage). Ein Kommissions-/Plenardatum konnte erneut nicht verifiziert
+  werden — `kantonsrat.zh.ch` bleibt als JS-Single-Page-App per WebFetch nicht auslesbar (identische
+  Werkzeuggrenze wie am 2026-07-13/15/16 dokumentiert). Eine im Auftrag genannte Geschäftsnummer
+  «KR-Nr. 6064» mit Plenarsitzung 17.08.2026 konnte über WebSearch/WebFetch **nicht bestätigt**
+  werden (kein Treffer zu «KR-Nr. 6064» auf kantonsrat.zh.ch oder in der Presse) — als unverifiziert
+  einzuordnen, nicht als falsch, aber nicht zitierfähig ohne weitere Bestätigung.
+- **Kt. SZ:** Keine neue Vernehmlassung/Roadmap zur MuKEn-2025-Gesamtübernahme gefunden. Ein
+  Suchtreffer «Kt. SZ: Fristverlängerung Vernehmlassung Revision kantonales Energiegesetz» (endk.ch)
+  bezieht sich auf die bereits abgeschlossene Vernehmlassung bis Ende März 2024, die zum seit
+  1.1.2025 geltenden kEnG/KEnV (MuKEn-2014-Basis) geführt hat — **keine neue MuKEn-2025-Vorlage**.
+  Ebenso identifiziert und verworfen: eine separate, unabhängige Teilrevision des kEnG zur
+  Tiefengeothermie (geothermie-schweiz.ch) — themenfremd, kein MuKEn-2025-Bezug.
+- **Für Bauherren unverändert:** Für ein heute (23.07.2026) eingereichtes Baugesuch gilt in ZH
+  weiterhin EnerG/EVEN (MuKEn-2014-Basis, PV-Pflicht 10 W/m² EBF, EN-104-ZH), in SZ weiterhin
+  kEnG/KEnV (90-%-Modell, Standardlösungen SL 1-11 inkl. fossiler Kompensationsoptionen). Ein
+  verbindliches Inkrafttretensdatum für die MuKEn-2025-Verschärfungen (Fossilverbot, 20 W/m² PV,
+  Teil G) liegt für **keinen** der beiden Kantone vor; der EnDK-Fahrplan nennt weiterhin nur den
+  groben Horizont 2025–2030 (siehe Adversarial-Nachprüfung Run 81 oben, St. Gallen als Beleg für
+  eher spätere als frühere Termine).
+
+Quellen: WebSearch/WebFetch 2026-07-23 — limmattalerzeitung.ch, 20min.ch (Artikel zur RR-Botschaft
+06.01.2026), NZZ, Baublatt (kanton-zuerich-haelt-an-solarpflicht-fest-38533), endk.ch/de/
+dokumentation/aktuelles/kt-sz-fristverlaengerung-vernehmlassung-revision-kantonales-energiegesetz,
+geothermie-schweiz.ch/teilrevision-energiegesetz-kanton-schwyz-fuer-tiefengeothermie; kein
+Zugriff auf kantonsrat.zh.ch/geschaefte (JS-SPA, bestätigte Werkzeuggrenze) und sz.ch/kanton/
+vernehmlassungen (HTTP 403 bei WebFetch).

@@ -8,7 +8,8 @@ status: established
 sources:
   - "EnFK, Vollzugshilfe EN-102 «Waermeschutz von Gebaeuden», Ausgabe Dezember 2018 (Basis: Norm SIA 380/1, Ausgabe 2016), Tabelle 5 S. 10-11 — Original-PDF energie.tg.ch/public/upload/assets/95320/22_EN-102-d_Waermeschutz_3801_2016.pdf, per curl+pdftotext geladen und gegengeprueft 2026-07-17"
   - "wissen/energie/destillate/muken-2025-anhang-1-3-uwert-heizwaermebedarf.md (Run 2026-07-17) — hatte den Transkriptionsfehler in Tabelle 5 sowie den falschen Frontmatter-Jahrgang bereits identifiziert und dokumentiert; diese Korrektur setzt die dort empfohlene Bereinigung um"
-last_updated: "2026-07-17"
+  - "Adversarial-Verify Runde 2 (2026-07-23): Kanton Luzern, Kantonale Energieverordnung (KEnV), Anhang 1-3 (Dokument Nr. 774-A1), Amt fuer Umwelt und Energie Luzern — uwe.lu.ch/-/media/UWE/Dokumente/Themen/Energie/Energiegesetz_EnG/Anhang_KEnV.pdf, per curl+pdftoppm (Tabellen liegen als Bildgrafik vor) gegengeprueft 2026-07-23 — unabhaengige vierte Quelle (kantonale Rechtsnorm statt Vollzugs-/Software-Sekundaerdokument), Tabelle 2/3/4/5 UND Anhang 3 (Q_H,li) zahlengleich"
+last_updated: "2026-07-23"
 ---
 
 # EN-102 «Waermeschutz von Gebaeuden» (EnFK, Dez 2018)
@@ -84,6 +85,19 @@ Auslegungstemperatur −8 °C. p_H,li = spez. Heizleistung.
 | XII Hallenbad | 15 | 18 | — |
 
 **Umbau/Umnutzung:** Grenzwert Q_H,li,re = **1,5-faches** des Neubau-Grenzwerts.
+
+**Adversarial-Verify Runde 2 2026-07-23:** Q_H,li-Werte an unabhängiger Quelle Kanton Luzern
+(KEnV Anhang 3, Dokument Nr. 774-A1, uwe.lu.ch) zahlengleich bestätigt — alle 12 Kategorien
+I-XII (Q_H,li0, ΔQ_H,li, p_H,li) sowie der Umbau-Faktor 1,5×Q_H,li stimmen exakt mit der Tabelle
+oben überein. Damit bestätigt sich unabhängig, dass die am 2026-07-17 korrigierte Tabelle 5
+(vormaliger Transkriptionsfehler Q_H,li0 14/16/16/18/13/24/24/20/15/15/19/19, Q_H,li
+16/16/21/18/16/19/19/20/18/18/18/25) korrekt bereinigt wurde — die jetzigen Werte
+13/16/13/14/7/16/18/18/10/14/16/15 (Q_H,li0) und 15/15/15/15/14/15/15/17/14/14/14/18 (Q_H,li)
+sind an einer vierten, von EnFK/KKE, Kt. ZH und ENTECH völlig unabhängigen Quelle (kantonale
+Rechtsnorm) gegengeprüft. Zusätzlich bestätigt: Tabelle 2 (Einzelbauteil Neubau), Tabelle 3
+(Wärmebrücken) und Tabelle 4 (Umbau) — alle Werte in dieser Datei sind gegen die LU-Anhänge 1/2
+geprüft und identisch (0,17/0,25 Neubau opak, 0,25/0,28 Umbau opak, Fenster/Türen/Tore/
+Storenkasten sowie Ψ-/χ-Werte deckungsgleich).
 
 ## Energiebezugsflaeche (EBF / A_E)
 Summe aller ober-/unterirdischen Geschossflaechen, deren Nutzung Beheizen/Klimatisieren

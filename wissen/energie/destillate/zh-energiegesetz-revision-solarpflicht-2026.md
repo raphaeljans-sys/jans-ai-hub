@@ -5,7 +5,7 @@ ausgabe: Botschaft an den Kantonsrat zur Änderung des Energiegesetzes (EnerG), 
 gelesen: 2026-07-13/2026-07-16 (Web via WebSearch/WebFetch, Medienmitteilung + Sekundärpresse; Botschaftstext/Kantonsrat-Geschäftsnummer weiterhin nicht direkt eingesehen — kantonsrat.zh.ch liefert bei WebFetch wiederholt nur Navigationsstruktur, kein Geschäftsdetail, 4. Versuch 2026-07-16 diesmal über News-/Verbandsquellen statt der Plattform selbst, ebenfalls ohne Beratungsdatum)
 datenstand: 2026-01-06 — ⚠ Botschaft des Regierungsrats an den Kantonsrat, NOCH KEIN Gesetz. Kantonsrat-Beratung/Abstimmung und Referendumsfrist stehen noch aus; Inkrafttreten nicht datiert.
 status: emerging
-last_updated: 2026-07-16
+last_updated: 2026-07-23
 ---
 
 # ZH-Energiegesetz-Revision 2026 — Solarpflicht für grosse Dächer + Langzeitspeicher-Auftrag
@@ -111,6 +111,26 @@ relevanten Ansatzpunkte, falls eine Ausnahme gesucht wird.
 - **Zeitplan/Inkrafttreten** unbekannt; Vernehmlassung zu einer separaten, früheren EnerG/Richtplan-
   Revision lief bereits 23.08.–30.11.2024 (Motionen-Umsetzung) — ob es sich um dieselbe oder eine
   neue Vorlage handelt, ist aus den gesichteten Quellen nicht abschliessend zu klären.
+
+## Aktualitäts-Check 2026-07-23 — Verfahrensstand unverändert
+
+Erneute gezielte Recherche (WebSearch/WebFetch, 5. Versuch nach den vier dokumentierten aus
+Juli 2026) zum Kantonsrats-Fahrplan: **kein neuer Sachstand.** Presseecho (limmattalerzeitung.ch,
+20min.ch) bestätigt weiterhin nur die Regierungsrats-Botschaft vom 06.01.2026, ohne
+Kommissions- oder Plenartermin. `kantonsrat.zh.ch/geschaefte` bleibt per WebFetch nicht auslesbar
+(JS-Single-Page-App, identische Werkzeuggrenze wie in den Läufen vom 13./15./16.07.2026).
+
+Eine im Rechercheauftrag genannte Geschäftsnummer **«KR-Nr. 6064»** mit **Plenarsitzung
+17.08.2026** konnte über WebSearch/WebFetch **nicht verifiziert werden** — kein Presse- oder
+kantonsrat.zh.ch-Treffer zu dieser Nummer oder diesem Datum gefunden. Weder bestätigt noch
+widerlegt; nicht zitierfähig, bis eine Primärquelle (kantonsrat.zh.ch direkt, z.B. per
+Browser-Zugriff statt WebFetch, oder Ratsversand-PDF) das bestätigt. Für die Bauherren-Beratung
+gilt bis dahin unverändert: kein Inkraftsetzungsdatum bekannt, heute eingereichte Baugesuche
+bleiben bei EN-104-ZH (≥10 W/m² EBF, MuKEn-2014-Basis).
+
+Quellen: limmattalerzeitung.ch/limmattal/zuerich/…-ld.2418683, 20min.ch/story/
+energiegesetz-ueberregulierung-kanton-zuerich-will-solardach-zwang-einfuehren-103481510,
+WebSearch/WebFetch-Versuche 2026-07-23 auf kantonsrat.zh.ch (kein Geschäftsdetail auslesbar).
 
 **Backlinks:** [[energienachweis-zh]] · [[muken-2025-verabschiedet]] · [[foerderung-energie-zh]] ·
 [[pv-solar-technologien]]
