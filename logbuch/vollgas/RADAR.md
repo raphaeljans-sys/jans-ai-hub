@@ -21,6 +21,28 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-23 18:48 — [GEDROSSELT] Abendfenster ruhig, Drossel intakt, Nachtschicht noch aus
+
+**Fensterzustand:** Keine Login-Probe (Betriebsbeleg-Methode, token-schonend im Drossel-Sinn).
+Kein «Not logged in», kein Usage-/Rate-Limit erkennbar. Kein Blocker, keine Mail. Abends vor dem
+Nachtfenster (22:00–06:00) ist im Drossel-Regime bewusst kein Trainingsbetrieb erwartet, daher kein
+aktiver Token-Pfad zu belegen — regelkonform, kein Stocken.
+
+**Durchsatz:** 6 Commits/90 Min, ausschliesslich der 15-Min-`nas-selfcommit`-Takt (17:30–18:45) —
+kein Trainings-Commit am Abend, wie im Nachtfenster-Regime vorgesehen. Kein stockender Loop; die
+Nacht-Trainingslaeufe (spec, wettbewerbs-dna, twin u.a.) starten erst ab 22:00.
+
+**Runner/STOP:** unveraendert. `STOP` + `STOP-Macmini` (in `logbuch/vollgas/`) vom 14.07. 12:53 stehen;
+kein `vollgas-runner`-Prozess. Drossel-Guard intakt, Wiederanlauf nur auf ausdrueckliche Anweisung
+Raphaels. Nicht angetastet.
+
+**Vorschlaege:**
+- P1: keiner.
+- P2: Drossel-Entscheid Raphaels weiterhin offen (naechster Wochen-Reset Mo 11:59). Status quo halten.
+- P3: keiner. Ab 10.08. (token-drosselung-100810) Radar auf 1x taeglich reduzieren — noch nicht faellig.
+
+---
+
 ## 2026-07-23 12:48 — [GEDROSSELT] Tagfenster ruhig, Drossel unveraendert intakt
 
 **Fensterzustand:** Keine Login-Probe (Betriebsbeleg-Methode, token-schonend im Drossel-Sinn). Kein
