@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-07-22
+last_updated: 2026-07-23
 gewichtung: authentisch
-sources: [260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -1362,3 +1362,40 @@ sofort zur Frage an die zuständige Stelle, nicht zum stillen Zeitverlust. Quell
   an die Bauherrschaft zuzustellen, endet mit der Rückbestätigungsbitte «Darf ich Sie Bitte uns
   die Überstellung der Unterlagen zu bestätigen» — Nachverfolgbarkeit, analog zum bekannten
   Cc-Transparenz-Reflex. (Batch 45, 2026-05-18, authentisch)
+
+## 260723 — Nachtrag Batch 50 (2026-06-04 … 2026-06-07, Projekt KISPI 2619 Therapiestation)
+
+- **Fachplaner-Zurückweisung mit Bringschuld-Liste + delegierter Abklärung.** Auf einen
+  unvollständigen Planvorabzug reagiert Raphael nicht mit Rückfrage, sondern mit einer
+  nummerierten/letterierten Klartext-Liste, die in vier Schritten aufbaut: (a) den Mangel offen
+  benennen («Sie arbeiten auf alten Plangrundlagen»), (b) formell zurückweisen («Ich weise Ihre
+  Planung als unvollständig zurück»), (c) die konkrete **Bringschuld** des Fachplaners festhalten
+  («Sie schulden uns die Angaben zu …») und (d) den Fachplaner an die richtige **Quelle
+  weiterverweisen** («Informieren Sie sich bei Gastroplaner und Sanitärplaner …»). → Schärft die
+  Sachwalter-Rolle des Generalisten (vgl. Batch 45 «delegierte Rückfrage-Weiterleitung»): bei einer
+  mangelhaften Zuarbeit wird nicht selbst nachrecherchiert, sondern die Bringschuld beim
+  verantwortlichen Fachplaner klar benannt und an die zuständige Nebenquelle delegiert.
+- **Entscheid-Anfrage an Betreiber/Bauherr in Sachverhalts-Blöcken mit Themen-Fettzeilen.** Struktur
+  **Ausgangslage → Konflikt → Gewählte Lösung und ihre Folge → Alternative → Konsequenz bei
+  Beibehaltung → «Ich bitte Euch um einen Entscheid»**, jeder Block mit eigener kurzer
+  Fett-Überschrift, darunter der Sachverhalt in Fliesstext. Schliesst mit expliziter
+  **Verantwortungs-Zuweisung** an den Betreiber («liegt es in der Verantwortung des Betreibers,
+  die Auflage … jederzeit einzuhalten») und einer klaren Entscheidfrage zwischen genau **zwei
+  Varianten**. → Reiht sich in die «Verfahrens-/Auflagen-Statusmail als thematische fette Blöcke»-
+  Logik (Fidelity 260718) ein, hier auf den Betreiber-Entscheid statt auf die Behörden-Statusmail
+  angewandt; ergänzt «konditionale Lösungs-Optionen statt Alleingang» (Batch 16) um die klare
+  Verantwortungs-Zuweisung als Schlusszug.
+- **Lösungsvorschlag an Fachplaner mit Prüf-/Bestätigungsbitte + terminierte
+  Handlungssequenz.** Schlägt dem Fachplaner eine konkrete technische Lösung vor, bittet um Prüfung
+  und die finale Bestätigung MIT Modellbezeichnung, und koppelt den eigenen nächsten Schritt an die
+  Antwort («Nach deiner Bestätigung würde ich die Umplanung … am Montag vornehmen»). → Der eigene
+  Folgeschritt ist immer terminiert UND bedingt an die Rückmeldung geknüpft — verwandt mit «Grundlage
+  einfordern VOR der verbindlichen Honorarofferte» (Batch 12) und dem Freeze-Punkt-Prinzip (Batch 07),
+  hier auf die Fachplaner-Abstimmung übertragen.
+- **Beratende Baurecht-Advisory als Grundlage→Wirkung→Fazit→Nächster Schritt.** Die Advisory-Mail an
+  den Bauherrn endet mit einem konkreten **Vor-Ort-Termin-Angebot samt mitgebrachtem Deliverable**
+  («Ich bringe einen Plan mit der überbaubaren Fläche und einem möglichen Volumen mit») und der Bitte
+  um Terminbestätigung. → Bestätigt «Erst Grundlage, dann Empfehlung, dann nächster Schritt» in der
+  konkretesten Form: der nächste Schritt ist nicht nur angekündigt, sondern mit dem physisch
+  mitgebrachten Arbeitsmittel vorweggenommen. (Fachlicher Mittelteil dieser Mail war KI-assistiert —
+  gewertet wird ausschliesslich das Ablaufmuster, nicht der Fachinhalt, Echo-Schutz.)

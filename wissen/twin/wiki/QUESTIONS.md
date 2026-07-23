@@ -3,6 +3,41 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260723 (twin-fragesteller, aus Fidelity-Review 2026-07-23)
+
+Quelle: Drift-Report `outputs/2026-07-23_fidelity.md` (Gesamt-Fidelity 90; drei authentische Vor-Claude-Golds in
+drei Registern — met-all/Grillmotor Service-Sie-Produktanfrage 29.12.2025, Claudia Klein Design-Peer-Ultra-Ping
+19.12.2025, Bauamt-Thalwil-Vordach Behörde-Sie-Auslegungsersuchen 20.11.2025). Der Lauf hat QUESTIONS 260722 #1
+(Norm-Subsumtion) im Kern beantwortet und fachsignatur.md geschärft (Antrag→subsumieren vs. Klärungs-Ersuchen→
+Doppelquellen). Die schärfste Drift lag beim Ultra-Ping (Twin rahmt zu stark). Je in 1–2 Sätzen beantwortbar.
+
+1. **Der Betreff-als-Payload-Ultra-Ping — bewusstes Mittel oder Zufall?** An Claudia (Design-Peer) hast Du die
+   Mail auf den Knochen gestrippt: die **eigene Handynummer als Betreff** («0798461165»), Body nur «ruf mich an»,
+   keine Anrede, kein Gruss, keine Signatur. Ist das Dein bewusstes Muster, wenn Du einen sofortigen Rückruf
+   willst (der Kanalwechsel selbst wird zum Betreff), oder war das Tagesform? *Warum: Einzelbeleg — der Twin rahmt
+   reflexartig mit «Hoi Claudia»/«Lgr»; ein zweiter Beleg würde ein neues Ultra-Minimal-Format verankern (Echo-/
+   Overfitting-Schutz: bis dahin nicht generalisieren).* → [[stimme]]
+
+2. **Fällt die Rahmung (Anrede + Gruss) bei purer Dringlichkeit ganz weg — auch ohne die «wärmste-Peer»-Wärme?**
+   Der bisher belegte gruss-/anredelose Reply hing an der Ausgelassenheit des wärmsten Peer-Du (haha/Café). Gold B
+   zeigt die Nullung **dringlichkeits-/kanalwechsel-getrieben** im nüchternen Peer-Ping. Lässt Du Anrede und Gruss
+   generell weg, sobald es nur um einen schnellen Rückruf/eine Kanalverlagerung geht, unabhängig von der Wärme des
+   Moments? *Warum: erweitert die «ultrakurz ohne Gruss»-Schwelle um einen zweiten Auslöser (Dringlichkeit statt
+   Wärme).* → [[stimme]], [[beziehungsregister]]
+
+3. **Auslegungs-Ersuchen an die Behörde: strikt neutral oder mit eigener Präferenz?** Bei der Vordach-Vorabklärung
+   stellst Du die zwei Lesarten (§ 6c ABV bis 2 m vs. 1-m-Grenze) gegenüber, ohne zu subsumieren. Bleibst Du dabei
+   bewusst **strikt neutral** (damit die Behörde unbeeinflusst entscheidet), oder nickst Du gelegentlich Deine
+   bevorzugte Lesart an (die Dir mehr Spielraum gäbe)? *Warum: klärt, ob die Doppelquellen-Frage wirklich offen
+   oder subtil in Deine Richtung gesteuert ist — entscheidet, wie der Twin die Alternativfrage kalibriert.*
+   → [[fachsignatur]], [[denken]]
+
+4. **«Guten Tag» ohne Namen als Default fürs unbekannte Sammel-/Shop-Postfach?** An generische Lieferanten-/Shop-
+   Adressen (met-all, hawa, Gasser) eröffnest Du mit dem namenlosen «Guten Tag», nicht mit «Sehr geehrte Damen und
+   Herren». Ist das namenlose «Guten Tag» Dein Default, sobald kein persönlicher Ansprechpartner bekannt ist (info@/
+   Webshop), und «Sehr geehrte/r Herr/Frau X» erst, sobald Du einen Namen hast? *Warum: präzisiert die Service-/
+   Lieferanten-Erstanrede-Schwelle — der Twin greift dort teils zu förmlich.* → [[beziehungsregister]]
+
 ## Offen — Runde 260722 (twin-fragesteller, aus Fidelity-Review 2026-07-22)
 
 Quelle: Drift-Report `outputs/2026-07-22_fidelity.md` (Gesamt-Fidelity 87; drei authentische Vor-Claude-

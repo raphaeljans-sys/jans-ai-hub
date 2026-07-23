@@ -5,6 +5,51 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-23 — Reconciliation twin-mail-training (Fehlstart→Nachtrag Batch 50).** Der
+  Lauf zog das Fenster **2026-06-04…06-07** als vermeintlich neuen «Batch 46», weil nur die
+  erste (paginierte) Seite von `raw/_INGESTED.md` gelesen wurde, die bei Batch 49 endet. Dieses
+  Fenster ist aber bereits als `260714-mailbatch-50.md` erfasst; der sequenzielle Sweep reicht
+  faktisch bis **2026-06-30 (Batch 58)**. Kollision zusätzlich mit dem ECHTEN Batch 46
+  (2026-05-20…05-27). Korrektur: die sechs neu angehängten Facetten-Abschnitte (stimme, denken,
+  haltung, beziehungsregister, fachsignatur, arbeitsweise) von «Batch 46» zu «**Nachtrag Batch 50**»
+  umbenannt (pre-existing Batch-46-Refs unangetastet: `fachsignatur` Reduit-Faden, `stimme`
+  214-W-Metrik); Quell-Token `260604/260723-mailbatch-46.md` → `260723-nachtrag-batch50.md`. KEINE
+  neue Batch-Zeile im Register. Inhaltlicher Netto-Gewinn dieses Laufs: zwei genuin neue Marker im
+  Batch-50-Fenster (Fachplaner-A)–D)-Zurückweisung «Ich weisse Ihre Planung als unvollständig
+  zurück» an Sanitärplaner Eren; versöhnende Schiebetüren-Lösung offen/Brandfall-schliessend an
+  Brandschutz Ziegel) + unabhängige Bestätigung Echo-Falle 17 (Halbgeviertstrich-Advisory-Prosa
+  Bopp/Chaled = Claude-Grundtext). Metrik (authentische Rahmen) 434 W, Du-Gross 0.667, Apostroph 0,
+  ø 15.5 W. **Lehre (vgl. Regel 260720):** vor Batch-Wahl das GESAMTE Register bis zur Frontier
+  lesen, nicht nur die erste Seite. Nächster Lauf: ab **2026-06-30 09:07**.
+- **2026-07-23 — Fidelity-Review (twin-chef, alle 2 Tage).** Gesamt-Fidelity 90; drei authentische
+  Vor-Claude-Golds in drei Registern (met-all/Grillmotor Service-Sie-Produktanfrage 29.12.2025; Claudia
+  Klein Design-Peer-Ultra-Ping 19.12.2025 — Handynummer als Betreff, Body «ruf mich an»; Bauamt Thalwil
+  Vordach-Auslegungsersuchen Behörde-Sie 20.11.2025). Report `outputs/2026-07-23_fidelity.md`. Schärfung:
+  `wiki/fachsignatur.md` Do-Block + neue Marker-Sektion — Amts-Eingabe in zwei Sprechakte getrennt (Antrag/
+  Gesuch mit eigenem Recht → Norm zitieren + subsumieren; Klärungs-/Auslegungs-Ersuchen → Doppelquellen-
+  Gegenüberstellung + Alternativfrage, KEINE Subsumtion); beantwortet [[QUESTIONS]] 260722 #1. DNA neu
+  kompiliert (`rules/jans-dna.md`, 6 Facetten). `twin-fragesteller` hat vier neue Fragen (Runde 260723)
+  an `wiki/QUESTIONS.md` angehängt (Ultra-Ping-Betreff, Gruss-Nullung bei Dringlichkeit, Neutralität des
+  Auslegungs-Ersuchens, namenloses «Guten Tag» als Service-Default). Schärfste Drift: Twin rahmt den
+  Ultra-Ping zu stark (Einzelbeleg, nicht generalisiert — Echo-Schutz).
+- **2026-07-23 — Destillation Batch 46 (Haltung/Werte, Fenster 2026-06-04…2026-06-07).** Neuer
+  datierter Abschnitt in `wiki/haltung.md` angehängt: (1) zweite Quelle für «Hart in der Sache,
+  höflich im Rahmen» — formelle Zurückweisung eines unvollständigen Fachplaner-Vorabzugs, jetzt
+  auch gegenüber einem grossen Ingenieurbüro; (2) neuer Marker «Verantwortung sauber zuweisen
+  statt selbst zu tragen» — Betreiber-Verantwortung bei nutzungsbedingter Brandschutz-Auflage
+  (max. 20 Personen), Entscheid zwischen zwei Varianten an die zuständige Stelle zurückgegeben;
+  (3) dritte Quelle für «Ehrliche Risiko-Priorisierung vor maximaler Nutzung» (deckungsgleich mit
+  Mailbatch 50) — Wortlaut KI-assistiert (Echo-Falle 17), nur das Haltungsmuster gewertet. Quelle:
+  Sent Items rj@raphaeljans.ch, twin-mail-training Batch 46. Frontmatter `last_updated` auf
+  2026-07-23 gesetzt.
+- **2026-07-23 — Destillation Batch 46 (Stimme/Ton, Fenster 2026-06-04…2026-06-07).** Vier neue
+  Marker in `wiki/stimme.md` angehängt: (1) blunt-imperative A)–D)-Zurückweisung an Fachplaner-Sie
+  (Eren/Gruner) bei gleichzeitig warmer Anrede; (2) Du-klein-Slips im schnellen operativen
+  Fachplaner-Du (Ziegel), Du-Gross-Norm nicht absolut; (3) 17. Beleg für den Gedankenstrich-«—»-
+  Echo-Tell in baurechtlicher Advisory-Prosa (Bopp/Dr. Chaled), Ausschluss dieser Blöcke aus der
+  Stilquelle; (4) Metrik Batch 46 (434 W, Du-Gross-Quote 0.667, Satzlänge ø 15.5 W). Quelle:
+  Sent Items rj@raphaeljans.ch, twin-mail-training Batch 46. Frontmatter `last_updated` auf
+  2026-07-23 gesetzt, Quelle in `sources` ergänzt.
 - **2026-07-22 — `twin-fidelity-review` (Selbsttest, Gesamt-Fidelity 87).** Drei authentische Vor-Claude-
   Goldproben 25.09.–03.10.2025 in drei Registern gezogen (Labinot/38grad operative-Kostenauskunft-Sub-Du;
   Fabio-Don-Druckerkosten-Rechnung-Sie; ESTV Gesuch-Behörde-Sie), Twin-Fassungen blind aus den Facetten-Wikis

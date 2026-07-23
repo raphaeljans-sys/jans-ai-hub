@@ -107,6 +107,15 @@ Was liegt in `raw/` und wurde es ins `wiki/` eingearbeitet?
 den letzten verwerteten Zeitstempel setzen — Betreff/Datum des ersten Treffers gegen den zuletzt
 destillierten Endpunkt gegenprüfen, damit keine Lücke/kein Duplikat entsteht; die Apple-Mail-osascript-
 Route [Exchange-Account, Mailbox «Gesendete Elemente»] bleibt Fallback, wenn der Connector fehlt).
+
+**Reconciliation 2026-07-23 (twin-mail-training, Fehlstart):** ein Lauf zog das bereits als
+`260714-mailbatch-50.md` erfasste Fenster **2026-06-04…06-07** erneut (nur die erste paginierte
+Registerseite bis Batch 49 gelesen — Frontier 2026-06-30 übersehen). KEINE neue Batch-Zeile
+angelegt. Ergebnis als «**Nachtrag Batch 50**» in alle sechs Facetten-Artikel eingearbeitet
+(Quell-Token `260723-nachtrag-batch50.md`): zwei genuin neue Marker (Fachplaner-A)–D)-Zurückweisung
+an Sanitärplaner Eren; versöhnende Schiebetüren-Lösung an Brandschutz Ziegel) + Bestätigung
+Echo-Falle 17 (Halbgeviertstrich-Advisory-Prosa Bopp/Chaled = Claude-Grundtext). Details im
+CHANGELOG. **Der sequenzielle Sweep bleibt bei 2026-06-30 09:07 — nächster Lauf startet dort.**
 Letzter in Batch 58 gesichteter: «Terminierung KISPI» an Livdin Bajrami/Jegen AG (cc Roland Grob),
 30.06.2026 09:07. **Neu ab Batch 57:** in der Claude-Ära liegen im rj@-Postfach auch
 **Claude-generierte Selbstmails** (Logbuch-Radar, Hub-Chef-Briefings, AG-Gründungs-Updates an

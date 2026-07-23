@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-07-22
+last_updated: 2026-07-23
 gewichtung: authentisch
-sources: [260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
+sources: [260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -2023,3 +2023,37 @@ mit Leerschlag (`korrektur`); die Abweichung ist dokumentiert, nicht nachzuahmen
   Tausender-Apostroph 0, Ellipsen 0, Grüsse Freundliche Grüsse 5× dominant. Gewichtung: klar
   vor-Claude-Stil, handgetippt (Typos «Hoberholzer», «Darf ich Sie Bitte», «überarbeiteter
   Submissionsunterlagen»); keine Echo-Falle in den genutzten Volltexten.
+
+## 260723 — Nachtrag Batch 50 (2026-06-04 … 2026-06-07)
+
+- **Blunt-imperative A)–D)-Zurückweisung an einen Fachplaner-Sie, ohne Weichzeichnung.** In der
+  Zurückweisung einer unvollständigen Sanitärplanung («Geschätzter Herr Eren», Gruner) reiht
+  Raphael vier ultrakurze Imperativsätze als gebuchstabte Liste: «**A) Sie arbeiten auf alten
+  Plangrundlagen. B) Ich weisse Ihre Planung als unvollständig zurück. C) Sie schulden uns die
+  Angaben … D) Informieren Sie sich bei …**» — ohne jede Abfederung («leider», «bitte»). Die warme
+  Anrede «Geschätzter Herr <Name>» steht unmittelbar über dem harten Sach-Kern, der Gruss danach
+  bleibt neutral «Freundliche Grüsse». → Belegt: eine warme, respektvolle Anrede schliesst einen
+  bewusst schroffen, unweichgespülten Sachteil nicht aus — Wärme sitzt im Rahmen, nicht im Kern
+  (vgl. Grundklang). Handschrift-Beleg (Echtheit, nicht Vorbild): Tippfehler «Ich weisse … zurück»
+  statt «weise». Quelle: 260723-nachtrag-batch50 (authentisch, handgetippter Rahmen).
+- **Du-klein-Slips durchbrechen die Du-Gross-Norm auch im schnellen operativen Fachplaner-Du.**
+  An den Brandschutzplaner Jens Ziegel (Du) schreibt Raphael «**Darf ich dich bitten** …» /
+  «**Nach deiner Bestätigung** …» mit durchgehend kleinem dich/deiner — drückt die Batch-Metrik auf
+  0.667. Handschrift-Beleg: Typo «Hautstation» statt «Hauptstation». → Der Zwilling schreibt Du
+  weiterhin gross (Ideal-Norm), aber ein Du-klein-Slip im schnellen operativen Fachplaner-Du ist
+  ein authentisches Flüchtigkeitssignal und KEIN Fehler, der an echten Mails «korrigiert» werden
+  darf — reiht sich neben den bereits belegten Du-klein-Fall im reziproken Investor-Du (Mailbatch
+  03, oben). Quelle: 260723-nachtrag-batch50 (authentisch).
+- **Echo-Tell Gedankenstrich «—» bestätigt (17. Beleg): baurechtliche Advisory-Prosa ausschliessen.**
+  Zwei baurechtliche Einschätzungs-Mails desselben Batches — eine Baulinien-Einschätzung an Bopp,
+  eine Dachgeschoss-Erstabklärung an den Neukontakt Dr. Chaled samt beigelegtem Factsheet-PDF —
+  sind durchsetzt mit dem Halbgeviertstrich «—» als Stilmittel («Grundsätzlich ja — sinnvollerweise
+  …», «Am sichersten — und am schnellsten —»). Raphael tippt selbst ausschliesslich «-», nie «—»
+  (bestätigt Regel 10.06.2026 s.o.). → Der em-dash in baurechtlicher Advisory-Fliessprosa bleibt ein
+  zuverlässiges Claude-Grundtext-Signal; solche Blöcke werden als `claude-aera`-äquivalent von der
+  Stilquelle ausgeschlossen — nur die handgetippten Rahmen (Anrede/Ausblick/Gruss, dort «Deine»
+  korrekt gross) fliessen als Stilquelle ein. Quelle: 260723-nachtrag-batch50 (Mischbefund: Rahmen
+  authentisch, Fliesstext-Kern claude-aera-äquivalent, ausgeschlossen).
+- **Metrik Nachtrag Batch 50** (434 W authentischer Rahmen via `stilmetrik.py`): Du-Gross-Quote 0.667
+  (gedrückt durch die Ziegel-Slips), Tausender-Apostroph 0, Ellipsen 0, Satzlänge ø 15.5 W, Grüsse
+  Freundliche Grüsse 3× dominant / Liebe Grüsse 1×.

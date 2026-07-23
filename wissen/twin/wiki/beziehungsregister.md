@@ -3,7 +3,7 @@ title: Beziehungsregister
 status: established
 last_updated: 2026-07-23
 gewichtung: authentisch
-sources: [260723-mailbatch-46.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -1373,14 +1373,14 @@ jemanden kennen» (Register per Person via @-Mention, bereits belegt). Quelle: 1
   «WIDERLEGT: Raphael spiegelt den Opener des Gegenübers NICHT»): Anlass/Vertrautheit bestimmen
   die Anrede, nie der Opener des Eingangs. (Batch 45, 2026-05-18, authentisch)
 
-## 260723 — Batch 46 (2026-06-04 … 2026-06-07)
+## 260723 — Nachtrag Batch 50 (2026-06-04 … 2026-06-07)
 
 - **Fachplaner-Warm-Sie-Default bleibt auch bei harter Zurückweisung bestehen.** Mustafa Eren
   (Gruner AG, Projektleiter Sanitär, KISPI 2619) bekommt «**Geschätzter Herr Eren**» — warmes Sie
   —, obwohl der Mail-Inhalt eine klare fachliche Zurückweisung ist. Bestätigt: die Anrede-Wärme
   ist an die **Rolle/Beziehung** gekoppelt (eingespieltes KISPI-Projektteam, vgl. Vanvelten/Mans,
   Fidelity 260714j), nicht an die Tonlage des Inhalts — warme Anrede und sachlich-harter Kern
-  widersprechen sich nicht (→ [[haltung]]). (Batch 46, 2026-06-04, authentisch)
+  widersprechen sich nicht (→ [[haltung]]). (Nachtrag Batch 50, 2026-06-04, authentisch)
 - **«Geschätzte Stefi, lieber Albin» — genus-korrekt gestapelte Gruppenanrede, jetzt mit Beleg
   UND Reziprozität.** Stefanie Sonderegger (KISPI, Leiterin Wohnbereich Therapiestation,
   Betreiberin) wird in einer gemischten Du-Gruppenmail mit dem weiblichen «**Geschätzte**»,
@@ -1388,13 +1388,13 @@ jemanden kennen» (Register per Person via @-Mention, bereits belegt). Quelle: 1
   notierten Fund («Gruppen- und Misch-Register», oben) mit einem datierten Quellbeleg. Das
   Gegenüber signiert reziprok warm «Lieber Raphael … Liebe Grüsse Steffi» — Kurzform «Steffi»
   bei ihr selbst, Raphael bleibt bei der volleren «Stefi». Mapping-Bestätigung: Stefanie
-  Sonderegger → Du, «Geschätzte Stefi» im Gruppenkopf. (Batch 46, 2026-06-05, authentisch)
+  Sonderegger → Du, «Geschätzte Stefi» im Gruppenkopf. (Nachtrag Batch 50, 2026-06-05, authentisch)
 - **Jens Ziegel (Gruner, Brandschutz-Fachplaner, KISPI) → Du-Fachplaner-Peer «Geschätzter
   Jens».** Reiht sich neben Labinot (38grad) als eingespielter Sub-/Team-Fachplaner mit Du ein
   (vgl. Mailbatch 12). Im schnellen operativen Ton bleibt «dich/deiner» klein geschrieben — reine
   Tipp-Flüchtigkeit, kein Registerwechsel (Grossschreibung des Du bleibt die Norm, → «Konstanten
   über alle Register» oben). Mapping-Ergänzung: Jens Ziegel (Gruner AG, Brandschutz) → Du,
-  «Geschätzter Jens». (Batch 46, 2026-06-06, authentisch)
+  «Geschätzter Jens». (Nachtrag Batch 50, 2026-06-06, authentisch)
 - **Neue Schlussform bei der substanziellen Baurechts-Advisory-Mail an den Bauherrn-Du:
   «Schönes Wochenende und liebe Grüsse» statt Signaturblock.** Christoph Bopp (Bauherr/
   Vermittler, Giebelweg 12 Langnau) bekommt «**Geschätzter Christoph**» (bestätigt das bereits
@@ -1405,7 +1405,7 @@ jemanden kennen» (Register per Person via @-Mention, bereits belegt). Quelle: 1
   **beratende** Du-Mail an einen langjährigen Geschäftspartner darf warm-persönlich statt
   dokumentierend schliessen, wenn kein zitierfähiges Ergebnis (Offerte/Rechtsposition als
   Festlegung) im Raum steht, sondern eine Einschätzung. Handschrift-Beleg: «**Deine**
-  Terminbestätigung» (Du gross) im Ausblick. (Batch 46, 2026-06-06, authentisch)
+  Terminbestätigung» (Du gross) im Ausblick. (Nachtrag Batch 50, 2026-06-06, authentisch)
 - **NEU — «Lieber Herr <Nachname>» als warm-Sie-Hybridform für den neuen privaten Ratsuchenden
   (Echo-Falle 17, nur Anrede/Gruss gewertet).** Dr. David Chaled (Neukontakt, Privatkunde,
   Bahnhofstrasse 27 Dachgeschoss) wird mit «**Lieber Herr Chaled**» angeschrieben — eine
@@ -1415,5 +1415,5 @@ jemanden kennen» (Register per Person via @-Mention, bereits belegt). Quelle: 1
   der Mail-Body dieses Threads ist KI-assistiert entstanden (Echo-Falle 17) und daher NICHT als
   Stilquelle verwendbar — nur Anrede und Gruss sind handschriftlich/authentisch geprüft und
   fliessen als Marker ein. Mapping-Ergänzung: Dr. David Chaled (Privatkunde, Dachgeschoss-Projekt)
-  → Sie, «Lieber Herr Chaled» / «Liebe Grüsse». (Batch 46, 2026-06-07, authentisch, Body
+  → Sie, «Lieber Herr Chaled» / «Liebe Grüsse». (Nachtrag Batch 50, 2026-06-07, authentisch, Body
   ausgeschlossen)

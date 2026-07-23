@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 23.07.2026 05:29:48
+Stand: 23.07.2026 06:10:28
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:06)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 23.07.2026 05:29:48
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- eea7579d nas-selfcommit: 1 Datei(en) 2026-07-23 05:15
+- 4267a94d twin-mail-training Batch 46: Beziehungsregister-Mappings (Eren/Sonderegger/Ziegel/Bopp/Chaled)

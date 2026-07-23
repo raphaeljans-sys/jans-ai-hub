@@ -1,9 +1,9 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-07-21
+last_updated: 2026-07-23
 gewichtung: authentisch
-sources: [260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
+sources: [260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -426,3 +426,34 @@ Aufwand koppeln» und den Root-Cause-Reframing-Marker (Batch 32).
   es sei «alles korrekt getan, um Euren Anliegen Nachdruck zu verleihen». Die Verfahrensstufe
   bestimmt die nötige Formtiefe; eine informelle Stufe wird nicht über-formalisiert. Reiht sich
   an den Verfahrensrealismus in [[fachsignatur]].
+
+## 260723 — Nachtrag Batch 50 (2026-06-04 … 2026-06-07)
+
+- **Die versöhnende dritte Option statt Entweder-oder.** Bei einem Dreifach-Zielkonflikt
+  (Betreiberwunsch «Fluchtwegtüre offen halten» ↔ Brandschutz-Restriktion «max. 20 Personen»
+  ↔ Türe darf im Aufgang keine andere Türe tangieren) formuliert Raphael den Konflikt zuerst
+  vollständig aus — welche Variante welche Nachbartüre tangiert, welche Auflage daraus folgt —
+  und sucht dann die Lösung, die alle drei Anforderungen gleichzeitig erfüllt: eine Schiebetüre,
+  normal offen, im Brandfall automatisch schliessend. Denkbewegung: **Konflikt vollständig
+  ausformulieren → dritte, versöhnende Option statt Kompromiss oder Verzicht**. Reiht sich an
+  das Sechs-Schritt-Entscheidgerüst (Batch 50), das denselben Türöffnungs-Fall bereits als
+  Entscheidvorlage dokumentiert — hier der vorgelagerte Lösungsfindungs-Schritt dazu. Quelle:
+  260723-nachtrag-batch50 (authentisch).
+- **Entscheid als saubere Zwei-Varianten-Wahl an den Betreiber zurückgeben.** Statt selbst zu
+  entscheiden, bereitet Raphael den Sachverhalt so auf, dass genau zwei Varianten mit je einem
+  klar benannten Vorteil und Preis gegenüberstehen — Variante A: Türe dauerhaft offen haltbar,
+  dafür Personengrenze 20; Variante B: keine Personengrenze, dafür Türe nicht dauerhaft offen —
+  und gibt den Entscheid an den Betreiber zurück, statt ihn vorwegzunehmen. Bestätigt das
+  bereits belegte Variantendenken (Batch 07, Batch 50) als durchgängiges Muster: die Wahl
+  gehört dem Auftraggeber, sobald beide Wege durchgerechnet sind. Quelle: 260723-nachtrag-batch50
+  (authentisch).
+- **Risiko-Priorisierung in der Erstabklärung (Denkmuster, KI-formuliert).** In einer frühen
+  Anfragen-Antwort isoliert Raphael die grösste planerische Unsicherheit und benennt sie offen
+  — hier: Übernutzung/Besitzstandsgarantie liegt im Ermessen der Behörde — und leitet daraus die
+  risikoärmste Handlungsempfehlung ab: der Weg ohne Baubewilligung umgeht diese Grundsatzfrage
+  von vornherein. Empirisch/verfahrensnah statt theoretisch begründet. Deckt sich mit der
+  bereits belegten «Selbstgestellten Q&A-Kaskade für unverbindliche Ersteinschätzung» (Batch 50,
+  «Ein Punkt ehrlich vorweg: Besitzstandsschutz/Übernutzung ist Ermessenssache»); die baurechtliche
+  Advisory-Prosa in dieser Quelle ist KI-assistiert formuliert, gewertet wird hier nur die
+  Denkbewegung (Risiko isolieren → risikoärmsten Weg ableiten), nicht der Wortlaut. Quelle:
+  260723-nachtrag-batch50 (KI-formuliert, Denkmuster gewertet).

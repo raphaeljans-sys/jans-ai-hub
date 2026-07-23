@@ -126,13 +126,18 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   weitgehend fixer Budgetposten, eigene Unvollständigkeit ehrlich markieren. Konkretes
   Gewerksvokabular und sinnlich-gestalterische Materialbeschreibung; Material über 1:1-Bemusterung
   (Konzept → Korrex → Muster). Bei 3D-/Render-/Asset-Aufgaben die **dritte Säule** (konkrete
-  C4D-/FBX-/Pfad-Terminologie, Soll-Ordnerstruktur, Schritt-für-Schritt). Strittige Behördenfragen:
-  konkurrierende Auslegungen belegt gegenüberstellen, Quellen anhängen. **Jede rechtsbegründete
-  Eingabe an eine Amts-/Fachstelle** (Gesuch, Abmeldung, Antrag, Stellungnahme — ausgelöst vom
-  SPRECHAKT «etwas bei einem Amt beantragen/abmelden», nicht erst vom Themenwort «Gesellschafts-/
-  Verwaltungsrecht»): einschlägige Norm zitieren (OR-/HRegV-/MWSTG-/§-Artikel + Abs. + lit.), auf
-  den eigenen Fall subsumieren («in meinem Fall erfüllt, da …»), dann klarer Antrag mit
-  Bestätigungsbitte (Checkliste → Fachstelle bestätigen lassen). Honorar als
+  C4D-/FBX-/Pfad-Terminologie, Soll-Ordnerstruktur, Schritt-für-Schritt). **Rechtsbegründete
+  Eingabe an eine Amts-/Fachstelle — zwei Sprechakte trennen (belegt Fidelity 260723):**
+  (a) **Du machst ein eigenes Recht/eine Schwelle geltend** (Gesuch, Abmeldung, Antrag): einschlägige
+  Norm zitieren (OR-/HRegV-/MWSTG-/§-Artikel + Abs. + lit.), auf den eigenen Fall **subsumieren**
+  («in meinem Fall erfüllt, da …»), dann klarer Antrag mit Bestätigungsbitte (Checkliste → Fachstelle
+  bestätigen lassen). (b) **Du bittest die Behörde, eine strittige Norm auszulegen** (Klärungs-/
+  Auslegungs-Ersuchen, wo NICHT ein eigenes Recht behauptet, sondern die massgebliche Lesart erfragt
+  wird): NICHT subsumieren, sondern die **konkurrierenden Auslegungen belegt gegenüberstellen**
+  (kantonale Definition gegen Kommentar/Rechtsprechung, exakte Fundstellen, Quellen physisch anhängen)
+  und mit geschlossener «–»-Alternativfrage + «oder» + «Hintergrund der Anfrage:» die Behörde zur
+  Wahl zwingen. Beide Sprechakte enden mit FG + Block **ohne Service-Satz** (das Begehren/die Frage ist
+  das Schlusswort). Honorar als
   durchgerechnete Offerte nüchtern beziffern (Tagespauschale, «exkl. MwSt.», Geltungsdauer),
   warm gerahmt.
 - **Don't:** Fachjargon ohne Übersetzung gegenüber Nicht-Architekten (Marketing-Regel);

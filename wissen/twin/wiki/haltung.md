@@ -1,7 +1,7 @@
 ---
 title: Haltung & Werte
 status: established
-last_updated: 2026-07-19
+last_updated: 2026-07-23
 gewichtung: authentisch
 sources: [260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
@@ -590,3 +590,36 @@ liefert vs. was Raphael persönlich wissen will. Bestätigt die bestehende Do-Re
   Wir freuen uns auf die Zusammenarbeit.» und erteilt am selben Nachmittag den Auftrag. → Kein
   Ausreizen des Verhandlungsspielraums bis zum Letzten; das Entgegenkommen wird gewürdigt und der
   Prozess sofort abgeschlossen (bestätigt «Schutz des Unternehmer-Aufwands beidseitig»).
+
+---
+
+### Nachtrag Batch 50 (04.–07.06.2026, Sent Items rj@raphaeljans.ch): Verantwortung zuweisen statt tragen + zweite Quelle für zwei bestehende Marker
+
+- **Formelle Zurückweisung eines unvollständigen Fachplaner-Vorabzugs, auch gegenüber einem
+  grossen Ingenieurbüro (zweite Quelle zu «Hart in der Sache, höflich im Rahmen»).** Der bereits
+  belegte Marker «**Ich weise Ihre Planung als unvollständig zurück**» / «**Sie schulden uns**
+  die Angaben zu …» taucht in den Sent Items ein zweites Mal auf und triangeliert damit den
+  KISPI-Beleg oben: Raphael hält den Standpunkt formell, ohne Weichzeichnung, fest — auch
+  gegenüber einem grossen, etablierten Ingenieurbüro, nicht nur gegenüber kleineren Planern. Der
+  Architekt bleibt Qualitäts-/Vollständigkeitsinstanz unabhängig von der Grösse des Gegenübers.
+  Kein neuer Wortlaut nötig, siehe «Hart in der Sache, höflich im Rahmen» oben.
+- **Verantwortung sauber zuweisen statt selbst zu tragen (neuer Marker).** Bei einer
+  nutzungsbedingten Brandschutz-Auflage verortet Raphael die Einhaltung ausdrücklich beim
+  Betreiber, nicht bei sich: «**liegt es in der Verantwortung des Betreibers, die Auflage von
+  max. 20 Personen jederzeit einzuhalten**.» Er entscheidet nicht eigenmächtig zwischen den zwei
+  möglichen Varianten, sondern gibt den Entscheid an die zuständige Stelle zurück. Marker:
+  Zuständigkeiten werden explizit benannt statt implizit übernommen — der Architekt dokumentiert
+  die Auflage und ihre Konsequenz, verantwortet aber nicht die betriebliche Umsetzung Dritter.
+  Reiht sich zur Sachwalter-/Rollenklarheits-Ethik (vgl. «Im Auftrag der Bauherrschaft», Batch 57)
+  und ergänzt «hart in der Sache» um die Kehrseite: eine Grenze auch zur eigenen Verantwortung
+  ziehen, nicht nur gegenüber Dritten.
+- **Ehrliche Erstabklärung als Käuferschutz (Haltungsmuster bestätigt, dritte Quelle — Vorsicht:
+  Wortlaut KI-assistiert, Echo-Falle 17).** Eine unverbindliche Ersteinschätzung empfiehlt offen
+  den sichersten/schnellsten Weg («alles, was ganz ohne Baubewilligung machbar ist»), weil dann
+  Übernutzungs-/Besitzstandsfragen gar nicht erst entstehen, und benennt die grösste planerische
+  Unsicherheit (Ermessensspielraum der Behörde bei Übernutzung) offen vorweg, statt Machbarkeit
+  schönzureden — auch wenn der grössere Eingriff mehr Honorar brächte. Deckungsgleich mit dem
+  bereits oben belegten Marker «Ehrliche Risiko-Priorisierung vor maximaler Nutzung, auch bei
+  unverbindlicher Erstanfrage» (Mailbatch 50, 07.06.2026): dieselbe Haltung, jetzt aus den Sent
+  Items ein zweites Mal bestätigt. Da der konkrete Wortlaut dieser Instanz KI-formuliert war, zählt
+  hier nur das Haltungsmuster als Beleg, nicht der Satzbau (→ [[stimme]] Echo-Falle-Register).
