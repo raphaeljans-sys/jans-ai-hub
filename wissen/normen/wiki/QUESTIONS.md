@@ -1,5 +1,12 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
+- [ ] **EN 520 Original-Destillat fehlt (2026-07-23, KISPI-Fall Rohdichte 800 kg/m³):** Der
+  Wiki-Artikel `en-520-gipsplattentypen` belegt die Typ-D-Definition (definierte Dichte
+  ≥ 800 kg/m³) bisher über zwei unabhängige Sekundärquellen (Rigips-Normbroschüre DIN EN 520,
+  FeuerTrutz/TÜV-Typentabelle) plus Produktdatenblätter (Duraline Vario/Habito = Typ DFIR).
+  Für die Volltext-Verifikation das Original SN EN 520 beschaffen (SharePoint PL-02
+  02_Normen prüfen) und als Destillat ablegen; danach Artikel-Quellen nachziehen.
+
 - [x] **ersetzt/ersetzt_durch-Lücke (Mac Mini Nachtschicht, 2026-07-22, DIN-Teilmenge):** aus dem
   Audit-F-Befund vom 21.07. ("Feld ersetzt/ersetzt_durch fehlt in 127 Destillaten") die DIN/VSS/
   RAL-Teilmenge (Mac-Mini-Scope) geprüft: von 67 DIN/VSS/RAL-Destillaten hatten nur 3 das Feld

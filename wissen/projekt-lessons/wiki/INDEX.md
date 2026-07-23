@@ -5,7 +5,7 @@ Inhaltsverzeichnis aller Lesson-Artikel. Vom Bibliothekar gepflegt.
 ## Fokus-Bereiche & Artikel
 
 ### Bauleitung / Ausführung
-- _(noch keine)_
+- [[kispi-lbw-rohdichte-800]] — Herkunft der QS-Vorgabe «Rohdichte min. 800 kg/m³» für LBW-Beplankungen im KISPI-Umbau: Beweiskette Bestands-LV (Typ DFIR) → EN 520 Typ D → Unternehmerdokumentation (Duraline/Habito); Lesson: QS-Vorgaben ohne Fundstelle zuerst gegen Erstellungs-LV + Unternehmerdok des Bestands prüfen
 
 ### Bauen im Betrieb (Healthcare)
 - _(noch keine)_

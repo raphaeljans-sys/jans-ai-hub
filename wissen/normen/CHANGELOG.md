@@ -1,3 +1,10 @@
+## 2026-07-23 — Neuer Artikel en-520-gipsplattentypen (KISPI-Fall Rohdichte 800 kg/m³)
+- [neu] Wiki-Artikel `en-520-gipsplattentypen` angelegt (Typ-Buchstaben A/D/F/H/I/R, Typ D =
+  definierte Dichte ≥ 800 kg/m³, DFIR-Lesart in Trockenbau-LVs, Abgrenzung VKF-Feuerwiderstand
+  vs. Typ D), im INDEX registriert. Anlass: Herkunftsklärung der Ziegel-Vorgabe 800 kg/m³ im
+  Projekt 2619 KISPI (Beweiskette in wissen/projekt-lessons). Lücke EN-520-Original-Destillat
+  in QUESTIONS erfasst.
+
 ## 2026-07-23 — Normen-Training Run 18 (MacBook Pro, SIA/VKF): 4 Anhang-Vertiefungen (Stufe a) geschlossen
 - [Vertiefung Stufe a] Vier Teil-Destillate um ihre offenen informativen Anhänge ergänzt und je
   adversarial am Original-PDF verifiziert (Destillier-Agent Sonnet → Verifikations-Agent Hauptmodell):
