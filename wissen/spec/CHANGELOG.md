@@ -1,5 +1,17 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-23 — Wissens-Health-Check (Skill wissenscheck, Phase 1, Mac Mini Nachtschicht)
+Aeltestes Audit-Datum aller KBs (letzter Check 01.07., 22 Tage). A gruen, B gelb (Selbst-Zitat
+`the-spec.md` haelt seit 22 Tagen), C gruen (Cherny-Claim seit 03.07. belegt; Environment-
+Zaehlstand 16/49/22/19 unabhaengig bestaetigt), D gelb (`_INGESTED.md` "offen einzuholen"
+veraltet — 3 von 4 Quellen laut QUESTIONS F4/F5 laengst eingeloest), E rot (`the-spec.md`
+`last_updated` 21.06. haelt trotz F5-Ergaenzung 27.06. unveraendert an), **F rot, neuer
+gravierender Fund: KB-weiter Verstoss gegen die eigene Echte-Umlaute-Regel — 968 ae/oe/ue-
+Ersatzschreibungen gegen 1 echten Umlaut in der ganzen KB**, vom 01.07.-Check faelschlich gruen
+bewertet; sogar der heutige Lauf-26-Eintrag mischt "Hält" (Ueberschrift) und "haelt" (Fliesstext)
+im selben Absatz. G gruen. Report: `outputs/2026-07-23_health-check.md`. Keine Phase-2-Aktion
+ausgefuehrt (Nachtschicht-Scope: nur Audit + Ablage).
+
 ## 2026-07-23 — Trainingslauf 26
 - Output `outputs/2026-07-23_training-run26.md`. **Verifikationslauf** — keine neue reale Spec seit
   Lauf 24 (SYN-02); Lauf 25 war bereits Verifikation. Zwei substanzielle Beiträge: P1-Hält-Prüfung +

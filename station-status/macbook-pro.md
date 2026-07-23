@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 23.07.2026 07:21:28
+Stand: 23.07.2026 07:41:46
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:02)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 23.07.2026 07:21:28
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 816e38f1 nas-selfcommit: 11 Datei(en) 2026-07-23 07:15
+- a40775e0 energie: Adversarial-Verify Runde 2 Förderprogramm SZ 2026 (23.07.2026)

@@ -1,11 +1,11 @@
 ---
-quelle: «Foerderung von Photovoltaikanlagen — Einmalverguetung, gleitende Marktpraemie und Boni» (BFE-Faktenblatt) + aktuelle CHF-Saetze KLEIV (CKW/Pronovo)
-herausgeber: Bundesamt fuer Energie BFE (Faktenblatt, pubdb 7238) · Saetze: Pronovo AG / CKW-Uebersicht
-ausgabe: BFE-Faktenblatt (Struktur EnFV; SR 730.03) · CHF-Saetze Stand September 2025
-gelesen: 2026-06-27 (BFE-Faktenblatt vollst. S. 1-5; KLEIV-Saetze via CKW/Pronovo-Web)
-datenstand: Struktur 2025 (ab 1.1.2025 erhoehte Boni) · CHF/kWp **Stand September 2025**, fuer 2026 verifiziert (Basis-Saetze unveraendert; einzige Aenderung Winterstrombonus ≥100 kW ab IBN 1.1.2026) — KLEIV jaehrlich neu festgelegt
+quelle: «Foerderung von Photovoltaikanlagen — Einmalverguetung, gleitende Marktpraemie und Boni» (BFE-Faktenblatt, pubdb 7238) + «Richtlinie zur Energiefoerderungsverordnung EnFV Photovoltaik» (Pronovo, Vollzugs-Richtlinie) + ElCom-FAQ Mantelerlass (Minimalverguetung Art. 15 EnG)
+herausgeber: Bundesamt fuer Energie BFE (Faktenblatt pubdb 7238) · Pronovo AG (Vollzugs-Richtlinie, Tarifrechner) · ElCom (Fachsekretariat, FAQ ES2050/Mantelerlass)
+ausgabe: BFE-Faktenblatt Stand 27.11.2025 (PDF-Metadaten) · Pronovo «Richtlinie Photovoltaik 2026», Version 4.1, Ausgabedatum 03.06.2026 · ElCom-FAQ 053-00004, Update 10.02.2026 · BFE Referenz-Marktpreise Art. 15 EnFV, Stand 14.07.2026
+gelesen: 2026-07-23 (Pronovo-Richtlinie PDF vollst. 56 S. via pdftotext; BFE-Faktenblatt PDF 5 S.; ElCom-FAQ PDF Abschnitt 1.6 + Fussnoten Art. 12/15; BFE-Referenzmarktpreise-PDF; Pronovo-Website haeufige-fragen/ + neuerungen-einmalverguetung-photovoltaik/ als Rohtext)
+datenstand: Struktur 2025/2026 (ab 1.1.2025 erhoehte Neigungs-/Parkflaechenboni) · Basis-Leistungsbeitraege KLEIV unveraendert seit 01.04.2025 (360/300/400 CHF/kWp) · **Grundbeitrag = CHF 0 seit 1.4.2024** (jetzt primaerquellen-belegt) · Winterstrombonus (ersetzt Hoehenbonus) fuer IBN ab 1.1.2026 neu mit CHF-Wert belegt · Minimalverguetung Rueckliefer-/Abnahmepflicht neu seit 1.1.2026 (Art. 15 EnG/Art. 12 EnV) — separat dokumentiert, nicht Teil der EIV
 status: established
-last_updated: 2026-06-29
+last_updated: 2026-07-23
 ---
 
 # Destillat — PV-Einmalverguetung des Bundes (EIV / KLEIV / GREIV / HEIV)
@@ -38,9 +38,12 @@ und gedeckelt auf **max. 30 %** der Referenz-Investitionskosten — abgewickelt 
 - Rechenbeispiel: **10 kWp angebaut → ~3'600 CHF**; **5 kWp integriert → 2'000 CHF**.
 - ⚠ Die Saetze werden **jaehrlich neu** festgelegt (sinkende Tendenz). Verbindlich rechnet der
   **Pronovo-Tarifrechner** (`pronovo.ch/de/services/tarifrechner/`); massgebend ist das Inbetriebnahme-Datum.
-- ⚠ Zur **Grundbeitrag/Leistungsbeitrag-Aufteilung** (EnFV): die Branchen-Uebersichten weisen die EIV
-  praktisch nur noch als **Leistungsbeitrag pro kWp** aus — der frueher separate Grundbeitrag ist in
-  den Tarifrechner-Saetzen aufgegangen; exakte Aufteilung nur ueber EnFV/Tarifrechner (nicht geschaetzt).
+- **Grundbeitrag/Leistungsbeitrag-Aufteilung geklaert (verifiziert 2026-07-23):** Die EIV besteht aus
+  Grund- **und** Leistungsbeitrag pro kW, wobei der **Grundbeitrag seit dem 1. April 2024 CHF 0**
+  betraegt (Pronovo-Richtlinie Photovoltaik 2026 v4.1, Kap. 8, S. 20/34: «Wobei der Grundbeitrag seit
+  dem 1. April 2024 CHF 0 beträgt»). Die EIV ist damit faktisch reiner Leistungsbeitrag, gestaffelt nach
+  Leistungsklassen — kein separat auszuweisender Grundbeitrag mehr. Damit ist der bisherige offene Punkt
+  zur Aufteilung beantwortet.
 
 ## Drei Anlagenkategorien (Definition BFE)
 - **Freistehend:** auf freier Flaeche, eigene Unterkonstruktion, nicht auf Gebaeude/Infrastruktur.
@@ -51,9 +54,19 @@ und gedeckelt auf **max. 30 %** der Referenz-Investitionskosten — abgewickelt 
 ## Boni (teils kumulierbar)
 | Bonus | Voraussetzung | Wirkung |
 |---|---|---|
-| **Neigungswinkelbonus** | Modulneigung **≥75°** (Fassade/Steilanlage, **Winterstrom**) | hoeherer Leistungsbeitrag; integriert nochmals hoeher; **nicht** mit Winterstrombonus kombinierbar |
-| **Winterstrombonus** | ≥100 kW **und** spez. Winterertrag **>500 kWh/kW** | hoehere Foerderung; nicht mit Neigungsbonus kombinierbar |
-| **Parkflaechenbonus** | ≥100 kW auf **dauerhaft unueberdachten Parkflaechen** | hoehere Foerderung |
+| **Neigungswinkelbonus** | Modulneigung **≥75°** (Fassade/Steilanlage, **Winterstrom**) | integriert **400 CHF/kW**, angebaut/freistehend **200 CHF/kW** (seit 1.1.2025); **nicht** mit Winterstrombonus kombinierbar |
+| **Winterstrombonus** | ≥100 kW, IBN **ab 1.1.2026**, spez. Winterertrag (1.10.–31.3.) **>500 kWh/kW**, 3 volle Winterhalbjahre | **3.50 CHF/kW** (Anlagen ohne Eigenverbrauch) bzw. **2.50 CHF/kW** (mit Eigenverbrauch), je multipliziert mit dem durchschnittlichen spezifischen Winterstrommehrertrag; **ersetzt seit 1.1.2026 den bisherigen Hoehenbonus** (Details unten); nicht mit Neigungsbonus kombinierbar |
+| **Parkflaechenbonus** | ≥100 kW auf **dauerhaft unueberdachten Parkflaechen** | **250 CHF/kW** (seit 1.1.2025); kumulierbar mit Neigungs- **oder** Winterstrombonus |
+
+### Hoehenbonus → Winterstrombonus (Ablauf verifiziert 2026-07-23)
+Der bisherige **Hoehenbonus** (Anlagen ≥150 kW, Standort ≥1'500 m ü. M., ausserhalb Bauzone, nicht
+angebaut/integriert) galt nur fuer Anlagen mit **IBN 1.1.2023–31.12.2025** und ist damit fuer
+Neuanlagen 2026 **nicht mehr verfuegbar** — er wurde per 1.1.2026 durch den Winterstrombonus
+ersetzt (Pronovo-Richtlinie 2026 v4.1, Kap. 9.2: «Per 1. Januar 2026 wurde der Höhenbonus durch den
+Winterstrombonus ersetzt»). Anlagen mit vor dem 1.1.2026 **zugesichertem** Hoehenbonus behalten
+diesen grundsaetzlich; ein Wechsel zum Winterstrombonus ist unter Bedingungen (Verzicht, IBN nicht
+vor 1.1.2026, Meldung nach dem 3. Winterhalbjahr) moeglich. Fuer JANS-Bauherren praktisch relevant nur
+bei Grossanlagen ≥100 kW — das typische EFH/MFH ist nicht betroffen.
 
 ## Bauherren-Transfer
 - **PV-Foerderung kommt vom Bund, nicht vom Kanton ZH** — ueber die Pronovo-EIV. Fuer ein typisches EFH
