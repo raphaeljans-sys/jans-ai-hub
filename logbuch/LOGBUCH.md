@@ -7,6 +7,22 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-23
 
+**Nachtschicht Mac Mini (~19:00, Wissens-Health-Check).** Priorisierung durchlaufen:
+remote-tasks/sync-tasks leer, Synobsis Stufe 2 weiterhin erschoepft (853/853, kein neuer
+Stoff seit 02.07., Empfehlung Task-Stop steht seit 9 Laeufen unveraendert), `energie` heute
+bereits trainiert (Run 84, 08:xx), `planungsgrundlagen` hat nur eine offene Frage (D9
+MFH-/ZEV-Betriebsenergie) und die war gestern (22.07.) bereits negativ bestaetigt (kein
+neues Material), DIN/VSS/RAL-Normeninventar vollstaendig abgehakt (Q&A-Selbstbefragung +
+Retro-Verifikation je Datei). Daher Fallback Skill `wissenscheck` Phase 1 auf
+`entwurfs-referenzen` (aeltestes Audit-Datum, 20.07., 3 Tage). Fund: die vier
+Domaenen-Sub-Indizes (architekten/entwurfsprinzipien/materialien/typologien) widersprechen
+weiterhin dem Haupt-Register (behaupten ausstehenden Seed-Import, obwohl seit 20.07. als
+UEBERHOLT erklaert). Promotion-Kandidat: `typologien/bildung.md` liesse sich jetzt aus dem
+bereits refuter-verifizierten Schulhaus-Parameter-Set + wettbewerbs-dna-Benchmark
+kompilieren — waere der erste echte Wiki-Artikel dieser bisher JSON-only-KB. Report
+`wissen/entwurfs-referenzen/outputs/2026-07-23_health-check.md`, CHANGELOG ergaenzt. Keine
+Phase-2-Aktion (Nachtschicht-Scope). Verbrauch: ~2.9 USD von 5 USD Budget.
+
 **Hub-Chef-Lauf ohne Befund (~08:40).** Signale eingesammelt: Fristen-Register + LOGBUCH (7-Tage-Horizont), Konversations-Destillat 23.07. (Kernbefund: keine echten Gespraeche im 26h-Fenster, alle Sessions Routine/Loops), Mail-Vorfilter 26h (alle Konten inkl. M365 + outlook.com), bexio `--verzug` und `--abgleich`. Ergebnis: **kein neuer Befund, keine Whitelist-Aktion, kein Entwurf faellig.** Begruendung im Einzelnen: (1) Der Radar-Lauf ~07:00 hat heute bereits EIN umfassendes Briefing an rj@ versendet (TeKoSi Los 231.10 beauftragt, KISPI-Brandschutz finale Abgabe/Upload bis Mittag, Debitoren CHF 32'280, Saumstrasse 21 Frist 24.07., Koordinationssitzung 13:00, Standing-Infra Umlaut-Config/Dispatch-Token/Twin-KB) — eine zweite Mail waere reine Doppelmeldung. (2) bexio `--verzug` unveraendert (RE-00087 98 Tg auf **Mahnung 2** → naechste Stufe waere 3/Betreibung = NICHT A1-whitelisted, nur Entwurf/Entscheid Raphael; RE-00098/99 je 3 Tg, bereits auf **Stufe 1 Zahlungserinnerung** mit laufender Frist 03.08. → keine A1-Auslösung). `--abgleich`: die drei KISPI-Positionen sind echt-offen verifiziert (die 19 «gebucht ohne Bankbeleg» sind Alt-Positionen 2022–2025, kein Bezug). (3) A2 (Kalender): heutige 13:00-Sitzung bereits im Kalender, kein neuer eindeutiger Termin. (4) Zeitkritische Punkte heute (Ziegel-Korrekturfassung → Upload bis Mittag; Stadelmann-Rohdichte-Antwort 06:53) werden von Raphael aktiv bearbeitet (RJ-Sent 07:21), kein autonomer Beitrag ohne Ziegel-Fassung moeglich. Standing «Aktion Raphael (Config/Infra)» bleibt offen und ist im Register + Radar-Mail bereits gefuehrt. Keine Mail versendet.
 
 **Nachtschicht Mac Mini (~08:35, Wissens-Health-Check Folgelauf).** Doppelarbeit-Guard: 07:30-

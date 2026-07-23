@@ -1,5 +1,19 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-07-23 (Wissens-Health-Check, Nachtschicht Mac Mini ~19:00)
+- Wissenscheck Phase 1 (aeltestes Audit-Datum, 20.07., 3 Tage): die 20./21.07.-Fixes
+  (Haupt-INDEX, QUESTIONS) sind weiterhin korrekt wirksam, alle drei Parameter-Sets
+  weiterhin schema-valide (`validate.py` OK). Neuer Fund: die vier Domaenen-Sub-Indizes
+  (`architekten/`, `entwurfsprinzipien/`, `materialien/`, `typologien/` je `INDEX.md`)
+  behaupten weiterhin woertlich einen ausstehenden Seed-Import, obwohl das Haupt-Register
+  dies seit 20.07. als UEBERHOLT fuehrt — Widerspruch zwischen Sub- und Haupt-Register.
+  Promotion-Kandidat: `typologien/bildung.md` liesse sich jetzt aus dem bereits
+  refuter-verifizierten `schule-volksschule-ch.json` + dem established Benchmark
+  `wettbewerbs-dna/kennwerte-schulbauten` kompilieren (erster echter Wiki-Artikel dieser
+  KB). Kein neues Seed-Material fuer weitere Parameter-Sets gefunden (bestaetigter
+  Nicht-Fund). Keine Phase-2-Aktion (Nachtschicht-Scope, nur Audit). Report:
+  `outputs/2026-07-23_health-check.md`.
+
 ## 2026-07-21 (2. Eintrag, Nachtschicht-Zyklus Mac Mini ~20:30 — INDEX/QUESTIONS nachgezogen)
 - [index] `wiki/INDEX.md` Zeile Schulhaus-Set war noch als «Angekündigt aus wettbewerbs-dna B5»
   formuliert, obwohl das Set laut Eintrag weiter unten (selber Tag) bereits eingetroffen,
