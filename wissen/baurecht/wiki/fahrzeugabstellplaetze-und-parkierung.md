@@ -139,6 +139,11 @@ als Abs. 2; die aktuelle §-Zaehlung fuer Reverse/Bewilligungen ist Abs. 3.)*
   von Veloparkierungsanlagen». Beide Normen sind in der aktuellen VSS-Nomenklatur (Stand 2025)
   als **VSS 40 065** (2011/2019, Bedarfsermittlung und Standortwahl) und **VSS 40 066**
   (2011/2019, Projektierung) gefuehrt — inhaltlich dieselben Normen, nur umnummeriert/revidiert.
+  *Vorbehalt (Cross-KB Run 13, 2026-07-23):* Der geänderte Titel «Parkieren; Projektierung…» ist
+  über das normen-Destillat `wissen/normen/destillate/vss-640065-2011` (Ziff. 2–3, S. 4) belegt;
+  die konkreten Ausgabe-Jahre «2011/2019» und die Kurznummer «VSS 40 066» stammen aus der
+  ParkingSwiss-Guideline, nicht aus einer amtlichen VSS-Ausgabe — vor verbindlicher Zitierung
+  Ausgabe-Stand direkt bei der VSS gegenprüfen.
   Belegte Bemessungswerte (Stellplatzzahl/Fläche je Nutzung) im normen-Destillat
   `wissen/normen/destillate/vss-merkblatt-veloabstellplaetze-1998`.
   **Verifiziert 2026-07-13 (Buch-Run 33), Rollen-Korrektur 2026-07-22 (Cross-KB Run 12):** Die

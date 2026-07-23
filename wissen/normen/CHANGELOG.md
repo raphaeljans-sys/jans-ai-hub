@@ -1,3 +1,14 @@
+## 2026-07-23 — Wissens-Chef Run 13 (Cross-KB): SN 640 066 Ausgaben-Divergenz aufgeloest + sia-2040-Rueckverweis
+- [korrektur] `destillate/vss-640066-1996.md`: adversarial verifizierte Divergenz (Verdikt CONFIRMED) —
+  baurecht fuehrte SN 640 066 als «VSS 40 066 (2011/2019), neuer Titel Parkieren; Projektierung», dieses
+  Destillat hingegen nur Ausgabe 1996 mit `ersetzt_durch: nicht bekannt`, WAEHREND das eigene
+  `vss-640065-2011.md` (Ziff. 2-3, S. 4) 640 066 bereits mit dem NEUEN Titel zitiert (KB-interne
+  Inkonsistenz). Aufgeloest: `ersetzt_durch` mit Cross-Verweis auf [[vss-640065-2011]] gefuellt (Titel-Wechsel
+  belegt, Ausgabe-Jahr NICHT als gesichert gesetzt), `links` um [[vss-640065-2011]] ergaenzt, Body-Nachtrag mit
+  Beleglage. Kein unbelegter Jahrgang behauptet.
+- [ergaenzt] `destillate/sia-2040-2017.md` (JANS-Praxis-Transfer, normen-referenz-Kette): Rueckverweis auf
+  KB energie `graue-energie.md` fuer die angewandten kg-CO2-Kennwerte (bidirektional zu energie). Cross-KB Run 13.
+
 ## 2026-07-23 — Nachtschicht Mac Mini (~22:30): Wissenscheck-Faelligkeit geprueft, als zu gross geflaggt
 - [Registerpflege] Wissenscheck Phase 1 ist mit Audit-Datum 20.07.2026 faellig (aeltestes Datum
   neben der taeglich selbst-auditierenden Meta-KB `koordination`). Umfang geprueft: 289 Destillat-/

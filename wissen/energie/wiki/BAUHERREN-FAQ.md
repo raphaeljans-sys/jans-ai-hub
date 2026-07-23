@@ -4038,7 +4038,9 @@ braucht kritische Masse. Wichtig für die Kostenschätzung: **jedes Gebäude bra
 Wärmepumpe** (Kosten beim Bauherrn/Stockwerkeigentümer, nicht beim Netzbetreiber). Eine belastbare
 CHF/m²- oder Rp./kWh-Kennzahl speziell für Anergienetze ist öffentlich **nicht belegt** — projektweise
 mit einem Fachplaner rechnen; im Kt. Zürich ist die kommunale Energieplanung der Anknüpfungspunkt
-(Wärmeverbund-Zone bei der Standortgemeinde abklären). → `[[anergienetz-kalte-fernwaerme-ch]]`,
+(Wärmeverbund-Zone bei der Standortgemeinde abklären) — **wo beziehen** (Querbezug KB
+planungsgrundlagen): ZH-Energie-/Wärmerichtplan-Layer bzw. LU `klimafreundlichheizen.ch`, gebündelt in
+`wissen/planungsgrundlagen/wiki/kartenportale-geoportale-uebersicht.md`. → `[[anergienetz-kalte-fernwaerme-ch]]`,
 `[[fernwaerme-anschlusskosten-zh]]`. Datenstand 2026-07-23. Status **emerging** (Referenzen belegt,
 rechtlicher ZH/SZ-Rahmen nur Snippet-Beleg).
 
@@ -4062,4 +4064,8 @@ Grossbauten-/Fundationslösung (lohnend, wenn ohnehin fundiert wird), kein typis
 CH-amtlicher Entzugsleistungs-Kennwert (W/m²) liess sich **nicht** belegen (nur deutsche VDI-4640-Werte)
 — die Auslegung gehört zwingend zu einem FWS-Fachplaner/einer Bohrfirma. →
 `[[oberflaechennahe-erdwaerme-flaechenkollektor-erdwaermekorb-zh-sz]]`, `[[erdwaermesonden-bewilligung-zh-sz]]`.
+**Vor der Haustechnikplanung** den amtlichen Eignungslayer prüfen (Querbezug KB planungsgrundlagen):
+`wissen/planungsgrundlagen/wiki/kartenportale-naturgefahren-objektschutz.md` §6c (Erdwärmenutzung —
+SZ-Zonierung zulässig/Abklärung/nicht zulässig + Bestandeskataster Erdregister/Energiekorb/Energiepfahl/
+Erdwärmesonde) und §8b (ZH-Grundwasserschutzzonen S1/S2/S3, WFS-Connector).
 Datenstand 2026-07-23. Status **emerging** (ZH-Verfahren amtlich belegt, W/m²-Kennwerte + SZ-Volltext offen).

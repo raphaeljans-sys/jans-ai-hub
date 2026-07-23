@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 23.07.2026 23:10:00
+Stand: 23.07.2026 23:20:02
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:40)
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:53)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 23.07.2026 23:10:00
 - 6 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- a5ffe339 energie-run86: Anergienetz (F109) + oberflaechennahe Erdwaerme (F110), PV-Marktpreise BFE-2024/Indach-Korrektur; Run-85-FAQ F106-F108 nachgeholt
+- 13c7ef62 nas-selfcommit: 2 Datei(en) 2026-07-23 23:15

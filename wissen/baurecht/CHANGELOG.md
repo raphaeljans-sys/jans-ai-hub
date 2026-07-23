@@ -4,6 +4,18 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-23 — Wissens-Chef Run 13 (Cross-KB): SN-640-066-Ausgabe-Vorbehalt + Naturgefahren-Backlog-Anker
+- [korrektur] `wiki/fahrzeugabstellplaetze-und-parkierung.md`: an die Angabe «VSS 40 066 (2011/2019)» einen
+  Herkunfts-Vorbehalt gesetzt (adversarial verifiziert, Verdikt CONFIRMED) — der geaenderte Titel «Parkieren;
+  Projektierung» ist ueber das normen-Destillat `vss-640065-2011` belegt, die konkreten Ausgabe-Jahre und die
+  Kurznummer stammen aber aus der ParkingSwiss-Guideline, nicht aus einer amtlichen VSS-Ausgabe → vor
+  verbindlicher Zitierung gegenpruefen. Divergenz zu normen damit aufgeloest, kein Jahrgang als gesichert.
+- [ergaenzt] `wiki/INDEX.md` (Backlog/Luecken): Naturgefahren/Gefahrenzonen (Rechtsstatus rote/blaue/gelbe Zone)
+  als eigenen Backlog-Punkt registriert. Grund: planungsgrundlagen (`kartenportale-naturgefahren-objektschutz`)
+  delegiert den Recht-Status hierher («baurecht fuehrend»), baurecht hielt aber bisher nur den Gewaesserraum-Aspekt
+  (in `abstaende-und-hoehen`) und keinen INDEX-Anker — die Delegation zeigte ins Leere (Dangling-Delegation). Jetzt
+  als Bring-Schuld sichtbar/nachfuehrbar gemacht, ohne Destillat zu erfinden. Cross-KB Run 13.
+
 ## 2026-07-22 — Wissens-Chef Run 12 (Cross-KB): SN 640 060 Rollen-Korrektur + INDEX/SIA-500 nachgezogen
 - [korrektur] `wiki/fahrzeugabstellplaetze-und-parkierung.md`: der Vermerk «SN 640 060 existiert
   nicht / Fehlzitat entfernt» (Buch-Run 33) war zu absolut — adversarial verifiziert (Cross-KB Run 12):

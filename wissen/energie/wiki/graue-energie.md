@@ -82,6 +82,8 @@ Das verbindliche KBOB-Faktenblatt **«Graue Treibhausgasemissionen bei der Erste
 liefert den Rahmen (Datenstand 04.04.2025) → `[[kbob-graue-treibhausgasemissionen-2025]]`:
 - **Umfang GTHGE** = Module **A + B4 + C** nach SN EN 15804 / **SIA 2032** (Herstellung+Errichtung,
   Ersatz, Entsorgung) — **ohne** Betrieb/Mobilität. Messgrösse **kg CO₂-eq/m² EBF** (absolut oder /Jahr).
+  Norm-Rechenkette (SIA 2032/2040/2039, EN 15804) im normen-Destillat `wissen/normen/destillate/sia-2040-2017`
+  (Querbezug KB normen: dort die Norm-Ziffern/Rechenbasis, hier die angewandten Kennwerte).
 - **Datenbasis:** KBOB-**Ökobilanzdaten im Baubereich v8.0 (20.02.2026)** — anerkannte Werte für
   GWP/Primärenergie/UBP je Baustoff; SIA-2032-Vorprojektwerte rechnen sie auf Bauteile herunter.
 - **Reduktionspotenzial bis 40 %** (MFH) durch Kombination baulicher Massnahmen. Die **9 Hebel**

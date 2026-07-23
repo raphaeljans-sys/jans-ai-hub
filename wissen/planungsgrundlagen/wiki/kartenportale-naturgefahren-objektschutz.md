@@ -314,6 +314,12 @@ Entscheid, hier aber fuer die Heizungs-/Energiekonzept-Wahl. Eine "gelb" oder "r
 Parzelle bedeutet fruehzeitigen Kontakt mit dem Amt fuer Umweltschutz/Amt fuer Geoinformation,
 bevor die Haustechnikplanung auf Erdwaerme festgelegt wird.
 
+**Querbezug KB energie** (Bewilligungsverfahren, Kosten, Systemwahl): Flaechenkollektor/
+Erdwaermekorb/Energiepfahl vs. Sonde, ZH-Zusatzformular «Oberflaechennahe Erdwaerme» (BVV Ziff.
+5.6.2) und Anergienetz/kalte Fernwaerme in `wissen/energie/wiki/BAUHERREN-FAQ.md` F108/F110/F109.
+Rollenteilung: planungsgrundlagen haelt die beschaffbare Eignungsgrundlage (GIS-Layer), energie
+die Physik/das Verfahren/die Kennwerte.
+
 **Status `emerging`:** Legende + Zonierungslogik vollstaendig belegt (Original gelesen), aber
 kein ZH-Vergleichslayer gepruft und kein Connector-Zugriff getestet (derselbe Beschaffungsweg
 wie Grundwasserkarte/Oekomorphologie — manueller WebGIS-Export Kt. SZ, kein bekannter REST-

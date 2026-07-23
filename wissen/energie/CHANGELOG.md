@@ -2,6 +2,20 @@
 
 Neueste zuoberst.
 
+## 2026-07-23 — Wissens-Chef Run 13 (Cross-KB): Indach-«+60 %»-Korrektur + 3 Querverlinkungen
+- [korrektur] `wiki/pv-solar-technologien.md` (Kosten-Sektion): der stehen gebliebene Wert «Indach ~+60 %»
+  war stale und widersprach der eigenen Run-86-Korrektur (`QUESTIONS.md` E-R86c) UND der KB planungsgrundlagen
+  (`energie-pv-eignung-typenwahl`). Adversarial verifiziert (Verdikt CONFIRMED, KB-intern nicht propagiert).
+  Ersetzt durch quellentreuen Vorbehalt (BFE-Preisbeobachtungsstudie 2024: kein signifikanter Aufschlag mehr
+  für Standard-Module Typ E; Faustregel «+60 %» undatiert/relativiert), Solarziegel-«~doppelt» bleibt; KEIN
+  Zahlenwert erfunden. Verweis auf `[[pv-marktzahlen-kosten-ch-2025]]` + pg.
+- [ergänzt] `wiki/graue-energie.md`: Querbezug KB normen gesetzt — Norm-Rechenkette SIA 2032/2040/2039/EN 15804
+  im normen-Destillat `sia-2040-2017` (dort Norm-Ziffern, hier angewandte Kennwerte). Bidirektional (normen zieht zurück).
+- [ergänzt] `wiki/BAUHERREN-FAQ.md`: F110 (oberflächennahe Erdwärme) → Querbezug KB planungsgrundlagen auf den
+  amtlichen Eignungslayer (naturgefahren-objektschutz §6c Erdwärmenutzung + §8b Grundwasserschutzzonen);
+  F109 (Anergienetz) → Bezugsquelle ZH-Wärmerichtplan/LU klimafreundlichheizen.ch (pg geoportale-uebersicht).
+  Beide bidirektional (pg-Rückverweise gesetzt). Cross-KB Run 13. Report: `wissen/koordination/outputs/2026-07-23_wissens-chef-run13.md`.
+
 ## 2026-07-23 — Energie-Run 86: komplementärer Lauf zur Parallel-Session Run 85 (drei Sonnet-Agenten, umlaut-sauberes Muster)
 Zweiter Lauf am selben Tag, bewusst schlank (Drossel Rule 260714) und komplementär zu Run 84/85.
 PDF-Inventar erschöpft, Web-/Verdichtungspfad; drei Sonnet-Rechercheagenten liefern NUR Text zurück,

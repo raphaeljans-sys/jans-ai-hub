@@ -44,6 +44,66 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### energie ↔ planungsgrundlagen (Erdwaerme F110 / Anergienetz F109 / Naturgefahren) — geprueft 2026-07-23 (Run 13)
+- **Anlass:** energie Run 85/86 (23.07.) mit neuen FAQ F109 Anergienetz/kalte Fernwaerme + F110 oberflaechennahe
+  Erdwaerme; pg Run 57 Naturgefahren-GIS-Endpunkt.
+- **Befund 1 (FEHLENDE QUERVERLINKUNG, autonom gesetzt):** F110 Erdwaerme hatte keinen Verweis auf den amtlichen
+  pg-Eignungslayer (`naturgefahren-objektschutz` §6c Erdwaermenutzung + §8b Grundwasserschutzzonen) → beidseitig
+  verlinkt (energie F110 → pg §6c/§8b; pg §6c → energie F108/F110/F109). Rollenteilung: pg = beschaffbare
+  Eignungsgrundlage (GIS), energie = Physik/Verfahren/Kennwerte.
+- **Befund 2 (FEHLENDE QUERVERLINKUNG, autonom gesetzt):** F109 Anergienetz nannte «kommunale Energieplanung»,
+  aber nicht die Bezugsquelle → energie F109 → pg `geoportale-uebersicht` (ZH-Waermerichtplan-Layer / LU
+  klimafreundlichheizen.ch).
+- **Befund 3 (WIDERSPRUCH, adversarial CONFIRMED, autonom korrigiert):** «Indach +60 %» in energie
+  `pv-solar-technologien.md` stale, widersprach eigener Run-86-Korrektur (E-R86c) + pg `energie-pv-eignung-typenwahl`
+  → Vorbehalt gesetzt, kein Zahlenwert erfunden (KB-intern, aber Cross-KB relevant).
+- **Naturgefahren (pg Run 57) ↔ energie:** legitimes Null-Ergebnis (energie deckt Objektschutz/Hochwasser nicht ab).
+  **Status: 3 autonome Aktionen (2 Cross-Links bidirektional + 1 verifizierte Korrektur); keine offenen Entscheide.**
+
+### energie ↔ grobkosten ↔ immobilienbewertung (PV-Marktpreise BFE-2024) — geprueft 2026-07-23 (Run 13)
+- **Anlass:** energie Run 86 neue PV-Marktpreise BFE-2024 + Indach-Korrektur.
+- **Befund: Null.** Weder grobkosten noch immobilienbewertung fuehren eigene PV-Kostenwerte (CHF/kWp, Indach); beide
+  deferieren per Verweis auf das energie-Destillat `pv-marktzahlen-kosten-ch-2025` (bidirektional intakt, kein Broken
+  Link). Die Run-86-Aktualisierung propagiert automatisch, ohne Pflege in den Konsumenten-KBs. E1/Run-4 unangetastet.
+  **Status: legitimes Null-Ergebnis, kein Handlungsbedarf.**
+
+### normen ↔ baurecht (SN 640 066 Ausgabe-Divergenz + SIA-500 + 4 fehlende Links) — geprueft 2026-07-23 (Run 13)
+- **Befund 1 (WIDERSPRUCH, adversarial CONFIRMED, autonom aufgeloest):** baurecht fuehrte SN 640 066 als «VSS 40 066
+  (2011/2019), neuer Titel Parkieren; Projektierung»; normen-Destillat `vss-640066-1996` nur Ausgabe 1996 mit
+  `ersetzt_durch: nicht bekannt`, WAEHREND `vss-640065-2011` (Ziff. 2-3, S. 4) 640 066 bereits mit dem neuen Titel
+  zitiert (KB-interne Inkonsistenz). Aufgeloest: normen `ersetzt_durch` Cross-Verweis + [[vss-640065-2011]] in links +
+  Body-Nachtrag; baurecht Herkunfts-Vorbehalt. Titel belegt, Ausgabe-Jahr NICHT als gesichert gesetzt.
+- **SIA 500 «1 je 25 Parkplaetze»:** in normen `sia-500-2009` bestaetigt, deckungsgleich mit baurechts korrigierter
+  Lesart. Der offene ⚠-Flag betrifft nur die Herkunft des alten Falschwerts (getrackt, nicht neu).
+- **Befund 2 (FEHLENDE QUERVERLINKUNG, niederprioritaer, NICHT ausgefuehrt):** 4 baurecht→normen-Links bei
+  existierenden Destillaten (SIA 380/1, SIA 358, SIA 414/10, SIA 431) — illustrative «weitere Normen»-Aufzaehlungen,
+  keine Fundstellen-Pflicht; SIA 414/10 hat zusaetzlich moeglichen Ausgabe-Mismatch (414/10 vs. 414:1980, vor
+  Verlinkung pruefen). Als Loop-Arbeit geflaggt.
+  **Status: 1 verifizierter Widerspruch aufgeloest (normen+baurecht); 4 Links niederprioritaer offen.**
+
+### baurecht ↔ planungsgrundlagen (Naturgefahren/Gefahrenzonen Dangling-Delegation) — geprueft 2026-07-23 (Run 13)
+- **Befund (FEHLENDE QUERVERLINKUNG, strukturell, autonom teil-gesetzt):** pg `naturgefahren-objektschutz` deklariert
+  «fuer den Recht-Status ist baurecht fuehrend», baurecht hielt aber kein Gefahrenzonen-Destillat und keinen
+  INDEX-Anker (nur der Gewaesserraum-/Hochwasser-Aspekt in `abstaende-und-hoehen`, Run-8-Rueckverweis). Delegation
+  zeigte ins Leere. Aktion: baurecht INDEX-Backlog-Anker «Naturgefahren/Gefahrenzonen (Rechtsstatus rote/blaue Zone)»
+  gesetzt, der die pg-Delegation als Bring-Schuld sichtbar macht — OHNE Destillat zu erfinden.
+- **§ 22 WWG Bring-Schuld (Verweis-Check):** pg hat inzwischen sauberen Verweis auf baurecht (markiert als
+  Bring-Schuld, «vor verbindlicher Aussage gegenpruefen»). Kein neuer Handlungsbedarf pg-seitig. Bleibt getrackt.
+  **Status: 1 autonomer INDEX-Anker; Gefahrenzonen-Destillat = Loop-Arbeit/Bring-Schuld (kein Entscheid).**
+
+### projekt-lessons ↔ normen (EN 520 / VKF-BRL 15) + energie graue-energie ↔ normen (rotierend) — geprueft 2026-07-23 (Run 13)
+- **projekt-lessons ↔ normen (EN 520):** 0 Widerspruch — der neue Lesson-Artikel `kispi-lbw-rohdichte-800` ist mit
+  dem normen-Destillat `en-520-gipsplattentypen` deckungsgleich (DFIR=Typ D≥800 kg/m³, Rohdichten konsistent). Der
+  Cross-KB-Verweis besteht bereits beidseitig INLINE (Lesson:37 → en-520; en-520:44 → Lesson); die frontmatter-`[[]]`
+  sind KB-intern, daher fuer diesen Cross-KB-Bezug nicht die Konvention — kein Fix noetig. Lesson→normen
+  `synthese-sia-vkf` (VKF-BRL 15 EI30-mit-Loeschanlage) waere additiv, aber niederprioritaer (dichte-fokussierte
+  Lesson) → geflaggt, nicht gesetzt.
+- **energie graue-energie ↔ normen sia-2040 (FEHLENDE QUERVERLINKUNG, autonom bidirektional gesetzt):** graue-energie
+  zitierte SIA 2032/2040 ohne normen-Link; normen `sia-2040-2017` ohne energie-Rueckverweis → beidseitig verlinkt
+  (energie = angewandte Kennwerte, normen = Norm-Ziffern/Rechenkette). 0 Kennwert-Widerspruch (normen fuehrt keine
+  eigenen kg-CO2-Zahlen). Praezisierung: der Punkt D8 «graue Energie ZH» gehoert zu planungsgrundlagen, nicht normen.
+  **Status: 1 bidirektionaler Cross-Link autonom; 1 Link (Lesson→VKF-BRL 15) niederprioritaer geflaggt.**
+
 ### normen ↔ auflagebereinigung (SIA 181 Schallschutz Federführung, Erst-Check) — geprueft 2026-07-22 (Run 12)
 - **Anlass:** auflagebereinigung hat am 22.07. die QUESTIONS-Lücke «Schallschutz SIA 181 Federführung» geklärt
   (neuer Abschnitt in `auflagentypen-gewerkzuteilung.md`). SIA 181 ist laut Rollen-Matrix normen-geführt.

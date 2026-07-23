@@ -2,6 +2,14 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-23 — Wissens-Chef Run 13 (Cross-KB): Erdwaerme-Rueckverweis zur KB energie gesetzt
+- [ergaenzt] `wiki/kartenportale-naturgefahren-objektschutz.md` §6c (Erdwaermenutzung): Querbezug KB energie
+  gesetzt — Bewilligungsverfahren, Kosten und Systemwahl (Flaechenkollektor/Erdwaermekorb/Energiepfahl vs. Sonde),
+  ZH-Zusatzformular «Oberflaechennahe Erdwaerme» (BVV Ziff. 5.6.2) und Anergienetz in
+  `wissen/energie/wiki/BAUHERREN-FAQ.md` F108/F110/F109. Reziprok zu den in energie gesetzten Vorwaerts-Links
+  (energie F110/F109 → pg §6c/§8b bzw. geoportale-uebersicht). Rollenteilung fixiert: pg = beschaffbare
+  Eignungsgrundlage (GIS-Layer), energie = Physik/Verfahren/Kennwerte. Cross-KB Run 13.
+
 ## 2026-07-23 — Training Run 57 (Registerpflege, Mac Mini Nachtschicht): stale "GIS-Layer-Endpunkt offen"-Flags bereinigt
 - [korrektur] `wiki/kartenportale-naturgefahren-objektschutz.md` §7b + §8 (Offene Punkte): beide
   Stellen fuehrten den ZH-Naturgefahren-GIS-Endpunkt weiterhin als "offen", obwohl §8a (Run 54,

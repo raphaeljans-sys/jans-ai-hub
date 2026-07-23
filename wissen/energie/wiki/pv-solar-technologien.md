@@ -117,8 +117,11 @@ Details → [[BAUHERREN-FAQ]] F20/F21, `[[greenpv-fassade-pv-begruenung-hslu]]`,
 
 ## Kosten & Amortisation (Praxis, ⚠ alternd)
 **Aktueller Marktpreis (Stand 2025):** Aufdach-Kleinanlage 5–15 kWp **2'400–3'200 CHF/kWp**, Median
-10–30 kWp ~2'400; typische 10-kWp-Anlage ~28'000 CHF vor Förderung. **Indach ~+60 %**, Solarziegel
-~doppelt. **Mittlere Lebensdauer 33 Jahre** (Swissolar); Batteriespeicher 10–15 kWh ~6'000–10'000 CHF
+10–30 kWp ~2'400; typische 10-kWp-Anlage ~28'000 CHF vor Förderung. **Indach:** für Standard-Module (Typ E) laut
+BFE-Preisbeobachtungsstudie 2024 kein signifikanter Aufschlag mehr ggü. Aufdach (die alte
+CKW-Faustregel «+60 %» ist undatiert und relativiert — Detail `[[pv-marktzahlen-kosten-ch-2025]]`
+sowie pg `energie-pv-eignung-typenwahl`); nur kleinteilige Solarziegel ~doppelt.
+**Mittlere Lebensdauer 33 Jahre** (Swissolar); Batteriespeicher 10–15 kWh ~6'000–10'000 CHF
 (42 % der neuen Wohnanlagen bauen einen). Stellschrauben statt absoluter Zahlen: PV rechnet sich, wenn
 die Amortisation **unter der Lebensdauer** liegt — Förderung (Bundes-Einmalvergütung ~3'600 CHF/10 kWp
 + Steuerabzug) und hoher Eigenverbrauch drücken sie real auf ~12–24 J (vgl. F18). **Maximalbelegung ≠

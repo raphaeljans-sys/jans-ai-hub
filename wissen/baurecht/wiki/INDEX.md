@@ -98,6 +98,11 @@ Siehe [[QUESTIONS]] für offene Fragen und geplante Artikel:
 - Bauen im Bestand / im Betrieb (Healthcare-Spezifika; Grundprinzip steht in [[bestandsumbau-eingriffstiefe]])
 - ~~Dispens / Ausnahmebewilligung~~ → erledigt 2026-06-18 (Run 10): [[ausnahmebewilligung-und-bestandesschutz]]
 - ~~Gewässerabstand~~ → erledigt 2026-06-11: in [[abstaende-und-hoehen]] (Gewässerraum, Art. 36a GSchG) integriert
+- **Naturgefahren / Gefahrenzonen (Rechtsstatus rote/blaue/gelbe Zone = Bauverbot/Auflagen)** — noch nicht
+  eigenständig destilliert; bisher nur der Gewässerraum-/Hochwasser-Aspekt in [[abstaende-und-hoehen]] (Gewässerraum-Block).
+  Die Schwester-KB planungsgrundlagen (`wissen/planungsgrundlagen/wiki/kartenportale-naturgefahren-objektschutz`)
+  delegiert den Recht-Status **hierher** («baurecht führend») — bis das Destillat vorliegt, ist die Delegation eine
+  Bring-Schuld (Cross-KB Run 13, 2026-07-23). Rechtsbasis: WBG/WaG, Art. 6 RPG, kant. Gefahrenkarten.
 - Praxisfälle aus JANS-Projekten (erst wenn reale Fälle vorliegen — raw/praxisfaelle ist leerer Platzhalter)
 
 ## Statistik (Stand 2026-07-08)
