@@ -328,8 +328,12 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   **GVZ_Leitfaden_Hochwassergefahrenkarte.pdf** (⚠ Datenstand 2003 — ZH-Rechtsgrundlage § 22 WWG
   fuer die Naturgefahr Hochwasser, Gefahrenmatrix + Gefahrenstufen rot/blau/gelb deckungsgleich
   zur bereits dokumentierten SZ-Stufung, rechtliche Wirkung als entschaedigungslose
-  Eigentumsbeschraenkung → Ergaenzung [[kartenportale-naturgefahren-objektschutz]] §7b; **schliesst
-  den ZH-Rechts-/Verfahrensteil, der GIS-Layer-Endpunkt bleibt weiterhin offen**), **AFS_Leitfaden
+  Eigentumsbeschraenkung → Ergaenzung [[kartenportale-naturgefahren-objektschutz]] §7b; schliesst
+  den ZH-Rechts-/Verfahrensteil. **GIS-Layer-Endpunkt GELOEST (Run 54, 2026-07-20, s. §8a) —
+  Registernachtrag Run 57 (2026-07-23):** war hier weiterhin als offen gefuehrt, obwohl §8a des
+  Zielartikels die Loesung (`maps.zh.ch/wfs/OGDZHWFS`, Layer `ms:ogd-0044_giszhpub_wb_hw_gk_f`)
+  bereits seit Run 54 enthielt — §7b und der §8-Offene-Punkte-Block im Zielartikel nachgezogen,
+  kein neuer Rechercheaufwand.), **AFS_Leitfaden
   Dachlandschaften.pdf** (⚠ Datenstand 2010 — informelle staedtebauliche Gestaltungspraxis Amt
   fuer Staedtebau, kein Gesetzestext extrahierbar; 5-Kategorien-Solaranlagen-Tabelle nach
   Denkmalschutz-Anspruch direkt anschlussfaehig an Agent `energie-berater` → Ergaenzung

@@ -7,6 +7,18 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-23
 
+**Nachtschicht Mac Mini (~19:45, Registerpflege planungsgrundlagen, Dispatch-Run 20260723-193005).**
+Priorisierung durchlaufen (identisch zum 19:00-Lauf unten bestaetigt): Queues leer, Synobsis
+Stufe 2 zum 11. Mal leer (nicht wiederholt), `energie` heute bereits trainiert (Run 84),
+Fristen-Register war 19:15 bereits frisch (nicht redundant nachgezogen). Bei Durchsicht von
+`wissen/planungsgrundlagen/wiki/QUESTIONS.md` (Domaene B) konkrete Registerinkonsistenz
+gefunden statt eines neuen Rechercheauftrags: der ZH-Naturgefahren-GIS-Endpunkt stand in
+§7b und §8 von `kartenportale-naturgefahren-objektschutz.md` weiterhin als "offen", obwohl
+§8a (Run 54, 20.07.) die Loesung bereits enthielt (`maps.zh.ch/wfs/OGDZHWFS`, Layer
+`ms:ogd-0044_giszhpub_wb_hw_gk_f`). Beide Stellen + `QUESTIONS.md` + `curriculum.md`
+nachgezogen, CHANGELOG ergaenzt, Report `outputs/2026-07-23_training-run57-registerpflege.md`.
+Kein neuer Rechercheaufwand, reine Konsistenzpflege. Verbrauch: ~2.6 USD von 5 USD Budget.
+
 **Nachtschicht Mac Mini (~19:00, Wissens-Health-Check).** Priorisierung durchlaufen:
 remote-tasks/sync-tasks leer, Synobsis Stufe 2 weiterhin erschoepft (853/853, kein neuer
 Stoff seit 02.07., Empfehlung Task-Stop steht seit 9 Laeufen unveraendert), `energie` heute

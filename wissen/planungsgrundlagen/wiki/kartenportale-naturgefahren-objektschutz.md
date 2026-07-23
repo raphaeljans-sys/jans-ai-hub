@@ -1,7 +1,7 @@
 ---
 title: Naturgefahrenkarte & Objektschutzkonzept — Gefahrenstufen, Schutzziele, Bezugswege ZH/SZ
 status: established
-last_updated: 2026-07-22 (Run 55)
+last_updated: 2026-07-23 (Run 57, Registerpflege)
 sources:
   - opendata.swiss CKAN-API (`package_show?id=gefahrenkarte1`, Amt fuer Geoinformation Kt. SZ) —
     liefert die realen Service-URLs hinter dem bisher nur als manuellem WebGIS-Link bekannten
@@ -460,12 +460,14 @@ grundsätzlich möglich (Gebotsbereich, Bauen mit Auflagen), aber bei **Alters-/
 die Auflagenlast sorgfältig zu prüfen — dieselbe Healthcare-Fallgrube wie bei den Rutschungs-Stufen
 in Abschnitt 2.
 
-**Aktueller Bezugsweg für die konkrete Parzelle:** weiterhin **offen** — der Leitfaden von 2003
-beschreibt nur das Verfahren, nicht den heutigen GIS-Zugriffspunkt. Naheliegendster moderner
-Nachfolger ist der **GIS-Browser Naturgefahren ZH** (`maps.zh.ch`, AWEL-Thema, vermutlich
-`ogd-Datensatz Hochwasserrisikokarte` oder analog zum bereits erschlossenen
-Gewässerraum-Layer 0185) — im nächsten Lauf gezielt gegen `GetCapabilities` und die AWEL-Fachstelle
-prüfen (dieselbe offene Aufgabe wie für die generelle ZH-Naturgefahrenkarte in Abschnitt 8).
+**Aktueller Bezugsweg für die konkrete Parzelle: GELÖST (Run 54, 2026-07-20, nachgetragen Run 57,
+2026-07-23).** Der Leitfaden von 2003 beschreibt nur das Verfahren, nicht den heutigen
+GIS-Zugriffspunkt — dieser ist seit Run 54 bekannt und verifiziert: `maps.zh.ch/wfs/OGDZHWFS`,
+Layer `ms:ogd-0044_giszhpub_wb_hw_gk_f` (Hochwasser, Nr. 44.2) bzw. der kombinierte
+`ms:ogd-0044_giszhpub_wb_syn_gk_f` (synoptische Gefahrenkarte, Nr. 44.13). Login-frei, im Connector
+als `geo-zh.mjs --produkt naturgefahren` nutzbar. Volle Herleitung, Attribute und Benchmark siehe
+Abschnitt 8a — diese Zeile war bis Run 57 stehen geblieben, obwohl Abschnitt 8a die Frage bereits
+beantwortet hatte (Registerlücke, kein neuer Rechercheaufwand).
 
 ## 8. Offene Punkte
 
@@ -486,16 +488,15 @@ prüfen (dieselbe offene Aufgabe wie für die generelle ZH-Naturgefahrenkarte in
   zone (plausibel, beide nicht in einem bekannten Grundwasserfassungsgebiet).
   **ERLEDIGT Run 54 (2026-07-20):** Positiv-Benchmark erbracht, Status
   **established**, Connector-Produkt gebaut — s. Abschnitt 8b.
-- **ZH-Endpunkt fuer Naturgefahrenkarte weiterhin offen (Run 33 bestaetigt):**
-  dieselbe erfolgreich abgerufene `GetCapabilities`-Antwort enthaelt **keinen**
-  Treffer fuer die Stichworte "gefahr"/"hazard"/"naturgefahr" (ausser dem
-  bereits bekannten `ch.are.naturgefahren`-Themenwort in Layer-Beschreibungen
-  anderer Layer) — die ZH-Naturgefahrenkarte wird also **nicht** ueber den
-  offenen OGD-WFS publiziert. Ein direkter Rateversuch auf einen ZH-WMS-
-  Endpunkt (`maps.zh.ch/wms/NaturgefahrenZH`) ergab **"HTTP Basic: Access
-  denied"** — d.h. falls ein WMS existiert, ist er **login-pflichtig**, kein
-  offener Layer. Naechster Ansatz bleibt: den Datensatz-Alias direkt bei der
-  AWEL-Fachstelle erfragen, nicht weiter erraten.
+- **ZH-Endpunkt fuer Naturgefahrenkarte GELOEST (Run 54, 2026-07-20; Register-Nachtrag Run 57,
+  2026-07-23):** der Run-33-Befund (kein Treffer im OGD-WFS fuer die Stichworte "gefahr"/"hazard"/
+  "naturgefahr") war korrekt, aber eine **Stichwort-**, keine Vollständigkeitssuche — die
+  Gefahrenkarte liegt im selben `maps.zh.ch/wfs/OGDZHWFS`, nur unter der AWEL-Themengruppe 44
+  "Gewaesser/Wasserbau" statt unter einem Naturgefahren-Stichwort (der geratene login-pflichtige
+  WMS-Pfad `maps.zh.ch/wms/NaturgefahrenZH` bleibt irrelevant/Sackgasse). Volle Herleitung,
+  Layer-Liste, Attribute und Positiv-/Negativ-Benchmark: Abschnitt 8a. Dieser Punkt stand nach
+  Run 54 noch drei Tage als "offen" im Register, obwohl Abschnitt 8a bereits die Lösung enthielt —
+  reine Registerpflege-Lücke, kein neuer Rechercheaufwand in Run 57.
 - **SZ-Naturgefahren-Endpunkt GELOEST (Run 55, 2026-07-22):** war nur als manueller WebGIS-Link
   bekannt — jetzt REST-faehig getestet und im Connector, s. Abschnitt 8c. Damit sind **beide**
   Kantone (ZH Abschnitt 8a, SZ Abschnitt 8c) auf einen automatisierten Naturgefahren-Zugriff gebracht.

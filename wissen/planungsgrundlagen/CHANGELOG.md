@@ -2,6 +2,21 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-23 — Training Run 57 (Registerpflege, Mac Mini Nachtschicht): stale "GIS-Layer-Endpunkt offen"-Flags bereinigt
+- [korrektur] `wiki/kartenportale-naturgefahren-objektschutz.md` §7b + §8 (Offene Punkte): beide
+  Stellen fuehrten den ZH-Naturgefahren-GIS-Endpunkt weiterhin als "offen", obwohl §8a (Run 54,
+  2026-07-20) die Loesung bereits enthielt (`maps.zh.ch/wfs/OGDZHWFS`, Layer
+  `ms:ogd-0044_giszhpub_wb_hw_gk_f` / `_wb_syn_gk_f`, login-frei, im Connector als
+  `geo-zh.mjs --produkt naturgefahren`). Reine Registerpflege-Luecke (Run 54 hat die frueheren
+  Abschnitte nicht rueckwirkend nachgezogen) — kein neuer Rechercheaufwand, kein neuer Fund.
+  `last_updated` auf 2026-07-23 gesetzt.
+- [korrektur] `wiki/QUESTIONS.md` R36-R38-Eintrag und `training/curriculum.md` R37-Eintrag
+  entsprechend nachgezogen (GELOEST-Vermerk statt "bleibt offen").
+- Anlass: Durchsicht der Mac-Mini-Domaenen (energie/planungsgrundlagen/synobsis) fuer die
+  faellige Nachtschicht-Trainingslektion; Synobsis Stufe 2 zum 11. Mal leer, energie bereits
+  heute (Run 84) trainiert — stattdessen diese konkrete, kleine Konsistenzluecke geschlossen.
+  Bericht: `outputs/2026-07-23_training-run57-registerpflege.md`.
+
 ## 2026-07-22 — Wissens-Chef Run 12 (Cross-KB): § 22 WWG Inline-Flag + CLT-Querlink zu energie
 - [veraltet] `wiki/kartenportale-naturgefahren-objektschutz.md` Z.407: die § 22 WWG-Bullet las sich
   isoliert wie geltendes Recht (der Aufhebungs-Flag stand ~14 Zeilen darüber im Blockquote). Inline-
