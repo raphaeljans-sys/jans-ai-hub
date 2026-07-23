@@ -238,12 +238,17 @@ Fenster/Türen). **Minergie-Sanierung nur mit Zusatzzertifikat «ECO»** (reines
 
 **PV fördert der Kanton NICHT** pauschal, sondern der **Bund** über die Pronovo-**Einmalvergütung
 (EIV)**: für ein EFH die **KLEIV** (<100 kW), Stand Sept 2025 rund **360 CHF/kWp** (angebaut/freistehend,
-ab 30 kWp 300; **Indach/integriert 400 CHF/kWp ≈ +10 %**), gedeckelt auf **max. 30 %** der Kosten — also
-~**3'600 CHF für 10 kWp**. Boni gibt es für **Steilanlagen ≥75°** (Neigungsbonus, Winterstrom) und
-ab 100 kW für Winterstrom/Parkflächen. **Wichtig:** Das KLEIV-Gesuch läuft **nach** Inbetriebnahme
-über das Pronovo-Portal (anders als hier beim Gebäudeprogramm: **vor** Baubeginn). Die Sätze werden
-**jährlich neu** festgelegt (sinkend) → verbindlich der Pronovo-Tarifrechner.
+ab 30 kWp 300; **Indach/integriert +10 %**), gedeckelt auf **max. 30 %** der Kosten — also
+~**3'600 CHF für 10 kWp**. Ein **Grundbeitrag entfällt seit 1.4.2024 (CHF 0)** — die Vergütung ist
+reiner Leistungsbeitrag. **Stand 2026 (Pronovo-Richtlinie PV v4.1, 03.06.2026, primärquellenbelegt):**
+der **Höhenbonus lief per 31.12.2025 aus** und ist seit **1.1.2026 durch den Winterstrombonus ersetzt**
+(3.50/2.50 CHF/kW × spez. Winterstrommehrertrag, v.a. für steile/hochgelegene Anlagen); Neigungsbonus
+200/400 CHF/kW und Parkflächenbonus 250 CHF/kW unverändert. Wer keine EIV will, hat neu Anspruch auf die
+**Minimalvergütung/Rücklieferung 2026** (ElCom, Art. 15 EnG: rund **6 Rp./kWh** unter 30 kW). **Wichtig:**
+Das KLEIV-Gesuch läuft **nach** Inbetriebnahme über das Pronovo-Portal (anders als beim Gebäudeprogramm:
+**vor** Baubeginn). Feinere CHF/kWp je Anlagengrösse nur am Pronovo-Tarifrechner (interaktiv).
 Details → `[[pv-einmalverguetung-bund-bfe]]`, Marktpreise → `[[pv-marktzahlen-kosten-ch-2025]]`.
+Datenstand 2026-07-23, Status established.
 
 **Rechenbeispiele 2026:** MFH 1'500 m² EBF auf Minergie-ECO → 70 × 1'500 ≈ **105'000 CHF** (gedeckelt
 50 % Investition / max. 500'000); 6-kWth-Solarthermie-Anlage → 2'400 + 6 × 1'000 = **~8'400 CHF**.
@@ -3939,5 +3944,25 @@ Pflegestation und Lager»):** die Pflegestation wird als Kategorie **VIII Spital
 Alterswohnungen als Kategorie **I Wohnen MFH** — SIA 380/1 kennt keine eigene Kategorie
 «Pflegeheim» → `[[sia-380-1-2016-aenderungen-gegenueber-2009]]`. Offen: exakte Formel, wie
 Gebäudehüllzahl-Steigungswert und Klimastations-Temperaturkorrektur zum projektspezifischen
-Q_H,li kombiniert werden. Datenstand 2026-07-21. Status **established** (drei unabhängige Quellen
-zahlengleich).
+Q_H,li kombiniert werden. **Adversarial-Verify Runde 2 (2026-07-23):** an einer vierten unabhängigen
+Quelle (Kt. Luzern, KEnV Anh. 1–3, Dok. 774-A1) alle 12 Kategorien zahlengleich bestätigt, ebenso die
+im Juli korrigierte EN-102-Tab.-5-Transkription. Datenstand 2026-07-23. Status **established** (vier
+unabhängige Quellen zahlengleich).
+
+## F105 — «Was passiert mit meiner PV-Anlage nach 25–30 Jahren, wer zahlt die Entsorgung, und lohnt
+sie sich ökologisch überhaupt?»
+
+**Kurz für den Bauherrn:** Die Entsorgung ist **bereits beim Kauf bezahlt** — über die vorgezogene
+Recyclinggebühr (vRG) von **CHF 0.04/kg Modulgewicht**, seit 2013 organisiert über **SENS eRecycling**
+(nicht Swico — das ist Büro-/IT-Elektronik). Sie geben Altmodule an einer der über 750 SENS-Sammelstellen
+kostenlos zurück; rechtlich abgesichert seit 1.1.2022 durch die **VREG** (SR 814.620). **Lebensdauer:**
+Module halten deutlich länger als die Garantie (80–85 % Nennleistung nach 25 J.): eine SUPSI-Langzeitstudie
+(2025) an sechs Schweizer Anlagen von 1987–1993 misst nur **0,24 % Leistungsverlust pro Jahr**, also noch
+**über 80 % nach 30 Jahren** und potenziell 50+ Jahre Nutzung. **Ökobilanz:** Die energetische Amortisation
+(Energy Payback Time) liegt in der Schweiz bei rund **2–2,3 Jahren** — über die Lebensdauer erntet die
+Anlage das 13- bis 20-fache der Herstellungsenergie. **Recycling:** Glas und Aluminiumrahmen (zusammen
+80–90 % der Masse) werden gut verwertet, Swissolar nennt pauschal «über 75 %»; Schweizer Altmodule gehen
+mangels eigener Kapazität nach Deutschland (Reiling, First Solar). ⚠ Offen bleibt ein Zahlenwiderspruch:
+die vRG entspricht CHF 40/Tonne, genannte reale Gesamtentsorgungskosten liegen bei CHF 400–500/Tonne
+(Faktor 10) — zur Klärung an SENS vermerkt, nicht geglättet. → `[[pv-entsorgung-recycling-lebensende-ch]]`.
+Datenstand 2026-07-23. Status **emerging** (Quellenlage dünner als bei Markt-/Kostenfragen).
