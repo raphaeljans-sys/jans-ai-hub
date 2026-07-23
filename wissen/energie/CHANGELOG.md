@@ -2,16 +2,37 @@
 
 Neueste zuoberst.
 
-## 2026-07-23 — Aktualitäts-Check MuKEn 2025 Umsetzungsstand ZH/SZ: unverändert
-- `destillate/muken-2025-verabschiedet.md` und `destillate/zh-energiegesetz-revision-solarpflicht-2026.md`
-  gezielt gegen den aktuellen Kantonsrats-/Regierungsratsstand geprüft (WebSearch/WebFetch).
-  Kein neuer Sachstand gegenüber Run 81 (20.07.2026): ZH weiterhin nur Regierungsrats-Botschaft
-  vom 06.01.2026 (Solarpflicht >300 m² Dächer), kein Kommissions-/Plenartermin auffindbar
-  (`kantonsrat.zh.ch` bleibt per WebFetch nicht auslesbar, JS-SPA); SZ ohne neue MuKEn-2025-
-  Vernehmlassung. Eine im Rechercheauftrag genannte Geschäftsnummer «KR-Nr. 6064» /
-  Plenarsitzung 17.08.2026 konnte **nicht verifiziert** werden (kein Treffer) — als offen/
-  unbestätigt vermerkt, nicht übernommen. Beide Destillate mit datiertem Aktualitäts-Check-
-  Abschnitt versehen, `last_updated` auf 2026-07-23 nachgezogen.
+## 2026-07-23 — Energie-Run 84: sechs parallele Agenten (Verdichtung/Verifikation, PDF-Inventar erschöpft)
+PDF-Inventar seit Run 65 erschöpft (SharePoint PL-04 geprüft: einzige neue Datei = 63-Byte-OneDrive-
+Platzhalter). Reiner Web-/Verifikationspfad, Report `outputs/2026-07-23_energie-run84.md`.
+- **T1 Fernwärme Ausserschwyz** — 60 real abgefragte Adressen, 14 neue kW-Stützpunkte; Segment-2-Formel
+  über **31 Stützpunkte** bestätigt (CHF 28'709 + 606×kW), Übergangszone auf 26/28 kW präzisiert;
+  gemeindeübergreifende Validierung (ortsunabhängige Tarifstaffel). Churerstrasse 100/104 präzisiert:
+  dritte Rechner-Antwortkategorie **«Objektgrössen-Verweigerung»**, erklärt auch den 290-kW-Ausreisser.
+  → `destillate/fernwaerme-anschlusskosten-zh.md` (Commit c1efcc3d).
+- **T2 Adversarial-Verify Förderprogramm SZ 2026, Runde 2** — 24/24 CHF-Sätze am frischen amtlichen PDF
+  (MD5-identisch Run 82) unverändert bestätigt, kein Fehlerfund → `destillate/foerderprogramm-energie-sz-2026.md`
+  (Commit a40775e0).
+- **T3 PV-Einmalvergütung Bund 2026** — Pronovo-Richtlinie PV v4.1 (03.06.2026): Grundbeitrag CHF 0 seit
+  1.4.2024 (Lücke geschlossen); **Höhenbonus per 31.12.2025 ausgelaufen, ersetzt durch Winterstrombonus
+  3.50/2.50 CHF/kW ab 1.1.2026** (Web-Sekundärquellen-Fehler korrigiert); Minimalvergütung 2026 ~6 Rp./kWh
+  neu → `destillate/pv-einmalverguetung-bund-bfe.md` (established), FAQ-PV-EIV-Block geschärft.
+- **T4 Adversarial-Verify Q_H,li SIA 380/1:2016, Runde 2** — 4. unabhängige Quelle (Kt. Luzern KEnV Anh. 1–3):
+  alle 12 Kategorien + EN-102-Tab.-5-Korrektur zahlengleich → `destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md`
+  auf **established** gehoben, `enfk-en-102-waermeschutz-2018.md` nachgezogen (Commit aecef9e1), FAQ F104 aktualisiert.
+- **T5 Neues Thema PV-Entsorgung/Recycling/Lebensende CH** — neues Destillat `destillate/pv-entsorgung-recycling-lebensende-ch.md`
+  (via nas-selfcommit 5361783e): vRG CHF 0.04/kg über SENS eRecycling, VREG SR 814.620, Degradation 0,24 %/a
+  (SUPSI 2025), EPBT CH ~2–2,3 J; Faktor-10-Widerspruch vRG↔Gesamtentsorgungskosten ehrlich offen gelassen.
+  FAQ **F105** neu. Status emerging.
+- **T6 Aktualitäts-Check MuKEn 2025 Umsetzung ZH/SZ** — Verfahrensstand unverändert ggü. Run 81 (ZH nur
+  Regierungsrats-Botschaft 06.01.2026 Solarpflicht >300 m², keine MuKEn-Gesamtvorlage; SZ ohne neue
+  Vernehmlassung; kein Inkrafttretens-Datum). «KR-Nr. 6064» per generischer Websuche nicht verifizierbar
+  (in Run 82 über CDWS-Kantonsrats-Webservice identifiziert — kein Widerspruch); `kantonsrat.zh.ch` bleibt
+  JS-SPA, per WebFetch nicht auslesbar. → `destillate/muken-2025-verabschiedet.md`,
+  `destillate/zh-energiegesetz-revision-solarpflicht-2026.md`.
+- **FAQ:** F1–F104 → **F1–F105**. **Umlaut-Bug (systemisch, siehe 22.07.):** die sechs Sonnet-Agenten-Outputs
+  enthalten wieder ASCII-Ersatzschreibung; die zentralen Register-Edits dieses Laufs sind mit echten Umlauten
+  geschrieben; dedizierter Fix läuft separat.
 
 ## 2026-07-22 — Wissens-Chef Run 12 (Cross-KB): stale last_updated korrigiert
 - [veraltet] `destillate/private-kontrolle-zh.md`: `last_updated` stand auf 2026-06-11, obwohl der

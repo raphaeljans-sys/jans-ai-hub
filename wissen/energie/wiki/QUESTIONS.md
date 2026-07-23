@@ -1081,3 +1081,45 @@ Empfehlung). SharePoint PL-04 Energie erneut geprüft, keine neue Datei seit 14.
 **Nicht bearbeitet in Run 83 (bewusst zurückgestellt):** E92/E95 (SMGV-Merkblatt Nr. 70,
 kostenpflichtig), E103 (Pflegeplatz-Kennwert), E84 (ZH-Solarpflicht-Beratungstermin) — alle
 weiterhin Entscheid Raphael nötig bzw. bewusst pausiert.
+
+## Run 84 (2026-07-23) — sechs parallele Agenten, PDF-Inventar weiterhin erschöpft
+
+SharePoint PL-04 Energie erneut geprüft: keine neue Datei seit 14.07.2026 (der einzige neue
+Eintrag ist ein 63-Byte-OneDrive-Platzhalter, kein PDF). Reiner Verdichtungs-/Verifikationslauf.
+
+- [x] **290-kW-Ausreisser Fernwärme (aus Run 83) + Churerstrasse präzisiert** ✓ 2026-07-23: 60 real
+  abgefragte Adressen (Galgenen 92-Strassen-OSM-Liste + Siebnen), 14 neue kW-Stützpunkte;
+  Segment-2-Formel jetzt über **31 Stützpunkte** bestätigt (CHF 28'709 + 606×kW ≈ alte Formel),
+  Übergangszone präzise auf **26/28 kW** eingegrenzt; **gemeindeübergreifende Validierung** (gleicher
+  kW → gleicher Betrag in Pfäffikon/Siebnen/Galgenen = ortsunabhängige Tarifstaffel). Churerstrasse
+  100/104 neu präzisiert: keine «geplant»-Stufe, sondern eine dritte Rechner-Antwortkategorie
+  **«Objektgrössen-Verweigerung»** («aufgrund der Objektgrösse keine Preisindikation») — erklärt
+  strukturell auch den 290-kW-Ausreisser → `[[fernwaerme-anschlusskosten-zh]]`.
+  Neu offen: exakter kW-Schwellenwert der Objektgrössen-Verweigerung (an verweigerten Adressen keine
+  kW-Zahl ablesbar); keine offiziell publizierte Text-Tarifformel von Energie Ausserschwyz.
+- [x] **Adversarial Verify Förderprogramm SZ 2026, Runde 2** ✓ 2026-07-23: 24/24 CHF-Sätze am frisch
+  gezogenen amtlichen PDF (MD5-identisch zu Run 82) unverändert bestätigt, kein Fehlerfund →
+  `[[foerderprogramm-energie-sz-2026]]`.
+- [x] **PV-Einmalvergütung Bund — Aktualitäts-/Adversarialcheck 2026** ✓ 2026-07-23 (Pronovo-Richtlinie
+  PV v4.1, 03.06.2026, primärquellenbelegt): KLEIV 360/300 unverändert; **Grundbeitrag CHF 0 seit
+  1.4.2024** (Lücke geschlossen); **Höhenbonus ausgelaufen 31.12.2025, ersetzt durch Winterstrombonus
+  3.50/2.50 CHF/kW ab 1.1.2026** (Web-Sekundärquellen-Fehler korrigiert); **Minimalvergütung 2026
+  ~6 Rp./kWh** neu erfasst → `[[pv-einmalverguetung-bund-bfe]]`, FAQ-PV-EIV-Block geschärft. Bleibt
+  offen: feinere CHF/kWp je Anlagengrösse (nur interaktiv am Pronovo-Tarifrechner).
+- [x] **Adversarial Verify Q_H,li SIA 380/1:2016, Runde 2** ✓ 2026-07-23: an einer **vierten**
+  unabhängigen Quelle (Kt. Luzern, KEnV Anh. 1–3, Dok. 774-A1) alle 12 Kategorien zahlengleich
+  bestätigt, EN-102-Tab.-5-Korrektur ein viertes Mal verifiziert → Destillat auf **established**,
+  FAQ F104 aktualisiert. Bleibt offen: exakte Kombinationsformel (unverändert, Norm-Volltext nicht gekauft).
+- [x] **Aktualitäts-Check MuKEn 2025 Umsetzung ZH/SZ** ✓ 2026-07-23: Verfahrensstand unverändert
+  (ZH nur Regierungsrats-Botschaft 06.01.2026 Solarpflicht >300 m², keine MuKEn-Gesamtvorlage; SZ ohne
+  neue Vernehmlassung), kein Inkrafttretens-Datum für Fossilverbot/20-W-PV-Pflicht/Teil G →
+  `[[muken-2025-verabschiedet]]`, `[[zh-energiegesetz-revision-solarpflicht-2026]]`. **Anmerkung:**
+  «KR-Nr. 6064» war per generischer Websuche nicht verifizierbar; in Run 82 wurde die Nummer über den
+  CDWS-Kantonsrats-Webservice (parlzhcdws.cmicloud.ch) identifiziert — kein Widerspruch, andere Quelle.
+  Nächste Prüfung nach Plenarsitzung 17.08.2026.
+- [x] **Neues Thema PV-Entsorgung/Recycling/Lebensende CH** ✓ 2026-07-23, neues Destillat
+  `[[pv-entsorgung-recycling-lebensende-ch]]`, FAQ **F105** neu (emerging). Neu offen: belastbare
+  CH-Recyclingquote in Prozent (nur Materialanteile/Swissolar-Pauschale «>75 %» gefunden); der
+  **Faktor-10-Widerspruch vRG CHF 0.04/kg (=40/t) ↔ reale Gesamtentsorgungskosten CHF 400–500/t**
+  (an SENS zu klären); EPBT-Primärstudie nicht zurückverfolgbar; VREG-Geltung für PV-Module als
+  Auslegung markiert (nicht wortwörtlich im Übergangslisten-Art. 15 genannt).

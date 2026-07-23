@@ -938,3 +938,14 @@ gilt in ZH+SZ (KEnV Anh. 8/9) bereits heute. (3) **Verdichtung — neuer Wiki-Th
 Themenartikel trotz FAQ F92/F93). FAQ-Stand jetzt **F1–F97**. **Meta-Lehre umgesetzt (M5):** am Ende
 jedes Intensiv-Laufs Register-Abgleich fahren (jedes heute erstellte Destillat: in INDEX? FAQ? QUESTIONS
 geschlossen?) — sonst sammeln sich «established, aber unauffindbar»-Destillate an.
+
+**D59 (Run 84, 2026-07-23)** — Sechs parallele Sonnet-Agenten, PDF-Inventar weiterhin erschöpft
+(SharePoint PL-04 kontrolliert, keine neue Fachdatei). Verdichtungs-/Verifikationslauf: (1) **Fernwärme
+Ausserschwyz** über 60 real abgefragte Adressen verdichtet, Segment-2-Formel über 31 Stützpunkte
+bestätigt, dritte Rechner-Antwortkategorie «Objektgrössen-Verweigerung» entdeckt (erklärt den
+290-kW-Ausreisser). (2) **Förderprogramm SZ 2026** adversarial Runde 2: 24/24 CHF-Sätze bestätigt.
+(3) **PV-Einmalvergütung Bund**: Höhenbonus→Winterstrombonus ab 1.1.2026 korrigiert, Grundbeitrag
+CHF 0 seit 1.4.2024, Minimalvergütung 2026 ergänzt. (4) **Q_H,li SIA 380/1:2016** adversarial Runde 2
+an vierter Quelle (Kt. Luzern KEnV) → established. (5) **Neues Thema PV-Entsorgung/Recycling/Lebensende
+CH** → `[[pv-entsorgung-recycling-lebensende-ch]]`, FAQ F105. (6) **MuKEn 2025 ZH/SZ** Aktualitäts-Check:
+Verfahrensstand unverändert. FAQ-Stand jetzt **F1–F105**. Details: `outputs/2026-07-23_energie-run84.md`.
