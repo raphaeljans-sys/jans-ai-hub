@@ -7,6 +7,24 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-23
 
+**Nachtschicht Mac Mini (~22:30, Registerpflege + Verifikation, Dispatch-Run 20260723-223001).**
+Alle sechs Prioritaeten erneut durchlaufen, diesmal mit aktiver Verifikation statt reiner
+Log-Lektuere: Queues leer; Synobsis Stufe 2 nicht erneut angestossen (11. Leerlauf steht);
+Fristen-Register bereits um 21:30 frisch geprueft; alle vier Mac-Mini-Trainingsdomaenen
+gesaettigt (`energie` laeuft parallel im zeitgleichen 25-USD-Intensivlauf, `planungsgrundlagen`
+heute bereits Run 57, Normen DIN/VSS/RAL vollstaendig abgehakt mit Pausierungsempfehlung).
+Bei Prioritaet 6 (wissenscheck, aeltestes Audit-Datum) `normen` (20.07.) identifiziert, aber mit
+289 Destillat-/Wiki-Dateien als zu gross fuer das Nachtschicht-Budget erkannt und in
+`wissen/normen/wiki/QUESTIONS.md` entsprechend vermerkt (braucht dedizierten Lauf). Statt
+Beschaeftigung zu erfinden, zwei bereits als offen gefuehrte `planungsgrundlagen`-Fragen (B2
+ZH-Umsetzung RPG 2, D8 graue-Energie-Ueberfuehrung) per Live-Websuche auf zwischenzeitliche
+Publikationen geprueft: keine neue Entwicklung, beide Eintraege bleiben korrekt "ausstehend".
+Dabei einen scheinbaren Widerspruch (Websuche nannte 04.04.2025 statt 29.08.2025 als
+MuKEn-2025-Verabschiedungsdatum) gegen die Primaerquelle (energiehub-gebaeude.ch) verifiziert:
+KB-Wert 29.08.2025 ist korrekt, keine Aenderung noetig. Kein neuer Content-Fund, aber echte
+Verifikationsarbeit statt Wiederholung der 21:30-Sondierung. CHANGELOG `normen` ergaenzt.
+Verbrauch: ~2.7 USD von 5 USD Budget.
+
 **Nachtschicht Mac Mini (~21:30, keine Aufgabe gewaehlt, Dispatch-Run 20260723-213006).**
 Alle sechs Prioritaeten sorgfaeltig durchlaufen, keine mit gutem Kosten-Nutzen-Verhaeltnis
 gefunden: (1) remote-tasks/sync-tasks weiterhin leer. (2) Synobsis Stufe 2 zum 11. Mal in

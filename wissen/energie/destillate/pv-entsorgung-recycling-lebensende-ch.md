@@ -1,18 +1,22 @@
 ---
-quelle: SENS eRecycling/Swissolar Faktenblatt «Photovoltaik-Module entsorgen: Wer uebernimmt die Kosten?» (Juli 2023) + SENS-Merkblatt «Finanzierung vRB» (02.2024) + VREG SR 814.620 (Fedlex, Stand 01.09.2023) + Zuercher Umweltpraxis (ZUP) Nr. 101 (Hafer/Haarmann) via naturschutz.ch + SUPSI-Langzeitstudie (Oezkalay et al., April 2025) + energie-experten.ch
-herausgeber: SENS eRecycling (Stiftung) / Swissolar / Bundesrat (VREG) / Amt fuer Abfall, Wasser, Energie und Luft Kt. ZH (ZUP) / SUPSI (Scuola universitaria professionale della Svizzera italiana)
-ausgabe: Faktenblatt Juli 2023; vRB-Merkblatt Version 02.2024; VREG Stand 01.09.2023; SUPSI-Studie publiziert April 2025
-gelesen: Faktenblaetter/Merkblaetter vollstaendig (PDF, je 2 S.); VREG-Volltext vollstaendig (8 S., Fedlex-Filestore); Web-Digests der ZUP- und SUPSI-Auswertung
+quelle: SENS eRecycling/Swissolar Faktenblatt «Photovoltaik-Module entsorgen: Wer uebernimmt die Kosten?» (Juli 2023) + SENS eRecycling/Swissolar Faktenblatt «Photovoltaik: geringer Energieaufwand, positive Ökobilanz» (Juli 2023) + SENS-Wissensblog «Recycling photovoltaic modules: This is how it is financed» (erecycling.ch, publiziert 11.06.2023, gespiegelt auf sens.ch) + SENS-Dossier «Photovoltaik-Recycling» (erecycling.ch/photovoltaik.html, Stand Infoblatt 01.2025) + SENS-Geschäftsbericht 2023, Facts & Figures + SENS-Tarif- und Geräteliste, gültig ab 1.1.2026 + treeze Ltd. Factsheet «Ökobilanz Strom aus Photovoltaikanlagen, Update 2020» (Frischknecht/Krebs, v1.0, 23.12.2020) + VREG SR 814.620 (Fedlex, Stand 01.09.2023) + Zürcher Umweltpraxis (ZUP) Nr. 101 (Hafer/Haarmann) via naturschutz.ch + SUPSI-Langzeitstudie (Özkalay et al., April 2025) + energie-experten.ch
+herausgeber: SENS eRecycling (Stiftung) / Swissolar / treeze Ltd. (Uster, im Auftrag u.a. Schweizer Solarpreis/BFE-Kontext) / Bundesrat (VREG) / Amt für Abfall, Wasser, Energie und Luft Kt. ZH (ZUP) / SUPSI (Scuola universitaria professionale della Svizzera italiana)
+ausgabe: Faktenblätter Juli 2023; SENS-Wissensblog 11.06.2023; SENS-Dossier Infoblatt 01.2025; SENS-Geschäftsbericht 2023; SENS-Tarifliste gültig ab 1.1.2026; treeze-Factsheet v1.0, 23.12.2020; VREG Stand 01.09.2023; SUPSI-Studie publiziert April 2025
+gelesen: Faktenblätter/Merkblätter vollständig (PDF, je 2 S.); SENS-Wissensblog + Dossier-Seiten vollständig (HTML); treeze-Factsheet vollständig (12 von 17 Folien direkt gelesen, inkl. Folie 10 Rückzahldauern); SENS-Tarifliste 2026 geprüft (PV-Modul-Zeile nicht separat aufgeführt); VREG-Volltext vollständig (8 S., Fedlex-Filestore); Web-Digests der ZUP- und SUPSI-Auswertung
 datenstand: 2026-07-23
-status: emerging
+status: established
 last_updated: 2026-07-23
 ---
 
 # Destillat — PV-Entsorgung, Recycling und Lebensende in der Schweiz
 
 > Was passiert mit einer PV-Anlage am Ende ihrer Nutzungsdauer, wer zahlt die Entsorgung und
-> wie steht es um die Oekobilanz. Neues Thema, noch **emerging** (Quellenlage duenner als bei
-> Markt-/Kostenfragen, ein Zahlenwiderspruch offen, siehe unten). Datenstand 2026-07-23.
+> wie steht es um die Ökobilanz. Vertiefung 23.07.2026: der frühere Faktor-10-Widerspruch bei
+> den Entsorgungskosten ist jetzt direkt bei SENS eRecycling verifiziert und erklärt (kein
+> Fehler, sondern offen kommuniziertes Umlage-/Fondsmodell), die EPBT-Zahl ist bis zur
+> Primärstudie (treeze/Frischknecht 2020) zurückverfolgt. Status daher auf **established**
+> gehoben; ein Detailpunkt (belastbare CH-Gesamt-Recyclingquote in Prozent, geprüft/auditiert)
+> bleibt offen. Datenstand 2026-07-23.
 
 ## Das Wichtigste in 1 Satz
 Die Entsorgung eines PV-Moduls ist fuer den Bauherrn bereits beim Kauf bezahlt (vorgezogene

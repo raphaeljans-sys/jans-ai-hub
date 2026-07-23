@@ -1,3 +1,17 @@
+## 2026-07-23 — Nachtschicht Mac Mini (~22:30): Wissenscheck-Faelligkeit geprueft, als zu gross geflaggt
+- [Registerpflege] Wissenscheck Phase 1 ist mit Audit-Datum 20.07.2026 faellig (aeltestes Datum
+  neben der taeglich selbst-auditierenden Meta-KB `koordination`). Umfang geprueft: 289 Destillat-/
+  Wiki-Dateien — mit Abstand die groesste KB, ein Standard-Audit sprengt das Nachtschicht-Budget.
+  In `wiki/QUESTIONS.md` als «zu gross fuer Nachtschicht-Budget, braucht dedizierten Lauf»
+  vermerkt statt oberflaechlich/unvollstaendig durchzufuehren. Stattdessen zur Doppelarbeit-
+  Vermeidung zwei offene `planungsgrundlagen`-Punkte (B2 ZH-RPG-2-Umsetzung, D8 graue-Energie-
+  ZH-Ueberfuehrung) per Web-Check auf neue Entwicklungen seit letzter Pruefung (28.06./04.07.)
+  verifiziert: keine neue Publikation, beide bleiben korrekt als «Umsetzung ausstehend» erfasst;
+  Kreisschreiben Mai 2026 war bereits erfasst (Run 23). Nebenbefund geprueft und verworfen: ein
+  Websuche-Summary nannte fuer die MuKEn-2025-Verabschiedung faelschlich den 04.04.2025 statt
+  29.08.2025 — Primaerquelle energiehub-gebaeude.ch (Zitat «Bern, den 29. August 2025») bestaetigt
+  den in der KB `planungsgrundlagen` bereits korrekt hinterlegten Wert; keine Aenderung noetig.
+
 ## 2026-07-23 — Neuer Artikel en-520-gipsplattentypen (KISPI-Fall Rohdichte 800 kg/m³)
 - [neu] Wiki-Artikel `en-520-gipsplattentypen` angelegt (Typ-Buchstaben A/D/F/H/I/R, Typ D =
   definierte Dichte ≥ 800 kg/m³, DFIR-Lesart in Trockenbau-LVs, Abgrenzung VKF-Feuerwiderstand

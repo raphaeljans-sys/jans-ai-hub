@@ -1,5 +1,16 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
+- [ ] **Wissenscheck Phase 1 (Health-Check) faellig, aber zu gross fuer Nachtschicht-Budget
+  (2026-07-23, Mac Mini):** letzter Health-Check 20.07.2026 (aeltestes Audit-Datum aller KBs mit
+  Standard-Wiki-Struktur, gleichauf mit der Meta-KB `koordination`, die aber taeglich vom
+  Wissens-Chef selbst auditiert wird). `normen` hat mit 289 Destillat-/Wiki-Dateien die mit
+  Abstand groesste KB im Hub — ein vollstaendiger Struktur-Audit (Widersprueche, kaputte
+  Backlinks, INDEX-Abgleich, RAW-Coverage, Schreibregel-Verstoesse) sprengt das ~4-USD-Budget
+  einer unbeaufsichtigten Nachtschicht (Vergleichswert: `immobilienbewertung` mit ~26 Artikeln
+  kostete bereits ~2.36 USD). Braucht einen dedizierten Lauf mit groesserem Budget (Workflow-
+  Fan-out empfohlen, analog Normen-Trainingslaeufen). Bis dahin: keine weitere Nachtschicht auf
+  dieses Item ansetzen, stattdessen naechst-aelteres KB-Audit waehlen.
+
 - [ ] **EN 520 Original-Destillat fehlt (2026-07-23, KISPI-Fall Rohdichte 800 kg/m³):** Der
   Wiki-Artikel `en-520-gipsplattentypen` belegt die Typ-D-Definition (definierte Dichte
   ≥ 800 kg/m³) bisher über zwei unabhängige Sekundärquellen (Rigips-Normbroschüre DIN EN 520,
