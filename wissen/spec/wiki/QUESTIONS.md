@@ -214,6 +214,14 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klaeren sollen.
     konsumiert wurde, belegt nicht, dass die spec-KB-Eskalation es ausloeste (Disziplin Lauf 10/12/21:
     ein Artefakt ist keine Quelle fuer seine eigene Herkunft); registriert wird die Landung als Faktum.
     → [[verifier]] «Aufloesung (Lauf 25)».
+  - Hält-Check 23.07. (Lauf 26, Verifikationslauf): die Lauf-25-Landung **haelt** — `ag-gruendung-monitor/
+    SKILL.md` traegt unveraendert mtime **21.07.2026 07:49**, Schritt 1 nennt mail@ weiter «IMMER via
+    Apple Mail … PRIMAERKANAL», und der Monitor **nutzt** den Kanal produktiv (fristen.md fuehrt einen
+    «Monitor 22.07.2026 (neue Methodik, mail@ via Apple Mail …): weiterhin NICHTS NEUES»-Eintrag). Damit
+    ist die Lauf-25-Nebenlehre «ein "gelandet" hat wie "haelt an" ein Ablaufdatum» einmal in Gegenrichtung
+    quittiert: einen Tag spaeter geprueft, haelt es. Kein weiterer P1-Sweep noetig, solange der taegliche
+    Monitor-Eintrag laeuft (Faden bleibt geschlossen). Dies ist der einzige substanzielle Fund des Laufs
+    (kein neuer Spec, Gate ohne Drift) — legitimes Verifikationslauf-Ergebnis.
 - F3: Welcher zweite Kritiker ist je Domaene der beste Verifier (korrektur vs. twin vs.
   /code-review vs. Connector)? Zuordnungstabelle aufbauen.
   - Erster Eintrag (Recht/Behoerde, belegt AG-Gruendung): die **autoritative Instanz**

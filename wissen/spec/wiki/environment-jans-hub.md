@@ -1,7 +1,7 @@
 ---
 title: Layer 3 — The Environment (= der JANS AI Hub)
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-07-23
 sources: [260616_marchese_the-spec_karpathy-method_transkript.md, CLAUDE.md]
 links: [[the-spec]], [[verifier]], [[anwendung-jans]]
 ---
@@ -24,11 +24,12 @@ Der JANS AI Hub *ist* dieser Environment-Layer, in praktisch jedem Punkt schon u
 |---|---|---|
 | CLAUDE.md | `CLAUDE.md` (~50k, Architektur + Konventionen) | vorhanden |
 | LLM Knowledge Base (raw→wiki) | `wissen/` mit 16 KBs, Karpathy-Schema, KI-Bibliothekar | vorhanden, ausgebaut |
-| Skill Set | `skills/` (47 Skills), "Skills sind das primaere Interface" | vorhanden, ausgebaut |
-| Rules / Guardrails | `rules/` (20 Dateien, @-Import, immer aktiv) + Hooks | vorhanden, siehe Luecken-Befund unten |
+| Skill Set | `skills/` (49 Skills), "Skills sind das primaere Interface" | vorhanden, ausgebaut |
+| Rules / Guardrails | `rules/` (22 Dateien, davon 19 @-importiert, immer aktiv) + Hooks | vorhanden, siehe Luecken-Befund unten |
 | Workspace verbessert sich | Scheduled-Task-Trainings-Loops je KB | vorhanden, ausgebaut |
 
-Zaehlstand 2026-07-13 (Trainingslauf 8). Diese Tabelle veraltet erfahrungsgemaess schnell
+Zaehlstand 2026-07-23 (Trainingslauf 26, Verifikationslauf): 16 KBs, 49 Skills (13.07.: 47),
+22 Rule-Dateien / 19 @-importiert (13.07.: 20). Diese Tabelle veraltet erfahrungsgemaess schnell
 (Skills/KBs wachsen laufend) — bei jedem Audit neu zaehlen statt die letzte Zahl vertrauen.
 
 ## Environment-Audit Trainingslauf 8 (2026-07-13) — Befund: Rule-Datei existiert, ist aber nicht verdrahtet

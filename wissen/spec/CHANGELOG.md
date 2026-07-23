@@ -1,5 +1,28 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-23 — Trainingslauf 26
+- Output `outputs/2026-07-23_training-run26.md`. **Verifikationslauf** — keine neue reale Spec seit
+  Lauf 24 (SYN-02); Lauf 25 war bereits Verifikation. Zwei substanzielle Beiträge: P1-Hält-Prüfung +
+  fälliger Environment-Zählstand.
+- **P1 (mail@-Blindstelle) hält — am Artefakt verifiziert:** `ag-gruendung-monitor/SKILL.md` unverändert
+  (mtime **21.07.2026 07:49**), Schritt 1 nennt mail@ weiter «IMMER via Apple Mail … PRIMAERKANAL», und
+  der Monitor **nutzt** den Kanal produktiv (`fristen.md`: «Monitor 22.07.2026 (neue Methodik, mail@ via
+  Apple Mail …): weiterhin NICHTS NEUES»). Die Lauf-25-Lehre «ein "gelandet" hat ein Ablaufdatum» einmal
+  in Gegenrichtung quittiert: einen Tag später geprüft, hält es. Faden bleibt geschlossen.
+- **Environment-Zählstand (fällig seit Lauf 13, 13.07.):** `wiki/environment-jans-hub.md` folgt der
+  eigenen «bei jedem Audit neu zählen»-Instruktion — Skills **47→49**, Rule-Dateien **20→22** (19
+  @-importiert), KBs 16 unverändert. Belegte, additive Faktenkorrektur; Tabelle + Zählstand-Zeile +
+  `last_updated` → 07-23. KB-Gesundheit mitgeprüft: Backlinks lösen auf (5/5), INDEX komplett, Template
+  vorhanden, Gate-Rule konsistent, `last_updated` kohärent.
+- **Umgesetzt:** `wiki/environment-jans-hub.md` (Zählwerte + Zählstand-Zeile + `last_updated` 07-23);
+  `wiki/QUESTIONS.md` F2 (Hält-Check-Datenpunkt 23.07.).
+- **Bewusst nicht getan:** kein erfundenes Refinement ohne Beleg (wäre Gate-Überdehnung nach innen);
+  keine redundante P1-Wiederholung; Gate-Rule unverändert (F1-Überdehnungs-Gegentest bleibt unbelegt);
+  Task-Definition nicht angefasst; kein Mailversand.
+- Offen: SYN-02-MVP-Bau Block 1 (`typologie_zu_variante.py` noch nicht gebaut → nächster echter
+  Auswertungslauf, sobald gebaut); F1-Überdehnungs-Gegentest unbelegt; F3 Marketing/Text letzte offene
+  Domänenzeile; Sweep «behoben, aber nicht behoben» bei anderen Hub-Monitoren (`logbuch`/`heartbeat`).
+
 ## 2026-07-22 — Trainingslauf 25
 - Output `outputs/2026-07-22_training-run25.md`. **Verifikationslauf** — keine neue reale Spec seit
   Lauf 24 (SYN-02). Legitimer Beitrag: Reue-Pruefung mit substanziellem Fund.
