@@ -4,6 +4,16 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-07-23 — Batch-Lauf (leer, 11. Mal in Folge) + Vektorindex neu (Mac Mini)
+Batch 25, 07:35–07:36. Stufe 1 ohne neuen Stoff (853/853, offen 0, Stand unveraendert
+2026-07-02). Stufe 2 hat `catalog/vectors.npz` deterministisch neu gebaut (853 × 768,
+`intfloat/multilingual-e5-base`); Semantiksuche per Stichprobe intakt ("introvertierter
+Hof Beton Kapelle", Top-Treffer um 0.85). Quelle gegengeprueft: 854 Ordner, juengste
+Aenderung `HdM` 2026-04-07, kein neues Rohmaterial. Git-Diff nur Zeitstempel (`INDEX.md`,
+`cad-index.json`). Elfter ergebnisloser Nachtlauf in Folge — Empfehlung zum 11. Mal: Task
+`synobsis-batch-nacht` pausieren/loeschen (Endbedingung erreicht). Protokoll:
+`outputs/2026-07-23_batch-lauf.md`.
+
 ## 2026-07-22 — Umlaut-Bug (ASCII-Ersatzschreibung in Haiku/Sonnet-Subagenten-Outputs) bestätigt betroffen
 Cross-KB-Verifikation (Nachtschicht Mac Mini ~19:00, ausgehend von der KB baurecht): die
 "Minimum Viable Model"-Subagenten-Delegation seit 19.07. gibt die Umlaut-Regel nicht an
