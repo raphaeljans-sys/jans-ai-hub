@@ -1,5 +1,24 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-23 — Etappe 3, Baustein B1 Healthcare erledigt (Task wettbewerbs-dna-training, MacBook Pro Nachtlauf)
+- **Quellen-Sweep Healthcare** als Workflow-Fan-out ueber 6 Scouts (espazium, zuerich,
+  bern-basel, luzern-ostschweiz, weitere-kantone, konkurado-traeger; general-purpose-Agenten
+  mit WebSearch/WebFetch + curl-Verifikation, 0 Fehler, ~753k Subagent-Tokens).
+- **Ergebnis:** 48 Kandidaten, davon **42 mit HTTP-verifiziertem freiem Jurybericht-PDF**
+  (200/206 + application/pdf + %PDF), 6 Zugang unklar/Viewer. B1-Ziele (>=15 / >=8 frei)
+  klar uebertroffen. Neu: `outputs/2026-07-23_etappe3-healthcare-sweep.md`.
+- **Subtyp-Bilanz:** 22 pflegeheim-alterszentrum, 11 spital-klinik, 6 psychiatrie,
+  2 alterswohnen, 3 gemischt. Breite Auslober-Streuung (Kantonsspitaeler USB/KSA/LUKS/
+  Oberwallis, Universitaere Psychiatrie, Stadt-ZH-Gesundheitszentren, Westschweiz-EMS Kt. Vaud).
+- **Dedup:** eigene 2101 KSSG H14 sauber ausgeschlossen; Cross-Scout-Dubletten (KSA Aarau ×2,
+  Bad Zurzach ×2, St. Katharinen ×2, Kaltbrunn ×2, Aesch Im Bruel ×3, Malters ×2,
+  ipw Schlosstal ×2 versch. Hoster, Ried Biel ×2, Sihlsana Jurybericht vs. Broschuere) gemerged.
+- **Luecken → QUESTIONS:** 0 rehabilitation und 0 reines gesundheitszentrum-aerztehaus im
+  Sweep; Entscheid bei B4-Synthese (Zusatz-Sweep private Reha-Traeger oder Subtyp streichen).
+- **Kein PDF beschafft** (Takt-Regel 260714, ein Baustein je Lauf). Empfohlener B2/B3-Batch
+  von 9 subtyp-gespreizten Kandidaten im Report markiert. INDEX/QUESTIONS/ETAPPE-3 nachgefuehrt.
+  **Naechste Zelle: Healthcare B2/B3.**
+
 ## 2026-07-22 — Nachtschicht Mac Mini: Jurybericht-Termin 2501 Steinfabrik korrigiert (Ende März → Sommer 2026)
 - 7. Beobachtungsprüfung des ausstehenden Juryberichts 2501 Steinfabrik (Hafenareal Pfäffikon
   SZ). konkurado.ch weiterhin ohne Jurybericht/Sieger. Erstmals zusätzlich die

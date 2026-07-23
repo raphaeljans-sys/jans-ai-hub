@@ -3,6 +3,19 @@
 Stand: 14.07.2026 (Etappe-3-Start: Bauaufgaben-Blocker geschlossen)
 
 ## Offen
+- **Healthcare-Subtyp «rehabilitation» im Sweep nicht gefunden (Befund B1 Healthcare,
+  23.07.2026):** Der 6-Scout-Sweep (48 Kandidaten) fand 0 entschiedene Reha-Wettbewerbe mit
+  freiem Jurybericht (Reha-Klinik/Rehazentrum). Reha-Neubauten laufen in der CH oft ueber
+  private Traeger (z.B. Kliniken Valens, Rehab Basel, Zurzach Care) mit nicht-oeffentlichen
+  Verfahren. **Fuer die typologische DNA:** entweder gezielter Zusatz-Sweep bei den privaten
+  Reha-Traegern/Planer-Sites, oder Reha bewusst aus der Healthcare-DNA ausklammern (Entscheid
+  bei B4-Synthese). Bis dahin traegt das Healthcare-Muster keine Reha-Aussagen.
+- **Kein reines «gesundheitszentrum-aerztehaus» im Sweep (Befund B1 Healthcare, 23.07.2026):**
+  Die gefundenen «Gesundheitszentren» (Stadt ZH: Grünau, Bachwiesen, Thurgauerstrasse) sind
+  faktisch stationaere Pflege («Gesundheitszentren fuer das Alter»), kein ambulantes
+  Aerztehaus/Ambulatorium. Reine Aerztehaeuser werden selten ueber offene Architektur-
+  wettbewerbe vergeben. Subtyp bleibt vorerst unbelegt; bei B4 als eigene Kategorie streichen
+  oder unter spital-klinik (ambulant) fuehren — Entscheid bei der Synthese.
 - **CHF/m³ GV ist aus Schul-Juryberichten strukturell nicht belegbar (Befund B6,
   20.07.2026):** In 25 ausgewerteten Quellen fand sich **genau ein** absoluter
   GV-Wert (eigene Berechnung 2206 Schöntal). Juryberichte nennen Kosten als

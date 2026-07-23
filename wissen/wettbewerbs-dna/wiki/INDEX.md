@@ -1,11 +1,16 @@
 # INDEX — KB wettbewerbs-dna
 
-Stand: 21.07.2026 (Etappe 3, **Baustein B5 Schulbau erledigt — Schulbau (Prio 1) damit
+Stand: 23.07.2026 (Etappe 3, **Baustein B1 Healthcare erledigt**: Quellen-Sweep
+`outputs/2026-07-23_etappe3-healthcare-sweep.md` via 6-Scout-Workflow-Fan-out — **48
+Kandidaten, 42 mit HTTP-verifiziertem freiem Jurybericht-PDF** (Ziel >=15/>=8 uebertroffen);
+Subtypen 22 pflegeheim-alterszentrum / 11 spital-klinik / 6 psychiatrie / 2 alterswohnen /
+3 gemischt; Luecken 0 rehabilitation + 0 reines gesundheitszentrum-aerztehaus (→ QUESTIONS).
+Empfohlener B2/B3-Batch von 9 subtyp-gespreizten Kandidaten markiert. Naechste offene Zelle:
+**Healthcare B2/B3** (destillieren + refutieren).) — vorher 21.07.2026 (Etappe 3, **Baustein B5 Schulbau erledigt — Schulbau (Prio 1) damit
 VOLLSTAENDIG abgeschlossen, B1–B6**: maschinenlesbares Parameter-Set
 `entwurfs-referenzen/wiki/parameter-sets/schule-volksschule-ch.json` (v1.0) rein aus den
 established Mustern B6 + B4 abgeleitet, schema-valide + refuter-BESTANDEN; nur belegte Werte,
-`chf_m3_gv_band` bewusst weggelassen. Naechste offene Zelle: **Healthcare (Prio 2), B1
-Quellen-Sweep**.) — vorher 20.07.2026 (Etappe 3, **Baustein B6 Schulbau erledigt**: neuer Muster-Artikel
+`chf_m3_gv_band` bewusst weggelassen.) — vorher 20.07.2026 (Etappe 3, **Baustein B6 Schulbau erledigt**: neuer Muster-Artikel
 `muster/kennwerte-schulbauten.md` aus 25 Quellen, 431 von 436 Kennzahlen refuter-
 bestaetigt. Tragfaehigster Kennwert: HNF/GF 0.52–0.54 aus zwei unabhaengigen Quellen.
 Strukturbefund: CHF/m3 GV ist aus Schul-Juryberichten nicht belegbar.) — vorher 14.07.2026 (Etappe-3-Nachbrenner: **alle 9 verbliebenen Draft-Destillate auf
