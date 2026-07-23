@@ -7,6 +7,23 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-23
 
+**Nachtschicht Mac Mini (~23:35, Wiki-Artikel-Kompilierung, Dispatch-Run 20260723-233001).**
+Vor Aufgabenwahl den Git-Backup-Punkt aus dem parallelen 22:30-Energie-Intensivlauf verifiziert:
+`energie-run86` sowie mehrere `nas-selfcommit`-Commits liegen bereits im lokalen `main` — die
+im run85-Ergebnis offen gelassene Unsicherheit ist erledigt, keine Aktion noetig. Synobsis
+(Prio 2) weiterhin gesaettigt (853/853, taeglicher No-Op-Rebuild). Alle drei Mac-Mini-
+Trainingsdomaenen (energie, planungsgrundlagen, normen DIN/VSS/RAL) zeigten `CHANGELOG`-
+Aktivitaet von vor unter einer Stunde (Wissens-Chef Run 13, Cross-KB) — kein neuer Trainingslauf
+noetig. Stattdessen Prioritaet 5 gezogen: das offene QUESTIONS-Item «EN 520 Original-Destillat
+fehlt» (KB `normen`, DIN/VSS/RAL-Scope) bearbeitet. SharePoint PL-02 02_Normen/DIN_Norm geprueft
+(72 Dateien) — SN EN 520 nicht im Bestand, nur kostenpflichtig erhaeltlich, kein Kauf ohne
+Freigabe. Oeffentliche Normvorschau (baunormenlexikon.de) recherchiert: liefert die exakte
+Fundstelle Ziffer 4.13 «Definierte Dichte (Typ D)» sowie zwei bisher fehlende Typenbuchstaben
+(E, P) — beides in `wiki/en-520-gipsplattentypen.md` und `wiki/REGISTER.md` nachgetragen, das
+QUESTIONS-Item mit klarer Restaufgaben-Abgrenzung (Volltext-Kauf nur mit Raphaels Freigabe)
+geschlossen. Report `wissen/normen/outputs/2026-07-23_en-520-bestandsluecke.md`, CHANGELOG
+ergaenzt. Verbrauch: ~2.6 USD von 5 USD Budget.
+
 **Nachtschicht Mac Mini (~22:30, Registerpflege + Verifikation, Dispatch-Run 20260723-223001).**
 Alle sechs Prioritaeten erneut durchlaufen, diesmal mit aktiver Verifikation statt reiner
 Log-Lektuere: Queues leer; Synobsis Stufe 2 nicht erneut angestossen (11. Leerlauf steht);

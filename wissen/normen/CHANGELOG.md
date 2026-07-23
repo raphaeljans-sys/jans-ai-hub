@@ -1,3 +1,19 @@
+## 2026-07-23 — Nachtschicht Mac Mini (~23:35): EN 520 Bestandslücke recherchiert (QUESTIONS-Item)
+- [recherchiert] Offenes QUESTIONS-Item «EN 520 Original-Destillat fehlt» bearbeitet: SharePoint
+  PL-02 02_Normen/DIN_Norm geprueft (72 Dateien) — SN EN 520 ist NICHT im JANS-Bestand und nur
+  kostenpflichtig (Beuth/DIN Media/SNV) erhaeltlich, kein Kauf ohne Freigabe/kein Nachtschicht-Fall.
+  Oeffentliche Normvorschau (baunormenlexikon.de, DIN EN 520:2009-12) liefert immerhin die exakte
+  Fundstelle Ziffer 4.13 «Definierte Dichte (Typ D)» sowie zwei bisher fehlende Typenbuchstaben
+  (E, P). Der Zahlenwert 800 kg/m³ bleibt wie bisher ueber zwei unabhaengige Sekundaerquellen +
+  Produktdatenblaetter belegt (Typ-D-Definition damit ausreichend abgestuetzt).
+- [ergaenzt] `wiki/en-520-gipsplattentypen.md`: Fundstelle Ziffer 4.13 + Typen E/P nachgetragen,
+  `sources` um die Vorschau-Quelle erweitert, «Offene Punkte» praezisiert (Kaufbedarf klar benannt).
+- [ergaenzt] `wiki/REGISTER.md` (Abschnitt B, DIN/VSS/RAL): neuer Eintrag «Mini-Run (23.07.2026)»
+  fuer SN EN 520 mit Bestandsstatus «nicht im Bestand».
+- [geschlossen] `wiki/QUESTIONS.md`: Item als [x] markiert, Rest-Scope (Volltext-Kauf) klar
+  von einem Standard-Nachtschicht-Fall abgegrenzt.
+- Report: `outputs/2026-07-23_en-520-bestandsluecke.md`.
+
 ## 2026-07-23 — Wissens-Chef Run 13 (Cross-KB): SN 640 066 Ausgaben-Divergenz aufgeloest + sia-2040-Rueckverweis
 - [korrektur] `destillate/vss-640066-1996.md`: adversarial verifizierte Divergenz (Verdikt CONFIRMED) —
   baurecht fuehrte SN 640 066 als «VSS 40 066 (2011/2019), neuer Titel Parkieren; Projektierung», dieses

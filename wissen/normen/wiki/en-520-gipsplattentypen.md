@@ -2,7 +2,7 @@
 title: "EN 520 — Gipsplattentypen (A/D/F/H/I/R), Typ D = Rohdichte ≥ 800 kg/m³"
 status: established
 last_updated: 2026-07-23
-sources: [Rigips-Normbroschüre «DIN EN 520 — Europäische Normung für Gipsplatten» (trockenbau.saarland, RZ 2006), FeuerTrutz/TÜV-Tabelle Gipsplattentypen nach DIN EN 520, Rigips Produktdatenblätter Duraline Vario / Habito (KISPI DS3-Unternehmerdokumentation)]
+sources: [Rigips-Normbroschüre «DIN EN 520 — Europäische Normung für Gipsplatten» (trockenbau.saarland, RZ 2006), FeuerTrutz/TÜV-Tabelle Gipsplattentypen nach DIN EN 520, Rigips Produktdatenblätter Duraline Vario / Habito (KISPI DS3-Unternehmerdokumentation), oeffentliche Vorschau baunormenlexikon.de zu DIN EN 520:2009-12 (TOC/Ziffern-Ebene, kein Volltext)]
 links: [[REGISTER]], [[synthese-sia-vkf-fachskills]]
 ---
 
@@ -22,6 +22,16 @@ Typen-Buchstaben, die kombiniert werden (z.B. DFIR, DFH2IR). Für JANS-Praxis re
 
 Wortlaut Typ D (Rigips-Normbroschüre zur DIN EN 520): «Gipsplatte mit definierter
 Dichte von mindestens 800 kg/m3.»
+
+**Fundstelle im Original (23.07.2026 recherchiert, öffentliche Normvorschau
+baunormenlexikon.de zur DIN EN 520:2009-12, «Gipsplatten — Begriffe, Anforderungen
+und Prüfverfahren»):** Typ D ist dort unter **Ziffer 4.13 «Definierte Dichte (Typ D)»**
+geregelt. Die Vorschau bestätigt Ziffer/Titel, der konkrete Zahlenwert (800 kg/m³)
+selbst ist in der Vorschau nicht einsehbar (kostenpflichtiger Volltext bei
+Beuth/DIN Media) — er bleibt über die beiden unabhängigen Sekundärquellen plus die
+Produktdatenblätter belegt. Die Normvorschau listet zudem weitere Typenbuchstaben
+**E** und **P**, die in der bisherigen Tabelle fehlen (für die JANS-Praxis bislang
+nicht relevant, der Vollständigkeit halber vermerkt).
 
 ## Praxisregeln
 
@@ -47,5 +57,9 @@ Report `wissen/projekt-lessons/outputs/2026-07-23_kispi-rohdichte-800-herkunft.m
 
 ## Offene Punkte
 
-- Destillat der EN 520 aus dem Original fehlt (Definition bisher über zwei
-  unabhängige Sekundärquellen + Produktdatenblätter belegt) — siehe QUESTIONS.
+- Volltext-Destillat der EN 520 fehlt weiterhin: die Norm ist nicht im JANS-Bestand
+  (SharePoint PL-02 02_Normen/DIN_Norm geprüft 23.07.2026, nicht vorhanden) und nur
+  kostenpflichtig bei Beuth/DIN Media/SNV zu beziehen — kein Fall für eine
+  unbeaufsichtigte Nachtschicht (kein Einkauf ohne Freigabe). Die Ziffer 4.13 ist nun
+  als Fundstelle belegt (s.o.); der Zahlenwert selbst bleibt über Sekundärquellen
+  gestützt. Bei Bedarf eines Volltext-Zitats: Kauf/Beschaffung mit Raphael abstimmen.

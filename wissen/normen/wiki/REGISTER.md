@@ -389,6 +389,12 @@ DIN 4102-1, SN 640 060), Qualität entspricht dem KB-Standard — jetzt nachgezo
 | SN 640 060 (VSS) | November 1994 | nicht angegeben im Dokument | gilt |
 | SN 640 066 (VSS) | April 1996 | nicht angegeben im Dokument | gilt |
 
+## Mini-Run (23.07.2026, Mac Mini — EN 520 Bestandslücke recherchiert)
+
+| Norm | Ausgabe | Ersetzt | Bemerkung |
+|---|---|---|---|
+| SN EN 520 (DIN EN 520) Gipsplatten — Begriffe, Anforderungen, Prüfverfahren | 2004+A1:2009 (dt. Fassung DIN EN 520:2009-12) | EN 520:2004 (ohne A1) | **nicht im JANS-Bestand** (SharePoint PL-02 02_Normen/DIN_Norm geprüft, 72 Dateien, EN 520 fehlt); nur kostenpflichtig verfügbar (Beuth/DIN Media/SNV) — kein Kauf ohne Freigabe. Öffentliche Vorschau bestätigt Ziffer 4.13 «Definierte Dichte (Typ D)» als Fundstelle; Typenbuchstaben lt. Vorschau A/D/E/F/H1-3/I/P/R (bisheriges Wiki nur A/D/F/H/I/R). Details/Praxis: [[en-520-gipsplattentypen]]. |
+
 ## Run-3-Präzisierungen (12.07.2026, MacBook Pro — am Original verifiziert)
 
 P2-SIA-Batch (Tragwerk 260–267, Hindernisfrei/Sicherheit/Boden/Abdichtung/Dach/Fassade).

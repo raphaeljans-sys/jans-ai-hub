@@ -11,12 +11,18 @@
   Fan-out empfohlen, analog Normen-Trainingslaeufen). Bis dahin: keine weitere Nachtschicht auf
   dieses Item ansetzen, stattdessen naechst-aelteres KB-Audit waehlen.
 
-- [ ] **EN 520 Original-Destillat fehlt (2026-07-23, KISPI-Fall Rohdichte 800 kg/m³):** Der
-  Wiki-Artikel `en-520-gipsplattentypen` belegt die Typ-D-Definition (definierte Dichte
-  ≥ 800 kg/m³) bisher über zwei unabhängige Sekundärquellen (Rigips-Normbroschüre DIN EN 520,
-  FeuerTrutz/TÜV-Typentabelle) plus Produktdatenblätter (Duraline Vario/Habito = Typ DFIR).
-  Für die Volltext-Verifikation das Original SN EN 520 beschaffen (SharePoint PL-02
-  02_Normen prüfen) und als Destillat ablegen; danach Artikel-Quellen nachziehen.
+- [x] **EN 520 Original-Destillat fehlt (2026-07-23, KISPI-Fall Rohdichte 800 kg/m³) — soweit
+  ohne Kauf recherchiert (23.07.2026, Mac Mini Nachtschicht):** SharePoint PL-02
+  02_Normen/DIN_Norm geprüft (72 Dateien) — SN EN 520 ist **nicht im JANS-Bestand** und nur
+  kostenpflichtig bei Beuth/DIN Media/SNV erhältlich (kein Einkauf ohne Freigabe, kein Fall
+  für eine unbeaufsichtigte Nachtschicht). Öffentliche Normvorschau (baunormenlexikon.de,
+  DIN EN 520:2009-12) bestätigt immerhin die genaue Fundstelle **Ziffer 4.13 «Definierte
+  Dichte (Typ D)»** sowie zwei bisher fehlende Typenbuchstaben (E, P) — in `wiki/
+  en-520-gipsplattentypen.md` und `wiki/REGISTER.md` nachgetragen. Der Zahlenwert
+  (800 kg/m³) bleibt wie bisher über zwei unabhängige Sekundärquellen + Produktdatenblätter
+  belegt (Typ-D-Definition ist damit ausreichend abgestützt). Bleibt offen: Volltext-Kauf,
+  falls je ein wörtliches Norm-Zitat nötig wird — dann mit Raphael abstimmen, kein
+  Nachtschicht-Standardfall.
 
 - [x] **ersetzt/ersetzt_durch-Lücke (Mac Mini Nachtschicht, 2026-07-22, DIN-Teilmenge):** aus dem
   Audit-F-Befund vom 21.07. ("Feld ersetzt/ersetzt_durch fehlt in 127 Destillaten") die DIN/VSS/

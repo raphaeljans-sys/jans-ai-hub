@@ -3,6 +3,34 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-23 — Run 13 (5 Lese-Agenten, 5 Paare/Felder; 2 Widersprueche adversarial verifiziert, beide CONFIRMED)
+- Gedrosselter Cross-KB-Lauf (Rule 260714): 5 parallele Lese-Agenten ueber das regulaere Agent-Tool
+  (Hintergrund, gleiche Parallelitaet wie Run 10-12) am frischen Stoff seit Run 12 — energie Run 85/86 (Anergienetz
+  F109, oberflaechennahe Erdwaerme F110, PV-Marktpreise BFE-2024/Indach-Korrektur), pg Run 57 (Naturgefahren-GIS),
+  normen Nachtschicht 23.07., projekt-lessons neuer Artikel `kispi-lbw-rohdichte-800` (EN 520). **Zwei** materielle
+  Widersprueche gemeldet → **2 adversariale Verifier**, **beide Verdikt CONFIRMED**.
+- **Kern-Ergebnis 1: Indach-«+60 %»-Korrektur (energie-intern, Cross-KB relevant).** Der stale Wert in
+  `energie/wiki/pv-solar-technologien.md` widersprach der eigenen Run-86-Korrektur (E-R86c) UND pg
+  `energie-pv-eignung-typenwahl`. Verifier bestaetigte: Registerkorrektur wurde nicht in den Wiki-Body gespiegelt.
+  Quellentreuer Vorbehalt gesetzt (BFE-2024: kein signif. Aufschlag mehr fuer Standard-Module), Solarziegel-Wert
+  erhalten, KEIN Zahlenwert erfunden.
+- **Kern-Ergebnis 2: SN 640 066 Ausgabe-Divergenz aufgeloest (normen ↔ baurecht).** baurecht «VSS 40 066 (2011/2019)»
+  vs. normen «nur 1996, Nachfolger unbekannt», bei KB-interner Inkonsistenz (`vss-640065-2011` zitiert den neuen Titel
+  bereits). Verifier: echte Divergenz + interne Inkonsistenz, aber keine harte Faktenkontradiktion (beide Destillate
+  ihrer Ausgabe treu). Aufgeloest ohne unbelegten Jahrgang: normen `ersetzt_durch` Cross-Verweis auf 640065-2011 +
+  links + Body; baurecht Herkunfts-Vorbehalt.
+- **9 autonome Aktionen in 4 KBs** (2 verifizierte Korrekturen + 5 Cross-Links bidirektional/anker, keine Loeschung):
+  energie (Indach-Korrektur, graue-energie→normen, F110→pg, F109→pg), normen (vss-640066 ersetzt_durch+links+body,
+  sia-2040→energie), baurecht (fahrzeugabstellplaetze-Vorbehalt, INDEX-Naturgefahren-Anker), planungsgrundlagen
+  (naturgefahren §6c → energie reziprok). Je KB CHANGELOG protokolliert; QUERBEZUEGE um 5 Paar-Eintraege ergaenzt.
+- **Offene Punkte (kein neuer Entscheid fuer Raphael):** SN-640-066 exaktes Ausgabe-Jahr nur mit amtlicher
+  VSS-Quelle verifizierbar (Vorbehalt gesetzt); baurecht Naturgefahren/Gefahrenzonen-Destillat = Bring-Schuld
+  (Loop-Arbeit); 4 niederprioritaere baurecht→normen-Links (SIA 380/1, 358, 414/10, 431 — 414/10 mit Ausgabe-Check);
+  1 Link Lesson→VKF-BRL 15 niederprioritaer geflaggt. **Cross-KB-Beobachtung: Umlaut-Config-Bug** (ASCII ae/oe/ue)
+  jetzt zusaetzlich in immobilienbewertung/spec/grobkosten-Health-Checks (23.07.) bestaetigt — seit Run 12 getrackt,
+  Config-Sache (Whitelist-verboten), fuer hub-chef/Raphael, hier nur registriert (keine Doppelmeldung).
+  Report: `outputs/2026-07-23_wissens-chef-run13.md`.
+
 ## 2026-07-22 — Run 12 (5 Lese-Agenten, 6 Paare/Felder; 1 Widerspruch adversarial verifiziert)
 - Gedrosselter Cross-KB-Lauf (Rule 260714): 5 parallele Lese-Agenten über das reguläre Agent-Tool
   (Workflow-Tool headless weiter nicht nutzbar, wie Run 10/11) am frischen Stoff seit Run 11 — auflagebereinigung
