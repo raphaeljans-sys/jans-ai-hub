@@ -7,6 +7,31 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-23
 
+**Nachtschicht Mac Mini (~21:30, keine Aufgabe gewaehlt, Dispatch-Run 20260723-213006).**
+Alle sechs Prioritaeten sorgfaeltig durchlaufen, keine mit gutem Kosten-Nutzen-Verhaeltnis
+gefunden: (1) remote-tasks/sync-tasks weiterhin leer. (2) Synobsis Stufe 2 zum 11. Mal in
+Folge leer, nicht erneut angestossen. (3) Fristen-Register (`logbuch/fristen.md`) frisch,
+alle KISPI-Fristen (Los274.01, Installationsplaene Roethlisberger) faellig erst morgen
+24.07., kein unbeobachtetes Ueberfaelliges gefunden. (4) Trainingsprogramme der Mac-Mini-
+Domaenen (energie, planungsgrundlagen, DIN/VSS/RAL-Normen) bereits heute gelaufen, kein
+neuer Stoff. (5) QUESTIONS.md-Recherche gegen alle KBs mit offenen Punkten geprueft:
+`energie` E84/E94 sind mehrfach wiederholte Negativ-Rechercheversuche (kein neuer
+Ansatzpunkt), E103 braucht ausdruecklich Raphaels Entscheid vor jeder Bearbeitung (eigene
+Projektdaten auswerten oder nicht); `normen` ist heute bereits durch den MacBook-Dauerschicht-
+Loop (Run 18, SIA/VKF) aktiv bearbeitet, DIN/VSS/RAL-Seite bereits gesaettigt; die
+SIA-500-Kennwert-Frage in `baurecht`/`normen` ist bereits praezise als ungeklaert geflaggt
+(Cross-KB Run 11) und nicht ohne Neufund loesbar. (6) Wissenscheck Phase 1 auf der KB mit
+dem aeltesten Audit-Datum: `koordination` (20.07., staerkstes Datum gleichauf mit `normen`)
+ist eine sich selbst laufend audit­ierende Meta-KB (taeglicher Wissens-Chef, zuletzt Run 12
+am 22.07.) — ein zusaetzlicher Standard-Audit haette laut eigener Vorlaeufer-Einschaetzung
+("Audit bewusst kompakt gehalten") kaum Mehrwert; `architekten-synobsis` (07-21) ist eine
+Tool-KB ohne Standard-Audit-Schema (Health-Indikator ist der Scan-Status, heute bereits
+geprueft). Der `baurecht`-Health-Check (07-22) listet nur bereits als "eigener Auftrag"
+klassifizierte groessere Posten (Umlaut-Bereinigung, Status-Promotion 4 Artikel, explizit
+Phase-2/interaktiv). Fazit: keine Aufgabe erfuellt die Budget-/Eignungs-Kriterien fuer eine
+unbeaufsichtigte Nachtschicht; Beschaeftigung wird nicht erfunden. Verbrauch: ~2.3 USD von
+5 USD Budget (reine Priorisierungs-/Sondierungsarbeit, keine Aenderung an KBs vorgenommen).
+
 **Nachtschicht Mac Mini (~20:45, Registerpflege entwurfs-referenzen, Dispatch-Run
 20260723-203001).** Priorisierung durchlaufen: Queues weiterhin leer, Synobsis Stufe 2 nicht
 erneut angestossen, keine neue Trainingslektion faellig, keine offene QUESTIONS-Recherche mit
