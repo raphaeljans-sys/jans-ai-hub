@@ -1123,3 +1123,57 @@ Eintrag ist ein 63-Byte-OneDrive-Platzhalter, kein PDF). Reiner Verdichtungs-/Ve
   **Faktor-10-Widerspruch vRG CHF 0.04/kg (=40/t) ↔ reale Gesamtentsorgungskosten CHF 400–500/t**
   (an SENS zu klären); EPBT-Primärstudie nicht zurückverfolgbar; VREG-Geltung für PV-Module als
   Auslegung markiert (nicht wortwörtlich im Übergangslisten-Art. 15 genannt).
+
+## Run 85 (2026-07-23) — sechs parallele Agenten, PDF-Inventar weiterhin erschöpft
+
+- [x] **PV-Entsorgung Faktor-10-Widerspruch** geklärt ✓ 2026-07-23: SENS eRecycling-Blog bestätigt
+  reale Rückbaukosten CHF 440/t vs. vRG CHF 40/t als offen kommunizierte zeitliche
+  Quersubventionierung aus dem wachsenden Fonds, kein Fehler → `[[pv-entsorgung-recycling-lebensende-ch]]`
+  auf established gehoben. EPBT-Primärquelle (treeze/Frischknecht 2020) gefunden. Offen: auditierte
+  Gesamtrecyclingquote in %.
+- [ ] **Fernwärme Objektgrössen-Verweigerung** eingegrenzt auf 290-407 kW, exaktes 10-kW-Fenster
+  weiterhin offen (kein reales Objekt in der Lücke gefunden) → `[[fernwaerme-anschlusskosten-zh]]`.
+- [x] **Neues Thema Heizöltank-Sanierung/Rückbau ZH+SZ** ✓ 2026-07-23 → `[[heizoeltank-sanierung-rueckbau-zh-sz]]`,
+  established (Bund/ZH). Offen: SZ-Merkblatt im Volltext, Kostenrichtwerte.
+- [x] **Neues Thema Stromtarif-Modelle Wärmepumpen** ✓ 2026-07-23 → `[[stromtarife-waermepumpen-sperrzeiten-ch]]`,
+  established (Recht). Korrektur: StromVV Art. 8c per 1.1.2026 aufgehoben, neu StromVG Art. 17b/17c.
+  Offen: Smart-Meter-Rollout-Quote amtlich, SZ-EVU-Beispiele.
+- [x] **Umlaut-Bug diagnostiziert** ✓ 2026-07-23: Root Cause = Prompt-Vererbungslücke bei
+  delegierten Scheduled-Task-Subagenten (erben Rules nicht automatisch). Fix vorgeschlagen,
+  Freigabe durch Raphael nötig (Config-Whitelist-Sperre); Bereinigung ~27 betroffener Destillate offen.
+- [x] **Neues Thema Erdwärmesonden-Mehrfachfelder/Regeneration** ✓ 2026-07-23 →
+  `[[erdwaermesonden-mehrfachfelder-regeneration-zh-sz]]`, emerging. Korrigiert bisherige
+  «SZ-5-m-Regel» als rein rechnerische Folge, keine eigene Vorschrift. Offen: SIA-384/6:2021-Normwortlaut.
+
+**Register-Hinweis:** FAQ-Integration (F106-F108 neu, F105 schärfen) wegen Budget-Deckel auf
+nächsten Lauf verschoben.
+
+## Run 86 (2026-07-23) — komplementär zur Parallel-Session Run 85
+
+Zweite Session am selben Tag (Run 85 lief parallel auf anderer Station, Rule 260720). PDF-Inventar
+weiterhin erschöpft, reiner Web-/Verdichtungspfad, drei Sonnet-Rechercheagenten; Synthese +
+Registerpflege + alle Destillat-Edits mit echten Umlauten auf dem Hauptmodell (direkt gegen den in
+Run 84 gemeldeten Umlaut-Bug der Subagenten).
+
+- [x] **E-R86a** Anergienetz / kalte Fernwärme CH belegt ✓ 2026-07-23 → `[[anergienetz-kalte-fernwaerme-ch]]`,
+  FAQ **F109** neu. 4 CH-Referenzen mit Kennzahlen (ETH Hönggerberg, Suurstoffi, FGZ Friesenberg,
+  LUKS Healthcare). **Offen:** belegte CHF/m²- bzw. Rp./kWh-Kennzahl speziell für Anergienetze
+  (nicht öffentlich); SIA-Norm/Merkblatt (→ Skill `normen`); EnerG-ZH-Volltext zur 70-%-Regel/
+  Anschlusspflicht (nur Snippet); SZ-Rahmen (sz.ch HTTP 403); IBN Hönggerberg 2012↔2013.
+- [x] **E-R86b** Oberflächennahe Erdwärme ohne Tiefbohrung (Flächenkollektor/Erdwärmekorb/Energiepfahl)
+  ZH+SZ belegt ✓ 2026-07-23 → `[[oberflaechennahe-erdwaerme-flaechenkollektor-erdwaermekorb-zh-sz]]`,
+  FAQ **F110** neu. ZH-Verfahren amtlich belegt (BVV Ziff. 5.6.2, Zusatzformular im Baugesuch, kein
+  separates Bohrverfahren, kein reines Meldeverfahren). **Offen:** CH-amtlicher Entzugs-Kennwert W/m²
+  (nur DE-VDI-4640); «Grabenkollektor» als CH-Kategorie unbestätigt; SZ-Verfahren nur Snippet (403);
+  eigenständige SIA-Norm flächige Systeme (→ Skill `normen`); Kostenangabe CHF 30-40k ohne Bezugsgrösse.
+- [x] **E-R86c** PV-Marktpreise Aktualitäts-Check ✓ 2026-07-23 → `[[pv-marktzahlen-kosten-ch-2025]]`,
+  FAQ F18 geschärft. **BFE-Preisbeobachtungsstudie 2024** (publ. Juli 2025) als neuere amtliche
+  Preisbasis erschlossen (Median Aufdach EFH 2'756 CHF/kWp ohne MwSt, real -12 bis -26 % ggü. 2023);
+  **KORREKTUR:** Indach-Aufschlag «+60 %» durch die 2024-Studie relativiert (kein signif. Aufdach↔
+  integriert-Unterschied mehr) — CKW-«+60 %» ist undatierte Faustregel. Schliesst den offenen «CHF/kWp
+  je Anlagengrösse»-Punkt. **Offen:** Solarziegel-Preis (nur Faustregel); kWh/kWp-Ertrag/Degradation
+  keine 2026-Aktualisierung; Preisbeobachtungsstudie Bezugsjahr 2025 noch nicht publiziert.
+- **Koordinations-Notiz:** Run 85 (Parallel-Session) hatte drei Destillate (Heizöltank, Stromtarife/
+  Sperrzeiten, Erdsonden-Mehrfachfelder) erstellt, aber die FAQ-Integration offen gelassen
+  («nachholen»). Run 86 hat diese als **F106/F107/F108** treu aus den Destillaten nachgezogen und
+  die eigenen zwei Neuthemen auf **F109/F110** gesetzt — FAQ jetzt lückenlos F1–F110.

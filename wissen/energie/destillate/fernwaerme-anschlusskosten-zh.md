@@ -301,6 +301,77 @@ von Agro Energie Schwyz** (dort explizit zweistufig: CHF 800/kW bis 20 kW, CHF 3
 das stützt die Plausibilität der hier abgeleiteten Zwei-Segment-Formel zusätzlich, auch wenn sie
 bei Energie Ausserschwyz nirgends offiziell als Text-Formel publiziert ist.
 
+### Vertiefung 23.07.2026 (Run 85, gleicher Tag): kW-Schwellenwert der Objektgrössen-Verweigerung
+eingegrenzt auf 290–407 kW (CO2-Proxy-Methode)
+
+Ausgangslage: Run 84 hatte die Objektgrössen-Verweigerung entdeckt, aber den Schwellenwert nur
+als "deutlich über 200 kW" verortet, ohne Zahl. Ziel von Run 85 war die Eingrenzung auf ein
+möglichst enges kW-Fenster.
+
+**Neue Methode — CO2-Einsparung als Grössen-Proxy, auch wenn kein Preis angezeigt wird.** Jede
+Preisindikationsseite des Rechners zeigt unabhängig vom Verweigerungs-Status das Feld "Sie sparen
+ca. X t CO2 pro Jahr" — dieses Feld ist **auch bei Objektgrössen-Verweigerung befüllt** (belegt an
+Höfliweg 2 Galgenen: 941,0 t CO2, sowie an Churerstrasse 100/104 Pfäffikon SZ: 164,7 t / 180,9 t
+CO2 — alle drei ohne Preisindikation). Kalibrierung an 12 real bepreisten Objekten mit über den
+Investitionsbeitrag exakt rückrechenbarem kW-Wert (Bereich 10–290 kW, u.a. Acherenboden 1 SZ
+10 kW/3,7t, Gwattstrasse 12+13+14 Pfäffikon 109/124/201 kW, Altersheimstrasse 12 Galgenen 188 kW/
+76,3t, Obergasse 14a Galgenen 202 kW/81,9t, Schulstrasse 1 Galgenen 290 kW/117,6t) zeigt ein
+**stabiles Verhältnis von ca. 0,405 t CO2 pro kW** (Einzelwerte 0,394–0,409 im Bereich ab 70 kW,
+minimal tiefer bei sehr kleinen Objekten ≤ 11 kW). Das erlaubt eine kW-Schätzung auch für
+verweigerte Objekte, für die keine Förderbeitrags-Rückrechnung möglich ist.
+
+Mit dieser Methode neu eingeordnete Verweigerungs-Fälle (kW = CO2-Wert ÷ 0,405, gerundet):
+
+| Adresse | Objekt-ID | CO2 t/Jahr | geschätztes kW |
+|---|---|---|---|
+| Churerstrasse 100, Pfäffikon SZ | 245489 | 164,7 | **≈ 407** (tiefster bisher beobachteter Verweigerungs-Fall) |
+| Churerstrasse 104, Pfäffikon SZ | 245496 | 180,9 | ≈ 447 |
+| Bahnhofplatz 3, Lachen SZ | 251107 | 257,2 | ≈ 636 (**neu, Run 85**) |
+| Gwattstrasse 11, Pfäffikon SZ | 245714 | 466,4 | ≈ 1'152 (**neu, Run 85**) |
+| Höfliweg 2, Galgenen | 191641111 | 941,0 | ≈ 2'324 (grösster bisher beobachteter Fall) |
+
+**Gezielte Nachverdichtung im vermuteten Übergangsbereich (250–450 kW):** rund 90 weitere reale
+Adressabfragen in Pfäffikon SZ (Poststrasse, Unterdorfstrasse, Oberdorfstrasse, Gwattstrasse
+weitere Hausnummern, Industriestrasse, Seedammstrasse/Seedamm-Center, Churerstrasse weitere
+Hausnummern und ID-Bereichs-Scan), Freienbach (Weinbergstrasse, Wiesenstrasse, Schwerzistrasse,
+Kirchstrasse), Siebnen (Kreuzstrasse, Äussere Bahnhofstrasse, Rosenweg) und Lachen SZ
+(Bahnhofplatz weitere Hausnummern und ID-Bereichs-Scan, Feldstrasse, Alter Schulhausplatz,
+Seestrasse) — **kein einziges real existierendes Objekt fiel in das Fenster zwischen 290 kW
+(höchster bepreister Fall) und ca. 407 kW (tiefster verweigerter Fall).** Alle neu gefundenen
+Objekte lagen entweder klar darunter (höchster Nebenfund in dieser Runde: Schwerzistrasse 1
+Freienbach, 62,1 t CO2 ≈ 153 kW) oder bereits deutlich darüber (siehe Tabelle oben).
+
+**Ergebnis: der Schwellenwert liegt nachweislich zwischen 290 kW (bepreist) und ca. 407 kW
+(verweigert)** — eine Eingrenzung von vorher "deutlich über 200 kW, nicht beziffert" auf ein
+Fenster von rund 117 kW. Die angestrebte 10-kW-Fensterbreite wurde **nicht** erreicht: im real
+abgefragten Adressbestand der vier Gemeinden liegt offenbar kein Objekt genau in diesem
+Grössenbereich — die Bau-/Siedlungsstruktur der March/Höfe-Region scheint hier eine Lücke zu
+haben (normale Wohnbauten bleiben ≤ rund 200 kW, publikumsintensive/gewerbliche oder sehr grosse
+Wohnkomplexe springen gleich auf > 600 kW). Für die Bauherren-Einordnung heisst das: **ab rund
+300–400 kW Anschlussleistung ist im Versorgungsgebiet von Energie Ausserschwyz mit einer
+Objektgrössen-Verweigerung des Online-Rechners zu rechnen** und frühzeitig eine Individualofferte
+einzuholen, statt sich auf den Live-Rechner zu verlassen.
+
+**Datenqualitäts-Nebenfund (nicht weiter verifiziert, ausserhalb des heutigen Auftrags):**
+Etzelstrasse 103, Pfäffikon SZ (Objekt-ID 191644161) zeigte am 23.07.2026 CHF 21'300 (entspricht
+der 10-kW-Stufe), während Run 82 (20.07.2026) unter derselben Adresse CHF 59'200 (50-kW-Stufe)
+dokumentiert hatte. Ursache ungeklärt — entweder eine Objekt-ID-/Adress-Verwechslung im
+ursprünglichen Run 82 oder eine echte Neu-Kalkulation durch den Tool-Anbieter zwischen den beiden
+Abfragezeitpunkten. Der bestehende Tabelleneintrag (50 kW, Run 82) wird hier bewusst **nicht**
+verändert, da nicht klar ist, welcher der beiden Werte der aktuell gültige ist; als offener
+Prüfpunkt für die nächste Session vermerkt (siehe Abschnitt "Offene Punkte").
+
+**Werkzeug-Grenze (ehrlich dokumentiert):** Der Versuch, über die OpenStreetMap/Overpass-API
+gezielt nach grossen Gebäuden (Schulen, Gewerbebauten, Mehrfamilienhäuser mit vielen Geschossen)
+in den vier Gemeinden zu suchen, um den Übergangsbereich direkt statt über Strassenlisten-
+Rätselraten zu treffen, scheiterte an einer durchgehenden Serverüberlastung der öffentlichen
+Overpass-Instanzen während der gesamten Session (`overpass-api.de`: HTTP 406/504; `overpass.
+kumi.systems`: HTTP 504 "Dispatcher_Client::request_read_and_idx::timeout"). Das ist eine
+Werkzeug-Grenze dieser Recherche-Sitzung, keine Aussage über die tatsächliche Gebäudestruktur —
+bei einem künftigen Lauf mit funktionierendem Overpass-Zugriff liesse sich der Adressbestand
+gezielter (nach Gebäudegrösse statt nach Strassennamen) durchsuchen und die 10-kW-Fensterbreite
+vermutlich doch erreichen.
+
 **Verfügbarkeit ist stark strassenzugsspezifisch, nicht gemeindeweit.** Von den zusätzlich
 geprüften Adressen meldete das Tool bei folgenden Strassenzügen "Leider ist für Ihre Adresse
 zurzeit keine Fernwärme verfügbar" (Netz dort noch nicht gebaut/geplant): Wollerau
@@ -332,7 +403,7 @@ abgeleitete Formel ist eine belegte, aber vom Tool-Output rückgerechnete Näher
 zitierte Anbieter-Formel); die genaue Zusammensetzung des "Investitionsbeitrags" (Grabarbeiten/
 Trassemeter analog Agro Energie Schwyz nicht separat ausgewiesen); der exakte kW-Schwellenwert,
 ab dem der Rechner die automatische Preisindikation verweigert (siehe "Objektgrössen-Schwelle"
-oben, bekannt seit 23.07.2026, Größenordnung nicht beziffert).
+oben, jetzt auf 290–407 kW eingegrenzt seit Run 85, 23.07.2026).
 
 ⚠ Eine Sekundärquelle (dein-heizungsbauer.de/heizung.de-Portale) verortet den bereits bei Agro
 Energie Schwyz als unbelegt verworfenen Wert "EFH 10 kW ≈ CHF 18'000" mit Stand 2019 **auch** bei
@@ -565,10 +636,12 @@ CHF 606/kW zusätzlich (jetzt bis 202 kW mit 31 Stützpunkten dicht verifiziert 
 gemeindeübergreifend identisch bestätigt — Pfäffikon/Siebnen/Galgenen liefern beim selben kW-Wert
 exakt denselben Preis, d.h. objektiv eine echte, ortsunabhängige Tarifstaffel, auch für
 Grossobjekte/Pflegeheim-Grössenordnung belastbar). Ein Einzelpunkt bei 290 kW weicht ca. 10 % nach
-unten ab und bleibt Ausreisser; ab einer nicht genau bezifferten Grössenschwelle (deutlich über
-200 kW, konkret beobachtet an zwei sehr grossen Objekten) verweigert der Rechner die automatische
-Preisindikation ganz und verweist auf eine Individualofferte — bei einem grossen Bauherren-Objekt
-(Pflegeheim, grössere Überbauung) im March-/Höfe-Gebiet deshalb frühzeitig eine Individualofferte
+unten ab und bleibt Ausreisser; ab einer jetzt eingegrenzten Grössenschwelle (nachweislich zwischen
+290 kW, dem höchsten bepreisten Fall, und rund 407 kW, dem tiefsten verweigerten Fall — Fenster ca.
+117 kW, CO2-Proxy-Methode, Run 85 23.07.2026, siehe Abschnitt "Vertiefung 23.07.2026 (Run 85)"
+oben) verweigert der Rechner die automatische Preisindikation ganz und verweist auf eine
+Individualofferte — bei einem grossen Bauherren-Objekt (Pflegeheim, grössere Überbauung) im
+March-/Höfe-Gebiet ab rund 300–400 kW Anschlussleistung deshalb frühzeitig eine Individualofferte
 bei Energie Ausserschwyz einholen, statt sich auf den Online-Rechner zu verlassen. Bei der
 Vertragsdauer bestehen
 deutliche Unterschiede: Energie Ausserschwyz bindet **fest auf 20 Jahre** (danach automatische
@@ -591,22 +664,26 @@ Nutzungsdauer des Gebäudes abgleichen.
   Negativbefund (3. Bestätigung); nur eine 2017er-Formel eines mutmasslichen Vorläufer-
   Rechtsträgers gefunden (siehe oben), nicht als aktuell verwendbar.
 - Energie Ausserschwyz: kein offizielles Text-Tarifblatt, aber seit Run 74 + Run T5/T6 + Run 82
-  + Run 83 + Run 84 (23.07.2026) **90 reale Preisindikationen** aus dem Live-Richtpreisrechner in
-  9 Gemeinden (Freienbach, Lachen SZ, Galgenen, Pfäffikon SZ, Siebnen, Altendorf, Bäch SZ negativ)
-  über einen kW-Bereich von 10 bis 290 kW verfügbar; die daraus abgeleitete Zwei-Segment-Formel
-  (Segment 1, 10-26 kW, 12 Stützpunkte, Residuen < 2.1 %; Segment 2, 28-202 kW, 31 Stützpunkte,
-  Residuen < 3.1 %, jetzt bis in die Grossobjekt-/Pflegeheim-Grössenordnung verifiziert UND
-  mehrfach gemeindeübergreifend mit identischen CHF-Beträgen bestätigt) ist eine belegte,
-  engmaschige Näherung, aber weiterhin KEINE offiziell publizierte Anbieter-Formel. Der
-  Übergangsbereich zwischen den zwei Segmenten ist jetzt eng auf 26-28 kW eingegrenzt (vorher grob
-  "24-30 kW"). Ein Einzelpunkt bei 290 kW (Galgenen Schulstrasse 1) weicht ca. 10 % von der
-  Segment-2-Formel ab, wurde am 23.07.2026 unverändert re-verifiziert und bleibt bewusst als
-  Ausreisser ausserhalb der Regression geführt — seit 23.07.2026 aber strukturell besser
-  eingeordnet: oberhalb einer nicht genau bezifferten Grössenschwelle (bestätigt an zwei sehr
-  grossen Objekten, Galgenen Höfliweg 2 und Pfäffikon SZ Churerstrasse 100/104) verweigert der
-  Rechner die automatische Preisindikation ganz ("Aufgrund der Objektgrösse..."), was plausibel
-  macht, dass 290 kW bereits im Übergang zu diesem degressiven/individuellen Bereich liegt.
-  Vertragsdauer/Kündigungsfrist bei Agro
+  + Run 83 + Run 84 + Run 85 (beide 23.07.2026) **rund 180 reale Adressabfragen** aus dem
+  Live-Richtpreisrechner in 9 Gemeinden (Freienbach, Lachen SZ, Galgenen, Pfäffikon SZ, Siebnen,
+  Altendorf, Bäch SZ negativ) über einen kW-Bereich von 10 bis 290 kW (bepreist) verfügbar; die
+  daraus abgeleitete Zwei-Segment-Formel (Segment 1, 10-26 kW, 12 Stützpunkte, Residuen < 2.1 %;
+  Segment 2, 28-202 kW, 31 Stützpunkte, Residuen < 3.1 %, jetzt bis in die Grossobjekt-/Pflegeheim-
+  Grössenordnung verifiziert UND mehrfach gemeindeübergreifend mit identischen CHF-Beträgen
+  bestätigt) ist eine belegte, engmaschige Näherung, aber weiterhin KEINE offiziell publizierte
+  Anbieter-Formel. Der Übergangsbereich zwischen den zwei Segmenten ist jetzt eng auf 26-28 kW
+  eingegrenzt (vorher grob "24-30 kW"). Ein Einzelpunkt bei 290 kW (Galgenen Schulstrasse 1) weicht
+  ca. 10 % von der Segment-2-Formel ab, wurde am 23.07.2026 unverändert re-verifiziert und bleibt
+  bewusst als Ausreisser ausserhalb der Regression geführt.
+  **Objektgrössen-Schwelle seit Run 85 (23.07.2026) auf ein Fenster von rund 117 kW eingegrenzt:**
+  zwischen 290 kW (höchster bepreister Fall) und ca. 407 kW (tiefster verweigerter Fall, CO2-Proxy-
+  Schätzung an Churerstrasse 100 Pfäffikon SZ) verweigert der Rechner die automatische
+  Preisindikation ganz ("Aufgrund der Objektgrösse..."); weitere verweigerte Fälle bei ca. 447 kW
+  (Churerstrasse 104), ca. 636 kW (neu: Bahnhofplatz 3 Lachen SZ), ca. 1'152 kW (neu: Gwattstrasse
+  11 Pfäffikon SZ) und ca. 2'324 kW (Höfliweg 2 Galgenen, grösster Fall). Eine gezielte
+  Nachverdichtung mit rund 90 weiteren Adressen im Fenster 250-450 kW traf kein einziges reales
+  Objekt genau in dieser Lücke — die angestrebte 10-kW-Fensterbreite ist damit (noch) nicht
+  erreicht, siehe Detailabschnitt "Vertiefung 23.07.2026 (Run 85)" oben. Vertragsdauer/Kündigungsfrist bei Agro
   Energie Schwyz (individuell in Offerte, 2 Jahre Ausstiegsfrist) und Energie Ausserschwyz (fest
   20 Jahre + 5-Jahres-Verlängerung, 1 Jahr Ausstiegsfrist) sind jetzt primärquellenbelegt (Art. 5
   Agro-Reglement 2022 bzw. Art. 4 EASZ-AGB 2024). Bei Energie Einsiedeln bleibt die Vertragsdauer
@@ -649,6 +726,22 @@ Nutzungsdauer des Gebäudes abgleichen.
   sobald das Tool wieder stabil antwortet.
 - Herkunft/Methodik der bereits in der KB vorhandenen EnergieSchweiz-4'940-CHF-Zahl nicht bis auf
   Eingabeprofil zurückverfolgt.
+- **Neu 23.07.2026 (Run 85): Objektgrössen-Schwelle auf 290–407 kW eingegrenzt, exaktes 10-kW-
+  Fenster nicht erreicht.** Trotz rund 90 gezielter zusätzlicher Adressabfragen im vermuteten
+  Übergangsbereich (Pfäffikon SZ, Freienbach, Siebnen, Lachen SZ) lag kein reales Objekt genau
+  zwischen 290 kW (bepreist) und 407 kW (verweigert) — bleibt offen für einen künftigen Lauf,
+  idealerweise mit funktionierendem Overpass-Zugriff (siehe Werkzeug-Grenze unten) oder einer
+  direkten Nachfrage bei Energie Ausserschwyz nach dem effektiven Schwellenwert.
+- **Datenqualitäts-Flag (23.07.2026, nicht verifiziert):** Etzelstrasse 103, Pfäffikon SZ zeigte
+  am 23.07.2026 CHF 21'300 (10-kW-Stufe) statt der am 20.07.2026 (Run 82) dokumentierten CHF 59'200
+  (50-kW-Stufe) unter identischer Adresse/ID (191644161). Ursache ungeklärt (Verwechslung in Run 82
+  oder echte Neu-Kalkulation durch den Anbieter zwischen den Abfragezeitpunkten) — der bestehende
+  Tabelleneintrag wurde bewusst nicht verändert; bei der nächsten Session gegenprüfen.
+- **Werkzeug-Grenze 23.07.2026 (Run 85):** OpenStreetMap/Overpass-API-Abfragen zur gezielten Suche
+  nach grossen Gebäuden (statt Strassenlisten-Rätselraten) scheiterten während der gesamten Session
+  an Serverüberlastung der öffentlichen Overpass-Instanzen (`overpass-api.de` HTTP 406/504,
+  `overpass.kumi.systems` HTTP 504 Timeout) — ehrlich als Werkzeug-Grenze dokumentiert, nicht als
+  fehlende Objektgrösse in der Region.
 
 > **Querbezug KB grobkosten/immobilienbewertung:** Die hier gefuehrten Fernwaerme-Anschluss- und
 > Betriebskosten sind BKP-2-Unterpositionen (BKP 24 HLK) und stecken bereits in den aggregierten

@@ -949,3 +949,15 @@ CHF 0 seit 1.4.2024, Minimalvergütung 2026 ergänzt. (4) **Q_H,li SIA 380/1:201
 an vierter Quelle (Kt. Luzern KEnV) → established. (5) **Neues Thema PV-Entsorgung/Recycling/Lebensende
 CH** → `[[pv-entsorgung-recycling-lebensende-ch]]`, FAQ F105. (6) **MuKEn 2025 ZH/SZ** Aktualitäts-Check:
 Verfahrensstand unverändert. FAQ-Stand jetzt **F1–F105**. Details: `outputs/2026-07-23_energie-run84.md`.
+
+- **Run 86 (2026-07-23, komplementär zur Parallel-Session Run 85)** — PDF-Inventar erschöpft, Web-/
+  Verdichtungspfad, drei Sonnet-Rechercheagenten; Synthese + alle Destillat-/Register-Edits mit echten
+  Umlauten auf dem Hauptmodell (gegen den Run-84-Umlaut-Bug). **Zwei Neuthemen:** Anergienetz/kalte
+  Fernwärme CH → `[[anergienetz-kalte-fernwaerme-ch]]` (FAQ F109, 4 CH-Referenzen inkl. Healthcare LUKS,
+  emerging); oberflächennahe Erdwärme ohne Tiefbohrung (Flächenkollektor/Erdwärmekorb/Energiepfahl)
+  ZH+SZ → `[[oberflaechennahe-erdwaerme-flaechenkollektor-erdwaermekorb-zh-sz]]` (FAQ F110, ZH-Verfahren
+  BVV 5.6.2 amtlich belegt, emerging). **Ein Aktualitäts-Check:** PV-Marktpreise — BFE-Preisbeobachtungs-
+  studie 2024 (publ. Juli 2025) als neuere amtliche Preisbasis, **Indach-Aufschlag «+60 %» relativiert**
+  → `[[pv-marktzahlen-kosten-ch-2025]]` (F18 geschärft). **Koordination (Rule 260720):** die drei von
+  Run 85 offen gelassenen FAQ-Einträge (Heizöltank/Stromtarife/Erdsonden-Mehrfachfelder) als F106–F108
+  treu nachgeholt; FAQ lückenlos F1–F110.

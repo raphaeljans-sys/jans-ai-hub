@@ -698,10 +698,13 @@ Strom ~25 Rp. wert ist, eingespeister nur ~8–10 Rp.):
 - **Erst danach Batteriespeicher** — er bringt v. a. Abend-/Morgenstunden, lohnt sich rechnerisch
   meist erst nach den Lastverschiebungs-Massnahmen.
 
-**Was kostet das (Stand 2025)?** Eine Aufdach-Kleinanlage (5–15 kWp) liegt bei **2'400–3'200
-CHF/kWp**, eine typische 10-kWp-Anlage bei rund **28'000 CHF** vor Förderung (~2'800 CHF/kWp);
-**Indach kostet ~60 % mehr**, Solarziegel ~das Doppelte. Nach Bundes-Einmalvergütung (~3'600 CHF
-für 10 kWp, Sept 2025) + Steuerabzug bleibt deutlich weniger. Ein **Batteriespeicher** (10–15 kWh,
+**Was kostet das?** **Update Bezugsjahr 2024 (amtliche BFE-Preisbeobachtungsstudie, publ. Juli 2025):**
+Median Aufdach EFH (2–10 kWp) **2'756 CHF/kWp ohne MwSt** (10–30 kWp 2'079, 30–100 kWp 1'483),
+Preise 2024 real **12–26 % gesunken**; CKW-Retail-Richtpreis (inkl. MwSt) 5–15 kWp weiterhin **2'400–3'200
+CHF/kWp**. ⚠ **Korrektur:** Die 2024-Studie misst **keinen signifikanten Aufdach↔Indach-Unterschied**
+mehr — der früher genannte «**Indach +60 %**» ist eine undatierte CKW-Faustregel, nicht die aktuellste
+amtliche Zahl (real 2024 je nach Grösse +0 bis +19 %). Solarziegel weiterhin ~das Doppelte (Faustregel).
+Nach Bundes-Einmalvergütung (~3'600 CHF für 10 kWp, Sept 2025) + Steuerabzug bleibt deutlich weniger. Ein **Batteriespeicher** (10–15 kWh,
 EFH) kostet zusätzlich **6'000–10'000 CHF** — schon 42 % der neuen Wohnanlagen bauen einen ein.
 
 **Wirtschaftlichkeit:** Nach Förderung (Einmalvergütung Bund + Steuerabzug, vgl. F7) liegt die
@@ -3966,3 +3969,97 @@ mangels eigener Kapazität nach Deutschland (Reiling, First Solar). ⚠ Offen bl
 die vRG entspricht CHF 40/Tonne, genannte reale Gesamtentsorgungskosten liegen bei CHF 400–500/Tonne
 (Faktor 10) — zur Klärung an SENS vermerkt, nicht geglättet. → `[[pv-entsorgung-recycling-lebensende-ch]]`.
 Datenstand 2026-07-23. Status **emerging** (Quellenlage dünner als bei Markt-/Kostenfragen).
+
+## F106 — «Ich ersetze meine Ölheizung — muss ich den alten Öltank ausbauen, oder reicht Stilllegen?»
+
+**Kurz für den Bauherrn:** Rechtlich genügt die **fachgerechte Ausserbetriebsetzung** — Tank
+entleeren, reinigen, Leitungen entfernen oder blindsetzen, durch eine **anerkannte Fachfirma**
+erledigen und der Behörde **melden**. Der **vollständige Ausbau (bzw. das Verfüllen) des
+Lagerbehälters ist nirgends vorgeschrieben**, sondern nur empfohlen (Einsturzrisiko bei grossen
+erdverlegten Tanks) und liegt in Deiner Eigenverantwortung. Grundlage ist **Art. 22 GSchG** (Bund):
+Ausserbetriebsetzung nur durch eine fachlich befähigte Person (Abs. 3) und **Meldepflicht an den
+Kanton** (Abs. 5). Achtung: Für den verbleibenden Tank **haftest Du weiter voll** (Gewässerschutz).
+Im **Kt. Zürich** regeln die AWEL-Merkblätter «ABe» (erdverlegte) und «ABf» (freistehende Tanks) den
+Ablauf; bewilligungspflichtige Anlagen sind mind. alle 10 Jahre zu kontrollieren. Im **Kt. Schwyz**
+gilt derselbe Bundesrahmen (AfU-Vollzug; ⚠ SZ-Merkblatt nur als Sekundärauszug geprüft). Eine
+amtliche CHF-Kostenangabe für Reinigung/Ausbau liess sich nicht belegen — Offerte einholen. →
+`[[heizoeltank-sanierung-rueckbau-zh-sz]]`. Datenstand 2026-07-23. Status **established** (Bund/ZH
+primärquellen-verifiziert; SZ-Detail + Kosten offen).
+
+## F107 — «Lohnt sich für meine Wärmepumpe ein Nachtstromtarif — und soll ich der Netzbetreiberin
+die Steuerung (Sperrzeiten) erlauben?»
+
+**Kurz für den Bauherrn:** Das alte «nachts ist Strom billiger» (Hochtarif/Niedertarif) ist ein
+**Auslaufmodell** — mehrere grosse EVU (z.B. EKZ und AEW) ersetzen HT/NT **per 1.1.2026 durch einen
+Einheitstarif** (die hohe PV-Tagesproduktion hat die alte Spitzentarif-Logik entwertet). Der echte
+Kostenhebel bei der Wärmepumpe ist heute nicht die Tageszeit, sondern **ob Du der Netzbetreiberin die
+Sperrzeiten-Steuerung der WP erlaubst**: Der WP-Netznutzungstarif (z.B. EKZ «Netz 400WP», rund um die
+Uhr **6,97 Rp./kWh inkl. MwSt 2026**) ist günstiger als der Standardtarif — der Rabatt kommt aus der
+**Zustimmung zur Steuerung**, nicht aus der Nachtzeit. Rechtlich ist das klar: intelligente
+Steuersysteme brauchen **grundsätzlich Deine Zustimmung** (StromVG Art. 17b), und wer WP-Flexibilität
+netzdienlich nutzt, muss dafür einen **diskriminierungsfreien Vertrag mit Vergütung** anbieten (Art.
+17c). Sinnvoll ist die Steuerung nur bei **ausreichend dimensioniertem Wärmespeicher**, der die
+Sperrfenster überbrückt. → `[[stromtarife-waermepumpen-sperrzeiten-ch]]`. Datenstand 2026-07-23.
+Status **established** (Rechtsgrundlage + EKZ/AEW-Beispiele belegt; EVU-Tarife jährlich, kein
+CH-weiter Kennwert).
+
+## F108 — «Wie nah dürfen zwei Erdwärmesonden-Felder aneinander liegen, ohne sich gegenseitig zu
+schwächen?»
+
+**Kurz für den Bauherrn:** **Weder der Kt. Zürich (AWEL) noch der Kt. Schwyz kennen einen amtlichen
+Mindestabstand *zwischen* Sondenfeldern** — geregelt ist nur der **Grenzabstand zur Parzellengrenze**
+(ZH und SZ je 2,5 m). Die frühere KB-Aussage einer «SZ-5-m-Regel» war nur die rechnerische Folge
+(2,5 + 2,5 m), keine eigene SZ-Vorschrift (eine eigenständige 5-m-Sonde-zu-Sonde-Regel gibt es nur im
+Kt. Bern). Die eigentliche Steuerung gegen gegenseitige thermische Erschöpfung läuft über die private
+Norm **SIA 384/6**: ab **mehr als 4 Sonden** verlangt sie eine **Simulationsrechnung** statt der
+vereinfachten Tabellenauslegung, und seit der Revision 2021 sind **Nachbarsonden im Umkreis von 50 m**
+sowie ein **Regenerationskonzept** zwingend zu berücksichtigen. Faustregeln: unter **10 m** sicher
+gegenseitige Beeinflussung, ab **40 m** vernachlässigbar; toleriert wird eine zusätzliche Absenkung
+von **1 Kelvin**. Für den Bauherrn heisst das: in dicht bebauten Lagen gehört die Nachbarschaft
+anderer Sonden in die Fachplanung (FWS-Planer), nicht in eine pauschale Abstandsregel. →
+`[[erdwaermesonden-mehrfachfelder-regeneration-zh-sz]]`, `[[erdwaermesonden-bewilligung-zh-sz]]`.
+Datenstand 2026-07-23. Status **emerging** (Negativbefund amtlicher Abstand + SIA-384/6-Mechanik belegt).
+
+## F109 — «Was ist ein Anergienetz / kalte Fernwärme, und lohnt es sich für mein Areal?»
+
+**Kurz für den Bauherrn:** Ein Anergienetz (kaltes Fernwärme-/Nahwärmenetz) führt Wasser auf tiefem
+Temperaturniveau (grob 4–25 °C statt 80–130 °C bei klassischer Fernwärme). Jedes angeschlossene
+Gebäude hebt dieses Niveau mit einer **eigenen Wärmepumpe** auf Heiztemperatur — und kann umgekehrt
+im Sommer Wärme ins Netz zurückgeben (**kühlen**). Ein grosses Erdsonden-, Grundwasser- oder
+Abwärmefeld dient als saisonaler Speicher. **Es lohnt sich bei Arealen und Clustern** mit mehreren
+Gebäuden und einem Nutzungsmix, der gleichzeitig Heiz- UND Kühlbedarf erzeugt (Wohnen neben
+Büro/Rechenzentrum/Gewerbe/Spital) — genau dieses Muster zeigen alle belegten Schweizer Referenzen:
+**ETH Campus Hönggerberg** (>600 Erdsonden, Watt d'Or 2020), **Suurstoffi Risch-Rotkreuz** (400
+Sonden, 83 km Geospeicher), **FGZ Friesenberg Zürich** (~2'300 Wohneinheiten, Abwärme aus
+Rechenzentren, ~8'000 t CO2/Jahr) und neu das **Luzerner Kantonsspital** (ab Herbst 2026, ~800 Sonden
+im Vollausbau — starkes Healthcare-Argument: dezentrale Struktur = Versorgungssicherheit,
+Überschusswärme verkaufbar). **Für ein einzelnes EFH ohne Nachbarn ist es nicht sinnvoll** — das Netz
+braucht kritische Masse. Wichtig für die Kostenschätzung: **jedes Gebäude braucht eine eigene
+Wärmepumpe** (Kosten beim Bauherrn/Stockwerkeigentümer, nicht beim Netzbetreiber). Eine belastbare
+CHF/m²- oder Rp./kWh-Kennzahl speziell für Anergienetze ist öffentlich **nicht belegt** — projektweise
+mit einem Fachplaner rechnen; im Kt. Zürich ist die kommunale Energieplanung der Anknüpfungspunkt
+(Wärmeverbund-Zone bei der Standortgemeinde abklären). → `[[anergienetz-kalte-fernwaerme-ch]]`,
+`[[fernwaerme-anschlusskosten-zh]]`. Datenstand 2026-07-23. Status **emerging** (Referenzen belegt,
+rechtlicher ZH/SZ-Rahmen nur Snippet-Beleg).
+
+## F110 — «Erdwärme ohne teure Tiefbohrung — geht das mit einem Flächenkollektor oder Erdwärmekorb,
+und braucht das eine Bewilligung?»
+
+**Kurz für den Bauherrn:** Ja — flächige, oberflächennahe Systeme (**Erdregister/Flächenkollektor,
+Erdwärmekorb, Energiepfahl**, Verlegetiefe ~1,5–4 m) sind eine Alternative zur Erdwärmesonde und
+**bewilligungstechnisch einfacher**: In **Zürich** braucht es **kein separates Bohrbewilligungsverfahren**
+wie bei der Sonde — das amtliche Zusatzformular «Oberflächennahe Erdwärme» (Rechtsgrundlage BVV Ziff.
+5.6.2) wird **zusammen mit dem ordentlichen Baugesuch** bei der Gemeinde eingereicht (⚠ aber nicht das
+seit 2023 geltende reine Meldeverfahren, das gilt nur für Luft-Wasser-WP, Erdsonden-WP und
+Fernwärme). Voraussetzung u.a. **≥ 2 m Abstand zum höchsten Grundwasserspiegel**, Nachbarzustimmung
+bei Anlagenabstand < 2,5 m. In **Schwyz** sind Erdkollektoren/Energiekörbe ausserhalb der
+Grundwasserschutzzone S2 grundsätzlich zulässig (Flurabstand ≥ 2 m; kostenlose Vorabklärung beim AfU,
+dann eBau — ⚠ nur Snippet-Beleg, vor Kundenaussage am Original prüfen). **Der Haken ist nicht die
+Bewilligung, sondern die Fläche:** flächige Systeme brauchen viel unbebauten, unversiegelten Garten
+(Faustregel ~doppelte beheizte Fläche, Sekundärquelle) und liefern ein tieferes Temperaturniveau
+(tendenziell etwas schlechtere JAZ) als die Sonde. **Energiepfähle** sind primär eine
+Grossbauten-/Fundationslösung (lohnend, wenn ohnehin fundiert wird), kein typisches EFH-System. ⚠ Ein
+CH-amtlicher Entzugsleistungs-Kennwert (W/m²) liess sich **nicht** belegen (nur deutsche VDI-4640-Werte)
+— die Auslegung gehört zwingend zu einem FWS-Fachplaner/einer Bohrfirma. →
+`[[oberflaechennahe-erdwaerme-flaechenkollektor-erdwaermekorb-zh-sz]]`, `[[erdwaermesonden-bewilligung-zh-sz]]`.
+Datenstand 2026-07-23. Status **emerging** (ZH-Verfahren amtlich belegt, W/m²-Kennwerte + SZ-Volltext offen).

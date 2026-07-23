@@ -2,6 +2,71 @@
 
 Neueste zuoberst.
 
+## 2026-07-23 — Energie-Run 86: komplementärer Lauf zur Parallel-Session Run 85 (drei Sonnet-Agenten, umlaut-sauberes Muster)
+Zweiter Lauf am selben Tag, bewusst schlank (Drossel Rule 260714) und komplementär zu Run 84/85.
+PDF-Inventar erschöpft, Web-/Verdichtungspfad; drei Sonnet-Rechercheagenten liefern NUR Text zurück,
+alle Destillat-/Register-Edits mit echten Umlauten auf dem Hauptmodell (umgeht den Run-84-Umlaut-Bug).
+Report `outputs/2026-07-23_energie-run86.md`.
+- **T1 Anergienetz / kalte Fernwärme CH (neu, FAQ F109)** — kaltes Nahwärmenetz 4–25 °C, dezentrale WP
+  je Gebäude, bidirektional heizen/kühlen, Saisonspeicher; 4 belegte CH-Referenzen (ETH Hönggerberg,
+  Suurstoffi, FGZ Friesenberg, LUKS/Healthcare). Keine CHF-Kennzahl belegt, ZH/SZ-Recht nur Snippet.
+  → `destillate/anergienetz-kalte-fernwaerme-ch.md` (emerging).
+- **T2 Oberflächennahe Erdwärme ohne Tiefbohrung ZH+SZ (neu, FAQ F110)** — Flächenkollektor/Erdwärmekorb/
+  Energiepfahl; ZH amtlich belegt (BVV Ziff. 5.6.2, Zusatzformular im Baugesuch, kein Bohrverfahren,
+  aber kein reines Meldeverfahren); SZ nur Snippet. Kein CH-W/m²-Kennwert (nur DE-VDI-4640).
+  → `destillate/oberflaechennahe-erdwaerme-flaechenkollektor-erdwaermekorb-zh-sz.md` (emerging).
+- **T3 PV-Marktpreise Aktualitäts-Check (F18 geschärft)** — **BFE-Preisbeobachtungsstudie 2024** (publ.
+  10.07.2025) als neuere amtliche Preisbasis: Median Aufdach EFH 2'756 CHF/kWp ohne MwSt, real −12 bis
+  −26 % ggü. 2023; **Korrektur: Indach-Aufschlag «+60 %» relativiert** (kein signif. Aufdach↔integriert-
+  Unterschied mehr) → `destillate/pv-marktzahlen-kosten-ch-2025.md` (established bleibt).
+- **Koordination Rule 260720:** Run 85 hatte drei Destillate (Heizöltank, Stromtarife/Sperrzeiten,
+  Erdsonden-Mehrfachfelder) ohne FAQ-Eintrag hinterlassen. Run 86 hat diese als **F106/F107/F108** treu
+  nachgeholt und die eigenen Themen auf **F109/F110** gesetzt. **FAQ: F105 → F110, lückenlos.**
+
+## 2026-07-23 — Energie-Run 85: Intensiv-Lauf, sechs parallele Agenten (PDF-Inventar weiterhin erschöpft)
+
+SharePoint PL-04 Energie selbst gegengeprüft (`find -newermt 2026-07-14`): keine neue PDF-Datei,
+nur derselbe OneDrive-Platzhalter wie in Run 84. Reiner Verdichtungs-/Neurecherche-Lauf, sechs
+parallele Hintergrund-Agenten (general-purpose, direkt statt Workflow-Tool gemäss Run-82-Lehre).
+
+- **T1 PV-Entsorgung/Recycling — auf established gehoben:** Faktor-10-Widerspruch geklärt (SENS
+  eRecycling-Blog: reale Rückbaukosten CHF 440/t, vRG deckt nur CHF 40/t — zeitliche
+  Quersubventionierung aus dem wachsenden Fonds, kein Fehler); Rücknahmequote «fast 100 %» +
+  stoffliche Verwertung «rund 80 %» (SENS-Dossier); EPBT-Primärquelle gefunden (treeze Ltd./
+  Frischknecht 2020: CH-Mix 2,3 Jahre) → `[[pv-entsorgung-recycling-lebensende-ch]]`, FAQ F105 zu schärfen (offen).
+- **T2 Fernwärme Ausserschwyz — Objektgrössen-Verweigerung eingegrenzt:** Schwelle liegt zwischen
+  290 kW (höchster bepreister Fall) und ca. 407 kW (tiefster verweigerter Fall), 10-kW-Fenster
+  nicht erreichbar (kein reales Objekt in der Lücke); neue Methode entdeckt (CO2-Einsparungsfeld
+  korreliert linear mit kW, Faktor ≈0,405 t/kW) erlaubt kW-Schätzung auch bei Verweigerung; zwei
+  neue Grossobjekte gefunden (Lachen SZ ≈636 kW, Pfäffikon SZ ≈1'152 kW) → `[[fernwaerme-anschlusskosten-zh]]`, bleibt emerging.
+- **T3 NEU: Heizöltank-Sanierung/Rückbau ZH+SZ:** GSchG Art. 22 (10-Jahres-Kontrollpflicht,
+  Meldepflicht Ausserbetriebsetzung), GSchV Art. 32a (Innenkontrolle nur bei Grossanlagen/
+  erdverlegt einwandig), AWEL-Merkblätter primärquellenverifiziert: **Ausbau des Tanks ist keine
+  Behördenpflicht**, fachgerechte Ausserbetriebsetzung (CITEC-Suisse-Fachfirma, Meldung mit
+  Kontrollrapport) genügt rechtlich; Eigentümer bleibt aber haftbar → neues Destillat
+  `[[heizoeltank-sanierung-rueckbau-zh-sz]]`, established (Bund/ZH), SZ nur Sekundärquelle.
+- **T4 NEU: Stromtarif-Modelle Wärmepumpen:** HT/NT-Spread ~8 % bei EKZ 2025, aber HT/NT für
+  WP-Tarife ab 2026 ein Auslaufmodell (Einheitstarif); **Rechtsgrundlage Sperrzeiten seit 1.1.2026
+  neu StromVG Art. 17b/17c** (Art. 8c StromVV aufgehoben — Korrektur gegenüber älteren
+  Web-Quellen); EKZ/AEW-Sperrzeiten-Beispiele mit CHF-Rabatt primärquellenbelegt; Smart-Meter-
+  Rollout-Pflicht 80 % bis 1.1.2028 (StromVV Art. 31e) → neues Destillat
+  `[[stromtarife-waermepumpen-sperrzeiten-ch]]`, established (Recht), Rollout-Quote speculative.
+- **T5 Meta: Umlaut-Bug diagnostiziert:** Root Cause bestätigt Prompt-Vererbungslücke — delegierte
+  Scheduled-Task-Subagenten erben die Umlaut-Rule nicht automatisch aus CLAUDE.md/Rules; Fix
+  bereits vom Nachtschicht-Bericht 22.07. vorgeschlagen (Config-Whitelist-Sperre, Freigabe durch
+  Raphael nötig), Bereinigung der ~27 betroffenen Destillate weiterhin offen. In diesem Lauf per
+  explizitem Umlaut-Beispielsatz in jedem Agent-Prompt umgangen.
+- **T6 NEU: Erdwärmesonden-Mehrfachfelder/Regeneration:** kein amtlicher Mindestabstand zwischen
+  Sondenfeldern in ZH/SZ (nur Grenzabstand 2,5 m); **Korrektur am bestehenden Destillat:** die dort
+  genannte «SZ-5-m-Regel» ist nur die rechnerische Folge 2,5+2,5 m, keine eigene SZ-Vorschrift;
+  SIA 384/6 verlangt ab >4 Sonden zwingend Simulation (EWS/EED-Tool); Stadt-Zürich-Studie 2017
+  zeigt real nötige Feldabstände von teils >50 m → neues Destillat
+  `[[erdwaermesonden-mehrfachfelder-regeneration-zh-sz]]`, emerging.
+
+**Register-Hinweis:** FAQ-Integration (neue F106-F108 für T3/T4/T6, F105-Schärfung für T1) sowie
+volle QUESTIONS.md-Detaillierung wegen Budget-Deckel dieses Laufs auf den nächsten Lauf verschoben;
+die Bauherren-Transfer-Abschnitte in den Destillaten selbst sind bereits vollständig.
+
 ## 2026-07-23 — Energie-Run 84: sechs parallele Agenten (Verdichtung/Verifikation, PDF-Inventar erschöpft)
 PDF-Inventar seit Run 65 erschöpft (SharePoint PL-04 geprüft: einzige neue Datei = 63-Byte-OneDrive-
 Platzhalter). Reiner Web-/Verifikationspfad, Report `outputs/2026-07-23_energie-run84.md`.
