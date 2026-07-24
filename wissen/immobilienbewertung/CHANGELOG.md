@@ -2,6 +2,27 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-24 — Training-Run 42: Delta-Null-Bestaetigungslauf (kein neuer Ingest-Befund)
+
+- **Kein neuer Ingest, keine Artikelaenderung.** KB unveraendert saturiert; kein neuer
+  JANS-Bewertungsfall (Bewertungsordner direkt gelistet, juengster weiterhin Wangen 8855),
+  keine auto-schliessbare Ingest-Aufgabe offen. Marktpuls bewusst nicht geprueft (Drossel-Rule
+  260714, naechster Wert 01.09.2026), kein Verifier-Wiederholungslauf; Kollisionsschutz
+  (Rule 260724) geprueft — keine Zweitinstanz. Neunter Delta-Null-Lauf in Folge
+  (Runs 34/35/37/38/39/40/41/42).
+- **Neu registriert (nicht behoben): KB-Hygiene ae/oe/ue.** Der Health-Check-Hauptfund vom
+  23.07. (KB-weite Ersatzschreibung, >2'000 Vorkommen, ~26 Wiki-Dateien) ist jetzt als offene
+  Librarian-Aufgabe **T-Umlaut** in `wiki/wissensluecken.md` (Abschnitt B) gefuehrt. Bewusst
+  **kein** blinder Massenersatz unbeaufsichtigt (wuerde «Raphael»→«Raphäl», «aktuelle», «neue»
+  u. ae. zerstoeren) → gehoert in einen kontrollierten wissenscheck-Phase-2-Lauf. Abgrenzung
+  zum bereits registrierten Fristen-Eintrag 23.07. (der betrifft die 5 Mac-Mini-Task-Prompts,
+  going-forward — nicht diesen Retro-Fix der Bestandsdateien).
+- **Kein Eskalations-Delta:** beide offenen Pendenzen — Loop-Ruecktaktung (Fristen-Register
+  19.07.) und Oberrieden-Hoehenkorrektur (Fristen-Register 17.07.) — stehen bereits in
+  `logbuch/fristen.md`; nicht erneut geflaggt.
+- Register gepflegt: `training/curriculum.md`, `wiki/wissensluecken.md`.
+  Report: `outputs/2026-07-24_training-run42.md`.
+
 ## 2026-07-23 — Wissens-Health-Check (Phase 1, Nachtschicht Mac Mini)
 
 Audit gegen den letzten Check (01.07., 22 Tage): alle 5 damaligen Findings korrekt behoben
