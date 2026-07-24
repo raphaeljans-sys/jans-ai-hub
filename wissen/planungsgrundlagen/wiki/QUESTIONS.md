@@ -3,6 +3,16 @@
 Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit ✓ + Datum.
 
 ## A — Kartenportale
+- [x] **K46 (Run 59, 2026-07-25)** `geoportal.ch`-Betreiber identifiziert (GEOINFO Applications
+  AG, Herisau) — vierter White-Label-GIS-Anbieter neben achtgradost.ch/geoglatt.ch/Stadt Luzern
+  → [[kartenportale-geoportale-uebersicht]]. **Offen (Blocker, systemischer OneDrive-EDEADLK
+  analog Run 53):** `cadastre.ch/Cadastralinfo…pdf`, `geoportal.ch/Einsiedeln/*.pdf`,
+  `geodienste.ch/Maur+Thalwil/*.eml` sowie der gesamte `KtLU Luzern/Geodatenshop Kanton
+  Luzern/`-Ordner (reicher, noch nie ausgewerteter Produktkatalog inkl. realer Bestellung
+  R694081564: DTM/Hoehenlinien/Grenzen/Gebaeudeenergie-Solarpotential/OEREB/Historische
+  Karten/Denkmalverzeichnis/Nachfuehrung AV/Ortsplan/3D-Gebaeudemodelle/Landschaftsmodell/
+  Orthophoto/Nutzungsplanung/Grundbuchplan/Baulinien/Einzelbaeume) — Kandidat fuer den
+  naechsten Kartenportale-Turnus.
 - [x] **K41-K44 (Run 50 offen → Run 51, 2026-07-18 GELOEST)** Der OneDrive-Sync-Blocker aus Run 50
   hatte sich (wie im Praezedenzfall Lignum Run 28→30 vermutet, «reines Sync-Timing») bis Run 51
   aufgeloest — alle vier Kandidaten waren jetzt problemlos lesbar. Auswertung:
@@ -715,6 +725,11 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   SIA 261/261-1, DC bleibt unter Spannung. Solar-spezifisch, kein Doppel zu Skill `brandschutz`.
 
 ## D — Energie
+- [x] **E41 (Run 59, 2026-07-25)** Delta-Check `pv sol premium`/`solarapp.ch`/
+  `energieschweiz.ch Diemtigen` gegen bereits dokumentierte E34/E37/E38 (Run 40/42) — KEIN Delta
+  bei Kernzahlen, aber Zusatzfund Richtpreis-Stueckliste MFH Basel (Swiss Premium M340/Growatt/
+  LEVEL, CHF 86'815 Material) → [[energie-pv-eignung-typenwahl]] §3b. **E5/E9-Refresh:**
+  MuKEn-2025-ZH-Ueberfuehrung per WebSearch erneut unveraendert bestaetigt.
 - [x] **D11 (Run 53, 2026-07-19, Refresh-Verifikationen, kein PL-04-Read moeglich —
   OneDrive-Mount heute systemisch blockiert, s. B-Sektion R52-R56)** Drei WebSearch/WebFetch-
   Refresh-Checks: (1) **Pronovo-Foerderstruktur** erneut gegen die Primaerquelle geprueft —

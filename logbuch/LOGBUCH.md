@@ -5,6 +5,27 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-25
+
+**Nachtschicht Mac Mini (~00:30, Wissens-Health-Check energie, Dispatch-Run
+20260725-003006).** Kollisionspruefung: parallel lief auf demselben Host ein zweiter
+Dispatch-Prozess (planungsgrundlagen-Intensivlauf, PID 91524, eigenes 25-USD-Budget) —
+andere Aufgabe, andere Dateien, daher kein Rueckzug noetig, aber bewusst nicht
+committet (Kollisionsschutz 260724). Sync-/Remote-Queues leer. Aeltester Health-Check
+im Hub war wettbewerbs-dna (21.07. 01:37, MacBook-Pro-exklusive Domaene, uebersprungen),
+naechst-aeltester energie (21.07. 02:39, Mac-Mini-Domaene) — Prioritaet 6 gewaehlt.
+7-Audits-Katalog auf alle 24 Wiki-Artikel: A0 Widersprueche, B5 (neu: 82 kaputte
+`sources:`-Dateireferenzen in 11 Artikeln — Kollateralschaden des Umlaut-Fixes vom
+21.07., Destillat-Dateinamen faelschlich mit echten Umlauten referenziert, obwohl die
+Dateien ASCII heissen; Wiki-`[[Backlinks]]` selbst unberuehrt), C0, E2 (2. Flag fuer
+foerderung-energie-zh ohne aktuellen KRNr-Stand), F4 (neu: schallschutz-sia181.md
+durchgehend in ae/oe/ue-Ersatzschreibung, vom 21.07.-Fix uebersehen), G3 (zwei
+Promotion-Kandidaten seit drei Laeufen unveraendert auf emerging). Report
+`wissen/energie/outputs/2026-07-25_health-check.md`, CHANGELOG nachgefuehrt. Reine
+Audit-Phase (Phase 1, unbeaufsichtigt), keine Wiki-Datei inhaltlich veraendert. Kein
+Versand/Publikation/Buchung. Korrekturen sind Phase-2-Kandidaten fuer eine interaktive
+Session (insbesondere die 82 kaputten sources-Referenzen und schallschutz-sia181.md).
+
 ## 2026-07-24
 
 **Nachtschicht Mac Mini (~23:30, Wissens-Health-Check auflagebereinigung, Dispatch-Run

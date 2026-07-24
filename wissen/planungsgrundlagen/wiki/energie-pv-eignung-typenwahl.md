@@ -1,7 +1,7 @@
 ---
 title: PV/Solar — Typenwahl, Eignung & Ertrag (Planungsgrundlage)
 status: established
-last_updated: 2026-07-16
+last_updated: 2026-07-25
 sources: [PL - 04 Energie/Solaranlage (SharePoint), EnergieSchweiz Solarrechner Usermanual (Okt 2022), SolarApp AG "SolarReport" Reckholdern/Willerzell (09.01.2024, vollstaendiger Bericht Run 42) + MFH Basel (05.11.2022), PVSOL premium 2019 Projekt "PI" Thomas Lueem Partner AG (18.01.2019, Run 42), JANS-Projekt ewzWHH PS 19.36 (Korrespondenz 02/2019), Formular EN-104 (EnDK, Juni 2019), PREFA Solarfolder CH (Stand 09.2023 V5), Datenblatt SI-Saphir M175-M180 (Stand 06/2015, DIBt Z-70.3-204), Eternit Sunskin roof GG-L 195W (solar-home.ch Webshop, Screenshot 17.11.2024), Amt fuer Umwelt und Energie Basel/jessenvollenweider (2021, Fassaden-PV Schmelzglas), uvek-gis.admin.ch, sonnenverlauf.de, Megasol Datenblatt Hochleistungsmodul M385-HC120-b BF GG U30b Art. 0322.1580 (Version 10/2022, Run 31), PL - 04 Energie/Solaranlage/Dachausstiege (6 Produktfotos, 11/2024, Run 31), Eternit Sunskin roof "Planung + Ausführung" (solar-home.ch/Sunskin, Rev. 01.2022/web, Run 40), UVEK-GIS-Bericht "Wie viel Strom oder Waerme kann mein Dach produzieren?" (uvek-gis.admin.ch/BFE, sonnendach.ch-Druckausgabe, 02.07.2023, Run 40), EnergieSchweiz-Solarrechner-Report "Schluesseldaten rund um meine Solaranlage" (energieschweiz.ch, Diemtigen, 02.07.2023, Run 40), TEC21 | TRACÉS | archi Dossier 5/2012 "SolaRes Bauen" (PL-04/Solaranlage/_Literatur, Run 40), HSLU T&A "GreenPV" Workshop 2 Foliensatz (20220606_GreenPV - Workshop 2.pdf, 15.06.2022, S. 1-29 von 46, Run 49), HSLU IGE "GreenPV" Schlussbroschuere (502400-greenpv-broschuere-20240827-web.pdf, hslu.ch, 27.08.2024, 47 S. vollstaendig, Run 50)]
 links: [[energie-uebersicht]], [[energie-pv-brandschutz]], [[energie-energienachweis-zh-formulare]], [[energie-betriebsenergie-pv-wirtschaftlichkeit]], [[kartenportale-geoportale-uebersicht]], [[recht-norm-arbeitshilfen-planungsdetails]]
 ---
@@ -227,6 +227,16 @@ sich eine **Amortisation von 24 Jahren** — deutlich laenger als der ewzWHH-Ben
 19–31 J), weil hier nur der Kleinanlagen-Eigenheim-Fall ohne Batterie/WP-Kopplung gerechnet wird.
 Status `established` (amtliche EnergieSchweiz-Publikation, Zahlen direkt aus dem PDF nachgerechnet
 konsistent: 19'140/6.0 = 3'190).
+
+**Ergaenzung Run 59 (2026-07-25) — Stueckliste MFH Basel:** die vollstaendige Richtpreis-Position
+des Basel-SolarReports (bisher nur die Summe CHF 135'257 in der Tabelle oben) enthaelt eine
+markenkonkrete BOM, LV-relevant fuer BKP 230/232: **Swiss Premium M340-60-b GG LEVEL Dose L**
+Module (162 Stk. à CHF 404.30), **Growatt**-Wechselrichter (Modelle MID 25KTL3-X1/MIC 1500TL-X/
+MID 22KTL3-X/MIC 2000TL-X + GAK-Anschlusskaesten), **LEVEL**-Unterkonstruktion (Schiene/
+Schienenhaken/Mittelhaken/Auflage/Seitenhalterung). Zwischensumme Material CHF 86'815 (netto vor
+Planung/Verpackung/Montage) — erste marken-/positionskonkrete Kostenaufschluesselung in dieser KB
+jenseits der Pauschalsumme, Quelle `solarapp.ch/Basel/2022-11-05_SolarReport_Version_1-3.pdf`
+S. 10-11.
 
 **Lesart der Bandbreite (belegt):**
 - **Spez. Ertrag** liegt in ZH/SZ-Lagen belegt bei **~850–980 kWh/kWp** (Dachneigung/Verschattung/

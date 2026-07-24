@@ -2,6 +2,31 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 — Training Run 59 (Kartenportale + Energie, Token-Vollgas, OneDrive-Blocker-Lauf)
+- **NEU [[kartenportale-geoportale-uebersicht]]:** `geoportal.ch`-Betreiber identifiziert als
+  **GEOINFO Applications AG** (Herisau AR) — vierter White-Label-GIS-Anbieter neben
+  achtgradost.ch/geoglatt.ch/Stadt Luzern; bestaetigt zugleich den bestehenden
+  Werkleitungs-Verweis EW Lachen AG ([[kartenportale-werkleitungskataster]] §7).
+- **Ergaenzung [[energie-pv-eignung-typenwahl]] §3b:** Delta-Check der Kandidaten `pv sol
+  premium`/`solarapp.ch`/`energieschweiz.ch Diemtigen` bestaetigt: bereits vollstaendig als
+  E34/E37/E38 (Run 40/42) dokumentiert, kein neuer Kern-Fakt. Echter Zusatzfund: marken-/
+  positionskonkrete Richtpreis-Stueckliste MFH Basel (Swiss Premium M340-Module/Growatt-
+  Wechselrichter/LEVEL-Unterkonstruktion, CHF 86'815 Material) — erste Herstellerpositions-BOM
+  in dieser KB, LV-relevant BKP 230/232.
+- **Refresh E5/E9:** MuKEn-2025-ZH-Ueberfuehrung per WebSearch erneut unveraendert bestaetigt
+  (weiterhin keine ZH-spezifische Vernehmlassung/kein Termin auffindbar).
+- **Systemischer OneDrive-Blocker** (identisches `EDEADLK`/"Resource deadlock avoided"-Muster
+  wie Run 53, 2026-07-19): grosse Teile von `CH Schweiz/` (`cadastre.ch`, `geoportal.ch/
+  Einsiedeln/*.pdf`, `geodienste.ch/Maur+Thalwil/*.eml`) sowie der gesamte `KtLU Luzern/
+  Geodatenshop Kanton Luzern/`-Ordner (reicher Produktkatalog mit realer Bestellung
+  R694081564, bisher nur als "Kurzprofil/niedrige Prioritaet" gefuehrt) blieben trotz
+  mehrfacher Retries und `cp`/`pdftotext`/`textutil`-Alternativversuchen unlesbar — als
+  Kandidat fuer den naechsten Kartenportale-Turnus vorgemerkt statt erzwungen/erfunden
+  (Leitplanke "nie erfinden", PROGRAMM.md).
+- Register nachgefuehrt: `training/curriculum.md` (K46 neu, E5-Refresh, E41 neu),
+  `wiki/QUESTIONS.md` (A/K46, D/E41), `raw/_INGESTED.md` (2 Zeilen), `wiki/INDEX.md` (2
+  Eintraege). Bericht: `outputs/2026-07-25_training-run59.md`.
+
 ## 2026-07-24 — Wissens-Chef Run 14 (Cross-KB): reziproke Laerm/ES-Rueckverweise zur KB baurecht
 - [link] `wiki/kartenportale-zonenplan-zh.md` (Layer-0154-Sektion): Querbezug zur KB baurecht gesetzt
   (Recht/ES-Grenzwerte dort fuehrend: `laermschutz-und-nichtionisierende-strahlung`); hier bleibt die

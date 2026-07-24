@@ -2,6 +2,8 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Wissens-Health-Check (Phase 1, Mac Mini Nachtschicht): A0 · B5 (NEU: 82 kaputte `sources:`-Dateireferenzen in 11 Artikeln inkl. BAUHERREN-FAQ, Kollateralschaden des Umlaut-Fixes vom 21.07.; die vier Register-Befunde vom 21.07. sind seither gewachsen statt behoben, destillate/INDEX.md jetzt 179 Zeilen/138 Destillate, wiki/INDEX.md Themen-Artikel-Abschnitt 73 Eintraege fuer 24 echte Dateien) · C0 · D0 · E2 (foerderung-energie-zh weiterhin ohne KRNr-6062/6063-Stand, 2. Flag; BAUHERREN-FAQ-Frontmatter last_updated 8 Tage hinter dem eigenen Inhalt) · F4 (NEU: schallschutz-sia181.md komplett in ae/oe/ue-Ersatzschreibung, vom 21.07.-Fix nicht erfasst; 3 fortbestehende Befunde unveraendert) · G3 (regenwasserbewirtschaftung-versickerung-zh + sommerlicher-waermeschutz stehen zum dritten Mal in Folge unveraendert auf emerging trotz wiederholter Promotion-Empfehlung). Report: `outputs/2026-07-25_health-check.md`.
+
 ## 2026-07-24 — Wissens-Chef Run 14 (Cross-KB): EN-104-Formular-Querbezug F116 → planungsgrundlagen
 - [link] `wiki/BAUHERREN-FAQ.md` (F116 Solarpflicht/EN-104): direkter Querbezug zur pg-fuehrenden Formular-/
   Verfahrensseite `planungsgrundlagen/wiki/energie-energienachweis-zh-formulare` gesetzt (EN-104-ZH

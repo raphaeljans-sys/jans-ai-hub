@@ -1,8 +1,8 @@
 ---
 title: Geoportale — welches Portal liefert was
 status: established
-last_updated: 2026-07-18
-sources: [PL - 01 Kartenportale (SharePoint), api3/data/wms.geo.admin.ch (06/2026), maps.zh.ch, geodienste.ch, geoservices.zh.ch geoshopapi (zh.ch rest_schnittstelle_ogd_interface.pdf), notariate-zh.ch/de/grundbuch/elektronische-eigentumsabfrage (Run 20), zh.ch/objektwesen.html (Run 20), GEOINFO IT AG Produktblatt «Fachanwendung Baumkataster» (PL-01/Baumkataster, Run 24), Geodatenshop Kanton Luzern Kommunikation (Registrierung/Bestellung R694081564, 05/2024) + geodienste.ch Ablehnungsmail Kt. LU (03.06.2024), KtBE Bern be-geo.ch, KtZH/geoglatt.ch Maur (Run 25), KtZH Zuerich/_Grundbuchamt/230301_Grundbuchamt.docx (Notariat Hoengg-Zuerich, Run 27), KtZH Zuerich/geodatenshop.zh.ch/Geodatenshop.docx (Run 27), KtSZ Schwyz/geoshop.lisag.ch (_Link.docx, _GeoShop Standard.pdf, Produkteinformation_fuer_Datenausgabe_SZ.pdf AGI Kt. SZ 26.09.2023, realer Fall KTN 3301 Einsiedeln 16.11.2023, Run 27), PL - 01 Kartenportale/Baumkataster/map.geo.admin.ch_2024*.pdf + Baumkataster-Mac-mini-von-Raphael.pdf (Delta-Check Run 29), PL - 01 Kartenportale/Datenformate_Geokartenmaterial/XML/ (Delta-Check Run 29), PL - 01 Kartenportale/KtSZ Schwyz/gis.bezirkeinsiedeln.ch/ (231116_Vermessung.pdf, 231116_Grundstueckbeschriebpdf.pdf, 231126_Infrastruktur.pdf, 231125_Hoehendaten_Kanton.pdf, 230204_ÖREB_Kataster.pdf/231116_Auszug.pdf, realer Fall Grundstueck 3301 Reckholdern 20 Willerzell, Run 31), PL - 01 Kartenportale/Hoehenlinie/ (Maur+Wald, «Benutzerkarte»/«Höhenlinien»-Druckprodukte maps.zh.ch, 11/2024, Run 31), PL - 01 Kartenportale/Geoshop/ (Geoshop Factsheet.pdf, Benutzerhandbuch_Public.pdf V8.0/1.11.2017, GeoShop Stadt Zuerich infoGrips GmbH, Run 31), CH Schweiz/geodienste.ch/_Login_Account_Anmeldung/ (Login Geodienst.docx [Zugangsdaten nicht uebernommen], LINK_Geodienste.docx Bestellbestaetigung Kt. BE EGRID CH609835664683, Screenshot Registrierungsformular 18.12.2023, Run 38), KtBE Bern/be_map.apps.be.ch/230927_Schloss_Münchenwiler.docx (Amt für Geoinformation Kt. Bern, realer Kontakt, Run 42), CH Schweiz/gisos.bak.admin.ch/gisos.bak.admin.ch.docx (Delta-Check Run 42), PL - 01 Kartenportale/Grundstueckkataster/Regensdorf/*/Lieferschein.pdf (4 ZH-OGD-Bestellungen Geoportal Kt. ZH 05.-08.02.2024, GIS-ZH Nr. 555/557/10016/10102, Run 51), PL - 01 Kartenportale/KtLU Luzern/Gemeinden Luzern Stadt/Klimafreundlichheizen.ch (Beleg Steinhofstrasse 25, 05/2024) + Stadt Luzern 3D-Stadtmodell (poi.stadtluzern.ch webappviewer3d, Run 51)]
+last_updated: 2026-07-25
+sources: [PL - 01 Kartenportale (SharePoint), api3/data/wms.geo.admin.ch (06/2026), maps.zh.ch, geodienste.ch, geoservices.zh.ch geoshopapi (zh.ch rest_schnittstelle_ogd_interface.pdf), notariate-zh.ch/de/grundbuch/elektronische-eigentumsabfrage (Run 20), zh.ch/objektwesen.html (Run 20), GEOINFO IT AG Produktblatt «Fachanwendung Baumkataster» (PL-01/Baumkataster, Run 24), Geodatenshop Kanton Luzern Kommunikation (Registrierung/Bestellung R694081564, 05/2024) + geodienste.ch Ablehnungsmail Kt. LU (03.06.2024), KtBE Bern be-geo.ch, KtZH/geoglatt.ch Maur (Run 25), KtZH Zuerich/_Grundbuchamt/230301_Grundbuchamt.docx (Notariat Hoengg-Zuerich, Run 27), KtZH Zuerich/geodatenshop.zh.ch/Geodatenshop.docx (Run 27), KtSZ Schwyz/geoshop.lisag.ch (_Link.docx, _GeoShop Standard.pdf, Produkteinformation_fuer_Datenausgabe_SZ.pdf AGI Kt. SZ 26.09.2023, realer Fall KTN 3301 Einsiedeln 16.11.2023, Run 27), PL - 01 Kartenportale/Baumkataster/map.geo.admin.ch_2024*.pdf + Baumkataster-Mac-mini-von-Raphael.pdf (Delta-Check Run 29), PL - 01 Kartenportale/Datenformate_Geokartenmaterial/XML/ (Delta-Check Run 29), PL - 01 Kartenportale/KtSZ Schwyz/gis.bezirkeinsiedeln.ch/ (231116_Vermessung.pdf, 231116_Grundstueckbeschriebpdf.pdf, 231126_Infrastruktur.pdf, 231125_Hoehendaten_Kanton.pdf, 230204_ÖREB_Kataster.pdf/231116_Auszug.pdf, realer Fall Grundstueck 3301 Reckholdern 20 Willerzell, Run 31), PL - 01 Kartenportale/Hoehenlinie/ (Maur+Wald, «Benutzerkarte»/«Höhenlinien»-Druckprodukte maps.zh.ch, 11/2024, Run 31), PL - 01 Kartenportale/Geoshop/ (Geoshop Factsheet.pdf, Benutzerhandbuch_Public.pdf V8.0/1.11.2017, GeoShop Stadt Zuerich infoGrips GmbH, Run 31), CH Schweiz/geodienste.ch/_Login_Account_Anmeldung/ (Login Geodienst.docx [Zugangsdaten nicht uebernommen], LINK_Geodienste.docx Bestellbestaetigung Kt. BE EGRID CH609835664683, Screenshot Registrierungsformular 18.12.2023, Run 38), KtBE Bern/be_map.apps.be.ch/230927_Schloss_Münchenwiler.docx (Amt für Geoinformation Kt. Bern, realer Kontakt, Run 42), CH Schweiz/gisos.bak.admin.ch/gisos.bak.admin.ch.docx (Delta-Check Run 42), PL - 01 Kartenportale/Grundstueckkataster/Regensdorf/*/Lieferschein.pdf (4 ZH-OGD-Bestellungen Geoportal Kt. ZH 05.-08.02.2024, GIS-ZH Nr. 555/557/10016/10102, Run 51), PL - 01 Kartenportale/KtLU Luzern/Gemeinden Luzern Stadt/Klimafreundlichheizen.ch (Beleg Steinhofstrasse 25, 05/2024) + Stadt Luzern 3D-Stadtmodell (poi.stadtluzern.ch webappviewer3d, Run 51), CH Schweiz/geoportal.ch/_Adresse_Betreiber.docx (Kommentar Brigitte Friemel, Service Desk GEOINFO Applications AG, Run 59)]
 links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]] [[kartenportale-zonenplan-zh]] [[kartenportale-baulinien-abstandslinien-zh]] [[kartenportale-naturgefahren-objektschutz]] [[kartenportale-werkleitungskataster]] [[kartenportale-denkmalschutz-isos]] [[recht-norm-dispensrecht]] [[kartenportale-oereb-kataster-system-zh]]
 ---
 
@@ -21,7 +21,7 @@ Trainings-Loop pro Lauf praezisiert; offene Felder in `wiki/QUESTIONS.md`.)
 | `maps.zh.ch/wfs/OGDZHWFS` | Kt. ZH | **OGD-WFS (GeoJSON, login-frei):** Grundnutzung/Zonenplan 0156 (+ proj-Revision), ES Laerm 0154, ueberlagernd 0155, Baulinien/Abstandslinien 0158/0152/0153/0150/0185, Denkmalschutzobjekte 0368 + archaeologische Zonen 0087 (nur ueberkommunal/kantonal, K34) — Connector `--produkt zonenplan,baulinien,denkmalschutz` | **nein** |
 | `geoservices.zh.ch/geoshopapi` | Kt. ZH | **Geodatenshop-REST-API**: AV/Grundstueckkataster (DXF), Hoehenmodelle, LIDAR u.v.m. je Gemeinde/Parzelle — Connector `geoshop-zh.mjs` | **nein** |
 | `geodienste.ch` | CH (kantonsweise) | OGD-Downloads amtl. Vermessung (INTERLIS ganzer Kanton direkt; DXF-GEOBAU nur Formular), OEREB-Abstandslinien | tlw. Account |
-| `geoportal.ch` | div. Gemeinden (SZ/ZG…) | kommunale GIS (Einsiedeln, Oberaegeri, Wald…) | tlw. |
+| `geoportal.ch` | div. Gemeinden (SZ/ZG…) | kommunale GIS (Einsiedeln, Oberaegeri, Wald…), Betrieb **GEOINFO Applications AG** (Herisau AR) — Run 59 | tlw. |
 | `cadastre.ch` | CH | Cadastralinfo / Grundstueckinformationen | nein |
 | `swisstopo.admin.ch` | CH | Kartenwerke, Hoehenmodelle, Geodaten-Shop | tlw. |
 | `geoshop.lisag.ch` | Zentralschweiz (UR/SZ/OW/NW/ZG, Betrieb durch LISAG fuer die Kantone + LU-Region) | Datenbezug amtl. Vermessung (AV-Daten, Datenmodell DM01AV_UR_SZ_OW_NW) | **SZ: login-frei via vordefinierten Link `sz_public`/`public`**; sonst Account |
@@ -258,6 +258,33 @@ technischen Mechanismus dahinter.
   Benutzeroberflaeche fuer dieselben bzw. ergaenzende Daten — bei ZH-Gemeinden mit eigenem
   Portal (Erkennbar am Gemeindenamen in der URL) zusaetzlich pruefen, ob dort kommunale
   Zusatzinformationen (z.B. Werkleitungen) verfuegbar sind, die der kantonale WFS nicht fuehrt.
+
+## Vierter White-Label-GIS-Betreiber: geoportal.ch = GEOINFO Applications AG (K46, Run 59 2026-07-25)
+
+`geoportal.ch` (Gemeinden Einsiedeln, Oberaegeri, Wald ZH — bisher nur als «div. Gemeinden,
+tlw. Login» gefuehrt) wird belegt durch **GEOINFO Applications AG** (Kasernenstrasse 69, 9100
+Herisau) betrieben — Beleg: Kommentar Brigitte Friemel «Service Desk GEOINFO Applications AG»
+in einer Werkleitungs-Auskunft-Korrespondenz («der Leitungskataster von Einsiedeln wird nicht
+auf unserem Geoportal publiziert», verweist auf EW Lachen AG, deckungsgleich mit dem bereits
+dokumentierten Werkleitungs-Bezugsweg [[kartenportale-werkleitungskataster]] §7). Damit ist
+`geoportal.ch` der **vierte identifizierte White-Label-Betreiber** eines kommunalen GIS-Portals
+neben `achtgradost.ch` (K32, Regensdorf), `geoglatt.ch` (K15, mehrere ZH-Gemeinden) und dem
+separaten Fall Stadt Luzern — alle vier folgen demselben Muster: eine private Vermessungs-/
+IT-Firma betreibt das Kartenfrontend fuer mehrere Gemeinden, waehrend Sachdaten (Werkleitungen,
+Grundbuch) bei den jeweiligen fachlich zustaendigen Stellen bleiben. **GEOINFO Applications AG**
+(Portal-Betrieb) und die bereits als Baumkataster-Quelle dokumentierte **GEOINFO IT AG**
+(Produktblatt «Fachanwendung Baumkataster», [[kartenportale-geoportale-uebersicht]] §Baumkataster)
+sind namentlich zu unterscheiden, aber vermutlich gruppenverbunden (identischer Firmensitz-Typ,
+kein direkter Beleg fuer Konzernstruktur — als offene Praezisierung markiert).
+
+**Blocker dieses Laufs (Run 59, 2026-07-25):** ein systemischer OneDrive-Datei-Provider-
+`EDEADLK`/«Resource deadlock avoided»-Fehler (identisches Muster zu Run 53, 2026-07-19) sperrte
+heute grosse Teile von `CH Schweiz/` (u.a. `cadastre.ch/Cadastralinfo…pdf`, `geoportal.ch/
+Einsiedeln/*.pdf`, `geodienste.ch/Maur+Thalwil/*.eml`) sowie den gesamten `KtLU Luzern/
+Geodatenshop Kanton Luzern/`-Ordner (reicher, bisher nur als «Kurzprofil» gefuehrter Produkt-
+katalog mit realer Bestellung R694081564) — auch nach mehreren Retries und `cp`-Test (`fcopyfile
+failed: Resource deadlock avoided`) nicht lesbar. Als Kandidat fuer den naechsten Kartenportale-
+Turnus vorgemerkt statt erzwungen/erfunden.
 
 ## Bezirk-Ebene Geoportal SZ: gis.bezirkeinsiedeln.ch (K27, Run 31 2026-07-13)
 
