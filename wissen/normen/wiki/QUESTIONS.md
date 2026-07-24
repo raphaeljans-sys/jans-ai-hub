@@ -10,16 +10,26 @@
   alle 271 Dateien) bleibt weiterhin ein dedizierter, groesserer Lauf — siehe naechster Punkt.
   Report `outputs/2026-07-24_health-check.md`.
 
-- [ ] **Vier tote `[[links]]`-Namensfehler zu beheben (Health-Check 24.07.2026, leicht):**
-  `destillate/sia-382-1-2014.md` `[[sia-2024]]` → Ziel ist vermutlich `sia-mb-2024-2006.md`
-  (Merkblatt-Praefix fehlt im Link, gegenpruefen); dieselbe Datei `[[sia-180]]` (ohne Jahr) →
-  vermutlich `[[sia-180-2014]]` gemeint, gegenpruefen welche der Dateien `sia-180-2014.md`/
-  `sia-180-082-2017.md` inhaltlich zutrifft; `destillate/sia-480-2004.md` `[[sia-102-2003]]` →
-  keine 2003er-Datei im Bestand (nur `sia-102-2014.md`/`sia-102-2020.md`), pruefen welche
-  Ausgabe beim Verfassen gemeint war; `destillate/din-1960-2010.md` `[[din-1961-2012]]` → Datei
-  heisst `din-1961-2010.md`, Ausgabejahr im Link vs. Datei klaeren (2010 oder 2012 korrekt?).
-  Kleine Korrektur-Session, kein Rechercheaufwand — naechster interaktiver `wissenscheck`-
-  Phase-2-Lauf oder direkter Fix.
+- [x] **Vier tote `[[links]]`-Namensfehler behoben (Health-Check 24.07.2026 → Fix 24.07.2026,
+  Mac Mini Nachtschicht 18:30):** `destillate/sia-382-1-2014.md` `[[sia-2024]]` → korrigiert auf
+  `[[sia-mb-2024-2006]]` (einziger Treffer im Bestand, Merkblatt-Praefix ergaenzt). Dieselbe
+  Datei `[[sia-180]]` → korrigiert auf `[[sia-180-2014]]` (inhaltlich bestaetigt: SIA 180:2014
+  = Waerme-/Feuchteschutz, thematisch einschlaegig fuer SIA 382/1 Lueftung/Klima; die beiden
+  080/081/082-Dateien behandeln ISO-10077-Fensterberechnung, nicht einschlaegig).
+  `destillate/sia-480-2004.md` `[[sia-102-2003]]` → **kein Linkfehler, sondern echte
+  Bestandsluecke**: Fliesstext (Zeile 23) zitiert korrekt "SIA 102:2003", diese Ausgabe ist im
+  Bestand nicht digitalisiert (nur 2014/2020 vorhanden). Gemaess Rule identifikatoren-
+  verifizieren NICHT auf falsche Ausgabe umgebogen, sondern zu Klartext "SIA 102:2003 (nicht im
+  Bestand, siehe QUESTIONS)" entlinkt — Beschaffung der 2003er-Ausgabe bleibt offen, kein
+  Nachtschicht-Fall (evtl. kostenpflichtig). `destillate/din-1960-2010.md`
+  `[[din-1961-2012]]` → korrigiert auf `[[din-1961-2010]]` (Datei traegt Ausgabe
+  "DIN 1961:2010-08", passend zur Gegendatei "DIN 1960:2010-08"; 2012 war Zahlendreher).
+  **Zusaetzlich beim Fix gefunden (nicht in den urspruenglichen 4, gleiches Fehlermuster):**
+  `destillate/sia-384-201-2017.md` und `destillate/sia-2040-2017.md` hatten ebenfalls
+  `[[sia-2024]]` statt `[[sia-mb-2024-2006]]` — mitkorrigiert. Alle 6 Links geprueft: 0 offene
+  `[[sia-2024]]`/`[[sia-180]]`/`[[sia-102-2003]]`/`[[din-1961-2012]]`-Treffer mehr im
+  `destillate/`-Ordner (CHANGELOG/QUESTIONS/outputs-Historieneintraege bewusst unveraendert
+  gelassen, sind Protokoll).
 
 - [x] **EN 520 Original-Destillat fehlt (2026-07-23, KISPI-Fall Rohdichte 800 kg/m³) — soweit
   ohne Kauf recherchiert (23.07.2026, Mac Mini Nachtschicht):** SharePoint PL-02

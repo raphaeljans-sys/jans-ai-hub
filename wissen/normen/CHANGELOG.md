@@ -1,3 +1,15 @@
+## 2026-07-24 (18:30) — Vier + zwei tote Wiki-Links behoben (Mac Mini Nachtschicht)
+- Aus dem Health-Check vom selben Tag (siehe unten) die als "leicht" markierten 4 toten
+  `[[links]]` korrigiert: `sia-382-1-2014.md` `[[sia-2024]]`→`[[sia-mb-2024-2006]]` und
+  `[[sia-180]]`→`[[sia-180-2014]]` (inhaltlich gegengeprüft: Wärme-/Feuchteschutz statt
+  ISO-10077-Fensterberechnung); `din-1960-2010.md` `[[din-1961-2012]]`→`[[din-1961-2010]]`
+  (Zahlendreher, Gegendatei trägt Ausgabe 2010-08). `sia-480-2004.md` `[[sia-102-2003]]`:
+  **kein Linkfehler** — Fliesstext zitiert korrekt SIA 102:2003, diese Ausgabe fehlt im
+  Bestand (nur 2014/2020 vorhanden); gemäss Rule `identifikatoren-verifizieren` zu Klartext
+  entlinkt statt auf falsche Ausgabe umgebogen. Beim Fix zusätzlich 2 weitere Vorkommen
+  desselben `[[sia-2024]]`-Fehlers gefunden (`sia-384-201-2017.md`, `sia-2040-2017.md`) und
+  mitkorrigiert — insgesamt 6 statt 4 Links bereinigt. `wiki/QUESTIONS.md` aktualisiert.
+
 ## 2026-07-24 — Zweiter Wissens-Health-Check (Phase 1, Skill wissenscheck, Mac Mini Nachtschicht)
 - Sonderauftrag geklärt: der Run-19-Meilenstein «SIA/VKF komplett» widerspricht **nicht** dem
   offenen Posten «SIA 181:2020 re-destillieren» (`wiki/QUESTIONS.md`) — Meilenstein bezieht sich

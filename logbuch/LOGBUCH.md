@@ -7,6 +7,18 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-24
 
+**Nachtschicht Mac Mini (~18:30, Wiki-Link-Fixes normen, Dispatch-Run 20260724-183004).**
+Vorpruefung: keine Sync-/Remote-Tasks, Synobsis Stufe-2 bereits vollstaendig, Trainingsfenster
+(22:00-06:00) noch nicht erreicht, Fristen-Radar bereits durch Hub-Chef 08:35 versendet.
+Prioritaet 5 angewendet: die im heutigen Wissenscheck-Health-Check (07:30) als "leicht"
+markierten 4 toten `[[links]]` in der KB `normen` behoben, plus 2 weitere Vorkommen desselben
+Fehlermusters gefunden und mitkorrigiert (6 statt 4 Links in `destillate/`). Ein Fall
+(`sia-102-2003` in `sia-480-2004.md`) war kein Linkfehler, sondern eine echte, bereits im
+Fliesstext korrekt zitierte Bestandsluecke (Ausgabe 2003 nicht digitalisiert) — gemaess Rule
+identifikatoren-verifizieren zu Klartext entlinkt statt auf falsche Ausgabe umgebogen.
+QUESTIONS.md + CHANGELOG.md nachgefuehrt. Kein Versand, keine Publikation, keine destruktiven
+Aenderungen. Verbrauch ~2,4 von 5 USD.
+
 **Hub-Chef-Lauf (08:35, MIT Befund).** Signale: Fristen-Register + Logbuch, Konversations-Destillat
 24.07., Mail-Vorfilter 26 h ueber alle Konten, bexio `--verzug`, Outlook-Kalender 7 Tage, Sync-/
 Remote-Queues (leer), Aktions-Whitelist v1. **Zwei Registerkorrekturen (A4):** (1) Der vom Radar als
