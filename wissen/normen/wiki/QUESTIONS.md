@@ -1,15 +1,25 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
-- [ ] **Wissenscheck Phase 1 (Health-Check) faellig, aber zu gross fuer Nachtschicht-Budget
-  (2026-07-23, Mac Mini):** letzter Health-Check 20.07.2026 (aeltestes Audit-Datum aller KBs mit
-  Standard-Wiki-Struktur, gleichauf mit der Meta-KB `koordination`, die aber taeglich vom
-  Wissens-Chef selbst auditiert wird). `normen` hat mit 289 Destillat-/Wiki-Dateien die mit
-  Abstand groesste KB im Hub — ein vollstaendiger Struktur-Audit (Widersprueche, kaputte
-  Backlinks, INDEX-Abgleich, RAW-Coverage, Schreibregel-Verstoesse) sprengt das ~4-USD-Budget
-  einer unbeaufsichtigten Nachtschicht (Vergleichswert: `immobilienbewertung` mit ~26 Artikeln
-  kostete bereits ~2.36 USD). Braucht einen dedizierten Lauf mit groesserem Budget (Workflow-
-  Fan-out empfohlen, analog Normen-Trainingslaeufen). Bis dahin: keine weitere Nachtschicht auf
-  dieses Item ansetzen, stattdessen naechst-aelteres KB-Audit waehlen.
+- [x] **Wissenscheck Phase 1 (Health-Check) durchgefuehrt (2026-07-24, Mac Mini) — mit
+  budget-bewusster Methodik statt Volltext-Audit.** Der Vorbehalt vom 23.07. (voller
+  Struktur-Audit sprengt das Nachtschicht-Budget) hat sich bestaetigt fuer eine Volltext-
+  Lektuere aller 271 Destillate — geloest, indem das Audit ueberwiegend deterministisch
+  (grep auf Frontmatter/Links/Status) statt per Einzel-Lektuere gefahren wurde: 17 tote
+  `[[links]]`, 65/271 Umlaut-Bug-Faelle, 0 neue Widersprueche (ausser Sonderauftrag-Klaerung
+  SIA/VKF-Meilenstein), Kosten ~2.4 USD. Ein echter Volltext-Claim-Abgleich (Audit C ueber
+  alle 271 Dateien) bleibt weiterhin ein dedizierter, groesserer Lauf — siehe naechster Punkt.
+  Report `outputs/2026-07-24_health-check.md`.
+
+- [ ] **Vier tote `[[links]]`-Namensfehler zu beheben (Health-Check 24.07.2026, leicht):**
+  `destillate/sia-382-1-2014.md` `[[sia-2024]]` → Ziel ist vermutlich `sia-mb-2024-2006.md`
+  (Merkblatt-Praefix fehlt im Link, gegenpruefen); dieselbe Datei `[[sia-180]]` (ohne Jahr) →
+  vermutlich `[[sia-180-2014]]` gemeint, gegenpruefen welche der Dateien `sia-180-2014.md`/
+  `sia-180-082-2017.md` inhaltlich zutrifft; `destillate/sia-480-2004.md` `[[sia-102-2003]]` →
+  keine 2003er-Datei im Bestand (nur `sia-102-2014.md`/`sia-102-2020.md`), pruefen welche
+  Ausgabe beim Verfassen gemeint war; `destillate/din-1960-2010.md` `[[din-1961-2012]]` → Datei
+  heisst `din-1961-2010.md`, Ausgabejahr im Link vs. Datei klaeren (2010 oder 2012 korrekt?).
+  Kleine Korrektur-Session, kein Rechercheaufwand — naechster interaktiver `wissenscheck`-
+  Phase-2-Lauf oder direkter Fix.
 
 - [x] **EN 520 Original-Destillat fehlt (2026-07-23, KISPI-Fall Rohdichte 800 kg/m³) — soweit
   ohne Kauf recherchiert (23.07.2026, Mac Mini Nachtschicht):** SharePoint PL-02

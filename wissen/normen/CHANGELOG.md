@@ -1,3 +1,20 @@
+## 2026-07-24 — Zweiter Wissens-Health-Check (Phase 1, Skill wissenscheck, Mac Mini Nachtschicht)
+- Sonderauftrag geklärt: der Run-19-Meilenstein «SIA/VKF komplett» widerspricht **nicht** dem
+  offenen Posten «SIA 181:2020 re-destillieren» (`wiki/QUESTIONS.md`) — Meilenstein bezieht sich
+  auf die Inventar-Abdeckung der vorhandenen SharePoint-Dateien, der 2020er-Upgrade ist ein
+  separater, Bring-Schuld-abhängiger Punkt (Norm-Kauf), in `wiki/REGISTER.md` Zeile 109 bereits
+  korrekt mit Warnsymbol geführt. Empfehlung: künftige Meilensteine präziser als «Bestand
+  komplett» formulieren, um diese Verwechslung zu vermeiden.
+- 7-Audits-Katalog (budget-bewusst, überwiegend deterministisch via grep statt Volltext-Lektüre
+  aller 271 Destillate): **17 tote `[[links]]`** in Destillat-Frontmatter gefunden, davon 4
+  leicht behebbare Namensfehler (`[[sia-2024]]`→`sia-mb-2024-2006.md`, `[[sia-180]]`→vermutlich
+  `sia-180-2014`, `[[sia-102-2003]]`→keine solche Datei, `[[din-1961-2012]]`→Datei heisst
+  `din-1961-2010.md`), Rest dokumentierte Lücken (Normen nicht/nur teilweise im Bestand).
+  Audit D (RAW-Coverage) nicht anwendbar (raw/ bewusst leer, Schema-konform). Umlaut-Bug-Baseline
+  aktualisiert: 65/271 Destillate (~24 %) noch mit ASCII ae/oe/ue. Keine neuen Promotion-
+  Kandidaten (8 Teil-Destillate, alle Bring-Schuld-/Lücken-abhängig).
+- Report → `outputs/2026-07-24_health-check.md`.
+
 ## 2026-07-24 — Normen-Training Run 19 (MacBook Pro, SIA): letzte 2 Vertiefungs-Lücken (Stufe a) geschlossen → SIA/VKF KOMPLETT
 - [destilliert+verifiziert] Die beiden letzten offenen Vertiefungsstufe-a-Positionen via Destillier+Verify-
   Pipeline (2 Sonnet-Destillier-Agenten + 2 Hauptmodell-Verifikations-Agenten, adversarial am Original-PDF,

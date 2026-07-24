@@ -7,6 +7,24 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-24
 
+**Nachtschicht Mac Mini (~07:30, Wissenscheck normen, Dispatch-Run 20260724-073007).**
+Zehnter Sweep im Nachtfenster: Prioritaeten 1-4 weiterhin leer/gesaettigt, offene QUESTIONS.md
+anderer KBs entweder projektgebunden (kunde-bopp), freigabepflichtig (architekten-synobsis)
+oder Teil laufender Trainingsloops (energie/normen). Prioritaet 6 (aeltestes Audit-Datum,
+20.07.2026) auf `normen` angewendet — die groesste KB im Hub (271 Destillate), am 23.07.
+bereits als "zu gross fuer Standard-Nachtschicht-Budget" zurueckgestellt. Diesmal mit
+budget-bewusster, ueberwiegend deterministischer Methodik (grep auf Frontmatter/Links/Status
+statt Volltext-Lektuere aller Dateien) durchgefuehrt. **Sonderauftrag geklaert:** der Hinweis
+aus dem koordination-Wissenscheck von heute 05:30 (Run-19-Meilenstein "SIA/VKF komplett"
+widerspricht dem offenen SIA-181:2020-Posten) ist **kein echter Widerspruch** — der Meilenstein
+bezieht sich auf die Inventar-Abdeckung der vorhandenen SharePoint-Dateien, das 181:2020-Upgrade
+ist ein separater, kaufpflichtiger Posten (Bring-Schuld Raphael), in REGISTER.md bereits korrekt
+mit Warnsymbol gefuehrt. **Ergebnis:** 17 tote `[[links]]` in Destillat-Frontmatter gefunden
+(4 leicht behebbare Namensfehler, z.B. `[[sia-2024]]` → Datei heisst `sia-mb-2024-2006.md`;
+Rest dokumentierte Luecken/Teil-Destillate), Umlaut-Bug-Baseline aktualisiert (65/271 Destillate
+noch ASCII ae/oe/ue), keine neuen Promotion-Kandidaten. Report `wissen/normen/outputs/
+2026-07-24_health-check.md`, CHANGELOG + QUESTIONS.md nachgezogen. Verbrauch ~2,7 von 5 USD.
+
 **Logbuch-Radar (~07:00, Freitag).** Ruhiges, aber operativ dichtes Bild. Geschlossen: der
 23.07.-Punkt «LBW VKF/Rohdichte» — die 800-kg/m3-Vorgabe (Jens Ziegel/Gruner) ist amtlich/
 vertraglich verifiziert (Original-LV BKP 271.13 vom 12.05.2020, Gipsplatten Typ DFIR/DFH2IR =
