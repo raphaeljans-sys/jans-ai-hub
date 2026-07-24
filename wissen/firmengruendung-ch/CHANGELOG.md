@@ -3,6 +3,18 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-25 — Dritter Wissens-Health-Check (Phase 1, Mac Mini Nachtschicht)
+- 7-Audits-Katalog über die seit 21.07. auf 13 Artikel gewachsene KB (4 neue Artikel:
+  `gmbh-gruendungsablauf`, `nachgruendung-anmeldungen`, `holding-struktur`,
+  `steuern-bei-gruendung`). A0 Grün (Firmenname-Blocker aus dem 21.07.-Check ist erledigt) ·
+  B Gelb (NEU: `steuern-bei-gruendung` ist wie zuvor `steuern-ag-inhaber` ein Orphan ohne
+  Content-Backlink; `gmbh-gruendungsablauf` wird von seinem erklärten Pendant
+  `ag-gruendungsablauf` nicht zurückverlinkt) · C Gelb (HR-Gebühren-Richtwerte weiterhin
+  unbelegt, jetzt in 3 statt 1 Artikel) · D Grün · E Gelb (Aktienrecht-Revision 2023 jetzt
+  35 Tage offen) · F Gelb (NEU: `holding-struktur.md` Frontmatter „Luecke" statt „Lücke") ·
+  G Grün (QUESTIONS.md sauber geführt, Backlog stabil bei 2 Punkten: VR-Artikel,
+  1e-Kaderplan). Report: `outputs/2026-07-25_health-check.md`.
+
 ## 2026-07-24 — Neuer Artikel: Steuern bei Gründung (Nachtschicht-Zyklus Mac Mini, 20:30-Lauf)
 - [ingest] Letzte offene Backlog-Lücke aus `QUESTIONS.md`/`INDEX.md` («Steuern bei Gründung:
   Kapital-, Gewinn-, Verrechnungssteuer») geschlossen: neuer Artikel

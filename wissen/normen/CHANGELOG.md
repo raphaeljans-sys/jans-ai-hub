@@ -1,3 +1,18 @@
+## 2026-07-25 — Run 20 (MacBook Pro): unabhaengige NFC-Diff-Vollstaendigkeitsverifikation SIA/VKF
+- Statt bereits erledigte Vertiefung zu wiederholen (Grunddestillation + Stufen a-d seit Run 19
+  komplett), die Vollstaendigkeit **rigoros re-verifiziert**: programmatischer Diff aller 503 live
+  vorhandenen SIA/VKF-Basenamen gegen alle im `norm-inventar.md` erwaehnten Dateinamen, beide Seiten
+  **NFC-normalisiert** (macOS-FS = NFD, Inventar = NFC; ein naiver `grep -F` erzeugt sonst
+  Umlaut-Fehlalarme). **Befund: 0 neue/uebersehene normative Dateien** — die einzigen 8 nicht
+  erwaehnten Live-Dateien sind PNG-Screenshots in `VKF_Norm/06_Printscreen_Themen/` (nicht-normativ).
+  Alle 458 SIA-PDF + alle VKF-PDF erfasst. 6. Bestaetigung «SIA/VKF KOMPLETT» in Folge, erstmals via
+  reproduzierbarem Diff. Run-19-Restnotiz Cross-Link SIA 500 geschlossen (`sia-500-2009.md`
+  established, `sia-en-13200-1-2019.md` verlinkt korrekt). Kein Destillat erzeugt, keine Ausgaben-
+  Gueltigkeit veraendert. Kopfnotiz im Inventar ergaenzt (8 PNGs explizit als nicht-normativ
+  dokumentiert). Empfehlung an Raphael unveraendert (Task pausieren/Datei-Trigger, VOLLGAS-Passus
+  entfernen, SIA 380/1:2016 + SIA 385/1:2011 per Abo beschaffen). Report
+  `outputs/2026-07-25_normen-nacht-run20.md`.
+
 ## 2026-07-24 (18:30) — Vier + zwei tote Wiki-Links behoben (Mac Mini Nachtschicht)
 - Aus dem Health-Check vom selben Tag (siehe unten) die als "leicht" markierten 4 toten
   `[[links]]` korrigiert: `sia-382-1-2014.md` `[[sia-2024]]`→`[[sia-mb-2024-2006]]` und

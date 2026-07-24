@@ -7,6 +7,28 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-25
 
+**Nachtschicht Mac Mini (~01:30, Wissens-Health-Check firmengruendung-ch, Dispatch-Run
+20260725-013006).** Standard-Prioritaeten 1–4 heute Nacht bereits erschoepft: Sync-/
+Remote-Queues leer, Synobsis Stufe 2 vollstaendig, energie+planungsgrundlagen-Training
+schon im 00:30-Lauf bedient, Normen-Loop (SIA/VKF UND DIN/VSS/RAL) komplett abgeschlossen
+(Run 19). QUESTIONS.md-Kandidaten in energie/planungsgrundlagen alle entweder
+"Entscheid Raphael noetig" (E103 Pflegeplatz-Kennwert, D9 MFH-Fall) oder bereits
+ausgereizte Negativbefunde (E84 Solarpflicht-Beratungsstand, Fernwaerme-290-kW-
+Nachverdichtung mit bekanntem Overpass-API-Blocker) — keine dieser drei Aufgaben
+autonom sinnvoll fortsetzbar. Stattdessen Prioritaet 6: Wissens-Health-Check auf
+`firmengruendung-ch` (aeltestes Audit-Datum 21.07., seither um 4 neue Artikel gewachsen,
+von keinem anderen Lauf heute Nacht angefasst). 7-Audits-Katalog: A0 Gruen (01.07.-
+Firmenname-Blocker seit 21.07. erledigt), B Gelb (neu: `steuern-bei-gruendung`-Orphan
+analog zum 21.07.-Fund `steuern-ag-inhaber`; `gmbh-gruendungsablauf` ohne Rueckverweis
+von seinem erklaerten Pendant `ag-gruendungsablauf`), C Gelb (HR-Gebuehren-Richtwerte
+weiterhin unbelegt), D Gruen, E Gelb (Aktienrecht-Revision 2023 jetzt 35 Tage offen),
+F Gelb (neu, klein: `holding-struktur.md` Frontmatter "Luecke" statt "Lücke"),
+G Gruen (QUESTIONS.md sauber gefuehrt,
+Backlog stabil bei 2 Punkten). Report `wissen/firmengruendung-ch/outputs/
+2026-07-25_health-check.md`, CHANGELOG nachgefuehrt. Reine Audit-Phase (Phase 1,
+unbeaufsichtigt), keine Wiki-Datei inhaltlich veraendert. Kein Versand/Publikation/
+Buchung. Fixes sind Phase-2-Kandidaten fuer eine interaktive Session.
+
 **Nachtschicht Mac Mini (~00:30, Wissens-Health-Check energie, Dispatch-Run
 20260725-003006).** Kollisionspruefung: parallel lief auf demselben Host ein zweiter
 Dispatch-Prozess (planungsgrundlagen-Intensivlauf, PID 91524, eigenes 25-USD-Budget) —

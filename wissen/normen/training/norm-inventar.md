@@ -26,6 +26,20 @@
   RAL_Norm/Lignum auftauchen. Details `wiki/QUESTIONS.md` Abschnitt "Mini-Run 32",
   Report `outputs/2026-07-16_normen-mini-run32.md`.
 
+- **Run 20 (MacBook Pro, 260725) — unabhaengige NFC-Diff-Vollstaendigkeitsverifikation, 0 Luecken:**
+  Programmatischer Diff aller **503 live** SIA/VKF-Basenamen (rekursiv ab `SIA_Norm/`+`VKF_Norm/`)
+  gegen alle im Inventar erwaehnten Dateinamen, **beide Seiten NFC-normalisiert** (macOS-FS liefert
+  Umlaute NFD-zerlegt -> naiver `grep -F` erzeugt sonst Fehlalarme fuer Gebaeude/Innenhoefe/
+  Spaenefeuer/Fluessiggas/Wohnungslueftung/Gelaender; alle diese sind erfasst). **Befund: 0 neue
+  oder uebersehene normative Dateien.** Die einzigen 8 nicht erwaehnten Live-Dateien sind
+  **PNG-Screenshots** in `VKF_Norm/06_Printscreen_Themen/` (nicht-normativ, korrekt ausserhalb Scope
+  — hiermit explizit dokumentiert, damit kuenftige Laeufe sie nicht erneut flaggen). Run-19-Restnotiz
+  Cross-Link SIA 500 geschlossen (`sia-500-2009.md` established, en-13200 verlinkt korrekt). 6.
+  Bestaetigung «SIA/VKF KOMPLETT» in Folge, erstmals via reproduzierbarem Diff. Empfehlung an
+  Raphael unveraendert: Task pausieren/auf Datei-Aenderungs-Trigger stellen, VOLLGAS-Passus
+  entfernen, 2 Bring-Schulden (SIA 380/1:2016, SIA 385/1:2011) per SIA-Abo beschaffen. Report
+  `outputs/2026-07-25_normen-nacht-run20.md`.
+
 - **Run 15 (MacBook Pro, 260717) — INVENTAR-KORREKTUR, «SIA/VKF komplett» war falsch:** Ein Datei-für-Datei-
   Abgleich gegen die live gemountete SharePoint-Ablage zeigt, dass der Scan vom 11.07.2026 nur
   `SIA_Norm/SIA_Normen/alle/` erfasst hat. **58 SIA-Dateien** (Ordner `SIA_Vertraege/`, `SIA_Merkblaetter/`,
