@@ -4,6 +4,16 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-07-24 — Batch-Lauf (leer, 12. Mal in Folge) + Vektorindex neu (Mac Mini)
+Batch 25, 02:18–02:19. Stufe 1 ohne neuen Stoff (853/853, offen 0, Stand unveraendert
+2026-07-02). Stufe 2 hat `catalog/vectors.npz` deterministisch neu gebaut (853 × 768,
+`intfloat/multilingual-e5-base`); Semantiksuche per Stichprobe intakt ("introvertierter
+Hof Beton Kapelle", Top-Treffer um 0.85). Kollisionsschutz (260724): keine Zweitinstanz.
+Quelle gegengeprueft: 854 Ordner (853 + 00_Organisation) + 6 lose Streudateien, juengste
+Aenderung `HdM` 2026-04-07, kein neues Rohmaterial. Zwoelfter ergebnisloser Nachtlauf in
+Folge — Empfehlung zum 12. Mal: Task `synobsis-batch-nacht` pausieren/herabtakten
+(Endbedingung erreicht). Protokoll: `outputs/2026-07-24_batch-lauf.md`.
+
 ## 2026-07-23 — Batch-Lauf (leer, 11. Mal in Folge) + Vektorindex neu (Mac Mini)
 Batch 25, 07:35–07:36. Stufe 1 ohne neuen Stoff (853/853, offen 0, Stand unveraendert
 2026-07-02). Stufe 2 hat `catalog/vectors.npz` deterministisch neu gebaut (853 × 768,
