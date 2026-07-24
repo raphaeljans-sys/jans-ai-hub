@@ -6,9 +6,12 @@
 - **Romanshorn Hafenstrasse 46 (Schlossberg)** — STWEG; Koordination Steigleitungen
   OG4/OG5 (Gantner/Bischof). Rolle Nova Property.
 - **Baar Zugerstrasse 49** — Ankaufspruefung/TDD Hochhaus (06/2025), Angebot TDD. Ausgang?
-  Als Referenzfall fuer Skill `ankaufspruefung` dokumentieren.
-- **Giebelweg 12, 8135 Langnau a/A** — Machbarkeit BZO-Revision/Baulinie; Auftrag 06/2026
-  (Pauschale CHF 1'000). Ergebnis-Memo nach `outputs/` und hierher zurueckspeisen.
+  Als Referenzfall fuer Skill `ankaufspruefung` dokumentieren. **Versuch 24.07.2026
+  gescheitert:** die relevanten Dateien im Projektordner (`_Zusammenfassung/`, `Bericht roh/`)
+  sind nicht lokal materialisierte OneDrive-Cloud-Platzhalter, Lesezugriff liefert `EDEADLK`
+  (deckt sich mit `feedback_background_agent_onedrive_stall`). Braucht entweder eine Session,
+  in der die Dateien vorher lokal geoeffnet/heruntergeladen wurden, oder Raphael zieht den
+  Ordner einmal manuell nach — dann neu versuchen.
 
 ## Offene Faktenfragen
 - Standard-Rechnungsadresse / Korrespondenzweg je Rolle (woma vs. nova vs. privat vs. Feag).
@@ -18,6 +21,13 @@
   aktualisieren, CHANGELOG-Eintrag (Compounding-Loop).
 
 ## Beantwortet (Archiv)
+- **Giebelweg 12, 8135 Langnau a/A** — beantwortet 2026-07-24: Machbarkeitsstudie (Juni 2026)
+  loeste den Baumasse-Konflikt (+176 m³) ueber den Hangschnitt-Nachweis massgebendes Terrain
+  (volle Attika budgetkonform, Reserve 8 m³). Auf dieser Grundlage hat Christoph am 30.06.2026
+  im Namen seiner Mutter (Eigentuemerin, Vollmacht 22.06.) formell Einwendung gegen die
+  Baulinien-Festsetzung an die Gemeinde Langnau a/A eingereicht. **Antwort der Gemeinde stand
+  per 24.07.2026 noch aus.** Details in [[projekt-giebelweg12]], Report
+  `outputs/2026-07-24_giebelweg12-projektstand.md`.
 - **Drittes/viertes KMU-Vehikel** — beantwortet 2026-07-21: **Feag Facility Engineering AG**,
   Zürich (UID CHE-108.531.313), Familienunternehmen (Bauphysik/-akustik/Energie, Facility
   Management). Christoph Bopp seit Jan. 2003 im Vorstand (Wiedereintritt Juli 2010), seit

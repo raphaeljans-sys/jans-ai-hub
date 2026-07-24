@@ -7,6 +7,21 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-24
 
+**Nachtschicht Mac Mini (~19:30, KB kunde-bopp Projekt-Detailartikel, Dispatch-Run
+20260724-193002).** Vorpruefung: keine Sync-/Remote-Tasks, Synobsis Stufe-2 vollstaendig,
+Trainingsfenster noch nicht erreicht, Prioritaet-5-Slot vom 18:30-Lauf bereits auf `normen`
+verwendet. Naechste offene KB-Frage genommen: `kunde-bopp` hatte zwei unbeantwortete
+Projekt-Detailfragen (Giebelweg 12, Baar Zugerstrasse 49). Giebelweg 12 im Projektordner
+(PROJEKT-STAND.md + Korrespondenz) recherchiert: Machbarkeitsstudie loeste den
+Baumasse-Konflikt via Hangschnitt-Nachweis; darauf hat Christoph Bopp am 30.06.2026 fuer seine
+Mutter formell Einwendung gegen die Baulinien-Festsetzung bei der Gemeinde Langnau a/A
+eingereicht, Antwort steht noch aus. Neuer Wiki-Artikel `projekt-giebelweg12`, Report
+`outputs/2026-07-24_giebelweg12-projektstand.md`, INDEX/QUESTIONS/CHANGELOG nachgefuehrt.
+Baar Zugerstrasse 49 nicht beantwortbar: die betroffenen Dateien im IMMO-Projektordner sind
+nicht materialisierte OneDrive-Cloud-Platzhalter (`EDEADLK` beim Lesen, auch im
+Vordergrund-Read) — mit Ursache in QUESTIONS.md vermerkt statt geraten. Kein Versand, keine
+Publikation, keine destruktiven Aenderungen. Verbrauch ~2,8 von 5 USD.
+
 **Nachtschicht Mac Mini (~18:30, Wiki-Link-Fixes normen, Dispatch-Run 20260724-183004).**
 Vorpruefung: keine Sync-/Remote-Tasks, Synobsis Stufe-2 bereits vollstaendig, Trainingsfenster
 (22:00-06:00) noch nicht erreicht, Fristen-Radar bereits durch Hub-Chef 08:35 versendet.

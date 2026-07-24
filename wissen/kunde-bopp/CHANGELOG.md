@@ -2,6 +2,20 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-24 — Projekt-Detailartikel Giebelweg 12 (Mac Mini Nachtschicht)
+- Offene Frage aus `QUESTIONS.md` recherchiert (Priorität 5 der Nachtschicht: offene KB-Frage
+  bearbeiten): Projektordner `AR - 03 Studien/2621 Giebelweg 12/` gelesen (PROJEKT-STAND.md +
+  Korrespondenzordner). Neuer Wiki-Artikel [[projekt-giebelweg12]] (emerging): Machbarkeitsstudie
+  Juni 2026 loeste Baumasse-Konflikt via Hangschnitt-Nachweis massgebendes Terrain; darauf
+  aufbauend hat Christoph am 30.06.2026 fuer seine Mutter (Eigentuemerin) formell Einwendung
+  gegen die Baulinien-Festsetzung bei der Gemeinde Langnau a/A eingereicht — Antwort stand per
+  24.07. noch aus. Report `outputs/2026-07-24_giebelweg12-projektstand.md`. INDEX.md und
+  QUESTIONS.md nachgefuehrt (Frage nach «Beantwortet» verschoben).
+- Zweite offene Frage (Baar Zugerstrasse 49, TDD-Ausgang) versucht, aber gescheitert: die
+  relevanten Dateien im IMMO-Projektordner sind nicht lokal materialisierte OneDrive-
+  Cloud-Platzhalter (`EDEADLK` beim Lesezugriff, auch im Vordergrund-Read-Tool, nicht nur bei
+  Background-Agents). In `QUESTIONS.md` mit Ursache vermerkt statt geraten oder ausgelassen.
+
 ## 2026-07-21 — Zweiter Health-Check: Re-Audit bestaetigt Verbesserung (Mac Mini Nachtschicht, ~23:35)
 - Wissenscheck Phase 1 (unbeaufsichtigt) auf `kunde-bopp` erneut ausgefuehrt — letzter Check
   war 01.07., seither zwei inhaltliche Aktualisierungen (20./21.07., ebenfalls Mac-Mini-
