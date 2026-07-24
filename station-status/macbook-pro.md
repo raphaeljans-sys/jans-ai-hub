@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 24.07.2026 13:08:51
+Stand: 24.07.2026 13:29:10
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:05)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:11)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 24.07.2026 13:08:51
 - 6 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 646e40bb vollgas-radar: 24.07. 12:48 Tagesruhe planmaessig, Drossel intakt, synobsis-Entscheid als offen praezisiert
+- 023cdaae nas-selfcommit: 2 Datei(en) 2026-07-24 13:15
