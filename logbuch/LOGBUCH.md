@@ -7,6 +7,22 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-24
 
+**Logbuch-Radar (~07:00, Freitag).** Ruhiges, aber operativ dichtes Bild. Geschlossen: der
+23.07.-Punkt «LBW VKF/Rohdichte» — die 800-kg/m3-Vorgabe (Jens Ziegel/Gruner) ist amtlich/
+vertraglich verifiziert (Original-LV BKP 271.13 vom 12.05.2020, Gipsplatten Typ DFIR/DFH2IR =
+Typ D nach SN EN 520; Beweiskette Commit `32b8bd0c`); Estermann-Anerkennung 22636 (1'003 kg/m3)
+erfuellt sie, 18151 (776 kg/m3) nicht, beide gueltige EI-90-RF1-Nachweise. Fortschritt: RJ hat
+23.07. 19:17 die SRZ-Auflagebereinigungs-Unterlagen (Bauentscheid 1171/26 Lenggstrasse 30) ueber
+eBaugesuche hochgeladen (AFB-Eingangsbestaetigung da). Heute offen: (1) Brandschutz-
+Korrekturfassung an Ziegel senden, Upload bis Mittag; (2) TeKoSi-Besprechung Auftragsbestaetigung
+Los 231.10 ca. 10:00 (Teams, Hiltmann); (3) Selbstfristen 24.07. Jegen (definitive Offerte
+274.01) + Roethlisberger (Installationsplaene) + Eingabefrist Submission Geschirrspueler
+Saumstrasse 21. Neu (Koordination): RJ hat 23.07. 23:42 an Gruner die Kollision Bodenablauf
+Duschen ↔ Bodenheizung 1. OG angesprochen, Empfaenger OOO → Ball bei Gruner. Debitoren
+unveraendert (RE-00087 99 Tage Mahnung 2; RE-00098/99 4 Tage Stufe 1, Frist 03.08.; Summe
+CHF 32'280). Register + Journal nachgefuehrt, Briefing an rj@ versendet. Token gestern (23.07.):
+MacBook 100.78 Mio. (~117 USD) + Mac Mini 152.28 Mio. (~102 USD) = 253.06 Mio. (~218 USD).
+
 **Nachtschicht Mac Mini (~06:30, Wettbewerbsresultat 2507 Halden beschafft, Dispatch-Run
 20260724-063005).** Neunter Sweep im Nachtfenster: Queues weiterhin leer, Synobsis Stufe 2
 weiterhin gesaettigt. Priorität 5 (offene `QUESTIONS.md`) auf `wettbewerbs-dna` angewendet:

@@ -21,6 +21,33 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-24 06:48 — [GEDROSSELT] Nachtfenster-Ende, kraeftiger Trainingsertrag, Drossel intakt
+
+**Fensterzustand:** Keine Login-Probe (Betriebsbeleg-Methode, token-schonend im Drossel-Sinn). Kein
+«Not logged in», kein Usage-/Rate-Limit erkennbar. Kein Blocker, keine Mail. Jetzt 06:48 — das
+Nachtfenster (22:00–06:00) laeuft aus; der aktive Token-Pfad ist ueber die substanziellen
+Trainings-Commits der Nacht belegt.
+
+**Durchsatz:** Kraeftig und breit. Ueber das Nachtfenster liefen mehrere KBs parallel und
+kompoundierend: `energie-run86` (Anergienetz F109, oberflaechennahe Erdwaerme F110, PV-Marktpreise
+BFE-2024), `wettbewerbs-dna` Etappe 3 (B2/B3 Healthcare Tranche 1, 3 Destillate `established`),
+`twin-mail-training` Batch 59 und `twin-fidelity-review`. 27 `nas-selfcommit`-Takte sicherten die
+Zwischenstaende. Kein stockender Loop. Zusaetzlich griff die neue Auto-Verbesserung 260724
+(pathspec-begrenzter Commit bei paralleler NAS-Instanz) und wurde als Rule verankert.
+
+**Runner/STOP:** unveraendert. `STOP` + `STOP-Macmini` (in `logbuch/vollgas/`) vom 14.07. 12:53 stehen;
+kein `vollgas-runner`-Prozess. Drossel-Guard intakt, Wiederanlauf nur auf ausdrueckliche Anweisung
+Raphaels. Nicht angetastet.
+
+**Vorschlaege:**
+- P1: keiner.
+- P2: Drossel-Entscheid Raphaels weiterhin offen (naechster Wochen-Reset Mo 11:59). Status quo halten.
+- P3: `synobsis`-Batch heute zum 12. Mal leer (KB saturiert) — Stilllegung des Loops `synobsis-batch-nacht`
+  ist laut Register bereits entschieden; naechster Nachtlauf kann den leeren Batch-Takt einsparen. Ab
+  10.08. (token-drosselung-100810) Radar auf 1x taeglich reduzieren — noch nicht faellig.
+
+---
+
 ## 2026-07-24 00:48 — [GEDROSSELT] Nachtfenster aktiv, Trainingsbetrieb gesund, Drossel intakt
 
 **Fensterzustand:** Keine Login-Probe (Betriebsbeleg-Methode, token-schonend im Drossel-Sinn). Kein
