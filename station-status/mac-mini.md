@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 24.07.2026 04:41:38
+Stand: 24.07.2026 05:11:46
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 04:34)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 24.07.2026 04:41:38
 - 3 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- afd3a4a3 nas-selfcommit: 7 Datei(en) 2026-07-24 04:30
+- 80289288 rules: pathspec-begrenzter Commit bei paralleler NAS-Instanz (Auto-Verbesserung 260724)
