@@ -21,6 +21,30 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-24 00:48 — [GEDROSSELT] Nachtfenster aktiv, Trainingsbetrieb gesund, Drossel intakt
+
+**Fensterzustand:** Keine Login-Probe (Betriebsbeleg-Methode, token-schonend im Drossel-Sinn). Kein
+«Not logged in», kein Usage-/Rate-Limit erkennbar. Kein Blocker, keine Mail. Jetzt 00:48 — mitten im
+Nachtfenster (22:00–06:00), in dem die gedrosselten Lern-Loops planmaessig laufen; der aktive
+Token-Pfad ist ueber die frischen Trainings-Commits belegt.
+
+**Durchsatz:** Gesund. Von den letzten 4 Commits/90 Min sind zwei substanzielle Trainings-Commits:
+`9a51b3c4` (00:00, 10 Dateien — normen EN 520 Gipsplattentypen, koordination wissens-chef-run13) und
+`28771cb2` (23:30, 15 Dateien — baurecht Parkierung, energie graue Energie/PV, normen SIA 2040 +
+VSS 640066, planungsgrundlagen Naturgefahren, koordination QUERBEZUEGE). Mehrere KBs kompoundieren
+parallel, kein stockender Loop.
+
+**Runner/STOP:** unveraendert. `STOP` + `STOP-Macmini` (in `logbuch/vollgas/`) vom 14.07. 12:53 stehen;
+kein `vollgas-runner`-Prozess. Drossel-Guard intakt, Wiederanlauf nur auf ausdrueckliche Anweisung
+Raphaels. Nicht angetastet.
+
+**Vorschlaege:**
+- P1: keiner.
+- P2: Drossel-Entscheid Raphaels weiterhin offen (naechster Wochen-Reset Mo 11:59). Status quo halten.
+- P3: keiner. Ab 10.08. (token-drosselung-100810) Radar auf 1x taeglich reduzieren — noch nicht faellig.
+
+---
+
 ## 2026-07-23 18:48 — [GEDROSSELT] Abendfenster ruhig, Drossel intakt, Nachtschicht noch aus
 
 **Fensterzustand:** Keine Login-Probe (Betriebsbeleg-Methode, token-schonend im Drossel-Sinn).

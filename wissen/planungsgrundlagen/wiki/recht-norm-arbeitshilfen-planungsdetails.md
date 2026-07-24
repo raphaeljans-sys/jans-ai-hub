@@ -1,17 +1,18 @@
 ---
-title: Recht & Norm — Arbeitshilfen Planungsdetails (2h-Schatten, Briefkastenanlage, Absturzsicherungen, Türen in Fluchtwegen)
+title: Recht & Norm — Arbeitshilfen Planungsdetails (2h-Schatten, Briefkastenanlage, Absturzsicherungen, Türen in Fluchtwegen, Estriche, Balkonabdichtung)
 status: established
-last_updated: 2026-07-18 (Run 52)
-sources: [PL - 02_Recht_Norm/03_Arbeitshilfen/2h Schatten/2h-Schatten_AFB.pdf (Amt für Baubewilligungen/Amt für Regionalplanung Kt. ZH, "Die 2-Stunden-Schattenkurve", 1967/09.12.03 DEC), PL - 02_Recht_Norm/03_Arbeitshilfen/Post Briefkastenanlage/Post_Briefkastenanlage.pdf (Die Schweizerische Post, PostMail, Faktenblatt "Der Hausbriefkasten", 09.2010, gestützt auf Verordnung des UVEK zur Postverordnung vom 18.03.1998), PL - 02_Recht_Norm/04_Merkblätter/Absturzsicherungen Richtlinie.pdf (Stadt Zürich Amt für Baubewilligungen, Richtlinie "Absturzsicherungen im Hochbau", 1. Juni 2019), PL - 02_Recht_Norm/04_Merkblätter/Merkblatt-TK004_Fluchtwege_DE.pdf (Schweizerische Metall-Union SMU/Verband Schweizerischer Türenproduzenten VST, Merkblatt 004 "Türen in Fluchtwegen", 11 S.)]
-links: [[recht-norm-quellenlandkarte]], [[recht-norm-baueingabe-verfahren-zh]], [[recht-norm-raumprogramm-referenzwerke]], [[machbarkeit]], [[brandschutz-pl03-wegweiser]]
+last_updated: 2026-07-24 (Run 58)
+sources: [PL - 02_Recht_Norm/03_Arbeitshilfen/2h Schatten/2h-Schatten_AFB.pdf (Amt für Baubewilligungen/Amt für Regionalplanung Kt. ZH, "Die 2-Stunden-Schattenkurve", 1967/09.12.03 DEC), PL - 02_Recht_Norm/03_Arbeitshilfen/Post Briefkastenanlage/Post_Briefkastenanlage.pdf (Die Schweizerische Post, PostMail, Faktenblatt "Der Hausbriefkasten", 09.2010, gestützt auf Verordnung des UVEK zur Postverordnung vom 18.03.1998), PL - 02_Recht_Norm/04_Merkblätter/Absturzsicherungen Richtlinie.pdf (Stadt Zürich Amt für Baubewilligungen, Richtlinie "Absturzsicherungen im Hochbau", 1. Juni 2019), PL - 02_Recht_Norm/04_Merkblätter/Merkblatt-TK004_Fluchtwege_DE.pdf (Schweizerische Metall-Union SMU/Verband Schweizerischer Türenproduzenten VST, Merkblatt 004 "Türen in Fluchtwegen", 11 S.), PL - 02_Recht_Norm/04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_16-2012_Checkliste (PAVIDENSA, "Checkliste Planung und Ausführung von Estrichen", März 2012, vollständig gelesen, Run 58), PL - 02_Recht_Norm/04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_01-2008_Spez_Bedingungen_Fussbodenheizung (PAVIDENSA, "Spezielle Bedingungen für Heizestriche", Oktober 2008, vollständig gelesen, Run 58; 7 weitere PAV-A/PAV-E-Empfehlungen im selben Ordner als Backlog), PL - 02_Recht_Norm/04_Merkblätter/Merkblatt Unterlagsboden/Balkone_Laubengänge_Anforderungen_nach_SIA_281_2007_273_WZ230211.pdf (LPM AG/Richard Graf dipl. Bauingenieur HTL, KBS-Fachtagung 2010 "Balkone und Laubengänge — Anforderungen nach SIA-Norm 271:2007+ (273)", 36 Folien vollständig gelesen, Run 58)]
+links: [[recht-norm-quellenlandkarte]], [[recht-norm-baueingabe-verfahren-zh]], [[recht-norm-raumprogramm-referenzwerke]], [[recht-norm-tiefgarage-erschliessung]], [[machbarkeit]], [[brandschutz-pl03-wegweiser]]
 ---
 
-# Recht & Norm — Arbeitshilfen Planungsdetails (2h-Schatten, Briefkastenanlage, Absturzsicherungen)
+# Recht & Norm — Arbeitshilfen Planungsdetails (2h-Schatten, Briefkastenanlage, Absturzsicherungen, Estriche, Balkonabdichtung)
 
-**Neu erschlossen (Run 30, 2026-07-13).** Drei bisher nicht ausgewertete Einzel-PDF-Ordner unter
-`03_Arbeitshilfen/` bzw. `04_Merkblätter/` — jede Quelle behandelt einen konkreten, isolierten
-Planungsdetail-Nachweis, der in einer Baueingabe wiederkehrend gebraucht wird, aber zu klein für
-einen eigenen Themenordner ist. Gebündelt in einem Artikel statt drei Einzeiler-Stubs.
+**Neu erschlossen (Run 30, 2026-07-13; erweitert Run 52 + Run 58).** Bisher nicht ausgewertete
+Einzel-PDF-Ordner unter `03_Arbeitshilfen/`/`04_Merkblätter/` — jede Quelle behandelt einen
+konkreten, isolierten Planungsdetail-Nachweis, der in einer Baueingabe/Ausführungsplanung
+wiederkehrend gebraucht wird, aber zu klein für einen eigenen Themenordner ist. Gebündelt in einem
+Artikel statt lauter Einzeiler-Stubs.
 
 ## 1. 2-Stunden-Schatten — Schattenwurf-Grobnachweis Kt. ZH
 
@@ -250,3 +251,109 @@ die Funktionsbuchstaben-Systematik (§4.3) und die Bedienkraft-Warnung bei Panik
 Grundlage für die Produktespezifikation nutzen — besonders in Schul-/Kindergarten- und Healthcare-
 Projekten, wo Panikstangen für die Nutzergruppe ungeeignet sein können und eine Notausgangstür mit
 Drücker die bessere Wahl ist (sofern die Raumgrösse/Personenzahl das zulässt, §4.1/§5.1).
+
+**Delta-Check Run 58 (2026-07-24):** VST-Merkblatt Nr. 012 «Türen in Fluchtwegen» (PL-03 Brandschutz/
+02 Brandschutzrichtlinien 2015-17-22/Merkblatt_012_d.pdf, Erstausgabe 2009) behandelt dieselben
+Kernthemen (EN 179/EN 1125-Abgrenzung, Türbreiten-Staffel 900/1200/1800/2400 mm, prEN 13633/13637,
+DIN 18650) wie das hier ausgewertete Merkblatt 004 — **kein neuer Fakt**, gleicher Herausgeberkreis
+VST. Register-Fund in [[brandschutz-pl03-wegweiser]] §1 statt eigenem Abschnitt.
+
+## 5. Fugenlose Bodenbeläge / Estriche — PAVIDENSA-Empfehlungen (Run 58, 2026-07-24)
+
+Quelle: **PAVIDENSA (Verband Abdichtungen Estriche Schweiz)**, Ordner `04_Merkblätter/Fugenlose
+Bodenbeläge/` — 9 Einzel-Empfehlungen PAV-A/PAV-E, bisher nie erschlossen. Zwei davon vollständig
+gelesen (Checkliste PAV-E 16:2012, Heizestrich-Bedingungen PAV-E 01:2008); die übrigen 7
+(Betonoberflächenbearbeitung PAV-A 01, Schutzschichten PAV-A 03, Mineralfaserdämmplatten PAV-E 05,
+Fugen in Calciumsulfatestrichen PAV-E 11, Verschleisswiderstand PAV-E 12, Schwimmende Estriche
+oberflächenfertig PAV-E 17) liegen als Backlog vor.
+
+**PAV-E 16:2012 — Checkliste Planung und Ausführung von Estrichen.** Fünf-Phasen-Ablauf, jede
+Phase mit Verweis auf die passende PAV-Einzelnorm bzw. SIA-Norm:
+- **Planung:** Nutzungsvereinbarung, Trittschall (SIA 181), Wärmeschutz, Beanspruchung, Heiz-/
+  Kühlestrich, Feuchtigkeit, Belagstyp.
+- **Ausführungsplanung:** Bodenaufbau, Untergrund/Ebenheit (PAV-E 06/13), Feuchtigkeitssperren
+  (PAV-E 04/05), Wärmedämmung (SIA 180/380-1), Trittschall (SIA 181), Dimensionierung (PAV-E 13).
+- **Vor dem Einbau:** Meterriss/Belagsdicke je Raum (SIA 118/251), Heizungsplan (PAV-E 01),
+  Fugenplan Zement-/Calciumsulfatestrich (PAV-E 10/11/14).
+- **Während des Einbaus:** Ebenheit, Bautemperatur, keine Zugluft.
+- **Nach dem Einbau:** Begeh-/Belastbarkeit, Austrocknung (PAV-E 03), **Belegreife** nach SIA
+  244/246/248/252/253 (belagsspezifisch).
+
+**PAV-E 01:2008 — Spezielle Bedingungen für Heizestriche.** Zentrale Fehlerquelle: **Estriche
+werden vor dem Belagseinbau nicht ausreichend trocken/belegreif**, oder es entstehen unerwünschte
+Risse durch ungleichmässige Beheizung. Kernregeln:
+- **Fugenplan-Pflicht des Bestellers** (SIA 251:2008 Art. 2.4.9): Lage/Art der Fugen (Bewegungs-/
+  Schwind-/Randfuge), Aufbaudicken, Registerflächen, beheizte/unbeheizte/unterschiedlich beheizte
+  Flächen (Temperaturdifferenz ≥ 5 K = eigenes Feld mit Fuge).
+- **Feldgrössen-Richtwerte:** Zementestrich (CT) max. 6 m Seitenlänge; Calciumsulfatestrich
+  (CA/CAF) max. 8 m; Seitenverhältnis max. 1:1,5.
+- **Drei Verlegearten der Heizregister:** reihenförmig/mäanderförmig (Rohrabstand ≥ 150 mm,
+  Temperaturdifferenz Vor-/Rücklauf beachten), spiralförmig (ausgeglichenere Bodentemperatur, mehr
+  Planungsaufwand), kombiniert (Randzone spiralförmig 100 mm, Zentrum linear 150 mm).
+- **Leitungen zu Radiatoren dürfen nicht im Estrich verlegt werden** (SIA 251:2008 Art. 2.6.5).
+- **Funktionsheizen/Belastungsprobe** (SIA 251 Art. 5.9.5): Vorlauftemperatur bis Einbringen max.
+  20 °C; Belastungsprobe frühestens 21 Tage (Zement) bzw. 7 Tage (Calciumsulfat) nach Herstellung
+  — 3 Tage bei 25 °C, dann 4 Tage bei max. Vorlauftemperatur; **Calciumsulfat-Estriche max. 50 °C
+  Vorlauftemperatur**, nie überschreiten.
+- **Heizen bis Belegreife:** 25 °C für 1 Tag, danach täglich +5 °C bis zur max. Vorlauftemperatur
+  halten, danach täglich −10 °C abheizen.
+- **Häufige Fehlerquellen** (Praxisliste): fehlende/falsch angeordnete Bewegungsfugen,
+  Heizregister nicht auf Estrichfelder abgestimmt, zu dünner Estrich mit unzureichender
+  Mörtelüberdeckung der Leitungen, Belag auf zu feuchtem Estrich verlegt (Bimetalleffekt-Wölbung
+  bei starren Plattenbelägen).
+
+**JANS-Praxisrelevanz:** Direkt LV-relevant für BKP 281.1 «Fugenlose Bodenbeläge» — die
+Fugenplan-Pflicht liegt beim **Besteller** (Architekt/Bauleitung), nicht beim Ausführenden; ein
+fehlender Fugenplan ist eine der häufigsten Ursachen für spätere Rissschäden. Checkliste PAV-E 16
+eignet sich direkt als Ausführungsplanungs-Pendenzenliste.
+
+## 6. Balkone und Laubengänge — Abdichtungsanforderungen nach SIA 271/273 (Run 58, 2026-07-24)
+
+Quelle: **LPM AG, Richard Graf (dipl. Bauingenieur HTL), KBS-Fachtagung 2010** «Balkone und
+Laubengänge — Anforderungen nach SIA-Norm 271:2007+ (273)» (`04_Merkblätter/Merkblatt
+Unterlagsboden/Balkone_Laubengänge...pdf`, 36 Folien, vollständig gelesen — Ordnername irreführend,
+Inhalt hat nichts mit Unterlagsböden zu tun). Praxis-Vortrag mit realen Schadensfällen + der
+normativen Anforderungsliste, bisher nie erschlossen.
+
+**Schadensbild (Teil 1, Fotobelege):** Durchfeuchtung/Ausblühungen über die ganze Balkon-/
+Laubengangfläche auch nach längerer Trockenzeit, Risse bis 4 mm Breite über die volle Breite,
+Anschlussschäden an Pfeilern (kein Fuge → Abplatzungen), Ablösung des «schwimmenden Hartbetons»
+vom Stahlwinkel (Fassadenkitt statt Fuge → Wassereintritt), nicht entwässerte «Wannen» an
+Fassaden-Anschlüssen.
+
+**Ursachen (Teil 2):** keine/ungenügende Entwässerung, keine/zu schmale Fugen bei Anschlüssen an
+aufgehende Bauteile, Gefälle nicht im Konstruktionsbeton angelegt, unebene Wasserabdichtung, keine
+Drainageschicht zwischen Abdichtung und Belag, ungleichmässige Dicke des «schwimmenden Hartbetons».
+
+**Anforderungen an Planung und Ausführung (Teil 3, normativ):**
+- **Schichtaufbau** (von unten): Unterkonstruktion/Untergrund → Dampfbremse/Luftdichtung →
+  Wärmedämmung → Abdichtung → Entwässerungsschicht → Schutz-/Nutzschicht.
+- **Untergrund-Tabelle** (Anforderungen je nach Abdichtungssystem mit/ohne Verbund): Festigkeit
+  (Haftzugfestigkeit ≥ 1,5 N/mm² bei Verbund), Rauheit (Rautiefe 0,5–1,2 mm bei Verbund),
+  Ebenheit (≤ 8 mm unter 2-m-Latte bei Verbund, ≤ 12 mm ohne Verbund), Trockenheit (Restfeuchte
+  ≤ 4 Massen-% CM).
+- **Dampfbremse:** vollflächig aufgeschweisste bituminöse Dampfsperren min. 3,5 mm dick (5 mm bei
+  Rauheit bis 1,5 mm); Luftdichtung raumseitig der Wärmedämmung (SIA 180).
+- **Wärmedämmung unter der Abdichtung:** zulässige Stauchung durch Nutzlasten max. 2 % der
+  Gesamtdicke, max. 5 mm absolut; separate Trittschalldämmung max. 3 mm Zusammendrückbarkeit bei
+  3 kPa; EPS hat Sonderregel (SN SIA 271 Art. 3.4.4).
+- **Abdichtungsgefälle mindestens 1,5 %** in Richtung Entwässerung — **Unterschreiten ist gemäss
+  SIA 271 für folgende Konstruktionen unzulässig:** Balkone, begehbare Dächer/Terrassen, Dächer
+  ohne Schutzschicht, Dächer mit Gussasphalt, nicht belüftete Holzkonstruktionen.
+- **Nutzschicht Beton:** Gefälle mind. 1,5 %, **durchgehende Fugen min. 20 mm entlang aller
+  Anschlüsse**, Fugen-/Feldgrössen objektbezogen, ausreichende Drainageschicht über der Abdichtung,
+  minimal kalkausscheidende Baustoffe (ggf. Trasszement), hohe Frost-Tausalz-Beständigkeit.
+- **Belastung:** Feuchtigkeit (Regen/Schnee/Eis-Frost-Tau-Wechsel/Tauwasser/Nebel — Entwässerung
+  und Trockenhaltung ist «das wichtigste Gebot»); Temperatur (Sommer bis 70 °C je nach Belagsfarbe,
+  Winter bis −20 °C, rasche Wechsel bei Gewitterregen).
+- **SIA 273 (separate Norm)** gilt für **befahrene Flächen im Hochbau** (Parkdecks, Garagen,
+  Rampen, Innenhöfe/Vorfahrten, Dachparking/Helikopterlandeplatz) mit eigener
+  Systemaufbau-Zuordnungstabelle je Flächentyp und Rampenneigung (Systeme Nr. 1/9/11/16 bei
+  Gefälle > 6 %) — eigenständig von SIA 271 (Balkone/Dächer/Wohnbereich), Grundkonzept muss bereits
+  im Projektstadium feststehen.
+
+**JANS-Praxiswert.** Ergänzt [[recht-norm-tiefgarage-erschliessung]] (dort Geometrie) um die
+**Abdichtungs-Norm SIA 273 für befahrene Flächen**, und liefert für jede Balkon-/Laubengang-Detail-
+planung (BKP 281.1 in Kombination mit Abdichtung BKP 224/226) die konkrete Fehlerquellen-Checkliste
+— besonders wertvoll für Bestandsbauten-/Sanierungsprojekte (Ankaufsprüfung), wo genau dieses
+Schadensbild (Durchfeuchtung, Risse, Ausblühungen) ein typischer Befund ist.

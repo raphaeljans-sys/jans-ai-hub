@@ -1,8 +1,8 @@
 ---
 title: PBG-Revision "Erleichtertes Bauen im Bestand" (§ 220a E-PBG, Kt. ZH)
 status: emerging
-last_updated: 2026-07-19
-sources: [vzgv.ch/sites/default/files/25 12 - xx - Erleichtertes Bauen im Bestand Unterlagen.pdf (Vorentwurf mit erlaeuterndem Bericht, Amt fuer Raumentwicklung Baudirektion ZH, Referenz BDARE-2025-0158, Stand 07.08.2025, inkl. Auszug RRB 827/2025 Sitzung 20.08.2025 + synoptische Darstellung Aenderung ABV; Vernehmlassungsschreiben Regierungspraesident Dr. Martin Neukom 25.09.2025), WebSearch espacesuisse.ch/demokratis.ch/zhk.ch/rzu.ch (Verfahrensstand, abgerufen 2026-07-19)]
+last_updated: 2026-07-24
+sources: [vzgv.ch/sites/default/files/25 12 - xx - Erleichtertes Bauen im Bestand Unterlagen.pdf (Vorentwurf mit erlaeuterndem Bericht, Amt fuer Raumentwicklung Baudirektion ZH, Referenz BDARE-2025-0158, Stand 07.08.2025, inkl. Auszug RRB 827/2025 Sitzung 20.08.2025 + synoptische Darstellung Aenderung ABV; Vernehmlassungsschreiben Regierungspraesident Dr. Martin Neukom 25.09.2025), WebSearch espacesuisse.ch/demokratis.ch/zhk.ch/rzu.ch (Verfahrensstand, abgerufen 2026-07-19), WebSearch rzu.ch/espacesuisse.ch/baublatt.ch/bauimmorecht.ch (Verfahrensstand-Refresh + Kopplung Neuerlass kantonale Stoerfallverordnung, abgerufen 2026-07-24, Run 58)]
 links: [[recht-norm-quellenlandkarte]], [[recht-norm-ivhb-baubegriffe]], [[recht-norm-dispensrecht]], [[machbarkeit]]
 ---
 
@@ -121,6 +121,7 @@ Rechtsetzungsvorhaben auf ihre Vereinbarkeit mit der Behindertenrechtskonvention
 | 25.09.2025 | Vernehmlassungsschreiben Regierungspraesident Dr. Martin Neukom |
 | 26.09.2025 – 16.01.2026 | **Vernehmlassung** (elektronisch via evernehmlassungen.zh.ch/de/pbg-erleichtertes-bauen) |
 | ab 19.07.2026 | **Offen** — WebSearch findet keine Kantonsratsvorlage/kein Schlussabstimmungsdatum; Vernehmlassungsauswertung + naechster Verfahrensschritt bei zh.ch/kantonsrat.zh.ch verfolgen |
+| 24.07.2026 (Run 58) | **Unveraendert bestaetigt** (WebSearch rzu.ch/espacesuisse.ch/baublatt.ch/bauimmorecht.ch): Vernehmlassung 16.01.2026 abgeschlossen, weiterhin keine Kantonsratsvorlage/kein Schlussabstimmungsdatum publiziert. Bestaetigt wird die **Bündelung mit dem Neuerlass der kantonalen Stoerfallverordnung** (bauimmorecht.ch «PBG-Revision: Bauen im Bestand und Neuerlass der kantonalen Stoerfallverordnung») — beide gingen im selben Vernehmlassungsbrief 25.09.2025, s. «Offen» unten. RZU begruesst die Vorlage grundsaetzlich (Positionsbezug). |
 
 Regulierungsfolgeabschaetzung wurde als **nicht notwendig** eingestuft (Vorlage baut Hemmnisse
 ab, entlastet betroffene Unternehmen).

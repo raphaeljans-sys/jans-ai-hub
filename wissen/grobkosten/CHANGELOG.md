@@ -1,5 +1,20 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-24 — Strukturelle Findings nachgezogen (Mac Mini Nachtschicht, 3 Wochen fällig)
+- [struktur] Die drei seit 01.07.2026 offenen und im Health-Check 21.07.2026 dreifach
+  bestätigten strukturellen Findings behoben: `wiki/QUESTIONS.md` neu angelegt (Fragen aus dem
+  bisherigen INDEX-Block übernommen + HNF/GF-Provenienz-Lücke ergänzt), `raw/_INGESTED.md` neu
+  angelegt (raw/ weiterhin nur README, ehrlich als Seed-Basis vermerkt), Frontmatter
+  (`title/status/last_updated/sources/links`) in `wiki/kennwerte.md` ergänzt (status `emerging`,
+  da an belegte Wüest-Benchmarks angekoppelt aber ohne eigene Realabrechnung).
+- [umlaute] `wiki/kennwerte.md` durchgängig auf echte Umlaute ä/ö/ü umgestellt (Rule
+  `umlaute-konvention.md` hat Vorrang) — rund 30 Fundstellen; Dateinamen/Backtick-Pfade
+  (z.B. `fernwaerme-anschlusskosten-zh`, `kostenschaetzung`) bewusst unverändert gelassen
+  (ASCII-Dateinamen-Konvention). `wiki/INDEX.md` redundanten Fragen-Block entfernt, verweist
+  jetzt auf `QUESTIONS.md`.
+- Kein inhaltlicher Eingriff in die Kennwerte/Tabellen selbst — reine Struktur-/Schreibregel-
+  Nacharbeit gemäss Empfehlung aus `outputs/2026-07-21_health-check.md`.
+
 ## 2026-07-21 — Wissens-Health-Check Phase 1 (Mac Mini Nachtschicht)
 - [health-check] A0·B2·C1offen/3neu-verifiziert·D0·E0·F3·G0 — inhaltlich weiterhin sauber
   (neue Cross-KB-Bezuege aus den Wissens-Chef-Runs 12./14.07. widerspruchsfrei, Quellen

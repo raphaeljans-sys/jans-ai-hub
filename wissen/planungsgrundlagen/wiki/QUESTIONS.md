@@ -227,6 +227,21 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   → [[kartenportale-geoportale-uebersicht]] (Offen A5).
 
 ## B — Recht & Norm
+- [x] **R58-R59 (Run 58, 2026-07-24, Token-Vollgas)** Zwei bisher nie erschlossene
+  `04_Merkblätter/`-Unterordner ausgewertet. **R58 — Fugenlose Bodenbeläge/Estriche
+  (PAVIDENSA):** Checkliste PAV-E 16:2012 (5-Phasen-Planungs-/Ausführungsablauf mit Quer-
+  verweisen auf 12 weitere PAV-Einzelnormen) + PAV-E 01:2008 Heizestrich-Spezialregeln
+  (Fugenplan-Pflicht des Bestellers nach SIA 251:2008 Art. 2.4.9, Feldgrössen CT 6m/CA+CAF 8m,
+  drei Verlegearten der Heizregister, Belastungsprobe-Temperaturregime, Calciumsulfat-Estrich
+  max. 50°C Vorlauftemperatur) → NEU §5 [[recht-norm-arbeitshilfen-planungsdetails]], direkt
+  LV-relevant BKP 281.1. 7 weitere PAVIDENSA-Dokumente im selben Ordner als Backlog. **R59 —
+  Balkone/Laubengänge-Abdichtung SIA 271/273 (LPM AG/Richard Graf, KBS-Fachtagung 2010):**
+  realer Schadenskatalog (Durchfeuchtung/Ausblühungen/Risse bis 4mm/fehlende Pfeiler-Anschluss-
+  Fugen) + normative Anforderungen (Schichtaufbau, Untergrund-Tabelle, Mindestgefälle 1,5% OHNE
+  Unterschreitungsmöglichkeit bei Balkonen/Terrassen/Dächern ohne Schutzschicht, Fugenbreite
+  min. 20mm) + SIA 273 als eigene Norm für befahrene Flächen (Parkdecks/Rampen/Innenhöfe) → NEU
+  §6 [[recht-norm-arbeitshilfen-planungsdetails]], ergänzt [[recht-norm-tiefgarage-erschliessung]].
+  Details siehe `training/curriculum.md` R58/R59.
 - [x] **R52-R56 (Run 53, 2026-07-19, Token-Vollgas — OneDrive-Blocker-Ausweich-Lauf)** Der
   planmaessige `raw/`-Lauf (PL-02/PL-04-Dateien lesen) war blockiert: **systemischer
   EDEADLK/"Resource deadlock avoided"-Fehler** traf heute nicht nur die seit Run 52 bekannten
@@ -502,6 +517,24 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   AWEL/Minergie/GVZ/2000-Watt/Lignum/SWKI…) → [[recht-norm-quellenlandkarte]]. Vertiefung je Bedarf.
 
 ## C — Brandschutz
+- [x] **C37 (B45) (Run 58, 2026-07-24, Token-Vollgas)** Zwei bisher nie erschlossene Top-Level-
+  Dateien unter `00 Brandschutzplaene bsvonline.ch/` (ausserhalb des bereits kartierten
+  Musterplansatz-Unterordners) identifiziert und gelesen. **BSPUB-251.pdf = VKF-Publikation
+  «Allgemein anerkannte Bauprodukte» V12.0** (TKB-Beschluss 31.03.2017) — genuiner Neufund:
+  RF1/RF2/RF3-Einstufungstabellen fuer Standard-Baustoffe (inkl. Laubholz-Delta Eiche/Robinie/
+  Teak=RF2 vs. uebrige Laubhoelzer=RF3) und Mindestmass-Tabellen (SIA-262/266-Kurzfassung) fuer
+  Beton-/Mauerwerks-/Verputz-/Brandschutzplatten-Bauteile je Feuerwiderstandsdauer, verwendbar
+  **ohne** Einzel-Pruefnachweis → NEU §5aq [[brandschutz-pl03-wegweiser]]. **BSPUB-185.pdf**
+  bestaetigter Nicht-Fund (identisch mit der bereits dokumentierten Arbeitshilfe 1001-15de
+  Wohnbauten). Zusaetzlich vier Delta-Checks von Dateien, die ein frueherer Lauf bereits pauschal
+  als «niedrige Prioritaet» dismissiert hatte (§1-Registerzeile) — jetzt mit Ziffern-Beleg
+  bestaetigt statt pauschal: Anerkennungsverfahren 28-15de (VKF-Produkt-/Fachfirmen-Zulassung,
+  verwaltungsprozessual), Brandschutz-Praevention.pdf (Duplikat des Merkblatts
+  Brandschutz-Klassifikation), gege-panikprogramm-1.pdf (Herstellerkatalog GEGE/Kaba, keine
+  normative Substanz), Merkblatt_012_d.pdf (VST Nr. 012 «Tueren in Fluchtwegen» — inhaltlich
+  weitgehend deckungsgleich mit dem bereits dokumentierten SMU/VST-Merkblatt 004 in
+  [[recht-norm-arbeitshilfen-planungsdetails]] §4, kein neuer Fakt, Delta-Check-Vermerk dort
+  ergaenzt). Details siehe `training/curriculum.md` B45.
 - [x] **C36 (B42/B43) — GESCHLOSSEN Run 54, 2026-07-20** (OneDrive wieder lesbar; B42 vollstaendig ausgewertet → [[brandschutz-pl03-wegweiser]] §5ao, B43 als reine kaufmaennische Belege ohne Fachinhalt verifiziert → §5ap). Urspruenglich (Run 52, 2026-07-18): Zwei technisch blockierte Kandidaten aus dem BSPUB-Register-Scan: Feuerwehrplan-Zusatzvariante `Stoerfall ABC-Objekt/` (8 PDF, §5b-Unterordner, nie inhaltlich gelesen) und `z_Administration/000_VKF_Lieferschein_Norm_2015.pdf`+`000_VKF_Bestellung_Norm_2015.pdf` — alle fuenf Leseversuche scheiterten an EDEADLK ("Resource deadlock avoided"), auch nach Hintergrund-Priming mit 20 s Wartezeit. Gleiches Muster wie Run 50 K41-K44 (dort loeste es sich nach ca. 2 Tagen von selbst). Fuer den naechsten Brandschutz-Lauf: erneuter Leseversuch, dann inhaltlich abschliessen.
 - [x] **C35 (B40) (Run 52, 2026-07-18, Token-Vollgas)** Systematischer BSPUB-Nummern-Scan im Ordner `02 Brandschutzrichtlinien 2015-17-22/` deckt eine dritte, bisher unkatalogisierte Fassung der BSR 16-15 «Flucht- und Rettungswege» auf (`BSPUB-1394520214-85.pdf`, Stand 01.12.2022). Volltext-Diff gegen die bereits dokumentierten 2015/2017-Fassungen: Fehlerkorrektur Ziff. 3.7 (Dez. 2022) aendert nur die Bezugsflaeche der Schleusenpflicht von "Geschossflaeche" auf "Brandabschnittsflaeche > 1'200 m²" — der KB-Kennwert war bereits korrekt (Quelle war die praezisere Wohnbauten-Arbeitshilfe), kein Korrekturbedarf. Genuiner Delta: Ziff. 3.5.2 Personenbelegungsdichte-Tabelle Verkauf (TKB-Beschluss 09.06.2021) — neue 3x2-Matrix nach Betriebstyp (Fachmaerkte/Kaufhaeuser 0.10, Supermaerkte 0.38/0.15, hochfrequentierte Supermaerkte 0.45/0.21 Pers./m²) ersetzt die alte 3-stufige Pauschaltabelle, JANS-relevant fuer Erdgeschoss-Retail in Wohn-/Mischnutzungsbauten. → NEU §5am [[brandschutz-pl03-wegweiser]]. Flag fuer normen-training: Destillat `vkf-brl-16-15-flucht-rettungswege.md` noch ohne 2021er-Tabelle. Details siehe `training/curriculum.md` B40.
 - [x] **C34 (B41/B44) (Run 52, 2026-07-18, Token-Vollgas)** Register-Vervollstaendigung: zwei weitere bisher nicht katalogisierte BSPUB-Nummern gefunden (-57 = Zweitkopie 1-15 Brandschutznorm, bestaetigter Nicht-Fund; -71 = 13-15 Baustoffe/Bauteile Rev. 01.01.2017, Volltext-Diff ergibt nur redaktionelle Aenderungen: Rohrisolationen→Rohrdaemmungen, Bauteil 208 Bedachung→Dachkonstruktionen umbenannt, keine Kernzahl-Aenderung) → NEU §5an [[brandschutz-pl03-wegweiser]]. Zusaetzlich BSV-2026-Refresh (WebSearch+WebFetch bsvonline.ch/vkg.ch) — Stand unveraendert bestaetigt, politische Vernehmlassung weiterhin 08-11/2026, keine neue Medienmitteilung seit 06.01.2026. Ausserdem bestaetigt identisch: `1001-15_Wohnbauten Auszug Brandschutz_Arbeitshilfe_Wohnbauten.pdf` = byte-identische Mehrfachablage der bereits fuer Regensdorf/Thalwil genutzten Datei. Details siehe `training/curriculum.md` B41/B44.

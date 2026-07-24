@@ -9,6 +9,19 @@ und Historie) liegen in `rules/auto-verbesserungen-archiv.md` (nicht importiert)
 steht nur der aktive, imperative Kern. Konsolidiert am 19.07.2026 (Kontext-Diaet,
 Konzept: `docs/konzepte/260719-Kontext-Diaet-Token-Reduktion/`).
 
+## 260724 — Trainings-/Lern-Loops: VOR Beginn auf laufende Zweitinstanz pruefen (Kollisionsschutz)
+- **Regel:** Bevor ein Lern-/Trainings-Loop (planungsgrundlagen, normen, energie, baurecht, twin,
+  …) eine Run-Nummer belegt und geteilte Dateien (Wiki, curriculum, QUESTIONS, CHANGELOG) editiert,
+  prueft er per `ps` (bzw. Lockfile), ob **auf demselben Host** bereits eine zweite Instanz desselben
+  Loops laeuft (typisch: der scheduled Task UND ein paralleler `claude -p`-Dispatch-Run feuern
+  gleichzeitig). Laeuft eine Zweitinstanz: **zuruecktreten** — keine Register-Edits, kein
+  `git commit`/`push` (index.lock-/Merge-Race), stattdessen die eigenen Funde in einem
+  **eindeutig benannten** `outputs/`-Report sichern und den native nas-selfcommit die additiven
+  Wiki-Edits kollisionsfrei uebernehmen lassen. Ausloeser: 24.07.2026 kollidierten zwei identische
+  planungsgrundlagen-Run-58-Instanzen host-intern (beide dieselbe Domaenen-Rotation, beide schrieben
+  QUESTIONS/INDEX). Host-interne Variante der Stations-Kollision aus Rule 260720.
+- **Gilt fuer:** alle Lern-/Trainings-Loops auf beiden Stationen, ab 24.07.2026.
+
 ## 260721 — Bundesrecht-Volltexte: Fedlex ueber die Filestore-URL lesen (nicht das JS-Portal)
 - **Regel:** Das Fedlex-Portal (fedlex.admin.ch/eli/...) liefert ohne JavaScript keinen
   Text. Amtliche Volltexte des Bundesrechts IMMER ueber das Filestore-Muster beziehen:

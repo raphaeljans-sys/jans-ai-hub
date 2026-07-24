@@ -1,8 +1,8 @@
 ---
 title: Recht & Norm — Quellenlandkarte (PL-02)
 status: established
-last_updated: 2026-07-19
-sources: [PL - 02_Recht_Norm (SharePoint), fedlex.admin.ch, zh.ch (RPG 2 / Klima-PBG / Denkmalschutz-Medienmitteilung 02.07.2026), kantonsrat.zh.ch, espace-suisse.ch, are.admin.ch, sz.ch (PBG 400.100 Stand 1.2.2025 / PBV 400.111 Stand 1.2.2026 / Vollzugsverordnungs-Vorlage), bauen-im-laerm.ch, stadt-zuerich.ch (§ 49b PBG + UmV-Volksabstimmung 14.06.2026), admin.ch/bauimmorecht.ch (LSV-Novelle 01.04.2026), vzgv.ch (Vorentwurf + erlaeuternder Bericht PBG "Erleichtertes Bauen im Bestand" 07.08.2025, abgerufen 2026-07-19)]
+last_updated: 2026-07-24
+sources: [PL - 02_Recht_Norm (SharePoint), fedlex.admin.ch, zh.ch (RPG 2 / Klima-PBG / Denkmalschutz-Medienmitteilung 02.07.2026 / kantonaler Richtplan «Laufende Verfahren» TR2022 Vorlagen 6012/6013/6013a, abgerufen 2026-07-24), kantonsrat.zh.ch, espace-suisse.ch, are.admin.ch, sz.ch (PBG 400.100 Stand 1.2.2025 / PBV 400.111 Stand 1.2.2026 / Vollzugsverordnungs-Vorlage), bauen-im-laerm.ch, stadt-zuerich.ch (§ 49b PBG + UmV-Volksabstimmung 14.06.2026), admin.ch/bauimmorecht.ch (LSV-Novelle 01.04.2026), vzgv.ch (Vorentwurf + erlaeuternder Bericht PBG "Erleichtertes Bauen im Bestand" 07.08.2025, abgerufen 2026-07-19)]
 links: [[kartenportale-oereb-egrid-bezug]], [[recht-norm-dispensrecht]], [[recht-norm-abstandsvorschriften-wald-gewaesser]], [[recht-norm-baurechtsanalysen-benchmarks]], [[recht-norm-raumprogramm-referenzwerke]], [[recht-norm-pbg-revision-bauen-im-bestand]], [[machbarkeit]]
 ---
 
@@ -148,6 +148,18 @@ Wuerdigung bleibt der Skill `baurecht`; hier der belegte Datenstand fuer Planung
   Schlussabstimmungs-Datum — bleibt die naechste Praezedenz-Vorlage, an der sich das Verfahrenstempo
   einer PBG-Aenderung ablesen laesst. Naechster Check bei konkretem Projektbedarf oder Kantonsrats-
   Traktandierung.
+- **Refresh 2026-07-24 (Run 58, WebSearch + WebFetch zh.ch «Laufende Verfahren kantonaler
+  Richtplan»):** **PBG**-Umsetzung weiterhin **ohne** publiziertes Fertigstellungsdatum (unveraendert
+  seit Run 37). NEU praezisiert wird dagegen der **kantonale Richtplan** (eigener Verfahrensstrang,
+  nicht mit der PBG-Aenderung verwechseln): die **Teilrevision 2022 (TR2022)** wurde vom
+  Regierungsrat am **12.03.2025 in zwei Vorlagen** an den Kantonsrat ueberwiesen und ist dort **in
+  Beratung** (noch **nicht** festgesetzt) — **Vorlage 6012** (Kapitel Siedlung/Landschaft/
+  Oeffentliche Bauten und Anlagen) und **Vorlage 6013** (Kapitel Verkehr); zum Verkehrskapitel hat die
+  **KEVU am 03.03.2026 eine abweichende Kommissionsvorlage 6013a** an den Kantonsrat ueberwiesen. Der
+  Bundesrat genehmigt den festgesetzten Richtplan anschliessend nach Art. 11 Abs. 1 RPG. Damit ist der
+  Richtplan-Strang datierbar (RR-Ueberweisung 12.03.2025, KEVU 03.03.2026), die PBG-RPG-2-Anpassung
+  aber weiterhin nicht. Quelle: zh.ch/de/planen-bauen/raumplanung/richtplaene/kantonaler-richtplan/
+  laufende-verfahren.html + Erlaeuterungsbericht Vorlage 6013 (regierungsratsbeschluss-unterlagen 2025/263).
 - **Direkt seit 01.01.2026 (belegt zh.ch, Run 11):** u.a. Vorrang Landwirtschaft + **Bestandes-/
   Besitzstandsschutz fuer ueber 30 Jahre bestehende Gebaeude** ausserhalb Bauzone gilt unmittelbar.
 - **ZH-Stabilisierungswert (absolute Zahlen, belegt zh.ch 2026-06-28):** der 2-%-Schwellenwert
@@ -198,6 +210,10 @@ Heimatschutz kontra Klimaschutz» — die Klimaschutz-Koppelung bestätigt die b
 Verknüpfung zur Energie-Domäne. Verfahrensstand seit 02.07.2026 unverändert (WebSearch 19.07.2026:
 keine Kantonsratsvorlage/Schlussabstimmung auffindbar) — weiterhin bei zh.ch/kantonsrat.zh.ch
 verfolgen, bevor auf das vereinfachte Verfahren abgestellt wird.
+**Refresh 2026-07-24 (Run 58, WebSearch):** Stand weiterhin **unverändert** — die Vorlage ist beim
+Kantonsrat **in Beratung** (zh.ch-Medienmitteilung 02.07.2026 «Bauliche Weiterentwicklung von
+Baudenkmälern soll einfacher werden»; Heimatschutz-Organisationen warnen medial vor einer
+Schwächung, keine Schlussabstimmung terminiert). Kein neuer Verfahrensschritt seit Run 53.
 
 **Kernpunkte der Vorlage (Medienmitteilung 02.07.2026):**
 - **Vereinfachtes Verfahren:** kleinere Änderungen an Baudenkmälern werden künftig direkt im

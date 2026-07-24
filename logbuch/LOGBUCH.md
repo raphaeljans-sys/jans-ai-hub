@@ -5,6 +5,42 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-24
+
+**Nachtschicht Mac Mini (~01:30, KB-Wartung grobkosten, Dispatch-Run 20260724-013006).**
+Vierter Prioritaeten-Sweep im Nachtfenster fand bei den ueblichen Prioritaeten (Queues,
+Synobsis, Training) erneut nichts Neues — aber ein Cross-KB-CHANGELOG-Alterscheck zeigte
+`wissen/grobkosten` als seit 21.07. unbearbeitet und mit drei seit 3 Wochen (Health-Check
+01.07./21.07.) bekannten, aber nie nachgezogenen strukturellen Findings. Rein additive
+Wartung ohne inhaltlichen Eingriff nachgeholt: `wiki/QUESTIONS.md` und `raw/_INGESTED.md`
+neu angelegt, Frontmatter in `wiki/kennwerte.md` ergaenzt, rund 30 Umlaut-Umschriften
+(ae/oe/ue) im Fliesstext auf echte Umlaute korrigiert (Rule `umlaute-konvention.md`),
+`INDEX.md` bereinigt. Kennwerte/Tabellen selbst unveraendert. CHANGELOG-Eintrag in
+`wissen/grobkosten/CHANGELOG.md`. Git-Push scheiterte am bekannten verwaisten `index.lock`
+aus dem parallelen 00:30-Lauf (Sandbox blockiert manuelles Entfernen); Aenderungen liegen
+sicher auf dem NAS, `nas-selfcommit.sh` uebernimmt Commit+Push automatisch (Lock-Selbstheilung
+> 1 Std). Budget ~2.4 von 5 USD.
+
+**Nachtschicht Mac Mini (~00:30, Prioritaeten-Sweep ohne neuen Treffer, Dispatch-Run
+20260724-003005).** Dritter Sweep in Folge im selben Nachtfenster (nach 22:30 und 23:35 am
+23.07.) mit identischem Befund: Queues (`remote-tasks/pending`, `sync-tasks/mac-mini`) leer;
+Synobsis weiterhin gesaettigt (Kuratierung 853/853 seit 03.07., Batch-Rebuild 11x leer in
+Folge, Pausierungsempfehlung an Raphael steht bereits); alle vier Mac-Mini-Trainingsdomaenen
+gesaettigt — `planungsgrundlagen` laeuft zeitgleich im parallelen 25-USD-Intensivlauf
+(Dispatch-Run 20260724-003004), `energie` durch Wissens-Chef Run 13 vor unter einer Stunde
+bearbeitet, Normen DIN/VSS/RAL dreifach als „Inventar komplett" bestaetigt (260716) ohne neue
+Dateien seit dem letzten Scan; `normen`-Wissenscheck (aeltestes Audit-Datum, 20.07.) bereits im
+22:30-Lauf als zu gross geflaggt, keine neue Information seither. Cross-Check `wissen/koordination/
+CHANGELOG.md`: praktisch alle KBs (immobilienbewertung, spec, baurecht, twin, grobkosten,
+kunde-bopp, auflagebereinigung, entwurfs-referenzen, firmengruendung-ch) wurden innert der
+letzten 1-3 Tage durch den Cross-KB-Wissens-Chef-Lauf health-gecheckt — kein frisches Audit-Ziel.
+Versuch, das heute faellige Fristen-Item „KISPI LOS274.01 Jegen" per Apple-Mail-osascript
+gegenzupruefen, ist nach 2 Minuten in einen bekannten Hang (`feedback_background_agent_onedrive_stall`-
+Muster) gelaufen und wurde abgebrochen, statt das Budget in einem unsicheren Retry zu verbrennen;
+das Fristen-Register selbst hat den Punkt bereits korrekt erfasst (Gegenpartei bis 11.08. OOO).
+Keine Aktion erfunden — Zyklus bewusst ohne neues Deliverable beendet. Verbrauch: ~2.0 USD von
+5 USD Budget.
+
 ## 2026-07-23
 
 **Nachtschicht Mac Mini (~23:35, Wiki-Artikel-Kompilierung, Dispatch-Run 20260723-233001).**

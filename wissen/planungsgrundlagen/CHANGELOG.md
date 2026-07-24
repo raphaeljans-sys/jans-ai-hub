@@ -2,6 +2,31 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-24 — Training Run 58 (Recht & Norm + Brandschutz, Token-Vollgas)
+- **Registrierungsluecke B42/B43 geschlossen** (kein neuer Fakt): `training/curriculum.md` fuehrte
+  beide Punkte weiterhin als Run-52-Blocker, obwohl Run 54 sie bereits vollstaendig geloest hatte
+  (§5ao/§5ap in [[brandschutz-pl03-wegweiser]]) — Re-Lektuere bestaetigt beide Abschnitte 1:1,
+  reine Konsistenzpflege (analog Run 57).
+- **NEU §5aq [[brandschutz-pl03-wegweiser]]:** VKF-Publikation «Allgemein anerkannte Bauprodukte»
+  V12.0 (TKB-Beschluss 31.03.2017, `BSPUB-1394520214-251.pdf`, bisher nie katalogisiert) —
+  RF1/RF2/RF3-Einstufungstabellen fuer Standard-Baustoffe (Laubholz-Delta: Eiche/Robinie/Teak/Wenge
+  RF2, uebrige Laubhoelzer RF3) + Mindestmass-Tabellen (SIA 262/266) fuer Beton-/Mauerwerks-/
+  Verputz-/Brandschutzplatten-Bauteile je Feuerwiderstandsdauer 30-240 Min., verwendbar ohne
+  Einzel-Pruefnachweis. Vier Delta-Checks bestaetigt praezisieren fruehere Pauschal-Einordnungen
+  (Anerkennungsverfahren 28-15de/Brandschutz-Praevention-Duplikat/gege-Herstellerkatalog/
+  Merkblatt_012_d-Deckungsgleichheit mit VST-Merkblatt 004), BSPUB-185.pdf als drittes Duplikat der
+  Arbeitshilfe 1001-15de Wohnbauten bestaetigt.
+- **NEU §5+§6 [[recht-norm-arbeitshilfen-planungsdetails]]:** **Fugenlose Bodenbeläge/Estriche**
+  (PAVIDENSA — Fugenplan-Pflicht des Bestellers SIA 251:2008 Art. 2.4.9, Feldgroessen CT 6m/CA 8m,
+  Heizestrich-Belastungsprobe max. 50°C Calciumsulfat, direkt LV-relevant BKP 281.1) und
+  **Balkone/Laubengaenge-Abdichtung SIA 271/273** (LPM AG/Richard Graf Fachtagung 2010 — realer
+  Schadenskatalog + normative Anforderungen, Mindestgefaelle 1,5% ohne Unterschreitungsmoeglichkeit
+  bei Balkonen/Terrassen, SIA 273 fuer befahrene Flaechen, ergaenzt
+  [[recht-norm-tiefgarage-erschliessung]]).
+- Register nachgefuehrt: `training/curriculum.md` (B42/B43-Fix, B45/R58/R59 neu), `wiki/QUESTIONS.md`
+  (C37, R58-R59), `raw/_INGESTED.md` (6 Zeilen), `wiki/INDEX.md` (2 Eintraege). Bericht:
+  `outputs/2026-07-24_training-run58.md`.
+
 ## 2026-07-23 — Wissens-Chef Run 13 (Cross-KB): Erdwaerme-Rueckverweis zur KB energie gesetzt
 - [ergaenzt] `wiki/kartenportale-naturgefahren-objektschutz.md` §6c (Erdwaermenutzung): Querbezug KB energie
   gesetzt — Bewilligungsverfahren, Kosten und Systemwahl (Flaechenkollektor/Erdwaermekorb/Energiepfahl vs. Sonde),

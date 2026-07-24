@@ -1,21 +1,29 @@
+---
+title: Grobkosten-Kennwerte (CHF/m³ GV, BKP 1–5)
+status: emerging
+last_updated: 2026-07-24
+sources: [skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md, wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro]
+links: []
+---
+
 # Grobkosten-Kennwerte (CHF/m³ GV, BKP 1–5)
 
-Quelle der Wahrheit fuer den Skill `grobkosten-onepager` und den Agenten `grobkosten-rechner`.
-Bezug: **Gebaeudevolumen GV nach SIA 416** (inkl. Untergeschoss), **BKP 1–5** (Gebaeude, Umgebung,
+Quelle der Wahrheit für den Skill `grobkosten-onepager` und den Agenten `grobkosten-rechner`.
+Bezug: **Gebäudevolumen GV nach SIA 416** (inkl. Untergeschoss), **BKP 1–5** (Gebäude, Umgebung,
 Baunebenkosten inkl. Planerhonorare), **exkl. Land (BKP 0) und Reserven/Finanzierung (BKP 6–9)**.
-Region Zuerich / Zentralschweiz. Preisstand 2026. Immer als Grobschaetzung ±25 % verwenden.
+Region Zürich / Zentralschweiz. Preisstand 2026. Immer als Grobschätzung ±25 % verwenden.
 
-> Status der Werte: **Seed, Wüest-kalibriert (070626)** — an die belegten Wüest-Kostenbenchmarks
+> Status der Werte: **Seed, Wüest-kalibriert (07.06.2026)** — an die belegten Wüest-Kostenbenchmarks
 > (m²) angekoppelt, aber noch NICHT mit realen JANS-Schlussabrechnungen (m³) verifiziert. Reife
-> steigt mit jedem zurueckgespeisten Realwert (siehe Compounding unten).
+> steigt mit jedem zurückgespeisten Realwert (siehe Compounding unten).
 >
-> **Ankopplung an die m²-Benchmarks (belegt):** Wüest 2022 / Stand 2023 ergibt fuer Wohnen MFH
+> **Ankopplung an die m²-Benchmarks (belegt):** Wüest 2022 / Stand 2023 ergibt für Wohnen MFH
 > Neubau rund **CHF 4'800/m² HNF** (BKP 1–5, inkl. Teuerung). Mit GV/HNF ≈ 4.7 (HNF ≈ 0.70 × GF,
-> GV ≈ 3.3 × GF) entspricht das **≈ CHF 1'020/m³ GV** — das bestaetigt den hier gefuehrten Band
+> GV ≈ 3.3 × GF) entspricht das **≈ CHF 1'020/m³ GV** — das bestätigt den hier geführten Band
 > 850–1'050 (gehoben). Quelle: `skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md`.
 >
 > **Querbezug KB immobilienbewertung:** Der Realwert-Artikel `wissen/immobilienbewertung/wiki/realwert-sachwert`
-> fuehrt eine **andere** Wüest-Kennwerttabelle (aus «Immobilien entwickeln», S. 37, qualitaets-/
+> führt eine **andere** Wüest-Kennwerttabelle (aus «Immobilien entwickeln», S. 37, qualitäts-/
 > lagegestuft, z.B. Wohnen normale Lage 5'300 / gehoben 7'000 CHF/m² HNF) sowie reale JANS-m³-GV-
 > Werte (Ebmatingen ~855 CHF/m³ GV). Das ist **kein Widerspruch**: verschiedene Wüest-Produkte mit
 > verschiedener Bezugsbasis (Dimensions-Median vs. Ausbaustandard-Tabelle). Beim Vergleich Basis beachten.
@@ -44,53 +52,53 @@ Region Zuerich / Zentralschweiz. Preisstand 2026. Immer als Grobschaetzung ±25 
 | EFH (Einfamilienhaus) | mittel–gehoben | 1'000 | 850–1'200 | Seed |
 | Reihen-/Doppeleinfamilienhaus | mittel | 900 | 800–1'050 | Seed |
 
-## Zuschlaege (multiplikativ)
+## Zuschläge (multiplikativ)
 
 | Treiber | Zuschlag | Hinweis |
 |---|---|---|
-| Hanglage (Gefaelle > 20 %) | + 5–15 % | Aushub, Hangsicherung, Baulogistik |
-| Anspruchsvoller Baugrund / Altlasten | + 5–20 % | objektabhaengig, separat abklaeren |
+| Hanglage (Gefälle > 20 %) | + 5–15 % | Aushub, Hangsicherung, Baulogistik |
+| Anspruchsvoller Baugrund / Altlasten | + 5–20 % | objektabhängig, separat abklären |
 | Hoher Ausbaustandard / Nachhaltigkeit (Minergie-P, Holz) | + 5–15 % | je nach Zielbild |
 | Kleines Volumen (< 1'000 m³) | + 5–10 % | Fixkostendegression fehlt |
 
 ## Healthcare / Spezialnutzung
 
-Fuer Spital, Klinik, Alters-/Pflegeheim, Reha, Praxis NICHT diese m³-Werte verwenden —
-stattdessen die belegten **m²-NF-Kennwerte (Wuest Partner)** aus dem Skill `kostenschaetzung`
+Für Spital, Klinik, Alters-/Pflegeheim, Reha, Praxis NICHT diese m³-Werte verwenden —
+stattdessen die belegten **m²-NF-Kennwerte (Wüest Partner)** aus dem Skill `kostenschaetzung`
 (`referenzen/20260302-Kostenkennwerte-Healthcare-Neubau-Umbauten.pdf`).
 
 ## Umbau / Sanierung
 
-Grobe Faustregel ueber Reduktionsfaktoren des Neubau-m³-Werts (Eingriffstiefe). Fuer belastbare
-Umbau-Schaetzungen den Skill `kostenschaetzung` (Reduktionsfaktoren) heranziehen.
+Grobe Faustregel über Reduktionsfaktoren des Neubau-m³-Werts (Eingriffstiefe). Für belastbare
+Umbau-Schätzungen den Skill `kostenschaetzung` (Reduktionsfaktoren) heranziehen.
 
-## Umrechnung Baumasse → Gebaeudevolumen
+## Umrechnung Baumasse → Gebäudevolumen
 
-Die baurechtliche **Baumasse** (BMZ) zaehlt meist nur oberirdisch; das **GV SIA 416** schliesst das
-Untergeschoss ein und ist groesser. Faustregel bei Wohnbau mit 1 UG: GV ≈ Baumasse × 1.25–1.45
+Die baurechtliche **Baumasse** (BMZ) zählt meist nur oberirdisch; das **GV SIA 416** schliesst das
+Untergeschoss ein und ist grösser. Faustregel bei Wohnbau mit 1 UG: GV ≈ Baumasse × 1.25–1.45
 (je nach UG-Anteil/Hang). Im Zweifel GV direkt aus der Kubatur des Vorprojekts nehmen.
 
 ## Compounding — wie diese Werte besser werden
 
-1. Realwert faellt an (Schlussabrechnung via `kostenkontrolle`, gepruefte Unternehmer-Offerte,
+1. Realwert fällt an (Schlussabrechnung via `kostenkontrolle`, geprüfte Unternehmer-Offerte,
    Benchmark) → als Rohdatei in `wissen/grobkosten/raw/` ablegen (Projekt, Nutzung, Standard,
    GV, Kosten BKP, Quelle, Datum).
 2. KI-Bibliothekar (Rule `wissens-bibliothekar`) verdichtet die Rohwerte je
    Nutzung/Standard/Region zu Median + Band, aktualisiert die Tabelle, hebt die **Reife** von
    "Seed" auf "belegt (n=…)" und protokolliert im `CHANGELOG.md`.
-3. Veraltete Werte (Preisstand) werden beim `wissenscheck` markiert und nachgefuehrt.
+3. Veraltete Werte (Preisstand) werden beim `wissenscheck` markiert und nachgeführt.
 
 ## Querbezug KB energie (Haustechnik-Detailkosten)
 
-Waermeerzeuger-, PV- und Fernwaerme-**Komponentenkosten** (CHF/kWp, Anschlusskosten, Rp/kWh) werden
-in der KB `wissen/energie` gefuehrt (`destillate/pv-marktzahlen-kosten-ch-2025`,
+Wärmeerzeuger-, PV- und Fernwärme-**Komponentenkosten** (CHF/kWp, Anschlusskosten, Rp/kWh) werden
+in der KB `wissen/energie` geführt (`destillate/pv-marktzahlen-kosten-ch-2025`,
 `destillate/fernwaerme-anschlusskosten-zh`, `destillate/netzanschluss-netzverstaerkung-pv-emobilitaet-ch`).
-Diese stecken als BKP-2-Unterpositionen (BKP 23/24/25) **bereits in den hier gefuehrten CHF/m3-GV-Kennwerten
-(BKP 1-5)** — nicht additiv daraufrechnen (Doppelzaehlungs-Gefahr). Fuehrend fuer die m3-GV-Erstellungs-
+Diese stecken als BKP-2-Unterpositionen (BKP 23/24/25) **bereits in den hier geführten CHF/m3-GV-Kennwerten
+(BKP 1-5)** — nicht additiv daraufrechnen (Doppelzählungs-Gefahr). Führend für die m3-GV-Erstellungs-
 kennwerte bleibt diese KB; energie liefert nur die Detail-/Betriebskosten (Wissens-Chef Run 4, 14.07.2026).
 
 ## Quellen / Provenienz
 
-- Seed 070626: Marktannahme MFH/EFH Neubau Region ZH (Erfahrungswerte JANS), kalibriert an der
+- Seed 07.06.2026: Marktannahme MFH/EFH Neubau Region ZH (Erfahrungswerte JANS), kalibriert an der
   Studie 2621 Giebelweg 12. Noch ohne Realabrechnung.
-- Ziel: schrittweise Abloesung durch reale JANS-Daten (raw/) und publizierte Benchmarks.
+- Ziel: schrittweise Ablösung durch reale JANS-Daten (raw/) und publizierte Benchmarks.
