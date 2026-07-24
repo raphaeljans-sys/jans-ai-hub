@@ -1,5 +1,26 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-07-24 (Nachtschicht-Zyklus Mac Mini ~04:30 — erster Wiki-Artikel kompiliert)
+- [wiki] **`wiki/typologien/bildung.md` neu** — erster echter Wiki-Artikel dieser KB
+  (bisher reine Parameter-Set-Sammlung). Kompiliert den seit 21./23.07. offenen
+  Promotion-Kandidaten: HNF/GF-Referenzband 0.52–0.54, 900-m²-Geschossflaechen-Schwelle
+  als harte Entwurfsregel, Programm-Mengengerueest (Klassenzimmer 64–75 m², Cluster-
+  Koernung 3–4, Regelklasse 19–21 Schueler), Materialien/Ausdruck, Kostendach-
+  Groessenordnung (1.6–1.8 Mio. CHF je Klassenzimmer Regelschule, rund 2.5 Mio.
+  Sonderschule) und 6 Referenzprojekte. Reine Kompilation aus bereits
+  refuter-verifizierten Quellen (`parameter-sets/schule-volksschule-ch.json` v1.0 +
+  `wettbewerbs-dna/wiki/muster/kennwerte-schulbauten.md`, established) — keine neue
+  Recherche, keine neuen Kennzahlen erfunden. Zwei offene Punkte bewusst NICHT geloest
+  und im Artikel + `QUESTIONS.md` (dort weiterhin bei `wettbewerbs-dna`) vermerkt: der
+  GF-Widerspruch 2206 Schoental «ARCHE» (0.655 vs. 0.759 HNF/GF) und der fehlende
+  Reha-/Aerztehaus-Subtyp (Gesundheitsbau, nicht Bildungsbau).
+- [index] `wiki/INDEX.md` (Sektion Typologien) und `wiki/typologien/INDEX.md` auf den
+  neuen Artikel verlinkt.
+- [questions] `wiki/QUESTIONS.md`: Promotion-Kandidat auf ERLEDIGT gesetzt.
+- Budget-Hinweis: der 23.07.-Lauf hatte diese Kompilation bewusst als zu gross fuer den
+  Nachtschicht-Rahmen zurueckgestellt; nach Pruefung war sie reine Kompilation ohne neue
+  Quellenrecherche und passte in den 5-USD-Rahmen.
+
 ## 2026-07-23 (2. Eintrag, Nachtschicht-Zyklus Mac Mini ~20:30 — Sub-Index-Widerspruch behoben)
 - [index] Den im Health-Check ~19:00 gefundenen Widerspruch nachgezogen: die vier Domänen-
   Sub-Indizes (`wiki/typologien|entwurfsprinzipien|architekten|materialien/INDEX.md`)

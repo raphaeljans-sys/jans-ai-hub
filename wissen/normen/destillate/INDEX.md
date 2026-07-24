@@ -179,7 +179,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `sia-199-1998.md` | SIA 199 Erfassen des Gebirges im Untertagbau | 1998 | established (verifiziert 260713) |
 | `sia-203-1997.md` | SIA 203 Deponiebau (Abfalldeponien) | 1997 | established (verifiziert 260713) |
 | `sia-272-1980.md` | SIA 272 Grundwasserabdichtungen | 1980 | established (verifiziert 260713) |
-| `sia-405-1998.md` | SIA 405 GEO405: Geoinformationen unterird. Leitungen (Leitungskataster) | 1998 | teil-destillat (verifiziert 260713) |
+| `sia-405-1998.md` | SIA 405 GEO405: Geoinformationen unterird. Leitungen (Leitungskataster) | 1998 | established VOLLSTAENDIG (Run 19 260724, Vertiefung Stufe a — Medien-Datenkataloge 3.33-3.39 + Anh. A3/A4/A6, 44 Aussagen, 3 Befunde korr.) |
 | `sia-431-1997.md` | SIA 431 Entwässerung von Baustellen | 1997 | established (verifiziert 260713) |
 | `sia-450-1993.md` | SIA 450 Informatik: Kosteninformationen im Bauwesen | 1993 | established (verifiziert 260713) |
 | `sia-480-2004.md` | SIA 480 Wirtschaftlichkeitsrechnung Investitionen Hochbau | 2004 | established (verifiziert 260713) |
@@ -196,7 +196,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `sia-2020-2017.md` | SIA 2020 Merkblatt zu SIA 118: Sicherheitsleistungen des Unternehmers im Werkvertrag | 2017 | established (verifiziert 260714, Volltextabgleich) |
 | `sia-2040-2017.md` | SIA 2040 SIA-Effizienzpfad Energie (2000-Watt) | 2017 | established (verifiziert 260713) |
 | `sia-2051-2018.md` | SIA 2051 BIM – Grundlagen zur Anwendung der BIM-Methode | 2017 | established (verifiziert 260713) |
-| `sia-592-056.md` | SIA 2056 Elektrizität in Gebäuden: Energie-/Leistungsbedarf (SNR 592056) | 2019 | teil-destillat (verifiziert 260713) |
+| `sia-592-056.md` | SIA 2056 Elektrizität in Gebäuden: Energie-/Leistungsbedarf (SNR 592056) | 2019 | established VOLLSTAENDIG (Run 19 260724, Vertiefung Stufe a — GK-/Gebäudetechnik-Kataloge Kap.3.2-3.9/4/6.3-6.26/8 + Anh. A-H, ~50 Aussagen, 3 Befunde korr.) |
 | `sia-en-13200-1-2019.md` | SN EN 13200-1 Zuschaueranlagen, Teil 1 Allg. Merkmale | 2019 | established (verifiziert 260713) |
 | `sia-162-051-2000.md` | SIA 162.051 / SN EN 206-1 Beton Teil 1 (Festlegung/Konformität) | 2000 | established (verifiziert 260713) |
 | `sia-244-2006.md` | SIA 244 Kunststeinarbeiten: Beläge/Bekleidungen/Werkstücke | 2006 | established (verifiziert 260713) |

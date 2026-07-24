@@ -126,7 +126,7 @@
 | — | — | `384.201_2003_d.pdf` | 384 | 2003 | ersetzt durch 384/201:2017 (destilliert 260713 Run 7); Altausgabe uebersprungen |
 | [x] 260723 | P2 | `384.201_2017.pdf` | 384 | 2017 | established VOLLSTAENDIG (Run 18, 260723: informative Anh. C-G S.81-99 destilliert + adversarial verifiziert, 38 Aussagen, 1 Befund korrigiert [EN ISO 6946 faelschl. in Literaturliste]; Rest-Bring-Schuld nur exakte NA-/E.1-Tabellenwerte bewusst nicht 1:1); Kap.7-9 + Anh. A/B verifiziert Run 17; Kern Kap.1-6+NA Run5; sia-384-201-2017.md |
 | [x] 260714 | P2 | `400_2000_d.pdf` | 400 | 2000 | established (verifiziert 260714, 0 Fehler, Anhang C Normtext ergaenzt); sia-400-2000.md, Wettbewerbs-Layer — Linien/Schraffuren/Masse/CAD |
-| [x] 260713 | P2 | `405_1998_d.pdf` | 405 | 1998 | teil-destillat (Run5, Leitungskataster GIS, Kern verifiziert); sia-405-1998.md |
+| [x] 260724 | P2 | `405_1998_d.pdf` | 405 | 1998 | established VOLLSTAENDIG (Run 19, 260724: Vertiefung Stufe a — Medien-Datenkataloge Ziff. 3.33-3.39 [Gas/Wasser/Fernwaerme/Elektr./Telecom/Kabelk./Verschiedenes, S.19-26] + Anhang A3/A4/A6 destilliert + adversarial verifiziert, 44 Aussagen, 3 Befunde korrigiert [Katalog-Zaehlung sechs statt sieben, Fernwaerme-Trassepunkt-Gruppierung, Kolophon-Datum Genehmigung 12.06.1998/Inkraft 01.03.1999]); Kern Run5; Rest-Bring-Schuld: Groessenordnungszahlen Tab.1 nur als Bandbreiten; sia-405-1998.md |
 | [x] 260713 | P2 | `414_1980_d.pdf` | 414 | 1980 | destilliert (sia-414-1980.md), Masstoleranzen im Bauwesen |
 | [x] 260714 | P2 | `421_2006_d.pdf` | 421 | 2006 | established, verifiziert 260714 (Volltextabgleich Run 10, 3 Definitionsluecken ergaenzt, keine Fehler); sia-421-2006.md |
 | [x] 260713 | P2 | `423_2006_d.pdf` | 423 | 2006 | established (Run5, Gebaeudedimensionen/Abstaende IVHB); sia-423-2006.md |
@@ -140,7 +140,7 @@
 | [x] 260713 | P2 | `493_1997_d.pdf` | 493 | 1997 | established (Run5, Oekodeklaration Bauprodukte, beanst.-korr.); sia-493-1997.md |
 | [x] 260712 | P2 | `500_2009.pdf` | 500 | 2009 |  |
 | [x] 260713 | P2 | `564_282.pdf` | 564 |  | established (Run5, SIA 282:2019 fluessig aufzubringende Abdichtungen); sia-564-282.md |
-| [x] 260713 | P2 | `592056.pdf` | 5920 |  | teil-destillat (Run5, SIA 2056:2019 elektr. Energiebedarf; beanst.-korr.); sia-592-056.md |
+| [x] 260724 | P2 | `592056.pdf` | 5920 |  | established VOLLSTAENDIG (Run 19, 260724: Vertiefung Stufe a — Consumer-/GK-Kataloge Kap. 3.2-3.9, Prozessanlagen Kap.4, Gebaeudetechnik 6.3-6.26, Lueftung Kap.8, Anhaenge A-H destilliert + adversarial verifiziert, ~50 Aussagen, 3 Befunde korrigiert [Hotel-Betriebsenergie 150 statt 200 kWh Tab.32, Fig.12-Wertebereich, A.7 sechs statt fuenf Online-Tools]); Kern Run5; Rest-Bring-Schuld: Figuren-Werte (Fig.6-13) Naeherungen, GK-Tab.5-35 nur Repraesentativwerte; sia-592-056.md |
 | [x] 260713 | P2 | `721_2001_d.pdf` | 721 | 2001 | verifiziert established 260713 Run5 (bestanden); sia-721-2001.md |
 | [x] 260714 | P2 | `723_2001_d.pdf` | 723 | 2001 | established, verifiziert 260714 (24 Aussagen, bestanden); sia-723-2001.md |
 | [x] 260713 | P2 | `752_2002_d.pdf` | 752 | 2002 | verifiziert established 260713 Run5 (beanst.-korr. Ziff.2.4.5); sia-752-2002.md |

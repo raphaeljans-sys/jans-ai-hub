@@ -21,12 +21,12 @@ Quellen (Kennwert-Extrakte, Buch-Destillate) reserviert.
   Roh-Seed-Import — Widerspruch zu diesem Beschluss. Alle fünf Dateien auf den
   Abfrage-Workflow-Wortlaut umgestellt.
 
-## Promotion-Kandidat (offen, aus Wissenscheck 23.07.2026)
-- [ ] **typologien/bildung.md**: liesse sich verlustfrei aus dem refuter-verifizierten
+## Promotion-Kandidat — ERLEDIGT (kompiliert 24.07.2026, Nachtschicht Mac Mini)
+- [x] **typologien/bildung.md**: aus dem refuter-verifizierten
   `parameter-sets/schule-volksschule-ch.json` + dem established wettbewerbs-dna-Benchmark
-  `kennwerte-schulbauten.md` kompilieren — wäre der erste echte Wiki-Artikel dieser
-  bisher reinen JSON-Parameter-Set-KB. Noch nicht umgesetzt (Nachtschicht-Scope bisher
-  nur Audit/Registerpflege, keine neue Artikel-Kompilation).
+  `kennwerte-schulbauten.md` kompiliert — erster echter Wiki-Artikel dieser bisher reinen
+  JSON-Parameter-Set-KB. Reine Kompilation bereits belegter Quellen, keine neue Recherche.
+  INDEX.md (Haupt + `typologien/`) nachgezogen.
 
 ## Parameter-Sets
 - [ ] Sollen Parameter-Sets auch Rendering-Vorgaben enthalten (Kamerawinkel, Lichtstimmung)?

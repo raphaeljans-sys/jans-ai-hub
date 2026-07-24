@@ -1,8 +1,12 @@
 # INDEX — Entwurfs-Referenzen
 
 ## Typologien
-*(noch leer — kein Roh-Seed-Import mehr geplant, Artikel entstehen on-demand aus
-[[architekten-synobsis]]-Abfragen, vgl. Domänen-INDEX + CHANGELOG 2026-07-20)*
+- [typologien/bildung.md](typologien/bildung.md) — Volksschule (CH): HNF/GF 0.52–0.54,
+  900-m²-Schwelle, Programm-Mengengerüst. Erster Wiki-Artikel dieser KB, kompiliert
+  24.07.2026 aus `schule-volksschule-ch.json` + wettbewerbs-dna-Benchmark.
+
+*(weitere Typologien noch leer — kein Roh-Seed-Import mehr geplant, Artikel entstehen
+on-demand aus [[architekten-synobsis]]-Abfragen, vgl. Domänen-INDEX + CHANGELOG 2026-07-20)*
 
 ## Entwurfsprinzipien
 *(noch leer — kein Roh-Seed-Import mehr geplant, Artikel entstehen on-demand aus

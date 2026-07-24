@@ -7,6 +7,23 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-24
 
+**Nachtschicht Mac Mini (~04:30, erster Wiki-Artikel entwurfs-referenzen, Dispatch-Run
+20260724-043003).** Siebter Sweep im Nachtfenster: Queues weiterhin leer, Synobsis Stufe 2
+weiterhin gesaettigt. Priorität 5 (offene `QUESTIONS.md`) auf `architekten-synobsis`
+(21 Tage unveraendert, aber Grossteil der offenen Punkte sind Umbenennungs-/Zusammenfuehr-
+Fragen mit Freigabe-Pflicht, fuer unbeaufsichtigte Nachtschicht ungeeignet) und danach auf
+den seit dem 23.07.-Health-Check offenen Promotion-Kandidaten in `entwurfs-referenzen`
+angewendet: der Vorlauf hatte die Kompilation von `typologien/bildung.md` zweimal als „zu
+gross" zurueckgestellt, bei genauerer Pruefung war es aber reine Kompilation aus zwei
+bereits refuter-verifizierten Quellen (Parameter-Set `schule-volksschule-ch.json` +
+wettbewerbs-dna-Benchmark `kennwerte-schulbauten`, established), keine neue Recherche.
+Neuer Wiki-Artikel `wissen/entwurfs-referenzen/wiki/typologien/bildung.md` (erster echter
+Wiki-Artikel dieser bisher reinen Parameter-Set-KB): HNF/GF-Band 0.52–0.54, 900-m²-
+Geschossflaechen-Schwelle als harte Entwurfsregel, Programm-Mengengerueest, Materialien,
+Kostendach-Groessenordnung, 6 Referenzprojekte; zwei offene Punkte (GF-Widerspruch 2206
+Schoental, fehlender Reha-Subtyp) bewusst nicht geloest und ausgewiesen. Haupt-INDEX +
+Domaenen-INDEX + QUESTIONS.md + CHANGELOG nachgezogen. Verbrauch ~2,3 von 5 USD.
+
 **Nachtschicht Mac Mini (~03:30, KB-Wachstum firmengruendung-ch, Dispatch-Run
 20260724-033007).** Sechster Sweep im Nachtfenster: Queues weiterhin leer, Synobsis
 Stufe 2 weiterhin gesaettigt. Priorität 5 (offene `QUESTIONS.md`) diesmal auf den zwei

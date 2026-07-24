@@ -372,16 +372,22 @@
   **SIA 282:2019** (SN 564282). Die Destillate behalten den PDF-abgeleiteten Dateinamen
   (`sia-592-056.md`, `sia-564-282.md`), INDEX/REGISTER weisen die echte Norm-Nr aus. Bei
   Bedarf später umbenennen (destruktiv → nur mit Bestätigung).
-- [~] **Teil-Destillate mit offenen Anhängen (Vertiefung Stufe a) — Fortschritt Run 18 (260723):**
+- [x] **Teil-Destillate mit offenen Anhängen (Vertiefung Stufe a) — ABGESCHLOSSEN Run 19 (260724):**
   ~~SIA 382/1 (Anh. A-G)~~ **ERLEDIGT** (Run 17). ~~SIA 384/201 (Anh. C-G)~~ **ERLEDIGT Run 18**
   (informative Anh. C-G S.81-99 destilliert + adversarial verifiziert, 1 Befund korrigiert →
   established vollständig; Rest-Bring-Schuld nur exakte NA-/E.1-Tabellenwerte bewusst nicht 1:1).
   ~~SIA 196 (Anh. A1-A4)~~ **ERLEDIGT Run 18** (55 Aussagen, 0 Sachfehler → established vollständig).
   ~~SIA 343.051 (Anh. D/E)~~ **ERLEDIGT Run 18** (Anh. D Öffnungsmasse + E Handhabung, bestanden →
   established vollständig). ~~SIA 193.111 (Anh. A-G)~~ **ERLEDIGT Run 18** (informative EN-Anhänge A-G
-  S.47-89, 1 Befund korrigiert [Tab. B.3] → established vollständig). **Weiterhin offen (2 Positionen):**
-  SIA 2056/592 (Detailkataloge Kap. 3.2-3.9/4/6.3+, 130-S.-PDF), SIA 405 (medienspez. Datenkataloge,
-  52-S.-PDF). Normativer Kern beider jeweils established/verifiziert; Anhang-/Katalogteile nachziehen.
+  S.47-89, 1 Befund korrigiert [Tab. B.3] → established vollständig).
+  ~~SIA 2056/592 (Detailkataloge Kap. 3.2-3.9/4/6.3+)~~ **ERLEDIGT Run 19** (GK-/Gebäudetechnik-Kataloge
+  Kap. 3.2-3.9/4/6.3-6.26/8 + Anh. A-H, ~50 Aussagen, 3 Befunde korrigiert [Hotel-Betriebsenergie
+  Tab.32, Fig.12-Wertebereich, A.7 Online-Tool-Anzahl] → established mit ehrlicher Rest-Bring-Schuld:
+  Figuren-Werte Näherungen, GK-Tab.5-35 nur Repräsentativwerte).
+  ~~SIA 405 (medienspez. Datenkataloge)~~ **ERLEDIGT Run 19** (Medien-Datenkataloge Ziff. 3.33-3.39 +
+  Anh. A3/A4/A6, 44 Aussagen, 3 Befunde korrigiert [Katalog-Zählung, Fernwärme-Trassepunkt, Kolophon-Datum]
+  → established; Rest-Bring-Schuld: Grössenordnungszahlen Tab.1 nur als Bandbreiten). **→ 0 offene
+  Stufe-a-Positionen; SIA/VKF auf allen vier Vertiefungsstufen (a-d) komplett.**
 - [ ] **Fehlende verlinkte Destillate (Cross-Link-Lücke):** `sia-en-13200-1-2019.md` verweist
   auf [[sia-500-2009]] (SIA 500 Hindernisfreie Bauten — Rollstuhlplatzzahl) und die VKF-
   Fluchtweg-Richtlinie; SIA 500 ist noch nicht als eigenes Destillat vorhanden (Bestand

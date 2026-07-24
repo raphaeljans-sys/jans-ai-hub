@@ -1,3 +1,27 @@
+## 2026-07-24 — Normen-Training Run 19 (MacBook Pro, SIA): letzte 2 Vertiefungs-Lücken (Stufe a) geschlossen → SIA/VKF KOMPLETT
+- [destilliert+verifiziert] Die beiden letzten offenen Vertiefungsstufe-a-Positionen via Destillier+Verify-
+  Pipeline (2 Sonnet-Destillier-Agenten + 2 Hauptmodell-Verifikations-Agenten, adversarial am Original-PDF,
+  0 Ausfälle, ~854k Subagent-Tokens, ~12 Min):
+  - `destillate/sia-405-1998.md`: Medien-Datenkataloge Ziff. 3.33-3.39 (Gas/Wasser/Fernwärme/Elektrizität/
+    Telecom/Kabelkommunikation/Verschiedenes, S.19-26) + Anhang A3/A4/A6 ergänzt. Verifikation: 44 Aussagen,
+    **beanstandet, 3 Befunde korrigiert** (Katalog-Zählung «sechs statt sieben» Gas–Kabelk., Fernwärme-
+    Trassepunkt-Gruppierung Ziff.3.35, Kolophon-Datum: Genehmigung 12.06.1998 Ittigen / Inkrafttreten
+    01.03.1999) → **established** (Rest-Bring-Schuld: Grössenordnungszahlen Tab.1 nur als Bandbreiten).
+  - `destillate/sia-592-056.md` (SIA 2056:2019): Consumer-/GK-Kataloge Kap. 3.2-3.9, Prozessanlagen Kap.4,
+    Gebäudetechnik 6.3-6.26, Lüftung Kap.8, Anhänge A-H ergänzt. Verifikation: ~50 Aussagen, **beanstandet,
+    3 Befunde korrigiert** (Hotel-Betriebsenergie Klasse Mittel/220 Tage 150 statt 200 kWh Tab.32; Fig.12
+    spez. Wärmeverluste ca. 65-185 statt 15-180 Wh/d·m; A.7 sechs statt fünf Online-Tools) → **established**
+    (Rest-Bring-Schuld: Figuren-Werte Fig.6-13 Näherungen, GK-Tab.5-35 nur Repräsentativwerte).
+- [Register] `training/norm-inventar.md` (beide Zeilen `[x] 260724` established VOLLSTAENDIG), `destillate/INDEX.md`
+  (beide Zeilen established), `wiki/QUESTIONS.md` (Stufe-a-Sammelitem geschlossen → **0 offene Stufe-a-Positionen**).
+- [Meilenstein] **SIA/VKF auf allen vier Vertiefungsstufen (a Grunddestillation+Anhänge, b Retro-Verifikation,
+  c Q&A-Selbstbefragung, d Querschnitts-Synthesen) komplett.** Empfehlung an Raphael: Task `normen-training-nacht`
+  auf Datei-Änderungs-Trigger umstellen/pausieren (Endbedingung PROGRAMM.md erreicht); VOLLGAS-Passus aus dem
+  Auftragstext entfernen (durch Drosselung 260714 aufgehoben).
+- [Verifier griff] Beide Positionen wurden erst durch die adversariale Prüfung sauber (je 3 Sachbefunde) —
+  bestätigt den Nutzen der Verifikations-Pflicht vor `established`. Umlaut-Nachkontrolle beider Destillate sauber.
+- Report: `outputs/2026-07-24_normen-nacht-run19.md`.
+
 ## 2026-07-23 — Nachtschicht Mac Mini (~23:35): EN 520 Bestandslücke recherchiert (QUESTIONS-Item)
 - [recherchiert] Offenes QUESTIONS-Item «EN 520 Original-Destillat fehlt» bearbeitet: SharePoint
   PL-02 02_Normen/DIN_Norm geprueft (72 Dateien) — SN EN 520 ist NICHT im JANS-Bestand und nur
