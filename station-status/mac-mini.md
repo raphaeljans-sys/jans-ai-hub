@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 24.07.2026 07:52:37
+Stand: 24.07.2026 08:12:42
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:36)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 24.07.2026 07:52:37
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7c4e488b nas-selfcommit: 6 Datei(en) 2026-07-24 07:45
+- 1f8fec21 sync: ag-gruendung-monitor: Status 24.07. nichts Neues, UBS 28 Tage ohne Antwort
