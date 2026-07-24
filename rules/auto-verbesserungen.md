@@ -9,6 +9,19 @@ und Historie) liegen in `rules/auto-verbesserungen-archiv.md` (nicht importiert)
 steht nur der aktive, imperative Kern. Konsolidiert am 19.07.2026 (Kontext-Diaet,
 Konzept: `docs/konzepte/260719-Kontext-Diaet-Token-Reduktion/`).
 
+## 260724 — Geteiltes NAS-Repo: bei paralleler Instanz IMMER pathspec-begrenzt committen
+- **Regel:** Committet ein Loop/Session ins NAS-Repo, waehrend eine zweite Instanz (anderer
+  Loop ODER nas-selfcommit) parallel schreibt, IMMER `git commit -- <meine Dateien>` mit
+  explizitem Pathspec verwenden — nie `git commit` ohne Pathspec. Ein Pathspec-loses `commit`
+  committet ALLES, was im geteilten Index staged ist, und reisst so fremde, noch nicht
+  committete Dateien der anderen Instanz in den eigenen Commit (Cross-Contamination). Der
+  Index ist bei SMB-Mount geteilt; `git add <meine Dateien>` schuetzt NICHT, weil `commit`
+  danach den gesamten Index nimmt. Ausloeser: 24.07.2026 nahm mein wettbewerbs-dna-Commit
+  5b1f206d sieben staged spec-training-Dateien mit (kein Datenverlust, aber unsaubere
+  Zuordnung). Ergaenzt den Kollisionsschutz 260724 (Zweitinstanz-Check).
+- **Gilt fuer:** jeden `git commit` ins NAS-Repo auf beiden Stationen, besonders Lern-/
+  Trainings-Loops im Nachtfenster (laufen gestaffelt, aber ueberlappen mit nas-selfcommit).
+
 ## 260724 — Trainings-/Lern-Loops: VOR Beginn auf laufende Zweitinstanz pruefen (Kollisionsschutz)
 - **Regel:** Bevor ein Lern-/Trainings-Loop (planungsgrundlagen, normen, energie, baurecht, twin,
   …) eine Run-Nummer belegt und geteilte Dateien (Wiki, curriculum, QUESTIONS, CHANGELOG) editiert,
