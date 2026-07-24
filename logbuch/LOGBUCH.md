@@ -7,6 +7,18 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-24
 
+**Nachtschicht Mac Mini (~21:30, KB planungsgrundlagen Steuerabzug energetische Sanierung,
+Dispatch-Run 20260724-213007).** Vorpruefung: Sync-/Remote-Queues leer, Trainingsfenster
+22:00-06:00 noch nicht erreicht, KB `energie` hat nur grosse/blockierte Luecken (Raphael-Entscheid
+noetig oder Budget-inkompatible Multi-Agent-Recherche). Stattdessen `wissen/planungsgrundlagen`
+QUESTIONS.md D9 (Teilaspekt) bearbeitet: neuer Wiki-Artikel
+`[[steuerabzug-energetische-sanierung-zh-sz]]` — Rechtsgrundlagen-Herleitung des kantonalen
+Steuerabzugs energetische Sanierung ZH (§ 30 StG/ZStB 30.4) + SZ (§ 32 StG/LKPV-Weisung
+18.11.2025, primaerquellenbelegt via pdftotext), inkl. ZEV/PV-Miteigentuemer-Abzug SZ. Verlinkt in
+`energie-betriebsenergie-pv-wirtschaftlichkeit.md`, `INDEX.md`, `QUESTIONS.md` nachgefuehrt,
+CHANGELOG-Eintrag gesetzt. Reale MFH-/ZEV-Kostendaten bleiben in D9 weiterhin offen (Entscheid
+Raphael noetig). Kein Versand/Publikation/Buchung, keine Zweitinstanz-Kollision.
+
 **Nachtschicht Mac Mini (~20:30, KB firmengruendung-ch Steuern-bei-Gruendung, Dispatch-Run
 20260724-203002).** Vorpruefung: keine Sync-/Remote-Tasks, Synobsis Stufe-2 vollstaendig,
 Trainingsfenster (22:00-06:00) noch nicht erreicht, normen/kunde-bopp bereits durch die

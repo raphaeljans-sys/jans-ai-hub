@@ -3,7 +3,7 @@ title: PV-Foerderung (Pronovo Einmalverguetung) & Wirtschaftlichkeit
 status: emerging
 last_updated: 2026-07-19
 sources: [Pronovo AG "Neuerungen Einmalverguetung Photovoltaik" (pronovo.ch/de/foerderinstrumente/neuerungen-einmalverguetung-photovoltaik, abgerufen 2026-07-14 + Refresh 2026-07-19), Pronovo AG "Einmalverguetung (EIV) Photovoltaik" + Foerderung-Uebersicht (pronovo.ch/de/foerderung, abgerufen 2026-07-14), Pronovo Tarifrechner (pronovo.ch/de/services/tarifrechner), EnergieSchweiz "Einmalverguetungen | Investitionsbeitraege" (energieschweiz.ch/wohnen/einmalverguetungen, abgerufen 2026-07-14), realer Betriebskosten-Fall EFH 1957 → [[energie-uebersicht]] §Betriebsenergie]
-links: [[energie-uebersicht]], [[energie-pv-eignung-typenwahl]], [[energie-pv-brandschutz]]
+links: [[energie-uebersicht]], [[energie-pv-eignung-typenwahl]], [[energie-pv-brandschutz]], [[steuerabzug-energetische-sanierung-zh-sz]]
 ---
 
 # PV-Foerderung (Pronovo Einmalverguetung) & Wirtschaftlichkeit
@@ -93,8 +93,13 @@ Fuer den PV-**Kennwert** CHF/kWp bleibt die typdifferenzierte Benchmark-Tabelle 
 - Absolute Grund-/Leistungsbeitraege (CHF, gestaffelt) nur ueber den dynamischen Tarifrechner —
   bewusst kein statischer KB-Wert.
 - Realer **MFH-/ZEV-Fall** (Eigenverbrauchsgemeinschaft, GREIV) fehlt — der belegte Fall ist ein EFH.
-- Kantonaler **Steuerabzug energetische Sanierung** (ZH/SZ) im Fall pauschal mit der Foerderung
-  verrechnet — separate belegte Herleitung waere ein Folge-Artikel.
+  Die **steuerliche Seite** des ZEV-Falls (Abzugsfaehigkeit je Miteigentuemer-Anteil) ist seit
+  2026-07-24 belegt → `[[steuerabzug-energetische-sanierung-zh-sz]]` §3; die reale Kostendaten-
+  Herleitung (CHF/kWp, Rendite) bleibt offen.
+- Kantonaler **Steuerabzug energetische Sanierung** (ZH/SZ): eigenstaendige Rechtsgrundlagen-
+  Herleitung ✓ 2026-07-24 → `[[steuerabzug-energetische-sanierung-zh-sz]]` (§ 30 StG ZH/ZStB 30.4,
+  § 32 StG SZ/LKPV-Weisung 18.11.2025: 2-Perioden-Verteilung, Pauschalabzug schliesst aus,
+  5-Jahres-Sperrfrist Neubauten SZ, Subventionsverrechnung).
 
 **Refresh 2026-07-14 (Run 38, Cross-Check zu Run 36):** eigene WebSearch-Gegenpruefung von
 `pronovo.ch/de/foerderinstrumente/neuerungen-einmalverguetung-photovoltaik` bestaetigt: die

@@ -892,15 +892,18 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   (integriert 250→400 / angebaut 100→200 CHF/kW ab 01.01.2025), Parkflaechenbonus 250 CHF/kW,
   Leistungsbeitrag-Senkung ≤30 kW + ≥100 kW je -20 CHF/kW ab 01.04.2025; absolute Saetze bewusst nur
   via Tarifrechner (dynamisch). Datenstand Web 2026-07-14.
-- [ ] **D9 (offen, neu Run 36; erneut geprueft Run 56, 2026-07-22)** Realer **MFH-/ZEV-
-  Betriebskostenfall** (Eigenverbrauchsgemeinschaft, GREIV ≥100 kWp) als Ergaenzung zum bisher nur
-  belegten EFH-Fall — die EFH-Amortisationslogik ist nicht 1:1 auf Rendite-/Areal-Objekte
-  uebertragbar. **Run 56:** Ordner `_Betriebsenergie` vollstaendig erneut gelesen (alle 15
-  Bild-Dateien) — enthaelt nach wie vor **nur** den bereits dokumentierten EFH-Fall, kein
-  MFH-/ZEV-Material. Luecke bleibt bestaetigt offen, kein neuer Fund. Faellt an, sobald ein reales
-  JANS-MFH-PV-Projekt mit Verbrauchs-/Kostendaten vorliegt. Ebenso offen: belegte Herleitung des
-  kantonalen **Steuerabzugs energetische Sanierung** (ZH/SZ), im EFH-Fall pauschal mit der
-  Foerderung verrechnet.
+- [ ] **D9 (offen, neu Run 36; erneut geprueft Run 56, 2026-07-22; Teilaspekt geschlossen
+  2026-07-24 Nachtschicht Mac Mini)** Realer **MFH-/ZEV-Betriebskostenfall**
+  (Eigenverbrauchsgemeinschaft, GREIV ≥100 kWp) als Ergaenzung zum bisher nur belegten EFH-Fall —
+  die EFH-Amortisationslogik ist nicht 1:1 auf Rendite-/Areal-Objekte uebertragbar. **Run 56:**
+  Ordner `_Betriebsenergie` vollstaendig erneut gelesen (alle 15 Bild-Dateien) — enthaelt nach wie
+  vor **nur** den bereits dokumentierten EFH-Fall, kein MFH-/ZEV-Material. Reale Kostendaten
+  bleiben offen, faellt an sobald ein reales JANS-MFH-PV-Projekt mit Verbrauchs-/Kostendaten
+  vorliegt (Entscheid Raphael noetig, deckt sich mit E103 in KB `energie`). **Geschlossen:** die
+  belegte Herleitung des kantonalen **Steuerabzugs energetische Sanierung** (ZH/SZ) — bisher nur
+  pauschal mit der Foerderung verrechnet — ist jetzt eigenstaendig hergeleitet
+  → `[[steuerabzug-energetische-sanierung-zh-sz]]` (§ 30 StG ZH/ZStB 30.4, § 32 StG SZ/
+  LKPV-Weisung 18.11.2025), inkl. der steuerlichen Seite des ZEV-PV-Abzugs je Miteigentuemer-Anteil.
 - [x] **D6** EVEN-Bedienung (Maskenfuehrung, Rollen Planer/Bauherr/Behoerde, Beilagen-Upload).
   ✓ **2026-07-04 (Run 14):** aus EnDK-Schulung V1.4 (13.10.2025, Kantone mit Privater Kontrolle)
   belegt — **Rollen** (Projektkoordination legt an/reicht ein/beauftragt PK · Nachweisverfassung

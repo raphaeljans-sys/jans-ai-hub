@@ -2,6 +2,27 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-24 (21:30) — Nachtschicht Mac Mini: QUESTIONS-Punkt D9 (Teilaspekt) geschlossen
+Dispatch-Prioritaet 5 (offene QUESTIONS.md recherchieren/kompilieren). Sync-/Remote-Queues leer,
+Trainingsfenster 22:00-06:00 noch nicht erreicht, energie-KB-Luecken alle gross/blockiert
+(Raphael-Entscheid noetig) oder Budget-inkompatibel (grosse Agent-Fan-outs) — daher den einzigen
+offenen planungsgrundlagen-Punkt D9 (Teilaspekt Steuerabzug) genommen.
+- **NEU [[steuerabzug-energetische-sanierung-zh-sz]]:** eigenstaendige Rechtsgrundlagen-Herleitung
+  des kantonalen Steuerabzugs energetische Sanierung — Primaerquellen ZStB 30.4 (Kt. ZH,
+  § 30 Abs. 2 Satz 2/Abs. 2bis StG) und Schwyzer Steuerbuch 70.20 «Weisung LKPV» vom 18.11.2025
+  (§ 32 Abs. 2 Bst. a-c StG SZ, per pdftotext direkt aus dem amtlichen PDF gelesen). Kernpunkte:
+  2-Perioden-Verteilung bei hohem Aufwand (ZH+SZ identisch), Pauschalabzug schliesst den
+  Spezialabzug aus (nur bei effektiver Abrechnung), 5-Jahres-Sperrfrist fuer Neubauten (SZ explizit
+  beziffert), Subventionsverrechnung, sowie SZ-Spezialregelung fuer PV/ZEV-Gemeinschaften (Abzug
+  je Miteigentuemer-Investitionsanteil) — beantwortet nebenbei die steuerliche Seite des in D9
+  ebenfalls offenen MFH-/ZEV-Falls (reale Kostendaten bleiben dort weiterhin offen).
+- `[[energie-betriebsenergie-pv-wirtschaftlichkeit]]` (Offene-Punkte-Sektion) und `INDEX.md`
+  verlinkt; `QUESTIONS.md` D9 als teilweise geschlossen markiert (Steuerabzug-Teilaspekt erledigt,
+  MFH-/ZEV-Kostendaten bleiben offen, Entscheid Raphael noetig).
+- Kein Versand, keine Publikation, keine destruktive Aenderung. Keine Zweitinstanz-Kollision
+  (dispatch/log 20260724-203002 inhaltlich gelesen: letzter Lauf schloss firmengruendung-ch ab,
+  keine Ueberschneidung).
+
 ## 2026-07-24 — Training Run 58 (Recht & Norm + Brandschutz, Token-Vollgas)
 - **Registrierungsluecke B42/B43 geschlossen** (kein neuer Fakt): `training/curriculum.md` fuehrte
   beide Punkte weiterhin als Run-52-Blocker, obwohl Run 54 sie bereits vollstaendig geloest hatte
