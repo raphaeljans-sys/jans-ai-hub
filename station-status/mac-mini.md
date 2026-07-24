@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 24.07.2026 08:12:42
+Stand: 24.07.2026 08:22:45
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 24.07.2026 08:12:42
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 1f8fec21 sync: ag-gruendung-monitor: Status 24.07. nichts Neues, UBS 28 Tage ohne Antwort
+- 7c15fae0 nas-selfcommit: 2 Datei(en) 2026-07-24 08:15
