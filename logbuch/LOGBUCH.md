@@ -7,6 +7,20 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-24
 
+**Nachtschicht Mac Mini (~05:30, Wissenscheck koordination, Dispatch-Run 20260724-053003).**
+Achter Sweep im Nachtfenster: Queues weiterhin leer, Synobsis Stufe 2 weiterhin gesaettigt
+(12. Mal), alle drei Mac-Mini-Trainingsloops (energie, planungsgrundlagen, normen) bereits
+heute intensiv gelaufen. Priorität 6 (Wissenscheck, aeltestes Audit-Datum) auf `koordination`
+angewendet (Erst-Audit 20.07., seither Runs 10-13 ohne Re-Audit). Ergebnis: Register weiterhin
+diszipliniert gefuehrt, 1 operativer Befund — der normen-Run-19-Meilenstein "SIA/VKF komplett"
+(24.07., MacBook Pro) widerspricht dem in QUERBEZUEGE selbst mehrfach bestaetigten offenen
+Bring-Schuld-Posten SIA 181:2020-Re-Destillat (weiterhin unerledigt in normen/QUESTIONS.md);
+reine Zeitluecke (Run 19 nach dem letzten Wissens-Chef-Lauf), noch ungeprueft. Empfehlung an
+den naechsten Wissens-Chef-Lauf (Run 14) zur Klaerung/Praezisierung vermerkt, damit der Punkt
+nicht stillschweigend in die Pause-Empfehlung fuer `normen-training-nacht` einfliesst. Report
+`wissen/koordination/outputs/2026-07-24_health-check.md`, CHANGELOG nachgezogen. Verbrauch
+~2,6 von 5 USD.
+
 **Nachtschicht Mac Mini (~04:30, erster Wiki-Artikel entwurfs-referenzen, Dispatch-Run
 20260724-043003).** Siebter Sweep im Nachtfenster: Queues weiterhin leer, Synobsis Stufe 2
 weiterhin gesaettigt. Priorität 5 (offene `QUESTIONS.md`) auf `architekten-synobsis`

@@ -3,6 +3,18 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-24 — Wissens-Health-Check (Phase 1, Skill wissenscheck, Mac Mini Nachtschicht)
+Zweiter Audit dieser KB (Erst-Audit 20.07., seither Runs 10-13). Register (QUERBEZUEGE,
+SYNERGIE-REGISTER, CHANGELOG) weiterhin diszipliniert gefuehrt, Stichproben bestanden.
+**1 operativer Befund:** normen-Run-19-Meilenstein "SIA/VKF komplett" (24.07., MacBook Pro)
+widerspricht dem in QUERBEZUEGE selbst dreimal (Run 11-13) bestaetigten offenen Bring-Schuld-
+Posten SIA 181:2020-Re-Destillat (normen/wiki/QUESTIONS.md Z.74-75, weiterhin unerledigt) —
+reine Zeitluecke (Run 19 nach Run 13), noch von keinem Wissens-Chef-Lauf gegengeprueft.
+Empfehlung an Run 14: Meilenstein-Formulierung praezisieren oder Bring-Schuld schliessen,
+bevor der Punkt in eine Pause-Entscheidung fuer `normen-training-nacht` mit einfliesst.
+Bekannter Umlaut-Config-Bug (ASCII ae/oe/ue) auch in QUERBEZUEGE.md bestaetigt, keine neue
+Meldung. Report: `outputs/2026-07-24_health-check.md`.
+
 ## 2026-07-23 — Run 13 (5 Lese-Agenten, 5 Paare/Felder; 2 Widersprueche adversarial verifiziert, beide CONFIRMED)
 - Gedrosselter Cross-KB-Lauf (Rule 260714): 5 parallele Lese-Agenten ueber das regulaere Agent-Tool
   (Hintergrund, gleiche Parallelitaet wie Run 10-12) am frischen Stoff seit Run 12 — energie Run 85/86 (Anergienetz
