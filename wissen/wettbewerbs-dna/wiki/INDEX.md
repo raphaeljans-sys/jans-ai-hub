@@ -45,7 +45,7 @@ Schulbau erreicht. Vorher 13.07.2026 Lauf 5: Referenz-Katalog indexiert.)
 | 2501 | Hafenareal SZ (Steinfabrik) | Wohn-Areal Pfaeffikon SZ | nicht rangiert; Kennwort «SEESTERN», Sieger «ALINGHI» (152 Whg., aGF 29'993 m2) | **established** |
 | 2502 | (leer) | — | Ordner leer (bestaetigt 13.07.2026, nur Verzeichnis ohne Inhalt vom 25.11.2025) — zurueckgezogen/reserviert, keine Teilnahme zum Destillieren | kein Dossier moeglich |
 | 2503 | Studienauftrag Glockenacker | Wohnen (Zuerich-Witikon) | offen (Archiv duenn, nur ArchiCAD-Transferfiles Nov./Dez. 2025) | **established** |
-| 2507 | WETT TKHL (PS Halden) | Tagesbetreuung/Hort St.Gallen | offen (kein Jurybericht, Verfahren jung); Kennwort «LIMO» | **established** |
+| 2507 | WETT TKHL (PS Halden) | Tagesbetreuung/Hort St.Gallen | **5. Rang / 4. Preis CHF 10'000** von 51 Beitraegen; Sieger «ZVIERI» Richter Tobler GmbH Basel; Kennwort «LIMO» | **established** |
 
 Stand-Bilanz: **11 von 11 destillierbaren Teilnahmen established** (2502 kein Dossier
 moeglich, Ordner leer). 2102/2206 sind seit dem Nachbrenner-Lauf 13.07.2026 established:
@@ -62,10 +62,11 @@ Teil 2 Rang-Klaerung UND Teil 3 Muster-Verdichtung, siehe `training/PROGRAMM.md`
 
 ## Muster (verallgemeinerte DNA)
 
-- muster/delta-zum-ersten-rang.md — Was trennte JANS-Beitraege vom Sieg? 10 Befunde,
-  Basis alle 6 Dossiers mit verfuegbarem Jury-Delta (2101/2102/2103/2205/2206/2408) —
-  strukturelles Maximum, da die uebrigen 5 Teilnahmen keinen Jurybericht im Archiv haben.
-  Status **established** (refuter-verifiziert, Lauf 3 13.07.2026, VERDIKT BESTANDEN)
+- muster/delta-zum-ersten-rang.md — Was trennte JANS-Beitraege vom Sieg? 11 Befunde,
+  Basis alle 7 Dossiers mit verfuegbarem Jury-Delta (2101/2102/2103/2205/2206/2408/2507) —
+  strukturelles Maximum, da die uebrigen 4 Teilnahmen keinen Jurybericht im Archiv haben.
+  Status **established** (refuter-verifiziert, Lauf 3 13.07.2026, VERDIKT BESTANDEN; 2507
+  Halden + Befund 11 «harte Vorgaben» am 24.07.2026 nachgetragen, noch nicht refuter-geprueft)
 - muster/jury-argumente-schulbauten.md — Jury-DNA Schul-/Bildungsbau: Kriterien-Rangordnung, Gewinner-Typologien je Aufgabe, 10 Siegargumente, K.-o.-Liste, Verfahrensmechanik; Basis erweitert von 11 auf **23** ausgewertete Fremd-Juryberichte + 3 eigene (Etappe-3-Schulbau-Sweep 14.07.2026, B4 abgeschlossen). Status **established** (Refuter-Erstlauf 13.07. «nicht bestanden», 10 Korrekturen eingearbeitet, fokussierter Zweitlauf 10/10 bestaetigt; Basis-Erweiterung 14.07. mit eigenem Verifikations-Hinweis im Artikel belegt)
 - muster/kennwerte-schulbauten.md — **Kennwert-Benchmark Schul-/Bildungsbau (Etappe 3, Baustein B6, 20.07.2026):** Flaecheneffizienz HNF/GF **0.52–0.54** (zwei unabhaengige Quellen: Kantonsschule Wattwil Soll 0.532, eigene SIA-416-Abgabe 2507 Halden Ist 0.528), Klassenzimmer **64–75 m2** (Planungswert 75), Verhaeltnis **2 Klassenzimmer je Gruppenraum**, Cluster **3–4 Klassen je Geschoss**, Regelklasse **19–21 Schueler**, **900-m2-GF-Schwelle je Geschoss** als brandschutzgetriebener Typologie-Treiber (Muttenz + Steffisburg), Kostendach-Tabelle 10 Faelle, Neubau **1.6–1.8 Mio. CHF je Klassenzimmer** (Sonderschule 2.5), Vorpruefungs-Toleranz **±20 %** bei Finalisten-Spreizung 16–24 %. **Strukturbefund: CHF/m3 GV ist aus Schul-Juryberichten NICHT belegbar** (absolute GV-Werte in 1 von 25 Quellen) — bleibt bei `wissen/grobkosten/`. Basis 25 Quellen, **436 Kennzahlen geprueft / 431 bestaetigt / 5 verworfen**. Status **established** (25 Extraktions- + 25 unabhaengige Refuter-Agenten)
 - muster/jans-board-dna.md — grafische Handschrift der Abgabe-Boards + Vorgaben-Liste fuer den Agenten plakat-setzer; Basis 9 Board-Analysen. Status **established** (9 unabhaengige Quellen-Refuter 14.07.2026, 4 Korrekturen eingearbeitet: Plan-first-Zuordnung 2205, Werkplan-Vorbehalt 2205, Massstabsbeleg 2206, Alt-Neu-Praezisierung 2408)

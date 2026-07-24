@@ -1,9 +1,9 @@
 ---
 title: 2507 WETT TKHL — Neubau Tagesbetreuung und Kindergarten Halden, St.Gallen (LIMO)
 status: established
-last_updated: 2026-07-12
-sources: [2507-tkhl-ps-halden_programm.txt, 2507-tkhl-ps-halden_fragenbeantwortung.txt, 2507-tkhl-ps-halden_abgabe-plaene.txt, 2507-tkhl-ps-halden_projekttext.txt, 2507-tkhl-ps-halden_sia416-abgabe.txt]
-links: []
+last_updated: 2026-07-24
+sources: [2507-tkhl-ps-halden_programm.txt, 2507-tkhl-ps-halden_fragenbeantwortung.txt, 2507-tkhl-ps-halden_abgabe-plaene.txt, 2507-tkhl-ps-halden_projekttext.txt, 2507-tkhl-ps-halden_sia416-abgabe.txt, 2507-tkhl-ps-halden_jurybericht.txt]
+links: [[delta-zum-ersten-rang]]
 ---
 
 # 2507 WETT TKHL — Neubau Tagesbetreuung und Kindergarten Halden (St.Gallen)
@@ -44,17 +44,25 @@ links: []
 - Kennwort: **LIMO** (Board-Ecken der eigenen Abgabe, jeweils rechts neben dem Vermerk
   «Neubau Tagesbetreuung PS Halden»; Text-Extrakt `2507-tkhl-ps-halden_abgabe-plaene.txt`,
   Z. 287, 460, 650, 715).
-- Resultat: **OFFEN — im lokalen Archiv liegt kein Jurybericht/Beurteilungsbericht vor.**
-  Gemäss Programmterminen wäre das Verfahren mit Stadtratsbeschluss Februar/März 2026 und
-  Information der Teilnehmenden März/April 2026 abgeschlossen; ein belegter Rang lässt sich
-  aus den vorhandenen Quellen (Programm, Fragenbeantwortung, eigene Abgabe, Projekttext)
-  aber nicht ableiten. Rang/Preis werden daher gemäss KB-Regel NICHT geraten, bis der
-  Jurybericht vorliegt (siehe Offene Fragen).
+- Resultat: **5. Rang, 4. Preis, Preissumme CHF 10'000** — von 51 eingereichten Beiträgen
+  (Bericht des Preisgerichts, März 2026, S. 20). 1. Rang/1. Preis: **«ZVIERI (1)», Nr. 04,
+  Richter Tobler GmbH Architekt*innen ETH SIA, Basel, CHF 40'000**; 2. Rang «CAMPO» Nr. 29
+  CHF 32'000; 3. Rang «QUATTRO» Nr. 44 CHF 26'000; 4. Rang/Ankauf «BALU» Nr. 24 CHF 15'000;
+  ausgeschieden ohne Rangierung: Nr. 40 «ANTON» (Bericht S. 19–20). Das Preisgericht
+  empfahl «ZVIERI (1)» einstimmig zur Weiterbearbeitung (Bericht S. 22). Quelle: Jurybericht
+  `2507-tkhl-ps-halden_jurybericht.txt` (Volltext-Extrakt, Original stadt.sg.ch, 68 Seiten).
 - Team: JANS (Raphael Jans Architekten ETH/SIA; Ablage im JANS-Wettbewerbsarchiv). Am
-  Erläuterungstext beteiligt war «Adrian» (Ablageordner `44 text adrian`, Datei `WBW_Jann.docx`);
-  die genaue Teamzusammensetzung und beigezogene Fachplaner sind aus den vorliegenden
-  Extrakten nicht abschliessend belegt (offene Frage). Der Beizug von Fachleuten
-  (Landschaft, Statik, Bauphysik) war empfohlen, aber freiwillig (Programm S. 8).
+  Erläuterungstext beteiligt war «Adrian» (Ablageordner `44 text adrian`, Datei `WBW_Jann.docx`).
+  **Abweichung im publizierten Jurybericht:** Die amtliche Verfasserliste (Bericht S. 41 und
+  S. 67, «Projekt Nr. 50») nennt für LIMO **«jann erhard architekt, Zürich»** (Architektur),
+  «motu Filippo Medolago, Zürich» (Landschaftsarchitektur) und «Eric Wuite» (Gebäudetechnik) —
+  nicht «Raphael Jans Architekten». Diese Zeile steht zweimal identisch im Bericht (Würdigung
+  und Gesamtliste), ist also kein Einzel-OCR-Fehler. Gemäss Rule `identifikatoren-verifizieren`
+  wird das **nicht gedeutet** (z. B. als Bürogemeinschaft/anderer Rechtsträger für diese
+  Eingabe) — offene Frage an Raphael, siehe unten. Die genaue Teamzusammensetzung und
+  beigezogene Fachplaner sind aus den vorliegenden Extrakten sonst nicht abschliessend
+  belegt. Der Beizug von Fachleuten (Landschaft, Statik, Bauphysik) war empfohlen, aber
+  freiwillig (Programm S. 8).
 
 ## 2. Programm-Soll
 
@@ -192,63 +200,134 @@ links: []
 
 ## 4. Jury-Urteil
 
-**Kein Jurybericht im lokalen Archiv — kein dokumentiertes Jury-Urteil, keine Zitate, kein
-Rang und kein Delta zum 1. Rang belegbar.** Gemäss KB-Regel wird das Resultat als **offen**
-geführt, bis ein Beurteilungsbericht vorliegt. Erst mit dem Jurybericht lässt sich beurteilen,
-wie die Jury die Kernentscheide von LIMO (kompakter vierstöckiger Holzbau im Hang, vier über
-Freitreppen/Loggien erschlossene Horteinheiten, Küche im EG als Herzstück, Kindergarten im
-Gartengeschoss) gegen die Wirtschaftlichkeits- (14-Mio.-Kostendach, Flächeneffizienz) und
-Nachhaltigkeitskriterien (EcoTool, SNBS-Indikatoren) gewichtet hat.
+### Würdigung LIMO (Nr. 50, 5. Rang) — Bericht S. 40–42
+
+**Lob:**
+- «Der kompakte, viergeschossige Baukörper» erzeugt mit der Ostfassade an der Hangkante
+  «eine attraktive, hofartige Situation als Erweiterung und stimmiges Gegenüber zum
+  bestehenden Pausenplatz» (Bericht S. 41).
+- Vier Horteinheiten mit konsequent getrennten Zugängen ab EG: «klare Organisation und
+  eine gute Entflechtung der Bewegungsströme»; Trennung Schuh-/Finkenbetrieb «sehr gut
+  gelöst»; Küche «übersichtlich im Erdgeschoss angeordnet» (Bericht S. 41).
+- Haustechnik: «überzeugt mit einem unterhaltsarmen Haustechnikkonzept» (luftgestütztes
+  Heizsystem über die Lüftungsanlage mit Wärmerückgewinnung, kaum Deckeninstallationen,
+  geringe Reaktionszeiten) (Bericht S. 42).
+- Konstruktion «mit Ausnahme der Bodenplatte und der erdberührten Abschlusswände
+  vollständig in Holz gedacht» — «konsequent den Ansatz einer kreislauffähigen Bauweise»;
+  Materialisierung im Innern «überzeugt durch Natürlichkeit, Einfachheit und einen
+  nachhaltigen Ansatz» (Bericht S. 42).
+- «Der geringe Aushub – dank lediglich eines Sockelgeschosses – ist aus nachhaltiger und
+  wirtschaftlicher Sicht vorteilhaft»; kompakter Fussabdruck wirkt sich «positiv auf die
+  Aussenflächen und die Gebäudekompaktheit aus» (Bericht S. 42).
+
+**Kritik:**
+- Geschossweise gespiegelte Grundrisse: «liegen die Steigzonen jedoch nicht übereinander,
+  was einen erhöhten Installationsaufwand nach sich ziehen kann» (Bericht S. 41).
+- Erschliessung über einläufige Aussentreppen «mit versetzten An- und Austrittspunkten» —
+  «räumlich interessante Abfolge», führt aber «teilweise zu längeren und weniger
+  übersichtlichen Betriebswegen» (Bericht S. 41).
+- Anlieferung Küche «am selben Ort wie die Zugänge zu den Horteinheiten, was betrieblich
+  noch optimiert werden könnte»; an anderer Stelle deutlicher: «aus Sicherheitsgründen
+  nicht erwünscht» (Bericht S. 41–42).
+- Kindergarten-Eingangs-/Garderobenbereich «eher knapp bemessen» (Bericht S. 41).
+- Auswirkungen der ca. 80 cm tieferen Absenkung des Hartplatzes auf den Baumbestand
+  «noch unklar und zu prüfen» — und, zentral: **«Die Grösse des Hartplatzes wird reduziert
+  auf ein Ballspielfeld»** (Bericht S. 41–42) — direkte Abweichung von der harten
+  Programmvorgabe «Hartplatz integral erhalten», die die allgemeinen Feststellungen des
+  Preisgerichts explizit als Vergabekriterium nennen (Bericht S. 20, s. u.).
+- Aussenraum-/Terraingestaltung «nur sehr schematisch dargestellt, Höhenangaben fehlen»
+  (Bericht S. 42).
+- Nachhaltigkeit: Zielwert Treibhausgase Erstellung 6 kg CO2-Eq./m²(EBF)a «nicht ganz
+  gewährleistet» (LIMO: 6.7 kg) — trotz hoher Eigenstromproduktion (–79.1 kWh) und
+  emissionsfreiem Betrieb (0.0 kg) (Bericht S. 42).
+
+### Delta zum 1. Rang («ZVIERI (1)», Nr. 04, Richter Tobler GmbH, Basel)
+
+1. **Hartplatz integral erhalten statt reduziert.** Die allgemeinen Feststellungen des
+   Preisgerichts rügen ausdrücklich, dass «einige Beiträge die Vorgaben eines Hartplatzes,
+   dessen Dimensionen und Funktionsweise ignoriert» haben (Bericht S. 20) — LIMO reduziert
+   den Hartplatz auf ein Ballspielfeld (S. 42), ZVIERI erhält ihn «an seinem Ort integral»
+   und ordnet den Neubau quer zum Terrain hangabwärts, gerade damit der Hartplatz bestehen
+   bleiben kann (Bericht S. 25). Eine explizit benannte, harte Programmvorgabe, an der LIMO
+   Punkte verlor.
+2. **Kurze, übersichtliche Betriebswege statt lange Aussentreppen.** ZVIERIs «Erschliessungs-
+   halle mit doppelläufigen Treppen erzeugt ein räumliches Ankunftserlebnis» und trennt
+   Sauber-/Schmutzerschliessung «beinahe vollständig» (Bericht S. 25); LIMOs einläufige
+   Aussentreppen mit versetzten Austrittspunkten führen zu «längeren und weniger
+   übersichtlichen Betriebswegen» (S. 41).
+3. **Installationslogik durchdacht statt gespiegelt.** LIMOs geschossweise gespiegelte
+   Grundrisse erhöhen den Installationsaufwand durch versetzte Steigzonen (S. 41) — bei
+   ZVIERI wird dieses Thema in der Würdigung nicht als Schwäche geführt.
+4. **Photovoltaik als architektonisches Motiv statt Zusatzelement.** ZVIERIs
+   Photovoltaik-Vordächer «bilden lokale Gesimse» und stellen «eine Höhenreferenz zur
+   Traufhöhe des Bestandes» her (Bericht S. 25) — bei LIMO bleibt die vorgelagerte
+   Sonnenschutz-/PV-Konstruktion ein technisches Fassadenelement ohne vergleichbare
+   städtebauliche Referenzfunktion.
+5. **Nachhaltigkeitszielwert erreicht statt knapp verfehlt.** ZVIERI erreicht mit 5.6 kg
+   CO2-Eq./m²a den Zielwert von 6 kg (Bericht S. 26); LIMO liegt mit 6.7 kg leicht darüber
+   (S. 42) — beide mit emissionsfreiem Betrieb, aber ZVIERI mit dem saubereren Nachweis.
+6. **Kein Gebäudehöhen-Abzug, obwohl beide vier Geschosse hoch bauen.** Auch ZVIERI stapelt
+   vier Geschosse («2 mal 2») und «setzt sich mit seiner Höhe gegenüber dem Bestand ab» —
+   wird dafür aber nicht gerügt, weil «mit dem Aussenhof und den Vordächern die Traufhöhe
+   des Bestandes bewusst» aufgenommen wird (Bericht S. 26). Die Vierstöckigkeit selbst war
+   also kein Ausschlusskriterium (die in Abschnitt 5 vermutete «Prüf-Frage ZöBA-Höhe» ist
+   damit beantwortet: nicht die Geschosszahl, sondern die kompositorische Einbindung der
+   Höhe entscheidet).
+
+Auch ZVIERI hatte benannte Vorbehalte (Fensterflächenreduktion und Überwärmungs-
+Simulationsbedarf, Lehmdecken-Prüfbedarf bei Speichermasse/Schallschutz, Brandschutzkonzept
+früh beizuziehen; Bericht S. 25–26) — sie wogen die städtebauliche und betriebliche
+Überlegenheit nicht auf.
 
 ## 5. Lessons / DNA
 
-Belastbare inhaltliche Lehren (Delta zum Siegerprojekt) sind erst nach Vorliegen des
-Juryberichts möglich. Aus Programm und eigener Abgabe lassen sich vorerst nur **Beobachtungen
-und Prüf-Thesen** festhalten:
+Bestätigte Lehren (Delta zum Siegerprojekt), Kandidaten für [[delta-zum-ersten-rang]]:
 
-- **Betrieb vor Skulptur (wie in `2102-muttenz`): der Auslober priorisiert einfache Abläufe.**
-  Das Programm betont mehrfach «möglichst einfache Strukturen und Abläufe», Entflechtung der
-  Bewegungsströme und Mehrfachnutzung Schule/Betreuung (Programm S. 5, 24, 30). LIMO
-  beantwortet das mit vier eigenständig über Loggien erschlossenen Horteinheiten und der
-  Küche als zentralem Verteiler im EG — ob die Jury das als betrieblich überzeugend oder als
-  erschliessungsintensiv (zwei Aussen-Freitreppen, doppelgeschossige Loggien) wertet, bleibt
-  bis zum Bericht offen.
-- **Kostendach ist hart (14 Mio.) — der kompakte Baukörper zahlt hier ein.** Anders als der
-  gestapelte, teuerste Beitrag in Muttenz setzt LIMO auf einen kompakten, geradlinig
-  abtragenden Holzbau (Hohlkasten, quer spannende Primärträger) — grundsätzlich günstig für
-  Flächeneffizienz und Erstellungskosten. Die SIA-416-Abgabe belegt dazu HNF/GF ≈ 54 %
-  (HNF 1'066.3 m² / GF 1'969.2 m²); ob das gegen die HNF/GF-Werte der Konkurrenz und das
-  14-Mio.-Kostendach genügte, ist erst mit dem Jurybericht (Wirtschaftlichkeitsprüfung der
-  engeren Wahl) beurteilbar.
-- **ZöBA ohne Grundmasse verlagert die Höhen-Frage auf «Verhältnis zur Umgebung».** Die
-  Fragenbeantwortung (Antwort 32) macht klar, dass in der ZöBA nicht die Bauordnung, sondern
-  die Einbettung ins drei- bis viergeschossige Umfeld die Geschossigkeit begrenzt. LIMOs
-  vierstöckiger Körper liegt an dieser oberen Grenze — ein bewusst gesetzter Prüfpunkt.
-- **Prozess-Lehre (wie `2503-glockenacker`): Ablage-Minimalstandard je Teilnahme.** Für 2507
-  liegen Programm, Fragenbeantwortung und eigene Abgabe vor, aber **kein Jurybericht** — genau
-  die Papierspur, die für die Wettbewerbs-DNA (Delta zum Sieg) entscheidend ist. Sobald der
-  Bericht der Stadt St.Gallen eintrifft, ist dieses Dossier zu vervollständigen und auf
-  `established` zu prüfen.
+- **Explizite Programmvorgaben sind Ausschlusskriterien, keine Vorschläge.** Die
+  allgemeinen Feststellungen der Jury sagen es direkt: Teilnehmende müssen sich vergegen-
+  wärtigen, «dass es sich dabei nicht um mögliche Vorschläge, sondern um einzuhaltende
+  Vorgaben handelte» (Bericht S. 20). LIMOs Reduktion des Hartplatzes auf ein Ballspielfeld
+  ist ein Lehrbuchfall dieser Regel — deckt sich mit Befund 1 (Betrieb/Nutzerlogik vor
+  Skulptur) in [[delta-zum-ersten-rang]] und schärft ihn: harte Flächen-/Erhalt-Vorgaben
+  im Programm sind vor Abgabe als Checkliste zu verifizieren, nicht nur die weichen
+  betrieblichen Ziele.
+- **Erschliessungs-Ökonomie schlägt Erschliessungs-Erlebnis.** LIMOs «räumlich
+  interessante» Aussentreppen-Abfolge wurde trotz architektonischem Reiz als betrieblich
+  nachteilig gewertet (lange, unübersichtliche Wege); ZVIERIs kompakte, doppelläufige
+  Innentreppe gewann. Bestätigt Befund 3 (kein Mehrwert ohne Nutzen) aus
+  [[delta-zum-ersten-rang]].
+- **Grundriss-Spiegelung ist eine Installationsfalle.** Konkreter, bisher in der KB nicht
+  belegter Zusatzbefund: geschossweises Spiegeln von Grundrissen aus gestalterischen
+  Gründen kann Steigzonen aus der Deckung bringen und den Installationsaufwand treiben —
+  bei der nächsten mehrgeschossigen Cluster-Typologie Steigzonen-Deckung als eigenen
+  Prüfpunkt vor Abgabe führen.
+- **Nachhaltigkeits-Zielwerte knapp verfehlt zählt, auch wenn die Eigenproduktion hoch
+  ist.** LIMO produzierte mit –79.1 kWh sogar mehr PV-Eigenstrom als der Sieger (–36.2 kWh),
+  verfehlte aber den Erstellungs-Zielwert (6.7 statt 6.0 kg CO2-Eq./m²a) knapper als ZVIERI
+  (5.6 kg) — die Jury bewertet den Erstellungs-Zielwert strenger als die Betriebsbilanz.
+- **Prozess-Lehre bestätigt (wie `2503-glockenacker`): Ablage-Minimalstandard.** Dossier
+  jetzt vollständig (Programm, Fragenbeantwortung, eigene Abgabe, Jurybericht) und auf
+  `established` mit Delta belegt.
 
 ## Offene Fragen (auch in wiki/QUESTIONS.md)
 
-- Resultat/Rang 2507 Halden: Wie hat das Preisgericht entschieden? Beurteilungsbericht der
-  Stadt St.Gallen beschaffen (Verfahren gemäss Programm mit Stadtratsbeschluss Feb/März 2026,
-  Information Teilnehmende März/April 2026, Ausstellung April/Mai 2026 — sollte per 12.07.2026
-  vorliegen). Bericht wird den Teilnehmenden zugestellt und der Fachpresse zur Publikation
-  gegeben; ggf. auf competitions.espazium.ch / konkurado.ch prüfen.
-- GF/NF/HNF sind aus dem SIA-416-Abgabeformular jetzt belegt (GF 1'969.2 m², NF 1'451.4 m²,
-  HNF 1'066.3 m²). Offen bleiben: **Gebäudevolumen GV (m³)** (im SIA-416-Formular nicht
+- **Verfasserangabe LIMO im Jurybericht («jann erhard architekt, Zürich») vs. Team JANS —
+  nur durch Raphael klärbar (nicht raten, Rule `identifikatoren-verifizieren`).** Der Bericht
+  nennt an beiden Stellen (Würdigung S. 41, Gesamtliste S. 67) durchgängig «jann erhard
+  architekt, Zürich» als Architektur-Verfasser von Nr. 50 LIMO, nicht «Raphael Jans
+  Architekten». Offen: war die Eingabe unter einem anderen/zusätzlichen Rechtsträger bzw.
+  einer Bürogemeinschaft eingereicht, oder betrifft die JANS-Archivablage in Wahrheit eine
+  eigene Bearbeitung/Beteiligung an einer fremdgeführten Eingabe? Bedeutung des Dateinamens
+  `WBW_Jann.docx` und der Rolle von «Adrian» (Ordner `44 text adrian`) im selben Licht klären.
+- GF/NF/HNF sind aus dem SIA-416-Abgabeformular belegt (GF 1'969.2 m², NF 1'451.4 m²,
+  HNF 1'066.3 m²). Weiterhin offen: **Gebäudevolumen GV (m³)** (im SIA-416-Formular nicht
   ausgewiesen; nur die parametrische Hüllen-Variantenstudie `250828 volumen hülle struktur
-  effizienz.xlsx` vorhanden, ohne definitiven GV der gebauten Variante), der **EcoTool-/THG-Wert**
-  und die geschätzten **Erstellungskosten gegen das 14-Mio.-Kostendach** (Formular Bauökonomie
-  bzw. Nachhaltigkeits-Erläuterungsbericht der Abgabe noch nicht extrahiert).
-- Team/Fachplaner von LIMO: Wer war federführend und welche Fachplaner (Landschaft, Statik,
-  Bauphysik) wurden beigezogen? Rolle von «Adrian» (Ordner `44 text adrian`, Datei `WBW_Jann.docx`)
-  und Bedeutung des Dateinamens klären.
-- Anzahl Geschosse/Höhenkonzept gegen die ZöBA-Rechtsprechung: Wie hat die Jury die
-  Vierstöckigkeit im Verhältnis zur drei-/viergeschossigen Umgebung beurteilt (nur mit Bericht
-  beantwortbar)?
+  effizienz.xlsx` vorhanden, ohne definitiven GV der gebauten Variante) und die geschätzten
+  **Erstellungskosten gegen das 14-Mio.-Kostendach** (im Jurybericht nicht projektspezifisch
+  beziffert, nur die THG-/PV-Kennwerte S. 42; Bauökonomie-Formular der Abgabe nicht
+  extrahiert).
+- Team/Fachplaner von LIMO: siehe Abweichungs-Frage oben — damit verknüpft, nicht mehr
+  separat offen.
 
 ## Quellen
 
@@ -262,4 +341,9 @@ und Prüf-Thesen** festhalten:
   (Text-Extrakt: `wissen/wettbewerbs-dna/raw/2507-tkhl-ps-halden_projekttext.txt`).
 - SIA-416-Abgabe (Berechnungen/Schemapläne 1:200, Kennwort LIMO): `/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2507 WETT TKHL/10 architekt/01 cad publisher/TKHL Plan rj SIA416/WETT Abgabe SIA 416.pdf`
   (Text-Extrakt: `wissen/wettbewerbs-dna/raw/2507-tkhl-ps-halden_sia416-abgabe.txt`; Werte GF/NF/HNF/NNF/VF/NGF je Geschoss und Total).
-- Jurybericht: **liegt im lokalen Archiv nicht vor** (noch zu beschaffen — siehe Offene Fragen).
+- Jurybericht: «Bericht des Preisgerichts», Stadt St.Gallen Hochbauamt, März 2026, 68 Seiten.
+  Amtliche Quelle stadt.sg.ch (Rubrik Ausschreibungen/Wettbewerbe Hochbauamt, Downloadliste
+  Halden), Datei «Halden TB KG Bericht 2026_ Stand_14.04.2026_klein.pdf» (57 MB, per curl
+  bezogen 24.07.2026; Text-Extrakt via `pdftotext -layout`, 68 Seiten, «PDFTron-Identity»-
+  Zeichensatzwarnungen ohne Textverlust). Text-Extrakt: `wissen/wettbewerbs-dna/raw/
+  2507-tkhl-ps-halden_jurybericht.txt`.

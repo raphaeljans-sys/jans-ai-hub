@@ -59,21 +59,16 @@ Stand: 14.07.2026 (Etappe-3-Start: Bauaufgaben-Blocker geschlossen)
 - **2101 KSSG:** Kein individuelles Jury-Feedback zu «LOUISE» (nur Sammelurteil
   2. Rundgang, Bericht S. 13) — welche Kritikpunkte den Ausschlag gaben, bleibt
   unbelegbar, sofern keine Nachbesprechungs-Notizen existieren.
-- **2507 TKHL Halden IST ENTSCHIEDEN — Jurybericht publiziert, Destillation fällig
-  (Befund Dauerschicht-Zyklus 15, 20.07.2026):** Medienmitteilung Stadt St.Gallen vom
-  **02.04.2026**: Siegerprojekt **«ZVIERI» der Richter Tobler GmbH, Basel**, vom
-  Preisgericht «einstimmig zum Wettbewerbssieger» gekürt, **51 eingereichte Beiträge**;
-  nächste Schritte: Vorprojekt + Kostenfeststellung, Baukredit voraussichtlich Sommer
-  2027, Eröffnung Schuljahr 2030/31; Ausstellung war 12.–27.05.2026 (verpasst). Der
-  **Jurybericht (Stand 14.04.2026) liegt als PDF auf stadt.sg.ch** (Rubrik Wettbewerbe
-  Hochbauamt, Downloadliste; Datei «Halden TB KG Bericht 2026_ Stand_14.04.2026_mittel
-  .pdf», >10 MB — WebFetch-Extraktion an der Groesse gescheitert, Download braucht
-  Freigabe Raphael). **Nächste Lektion:** PDF beschaffen → raw/-Extrakt → Dossier 2507
-  um Ergebnisteil ergänzen (Rang LIMO?) → Muster `delta-zum-ersten-rang` um 2507
-  erweitern → Refuter. **Methoden-Lehre:** competitions.espazium.ch war über 3 Monate
-  veraltet (Entscheid 02.04. dort bis mindestens 13.07. nicht sichtbar) — künftig IMMER
-  auch die Website der Ausloberin prüfen (hier stadt.sg.ch), espazium/konkurado sind
-  nachlaufende Sekundärquellen.
+- **Verfasserangabe LIMO im Jurybericht («jann erhard architekt, Zürich») vs. Team
+  JANS — offen, nur durch Raphael klärbar (24.07.2026, Nachtschicht Mac Mini):** Der
+  jetzt beschaffte Jurybericht 2507 (s. Archiv-Eintrag unten) nennt an zwei Stellen
+  (Würdigung S. 41, Gesamtliste S. 67) durchgängig **«jann erhard architekt, Zürich»**
+  als Architektur-Verfasser von Nr. 50 LIMO — nicht «Raphael Jans Architekten». Beide
+  Stellen sind identisch, also kein Einzel-OCR-Fehler. Details/Kontext in
+  `wiki/teilnahmen/2507-tkhl-ps-halden.md` Abschnitt 1 (Team) und «Offene Fragen».
+  **Nicht geraten** (Rule `identifikatoren-verifizieren`) — Raphael zu fragen, ob die
+  Eingabe unter einem anderen/zusaetzlichen Rechtstraeger bzw. einer Buerogemeinschaft
+  lief.
 - **Ausstehender Jurybericht 2501 Steinfabrik — neuer Termin «Sommer 2026» (7. Prüfung,
   22.07.2026):** konkurado.ch weiterhin ohne Jurybericht/Sieger (wie 6. Prüfung). Diesmal
   zusätzlich die Verfahrensbegleitung SUTER • VON KÄNEL • WILD direkt geprüft
@@ -96,6 +91,17 @@ Stand: 14.07.2026 (Etappe-3-Start: Bauaufgaben-Blocker geschlossen)
 
 ## Geklärt (Archiv)
 
+- **2507 TKHL Halden — Jurybericht beschafft, Dossier vervollständigt (24.07.2026,
+  Nachtschicht Mac Mini):** PDF via curl von stadt.sg.ch bezogen (57 MB, «klein»-
+  Auflösung, `pdftotext -layout` vollständig text-extrahierbar trotz Scan-Anteil),
+  Extrakt in `raw/2507-tkhl-ps-halden_jurybericht.txt`. Ergebnis: **LIMO 5. Rang /
+  4. Preis CHF 10'000** von 51 Beiträgen; Sieger «ZVIERI (1)» Richter Tobler GmbH
+  Basel. Dossier `wiki/teilnahmen/2507-tkhl-ps-halden.md` um Resultat, Lob/Kritik-
+  Zitate und Delta-zum-1.-Rang ergänzt; `muster/delta-zum-ersten-rang.md` auf 7
+  Dossiers erweitert (neuer Befund 11: harte Programmvorgaben sind Ausschluss-, keine
+  Qualitätskriterien — LIMO reduzierte den geforderten Hartplatz auf ein Ballspielfeld,
+  der Sieger erhielt ihn bewusst integral). Einzige neue offene Frage: die
+  Verfasserangabe im Bericht weicht vom Team JANS ab (separater Eintrag oben).
 - **Bauaufgaben-Prioritäten für Etappe 3 (14.07.2026, Entscheid Raphael):**
   1. Schulbau, 2. Healthcare, 3. Wohnungsbau. Damit ist Etappe 3 entblockt;
   Programm und Stand in `training/ETAPPE-3.md`. Steuert die Quellen-Sweeps

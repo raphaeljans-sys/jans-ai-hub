@@ -1,5 +1,30 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-24 — 2507 TKHL Halden: Jurybericht amtlich beschafft, Dossier + Muster vervollstaendigt (Mac Mini Nachtschicht, Dispatch-Run 20260724-063005)
+- Der seit 12.07.2026 faellige Jurybericht «Bericht des Preisgerichts» (Stadt St.Gallen
+  Hochbauamt, Maerz 2026, 68 S.) via curl von stadt.sg.ch bezogen (57 MB, «klein»-Aufloesung;
+  `pdftotext -layout` vollstaendig text-extrahierbar trotz Scan-Anteil, «PDFTron-Identity»-
+  Zeichensatzwarnungen ohne Textverlust). Neuer Raw-Extrakt
+  `raw/2507-tkhl-ps-halden_jurybericht.txt` (1.5 MB).
+- **Ergebnis LIMO (JANS): 5. Rang / 4. Preis, CHF 10'000, von 51 eingereichten Beitraegen.**
+  Sieger «ZVIERI (1)», Richter Tobler GmbH Architekt*innen ETH SIA, Basel (CHF 40'000,
+  einstimmige Empfehlung).
+- `wiki/teilnahmen/2507-tkhl-ps-halden.md` (Stammdaten Resultat, Jury-Urteil mit
+  Lob/Kritik-Zitaten, Delta-zum-1.-Rang-Abschnitt, Lessons, Quellen) auf Basis des
+  Jury-Volltexts ergaenzt.
+- `wiki/muster/delta-zum-ersten-rang.md` von 6 auf **7 Dossiers** erweitert; neuer
+  **Befund 11**: explizite, mengen-/erhaltbezogene Programmvorgaben (hier: Hartplatz
+  integral erhalten) sind Ausschluss-, keine Qualitaetskriterien — LIMO reduzierte den
+  Hartplatz auf ein Ballspielfeld, der Sieger setzte das Gebaeude bewusst so, dass der
+  Hartplatz vollstaendig erhalten blieb. Noch nicht refuter-verifiziert (vermerkt in
+  INDEX.md).
+- **1 neue offene Frage:** der Jurybericht nennt an zwei Stellen (S. 41, S. 67) den
+  Architektur-Verfasser von LIMO als «jann erhard architekt, Zürich», nicht «Raphael Jans
+  Architekten» — gemaess Rule `identifikatoren-verifizieren` nicht gedeutet, sondern als
+  Frage an Raphael in `wiki/QUESTIONS.md` und im Dossier festgehalten.
+- INDEX.md (Teilnahmen-Tabelle Zeile 2507, Muster-Abschnitt) nachgezogen. Verbrauch ~3.9
+  von 5 USD Nachtschicht-Budget.
+
 ## 2026-07-24 — Etappe 3, Baustein B2/B3 Healthcare Tranche 1 (Task wettbewerbs-dna-training, MacBook Pro Nachtlauf)
 - **3 externe Healthcare-Juryberichte beschafft, destilliert und refuter-verifiziert** (erste
   B2/B3-Tranche aus der B1-Sweep-Reserveliste, subtyp-gespreizt). Workflow-Fan-out (Pipeline):

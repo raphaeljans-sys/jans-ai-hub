@@ -1,39 +1,42 @@
 ---
-title: Delta zum 1. Rang — was JANS-Beitraege vom Sieg trennte (Muster ueber alle 6 verfuegbaren Dossiers)
+title: Delta zum 1. Rang — was JANS-Beitraege vom Sieg trennte (Muster ueber alle 7 verfuegbaren Dossiers)
 status: established
-last_updated: 2026-07-13
-sources: [teilnahmen/2101-kssg-h14.md, teilnahmen/2102-muttenz.md, teilnahmen/2103-steinhofschule.md, teilnahmen/2205-guggerbach.md, teilnahmen/2206-schoental.md, teilnahmen/2408-biwak-grassen.md]
-links: [[2101-kssg-h14]], [[2102-muttenz]], [[2103-steinhofschule]], [[2205-guggerbach]], [[2206-schoental]], [[2408-biwak-grassen]]
+last_updated: 2026-07-24
+sources: [teilnahmen/2101-kssg-h14.md, teilnahmen/2102-muttenz.md, teilnahmen/2103-steinhofschule.md, teilnahmen/2205-guggerbach.md, teilnahmen/2206-schoental.md, teilnahmen/2408-biwak-grassen.md, teilnahmen/2507-tkhl-ps-halden.md]
+links: [[2101-kssg-h14]], [[2102-muttenz]], [[2103-steinhofschule]], [[2205-guggerbach]], [[2206-schoental]], [[2408-biwak-grassen]], [[2507-tkhl-ps-halden]]
 ---
 
-# Delta zum 1. Rang — Muster ueber alle 6 verfuegbaren Dossiers
+# Delta zum 1. Rang — Muster ueber alle 7 verfuegbaren Dossiers
 
 Datenbasis: 2101 St.Gallen KSSG H14 (2. Rundgang ausgeschieden), 2102 Muttenz
 (4. Rang / 3. Preis), 2103 Luzern Steinhofschule (aus der engeren Wahl in den
 3. Rundgang zurueckgestuft), 2205 Guggerbach Davos (1. Rundgang ausgeschieden),
-2206 Schoental (3. Rang / 3. Preis), 2408 BIWAK/Grassen (2. Rundgang ausgeschieden).
-Belege in den verlinkten Dossiers; dieses Muster verdichtet nur, was dort
-quellenfest steht.
+2206 Schoental (3. Rang / 3. Preis), 2408 BIWAK/Grassen (2. Rundgang ausgeschieden),
+2507 TKHL Halden St.Gallen (5. Rang / 4. Preis). Belege in den verlinkten Dossiers;
+dieses Muster verdichtet nur, was dort quellenfest steht.
 
 **Vollstaendigkeits-Hinweis:** Von den 11 destillierten Teilnahmen liegt nur bei
-diesen 6 ein Jurybericht mit individueller Projektwuerdigung vor. Die restlichen 5
+diesen 7 ein Jurybericht mit individueller Projektwuerdigung vor (2507 seit
+24.07.2026 neu, Jurybericht amtlich bei stadt.sg.ch beschafft). Die restlichen 4
 (2104 Theater Luzern, 2207 Schliengerweg Basel, 2501 Steinfabrik Pfaeffikon, 2503
-Glockenacker, 2507 TKHL Halden) haben **kein** Jury-Feedback im Archiv (Resultat
-offen bzw. „nicht rangiert ohne Wuerdigung") — ein Delta zum 1. Rang ist dort
-strukturell nicht bildbar, nicht mangels Bearbeitung. Diese Verdichtung ist damit
-auf Basis der verfuegbaren Quellenlage vollstaendig; sie waechst automatisch, sobald
-fuer eines der 5 offenen Verfahren ein Jurybericht eintrifft (2501: Bericht Ende
-Maerz 2026 angekuendigt; 2507: seit 12.07.2026 faellig).
+Glockenacker) haben **kein** Jury-Feedback im Archiv (Resultat offen bzw. „nicht
+rangiert ohne Wuerdigung") — ein Delta zum 1. Rang ist dort strukturell nicht
+bildbar, nicht mangels Bearbeitung. Diese Verdichtung ist damit auf Basis der
+verfuegbaren Quellenlage vollstaendig; sie waechst automatisch, sobald fuer eines
+der 4 offenen Verfahren ein Jurybericht eintrifft (2501: Bericht seit Sommer 2026
+angekuendigt, 7. Pruefung 22.07.2026 weiterhin ohne Download).
 
 ## Befund 1 — Die JANS-Staerken sind konstant: Setzung und konstruktive Klarheit
 
-In allen sechs Verfahren wurde die staedtebauliche Setzung bzw. die konstruktive
+In allen sieben Verfahren wurde die staedtebauliche Setzung bzw. die konstruktive
 Einfachheit ausdruecklich gelobt oder zumindest nicht bemaengelt (Muttenz:
 «praezise gesetzter und kompakter Neubau», «hochwertige Architektur»; Schoental:
 «klare und einfache Setzung», wirtschaftlicher Holzbau; BIWAK: klare Referenz an
 den Ort; Steinhof: «didaktische Flexibilitaet» als «grosser Pluspunkt»; Guggerbach:
 «ueberzeugt auf den ersten Blick mit der Koernigkeit der Volumen», Baukoerper «in
-sich kompakt»). Die «Hardware» der Beitraege ist podestfaehig — verloren wird
+sich kompakt»; Halden/LIMO: kompakter Baukoerper erzeugt «eine attraktive, hofartige
+Situation», Konstruktion «konsequent» im Holzbau-Kreislaufansatz, Haustechnik
+«unterhaltsarm»). Die «Hardware» der Beitraege ist podestfaehig — verloren wird
 woanders.
 
 ## Befund 2 — Verloren wird am Betrieb / an der Nutzerlogik, nie an der reinen Architektur
@@ -175,6 +178,22 @@ zum architektonischen Hauptargument mit erlebbarem Mehrwert fuer ALLE Nutzer
 ausbauen (Cafe, Aufenthalt, Ausblick) — ein wiederkehrendes Muster bei Anlagen mit
 Bestand + Neubau.
 
+## Befund 11 — Explizite Programmvorgaben sind Ausschlusskriterien, keine Vorschlaege
+
+Halden/LIMO (2507): das Preisgericht haelt in den allgemeinen Feststellungen fest,
+dass Teilnehmende sich vergegenwaertigen muessen, «dass es sich dabei nicht um
+moegliche Vorschlaege, sondern um einzuhaltende Vorgaben handelte» (Bericht S. 20) —
+und ruegt namentlich Beitraege, die den geforderten Hartplatz «ignoriert» haben.
+LIMO reduzierte den Hartplatz auf ein Ballspielfeld (Bericht S. 42); der Sieger
+«ZVIERI» ordnete das Gebaeude quer zum Terrain, **gerade damit** der Hartplatz «an
+seinem Ort integral erhalten» blieb (Bericht S. 25) — eine bewusste Setzungs-
+Entscheidung zugunsten einer harten Vorgabe. **Regel:** harte, mengen-/erhalt-
+bezogene Programmvorgaben (Flaechen, Baumschutz, Bestandeselemente, die das
+Programm als «zu erhalten» statt «zu beruecksichtigen» bezeichnet) sind vor Abgabe
+als eigene Ja/Nein-Checkliste zu fuehren — getrennt von den weichen betrieblichen
+Zielen aus Befund 2, weil sie anders sanktioniert werden: nicht als Qualitaets-
+abzug, sondern als Grunderfuellungs-Maengel.
+
 ## Konsequenz fuers maschinelle Prozedere (Skill `wettbewerb`)
 
 Der Agent `programm-pruefer` erhaelt neben dem Flaechen-Soll/Ist eine zweite
@@ -192,11 +211,10 @@ Dritterschliessung).
 
 ## Offene Punkte
 
-- Diese Verdichtung deckt alle 6 Dossiers mit verfuegbarem Jury-Delta ab
+- Diese Verdichtung deckt alle 7 Dossiers mit verfuegbarem Jury-Delta ab
   (strukturelles Maximum bei aktueller Quellenlage). Nachschaerfen, sobald fuer
-  eines der 5 offenen Verfahren (2104, 2207, 2501, 2503, 2507) ein Jurybericht
-  eintrifft — insbesondere 2501 Steinfabrik (Bericht Ende Maerz 2026 angekuendigt)
-  und 2507 TKHL Halden (seit 12.07.2026 faellig).
+  eines der 4 offenen Verfahren (2104, 2207, 2501, 2503) ein Jurybericht eintrifft —
+  insbesondere 2501 Steinfabrik (Bericht seit Sommer 2026 angekuendigt).
 - Die Rang-Diskrepanzen 2102/2206 (Raphaels Erinnerung «2. Platz» vs. belegtem
   4./3. Rang) sind gemaess `outputs/2026-07-12_rang-klaerung-2102-2206.md` geklaert
   und aendern an den Delta-Befunden nichts.

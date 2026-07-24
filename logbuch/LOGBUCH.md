@@ -7,6 +7,26 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-24
 
+**Nachtschicht Mac Mini (~06:30, Wettbewerbsresultat 2507 Halden beschafft, Dispatch-Run
+20260724-063005).** Neunter Sweep im Nachtfenster: Queues weiterhin leer, Synobsis Stufe 2
+weiterhin gesaettigt. Priorität 5 (offene `QUESTIONS.md`) auf `wettbewerbs-dna` angewendet:
+der seit 12.07. faellige Jurybericht zum Wettbewerb «Tagesbetreuung und Kindergarten Halden»
+(Stadt St.Gallen) lag amtlich auf stadt.sg.ch bereit (URL via WebFetch gefunden, PDF 57 MB
+per curl bezogen, `pdftotext` trotz Scan-Anteil vollstaendig textbar). **Für Raphael relevant:**
+der eigene Wettbewerbsbeitrag **LIMO erreichte den 5. Rang / 4. Preis (CHF 10'000) von 51
+eingereichten Beitraegen**; Sieger wurde «ZVIERI (1)» von Richter Tobler GmbH, Basel
+(CHF 40'000, einstimmige Empfehlung). Dossier `wissen/wettbewerbs-dna/wiki/teilnahmen/
+2507-tkhl-ps-halden.md` um Ergebnis, Jury-Zitate (Lob/Kritik) und Delta-zum-1.-Rang ergaenzt;
+Muster `delta-zum-ersten-rang.md` von 6 auf 7 Dossiers erweitert (neuer Befund: harte
+Programmvorgaben wie „Hartplatz erhalten" sind Ausschluss- statt Qualitaetskriterien — LIMO
+reduzierte den Hartplatz auf ein Ballspielfeld, der Sieger erhielt ihn bewusst integral).
+**Offene Frage an Raphael:** der amtliche Jurybericht nennt den Architektur-Verfasser von
+LIMO zweimal als «jann erhard architekt, Zürich», nicht «Raphael Jans Architekten» (Bericht
+S. 41 + S. 67) — gemaess Identifikatoren-Regel nicht gedeutet, sondern in
+`wissen/wettbewerbs-dna/wiki/QUESTIONS.md` als Klaerungspunkt festgehalten (moegliche
+Buerogemeinschaft/anderer Rechtstraeger fuer diese Eingabe?). CHANGELOG + INDEX.md
+nachgezogen. Verbrauch ~4.0 von 5 USD.
+
 **Nachtschicht Mac Mini (~05:30, Wissenscheck koordination, Dispatch-Run 20260724-053003).**
 Achter Sweep im Nachtfenster: Queues weiterhin leer, Synobsis Stufe 2 weiterhin gesaettigt
 (12. Mal), alle drei Mac-Mini-Trainingsloops (energie, planungsgrundlagen, normen) bereits
