@@ -1,12 +1,19 @@
 # INDEX — KB wettbewerbs-dna
 
-Stand: 23.07.2026 (Etappe 3, **Baustein B1 Healthcare erledigt**: Quellen-Sweep
-`outputs/2026-07-23_etappe3-healthcare-sweep.md` via 6-Scout-Workflow-Fan-out — **48
-Kandidaten, 42 mit HTTP-verifiziertem freiem Jurybericht-PDF** (Ziel >=15/>=8 uebertroffen);
-Subtypen 22 pflegeheim-alterszentrum / 11 spital-klinik / 6 psychiatrie / 2 alterswohnen /
-3 gemischt; Luecken 0 rehabilitation + 0 reines gesundheitszentrum-aerztehaus (→ QUESTIONS).
-Empfohlener B2/B3-Batch von 9 subtyp-gespreizten Kandidaten markiert. Naechste offene Zelle:
-**Healthcare B2/B3** (destillieren + refutieren).) — vorher 21.07.2026 (Etappe 3, **Baustein B5 Schulbau erledigt — Schulbau (Prio 1) damit
+Stand: 24.07.2026 (Etappe 3, **Baustein B2/B3 Healthcare Tranche 1**: 3 externe Juryberichte
+destilliert + Refuter-verifiziert (established) — **kantonsspital-aarau-ksa** (spital-klinik,
+Sieger «Dreiklang»), **alterszentrum-sihlsana-adliswil** (pflegeheim-alterszentrum, Sieger
+«SOPHIE»), **ipw-klinik-schlosstal-winterthur** (psychiatrie, Sieger «GrassGreen»). Workflow-
+Pipeline 1 Extraktion (Sonnet) → 1 Refuter (Hauptmodell) gegen Raw-Extrakt, 6 Agenten/0 Fehler;
+KSA + Sihlsana Seitenbelege korrigiert, ipw fehlerfrei. Waldhaus Chur verworfen (Scan-PDF →
+QUESTIONS), ipw als psychiatrie-Reserve nachgerueckt. **Healthcare B3 nun 3/8**, drei Kern-
+Subtypen abgedeckt; Strukturbefund wie Schulbau: kaum publizierte GF/GV/HNF/CHF-m3. Naechste
+offene Zelle: **Healthcare B2/B3 Tranche 2**.) — vorher 23.07.2026 (Etappe 3, **Baustein B1
+Healthcare erledigt**: Quellen-Sweep `outputs/2026-07-23_etappe3-healthcare-sweep.md` via
+6-Scout-Workflow-Fan-out — **48 Kandidaten, 42 mit HTTP-verifiziertem freiem Jurybericht-PDF**
+(Ziel >=15/>=8 uebertroffen); Subtypen 22 pflegeheim-alterszentrum / 11 spital-klinik /
+6 psychiatrie / 2 alterswohnen / 3 gemischt; Luecken 0 rehabilitation + 0 reines
+gesundheitszentrum-aerztehaus (→ QUESTIONS).) — vorher 21.07.2026 (Etappe 3, **Baustein B5 Schulbau erledigt — Schulbau (Prio 1) damit
 VOLLSTAENDIG abgeschlossen, B1–B6**: maschinenlesbares Parameter-Set
 `entwurfs-referenzen/wiki/parameter-sets/schule-volksschule-ch.json` (v1.0) rein aus den
 established Mustern B6 + B4 abgeleitet, schema-valide + refuter-BESTANDEN; nur belegte Werte,

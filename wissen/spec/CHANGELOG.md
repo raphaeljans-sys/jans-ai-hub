@@ -1,5 +1,29 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-24 — Trainingslauf 27 (Verifikationslauf + Health-Check-Phase-2)
+- Output `outputs/2026-07-24_training-run27.md`. Keine neue reale Spec seit Lauf 24; statt
+  redundanter P1-Wiederholung die groesste offene Phase-2-Aktion des 23.07.-Health-Checks
+  ausgefuehrt.
+- **Audit F behoben — KB-weiter Umlaut-Korrekturdurchlauf:** alle 7 `wiki/`-Dateien via
+  `rechtschreibung`-Subagenten (Sonnet) in echte Umlaute ä/ö/ü gesetzt (~640 Ersetzungen),
+  `CLAUDE.md` selbst nachgezogen. Strikt nur echte deutsche Umlautwoerter; **eigene Verifikation
+  sauber** (0 Umlaut in URL/`[[slug]]`, alle ASCII-Identifikatoren erhalten: `ag-gruendung-monitor`
+  13×, `flaechen-nachweis` 2×, `programm-pruefer` 7×, `syn02-spec-anstoss` 3×, keine korrumpierten
+  Varianten, keine verbliebenen ASCII-Umlautwoerter). Ortsname «Schoental» als Eigenname-Grenzfall
+  bewusst unangetastet.
+- **Audit B + E (the-spec.md, 22 Tage offen) behoben:** Selbst-Zitat Z. 15 auf die RAW-Datei
+  statt den eigenen Slug umgebogen; `last_updated` 06-21 → 07-24 (alle heute beruehrten Artikel
+  auf 07-24).
+- **Audit D (`_INGESTED.md`) behoben:** Karpathy/Cherny/Plan-Mode von «offen» auf «EINGELÖST»
+  (URL + Wiki-Verweis); nur Original-Screenshots bleiben offen.
+- **Prozess-Verankerung:** neue Leitplanke in `training/PROGRAMM.md` — Umlaut-Gegenpruefung vor
+  jedem Commit (Health-Check-Empfehlung «Verifikation im Loop, nicht erst im naechsten Check»).
+- **Bewusst nicht getan:** CHANGELOG-Historie nicht umgeschrieben (ausserhalb Audit-F-Scope
+  `wiki/*.md`; neue Eintraege ab heute in Umlauten); kein erfundenes Methodik-Refinement (Gate-
+  Ueberdehnung nach innen); Rule `spec-methode.md` unveraendert; kein Mailversand.
+- Offen: SYN-02-MVP Block 1 ungebaut; F1-Ueberdehnungs-Gegentest unbelegt; F3 Marketing/Text;
+  optionaler CHANGELOG-Historien-Umlautsweep (niedrige Prioritaet).
+
 ## 2026-07-23 — Wissens-Health-Check (Skill wissenscheck, Phase 1, Mac Mini Nachtschicht)
 Aeltestes Audit-Datum aller KBs (letzter Check 01.07., 22 Tage). A gruen, B gelb (Selbst-Zitat
 `the-spec.md` haelt seit 22 Tagen), C gruen (Cherny-Claim seit 03.07. belegt; Environment-

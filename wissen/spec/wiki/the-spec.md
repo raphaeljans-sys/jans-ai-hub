@@ -12,7 +12,7 @@ links: [[3-schritte-spec]], [[verifier]], [[environment-jans-hub]], [[anwendung-
 *Verständnis* als nutzbare Spezifikation. **PROMPTS → SPECS.** Erst planen (Spec), dann
 bauen — das, was Anthropic den "Plan Mode" nennt. Ablaufkette
 **Goals → Requirements → Spec → Implementation**
-(Quelle: [[the-spec]] RAW-Transkript Marchese).
+(Quelle: RAW-Transkript Marchese, `260616_marchese_the-spec_karpathy-method_transkript.md`).
 
 > **Primärquelle Plan Mode (F5 eingelöst, 2026-06-27):** Anthropic Claude-Code-Doku,
 > "Common workflows → Plan before editing": *"For changes you want to review before they

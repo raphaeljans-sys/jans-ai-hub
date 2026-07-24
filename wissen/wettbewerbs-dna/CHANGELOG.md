@@ -1,5 +1,33 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-24 — Etappe 3, Baustein B2/B3 Healthcare Tranche 1 (Task wettbewerbs-dna-training, MacBook Pro Nachtlauf)
+- **3 externe Healthcare-Juryberichte beschafft, destilliert und refuter-verifiziert** (erste
+  B2/B3-Tranche aus der B1-Sweep-Reserveliste, subtyp-gespreizt). Workflow-Fan-out (Pipeline):
+  je 1 Extraktions-Agent (Sonnet) → 1 unabhaengiger Refuter (Hauptmodell) gegen den Raw-Extrakt;
+  6 Agenten, 0 Fehler, ~1.13 Mio. Subagent-Tokens.
+  - **kantonsspital-aarau-ksa** (spital-klinik, AG 2019): zweistufiger Gesamtleistungswettbewerb,
+    Sieger «Dreiklang» (ARGE Marti/BAM + Burckhardt+Partner + Woerner Traxler Richter). Refuter
+    korrigierte mehrere Seitenbelege (u.a. zwei 1.-/2.-Stufen-Verwechslungen ~20-30 Seiten Drift),
+    danach established.
+  - **alterszentrum-sihlsana-adliswil** (pflegeheim-alterszentrum, ZH 2019): Sieger «SOPHIE»
+    (Schmidlin Architekten). 136 Pflegeplaetze (36 Demenz) + 60 Alterswohnungen, Kostenziel
+    CHF 73 Mio. Refuter korrigierte ~8 Verfahrens-Seitenbelege (S. 7↔6/8, Kostenplanung S. 6→15),
+    danach established.
+  - **ipw-klinik-schlosstal-winterthur** (psychiatrie, ZH 2015): Sieger «GrassGreen» (Bollhalder
+    Eberle). Refuter fand KEINE Fehler (alle Seitenbelege ueber Fusszeilen-Zaehlung bestaetigt),
+    established.
+- **Waldhaus Chur (Akutpsychiatrie GR)** aus dem empfohlenen Batch **verworfen**: reines
+  Scan-/Bild-PDF (3 Zeichen/Seite, Retry ohne -layout erfolglos) → QUESTIONS; ipw Schlosstal aus
+  der Reserveliste als psychiatrie-Ersatz nachgerueckt (Fehlerpfad «OCR-Scan» + «Reserve rueckt nach»).
+- **Kennwert-Ernte fuer B6:** die Refuter sammelten die belegten numerischen Werte (KSA: ~50'000 m2
+  HNF-Ziel / max. 500 Betten / Budget CHF 600 Mio. / Normzimmer 21 m2 / Tragwerksraster 7.5x7.5 m;
+  Sihlsana: 136 Pflegeplaetze + 60 Wohnungen / Perimeter 12'100 m2 / Kostenziel CHF 73 Mio.;
+  ipw: Stationen a 20 Betten, Privatstation 16). **Strukturbefund bestaetigt sich wie im Schulbau:**
+  Juryberichte publizieren fast nie projektbezogene GF/GV/HNF- oder CHF/m3-Werte (nur qualitative
+  Wirtschaftlichkeits-Wuerdigung) — fuer B6 Healthcare vormerken.
+- Kollisions-Check (Rule 260724) vor Beginn: keine zweite Instanz. Stand: Healthcare B3 nun 3/8.
+  Naechste Zelle: Healthcare B2/B3 Tranche 2 (weitere Reserve-Kandidaten) bis B3-Ziel (>=8).
+
 ## 2026-07-23 — Etappe 3, Baustein B1 Healthcare erledigt (Task wettbewerbs-dna-training, MacBook Pro Nachtlauf)
 - **Quellen-Sweep Healthcare** als Workflow-Fan-out ueber 6 Scouts (espazium, zuerich,
   bern-basel, luzern-ostschweiz, weitere-kantone, konkurado-traeger; general-purpose-Agenten

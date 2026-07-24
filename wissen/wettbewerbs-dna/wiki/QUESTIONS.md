@@ -3,6 +3,14 @@
 Stand: 14.07.2026 (Etappe-3-Start: Bauaufgaben-Blocker geschlossen)
 
 ## Offen
+- **Waldhaus Chur Akutpsychiatrie (GR) ist als Jurybericht nicht text-extrahierbar (Befund B2/B3
+  Healthcare, 24.07.2026):** Das empfohlene Batch-PDF `20170906_bericht_preisgericht.pdf` (espazium-S3,
+  13.98 MB) ist ein reines Scan-/Bild-PDF (pdftotext liefert 3 Zeichen/Seite, Retry ohne -layout
+  erfolglos; nur wenige eingebettete Label-Fonts). Fuer die Tranche 1 durch ipw Klinik Schlosstal
+  Winterthur ersetzt (gleicher Subtyp psychiatrie). **Fuer die DNA:** entweder OCR-Lauf (z.B. ocrmypdf
+  auf dem Mac Mini als lokaler Task) oder eine text-basierte Zweitquelle des Waldhaus-Berichts suchen,
+  oder den Kandidaten aus der Reserve streichen. Bis dahin traegt das Psychiatrie-Muster keine
+  Waldhaus-Chur-Aussagen (ipw + kuenftige Reserve-Psychiatrie decken den Subtyp ab).
 - **Healthcare-Subtyp «rehabilitation» im Sweep nicht gefunden (Befund B1 Healthcare,
   23.07.2026):** Der 6-Scout-Sweep (48 Kandidaten) fand 0 entschiedene Reha-Wettbewerbe mit
   freiem Jurybericht (Reha-Klinik/Rehazentrum). Reha-Neubauten laufen in der CH oft ueber

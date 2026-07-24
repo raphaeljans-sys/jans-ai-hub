@@ -47,6 +47,14 @@ werden zwei Typen unterschieden:
   Gate-Ueberdehnung (dasselbe Prinzip wie die Leitplanke unten, nach innen gerichtet).
 
 ## Leitplanken
+- **Echte Umlaute vor jedem Commit pruefen (seit Lauf 27, 24.07.2026):** jeder eigene
+  Trainings-Output UND jede Wiki-Edit wird vor dem Commit gegen `ae|oe|ue` gegengeprueft
+  (`grep -nE '\b(fuer|muessen|koennen|haelt|waere|naechste|Pruefung|gemaess|zurueck|ueber|
+  Gebaeude|moeglich|Loesung|geloest|Aenderung|Ueberdehnung)\b'` o.ae.) und in echte Umlaute
+  ä/ö/ü gesetzt (Rule `umlaute-konvention`, KB-`CLAUDE.md`). Grund: der 01.07.-Health-Check
+  bewertete den KB-weiten Umlaut-Verstoss (968 Ersatzschreibungen) faelschlich gruen; erst
+  Lauf 26/27 korrigierten ihn KB-weit. Verifikation gehoert in den Loop, nicht erst in den
+  naechsten Health-Check. ASCII bleibt Pflicht in Datei-/Ordner-/Slug-/Code-Identifikatoren.
 - **Nichts erfinden:** Methodik-Aussagen belegt halten; Unbelegtes bleibt `speculative`.
 - **Gate nicht ueberdehnen:** das Ziel ist, dass die Spec-Methode *hilft*, nicht dass sie
   jeden Mini-Auftrag verzoegert. Lieber praeziser triggern als oefter.
