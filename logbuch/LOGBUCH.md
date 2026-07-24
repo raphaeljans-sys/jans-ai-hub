@@ -7,6 +7,23 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-24
 
+**Nachtschicht Mac Mini (~02:30, alle sechs Prioritaeten ohne Treffer, Dispatch-Run
+20260724-023002).** Fuenfter Sweep im selben Nachtfenster (nach 22:30/23:35/00:30/01:30):
+Queues (`remote-tasks/pending`, `sync-tasks/mac-mini`) leer. Synobsis Stufe 2 weiterhin
+gesaettigt (12. Leerlauf in Folge, letzter Commit 02:30 durch den launchd-Job selbst).
+Fristen-Register zuletzt 23.07. per Radar-Lauf aktualisiert, naechster planmaessiger
+Radar (`logbuch-radar`) erst 06:45 — kein unbeobachtetes Ueberfaelliges seit gestern,
+kein Grund fuer eine vorgezogene Zusammenstellung. Alle 16 KB-CHANGELOGs zeigen Aktivitaet
+innert der letzten 24 Std (aeltestes: `architekten-synobsis` 02:20 durch den Batch-Job selbst).
+Wissenscheck-Kandidaten mit aeltestem Health-Check-Datum (`koordination` 20.07., `normen`
+20.07.) sind beide bereits in fruaeheren Sweeps dieser Nacht explizit geprueft und als
+ungeeignet verworfen (koordination = sich selbst taeglich auditierende Meta-KB, normen =
+zu gross fuer das Nachtschicht-Budget, in dessen QUESTIONS.md vermerkt). QUESTIONS.md-Check
+in `auflagebereinigung` (nur 1 offener, nicht spruchreifer Punkt) und `projekt-lessons`
+(KB noch ohne Rohmaterial, seit 02.06. unveraendert) ergab ebenfalls keinen tragfaehigen
+Kleinauftrag. Keine Aktion erfunden — Zyklus bewusst ohne neues Deliverable beendet.
+Verbrauch: ~1,4 von 5 USD.
+
 **Nachtschicht Mac Mini (~01:30, KB-Wartung grobkosten, Dispatch-Run 20260724-013006).**
 Vierter Prioritaeten-Sweep im Nachtfenster fand bei den ueblichen Prioritaeten (Queues,
 Synobsis, Training) erneut nichts Neues — aber ein Cross-KB-CHANGELOG-Alterscheck zeigte
