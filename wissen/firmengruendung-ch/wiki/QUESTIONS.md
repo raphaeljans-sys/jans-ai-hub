@@ -1,8 +1,6 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Firmengründung Schweiz)
 
 ## Offene Wissenslücken (Coverage-Gaps)
-- **Holding-Struktur** über die bestehende Raphael Jans AG (Beteiligungen, Steuer-
-  optimierung, Nachfolge) — noch kein Artikel.
 - **Steuern bei Gründung** (Kapital-, Gewinn-, Verrechnungssteuer, MWST-Pflicht-
   Schwelle CHF 100'000 Umsatz) — Gründungsteil weiterhin offen. Die laufende
   Steueroptimierung des Inhabers ist seit 20.07.2026 als Wiki-Artikel
@@ -24,6 +22,16 @@
 - Noch keine erfasst.
 
 ## Beantwortete Fragen (Archiv)
+- **Holding-Struktur über die bestehende AG (24.07.2026, Nachtschicht-Zyklus Mac Mini):**
+  Neuer Artikel [[holding-struktur]]. Kernbefunde: kantonales Holdingprivileg seit STAF
+  01.01.2020 abgeschafft; bundesrechtlicher Beteiligungsabzug Art. 69/70 DBG bleibt
+  (Schwellen 10 % Kapital/Gewinn ODER Verkehrswert ≥ CHF 1 Mio.); zentrale Steuerfalle bei
+  Einbringung der eigenen AG in eine neu gegründete Holding ist die Transponierung
+  (Art. 20a Abs. 1 lit. b DBG, keine Bagatellgrenze); verwandt die indirekte
+  Teilliquidation (Art. 20a Abs. 1 lit. a DBG, 20-%-Schwelle/5-Jahres-Frist) bei Verkauf
+  an Dritte. Art. 69/70 und 20a DBG direkt am Fedlex-Volltext verifiziert (Filestore-
+  Methode). Fazit: ohne weitere Beteiligungen/Immobilien/Verkaufsabsicht aktuell kein
+  Mehrwert für die Raphael Jans AG.
 - **Nach-Gründung im Detail: AHV/BVG/UVG/MWST (22.07.2026, Nachtschicht-Zyklus Mac Mini):**
   Neuer Artikel [[nachgruendung-anmeldungen]] als Detaillierung von Schritt 13 in
   [[ag-gruendungsablauf]]. Kernbefunde: AHV-Ausgleichskasse meldet sich nach

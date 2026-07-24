@@ -89,11 +89,10 @@ Zahlenstand: Steuerjahr 2026 (⚠ Beträge altern — 3a-Maximum und Sätze jäh
 5. Vorsorgeplan der AG prüfen (Sparbeiträge erhöhen / Kaderplan) — wirkt ab Folgejahr.
 
 ## Offene Punkte
-- Holding-Struktur: eigener Artikel ausstehend (siehe QUESTIONS) — lohnt erst bei
-  Beteiligungen/Immobilien in der Gesellschaft oder Verkaufsabsicht.
 - 1e-Schwellenwert und konkretes PK-Einkaufspotenzial je Vorsorgeausweis erheben
   (*needs-verification*, Bring-Schuld Inhaber).
 
 **Backlinks:** [[rechtsform-vergleich]] (Steuerprofil der Rechtsformen) ·
 [[kapital-und-liberierung]] (Agio/KER-Entstehung) · [[revision-und-opting-out]]
-(Governance-Rahmen für Dividendenbeschlüsse).
+(Governance-Rahmen für Dividendenbeschlüsse) · [[holding-struktur]] (Beteiligungsabzug,
+Transponierungsfalle bei Einbringung in eine Holding — seit 24.07.2026 vertieft).

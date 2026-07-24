@@ -7,6 +7,23 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-24
 
+**Nachtschicht Mac Mini (~03:30, KB-Wachstum firmengruendung-ch, Dispatch-Run
+20260724-033007).** Sechster Sweep im Nachtfenster: Queues weiterhin leer, Synobsis
+Stufe 2 weiterhin gesaettigt. Priorität 5 (offene `QUESTIONS.md`) diesmal auf den zwei
+aeltesten noch ungeprueften KBs `kunde-bopp` und `firmengruendung-ch` angewendet:
+`kunde-bopp` verlangt Mail-/OneDrive-Recherche zu vier Projektfaellen (zu gross fuer
+Nachtschicht-Budget, ausserdem OneDrive-Stall-Risiko), `firmengruendung-ch` hatte den
+klar umrissenen Backlog-Punkt „Holding-Struktur ueber bestehende AG". Neuer
+Wiki-Artikel `wissen/firmengruendung-ch/wiki/holding-struktur.md`: kantonales
+Holdingprivileg seit STAF 01.01.2020 abgeschafft, Beteiligungsabzug Art. 69/70 DBG
+bleibt (Schwellen 10 % Kapital/Gewinn oder Verkehrswert ≥ CHF 1 Mio.), zentrale
+Steuerfalle bei Einbringung der eigenen AG in eine neu gegruendete Holding ist die
+Transponierung (Art. 20a Abs. 1 lit. b DBG, keine Bagatellgrenze), verwandt die
+indirekte Teilliquidation (Art. 20a Abs. 1 lit. a DBG) bei Verkauf an Dritte. Art.
+69/70 und 20a DBG direkt am Fedlex-Volltext verifiziert (Filestore-Methode Rule
+260721), nicht nur Sekundaerquellen. QUESTIONS.md/INDEX.md/CHANGELOG aktualisiert,
+Backlink in `steuern-ag-inhaber.md` ergaenzt. Verbrauch ~2,2 von 5 USD.
+
 **Nachtschicht Mac Mini (~02:30, alle sechs Prioritaeten ohne Treffer, Dispatch-Run
 20260724-023002).** Fuenfter Sweep im selben Nachtfenster (nach 22:30/23:35/00:30/01:30):
 Queues (`remote-tasks/pending`, `sync-tasks/mac-mini`) leer. Synobsis Stufe 2 weiterhin

@@ -1417,3 +1417,37 @@ jemanden kennen» (Register per Person via @-Mention, bereits belegt). Quelle: 1
   fliessen als Marker ein. Mapping-Ergänzung: Dr. David Chaled (Privatkunde, Dachgeschoss-Projekt)
   → Sie, «Lieber Herr Chaled» / «Liebe Grüsse». (Nachtrag Batch 50, 2026-06-07, authentisch, Body
   ausgeschlossen)
+
+## Batch 59 (2026-06-30 bis 2026-07-02): gestapelte Anrede mit vier Register-Stufen in EINER Zeile; Sie+Du-Split in der Zwei-Personen-Firmen-Anrede
+
+- **Vier-Stufen-Stapel im Gruppen-Du (genau eine Anredezeile, vier kalibrierte Wärmegrade):** an
+  das KISPI-Küchenbau-Team schreibt er «Liebe Stefi, geschätzer Albin, werter Fabian, hoi Michi»
+  (30.06., authentisch handgetippt, Slip «geschätzer»). Jeder Empfänger erhält in derselben Zeile
+  sein eigenes Register: «Liebe» (warm-weiblich) → «geschätzer» (warm) → «werter» (warm-formeller)
+  → «hoi» (locker). → Präzisiert den bereits belegten gemischt-Gender-Gruppen-Du: die Stufung ist
+  nicht nur Genus-korrekt, sondern **pro Person wärmefein abgestuft**; die Reihenfolge folgt der
+  Beziehungsnähe/dem Anlass, nicht dem Alphabet. Nicht glätten.
+- **Sie-Lead + Du-Zweiter in der Zwei-Personen-Firmen-Anrede, Body oszilliert:** an eine Sanitär-
+  firma «Geschätzte Frau Mehari, / Werter Felix.» (02.07., authentisch) — die formell-bekannte
+  Ansprechpartnerin im Sie-nahen «Geschätzte Frau», der vertrautere Zweitkontakt im Vornamen-Du
+  «Werter Felix». Der Body kippt dann zwischen beidem: «bei Euch … Eurem Angebot» (Du-Plural) ↔
+  «bestätigen Sie uns … Wir bitten Sie, uns Ihr … Angebot» (Sie) ↔ «Für Eure Rückmeldung bin Ich
+  dankbar» (Du-Plural, Slip Gross-«Ich»). → **Die Instabilität ist der Marker** (wie schon Batch 55
+  Duran): bei einer Firma mit einem bekannt-wärmeren Zweitkontakt mischt er Sie und Plural-Du in
+  derselben Mail, statt sich für eine Stufe zu entscheiden. Nicht vereinheitlichen.
+- **Gestapelter warm-abgestufter Sie an ein Fachplaner-Duo bestätigt:** «Geschätzter Herr Kübler,
+  werter Herr Duran,» (30.06., an Gruner AG) — «Geschätzter» für den Lead, «werter» für den
+  Zweiten, beide im Sie. Bestätigt das Batch-57-Muster «Geschätzter Herr X, / Werter Herr Y».
+- **Mappings (Batch 59, KISPI PPTS + Albertstrasse 7 Nova + Thalwil 2414):** Stefanie «Stefi»
+  Sonderegger (KISPI-Betreiberin) → «Liebe Stefi/Steffi», Du; Fabian Würsch, Michael «Michi»
+  Spörri, Albin Spahic (KISPI) → Du, gestapelt; Marco Schwander/Gastro-Online («Hoi Raphi») →
+  Du «Geschätzter Marco»/«Lieber Gruss»; Tobias Inniger/Schreinermanufaktur (Küchenbauer) → Sie
+  «Geschätzter Herr Inniger»; Gerhard «Gerry» Scherbl/Wintec (Private Kontrolle) → Du «Hoi Gerry»;
+  Benjamin Kübler + Cekdar Duran/Gruner → Sie «Geschätzter Herr … werter Herr …»; Livdin Bajrami/
+  Jegen («Grüzi Herr Bayramı», warm-knapper Telefon-Service-Sie) → Sie; Andreas Rufer + Frau
+  Arzner/R. Brunner AG (Schreinerei) → Sie «Geschätzter Herr Rufer»/«Geschätzte Frau Arzner»;
+  Herr Hotz/Schreinerei Hotz (Referral über Giacometti) → Sie «Geschätzter Herr Hotz»; Frau Mehari
+  + «Werter Felix»/Stählin AG (Sanitär) → Sie+Du-Split; Stefan Tschopp (Bauherr-Partner Thalwil) →
+  Du «Geschätzter Stefan»/«Lieber Gruss»; SBB-Grundstücksmanagement (Fegerl-Vigen, dann Wiedmer) →
+  formell «Sehr geehrte Frau …». (Batch 59, authentisch, Küchenbau-Reply an Steffi als Echo-Falle 19
+  ausgeschlossen — siehe [[stimme]].)

@@ -30,16 +30,17 @@
 
 ### Steuern (laufend)
 - [[steuern-ag-inhaber]] — Steuerhebel des AG-Inhabers ZH: PK-Einkauf, Säule 3a, Lohn/Dividende, situative Hebel, Jahresende-Checkliste · *established* (promoviert aus Output 02.07.2026)
+- [[holding-struktur]] — Beteiligungsabzug Art. 69/70 DBG, Transponierungsfalle bei Einbringung,
+  indirekte Teilliquidation, Übernahmeholding bei Nachfolge · *established* (Art. 69/70 + 20a
+  DBG Fedlex-verifiziert)
 
 ## Backlog / Lücken
 Siehe [[QUESTIONS]]:
-- Holding-Struktur über bestehende AG (Beteiligungen/Steuer/Nachfolge)
 - Steuern bei Gründung/laufend (Kapital-, Gewinn-, Verrechnungssteuer)
 - Verwaltungsrat: Pflichten, Haftung, Konstituierung (eigener Artikel)
 
-## Statistik (Stand 2026-07-22)
-- Artikel im Wiki: 10
-- Offene Coverage-Lücken: 3 (siehe Backlog oben; Nach-Gründung AHV/BVG/UVG/MWST am
-  22.07.2026 geschlossen)
+## Statistik (Stand 2026-07-24)
+- Artikel im Wiki: 11
+- Offene Coverage-Lücken: 2 (siehe Backlog oben; Holding-Struktur am 24.07.2026 geschlossen)
 - Outputs: 3 (neue-ag-gruenden_vorgehen, health-check 2026-07-01, steuern-sparen-ag-inhaber)
 - Letzter Health-Check: 2026-07-21 (Mac Mini Nachtschicht)

@@ -3,6 +3,21 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-24 — Neuer Artikel: Holding-Struktur über eine bestehende AG (Nachtschicht-Zyklus Mac Mini, ~03:30)
+- [ingest] Backlog-Lücke aus `QUESTIONS.md` («Holding-Struktur über bestehende AG») geschlossen:
+  neuer Artikel [[holding-struktur]]. Kernbefunde: kantonales Holdingprivileg seit STAF
+  01.01.2020 abgeschafft (ordentliche kantonale Gewinnsteuer); bundesrechtlicher
+  Beteiligungsabzug Art. 69/70 DBG bleibt (Schwellen 10 % Kapital ODER 10 % Gewinn/Reserven
+  ODER Verkehrswert ≥ CHF 1 Mio., Kapitalgewinne nur ab 10 % + 1 Jahr Haltedauer); zentrale
+  Steuerfalle bei Einbringung der eigenen AG in eine neu gegründete Holding ist die
+  **Transponierung** (Art. 20a Abs. 1 lit. b DBG — Gegenleistung darf Nennwert + KER nicht
+  übersteigen, sonst Einkommenssteuer auf der Differenz, keine Bagatellgrenze); verwandt die
+  **indirekte Teilliquidation** (Art. 20a Abs. 1 lit. a DBG, 20-%-Schwelle, 5-Jahres-Frist,
+  bei Verkauf an Dritte). Art. 69/70 und 20a DBG **direkt am Fedlex-Volltext verifiziert**
+  (Filestore-Methode, Rule 260721) — nicht nur Sekundärquellen. Fazit für die Raphael Jans AG:
+  ohne weitere Beteiligungen/Immobilien/Verkaufsabsicht aktuell kein Mehrwert, nur
+  Mehraufwand — Backlink-Update in [[steuern-ag-inhaber]] (Offener Punkt geschlossen).
+
 ## 2026-07-22 — Neuer Artikel: Nach der Gründung — AHV/BVG/UVG/MWST-Anmeldungen (Nachtschicht-Zyklus Mac Mini, ~06:15)
 - [ingest] Backlog-Lücke aus `QUESTIONS.md` («Nach-Gründung im Detail») geschlossen:
   neuer Artikel [[nachgruendung-anmeldungen]] (Detaillierung Schritt 13 in
