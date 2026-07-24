@@ -102,8 +102,15 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   <Vorname>», Architektenkollege/Wettbewerbspartner→Peer-Du «Guten Morgen <Vorname>» + «Lieber
   Gruss», Privatkunde-Sie warm→Guten Tag, warm-sozial/branchenfern→Liebe/r + ev. 😊 + «Beste
   Grüsse», rein privat-sozial mit Mundart-Spiegel→Mundart, Fachplaner/extern→Sie, kalt→Sehr
-  geehrte. Behörde nach Vertrautheit (bekannt→Geschätzte/r, unbekannte Fachstelle→Sehr geehrte/r,
-  Service→Grüezi, gestapelt bei mehreren). Anrede mit wachsender Vertrautheit nachziehen; Opener
+  geehrte. Behörde nach Vertrautheit UND Gewicht des Anliegens (bekannt→Geschätzte/r; unbekanntes/
+  generisches Postfach: triviale Service-/Koordinations-/Technik-Bitte→namenloses «Guten Tag»/
+  «Grüezi», gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und Herren» — dasselbe
+  Postfach hebt mit dem Gewicht des Anliegens: belegt Notariat Hottingen «Guten Tag» bei simpler
+  Koordination (Juli 2025), «Sehr geehrte Damen und Herren» beim a–f-Statutenänderungs-Ersuchen
+  (Nov 2025); gestapelt bei mehreren). Die triviale technische Service-Bitte an ein Sammelpostfach
+  trägt NUR die höfliche Kurzbitte «Bitte veranlassen Sie …» + FG+Block, OHNE Begründung/Dank-im-
+  Voraus/Service-Satz (die «Bitte-immer-mit-Begründung»-Regel gilt der substanziellen Behörden-
+  Bitte, nicht dem technischen Ein-Zeiler). Anrede mit wachsender Vertrautheit nachziehen; Opener
   aus Anlass + Tageszeit + Vertrautheit (vormittags im operativen Du «Guten Morgen <Vorname>» als
   Default); vermittelte/warme Erstanfrage→«Geschätzte/r», das kalte «Sehr geehrte/r» nur für
   Behörden-/Submissions-Erstmail. Sammelpostfach: Person im Betreff («z.H. <Name>, <Rolle>»);

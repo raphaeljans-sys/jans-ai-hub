@@ -3,6 +3,46 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260724 (twin-fragesteller, aus Fidelity-Review 2026-07-24)
+
+Quelle: Drift-Report `outputs/2026-07-24_fidelity.md` (Gesamt-Fidelity 90; drei authentische Vor-Claude-Golds in
+drei Registern — Baurekursgericht-E-Bill Service-Sie-namenlos 23.10.2025, Yorck Design-/Material-Peer-Du 01.09.2025,
+Notariat-Hottingen Rechtsersuchen-Sie 04.11.2025). Konsolidierungs-Lauf: die Golds bestätigen bestehende Marker;
+Neubefund ist die anlass-gewichtete Behörden-Erstanrede am generischen Postfach (löst 260723 #4). Die Fragen zielen
+auf die Ränder dieses Befunds und die zwei Rest-Drifts (Bild-Rhetorik, rahmenlose Faden-Antwort). Je in 1–2 Sätzen
+beantwortbar.
+
+1. **Design-/Material-Du: die konstruktiv-poetische Bild-Rhetorik («erhält ein Rückgrat», «wie ein Seil verbinden»)
+   — bewusstes Überzeugungsmittel oder situative Begeisterung?** In Gold B hebst Du die reine Materialantwort an
+   den 3D-Freelancer in eine Bilderzählung: das Geländer soll «ein fortlaufendes Kontinuum … wie ein Seil» sein,
+   «der architektonische Entwurf erhält ein Rückgrat». Ziehst Du diese gestalterische Bild-Rhetorik bewusst, damit
+   der Ausführende die ABSICHT hinter dem technischen Detail mitträgt, oder war das Tagesform? *Warum: der Twin
+   unterspielt die Bild-Rhetorik 260724 und liefert nur die nackte Materialliste — ein bestätigtes Muster würde die
+   zweite Fachsäule um einen aktiven «Absicht bebildern»-Marker erweitern.* → [[fachsignatur]], [[stimme]]
+
+2. **Rahmenlose Mitten-im-Faden-Antwort (keine Anrede, kein Gruss) — nur in der kreativen Produktions-Zusammenarbeit
+   oder in JEDEM hochfrequenten Du-Faden?** Gold B trägt weder Anrede noch Gruss, nur den Inhalt. Ist die
+   rahmenlose Fliess-Antwort Dein Standard, sobald man mehrfach am Tag im selben Faden hin- und herschreibt
+   (unabhängig vom Kontakttyp), oder bleibt sie auf die kreative 3D-/Render-/Design-Produktion beschränkt, wo der
+   Faden fast ein Chat ist? *Warum: der Twin hängt reflexartig «Lgr» an; ein zweiter Kontakttyp würde die
+   «rahmenlose Faden-Antwort»-Schwelle verallgemeinerbar machen (bisher an einen Freelancer-Faden gebunden).*
+   → [[stimme]], [[arbeitsweise]]
+
+3. **Die hebende Grösse am generischen Postfach — rechtliches/formales Gewicht oder zugemuteter Aufwand der
+   Gegenseite?** Gold A (ein-Klick-Freischaltung) bekam «Guten Tag», Gold C (inhaltliche Rechtsprüfung) «Sehr
+   geehrte Damen und Herren». Beide Faktoren fallen hier zusammen. Hebt den Erstgruss eher das **rechtlich-formale
+   Gewicht** des Anliegens (Gesuch/Ersuchen/Rechtsfrage), oder schlicht, **wieviel Arbeit** Du der Gegenseite
+   zumutest (ein Klick vs. eine inhaltliche Prüfung)? *Warum: ein Gegenbeispiel (gewichtiges Anliegen mit wenig
+   Aufwand — oder umgekehrt) würde die beiden Trigger sauber trennen und die neue Do/Don't-Schwelle kalibrieren.*
+   → [[beziehungsregister]]
+
+4. **«Bitte veranlassen Sie …» als fester Imperativ für die technische Amts-/Service-Bitte?** In Gold A wählst Du
+   «Bitte veranlassen Sie das …» statt «Ich bitte Sie um …» oder «Darf ich Sie bitten …». Ist «Bitte veranlassen
+   Sie …» Deine Default-Formel für den rein administrativ-technischen Vollzug (Freischaltung, Erfassung,
+   Weiterleitung), abgegrenzt vom begründeten «Darf ich Sie bitten … sodass/um …» der substanziellen Bitte? *Warum:
+   gäbe dem Zwilling einen klaren Formel-Schalter zwischen technischer und substanzieller Amts-Bitte — bisher kennt
+   er nur die begründete Variante.* → [[stimme]], [[beziehungsregister]]
+
 ## Offen — Runde 260723 (twin-fragesteller, aus Fidelity-Review 2026-07-23)
 
 Quelle: Drift-Report `outputs/2026-07-23_fidelity.md` (Gesamt-Fidelity 90; drei authentische Vor-Claude-Golds in
@@ -32,11 +72,14 @@ Doppelquellen). Die schärfste Drift lag beim Ultra-Ping (Twin rahmt zu stark). 
    oder subtil in Deine Richtung gesteuert ist — entscheidet, wie der Twin die Alternativfrage kalibriert.*
    → [[fachsignatur]], [[denken]]
 
-4. **«Guten Tag» ohne Namen als Default fürs unbekannte Sammel-/Shop-Postfach?** An generische Lieferanten-/Shop-
-   Adressen (met-all, hawa, Gasser) eröffnest Du mit dem namenlosen «Guten Tag», nicht mit «Sehr geehrte Damen und
-   Herren». Ist das namenlose «Guten Tag» Dein Default, sobald kein persönlicher Ansprechpartner bekannt ist (info@/
-   Webshop), und «Sehr geehrte/r Herr/Frau X» erst, sobald Du einen Namen hast? *Warum: präzisiert die Service-/
-   Lieferanten-Erstanrede-Schwelle — der Twin greift dort teils zu förmlich.* → [[beziehungsregister]]
+4. ~~**«Guten Tag» ohne Namen als Default fürs unbekannte Sammel-/Shop-Postfach?**~~ **BEANTWORTET
+   (Fidelity 260724, zwei authentische Golds):** JA für triviale Service-/Technik-Postfächer — ABER die
+   Anrede am generischen Postfach ist **anlass-gewichtet**, nicht postfach-fix. Gold A (E-Bill-Freischaltung
+   an `rechnungen@baurekursgericht-zh.ch`, 23.10.2025) → namenloses «Guten Tag» + Kurzbitte; Gold C
+   (Statutenänderungs-Rechtsersuchen ans Notariat Hottingen, 04.11.2025) → «Sehr geehrte Damen und Herren».
+   Dasselbe Notariat Hottingen erhielt im Juli 2025 bei simpler Koordination «Guten Tag» (Batch 02): das
+   Gewicht/die Formalität des Anliegens hebt den Erstgruss, nicht der Postfach-Typ. In `beziehungsregister.md`
+   (Marker + Do/Don't) verankert.
 
 ## Offen — Runde 260722 (twin-fragesteller, aus Fidelity-Review 2026-07-22)
 

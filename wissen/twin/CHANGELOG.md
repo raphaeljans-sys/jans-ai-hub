@@ -5,6 +5,17 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-24 — twin-fidelity-review (Turnus, Gesamt-Fidelity 90).** Drei authentische Vor-Claude-Golds
+  in drei Registern gezogen (Baurekursgericht-E-Bill Service-Sie-namenlos 23.10.2025, Yorck Design-/Material-
+  Peer-Du 01.09.2025, Notariat-Hottingen Rechtsersuchen-Sie 04.11.2025), Twin-Fassungen gescort. Neubefund:
+  die Behörden-Erstanrede am generischen/unbekannten Postfach ist **anlass-gewichtet, nicht postfach-fix** —
+  triviale Service-/Technik-Bitte → namenloses «Guten Tag» + Kurzbitte ohne Begründung/Dank/Service-Satz;
+  gewichtiges Rechtsersuchen → «Sehr geehrte Damen und Herren» (dasselbe Notariat Hottingen erhielt beides,
+  vgl. Batch 02 «Guten Tag»). Löst QUESTIONS 260723 #4. [[beziehungsregister]] Marker + Do/Don't geschärft
+  (last_updated 07-24); QUESTIONS Runde 260724 (4 neue Fragen: Design-Bild-Rhetorik, rahmenlose Faden-Antwort,
+  Gewicht-vs-Aufwand-Schwelle, «Bitte veranlassen Sie»-Formel); DNA neu kompiliert (`build_dna.py`); Drift-Report
+  `outputs/2026-07-24_fidelity.md`. Facetten-Validierung: keine ungelösten Widersprüche (die scheinbare
+  Notariat-Spannung ist anlass-aufgelöst). Echo-Schutz eingehalten (nur authentischer Vor-Claude-Text gewertet).
 - **2026-07-24 — twin-mail-training Batch 59 (2026-06-30 09:07…07-02 11:55).** Sent Items rj@,
   25 Mails gesichtet, 6 Volltexte, lückenlose Fortsetzung ab Batch 58. Neue belegte Marker:
   [[beziehungsregister]] (Vier-Stufen-Stapel-Anrede pro Person wärmefein «Liebe/geschätzer/werter/

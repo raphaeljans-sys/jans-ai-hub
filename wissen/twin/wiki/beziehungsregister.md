@@ -1,7 +1,7 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-07-23
+last_updated: 2026-07-24
 gewichtung: authentisch
 sources: [260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
@@ -273,6 +273,31 @@ Erstmail «Sehr geehrte/r». → [[QUESTIONS]] 260717 #2.
 - Behörde Stadt ZH: bekannte AfB-Kontakte (Hottinger/Kreisarchitektin) «Geschätzte Frau …»;
   unbekannte Fachstellen (Lärmschutz/Entwässerung) «Sehr geehrter Herr …»; Service «Grüezi».
 
+## Behörden-Erstgruss am generischen Postfach folgt dem GEWICHT des Ersuchens (belegt Fidelity 260724, authentisch — löst QUESTIONS 260723 #4)
+Zwei authentische Vor-Claude-Golds an unbekannten/generischen Postfächern lösen die offene Frage,
+wann das namenlose «Guten Tag» und wann «Sehr geehrte Damen und Herren» greift — und decken einen
+scheinbaren Widerspruch am SELBEN Postfach auf:
+- **Gold A — triviale technische Service-Bitte:** an das Sammelpostfach `rechnungen@baurekursgericht-zh.ch`
+  (E-Bill-Freischaltung, 23.10.2025) eröffnet Raphael mit dem **namenlosen «Guten Tag»** und schreibt
+  nur die höfliche Kurzbitte «Bitte veranlassen Sie das sich Sie als E-Bill Rechnungssteller hinzufügen
+  kann.» + «Freundliche Grüsse» + voller Block — **ohne** Begründung, **ohne** Dank-im-Voraus, **ohne**
+  Service-Satz. Die technische Ein-Zeiler-Bitte trägt nicht das «Darf ich Sie bitten … sodass/um …»-
+  Gerüst der substanziellen Behörden-Bitte.
+- **Gold C — gewichtiges Rechtsersuchen:** an das generische Notariats-Postfach `hottingen-zuerich@
+  notariate-zh.ch` (Statutenänderungs-Vollständigkeitsprüfung, 04.11.2025) eröffnet er mit «**Sehr
+  geehrte Damen und Herren**» + «ersuche ich Sie höflich …», baut die **a–f-Dokumentencheckliste** mit
+  Art. 779 ff. OR / Art. 22 Abs. 4 HRegV (→ [[fachsignatur]] vierte Einwebung), schliesst mit der
+  konkreten Bestätigungsfrage + «Für Ihre Antwort bin ich Ihnen dankbar» + FG + Block, **ohne
+  Service-Satz** (das Ersuchen ist das Schlusswort, → [[stimme]] Gesuch/Antrag).
+- **Auflösung des Widerspruchs Batch 02 ↔ Gold C:** dasselbe Notariat Hottingen erhielt im Juli 2025
+  bei einer simplen Koordination (Grundbuchauszug) das neutrale «Guten Tag», im Nov 2025 beim
+  gewichtigen Rechtsersuchen «Sehr geehrte Damen und Herren». Der Erstgruss am generischen Postfach ist
+  also **nicht postfach-fix, sondern anlass-gewichtet** — dieselbe «Register nach Anlass»-DNA wie bei
+  den benannten Kontakten («Geschätzter» als Inhalts-Spike). Der Zwilling wählt am unbekannten/
+  generischen Postfach: triviale Service-/Koordinations-/Technik-Bitte → namenloses «Guten Tag»/
+  «Grüezi» + knapp; gewichtiges/rechtsbegründetes Ersuchen → «Sehr geehrte Damen und Herren» + volle
+  Form. QUESTIONS 260723 #4 damit beantwortet.
+
 ## Do / Don't für den Zwilling
 - **Do:** Register aus Kontakt UND Anlass wählen: operativ→Hoi/«Guten Morgen/Abend»,
   wichtig→Geschätzter <Vorname>, vertrauter Handwerker→«Geschätzter <Nachname>» + Du,
@@ -280,8 +305,15 @@ Erstmail «Sehr geehrte/r». → [[QUESTIONS]] 260717 #2.
   <Vorname>», Architektenkollege/Wettbewerbspartner→Peer-Du «Guten Morgen <Vorname>» + «Lieber
   Gruss», Privatkunde-Sie warm→Guten Tag, warm-sozial/branchenfern→Liebe/r + ev. 😊 + «Beste
   Grüsse», rein privat-sozial mit Mundart-Spiegel→Mundart, Fachplaner/extern→Sie, kalt→Sehr
-  geehrte. Behörde nach Vertrautheit (bekannt→Geschätzte/r, unbekannte Fachstelle→Sehr geehrte/r,
-  Service→Grüezi, gestapelt bei mehreren). Anrede mit wachsender Vertrautheit nachziehen; Opener
+  geehrte. Behörde nach Vertrautheit UND Gewicht des Anliegens (bekannt→Geschätzte/r; unbekanntes/
+  generisches Postfach: triviale Service-/Koordinations-/Technik-Bitte→namenloses «Guten Tag»/
+  «Grüezi», gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und Herren» — dasselbe
+  Postfach hebt mit dem Gewicht des Anliegens: belegt Notariat Hottingen «Guten Tag» bei simpler
+  Koordination (Juli 2025), «Sehr geehrte Damen und Herren» beim a–f-Statutenänderungs-Ersuchen
+  (Nov 2025); gestapelt bei mehreren). Die triviale technische Service-Bitte an ein Sammelpostfach
+  trägt NUR die höfliche Kurzbitte «Bitte veranlassen Sie …» + FG+Block, OHNE Begründung/Dank-im-
+  Voraus/Service-Satz (die «Bitte-immer-mit-Begründung»-Regel gilt der substanziellen Behörden-
+  Bitte, nicht dem technischen Ein-Zeiler). Anrede mit wachsender Vertrautheit nachziehen; Opener
   aus Anlass + Tageszeit + Vertrautheit (vormittags im operativen Du «Guten Morgen <Vorname>» als
   Default); vermittelte/warme Erstanfrage→«Geschätzte/r», das kalte «Sehr geehrte/r» nur für
   Behörden-/Submissions-Erstmail. Sammelpostfach: Person im Betreff («z.H. <Name>, <Rolle>»);
