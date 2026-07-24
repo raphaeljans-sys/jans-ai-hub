@@ -4,6 +4,20 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-07-24 — Nachtschicht Mac Mini 08:30: Wiki-Artikel RAUMTYPOLOGIEN + QUESTIONS-Punkt geschlossen
+Dispatch-Prioritaet 5 (offene QUESTIONS.md recherchieren/kompilieren): Stufe-2-Embeddings
+bereits vollstaendig (853/853 seit 02:18, siehe Eintrag darunter — Status-Check hier hat nur
+identisch neu geschrieben, kein Fix noetig); Fristen-Radar/Sync-Queues leer. Stattdessen den
+laengst offenen QUESTIONS.md-Punkt "1 Selection" (Sektion 3) bearbeitet: neuer Artikel
+`wiki/RAUMTYPOLOGIEN.md` — alle 9 Raumtypen (Atomisiert/Fliessend/Grosse Halle/Hybrid/Modular/
+Narrativ/Skulptural/Struktur/Zentral) mit Beschreibung + allen 105 Projekten aus
+`catalog/typology-map.json` + `catalog/raumtypen-beschreibungen.json`, Backlinks `[[slug]]` wo
+im Katalog vorhanden. In `wiki/INDEX.md` (Eintrag "1 Selection") verlinkt, QUESTIONS.md-Punkt
+als erledigt markiert. Bekannte Doppel-/Fehlzuordnung im Quellmaterial (Humboldt-Bibliothek
+Berlin zweimal mit unterschiedlichem Architekten) als offener Datenqualitaets-Hinweis im
+Artikel vermerkt, nicht am Quellordner korrigiert (Freigabe-Pflicht bei Destruktivem). Keine
+NAS-Schreibkonflikte (Kollisionsschutz 260724 geprueft, keine Zweitinstanz).
+
 ## 2026-07-24 — Batch-Lauf (leer, 12. Mal in Folge) + Vektorindex neu (Mac Mini)
 Batch 25, 02:18–02:19. Stufe 1 ohne neuen Stoff (853/853, offen 0, Stand unveraendert
 2026-07-02). Stufe 2 hat `catalog/vectors.npz` deterministisch neu gebaut (853 × 768,

@@ -2,7 +2,7 @@
 
 Stand: 2026-07-03 — Erstkuratierung komplett: 853/853 Ordner gescannt, 849 Katalogdateien kuratiert (Erstausgabe A bis Ba plus Chargen 1/6 bis 6/6, letzte Charge Smithson_Peter_Alice bis wang_shu; 4 Leerzeichen-Doppelordner laufen ueber Kollisions-Vermerke mit: Christ Gantenbein, Enzmann Fischer, Miller Maranta, gigon guyer). Eine Zeile pro Katalogdatei, alphabetisch nach Scan-Reihenfolge. Zahlen aus dem Katalog (Projekte / Bilder / Dokumente). Einordnungen ohne Katalogbeleg sind mit (Einordnung) markiert.
 
-- **1 Selection** — Sammelordner ohne Architekt: kuratierte Best-of-Bibliothek nach Raumtypologien (fliessend, modular, zentral usw.), Grundrisse und Wettbewerbe; 14 Unterordner, 3360 Bilder, 582 Dokumente, 23 CAD.
+- **1 Selection** — Sammelordner ohne Architekt: kuratierte Best-of-Bibliothek nach Raumtypologien (fliessend, modular, zentral usw.), Grundrisse und Wettbewerbe; 14 Unterordner, 3360 Bilder, 582 Dokumente, 23 CAD. Die 9 Raumtypen mit allen 105 Projekten: [[RAUMTYPOLOGIEN]].
 - **6a Architects** — Londoner Buero (Einordnung); Ordner fast leer, nur 1 Bild, keine Projekte, keine Dokumente.
 - **AASZ** — Schweizer Buero (Kuerzel ungeklaert) mit zwei ZH-Wettbewerben, Schulanlage Gockhausen und Luppmenpark Hittnau; 2 Projekte, 0 Bilder, 12 Dokumente inkl. Wettbewerbsplaene.
 - **Aalto_Alvar** — finnischer Hauptvertreter der humanen Moderne mit breitem Werkquerschnitt von Villa Mairea bis Finlandia-Halle plus Vitra-Ausstellungstext; 14 Projekte, 350 Bilder, 13 Dokumente.

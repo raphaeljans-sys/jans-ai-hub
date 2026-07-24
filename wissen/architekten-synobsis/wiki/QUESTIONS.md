@@ -269,7 +269,7 @@ Stand: 2026-07-03, Erstausgabe plus Chargen 1/6 bis 6/6 — Erstkuratierung komp
 
 ## 3 Sammel- und Zweckordner ohne Architekt-Zuordnung
 
-- **1 Selection** — grosse Best-of-Sammlung (4525 Dateien) nach Raumtypologien, kein Architekt. Frage: als eigene Referenz-KB-Sektion fuehren (z.B. wiki/RAUMTYPOLOGIEN.md mit Inhalt der Unterordner) statt als Architekt? Der Ordner ist fuer Entwurfsreferenzen vermutlich der wertvollste der Bibliothek.
+- **1 Selection** — grosse Best-of-Sammlung (4525 Dateien) nach Raumtypologien, kein Architekt. **ERLEDIGT 24.07.2026 (Nachtschicht Mac Mini):** eigene Referenz-KB-Sektion [[RAUMTYPOLOGIEN]] angelegt, alle 9 Typen mit allen 105 Projekten aus `catalog/typology-map.json` + `catalog/raumtypen-beschreibungen.json`, verlinkt in `wiki/INDEX.md`. Bekannte Doppel-/Fehlzuordnungen (z.B. Humboldt-Bibliothek zweimal mit unterschiedlichem Architekten) im neuen Artikel als offener Datenqualitaets-Hinweis vermerkt, nicht bereinigt (Quellordner-Aenderung braucht Freigabe).
 - **Back_Lukas** — 1275 Dateien, wirkt wie eine persoenliche Arbeits-/Studiensammlung (PLA, Schulprojekt, best) und nicht wie ein Referenzarchitekt. Frage: Wer ist Lukas Back im JANS-Kontext (Mitarbeiter, Studienkollege)? Gehoert der Ordner ueberhaupt in die Architekten-Synobsis?
 - **Architekturfabrik** — enthaelt nur einen Plansatz zur Europaallee Zuerich. Ist Architekturfabrik der Verfasser oder ist der Inhalt falsch abgelegt?
 - **BBPR, Ordner "00 unklar"** — enthaelt nicht zugeordnetes Material. Bei Gelegenheit sichten und den Projekten zuweisen.

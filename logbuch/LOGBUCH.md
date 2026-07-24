@@ -7,6 +7,17 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-24
 
+**Nachtschicht Mac Mini (~08:30, QUESTIONS-Kompilierung architekten-synobsis, Dispatch-Run 20260724-083006).**
+Vorpruefung: Prioritaeten 1-2 leer/erledigt (Synobsis Stufe-2-Embeddings bereits seit 02:18
+vollstaendig, 853/853, siehe eigener Batch-Lauf-Eintrag im CHANGELOG), Fristen-Radar bereits
+07:xx versendet, naechste Trainingslektionen (energie/planungsgrundlagen/normen) alle erst
+gestern/heute frueh gelaufen und zu gross fuer das Restbudget. Stattdessen Prioritaet 5:
+laengst offenen QUESTIONS.md-Punkt "1 Selection" (architekten-synobsis, Sektion 3) bearbeitet
+— neuer Wiki-Artikel `wiki/RAUMTYPOLOGIEN.md` (9 Raumtypen, alle 105 Projekte aus
+`catalog/typology-map.json`), in INDEX.md verlinkt, QUESTIONS.md-Punkt als erledigt markiert.
+Details: CHANGELOG `wissen/architekten-synobsis/`. Kein Versand, keine Publikation, keine
+destruktiven Aenderungen am Quellordner.
+
 **Nachtschicht Mac Mini (~07:30, Wissenscheck normen, Dispatch-Run 20260724-073007).**
 Zehnter Sweep im Nachtfenster: Prioritaeten 1-4 weiterhin leer/gesaettigt, offene QUESTIONS.md
 anderer KBs entweder projektgebunden (kunde-bopp), freigabepflichtig (architekten-synobsis)
