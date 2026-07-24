@@ -28,7 +28,9 @@
 ### Kosten & Zeit
 - [[kosten-und-zeit]] — Gründungskosten und Zeitbedarf · *established*
 
-### Steuern (laufend)
+### Steuern (Gründung + laufend)
+- [[steuern-bei-gruendung]] — Kapitalsteuer (0,75 ‰ ZH), Gewinnsteuer (8,5 % Bund + 7 % ZH),
+  Verrechnungssteuer (35 %, Kapitaleinlageprinzip), Steuererleichterungen § 62 StG · *established*
 - [[steuern-ag-inhaber]] — Steuerhebel des AG-Inhabers ZH: PK-Einkauf, Säule 3a, Lohn/Dividende, situative Hebel, Jahresende-Checkliste · *established* (promoviert aus Output 02.07.2026)
 - [[holding-struktur]] — Beteiligungsabzug Art. 69/70 DBG, Transponierungsfalle bei Einbringung,
   indirekte Teilliquidation, Übernahmeholding bei Nachfolge · *established* (Art. 69/70 + 20a
@@ -36,11 +38,10 @@
 
 ## Backlog / Lücken
 Siehe [[QUESTIONS]]:
-- Steuern bei Gründung/laufend (Kapital-, Gewinn-, Verrechnungssteuer)
 - Verwaltungsrat: Pflichten, Haftung, Konstituierung (eigener Artikel)
 
 ## Statistik (Stand 2026-07-24)
-- Artikel im Wiki: 11
-- Offene Coverage-Lücken: 2 (siehe Backlog oben; Holding-Struktur am 24.07.2026 geschlossen)
+- Artikel im Wiki: 12
+- Offene Coverage-Lücken: 1 (siehe Backlog oben; Steuern bei Gründung am 24.07.2026 geschlossen)
 - Outputs: 3 (neue-ag-gruenden_vorgehen, health-check 2026-07-01, steuern-sparen-ag-inhaber)
 - Letzter Health-Check: 2026-07-21 (Mac Mini Nachtschicht)

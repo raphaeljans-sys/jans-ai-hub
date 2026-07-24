@@ -7,6 +7,21 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-24
 
+**Nachtschicht Mac Mini (~20:30, KB firmengruendung-ch Steuern-bei-Gruendung, Dispatch-Run
+20260724-203002).** Vorpruefung: keine Sync-/Remote-Tasks, Synobsis Stufe-2 vollstaendig,
+Trainingsfenster (22:00-06:00) noch nicht erreicht, normen/kunde-bopp bereits durch die
+18:30-/19:30-Laeufe bedient. Letzte offene Backlog-Luecke aus `wissen/firmengruendung-ch`
+genommen: «Steuern bei Gruendung» (Kapital-/Gewinn-/Verrechnungssteuer) stand seit dem
+Health-Check als offener Punkt. Primaerquellen als PDF gelesen (ESTV/SSK-Dossier
+Besteuerung jur. Personen Stand 1.1.2026, ESTV-Kantonsblatt Zuerich Stand Februar 2026):
+Gewinnsteuer 8,5 % Bund + 7 % ZH, Kapitalsteuer nur kantonal 0,75 Promille ZH ohne
+Anrechnung an die Gewinnsteuer und ohne Mindeststeuer, Verrechnungssteuer 35 % betrifft
+nur Ausschuettungen (nicht die Gruendungseinlage), Kapitaleinlageprinzip Art. 5 Abs. 1bis
+VStG fuer spaetere steuerfreie Agio-Rueckzahlung (BGE 151 II 827 eingearbeitet). Neuer
+Wiki-Artikel `steuern-bei-gruendung`, INDEX/QUESTIONS/CHANGELOG nachgefuehrt, letzte
+Coverage-Luecke der KB damit geschlossen (nur noch Verwaltungsrat-Artikel offen). Kein
+Versand, keine Publikation, keine destruktiven Aenderungen. Verbrauch ~3,1 von 5 USD.
+
 **Nachtschicht Mac Mini (~19:30, KB kunde-bopp Projekt-Detailartikel, Dispatch-Run
 20260724-193002).** Vorpruefung: keine Sync-/Remote-Tasks, Synobsis Stufe-2 vollstaendig,
 Trainingsfenster noch nicht erreicht, Prioritaet-5-Slot vom 18:30-Lauf bereits auf `normen`

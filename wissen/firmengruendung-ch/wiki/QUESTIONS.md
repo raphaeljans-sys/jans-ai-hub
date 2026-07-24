@@ -1,11 +1,6 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Firmengründung Schweiz)
 
 ## Offene Wissenslücken (Coverage-Gaps)
-- **Steuern bei Gründung** (Kapital-, Gewinn-, Verrechnungssteuer, MWST-Pflicht-
-  Schwelle CHF 100'000 Umsatz) — Gründungsteil weiterhin offen. Die laufende
-  Steueroptimierung des Inhabers ist seit 20.07.2026 als Wiki-Artikel
-  [[steuern-ag-inhaber]] gedeckt (Promotion aus dem Output vom 02.07., siehe
-  Archiv unten).
 - **1e-/Kaderplan + Einkaufspotenzial** der Raphael Jans AG konkret erheben
   (Vorsorgeausweis, Schwellenwert 1e) — Grundlage für den PK-Hebel.
 - **Verwaltungsrat:** Pflichten/Haftung/Konstituierung als eigener Artikel (bisher nur
@@ -22,6 +17,25 @@
 - Noch keine erfasst.
 
 ## Beantwortete Fragen (Archiv)
+- **Steuern bei Gründung: Kapital-, Gewinn-, Verrechnungssteuer (24.07.2026,
+  Nachtschicht-Zyklus Mac Mini, 20:30-Lauf):** Neuer Artikel
+  [[steuern-bei-gruendung]]. Kernbefunde primärquellen-belegt: Gewinnsteuer
+  8,5 % Bund (Art. 68 DBG) + 7 % ZH (§ 71 StG, proportional, kein Mehrstufentarif);
+  Kapitalsteuer nur kantonal (Bund seit 1998 abgeschafft), ZH 0,75 ‰ (§ 82 StG),
+  KEINE Anrechnung an die Gewinnsteuer (ZH nicht im StHG-Art.-30-Abs.2-Anrechnungs-
+  Kanton-Kreis) und KEINE Mindeststeuer in ZH (anders als z.B. LU/SZ/TG/TI/VD);
+  Verrechnungssteuer 35 % auf Dividenden (Art. 4 VStG) betrifft NICHT die Gründung
+  selbst (Kapitaleinlage = Zufluss, kein Ertrag), erst die spätere Ausschüttung —
+  Kapitaleinlageprinzip Art. 5 Abs. 1bis VStG (gesondert verbuchtes Agio später
+  steuerfrei rückzahlbar, BGE 151 II 827 vom 21.03.2025 präzisiert die
+  Verbuchungspflicht). Steuererleichterung § 62 StG (max. 10 Jahre) für JANS
+  praktisch nicht relevant, der Vollständigkeit halber dokumentiert. Quellen: ESTV/
+  SSK-Dossier «Überblick Besteuerung juristischer Personen» (Stand 1.1.2026) +
+  ESTV-Kantonsblatt Zürich (Stand Februar 2026) als PDF-Primärquellen gelesen,
+  Verrechnungssteuer-Teil über estv.admin.ch + Bundesgerichts-Leitentscheid
+  (WebSearch, needs-verification markiert — kein direkter Fedlex-Volltextabgleich
+  VStG). MWST-Schwelle bewusst nicht dupliziert (bereits in
+  [[nachgruendung-anmeldungen]] §4 belegt).
 - **Holding-Struktur über die bestehende AG (24.07.2026, Nachtschicht-Zyklus Mac Mini):**
   Neuer Artikel [[holding-struktur]]. Kernbefunde: kantonales Holdingprivileg seit STAF
   01.01.2020 abgeschafft; bundesrechtlicher Beteiligungsabzug Art. 69/70 DBG bleibt

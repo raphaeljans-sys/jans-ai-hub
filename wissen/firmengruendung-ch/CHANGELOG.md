@@ -3,6 +3,31 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-24 — Neuer Artikel: Steuern bei Gründung (Nachtschicht-Zyklus Mac Mini, 20:30-Lauf)
+- [ingest] Letzte offene Backlog-Lücke aus `QUESTIONS.md`/`INDEX.md` («Steuern bei Gründung:
+  Kapital-, Gewinn-, Verrechnungssteuer») geschlossen: neuer Artikel
+  [[steuern-bei-gruendung]]. Primärquellen direkt als PDF gelesen (ESTV/SSK-Dossier
+  «Überblick über die Besteuerung der juristischen Personen», Stand 1.1.2026; ESTV-
+  Kantonsblatt Zürich, Stand Februar 2026) statt nur Sekundärquellen-Zusammenfassungen.
+  Kernbefunde: Gewinnsteuer 8,5 % Bund (Art. 68 DBG, proportional) + 7 % ZH (§ 71 StG);
+  Kapitalsteuer nur kantonal (Bund seit 1.1.1998 abgeschafft), ZH 0,75 ‰ des steuerbaren
+  Eigenkapitals (§ 82 StG) — **ohne** Anrechnung an die Gewinnsteuer (ZH wendet Art. 30
+  Abs. 2 StHG nicht an, anders als z.B. BE/SG/AG/GE) und **ohne** Mindeststeuer (ZH gehört
+  mit Bund/BE/GL/NE/GE/JU zu den Kantonen ohne Minimal-/Mindeststeuer); Verrechnungssteuer
+  35 % (Art. 4 VStG) betrifft nur Ausschüttungen, nicht die Kapitaleinlage bei Gründung —
+  Kapitaleinlageprinzip Art. 5 Abs. 1bis VStG als spätere steuerfreie Rückzahlungsmöglichkeit
+  für gesondert verbuchtes Agio, BGE 151 II 827 (21.03.2025) zur Verbuchungspflicht
+  eingearbeitet, needs-verification markiert (kein Fedlex-VStG-Volltextabgleich). §-62-StG-
+  Steuererleichterung für Neugründungen als Vollständigkeits-Hinweis, für ein
+  Architekturbüro nicht praxisrelevant markiert. Effektiver Gesamtsteuersatz (Steuerfuss-
+  multipliziert, Richtwert Stadt Zürich ~19,6–19,7 %) als Sekundärquellen-Richtwert
+  ausgewiesen, nicht amtlich verifiziert — für den konkreten Fall Steuerrechner ZH nutzen.
+- [Register] `wiki/INDEX.md` (Sektion «Steuern» umbenannt zu «Steuern (Gründung + laufend)»,
+  Statistik 11→12 Artikel, Backlog-Lücken 2→1), `wiki/QUESTIONS.md` (Punkt aus «Offene
+  Wissenslücken» nach «Beantwortete Fragen» verschoben).
+- MWST-Pflicht-Schwelle bewusst NICHT im neuen Artikel dupliziert — bereits belegt in
+  [[nachgruendung-anmeldungen]] §4 (22.07.2026), dort nur cross-referenziert.
+
 ## 2026-07-24 — Neuer Artikel: Holding-Struktur über eine bestehende AG (Nachtschicht-Zyklus Mac Mini, ~03:30)
 - [ingest] Backlog-Lücke aus `QUESTIONS.md` («Holding-Struktur über bestehende AG») geschlossen:
   neuer Artikel [[holding-struktur]]. Kernbefunde: kantonales Holdingprivileg seit STAF
