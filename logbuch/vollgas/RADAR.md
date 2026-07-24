@@ -21,6 +21,55 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-24 12:48 — [GEDROSSELT] Tagesruhe planmaessig, Nachtertrag gesichert, Drossel intakt
+
+**Fensterzustand:** Keine Login-Probe (Betriebsbeleg-Methode, token-schonend im Drossel-Sinn). Kein
+«Not logged in», kein Usage-/Rate-Limit erkennbar. Kein Blocker, keine Mail. Jetzt 12:48 — ausserhalb
+des Nachtfensters (22:00–06:00); der aktive Token-Pfad ist ueber die Trainings-Commits der Nacht und
+die Morgen-Routine belegt (letzter substanzieller Commit `1f8fec21` um 07:59, ag-gruendung-monitor).
+
+**Durchsatz:** Tagsueber planmaessig ruhig. Die letzten 8 Commits (seit 11:00) sind ausschliesslich
+`nas-selfcommit`-Takte mit je 2 Dateien — beides `station-status/*.md`, also reine Heartbeats ohne
+Wissensinhalt. Das ist im Drossel-Regime der SOLL-Zustand, kein stockender Loop: die Mac-Mini-
+Nachtschicht (Dispatch-Fenster 18:00–09:00) endete mit dem Lauf 08:30 regulaer, seither ist kein
+Loop faellig. Der Nachtertrag selbst ist gesichert (energie Run 86, wettbewerbs-dna Etappe 3,
+twin-mail-training Batch 59, twin-fidelity-review, Rule 260724). CHANGELOGs der neun aktiven KBs
+alle vom 23./24.07. — kein KB ist abgehaengt.
+
+**Runner/STOP:** unveraendert. `STOP` + `STOP-Macbookpro`-Aequivalent (`STOP` + `STOP-Macmini`) vom
+14.07. 12:53 stehen, kein `vollgas-runner`-Prozess auf der Station. Drossel-Guard intakt; nicht
+angetastet. `ch.jans.vollgas-supervisor` in launchd geladen, aber ohne laufenden Runner wirkungslos.
+
+**Korrektur zum Eintrag 06:48:** Dort stand, die Stilllegung des Loops `synobsis-batch-nacht` sei
+«laut Register bereits entschieden». Das ist praeziser zu fassen: der Punkt steht in
+`logbuch/fristen.md` (Zeile 98) als **offener Entscheid Raphael** — eskaliert am 20.07. durch
+Dauerschicht-Zyklus 19, nicht entschieden. Der Radar setzt ihn darum NICHT selbst um (Task-
+Konfiguration aendern deckt der Radar-Auftrag nicht).
+
+**Neuer Befund — `git commit` ueber den SMB-Mount haengt (12:50–12:58, dreimal reproduziert):** Der
+Radar-Commit blieb dreimal ohne Ergebnis (2 Min, 5 Min, dann Hintergrundlauf). Der Prozess steht in
+`ps` auf STAT **`UN`** (uninterruptible sleep, nicht killbar) — er haengt in einem SMB-I/O-Call, nicht
+an einem Lock: `.git/index.lock` existiert nicht, keine Hooks (`core.hooksPath` leer), keine
+GPG-Signatur, kein zweiter Git-Prozess. Ein normaler Schreibtest auf denselben Ordner laeuft in
+0.27 s — der Mount als solcher ist gesund, nur die Git-Objekt-/Ref-Schreibpfade haengen. `git add`
+lief vorher durch: die Datei ist geschrieben und **staged**; der native `nas-selfcommit` (Cron auf
+der Synology, ext4, nicht ueber SMB) uebernimmt sie im naechsten 15-Min-Takt. Kein Datenverlust.
+Das ist genau der Fall, den Rule `sync-kanonische-quelle` («kein Git-Job ueber SMB») und die
+Auto-Verbesserung 260724 (pathspec-begrenzter Commit) adressieren — hier erstmals auch beim
+direkten, interaktiven Commit aufgetreten. Beobachten: tritt es bei den naechsten Laeufen wieder
+auf, sollte der Radar seine eigenen Commits ganz dem `nas-selfcommit` ueberlassen.
+
+**Vorschlaege:**
+- P1: keiner.
+- P2: Drossel-Entscheid Raphaels weiterhin offen (naechster Wochen-Reset Mo 11:59). Status quo halten.
+- P2: SMB-Git-Haenger beobachten (siehe Befund oben); bei Wiederholung Radar-Commits dem
+  `nas-selfcommit` ueberlassen statt selbst zu committen.
+- P3: Offener Entscheid `synobsis-batch-nacht` stilllegen (Register `fristen.md`, seit 20.07.) — der
+  Loop lief heute 02:20 zum 12. Mal ergebnislos; jede Nacht kostet er Tokens ohne Gegenwert. Ab
+  10.08. (`token-drosselung-100810`) Radar auf 1x taeglich reduzieren — noch nicht faellig.
+
+---
+
 ## 2026-07-24 06:48 — [GEDROSSELT] Nachtfenster-Ende, kraeftiger Trainingsertrag, Drossel intakt
 
 **Fensterzustand:** Keine Login-Probe (Betriebsbeleg-Methode, token-schonend im Drossel-Sinn). Kein
