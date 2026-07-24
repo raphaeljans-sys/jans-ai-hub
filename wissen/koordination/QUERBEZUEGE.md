@@ -44,6 +44,64 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### baurecht ↔ planungsgrundlagen (Laerm/ES, Anhang 6 LSV) — geprueft 2026-07-24 (Run 14)
+- **Anlass:** baurecht Buch-Run 51 (24.07., Anhang 6 LSV Industrie-/Gewerbelaerm volltextverifiziert); pg Run 58.
+- **Befund 1 (FEHLENDE QUERVERLINKUNG, autonom gesetzt, bidirektional):** Der Laerm/ES-Artikel hatte keinen
+  Rollen-Link zur pg-Beschaffungsseite (GIS-Layer 0154) und umgekehrt. Reziprok gesetzt analog Abstaende-Muster:
+  baurecht `laermschutz-und-nichtionisierende-strahlung` → pg `kartenportale-zonenplan-zh` (Beschaffung dort);
+  pg → baurecht (Recht/ES-Grenzwerte hier fuehrend).
+- **Befund 2 (DOPPELSPUR mild):** pg `energie-baueingabe-zusatzformulare.md` schreibt die ES-I-IV-Rechtsdefinition
+  materiell nach (nur Zonenzuordnung, kein Grenzwert) → mit Recht-fuehrend-Rueckverweis auf baurecht versehen
+  (bekanntes Muster «normen-referenz greift beim Schreiben nicht»). Kein Trim, nur Verlinkung.
+- **Befund 3 (VERALTETES-Verdacht → UNBESTIMMT):** pg-⚠-Vorbehalt «USG/LSV per 01.04.2026 geaendert» vs. baurecht
+  Anhang 3/4/6 Stand 1.11.2023. Adversarialer Verifier Run 14: **UNBESTIMMT mit Entlastungstendenz** — pg behauptet
+  KEINE Grenzwert-Aenderung (bestaetigt ES-Fortbestand); Novelle koennte nur Art. 31 ff. betreffen. baurecht NICHT
+  veraltet markiert; needs-verification in `baurecht/wiki/QUESTIONS.md` gesetzt (Fedlex SR 814.41 20260401 pruefen).
+  **Status: 4 autonome Aktionen (3 Cross-Links bidirektional + 1 needs-verification-Flag); 1 offener Verifikationspunkt (Loop/Web).**
+
+### normen ↔ baurecht (SIA-181-Meilenstein / neue Destillate 405+2056 / tote Links) — geprueft 2026-07-24 (Run 14)
+- **Anlass:** normen Run 19 (24.07.) Meilenstein «SIA/VKF KOMPLETT» + neue Destillate sia-405-1998 / sia-592-056
+  (SIA 2056:2019) + «4+2 tote Wiki-Links behoben».
+- **SCHEINWIDERSPRUCH aufgeloest (kein Handlungsbedarf):** Der vom Health-Check 24.07. gemeldete Konflikt
+  «Meilenstein komplett» vs. offener Bring-Schuld «SIA 181:2020 re-destillieren» ist KEIN Sachwiderspruch:
+  SIA 181 ist **P2** (norm-inventar Z.74), SIA 181:2020 liegt **nicht im JANS-Bestand** (kostenpflichtige
+  Bring-Schuld). «Komplett» = Vertiefungs-Abdeckung der vorhandenen Bestandsdateien (inkl. SIA 181:2006).
+  Die normen-KB hat das am selben Tag im Health-Check-Eintrag selbst korrekt verdiktet (Empfehlung: kuenftig
+  «Bestand komplett» statt «komplett» formulieren). Kein Cross-KB-Eingriff.
+- **FEHLENDE QUERVERLINKUNG: Null** — baurecht nennt weder SIA 405 noch SIA 2056 (0 grep-Treffer), also kein
+  unverlinkter Verweis. **Tote Links: verifiziert sauber** (die 6 Run-19-Korrekturen greifen; Restlisten = dokumentierte
+  Bestandsluecken). **Status: legitimes Null-Ergebnis + 1 geklaerter Scheinwiderspruch.**
+
+### energie ↔ planungsgrundlagen (Run 87 F116/EN-104 + Private-Kontrolle-Trim) — geprueft 2026-07-24 (Run 14)
+- **Anlass:** energie Run 87 (24.07., FAQ F1–F116, 8 Primaerquellen).
+- **WIDERSPRUECHE: Null** — U-Werte (0,17/0,25), PV-Pflicht (10 W/m² EBF, EN-104, max 30 kW), MuKEn-2025 (20 W/m²)
+  KB-uebergreifend fassungsgleich verifiziert.
+- **FEHLENDE QUERVERLINKUNG (autonom gesetzt):** F116 (BAUHERREN-FAQ) verlinkte nur das energie-eigene Destillat,
+  nicht die pg-fuehrende EN-104-Formularseite → Querbezug `energie-energienachweis-zh-formulare` gesetzt.
+- **DOPPELSPUR (WEITER OFFEN, nicht autonom):** Private-Kontrolle-/EN-Formular-Verfahren — energie-Destillat
+  `private-kontrolle-zh.md` traegt die Run-11-Note «pg fuehrend», fuehrt aber im Body weiter die volle Verfahrens-
+  Substanz (Drei-Unterschriften-Tabelle, EN-Formular-Nummern). Trim = destruktiv → Rueckfrage Raphael. Seit Run 11 getrackt.
+  **Status: 1 autonomer Cross-Link; 1 offener Trim (Entscheid Raphael).**
+
+### grobkosten ↔ immobilienbewertung ↔ kostenschaetzung/referenzen (Kennwerte) — geprueft 2026-07-24 (Run 14)
+- **Anlass:** grobkosten «Strukturelle Findings nachgezogen» (24.07., nur Struktur/Schreibregel, kein Kennwert-Eingriff);
+  immobilienbewertung Run 42 (Delta-Null).
+- **Befund: Null (Cross-KB widerspruchsfrei).** Alle geteilten Ankerwerte identisch (4'800 CHF/m² HNF, 4'360 roh,
+  ~1'020 CHF/m³ GV, HNF/GF-Faktor 0,70/0,60-0,61, Ebmatingen ~855 CHF/m³). Verweise bidirektional intakt, Rollen-Matrix
+  eingehalten, Doppelzaehlungs-Guard (Run 4) intakt. Einzige Notiz: **grobkosten-INTERNE** Kopplungsformulierung
+  (kennwerte.md:21 vs. :37-38, 0,70 vs. 0,60) — niederprioritaer, KB-intern, kein Cross-KB. **Status: legitimes Null-Ergebnis.**
+
+### firmengruendung-ch ↔ immobilienbewertung / kunde-bopp (rotierend, Steuern/Holding) — geprueft 2026-07-24 (Run 14)
+- **Anlass:** firmengruendung-ch neue Artikel «Steuern bei Gruendung» + «Holding-Struktur ueber bestehende AG» (24.07.);
+  kunde-bopp Giebelweg-12-Detailartikel. Erste Cross-Pruefung dieses Paars.
+- **Cross-KB: Null.** Verschiedene Domaenen — immobilienbewertung schliesst Grundstueckgewinnsteuer bewusst aus
+  (`residualwertmethode.md:288`), keine kollidierende Steueraussage; kein KB-uebergreifender Backlink konventionell noetig.
+  Holding-Artikel verdiktet Holding fuer die reale JANS AG aktuell ohne Mehrwert; JANS-AG-Namensblocker separat in
+  `ag-gruendungsablauf` erfasst (Namensrecht, kein Holding-Thema).
+- **Intra-KB-Linkhygiene (notiert, NICHT autonom editiert — firmengruendung-ch hat eigenen Nacht-Loop, Kollisionsschutz):**
+  `steuern-bei-gruendung` hat keine Inhalts-Ruecklinks (nur INDEX/QUESTIONS); `holding-struktur` Frontmatter-`links:`
+  unvollstaendig ggue. Body. Empfehlung an den firmengruendung-Loop. **Status: Null Cross-KB; 2 intra-KB-Hygiene-Hinweise.**
+
 ### energie ↔ planungsgrundlagen (Erdwaerme F110 / Anergienetz F109 / Naturgefahren) — geprueft 2026-07-23 (Run 13)
 - **Anlass:** energie Run 85/86 (23.07.) mit neuen FAQ F109 Anergienetz/kalte Fernwaerme + F110 oberflaechennahe
   Erdwaerme; pg Run 57 Naturgefahren-GIS-Endpunkt.

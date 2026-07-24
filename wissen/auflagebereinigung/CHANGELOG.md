@@ -2,6 +2,20 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-24 — Wissens-Health-Check Phase 1 (Nachtschicht Mac Mini, unbeaufsichtigt)
+Dispatch-Priorität 6 (älteste Audit-Datei, 21.07., alle anderen Mac-Mini-Prioritäten heute
+Nacht bereits erschöpft). 7-Audits-Katalog auf alle 7 Wiki-Artikel: A0 · B1 (Orphan
+`formular-verifizierung.md`, kein Backlink aus dem Fliesstext) · C0 · D1 (`raw/_INGESTED.md`
+seit Gründung nicht nachgeführt, 3 neuere Primärquellen fehlen im Register: BE 1171/26
+definitiv, EN-105/EN-110-ZH-Originale, GVZ-Weisungen 20.07/20.08) · E0 · F1 (schwerwiegend:
+`gvz-einreichung-bma-sprinkler.md` durchgängig in ASCII-Umlauten ae/oe/ue statt ä/ö/ü, ~40+
+Fundstellen, plus abweichendes Frontmatter-Schema `quellen/herkunft` statt `sources/links`)
+· G4 (vier `emerging`-Artikel Promotion-Kandidaten zu `established`, da ihre gemeinsame
+Quelle Vorabzug seit 22.07. als deckungsgleich mit dem rechtskräftigen Entscheid BE 1171/26
+bestätigt ist — Einschränkung: bislang nur ein Projekt/eine Stadt als Beleg). Reine
+Audit-Phase, keine Datei verändert (Phase 2 nur interaktiv). Report:
+`outputs/2026-07-24_health-check.md`.
+
 ## 2026-07-22 — Wissens-Chef Run 12 (Cross-KB): SIA-181-Fassungs-Vorbehalt gesetzt
 - [ergänzt] `wiki/auflagentypen-gewerkzuteilung.md`: an der SIA-181-Federführungs-Sektion einen
   Fassungs-Vorbehalt eingefügt — die Ziff.-Referenzen (4.2/4.3/4.4, 2.2.3/2.2.4) beziehen sich auf

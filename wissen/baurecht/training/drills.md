@@ -1733,3 +1733,23 @@ auf die Rechtslage seit 01.06.2026 gesetzt; alle materiellen Aussagen tragen ber
 Aufhebungsvermerk. (b) **Meldeverfahren §§ 2a-2e BVV** als vierter Verfahrenstyp ins Wiki
 [[baubewilligungsverfahren]] integriert (Bring-Schuld Cross-KB Run 10 erledigt; Flag-Notiz «§§ 2a-2c»
 auf §§ 2a-2e korrigiert). 0 Halluzinationen, alles am raw belegt.
+
+- **G (Modell C · Karteikarte):** Nach welchem Anhang der LSV werden die Belastungsgrenzwerte
+  für den Lärm eines Parkhauses oder einer grösseren Aussenparkierungsanlage beurteilt, und wie
+  verhalten sich diese Werte zu den Werten aus Anhang 3/4? — **A:** **Anhang 6 LSV** (Art. 40
+  Abs. 1) — «Belastungsgrenzwerte für Industrie- und Gewerbelärm», Ziff. 1 Abs. 1 lit. d nennt
+  Parkhäuser/grössere Parkplätze ausserhalb von Strassen ausdrücklich. Die **Zahlenwerte sind mit
+  Anhang 3/4 identisch** (ES II Tag PW 55/IGW 60/AW 70 dB(A)); der Unterschied liegt nicht in der
+  Höhe der Grenzwerte, sondern in der **Ermittlungsmethode**: statt fixer Verkehrslärm-Formeln wird
+  der Beurteilungspegel je Lärmphase (Anfahrt, Manöver, Türenschlagen etc.) mit Pegelkorrekturen
+  K1 (Anlageart, HLK-Anlagen 5 dB Tag/10 dB Nacht), K2 (Tongehalt) und K3 (Impulsgehalt, z.B.
+  Türenschlagen) berechnet. Beleg: raw/260724_amtlich_ch_lsv-anhang6.md. _[2026-07-24]_
+
+**Ergebnis Buch-Run 51 (Modell E, gezielte Lückenschliessung, Nachtschicht Mac Mini, kein
+Agent-Fan-out — Budget-Disziplin Nachtschicht):** **Anhang 6 LSV** (seit Run 48/2026-07-17 als
+offen geflaggt) via Fedlex-Filestore-HTML beschafft und volltextverifiziert — Geltungsbereich,
+Grenzwerttabelle (wertidentisch zu Anhang 3/4) und Beurteilungspegel-Formel/Pegelkorrekturen K1-K3
+neu erfasst; neuer Wiki-Abschnitt «Industrie- und Gewerbelärm» in
+[[laermschutz-und-nichtionisierende-strahlung]]. **0 Korrekturen, 0 Halluzinationen** — reine
+Lückenschliessung, das bestehende Destillat (Fahrzeugabstellplätze) zitierte Anhang 6 bereits
+korrekt. QUESTIONS-Flag geschlossen. Report `outputs/2026-07-24_buch-run51.md`.

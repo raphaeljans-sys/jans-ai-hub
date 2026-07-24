@@ -4,6 +4,31 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-24 — Wissens-Chef Run 14 (Cross-KB): Laerm/ES-Rollen-Link zu planungsgrundlagen + LSV-2026-needs-verification
+- [link] `wiki/laermschutz-und-nichtionisierende-strahlung.md`: Querbezug-Block zur KB planungsgrundlagen
+  gesetzt (Beschaffung/GIS-Layer 0154 fuehrend dort; Recht/ES-Grenzwerte hier fuehrend). Reziprok zum
+  frischen Buch-Run-51-Stoff (Anhang 6 LSV). Gegenrichtung in `planungsgrundlagen/wiki/kartenportale-zonenplan-zh.md`.
+- [flag] `wiki/QUESTIONS.md`: needs-verification-Notiz gesetzt — LSV-Novelle 01.04.2026 (aus pg-Vorbehalt)
+  gegen unsere Anhang-3/4/6-Werte (Fedlex Stand 1.11.2023) pruefen. Adversarialer Verifier Run 14:
+  UNBESTIMMT mit Entlastungstendenz (pg behauptet keine Grenzwert-Aenderung); keine unbelegte Korrektur.
+
+## 2026-07-24 — Buch-Run 51 (Nachtschicht Mac Mini, Modell E): Anhang 6 LSV (Industrie-/Gewerbelärm) beschafft und verifiziert
+- [distill] `raw/260724_amtlich_ch_lsv-anhang6.md`: neuer amtlicher Volltext (Fedlex-HTML,
+  Filestore-Muster Rule 260721, Stand 1.11.2023) — Anhang 6 LSV vollständig (Geltungsbereich,
+  Grenzwerttabelle ES I-IV, Beurteilungspegel-Formel + Pegelkorrekturen K1/K2/K3). Schliesst die
+  seit Run 48 (2026-07-17) in `wiki/QUESTIONS.md` offene Lücke.
+- [ergänzt] `wiki/laermschutz-und-nichtionisierende-strahlung.md`: neuer Abschnitt «Industrie- und
+  Gewerbelärm (Art. 40 Abs. 1 / Anhang 6 LSV)» — Geltungsbereich (inkl. Parkhäuser/HLK-Anlagen),
+  Grenzwerttabelle (**wertidentisch zu Anhang 3/4**, PW < IGW < AW CONFIRMED), Formel +
+  Pegelkorrekturen mit JANS-Praxisbezug (Wärmepumpen-Aussenaufstellung, Lüftungsauslässe in
+  ES II/III). Frontmatter `paragraphen` + `verifiziert` + `last_updated` nachgeführt.
+- [questions] `wiki/QUESTIONS.md`: Anhang-6-LSV-Eintrag auf ERLEDIGT gesetzt.
+- [drill] 1 neue Karte (`training/drills.md`, Run-51-Block, Modell C): Parkhaus-/Aussenparkierungs-
+  lärm → Anhang 6 LSV, Grenzwertgleichheit zu Anhang 3/4, abweichende Ermittlungsmethode.
+- **Befund: 0 Korrekturen, 0 Halluzinationen.** Die einzige bestehende KB-Referenz auf Anhang 6 LSV
+  (`buecher/band-2/13-fahrzeugabstellplaetze-spielflaechen-teil3.md`) war bereits korrekt — reine
+  Lückenschliessung, kein Fehlerfund. Report `outputs/2026-07-24_buch-run51.md`.
+
 ## 2026-07-23 — Wissens-Chef Run 13 (Cross-KB): SN-640-066-Ausgabe-Vorbehalt + Naturgefahren-Backlog-Anker
 - [korrektur] `wiki/fahrzeugabstellplaetze-und-parkierung.md`: an die Angabe «VSS 40 066 (2011/2019)» einen
   Herkunfts-Vorbehalt gesetzt (adversarial verifiziert, Verdikt CONFIRMED) — der geaenderte Titel «Parkieren;

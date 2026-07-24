@@ -70,6 +70,13 @@ TYPENAMES=ms:ogd-0154_arv_basis_np_ls_festlegung_f
 ```
 Benchmark Langnau Kat. 3338: **ES_II** (Wohnzonen, keine stoerenden Betriebe, Art. 43 Abs. 1b LSV).
 
+> **Querbezug KB baurecht (Recht fuehrend, gesetzt Wissens-Chef Run 14, 24.07.2026).** Dieser Artikel
+> ist fuehrend fuer die **Beschaffung** der ES-Zuordnung (GIS-Layer 0154, login-frei als Vektor). Die
+> **Rechtsgrundlage** der Empfindlichkeitsstufen (Art. 43/44 LSV, Zuordnungskriterien ES I-IV, Aufstufung,
+> Belastungsgrenzwerte Anhang 3/4/6) fuehrt die KB baurecht:
+> `wissen/baurecht/wiki/laermschutz-und-nichtionisierende-strahlung` (Anhang 3/4/6 volltextverifiziert
+> Stand 1.11.2023, Buch-Runs 46-51). Fuer die Rechtsfolge dorthin, nicht hier nachschreiben.
+
 ## Weitere Nutzungsplanungs-Layer (gleiches `arv_basis`-Schema)
 
 | Datensatz | Layer | Inhalt |

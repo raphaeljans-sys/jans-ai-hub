@@ -3,6 +3,32 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-24 — Run 14 (5 Lese-Agenten, 5 Paare/Felder; 1 VERALTETES-Verdacht adversarial verifiziert → UNBESTIMMT)
+- Gedrosselter Cross-KB-Lauf (Rule 260714): 5 parallele Lese-Agenten (regulaeres Agent-Tool, Hintergrund) am
+  frischen Stoff seit Run 13 — baurecht Buch-Run 51 (Anhang 6 LSV), normen Run 19 (Meilenstein «SIA/VKF KOMPLETT»
+  + neue Destillate SIA 405/2056 + tote Links), energie Run 87 (FAQ F1–F116), pg Run 58, grobkosten Struktur-Findings,
+  firmengruendung-ch (Steuern/Holding, rotierendes Paar). **1 adversarialer Verifier** (LSV-Novelle 01.04.2026).
+- **Kern-Ergebnis 1: SIA-181-Scheinwiderspruch aufgeloest (normen ↔ baurecht).** Der Health-Check-24.07.-Befund
+  «Meilenstein komplett vs. offene Bring-Schuld SIA 181:2020» ist KEIN Sachwiderspruch: SIA 181 ist P2, SIA 181:2020
+  liegt nicht im Bestand (kostenpflichtig); «komplett» = Bestandsabdeckung. Die normen-KB hatte das am selben Tag
+  selbst korrekt verdiktet. Kein Eingriff noetig ausser der bereits notierten Formulierungspraezisierung.
+- **Kern-Ergebnis 2: Laerm/ES-Rollen-Link baurecht ↔ pg neu gesetzt (frischer Run-51-Stoff).** Der Laerm-Artikel
+  hatte keinen reziproken Beschaffungs-/Recht-Link zur pg-Layer-0154-Seite → bidirektional gesetzt analog Abstaende-Muster.
+- **Kern-Ergebnis 3: LSV-Novelle-01.04.2026-Verdacht adversarial geprueft → UNBESTIMMT mit Entlastungstendenz.**
+  pg-⚠-Vorbehalt behauptet KEINE ES-Grenzwert-Aenderung; baurecht Anhang 3/4/6 (Stand 1.11.2023) NICHT als veraltet
+  markiert, stattdessen needs-verification in baurecht/QUESTIONS gesetzt (Fedlex SR 814.41 20260401 gegen 1.11.2023 diffen).
+- **6 autonome Aktionen in 3 KBs** (5 additive Cross-Links/Rueckverweise + 1 needs-verification-Flag, keine Loeschung,
+  kein Trim): baurecht (Laerm→pg-Querbezug, QUESTIONS-LSV-Flag), planungsgrundlagen (zonenplan→baurecht, ES-Doppelspur→baurecht),
+  energie (F116→pg-EN-104). Je KB CHANGELOG protokolliert; QUERBEZUEGE um 5 Paar-Eintraege ergaenzt.
+- **Offene Punkte (kein neuer Entscheid fuer Raphael, alle vorgemerkt/Loop):** (1) LSV-Novelle-01.04.2026 vs.
+  Anhang 3/4/6 — amtliche Fedlex-Verifikation ausstehend (needs-verification gesetzt). (2) Private-Kontrolle-Trim
+  energie↔pg WEITER OFFEN (destruktiv, Entscheid Raphael; seit Run 11). (3) firmengruendung-ch intra-KB-Linkhygiene
+  (an den KB-Loop delegiert, Kollisionsschutz). (4) grobkosten-interne 0,70/0,60-Kopplungsformulierung (niederprioritaer,
+  KB-intern). Kennwert-Feld (grobkosten/immo/kostenschaetzung) Cross-KB widerspruchsfrei, Guards intakt.
+  **Cross-KB-Beobachtung Umlaut-Config-Bug** (ASCII ae/oe/ue in Subagenten-Outputs) unveraendert getrackt — Config-Sache
+  (Whitelist-verboten), fuer hub-chef/Raphael, hier nur registriert (keine Doppelmeldung).
+  Report: `outputs/2026-07-24_wissens-chef-run14.md`.
+
 ## 2026-07-24 — Wissens-Health-Check (Phase 1, Skill wissenscheck, Mac Mini Nachtschicht)
 Zweiter Audit dieser KB (Erst-Audit 20.07., seither Runs 10-13). Register (QUERBEZUEGE,
 SYNERGIE-REGISTER, CHANGELOG) weiterhin diszipliniert gefuehrt, Stichproben bestanden.

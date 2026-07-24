@@ -7,6 +7,23 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-24
 
+**Nachtschicht Mac Mini (~23:30, Wissens-Health-Check auflagebereinigung, Dispatch-Run
+20260724-233002).** Vorpruefung: alle Mac-Mini-Prioritaeten heute Nacht bereits erschoepft
+(Synobsis Stufe 2 vollstaendig seit 02:18, Fristen-Radar vom Hub-Chef bereits versendet,
+normen DIN/VSS/RAL-Endbedingung seit Mini-Run 29-32 erreicht, energie/planungsgrundlagen/
+synobsis/normen heute bereits durch die 18:30-22:54-Laeufe bedient). Zusaetzlich geprueft:
+NAS-`.git/index.lock` seit 22:39 aktiv, aber korrekt durch die eingebaute Alters-Guard
+(>3600s) von `nas-selfcommit.sh` blockiert, kein Fehlzustand — loest sich im 23:45-Zyklus
+selbst auf, keine manuelle Intervention noetig. Also Prioritaet 6: wissenscheck Phase 1
+(unbeaufsichtigt) auf `wissen/auflagebereinigung` (aeltestes Audit-Datum, 21.07., heute Nacht
+von keinem anderen Lauf angefasst). 7-Audits-Katalog auf alle 7 Wiki-Artikel: 1 Orphan
+(`formular-verifizierung.md`), 1 veraltetes raw-Register (`_INGESTED.md` fehlen 3 neuere
+Primaerquellen), 1 schwerwiegender Umlaute-/Frontmatter-Verstoss (`gvz-einreichung-bma-
+sprinkler.md`, ~40+ ASCII-Umlaute-Fundstellen), 4 Promotion-Kandidaten (emerging->established).
+Report `wissen/auflagebereinigung/outputs/2026-07-24_health-check.md`, CHANGELOG nachgefuehrt.
+Reine Audit-Phase, keine Datei inhaltlich veraendert. Kein Versand/Publikation/Buchung, keine
+Zweitinstanz-Kollision.
+
 **Nachtschicht Mac Mini (~21:30, KB planungsgrundlagen Steuerabzug energetische Sanierung,
 Dispatch-Run 20260724-213007).** Vorpruefung: Sync-/Remote-Queues leer, Trainingsfenster
 22:00-06:00 noch nicht erreicht, KB `energie` hat nur grosse/blockierte Luecken (Raphael-Entscheid
@@ -2178,3 +2195,5 @@ Nicht ausgefuehrt (bewusst): RE-00087 (KISPI, CHF 15'000, 93 Tage ueberfaellig, 
   und `zahlungsabgleich-check` (taeglich). Debitoren-Seite jetzt auf verifizierten Daten.
 - **Kontroll-Schicht initiiert:** Logbuch + Fristen-Register + Agent `logbuch` angelegt — der Hub
   wird vom ausfuehrenden Werkzeug zur Aufsichts-/Qualitaetsinstanz.
+
+- 2026-07-24 22:40 (Nachtschicht Mac Mini): baurecht Buch-Run 51 — Anhang 6 LSV beschafft+verifiziert, Wiki/QUESTIONS/Drills/PROGRAMM/CHANGELOG nachgefuehrt (0 Korrekturen). Aenderungen NICHT committet: `git commit` haengt wiederholt ueber SMB, dabei blieb ein STALES `.git/index.lock` zurueck (Permission-System verweigert Claude das Entfernen sensibler Dateien) — muss manuell geloescht werden, bevor der naechste Commit (auch nas-selfcommit) durchgeht. Budget erschoepft, Zyklus hier beendet.

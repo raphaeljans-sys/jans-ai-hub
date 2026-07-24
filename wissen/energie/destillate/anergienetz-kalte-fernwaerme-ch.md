@@ -1,11 +1,11 @@
 ---
-quelle: Web-Recherche CH-Primaer-/Fachquellen — thermische-netze.ch (TNS); geothermie-schweiz.ch (Watt d'Or Hoenggerberg); amstein-walthert.ch; hoenggerberg-2040.ethz.ch (ETH Zuerich); energiekonzepte.ch + wildarmaturen.ch + suurstoffi.ch (Suurstoffi, Zug Estates AG); anex.ch (Anergienetz Friesenberg FGZ); espazium.ch/TEC21 «Ein Netz fuer (fast) alle Faelle»; Luzerner Zeitung + stadtluzern.ch (Anergienetz Luzerner Kantonsspital)
-herausgeber: diverse (Fachverband TNS, ETH Zuerich, Fachplaner Amstein+Walthert/Anex/EBP, Bauherren Zug Estates/FGZ, Medien)
-ausgabe: Referenzprojekt-Seiten, Abruf 2026-07-23
-gelesen: Web-Recherche 2026-07-23 (Sonnet-Rechercheagent), Synthese/Verifikation Hauptmodell
-datenstand: 2026-07-23 (Referenzprojekt-Kennzahlen; rechtlicher ZH/SZ-Rahmen nur aus Such-Snippets, NICHT am Erlass-Volltext verifiziert — siehe offene Punkte)
-status: emerging
-last_updated: 2026-07-23
+quelle: Web-Recherche CH-Primaer-/Fachquellen — thermische-netze.ch (TNS); geothermie-schweiz.ch (Watt d'Or Hoenggerberg); amstein-walthert.ch; hoenggerberg-2040.ethz.ch (ETH Zuerich); energiekonzepte.ch + wildarmaturen.ch + suurstoffi.ch (Suurstoffi, Zug Estates AG); anex.ch (Anergienetz Friesenberg FGZ); espazium.ch/TEC21 «Ein Netz fuer (fast) alle Faelle»; Luzerner Zeitung + stadtluzern.ch (Anergienetz Luzerner Kantonsspital); Run 87: PBG ZH § 295 Abs. 2 + EnerG ZH § 11 Abs. 5 (amtliche Erlasstexte zhlex.zh.ch, curl+pdftotext) + AWEL-Vollzugsseite «Heizungsersatz» (70-%-Vollzugspraxis)
+herausgeber: diverse (Fachverband TNS, ETH Zuerich, Fachplaner Amstein+Walthert/Anex/EBP, Bauherren Zug Estates/FGZ, Medien); Staatskanzlei Kt. ZH (Zuercher Gesetzessammlung); AWEL Kt. ZH
+ausgabe: Referenzprojekt-Seiten, Abruf 2026-07-23; PBG Nachtrag 133 (1.7.2026), EnerG Nachtrag 129 (1.7.2025)
+gelesen: Web-Recherche 2026-07-23 (Sonnet-Rechercheagent), Synthese/Verifikation Hauptmodell; Run 87 (2026-07-24): PBG-/EnerG-Volltexte amtlich gelesen
+datenstand: 2026-07-24 (Referenzprojekt-Kennzahlen 2026-07-23; Rechtsrahmen ZH jetzt amtlich am Erlass-Volltext verifiziert — SZ weiterhin nur Snippet)
+status: emerging (Rechtsrahmen ZH established, CHF/m²-Kennzahl weiterhin unbelegt)
+last_updated: 2026-07-24
 ---
 
 # Destillat — Anergienetz / kalte Fernwärme (kaltes Nahwärmenetz) Schweiz
@@ -65,14 +65,34 @@ und Kühlbedarf.
   Umweltwärme-Zone liegt — vor der Grobkostenschätzung mit der Standortgemeinde abklären. (⚠ nur
   Snippet-Beleg, vor verbindlicher Auskunft EnerG-Volltext prüfen.)
 
+## Rechtsrahmen ZH — amtlich verifiziert (Run 87, 2026-07-24)
+
+Die gesuchte Anschlusspflicht steht **nicht im EnerG**, sondern im **Planungs- und Baugesetz (PBG,
+LS 700.1), § 295 Abs. 2** (amtlicher Wortlaut, zhlex.zh.ch, Nachtrag 133, in Kraft 1.7.2026):
+«Wenn eine öffentliche Fernwärmeversorgung lokale Abwärme oder erneuerbare Energien nutzt und die
+Wärme zu technisch und wirtschaftlich gleichwertigen Bedingungen wie aus konventionellen Anlagen
+anbietet, kann der Staat oder die Gemeinde Grundeigentümer verpflichten, ihr Gebäude innert
+angemessener Frist an das Leitungsnetz anzuschliessen und Durchleitungsrechte zu gewähren.» Keine
+automatische Pflicht, sondern eine behördliche Einzelfallverfügung; eine feste «70-%-Regel» steht in
+§ 295 PBG **nicht**.
+
+Die **70-%-Zahl** gehört zu einem anderen, verwandten Mechanismus: **§ 11 Abs. 5 EnerG** (LS 730.1,
+Nachtrag 129) erlaubt beim **Wärmeerzeuger-Ersatz** in Bestandsbauten den Anschluss an ein Wärmenetz
+als Erfüllungsoption der Ersatzpflicht, wenn «ein wesentlicher Anteil der Wärmeerzeugung aus
+erneuerbaren Energien, Abwärme oder Abfallverbrennung stammt» — der unbestimmte Rechtsbegriff
+«wesentlicher Anteil» wird in der **AWEL-Vollzugspraxis** (Webseite «Heizungsersatz») auf **mindestens
+70 %** konkretisiert; das ist Vollzugshilfe, kein Gesetzeswortlaut. Ein Anergienetz mit Erdsonden-/
+Grundwasser-Quelle erfüllt diese Schwelle in der Regel klar.
+
 ## Offene Punkte
 - **Keine belegte CH-Kennzahl** zu Investitionskosten pro m² EBF bzw. Wärmegestehungskosten (Rp./kWh)
-  speziell für Anergienetze. Die einzige Rp./kWh-Zahl (~10,27 Rp./kWh) betrifft klassische Fernwärme
-  und ist wegen anderer Kostenstruktur NICHT übertragbar.
+  speziell für Anergienetze. Allgemeine Fernwärme-Referenz (Preisüberwacher, Herbst 2024): ⌀ ca.
+  17 Rp./kWh bzw. CHF 3'467/Jahr EFH (Bandbreite CHF 1'878–5'267) — **nicht** Anergienetz-spezifisch,
+  nicht übertragbar (andere Kostenstruktur: dezentrale WP je Gebäude statt zentraler Wärmetauscher).
+  Für eine belastbare Kennzahl: «Faktenblatt Thermische Netze» Schweizerischer Städteverband oder
+  EnergieSchweiz-Planungshandbuch Fernwärme im Volltext prüfen (nächster Lauf).
 - **Kein eigenes SIA-Merkblatt/Norm** explizit für Anergienetze gefunden (nur allgemeine Fernwärme-
   Planungshandbücher). Vor normativer Aussage → Skill `normen`.
-- **Rechtsrahmen ZH** (Anschlusspflicht, 70-%-erneuerbar-Regel) nur aus WebSearch-Snippets, nicht am
-  EnerG-Volltext (LS 730.1) verifiziert → Skill `baurecht` / Rule `normen-referenz`.
 - **Kanton SZ:** Seite zur kommunalen Energieplanung lieferte HTTP 403 — kein SZ-Bezug verifizierbar.
 - Widerspruch IBN Hönggerberg 2012 ↔ 2013 ungelöst.
 

@@ -4055,17 +4055,108 @@ wie bei der Sonde — das amtliche Zusatzformular «Oberflächennahe Erdwärme»
 seit 2023 geltende reine Meldeverfahren, das gilt nur für Luft-Wasser-WP, Erdsonden-WP und
 Fernwärme). Voraussetzung u.a. **≥ 2 m Abstand zum höchsten Grundwasserspiegel**, Nachbarzustimmung
 bei Anlagenabstand < 2,5 m. In **Schwyz** sind Erdkollektoren/Energiekörbe ausserhalb der
-Grundwasserschutzzone S2 grundsätzlich zulässig (Flurabstand ≥ 2 m; kostenlose Vorabklärung beim AfU,
-dann eBau — ⚠ nur Snippet-Beleg, vor Kundenaussage am Original prüfen). **Der Haken ist nicht die
-Bewilligung, sondern die Fläche:** flächige Systeme brauchen viel unbebauten, unversiegelten Garten
-(Faustregel ~doppelte beheizte Fläche, Sekundärquelle) und liefern ein tieferes Temperaturniveau
-(tendenziell etwas schlechtere JAZ) als die Sonde. **Energiepfähle** sind primär eine
-Grossbauten-/Fundationslösung (lohnend, wenn ohnehin fundiert wird), kein typisches EFH-System. ⚠ Ein
-CH-amtlicher Entzugsleistungs-Kennwert (W/m²) liess sich **nicht** belegen (nur deutsche VDI-4640-Werte)
-— die Auslegung gehört zwingend zu einem FWS-Fachplaner/einer Bohrfirma. →
+Grundwasserschutzzone S2 grundsätzlich zulässig (Flurabstand ≥ 2 m; **ordentliches Baubewilligungs-
+verfahren via eBau, mit vorgeschalteter kostenloser Vorabklärung beim AfU** — Run 87, amtlicher
+Volltext). **Der Haken ist nicht die Bewilligung, sondern die Fläche:** flächige Systeme brauchen viel
+unbebauten, unversiegelten Garten und liefern ein tieferes Temperaturniveau (tendenziell etwas
+schlechtere JAZ) als die Sonde. **Energiepfähle** sind primär eine Grossbauten-/Fundationslösung
+(lohnend, wenn ohnehin fundiert wird), kein typisches EFH-System. Der Flächenbedarf lässt sich jetzt
+konkret rechnen (Run 87, AWP-Merkblatt T2/2007, in BAFU/FWS-Vollzugshilfe 2009 zitiert): Entzugsleistung
+im Normalfall (feucht/sandig, normalsonnig) **15–20 W/m²** (Bandbreite 10–35 W/m² je Bodenart/Besonnung)
+— für ein EFH mit ~10 kW Wärmebedarf resultieren typischerweise 300–350 m² Kollektorfläche. →
 `[[oberflaechennahe-erdwaerme-flaechenkollektor-erdwaermekorb-zh-sz]]`, `[[erdwaermesonden-bewilligung-zh-sz]]`.
 **Vor der Haustechnikplanung** den amtlichen Eignungslayer prüfen (Querbezug KB planungsgrundlagen):
 `wissen/planungsgrundlagen/wiki/kartenportale-naturgefahren-objektschutz.md` §6c (Erdwärmenutzung —
 SZ-Zonierung zulässig/Abklärung/nicht zulässig + Bestandeskataster Erdregister/Energiekorb/Energiepfahl/
 Erdwärmesonde) und §8b (ZH-Grundwasserschutzzonen S1/S2/S3, WFS-Connector).
-Datenstand 2026-07-23. Status **emerging** (ZH-Verfahren amtlich belegt, W/m²-Kennwerte + SZ-Volltext offen).
+Datenstand 2026-07-24. Status **established** (ZH+SZ-Verfahren amtlich belegt, Entzugsleistung
+CH-fachverbandlich belegt; CHF-Kosten und «Grabenkollektor»-Kategorie bleiben offen).
+
+---
+
+### F111 — Kann mich die Gemeinde zwingen, mein Gebäude an ein Fernwärme-/Wärmeverbundnetz
+anzuschliessen?
+
+Ja, das ist rechtlich möglich, aber an Bedingungen geknüpft. Nach **§ 295 Abs. 2 PBG** (Planungs- und
+Baugesetz Kt. ZH — nicht im EnerG, wie oft angenommen) kann Staat oder Gemeinde eine Anschlusspflicht
+verfügen, wenn das Fernwärmenetz lokale Abwärme oder erneuerbare Energien nutzt und die Wärme zu
+technisch UND wirtschaftlich gleichwertigen Bedingungen wie eine konventionelle Anlage anbietet — keine
+automatische Pflicht, sondern eine behördliche Einzelfallverfügung mit angemessener Frist; im Gegenzug
+muss der Eigentümer Durchleitungsrechte gewähren. Separat davon: Beim **Heizungsersatz** in
+Bestandsbauten erfüllt ein Wärmenetzanschluss die EnerG-Ersatzpflicht (§ 11 Abs. 5 EnerG), wenn «ein
+wesentlicher Anteil der Wärmeerzeugung aus erneuerbaren Energien, Abwärme oder Abfallverbrennung
+stammt» — das AWEL konkretisiert dies in der Vollzugspraxis auf **mindestens 70 %** (keine Gesetzeszahl,
+sondern Vollzugshilfe). Bei den meisten grossen städtischen Fernwärmenetzen ist diese Schwelle erfüllt.
+→ `[[anergienetz-kalte-fernwaerme-ch]]`. Datenstand 2026-07-24 (Run 87, amtliche Erlasstexte).
+
+### F112 — Wie viel Fläche brauche ich für einen Erdwärme-Flächenkollektor statt einer Sonde?
+
+Als Richtwert gilt gemäss dem Schweizer Fachmerkblatt T2 der Arbeitsgemeinschaft Wärmepumpen (AWP,
+2007, in der BAFU/FWS-Vollzugshilfe 2009 als Referenz zitiert) im Normalfall (feuchter, sandiger Boden,
+normal besonnt) eine maximale Entzugsleistung von **15–20 W/m²** Bodenfläche; ungünstig (trocken,
+steinig, schattig) 10–15 W/m², günstig (feucht, sandig, sonnig) bis 30–35 W/m². Fläche = Kühlleistung
+der Wärmepumpe (W) ÷ Belastungswert (W/m²) — für ein EFH mit rund 10 kW Wärmebedarf typischerweise
+300–350 m². Diese Fläche muss unversiegelt bleiben (Regeneration über Niederschlag/Sonne). Eine
+aktuelle, eigenständige Schweizer Norm für Flächenkollektoren gibt es nicht (SIA 384/6 regelt nur
+Erdsonden); das AWP-Merkblatt bleibt die von der Behörde referenzierte Fachquelle, ergänzt durch die
+deutsche VDI 4640. → `[[oberflaechennahe-erdwaerme-flaechenkollektor-erdwaermekorb-zh-sz]]`. Datenstand
+2026-07-24 (Run 87).
+
+### F113 — Warum liest man für Denkmalpflegebeiträge im Kanton Schwyz mal 25 %, mal 30/35/40 % — und
+gibt es einen Extra-Zustupf für energetische Sanierungen?
+
+Kein Widerspruch: 25 % ist der Grundbeitrag, den seit 1.10.2024 jedes im Kantonalen Schutzinventar
+verzeichnete Objekt erhält (§ 16a Abs. 2 DSG). Je nach Schutzziel-Stufe (§ 5 DSV) kommt ein Zuschlag
+dazu: +15 % bei Schutzziel I (Total 40 %), +10 % bei Schutzziel II (35 %), +5 % bei Schutzziel III
+(30 %) — massgebend ist die Schutzziel-Stufe des Objekts, **nicht** die Art der Massnahme (Fenster,
+Fassade, Dach werden nicht unterschiedlich gefördert). Bei regional/national eingestuften Objekten kann
+zusätzlich ein Bundesbeitrag (15 %/20 %) dazukommen (Spitze bis 60 %); eine kommunale Förderung gibt es
+nicht. **Wichtig für energetische Sanierung:** Diese Kantonsbeiträge gelten nur für substanzerhaltende
+Restaurierung — energetisch motivierte Zusatzkosten (Komfort-/Energieeinsparungsmassnahmen) sind
+explizit von der Beitragsberechtigung ausgeschlossen (§ 8b Abs. 3 DSV). Stattdessen gibt es bei
+geschützten Objekten eine separate, geldwerte **regulatorische** Erleichterung: eine Befreiung von den
+sonst geltenden energetischen Anforderungen über die Energiefachstelle des Hochbauamts SZ mit
+Bestätigung der Denkmalpflege. → `[[denkmalschutz-energiesanierung-zh-sz]]`. Datenstand 2026-07-24
+(Run 87, RRB Nr. 70/2024 im Volltext).
+
+### F114 — Darf ich mein Gebäude energetisch sanieren, wenn es im Ortsbildschutz-Perimeter liegt oder
+unter Heimatschutz steht (Kt. ZH)?
+
+Grundsätzlich ja: Nach **§ 238 Abs. 4 PBG** (Kt. ZH, Stand 1.7.2026) werden «genügend angepasste
+energetische Verbesserungen und Anlagen zur Nutzung erneuerbarer Energien, insbesondere Solaranlagen»
+bewilligt, «sofern nicht überwiegende öffentliche Interessen entgegenstehen». Das Gesetz privilegiert
+damit die Energiemassnahme im selben Paragraphen, der auch den Natur-/Heimatschutz-Rücksichtnahme-
+Vorbehalt trägt (§ 238 Abs. 2 PBG); eine Ablehnung setzt ein von der Behörde konkret nachgewiesenes
+**überwiegendes** Schutzinteresse voraus — ein rein ästhetischer Einwand genügt nicht. Massgebend ist,
+ob die Anlage «genügend angepasst» integriert wird. **Zur Abgrenzung:** § 295 PBG regelt nur
+Heizungstechnik/Fernwärme-Anschlusspflicht, nicht diese Interessenabwägung. Eine laufende PBG-
+Teilrevision (RRB Nr. 678/2026 vom 2.7.2026, noch nicht in Kraft) soll die Abwägung für Baudenkmäler
+zusätzlich präzisieren. → `[[denkmalschutz-energiesanierung-zh-sz]]`. Datenstand 2026-07-24 (Run 87,
+amtlicher Erlasstext).
+
+### F115 — Was kostet ein Blower-Door-Test, und wann ist er Pflicht?
+
+Ein Blower-Door-Test misst mit einem Ventilator in der Haustür die Luftdichtheit der Gebäudehülle
+(Kennwert n50, Luftwechsel/h bei 50 Pa) nach SIA 180. Für ein EFH rechnen Sie mit einem Testpreis **ab
+rund CHF 1'000** (hausinfo.ch, 2020 — einzige gefundene CH-Zahl); bei einem MFH mit mehreren Wohnungen
+entsprechend mehr, da Schweizer Anbieter praktisch immer individuell offerieren — eine allgemeingültige
+Preistabelle gibt es am Markt nicht. **Pflicht** ist der Test bei Minergie-P und Minergie-A (n50-
+Grenzwert ≤ 0,6 h⁻¹ zwingend nachzuweisen); beim Standard-Minergie-Label genügt ein Luftdichtheits-
+konzept. Richtwerte ohne Label: n50 ≤ 3,0 h⁻¹ bei Fensterlüftung, ≤ 1,5 h⁻¹ bei mechanischer Lüftung.
+Empfehlung: Test vor dem Schliessen der Beplankung/Innenverkleidung durchführen, damit Leckstellen noch
+günstig nachgebessert werden können. → `[[blower-door-test-kosten-ch]]`. Datenstand 2026-07-24 (Run 87).
+
+### F116 — Ist die Solarpflicht für Dächer über 300 m² im Kanton Zürich schon beschlossen?
+
+Nein. Der Regierungsrat hat der KEVU (Kommission für Energie, Verkehr und Umwelt) des Kantonsrats am
+26.11.2025 seinen Antrag zur Änderung des Energiegesetzes vorgelegt (**KRNr 6062** Solarpflicht +
+**KRNr 6063** Langzeitspeicher — amtlich identifiziert via CDWS-Geschäftsdatenbank, Run 87, klar
+unterschieden von KRNr 6064, einem separaten Fördermittel-Rahmenkredit). Laut der amtlichen
+Geschäftsdatenbank liegt das Geschäft seither unverändert bei der Kommission; eine Kommissions- oder
+Plenumsberatung ist bis 24.07.2026 nicht protokolliert. Bis zum definitiven Kantonsratsbeschluss (und
+einer allfälligen Referendumsfrist) gilt für Bauherrschaften weiterhin das aktuelle Energiegesetz ohne
+generelle Solarpflicht (heutige PV-Pflicht bleibt EN-104-ZH, ≥10 W/m² EBF). →
+`[[zh-energiegesetz-revision-solarpflicht-2026]]`. Datenstand 2026-07-24 (Run 87, CDWS-Live-Abfrage).
+Querbezug KB planungsgrundlagen (Formular/Verfahren fuehrend, Wissens-Chef Run 14): die Bedienung des
+Formulars **EN-104-ZH** «Eigenstromerzeugung» (Nachweisfuehrung, max. 30 kW-Grenze, EVEN) in
+`wissen/planungsgrundlagen/wiki/energie-energienachweis-zh-formulare`.

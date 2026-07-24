@@ -4,8 +4,8 @@ herausgeber: Kanton Zürich (Amt für Raumentwicklung ARE, Fachstelle Archäolog
 ausgabe: Web-Recherche, amtliche Kantons-/Bundes-/Stadt-Webseiten und Medienmitteilungen
 gelesen: 2026-07-14 (Run 67)
 datenstand: 2026-07-14 (Web-Recherche; PBG-Revision ZH per 02.07.2026 noch nicht in Kraft, DSG/DSV SZ seit 1.10.2024 in Kraft)
-status: established (Grundstruktur amtlich belegt; SZ-Beitragswiderspruch und ZH-Erleichterungsklausel per Nachrecherche 2026-07-14 primärquellen-verifiziert — siehe Ergänzung)
-last_updated: 2026-07-14 (nachintegrierte Klärung)
+status: established (Grundstruktur amtlich belegt; SZ-Beitragswiderspruch, ZH-Erleichterungsklausel UND § 238 PBG-Wortlaut primärquellen-verifiziert)
+last_updated: 2026-07-24 (Run 87: § 238 PBG Wortlaut + SZ-Beitragsformel-Herleitung ergänzt)
 ---
 
 # Denkmalschutz/Ortsbildschutz (ISOS) und energetische Sanierung — Kt. ZH und Kt. SZ
@@ -53,6 +53,20 @@ unmittelbar bindend, sonst ist es ein gewichtiges, aber abwägungspflichtiges In
   2. **Objekte in Schutzzonen** (§ 238 PBG, Gestaltungsprüfung): Nach **Art. 18a Abs. 4 RPG** gehen
      die Interessen an der Solarenergienutzung den ästhetischen Anliegen grundsätzlich **vor** — die
      Abwägung kippt zugunsten der Solaranlage.
+- **§ 238 PBG — amtlicher Wortlaut (Run 87, zhlex.zh.ch Nachtrag 133, Stand 1.7.2026):** Abs. 1
+  allgemeines Gestaltungsgebot; **Abs. 2** («Auf Objekte des Natur- und Heimatschutzes ist besondere
+  Rücksicht zu nehmen; sie dürfen auch durch Nutzungsänderungen und Unterhaltsarbeiten nicht
+  beeinträchtigt werden, für die keine baurechtliche Bewilligung nötig ist.») und **Abs. 4** («Genügend
+  angepasste energetische Verbesserungen und Anlagen zur Nutzung erneuerbarer Energien, insbesondere
+  Solaranlagen, werden bewilligt, sofern nicht überwiegende öffentliche Interessen entgegenstehen.»,
+  in Kraft seit 1.9.2022 gemäss Energiegesetz vom 19.4.2021) stehen im **selben Paragraphen** — die
+  Interessenabwägung Energie↔Ortsbild findet unmittelbar dort statt, mit gesetzlicher Grundvermutung
+  **zugunsten** der Energiemassnahme (Beweislast für eine Ablehnung liegt bei der Behörde). **Wichtige
+  Abgrenzung:** § 295 PBG (Heizungen) regelt NUR Heizanlagen-Technik und Fernwärme-Anschlusspflicht,
+  NICHT die Energie/Denkmalschutz-Abwägung — die frühere, ungenaue Zuschreibung ist damit korrigiert.
+  **Laufende Teilrevision:** RRB Nr. 678/2026 vom 2.7.2026 («Bauliche Weiterentwicklung von
+  Baudenkmälern soll einfacher werden») soll die Interessenabwägung für Baudenkmäler zusätzlich
+  präzisieren — liegt beim Kantonsrat, noch nicht in Kraft (zur Beobachtung vormerken).
   In beiden Fällen bleibt eine Interessenabwägung nötig. Alle Solaranlagen und Aussen-WP in
   **Kernzonen**, im Geltungsbereich eines Ortsbild-/Denkmalschutz-Inventars oder eines
   Denkmalschutz-Beschlusses bleiben **bewilligungspflichtig** (kein Meldeverfahren) — Leitfaden
@@ -156,17 +170,35 @@ Interessenabwägung dank Art. 18a RPG eher zugunsten der Solaranlage. In der Sta
 kann eine denkmalgerechte Sanierung deutlich mitfinanzieren. In SZ ist zusätzlich zu prüfen, ob ab
 CHF 10'000 Förderbeitrag ein GEAK Plus (Pflicht) eingeplant ist.
 
+## SZ-Beitragsformel — Herleitung geklärt (Run 87)
+
+Der scheinbare Widerspruch «25 % vs. 30/35/40 %» ist **kein Widerspruch**, sondern Grundbeitrag +
+Schutzziel-Zuschlag nach § 16a DSG: **25 % Grundbeitrag für alle Schutzobjekte**, plus Zuschlag nach
+Schutzziel-Stufe (§ 5 DSV) — **Schutzziel I +15 % (Total 40 %)**, **II +10 % (Total 35 %)**,
+**III +5 % (Total 30 %)**. Massgebend ist die Schutzziel-Stufe des Objekts, **nicht** der Massnahmentyp
+(Fenster/Fassade/Dach werden nicht unterschiedlich behandelt). Zusätzlich möglich: **Bundesbeitrag**
+15 % (regional) bzw. 20 % (national eingestuft) obendrauf (Spitzenwert 60 % öffentliche Mittel) — eine
+kommunale Förderung existiert im DSG/DSV nicht. **Wichtig:** § 8b Abs. 3 DSV schliesst «wert- oder
+komfortvermehrende Massnahmen … (z. B. Energieeinsparung)» von der Beitragsberechtigung **ausdrücklich
+aus** — diese Kantonsbeiträge gelten nur für substanzerhaltende Restaurierung, nicht für energetisch
+motivierte Zusatzkosten. Stattdessen existiert eine separate **regulatorische** (nicht finanzielle)
+Erleichterung: Bestätigung der kantonalen Denkmalpflege zur Befreiung/Herabsetzung der energetischen
+Anforderungen via Energiefachstelle des Hochbauamts SZ.
+
 ## Offene Punkte
 
 - Exakter Artikel des SZ-kEnG/kEnV zur U-Wert-Erleichterung für geschützte Bauten nicht wörtlich
-  verifiziert.
+  verifiziert; das konkrete Formular der Energiefachstelle Hochbauamt SZ nicht beschafft.
 - Ob BBV I §§ 16/47a Kt. ZH zusätzliche, über die WDV hinausgehende Klauseln enthält, nicht geprüft.
 - Kein spezifischer kantonaler Energie-Zuschlag im ZH-Denkmalpflegefonds bestätigt (nur Stadt-Zürich-
   Programm belegt).
 - Kein ZH/SZ-amtliches Kastenfenster-Merkblatt mit auslesbarem Volltext gefunden (nur Existenz der
   Publikationsreihe «Energie und Baudenkmal» ZH belegt).
-- PBG-Revision ZH vom 02.07.2026 ist noch nicht in Kraft — Fortschritt beim Kantonsrat nachverfolgen.
+- PBG-Revision ZH vom 02.07.2026 ist noch nicht in Kraft — RRB Nr. 678/2026 (2.7.2026) beim Kantonsrat,
+  Fortschritt nachverfolgen.
 - Art. 18a RPG in der SZ-Praxis: keine SZ-spezifische Umsetzungsquelle gefunden.
+- § 8b Abs. 3 lit. a DSV nennt «Energieeinsparung» nicht wörtlich (nur die RRB-Botschaft) — Wortlaut
+  der aktuellen DSV-Fassung für eine hieb- und stichfeste Zitierung nochmals gegenlesen.
 
 ## Quellen
 

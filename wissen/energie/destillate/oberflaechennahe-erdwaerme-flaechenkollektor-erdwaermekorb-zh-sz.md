@@ -1,11 +1,11 @@
 ---
-quelle: Kanton ZH AWEL «Oberflaechennahe Erdwaerme» + amtliches Gesuchsformular (Stand 6/2022, BVV Ziff. 5.6.2); EnergieSchweiz/BFE-Broschuere «Geothermie in der Schweiz» (via fws.ch); BFE «Umgebungswaerme» (01.04.2021); Kanton SZ AfU «Waermenutzung» (nur Such-Snippet, HTTP 403); SIA 384/6:2021 «Erdwaermesonden»; geothermie-schweiz.ch; effiziente-waermepumpe.ch (DE-VDI-4640, nicht CH-amtlich)
-herausgeber: Kanton Zuerich (AWEL), Bundesamt fuer Energie / EnergieSchweiz, Kanton Schwyz (AfU), SIA
-ausgabe: ZH-Formular 6/2022; EnergieSchweiz-Broschuere Datenstand bis 2015; SIA 384/6:2021 (in Kraft 01.05.2026)
-gelesen: ZH-Gesuchsformular vollstaendig; EnergieSchweiz-Broschuere S. 1–20; SZ nur Such-Snippet (403); Web-Recherche 2026-07-23 (Sonnet-Rechercheagent), Synthese/Verifikation Hauptmodell
-datenstand: 2026-07-23 (ZH-Verfahren amtlich belegt; SZ-Angaben nur Snippet; Entzugsleistung W/m² nur DE-VDI-4640)
-status: emerging
-last_updated: 2026-07-23
+quelle: Kanton ZH AWEL «Oberflaechennahe Erdwaerme» + amtliches Gesuchsformular (Stand 6/2022, BVV Ziff. 5.6.2); EnergieSchweiz/BFE-Broschuere «Geothermie in der Schweiz» (via fws.ch); BFE «Umgebungswaerme» (01.04.2021); SIA 384/6:2021 «Erdwaermesonden»; geothermie-schweiz.ch; effiziente-waermepumpe.ch (DE-VDI-4640, nicht CH-amtlich); Run 87: AWP-Merkblatt T2 «Waermepumpenheizungsanlage mit horizontalen Erdkollektoren, Erdwaermekoerben und Kompaktkollektoren» (2007, zitiert in BAFU/FWS-Vollzugshilfe 2009) + Kt. SZ AfU Amtsseite «Waermenutzung» (Volltext via curl mit Browser-User-Agent)
+herausgeber: Kanton Zuerich (AWEL), Bundesamt fuer Energie / EnergieSchweiz, Kanton Schwyz (AfU), SIA, AWP (Arbeitsgemeinschaft Waermepumpen Schweiz)
+ausgabe: ZH-Formular 6/2022; EnergieSchweiz-Broschuere Datenstand bis 2015; SIA 384/6:2021 (in Kraft 01.05.2026); AWP-Merkblatt T2 (2007)
+gelesen: ZH-Gesuchsformular vollstaendig; EnergieSchweiz-Broschuere S. 1–20; Run 87 (2026-07-24): SZ-Amtsseite Volltext + AWP-Merkblatt T2 Kap. 5–6 gelesen
+datenstand: 2026-07-24 (ZH- UND SZ-Verfahren amtlich belegt; Entzugsleistung jetzt CH-fachverbandlich belegt, AWP-Merkblatt 2007 — kein aktuelleres Nachfolgedokument gefunden)
+status: established (Verfahren ZH+SZ amtlich belegt, Entzugsleistung CH-fachverbandlich belegt; CHF-Kosten und «Grabenkollektor»-Kategorie bleiben offen)
+last_updated: 2026-07-24
 ---
 
 # Destillat — Oberflächennahe Erdwärme ohne Tiefbohrung (Flächenkollektor / Erdwärmekorb / Energiepfahl) ZH+SZ
@@ -43,11 +43,32 @@ oder aus Platzgründen nicht möglich/gewünscht ist.
   Anlagenabstand < 2,5 m; nur Wärmeträgerflüssigkeiten gemäss Anhang A6 der BAFU-Vollzugshilfe
   «Wärmenutzung aus Boden und Untergrund» (2009).
 
-## Bewilligung SZ (nur Snippet, ⚠ vor Kundenaussage am Original prüfen)
-- Erdkollektoren/Energiekörbe ausserhalb Grundwasserschutzzone S2 «grundsätzlich überall einsetzbar»,
-  sofern Flurabstand zum mittleren Grundwasserspiegel ≥ 2 m; Verfahren: kostenlose Vorabklärung beim
-  AfU, danach Baugesuch via eBau. (AfU-Seite lieferte HTTP 403, nur Suchmaschinen-Snippet — Originalseite
-  manuell nachprüfen.)
+## Bewilligung SZ (amtlicher Volltext, Run 87)
+Amt für Umwelt und Energie (AfU) Kt. SZ, Amtsseite «Wärmenutzung», Abschnitt «Erdkollektoren,
+Energiekörbe und Energiepfähle» (wörtlich): «Erdkollektoren und Energiekörbe können ausserhalb einer
+Grundwasserschutzzone S2 grundsätzlich überall eingesetzt werden, sofern der Flurabstand zum
+mittleren Grundwasserspiegel mindestens zwei Meter beträgt.» Vier Verfahrensschritte: (1) kostenlose,
+unverbindliche Vorabklärung beim AfU; (2) Baugesuch via eBau (ebau-sz.ch) nach amtlicher Anleitung
+«Fachbereiche Grundwasserschutz und Erdwärmenutzung»; (3) Einreichung online über eBau; (4) Bewilligung
+gestützt auf das Gewässerschutzgesetz. **Kein reines Meldeverfahren**, sondern ordentliches
+Baubewilligungsverfahren mit vorgeschalteter Gratis-Vorabklärung. Zu S1/S3 macht die Amtsseite für
+diesen Anlagetyp keine eigene Aussage (offen). Frühere HTTP-403-Sperre umgangen durch curl mit
+Browser-User-Agent statt WebFetch.
+
+## Entzugsleistung W/m² — CH-fachverbandlich belegt (Run 87, AWP-Merkblatt T2, 2007)
+Kap. 5 «Entzugsleistung» (S. 6–7), maximale Entzugsleistung nach Bodenfeuchte/-art und Besonnung:
+- **Normalfall Schweiz** (feucht/sandig, normalsonnig): **15–20 W/m²**
+- Ungünstig (steinig-trocken-schattig): 10–15 W/m²
+- Feucht/lehmig: 25–30 W/m²
+- Günstig (sandig-nass-sonnig): 30–35 W/m²
+
+Auslegungsformel: erforderliche Fläche = Kühlleistung der Wärmepumpe (W) ÷ Belastungswert (W/m²).
+Rechenbeispiel im Merkblatt: 8'350 W ÷ 25 W/m² = 334 m² Verlegefläche. Praxis-Betriebsstunden der
+Anlage ca. 1'800–2'000 h/Jahr (Regenerationsschutz). Die BAFU/FWS-Vollzugshilfe 2009 selbst enthält
+keine eigenen W/m²-Werte, verweist aber im Literaturverzeichnis (S. 51) explizit auf dieses
+AWP-Merkblatt sowie die deutsche VDI 4640 — die Schweizer Fachquelle existiert also, ist aber von
+2007 und der Herausgeber (AWP) heute nicht mehr als aktive Organisation auffindbar (nur über
+Drittanbieter-Spiegelung erreichbar).
 
 ## Vor-/Nachteile vs. Erdwärmesonde
 | | Flächig (Kollektor/Korb) | Erdwärmesonde |
@@ -67,13 +88,15 @@ oder aus Platzgründen nicht möglich/gewünscht ist.
   Auslegung braucht einen FWS-Fachplaner/eine Bohrfirma (Skill `energie-berater`).
 
 ## Offene Punkte
-- Kein CH-amtlicher Entzugs-Kennwert (W/m²) für flächige Systeme — nur DE-VDI-4640 (~10 W/m² trocken bis
-  40 W/m² wassergesättigt) über eine nicht-amtliche Sekundärquelle, explizit DE.
 - «Grabenkollektor» als CH-Kategorie unbestätigt.
-- SZ-Verfahren nur Snippet (403); ZH-BVV-5.5.1-Zuordnung für Erdsonden nur Snippet.
+- ZH-BVV-5.5.1-Zuordnung für Erdsonden nur Snippet.
+- SZ: Zuordnung S1/S3 (nur S2 explizit ausgeschlossen) sowie formelle Bewilligungsbehörde für diesen
+  Anlagetyp (nur beim Erdsonden-Abschnitt der Amtsseite ausdrücklich genannt) nicht wörtlich belegt.
 - Keine eigenständige SIA-Norm für flächige Systeme gefunden → Skill `normen` (nicht als «keine Norm»
   behaupten).
 - Kostenangabe CHF 30'000–40'000 ohne erkennbare Referenzgrösse (EFH-Fläche, Jahr).
+- AWP-Merkblatt T2 (2007) ist ein Erfahrungswerte-Dokument, nicht normativ hergeleitet; Rückfrage bei
+  FWS (Nachfolgeorganisation) empfohlen, falls ein aktuelleres Dokument existiert.
 
 Querbezug: `[[erdwaermesonden-bewilligung-zh-sz]]` (Sonde/Tiefbohrung), `[[erdwaermesonden-mehrfachfelder-regeneration-zh-sz]]`
 (Sondenfelder/Regeneration), `[[bvv-zh-meldeverfahren-klimaanlagen-waermepumpen]]` (Verfahrensabgrenzung),

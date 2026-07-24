@@ -2,6 +2,14 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-24 — Wissens-Chef Run 14 (Cross-KB): reziproke Laerm/ES-Rueckverweise zur KB baurecht
+- [link] `wiki/kartenportale-zonenplan-zh.md` (Layer-0154-Sektion): Querbezug zur KB baurecht gesetzt
+  (Recht/ES-Grenzwerte dort fuehrend: `laermschutz-und-nichtionisierende-strahlung`); hier bleibt die
+  Beschaffung fuehrend. Reziprok zum baurecht-Block.
+- [link] `wiki/energie-baueingabe-zusatzformulare.md`: die materiell nachgeschriebene ES-Definition
+  (milde Doppelspur) mit Recht-fuehrend-Rueckverweis auf baurecht versehen; der ⚠-Vorbehalt LSV-Novelle
+  01.04.2026 ist jetzt in `baurecht/wiki/QUESTIONS.md` als needs-verification gespiegelt.
+
 ## 2026-07-24 (21:30) — Nachtschicht Mac Mini: QUESTIONS-Punkt D9 (Teilaspekt) geschlossen
 Dispatch-Prioritaet 5 (offene QUESTIONS.md recherchieren/kompilieren). Sync-/Remote-Queues leer,
 Trainingsfenster 22:00-06:00 noch nicht erreicht, energie-KB-Luecken alle gross/blockiert

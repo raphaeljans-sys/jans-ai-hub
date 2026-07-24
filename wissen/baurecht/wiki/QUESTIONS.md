@@ -132,8 +132,14 @@ Renumbering, Additionsprinzip-Ausnahme, VASA-Stichtag), **0 Halluzinationen**, ~
 synchronisiert, 4 Drill-Karten.
 
 **needs-verification (neu/verbleibend):**
-- **Anhang 6 LSV** (Industrie-/Gewerbelaerm) — nicht im raw, beschaffbar (Anhang 4 Ziff. 1 Abs. 3
-  verweist darauf).
+- ~~**Anhang 6 LSV** (Industrie-/Gewerbelaerm) — nicht im raw, beschaffbar (Anhang 4 Ziff. 1 Abs. 3
+  verweist darauf).~~ → **✅ ERLEDIGT (Buch-Run 51, 2026-07-24):** Anhang 6 LSV vollstaendig via
+  Fedlex-Filestore beschafft (`raw/260724_amtlich_ch_lsv-anhang6.md`, Stand 1.11.2023) —
+  Geltungsbereich Ziff. 1, Grenzwerttabelle Ziff. 2 (**wertidentisch zu Anhang 3/4**,
+  PW < IGW < AW CONFIRMED), Beurteilungspegel-Formel + Pegelkorrekturen K1/K2/K3 Ziff. 3.
+  **0 Korrekturen** — kein Widerspruch zum bestehenden Destillat (`buecher/band-2/13-fahrzeug-
+  abstellplaetze-spielflaechen-teil3.md` zitierte Anhang 6 bereits korrekt). Neuer Wiki-Abschnitt
+  «Industrie- und Gewerbelärm» in [[laermschutz-und-nichtionisierende-strahlung]].
 - ~~**Systematischer WsG/WsV-Nachzug:** die HWSchV-Aufhebung betrifft potenziell mehr Stellen als die
   hier geprueften — ein KB-weiter Check aller kantonalen Gewaesser-/Hochwasser-Zitate gegen WsG/WsV
   ist vorzumerken.~~ → **✅ ERLEDIGT (Buch-Run 50, 2026-07-20):** KB-weiter `grep -rniI "HWSchV"` ueber
@@ -851,6 +857,18 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   referiert, Zahlenwerk nicht erfasst — bei konkretem Parkplatz-Mandat am kommunalen Erlass/PPV verifizieren.
 - **needs-verification — Rampenneigungen SN 640 291a (15/18 % bzw. 12/15 %):** aus dem Reader-Fliesstext
   gelesen — vor Ausschreibung an der VSS-Norm gegenprüfen.
+- **needs-verification — LSV-Novelle 01.04.2026 vs. Anhang 3/4/6 (Wissens-Chef Run 14, 24.07.2026):**
+  Die KB planungsgrundlagen (`wiki/energie-baueingabe-zusatzformulare.md`) fuehrt einen Vorbehalt, dass
+  **USG und LSV per 01.04.2026 geaendert** wurden (Sekundaerquelle bauen-im-laerm.ch). Unsere ES-Belastungs-
+  grenzwerte (Anhang 3/4/6) sind **Fedlex-Konsolidierung Stand 1.11.2023** volltextverifiziert (Buch-Runs
+  46-51, raw 260715/260717/260724). Der adversariale Verifier (Run 14) verdiktete **UNBESTIMMT mit
+  Entlastungstendenz**: planungsgrundlagen behauptet NICHT, dass die ES-Grenzwerttabellen geaendert wurden
+  (bestaetigt im Gegenteil deren Fortbestand); die Novelle koennte nur den Verfahrensteil (Art. 31 ff.)
+  betreffen. Zu klaeren an der amtlichen Quelle: die Fedlex-Versionszeitleiste zu **SR 814.41 (LSV)** —
+  existiert eine Konsolidierung mit Inkrafttreten **20260401**, und beruehrt ihr Aenderungsanhang die
+  **Anhaenge 3/4/6 (Belastungsgrenzwerte)** oder nur Art. 31 ff.? Praktisch: Filestore-URL mit Segment
+  `20260401` testen (Rule 260721) und Anhang 3/4/6 gegen die 1.11.2023-Werte diffen. Bis dahin bleiben die
+  established-Werte gueltig (keine unbelegte Korrektur).
 
 ## Beantwortete Fragen / Korrekturen (Archiv)
 - **2026-06-11 (Gegenprobe, Modell D):** [[abstaende-und-hoehen]] nannte für den

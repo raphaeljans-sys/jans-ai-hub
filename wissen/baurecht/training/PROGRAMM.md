@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-20
+last_updated: 2026-07-24
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -113,6 +113,16 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 51 (2026-07-24, Modell E, Nachtschicht Mac Mini, gezielte Luecke, kein Agent-Fan-out —
+    Budget-Disziplin Nachtschicht):** **Anhang 6 LSV** (Industrie-/Gewerbelaerm, seit Run 48 als
+    offen geflaggt) via Fedlex-Filestore-HTML (Rule 260721) beschafft (`raw/260724_amtlich_ch_lsv-
+    anhang6.md`, Stand 1.11.2023) — Geltungsbereich Ziff. 1 (inkl. Parkhaeuser/HLK-Anlagen),
+    Grenzwerttabelle ES I-IV Ziff. 2 (**wertidentisch zu Anhang 3/4**, PW < IGW < AW CONFIRMED),
+    Beurteilungspegel-Formel + Pegelkorrekturen K1/K2/K3 Ziff. 3 neu erfasst. Wiki
+    [[laermschutz-und-nichtionisierende-strahlung]] um Abschnitt «Industrie- und Gewerbelaerm»
+    ergaenzt. **0 Korrekturen, 0 Halluzinationen** — bestehende Destillat-Referenz
+    (Fahrzeugabstellplaetze) war bereits korrekt, keine Wiki↔Destillat-Divergenz. 1 neue Drill-Karte
+    (Modell C). QUESTIONS-Flag geschlossen. Report `outputs/2026-07-24_buch-run51.md`.
   - **Run 50 (2026-07-20, Festigungsmodus — 2 beschaffbare Luecken aus dem eigenen raw geschlossen, kein
     externer Abruf):** (a) **WsG/WsV-Nachzug abgeschlossen** (Restposten Run 48): KB-weiter HWSchV-Sweep ueber
     wiki/buecher/training; 2 veraltete Register-Stellen korrigiert — `training/drills.md` Z. 83 «§ 15d HWSchV /

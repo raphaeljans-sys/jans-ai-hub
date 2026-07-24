@@ -3,9 +3,9 @@ quelle: Medienmitteilung Kanton Zürich «Regierungsrat will Versorgungssicherhe
 herausgeber: Regierungsrat Kanton Zürich (Baudirektion)
 ausgabe: Botschaft an den Kantonsrat zur Änderung des Energiegesetzes (EnerG), zwei Vorlagen (Solarpflicht + Langzeitspeicherung); Regierungsratsbeschlüsse Nr. 1229/2025 (Solarpflicht) und Nr. 1231/2025 (Langzeitspeicher)
 gelesen: 2026-07-13/2026-07-16 (Web via WebSearch/WebFetch, Medienmitteilung + Sekundärpresse; Botschaftstext/Kantonsrat-Geschäftsnummer weiterhin nicht direkt eingesehen — kantonsrat.zh.ch liefert bei WebFetch wiederholt nur Navigationsstruktur, kein Geschäftsdetail, 4. Versuch 2026-07-16 diesmal über News-/Verbandsquellen statt der Plattform selbst, ebenfalls ohne Beratungsdatum)
-datenstand: 2026-01-06 — ⚠ Botschaft des Regierungsrats an den Kantonsrat, NOCH KEIN Gesetz. Kantonsrat-Beratung/Abstimmung und Referendumsfrist stehen noch aus; Inkrafttreten nicht datiert.
+datenstand: 2026-01-06 — ⚠ Botschaft des Regierungsrats an den Kantonsrat, NOCH KEIN Gesetz. Kantonsrat-Beratung/Abstimmung und Referendumsfrist stehen noch aus; Inkrafttreten nicht datiert. Geschäftsnummern jetzt amtlich identifiziert (Run 87): KRNr 6062 (Solarpflicht) + KRNr 6063 (Langzeitspeicher).
 status: emerging
-last_updated: 2026-07-23
+last_updated: 2026-07-24
 ---
 
 # ZH-Energiegesetz-Revision 2026 — Solarpflicht für grosse Dächer + Langzeitspeicher-Auftrag
@@ -131,6 +131,32 @@ bleiben bei EN-104-ZH (≥10 W/m² EBF, MuKEn-2014-Basis).
 Quellen: limmattalerzeitung.ch/limmattal/zuerich/…-ld.2418683, 20min.ch/story/
 energiegesetz-ueberregulierung-kanton-zuerich-will-solardach-zwang-einfuehren-103481510,
 WebSearch/WebFetch-Versuche 2026-07-23 auf kantonsrat.zh.ch (kein Geschäftsdetail auslesbar).
+
+## Aktualitäts-Check 2026-07-24 (Run 87) — Geschäftsnummern amtlich identifiziert, Stand unverändert
+
+Direkte Abfrage der **CDWS-Geschäftsdatenbank Kantonsrat ZH** (parlzhcdws.cmicloud.ch, opendata.swiss-
+registrierter Webservice, XML): Die Solarpflicht-Vorlage trägt **KRNr 6062** («Energiegesetz, Änderung,
+Solaranlagen auf Dächern»), die Langzeitspeicher-Vorlage **KRNr 6063** («Energiegesetz, Änderung,
+Langzeitspeicherung») — beide klar unterschieden von **KRNr 6064** («Rahmenkredit 2026-2029 Subventionen
+gestützt auf § 16 Energiegesetz», reines Fördermittel-Geschäft, siehe `[[foerderprogramm-energie-zh-2026]]`).
+Die frühere «KR-Nr. 6064 mit Plenarsitzung 17.08.2026»-Notiz aus Run-82-Recherchen bezog sich also auf
+ein **anderes, verwandtes** Geschäft — kein Fehler, aber eine Verwechslungsgefahr, hiermit aufgelöst.
+
+Für 6062/6063 zeigt die Geschäftsdatenbank **genau einen** protokollierten Ablaufschritt: «Antrag
+Regierungsrat», Sitzungsdatum **26.11.2025** (Formularfeld «Beginn» nennt zusätzlich 05.12.2025 als
+Eröffnungsdatum im System), aktueller Verfahrensstand («PendentBeiNeu») **«Kommission»** — das Geschäft
+liegt zur Vorberatung bei der **KEVU (Kommission für Energie, Verkehr und Umwelt)**. Keine
+Kommissionssitzung, kein Kommissionsbericht, keine erste Lesung im Plenum sind per 24.07.2026
+verzeichnet. **Verfahrensstand damit weiterhin unverändert** seit der Regierungsrats-Botschaft; die
+öffentliche Medienmitteilung vom 06.01.2026 lag zeitlich nach dem formellen Antrag vom 26.11.2025
+(vermutlich Publikationsfrist über den Jahreswechsel). Ein Termin für die nächste KEVU-Sitzung ist im
+öffentlichen Webservice nicht auffindbar.
+
+Für die Bauherren-Beratung gilt unverändert: **kein Inkraftsetzungsdatum bekannt**, heute eingereichte
+Baugesuche bleiben bei EN-104-ZH (≥10 W/m² EBF, MuKEn-2014-Basis).
+
+Quelle: parlzhcdws.cmicloud.ch/parlzh5/cdws/Index/GESCHAEFT/searchdetails (KRNr 6062/6063, Live-Abfrage
+24.07.2026).
 
 **Backlinks:** [[energienachweis-zh]] · [[muken-2025-verabschiedet]] · [[foerderung-energie-zh]] ·
 [[pv-solar-technologien]]
