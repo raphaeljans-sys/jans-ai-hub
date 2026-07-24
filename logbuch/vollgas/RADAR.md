@@ -21,6 +21,38 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-25 00:49 — [GEDROSSELT] Nachtfenster produktiv, Token-Pfad belegt, Drossel intakt
+
+**Fensterzustand:** Keine Login-Probe (Betriebsbeleg-Methode, token-schonend im Drossel-Sinn). Kein
+«Not logged in», kein Usage-/Rate-Limit-Signal. Kein Blocker, keine Mail. Der Token-Pfad ist ueber die
+substanziellen Trainings-Outputs der letzten Stunde belegt (mehrere abgeschlossene `claude -p`-Laeufe,
+die als Wiki-/Report-Dateien gelandet sind), nicht ueber eine Probe.
+
+**Durchsatz:** Das Nachtfenster (22:00–06:00) arbeitet planmaessig und ergiebig. Zwei Sammel-Commits
+liefern echten Ertrag: `652c35f5` (23:45, 30 Dateien, 1'175 Zeilen) mit baurecht Buch-Run 51 (neues
+Destillat LSV-Anhang 6), energie Run 87 (Blower-Door-Kosten, Anergienetz, Denkmalschutz-Sanierung,
+BAUHERREN-FAQ +109 Zeilen), koordination wissens-chef Run 14 (QUERBEZUEGE) und dem auflagebereinigung-
+Health-Check; `45de99fb` (00:45, 13 Dateien) mit planungsgrundlagen Run 59 (Geoportal-Uebersicht,
+PV-Eignung) und dem energie-Health-Check 2026-07-25. Dazwischen die ueblichen `nas-selfcommit`-
+Heartbeats (je 2 station-status-Dateien) im 15-Min-Takt. Alle neun aktiven KB-CHANGELOGs frisch
+(24./25.07.). Kein KB abgehaengt, kein stockender Loop.
+
+**Runner/STOP:** unveraendert. `STOP` + `STOP-Macmini` vom 14.07. 12:53 stehen, kein
+`vollgas-runner`-Prozess (`pgrep` leer). Drossel-Guard intakt, nicht angetastet.
+
+**Radar-Commit:** Wie am 24.07. entschieden committet sich der Radar nicht selbst (SMB-Git-Schreibpfad
+haengt), sondern ueberlaesst die Sicherung dem nativen `nas-selfcommit`. Dieser Eintrag wird beim
+naechsten 15-Min-Takt mitgenommen.
+
+**Vorschlaege:**
+- P1: keiner.
+- P2: Drossel-Entscheid Raphaels weiterhin offen (naechster Wochen-Reset Mo 11:59). Status quo halten;
+  der Radar startet nichts. Ab 10.08.2026 (token-drosselung-100810) nur noch melden und Reduktion des
+  Radars auf 1x taeglich vorschlagen.
+- P3: keiner.
+
+---
+
 ## 2026-07-24 18:47 — [GEDROSSELT] Nachtschicht wieder angelaufen, erster Ertrag um 18:30, Drossel intakt
 
 **Fensterzustand:** Keine Login-Probe (Betriebsbeleg-Methode, token-schonend im Drossel-Sinn). Kein
