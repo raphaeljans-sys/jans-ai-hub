@@ -5,6 +5,19 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-24 — twin-mail-training Batch 59 (2026-06-30 09:07…07-02 11:55).** Sent Items rj@,
+  25 Mails gesichtet, 6 Volltexte, lückenlose Fortsetzung ab Batch 58. Neue belegte Marker:
+  [[beziehungsregister]] (Vier-Stufen-Stapel-Anrede pro Person wärmefein «Liebe/geschätzer/werter/
+  hoi»; Sie+Du-Split in Zwei-Personen-Firmen-Anrede mit oszillierendem Body — Instabilität als
+  Marker; Kontakt-Mappings KISPI/Nova/Thalwil), [[stimme]] (Echo-Falle 19 Kontrastpaar «Herr»↔
+  «Herrn»/«—»-Gedankenstrich-Tell im selben Küchenbau-Thread; Metrik 378 W Du-Gross 0.933/ø 12.6 W),
+  [[arbeitsweise]] (Team-Inputs mit interner Frist zu EINER gebündelten Stellungnahme bündeln;
+  Grundeigentümer-Antwort A)/B) durchstellen+Empfehlung+«finales Go»; gleichlautender Gesuch-Status-
+  Nachfass an mehrere Amtsstellen), [[fachsignatur]] (rechtsverankerte quantifizierte Näherbaurecht-
+  Klärungsanfrage an Grundeigentümer SBB, Sprechakt b; funktionale Ausschreibung «Unternehmer schlägt
+  die Lösung vor» bestätigt). Register `raw/_INGESTED.md` (Batch-59-Zeile) nachgeführt. Modell-Politik
+  MVM: Volltext-Lektüre+Authentizitätsurteil+Echo-Detektion auf Hauptmodell (Verifikationsstufe).
+
 - **2026-07-23 — Reconciliation twin-mail-training (Fehlstart→Nachtrag Batch 50).** Der
   Lauf zog das Fenster **2026-06-04…06-07** als vermeintlich neuen «Batch 46», weil nur die
   erste (paginierte) Seite von `raw/_INGESTED.md` gelesen wurde, die bei Batch 49 endet. Dieses

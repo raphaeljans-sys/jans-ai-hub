@@ -1285,3 +1285,26 @@ löst (z.B. Schiebetüre, offen im Normalbetrieb, schliessend im Brandfall) — 
 einholen, nie selbst freigeben. Bei Grenzabstands-/Baulinienfragen den Handlungsspielraum einer
 Baulinie gegenüber dem Grenzabstand mitdenken, inkl. Vorbehalt Wegabstand Art. 265 PBG bei
 Weg-Klassifizierung der Erschliessung.
+
+## Batch 59 (2026-06-30 bis 2026-07-02): rechtsverankerte, quantifizierte Näherbaurecht-Klärungsanfrage an den Grundeigentümer (SBB); funktionale Ausschreibung
+
+- **Rechtsverankerte, quantifizierte Klärungsanfrage an einen Grundeigentümer/Servitutsträger
+  (Sprechakt b, nicht subsumieren):** an die SBB zur Vordach-Ergänzung im Näherbaurecht — er verankert
+  am bestehenden Recht (bezieht sich auf «die Stellungnahme der SBB vom 10.02.25 [Referenz Sevinc
+  Mercan, ID-Nr. 10000394]», zitiert «Ziffer I.c … über eine obligatorische Näherbaurechtsvereinbarung
+  gegen Entschädigung zu regeln»), **quantifiziert exakt** («Die im Abstandsbereich liegende
+  Vordachfläche beträgt 12.76 m² [Auskragung 1.0–2.0 m]»), belegt mit Planverweis («Plan S-63 …
+  Massstab 1:100, Stand 01.07.26») und stellt dann drei **geschlossene Klärungsfragen als «- »-Bullets**
+  (Aufnahme ins NB-Recht? / Bewertung der auskragenden Fläche für die Entschädigung? / weitere
+  Unterlagen nötig?). → Er behauptet hier NICHT selbst ein Recht (kein Subsumieren), sondern **erfragt
+  die Bewertung/Handhabung durch den Berechtigten** — Sprechakt (b) aus Fidelity 260723, hier gegenüber
+  einem privaten Grundeigentümer statt einer Amtsstelle. Muster: Recht zitieren → Sachverhalt exakt
+  vermessen → Plan als Beleg → geschlossene Fragen → «wir»-Institutionell-Sie. (Der Prosakern dieser
+  Mail war claude-assistiert; gewertet wird das Argumentations-/Belegmuster, nicht die Formulierung.)
+- **Funktionale Ausschreibung «der Unternehmer schlägt die geeignetste Lösung vor» bestätigt:** an
+  einen Schreiner zu Reduit-/Stauraumschränken — «bin ich überzeugt, dass Sie als Unternehmer die
+  geeignetste Lösung vorschlagen können … (beispielsweise eine Doppeltürschrank-Lösung)», plus
+  Schnittstellen-Vorgabe «Bitte kalkulieren Sie einen Kaba-Zylinder mit ein, da das Haus voraussichtlich
+  über ein eigenes Schliesssystem verfügt» und Liefertermin. Bestätigt das belegte Muster:
+  Anforderung + Ziel benennen, die konkrete Ausführung dem Fachunternehmer überlassen, harte
+  Schnittstellen (Schliesssystem, Termin) aber vorgeben. (Prosa claude-assistiert, nur Muster gewertet.)

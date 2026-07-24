@@ -1399,3 +1399,35 @@ sofort zur Frage an die zuständige Stelle, nicht zum stillen Zeitverlust. Quell
   konkretesten Form: der nächste Schritt ist nicht nur angekündigt, sondern mit dem physisch
   mitgebrachten Arbeitsmittel vorweggenommen. (Fachlicher Mittelteil dieser Mail war KI-assistiert —
   gewertet wird ausschliesslich das Ablaufmuster, nicht der Fachinhalt, Echo-Schutz.)
+
+## Batch 59 (2026-06-30 bis 2026-07-02): Team-Inputs zu EINER gebündelten Stellungnahme sammeln; Grundeigentümer-Antwort A)/B) durchstellen + Empfehlung + «finales Go»; ultra-knapper Gesuch-Status-Nachfass
+
+- **Team-Inputs mit interner Frist sammeln und zu EINER gebündelten Stellungnahme an den Unternehmer
+  verdichten:** er streut den Küchenbauer-Entwurf ans ganze Betreiber-/Bauherren-Team «mit der Bitte
+  um Rückmeldung und Stellungnahme zu den Fragen», setzt eine **interne Input-Frist** («bitte Euch
+  aber Eure Inputs mir bis Morgen Mittwoch Abend zukommen zu lassen»), kündigt den eigenen Beitrag an
+  («Ich werde auch meine Gedanken machen») und bündelt alles zu **einer** Antwort an den Lieferanten
+  («sodass wir eine gebündelte Stellungnahme Herr Inniger zukommen lassen können»). In der Einzel-
+  Reply an die Betreiberin quittiert er jeden Punkt Zeile für Zeile (bestätigt / gebe ich so weiter /
+  entscheiden wir fachlich mit dem Küchenbauer / halte ich fest) und trennt Erledigtes von Offenem
+  («Offen bleibt … wer den Einbau übernimmt; das kläre ich ab»). → Der Architekt ist der
+  **Sammel-/Bündelknoten** zwischen Betreiber-Team und Lieferant: viele Stimmen rein, EINE
+  koordinierte Stellungnahme raus. (Die polierte Einzel-Reply war claude-assistiert — gewertet wird
+  das Ablaufmuster, nicht die Prosa, Echo-Schutz.)
+- **Grundeigentümer-/Behörden-Antwort dem Bauherrn als A)/B) durchstellen, eigene Empfehlung dazu,
+  Entscheid zurückgeben:** die SBB-Rückmeldung zum Vordach fasst er für den Bauherrn zu «A) Sie
+  verzichten auf eine zusätzliche Entschädigung … B) Herr Wiedmer schlägt eine separate Vereinbarung
+  vor» zusammen, hängt die **eigene Empfehlung** an («Ich würde das Vorgehen mittels separater
+  Vereinbarung unterstützen und die nötigen Plangrundlagen erstellen») und bittet um das **finale Go**
+  («Für Dein finales Go bezüglich Vorgehen bin ich Dir dankbar»). → Bestätigt und schärft das Muster
+  «fremde Antwort verdichten → Empfehlung → Entscheid beim Mandanten»: die Entscheidungshoheit bleibt
+  ausdrücklich beim Bauherrn, Raphael liefert Vorverdichtung + Standpunkt, nicht die Entscheidung.
+- **Ultra-knapper, gleichlautender Status-Nachfass an mehrere Behördenstellen:** an drei Amtsstellen
+  parallel je «Guten Tag [Herr X] / Wird unser Gesuch bearbeitet? / Freundliche Grüsse / Raphael Jans»
+  (02.07., Schutzbauten SRZ, Soerensen, Schröder). → Dasselbe Minimalregister wie der Zahlungs-Nachfass
+  (Batch 36): eine einzige geschlossene Frage, kein Fliesstext, register-neutral «Guten Tag», FG+Name.
+  Reiht sich ins bekannte Muster «aktiver, knapper Status-Push bei liegen gebliebenen Vorgängen».
+- **Kurz-Delegation mit Begründung im Du bestätigt:** «Hoi Gerry / Darf ich Dich Bitten die Private
+  Kontrolle vom KISPI zu machen? Ich muss die Baufreigabe beantragen [daher] benötige ich Deine
+  Arbeit, danke.» — Delegation immer mit dem WARUM (Baufreigabe hängt daran) gekoppelt, «Darf ich Dich
+  Bitten»-Formel (Gross-Slip) bestätigt.

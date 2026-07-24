@@ -2057,3 +2057,26 @@ mit Leerschlag (`korrektur`); die Abweichung ist dokumentiert, nicht nachzuahmen
 - **Metrik Nachtrag Batch 50** (434 W authentischer Rahmen via `stilmetrik.py`): Du-Gross-Quote 0.667
   (gedrückt durch die Ziegel-Slips), Tausender-Apostroph 0, Ellipsen 0, Satzlänge ø 15.5 W, Grüsse
   Freundliche Grüsse 3× dominant / Liebe Grüsse 1×.
+
+## Batch 59 (2026-06-30 bis 2026-07-02): Echo-Falle 19 — Kontrastpaar im selben Thread/Tag; Metrik
+
+- **Echo-Falle, 19. Beleg (Kontrastpaar innerhalb des KISPI-Küchenbau-Threads):** die Reply an
+  «Liebe Steffi» (01.07. 13:34) ist **Claude-Grundtext** — Gedankenstrich «—» als Stilmittel 3×
+  («Rückmeldung — die hilft mir», «gebe ich so weiter», «halte ich fest»), korrekter Dativ «Herrn
+  Inniger», saubere «- »-Bulletliste, null Typos, «Liebe Grüsse». Zur **exakt gleichen Sache** (die
+  gebündelte Stellungnahme an Inniger) existiert 6 h früher die handgetippte Gruppenmail (30.06.
+  17:17, «Liebe Stefi, geschätzer Albin …», Slip «Herr Inniger» ohne Dativ, Run-on-Satz «sodass wir
+  eine gebündelte Stellungnahme Herr Inniger zukommen lassen können», «Gruss, Raphael»). → **Der
+  Fingerabdruck-Unterschied**: Raphael tippt «Herr Inniger» (kein Dativ-«n»), «Gruss, Raphael» und
+  NIE den «—»-Gedankenstrich; Claude poliert zu «Herrn Inniger», «- »-Bullets und «—». Die
+  Steffi-Reply ist von der Stilquelle ausgeschlossen, nur als korrektur-delta genutzt. Bestätigt den
+  seit Batch 26 laufenden Befund (Em-/En-dash + korrekte Grammatik + null Typos = Claude-Tell).
+- **Weitere claude-assistierte Rahmen im Batch (nur Frame genutzt):** die Sie-Mails an Schreiner
+  Rufer (01.07.) und an die SBB zum Vordach-Näherbaurecht (01.07.) tragen «–»/«—» und null Typos →
+  Prosakern als claude-assistiert behandelt, nur Anrede/Gruss + das (bereits belegte) Fachmuster als
+  Stilquelle. Der authentische Gegenpol im selben Fenster sind die Typo-reichen Kurzmails («dager»
+  statt daher, «Komtrolle», «bin Ich dankbar» Gross-Slip, «Hattes du» klein-du-Slip).
+- **Metrik Batch 59** (378 W authentischer Rahmen via `stilmetrik.py`): Du-Gross-Quote 0.933
+  (gedrückt durch den «Hattes du»-Slip), Tausender-Apostroph 0, «%» 0, Ellipsen 0, Satzlänge
+  ø 12.6 W, Grüsse Freundliche Grüsse 4× / Lieber Gruss 3×, Anreden gestapelt (Liebe Stefi /
+  Geschätzter Herr / Hoi Gerry / Geschätzter Marco / Geschätzter Stefan / Geschätzte Frau).
