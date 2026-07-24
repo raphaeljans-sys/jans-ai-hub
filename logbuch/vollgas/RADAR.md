@@ -21,6 +21,51 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-24 18:47 — [GEDROSSELT] Nachtschicht wieder angelaufen, erster Ertrag um 18:30, Drossel intakt
+
+**Fensterzustand:** Keine Login-Probe (Betriebsbeleg-Methode, token-schonend im Drossel-Sinn). Kein
+«Not logged in», kein Usage-/Rate-Limit erkennbar. Kein Blocker, keine Mail. Der aktive Token-Pfad ist
+über den Dispatch-Lauf `20260724-183004-75330` (Mac Mini, 18:30, sauber abgeschlossen) und den daraus
+folgenden Commit `399d4ca6` (18:45, 10 Dateien) belegt.
+
+**Durchsatz:** Die Tagesruhe ist planmässig zu Ende — das Mac-Mini-Nachtschicht-Fenster (18:00–09:00)
+hat um 18:30 wieder gegriffen und im ersten Zyklus geliefert: Prioritäten 1–4 leer bzw. nicht fällig
+(keine Sync-/Remote-Tasks, Synobsis Stufe 2 fertig, Trainingsfenster 22:00–06:00 noch nicht erreicht,
+Fristen-Radar bereits versendet), darum Priorität 5 — die vier als «leicht behebbar» markierten toten
+`[[links]]` der KB `normen` aus dem heutigen Health-Check korrigiert, beim Fix zwei weitere Vorkommen
+desselben Fehlers gefunden und mitbereinigt (6 statt 4). Sauber gearbeitet: `[[sia-102-2003]]` wurde
+NICHT auf eine falsche Ausgabe umgebogen, sondern gemäss Rule `identifikatoren-verifizieren` zu
+Klartext entlinkt, weil die Ausgabe 2003 nicht im Bestand ist. Der Doppelarbeit-Guard (Rule 260720,
+Protokoll inhaltlich lesen) hat funktioniert. Zwischen 13:00 und 18:30 ausschliesslich
+`nas-selfcommit`-Heartbeats mit je 2 `station-status`-Dateien — im Drossel-Regime der SOLL-Zustand.
+CHANGELOGs der neun aktiven KBs alle vom 23./24.07.; `normen` mit 18:34 der frischeste. Kein KB abgehängt.
+
+**Runner/STOP:** unverändert. `STOP` + `STOP-Macmini` vom 14.07. 12:53 stehen, kein
+`vollgas-runner`-Prozess auf der Station (`pgrep` leer). Drossel-Guard intakt, nicht angetastet.
+
+**SMB-Git-Hänger bestätigt (zweites Auftreten, Beobachtungspunkt aus 12:48 geschlossen):** Ein
+schlichtes `git status --porcelain` über den SMB-Mount lief 2 Minuten ohne Ergebnis ins Timeout,
+während `git log` im selben Aufruf normal antwortete — dasselbe Muster wie 12:50–12:58 (Lese-/
+Log-Pfade gesund, Index-/Objekt-Schreibpfade hängen). Damit ist der Befund reproduziert und der
+Vorschlag aus 12:48 wird ab sofort umgesetzt: **der Radar committet sich nicht mehr selbst**, sondern
+schreibt seinen Eintrag in `RADAR.md` und überlässt die Sicherung dem nativen `nas-selfcommit`
+(Cron auf der Synology, ext4, 15-Min-Takt). Das ist konform mit Rule `sync-kanonische-quelle` («kein
+Git-Job über SMB») und vermeidet zugleich die Cross-Contamination aus Rule 260724, weil kein
+pathspec-loser Commit mehr entsteht.
+
+**Vorschläge:**
+- P1: keiner.
+- P2: Drossel-Entscheid Raphaels weiterhin offen (nächster Wochen-Reset Mo 11:59). Status quo halten;
+  der Radar startet nichts.
+- P2: Radar-Commits sind ab jetzt dem `nas-selfcommit` übergeben (siehe Befund). Naechster Lauf prueft
+  nur noch, ob der Eintrag tatsächlich vom Selfcommit erfasst wurde.
+- P3: Offener Entscheid `synobsis-batch-nacht` stilllegen (Register `fristen.md` Zeile 98, eskaliert
+  20.07., seither unbeantwortet) — der Loop lief heute 02:20 zum 12. Mal ergebnislos. Der Radar setzt
+  das nicht selbst um (Task-Konfiguration deckt der Auftrag nicht ab).
+- P3: Ab 10.08. (`token-drosselung-100810`) Radar auf 1x täglich reduzieren — noch nicht fällig.
+
+---
+
 ## 2026-07-24 12:48 — [GEDROSSELT] Tagesruhe planmaessig, Nachtertrag gesichert, Drossel intakt
 
 **Fensterzustand:** Keine Login-Probe (Betriebsbeleg-Methode, token-schonend im Drossel-Sinn). Kein
