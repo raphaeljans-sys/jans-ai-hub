@@ -3,6 +3,22 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Gate 260724 (twin-chef, Fidelity-Gate Hub-Chef-Lauf)
+
+Aufgetretene Facetten-Spannung beim Gate zweier ausgehender Unternehmer-Sie-Mails (KISPI-Nachfass
+Röthlisberger / Los-274.01-Rückmeldung Jegen). Der Chef hat sie kontextabhängig aufgelöst (Service-Satz
+gestrichen), die Belegbasis ist aber uneindeutig.
+
+1. **Trägt die Nachfass-/Fristsetzungs-Mail an einen Unternehmer den Service-Satz — oder ist die Bitte
+   das Schlusswort?** Die Belege stehen sich gegenüber: die **Offert-Anfrage** an den Unternehmer schliesst
+   belegt MIT «Bei Fragen oder Unklarheiten stehe ich Ihnen jederzeit gerne zur Verfügung» ([[arbeitsweise]],
+   Gliederungs-Skelett) — dort wird aber Material ÜBERGEBEN. Das **Gesuch/Begehren** ans Amt schliesst belegt
+   OHNE Service-Satz, weil er das Begehren weichspült ([[stimme]], Fidelity 260719). Der reine Nachfass (nichts
+   übergeben, eine Frist gesetzt) liegt genau dazwischen. Entscheid des Chefs 24.07.: wie das Begehren
+   behandelt, Service-Satz gestrichen, die Mail endet auf «Darf ich Sie bitten …» + konditionale Entlastung.
+   *Warum: klärt die Service-Satz-Systematik an ihrer letzten offenen Kante (Übergabe/Beratung → ja;
+   Verifikation/Begehren → nein; Nachfass → ?).* → [[stimme]], [[arbeitsweise]]
+
 ## Offen — Runde 260724 (twin-fragesteller, aus Fidelity-Review 2026-07-24)
 
 Quelle: Drift-Report `outputs/2026-07-24_fidelity.md` (Gesamt-Fidelity 90; drei authentische Vor-Claude-Golds in

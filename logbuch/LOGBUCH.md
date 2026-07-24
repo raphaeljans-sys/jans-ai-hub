@@ -7,6 +7,25 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-24
 
+**Hub-Chef-Lauf (08:35, MIT Befund).** Signale: Fristen-Register + Logbuch, Konversations-Destillat
+24.07., Mail-Vorfilter 26 h ueber alle Konten, bexio `--verzug`, Outlook-Kalender 7 Tage, Sync-/
+Remote-Queues (leer), Aktions-Whitelist v1. **Zwei Registerkorrekturen (A4):** (1) Der vom Radar als
+heisseste Tagesaktion gemeldete Punkt «Brandschutz-Korrekturfassung an J. Ziegel, Upload bis Mittag»
+ist invertiert und bereits erledigt — die Bringschuld lag bei Ziegel, er hat die korrigierte,
+unterzeichnete Stellungnahme am 23.07. 08:52 geliefert
+(`260723_KISPI_Therapiestation_1OG_Stellungahme_Auflagenbereinigung_sign.pdf`), sie liegt im
+hochgeladenen SRZ-Paket und wurde 23.07. 19:17 ueber eBaugesuche eingereicht (AFB-Eingangsbestaetigung).
+(2) Die Selbstfrist 24.07. «Jegen definitive Offerte Los 274.01 anfordern» ist gegenstandslos: das
+bereinigte Angebot `Jegen AG O-91161-01.1.pdf` (6 % Rabatt, 2 % Skonto) kam am 25.06. 16:31, die
+Auftragserteilung ging gleichentags 17:12 raus. **Zwei Entwuerfe (A5, Versand NICHT autonom):**
+(a) Rueckmeldung Prinzippläne zehn Punkte an L. Bajrami (Cc R. Grob, H. Arter) — der Entwurf vom
+18./21.07. lag unversendet und war durch die TeKoSi-Vergabe vom 22.07. ueberholt; neu aktualisiert,
+plus Bitte um Stellvertretung, weil Bajrami bis 11.08. abwesend ist und die Materialvorbestellung
+bis 03.08. laufen muss. (b) Nachfass Installationspläne Therapiekueche an T. Inniger (Cc S. Lanz),
+Selbstfrist heute, Frist im Entwurf 29.07. Guards: bestehende Debitoren-/Projektkontakte, kein
+Erstkontakt, kein Versand, keine Buchung. QS: `korrektur` (Rechtschreibung + Layout) gruen,
+twin-Fidelity 92 (Bajrami) und 90 (Inniger). Briefing an rj@ versendet.
+
 **Nachtschicht Mac Mini (~08:30, QUESTIONS-Kompilierung architekten-synobsis, Dispatch-Run 20260724-083006).**
 Vorpruefung: Prioritaeten 1-2 leer/erledigt (Synobsis Stufe-2-Embeddings bereits seit 02:18
 vollstaendig, 853/853, siehe eigener Batch-Lauf-Eintrag im CHANGELOG), Fristen-Radar bereits

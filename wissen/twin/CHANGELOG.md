@@ -5,6 +5,14 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-24 — twin-chef Fidelity-Gate (Hub-Chef-Lauf, 2 ausgehende Sie-Mails).** Gate über zwei
+  Unternehmer-Mails im laufenden KISPI-/Los-274.01-Mandat: Nachfass Installationspläne Therapieküche
+  (Inniger, Röthlisberger AG) und geteilte Zehn-Punkte-Rückmeldung Prinzippläne (Bajrami, Jegen AG).
+  Beide durchgewunken nach EINER gezielten Veredelungsrunde ([[stimme]] beide, [[denken]] Mail 2):
+  Service-Satz aus der Nachfass-/Fristmail gestrichen (Begehren als Schlusswort, analog Fidelity 260719),
+  drei Satzbau-Schärfungen ohne Faktenänderung. Fidelity nach Runde: 90 (Röthlisberger) / 92 (Bajrami).
+  Facetten-Spannung «Service-Satz beim reinen Nachfass» als QUESTIONS Gate 260724 #1 vermerkt
+  (Belege stehen sich gegenüber: Offert-Anfrage MIT vs. Amts-Begehren OHNE).
 - **2026-07-24 — twin-fidelity-review (Turnus, Gesamt-Fidelity 90).** Drei authentische Vor-Claude-Golds
   in drei Registern gezogen (Baurekursgericht-E-Bill Service-Sie-namenlos 23.10.2025, Yorck Design-/Material-
   Peer-Du 01.09.2025, Notariat-Hottingen Rechtsersuchen-Sie 04.11.2025), Twin-Fassungen gescort. Neubefund:
