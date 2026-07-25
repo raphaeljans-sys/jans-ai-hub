@@ -1,5 +1,20 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-25 — Trainingslauf 30 (Verifikationslauf)
+- Output `outputs/2026-07-25_training-run30.md`. Keine neue reale Spec seit Lauf 24 (SYN-02).
+- **P1 (mail@-Blindfleck `ag-gruendung-monitor`) hält weiter:** SKILL.md-mtime unverändert
+  21.07.2026 07:49; `fristen.md` ohne Eintrag für Samstag 25.07. bestätigt ein zweites Mal die
+  Lauf-29-Präzisierung (Mo-Fr-Cron, planmässige Stille am Wochenende, keine Regression).
+- SYN-02-Faktenbasis-Stand (Lauf 02 Synergie-Orchestrator, 25.07.) bereits im
+  `koordination/CHANGELOG.md` erfasst — keine Doppelbuchung durch die Spec-KB.
+- Environment-Zählstand-Stichprobe (49 Skills, 22 Rules, 16 KBs) identisch zu Lauf 26 — kein
+  voller Sweep fällig.
+- **Bewusst nicht getan:** kein erfundenes F1-Überdehnungsbeispiel; keine Rule-/Skill-/Wiki-
+  Änderung ohne neuen Beleg; kein Eingriff in `SYNERGIE-REGISTER.md`; kein Mailversand.
+- Offen: F1-Überdehnungs-Gegentest unbelegt; F3 Marketing/Text letzte offene Domänenzeile;
+  SYN-02-MVP-Bau Block 1 ungebaut; nächster ergiebiger Lauf voraussichtlich nach neuer realer
+  Spec oder ab Montag 27.07.
+
 ## 2026-07-25 — Trainingslauf 29 (Verifikationslauf)
 - Output `outputs/2026-07-25_training-run29.md`. Keine neue reale Spec seit Lauf 24 (SYN-02);
   seit Lauf 28 (heute Vormittag) nichts Neues in `outputs/`.
