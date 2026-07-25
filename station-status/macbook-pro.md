@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.07.2026 19:50:11
+Stand: 25.07.2026 20:10:22
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 19:39)
+- Developer/jans/ai/hub  (letzte Aktivitaet 19:55)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 25.07.2026 19:50:11
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 0d744a5d normen-training Run 26: sia-112-tabelle-infrastruktur + sia-271-wegleitung auf established gehoben
+- c6a64511 energie: Trinkwassererwaermung/Legionellenschutz adversarial nachverifiziert, Destillat auf established

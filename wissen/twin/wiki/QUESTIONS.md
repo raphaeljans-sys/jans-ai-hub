@@ -3,6 +3,42 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260725f (twin-fragesteller, aus Fidelity-Review 2026-07-25f)
+
+Quelle: Drift-Report `outputs/2026-07-25f_fidelity.md` (Gesamt-Fidelity ~81; drei M365-Sent-Items-Golds
+18.–21.05.2026, KISPI-/Albertstrasse-Achse — Stadelmann/Estermann Sie-Brandschutz-Fachmail nach Telefonat,
+Schwarzwaldelemente Sie-Submissionsanfrage [bereits als Echo-Falle 16 dokumentiert, ausgeschlossen], Besnik
+Du-Gewerke-Anfrage). Hauptbefund: der Twin griff bei einem bereits im Wiki dokumentierten Fachplaner-Kontakt
+(Stadelmann) auf das kalte «Sehr geehrter» statt des belegten «Geschätzter» zurück — ein reiner
+Retrieval-Fehler, kein Wissens-Loch. Ausserdem ein neuer, bisher undokumentierter Datenpunkt zu Besnik
+(«Geschätzter» als Inhalts-Spike auch bei sonst nacktem Vorname-Kontakt). Je in 1–2 Sätzen beantwortbar.
+
+1. **«Geschätzter Besnik» + FG-Block bei einer Gewerke-/Unternehmer-Empfehlungsbitte — zieht das Gewicht
+   des Anliegens (Submissions-relevant) die Anrede hoch, unabhängig davon, wie locker der Kontakt sonst
+   ist?** Bisher war Besnik nur mit nacktem Vorname + «Lgr» belegt (reine Fristbestätigung). Bestätigt der
+   dichtere Beleg (Bitte um Gewerke-Zahl + Empfehlung, 21.05.2026, «Geschätzter Besnik» + direktes FG+Block
+   ohne eigenen Kurzgruss) die Regel «Geschätzter als Inhalts-Spike unabhängig vom Standard-Register des
+   Kontakts», oder war das situativ (Tagesform, anderes Gerät)? *Warum: würde die statische
+   `rules/anrede-kontakte.md`-Zeile zu Besnik («informell, nackter Vorname») um eine Anlass-Klausel
+   ergänzen, statt sie als Fixregister stehen zu lassen.* → [[beziehungsregister]]
+2. **Sachfragen aus einem Telefonat an einen bereits eingespielten Sie-Fachplaner: fetter Header
+   «Sachfragen gemäss Telefon:» + «_ »-Bullets, oder durchnummeriert (1./2./3.)?** Der Twin (blind, nur aus
+   dem Wiki) nummerierte die zwei offenen Punkte durchgehend gemäss der belegten Regel «eigene
+   Sequenzfragen werden nummeriert» (Fidelity 260725b) — das reale Original (Stadelmann, 18.05.2026) nutzt
+   stattdessen einen fetten Themen-Header + «_ »-Bullets. Gilt die Nummerierungsregel nur für Fragen AN
+   eine noch unbekannte/entferntere Person, während technische Sachfragen an einen bereits im Gespräch
+   befindlichen Fachplaner eher unter einem Themen-Header als offene Liste stehen? *Warum: zieht die
+   Grenze der bestehenden Nummerierungsregel enger und verhindert, dass der Zwilling jede Fragenliste
+   reflexartig nummeriert.* → [[arbeitsweise]], [[stimme]]
+3. **«Besten Dank für das Telefonat» + «Ich erlaube mir, … schriftlich zusammenzufassen» — Pflicht-Doppel-
+   Opener bei JEDEM Telefonat-Nachgang, oder nur bei neuen/gewichtigeren Kontakten?** Der Twin eröffnete
+   die Stadelmann-Fassung reflexartig mit beiden Signatur-Phrasen; das reale Original geht ohne Umschweife
+   direkt in die Sache («Wie telefonisch besprochen sende ich Ihnen die Unterlagen…»). Lässt Du diese
+   Doppel-Formel bei einer reinen technischen Weiterleitung an einen bereits eingespielten Fachplaner
+   bewusst weg (weil der Bezug ohnehin klar ist), und hebst sie Dir für neuere/gewichtigere
+   Telefonat-Nachgänge auf? *Warum: verhindert, dass der Zwilling jede Telefonat-Folgemail
+   zeremoniell überlädt, wo das reale Original knapper bleibt.* → [[stimme]]
+
 ## Offen — Runde 260725e (twin-fragesteller, aus Fidelity-Review 2026-07-25e)
 
 Quelle: Drift-Report `outputs/2026-07-25e_fidelity.md` (Gesamt-Fidelity ~86; drei frische authentische
