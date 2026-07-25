@@ -1,5 +1,14 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-26 — Wissens-Health-Check (Phase 1, Skill wissenscheck, Nachtschicht Mac Mini)
+Zweiter Health-Check (erster 21.07.). A1·B15·C0·D1·E0·F2·G1. Zentraler Befund unveraendert:
+2206-Schoental-GF-Widerspruch seit 21.07. nicht behoben, jetzt sogar Selbst-Widerspruch
+innerhalb von `QUESTIONS.md` (Zeile 78 vs. 180); alle 7 kaputten Board-DNA-Backlinks und
+5 Orphans aus dem 21.07.-Befund bestehen weiter, keine Regression aber auch kein Fortschritt.
+Positiv: die 19 seit 21.07. neu hinzugekommenen Healthcare-/Etappe-3-Artikel sind sauber
+verlinkt (keine neuen Orphans/kaputten Links), RAW-Coverage bis auf eine inhaltsleere Datei
+vollstaendig. Report: `outputs/2026-07-26_health-check.md`.
+
 ## 2026-07-25 — Refuter-Welle B6 Healthcare, Quellgruppe Eigene Teilnahme 2101 KSSG Haus 14 «LOUISE» (zweiter, unabhängiger Durchgang)
 - Unabhängige Gegenprüfung **aller** 2101-Zahlen im Artikel `wiki/muster/kennwerte-healthcare.md`
   gegen die fünf Rohtexte in `raw/` (`2101-kssg-h14_eigene-flaechenberechnung.txt`,
