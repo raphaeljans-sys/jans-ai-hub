@@ -2,6 +2,22 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 94: neue Themen-Recherche nach freier Wahl (parallele Rechercheagenten)
+- **WP-Aussengerät Grenzabstand als Bauteil (nicht Lärmschutz) — bisher unabgedeckte Lücke
+  geschlossen:** ZH-Rechtstext PBG § 260 Abs. 4 (Nachtrag 133, seit PBG-Revision 2.7.2026)
+  amtlich verifiziert — Gebäude ≤ 1,5 m Höhe UND ≤ 2 m² Grundfläche brauchen GAR KEINEN Grenz-/
+  Gebäudeabstand; die meisten WP-Aussengeräte (Referenzmass 1,08×1,29×0,96 m, AGVE 2012) fallen
+  darunter. SZ kennt keine solche Bagatellschwelle: § 61 PBG SZ verlangt für «Nebenbauten» einen
+  Grenzabstand von mindestens 2,50 m, reduzierbar auf null nur mit schriftlicher Nachbarzustimmung.
+  Klar von der bereits bestehenden Lärmschutz-Abstandsfrage (`[[cerclebruit-vollzugshilfe-
+  waermepumpen-laermschutz]]`) und der Meldeverfahrens-Frage (`[[bvv-zh-meldeverfahren-
+  klimaanlagen-waermepumpen]]`) abgegrenzt → `[[waermepumpe-aussengeraet-grenzabstand-zh-sz]]`
+  (neu, emerging), FAQ F130 neu. Nebenbefund: KB `baurecht` zitiert im Artikel `abstaende-und-
+  hoehen` noch die alte (Stand 2017) Fassung von § 273 PBG ZH («Besondere Gebäude») statt der
+  aktuellen — Aktualisierungshinweis im Destillat hinterlegt, Umsetzung liegt bei der KB baurecht.
+- Register nachgeführt: `destillate/INDEX.md` (neue Zeile), `wiki/INDEX.md` (neue Destillat-
+  Direktverweis-Zeile), `wiki/BAUHERREN-FAQ.md` (F130 angehängt).
+
 ## 2026-07-25 — Run 93: komplette Run-92-Prioritätenliste abgearbeitet, vier neue/geschärfte Themen
 - **GVZ-PDF `21photovoltaikanlagen-doku-pm.pdf` erfolgreich per curl+pdftotext gelesen** (löst den
   Run-92-Auftrag): kein Fliesstext-Merkblatt, sondern Feuerwehr-Dokumentationsformular (Legende

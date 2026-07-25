@@ -4525,3 +4525,37 @@ Datenstand 2026-07-25 (Run 94). Status **established** für die fünf gelesenen 
 (primärquellenbestätigt, curl+pdftotext); der Rest der Norm sowie die aktuelle Ausgabe SN
 414022:2024 bleiben als offener Punkt (kostenpflichtig, kein freier Auszug gefunden) —
 schliesst den seit Run 91/93 offen geführten Punkt teilweise.
+
+### F130 — Wie nahe an die Grundstücksgrenze darf ich das Aussengerät meiner Wärmepumpe stellen (Baurecht, nicht Lärmschutz)?
+
+**Kurz für den Bauherrn:** Das ist eine andere Frage als der Lärmabstand (dazu bereits
+`[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]`) — hier geht es um den **baurechtlichen
+Grenzabstand** zur Nachbarparzelle. Im **Kanton Zürich** hat sich die Rechtslage mit der PBG-
+Revision vom 2.7.2026 deutlich vereinfacht: § 260 Abs. 4 PBG befreit Gebäude mit **maximal 1,5 m
+Gesamthöhe und maximal 2 m² Bodenfläche** vollständig von jedem Grenz- und Gebäudeabstand. Ein
+normales Luft/Wasser-Aussengerät für ein EFH/kleineres MFH (Richtwert rund 1,0–1,3 m Höhe,
+knapp über 1 m² Grundfläche, vgl. das im Aargauer Präzedenzfall vermessene Gerät 1,08 × 1,29 ×
+0,96 m) fällt damit fast immer unter diese Bagatellschwelle und darf **direkt an die Grenze**
+gestellt werden — grenzabstandsrechtlich, wohlgemerkt, der Lärmabstand gilt trotzdem separat. Im
+**Kanton Schwyz** gibt es diese Bagatellschwelle nicht: dort gilt für «Nebenbauten» (worunter ein
+WP-Gerät der Definition nach fällt: eingeschossig, unbewohnt, weit unter 3,5 m/60 m²) ein
+Mindest-Grenzabstand von **2,50 m** (§ 61 PBG SZ) — reduzierbar bis auf null nur mit
+**schriftlicher Zustimmung des Nachbarn**, die von der Bewilligungsbehörde akzeptiert werden muss.
+
+**Fachlich:** Die Grenzabstandsfrage ist von der Verfahrensfrage (Meldeverfahren vs.
+Baubewilligung nach § 2a BVV ZH, siehe `[[bvv-zh-meldeverfahren-klimaanlagen-waermepumpen]]`) zu
+trennen — auch ein rein meldepflichtiges Gerät (Volumen ≤ 2 m³) muss den materiellen
+Grenzabstand einhalten, das Meldeverfahren ersetzt nur die Bewilligung, nicht die Bauvorschrift
+selbst. Ob ein WP-Aussengerät im engen Sinn überhaupt als «Gebäude» nach PBG gilt, ist nicht
+ausdrücklich entschieden; die Praxis (AWEL-Verfahrensmatrix, ein Aargauer Verwaltungsgerichts-
+urteil, das ein vergleichbares Gerät ausdrücklich als «Kleinstbaute» qualifizierte, sowie ein
+Baurekursgericht-ZH-Entscheid vom 17.4.2014 zur Bewilligungspflicht beim WP-Ersatz) spricht für
+eine bauliche Einordnung, ist aber kein amtlich bestätigter ZH/SZ-Grenzabstands-Entscheid. Bei
+grossen/mehrteiligen Aussengeräten (MFH, Kaskadenanlagen), die die ZH-Bagatellschwelle
+überschreiten, gilt ersatzweise § 270 PBG ZH (3,5 m Grenzabstand für «andere Gebäude»).
+→ `[[waermepumpe-aussengeraet-grenzabstand-zh-sz]]`, `[[bvv-zh-meldeverfahren-klimaanlagen-
+waermepumpen]]`, `[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]`. Datenstand 2026-07-25
+(Run 94). Status **emerging** (ZH-§260-Abs.4-Wortlaut und SZ-§61-Wortlaut amtlich verifiziert;
+die Subsumtion «WP-Aussengerät = Gebäude im PBG-Sinn» selbst stützt sich nur auf ein
+ausserkantonales Präzedenzurteil (AG) und einen ZH-Bewilligungspflicht-Entscheid, nicht auf eine
+ZH/SZ-Grenzabstands-Rechtsprechung).

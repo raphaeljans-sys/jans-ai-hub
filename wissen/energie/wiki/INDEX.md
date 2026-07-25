@@ -68,6 +68,7 @@ Details im jeweiligen Destillat bzw. im CHANGELOG.
 - `[[kbob-massivbau-bauteilaufbau-co2]]` — Massivbau-Aussenwand kg CO2-eq/m²: Backstein-Vollwand SwissModul 35-52, unbewehrte Hochbaubeton-Wand 46-69 (beide ohne Dämmung/Putz/Bewehrung, bereits über Holzbau-Wandaufbau 25-34) (F126) · established
 - `[[vkf-richtlinie-gefaehrliche-stoffe]]` — VKF «Gefährliche Stoffe» 26-15de Ziff. 3.5.3: nur Blitzschutz-Mengenschwellen brennbare Gase/Flüssigkeiten/Reifenlager/Pyrotechnik (a-d), KEINE Batteriespeicher — widerlegtes Sekundärzitat (F124) · established
 - `[[gvz-photovoltaik-melde-versicherungspflicht]]` — GVZ-Feuerwehrformular «Dokumentation Photovoltaikanlage» + VKF-BSM Ziff. 4 Meldepflicht Feuerwehrkommando + Ziff. 3.3 Hagel-/Windwiderstand SIA 261/261-1 (F123) · established
+- `[[waermepumpe-aussengeraet-grenzabstand-zh-sz]]` — Grenzabstand WP-Aussengerät als Bauteil (nicht Lärmschutz): ZH-Bagatellschwelle § 260 Abs. 4 PBG (≤1,5 m Höhe/≤2 m² Fläche = kein Grenzabstand nötig, seit PBG-Revision 2.7.2026), SZ Nebenbauten-Grenzabstand 2,50 m (§ 61 PBG SZ, reduzierbar mit schriftlicher Nachbarzustimmung) (F130) · emerging
 
 **Offene Themenartikel-Kandidaten (Backlog, bereinigt Run 93 — 2026-07-25):** konkrete
 Lignum-Konstruktionsdetails + gemessene K_F-/Bauteilwerte Holzbau (LIT-Doku, kostenpflichtig),
