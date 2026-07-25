@@ -23,6 +23,16 @@ zusaetzlichem Namen). Danach `nas-commit-now.sh` erfolgreich: nativer Commit+Pus
 Synology ausgeloest, `main...github/main` ohne Divergenz verifiziert (ssh-Check auf der
 Synology). Sync-Task nach `sync-tasks/done/` verschoben. Damit ist `nas-commit-now.sh` neu
 auch vom Mac Mini aus direkt nutzbar (zuvor nur MacBook Pro getestet, siehe Eintrag unten).
+**Zweiter Fund direkt danach:** ein eigener Logbuch-Nachtrag blieb trotz «erfolgreicher»
+`nas-commit-now`-Meldung zunaechst uncommittet — Ursache ein **verwaister `.git/index.lock`**
+auf der Synology (0 Byte, 00:31 Uhr, kein Prozess dahinter laut `ps aux`), den der Stale-Guard
+in `nas-selfcommit.sh` erst ab 3600 s automatisch entfernt (Log zeigte 4 Skips in Folge:
+00:32/00:33/00:33). Nach `ps aux`-Verifikation (kein `git`-Prozess) Lock manuell entfernt,
+`nas-commit-now.sh` griff danach sofort (Commit `cce339b0`, sauberer Diff zu `github/main`).
+Der 3600-s-Schwellwert ist fuer «Lock ohne lebenden Prozess» zu hoch angesetzt — moegliche
+Folgeverbesserung: `nas-selfcommit.sh` koennte den Lock schon bei kurzer Standzeit entfernen,
+sobald `ps` keinen zugehoerigen `git`-Prozess mehr zeigt (nicht heute Nacht umgesetzt, nur
+manuell aufgeloest — fuer einen dedizierten Lauf vormerken).
 
 **Schwesterproblem geloest: kein `git` mehr ueber SMB aufs NAS-Repo (~00:15).** Auf Raphaels
 Zuruf «mach es genau so wie Du findest ist die beste Loesung» das tieferliegende Thema hinter
