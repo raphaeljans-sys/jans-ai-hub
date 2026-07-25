@@ -1,5 +1,21 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-25 (dritte Instanz) — `syn02-spec-anstoss` erneut gefeuert; Loeschversuch + Mail an Raphael
+- Dieselbe Situation wie im Eintrag direkt darunter (25.07., erste Duplikat-Instanz): kein neues
+  Interview vorbereitet, keine Dublette angelegt — SYN-02-Spec ist seit 20.07.2026 bestaetigt
+  (`outputs/2026-07-20_syn-02-typologischer-entwurfsprozess_spec.md`), Block 1 (MVP-Bau) wartet
+  unveraendert auf Freigabe.
+- **Neu in diesem Lauf:** Versucht, die stehen gebliebene Routine selbst zu entfernen (`RemoteTrigger
+  action: list`) — Ergebnis HTTP 401, kein aktives claude.ai-Login in dieser Session verfuegbar.
+  Automatisierte Loeschung aus dieser Instanz heraus nicht moeglich.
+- **Mail an rj@raphaeljans.ch gesendet** (Betreff «SYN-02: Spec laengst bestaetigt, Task-Duplikat
+  feuert erneut»): Status SYN-02 unveraendert, Bitte um manuelles Loeschen des Eintrags
+  `syn02-spec-anstoss` aus den Scheduled Routines auf claude.ai, da der VOLLGAS-Runner ihn sonst
+  weiter unnoetig abfeuert. Abweichung von der Empfehlung des vorigen Laufs («keine Mail
+  versendet»): dort ging es um die Vermeidung einer falschen «Interview steht noch aus»-Mail: hier
+  um die neue, eigenstaendige Information (Loeschversuch gescheitert, Task feuert zum dritten Mal),
+  die Raphael sonst nicht erreicht.
+
 ## 2026-07-25 — One-Time-Task `syn02-spec-anstoss` erneut gefeuert (Duplikat, keine Aktion)
 - Der einmalige Task `syn02-spec-anstoss` (Freigabe 15.07., geplanter Feuertermin Mo
   20.07.2026 12:15) ist heute 25.07. erneut ausgeloest worden, obwohl er bereits am 20.07.
