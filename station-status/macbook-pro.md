@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.07.2026 19:29:56
+Stand: 25.07.2026 19:50:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 19:22)
+- Developer/jans/ai/hub  (letzte Aktivitaet 19:39)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 25.07.2026 19:29:56
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- c6aad31b nas-selfcommit: 3 Datei(en) 2026-07-25 19:15
+- 0d744a5d normen-training Run 26: sia-112-tabelle-infrastruktur + sia-271-wegleitung auf established gehoben
