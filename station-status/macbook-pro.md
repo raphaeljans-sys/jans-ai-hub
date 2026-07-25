@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.07.2026 02:13:31
+Stand: 25.07.2026 02:23:42
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 25.07.2026 02:13:31
 - 12 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- cb41918b nas-selfcommit: 2 Datei(en) 2026-07-25 02:00
+- fdf0f876 synobsis-batch-nacht 2026-07-25: Lauf 13 (leer, 853/853), Vektorindex neu, Protokoll+CHANGELOG
