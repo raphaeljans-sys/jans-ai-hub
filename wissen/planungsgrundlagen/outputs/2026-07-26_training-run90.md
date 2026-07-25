@@ -31,6 +31,39 @@ Kein WebSearch-Refresh von R6/RPG-2-ZH bzw. B5/BSV-2026 in diesem Lauf: letzter 
 mehrfach seither ohne Delta bestaetigt (Run 74/75/82/84/86/88); ein weiterer Re-Check liefert
 erfahrungsgemaess kein neues Ergebnis (Rule `wissens-bibliothekar`: keine Pseudo-Tiefe).
 
+## Nachtrag (Intensiv-Lauf auf Raphaels direkten Auftrag, spaeter am 2026-07-26)
+
+Der obige Lauf (00:34 Uhr) ist der reguläre, automatische Turnus dieses Tages. Raphael hat
+zusätzlich einen dezidierten Intensiv-Lauf angefordert; da dieser exakt in denselben
+Rotations-Turnus (Recht/Norm + Brandschutz) fiel, wird er hier als Nachtrag zu Run 90
+geführt statt eine kollidierende Run-91-Nummer zu belegen (Run 91 bleibt gemaess Rotation
+Kartenportale+Energie vorbehalten, siehe „Naechster Schritt" unten).
+
+**Unterschied zum obigen Lauf:** dort wurde der WebSearch-Refresh der zwei lebenden externen
+Verfahrensstaende explizit zurückgestellt ("letzter Check Run 62"). Da zwischen Run 62
+(25.07., Denkmalschutz zuletzt bei Run 58/24.07.) und heute (26.07.) mind. ein Tag vergangen
+ist, wurde der Refresh im Nachtrag doch durchgeführt — echte, keine Pseudo-Tiefe:
+
+- **R6/Denkmalschutz-PBG-Revision** (WebSearch + WebFetch `zh.ch`-Medienmitteilung
+  02.07.2026): Verfahrensstand **unveraendert** — Regierungsrat hat die Vorlage «Modernisierung
+  der Denkmalpflege-Gesetzgebung (Baudenkmäler)» am 02.07.2026 zuhanden Kantonsrat verabschiedet,
+  Beratung dort **in erster Lesung**, kein Kantonsratstermin, keine Schlussabstimmung. Vierte
+  Refresh-Bestaetigung ohne Delta seit Run 23 (Run 23/53/58/90) → [[recht-norm-quellenlandkarte]]
+  §Denkmalschutz-Revision PBG (Refresh-Zeile + Frontmatter `last_updated`/`sources` ergaenzt).
+- **B5/BSV-2026-Terminplan** (WebSearch + WebFetch `bsvonline.ch/de/brandschutzvorschriften/
+  projekt-bsv-2026` + `metallonline.ch`): Terminplan **unveraendert** — technische Vernehmlassung
+  15.09.2025-11.01.2026 abgeschlossen, politische Vernehmlassung weiterhin fuer 08/2026
+  angekuendigt, IOTH-Plenums-Genehmigung 03/2027, Inkrafttreten 2027 ohne verbindliche
+  Quartalsangabe (metallonline.ch nennt "Fruehling 2027" — deckt sich mit der bereits als
+  unpraezise dokumentierten Formulierungsvarianz aus Run 62, kein neuer Terminplan). Vierte
+  Refresh-Bestaetigung in Folge ohne Delta (Run 58/60/62/90) →
+  [[brandschutz-pl03-wegweiser]] §Datenstand BSV 2026 (Refresh-Zeile + Frontmatter
+  `last_updated`/`sources` ergaenzt).
+
+Beide Refreshes sind reine Datenstand-Bestaetigungen (kein Status-Hebung noetig, beide Artikel
+bereits `established`); der Mehrwert liegt in der lueckenlosen Audit-Kette, nicht in neuen
+Fakten. Kein neuer Wiki-**Fund**, aber ein faelliger, echter externer Check wurde nachgeholt.
+
 ## Verifikations-Stufe (Rule auto-verbesserungen 260712)
 
 Keine Status-Hebung auf `established` in diesem Lauf (reine Negativ-Bestaetigung). Kein

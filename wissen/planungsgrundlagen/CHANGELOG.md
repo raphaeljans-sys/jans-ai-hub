@@ -2,6 +2,22 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-26 — Nachtrag Run 90 (Intensiv-Lauf auf Raphaels direkten Auftrag): WebSearch-Refresh nachgeholt
+Zusaetzlich zum automatischen Run 90 (00:34, reiner Frischecheck) auf Raphaels expliziten Auftrag
+einen weiteren Intensiv-Lauf zum selben Rotations-Turnus (Recht/Norm+Brandschutz) gefahren, statt
+eine kollidierende Run-91-Nummer zu belegen. Holte den dort zurueckgestellten WebSearch-Refresh
+der zwei lebenden externen Verfahrensstaende nach (beide seit >=1 Tag nicht mehr geprueft):
+**R6/Denkmalschutz-PBG-Revision** (WebSearch+WebFetch zh.ch) — unveraendert, RR-Botschaft
+02.07.2026 weiterhin beim Kantonsrat in erster Lesung, kein neuer Termin; vierte
+Refresh-Bestaetigung seit Run 23 → `wiki/recht-norm-quellenlandkarte.md`. **B5/BSV-2026-
+Terminplan** (WebSearch+WebFetch bsvonline.ch + metallonline.ch, Zweitquelle) — unveraendert,
+politische Vernehmlassung weiterhin 08/2026, IOTH-Genehmigung 03/2027, Inkrafttreten 2027 ohne
+Quartal; vierte Refresh-Bestaetigung in Folge (Run 58/60/62/90) → `wiki/brandschutz-pl03-
+wegweiser.md`. Beide Artikel-Frontmatter (`last_updated`/`sources`) nachgefuehrt. Kein neuer
+Wiki-Fund, keine Status-Hebung (beide Artikel bereits `established`) — der Mehrwert ist die
+lueckenlose, mit zwei Quellen gegengeprüfte Audit-Kette. → Nachtrag in
+`outputs/2026-07-26_training-run90.md`.
+
 ## 2026-07-26 — Run 90: Frischecheck Recht/Norm+Brandschutz, vierzehnter Nullbefund
 Frischecheck `PL - 02_Recht_Norm` + `PL - 03 Brandschutz` gegen Run 88 (`find -newer`): 0 neue/
 veraenderte Dateien. Vierzehnte unabhaengige Erschoepfungs-Bestaetigung fuer dieses
