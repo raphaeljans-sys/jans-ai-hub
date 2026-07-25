@@ -37,9 +37,10 @@ Weiterbetrieb + Bewilligungsfähigkeit (Brandschutz/Tageslicht)** — während a
 Ausdruck und Atmosphäre regelmässig **sogar beim Sieger als Defizit** vermerkt werden. Belegt
 bei allen drei Spitälern (KSA: «hohe Sachlichkeit führt atmosphärisch zu einer gewissen
 Nüchternheit und zu Defiziten beim architektonischen Ausdruck», vgl.
-[[extern/jurybericht-kantonsspital-aarau-ksa]], S. 33 f.; USB Arcadia: «konsequente Sachlichkeit
-führt räumlich/atmosphärisch zu einer gewissen Nüchternheit», vgl.
-[[extern/jurybericht-universitaetsspital-basel-klinikum-2]], S. 30/32) und im Pflegebereich
+[[extern/jurybericht-kantonsspital-aarau-ksa]], S. 33 f.; USB Arcadia: die konsequente
+Sachlichkeit führt laut Jury auch räumlich/atmosphärisch zu einer gewissen Nüchternheit
+(Paraphrase des Destillats, kein Wortlautzitat), vgl.
+[[extern/jurybericht-universitaetsspital-basel-klinikum-2]], S. 30) und im Pflegebereich
 gespiegelt (Widnau: gewinnt durch «die präzise und funktionelle Umsetzung des formulierten
 Betriebskonzepts», vgl. [[extern/jurybericht-alters-pflegezentrum-widnau]], S. 18). Deckt sich
 im Ergebnis mit [[delta-zum-ersten-rang]], hat aber eine Healthcare-Eigenheit: der «Betrieb»
@@ -53,7 +54,7 @@ Die Basis ist zwar subtyp-gespreizt, pro Subtyp aber schmal: Spital/Klinik und P
 Alterszentrum stützen sich je auf 3 Quellen (robuster), **Psychiatrie und betreutes Alterswohnen
 je auf nur EINE Quelle (Einzelbeleg)** — Muster, die ausschliesslich aus ipw Schlosstal bzw.
 Tägermoos stammen, sind unten ausdrücklich als «vorläufig/Einzelbeleg» markiert und dürfen nicht
-als robuste Subtyp-Regel gelesen werden. Zusätzlich publizieren fünf der acht Berichte (Sihlsana,
+als robuste Subtyp-Regel gelesen werden. Zusätzlich publizieren sechs der acht Berichte (Sihlsana,
 ipw, LUKS, Tägermoos, Bombach, Widnau) **keine absoluten Kosten-/Flächenkennwerte** — die
 Wirtschaftlichkeit wird dort nur qualitativ-vergleichend gewürdigt.
 
@@ -65,8 +66,8 @@ formalen Kriterienreihenfolge (die meisten Programme führen die Kriterien ausdr
 Realisierung + Organisation 10 %, vgl. [[extern/jurybericht-kantonsspital-aarau-ksa]], S. 10–13):
 
 1. **Städtebauliche Setzung + Volumetrie + Aussenraum** — der Eintrittsfilter des 1. Rundgangs.
-   Bei Grossbauten technisch verifiziert (KSA: alle Volumina ins Stadtmodell 1:500 gesetzt, vgl.
-   [[extern/jurybericht-kantonsspital-aarau-ksa]], S. 18); bei Pflege-/Altersbauten über Adress-
+   Bei Grossbauten technisch verifiziert (KSA: alle drei 2.-Stufe-Volumina ins Stadtmodell 1:500
+   gesetzt, vgl. [[extern/jurybericht-kantonsspital-aarau-ksa]], S. 18); bei Pflege-/Altersbauten über Adress-
    und Freiraumbildung (Sihlsana: Ensemble bei erhaltener Parklandschaft, vgl.
    [[extern/jurybericht-alterszentrum-sihlsana-adliswil]], S. 24). Wer die Setzung nicht löst,
    wird gar nicht inhaltlich gelesen (LUKS: 14 der 22 Projekte in den ersten beiden Rundgängen
@@ -119,10 +120,10 @@ verifiziert; Riegelwirkung/Dominanz in der Stadtsilhouette wird abgestraft (KSA 
 
 | Element | Prämiertes Muster | Belege |
 |---|---|---|
-| Grundtypologie | **Ensemble/Mehrkörper mit getrennter Adresse je Wohnform** ODER **kompakter Solitär mit Sockel-Aufbau-Gliederung** | Sihlsana SOPHIE (zwei Neubauten, drei Adressen über gemeinsames Zentrum, [[extern/jurybericht-alterszentrum-sihlsana-adliswil]], S. 24); Widnau Cukrowicz (eingesch. Sockel + z-förmiges Wohnvolumen, [[extern/jurybericht-alters-pflegezentrum-widnau]], S. 16) |
+| Grundtypologie | **Ensemble/Mehrkörper mit getrennter Adresse je Wohnform** ODER **kompakter Solitär mit Sockel-Aufbau-Gliederung** | Sihlsana SOPHIE (zwei Neubauten, drei Adressen über gemeinsames Zentrum, [[extern/jurybericht-alterszentrum-sihlsana-adliswil]], S. 24–25); Widnau Cukrowicz (eingesch. Sockel + z-förmiges Wohnvolumen, [[extern/jurybericht-alters-pflegezentrum-widnau]], S. 16) |
 | Pflegegeschoss | **Kleinteilige Nachbarschaften/Wohngruppen mit fassadenbezogenen, tageslichtversorgten Gemeinschaftszonen** | Sihlsana (vier Nachbarschaften à zwei Wohngruppen, Aufenthaltsbereiche an der Fassade, S. 25) |
 | Belichtung tiefer Grundrisse | **kleine, dezentrale Lichthöfe je Wohneinheit** statt eines grossen zentralen Atriums | Widnau (windmühlenartig um innenliegende Lichthöfe, vermeidet das grosse Atrium, S. 17) |
-| Konstruktion | **Mischbauweise** Beton (Erschliessung/Gemeinschaft, Brand-/Schallschutz) + Holz (Zimmer, Wohnlichkeit) | Sihlsana (S. 25–26); Holzfassade als Wohnlichkeits-Argument auch Widnau (S. 31/37) |
+| Konstruktion | **Mischbauweise** Beton (Erschliessung/Gemeinschaft, Brand-/Schallschutz) + Holz (Zimmer, Wohnlichkeit) | Sihlsana (S. 25–26); Widnau: Holzfassade als Wohnlichkeits-Argument bei mehreren gewürdigten, nicht siegreichen Projekten des Berichts (Dorner﹨Matt, Fiechter & Salzmann), nicht beim Sieger Cukrowicz Nachbaur selbst, S. 31/37 |
 
 ### 2.3 Demenz-Sondertyp (innerhalb Pflege; Bombach primär, plus Demenz-Anteile Sihlsana/Widnau)
 
@@ -208,8 +209,9 @@ Zimmertyp und Aussenraum stärker als die Ortsanalyse.
    S. 18/31/51/58; Sihlsana koppelt Wirtschaftlichkeit direkt an Hüllflächenzahl, S. 26/46/66).
 9. **Mischbauweise Beton + Holz als kombiniertes Ausdrucks- und Wirtschaftlichkeitspaket;
    Holz/Materialwärme als Wohnlichkeits-Argument.** (Sihlsana S. 25–26; Widnau Holzfassade «hohes
-   Identifikationspotential», S. 31/37). Vorsicht Spital: sehr hoher Fensteranteil verteuert und
-   verschlechtert die graue Energie (LUKS 60 % «sehr gross», S. 23/60).
+   Identifikationspotential», S. 31/37). Vorsicht Spital: sehr hoher Fensteranteil führt in
+   Kombination mit Fixverschattung zu übermässigem winterlichem Tageslichtverlust (LUKS 60 %
+   «sehr gross», S. 23).
 10. **Umnutzbarkeit/Flexibilität als konstruktiv nachgewiesene Reserve** — Wohnung → Pflege,
     Erweiterung horizontal, Zimmer → Station. Nicht als Behauptung, sondern ins Modul
     eingeschrieben (Tägermoos Wohnmodul + Orangerien, S. 18; Widnau Garten als
@@ -237,8 +239,10 @@ Zimmertyp und Aussenraum stärker als die Ortsanalyse.
 - **Tageslicht in versorgungskritischen Nebenräumen fehlt.** Keine Komfortfrage, sondern
   bewilligungsrelevante Schwelle: Bettenaufbereitung/Sterilgutversorgung (KSA «nicht
   bewilligungsfähig» bzw. Betrieb «verunmöglicht», S. 24/46/70 f.), U+B-Bereiche/Untergeschosse
-  (USB mehrfach «ungenügend»/«absolut unzureichend», [[extern/jurybericht-universitaetsspital-basel-klinikum-2]],
-  S. 44/78/102), innenliegende Wäscherei (Widnau, «müsste überprüft werden», S. 17).
+  (USB mehrfach unzureichend: Kazwei «absolut unzureichend» S. 44, Margino Tageslichtanteil
+  «wird nicht erreicht … Nutzung stark eingeschränkt» S. 78, Anna Blume «ungenügend» S. 102,
+  vgl. [[extern/jurybericht-universitaetsspital-basel-klinikum-2]]), innenliegende Wäscherei
+  (Widnau, «müsste überprüft werden», S. 17).
 - **Raumprogramm-Kapazität unterschritten.** Eine quantitative Abweichung im Betreuungsangebot ist
   harter K.-o., nicht Qualitätsabzug: PAUL & PAULA mit 20 statt 40 Pflegestudios wird von der
   Preiserteilung ausgeschlossen (Sihlsana, [[extern/jurybericht-alterszentrum-sihlsana-adliswil]],
@@ -272,9 +276,10 @@ Zimmertyp und Aussenraum stärker als die Ortsanalyse.
 - **Ein einziger Lift für mehrere Stationen.** Als Programmverstoss gewertet (Psychiatrie,
   EINZELBELEG ipw, S. 20).
 
-**Kein K.o., aber teuer (weiche Rangverlust-Gründe):** hoher Fensteranteil (LUKS 60 %, graue
-Energie/sommerlicher Wärmeschutz, S. 23); nicht überzeugende Fassadenstruktur trotz starker
-Grundrisse (Bombach Rang 3/4, S. 14–15); Anlieferung mit langen Wegen (Sihlsana S. 46/65);
+**Kein K.o., aber teuer (weiche Rangverlust-Gründe):** hoher Fensteranteil (LUKS 60 %, in
+Kombination mit Fixverschattung übermässiger winterlicher Tageslichtverlust, S. 23); nicht
+überzeugende Fassadenstruktur trotz starker Grundrisse (Bombach Rang 3/4, S. 14–15); Anlieferung
+mit langen Wegen (Sihlsana S. 46/65);
 einseitig orientierte Wohnungen (Sihlsana COLLIER, vermietungsrelevant, S. 65). Baurechtliche
 Detailabweichungen (Waldabstand/Grenzabstand) führen **nicht** automatisch zum Ausschluss, wenn
 kein Vorteil daraus erwächst (LUKS S. 10/63; Widnau S. 10).
@@ -300,7 +305,8 @@ kein Vorteil daraus erwächst (LUKS S. 10/63; Widnau S. 10).
 - **Die Vorprüfung speist die Wertung mit eigenen Healthcare-Fachthemen.** Über die
   Standardthemen hinaus: «Wohnen im Alter»/Aufenthaltsqualität als eigenes Fachthema (Sihlsana
   S. 15), Betrieb/On-/Off-Stage (LUKS S. 10/14), Brandschutz, Schallschutz (LUKS Zusatzexperte,
-  S. 14; Tägermoos S. 10–11), Kostenplausibilisierung gegen ein Kostendach (KSA/LUKS). Diese Grössen
+  S. 14), Lärmschutz als eigener Fachexperte der Vorprüfung (Tägermoos S. 10–11),
+  Kostenplausibilisierung gegen ein Kostendach (KSA/LUKS). Diese Grössen
   sind maschinell vorprüfbar — der Hebel für JANS.
 - **Volumen/Fernwirkung wird bei Grossspitälern technisch verifiziert (Stadtmodell 1:500), nicht
   geschätzt** (KSA S. 18); Mantellinien können bei grossen Arealentwicklungen die klassischen
