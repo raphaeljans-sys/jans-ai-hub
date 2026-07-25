@@ -10,6 +10,18 @@ last_updated: 2026-06-24
 
 # SIA 181:2020 — Schallschutz im Hochbau: Anforderungswerte
 
+> **Querbezug KB `normen` (Norm-Fundstelle) und ⚠ Ausgaben-Diskrepanz — gesetzt Wissens-Chef Run 16,
+> 26.07.2026.** Fuer die ziffern-genaue Fundstelle ist die KB `normen` fuehrend (Rule
+> `normen-referenz`): `wissen/normen/destillate/sia-181-2006.md` destilliert das **Original-PDF der
+> Ausgabe 2006** (Ziff. 3.2.1.3: erhoehte Anforderung **+3 dB**; Tabelle 6 / Ziff. 3.2.3.3
+> Haustechnik; Ziff. 0.1.2 + Anhang G fuer den Schutz *innerhalb* der Nutzungseinheit).
+> Dieser Artikel arbeitet mit der geltenden **Ausgabe 2020** (Abstand Mindest↔erhoeht **+4 dB**) und
+> stuetzt sich auf eine Bueros-Zusammenfassung, nicht auf das Original. Die Differenz +3/+4 dB ist
+> also eine **Ausgaben-**, keine Sachdifferenz. Fuer JANS-Ausgaben gilt **SIA 181:2020**; in
+> Vertraegen gilt die vereinbarte Ausgabe. Das Re-Destillat SIA 181:2020 aus dem Original ist
+> Bring-Schuld der KB `normen` (Register-Eintrag vorhanden). Arbeitsteilung wie beim SIA-180-Paar:
+> `normen` fuehrt die Norm-Fundstelle, `energie` die Vollzugs-/Anwendungsebene.
+
 ## Das Wichtigste in 1 Satz
 Die SIA 181:2020 legt die **gesetzlich/privatrechtlich verbindlichen Mindestanforderungen** an den
 Schallschutz im Hochbau fest (Luft-, Tritt-, Haustechnik- und Aussenlaerm), je nach **Laermempfindlichkeit

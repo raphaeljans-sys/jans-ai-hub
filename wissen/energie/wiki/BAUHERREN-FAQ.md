@@ -5456,17 +5456,24 @@ Bewilligungsverfahren Solaranlagen (Juni 2023), Kap. 6. Datenstand 2026-07-25 (R
 **Kurzantwort:** Nein. Der LSV-Lärmschutznachweis prüft nur den Aussenlärm gegenüber Nachbarn
 (Planungswerte nach Empfindlichkeitsstufe). Ob die Wärmepumpe im eigenen Keller als Brummen im
 darüberliegenden Schlafzimmer oder in der Nachbarwohnung im selben Haus hörbar wird, ist ein
-separates, bautechnisches Körperschall-Thema — und wird von keiner Behörde geprüft. Das muss der
-Bauherr bzw. Planer von sich aus einfordern, insbesondere bei Sole/Wasser-Wärmepumpen im
-MFH-/STWEG-Keller.
+separates, bautechnisches Körperschall-Thema — und **nicht Gegenstand des LSV-Lärmschutznachweises
+im Baubewilligungsverfahren**. Rechtsfrei ist es deswegen nicht: SIA 181 Ziff. 0.1.7 unterstellt
+den abgestrahlten Körperschall bis zum Inkrafttreten der eidg. Erschütterungsverordnung direkt dem
+Umweltschutzgesetz (USG). Einfordern muss es der Bauherr bzw. Planer aber von sich aus,
+insbesondere bei Sole/Wasser-Wärmepumpen im MFH-/STWEG-Keller.
 
 **Fachliche Begründung:** Massgebend ist die bautechnische Schwingungsentkopplung: Kapselung des
 Kompressors, Schalldämpfer in Luftkanälen, Körperschallisolation über eine Feder-Masse-Lagerung
 (deren Resonanzfrequenz f₀ deutlich unter der Erregerfrequenz des Kompressors liegen muss — sonst
 verstärkt eine falsch dimensionierte Federung das Problem statt es zu lösen) und entkoppelte
-Rohrleitungen (Kompensatoren, besonders bei Kältemittelleitungen). Der massgebende Zielwert im
-eigenen Gebäude ist SIA 181 (Haustechnik-Geräusche), 28 dB(A) im Schlafzimmer. Praxisregel: die
-Wärmepumpe auf der Fundamentplatte aufstellen, nicht auf einer Geschossdecke.
+Rohrleitungen (Kompensatoren, besonders bei Kältemittelleitungen). Der Zielwert nach SIA 181:2006
+hängt davon ab, wen man schützt: **zwischen Nutzungseinheiten** (Nachbarwohnung im selben Haus)
+gilt Tabelle 6 / Ziff. 3.2.3.3 mit 28 dB(A) bei mittlerer Empfindlichkeit bzw. 25 dB(A) bei
+erhöhten Anforderungen (Ziff. 3.2.3.4; bei neu begründetem STWEG nach Ziff. 2.2.2 verbindlich die
+erhöhten). **Innerhalb der eigenen Nutzungseinheit** — der eigene Keller unter dem eigenen
+Schlafzimmer — gibt die Norm nach Ziff. 0.1.2 nur Empfehlungen (Anhang G: 30 dB(A) Stufe 1,
+25 dB(A) Stufe 2); dieser Wert ist also vertraglich zu vereinbaren, nicht normativ geschuldet.
+Praxisregel: die Wärmepumpe auf der Fundamentplatte aufstellen, nicht auf einer Geschossdecke.
 
 **Quelle:** EMPA Dübendorf, «Zur lärmarmen Konstruktion von Wärmepumpenanlagen» (K. Baschnagel,
 ERFA-Seminar 25.02.2002, amtlich gehostet Kt. ZH/AWEL). Datenstand 2002 (physikalische

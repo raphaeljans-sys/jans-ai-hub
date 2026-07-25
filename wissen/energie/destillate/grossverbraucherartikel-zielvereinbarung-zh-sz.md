@@ -46,7 +46,8 @@ wird die Schwelle real erreicht: ein mittelgrosses bis grosses Pflegeheim oder S
 überschreitet sie in aller Regel bereits bei rund 3'000-7'000 m² Energiebezugsfläche (bereits
 dokumentiert in `[[muken-2025-modul-7-betriebsoptimierung-hlkkse]]` und im Bauherren-FAQ, siehe
 Querverweis unten). Der Grossverbraucher-Status hat direkte Folgen für die Gebäudetechnik-Planung:
-er kann von gewissen Detailvorschriften (ZH: §§ 6-8/§ 10, SZ analog) **befreien**, verlangt aber im
+er kann von gewissen Detailvorschriften **befreien** (ZH: §§ 22a, 23, 26, 29 Abs. 2-4, 30a, 45,
+45a BBV I nach § 48b Abs. 2 BBV I; SZ: §§ 6-8/§ 10 kEnG), verlangt aber im
 Gegenzug ein laufendes Energiemonitoring und wirtschaftliche Effizienzmassnahmen über die gesamte
 Vertragsdauer (10-15 Jahre) — das ist ein Betriebs-, kein reiner Bauprojektpunkt, muss aber bereits
 in der Planungsphase (Messkonzept, Gebäudeautomation, Zählerstruktur) mitgedacht werden.
@@ -102,7 +103,7 @@ im übrigen Kantonsgebiet ist die Baudirektion (AWEL, Abteilung Energie) zustän
 | Weg | Partner/Laufzeit | Effizienzziel | Vorteil |
 |---|---|---|---|
 | Universalzielvereinbarung (UZV) | Bund, 10 Jahre, schweizweit für mehrere Standorte | ca. 1,5-2 %/Jahr | Rückerstattung CO2-Abgabe UND Netzzuschlag |
-| Kantonale Zielvereinbarung (KZV) | AWEL Abteilung Energie, 10-15 Jahre, auch als Gruppe mehrerer Unternehmen | ca. 1,5-2 %/Jahr | keine Rückerstattung, aber Befreiung von §§ 6-8/§ 10 EnerG (Detailvorschriften) und § 13d (Betriebsoptimierungspflicht) |
+| Kantonale Zielvereinbarung (KZV) | AWEL Abteilung Energie, 10-15 Jahre, auch als Gruppe mehrerer Unternehmen | ca. 1,5-2 %/Jahr | keine Rückerstattung, aber Befreiung von §§ 22a, 23, 26, 29 Abs. 2-4, 30a, 45, 45a BBV I (§ 48b Abs. 2 BBV I; die Baudirektion kann weitere Befreiungen in die Vereinbarung aufnehmen) und von der Betriebsoptimierungspflicht (§ 13d EnerG / § 48c Abs. 1 lit. b BBV I) |
 | Energieverbrauchsanalyse (EVA), ohne Zielvereinbarung | kein Vertragspartner nötig | 15 % Gesamtsteigerung in 3 Jahren, gültig 10 Jahre | keine Rückerstattung; einfachster Einstieg |
 
 Verfahrensablauf (alle drei Wege, AWEL-Praxisseite): (1) Bestandsaufnahme aller
@@ -133,9 +134,16 @@ Abteilung Energie, Stampfenbachstrasse 12, 8090 Zürich, grossverbraucher@bd.zh.
 
 Die Schwellenwerte (5 GWh Wärme / 0,5 GWh Strom) sind **wortidentisch** mit § 13a EnerG ZH — beide
 Kantone setzen exakt die bundesrechtlich in Art. 46 EnG vorgesehene Harmonisierung um. Auch die
-Befreiungslogik ist identisch aufgebaut: Abs. 3/4 kEnG SZ entsprechen Abs. 2 § 13a EnerG ZH plus
-der Verweisung in § 13d EnerG ZH (Befreiung von den §§ 6-8/§ 10 kEnG, den materiellen
-Grunderfordernissen, analog zu den §§ 6-8/§ 10 EnerG ZH resp. der Betriebsoptimierungspflicht).
+Befreiungslogik ist **strukturell** vergleichbar, im Katalog aber ausdrücklich NICHT: § 9 Abs. 4
+kEnG SZ befreit von den §§ 6-8/§ 10 kEnG (materielle Grunderfordernisse Wärmeerzeugung/VHKA),
+während Zürich die Befreiung nicht im Gesetz, sondern auf Verordnungsstufe regelt — § 13a Abs. 2
+EnerG ZH delegiert an die Verordnung, und § 48b Abs. 2 BBV I nennt abschliessend §§ 22a, 23, 26,
+29 Abs. 2-4, 30a, 45 und 45a BBV I (mit der Möglichkeit, weitere Befreiungen in die Vereinbarung
+aufzunehmen), dazu die Befreiung von der Betriebsoptimierungspflicht nach § 13d EnerG / § 48c
+Abs. 1 lit. b BBV I. Die Analogie ZH/SZ trägt damit für die **Schwellenwerte**, nicht für den
+Befreiungskatalog. [Korrektur Wissens-Chef Run 16, 26.07.2026 — zuvor stand hier fälschlich
+«§§ 6-8/§ 10 EnerG ZH»; führend für den ZH-Wortlaut ist `wissen/baurecht/raw/260607_amtlich_zh_bbv1.md`
+Z. 913-919, gegengeprüft am amtlichen ZH-Lex-PDF LS 730.1 Nachtrag 129.]
 
 ### Zwei SZ-Vollzugswege (AfU-Praxisseite, sz.ch/.../grossverbraucher.html)
 
@@ -159,7 +167,7 @@ Erfahrungsbericht (WSW AG), Leitfäden/Wegleitungen der Behörde/act/EnAW.
 | Schwelle Elektrizität | > 0,5 GWh/Jahr | > 0,5 GWh/Jahr |
 | Zuständige Behörde | AWEL Abteilung Energie (Kantonsgebiet); Städte Zürich/Winterthur auf eigenem Gebiet | Amt für Umwelt und Energie (AfU) |
 | Zielvereinbarungswege | UZV (Bund) + KZV (Kanton) + EVA | UZV (Bund, via EnAW/act) + EVA |
-| Befreiungswirkung | von § 13d (Betriebsoptimierungspflicht) sowie zu bezeichnenden energietechnischen Detailvorschriften | von §§ 6-8/§ 10 kEnG (materielle Grundpflichten Wärmeerzeugung/VHKA) |
+| Befreiungswirkung | von § 13d EnerG (Betriebsoptimierung, § 48c Abs. 1 lit. b BBV I) sowie von §§ 22a, 23, 26, 29 Abs. 2-4, 30a, 45, 45a BBV I (§ 48b Abs. 2 BBV I, weitere Befreiungen möglich) | von §§ 6-8/§ 10 kEnG (materielle Grundpflichten Wärmeerzeugung/VHKA) |
 | Rückerstattung CO2-Abgabe/Netzzuschlag | nur bei UZV, nicht bei KZV/EVA | nur bei UZV, nicht bei EVA |
 
 ## Bauherren-Transfer
@@ -202,9 +210,14 @@ zwei strategische Stossrichtungen:
   EVA) und die Vertragslaufzeiten stammen aus den amtlichen AWEL-/AfU-Praxisseiten (WebFetch),
   nicht aus einer eigens geprüften Verordnungsstelle (Energieverordnung ZH/SZ) — für eine
   einzelfallverbindliche Aussage empfiehlt sich die Rückfrage bei AWEL/AfU direkt.
-- Die konkrete Bezeichnung der "energietechnischen Vorschriften" in § 13a Abs. 2 EnerG ZH sowie
-  die exakte Auflistung "§§ 6-8/§ 10" bei § 13d/§ 9 Abs. 4 wurde nur aus dem bereits im Hub
-  verifizierten Erlasstext übernommen, nicht durch eine eigene Verordnungslektüre vertieft.
+- ~~Die konkrete Bezeichnung der "energietechnischen Vorschriften" in § 13a Abs. 2 EnerG ZH sowie
+  die exakte Auflistung bei § 13d wurde nicht durch eine eigene Verordnungslektüre vertieft.~~
+  **Geschlossen (Wissens-Chef Run 16, 26.07.2026):** Die Verordnungsebene liegt amtlich im Hub —
+  `wissen/baurecht/raw/260607_amtlich_zh_bbv1.md` Z. 909-944 führt §§ 48a/48b/48c BBV I im Wortlaut.
+  § 13a Abs. 2 EnerG delegiert an die Verordnung; § 48b Abs. 2 BBV I nennt den Befreiungskatalog
+  (§§ 22a, 23, 26, 29 Abs. 2-4, 30a, 45, 45a), § 48c Abs. 1 lit. a-c die drei Ausnahmen von der
+  Betriebsoptimierungspflicht. Die frühere Angabe «§§ 6-8/§ 10 EnerG» für ZH war falsch (das ist
+  der Schwyzer Katalog nach § 9 Abs. 4 kEnG) und wurde in diesem Destillat korrigiert.
 - Keine Kostenangaben zu Energieberatungs-/Zielvereinbarungs-Erarbeitung recherchiert (weder ZH
   noch SZ) — für eine Bauherren-Kostenaussage wäre eine direkte Anfrage bei AWEL/AfU oder einem
   EnAW-/act-Berater nötig.
@@ -225,7 +238,12 @@ zwei strategische Stossrichtungen:
   fedlex-data-admin-ch-eli-cc-2017-762-20260101-de-pdf-a-3.pdf, curl+pdftotext vollständig
   gelesen.
 - Energiegesetz Kt. Zürich (EnerG, LS 730.1) §§ 13a/13d, bereits primärquellenverifiziert im Hub:
-  `wissen/baurecht/raw/260712_amtlich_zh_energ.md`.
+  `wissen/baurecht/raw/260712_amtlich_zh_energ.md` (konsolidierte Fassung Nachtrag 129, Stand
+  Publikation 1.7.2025; §§ 13a/13d eingefügt durch G vom 19.4.2021, in Kraft seit 1.9.2022).
+- **Verordnungsebene ZH** (Vollzug der Zielvereinbarung und der Betriebsoptimierung): §§ 48a-48c
+  Besondere Bauverordnung I (BBV I, LS 700.21), amtlich im Hub unter
+  `wissen/baurecht/raw/260607_amtlich_zh_bbv1.md` Z. 909-944 — führende KB für den ZH-Erlassstand
+  ist `baurecht`.
 - Kantonales Energiegesetz Kt. Schwyz (kEnG, SRSZ 420.100) § 9 — sz.ch/public/upload/assets/5836/
   420_100.pdf, curl+pdftotext vollständig gelesen (25.07.2026).
 - AWEL Kt. Zürich, Praxisseite «Grossverbraucher» — zh.ch/de/umwelt-tiere/energie/
@@ -240,3 +258,8 @@ zwei strategische Stossrichtungen:
 **Backlinks:** [[muken-2025-modul-7-betriebsoptimierung-hlkkse]] ·
 [[energie-performance-gap-gesundheitsbau]] · [[geak-gebaeudeenergieausweis-kantone]] ·
 [[waerme-contracting-vertragsmodelle-ch]] · [[sia-386-bacs-gebaeudeautomation]]
+
+**Cross-KB (gesetzt Wissens-Chef Run 16, 26.07.2026):** Erlasswortlaut ZH führend in `baurecht`
+(`raw/260712_amtlich_zh_energ.md` EnerG, `raw/260607_amtlich_zh_bbv1.md` §§ 48a-48c BBV I) ·
+Formular-/Vollzugsseite im Baugesuch führend in `planungsgrundlagen`
+(`wiki/energie-energienachweis-zh-formulare.md`, Betriebsoptimierung EN-141).

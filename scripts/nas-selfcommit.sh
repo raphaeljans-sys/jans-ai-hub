@@ -18,6 +18,12 @@ LOGDIR="$REPO/sync-tasks/log"
 LOG="$LOGDIR/selfcommit-$(date +%Y%m).log"
 LOCK="/tmp/jans-selfcommit.lock"
 
+# Optionale Commit-Message (Arg 1): erlaubt sprechende Commits, wenn per
+# scripts/nas-commit-now.sh (ssh) mit Message ausgeloest; ohne Arg generisch
+# wie beim 15-Min-Cron. So committen Loops/Claude nie mehr git-ueber-SMB, sondern
+# loesen diesen nativen Committer aus und behalten trotzdem lesbare Historie.
+MSG_OVERRIDE="${1:-}"
+
 mkdir -p "$LOGDIR" 2>/dev/null
 log() { echo "$(date '+%Y-%m-%dT%H:%M:%S') $*" >> "$LOG"; }
 
@@ -51,7 +57,12 @@ fi
 git add -A >/dev/null 2>&1
 if ! git diff --cached --quiet 2>/dev/null; then
     N=$(git diff --cached --name-only | wc -l | tr -d " ")
-    git commit -q -m "nas-selfcommit: $N Datei(en) $(date '+%Y-%m-%d %H:%M')" && log "commit: $N Datei(en)"
+    if [ -n "$MSG_OVERRIDE" ]; then
+        CMSG="$MSG_OVERRIDE"
+    else
+        CMSG="nas-selfcommit: $N Datei(en) $(date '+%Y-%m-%d %H:%M')"
+    fi
+    git commit -q -m "$CMSG" && log "commit: $N Datei(en) — $CMSG"
 fi
 
 # 2. Remote abgleichen (rebase, niemals Merge-Zustand hinterlassen)

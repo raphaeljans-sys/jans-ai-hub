@@ -21,6 +21,6 @@ on-demand aus [[architekten-synobsis]]-Abfragen, vgl. Domänen-INDEX + CHANGELOG
 [[architekten-synobsis]]-Abfragen, vgl. Domänen-INDEX + CHANGELOG 2026-07-20)*
 
 ## Parameter-Sets
-- [healthcare-neubau-zh.json](parameter-sets/healthcare-neubau-zh.json) — Langzeitpflege Neubau Kt. ZH (schema-valide, Quellen CURAVIVA/Wüest/JANS 2410+2619/SIA 416)
+- [healthcare-neubau-zh.json](parameter-sets/healthcare-neubau-zh.json) — Pflegeheim/Alterszentrum/betreutes Alterswohnen CH (v2.0, Etappe-3-Baustein B5, abgeleitet aus wettbewerbs-dna `kennwerte-healthcare` + `jury-argumente-healthcare`, refuter-BESTANDEN 25.07.2026; Akutspital/Psychiatrie bewusst nicht abgedeckt). Die v1.0-Quellen CURAVIVA/Wüest/JANS 2410+2619 sind mit der Neufassung ersatzlos entfallen.
 - [wohnen-mfh-urban.json](parameter-sets/wohnen-mfh-urban.json) — Mehrfamilienhaus urban 3–6 OG (schema-valide)
 - [schule-volksschule-ch.json](parameter-sets/schule-volksschule-ch.json) — Volksschule/Bildungsbau CH (schema-valide, refuter-BESTANDEN 21.07.2026; abgeleitet aus wettbewerbs-dna B5/B6 `kennwerte-schulbauten` + B4 `jury-argumente-schulbauten`; ersetzt den frueher geplanten Namen `bildung-schulhaus.json`)

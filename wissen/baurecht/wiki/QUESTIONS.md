@@ -1,5 +1,23 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## Cross-KB-Eingang aus der KB `energie` (gesetzt Wissens-Chef Run 16, 26.07.2026)
+
+Struktur-Muster 1 «Übergabe verpufft im abgebenden KB»: `energie` hat den folgenden Korrekturhinweis
+am 25.07.2026 (Run 94) ausschliesslich bei sich selbst notiert; in dieser KB war davon nichts
+angekommen (grep über `wiki/QUESTIONS.md`, `abstaende-und-hoehen.md`,
+`gebaeudearten-und-abstandssystem.md`: 0 Treffer).
+
+- [ ] **§ 273 PBG ZH — Fassungsstand in Index und Gebäudearten-Tabelle nachziehen.** Die KB `energie`
+  meldet (Destillat `wissen/energie/destillate/waermepumpe-aussengeraet-grenzabstand-zh-sz.md:127-130`,
+  Quelle PBG ZH LS 700.1 Nachtrag 133, Stand 1.7.2026, curl+pdftotext von zhlex.zh.ch), dass das
+  Kriterium «Besondere Gebäude § 273/§ 49 Abs. 3 (≤4/5 m, 3,5 m)» in unseren Artikeln dem Stand 2017
+  entspricht. Kern der Meldung: die zitierte Regel war **keine Grenzabstands-Bagatellregel**, sondern
+  eine Gebäudeabstands-Erleichterung; die heute geltende, viel spezifischere Grenzabstands-
+  Freistellung für Kleinbauten/-geräte (1,5 m / 2 m², Revision 2025/2026) steht in **§ 260 Abs. 4 PBG**.
+  Zu prüfen und ggf. zu korrigieren sind `wiki/abstaende-und-hoehen.md`, `wiki/INDEX.md:17` und
+  `wiki/gebaeudearten-und-abstandssystem.md:31`. Gegenprüfung am eigenen `raw/`-Volltext, nicht am
+  energie-Destillat — für den PBG-Wortlaut ist diese KB führend.
+
 ## 2026-07-25 (Buch-Run 58, Festigungsmodus, Priorität c: Stichproben-Re-Verifikation) — Bauausführung + Widerrechtliche Bauten bestätigt, Register-Sweep-Rückstand aus Run 47 geschlossen
 
 Run 57 empfahl als nächsten Priorität-(c)-Kandidaten `bauausfuehrung-und-baukontrolle.md` /

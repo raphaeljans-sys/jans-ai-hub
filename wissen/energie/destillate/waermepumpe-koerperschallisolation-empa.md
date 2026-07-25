@@ -133,16 +133,31 @@ braucht es Gummifederelemente **mit zusätzlicher Masse** (nicht nur ein einfach
 1. **Zwei getrennte Probleme, zwei getrennte Nachweise:** Der Lärmschutznachweis nach LSV
    (Planungswert gegenüber dem Nachbarn) sagt **nichts** darüber aus, ob die Wärmepumpe im eigenen
    Schlafzimmer oder in der Nachbarwohnung im selben Haus als störendes Brummen/Dröhnen
-   wahrgenommen wird — das ist ein rein bautechnisches Körperschall-Thema und wird von keiner
-   Bewilligungsbehörde geprüft. Wer die Wärmepumpe im Keller unter dem eigenen Wohnzimmer oder bei
-   einer MFH/STWEG-Anlage in der Nähe fremder Schlafzimmer plant, muss die Körperschallentkopplung
-   **von sich aus** einfordern (Planungsleistung, kein Bewilligungspunkt).
-2. **Relevante Referenzgrösse: SIA 181 «Haustechnik-Geräusche» (bereits in
-   `[[sia-181-schallschutz-anforderungswerte]]` dokumentiert).** Der dortige Grenzwert für
-   Dauergeräusche im Schlafzimmer (28 dB(A) bei mittlerer Empfindlichkeit, 25 dB(A) erhöht) ist das
-   **Zielmass**, gegen das die hier beschriebenen Körperschall-Massnahmen (Feder-Masse-Lagerung,
-   Kompensatoren, Kapselung) im Innern des Gebäudes einzuhalten sind — die EMPA-Quelle liefert das
-   physikalische Handwerkszeug dazu, SIA 181 den geschuldeten Zielwert.
+   wahrgenommen wird — das ist ein bautechnisches Körperschall-Thema und **nicht Gegenstand des
+   LSV-Lärmschutznachweises im Baubewilligungsverfahren**. «Kein Bewilligungspunkt» heisst aber
+   nicht «rechtsfrei»: SIA 181 Ziff. 0.1.1 nennt den abgestrahlten Körperschall ausdrücklich im
+   Geltungsbereich, und Ziff. 0.1.7 unterstellt ihn bis zum Inkrafttreten der eidg. Verordnung über
+   den Schutz vor Erschütterungen **direkt dem USG** (ebenso Ziff. B.5 für die Messung) — das ist
+   gegenüber dem Bauherrn das stärkere Argument, die Entkopplung einzufordern. Wer die Wärmepumpe
+   im Keller unter dem eigenen Wohnzimmer oder bei einer MFH/STWEG-Anlage in der Nähe fremder
+   Schlafzimmer plant, muss die Körperschallentkopplung **von sich aus** einfordern
+   (Planungsleistung). [Fundstellen ziffern-genau: `wissen/normen/destillate/sia-181-2006.md:31`,
+   `:39-41`, `:386-388`.]
+2. **Relevante Referenzgrösse: SIA 181 «Haustechnik-Geräusche» — mit Fallunterscheidung.** Die
+   Norm trennt zwei Fälle, die nicht vermischt werden dürfen (SIA 181:2006 Ziff. 0.1.2: «Für den
+   Schallschutz innerhalb von Nutzungseinheiten werden nur Empfehlungen abgegeben»):
+   - **Zwischen Nutzungseinheiten** (Nachbarwohnung im selben Haus): Tabelle 6 / Ziff. 3.2.3.3,
+     Dauergeräusche mittlere Empfindlichkeit **28 dB(A)**, erhöhte Anforderung −3 dB, Kleinstwert
+     **25 dB(A)** (Ziff. 3.2.3.4) — verbindliche Anforderung. Bei neu begründetem STWEG gelten nach
+     Ziff. 2.2.2 verbindlich die **erhöhten** Anforderungen, dort also 25 statt 28 dB(A).
+   - **Innerhalb der eigenen Nutzungseinheit** (eigener Keller unter eigenem Schlafzimmer): SIA 181
+     gibt nur **Empfehlungen** (Anhang G, informativ) — 30 dB(A) Stufe 1 / 25 dB(A) Stufe 2; das ist
+     kein Grenzwert, sondern vertraglich zu vereinbaren.
+   Die EMPA-Quelle liefert das physikalische Handwerkszeug, SIA 181 den geschuldeten Zielwert.
+   **Querbezug KB `normen` (Norm-Fundstellen, Rule `normen-referenz`):** ziffern-genau in
+   `wissen/normen/destillate/sia-181-2006.md` (Ziff. 3.2.3.2-3.2.3.4 → :185-196; Ziff. 0.1.2 →
+   :34-35; Ziff. 2.2.2 STWEG → :58-60); KB-intern ergänzend
+   `[[sia-181-schallschutz-anforderungswerte]]` (Ausgabe 2020, Vollzugsebene).
 3. **Aufstellungsort schlägt Nachbesserung:** Wie beim Aussenlärm gilt auch hier «Quelle vor
    Massnahme» — die günstigste und billigste Lösung ist die **Wahl des Aufstellungsorts** (Fundament
    statt Geschossdecke, Abstand zu Schlafräumen), nicht die nachträgliche Sanierung einer falsch

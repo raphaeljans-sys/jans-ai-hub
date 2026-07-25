@@ -152,6 +152,26 @@
   vollständig, wenn er die Ordnerbäume rekursiv ab `02_Normen/` erfasst — nicht ab einem Unterordner.
   Report `outputs/2026-07-17_normen-nacht-run15.md`.
 
+## Bring-Schulden aus anderen KBs (nicht aus dem PL-02-Scan — von aussen gemeldet)
+
+Diese Normen stammen **nicht** aus dem SharePoint-Scan, sondern werden von einer anderen KB zitiert
+und haben hier null Präsenz. Sie gehören in die reguläre Rotation wie jede gescannte Datei: zuerst
+Bestand in `PL - 02_Recht_Norm/02_Normen/` prüfen, bei Fehlanzeige als Kaufentscheid/Bring-Schuld
+führen. Details und Fundstellen im abgebenden Artikel: `wiki/QUESTIONS.md`, Abschnitt «Bring-Schulden
+aus der KB `baurecht`».
+
+> **Warum hier und nicht nur in QUESTIONS.md** (Wissens-Chef Run 16, 26.07.2026): Lauf 15 hat die
+> vier Normen am 25.07. in `wiki/QUESTIONS.md` angemeldet; der danach gelaufene Run 28 hat sie
+> nachweislich nicht gesehen, weil der Nacht-Loop seine Arbeit aus **diesem Inventar** wählt, nicht
+> aus der Fragenliste. Ab jetzt gilt: eine von aussen gemeldete Norm wird in beiden Dateien geführt.
+
+| Status | Prio | Norm | Norm-Nr | Jahr | Bemerkung |
+|---|---|---|---|---|---|
+| [ ] | P2 | SIA 491 — Vermeidung unnötiger Lichtemissionen im Aussenraum | 491 | 2013 | Bring-Schuld KB `baurecht` (Fundstelle `baurecht/wiki/laermschutz-und-nichtionisierende-strahlung.md:165`), angemeldet Wissens-Chef Run 15. Bestand PL-02 prüfen, Ausgabe verifizieren, Destillat anlegen. |
+| [ ] | P2 | SN EN 12193 — Licht und Beleuchtung, Sportstättenbeleuchtung | EN 12193 | 2008 | Bring-Schuld KB `baurecht` (selbe Fundstelle). Bestand prüfen; **Nachfolgeausgabe abklären** (EN 12193 nach 2008 revidiert). |
+| [ ] | P2 | SN 640 052 (VSS) — Kehrplatz/Kehrmöglichkeit bei Stichstrassen | 640 052 | — | Bring-Schuld KB `baurecht` (`baurecht/wiki/baureife-und-erschliessung.md:76`). Gehört in den VSS-Erschliessungsblock, der in Run 11/12/13 dreimal korrigiert werden musste. |
+| [ ] | P2 | SN 641 400 (VSS) — Grundlage der ZH-Parkplatzberechnung | 641 400 | — | Bring-Schuld KB `baurecht` (`baurecht/wiki/fahrzeugabstellplaetze-und-parkierung.md:43`). Bezug zum bestehenden Parkierungs-Block (VSS 40 291 / 640 281). |
+
 ## SIA (391 Dateien — Grundmenge des Scans 11.07.2026; +58 im Nachtrag 260717, siehe unten)
 
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |

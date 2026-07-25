@@ -229,7 +229,9 @@ vollständig gelesen (technisch problemlos, keine Bild-Scans) — `[[denkmalschu
 bleibt established, um die ISOS-Kategorisierung (Erhaltungsziele A/B/C) und die PV-Bewilligungskette
 bei Erhaltungsziel A erweitert, FAQ F158. Zwei weitere Agenten erschlossen nach Redundanz-Check
 echte neue Themenfelder: **Körperschallisolation bei Wärmepumpen** im eigenen Gebäude (EMPA 2002,
-Feder-Masse-Systematik, Zielwert SIA 181 28 dB(A) Schlafzimmer) → neues Destillat
+Feder-Masse-Systematik, Zielwert SIA 181 — 28 dB(A) zwischen Nutzungseinheiten, innerhalb der
+eigenen Einheit nur Empfehlung Anhang G 30/25 dB(A); Fallunterscheidung präzisiert Wissens-Chef
+Run 16, 26.07.2026) → neues Destillat
 `[[waermepumpe-koerperschallisolation-empa]]`, ergänzt `[[waermepumpen-laermschutz]]`, FAQ F159;
 und der **Grossverbraucherartikel** (Energieanalyse-/Zielvereinbarungspflicht ab 5 GWh Wärme/
 0,5 GWh Strom, Art. 46 EnG + § 13a EnerG ZH + § 9 kEnG SZ), bisher nur als Randerwähnung in sechs

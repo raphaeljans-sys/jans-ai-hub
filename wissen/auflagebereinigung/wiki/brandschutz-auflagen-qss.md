@@ -40,6 +40,13 @@ Faktentiefe zu Klassen (EI/RF, Bfl-s1 etc.) liefert der Skill `brandschutz`.
 | Übereinstimmungserklärung Brandschutz (QS-unterzeichnet) | II.2 | FP | vor Inbetriebnahme |
 | Nachgeführte BS-/Feuerwehrpläne (1. OG) + nachgef. BSK | II.2 | FP | vor Inbetriebnahme |
 
+> **Beispielfall zur Auflage II.19 (Material-/Aufbau-Nachweis) — Cross-KB, gesetzt Wissens-Chef
+> Run 16, 26.07.2026:** Wie die inhaltliche Substanz eines solchen Detailplan-Nachweises belegt wird,
+> zeigt am selben Projekt 2619 die Lesson `wissen/projekt-lessons/wiki/kispi-lbw-rohdichte-800.md`
+> (Rohdichte 800 kg/m³ für LBW-Beplankungen; Beweiskette Bestands-LV → EN-520-Typ-D-Spezifikation →
+> QS-Korrektur Ziegel). **Rollentrennung:** Auflagen-Ziffer, Amt und Frist führt diese KB; die
+> Beweiskette der Material-Substanz führt `projekt-lessons`; Norm-/VKF-Kennwerte führt `normen`.
+
 ## Feuerpolizei vs. Gebäudeversicherung (GVZ)
 
 - **Feuerpolizei Stadt Zürich**: baulicher/organisatorischer Brandschutz, BSK, Pläne,

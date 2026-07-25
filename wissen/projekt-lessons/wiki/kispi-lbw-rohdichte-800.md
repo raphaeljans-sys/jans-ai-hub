@@ -3,7 +3,11 @@ title: "KISPI: Herkunft der Rohdichte-Vorgabe 800 kg/m³ für LBW-Beplankungen (
 status: established
 last_updated: 2026-07-23
 sources: [II.1b 01 Detailpläne BS Architektur.pdf (QS-Korrektur Ziegel 21.07.2026, S. 5), LV_BKP S 271.13 Spez. Gipserarbeiten EG-DG.pdf (DS3 File-25311424, 12.05.2020), r_180928_KISPI_Akutspital_Änderungseingabe_BS_Konzept (DS3 File-20117008), PDB Duraline Vario / Habito (DS3-Unternehmerdokumentation LOS 271.13), Rigips-Normbroschüre DIN EN 520]
-links: []
+links: [wissen/normen/wiki/en-520-gipsplattentypen.md, wissen/auflagebereinigung/wiki/brandschutz-auflagen-qss.md]
+gewerk: "BRA/ARC — Gipser-/Trockenbauarbeiten"
+bkp: "271.10 (Innenputze/Gipserarbeiten), 271.13 (Spez. Gipserarbeiten)"
+sia_phase: "5 Ausführung (SIA 112) — Ursprung der Vorgabe in Phase 3/4 des Erstellungsprojekts"
+betroffene_skills: [brandschutz, unternehmerkontrolle, ausschreibung]
 ---
 
 # KISPI: Woher die 800 kg/m³ für die äusserste LBW-Platte kommen — und warum sie korrekt sind
@@ -49,6 +53,15 @@ Erstellungs-LV) für die neuen LBW des Umbaus. Standard-GKB (Typ A, 776 kg/m³, 
 18151) genügt dafür nicht; Duraline Vario (VKF 22636, 1'003 kg/m³) erfüllt sie.
 Estermann kennt das System aus der Erstellung — die Duraline-Schiene ist der
 konsistente Weg.
+
+> **Cross-KB-Einordnung (gesetzt Wissens-Chef Run 16, 26.07.2026).** Die generischen Produkt- und
+> VKF-Kennwerte oben (Typ-A-GKB 776 kg/m³ / VKF 18151, Duraline Vario 1'003 kg/m³ / VKF 22636) sind
+> **abgeleitet** — führend dafür ist `wissen/normen/wiki/en-520-gipsplattentypen.md` (Rollen-Matrix:
+> Norm-Fundstellen und VKF-Kennwerte führt die KB `normen`). Wird dort korrigiert, ist diese Lesson
+> nachzuziehen. Genuin hier führend bleibt die **Beweiskette des Einzelfalls**: Bestands-LV → EN-520-
+> Typ-D-Spezifikation → QS-Korrektur Ziegel. Die zugehörige Auflagen-Pflicht (Ziffer, Amt, Frist)
+> führt `wissen/auflagebereinigung/wiki/brandschutz-auflagen-qss.md` — dort die Zeile «Detailpläne
+> brandschutzrel. Innenwände (Material/Aufbau), Auflage II.19».
 
 ## Verallgemeinerbare Lesson
 

@@ -75,15 +75,24 @@ Norm.
 ## Körperschall im eigenen Gebäude (Run 112, neu)
 Der Lärmschutznachweis nach LSV prüft ausschliesslich den **Aussenlärm gegenüber Nachbarn** — ob
 die Wärmepumpe im eigenen Keller als Brummen im darüberliegenden Schlafzimmer oder in der
-Nachbarwohnung desselben Hauses hörbar wird, ist ein separates, rein bautechnisches
-**Körperschall-Thema** und wird von keiner Behörde geprüft. Vier Massnahmen-Bausteine (EMPA,
+Nachbarwohnung desselben Hauses hörbar wird, ist ein separates, bautechnisches
+**Körperschall-Thema** und **nicht Gegenstand des LSV-Lärmschutznachweises im
+Baubewilligungsverfahren** — rechtsfrei ist es aber nicht: SIA 181 Ziff. 0.1.7 unterstellt den
+abgestrahlten Körperschall bis zum Inkrafttreten der eidg. Erschütterungsverordnung direkt dem
+**USG**. Vier Massnahmen-Bausteine (EMPA,
 lärmarme Konstruktion von WP-Anlagen): (1) **Kapselung** des Kompressors (`L_w2 = L_w1 − R +
 10·log(1/α)`), (2) Schalldämpfer in Luftkanälen, (3) **Körperschallisolation** via Feder-Masse-
 Schwinger — die Resonanzfrequenz f₀ der Lagerung muss deutlich unter der Erregerfrequenz des
 Kompressors liegen, sonst **verstärkt** eine falsch dimensionierte Federung das Problem statt es zu
 lösen, (4) entkoppelte Rohrleitungen (Kompensatoren, besonders kritisch bei Kältemittelleitungen).
-Massgebender Zielwert im eigenen Gebäude: **SIA 181 Haustechnik-Geräusche, 28 dB(A) im
-Schlafzimmer** — das muss der Bauherr/Planer selbst einfordern, insbesondere bei Sole/Wasser-
+Zielwert mit Fallunterscheidung (SIA 181:2006, Fundstellen in
+`wissen/normen/destillate/sia-181-2006.md`): **zwischen Nutzungseinheiten** (Nachbarwohnung im
+selben Haus) gilt Tabelle 6 / Ziff. 3.2.3.3 — Dauergeräusche **28 dB(A)** mittlere Empfindlichkeit,
+erhöhte Anforderung **25 dB(A)** (Ziff. 3.2.3.4; bei neu begründetem STWEG nach Ziff. 2.2.2
+verbindlich die erhöhten Anforderungen). **Innerhalb der eigenen Nutzungseinheit** (eigener Keller
+unter eigenem Schlafzimmer) macht SIA 181 nach Ziff. 0.1.2 nur **Empfehlungen** (Anhang G: 30 dB(A)
+Stufe 1 / 25 dB(A) Stufe 2) — dort ist der Wert vertraglich zu vereinbaren, nicht normativ
+geschuldet. Beides muss der Bauherr/Planer selbst einfordern, insbesondere bei Sole/Wasser-
 Wärmepumpen im MFH-/STWEG-Keller (Aufstellung auf der Fundamentplatte statt auf einer Geschossdecke).
 
 **Destillate:** `[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]` (Formel/Grenzwerte, FAQ F65)

@@ -24,6 +24,9 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | Referenz-Architekten/-Projekte + Raumtypologien/Parti (wer/was liegt in der Bibliothek) | **architekten-synobsis** | entwurfs-referenzen (verweist per Katalog/Slug) |
 | Entwurfs-Kennwerte je Bauaufgabe (HNF/GF, Programm, Entwurfsregeln, Parameter-Sets) | **entwurfs-referenzen** | architekten-synobsis (nennt die Abnehmer-KB) |
 | Healthcare-Kostenkennwerte CHF/m3 GV + CHF je Pflegeplatz (belegte Realwerte) | **immobilienbewertung** (`realwert-sachwert`) | entwurfs-referenzen, machbarkeit, healthcare-wirtschaftlichkeit — **grobkosten fuehrt Healthcare NICHT** (untersagt seine m3-Werte dafuer ausdruecklich) |
+| Kantonaler Energie-Erlassstand ZH (EnerG LS 730.1, BBV I §§ 47-48c) — Wortlaut, §§-Nummern, Fassungsstand/Nachtrag | **baurecht** (`raw/260712_amtlich_zh_energ.md`, `raw/260607_amtlich_zh_bbv1.md`) | energie + planungsgrundlagen (zitieren die raw-Dateien, schreiben den Wortlaut nicht fort) — NEU Run 16 |
+| Grossverbraucherartikel/Zielvereinbarung — Vollzugswege (UZV/KZV/EVA), Behoerdenpraxis AWEL/AfU, Schwellen-Transfer auf Bauaufgaben, SZ-Energierecht (kEnG/kEnV) | **energie** (`grossverbraucherartikel-zielvereinbarung-zh-sz`) | planungsgrundlagen (Formularseite EN-141/BO), baurecht (Erlasswortlaut) — NEU Run 16 |
+| Projekt-Lessons: Beweiskette eines konkreten Einzelfalls (Herkunft einer Vorgabe, Fallwerte aus Unternehmerdoku) | **projekt-lessons** | normen (generische Norm-/VKF-Kennwerte), auflagebereinigung (Auflagen-Ziffer/Amt/Frist), grobkosten/immobilienbewertung (Kennwerte) — **projekt-lessons fuehrt KEINE generischen Kennwerte oder Normfundstellen**, nur den belegten Fall — NEU Run 16 (Erst-Pruefung) |
 
 > **NEU Run 8 — zweites Struktur-Muster «Uebergabe verpufft im abgebenden KB»:** Ein Artikel erkennt
 > korrekt, dass eine andere KB nachziehen muss, notiert den Flag aber NUR bei sich. Zwei Fundorte
@@ -86,6 +89,15 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
   nennt SIA 181 dreimal materiell ohne Verweis auf das Destillat → Rule `normen-referenz` nachgezogen,
   inkl. Fassungsvorbehalt SIA 181:2020.
   **Status: 1 Bring-Schuld-Block (4 Normen) + 1 Hinlink; kein Sachwiderspruch.**
+- **STATUS-RUECKNAHME 26.07.2026 (Run 16):** «angemeldet» war nicht «angekommen». Der danach gelaufene
+  normen-Run 28 (25.07., 22:47) hat den Block **nicht aufgegriffen** und sein Thema ausdruecklich als
+  «kein Bring-Schulden-Fall» gewaehlt; `training/norm-inventar.md` hatte 0 Treffer fuer alle vier
+  Normbezeichnungen. Ursache: der Nacht-Loop waehlt seine Arbeit aus dem **Inventar**, nicht aus
+  `wiki/QUESTIONS.md`. → Die vier Normen sind am 26.07. zusaetzlich als eigene Inventar-Zeilen
+  eingetragen (neuer Abschnitt «Bring-Schulden aus anderen KBs», P2, mit Fundstelle und Auftrag);
+  in QUESTIONS.md steht der Nachtrag mit der Begruendung. **Verallgemeinerte Regel: eine Uebergabe an
+  eine KB gehoert in deren ARBEITSREGISTER, nicht nur in deren Fragenliste** — Fragenlisten werden
+  gelesen, Arbeitsregister werden abgearbeitet.
 
 
 ### energie ↔ planungsgrundlagen (EN-102-Ausgabe, Regenwasser/Versickerung, PV-Preise) — geprueft 2026-07-25 (Run 15)
@@ -161,6 +173,30 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
   ohne benannte Leitquelle → **neue Matrix-Zeile** gesetzt (immobilienbewertung fuehrend fuer CHF/m³ GV +
   CHF/Pflegeplatz; grobkosten fuehrt Healthcare **nicht**).
   **Status: 1 Sperrvermerk, 1 Matrix-Zeile; Wertsetzung offen (Raphael).**
+- **NACHTRAG 26.07.2026 (Run 16) — E-2 ist erledigt, aber anders als erwartet; der Restbefund war ein
+  anderer.** Am 25.07. um 21:53 (also 8½ h nach Run 15) hat die KB `entwurfs-referenzen` das
+  Parameter-Set komplett neu geschrieben (v1.0 → v2.0). Damit ist das beanstandete Band **ersatzlos
+  entfallen** — nicht heimlich, sondern begruendet dokumentiert (CHANGELOG + `wettbewerbs-dna/training/
+  ETAPPE-3.md`): Muster B6 belegt, dass **keiner** der 11 externen Healthcare-Juryberichte einen
+  projektspezifischen CHF/m²- oder CHF/m³-Kennwert nennt. v2.0 fuehrt fuer Healthcare gar keine eigenen
+  Kostenzahlen mehr, sondern nur noch den Verweis auf `realwert-sachwert.md` (826–1'420, Median ~1'100)
+  — wortgenau deckungsgleich mit der fuehrenden Quelle. **Der Sperrvermerk ist damit gegenstandslos;
+  die Wertsetzungs-Frage an Raphael entfaellt** (keinem Phantom-Entscheid nachlaufen). Anzumerken
+  bleibt: faktisch wurde damit Option (a) «Feld streichen» gezogen, die Run 15 als rueckfragepflichtig
+  markiert hatte — die Entscheidung fiel im KB-Loop, nicht beim Chef.
+  **Der Restbefund lag in der anderen Haelfte des Run-15-Befundes und war noch offen:** die
+  **Quellenzuweisung** wurde unveraendert nach v2.0 uebernommen (`quelle_kb: wissen/grobkosten/`) —
+  ein Werkzeug, das das Set konsumiert, waere also weiterhin auf die untersagte Quelle gelenkt worden.
+  Am 26.07.2026 korrigiert: `quelle_kb` → `immobilienbewertung/wiki/realwert-sachwert.md`, m²-NF →
+  Skill `kostenschaetzung`, grobkosten explizit als **nicht anwendbar** deklariert (neues Feld
+  `quelle_kb_nicht_anwendbar`), JSON weiterhin schema-valide. Zusaetzlich: Abnehmer-Block in
+  `realwert-sachwert.md` gesetzt (die fuehrende Quelle kannte ihre Abnehmer nicht) und der
+  Haupt-`INDEX.md` der KB von den entfallenen v1.0-Quellen (CURAVIVA/Wueest/2410+2619) befreit.
+  **Praezisierung fuer die Weitergabe:** das oft zitierte Teilband **1'053–1'420** gilt nur fuer die
+  sechs Neubauten ab 2019; das Gesamtband der acht Objekte ist **826–1'420**, der Median ~1'100 gehoert
+  zum Gesamtband. Fundstelle des grobkosten-Verbots korrigiert: `kennwerte.md`, Abschnitt «Healthcare /
+  Spezialnutzung» (frueher als `:66-68` zitiert — dort steht heute die MFH-/EFH-Tabelle).
+  **Status: erledigt; kein offener Entscheid mehr fuer Raphael.**
 
 ### architekten-synobsis ↔ entwurfs-referenzen — ERST-PRUEFUNG 2026-07-25 (Run 15, aus der Rotationsliste)
 - **Ausgangslage:** Die beiden KBs beruehrten sich **nie** (0 Grep-Treffer in beiden Richtungen), obwohl

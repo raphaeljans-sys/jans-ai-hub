@@ -1087,6 +1087,13 @@ Bestandsprüfung und ggf. Destillat fällig. Gegenprobe im Cross-Lauf: `wiki/QUE
 dieser KB enthielt bis heute **0 Treffer** fuer «baurecht» — es war noch nie eine Bring-Schuld
 aus der Recht-KB hier angekommen.
 
+> **Nachtrag Wissens-Chef Run 16 (26.07.2026):** Die Anmeldung allein hat nicht gewirkt — Run 28
+> (25.07., 22:47) hat den Block nicht aufgegriffen und sein Thema ausdrücklich als «kein
+> Bring-Schulden-Fall» gewählt. Grund: der Nacht-Loop wählt seine Arbeit aus
+> `training/norm-inventar.md`, nicht aus dieser Fragenliste. Die vier Normen sind deshalb am
+> 26.07.2026 zusätzlich als eigene Zeilen im Inventar eingetragen (neuer Abschnitt «Bring-Schulden
+> aus anderen KBs»). **Regel für künftige Übergaben an diese KB: immer in beiden Dateien führen.**
+
 - [ ] **SIA 491** (Vermeidung unnötiger Lichtemissionen im Aussenraum, in Kraft seit 1.3.2013) —
   zitiert in `baurecht/wiki/laermschutz-und-nichtionisierende-strahlung.md:165`. Bestand prüfen
   (SharePoint PL-02), Ausgabe verifizieren, Destillat anlegen.

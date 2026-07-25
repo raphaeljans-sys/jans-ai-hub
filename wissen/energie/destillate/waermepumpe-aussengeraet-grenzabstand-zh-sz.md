@@ -129,6 +129,9 @@ Datums (Revision 2025/2026) und wesentlich guenstiger fuer Kleingeraete wie WP-A
 «Besondere Gebaeude § 273/§ 49 Abs. 3 (≤4/5 m, 3,5 m)» - das entspricht der alten (Stand 2017),
 nicht der aktuellen Fassung; eine Aktualisierung dort waere sinnvoll, liegt aber ausserhalb des
 Scopes dieses Energie-Destillats.
+**Zugestellt am 26.07.2026** (Wissens-Chef Run 16): als offener Punkt in
+`wissen/baurecht/wiki/QUESTIONS.md`, Abschnitt «Cross-KB-Eingang aus der KB `energie`» eingetragen —
+die Meldung stand vorher nur hier und war in der Empfaenger-KB nie angekommen.
 
 ## Kanton Schwyz — PBG §§ 59-64 (wortlautgenau) und PBV § 33
 

@@ -306,6 +306,17 @@ Kennwerten nebeneinander — die belastbare Basis fuer den Healthcare-Neuwert (R
   St.-Anna-**Zentrum** (Ausreisser, hoher Gemein-/Therapieflaechenanteil). Das erweitert den
   frueheren Herosé-Vier-Heim-Vergleich (337'000-418'000) nach unten und oben.
 
+> **Abnehmer dieser Baender (Cross-KB, gesetzt Wissens-Chef Run 16, 26.07.2026).** Dieser Artikel ist
+> laut Rollen-Matrix (`wissen/koordination/QUERBEZUEGE.md`) die **fuehrende** Quelle fuer Healthcare-
+> Kennwerte CHF/m3 GV und CHF je Pflegeplatz. Es konsumieren ihn:
+> `wissen/entwurfs-referenzen/wiki/parameter-sets/healthcare-neubau-zh.json` (v2.0, Block
+> `kosten_referenz`), der Skill `healthcare-wirtschaftlichkeit` und der Skill `machbarkeit`.
+> **Wird ein Band hier geaendert, dort nachziehen.** Achtung beim Weiterreichen: das haeufig zitierte
+> Teilband **1'053-1'420** gilt nur fuer die sechs Neubauten ab 2019 — das Gesamtband der acht Objekte
+> ist **826-1'420**, und der Median ~1'100 gehoert zum Gesamtband.
+> Die KB `grobkosten` ist fuer Healthcare ausdruecklich **nicht** zustaendig (sie untersagt ihre
+> m3-Wohnbauwerte dafuer); fuer CHF/m2 NF fuehrt der Skill `kostenschaetzung` (Wueest Partner).
+
 ⚠ **Verifikationsnotiz (Run 18, 2026-07-12 — gegen das Original-Referenzblatt geprueft):** Die
 Tabelle oben ist eine **getreue Abschrift** des JANS-Blatts. Zwei Lesehinweise, weil einzelne
 Kennwerte nicht als BKP 2 ÷ Flaeche reproduzierbar sind:

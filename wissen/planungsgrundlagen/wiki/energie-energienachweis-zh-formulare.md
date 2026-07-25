@@ -97,8 +97,16 @@ gedeckt mit 22 × PREFA-Solardachplatte (146 W) = 3.2 kW.
 - **Eigenstrom** Neubau: min. 10 W/m² EBF (max 30 kW); hohe Bauten PV-Belegung max 70 % anrechenbare
   Gebaeudeflaeche; −20 %-Unterschreitung des Waermebedarfs → Verzicht auf Eigenstrom (→4b).
 - **Gebaeudeautomation EN-141**: Neubauten Gebaeudekat. III-XII ab **5000 m² EBF** (→13).
-- **Betriebsoptimierung (BO)**: Betriebe >**200'000 kWh Strom/Jahr** → BO innert 3 J nach
-  Fertigstellung, Doku 10 J aufbewahren (→14).
+- **Betriebsoptimierung (BO)**: BO innert **3 Jahren nach Inbetriebsetzung** (§ 13d Abs. 1 EnerG,
+  nicht ab Fertigstellung), Bericht 10 J aufbewahren (→14). Die Verordnung ist als **Befreiungs**-
+  norm konstruiert: befreit sind nach § 48c Abs. 1 BBV I Betriebsstaetten (a) mit weniger als
+  **200'000 kWh Elektrizitaet pro Jahr**, (b) mit einer **Grossverbraucher-Zielvereinbarung** nach
+  § 13a EnerG oder (c) mit einer **freiwilligen Zielvereinbarung (KMU-Modell)**. Gerade Spital/
+  Pflegeheim ueberschreitet die Stromschwelle regelmaessig, faellt aber ueber (b)/(c) haeufig doch
+  aus der Pflicht — beide Ausnahmen vor der Nachweisplanung pruefen. Vollzugswege und Schwellen:
+  `wissen/energie/destillate/grossverbraucherartikel-zielvereinbarung-zh-sz.md`; Erlasswortlaut
+  fuehrend in `wissen/baurecht/raw/260607_amtlich_zh_bbv1.md` (§ 48c) bzw.
+  `raw/260712_amtlich_zh_energ.md` (§ 13d). [Korrektur Wissens-Chef Run 16, 26.07.2026]
 - **Beleuchtung EN-111**: >1000 m² EBF, Nichtwohnen (→6).
 - **Kuehlraeume EN-112**: Abwaerme der Kaelteerzeugung bei den Heizungsanlagen (EN-103) angeben.
 

@@ -2107,6 +2107,17 @@ Ausgabe SIA 382/1:2025 ... Register-Stand 2014 überholt, Re-Destillat 2025 auss
 ist damit bereits im Zielsystem angekommen und wird ab hier aus der energie-Prioritätenliste
 gestrichen — kein weiterer Handlungsbedarf von dieser KB aus.
 
+> **Teil-Rücknahme der Schliessung (Wissens-Chef Run 16, 26.07.2026).** Die Verifikation lief gegen
+> das falsche Artefakt: Der ⚠-Vermerk stand nur in `normen/wiki/REGISTER.md:472`, das gemeldete
+> **Destillat** `normen/destillate/sia-382-1-2014.md` lief unverändert als `status: established` mit
+> `datenstand: "2014"` und ohne jeden Fassungshinweis (grep «2025» → 0 Treffer). Genau dieses
+> Destillat wird von der Rule `normen-referenz` gezogen, wenn in LV/Werkvertrag eine Fundstelle
+> gebraucht wird — die Gefahr, eine ersetzte Ausgabe als geltend zu zitieren, bestand also weiter.
+> Am 26.07.2026 im Destillat behoben (`ausgabe_ueberholt`-Feld + Status-Präzisierung). Offen bleibt
+> das Re-Destillat der Ausgabe SIA 382/1:2025 (Bring-Schuld der KB `normen`, PDF-Beschaffung).
+> **Lehre:** eine Übergabe gilt erst als angekommen, wenn sie im *genutzten* Artefakt steht, nicht
+> im Register darüber.
+
 **Nächster Lauf: Priorität**
 1. Die fünf gebündelten Kaufentscheide (B1-Konsolidierung, SWKI-VA105-01, SIA-385/1, SIA-385/2,
    SIA-384.354) wachsen seit Run 98 unverändert ohne Entscheidung — jetzt **zwölf Runs** in Folge.

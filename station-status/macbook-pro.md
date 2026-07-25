@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.07.2026 23:53:20
+Stand: 26.07.2026 00:13:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:52)
+- Developer/jans/ai/hub  (letzte Aktivitaet 00:10)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 25.07.2026 23:53:20
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 210ff992 nas-selfcommit: 6 Datei(en) 2026-07-25 23:45
+- 7020853f spec-training Run 36 (Verifikationslauf): P1 haelt, Scheduling-Diskrepanz spec-training 1x/2x-taeglich dritter Beleg
