@@ -1385,3 +1385,11 @@ Daraus belegt beantwortet:
 
 ## Beantwortet
 (weitere folgen)
+
+- **Widerspruch «Danke und Gruss»-Reichweite (Batch 60, 2026-07-25):** Die DNA/das Wiki
+  verorten die kombinierte Kurzform «Danke und Gruss» bisher im ultrakurzen Sub-Du. Batch 60
+  belegt sie zusätzlich (a) als menschliche Schlusszeile vor dem vollen «Freundliche Grüsse»-
+  Block in einer Sie-Behörden-Mail (SRZ Sörensen) und (b) als ganzen Schluss einer operativen
+  Du-Terminbitte (Gerry Scherbl). Hypothese: «Danke und Gruss» ist sein terser Dank-plus-Gruss-
+  Default bei JEDER kurzen operativen Bitte/Auskunft, registerübergreifend. Vom twin-chef bei
+  nächster Fidelity-Runde entscheiden lassen, ob die Sub-Du-Einschränkung in der DNA fällt.

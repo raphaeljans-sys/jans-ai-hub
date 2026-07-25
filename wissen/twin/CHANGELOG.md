@@ -217,6 +217,10 @@ Fidelity-Reports unter `outputs/`.
   #1–#5 angehaengt. Gehirn `rules/jans-dna.md` neu kompiliert (6 Facetten). Report:
   `outputs/2026-07-17_fidelity.md`.
 
+## 2026-07-25 — twin-mail-training Batch 60 (Sent Items rj@, 2026-07-02…07-07)
+
+Batch 60 destilliert (25 Mails gesichtet, 6 Volltexte + Previews, Logbuch-/Hub-Chef-Selbstmails + Unsubscribe als Rauschen gestreift). Facetten geschärft: [[beziehungsregister]] (register-gespaltene Offert-Eingangs-Quittung Du↔Sie nach Kontakt + «Geschätzter Gerry» Du-Fachplaner + «Geschätzter Herr Sörensen» warm-Behörden-Sie + Mappings Sörensen/Hiltmann/Manzoni/Scherbl/Duran/Kübler/Stählin/Rufer/Spörri), [[stimme]] («Danke und Gruss» breiter als Sub-Du — auch Behörden-Sie + operativ-Du; «Ziel:»-Opener; Versal-Slip-Bestätigung; Metrik 361 W / Du-Gross 1.0 / ø 13.9 W), [[arbeitsweise]] (Offert-Eingang an Bauherrschaft durchstellen «in Einpflege des KV's / melden uns nach Entscheid» + Sitzung-mit-Ziel delegieren + «Nach Rücksprache»-Kopplung), [[fachsignatur]] (Leistungspflicht-Nachforderung gegen Fachplaner über SIA-Phasen-Abgrenzung der Honorarofferte, Bauprojekt 32+33 vs Ausführung 41-53). Widerspruch «Danke und Gruss»-Reichweite in [[QUESTIONS]] vermerkt. Echo-Schutz: eine glatte «Ich erlaube mir …»-Festhalte-Mail (Fliesstext möglicherweise assistiert) nur über Signaturphrase + Argument-Typ genutzt, handgetippte «Frage:»-Quelle bevorzugt. Abgedeckter Bereich bis 2026-07-07 07:23 (_INGESTED-Zeile Batch 60).
+
 ## 2026-07-17 — twin-mail-training Batch 55 (Sent Items rj@, 2026-06-17 13:10 – 2026-06-19 13:58)
 
 Sequentieller Sweep lückenlos fortgesetzt (erster Treffer = Batch-54-Endpunkt, gegengeprüft);

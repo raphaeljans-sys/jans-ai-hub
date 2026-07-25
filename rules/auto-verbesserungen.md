@@ -9,6 +9,19 @@ und Historie) liegen in `rules/auto-verbesserungen-archiv.md` (nicht importiert)
 steht nur der aktive, imperative Kern. Konsolidiert am 19.07.2026 (Kontext-Diaet,
 Konzept: `docs/konzepte/260719-Kontext-Diaet-Token-Reduktion/`).
 
+## 260725 — Headless NAS-Mount: via osascript «mount volume» (Tailscale) remounten, nicht `open smb://`
+- **Regel:** Faellt der `/Volumes/daten`-SMB-Mount waehrend eines headless/Scheduled-Task-Laufs
+  auf der mobilen Station (MacBook Pro) ab, NICHT mit `open smb://…` remounten (erzeugt ohne
+  interaktive Finder-/loginwindow-Sitzung keinen dauerhaften Mount) und NICHT ueber die Office-LAN-IP
+  192.168.1.10 (mobil oft nicht erreichbar). Stattdessen den scriptbaren Keychain-Weg nutzen:
+  `osascript -e 'mount volume "smb://diskstation918.tail8265aa.ts.net/daten"'` (Tailscale-Hostname,
+  von ueberall erreichbar). Zusaetzlich: Schreib-/Buchungslogik idempotent bauen und moeglichst in
+  EINEM Bash-Prozess direkt nach dem Remount ausfuehren, da der Mount erneut abfallen kann und die
+  Writes des ersten flackernden Fensters verloren gehen koennen (belegt twin-mail-training Batch 60,
+  25.07.2026: erste Facetten-Appends nicht persistiert, idempotenter Re-Apply fing es auf).
+- **Gilt fuer:** alle headless/Scheduled-Task-Laeufe auf der mobilen Station, die aufs NAS schreiben
+  (twin-mail-training, Lern-/Trainings-Loops).
+
 ## 260724 — Geteiltes NAS-Repo: bei paralleler Instanz IMMER pathspec-begrenzt committen
 - **Regel:** Committet ein Loop/Session ins NAS-Repo, waehrend eine zweite Instanz (anderer
   Loop ODER nas-selfcommit) parallel schreibt, IMMER `git commit -- <meine Dateien>` mit
