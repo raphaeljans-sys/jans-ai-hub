@@ -20,6 +20,10 @@ Quellen (Kennwert-Extrakte, Buch-Destillate) reserviert.
   Haupt-`wiki/INDEX.md` behaupteten bis dahin noch wörtlich einen ausstehenden
   Roh-Seed-Import — Widerspruch zu diesem Beschluss. Alle fünf Dateien auf den
   Abfrage-Workflow-Wortlaut umgestellt.
+- **Nachgezogen 25.07.2026 (Nachtschicht Mac Mini, Health-Check):** `raw/_INGESTED.md`
+  war die letzte verbliebene Datei mit der veralteten Formulierung (von den Checks am
+  20./23./24.07. übersehen) — jetzt ebenfalls auf den Abfrage-Workflow-Wortlaut umgestellt.
+  Damit sollte kein widersprechendes Vorkommen mehr in der KB stehen.
 
 ## Promotion-Kandidat — ERLEDIGT (kompiliert 24.07.2026, Nachtschicht Mac Mini)
 - [x] **typologien/bildung.md**: aus dem refuter-verifizierten

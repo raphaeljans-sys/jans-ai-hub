@@ -1,5 +1,18 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-07-25 (Nachtschicht-Zyklus Mac Mini ~06:30 — Health-Check + zwei Fixes)
+- [health-check] Wissens-Health-Check Phase 1: A1→behoben · B0 · C0 · D0 · E0 · F1→behoben
+  · G0. Report: `outputs/2026-07-25_health-check.md`.
+- [fix] `wiki/typologien/bildung.md`: durchgehender ae/oe/ue-Ersatzschreibungs-Bug (104
+  Woerter, u.a. Gebaeude/Groessenordnung/fuer/Schueler/Hoehe/Ortsnamen Schoental-Schoenau-
+  Stoeckacker-Faellanden) auf echte Umlaute korrigiert — derselbe bekannte Bug wie bei
+  `spec`/`immobilienbewertung`/`planungsgrundlagen`, hier aber klein genug (1 Artikel) fuer
+  eine direkte, wortweise Korrektur statt nur Flaggen. `last_updated` auf 2026-07-25 gesetzt.
+- [fix] `raw/_INGESTED.md`: veraltete Formulierung *"Seed-Import steht aus"* nachgezogen
+  auf den seit 20./23.07. ueberall sonst geltenden Abfrage-Workflow-Wortlaut — war die
+  einzige verbliebene Datei mit dem alten Stand, von drei vorherigen Checks uebersehen.
+- Keine neue Recherche, keine neuen Kennzahlen — reine Korrektur/Konsistenz.
+
 ## 2026-07-24 (Nachtschicht-Zyklus Mac Mini ~04:30 — erster Wiki-Artikel kompiliert)
 - [wiki] **`wiki/typologien/bildung.md` neu** — erster echter Wiki-Artikel dieser KB
   (bisher reine Parameter-Set-Sammlung). Kompiliert den seit 21./23.07. offenen
