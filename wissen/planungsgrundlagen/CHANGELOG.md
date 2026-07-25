@@ -2,6 +2,17 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 — Training Run 72 (Recht/Norm + Brandschutz, Token-Vollgas): Frischecheck 0 neue Dateien seit Run 70 (zweite Bestaetigung dieses Domaenenpaars)
+Rotation auf Recht/Norm (PL-02) + Brandschutz (PL-03) nach Run 71. Datei-Frischecheck
+(`find -newer` gegen den Run-70-Report-Zeitstempel) fuer beide SharePoint-Ordner: **0 neue oder
+veraenderte Dateien** seit Run 70. Register-Konsistenzpflege: Run 70 hatte seinen eigenen
+Frischecheck (0 Treffer gegen Run 68) nie in `curriculum.md` registriert — retroaktiv als
+R73-Freshness/B48-Freshness nachgetragen. D9 und M4 bleiben unveraendert offen, beide
+domaenenfremd. Bewusst keine kuenstlichen Zusatzfragen erzeugt. Empfehlung aus Run 69/70/71
+(Umstellung auf ereignisgetriebenen Modus) zum vierten Mal protokolliert, nicht eigenmaechtig
+umgesetzt (Rule auto-verbesserungen 260714/260725).
+→ `outputs/2026-07-25_training-run72.md`
+
 ## 2026-07-25 — Training Run 71 (Kartenportale + Energie, Token-Vollgas): Frischecheck 0 neue Dateien seit Run 69 (dritte Bestaetigung)
 Rotation zurueck auf Kartenportale (PL-01) + Energie (PL-04) nach Run 70. Datei-Frischecheck
 (`find -newer` gegen den Run-69-Report-Zeitstempel) fuer beide SharePoint-Ordner: **0 neue oder
