@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.07.2026 22:22:10
+Stand: 25.07.2026 22:52:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:03)
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:52)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 25.07.2026 22:22:10
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 16d02d70 nas-selfcommit: 5 Datei(en) 2026-07-25 22:15
+- 30a3d40d grobkosten-training Run 3: SharePoint AR-07 Archiv geprueft, zwei Faelle mit GV+BKP aber intern widerspruechlich, nicht verwertbar

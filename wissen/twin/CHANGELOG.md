@@ -4,6 +4,17 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-25n — Wissens-Health-Check (Phase 1, Skill `wissenscheck`, Mac Mini Nachtschicht).**
+  Zweiter Check nach 260722. A1 (Gate-260724-Spannung weiterhin offen, kein neuer Widerspruch) ·
+  B3 (Selbstlink `arbeitsweise.md`, raw-Backlink `[[260607-kispi-korpus]]` in QUESTIONS.md, beide
+  unveraendert seit 260722; INDEX.md zeigt weiterhin `emerging` statt `established`) · C0 · D1
+  schwerwiegend (RAW-Coverage von 43 % auf 37 % verschlechtert: nur noch 26 von 71 registrierten
+  Quelldateien physisch in `raw/`, Root Cause seit 260722 nicht angegangen) · E0 · F2 (ae/oe/ue-
+  Substitution statt Umlaute in Claudes Eigenprosa ueber alle sechs Artikel, weiterhin unbehoben;
+  1 neuer ß-Verstoss in beziehungsregister.md Zeile 1314) · G2 (INDEX-Status-Hebung faellig;
+  QUESTIONS Runde 260610 #4/#5 laut CHANGELOG 260719 beantwortet, im Dokument aber nicht markiert).
+  Alle vier materiellen 260722-Funde bestehen unveraendert fort. Nur Audit, keine Aktionen
+  (Phase 2 nicht ausgefuehrt, unbeaufsichtigter Lauf). Report: `outputs/2026-07-25_health-check.md`.
 - **2026-07-25l — twin-fidelity-review (Selbsttest 2026-07-25g, M365-MCP-Tool direkt).** Drei
   Sent-Items-Golds April 2026 gezogen (Schoch/Fachstelle Lärmschutz Sie-Erstkontakt, Firma Jegen
   Telefonat-Nachgang, Kübler/Albin gestapelte Sie/Du-Anrede) — alle drei bereits verbatim im

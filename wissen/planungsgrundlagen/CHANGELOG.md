@@ -2,6 +2,13 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 — Run 86: Frischecheck Recht/Norm+Brandschutz, zwoelfter Nullbefund
+Frischecheck `PL - 02_Recht_Norm` + `PL - 03 Brandschutz` gegen Run 84 (`find -newer`): 0 neue/
+veraenderte Dateien. Zwoelfte unabhaengige Erschoepfungs-Bestaetigung fuer dieses Domaenenpaar,
+zwanzigste in Folge ueber alle vier Domaenen (Run 67-86). Keine kuenstlichen Zusatzfragen
+erzeugt. Empfehlung an Raphael (Umstellung auf reinen Frischecheck-Takt) sechzehnte Wiederholung,
+unveraendert nicht eigenmaechtig umgesetzt. → `outputs/2026-07-25_training-run86.md`.
+
 ## 2026-07-25 — Run 85: Frischecheck Kartenportale+Energie, dreizehnter Nullbefund
 Frischecheck `PL - 01 Kartenportale` + `PL - 04 Energie` gegen Run 83 (`find -newer`): 0 neue/
 veraenderte Dateien. Dreizehnte unabhaengige Erschoepfungs-Bestaetigung fuer dieses Domaenenpaar,
