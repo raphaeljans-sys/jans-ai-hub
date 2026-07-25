@@ -1180,3 +1180,34 @@ Verfahrensstand unverändert. FAQ-Stand jetzt **F1–F105**. Details: `outputs/2
   isolierter Massivbau-CHF/m²-Primärwert (Schätzerhandbuch-Original oder Büro-CRB-OAK-Zugang),
   WDVS-Brandriegel-Kostenaufwand CHF/lfm, BSV-2026-Totalrevision-Inkraftsetzungsdatum, SIA-385/2-
   Vollversion-Kaufentscheid bei Raphael.
+
+- **D68 (Run 98, 2026-07-25)** — PDF-Inventar weiterhin erschöpft. Drei parallele general-purpose-
+  Agenten arbeiten die Run-97-Prioritätenliste ab (energie-berater-Subtyp bewusst gemieden, nach
+  der Run-97-Lehre zu Hintergrund-Stalls; alle drei Agenten diesmal mit 18-29 echten Tool-Aufrufen
+  verifiziert). **WDVS-Brandriegel Kosten + BSV-2026:** CHF/lfm-Mehrkosten bleiben bestätigter
+  Negativbefund (Gebäudehülle Schweiz/FFF/Sto AG ohne öffentliche Kennzahl; einzige Grössenordnung
+  eine deutsche Quelle, bewusst nicht als Schweizer Wert übernommen); BSV-2026-Totalrevision jetzt
+  mit konkretem Zieldatum **Frühling 2027** (IOTH-Plenarversammlung März 2027), inhaltlicher Bezug
+  zur Brandriegel-Pflicht weiterhin offen → `[[wdvs-brandriegel-fassadendaemmung-vkf]]` bleibt
+  established, FAQ F135 geschärft. **Massivbau-CHF/m²: zweiter bestätigter Negativbefund:** vier
+  weitere Quellen (Wüest Partner Holzbaukennzahlen, Amt für Hochbauten Stadt Zürich, CRB/
+  werk-material.online, Statistisches Amt Kt. ZH) liefern keinen isolierten, datierten Primärwert —
+  Wüest-Partner-Studien nur Gesamtgebäude-Kennwerte, Stadt-Zürich-Dokument anonymisiertes
+  Ausfüll-Muster ohne Datum → `[[massivbau-bauteildatenblatt-ksv-swisspor]]` bleibt bei
+  CHF/m² emerging (AKTIVA-AG-Näherung unverändert einzige Hausnummer), FAQ F134 geschärft.
+  **Neues Thema freie Wahl: SWKI-Lüftungsnormen Gesundheitsbau** (schliesst die in
+  `[[sia-2024-nutzungsdaten-gesundheitsbau]]`/F78 explizit offen gelassene Lüftungslücke OP/CT/MRT):
+  SWKI VA105-01:2015 (Nachfolgerin SWKI 99-3:2003) als Leseprobe primärquellig gelesen — eigene
+  Lüftungskonzepte 1a/1b (TAV vs. Mischlüftung) für OP-Saal/Isolierzimmer/IPS, Kühllast bis
+  200 W/m² im OP laut Vorwort, Wärmerückgewinnung in eigenem Anhang B3 differenziert statt
+  Standardkomponente, TAV-Infektionsschutz-Vorteil physikalisch plausibel aber statistisch
+  unbelegt (Richtlinie selbst); konkrete Zahlentabellen kostenpflichtig, deutsche DIN-1946-4-Werte
+  nur als ausdrücklich markierte Analogie beigezogen → `[[swki-lueftung-gesundheitsbau-hygiene-
+  energie]]` (neu, emerging), FAQ **F136** neu. FAQ-Stand: **136 Kernfragen (F1-F136) belegt.**
+  B1-Konsolidierung und SIA-2024-Zwilling weiterhin bewusst nicht angegangen (destruktiv,
+  Rückfrage nötig). Neu offen: SWKI-VA105-01-Vollversion (Kaufentscheid bei Raphael) für die
+  konkreten Luftwechsel-/Filterklassen-/Druckwerte, Verzahnung SWKI VA105-01 ↔ SIA-2024-Kategorien
+  VIII.1/VIII.2 ungeklärt, WDVS-Brandriegel-Kosten weiterhin nur über reale Unternehmerofferte
+  klärbar, isolierter Massivbau-CHF/m²-Primärwert nach zwei Negativbefunden nur noch über
+  lizenzierten CRB-/Schätzerhandbuch-Zugang erreichbar (Meta-Entscheid: weitere Suchversuche ohne
+  neuen Ansatz sind Token-Verschwendung, Thema auf passive Beobachtung umstellen wie E84).

@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.07.2026 18:08:58
+Stand: 25.07.2026 18:29:16
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:52)
+- Developer/jans/ai/hub  (letzte Aktivitaet 18:28)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 25.07.2026 18:08:58
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 73471540 nas-selfcommit: 2 Datei(en) 2026-07-25 18:00
+- 3b61963f twin-mail-training Batch 66 (2026-07-23 21:42 bis 07-24 15:30): Mehrfachversand bei Zustaendigkeits-Unsicherheit, Anrede-Kleinschreibung, Sanitaer-Kollisionsfrage inline

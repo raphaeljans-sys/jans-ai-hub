@@ -2,6 +2,41 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 98: WDVS-Brandriegel Kosten-Negativbefund + BSV-2026 Zieldatum Frühling 2027 + Massivbau-CHF/m² zweiter Negativbefund + SWKI-Lüftung Gesundheitsbau neu
+- **WDVS-Brandriegel — Kosten weiterhin Negativbefund, BSV-2026 mit Zieldatum:** systematische
+  Suche bei Gebäudehülle Schweiz, FFF (Fenster- und Fassadenbauverband) und Sto AG Schweiz findet
+  keine öffentliche CHF/lfm- oder CHF/m²-Kennzahl für den Brandriegel-Mehraufwand (einzige
+  gefundene Grössenordnung stammt aus einer deutschen Quelle, bewusst nicht als Schweizer Wert
+  übernommen). Die BSV-2026-Totalrevision ist neu mit einem konkreten Zieldatum belegt:
+  voraussichtlich **Frühling 2027** (Antrag an die IOTH-Plenarversammlung im März 2027), der
+  materielle Inhalt zur Brandriegel-Pflicht bleibt unveröffentlicht →
+  `[[wdvs-brandriegel-fassadendaemmung-vkf]]` bleibt established, FAQ **F135** geschärft.
+- **Massivbau-CHF/m² — zweiter bestätigter Negativbefund:** vier weitere Quellen (Wüest Partner
+  Holzbaukennzahlen Büro/Wohnbauten, Amt für Hochbauten Stadt Zürich, CRB/werk-material.online,
+  Statistisches Amt Kt. ZH) liefern keinen isolierten, datierten Primärwert, der die
+  AKTIVA-AG-Näherung (CHF 280.-/m²) ablösen oder bestätigen könnte →
+  `[[massivbau-bauteildatenblatt-ksv-swisspor]]` bleibt beim CHF/m²-Teil emerging, FAQ **F134**
+  geschärft. Meta-Entscheid: Thema nach zwei Negativbefunden in Folge auf passive Beobachtung
+  umgestellt (Analogie zu E84 ZH-Solarpflicht) — weitere Suchversuche ohne neuen methodischen
+  Ansatz (echter CRB-/Schätzerhandbuch-Zugang, reale Unternehmerofferte) wären Token-Verschwendung.
+- **Neues Thema: SWKI-Lüftungsnormen Gesundheitsbau (schliesst eine SIA-2024-Lücke):** SWKI
+  VA105-01:2015 «Raumlufttechnische Anlagen in medizinisch genutzten Räumen» (Nachfolgerin SWKI
+  99-3:2003) als Leseprobe primärquellig gelesen — eigene Lüftungskonzepte 1a/1b (TAV vs.
+  Mischlüftung) für OP-Saal/Isolierzimmer/IPS, Kühllast bis 200 W/m² im OP laut Vorwort,
+  Wärmerückgewinnung in eigenem Anhang B3 differenziert statt Standardkomponente,
+  TAV-Infektionsschutz-Vorteil physikalisch plausibel aber statistisch unbelegt (Richtlinie
+  selbst); ergänzt die in `[[sia-2024-nutzungsdaten-gesundheitsbau]]` (F78) explizit offen
+  gelassene Lüftungslücke OP/CT/MRT → `[[swki-lueftung-gesundheitsbau-hygiene-energie]]` (neu,
+  emerging), FAQ **F136** neu.
+- **Prozess-Lehre aus Run 97 erfolgreich umgesetzt:** alle drei Rechercheagenten dieses Laufs
+  liefen von Anfang an als `general-purpose`-Subagenten (energie-berater-Subtyp bewusst gemieden)
+  und wurden vor der Register-Konsolidierung per `git status`/`git diff` auf echte
+  Dateiänderungen verifiziert (18-29 Tool-Aufrufe je Agent, keine Leerläufe).
+- FAQ-Stand: **F1–F136** (F136 neu, F134/F135 geschärft). Register nachgeführt:
+  `destillate/INDEX.md` (drei Zeilen neu/ergänzt), `wiki/INDEX.md` (zwei Zeilen geschärft, eine
+  neu, FAQ-Zählerzeile auf F136 aktualisiert), `wiki/QUESTIONS.md` (Run 98), `training/
+  curriculum.md` (D68).
+
 ## 2026-07-25 — Run 97: Grüne Hypotheken lückenlos primärquellenbelegt + Massivbau-CHF/m²-Näherung + Duschwasser SIA-385/2 verifiziert + WDVS-Brandriegel neu
 - **Grüne Hypotheken — Marktbreite lückenlos primärquellenbelegt:** Urner Kantonalbank
   (Minergiehypothek 0,5 % + Energie-Sanierungshypothek 0,5 %), Thurgauer Kantonalbank

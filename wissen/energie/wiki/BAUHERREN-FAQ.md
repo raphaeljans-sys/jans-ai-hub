@@ -4669,9 +4669,17 @@ und Wüest-Partner-Daten **CHF 280.–/m²** für eine Kompaktfassade (BKP 22) �
 Einzelquellen und ohne Ausgabejahr, deshalb als Näherung und nicht als verifizierter Einzelbeleg
 zu verwenden. Für ein verbindliches Angebot empfiehlt sich der Beizug des kostenpflichtigen
 CRB-Bauteilkatalogs (bauteilkatalog.ch, PRO-Zugang) oder eine reale Unternehmerofferte.
-→ `[[massivbau-bauteildatenblatt-ksv-swisspor]]`. Datenstand 25.07.2026 (Run 97). Status
+Eine gezielte Nachrecherche (Run 98) bei Wüest Partner (Holzbaukennzahlen Büro/Wohnbauten),
+Amt für Hochbauten Stadt Zürich, CRB/werk-material.online und dem Statistischen Amt Kt. ZH hat
+diesen Näherungswert nicht ablösen oder unabhängig bestätigen können — die Wüest-Partner-Studien
+weisen nur Gesamtgebäude-Kennwerte aus, das Stadt-Zürich-Dokument ist ein anonymisiertes
+Ausfüll-Muster ohne Datum. Der AKTIVA-AG-Wert bleibt damit für eine frühe Grobeinordnung die
+belastbarste verfügbare Hausnummer, darf aber nicht ungeprüft in eine verbindliche
+Kostenschätzung oder ein Angebot übernommen werden.
+→ `[[massivbau-bauteildatenblatt-ksv-swisspor]]`. Datenstand 25.07.2026 (Run 98). Status
 **emerging** (Schichtaufbau/U-Wert established aus zwei Herstellerprimärquellen; CHF/m²-Kennwert
-nur über eine Beratungsfirma mit vermischten Sekundärquellen, kein isolierter Primärbeleg).
+nur über eine Beratungsfirma mit vermischten Sekundärquellen, kein isolierter Primärbeleg — zwei
+unabhängige Recherchen in Folge ohne Ablösung).
 
 ### F135 — Braucht meine Fassadendämmung (EPS/WDVS) einen Brandriegel?
 
@@ -4689,6 +4697,43 @@ frühe, verbindliche Abklärung der Gesamthöhen-Messweise mit dem Bauamt lohnt 
 Fassade im Detail geplant wird. Bei Beherbergungsbetrieben (Alters-/Pflegeheime mit ≥ 20
 hilfsbedürftigen Personen) gelten zusätzlich strengere, im Einzelfall von der Brandschutzbehörde
 festgelegte Anforderungen.
-→ `[[wdvs-brandriegel-fassadendaemmung-vkf]]`. Datenstand 25.07.2026 (Run 97). Status
+Was der Brandriegel zusätzlich kostet, lässt sich derzeit nicht mit einer belastbaren
+Schweizer Zahl beantworten. Eine systematische Recherche (Run 98) bei Gebäudehülle Schweiz, dem
+Fenster- und Fassadenbauverband FFF sowie bei Sto AG Schweiz ergab keine öffentlich zugängliche
+CHF/lfm- oder CHF/m²-Kennzahl; die einzig auffindbare Grössenordnung stammt aus einer deutschen
+Quelle (rund 20–30 Euro pro Laufmeter Material zuzüglich rund 10–15 Euro Verarbeitung bzw.
+5–10 % Mehrkosten des gesamten Wärmedämmverbundsystems) und wird hier bewusst nicht als
+Schweizer Kennwert übernommen — für eine verbindliche Zahl empfiehlt sich eine Offerte bei einer
+Schweizer Fassadenbaufirma, sobald die Fassadenkonstruktion feststeht. Zur angekündigten
+Totalrevision der Brandschutzvorschriften (BSV 2026): sie tritt entgegen dem Namen
+voraussichtlich erst im **Frühling 2027** in Kraft (Antrag an die IOTH-Plenarversammlung im
+März 2027), der Inhalt zur Brandriegel-Pflicht bei brennbarer Fassadendämmung ist noch nicht
+veröffentlicht — bis dahin gilt die oben beschriebene Regelung unverändert.
+→ `[[wdvs-brandriegel-fassadendaemmung-vkf]]`. Datenstand 25.07.2026 (Run 98). Status
 **established** (TKB-VKF-geprüftes Fachdokument, stützt sich direkt auf die rechtsverbindliche
-VKF-Brandschutzrichtlinie 14-15; der Übergang zur BSV-2026-Totalrevision ist noch offen).
+VKF-Brandschutzrichtlinie 14-15; BSV-2026-Totalrevision jetzt mit Zieldatum Frühling 2027,
+Inhalt weiterhin offen; CHF-Mehrkosten bestätigter Negativbefund für Schweizer Primärquellen).
+
+### F136 — Gilt für die Lüftung von OP-Sälen und Isolierzimmern im Spital dieselbe Energienachweis-Logik wie für den Rest des Gebäudes?
+
+Nein. Massgebend ist für diese Räume nicht SIA 380/1 allein, sondern die spitalspezifische
+Richtlinie **SWKI VA105-01:2015** «Raumlufttechnische Anlagen in medizinisch genutzten Räumen»
+(Nachfolgerin von SWKI 99-3:2003), die für OP-Säle, Isolierzimmer und Intensivstationen eigene,
+hygienisch begründete Lüftungskonzepte verlangt (u.a. «Lüftungskonzept 1a/1b» für turbulenzarme
+Verdrängungsströmung TAV vs. Mischlüftung). Die Richtlinie hält im Vorwort selbst fest, dass
+moderne Operationen Wärmelasten bis 8'000 W bzw. rund 200 W/m² Kühlleistung erzeugen, die ohne
+Komforteinbusse abgeführt werden müssen, und dass der Infektionsschutz-Vorteil von TAV gegenüber
+Mischlüftung physikalisch plausibel, aber statistisch nicht ausreichend belegt ist.
+Wärmerückgewinnung wird im Gesundheitsbau nicht pauschal erlaubt, sondern in einem eigenen
+Anhang-Abschnitt (B3) differenziert behandelt, weil Zu-/Abluft aus hochhygienischen Zonen (OP,
+Isolierzimmer) laut dem allgemeinen VDI-6022-/SWKI-VA104-01-Prinzip nicht unbeschränkt in
+Wärmerückgewinnungssysteme mit Kontaminationsrisiko geführt werden darf. Für die Bauherrschaft
+heisst das konkret: die Kühllast/Aussenluftmenge des OP-Traktes ist ein eigener, früh zu
+beziffernder Kostentreiber, die WRG-Nutzungsgrad-Pauschale des SIA-380/1-Nachweises darf nicht
+unbesehen auf hochhygienische Raumzonen übertragen werden, und der TAV-vs-Mischlüftungs-Entscheid
+ist gemäss Richtlinie selbst eine projektbezogene Wirtschaftlichkeitsfrage, kein Automatismus.
+→ `[[swki-lueftung-gesundheitsbau-hygiene-energie]]`, `[[sia-2024-nutzungsdaten-gesundheitsbau]]`.
+Datenstand 25.07.2026 (Run 98). Status **emerging** (SWKI-VA105-01-Leseprobe mit Vorwort/
+Geltungsbereich primärquellenbelegt; die konkreten Zahlentabellen für Luftwechsel/Filterklassen/
+Druckwerte sind kostenpflichtig und in dieser Session nicht verifizierbar — zitierte deutsche
+DIN-1946-4-Werte sind ausdrücklich nur als Analogie markiert, nicht als Schweizer Norm-Zitat).

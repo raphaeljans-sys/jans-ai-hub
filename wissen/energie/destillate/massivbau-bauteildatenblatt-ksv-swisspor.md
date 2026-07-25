@@ -21,7 +21,11 @@ status: established (zwei unabhängige Herstellerquellen mit vollständigem Schi
   in der established-Aussage enthalten). Der CHF/m2-Kennwert selbst bleibt Status **emerging**
   (Run 97, 25.07.2026: ein Wert mit teilweiser Quellenangabe gefunden, siehe Abschnitt
   "CHF/m2-Kennwert" unten — kein Ausgabejahr, kein isolierbarer Einzelbeleg, daher nicht
-  established).
+  established). Run 98 (25.07.2026, gezielte Nachrecherche nach einem isolierten Primärwert bei
+  Wüest Partner, Amt für Hochbauten Stadt Zürich, CRB/werk-material.online, SIA, Statistisches Amt
+  Kt. ZH, BSA/bbase.ch): **bestätigter zweiter Negativbefund** — kein isolierter, datierter
+  Primärbeleg gefunden, der den AKTIVA-AG-Wert ablösen oder unabhängig bestätigen würde. Details
+  siehe Abschnitt "CHF/m2-Kennwert" unten, Unterabschnitt Run 98.
 last_updated: 2026-07-25
 ---
 
@@ -137,7 +141,62 @@ Daten oder aus AKTIVAs eigenen Projekterhebungen stammt, sowie Ausgabejahr/Editi
 **Status emerging** (glaubwürdig, aber nicht unabhängig verifiziert) — noch nicht auf
 established heben.
 
-**Geprüfte und ausgeschöpfte Sackgassen (damit Run 98 sie nicht wiederholt):**
+### Run 98 (25.07.2026) — gezielte Nachrecherche nach einem isolierten Primärwert, bestätigter zweiter Negativbefund
+
+Ziel war ein CHF/m²-Wert für die Massivbau-Kompaktfassade (BKP 22), der **eindeutig einer
+einzigen, benennbaren, datierten Quelle** zuordenbar ist — abseits des AKTIVA-AG-Blends. Vier
+unabhängige Suchansätze durchgeführt, keiner hat einen isolierten Primärwert geliefert:
+
+1. **Wüest Partner — publizierte Kostenkennzahlen-Studien.** Zwei einschlägige, frei zugängliche
+   Wüest-Partner-Berichte gelesen: "Holzbaukennzahlen für Investoren — Bürobauten Zürich"
+   (Lignum/BAFU, 04.07.2022, 47 Seiten, `espazium.s3.eu-central-1.amazonaws.com/.../
+   Holzbaukennzahlen_Buerobauten_WP_Lignum_BAFU.pdf`) und "Holzbaukennzahlen für Investoren —
+   Wohnbauten Teil 1/2: Kostenkennzahlen" (Wüest Partner, April 2025, 156 Seiten,
+   `timberfinance.ch/wp-content/uploads/2025/07/202504-Abschlussbericht_Holzbaukennzahlen_
+   Wuest-Partner.pdf`). Beide Berichte (per `pdftotext` volltextdurchsucht auf "Fassade",
+   "Aussenwand", "Kompaktfassade") liefern Gebäude-Gesamtkennwerte (CHF/m² GF, Energieeffizienz-
+   klassen A/B, CO2-Emissionen) und Bauteil-Beschreibungen ("Fassade und Tragstruktur aus Holz"),
+   aber **keine isolierte CHF/m²-Kostenposition für die Fassade/Gebäudehülle** — Kosten werden nur
+   auf Gesamtgebäude-Ebene ausgewiesen, nicht nach BKP-2-Gruppen aufgeschlüsselt.
+2. **Amt für Hochbauten Stadt Zürich — Wegleitung Bauökonomie / Beispiel-Kostenschätzung
+   e-BKP-H.** Dokument "Beispiel Kostenschätzung e-BKP-H (KS +/- 15 %)" (Wegleitung
+   Projektökonomie eBKP-H nach SN 506511D/2020, `stadt-zuerich.ch/.../beispiel-kostenschaetzung-
+   ks-wegleitung-bauoekonomie-ebkp-h.pdf`) enthält zwar eine Kostentabelle mit Gruppe E "Äussere
+   Wandbekleidung Gebäude" (871 m² Fläche Aussenwand, Kennwert 258.32 CHF/m² bzw. Einzelposition
+   "Aussenwandkonstruktion EWA" 96.44 CHF/m² und "Fassadenbekleidung WCA" 350.00 CHF/m²) — aber
+   das Dokument ist **explizit ein leeres Ausfüll-Muster**: Projektname "xxxxxx", Standort
+   "xxxxxx", Kostenstand (Jahr) "xx.xx.xxxx", Planstand "xx.xx.xxxx". Die Zahlen dienen nur der
+   Illustration der eBKP-H-Methodik (nachvollziehbar am wörtlich als Platzhalter markierten
+   Beispiel "z.B. Parkettboden: CHF 110 chf/m2"), sind **nicht datiert und keinem realen Projekt/
+   Jahr zuordenbar** — deshalb kein zitierfähiger Primärbeleg, obwohl die Struktur methodisch
+   zeigt, wie ein Amt für Hochbauten Fassadenkosten gliedern würde.
+3. **CRB / werk-material.online (die naheliegendste echte Primärquelle).** `crb.ch/de/normen-
+   standards/kennwerte-objektarten` bestätigt erneut (nach Run 97): nur Beschreibung der
+   Kennwerte-Plattform, keine frei sichtbaren Zahlenwerte, Zugang nur über Web-Applikation/Abo.
+   Die von CRB betriebene Plattform `werk-material.online` (digitalisiert Objekte aus der
+   Zeitschrift "werk, bauen + wohnen" mit CRB-/BFS-Kennwerten, laut Sekundärbeleg fachbau.ch
+   21.05.2024) war beim Zugriffsversuch technisch **nicht erreichbar** (`connect ECONNREFUSED`) —
+   ob dort ein freier Auszug existiert, bleibt ungeklärt, aber alle Sekundärbeschreibungen
+   deuten auf ein reines Fachanwender-Login-Portal ohne Gratis-Kennwerte hin.
+4. **Weitere geprüfte Kandidaten ohne Treffer:** Statistisches Amt Kt. ZH / Zürcher Index der
+   Wohnbaupreise (ZIW) — publiziert nur einen aggregierten Gesamtindex für Mehrfamilienhäuser,
+   keine Bauteil-/Fassaden-Kennwerte im frei zugänglichen Teil; BFS Schweizerische
+   Baupreisstatistik — Index, keine CHF/m²-Absolutwerte je Bauteil; SIA-Suche ergab kein frei
+   zugängliches Dokument mit Fassaden-CHF/m²-Kennwert (nur der bereits genutzte U-Werte-Katalog);
+   BSA/bbase.ch "Grobkosten — Entwurfsbegleitende Kostenprognosen" (`bbase.ch/.../
+   5.34_BR_Grobkosten.pdf`, 33 Seiten) erläutert die Kennwert-Methodik allgemein und zeigt ein
+   Beispielprojekt mit Gesamtkennwerten (Anlagekosten/GF 3'070 CHF/m², Gebäudekosten/GF 1'840
+   CHF/m²), aber ohne separate Fassaden-/Gebäudehüllen-Position; eine CUREM-Masterarbeit
+   (Pfenninger 2018/19, uzh.ch) enthält keinen isolierten, quellenbelegten Fassadenkennwert.
+
+**Fazit Run 98:** Der AKTIVA-AG-Wert (CHF 280.00/m², Status emerging) bleibt der einzige
+verfügbare CHF/m²-Anhaltspunkt für die Massivbau-Kompaktfassade. Ein voll isolierter,
+primärquellenbelegter Kennwert wurde trotz vier unabhängiger Suchansätze (Wüest Partner,
+Amt für Hochbauten Stadt Zürich, CRB/werk-material.online, weitere Statistik-/SIA-/BSA-Quellen)
+nicht gefunden — der kostenpflichtige CRB-OAK bzw. das Schweizerische Schätzerhandbuch
+(SVKG/SEK/SVIT, physisches Exemplar nötig) bleiben die einzigen plausiblen nächsten Schritte.
+
+**Geprüfte und ausgeschöpfte Sackgassen (damit Run 99 sie nicht wiederholt):**
 - **CRB Objektarten-Katalog (OAK)** "Kennwerte im Wohnungsbau"/"Wohnbauten im Vergleich": genau
   die Art Primärquelle, die einen isolierten, datierten CHF/m²-Fassadenkennwert liefern würde —
   aber durchgängig **kostenpflichtig** (CRB-Webshop, `werk-material.online`); kein kostenloser
@@ -206,5 +265,15 @@ established heben.
 - eco-bau.ch (ecoBKP) und KBOB (kbob.admin.ch) liefern Materialwahl- bzw. reine
   Ökobilanz-Kennwerte, aber keinen Bauteilkatalog mit Schichtaufbau + U-Wert — für diesen
   Zweck nicht ergiebig.
+- **Run 98 (25.07.2026, bestätigter zweiter Negativbefund):** Wüest-Partner-Kostenkennzahlen-
+  Studien (Holzbaukennzahlen Büro 2022, Wohnbauten 2025) weisen nur Gesamtgebäude-Kennwerte aus,
+  keine Fassaden-Einzelposition. Das Amt-für-Hochbauten-Stadt-Zürich-Dokument "Beispiel
+  Kostenschätzung e-BKP-H" zeigt zwar eine Gruppe-E-Kostentabelle mit Fassaden-Zahlen, ist aber
+  nachweislich ein anonymisiertes Ausfüll-Muster ohne Datum/Projektbezug (Platzhalter "xxxxxx"/
+  "xx.xx.xxxx") und damit nicht zitierfähig. `werk-material.online` (CRB-Plattform mit "werk,
+  bauen + wohnen"-Kennwerten) war technisch nicht erreichbar — nächster Versuch: erneuter Zugriff
+  oder Anfrage bei CRB direkt. Nächster sinnvoller Schritt bleibt unverändert: CRB-OAK
+  (kostenpflichtig) oder ein physisches Exemplar des Schweizerischen Schätzerhandbuchs
+  (SVKG/SEK/SVIT), um den AKTIVA-AG-Wert zu isolieren/bestätigen.
 
 **Backlinks:** [[u-wert-berechnung-bauteilekatalog-neubauten]] · [[clt-bauteilkatalog]]

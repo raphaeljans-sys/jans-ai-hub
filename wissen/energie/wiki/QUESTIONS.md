@@ -1499,3 +1499,62 @@ nötig, unverändert gegenüber Run 96).
 4. Duschwasser-WRG: SIA-385/2-Vollversion beschaffen (Kaufentscheid bei Raphael) für den
    genauen Anhang-K-Rechenweg, falls ein Mandat das erfordert.
 5. Neue Themen-Recherche nach freier Wahl (PDF-Inventar bleibt erschöpft, Web-Pfad).
+
+## Run 98 (2026-07-25) — drei parallele general-purpose-Agenten, Run-97-Prioritätenliste abgearbeitet
+
+Prozess-Hinweis umgesetzt: nach der Run-97-Lehre (energie-berater-Subagenten liefen im
+Hintergrund ohne echten Tool-Aufruf leer) wurden diesmal von Anfang an general-purpose-Agenten
+eingesetzt; alle drei mit 18-29 echten Tool-Aufrufen abgeschlossen, per `git status`/`git diff`
+vor der Register-Konsolidierung verifiziert (echte Dateiänderungen bestätigt).
+
+- [x] **WDVS-Brandriegel: Kosten weiterhin Negativbefund, BSV-2026 mit Zieldatum** ✓ 2026-07-25:
+  systematische Suche bei Gebäudehülle Schweiz, FFF (Fenster- und Fassadenbauverband) und Sto AG
+  Schweiz findet keine öffentliche CHF/lfm- oder CHF/m²-Kennzahl für den Brandriegel-Mehraufwand;
+  einzige gefundene Grössenordnung stammt aus einer deutschen Quelle und wird bewusst nicht als
+  Schweizer Wert übernommen. Die BSV-2026-Totalrevision (Brandschutzvorschriften) ist neu mit
+  einem konkreten Zieldatum belegt: voraussichtlich Frühling 2027 (Antrag an die
+  IOTH-Plenarversammlung im März 2027), der materielle Inhalt zur Brandriegel-Pflicht bleibt aber
+  unveröffentlicht → `[[wdvs-brandriegel-fassadendaemmung-vkf]]` bleibt established, FAQ F135
+  geschärft.
+- [x] **Massivbau-CHF/m²: zweiter bestätigter Negativbefund** ✓ 2026-07-25: vier weitere,
+  gezielt gewählte Quellen (Wüest Partner Holzbaukennzahlen Büro 2022/Wohnbauten 2025, Amt für
+  Hochbauten Stadt Zürich Beispiel-Kostenschätzung eBKP-H, CRB/werk-material.online, Statistisches
+  Amt Kt. ZH/BSA) liefern keinen isolierten, datierten Primärwert, der die AKTIVA-AG-Näherung
+  ablösen oder bestätigen könnte (Wüest-Partner-Studien nur Gesamtgebäude-Kennwerte,
+  Stadt-Zürich-Dokument anonymisiertes Ausfüll-Muster ohne Datum, werk-material.online technisch
+  nicht erreichbar) → `[[massivbau-bauteildatenblatt-ksv-swisspor]]` bleibt beim CHF/m²-Teil
+  emerging, FAQ F134 geschärft. **Meta-Einordnung:** nach zwei unabhängigen Negativbefunden in
+  Folge gilt der Sachstand als stabil — weitere Suchversuche ohne neuen methodischen Ansatz
+  (z.B. echter CRB-/Schätzerhandbuch-Zugang) sind Token-Verschwendung; Thema auf passive,
+  ereignisgetriebene Beobachtung umstellen (Analogie zu E84 ZH-Solarpflicht).
+- [x] **Neues Thema freie Wahl: SWKI-Lüftungsnormen Gesundheitsbau** ✓ 2026-07-25: schliesst die
+  in `[[sia-2024-nutzungsdaten-gesundheitsbau]]` (F78) explizit offen gelassene Lüftungslücke
+  OP/CT/MRT teilweise. SWKI VA105-01:2015 «Raumlufttechnische Anlagen in medizinisch genutzten
+  Räumen» (Nachfolgerin SWKI 99-3:2003) als Leseprobe primärquellig gelesen (Titel/Vorwort/
+  Inhaltsverzeichnis/Geltungsbereich) — eigene Lüftungskonzepte 1a/1b (TAV vs. Mischlüftung) für
+  OP-Saal/Isolierzimmer/IPS, Kühllast bis 200 W/m² im OP laut Vorwort, Wärmerückgewinnung in
+  eigenem Anhang B3 differenziert statt Standardkomponente, TAV-Infektionsschutz-Vorteil
+  physikalisch plausibel aber statistisch unbelegt (Richtlinie selbst). Konkrete Zahlentabellen
+  (Kap. 3.5/4, Anhang B/E) sind kostenpflichtig und in dieser Session nicht zugänglich; deutsche
+  DIN-1946-4-Werte wurden nur als ausdrücklich markierte Analogie beigezogen, nie als Schweizer
+  Norm-Zitat → neues Destillat `[[swki-lueftung-gesundheitsbau-hygiene-energie]]` (emerging),
+  FAQ **F136** neu.
+
+**Register nachgeführt:** `destillate/INDEX.md` (drei Zeilen neu/ergänzt), `wiki/INDEX.md` (zwei
+Zeilen geschärft, eine neu, FAQ-Zählerzeile auf F136 aktualisiert), `wiki/BAUHERREN-FAQ.md`
+(F134/F135 geschärft, F136 neu), `training/curriculum.md` (D68), `CHANGELOG.md`.
+
+**Bewusst nicht weiterverfolgt:** B1-Konsolidierung + SIA-2024-Zwilling (destruktiv, Rückfrage
+nötig, unverändert gegenüber Run 97).
+
+**Nächster Lauf: Priorität**
+1. B1-Konsolidierung weiterhin Raphael vorlegen (nicht automatisch lösen).
+2. SWKI-VA105-01-Vollversion beschaffen (Kaufentscheid bei Raphael) für die konkreten
+   Luftwechsel-/Filterklassen-/Druckwerte je Raumtyp (OP/Isolierzimmer/IPS); Verzahnung mit
+   SIA-2024-Kategorien VIII.1/VIII.2 klären.
+3. Massivbau-CHF/m² und WDVS-Brandriegel-Kosten: auf passive Beobachtung umstellen (zwei bzw.
+   ein bestätigter Negativbefund ohne neuen methodischen Ansatz) — nur bei neuer Quellenlage
+   (z.B. Büro-interner CRB-Zugang, reale Unternehmerofferte) erneut aktiv aufgreifen.
+4. Duschwasser-WRG: SIA-385/2-Vollversion beschaffen (Kaufentscheid bei Raphael) — Punkt bleibt
+   seit Run 96 unverändert offen.
+5. Neue Themen-Recherche nach freier Wahl (PDF-Inventar bleibt erschöpft, Web-Pfad).

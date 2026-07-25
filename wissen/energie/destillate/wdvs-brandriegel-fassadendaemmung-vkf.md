@@ -13,16 +13,21 @@ herausgeber: EPS-Verband Schweiz (Fachverband der Hersteller von expandiertem Po
   Kantonaler Feuerversicherungen); Ergänzung zur BSV-2026-Totalrevision von der Vereinigung
   Kantonaler Gebäudeversicherungen (VKG, Nachfolgeorganisation)
 ausgabe: VAWD-STP V6.1, 30.05.2018 (Bezug auf BSV 2015, Stand 01.01.2017); BSV 2026 noch nicht in
-  Kraft (Stand technische Vernehmlassung Ende 2025, definitives Inkraftsetzungsdatum bei
-  Redaktion dieses Destillats nicht auffindbar)
-gelesen: 2026-07-25
+  Kraft, geplantes Inkrafttreten neu auf **Frühling 2027** terminiert (Quelle Run 98: Fachartikel
+  «Brandschutzvorschriften 2026 für 2027 vorgesehen», metallonline.ch, Schweizerischer
+  Metallbau-/Fassadenbau-Fachverband, abgerufen 25.07.2026, unter Berufung auf die VKF/VKG-
+  Roadmap); Kosten-Mehraufwand Brandriegel CHF/lfm bzw. CHF/m² weiterhin ohne Schweizer
+  Primärquelle (Negativbefund Run 98, s. eigener Abschnitt unten)
+gelesen: 2026-07-25 (Run 97), 25.07.2026 (Run 98, Nachrecherche Kosten + BSV-2026-Zeitplan)
 datenstand: 2018 (VAWD-STP-Inhalt, Brandriegel-Detailanforderungen), 2015/2017 (zugrunde
-  liegende BSV-Ausgabe), 2025 (Start Totalrevision BSV 2026, Übergangsstand)
+  liegende BSV-Ausgabe), 2025/2026 (Zeitplan-Update Totalrevision BSV 2026, Stand Run 98)
 status: established (die Brandriegel-Kernanforderung — RF1, Schmelzpunkt ≥ 1'000 °C, Mindesthöhe
   0.2 m, je Geschoss umlaufend, bei Gebäuden mittlerer Höhe mit brennbarer Dämmung — stammt aus
   einer von der TKB-VKF geprüften und anerkannten Fachpublikation, die sich direkt auf die
-  rechtsverbindliche VKF-Brandschutzrichtlinie 14-15 stützt); der Übergang zur BSV-2026-
-  Totalrevision ist emerging/unklar terminiert und als offener Punkt markiert
+  rechtsverbindliche VKF-Brandschutzrichtlinie 14-15 stützt); der Zeitplan der BSV-2026-
+  Totalrevision ist seit Run 98 mit einem konkreten Zieldatum (Frühling 2027) belegt, der
+  materielle Inhalt zur Brandriegel-/WDVS-Frage bleibt emerging/offen; die Kosten-Frage bleibt
+  ein bestätigter Negativbefund (keine Schweizer Primärquelle gefunden)
 last_updated: 2026-07-25
 ---
 
@@ -152,17 +157,36 @@ das: die Kontrolle von Verklebung, Durchgängigkeit, Lage und Verdübelung der B
 ein eigener, dokumentierter Abnahmeschritt auf der Baustelle — kein Nebenpunkt der normalen
 Fassadenkontrolle.
 
-## Übergang zur BSV 2026 — offener Punkt
+## Übergang zur BSV 2026 — Zeitplan jetzt bekannt, Inhalt weiterhin offen
 
 Die Schweizerischen Brandschutzvorschriften der VKF sind seit 01.01.2015 in Kraft (BSV 2015,
 laufend durch Teilrevisionen und FAQs nachgeführt) und bilden die rechtliche Grundlage der
 Brandriegel-Pflicht. Die VKF/VKG hat eine **Totalrevision (BSV 2026)** aufgegleist: risikobasierter
 statt rein regelbasierter Ansatz, drei mögliche Nachweisverfahren (präskriptiv, leistungsbasiert,
-risikobasiert), technische Vernehmlassung ab 15.09.2025 mit Rückmeldefrist bis 11.01.2026. Ein
-definitives Inkraftsetzungsdatum war zum Zeitpunkt dieser Recherche (25.07.2026) nicht auffindbar
-— **offen, ob und wie sich die Brandriegel-Kernanforderung (RF1, 0.2 m, je Geschoss) durch die
-BSV 2026 ändert.** Bis zur definitiven Inkraftsetzung gilt weiterhin die hier destillierte
-Regelung der BSV 2015 / Richtlinie 14-15.
+risikobasiert).
+
+**Zeitplan (Nachrecherche Run 98, 25.07.2026):** Die technische Vernehmlassung lief von
+September 2025 bis Januar 2026 (Rückmeldefrist 11.01.2026), der Schulungsbeginn war für
+Dezember 2025 vorgesehen. Danach folgt die **politische Vernehmlassung ab August 2026** und
+der **Antrag auf Inkraftsetzung an der IOTH-Plenarversammlung im März 2027**. Gemäss dem
+Fachartikel «Brandschutzvorschriften 2026 für 2027 vorgesehen» (metallonline.ch, Magazin des
+Schweizerischen Metallbau-/Fassadenbau-Fachverbands, unter Berufung auf die VKF/VKG-Roadmap,
+abgerufen 25.07.2026) ist mit einem **Inkrafttreten der Vorschrift im Frühling 2027** zu rechnen
+— rund ein Jahr später als der ursprünglich kolportierte Name «BSV 2026» suggeriert; der Name
+selbst wird trotz Verschiebung beibehalten. Derselbe Artikel hält fest, dass **harmonisierte
+Normen von der BSV 2026 nicht betroffen sind** — ein Hinweis, der aber nicht spezifisch die
+WDVS-/Brandriegel-Frage adressiert.
+
+**Materieller Inhalt zur Brandriegel-/WDVS-Frage: weiterhin offen.** Weder der genannte
+Fachartikel noch die offizielle VKF-Projektseite (bsvonline.ch/de/brandschutzvorschriften/
+projekt-bsv-2026, abgerufen 25.07.2026: nur Erklärvideos und Verweise auf «FOKUS BSV 2026»,
+«Norm- und Detailkonzept», «Studien Recherchen», ohne im abgerufenen Auszug enthaltene
+Sachaussage zu Aussenwänden/Brandriegeln) noch die als PDF vorliegenden VKG-Publikationen
+(«FOKUS BSV 2026», technisch nicht per Volltext-Fetch auswertbar) liefern eine belastbare
+Aussage, ob die Brandriegel-Kernanforderung (RF1, 0.2 m, je Geschoss) im risikobasierten Ansatz
+unverändert, gelockert oder verschärft wird. **Bestätigter Negativbefund**, kein Raten. Bis zur
+definitiven Inkraftsetzung (frühestens Frühling 2027) gilt weiterhin die hier destillierte
+Regelung der BSV 2015 / Richtlinie 14-15 unverändert fort.
 
 ## Bauherren-Transfer
 
@@ -191,20 +215,55 @@ Regelung der BSV 2015 / Richtlinie 14-15.
   festgelegt — bei Projekten nahe der 11-m-Schwelle lohnt sich eine frühe, verbindliche Abklärung
   mit dem Bauamt, bevor die Fassadenkonstruktion detailliert geplant wird.
 
+## Kosten-Mehraufwand Brandriegel — Rechercheergebnis (Run 98, 25.07.2026)
+
+**Bestätigter Negativbefund: keine Schweizer Primärquelle mit CHF/lfm- oder CHF/m²-Kennwert
+gefunden.** Systematisch geprüft und ohne belastbares Ergebnis: Schweizerischer Fachverband
+Gebäudehülle Schweiz (Merkblatt-Übersicht `xn--gebudehlle-s5a60a.swiss/uebersicht-merkblaetter-
+factsheets-und-checklisten`, Merkblätter «Brandschutz bei vorgehängten hinterlüfteten Fassaden»
+und «Sanierung verputzte Aussenwärmedämmung mit VHF» — beide ohne im abrufbaren Auszug
+enthaltene Kostenangabe zum Brandriegel selbst), Schweizerischer Fachverband Fenster- und
+Fassadenbranche FFF (fff.ch, keine einschlägige Kostenpublikation auffindbar), Fachportal
+nachhaltigleben.ch («Fassadendämmung und Brandschutz Schweiz: VKF-Checkliste», 25.07.2026
+abgerufen: nennt Red-Flag-Prüffragen bei pauschal offerierten Brandriegeln, aber explizit
+**keine** CHF-Kennzahl), Hersteller Sto AG Schweiz (stoag.ch: Produktseiten zu StoTherm PIR
+organisch/mineralisch und Sto-Brandriegel SW ROCA vorhanden, jedoch ohne öffentliche
+Preisangaben — Herstellerpreise sind projektspezifisch und nicht auf der Website publiziert).
+
+**Einzige gefundene Kostenordnung ist eine deutsche, nicht-schweizerische Quelle** (energie-
+experten.org, deutsches Verbraucherportal, kein Fachverband/Hersteller-Primärbeleg): Mineralwolle-
+Brandriegel dort mit rund 20–30 EUR/lfm Material zzgl. rund 10–15 EUR/lfm Verarbeitung
+beziffert, an anderer Stelle desselben Portals als «5–10 % Mehrkosten des Gesamt-WDVS»
+gerahmt (Beispielrechnung 200 m² Fassade → ca. 1'000–3'000 EUR Mehrkosten). **Diese Zahlen
+werden hier explizit NICHT als Schweizer Kennwert übernommen** (anderer Markt, andere Währung,
+kein Fachverbands- oder Hersteller-Beleg, keine Schweizer Lohn-/Materialkostenbasis) — sie
+dienen höchstens als grobe Grössenordnungs-Ahnung für ein Bauherren-Gespräch, nicht als
+zitierfähiger CHF-Kennwert. Für eine belastbare Schweizer Wirtschaftlichkeitsaussage bräuchte es
+weiterhin eine aktuelle Unternehmerofferte (Fassadenbauer/Gerüstbau-Fachfirma) oder einen
+publizierten Gebäudehülle-Schweiz-Kennwert; keiner von beiden lag bei dieser Recherche vor.
+
 ## Offene Punkte
 
-- Kosten-Mehraufwand des Brandriegels (CHF/lfm oder CHF/m² Fassade) im Vergleich zur
-  durchgehenden Mineralwolldämmung nicht recherchiert — für eine belastbare
-  Wirtschaftlichkeitsaussage müsste eine aktuelle Schweizer Unternehmerofferte oder ein
-  Fachverbands-Kennwert beigezogen werden.
-- Definitives Inkraftsetzungsdatum und materieller Inhalt der BSV-2026-Totalrevision zur
-  Brandriegel-Frage nicht verifiziert (Stand Vernehmlassung Ende 2025/Anfang 2026).
+- **Kosten-Mehraufwand des Brandriegels (CHF/lfm oder CHF/m² Fassade):** bestätigter
+  Negativbefund (s. Abschnitt oben) — für Run 99+ empfiehlt sich die direkte Anfrage bei einer
+  Schweizer Fassadenbaufirma oder bei Gebäudehülle Schweiz (info@gebäudehülle.swiss, T 071 955
+  70 30) statt weiterer Websuche, da die öffentlich zugänglichen Schweizer Quellen dazu
+  erschöpft scheinen.
+- **BSV-2026-Zeitplan** ist seit Run 98 mit einem konkreten Zieldatum belegt (Inkrafttreten
+  voraussichtlich Frühling 2027, IOTH-Plenarversammlung März 2027) — der **materielle Inhalt**
+  zur Brandriegel-/WDVS-Anforderung im neuen risikobasierten Ansatz bleibt jedoch offen und
+  unverifiziert; Nachrecherche sinnvoll, sobald das «Norm- und Detailkonzept» (laut
+  bsvonline.ch/de/brandschutzvorschriften/projekt-bsv-2026 in Arbeit) veröffentlicht wird.
 - Kantonale Vollzugspraxis (Kt. ZH/SZ) zur behördlichen Prüftiefe bei der Brandriegel-Abnahme
   nicht mit einer eigenen kantonalen Quelle belegt — das VAWD-STP ist ein gesamtschweizerisch
   von der TKB-VKF anerkanntes Dokument, keine kantonsspezifische Vollzugsweisung.
 - Alternative VKF-anerkannte «gleichwertige Konstruktionen» (Systemzulassungen einzelner
   Fassadenhersteller wie StoTherm) nicht im Detail verglichen — nur das generische
-  Brandriegel-Prinzip wurde destilliert.
+  Brandriegel-Prinzip wurde destilliert. Ergänzender Fund Run 98: Sto AG bewirbt StoTherm PIR
+  organisch/mineralisch mit Brandschutz-Zulassung bis 30 m Gesamthöhe **ohne** zusätzlichen
+  Brandriegel (stoag.ch, Produktseiten, abgerufen 25.07.2026) — als Systemzulassung eine
+  mögliche Alternative zur generischen Brandriegel-Lösung, aber nicht unabhängig gegen die
+  VKF-Anerkennung verifiziert (Herstellerangabe, keine VKF-Originalquelle geprüft).
 
 **Backlinks:** [[fassadenbegruenung-hitzeschutz-pv-zielkonflikt]] · [[u-werte-grenzwerte-ch]] ·
 [[daemmstoffe-lambda]] · [[waermebrueckenkatalog-bfe-stuetzen-fassadenanker]]

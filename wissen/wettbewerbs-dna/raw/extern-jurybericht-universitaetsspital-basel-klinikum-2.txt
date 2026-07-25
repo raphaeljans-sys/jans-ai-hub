@@ -1,0 +1,4099 @@
+# Quelle: https://media.bs.ch/original_file/6cafdfbf6f44e734b889bfa8a13a7dc730b3a7bc/jurybericht-universitaetsspital-basel-erneuerung-klinikum-2.pdf (Bericht des Preisgerichts, Universitaetsspital Basel Erneuerung Klinikum 2, 2013, 188 Seiten, abgerufen 2026-07-25)
+# Extrakt: pdftotext -layout, 188 Seiten, erstellt 2026-07-25
+
+Bau- und Verkehrsdepartement des Kantons Basel-Stadt
+
+Städtebau & Architektur
+
+Hochbauamt
+
+
+
+
+Zweistufiger, anonymer Projektwettbewerb
+im selektiven Verfahren
+
+
+Erneuerung Klinikum 2
+Universitätsspital Basel
+Bericht des Preisgerichts
+Mai 2013
+Bau- und Verkehrsdepartement des Kantons Basel-Stadt
+
+Städtebau & Architektur
+
+
+
+
+Zweistufiger, anonymer Projektwettbewerb
+im selektiven Verfahren
+
+
+Erneuerung Klinikum 2
+Universitätsspital Basel
+Bericht des Preisgerichts
+Mai 2013
+                                                                                      Inhalt
+
+
+
+                                                                                      Vorwort                                                                  4
+
+                                                                                      Ausgangslage
+                                                                                      Anlass                                                                   7
+                                                                                      Ziel                                                                     7
+
+                                                                                      Informationen zum Verfahren
+                                                                                      Organisation                                                          8
+                                                                                      Formelle Bestimmungen                                                 8
+                                                                                      Preisgericht                                                         10
+
+                                                                                      Aufgabe
+                                                                                      Perimeter und Gebäudebezeichnungen                                   11
+                                                                                      Aufgabenstellung                                                     12
+                                                                                      Rahmenbedingungen                                                    14
+
+                                                                                      Beurteilung Präqualifikation
+                                                                                      Beurteilungskriterien                                                17
+                                                                                      Vorprüfung                                                           17
+                                                                                      Qualifizert für Stufe 1                                              18
+
+                                                                                      Beurteilung Stufe 1
+                                                                                      Beurteilungskriterien                                             19
+                                                                                      Vorprüfung                                                        19
+                                                                                      Beurteilung                                                        20
+
+                                                                                      Beurteilung Stufe 2
+                                                                                      Beurteilungskriterien                                               21
+                                                                                      Vorprüfung                                                          21
+                                                                                      Erster Jurytag                                                      22
+                                                                                      Zweiter Jurytag                                                     22
+
+                                                                                      Empfehlung und Weiterbearbeitung                                     24
+
+                                                                                      Projekte
+                                                                                      Projekte Stufe 2                                                     25
+                                                                                      Projekte Stufe 1                                                    113
+
+
+
+
+Orthofoto: Benützungsbewilligung © Grundbuch- und Vermessungsamt, Basel-Stadt, 2012
+                                                                                      Genehmigung                                                        183
+
+
+
+
+                                                                                      Im Interesse der leichteren Lesbarkeit schliesst die männliche Form in
+                                                                                      dieser Publikation auch die weibliche Form mit ein.
+Vorwort
+
+
+Raum für das Spital der Zukunft in der Nordwestschweiz
+Das Universitätsspital Basel freut sich, den Sieger des Archi­tek­­tur­
+wettbewerbs für die Gesamtsanierung des Klinikums 2 in dieser
+Broschüre vorzustellen.
+		 Mit dem Planungsteam um das Siegerprojekt Arcadia
+sind wir überzeugt, einen starken und zuverlässigen Partner an
+der Seite zu haben, um gemeinsam das ambitionierte Erneue-
+rungs- und Etappierungs­konzept durchführen zu können.
+Der Neubau steht nicht im luftleeren Raum, sondern fusst fest auf
+dem gemeinsamen Entschluss der beiden Kantone Basel-Stadt
+und Basel-Landschaft, die Spitzenmedizin am bereits bestehenden
+Platz im Universitätsspital Basel mitten in der Stadt auszubauen.
+Dieser Beschluss stammt aus dem Jahre 2006 und seither wurde
+konsequent daran gearbeitet, dieser Vision Schritt für Schritt
+näher zu kommen.
+
+Im Mittelpunkt aller Überlegungen stand und steht dabei              Das Siegerprojekt schafft ideale Voraussetzungen für die
+immer der Patient. Und dies nicht nur in Hinsicht auf das            zukunftsweisende und betriebsverträgliche Realisierung
+Endprodukt, den fertigen Bau. Auch während der Neu- und              der anstehenden Sanierungen und Erneuerungen innerhalb
+Umbauphase müssen seine Bedürfnisse im Vordergrund                   des Gesamtareals. Die Neu- und Umbauten können, in An-
+stehen. Das vorliegende Siegerprojekt zeigt eindrücklich             betracht möglicher Änderungen der Nutzung, flexibel und
+auf, wie das Projekt in Etappen unter Berücksichtigung des           unter Berücksichtigung des gesamten Lebenszyklus ge-
+laufenden Betriebes umsetzbar ist. Daneben bietet es na-             plant werden. Die Herausforderung für unser Spital liegt
+türlich auch eine nachhaltige Lösung im Hinblick auf Investi­        nun in der Umsetzung und Organisation, der Sicherstellung
+tions- und Betriebskosten an, um ein qualitativ hochstehen­          der Finanzierung und Realisation dieses Meilensteins für
+des, wirksames und wirtschaftliches Spital zu realisieren.           das Universitätsspital Basel der nächsten 40 Jahre.
+
+                                                                     Zum Schluss möchte ich allen herzlich danken, die in irgend­
+                                                                     einer Weise an diesem Wettbewerb beteiligt waren. Speziell
+                                                                     danke ich den teilnehmenden Teams, welche mit sehr un­
+                                                                     terschiedlichen und höchst kreativen Lösungsansätzen die
+                                                                     Jury und die Prüfungsexperten positiv überrascht haben.
+
+
+
+
+                                                                     Dr. Werner Kübler
+                                                                     Spitaldirektor
+
+
+
+
+4        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                                                                                                                 Vorwort
+
+
+
+
+Vorwort des Juryvorsitzenden
+Bauten für das Gesundheitswesen und insbesondere Universitäts-
+kliniken gehören zu den komplexesten und anspruchvollsten
+Planungsaufgaben.
+		 Mit dem Wettbewerb für die Erneuerung des Klinikums 2
+des Universitätsspitals Basel werden nicht nur Lösungen für ein be-
+trieblich optimales Spital gesucht, sondern auch Antworten er­
+wartet, wie die Erneuerung eines bestehenden Spitalkomplexes in
+einem bedeutungsvollen historischen Umfeld realisiert werden
+kann. Richtet sich der Fokus des Spitalbetriebs vermehrt auf die
+Bedürfnisse der Patientinnen und Patienten, müssen trotzdem
+die Ab­läufe und funktionalen Aspekte des Spitals den Anliegen der
+Behandlungen und Pflege gerecht werden.
+
+Der Umgang mit dem engen Perimeter, die Fragen, wie ein      Umso erfreulicher ist es, wenn die Jury erkennt, dass alle
+in Betrieb stehendes Spital etappenweise erneuert werden     Wettbewerbsteilnehmer die Aufgabe auf hohem Niveau be-
+kann und wie es gelingen kann, den Ansprüchen des histo-     arbeitet haben und ein breites Spektrum von Lösungsmög-
+rischen Umfeldes Rechnung zu tragen, stellten die 17 am      lichkeiten zu beurteilen war. Auch wenn die Rahmenbedin-
+Wettbewerb beteiligen Planerteams vor eine grosse Her-       gungen für alle die gleichen waren, ist die Palette der Pro-
+ausforderung. Wenn zudem das wichtige Kriterium der          jektideen erstaunlich breit angelegt. Vom extremen Flach-
+Wirtschaftlichkeit in Bezug auf die Investitions- und Be-    bau bis zum klassischen Spitalcluster mit Sockelbauten und
+triebskosten relevant gewertet wird, verdeutlicht dies die   Bettentürmen waren verschiedenste räumliche und archi-
+Komplexität der Wettbewerbsaufgabe.                          tektonische Strategien zu beurteilen. Dass es gelungen ist,
+                                                             aus der Vielzahl von Entwürfen ein Projekt auszuwählen,
+                                                             das den betrieblichen, städtebaulichen und architektoni-
+                                                             schen Zielen in hohem Masse entspricht, ist vor allem dem
+                                                             konstruktiven Dialog im Jurygremium zu verdanken.
+
+                                                             Die Diagnose ist formuliert, der Behandlungsplan entwor-
+                                                             fen, nun braucht es die Kraft verschiedenster Akteure, um
+                                                             das Projekt fit für die Zukunft zu machen.
+
+
+
+
+                                                             Fritz Schumacher
+                                                             Städtebau & Architektur BS, Kantonsbaumeister
+
+
+
+
+                                                                                                                       5
+USB/Klinikum 2, Blick von Süden
+USB/Klinikum 2, Blick von Osten
+
+(Aufnahmen Januar 2013)
+
+
+
+
+6        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Ausgangslage
+
+
+Anlass                                                         Ziel
+Das Universitätsspital Basel (USB) erbringt Leistungen in      Das Wettbewerbsprogramm umfasst für das zweistufige
+der Gesundheitsversorgung sowie in der klinischen Lehre        Verfahren zwei Schwerpunkte:
+und Forschung und ist ein wichtiger Standortfaktor für den
+regionalen Life-Sciences-Bereich. Die bestehenden bauli-       Wettbewerb Stufe 1/Gesamtsicht
+chen Strukturen – insbesondere die Gebäude der soge-           Erneuerung des Klinikums 2 mit den dafür notwendigen Ro-
+nannten dritten Bauetappe wie das Klinikum 2 – entspre-        chadenflächen und die weitere städtebauliche Entwicklung
+chen nicht mehr den Anforderungen eines zeitgemässen           auf dem Areal des USB.
+und modernen Spitals.
+	Neue gesetzliche Anforderungen, steigende Ansprüche           Wettbewerb Stufe 2/Projektteil
+an die jeweiligen medizinischen Behandlungsmethoden,           Vertiefte Auseinandersetzung mit der Aufgabenstellung Er-
+Arbeitsplatzqualität und die Positionierung am Markt be-       neuerung Klinikum 2 inklusive notwendiger Rochadenflä-
+einflussen die Nutzungsdauer von Spitalbauten. Im Spital       chen.
+beträgt zudem die Lebensdauer haustechnischer Anlagen
+nur etwa 30 Jahre. Um die Unterhalts- und Betriebskosten       Die Ziele des Projektwettbewerbs sind:
+unter Kontrolle zu halten, ist eine vorausschauende Pla-       –– Ein gestalterisch und städtebaulich überzeugender
+nung der Erneuerungs- wie Sanierungsmassnahmen mit                Projektvorschlag, welcher den gebauten und geplanten
+Arealsicht zwingend notwendig.                                    Kontext innerhalb und ausserhalb des Areals berück-
+    Durch den im Jahr 2011 genehmigten Masterplan Cam-            sichtigt.
+pus Gesundheit Universitätsspital Basel wurden die Grund-      –– Eine betrieblich sinnvolle Anordnung der verschie­
+lagen für eine langfristige räumliche Planung gelegt und die      denen Nutzungen auf dem Areal unter Einbezug einer
+Rahmenbedingungen für die nächsten Sanierungsphasen               optimalen Funktionalität bei jeder Phase der Umset-
+definiert. Dabei wurde nicht nur die Sanierung respektive         zung.
+der Ersatz des Klinikums 2 (Bettenhaus) behandelt, son-        –– Neu- und Umbauten sollen, in Anbetracht möglicher
+dern in einer Gesamtschau das ganze Areal betrachtet. Die         Änderungen der Nutzung, flexibel und unter Be­
+nun weiterführenden Planungen (Wettbewerb, Bebauungs­             rücksichtigung des gesamten Lebenszyklus geplant
+plan, Projektierung Erneuerung Klinikum 2) sollen die räum-       werden.
+liche Grundlage zur Sicherung und Steigerung der Wettbe­       –– Passende Anordnung der Betriebsstellen im Hinblick
+werbs­fähigkeit schaffen, damit das USB seinen Leistungs­         auf rationelle, patientenfreundliche Betriebsabläufe.
+auftrag langfristig auf dem heutigen Areal erfüllen kann.      –– Realisierbarkeit in Etappen unter Berücksichtigung
+                                                                  einer maximalen Aufrechterhaltung des laufenden
+Mit dem vorliegenden Wettbewerb wird ein Sanierungs-              Betriebs und einer nachhaltigen Lösung bezüglich
+und Etappierungskonzept für die Gebäude der dritten Bau-          Rochadenflächen.
+etappe (Gebäude der 70 er-Jahre) und insbesondere das          –– Nachhaltige Lösung im Hinblick auf Investitions-
+Klinikum 2 gesucht, mit welchem das USB – unter den Fo-           und Betriebskosten, um ein qualitativ hochstehendes,
+kussen Städtebau, Spitalbetrieb, Etappierbarkeit und Wirt-        wirksames und wirtschaftliches Spital zu realisieren.
+schaftlichkeit – ideale Voraussetzungen bietet, die anste-     –– Ein angemessener Umgang mit der bestehenden
+henden Sanierungen sowie Erneuerungen zukunftsweisend             Freiraumgestaltung, insbesondere der parkartigen
+und betriebsverträglich innerhalb des Gesamtareals umzu-          Gartenanlage, und eine zukunftsgerichtete Umge-
+setzen.                                                           bungsgestaltung im Kontext möglicher Entwicklungs-
+	Auf Basis des aus dem Wettbewerb hervorgegangenen                szenarien.
+Siegerprojektes wird ein neuer Bebauungsplan erstellt, wel-    –– Eine energetisch optimierte Gesamtlösung mit hoher
+cher den alten und nicht mehr gültigen Bebauungsplan von          Energieeffizienz und einer energiesparenden und
+1969 ersetzt. Weiter wird eine erste Sanierungsphase –            ökologischen Bauweise.
+aufgeteilt in verschiedene Etappen – mit der Erneuerung
+des Klinikums 2 inklusive der erforderlichen Rochadenflä-
+chen ausgelöst.
+
+
+
+
+                                                                                                                      7
+Informationen zum Verfahren
+
+
+Organisation                                                        Formelle Bestimmungen
+Auftraggeberschaft                                                  Verfahren
+Auftraggeberschaft des vorliegenden Wettbewerbsverfah-              Zur Erlangung eines qualitativ hochstehenden Projektvor-
+rens ist das Universitätsspital Basel.                              schlages und zur Evaluierung eines Generalplanerteams
+                                                                    wird ein anonymer, zweistufiger Projektwettbewerb im se-
+Das Universitätsspital Basel übergibt die Federführung für          lektiven Verfahren (Präqualifikation) durchgeführt.
+die Durchführung des Verfahrens an das BVD BS, Städte-                 Es werden in etwa 20 Teilnehmende für die Stufe 1 des
+bau & Architektur, Hochbauamt.                                      Projektwettbewerbs ausgewählt. Für die Stufe 2 qualifizie-
+                                                                    ren sich ca. 6 Teilnehmende.
+
+                                                                    Die Ausschreibung untersteht dem GATT/WTO-Überein-
+                                                                    kommen über das öffentliche Beschaffungswesen (GPA)
+                                                                    vom 15. April 1994.
+                                                                       Für das Verfahren gelten das Gesetz über öffentliche
+                                                                    Beschaffungen (BeG) vom 20. Mai 1999, die Verordnung
+                                                                    über das öffentliche Beschaffungswesen (VöB) vom 11. April
+                                                                    2000 des Kantons Basel-Stadt und die Interkantonale Ver-
+                                                                    einbarung über das öffentliche Beschaffungswesen (IVöB)
+                                                                    vom 25. November 1994/15. März 2001.
+                                                                       Die Beurteilungssitzungen sind nicht öffentlich. Die Ver-
+                                                                    fahrenssprache ist Deutsch. Mündliche Auskünfte werden
+                                                                    nicht erteilt.
+
+                                                                    Ausschreibung Präqualifikation
+                                                                    Die öffentliche Ausschreibung erfolgt im Kantonsblatt
+                                                                    Basel-Stadt, unter www.simap.ch und in der Fachzeit-
+                                                                    schrift tec 21, Zeitschrift des Schweizerischen Ingenieur-
+                                                                    und Architektenvereins SIA.
+
+                                                                    Verbindlichkeit
+                                                                    Die Bestimmungen der Ordnung SIA 142, Ausgabe 2009,
+                                                                    sind für den Veranstalter und Auftraggeber, das Preisge-
+                                                                    richt inklusive Experten und Sachverständige sowie die teil-
+                                                                    nehmenden Teams verbindlich, sofern sie den submissions­
+                                                                    rechtlichen Bestimmungen und dem Programm nicht wi-
+                                                                    dersprechen. Artikel 27.1 und 27.3 der Ordnung SIA 142,
+                                                                    Ausgabe 2009, werden wegbedungen.
+
+
+
+
+8       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                                                            Informationen zum Verfahren
+
+
+
+
+Preise und Entschädigungen
+Für Preise, Ankäufe und feste Entschädigung im Rahmen
+des Projektwettbewerbs steht dem Preisgericht eine Sum-
+me von 900 000 CHF exkl. MWSt zur Verfügung. Jedem im
+Rahmen des Projektwettbewerbs zur Beurteilung zugelas-
+senen Projekt wird vom Gesamtbetrag eine feste Entschä-
+digung in der Höhe von 20 000 CHF exkl. MWSt zugespro-
+chen.
+   Jedem im Rahmen des Projektwettbewerbs Stufe 2 zur
+Beurteilung zugelassenen Projekt wird vom Gesamtbetrag
+eine feste Entschädigung in der Höhe von 40 000 CHF exkl.
+MWSt zugesprochen.
+
+Nach Abschluss der Stufe 2 des Verfahrens werden 4 – 6
+Preise vergeben.
+
+Ankäufe
+Ein Ankauf im ersten Rang kann zur Weiterbearbeitung
+emp­fohlen werden, wenn das Preisgericht dies einstimmig
+beschliesst.
+
+
+
+
+                                                                                     9
+Informationen zum Verfahren
+
+
+
+
+Preisgericht
+Sachpreisrichter                                                     Beratende Experten für Jurierung und Vorprüfung
+–– Dr. Hans-Peter Wessels, Bau- und Verkehrs­                        –– Michael Hüssle, Stokar + Partner AG, Basel,
+   departement BS, Regierungsrat                                        Experte Gebäudetechnik Ingenieur HLK
+–– Dr. Werner Kübler, Universitätsspital Basel (USB),                –– Dr. Hans Wälchli, MBI Consulting, Boppelsen,
+   Direktor                                                             Beratung Spital/Betrieb
+–– Michael Plüss, USB, Verwaltungsratspräsident                      –– Roberto Keller, PMO Keller GmbH, Rorschacherberg,
+–– Roland Geiser, USB, Bau- und Raumplanung                             Logistik
+–– Drs. Roel Goffin, Orbis Medisch en Zorgconcern Sittard,           –– Cornelius Bodmer, Metron Architektur AG, Brugg,
+   Mitglied des Verwaltungsrats                                         Vorprüfung/Verfahrensbegleitung
+–– Mario Da Rugna (Ersatzpreisrichter), USB,                         –– Richard Birrer, USB, Leiter Infrastruktur
+   Leiter Bereich Personal & Betrieb                                 –– Prof. Manuel Battegay, USB, Leiter Infektiologie
+                                                                     –– Nicole Wirz, S&A BS, Planungsamt, Arealentwicklung
+Fachpreisrichter                                                        und Nutzungsplanung, Projektleitung Masterplan USB
+–– Fritz Schumacher (Vorsitz), Städtebau & Architektur               –– Dr. Daniel Schneller, S&A BS, Leiter Kantonale
+   (S&A) BS, Kantonsbaumeister                                          Denkmalpflege
+–– Thomas Blanckarts, S&A BS, Hochbauamt,                            –– Susanne Brinkforth, Stadtgärtnerei BS, Freiräume
+   Leiter Hochbauamt                                                 –– Marcus Diacon, AUE BS, Nachhaltigkeit
+–– Silvia Gmür, Architektin, Basel                                   –– Beat Aeschbacher, Marchand + Partner, Bern,
+–– Stefan Traxler, Architekt, Frankfurt                                 Bauingenieur/Etappierung
+–– Gerard Prêtre, Architekt, Zürich                                  –– Dominik Zaugg, (Verfahrensbegleitung), S&A BS,
+–– Barbara Holzer, Architektin, Zürich                                  Hochbauamt, Projektmanager
+–– August Künzel, Landschaftsarchitekt, Basel
+–– Willy Nützi (Ersatzpreisrichter), S&A BS, Hochbauamt,             Vorprüfende
+   Leiter Projektmanagement II                                       –– Dimphie Slooters, Metron Architektur AG, Brugg,
+                                                                        Vorprüfung/Verfahrensbegleitung
+                                                                     –– Stephan Jack, Metron Architektur AG, Brugg,
+                                                                        Vorprüfung/Verfahrensbegleitung
+                                                                     –– Daniel Gerber, Metron Architektur AG, Brugg,
+                                                                        Baukosten
+                                                                     –– Prof. Christoph Hess, USB, Vertreter Medizin
+                                                                     –– Alessandro Cerminara, USB, Gebäudetechnik
+                                                                     –– Prof. Christoph Rochlitz, USB, Vertreter Medizin
+                                                                     –– Stephan Schärer, USB, Vertreter Pflege
+                                                                     –– Volker Büche, USB, Organisation Entwicklung
+                                                                     –– H.P. Bürgin, Gebäudeversicherung BS, Brandschutz
+                                                                     –– Vesna Sormaz, Amt für Wirtschaft und Arbeit BS,
+                                                                        Arbeitssicherheit und Gesundheitsschutz
+
+
+
+
+10       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Aufgabe
+
+
+Perimeter und
+Gebäudebezeichnungen                                                                                                 	Projektperimeter
+                                                                                                                      Betrachtungsperimeter
+
+                                                                                                                		 Funktion
+                                                                                                                  	Untersuchung und Behandlung
+                                                                                                                  	Administration und Management
+                                                                                                                   Forschung und Lehre
+
+                                                                                                                			    Gebäude
+                                                                                                                K1		   Klinikum 1
+                                                                                                                K2		   Klinikum 2
+                                                                                                                VELF	Versorgung, Lehre, Forschung
+                                                                                                                OP-Ost OP-Trakt Ost
+                                                                                                                SH		   ehemaliges Schwesternhaus
+                                                                                                                MGH	Markgräflerhof
+                                                                                                                B3		   Bettenhaus 3
+                                                                                                                HH		   Holsteinerhof
+                                                                                                                GZ		Gaszentrale
+
+
+
+
+Gebäudebezeichnung (Masterplan «Campus Gesundheit», USB) Istzustand
+
+
+
+
+                                                                                                 Rossetti-
+                                                                                                 Bau
+
+
+
+                                                 se
+                                               ra
+                                               st
+                                                  s     OP-West
+                                          nzen
+                                         ha
+                                         Sc                            Haupteingang K1
+
+
+                                                                                                    Sp
+                                                                                                     i ta
+                                                                  K1                                  lst
+                                                                                                         ra s
+                                    B3                                                                      se
+
+
+
+                                                       Spitalgarten                                OP-Ost
+                                                                                                                        Notfall Zufahrt
+
+                                          VELF
+                             SH
+
+
+                                                      VELF                                                                K2
+                                    HH
+               rgst                                                                                         H
+                    rass
+                         e                                        GZ
+              elbe                                                                                                                 Haupteingang K2
+            Kling
+                                  Pathologie
+                                                                        Heb
+                                                                                             MGH
+                                                                                                                              n
+                                                                              elst                                        rab
+                                                                                     ras                                      e
+                                                                                         s   e
+                                                                                                                        rs g
+                                                                                                                       Pet
+                                                                                                                          e
+
+
+
+
+                                                                                                                                                     11
+Aufgabe
+
+
+
+
+Aufgabenstellung
+Zweistufiges Vorgehen                                                 Architektur und Städtebau
+Der Masterplan definiert die Weiterentwicklung des Areals             Der Perimeter des Universitätsspitals ist ein Konglomerat
+Universitätsspital Basel (USB) als Koordinationsinstrument            verschiedenster Gebäude in heterogenen Baustilen und von
+mit einem langfristigen Planungshorizont.                             unterschiedlichster Grösse und Verzahnung untereinander
+                                                                      und mit dem Gelände. Die städtebauliche Situation und die
+Die städtebaulichen Vorgaben, namentlich die Mantellini-              architektonische Ausformulierung des Klinikums 2 sollen
+en, bilden die Grundlage für die im Wettbewerb geforderte             durch eine sorgfältige Herangehensweise im genannten
+Gesamtsicht (Wettbewerb Stufe 1) über das Areal. Diese                Kontext der gebauten Umgebung, der grossvolumigen Bau­
+städtebauliche Gesamtkonzeption soll mit den umliegen-                ten auf dem Nachbarareal Schällemätteli und der Rheinsil-
+den Arealen (z.B. Uni-Campus Schällemätteli) betrachtet               houette verbessert werden. Die im Masterplan definierten
+werden und wird im Modell und auf Plänen im Massstab                  Mantellinien bilden die Grenzen ab, in dem sich die zukünf-
+1 : 1000/1 : 500 dargestellt.                                         tigen Neu- und Umbauvolumen positionieren dürfen. Die
+     Der Projektteil (Wettbewerb Stufe 2) umfasst die Er-             Nähe zur Alt­stadt im Bereich Petersgraben ist in die städte-
+neuerung des Klinikums 2 und die dazu notwendigen Ro-                 baulichen Überlegungen einzubeziehen. Qualitäten wie der
+chadenflächen. Das Klinikum 2 und die Rochadenflächen                 grossmassstäbliche Gebäudepark, die Übersichtlichkeit der
+werden vertieft bearbeitet.                                           Anlage und der Spitalgarten als grosser Freiraum im Zent-
+                                                                      rum der Anlage sollen erhalten bleiben.
+Für definierte Bereiche sind raumscharfe Pläne abzugeben.
+Neben Angaben zu architektonischen Themen wie Materi-                 Betriebliche Anforderungen
+alien, Konstruktion, Grundrissen sind Aussagen zu Haus-               Der laufende Betrieb muss möglichst zu 100% während al-
+technik, Raumorganisation, Etappierung und Betrieb zu ma-             ler Phasen sämtlicher Bauarbeiten aufrechterhalten wer-
+chen sowie projektbezogene Kennwerte zu liefern.                      den. In der Beurteilung der Wettbewerbsbeiträge hat die-
+                                                                      ser Umstand einen hohen Stellenwert.
+                                                                          Hinsichtlich des Gesamtkonzepts ist auf eine betrieb-
+                                                                      lich sinnvolle Anordnung der verschiedenen Nutzungen auf
+                                                                      dem Areal mit einer optimalen Funktionalität zu achten.
+                                                                      	In der Planung des Bauablaufs ist ein Konzept mit mög-
+                                                                      lichst wenig Umzügen und einem Minimum an Beeinträch-
+                                                                      tigungen (Betrieb, Immissionen usw.) zu erstellen.
+
+
+
+
+ Stufe 1 / Gesamtsicht
+
+ Stufe 2 / Projektteil
+
+
+                                  Sanierungsphase 1                                                       Weitere Sanierungsphasen
+
+ Istzustand                 Rochaden/Bauetappen               Zustand                   Rochaden/Bauetappen               Zustand
+                                                              Sanierungsphase 1                                           Gesamtkonzept
+
+
+
+
+                                                        ...                                                         ...
+
+
+
+
+                                                                                                                     Bestand
+                                                                                                                     im Bau/Sanierung
+                                                                                                                    	Neubau/saniert
+
+
+
+
+12        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                                                              Aufgabe
+
+
+
+
+Energie und Nachhaltigkeit
+Es gelten die heutigen Forderungen des nachhaltigen Bau-
+ens. Energetisch wird für Neubauten der Minergie-P-Stan-
+dard oder gleichwertig angestrebt.
+    Die Studie zur Energieversorgung des Universitätsspi-
+tals Basel vom Mai 2011 dient als Grundlage für die strate-
+gische Ausrichtung der zukünftigen Energieversorgung.
+
+Umgebungsgestaltung und Freiräume
+Der Umgebungsgestaltung kommt eine grosse Bedeutung
+zu. Zielsetzungen sind ein angemessener Umgang mit dem
+Pflanzenbestand, präzise Aussagen zu den Gartennutzun-
+gen, der Topographie und der Grünraumtypologie sowie den
+Raumgrenzen. Die parkartige Gartenanlage hat für das Spi-
+tal einen hohen Stellenwert und soll während der Realisie-
+rungsphase möglichst nutzbar bleiben.
+
+Haustechnik und technische Anforderungen
+Die haustechnischen Anlagen und die technischen Anfor-
+derungen an die zu sanierenden Gebäude respektive Neu-
+bauten haben dem Stand der Technik und den Vorgaben
+des Kantons Basel-Stadt (insbesondere zum Themenkreis
+Energie und Nachhaltigkeit) zu entsprechen.
+
+
+
+
+USB/Klinikum 2
+Haupteingang (Petersgraben)
+
+
+
+
+                                                                  13
+Rahmenbedingungen
+Die im Folgenden aufgeführten Rahmenbedingungen sind                 Demnach gelten die folgenden maximalen Gebäudehöhen:
+von den Teilnehmenden einzuhalten. Mit einem Verstoss                –– 70 Meter entlang der Schanzen- und Klingelberg­
+ge­gen diese Rahmenbedingungen riskiert der Verfasser                   strasse
+gemäss SIA 142 den Ausschluss von der Preiserteilung. Ein            –– 60 Meter im Bereich des heutigen Klinikum 2
+Ausschluss liegt im Ermessen des Preisgerichts.                      –– 29 Meter entlang der Hebelstrasse
+
+                                                                     Die Parzelle 977, Standort der Pathologie, wird gemäss den
+Allgemeine Rahmenbedingungen                                         Vorgaben für die Zone NÖI (Nutzungen im öffentlichen In-
+Zonenplan und Bauordnung                                             teresse) beurteilt.
+Das Areal des Universitätsspitals Basel (USB) umfasst die
+Parzellen 479 und 977. Die Parzelle 479 umfasst gesamt-              Die Mantellinie der bebaubaren Fläche entspricht dem Pro-
+haft 68 193 m2. Die Parzelle 977 umfasst 3 146 m2.                   jektperimeter. Sie definiert die räumlichen oberirdischen
+                                                                     Grenzen, in denen sich die künftigen Neu- und Umbauten
+Für das Areal besteht ein Bebauungsplan aus dem Jahr 1969            bewegen dürfen. Die Umrisse der Mantellinien bedeuten
+(Ratschlag Nr. 6598). Er hat für den Wettbewerb keine Be-            die maximale Ausdehnung der möglichen Neubauten und
+deutung und wird zukünftig aufgehoben. Der Terminplan                ersetzen bisherige gesetzliche Vorgaben (Höhen, Baulini-
+sieht vor, auf Basis des Siegerprojektes des vorliegenden            en etc.) vollumfänglich.
+Verfahrens im Anschluss an den Wettbewerb einen neuen
+Bebauungsplan für das Areal des USB zu erstellen.                    Schützens- und erhaltenswerte Bauten
+                                                                     Das Klinikum 1, die Predigerkirche, der Holsteinerhof und
+Die Pathologie (Parz. 977) liegt in der Zone NÖI (Zone für           der Markgräflerhof (ohne Anbau Hebelstrasse 10) stehen
+Nutzungen im öffentlichen Interesse). Es wird davon aus-             unter Denkmalschutz. Wenn möglich sind die denkmalge-
+gegangen, dass die Pathologie vorerst am angestammten                schützten Bauten in ihrer städtebaulichen Anordnung und
+Standort bleibt. Bei einer möglichen Integration auf der             Gestaltung zu stärken. Der Anbau aus 1904 (Hebelstrasse
+Parzelle 479 ist für die Parzelle 977 ein adäquates Nut-             10) an den Markgräflerhof kann rückgebaut werden.
+zungsmass in Abstimmung mit der umliegenden Bebauung                    Die vorgegebenen Lichteinfallswinkel und Schutzab-
+vorzuschlagen.                                                       stände in Bezug auf die Gebäude Markgräflerhof, Holstei­
+                                                                     nerhof und Predigerkirche sind einzuhalten.
+Wettbewerbsperimeter
+Der Betrachtungsperimeter, für den im Rahmen des Wett-               Spitalgarten
+bewerbs Aussagen zum Städtebau, zum Umgang mit dem                   Die parkähnliche Gartenanlage des Spitalareals, mit ge-
+Freiraum und zur Erschliessung erwartet werden, umfasst              schütztem Baumbestand im direkten Anschluss an die In-
+das gesamte heutige Spitalareal inklusive der Hebelstrasse           nenstadt, hat einen hohen Stellenwert als Grünraum. Der
+und der Parzelle der heutigen Pathologie. Ausgenommen                Masterplan weist zwei freiräumliche Kernzonen aus, in de-
+sind der Rossetti-Bau und weitere Aussenliegenschaften.              nen der prägende Baumbestand erhalten werden muss
+                                                                     und die von Hochbauten und Provisorien freizuhalten sind.
+Der Projektperimeter für die Sanierung des Klinikums 2
+und die folgende bauliche Entwicklung des Gesamtkonzep-
+tes wird aus baulichen und betrieblichen Gründen auf eine            Wirtschaftliche Rahmenbedingungen
+bebaubare Fläche begrenzt. Sämtliche baulichen Massnah-              Rückbau von Gebäuden und Anlagen
+men (Sanierungen, Neubauten, Provisorien) sind innerhalb             Damit neue räumliche und betriebliche Konzepte auf dem
+dieser Fläche zu realisieren.                                        Areal des USB möglich sind, müssen bestehende Gebäude
+                                                                     allenfalls rückgebaut und deren Nutzungen entsprechend
+Höhenbeschränkung/Mantellinien/Baulinien                             auf dem Areal neu verteilt bzw. positioniert werden. Den
+Die im Masterplan definierten Rahmenbedingungen betref-              Wettbewerbsteilnehmern wird ein Schema abgegeben, auf
+fend die maximale Höhenentwicklung und die Lichteinfalls-            dem die Gebäude, welche abgebrochen werden können,
+winkel zu Nachbargebäuden sind für den Wettbewerb ein-               markiert sind. Zu den Untergeschossen im Klinikum 2, dem
+zuhalten.                                                            VELF und der gesamten Gaszentrale gelten folgende Hin-
+    Diese räumlichen Grenzen, in denen sich die zukünfti-            weise:
+gen Neu- und Umbauten bewegen dürfen, sind durch Man-
+tellinien definiert. Das Mantellinienvolumen wurde aufgrund          Klinikum 2
+der bebaubaren Fläche sowie der Lichteinfallswinkel ge-              In den bisherigen Studien zum Klinikum 2 wurde ein Rück-
+genüber Nachbargebäuden und aufgrund von Höhenbe-                    bau (Abbruch) der Untergeschosse des Klinikums 2 ausge-
+grenzungen bestimmt.                                                 schlossen. Gründe dafür waren die nach wie vor gute Ge-
+                                                                     brauchstauglichkeit der Untergeschosse und die in den
+
+
+
+
+14       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                                                                                                       Rahmenbedingungen
+
+
+
+
+letzten Jahren getätigten Investitionen.                       werb Stufe 2 sind vollständig im Rahmen der Sanierungs-
+	Im Laufe der weiteren Bearbeitung hat die Bauherr-            phase 1/Erneuerung des Klinikums 2 zu platzieren.
+schaft nun entschieden, zugunsten einer allenfalls besse-         Bei nachzuweisenden Sollflächen pro Modul handelt es
+ren städtebaulich-architektonischen oder einer besseren        sich um die Nutzfläche (NF; gemäss SIA 416) plus einen
+betrieblichen Gesamtlösung einen Rückbau der Unterge-          Innenwandzuschlag von 12 %. Verkehrs- und Funktionsflä-
+schosse des Klinikums 2 nicht mehr ganz auszuschliessen.       chen sind dort nicht enthalten.
+In diesem Fall müsste ebenfalls vorgängig an anderer Stel-     	Im Rahmen der Vorprüfung der Stufe 2 wird die Ver-
+le innerhalb des Projektperimeters, unter Berücksichtigung     hältniszahl Nutzfläche zur Geschossfläche ermittelt und
+einer optimalen betrieblichen Anbindung, ein entsprechen-      mit den Ausgangswerten pro Modul verglichen.
+der Ersatz geschaffen werden. Ebenfalls wäre die Umsetz-
+barkeit (Bauablauf, Rochaden, Betrieb, Wirtschaftlichkeit      Anbindung an den Bestand
+etc.) aufzuzeigen. Der Umfang allfälliger Rückbauten ist       Um die betrieblichen Verbindungen mit den vorhandenen
+stets unter Berücksichtigung der Auswirkungen auf den an-      und geplanten Nutzungsbereichen in den bestehenden
+grenzenden Spitalbetrieb und das nähere Umfeld zu prüfen       Gebäuden gewährleisten zu können, muss die Anbindung
+bzw. abzuwägen.                                                der Neubauten an den Bestand in den Geschossen 2. Unter­
+                                                               geschoss, 1. Untergeschoss, Erdgeschoss und 1. Oberge-
+Gaszentrale                                                    schoss (Ebene 02–1) ohne Niveauunterschiede erfolgen.
+Bei der Gaszentrale bestand ebenfalls die Absicht, diese aus      Besonderes Augenmerk gilt der Anbindung des erneu-
+betrieblichen und wirtschaftlichen Gründen nicht rückzu-       erten Klinikums 2 an den OP-Ost. Die Struktur des OP-Ost
+bauen. Sollte jedoch aus städtebaulich-architektonischen       kann nicht verändert werden. Daher sind die Position und
+Gründen oder zugunsten einer besseren betrieblichen Ge-        die Geschosskoten für die Anbindungen zu übernehmen.
+samtlösung ein Rückbau der Gaszentrale notwendig wer-
+den, würde die Bauherrschaft nicht um jeden Preis am Er-       Betrieb während der Bauphasen und Rochadeplanung
+halt festhalten. Bei einem (Teil-)Rückbau gelten dieselben     Der Betrieb des Spitals muss während der Bauphasen stän-
+Prämissen wie bei den Untergeschossen des Klinikums 2.         dig gewährleistet sein. Die Umsetzung der baulichen Mass-
+Die oberirdische Zugänglichkeit mit einem Tankwagen müs­       nahme muss ohne wesentliche Einschränkung des Spital-
+ste auch an einem neuen Standort gewährleistet sein.           betriebes erfolgen.
+
+VELF                                                           Die Auftraggeberschaft geht davon aus, dass für die Er-
+Beim Gebäude VELF war der ursprüngliche Grundgedanke,          neuerung des Klinikums 2 diverse Rochaden notwendig
+dass die Geschosse 4. Untergeschoss, 3. Untergeschoss,         werden. Bereiche, die aufgrund der Sanierung temporär
+2. Untergeschoss, 1. Untergeschoss und Erdgeschoss (Ebe-       ausgelagert werden müssen, sind durch eine geschickte
+ne 04–0), mit den Nutzungen wie Warenannahme, Logisti-         Rochadeplanung in bestehenden Gebäuden oder durch
+kinfrastruktur, Küche, Lager, Magazin und Technik (Zentra-     entsprechend zu erstellende Provisorien auf dem Areal
+len des City-Parking), aus betrieblichen und wirtschaftli-     vorgängig abzulösen. Diese Rochaden sind innerhalb des
+chen Gründen nicht rückgebaut werden sollten. Sollte aus       Projektperimeters zu realisieren und in den Etappierungs-
+städtebaulich-architektonischen Gründen oder zugunsten         plänen auszuweisen.
+einer besseren betrieblichen Gesamtlösung ein Rückbau              Zusammenhängende Funktionsbereiche dürfen nicht
+der erwähnten Geschosse nötig werden, wird seitens der         durch Bauetappen getrennt werden. Die notwendigen Ro-
+Bauherrschaft nicht um jeden Preis ein Erhalt gefordert. In    chadeflächen entsprechen mindestens den ausgelagerten
+diesem Falle müsste vorgängig zu einem allfälligen (Teil-)     Ist-Flächen. Der optimalen Anbindung an das Gesamtspital
+Rückbau an anderer Stelle innerhalb des Projektperimeters,     ist genügend Rechnung zu tragen.
+unter Berücksichtigung einer optimalen betrieblichen An-           Es ist wird darauf hingewiesen, dass Immissionen auf-
+bindung, ein entsprechender Ersatz geschaffen werden.          grund von Bautätigkeit den Betrieb bestimmter Funktions-
+Ebenfalls wäre die Umsetzbarkeit (Spitallogistik, Bauab-       bereiche unter Umständen unmöglich machen.
+lauf, Rochaden, Betrieb, Wirtschaftlichkeit etc.) aufzuzei-
+gen.                                                           Spitallogistik
+                                                               Das USB ist auf ein einwandfreies Funktionieren von Logis-
+                                                               tik, Warenannahme, Entsorgung, Lagerhaltung und Trans-
+Betriebliche Rahmenbedingungen                                 portanlagen (Mitteltransportanlage MTA, Spontantrans-
+Raumprogramm                                                   portanlage STA, Rohrpost etc.) während der Realisierungs-
+Das Raumprogramm der Stufe 2/Projektteil ist modular           phase und im erneuerten Klinikum 2 respektive in den Ro-
+strukturiert. Jedes Modul bildet eine betriebliche Einheit     chadebauten angewiesen. Die Umsetzung der baulichen
+mit spezifischen Anforderungen und ist als solche zu plat-     Massnahme muss ohne wesentliche Einschränkung der
+zieren. Die Module des Raumprogramms für den Wettbe-           Logistik erfolgen.
+
+
+
+
+                                                                                                                      15
+Rahmenbedingungen
+
+
+
+
+Für die Führung von Patienten, Personal und Waren sind              Parkierung
+funktionsangepasste Wegesysteme zwecks störungsfreien               Parkplätze im Areal, die aufgrund des Entwicklungskon-
+Betriebs auszuweisen. Dies ist vorrangig in den patienten-          zepts verloren gehen, sind zu ersetzen. Die Zugänglichkeit
+führenden Bereichen betreffend Einhaltung von Diskretion            des City-Parking muss zu jeder Tages- und Nachtzeit ge-
+und Wahrung von Würde und Sicherheit für den Patienten              währleistet sein (Ausnahme Ausgang Spitalgarten von 6.00
+umzusetzen. Funktionale Überschneidungen von nicht ko-              bis 20.00 Uhr, nur für Mitarbeitende).
+operierenden Aktivitäten sind zu vermeiden.
+                                                                    Das USB weist einen grossen Bedarf an Abstellmöglichkei-
+Sämtliche Neubauten müssen an die bestehende MTA/                   ten für Motorräder und Roller der Mitarbeitenden aus. Ins-
+STA angebunden werden.                                              gesamt sind 100 Abstellplätze auf dem Areal zu realisieren.
+                                                                    Für Besucher und Mitarbeiter sind an nützlicher Stelle ins-
+Zur Gewährleistung der Versorgung des Klinikums 1 und               gesamt 1200 Veloabstellplätze auf dem Areal zu planen.
+des OP-Ost ist eine Anbindung an die Transportanlagen zu            Diese sind schwergewichtig bei den Klinikbauten vorzuse-
+jedem Zeitpunkt aufrechtzuerhalten.                                 hen.
+
+Erschliessung Warenanlieferung                                      Helikopterlandeplatz
+Die bestehende Lösung mit Einfahrt der Anlieferung über             Auf dem Dach des Klinikums 2 sind zwei Helikopterlande-
+die Schanzenstrasse und Ausfahrt via Petersgraben ist aus           plätze mit direkter Liftverbindung zum Notfall des USB
+verkehrstechnischen und städtebaulichen Überlegungen                vorzusehen. Ein Helikopterlandeplatz ist während der gan-
+nicht ideal. Die Variante mit einer Wendeschlaufe im Un-            zen Sanierungsphase (beispielsweise als Provisorium) zu
+tergeschoss und einer Ausfahrt via Schanzenstrasse kann             ermöglichen.
+geprüft werden.
+                                                                    Notfallzufahrten
+Die unter dem heutigen Schwesternhaus verlaufende Zu-               Der bestehende Standort der Notfallzufahrt kann im Sinne
+fahrt zu Warenanlieferung und Pathologie sowie City-Par-            einer optimalen Gesamtlösung verschoben werden. Ein un-
+king können nicht abgebrochen werden und müssen in all-             terbruchfreies Funktionieren der Zufahrt und der Notfall-
+fällige Neubauten in diesem Baufeld integriert werden.              station muss dauernd bis zur Inbetriebnahme des neuen
+                                                                    Zugangs gewährleistet sein.
+
+
+
+
+                                                                                                               USB/Klinikum 2
+                                                                                                               Einfahrt Notfall (Spitalstrasse)
+
+
+
+
+16      Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Beurteilung Präqualifikation
+
+
+Beurteilungskriterien                                          Vorprüfung
+Nachwuchsförderung Architekten                                 Ergebnis der formellen Vorprüfung
+Im Sinn der Nachwuchsförderung werden maximal vier             Es haben insgesamt 31 Bewerberteams die notwendigen
+Nachwuchsteams mit jüngeren Architekten bei entspre-           Unterlagen abgegeben. Verschiedene Bewerbungen wei-
+chendem Nachweis zum Projektwettbewerb zugelassen.             sen tolerierbare Mängel betreffend Vollständigkeit auf.
+Bei deren Bewerbungen wird das nachgewiesene Poten­
+zial gegenüber dem Leistungsausweis von realisierten Pro-      Zwei Teams sind aufgrund unvollständiger Bewerbungsun-
+jekten höher gewichtet.                                        terlagen (fehlende Eingabeformulare, fehlende digitale Un-
+    Das Nachwuchsteam ist bei der Bewerbung als solches        terlagen, keine Selbstdeklaration des Gesamtleiters) nicht
+zu deklarieren und muss für die Präqualifikation als Voraus-   beurteilbar und werden einstimmig vom Verfahren ausge-
+setzung nachweisen, dass das Alter der geschäftsführen-        schlossen. Ein Team wird aufgrund von SIA 142, Artikel 12.2
+den Personen des/der Architekturbüro/-s zum Zeitpunkt          (Ausschlusskriterien Teilnehmende), von der Jury als nicht
+der öffentlichen Ausschreibung maximal 40 Jahre, Jahr-         teilnahmeberechtigt bewertet.
+gang 1971 oder jünger, ist.
+                                                               Ergebnis der materiellen Vorprüfung
+ Eignungskriterien                                             Im Rahmen der Vorprüfung wurden die Leistungsfähigkeit
+ Die Auswahl von ca. 20 ordnungsgemässen Bewerbenden           und Erfahrung der bewerbenden Generalplanerteams an-
+ wird durch das Preisgericht aufgrund von deren Projektie-     hand der eingereichten Referenzprojekte sowie der Anga-
+ rungs- und Ausführungskompetenzen vorgenommen. Es             ben zu Bürostrukturen und Schlüsselpersonen überprüft.
+ be­wertet die Eignung der Bewerbenden zur Teilnahme am
+ Wettbewerb nach der Qualität ihrer Referenzobjekte, ihrer     Das Preisgericht beschliesst einstimmig, 19 Bewerberteams
+ Erfahrung und ihrer Leistungsfähigkeit. Bewertet wird die     für die Teilnahme am Wettbewerb Erneuerung Klinikum 2,
+ Kompetenz, in hoher architektonisch-städtebaulicher Qua-      Stufe 1 zu qualifizieren.
+ lität funktionale und nachhaltige Bauten zu entwickeln und
+ auszuführen (städtebauliches Gesamtkonzept/architekto-
+ nisch-gestalterisches Konzept, Fun­k­tionalität, Erfahrung,
+ Kapazität, Referenzen und Schlüsselperson).
+ 	Vorausgesetzt wird, dass die anbietenden Firmen Refe-
+renzaufträge bezüglich Komplexität, Leistungsumfang und/­
+­oder Zweckbestimmung in der Art der ausgeschriebenen
+ Aufgabe ausgeführt haben oder sich in fortgeschrittener
+ Planung/Ausführung befinden. Grundlage für die Beurtei-
+ lung sind Referenzobjekte und Angaben.
+
+Der vorliegende Wettbewerb richtet sich nicht ausschliess-
+lich an Planungsbüros mit Spitalbauerfahrung. Planerteams
+mit Erfahrungen bei Projekten, die ähnliche Grössenord-
+nung und Komplexität aufweisen und die oben genannten
+Kriterien erfüllen, können ebenfalls für eine Teilnahme am
+Projektwettbewerb ausgewählt werden.
+
+
+
+
+                                                                                                                       17
+Beurteilung Präqualifikation
+
+
+
+
+Qualifiziert für Stufe 1
+Das Preisgericht hat aufgrund der gesetzten Eignungskri-
+terien einstimmig beschlossen, folgende 19 Bewerber für
+die Teilnahme am Generalplaner-Projektwettbewerb der
+Stufe 1 auszuwählen:
+
+Baumschlager Eberle                                                   Heinle Wischer und Partner
+A BE Zürich AG, Zürich                                                A Heinle Wischer Gesellschaft für Generalplanung mbH,
+G BE Zürich AG, Zürich                                                   D-Stuttgart
+                                                                      G Heinle Wischer Gesellschaft für Generalplanung mbH,
+SAM Architekten und Partner AG                                           D-Stuttgart
+A SAM Architekten und Partner AG, Zürich
+G SAM Architekten und Partner AG, Zürich                              Geninasca Delefortrie SA/Groupe 6 SA
+                                                                      A Geninasca Delefortrie SA, Neuchâtel
+GP Klinikum Unispital Basel/Darlington Meier                          A Groupe 6 SA, Neuchâtel
+A Darlington Meier Architekten AG, Zürich                             G Geninasca Delefortrie SA, Neuchâtel
+G GMS Partner AG, Zürich-Flughafen                                    G Groupe 6 SA, Neuchâtel
+
+giuliani.hönger                                                       Burckhardt + Partner
+A giuliani.hönger architekten eth-bsa-sia, Zürich                     A Burckhardt + Partner AG, Architekten Generalplaner,
+G Caretta + Weidmann Baumanagement AG, Zürich                            Basel
+                                                                      G Burckhardt + Partner AG, Architekten Generalplaner,
+Harry Gugger Studio/b+p baurealisation ag                                Basel
+A Harry Gugger Studio Ltd., Basel
+G b+p baurealisation ag, Zürich                                       Manetsch Meyer Architekten AG
+                                                                      A Manetsch Meyer Architekten AG, Zürich
+gmp Architekten                                                       G Manetsch Meyer Architekten AG, Zürich
+A gmp Generalplanungsgesellschaft mbH, D-Hamburg
+G gmp Generalplanungsgesellschaft mbH, D-Hamburg                      Christ & Gantenbein/Itten + Brechbühl AG
+                                                                      A Christ & Gantenbein Architekten ETH SIA BSA, Basel
+Drees & Sommer/Nickl & Partner                                        G Itten + Brechbuehl AG, Basel
+A Nickl & Partner Architekten AG, D-München
+G Drees & Sommer Schweiz GmbH, Basel                                  HPP Architekten/b+p baurealisation ag
+                                                                      A HPP GmbH & Co. KG, D-Stuttgart
+Bietergemeinschaft :mlzd/b+p baurealisation ag*                       G HPP GmbH & Co. KG, D-Stuttgart
+A :mlzd, Biel                                                         G b+p baurealisation ag, Zürich
+G :mlzd, Biel
+G b+p baurealisation ag, Zürich                                       ARGE SCAU/Caretta + Weidmann*
+                                                                      A SCAU, F-Paris
+Herzog & de Meuron/Gruner AG                                          G Caretta + Weidmann Baumanagement AG, Zürich
+A Herzog & de Meuron, Basel
+G Gruner AG, Basel                                                    Henning Larsen Architects
+                                                                      A Henning Larsen Architects, DK-Kopenhagen
+Rapp Arcoplan AG                                                      G Henning Larsen Architects, DK-Kopenhagen
+A Rapp Arcoplan AG, Basel                                             G b+p baurealisation ag, Zürich
+A Butscher Architekten AG, Basel
+A Steinmann & Schmid Architekten AG, Basel                            C.F. Møller A/S
+G Rapp Arcoplan AG, Basel                                             A Arkitektfirmaet C.F. Møller A/S, DK-Aarhus
+                                                                      G b+p baurealisation ag, Zürich
+
+
+
+
+                                                                      A	Architektur
+                                                                      G	Gesamtleitung
+                                                                      * Verzichteten im Verlauf der Stufe 1 auf eine Teilnahme.
+
+
+
+
+18        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Beurteilung Stufe 1
+
+
+Beurteilungskriterien                                   Vorprüfung
+Es kommen die folgenden Beurteilungskriterien zur An-   17 Projekte wurden unter Wahrung der Anonymität fristge-
+wendung:                                                recht eingereicht.
+
+Wettbewerb Stufe 1/Gesamtsicht                          Projekt 01   Im Bilde der Stadt
+–– Architektur/städtebauliche Qualitäten                Projekt 02   BASILEA
+–– Freiraumkonzept                                      Projekt 03   ANNA BLUME
+–– Etappierbarkeit/Aufrechterhaltung des Betriebs zu    Projekt 04   Der Schlüssel
+   jedem Zeitpunkt                                      Projekt 05   Mondrian
+–– Spitalbetriebliche Organisation                      Projekt 06   Paracelsus
+–– Erfüllung des Raumprogramms                          Projekt 07   Margino
+–– Wirtschaftlichkeit                                   Projekt 08   Horizon Vert
+–– Umgang mit baugeschichtlichem Kontext, Denkmal-      Projekt 09   Tangente des Rheines
+   schutz                                               Projekt 10   the edge
+–– Nachhaltigkeit/Flexibilität                          Projekt 11   Okazaki
+                                                        Projekt 12   ARCADIA
+Die Reihenfolge der Kriterien bedeutet keine Wertung.   Projekt 13   Kazwei
+                                                        Projekt 14   Polis
+                                                        Projekt 15   Alant
+                                                        Projekt 16   Wallace
+                                                        Projekt 17   Hôtel-Dieu
+
+                                                        Nummerierung der Projekte gemäss Eingang der Beiträge
+                                                        beim Veranstalter.
+
+                                                        Formelle Vorprüfung
+                                                        Zwei Teams verzichteten im Laufe der Stufe 1 des Wettbe-
+                                                        werbs auf eine Teilnahme am Verfahren.
+
+                                                        Alle Projekte weisen bei den eingereichten Unterlagen ver-
+                                                        schiedene kleinere Mängel hinsichtlich Vollständigkeit der
+                                                        geforderten Inhalte wie auch deren Darstellung auf. Sämt-
+                                                        liche Projekte sind aber in den wesentlichen Bestandteilen
+                                                        vollständig, leserlich und damit beurteilbar.
+
+                                                        Kein Teilnehmer hat gegen das Anonymitätsgebot ver­stos­
+                                                        sen. Die Vorprüfenden empfehlen dem Preisgericht, alle
+                                                        Wettbewerbsbeiträge zur Beurteilung zuzulassen.
+
+
+
+
+                                                                                                               19
+Beurteilung Stufe 1
+
+
+
+
+                                                                      Beurteilung
+Materielle Vorprüfung                                                 Erster Jurytag
+Die materielle Vorprüfung bezieht sich auf die Erfüllung der          Die Jury trifft sich am am 31. August 2012 zum ersten Jury­
+Anforderungen und die Einhaltung der Rahmenbedingun-                  tag der Stufe 1.
+gen gemäss dem Wettbewerbsprogramm der Stufe 1 und
+der Fragenbeantwortung. Die Einhaltung dieser Bestim-                 Dem Antrag der Vorprüfung, sämtliche Projekte zur Beur-
+mungen ist die Grundlage für allfällige Ausschlüsse von der           teilung zuzulassen, wird durch das Preisgericht einstimmig
+Preiserteilung gemäss Ordnung SIA 142, Art. 19.                       stattgegeben.
+
+Folgende Rahmenbedingungen werden geprüft:                            Die Projekte werden aufgeteilt und von zuvor festgelegten
+–– Einhaltung des Wettbewerbs- und Projektperimeters                  Gruppen eingehend studiert. Im Anschluss werden die Er-
+–– Höhenbeschränkungen/Mantellinien/Baulinien                         gebnisse der Projekte von der jeweiligen Gruppe dem Ple-
+–– Abstände gegenüber denkmalgeschützten Bauten                       num vorgestellt. Danach findet ein weiterer Rundgang vor
+–– Spitalgarten/Erhalt Baumbestand                                    den Projekten statt. Die Jury beschliesst, folgende neun
+–– Rückbau von Gebäuden und Anlagen                                   Projekte für den zweiten Jurytag vertieft zu prüfen:
+–– Raumprogramm
+–– Anbindung an den Bestand                                           Projekt 02      BASILEA
+–– Betrieb während der Bauphasen/Rochadeplanung                       Projekt 03      ANNA BLUME
+–– Spitallogistik                                                     Projekt 05      Mondrian
+–– Erhalt der Zufahrt Klingelberg-/Schanzenstrasse                    Projekt 07      Margino
+–– Parkierung Velo und Motorrad, Roller                               Projekt 12      ARCADIA
+–– Helikopterlandeplätze                                              Projekt 13      Kazwei
+                                                                      Projekt 15      ALANT
+Weiter werden nebst den Rahmenbedingungen der Um-                     Projekt 16      Wallace
+gang mit gewissen Hinweisen überprüft.                                Projekt 17      Hôtel-Dieu
+
+Sämtliche Projekte erfüllen die Vorgaben des Raumpro-                 Zweiter Jurytag
+gramms weitestgehend mit dem Gesamtkonzept.                           Die Jury trifft sich am am 4. September 2012 zum zweiten
+   Es kann festgehalten werden, dass aufgrund der vorlie-             Jurytag der Stufe 1.
+genden schematischen Etappierungskonzepte sämtliche
+Projekte mit Anpassungen realisierbar erscheinen.                     Die Vorprüfung erläutert die vertiefte Prüfung der neun
+                                                                      aus­gewählten Projekte.
+                                                                          Das Projekt 10 the edge, das am ersten Jurytag aus-
+                                                                      geschieden wurde, wird auf Antrag verschiedener Jurymit-
+                                                                      glieder rückgeholt.
+
+                                                                      Nach weiteren Rundgängen beschliesst die Jury, folgende
+                                                                      sieben Teams für Stufe 2 des Wettbewerbs auszuwählen:
+
+                                                                      Projekt 02      BASILEA
+                                                                      Projekt 03      ANNA BLUME
+                                                                      Projekt 07      Margino
+                                                                      Projekt 10      the edge
+                                                                      Projekt 12      ARCADIA
+                                                                      Projekt 13      Kazwei
+                                                                      Projekt 16      Wallace
+
+
+
+
+20        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Beurteilung Stufe 2
+
+
+Beurteilungskriterien                                      Vorprüfung
+Die Stufe 2 zeichnet sich durch einen höheren Detaillie-   Formelle Vorprüfung
+rungsgrad aus. Folgende Beurteilungskriterien kommen       Sämtliche qualifizierten Projekte wurden fristgerecht ein-
+zur Anwendung:                                             gereicht. Alle Projekte weisen bei den eingereichten Unter-
+                                                           lagen verschiedene kleinere Mängel hinsichtlich Vollstän-
+Wettbewerb Stufe 2/Projektteil                             digkeit der geforderten Inhalte wie auch deren Darstellung
+–– Sämtliche Beurteilungskriterien der Stufe 1             auf. Sämtliche Projekte sind aber in den wesentlichen Be-
+–– Plausibilität Sanierungs- und Umsetzungskonzept         standteilen vollständig, leserlich und damit beurteilbar. Kein
+   Klinikum 2                                              Teilnehmer hat gegen das Anonymitätsgebot verstossen.
+
+Die Reihenfolge der Kriterien bedeutet keine Wertung.      Die Vorprüfenden empfehlen dem Preisgericht, alle Wett-
+                                                           bewerbsbeiträge zur Beurteilung zuzulassen.
+
+                                                           Materielle Vorprüfung
+                                                           Es wurden die gleichen Rahmenbedingungen und Hinweise
+                                                           wie in Stufe 1 vorgegeben und geprüft. Anhand der einge-
+                                                           reichten Unterlagen wurden die Angaben zur Geschossflä-
+                                                           che geprüft und miteinander verglichen.
+
+                                                           Sämtliche Projekte erfüllen weitestgehend die Vorgaben
+                                                           des Raumprogramms für die Sanierungsphase 1.
+
+                                                           Die Etappierungskonzepte werden auf ihre Plausibilität und
+                                                           Realisierbarkeit geprüft. Es wird festgehalten, dass auf den
+                                                           vorliegenden schematischen Etappierungskonzepten sämt­
+                                                           liche Projekte mit Anpassungen (zusätzliche Provisorien,
+                                                           Anpassung der Zeitachse, Anpassung der Etappierungspe-
+                                                           rimeter etc.) realisierbar erscheinen.
+
+
+
+
+                                                                                                                      21
+Beurteilung Stufe 2
+
+
+
+
+Erster Jurytag                                                        Zweiter Jurytag
+Die Jury trifft sich am 7. März 2013 zum ersten Jurytag.              Die Jury trifft sich am 14. März 2013 zum zweiten Jurytag.
+
+Dem Antrag der Vorprüfung, sämtliche Projekte zur Beur-               Der Vorsitzende fasst in einem Rückblick die Erkenntnisse
+teilung zuzulassen, wird durch das Preisgericht einstimmig            des ersten Jurytages nochmals zusammen. Das Gremium
+stattgegeben.                                                         entscheidet, kein weiteres Projekt in Rundgang 2 und 3
+                                                                      mitzunehmen.
+Rundgang 1 (im Plenum)
+Die Projekte werden aufgeteilt und von zuvor festgelegten             Rundgang 2 (im Plenum)
+Gruppen eingehender studiert. Im Anschluss werden die                 Das Dokument der Vorprüfung «Vertiefte Prüfung der Pro-
+Er­gebnisse der Projekte von der jeweiligen Gruppe dem                jekte 12, 13 und 16» wird erläutert. Folgende Projekte wer-
+Plenum vorgestellt.                                                   den detailliert besprochen:
+
+Aufgrund betrieblicher und/oder architektonischer Schwä-              Projekt 12      ARCADIA
+chen werden folgende Projekte in einem ersten Rundgang                Projekt 13      Kazwei
+ausgeschieden:                                                        Projekt 16      Wallace
+
+Projekt 02      BASILEA                                               Entschieden wird, das Projekt Wallace nicht in den Rund-
+Projekt 03      ANNA BLUME                                            gang 3 mitzunehmen.
+Projekt 07      Margino
+Projekt 10      the edge                                              Rundgang 3 (im Plenum)
+                                                                      Folgende beiden Projekte werden erneut zu den Kriterien
+Es werden einstimmig drei Projekte zur vertieften Prüfung             Architektur, Funktionalität und Betrieb sowie Wirtschaft-
+der Wirtschaftlichkeit, der betrieblichen Anforderungen und           lichkeit diskutiert und die Unterschiede beider Projektvor-
+der Rahmenbedingungen für den zweiten Jurytag ausge-                  schläge bewertet.
+wählt:
+                                                                      Projekt 12      ARCADIA
+Projekt 12      ARCADIA                                               Projekt 13      Kazwei
+Projekt 13      Kazwei
+Projekt 16      Wallace                                               Aufgrund der Diskussion und der darauf folgenden Abstim-
+                                                                      mung wird das Projekt ARCADIA als Sieger gewählt.
+
+                                                                      Rangfolge und Aufteilung der Gesamtpreissumme
+                                                                      Nach eingehender Diskussion und einer genaueren Beur-
+                                                                      teilung der Beiträge beschliesst das Preisgericht folgende
+                                                                      Rangierung und Aufteilung der Gesamtpreis­summe:
+
+                                                                      1. Rang/1. Preis Arcadia                  CHF 85 000.–
+                                                                      2. Rang/2. Preis Kazwei                    CHF 75 000.–
+                                                                      3. Rang/3. Preis The Edge                  CHF 50 000.–
+                                                                      4. Rang/4. Preis Wallace                   CHF 40 000.–
+                                                                      5. Rang/5. Preis Margino                   CHF 30 000.–
+                                                                      ohne Rangierung Basilea
+                                                                      ohne Rangierung Anna Blume
+
+                                                                      Die verfügbare Summe für Preise, Ankäufe und Entschädi-
+                                                                      gungen betrug 900 000 CHF. Die Teilnehmenden erhielten
+                                                                      für jedes zur Beurteilung zugelassene Projekt eine feste
+                                                                      Entschädigung in der Höhe von 20 000 CHF zugesprochen.
+                                                                         Jedes im Rahmen des Projektwettbewerbs Stufe 2 zur
+                                                                      Beurteilung zugelassene Projekt erhält zusätzlich eine Ent-
+                                                                      schädigung von 40 000 CHF.
+
+                                                                      Sämtliche Preisgelder exkl. MWSt.
+
+
+
+
+22        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                                                             Beurteilung Stufe 2
+
+
+
+
+Couvertöffnung
+Nach erfolgter Rangierung und Preisgeldverteilung ergibt
+die Couvertöffnung folgende Verfassenden:
+
+ARCADIA
+A giuliani.hönger architekten eth-bsa-sia, Zürich
+G Caretta + Weidmann Baumanagement AG, Zürich
+
+Kazwei
+A Herzog & de Meuron, Basel
+G Gruner AG, Basel
+
+the edge
+A SAM Architekten und Partner AG, Zürich
+G SAM Architekten und Partner AG, Zürich
+
+Wallace
+A Darlington Meier Architekten AG, Zürich
+G GMS Partner AG, Zürich-Flughafen
+
+Margino
+A HPP GmbH & Co. KG, D-Stuttgart
+G HPP GmbH & Co. KG, D-Stuttgart
+G b+p baurealisation ag, Zürich
+
+BASILEA
+A gmp Generalplanungsgesellschaft mbH, D-Hamburg
+G gmp Generalplanungsgesellschaft mbH, D-Hamburg
+
+ANNA BLUME
+A Rapp Arcoplan AG, Basel
+A Butscher Architekten AG, Basel
+A Steinmann & Schmid Architekten AG, Basel
+G Rapp Arcoplan AG, Basel
+
+Kein Mitglied des Preisgerichts hat ein bestehendes Abhän-
+gigkeits- oder Zusammengehörigkeitsverhältnis erkannt.
+Somit sind keine Ausstands- bzw. Ausschlussgründe gege-
+ben. 
+
+
+
+
+A	Architektur
+G	Gesamtleitung
+
+
+
+
+                                                                            23
+Empfehlung
+und Weiterbearbeitung
+
+
+Das Preisgericht spricht in der vollzähligen Schlussabstim-          Das Preisgericht empfiehlt die Weiterbearbeitung des Pro-
+mung zur Rangierung und Preiszuteilung folgende Empfeh-              jekts ARCADIA unter Beachtung nachfolgend genannter
+lung aus:                                                            Aspekte:
+
+Das Projekt ARCADIA im ersten Rang wird zur Weiterbear-              –– Die städtebauliche Setzung wird positiv gewürdigt.
+beitung empfohlen. Es wird festgehalten, dass das Sieger-               Position und Geschossigkeit des Forschungsturms in
+projekt einen starken städtebaulichen Beitrag mit einem                 der Situation Gesamtkonzept sind zu prüfen, ohne
+hohen Mass an Nutzungsflexibilität, sinnvoll aufgezeigten               die grundsätzlichen Qualitäten des städtebaulichen
+Spitalprozessen und angemessener Wirtschaftlichkeit ver-                Entwurfs zu hinterfragen.
+eint. Es liegt ein klarer und konsequenter Entwurf vor, wel-         –– Der architektonische Ausdruck und die Materialisie-
+cher auch aufgrund des empfohlenen Etappierungskon-                     rung im Innen- und Aussenraum treffen noch nicht die
+zepts auf Entwicklungen und allfällige Veränderungen im                 Erwartungen an ein Universitätsspital. Dies betrifft
+Spitalbetrieb reagieren kann.                                           insbesondere die Fassadengestaltung, die Gestaltung
+                                                                        der Vorfahrt und das innenräumliche Erscheinungsbild.
+                                                                     –– Die Konzeption der zentralen Erschliessungsachse
+                                                                        ist bezüglich Raumqualität zu verbessern.
+                                                                     –– Die Gestaltung der Höfe zwischen neuem Klinikum 2
+                                                                        und Markgräflerhof ist sorgfältig auszubilden.
+                                                                     –– Die Situierung der Helikopterlandeplätze erfüllt
+                                                                        nicht die Vorgaben an den Sicherheitsabstand und
+                                                                        ist dementsprechend umzuplanen.
+                                                                     –– Das Regelgeschoss im Bettenhaus ist bezüglich Auf-
+                                                                        enthaltsqualität für Besucher zu optimieren.
+                                                                     –– Die Tageslichtversorgung in den Untergeschossen ist
+                                                                        zu verbessern.
+                                                                     –– Die Fassade ist in ihrer konstruktiven wie auch mate­
+                                                                        riellen Ausformulierung zu überarbeiten und den Anfor-
+                                                                        derungen des nachhaltigen Bauens anzupassen.
+
+
+
+
+24       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Projekte
+
+
+Stufe 2/Projektteil
+
+
+
+
+/2                    25
+Projekte Stufe 2
+Siegerprojekt/Sanierungsphase 1
+Projekte Stufe 2
+
+
+
+
+Projekt 12
+1. Rang/1. Preis                                                                                           Arcadia
+Architektur
+giuliani.hönger architekten eth-bsa-sia
+                                                                                                                 Siegerprojekt
+Kanzleistrasse 57, 8004 Zürich
+Lorenzo Giuliani, Christian Hönger, Julia Koch,
+Martin Künzler
+
+Gesamtleitung
+Caretta + Weidmann Baumanagement AG
+Langgrüttstrasse 112, 8047 Zürich
+Rafael Caretta, Martin Greutmann
+
+
+Fachplaner und Spezialisten
+PGMM Schweiz AG, Winterthur
+Dr. Lüchinger + Meyer Bauingenieure AG, Zürich
+Appert & Zwahlen GmbH Landschaftsarchitekten BSLA, Cham
+Aicher, De Martin, Zweng AG, Luzern
+SYTEK AG, Binningen
+Technik im Bau AG, Luzern
+
+
+
+
+28        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                    Arcadia
+
+
+
+
+Sanierungsphase 1
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                         29
+Projekte Stufe 2
+1. Rang/1. Preis
+
+
+
+
+Beurteilung
+
+
+Städtebau                                                             Denkmalschutz
+Städtebaulich verfolgt das Projekt zwei Ziele: Stärkung               Alle geschützten Baudenkmäler und Inventarobjekte blei-
+und Erweiterung des zentralen Freiraums und die Anbin-                ben in der ersten Etappe ungeschmälert erhalten. Die Or-
+dung des Spitalkomplexes an den Stadtkörper mittels ei-               ganisation der Notfallzufahrt im 1. Untergeschoss wirkt sich
+ner Rand­­bebauung. Diese übernimmt grösstenteils heutige             günstig auf die Umgebung der Predigerkirche aus. Ebenso
+Gebäudehöhen und reagiert angemessen auf die ortsspe-                 ist der Zwischenraum zwischen Markgräflerhof und Klini-
+zifischen Gegebenheiten.                                              kum 2 auch mit den neuen Lichthöfen adäquat gelöst. Die
+    Der Spitalgarten soll letztendlich durch markante Hoch-           Fassade gegen den Petersgraben vermag aber noch nicht
+bauten, Bettenturm und Forschungsgebäude, neu gefasst                 zu überzeugen. Ihre Höhe (fünf Geschosse) und Ausgestal-
+werden. Mit einer präzisierten Ausformulierung der unter-             tung, insbesondere die Auskragung des Klinikums 2 über
+bauten Hangkante und der räumlichen Erweiterung des                   dem Haupteingang, ist im Umfeld der historischen Bebau-
+Terrassengartens auf Niveau Hebelstrasse wird der Grün-               ung ungünstig.
+raum deutlich aufgewertet.
+    Die neuen Behandlungsbauten verbessern die freiräum-              Freiraum
+liche Situation bei den Denkmälern Predigerkirche und                 Den bestehenden Spitalgarten sehen die Verfasser als eine
+Markgräflerhof.                                                       grosse Qualität und er bildet den Ausgangspunkt für die
+                                                                      städtebaulichen Überlegungen. Durch den Geländesprung
+Architektur                                                           mit den Arkaden wird der Spitalgarten teilweise neu ge-
+Die Verfassenden schlagen vor, praktisch die gesamte                  staltet und es entstehen neue Wegführungen. Der Neubau
+Substanz des heutigen Klinikums 2 zu ersetzen. Die neue               mit dem vorgesehenen Café an der südöstlichen Ecke des
+Gebäudestruktur wird entlang einer zentralen Erschlies­               Gartens ist nur durch topografische Veränderungen und
+sungsachse (Hauptschlagader) entwickelt und funktional                höhere Mauern machbar. Die Verschattung des Gartens
+wie räumlich stimmig mit dem Bestand verknüpft. Die Tren-             muss aufgrund des hohen Gebäudes bedacht werden. Der
+nung des Haupteingangs auf Niveau Petersgraben und des                Niveauunterschied wird neu interpretiert und als «aktiver»
+Notfalls auf Höhe der Spitalstrasse verhindert kritische              Geländesprung formuliert. Es entstehen Arkaden und Trep-
+Kreuzungen von Patienten und Besuchern.                               penanlagen mit gedeckten Verbindungen. Der untere Gar-
+    Die vielen Funktionseinheiten des U+B-Bereiches wer-              tenteil wird so mit dem oberen Garten verwoben und mit
+den in einem grossflächigen System betrieblich richtig,               den Treppenanlagen entsteht eine Terrasse, wo der Be-
+oftmals sehr gut verortet und organisiert. Das vorgeschla-            trachter auf einen grossen unteren bepflanzten Gartenteil
+gene System ermöglicht es, dass jedes einzelne U+B-Mo-                sehen kann.
+dul von zwei Höfen profitieren kann und die Grenzen zwi-                 Zwischen dem Markgräflerhof und dem neuen Klinikum
+schen den Modulen beweglich bleiben.                                  2 sind mehrere Innenhöfe zur Belichtung der unteren Ge-
+    Das Regelgeschoss des Bettenhauses zeichnet sich                  schosse vorgesehen. Diese Höfe werden mit einem Gar-
+durch eine grosse betriebliche Effizienz aus. Die Vorteile            tenraum gefasst, integrieren sich in das Gesamtkonzept
+der getrennten Erschliessungen sind offensichtlich, leider            und lassen dem Markgräflerhof genügend Freiraum. Die
+reduziert sich die Aufenthaltsqualität ausschliesslich auf            vorgesehene Dachterrasse wird positiv aufgenommen.
+die Patientenzimmer, welche alle von einer guten Aussicht
+profitieren können.                                                   Funktionsanordnung und Prozesse
+    Das Projekt überzeugt durch seine Klarheit und Kor-               Der Haupteingang im Geschoss 0/Erdgeschoss mit gross-
+rektheit. Das Preisgericht bedauert aber, dass diese kon-             zügiger Vorfahrt ist gut erkennbar und die übersichtliche
+sequente Sachlichkeit auch räumlich und atmosphärisch                 Magistrale führt direkt zum Spitalgarten. Dank zweckmäs­
+zu einer gewissen Nüchternheit geführt hat. So ist zum                siger Anordnung der ambulanten Bereiche und übersichtli-
+Beispiel der neue Haupteingang nicht nur funktional rich-             cher Wegeführung im U+B-Bereich ist die Orientierung
+tig und gut gelöst, es wird auch eine der Bedeutung des               einfach und die Anbindung an die bestehenden Bauten er-
+Spitals angemessene Grosszügigkeit offeriert. Die archi-              füllt die Vorgabe vollauf. Dasselbe gilt auch für die Nut-
+tektonische Ausprägung dieses zweigeschossigen Raumes                 zungsverteilung. Gut angeordnet sind insbesondere die
+an der Schnittstelle zur Altstadt mit der vorgeschlagenen             Bereiche Intensivpflege auf dem gleichen Geschoss wie
+Akzentuierung der Statik vermag aber nicht restlos zu                 die Intensivpflege Chirurgie im OP-Ost. Die zum Teil gross-
+überzeugen. Ähnliches gilt auch für die zwar räumlich dif-            en Schichttiefen führen in gewissen Bereichen zu nur teil-
+ferenziert entwickelte Haupterschliessungsachse; auch                 weise befriedigendem Tageslichtbezug und erschweren
+hier dürfte die räumliche Qualität z.B. mit einem etwas ent-          beispielsweise für Untersuchungszimmer eine effiziente
+spannteren Umgang mit dem statischen Grundraster oder                 Raumnutzung. Befriedigend gelöst ist die Notfallzufahrt
+einer anderen Materialisierung nur gewinnen.                          mit klarer Trennung der Patienten liegend und gehend. Die
+                                                                      Fläche für die Rettungsfahrzeuge genügt jedoch nicht.
+
+
+
+
+30        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Arcadia
+
+
+
+
+     31
+Projekte Stufe 2
+1. Rang/1. Preis
+
+
+
+
+Beurteilung
+
+
+Der Zugang City-Parking zum Petersgraben ist durchs Ge-               baufläche und zudem prozessbedingt die drittgrösste Ge-
+schoss 03 gewährleistet und fürs Personal wird ein direk-             schossfläche aus.
+ter Zugang ins Geschoss 02 vorgeschlagen. Die Patienten-
+wege sind gut entflochten und die Aufzüge entsprechend                Würdigung Projekt
+angeordnet. Die Pflegeabteilungen, niederinstalliert mit ge-          Das Projekt Arcadia überzeugt mit einem soliden Kon-
+schossweise sich wiederholenden Layouts und guter Tren-               zept: städtebauliche Akzentuierung des Spitalgartens,
+nung zwischen Patienten und Besuchern, sind kompakt,                  rücksichtsvoller Umgang mit der historisch wertvollen
+mit kurzen Wegen und dennoch gut funktionsfähig. Falls                Nachbarschaft durch entsprechende Setzung der Neubau-
+Einbettzimmer geplant werden, kann dafür eine weitere                 ten und mit angemessener Höhenentwicklung, sinnvolle
+Achse genutzt und somit bis zu 28 Stellplätze je Station              Etappierung und eine präzise Formation der funktionalen
+realisiert werden. Die Entwicklungsreserve ist ideal ange-            Einheiten. Daraus entwickelten die Verfasser stringent ei-
+ordnet und ausgewiesen.                                               nen betrieblich sehr gut funktionierenden Projektvorschlag.
+                                                                      Die gekonnte Platzierung der Funktionseinheiten, wie auch
+Logistik                                                              die implizit aufgezeigten Spitalprozesse ergeben eine ins-
+Eine funktionsfähige Spitallogistik während der Bauphase              gesamt gute Wirtschaftlichkeit, obschon Hauptnutzfläche
+ist immer gewährleistet. Es bestehen perfekte MTA- und                und Investition (praktisch vollständiger Ersatz der Bausub-
+STA-Anbindungen in den Neubauten und dadurch kurze                    stanz) keine Spitzenwerte darstellen. Die gewählte Grund-
+Verteilwege vor Ort. Die Entflechtung zwischen liegenden              konzeption und die empfohlene Etappierung ermöglichen
+Patienten und Besuchern ist gewährleistet. Die Liftkapazi-            zudem, dass auf Entwicklungen und allfällige Veränderun-
+täten für ambulante und liegende Patienten sowie Mitarbei-            gen reagiert werden kann, ohne die Gesamtidee zu schmä-
+ter und Besucher werden als sehr gut dimensioniert einge-             lern.
+schätzt.                                                                 Das Preisgericht ist überzeugt, dass in der weiteren
+                                                                      Projektierung das Projekt in Bezug auf seinen architekto-
+Gebäudetechnik                                                        nischen Ausdruck weiter gewinnen wird.
+Die Konzepte und Lösungsansätze der Energie und Haus-
+technik sind nachvollziehbar und dem Bearbeitungsstand
+entsprechend beschrieben. Es ist zu berücksichtigen, dass
+der Bau eines zentralen Energieversorgungs-Stützpunktes
+während der ersten Etappe für den ganzen Umbauperime-
+ter notwendig ist. Die Aussage über den Einsatz von Um-
+luftkühlgeräten in System- und technischen Räumen konn-
+te nicht nachvollzogen werden.
+
+Bauliche und betriebliche Aspekte
+Das Etappierungskonzept schlägt eine klare Etappierung
+in drei Hauptetappen vor. Mit einer grossen ersten Etappe
+werden die Flächen für die notwendigen Rochaden ge-
+schaffen. Die Pflegebereiche im Nahbereich der Baustelle
+der ersten Etappe sind sinnvollerweise in ein temporäres
+Provisorium auszulagern. In der zweiten Etappe sinkt die
+für den Spitalbetrieb zur Verfügung stehende Fläche unter
+den heutigen Wert, was eine Präzisierung dieser Etappe
+nötig macht. Positiv wird gewertet, dass nach der ersten
+Etappe das Bettenhaus des Klinikums 2 vollständig abge-
+löst und abgebrochen werden kann.
+
+Wirtschaftlichkeit
+Das Projekt generiert mittelhohe Investitionskosten. Diese
+befinden sich in der vom Masterplan Campus Gesundheit
+definierten finanziellen Bandbreite und liegen im Querver-
+gleich zu den Konkurrenzprojekten im mittleren bis oberen
+Drittel. Es ist zu beachten, dass die Verfasser grösstmögli-
+che Neubausubstanz empfehlen. Somit weist ihr Projekt
+ein grosses Rückbauvolumen, einen hohen Anteil an Neu-
+
+
+
+
+32        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                                                             Arcadia
+
+
+
+
+Etappierung
+
+
+Vorbereitung (Istzustand)     Etappe 1
+
+
+
+
+Etappe 2a                     Etappe 2b
+
+
+
+
+Etappe 3a                   Etappe 3b     Fertigstellung
+
+
+
+
+                                                Bestand in Betrieb
+                                               	Rückbau
+                                               	Neubau
+                                               	Provisorien
+                                               	Neu in Betrieb
+
+
+
+
+                                                                     33
+Projekte Stufe 2
+1. Rang/1. Preis
+
+
+
+
+34        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Arcadia
+
+
+
+
+     35
+Projekte Stufe 2
+1. Rang/1. Preis
+
+
+
+
+36        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Arcadia
+
+
+
+
+     37
+Projekte Stufe 2
+1. Rang/1. Preis
+
+
+
+
+38        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Arcadia
+
+
+
+
+     39
+Projekte Stufe 2
+
+
+
+
+Projekt 13
+2. Rang/2. Preis                                                                                                 Kazwei
+Architektur
+Herzog & de Meuron
+Rheinschanze 6, 4056 Basel
+Jacques Herzog, Pierre de Meuron, Christine Binswanger,
+Thomas de Vries, Mark Bähr
+
+Gesamtleitung
+Gruner AG
+Gellertstrasse 55, 4020 Basel
+Peter Keller
+
+
+Fachplaner und Spezialisten
+Institut für Beratungen im Gesundheitswesen (IBG), Aarau
+Gruner AG, Basel
+Vogt Landscape Ltd., GB-London
+Amstein + Walthert AG, Zürich
+Kiwi Systemingenieure und Berater AG, Dübendorf
+
+
+
+
+40        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                    Kazwei
+
+
+
+
+Sanierungsphase 1
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                        41
+Projekte Stufe 2
+2. Rang/2. Preis
+
+
+
+
+Beurteilung
+
+
+Städtebau                                                            Freiraum
+Die städtebauliche Setzung mit einem niedrigen Bauvolu-              Die Verfasser erkennen die hohe Qualität des bestehenden
+men ist überzeugend.                                                 Spitalgartens und verändern dort, wo Handlungsbedarf er-
+	Sie respektiert die historische Altstadt und integriert die         scheint, die Strukturen subtil. Die vorgesehene Hierarchi-
+unter Denkmalschutz stehende Predigerkirche, das Klini-              sierung der Wege und die Strukturierung der Hangkante
+kum 1 sowie den Holsteiner- und den Markgräflerhof ele-              mit Hängepflanzen sowie Hecken klären die verschiede-
+gant in das Gesamtkonzept. Der Bezug zu Letzterem wird               nen Raumsituationen und tragen zum besseren Verständ-
+gegenüber der heutigen Situation wesentlich verbessert               nis der unterschiedlichen Gartenbereiche bei. Der Mark-
+und durch die analoge Erweiterung ein selbstverständlicher           gräflerhof erhält durch die Setzung des neuen Klinikums 2
+Parkeingang geschaffen. Ob die Fassung des Holsteiner-               einen hofartigen Charakter. Die grosskronigen, kapitalen
+hofes in der vorgetragenen Art ideal ist, darf hinterfragt           Bäume bleiben bestehen und werden vereinzelt mit weite-
+werden.                                                              ren Baumgruppen ergänzt. Der anschliessende «Hebel-
+                                                                     park» erhält mit dem vorgesehenen aufgelösten Baumras-
+Architektur                                                          ter einen grosszügigen Eingang zum Spitalgarten von der
+Architektonisch wird das Klinikum 2 in einen Sockel und ei-          Hebelstrasse her.
+nen aufgelegten Baukörper gegliedert. Ersterer schafft mit           	Im Gebäudeinnern entstehen drei unterschiedliche Hof-
+seinem Horizont und den Pfeilern sensible Bezüge zur Alt-            typen, welche sowohl in den Dimensionen als auch mit der
+stadt und sucht mittels verwandtschaftlicher Materialisie-           Vegetation auf die jeweiligen Situationen und Nutzungen
+rung den Dialog mit den benachbarten Gebäuden der Mo-                eingehen. Es sind dies begehbare Höfe entlang dem Boule-
+derne. Ein vielversprechender Ansatz zum «Bauen im his-              vard, kleine Höfe als Lichtspender sowie lineare Höfe ent-
+torischen Kontext». Die aufgelegten Obergeschosse – tref-            lang der Etappierungslinie. Der Dachgarten wird ähnlich
+fend als Scholle beschrieben – sind in ihrer räumlichen              einem Kreuzgang mit unterschiedlichen Gartenräumen mit
+Tiefe und der haptischen wie visuellen Substanz ein schö-            niedriger Vegetation ausgebildet, die sich zu den Gebäude-
+ner Vorschlag, wobei der betriebliche Mehraufwand der                ecken verdichten. Zusätzlich entsteht auf dem 2. Oberge-
+Balkone gegenüber dem architektonischen Mehrwert ab-                 schoss ein Stationsgarten mit einer Panoramarundsicht.
+zuwägen wäre.                                                        Die Prüfung hat ergeben, dass die Lage des Helikopterlan-
+    Der Eingang am Petersgraben ist strategisch gut ge-              deplatzes nicht vollumfänglich mit der vorgesehenen Dach-
+wählt, interpretiert feinsinnig die Räumlichkeit der Altstadt,       gartenvegetation zu vereinbaren ist.
+könnte jedoch akzentuierter formuliert sein und krankt an               Durch die Differenzierung der verschiedenen Freiräume
+den zu steilen Rampen. Der Boulevard ist ausserordentlich            und Höfe entsteht eine Vielzahl von Orten und Aufent-
+sorgfältig gestaltet, führt übersichtlich entlang den Innen-         haltsbereichen mit jeweils unterschiedlichen Charakteren.
+höfen zu den Abteilungen und wird seiner strukturierenden            Die Gebäudehöhe des neuen Klinikums 2 wirkt wohltuend
+Funktion als Hauptmagistrale bestens gerecht. In den Ober-           und entspricht des Massstäblichkeit der Freiräume.
+geschossen wird noch nicht die gewünschte Orientierungs-
+qualität erreicht, was am ungünstigen Verhältnis zwischen            Funktionsanordnung und Prozesse
+Programm, Volumen und Geschosszahl liegt, das auch für               Die Eingangssituation im Geschoss 0 (EG) ist attraktiv und
+die vielen – nicht akzeptablen – künstlich belichteten Räu-          steht in klarem Kontrast zur engen Vorfahrt. Ungenügend
+me im Zugangs- und Untergeschoss verantwortlich zeich-               ist die Vorfahrtssituation mit der vorgeschlagenen Anzahl
+net. Die Übernahme des bestehenden Stützenrasters ist                Kurzzeitparkplätze. Im Eingangsbereich sind vor und nach
+zwar verständlich, doch ergeben sich daraus zu schmale,              der Eingangstüre Rampen mit 6 – 8% Gefälle vorgesehen.
+schwierig befahrbare Zimmer. Ebenso droht wegen der                  Das Geschoss 0 (mit direkter Verbindung zum Spitalgar-
+thermischen und gesetzlichen Bedingungen des Helikop-                ten) ist übersichtlich organisiert und ermöglicht eine ein-
+terlandeplatzes eine Schwächung der Dachgartenthematik,              fache Orientierung; anders ist dies in den Geschossen 01, 1
+was schade ist.                                                      und 2, hier ist die Orientierung kompliziert. Die Besucher-
+                                                                     lifte befinden sich etwas versteckt hinter dem Lichthof.
+Denkmalschutz                                                        Die Neubauten sind mit dem Bestand gut verbunden mit
+Die Schutzobjekte und das Inventarobjekt von Hannes                  guter Nutzugsverteilung auf dem Areal. Gut angeordnet
+Schmidt bleiben ungeschmälert erhalten. Der Zusammen-                sind die Bereiche Intensivpflege auf dem gleichen Geschoss
+bau mit der Predigerkirche ist denkbar und schafft eine Si-          wie die Intensivpflege Chirurgie im OP-Ost. Nicht funkti-
+tuation, wie sie ursprünglich mit dem Konventsgebäude be-            onsfähig ist die Notfallzufahrt, da zu eng. Ebenso nicht
+standen hatte. Durch die flache Bauweise des Klinikums 2             funktionsfähig ist der Zugang für gehende Patienten, führt
+bleiben die denkmalgeschützten Gebäude in der Höhen-                 dieser doch über die Nachbarparzelle und durch einen be-
+entwicklung prägend für das Areal. Die Höhenentwicklung              stehenden Kirchenanbau. Die zum Teil gros­sen Schichttie-
+gegenüber dem Petersgraben steht in einem günstigen                  fen in den meisten Bereichen erschweren eine effiziente
+Verhältnis zur historischen Bebauung.                                sowie flexible Raumnutzung erheblich, beispielsweise für
+
+
+
+
+42       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Kazwei
+
+
+
+
+    43
+Projekte Stufe 2
+2. Rang/2. Preis
+
+
+
+
+Beurteilung
+
+
+IPS-Einbettzimmer (20 m2 mit 6 m Schichttiefe). Die Be-              kommt weitestgehend ohne zusätzliche temporäre Provi-
+lichtung der Räume im Erdgeschoss und den Unterge-                   sorien aus. Es bedarf allerdings einiger Rochaden im Be-
+schossen ist absolut unzureichend.                                   stand, um zur definitiven Platzierung der Funktionen zu ge-
+                                                                     langen. Die vorgeschlagene externe Auslagerung des Blut-
+Die verschiedenen Funktionsströme sind klar getrennt und             spendezentrums aus der Hebelstrasse 10 ist nicht möglich.
+damit gut nutzbar. Jedoch ist die Organisation im Geschoss
+02 mit einer Mischnutzung des MTA-Trasses für Betten,                Wirtschaftlichkeit
+Patienten und Mitarbeitende keine praktikable Lösung. Die            Das Projekt generiert eher tiefe Investitionskosten. Diese
+Bettenstationen mit 62 Patientenzimmern auf einem Ge-                befinden sich in der vom Masterplan Campus Gesundheit
+schoss sind funktionsfähig, jedoch sehr weitläufig und da-           definierten finanziellen Bandbreite und liegen im Querver-
+her betrieblich aufwändig. Nicht ausgewiesen und aufge-              gleich zu den Konkurrenzprojekten im unteren Drittel. Der
+zeigt ist die geforderte Entwicklungsreserve, was die räum-          vergleichsweise tiefe Wert ist hauptsächlich auf die mar-
+liche Weiterentwicklung des Spitals erschweren dürfte.               kant kleinere Geschossfläche zurückzuführen.
+
+Logistik                                                             Würdigung Projekt
+Eine funktionsfähige Spitallogistik ist immer gewährleis-            Gesamthaft stellt das Projekt einen ausserordentlich inno-
+tet, nur die MTA-Anbindung des Klinikums 2 während der               vativen Beitrag dar, der intensiv diskutiert wurde. Vor al-
+Bauphase 1 ist nicht klar. Die Funktionalität der Warenver-          lem der städtebauliche Ansatz, der behutsame Umgang
+und der Entsorgung ist immer gegeben. Die Entflechtung               mit dem historischen Erbe und die konsequente Umset-
+zwischen liegenden Patienten und Besuchern ist gut ge-               zung der sorgfältig erarbeiteten architektonischen The-
+löst. Die Liftkapazitäten für liegende Patienten werden als          men überzeugten. Doch leider konnten diese Qualitäten
+genügend eingeschätzt. Für ambulante Patienten, Besu-                die betrieblichen und funktionalen Defizite nicht aufwie-
+cher und Mitarbeiter ist das Liftangebot jedoch zu knapp             gen, obwohl Kazwei in seiner entspannten Verankerung
+bemessen.                                                            in die arealspezifischen Gegebenheiten als beispielhaft be-
+                                                                     zeichnet werden darf und städtebaulich wie architekto-
+Gebäudetechnik                                                       nisch hervorragend ist.
+Das Gebäudetechnikkonzept ist angemessen und plausibel
+beschrieben. Es zeigt die Kompetenz des Haustechnik-
+teams in der Spitalplanung. Die Ansätze zum Wasserma-
+nagement sind interessant und weiterzuverfolgen. Die na-
+türliche Beschattung wird als klimatischer Vorteil im Som-
+mer gesehen, ihre Auswirkungen auf die solaren Gewinne
+und die Tageslichtnutzung sind sicher noch zu beurteilen.
+Die neue Lage der Gastanks an der Hebelstras­se 10 ist pro-
+blematisch und zu hinterfragen. Der Neubau zusätzlicher
+Kältemaschinen mit Rückkühlung auf dem Dach im Bereich
+Q1 kann nicht nachvollzogen werden. Auf dem Dach sind in
+unmittelbarer Nähe zu den Helikopterlandeplätzen Foto­
+voltaikanlagen vorgesehen. Dies ist wegen der Windlasten
+problematisch. Das Projekt zeigt eine gute Aufteilung der
+technischen Erschliessungsflächen, wodurch die Energien
+und Medien im Gebäude effizient und platzsparend verteilt
+werden können. Aufgrund der Geometrie des Gebäudes
+macht es Sinn, speziell die Lüftungsanlagen in Zonen zu
+unterteilen und nahe den Steigzonen zu platzieren. Hier-
+durch wird in den Untergeschossen relativ wenig Platz für
+die horizontale Verteilung der Lüftung benötigt.
+
+Bauliche und betriebliche Aspekte
+Das vorgeschlagene Etappierungskonzept erscheint plau-
+sibel. Die vorgesehenen Perimeter für die Sanierung sind
+noch detailliert zu prüfen. Zum Teil sind die Bauabschnitte
+dreiseitig von Flächen in Betrieb umgeben, was nicht tole-
+rierbare Immissionen zur Folge hat. Zeitweise kommt es
+zur Trennung zusammenhängender Module. Das Konzept
+
+
+
+
+44       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                                        Kazwei
+
+
+
+
+Etappierung
+
+
+Etappe 1      Etappe 2
+
+
+
+
+Etappe 3      Etappe 4
+
+
+
+
+                          Bestand in Betrieb
+                         	Umbau
+                         	Neubau
+                         	Provisorien
+                         	Neu in Betrieb
+
+
+
+
+                                               45
+Projekte Stufe 2
+2. Rang/2. Preis
+
+
+
+
+46       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Kazwei
+
+
+
+
+    47
+Projekte Stufe 2
+2. Rang/2. Preis
+
+
+
+
+48       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Kazwei
+
+
+
+
+    49
+Projekte Stufe 2
+2. Rang/2. Preis
+
+
+
+
+50       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Kazwei
+
+
+
+
+    51
+Projekte Stufe 2
+
+
+
+
+Projekt 10
+3. Rang/3. Preis                                                                                       The Edge
+Architektur
+SAM Architekten und Partner AG
+Hardturmstrasse 175, Postfach, 8037 Zürich
+Sacha Menz, René Antoniol, Christoph Schneider
+
+Gesamtleitung
+SAM Architekten und Partner AG
+Hardturmstrasse 175, Postfach, 8037 Zürich
+Sacha Menz, René Antoniol, Christoph Schneider
+
+
+Fachplaner und Spezialisten
+blumergaignat ag, Küsnacht
+Walt + Galmarini AG Dipl. Ing. ETH SIA USIC, Zürich
+Atelier Girot, Gockhausen
+Meierhans + Partner AG, Schwerzenbach
+IBG B. Graf AG Engineering, Winterthur
+Gemperle Kussmann GmbH, Basel
+
+
+
+
+52        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                    The Edge
+
+
+
+
+Sanierungsphase 1
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                          53
+Projekte Stufe 2
+3. Rang/3. Preis
+
+
+
+
+Beurteilung
+
+
+Städtebau                                                             sehr heterogen und stellt keine optimale Einpassung in den
+Das vorgeschlagene Projekt wird als städtebaulich präzise             historischen Bestand dar.
+gesetztes Konzept gewürdigt. Mit der ruhigen Gesamter-
+scheinung, vor allem bedingt durch die Parallelstellung des           Freiraum
+neuen Bettenhauses zum Bettenhaus des Klinikums 1, leis-              Der Spitalgarten wird klar in Allee-, Park- und Gartenebe-
+tet die Arbeit einen stabilen Beitrag zur Weiterentwicklung           ne gegliedert. Die Geländekante wird in ostwestlicher Rich-
+des städtischen Gesamtgefüges. Im Verhältnis zur Gebäu-               tung mit einer langen Mauer ausgebildet und die zwei Ebe-
+dehöhe des Klinikums 1 erscheint die Geschossigkeit des               nen werden über lange Rampen- und Treppenanlagen mit-
+neuen Bettenhochhauses unentschlossen. Die Abstände zu                einander verbunden. Diese Massnahmen bedingen, ausser
+den denkmalgeschützten Bauten sind gut gewählt. Als                   in der Kernzone des Gartens, eine Neugestaltung des Frei-
+wert­voller Beitrag wird die Lage des Haupteinganges als              raumes. Die vorgeschlagenen Interventionen und Neuin-
+Pendant zum Markgräflerhof gewertet.                                  terpretationen wirken etwas additiv, haben wenig Verbin-
+                                                                      dendes und setzen topografische Veränderungen im be-
+Architektur                                                           stehenden Garten voraus. Insbesondere die der Gelände-
+Mit der einbündigen Anlage der leider weitgehend nur ein-             kante entlang geplanten Rampen und Wege erscheinen aus
+geschossigen Eingangshalle ist diese auf der Eingangsebe-             Sicht der Patienten und Nutzer relativ hart. Die neue Allee
+ne frei von Kreuzungen und eröffnet reizvolle Blicke auf die          zerschneidet den bestehenden Freiraum und die linear vor-
+historische Umgebungsbebauung. Die gesamte horizonta-                 gesehenen Lichthöfe zwischen Markgräflerhof und dem
+le Erschliessung in den Ebenen 01 bis 3 ist trotz der durch-          neuen Klinikum 2 dominieren die Freiraumgestaltung.
+aus ablesbaren Grundsystematik ohne erkennbare Hierar-
+chie angelegt, sowohl was die Ausbildung von Flurbreiten              Funktionsanordnung und Prozesse
+als auch die Anlage eindeutiger Bewegungsrichtungen be-               Der Haupteingang ist am Petersgraben gut ersichtlich. Die
+trifft. Dies würde im Kontext mit den zu kleinen oder nicht           Durchquerung vom Haupteingang im 1. Obergeschoss zum
+vorhandenen Höfen zu Orientierungsproblemen für Patien-               Spitalgarten im Erdgeschoss ist aufgrund der unterschied-
+ten und Besucher führen. Das gewählte System erzeugt zu-              lichen vertikalen Lage schwierig auffindbar. Die Vorfahrt
+dem Wegekreuzungen von ambulanten und stationären Pa-                 liegt in beengender Situation, losgelöst vom Petersgraben
+tienten. Bedingt durch die grosse Tiefe des aufgesetzten              direkt vor dem Haupteingang. Kurzzeitparkplätzen sind auf-
+Bettenhauses sind weite Bereiche der Sockelgeschosse in-              grund der Platzverhältnisse und Geometrie der Vorfahrt
+nenliegend und nicht belichtet. Mit der städtebaulich ver-            nur in ungenügender Anzahl vorhanden. Die periphere Lage
+ständlichen Entscheidung der Anlage des Haupteinganges                der Magistralen erschwert die Orientierung im Sockelbau.
+auf der Ebene 1 ist die wünschenswerte Anbindung an das               Die in viele Seitenäste verzettelte Wegeführung entspricht
+Klinikum 1 auf der Ebene 0 verunmöglicht und der Garten-              nicht der geforderten Übersichtlichkeit. In der Wegefüh-
+zugang ist nur sehr erschwert und unattraktiv erreichbar              rung sind stationäre und ambulante Pfade durchmischt.
+umgesetzt. Mit der angebotenen Doppelstation im Bereich                   Die Gebäude sind optimal an den Bestand angebunden.
+der niederinstallierten Pflege kann ein sehr wirtschaftli-            Die direkte Nähe der Pflege hochinstalliert zur Intensivpfle-
+cher Betrieb erreicht werden. Die Lage der Pflegebereiche             ge Chirurgie OP-Ost ist jedoch nicht erfüllt. Betrieblich
+ab dem 5. Obergeschoss schafft gute Aussichtsqualitäten               gut gelöst und kompakt ist hingegen die Anordnung der
+für Patienten und Mitarbeiter. Leider sind in den innenlie-           U+B-Module. Die vielen Funktionsflächen in den Dunkel-
+genden Fluren der Stationen trotz vorhandener Flächenre-              zonen sind betrieblich nicht nutzbar.
+serven der Kernzonen keine architektonischen Konzepte                     Befriedigend gelöst ist die Notfallzufahrt mit klarer Tren-
+zur Tageslichtführung erkennbar. Der konzeptionell richtig            nung der Patienten liegend und gehend. Die Fläche für die
+im Sinne eines «transparenten Spitals» gewählte sehr                  Rettungsfahrzeuge genügt jedoch nicht. Die Pflegeabtei-
+hohe Verglasungsanteil auch in den Untersuchungs- und                 lungen niederinstalliert weisen (zu) grosszügige Patienten-
+Behandlungsbereichen ist aufgrund der zu erwartenden                  zimmer auf. Die Entwicklungsreserve ist ideal angeordnet
+Überhitzungsproblematik und des not­wendigen Diskreti-                und ausgewiesen.
+onsschutzes so nicht umsetzbar. Die vorgeschlagene Über-
+bauung des OP-Ost ist nicht tolerierbar und stellt die Ro-            Logistik
+bustheit der guten städtebaulichen Gesamtlösung infrage.              Eine funktionsfähige Spitallogistik während der Bauphase
+                                                                      ist immer gewährleistet. Es bestehen perfekte MTA- und
+Denkmalschutz                                                         STA-Anbindungen in den Neubauten, und dadurch kurze
+In der ersten Etappe würden die Schutzobjekte nicht tan-              Verteilwege vor Ort. Die Entflechtung zwischen liegenden
+giert, wohl aber die Inventarobjekte. Die Zwischenräume               Patienten und Besuchern ist erfüllt. Die Liftkapazitäten für
+im Bereich Predigerkirche/Markgräflerhof und Klinikum 2               ambulante und liegende Patienten, Mitarbeiter und Besu-
+sind respektvoll gegenüber dem historischen Bestand aus-              cher werden als sehr gut dimensioniert eingeschätzt.
+gestaltet. Die Fassade gegenüber dem Petersgraben wirkt
+
+
+
+
+54        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+The Edge
+
+
+
+
+      55
+Projekte Stufe 2
+3. Rang/3. Preis
+
+
+
+
+Beurteilung
+
+
+Gebäudetechnik
+Das Gebäudetechnikkonzept ist angemessen und plausibel
+beschrieben. Es zeigt die Kompetenz des Haustechnik-
+teams in der Spitalplanung. Die Technikflächen und das
+Steigzonenkonzept sind nachvollziehbar und grosszügig
+dimensioniert. Die natürliche Beschattung wird als klimati-
+scher Vorteil im Sommer gesehen. Die Anlieferung von Gas
+zur Gaszentrale mit Lkw ist ab Etappe 1 nicht mehr mög-
+lich. Der Bau eines HLK-Provisoriums ab Etappe 2 zur Ver-
+sorgung des bestehenden Flachbaus Süd ist mit diesem
+Konzept notwendig.
+
+Bauliche und betriebliche Aspekte
+Das vorgeschlagene Etappierungskonzept sieht sieben ver-
+gleichsweise kleine Hauptetappen vor. Dies ermöglicht auf
+der einen Seite die definitive Platzierung der Funktionen
+und somit grösstenteils den Verzicht auf temporäre Provi-
+sorien, erzeugt aber auf der anderen Seite ungünstige, zum
+Teil dreiseitig vom Betrieb umgebene Baustellen. Hier müs­
+ste eine Optimierung zugunsten grösserer zusammenhän-
+gender Bauabschnitte entwickelt werden. Als problema-
+tisch wird die Aufstockung um ein Geschoss auf die Inten-
+sivpflege gesehen. Statisch machbar, resultieren dennoch
+nicht tolerierbare Störungen für den Betrieb der IPS.
+
+Wirtschaftlichkeit
+Das Projekt generiert mittelhohe Investitionskosten. Diese
+befinden sich in der vom Masterplan Campus Gesundheit
+definierten finanziellen Bandbreite und liegen im Querver-
+gleich zu den Konkurrenzprojekten im mittleren Drittel. Das
+Projekt weist die zweitgrösste Geschossfläche auf.
+
+Würdigung Projekt
+Auch die sehr positiv bewertete, ruhige und robuste städ-
+tebauliche Grundhaltung des Entwurfes kann nicht über
+die organisatorischen Schwächen, die bereits in der Gene-
+tik der Grundrisse angelegt sind, hinweghelfen. Die guten
+städtebaulichen Potenziale des Lösungsansatzes werden
+in der architektonischen Umsetzung nicht vollkommen ge-
+nutzt. Flächendeckende funktionale und atmosphärisch
+über­zeugende Angebote bleiben aus. Flexibilität und Ent-
+wicklungsfähigkeit des Gesamtansatzes machen diese Ar-
+beit jedoch zu einem wertvollen und souveränen Beitrag.
+
+
+
+
+56        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                                                   The Edge
+
+
+
+
+Etappierung
+
+
+Etappe 1 (Istzustand)       Etappe 2
+
+
+
+
+Etappe 3                    Etappe 4
+
+
+
+
+Etappe 5                    Etappe 6
+
+
+
+
+Etappe 7 (Fertigstellung)
+
+
+
+
+                                        Bestand in Betrieb
+                                       	Umbau
+                                       	Neubau
+                                       	Provisorien
+                                       	Neu in Betrieb
+
+
+
+
+                                                             57
+Projekte Stufe 2
+3. Rang/3. Preis
+
+
+
+
+58        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+The Edge
+
+
+
+
+      59
+Projekte Stufe 2
+3. Rang/3. Preis
+
+
+
+
+60        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+The Edge
+
+
+
+
+      61
+Projekte Stufe 2
+3. Rang/3. Preis
+
+
+
+
+62        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+The Edge
+
+
+
+
+      63
+Projekte Stufe 2
+
+
+
+
+Projekt 16
+4. Rang/4. Preis                                                                                        Wallace
+Architektur
+Darlington Meier Architekten AG
+Badenerstrasse 337, 8003 Zürich
+Mark Darlington, Stephan Meier
+
+Gesamtleitung
+GMS Partner AG
+Postfach 177, 8058 Zürich-Flughafen
+Urs Moser
+
+
+Fachplaner und Spezialisten
+daniel pauli dipl. arch ETH/SIA architektur.consulting, Villnachern
+Schnetzer Puskas Ingenieure AG, Zürich
+Haag Landschaftsarchitektur, Zürich
+RMB Engineering AG, Zürich
+HEFTI.HESS.MARTIGNONI. Zürich AG usic, Zürich
+RMB Engineering AG, Zürich
+
+
+
+
+64        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                    Wallace
+
+
+
+
+Sanierungsphase 1
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                         65
+Projekte Stufe 2
+4. Rang/4. Preis
+
+
+
+
+Beurteilung
+
+
+Städtebau                                                             lert erhalten. Die Zwischenräume zwischen Predigerkirche
+Der kompakte Baukörper mit vier Höfen und einem Hoch-                 und Markgräflerhof respektieren die Baudenkmäler und
+punkt Richtung Spitalgarten reagiert sensibel auf seine he-           sind in den Proportionen gut gewählt. Jedoch ist die Aus-
+terogene städtebauliche Umgebung. Durch das leichte Ab-               formulierung des Bereichs vor der Gartenfassade des
+winkeln der Gebäudefluchten und das Zurücksetzen des                  Markgräflerhofes unter anderem mit der Anlage der Velo-
+obersten Geschosses im Sockelgebäude werden qualität-                 abstellplätze nicht adäquat gestaltet.
+volle Strassen- und Aussenräume geschaffen. Die Ausbil-
+dung des hohen Baukörpers zum Spitalgarten fasst diesen               Freiraum
+und schafft ein adäquates Ensemble mit den Bestandbau-                Der bestehende Spitalgarten wird lediglich an den wenigen
+ten. Trotz der überzeugenden Grundform können ver-                    Schnittstellen zu den architektonischen Eingriffen verän-
+schiedene Bereiche im Einzelnen nicht überzeugen: Die                 dert. Der Niveauübergang zum oberen, als öffentlichen
+Anordnung des neuen Eingangs Richtung Predigerkirche                  Raum gedachten Gartenteil wird durch neue Treppenläufe
+mit vorgesetzter Treppenanlage und auskragendem Vor-                  und Rampen ergänzt und belässt die bestehende vegetati-
+dach schaffen nicht die gewünschte Grosszügigkeit. Die                ve Ausbildung der Hangkante. Es wäre aber wünschens-
+Situation des Drop-off-Eingangs beengt den Strassen-                  wert gewesen, wenn die Verfasser die Geländekante als
+raum am Petersgraben und der Aussenbereich zum Mark-                  Einheit betrachtet und weiterentwickelt hätten, um diesen
+gräflerhof wird mit den geplanten Lichtschächten und                  Übergangsbereich zu stärken und zu klären. Für das Café
+Fahrradstellplätzen zu einem rückwertigen Raum und ver-               an der Westseite des neuen Klinikums 2 wird ein neuer Gar-
+liert an Qualität.                                                    tenbereich mit Blick in den bestehenden Spitalgarten ge-
+                                                                      schaffen. Die Innenhöfe des neuen Klinikums 2 sind unter-
+Architektur                                                           schiedlich gross und tragen mit den verschiedenen Vege-
+Die geplante Gebäudestruktur weist das Potenzial für                  tationsbildern zur guten Orientierung bei. Die beiden neu-
+räumliche Qualitäten aus. Die vier Höfe sind ausreichend              en, unterschiedlich hohen Gebäude im Westen und Osten
+gross und gut proportioniert. Ihre geometrische Unter-                des Gartens lassen ihn weiterhin als Garten und nicht als
+schiedlichkeit schafft die Möglichkeit einer individuellen            Hof erscheinen, beeinflussen aber durch die Verschattung
+Hofgestaltung und verhindert somit einen seriellen Aus-               die Aufenthaltsqualität.
+druck. Die Gliederung des Baukörpers schafft gut belich-                  Die obere Terrasse, welche als öffentlicher Freiraum ge-
+tete Flächen in den Obergeschossen, die auch Flexibilität in          lesen wird, erhält neben den neuen Bauten sogenannte ve-
+der Modulanordnung aufweisen. Die Ausformulierung ei-                 getative Volumen. Diese vermögen leider kein zusammen-
+ner Magistralen als zentrale Verbindungsachse zwischen                hängendes Raumgefüge zu leisten und wirken als eine zu-
+Eingang und Park ist schlüssig. Das Abwinkeln dieses Rau-             fällige Aneinanderreihung von Grünkörpern. So wirkt auch
+mes zum Haupteingang und die Positionierung der Haupt­                der Bereich vor dem Markgräflerhof durch die strenge An-
+erschliessungskerne in der Mitte der Magistralen unterbin-            ordnung der Veloabstellplätze sehr technisch und zollt dem
+den jedoch die gewünschte Sichtverbindung und schrän-                 historischen Gebäude wenig Respekt.
+ken die räumliche Orientierung im Gebäude stark ein. Die
+vorgeschlagene Verteilung der Module ist so nicht um-                 Funktionsanordnung und Prozesse
+setzbar, da sie die internen Funktionsabläufe nicht ausrei-           Der Haupteingang an der Spitalstrasse ist gut erkennbar
+chend berücksichtigt. Die Anordnung des Bettenbereichs                mit übersichtlicher Anordnung von Empfang/Information,
+im ersten Obergeschoss zur Strasse hin ist undenkbar, da              allerdings ist der Doppeleingang (Haupteingang bzw. Drop-­
+diese Zimmer von aussen direkt einsehbar sind. Generell ist           off-Eingang) verwirrend und die Besucherlifte sind eher
+es nicht nachvollziehbar, wieso die Bettenstation im Flach-           versteckt angeordnet. Ungenügend sind die Vorfahrtsitua-
+bau und nicht im Hochbau angeordnet wurde.                            tion und die Anzahl der Kurzzeitparkplätze.
+    Der architektonische Ausdruck des Gebäudes ist zu-                    Die Nutzungsverteilung auf dem Areal ist zweckmässig
+rückhaltend. Die Fassaden mit geplanter Ornamentik wir-               organisiert. Trotz markanter Hauptachse im Geschoss 0
+ken eher beliebig. Der Anbau an den Bestand an der Spital-            (EG) mit direktem Zugang zum Spitalgarten ist die Orien-
+strasse/Predigerkirche überzeugt nicht, die Überschnei-               tierung wegen der L-förmigen Wegführung und der zentral
+dung der Volumen schafft eine unklare Situation.                      angeordneten Liftkerne nicht optimal. Der horizontale Weg
+    Die Etappierung mit der «Umbauung» des Bettenhau-                 vom Eingang bis zur Liftgruppe des ambulanten Hauses ist
+ses wird als recht aufwendig beurteilt, nach Fertigstellung           weit. Die Orientierung in den Obergeschossen ist bis auf
+aller Bauetappen wird jedoch eine klar lesbare neue Situa-            den Bereich der Bettenstationen gut angelegt. Mangels at-
+tion geschaffen. Der kompakte Baukörper erlaubt zudem                 traktiver Treppenverbindungen zwischen EG und den Ober-
+eine gute Wirtschaftlichkeit.                                         und Untergeschossen muss der Vertikalverkehr im Wesent-
+                                                                      lichen über die Aufzüge erfolgen.
+Denkmalschutz                                                         	In den hochinstallierten Bereichen (U+B und Pflege)
+In der ersten Etappe bleiben die Baudenkmäler ungeschmä-              fehlt oftmals genügend Tageslicht. Mit der vorgeschlage-
+
+
+
+
+66        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Wallace
+
+
+
+
+     67
+Projekte Stufe 2
+4. Rang/4. Preis
+
+
+
+
+Beurteilung
+
+
+nen Schichttiefe von meist ca. 5,5 m lassen sich die Flä-             Bauliche und betriebliche Aspekte
+chen recht gut organisieren. Die Anbindung an die beste-              Das grundsätzlich nachvollziehbare Etappierungskonzept
+henden Bauten und die Anordnung der Intensivpflege Me-                schlägt ein Vorgehen in drei Hauptetappen vor. Durch Ro-
+dizin im 4. Obergeschoss behindern effiziente Abläufe mit             chaden im Bestand kann auf temporäre Provisorien ver-
+der bestehenden Intensivpflege Chirurgie im OP-Ost. Die               zichtet werden. Im Detail weist das Konzept jedoch diverse
+Distanz zu den hochinstallierten U+B-Bereichen beträgt                Mängel auf. Die einzelnen Bauetappen hinterlassen stets
+vertikal vier bzw. fünf Geschosse, was für Notfallsituatio-           ein fragmentiertes Gesamtbild, welches erst in der letzten
+nen nicht akzeptierbar ist. Hochinstallierte Bereiche soll-           Bauetappe zu einem Ganzen gefügt wird. Die vorgeschla-
+ten idealerweise im 1. Obergeschoss angeordnet sein, die-             genen Perimeter bedingen, dass das Bettenhaus und der
+se sind im Projekt jedoch andernorts auf unterschiedlichen            darunterliegende Sockelbereich erst in der letzten Etappe
+Geschossen angeordnet. Die Notfallzufahrt ist zu eng be-              abgebrochen respektive erneuert werden. Dies wird in Be-
+messen und mit der vorgeschlagenen Verkehrslösung als                 zug auf Erschliessung, Baustellenzugänglichkeit und Stö-
+eher kritisch zu beurteilen. Der Notfallzugang ist mit einer          rung des benachbarten Betriebs als ungünstig erachtet.
+konsequenten Trennung zwischen liegenden und gehen-                   Zudem fehlt der Nachweis von Provisorien für verschiede-
+den Patienten gut gelöst. In der internen Organisation der            ne nicht betreibbare Flächen während der Bauzeit.
+Notfallstation sind die Patientenströme jedoch durch-
+mischt. Die vorgeschlagene Anordnung der Module erfor-                Wirtschaftlichkeit
+dert Patiententransporte über die Magistrale oder zusätz-             Das Projekt generiert tiefe Investitionskosten. Diese befin-
+liche vertikale Liftfahrten (z.B. Notfall zu Bettenstation;           den sich in der vom Masterplan Campus Gesundheit defi-
+Helikopterlandeplatz zu Notfall) oder die Durchquerung                nierten finanziellen Bandbreite und liegen im Quervergleich
+anderer U+B-Bereiche. Unzulässig ist das vorgeschlagene               zu den Konkurrenzprojekten im unteren Drittel. Der tiefe
+Treppenhaus im OP-Ost wie auch die Anordnung der Bet-                 Wert ist hauptsächlich auf eine vergleichsweise tiefe Ge-
+tenstation auf dem Niveau der Strasse im Bereich Südost.              schossfläche und eine hohe Flächen­effizienz zurückzufüh-
+	Ideal angeordnet ist die Entwicklungsfläche zwischen                 ren.
+dem Bettengeschoss und dem ambulanten Bereich. Auch
+könnte die Verwaltung später gut als U+B genutzt werden.              Würdigung Projekt
+                                                                      Der Entwurf weist ein beachtliches städtebauliches Poten-
+Logistik                                                              zial auf. Gut proportionierte Baukörper und Höfe bilden ei-
+Eine funktionsfähige Spitallogistik ist immer gewährleis-             nen Gebäudekomplex, der die räumlichen Gegebenheiten
+tet, nur die MTA-Anbindung des Klinikums 2 während der                für die vorgesehene Nutzung schaffen könnte. Trotz die-
+Bauphase 1 ist nicht nachvollziehbar. Die Lage der Ver- und           ser Voraussetzungen überzeugt das Projekt im Detail an
+Entsorgung im Neubau ist unzweckmässig. Die Entflech-                 vielen Stellen nicht und lässt eine stringentere Weiterfüh-
+tung zwischen liegenden Patienten und Besuchern ist er-               rung des Gesamtkonzeptes vermissen.
+füllt. Im U+B-Gebäude werden die Liftkapazitäten für am-
+bulante Patienten und Mitarbeiter als ungenügend einge-
+schätzt. MTA-Liftkerne ohne vorgelagerte Pufferflächen
+sind nicht funktionstüchtig.
+
+Gebäudetechnik
+Das Gebäudetechnikkonzept ist nur in Ansätzen beschrie-
+ben. Die Aussagen sind oft wenig spezifisch. Die Aussagen
+zur Aussenluftfassung konnten nicht nachvollzogen wer-
+den. Beide bestehenden Aussenluftfassungen sollen in das
+neue Projekt integriert werden, obwohl sie zurückgebaut
+und nicht mehr vorhanden sein werden. Sämtliche Lüf-
+tungsanlagen sollen im bestehenden 3. Untergeschoss
+plat­ziert werden. Die dafür vorhandene Fläche wird als zu
+gering bewertet. Das Steigzonenkonzept ist nachvollzieh-
+bar. Das Projekt zeigt eine gute Erschliessung der Ge-
+schosse über gleichmässig verteilte Steigzonen. Das Kon-
+zept lässt eine effiziente Energie- und Medienverteilung in
+den Geschossen zu. Zur Optimierung der Technikflächen
+und Anlagenverteilung empfehlen wir, den Einsatz einer
+Dachzentrale zu prüfen.
+
+
+
+
+68        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                                                       Wallace
+
+
+
+
+Etappierung
+
+
+Etappe 1a     Etappe 1b
+
+
+
+
+Etappe 2a     Etappe 2b
+
+
+
+
+Etappe 3a     Etappe 3b (Fertigstellung)
+
+
+
+
+                                            Bestand in Betrieb
+                                           	Neubau
+                                           	Provisorien
+                                           	Neu in Betrieb
+
+
+
+
+                                                                 69
+Projekte Stufe 2
+4. Rang/4. Preis
+
+
+
+
+70        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Wallace
+
+
+
+
+     71
+Projekte Stufe 2
+4. Rang/4. Preis
+
+
+
+
+72        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Wallace
+
+
+
+
+     73
+Projekte Stufe 2
+4. Rang/4. Preis
+
+
+
+
+74        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Wallace
+
+
+
+
+     75
+Projekte Stufe 2
+
+
+
+
+Projekt 07
+5. Rang/5. Preis                                                                                        Margino
+Architektur
+HPP GmbH & Co. KG
+Möhringer Str. 60/1, D-70199 Stuttgart
+Volker Biermann
+
+Gesamtleitung
+b+p baurealisation ag
+Eggbühlstrasse 28, 8050 Zürich Oerlikon
+Timo Philippen, Tanja Jackschath, Philipp Röthlisberger
+
+
+Fachplaner und Spezialisten
+Hospitaltechnik Planungsgesellschaft mbH, D-Krefeld
+Arbeitsgemeinschaft Knippers Helbig (KH) / Mayer-Vorfelder
+   und Dinkelacker (MVD), D-Stuttgart
+club L94 Landschaftsarchitekten GmbH, D-Köln
+gb consult ag, Basel
+
+
+
+
+76        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                Margino
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                     77
+Projekte Stufe 2
+5. Rang/5. Preis
+
+
+
+
+Beurteilung
+
+
+Städtebau                                                            Klosterkirche historisch betrachtet nie ein freigestellter
+Das Projekt Margino wählt einen überraschenden städ-                 Einzelbau gewesen ist: Im Süden schloss ursprünglich der
+tebaulichen Ansatz: Konzentration und Verdichtung der                Konventsbau an. Die Ausgestaltung des Freiraumes erin-
+Spitalanlage um das Klinikum 1 und seinen Spitalgarten und           nert an den Petersplatz und überträgt eine Platzgestal-
+Schaffung eines öffentlichen städtischen Platzes anstelle            tung der Renaissance auf ein Areal, wo sich nie eine solche
+des Klinikums 2. Dieses Konzept überzeugt auch als Ablö-             befand. Die Entdichtung des Areales im Osten führt aus­
+sungsstrategie, denn es ermöglicht einen reibungslosen               serdem zu einer starken Verdichtung im Westen: Das Klini-
+Be­trieb des Klinikums 2 bis zu seinem Ersatz durch Neu-             kum 1 von Hermann Baur wird von hohen Bauvolumen kon-
+bauten.                                                              kurrenziert, ebenso der Holsteinerhof. Das Inventarobjekt
+    Der neue Spitalcampus präsentiert sich als «introver-            von Hannes Schmidt muss bereits in der ersten Etappe
+tierte» Randbebauung mit dem heutigen Spitalgarten als               abgebrochen werden.
+Mittelpunkt. Diese besteht aus Sockelgeschossen, die die
+zwei neuen Hochbauten mit dem Klinikum 1 verbinden und               Freiraum
+den Garten in einen Hof uminterpretieren. Nach aussen                Die Verfasser schreiben, dass durch die räumliche Konzen-
+passen sie sich an den städtebaulichen Kontext an, wobei             tration Freiräume geschaffen werden, die der Stadt und der
+sowohl die Eingangsseite am Petersgraben unbefriedigend              Klinik in Form eines neuen Parks zugutekommen. Durch die
+gelöst ist wie auch die Öffnung zur Schanzenstrasse mit              Setzung der Gebäude im Süden und Westen entsteht eine,
+der ungeschickt ans Klinikum 1 angeschlossenen Passerel-             in Anlehnung an die historische Situation, komplette Neu-
+le. Die Masse des Baukörpers an der Schanzenstrasse wirkt            interpretation des Spitalgartens und des daraus resultie-
+unproportioniert sowohl in Bezug auf den Spitalcampus wie            renden Freiraumes gegen den Petersgraben hin. Zum Ers-
+auch auf die Bebauung der Schanzenstrasse.                           ten verblüfft und besticht diese Neuinterpretation, denn es
+    Die durch das Projekt vorgegebenen Grenzen des Bau-              wird ein neuer, grosser Freiraum geschaffen. Beim intensi-
+perimeters wirken sich in einer räumlichen Enge aus, in der          veren Betrachten und Analysieren des Vorschlags ergeben
+sich die drei Hochbauten mehr bedrängen als ergänzen.                sich aber einige Punkte, die zu bedenken sind, und die sich
+                                                                     für die Gesamtsituation eher negativ auswirken können.
+Architektur                                                          Die beiden höheren Neubauten lassen den bestehenden
+Die aus der Logik der Randbebauung abgeleitete ringförmi-            Spitalgarten nicht mehr als Garten, sondern als Hof er-
+ge Haupterschliessung am Hof gewährleistet durch den Be-             scheinen. Die Beschattung wird die Nutzung der Freiräu-
+zug zum Aussenraum und zum Tageslicht eine gute Orien-               me stark beeinträchtigen. Der neue Park entlang des Pe-
+tierbarkeit und eine angenehme Raumatmosphäre. Kaum                  tersgrabens wird langfristig als «Landreserve» für Erwei-
+verlässt man jedoch diese lichte Magistrale, dringt man in           terungsbauten des Spitals gelesen und wird daher nur auf
+den engen, dunklen und unübersichtlichen U+B-Bereich                 Zeit Freifläche sein. Somit bleibt im Endeffekt nur ein ver-
+ein. Dieser gleicht eher einem Funktionsschema als einem             schatteter Spitalhof übrig. Insgesamt wird dieser Vorschlag
+Ort, der der Behandlung kranker Menschen gewidmet ist.               aber als wertvoll angesehen.
+Die aufgrund ihrer viel zu engen Dimensionen schachtähn-
+lichen Innenhöfe sind weder geeignet, der sekundären Er-             Funktionsanordnung und Prozesse
+schliessung eine räumliche Qualität zu geben, noch können            Der Haupteingang im Geschoss 1 ist weit entfernt vom Pe-
+sie in angemessener Weise die daran angeordneten Räume               tersgraben und durch den Park erschlossen. Die Durch-
+belichten. Allzu viele Raumschichten entbehren zudem jeg-            querung Petersgraben zum Haupteingang ist in direkter
+lichen Tageslichts. In der Notfallstation grenzen viele Pati-        Linie möglich. Die Vorfahrt findet in beengender Situation
+entenräume an die unterirdische Vorfahrt und an die ent-             statt. Auch die Lage der Kurzzeitparkplätze am Petersgra-
+sprechenden Parkplätze an, oder sie liegen vollständig im            ben ist aufgrund der Distanz zum Haupteingang ungeeig-
+Dunklen, mit der Ausnahme eines einzigen Lichtschachtes.             net. Die Orientierung im gesamten Flachbau ist einfach,
+	Auch die Bettenstationen weisen keinerlei architekto-               jedoch sehr weitläufig.
+nisch-räumliche Vorstellungen auf. Auch die betriebliche                 Die Anbindung an die bestehenden Bauten erfüllt die
+Organisation der Abteilungen ist ungenügend. Dunkler an-             Vorgabe vollauf. Die Nutzungsverteilung auf dem Areal ist
+onymer Hauptzugang über die Liftgruppe, dunkle, eintöni-             losgelöst von den Masterplanvorstellungen bzw. entspricht
+ge Ringerschliessung und dunkle Querverbindungen – kein              nicht den Vorgaben. Die direkte horizontale Nähe der Pfle-
+Ort des Wohlbefindens.                                               ge hochinstalliert zur Intensivpflege Chirurgie im OP-Ost
+                                                                     ist nicht erfüllt.
+Denkmalschutz                                                            Der Tageslichtanteil in den Untergeschossen wird nicht
+Das Freistellen des Raumes zwischen Markgräflerhof und               erreicht und deren Nutzung ist daher stark eingeschränkt.
+Predigerkirche versucht, eine historische Situation wieder           Nicht befriedigend gelöst ist die Notfallzufahrt, welche
+herzustellen. Allerdings führt dies insbesondere bei der             ohne klare Trennung zwischen Patienten liegend und ge-
+Predigerkirche zu einer ungünstigen Situation, da diese als          hend organisiert ist. Gehende Patienten werden im 1. Ober-
+
+
+
+
+78       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Margino
+
+
+
+
+     79
+Projekte Stufe 2
+5. Rang/5. Preis
+
+
+
+
+Beurteilung
+
+
+geschoss eingeschleust, liegende jedoch auf Ebene 0. Dies            Würdigung Projekt
+bedingt den Betrieb von zwei 24-h-Porten auf den betref-             Das Konzept der Konzentration des Spitalkomplexes und
+fenden Ebenen. Der öffentliche Zugang City-Parking zum               des dadurch neu geschaffenen Freiraums am Petersgraben
+Petersgraben ist nicht mehr erfüllt, da die Wegeführung              besitzt ein städtebauliches Potenzial, das jedoch im Pro-
+durch das Spitalgebäude führt. Die Organisation der Pfle-            jekt nicht erfüllt wird. Die hohe Dichte wirkt sich in unbe-
+geabteilungen niederinstalliert kann nicht überprüft wer-            friedigenden Lösungen für das Bettenhaus und die Be-
+den. Die U+B-Module weisen viele unterschiedliche Grund-             handlungsbereiche aus. Technische und funktionelle As-
+rissformen auf, was die Flexibilität einschränkt. Mit dem            pekte können wohl gelöst werden, jedoch fehlt eine archi-
+vorgeschlagenen Raster können die Zimmer der Pflegab-                tektonische Gestaltungsabsicht, die diesen Gesundheits-
+teilungen kaum zweckmässig organisiert werden.                       campus zu einem Ort positiver Ausstrahlung werden lässt.
+
+Logistik
+Hinsichtlich Spitallogistik besteht eine unklare MTA-Anbin-
+dung von Klinikum 2 und OP-Ost während der Bauphase.
+Ohne Manövrierfläche beim Rampenbereich funktioniert
+die Warenanlieferung nicht. Eine MTA-Anbindung des Men-
+sa- und Verwaltungsgebäudes fehlt. Die Entflechtung zwi-
+schen liegenden Patienten und Besuchern ist erfüllt. Die
+Liftkapazitäten für ambulante und liegende Patienten, Mit-
+arbeiter und Besucher werden als ausreichend einge-
+schätzt.
+
+Gebäudetechnik
+Das Gebäudetechnikkonzept ist plausibel, es beschreibt die
+Grundsätze und Rahmenbedingungen. Klare Aussagen zum
+Projekt fehlen aber meist. Durch den kompletten Neubau
+können keine bestehenden Energieversorgungseinrichtun-
+gen übernommen werden. Durch den langen Weiterbetrieb
+des Klinikums 2 (bis zum Jahr 2026) ist mit erheblichen
+Instandsetzungskosten in die Gebäudetechnik zu rechnen.
+Die Gaszentrale ist im 3. Untergeschoss vorgesehen. Ober-
+irdische Gastanks sind keine vorgesehen, was als nicht rea-
+listisch beurteilt wird. Die Steigzonen für Lüftung und Ener-
+gien sind generell knapp bemessen, die Anordnung ist zu
+prüfen. Die vorgeschlagene Dachzentrale ist vorteilhaft.
+
+Bauliche und betriebliche Aspekte
+Das vorgeschlagene Etappierungskonzept kommt annä-
+hernd ohne Einschränkungen des Betriebs im bestehenden
+Klinikum 2 aus. Die hierfür notwendigen Massnahmen für
+Rochaden und die Auswirkungen auf das Gesamtareal des
+Universitätsspitals sind jedoch immens. Dies schlägt sich
+auch in den Investitionskosten und auf der Zeitachse nie-
+der. Die zentrale Aufgabe des Wettbewerbsverfahrens, die
+Erneuerung des Klinikums 2, kann nur mit sehr aufwendi-
+gen Massnahmen erfüllt werden.
+
+Wirtschaftlichkeit
+Aufgrund des Projektvorschlags, welcher sämtliche Sanie-
+rungsphasen des Masterplans beinhaltet, werden rund 80%
+höhere Investitionskosten generiert. Wird diese Gesamtin-
+vestition mit der im Masterplan Campus Gesundheit defi-
+nierten finanziellen Bandbreite für alle Sanierungsphasen
+verglichen, kann von einer Einhaltung der wirtschaftlichen
+Vorgaben gesprochen werden.
+
+
+
+
+80       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                                        Margino
+
+
+
+
+Etappierung
+
+
+Istzustand       Etappe 1
+
+
+
+
+Etappe 2         Etappe 3
+
+
+
+
+Etappe 4         Etappe 5
+
+
+
+
+Fertigstellung
+
+
+
+
+                             Bestand in Betrieb
+                            	Neubau
+                            	Provisorien
+                            	Neu in Betrieb
+
+
+
+
+                                                  81
+Projekte Stufe 2
+5. Rang/5. Preis
+
+
+
+
+82       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Margino
+
+
+
+
+     83
+Projekte Stufe 2
+5. Rang/5. Preis
+
+
+
+
+84       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Margino
+
+
+
+
+     85
+Projekte Stufe 2
+5. Rang/5. Preis
+
+
+
+
+86       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Margino
+
+
+
+
+     87
+Projekte Stufe 2
+
+
+
+
+Projekt 02
+Ohne Rangierung                                                                                              Basilea
+Architektur
+gmp Generalplanungsgesellschaft mbH
+Elbchaussee 139, D-20144 Hamburg
+Jürgen Hillmer, Volkwin Marg
+
+Gesamtleitung
+gmp Generalplanungsgesellschaft mbH
+Elbchaussee 139, D-20144 Hamburg
+Jürgen Hillmer, Volkwin Marg
+
+
+Fachplaner und Spezialisten
+mediplan Krankenhausplanungsgesellschaft mbH, D-Hamburg
+schlaich bergermann und partner-sbp gmbh, D-Stuttgart
+Breimann & Bruun Landschaftsarchitektur, D-Hamburg
+WINTER Beratende Ingenieure für Gebäudetechnik GmbH, D-Düsseldorf
+
+
+
+
+88        Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                    Basilea
+
+
+
+
+Sanierungsphase 1
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                         89
+Projekte Stufe 2
+Ohne Rangierung
+
+
+
+
+Beurteilung
+
+
+Städtebau                                                            kum 2 wirken eher etwas zufällig. Insbesondere die Notfall­
+Der Entwurf sucht die städtebauliche Neuausrichtung im               einfahrt und die Ausgestaltung des Sockelbaus Klinikum 2
+Geviert mittels zweier eigenständiger Sanierungsareale –             gegenüber der Predigerkirche haben grosse Nachteile für
+Ost und West. In der ersten Sanierungsphase wird der Ost-            das Baudenkmal und stellen keine wirkliche Verbesserung
+teil des Areals entwickelt und mittels eines Bettenturms ein         gegenüber der heutigen Situation dar. Das stark ausladen-
+neues Zeichen auf dem Areal sowie in der Stadtsilhouette             de Vordach der Fassade am Petersgraben wird eher als
+gesetzt. Damit soll die städtebauliche Wirkung des Univer-           Fremdkörper wahrgenommen.
+sitätsspitals neu akzentuiert und gleichzeitig Bezug auf die
+Bauten auf dem Nachbarareal Schällemätteli genommen                  Freiraum
+werden. An die Stelle des heutigen Klinikums 2 tritt ein             Die Magistrale durch den Flachbau verbindet in ost-westli-
+fünfgeschossiger Untersuchungs- und Behandlungsbau.                  cher Richtung den Petersgraben mit dem Spitalgarten. An
+Dieser bildet zusammen mit dem Bettenbau den südlichen               deren Ende sind ein Foyer und ein Café vorgesehen. Als
+Abschluss gegenüber dem Markgräflerhof und füllt den                 neues Element soll der bestehende Garten im Zuge der
+Raum bis zum Petersgraben respektive der Predigerkirche              Realisierung des Gesamtkonzepts eine dreiseitige Rah-
+nahezu komplett aus.                                                 mung mit einem Holzdeck erhalten. Dieses soll zudem mit
+    Zwischen dem Zentrum für Lehre und Forschung und                 dem K1 verbunden und kann als Aussencafé genutzt wer-
+dem Markgräflerhof kommt ein dreigeschossiger Rocha­de­              den. Diese Rahmung wird nur möglich sein, wenn in den
+bau zu stehen. Er wird in den nachfolgenden Sanierungs-              Randbereichen topografische Veränderungen des beste-
+phasen erweitert und gibt damit das städtebauliche Mus-              henden Gartens in Kauf genommen werden. Die Verbin-
+ter und die Massstäblichkeit für die zweite Sanierungs-              dung vom unteren Gartenteil zum höher gelegenen Frei-
+phase vor. Die dabei gewählte Formenvielfalt der Gebäude             raum mit dem neuen Labor und dem Markgräflerhof wird
+wurde nicht ganz verstanden. Weiter vermochte das Ne-                nicht mehr «fliessend» gelesen und wird durch höhere
+beneinander der historischen und neuen Bauten im Bereich             Mauern sowie Treppenanlagen in zwei Bereiche geteilt. Die
+der Predigerkirche und des Markgräflerhofs nicht wirklich            Verschattung des Gartens aufgrund des neuen hohen Ge-
+zu überzeugen.                                                       bäudes wird auf die zukünftige Parknutzung Einfluss ha-
+                                                                     ben. Die neuen angedachten Innenhöfe mit verschiedenen
+Architektur                                                          Grünkörpern und vertikaler Berankung verleihen den Hö-
+Das Konzentrieren der Nutzflächen der ersten Sanierungs-             fen unterschiedliche Atmosphären.
+phase auf den östlichen Arealteil erfordert eine hohe Bau-
+dichte, was sich insbesondere an seinen Rändern manifes-             Funktionsanordnung und Prozesse
+tiert. Dieses Vorgehen vermag keine neuen räumlichen wie             Der Haupteingang ist dominant am Petersgraben ersicht-
+funktionalen Qualitäten gegenüber der heutigen Situation             lich und die Durchquerung Petersgraben – Spitalgarten ist
+zu schaffen.                                                         in direkter Linie möglich. Ungenügend ist die Vorfahrtsitu-
+    Das Erneuerungsprojekt zeichnet sich durch eine kom-             ation in beengender Situation am Petersgraben. Die Verti-
+pakte Bauweise aus. Das Spital ist sehr effizient organi-            kalverbindungen Lifte/Treppen sind nicht auf Anhieb er-
+siert, was sich positiv auf die bauliche Wirtschaftlichkeit          kennbar, davon abgesehen besteht jedoch eine gute Ori-
+auswirkt, hingegen alles etwas eng und knapp erscheinen              entierbarkeit im gesamten Flachbau. Die Anbindung an die
+lässt. Dies wird insbesondere in den Pflegegeschossen                bestehenden Bauten ist erfüllt, ebenso die Anbindung In-
+deutlich, die mit zu knappen Geschossflächen vorgeschla-             tensivpflege hochinstalliert zur Intensivpflege Chirurgie im
+gen sind. Die grosszügige und wohltuende Magistrale un-              OP-Ost. Diverse ungünstige Wegeführungen und Kreu-
+terstützt eine klare und effiziente Funktionsvernetzung              zungspunkte von liegenden mit gehende Patienten und Be-
+und trägt zusammen mit den Lichthöfen zur guten Orien-               suchern sind ein betriebliches Erschwernis.
+tierung innerhalb des Gebäudes bei. Der entlang des Pe-                  Der Zugang City-Parking zum Petersgraben ist nicht
+tersgrabens angeordnete Haupteingang zum neuen Klini-                mehr gewährleistet, was einen 24-h-Ausgang in den Spital-
+kum 2 ist gut ersichtlich, wirkt jedoch noch zu wenig einla-         garten erfordert. Die Pflegeabteilungen niederinstalliert
+dend und auch zu nahe am Petersgraben. Der grosse Glas-              sind zu kompakt auf zu knapper Geschossfläche organi-
+anteil der Fassade und die vorgeschlagene Konstruktion               siert. In der Notfallstation ist eine Durchmischung von ge-
+werden bezüglich Realisierbarkeit und Nachhaltigkeit hin-            henden und liegenden Patienten vorhanden. Die Entwick-
+terfragt. Gerade der sommerliche Wärmeschutz ist noch                lungsreserve ist ideal angeordnet und ausgewiesen.
+nicht optimal gelöst und erfordert eine Überarbeitung.
+                                                                     Logistik
+Denkmalschutz                                                        Die MTA-Anbindung von Klinikum 2 während der ersten
+Die geschützten Baudenkmäler sowie die Inventarobjekte               Bauphase Spitalturm ist unklar. Die Warenanlieferung ohne
+bleiben in der ersten Etappe ungeschmälert erhalten. Die             Kehrplatz funktioniert nicht. Die Entflechtung zwischen
+Zwischenräume Predigerkirche und Markgräflerhof/Klini-               liegenden Patienten und Besuchern ist nicht erfüllt. Die
+
+
+
+
+90       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Basilea
+
+
+
+
+     91
+Projekte Stufe 2
+Ohne Rangierung
+
+
+
+
+Beurteilung
+
+
+Liftkapazität der 4-er-Liftgruppe für ambulante und liegen-
+de Patienten, Mitarbeiter und Besucher im Spitalturm ist
+ungenügend.
+
+Gebäudetechnik
+Das Gebäudetechnikkonzept macht grundsätzliche, je-
+doch nur wenig spezifische Aussagen zum Projekt. Der ge-
+plante Rückbau des Klinikums 2, mit Schnitt Nord-Süd, ist
+nicht möglich – dadurch wäre die Versorgung des noch be-
+stehenden Flachbaus mit HLK, Sanitär und Strom nicht
+mehr gewährleistet. Das Glasdach über der Magistrale
+dürfte klimatechnisch problematisch sein. Der Hochbau
+verfügt über nur je einen Steigschacht für Zuluft und Fort-
+luft. Das Erschliessungskonzept ist im Grundsatz nach-
+vollziehbar, die Flächen sind jedoch tendenziell zu klein.
+Eine Dachzentrale sollte geprüft werden. Das Raumklima-
+konzept ist nur teilweise erkennbar (TAB). Auf dem Dach
+des Flachbaus sind in unmittelbarer Nähe zu den Helikop-
+terlandeplätzen Fotovoltaik- und Solaranlagen vorgesehen,
+was infolge der zu erwartenden Windlasten problematisch
+sein dürfte.
+
+Bauliche und betriebliche Aspekte
+Das vorgeschlagene, grundsätzlich nachvollziehbare Etap-
+pierungskonzept weist im Detail noch Mängel auf, die Ein-
+schränkungen des Betriebs bedeuten. In der Folge müssen
+entsprechende Provisorien vorgesehen werden, die nur
+zum Teil nachgewiesen sind. Mit einer vergleichsweise
+grossen ersten Etappe können zeitnah und im direkten An-
+schluss wertvolle Rochadeflächen für die Erneuerung des
+Klinikums 2 geschaffen werden. Durch die vorgeschlage-
+nen grossen Bauabschnitte sinkt die betriebene Fläche
+während der Bauzeit zeitweise unter jene, die heute zur
+Verfügung steht. Dies dürfte eine Verschiebung auf der
+Zeitachse oder zusätzliche Provisorien zur Folge haben.
+Die Erschliessung während 10 Jahren Bauzeit durch einen
+Baustellentunnel wird zudem als ungünstig erachtet.
+
+Wirtschaftlichkeit
+Das Projekt kann aufgrund der Investitionskosten als ein
+wirtschaftlich optimiertes Spital benannt werden. Diese
+befinden sich in der vom Masterplan Campus Gesundheit
+definierten finanziellen Bandbreite und liegen im Querver-
+gleich zu den Konkurrenzprojekten im unteren Drittel.
+
+Würdigung Projekt
+Das Projekt zeichnet sich durch eine hohe Effizienz und
+eine gute Nutzungsanordnung aus. In seiner Gesamtkon-
+zeption vermag es jedoch nicht in jeder Hinsicht zu über-
+zeugen. Das Optimieren und Verdichten wirkt sich nach-
+teilig auf die Funktionalität sowie die architektonische Qua-
+lität des Entwurfs aus. Der hohe Wille, ein wirtschaftlich
+optimiertes Spital zu realisieren, wird jedoch gewürdigt und
+als wertvoller Wettbewerbsbeitrag gewertet.
+
+
+
+
+92       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                                                                      Basilea
+
+
+
+
+Etappierung
+
+
+Vorbereitung (Istzustand)   Etappe 1
+
+
+
+
+Etappe 2                    Etappe 3 (Fertigstellung)
+
+
+
+
+                                                         Bestand in Betrieb
+                                                        	Neubau
+                                                        	Provisorien
+                                                        	Neu in Betrieb
+
+
+
+
+                                                                              93
+Projekte Stufe 2
+Ohne Rangierung
+
+
+
+
+94       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Basilea
+
+
+
+
+     95
+Projekte Stufe 2
+Ohne Rangierung
+
+
+
+
+96       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Basilea
+
+
+
+
+     97
+Projekte Stufe 2
+Ohne Rangierung
+
+
+
+
+98       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Basilea
+
+
+
+
+     99
+Projekte Stufe 2
+
+
+
+
+Projekt 03
+Ohne Rangierung                                                                             Anna Blume
+Architektur
+Rapp Arcoplan AG
+Hochstrasse 100, 4018 Basel
+Thomas Stegmaier, René Keuter, Nicole Schwendener,
+Gergely Kiss
+
+Butscher Architekten AG
+Kirschgartenstrasse 5, 4051 Basel
+Christoph Butscher, João Pereira, Albert Bau
+
+Steinmann & Schmid Architekten AG BSA SIA
+Rebgasse 21A, 4054 Basel
+Herbert Schmid, Peter Steinmann, Martin Kinder
+
+Gesamtleitung
+Rapp Arcoplan AG
+Hochstrasse 100, 4018 Basel
+Thomas Stegmaier, René Keuter, Nicole Schwendener
+
+
+Fachplaner und Spezialisten
+H. Limacher Partner AG, Zürich
+ZPF Ingenieure, Basel
+Rapp Infra AG, Basel
+Westpol Landschaftsarchitektur, Basel
+Hochstrasser Glaus & Partner Consulting AG, Beratende
+Ingenieure SIA/USIC, Zürich
+Waldhauser Haustechnik AG, Münchenstein
+Herzog Kull Group, Aarau
+Schudel + Schudel Ing. SIA, Kollbrunn
+
+
+
+
+100       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                    Anna Blume
+
+
+
+
+Sanierungsphase 1
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                           101
+Projekte Stufe 2
+Ohne Rangierung
+
+
+
+
+Beurteilung
+
+
+Städtebau                                                            Freiraum
+Grundsätzlich sind die städtebaulichen Massen verträglich            Die von den Verfassern im Neubau vorgesehene Magistrale
+und nachvollziehbar gesetzt, allerdings ohne die Vermitt-            öffnet sich vom Petersgraben aperspektivisch gegen den
+lung einer übergreifenden und griffigen Leitidee. Das Zu-            Spitalgarten hin. Sie führt an grosszügigen Innenhöfen vor-
+rückspringen an der Predigerkirche wird positiv gesehen,             bei und endet mit einem Café/Restaurant im Spitalgarten.
+die jetzt richtig gelegene Haupteingangssituation am Pe-             Die Innenhöfe sind in Anlehnung an den Spitalgarten mit
+tersgraben bleibt ein wenig beengt. Das Aufspannen eines             Wasserläufen und entsprechender Vegetation ausgebildet.
+Hauptbezuges des Bettenhauses zum Markgräflerhof ist                 So fliesst der Gartenraum in übertragenem Sinne in das
+inhaltlich nicht überzeugend und impliziert – typologisch            neue Gebäude.
+im Widerspruch zur inneren Organisation des Spitals – den               Der neue, an der südöstlichen Ecke des bestehenden
+Haupteingang auf der Mittelachse des historischen Gebäu-             Spitalgartens vorgesehene Aussenraum kann nur mit topo-
+des. Insgesamt ist die Massenverteilung unentschlossen               grafischen Veränderungen vorgenommen werden. Die klar
+und wenig präzise, die offensichtlich gewollte Analogie zum          vorgesehene Trennung des unteren Gartens und des höher
+Klinikum 1 ist nicht wirklich durchgearbeitet.                       gelegenen Freiraumes ist eine Neuinterpretation des Spi-
+                                                                     talgartens. Dies bedingt eine neue vertikale Erschliessung
+Architektur                                                          mit höheren Mauern. Die entlang dem Markgräflerhof an-
+Das zunächst kompakt und effizient erscheinende Gebäu-               gedachten, zum Spitalneubau gehörenden Lichthöfe er-
+de erkauft sich beim näheren Hinsehen diese Vorteile durch           scheinen sehr gross und verengen diesen Freiraum.
+eine massive Überschreitung des Perimeters; einerseits mit
+der Überbauung des OP-Ost mit drei Geschossen, ande-                 Funktionsanordnung und Prozesse
+rerseits durch ein nicht verträgliches Heranrücken an den            Der Haupteingang ist dominant am Petersgraben ersicht-
+Markgräflerhof und durch einen hohen Anteil innenliegen-             lich. Die Durchquerung Petersgraben – Spitalgarten ist in
+der, unbelichteter Räume. Insbesondere in der Pflegeorga-            direkter Linie möglich. Die Vorfahrt findet in grosszügiger
+nisation sind die nördlichen Bereiche ohne Qualitäten. Erst          Situation vom Petersgraben abgesetzt statt. Eine gute Ori-
+ab dem 5./6. Obergeschoss löst sich der Baukörper von der            entierbarkeit ist im gesamten Flachbau gegeben. Die An-
+Umklammerung der Sockelgeschosse, nutzt dann aber die                bindung an die bestehenden Bauten ist erfüllt, die Anbin-
+dadurch möglichen Freiheitsgrade nicht. Im Sockel sind die           dung Intensivpflege hochinstalliert zur Intensivpflege Chir-
+modular aufgebauten Einheiten im Sinne der Auslobung                 urgie im OP-Ost ist jedoch nicht erfüllt. Eine klare Tren-
+flexibel und klar organisiert, allerdings werden durch die           nung der Verkehrsströme funktioniert nicht und führt zu
+mittig gelegene Halle erhebliche Wegekreuzungen erzeugt.             einer Durchmischung der Wegeführungen bei den diversen
+Zum Markgräflerhof gelegene unterirdische, unbelichtete              Liftgruppen. Die Verkehrswege sind auf die zentralen Lift-
+Aufenthaltsräume sind nicht akzeptabel. Die Eingangshalle            gruppen gebündelt was unter anderem ein Grund für die
+verspricht gute Qualitäten, gerade mit der Öffnung in den            erwähnte Durchmischung ist. In grossen Teilen der U+B-
+Spitalgarten und den Ausblicken in die Höfe. In der Zugäng-          Bereiche ist die Tageslichtsituation ungenügend und die
+lichkeit vermittelt sie aber durch den konischen Verlauf             grossen Schichttiefen erschweren eine effiziente Flächen-
+eine uneinladende Enge. Mit der stadtgestalterisch nach-             nutzung. Die Pflegemodule hochinstalliert sind nicht zu-
+vollziehbaren Vertikalität des Fassadensystems werden                sammengefasst.
+nicht brauchbare Einschränkungen in der Verschattung der                 Die Entwicklungsreserve ist ideal angeordnet und aus-
+nach Süden gelegenen Patientenzimmer vorgeschlagen. In               gewiesen.
+der Durcharbeitung sind erhebliche Mängel in Bezug auf
+eine massive Überschreitung der geforderten Flächen und              Logistik
+der dargestellten Etappierung der Massnahmen zu konsta-              Eine funktionsfähige Spitallogistik ist, bis auf den Unter-
+tieren.                                                              bruch der MTA-Anbindung des Klinikums 2 während der
+                                                                     Bauphase 1, immer gewährleistet. Die Anforderungen an die
+Denkmalschutz                                                        Warenver- und die Entsorgung sind erfüllt. Die Entflech-
+In der ersten Etappe bleiben die Schutzobjekte und das In-           tung zwischen liegenden Patienten und Besuchern wird gut
+ventarobjekt von Hannes Schmidt unberührt. Gegenüber                 gelöst, ausser im 1. Untergeschoss zwischen Radiologie und
+dem Petersgraben wird der vorgesehene Baukörper zu-                  OP-Patienten. Die Liftkapazitäten für ambulante Patien-
+rückversetzt. Der Zwischenraum zur Predigerkirche stellt             ten, Besucher und Mitarbeiter werden als genügend ein-
+eine Verbesserung gegenüber der heutigen Situation dar.              geschätzt.
+Dagegen wird der Raum zwischen Klinikum 2 und Mark-
+gräflerhof mit Schächten stark perforiert, die nahe an den           Gebäudetechnik
+barocken Schlossbau heranreichen.                                    Das Gebäudetechnikkonzept ist, bis auf wenige Ausnah-
+                                                                     men, ausführlich, angemessen und plausibel beschrieben.
+                                                                     Es werden die Ziele Minergie-P-ECO verfolgt. Das not-
+
+
+
+
+102      Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Anna Blume
+
+
+
+
+       103
+Projekte Stufe 2
+Ohne Rangierung
+
+
+
+
+Beurteilung
+
+
+wendige interdisziplinäre Vorgehen im Projektteam ist er-
+kennbar. Der vorgesehene Neubau der Gaszentrale mit
+Gastanks im dritten UG ist nicht möglich. Die Zuordnung
+der Technikzentralen ist gut nachvollziehbar. Die Steigzo-
+nen für Lüftung und Energien sind knapp bemessen. Deren
+Anordnung muss noch optimiert werden. Das Energiekon-
+zept sieht vor, dass die Wärmeversorgung künftig nicht
+mehr über das Fernwärmenetz der IWB erfolgen soll. Die-
+ser Ansatz ist nicht nachvollziehbar. Der betonierte Aus­
+senluftkanal wird als Energiespeicher mit merklicher Re-
+duktion des Heiz- und Kühlenergiebedarfs beschrieben. Es
+ist zu prüfen, wie weit diese Lösung die Luftkonditionie-
+rung wirklich nachhaltig und positiv beeinflusst.
+
+Bauliche und betriebliche Aspekte
+Das Etappierungskonzept ist in der vorgeschlagenen Art
+nicht umsetzbar. Aufgrund der vorgesehenen, aber unzu-
+lässigen Aufstockung des erweiterten OP-Ost muss dieser
+zeitweise ausser Betrieb genommen werden. Die hierfür
+notwendigen hochinstallierten Provisorien – aufgrund der
+zu erwartenden nicht tolerierbaren Immission für die dar-
+unterliegenden Funktionen – sind nicht nachgewiesen. Zu-
+dem ist die Ablösung der Pflegebereiche für den Teilrück-
+bau des Bettenhauses Klinikum 2 nicht vollumfänglich ge-
+währleistet. Gesamthaft betrachtet ist das Etappierungs-
+konzept grundlegend zu überarbeiten.
+
+Wirtschaftlichkeit
+Das Projekt generiert die höchsten Investitionskosten, wel-
+che zwar in der vom Masterplan Campus Gesundheit defi-
+nierten finanziellen Bandbreite liegen, jedoch auf rund 30%
+höher zu stehen kommen als bei dem kostenmässig tiefs-
+ten Projektvorschlag. Der Haupttreiber bezüglich Kosten
+ist bei der Geschossfläche zu suchen, welche im Vergleich
+zum Bestwert um knapp einen Viertel höher liegt.
+
+Würdigung Projekt
+Trotz vieler richtiger Grundsatzentscheidungen kann der
+eigenartig spannungslose Baukörper keine prägnante und
+atmosphärisch bindende Wirkung entfalten. Er liefert kei-
+ne nachhaltige Antwort auf die komplexe städtebauliche
+Situation. Die positiv bewertete ruhige Grundordnung der
+Kubatur ist letztlich bedingt durch eine nicht umsetzbare
+massive Überbauung des OP-Ost. Auch in puncto Wirt-
+schaftlichkeit und Etappierbarkeit vermag das Projekt
+nicht zu überzeugen.
+
+
+
+
+104      Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                                      Anna Blume
+
+
+
+
+Etappierung
+
+
+Istzustand
+
+
+
+
+Etappe 1      Etappe 2
+
+
+
+
+Etappe 3      Fertigstellung
+
+
+
+
+                                Bestand in Betrieb
+                               	Umbau
+                               	Neubau
+                               	Provisorien
+                               	Neu in Betrieb
+
+
+
+
+                                                     105
+Projekte Stufe 2
+Ohne Rangierung
+
+
+
+
+106      Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Anna Blume
+
+
+
+
+       107
+Projekte Stufe 2
+Ohne Rangierung
+
+
+
+
+108      Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Anna Blume
+
+
+
+
+       109
+Projekte Stufe 2
+Ohne Rangierung
+
+
+
+
+110      Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Anna Blume
+
+
+
+
+        111
+112   Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                      Projekte
+
+
+
+
+Stufe 1/Gesamtsicht
+
+
+
+
+      /1                 113
+Projekte Stufe 1
+
+
+
+
+Projekt 01
+                                                                     Im Bilde der Stadt
+Architektur
+Arkitektfirmaet C.F. Møller A/S
+Europaplads 2, DK-8000 Aarhus
+Tom Danielsen, Sofia Lind, Søren Gornitzka, Olaf Grundtvig
+
+Gesamtleitung
+b+p baurealisation ag
+Eggbühlstrasse 28, 8050 Zürich
+Timo Philippen, Tanja Jackschath
+
+
+Fachplaner und Spezialisten
+Arkitektfirmaet C.F. Møller A/S, DK-Køpenhavn
+Gruner AG, Basel
+Gruneko Schweiz AG, Basel
+
+
+
+
+114       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                    Im Bilde der Stadt
+
+
+
+
+Sanierungsphase 1
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                                   115
+Projekte Stufe 1
+
+
+
+
+116       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Im Bilde der Stadt
+
+
+
+
+               117
+Projekte Stufe 1
+
+
+
+
+Projekt 02
+Qualifiziert für Stufe 2                                                                                     Basilea
+Architektur
+gmp Generalplanungsgesellschaft mbH
+Elbchaussee 139, D-20144 Hamburg
+Jürgen Hillmer, Volkwin Marg
+
+Gesamtleitung
+gmp Generalplanungsgesellschaft mbH
+Elbchaussee 139, D-20144 Hamburg
+Jürgen Hillmer, Volkwin Marg
+
+
+Fachplaner und Spezialisten
+mediplan Krankenhausplanungsgesellschaft mbH, D-Hamburg
+schlaich bergermann und partner-sbp gmbh, D-Stuttgart
+Breimann & Bruun Landschaftsarchitektur, D-Hamburg
+WINTER Beratende Ingenieure für Gebäudetechnik GmbH, D-Düsseldorf
+
+
+
+
+118       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                    Basilea
+
+
+
+
+Sanierungsphase 1
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                        119
+Projekte Stufe 1
+
+
+
+
+120       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Basilea
+
+
+
+
+    121
+Projekte Stufe 1
+
+
+
+
+Projekt 03
+Qualifiziert für Stufe 2                                                                    Anna Blume
+Architektur
+Rapp Arcoplan AG
+Hochstrasse 100, 4018 Basel
+Thomas Stegmaier, René Keuter, Nicole Schwendener,
+Gergely Kiss
+
+Butscher Architekten AG
+Kirschgartenstrasse 5, 4051 Basel
+Christoph Butscher, João Pereira, Albert Bau
+
+Steinmann & Schmid Architekten AG BSA SIA
+Rebgasse 21A, 4054 Basel
+Herbert Schmid, Peter Steinmann, Martin Kinder
+
+Gesamtleitung
+Rapp Arcoplan AG
+Hochstrasse 100, 4018 Basel
+Thomas Stegmaier, René Keuter, Nicole Schwendener
+
+
+Fachplaner und Spezialisten
+H. Limacher Partner AG, Zürich
+ZPF Ingenieure, Basel
+Rapp Infra AG, Basel
+Westpol Landschaftsarchitektur, Basel
+Hochstrasser Glaus & Partner Consulting AG,
+   Beratende Ingenieure SIA/USIC, Zürich
+Waldhauser Haustechnik AG, Münchenstein
+Herzog Kull Group, Aarau
+Schudel + Schudel Ing. SIA, Kollbrunn
+
+
+
+
+122       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                    Anna Blume
+
+
+
+
+Sanierungsphase 1
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                           123
+Projekte Stufe 1
+
+
+
+
+124       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Anna Blume
+
+
+
+
+       125
+Projekte Stufe 1
+
+
+
+
+Projekt 04
+                                                                                 Der Schlüssel
+Architektur
+Geninasca Delefortrie SA/Groupe 6 SA
+Place-d’Armes 3, Neuchâtel
+Laurent Geninasca, Denis Bouvier
+
+Gesamtleitung
+Geninasca Delefortrie SA/Groupe 6 SA
+Place-d’Armes 3, Neuchâtel
+Laurent Geninasca, Denis Bouvier
+
+
+Fachplaner und Spezialisten
+smec . swiss medical consulting, Basel
+Bureau d’ingénieurs Daniel Willi SA, Montreux
+biolconseils sa, Neuchâtel
+Weinmann-Energies SA, Echallens
+
+
+
+
+126       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                    Der Schlüssel
+
+
+
+
+Sanierungsphase 1
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                              127
+Projekte Stufe 1
+
+
+
+
+128       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Der Schlüssel
+
+
+
+
+          129
+Projekte Stufe 1
+
+
+
+
+Projekt 05
+                                                                                                   Mondrian
+Architektur
+Nickl & Partner Architekten AG
+Lindberghstrasse 19, D-80939 München
+Christine Nickl-Weller, Hans Nickl
+
+Gesamtleitung
+Drees & Sommer Schweiz GmbH
+Riehenstrasse 43, 4058 Basel
+Jürgen Marc Volm
+
+
+Fachplaner und Spezialisten
+TEAMPLAN, D-72070 Tübingen
+Leonhardt, Andrä und Partner GmbH, Zürich
+asp Landschaftsarchitekten, Zürich
+Brunner Haustechnik AG, Wallisellen
+
+
+
+
+130       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                    Mondrian
+
+
+
+
+Sanierungsphase 1
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                          131
+Projekte Stufe 1
+
+
+
+
+132       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Mondrian
+
+
+
+
+     133
+Projekte Stufe 1
+
+
+
+
+Projekt 06
+                                                                                            Paracelsus
+Architektur
+BE Zürich AG
+Bäckerstrasse 40, 8004 Zürich
+Stephan Marending, Dietmar Eberle, Gerd Jäger
+
+Gesamtleitung
+BE Zürich AG
+Bäckerstrasse 40, 8004 Zürich
+Stephan Marending, Dietmar Eberle, Gerd Jäger
+
+
+Fachplaner und Spezialisten
+Lead Consultants AG, Zürich
+Kalt + Halbeisen Ingenieurbüro AG, Kleindöttingen
+EDY TOSCANO AG, Engineering & Consulting, Zürich
+Bütikofer Schaffrath Landschaftsarchitekten BSLA BDLA SIA, Zürich
+
+
+
+
+134       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                    Paracelsus
+
+
+
+
+Sanierungsphase 1
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                           135
+Projekte Stufe 1
+
+
+
+
+136       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Paracelsus
+
+
+
+
+       137
+Projekte Stufe 1
+
+
+
+
+Projekt 07
+Qualifiziert für Stufe 2                                                                                Margino
+Architektur
+HPP GmbH & Co. KG
+Möhringer Str. 60/1, D-70199 Stuttgart
+Volker Biermann
+
+Gesamtleitung
+b+p baurealisation ag
+Eggbühlstrasse 28, 8050 Zürich Oerlikon
+Timo Philippen, Tanja Jackschath, Philipp Röthlisberger
+
+
+Fachplaner und Spezialisten
+Hospitaltechnik Planungsgesellschaft mbH, D-Krefeld
+Arbeitsgemeinschaft Knippers Helbig (KH) / Mayer-Vorfelder
+   und Dinkelacker (MVD), D-Stuttgart
+club L94 Landschaftsarchitekten GmbH, D-Köln
+gb consult ag, Basel
+
+
+
+
+138       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                    Margino
+
+
+
+
+Sanierungsphase 1
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                        139
+Projekte Stufe 1
+
+
+
+
+140       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Margino
+
+
+
+
+     141
+Projekte Stufe 1
+
+
+
+
+Projekt 08
+                                                                                      Horizon Vert
+Architektur
+Heinle Wischer Gesellschaft für Generalplanung mbH
+Leuschnerstrasse 12, D-70174 Stuttgart
+Till Behnke
+
+Gesamtleitung
+Heinle Wischer Gesellschaft für Generalplanung mbH
+Leuschnerstrasse 12, D-70174 Stuttgart
+Till Behnke
+
+
+Fachplaner und Spezialisten
+TEAMPLAN, D-Tübingen
+schlaich bergermann und partner – sbp gmbH, D-Stuttgart
+Rainer Schmidt Landschaftsarchitekten GmbH, D-Berlin
+Rentschler und Riedesser Ingenieurgesellschaft mbH, D-Filderstadt
+
+
+
+
+142       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                    Horizon Vert
+
+
+
+
+Sanierungsphase 1
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                             143
+Projekte Stufe 1
+
+
+
+
+144       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Horizon Vert
+
+
+
+
+         145
+Projekte Stufe 1
+
+
+
+
+Projekt 09
+                                                     Tangente des Rheines
+Architektur
+Henning Larsen Architects
+Vesterbrogade 76, DK-1620 Kopenhagen
+Lars Steffensen, Mikkel Eskildsen, Daniel Baumann
+
+Gesamtleitung
+Henning Larsen Architects
+Vesterbrogade 76, DK-1620 Kopenhagen
+
+b+p baurealisation ag
+Eggbühlstrasse 28, 8050 Zürich
+Lars Steffensen, Timo Philippen
+
+
+Fachplaner und Spezialisten
+Lohfert & Lohfert AS, DK-2800 Kongens Lyngby
+Gruner AG, Basel
+raderschallpartner ag landschaftsarchitekten bsla sia, Meilen
+Gruneko Schweiz AG, Basel
+
+
+
+
+146       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                Tangente des Rheines
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                                 147
+Projekte Stufe 1
+
+
+
+
+148       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Tangente des Rheines
+
+
+
+
+                 149
+Projekte Stufe 1
+
+
+
+
+Projekt 10
+Qualifiziert für Stufe 2                                                                               The Edge
+Architektur
+SAM Architekten und Partner AG
+Hardturmstrasse 175, Postfach, 8037 Zürich
+Sacha Menz, René Antoniol, Christoph Schneider
+
+Gesamtleitung
+SAM Architekten und Partner AG
+Hardturmstrasse 175, Postfach, 8037 Zürich
+Sacha Menz, René Antoniol, Christoph Schneider
+
+
+Fachplaner und Spezialisten
+blumergaignat ag, Küsnacht
+Walt + Galmarini AG Dipl. Ing. ETH SIA USIC, Zürich
+Atelier Girot, Gockhausen
+Meierhans + Partner AG, Schwerzenbach
+IBG B. Graf AG Engineering, Winterthur
+Gemperle Kussmann GmbH, Basel
+
+
+
+
+150       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                    The Edge
+
+
+
+
+Sanierungsphase 1
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                         151
+Projekte Stufe 1
+
+
+
+
+152       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+The Edge
+
+
+
+
+     153
+Projekte Stufe 1
+
+
+
+
+Projekt 11
+                                                                                                           Okazaki
+Architektur
+Manetsch Meyer Architekten AG
+Seebahnstrasse 85, 8003 Zürich
+Lukas Meyer, Franziska Manetsch
+
+Gesamtleitung
+Manetsch Meyer Architekten AG
+Seebahnstrasse 85, 8003 Zürich
+Lukas Meyer
+
+
+Fachplaner und Spezialisten
+Consensus Projektmanagement GmbH, Gränichen
+Basler & Hofmann Innerschweiz AG, Luzern
+Wirthensohn AG, Luzern
+Noa Landschaftsarchitektur, Zürich
+
+
+
+
+154       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                    Okazaki
+
+
+
+
+Sanierungsphase 1
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                        155
+Projekte Stufe 1
+
+
+
+
+156       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Okazaki
+
+
+
+
+    157
+Projekte Stufe 1
+
+
+
+
+Projekt 12
+Qualifiziert für Stufe 2                                                                                   Arcadia
+Architektur
+giuliani.hönger architekten eth-bsa-sia
+Kanzleistrasse 57, 8004 Zürich
+Lorenzo Giuliani, Christian Hönger, Julia Koch,
+Martin Künzler
+
+Gesamtleitung
+Caretta + Weidmann Baumanagement AG
+Langgrüttstrasse 112, 8047 Zürich
+Rafael Caretta, Martin Greutmann
+
+
+Fachplaner und Spezialisten
+PGMM Schweiz AG, Winterthur
+Dr. Lüchinger + Meyer Bauingenieure AG, Zürich
+Appert & Zwahlen GmbH Landschaftsarchitekten BSLA, Cham
+Aicher, De Martin, Zweng AG, Luzern
+SYTEK AG, Binningen
+Technik im Bau AG, Luzern
+
+
+
+
+158       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                    Arcadia
+
+
+
+
+Sanierungsphase 1
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                        159
+Projekte Stufe 1
+
+
+
+
+160       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Arcadia
+
+
+
+
+    161
+Projekte Stufe 1
+
+
+
+
+Projekt 13
+Qualifiziert für Stufe 2                                                                                         Kazwei
+Architektur
+Herzog & de Meuron
+Rheinschanze 6, 4056 Basel
+Jacques Herzog, Pierre de Meuron, Christine Binswanger,
+Thomas de Vries, Mark Bähr
+
+Gesamtleitung
+Gruner AG
+Gellertstrasse 55, 4020 Basel
+Peter Keller
+
+
+Fachplaner und Spezialisten
+Institut für Beratungen im Gesundheitswesen (IBG), Aarau
+Gruner AG, Basel
+Vogt Landscape Ltd., GB-London
+Amstein + Walthert AG, Zürich
+Kiwi Systemingenieure und Berater AG, Dübendorf
+
+
+
+
+162       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                    Kazwei
+
+
+
+
+Sanierungsphase 1
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                       163
+Projekte Stufe 1
+
+
+
+
+164       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Kazwei
+
+
+
+
+   165
+Projekte Stufe 1
+
+
+
+
+Projekt 14
+                                                                                                                 Polis
+Architektur
+Christ & Gantenbein Architekten ETH SIA BSA
+Spitalstrasse 12, 4056 Basel
+Emanuel Christ, Christoph Gantenbein, Anna Flückiger
+
+Gesamtleitung
+Itten + Brechbühl AG
+Güterstrasse 133, 4053 Basel
+Andreas Stöcklin, Winfried Maier, Cornelia Mannschatz,
+Marc Pancera, Niels Montandon
+
+
+Fachplaner und Spezialisten
+Institut für Beratungen im Gesundheitswesen (IBG), Aarau
+Ernst Basler + Partner AG, Zürich
+Vogt Landschaftsarchitekten AG, Zürich
+Dr. Eicher + Pauli AG, Liestal
+
+
+
+
+166       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                    Polis
+
+
+
+
+Sanierungsphase 1
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                      167
+Projekte Stufe 1
+
+
+
+
+168       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Polis
+
+
+
+
+  169
+Projekte Stufe 1
+
+
+
+
+Projekt 15
+                                                                                                                 Alant
+Architektur
+Burckhardt + Partner AG, Architekten Generalplaner
+Dornacherstrasse 210, 4002 Basel
+Wolfgang Hardt, Christina Muchsel, Sandra Quiros, Julio Munoz
+
+Gesamtleitung
+Burckhardt + Partner AG, Architekten Generalplaner
+Dornacherstrasse 210, 4002 Basel
+Wolfgang Hardt, Christoph Frey, Wolfgang Hardt
+
+
+Fachplaner und Spezialisten
+Jo Coenen & Co Architects & Urbanists, NL-Amsterdam
+smeco – swiss medical consulting, Basel
+Schnetzer Puskas Ingenieure AG, Basel
+Fontana Landschaftsarchitektur GmbH, Basel
+Brunner Haustechnik AG, Grafstal
+
+
+
+
+170       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                    Alant
+
+
+
+
+Sanierungsphase 1
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                       171
+Projekte Stufe 1
+
+
+
+
+172       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Alant
+
+
+
+
+  173
+Projekte Stufe 1
+
+
+
+
+Projekt 16
+Qualifiziert für Stufe 2                                                                                Wallace
+Architektur
+Darlington Meier Architekten AG
+Badenerstrasse 337, 8003 Zürich
+Mark Darlington, Stephan Meier
+
+Gesamtleitung
+GMS Partner AG
+Postfach 177, 8058 Zürich-Flughafen
+Urs Moser
+
+
+Fachplaner und Spezialisten
+daniel pauli dipl. arch ETH/SIA architektur.consulting, Villnachern
+Schnetzer Puskas Ingenieure AG, Zürich
+Haag Landschaftsarchitektur, Zürich
+RMB Engineering AG, Zürich
+HEFTI.HESS.MARTIGNONI. Zürich AG usic, Zürich
+RMB Engineering AG, Zürich
+
+
+
+
+174       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                    Wallace
+
+
+
+
+Sanierungsphase 1
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                        175
+Projekte Stufe 1
+
+
+
+
+176       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Wallace
+
+
+
+
+     177
+Projekte Stufe 1
+
+
+
+
+Projekt 17
+                                                                                                HÔtel-Dieu
+Architektur
+Harry Gugger Studio Ltd.
+Luftgässlein 4, 4051 Basel
+Harry Gugger, Frank Zierau, Michael Zink
+
+Gesamtleitung
+b+p baurealisation ag
+Eggbühlstrasse 28, 8050 Zürich
+Timo Philippen, Tanja Jackschath
+
+
+Fachplaner und Spezialisten
+Schnetzer Puskas Ingenieure AG, Basel
+blumergaignat ag, Küsnacht
+Amstein + Walthert AG, Zürich
+Müller Illien Landschaftsarchitekten, Zürich
+
+
+
+
+178       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+                    HÔtel-Dieu
+
+
+
+
+Sanierungsphase 1
+
+
+
+
+Gesamtkonzept
+
+
+
+
+                           179
+Projekte Stufe 1
+
+
+
+
+180       Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+HÔtel-Dieu
+
+
+
+
+       181
+182   Bericht des Preisgerichts/Projektwettbewerb Erneuerung Klinikum 2, Universitätsspital Basel/Mai 2013
+Genehmigung
+
+
+
+Das Preisgericht hat den Bericht in der vorliegenden
+Form am 16. April 2013 genehmigt.
+
+
+
+
+Dr. Hans-Peter Wessels
+
+
+
+Dr. Werner Kübler
+
+
+
+Michael Plüss		
+
+
+
+Roland Geiser
+
+
+
+Drs. Roel Goffin		
+
+
+
+Fritz Schumacher
+Vorsitz
+
+
+Thomas Blanckarts
+
+
+
+Silvia Gmür
+
+
+
+Stefan Traxler
+
+
+
+Gerard Prêtre		
+
+
+
+Barbara Holzer
+
+
+
+August Künzel
+
+
+
+Mario Da Rugna
+Ersatz
+
+
+Willy Nützi
+Ersatz
+
+
+
+
+                                                       183
+Impressum
+
+
+
+
+Titelbild
+Visualisierung Siegerprojekt
+
+Umschlaginnenseite
+USB/Klinikum 2, Seite Haupteingang
+(Aufnahme Januar 2013)
+
+
+
+
+© 2013
+Bau- und Verkehrsdepartement des Kantons Basel-Stadt
+Städtebau & Architektur, Hochbauamt
+und Universitätsspital Basel
+
+Redaktion
+Dominik Zaugg, Projektmanager, Hochbauamt
+
+Lektorat
+Rotstift AG, Basel
+
+Modellfotos
+Ruedi Walti, Basel
+
+Arealfotos
+Hans H. Münchhalfen, Basel
+
+Gestaltung und Realisation
+Porto Libro, Beat Roth, Basel
+
+Druck
+Steudler Press AG, Basel
+
+Bezug
+Bau- und Verkehrsdepartement des Kantons Basel-Stadt
+Städtebau & Architektur, Hochbauamt
+Münsterplatz 11, 4001 Basel
+Telefon +41 (0)61 267 94 36
+                                                       Papier 100 % Recycling,
+Universitätsspital Basel                               FSC-zertifiziert und CO2-neutral
+Spitalstrasse 21 / Petersgraben 4, 4031 Basel
+Telefon +41 (0)61 265 25 25
+www.unispital-basel.ch
+                                                                                        neutral
+                                                                                     Drucksache
+Schutzgebühr CHF 10.–                                   No. 01-11-929119 – www.myclimate.org
+Basel, im Mai 2013                                      © myclimate – The Climate Protection Partnership
+
+
+
+
+184
+Mit dem vorliegenden Wettbewerb wird ein Sanierungs-
+und Etappierungskonzept für die Gebäude der dritten Bau-
+etappe (Gebäude der 70 er-Jahre) und insbesondere das
+Klinikum 2 gesucht, mit welchem das Universitätsspital
+Basel – unter den Fokussen Städtebau, Spitalbetrieb, Etap-
+pierbarkeit und Wirtschaftlichkeit – ideale Voraussetzun-
+gen bietet, die anstehenden Sanierungen sowie Erneuerun-
+gen zukunftsweisend und betriebsverträglich innerhalb des
+Gesamtareals umzusetzen.
+
+
+
+
+Projektperimeter
+
+
+
+
+                                                             BVD-S&A-H/K2USB-BPG/05.2013
+Universitätsspital Basel
+Spitalstrasse 21 / Petersgraben 4, 4031 Basel
+Telefon +41 (0)61 265 25 25
+www.unispital-basel.ch
+
+Bau- und Verkehrsdepartement des Kantons Basel-Stadt
+Städtebau & Architektur, Hochbauamt
+Münsterplatz 11, 4001 Basel
+Telefon +41 (0)61 267 94 36
+www.bvd.bs.ch
+
