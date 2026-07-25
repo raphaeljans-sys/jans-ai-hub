@@ -106,3 +106,27 @@ Details siehe `raw/`, Verdichtung siehe `wiki/kennwerte.md`.
 
 Nicht geprüft in Run 2: SharePoint-Ordner ausserhalb `AR - 01 Projekte` (z.B. `AR - 07 Archiv`
 für abgeschlossene Mandate mit Schlussabrechnung) — Kandidat für Run 3.
+
+## Run 3 (25.07.2026) — Drittquelle SharePoint `AR - 07 Archiv` (abgeschlossene Mandate)
+
+`AR - 07 Archiv/01_Projekte/` enthält nur 4 Ordner: `1318 Lorraine`, `2202 Ackersteinstrasse`,
+`2304 Reckholdern`, `_SCHAFFNER`. Alle systematisch geprüft (`find -iname "*kosten*"` +
+Sichtprüfung).
+
+| Projekt | Kosten-Fund | Verwertbarkeit |
+|---|---|---|
+| 2202 Ackersteinstrasse 67 | `04_KTV/01_Kosten/` (KV-PDF, Kennwerte-Notiz, BKP-Archiv) + `04_KTV/03_Architektenvertrag/03_Grobkostenschaetzung/` (Vertrags-GKS, mehrere INDD-Revisionsstände 210610–230523) | `[x]` extrahiert Run 3 → `raw/2202-ackersteinstrasse.md`: 4 Kostenstände (613–850 m³ GV, CHF 480'000–1'219'133 Gesamtkosten) widersprechen sich ohne erkennbaren Grund, zusätzlich interne Widersprüchlichkeit im jüngsten Dokument (360.-/791.- CHF/m³) — nicht verwertbar, nicht mal als Einzelfall n=1 |
+| 2304 Reckholdern 20 | `2304_Reckholdern_Dropbox/7 Kosten Finanzen/73 Kostenvoranschläge/` (KV Siworks), `02_Korrespondenz/01_BL_SiworksimmoAG/` (Grobkostenberechnung, Kostenstruktur), `04_KTV/06_Planungskostenkontrolle/` (Unternehmerkosten Baueingabe) | `[x]` extrahiert Run 3 → `raw/2304-reckholdern.md`: GV 1'715 m³ UND BKP-Gliederung liegen erstmals gleichzeitig vor, aber dasselbe Dokument enthält zwei sich widersprechende Gesamtkosten (CHF 2'960'000 vs. CHF 1'800'000, letztere erkennbar aus falscher Vorlage übernommen) — nicht verwertbar ohne Klärung, welcher Stand gilt |
+| 1318 Lorraine (Küche Maria) | `03_Kueche_Maria/03_Kostenschaetzung/` — identisches Material bereits über NAS-Altarchiv bekannt (Run 1) | `[-]` bereits geprüft: Kücheneinbau, kein Gebäude-GV, ausserhalb Scope |
+| 1318 Lorraine → 2203 Lorraine (nested) | `2203 Lorraine/02_Korrespondenz/Jans Maria/220809 Kostenschätzung`, `.../0000_Neustrukturierung/4_KTV/02 Kosten` | `[-]` untauglich: beide Ordner enthalten keine Dateien (`find -type f` liefert 0 Treffer) — leere Struktur-Schablonen |
+| _SCHAFFNER | kein Inhalt | `[-]` Ordner komplett leer |
+
+**05_Kostenplanung** (Bibliotheks-Unterordner, nicht projektgebunden) enthält nur generische
+Vorlagen/Fremdprojekt-Fundstücke (Leutschenbach-Finanzrapport, AXA-Telli-KV, diverse fremde
+Offerten) — kein JANS-Eigenprojekt mit GV-Bezug, nicht als Quelle geeignet für diese KB
+(Scope: eigene, nutzungs-/standard-zuordenbare JANS-Projekte).
+
+**Ergebnis Run 3:** 2 Projekte mit GV+BKP-Material gefunden (erstmals inkl. eines Falls mit
+GV UND BKP-Gliederung im selben Dokument, Reckholdern) — aber BEIDE intern widersprüchlich
+und daher nicht promotionsfähig, nicht mal als Einzelfall n=1. Damit ist `AR - 07 Archiv`
+vollständig geprüft (alle 4 Projektordner `[x]`/`[-]`).

@@ -2,7 +2,7 @@
 title: Grobkosten-Kennwerte (CHF/m³ GV, BKP 1–5)
 status: emerging
 last_updated: 2026-07-25
-sources: [skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md, wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro, raw/2414-thalwil.md, raw/2518-grubenackerstrasse.md, raw/2515-wartstrasse.md]
+sources: [skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md, wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro, raw/2414-thalwil.md, raw/2518-grubenackerstrasse.md, raw/2515-wartstrasse.md, raw/2202-ackersteinstrasse.md, raw/2304-reckholdern.md]
 links: []
 ---
 
@@ -83,6 +83,20 @@ Vollständige Extraktion inkl. BKP-Detailpositionen: `raw/2414-thalwil.md`,
 `raw/2518-grubenackerstrasse.md`. Ebenfalls geprüft, aber ohne verwertbaren CHF/m³-Datenpunkt:
 `raw/2515-wartstrasse.md` (Fassaden-Teilprojekt ohne GV-Bezug, CHF 25'200).
 
+## Run 3 (25.07.2026) — zwei weitere Fälle geprüft, aber KEINER auch nur als Einzelfall führbar
+
+Aus SharePoint `AR - 07 Archiv` (abgeschlossene Mandate): 2202 Ackersteinstrasse 67 (Umbau
+REFH) und 2304 Reckholdern 20 (Ersatzneubau EFH) haben beide GV-Angaben und BKP-/eBKP-H-
+Kostengliederungen gefunden — anders als bei den Run-2-Fällen liegt das Problem hier nicht im
+Fehlen von Grössen, sondern in **widersprüchlichen Kostenständen innerhalb desselben
+Projekts bzw. sogar innerhalb desselben Dokuments** (Ackersteinstrasse: vier Stände zwischen
+CHF 480'000 und 1'219'133 auf 613–850 m³ ohne dokumentierten Grund; Reckholdern: dasselbe
+Dokument nennt sowohl CHF 2'960'000 als auch CHF 1'800'000 für dieselben 1'715 m³, letzteres
+erkennbar aus einer nicht angepassten Fremdprojekt-Vorlage). Keiner der beiden Fälle wird
+hier geführt — auch nicht als Einzelfall n=1 mit Kaveat, da die Provenienzkette nicht nur dünn,
+sondern in sich widersprüchlich ist. Details: `raw/2202-ackersteinstrasse.md`,
+`raw/2304-reckholdern.md`; offene Klärungsfrage in `wiki/QUESTIONS.md`.
+
 ## Zuschläge (multiplikativ)
 
 | Treiber | Zuschlag | Hinweis |
@@ -138,3 +152,8 @@ kennwerte bleibt diese KB; energie liefert nur die Detail-/Betriebskosten (Wisse
   `training/quellen-inventar.md`). Zwei dünne Einzelfälle (2414 Thalwil, 2518 Grubenacker-
   strasse) oben unter "Erste reale Datenpunkte" dokumentiert — Seed-Werte bewusst NICHT
   überschrieben (Provenienz zu schwach für n=1-Promotion).
+- Run 3 (25.07.2026): Drittquelle SharePoint `AR - 07 Archiv` (abgeschlossene Mandate)
+  vollständig geprüft. Zwei Projekte mit GV+BKP-Material gefunden (2202 Ackersteinstrasse,
+  2304 Reckholdern), beide wegen interner Widersprüche in den Quelldokumenten nicht verwertbar
+  — Seed-Werte unverändert. Damit sind beide bekannten SharePoint-Projektquellen
+  (`AR - 01 Projekte`, `AR - 07 Archiv`) vollständig durchgeprüft.

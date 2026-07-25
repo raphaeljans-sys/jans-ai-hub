@@ -2,6 +2,36 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-07-25 — Trainings-Run 3 (Drittquelle AR-07 Archiv geprüft): erstmals GV+BKP im selben Dokument, aber beide Fälle intern widersprüchlich
+
+- **Befund:** SharePoint `AR - 07 Archiv` (abgeschlossene Mandate) vollständig geprüft (4
+  Projektordner). Zwei liefern Material: 2202 Ackersteinstrasse 67 (4 Kostenstände über
+  2021–2023, Volumen 613–850 m³, Gesamtkosten CHF 480'000–1'219'133, ohne erkennbaren Grund
+  für die Abweichung) und 2304 Reckholdern 20 (erstmals GV 1'715 m³ UND vollständige
+  eBKP-H-Gliederung im selben Dokument — aber dasselbe Dokument enthält zwei sich
+  widersprechende Gesamtkosten, CHF 2'960'000 vs. CHF 1'800'000, wobei letztere erkennbar aus
+  einer nicht aktualisierten Fremdprojekt-Vorlage stammt, inkl. sachfremder
+  Mietrendite-Berechnung). Details: `raw/2202-ackersteinstrasse.md`, `raw/2304-reckholdern.md`.
+- **Neues strukturelles Muster:** Anders als in Run 2 (wo GV und BKP-Kosten in getrennten,
+  aber je für sich konsistenten Dokumenten fehlten) liegt hier das Problem NICHT im Fehlen von
+  Grösse oder Kostengliederung, sondern in der internen Konsistenz der Dokumente selbst —
+  Word/PDF-Vorlagen mit nicht vollständig aktualisierten Vorjahresdaten (Titelseite/
+  Rendite-Block aus Fremdprojekt) und mehrfachen, sich widersprechenden Kostenständen ohne
+  dokumentierten Anlass für die Änderung. Für künftige Läufe: bei einem Kandidaten mit
+  vermeintlich vollständigem GV+BKP-Bild IMMER prüfen, ob das Dokument intern
+  in sich konsistent ist (Summe der Positionen = ausgewiesenes Total, Objektbeschrieb passt
+  zum Rest des Dokuments), bevor eine Übernahme erwogen wird.
+- **Vorschlag für Run 4:** Beide Projekte haben mehrere Kostenstände über die Zeit — ein
+  gezielter Blick auf eine allfällige Schlussabrechnung (Ist-Kosten) im selben Projektordner
+  könnte die Widersprüche auflösen (in diesem Lauf nicht gesucht, nur die in `PROGRAMM.md`
+  vorgeschlagenen KV-/GKS-Dokumente gelesen). Alternativ: Rückfrage an Raphael Jans, welcher
+  Stand je Projekt effektiv realisiert wurde. Mit `AR - 07 Archiv` vollständig geprüft (4/4
+  Projektordner `[x]`/`[-]`) und `AR - 01 Projekte` in Run 2 vollständig geprüft, sind die
+  bekannten SharePoint-Quellen gemäss `PROGRAMM.md` ausgeschöpft — ein Run 4 müsste entweder
+  gezielt nach Schlussabrechnungen suchen (statt neue Projektordner) oder eine neue Quelle
+  identifizieren (z.B. `kostenkontrolle`-Outputs, falls dort inzwischen Kostenrapporte
+  vorliegen).
+
 ## 2026-07-25 — Trainings-Run 2 (SharePoint-Zweitquelle geprüft): erste Realdaten, aber durchgängig zu dünn für Promotion
 
 - **Befund:** SharePoint `AR - 01 Projekte` (aktive Mandate) bestätigt die in Run 1 offen

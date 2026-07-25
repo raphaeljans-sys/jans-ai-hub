@@ -1,5 +1,28 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-25 — Trainings-Run 3 (Stufe 2: SharePoint-Drittquelle AR-07 Archiv, zwei Fälle geprüft, keiner verwertbar)
+- `training/quellen-inventar.md` erweitert: alle 4 Projektordner unter SharePoint
+  `AR - 07 Archiv/01_Projekte/` (abgeschlossene Mandate) geprüft. 2202 Ackersteinstrasse und
+  2304 Reckholdern liefern GV+BKP-Material, 1318 Lorraine (Duplikat aus Run 1) und _SCHAFFNER
+  ohne verwertbaren Inhalt. Damit sind beide bekannten SharePoint-Quellen (`AR - 01 Projekte`
+  Run 2, `AR - 07 Archiv` Run 3) vollständig geprüft.
+- **Neue `raw/`-Einträge:** `raw/2202-ackersteinstrasse.md` (vier widersprüchliche
+  Kostenstände 2021–2023, Volumen 613–850 m³, Gesamtkosten CHF 480'000–1'219'133, kein
+  dokumentierter Grund für die Abweichung), `raw/2304-reckholdern.md` (GV 1'715 m³ und
+  eBKP-H-Gliederung erstmals gleichzeitig im selben Dokument vorhanden — aber dasselbe
+  Dokument nennt widersprüchlich sowohl CHF 2'960'000 als auch CHF 1'800'000, letzteres
+  erkennbar aus einer nicht aktualisierten Fremdprojekt-Vorlage mit sachfremder
+  Mietrendite-Berechnung).
+- **Keine Kennwert-Promotion, kein neuer Einzelfall-Eintrag:** beide Fälle sind nicht nur dünn
+  belegt, sondern in sich widersprüchlich — strenger als die Run-2-Bar ("Einzelfall n=1 mit
+  Kaveat"). `wiki/kennwerte.md` erhält nur einen transparenten Prüfvermerk unter "Run 3",
+  Seed-Werte und die Run-2-Einzelfälle bleiben unverändert.
+- Neue Frage in `wiki/QUESTIONS.md`: strukturelles Muster erkannt (Vorlagen mit nicht
+  vollständig aktualisierten Vorjahresdaten als Fehlerquelle); Vorschlag für Run 4: gezielt
+  nach Schlussabrechnungen in beiden Projektordnern suchen statt neue Projekte zu erschliessen,
+  da die bekannten SharePoint-Quellen jetzt ausgeschöpft sind. Lauf-Report:
+  `outputs/2026-07-25_grobkosten-run3.md`.
+
 ## 2026-07-25 — Trainings-Run 2 (Stufe 1+2: SharePoint-Zweitquelle, erster raw/-Ingest)
 - `training/quellen-inventar.md` erweitert: alle 8 aktiven Mandate unter SharePoint
   `AR - 01 Projekte` auf Kostendokumente geprüft (Zweitquelle gemäss Empfehlung aus Run 1).
