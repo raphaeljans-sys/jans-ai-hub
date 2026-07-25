@@ -30,6 +30,81 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-07-25 21:55 — [FREI] Flotte gesund, Blindgaenger-Fix nachweislich scharf — ein einzelner Loop (wettbewerbs-dna) frisst 75 % seiner Laeufe; Mac-Mini-Kapazitaet auf die groesste offene Wissensluecke umgelenkt (neuer Loop `grobkosten-training`)
+
+**Fensterzustand:** FREI. Login-Probe mit der Runner-Anmeldung (`~/.jans-dispatch.env`) antwortet
+«OK» — kein Usage-/Rate-Limit, kein Login-Block, kein Mail-Anlass.
+
+**Lagebild:** Durchsatz gesund — 20 Commits in 90 Minuten. Beide Stationen produktiv (energie
+Run 104–108, planungsgrundlagen 80–83, baurecht-buch 57, normen 27, spec 34, twin-fidelity 2026-07-25g,
+twin-mail Batch 68, immobewertung 49). Keine STOP-Datei. Je Station genau eine Runner-Instanz
+(MacBook Pro PID 66891 seit 19:22 nach Supervisor-Neustart, Mac Mini PID 68866 seit 18:53 — die
+zweite PID je Station ist die Subshell des laufenden Zyklus, kein Doppelstart).
+
+**Der Fix von gestern Abend ist wirksam** — erstmals belegt: die formbasierte Blindgaenger-Erkennung
+(rc=0, < 60 s, < 400 Zeichen) hat um 20:13 und um 21:22 je einen leeren `wettbewerbs-dna`-Lauf
+erkannt und den Retry gezogen. Der Retry von 21:22 laeuft beim Schreiben dieses Eintrags produktiv
+(PID 87590, 30 Min). Der Fix vom Vortag war dokumentiert-aber-tot; dieser ist gemessen-und-lebendig.
+
+**P1 — `wettbewerbs-dna-training` ist der einzige defekte Loop der Flotte.** Von 8 Laeufen heute
+waren **6 unproduktiv**: vier Blindgaenger (12:53, 13:48, 14:32, 17:00 — alle vor dem Fix, alle
+unwiederholt), ein Haenger von 3'742 s, den der Stall-Killer um 19:22 per SIGTERM beenden musste
+(rc=143 — und dabei den ganzen MacBook-Runner mitriss, den erst der Supervisor neu startete), und
+ein Kollisions-Selbstabbruch um 20:14. Zum Vergleich: alle uebrigen sechs MacBook-Loops liefen
+heute sauber durch. Die naheliegende Erklaerung «Prompt zu gross» traegt **nicht** —
+`normen-training-nacht` hat mit 5'108 Bytes den groesseren Prompt als `wettbewerbs-dna-training`
+(4'721 Bytes) und geht nie blind. Ursache damit weiter offen; der Retry federt das Symptom ab,
+aber ein Loop, der drei Viertel seiner Fenster-Zeit verbrennt, ist der groesste verbleibende
+Durchsatz-Hebel. Bewusst **nicht** heute Nacht angefasst: eine Runner-Aenderung wuerde erst nach
+Neustart greifen, und ein Neustart haette den gerade produktiv laufenden Retry gekillt.
+
+**P2 (selbst ausgefuehrt) — der Mac Mini fuhr sein ganzes Fenster auf zwei gesaettigte KBs.**
+`energie-training` meldet mit Run 108 die **vierte** Saettigungsbestaetigung in Folge (Runs 105–108),
+`planungsgrundlagen-training` mit Run 83 den **17.** Nullbefund in Folge ueber alle vier Domaenen.
+Der Mini hat nur diese beiden Loops aktiv und zykliert sie alle ~20 Minuten — heute bis Zyklus 10.
+Gemaess Schritt 6 des Radar-Auftrags (freie Kapazitaet auf die groesste offene Wissensluecke
+umlenken) wurde **additiv** gehandelt, nicht gedrosselt (Drosseln bleibt Raphaels Entscheid und ist
+seit dem 25.07. ausdruecklich untersagt):
+
+- **Neuer Loop `grobkosten-training` auf dem Mac Mini angelegt**
+  (`~/.claude/scheduled-tasks/grobkosten-training/SKILL.md`, Takt 09:00/21:00, zykliert zusaetzlich
+  im Runner mit). Filter-Test gegen die Runner-Logik bestanden: der Mini fuehrt ab dem naechsten
+  Zyklus `energie-training`, `grobkosten-training`, `planungsgrundlagen-training`.
+- **Programm geschrieben:** `wissen/grobkosten/training/PROGRAMM.md` — vier Stufen (Inventar →
+  Extraktion → Verdichtung → Teuerungs-Normalisierung) mit harten Leitplanken: Kennwerte nie raten,
+  Provenienz je Wert, read-only auf Projektdaten, Reife-Hebung erst ab n ≥ 2, kein Leerlauf-Zwang,
+  Vertraulichkeit (Namen/Vertragssummen bleiben in `raw/`), Healthcare bleibt bei `kostenschaetzung`.
+- **Warum gerade `grobkosten`:** die KB traegt heute **ausschliesslich Seed-Werte** (Marktannahmen),
+  `raw/` ist leer — waehrend `grobkosten-onepager` und der Agent `grobkosten-rechner` damit jede
+  fruehe Studie rechnen. Das ist die einzige aktive Rechenkette des Hubs, die auf unbelegten Zahlen
+  steht, und sie kollidiert direkt mit der Regel «Kennwerte belegen, nie raten».
+
+**Messkorrektur in eigener Sache (wichtig fuer kuenftige Quellensuchen):** der erste Scan lief auf
+`/Volumes/daten/02_Architektur_Archiv` (Tiefe 5, fuenf Namensmuster) und ergab **0 Treffer** — was
+den Loop beinahe als aussichtslos verworfen haette. Der Ort war falsch, nicht die Ressource. Die
+realen Kostendokumente liegen unter `/Volumes/daten/04_Buero/02_Projekte/<projekt>/04_Kosten`
+(auch «4 Kosten», «6_Kosten»), verifiziert u.a.: `1527_EH Europe GmbH/4 Kosten` mit
+`40 Kostenschätzung`, `41 Kostenermittlung KV`, `42 Kostenvoranschlag` und
+`44 Baubuchhaltung_Baukosten/442 Bauabrechnung`; dazu `1011_Lorrainestr_4`, `1012_Ardez`,
+`1303_Steinhof`, `1115_Kostenberechnung`, `1524_Winterthur`, `1525_Dessau`. Lehre: ein Nullbefund
+aus **einem** Pfad ist kein Nullbefund der Wissensbasis — vor dem Verwerfen einer Quelle mindestens
+den zweiten plausiblen Ablageort pruefen.
+
+**P3 (nur vermerkt) — Doppellauf Runner ↔ Cron-Task besteht faktisch weiter.** Rule 260725 haelt
+fest, die sechs hochgetakteten Loops seien «aus `EXCLUDE_RE` ausgeschlossen → kein Doppellauf
+Runner↔Task». Faktisch trifft das nicht zu: keiner der sechs Namen matcht `EXCLUDE_RE`, der Runner
+fuehrt sie also, waehrend zusaetzlich der Cron-Task feuert (belegt: Mac Mini 20:54,
+`planungsgrundlagen-training` bricht nach 31 s wegen Zweitinstanz 84019 ab). Der Kollisionsschutz
+nach Rule 260724 faengt das sauber ab, die Kosten sind gering (~30–90 s je Fall). Kein Eingriff —
+aber der Satz in der Rule beschreibt nicht, was laeuft, und sollte bei Gelegenheit richtiggestellt
+werden.
+
+**Nicht getan:** kein Loop gedrosselt oder beendet (Taktentscheid Raphaels; die Saettigungsmeldungen
+von `energie`, `planungsgrundlagen`, `spec` und `immobewertung` liegen ihm bereits mehrfach vor),
+kein Runner-Neustart, keine Mail.
+
+---
+
 ## 2026-07-25 18:55 — [FREI] Der Blindgaenger-Fix von 16:00 lief den ganzen Nachmittag ins Leere (kein Runner-Neustart) — jetzt scharf, Erkennung verbreitert, M365-Connector nach 12 Tagen repariert
 
 **Fensterzustand:** FREI. Login-Probe mit der Runner-Anmeldung (`~/.jans-dispatch.env`) antwortet
