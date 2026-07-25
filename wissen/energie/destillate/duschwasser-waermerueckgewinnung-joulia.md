@@ -4,18 +4,28 @@ quelle: Joulia AG «Joulia-Inline Techdoku», Oktober 2020 (frei zugänglich, jo
   30.08.2019, Geschäftsleitung Minergie (vollständig via pdftotext gelesen); Hochparterre «Sparsam
   duschen», 15.05.2023; AWEL Kt. Zürich «Heizen und Kühlen mit Abwasser» (undatiert, aktueller
   Bestand zh.ch); Eawag «Duschwasser doppelt nutzen», 09.09.2021; Aqua & Gas «Revision der
-  SIA-Norm 385/2», 28.08.2023
+  SIA-Norm 385/2», 28.08.2023; SIA 385/2:2025 «Anlagen für Trinkwarmwasser in Gebäuden» (amtliche
+  Leseprobe/Produktinformation shop.sia.ch: Titelblatt, Inhaltsverzeichnis, Vorwort, Genehmigungs-
+  seite — deutsche und französische Fassung, vollständig geladen und gelesen 25.07.2026);
+  suissetec «Neue Norm SIA 271/1 und 385/2», 26.06.2025; GEAK/Verein GEAK «Know-how-Transfer zur
+  Erfassung der Wärmerückgewinnung», geak.ch/infos-fuer-experten (Publikationsdatum auf der Seite
+  nicht ausgewiesen, gelesen 25.07.2026)
 herausgeber: Joulia AG / Verein Minergie / Hochparterre / AWEL Kt. Zürich / Eawag / Aqua & Gas
-  (SVGW)
-ausgabe: Joulia-Techdoku Okt. 2020; Minergie-Beiblatt 30.08.2019; übrige Web-Quellen mit Datum wie
+  (SVGW) / SIA (Schweizerischer Ingenieur- und Architektenverein) / suissetec / Verein GEAK
+ausgabe: Joulia-Techdoku Okt. 2020; Minergie-Beiblatt 30.08.2019; SIA 385/2, Ausgabe 2025
+  (Referenznummer SN 546385/2:2025, genehmigt durch die SIA-Zentralkommission für Normen am
+  05.12.2024, gültig ab 01.02.2025, ersetzt SIA 385/2:2015); übrige Web-Quellen mit Datum wie
   angegeben
 gelesen: 2026-07-25
 datenstand: 2020 (Joulia-Kosten-/Einsparungsangabe, Marktpreis explizit als möglicherweise
-  veraltet zu prüfen), 2019 (Minergie-Anrechenbarkeitstabelle), 2023 (SIA-385/2-Vernehmlassung,
-  Endfassung nicht verifiziert)
-status: emerging (Hersteller- und Minergie-Primärquelle vorhanden, aber Kosten-/Amortisations-
-  angabe stammt vom Hersteller selbst und ist nicht unabhängig geprüft; GEAK-Anrechnung nur
-  sekundärquellig; SIA-385/2-Endfassung nicht verifiziert)
+  veraltet zu prüfen), 2019 (Minergie-Anrechenbarkeitstabelle), 2023 (SIA-385/2-Vernehmlassung),
+  2025-02-01 (SIA 385/2:2025 amtlich in Kraft — Existenz und Fundstelle des Anhangs K primärquellig
+  bestätigt, Rechenmethode selbst hinter Bezahlschranke CHF 170.– nicht einsehbar), GEAK-Mechanik
+  primärquellig (geak.ch, ohne Datumsangabe auf der Quellseite)
+status: emerging (Hersteller-Kosten-/Amortisationsangabe weiterhin nicht unabhängig geprüft;
+  SIA-385/2:2025-Anhang K zur Duschwasser-WRG jetzt amtlich als existent und informativ bestätigt,
+  aber Formelinhalt selbst nicht einsehbar; GEAK-Anrechnungsmechanik jetzt primärquellig belegt,
+  aber nur generisches Beispiel, nicht Joulia-spezifisch)
 last_updated: 2026-07-25
 ---
 
@@ -54,8 +64,18 @@ vergleichbar mit der Jahresproduktion von rund 8 m² PV-Panels.
   Gesamtwarmwasser, Nutzungsgrad Warmwassersysteme 75 %, Effizienzklasse-B-Brause). Für
   Joulia-Modelle amtlich mit 13–46 % hinterlegt; Eintrag im Minergie-Nachweis-Excel, Blatt
   «Minergie», Zelle M21.
-- **GEAK:** laut Sekundärquelle (Hochparterre) ebenfalls anrechenbar (Reduktion der nötigen
-  Haustechnik-Dimensionierung), kein GEAK-Primärdokument mit Prozentsatz gefunden — offener Punkt.
+- **GEAK:** primärquellig bestätigt über die offizielle GEAK-Anleitungsseite (Verein GEAK,
+  geak.ch, «Know-how-Transfer zur Erfassung der Wärmerückgewinnung»): eine Duschwasser-WRG wird
+  im GEAK-Berechnungstool als Wärmeerzeuger vom Typ «Solarenergie thermisch» mit aussagekräftiger
+  Bezeichnung erfasst (gewichtete Endenergie = 0, da die Wärme als kostenloses Nebenprodukt ohne
+  externe Energiequelle anfällt), der versorgte Bereich ist ausschliesslich auf Warmwasser
+  einzuschränken, und der Deckungsgrad ist durch Berechnung oder Schätzung der GEAK-Fachperson zu
+  belegen und über die «Übersicht Endenergie» zu validieren. Die GEAK-Anleitung zeigt dazu ein
+  Rechenbeispiel mit einem Deckungsgrad von 22 % (2.165 kWh ab Wärmeerzeugungsanlage «WE-3»)
+  für eine Dusche als Beispielquelle — das Beispiel ist generisch (nicht Joulia-spezifisch) und
+  belegt keinen fixen, produktunabhängigen Prozentsatz, sondern nur die Erfassungsmechanik selbst.
+  Ein feste GEAK-Pauschale wie die 10 %-MuKEn-Pauschale existiert damit nicht; der Nachweis läuft
+  über eine fallbezogene Berechnung/Schätzung der GEAK-Fachperson.
 
 ## Kosten und Amortisation (Herstellerangabe, nicht unabhängig geprüft)
 
@@ -90,13 +110,36 @@ Fachvortrag Nov. 2015, Sekundärzitat in Joulia-Techdoku, Primärvortrag nicht s
 Eine Massnahme, die gezielt den Warmwasserbedarf senkt, wird damit in energieeffizienten
 Neubauten verhältnismässig bedeutsamer als in Altbauten.
 
-## Norm-Ausblick SIA 385/2
+## Norm-Ausblick SIA 385/2 — Endfassung jetzt teilweise verifiziert
 
 Im Vernehmlassungsverfahren zur SIA-385/2-Revision (Juli–September 2023) wurde eine komplexe
 Berechnungsmethode zur Anrechnung von Duschwasser-WRG diskutiert; der SVGW bezeichnete sie als
-«nicht zielführend» und empfahl die vereinfachte Variante der SIA-Kommission 385/2. Ob dies im
-finalen Normtext (SIA 385/2:2025, in Kraft seit 01.02.2025) verankert wurde, ist **nicht
-verifiziert** (nur Vernehmlassungsstand 2023 bekannt).
+«nicht zielführend» und empfahl die vereinfachte Variante der SIA-Kommission 385/2.
+
+**Update 25.07.2026 — Primärquellen-Fund:** Die amtliche Leseprobe der Norm SIA 385/2:2025 (direkt
+von shop.sia.ch geladen: Titelblatt, Inhaltsverzeichnis, Vorwort und Genehmigungsseite, deutsche
+und französische Fassung) bestätigt zweifelsfrei, dass die Duschwasser-WRG **effektiv in die
+Endfassung aufgenommen wurde**:
+- Das Vorwort listet «Wärmerückgewinnung aus Duschwasser» explizit als einen der bei dieser
+  Revision neu aufgenommenen bzw. aktualisierten Themenbereiche.
+- Die Norm enthält dafür einen eigenen **Anhang K (informativ) «Wärmerückgewinnung aus
+  Duschwasser»**, Seiten 53–60 (deutsche Fassung; französisch: Annexe K «Récupération de la
+  chaleur de l'eau de douche», S. 55–63) — mit rund 8 Seiten ein substanzieller eigener Abschnitt.
+- Status **informativ, nicht normativ** (im Unterschied z.B. zu den normativen Anhängen A–E, G, I):
+  das deckt sich mit der SVGW-Empfehlung von 2023, die komplexe Methode zu verwerfen und stattdessen
+  eine vereinfachte, empfehlende Variante zu verankern — eine informative Anlage ist typischerweise
+  Beispiel-/Orientierungscharakter statt zwingend vorgeschriebener Rechenweg.
+- Norm-Eckdaten amtlich bestätigt: SN 546385/2:2025, genehmigt durch die Zentralkommission für
+  Normen des SIA am 5. Dezember 2024, gültig seit 1. Februar 2025, ersetzt SIA 385/2:2015, 64 Seiten
+  (deutsche Fassung), Sachbearbeiter Dr. Jean-Marc Suter (identisch mit dem in diesem Destillat
+  bereits zitierten Fachvortrag-Autor 2015 — plausibilisiert dessen Fachautorität zusätzlich).
+
+**Weiterhin offen:** Der eigentliche Rechenweg/die Formel in Anhang K selbst ist **nicht
+einsehbar** — die Leseprobe umfasst nur Titelblatt/Inhaltsverzeichnis/Vorwort/Schlussseiten, der
+Volltext der Norm ist kostenpflichtig (CHF 170.–, shop.sia.ch). Ob die dort verankerte Methode der
+im Destillat oben zitierten Minergie-Tabelle (13–46 % je Modell) entspricht, sich an ihr orientiert
+oder einen eigenen Ansatz verfolgt, bleibt unverifiziert, bis der Anhang selbst beschafft und
+gelesen wird.
 
 ## Bauherren-Transfer
 
@@ -117,10 +160,16 @@ verifiziert** (nur Vernehmlassungsstand 2023 bekannt).
 
 - Die 3-Jahre-Amortisationsrechnung stammt vom Hersteller selbst (Annahme 0.20 CHF/kWh) — keine
   unabhängige Wirtschaftlichkeitsrechnung mit aktuellen Schweizer Energiepreisen 2026 gefunden.
-- GEAK-Anrechnungsmechanik (Prozentsatz, Eintragsort) nur sekundärquellig (Hochparterre), kein
-  GEAK-Primärdokument mit Zahlen.
-- SIA-385/2:2025-Endfassung zur Duschwasser-WRG-Berechnungsmethode nicht verifiziert (nur
-  Vernehmlassungsstand 2023).
+- GEAK-Anrechnungsmechanik jetzt primärquellig (geak.ch) mit Erfassungs-Workflow und einem
+  generischen Rechenbeispiel (22 %) belegt — offen bleibt weiterhin, ob/wie ein Joulia-Produkt
+  konkret mit den 13–46 % aus dem Minergie-Beiblatt in den GEAK übertragen werden dürfte (die
+  GEAK-Fachperson muss den Wert im Einzelfall selbst berechnen/schätzen, es gibt keine feste
+  GEAK-Pauschale wie bei EN-ZH/MuKEn).
+- SIA-385/2:2025 enthält nachweislich einen eigenen Anhang K (informativ, S. 53–60) zur
+  Duschwasser-WRG (amtlich bestätigt via Leseprobe shop.sia.ch) — die Existenz und Fundstelle sind
+  damit verifiziert, der eigentliche Formel-/Rechenweginhalt des Anhangs bleibt aber offen, da die
+  Norm kostenpflichtig ist (CHF 170.–) und nur Titelblatt/Inhaltsverzeichnis/Vorwort frei
+  einsehbar waren.
 - Aktuelle Schweizer Marktpreise 2025/2026 für Joulia-Produkte direkt nicht gefunden (nur
   Herstellerangabe aus 2020).
 - Alternative Anbieter (Recoup, Powerpipe, Renergy u.a.) auf dem Schweizer Markt nicht mit

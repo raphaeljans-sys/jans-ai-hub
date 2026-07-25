@@ -1440,3 +1440,62 @@ Nachfolgenorm SN 414022:2024 (Kaufentscheid bei Raphael); B1-Konsolidierung + SI
 4. Duschwasser-WRG: SIA-385/2:2025-Endfassung zur Berechnungsmethode verifizieren (nur
    Vernehmlassungsstand 2023 bekannt); GEAK-Anrechnungsmechanik primärquellig belegen.
 5. Neue Themen-Recherche nach freier Wahl (PDF-Inventar bleibt erschöpft, Web-Pfad).
+
+## Run 97 (2026-07-25) — vier parallele Rechercheagenten, Run-96-Prioritätenliste abgearbeitet
+
+- [x] **Grüne Hypotheken: Urner KB + Thurgauer KB + SZKB primärquellig verifiziert** ✓ 2026-07-25:
+  alle drei Bank-Websites direkt abgerufen (WebFetch, keine Vergleichsportale). SZKB-Nachhaltigkeits-
+  Bonus (0,300 %) exakt bestätigt; zwei neue Produkte gefunden — Urner KB Minergiehypothek (0,5 %
+  einmalig, Deckel CHF 200k EFH/500k MFH, 7 J.) + Energie-Sanierungshypothek (0,5 %, ohne GEAK/
+  Minergie-Schwelle, an UKB-Objektfinanzierung gebunden), Thurgauer KB Energie-Hypothek (0,50 Pp.,
+  Minergie/GEAK A/A/A bzw. GEAK Plus A/B/C, Deckel CHF 200k/400k) → `[[gruene-hypotheken-
+  klimahypotheken-ch]]` bleibt established, jetzt elf statt acht Bankprodukte lückenlos
+  primärquellenbelegt, FAQ F132 geschärft. IFZ-2024/2025-Original weiterhin nur per hub.hslu.ch-
+  Formular zugänglich, keine 2025er-Ausgabe gefunden (bestätigte Bestandsgrenze, kein Rückschritt).
+- [x] **Massivbau-CHF/m²-Kennwert: Näherung gefunden, kein voller Primärbeleg** ✓ 2026-07-25:
+  AKTIVA AG (Immobilien-Bewertung/CREM-Beratung) nennt auf ihrer Benchmark-Seite CHF 280.-/m² für
+  eine Kompaktfassade (BKP 22), Quelle laut Seite «Schätzerhandbuch + Wüest Partner + eigene
+  Erhebungen» — Einzelquellen nicht getrennt, kein Ausgabejahr → `[[massivbau-bauteildatenblatt-
+  ksv-swisspor]]` erhält den Kennwert als NEUEN emerging-Baustein (Schichtaufbau/U-Wert bleibt
+  established), FAQ **F134** neu. bauteilkatalog.ch PRO-Zugang weiterhin nicht manuell verifiziert
+  (kein echter Login verfügbar) — bleibt offen.
+- [x] **Duschwasser-WRG: SIA 385/2:2025 + GEAK-Mechanik primärquellig verifiziert** ✓ 2026-07-25:
+  SIA-Webshop-Leseprobe bestätigt einen neuen informativen **Anhang K «Wärmerückgewinnung aus
+  Duschwasser»** (S. 53-60) in der seit 1.2.2025 gültigen Norm — der genaue Rechenweg bleibt aber
+  hinter der kostenpflichtigen Vollversion (CHF 170.-) verschlossen. geak.ch liefert die GEAK-
+  Mechanik: Erfassung als Wärmeerzeuger «Solarenergie thermisch», Deckungsgrad fallbezogen durch
+  die GEAK-Fachperson zu berechnen/schätzen (kein fester Pauschalsatz wie bei EN-ZH) →
+  `[[duschwasser-waermerueckgewinnung-joulia]]` bleibt emerging (Kosten-/Amortisationsangabe
+  weiterhin nur Herstellerangabe), FAQ **F133** geschärft.
+- [x] **Neues Thema freie Wahl: WDVS-Brandriegel (VKF-Brandschutz Fassadendämmung)** ✓ 2026-07-25:
+  EPS-Verband-Schweiz-Fachdokument, von der TKB-VKF geprüft und anerkannt, liefert die komplette
+  Brandriegel-Kernanforderung (RF1, Schmelzpunkt ≥1'000 °C, ≥0.2 m Höhe, je Geschoss, ab 11 m
+  Gesamthöhe) direkt aus der rechtsverbindlichen VKF-Richtlinie 14-15 → `[[wdvs-brandriegel-
+  fassadendaemmung-vkf]]` (neu, established), FAQ **F135** neu, neues Themenfeld.
+
+**Register nachgeführt:** `destillate/INDEX.md` (vier Zeilen neu/ergänzt), `wiki/INDEX.md` (drei
+Zeilen geschärft, eine neu, FAQ-Zählerzeile auf F135 aktualisiert), `wiki/BAUHERREN-FAQ.md`
+(F132/F133 geschärft, F134/F135 neu), `training/curriculum.md` (D67), `CHANGELOG.md`.
+
+**Wichtiger Prozess-Hinweis:** die ersten vier Rechercheagenten dieses Laufs (subagent_type
+`energie-berater`) sind im Hintergrund ohne einen einzigen echten Tool-Aufruf terminiert (0
+tool_uses trotz «completed»-Status und plausibel klingendem Text) — keine Datei wurde verändert.
+Nach Diagnose (git status/diff leer) wurden alle vier Aufgaben mit `general-purpose`-Subagenten
+neu gestartet, die diesmal 20-27 echte Tool-Aufrufe pro Agent ausführten und die Dateien
+nachweislich änderten. Für künftige Läufe: nach Hintergrund-Agenten-Abschluss immer per
+`git status`/`git diff` verifizieren, dass wirklich etwas geschrieben wurde, bevor die
+Register-Konsolidierung beginnt.
+
+**Bewusst nicht weiterverfolgt:** B1-Konsolidierung + SIA-2024-Zwilling (destruktiv, Rückfrage
+nötig, unverändert gegenüber Run 96).
+
+**Nächster Lauf: Priorität**
+1. B1-Konsolidierung weiterhin Raphael vorlegen (nicht automatisch lösen).
+2. Massivbau-CHF/m²-Kennwert: einen isolierten, datierten Primärwert suchen (idealerweise
+   lizenziertes Schätzerhandbuch-Exemplar oder ein Büro-interner CRB-OAK-Zugang), da die
+   AKTIVA-Näherung Einzelquellen nicht trennt.
+3. WDVS-Brandriegel: Kosten-Mehraufwand (CHF/lfm oder CHF/m²) recherchieren; BSV-2026-
+   Totalrevision auf definitives Inkraftsetzungsdatum beobachten.
+4. Duschwasser-WRG: SIA-385/2-Vollversion beschaffen (Kaufentscheid bei Raphael) für den
+   genauen Anhang-K-Rechenweg, falls ein Mandat das erfordert.
+5. Neue Themen-Recherche nach freier Wahl (PDF-Inventar bleibt erschöpft, Web-Pfad).

@@ -2,6 +2,40 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 97: Grüne Hypotheken lückenlos primärquellenbelegt + Massivbau-CHF/m²-Näherung + Duschwasser SIA-385/2 verifiziert + WDVS-Brandriegel neu
+- **Grüne Hypotheken — Marktbreite lückenlos primärquellenbelegt:** Urner Kantonalbank
+  (Minergiehypothek 0,5 % + Energie-Sanierungshypothek 0,5 %), Thurgauer Kantonalbank
+  (Energie-Hypothek 0,50 Pp.) und Schwyzer Kantonalbank (Nachhaltigkeits-Bonus 0,300 %, jetzt
+  primärquellig statt nur über moneyland.ch) direkt auf den jeweiligen Bank-Websites verifiziert
+  → `[[gruene-hypotheken-klimahypotheken-ch]]` bleibt established, elf statt acht Bankprodukte,
+  keines mehr nur sekundärquellig, FAQ **F132** geschärft.
+- **Massivbau-Kompaktfassade — CHF/m²-Näherung gefunden:** AKTIVA AG (Immobilien-Bewertung/
+  CREM-Beratung) nennt CHF 280.-/m² für eine Kompaktfassade (BKP 22), Quelle laut Seite ein
+  Blend aus Schätzerhandbuch + Wüest Partner + eigenen Erhebungen — Einzelquellen nicht
+  getrennt, kein Ausgabejahr → `[[massivbau-bauteildatenblatt-ksv-swisspor]]` erhält den
+  Kennwert als neuen emerging-Baustein (Schichtaufbau/U-Wert bleibt established), FAQ **F134**
+  neu.
+- **Duschwasser-WRG — SIA 385/2:2025 + GEAK-Mechanik primärquellig verifiziert:** SIA-Webshop-
+  Leseprobe bestätigt einen neuen informativen Anhang K «Wärmerückgewinnung aus Duschwasser»
+  (S. 53-60) in der seit 1.2.2025 gültigen Norm, Rechenweg bleibt aber hinter der
+  kostenpflichtigen Vollversion (CHF 170.-) verschlossen; geak.ch liefert die GEAK-
+  Erfassungsmechanik (Wärmeerzeuger «Solarenergie thermisch», fallbezogene Berechnung, keine
+  feste Pauschale) → `[[duschwasser-waermerueckgewinnung-joulia]]` bleibt emerging, FAQ F133
+  geschärft.
+- **Neues Thema freie Wahl: WDVS-Brandriegel (VKF-Brandschutz Fassadendämmung):** EPS-Verband-
+  Schweiz-Fachdokument, von der TKB-VKF geprüft und anerkannt, liefert die Brandriegel-
+  Kernanforderung (RF1, Schmelzpunkt ≥1'000 °C, ≥0.2 m Höhe je Geschoss ab 11 m Gesamthöhe)
+  direkt aus der rechtsverbindlichen VKF-Richtlinie 14-15 → `[[wdvs-brandriegel-
+  fassadendaemmung-vkf]]` (neu, established), FAQ **F135** neu.
+- **Prozess-Vorfall:** die ersten vier Rechercheagenten dieses Laufs (subagent_type
+  `energie-berater`) sind im Hintergrund ohne einen einzigen echten Tool-Aufruf terminiert
+  (0 tool_uses trotz «completed»-Status, keine Datei verändert) — nach Diagnose per
+  `git status`/`git diff` mit `general-purpose`-Subagenten neu gestartet (20-27 echte
+  Tool-Aufrufe/Agent). Lehre für künftige Läufe in `wiki/QUESTIONS.md` protokolliert.
+- FAQ-Stand: **F1–F135** (F134/F135 neu, F132/F133 geschärft). Register nachgeführt:
+  `destillate/INDEX.md` (vier Zeilen), `wiki/INDEX.md` (drei geschärft, eine neu, FAQ-
+  Zählerzeile aktualisiert), `wiki/QUESTIONS.md` (Run 97), `training/curriculum.md` (D67).
+
 ## 2026-07-25 — Run 96: Massivbau-Bauteildatenblatt + grüne Hypotheken vertieft + Fernwärme-Schwelle enger + Duschwasser-WRG neu
 - **Massivbau-Bauteildatenblatt gefunden (löst Priorität aus Run 95):** KSV-Dokumentation
   Kalksandstein (04.2015) + swisspor Planungsunterlagen Backstein (06/2022), beide vollständig

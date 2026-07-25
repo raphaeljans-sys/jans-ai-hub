@@ -1152,3 +1152,31 @@ Verfahrensstand unverändert. FAQ-Stand jetzt **F1–F105**. Details: `outputs/2
   PRO-Zugang manuell verifizieren, Urner/Thurgauer Kantonalbank + SZKB primärquellig nachziehen,
   SIA-385/2:2025-Endfassung zur Duschwasser-WRG-Methode verifizieren, WP-Grenzabstand-Subsumtion
   für Kt. Schwyz weiterhin ganz ohne Präzedenzfall.
+
+- **D67 (Run 97, 2026-07-25)** — PDF-Inventar weiterhin erschöpft. Vier parallele Agenten arbeiten
+  die «Nächster Lauf»-Priorität aus Run 96 ab. **Grüne Hypotheken: Marktbreite lückenlos
+  primärquellenbelegt:** Urner KB (Minergiehypothek 0,5 % + Energie-Sanierungshypothek 0,5 %),
+  Thurgauer KB (Energie-Hypothek 0,50 Pp.) und Schwyzer KB (Nachhaltigkeits-Bonus 0,300 %, jetzt
+  primärquellig statt nur via moneyland.ch) direkt auf den Bank-Websites verifiziert →
+  `[[gruene-hypotheken-klimahypotheken-ch]]` bleibt established, elf statt acht Bankprodukte,
+  FAQ F132 geschärft. **Massivbau-CHF/m²: Näherung gefunden:** AKTIVA AG nennt CHF 280.-/m² für
+  eine Kompaktfassade (BKP 22, Blend aus Schätzerhandbuch/Wüest Partner/eigenen Erhebungen, keine
+  Einzelquellen-Trennung, kein Ausgabejahr) → neuer emerging-Baustein in
+  `[[massivbau-bauteildatenblatt-ksv-swisspor]]` (Schichtaufbau/U-Wert bleibt established),
+  FAQ **F134** neu. **Duschwasser-WRG: SIA 385/2:2025 + GEAK-Mechanik verifiziert:** SIA-Webshop-
+  Leseprobe bestätigt neuen informativen Anhang K «Wärmerückgewinnung aus Duschwasser» (S. 53-60),
+  Rechenweg bleibt hinter der kostenpflichtigen Vollversion verschlossen; geak.ch liefert die
+  GEAK-Erfassungsmechanik (Wärmeerzeuger «Solarenergie thermisch», fallbezogene Berechnung, keine
+  feste Pauschale) → `[[duschwasser-waermerueckgewinnung-joulia]]` bleibt emerging, FAQ F133
+  geschärft. **Neues Thema freie Wahl:** WDVS-Brandriegel bei Fassadendämmung — TKB-VKF-geprüftes
+  EPS-Verband-Fachdokument liefert die Brandriegel-Kernanforderung (RF1, Schmelzpunkt ≥1'000 °C,
+  ≥0.2 m Höhe je Geschoss ab 11 m Gesamthöhe) direkt aus der rechtsverbindlichen VKF-Richtlinie
+  14-15 → `[[wdvs-brandriegel-fassadendaemmung-vkf]]` (neu, established), FAQ **F135** neu. FAQ-
+  Stand: **135 Kernfragen (F1-F135) belegt.** Prozess-Lehre: die ersten vier Rechercheagenten
+  (subagent_type energie-berater) liefen im Hintergrund ohne echten Tool-Aufruf leer (0 tool_uses,
+  keine Dateiänderung trotz "completed") — nach Diagnose per git status/diff mit general-purpose-
+  Subagenten neu gestartet, die 20-27 echte Tool-Aufrufe/Agent ausführten. B1-Konsolidierung und
+  SIA-2024-Zwilling weiterhin bewusst nicht angegangen (destruktiv, Rückfrage nötig). Neu offen:
+  isolierter Massivbau-CHF/m²-Primärwert (Schätzerhandbuch-Original oder Büro-CRB-OAK-Zugang),
+  WDVS-Brandriegel-Kostenaufwand CHF/lfm, BSV-2026-Totalrevision-Inkraftsetzungsdatum, SIA-385/2-
+  Vollversion-Kaufentscheid bei Raphael.

@@ -4611,14 +4611,21 @@ Umweltdarlehen (bis **−0,8 % p.a.**, max. 5 Jahre, GEAK Klasse A Neubau bzw. G
 Effizienzsprung Sanierung, Deckel CHF 250'000 EFH/CHF 5 Mio. MFH), UBS Hypothek Green (CHF 500
 Bonus statt %-Rabatt) und Hypothek Renovation (+0,30 %), Raiffeisenbank Aare-Reuss Eco-Hypothek
 (0,25 %), Migros Bank Eco-Vergünstigung (0,15–0,30 %), BEKB Hypothek GEAK/Minergie (unbezifferter
-«bevorzugter Zinssatz»), Luzerner Kantonalbank Energiespar-Hypothek plus (0,50 %) sowie ein
-sekundärquellig belegtes Beispiel der Schwyzer Kantonalbank (0,300 %). Da für die kantonale
-Förderung ohnehin oft ein GEAK-Plus-Gutachten erstellt wird, lässt sich dieselbe Unterlage für den
-Bankantrag doppelt nutzen — die exakten Konditionen vor Mandatsverwendung stets bei der jeweils
-finanzierenden Bank verifizieren, da sich Sätze/Deckel laufend ändern können.
-→ `[[gruene-hypotheken-klimahypotheken-ch]]`. Datenstand 25.07.2026 (Run 96). Status **established**
-(SBVg-Rahmenregel, IFZ-2023-Studie im Original und acht Bank-Beispiele primärquellenbelegt bzw.
-mehrheitlich primärquellenbelegt; SZKB bleibt sekundärquellig).
+«bevorzugter Zinssatz»), Luzerner Kantonalbank Energiespar-Hypothek plus (0,50 %). Auch kleinere
+Kantonalbanken führen inzwischen primärquellenbelegte eigene Produkte: Schwyzer Kantonalbank
+Nachhaltigkeits-Bonus (0,300 %, CHF 100'000–500'000, 2–10 Jahre — jetzt direkt auf szkb.ch
+bestätigt statt nur über ein Vergleichsportal), Urner Kantonalbank Minergiehypothek (0,5 %
+einmalig, Deckel CHF 200'000 EFH/CHF 500'000 MFH, 7 Jahre ab Bauvollendung) sowie Thurgauer
+Kantonalbank Energie-Hypothek (0,50 Pp., Minergie oder GEAK A/A/A Neubau bzw. GEAK Plus A/B/C
+Sanierung, Deckel CHF 200'000–400'000). Bei einem Bauvorhaben im Geschäftsgebiet einer solchen
+Regionalbank lohnt sich die direkte Nachfrage, auch wenn diese Institute in überregionalen
+Vergleichsportalen selten auftauchen. Da für die kantonale Förderung ohnehin oft ein GEAK-Plus-
+Gutachten erstellt wird, lässt sich dieselbe Unterlage für den Bankantrag doppelt nutzen — die
+exakten Konditionen vor Mandatsverwendung stets bei der jeweils finanzierenden Bank verifizieren,
+da sich Sätze/Deckel laufend ändern können.
+→ `[[gruene-hypotheken-klimahypotheken-ch]]`. Datenstand 25.07.2026 (Run 97). Status **established**
+(SBVg-Rahmenregel, IFZ-2023-Studie im Original und elf Bank-Beispiele lückenlos primärquellenbelegt
+— alle Bank-Websites direkt abgerufen, keines mehr nur sekundärquellig).
 
 ### F133 — Lohnt sich eine Wärmerückgewinnung aus dem Duschwasser (Duschrinnen-WRG)?
 
@@ -4631,14 +4638,57 @@ Haushalt) amortisiert sich das in rund 3 Jahren — deutlich schneller als klass
 Sanierungsmassnahmen wie Fenster- oder Dachsanierung. Offiziell anrechenbar ist die Massnahme
 gleich dreifach: bei der kantonalen Baubewilligung (EN-ZH) pauschal mit 10 % der Warmwasser-
 produktion ohne Produktnachweis, bei Minergie produktspezifisch mit bis zu 46 % (amtlich
-hinterlegtes Herstellerbeiblatt), und laut Sekundärquelle auch beim GEAK. Eine gesetzliche
-10 °C-Grenze für die einzelne, private Duschrinne gibt es entgegen einem verbreiteten Missver-
-ständnis nicht — diese Grenze betrifft nur die Dimensionierung grosstechnischer ARA-Anlagen, nicht
-den einzelnen Haushalt. Besonders relevant wird die Massnahme, je energieeffizienter das Gebäude
-ist: der Anteil der Warmwasserproduktion am Gesamtenergiebedarf steigt von rund 10 % bei
-Altbauten auf bis zu 73 % bei Minergie-P — dort wirkt eine Reduktion des Warmwasserbedarfs
-verhältnismässig stärker. Baulich zu beachten: Einbauhöhe 9–12 cm, nur für Duschen (nicht
-Badewannen) geeignet — früh mit dem Sanitärplaner abstimmen.
-→ `[[duschwasser-waermerueckgewinnung-joulia]]`. Datenstand 25.07.2026 (Run 96). Status
-**emerging** (Hersteller- und Minergie-Primärquelle vorhanden, Kosten-/Amortisationsangabe vom
-Hersteller selbst, nicht unabhängig geprüft; GEAK-Anrechnung nur sekundärquellig).
+hinterlegtes Herstellerbeiblatt). Beim GEAK gibt es KEINE feste Pauschale wie bei EN-ZH — die
+GEAK-Fachperson erfasst die Anlage als Wärmeerzeuger «Solarenergie thermisch» und muss den
+Deckungsgrad fallbezogen berechnen oder schätzen (primärquellig auf geak.ch verifiziert, Run 97).
+Die Norm SIA 385/2:2025 (in Kraft seit 1.2.2025) widmet dem Thema neu einen eigenen informativen
+Anhang K «Wärmerückgewinnung aus Duschwasser» — der genaue Rechenweg ist aber nur in der
+kostenpflichtigen Vollversion einsehbar (primärquellig über die SIA-Leseprobe verifiziert, Run 97).
+Eine gesetzliche 10 °C-Grenze für die einzelne, private Duschrinne gibt es entgegen einem
+verbreiteten Missverständnis nicht — diese Grenze betrifft nur die Dimensionierung
+grosstechnischer ARA-Anlagen, nicht den einzelnen Haushalt. Besonders relevant wird die
+Massnahme, je energieeffizienter das Gebäude ist: der Anteil der Warmwasserproduktion am
+Gesamtenergiebedarf steigt von rund 10 % bei Altbauten auf bis zu 73 % bei Minergie-P — dort
+wirkt eine Reduktion des Warmwasserbedarfs verhältnismässig stärker. Baulich zu beachten:
+Einbauhöhe 9–12 cm, nur für Duschen (nicht Badewannen) geeignet — früh mit dem Sanitärplaner
+abstimmen.
+→ `[[duschwasser-waermerueckgewinnung-joulia]]`. Datenstand 25.07.2026 (Run 97). Status
+**emerging** (Hersteller- und Minergie-Primärquelle vorhanden, GEAK-Mechanik und SIA-385/2-
+Existenz jetzt primärquellig belegt; Kosten-/Amortisationsangabe stammt aber weiterhin vom
+Hersteller selbst und ist nicht unabhängig geprüft, und der genaue SIA-385/2-Rechenweg bleibt
+hinter der kostenpflichtigen Norm verschlossen).
+
+### F134 — Was kostet eine Massivbau-Kompaktfassade (Kalksandstein/Backstein mit Aussendämmung) pro m²?
+
+Ein belastbarer amtlicher CHF/m²-Kennwert ist für diesen Wandtyp weiterhin nicht frei verfügbar —
+zwei Schweizer Herstellerdokumente (KSV für Kalksandstein, swisspor für Backstein) liefern zwar
+den vollständigen Schichtaufbau und die U-Wert-Staffelung (rund 0.36 W/m²K bei 80 mm Dämmung bis
+0.13 W/m²K bei 260–280 mm), aber keine Kostenangabe. Als grobe Orientierung nennt die Immobilien-
+Beratungsfirma AKTIVA AG (Zürich/Oberägeri) unter Berufung auf einen Blend aus Schätzerhandbuch-
+und Wüest-Partner-Daten **CHF 280.–/m²** für eine Kompaktfassade (BKP 22) — ohne Trennung der
+Einzelquellen und ohne Ausgabejahr, deshalb als Näherung und nicht als verifizierter Einzelbeleg
+zu verwenden. Für ein verbindliches Angebot empfiehlt sich der Beizug des kostenpflichtigen
+CRB-Bauteilkatalogs (bauteilkatalog.ch, PRO-Zugang) oder eine reale Unternehmerofferte.
+→ `[[massivbau-bauteildatenblatt-ksv-swisspor]]`. Datenstand 25.07.2026 (Run 97). Status
+**emerging** (Schichtaufbau/U-Wert established aus zwei Herstellerprimärquellen; CHF/m²-Kennwert
+nur über eine Beratungsfirma mit vermischten Sekundärquellen, kein isolierter Primärbeleg).
+
+### F135 — Braucht meine Fassadendämmung (EPS/WDVS) einen Brandriegel?
+
+Kommt auf die Gebäudehöhe an. Bei **Gebäuden geringer Höhe** (bis 11 m Gesamthöhe, typisch
+Einfamilien-/Reihenhaus) verlangt die VKF-Brandschutzrichtlinie 14-15 keinen Brandriegel. Ab
+**11 m Gesamthöhe** («Gebäude mittlerer Höhe», bis 30 m) braucht eine brennbare Fassadendämmung
+(EPS-WDVS) entweder eine VKF-anerkannte Sonderkonstruktion oder einen umlaufenden **Brandriegel**
+aus nichtbrennbarem Material (RF1, Schmelzpunkt ≥ 1'000 °C, mindestens 0.2 m hoch) in **jedem**
+Geschoss — unabhängig von der Dämmdicke. Bei **Hochhäusern** (über 30 m) müssen Aussenwände
+grundsätzlich vollständig aus nichtbrennbarem Material bestehen, ein Brandriegel als Kompromiss
+entfällt dort. Alternative zum Brandriegel: von Anfang an nichtbrennbare Mineralwolldämmung
+wählen (dann keine Pflicht, dafür andere Kosten-/Dämmwert-Abwägung). Die 11-m-Schwelle wird bei
+Terrassenwohnungen, Hanglagen oder Attikageschossen schneller erreicht als angenommen — eine
+frühe, verbindliche Abklärung der Gesamthöhen-Messweise mit dem Bauamt lohnt sich, bevor die
+Fassade im Detail geplant wird. Bei Beherbergungsbetrieben (Alters-/Pflegeheime mit ≥ 20
+hilfsbedürftigen Personen) gelten zusätzlich strengere, im Einzelfall von der Brandschutzbehörde
+festgelegte Anforderungen.
+→ `[[wdvs-brandriegel-fassadendaemmung-vkf]]`. Datenstand 25.07.2026 (Run 97). Status
+**established** (TKB-VKF-geprüftes Fachdokument, stützt sich direkt auf die rechtsverbindliche
+VKF-Brandschutzrichtlinie 14-15; der Übergang zur BSV-2026-Totalrevision ist noch offen).
