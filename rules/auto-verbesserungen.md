@@ -9,6 +9,33 @@ und Historie) liegen in `rules/auto-verbesserungen-archiv.md` (nicht importiert)
 steht nur der aktive, imperative Kern. Konsolidiert am 19.07.2026 (Kontext-Diaet,
 Konzept: `docs/konzepte/260719-Kontext-Diaet-Token-Reduktion/`).
 
+## 260725 — Vollgas wieder aktiv: Drossel aufgehoben, Endlos-Runner beidseitig neu gestartet
+- **Regel:** Auf ausdrueckliche Anweisung Raphaels (25.07.2026) ist der Drosselzustand vom
+  14.07. aufgehoben. Umgesetzt: STOP + STOP-Macmini in `logbuch/vollgas/` entfernt, der launchd-
+  Waechter `ch.jans.vollgas-supervisor` (StartInterval 180 s, auf beiden Stationen geladen)
+  startet den Endlos-Runner `vollgas-runner.sh` wieder automatisch; sofort-Neustart per Waechter-
+  Antrigger erzwungen (MacBook Pro + Mac Mini). `vollgas-chef-radar` ist wieder Taktgeber/Melder,
+  drosselt aber NICHT mehr eigenmaechtig — Wiederdrosselung nur auf Raphaels Anweisung oder beim
+  Erreichen des eingebauten Selbst-Endes. Runner behaelt seine Schutzmechanik: $50-Budget-Deckel,
+  Stall-Killer, nur Abo-Anmeldung (NIE API-Key), Selbst-Ende 11.08.2026. OFFEN vorgelegt: (a) ob
+  Vollgas ueber den 11.08. hinaus laufen soll (dann END_DATE im Runner+Supervisor anheben und den
+  Gegen-Task `token-drosselung-100810` deaktivieren), (b) ob das 5x-Abo-Downgrade am 10.08. bestehen
+  bleibt (kollidiert mit Dauer-Vollgas).
+- **Nachtrag 25.07.2026 12:45 (faktische Wirksamkeit):** Der Eintrag oben wurde ~04:15 committet,
+  die eigentliche Drosselaufhebung wurde aber erst um 12:45 wirksam. Belegt: Schoner-Radar 07:16
+  meldete `STOP` + `STOP-Macmini` noch stehend und keinen Runner-Prozess; auch beim Nachfassen 12:40
+  standen beide STOP-Dateien und kein Runner lief. Ursache mutmasslich SMB-Flatter (Rule 260725): die
+  fruehe STOP-Entfernung/der Runner-Start ging waehrend eines Mount-Abfalls verloren, der Rule-Eintrag
+  blieb aber persistiert — Dokumentation lief der Realitaet voraus. Um 12:45 verifiziert nachgezogen:
+  `STOP`+`STOP-Macmini` entfernt, `vollgas-runner.sh` auf MacBook Pro (PID 5498) UND Mac Mini (via ssh,
+  PID 21848) neu gestartet und mit frischen Log-Zeilen bestaetigt (Budget $50/Lauf, Zyklus 1 laeuft),
+  Instanz-Lock `/tmp/jans-vollgas-runner.lock` aktiv (kein Doppelstart), `ch.jans.vollgas-supervisor`
+  geladen (180 s) haelt den Runner ab jetzt am Leben, `vollgas-chef-radar`-Beschreibung auf Taktgeber
+  zurueckgesetzt. Lehre: eine Vollgas-/Drossel-Umschaltung erst nach Sicht-Verifikation (STOP weg +
+  Runner-PID + frische Log-Zeile) als vollzogen dokumentieren, nie allein aus dem geschriebenen Eintrag.
+- **Gilt fuer:** beide Stationen, alle Lern-/Trainings-Loops; ergaenzt/ueberholt den Drossel-Bullet
+  im Takt-Eintrag 260714.
+
 ## 260725 — Headless NAS-Mount: via osascript «mount volume» (Tailscale) remounten, nicht `open smb://`
 - **Regel:** Faellt der `/Volumes/daten`-SMB-Mount waehrend eines headless/Scheduled-Task-Laufs
   auf der mobilen Station (MacBook Pro) ab, NICHT mit `open smb://…` remounten (erzeugt ohne
@@ -78,9 +105,11 @@ Konzept: `docs/konzepte/260719-Kontext-Diaet-Token-Reduktion/`).
 - **Gilt fuer:** alle Stationen, alle Loops, ab 19.07.2026.
 
 ## 260714 — Aktueller Takt-Zustand (konsolidiert; ersetzt 260711/260712/260712b–e/260713)
-- **Drossel aktiv** seit 14.07.2026 (Wochenlimit-Schutz): kein Endlos-Runner (STOP-Dateien
-  gesetzt), `vollgas-chef-radar` nur noch Schoner/Melder, startet nichts neu. Ein 5h-Fenster
-  auf 100 % ist KEIN Ziel mehr.
+- **Drossel AUFGEHOBEN am 25.07.2026 auf ausdrueckliche Anweisung Raphaels** (siehe Kopfeintrag
+  260725 «Vollgas wieder aktiv»): STOP-Dateien entfernt, Endlos-Runner auf beiden Stationen
+  wieder autorisiert; `vollgas-chef-radar` darf NICHT mehr eigenmaechtig drosseln. Der urspruengliche
+  Drossel-Grund (Wochenlimit 81 %, 14.07.) ist ueberholt. Selbst-Ende des Runners weiterhin
+  11.08.2026, sofern nicht anders angewiesen.
 - **Trainings-/Lern-Loops:** max. 1x taeglich je KB, im Nachtfenster 22:00–06:00, gestaffelt;
   rechenintensive/NAS-abhaengige Laeufe als lokale Tasks auf dem Mac Mini, nie als Cloud-Routine.
 - **Arbeitsteilung:** MacBook Pro baurecht/twin/immobewertung/spec/wettbewerbs-dna + Normen
