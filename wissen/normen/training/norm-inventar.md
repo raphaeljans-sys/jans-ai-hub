@@ -1,5 +1,14 @@
 # Norm-Inventar — Arbeitsliste des Nacht-Loops `normen-training-nacht`
 
+- **Run 24 (MacBook Pro, 260725) — Bookkeeping-Rückstand (7 Punkte) geschlossen + zwei weitere
+  Retro-Verifikationsrunden.** Kein neues Destillat, 0 offene `[ ]`-Positionen unverändert. Geschlossen:
+  7 QUESTIONS.md-Punkte, die inhaltlich bereits erledigt, aber nicht als `[x]` markiert waren (BRL 16-15
+  Ziff. 3.5.2 + S.16-Diagnose, Methodik-Pflicht, SIA 385/1, SIA 380/1, SIA 102 2014/2020,
+  sia-480-2004.md-Link). Re-Verifiziert: VKF-BRL 14-15-Delta (4/5 Korrekturen bestätigt, 1/5 präzisiert),
+  SIA 266/1 dritte Runde (0 neue Befunde ausserhalb Figur-1, aber erneut 1 Fehler exakt in der zuletzt
+  editierten Figur-1-Zeile — Fy/Querdruck verwechselt, korrigiert). Beide bleiben `speculative`. Details
+  `wiki/QUESTIONS.md` Abschnitt "Run 24", Report `outputs/2026-07-25_normen-nacht-run24.md`.
+
 - **Run 23 (MacBook Pro, 260725) — Retro-Verifikation statt neuer Destillate.** Wie von Run 22
   gefordert («Retro-Verifikation … das ist der nächste Lauf, bevor irgendeine neue Quelle angefasst
   wird») hat dieser Lauf 5 Artefakte adversarial verifiziert (3x established gehoben: SIA 410,

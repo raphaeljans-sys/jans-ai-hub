@@ -1,3 +1,23 @@
+## 2026-07-25 — Run 24 (MacBook Pro): Bookkeeping-Rückstand (7 Punkte) geschlossen + BRL-14-15-Delta & SIA-266/1 weitere Retro-Verifikation
+- **Kein neues Destillat — 0 offene `[ ]`-Positionen unverändert.** Erst Bookkeeping-Rückstand in
+  `wiki/QUESTIONS.md` bereinigt: 7 Punkte waren inhaltlich bereits erledigt (in Destillaten/Inventar
+  belegt), aber nicht als `[x]` markiert — BRL 16-15 Ziff. 3.5.2 Personenbelegung (bereits Wissens-Chef
+  Run 8, 18.07.2026), BRL 16-15 S.16-ABSV-Diagnose (bereits Run 23 korrigiert), Methodik-Pflicht
+  `pdfimages` (bereits in `training/PROGRAMM.md`), SIA 385/1 + SIA 380/1 (PDF liegt vor, korrekt als
+  6-Seiten-Auszug/Bring-Schuld destilliert, war fälschlich als fehlend/ungeklärt notiert), SIA 102
+  2014↔2020 (bereits im Inventar markiert), `sia-480-2004.md`-Link auf SIA 102:2003 korrigiert (Datei
+  liegt zweifach im Bestand, ist aber bewusst nicht destilliert, nicht "fehlt im Bestand").
+- **VKF-BRL 14-15-Delta re-verifiziert** (Hintergrund-Agent, Volltextabgleich beider PDF-Fassungen):
+  4 von 5 Run-23-Korrekturen wortgetreu bestätigt; die fünfte (Ziff. 3.2.3 Abs. 1) war überzeichnet
+  — "Aussenwandbekleidungen" und "im Hinterlüftungsbereich" standen bereits 2015 im Text, einzige
+  echte Neuerung 2017 ist der Zusatz "bzw. flächige Schichten". Korrigiert, bleibt speculative.
+- **SIA 266/1 dritte Runde** (Hintergrund-Agent, komplettes Original erneut gelesen): 0 neue Befunde
+  ausserhalb Figur-1, aber erneut ein Fehler exakt in der Run-23-editierten Figur-1-Zeile — Fy-
+  Hauptkraft (Ziff. 2.2.3) faelschlich mit dem separaten Querdruck-System (Ziff. 2.2.5) verschmolzen.
+  Korrigiert, bleibt speculative. Zweite Bestaetigung des Musters: frisch editierter Text ist die
+  hoechste Fehlerquelle dieser KB.
+- Details `wiki/QUESTIONS.md` Abschnitt "Run 24", Report `outputs/2026-07-25_normen-nacht-run24.md`.
+
 ## 2026-07-25 — Run 23 (MacBook Pro): Retro-Verifikation der 5 Run-22-Artefakte, BRL-16-15-Diagnose korrigiert
 - **Kein neues Destillat — Rueckstandsabbau gemaess Run-22-Auftrag.** 5 adversariale Refuter-Agenten
   gegen die Original-PDFs: SIA 410 (Erstverifikation, BEANSTANDET → korrigiert → established),

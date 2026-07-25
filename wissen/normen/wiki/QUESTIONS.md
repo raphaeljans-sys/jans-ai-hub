@@ -1,5 +1,57 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
+## Run 24 (MacBook Pro, 25.07.2026) — Rückstandsabbau (7 Punkte) + zwei weitere Retro-Verifikationsrunden
+
+**Ausgangslage.** Run 23 hatte zwei konkrete Folgeaufgaben hinterlassen (BRL-14-15-Delta re-verifizieren,
+SIA 266/1 dritte Runde) und zwei strukturelle Entscheide bei Raphael belassen (PL-03-Entscheid,
+Bring-Schulden). `norm-inventar.md` zeigte weiterhin 0 offene `[ ]`-Positionen — dieser Lauf hat daher
+gemäss PROGRAMM.md-Vertiefungsstufen gearbeitet: zuerst Bookkeeping-Rückstand in dieser Datei geschlossen
+(sieben Punkte, die inhaltlich bereits erledigt, aber nicht als `[x]` markiert waren), dann die zwei von
+Run 23 angeforderten Verifikationsrunden gefahren.
+
+**Bookkeeping-Rückstand geschlossen (7 Punkte, keine neue Quelle nötig, nur Abgleich Destillat↔Frage):**
+1. VKF-BRL 16-15 Ziff. 3.5.2 Personenbelegung — war bereits seit Wissens-Chef Run 8 (18.07.2026)
+   vollständig nachgeführt und in Run 23 bestätigt, nur hier nicht abgehakt.
+2. VKF-BRL 16-15 S.16-ABSV-Änderung — Diagnose war bereits in Run 23 korrigiert (S. 15, keine
+   Vertauschung), Punkt hier nur nicht geschlossen.
+3. Methodik-Pflicht `pdfimages`-Bildvergleich — bereits in `training/PROGRAMM.md` verankert.
+4. SIA 385/1 — PDF liegt vor (`SIA_Norm/i385-1_2011_d.pdf`, 6 von 28 Normseiten), war fälschlich
+   als «nur Screenshots» notiert; bereits am 17.07.2026 korrekt als Auszug/Bring-Schuld destilliert.
+5. SIA 380/1:2016 — Bestand-Datei bestätigt (`SIA 380_1_2016/i380-1_2016_d.pdf`, 6 von 60 Normseiten),
+   bereits am 17.07.2026 korrekt als Auszug/Bring-Schuld destilliert (blockiert `energie-berater`).
+6. SIA 102 2014↔2020 — bereits im Inventar korrekt als «— ersetzt durch 2020» markiert.
+7. `sia-480-2004.md` verlinkte SIA 102:2003 fälschlich als «nicht im Bestand» — tatsächlich liegt die
+   Datei zweifach vor (`SIA_Normen/SIA 102/SIA_102_2003.pdf`, `alle/xalt/102_2003_d.pdf`, 56 S.,
+   bestätigt echte Honorarordnung), ist aber bewusst nicht destilliert (ersetzt durch 2020). Linktext
+   korrigiert.
+
+**VKF-BRL 14-15-Delta — Re-Verifikation der 5 Run-23-Korrekturen (Hintergrund-Agent, Volltextabgleich
+beider PDF-Fassungen per `pdftotext -layout`):** 4 von 5 wortgetreu bestätigt (Fussnote [2] Ziff. 3.3.2,
+Ziff. 3.3.1 Abs. 5/6, Ziff. 2 Abs. 8, SN-EN-60065/Ziff. 4.1/Fussnote [7]). Die fünfte (Ziff. 3.2.3 Abs. 1)
+war in Run 23 überzeichnet: «Aussenwandbekleidungen» und die Ortsangabe «im Hinterlüftungsbereich» standen
+bereits 2015 wortgleich im Text (nur andere Satzstellung) — die tatsächlich einzige materielle Neuerung
+2017 ist der Zusatz «bzw. flächige Schichten». Im Destillat korrigiert. Delta-Sorgfaltsstufe bleibt
+`speculative` bis zu einer weiteren kurzen Re-Verifikation dieser einen Korrektur.
+
+**SIA 266/1 — dritte unabhängige Verifikationsrunde (Hintergrund-Agent, komplettes 12-seitiges Original
+erneut gegengelesen):** 0 neue Befunde ausserhalb der Figur-1-Zeile (31 Verweisungen, Tabelle 1 komplett,
+Formel 1/2, Ziff. 2.1-4.3, Genehmigung/Übergangsbestimmungen alle bestätigt). Erneut EIN neuer Fehler
+exakt in der zuletzt (Run 23) editierten Figur-1-Beschreibung: die Zeile hatte die Hauptdruckkraft Fy
+(Ziff. 2.2.3, Ausgleichsschicht, Prüfpresse) fälschlich mit dem separaten, optionalen Querdruck-System
+(Ziff. 2.2.5, Stahlplatte/Spannstangen, Kann-Bestimmung) zu einem Mechanismus verschmolzen. Korrigiert,
+beide Mechanismen jetzt sauber getrennt. Die h/l-Korrektur aus Run 23 selbst war und bleibt richtig.
+**Muster über zwei Runden:** exakt die zuletzt editierte Passage enthielt beide Male den neuen Fehler —
+frisch nachgetragener Text bleibt in dieser KB die höchste Fehlerquelle, nicht der unveränderte Rest.
+Status bleibt `speculative`; vierte Runde erst nach dieser Korrektur sinnvoll.
+
+**Neu offen für den nächsten Lauf:**
+1. SIA 266/1: vierte Verifikationsrunde nach der Figur-1-Korrektur (Muster aus Runde 2/3 beachten).
+2. VKF-BRL 14-15-Delta: kurze Re-Verifikation der Ziff.-3.2.3-Abs.1-Präzisierung.
+3. Danach `wiki/QUESTIONS.md` weiter abarbeiten — nach den 7 Schliessungen oben verbleiben primär
+   Bring-Schulden (SIA 380/1 Volltext, SIA 385/1 Volltext, SIA 118:2013, SIA 242, SIA 2014,
+   SIA 240 Ausgabe, 260/1-267/1 deutsche Fassungen) und die zwei strukturellen Entscheide bei Raphael
+   (PL-03-Entscheid, Bring-Schulden-Beschaffung) — beide nicht vom Loop selbst zu treffen.
+
 ## Run 23 (MacBook Pro, 25.07.2026) — Retro-Verifikation der 5 Run-22-Artefakte + BRL-16-15-Diagnosekorrektur
 
 **Ausgangslage.** Run 22 hatte fünf frische Artefakte hinterlassen, von denen nur drei eine erste
