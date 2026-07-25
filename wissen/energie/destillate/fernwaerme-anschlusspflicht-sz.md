@@ -88,3 +88,9 @@ empfiehlt sich dennoch die Prüfung des konkreten Gemeinde-Baureglements der bet
 - Web-Quellen, abgerufen im Rahmen dieser Recherche (2026-07-14).
 
 Vgl. `[[fernwaerme-anschlusspflicht-zh]]` (ZH-Pendant).
+
+**Ergänzt (Run 113):** die kommunale Energieplanung in SZ ist jetzt vertieft primärquellenbelegt —
+in den geprüften Erlassen (kEnG, kEnV, PBG) fand sich keine Anschlusszwang-Norm für
+Grundeigentümer; die Vorgabe zur Energieplanung stammt bislang nur aus der politischen
+«Energie- und Klimaplanung 2023+» (Gemeinden über 7'000 Einwohner, Frist 2030), nicht aus einer
+Gesetzespflicht → `[[waermeplanung-kommunal-zh-sz]]`, FAQ **F161**.

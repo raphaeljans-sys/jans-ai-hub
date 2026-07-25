@@ -1583,3 +1583,36 @@ Kandidat für einen künftigen Lauf.
   besondere Healthcare-Relevanz (Pflegeheim/Spital erreicht Schwelle oft schon ab 3'000-7'000 m² EBF)
   → neues Destillat `[[grossverbraucherartikel-zielvereinbarung-zh-sz]]`, FAQ **F160** neu. FAQ-Stand:
   **160 Kernfragen (F1-F160) belegt.** Destillate-Stand: **175** (zwei neue, ein erweitert).
+
+## D84 (Run 113, 2026-07-25) — drei parallele Rechercheagenten, freie Themenwahl mit Redundanz-Check (kein offener Werkzeug-Kandidat mehr)
+Da die Run-108-111-Werkzeugliste seit Run 112 vollstaendig abgearbeitet ist, folgte dieser Lauf der
+in Run 112 Punkt 6 festgehaltenen Methode: **Redundanz-Check per grep vor Themenwahl, dann gezielte
+Suche nach amtlicher Primaerquelle.** Sechs Kandidatenthemen per grep geprueft (Waermeplanung/
+Vorranggebiet, Contracting, Holzenergie/Holzschnitzel, Fernwaerme-Anschlusszwang, Smart Meter,
+Sanierungspflicht-Handaenderung, Tiefengeothermie, Warmwasser-Waermepumpe, PV-Recycling) — drei
+echte Luecken identifiziert (null bzw. nur tangentiale Treffer), drei Rechercheagenten parallel
+angesetzt, jeder schrieb NUR sein eigenes Destillat (kein Register-Edit, Kollisionsschutz).
+**Kommunale Waermeplanung ZH/SZ** (§ 4-7 + § 11 Abs. 6 EnerG ZH, Leitfaden Kommunale Energieplanung
+AfU SZ 20.11.2024, alle per curl+pdftotext im Volltext gelesen): zentrale Klarstellung, dass ein
+Vorranggebiet fuer Fernwaerme/Erdwaerme **nur behoerdenverbindlich, nicht grundeigentuemer-
+verbindlich** ist — echte Anschlusspflicht braucht in ZH eine zusaetzliche § 295 PBG-Verfuegung,
+in SZ wurde in kEnG/kEnV/PBG gar keine Anschlusszwang-Norm gefunden → `[[waermeplanung-kommunal-
+zh-sz]]`, established, FAQ **F161** neu, ergaenzt die beiden Schwesterdestillate `fernwaerme-
+anschlusspflicht-zh`/`-sz`. **Warmwasser-Waermepumpe als eigenstaendiges Retrofit-Thema** (BFE/WPZ
+Buchs COP-Feldmessung EN 16147, FWS-Gueteregelement 2022, EKZ-Foerderprogramm 2026/2027): COP-Median
+2,84 (A15)/2,56-2,62 (A7) primaerbelegt, wichtigste Klaerung fuer die Bauherrenberatung: **weder
+ZH-AWEL noch Kt. SZ foerdern den reinen Boiler-Tausch kantonal** — nur ein befristetes EKZ-Netz-
+betreiber-Programm (CHF 800, 2026/2027, nur Kt. ZH) → `[[warmwasser-waermepumpe-boiler-retrofit]]`,
+established, FAQ **F162** neu. **Tiefengeothermie Schweiz** (Gesetz Nutzung Untergrund Kt. ZH seit
+1.7.2023, Art. 27b/33 EnG, BFE-Statistik geothermische Nutzung 2024 im Volltext gelesen): ehrliche
+Nicht-Relevanz-Einordnung fuer Einzelbauprojekte statt kuenstlicher Aufblaehung — Tiefengeothermie
+ist Fernwaermenetz-/Kraftwerksmassstab (UVP-Pflicht ab 5 MWth), national nur 0,2-0,5 % der
+geothermischen Heizleistung ggue. 84,3 % Erdwaermesonden → `[[tiefengeothermie-schweiz]]`,
+established, FAQ **F163** neu, bewusst KEIN eigener Wiki-Artikel (Thema fuer Bauherren zu duenn),
+stattdessen Direktverweis in `heizleistung-und-waermeerzeuger.md`. Alle drei Agenten-Destillate vor
+Registerkonsolidierung per `git status` verifiziert (drei neue, disjunkte Dateien, kein
+Kollisionsrisiko). **Sättigungsdiagnose ein drittes Mal in Folge widerlegt** (Run 111/112/113: je
+mindestens zwei echte neue Themenfelder pro Lauf trotz 175+ bestehender Destillate) — die Methode
+Redundanz-Check-per-grep-vor-Themenwahl bleibt fuer freie Themenwahl ohne offene Werkzeugliste der
+belastbarste Weg. FAQ-Stand: **163 Kernfragen (F1-F163) belegt.** Destillate-Stand: **178** (drei
+neue).

@@ -2,6 +2,60 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 113: Drei parallele Rechercheagenten, freie Themenwahl mit Redundanz-Check (kein offener Werkzeug-Kandidat mehr), drei neue Themenfelder
+
+PDF-Inventar weiterhin erschöpft seit Run 65. Da die Run-108-111-Werkzeugliste seit Run 112
+vollständig abgearbeitet ist, folgte dieser Lauf der in Run 112 festgehaltenen Methode:
+Redundanz-Check per grep vor Themenwahl, dann gezielte Suche nach amtlicher Primärquelle. Sechs
+Kandidatenthemen geprüft, drei echte Lücken identifiziert, drei `general-purpose`-Rechercheagenten
+parallel angesetzt (jeder schrieb ausschliesslich sein eigenes Destillat, keine Register-Edits —
+Kollisionsschutz mit zwei Schwester-Agenten).
+
+1. **Kommunale Wärmeplanung ZH/SZ** (§ 4-7 + § 11 Abs. 6 EnerG Kt. ZH, LS 730.1, Fassung 1.7.2025,
+   curl+pdftotext; kEnG/kEnV/PBG Kt. SZ, SRSZ 420.100/420.111/400.100; Leitfaden Kommunale
+   Energieplanung Amt für Umwelt und Energie SZ, V01, 20.11.2024, 22 S. vollständig gelesen):
+   zentrale Klarstellung — ein Vorranggebiet für Fernwärme/Erdwärme ist nur **behördenverbindlich,
+   nicht grundeigentümerverbindlich**; eine echte Anschlusspflicht braucht in ZH eine zusätzliche,
+   separat anfechtbare § 295 PBG-Verfügung, in SZ wurde in den drei geprüften Erlassen keine
+   Anschlusszwang-Norm gefunden (nur die politische «Energie- und Klimaplanung 2023+» ohne
+   Gesetzescharakter) → neues Destillat `waermeplanung-kommunal-zh-sz`, established, FAQ **F161**
+   neu, ergänzt `fernwaerme-anschlusspflicht-zh` und `-sz`.
+2. **Warmwasser-Wärmepumpe als eigenständiges Retrofit-Thema** (BFE/WPZ Buchs Jahresberichte
+   2014/2017, COP-Feldmessung EN 16147; FWS-Reglement Gütesiegel Warmwasser-Wärmepumpe 2022;
+   EKZ-Förderprogramm 2026/2027): COP-Median 2,84 (A15) bzw. 2,56–2,62 (A7) primärquellenbelegt,
+   FWS-Mindestwert COP ≥ 2,60; Aufstellraum-Richtwert ~20 m³; erfüllt die ZH-Ersatzpflicht
+   zentraler Elektro-Wassererwärmer bis 2030. Wichtigste Klärung: **weder ZH-AWEL noch Kt. SZ
+   fördern den reinen Boiler-Tausch kantonal** — nur ein befristetes EKZ-Netzbetreiber-Programm
+   (CHF 800, 1.5.2026–31.12.2027, nur Kt. ZH); widersprüchliche Vergleichsportal-Fördersummen
+   bewusst verworfen → neues Destillat `warmwasser-waermepumpe-boiler-retrofit`, established,
+   FAQ **F162** neu, ergänzt `heizleistung-und-waermeerzeuger`.
+3. **Tiefengeothermie Schweiz** (Gesetz über die Nutzung des Untergrunds Kt. ZH seit 1.7.2023;
+   Art. 27b/33 EnG, SR 730.0, Stand 1.1.2025; BFE/EnergieSchweiz-Statistik geothermische Nutzung
+   2024, 14.7.2025, 50 S. vollständig gelesen): ehrliche Nicht-Relevanz-Einordnung statt
+   künstlicher Aufblähung — Tiefengeothermie (ab ~500 m, in ZH gesetzlich erst ab 1'000 m
+   reguliert) ist Fernwärmenetz-/Kraftwerksmassstab (UVP-Pflicht ab 5 MWth), für ein einzelnes
+   Bauprojekt in aller Regel nicht relevant; national nur 6 «Tiefe Aquifer»-Anlagen in Betrieb,
+   0,2–0,5 % der geothermischen Heizleistung gegenüber 84,3 % bei gewöhnlichen Erdwärmesonden →
+   neues Destillat `tiefengeothermie-schweiz`, established, FAQ **F163** neu, bewusst KEIN eigener
+   Wiki-Artikel (Thema für Bauherren zu dünn), stattdessen Direktverweis in
+   `heizleistung-und-waermeerzeuger.md`.
+
+Alle drei Agenten-Destillate vor Registerkonsolidierung per `git status` verifiziert (drei neue,
+disjunkte Dateien, kein Kollisionsrisiko mit paralleler Aktivität). **Sättigungsdiagnose ein
+drittes Mal in Folge widerlegt** (Run 111/112/113: je mindestens zwei echte neue Themenfelder pro
+Lauf trotz 175+ bestehender Destillate) — die Methode Redundanz-Check-per-grep-vor-Themenwahl
+bleibt für freie Themenwahl ohne offene Werkzeugliste der belastbarste Weg. Register nachgeführt:
+`destillate/INDEX.md` (drei neue Zeilen), `wiki/INDEX.md` (Kopfzeile-Stand), `wiki/BAUHERREN-FAQ.md`
+(F161–F163 neu + sources-Liste + Kopfzeile), `wiki/heizleistung-und-waermeerzeuger.md` (zwei neue
+Abschnitte), `destillate/fernwaerme-anschlusspflicht-zh.md` + `-sz.md` (Backlinks ergänzt),
+`training/curriculum.md` (D84), `raw/_INGESTED.md`. FAQ-Stand: **163 Kernfragen (F1–F163) belegt.**
+Destillate-Stand: **178** (drei neue).
+
+**Offene Punkte unverändert (aus Run 112 übernommen, weiterhin auf Raphaels Entscheid wartend):**
+die fünf gebündelten Kaufentscheide (seit Run 98, jetzt fünfzehn Runs in Folge ohne Entscheidung),
+Meta-Punkt M2 (eigenständiger Skill "energie"?, seit Run 45 spruchreif), SIA-2024-Gesundheitsbau-
+Merge (ausführungsreif, wartet auf Zustimmung).
+
 ## 2026-07-25 — Run 112: Drei parallele Rechercheagenten, letzter curl+Read-PDF-Kandidat (ISOS) abgearbeitet, zwei weitere komplett neue Themenfelder (Körperschall + Grossverbraucherartikel)
 
 PDF-Inventar weiterhin erschöpft seit Run 65 (keine neuen Dateien in PL-04 Energie seit 19.06.2026,

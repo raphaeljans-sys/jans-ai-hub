@@ -130,6 +130,24 @@ Heizkörpertausch ist nicht zwingend. Vor einem teuren Komplett-Heizkörperersat
 **hydraulischer Abgleich** (Faustregel aus nicht-schweizerischen Fachportalen, keine CH-Primärquelle).
 Details → `[[waermepumpen-system-modul-wpsm-heizkoerper-altbau]]`, FAQ **F154**.
 
+## Warmwasser-Wärmepumpe als eigenständige Massnahme (ohne Heizungsbezug, F162)
+Nicht immer geht es um die ganze Heizung: ein **Wärmepumpenboiler** ersetzt ausschliesslich den
+bestehenden Elektroboiler (Keller-Aufstellung, Richtwert ~20 m³ Raumvolumen) und erfüllt damit
+auch die ZH-Ersatzpflicht für zentrale Elektro-Wassererwärmer bis 2030. Primärquellenbelegter
+COP-Median (BFE/WPZ Buchs, EN 16147) 2,84 (A15) bzw. 2,56–2,62 (A7); FWS-Gütesiegel-Mindestwert
+COP ≥ 2,60. Kantonal wird der reine Boiler-Tausch weder in ZH noch (soweit geklärt) in SZ
+gefördert — nur ein befristetes EKZ-Netzbetreiber-Programm (CHF 800, 2026/2027, nur Kt. ZH).
+Details → `[[warmwasser-waermepumpe-boiler-retrofit]]`, FAQ **F162**.
+
+## Tiefengeothermie — Abgrenzung zur Erdwärmesonde (F163)
+Tiefengeothermie (ab ca. 500 m, im Kt. ZH gesetzlich erst ab 1'000 m reguliert) ist für ein
+einzelnes Bauprojekt **in aller Regel nicht relevant** — sie bewegt sich im Fernwärmenetz-/
+Kraftwerksmassstab (MW-Bereich, mehrjähriges Bewilligungsverfahren, UVP-Pflicht ab 5 MWth) und
+hat national einen verschwindend kleinen Marktanteil (nur 0,2–0,5 % der geothermischen
+Heizleistung, gegenüber 84,3 % bei gewöhnlichen Erdwärmesonden). Für Bauherren bleibt die
+relevante Technologie die Erdwärmesonde bis 500 m oder der Flächenkollektor/Erdwärmekorb. Details
+→ `[[tiefengeothermie-schweiz]]`, FAQ **F163**.
+
 ## Bezug
 - FAQ: `[[BAUHERREN-FAQ]]` F13 (Leistung) + F14 (Ersatzverfahren) + **F6 (Systemwahl ✓)**.
   Quelle: `[[bfe-waermeerzeugerleistung-2015]]`, `[[waermepumpe-systemvergleich]]`.

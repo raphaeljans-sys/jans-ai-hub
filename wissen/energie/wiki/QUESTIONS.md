@@ -2216,3 +2216,44 @@ gestrichen — kein weiterer Handlungsbedarf von dieser KB aus.
      nach amtlicher Primärquelle» bleibt für künftige Läufe der belastbarste Weg, echte Lücken statt
      Wiederholungen zu finden. Ohne offene Werkzeugliste (Punkt 4) wird der nächste Lauf wieder auf
      freie Themenwahl mit Redundanz-Check angewiesen sein.
+
+- [x] **Run 113 (2026-07-25) — freie Themenwahl mit Redundanz-Check, DREI weitere neue Themenfelder
+  (Sättigungsdiagnose ein drittes Mal in Folge widerlegt):** Sechs Kandidatenthemen per grep
+  geprüft (Wärmeplanung/Vorranggebiet, Contracting, Holzenergie, Fernwärme-Anschlusszwang, Smart
+  Meter, Sanierungspflicht-Handänderung, Tiefengeothermie, Warmwasser-Wärmepumpe, PV-Recycling) —
+  drei echte Lücken gefunden (null bzw. nur tangentiale Treffer), drei parallele
+  `general-purpose`-Rechercheagenten angesetzt, jeder editierte ausschliesslich sein eigenes
+  Destillat (Kollisionsschutz). **Kommunale Wärmeplanung ZH/SZ** (§ 4-7 + § 11 Abs. 6 EnerG ZH +
+  Leitfaden Kommunale Energieplanung AfU SZ 20.11.2024, beide im Volltext gelesen): Vorranggebiet
+  ist nur behördenverbindlich, nicht grundeigentümerverbindlich; ZH-Anschlusspflicht braucht
+  zusätzliche § 295 PBG-Verfügung, SZ ohne jede Anschlusszwang-Norm in kEnG/kEnV/PBG →
+  `[[waermeplanung-kommunal-zh-sz]]`, established, FAQ **F161** neu, ergänzt `fernwaerme-
+  anschlusspflicht-zh`/`-sz`. **Warmwasser-Wärmepumpe als eigenständiges Retrofit-Thema** (BFE/WPZ
+  Buchs COP-Feldmessung EN 16147, FWS-Gütereglement 2022, EKZ-Förderprogramm 2026/2027): COP-Median
+  2,84 (A15)/2,56-2,62 (A7) primärbelegt; wichtigste Klärung: weder ZH-AWEL noch Kt. SZ fördern den
+  reinen Boiler-Tausch kantonal, nur befristetes EKZ-Programm CHF 800 (2026/2027, nur Kt. ZH) →
+  `[[warmwasser-waermepumpe-boiler-retrofit]]`, established, FAQ **F162** neu. **Tiefengeothermie
+  Schweiz** (Gesetz Nutzung Untergrund Kt. ZH seit 1.7.2023, Art. 27b/33 EnG, BFE-Statistik
+  geothermische Nutzung 2024 vollständig gelesen): ehrliche Nicht-Relevanz-Einordnung für
+  Einzelbauprojekte (Fernwärmenetz-/Kraftwerksmassstab, national nur 0,2-0,5 % der geothermischen
+  Heizleistung) → `[[tiefengeothermie-schweiz]]`, established, FAQ **F163** neu, bewusst KEIN
+  eigener Wiki-Artikel (zu dünn für Bauherren), Direktverweis in `heizleistung-und-
+  waermeerzeuger.md`. FAQ-Stand: **163 Kernfragen (F1-F163) belegt.** Destillate-Stand: **178**
+  (drei neue). Alle drei Agenten editierten disjunkte Dateien, vor Registerkonsolidierung per
+  `git status` verifiziert (keine Kollision mit paralleler Aktivität).
+
+  **Nächster Lauf: Priorität**
+  1. Die fünf gebündelten Kaufentscheide wachsen seit Run 98 unverändert ohne Entscheidung — jetzt
+     **fünfzehn Runs** in Folge. Dringende Empfehlung unverändert: beim nächsten Kontakt mit
+     Raphael als kurze Bündel-Frage stellen.
+  2. Meta-Punkt M2 (eigenständiger Skill "energie"?) seit Run 45 spruchreif, weiterhin unentschieden.
+  3. SIA-2024-Gesundheitsbau-Merge weiterhin ausführungsreif, wartet auf Raphaels Zustimmung.
+  4. Kein offener Werkzeug-Kandidat mehr aus der Run-108-111-Liste; der nächste Lauf bleibt auf
+     freie Themenwahl mit Redundanz-Check-per-grep angewiesen. Mögliche weitere Kandidaten für
+     künftige Läufe (noch nicht geprüft): Energie-Monitoring-/Submetering-Pflicht für Grossverbraucher
+     (Anschluss an F160/Grossverbraucherartikel), kommunale Wärmeplanung der Stadt Zürich im Detail
+     (EnerGIS-Kartenwerk selbst noch nicht ausgewertet, nur die rechtliche Verbindlichkeit).
+  5. Sättigungsdiagnose für neue Themenfelder ist mit Run 113 ein **drittes Mal in Folge widerlegt**
+     (Run 111/112/113: je mindestens zwei echte neue Themenfelder trotz 175+ bestehender
+     Destillate) — die Methode «Redundanz-Check per grep vor Themenwahl, dann gezielte Suche nach
+     amtlicher Primärquelle» bleibt der belastbarste Weg für freie Themenwahl ohne Werkzeugliste.

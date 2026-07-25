@@ -90,3 +90,7 @@ bestehenden fossilen Heizung, wo die 8‑Jahres-Frist ab Verfügung läuft.
 - Regelung anderer Zürcher Gemeinden ausserhalb der Stadt Zürich (eigene Wärmeverbünde,
   z.B. Winterthur) nicht recherchiert.
 - Kanton Schwyz: keine analoge Fernwärme-Anschlusspflicht-Regelung geprüft.
+- **Ergänzt (Run 113):** die kommunale Energieplanung nach § 7 EnerG (oben nur kurz erwähnt) ist
+  jetzt vertieft primärquellenbelegt — inkl. der zentralen Klarstellung, dass die Ausweisung als
+  Vorranggebiet für sich allein **behördenverbindlich, nicht grundeigentümerverbindlich** ist, und
+  der Übergangslösung nach § 11 Abs. 6 EnerG → `[[waermeplanung-kommunal-zh-sz]]`, FAQ **F161**.

@@ -1,7 +1,13 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-07-25 (Run 112: F158-F160 neu — ISOS-Kategorien A/B/C und PV-Bewilligungskette
+last_updated: 2026-07-25 (Run 113: F161-F163 neu — drei parallele Rechercheagenten mit
+  Redundanz-Check per grep vor Themenwahl (PDF-Inventar seit Run 65 erschöpft): kommunale
+  Wärmeplanung ZH/SZ (Vorranggebiete nur behördenverbindlich, keine automatische Anschlusspflicht),
+  Warmwasser-Wärmepumpe als eigenständige Retrofit-Massnahme (COP ~2,6-2,8 primärbelegt, kantonal
+  nicht gefördert ausser befristetem EKZ-Programm), Tiefengeothermie CH (für Einzelbauprojekt in
+  aller Regel nicht relevant, Fernwärme-/Kraftwerksmassstab, ehrlich als Nischenthema eingeordnet);
+  Run 112: F158-F160 neu — ISOS-Kategorien A/B/C und PV-Bewilligungskette
   auf Denkmalobjekten primärquellenbelegt, Körperschall-Isolation von Wärmepumpen im eigenen
   Gebäude als bisher unbehandelte Lücke geschlossen, Grossverbraucherartikel-Zielvereinbarung ZH/SZ
   neu erschlossen; Run 111: F155-F157 neu, Handbuch «Energie und Baudenkmal» Teil 1-4
@@ -10,7 +16,7 @@ last_updated: 2026-07-25 (Run 112: F158-F160 neu — ISOS-Kategorien A/B/C und P
   auf Batteriespeicher-Mengenschwellen geprüft, Negativbefund; Run 93: F123-F126 neu, GVZ-PV-
   Feuerwehrmeldung, VKF Gefährliche Stoffe Negativbefund, Glas-g-Wert Negativbefund,
   Massivbau-CO2-Gegenzahl)
-sources: [destillate/waermepumpe-koerperschallisolation-empa.md, destillate/grossverbraucherartikel-zielvereinbarung-zh-sz.md, destillate/innendaemmung-altbau-bauphysik-ch.md, destillate/pv-rueckliefer-verguetung-mindestverguetung-2026.md, destillate/klimapraemie-heizungsersatz-klik.md, destillate/holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz.md, destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md, destillate/blockheizkraftwerk-bhkw-mfh-pflegeheim-ch.md, destillate/elektroheizungs-ersatzpflicht-zh-sz.md, destillate/erdwaermesonden-bewilligung-zh-sz.md, destillate/kaeltemittel-r290-waermepumpen-ch.md, destillate/fernwaerme-anschlusspflicht-sz.md, destillate/cerclebruit-sz-merkblatt-laermbelastete-gebiete.md, destillate/aussenlaerm-schallschutzfenster-strasse-bahn.md, destillate/fassadenbegruenung-hitzeschutz-pv-zielkonflikt.md, destillate/rilumi-minergie-luftdichtheit-n50.md, destillate/fernwaerme-anschlusspflicht-zh.md, destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md, destillate/waermebrueckenkatalog-bfe-geschossdecke-kellerdecke.md, destillate/waermebrueckenkatalog-bfe-stuetzen-fassadenanker.md, destillate/waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz.md, destillate/waermebrueckenkatalog-bfe-rollladenkasten.md, destillate/waermebrueckenkatalog-bfe-auskragung.md, destillate/waermebrueckenkatalog-bfe-steildach-traufe-ort.md, destillate/waermebrueckenkatalog-bfe-flachdach-ohne-vordach.md, destillate/waermebrueckenkatalog-bfe-flachdach-bruestung.md, destillate/waermebrueckenkatalog-bfe-flachdach-vordach.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/pvt-hybridkollektoren.md, destillate/solarthermie-investitionskosten-ch.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/cerclebruit-vollzugshilfe-waermepumpen-laermschutz.md, destillate/solarpflicht-national-mantelerlass-kantone.md, destillate/pv-blitzschutz-gebaeudeversicherung-ch.md, destillate/anergienetz-kalte-fernwaerme-ch.md, destillate/oberflaechennahe-erdwaerme-flaechenkollektor-erdwaermekorb-zh-sz.md, destillate/uf-werte-rahmenmaterial-grobuebersicht.md, destillate/vkf-richtlinie-22-15-blitzschutzsysteme.md, destillate/denkmalschutz-energiesanierung-zh-sz.md, destillate/energie-baudenkmal-haustechnik-zh.md, destillate/energie-baudenkmal-solarenergie-zh.md, destillate/sia-2060-kosten-ladeinfrastruktur-vertiefung.md]
+sources: [destillate/waermeplanung-kommunal-zh-sz.md, destillate/warmwasser-waermepumpe-boiler-retrofit.md, destillate/tiefengeothermie-schweiz.md, destillate/waermepumpe-koerperschallisolation-empa.md, destillate/grossverbraucherartikel-zielvereinbarung-zh-sz.md, destillate/innendaemmung-altbau-bauphysik-ch.md, destillate/pv-rueckliefer-verguetung-mindestverguetung-2026.md, destillate/klimapraemie-heizungsersatz-klik.md, destillate/holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz.md, destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md, destillate/blockheizkraftwerk-bhkw-mfh-pflegeheim-ch.md, destillate/elektroheizungs-ersatzpflicht-zh-sz.md, destillate/erdwaermesonden-bewilligung-zh-sz.md, destillate/kaeltemittel-r290-waermepumpen-ch.md, destillate/fernwaerme-anschlusspflicht-sz.md, destillate/cerclebruit-sz-merkblatt-laermbelastete-gebiete.md, destillate/aussenlaerm-schallschutzfenster-strasse-bahn.md, destillate/fassadenbegruenung-hitzeschutz-pv-zielkonflikt.md, destillate/rilumi-minergie-luftdichtheit-n50.md, destillate/fernwaerme-anschlusspflicht-zh.md, destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md, destillate/waermebrueckenkatalog-bfe-geschossdecke-kellerdecke.md, destillate/waermebrueckenkatalog-bfe-stuetzen-fassadenanker.md, destillate/waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz.md, destillate/waermebrueckenkatalog-bfe-rollladenkasten.md, destillate/waermebrueckenkatalog-bfe-auskragung.md, destillate/waermebrueckenkatalog-bfe-steildach-traufe-ort.md, destillate/waermebrueckenkatalog-bfe-flachdach-ohne-vordach.md, destillate/waermebrueckenkatalog-bfe-flachdach-bruestung.md, destillate/waermebrueckenkatalog-bfe-flachdach-vordach.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/pvt-hybridkollektoren.md, destillate/solarthermie-investitionskosten-ch.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/cerclebruit-vollzugshilfe-waermepumpen-laermschutz.md, destillate/solarpflicht-national-mantelerlass-kantone.md, destillate/pv-blitzschutz-gebaeudeversicherung-ch.md, destillate/anergienetz-kalte-fernwaerme-ch.md, destillate/oberflaechennahe-erdwaerme-flaechenkollektor-erdwaermekorb-zh-sz.md, destillate/uf-werte-rahmenmaterial-grobuebersicht.md, destillate/vkf-richtlinie-22-15-blitzschutzsysteme.md, destillate/denkmalschutz-energiesanierung-zh-sz.md, destillate/energie-baudenkmal-haustechnik-zh.md, destillate/energie-baudenkmal-solarenergie-zh.md, destillate/sia-2060-kosten-ladeinfrastruktur-vertiefung.md]
 links: [[INDEX]]
 ---
 
@@ -5482,3 +5488,73 @@ jährlich geforderte Verbrauchsmonitoring sollte bereits in der Planungsphase mi
 **Quelle:** Art. 46 EnG (SR 730.0, Stand 1.1.2026, fedlex); § 13a/§ 13d EnerG Kt. ZH (LS 730.1);
 § 9 kEnG Kt. SZ (SRSZ 420.100); AWEL- und AfU-Praxisseiten. Datenstand 2026-07-25 (Run 112) →
 `[[grossverbraucherartikel-zielvereinbarung-zh-sz]]`.
+
+## F161 — «Mein Grundstück liegt laut Gemeinde in einem Vorranggebiet für Fernwärme/Erdwärme — muss ich jetzt zwingend anschliessen?»
+
+**Kurzantwort:** Nein, nicht automatisch. Ein Vorranggebiet (ZH: «Wärmeversorgungsgebiet», SZ:
+«Eignungsgebiet») ist zunächst nur eine planerische Absichtserklärung der Gemeinde und bindet die
+Behörde, nicht den Grundeigentümer. Eine echte Anschlusspflicht braucht in Zürich eine
+zusätzliche, separat anfechtbare Verfügung nach § 295 PBG; in Schwyz wurde in den geprüften
+Erlassen (kEnG, kEnV, PBG) gar keine Anschlusszwang-Norm für Grundeigentümer gefunden.
+
+**Fachliche Begründung:** § 7 Abs. 4 EnerG ZH und der SZ-Leitfaden Kommunale Energieplanung
+(AfU, Kap. 4) sagen es fast wortgleich: die kommunale Energieplanung ist «ausschliesslich
+behördenverbindlich», nicht grundeigentümerverbindlich. Verbindlich für den einzelnen Bauherrn
+wird sie erst über ein zweites Instrument (ZH: § 295 PBG-Verfügung; beide Kantone: Integration in
+einen vom Regierungsrat genehmigten Richt-/Nutzungs-/Gestaltungsplan). In Schwyz stammt die
+Vorgabe zur Energieplanung bislang nur aus der politischen «Energie- und Klimaplanung 2023+»
+(Gemeinden über 7'000 Einwohner, Frist 2030), nicht aus einer eigenen Gesetzespflicht. Trotzdem
+lohnt sich die Prüfung vor der Heizungswahl: liegt das Gebiet «mittelfristig» im Energieplan für
+einen Wärmeverbund vor, kann die Gemeinde in Zürich nach § 11 Abs. 6 EnerG eine befristete
+Übergangslösung bewilligen — ein Verhandlungsspielraum, den man aktiv ansprechen sollte, statt
+ihn zu übersehen.
+
+**Quelle:** § 7 und § 11 Abs. 6 EnerG Kt. ZH (LS 730.1, Fassung 1.7.2025); Leitfaden Kommunale
+Energieplanung Kt. Schwyz (Amt für Umwelt und Energie, V01, 20.11.2024), Kap. 4; kEnG/kEnV/PBG SZ
+(SRSZ 420.100/420.111/400.100, Negativbefund Anschlusszwang). Datenstand 2026-07-25 (Run 113) →
+`[[waermeplanung-kommunal-zh-sz]]`.
+
+## F162 — «Kann ich nur meinen Elektroboiler durch eine Wärmepumpe ersetzen, ohne die ganze Heizung anzufassen?»
+
+**Kurzantwort:** Ja — ein Wärmepumpenboiler ersetzt ausschliesslich den Elektroboiler, braucht nur
+einen ausreichend grossen, nicht zu kalten Aufstellraum (Richtwert ~20 m³) und erfüllt damit auch
+die ZH-Ersatzpflicht für zentrale Elektro-Wassererwärmer bis 2030. Eine kantonale Förderung gibt
+es dafür aber nicht — nur im EKZ-Netzgebiet (Kt. ZH) befristet CHF 800 (1.5.2026–31.12.2027).
+
+**Fachliche Begründung:** Primärquellenbelegter COP-Median (BFE/WPZ Buchs, EN 16147) liegt bei
+2,84 (Prüfpunkt A15) bzw. 2,56–2,62 (A7, kälterer Fall) — Mindestwert für das FWS-Gütesiegel ist
+COP ≥ 2,60 bei A15. Das kantonale AWEL-Förderprogramm ZH kennt in der Tabelle «Heizung ersetzen»
+nur Pauschalen für den ganzen Wärmeerzeuger (kWth-gestaffelt), keine eigene Position für den
+reinen Boiler-Tausch; diese Lücke füllt punktuell nur das EKZ-Programm (Netzbetreiber, nicht
+Kanton). Im Kt. SZ ist die kantonale Förderung an den Ersatz einer ganzen Öl-/Gas-/
+Elektroheizung geknüpft — für einen isolierten Boiler-Ersatz nicht abschliessend geklärt (offener
+Punkt). Mehrere Vergleichsportale nennen widersprüchliche, nicht belastbare kantonale
+Fördersummen für den reinen Boiler-Tausch — bewusst verworfen.
+
+**Quelle:** BFE/WPZ Buchs Jahresberichte 2014/2017 (COP-Feldmessung); FWS-Reglement Gütesiegel
+Warmwasser-Wärmepumpe 2022; EKZ-Förderprogramm 2026/2027. Datenstand 2026-07-25 (Run 113) →
+`[[warmwasser-waermepumpe-boiler-retrofit]]`, Themenartikel `[[heizleistung-und-waermeerzeuger]]`.
+
+## F163 — «Lohnt sich Tiefengeothermie für mein Bauprojekt statt einer normalen Erdwärmesonde?»
+
+**Kurzantwort:** In der Regel nein — Tiefengeothermie ist für Ihr Bauprojekt normalerweise nicht
+relevant, weil sie ein Fernwärmenetz-/Kraftwerks-Massstab (MW-Bereich, mehrjähriges
+Bewilligungsverfahren) ist, kein Wärmeerzeuger für ein einzelnes Gebäude. Die für Ihr Projekt
+relevante Technologie ist fast immer die Erdwärmesonde (bis 500 m) oder ein Flächenkollektor/
+Erdwärmekorb.
+
+**Fachliche Begründung:** Der Kanton Zürich reguliert Tiefengeothermie erst ab 1'000 m Tiefe
+(Gesetz über die Nutzung des Untergrunds, seit 1.7.2023) und ordnet sie selbst als Thema für
+«grössere Energieinfrastrukturprojekte» ein; das Bewilligungsverfahren läuft dreistufig
+(Voranfrage, Vorgesuch mit Machbarkeitsstudie, Hauptgesuch mit Risikoanalyse, 30 Tage öffentliche
+Auflage), die UVP-Pflicht beginnt bei 5 MWth — weit über dem Bedarf eines einzelnen Gebäudes.
+National bestätigt die BFE-Statistik 2024 den Nischenstatus: nur 6 «Tiefe Aquifer»-Anlagen mit
+Wärmepumpe sind in Betrieb (u.a. Riehen BS, Bassersdorf/Kloten ZH), zusammen 0,2–0,5 % der
+schweizweiten geothermischen Heizleistung (gegenüber 84,3 % bei gewöhnlichen Erdwärmesonden). Nur
+wenn die Parzelle im Versorgungsgebiet eines bestehenden geothermisch gespeisten Fernwärmenetzes
+liegt (praktisch nur Riehen BS), wird die Frage zu einem gewöhnlichen Fernwärme-Anschlussentscheid
+— ohne eigenen Bewilligungsaufwand für die Bauherrschaft.
+
+**Quelle:** zh.ch «Tiefengeothermie» (AWEL); Art. 27b/33 EnG (SR 730.0, Stand 1.1.2025); BFE/
+EnergieSchweiz-Statistik geothermische Nutzung 2024 (14.7.2025, Volltext). Datenstand 2026-07-25
+(Run 113) → `[[tiefengeothermie-schweiz]]`, Themenartikel `[[heizleistung-und-waermeerzeuger]]`.
