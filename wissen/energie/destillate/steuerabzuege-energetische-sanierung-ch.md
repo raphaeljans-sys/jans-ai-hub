@@ -1,11 +1,11 @@
 ---
-quelle: Art. 32 Abs. 2 DBG + VMRE (SR 642.116.1); ZStB Nr. 30.4 Kt. ZH (Stand 26.03.2021); Schwyzer Steuerbuch Nr. 70.20 «Weisung LKPV»; EFD «Reform der Wohneigentumsbesteuerung»; SRF-Bericht Bundesratsmitteilung 01.04.2026
+quelle: Art. 32 Abs. 2 DBG + VMRE (SR 642.116.1); ZStB Nr. 30.4 Kt. ZH (Stand 26.03.2021); § 32 Abs. 2 lit. a StG SZ (SRSZ 172.200, Stand 1.2.2026, amtliches PDF sz.ch); Schwyzer Steuerbuch Nr. 70.20 «Weisung LKPV»; EFD «Reform der Wohneigentumsbesteuerung»; SRF-Bericht Bundesratsmitteilung 01.04.2026
 herausgeber: ESTV/EFD (Bund); Kt. Zürich; Kt. Schwyz
 ausgabe: Web-Recherche amtliche und Fachquellen
-gelesen: 2026-07-14 (nachintegrierter Rechercheagent)
-datenstand: 2026-07-14 (Abstimmung Eigenmietwert 28.09.2025; Inkrafttreten-Kommunikation 01.04.2026 → 01.01.2029)
-status: emerging (Bundesrecht + ZH primärquellennah belegt; SZ-Paragraph, MuKEn-Detailfragen und Eigenmietwert-Übergangsregeln teils nur sekundärquellenbelegt)
-last_updated: 2026-07-14
+gelesen: 2026-07-14 (nachintegrierter Rechercheagent); 2026-07-25 (StG-SZ-Volltext, § 32 verifiziert)
+datenstand: 2026-07-25 (Abstimmung Eigenmietwert 28.09.2025; Inkrafttreten-Kommunikation 01.04.2026 → 01.01.2029; StG-SZ-Stand SRSZ 1.2.2026)
+status: emerging (Bundesrecht + ZH + SZ-Paragraph jetzt primärquellennah belegt; MuKEn-Detailfragen und Eigenmietwert-Übergangsregeln bleiben teils nur sekundärquellenbelegt)
+last_updated: 2026-07-25
 ---
 
 # Steuerabzüge für energetische Sanierung — Schweiz (Fokus ZH/SZ) und die Eigenmietwert-Reform
@@ -44,13 +44,25 @@ per 1.1.2029 beim Bund weg** (Kantone dürfen sie optional bis längstens 2050 w
 
 ## 3. Kanton Schwyz
 
+- **§ 32 Abs. 2 lit. a StG SZ** (Steuergesetz Kanton Schwyz vom 9. Februar 2000, SRSZ 172.200,
+  Stand SRSZ 1.2.2026): amtlicher Wortlaut, direkt aus dem PDF der kantonalen Gesetzessammlung
+  extrahiert (`https://www.sz.ch/public/upload/assets/29694/172_200.pdf`, Abruf 25.07.2026) —
+  «Den Unterhaltskosten sind Investitionen gleichgestellt, die dem Energiesparen und dem
+  Umweltschutz dienen, soweit sie bei der direkten Bundessteuer abziehbar sind, und die
+  Rückbaukosten im Hinblick auf einen Ersatzneubau. Die abziehbaren Investitions- und
+  Rückbaukosten sind in den zwei nachfolgenden Steuerperioden abziehbar, soweit sie in der
+  laufenden Steuerperiode, in welcher die Aufwendungen angefallen sind, steuerlich nicht
+  vollständig berücksichtigt werden können.» § 32 StG SZ trägt die Fussnote 43 (spätere
+  Teilrevision, Revisionsdatum nicht weiter verifiziert). Damit deckungsgleich mit Art. 32
+  Abs. 2 DBG und § 30 Abs. 2 Satz 2 StG ZH: Gleichstellung mit Unterhaltskosten, Voraussetzung
+  Abzugsfähigkeit bei Bundessteuer, Vortrag auf zwei Folgeperioden.
 - Weisung über Liegenschaftskosten und Photovoltaik (LKPV), Schwyzer Steuerbuch Nr. 70.20 (Stand
-  Lieferung 2025, Fussnote 18.11.2025): inhaltlich dasselbe Muster wie ZH — Gleichstellung mit
-  Unterhaltskosten, Voraussetzung Abzugsfähigkeit bei Bundessteuer, Vortrag auf zwei Perioden bei
-  hohen Kosten möglich; bei **Neubauten** gelten Energiesparmassnahmen innert 5 Jahren nach
-  Fertigstellung voll als Anlagekosten (nicht abzugsfähig).
-- **Offen:** die exakte Paragraphen-Nummer im StG SZ (vermutlich § 24/§ 25) konnte nicht
-  zweifelsfrei aus dem Originaltext extrahiert werden (PDF-Dekodierung gescheitert).
+  Lieferung 2025, Fussnote 18.11.2025): inhaltlich dasselbe Muster, konkretisiert § 32 Abs. 2
+  lit. a StG SZ verwaltungspraktisch; bei **Neubauten** gelten Energiesparmassnahmen innert
+  5 Jahren nach Fertigstellung voll als Anlagekosten (nicht abzugsfähig). Die LKPV-PDF selbst
+  liess sich per WebFetch nicht als Klartext extrahieren (binär/komprimiert) — die Verifikation
+  erfolgte stattdessen erfolgreich am Gesetzestext selbst (StG SZ), das ist die höherrangige
+  Quelle ohnehin.
 
 ## 4. Eigenmietwert-Abschaffung — Status 2025/2026 und Konsequenz für den Energieabzug
 
@@ -88,7 +100,8 @@ gilt dieselbe Grundmechanik, aber Neubauten haben eine 5-Jahres-Sperrfrist.
 
 ## Offene Punkte
 
-- Exakte StG-SZ-Paragraphennummer für die Energiespar-Gleichstellung.
+- ~~Exakte StG-SZ-Paragraphennummer für die Energiespar-Gleichstellung.~~ Gelöst 25.07.2026:
+  § 32 Abs. 2 lit. a StG SZ, amtlich verifiziert (siehe Abschnitt 3).
 - Ob und welche Kantone den optionalen Energiesparabzug nach 2029 bis 2050 tatsächlich weiterführen.
 - Bundesratstext/-botschaft zur «bis 2050»-Frist nicht direkt zitiert (nur Sekundärquellen).
 - Erstkäuferabzug-Beträge (CHF 10'000/5'000) nicht amtlich verifiziert.
