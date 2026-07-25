@@ -1,11 +1,11 @@
 ---
 quelle: "PL - 02_Recht_Norm/02_Normen/SIA_Norm/SIA_Merkblaetter/SIA271_Wegleitung_Abdichtung.pdf"
-herausgeber: "Gebäudehülle Schweiz (Verband Schweizer Gebäudehüllen-Unternehmungen), suissetec, PAVIDENSA (Abdichtungen Beläge Schweiz), SFG/ASE (Schweizerische Fachvereinigung Gebäudebegrünung) — laut Deckblatt"
+herausgeber: "Gebäudehülle Schweiz (Verband Schweizer Gebäudehüllen-Unternehmungen), suissetec, PAVIDENSA (Abdichtungen Estriche Schweiz — Korrektur Retro-Verifikation Run 25, 25.07.2026: nicht «Belaege»), SFG (Schweizerische Fachvereinigung Gebäudebegrünung; Kürzel-Zusatz am Logo unsicher lesbar, moeglich «ASF» statt «ASE» — nicht am hochaufgeloesten Original nachverifiziert) — laut Deckblatt"
 ausgabe: "unbekannt (kein Ausgabevermerk im PDF — nur Deckblatt und eine Auszugsseite gescannt)"
 gelesen: "Beide im PDF vorhandenen Seiten: S. 1 = Deckblatt, S. 2 = Buchseite 64 (Kap. 5 'Elemente der Abdichtungssysteme', Ziff. 5.10.3-5.10.5 inkl. Abb. 75 und 76). Das PDF enthält NUR diese 2 Seiten."
 datenstand: "unbekannt"
 status: speculative
-last_updated: 2026-07-19
+last_updated: 2026-07-25
 links: [[REGISTER]]
 ---
 
@@ -32,7 +32,7 @@ Die Wegleitung ist eine gemeinsame Auslegungshilfe der Branchenverbände Gebäud
 - **Freibord (Abb. 76)** — der Sicherheitszuschlag, um den die Anschlüsse (obere offene Begrenzung) über Stau- und Druckhöhe hinaus hochgezogen werden, damit die Abdichtung auch beim maximal möglichen Wasseranstau dicht bleibt (Beispiel im Text: Wellenbewegung bei Wind). Im gesamten Flachdachbereich ist ein Freibord von mindestens 25 mm gefordert. (S. 64)
 - **Stauhöhe (Abb. 76)** — gemessen vom Dachwassereinlauf hinauf bis zur unteren Höhenquote des Freibords; Rechengrösse für das Schluckvermögen des Einlaufs. Sie bestimmt zugleich, wieviel Wasser sich maximal anstauen kann, und diese Wassermenge wirkt als **Flächenlast** — aus statischen Gründen ist deshalb unter Umständen rechnerisch eine kleinere Stauhöhe anzusetzen als konstruktiv möglich wäre. (S. 64)
 - **Druckhöhe des Notüberlaufs (Abb. 76)** — die effektive Höhe h des Notüberlaufs bestimmt den erforderlichen Querschnitt und gilt laut Text in der Regel als die massgebende Druckhöhe. Zwei Grenzen: die Oberkante des Notüberlaufs darf nie höher liegen als die untere Höhenquote des Freibords, und die **benötigte Druckhöhe am Notüberlauf** darf nie höher sein als die maximale Stauhöhe. Der Notüberlauf darf auch gegen oben offen sein; dann ist für die Abflussleistung die effektive Druckhöhe am Notüberlauf massgebend. (S. 64)
-- **Einflussfaktoren auf die Abflussleistung (Abb. 75)** — u.a.: Kies- oder Laubkorb reduziert die Abflussleistung (Tabellenwert 50 %), ein Lochblechrost um bis zu 80 %; konischer Einlauf leistet besser als gerader; senkrechte Fallleitungen besser als liegende; Gefälle der Dachfläche optimal ≥ 1,5 %; Einläufe möglichst weit entfernt von der Türschwelle platzieren. (S. 64)
+- **Einflussfaktoren auf die Abflussleistung (Abb. 75, Original-Bildunterschrift: «Einflussfaktoren auf die Planung von Dachwassereinläufen und Notüberläufen» — Präzisierung Retro-Verifikation Run 25)** — u.a.: Kies- oder Laubkorb reduziert die Abflussleistung (Tabellenwert 50 %), ein Lochblechrost um bis zu 80 %; konischer Einlauf leistet besser als gerader; senkrechte Fallleitungen besser als liegende; Gefälle der Dachfläche optimal ≥ 1,5 %; Einläufe möglichst weit entfernt von der Türschwelle platzieren. (S. 64)
 
 ## JANS-Praxis-Transfer
 - **`ausschreibung` / LV-Erstellung (Flachdach, BKP-Positionen Abdichtung/Spenglerei):** Notüberläufe und Signalüberläufe sind mit **Mindestquerschnitt und Form** auszuschreiben (Notüberlauf eckig ≥ 50/50 mm, besser 60/150 mm nach suissetec; Signalüberlauf rund ≥ 50 mm Innendurchmesser). Ohne diese Angabe ist die Position nicht vergleichbar (Ziff. 5.10.3/5.10.4).
@@ -46,3 +46,4 @@ Die Wegleitung ist eine gemeinsame Auslegungshilfe der Branchenverbände Gebäud
 - **Kein Textlayer** (reiner MFP-Scan) — Inhalt nur visuell erfasst; Zahlenwerte oben stammen aus der Bildlektüre und sollten bei sicherheits-/vertragsrelevanter Verwendung am Original gegengelesen werden. **Gegenprüfung 19.07.2026** (Verifier, Bildlektüre S. 64): alle Zahlenwerte (50 mm, 0,7 l/s, 60/150 mm, 2,9 l/s, 25 mm, 50 %, 80 %, 1,5 %) und die Ziffern 5.10.3/5.10.4/5.10.5 bestätigt; eine Präzisierung bei der Druckhöhe korrigiert (Grenze gilt der benötigten Druckhöhe, nicht der Bauteilhöhe des Notüberlaufs).
 - **Nur S. 64 vorhanden** — Inhaltsverzeichnis, Geltungsbereich, Begriffe, Kapitel 1-4 und 6 ff. fehlen vollständig; ebenso die im Text referenzierte Berechnungssystematik über Abb. 75/76 hinaus.
 - **Beschaffungs-Pendenz:** Vollständige Wegleitung (Gebäudehülle Schweiz / suissetec / PAVIDENSA / SFG) nachbestellen und den Scan in der Normenbibliothek ersetzen; ebenso die zitierte **suissetec-Richtlinie** zur Dachentwässerung als eigene Quelle erfassen.
+- **Adversariale Prüfung 25.07.2026 (Run 25):** Verdikt BEANSTANDET, technischer Kerninhalt (Ziff. 5.10.3-5.10.5, alle Zahlenwerte, Tabelle Abb. 75) wortgetreu bestätigt, 0 Abweichungen dort. 3 Befunde ausschliesslich im Frontmatter/bei Bildunterschriften: PAVIDENSA-Verbandsname korrigiert («Estriche» statt «Beläge»), SFG-Kürzel-Zusatz als unsicher markiert, Abb.-75-Titel als Präzisierung ergänzt. Nicht auf established gehoben, da das SFG-Kürzel am Original noch visuell nachzuverifizieren ist.

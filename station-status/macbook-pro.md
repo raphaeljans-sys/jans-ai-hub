@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.07.2026 17:28:27
+Stand: 25.07.2026 17:38:33
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 16:59)
+- Developer/jans/ai/hub  (letzte Aktivitaet 17:38)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 25.07.2026 17:28:27
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 82cea2ea immobewertung-training Run 47: Delta-Null-Bestaetigungslauf (fuenfzehnter in Folge)
+- f8e99f63 planungsgrundlagen-training Run 70: Frischecheck Recht-Norm+Brandschutz (0 neue Dateien seit Run 68), Nullbefund fuer alle vier Domaenen bestaetigt

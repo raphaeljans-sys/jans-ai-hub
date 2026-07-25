@@ -162,7 +162,7 @@ bleibt eine offene Bring-Schuld (siehe `QUESTIONS.md`).
 | SIA 265 | 2012 | 2012✓ · 2003✗ | Bestand 2003 → **veraltet** (2013 gueltig: 2012) |
 | SIA 265/1 | 2009 | 2009✓ · 2003✗ |  |
 | SIA 266 | 2003 | 2003✓ | Bestand 2003 = gueltig 2013 ✓ |
-| SIA 266/1 | 2003 | 2003✓ | Destillat `sia-266-1-2003.md` (Run 22, 260725; Run 23 zweite adversariale Runde — 1 Fehler Figur-1 h/l vertauscht gefunden+korrigiert; Run 24 dritte Runde — 0 Befunde ausserhalb Figur-1, aber wieder 1 neuer Fehler exakt in der zuvor editierten Figur-1-Zeile [Fy-Hauptkraft mit optionalem Querdruck-System verwechselt] gefunden+korrigiert). Weiterhin speculative, vierte Runde vor Statushebung noetig. Prüf-/Deklarationsnorm zu SIA 266 (WIE, nicht WAS): zwei SIA-eigene Prüfverfahren (Ziff. 2.2 Mauerwerksdruckfestigkeit, Ziff. 2.3 Steinquerzugfestigkeit) + Ergänzung zum EN-772-11-Verfahren (Ziff. 2.4). Bestandsfalle: liegt deutsch als `alle/i/266_1_d.pdf` im italienischen Sprachordner. ⚠ Offen: ob eine neuere Ausgabe (vermutlich 2015, parallel zur SIA-266-Revision) existiert |
+| SIA 266/1 | 2003 | 2003✓ | Destillat `sia-266-1-2003.md` (Run 22, 260725; Run 23 zweite adversariale Runde — 1 Fehler Figur-1 h/l vertauscht korrigiert; Run 24 dritte Runde — 0 Befunde ausserhalb Figur-1, 1 neuer Fehler exakt dort [Fy/Querdruck verwechselt] korrigiert; Run 25 vierte Runde — Figur-1 jetzt sauber, 2 kleinere Stilbefunde ausserhalb korrigiert; fuenfte Runde 0 Befunde). **Status established (260725).** Prüf-/Deklarationsnorm zu SIA 266 (WIE, nicht WAS): zwei SIA-eigene Prüfverfahren (Ziff. 2.2 Mauerwerksdruckfestigkeit, Ziff. 2.3 Steinquerzugfestigkeit) + Ergänzung zum EN-772-11-Verfahren (Ziff. 2.4). Bestandsfalle: liegt deutsch als `alle/i/266_1_d.pdf` im italienischen Sprachordner. ⚠ Offen: ob eine neuere Ausgabe (vermutlich 2015, parallel zur SIA-266-Revision) existiert (Bestandsfrage, nicht Textgenauigkeit) |
 | SIA 266/2 | 2012 | 2012✓ |  |
 | SIA 267 | 2003 | 2003✓ | Bestand 2003 = gueltig 2013 ✓ |
 | SIA 267/1 | 2003 | 2003✓ |  |
@@ -509,7 +509,7 @@ Ausgabejahr auf dem Titelblatt vielfach vom Dateinamen ab — massgebend ist die
 | Merkblatt SIA 2026 — Effizienter Einsatz von Trinkwasser… | SIA Merkblatt 2026, Ausgabe 2006 (1. Auflage 2006… | established | `sia-mb-2026-2006.md` |
 | Bauweisenspezifische Zuordnungen von Leistungen der Bauin… | SIA Merkblatt 2027, Ausgabe 2006 (Deckblatt "Ausg… | established | `sia-mb-2027-2006.md` |
 | Merkblatt SIA 2023 «Lüftung in Wohnbauten» | SIA 2023, 1. Auflage 2004-06 (Copyright © 2004 by… | established | `sia-2023-begleitdokument.md` |
-| Wegleitung zur Norm SIA 271 — Abdichtungen von Hochbauten | unbekannt (kein Ausgabevermerk im PDF) | **nur 2-Seiten-Auszug** im Bestand — Volltext Bring-Schuld | `sia-271-wegleitung.md` |
+| Wegleitung zur Norm SIA 271 — Abdichtungen von Hochbauten | unbekannt (kein Ausgabevermerk im PDF) | **nur 2-Seiten-Auszug** im Bestand — Volltext Bring-Schuld; Run 25 (260725) technischer Kern bestaetigt 0 Befunde, 3 Frontmatter-Befunde korrigiert (PAVIDENSA-Name) | `sia-271-wegleitung.md` |
 | Geländer und Brüstungen an historischen Bauten | Schweizer Ingenieur und Architekt (SI+A), Nr. 38,… | established | `sia-358-fachartikel.md` |
 | Hindernisfreie Bauten — Auslegungen zur Norm SIA 500:2009 | Auslegungsdokument der Arbeitsgruppe SIA 500, Sta… | established | `sia-500-auslegung.md` |
 | Postversand von Beiträgen von Wettbewerben und Studienauf… | SIA 142i-301d, 3. Revision Juni 2015 (Publikation… | established | `sia-142i-301-postversand-2015.md` |

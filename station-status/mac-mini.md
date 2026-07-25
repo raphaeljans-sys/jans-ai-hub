@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 25.07.2026 17:23:59
+Stand: 25.07.2026 17:44:07
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 17:17)
@@ -12,4 +12,4 @@ Stand: 25.07.2026 17:23:59
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 31314005 baurecht-buch-training Run 55: Fassungsstand-Umkehr in Kap. 14 (Nutzungsziffern) gefunden und korrigiert
+- f8e99f63 planungsgrundlagen-training Run 70: Frischecheck Recht-Norm+Brandschutz (0 neue Dateien seit Run 68), Nullbefund fuer alle vier Domaenen bestaetigt

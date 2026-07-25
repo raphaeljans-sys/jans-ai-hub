@@ -1,5 +1,15 @@
 # Norm-Inventar — Arbeitsliste des Nacht-Loops `normen-training-nacht`
 
+- **Run 25 (MacBook Pro, 260725) — SIA 266/1 auf established gehoben, VKF-BRL-Delta vollständig
+  verifiziert, 3 weitere speculative Destillate erst-/tiefer geprüft.** Kein neues Destillat, 0 offene
+  `[ ]`-Positionen unverändert. Die zwei von Run 24 offen gelassenen Folgeaufgaben (SIA 266/1 vierte
+  Runde, VKF-BRL-Delta Ziff. 3.2.3 Abs. 1 Re-Verifikation) abgeschlossen — SIA 266/1 nach fünfter Runde
+  ohne jeden Befund auf `established` gehoben (erste komplett fehlerfreie Runde seit Erstdestillation).
+  Zusätzlich 3 nie/oberflächlich geprüfte speculative Destillate verifiziert: sia-112-leistungsmodell.md
+  BESTAETIGT → established; sia-112-tabelle-infrastruktur.md BEANSTANDET (4 Befunde, korrigiert, bleibt
+  speculative); sia-271-wegleitung.md technischer Kern bestätigt, 3 Frontmatter-Befunde korrigiert.
+  Details `wiki/QUESTIONS.md` Abschnitt "Run 25", Report `outputs/2026-07-25_normen-nacht-run25.md`.
+
 - **Run 24 (MacBook Pro, 260725) — Bookkeeping-Rückstand (7 Punkte) geschlossen + zwei weitere
   Retro-Verifikationsrunden.** Kein neues Destillat, 0 offene `[ ]`-Positionen unverändert. Geschlossen:
   7 QUESTIONS.md-Punkte, die inhaltlich bereits erledigt, aber nicht als `[x]` markiert waren (BRL 16-15

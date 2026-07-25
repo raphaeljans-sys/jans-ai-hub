@@ -1,3 +1,19 @@
+## 2026-07-25 — Run 25 (MacBook Pro): SIA 266/1 auf established gehoben, VKF-BRL-Delta vollständig verifiziert, 3 weitere speculative Destillate erstmals/tiefer geprüft
+- **Kein neues Destillat — 0 offene `[ ]`-Positionen unverändert.** Zwei von Run 24 offen gelassene
+  Folgeaufgaben abgeschlossen: (1) SIA 266/1 vierte Runde — Figur-1-Zeile (dreimal in Folge fehlerhaft)
+  ist jetzt sauber (0 Befunde), 2 kleinere Stilbefunde ausserhalb korrigiert; fünfte, eng begrenzte
+  Bestätigungsrunde dieser zwei Korrekturen: 0 Befunde. **Status established.** (2) VKF-BRL 14-15-Delta,
+  Ziff. 3.2.3 Abs. 1: unabhängiger Wort-für-Wort-Abgleich beider Fassungen bestätigt die Run-24-
+  Präzisierung vollständig — Delta-Abschnitt jetzt komplett verifiziert.
+- **3 weitere speculative Destillate geprüft, die seit Erstdestillation (19.07.2026) nie adversarial
+  verifiziert waren:** sia-112-leistungsmodell.md BESTAETIGT 0 Befunde (inkl. `mdls`/`strings`-
+  Metadaten-Gegenprobe) → **established**. sia-112-tabelle-infrastruktur.md BEANSTANDET, 4 Befunde
+  (1 substanziell: Spalte «Menge» falsch zugeordnet; 3 kleiner) korrigiert, bleibt speculative bis
+  Bestätigungsrunde. sia-271-wegleitung.md: technischer Kern bestätigt 0 Befunde, 3 Befunde bei
+  Frontmatter/Bildunterschriften korrigiert (PAVIDENSA-Name), SFG-Kürzel bleibt unsicher.
+- 6 Refuter-Agenten liefen parallel als Hintergrund-Agenten (Workflow-Tool wie in Run 24 nicht
+  verfügbar). Details `wiki/QUESTIONS.md` Abschnitt "Run 25", Report `outputs/2026-07-25_normen-nacht-run25.md`.
+
 ## 2026-07-25 — Run 24 (MacBook Pro): Bookkeeping-Rückstand (7 Punkte) geschlossen + BRL-14-15-Delta & SIA-266/1 weitere Retro-Verifikation
 - **Kein neues Destillat — 0 offene `[ ]`-Positionen unverändert.** Erst Bookkeeping-Rückstand in
   `wiki/QUESTIONS.md` bereinigt: 7 Punkte waren inhaltlich bereits erledigt (in Destillaten/Inventar

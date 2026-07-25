@@ -1,5 +1,39 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
+## Run 25 (MacBook Pro, 25.07.2026) — 2 Folgeaufgaben aus Run 24 abgeschlossen + 3 weitere speculative Destillate erstverifiziert
+
+Run 24 hatte zwei konkrete Folgeaufgaben und eine allgemeine Empfehlung hinterlassen. Beide Folgeaufgaben
+sind jetzt erledigt, zusätzlich wurden 3 bislang nie adversarial geprüfte speculative Destillate
+(sia-112-leistungsmodell, sia-112-tabelle-infrastruktur, sia-271-wegleitung) verifiziert.
+
+- **[x] SIA 266/1 vierte + fünfte Runde (25.07.2026).** Vierte Runde: Figur-1-Zeile (dreimal in Folge
+  fehlerbehaftet) ist nach der Run-24-Korrektur endlich sauber (0 Befunde), 2 kleinere Stilbefunde
+  ausserhalb gefunden und korrigiert (Ziff.-2.3.7-Modalitätsetikett, «Krafteinleitung»→«Querdruck-Staffelung»
+  zur Konsistenz). Fünfte, eng begrenzte Runde nur dieser zwei Korrekturen: 0 Befunde. **Status auf
+  established gehoben.**
+- **[x] VKF-BRL 14-15-Delta, Ziff. 3.2.3 Abs. 1 (25.07.2026).** Unabhängiger Wort-für-Wort-Abgleich
+  beider Original-Fassungen bestätigt die Run-24-Präzisierung vollständig (0 Befunde). Delta-Abschnitt
+  gilt damit als vollständig verifiziert (alle 5 Run-23-Korrekturen jetzt unabhängig bestätigt).
+- **[x] sia-112-leistungsmodell.md erstmals adversarial geprüft (25.07.2026).** War seit Run 16
+  (19.07.2026) nie verifiziert. Verdikt BESTAETIGT, 0 Befunde (inkl. unabhängiger `mdls`/`strings`-
+  Gegenprobe der PDF-Metadaten). **Status auf established gehoben.**
+- **[ ] sia-112-tabelle-infrastruktur.md erstmals tiefer geprüft (25.07.2026).** Vorherige Prüfung
+  (Run 16) fand 0 Befunde bei oberflächlicherer Lektüre; Run 25 fand bei vollständigem Seitenvergleich
+  4 Befunde (1 substanziell: Spalte «Menge» falsch der Gruppe «Beschrieb» statt «Kosten» zugeordnet;
+  3 kleiner). Alle 4 im Destillat korrigiert, bleibt speculative bis zu einer kurzen Bestätigungsrunde
+  der Korrekturen (nächster Lauf).
+- **[ ] sia-271-wegleitung.md, 3 Befunde bei Frontmatter/Bildunterschriften (25.07.2026).** Technischer
+  Kern (Ziff. 5.10.3-5.10.5, alle Zahlenwerte) bestätigt 0 Befunde. PAVIDENSA-Verbandsname korrigiert
+  («Abdichtungen Estriche Schweiz», nicht «Beläge»); SFG-Kürzel-Zusatz («ASE» vs. möglich «ASF») bleibt
+  unsicher — am Original visuell nachzuverifizieren, bevor auf established gehoben wird.
+
+**Für den nächsten Lauf:** (1) kurze Bestätigungsrunde der 4 sia-112-tabelle-infrastruktur-Korrekturen;
+(2) SFG-Kürzel bei sia-271-wegleitung.md am Original visuell klären, dann established; (3) verbleibende
+speculative-Bestandsliste ist damit fast abgearbeitet — nur noch sia-vertragsunterschiede-2023.md
+(bleibt bewusst dauerhaft speculative, kein Normtext) und sia-112-tabelle-infrastruktur.md offen;
+(4) danach QUESTIONS.md weiter Richtung Bring-Schulden/Strukturentscheide (unverändert bei Raphael).
+Report `outputs/2026-07-25_normen-nacht-run25.md`.
+
 ## Run 24 (MacBook Pro, 25.07.2026) — Rückstandsabbau (7 Punkte) + zwei weitere Retro-Verifikationsrunden
 
 **Ausgangslage.** Run 23 hatte zwei konkrete Folgeaufgaben hinterlassen (BRL-14-15-Delta re-verifizieren,

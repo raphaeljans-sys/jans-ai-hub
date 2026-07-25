@@ -4,9 +4,10 @@ herausgeber: "KUNDERT PLANER AG, Ifangstrasse 6, CH-8952 Schlieren (Merkblatt ei
 ausgabe: "unbekannt (kein Ausgabevermerk und kein sichtbares Datum auf dem Blatt)"
 gelesen: "S. 1 (einzige Seite des PDF, vollstaendig gelesen; Textlayer vorhanden, kein Scan, kein DRM)"
 datenstand: "auf dem Blatt selbst kein Datum; PDF-Metadaten nennen CreationDate 13.01.2016 (Word 2010) — daraus folgt nur, dass der abgebildete Stand spaetestens Januar 2016 vorlag, kein Ausgabebeleg der SIA 112"
-status: speculative
-last_updated: 2026-07-19
+status: established
+last_updated: 2026-07-25
 links: [[REGISTER]]
+verifikation: "adversarial geprueft 25.07.2026 (Run 25): Verdikt BESTAETIGT, 0 Befunde — Struktur (6 Phasen/12 Teilphasen), alle Phasenziele, Herausgeber/Metadaten (CreationDate 13.01.2016 unabhaengig per mdls/strings gegengeprueft), nachgelagerte Ordnungen SIA 102/103/105/108 sowie alle Negativ-Aussagen (kein SIA-Original, keine Norm-Ziffern zitiert) wortgetreu bestaetigt. Status established."
 ---
 
 # SIA 112 (Drittdarstellung) — «Phasen des SIA-Leistungsmodells»
