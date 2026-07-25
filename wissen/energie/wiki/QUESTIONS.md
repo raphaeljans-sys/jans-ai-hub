@@ -1346,10 +1346,20 @@ mit echten Umlauten (bewährtes Run-86-Muster gegen den Umlaut-Bug).
   (bauteilkatalog.ch weiterhin PRO-paywalled, bestätigter Negativbefund).
 - **B1-Konsolidierung und SIA-2024-Gesundheitsbau-Zwilling weiterhin bewusst nicht angegangen** —
   unverändert Rückfrage-würdig (destruktive Restrukturierung, Rule `wissens-bibliothekar`).
-- **Neu offen:** VKF-Richtlinie 22-15 «Blitzschutzsysteme» im Volltext beschaffen und speziell auf
-  Batteriespeicher-Mengenschwellen prüfen; VKF-Brandschutzinformationsblatt Lithium-Ionen-
-  Batteriespeicher + FAQ 2005-01 (LFP) im Volltext beschaffen; ob/wie das GVZ-PV-Formular formal an
-  die Versicherungsprämien-/Wertvermehrungsmeldung gekoppelt ist, direkt bei der GVZ nachfragen;
-  Massivbau-Bauteildatenblatt mit vollem Schichtplan (Dämmung+Putz in einem Dokument) bleibt offen
-  (eco-bau/KBOB direkt anfragen oder bauteilkatalog.ch-PRO-Zugang); SNR 464022
+- [x] **VKF-Richtlinie 22-15 «Blitzschutzsysteme» selbst gezielt auf Batteriespeicher-
+  Mengenschwellen geprüft — Negativbefund** ✓ 2026-07-25 (Run 94): alle drei bereits verifizierten
+  Blitzschutz-Dokumente (VKF-Primärdokument 22-15de 8 S., GVZ-Weisung 20.06 20 S., GVB-Merkblatt
+  09/2024 6 S., alle curl+pdftotext) gezielt nach «Batter», «Speicher», «Lithium», «Akku»
+  durchsucht — **keine** Batteriespeicher-Bestimmung in keinem der drei Dokumente; einziger
+  «Speicher»-Treffer (GVB) betrifft Gasspeicher/Biogasfermenter, nicht elektrische Batterien.
+  Damit ist nach Run 93 (Richtlinie «Gefährliche Stoffe» widerlegt) auch die zweite naheliegende
+  VKF-Quelle ausgeschlossen → `[[vkf-richtlinie-22-15-blitzschutzsysteme]]` ergänzt (neuer Abschnitt
+  «Batteriespeicher-Prüfung Run 94»), FAQ **F127** neu.
+- **Neu offen:** die zutreffende Fundstelle für Batteriespeicher-Mengenschwellen bleibt offen — ein
+  eigenständiges VKF-Brandschutzinformationsblatt zu Lithium-Ionen-Batteriespeichern (Existenz/
+  Fundstelle unklar) sowie die bereits identifizierten VKF-Brandschutzmerkblatt 2005-15de
+  «Lithium-Ionen-Batterien» + FAQ 2005-01 (LFP) im Volltext beschaffen; ob/wie das GVZ-PV-Formular
+  formal an die Versicherungsprämien-/Wertvermehrungsmeldung gekoppelt ist, direkt bei der GVZ
+  nachfragen; Massivbau-Bauteildatenblatt mit vollem Schichtplan (Dämmung+Putz in einem Dokument)
+  bleibt offen (eco-bau/KBOB direkt anfragen oder bauteilkatalog.ch-PRO-Zugang); SNR 464022
   (Blitzschutz-Ausführungsdetails) weiterhin nicht volltextlich gelesen.

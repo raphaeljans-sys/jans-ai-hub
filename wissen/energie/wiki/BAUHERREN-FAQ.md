@@ -4436,3 +4436,31 @@ Datenstand 2026-07-25 (Run 93). Status **established** (beide Primärquellen —
 treeze/Stadt-Zürich-Ökobilanz — vollständig via curl+pdftotext gelesen; EPD SwissModul formal seit
 Oktober 2023 abgelaufen, kein Nachfolgedokument gefunden, Grössenordnung/Methodik bleiben
 übertragbar).
+
+### F127 — Regelt die VKF-Richtlinie 22-15 «Blitzschutzsysteme» Mengenschwellen für Batteriespeicher (Heimspeicher, PV-Speicher, Lithium-Ionen-Akkus)?
+
+**Kurz für den Bauherrn:** Nein. Die VKF-Richtlinie 22-15de wurde im Volltext gezielt nach
+«Batterie», «Speicher», «Lithium» und «Akku» durchsucht (8 Seiten, Primärdokument) — **kein
+einziger Treffer**. Auch die beiden kantonalen Vollzugsdokumente, die dieselbe Richtlinie
+operationalisieren (GVZ-Weisung 20.06, 20 Seiten; GVB-Merkblatt Ausgabe 09/2024, 6 Seiten),
+enthalten keine Batteriespeicher-Bestimmung; der einzige «Speicher»-Treffer im GVB-Merkblatt
+betrifft «Gasspeicher» im Kontext von Biogas-Fermentern, nicht elektrische Batterien.
+
+**Fachlich:** Richtlinie 22-15 regelt ausschliesslich, WELCHE Gebäude/Nutzungen grundsätzlich
+blitzschutzpflichtig sind (Tabelle im Anhang zu Ziffer 2, siehe
+`[[vkf-richtlinie-22-15-blitzschutzsysteme]]`) — Spitäler/Pflegeheime ab 20 hilfsbedürftigen
+Personen, Betriebe mit lebenserhaltenden technischen Anlagen, Hochhäuser, Versammlungsstätten
+usw. Batteriespeicher als eigene Anlagenart kommen darin nicht vor. Einzige indirekte Berührung:
+Kriterium i) der Tabelle («Betriebe mit lebenserhaltenden technischen Anlagen») verlangt ein
+allgemeines Überspannungsschutzkonzept für die gesamte Elektroanlage eines Spitals/Pflegeheims,
+worunter im Einzelfall auch ein Batteriespeicher fallen könnte — das ist aber keine spezifische
+Mengenschwelle. Damit ist nach zwei unabhängigen Prüfläufen (Run 93: Richtlinie «Gefährliche
+Stoffe» widerlegt; Run 94: Richtlinie «Blitzschutzsysteme» geprüft, ebenfalls ohne Treffer)
+**keine** der beiden naheliegenden VKF-Richtlinien die Fundstelle für Batteriespeicher-
+Mengenschwellen. Die zutreffende Quelle wäre ein eigenständiges VKF-Brandschutzinformationsblatt
+zu Lithium-Ionen-Batteriespeichern — dessen Existenz und Fundstelle bleiben offen.
+→ `[[vkf-richtlinie-22-15-blitzschutzsysteme]]`, `[[vkf-richtlinie-gefaehrliche-stoffe]]`,
+`[[batteriespeicher-heimspeicher-pv-ch]]`.
+Datenstand 2026-07-25 (Run 94). Status **established** (Negativbefund; alle drei einschlägigen
+Blitzschutz-Dokumente — VKF-Primärquelle + zwei kantonale Vollzugsdokumente — vollständig per
+curl+pdftotext durchsucht, keines enthält eine Batteriespeicher-Bestimmung).
