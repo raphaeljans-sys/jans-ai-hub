@@ -25,8 +25,78 @@ ausgereizt wird. Diese Zielsetzung ist ab 14.07.2026 12:53 aufgehoben (siehe Ban
 Neueste Eintraege zuoberst.
 
 Legende: P1 = Blocker/groesster Hebel, P2 = starker Hebel, P3 = Feinschliff.
-Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beobachten (aktuell) ·
-[VOLL] Fenster ausgereizt (historisch) · [FREI] Kapazitaet offen (historisch) · [LOGIN] headless-Login-Block.
+Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt (Ziel im VOLLGAS-Regime) ·
+[LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
+
+---
+
+## 2026-07-25 13:12 — [FREI] Vollgas-Neustart war halb wirkungslos: Runner fuhr mit dem Drossel-Filter, MBP jetzt von 2 auf 8 echte Loops
+
+**Fensterzustand:** FREI. Login-Probe mit der Runner-Anmeldung (`~/.jans-dispatch.env`,
+`CLAUDE_CODE_OAUTH_TOKEN`) antwortet «OK» — kein Usage-/Rate-Limit, kein Login-Block, kein
+Mail-Anlass. Nebenbefund: dieselbe Probe OHNE diese Env scheitert mit «OAuth session expired and
+could not be refreshed» — die blanke Shell-Anmeldung ist abgelaufen. Fuer Runner und Dispatch
+irrelevant (beide laden die Env), aber jeder `claude -p`-Aufruf aus einer nackten Shell/Cron ohne
+diese Env wuerde derzeit scheitern.
+
+**Hauptbefund (P1, behoben):** Die Reaktivierung um 12:45 hat die Runner gestartet, aber sie liefen
+mit dem **Filter aus der Drossel-Zeit**. Der Prozess war um 12:45:28 gestartet, das korrigierte
+Script wurde erst um 12:48:27 geschrieben — der laufende Prozess hatte die alte `EXCLUDE_RE` bereits
+im Speicher. Folge auf dem MacBook Pro: statt 10 nur 4 Loops, und von diesen 4 waren **drei
+erledigte Einmal-Tasks**, die als Blindgaenger im Kreis liefen. Effektiv liefen also 1 bis 2 echte
+Lern-Loops statt 8 — genau das Gegenteil der Anweisung. Nach sauberem Neustart (PID 17097, 13:10):
+**8 Loops** (baurecht-buch, immobewertung, normen-training-nacht, spec, twin-fidelity, twin-mail,
+wettbewerbs-dna, wettbewerbs-layer). Der Mac Mini hat sich um 13:07 selbst korrigiert (3 auf 4
+Loops, `normen-training-mini` war ebenfalls vom alten Filter geschluckt) — dort war kein Eingriff
+noetig.
+
+**Selbst ausgefuehrt:**
+- MacBook-Runner sauber neu gestartet, neue Zyklus-Liste im Log verifiziert (8 statt 4).
+- Drei erledigte Einmal-Tasks auf `enabled: false` gesetzt (reversibel, der Runner ueberspringt sie),
+  jeweils mit Begruendung im Kopf der SKILL.md: `syn02-spec-anstoss` (am 20.07. erledigt, feuerte am
+  25.07. zweimal als dokumentiertes No-op und empfahl selbst die Entfernung), `wettbewerbs-layer-
+  nachbrenner` (Ziel am 13.07. erreicht, meldete selbst «keine Aenderung vorgenommen» und empfahl
+  die Deaktivierung) und `wettbewerbs-dna-reaktivierung`.
+- **`wettbewerbs-dna-reaktivierung` war der gefaehrlichste Fund:** ein Einmal-Task aus dem
+  Drossel-Regime, der bei jedem Feuern das Gegenteil der heutigen Anweisung getan haette — Schritt 3
+  setzt `wettbewerbs-dna-training` ausdruecklich auf den gedrosselten Nachttakt («NICHT auf VOLLGAS
+  zurueckstellen»), Schritt 5 schreibt den «Schoner-Modus» fest, Schritt 6 verbietet den Start des
+  Endlos-Runners. Er lief um 12:49 und um 13:08 erneut im Zyklus und wurde beim Neustart abgebrochen.
+  Der Lauf von 12:49 hatte die Beschreibung von `wettbewerbs-dna-training` immerhin korrekt auf
+  VOLLGAS (2x taeglich 02:20/14:20) gehoben — der **Prompt-Text** blieb aber auf dem Drossel-Stand
+  («1x taeglich, EIN Baustein, nicht auf Durchsatz optimieren»). Dieser Widerspruch ist bereinigt:
+  der Takt-Absatz steht jetzt auf VOLLGAS, Qualitaetsleitplanken unveraendert.
+- **Leerlauf-Guard in `scripts/vollgas-runner.sh` eingebaut:** Wiederholt endeten Laeufe nach 6 bis
+  13 Sekunden mit rc=0 und einer Antwort sinngemaess «es ist nur der System-Kontext angekommen, was
+  moechtest Du?» — der Prompt kam also leer beim Modell an, der Slot war verbrannt, und im Log sah
+  es wie ein erfolgreicher Lauf aus (belegt am 14.07. und 25.07. auf beiden Stationen, u.a.
+  `normen-training-mini` 6s, `wettbewerbs-dna-training` 10s, `spec-training` 7s). Vermutete Ursache:
+  die SKILL.md wird waehrend des `cat` gerade neu geschrieben. Der Guard ueberspringt einen Lauf,
+  wenn die SKILL.md unter 200 Zeichen liefert, und macht das als `SKIP … Leerlauf vermieden` sichtbar.
+  Syntax geprueft (`bash -n`); greift ab dem naechsten Runner-Neustart.
+
+**Durchsatz:** Im NAS-Repo in den letzten 90 Minuten nur die 15-Minuten-Commits des nativen
+`nas-selfcommit` (5 Stueck) — erwartbar, weil der Vollgas-Betrieb erst um 12:45 wieder anlief und die
+ersten Zyklen fast ausschliesslich Blindgaenger waren. CHANGELOGs der aktiven KBs sind aktuell:
+normen 25.07. 01:34, twin 25.07. 06:04, planungsgrundlagen 25.07. 05:35, energie 25.07. 00:37,
+wettbewerbs-dna 25.07. 09:17, spec 25.07. 12:47, baurecht 24.07. 23:24, immobilienbewertung 24.07.
+02:55. Kein KB abgehaengt. Der ehrliche Durchsatzwert dieses Fensters ist erst im naechsten Lauf
+messbar, weil die echten Loops erst seit 13:10 zykeln.
+
+**Vorschlaege:**
+- P1: keiner offen — Runner laufen auf beiden Stationen mit korrekter Liste (MBP 8, Mini 4).
+- P2 (Entscheid Raphael): **Das Selbst-Ende des Runners wurde bei der Reaktivierung von 11.08.2026
+  auf 31.12.2099 angehoben** — in Runner UND Supervisor. Vollgas laeuft damit unbefristet. Das
+  kollidiert mit der weiterhin stehenden One-Time-Task `token-drosselung-100810` (10.08.2026), die
+  die Lern-Loops auf Sparbetrieb zuruecktakten wuerde. Beide Vorgaben widersprechen sich; eines von
+  beidem muss aufgehoben werden. In Rule 260725 ist die Verlaengerung ueber den 11.08. hinaus als
+  OFFENE Frage an Dich vermerkt — faktisch ist sie im Code aber schon gesetzt. Der Radar hat das
+  dokumentiert, aber NICHT eigenmaechtig zurueckgedreht.
+- P2: Der zweite Teil derselben offenen Frage — ob das 5x-Abo-Downgrade am 10.08. bestehen bleibt —
+  ist mit unbefristetem Vollgas ebenfalls unvereinbar.
+- P3: Die blanke Shell-OAuth-Anmeldung ist abgelaufen. Kein Blocker (Runner und Dispatch laden die
+  Env), aber bei Gelegenheit per `claude setup-token` auffrischen, damit Ad-hoc-`claude -p`-Aufrufe
+  aus einer nackten Shell wieder funktionieren.
 
 ---
 

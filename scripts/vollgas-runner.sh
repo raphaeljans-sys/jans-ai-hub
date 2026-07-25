@@ -12,8 +12,13 @@
 #   Stopp (sofort):   touch /Volumes/daten/jans-ai-hub/logbuch/vollgas/STOP
 #   Stopp (Station):  touch /Volumes/daten/jans-ai-hub/logbuch/vollgas/STOP-$(hostname -s)
 #
-# Selbst-Ende: ab 11.08.2026 beendet sich der Runner (Drosselung auf 5x-Abo,
-# Rule 260712b / One-Time-Task token-drosselung-100810).
+# Selbst-Ende: mit der VOLLGAS-Reaktivierung vom 25.07.2026 wurde END_DATE von
+# 20260811 auf 20991231 angehoben (Runner UND Supervisor) — der Runner beendet sich
+# also faktisch nicht mehr von selbst. ACHTUNG, offener Entscheid Raphaels: die
+# One-Time-Task `token-drosselung-100810` steht weiterhin auf dem 10.08.2026 und
+# wuerde die Lern-Loops dann auf Sparbetrieb zuruecktakten — die beiden Vorgaben
+# widersprechen sich, solange Raphael nicht eines von beidem aufhebt.
+# (Rule 260712b / 260725; vom VOLLGAS-Chef-Radar am 25.07.2026 dokumentiert.)
 #
 # Arbeitsteilung (Rule 260712): MacBook Pro = baurecht/twin/immobewertung/
 # spec/wettbewerb + Normen SIA+VKF; Mac Mini = energie/planungsgrundlagen/
@@ -138,7 +143,23 @@ while :; do
             sleep "$PAUSE_BETWEEN"
             continue
         fi
-        PROMPT="$(cat "$TASKS_DIR/$name/SKILL.md")
+        # Leerlauf-Guard (25.07.2026, VOLLGAS-Chef-Radar): Gelegentlich kam der
+        # Prompt LEER beim Modell an — die Antwort lautete dann sinngemaess «es ist
+        # nur der System-Kontext angekommen, was moechtest Du?» und der Lauf endete
+        # nach 6-13s mit rc=0, also als stiller Blindgaenger, der einen vollen Slot
+        # verbrannte (belegt 14.07. und 25.07. in beiden Stations-Logs, u.a.
+        # normen-training-mini 6s, wettbewerbs-dna-training 10s, spec-training 7s).
+        # Vermutete Ursache: die SKILL.md wird waehrend des `cat` gerade neu
+        # geschrieben (Scheduled-Task-Update truncatet die Datei), sodass `cat` nichts
+        # bzw. nur Bruchstuecke liefert. Statt einen leeren Auftrag abzufeuern, wird
+        # der Lauf uebersprungen und im Log als LEER-SKIP sichtbar gemacht.
+        SKILL_TXT="$(cat "$TASKS_DIR/$name/SKILL.md" 2>/dev/null)"
+        if [ "${#SKILL_TXT}" -lt 200 ]; then
+            log "SKIP  $name (SKILL.md leer/zu kurz: ${#SKILL_TXT} Zeichen — Leerlauf vermieden)"
+            sleep "$PAUSE_BETWEEN"
+            continue
+        fi
+        PROMPT="$SKILL_TXT
 Hinweis: Dieser Lauf ist Teil des VOLLGAS-Endlos-Runners (Auftrag Raphael 12.07.2026).
 Fahre den naechsten Batch gemaess dem jeweiligen training/PROGRAMM.md bzw. Lauf-Zustand.
 Sende KEINE Mails ausser der Prompt verlangt es ausdruecklich. Git-Disziplin (VOLLGAS):
