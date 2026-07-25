@@ -1482,3 +1482,23 @@ Daraus belegt beantwortet:
   Koordination). Stützt die Hypothese aus Batch 60 weiter (registerübergreifender Default bei
   kurzen operativen Bitten/Auskünften). Weiterhin auf twin-chef-Entscheid wartend, ob die
   Sub-Du-Einschränkung in der DNA (`rules/jans-dna.md`) fällt. → [[stimme]]
+- **Zahl-Notation registerabhängig: «CHF 40K» gegen den Tausender-Apostroph (Batch 64,
+  2026-07-25):** In der Preis-Rüge an einen Du-Unternehmer schreibt Raphael «CHF 40K mehr (von
+  120 auf 160)» — ohne Tausender-Apostroph, ohne Einheit bei den Vergleichszahlen. Der etablierte
+  DNA-Marker verlangt den Apostroph (1'824). Hypothese: der Apostroph gilt für Dokumente,
+  Offerten und dokumentierende Mails, im schnellen operativen Du wird mündlich in Kurz-/Kilo-Form
+  gerechnet. Zwei Datenpunkte fehlen noch (bisher dieser Fall). Frage an Raphael: soll der
+  Zwilling im operativen Du-Reply «40K»/«120» schreiben dürfen, oder ist das ein Flüchtigkeits-
+  artefakt, das er in einer sorgfältigeren Fassung selbst korrigieren würde? → [[stimme]]
+- **Lange baurechtliche Beratungsmail an den Du-Bauherrn: eigener Text oder assistiert?
+  (Batch 64, 2026-07-25):** Die Projektänderungs-Mail Thalwil Bohlweg 3 vom 16.07.2026 trägt
+  aussen unverkennbar authentische Slips («Gib mir bescheid» klein, «würde ich dann der
+  Umgebungsplan», die Signaturphrase «Ich erlaube mir, das Schreiben der Gemeinde einzuordnen»),
+  der argumentierende Mittelteil ist aber durchgehend mit Zwischentiteln und «_ »-Listen
+  strukturiert und juristisch glatt (Art. 50/31 revBZO, § 238/273 PBG, Flächenbilanzen). Beide
+  Lesarten sind möglich: (a) Claude-Entwurf, von Raphael überarbeitet — dann wäre die Mail ein
+  wertvolles **korrektur-delta**, das aber ohne den Original-Entwurf nicht extrahierbar ist;
+  (b) Eigentext, der nur ungewohnt sorgfältig ist. Vorsichtshalber wurde nur der handgetippte
+  Rahmen als Stilquelle verwendet (Echo-Schutz). Frage an Raphael: hast Du diese Mail selbst
+  formuliert oder auf einem Claude-Entwurf aufgebaut? Falls letzteres: liegt der Entwurf noch
+  vor (dann Delta-Auswertung möglich)? → [[denken]], [[fachsignatur]]

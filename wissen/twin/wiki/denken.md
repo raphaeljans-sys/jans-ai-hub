@@ -1,9 +1,9 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-07-23
+last_updated: 2026-07-25
 gewichtung: authentisch
-sources: [260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
+sources: [260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -457,3 +457,22 @@ Aufwand koppeln» und den Root-Cause-Reframing-Marker (Batch 32).
   Advisory-Prosa in dieser Quelle ist KI-assistiert formuliert, gewertet wird hier nur die
   Denkbewegung (Risiko isolieren → risikoärmsten Weg ableiten), nicht der Wortlaut. Quelle:
   260723-nachtrag-batch50 (KI-formuliert, Denkmuster gewertet).
+
+## Batch 64 (2026-07-16) — Entscheid zurückgeben MIT vorgezeichnetem Default-Pfad
+
+Gewichtung: authentisch für den handgetippten Rahmen (Slips «würde ich dann der Umgebungsplan», «Gib mir
+bescheid» klein); der argumentierende Mittelteil derselben Mail ist möglicherweise assistiert und wurde
+NICHT als Stilquelle verwendet (Echo-Schutz, siehe [[QUESTIONS]] 260725c). Quelle: Thalwil 2414 Bohlweg 3,
+Projektänderung an Bauherr-Partner (Du), 16.07.2026.
+
+- **Der Entscheid geht zurück an den Bauherrn, aber nie als offene Frage — immer mit dem Default, der ohne
+  Antwort gilt:** «**Nenne mir Deine Gedanken** zu meinem oben genannten Massnahmenpaket und in welche Richtung
+  Du es gerne hättest; **ansonsten würde ich dann** den Umgebungsplan entsprechend überarbeiten, erstelle die drei
+  Nachweise (Vorgarten 50 %, Grünflächenziffer 40 %, besondere Gebäude), stelle die Projektänderung
+  gelb/rot/schwarz zum letztbewilligten Stand dar und reiche das Paket mit Begleitschreiben über die E-Plattform
+  ein.» Struktur: Einladung zur Richtungsangabe + vollständig ausformulierter Fortsetzungspfad, den Raphael ohne
+  Gegenmeldung selbst geht. Der Bauherr kann also entscheiden, muss aber nicht — Stillstand ist ausgeschlossen.
+  Danach die Freigabe-Bitte und das Gesprächsangebot getrennt: «Gib mir bescheid, ob Ihr mit dieser Stossrichtung
+  einverstanden seid, dann gleise ich die Überarbeitung auf. Wenn Du magst, besprechen wir die Punkte vorab kurz
+  telefonisch.» (Du-Singular für den Ansprechpartner, «Ihr/Euch» für die Bauherrschaft als Paar — konsistent mit
+  dem Kollektiv-Marker aus Fidelity 260725b.)

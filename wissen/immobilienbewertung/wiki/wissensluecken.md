@@ -41,6 +41,14 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 ## Erledigt
 
+- ✓ 2026-07-25 **Delta-Null-Bestaetigungslauf (Run 46)** — vierzehnter in Folge, vierter
+  Trigger am selben Tag. Kein neuer Ingest, keine Artikelaenderung. Bewertungsordner
+  unveraendert (juengster Fall Wangen 8855), Marktpuls bewusst nicht geprueft (Drossel-Rule
+  260714), kein Verifier-Lauf, Kollisionsschutz (Rule 260724) geprueft (keine Zweitinstanz).
+  Alle vier offenen Pendenzen (Loop-Ruecktaktung, Oberrieden-Hoehenkorrektur, T-Regelgeschoss,
+  T-Umlaut) unveraendert und bereits eskaliert — nicht erneut gemeldet. Details:
+  `outputs/2026-07-25_training-run46.md`.
+
 - ✓ 2026-07-25 **Delta-Null-Bestaetigungslauf (Run 44)** — zwoelfter in Folge. Kein neuer
   Ingest, keine Artikelaenderung. Bewertungsordner unveraendert (juengster Fall Wangen 8855),
   Marktpuls bewusst nicht geprueft (Drossel-Rule 260714), kein Verifier-Lauf, Kollisionsschutz

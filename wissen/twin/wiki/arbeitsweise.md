@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-07-25b
+last_updated: 2026-07-25
 gewichtung: authentisch
-sources: [260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -1487,3 +1487,38 @@ Gewichtung: authentisch. Quelle: Albertstrasse 7 Nova (Elektro/Küche/Waschküch
 - **@Name-Delegation innerhalb einer Gruppen-Statusmail bestätigt:** «@Jens Ziegel: Darf ich Dich bitten …» — die konkrete Einzelaufgabe wird im Fliesstext einer mehrköpfigen Mail namentlich adressiert, während die übrige Mail an die ganze Gruppe geht.
 - **Abnahme-/Freigabe-Vorbehalt bei unvollständiger Informationslage:** «Ich kann die Korrektheit nur bestätigen, wenn ich umfassend im Bild bin.» — er verweigert explizit eine Kontroll-Bestätigung, solange Unterlagen fehlen, statt eine Freigabe unter Vorbehalt zu geben. Konkrete Ausprägung von «ehrlich vor Auftrag».
 - **Unsicher/nicht generalisierbar (ein Datenpunkt):** eine dringliche Fachplaner-Nachfrage («Können Sie mir bitte dringend die aktuellen Planunterlagen zusenden?») wurde ohne jeden eigenen Fliesstext beantwortet (nur Weiterleitung/Anhang, kein sichtbarer Kommentar im Mailkörper). Könnte ein «stiller Anhang-Reply bei selbsterklärender Bitte»-Muster sein, könnte aber auch ein Extraktionsartefakt der Mailbox-API sein → nicht als Marker übernommen, siehe [[QUESTIONS]].
+
+## Batch 64 (2026-07-14…07-17) — «Grundsätzliche Stellungnahme Architekt:» als gelabelter A–E-Antwortblock, Ferienvertretung als Koordinationsschritt, strittige Posten «Optional» aus dem Total nehmen
+
+Gewichtung: authentisch (handgetippte Rahmen). Quelle: KISPI-PPTS Lenggstrasse 30 (Innere Verglasung, ST1/ST2,
+private Kontrolle Lüftung), Albertstrasse 7 Nova (Sanitär-Offerte), 15.–17.07.2026.
+
+- **Die Antwort auf eine Fachplaner-Planlieferung wird zu EINEM gelabelten Stellungnahme-Block gebündelt.**
+  Label «**Grundsätzliche Stellungnahme Architekt:**», darunter «_ A Designtyp Brüstung», «_ B Unterkonstruktion»,
+  «_C Elektrifizierung Elemente», «_ D Termin Massaufnahme», «_ E Plangrundlagen». Jeder Punkt trägt **eine** von
+  drei Sorten Inhalt: eine eigene Zusage («Ich werde Ihren Vorschlag … in die Ausführungspläne übernehmen und mit
+  Herr Stadelmann … absprechen ob dies so auf der Baustelle baubar ist»), eine Delegation mit Adressat
+  («@ Bauleitung Albin Spahic & Estermann LBW …») oder eine terminierte Frage («Werden die LBW/UK's/Stürze bis
+  **KW33** fertig gestellt sein? Bitte um Bestätigung.»). Der Architekt antwortet also nicht punktweise verstreut,
+  sondern signiert seine Position als Ganzes und macht je Punkt sichtbar, wer als nächstes handelt.
+- **Ferien-/Abwesenheitsvorsorge ist ein eigener Koordinationsschritt, nicht Höflichkeit:** «Rufen Sie mich doch
+  noch kurz bevor Sie in die Ferien gehen, bez. Ferienvertretung.» — vor der Abwesenheit einer Schlüsselperson wird
+  aktiv ein Übergabegespräch und die Benennung der Vertretung verlangt. Gleiche Woche, anderes Register: «Ich
+  wünsche Dir erholsame Ferien.» an den Du-Fachplaner, nachdem seine Kontrollpunkte weitergeleitet sind — die
+  Ferienzusage wird erst ausgesprochen, wenn der Übergang gesichert ist.
+- **Strittige Offert-Posten «Optional setzen, nicht im Total verrechnen» statt streichen.** Bei der
+  Kosten-Konsistenz-Prüfung (Schärfung Batch 61) benennt Raphael den mutmasslichen Kalkulationsfehler konkret
+  («Du hast den Totalpreis von REAP von 4Stk bei Dir als Einheitspreis ohne Rabatt eingesetzt»), verlangt die
+  Umrechnung auf Stückpreise mit Prozenten und schiebt den Posten in eine **Optional-Position ausserhalb des
+  Totals**. Instrument: strittige oder mehrfach gerechnete Leistungen bleiben sichtbar und vergleichbar, belasten
+  aber die Vergabesumme nicht — und der Verdacht wird beziffert statt behauptet («es scheint das jetzt zweifach bis
+  dreifach gerechnet wurde»).
+- **Delegation mit offenem Rückkanal:** «Darf ich Dich Bitten die offenen Fragen … z.H. Herr Bajrami … zu klären.
+  Meine Einschätzung findest du jeweils in der Subkapitell in der Aktennotiz. **Wenn ich von meiner Seite
+  diesbezüglich Angaben machen soll / Pläne erstellen las es mich wissen.**» Der Auftrag geht raus, die eigene
+  Vorleistung (Einschätzung je Unterkapitel der Aktennotiz) liegt bei, und die eigene Nachleistung wird proaktiv
+  angeboten — Delegation ohne Abschieben.
+- **Fehlerhafte Weiterleitung im Team wird sofort und knapp korrigiert** («Du hast die falsche Mail
+  weitergeleitet.»), danach leitet Raphael die richtige Mail selbst weiter und übergibt die Projektkoordination
+  ausdrücklich («Ich habe Ihnen die Projektkoordination für das Projekt sowie für die beiden Formulare übergeben»).
+  Muster: Koordinationsfehler nicht ausdiskutieren, sondern selbst richtigstellen und die Übergabe schriftlich fixieren.

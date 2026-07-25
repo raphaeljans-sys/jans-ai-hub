@@ -5,6 +5,42 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-25e — twin-mail-training Batch 64 (Sent Items rj@ 2026-07-14 15:16 → 2026-07-17 10:18).**
+  Sequentieller Mail-Sweep fortgesetzt: 25 Mails gesichtet [Index 0 als Batch-63-Duplikat
+  uebersprungen], 8 Volltexte gelesen; der MCP-Tool-Pfad `outlook_email_search` war diesmal
+  wieder verfuegbar, der m365-CLI-Fallback aus Batch 61-63 nicht noetig. Mechanische
+  Volltext-Extraktion an einen Sonnet-Subagenten delegiert (Modell-Politik MVM), Urteil/
+  Echo-Pruefung im Hauptmodell. 7 der 8 Volltexte klar handgetippt (Slips «Subkapitell»,
+  «las es mich wissen», «folgen Plandokumeten», «Vergalsung», «Desingtyp», «vertausch»,
+  «Darf ich Dich Bitten» Cap-Slip 4. Beleg); die lange baurechtliche Beratungsmail Thalwil
+  Bohlweg 3 (16.07.) hat authentische Slips im Rahmen, aber moeglicherweise assistierten
+  Mittelteil → nur der Rahmen als Stilquelle (Echo-Schutz), Herkunftsfrage in [[QUESTIONS]]
+  gestellt (falls Claude-Entwurf zugrunde liegt, waere die Mail ein korrektur-delta).
+  Neue belegte Marker in allen sechs Facetten: [[stimme]] (Verstaerker-Triplett «sehr sehr
+  sehr» als Preisruege, Kurz-Notation «CHF 40K» im operativen Du im Widerspruch zum
+  Apostroph-Marker, «lgr» ganz klein als 3. Schreibvariante, anredeloser/gruss-loser
+  Ein-Satz bei einem Fehler des Gegenuebers, Binnen-Gross bei Anweisungs-Fachbegriff
+  «Optional», Du-Gross inkonsistent innerhalb derselben Mail), [[beziehungsregister]]
+  (Sie-Person im Fliesstext namentlich adressieren bei gestapelter Du/Sie-Anrede,
+  «werter <Nachname>» ohne «Herr» als Mittelstufe, Behoerden-Register KUEHLT bei der
+  Eskalation auf «Sehr geehrter», Kollektiv-Zweitzeile benennt die Organisationseinheit),
+  [[fachsignatur]] (Planaenderung = Plannummer + Klasse + Ein-Wort-Begruendung «ist
+  Brandschutzrelevant», gebautes Referenzelement als verbindliche Spezifikation,
+  Verfahrensfrist-Eskalation dritte Stufe macht die Amtsorganisation zum Gegenstand),
+  [[arbeitsweise]] («Grundsaetzliche Stellungnahme Architekt:» als gelabelter A-E-Block mit
+  Zusage/@-Delegation/terminierter Frage je Punkt, Ferienvertretung als eigener
+  Koordinationsschritt, strittige Offert-Posten «Optional setzen, nicht im Total verrechnen»),
+  [[haltung]] (Preisruege direkt im Dank-Rahmen, Verdacht in Klammern statt Vorwurf,
+  Verfahrensrechte durchsetzen ohne Tonhebung), [[denken]] (Entscheid zurueckgeben MIT
+  vorgezeichnetem Default-Pfad, Stillstand ausgeschlossen).
+  Identifikator-Korrektur: Batch-63-Mapping «Vanvelten/Mans» → richtig Stefan Vanvelsen /
+  Kevin Manz, Firma 3-plan AG (EVEN ist die Plattform, nicht die Firma).
+  Mikro-Metrik 736 W (nur eigener Fliesstext): Du-Gross-Quote 0.923 (erstmals unter 1.0,
+  Slip innerhalb derselben Mail), Satzlaenge ø 15.7 W, Apostroph 0, «%» mit Leerschlag 1.0,
+  Ellipsen 0, Gruesse FG 3x/Lieber Gruss 1x/Danke und Gruss 1x/«lgr» 1x.
+- Frontmatter: `260725-mailbatch-64.md` in sources aller sechs Artikel eingefuegt, `last_updated` 2026-07-25.
+- Register `raw/_INGESTED.md`: Batch-64-Zeile + Sweep-Footer auf 2026-07-17 10:18:21 nachgefuehrt.
+- Zwei neue offene Fragen in [[QUESTIONS]] (Zahl-Notation registerabhaengig; Herkunft der Bohlweg-3-Mail).
 - **2026-07-25d — twin-mail-training Batch 63 (Sent Items rj@ 2026-07-13 12:31 → 2026-07-14 15:16).**
   Sequentieller Mail-Sweep fortgesetzt: 23 Mails gesichtet [Index 1-23, Index 0 als Batch-62-Duplikat
   uebersprungen], 7 Volltexte via M365-CLI (`node_modules/.bin/m365`, Certificate-Auth; MCP-Tool-Pfad
@@ -290,52 +326,3 @@ Fidelity-Reports unter `outputs/`.
   Leerschlag (3. Datenpunkt). QUESTIONS: 260715 #1 als beantwortet/widerlegt geschlossen, Runde 260717
   #1–#5 angehaengt. Gehirn `rules/jans-dna.md` neu kompiliert (6 Facetten). Report:
   `outputs/2026-07-17_fidelity.md`.
-
-## 2026-07-25 — twin-mail-training Batch 60 (Sent Items rj@, 2026-07-02…07-07)
-
-Batch 60 destilliert (25 Mails gesichtet, 6 Volltexte + Previews, Logbuch-/Hub-Chef-Selbstmails + Unsubscribe als Rauschen gestreift). Facetten geschärft: [[beziehungsregister]] (register-gespaltene Offert-Eingangs-Quittung Du↔Sie nach Kontakt + «Geschätzter Gerry» Du-Fachplaner + «Geschätzter Herr Sörensen» warm-Behörden-Sie + Mappings Sörensen/Hiltmann/Manzoni/Scherbl/Duran/Kübler/Stählin/Rufer/Spörri), [[stimme]] («Danke und Gruss» breiter als Sub-Du — auch Behörden-Sie + operativ-Du; «Ziel:»-Opener; Versal-Slip-Bestätigung; Metrik 361 W / Du-Gross 1.0 / ø 13.9 W), [[arbeitsweise]] (Offert-Eingang an Bauherrschaft durchstellen «in Einpflege des KV's / melden uns nach Entscheid» + Sitzung-mit-Ziel delegieren + «Nach Rücksprache»-Kopplung), [[fachsignatur]] (Leistungspflicht-Nachforderung gegen Fachplaner über SIA-Phasen-Abgrenzung der Honorarofferte, Bauprojekt 32+33 vs Ausführung 41-53). Widerspruch «Danke und Gruss»-Reichweite in [[QUESTIONS]] vermerkt. Echo-Schutz: eine glatte «Ich erlaube mir …»-Festhalte-Mail (Fliesstext möglicherweise assistiert) nur über Signaturphrase + Argument-Typ genutzt, handgetippte «Frage:»-Quelle bevorzugt. Abgedeckter Bereich bis 2026-07-07 07:23 (_INGESTED-Zeile Batch 60).
-
-## 2026-07-17 — twin-mail-training Batch 55 (Sent Items rj@, 2026-06-17 13:10 – 2026-06-19 13:58)
-
-Sequentieller Sweep lückenlos fortgesetzt (erster Treffer = Batch-54-Endpunkt, gegengeprüft);
-25 Mails gesichtet, 6 Volltexte gelesen, Zugriff via M365-Connector `outlook_email_search`.
-Metrik (857 W, 11 Kernpassagen): Du-Gross 1.0, Satzlänge ø 14.0 W, Apostroph 0, Ellipsen 1.17/1000 W,
-Grüsse FG 5×/Beste Grüsse 1×/Lgr 2×. Neue Marker in fünf Facetten: [[stimme]] (Sperrsatz «z w e i»,
-Kosename «Hoi Marca», ASCII-Smiley im operativen Projekt-Du → präzisiert das Emoji-Don't,
-Binnen-Gross «Danke viel Mals»), [[beziehungsregister]] («Hoi <Vorname> <Nachname>» als
-Anrede-Zwischenstufe beim Erwärmen inkl. Register-Kollision Du/Sie in derselben Mail; Mappings
-Ramminger/Lanz+Brechbühl/Prencipe/Zürcher/Harder), [[arbeitsweise]] (Vergabemail-Vollform mit
-Rollen-Wegweiser; Grundstruktur freigeben lassen vor Fachplaner-Fan-out; Plattform-Blockade
-zweigleisig beim Amt), [[denken]] (Wertfrage am entscheidenden Lagemerkmal aufhängen, Urteil als
-Schätzung markieren), [[fachsignatur]] (Private Kontrolle Energie ZH / EVEN-Rollenmodell;
-Entfluchtung «Raum über Raum über Raum»; FM/RNR/RKO-Raumsystematik). **Echo-Falle, 17. Beleg:**
-Mail vom 19.06. 13:56 = Claude-Grundtext (Em-dash 3×, saubere Guillemets, null Typos,
-`Apple-Mail-URLShareWrapperClass`) → als Stilquelle ausgeschlossen; da zur exakt gleichen Sache
-Raphaels handgetippte Fassung 24 h früher vorliegt, als **Kontrastpaar** in [[stimme]] dokumentiert
-(schärfster Fingerabdruck-Beleg bisher: Raphael fragt und drängt, Claude erklärt und glättet).
-Register `raw/_INGESTED.md` auf 2026-06-19 13:58 nachgeführt.
-
-## 2026-07-15 — twin-fidelity-review (Selbsttest, Gesamt-Fidelity 87)
-- Zwei frische authentische Goldproben via M365 «Sent Items» (Bopp-Faden 24.10.2025 operative
-  Du-Koordination; Wartstrasse-8-Statusmail 01.12.2025 Sie-Mittellage). Drossel-konform (Rule
-  260714): EIN gezielter Pull statt Sequential-Sweep. Report `outputs/2026-07-15_fidelity.md`.
-- Score je Facette: Stimme 88 · Denken 90 · Haltung 90 · Beziehung 80 · Fachsignatur 85 · Arbeitsweise 90.
-- Neue/geschärfte Marker: [[beziehungsregister]] («Hallo <Vorname>» ist der gespiegelte Opener des
-  letzten Eingangs, auch beim Geschäfts-Du-Stammpartner — nicht nur Freelancer-Register; Do-Block +
-  Source ergänzt), [[stimme]] (Abkürzungs-Variante «vtl.» neben «vll.»; Source ergänzt).
-- 4 neue Selbstfragen an [[QUESTIONS]] Runde 260715 (Opener-Mirroring-Reichweite, «vtl.»/«vll.»,
-  gruppierte «_ »-Blöcke, Spiegel- vs. Tonlage-Trigger für «Hallo»). Gehirn `rules/jans-dna.md` neu
-  kompiliert (build_dna.py). Keine Facetten-Widersprüche.
-
-## 2026-07-15 — twin-mail-training Batch 54 (Sent Items rj@ 2026-06-15 → 2026-06-17)
-- Sequentieller Mail-Sweep fortgesetzt: Fenster 2026-06-15 11:18 bis 2026-06-17 12:33
-  (25 Mails gesichtet via M365-Connector `outlook_email_search`, 5 Volltexte destilliert,
-  keine Echo-Falle; alle Rahmen klar handgetippt/authentisch).
-- Neue belegte Marker: [[beziehungsregister]] (vierfach gestapelte Anrede mit drei
-  Formalitätsstufen = Register folgt Person; Sie→Du-Kippe Jorge Gomes/Vision;
-  Bopp «Beste Grüsse»-Mittelstufe), [[denken]] (Worst-Case-Variante als Verhandlungsanker
-  beim Bauamt), [[stimme]] («A)/B)»-Buchstabenliste-Typografie + Komma-inline-Signoff
-  + Metrik 590 W/Du-Gross 1.0/ø 21.9 W), [[fachsignatur]] (Baulinien-/Strassenausbau-
-  Argumentation mit Kataster-Mangel-Nachweis + Verantwortungs-Klärung Nachweis-Unterzeichnung).
-- Frontmatter: `260715-mailbatch-54.md` in sources der vier Artikel eingefügt.
-- Register `raw/_INGESTED.md`: Batch-54-Zeile + Sweep-Footer auf 2026-06-17 12:33 nachgeführt.

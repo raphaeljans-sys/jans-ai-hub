@@ -149,25 +149,26 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   sowie die **Fassungs-Deltas 2017** in `vkf-brl-13-15-baustoffe-bauteile.md` und
   `vkf-brl-verwendung-baustoffe.md`, und `wiki/vkf-beherbergungskategorien.md` (nach Korrektur).
   Das ist der nächste Lauf: Retro-Verifikation dieser fünf, bevor irgendeine neue Quelle angefasst wird.
-- [ ] **P1-FOLGEARBEIT — VKF-BRL 16-15 Ziff. 3.5.2 Personenbelegung ist eine MATERIELLE
-  Kennwert-Änderung und im Destillat nur teilweise nachgeführt.** Anders als bei Ziff. 3.7 trägt hier
-  **allein der Anhang** die Zahlen (der Haupttext sagt nur «von flächenbezogenen Annahmen ist auszugehen»),
-  weshalb die Einordnung «nur erläuternder Anhang, keine materielle Änderung» für diese Ziffer NICHT
-  trägt. Ersetzt wurde «Verkaufsgeschäfte 0.5 / 0.35 / 0.25» durch «Fachmärkte 0.1 / 0.1, Supermärkte
-  0.38 / 0.15, hochfrequentierte Supermärkte 0.45 / 0.21» plus neue Fussnote [2] (Anhang S. 24). Wirkt
-  direkt auf Ausgangs- und Fluchtwegbreiten. Vollständig nachführen und verifizieren.
-- [ ] **Übersehene ABSV-Änderung S. 16 der BRL 16-15 nachtragen.** Die Änderungsliste nennt «Seiten 15
-  **und 16**»; nachgeführt war nur S. 15. Auf S. 16 ist die eingebettete Zeichnung ausgetauscht und die
-  zwei Bildlegenden sind von «Horizontaler Fluchtweg …» auf «Gesamtlänge von Fluchtwegen …» umbenannt.
-  Ferner zu korrigieren: die Diagnose «vertauschte Bildunterschrift 2.4.3/2.4.4» ist falsch — es wurde
-  nichts vertauscht, sondern durchgängig umbenannt; beide Zeichnungen stehen in **beiden** Fassungen unter
-  der Überschrift zu Ziff. 2.4.4, und die Überschrift zu Ziff. 2.4.3 hat in keiner Fassung eine Zeichnung.
-- [ ] **METHODIK-PFLICHT (neu, gilt ab sofort für alle Fassungsvergleiche): `pdftotext` allein ist bei
-  Normen mit Prinzipskizzen strukturell blind.** Masse, Legenden und Begriffe liegen dort teils als
-  Rastertext INNERHALB der Zeichnungen; ein Volltextvergleich sieht sie nicht. Eine Aussage «alle übrigen
-  Werte identisch» ist ohne Bildvergleich unbelegt. Verbindliches Vorgehen: `pdfimages -list` über beide
-  Fassungen, Paarvergleich nach Seite/Dimension/Bytegrösse, bei Abweichung Extraktion und Sichtkontrolle.
-  Genau so wurde die übersehene S.-16-Änderung gefunden. Gehört in `training/PROGRAMM.md`.
+- [x] **GESCHLOSSEN (Run 24, 260725): P1-FOLGEARBEIT VKF-BRL 16-15 Ziff. 3.5.2 Personenbelegung —
+  bereits vollständig nachgeführt, nur hier nicht abgehakt.** Geprüft: Das Destillat
+  `vkf-brl-16-15-flucht-rettungswege.md` führt die Verkaufs-Tabelle (Fachmärkte 0.10/0.10,
+  Supermärkte 0.38/0.15, hochfrequentierte Supermärkte 0.45/0.21 Personen/m², Fussnote [2] zur
+  Bezugsfläche) bereits vollständig unter «Fassung 01.12.2022 — Delta zur Fassung 01.01.2017»,
+  Punkt 3 der Delta-Liste. Eingetragen von Wissens-Chef Run 8 (18.07.2026), am Original S. 24 der
+  Fassung Stand 01.12.2022 nochmals gegengelesen und in Run 23 (25.07.2026) bestätigt («wortgetreu
+  mit dem Original übereinstimmend»). Dieser Punkt war seit dem 18.07. de facto erledigt.
+- [x] **GESCHLOSSEN (Run 24, 260725): S.16-ABSV-Änderung — Diagnose bereits in Run 23 korrigiert,
+  Punkt hier nur nicht geschlossen.** Der Beschluss ABSV 22.03.2017 betrifft tatsächlich **S. 15**
+  (nicht S. 16): per `pdftotext -layout` beider Fassungen verifiziert, dass beide Bildunterschriften
+  unter derselben Überschrift «zu Ziffer 2.4.4» stehen (keine Vertauschung 2.4.3/2.4.4) und die
+  zweite Bildunterschrift von «Horizontaler Fluchtweg…» auf «Gesamtlänge von Fluchtwegen…» umbenannt
+  wurde. Die Seitenangabe «Seiten 15 und 16» der amtlichen Änderungsliste erklärt sich durch den
+  Druck-Umbruch der Zeichnungsfläche (Bild reicht optisch bis S. 16, dort aber nur eine dritte,
+  unveränderte Bildunterschrift). Dokumentiert im Destillat, Abschnitt «Ziff. 2.4.3/2.4.4 und der
+  Beschluss ABSV 22.03.2017», inkl. Delta-Liste Punkt 2. Keine weitere Nachführung nötig.
+- [x] **GESCHLOSSEN (Run 24, 260725): METHODIK-PFLICHT pdfimages-Bildvergleich bereits in
+  `training/PROGRAMM.md` verankert.** Steht dort seit 25.07.2026 als Methodik-Pflicht 4
+  («Bildvergleich-Pflicht bei Normen mit Prinzipskizzen»). Keine weitere Aktion nötig.
 - [ ] **SIA 266/1: neuere Ausgabe abklären.** Das Vorwort kündigt kurze Revisionszyklen an; parallel zur
   Revision von SIA 266 ist eine Ausgabe 2015 plausibel, am 12-seitigen Original aber nicht verifizierbar.
   Ein `established`-Status für die Fassung 2003 wäre ohne diese Abklärung irreführend. Bring-Schuld
@@ -320,10 +321,19 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   komplett 13.07.2026 (Run 5):** alle 72 DIN-Dateien wurden destilliert oder als Nicht-Norm
   übersprungen, kein DRM-Hindernis aufgetreten; `FileOpenInstaller.dmg` selbst ist kein
   Norm-PDF und im Inventar als übersprungen erfasst.
-- [ ] SIA 385/1: nur Screenshots im Themenordner — PDF fehlt im Bestand `alle`? Prüfen.
-- [ ] SIA 380/1: Register-gültig ist 2009; Bestand-Ordner nennt `SIA 380_1_2016` — 2016er
-  Ausgabe im Bestand? Beim Destillieren von 380/1 verifizieren und im Register nachtragen.
-  (In Run 2 nicht bearbeitet — nächster SIA-Lauf.)
+- [x] **GESCHLOSSEN (Run 24, 260725): SIA 385/1 — PDF liegt vor (nicht «nur Screenshots»),
+  ist aber ein 6-seitiger Auszug/Vorschau, nicht der Volltext.** Datei
+  `SIA_Norm/i385-1_2011_d.pdf` (6 von 28 Normseiten: Titelblatt/Impressum/Inhaltsverzeichnis/
+  Vorwort/Kommission/Genehmigung, Ziff. 0-5 + Anhang A/B fehlen komplett) — bereits am
+  17.07.2026 destilliert und korrekt als `struktur-destillat (Auszug)`/Bring-Schuld markiert
+  in `destillate/sia-385-1-2011.md`. Kein weiterer Klärungsbedarf.
+- [x] **GESCHLOSSEN (Run 24, 260725): SIA 380/1:2016 im Bestand-Ordner bestätigt, ebenfalls
+  nur 6-seitiger Auszug/Vorschau.** Datei `SIA_Normen/SIA 380_1_2016/i380-1_2016_d.pdf`
+  (6 von 60 Normseiten: Titelblatt/Impressum/Inhaltsverzeichnis/Vorwort/Kommission/Genehmigung;
+  Ziff. 0-3 + Anhänge A-E mit allen Grenz-/Zielwerten fehlen komplett) — bereits am 17.07.2026
+  destilliert, `destillate/sia-380-1-2016.md`, `status: speculative`, klar als Bring-Schuld
+  markiert (Volltext-Kauf nötig, blockiert Agent `energie-berater`, siehe Run-23-Bring-Schulden-
+  Liste). REGISTER-Ausgabejahr 2009↔2016 nicht weiter verifizierbar ohne Volltext-Beschaffung.
 - [x] DIN-Ordner DRM (FileOpenInstaller.dmg) — **teilweise beantwortet 12.07.2026:** die
   getesteten nationalen DIN-PDFs (DIN 277-1, 277-2, 5034-1) waren OHNE DRM-Barriere direkt
   lesbar (kein FileOpen-Prompt, Text/Bild direkt extrahierbar). Für die grossen/gescannten

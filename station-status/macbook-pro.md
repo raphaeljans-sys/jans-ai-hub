@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.07.2026 15:36:59
+Stand: 25.07.2026 15:57:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 15:23)
+- Developer/jans/ai/hub  (letzte Aktivitaet 15:53)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 25.07.2026 15:36:59
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 2105ff18 nas-selfcommit: 5 Datei(en) 2026-07-25 15:30
+- 9d98bbe1 planungsgrundlagen-training Run 66: SWKI VA103-01 Backlog geschlossen (Kap 3-9+Anhaenge A-F), eco-bau-Cluster (Verein eco-bau national + BKP-Merkblatt-System) + SZ-Reckholdern-Genese (Waldabstand-Reduktion Praezedenzfall) neu erschlossen

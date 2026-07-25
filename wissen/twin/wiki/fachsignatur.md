@@ -3,7 +3,7 @@ title: Fachsignatur
 status: established
 last_updated: 2026-07-25
 gewichtung: authentisch
-sources: [260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -1329,3 +1329,36 @@ Gewichtung: authentisch. Quelle: private Kleinausschreibung Geschirrspüler-Ersa
 - **Vollständigkeits-/Schlüsselfertig-Klausel gilt auch für Kleinstaufträge, nicht nur grosse Devis:** bei einer Ein-Geräte-Ausschreibung («Geschirrspüler-Ersatz») schreibt er trotzdem die volle Ausschreibungsformel: Leistungsumfang exakt benannt (Lieferung/Demontage/Entsorgung/Installation Elektro+Sanitär/Inbetriebnahme/Dekorfront), «Bauseitige Leistungen sind keine vorgesehen; das Angebot ist vollständig und schlüsselfertig zu kalkulieren.» Gleiche Sorgfalt wie bei grossen Losen, nur skaliert auf ein einzelnes Gerät.
 - **Referral-Kette offen ausgewiesen, auch gegenüber einem beliebigen Telefonverkauf-Kontakt:** «Ihre Schwesterfirma nettoshop.ch hat uns auf unsere Anfrage vom 8. Juli 2026 an Sie verwiesen, da sie selbst keine Offerten erstellt.» — er verschweigt nicht, dass die Anfrage über einen Umweg kam, sondern macht sie explizit nachvollziehbar. Deckt sich mit dem bereits belegten Cc-Transparenz-Reflex (Rule/Marker Auftraggeber-Transparenz), hier auf die Anfragen-Herkunft selbst angewendet statt nur auf Cc-Verteiler.
 - **Brandschutz-Fachbegriff-Präzision im Betreff selbst:** Betreff/Kern einer Rückfrage an den Fachplaner lautet «Es braucht ein Strangschema, nicht ein Prinzipschema» — die fachliche Unterscheidung (welches Dokument die brandschutztechnische Beurteilung tatsächlich trägt) wird nicht im Fliesstext versteckt, sondern selbst zur Kopfzeile der Anfrage gemacht. Bestätigt «Fachwissen rechnend/verfahrensnah einweben» in seiner prägnantesten Form: die Fachpräzision IST die Nachricht.
+
+## Batch 64 (2026-07-14…07-17) — Gebautes Referenzelement als verbindliche Spezifikation, Ein-Wort-Begründung «ist Brandschutzrelevant», Verfahrensfrist-Eskalation gegen die Amtsorganisation
+
+Gewichtung: authentisch (handgetippte Rahmen, Slips «Vergalsung»/«Desingtyp»/«Esthermann»). Quelle: KISPI-PPTS
+Lenggstrasse 30 (Innere Verglasung, Küchenbau), Baumackerstrasse 43 (AfB), 15.–17.07.2026.
+
+- **Planänderungsforderung an den Fachplaner = Plannummer + Klasse + Ein-Wort-Begründung:** «Können Sie mir den
+  **Plan 11-00250** so anpassen dass die Festverglasung in **EI30** ausgeführt wird? / Und diesen mir wieder
+  zusenden; **ist Brandschutzrelevant**.» Kein Normzitat, kein Absatz Begründung — die Relevanzbehauptung genügt
+  gegenüber dem Fachplaner, weil sie im Verfahren (Feuerpolizei-Auflagebereinigung) verankert ist. Der Zwilling
+  nennt bei jeder Planänderung die exakte Plannummer und die geforderte Klassifikation, und begründet gegenüber
+  dem Fachmann knapp über die Relevanz, nicht über die Norm.
+- **Gebautes Referenzelement statt beschriebener Spezifikation (Bemusterung am Bestand):** «Designtyp mit
+  Brüstungselemente ist Analog dem **Designtyp 06 (90cm Brüstungshöhe)** respektive so wie schlussendlich die
+  Elemente am Bau beim **Raum 2.055 Bespr. Pat** und Analog dem **Raum 2.017 Empfang** gebaut wurden; wir möchten
+  genau die gleiche Designtyp-Ausführung wie diese Referenzelemente.» Schärfung des Raum-Nr.-genauen
+  Alternativbeschreibungs-Markers (Batch 63): im laufenden Umbau ist das **bereits ausgeführte Element** die
+  verbindlichste Spezifikation — Typenbezeichnung + Massangabe + zwei Raumnummern als physische Referenz, damit
+  nicht neu interpretiert wird. Offen Gelassenes wird dabei ausdrücklich vorbehalten («Die genaue Ausführung der
+  Stoffbespannung … werden wir Ihnen final nach Rücksprache und Wunsch Bauherrschaft zukommen lassen»).
+- **Verfahrensfrist-Eskalation, dritte Stufe: die Amtsorganisation selbst wird zum Gegenstand.** Nach der
+  Zwei-Stufen-Leiter aus Batch 61 (Ein-Zeiler → Nachfass mit Verfahrensrecht+Datumsbeleg) folgt hier der
+  Fragenkatalog, der über den Sachstand hinausgeht: «1. Wie ist der aktuelle Verfahrensstand des Gesuches mit der
+  Projekt-ID 1840759? / 2. Wer ist innerhalb Ihres Amtes für das Gesuch zuständig? / 3. **Aus welchem Grund wird
+  die Zuweisung intern nicht kommuniziert?**» plus die Rechtsbehauptung «Das Verfahrensrecht sieht eine
+  Bearbeitungsfrist von drei Wochen ab Eingabedatum vor. / Diese Frist ist seit dem 07.07.26 abgelaufen, ohne dass
+  eine Zuweisung auf ein Kreisarchitekt feststellbar war.» Muster: Frist + Ablaufdatum + fehlende Zuweisung als
+  überprüfbare Tatsache, dann die Zuständigkeits- UND die Organisationsfrage — sachlich, ohne Tonhebung, aber die
+  interne Zuweisungspraxis wird ausdrücklich zur Antwortpflicht gemacht.
+- **Bestellung von Fachplaner-Plandokumenten mit Frist-Rückfrage statt Frist-Setzung:** «Wir erwarten Ihr
+  bereinigtes Angebot heute. / Bis wann können wir mit folgen Plandokumeten rechnen: / - Installationsplan
+  Grundriss Elektro & Sanitäranschlüsse / - Alle Ansichten mit Position Elektro Sanitär-Anschlüsse» — die eigene
+  Erwartung wird terminiert («heute»), die Leistung des anderen als offene Terminfrage gestellt.

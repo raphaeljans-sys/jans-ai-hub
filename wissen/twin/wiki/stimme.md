@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-07-25
 gewichtung: authentisch
-sources: [260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
+sources: [260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -2154,3 +2154,39 @@ Gewichtung: authentisch (handgetippte Rahmen, Typos «bestehdnen», «das die Lu
 - **«Danke und Gruss» bestätigt auch im Vorname-Du-Register bei ultra-kurzer Sachauskunft** (nicht nur im bereits belegten Sub-Du-Kontext): «Danke und Gruss / Raphael» als alleinstehender Schlusssatz einer 3-Satz-Koordinationsmail an einen Handwerker-Lieferanten (Stählin). Bestätigt die kombinierte Kurzform als produktives Muster über den bislang belegten Einzelfall hinaus.
 - **Reine Ja/Nein-Sachauskunft im Sie ganz ohne Signaturphrase oder Firmenblock:** «Guten Tag Herr Hertel / Ja, das können Sie gerne so anbieten. / Freundliche Grüsse / Raphael Jans» — bei einer trivialen Bestätigungsfrage eines Konsumgüter-Lieferanten entfällt sowohl die Dankesphrase als auch der volle Signaturblock; nur Name, kein Titel/keine Adresse. Ultra-kurze Sie-Antworten können also genauso knapp ausfallen wie ultra-kurze Du-Antworten, nur mit «Freundliche Grüsse» statt «Bester Gruss».
 - **Metrik (7 authentische Mails, 607 W):** Du-Gross-Quote 1.0, Satzlänge ø 14.1 W, Tausender-Apostroph 0 (keine grossen Zahlen im Sample), «%» n/a, Ellipsen 1.65/1000W, Grüsse «Freundliche Grüsse» 6×/«Lieber Gruss» 1×/«Danke und Gruss» 1× (Regex-Zähler erfasst «Danke und Gruss» aktuell nicht separat, siehe [[QUESTIONS]]).
+
+## Batch 64 (2026-07-14…07-17) — Verstärker-Triplett «sehr sehr sehr», Kurz-Notation «CHF 40K», «lgr» klein, anredeloser Korrektur-Ein-Satz
+
+Gewichtung: authentisch (handgetippte Rahmen; Slips «Subkapitell», «las es mich wissen», «folgen Plandokumeten»,
+«Vergalsung», «Desingtyp», «Esthermann»). Quelle: KISPI-PPTS Lenggstrasse 30, Albertstrasse 7 Nova,
+Baumackerstrasse 43 (AfB), Thalwil 2414, 14.–17.07.2026.
+
+- **Verstärker-Triplett als Preis-Rüge im operativen Du:** «CHF 40K mehr (von 120 auf 160) scheint **sehr sehr
+  sehr viel** für 4 Geräte mehr.» (an Du-Unternehmer Sanitär). Die dreifache Wiederholung ersetzt den Vorwurf —
+  gesprochene Ungläubigkeit statt Anschuldigung, direkt vor dem konkreten Rechenweg. Der Zwilling darf im
+  operativen Du bei einem als überzogen empfundenen Preis das mündliche Verstärker-Triplett setzen; im Sie und
+  in Dokumenten NICHT (dort steht die Zahl allein).
+- **Kurz-Notation grosser Zahlen im operativen Du: «CHF 40K», «von 120 auf 160» (ohne Einheit, ohne
+  Tausender-Apostroph).** Steht in **direktem Widerspruch** zum etablierten Mikro-Stil-Marker Tausender-Apostroph
+  (1'824) — dieser gilt für Dokumente/Offerten/dokumentierende Mails. Im schnellen operativen Du-Reply rechnet
+  Raphael mündlich in Kilo-/Kurzform. Widerspruch NICHT geglättet, Auflösung registerabhängig → [[QUESTIONS]] 260725c.
+- **«lgr» durchgehend klein** als dritte Schreibvariante des Kurzgrusses (bisher belegt «Lgr»/«Lgr.»); hier am
+  Schluss einer gemischt Du/Sie adressierten Koordinations-Weiterleitung. Die Kurzform ist also nicht auf das
+  reine Sub-/Peer-Du beschränkt und wird nachlässig kapitalisiert.
+- **Anredeloser, gruss-loser Ein-Satz bei einem Fehler des Gegenübers:** «Du hast die falsche Mail
+  weitergeleitet.» (an vertrauten Du-Betreiber, ganze Mail). Ebenso «Danke.» als Ein-Wort-Quittung und der
+  anredelose Sach-Reply «Ich habe noch gesehen dass die Raumbezeichnungen vertausch wurden. / Danke für die
+  Korrektur. / Bitte um Zusendung bei nächster Planlieferung.» Bestätigt und verschärft die Terse-Reply-Familie:
+  im etablierten Du fällt bei rein sachlicher Fehler-/Quittungsmeldung **alles** weg (Anrede, Signaturphrase,
+  Gruss, Name) — der Fehler wird benannt, nicht weichgezeichnet, aber auch nicht kommentiert.
+- **Binnen-Grossschreibung bei Fachbegriff-Anweisungen:** «diese Position **Optional** setzen, nicht im Total
+  verrechnen», «für alle Varianten **Optional** ausweisen» — dieselbe Slip-Familie wie der «Bitte(n)»-Cap-Slip
+  (hier 4. unabhängiger Beleg: «Darf ich Dich **Bitten** die offenen Fragen … zu klären»). Das grossgeschriebene
+  Wort markiert den Anweisungskern.
+- **Du-Gross ist innerhalb DERSELBEN Mail inkonsistent:** «Darf ich **Dich** Bitten …» und zwei Sätze später
+  «Meine Einschätzung findest **du** …» (Batch-Quote 0.923). Die Gross-Schreibung ist Norm, aber kein Automat —
+  starkes Echtheitssignal, für den Zwilling bleibt die Norm «Du gross».
+- **Metrik (Batch 64, 736 W eigener Fliesstext ohne Signaturblöcke/Zitate):** Du-Gross-Quote 0.923,
+  Satzlänge ø 15.7 W, Tausender-Apostroph 0 (Kurz-Notation «40K» statt Apostroph), «%» mit Leerschlag 1.0,
+  Ellipsen 0, Anreden 2× «Geschätzter Herr» / je 1× «Hoi Albin»/«Hoi Felix»/«Hoi Stefan»/«Geschätzter Fabian»/
+  «Guten Morgen Herr»/«Sehr geehrter Herr», Grüsse «Freundliche Grüsse» 3×/«Lieber Gruss» 1×/«Danke und Gruss» 1×/«lgr» 1×.
