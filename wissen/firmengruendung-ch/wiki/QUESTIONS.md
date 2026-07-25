@@ -3,8 +3,6 @@
 ## Offene Wissenslücken (Coverage-Gaps)
 - **1e-/Kaderplan + Einkaufspotenzial** der Raphael Jans AG konkret erheben
   (Vorsorgeausweis, Schwellenwert 1e) — Grundlage für den PK-Hebel.
-- **Verwaltungsrat:** Pflichten/Haftung/Konstituierung als eigener Artikel (bisher nur
-  in [[belege-handelsregister]] und [[ag-gruendungsablauf]] gestreift).
 
 ## needs-verification (zentral)
 - Gründungskosten-Richtwerte ([[rechtsform-vergleich]], [[kosten-und-zeit]]) — aktuelle
@@ -17,6 +15,21 @@
 - Noch keine erfasst.
 
 ## Beantwortete Fragen (Archiv)
+- **Verwaltungsrat: Pflichten/Haftung/Konstituierung (25.07.2026, Nachtschicht-Zyklus Mac
+  Mini):** Neuer Artikel [[verwaltungsrat]], letzte verbliebene Backlog-Lücke aus dem
+  INDEX geschlossen. Kernbefunde primärquellen-belegt (Fedlex-Volltext-Filestore, Methode
+  Rule auto-verbesserungen 260721): Amtsdauer bei nicht kotierten AG 3 Jahre/max. 6
+  (Art. 710 OR), 8 unübertragbare Kernaufgaben (Art. 716a OR), Vertretungsbefugnis
+  grundsätzlich jedem Mitglied einzeln (Art. 718 OR) mit Schriftformpflicht bei
+  Insichgeschäften > CHF 1'000 (Art. 718b OR — relevant für die Ein-Personen-AG), die drei
+  seit der Aktienrechtsrevision 2023 explizit kodifizierten Überwachungspflichten
+  Liquidität/Kapitalverlust/Überschuldung (Art. 725–725b OR, inkl. Revisionspflicht im
+  Kapitalverlustfall TROTZ Opting-out), Verantwortlichkeit gegenüber Gesellschaft/
+  Aktionären/Gläubigern bei Pflichtverletzung (Art. 754 OR), Solidarhaftung nach
+  Verschuldensanteil (Art. 759 OR), Verjährung 3/10 Jahre (Art. 760 OR). Offen markiert:
+  AHV-Durchgriffshaftung (Art. 52 AHVG, ausserhalb OR), D&O-Versicherung, Wohnsitz-
+  Erfordernis bei Auslandbeteiligung — bewusst nicht recherchiert (kleiner Scope für
+  Nachtschicht-Budget).
 - **Steuern bei Gründung: Kapital-, Gewinn-, Verrechnungssteuer (24.07.2026,
   Nachtschicht-Zyklus Mac Mini, 20:30-Lauf):** Neuer Artikel
   [[steuern-bei-gruendung]]. Kernbefunde primärquellen-belegt: Gewinnsteuer

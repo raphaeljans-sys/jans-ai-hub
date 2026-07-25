@@ -3,6 +3,22 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-25 — Neuer Artikel `verwaltungsrat` (Mac Mini Nachtschicht, 08:30-Lauf)
+- Letzte verbliebene Backlog-Coverage-Lücke aus dem INDEX geschlossen (auch im
+  Health-Check desselben Tages unten als «Backlog stabil bei 2 Punkten: VR-Artikel, …»
+  vermerkt). Neuer Artikel [[verwaltungsrat]]: Konstituierung (Amtsdauer 3/max. 6 Jahre bei
+  nicht kotierten AG, Präsidium, Auskunftsrecht), 8 unübertragbare Kernaufgaben
+  (Art. 716a OR), Vertretung/Insichgeschäft-Formvorschrift (Art. 718/718b OR), Sorgfalts-
+  und Treuepflicht (Art. 717 OR), die drei seit der Aktienrechtsrevision 2023 kodifizierten
+  Überwachungspflichten Liquidität/Kapitalverlust/Überschuldung (Art. 725–725b OR, inkl.
+  Revisionspflicht im Kapitalverlustfall trotz Opting-out), Verantwortlichkeit/
+  Solidarhaftung/Verjährung (Art. 754/759/760 OR). Alle OR-Artikel direkt am
+  Fedlex-Filestore-Volltext (SR 220, Konsolidierung 01.01.2026) verifiziert, keine
+  Sekundärquellen. INDEX.md (Artikel 12→13, Coverage-Lücken 1→0) und QUESTIONS.md
+  (Backlog-Punkt ins Archiv verschoben) nachgeführt. Offene Anschlussthemen (AHV-
+  Durchgriffshaftung Art. 52 AHVG, D&O-Versicherung) bewusst nicht recherchiert und im
+  Artikel als «Offene Punkte» markiert (Scope-Grenze Nachtschicht-Budget).
+
 ## 2026-07-25 — Dritter Wissens-Health-Check (Phase 1, Mac Mini Nachtschicht)
 - 7-Audits-Katalog über die seit 21.07. auf 13 Artikel gewachsene KB (4 neue Artikel:
   `gmbh-gruendungsablauf`, `nachgruendung-anmeldungen`, `holding-struktur`,

@@ -24,6 +24,9 @@
 ### Kapital & Organe
 - [[kapital-und-liberierung]] — Mindestkapital, Bar-/Sacheinlage, Sperrkonto, Emissionsabgabe · *established*
 - [[revision-und-opting-out]] — Revisionsstelle & Verzicht (Opting-out) · *established*
+- [[verwaltungsrat]] — Konstituierung (Amtsdauer/Präsidium), unübertragbare Aufgaben (Art. 716a),
+  Vertretung, Sorgfaltspflicht, Liquiditäts-/Kapitalverlust-/Überschuldungspflichten
+  (Art. 725–725b), Haftung (Art. 754–760) · *established* (OR-Artikel Fedlex-Volltext-verifiziert)
 
 ### Kosten & Zeit
 - [[kosten-und-zeit]] — Gründungskosten und Zeitbedarf · *established*
@@ -37,11 +40,11 @@
   DBG Fedlex-verifiziert)
 
 ## Backlog / Lücken
-Siehe [[QUESTIONS]]:
-- Verwaltungsrat: Pflichten, Haftung, Konstituierung (eigener Artikel)
+Siehe [[QUESTIONS]] — Backlog-Punkt «Verwaltungsrat» am 25.07.2026 geschlossen, keine offenen
+Coverage-Lücken mehr registriert.
 
-## Statistik (Stand 2026-07-24)
-- Artikel im Wiki: 12
-- Offene Coverage-Lücken: 1 (siehe Backlog oben; Steuern bei Gründung am 24.07.2026 geschlossen)
+## Statistik (Stand 2026-07-25)
+- Artikel im Wiki: 13
+- Offene Coverage-Lücken: 0 (Verwaltungsrat am 25.07.2026 geschlossen; Steuern bei Gründung am 24.07.2026)
 - Outputs: 3 (neue-ag-gruenden_vorgehen, health-check 2026-07-01, steuern-sparen-ag-inhaber)
 - Letzter Health-Check: 2026-07-21 (Mac Mini Nachtschicht)
