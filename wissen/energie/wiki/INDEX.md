@@ -3,7 +3,7 @@
 Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 
 ## Kernprodukt
-- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**Stand 2026-07-25: 149 Kernfragen F1–F149**, primärquellenbelegt, je Intensiv-Lauf mehrere parallele Rechercheagenten plus adversariale Gegenprüfung bestehender Antworten). Diese Zeile nennt bewusst nur den aktuellen Stand statt jede Lauf-Ergänzung einzeln aufzulisten (Verdichtung statt additivem Wachstum, Rule `wissens-bibliothekar`) — die vollständige Lauf-für-Lauf-Historie mit allen Einzelergänzungen steht in `CHANGELOG.md` (neueste zuoberst).
+- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**Stand 2026-07-25: 152 Kernfragen F1–F152**, primärquellenbelegt, je Intensiv-Lauf mehrere parallele Rechercheagenten plus adversariale Gegenprüfung bestehender Antworten). Diese Zeile nennt bewusst nur den aktuellen Stand statt jede Lauf-Ergänzung einzeln aufzulisten (Verdichtung statt additivem Wachstum, Rule `wissens-bibliothekar`) — die vollständige Lauf-für-Lauf-Historie mit allen Einzelergänzungen steht in `CHANGELOG.md` (neueste zuoberst).
 
 ## Themen-Artikel
 Echte eigenständige Wiki-Artikel (`wiki/*.md`), 26 Stück.
@@ -117,6 +117,20 @@ vom 20.06.2025 auf established gehoben. ⚠ Nebenbefund fuer den `normen`-Loop: 
 (`wissen/normen/destillate/sia-382-1-2014.md`) fuehrt SIA 382/1:2014 noch als aktuell/established,
 obwohl seit 01.02.2025 durch SIA 382/1:2025 ersetzt — Korrektur dort ausserhalb des Scopes dieses
 Energie-Laufs.
+
+**Run 105 (25.07.2026, drei parallele Rechercheagenten, PDF-Inventar weiterhin erschöpft seit
+Run 65):** `[[waermepumpe-laerm-nachmessung-kostenfolge]]` (neu, emerging) vertieft die seit Run
+103/104 offene Kostenfolge einer WP-Lärm-Nachmessung — amtliche WP-spezifische Regel weiterhin
+nicht auffindbar, aber Verursacherprinzip (Art. 2 USG) + Gebührenermächtigung (Art. 48 USG) +
+SZ-Gebührenposten primärquellenbelegt, Kostenverteilungslogik als eigene Ableitung markiert;
+Wiki-Artikel `[[waermepumpen-laermschutz]]` entsprechend gewachsen. Neues Themenfeld
+`[[sia-386-bacs-gebaeudeautomation]]` (Gebäudeautomations-Effizienzklassen A-D, emerging — keine
+generelle CH-Klassenpflicht gefunden, aber Monitoring-Pflicht ab 2'000 m² EBF/EN-141 und
+Betriebsoptimierungspflicht ab 200'000 kWh/Jahr primärquellennah). `[[erdsonden-regeneration-sondenfeld-dimensionierung]]`
+ergänzt das bestehende Destillat `[[erdwaermesonden-mehrfachfelder-regeneration-zh-sz]]`
+(23.07.2026) um Faustwerte zur Sondenfeld-Dimensionierung (6-10 m Sondenabstand im Feld, W/m-
+Entzugsleistung je Untergrund) und die passiv/aktiv-Regenerationssystematik — bewusst als
+Schwesterdestillat mit klarer Abgrenzung angelegt, nicht als Duplikat.
 
 ## Verwandte KBs/Skills
 - Skill `planungsgrundlagen` (Domaene Energie) → Bruecke `wissen/planungsgrundlagen/wiki/energie-uebersicht`

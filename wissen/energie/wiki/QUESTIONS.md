@@ -1842,3 +1842,54 @@ Notiz inkl. normen-Nebenbefund), `wiki/BAUHERREN-FAQ.md` (F146-F149 neu), `train
 4. Weiterhin offen aus Run 103: SIA-180-Figur-13-Formel (Dachflächenfenster, Beschaffung SIA 4001:2022
    erwägen), Kostenfolge einer Lärm-Nachmessung bei WP-Reklamation ZH/SZ.
 5. Neue Themen-Recherche nach freier Wahl (PDF-Inventar bleibt erschöpft, Web-Pfad).
+
+- [x] **E92** **Drei parallele Rechercheagenten (Run 105, 2026-07-25):** (1) **Kostenfolge WP-Lärm-
+  Nachmessung** (Priorität 4 aus Run 103/104) weiter vertieft, aber nicht amtlich abschliessend
+  geklärt — Verursacherprinzip Art. 2 USG + Gebührenermächtigung Art. 48 USG + SZ-Gebührenposten
+  «Kontrolle von Anlagen» bis Fr. 5'000 primärquellenbelegt, Kostenverteilungslogik bei
+  bestätigter/unbestätigter Überschreitung bleibt eigene Ableitung → neues Destillat
+  `[[waermepumpe-laerm-nachmessung-kostenfolge]]`, Wiki `[[waermepumpen-laermschutz]]` ergänzt,
+  FAQ **F150**. (2) **SIA 386/BACS-Gebäudeautomation** neu erschlossen (Priorität 5, freie
+  Themenwahl) — vier Effizienzklassen A-D, keine generelle CH-Klassenpflicht, aber primärquellennah
+  Monitoring-Pflicht ab 2'000 m² EBF (EN-141) und Betriebsoptimierung ab 200'000 kWh/Jahr →
+  neues Destillat `[[sia-386-bacs-gebaeudeautomation]]`, FAQ **F151**, neues Themenfeld. (3)
+  **Erdsonden-Regeneration/Sondenfeld-Dimensionierung** (Priorität 5) — bewusst als
+  Schwesterdestillat zum bestehenden `[[erdwaermesonden-mehrfachfelder-regeneration-zh-sz]]`
+  (23.07.2026) angelegt, nicht dupliziert: W/m-Entzugsleistungs-Faustwerte, 6-10-m-Sondenabstand
+  im Feld, passiv/aktiv-Regenerationssystematik → neues Destillat
+  `[[erdsonden-regeneration-sondenfeld-dimensionierung]]`, FAQ **F152**. FAQ-Stand: **152
+  Kernfragen (F1-F152) belegt.**
+
+**Register nachgeführt:** `destillate/INDEX.md`, `wiki/INDEX.md` (FAQ-Zählerzeile auf 152 +
+Run-105-Notiz), `wiki/BAUHERREN-FAQ.md` (F150-F152 neu), `wiki/waermepumpen-laermschutz.md`
+gewachsen, `training/curriculum.md` (D77a-c), `raw/_INGESTED.md`, `CHANGELOG.md`,
+`outputs/2026-07-25_energie-run105.md`.
+
+**Nächster Lauf: Priorität**
+1. Die fünf gebündelten Kaufentscheide (B1-Konsolidierung, SWKI-VA105-01, SIA-385/1, SIA-385/2,
+   SIA-384.354) wachsen seit Run 98 unverändert ohne Entscheidung — jetzt sieben Runs in Folge.
+   Empfehlung bleibt: beim nächsten Kontakt mit Raphael als kurze Bündel-Frage stellen statt weiter
+   automatisch mitzuführen.
+2. Meta-Punkt M2 (eigenständiger Skill "energie"?) ist seit Run 45 spruchreif und weiterhin nicht
+   entschieden — ebenfalls Raphael vorlegen.
+3. ⚠ Weiterhin offen: KB `normen` pflegt SIA 382/1:2014 fälschlich als aktuell — dem normen-Loop/
+   Wissens-Chef zur Korrektur übergeben (nicht Aufgabe von `energie`).
+4. Kostenfolge WP-Lärm-Nachmessung bleibt für den Regelfall unklar (kein ZH-Gebührenposten
+   gefunden) — nächster Ansatz: kommunale Gebührenreglemente einzelner ZH-Gemeinden gezielt prüfen,
+   oder als vom Bauherren-Alltag her seltener Randfall zurückstellen.
+5. BACS/SIA-386.110: genauer MuKEn-Wortlaut, aktuelle Normfaktoren je Klasse und ein möglicher
+   Minergie-Automations-Bonus nicht am Original verifiziert (PDF-Extraktion technisch gescheitert,
+   z.B. via Browser/anderer Downloadweg erneut versuchen); keine belastbare CH-Kostenzahl für ein
+   Klassen-Upgrade gefunden.
+6. Erdsonden-Regeneration: aeesuisse-Faktenblatt (Bot-Schutz) und AWEL-Planungshilfe 2010
+   (Bild-PDF) technisch nicht ausgelesen — bei Gelegenheit per Browser/OCR nachziehen, um die
+   Fachpraxis-Faustwerte primärquellennah zu bestätigen.
+7. ⚠ Beobachtung zur Reife der KB: Die Themenfindung für Run 105 brauchte spürbar mehr Vorprüfung
+   als in früheren Runs (167 Destillate, 149 FAQ vor diesem Lauf; mehrere geprüfte Kandidaten
+   erwiesen sich als bereits abgedeckt — Minergie-A, Elektroboiler-Ersatzpflicht, Fernwärme-
+   Anschlusskosten SZ, Klimaanlagen-Bewilligung). Das ist ein Anzeichen, dass sich der taeglich-
+   mehrfache Web-Recherche-Pfad (PDF-Inventar seit Run 65 erschöpft) der Saettigung naehert — die
+   Ruecktaktungs-Empfehlung aus dem PROGRAMM.md («Intensivphase... dann Ruecktaktung ins
+   Nachtfenster VORSCHLAGEN») sollte Raphael in den kommenden Laeufen aktiv vorgelegt werden,
+   spaetestens wenn zwei/drei weitere Laeufe in Folge denselben Aufwand fuer die Themenfindung
+   brauchen.

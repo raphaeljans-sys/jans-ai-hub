@@ -5120,3 +5120,88 @@ gelesen 25.07.2026, PDF-Spiegel bvger.weblaw.ch). Ergänzend StromVV Art. 8a dec
 `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`.
 Datenstand 25.07.2026 (neu). Status **established** (amtlicher, vollständig gelesener
 Gerichtsentscheid der Fachinstanz).
+
+### F150 — Wer bezahlt eine Lärm-Nachmessung, wenn ein Nachbar sich nach Inbetriebnahme meiner Wärmepumpe beschwert?
+
+**Kurz:** Eine explizite amtliche Kostenregel gibt es weder für Zürich noch für Schwyz. Bundesrechtlich
+gilt das Verursacherprinzip (Art. 2 USG) und die Gebührenermächtigung für Kontrollen (Art. 48 USG),
+deren Ansätze die Kantone selbst festlegen. Eine Messung wird zudem nicht automatisch bei jeder
+Reklamation angeordnet, sondern nur, wenn die Behörde «Grund zur Annahme» einer Grenzwertüberschreitung
+hat (Art. 36 Abs. 1 LSV).
+
+**Fachliche Begründung:** Der Kanton Schwyz kennt im Gebührentarif der kantonalen Verwaltung
+(Ziffer 13, Amt für Umwelt und Energie, Tarif vom 7.3.2023) einen Posten «Kontrolle von Anlagen»
+bis Fr. 5'000 — der Wortlaut nennt aber nur die Bandbreite, nicht den Kostenschuldner. Für Zürich
+wurde kein vergleichbarer Tarifposten gefunden. Aus Verursacherprinzip und Gebührennorm lässt sich
+eine plausible Logik ableiten: Bestätigt die Messung eine Überschreitung, hat die Anlage die Kontrolle
+verursacht (Besitzer zahlt — deckt sich mit der Aussage der Fachvereinigung Wärmepumpen Schweiz FWS,
+wonach bei einer bereits als berechtigt erkannten Klage «grundsätzlich der Besitzer» zahlt, und mit
+der SZ-Wegleitung, die die Beweispflicht bei einer Lärmklage dem Anlagebesitzer zuweist); bleibt der
+Grenzwert eingehalten, hat die im Ergebnis unbegründete Reklamation die Massnahme ausgelöst. Diese
+Zuordnung ist eine eigene Einordnung, keine bestätigte Norm — vor einer konkreten Auskunft an einen
+Bauherrn empfiehlt sich die Rückfrage bei der zuständigen Gemeinde bzw. beim AfU Schwyz.
+
+**Quelle + Datenstand:** USG Art. 2/48 (Fedlex, Stand 01.01.2025), LSV Art. 36 Abs. 1; Gebührentarif
+Kt. Schwyz vom 7.3.2023 (in Kraft 1.7.2023); FWS-FAQ (fws.ch). Gelesen 25.07.2026.
+→ `[[waermepumpe-laerm-nachmessung-kostenfolge]]`, `[[waermepumpe-aussenlaerm-vollzugshilfe]]`,
+`[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]`.
+Status **emerging** (Bundesnormen und SZ-Tarifposten primärquellenbelegt, Kostenverteilungsregel
+selbst eine markierte eigene Ableitung).
+
+### F151 — Muss ich für mein Bauprojekt eine bestimmte Gebäudeautomations-Klasse (BACS) nachweisen?
+
+**Kurz:** Nach heutigem Kenntnisstand nein — eine explizite BACS-Klasse (A/B/C/D nach SIA 386.110
+bzw. der internationalen Nachfolgenorm SN EN ISO 52120-1) wird in der Schweiz nicht generell
+vorgeschrieben. Was Sie aber ab einer gewissen Grösse erfüllen müssen, ist eine funktionierende
+Gebäudeautomation mit bestimmten Monitoring-Funktionen.
+
+**Fachliche Begründung:** SIA 386.110 (Schweizer Übernahme der ehemaligen SN EN 15232) definiert vier
+BACS-Effizienzklassen A-D, wobei Klasse C die Referenzklasse ist (Faktor 1) und A/B rechnerisch einen
+tieferen Energiebedarf ergeben. Eine kantonale oder MuKEn-Pflicht zu einer bestimmten Klasse liess
+sich nicht am Originaltext verifizieren. Was primärquellennah greifbar ist: Bei Nichtwohn-Neubauten
+ab 2'000 m² Energiebezugsfläche verlangen die kantonalen Energievorschriften funktionale
+Monitoring-Pflichten (Energieverbrauch getrennt nach Hauptenergieträger, Effizienzkennzahlen
+Wärmepumpe/Kälte/Wärmerückgewinnung) — im Kt. ZH über das Formular EN-141 dokumentiert. Für ein
+grösseres Gebäude wie ein Pflegeheim oder eine Klinik ist eine funktionierende Automation ohnehin
+kaum zu umgehen: Ab 200'000 kWh Stromverbrauch/Jahr greift zusätzlich die Pflicht zur periodischen
+Betriebsoptimierung der Gewerke HLKKS und Gebäudeautomation, die ohne funktionierende BACS nicht
+nachweisbar wäre. Eine belastbare Schweizer CHF-Zahl für die Mehrkosten einer besseren BACS-Klasse
+liegt nicht vor — das ist projektspezifisch mit dem HLK-/Elektroplaner durchzurechnen.
+
+**Quelle + Datenstand:** SIA 386.110 (Norm kostenpflichtig, hier nur Sekundärquellen/SIA-Shop-
+Metadaten); MuKEn-Sekundärquellen zu den Monitoring-Schwellenwerten (nicht am Original verifiziert);
+EN-ZH/EVEN-Formular EN-141. Datenstand 25.07.2026.
+→ `[[sia-386-bacs-gebaeudeautomation]]`, `[[energienachweis-zh]]`.
+Status **emerging** (EU/DE-Fachliteratur zu den vier Klassen gut belegt, zentrale CH-spezifische
+Aussagen — genauer MuKEn-Wortlaut, aktuelle SIA-386.110-Normfaktoren, Minergie-Bonus — nicht am
+Original verifiziert).
+
+### F152 — Braucht eine grössere Erdsondenanlage im Mehrfamilienhaus eine «Regeneration»?
+
+**Kurz:** Bei mehr als 4 Sonden ja — dann braucht es ohnehin eine Simulationsrechnung nach SIA 384/6,
+und Freecooling (passive Regeneration über die sommerliche Gebäudekühlung) ist meist die günstigste
+erste Massnahme.
+
+**Fachliche Begründung:** Ohne sommerlichen Wärmeeintrag kühlt das Erdreich um ein Sondenfeld über
+die Betriebsjahre kumulativ aus, weil der winterliche Entzug grösser ist als der natürliche Nachfluss
+— eine einmal eingetretene Auskühlung braucht danach «in der Regel mehrere Jahre», um sich von selbst
+zu erholen (Geothermie-Schweiz-Leitfaden 2018). Die Schweizer Praxis kennt zwei Wege: passive
+Regeneration (Betriebspausen, vor allem Freecooling — die Gebäudekühlung im Sommer läuft direkt über
+die Sonde ohne Kältemaschine und regeneriert das Erdreich nebenbei, kostengünstig, aber begrenzte
+Regenerationsrate, limitiert auf Rücklauftemperaturen bis ca. 26-28 °C) und aktive Regeneration
+(Solarthermie, reversible Wärmepumpe/Kältemaschine, Aussenluft-/PVT-Kollektoren, höhere
+Regenerationsrate, ideal mit PV kombiniert). Ab mehr als 4 Sonden verlangt SIA 384/6 zwingend eine
+Simulation statt der einfachen Tabellenauslegung — Faustwerte wie «60 W/m Entzugsleistung» sind für
+die grobe Kommunikation gegenüber dem Bauherrn brauchbar, aber laut Fachpraxis ausdrücklich **nicht**
+als Berechnungsgrundlage geeignet. Innerhalb eines Felds braucht es 6-10 m Sondenabstand, gegenüber
+einem fremden Nachbarfeld je nach Feldgrösse deutlich mehr (17-73 m).
+
+**Quelle + Datenstand:** effiziente-waermepumpe.ch Wiki, HETAG-Produktseite «EWS», aeesuisse/Forum
+Energiespeicher Schweiz (Feb. 2025, nur Sekundärzitat), energieinside.ch (27.02.2025) —
+Fachpraxis-Sekundärquellen; Simulationsschwelle SIA 384/6 primärquellennäher über
+`[[erdwaermesonden-mehrfachfelder-regeneration-zh-sz]]` (Stadt-Zürich-Studie 2017,
+Geothermie-Schweiz-Leitfaden 2018). Datenstand 25.07.2026.
+→ `[[erdsonden-regeneration-sondenfeld-dimensionierung]]`, `[[erdwaermesonden-mehrfachfelder-regeneration-zh-sz]]`,
+`[[erdwaermesonden-bewilligung-zh-sz]]`.
+Status **emerging** (Systematik passiv/aktiv branchenübergreifend konsistent bestätigt, quantitative
+Kennwerte nur fachpraxisbelegt, nicht amtlich/SIA-primärquellennah).

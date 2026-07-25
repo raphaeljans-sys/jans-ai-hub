@@ -189,6 +189,29 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Netzgefährdung erlaubt → `[[smart-meter-rollout-schweiz]]` auf established gehoben, FAQ **F149**
   neu. FAQ-Stand: **149 Kernfragen (F1-F149) belegt.**
 
+- **D77 (Run 105, 2026-07-25, drei parallele Rechercheagenten)** — PDF-Inventar weiterhin erschöpft
+  (Web-Pfad). **D77a Kostenfolge Lärm-Nachmessung bei WP-Reklamation ZH/SZ** (Priorität aus Run
+  103/104 fortgeführt) — amtliche WP-spezifische Kostenregel weiterhin nicht auffindbar, aber
+  Verursacherprinzip Art. 2 USG + Gebührenermächtigung Art. 48 USG + Messanordnung nur bei «Grund
+  zur Annahme» (Art. 36 Abs. 1 LSV) primärquellenbelegt; SZ-Gebührenposten «Kontrolle von Anlagen»
+  bis Fr. 5'000 (Tarif 7.3.2023) nennt nur Bandbreite, nicht Schuldner; Kostenverteilungslogik
+  (Verursacher zahlt bei bestätigter Überschreitung) als eigene, klar markierte Ableitung →
+  neues Destillat `[[waermepumpe-laerm-nachmessung-kostenfolge]]`, Wiki-Artikel
+  `[[waermepumpen-laermschutz]]` ergänzt, FAQ **F150** neu. **D77b SIA 386/BACS-Gebäudeautomation**
+  (neues Themenfeld) — vier BACS-Effizienzklassen A-D (SIA 386.110/SN EN ISO 52120-1), keine
+  generelle CH-Klassenpflicht gefunden; primärquellennah nur Monitoring-Pflicht ab 2'000 m² EBF
+  (Formular EN-141 Kt. ZH) und Betriebsoptimierungspflicht ab 200'000 kWh/Jahr; MuKEn-Wortlaut und
+  SIA-386.110-Normfaktoren nicht am Original verifiziert (PDF-Extraktion technisch gescheitert) →
+  neues Destillat `[[sia-386-bacs-gebaeudeautomation]]`, FAQ **F151** neu. **D77c Erdsonden-
+  Regeneration/Sondenfeld-Dimensionierung** (ergänzt Schwesterdestillat
+  `[[erdwaermesonden-mehrfachfelder-regeneration-zh-sz]]` vom 23.07.2026, bewusst kein Duplikat) —
+  passiv/aktiv-Regenerationssystematik (Freecooling, Solarthermie, reversible WP, PVT-/Aussenluft-
+  kollektoren) branchenübergreifend konsistent; W/m-Entzugsleistungs-Faustwerte je Untergrund +
+  6-10 m Sondenabstand im Feld (klar unterschieden vom 17-73-m-Feld-zu-Feld-Abstand), ausdrücklich
+  nicht als SIA-384/6-Berechnungsgrundlage, nur zur Grössenordnungs-Kommunikation → neues Destillat
+  `[[erdsonden-regeneration-sondenfeld-dimensionierung]]`, FAQ **F152** neu. FAQ-Stand: **152
+  Kernfragen (F1-F152) belegt.**
+
 - **D51 (Run 70, 2026-07-14, gedrosselt)** — Erster Lauf unter der neuen Rule **260714 (Tempo
   drosseln, Wochenlimit 81 %)**: Batch bewusst von 6-10 auf **drei** Themenkomplexe zurueckgenommen
   (Token-Vollgas 260712b ist fuer die Restwoche aufgehoben). PDF-Inventar weiterhin erschoepft, daher

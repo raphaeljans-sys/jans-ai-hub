@@ -2,6 +2,58 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 105: drei parallele Rechercheagenten (WP-Lärm-Nachmessung Kostenfolge,
+## SIA 386/BACS-Gebäudeautomation neu, Erdsonden-Regeneration/Sondenfeld-Dimensionierung)
+
+PDF-Inventar bleibt seit Run 65 vollständig abgearbeitet, daher Web-Pfad. Drei nicht-überlappende
+Themen aus der Run-104-Prioritätenliste (Punkt 4 «Kostenfolge Lärm-Nachmessung» + Punkt 5 «freie
+Themenwahl») bearbeitet, je ein `general-purpose`-Rechercheagent, jeder auf eine eigene Destillat-
+Datei beschränkt (Kollisionsschutz — keine geteilten Register-Edits durch die Agenten, zentral
+konsolidiert).
+
+**1. Kostenfolge WP-Lärm-Nachmessung bei Reklamation (emerging):** Trotz gezielter Recherche
+(Gebührenreglemente, Cercle Bruit, BAFU-Systematik, kantonale Rechtsprechung) keine amtliche,
+WP-spezifische Kostenregel für ZH/SZ gefunden. Primärquellenbelegt: Verursacherprinzip (Art. 2 USG),
+Gebührenermächtigung für Kontrollen (Art. 48 USG, kantonal ausgestaltet), Messanordnung nur bei
+«Grund zur Annahme» einer Überschreitung statt automatisch (Art. 36 Abs. 1 LSV), sowie ein
+SZ-Gebührentarifposten «Kontrolle von Anlagen» bis Fr. 5'000 (Gebührentarif Kt. Schwyz, 7.3.2023,
+Ziff. 13, AfU) — nennt aber nur die Bandbreite, nicht den Kostenschuldner. Kein ZH-Pendant gefunden.
+Die naheliegende Kostenverteilungslogik (Verursacher zahlt bei bestätigter Überschreitung) bleibt
+eine explizit markierte eigene Ableitung, keine bestätigte Norm.
+→ neues Destillat `[[waermepumpe-laerm-nachmessung-kostenfolge]]`, Wiki-Artikel
+`[[waermepumpen-laermschutz]]` um Verfahrens- und Kostenabschnitt ergänzt, FAQ **F150** neu.
+
+**2. SIA 386/BACS-Gebäudeautomation (neues Themenfeld, emerging):** Vier BACS-Effizienzklassen
+A-D nach SIA 386.110 (Schweizer Übernahme der ehemaligen SN EN 15232, heute international durch
+SN EN ISO 52120-1:2022 abgelöst), Klasse C als Referenz. Keine generelle Schweizer Pflicht zu
+einer bestimmten Klasse gefunden; primärquellennah nur die Monitoring-Pflicht ab 2'000 m²
+Energiebezugsfläche bei Nichtwohn-Neubauten (im Kt. ZH über Formular EN-141) sowie die
+Betriebsoptimierungspflicht ab 200'000 kWh/Jahr. Genauer MuKEn-Wortlaut, aktuelle
+SIA-386.110-Normfaktoren und ein möglicher Minergie-Bonus liessen sich am Original nicht
+verifizieren (PDF-Extraktion technisch mehrfach gescheitert); keine belastbare CH-Kostenzahl für
+ein BACS-Klassen-Upgrade gefunden.
+→ neues Destillat `[[sia-386-bacs-gebaeudeautomation]]`, FAQ **F151** neu, neues Themenfeld.
+
+**3. Erdsonden-Regeneration/Sondenfeld-Dimensionierung (emerging, ergänzt Schwesterdestillat):**
+Bewusst als Ergänzung zum bestehenden `[[erdwaermesonden-mehrfachfelder-regeneration-zh-sz]]`
+(23.07.2026) angelegt, nicht als Duplikat — dieses deckt bereits SIA-384/6-Simulationsschwellen
+und die Stadt-Zürich-Studie 2017 primärquellennah ab. Neu: passiv/aktiv-Regenerationssystematik
+(Freecooling/Geocooling, Solarthermie, reversible Wärmepumpe, Aussenluft-/PVT-Kollektoren),
+konkrete W/m-Entzugsleistungs-Faustwerte je Untergrund (< 25 bis ~85 W/m) und 6-10 m Sondenabstand
+**innerhalb** eines Felds (klar unterschieden vom 17-73-m-Feld-zu-Feld-Abstand des
+Schwesterdestillats). Ausdrücklich markiert: diese Faustwerte sind laut Fachpraxis selbst nicht
+als SIA-384/6-Berechnungsgrundlage geeignet, nur zur Grössenordnungs-Kommunikation gegenüber dem
+Bauherrn.
+→ neues Destillat `[[erdsonden-regeneration-sondenfeld-dimensionierung]]`, FAQ **F152** neu.
+
+Register nachgeführt: `destillate/INDEX.md`, `wiki/INDEX.md` (FAQ-Zählerzeile auf 152 + Run-105-
+Notiz), `wiki/BAUHERREN-FAQ.md` (F150-F152 neu), `wiki/waermepumpen-laermschutz.md` gewachsen,
+`training/curriculum.md` (D77a-c), `wiki/QUESTIONS.md` (E92 + fortgeschriebene Prioritätenliste,
+inkl. Hinweis auf zunehmende Themenfindungs-Sättigung), `raw/_INGESTED.md`.
+Vollständiger Lauf-Report: `outputs/2026-07-25_energie-run105.md`.
+
+FAQ-Stand: **152 Kernfragen (F1-F152) belegt.**
+
 ## 2026-07-25 — Run 104: vier parallele Rechercheagenten (WP-Lärm SZ established, SIA-380/2-vs-382/1
 ## Normwechsel aufgelöst, VDI 3807 Krankenhaus-Benchmark neu, BVGer Smart-Meter-Urteil established)
 
