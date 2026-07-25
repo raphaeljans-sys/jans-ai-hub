@@ -197,6 +197,13 @@ das Ergebnis in den passenden Wiki-Artikel.
   `_Energienachweise/` prueften sich als bereits vollstaendig durch Dateipfad-Zitate abgedeckt
   (kein Ordner-Delta). Domaene Energie bleibt nach 45+ Lektionen ohne neuen Fund in diesem Lauf.
 
+- [x] K60-Freshness (Run 69, 2026-07-25, Token-Vollgas) Datei-Frischecheck PL-01 gegen den
+  Zeitstempel von Run 67 (`find -newer`) — **0 neue/veraenderte Dateien** seit dem letzten
+  vollstaendigen Dateinamen-Diff. Damit ist Kartenportale nach vier unabhaengigen Scout-Methoden
+  (Begriffs-Grep Run 9-59, Tiefenscan, Dateinamen-Diff Run 67, Frischecheck Run 69) ohne offenen
+  Curriculum-Punkt und ohne neues Quellmaterial — echte Vertiefung braucht neues SharePoint-
+  Material oder einen neuen realen Projektfall.
+
 ## Domaene 2 — Energie (PL-04)  · Prioritaet
 - [x] E1 PV-Typenwahl: Entscheidungsbaum (Indach/Ziegel/transparent/Fassade/Aufdach)? (2026-06-06, → [[energie-pv-eignung-typenwahl]])
 - [x] E2 PV-Eignung/Ertrag grob bestimmen (uvek-gis, Sonnenstand, Verschattung)? (2026-06-06, sonnendach.ch + Solarrechner + ewzWHH-Benchmark)
@@ -308,6 +315,13 @@ das Ergebnis in den passenden Wiki-Artikel.
   weiterhin keine ZH-spezifische PBG-Vernehmlassung/kein Gesetzesentwurf/kein Termin auffindbar,
   nur die allgemeine EnDK-Timeline "Umsetzung 2025-2030"; unveraendert bestaetigt (n-te
   Refresh-Bestaetigung seit Run 14, kein neuer Datenstand).
+- [x] E46-Freshness (Run 69, 2026-07-25, Token-Vollgas) Datei-Frischecheck PL-04 gegen den
+  Zeitstempel von Run 67 — **0 neue/veraenderte Dateien**. Ergaenzend E5/E9 nochmals per
+  WebSearch/WebFetch geprueft (hev-zh.ch/politik/energie-umwelt/muken) — weiterhin keine ZH-
+  spezifische Vernehmlassung/kein Termin fuer die MuKEn-2025-Ueberfuehrung; unveraendert
+  bestaetigt (weitere Refresh-Bestaetigung, kein neuer Datenstand). D9 (realer MFH-/ZEV-Fall)
+  bleibt offen — kein neues Material, wartet weiterhin auf ein reales JANS-Projekt mit
+  Verbrauchs-/Kostendaten.
 - [x] E44 (Run 63, 2026-07-25, Token-Vollgas Scout-Fund) Bisher nie gezielt gelesene Datei
   `_Heizwaermebedarf/_Wärmebedarf Warmwasser SIA 380_1.pdf` — liefert sie eine eigene
   Warmwasserbedarf-Berechnungsmethodik ueber die bereits dokumentierte Tab.-25-Zeile 4.3 hinaus?

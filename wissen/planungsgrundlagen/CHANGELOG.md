@@ -2,6 +2,23 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 — Training Run 69 (Kartenportale + Energie, Token-Vollgas): Frischecheck 0 neue Dateien, MuKEn-ZH-Refresh unveraendert
+Rotation zurueck auf Kartenportale (PL-01) + Energie (PL-04) nach Run 68. Statt eines weiteren
+Dateinamens-Diffs (bereits Run 67 vollstaendig gelaufen) diesmal ein **Datei-Frischecheck**
+(`find -newer` gegen den Run-67-Report-Zeitstempel) fuer beide SharePoint-Ordner: **0 neue oder
+veraenderte Dateien** in PL-01 und PL-04 seit Run 67 — kein neues Quellmaterial fuer eine echte
+Vertiefung vorhanden. Damit sind nach vier unabhaengigen Methoden (Begriffs-Grep, Tiefenscan,
+Dateinamen-Diff, Frischecheck) **alle vier Domaenen der KB** (inkl. Recht/Norm + Brandschutz aus
+Run 68) ohne offenen Curriculum-Punkt und ohne neues Rohmaterial. Ergaenzend per WebSearch/
+WebFetch geprueft: MuKEn-2025-ZH-Ueberfuehrung (E5/E9) weiterhin ohne Vernehmlassungs-/
+Gesetzesentwurf-Termin (hev-zh.ch) — unveraendert bestaetigt, n-te Refresh-Bestaetigung seit
+Run 14. D9 (realer MFH-/ZEV-Betriebskostenfall) bleibt mangels Datenmaterial offen. Bewusst
+**keine kuenstlichen Zusatzfragen erzeugt** (Rule wissens-bibliothekar: nichts erfinden, keine
+Pseudo-Tiefe) — bei durchweg negativem Befund in allen vier Domaenen ueber mehrere Laeufe hinweg
+ist eine echte Ruecktaktungs-Empfehlung an Raphael faelliger als ein weiterer forcierter Lauf
+(PROGRAMM.md §Intensivphase: Ruecktaktung "vorschlagen, nicht stillschweigend umsetzen"). Details:
+`outputs/2026-07-25_training-run69.md`.
+
 ## 2026-07-25 — Training Run 68 (Recht/Norm + Brandschutz, Token-Vollgas): Erschoepfung dreifach bestaetigt + Health-Check-Falschmeldung korrigiert
 Rotation zurueck auf Recht/Norm (PL-02) + Brandschutz (PL-03) nach Run 67. Dritte, unabhaengige
 Scout-Methode (voller Dateinamen-Diff PL-02/PL-03 bis maxdepth 4, ~966 Ordnereintraege) neben
