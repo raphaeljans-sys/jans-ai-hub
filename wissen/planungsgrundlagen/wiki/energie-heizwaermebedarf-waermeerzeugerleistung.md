@@ -96,6 +96,12 @@ Kategorie **VIII "Spitaeler" ist die einschlaegige SIA-380/1-Kategorie fuer Heal
 Plausibilitaets-Check gegen ein Software-Resultat (SIA-380/1-zertifiziertes Programm, siehe
 Formularliste `endk.ch`) heranziehen, statt die 11-Schritt-Rechnung von Hand zu fuehren.
 
+**Re-Check ohne Delta (E44, Run 63, 2026-07-25):** die bisher nie gezielt gelesene Datei
+`PL - 04 Energie/_Heizwaermebedarf/_Wärmebedarf Warmwasser SIA 380_1.pdf` ist **byte-identisch**
+dieselbe Doppelseite «Tabelle 24/25» wie oben bereits vollstaendig erfasst (Reader "Energetische
+Gesamtoptimierung" S. 108/109) — bestaetigter Nicht-Fund, kein neuer Berechnungsweg fuer Q_ww ueber
+die Tab.-25-Zeile 4.3 hinaus.
+
 ## 3 — Waermeerzeugerleistung (SIA 384/1, SIA 384.201)
 
 Getrennte Frage von Q_h: **wie gross muss der Kessel/die Waermepumpe sein?** Zwei Wege je nach

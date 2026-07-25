@@ -162,7 +162,7 @@ bleibt eine offene Bring-Schuld (siehe `QUESTIONS.md`).
 | SIA 265 | 2012 | 2012✓ · 2003✗ | Bestand 2003 → **veraltet** (2013 gueltig: 2012) |
 | SIA 265/1 | 2009 | 2009✓ · 2003✗ |  |
 | SIA 266 | 2003 | 2003✓ | Bestand 2003 = gueltig 2013 ✓ |
-| SIA 266/1 | 2003 | 2003✓ |  |
+| SIA 266/1 | 2003 | 2003✓ | Destillat `sia-266-1-2003.md` (Run 22, 260725, speculative). Prüf-/Deklarationsnorm zu SIA 266 (WIE, nicht WAS): zwei SIA-eigene Prüfverfahren (Ziff. 2.2 Mauerwerksdruckfestigkeit, Ziff. 2.3 Steinquerzugfestigkeit) + Ergänzung zum EN-772-11-Verfahren (Ziff. 2.4). Bestandsfalle: liegt deutsch als `alle/i/266_1_d.pdf` im italienischen Sprachordner. ⚠ Offen: ob eine neuere Ausgabe (vermutlich 2015, parallel zur SIA-266-Revision) existiert |
 | SIA 266/2 | 2012 | 2012✓ |  |
 | SIA 267 | 2003 | 2003✓ | Bestand 2003 = gueltig 2013 ✓ |
 | SIA 267/1 | 2003 | 2003✓ |  |
@@ -214,13 +214,14 @@ bleibt eine offene Bring-Schuld (siehe `QUESTIONS.md`).
 | SIA 384/2 | —(alle zurueckgezogen) | 1982✗ |  |
 | SIA 384/4 | —(alle zurueckgezogen) | 1987✗ |  |
 | SIA 384/6 | 2010 | 2010✓ |  |
-| SIA 385/1 | 2011 | 2011✓ · 2000✗ |  |
+| SIA 385/1 | 2011 | 2011✓ · 2000✗ | ⚠ **NUMMERN-WIEDERVERWENDUNG — Falle, geprüft Run 22 (260725):** Die Nummer 385/1 bezeichnet zwei sachlich UNVERWANDTE Normen. 385/1:2011 = «Anlagen für Trinkwarmwasser in Gebäuden» (Bestand: nur 6-seitige Vorschau, Bring-Schuld). 385/1:2000 = «Wasser und Wasseraufbereitungsanlagen in öffentlichen Schwimmbädern» (ersetzte 385/1:1982 + Empf. 385/11:1990 + 385/12:1994; ging 2011 in **385/9** auf). Die Datei `alle/f/385_1_f.pdf` (60 S., französisch) ist die **Schwimmbad-Ausgabe 2000** und damit **KEIN** Ersatz für den fehlenden Trinkwarmwasser-Volltext — ihre Legionellen-Angaben betreffen Beckenwasser/Duschen, nicht Speicher-/Zirkulationstemperaturen im Hochbau. Die in QUESTIONS vorgeschlagene «billigste Lückenschluss»-Prüfung dieser Datei ist damit erledigt und negativ; Abschnitt B dieses Registers dokumentierte die Umnummerierung bereits |
 | SIA 385/3 | —(alle zurueckgezogen) | 1991✗ |  |
 | SIA 385/9 | 2011 | 2011✓ |  |
 | SIA 385/11 | —(alle zurueckgezogen) | 1990✗ |  |
 | SIA 385/12 | —(alle zurueckgezogen) | 1994✗ |  |
 | SIA 400 | 2000 | 2000✓ · 1985✗ | Bestand 2000 = gueltig 2013 ✓ |
 | SIA 405 | 2012 | 2012✓ · 1998✗ | Bestand 1998 → **veraltet** (2013 gueltig: 2012) |
+| SIA 410 | 1978, Teilrevision 1986 (in Kraft 01.06.1986); Kap. 6 MSR separat genehmigt 28.04.1993 | 1986✓ (dreisprachig d/f/i) | **NEU erfasst Run 22 (260725)** — hatte bis dahin keinen Register-Eintrag. «Kennzeichnung von Installationen in Gebaeuden — Sinnbilder fuer die Haustechnik», **Empfehlung** (nicht Norm), Kennzeichnung empfehlend (Ziff. 0.1/0.2). Destillat `sia-410-1986.md` (speculative). Bestandsfalle: liegt als `alle/f/410_d_f_i.pdf` im franzoesischen Sprachordner. ⚠ Aktualitaet nach 1993 NICHT verifiziert (Hauptteil ~40 J. alt) — vor projektbezogener Verwendung am SIA-Normenverzeichnis pruefen. SIA 410/1 (Farbcode, in Ziff. 2.5.7 referenziert) nicht im Bestand |
 | SIA 414 | 1980 | 1980✓ | Bestand 1980 = gueltig 2013 ✓ |
 | SIA 416 | 2003 | 2003✓ | gilt (Ersatz für SIA 416:1993 + SIA 116:1952, siehe Abschnitt B); Bestand-Abgleich siehe Run-2-Präzisierungen unten ("SIA 416 \| 2003 \| SIA 416:1993 + SIA 116:1952 \| gilt") |
 | SIA 416/1 | 2007 | 2007✓ |  |
@@ -360,8 +361,9 @@ Gültigkeitsangaben direkt aus dem Titelblatt/Vorwort des jeweiligen Destillats 
 | SIA 416 | 2003 | SIA 416:1993 + SIA 116:1952 | gilt (bestätigt Register-Abschnitt B «116→416») |
 | SIA 451 | 1992 | SIA 451:1989 | gilt; technisch (LV-Datenformate), Kontext CRB/NPK |
 | VKF 1-15 Brandschutznorm | 2015 (in Kraft 01.01.2015) | BSN 2003 | gilt; BSV 2015 rechtsgültig (BSV 2026 frühestens nach IOTH-Plenum 03/2027, siehe QUESTIONS) |
-| VKF-BRL 16-15 Flucht-/Rettungswege | 2015; jüngste Fassung **Stand 01.12.2022** (Änderungsstufen: ABSV 22.03.2017, TKB 09.06.2021, Fehlerkorrektur 01.12.2022) | BRL 16-03 | gilt; ⚠ Destillat basiert auf Fassung 01.01.2017 — nur die Personenbelegung Verkauf ist auf 2022 nachgeführt (Wissens-Chef Run 8, 18.07.2026), übrige Deltas ungeprüft |
-| VKF-BRL 14-15 Verwendung von Baustoffen | 2015 | BRL 13-03/14-03 (RF-Klassen) | gilt |
+| VKF-BRL 16-15 Flucht-/Rettungswege | Ausgabe 2015, Fassung 01.01.2017 mit Zusatzvermerk **«Stand 01.12.2022»** (Änderungsstufen: ABSV 22.03.2017, TKB 09.06.2021, Fehlerkorrektur 01.12.2022 — alle drei laut Änderungsliste S. 2 «im Anhang») | BRL 16-03 | gilt; **Fassungs-Deltas geprüft Run 22 (260725), Datei `PL - 03 Brandschutz/…/BSPUB-1394520214-85.pdf`.** Ziff. 3.7 Schleusenpflicht Einstellräume: Bezugsgrösse **Brandabschnittsfläche > 1'200 m²**, in BEIDEN Fassungen wortidentisch (Haupttext S. 12) — die Meldung aus `planungsgrundlagen`, die Bezugsfläche sei von «Geschossfläche» geändert worden, betrifft nur die erläuternde Anhang-Einleitungszeile S. 33 und ist als materielle Änderung **widerlegt**. ⚠ ABER: die Personenbelegung Verkauf (Ziff. 3.5.2, Anhang S. 24) ist eine **materielle Kennwert-Änderung** — dort trägt allein der Anhang die Zahlen (Haupttext sagt nur «flächenbezogene Annahmen»): «Verkaufsgeschäfte 0.5/0.35/0.25» ersetzt durch «Fachmärkte 0.1/0.1, Supermärkte 0.38/0.15, hochfrequentierte Supermärkte 0.45/0.21» + neue Fussnote. Ferner ABSV-Änderung auch auf S. 16 (Bildlegenden von «Horizontaler Fluchtweg» auf «Gesamtlänge von Fluchtwegen» umbenannt) |
+| VKF-BRL 14-15 Verwendung von Baustoffen | Ausgabe 2015; **geltende Fassung 01.01.2017** (IOTH-Beschluss 22.09.2016) | BRL 13-03/14-03 (RF-Klassen) | gilt; **Fassung 2017 nachgetragen Run 22 (260725)** aus `PL - 03 Brandschutz/…/BSPUB-1394520214-77.pdf` — Destillat beruhte bis dahin auf der überholten Fassung 01.01.2015. 13 materielle Änderungen, u.a. neuer neunteiliger cr-Ausnahmekatalog (Ziff. 2 Abs. 3, zuvor nur drei Ausnahmen), Wegfall der Hochhaus-Sonderanforderung für Rohrleitungen/-dämmungen (Ziff. 5.1.2: einheitlich RF3/cr statt RF1/RF2 an Hochhäusern), Wegfall der RF1-Gehäusepflicht für Rauminformationssysteme in vertikalen Fluchtwegen (Ziff. 5.3). ⚠ Delta noch NICHT adversarial verifiziert; Anhang der Fassung 2017 nicht ausgewertet |
+| VKF-BRL 13-15 Baustoffe und Bauteile — Klassifikation | Ausgabe 2015; **geltende Fassung 01.01.2017** (IOTH-Beschluss 22.09.2016: Ziff. 2.4.1 Tabelle S. 8, Anhang zu Ziff. 3.4 S. 24) | — | gilt; **Fassung 2017 nachgetragen Run 22 (260725)** aus `PL - 03 Brandschutz/…/BSPUB-1394520214-71.pdf` — Destillat beruhte bis dahin auf der überholten Fassung 01.01.2015. Materiell: die EN-Klassen **E/E-d2 und EL/EL-d2 sind von RF4 auf RF3 (cr) umgestuft**, RF4 hat 2017 kein SN-EN-13501-1-Äquivalent mehr. Ausserhalb der amtlichen Änderungsliste zusätzlich gefunden: EN-Normzitate in Ziff. 2.2.6 mit Ausgabejahr versehen. ⚠ Delta noch NICHT adversarial verifiziert |
 | VKF-BRL 27-15 Nachweisverfahren | 2015 (IVTH-Beschluss 18.09.2014, verbindlich für alle Kantone) | BRL 27-03 | gilt |
 
 ## Mini-Run-2-Reconcile (12.07.2026, Mac Mini — Destillate ohne Register-/Inventar-Eintrag nachgezogen)

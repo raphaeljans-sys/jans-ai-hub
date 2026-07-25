@@ -1,5 +1,149 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
+## Run 22 (MacBook Pro, 25.07.2026) — Rückstands-Abbau statt achter Vollständigkeits-Bestätigung
+
+**Ausgangslage.** Die Runs 15-21 haben SIA/VKF sieben Mal in Folge als «komplett» gemeldet, Run 21
+(heute, wenige Stunden vor diesem Lauf) mit dem Schluss «keine reale Quelle zu bearbeiten». Run 22 hat
+deshalb keine achte Bestätigung produziert, sondern die **Messgrösse** geprüft, auf der die sieben
+Bestätigungen beruhen — und den Rückstand abgebaut, der in dieser Datei lag.
+
+**Kernbefund: die Vollständigkeits-Metrik war zu schmal.** «0 offene `[ ]` im Inventar» plus «keine
+neuen Dateien» misst ausschliesslich Datei-**Existenz**. Nicht gemessen wurden: (a) die **Klassierung**
+der Dateien, (b) der **Fassungsstand** der Destillate, (c) der Bestand einer **zweiten Ablage**
+(`PL - 03 Brandschutz/`, die das Inventar nicht abdeckt), (d) die hier gesammelten offenen Fragen.
+In allen vier Punkten lag reale Arbeit. Die Aussage «SIA/VKF KOMPLETT» gilt weiterhin für die
+Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass nichts zu tun ist.
+
+### Geschlossen in Run 22 (mit Beleg)
+
+- [x] **Beherbergungs-Kategorien [a]/[b]/[c] definiert** (war als «kritisch für Healthcare» offen).
+  Fundstelle: VKF Brandschutznorm 1-15de, Art. 13 Abs. 2 lit. a (S. 8), wortnah wiederholt in
+  BRL 10-15de «Begriffe und Definitionen» (S. 12). Kriterium: ≥ 20 Personen plus Angewiesenheit auf
+  fremde Hilfe ([a]) bzw. nicht ([b]); [c] = abgelegene Betriebe, im Anhang (S. 40) über vier
+  **kumulativ** («gleichzeitig erfüllt») zu erfüllende Bedingungen präzisiert, wobei Photovoltaik und
+  Notstromaggregate ausdrücklich als ungenügende Stromversorgung gelten. Zuordnung: Spital/Alters-/
+  Pflegeheim → [a]; Hotel/Pension/Ferienheim → [b]. Neuer Artikel `wiki/vkf-beherbergungskategorien.md`.
+  Adversarial geprüft: **BEANSTANDET**, 12 Korrekturen eingearbeitet (5 falsche Seitenzahlen, gemischte
+  Ausgaben 2015/2017, eine Modalitäts-Härtung, eine falsch als [a]-spezifisch dargestellte Regel).
+  Status bleibt `speculative` bis zur Re-Verifikation.
+- [x] **«Betreutes Wohnen» — die Negativ-Aussage war falsch.** Der Begriff fehlt in den VKF-Quellen,
+  aber BRL 10-15de, Stichwort «Wohnbauten» (S. 35), nennt **Alterswohnungen** ausdrücklich als Wohnbauten
+  (Nutzung «Wohnen», BRL 16-15de Ziff. 3.2). Praxisfolge: betreutes Wohnen ohne Pflegeabhängigkeit ist
+  als Wohnbau zu behandeln; erst «auf fremde Hilfe angewiesen» bei ≥ 20 Personen führt in [a].
+- [x] **P1 — VKF-BRL 16-15 Fassung «Stand 01.12.2022» geprüft** (Datei
+  `PL - 03 Brandschutz/02 Brandschutzrichtlinien 2015-17-22/BSPUB-1394520214-85.pdf`). Die
+  Schwerpunkt-Teilfrage ist entschieden: Ziff. 3.7 Abs. 1 nennt in **beiden** Fassungen wortidentisch
+  die **Brandabschnittsfläche > 1'200 m²** (Haupttext S. 12). Unser 2017er-Destillat hatte die
+  Formulierung also **nicht** geglättet; die Meldung aus `planungsgrundlagen`, die Bezugsfläche sei
+  geändert worden, hat den richtigen Textbefund (das Wort «Geschossfläche» existierte und wurde
+  ersetzt), zieht daraus aber die falsche Folgerung — geändert wurde nur die erläuternde
+  Anhang-Einleitungszeile auf S. 33, die dem eigenen Haupttext widersprach. Ebenso Ziff. 2.4.3/2.4.4:
+  Haupttext (35 m / 50 m, S. 6) unverändert.
+- [x] **SIA 385/1 — die französische Bestandsvariante ist KEIN Lückenschluss** (war als «billigster
+  Lückenschluss» vorgemerkt). `alle/f/385_1_f.pdf` (60 S.) ist die Ausgabe **2000** und behandelt
+  «Wasser und Wasseraufbereitungsanlagen in öffentlichen Schwimmbädern» — ein sachlich unverwandtes
+  Thema. Die Nummer 385/1 wurde 2011 für «Anlagen für Trinkwarmwasser in Gebäuden» wiederverwendet
+  (die Schwimmbad-Materie ging in 385/9 auf). Die Legionellen-Angaben der 2000er betreffen Beckenwasser
+  und Duschen, nicht Speicher-/Zirkulationstemperaturen im Hochbau. **Lehre:** Abschnitt B dieses
+  Registers dokumentierte die Umnummerierung bereits — die Prüfung hätte im eigenen REGISTER beantwortet
+  werden können, statt als Bring-Schuld-Umweg über ein PDF zu laufen. Register vor Bestandssuche lesen.
+- [x] **SIA 112 — Restpunkt «OCR-Verdacht» geklärt: es war ein Destillat-Fehler, kein Scanfehler.**
+  Volltext-OCR aller 26 Seiten von `alle/112.2014.pdf`: SIA 112 nennt die Ordnungen 102/103/104/105/108
+  an vier Stellen (S. 4, 5, 6, 10) durchgehend als reine Zahlenaufzählung und ordnet **an keiner Stelle**
+  einer Nummer eine Fachrichtung zu. Die Fehlzuordnung des Erst-Destillats war eine unbelegte eigene
+  Ergänzung. Die Korrektur vom 21.07.2026 bleibt gültig. Notiz im Destillat, Commit `af39f66a`.
+- [x] **VKF-Merkblatt 2001-15 Solaranlagen — Fassungsfrage entschieden, soweit möglich.** Die Dateien in
+  PL-02 und PL-03 sind **byte-identisch** (MD5 `56fb4bab…`, 11 S.): trotz Ordnername «2015-17-22» liegt
+  dort **keine** 2022er-Fassung. Belegt ist Ausgabe/Fassung **06.03.2015** (S. 1) und für Unterdachbahnen
+  **RF4 (cr)**, Modalität «dürfen» (Ziff. 3.2.3, S. 8). Der von `planungsgrundlagen` gemeldete Delta
+  (RF3(cr)) ist damit **unentschieden** — weder bestätigt noch widerlegt. Für die PV-Beratung gilt bis zur
+  Beschaffung verbindlich der 2015-Stand RF4(cr) mit ausdrücklichem Fassungs-Vorbehalt.
+- [x] **STALE-BEFUND: «SIA 118:1991 noch nicht destilliert» war seit Langem überholt** —
+  `destillate/sia-118-1991.md` existiert und ist `established` (Volltext, Kennzahlen Modell-D-verifiziert
+  260712). Eintrag unten korrigiert.
+- [x] **STALE-BEFUND: «Merkblatt-Serie SIA 2001-2027 (18 Positionen) noch nicht destilliert» war
+  überholt** — die Serie ist als `sia-mb-2001-2005` … `sia-mb-2027-2006` destilliert (Run 16, 260719).
+  Eintrag unten korrigiert.
+
+### Neu geschlossen: zwei Normen, die als «Sprachvariante» unsichtbar waren
+
+- [x] **SIA 266/1:2003 «Mauerwerk – Ergänzende Festlegungen» destilliert.** Die Datei
+  `alle/i/266_1_d.pdf` ist **deutsch** und lag nur falsch im italienischen Sprachordner; sie war deshalb
+  als «Sprachvariante» abgehakt (und die `/1`-Ergänzungsnormen galten als «möglicherweise nicht im
+  Bestand»). Prüf-/Deklarationsnorm zu SIA 266: zwei SIA-eigene Prüfverfahren plus eine Ergänzung zum
+  EN-772-11-Verfahren. Adversarial geprüft: **BEANSTANDET** — 13 Befunde korrigiert (u.a. 31 statt «rund
+  20» Verweisungen; «zwei» statt «drei» eigene Prüfverfahren; «sollte»-Modalität in Ziff. 2.2.4; die
+  Aussage «liefert keine Kennwerte» war falsch, Tabelle 1 führt charakteristische Mindestwerte) und
+  9 Lücken nachgetragen (Ziff. 2.3.2/2.3.4/2.3.6, Figur-1-Kennwerte, Fussnoten 1)-8) inkl. der dritten
+  Formel Exk = 1000 fxk). Alle Zahlenwerte und Formeln 1-2 hielten der Prüfung stand.
+- [x] **SIA 410:1986 «Kennzeichnung von Installationen in Gebäuden — Sinnbilder für die Haustechnik»
+  destilliert** (36 S. vollständig). `alle/f/410_d_f_i.pdf` ist **dreisprachig d/f/i** und enthält den
+  deutschen Volltext; als «Sprachvariante» abgehakt und **ohne jeden REGISTER-Eintrag**. Wichtig für die
+  Anwendung: es ist eine **Empfehlung**, nicht eine Norm, und die Kennzeichnung ist **empfehlend**
+  formuliert (Ziff. 0.1/0.2, S. 4). Systematik: sechs Grundsinnbilder (Ziff. 1.1, S. 5) im Baukastenprinzip,
+  gegliedert nach Gewerk (Heizung S. 14-18, Lüftung/Klima S. 19-23, Kälte S. 24-26, Sanitär S. 27-32,
+  MSR-Ergänzung 1993 S. 33-34).
+- **Systematische Gegenprobe durchgeführt:** alle drei Sprachordner (`alle/e`, `alle/f`, `alle/i`) auf
+  deutsche Namensmuster (`_d.pdf`, `_dfi`, `_de`) und Titel-Metadaten geprüft — **genau diese zwei Fälle**,
+  keine weiteren. Damit ist die Klassierungslücke geschlossen, nicht nur bepflastert.
+
+### Neu offen (aus Run 22)
+
+- [ ] **VERIFIKATION AUSSTEHEND für vier heute erzeugte/erweiterte Artefakte.** Alle vier sind einfach
+  destilliert und noch nicht adversarial gegengeprüft; ihre Inhalte dürfen bis dahin nicht als belegte
+  Fundstelle in ausgehende Dokumente wandern:
+  `sia-266-1-2003.md` (nach Korrektur re-verifizieren), `sia-410-1986.md`,
+  sowie die **Fassungs-Deltas 2017** in `vkf-brl-13-15-baustoffe-bauteile.md` und
+  `vkf-brl-verwendung-baustoffe.md`, und `wiki/vkf-beherbergungskategorien.md` (nach Korrektur).
+  Das ist der nächste Lauf: Retro-Verifikation dieser fünf, bevor irgendeine neue Quelle angefasst wird.
+- [ ] **P1-FOLGEARBEIT — VKF-BRL 16-15 Ziff. 3.5.2 Personenbelegung ist eine MATERIELLE
+  Kennwert-Änderung und im Destillat nur teilweise nachgeführt.** Anders als bei Ziff. 3.7 trägt hier
+  **allein der Anhang** die Zahlen (der Haupttext sagt nur «von flächenbezogenen Annahmen ist auszugehen»),
+  weshalb die Einordnung «nur erläuternder Anhang, keine materielle Änderung» für diese Ziffer NICHT
+  trägt. Ersetzt wurde «Verkaufsgeschäfte 0.5 / 0.35 / 0.25» durch «Fachmärkte 0.1 / 0.1, Supermärkte
+  0.38 / 0.15, hochfrequentierte Supermärkte 0.45 / 0.21» plus neue Fussnote [2] (Anhang S. 24). Wirkt
+  direkt auf Ausgangs- und Fluchtwegbreiten. Vollständig nachführen und verifizieren.
+- [ ] **Übersehene ABSV-Änderung S. 16 der BRL 16-15 nachtragen.** Die Änderungsliste nennt «Seiten 15
+  **und 16**»; nachgeführt war nur S. 15. Auf S. 16 ist die eingebettete Zeichnung ausgetauscht und die
+  zwei Bildlegenden sind von «Horizontaler Fluchtweg …» auf «Gesamtlänge von Fluchtwegen …» umbenannt.
+  Ferner zu korrigieren: die Diagnose «vertauschte Bildunterschrift 2.4.3/2.4.4» ist falsch — es wurde
+  nichts vertauscht, sondern durchgängig umbenannt; beide Zeichnungen stehen in **beiden** Fassungen unter
+  der Überschrift zu Ziff. 2.4.4, und die Überschrift zu Ziff. 2.4.3 hat in keiner Fassung eine Zeichnung.
+- [ ] **METHODIK-PFLICHT (neu, gilt ab sofort für alle Fassungsvergleiche): `pdftotext` allein ist bei
+  Normen mit Prinzipskizzen strukturell blind.** Masse, Legenden und Begriffe liegen dort teils als
+  Rastertext INNERHALB der Zeichnungen; ein Volltextvergleich sieht sie nicht. Eine Aussage «alle übrigen
+  Werte identisch» ist ohne Bildvergleich unbelegt. Verbindliches Vorgehen: `pdfimages -list` über beide
+  Fassungen, Paarvergleich nach Seite/Dimension/Bytegrösse, bei Abweichung Extraktion und Sichtkontrolle.
+  Genau so wurde die übersehene S.-16-Änderung gefunden. Gehört in `training/PROGRAMM.md`.
+- [ ] **SIA 266/1: neuere Ausgabe abklären.** Das Vorwort kündigt kurze Revisionszyklen an; parallel zur
+  Revision von SIA 266 ist eine Ausgabe 2015 plausibel, am 12-seitigen Original aber nicht verifizierbar.
+  Ein `established`-Status für die Fassung 2003 wäre ohne diese Abklärung irreführend. Bring-Schuld
+  (SIA-Normenverzeichnis / Abo).
+- [ ] **SIA 410: Aktualität und SIA 410/1.** Der Hauptteil ist von 1978/1986, Kap. 6 von 1993 — eine
+  zwischenzeitliche Revision oder Ablösung ist plausibel, aber unbelegt; vor projektbezogener Verwendung
+  am SIA-Normenverzeichnis prüfen. **SIA 410/1** (der eigentliche Farbcode, in Ziff. 2.5.7 S. 17
+  referenziert) ist nicht im Bestand. Ebenfalls ausserhalb des Geltungsbereichs und nicht recherchiert:
+  die SEV-Sinnbilder für Elektro.
+- [ ] **Der Normen-Bestand umfasst ZWEI Ablagen — das Inventar deckt nur eine ab.** Die geltenden
+  VKF-Fassungen 2017/2022 liegen in `PL - 03 Brandschutz/`, das `training/norm-inventar.md` scannt aber
+  nur `PL - 02_Recht_Norm/02_Normen/`. Deshalb konnten zwei Destillate unbemerkt auf der Fassung 2015
+  stehen, während die Fassung 2017 im Haus lag. **Zu entscheiden:** PL-03 in das Inventar aufnehmen (mit
+  Fassungs-Spalte) oder als bewusst getrennte Brandschutz-Ablage führen und im Skill `normen` einen
+  Pflicht-Querblick verankern. Bis dahin gilt für jede VKF-Fundstelle: **vor Verwendung prüfen, ob in
+  PL-03 eine jüngere Fassung liegt.** Vorarbeit: `outputs/2026-07-25_pl03-fassungs-mapping.md`
+  identifiziert die vier nichtsprechenden `BSPUB-*.pdf`-Dateien.
+- [ ] **Cross-Contamination erneut aufgetreten (Rule 260724).** Der Selfcommit `3fe6585b` trägt die
+  Meldung «twin-mail-training: Batch 61», enthält aber sämtliche heutigen Normen-Dateien (Destillate,
+  CHANGELOG, Inventar, Report) sowie Dateien der KB `energie` und `twin`. Kein Datenverlust, aber die
+  Commit-Historie ordnet fremde Arbeit dem falschen Loop zu und erschwert die Nachvollziehbarkeit.
+  Ursache ist das pathspec-lose Committen im geteilten Index. Beobachten, ob der native Synology-Cron
+  hier ebenfalls pathspec-begrenzt arbeiten müsste.
+- [ ] **Doppelte Run-Nummer 21 im Protokoll.** Zwei Läufe haben heute unabhängig die Nummer 21 belegt;
+  dieser Lauf führt deshalb die Nummer **22**. Der Report `outputs/2026-07-25_normen-nacht-run21.md`
+  bleibt als Protokoll unverändert stehen, seine Kernaussage («keine reale Quelle zu bearbeiten»,
+  «7. Bestätigung der Endbedingung») ist durch Run 22 jedoch überholt. Künftig Run-Nummer erst nach
+  Sicht der jüngsten `outputs/`-Datei belegen.
+
 - [x] **Wissenscheck Phase 1 (Health-Check) durchgefuehrt (2026-07-24, Mac Mini) — mit
   budget-bewusster Methodik statt Volltext-Audit.** Der Vorbehalt vom 23.07. (voller
   Struktur-Audit sprengt das Nachtschicht-Budget) hat sich bestaetigt fuer eine Volltext-
@@ -95,16 +239,21 @@
   2006 (2013-Benchmark), KB energie arbeitet bereits mit **SIA 181:2020**. Aktuelle Ausgabe am
   Original erfassen, dann REGISTER Zeile 109 auf 2020 heben. Ausgabe kostenpflichtig (SIA-Shop,
   Bring-Schuld Raphael — Claude tätigt keine Käufe).
-- [ ] **VKF-Merkblatt 2001-15 Solaranlagen — Ausgabe 2022 (Wissens-Chef Run 3, 2026-07-13):**
-  Destillat führt Ausgabe 2015; belegte Rev. 01.01.2022 (Beleg planungsgrundlagen
-  `wiki/energie-pv-brandschutz`). Delta u.a. Unterdachbahnen RF3(cr) statt RF4(cr). 2022er
-  Original re-destillieren.
+- [x] **GEKLÄRT Run 22 (260725), soweit ohne Beschaffung möglich: die 2022er-Fassung ist NICHT im
+  Bestand.** Die Dateien in PL-02 und PL-03 sind byte-identisch (MD5 `56fb4bab…`, 11 S.) — trotz
+  Ordnername «2015-17-22» liegt dort nur eine Kopie der 2015er. Belegt: Ausgabe/Fassung **06.03.2015**
+  (S. 1) und Unterdachbahnen **RF4 (cr)**, Modalität «dürfen» (Ziff. 3.2.3, S. 8). Der gemeldete Delta
+  RF3(cr) bleibt damit **unentschieden**; für die PV-Beratung gilt bis zur Beschaffung der 2015-Stand
+  mit Fassungs-Vorbehalt. Beschaffung via praever.ch/bsvonline.ch (Bring-Schuld, kein Loop-Fall).
+  Befund im Destillat `vkf-brm-2001-15-solaranlagen.md`, Abschnitt «Fassungs-Klaerung 25.07.2026».
 - [x] **P1-SIA-Kern (ohne 102/118) + VKF-Kern destilliert — 12.07.2026 (Run 2):** SIA
   103/105/111/112/416/451 + VKF 1-15/16-15/14-15/27-15, alle am Original adversarial verifiziert
   (`established`). Befund: **SIA 105:2020 hat kein Art.-7-Baukostenmodell** (nur Kategorie-/
   Zeitmodell Art. 6) — für `honorarberechnung-sia102` relevant.
-- [ ] SIA 118:1991 (Bestand) noch nicht destilliert (gross; gültige Ausgabe wäre 118:2013,
-  Bring-Schuld Kauf). Nächster SIA-Lauf: Alt-Kontext-Destillat der 1991er über mehrere Nächte.
+- [x] **ÜBERHOLT, korrigiert Run 22 (260725):** «SIA 118:1991 noch nicht destilliert» stimmt seit
+  260712 nicht mehr — `destillate/sia-118-1991.md` existiert, ist `established` (Volltext, Kennzahlen
+  Modell-D-verifiziert) und wurde in Run 14/15 zusätzlich per Q&A gegengeprüft. Offen bleibt allein die
+  **Beschaffung** der gültigen Ausgabe 118:2013 (Bring-Schuld Raphael, kostenpflichtig).
 - [x] VKF — **beantwortet 11.07.2026 (Web-Verifikation bsvonline.ch):** Die **BSV 2015 sind
   weiterhin die rechtsgültigen** Brandschutzvorschriften; die Totalrevision «BSV 2026» wird
   bezüglich Inkraftsetzung erst an der **IOTH-Plenarversammlung im März 2027** behandelt.
@@ -147,9 +296,14 @@
   500/358/251/252/253/257/271/281/279/232/329/240 (Hochbau) — 20 Normen am Original
   adversarial verifiziert (`established`). Tragwerksnormen-Generation 2003 vollständig
   im Bestand + destilliert (Grundlagen bis Geotechnik).
-- [ ] **SIA /1-Ergänzungsnormen** (260/1, 261/1, 262/1, 264/1, 265/1, 266/1) nicht
-  separat destilliert — bei tragwerksstatischen Detailfragen (z.B. 261/1 Einwirkungs-
-  Ergänzungen) Original nachlesen. Im Bestand-Inventar prüfen, ob vorhanden.
+- [~] **TEILWEISE GESCHLOSSEN Run 22 (260725): Bestand geprüft — 266/1 destilliert, die übrigen liegen
+  nur französisch vor.** Systematische Prüfung: **SIA 266/1:2003 ist deutsch im Bestand** (Datei
+  `alle/i/266_1_d.pdf`, falsch im italienischen Ordner, war als «Sprachvariante» abgehakt) und ist jetzt
+  destilliert (`sia-266-1-2003.md`). Von den übrigen `/1`-Normen liegen im Bestand **nur französische
+  Fassungen** (`alle/f/261_1_f.pdf`, `262_1_f`, `263_1_f`, `264_1_f`, `265_1_f`, `266_1_f`, `267_1_f`) —
+  keine deutschen. Damit bleibt für 260/1 bis 265/1 und 267/1 offen: entweder deutsche Ausgaben beschaffen
+  (Bring-Schuld) oder bei tragwerksstatischen Detailfragen bewusst die französische Fassung nachlesen und
+  die Sprachquelle im Zitat kennzeichnen. Für 260/1 wurde überhaupt keine Bestandsdatei gefunden.
 - [ ] **SIA 240:1988 (Metallbauarbeiten)** ist eine sehr alte Ausgabe (ersetzt Norm
   130:1959); aktuellere Ausgabe (falls vorhanden) am SIA-Shop verifizieren — Bring-Schuld
   Raphael (kein Auto-Web, kein Kauf durch Claude).
@@ -585,14 +739,16 @@ einzeln geprüft:
   sia-108-2014, je Titelseite der Original-PDFs). Restpunkt bleibt: bei Gelegenheit am
   SIA-112-Original S. 4/S. 10 gegenlesen, ob der Scan dort tatsaechlich anders lautet
   (vermuteter OCR-/Uebertragungsfehler des Erst-Destillats).
-- [ ] **Beherbergungs-Kategorien [a]/[b]/[c] der VKF sind nirgends definiert** — kritisch fuer die
-  Healthcare-Projekte (Pflege/Spital laufen ueber diese Kategorien). Definition suchen (vermutlich
-  VKF-BRL 10-15 Begriffe oder Brandschutznorm 1-15) und in die Destillate nachtragen.
+- [x] **GESCHLOSSEN Run 22 (260725): Beherbergungs-Kategorien [a]/[b]/[c] definiert.** Die Vermutung war
+  richtig — die Definition steht in der Brandschutznorm 1-15de (Art. 13 Abs. 2 lit. a, S. 8) und wortnah
+  in der BRL 10-15de «Begriffe und Definitionen» (S. 12). Neuer Artikel
+  `wiki/vkf-beherbergungskategorien.md`; Details und Verifikations-Verdikt in der Run-22-Sektion oben.
 - [ ] **SIA 118:2013 nicht im Bestand** — belegt sind nur 1977/1991. Ob die Ausgabe 2013 fuer laufende
   Werkvertraege beschafft werden muss, ist ein Entscheid fuer Raphael.
-- [ ] **Merkblatt-Serie SIA 2001-2027 (18 Positionen) neu im Inventar, noch nicht destilliert.**
-  Prioritaer: SIA 2024 (Standard-Nutzungsbedingungen — Bezugsgroesse fuer `kostenschaetzung` und
-  den Energienachweis) und SIA 2023 (Wohnungslueftung). Titel je am Original verifizieren.
+- [x] **ÜBERHOLT, korrigiert Run 22 (260725):** Die Merkblatt-Serie ist destilliert (Run 16, 260719) —
+  `sia-mb-2001-2005` … `sia-mb-2027-2006`, inkl. der prioritären `sia-mb-2024-2006`
+  (Standard-Nutzungsbedingungen) und `sia-mb-2023-2004` (Wohnungslüftung). Offen bleibt nicht die
+  Destillation, sondern der **Gültigkeitsstand** der 2000er-Serie (eigener Eintrag unten, Run 16).
 - [ ] **VKF-Normkonzept BSV 2026 (Stand 06.10.2022) neu im Inventar** — noch NICHT in Kraft, daher nie
   als geltendes Recht zitieren. Strategisch relevant als Vorschau auf die Abloesung der BSV 2015.
 - [ ] **Inventar-Scan haerten:** Der Scan vom 11.07.2026 hat nur `SIA_Normen/alle/` erfasst (58 Dateien

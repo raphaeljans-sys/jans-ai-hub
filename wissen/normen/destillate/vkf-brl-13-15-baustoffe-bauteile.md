@@ -120,6 +120,10 @@ Die Anhang-Tabelle zu Ziff. 3.4 (S. 24-25, Stand Fassung 01.01.2017) listet für
 
 **Dieses Destillat deckt mit diesem Nachtrag (25.07.2026) die geltende Fassung 01.01.2017 ab** (zusätzlich zur bisher gelesenen Fassung 01.01.2015). Statusanhebung auf `established` erfolgt NICHT durch diesen Nachtrag, sondern durch den separaten Richter-Lauf.
 
+> **Verifikationsstand dieses Nachtrags (Run 21, 25.07.2026): einfach destilliert, NOCH NICHT adversarial gegengeprüft.** Der `established`-Status des Destillats stammt aus der Verifikation der Fassung 2015; er deckt die hier nachgetragenen Fassungs-Deltas NICHT. Bis zur Retro-Verifikation gilt für das Delta die Sorgfaltsstufe `speculative` — insbesondere die neu zugeordnete RF3(cr)-Einordnung der Klassen E/E-d2 und EL/EL-d2 vor einer Verwendung in Ausschreibung, Brandschutznachweis oder Behördenkorrespondenz am Original gegenlesen. Vormerkung steht in `wiki/QUESTIONS.md`.
+>
+> **Methodischer Vorbehalt:** Der Fassungsvergleich stützt sich auf Volltext- und Seitenbildvergleich. Bei VKF-Richtlinien mit Prinzipskizzen liegen Masse und Legenden teils als Rastertext INNERHALB der Zeichnungen und sind für einen reinen `pdftotext`-Vergleich unsichtbar (Befund Run 21 an der BRL 16-15). Eine Aussage «alle übrigen Werte identisch» ist daher nur mit zusätzlichem Bildvergleich (`pdfimages -list`, bei Abweichung Extraktion und Sichtkontrolle) belastbar.
+
 ### Dokument-Identifikation (Ausgabe strikt von Fassung getrennt)
 
 - **Geprüfte Fassung 2017**: `PL - 03 Brandschutz/02 Brandschutzrichtlinien 2015-17-22/BSPUB-1394520214-71.pdf`. Titelblatt (S. 1): «BRANDSCHUTZRICHTLINIE — Baustoffe und Bauteile — Klassifikation — **01.01.2017 / 13-15de**». Impressum (S. 2): «© Copyright 2015 Berne by VKF / AEAI / AICAA» — das **Copyright-/Ausgabejahr bleibt 2015** (Ursprungspublikation), nur die **Fassung** (Stand-Datum) ist auf 01.01.2017 fortgeschrieben.

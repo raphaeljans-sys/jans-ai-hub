@@ -21,6 +21,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `sia-142-2009.md` | SIA 142 Ordnung Architektur-/Ingenieurwettbewerbe | 2009 | established (verifiziert 260714, 0 Fehler, Art. 29.2-29.3 + Genehmigung ergaenzt) |
 | `sia-143-2009.md` | SIA 143 Ordnung Architektur-/Ingenieurstudienaufträge | 2009 | established (verifiziert 260714, 0 Fehler, Genehmigung ergaenzt) |
 | `sia-400-2000.md` | SIA 400 Planbearbeitung im Hochbau (Linien/Schraffuren/Masse/CAD) | 2000/2001 | established (verifiziert 260714, 0 Fehler, Anhang C Normtext ergaenzt) |
+| `sia-410-1986.md` | SIA 410 Kennzeichnung von Installationen in Gebäuden – Sinnbilder für die Haustechnik (**Empfehlung**, nicht Norm; Kennzeichnung ist empfehlend) | 1978, Teilrevision 1986; Kap. 6 (MSR) 1993 | speculative — Run 22 (260725) neu destilliert, S. 1-36 vollständig; Verifikation offen. Bestandsfalle: dreisprachige Datei d/f/i im französischen Sprachordner (`alle/f/410_d_f_i.pdf`), war als «Sprachvariante» abgehakt und hatte keinen REGISTER-Eintrag |
 | `sia-416-2003.md` | SIA 416 Flächen und Volumen von Gebäuden | 2003 | established (verifiziert 260712) |
 | `sia-421-2006.md` | SIA 421 Raumplanung – Nutzungsziffern (GFZ/AZ/BMZ/ÜZ/GZ) | 2006 | established, verifiziert 260714 (Run 10) |
 | `sia-d0165-2000-kennzahlen-immobilienmanagement.md` | SIA D 0165 Kennzahlen im Immobilienmanagement (SIA/SVIT) | Juli 2000 | Teil-Destillat (nur 5-S.-Fragment S.14-17 gelesen; Vollversion 73 S. in xalt offen) |
@@ -74,6 +75,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `sia-264-2003.md` | SIA 264 Stahl-Beton-Verbundbau | 2003 | established (verifiziert 260712) |
 | `sia-265-2003.md` | SIA 265 Holzbau | 2003 | established (verifiziert 260712) |
 | `sia-266-2003.md` | SIA 266 Mauerwerk | 2003 | established (verifiziert 260712) |
+| `sia-266-1-2003.md` | SIA 266/1 Mauerwerk – Ergänzende Festlegungen (Prüf-/Deklarationsnorm) | 2003 | speculative — Run 22 (260725) neu destilliert, adversarial **BEANSTANDET**: 13 Befunde korrigiert + 9 Lücken nachgetragen; Re-Verifikation offen. Bestandsfalle: Datei liegt deutsch im italienischen Sprachordner (`alle/i/266_1_d.pdf`), war als «Sprachvariante» abgehakt |
 | `sia-267-2003.md` | SIA 267 Geotechnik | 2003 | established (verifiziert 260712) |
 | `sia-500-2009.md` | SIA 500 Hindernisfreie Bauten | 2009 | established (verifiziert 260712) |
 | `sia-358-2010.md` | SIA 358 Geländer und Brüstungen | 2010 | established (verifiziert 260712) |

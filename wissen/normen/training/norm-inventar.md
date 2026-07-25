@@ -26,7 +26,27 @@
   RAL_Norm/Lignum auftauchen. Details `wiki/QUESTIONS.md` Abschnitt "Mini-Run 32",
   Report `outputs/2026-07-16_normen-mini-run32.md`.
 
-- **Run 21 (MacBook Pro, 260725) — Frischecheck, 0 Aenderung seit Run 20:** Datei-Anzahl-Stichprobe
+- **Run 22 (MacBook Pro, 260725) — «KOMPLETT» war eine Messfehler-Kette: 2 falsch klassierte Normen
+  destilliert, 2 Destillate auf ueberholter Fassung entdeckt.** Dieser Lauf hat die Endbedingung NICHT
+  ein achtes Mal bestaetigt, sondern die **Messgroesse** geprueft, auf der die 7 Bestaetigungen beruhen.
+  Befund: «0 offene `[ ]`» + «keine neuen Dateien» misst nur Datei-EXISTENZ, nicht KLASSIERUNG und nicht
+  FASSUNGSSTAND. Beides war fehlerhaft:
+  (1) **Zwei deutschsprachige Normen lagen in den Sprachvarianten-Ordnern** und waren deshalb als
+  «Sprachvariante» abgehakt (Sprachvarianten werden nicht destilliert): `alle/i/266_1_d.pdf` =
+  **SIA 266/1:2003** (deutsch, im italienischen Ordner) und `alle/f/410_d_f_i.pdf` = **SIA 410:1986**
+  (dreisprachig d/f/i, im franzoesischen Ordner). Beide heute destilliert; SIA 410 hatte zudem **keinen
+  einzigen REGISTER-Eintrag**. Systematische Gegenprobe ueber alle drei Sprachordner (Namensmuster
+  `_d.pdf`/`_dfi`/`_de` + Titel-Metadaten) durchgefuehrt: **genau diese zwei Faelle**, keine weiteren.
+  (2) **Zwei VKF-Destillate beruhten auf der ueberholten Fassung 01.01.2015**, obwohl die Fassung
+  01.01.2017 im Bestand liegt — allerdings in `PL - 03 Brandschutz/`, das dieses Inventar gar nicht
+  abdeckt (BRL 13-15 «Baustoffe und Bauteile», BRL 14-15 «Verwendung von Baustoffen», beide
+  IOTH-Beschluss 22.09.2016; Deltas heute nachgetragen, Verifikation offen).
+  **Konsequenz fuer kuenftige Laeufe:** Ein Frischecheck auf Datei-Anzahl/Aenderungsdatum ist KEIN
+  Vollstaendigkeitsnachweis. Der Bestand umfasst zwei Ablagen (`PL - 02_Recht_Norm/02_Normen/` UND
+  `PL - 03 Brandschutz/`), und «Sprachvariante» ist eine Behauptung, die am Dateiinhalt zu pruefen ist.
+  Report `outputs/2026-07-25_normen-nacht-run22.md`.
+- **Run 21 (MacBook Pro, 260725) — Frischecheck, 0 Aenderung seit Run 20** (Befund durch Run 22
+  ueberholt: «keine reale Quelle zu bearbeiten» traf nicht zu, siehe oben): Datei-Anzahl-Stichprobe
   (458 SIA-PDF, 58 VKF-Dateien) + Aenderungsdatum-Filter seit 06:00 Uhr bestaetigen 0 neue/veraenderte
   Dateien. Kein weiterer Voll-Diff/Workflow-Batch (keine reale Quelle zu bearbeiten). 7. Bestaetigung
   der Endbedingung; Empfehlung an Raphael unveraendert (Datei-Trigger statt 2-Stunden-Takt).
@@ -328,7 +348,7 @@
 | — | — | `f/405_f.pdf` | 405 |  | Sprachvariante |
 | — | — | `f/406_f.pdf` | 406 |  | Sprachvariante |
 | — | — | `f/410_1_2f.pdf` | 410 |  | Sprachvariante |
-| — | — | `f/410_d_f_i.pdf` | 410 |  | Sprachvariante |
+| [x] 260725 | P2 | `f/410_d_f_i.pdf` | 410 | 1986 | **KLASSIERUNGS-KORREKTUR Run 22 (260725): war faelschlich als «Sprachvariante» abgehakt — die Datei ist DREISPRACHIG d/f/i und enthaelt den deutschen Volltext.** SIA 410 «Kennzeichnung von Installationen in Gebaeuden — Sinnbilder fuer die Haustechnik», **Empfehlung** (nicht Norm), Ausgabe 01.08.1978, Teilrevision genehmigt 14.03.1986 / in Kraft 01.06.1986, Kap. 6 (Sinnbilder MSR) separat genehmigt 28.04.1993. Destillat `sia-410-1986.md`, S. 1-36 vollstaendig gelesen, status `speculative` (Verifikation offen). Kennzeichnung ist EMPFEHLEND, nicht vorgeschrieben (Ziff. 0.1/0.2, S. 4). Offen: SIA 410/1 (Farbcode) nicht im Bestand; Aktualitaet nach 1993 unverifiziert. War zuvor ohne REGISTER-Eintrag. |
 | — | — | `f/414_10_f.pdf` | 414 |  | Sprachvariante |
 | — | — | `f/414_f.pdf` | 414 |  | Sprachvariante |
 | — | — | `f/421_2004_f.pdf` | 421 | 2004 | Sprachvariante |
@@ -373,7 +393,7 @@
 | — | — | `i/263_2003_i.pdf` | 263 | 2003 | Sprachvariante |
 | — | — | `i/264_2003_i.pdf` | 264 | 2003 | Sprachvariante |
 | — | — | `i/265_2003_i.pdf` | 265 | 2003 | Sprachvariante |
-| — | — | `i/266_1_d.pdf` | 266 |  | Sprachvariante |
+| [x] 260725 | P2 | `i/266_1_d.pdf` | 266/1 | 2003 | **KLASSIERUNGS-KORREKTUR Run 22 (260725): war faelschlich als «Sprachvariante» abgehakt — die Datei ist DEUTSCH und liegt nur falsch im italienischen Ordner.** SIA 266/1 «Mauerwerk – Ergaenzende Festlegungen», Ausgabe 2003-01 (SNV 505 266/1), Genehmigung 01.10.2002, in Kraft 01.01.2003, ersetzt mit SIA 266 die Empfehlung SIA V177:1995 (Uebergangsfrist bis 30.06.2004). Destillat `sia-266-1-2003.md`, S. 1-12 vollstaendig gelesen. Adversarial verifiziert 260725: **BEANSTANDET** — 13 Befunde korrigiert (u.a. 31 statt «rund 20» Verweisungen in Ziff. 0.2; «zwei» statt «drei» SIA-eigene Pruefverfahren; «sollte»-Modalitaet in Ziff. 2.2.4; Tabelle 1 enthaelt entgegen der Erstfassung sehr wohl charakteristische Materialkennwerte) und 9 Luecken nachgetragen (Ziff. 2.3.2/2.3.4/2.3.6, Figur-1-Kennwerte, Fussnoten 1)-8) inkl. dritter Formel Exk = 1000 fxk). Status `speculative`, Re-Verifikation offen. Zusaetzlich offen: ob eine neuere Ausgabe (vermutlich 2015, parallel zur SIA-266-Revision) existiert. Regelt das WIE (Pruefung/Deklaration), SIA 266 das WAS (Bemessung). |
 | — | — | `i/266_2003_i.pdf` | 266 | 2003 | Sprachvariante |
 | — | — | `i/271_i.pdf` | 271 |  | Sprachvariante |
 | — | — | `i/318_i.pdf` | 318 |  | Sprachvariante |
