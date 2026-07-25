@@ -2,6 +2,60 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 107: WPSM-Pflichtenheft primärquellig geschlossen (established), Duplikat-
+## Analyse SIA-2024-Gesundheitsbau abgeschlossen (Merge-Empfehlung an Raphael)
+
+PDF-Inventar weiterhin erschöpft seit Run 65. Statt eines neuen Themenkandidaten wurden bewusst
+die beiden konkretesten offenen Punkte aus Run 106 geschlossen — ein Rechercheagent (eigene
+Destillat-Datei, Kollisionsschutz) plus direkte Redaktionsarbeit in dieser Session.
+
+**1. WPSM-Pflichtenheft/BFE-Bericht (emerging → established):** Das Original-Pflichtenheft der
+WPSM-Trägerschaft (25.05.2020, 14 S.) und der zuvor technisch gescheiterte BFE-Schlussbericht
+(31.10.2018) wurden vollständig gelesen (curl+pdftotext). Kernfund: Bei **Sanierungen** wird die
+Heizkörper-/Heizleistungs-Eignung **nicht** raumweise nach SIA 384.201/EN 12831 geprüft, sondern
+über eine **Verbrauchshistorie-Rückrechnung** (FWS-Datenerfassungsblatt); hydraulischer Abgleich
+nach SWKI BT-102-01 ist **Pflicht vor Inbetriebnahme**; WPSM-Wärmepumpen müssen bei −7 °C
+Vorlauftemperaturen von 55 °C (Luft/Wasser) bzw. 60 °C (Sole/Wasser) erreichen — von Haus aus
+radiatorentauglich. Zwei Korrekturen im Sinne der Qualitätsdisziplin dieser KB: die zuvor
+verwendete unbelegte deutsche JAZ-Faustregel (2-2,5 %/°C) wurde durch eine aus der bereits
+etablierten CH-Feldmessung (`[[wpz-buchs-feldmessung-jaz-2016-2019]]`) selbst hergeleitete
+Näherung (~1,0-1,2 %/°C) ersetzt; eine vermutete «FWS-Modul-7/10-Pflicht ab 1.1.2027» liess sich
+am direkt abgerufenen Rohtext von fws.ch **nicht bestätigen** und wurde gestrichen (dabei auch eine
+fehlerhafte KI-Websuch-Zusammenfassung entdeckt, die eine Zahl fälschlich einem BFE-Merkblatt
+zuschrieb). CHF-Kosten für hydraulischen Abgleich/Heizkörperersatz bleiben einzelquellig-kommerziell
+(axora.ch), keine Verbandsstatistik gefunden.
+→ Destillat `destillate/waermepumpen-system-modul-wpsm-heizkoerper-altbau.md` auf **established**
+gehoben, FAQ **F154** geschärft.
+
+**2. Ueberschneidungs-Zwilling SIA-2024-Gesundheitsbau — inhaltlicher Abgleich abgeschlossen (kein
+Merge ausgeführt):** Der seit Run 88 in `QUESTIONS.md` offene Verdacht auf Dubletten-Destillate
+(`sia-2024-nutzungsdaten-gesundheitsbau` und `sia-2024-nutzungsrandbedingungen-gesundheitsbau`,
+beide vom 2026-07-14) wurde Zeile für Zeile geprüft. Ergebnis: echte Überschneidung im Kernthema,
+aber beide Dateien tragen nicht-redundante Fakten bei (nutzungsdaten: Flächenanteile-Tabelle,
+geltend-vs-Entwurf-Vergleich mit EnFK-Grenzwerten, Luftmengen-Zeitreihe 2015→2021; randbedingungen:
+SIA-382/1-Kälte-Systematik, TEP-Energy-Vergleichstabelle, Prozessanlagen-Tabelle Kühlraum/
+Serverraum/Küche, Ausgabenhistorie). Da Merge/Löschen eine destruktive Aktion ist (Rule
+`wissens-bibliothekar`, Rückfrage-Pflicht), wurde **kein Merge ausgeführt** — stattdessen ein
+konkreter, sofort ausführbarer Merge-Vorschlag inkl. vollständiger Backlink-Liste in
+`wiki/QUESTIONS.md` hinterlegt (Aufwand ca. 30-45 Min, kein weiterer Rechercheaufwand nötig).
+
+**Register nachgeführt:** `destillate/INDEX.md` (WPSM-Zeile auf established aktualisiert),
+`wiki/INDEX.md` (Run-107-Notiz, WPSM-Bullet + heizleistung-und-waermeerzeuger-Zeile auf established),
+`wiki/QUESTIONS.md` (Duplikat-Analyse mit Merge-Empfehlung), `wiki/BAUHERREN-FAQ.md` (F154 durch
+Agent geschärft), `outputs/2026-07-25_energie-run107.md`.
+
+FAQ-Stand unverändert: **154 Kernfragen (F1-F154) belegt** (F154 geschärft, kein neuer Eintrag).
+Destillate-Stand unverändert: **170** (kein neues Destillat, ein Status-Upgrade).
+
+**Beobachtung zur Reife der KB (dritter Lauf in Folge):** Run 107 hat wie Run 106 bewusst keinen
+neuen Themenkandidaten gewählt, sondern Primärquellen-Nachlese und Qualitätsarbeit (Duplikat-
+Analyse) geleistet. Das bestätigt die Sättigungsdiagnose aus Run 105/106 ein weiteres Mal — die
+verbleibende Arbeit an dieser KB ist zunehmend Verifikations-/Aufräumarbeit statt Neuerschliessung.
+Empfehlung an Raphael unverändert: PROGRAMM.md-Rücktaktung («Intensivphase... dann Rücktaktung ins
+Nachtfenster») jetzt aktiv prüfen, zusammen mit den beiden weiteren seit Wochen offenen
+Entscheiden (fünf gebündelte Kaufentscheide seit Run 98, Meta-Punkt M2 eigener Skill "energie"
+seit Run 45) und dem neu ausführungsreifen SIA-2024-Gesundheitsbau-Merge.
+
 ## 2026-07-25 — Run 106: gezielte Primärquellen-Nachverifikation (SIA 386/BACS + Erdsonden-
 ## Regeneration auf established gehoben) plus neues Themenfeld WPSM/Heizkörper-Altbau-Frage
 

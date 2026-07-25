@@ -1480,3 +1480,13 @@ Verfahrensstand unverändert. FAQ-Stand jetzt **F1–F105**. Details: `outputs/2
   SIA 385/1 ↔ SVGW W3/E3 geklärt (keine konkurrierenden Systemklassen, sondern Grundordnung +
   bedingte Ausnahme). → Destillat von `emerging` auf **established** gehoben, FAQ F137 geschärft,
   INDEX (destillate + wiki) nachgeführt.
+## D79 (Run 107, 2026-07-25) — Verifikations-/Qualitätslauf statt neuer Themenwahl
+PDF-Inventar weiterhin erschöpft seit Run 65. Zwei offene Punkte aus Run 106 geschlossen: (a)
+WPSM-Pflichtenheft (25.05.2020) + BFE-Schlussbericht (2018) vollständig gelesen, Prüfschritt
+Heizkörper-Eignung im Sanierungsfall belegt (Verbrauchshistorie-Rückrechnung statt Raum-
+Heizlastberechnung), unbelegte deutsche JAZ-Faustregel durch CH-eigene Näherung ersetzt, unbelegte
+«FWS-Modul-Pflicht ab 2027» widerlegt und gestrichen → `[[waermepumpen-system-modul-wpsm-
+heizkoerper-altbau]]` auf established, FAQ F154 geschärft. (b) Ueberschneidungs-Zwilling SIA-2024-
+Gesundheitsbau (Run 88) inhaltlich Zeile für Zeile verglichen, Merge-Empfehlung (kein Merge
+ausgeführt, destruktiv) in QUESTIONS.md hinterlegt. Kein neues Themenfeld — dritte Bestätigung der
+Sättigungsdiagnose aus Run 105/106. FAQ-Stand unverändert 154, Destillate-Stand unverändert 170.

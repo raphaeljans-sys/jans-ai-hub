@@ -84,7 +84,7 @@ Details im jeweiligen Destillat bzw. im CHANGELOG.
 - `[[sanierungsfahrplan-etappierung-gebaeudehuelle]]` — Sanierungsfahrplan/Etappierung der Gebäudehülle: Etappieren ist erlaubt, entscheidend ist ein vorab erarbeitetes Gesamtkonzept (GEAK Plus); Faustregel «Hülle vor Heizung» (EnergieSchweiz) vermeidet überdimensionierte Heizung + Wärmebrücken an nachträglichen Anschlüssen; Förder-Fallstrick: 90-%-Bonusschwelle ZH/SZ für die Gesamtsanierung muss von der ersten Etappe an mitgeplant werden, nachträgliches «Aufstocken» funktioniert förderrechtlich nicht (F139) · **established** (Run 100: Verbands-Primärquelle «Königsweg e+», Gebäudehülle Schweiz, bestätigt die 3-Etappen-Folge wörtlich)
 - `[[sia-386-bacs-gebaeudeautomation]]` — BACS-Effizienzklassen A-D der Gebäudeautomation: aktuell gültig SIA 386.111:2022 (nicht das veraltete «386.110»), keine generelle CH-Klassenpflicht, aber MuKEn-2025-Monitoringpflicht Art. D.1.23 ab 2'000 m² EBF (Formular EN-141 ZH) + Betriebsoptimierungspflicht ab 200'000 kWh/Jahr, Minergie verlangt explizit KEINE Gebäudeautomation (F153) · **established** (Run 105 neu, Run 106 auf established gehoben inkl. Normidentitäts-Korrektur)
 - `[[erdsonden-regeneration-sondenfeld-dimensionierung]]` — Sondenfeld-Dimensionierung/Regeneration bei Erdwärmesonden: passiv (Freecooling)/aktiv (Solarthermie/reversible WP/PVT) Regenerationssystematik, W/m-Entzugsleistungs-Faustwerte je Untergrund, 6-10 m Sondenabstand im Feld vs. 17-73 m Feld-zu-Feld; geothermischer Wärmestrom CH ≈60 mW/m², COP Erdreich 4,6 vs. Aussenluft 3,5, MFH-Beispiel 40 % Regeneration → 6 °C statt −1,25 °C nach 50 Jahren (F152); ergänzt `[[erdwaermesonden-mehrfachfelder-regeneration-zh-sz]]` als Schwesterdestillat · **established** (Run 105 neu, Run 106 auf established gehoben)
-- `[[waermepumpen-system-modul-wpsm-heizkoerper-altbau]]` — WPSM-Zertifikat (Wärmepumpen-System-Modul): ≤15 kW Pflicht für ZH/SZ-Förderung, CHF 350 + MWST, Trägerschaft suissetec/FWS/GKS/SWKI/EnergieSchweiz, prüft ganze Anlage inkl. Wärmeabgabesystem; schliesst die Bauherren-Kernfrage «reichen meine alten Heizkörper?» — EnergieSchweiz: Altbau-WP grundsätzlich unproblematisch, Inverter-WP kommt mit Radiatoren gut zurecht, hydraulischer Abgleich vor Heizkörperersatz prüfen (F154) · **emerging** (Run 106 neu, ergänzt `[[foerderprogramm-energie-zh-2026]]`/`[[foerderprogramm-energie-sz-2026]]`)
+- `[[waermepumpen-system-modul-wpsm-heizkoerper-altbau]]` — WPSM-Zertifikat (Wärmepumpen-System-Modul): ≤15 kW Pflicht für ZH/SZ-Förderung, CHF 350 + MWST, Trägerschaft suissetec/FWS/GKS/SWKI/EnergieSchweiz, prüft ganze Anlage inkl. Wärmeabgabesystem; schliesst die Bauherren-Kernfrage «reichen meine alten Heizkörper?» — Original-Pflichtenheft belegt Verbrauchshistorie-Rückrechnung statt Raum-Heizlastberechnung im Sanierungsfall, hydraulischer Abgleich nach SWKI BT-102-01 Pflicht vor Inbetriebnahme, WPSM-WP radiatorentauglich bis 55/60 °C bei −7 °C (F154) · **established** (Run 106 neu, Run 107 auf established gehoben, ergänzt `[[foerderprogramm-energie-zh-2026]]`/`[[foerderprogramm-energie-sz-2026]]`)
 
 **Offene Themenartikel-Kandidaten (Backlog, bereinigt Run 101 — 2026-07-25):** konkrete
 Lignum-Konstruktionsdetails + gemessene K_F-/Bauteilwerte Holzbau (LIT-Doku, kostenpflichtig),
@@ -149,6 +149,23 @@ eine bisher unbeantwortete Kernfrage («reichen meine alten Heizkörper für ein
 erklärt das WPSM-Zertifikat, das in den bestehenden ZH/SZ-Förderdestillaten bislang nur als
 Stichwort stand, FAQ **F154** neu. Wiki-Artikel `[[heizleistung-und-waermeerzeuger]]` entsprechend
 ergänzt.
+
+**Run 107 (25.07.2026, ein Rechercheagent + direkte Redaktionsarbeit):** PDF-Inventar weiterhin
+erschöpft seit Run 65; statt neuer Themenwahl gezielt zwei Lücken geschlossen, die eine echte
+Qualitätswirkung haben. (1) `[[waermepumpen-system-modul-wpsm-heizkoerper-altbau]]` von `emerging`
+auf **established** gehoben — das WPSM-Original-Pflichtenheft (25.05.2020) und der zuvor technisch
+gescheiterte BFE-Schlussbericht (2018) wurden vollständig gelesen und beantworten den genauen
+Prüfschritt für die Heizkörper-Eignung im Sanierungsfall; eine unbelegte deutsche JAZ-Faustregel
+wurde durch eine CH-eigene Näherung ersetzt und eine unbelegte «FWS-Modul-Pflicht ab 2027»-Behauptung
+am Rohtext widerlegt und gestrichen — beides Beispiele für die in dieser KB verbindliche
+Primärquellen-Disziplin. (2) Der seit Run 88 offene Ueberschneidungs-Zwilling
+`[[sia-2024-nutzungsdaten-gesundheitsbau]]`/`[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`
+wurde Zeile für Zeile verglichen (kein Merge ausgeführt — destruktiv, Rueckfrage noetig); Ergebnis
+und ein konkreter, ausführungsreifer Merge-Vorschlag stehen in `QUESTIONS.md`. **Kein neues
+Themenfeld gewählt** — der Lauf bestätigt damit erneut die in Run 105/106 begonnene Beobachtung:
+die KB ist mit 170 Destillaten/154 FAQ so weit erschlossen, dass Verifikations-/Qualitätsarbeit
+(Primärquellen-Nachlese, Duplikat-Bereinigung) ergiebiger ist als die Suche nach neuen
+Themenkandidaten. Siehe CHANGELOG und `QUESTIONS.md` für die volle Priorität-Liste an Raphael.
 
 ## Verwandte KBs/Skills
 - Skill `planungsgrundlagen` (Domaene Energie) → Bruecke `wissen/planungsgrundlagen/wiki/energie-uebersicht`

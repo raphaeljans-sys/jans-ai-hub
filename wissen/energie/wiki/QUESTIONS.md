@@ -1961,3 +1961,44 @@ gewachsen, `training/curriculum.md` (D77a-c), `raw/_INGESTED.md`, `CHANGELOG.md`
    wieder primär neue Themenwahl brauchen und erneut mehrere Kandidaten als bereits abgedeckt
    verwerfen, ist der Punkt aus PROGRAMM.md («Ruecktaktung ins Nachtfenster VORSCHLAGEN») jetzt
    wirklich reif für die aktive Vorlage bei Raphael.
+
+- [x] **Run 107 (2026-07-25) — erneut bewusst KEINE neue Themenwahl, Punkt 5 und der SIA-2024-
+  Zwilling aus der Prioritätenliste oben geschlossen:** (1) **WPSM-Pflichtenheft** (25.05.2020) +
+  BFE-Schlussbericht (2018) vollständig gelesen — Prüfschritt Heizkörper-Eignung im Sanierungsfall
+  belegt (Verbrauchshistorie-Rückrechnung statt Raum-Heizlastberechnung), hydraulischer Abgleich
+  nach SWKI BT-102-01 vor Inbetriebnahme Pflicht, WPSM-WP radiatorentauglich bis 55/60 °C bei
+  −7 °C; unbelegte deutsche JAZ-Faustregel durch CH-eigene Näherung (~1,0-1,2 %/°C) ersetzt,
+  unbelegte «FWS-Modul-Pflicht ab 2027» am Rohtext widerlegt und gestrichen →
+  `[[waermepumpen-system-modul-wpsm-heizkoerper-altbau]]` auf **established**, FAQ F154 geschärft.
+  (2) **SIA-2024-Gesundheitsbau-Zwilling** (offen seit Run 88, siehe Eintrag oben) inhaltlich
+  Zeile für Zeile verglichen — Ergebnis und ausführungsreifer Merge-Vorschlag jetzt im
+  entsprechenden Eintrag oben dokumentiert (Status `[~]`, kein Merge ausgeführt). FAQ-Stand
+  unverändert **154**, Destillate-Stand unverändert **170** (ein Status-Upgrade, kein neues
+  Destillat).
+
+**Register nachgeführt:** `destillate/INDEX.md` (WPSM-Zeile auf established), `wiki/INDEX.md`
+(Run-107-Notiz, WPSM-Bullet auf established), `wiki/BAUHERREN-FAQ.md` (F154 geschärft),
+`training/curriculum.md` (D79), `raw/_INGESTED.md`, `CHANGELOG.md`,
+`outputs/2026-07-25_energie-run107.md`.
+
+**Nächster Lauf: Priorität**
+1. Die fünf gebündelten Kaufentscheide (B1-Konsolidierung, SWKI-VA105-01, SIA-385/1, SIA-385/2,
+   SIA-384.354) wachsen seit Run 98 unverändert ohne Entscheidung — jetzt **neun Runs** in Folge.
+   Dringende Empfehlung: beim nächsten Kontakt mit Raphael als kurze Bündel-Frage stellen statt
+   weiter automatisch mitzuführen.
+2. Meta-Punkt M2 (eigenständiger Skill "energie"?) ist seit Run 45 spruchreif und weiterhin nicht
+   entschieden — ebenfalls Raphael vorlegen.
+3. ⚠ Weiterhin offen: KB `normen` pflegt SIA 382/1:2014 fälschlich als aktuell — dem normen-Loop/
+   Wissens-Chef zur Korrektur übergeben (nicht Aufgabe von `energie`).
+4. **Neu ausführungsreif:** SIA-2024-Gesundheitsbau-Merge (Empfehlung + Backlink-Liste im Run-88-
+   Eintrag oben) — braucht nur noch Raphaels Zustimmung, kein weiterer Rechercheaufwand.
+5. Kostenfolge WP-Lärm-Nachmessung bleibt für den Regelfall unklar — weiterhin als seltenen
+   Randfall zurückgestellt.
+6. ⚠⚠ **Sättigungsdiagnose jetzt dreifach bestätigt (Run 105/106/107):** drei Läufe in Folge haben
+   bewusst auf neue Themenwahl verzichtet und stattdessen Primärquellen-Nachlese/Qualitätsarbeit
+   geleistet. Die in PROGRAMM.md selbst gesetzte Eskalationsschwelle ist erreicht — Empfehlung:
+   die Rücktaktungsfrage jetzt aktiv bei Raphael vorlegen (nicht eigenmächtig umsetzen), zusammen
+   mit den Punkten 1/2/4 oben. Sollte kein zeitnaher Kontakt stattfinden, sollte der nächste Lauf
+   dennoch primär bei den verbleibenden `emerging`-Destillaten (61 Stück, Auswahl mit echtem
+   Primärquellen-Zugewinn statt struktureller Markt-/Kostenpflicht-Grenze) bleiben statt neue,
+   zunehmend randständige Themen zu suchen.
