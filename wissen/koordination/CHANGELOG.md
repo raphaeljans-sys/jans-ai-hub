@@ -3,6 +3,42 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-25 — Synergie-Lauf 02 (Scheduled Task `synergie-lauf-monatlich`; 3 neue Befunde, 3 Status nachgefuehrt, 1 Kante gesetzt)
+- [synergie] Zweiter Lauf des Skills `synergie-orchestrator`, gedrosselt (Rule 260714: Inline-Analyse,
+  kein Multi-Agent-Fan-out). Delta-Basis: Git-Log des NAS-Repos seit 15.07.2026 + KB-CHANGELOGs.
+  Kollisionsschutz nach Rule 260724 vorab geprueft (keine Zweitinstanz auf dem Host), Commit
+  pathspec-begrenzt. Bericht: `outputs/2026-07-25_synergie-lauf-02.md`.
+- [inventar] Delta stark asymmetrisch: **1 neuer Skill** (`pdf2dwg`), 0 neue Agenten, 0 neue
+  Verhaltens-Rules (die neue `auto-verbesserungen-archiv.md` ist eine Kontext-Diaet-Auslagerung) —
+  demgegenueber starkes KB-Wachstum (wettbewerbs-dna Etappe 3, entwurfs-referenzen Parameter-Set +
+  erster Typologie-Artikel, architekten-synobsis RAUMTYPOLOGIEN, energie ~50 Destillate, baurecht
+  Buch-Runs 47–51, spec). Neue Kanten entstehen derzeit zwischen Wissen und Skills, nicht zwischen Skills.
+- [befund] **SYN-13** (Typ 3, groesster Hebel): Typologie-Asymmetrie zuungunsten der Kern-Bauaufgabe.
+  Bildungsbau ist durchgezogen (25 Quellen → `kennwerte-schulbauten` established → refuter-bestandenes
+  Parameter-Set → `typologien/bildung.md`); Healthcare endet trotz 42 HTTP-verifizierter Juryberichte
+  (Sweep 23.07.) beim Rohmaterial — `healthcare-neubau-zh.json` unveraendert v1.0 auf CURAVIVA/Wuest/
+  eigenen Projekten, kein `typologien/healthcare.md`, 0 Verweise von `healthcare-wirtschaftlichkeit`/
+  `kostenschaetzung` auf `wettbewerbs-dna`.
+- [befund] **SYN-14** (Typ 1+2): `pdf2dwg` als Insel eingehaengt — kein Contract-Block (einer von nur 4
+  der 49 Skills), ausser CLAUDE.md keine eingehende Referenz trotz DXF-Rueckkanal in `volumenstudie`,
+  und die Ablage «neben dem Quell-PDF» kollidiert mit Rule `projekt-ablage-stand.md` Z. 21 (CAD-Austausch).
+- [befund] **SYN-15** (Typ 3+5): `architekten-synobsis/wiki/RAUMTYPOLOGIEN.md` + `catalog/typology-map.json`
+  (24.07., 9 Raumtypologien / 105 Projekte, maschinenlesbar) entstanden vier Tage NACH der SYN-02-Spec
+  (20.07.) und sind dort nicht als Quelle vorgesehen — die Parti-/Raumfigur-Ebene fehlt dem MVP.
+- [status] **SYN-02** Datenseite aufgeholt (Luecke B5 geschlossen), Codeseite unveraendert
+  (`volumen_generator.py` liest weiterhin kein Parameter-Set) · **SYN-04** teilweise geschlossen
+  (Hinrichtung dokumentiert, Rueckkopplung offen) · **SYN-10** Kante beidseitig gesetzt, Uebergabe-Format
+  offen. Unveraendert offen: SYN-01, SYN-05, SYN-06, SYN-08, SYN-09, SYN-11. Querbefund: `wissen/grobkosten`
+  (designierte Kennwerte-Leitquelle) steht weiter auf `emerging` mit leerem `raw/`, waehrend in
+  `wettbewerbs-dna` 431 refuter-bestaetigte Kennzahlen entstanden — die Kennwert-Kompetenz waechst
+  am vorgesehenen Ort vorbei.
+- [aktion] Direkt gesetzt (active-with-flagging, Phase 4): `skills/terminplanung/SKILL.md`
+  «Vorgelagert: —» → Verweis auf `auflagebereinigung` (Auflagen-Fristen als Meilenstein-Input).
+  Sonst nichts veraendert: keine Skills geloescht/gemergt/parkiert, kein Katalog-Eintrag aktiviert.
+- [geschaeftsmodell] Kein neues Service-Paket. ENTWURF: Schaerfung von S5 «Wettbewerbs-Fabrik» auf den
+  Schwerpunkt Healthcare — aber erst NACH Abarbeitung von SYN-13, vorher waere es ein Versprechen ohne
+  Deckung. Bewusst kein Service rund um `pdf2dwg` (ein einziger Referenzfall).
+
 ## 2026-07-24 — Run 14 (5 Lese-Agenten, 5 Paare/Felder; 1 VERALTETES-Verdacht adversarial verifiziert → UNBESTIMMT)
 - Gedrosselter Cross-KB-Lauf (Rule 260714): 5 parallele Lese-Agenten (regulaeres Agent-Tool, Hintergrund) am
   frischen Stoff seit Run 13 — baurecht Buch-Run 51 (Anhang 6 LSV), normen Run 19 (Meilenstein «SIA/VKF KOMPLETT»
