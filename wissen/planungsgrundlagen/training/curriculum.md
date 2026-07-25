@@ -719,6 +719,12 @@ das Ergebnis in den passenden Wiki-Artikel.
   R6/B5 (bereits zweimal am selben Tag geprueft — Run 74 und implizit Run 76, kein neuer Trigger).
   Achte unabhaengige Erschoepfungs-Bestaetigung fuer Recht/Norm+Brandschutz → siehe
   `outputs/2026-07-25_training-run78.md`.
+- [x] R80-Freshness/B52-Freshness (Run 80, 2026-07-25, Token-Vollgas) Datei-Frischecheck
+  `PL - 02_Recht_Norm` + `PL - 03 Brandschutz` gegen den Zeitstempel von Run 78 (`find -newer`)
+  — **0 neue/veraenderte Dateien** in beiden Ordnerbaeumen. Kein erneuter WebSearch-Refresh von
+  R6/B5 (bereits mehrfach am selben Tag geprueft, kein neuer Trigger). Neunte unabhaengige
+  Erschoepfungs-Bestaetigung fuer Recht/Norm+Brandschutz (vierzehnte in Folge ueber alle vier
+  Domaenen) → siehe `outputs/2026-07-25_training-run80.md`.
 
 ## Meta / Querschnitt
 - [x] M1 Grundlagen-Checkliste «neue Parzelle» (was holt man IMMER zuerst) als Standard-Output. (2026-06-30 Run 12: 8 Pflicht-Grundlagen EGRID→OEREB→Zonenplan→Baulinien→Vermessung→DTM/Ortho→GWR→Behoerden je mit Connector-Befehl, SZ-Kurzvariante, End-to-End-Benchmark Giebelweg 12 EGRID CH879777718909 validiert → [[kartenportale-grundlagen-checkliste-neue-parzelle]])
