@@ -1,10 +1,10 @@
 ---
 title: Förderung Energie — Kanton Zürich (2026)
 status: established
-last_updated: 2026-06-28
-datenstand: 2026-06-26 (Förderprogramm Energie ZH, Version 01.01.2026, PDF S. 1-37 vollst.; 2026 unverändert bestätigt 24.10.2025); Bund-/HFM-Mechanik 2026-06-28
-sources: [destillate/foerderprogramm-energie-zh-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md]
-links: [[INDEX]], [[BAUHERREN-FAQ]], [[energienachweis-zh]], [[gebaeudeprogramm-bund-hfm-2015]], [[pv-einmalverguetung-bund-bfe]], [[energiefranken-foerder-suchmaschine-ch]]
+last_updated: 2026-07-25
+datenstand: 2026-06-26 (Förderprogramm Energie ZH, Version 01.01.2026, PDF S. 1-37 vollst.; 2026 unverändert bestätigt 24.10.2025); Bund-/HFM-Mechanik 2026-06-28; Kantonsrats-Verfahrensstand Solarpflicht/Langzeitspeicher 2026-07-24 (Run 87)
+sources: [destillate/foerderprogramm-energie-zh-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/zh-energiegesetz-revision-solarpflicht-2026.md]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[energienachweis-zh]], [[gebaeudeprogramm-bund-hfm-2015]], [[pv-einmalverguetung-bund-bfe]], [[energiefranken-foerder-suchmaschine-ch]], [[zh-energiegesetz-revision-solarpflicht-2026]]
 ---
 
 # Förderung Energie — Kanton Zürich
@@ -73,6 +73,20 @@ zahlt aus** nach dem **Harmonisierten Fördermodell HFM 2015** (18 Module M-01�
 selbst → darum kantonal verschieden). Bauherr: **ein** Gesuch beim **Standortkanton**, vor Baubeginn.
 **PV ist nicht im Gebäudeprogramm** (Bund/Pronovo, nach Inbetriebnahme). Mechanik →
 `[[gebaeudeprogramm-bund-hfm-2015]]`, Bauherren-Antwort F27.
+
+## Abgrenzung: laufende Solarpflicht-Gesetzesrevision (noch kein geltendes Recht)
+Die obige «befristet bis Ende 2026 bzw. bis Budget erschöpft»-Aussage betrifft ausschliesslich das
+**heutige Förderprogramm** (freiwillige Pauschalen). Davon zu unterscheiden ist eine **separate,
+noch nicht in Kraft gesetzte Gesetzesrevision**: der Regierungsrat hat dem Kantonsrat am 06.01.2026
+zwei Vorlagen zur Änderung des Energiegesetzes vorgelegt, eine **Solarpflicht für Dächer über
+300 m²** (**KRNr 6062**) und einen **Auftrag an die Netzbetreiber zur Förderung von
+Energie-Langzeitspeichern** (**KRNr 6063**) — beide Geschäftsnummern amtlich identifiziert über die
+CDWS-Geschäftsdatenbank des Kantonsrats (Datenstand Run 87, 24.07.2026); zu unterscheiden von der
+unabhängigen **KRNr 6064** (Rahmenkredit 2026-2029 Subventionen § 16 Energiegesetz, reines
+Fördermittel-Geschäft). Verfahrensstand 6062/6063 per 24.07.2026: **bei der Kommission KEVU** zur
+Vorberatung, kein Kommissionsbericht, keine erste Lesung, **kein Inkraftsetzungsdatum bekannt**.
+Für ein heute eingereichtes Baugesuch ändert sich dadurch nichts — es gilt weiterhin EN-104-ZH
+(≥10 W/m² EBF). Details → `[[zh-energiegesetz-revision-solarpflicht-2026]]`.
 
 ## Strategie für den Bauherrn
 1. **Erst Gesuch, dann bauen** — ausnahmslos.

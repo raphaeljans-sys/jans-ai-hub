@@ -1,7 +1,7 @@
 ---
 title: Solarpflicht Schweiz — Bund und Kantone im Vergleich
 status: emerging
-last_updated: 2026-07-14 (Run 60 — alle 26 Kantone erstmals recherchiert)
+last_updated: 2026-07-25 (Run 61 — W/m²-Bemessung ZG/GR/GL/AR primärquellen-verifiziert, AI-Widerspruch aufgelöst, Obwalden-Referendum aktualisiert, Neuenburg präzisiert)
 sources: [destillate/solarpflicht-national-mantelerlass-kantone.md, destillate/zh-energiegesetz-revision-solarpflicht-2026.md]
 links: [[INDEX]], [[pv-solar-technologien]], [[muken-2025-verabschiedet]]
 ---

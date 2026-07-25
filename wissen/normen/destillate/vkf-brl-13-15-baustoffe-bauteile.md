@@ -2,10 +2,10 @@
 quelle: "PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlinien 2015/Baustoff & Bauteile.pdf"
 herausgeber: VKF (Vereinigung Kantonaler Feuerversicherungen)
 ausgabe: "VKF-Brandschutzrichtlinie 13-15de: 01.01.2015"
-gelesen: "S. 1-25 komplett (Ziff. 1-6 + Anhang zu Ziff. 2.2.2/2.2.3/2.2.4/2.2.5/2.3.2/2.3.3/3.1.5/3.1.10/3.4)"
+gelesen: "S. 1-25 komplett (Ziff. 1-6 + Anhang zu Ziff. 2.2.2/2.2.3/2.2.4/2.2.5/2.3.2/2.3.3/3.1.5/3.1.10/3.4). Nachtrag 25.07.2026: Fassung 01.01.2017 (BSPUB-1394520214-71.pdf) komplett gegen Fassung 01.01.2015 volltextverglichen (pdftotext-Diff + Seitenbild-Gegenlesung S. 6, 8-12, 19, 24-25)"
 datenstand: "2015"
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-07-25
 links: [[REGISTER]]
 ---
 
@@ -82,14 +82,14 @@ Die Richtlinie ist das Klassifikations-Fundament der VKF-Brandschutzvorschriften
 
 Die Richtlinie enthält vier Zuordnungstabellen (Ziff. 2.4, S. 8-12), die je RF-Gruppe (RF1-RF4) mit/ohne cr-Kennzeichnung den entsprechenden EN- bzw. VKF-Codes zuordnen:
 
-- **Ziff. 2.4.1 (S. 8)** — Zuordnung RF-Gruppe ↔ SN EN 13501-1 (Bauprodukte allgemein, lineare Rohrisolationen, Bodenbeläge): RF1 = A1/A2-s1,d0 bzw. A1L/A2L-s1,d0 bzw. A1fl/A2fl-s1; RF2 = A2-B-C-Varianten mit s1/s2/d0/d1 (cr-Markierung bei bestimmten d2/s3-Kombinationen); RF3 = D-Varianten; RF4 = E-Klasse (durchgehend cr); «Kein Baustoff» = Klasse F/FL/Ffl
+- **Ziff. 2.4.1 (S. 8, Stand Fassung 01.01.2017 — geändert gegenüber 01.01.2015, siehe Abschnitt «Fassung 01.01.2017 — Delta» unten)** — Zuordnung RF-Gruppe ↔ SN EN 13501-1:2009 (Bauprodukte allgemein, lineare Rohrdämmungen, Bodenbeläge): RF1 = A1/A2-s1,d0 bzw. A1L/A2L-s1,d0 bzw. A1fl/A2fl-s1; RF2 = A2-B-C-Varianten mit s1/s2/d0/d1 (cr-Markierung bei bestimmten d2/s3-Kombinationen); RF3 = D-Varianten UND, seit Fassung 01.01.2017 neu hier eingeordnet (cr-markiert), die EN-Klassen E/E-d2 (Bauprodukte) bzw. EL/EL-d2 (lineare Rohrdämmungen); RF4 = in der Fassung 01.01.2017 kein SN-EN-13501-1-Äquivalent mehr ausgewiesen (Tabellenzelle «–» über alle drei Spalten); «Kein Baustoff» = Klasse F/FL/Ffl. **In der Fassung 01.01.2015 waren E/EL/E-d2/EL-d2 noch RF4 (durchgehend cr) zugeordnet** — diese Zuordnung ist mit der IOTH-Änderung vom 22.09.2016 (Fassung 01.01.2017) überholt.
 - **Ziff. 2.4.2 (S. 9)** — Zuordnung RF-Gruppe ↔ SN EN 13501-5 (Bedachungen bei Beanspruchung durch Feuer von aussen, BROOF): RF2 = BROOF(t1-t4) (cr); RF3 = CROOF/DROOF(t3-t4) (cr); RF4 = EROOF(t4) (cr); «Kein Baustoff» = FROOF(t1-t4)
 - **Ziff. 2.4.3 (S. 10-11)** — Zuordnung RF-Gruppe ↔ SN EN 13501-6 (elektrische Kabel): RF1 = Aca; RF2 = umfangreiche B1ca/B2ca/Cca-Kombinationen mit s/a/d-Zusätzen (cr bei bestimmten a3/d2-Kombinationen); RF3 = Dca-Varianten (teils cr); RF4 = durchgehend cr (kein Wert ausgewiesen, «-»); «Kein Baustoff» = Fca
 - **Ziff. 2.4.4 (S. 12)** — Zuordnung RF-Gruppe ↔ VKF-Brandkennziffer (BKZ): RF1 = BKZ 6.3/6q.3; RF2 = BKZ 5(200°C).3/5.3/5.2 (BKZ 5(200°C).1/5.1 = cr); RF3 = BKZ 4.3/4.2 (BKZ 4.1 = cr); RF4 = BKZ 3.3/3.2 (BKZ 3.1 = cr); «Kein Baustoff» = BKZ 1.1-2.3
 
 Für die exakte Zellenzuordnung im Einzelfall (insbesondere die sehr granularen EN-13501-1/-6-Tabellen) ist die Originaltabelle im PDF zu konsultieren — hier nur Struktur und Grenzwerte je RF-Gruppe wiedergegeben, nicht die vollständigen Code-Listen (Urheberrecht/Praktikabilität).
 
-Die Anhang-Tabelle zu Ziff. 3.4 (S. 24-25) listet für die BSR-Nummern 201-238 (Aussenwände tragend, Innenwände tragend, Decken, Stützen/Balken, Träger/Unterzüge, Bedachung, Verglasungen, Abschottungen, Fugenabdichtungen, Bekleidungen, Unterdecken, Verputze, dämmschichtbildende Anstriche) die alte VKF-Klassierung (F/R/K/S-Bezeichnung) und die zugehörige EN-Klassifikation (R/REI/EI-Werte, teils mit «-RF1»-Zusatz).
+Die Anhang-Tabelle zu Ziff. 3.4 (S. 24-25, Stand Fassung 01.01.2017) listet für die BSR-Nummern 201-238 (Aussenwände tragend, Innenwände tragend, Decken, Stützen/Balken, Träger/Unterzüge, Dachkonstruktionen, Verglasungen, Abschottungen, Fugenabdichtungen, Brandschutzplatten, Bekleidungen, Unterdecken, Verputze, dämmschichtbildende Anstriche) die alte VKF-Klassierung (F/R/K/S-Bezeichnung) und die zugehörige EN-Klassifikation (R/REI/EI-Werte, teils mit «-RF1»-Zusatz). BSR 208 hiess in der Fassung 01.01.2015 «Bedachung, Dachelemente», BSR 231 «Bekleidungen von brennbaren Bauteilen» — reine Bezeichnungsänderungen zur Fassung 01.01.2017, siehe Abschnitt «Fassung 01.01.2017 — Delta» unten; die F-/EI-Klassierungswerte selbst sind unverändert.
 
 ## Begriffe
 - **RF1-RF4** — Brandverhaltensgruppen für Baustoffe (RF = reaction au feu); RF1 kein, RF4 unzulässiger Brandbeitrag (Ziff. 2.1)

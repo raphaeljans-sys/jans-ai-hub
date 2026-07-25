@@ -4,8 +4,8 @@ quelle_vorgaenger: "PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlin
 herausgeber: VKF (Vereinigung Kantonaler Feuerversicherungen)
 ausgabe: "VKF-Brandschutzrichtlinie 16-15de, 01.01.2017 (Ausgabe 2015, Aenderungen IOTH 17.09.2015 und 22.09.2016 eingearbeitet)"
 ersetzt: "VKF-Brandschutzrichtlinie 16-15de, 01.01.2015 (Original-Ausgabe vor den IOTH-Revisionen 2015/2016) — Delta siehe Abschnitt 'Vorgaenger-Ausgabe' unten"
-gelesen: "S. 1-13 (Ziff. 1-5 vollstaendig); Anhang S. 14-25 gelesen (Zeichnungen/Erlaeuterungen zu Ziff. 2.3, 2.4.2, 2.4.4, 2.4.5, 2.5.1, 2.5.2, 2.5.5, 3.2.1/3.3.1/3.4.1, 3.3, 3.4.3, 3.5.2, 3.5.3); Kennwerte aus Anhang S. 17 (Treppen), S. 19 (Tuerverschluesse), S. 24 (Personenbelegung) am Original verifiziert und eingearbeitet (17.07.2026). Restlicher Anhang S. 26-35 noch nicht im Detail gelesen. Vorgaenger-Ausgabe 01.01.2015 (Datei 'Flucht & Rettungswege.pdf', 34 S.) vollstaendig gegen die Fassung 01.01.2017 abgeglichen (pdftotext-Volltextvergleich). Unabhaengige Gegenpruefung (Refuter, 17.07.2026): Personenbelegungs-Kennwerte (S. 24), Treppen-Steigungsformeln/Podeste (S. 17), Tuerverschluss-Zuordnung EN 179/EN 1125/EN 13637 (S. 19), Datierung/Ausgabe (S. 1, 2, 13) sowie die Messweise-Zuordnung Treppenbreite (S. 15) und der Anhang-Vorbehalt (S. 14) am Original nachgeprueft — keine Abweichung gefunden."
-datenstand: "Ausgabe 2015 (in Kraft 01.01.2015); destilliert ab Dokumentfassung 01.01.2017 mit den IOTH-Aenderungen 17.09.2015 und 22.09.2016. ⚠ NICHT die juengste Fassung: im Bestand liegt die Fassung Stand 01.12.2022 (BSPUB-1394520214-85.pdf) mit drei weiteren Aenderungsstufen — Beschluss ABSV 22.03.2017 (Ziff. 2.4.3/2.4.4), Beschluss TKB 09.06.2021 (Ziff. 3.5.2 Personenbelegung Verkauf, ERSETZT) und Fehlerkorrektur 01.12.2022 (Ziff. 3.7). Nur die Personenbelegung Verkauf ist bisher nachgefuehrt (Wissens-Chef Run 8); die uebrigen Deltas sind ungeprueft."
+gelesen: "S. 1-13 (Ziff. 1-5 vollstaendig); Anhang S. 14-25 gelesen (Zeichnungen/Erlaeuterungen zu Ziff. 2.3, 2.4.2, 2.4.4, 2.4.5, 2.5.1, 2.5.2, 2.5.5, 3.2.1/3.3.1/3.4.1, 3.3, 3.4.3, 3.5.2, 3.5.3); Kennwerte aus Anhang S. 17 (Treppen), S. 19 (Tuerverschluesse), S. 24 (Personenbelegung) am Original verifiziert und eingearbeitet (17.07.2026). Restlicher Anhang S. 26-35 noch nicht im Detail gelesen. Vorgaenger-Ausgabe 01.01.2015 (Datei 'Flucht & Rettungswege.pdf', 34 S.) vollstaendig gegen die Fassung 01.01.2017 abgeglichen (pdftotext-Volltextvergleich). Unabhaengige Gegenpruefung (Refuter, 17.07.2026): Personenbelegungs-Kennwerte (S. 24), Treppen-Steigungsformeln/Podeste (S. 17), Tuerverschluss-Zuordnung EN 179/EN 1125/EN 13637 (S. 19), Datierung/Ausgabe (S. 1, 2, 13) sowie die Messweise-Zuordnung Treppenbreite (S. 15) und der Anhang-Vorbehalt (S. 14) am Original nachgeprueft — keine Abweichung gefunden. NACHTRAG 25.07.2026: Fassung Stand 01.12.2022 (BSPUB-1394520214-85.pdf, 35 S.) vollstaendig per pdftotext extrahiert und Seite fuer Seite (Volltextvergleich) gegen die Fassung 01.01.2017 (Datei 16-15_rev2016_flucht_und_rettungswege.pdf, identisch mit der oben destillierten Quelle) abgeglichen; gezielt gegengelesen S. 1-2 (Titelblatt/Copyright/Aenderungsliste), S. 6 (Hauptziffern 2.4.3/2.4.4 im Kontext der Volltextextraktion), S. 12 (Hauptziffer 3.7), S. 14-16 (Anhang zu Ziff. 2.4.2-2.4.4), S. 24 (Anhang zu Ziff. 3.5.2, Personenbelegung), S. 32-34 (Anhang zu Ziff. 3.7/3.9/3.10). Siehe Abschnitt 'Fassung 01.12.2022 — Delta zur Fassung 01.01.2017' unten."
+datenstand: "Ausgabe 2015 (in Kraft 01.01.2015); destilliert ab Dokumentfassung 01.01.2017 mit den IOTH-Aenderungen 17.09.2015 und 22.09.2016. Im Bestand liegt zusaetzlich die Fassung Stand 01.12.2022 (BSPUB-1394520214-85.pdf) mit drei weiteren Aenderungsstufen — Beschluss ABSV 22.03.2017 (Anhang zu Ziff. 2.4.3/2.4.4), Beschluss TKB 09.06.2021 (Ziff. 3.5.2 Personenbelegung Verkauf, ERSETZT) und Fehlerkorrektur 01.12.2022 (Anhang zu Ziff. 3.7). Alle drei sind jetzt am Original geprueft und destilliert (Personenbelegung Verkauf: Wissens-Chef Run 8, 18.07.2026; ABSV und Fehlerkorrektur: 25.07.2026, siehe Abschnitt 'Fassung 01.12.2022 — Delta zur Fassung 01.01.2017'). Ergebnis: in allen drei Faellen ist NUR der erlaeuternde Anhang (Zeichnungs-Legenden/Bildunterschriften) geaendert bzw. praezisiert worden, nicht der normative Haupttext der Ziffern 2.4.3/2.4.4 bzw. 3.7 (Ziff. 3.5.2 Personenbelegung ist die Ausnahme: dort wurde die Verkaufs-Tabelle im Anhang selbst materiell ersetzt)."
 status: established-mit-vorbehalt
 last_updated: 2026-07-18
 links: [[REGISTER]], [[QUESTIONS]]
@@ -249,6 +249,135 @@ folgende inhaltliche Unterschiede zur Ausgabe 2017 (Volltextvergleich):
 - Alle übrigen Ziffern (2.1-2.3, 2.4.1, 2.4.3-2.4.7 im Kern, 2.5.1, 2.5.3-2.5.5, Ziff. 3.1-3.2, 3.5-3.10)
   sind zwischen den beiden Ausgaben inhaltlich identisch — die Kernkennwerte im Abschnitt
   "Zentrale Tabellen/Kennwerte" oben gelten unverändert auch für die Ausgabe 2015.
+
+## Fassung 01.12.2022 — Delta zur Fassung 01.01.2017
+
+Geprueft am Original: `PL - 03 Brandschutz/02 Brandschutzrichtlinien 2015-17-22/
+BSPUB-1394520214-85.pdf` (35 S.), vollstaendiger pdftotext-Volltextvergleich gegen die oben
+destillierte Fassung 01.01.2017 (`16-15_rev2016_flucht_und_rettungswege.pdf`, identische
+Datei wie in `quelle`). 25.07.2026.
+
+### Dokument-Identifikation
+Titelblatt (S. 1): «BRANDSCHUTZRICHTLINIE Flucht- und Rettungswege», Datierung
+**«01.01.2017 / 16-15de»** mit zusaetzlichem Zeilen-Vermerk **«Stand 01.12.2022»** darunter.
+Das bestaetigt exakt die in dieser KB dokumentierte Fehlerquelle: **Ausgabe 2015** (Copyright-
+Vermerk S. 2 unveraendert: «© Copyright 2015 Berne by VKF/AEAI/AICAA»), **Fassungsdatum
+01.01.2017** (unveraendert gegenueber der bisher destillierten Datei), zusaetzlich ein
+**Stand-Vermerk 01.12.2022**, der weitere seit 01.01.2017 eingearbeitete Aenderungen markiert
+— keine neue Ausgabe, keine neue Fassung, sondern ein dritter Datumslayer «Stand». Die
+Aenderungsliste auf S. 2 (Copyright-Seite) fuehrt gegenueber der Fassung 01.01.2017 drei
+zusaetzliche Eintraege auf:
+- «Änderungen im Anhang gemäss Beschluss ABSV vom 22. März 2017: zu Ziffern 2.4.3 und 2.4.4
+  (Seiten 15 und 16)»
+- «Änderungen im Anhang gemäss Beschluss TKB vom 9. Juni 2021: zu Ziffer 3.5.2 (Seite 24)»
+- «Fehlerkorrektur im Anhang vom 1. Dezember 2022: zu Ziffer 3.7 (Seite 33)»
+
+Wichtig: alle drei Eintraege sprechen ausdruecklich vom **«Anhang»** («im Anhang»/«im Anhang
+gemäss...»), nicht von der Ziffer selbst. Das ist am Originaltext bestaetigt (siehe unten):
+in allen drei Faellen ist der **normative Ziffertext im Hauptteil unveraendert**, geaendert
+wurde die **erlaeuternde Zeichnungs-Bildunterschrift bzw. Tabelle im Anhang**. Zusaetzliche
+kosmetische Aenderung ohne Inhaltsbezug: die Internet-Fundstelle auf S. 2 wechselt von
+«www.praever.ch/de/bs/vs» (Fassung 2017) auf «www.bsvonline.ch/de/vorschriften» (Fassung
+Stand 2022); Aufzaehlungszeichen im Anhang zu Ziff. 2.4.2/3.4.4/3.10 wechseln von
+Leerzeichen-Einzug auf «•»-Bullets (rein layoutbedingt).
+
+### Antwort auf die Schwerpunkt-Teilfrage: Ziff. 3.7, Bezugsgroesse und Schwellenwert
+**Der normative Ziffertext Ziff. 3.7 Abs. 1 (Hauptteil, S. 12) ist zwischen der Fassung
+01.01.2017 und der Fassung Stand 01.12.2022 wortidentisch** und lautet in beiden Fassungen:
+
+> «Wenn Ausgänge in einen vertikalen Fluchtweg führen, sind bei Einstellräumen mit einer
+> Brandabschnittsfläche von mehr als 1'200 m2 feuerwiderstandsfähige Schleusen oder
+> Vorplätze zu erstellen.»
+
+Bezugsgroesse **Brandabschnittsflaeche**, Schwellenwert **> 1'200 m2** — exakt wie im
+bestehenden Destillat oben (Abschnitt «Kernziffern», Ziff. 3.7) wiedergegeben. **Das
+bestehende Destillat war also bereits korrekt und nicht «geglaettet»** — es gibt den
+seit jeher unveraenderten Hauptziffertext wortgetreu wieder.
+
+Die Fehlerkorrektur vom 01.12.2022 betrifft nachweislich NICHT diesen Hauptziffertext,
+sondern die **Bildunterschrift der Anhang-Zeichnung «zu Ziffer 3.7 Parking» (S. 33)**. Dort
+stand in der Fassung 01.01.2017 (S. 32, Datei `16-15_rev2016_flucht_und_rettungswege.pdf`):
+
+> «Anordnung von Vorplätzen (V) oder Schleusen (S) bei Einstellräumen mit einer
+> **Geschossfläche** von mehr als 1200 m2»
+
+— ein Widerspruch zum eigenen Hauptziffertext, der schon damals «Brandabschnittsfläche»
+verlangte. Die Fehlerkorrektur 01.12.2022 hat exakt dieses eine Wort in der Bildunterschrift
+ersetzt; sie lautet in der Fassung Stand 01.12.2022 (S. 33) nun:
+
+> «Anordnung von Vorplätzen (V) oder Schleusen (S) bei Einstellräumen mit einer
+> **Brandabschnittsflä-che** von mehr als 1200 m2»
+
+**Einordnung:** Die vom Auftrag vermutete Aenderung «von Geschossflaeche auf
+Brandabschnittsflaeche» hat tatsaechlich stattgefunden — aber nicht am normativen
+Ziffertext (der war immer schon «Brandabschnittsflaeche»), sondern an einer erlaeuternden
+Anhang-Bildunterschrift, die bis 01.12.2022 fehlerhaft «Geschossflaeche» sagte und damit dem
+eigenen Hauptteil widersprach. Fuer die Bemessungspraxis war die massgebende Groesse deshalb
+schon vor der Korrektur die Brandabschnittsflaeche (Hauptziffertext hat Vorrang vor der
+erlaeuternden Anhang-Bildunterschrift, vgl. Anhang-Vorbehalt S. 14: der Anhang «beansprucht
+keinen eigenstaendigen Vorschriftenstatus»). Die Korrektur beseitigt lediglich die
+Inkonsistenz zwischen Text und Bildunterschrift.
+
+### Ziff. 2.4.3 / 2.4.4 und der Beschluss ABSV 22.03.2017
+Auch hier ist der **Hauptziffertext unveraendert** (S. 6, wortidentisch in beiden Fassungen):
+Ziff. 2.4.3 Abs. 1-2 (Gesamtlaenge Fluchtweg: max. 35 m bei einem vertikalen Fluchtweg/
+Ausgang, max. 50 m bei mind. zwei unabhaengigen) und Ziff. 2.4.4 Abs. 1-3 (Fluchtweglaenge
+in der Nutzungseinheit max. 35 m, ueber 35 m horizontaler Fluchtweg noetig, bei ueberhohen
+Raeumen mit mehreren Fluchtrichtungen bis 50 m in Absprache mit der Behoerde) — keine
+Zahlenaenderung, keine Wortlautaenderung.
+
+Der Beschluss ABSV 22.03.2017 betrifft die **Anhang-Zeichnungen «zu Ziffer 2.4.3 Gesamtlänge
+von Fluchtwegen» / «zu Ziffer 2.4.4 Fluchtweglänge in der Nutzungseinheit» (S. 15/16)**:
+zwei Prinzipskizzen mit Bildunterschriften. In der Fassung 01.01.2017 lautete die
+Bildunterschrift der ersten Skizze fehlerhaft:
+
+> «Horizontaler Fluchtweg mit einem Ausgang an einen sicheren Ort im Freien oder in einen
+> vertikalen Fluchtweg.»
+
+— das beschreibt inhaltlich Ziff. 2.4.4 (horizontaler Fluchtweg), stand aber unter der
+Überschrift zu Ziff. 2.4.3 (Gesamtlänge von Fluchtwegen). In der Fassung Stand 01.12.2022
+(S. 15) ist dieselbe Bildunterschrift korrigiert auf:
+
+> «Gesamtlänge von Fluchtwegen mit einem Ausgang an einen sicheren Ort im Freien oder in
+> einen vertikalen Fluchtweg.»
+
+— jetzt inhaltlich passend zu Ziff. 2.4.3, unter der sie steht. Es handelt sich um die
+Korrektur einer falsch zugeordneten Zeichnungs-Bildunterschrift (Ziff. 2.4.3 vs. 2.4.4
+vertauscht), nicht um eine inhaltliche Aenderung der 35-m-/50-m-Werte oder der
+Anwendungsvoraussetzungen.
+
+### Delta-Liste gegen das bestehende Destillat (nur echte Unterschiede)
+1. **Ziff. 3.7, Anhang-Bildunterschrift S. 33 (NEU/korrigiert):** «Geschossfläche» →
+   «Brandabschnittsfläche» (> 1'200 m2). Hauptziffertext Ziff. 3.7 unveraendert. Im
+   bestehenden Destillat bisher nicht als eigener Anhang-Kennwert gefuehrt (die «Anhang-
+   Kennwerte» oben decken Ziff. 3.5.2/2.5.1/2.5.5/2.5.5-Schiebetueren/2.4.2/2.5.2/3.3 ab,
+   nicht Ziff. 3.7) — ergaenzt hier erstmals.
+2. **Ziff. 2.4.3/2.4.4, Anhang-Bildunterschrift S. 15 (NEU/korrigiert):** vertauschte
+   Bildunterschrift der Prinzipskizze richtiggestellt («Horizontaler Fluchtweg…» →
+   «Gesamtlänge von Fluchtwegen…»). Hauptziffertext Ziff. 2.4.3/2.4.4 unveraendert (35 m/
+   50 m-Werte bleiben exakt gleich). Im bestehenden Destillat bisher nicht abgedeckt.
+3. **Ziff. 3.5.2 Personenbelegung Verkauf (bereits im bestehenden Destillat als ERSETZT
+   markiert, hier nur bestaetigt):** Am Original S. 24 der Fassung Stand 01.12.2022
+   nochmals gegengelesen — die vom Wissens-Chef Run 8 (18.07.2026) eingetragene 3-zeilige
+   Matrix (Fachmaerkte/Kaufhaeuser/Einkaufszentren 0.10/0.10, Supermaerkte 0.38/0.15,
+   Hochfrequentierte Supermaerkte 0.45/0.21 Personen/m2) sowie die neue Fussnote [2] zur
+   Bezugsflaeche stimmen wortgetreu mit dem Original ueberein. Kein weiterer Korrekturbedarf.
+4. **Titelblatt/Metadaten:** zusaetzlicher Stand-Vermerk «01.12.2022» (S. 1); Internet-
+   Fundstelle S. 2 geaendert (kein Norminhalt, rein bibliografisch).
+5. **Entfallen:** nichts. Keine der drei Aenderungsstufen streicht eine bisher geltende
+   Anforderung ersatzlos (ausser der bereits dokumentierten Verkaufs-Tabelle unter Punkt 3).
+6. **Alle uebrigen Ziffern/Kennwerte** (2.1-2.3, 2.4.1, 2.4.2, 2.4.5-2.4.7, 2.5.1-2.5.5,
+   3.1-3.4, 3.5.1/3.5.3-3.5.5, 3.6-3.6.2, 3.8-3.10, Anhang-Tabellen Treppen S. 17,
+   Tuerverschluesse S. 19) sind laut Volltextvergleich zwischen den Fassungen 01.01.2017
+   und Stand 01.12.2022 **identisch** — keine weitere Nachfuehrung noetig.
+
+### Was am bestehenden Destillat geaendert wurde
+Nichts am bisherigen Fliesstext war sachlich falsch und musste korrigiert werden — die
+Kernziffern-Eintraege zu Ziff. 2.4.3/2.4.4/3.7 (Abschnitt «Kernziffern») geben durchgehend
+den unveraenderten Hauptziffertext korrekt wieder. Ergaenzt wurden ausschliesslich: (a)
+dieser neue Abschnitt, (b) das Frontmatter-Feld `gelesen` (Nachtrag 25.07.2026), (c) das
+Frontmatter-Feld `datenstand` (Status der drei Aenderungsstufen von «ungeprueft» auf
+«geprueft» aktualisiert, `status:` selbst nicht angetastet).
 
 ## Offene Punkte
 - Anhang S. 14-25 ist eingearbeitet (siehe Abschnitt «Anhang-Kennwerte»); der restliche Anhang

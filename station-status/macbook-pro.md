@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.07.2026 13:25:24
+Stand: 25.07.2026 13:35:30
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:25)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:30)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 25.07.2026 13:25:24
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 646caf3c planungsgrundlagen-training Run 61: Kartenportale K46-Nachtrag (Backlog geschlossen, Leitungskataster-Praezisierung) + Energie E42/E43 (U-Wert-Restdateien, MuKEn-Refresh)
+- 20dd28a7 auto-sync [Macbookpro]: scripts/ensure-nas-mounted.sh,scripts/nas-keepalive.sh
