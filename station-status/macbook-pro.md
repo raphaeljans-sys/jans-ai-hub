@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 26.07.2026 00:54:09
+Stand: 26.07.2026 01:14:25
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 00:53)
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:00)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 26.07.2026 00:54:09
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 9da2a0a3 grobkosten-training Run 5: neue Quelle SharePoint IMMO-06-Kennwerte, m2-GF-Benchmark 4485 CHF/m2 GF BKP1-5 (Wohnen Individuell) als eigenstaendige Sektion, Projekt-Identitaetsfrage Thalwil Bohlweg 1 offen
+- 57cc6b91 nas-selfcommit: 2 Datei(en) 2026-07-26 01:00
