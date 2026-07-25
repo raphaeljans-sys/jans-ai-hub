@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 25.07.2026 23:06:07
+Stand: 25.07.2026 23:26:13
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:47)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:25)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 25.07.2026 23:06:07
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e8795452 nas-selfcommit: 9 Datei(en) 2026-07-25 23:00
+- 9fb82e68 planungsgrundlagen-training Run 87: Frischecheck Kartenportale+Energie, 14. Nullbefund (21. in Folge)

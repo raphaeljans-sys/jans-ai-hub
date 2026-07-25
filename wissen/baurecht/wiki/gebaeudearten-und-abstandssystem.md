@@ -1,9 +1,17 @@
 ---
 title: Gebäudearten und Abstandssystem — Kanton Zürich
 status: established
-last_updated: 2026-07-13
-verifiziert: 2026-07-13 (Modell-D-Volltextabgleich §§ 2/2a/2b/2c/21/25/28 ABV, § 1 lit. a BVV, §§ 260/261/269-273 + § 49 Abs. 3 PBG gegen raw/260607_amtlich_zh_abv|pbg|bvv.md — beide Fassungen [harmonisiert LS 700.x + Anhang Stand 28.2.2017]. Korrekturen: Minibau-Fundstelle «§ 2 Abs. 1 ABV» → § 260 Abs. 4 PBG (harmonisiert) bzw. § 2 Abs. 2 ABV (übergangsr.); Grenzlinie «§ 269» → § 260 Abs. 1 PBG; unbelegtes «ohne Wohnräume» bei bewilligungsfreier Baute gestrichen; §§ 2a/2b/2c ABV ergänzt. OFFEN: Fallrecht BEZ 1989 Nr. 21 / RB 1991 Nr. 84 und Art. 688 ZGB / §§ 169 ff. EG ZGB nicht gegen die vorliegenden amtlichen Raws belegbar — konsistent mit dem established Schwesterartikel [[abstaende-und-hoehen]])
-sources: ["§ 260 Abs. 1/4 PBG", "§ 261 PBG", "§ 269 PBG", "§ 270 PBG", "§ 271 PBG", "§ 272 PBG", "§ 273 PBG", "§ 49 Abs. 3 PBG", "§ 2 ABV", "§ 2a ABV", "§ 2b ABV", "§ 2c ABV", "§ 21 ABV", "§ 25 ABV", "§ 28 Abs. 1 ABV", "§ 1 lit. a BVV", "Art. 688 ZGB", "Buch Bd 2 S. 995-998", "raw/260607_amtlich_zh_abv.md", "raw/260607_amtlich_zh_pbg.md", "raw/260607_amtlich_zh_bvv.md"]
+last_updated: 2026-07-25
+verifiziert:
+  - datum: 2026-07-13
+    methode: "Modell-D-Volltextabgleich (adversarial)"
+    umfang: "§§ 2/2a/2b/2c/21/25/28 ABV, § 1 lit. a BVV, §§ 260/261/269-273 + § 49 Abs. 3 PBG gegen raw/260607_amtlich_zh_abv|pbg|bvv.md — beide Fassungen (harmonisiert LS 700.x + Anhang Stand 28.2.2017)"
+    ergebnis: "Korrekturen: Minibau-Fundstelle «§ 2 Abs. 1 ABV» → § 260 Abs. 4 PBG (harmonisiert) bzw. § 2 Abs. 2 ABV (übergangsr.); Grenzlinie «§ 269» → § 260 Abs. 1 PBG; unbelegtes «ohne Wohnräume» bei bewilligungsfreier Baute gestrichen; §§ 2a/2b/2c ABV ergänzt. OFFEN gelassen: Fallrecht BEZ 1989 Nr. 21/RB 1991 Nr. 84 und Art. 688 ZGB/§§ 169 ff. EG ZGB nicht belegt"
+  - datum: 2026-07-25
+    methode: "Modell-D-Volltextabgleich, Buch-Run 59, Stichproben-Re-Verifikation (Prioritaet c, PROGRAMM.md) — Kandidat mit aeltestem verifiziert-Datum ohne Rechecke seit Ersterfassung"
+    umfang: "Privatrechtlicher Abschnitt: Art. 688 ZGB (Fedlex, konsolidiert Stand 1.1.2025) + §§ 168-179 EG ZGB (LS 230, zhlex Nachtrag 133/Stand 1.7.2026) frisch amtlich beschafft (bislang kein raw-Beleg in der KB vorhanden)"
+    ergebnis: "LUECKE GESCHLOSSEN, 0 Korrekturen an bestehenden Aussagen: Art. 688 ZGB CONFIRMED als Delegationsnorm; §§ 169-174/177-179 EG ZGB (Straeucher 50 cm, Baeume 2-4 m/Rebland 8 m, Baumschule 1 m, Waldboden 50 cm, Verjaehrung 5 Jahre, Gruenhecken 50 cm bis 2 m/darueber hinaus proportional, andere Einfriedigungen 150 cm) vollstaendig erfasst und ins Kapitel 'Privatrechtliche Abstaende' integriert. Fallrecht BEZ 1989 Nr. 21/RB 1991 Nr. 84 (Zonengrenzen-Frage, anderes Thema) bleibt unbelegt — keine Gerichtsentscheid-Datenbank verfuegbar, weiterhin als offen ausgewiesen statt stillschweigend uebernommen"
+sources: ["§ 260 Abs. 1/4 PBG", "§ 261 PBG", "§ 269 PBG", "§ 270 PBG", "§ 271 PBG", "§ 272 PBG", "§ 273 PBG", "§ 49 Abs. 3 PBG", "§ 2 ABV", "§ 2a ABV", "§ 2b ABV", "§ 2c ABV", "§ 21 ABV", "§ 25 ABV", "§ 28 Abs. 1 ABV", "§ 1 lit. a BVV", "Art. 688 ZGB", "§§ 169-174/177-179 EG ZGB", "Buch Bd 2 S. 995-998", "raw/260607_amtlich_zh_abv.md", "raw/260607_amtlich_zh_pbg.md", "raw/260607_amtlich_zh_bvv.md", "raw/260725_amtlich_zh_egzgb.md"]
 links: [[abstaende-und-hoehen]], [[15-lage-von-gebaeuden]], [[baubewilligungsverfahren]], [[geschosse-und-kniestock]]
 ---
 

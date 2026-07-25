@@ -1,7 +1,29 @@
-# Roh-Beleg: 2518 Grubenackerstrasse 7 — dünner Einzelfall, unverifiziert
+# Roh-Beleg: 2518 Grubenackerstrasse 7 — KORRIGIERT Run 4: generisches Template, KEINE Projektdaten
 
 Quelle: SharePoint `AR - 01 Projekte/2518_Grubenackerstrasse_7/04_KostenTermine/1_Kosten/
 2_Kostenschätzung/230405_GKS/230405_GKS.docx`. Extrahiert Run 2 (25.07.2026) durch Subagent.
+
+## KORREKTUR Run 4 (25.07.2026)
+
+Bei der Erschliessung von SharePoint `AR - 03 Studien` (Vierte Quelle, siehe
+`training/quellen-inventar.md` Run 4) wurde derselbe Dateiname `230405_GKS.docx` mit
+identischem Inhalt (Volltext-Vergleich UND MD5-Prüfsummen-Vergleich) in **mindestens 8
+weiteren Projektordnern** gefunden: 2410 WALD, 2412 Ebmatingen, 2408 Oberaegeri, 2409
+Steinhof, 2304 Waedenswil, 2305 Muenchenwiler, 2513 BAAR, 2514 WIL — überall exakt dieselben
+Zahlen (TG 282 m³, ZG 7 m³, UG 334 m³, EG 540 m³, OG 505 m³, Total 1'668 m³, ×950/1050 CHF).
+
+**Damit ist erwiesen: Dieses Dokument ist eine generische Rechenvorlage/Referenzbeispiel
+(Autor rj, 05.04.2023), die unverändert in mindestens 9 verschiedene Projektordner kopiert
+wurde — es beschreibt KEIN echtes Bauvolumen der Grubenackerstrasse 7, sondern ein
+Beispiel-/Übungsvolumen, das als Ausgangspunkt für neue Kostenschätzungen diente.** Die
+Nutzung/Bauherrschaft war schon in Run 2 als "fehlend im Dokument" markiert — dieser Befund
+erklärt warum: Es gibt keine Projektbeziehung, weil das Dokument nie projektspezifisch war.
+
+**Konsequenz:** Der bisher als "Einzelfall n=1, unverifiziert" geführte Wert 950–1'050
+CHF/m³ wird aus `wiki/kennwerte.md` entfernt (siehe dortige Korrektur Run 4). Dieser
+Roh-Beleg bleibt als Lern-Fall stehen (Warnung: gleicher Dateiname + gleicher Inhalt über
+mehrere Projektordner ist ein starkes Signal für ein Template, nicht für Realdaten — vor
+jeder Übernahme künftig per Volltext- oder Hash-Vergleich gegen andere Projektordner prüfen).
 
 ## Wichtiger Vorbefund: Fehlablage im Projektordner
 
