@@ -1,7 +1,7 @@
 ---
 title: Layer 2 — The Verifier (Verifikations-Hebel)
 status: established
-last_updated: 2026-07-24
+last_updated: 2026-07-25
 sources: [260616_marchese_the-spec_karpathy-method_transkript.md, bcherny_x_2007179861115511237]
 links: [[the-spec]], [[3-schritte-spec]], [[environment-jans-hub]], [[anwendung-jans]]
 ---
@@ -324,3 +324,17 @@ Zwei Präzisierungen fallen dabei ab:
   tatsächlich anstiess (Raphael direkt, das logbuch-Flag oder diese Notiz), steht in keinem Artefakt.
   Registriert wird die **Landung als Faktum**, nicht eine Wirkungskette. Der Faden wird hiermit
   **geschlossen** — solange die neue Kanal-Regel im Artefakt steht, ist keine weitere Reue-Prüfung nötig.
+
+**Kehrseite der Fahrplan-Regel (Lauf 29, 25.07.2026): sie gilt auch für den eigenen Meldetext des
+Loops.** Lauf 28 (13:35 Uhr, selbiger Tag) behauptete «Monitor schreibt täglich bis 25.07. inkl.» —
+zum Prüfzeitpunkt lag in `fristen.md` aber kein 25.07.-Eintrag vor, nur 22./23./24.07. Der Fehlschluss
+kam nicht aus Nachlässigkeit bei der Artefakt-Prüfung, sondern aus einer stillschweigend falschen
+Fahrplan-Annahme: der 25.07.2026 ist ein **Samstag**, der Mo-Fr-Cron sollte an diesem Tag gar nicht
+laufen — die Formulierung «bis 25.07. inkl.» suggerierte Kontinuität, die es nie geben sollte. Die
+Fahrplan-Regel aus Lauf 23 («vor jeder Schweige-Diagnose den Fahrplan prüfen») schützt vor einem
+falschen Alarm bei planmässiger Stille; sie schützt aber nicht automatisch vor der Umkehrung — einer
+zu optimistischen Kontinuitäts-Behauptung, die das Kalenderdatum des Prüftags mit einem tatsächlich
+existierenden Artefakt-Eintrag verwechselt. **Ergänzte Regel:** vor jeder «hält»/«läuft weiter»-Formulierung
+den Fahrplan UND das jüngste tatsächliche Artefakt-Datum nennen, nicht das Prüfdatum. Kein neuer
+Fehlermodus des Monitors — eine Präzisionslücke des KB-Loops selbst, korrigiert in `outputs/
+2026-07-25_training-run29.md`.

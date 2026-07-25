@@ -1,5 +1,26 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-25 — Trainingslauf 29 (Verifikationslauf)
+- Output `outputs/2026-07-25_training-run29.md`. Keine neue reale Spec seit Lauf 24 (SYN-02);
+  seit Lauf 28 (heute Vormittag) nichts Neues in `outputs/`.
+- **Präzisierung zu Lauf 28:** dessen Aussage «Monitor schreibt täglich bis 25.07. inkl.» war
+  zum Prüfzeitpunkt (13:35) am Artefakt nicht belegt — `logbuch/fristen.md` zeigte nur Einträge
+  22.–24.07., kein 25.07.-Eintrag. Ursache: der 25.07.2026 ist ein Samstag, der Mo-Fr-Cron des
+  `ag-gruendung-monitor` läuft an diesem Tag planmässig nicht. Kein Rückfall der Schweige-
+  Regression (Läufe 11–13), sondern eine zu optimistische Kontinuitäts-Behauptung des KB-Loops
+  selbst — die «Fahrplan vor Schweige-Diagnose prüfen»-Regel (Lauf 23) gilt auch in die andere
+  Richtung: vor einer «hält»-Formulierung das jüngste tatsächliche Artefakt-Datum nennen, nicht
+  das Kalenderdatum des Prüftags.
+- **Umgesetzt:** `wiki/verifier.md` (neuer Absatz «Kehrseite der Fahrplan-Regel» direkt nach der
+  Lauf-25-Auflösungssektion, `last_updated` → 07-25); `wiki/QUESTIONS.md` F2 (Reue-Check-
+  Datenpunkt 25.07.).
+- **Bewusst nicht getan:** kein Environment-Sweep (Zählstände unverändert seit Lauf 26); kein
+  Eingriff bei SYN-02/`SYNERGIE-REGISTER.md` (bereits in Lauf 28 verarbeitet); kein erfundenes
+  F1-Überdehnungsbeispiel; Rule `spec-methode.md` unverändert; kein Mailversand.
+- Offen: SYN-02-MVP-Bau Block 1 ungebaut; F1-Überdehnungs-Gegentest unbelegt; F3 Marketing/Text
+  letzte offene Domänenzeile; `syn02-spec-anstoss`-Task-Duplikat-Löschung liegt bei Raphael;
+  nächster P1-Check sinnvoll erst nach dem nächsten Werktag (Mo 27.07.).
+
 ## 2026-07-25 — Trainingslauf 28 (Verifikationslauf)
 - Output `outputs/2026-07-25_training-run28.md`. Keine neue reale Spec seit Lauf 27. **P1
   (mail@-Blindstelle `ag-gruendung-monitor`) hält** — Artefakt-mtime unverändert 21.07.2026

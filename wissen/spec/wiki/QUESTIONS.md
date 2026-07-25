@@ -227,6 +227,14 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klären sollen.
     zeigt durchgehende Einträge 22.–25.07., inhaltlich weiter «nichts Neues», UBS-Antwort jetzt 29 Tage
     überfällig). Kein neuer Sweep nötig. Neuer Fund dieses Laufs liegt bei F2 unten (Faktenbasis-Drift
     einer wartenden Spec), nicht bei P1.
+  - Reue-Check 25.07. (Lauf 29, Präzisierung statt neuem Sweep): Lauf 28s Formulierung «Monitor
+    schreibt täglich bis 25.07. inkl.» war zum Prüfzeitpunkt (13:35) nicht belegt — `fristen.md`
+    zeigte nur Einträge 22.–24.07., kein 25.07.-Eintrag. Der 25.07.2026 ist ein Samstag, der
+    Mo-Fr-Cron des `ag-gruendung-monitor` läuft an diesem Tag planmässig nicht — kein Rückfall in
+    die alte Schweige-Regression, sondern eine zu optimistische Kontinuitäts-Behauptung des
+    KB-Loops selbst. Ergänzte Lehre in [[verifier]]: die «Fahrplan vor Schweige-Diagnose
+    prüfen»-Regel (Lauf 23) gilt auch in die andere Richtung — vor einer «hält»-Formulierung das
+    jüngste tatsächliche Artefakt-Datum nennen, nicht das Kalenderdatum des Prüftags.
   - Faktenbasis-Drift 25.07. (Lauf 28, neuer Alterungsmodus, belegt SYN-02): eine bestätigte Spec kann
     altern, ohne dass ein Entscheid kippt oder eine externe Instanz aussteht — indem die **Faktenbasis
     selbst weiterwächst**, während das MVP auf Freigabe wartet. Die SYN-02-Spec (bestätigt 20.07.) kennt
