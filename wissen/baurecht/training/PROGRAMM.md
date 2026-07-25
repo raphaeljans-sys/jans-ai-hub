@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-25 (Run 57)
+last_updated: 2026-07-25 (Run 58)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -113,6 +113,28 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 58 (2026-07-25, Festigungsmodus, Priorität (c) Stichproben-Re-Verifikation, kein
+    Agent-Fan-out):** Run 57s Empfehlung gefolgt — die zwei zurückgestellten Kandidaten
+    [[bauausfuehrung-und-baukontrolle]] und [[widerrechtliche-bauten-und-sanktionen]] (beide
+    `established` seit Run 30/31, nur `verifiziert`-Feld fehlte) geprüft. **[[widerrechtliche-
+    bauten-und-sanktionen]]:** Stichprobe §§ 340/340a/341 PBG gegen `raw/260607_amtlich_zh_pbg.md`
+    + § 30/31 VRG gegen `raw/260712_amtlich_zh_vrg.md` wortlautgeprüft — **alle CONFIRMED, 0
+    Korrekturen.** PBG-Fassungsstand live gegen zhlex.zh.ch bestätigt (Nachtrag 133, keine Drift
+    zur raw-Datei). `verifiziert`-Feld ergänzt. **[[bauausfuehrung-und-baukontrolle]]:** Bestand
+    §§ 326-329 PBG + §§ 10c/30 VRG aus Run 30/31 bestätigt, **aber Register-Sweep-Rückstand aus
+    Run 47 gefunden:** die dort an 4 Stellen korrigierte Geisterbezeichnung «Art. 32bis USG»
+    (amtlich korrekt **Art. 32bbis USG**) überlebte an **3 weiteren, von Run 47 nicht erfassten
+    Fundorten** — Wiki-Frontmatter + -Fliesstext, Destillat `buecher/band-1/08-ausfuehrung-teil2-
+    baustellensicherheit.md` (5 Stellen), `training/curriculum.md` (1 Stelle). Alle korrigiert;
+    historische Fundorte (CHANGELOG/outputs/QUESTIONS/PROGRAMM-Tracker/drills.md-Beschreibungen),
+    die die vergangene Korrektur selbst dokumentieren, bewusst unverändert gelassen. Beide
+    Artikel erhielten ihr erstes `verifiziert`-Feld. **0 Halluzinationen, 1 Register-Sweep-
+    Korrektur (Altfund), 0 neue materielle Fehler.** 3 neue Drill-Karten (2×D, 1×A). Report
+    `outputs/2026-07-25_buch-run58.md`. **Nächster Schritt:** nach diesem Lauf trägt (ausser
+    Registerdateien) kein `established`-Artikel mehr ein fehlendes `verifiziert`-Feld —
+    nächster Priorität-(c)-Kandidat: ältestes `verifiziert`-Datum unter den bereits geprüften
+    Artikeln (`grep -h "^verifiziert:" wiki/*.md | sort`) oder Fassungsstand-Sammelcheck auf
+    weitere kantonale Erlasse ausserhalb der in Run 52-54 geprüften Liste ausweiten.
   - **Run 57 (2026-07-25, Festigungsmodus, Priorität (c) Stichproben-Re-Verifikation, kein
     Agent-Fan-out):** [[bestandsumbau-eingriffstiefe]] gewählt (Kt. SZ, seit Seed 07.06.2026 nie
     durch den Modell-D-Loop gelaufen, gegenüber dem Run-56-Alternativkandidaten mit höherem

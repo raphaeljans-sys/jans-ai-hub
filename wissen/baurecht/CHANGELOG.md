@@ -4,6 +4,24 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-25 — Buch-Run 58 (Festigungsmodus, Priorität c: Stichproben-Re-Verifikation Bauausführung + Widerrechtliche Bauten)
+- [verifiziert] **[[widerrechtliche-bauten-und-sanktionen]]** — Stichprobe §§ 340/340a/341 PBG
+  gegen `raw/260607_amtlich_zh_pbg.md` + § 30/31 VRG gegen `raw/260712_amtlich_zh_vrg.md`
+  wortlautgeprüft, 0 Korrekturen; PBG-Fassungsstand live gegen zhlex.zh.ch bestätigt (Nachtrag
+  133, keine Drift). Erstmaliges `verifiziert`-Feld ergänzt.
+- [korrektur] **Register-Sweep-Rückstand aus Run 47 geschlossen:** die dort korrigierte
+  Geisterbezeichnung «Art. 32bis USG» (amtlich korrekt: **Art. 32bbis USG**) überlebte an
+  3 von Run 47 nicht erfassten Fundorten — `wiki/bauausfuehrung-und-baukontrolle.md`
+  (Frontmatter + Fliesstext), `buecher/band-1/08-ausfuehrung-teil2-baustellensicherheit.md`
+  (5 Stellen: Frontmatter-Paragraphenliste + 4 Fliesstext-/Tabellenstellen), `training/
+  curriculum.md` (1 Stelle). Alle korrigiert; historische Fundorte (CHANGELOG, outputs/-Reports,
+  QUESTIONS.md, PROGRAMM.md-Tracker, drills.md-Beschreibungstext), die die vergangene Korrektur
+  selbst beschreiben, bewusst NICHT verändert (Geschichtsfälschung wäre falsch).
+- [verifiziert] **[[bauausfuehrung-und-baukontrolle]]** — erstmaliges `verifiziert`-Feld ergänzt
+  (Bestand §§ 326-329 PBG + §§ 10c/30 VRG aus Run 30/31 bestätigt, keine neuen Korrekturen ausser
+  der Register-Sweep-Nachholung oben).
+- [neu] 3 Drill-Karten in `training/drills.md` (2×D, 1×A).
+
 ## 2026-07-25 — Buch-Run 57 (Festigungsmodus, Priorität c: Stichproben-Re-Verifikation Bestandsumbau-Eingriffstiefe)
 - [neu] **Amtlicher Volltext des PBG SZ erstmals in der KB.** `raw/260725_amtlich_sz_pbg.md`
   (Planungs- und Baugesetz Kanton Schwyz, SRSZ 400.100, Stand 1.2.2025) — §§ 59-64 (Grenz-/

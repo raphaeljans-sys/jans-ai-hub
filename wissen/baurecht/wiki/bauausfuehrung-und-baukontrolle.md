@@ -4,7 +4,8 @@ beschreibung: Die Bauausfuehrungsphase im ZH-Baurecht — Baufreigabe (§ 326 PB
 status: established
 last_updated: 2026-07-12
 quelle_buch: Bd. 1 Kap. 8, S. 485-535 ([[08-ausfuehrung-von-bauarbeiten]] + [[08-ausfuehrung-teil2-baustellensicherheit]]); §§ 326-329 volltextverifiziert gegen raw/260607_amtlich_zh_pbg.md (Modell-D Run 30); §§ 10c/30 VRG volltextverifiziert gegen raw/260712_amtlich_zh_vrg.md (Run 31)
-paragraphen: §§ 239, 309, 322, 326, 327, 328, 328a, 329 PBG; §§ 8, 9, 10c, 15, 30 VRG; §§ 3, 23, 24 BVV; § 12a BBV I/II; Art. 3a ABV; Art. 8/679/684 ZGB; VUV; BauAV; Art. 16 VVEA; Art. 32bis USG; §§ 2/15/19 KVAV
+paragraphen: §§ 239, 309, 322, 326, 327, 328, 328a, 329 PBG; §§ 8, 9, 10c, 15, 30 VRG; §§ 3, 23, 24 BVV; § 12a BBV I/II; Art. 3a ABV; Art. 8/679/684 ZGB; VUV; BauAV; Art. 16 VVEA; Art. 32bbis USG; §§ 2/15/19 KVAV
+verifiziert: 2026-07-25 (Run 58, Modell D — §§ 326-329 PBG + §§ 10c/30 VRG Bestand aus Run 30/31 bestaetigt; Register-Sweep-Nachzug: Geisterbezeichnung «Art. 32bis USG» korrigiert zu «Art. 32bbis USG» — Run 47 hatte diesen Fundort beim ersten Sweep verfehlt)
 ---
 
 # Bauausfuehrung und Baukontrolle (Kt. ZH)
@@ -116,7 +117,7 @@ Verantwortung bleibt bei Bauherr/Unternehmer/Planer. Faktenbasis Detail: [[08-au
 - **Baustellenentsorgung:** **Entsorgungskonzept** einzureichen ab voraussichtlich **> 200 m³ Bauabfaellen**
   oder bei Schadstoffen (PCB/PAK/Blei/**Asbest**) — Bauten vor 1990 erfordern Schadstoff-Vorabklaerung
   (Art. 16 VVEA). Asbestverbot heute ueber § 239 Abs. 1/§ 358 PBG + ChemRRV Anh. 1.6. **«Bauherren-Altlast»:**
-  der Standortinhaber kann i.d.R. **2/3 der Mehrkosten** von den Verursachern zurueckfordern (Art. 32bis
+  der Standortinhaber kann i.d.R. **2/3 der Mehrkosten** von den Verursachern zurueckfordern (Art. 32bbis
   USG) → Altlasten [[baureife-und-erschliessung]] / [[12-baureife-teil4-gebuehren-abfall-altlasten]].
 - **Bauemissionen:** **Baulaerm** wird nicht ueber Grenzwerte, sondern ueber die **Baulaerm-Richtlinie**
   (drei Massnahmenstufen A/B/C, Vorsorgeprinzip, Art. 6 LSV / Art. 38 Abs. 2 USG) gesteuert; Baustellen-

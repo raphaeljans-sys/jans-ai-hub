@@ -1922,3 +1922,47 @@ Artikel als offene, nicht ungeprüft zu übertragende Frage markiert statt still
 gleichgesetzt. Neue Quelldatei `raw/260725_amtlich_sz_pbg.md`, `verifiziert`-Feld im
 Wiki-Artikel erstmals ergänzt. 3 neue Drill-Karten (2×D, 1×A). Report
 `outputs/2026-07-25_buch-run57.md`.
+
+- **F (Modell D):** Wie lautet die amtliche Bezeichnung des Artikels im USG, der dem
+  Standortinhaber einer «Bauherren-Altlast» erlaubt, zwei Drittel der Mehrkosten von
+  Verursachern/früheren Inhabern zurückzufordern — und warum ist «Art. 32bis USG» falsch?
+  — **A:** **Art. 32bbis USG.** Die amtliche Sequenz lautet 32 → 32a → 32abis → 32b → 32bbis
+  → 32c … — «Art. 32bis» existiert im Gesetzeswortlaut nicht (Geisterbezeichnung, bereits
+  Run 47 an 4 Fundorten korrigiert). Register-Sweep Run 58 fand die Ghost-Bezeichnung an
+  3 weiteren, von Run 47 nicht erfassten Fundorten (Wiki [[bauausfuehrung-und-baukontrolle]],
+  Destillat [[08-ausfuehrung-teil2-baustellensicherheit]] 5×, `training/curriculum.md`) —
+  Lehre: ein Register-Sweep nach einer Korrektur muss den GESAMTEN Baum (Wiki + alle
+  Destillate + alle Trainings-Register) treffen, nicht nur die zuerst betroffenen Dateien.
+  _[2026-07-25]_
+- **F (Modell D):** Ist die Wiederherstellungspflicht nach § 341 PBG «ohne Vorbehalt», wie
+  eine ältere KB-Paraphrase behauptete? — **A:** **Nein** — der amtliche Wortlaut lautet «ohne
+  Rücksicht auf Strafverfahren und Bestrafung»; der Vorbehalt betrifft nur die Unabhängigkeit
+  vom Strafverfahren, nicht die Massnahme schlechthin (bereits Run 30 korrigiert, Run 58
+  Stichprobe bestätigt wortgleich gegen `raw/260607_amtlich_zh_pbg.md`). _[2026-07-25]_
+- **F (Modell D):** Nach welcher Frist verjähren Strafverfolgung UND Strafe für
+  Widerhandlungen gegen das PBG (§ 340a PBG), und wie unterscheidet sich das vom
+  allgemeinen Strafrecht (Art. 109 StGB)? — **A:** **5 Jahre** statt der allgemeinen 3 Jahre
+  nach Art. 109 StGB — § 340a PBG erfasst dabei ausdrücklich sowohl die Verfolgungs- als auch
+  die Strafverjährung. Wortlautgeprüft Run 58 gegen `raw/260607_amtlich_zh_pbg.md`
+  (PBG-Fassungsstand live gegen zhlex bestätigt: Nachtrag 133, keine Drift). _[2026-07-25]_
+
+**Ergebnis Buch-Run 58 (Festigungsmodus, Priorität c, Stichproben-Re-Verifikation
+[[bauausfuehrung-und-baukontrolle]] + [[widerrechtliche-bauten-und-sanktionen]]):** beide von
+Run 57 als nächste Priorität-(c)-Kandidaten benannt (laut Run 30/31 bereits volltextverifiziert,
+nur `verifiziert`-Feld fehlte). **[[widerrechtliche-bauten-und-sanktionen]]:** Stichprobe
+§§ 340/340a/341 PBG (gegen `raw/260607_amtlich_zh_pbg.md`) + § 30/31 VRG (gegen
+`raw/260712_amtlich_zh_vrg.md`) wortlautgeprüft — **0 Korrekturen**, PBG-Fassungsstand live
+gegen zhlex.zh.ch bestätigt (Nachtrag 133, keine Drift). `verifiziert`-Feld ergänzt.
+**[[bauausfuehrung-und-baukontrolle]]:** Stichprobe bestätigt den Run-30/31-Bestand, deckte aber
+einen **Register-Sweep-Rückstand aus Run 47** auf — die dort korrigierte Geisterbezeichnung
+«Art. 32bis USG» (richtig: **Art. 32bbis USG**) überlebte unentdeckt an 3 weiteren Fundorten
+(Wiki-Frontmatter + -Fliesstext, Destillat `buecher/band-1/08-ausfuehrung-teil2-
+baustellensicherheit.md` 5×, `training/curriculum.md`). Alle 3 Fundorte korrigiert,
+`verifiziert`-Feld ergänzt. **0 Halluzinationen, 1 Register-Sweep-Korrektur (Alt-Fund), 0
+neue materielle Fehler.** 3 neue Drill-Karten (2×D, 1×A). Report
+`outputs/2026-07-25_buch-run58.md`. **Nächster Schritt:** weitere Kandidatensuche via
+`grep -L "^verifiziert:" wiki/*.md` bzw. `grep -l "^status: established" wiki/*.md`
+gegengeprüft — nach Run 58 verbleiben (ausser Registerdateien) keine `established`-Artikel
+ohne `verifiziert`-Feld mehr; nächster Priorität-(c)-Kandidat könnte das älteste
+`verifiziert`-Datum unter den bereits geprüften Artikeln sein (`grep -h "^verifiziert:"
+wiki/*.md | sort` zur Auswahl).

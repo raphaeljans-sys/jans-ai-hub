@@ -1,5 +1,40 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## 2026-07-25 (Buch-Run 58, Festigungsmodus, Priorität c: Stichproben-Re-Verifikation) — Bauausführung + Widerrechtliche Bauten bestätigt, Register-Sweep-Rückstand aus Run 47 geschlossen
+
+Run 57 empfahl als nächsten Priorität-(c)-Kandidaten `bauausfuehrung-und-baukontrolle.md` /
+`widerrechtliche-bauten-und-sanktionen.md` (beide `established` seit Run 30/31, nur das
+`verifiziert`-Feld fehlte) oder eine neue Kandidatensuche via `grep -L "^verifiziert:"
+wiki/*.md`. Beide gewählt, da beide erreichbar und die Volltextverifikations-Basis (raw-Dateien)
+bereits vorhanden war.
+
+- **[[widerrechtliche-bauten-und-sanktionen]]:** Stichprobe §§ 340 Abs. 1-5 / 340a / 341 PBG
+  gegen `raw/260607_amtlich_zh_pbg.md` sowie § 30 Abs. 1/2 / § 31 Abs. 1/2 VRG gegen
+  `raw/260712_amtlich_zh_vrg.md` wortlautgeprüft — **alle Zitate CONFIRMED, 0 Korrekturen.**
+  Zusätzlich Fassungsstand-Check: PBG (LS 700.1) ist gemäss der raw-Datei auf Nachtrag 133,
+  live gegen `zhlex.zh.ch/Erlass.html?Open&Ordnr=700.1` bestätigt — **keine Drift.**
+  `verifiziert`-Feld erstmals ergänzt.
+- **[[bauausfuehrung-und-baukontrolle]]:** Bestand aus Run 30/31 (§§ 326-329 PBG, §§ 10c/30
+  VRG) bestätigt, `verifiziert`-Feld ergänzt. **Echter Fund:** die in Run 47 an 4 Registerstellen
+  korrigierte Geisterbezeichnung **«Art. 32bis USG»** (existiert nicht; amtlich korrekt
+  **Art. 32bbis USG**, Sequenz 32 → 32a → 32abis → 32b → 32bbis → 32c) überlebte an **3 von
+  Run 47 nicht erfassten Fundorten**: `wiki/bauausfuehrung-und-baukontrolle.md` (Frontmatter-
+  Paragraphenliste + Fliesstext «Bauherren-Altlast»-Absatz), `buecher/band-1/08-ausfuehrung-
+  teil2-baustellensicherheit.md` (5 Stellen: Frontmatter + Fliesstext-Abschnitt 8.4.2.3 +
+  2 Tabellenzeilen + 2 JANS-Anwendungshinweise), `training/curriculum.md` (Kap.-8-Zeile).
+  Alle 3 korrigiert. **Lehre bestätigt (Leitplanke Run 47/53):** ein Register-Sweep nach einer
+  Korrektur muss den gesamten Baum treffen — Wiki, jeder verlinkte Destillat UND jedes
+  Trainings-Register (`curriculum.md`, nicht nur `INDEX.md`) —, sonst überlebt der Fehler in
+  den Destillaten weiter, obwohl der Wiki-Hauptartikel längst korrigiert scheint.
+- **0 Halluzinationen, 1 Register-Sweep-Korrektur (Altfund aus Run 47), 0 neue materielle
+  Fehler.** 3 neue Drill-Karten (2×D, 1×A). Report `outputs/2026-07-25_buch-run58.md`.
+- **Nächster Schritt:** Nach diesem Lauf trägt (ausser Registerdateien wie `QUELLEN.md`) kein
+  `established`-Artikel mehr ein fehlendes `verifiziert`-Feld. Nächster Priorität-(c)-Kandidat:
+  ältestes `verifiziert`-Datum unter den bereits geprüften Artikeln auswählen
+  (`grep -h "^verifiziert:" wiki/*.md | sort`), oder Fassungsstand-Sammelcheck auf die
+  restlichen noch nie live gegen zhlex geprüften kantonalen Erlasse ausweiten (Rest ausserhalb
+  der in Run 52-54 bereits geprüften Liste ABV/BBV I/BBV II/BVV/KNHV/StrG/EnerG/WsG/WsV/PPV).
+
 ## 2026-07-25 (Buch-Run 57, Festigungsmodus, Priorität c: Stichproben-Re-Verifikation) — PBG SZ erstmals amtlich in der KB, Besitzstandsgarantie-Lücke geschlossen, neue offene Frage SZ-Übernutzungspraxis
 
 Run 56 empfahl als nächsten Priorität-(c)-Kandidaten entweder `bauausfuehrung-und-
