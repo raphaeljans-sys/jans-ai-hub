@@ -3,16 +3,21 @@
 Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit ✓ + Datum.
 
 ## A — Kartenportale
+- [x] **K46-Nachtrag (Run 61, 2026-07-25) — Backlog vollstaendig GESCHLOSSEN.** Der Run-59-
+  OneDrive-EDEADLK-Blocker hatte sich aufgeloest. **cadastre.ch:** bestaetigter Nicht-Fund
+  (bloss Link, Betreiber swisstopo). **geoportal.ch/Einsiedeln:** Service-Desk-Kontakt GEOINFO
+  Applications AG (Jira-Ticketsystem, Tel. 058 580 40 60) + Praezisierung der K27-«Infrastruktur»-
+  Druckfunktion (Bezirks-GIS `gis.bezirkeinsiedeln.ch`) als echtes «Leitungskataster Gde»-Produkt
+  (7-Sparten-Legende), ausdruecklich getrennt vom `geoportal.ch`-Portal selbst (fuehrt laut
+  Service-Desk KEINEN Leitungskataster fuer Einsiedeln, Verweis auf EW Lachen AG) →
+  [[kartenportale-geoportale-uebersicht]] + [[kartenportale-werkleitungskataster]] §7.
+  **geodienste.ch/Maur:** Bestaetigungsmail einer realen ZH-DXF(GEOBAU)-Bestellung, bestaetigt
+  A4/K33, kein neuer Mechanismus. **KtLU Geodatenshop:** Portal-Kontakt rawi Kt. Luzern
+  (`daten.geo.lu.ch`, `geodaten@lu.ch`, 041 228 59 62) gefunden, Zugangsdaten bewusst nicht
+  uebernommen. Details siehe `training/curriculum.md` K46-Nachtrag.
 - [x] **K46 (Run 59, 2026-07-25)** `geoportal.ch`-Betreiber identifiziert (GEOINFO Applications
   AG, Herisau) — vierter White-Label-GIS-Anbieter neben achtgradost.ch/geoglatt.ch/Stadt Luzern
-  → [[kartenportale-geoportale-uebersicht]]. **Offen (Blocker, systemischer OneDrive-EDEADLK
-  analog Run 53):** `cadastre.ch/Cadastralinfo…pdf`, `geoportal.ch/Einsiedeln/*.pdf`,
-  `geodienste.ch/Maur+Thalwil/*.eml` sowie der gesamte `KtLU Luzern/Geodatenshop Kanton
-  Luzern/`-Ordner (reicher, noch nie ausgewerteter Produktkatalog inkl. realer Bestellung
-  R694081564: DTM/Hoehenlinien/Grenzen/Gebaeudeenergie-Solarpotential/OEREB/Historische
-  Karten/Denkmalverzeichnis/Nachfuehrung AV/Ortsplan/3D-Gebaeudemodelle/Landschaftsmodell/
-  Orthophoto/Nutzungsplanung/Grundbuchplan/Baulinien/Einzelbaeume) — Kandidat fuer den
-  naechsten Kartenportale-Turnus.
+  → [[kartenportale-geoportale-uebersicht]].
 - [x] **K41-K44 (Run 50 offen → Run 51, 2026-07-18 GELOEST)** Der OneDrive-Sync-Blocker aus Run 50
   hatte sich (wie im Praezedenzfall Lignum Run 28→30 vermutet, «reines Sync-Timing») bis Run 51
   aufgeloest — alle vier Kandidaten waren jetzt problemlos lesbar. Auswertung:

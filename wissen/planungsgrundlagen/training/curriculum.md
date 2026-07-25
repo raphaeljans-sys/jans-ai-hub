@@ -88,6 +88,23 @@ das Ergebnis in den passenden Wiki-Artikel.
   Luzern/Geodatenshop Kanton Luzern/`-Ordner (reicher, noch nicht ausgewerteter Produktkatalog
   mit realer Bestellung R694081564) — auch nach Retry/`cp`-Test nicht lesbar, fuer den naechsten
   Kartenportale-Turnus vorgemerkt statt erzwungen.
+- [x] K46-Nachtrag (Run 61, 2026-07-25) Vier Run-59-Blocker-Fundstellen erneut versucht — Lock
+  war aufgeloest. **cadastre.ch:** bestaetigter Nicht-Fund (bloss `cadastre.ch/de`-Link, Betreiber
+  swisstopo Wabern). **geoportal.ch/Einsiedeln:** zwei Funde — (1) Service-Desk-Kontakt GEOINFO
+  Applications AG (Jira-Ticketsystem, Tel. 058 580 40 60, Buerozeiten Mo-Fr); (2) Praezisierung
+  der bereits unter K27 dokumentierten «Infrastruktur»-Druckfunktion des Bezirks-GIS
+  `gis.bezirkeinsiedeln.ch` — traegt den echten Produkttitel **«Leitungskataster Gde»** mit
+  7-Sparten-Legende (Abwasser/Kabelkommunikation/Wasser/Gas/Elektrizitaet/Beleuchtung/
+  Fernwaerme), korrigiert den fruehreren «kein Mehrwert»-Eindruck; ausdruecklich getrennt vom
+  `geoportal.ch`-Portal selbst, das laut Service-Desk **keinen** Leitungskataster fuer Einsiedeln
+  fuehrt (Verweis auf EW Lachen AG) → [[kartenportale-geoportale-uebersicht]] + neuer §
+  [[kartenportale-werkleitungskataster]] §7. **geodienste.ch/Maur:** Bestaetigungsmail einer
+  realen ZH-DXF(GEOBAU)-Bestellung (2 EGRID, Gemeinde Maur) — bestaetigt A4/K33, kein neuer
+  Mechanismus. **KtLU Geodatenshop:** Portal-Kontakt gefunden — Betrieb rawi Kt. Luzern,
+  `daten.geo.lu.ch`, Fachkontakt Gumanan Thiyagalingam (`geodaten@lu.ch`, 041 228 59 62),
+  Produkt-URL-Muster `daten.geo.lu.ch/produkt/<code>` → [[kartenportale-geoportale-uebersicht]].
+  Zugangsdaten aus Quelldatei bewusst nicht uebernommen (Datenschutz). Damit ist der K46-Backlog
+  vollstaendig geschlossen.
 
 ## Domaene 2 — Energie (PL-04)  · Prioritaet
 - [x] E1 PV-Typenwahl: Entscheidungsbaum (Indach/Ziegel/transparent/Fassade/Aufdach)? (2026-06-06, → [[energie-pv-eignung-typenwahl]])
@@ -177,6 +194,29 @@ das Ergebnis in den passenden Wiki-Artikel.
   nach Dateinamen/Themenstichwort durchsuchen, nicht nur nach Artikel-Dateinamen. Offen:
   Feuchte-/Luftdichtheits-Kapitel-Detailtiefe (S. 14-37) bereits in Run 34 (E-Vollzugshilfen)
   ausgewertet — keine weitere Luecke mehr in diesem Dokument.
+- [x] E42 (Run 61, 2026-07-25) Run-53-EDEADLK-Backlog `_Private Kontrolle/https.docx` +
+  `endk.ch/.../Auf dem.docx` + `.../Bauvorschriften Versickerung.docx` — inzwischen lesbar?
+  (JA, Lock aufgeloest. `https.docx` = bareURL zh.ch/Private-Kontrolle-Seite, bestaetigter
+  Nicht-Fund [Delta zu E8]. `Bauvorschriften Versickerung.docx` = bareURL zh.ch/Bauvorschriften-
+  Versickerung-Seite, bestaetigter Nicht-Fund [Delta zu E12]. `Auf dem.docx` = fragmentarische
+  JANS-Arbeitsnotiz [KanalTV/Kanalisationsbehoerde-Anruf, Lueftungskonzept bei Aufstockung
+  Wohnraum, Minergie-Formularweiche] — unvollstaendig/abgebrochen, **bewusst NICHT als Fakt
+  uebernommen** [Rule identifikatoren-verifizieren], nur als geprueft registriert.)
+- [x] E43 (Run 61, 2026-07-25) `U Wert berechnung/`-Restdateien — SIA-Merkblatt 2001
+  Waermedaemmstoffe (2001_2005_d.pdf), `Auswahl_Waermedaemmstoffe.docx`, Enerhaus-380/1-
+  Musterformular — liefern sie einsetzbare Kennwerte? (SIA-Merkblatt 2001: ⚠ Nennwerte nur bis
+  31.12.2006 bestaetigt, **historisch/nicht mehr zitierfaehig** — aber methodische Definitionen
+  [λ/ρ/μ/c, BKZ-Brandkennziffer-System] bleiben gueltig. JANS-Notiz: reale Daemmstoff-Wahl
+  Flumroc DUO (Boden)/DUO-3 oder H105 (Wand), 01.11.2023, Einzelbeleg ohne λ-Datenblatt. Enerhaus-
+  Muster: fiktives Anwenderkurs-Beispiel (2010), aber nuetzlich als vollstaendige SIA-380/1-
+  Formularstruktur-Vorlage → alle drei NEU §6 [[energie-heizwaermebedarf-waermeerzeugerleistung]].
+  `U Wert berechnung/` damit vollstaendig ausgewertet; einzige Restdatei `WERKHOF29_Dossier_
+  Erstvermietung.pdf` themenfremd (Vermietungsdossier), kein Energiebezug.)
+- [x] E5/E9-Refresh (Run 61, 2026-07-25) MuKEn-2025-ZH-Umsetzung/Graue-Energie-ZH-Grenzwert
+  erneut per WebSearch geprueft (aeesuisse.ch, energiehub-gebaeude.ch, hev-zh.ch, zh.ch) —
+  weiterhin keine ZH-spezifische PBG-Vernehmlassung/kein Gesetzesentwurf/kein Termin auffindbar,
+  nur die allgemeine EnDK-Timeline "Umsetzung 2025-2030"; unveraendert bestaetigt (n-te
+  Refresh-Bestaetigung seit Run 14, kein neuer Datenstand).
 
 ## Domaene 3 — Recht & Norm (PL-02)
 - [x] R1 Quellenlandkarte PL-02 vervollstaendigen (welcher Erlass wo, Datenstand fedlex). (2026-06-08, 10 Ordner kartiert, SR→fedlex-Schema, → [[recht-norm-quellenlandkarte]])

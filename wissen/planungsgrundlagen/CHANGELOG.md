@@ -2,6 +2,38 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 — Wissens-Chef Run 15 (Cross-KB): 2 Faktenkorrekturen + Ausgaben-Flag Regenwasser
+- **EN-102-Normbasis korrigiert (BESTAETIGT am Original-PDF):** `wiki/energie-heizwaermebedarf-waermeerzeugerleistung.md:172` und `wiki/energie-uebersicht.md:33` fuehrten «EnFK EN-102 Dez. 2018, Basis SIA 380/1:**2009**». Die Kopfzeile jeder Seite des PDF nennt «Ausgabe Dezember 2018 (Basis: Norm SIA 380/1, Ausgabe **2016**)» — Ursache war der irrefuehrende SharePoint-Dateiname `EN-102-d_Waermeschutz_3801_2009_2018Dez.pdf`. Beide Stellen korrigiert, Fallstrick dokumentiert, Verweis auf das fuehrende Destillat der KB `energie` gesetzt. Die Grenzwerte (0,17 / 1,0 / 0,25 Umbau) waren richtig und bleiben unveraendert.
+- **Versickerungspflicht korrigiert (Rechtsfehler, amtlich verifiziert):** `wiki/recht-norm-regenwasser-gewaesserraum-zh.md` schrieb, nicht verschmutztes Regenwasser muesse nach Art. 7 GSchG **nicht** versickert werden. Das kehrt die gesetzliche Regel um: nach **Art. 7 Abs. 2 GSchG** (SR 814.20, Fedlex-Konsolidierung 01.02.2023) ist die Versickerung der Regelfall, Einleitung/ARA sind die Ausnahmen der Kaskade. Wortlaut korrigiert, Fundstelle ergaenzt.
+- **Ausgaben-Flag AWEL-Richtlinie:** Teil A ist aus der Ausgabe 2005/V2.2 Maerz 2006 destilliert; die BBV I (LS 700.21, Anhang anerkannte Regeln der Baukunde) verweist auf die Ausgabe **2025** («Regenwasserbewirtschaftung»). ⚠-Flag gesetzt, «VSA-Richtlinie Regenwasserentsorgung 2002» auf die Nachfolge «Abwasserbewirtschaftung bei Regenwetter» (2019) nachgefuehrt. Kein Trim.
+- **Cross-Links gesetzt:** ↔ KB energie (`regenwasserbewirtschaftung-versickerung-zh`, bidirektional) · `recht-norm-ivhb-baubegriffe` und `recht-norm-pbg-revision-bauen-im-bestand` → KB baurecht (Recht fuehrend; der IVHB-Leitfaden bedient den offenen Fassungs-Punkt `baurecht/wiki/QUESTIONS.md`).
+- Bericht: `wissen/koordination/outputs/2026-07-25_wissens-chef-run15.md`.
+
+## 2026-07-25 — Training Run 61 (Kartenportale + Energie, Token-Vollgas)
+Rotation zurueck auf Kartenportale (PL-01) + Energie (PL-04), die zwei Prioritaets-Domaenen.
+Direkt in der Hauptsession (OneDrive-Lehre Run 56). 12 bearbeitete Fragen/Fundstellen.
+- **K46-Nachtrag (Kartenportale, Backlog vollstaendig geschlossen):** der seit Run 59 bestehende
+  OneDrive-EDEADLK-Blocker auf vier Fundstellen hatte sich aufgeloest. `cadastre.ch` bestaetigter
+  Nicht-Fund. `geoportal.ch/Einsiedeln`: Service-Desk-Kontakt GEOINFO Applications AG (Jira,
+  Tel. 058 580 40 60) + **Korrektur/Praezisierung** der K27-«Infrastruktur»-Druckfunktion des
+  Bezirks-GIS `gis.bezirkeinsiedeln.ch` — traegt den echten Produkttitel «Leitungskataster Gde»
+  mit 7-Sparten-Legende, ausdruecklich getrennt vom `geoportal.ch`-Portal selbst (fuehrt laut
+  Service-Desk KEINEN Leitungskataster fuer Einsiedeln). `geodienste.ch/Maur` bestaetigt A4/K33
+  an einem weiteren ZH-Realfall. `KtLU Geodatenshop`: Portal-Kontakt rawi Kt. Luzern
+  (`daten.geo.lu.ch`) gefunden → [[kartenportale-geoportale-uebersicht]] +
+  [[kartenportale-werkleitungskataster]] §7.
+- **E42/E43 (Energie):** Run-53-EDEADLK-Backlog geschlossen (zwei bareURL-Nicht-Funde + eine
+  fragmentarische JANS-Notiz, nicht uebernommen). `U Wert berechnung/`-Restdateien vollstaendig
+  ausgewertet: SIA-Merkblatt 2001 Waermedaemmstoffe (⚠ Nennwerte historisch, nur bis 31.12.2006
+  bestaetigt; methodische Definitionen bleiben gueltig), JANS-Notiz reale Daemmstoffwahl
+  (Flumroc), Enerhaus-380/1-Anwenderkurs-Musterformular (Formularstruktur-Vorlage) → NEU §6
+  [[energie-heizwaermebedarf-waermeerzeugerleistung]].
+- **E5/E9-Refresh:** MuKEn-2025-ZH-Umsetzung erneut per WebSearch geprueft, unveraendert
+  bestaetigt.
+- Register nachgefuehrt: `curriculum.md` (K46-Nachtrag, E42, E43, E5/E9-Refresh), `wiki/QUESTIONS.md`
+  (K46-Backlog geschlossen), `raw/_INGESTED.md` (4 neue Zeilen). Details:
+  `outputs/2026-07-25_training-run61.md`.
+
 ## 2026-07-25 — Training Run 60 (Recht/Norm + Brandschutz, Token-Vollgas)
 Rotation turnusgemaess auf Recht/Norm (PL-02) + Brandschutz (PL-03) — Kartenportale/Energie
 hatten Run 59 bereits. Direkt in der Hauptsession (OneDrive-Lehre Run 56).

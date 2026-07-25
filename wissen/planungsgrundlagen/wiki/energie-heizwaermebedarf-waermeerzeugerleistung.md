@@ -1,8 +1,8 @@
 ---
 title: Heizwaermebedarf (SIA 380/1) & Waermeerzeugerleistung (SIA 384/1, 384.201) — Berechnungsverfahren
 status: established
-last_updated: 2026-07-13
-sources: [PL - 04 Energie/_Heizwaermebedarf/Heizwärmebedarf Berechnung SIA 380_1.pdf (Reader "Energetische Gesamtoptimierung", SIA 380/1 S.104-105), PL - 04 Energie/_Heizwaermebedarf/Heizwärmebedarf_Berechnung_Beispiel.pdf (dass. S.106-107, Beispiel Büroraum Zürich-Stadt), PL - 04 Energie/_Heizwaermebedarf/Heizwärmebedarf Kennwert pro EBF.pdf (dass. S.146-147/108-109, SIA 380/1 Anhang A Tab.24/25), PL - 04 Energie/_Heizwaermebedarf/_2781-Ermittlung_der_Wärmeerzeugerleistung.pdf (EnergieSchweiz/BFE + suissetec + Minergie, "Ermittlung der Wärmeerzeugerleistung", Broschüre 6, 12.2015), PL - 04 Energie/_Heizwaermebedarf/U-Wert_Gebäudehülle.pdf (dass. S.88-89, "Grundsätze"), PL - 04 Energie/_Heizwaermebedarf/Betriebsenergie.pdf (dass. S.116, "Graue Energie — Größenordnung"), PL - 04 Energie/U Wert berechnung/EN-102-d_Waermeschutz_3801_2009_2018Dez.pdf (EnFK Vollzugshilfe Dez. 2018), PL - 04 Energie/U Wert berechnung/VoHi_EN02_de.pdf (Vollzugshilfe Feb. 2013), PL - 04 Energie/U Wert berechnung/U-Wert-Berechnung_und_Bauteilekatalog_Neubauten_d[1].pdf (BFE/EnergieSchweiz 2002), PL - 04 Energie/U Wert berechnung/clt/CLT by Stora Enso-Technical documentation - Building physics-2021-DE.pdf (S.14-37 Luftdichtheit/Feuchte)]
+last_updated: 2026-07-25
+sources: [PL - 04 Energie/_Heizwaermebedarf/Heizwärmebedarf Berechnung SIA 380_1.pdf (Reader "Energetische Gesamtoptimierung", SIA 380/1 S.104-105), PL - 04 Energie/_Heizwaermebedarf/Heizwärmebedarf_Berechnung_Beispiel.pdf (dass. S.106-107, Beispiel Büroraum Zürich-Stadt), PL - 04 Energie/_Heizwaermebedarf/Heizwärmebedarf Kennwert pro EBF.pdf (dass. S.146-147/108-109, SIA 380/1 Anhang A Tab.24/25), PL - 04 Energie/_Heizwaermebedarf/_2781-Ermittlung_der_Wärmeerzeugerleistung.pdf (EnergieSchweiz/BFE + suissetec + Minergie, "Ermittlung der Wärmeerzeugerleistung", Broschüre 6, 12.2015), PL - 04 Energie/_Heizwaermebedarf/U-Wert_Gebäudehülle.pdf (dass. S.88-89, "Grundsätze"), PL - 04 Energie/_Heizwaermebedarf/Betriebsenergie.pdf (dass. S.116, "Graue Energie — Größenordnung"), PL - 04 Energie/U Wert berechnung/EN-102-d_Waermeschutz_3801_2009_2018Dez.pdf (EnFK Vollzugshilfe Dez. 2018), PL - 04 Energie/U Wert berechnung/VoHi_EN02_de.pdf (Vollzugshilfe Feb. 2013), PL - 04 Energie/U Wert berechnung/U-Wert-Berechnung_und_Bauteilekatalog_Neubauten_d[1].pdf (BFE/EnergieSchweiz 2002), PL - 04 Energie/U Wert berechnung/clt/CLT by Stora Enso-Technical documentation - Building physics-2021-DE.pdf (S.14-37 Luftdichtheit/Feuchte), PL - 04 Energie/U Wert berechnung/2001_2005_d.pdf (SIA-Merkblatt 2001 Waermedaemmstoffe, Ausgabe 2005, Run 61), PL - 04 Energie/U Wert berechnung/Auswahl_Waermedaemmstoffe.docx (JANS-Notiz 01.11.2023, Run 61), PL - 04 Energie/U Wert berechnung/Energienachweis 380-1 Muster.pdf (Enerhaus-Anwenderkurs, 28.04.2010, Run 61)]
 links: [[energie-uebersicht]], [[u-werte-grenzwerte-ch]], [[energie-energienachweis-zh-formulare]], [[energie-minergie-referenzprojekt-maison-climat]], [[grobkosten-onepager]]
 ---
 
@@ -217,6 +217,40 @@ bekannten Waermeschutz-Kapitel S.4-13):**
 Erleichterung (keine zusaetzliche Folie noetig ab 3-Schicht-CLT) eine direkte Kosten-/Detail-
 Vereinfachung gegenueber Holzrahmenbau; die sd-Wert-Regel (Aussenseite duenner/dichter als
 Innenseite) ist beim Fassadenaufbau-Vorprojekt zu pruefen, um Tauwasserausfall zu vermeiden.
+
+## 6 — SIA-Merkblatt 2001 Waermedaemmstoffe + JANS-Dammstoff-Auswahl + Enerhaus-Musterformular (Run 61, 2026-07-25)
+
+Drei letzte, bisher nicht erschlossene Dateien im Ordner `U Wert berechnung/` ausgewertet:
+
+- **SIA-Merkblatt 2001 «Waermedaemmstoffe», Ausgabe 2005** (Bemessungswerte der Waermeleitfaehigkeit
+  λ_D je Daemmstoff-Typ von Herstellern/Lieferanten). **⚠ Status historisch/ueberholt:** die
+  im Merkblatt bestaetigten Nennwerte «gelten bis zum 31.12.2006» (Ziff. 0.7) — die konkreten
+  Zahlenwerte sind **nicht mehr aktuell** und duerfen nicht zitiert werden. **Bleibender Wert:**
+  die **methodische Definitionsebene** (Ziff. 1) ist normativ unveraendert relevant — Definition
+  λ (Waermeleitfaehigkeit, W/mK), ρ (Rohdichte), μ (Diffusionswiderstandszahl), c (spezifische
+  Waermekapazitaet), sowie das **Brandkennziffer-System BKZ** (erste Ziffer Brennbarkeitsgrad 3-6,
+  zweite Ziffer Qualmgrad 1-3, «6q» = quasi nicht brennbar, Quelle VKF). Fuer aktuelle
+  Bemessungswerte gilt SN EN 12524 bzw. die deklarierten Herstellerwerte nach SN EN ISO 10456
+  (SIA 279) — nicht dieses Merkblatt.
+- **`Auswahl_Waermedaemmstoffe.docx` (JANS-eigene Notiz, Raphael Jans, 01.11.2023):** knappe
+  reale Produktwahl als Bauteil-Faustregel — **Boden gegen Erdreich:** Flumroc Daemmplatte DUO;
+  **Wand gegen Aussenklima:** Flumroc Daemmplatte DUO/3 oder Flumroc Daemmplatte 1 (Typ H 105).
+  Einzelner, knapper JANS-Praxis-Beleg (kein Herstellerdatenblatt mit λ-Wert angehaengt) —
+  Status `speculative` als Produktwahl-Anker, kein belegter Kennwert.
+- **Enerhaus-380/1-Anwenderkurs-Musterformular (Software Enerhaus V3.2, Ausgabe 28.04.2010,
+  Datensatz «Hans Willeinhaus», fiktives Uebungsbeispiel):** kein realer JANS-Fall, sondern ein
+  Software-Schulungsmuster — aber **strukturell nuetzlich als Formularvorlage**: zeigt den
+  vollstaendigen Aufbau eines SIA-380/1-Systemnachweises (Gebaeudehuellzahl A_th/A_E, Grenzwert
+  vs. Projektwert vs. effektiver Heizwaermebedarf je MJ/m² und kWh/m², Bauteiltabelle mit
+  Nr./Bezeichnung/U-Wert/Flaeche/Verlust in MJ/kWh/%, separate Fenster/Tueren-Tabelle,
+  Energiebilanz-Zeile Q_T/Q_V/Q_i/Q_s/η_g/Q_h/Q_h,li/H). Nuetzlich als Format-Checkliste, welche
+  Felder ein vollstaendiger EN-Nachweis mindestens enthalten muss — nicht als Kennwert-Quelle.
+
+Alle drei Funde ergaenzen §5 (Vollzugshilfen), ohne die dortigen aktuellen Grenzwerte zu
+veraendern. `U Wert berechnung/` damit vollstaendig ausgewertet (inkl. `clt/`- und
+`Grassen Biwak/`-Unterordner aus E13/E14); einzige verbleibende Datei `WERKHOF29_Dossier_
+Erstvermietung.pdf` (31 S., Vermietungsdossier ohne Energie-/U-Wert-Bezug) ist themenfremd
+abgelegt — kein Rechercheaufwand.
 
 ## Datenstand / offen
 - Quelle ist ein anonymer Fachbuch-Reader ohne durchgehend erkennbaren Titel/Autor auf den
