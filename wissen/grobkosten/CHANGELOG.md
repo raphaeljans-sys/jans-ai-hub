@@ -1,5 +1,38 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-26 — Trainings-Run 5 (neue Quelle: SharePoint `IMMO - 06 Kennwerte`)
+
+- Kollisionscheck via `ps` durchgeführt (der einzige gefundene Prozess war die eigene
+  Parent-Instanz dieses Laufs, keine echte Zweitinstanz auf diesem Host).
+- Gemäss Empfehlung aus Run 4 (`wiki/QUESTIONS.md`: "neue Quelle identifizieren, statt
+  dieselben Projektordner erneut zu prüfen") die SharePoint-Bibliotheken ausserhalb
+  `AR - 01 Projekte`/`AR - 07 Archiv` gesichtet. `IMMO - 06 Kennwerte` (kuratierte,
+  themenweise statt projektweise gegliederte Kennwerte-Ablage) als erste neue Quelle geprüft.
+- **`_Kennwerte Jans.docx` (JANS-eigenes Referenzblatt, 25.03.2025)** liefert einen
+  indexierten Erstellungskosten-Benchmark für Wohnen Individuell EFH/ZFH: BKP2-Medianwert
+  2'900 CHF/m² GF (2020), indexiert auf 3'365 CHF/m² GF (2025, Index 116), hochgerechnet auf
+  BKP 1-5 (Anteil BKP2 = 75 %) zu **4'485 CHF/m² GF**. Zusätzlich ein Rechenbeispiel
+  "Thalwil Bohlweg 1" (950 m² GF, TG 8 SP à 42'000, Total CHF 4.6 Mio) und ein TG-Kennwert
+  (42'000 CHF/Parkplatz BKP1-5).
+- **Bewusst nicht in die m³-GV-Haupttabelle konvertiert** — die Bezugsgrösse (m² GF) weicht
+  von der geführten m³-GV-Tabelle ab, und der GV/GF-Umrechnungsfaktor ist laut Frontmatter von
+  `wiki/kennwerte.md` selbst ein offener "needs-decision"-Punkt (Wissens-Chef Run 15). Stattdessen
+  als eigenständige, klar gekennzeichnete Parallel-Sektion geführt (Leitplanke "fehlende
+  Bezugsgrössen nie rechnerisch ergänzen").
+- **Neue offene Frage:** Das Rechenbeispiel "Thalwil Bohlweg 1" passt weder in Hausnummer noch
+  Grössenordnung zum bereits bekannten Projekt "2414 THALWIL Bohlweg 3" — Projekt-Identität
+  ungeklärt, in `wiki/QUESTIONS.md` festgehalten (nicht autonom auflösbar).
+- Weitere in derselben Quelle geprüfte Dokumente (Link-Sammlung, Drittsoftware-Handbuch
+  "BBase Grobkosten" von PMS Informatik AG 2012, Büro-Marktmietanalyse hbre, leere Ordner,
+  Healthcare-Unterordner bewusst ausgeklammert) liefern keine verwertbaren JANS-Kostendaten.
+- Neuer Roh-Beleg: `raw/kennwerte-jans-referenzdokument.md`. Nachgeführt: `wiki/kennwerte.md`
+  (neue Sektion + Frontmatter-Quellen + Provenienz-Historie), `training/quellen-inventar.md`
+  (Run-5-Abschnitt), `wiki/INDEX.md`, `wiki/QUESTIONS.md`, `raw/_INGESTED.md`. Lauf-Report:
+  `outputs/2026-07-26_grobkosten-run5.md`.
+- Vorschlag für Run 6: weitere identifizierte, aber ungeprüfte SharePoint-Bibliotheken sichten
+  (`AR - 03 Studien`, `IMMO - 01/02/03/05`, zweite Bibliothek `...-RaphaelJans-ArchitektenETH`)
+  — Details/Priorisierung in `wiki/QUESTIONS.md`.
+
 ## 2026-07-26 — Trainings-Run 4 (Vertiefung der beiden Run-3-Kandidaten: erster verwertbarer Kennwert)
 
 - Kollisionscheck via `ps` durchgeführt (keine zweite Loop-Instanz auf diesem Host aktiv) —
