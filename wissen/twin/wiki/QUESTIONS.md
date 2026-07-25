@@ -3,6 +3,34 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260725g (twin-fragesteller, aus Fidelity-Review 2026-07-25g)
+
+Quelle: Drift-Report `outputs/2026-07-25g_fidelity.md` (Gesamt-Fidelity ~86; drei April-2026-Golds,
+alle bereits im Korpus destilliert — Test war Retrieval-Fidelity, nicht Novitäts-Suche. Einziger
+substanzieller Befund: der belegte «Firma <Name> statt Person»-Anredemarker ist ein
+Retrieval-Risiko, weil er bislang nur an einem Beleg (Jegen) hängt. Je in 1–2 Sätzen beantwortbar.
+
+1. **«Geschätzte Firma <Name>» bei einer Erst-Sie-Mail an ein Handwerks-/Ausführungsunternehmen,
+   dessen Ansprechperson Du noch nicht kennst — ist das Dein Standard, oder hättest Du auch schon
+   direkt an eine benannte Person (z.B. «Sehr geehrter Herr Bajrami») oder neutral «Sehr geehrte
+   Damen und Herren» geschrieben?** Bei der Firma Jegen (innere Verglasungen, KISPI, 11.04.2026)
+   adressierst Du nach einem Telefonat die Firma als Ganzes («Geschätze Firma Jegen»), obwohl im
+   selben Anschreiben mit Livdin Bajrami bereits eine Ansprechperson im To-Feld steht. Ist «Firma
+   <Name>» Dein bewusstes Mittel, solange die Zuständigkeit intern noch nicht geklärt ist (die
+   ganze Firma soll sich zuständig fühlen), oder war es hier Tagesform/Telefonat-Nachwirkung?
+   *Warum: der Marker hat bisher nur einen Beleg — eine Bestätigung würde ihn vom Einzelfall zur
+   verlässlich abrufbaren Regel heben und das Retrieval-Risiko schliessen.* → [[beziehungsregister]]
+2. **Trägt die Terminvorschlag-Mail nach einem Telefonat («Ich halte fest: …» + Terminvorschlag)
+   grundsätzlich die volle Signatur, oder ist die verkürzte Signatur («Freundliche Grüsse /
+   Raphael Jans» ohne Titel/Telefon/Adresszeile) an ein bestimmtes Gerät/einen bestimmten
+   Mail-Typ gekoppelt?** Die Jegen-Mail (mobil via Outlook für iOS gesendet) trägt nur den
+   Kurz-Namen, keinen vollen Block, obwohl sie fachlich-dokumentierend ist (Telefonat-Fixierung
+   mit technischer Liste, sonst ein Auslöser für FG+Block+voller Signatur). Ist die verkürzte
+   Signatur hier reines Mobile-Artefakt (kein bewusstes Stilsignal), oder gibt es Mail-Typen, bei
+   denen Du bewusst schlank signierst, obwohl der Inhalt dokumentierend ist? *Warum: würde die
+   bestehende «Gruss-Block folgt der Länge/Mobile»-Regel um den Fall «dokumentierender Inhalt,
+   aber Mobile-Kurzsignatur» schärfen statt es als Sonderfall offen zu lassen.* → [[stimme]]
+
 ## Offen — Runde 260725f (twin-fragesteller, aus Fidelity-Review 2026-07-25f)
 
 Quelle: Drift-Report `outputs/2026-07-25f_fidelity.md` (Gesamt-Fidelity ~81; drei M365-Sent-Items-Golds

@@ -3,6 +3,18 @@
 Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktion wird
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
+
+- **2026-07-25l — twin-fidelity-review (Selbsttest 2026-07-25g, M365-MCP-Tool direkt).** Drei
+  Sent-Items-Golds April 2026 gezogen (Schoch/Fachstelle Lärmschutz Sie-Erstkontakt, Firma Jegen
+  Telefonat-Nachgang, Kübler/Albin gestapelte Sie/Du-Anrede) — alle drei bereits verbatim im
+  Wiki dokumentiert (Mailbatch 40/41/63); Lauf testete daher Retrieval-Fidelity statt
+  Novitäts-Suche (Betriebsart bereits in Fidelity 260722 etabliert). Gesamt-Fidelity 86
+  (Beziehungsregister 83 schwächste Facette: der belegte «Firma <Name> statt Person»-Anredemarker
+  zu Jegen ist nur einfach beweisbar und damit ein Retrieval-Risiko bei blinder Generierung).
+  Keine Facetten-Widersprüche, keine Wiki-Edits nötig (`build_dna.py` bestätigt Auto-Block
+  bereits aktuell). 2 neue Fragen QUESTIONS Runde 260725g (Firma-Anrede-Bestätigung,
+  Mobile-Kurzsignatur bei dokumentierendem Inhalt). Report: `outputs/2026-07-25g_fidelity.md`.
+
 Fidelity-Reports unter `outputs/`.
 
 - **2026-07-25k — twin-mail-training Batch 67 (2026-07-25 05:16 bis 2026-07-25 18:11, frischer M365-Pull
