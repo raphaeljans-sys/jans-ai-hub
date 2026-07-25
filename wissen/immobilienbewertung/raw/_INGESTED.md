@@ -8,6 +8,11 @@ Ingest-Stand fest. Basis-Pfad:
 Legende Status: `offen` (noch nicht gelesen) · `teilweise` (angelesen/quergelesen) ·
 `eingearbeitet` (in Wiki-Artikel verdichtet).
 
+**Run 43 (2026-07-25):** kein neuer Ingest — KB saturiert, Bewertungsordner direkt gelistet und
+unveraendert (juengster Wangen 8855), Marktpuls-Stichtag erst 01.09.2026. Delta-Null-Lauf (elfter
+in Folge), kein Eskalations-Delta. Neu registriert: T-Regelgeschoss (Fachentscheid-Bedarf 0.70 vs.
+0.75, aus fremdem Wissens-Chef-Cross-KB-Lauf, siehe `wiki/wissensluecken.md`).
+
 **Run 40 (2026-07-22):** kein neuer Ingest — KB saturiert, Bewertungsordner direkt gelistet und
 unveraendert (juengster Wangen 8855), Marktpuls-Stichtag erst 01.09.2026. Delta-Null-Lauf (sechster
 in Folge), kein Eskalations-Delta (beide Pendenzen bereits in `logbuch/fristen.md`).

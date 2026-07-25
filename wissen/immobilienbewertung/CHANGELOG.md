@@ -2,6 +2,18 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 — Training-Run 43: Delta-Null-Bestaetigungslauf (elfter in Folge)
+
+- **Kein neuer Ingest, keine eigene Artikelaenderung.** KB unveraendert saturiert; kein
+  neuer JANS-Bewertungsfall (Bewertungsordner direkt gelistet, juengster weiterhin Wangen
+  8855), Marktpuls bewusst nicht geprueft (Drossel-Rule 260714, naechster Wert 01.09.2026),
+  kein Verifier-Lauf. Kollisionsschutz (Rule 260724) geprueft, keine Zweitinstanz.
+- **Neu registriert (T-Regelgeschoss):** ein fremder, bereits beendeter Wissens-Chef-
+  Cross-KB-Lauf (Run 15, Eintrag direkt unten) hatte vor diesem Lauf einen `needs-decision`-
+  Vermerk zu `CHANGELOG.md`/`wiki/realwert-sachwert.md` gestaged — bewusst nicht angefasst
+  (Rule 260724: kein Fremd-Staged in den eigenen Commit ziehen).
+- Bericht: `outputs/2026-07-25_training-run43.md`.
+
 ## 2026-07-25 — Wissens-Chef Run 15 (Cross-KB): needs-decision HNF/GF-Regelgeschoss; zwei Verdachtsfaelle widerlegt
 - **needs-decision-Box in `wiki/realwert-sachwert.md`** (additiv, kein Wertwechsel): der E1-Entscheid vom 12.07.2026 setzt den Regelgeschoss-Faktor **0.70** «kanonisch, Hub-weit» — der eigene fuehrende Flaechen-Artikel `wiki/flaechendefinitionen-sia:84` fuehrt dagegen den **belegten 0.75** (Band 0.73-0.80, Flaechenkonzeption Wohnen R. Jans 20.10.2024, vgl. `residualwertmethode:191`). Gleicher Geltungsbereich, gleiche Bezugsgroesse; der Entscheid hat die Gesamtgebaeude-Haelfte (0.60-0.61) harmonisiert und die Regelgeschoss-Haelfte auf einem quellenlosen Faustwert festgeschrieben. Adversarial BESTAETIGT → Fachentscheid Raphael, bis dahin gilt 0.70 weiter.
 - **Verdacht widerlegt (a):** «Baumasse vs. GV unvereinbar behandelt» — Scheinwiderspruch. Flaeche/Volumen-Verhaeltnisse sind gegenueber dem UG-Ein-/Ausschluss invariant (GF/Volumen ~ 1/mittlere Geschosshoehe); am Objekt Averecura auf GV-Basis verifiziert (0.323 / 0.196). Die grobkosten-Faustregel GV ~ Baumasse x 1.25-1.45 darf ausdruecklich **nicht** in die Flaechenfaktoren hineingerechnet werden.
