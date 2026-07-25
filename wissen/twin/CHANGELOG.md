@@ -5,6 +5,29 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-25k — twin-mail-training Batch 67 (2026-07-25 05:16 bis 2026-07-25 18:11, frischer M365-Pull
+  via MCP-Tool `mcp__microsoft-365__m365_run_command` direkt, kein CLI-Fallback noetig).** Leeres
+  Fenster: exakt EIN Treffer im Zielraum, die eigene Logbuch-Radar-Selbstmail vom Morgen (Claude-Rauschen,
+  ausgeschlossen) — kein einziger authentischer rj@-Ausgang an diesem ruhigen Samstag. Gegenprobe mit
+  frueherem Startzeitpunkt bestaetigte, dass das Tool korrekt mehrfache Treffer liefert (kein
+  Tool-Fehler, echte Mailstille). 0 Volltexte gelesen, keine Marker, keine Wiki-Aenderung, keine
+  Echo-Falle. `raw/_INGESTED.md` Sweep-Endpunkt-Hinweis aktualisiert: naechster Lauf startet ab
+  2026-07-25T18:11:00Z mit frischem Pull.
+
+- **2026-07-25j — twin-fidelity-review (Selbsttest, M365-CLI `outlook message list`/`message get`
+  funktionierten direkt).** Drei Sent-Items-Golds 18.–21.05.2026 gezogen (Stadelmann/Estermann Sie-
+  Brandschutz-Fachmail, Schwarzwaldelemente Sie-Submission, Besnik Du-Gewerke-Anfrage); zwei davon waren
+  bereits im Wiki dokumentiert (Stadelmann-Mapping, Echo-Falle 16 Schwarzwaldelemente — unabhaengig
+  bestaetigt). Twin-Fassungen blind via separatem Agent-Lauf erzeugt (kein Zugriff auf Gold-Wortlaut).
+  Gesamt-Fidelity 81 (Beziehung 70 schwaechste Facette: bekannte Stadelmann-Anrede «Geschätzter» nicht
+  abgerufen, Twin defaultete auf «Sehr geehrter» — Retrieval-Fehler, keine Wissenslücke). Neuer,
+  unbekannter Datenpunkt: Besnik-Mail zeigt «Geschätzter Besnik» + FG-Block bei einer Gewerke-/
+  Unternehmer-Empfehlungsbitte, obwohl Besnik bisher nur als nackter-Vorname-Kontakt belegt war —
+  generalisiert den Marker «Geschätzter als Inhalts-Spike» auf einen weiteren Kontakttyp, in
+  `beziehungsregister.md` nachgetragen; `rules/anrede-kontakte.md` NICHT selbst editiert (Bearbeitung an
+  Raphaels Bestätigung gebunden), im Report geflaggt. 3 neue Fragen QUESTIONS Runde 260725f. DNA neu
+  kompiliert (`skills/twin/tools/build_dna.py`). Report: `outputs/2026-07-25f_fidelity.md`.
+
 - **2026-07-25i — twin-mail-training Batch 66 (2026-07-23 21:42 bis 2026-07-24 15:30, M365-CLI-Fallback
   `node_modules/.bin/m365` mit Zertifikat-Auth, da der MCP-Tool-Pfad nicht aufrufbar war).** Kleines,
   luecklos gesichtetes Fenster (13 Treffer, 7 relevante Volltexte, kein Echo-Fall). Neue Marker:
