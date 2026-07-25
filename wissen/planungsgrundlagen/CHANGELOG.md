@@ -2,6 +2,19 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 — Training Run 78 (Recht/Norm + Brandschutz, Token-Vollgas): Frischecheck 0 neue Dateien seit Run 76 (achte Bestaetigung)
+Rotation zurueck auf Recht & Norm (PL-02) + Brandschutz (PL-03) nach Run 77. Datei-Frischecheck
+(`find -newer` gegen den Run-76-Report-Zeitstempel) fuer beide SharePoint-Ordner: **0 neue oder
+veraenderte Dateien** seit Run 76 — achte unabhaengige Erschoepfungs-Bestaetigung fuer dieses
+Domaenenpaar (zwoelfte in Folge ueber alle vier Domaenen, Run 67-78). D9 und M4 bleiben
+unveraendert offen (D9 wartet auf realen MFH-/ZEV-Fall, M4 auf dedizierten `korrektur`-Lauf).
+Kein erneuter WebSearch-Refresh von R6/RPG-2-ZH bzw. B5/BSV-2026 (bereits am selben Tag zweimal
+geprueft, kein neuer Trigger). Empfehlung aus Run 69-77 (Umstellung dieses Loops auf
+ereignisgetriebenen Modus statt taeglichem Vollgas) zum neunten Mal protokolliert, nicht
+eigenmaechtig umgesetzt (Taktentscheide bleiben Raphaels Entscheid, Rule auto-verbesserungen
+260714/260725) → `outputs/2026-07-25_training-run78.md`, `training/curriculum.md`
+R78-Freshness/B51-Freshness.
+
 ## 2026-07-25 — Training Run 77 (Kartenportale + Energie, Token-Vollgas): Frischecheck 0 neue Dateien seit Run 75 (siebte Bestaetigung)
 Rotation zurueck auf Kartenportale (PL-01) + Energie (PL-04) nach Run 76. Datei-Frischecheck
 (`find -newer` gegen den Run-75-Report-Zeitstempel) fuer beide SharePoint-Ordner: **0 neue oder
