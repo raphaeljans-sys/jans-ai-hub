@@ -1,5 +1,14 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-25 — Wissens-Health-Check Phase 1: Re-Audit nach dem 24.07.-Fix (Mac Mini Nachtschicht)
+- [health-check] A0·B0(**behoben**)·C1(jetzt sauber in QUESTIONS.md getrackt)·D0·E0(Frontmatter-
+  Mechanismus jetzt funktionsfähig)·F2(**Teilfix**)·G0 — der 24.07.-Nachziehlauf hat die drei
+  Kern-Findings (QUESTIONS.md, raw/_INGESTED.md, Frontmatter+Umlaute in kennwerte.md) verifiziert
+  behoben, war aber explizit auf `kennwerte.md` begrenzt: `raw/README.md` und `outputs/README.md`
+  bleiben in ae/oe/ue-Umschrift, die beiden ältesten CHANGELOG-Kopfzeilen (`010726`, `070626`)
+  weiterhin im alten Datumsformat. Beides kosmetisch, kein inhaltliches Risiko. Report:
+  `outputs/2026-07-25_health-check.md`.
+
 ## 2026-07-24 — Strukturelle Findings nachgezogen (Mac Mini Nachtschicht, 3 Wochen fällig)
 - [struktur] Die drei seit 01.07.2026 offenen und im Health-Check 21.07.2026 dreifach
   bestätigten strukturellen Findings behoben: `wiki/QUESTIONS.md` neu angelegt (Fragen aus dem

@@ -7,6 +7,23 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-25
 
+**Nachtschicht Mac Mini (~02:30, Wissens-Health-Check grobkosten Re-Audit, Dispatch-Run
+20260725-023006).** Standard-Prioritaeten 1–4 heute Nacht bereits erschoepft (Sync-/Remote-
+Queues leer, Synobsis Lauf 13 bereits 02:18 gelaufen, planungsgrundlagen Training Run 59
+bereits gelaufen). Prioritaet 5 versucht: kunde-bopp-Frage «Baar Zugerstrasse 49, TDD-Ausgang»
+erneut probiert (auch im Vordergrund, nicht nur Background-Agent) — weiterhin `EDEADLK`/
+Resource-deadlock beim Lesen der OneDrive-Cloud-Platzhalter, Blocker bestaetigt unveraendert
+bestehend (kein neuer Fix noetig, Bash und Read-Tool gleichermassen betroffen). Stattdessen
+Prioritaet 6: Re-Audit `wissen/grobkosten` (aeltestes Audit-Datum 21.07. neben kunde-bopp,
+letzter Fix-Lauf 24.07. nie verifiziert). Ergebnis: der 24.07.-Nachziehlauf hat die drei
+Kern-Findings (QUESTIONS.md, raw/_INGESTED.md, Frontmatter+Umlaute in kennwerte.md) sauber
+behoben (B-Audit jetzt gruen), war aber eng auf `kennwerte.md` begrenzt — `raw/README.md`
+und `outputs/README.md` bleiben in ae/oe/ue-Umschrift, zwei CHANGELOG-Kopfzeilen weiterhin
+im Altformat (beides kosmetisch, F-Audit gelb mit 2 statt vormals 3 Findings). Report
+`wissen/grobkosten/outputs/2026-07-25_health-check.md`, CHANGELOG nachgefuehrt. Reine
+Audit-Phase (Phase 1, unbeaufsichtigt), keine Wiki-Datei inhaltlich veraendert. Kein
+Versand/Publikation/Buchung.
+
 **Nachtschicht Mac Mini (~01:30, Wissens-Health-Check firmengruendung-ch, Dispatch-Run
 20260725-013006).** Standard-Prioritaeten 1–4 heute Nacht bereits erschoepft: Sync-/
 Remote-Queues leer, Synobsis Stufe 2 vollstaendig, energie+planungsgrundlagen-Training
