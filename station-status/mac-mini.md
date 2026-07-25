@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 25.07.2026 15:53:33
+Stand: 25.07.2026 16:03:36
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 15:23)
+- Developer/jans/ai/hub  (letzte Aktivitaet 15:57)
 
 ## Laufende Arbeits-Prozesse
 - claude -p --permission-mode acceptEdits --max-budget-usd 50 --fallback-model sonnet --output-format text -- ---
@@ -60,4 +60,4 @@ den Stationen und laesst jeden Lauf sauber mit rc=0 enden.
 - keine
 
 ## Hub-Git-Stand (NAS)
-- da30ea0f nas-selfcommit: 2 Datei(en) 2026-07-25 15:45
+- 1966a55f nas-selfcommit: 18 Datei(en) 2026-07-25 16:00

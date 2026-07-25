@@ -287,8 +287,10 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   aktuellste verwenden → **Kauf SIA-Shop nötig (Bring-Schuld Raphael, kostenpflichtig —
   Claude tätigt keine Käufe)**. Bis dahin in Dossiers «SIA 118» ohne Detail-Artikelzitate
   referenzieren; Destillat der 1991er nur für Alt-Kontext.
-- [ ] SIA 102: Bestand hält 2014 **und** 2020 — 2020 gilt. Wird 2014 noch für Altverträge
-  gebraucht, sonst als «— ersetzt durch 2020» führen (im Inventar markiert).
+- [x] **GESCHLOSSEN (Run 24, 260725): SIA 102 2014↔2020 bereits im Inventar korrekt markiert.**
+  `training/norm-inventar.md` Zeile 93 führt `102_2014.pdf` bereits als «— ersetzt durch 2020»
+  mit Verweis auf `sia-102-2014.md` (established, Altvertrags-Kontext). 2020 ist als gültige
+  Ausgabe destilliert (`sia-102-2020.md`). Keine weitere Aktion nötig.
 - [ ] **SIA 181:2020 re-destillieren (Wissens-Chef Run 3, 2026-07-13):** Register führt bislang
   2006 (2013-Benchmark), KB energie arbeitet bereits mit **SIA 181:2020**. Aktuelle Ausgabe am
   Original erfassen, dann REGISTER Zeile 109 auf 2020 heben. Ausgabe kostenpflichtig (SIA-Shop,

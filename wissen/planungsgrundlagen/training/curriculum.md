@@ -178,6 +178,24 @@ das Ergebnis in den passenden Wiki-Artikel.
   Doppelfund-Dateien (Tiefbauamt.docx = K53, Stadtmodell.docx = K43) bestaetigt ohne neuen Inhalt.
   Praezisierung `geoportal.ch/Oberaegerie` = kantonal organisiert fuer Kt. Zug (`/ktzg/`-Pfad),
   login-Gate fuer erweiterte Funktionen bestaetigt dasselbe Muster wie Einsiedeln.
+- [x] K59 (Run 67, 2026-07-25, Token-Vollgas) Dateinamens-/Groessen-basierter Scout (Lehre aus
+  Run 65 E45: Begriffs-Grep uebersieht Tippfehler/unerwartete Namen) auf PL-01 findet die bisher
+  nie gelesene 37-MB-Rasterdatei `KtZH Zuerich/geoglatt.ch/Maur/Zonenplan.pdf` — amtlicher
+  Zonenplan-Uebersichtsplan Gemeinde Maur, genehmigt 27.02.2012 (BDV Nr. 30/2012), mit eigener
+  **Gestaltungsplan-Legende** (8 namentlich benannte, datierte Sondernutzungsplan-Perimeter
+  Binz/Maur/Ebmatingen). Konkretisiert den seit K2 offenen Hinweis «0156-Grundnutzung zeigt nur
+  die Rahmennutzung, Gestaltungsplaene sind eigene Festlegungen» mit einem realen Beispiel
+  → NEU Abschnitt [[kartenportale-zonenplan-zh]], emerging (⚠ Datenstand 2012, vor Verwendung in
+  einem Maur-Projekt gegen aktuelle BZO/Amtsblatt gegenpruefen). Format-Delta zu K8: geoglatt.ch
+  liefert nur statische Raster-Poster-PDF, kein maschinenlesbares Format (Delta zum login-freien
+  ZH-OGD-WFS). **Energie-Gegenprobe (derselbe Dateinamens-Scout auf PL-04):** kein neuer Fund —
+  drei zuvor als «blockiert (EDEADLK)» gefuehrte Dateien (`https.docx` ×2, `Bauvorschriften
+  Versickerung.docx`, `Auf dem.docx`) waren bereits in **Run 61 (E42, selber Tag)** als
+  bareURL-Links bzw. fragmentarische Notiz ohne Delta abgeschlossen worden — beim Stand-Lesen
+  dieses Laufs zunaechst uebersehen, beim Gegencheck als Duplikat erkannt und NICHT erneut in die
+  Wiki geschrieben (Register bereits korrekt). Fuenf PV-Typ-Ordner (`Solaranlage/A–E …`) und
+  `_Energienachweise/` prueften sich als bereits vollstaendig durch Dateipfad-Zitate abgedeckt
+  (kein Ordner-Delta). Domaene Energie bleibt nach 45+ Lektionen ohne neuen Fund in diesem Lauf.
 
 ## Domaene 2 — Energie (PL-04)  · Prioritaet
 - [x] E1 PV-Typenwahl: Entscheidungsbaum (Indach/Ziegel/transparent/Fassade/Aufdach)? (2026-06-06, → [[energie-pv-eignung-typenwahl]])

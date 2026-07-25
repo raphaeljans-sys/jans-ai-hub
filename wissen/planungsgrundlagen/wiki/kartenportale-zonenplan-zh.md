@@ -1,12 +1,13 @@
 ---
 title: Rechtskraeftige kommunale Grundnutzung (Zonenplan/BZO) Kt. ZH — login-frei als Vektor
 status: established
-last_updated: 2026-06-16
+last_updated: 2026-07-25
 sources:
   - maps.zh.ch/wfs/OGDZHWFS GetCapabilities + GetFeature (GeoJSON, EPSG:2056) — Stand 06/2026
   - Datensatz ARV Basis Nutzungsplanung 0156 (Grundnutzung), 0154 (Empfindlichkeitsstufen LSV)
   - Benchmark Connector geo-zh.mjs --produkt zonenplan, Langnau a.A. Kat. 3338 + Egg WG60, 2026-06-16
   - A6 proj-Layer 0156_proj validiert: Seuzach Kat. 2304 (laufende BZO-Revision, Auflage 11/2024), 2026-06-24
+  - K59 (Run 67, 2026-07-25): geoglatt.ch Zonenplan-Uebersichtsplan Gemeinde Maur, genehmigt 27.02.2012 (BDV Nr. 30/2012), Gestaltungsplan-Register (8 Perimeter)
 links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]] [[kartenportale-geoportale-uebersicht]] [[kartenportale-baulinien-abstandslinien-zh]] [[kartenportale-oereb-kataster-system-zh]]
 ---
 
@@ -144,13 +145,56 @@ node geo-zh.mjs --adresse "<Adr Stadt-naehere Gde>" --produkt zonenplan
   `Aenderung_Bauordnung_Zonenplan`, Auflage **01.11.2024**, mit Dokument-Link auf
   oerebdocs.zh.ch. Beweist die End-to-End-Erkennung einer laufenden Revision durch den Connector.
 
+## Realer Gestaltungsplan-Registerauszug: Gemeinde Maur (K59, Run 67)
+
+Konkretisiert den offenen Punkt «Sondernutzungs-/Gestaltungsplaene sind eigene Festlegungen,
+0156 zeigt nur die Rahmennutzung» (siehe unten) mit einem realen Beispiel: der amtliche
+**Zonenplan-Uebersichtsplan der Gemeinde Maur** (Kt. ZH, geoglatt.ch-Portalexport, raster-PDF
+`Zonenplan_Raster_Ma_20110415_GM61.gws`, 1:5'000, «Teilrevision Nutzungsplanung», von der
+Gemeindeversammlung festgesetzt 7./8.06.2010, von der Baudirektion genehmigt **27.02.2012**
+[BDV Nr. 30/2012], Herausgeber Gossweiler Ingenieure AG Oetwil a.d.L.) traegt eine eigene
+**Gestaltungsplan-Legende** mit acht namentlich benannten, datierten Sondernutzungsplaenen:
+
+| Gestaltungsplan | Ortsteil | Festgesetzt | Genehmigung |
+|---|---|---|---|
+| «Buegenegg» | Binz | 11.11.1986 | RRB 00.02.1987 |
+| «Tanzplatz» | Maur | 22.03.1988 | RRB 12.07.1988 |
+| «Herr zur Mühle» | Ebmatingen | 10.06.2009 | RRB 15.12.2010 |
+| «Sämtner Gütli» | Maur | 15.06.1988 | RRB 19.02.1990 |
+| «Im Girsch Erni» | Maur | 19.06.1997 | RRB 27.02.1998 |
+| «Lueriti/Duppe» | Maur | 29.03.1988 | RRB 20.06.1989 |
+| «Wassberg» | Maur | 03.12.1996 | RRB 20.08.1997 |
+| «Ober-Zürichstrasse» | Binz | 10.06.2006 | RRB 13.04.2007 |
+
+(Daten aus der Planlegende abgelesen, RRB-Nummern im Original teils nur als Datum ohne
+Geschäftsnummer vermerkt — bei Bedarf gegen die Gemeinde Maur/das Amtsblatt verifizieren.)
+
+**Einordnung:** Genau die Art Overlay, die eine reine 0156-Grundnutzungsabfrage (Rahmennutzung)
+nicht zeigt — eine Parzelle innerhalb eines dieser acht Perimeter unterliegt zusaetzlich den
+Sonderbauvorschriften des jeweiligen Gestaltungsplans (analog zum SZ-Fall Reckholdern/Einsiedeln,
+[[recht-norm-baurechtsanalysen-benchmarks]], wo ein Gestaltungsplan den Waldabstand von 20 m auf
+15/17 m reduzierte). Der Plan zeigt daneben die volle kommunale Zonenlegende (Kernzone A/B,
+Wohnzonen W1–W4g, Wohnzone mit Gewerbeanteil WG2–WG4, Gewerbezone 1/2, Zone fuer oeffentliche
+Bauten, kommunale/kantonale Landwirtschafts- und Freihaltezone, Reservezone) inkl. AZ/Ausnuetzung
+je Zone in der Legendenspalte.
+
+**⚠ Datenstand:** Plan-Genehmigung 27.02.2012 — **>18 Monate alt**, als amtliche Geometrie durch
+den aktuellen WFS-Layer 0156/0156_proj (K2, oben) abgeloest. Die acht Gestaltungsplan-Perimeter
+selbst aendern sich seltener als die Grundnutzung, sind hier aber **nicht erneut verifiziert** —
+vor Verwendung in einem realen Maur-Projekt gegen die aktuelle Gemeinde-BZO/das Amtsblatt
+gegenpruefen. Status **emerging** (Einzelquelle, historischer Planexport, kein WFS-Layer
+bekannt). Datei war cloud-only (37 MB, `pdfinfo` noetig statt `mdls`, einseitiger Raster-Export
+via `pdfFactory`-Druckertreiber) → Delta zur Formattabelle K8: geoglatt.ch liefert (anders als
+der login-freie ZH-OGD-WFS) nur **statische Raster-Poster-PDFs**, kein maschinenlesbares Format.
+
 ## Grenzen / offen
 
 - Nur **Kt. ZH** (OGD-WFS des Kantons). Andere Kantone haben eigene Geodienste; SZ läuft über
   `geo-sz.mjs` / Skill `oereb-schwyz` (dort bisher OEREB-PDF, kein Zonen-WFS kartiert).
 - **Sondernutzungs-/Gestaltungsplaene** und Arealüberbauungen sind eigene Festlegungen (teils in
   0155 ueberlagernd) — die Grundnutzung 0156 zeigt nur die Rahmennutzung. Bei Arealboni/Sonder-
-  bauvorschriften zusaetzlich BZO-Text + 0155 pruefen.
+  bauvorschriften zusaetzlich BZO-Text + 0155 pruefen. Realer Registerauszug: siehe oben (K59,
+  Gemeinde Maur).
 - ~~Projektierter Layer `_proj_f` an realem Revisionsfall noch zu validieren~~ **✓ A6 geloest
   2026-06-24** (Seuzach Kat. 2304) — siehe Abschnitt «A6 — Laufende Revision erkennen».
 - Geocoder-Falle: «Strasse Nr, Ort» kann in einer **Nachbargemeinde** landen (lange Strassen wie
