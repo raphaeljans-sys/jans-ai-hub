@@ -52,6 +52,104 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### energie ↔ normen (Koerperschall WP / SIA 181 Schallschutz) — geprueft 2026-07-26 (Run 16)
+- **Anlass:** beide KBs haben am selben Abend im Abstand von 20 Minuten zum selben Normenfeld
+  geschrieben — energie Run 112 (23:07) legte das komplett neue Themenfeld «Koerperschallisolation bei
+  Waermepumpen» an (EMPA Baschnagel 2002), normen Run 28 (22:47) vervollstaendigte
+  `sia-181-2006.md` um Anhang A+B. Genau die Konstellation, in der Doppelspurigkeit entsteht.
+- **Befund 1 (WIDERSPRUCH, BESTAETIGT, korrigiert — materiell):** Der neue energie-Artikel erklaerte
+  den Tabelle-6-Wert **28 dB(A)** zum Zielmass «im eigenen Schlafzimmer». SIA 181 trennt aber zwei
+  Faelle: Tabelle 6 / Ziff. 3.2.3.3 gilt **zwischen** Nutzungseinheiten (28 dB(A) mittlere
+  Empfindlichkeit, 25 dB(A) erhoeht nach Ziff. 3.2.3.4); **innerhalb** der eigenen Nutzungseinheit
+  gibt die Norm nach Ziff. 0.1.2 nur **Empfehlungen** (Anhang G: 30/25 dB(A)). Der Verifier hat den
+  Scheinwiderspruchs-Test am Original gefuehrt und die Trennung an drei Ziffern belegt (2.1.4,
+  3.2.3.2, 3.2.3.7.1). → Fallunterscheidung an **allen vier** energie-Stellen eingesetzt (Destillat,
+  `wiki/waermepumpen-laermschutz`, BAUHERREN-FAQ F159, `wiki/INDEX`), inkl. Hinweis, dass bei neu
+  begruendetem STWEG nach Ziff. 2.2.2 verbindlich die erhoehten Anforderungen gelten (25 statt 28).
+- **Befund 2 (WIDERSPRUCH, BESTAETIGT, korrigiert — materiell):** Wiki und FAQ behaupteten pauschal,
+  Koerperschall werde «von keiner Behoerde geprueft» (das Quell-Destillat formulierte enger: «keine
+  *Bewilligungs*behoerde»). SIA 181 Ziff. 0.1.1 nennt den abgestrahlten Koerperschall im
+  Geltungsbereich, Ziff. 0.1.7 unterstellt ihn bis zum Inkrafttreten der eidg. Erschuetterungs-
+  verordnung **direkt dem USG** (Ziff. B.5 fuer die Messung). → auf «nicht Gegenstand des
+  LSV-Laermschutznachweises im Baubewilligungsverfahren» praezisiert, USG-Bezug ergaenzt. Das ist
+  zugleich das staerkere Argument gegenueber dem Bauherrn, die Entkopplung einzufordern.
+- **Befund 3 (FEHLENDE QUERVERLINKUNG, gesetzt):** Das neue Destillat zitierte «SIA 181» ohne Ausgabe
+  und ohne Ziffer und verlinkte nur KB-intern, waehrend alle Schwesterartikel (schallschutz-sia181,
+  sommerlicher-waermeschutz-sia180) den Querbezug-Block fuehren — die Rule `normen-referenz` greift
+  beim SCHREIBEN neuer Artikel weiterhin nicht (bekanntes Muster, 4. Fundort). → Querbezug-Block mit
+  ziffern-genauen Fundstellen gesetzt.
+- **Befund 4 (DOPPELSPURIGKEIT, ⚠-Flag beidseitig gesetzt):** Beide KBs fuehren die
+  SIA-181-Anforderungswerte, aber aus **verschiedenen Ausgaben**: energie aus einer Buero-
+  Zusammenfassung der **Ausgabe 2020** (erhoeht +4 dB), normen aus dem **Original 2006** (+3 dB) —
+  ohne Verweis zwischen den Destillaten. Das ist eine Ausgaben-, keine Sachdifferenz. → ⚠-Zeile in
+  beiden Destillaten, Arbeitsteilung wie beim SIA-180-Paar festgeschrieben (normen fuehrt die
+  Fundstelle, energie die Vollzugsebene). **Offen: Re-Destillat SIA 181:2020 aus dem Original**
+  (Bring-Schuld `normen`, Register-Eintrag vorhanden).
+  **Status: 2 materielle Korrekturen (6 Stellen), 1 Querbezug-Block, 1 Ausgaben-Flag beidseitig.**
+
+### energie ↔ baurecht ↔ planungsgrundlagen (Grossverbraucherartikel, Betriebsoptimierung ZH) — ERST-PRUEFUNG 2026-07-26 (Run 16)
+- **Anlass:** zweites brandneues Themenfeld aus energie Run 112 — kantonales Energierecht, ein Feld,
+  fuer das die Rollen-Matrix bisher **keine Zeile** hatte.
+- **Befund 1 (WIDERSPRUCH, BESTAETIGT, korrigiert — Rechtsfehler):** Das neue Destillat schrieb dem
+  Kanton Zuerich den **Schwyzer** Befreiungskatalog zu («§§ 6-8/§ 10 EnerG», an vier Stellen). Amtlich
+  gilt in ZH ein voellig anderer: § 13a Abs. 2 EnerG delegiert an die Verordnung, und **§ 48b Abs. 2
+  BBV I** nennt §§ 22a, 23, 26, 29 Abs. 2-4, 30a, 45, 45a (weitere Befreiungen kann die Baudirektion
+  aufnehmen). Der Verifier hat zusaetzlich das amtliche EnerG-PDF von notes.zh.ch gezogen und
+  gegengelesen. Die Reihe «§§ 6-8/§ 10» gehoert ausschliesslich zu SZ (§ 9 Abs. 4 kEnG); die
+  behauptete Struktur-Analogie ZH/SZ traegt nur fuer die **Schwellenwerte**. → an allen vier Stellen
+  korrigiert, Analogie-Aussage entsprechend eingeschraenkt.
+- **Befund 2 (WIDERSPRUCH, BESTAETIGT, korrigiert — materiell, praxisrelevant fuer Healthcare):**
+  `planungsgrundlagen/wiki/energie-energienachweis-zh-formulare.md` fuehrte die Betriebsoptimierung als
+  reine Verbrauchsschwelle mit Fristbeginn «nach Fertigstellung». Amtlich laeuft die Frist ab
+  **Inbetriebsetzung** (§ 13d Abs. 1 EnerG), und die Verordnung ist als **Befreiungs**norm gebaut:
+  § 48c Abs. 1 BBV I befreit (a) < 200'000 kWh Strom/Jahr, (b) Grossverbraucher mit Zielvereinbarung,
+  (c) freiwillige Zielvereinbarung (KMU-Modell). Beide Ausnahmen fehlten ganz — nach der bisherigen
+  Formulierung waere gerade Spital/Pflegeheim faelschlich in die Pflicht gefallen. → korrigiert,
+  beide Ausnahmen ergaenzt, auf das energie-Destillat und die amtlichen raw-Dateien verwiesen.
+- **Befund 3 (VERALTETES, BESTAETIGT, NICHT korrigiert — Verifier hat die Freigabe zurueckgehalten):**
+  Das Frontmatter des Destillats bezeichnet die Fassung als «EnerG ZH Nachtrag vom 19.4.2021». Im
+  Kt. ZH ist «Nachtrag» aber die Nummer der **konsolidierten Fassung** (aktuell **Nachtrag 129**,
+  Stand Publikation 1.7.2025 — Fusszeile «1. 7. 25 - 129» am Original-PDF verifiziert), waehrend
+  Aenderungserlasse als «G vom <Datum>» zitiert werden. Materiell ist der Inhalt aktuell, nur die
+  Fassungsbezeichnung irrefuehrend. → als **offener Punkt** an die KB `energie` (siehe Bericht).
+- **Befund 4 (FEHLENDE QUERVERLINKUNG, gesetzt) + offene Bring-Schuld geschlossen:** Das Destillat
+  fuehrte die Verordnungsebene als offenen Punkt («nicht durch eigene Verordnungslektuere vertieft»),
+  obwohl §§ 48a-48c BBV I amtlich und primaerquellenverifiziert in `baurecht/raw/` liegen. → Quelle
+  ergaenzt, offener Punkt geschlossen, Cross-KB-Block (baurecht = Erlasswortlaut, pg = Formularseite)
+  gesetzt; Gegenrichtung in pg gesetzt.
+- **Befund 5 (DOPPELSPURIGKEIT/Fuehrung ungeklaert, Matrix ergaenzt):** Fuer kantonales Energierecht
+  gab es keine Matrix-Zeile, obwohl die Fuehrung faktisch schon einmal geklaert worden war (energie
+  gibt sie ausdruecklich an baurecht ab, Run 9 Befund 5) — und wieder unterlaufen wurde. → **zwei neue
+  Matrix-Zeilen**: Erlassstand/Wortlaut ZH → `baurecht`; Vollzugswege/Behoerdenpraxis/SZ-Recht →
+  `energie`.
+  **Status: 2 materielle Rechtskorrekturen, 1 Bring-Schuld geschlossen, 2 Matrix-Zeilen, 1 offener Punkt.**
+
+### projekt-lessons ↔ normen ↔ auflagebereinigung — ERST-PRUEFUNG 2026-07-26 (Run 16, Rotation)
+- **Ausgangslage:** `projekt-lessons` war seit Bestehen dieses Registers **nie geprueft** (kein
+  Paar-Eintrag), obwohl die KB am 25.07. aktualisiert wurde. Bestand: ein einziger Artikel
+  (`kispi-lbw-rohdichte-800`, 2619 KISPI, Rohdichte 800 kg/m³ fuer LBW-Beplankungen).
+- **Befund 1 (WIDERSPRUCH KB-intern, BESTAETIGT, teilweise behoben):** Die KB-eigene Schreibregel
+  (`CLAUDE.md`: «jede Lesson mit Gewerk/BKP, SIA-Phase und den betroffenen Skills taggen, damit
+  Erkenntnisse in die Skills zurueckfliessen») ist im einzigen Artikel nicht umgesetzt: `links: []`,
+  keine SIA-Phase, kein Skill-Tag. Der Health-Check vom 25.07. hat das Frontmatter dennoch als
+  «korrekt» abgenommen — die Tagging-Regel ist nicht Teil seiner Pruefliste. → Frontmatter nachgezogen
+  (Gewerk, BKP 271.10/271.13, SIA-Phase 5, Skills brandschutz/unternehmerkontrolle/ausschreibung,
+  links auf beide Cross-KB-Ziele). **Offen: die Health-Check-Pruefung F um genau diesen Punkt
+  erweitern** — das ist eine Aenderung am Pruefprogramm und gehoert nicht in einen Cross-Lauf.
+- **Befund 2 (FEHLENDE QUERVERLINKUNG, gesetzt, hoher Wert):** Lesson und
+  `auflagebereinigung/wiki/brandschutz-auflagen-qss.md` dokumentieren **denselben Vorgang** am selben
+  Projekt — die Auflage II.19 «Detailplaene brandschutzrel. Innenwaende (Material/Aufbau)» — ohne
+  voneinander zu wissen. → bidirektional verlinkt mit klarer Rollentrennung: `auflagebereinigung`
+  fuehrt Ziffer/Amt/Frist, `projekt-lessons` die Beweiskette der Material-Substanz.
+- **Befund 3 (DOPPELSPURIGKEIT, kosmetisch, gekennzeichnet):** Das Lesson-Fazit schreibt generische
+  VKF-/Produktwerte materiell fort (Typ-A-GKB 776 kg/m³ / VKF 18151; Duraline Vario 1'003 / VKF 22636),
+  die identisch im fuehrenden `normen/wiki/en-520-gipsplattentypen.md` stehen. → nicht geloescht (sie
+  tragen die Fallargumentation), aber als **abgeleitet** gekennzeichnet mit Verweis auf die fuehrende KB.
+- **Matrix:** neue Zeile — `projekt-lessons` fuehrt die **Beweiskette des Einzelfalls**, nie generische
+  Kennwerte oder Normfundstellen.
+  **Status: 1 Frontmatter nachgezogen, 1 bidirektionale Erst-Verlinkung, 1 Ableitungs-Kennzeichnung,
+  1 Matrix-Zeile; 1 offener Punkt (Health-Check-Pruefliste).**
+
 ### baurecht ↔ planungsgrundlagen (Verfahren, IVHB, PBG-Revision, OEREB-Bezugswege) — geprueft 2026-07-25 (Run 15)
 - **Anlass:** pg Run 59 + Health-Check 25.07.; baurecht Buch-Run 51/52.
 - **Befund 1 (WIDERSPRUCH-Verdacht → WIDERLEGT):** «Genehmigungsfiktion im Anzeigeverfahren». pg fuehrt
