@@ -1,5 +1,37 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-26 — Trainings-Run 4 (Vertiefung der beiden Run-3-Kandidaten: erster verwertbarer Kennwert)
+
+- Kollisionscheck via `ps` durchgeführt (keine zweite Loop-Instanz auf diesem Host aktiv) —
+  Stand geprüft: `training/quellen-inventar.md`, `wiki/kennwerte.md`, `wiki/QUESTIONS.md`.
+- Gemäss Empfehlung in `wiki/QUESTIONS.md` (Run 3) keine neuen Projektordner erschlossen,
+  sondern die beiden Run-3-Kandidaten (2202 Ackersteinstrasse, 2304 Reckholdern) vertieft:
+  Rechnungen, Zahlungskontrolle, Baubuchhaltungs-/TUV-Ordner und ein bisher nicht gelesenes
+  JANS-eigenes Arbeitspapier (`09_Dokumente/Marktwertschaetzung/2304RE20_Marktwertanalyse_RJ.pdf`,
+  Stand 31.12.2023) geprüft.
+- **2304 Reckholdern 20 — erster verwertbarer Kennwert dieser KB.** Die Marktwertanalyse liefert
+  GV (1'986 m³ SIA 416) und BKP-1–5-Kosten (CHF 3'446'500, klassischer BKP, deckt sich mit dem
+  unabhängig in Run 3 gefundenen KV Siworks) im selben Dokument, rechnerisch selbst verifiziert
+  (P/GF, P/HNF, P/GV stimmen exakt). Löst den in Run 3 dokumentierten internen Widerspruch auf
+  (älterer eBKP-H-Stand war ein überholter Zwischenstand). Neuer Eintrag in `wiki/kennwerte.md`:
+  **1'735 CHF/m³ GV, EFH Ersatzneubau gehoben/Luxus, Preisstand 12/2023, Kanton Schwyz —
+  Einzelfall n=1** (Seed-Band unverändert, da n=1; Wert liegt über dem bestehenden EFH-Band,
+  konsistent mit der im Quelldokument selbst benannten Luxus-Einordnung).
+- **2202 Ackersteinstrasse 67 — Ursache geklärt, Fall geschlossen.** Rechnungsprüfung zeigt: das
+  Mandat endete 09/2023 mit der Lieferung von Plangrundlagen für eine Abänderungseingabe, keine
+  spätere Rechnung/Bauleitung/Baubuchhaltung. Das Projekt kam nie zur Ausführung — die vier in
+  Run 3 gefundenen widersprüchlichen GKS-Stände waren Zwischenstände eines nie abgeschlossenen
+  Entwurfsprozesses, kein Dokumentationsfehler. Weiterhin nicht verwertbar für einen Kennwert,
+  aber nicht mehr als offene Frage geführt.
+- `raw/2304-reckholdern.md` und `raw/2202-ackersteinstrasse.md` je um einen "Run 4"-Abschnitt
+  ergänzt; `wiki/kennwerte.md` (neuer Run-4-Abschnitt + Frontmatter/Provenienz aktualisiert),
+  `wiki/QUESTIONS.md` (Run-3-Fragen beantwortet, eine neue Frage: eigene Standardstufe
+  "gehoben/Luxus" bei n=2 erwägen), `wiki/INDEX.md`, `training/quellen-inventar.md`
+  nachgeführt. Lauf-Report: `outputs/2026-07-26_grobkosten-run4.md`.
+- Empfehlung für Run 5: beide bekannten SharePoint-Quellen sind jetzt vollständig geprüft UND
+  vertieft; nächster Lauf braucht eine neue Quelle oder einen Ereignis-Trigger (neuer
+  Kostenstand aus `kostenkontrolle`), kein erneutes Durchsuchen derselben Projektordner.
+
 ## 2026-07-25 — Trainings-Run 3 (Stufe 2: SharePoint-Drittquelle AR-07 Archiv, zwei Fälle geprüft, keiner verwertbar)
 - `training/quellen-inventar.md` erweitert: alle 4 Projektordner unter SharePoint
   `AR - 07 Archiv/01_Projekte/` (abgeschlossene Mandate) geprüft. 2202 Ackersteinstrasse und

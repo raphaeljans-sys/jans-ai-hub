@@ -1,5 +1,5 @@
 ---
-title: Bund-Geodaten je Parzelle — Hoehe, Orthofoto, DTM, Bauzonen (geo.admin.ch)
+title: Bund-Geodaten je Parzelle — Höhe, Orthofoto, DTM, Bauzonen (geo.admin.ch)
 status: established
 last_updated: 2026-06-10
 sources:
@@ -10,26 +10,26 @@ sources:
 links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-geoportale-uebersicht]]
 ---
 
-# Bund-Geodaten je Parzelle — Hoehe, Orthofoto, DTM, Bauzonen
+# Bund-Geodaten je Parzelle — Höhe, Orthofoto, DTM, Bauzonen
 
-Login-freie Bezugswege fuer die Geodaten, die der **OEREB-Auszug NICHT enthaelt** und die eine
-Studie regelmaessig braucht: Gelaendehoehe, Luftbild, digitales Terrainmodell und die
+Login-freie Bezugswege für die Geodaten, die der **OEREB-Auszug NICHT enthält** und die eine
+Studie regelmässig braucht: Geländehöhe, Luftbild, digitales Terrainmodell und die
 (bundesweit harmonisierte) Bauzone. Alle vier Endpunkte sind am 2026-06-10 mit der realen
 Testparzelle **Langnau a.A. Kat. 3338 (EGRID CH879777718909, E 2682864.25 / N 1238219.125)**
 validiert und im Connector `[[planungsgrundlagen/connectors/geo-zh.mjs]]` hinterlegt
-(Flag `--produkt`). Ergaenzt die OEREB-/EGRID-Kette aus [[kartenportale-oereb-egrid-bezug]].
+(Flag `--produkt`). Ergänzt die OEREB-/EGRID-Kette aus [[kartenportale-oereb-egrid-bezug]].
 
 > Koordinatenbezug: alle Endpunkte arbeiten in **LV95 / EPSG:2056** (E=easting/Rechtswert,
-> N=northing/Hochwert). STAC braucht zusaetzlich **WGS84 lon/lat** (liefert der SearchServer
+> N=northing/Hochwert). STAC braucht zusätzlich **WGS84 lon/lat** (liefert der SearchServer
 > als `attrs.lon` / `attrs.lat` gratis mit).
 
-## 1 · Punkthoehe (swissALTI3D)
+## 1 · Punkthöhe (swissALTI3D)
 
 ```
 GET https://api3.geo.admin.ch/rest/services/height?easting=<E>&northing=<N>&sr=2056
 -> {"height":"549.1"}        # m ue.M., swissALTI3D-interpoliert
 ```
-Validiert: 549.1 m an Kat. 3338. Schnell, keine Datei — fuer Hoehenkote/Hangneigungs-Plausibilitaet.
+Validiert: 549.1 m an Kat. 3338. Schnell, keine Datei — für Höhenkote/Hangneigungs-Plausibilitaet.
 
 ## 2 · Orthofoto SWISSIMAGE-DOP10 (STAC)
 
@@ -38,8 +38,8 @@ GET https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.swissimage-
     ?bbox=<lon-d>,<lat-d>,<lon+d>,<lat+d>          # d ~ 0.0008 Grad ~ kleiner Parzellenradius
 -> features[].assets : GeoTIFF-URLs
 ```
-Pro Kachelgebiet **mehrere Jahrgaenge** (Benchmark Kat. 3338: 2019, 2022, **2025**) und je Jahrgang
-zwei Aufloesungen: **0.1 m** (`*_0.1_2056.tif`) und **2 m** (`*_2_2056.tif`). Die 0.1-m-GeoTIFF ist
+Pro Kachelgebiet **mehrere Jahrgänge** (Benchmark Kat. 3338: 2019, 2022, **2025**) und je Jahrgang
+zwei Auflösungen: **0.1 m** (`*_0.1_2056.tif`) und **2 m** (`*_2_2056.tif`). Die 0.1-m-GeoTIFF ist
 gross (Hunderte MB) → nur bei Bedarf laden (`--download`). Asset-URL-Schema:
 `https://data.geo.admin.ch/ch.swisstopo.swissimage-dop10/<item>/<item>_<gsd>_2056.tif`.
 
@@ -49,8 +49,8 @@ gross (Hunderte MB) → nur bei Bedarf laden (`--download`). Asset-URL-Schema:
 GET https://data.geo.admin.ch/api/stac/v0.9/collections/ch.swisstopo.swissalti3d/items?bbox=...
 -> features[].assets : *_0.5_2056_5728.tif | *_2_2056_5728.tif | *.xyz.zip
 ```
-Aufloesungen **0.5 m** und **2 m**, zusaetzlich Punktwolke als `*.xyz.zip`. Benchmark Kat. 3338:
-Item `swissalti3d_2020_2682-1238`. Fuer Schnitte/Aushub/Hangmodellierung.
+Auflösungen **0.5 m** und **2 m**, zusätzlich Punktwolke als `*.xyz.zip`. Benchmark Kat. 3338:
+Item `swissalti3d_2020_2682-1238`. Für Schnitte/Aushub/Hangmodellierung.
 
 ## 4 · Bauzonen CH harmonisiert (WMS GetMap, PNG)
 
@@ -64,11 +64,11 @@ GET https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap
 Validiert: 1000×1000-PNG, ~4 KB. **Achsenreihenfolge-Falle:** WMS 1.3.0 mit EPSG:2056 erwartet die
 BBOX als **N,E,N,E** (Hoch-/Rechtswert), nicht E,N — sonst kommt eine leere/falsche Kachel.
 
-> Abgrenzung: `ch.are.bauzonen` ist die **bundesweit harmonisierte Uebersichts-Bauzone** (ARE) —
-> gut fuer den Schnellblick. Die **rechtsverbindliche kommunale Grundnutzung/BZO** des Kt. ZH gibt
-> es seit 2026-06-16 als **login-freien Vektor** ueber den ZH-OGD-WFS (Datensatz 0156) — mit
-> BMZ/AZ, Hoehen, Vollgeschossen, Rechtsstatus → eigener Artikel [[kartenportale-zonenplan-zh]]
-> (`--produkt zonenplan`). Der alte WMS-Weg `wms.zh.ch` (HTTP 401) ist damit hinfaellig; A2 geloest.
+> Abgrenzung: `ch.are.bauzonen` ist die **bundesweit harmonisierte Übersichts-Bauzone** (ARE) —
+> gut für den Schnellblick. Die **rechtsverbindliche kommunale Grundnutzung/BZO** des Kt. ZH gibt
+> es seit 2026-06-16 als **login-freien Vektor** über den ZH-OGD-WFS (Datensatz 0156) — mit
+> BMZ/AZ, Höhen, Vollgeschossen, Rechtsstatus → eigener Artikel [[kartenportale-zonenplan-zh]]
+> (`--produkt zonenplan`). Der alte WMS-Weg `wms.zh.ch` (HTTP 401) ist damit hinfällig; A2 gelöst.
 
 ## Connector-Aufruf (Benchmark 2026-06-10)
 
@@ -81,11 +81,11 @@ node geo-zh.mjs --adresse "Giebelweg 12, Langnau am Albis" \
 - `height/orthofoto/dtm/bauzonen` brauchen eine **Koordinate** → nur mit `--adresse` (EGRID-only
   liefert keine Koordinate; der Connector skippt die Produkte dann mit Hinweis statt zu crashen —
   getestet).
-- `--download` laedt bei `orthofoto`/`dtm` zusaetzlich die **hoechstaufgeloeste** Kachel je Jahrgang.
+- `--download` lädt bei `orthofoto`/`dtm` zusätzlich die **höchstaufgelöste** Kachel je Jahrgang.
 - `bauzonen` wird immer als PNG abgelegt (`Bauzonen-CH_<BFS>_<Parzelle>_<JJJJ-MM-TT>.png`).
 
 ## Offen
-- ~~A2: kommunaler ZH-Zonenplan/BZO login-frei~~ **✓ geloest 2026-06-16** via ZH-OGD-WFS 0156
+- ~~A2: kommunaler ZH-Zonenplan/BZO login-frei~~ **✓ gelöst 2026-06-16** via ZH-OGD-WFS 0156
   → [[kartenportale-zonenplan-zh]] (`--produkt zonenplan`).
 - STAC-`d` (bbox-Radius) ist fix ~0.0008 Grad → bei sehr grossen Parzellen ggf. mehrere
-  Nachbarkacheln noetig; aktuell genuegt es fuer Punkt-/Hauskontext.
+  Nachbarkacheln nötig; aktuell genügt es für Punkt-/Hauskontext.

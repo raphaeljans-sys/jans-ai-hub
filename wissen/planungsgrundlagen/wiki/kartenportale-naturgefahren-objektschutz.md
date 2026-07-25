@@ -3,7 +3,7 @@ title: Naturgefahrenkarte & Objektschutzkonzept — Gefahrenstufen, Schutzziele,
 status: established
 last_updated: 2026-07-23 (Run 57, Registerpflege)
 sources:
-  - opendata.swiss CKAN-API (`package_show?id=gefahrenkarte1`, Amt fuer Geoinformation Kt. SZ) —
+  - opendata.swiss CKAN-API (`package_show?id=gefahrenkarte1`, Amt für Geoinformation Kt. SZ) —
     liefert die realen Service-URLs hinter dem bisher nur als manuellem WebGIS-Link bekannten
     Layer-Namen `ch.sz.a012b.naturgefahrenkarte.*`; live GetCapabilities/GetFeature/
     DescribeFeatureType gegen `map.geo.sz.ch/mapserv_proxy`; Connector `geo-sz.mjs --produkt
@@ -19,33 +19,33 @@ sources:
   - PL-02/04_Merkblätter/GVZ_Leitfaden_Hochwassergefahrenkarte.pdf ("Leitfaden zur Umsetzung der
     Gefahrenkarten Hochwasser", Baudirektion Kt. ZH/AWEL Abt. Wasserbau + Gebäudeversicherung
     Kt. ZH, Autor Ernst Basler + Partner AG, © 2003 — ⚠ Datenstand 2003, Run 37 2026-07-14)
-  - Kt. SZ, Amt fuer Wald und Naturgefahren — "Naturgefahrenkarten: Das Wesentliche in Kuerze"
+  - Kt. SZ, Amt für Wald und Naturgefahren — "Naturgefahrenkarten: Das Wesentliche in Kürze"
     (I:\AWN\Schwyz\Natgef\Gefahrenkarten\Umsetzung\Info_zumThema.doc, 5 S.) — Rechtsgrundlagen,
     Gefahrenstufen, Perimeter A/B/C, Umsetzung Nutzungsplanung
   - Realer JANS-Fall Reckholdernstrasse 20, 8846 Willerzell (Objektschutzkonzept 26.09.2023,
     Auftraggeber-Dokument 2304RE20_Naturgefahren_Objektschutzkonzept.pdf) — Gefahrenkarte Rutschung
-    (mittlere/geringe/erhebliche Gefaehrdung auf derselben Parzelle), WebGIS-Direktlink SZ
+    (mittlere/geringe/erhebliche Gefährdung auf derselben Parzelle), WebGIS-Direktlink SZ
   - schutz-vor-naturgefahren.ch (VKG/SIA/HEV/ASA-SVV/Kantonalbank/Gemeindeverband) —
-    "Checkliste fuer die Planung und Umsetzung von Gebaeudeschutzmassnahmen" (Dezember 2020,
-    **vollstaendig gelesen S.1-12/12** inkl. Bauteilkatalog, Run 51 2026-07-18) + "Empfehlungen
-    Gebaeudeschutz" (Onlinetool) + "Rutschungen und
-    Hangmuren — Hintergrundwissen fuer Bauherren"
+    "Checkliste für die Planung und Umsetzung von Gebäudeschutzmassnahmen" (Dezember 2020,
+    **vollständig gelesen S.1-12/12** inkl. Bauteilkatalog, Run 51 2026-07-18) + "Empfehlungen
+    Gebäudeschutz" (Onlinetool) + "Rutschungen und
+    Hangmuren — Hintergrundwissen für Bauherren"
   - PL-01/Objektschutz/Reckholdern/Naturgefahrenkarte_Das_Wesentliche_in_Kuerze.pdf +
     2304RE20_Naturgefahren_Objektschutzkonzept.pdf + 27_Checkliste_SvN_D.pdf +
-    Grundwasserkarte_mapgeoszch.pdf (WebGIS Kt. SZ, Amt fuer Geoinformation AGI, Stand 22.11.2023)
+    Grundwasserkarte_mapgeoszch.pdf (WebGIS Kt. SZ, Amt für Geoinformation AGI, Stand 22.11.2023)
   - inggeol.ch (Ingenieurgeologie Schweiz, Arbeitsgruppe Geologie und Naturgefahren AGN-DNG) —
-    Praxishilfe "Bauen im Rutschgebiet — Hinweise fuer Bauherrschaften und Baubehoerden"
-    (1.9.2023, im Auftrag BAFU/Abteilung Gefahrenpraevention, PL-01/Objektschutz/
+    Praxishilfe "Bauen im Rutschgebiet — Hinweise für Bauherrschaften und Baubehörden"
+    (1.9.2023, im Auftrag BAFU/Abteilung Gefahrenprävention, PL-01/Objektschutz/
     _schutz-vor-naturgefahren.ch/inggeol/27_inggeol_ch-praxishilfe_bauen_in_rutschgebieten_20230901-1.pdf,
-    S. 1-9 vollstaendig gelesen)
+    S. 1-9 vollständig gelesen)
   - PL-01/KtSZ Schwyz/map.geo.sz.ch/Willerzell/Ökomorphologie_Fliessgewässer/
     ökomorpho_Fliesgewässer.pdf (WebGIS Kt. SZ, 22.11.2023 10:44, dieselbe Parzelle Reckholdern —
-    Kartenexport traegt den Titel «Grundwasserkarte Mittelwasserstand», die mitexportierte Legende
-    enthaelt zusaetzlich die Kategorien der **Gewaesser-Oekomorphologie**, Run 27)
+    Kartenexport trägt den Titel «Grundwasserkarte Mittelwasserstand», die mitexportierte Legende
+    enthält zusätzlich die Kategorien der **Gewässer-Ökomorphologie**, Run 27)
   - PL-01/KtSZ Schwyz/map.geo.sz.ch/Willerzell/Erdwaermenutzung/231122_Erdwaermenutzung.pdf
-    (WebGIS Kt. SZ, 22.11.2023 10:50, dieselbe Parzelle Reckholdern — Layer «Erdwaermenutzung»
-    mit Zulaessigkeitszonierung + Bestandeskataster Erdregister/Energiekorb/Energiepfahl/
-    Erdwaermesonde, Run 27)
+    (WebGIS Kt. SZ, 22.11.2023 10:50, dieselbe Parzelle Reckholdern — Layer «Erdwärmenutzung»
+    mit Zulässigkeitszonierung + Bestandeskataster Erdregister/Energiekorb/Energiepfahl/
+    Erdwärmesonde, Run 27)
 links: [[kartenportale-geoportale-uebersicht]] [[kartenportale-baulinien-abstandslinien-zh]]
   [[recht-norm-abstandsvorschriften-wald-gewaesser]] [[kartenportale-sharepoint-ablage]]
   [[kartenportale-grundlagen-checkliste-neue-parzelle]] [[brandschutz-pl03-wegweiser]]
@@ -54,61 +54,61 @@ links: [[kartenportale-geoportale-uebersicht]] [[kartenportale-baulinien-abstand
 
 # Naturgefahrenkarte & Objektschutzkonzept
 
-Schliesst eine bisher unbearbeitete Luecke in PL-01 (Ordner `Objektschutz/`): die
-**Naturgefahrenkarte** ist neben Zonenplan/Baulinien eine eigenstaendige, rechtserhebliche
-Planungsgrundlage — sie kann ein Baufeld einschraenken (rote Zone = de facto Bauverbot), auch wenn
-Zonenplan und Baulinien unauffaellig sind. Bei Hanglagen, Bachnaehe und in den Kantonen SZ/ZH mit
-ausgepraegtem Relief (Einsiedeln, Wollerau, Oberrieden, Thalwil) ist die Karte **immer** zu pruefen,
+Schliesst eine bisher unbearbeitete Lücke in PL-01 (Ordner `Objektschutz/`): die
+**Naturgefahrenkarte** ist neben Zonenplan/Baulinien eine eigenständige, rechtserhebliche
+Planungsgrundlage — sie kann ein Baufeld einschränken (rote Zone = de facto Bauverbot), auch wenn
+Zonenplan und Baulinien unauffällig sind. Bei Hanglagen, Bachnähe und in den Kantonen SZ/ZH mit
+ausgeprägtem Relief (Einsiedeln, Wollerau, Oberrieden, Thalwil) ist die Karte **immer** zu prüfen,
 nicht nur bei offensichtlichem Hangrisiko.
 
 ## 1. Rechtliche Verankerung
 
-- **Bund:** Art. 6 Abs. 2 RPG verpflichtet die Kantone, naturgefahrengefaehrdete Gebiete zu
-  ermitteln; Art. 15 RPG — gefaehrdete Flaechen eignen sich nicht/nur beschraenkt als Bauland;
+- **Bund:** Art. 6 Abs. 2 RPG verpflichtet die Kantone, naturgefahrengefährdete Gebiete zu
+  ermitteln; Art. 15 RPG — gefährdete Flächen eignen sich nicht/nur beschränkt als Bauland;
   Art. 15 Abs. 1 WaV (Wald) + Art. 27 WBV (Wasserbau) verpflichten zu Gefahrenkataster/-karten.
 - **Kanton SZ:** § 20 PBG — Gefahrenzonen werden nach den kantonalen Gefahrenkarten ausgeschieden;
-  § 17 PBG — die Gemeinde scheidet im Zonenplan die Gefahrenzone aus. Zustaendig: **Amt fuer Wald
+  § 17 PBG — die Gemeinde scheidet im Zonenplan die Gefahrenzone aus. Zuständig: **Amt für Wald
   und Naturgefahren** (AWN, Bahnhofstrasse 20, 6431 Schwyz).
 - **Rechtlicher Status der Karte:** ein im Auftrag des Kantons erstelltes Fachgutachten mit
   **rechtserheblichem** Sachverhalt — im Verwaltungsverfahren nicht ignorierbar, **auch wenn die
   Karte noch nicht in die Nutzungsplanung umgesetzt ist** (Quelle: AWN SZ "Das Wesentliche in
-  Kuerze", Abschnitt "Rechtlicher Status"). Gemeinden muessen die Karte innert **2 Jahren** nach
-  Erstellung grundeigentuemerverbindlich in die Nutzungsplanung ueberfuehren.
+  Kürze", Abschnitt "Rechtlicher Status"). Gemeinden müssen die Karte innert **2 Jahren** nach
+  Erstellung grundeigentümerverbindlich in die Nutzungsplanung überführen.
 - **Bearbeitungstiefe (Perimeter):** A = Siedlungsgebiet, **parzellenscharf**, alle 4 Gefahrenstufen
-  dargestellt; B = einzelne Gebaeude/Landwirtschaft, nur Gefahrenhinweisbereich; C = kaum begangene
+  dargestellt; B = einzelne Gebäude/Landwirtschaft, nur Gefahrenhinweisbereich; C = kaum begangene
   Gebiete, keine Darstellung. JANS-Projekte liegen praktisch immer in Perimeter A.
 
 ## 2. Gefahrenstufen — Bedeutung + Bauvorschrift
 
 Erfasste Prozesse: Hochwasser, Murgang, Sturzprozesse (Stein-/Blockschlag, Fels-/Bergsturz),
 Rutschungen, Hangmuren, Dolinen/Bodenabsenkung, Lawinen, Gleitschnee. Wiederkehrperiode auf der
-Karte bis 300 Jahre, im Restgefaehrdungsbereich noch seltener.
+Karte bis 300 Jahre, im Restgefährdungsbereich noch seltener.
 
 | Stufe | Bedeutung | Bauvorschrift (Kernaussage) |
 |---|---|---|
-| **Rot** — erhebliche Gefaehrdung | Personen innerhalb UND ausserhalb Gebaeude gefaehrdet; rasche Gebaeudezerstoerung moeglich | De facto **Verbotsbereich**: keine neuen Bauten fuer Mensch/Tier-Aufenthalt; unbebaute Bauzonen sollen rueckgezont werden; Wiederaufbau nur in Ausnahmefaellen mit Sicherheitsmassnahmen |
-| **Blau** — mittlere Gefaehrdung | Personen innerhalb kaum, ausserhalb gefaehrdet; Gebaeudeschaeden moeglich, keine rasche Zerstoerung bei eingehaltenen Auflagen | **Gebotsbereich**: Bauen erlaubt **mit Auflagen** im Bau-/Zonenreglement; keine besonders sensiblen Objekte (z.B. Alters-/Pflegeheim!); moeglichst keine neuen Bauzonen |
-| **Gelb** | Personen kaum gefaehrdet, geringe Gebaeudeschaeden | **Hinweisbereich**: Grundeigentuemer informieren; Massnahmenplanung fuer sensible Objekte |
-| **Gelb-weiss gestreift** | Restgefaehrdung (sehr selten, hohe Intensitaet) | Hinweisbereich; Notfallplanung + Massnahmen fuer sensible Objekte; Anlagen mit sehr hohem Schadenpotenzial vermeiden |
-| **Weiss** | keine/vernachlaessigbare Gefaehrdung | keine Einschraenkung |
-| **Braun** (Gefahrenhinweisbereich, Perimeter B) | Intensitaet/Wahrscheinlichkeit nicht bestimmt | Einzelfallpruefung |
+| **Rot** — erhebliche Gefährdung | Personen innerhalb UND ausserhalb Gebäude gefährdet; rasche Gebäudezerstörung möglich | De facto **Verbotsbereich**: keine neuen Bauten für Mensch/Tier-Aufenthalt; unbebaute Bauzonen sollen rückgezont werden; Wiederaufbau nur in Ausnahmefällen mit Sicherheitsmassnahmen |
+| **Blau** — mittlere Gefährdung | Personen innerhalb kaum, ausserhalb gefährdet; Gebäudeschäden möglich, keine rasche Zerstörung bei eingehaltenen Auflagen | **Gebotsbereich**: Bauen erlaubt **mit Auflagen** im Bau-/Zonenreglement; keine besonders sensiblen Objekte (z.B. Alters-/Pflegeheim!); möglichst keine neuen Bauzonen |
+| **Gelb** | Personen kaum gefährdet, geringe Gebäudeschäden | **Hinweisbereich**: Grundeigentümer informieren; Massnahmenplanung für sensible Objekte |
+| **Gelb-weiss gestreift** | Restgefährdung (sehr selten, hohe Intensität) | Hinweisbereich; Notfallplanung + Massnahmen für sensible Objekte; Anlagen mit sehr hohem Schadenpotenzial vermeiden |
+| **Weiss** | keine/vernachlaessigbare Gefährdung | keine Einschränkung |
+| **Braun** (Gefahrenhinweisbereich, Perimeter B) | Intensität/Wahrscheinlichkeit nicht bestimmt | Einzelfallprüfung |
 
 **JANS-Praxisrelevanz Healthcare:** die Formulierung "keine besonders sensiblen Objekte" in der
-blauen Zone trifft **Alters-/Pflegeheime direkt** (eingeschraenkt mobile Bewohnerschaft) — bei
-Healthcare-Projekten in blauer Zone ist das ein eigener Abklaerungspunkt, nicht nur eine
+blauen Zone trifft **Alters-/Pflegeheime direkt** (eingeschränkt mobile Bewohnerschaft) — bei
+Healthcare-Projekten in blauer Zone ist das ein eigener Abklärungspunkt, nicht nur eine
 bautechnische Auflage.
 
 ## 3. Bezugswege
 
 | Kanton | Portal | Layer/Endpunkt | Login |
 |---|---|---|---|
-| **SZ** | `map.geo.sz.ch/mapserv_proxy` (WFS 1.1.0) | **GELOEST Run 55, 2026-07-21** — `ms:ch.sz.a012b.naturgefahrenkarte.gefahrenflaechen.ueberlagert` (Perimeter A) + `.hinweisflaechen.ueberlagert` (Perimeter B) + `.erhebungsgebiet` (Kartierungsstand); im Connector als `geo-sz.mjs --produkt naturgefahren`. Details Abschnitt 8c | login-frei |
-| **ZH** | `maps.zh.ch/wfs/OGDZHWFS` (OGD-WFS, AWEL Wasserbau) | **GELOEST Run 54, 2026-07-20** — `ms:ogd-0044_giszhpub_wb_syn_gk_f` (synoptische Gefahrenkarte 44.13) + `_wb_hw_gk_f` (Hochwasser 44.2) + `_wb_mb_gk_f` (Massenbewegungen 44.7); im Connector als `--produkt naturgefahren`. Details Abschnitt 8a | login-frei |
-| **Alle CH (privat)** | `schutz-vor-naturgefahren.ch` | Adressgenauer "Naturgefahren-Check" (Eigentuemer/Architekten-Ansicht) + generische Gebaeudeschutz-Empfehlungen je Bauteilgruppe (Dach/Fassade, Innenraum, Technik, Tragstruktur, Oeffnungen/Zugaenge, Umgebung) x Naturgefahr (Hochwasser, Rutschung, Hagel, Schnee, Erdbeben, ...) | login-frei |
+| **SZ** | `map.geo.sz.ch/mapserv_proxy` (WFS 1.1.0) | **GELÖST Run 55, 2026-07-21** — `ms:ch.sz.a012b.naturgefahrenkarte.gefahrenflaechen.ueberlagert` (Perimeter A) + `.hinweisflaechen.ueberlagert` (Perimeter B) + `.erhebungsgebiet` (Kartierungsstand); im Connector als `geo-sz.mjs --produkt naturgefahren`. Details Abschnitt 8c | login-frei |
+| **ZH** | `maps.zh.ch/wfs/OGDZHWFS` (OGD-WFS, AWEL Wasserbau) | **GELÖST Run 54, 2026-07-20** — `ms:ogd-0044_giszhpub_wb_syn_gk_f` (synoptische Gefahrenkarte 44.13) + `_wb_hw_gk_f` (Hochwasser 44.2) + `_wb_mb_gk_f` (Massenbewegungen 44.7); im Connector als `--produkt naturgefahren`. Details Abschnitt 8a | login-frei |
+| **Alle CH (privat)** | `schutz-vor-naturgefahren.ch` | Adressgenauer "Naturgefahren-Check" (Eigentümer/Architekten-Ansicht) + generische Gebäudeschutz-Empfehlungen je Bauteilgruppe (Dach/Fassade, Innenraum, Technik, Tragstruktur, Öffnungen/Zugaenge, Umgebung) x Naturgefahr (Hochwasser, Rutschung, Hagel, Schnee, Erdbeben, ...) | login-frei |
 
 **Historischer WebGIS-Direktlink** (Reckholdernstrasse 20, Willerzell, Zentrumskoordinate
 E=2'703'371 N=1'222'906, EPSG:2056) — bis Run 54 der einzige bekannte Zugriffsweg, jetzt durch den
-REST-Endpunkt in Abschnitt 8c abgeloest, bleibt als manuelle Kartenansicht nuetzlich:
+REST-Endpunkt in Abschnitt 8c abgelöst, bleibt als manuelle Kartenansicht nützlich:
 ```
 https://map.geo.sz.ch/?lang=de&baselayer_ref=Landeskarte grau (aktuell)
   &tree_groups=grp_Naturrisiken_Naturgefahrenkarte_V2
@@ -123,131 +123,131 @@ https://map.geo.sz.ch/?lang=de&baselayer_ref=Landeskarte grau (aktuell)
 ## 4. Reale Anwendung: Objektschutzkonzept Reckholdern 20 (2023)
 
 Auftrag: "Welche Objektschutzmassnahmen hat die Situation zur Folge?" — Parzelle Reckholdernstrasse
-20, 8846 Willerzell. Ausgangslage laut Naturgefahrenkarte: **mittlere Gefaehrdung** (Rutschung) im
-Osten der Parzelle, **geringe Gefaehrdung** im Westen, hangaufwaerts Richtung Nordost ein Hang mit
-**erheblicher Gefaehrdung**. Eine einzelne Parzelle kann also mehrere Gefahrenstufen gleichzeitig
-tragen — die Karte ist **flaechenscharf**, nicht parzellenscharf im Sinn "eine Stufe pro Grundstueck".
+20, 8846 Willerzell. Ausgangslage laut Naturgefahrenkarte: **mittlere Gefährdung** (Rutschung) im
+Osten der Parzelle, **geringe Gefährdung** im Westen, hangaufwärts Richtung Nordost ein Hang mit
+**erheblicher Gefährdung**. Eine einzelne Parzelle kann also mehrere Gefahrenstufen gleichzeitig
+tragen — die Karte ist **flächenscharf**, nicht parzellenscharf im Sinn "eine Stufe pro Grundstück".
 
 Vorgehen laut Konzept:
-1. Amtliche Gefahrenkarte + Ausgangslage-Beschrieb (Amt fuer Wald und Natur SZ als zustaendige
+1. Amtliche Gefahrenkarte + Ausgangslage-Beschrieb (Amt für Wald und Natur SZ als zuständige
    Fachstelle).
-2. **Empfehlungen Gebaeudeschutz** via `schutz-vor-naturgefahren.ch/bauherr` — Online-Filter nach
-   Bauteilgruppe x Naturgefahr, liefert konkrete Massnahmen ("Schutzhoehe definieren",
-   "Oberflaechenabfluss verifizieren", "Terraingestaltung: Wasserabfluss vom Gebaeude wegfuehrend
+2. **Empfehlungen Gebäudeschutz** via `schutz-vor-naturgefahren.ch/bauherr` — Online-Filter nach
+   Bauteilgruppe x Naturgefahr, liefert konkrete Massnahmen ("Schutzhöhe definieren",
+   "Oberflächenabfluss verifizieren", "Terraingestaltung: Wasserabfluss vom Gebäude wegführend
    planen").
-3. **Checkliste Gebaeudeschutzmassnahmen** (2-Schritt-Formular): Schritt 1 "Was kann passieren?"
-   (Gefaehrdung je Naturgefahr durch Architekt/Ingenieur vor Ort abklaeren) → Schritt 2 "Welche
-   Schutzmassnahmen?" (vier Ebenen: **planerisch** [Gebaeudehuelle/Tragwerk schadenarm], **technisch**
-   [z.B. automatisches Schott, Windwaechter], **Materialwahl** [robuste Produkte], **organisatorisch**
+3. **Checkliste Gebäudeschutzmassnahmen** (2-Schritt-Formular): Schritt 1 "Was kann passieren?"
+   (Gefährdung je Naturgefahr durch Architekt/Ingenieur vor Ort abklären) → Schritt 2 "Welche
+   Schutzmassnahmen?" (vier Ebenen: **planerisch** [Gebäudehülle/Tragwerk schadenarm], **technisch**
+   [z.B. automatisches Schott, Windwächter], **Materialwahl** [robuste Produkte], **organisatorisch**
    [Verhaltensregeln, Alarmorganisation]).
 4. Fachplaner-Zuzug: Gutachter/Unternehmer/Fachplaner/Geologe/Statiker/Foerster je nach Prozess.
 
-### 3b. Checkliste im Detail (vollstaendig gelesen, Run 24 2026-07-13)
+### 3b. Checkliste im Detail (vollständig gelesen, Run 24 2026-07-13)
 
-Herausgeber: **VKG (Vereinigung Kantonaler Gebaeudeversicherungen), SIA, HEV Schweiz, ASA/SVV
+Herausgeber: **VKG (Vereinigung Kantonaler Gebäudeversicherungen), SIA, HEV Schweiz, ASA/SVV
 (Schweizerischer Versicherungsverband), Kantonalbank, Schweizerischer Gemeindeverband** —
-Dezember 2020, `27_Checkliste_SvN_D.pdf`. Ist ein **ausfuellbares Formular** (Grundstueck/
+Dezember 2020, `27_Checkliste_SvN_D.pdf`. Ist ein **ausfüllbares Formular** (Grundstück/
 Bauherrschaft/Architekt-Planer als Kopfzeile), gedacht zur gemeinsamen Bearbeitung durch Bauherr +
 Architekt/Ingenieur — passt als Vorlage direkt in ein JANS-Vorprojekt-Pflichtenheft.
 
-**Schritt 1 — Gefaehrdungsabklaerung je Naturgefahr, mit konkreter Quellenzuordnung:**
+**Schritt 1 — Gefährdungsabklärung je Naturgefahr, mit konkreter Quellenzuordnung:**
 
-| Naturgefahr | Abzuklaeren gemaess |
+| Naturgefahr | Abzuklären gemäss |
 |---|---|
 | Sturm | Norm SIA 261 |
-| Hagel | Norm SIA 261/1 + VKF-Karten «Hagelgefaehrdung in der Schweiz» |
+| Hagel | Norm SIA 261/1 + VKF-Karten «Hagelgefährdung in der Schweiz» |
 | Hochwasser | kantonale Gefahrenkarte Hochwasser |
-| Starker Regen/Oberflaechenabfluss | kantonale Gefahrenkarte Hochwasser bzw. Gefaehrdungskarte Oberflaechenabfluss + Erfahrungswerte Anwohner/Gemeinde |
+| Starker Regen/Oberflaechenabfluss | kantonale Gefahrenkarte Hochwasser bzw. Gefährdungskarte Oberflächenabfluss + Erfahrungswerte Anwohner/Gemeinde |
 | Schneedruck/Schneerutsch | Normen SIA 261 und SIA 261/1 |
 | Erdrutsch/Lawinen/Murgang/Steinschlag | kantonale Gefahrenkarte + Erfahrungswerte Anwohner/Gemeinde |
-| Erdbeben | **SIA 261 bei Neubau, SIA 269/8 bei Umbau** (Erdbebenertuechtigung Bestand — eigene Norm, nicht identisch mit der Neubau-Norm!) |
-| Radon | Radonkarte des Bundesamts fuer Gesundheit (BAG) |
+| Erdbeben | **SIA 261 bei Neubau, SIA 269/8 bei Umbau** (Erdbebenertüchtigung Bestand — eigene Norm, nicht identisch mit der Neubau-Norm!) |
+| Radon | Radonkarte des Bundesamts für Gesundheit (BAG) |
 
-> **Praezisierung gegenueber §5 (Schutzziele-Tabelle):** die dortige Schutzziel-Tabelle nennt fuer
+> **Präzisierung gegenüber §5 (Schutzziele-Tabelle):** die dortige Schutzziel-Tabelle nennt für
 > Erdbeben pauschal «SIA 261»; die Checkliste unterscheidet **Neubau (SIA 261) vs. Umbau (SIA
-> 269/8)** — bei Sanierungs-/Umbauprojekten (JANS-Kerngeschaeft) ist **SIA 269/8** die massgebende
-> Erdbeben-Ertuechtigungsnorm, nicht SIA 261.
+> 269/8)** — bei Sanierungs-/Umbauprojekten (JANS-Kerngeschäft) ist **SIA 269/8** die massgebende
+> Erdbeben-Ertüchtigungsnorm, nicht SIA 261.
 
-**Schritt 2 — Bauteilkatalog-Prinzip:** die Checkliste fuehrt einen «**Bauteilkatalog**»-Gedanken:
-fuer viele Bauteile (Ziegel, Kunststoffplatten/Lichtdurchlaesse, etc.) gibt es sowohl schadenanfaellige
-als auch robuste Produktvarianten — die Wahl der Ausfuehrung entscheidet, ob das SIA-Schutzziel
-tatsaechlich erreicht wird. Zwei Konkretisierungen mit direktem Marktbezug:
-- **Hagel:** Verwendung hagelgeprueft er Bauteile gemaess **Hagelregister** (`www.hagelregister.ch`);
-  Empfehlung: Gebaeudehuelle soll mindestens **Hagelwiderstand HW3** aufweisen (deckungsgleich mit
-  der HW3-Empfehlung in [[energie-pv-brandschutz]] fuer PV-Module — dieselbe Kennzahl, zwei
-  Anwendungsfaelle).
-- **Sturm:** z. B. Tonziegel sind hagelrobust, muessen aber gegen Sturm zusaetzlich **mit Klammern
+**Schritt 2 — Bauteilkatalog-Prinzip:** die Checkliste führt einen «**Bauteilkatalog**»-Gedanken:
+für viele Bauteile (Ziegel, Kunststoffplatten/Lichtdurchlaesse, etc.) gibt es sowohl schadenanfällige
+als auch robuste Produktvarianten — die Wahl der Ausführung entscheidet, ob das SIA-Schutzziel
+tatsächlich erreicht wird. Zwei Konkretisierungen mit direktem Marktbezug:
+- **Hagel:** Verwendung hagelgeprüft er Bauteile gemäss **Hagelregister** (`www.hagelregister.ch`);
+  Empfehlung: Gebäudehülle soll mindestens **Hagelwiderstand HW3** aufweisen (deckungsgleich mit
+  der HW3-Empfehlung in [[energie-pv-brandschutz]] für PV-Module — dieselbe Kennzahl, zwei
+  Anwendungsfälle).
+- **Sturm:** z. B. Tonziegel sind hagelrobust, müssen aber gegen Sturm zusätzlich **mit Klammern
   am Dachrand befestigt** werden — Robustheit gegen eine Naturgefahr heisst nicht automatisch
   Robustheit gegen alle.
 
-### 3c. Bauteilkatalog S. 7–12 vollstaendig (Run 51, 2026-07-18)
+### 3c. Bauteilkatalog S. 7–12 vollständig (Run 51, 2026-07-18)
 
 Die Checkliste `27_Checkliste_SvN_D.pdf` (Dez. 2020) war bis Run 50 nur S. 1–6 gelesen; der
 eigentliche **Bauteilkatalog S. 7–12** (Matrix Bauteil × Naturgefahr Sturm/Hagel/Schnee/
-Ueberschwemmung, je mit «Bei der Planung beruecksichtigen» + «Hinweise fuer Unterhalt/Betrieb»)
+Überschwemmung, je mit «Bei der Planung berücksichtigen» + «Hinweise für Unterhalt/Betrieb»)
 war die letzte offene K41-Datei und ist jetzt volltextlich erschlossen. Die JANS-relevanten
 Kernanweisungen, konsolidiert nach Bauteilgruppe:
 
 | Bauteilgruppe | Massgebende Planungsanweisung (belegt S. 6–12) |
 |---|---|
-| **Dach — Ziegel** | Sturmklammern am Dachrand; Unterdach/geschlossene Schalung im Vordachbereich; hagelgepruefte Ziegel; **Punktlasten durch Aufbauten vermeiden**; Verschraubung durch Fachperson auf Sturmfestigkeit nach SIA pruefen |
-| **Dach — Flachdach (Kunststoff/Bitumen)** | Aufkantungen durch Blechverwahrungen oder Kiesbedeckung vor Sonne/Schneedruck/Hagel schuetzen (sonst schnellere Alterung als die Flaeche); hagelgepruefte Folien |
-| **Lichtdurchlaesse (Lichtkuppel/Kunststoffplatten PC/PMMA)** | **Widerstandsfaehigkeit sinkt je nach Material schon nach 5 Jahren um bis zu 80 %** → nicht-alternde Elemente (**Glas**) verwenden oder Schutzgitter anbringen; hagelgepruefte Produkte |
-| **Fassade — Putz auf Aussenwaermedaemmung** | hagelgepruefte Produkte; im **Ueberschwemmungsbereich** wasserfeste Daemmstoffe + geeigneter Systemaufbau (**Betonsockel hochziehen**) |
-| **Fassade — Holz** | widerstandsfaehige **Dickschicht-Beschichtung** oder Metallprofil-Schutz; im Ueberschwemmungsbereich **kein lackiertes Holz**, Betonsockel hochziehen; Duennschichtlasuren vermeiden |
-| **Sonnenschutz (Rollladen/Lamellenstoren/Markisen)** | **hoechste Sturmwiderstandsklasse nach SIA 342**; geschuetzt in Fensterleibung einbauen; **automatischer Einzug bei drohendem Unwetter** (Zentralsteuerung, z.B. «Hagelschutz – einfach automatisch»); **Markise ist Sonnen-, kein Wetterschutz** (Eingaenge nicht durch Markisen schuetzen) |
-| **Aufbauten Energiegewinnung (Solar/PV)** | Befestigung/Unterkonstruktion durch Fachperson auf Tragfaehigkeit nach SIA pruefen; hagelgepruefte Module; Schneerutschsicherungen + Schutz vor Schneelasten durch Windverwehung/Gleiten; **Lasten direkt ins Tragwerk, nicht auf die Dachhaut** leiten (erhoehte Punktlasten beruecksichtigen); in erhoehten Lagen nur gepruefte Konstruktionen (**Schneedruckregister**) |
+| **Dach — Ziegel** | Sturmklammern am Dachrand; Unterdach/geschlossene Schalung im Vordachbereich; hagelgeprüfte Ziegel; **Punktlasten durch Aufbauten vermeiden**; Verschraubung durch Fachperson auf Sturmfestigkeit nach SIA prüfen |
+| **Dach — Flachdach (Kunststoff/Bitumen)** | Aufkantungen durch Blechverwahrungen oder Kiesbedeckung vor Sonne/Schneedruck/Hagel schützen (sonst schnellere Alterung als die Fläche); hagelgeprüfte Folien |
+| **Lichtdurchlässe (Lichtkuppel/Kunststoffplatten PC/PMMA)** | **Widerstandsfähigkeit sinkt je nach Material schon nach 5 Jahren um bis zu 80 %** → nicht-alternde Elemente (**Glas**) verwenden oder Schutzgitter anbringen; hagelgeprüfte Produkte |
+| **Fassade — Putz auf Aussenwärmedämmung** | hagelgeprüfte Produkte; im **Überschwemmungsbereich** wasserfeste Dämmstoffe + geeigneter Systemaufbau (**Betonsockel hochziehen**) |
+| **Fassade — Holz** | widerstandsfähige **Dickschicht-Beschichtung** oder Metallprofil-Schutz; im Überschwemmungsbereich **kein lackiertes Holz**, Betonsockel hochziehen; Dünnschichtlasuren vermeiden |
+| **Sonnenschutz (Rollladen/Lamellenstoren/Markisen)** | **höchste Sturmwiderstandsklasse nach SIA 342**; geschützt in Fensterleibung einbauen; **automatischer Einzug bei drohendem Unwetter** (Zentralsteuerung, z.B. «Hagelschutz – einfach automatisch»); **Markise ist Sonnen-, kein Wetterschutz** (Eingänge nicht durch Markisen schützen) |
+| **Aufbauten Energiegewinnung (Solar/PV)** | Befestigung/Unterkonstruktion durch Fachperson auf Tragfähigkeit nach SIA prüfen; hagelgeprüfte Module; Schneerutschsicherungen + Schutz vor Schneelasten durch Windverwehung/Gleiten; **Lasten direkt ins Tragwerk, nicht auf die Dachhaut** leiten (erhöhte Punktlasten berücksichtigen); in erhöhten Lagen nur geprüfte Konstruktionen (**Schneedruckregister**) |
 | **Installationen — Bleche/Spenglerarbeit** | Empfehlungen **Suissetec-Merkblatt «Hagelresistentes Bauen bei Spenglerarbeiten und Metalldeckungen»** beachten (mehrfach als massgebende Fachquelle genannt) |
-| **Oeffnungen/Fenster** | **Grundsatz: im Ueberschwemmungsbereich keine Fenster planen**; Lichtschaechte **erhoehen und abdichten**; Fenster in Lichtschaechten nach Wasserdruck dimensionieren |
+| **Öffnungen/Fenster** | **Grundsatz: im Überschwemmungsbereich keine Fenster planen**; Lichtschächte **erhöhen und abdichten**; Fenster in Lichtschächten nach Wasserdruck dimensionieren |
 
-**JANS-Merksatz:** der Bauteilkatalog ist die konkrete Uebersetzung der abstrakten SIA-261/261-1-
+**JANS-Merksatz:** der Bauteilkatalog ist die konkrete Übersetzung der abstrakten SIA-261/261-1-
 Schutzziele (§5) in **Ausschreibungs-/Devis-taugliche Produktanforderungen** — Hagelwiderstand HW3
-([[energie-pv-brandschutz]]), Sturmwiderstandsklasse SIA 342 fuer Sonnenschutz, Suissetec-Merkblatt
-fuer Spenglerarbeiten, Betonsockel-Hochzug im Ueberschwemmungsbereich. Bei Objektschutzkonzepten
-(wie Reckholdern, §4) liefert er die Formulierung fuer die «gewaehlten Schutzmassnahmen» je Gefahr.
-Damit ist die K41-Datei `27_Checkliste_SvN_D.pdf` vollstaendig ausgewertet (kein offenes Kapitel).
+([[energie-pv-brandschutz]]), Sturmwiderstandsklasse SIA 342 für Sonnenschutz, Suissetec-Merkblatt
+für Spenglerarbeiten, Betonsockel-Hochzug im Überschwemmungsbereich. Bei Objektschutzkonzepten
+(wie Reckholdern, §4) liefert er die Formulierung für die «gewählten Schutzmassnahmen» je Gefahr.
+Damit ist die K41-Datei `27_Checkliste_SvN_D.pdf` vollständig ausgewertet (kein offenes Kapitel).
 
 ## 5. Schutzziele nach SIA 261/261-1 (Kurzreferenz)
 
-Fuer Neubauten/Anbauten definieren SIA 261 und SIA 261/1 die konkreten Schutzziele je Naturgefahr
+Für Neubauten/Anbauten definieren SIA 261 und SIA 261/1 die konkreten Schutzziele je Naturgefahr
 (Quelle: schutz-vor-naturgefahren.ch Checkliste S. 2). Norm-Tiefe → Skill `baurecht`/`brandschutz`;
-hier nur die planungsrelevante Groessenordnung:
+hier nur die planungsrelevante Grössenordnung:
 
 | Naturgefahr | Schutzziel (Kurzform) |
 |---|---|
-| Hochwasser/Oberflaechenabfluss | Gebaeude bleibt bis zum **300-jaehrlichen** Ereignis intakt, UG trocken, schwimmt nicht auf |
-| Sturm | Widerstand bis zum **50-jaehrlichen** Wind, keine abgerissenen Bauteile |
-| Hagel | Bis zum **50-jaehrlichen** Hagel keine Schaeden an Fassade/Dach/Solaranlagen (Hagelwiderstand HW3 empfohlen — Querverweis [[energie-pv-brandschutz]]) |
-| Schnee | Dach/Aussenwaende/Vordaecher/Solaranlagen halten dem **50-jaehrlichen** Schnee stand |
-| Erdbeben | Gebaeude schuetzt die Personen bis zum **475-jaehrlichen** Erdbeben |
-| Rutschung/Murgang/Steinschlag/Lawine | Gebaeude bleibt auch bei **300-jaehrlichen** Ereignissen intakt und schuetzt die Personen |
+| Hochwasser/Oberflaechenabfluss | Gebäude bleibt bis zum **300-jährlichen** Ereignis intakt, UG trocken, schwimmt nicht auf |
+| Sturm | Widerstand bis zum **50-jährlichen** Wind, keine abgerissenen Bauteile |
+| Hagel | Bis zum **50-jährlichen** Hagel keine Schäden an Fassade/Dach/Solaranlagen (Hagelwiderstand HW3 empfohlen — Querverweis [[energie-pv-brandschutz]]) |
+| Schnee | Dach/Aussenwaende/Vordaecher/Solaranlagen halten dem **50-jährlichen** Schnee stand |
+| Erdbeben | Gebäude schützt die Personen bis zum **475-jährlichen** Erdbeben |
+| Rutschung/Murgang/Steinschlag/Lawine | Gebäude bleibt auch bei **300-jährlichen** Ereignissen intakt und schützt die Personen |
 
-Merksatz zur Jaehrlichkeit: ein "300-jaehrliches" Ereignis hat pro Jahr 0.33 % Eintretens-
-wahrscheinlichkeit — ueber eine typische 50-jaehrige Gebaeudelebensdauer aber **15 %** kumulierte
-Wahrscheinlichkeit (≈ eine 6 in einem Wurf). Seltene Naturgefahren duerfen deshalb bei
-Healthcare-/langlebigen Bauten nicht unterschaetzt werden.
+Merksatz zur Jährlichkeit: ein "300-jährliches" Ereignis hat pro Jahr 0.33 % Eintretens-
+wahrscheinlichkeit — über eine typische 50-jährige Gebäudelebensdauer aber **15 %** kumulierte
+Wahrscheinlichkeit (≈ eine 6 in einem Wurf). Seltene Naturgefahren dürfen deshalb bei
+Healthcare-/langlebigen Bauten nicht unterschätzt werden.
 
-## 6. Grundwasserkarte als ergaenzende Planungsgrundlage (Run 24, 2026-07-13)
+## 6. Grundwasserkarte als ergänzende Planungsgrundlage (Run 24, 2026-07-13)
 
 Bisher unbearbeitete Quelle im selben Ordner: `Objektschutz/Reckholdern/
-Grundwasserkarte_mapgeoszch.pdf` (WebGIS Kt. SZ, Amt fuer Geoinformation AGI, Massstab 1:2'000,
-Stand 22.11.2023). Zeigt fuer dieselbe Parzelle Reckholdernstrasse 20 zusaetzlich zur
+Grundwasserkarte_mapgeoszch.pdf` (WebGIS Kt. SZ, Amt für Geoinformation AGI, Massstab 1:2'000,
+Stand 22.11.2023). Zeigt für dieselbe Parzelle Reckholdernstrasse 20 zusätzlich zur
 Naturgefahrenkarte die **Grundwasserkarte Mittelwasserstand**: Isohypsen, Fliessrichtung
-(nachgewiesen/vermutet), Maechtigkeitsklassen des Grundwasserleiters (< 2 m / 2-10 m / 10-20 m /
-> 20 m), Gebiete geringer Durchlaessigkeit, gespanntes Grundwasservorkommen/tieferes
+(nachgewiesen/vermutet), Mächtigkeitsklassen des Grundwasserleiters (< 2 m / 2-10 m / 10-20 m /
+> 20 m), Gebiete geringer Durchlässigkeit, gespanntes Grundwasservorkommen/tieferes
 Grundwasserstockwerk, Vorfluter/Infiltrant.
 
-**Praxisrelevanz fuer JANS:** die Grundwasserkarte ist eine **eigenstaendige, vom Naturgefahren-
-/Baulinien-Layer unabhaengige Planungsgrundlage**, die bei jedem Neubau mit **Unterkellerung/
-Untergeschoss** zu pruefen ist — sie entscheidet ueber die Notwendigkeit einer **Weissen Wanne**
-(wasserundurchlaessige Betonkonstruktion) vs. einer einfachen Abdichtung gegen nicht druckendes
+**Praxisrelevanz für JANS:** die Grundwasserkarte ist eine **eigenständige, vom Naturgefahren-
+/Baulinien-Layer unabhängige Planungsgrundlage**, die bei jedem Neubau mit **Unterkellerung/
+Untergeschoss** zu prüfen ist — sie entscheidet über die Notwendigkeit einer **Weissen Wanne**
+(wasserundurchlässige Betonkonstruktion) vs. einer einfachen Abdichtung gegen nicht druckendes
 Wasser. Der übliche rechtliche Vorbehalt gilt auch hier: **nur informativer Charakter**, keine
-rechtsverbindliche Auskunft — verbindlich ist die zustaendige Fachstelle (Amt fuer Geoinformation
+rechtsverbindliche Auskunft — verbindlich ist die zuständige Fachstelle (Amt für Geoinformation
 AGI Kt. SZ).
 
-**ZH-Pendant GEFUNDEN (Run 55, 2026-07-21):** `maps.zh.ch/wfs/OGDZHWFS` fuehrt unter Datensatz
-**0327** die **Grundwasser-Isohypsen** als eigenstaendigen, von den bereits dokumentierten
-Grundwasserschutzzonen (§8b, Datensatz 0143/0149) unabhaengigen Layer — dieselbe informative
+**ZH-Pendant GEFUNDEN (Run 55, 2026-07-21):** `maps.zh.ch/wfs/OGDZHWFS` führt unter Datensatz
+**0327** die **Grundwasser-Isohypsen** als eigenständigen, von den bereits dokumentierten
+Grundwasserschutzzonen (§8b, Datensatz 0143/0149) unabhängigen Layer — dieselbe informative
 Aquifer-Ebene wie die SZ-Grundwasserkarte oben, nicht die rechtliche Schutzzonen-Ebene:
 
 | Zweck | Typname |
@@ -258,135 +258,135 @@ Aquifer-Ebene wie die SZ-Grundwasserkarte oben, nicht die rechtliche Schutzzonen
 
 Live `GetFeature` an der bereits bekannten Grundwasserschutzzonen-Benchmark-Parzelle **Hardau 24,
 8408 Winterthur** (±200 m um E=2'693'598/N=1'263'249) liefert 3 Isohypsenlinien mit Attribut
-`label` = Kote in m ü. M. (397/398/399) — der Layer ist gefuellt und funktionsfaehig, aber noch
+`label` = Kote in m ü. M. (397/398/399) — der Layer ist gefüllt und funktionsfähig, aber noch
 **nicht** als Connector-Produkt gebaut (nur der Live-Test, kein `--produkt grundwasserkarte`
-in `geo-zh.mjs`). Attribute zusaetzlich `linientyp`, `created`/`edited`/`editedby`
-(Nachfuehrungsdatum je Linie — nuetzlich fuer eine Datenstand-Angabe im Bericht). Status
+in `geo-zh.mjs`). Attribute zusätzlich `linientyp`, `created`/`edited`/`editedby`
+(Nachführungsdatum je Linie — nützlich für eine Datenstand-Angabe im Bericht). Status
 `emerging`: Endpunkt live verifiziert, aber noch nicht produktiv im Connector verdrahtet — das ist
-die naheliegende Anschlussaufgabe fuer den naechsten Kartenportale-Run (Analogie zu §8a/§8b: erst
+die naheliegende Anschlussaufgabe für den nächsten Kartenportale-Run (Analogie zu §8a/§8b: erst
 Positiv-Benchmark, dann Connector-Feature, dann `established`).
 
-## 6b. Gewaesser-Oekomorphologie als mitgelieferte Planungsgrundlage (Run 27, 2026-07-13)
+## 6b. Gewässer-Ökomorphologie als mitgelieferte Planungsgrundlage (Run 27, 2026-07-13)
 
 Derselbe Kartenexport (`ökomorpho_Fliesgewässer.pdf`, WebGIS Kt. SZ, 22.11.2023 10:44 — gleiche
 Zentrumskoordinaten E=2'703'221/N=1'222'915 wie die Grundwasserkarte oben, offenbar derselbe
-Druckauftrag mit zusaetzlich aktiviertem Themenlayer) liefert die Legende der **oekomorphologischen
-Klassifizierung von Fliessgewaessern** — sechsstufig:
+Druckauftrag mit zusätzlich aktiviertem Themenlayer) liefert die Legende der **ökomorphologischen
+Klassifizierung von Fliessgewässern** — sechsstufig:
 
-- **natuerlich, naturnah**
-- **wenig beeintraechtigt**
-- **stark beeintraechtigt**
-- **naturfremd, kuenstlich**
+- **natürlich, naturnah**
+- **wenig beeinträchtigt**
+- **stark beeinträchtigt**
+- **naturfremd, künstlich**
 - **eingedolt**
 - **nicht bestimmt**
 
-**Praxisrelevanz:** diese Klassifizierung ist die Kt.-SZ-Entsprechung zur bereits fuer Kt. ZH
-dokumentierten Karte «Gewaesser-Oekomorphologie» (gis.zh.ch, Thema Wasser), aus der die
-**natuerliche Gerinnesohlenbreite (GSB) und Breitenvariabilitaet** fuer die Gewaesserraum-Bemessung
+**Praxisrelevanz:** diese Klassifizierung ist die Kt.-SZ-Entsprechung zur bereits für Kt. ZH
+dokumentierten Karte «Gewässer-Ökomorphologie» (gis.zh.ch, Thema Wasser), aus der die
+**natürliche Gerinnesohlenbreite (GSB) und Breitenvariabilität** für die Gewässerraum-Bemessung
 nach GSchV Art. 41a/41b abgelesen werden (→ [[recht-norm-abstandsvorschriften-wald-gewaesser]]
-Abschnitt 3c/4). Ein stark beeintraechtigtes oder eingedoltes Gewaesser ist in der Regel ein
-Kandidat fuer eine **kuenftige Revitalisierung** (Art. 41a Abs. 3 GSchV: Gewaesserraum kann dafuer
-vergroessert werden) — bei der Baufeld-Abschaetzung als Unsicherheitsfaktor mitzudenken, wenn ein
-Gewaesser diese Klassifizierung traegt. Status `emerging`: der Layer ist im WebGIS Kt. SZ real
-belegt (Legende vollstaendig gelesen), aber die genaue Klassifizierung fuer eine konkrete Parzelle
+Abschnitt 3c/4). Ein stark beeinträchtigtes oder eingedoltes Gewässer ist in der Regel ein
+Kandidat für eine **künftige Revitalisierung** (Art. 41a Abs. 3 GSchV: Gewässerraum kann dafür
+vergrössert werden) — bei der Baufeld-Abschätzung als Unsicherheitsfaktor mitzudenken, wenn ein
+Gewässer diese Klassifizierung trägt. Status `emerging`: der Layer ist im WebGIS Kt. SZ real
+belegt (Legende vollständig gelesen), aber die genaue Klassifizierung für eine konkrete Parzelle
 wurde bisher nicht abgefragt (keine Attributwerte im Export sichtbar, nur die Legende).
 
-## 6c. Erdwaermenutzung als eigenstaendige Planungsgrundlage (Run 27, 2026-07-13)
+## 6c. Erdwärmenutzung als eigenständige Planungsgrundlage (Run 27, 2026-07-13)
 
 Dritter Kartenexport aus demselben Willerzell-WebGIS-Batch (`231122_Erdwaermenutzung.pdf`,
 WebGIS Kt. SZ, 22.11.2023 10:50, gleiche Zentrumskoordinaten E=2'703'221/N=1'222'915 wie
-Grundwasserkarte + Oekomorphologie oben). Der Layer **«Erdwaermenutzung»** zoniert eine Parzelle
-in drei Zulaessigkeitsstufen fuer Erdwaerme-Systeme:
+Grundwasserkarte + Ökomorphologie oben). Der Layer **«Erdwärmenutzung»** zoniert eine Parzelle
+in drei Zulässigkeitsstufen für Erdwärme-Systeme:
 
-- **zulaessig** (gruen)
-- **Abklaerung noetig** (gelb)
-- **nicht zulaessig** (rot) — typischerweise Grundwasserschutzzonen/-areale
+- **zulässig** (grün)
+- **Abklärung nötig** (gelb)
+- **nicht zulässig** (rot) — typischerweise Grundwasserschutzzonen/-areale
 
-Zusaetzlich zeigt der Layer punktuelle Bestandes-Erdwaermenutzungen mit eigener Symbolik:
-**Erdregister**, **Energiekorb**, **Energiepfahl**, **Erdwaermesonde** sowie separat markiert
-**Erdwaermesonde (nicht mehr bewilligungsfaehig)** — d.h. der Kanton fuehrt nicht nur eine
+Zusätzlich zeigt der Layer punktuelle Bestandes-Erdwärmenutzungen mit eigener Symbolik:
+**Erdregister**, **Energiekorb**, **Energiepfahl**, **Erdwärmesonde** sowie separat markiert
+**Erdwärmesonde (nicht mehr bewilligungsfähig)** — d.h. der Kanton führt nicht nur eine
 Eignungszonierung, sondern auch ein Bestandeskataster einzelner Anlagen inkl. Widerrufs-/
 Auslaufstatus.
 
-**Praxisrelevanz:** bevor eine Erdwaermesonde/Energiepfahl-Gruendung geplant wird, ist dieser
-Layer die erste Pruefstelle — analog zur Grundwasserkarte (Abschnitt 6) fuer den Weisse-Wanne-
-Entscheid, hier aber fuer die Heizungs-/Energiekonzept-Wahl. Eine "gelb" oder "rot" gezonte
-Parzelle bedeutet fruehzeitigen Kontakt mit dem Amt fuer Umweltschutz/Amt fuer Geoinformation,
-bevor die Haustechnikplanung auf Erdwaerme festgelegt wird.
+**Praxisrelevanz:** bevor eine Erdwärmesonde/Energiepfahl-Gruendung geplant wird, ist dieser
+Layer die erste Prüfstelle — analog zur Grundwasserkarte (Abschnitt 6) für den Weisse-Wanne-
+Entscheid, hier aber für die Heizungs-/Energiekonzept-Wahl. Eine "gelb" oder "rot" gezonte
+Parzelle bedeutet frühzeitigen Kontakt mit dem Amt für Umweltschutz/Amt für Geoinformation,
+bevor die Haustechnikplanung auf Erdwärme festgelegt wird.
 
-**Querbezug KB energie** (Bewilligungsverfahren, Kosten, Systemwahl): Flaechenkollektor/
-Erdwaermekorb/Energiepfahl vs. Sonde, ZH-Zusatzformular «Oberflaechennahe Erdwaerme» (BVV Ziff.
-5.6.2) und Anergienetz/kalte Fernwaerme in `wissen/energie/wiki/BAUHERREN-FAQ.md` F108/F110/F109.
-Rollenteilung: planungsgrundlagen haelt die beschaffbare Eignungsgrundlage (GIS-Layer), energie
+**Querbezug KB energie** (Bewilligungsverfahren, Kosten, Systemwahl): Flächenkollektor/
+Erdwärmekorb/Energiepfahl vs. Sonde, ZH-Zusatzformular «Oberflächennahe Erdwärme» (BVV Ziff.
+5.6.2) und Anergienetz/kalte Fernwärme in `wissen/energie/wiki/BAUHERREN-FAQ.md` F108/F110/F109.
+Rollenteilung: planungsgrundlagen hält die beschaffbare Eignungsgrundlage (GIS-Layer), energie
 die Physik/das Verfahren/die Kennwerte.
 
-**Status `emerging`:** Legende + Zonierungslogik vollstaendig belegt (Original gelesen), aber
+**Status `emerging`:** Legende + Zonierungslogik vollständig belegt (Original gelesen), aber
 kein ZH-Vergleichslayer gepruft und kein Connector-Zugriff getestet (derselbe Beschaffungsweg
 wie Grundwasserkarte/Oekomorphologie — manueller WebGIS-Export Kt. SZ, kein bekannter REST-
-Endpunkt). Ergaenzt [[energie-pv-eignung-typenwahl]] thematisch (Energiekonzept-Vorabklaerung),
-kein Doppel — dort PV, hier Erdwaerme.
+Endpunkt). Ergänzt [[energie-pv-eignung-typenwahl]] thematisch (Energiekonzept-Vorabklärung),
+kein Doppel — dort PV, hier Erdwärme.
 
 ## 7. Rutschgebiete im Detail — Praxishilfe inggeol.ch (Run 25, 2026-07-13)
 
 Bisher unbearbeitete Quelle im selben Ordner (`Objektschutz/_schutz-vor-naturgefahren.ch/inggeol/`):
-**"Bauen im Rutschgebiet — Hinweise fuer Bauherrschaften und Baubehoerden"** (inggeol.ch —
+**"Bauen im Rutschgebiet — Hinweise für Bauherrschaften und Baubehörden"** (inggeol.ch —
 Ingenieurgeologie Schweiz, Arbeitsgruppe Geologie und Naturgefahren AGN-DNG, 1. September 2023,
-im Auftrag des BAFU/Abteilung Gefahrenpraevention). Vertieft den Prozess **Rutschung**, der in der
+im Auftrag des BAFU/Abteilung Gefahrenprävention). Vertieft den Prozess **Rutschung**, der in der
 Naturgefahrenkarte (Abschnitt 2-4 oben) nur als Gefahrenstufe erscheint, aber ohne dieses
-Hintergrundwissen fuer Nicht-Fachleute unterschaetzt wird.
+Hintergrundwissen für Nicht-Fachleute unterschätzt wird.
 
-**Kernbotschaft:** die Naturgefahrenkarte bildet nur den **ungestoerten, natuerlichen Zustand**
+**Kernbotschaft:** die Naturgefahrenkarte bildet nur den **ungestörten, natürlichen Zustand**
 ab (Rutschgeschwindigkeit ohne Bauvorhaben). Ein Bauvorhaben selbst — Baugrube, Aushubdepot,
-Wassereintrag — ist eine **Zustandsaenderung**, die eine seit Jahrzehnten scheinbar stabile
+Wassereintrag — ist eine **Zustandsänderung**, die eine seit Jahrzehnten scheinbar stabile
 Rutschung (auch in der **gelben** Gefahrenstufe!) aktivieren kann. Dieses baubedingte
-Gefahrenpotenzial ist **projektabhaengig und in der Karte nicht ersichtlich** — der haeufigste
-Grund, weshalb gerade das gelbe "geringe Risiko" in der Praxis unterschaetzt wird.
+Gefahrenpotenzial ist **projektabhängig und in der Karte nicht ersichtlich** — der häufigste
+Grund, weshalb gerade das gelbe "geringe Risiko" in der Praxis unterschätzt wird.
 
-- **Was ist eine Rutschung:** Bewegung entlang eines Gleithorizonts im Untergrund, Wasserverhaeltnisse
-  massgeblich; rund **6 % der Schweizer Landesflaeche** sind instabile Haenge (permanente
-  Rutschungen). Rutschungen sind nicht auf Steilhaenge beschraenkt — treten auch im Gelaende mit
-  10-15°, in Extremfaellen unter 10° Neigung auf; Flaeche wenige Aren bis mehrere km². Tiefe des
-  Gleithorizonts: flachgruendig (wenige Meter) / mittelgruendig (bis 10 m) / tiefgruendig
+- **Was ist eine Rutschung:** Bewegung entlang eines Gleithorizonts im Untergrund, Wasserverhältnisse
+  massgeblich; rund **6 % der Schweizer Landesfläche** sind instabile Hänge (permanente
+  Rutschungen). Rutschungen sind nicht auf Steilhänge beschränkt — treten auch im Gelände mit
+  10-15°, in Extremfällen unter 10° Neigung auf; Fläche wenige Aren bis mehrere km². Tiefe des
+  Gleithorizonts: flachgründig (wenige Meter) / mittelgründig (bis 10 m) / tiefgründig
   (Zehnermeter bis hunderte Meter) — die Naturgefahrenkarte macht dazu **keine Angaben**.
-- **Typische baubedingt ausgeloeste Rutschursachen:** (1) talseitiges Abgraben (z.B. Baugrube),
+- **Typische baubedingt ausgelöste Rutschursachen:** (1) talseitiges Abgraben (z.B. Baugrube),
   (2) hangseitige Auflasten (z.B. Aushubdepot), (3) Eintrag von Wasser in Untergrund/Gleitflaeche
-  (z.B. Abhumusieren, Drainagen, Lecks). Schaeden zunaechst meist Riss-/Setzungsbilder, im
-  fortschreitenden Fall Gebaeude-Verkippung/Unbewohnbarkeit; besonders tueckisch sind unsichtbare
-  Untergrundschaeden (z.B. eine reissende Wasserleitung, die ihrerseits eine Hangmure ausloesen kann).
-  Schadenfaelle haben fast immer ein **juristisches Nachspiel** — die rechtliche/versicherungs-
+  (z.B. Abhumusieren, Drainagen, Lecks). Schäden zunächst meist Riss-/Setzungsbilder, im
+  fortschreitenden Fall Gebäude-Verkippung/Unbewohnbarkeit; besonders tückisch sind unsichtbare
+  Untergrundschäden (z.B. eine reissende Wasserleitung, die ihrerseits eine Hangmure auslösen kann).
+  Schadenfälle haben fast immer ein **juristisches Nachspiel** — die rechtliche/versicherungs-
   technische Aufarbeitung ist oft aufwendiger als die eigentliche Sicherung.
 - **Massnahmen zur Risikominderung (Kap. 7, die praktisch wichtigste Stelle):**
-  - Fuer **Baubehoerden**: bei der Einzonung Bereiche mit speziellen Auflagen im Bau-/Zonenreglement
-    ausscheiden; Stabilitaetsnachweise + Ueberwachungskonzepte als auflagenrelevant definieren;
+  - Für **Baubehörden**: bei der Einzonung Bereiche mit speziellen Auflagen im Bau-/Zonenreglement
+    ausscheiden; Stabilitätsnachweise + Überwachungskonzepte als auflagenrelevant definieren;
     bei der Baubewilligung projektspezifische geologisch-geotechnische Baugrunduntersuchungen
-    verlangen; bei der Baueingabe ein Konzept fuer Ueberwachung/Kontrolle/Intervention waehrend
+    verlangen; bei der Baueingabe ein Konzept für Überwachung/Kontrolle/Intervention während
     der Bauphase einfordern.
-  - Fuer **Bauherrschaften/Planer**: umsichtige Planung unter Beizug ausgewiesener Fachpersonen
+  - Für **Bauherrschaften/Planer**: umsichtige Planung unter Beizug ausgewiesener Fachpersonen
     (Bauingenieure/Geotechniker/Geologen mit Rutschungserfahrung); detaillierte Baugrundkenntnisse
-    gestuetzt auf aussagekraeftige geologisch-geotechnische Untersuchungen; robuste Konzipierung/
-    Bemessung; adaequate Bauueberwachung gemaess Konzept.
-  - **Bewaehrte Rollenverteilung** (typisch): Architekturfirma/Generalunternehmung = Gesamtprojekt-
-    leitung + Bauleitung (verantwortlich fuer Bauueberwachung); Bauingenieurbuero = Projektplaene +
-    Sicherheitsnachweise (Projektverfasser), waehrend Bauphase geotechnische Fachbauleitung;
-    Geologiebuero = geologisch-geotechnische Grundlagen (Spezialist), waehrend Bauphase Beratung der
-    Bauleitung gemaess Aufgebot. **JANS-Praxisrelevanz:** in Rutschgebieten braucht das
-    Vorprojekt-Team zusaetzlich zum Bauingenieur ein **separates Geologiebuero** — nicht nur eine
+    gestützt auf aussagekräftige geologisch-geotechnische Untersuchungen; robuste Konzipierung/
+    Bemessung; adäquate Bauüberwachung gemäss Konzept.
+  - **Bewährte Rollenverteilung** (typisch): Architekturfirma/Generalunternehmung = Gesamtprojekt-
+    leitung + Bauleitung (verantwortlich für Bauüberwachung); Bauingenieurbüro = Projektpläne +
+    Sicherheitsnachweise (Projektverfasser), während Bauphase geotechnische Fachbauleitung;
+    Geologiebüro = geologisch-geotechnische Grundlagen (Spezialist), während Bauphase Beratung der
+    Bauleitung gemäss Aufgebot. **JANS-Praxisrelevanz:** in Rutschgebieten braucht das
+    Vorprojekt-Team zusätzlich zum Bauingenieur ein **separates Geologiebüro** — nicht nur eine
     Linienposition im Devis, sondern eine eigene Fachdisziplin mit eigenem Auftrag.
-- **Einordnung ZGB:** auch bei gutem Baugrund sind gewisse Immissionen/kleinere Schaeden
+- **Einordnung ZGB:** auch bei gutem Baugrund sind gewisse Immissionen/kleinere Schäden
   (lokale Setzungen) zumutbar hinzunehmen (ZGB-Nachbarrecht) — die Grenze zur haftungsrelevanten
-  Rutschungsausloesung liegt bei der Zustandsaenderung durch das Bauvorhaben selbst.
-- **Fallbeispiele (Anhang 1):** 3 positive (Neubau/Ueberbauung in rutschanfaelligem bzw.
-  tiefgruendigem Rutschhang mit fachgerechtem Vorgehen erfolgreich) + 3 negative (Baugrube loest
-  weitraeumige Rutschung/Hangdeformationen aus, forsches Bauvorgehen destabilisiert Rutschhang) —
-  belegen konkret, dass fachgerechtes Bauen in Rutschgebieten moeglich ist, aber Sorgfalt verlangt.
-- **Normen-Fundstellen** (Literaturverzeichnis Kap. 8): SN 505 267 Geotechnik + 267/1 Ergaenzende
-  Festlegungen, SN 505 261 Einwirkungen auf Tragwerke + 261/1, SN 670 305 Ueberwachung von
-  Bauwerken in nicht stabilem Gelaende (inkl. Beobachtungsinstrumente-Liste).
+  Rutschungsauslösung liegt bei der Zustandsänderung durch das Bauvorhaben selbst.
+- **Fallbeispiele (Anhang 1):** 3 positive (Neubau/Ueberbauung in rutschanfälligem bzw.
+  tiefgründigem Rutschhang mit fachgerechtem Vorgehen erfolgreich) + 3 negative (Baugrube löst
+  weiträumige Rutschung/Hangdeformationen aus, forsches Bauvorgehen destabilisiert Rutschhang) —
+  belegen konkret, dass fachgerechtes Bauen in Rutschgebieten möglich ist, aber Sorgfalt verlangt.
+- **Normen-Fundstellen** (Literaturverzeichnis Kap. 8): SN 505 267 Geotechnik + 267/1 Ergänzende
+  Festlegungen, SN 505 261 Einwirkungen auf Tragwerke + 261/1, SN 670 305 Überwachung von
+  Bauwerken in nicht stabilem Gelände (inkl. Beobachtungsinstrumente-Liste).
 
-**Anschluss an die Skills:** ergaenzt `machbarkeit`/`ankaufspruefung`/`behoerden-vorabklaerung` um
-eine konkrete Frueherkennungs-Frage bei Hanglagen: "Ist die Rutschgefahrenstufe (auch gelb!)
-gesetzt, UND veraendert das Bauvorhaben Topografie oder Wasserhaushalt des Hangs?" — bei Ja ist ein
-Geologiebuero fruehzeitig (Vorprojekt, nicht erst Baubewilligung) beizuziehen.
+**Anschluss an die Skills:** ergänzt `machbarkeit`/`ankaufspruefung`/`behoerden-vorabklaerung` um
+eine konkrete Früherkennungs-Frage bei Hanglagen: "Ist die Rutschgefahrenstufe (auch gelb!)
+gesetzt, UND verändert das Bauvorhaben Topografie oder Wasserhaushalt des Hangs?" — bei Ja ist ein
+Geologiebüro frühzeitig (Vorprojekt, nicht erst Baubewilligung) beizuziehen.
 
 ## 7b. ZH-Rechtsgrundlage Hochwassergefahrenkarte (GVZ/AWEL-Leitfaden, Run 37, 2026-07-14)
 
@@ -477,12 +477,12 @@ beantwortet hatte (Registerlücke, kein neuer Rechercheaufwand).
 
 ## 8. Offene Punkte
 
-- **ZH-Grundwasserschutzzonen-Endpunkt GELOEST (Run 33, 2026-07-13):** Das in
+- **ZH-Grundwasserschutzzonen-Endpunkt GELÖST (Run 33, 2026-07-13):** Das in
   Run 24 gemeldete `GetCapabilities`-Problem war **kein dauerhafter Ausfall**
   — ein erneuter Abruf von `https://maps.zh.ch/wfs/OGDZHWFS?service=WFS&
-  version=2.0.0&request=GetCapabilities` liefert diesmal ein vollstaendiges,
+  version=2.0.0&request=GetCapabilities` liefert diesmal ein vollständiges,
   14'503-zeiliges Capabilities-Dokument mit allen Layer-Namen. Stichwortsuche
-  darin ergibt die **rechtskraeftige Grundwasserschutzzone**:
+  darin ergibt die **rechtskräftige Grundwasserschutzzone**:
   `ms:ogd-0143_arv_basis_grundwasser_gws_zone_f` (Dataset 0143, + projektiert
   `_proj_f`) sowie das **Grundwasserschutzareal**:
   `ms:ogd-0149_arv_basis_grundwasser_gws_areal_f` (+ `awel_gs_gw_gws_areal_proj_f`).
@@ -494,38 +494,38 @@ beantwortet hatte (Registerlücke, kein neuer Rechercheaufwand).
   zone (plausibel, beide nicht in einem bekannten Grundwasserfassungsgebiet).
   **ERLEDIGT Run 54 (2026-07-20):** Positiv-Benchmark erbracht, Status
   **established**, Connector-Produkt gebaut — s. Abschnitt 8b.
-- **ZH-Endpunkt fuer Naturgefahrenkarte GELOEST (Run 54, 2026-07-20; Register-Nachtrag Run 57,
-  2026-07-23):** der Run-33-Befund (kein Treffer im OGD-WFS fuer die Stichworte "gefahr"/"hazard"/
+- **ZH-Endpunkt für Naturgefahrenkarte GELÖST (Run 54, 2026-07-20; Register-Nachtrag Run 57,
+  2026-07-23):** der Run-33-Befund (kein Treffer im OGD-WFS für die Stichworte "gefahr"/"hazard"/
   "naturgefahr") war korrekt, aber eine **Stichwort-**, keine Vollständigkeitssuche — die
   Gefahrenkarte liegt im selben `maps.zh.ch/wfs/OGDZHWFS`, nur unter der AWEL-Themengruppe 44
-  "Gewaesser/Wasserbau" statt unter einem Naturgefahren-Stichwort (der geratene login-pflichtige
+  "Gewässer/Wasserbau" statt unter einem Naturgefahren-Stichwort (der geratene login-pflichtige
   WMS-Pfad `maps.zh.ch/wms/NaturgefahrenZH` bleibt irrelevant/Sackgasse). Volle Herleitung,
   Layer-Liste, Attribute und Positiv-/Negativ-Benchmark: Abschnitt 8a. Dieser Punkt stand nach
   Run 54 noch drei Tage als "offen" im Register, obwohl Abschnitt 8a bereits die Lösung enthielt —
   reine Registerpflege-Lücke, kein neuer Rechercheaufwand in Run 57.
-- **SZ-Naturgefahren-Endpunkt GELOEST (Run 55, 2026-07-22):** war nur als manueller WebGIS-Link
-  bekannt — jetzt REST-faehig getestet und im Connector, s. Abschnitt 8c. Damit sind **beide**
+- **SZ-Naturgefahren-Endpunkt GELÖST (Run 55, 2026-07-22):** war nur als manueller WebGIS-Link
+  bekannt — jetzt REST-fähig getestet und im Connector, s. Abschnitt 8c. Damit sind **beide**
   Kantone (ZH Abschnitt 8a, SZ Abschnitt 8c) auf einen automatisierten Naturgefahren-Zugriff gebracht.
-- **SZ-Grundwasserschutz-Endpunkt GELOEST (Run 55, 2026-07-22):** S1/S2/S3-Zonen + Gewaesserschutz-
-  bereich Au + Schutzareal ueber `map.geo.sz.ch/mapserv_proxy` (a013a), Connector-Produkt
+- **SZ-Grundwasserschutz-Endpunkt GELÖST (Run 55, 2026-07-22):** S1/S2/S3-Zonen + Gewässerschutz-
+  bereich Au + Schutzareal über `map.geo.sz.ch/mapserv_proxy` (a013a), Connector-Produkt
   `geo-sz.mjs --produkt grundwasser` gebaut + verifiziert, s. Abschnitt 8d. Damit deckt auch der
   SZ-Connector das UG-relevante Grundlagenpaar (Naturgefahr + Grundwasserschutz) ab.
 - **ZH-Grundwasserisohypsen (informative Aquiferkarte) neu gefunden, noch nicht im Connector**
-  (Run 55) — s. Abschnitt 6, Status `emerging`. Naechster Schritt: `--produkt grundwasserkarte`
-  in `geo-zh.mjs` bauen (analog zu `--produkt grundwasser` fuer die Schutzzonen).
+  (Run 55) — s. Abschnitt 6, Status `emerging`. Nächster Schritt: `--produkt grundwasserkarte`
+  in `geo-zh.mjs` bauen (analog zu `--produkt grundwasser` für die Schutzzonen).
 
 ## 8a. ZH-Naturgefahrenkarte — Endpunkt gefunden und verifiziert (Run 54, 2026-07-20)
 
 **Der Fund.** Die ZH-Gefahrenkarte liegt im **bereits bekannten** `maps.zh.ch/wfs/OGDZHWFS` —
-kein neuer Dienst, kein Login. Sie war nur deshalb ueber fuenf Laeufe hinweg unauffindbar, weil
+kein neuer Dienst, kein Login. Sie war nur deshalb über fünf Läufe hinweg unauffindbar, weil
 alle bisherigen Suchen nach den Stichworten *naturgefahr* / *gefahr* / *hazard* im Layer-**Namen**
-filterten. Der Kanton fuehrt die Gefahrenkarte aber unter der **AWEL-Themengruppe 44 «Gewaesser/
-Wasserbau»**, weil Hochwasser der dominante Prozess ist. Ein Volltext-Grep ueber das gesamte
+filterten. Der Kanton führt die Gefahrenkarte aber unter der **AWEL-Themengruppe 44 «Gewässer/
+Wasserbau»**, weil Hochwasser der dominante Prozess ist. Ein Volltext-Grep über das gesamte
 `GetCapabilities` (801 KB, 516 Layer) statt einer Stichwort-Suche legte sie frei.
 
-> **Lehre fuer kuenftige Endpunkt-Suchen:** nicht nach dem Fach-Stichwort im Layer-Namen suchen,
-> sondern das GetCapabilities **vollstaendig** durchsuchen und die kantonale **Themengruppen-Logik**
-> mitdenken (wer ist fachlich zustaendig — hier AWEL Wasserbau, nicht ein «Naturgefahren»-Amt).
+> **Lehre für künftige Endpunkt-Suchen:** nicht nach dem Fach-Stichwort im Layer-Namen suchen,
+> sondern das GetCapabilities **vollständig** durchsuchen und die kantonale **Themengruppen-Logik**
+> mitdenken (wer ist fachlich zuständig — hier AWEL Wasserbau, nicht ein «Naturgefahren»-Amt).
 
 **Layer (alle login-frei, GeoJSON via `OUTPUTFORMAT=geojson`):**
 
@@ -534,56 +534,56 @@ Wasserbau»**, weil Hochwasser der dominante Prozess ist. Ein Volltext-Grep uebe
 | **Synoptische Gefahrenkarte** (Kombination aller Prozesse) — der Standardlayer | `ms:ogd-0044_giszhpub_wb_syn_gk_f` | 44.13 |
 | Gefahrenbereiche **Hochwasser** | `ms:ogd-0044_giszhpub_wb_hw_gk_f` | 44.2 |
 | Gefahrenbereiche **Massenbewegungen** (Rutschung) | `ms:ogd-0044_giszhpub_wb_mb_gk_f` | 44.7 |
-| Intensitaetsflaechen HW je Wiederkehrperiode | `…_wb_hw_ik30/100/300/1000_f` | — |
-| Intensitaetsflaechen MB (inkl. `_ikp_f` permanente Rutschungen) | `…_wb_mb_ik30/100/300_f` | — |
+| Intensitätsflächen HW je Wiederkehrperiode | `…_wb_hw_ik30/100/300/1000_f` | — |
+| Intensitätsflächen MB (inkl. `_ikp_f` permanente Rutschungen) | `…_wb_mb_ik30/100/300_f` | — |
 | **Kartierungsstand je Gemeinde** | `…_wb_gk_projektuebersicht_f` | 44.1 |
 
 **Attribute** (per `DescribeFeatureType` + realer Antwort verifiziert): `gefstufe` (Integer 1-4) und
-`gefstufe_txt`, zusaetzlich prozessgetrennt `gefstufe_hw`/`_txt` (Hochwasser) und `gefstufe_mb`/`_txt`
+`gefstufe_txt`, zusätzlich prozessgetrennt `gefstufe_hw`/`_txt` (Hochwasser) und `gefstufe_mb`/`_txt`
 (Massenbewegung). Die Stufenskala deckt sich exakt mit der in Abschnitt 2 dokumentierten
 CH-Systematik:
 
 | `gefstufe` | `gefstufe_txt` | Farbe |
 |---|---|---|
-| 1 | Restgefaehrdung | gelb-weiss |
-| 2 | geringe Gefaehrdung | gelb |
-| 3 | mittlere Gefaehrdung | blau |
-| 4 | erhebliche Gefaehrdung | rot |
+| 1 | Restgefährdung | gelb-weiss |
+| 2 | geringe Gefährdung | gelb |
+| 3 | mittlere Gefährdung | blau |
+| 4 | erhebliche Gefährdung | rot |
 
-**Eigenstaendig verifiziert 2026-07-20** (nicht nur Layer-Existenz): `GetFeature` ueber ein
-10x10-km-Fenster Langnau/Adliswil lieferte 200 Flaechen mit der vollstaendigen Stufenverteilung
+**Eigenständig verifiziert 2026-07-20** (nicht nur Layer-Existenz): `GetFeature` über ein
+10x10-km-Fenster Langnau/Adliswil lieferte 200 Flächen mit der vollständigen Stufenverteilung
 (80x Stufe 1, 94x Stufe 2, 25x Stufe 3, 1x Stufe 4) — der Layer ist also nicht nur vorhanden,
-sondern **inhaltlich gefuellt und differenziert**.
+sondern **inhaltlich gefüllt und differenziert**.
 
-**Positiv-Benchmark (Punktlage):** *Buchserstrasse 9, 8108 Daellikon* — EGRID `CH875077785530`,
-Parzelle 1923, BFS 84 → **Stufe 3 «mittlere Gefaehrdung» (blau)**, Prozess Hochwasser
+**Positiv-Benchmark (Punktlage):** *Buchserstrasse 9, 8108 Dällikon* — EGRID `CH875077785530`,
+Parzelle 1923, BFS 84 → **Stufe 3 «mittlere Gefährdung» (blau)**, Prozess Hochwasser
 (Massenbewegung: keine). **Negativ-Kontrolle:** *Giebelweg 12, 8135 Langnau am Albis*
-(EGRID `CH879777718909`, Parz. 3338) → keine Gefahrenflaeche.
+(EGRID `CH879777718909`, Parz. 3338) → keine Gefahrenfläche.
 
 **Connector.** `geo-zh.mjs --produkt naturgefahren` (Run 54) fragt alle drei Gefahrenbereich-Layer
-ab, meldet die **hoechste** Stufe als planungsbestimmend und gibt ab Stufe 3 einen Objektschutz-
+ab, meldet die **höchste** Stufe als planungsbestimmend und gibt ab Stufe 3 einen Objektschutz-
 Hinweis aus. Default-Radius ±5 m (die Punktlage entscheidet, anders als bei Baulinien).
 
 ⚠ **Zwei Fallen beim Lesen des Ergebnisses:**
-1. **Kein Treffer heisst «hier keine Gefahrenflaeche», nicht «Gemeinde nicht kartiert».** Wer das
-   verwechselt, haelt eine unkartierte Parzelle faelschlich fuer sicher. Der Kartierungsstand ist
-   ein **eigener** Layer (44.1) — bei Verdacht dort gegenpruefen.
-2. **Sturz/Steinschlag fuehrt der ZH-WFS nicht** (topografisch plausibel, ZH ist kein alpiner
-   Sturzkanton). Fuer Sturzprozesse bleibt die kantonale Fachstelle zustaendig — im Kt. SZ dagegen
+1. **Kein Treffer heisst «hier keine Gefahrenfläche», nicht «Gemeinde nicht kartiert».** Wer das
+   verwechselt, hält eine unkartierte Parzelle fälschlich für sicher. Der Kartierungsstand ist
+   ein **eigener** Layer (44.1) — bei Verdacht dort gegenprüfen.
+2. **Sturz/Steinschlag führt der ZH-WFS nicht** (topografisch plausibel, ZH ist kein alpiner
+   Sturzkanton). Für Sturzprozesse bleibt die kantonale Fachstelle zuständig — im Kt. SZ dagegen
    ist Sturz Teil der Gefahrenkarte (Abschnitt 3).
-- Verhaeltnis zu [[recht-norm-abstandsvorschriften-wald-gewaesser]] (Wald/Gewaesser als eigene
+- Verhältnis zu [[recht-norm-abstandsvorschriften-wald-gewaesser]] (Wald/Gewaesser als eigene
   Abstandsvorschrift) und Brandschutz-Naturgefahren-Bezug in [[energie-pv-brandschutz]] (SIA 261
-  bei Solaranlagen) — Naturgefahrenkarte ist die uebergeordnete Planungsgrundlage, aus der sich
+  bei Solaranlagen) — Naturgefahrenkarte ist die übergeordnete Planungsgrundlage, aus der sich
   Teile dieser Anforderungen ableiten.
 
 ## 8b. ZH-Grundwasserschutzzonen — Positiv-Benchmark und Connector (Run 54, 2026-07-20)
 
 Seit Run 33 war der Endpunkt bekannt, aber **nur mit 0-Treffer-Abfragen** belegt. Das ist ein
 schwacher Beweis: eine leere `FeatureCollection` unterscheidet nicht zwischen «Endpunkt arbeitet
-korrekt, hier liegt keine Zone» und «Endpunkt liefert stumm nichts». Run 54 schliesst diese Luecke.
+korrekt, hier liegt keine Zone» und «Endpunkt liefert stumm nichts». Run 54 schliesst diese Lücke.
 
 **Verifikation.** Eine 300er-Stichprobe aus `ms:ogd-0143_arv_basis_grundwasser_gws_zone_f` liefert
-die vollstaendige, empirisch belegte Codeliste:
+die vollständige, empirisch belegte Codeliste:
 
 | Code | `code_bezeichnung` | n (Stichprobe 300) |
 |---|---|---|
@@ -592,33 +592,33 @@ die vollstaendige, empirisch belegte Codeliste:
 | S3 / S3a | Weitere Schutzzone | 79 / 1 |
 | Spezialzone | Spezialzone | 1 |
 
-Das **Schutzareal** (`…_gws_areal_f`, Layer 0149) fuehrt planerisch gesicherte **kuenftige** Zonen
+Das **Schutzareal** (`…_gws_areal_f`, Layer 0149) führt planerisch gesicherte **künftige** Zonen
 mit eigenem Codewert `ZukuenftigeZoneS1` / `ZukuenftigeZoneS2` (Beispiele: «Grundwasserschutzareal
 Weiacher Hard», «… Zelgli»). ⚠ Beobachtete Eigenheit der Quelldaten: bei `ZukuenftigeZoneS1` steht
-als Klartext «zukuenftige **engere** Schutzzone», obwohl S1 sonst der Fassungsbereich ist — im
+als Klartext «zukünftige **engere** Schutzzone», obwohl S1 sonst der Fassungsbereich ist — im
 Zweifel den **Code**, nicht den Klartext auswerten.
 
 **Weitere belegte Felder je Treffer:** `bezeichnung` (Fassungsname), `nutzniesser` (Gemeinde/Werk),
 `rechtsstatus` (z. B. `inKraft`), `grundwasserrechtsnr`, `festsetzungsdatum`, `bfsnr`.
 
 **Positiv-Benchmark:** *Hardau 24, 8408 Winterthur* — EGRID `CH827726200895`, Parzelle WU2856,
-BFS 230 → **S3 «Weitere Schutzzone» «Hard, Klaeranlage»**, `inKraft`, GW-Recht `i 01-0028, i 03-0025`.
-Zusaetzlich Punkt-in-Polygon gegen Zone «Rotzibuech» (Rorbas, BFS 53, S2) — 1 Treffer.
-**Negativ-Kontrolle:** Giebelweg 12 Langnau → keine Zone. Damit sind die frueheren 0-Treffer an
-Langnau/Wetzikon als **echte Negativbefunde** bestaetigt.
+BFS 230 → **S3 «Weitere Schutzzone» «Hard, Kläranlage»**, `inKraft`, GW-Recht `i 01-0028, i 03-0025`.
+Zusätzlich Punkt-in-Polygon gegen Zone «Rotzibuech» (Rorbas, BFS 53, S2) — 1 Treffer.
+**Negativ-Kontrolle:** Giebelweg 12 Langnau → keine Zone. Damit sind die früheren 0-Treffer an
+Langnau/Wetzikon als **echte Negativbefunde** bestätigt.
 
 **Connector.** `geo-zh.mjs --produkt grundwasser` (Run 54), Default-Radius ±5 m. Die Ausgabe ist
 **zonengerecht** formuliert, weil sich die Bauwirkung fundamental unterscheidet:
 
-- **S1 Fassungsbereich** — Bauten grundsaetzlich unzulaessig.
-- **S2 engere Schutzzone** — stark eingeschraenkt; UG/Aushub ins Grundwasser i. d. R. unzulaessig,
-  Erdwaermesonden verboten; AWEL-Vorabklaerung noetig.
-- **S3 weitere Schutzzone** — Bauen moeglich, aber auflagenbehaftet (Aushubtiefe/Grundwasserabstand,
-  Waermesonden meist verboten, Tankanlagen eingeschraenkt).
+- **S1 Fassungsbereich** — Bauten grundsätzlich unzulässig.
+- **S2 engere Schutzzone** — stark eingeschränkt; UG/Aushub ins Grundwasser i. d. R. unzulässig,
+  Erdwärmesonden verboten; AWEL-Vorabklärung nötig.
+- **S3 weitere Schutzzone** — Bauen möglich, aber auflagenbehaftet (Aushubtiefe/Grundwasserabstand,
+  Wärmesonden meist verboten, Tankanlagen eingeschränkt).
 
-Rechtsgrundlage GSchG/GSchV, Vollzug AWEL. Fuer die Grundwasser**karte** (Flurabstand, Weisse-Wanne-
+Rechtsgrundlage GSchG/GSchV, Vollzug AWEL. Für die Grundwasser**karte** (Flurabstand, Weisse-Wanne-
 Entscheid) bleibt Abschnitt 6 massgeblich; die Schutzzone ist die **rechtliche**, die Karte die
-**bautechnische** Grundlage — beide gehoeren in die Grundlagenphase, vgl.
+**bautechnische** Grundlage — beide gehören in die Grundlagenphase, vgl.
 [[kartenportale-grundlagen-checkliste-neue-parzelle]].
 
 ## 8c. SZ-Naturgefahrenkarte — Endpunkt gefunden und verifiziert (Run 55, 2026-07-22)
@@ -628,9 +628,9 @@ Link** bekannt, nie als REST-Endpunkt getestet. Jetzt geschlossen — beide Kant
 SZ hier) sind auf einen automatisierten Naturgefahren-Zugriff gebracht.
 
 **Der Fund (gleiche Lehre wie ZH: nach Inhalt, nicht nach dem Fachwort suchen).** Der reale
-Service hinter dem WebGIS wurde ueber die **opendata.swiss-CKAN-API** (`package_show?id=gefahrenkarte1`,
-Amt fuer Geoinformation Kt. SZ) gefunden: die WMS-/WFS-Ressourcen zeigen auf
-**`map.geo.sz.ch/mapserv_proxy`**. Das dortige `GetCapabilities` fuehrt exakt die aus dem WebGIS
+Service hinter dem WebGIS wurde über die **opendata.swiss-CKAN-API** (`package_show?id=gefahrenkarte1`,
+Amt für Geoinformation Kt. SZ) gefunden: die WMS-/WFS-Ressourcen zeigen auf
+**`map.geo.sz.ch/mapserv_proxy`**. Das dortige `GetCapabilities` führt exakt die aus dem WebGIS
 bekannten Layer-Namen.
 
 ⚠ **Protokoll-Falle:** Der Dienst spricht **nur WFS 1.1.0 + GML 3.1.1**, nicht WFS 2.0.0. Ein
@@ -642,79 +642,79 @@ vorausgesetzt); `TYPENAME` (Singular), `SRSNAME`/`BBOX-CRS` als `urn:ogc:def:crs
 
 | Zweck | Typname |
 |---|---|
-| **Gefahrenflaechen ueberlagert** (Perimeter A, parzellenscharf) — der Standardlayer | `ms:ch.sz.a012b.naturgefahrenkarte.gefahrenflaechen.ueberlagert` |
-| Hinweisflaechen ueberlagert (Perimeter B, ausserhalb Siedlung) | `ms:ch.sz.a012b.naturgefahrenkarte.hinweisflaechen.ueberlagert` |
+| **Gefahrenflächen überlagert** (Perimeter A, parzellenscharf) — der Standardlayer | `ms:ch.sz.a012b.naturgefahrenkarte.gefahrenflaechen.ueberlagert` |
+| Hinweisflächen überlagert (Perimeter B, ausserhalb Siedlung) | `ms:ch.sz.a012b.naturgefahrenkarte.hinweisflaechen.ueberlagert` |
 | **Erhebungsgebiet** (Kartierungsstand — analog ZH-Layer 44.1) | `ms:ch.sz.a012b.naturgefahrenkarte.erhebungsgebiet` |
 
 **Attribute** (per realer Antwort verifiziert): je Prozess ein eigenes Textfeld —
 `lawine_gefahrenstufe_tx`, `rutsch_gefahrenstufe_tx`, `wasser_gefahrenstufe_tx`,
 `steinschlag_gefahrenstufe_tx` mit den Werten `keine` / `Restgefährdung` / `geringe` / `mittlere` /
-`erhebliche Gefährdung`. Anders als ZH (dort nur HW + MB) fuehrt SZ **alle vier alpinen Prozesse
+`erhebliche Gefährdung`. Anders als ZH (dort nur HW + MB) führt SZ **alle vier alpinen Prozesse
 getrennt** (inkl. Lawine + Steinschlag) — das deckt sich mit der in Abschnitt 3 dokumentierten
-SZ-Besonderheit. Das `erhebungsgebiet`-Feature traegt `a012b_typ_tx` (z. B. «Erhebung
+SZ-Besonderheit. Das `erhebungsgebiet`-Feature trägt `a012b_typ_tx` (z. B. «Erhebung
 abgeschlossen») + Info-Link auf die AWN-Fachstelle.
 
-**Eigenstaendig verifiziert 2026-07-22 am realen JANS-Benchmark:**
+**Eigenständig verifiziert 2026-07-22 am realen JANS-Benchmark:**
 
 | Fall | Radius | Ergebnis |
 |---|---|---|
-| **Willerzell/Reckholdern** Parz. 3301 Einsiedeln (EGRID `CH527708492462`) | ±5 m | 1 Flaeche, Rutsch **geringe Gefaehrdung** (parzellenpunkt-genau) |
-| dieselbe Parzelle | ±60 m | **10 Flaechen**, Rutsch gemischt (3x erheblich / 2x mittel / 5x gering), **massgebend erhebliche Gefaehrdung** — deckt sich mit dem Objektschutzkonzept 26.09.2023 (Abschnitt 4) |
+| **Willerzell/Reckholdern** Parz. 3301 Einsiedeln (EGRID `CH527708492462`) | ±5 m | 1 Fläche, Rutsch **geringe Gefährdung** (parzellenpunkt-genau) |
+| dieselbe Parzelle | ±60 m | **10 Flächen**, Rutsch gemischt (3x erheblich / 2x mittel / 5x gering), **massgebend erhebliche Gefährdung** — deckt sich mit dem Objektschutzkonzept 26.09.2023 (Abschnitt 4) |
 | **Negativ-Kontrolle** Wangen 25 (flaches Seeufer Obersee) | ±5 m | 0 Treffer, sauberer Negativbefund |
 
-⚠ **Radius-Nuance (wichtig fuer die Auslegung):** Der Default ±5 m gibt die **punktgenaue** Stufe
-am Parzellenschwerpunkt. Eine Parzelle kann aber mehrere Prozess-/Stufenfelder ueberlagern (hier:
-gering am Schwerpunkt, erheblich am Hang derselben Parzelle) — fuer die **parzellenweite**
+⚠ **Radius-Nuance (wichtig für die Auslegung):** Der Default ±5 m gibt die **punktgenaue** Stufe
+am Parzellenschwerpunkt. Eine Parzelle kann aber mehrere Prozess-/Stufenfelder überlagern (hier:
+gering am Schwerpunkt, erheblich am Hang derselben Parzelle) — für die **parzellenweite**
 massgebende Stufe mit `--radius` (z. B. 40-60 m) auf die Parzellenausdehnung erweitern und die
-hoechste Stufe werten. Der Negativbefund ist ausserdem gegen den `erhebungsgebiet`-Layer zu lesen
+höchste Stufe werten. Der Negativbefund ist ausserdem gegen den `erhebungsgebiet`-Layer zu lesen
 (Kartierungsstand ≠ Gefahrenfreiheit — dieselbe Falle wie ZH-Layer 44.1).
 
 **Connector.** `geo-sz.mjs --produkt naturgefahren` (braucht Koordinate, also `--parzelle`/
-`--adresse`, nicht `--egrid` allein) meldet die massgebende Stufe ueber alle vier Prozesse und gibt
-ab «mittlere»/«erhebliche Gefaehrdung» den Objektschutz-Hinweis (§ 20/17 PBG SZ, SIA 261/261-1,
+`--adresse`, nicht `--egrid` allein) meldet die massgebende Stufe über alle vier Prozesse und gibt
+ab «mittlere»/«erhebliche Gefährdung» den Objektschutz-Hinweis (§ 20/17 PBG SZ, SIA 261/261-1,
 sensible Nutzungen) aus. Status **established** (Endpunkt + Positiv/Negativ-Benchmark verifiziert).
 
 ## 8d. SZ-Grundwasserschutz — Endpunkt gebaut und verifiziert (Run 55, 2026-07-22)
 
-Das SZ-Pendant zum ZH-Grundwasser-Paar (Abschnitt 8b): entscheidet ueber das **Untergeschoss**
-(Weisse Wanne / Aushub / Erdwaermesonde), bevor gezeichnet wird. Derselbe WFS wie die
-Naturgefahren (8c). Die Layer wurden ueber einen **Volltext-Scan des GetCapabilities** (1'016
-FeatureTypes) unter dem SZ-Themencode **a013a «planerischer Gewaesserschutz»** gefunden — nicht
+Das SZ-Pendant zum ZH-Grundwasser-Paar (Abschnitt 8b): entscheidet über das **Untergeschoss**
+(Weisse Wanne / Aushub / Erdwärmesonde), bevor gezeichnet wird. Derselbe WFS wie die
+Naturgefahren (8c). Die Layer wurden über einen **Volltext-Scan des GetCapabilities** (1'016
+FeatureTypes) unter dem SZ-Themencode **a013a «planerischer Gewässerschutz»** gefunden — nicht
 unter einem «grundwasser»-Layernamen (gleiche ZH-Lehre).
 
 **Layer:**
 
 | Zweck | Typname |
 |---|---|
-| **Grundwasserschutzzone** S1/S2/S3 (rechtskraeftig) | `ms:ch.sz.a013a.planerischergewaesserschutz.gwszonen.gwszone.inkraft` |
+| **Grundwasserschutzzone** S1/S2/S3 (rechtskräftig) | `ms:ch.sz.a013a.planerischergewaesserschutz.gwszonen.gwszone.inkraft` |
 | Schutzzone (provisorisch) | `…gwszonen.gwszone.provisorisch` |
-| Schutzareal (Vorsorge fuer kuenftige Fassung) | `…gwszonen.gwsareal` |
-| **Gewaesserschutzbereich Au** (nutzbares Grundwasservorkommen) | `…gsbereiche.bereich.au` |
+| Schutzareal (Vorsorge für künftige Fassung) | `…gwszonen.gwsareal` |
+| **Gewässerschutzbereich Au** (nutzbares Grundwasservorkommen) | `…gsbereiche.bereich.au` |
 
-**Attribute** (per `DescribeFeatureType` + realer Antwort belegt): die Zone traegt `typ` (S1/S2/S3),
+**Attribute** (per `DescribeFeatureType` + realer Antwort belegt): die Zone trägt `typ` (S1/S2/S3),
 `bezeichnung` (Fassungsname), `wasserversorger`, `rechtskraftdatum`. Der **Bereich Au** ist ein
-reines Praesenz-Polygon (nur `identifikator`) — ein Treffer heisst «Parzelle liegt im
-Gewaesserschutzbereich Au».
+reines Präsenz-Polygon (nur `identifikator`) — ein Treffer heisst «Parzelle liegt im
+Gewässerschutzbereich Au».
 
-**Eigenstaendig verifiziert 2026-07-22 (Connector-Produkt heute gebaut + end-to-end getestet):**
+**Eigenständig verifiziert 2026-07-22 (Connector-Produkt heute gebaut + end-to-end getestet):**
 
 | Fall | Ergebnis |
 |---|---|
-| **Freienbach 1976** (EGRID `CH707738332629`) | Schutzzone **S3 UND S2 «Halten»** (Kloster Einsiedeln, rk 2006-07-04); Parzelle ueberlagert beide Ringe, massgebend **S2** |
-| **Wangen 25** (EGRID `CH379377805305`) | **Gewaesserschutzbereich Au**, aber **keine** S-Schutzzone |
-| **Galgenen 439** (EGRID `CH656153779347`) | am Schwerpunkt ±5/40 m **negativ**, obwohl die S3-Zone «Altstofel Ruchweid» die Parzellengrenze beruehrt — belegt die Punktlage-Nuance (s. u.) |
+| **Freienbach 1976** (EGRID `CH707738332629`) | Schutzzone **S3 UND S2 «Halten»** (Kloster Einsiedeln, rk 2006-07-04); Parzelle überlagert beide Ringe, massgebend **S2** |
+| **Wangen 25** (EGRID `CH379377805305`) | **Gewässerschutzbereich Au**, aber **keine** S-Schutzzone |
+| **Galgenen 439** (EGRID `CH656153779347`) | am Schwerpunkt ±5/40 m **negativ**, obwohl die S3-Zone «Altstofel Ruchweid» die Parzellengrenze berührt — belegt die Punktlage-Nuance (s. u.) |
 | **Negativ-Kontrolle** Willerzell 3301 | weder S-Zone noch Bereich Au |
 
-⚠ **Punktlage-Nuance (wie bei Naturgefahren):** Default ±5 m ist parzellenpunkt-genau. Beruehrt eine
-Zone nur die Parzellengrenze (Galgenen 439), meldet der Punkt-Test korrekt **negativ** — fuer die
-parzellenweite Aussage `--radius` erhoehen. Umgekehrt kann eine Parzelle wie Freienbach 1976 zwei
-Ringe (S2 **und** S3) ueberlagern; der Connector wertet den **strengsten** (S2) als massgebend.
+⚠ **Punktlage-Nuance (wie bei Naturgefahren):** Default ±5 m ist parzellenpunkt-genau. Berührt eine
+Zone nur die Parzellengrenze (Galgenen 439), meldet der Punkt-Test korrekt **negativ** — für die
+parzellenweite Aussage `--radius` erhöhen. Umgekehrt kann eine Parzelle wie Freienbach 1976 zwei
+Ringe (S2 **und** S3) überlagern; der Connector wertet den **strengsten** (S2) als massgebend.
 
 **Connector.** `geo-sz.mjs --produkt grundwasser` (braucht Koordinate), Ausgabe **zonengerecht**
 identisch zur ZH-Logik (Abschnitt 8b): S1 faktisches Bauverbot · S2 UG/Aushub/Erdsonden i. d. R.
-unzulaessig · S3 auflagenbehaftet · **Bereich Au** = Anlagen/Aushub/Versickerung bewilligungspflichtig
+unzulässig · S3 auflagenbehaftet · **Bereich Au** = Anlagen/Aushub/Versickerung bewilligungspflichtig
 (GSchG Art. 19 / GSchV Anh. 4 Ziff. 21). Kombinierbar mit Naturgefahren in einem Lauf
 (`--produkt naturgefahren,grundwasser`). Status **established** (Endpunkt + S-Zonen-/Bereich-Au-/
 Negativ-Benchmark verifiziert). Damit deckt der SZ-Connector dieselben zwei UG-relevanten Grundlagen
 ab wie der ZH-Connector; vgl. [[kartenportale-grundlagen-checkliste-neue-parzelle]] und
-[[recht-norm-abstandsvorschriften-wald-gewaesser]] (SZ § 66/67, Gewaesser-Oekomorphologie).
+[[recht-norm-abstandsvorschriften-wald-gewaesser]] (SZ § 66/67, Gewässer-Ökomorphologie).

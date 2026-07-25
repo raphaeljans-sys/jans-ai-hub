@@ -130,3 +130,20 @@ Offerten) — kein JANS-Eigenprojekt mit GV-Bezug, nicht als Quelle geeignet fü
 GV UND BKP-Gliederung im selben Dokument, Reckholdern) — aber BEIDE intern widersprüchlich
 und daher nicht promotionsfähig, nicht mal als Einzelfall n=1. Damit ist `AR - 07 Archiv`
 vollständig geprüft (alle 4 Projektordner `[x]`/`[-]`).
+
+## Run 4 (26.07.2026) — Vertiefung der beiden Run-3-Kandidaten (kein neuer Projektordner)
+
+Gemäss Empfehlung in `wiki/QUESTIONS.md` (Run 3): statt neue Projektordner zu erschliessen,
+gezielt in den beiden bereits bekannten Kandidaten nach zusätzlichen Dokumenten gesucht
+(Rechnungen, Zahlungskontrolle, Baubuchhaltung, Marktwertschätzung).
+
+| Projekt | Zusätzlich geprüft | Ergebnis |
+|---|---|---|
+| 2202 Ackersteinstrasse 67 | `04_KTV/08_Rechnungen/` + `10_Dokumente/04_Rechnungen/` (alle Rechnungen re-00008/re-00030/re-00042) | `[x]` Ursache der Run-3-Widersprüche geklärt: Mandat endete 09/2023 in der Abänderungseingabe-Phase, nie Ausführung. Weiterhin nicht verwertbar, aber Fall geschlossen. Details `raw/2202-ackersteinstrasse.md`. |
+| 2304 Reckholdern 20 | `2304_Reckholdern_Dropbox/7 Kosten Finanzen/74 Baubuchhaltung` (leer), `.../8 Verträge/85 Totalunternehmer/02 TUV/15 Auszug aus der Baubuchhaltung` (leer), `08_Publikationen/.../H_Baukostenplan` (nur generische BKP-2017-Referenz, kein Projektbezug), `02_Korrespondenz/01_BH_Benno_Wild/_Archiv/` Rechnungen + Zahlungskontrolle, **`09_Dokumente/Marktwertschaetzung/2304RE20_Marktwertanalyse_RJ.pdf`** | `[x]` Marktwertanalyse (Stand 31.12.2023) löst den Run-3-Widerspruch auf: GV 1'986 m³ + BKP 1-5 CHF 3'446'500 im selben, intern konsistenten Dokument. **Erster verwertbarer Einzelfall dieser KB mit sauberem GV+BKP-Tripel.** Details `raw/2304-reckholdern.md`, Verdichtung `wiki/kennwerte.md`. Baubuchhaltungs-/TUV-Ordner sind Struktur-Schablonen ohne Inhalt — keine Ist-Kosten der Ausführung verfügbar. |
+
+**Ergebnis Run 4:** Beide Run-3-Kandidaten abschliessend bearbeitet — einer verwertbar
+(Reckholdern), einer endgültig geschlossen ohne Kennwert (Ackersteinstrasse). Damit sind
+`AR - 01 Projekte` und `AR - 07 Archiv` jetzt nicht nur vollständig, sondern auch vertieft
+geprüft. Für Run 5 wird gemäss `wiki/QUESTIONS.md` eine neue Quelle oder ein Ereignis-Trigger
+benötigt.

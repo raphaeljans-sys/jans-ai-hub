@@ -75,12 +75,12 @@ Industriezonen) bleiben die Bezugsgrösse; ES je Parzelle bereits im Connector-P
 Praxis-Werkzeug für die Vorabklärung: **bauen-im-laerm.ch** (Cercle-Bruit-Implementation von
 LSV Kapitel 5, Ausnahmebewilligungs-Mindestvoraussetzungen).
 
-> **Querbezug KB baurecht (Recht fuehrend, gesetzt Wissens-Chef Run 14, 24.07.2026).** Die ES-Definition
-> und die Belastungsgrenzwerte (Art. 43/44 LSV, Anhang 3/4/6) fuehrt die KB baurecht:
+> **Querbezug KB baurecht (Recht führend, gesetzt Wissens-Chef Run 14, 24.07.2026).** Die ES-Definition
+> und die Belastungsgrenzwerte (Art. 43/44 LSV, Anhang 3/4/6) führt die KB baurecht:
 > `wissen/baurecht/wiki/laermschutz-und-nichtionisierende-strahlung` (Anhang 3/4/6 volltextverifiziert
-> Stand 1.11.2023). Hier nur Beschaffung/Verfahren fuehren, nicht den Rechtsteil nachschreiben. Der oben
+> Stand 1.11.2023). Hier nur Beschaffung/Verfahren führen, nicht den Rechtsteil nachschreiben. Der oben
 > markierte ⚠-Vorbehalt zur **LSV-Novelle 01.04.2026** ist dort als needs-verification erfasst (Fedlex-
-> Konsolidierung SR 814.41 gegen Stand 1.11.2023 pruefen: beruehrt die Novelle die Anhaenge 3/4/6 oder nur
+> Konsolidierung SR 814.41 gegen Stand 1.11.2023 prüfen: berührt die Novelle die Anhänge 3/4/6 oder nur
 > Art. 31 ff.?).
 
 ## 3. Gesuch zur Versickerung von Regenwasser (AWEL, Kt. ZH)

@@ -9,8 +9,8 @@ links: [[kartenportale-geoportale-uebersicht]] [[kartenportale-bund-geodaten]]
 
 # Kartenportale — SharePoint-Ablage PL-01 (Soll-Struktur)
 
-Die buerointerne Sammlung der Kartenportale/Geodaten liegt auf SharePoint und ist lokal
-gespiegelt. Diese Struktur ist **hinterlegt**, damit Claude Ablage-Orte kennt und neue Bezuege
+Die bürointerne Sammlung der Kartenportale/Geodaten liegt auf SharePoint und ist lokal
+gespiegelt. Diese Struktur ist **hinterlegt**, damit Claude Ablage-Orte kennt und neue Bezüge
 am richtigen Ort einordnet. Verwandt: [[kartenportale-geoportale-uebersicht]] (welches Portal
 liefert was), [[kartenportale-bund-geodaten]] (Connector `--produkt`), [[kartenportale-naturgefahren-objektschutz]],
 [[kartenportale-werkleitungskataster]].
@@ -32,25 +32,25 @@ Geschwister-Ordner: `PL - 02_Recht_Norm`, `PL - 03 Brandschutz`, `PL - 04 Energi
 | `KtSZ Schwyz/` | `map.geo.sz.ch`, `geoshop.lisag.ch`, `ebau-sz.ch`, `gis.bezirkeinsiedeln.ch`, `ortsplanung.ch`, Gemeinden |
 | `KtBE Bern/` | `be-geo.ch`, `map.apps.be.ch` |
 | `KtLU Luzern/` | Geoportal, Geodatenshop, Raumdatenpool, Gemeinden |
-| **`Hoehenlinie/`** | **Hoehenlinien je Gemeinde** (Maur, Wald) + `_www.geoportal.ch` — zentrale Quelle fuer Topo/Hoehenlinien |
+| **`Hoehenlinie/`** | **Höhenlinien je Gemeinde** (Maur, Wald) + `_www.geoportal.ch` — zentrale Quelle für Topo/Hoehenlinien |
 | `Orthofoto/` | Orthofotos je Gemeinde (Luzern, Regensdorf, Thalwil) |
-| `Grundstueckkataster/` | Kataster je Gemeinde (Maur, Niederhasli, Regensdorf, Thalwil, Wald ZH, Zuerich, Allgemein) |
-| `OEREB-Auszug/` | OEREB-Auszuege + `_Kommunikation` |
+| `Grundstueckkataster/` | Kataster je Gemeinde (Maur, Niederhasli, Regensdorf, Thalwil, Wald ZH, Zürich, Allgemein) |
+| `OEREB-Auszug/` | OEREB-Auszüge + `_Kommunikation` |
 | `Eigentumsabfrage Objektwesen/` | Eigentumsabfragen |
 | `Werkleitungen/` | `ekz-planauskunft.ch`, `leitungskataster.upc.ch`, `swisscom.ch`, `sunrise.ch` — vertieft in [[kartenportale-werkleitungskataster]] (Run 22) |
 | `Objektschutz/` | Naturgefahren je Objekt (Reckholdern, Thalwil) + `_schutz-vor-naturgefahren.ch` — vertieft in [[kartenportale-naturgefahren-objektschutz]] (Run 22) |
 | `Baumkataster/` | GEOINFO-IT-AG-Produktblatt «Fachanwendung Baumkataster» (kommunales GIS-Tool, kein standardisiertes Portal) — vertieft in [[kartenportale-geoportale-uebersicht]] Abschnitt «Baumkataster» (Run 24) |
 | `Geoshop/`, `Datenformate_Geokartenmaterial/` | Spezialthemen / Formate |
 
-## Topografie & Hoehenlinien — Bezugswege
+## Topografie & Höhenlinien — Bezugswege
 
-1. **Amtlich/automatisiert (bevorzugt):** swissALTI3D ueber den Connector
+1. **Amtlich/automatisiert (bevorzugt):** swissALTI3D über den Connector
    `connectors/cad/terrain.sh` bzw. `geo-zh.mjs --produkt height,dtm` — login-frei, LV95.
-   Punkthoehe + DTM-Kacheln; Vektor-Hoehenlinien via `gdal_contour` (siehe CAD-Connector-README).
-2. **Buero-Ablage:** fertige Hoehenlinien-Plaene je Gemeinde liegen unter `Hoehenlinie/<Gemeinde>/`
-   und unter `_www.geoportal.ch` (kantonale ZH-Hoehenkurven).
+   Punkthöhe + DTM-Kacheln; Vektor-Höhenlinien via `gdal_contour` (siehe CAD-Connector-README).
+2. **Büro-Ablage:** fertige Höhenlinien-Pläne je Gemeinde liegen unter `Hoehenlinie/<Gemeinde>/`
+   und unter `_www.geoportal.ch` (kantonale ZH-Höhenkurven).
 3. **Kantonal interaktiv:** `geoportal.ch` / `geodatenshop.zh.ch` (ZH), `map.geo.sz.ch` (SZ).
 
 ## Merksatz
 Neue Geodaten **immer** in den passenden PL-01-Unterordner ablegen (Gemeinde-genau, wo vorhanden);
-Hoehen/Topo nach `Hoehenlinie/`, Kataster nach `Grundstueckkataster/<Gemeinde>/`.
+Höhen/Topo nach `Hoehenlinie/`, Kataster nach `Grundstueckkataster/<Gemeinde>/`.

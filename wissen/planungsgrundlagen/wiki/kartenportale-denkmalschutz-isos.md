@@ -17,7 +17,7 @@ sources:
     Denkmalverzeichnis und Bauinventar/ (BILU-Bauinventar + KDV-Denkmalverzeichnis + Kulturgüter +
     Legende, map.geo.lu.ch/kulturgueter/denkmaeler, 29.05.2024, realer Beleg Haus Jans
     Steinhofstrasse 25 Luzern, Grundstück 1737) + .../Grundbuchplan/ + .../Oeffentlich rechtliche
-    Eigentumsbeschraenkung/document.pdf (ÖREB-Auszug Kt. LU, ch.LU.20240529171105821, Run 65,
+    Eigentumsbeschränkung/document.pdf (ÖREB-Auszug Kt. LU, ch.LU.20240529171105821, Run 65,
     2026-07-25, Token-Vollgas)
 links: [[kartenportale-geoportale-uebersicht]] [[kartenportale-naturgefahren-objektschutz]]
   [[kartenportale-grundlagen-checkliste-neue-parzelle]] [[kartenportale-oereb-kataster-system-zh]]
@@ -119,44 +119,44 @@ Wirtschaftsdepartement, Raum und Wirtschaft), Druck-Exporte 29.05.2024, plus der
 ÖREB-Auszug desselben Grundstücks (Nr. 1737, E-GRID CH213596508835, Grundbuch Luzern linkes Ufer).
 Realer JANS-Bezug: das abgefragte Objekt ist **Haus Jans, Steinhofstrasse 25, Luzern** (Baujahr
 1931, Architekt Otto Dreyer, «Bauhaus entlehnte Elemente … typisches Schema des Einfamilienhauses
-mit Satteldach», staedtebaulich praegend an der Strassengabelung).
+mit Satteldach», städtebaulich prägend an der Strassengabelung).
 
 **Zwei-Ebenen-Inventar, analog zur ZH-Struktur, aber mit einem klaren Bindungs-Unterschied:**
 
 1. **Bauinventar BILU** (kantonal, nicht rechtsverbindlich) — Stufung **erhaltenswert** (blau) /
-   **schuetzenswert** (rot) / **Baugruppe**; Portal-Hinweis woertlich: *„Gezeigte Daten haben keine
-   Rechtswirksamkeit und erheben keinen Anspruch auf Vollstaendigkeit. Im Zweifelsfall … kontaktieren
-   Sie die kantonale Denkmalpflege."* Haus Jans ist hier als **schuetzenswert** (Baugattung
-   Einfamilienhaus [c] Wohnbauten, Inkraftsetzung Bauinventar 01.12.2017) gefuehrt.
-2. **Kantonales Denkmalverzeichnis KDV** (die rechtsverbindliche Stufe darueber) — Layer-Werte
-   **denkmalgeschuetztes Objekt** / **keine digitalen Daten verfuegbar** / **denkmalgeschuetzte
-   Gaerten und Paerke (in Arbeit)**. Fuer Haus Jans ist im KDV-Layer **kein** Eintrag hinterlegt —
+   **schützenswert** (rot) / **Baugruppe**; Portal-Hinweis wörtlich: *„Gezeigte Daten haben keine
+   Rechtswirksamkeit und erheben keinen Anspruch auf Vollständigkeit. Im Zweifelsfall … kontaktieren
+   Sie die kantonale Denkmalpflege."* Haus Jans ist hier als **schützenswert** (Baugattung
+   Einfamilienhaus [c] Wohnbauten, Inkraftsetzung Bauinventar 01.12.2017) geführt.
+2. **Kantonales Denkmalverzeichnis KDV** (die rechtsverbindliche Stufe darüber) — Layer-Werte
+   **denkmalgeschütztes Objekt** / **keine digitalen Daten verfügbar** / **denkmalgeschützte
+   Gärten und Pärke (in Arbeit)**. Für Haus Jans ist im KDV-Layer **kein** Eintrag hinterlegt —
    das Objekt steht also (Stand 2024) im vorgelagerten BILU, aber (noch) nicht im rechtsverbindlichen
-   KDV. Zustaendige Fachstelle fuer beide Layer: **Denkmalpflege und Archaeologie (da)**,
+   KDV. Zuständige Fachstelle für beide Layer: **Denkmalpflege und Archäologie (da)**,
    `denkmalpflege.lu.ch`.
-3. Zusaetzliche Layer im selben Portal: **Archaeologische Fundstellen** und **Inventar der
-   schuetzenswerten Ortsbilder der Schweiz (ISOS)** — damit fuehrt Kt. LU alle vier
-   Denkmalschutz-/Ortsbild-Ebenen (kommunal fehlt) in **einem** Portal, waehrend Kt. ZH sie auf
+3. Zusätzliche Layer im selben Portal: **Archäologische Fundstellen** und **Inventar der
+   schützenswerten Ortsbilder der Schweiz (ISOS)** — damit führt Kt. LU alle vier
+   Denkmalschutz-/Ortsbild-Ebenen (kommunal fehlt) in **einem** Portal, während Kt. ZH sie auf
    getrennte Systeme (maps.zh.ch-Druckprodukt vs. Bundes-ISOS-Portal) verteilt.
 
-**Genuiner struktureller Delta zu ZH — Kulturdenkmaeler als eigenes, rechtskraeftiges ÖREB-Thema:**
-im amtlichen ÖREB-Auszug Kt. LU (`ch.LU.20240529171105821`, S. 5) erscheint **„Kulturdenkmaeler"**
-als eigenstaendiges Thema unter den das Grundstueck **betreffenden** OEREB-Themen (neben
-Zonenplan und Laermempfindlichkeitsstufen) — mit Status **Rechtskraeftig**, Rechtsgrundlage
-*Verordnung zum Gesetz ueber den Schutz der Kulturdenkmaeler* (SRL 310), Flaechenanteil 66 m² /
-13 % **schuetzenswert** direkt auf der Parzelle ausgewiesen und Link zur Online-Karte
+**Genuiner struktureller Delta zu ZH — Kulturdenkmäler als eigenes, rechtskräftiges ÖREB-Thema:**
+im amtlichen ÖREB-Auszug Kt. LU (`ch.LU.20240529171105821`, S. 5) erscheint **„Kulturdenkmäler"**
+als eigenständiges Thema unter den das Grundstück **betreffenden** OEREB-Themen (neben
+Zonenplan und Lärmempfindlichkeitsstufen) — mit Status **Rechtskräftig**, Rechtsgrundlage
+*Verordnung zum Gesetz über den Schutz der Kulturdenkmäler* (SRL 310), Flächenanteil 66 m² /
+13 % **schützenswert** direkt auf der Parzelle ausgewiesen und Link zur Online-Karte
 (`map.geo.lu.ch/kulturgueter/denkmaeler?EGRID=…`). Kt. LU bindet den Denkmalschutz damit **direkt
 in den ÖREB-Kataster** ein statt (wie im bisher dokumentierten ZH-Modell) als separates
-GIS-Druckprodukt ausserhalb des ÖREB zu fuehren — bei einer LU-Grundlagenbeschaffung liefert der
-**ÖREB-Auszug allein bereits** die rechtsverbindliche Denkmalschutz-Auskunft, ohne dass zusaetzlich
-das Kulturgueter-Portal separat abgefragt werden muss (Delta-Pruefung dort bleibt trotzdem
+GIS-Druckprodukt ausserhalb des ÖREB zu führen — bei einer LU-Grundlagenbeschaffung liefert der
+**ÖREB-Auszug allein bereits** die rechtsverbindliche Denkmalschutz-Auskunft, ohne dass zusätzlich
+das Kulturgüter-Portal separat abgefragt werden muss (Delta-Prüfung dort bleibt trotzdem
 sinnvoll, weil das BILU als vorgelagerte Stufe NICHT im ÖREB erscheint, siehe Punkt 1 oben).
 
 **Bezugsweg:** `map.geo.lu.ch/kulturgueter/denkmaeler` (Adress-/Objektsuche, Layer einzeln
-zuschaltbar, PDF-Druckexport A4 1:500) fuer BILU/KDV/Archaeologie/ISOS; ÖREB-Auszug ueber den
+zuschaltbar, PDF-Druckexport A4 1:500) für BILU/KDV/Archaeologie/ISOS; ÖREB-Auszug über den
 kantonalen ÖREB-Geoportal-Zugang (Katasterverantwortliche Stelle: Raum und Wirtschaft rawi,
 analog zu den bereits dokumentierten ZH/SZ-ÖREB-Auszuegen). Status **established** (amtliche
-Primaerquelle, Feldbezeichnungen/Rechtsgrundlage woertlich aus dem Portal/Auszug uebernommen).
+Primärquelle, Feldbezeichnungen/Rechtsgrundlage wörtlich aus dem Portal/Auszug übernommen).
 
 ## Zusammenfassung / Einordnung
 

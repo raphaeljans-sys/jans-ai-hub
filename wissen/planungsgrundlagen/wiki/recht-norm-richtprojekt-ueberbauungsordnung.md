@@ -2,7 +2,7 @@
 title: Recht & Norm — Richtprojekt als Anhang zur Sondernutzungsplanung (Gestaltungsplan/Überbauungsordnung)
 status: emerging
 last_updated: 2026-07-13 (Run 35)
-sources: ["PL - 02_Recht_Norm/08_Richtplan (unterlage4.pdf «Daten zum Richtprojekt», Bild_Ueberbauungsplan.jpg, Karte_Grundstueck_VistaRotonda_E_2.jpg, https.docx → vistarotonda.ch; realer Fall UeO «VistaRotonda», Bolligenstrasse/Hühnerbühlstrasse, Kt. Bern)", "PL - 02_Recht_Norm/08_Richtplan/Ein Richtprojekt ist ein Zwischenstadium… .docx (private KI-generierte Notiz, Microsoft-Copilot-Screenshot 2024-09-09 — als unzuverlaessige Quelle identifiziert und korrigiert)"]
+sources: ["PL - 02_Recht_Norm/08_Richtplan (unterlage4.pdf «Daten zum Richtprojekt», Bild_Ueberbauungsplan.jpg, Karte_Grundstueck_VistaRotonda_E_2.jpg, https.docx → vistarotonda.ch; realer Fall ÜO «VistaRotonda», Bolligenstrasse/Hühnerbühlstrasse, Kt. Bern)", "PL - 02_Recht_Norm/08_Richtplan/Ein Richtprojekt ist ein Zwischenstadium… .docx (private KI-generierte Notiz, Microsoft-Copilot-Screenshot 2024-09-09 — als unzuverlässige Quelle identifiziert und korrigiert)"]
 links: [[recht-norm-quellenlandkarte]], [[recht-norm-baurechtsanalysen-benchmarks]], [[recht-norm-stweg-teilungsplan-wertquoten]], `wissen/baurecht` (raumplanung-und-gestaltung.md, Sondernutzungsplanung §§ 83–89 PBG ZH), `machbarkeit`
 ---
 

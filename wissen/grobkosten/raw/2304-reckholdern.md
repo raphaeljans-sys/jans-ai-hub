@@ -68,7 +68,7 @@ Einreichung; enthält u.a. geologisches Gutachten/Rammsondierung/Objektschutz ge
 — Hanglage). Schätzung Total CHF 22'950.- · gemäss Offerten CHF 9'826.70.- (Teilausschnitt von
 BKP 5/eBKP-H W, nicht das ganze BKP 5).
 
-## Einordnung für die Kennwerte-KB
+## Einordnung für die Kennwerte-KB (Run 3, überholt durch Run 4 unten)
 
 **Nicht verwertbar für eine Kennwert-Promotion.** GV (1'715 m³) UND eine BKP-Gliederung liegen
 zwar gleichzeitig vor (Dokument 2) — der einzige Kandidat unter allen bisher in dieser KB
@@ -82,3 +82,45 @@ Kostenrahmen darstellt, oder Suche nach einer Schlussabrechnung im Projektordner
 Teil dieses Laufs).
 
 Abrufdatum: 2026-07-25.
+
+## Run 4 (26.07.2026) — Fünftes Dokument liefert GV UND BKP-Gliederung im selben, in sich konsistenten Werk: Kennwert verwertbar
+
+**Neu gelesenes Dokument:** `09_Dokumente/Marktwertschaetzung/2304RE20_Marktwertanalyse_RJ.pdf`
+(JANS-eigenes Arbeitspapier "Immobilienpreise für PE/BH", Stand 31.12.2023 — später als alle
+drei in Run 3 geprüften Dokumente). Abschnitt 3 "Einsiedeln Baukosten Analyse — Kostenvoranschlag"
+(Seite 8) nennt explizit:
+
+- **GF (Geschossfläche) = 541 m²**, **HNF (Hauptnutzfläche) = 300 m²**, **GV (Gebäudevolumen)
+  = 1'986 m³** — als eigene Kenngrössen-Kopfzeile ausgewiesen, nicht abgeleitet.
+- **KV "Aktuelle Pläne", klassischer BKP 0–6 (nicht eBKP-H):** BKP 0 Grundstück 0 · BKP 1
+  Vorbereitungsarbeiten 377'000 · BKP 2 Gebäude 2'859'500 · BKP 3 Betriebsanlagen 0 · BKP 4
+  Umgebung 150'000 · BKP 5 Baunebenkosten 60'000 · BKP 6 Reserve 0 · **Total 0–6 (= 1–5, da 0
+  und 6 beide null): CHF 3'446'500.– inkl. MWSt.**
+- Damit deckt sich dieser Wert exakt mit dem in Run 3 bereits gefundenen KV Siworks
+  (`1120124 KV Zusammenstellung Var Total 231219.pdf`, Basisvariante CHF 3'446'500.–) — beide
+  Dokumente nennen also unabhängig denselben Betrag, nur dass die Marktwertanalyse zusätzlich
+  das zugehörige GV liefert, das im KV-Siworks-Dokument fehlte.
+- **Rechnerische Verifikation (Gegenprobe, nicht selbst hergeleitet):** Das Dokument weist selbst
+  aus: P/GF CHF 6'370.–/m² (3'446'500 / 541 = 6'370, stimmt), P/HNF CHF 11'490.–/m² (3'446'500 /
+  300 = 11'488, stimmt), **P/GV CHF 1'735.–/m³** (3'446'500 / 1'986 = 1'735.7, stimmt). Alle drei
+  Kennzahlen sind im Dokument selbst tabelliert und intern konsistent — anders als die in Run 3
+  gefundene Grobkostenberechnung mit den beiden sich widersprechenden Gesamtkosten.
+
+**Auflösung des Run-3-Widerspruchs:** Die früher (Run 3) gefundene Grobkostenberechnung
+(GV 1'715 m³, eBKP-H, CHF 2'960'000/1'800'000) ist ein früherer, mit sich selbst
+widersprüchlicher Stand aus derselben Projektphase; die im Dezember 2023 finalisierte
+Kombination aus KV Siworks + Marktwertanalyse (GV 1'986 m³, klassischer BKP, CHF 3'446'500,
+intern konsequent) ist der spätere, belastbarere und in sich konsistente Stand. Für diese KB
+wird **nur** der Dezember-Stand verwendet; der ältere eBKP-H-Stand bleibt verworfen (weiterhin
+nicht Teil der Kennwerte-KB).
+
+**Einordnung:** Objekt ist ein **Ersatzneubau EFH** in Hanglage (Willerzell/Einsiedeln SZ) mit
+laut Dokument selbst benannten Luxus-Kostentreibern (Pool, Erker, Dachreiter, exponierte
+Hanglage, "Kosten im Startbereich des Luxussegmentes"). Das Dokument ist ein **Kostenvoranschlag**
+("KV Aktuelle Pläne"), keine Bauabrechnung — Ist-Kosten der tatsächlichen Ausführung liegen
+weiterhin nicht vor. Kennwert **CHF 1'735.–/m³ GV, Standard gehoben/Luxus, Preisstand Dezember
+2023, Region Kanton Schwyz (Einsiedeln)** ist damit als **Einzelfall n=1, aber erstmals mit
+sauberem GV+BKP-1-5-Tripel und interner Konsistenzprüfung** verwertbar — siehe
+`wiki/kennwerte.md`.
+
+Abrufdatum: 2026-07-26.

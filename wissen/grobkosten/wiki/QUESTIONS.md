@@ -2,6 +2,37 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-07-26 — Trainings-Run 4 (Vertiefung statt neuer Projekte): Reckholdern verwertbar, Ackersteinstrasse-Ursache geklärt — neue offene Frage: Luxus-Standardstufe
+
+- **Befund Reckholdern (gelöst, kein offener Punkt mehr):** Ein fünftes, später datiertes
+  JANS-Dokument (`09_Dokumente/Marktwertschaetzung/2304RE20_Marktwertanalyse_RJ.pdf`, Stand
+  31.12.2023) liefert GV (1'986 m³) und BKP-1–5-Kosten (CHF 3'446'500, klassischer BKP, deckt
+  sich mit dem unabhängig gefundenen KV Siworks) im selben, rechnerisch selbst verifizierten
+  Dokument. Der ältere eBKP-H-Widerspruch aus Run 3 (GV 1'715 m³, zwei sich widersprechende
+  Kostenstände) ist damit als überholter Zwischenstand eingeordnet, nicht als ungeklärter
+  Fehler. Erster Kennwert-Einzelfall mit sauberem GV+BKP-Tripel in dieser KB: 1'735 CHF/m³,
+  EFH gehoben/Luxus. Details: `raw/2304-reckholdern.md`.
+- **Befund Ackersteinstrasse (gelöst, kein offener Punkt mehr):** Rechnungsprüfung
+  (`04_KTV/08_Rechnungen/`) zeigt, dass das Mandat mit der letzten Rechnung 07.09.2023
+  ("Plangrundlagen für Abänderungseingabe") endete — keine spätere Rechnung, keine
+  Bauleitung/Baubuchhaltung, kein Unternehmerzuschlag. Das Projekt kam nie zur Ausführung; die
+  vier widersprüchlichen GKS-Stände aus Run 3 waren Zwischenstände eines nie abgeschlossenen
+  Entwurfsprozesses. Eine Bauabrechnung wird für dieses Projekt nie existieren — Fall
+  geschlossen (weiterhin nicht verwertbar, aber nicht mehr offen). Details:
+  `raw/2202-ackersteinstrasse.md`.
+- **Neue offene Frage (aus dem Reckholdern-Fund):** Der Reckholdern-Kennwert (1'735 CHF/m³)
+  liegt deutlich über dem bestehenden EFH-Seed-Band (850–1'200), konsistent mit der im
+  Quelldokument selbst benannten Luxus-Einordnung (Pool, Erker, Dachreiter, Hanglage). Sollte
+  `wiki/kennwerte.md` bei einem zweiten vergleichbaren gehobenen/Luxus-EFH-Fall eine eigene
+  Standardstufe "gehoben/Luxus" mit eigenem Band statt nur der bestehenden Stufen
+  einfach/mittel/gehoben führen? Bis n=2 in dieser Kategorie vorliegt, keine Strukturänderung.
+- **Empfehlung für Run 5:** Die beiden bekannten SharePoint-Quellen (`AR - 01 Projekte`,
+  `AR - 07 Archiv`) sind jetzt vollständig geprüft UND vertieft (kein Kandidat mit offenem
+  Klärungsbedarf mehr). Ein Run 5 müsste entweder eine neue Quelle identifizieren (z.B. weitere
+  SharePoint-Bibliotheken ausserhalb `AR - 01`/`AR - 07`, sofern vorhanden) oder auf einen
+  Ereignis-Trigger warten (neuer Kostenstand aus laufenden Mandaten via `kostenkontrolle`) statt
+  erneut dieselben Projektordner zu durchsuchen.
+
 ## 2026-07-25 — Trainings-Run 3 (Drittquelle AR-07 Archiv geprüft): erstmals GV+BKP im selben Dokument, aber beide Fälle intern widersprüchlich
 
 - **Befund:** SharePoint `AR - 07 Archiv` (abgeschlossene Mandate) vollständig geprüft (4

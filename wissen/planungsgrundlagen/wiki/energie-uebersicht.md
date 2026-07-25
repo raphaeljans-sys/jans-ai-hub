@@ -1,197 +1,197 @@
 ---
-title: Energie — Uebersicht (PV, U-Wert, Energienachweis)
+title: Energie — Übersicht (PV, U-Wert, Energienachweis)
 status: established
 last_updated: 2026-07-22
-sources: [PL - 04 Energie (SharePoint), _Formulare Kanton ZH Baueingabe/EN-ZH, endk.ch, zh.ch/energienachweise (12.06.2026), SIA 380/1, "CLT by Stora Enso — Technical documentation Building physics" (Version 06.2021, PL-04/U Wert berechnung/clt, S.6-11 vollstaendig Run 25+56), realer JANS-Fall Biwak Grassen U-Wert-Optimierung (PL-04/U Wert berechnung/Grassen Biwak, Run 25), PL-04/_Betriebsenergie/IMG_3525-3538 (Fallbeispiel-Screenshots, ungeklaerte Primaerquelle, erneut vollstaendig gelesen Run 56), zh.ch/planen-bauen/bauvorschriften-gebaeude-energie + zh.ch/umwelt-tiere/klima/langfristige-klimastrategie (Massnahmen GE01-GE05) + hev-zh.ch/muken + espazium.ch (Refresh 14.07.2026, Run 38)]
+sources: [PL - 04 Energie (SharePoint), _Formulare Kanton ZH Baueingabe/EN-ZH, endk.ch, zh.ch/energienachweise (12.06.2026), SIA 380/1, "CLT by Stora Enso — Technical documentation Building physics" (Version 06.2021, PL-04/U Wert berechnung/clt, S.6-11 vollständig Run 25+56), realer JANS-Fall Biwak Grassen U-Wert-Optimierung (PL-04/U Wert berechnung/Grassen Biwak, Run 25), PL-04/_Betriebsenergie/IMG_3525-3538 (Fallbeispiel-Screenshots, ungeklärte Primärquelle, erneut vollständig gelesen Run 56), zh.ch/planen-bauen/bauvorschriften-gebaeude-energie + zh.ch/umwelt-tiere/klima/langfristige-klimastrategie (Massnahmen GE01-GE05) + hev-zh.ch/muken + espazium.ch (Refresh 14.07.2026, Run 38)]
 links: [[recht-norm-quellenlandkarte]], [[energie-pv-eignung-typenwahl]], [[energie-energienachweis-zh-formulare]], [[energie-private-kontrolle-zh]], [[energie-baueingabe-zusatzformulare]], [[energie-minergie-referenzprojekt-maison-climat]], [[energie-betriebsenergie-pv-wirtschaftlichkeit]]
 ---
 
-# Energie — Uebersicht (PV, U-Wert, Energienachweis)
+# Energie — Übersicht (PV, U-Wert, Energienachweis)
 
-Einstieg in die Domaene Energie (Quelle: **PL - 04 Energie**). Bedient vom Agent
+Einstieg in die Domäne Energie (Quelle: **PL - 04 Energie**). Bedient vom Agent
 `energie-berater`. Aufbau-Artikel — Kennwerte werden im Trainings-Loop belegt nachgezogen.
 
-> **Bruecke:** Energie ist zur strategischen Prioritaet erhoben und hat eine **eigene KB
-> `wissen/energie/`** mit Destillate-Layer (PDF→MD) + `BAUHERREN-FAQ` und einem **taeglichen**
-> Lern-Loop (`energie-training`). Fuer Tiefe und Bauherren-Antworten **dort** nachschlagen;
+> **Brücke:** Energie ist zur strategischen Priorität erhoben und hat eine **eigene KB
+> `wissen/energie/`** mit Destillate-Layer (PDF→MD) + `BAUHERREN-FAQ` und einem **täglichen**
+> Lern-Loop (`energie-training`). Für Tiefe und Bauherren-Antworten **dort** nachschlagen;
 > dieser Artikel bleibt der Kurz-Einstieg im Planungsgrundlagen-Kontext.
 
 ## PV / Solar — Typen, Eignung, Ertrag
 
 Eigener Artikel: **`[[energie-pv-eignung-typenwahl]]`** — Typen-Entscheidungsbaum (A–E),
 Eignungs-/Ertragswerkzeuge (sonnendach.ch, EnergieSchweiz-Solarrechner, uvek-gis, sonnenverlauf,
-PVSOL), die **Benchmark-Tabelle Ertrag/Kosten je Typ** (~850–980 kWh/kWp; CHF/kWp typabhaengig
+PVSOL), die **Benchmark-Tabelle Ertrag/Kosten je Typ** (~850–980 kWh/kWp; CHF/kWp typabhängig
 ~2'000–7'400) und die EN-104-Dimensionierung. **Brandschutz/Naturgefahren Solar → eigener Artikel
-`[[energie-pv-brandschutz]]`** (Swissolar-STP zu VKF-BSM 2001-15: Brandmauer-Uebergang, RWA-Abstand,
+`[[energie-pv-brandschutz]]`** (Swissolar-STP zu VKF-BSM 2001-15: Brandmauer-Übergang, RWA-Abstand,
 Feuerwehr ≥30 kW, Hagel/Schnee SIA 261); Bauteil-Klassen → Skill `brandschutz`.
 
-## U-Wert / Heizwaermebedarf (PL-04/U Wert berechnung)
+## U-Wert / Heizwärmebedarf (PL-04/U Wert berechnung)
 
 Grenzwerte, Q_H und Bauteilkatalog liegen **belegt in der KB `wissen/energie/`** — nicht hier
 duplizieren:
 - U-Wert-Grenzwerte je Bauteil (Einzelbauteil- vs. Systemnachweis) → `[[u-werte-grenzwerte-ch]]`
   (Neubau opak 0,17 · Fenster 1,0 W/m²K usw., EnFK EN-102 2018 / SIA 380/1:2016 — Werte
-  unveraendert; Ausgabe korrigiert, Wissens-Chef Run 15 25.07.2026, PDF-Kopfzeile).
+  unverändert; Ausgabe korrigiert, Wissens-Chef Run 15 25.07.2026, PDF-Kopfzeile).
 - Minergie-Standards → `[[minergie-standards]]`. Bauteilkatalog/Daemmstoffwahl, CLT/Holz
   (Stora Enso) → PL-04/`U Wert berechnung`. Reales Minergie-A-Referenzprojekt (Holzbau,
-  Geschosswohnungsbau, PV-integriert + Erdwaermesonde, kompakte Grundrisse) → eigener Artikel
+  Geschosswohnungsbau, PV-integriert + Erdwärmesonde, kompakte Grundrisse) → eigener Artikel
   `[[energie-minergie-referenzprojekt-maison-climat]]` (PL-04/`wissen.minergie.ch`, 2026-07-13).
 - **CLT-Bauphysik belegt (Run 25, 2026-07-13):** "CLT by Stora Enso — Technische Dokumentation
-  Bauphysik" (Version 06.2021, PL-04/`U Wert berechnung/clt/`) — Waermeleitfaehigkeit von CLT laut
+  Bauphysik" (Version 06.2021, PL-04/`U Wert berechnung/clt/`) — Wärmeleitfähigkeit von CLT laut
   **Norm EN ISO 10456: λ = 0,12 W/mK** (Rohdichte/Holzfeuchte-abhaengig). Beispielrechnungen:
   eine **unbekleidete CLT-Platte 100 mm** erreicht **U = 0,997 W/m²K**; mit **160 mm Mineralwolle-
-  Daemmung** (λ = 0,035) sinkt der U-Wert auf **0,179 W/m²K** — bereits unter dem Neubau-Grenzwert
-  0,17 nahe, mit etwas mehr Daemmstaerke problemlos einzuhalten. Dieselbe Doku enthaelt eigene
-  Kapitel zu **Luftdichtheit** (Vorteile von CLT, Ausfuehrungs-/Detailanschluesse) und **Feuchte/
-  Diffusion** (sd-Wert, Gutachten Holzforschung Austria) sowie ueber 150 gepruefte
-  **Bauteilaufbauten** (Aussen-/Innen-/Trennwaende, Decken, Daecher) — bei Bedarf gezielt
+  Dämmung** (λ = 0,035) sinkt der U-Wert auf **0,179 W/m²K** — bereits unter dem Neubau-Grenzwert
+  0,17 nahe, mit etwas mehr Dämmstärke problemlos einzuhalten. Dieselbe Doku enthält eigene
+  Kapitel zu **Luftdichtheit** (Vorteile von CLT, Ausführungs-/Detailanschluesse) und **Feuchte/
+  Diffusion** (sd-Wert, Gutachten Holzforschung Austria) sowie über 150 geprüfte
+  **Bauteilaufbauten** (Aussen-/Innen-/Trennwaende, Decken, Dächer) — bei Bedarf gezielt
   nachschlagen statt hier zu duplizieren.
-  **Vollstaendige Vergleichstabelle nachgetragen (Run 56, 2026-07-22, S.10-11 derselben Doku):**
-  CLT 100 mm 3s + Mineralwolle-Daemmung 40-240 mm ergibt U-Werte von **0,47** (40 mm) bis **0,13**
-  (240 mm) W/m²K; eine zusaetzliche **12,5 mm Gipskartonplatte** innen (λ = 0,21) veraendert den
-  U-Wert **kaum** (max. 0,02 Differenz) — bauphysikalisch fast irrelevant, aber relevant fuer
-  Brandschutz/Oberflaeche (→ Skill `brandschutz`). Faustregel Vorprojekt: fuer ein Minergie-
+  **Vollständige Vergleichstabelle nachgetragen (Run 56, 2026-07-22, S.10-11 derselben Doku):**
+  CLT 100 mm 3s + Mineralwolle-Dämmung 40-240 mm ergibt U-Werte von **0,47** (40 mm) bis **0,13**
+  (240 mm) W/m²K; eine zusätzliche **12,5 mm Gipskartonplatte** innen (λ = 0,21) verändert den
+  U-Wert **kaum** (max. 0,02 Differenz) — bauphysikalisch fast irrelevant, aber relevant für
+  Brandschutz/Oberflaeche (→ Skill `brandschutz`). Faustregel Vorprojekt: für ein Minergie-
   taugliches Bauteil (U ≤ 0,17-0,20) braucht eine CLT-Aussenwand **mindestens ~140-160 mm**
-  Zusatzdaemmung; Einzelfallrechnung (SIA 380/1) bleibt Pflicht.
+  Zusatzdämmung; Einzelfallrechnung (SIA 380/1) bleibt Pflicht.
   **Querbezug KB energie (Cross-KB Run 12):** Führend für die CLT-Fachphysik (λ, Bauteilaufbauten,
   Feuchte/Diffusion) ist `wissen/energie/destillate/clt-bauphysik-stora-enso` (established, λ = 0,12 W/mK
   herstellerbelegt) bzw. `.../clt-bauteilkatalog-stora-enso`; hier nur das planungsrelevante Delta,
   nicht doppelt pflegen.
 - **Realer JANS-Benchmark — Biwak Grassen** (alpine Kleinstbeherbergung, vgl. Brandschutz-Benchmark
-  in [[brandschutz-pl03-wegweiser]] §4f): Wandaufbau Schutzblech (Aluminium) + 40 mm luftgefuellte
+  in [[brandschutz-pl03-wegweiser]] §4f): Wandaufbau Schutzblech (Aluminium) + 40 mm luftgefüllte
   Unterkonstruktion (λ ≈ 0,15) + 40 mm Mineralwolle (λ = 0,035) + 140 mm CLT (Stora Enso, λ = 0,13)
-  ergibt **U ≈ 0,40 W/m²K** — erfuellt den geforderten Zielwert von 0,5 W/m²K mit Reserve.
-  Alternative Optimierung (oekologischer Fussabdruck): Ersatz der Mineralwolle durch **Stroh**
-  (λ ≈ 0,045) haelt den Zielwert weiterhin ein. Zeigt exemplarisch, wie eine schlanke
-  CLT-Aussenwand ohne zusaetzliche Innendaemmung bereits mit moderater Daemmstaerke den
-  Alpin-Zielwert erreicht — relevant fuer Kleinstbauten mit beschraenktem Wandaufbau-Budget
+  ergibt **U ≈ 0,40 W/m²K** — erfüllt den geforderten Zielwert von 0,5 W/m²K mit Reserve.
+  Alternative Optimierung (ökologischer Fussabdruck): Ersatz der Mineralwolle durch **Stroh**
+  (λ ≈ 0,045) hält den Zielwert weiterhin ein. Zeigt exemplarisch, wie eine schlanke
+  CLT-Aussenwand ohne zusätzliche Innendämmung bereits mit moderater Dämmstärke den
+  Alpin-Zielwert erreicht — relevant für Kleinstbauten mit beschränktem Wandaufbau-Budget
   (Gewicht/Transport auf Helikopter-Baustellen). ⚠ **Beleg-Delta nachgetragen (Run 56):** die
-  Quelle dieses Falls (KI-gestuetzte Chat-Berechnung, kein Normverweis, Herkunft nicht mehr
+  Quelle dieses Falls (KI-gestützte Chat-Berechnung, kein Normverweis, Herkunft nicht mehr
   auffindbar) rechnet mit λ_CLT = 0,13 statt dem herstellerbelegten 0,12 W/mK — Delta ~8 %, ohne
-  Praxisrelevanz fuer das Ergebnis, aber ein Beleg-Bruch; der Fall bleibt als reales
+  Praxisrelevanz für das Ergebnis, aber ein Beleg-Bruch; der Fall bleibt als reales
   Planungsbeispiel dokumentiert, ist aber selbst **nicht** als belegter Kennwert zu zitieren.
 
 ## Betriebsenergie — reales Sanierungs-Fallbeispiel EFH (PL-04/`_Betriebsenergie`)
 
 > Abgrenzung: **Betriebsenergie** meint hier den effektiven Jahresverbrauch/-kosten eines
-> Gebaeudes im Betrieb (Gas/Strom, Eigenverbrauch/Einspeisung) — nicht zu verwechseln mit dem
+> Gebäudes im Betrieb (Gas/Strom, Eigenverbrauch/Einspeisung) — nicht zu verwechseln mit dem
 > Betriebsenergie-**Anteil an der grauen Energie/THGE-Gesamtbilanz** nach SIA 2032, der in der
 > KB `wissen/energie/` (`[[graue-energie]]`, Destillat `graue-energie-betriebsenergie.md`)
 > behandelt wird.
 
 Im Ordner `_Betriebsenergie` liegen 15 Bildschirmfotos (`IMG_3525`–`IMG_3538.PNG/JPG`) einer
-privaten Praesentation ("Facts & Figures") zu einem **realen Sanierungsfall EFH Baujahr 1957,
+privaten Präsentation ("Facts & Figures") zu einem **realen Sanierungsfall EFH Baujahr 1957,
 120 m²** — kein JANS-Projekt, sondern ein extern gefundenes, aber konkret durchgerechnetes
-Fallbeispiel mit belastbaren Verbrauchs-/Kostenreihen ueber 5 Jahre. Nuetzlich als **Referenz-
-Groessenordnung** fuer Bauherren-Gespraeche zur Amortisation von PV + Batterie + WP-Boiler bei
+Fallbeispiel mit belastbaren Verbrauchs-/Kostenreihen über 5 Jahre. Nützlich als **Referenz-
+Grössenordnung** für Bauherren-Gespräche zur Amortisation von PV + Batterie + WP-Boiler bei
 einem unsanierten Altbau.
 
-**Ausgangslage:** Gasheizung, PV 14 kWp (2019), Warmwasser-Waermepumpen-Boiler (2019),
+**Ausgangslage:** Gasheizung, PV 14 kWp (2019), Warmwasser-Wärmepumpen-Boiler (2019),
 11.5 kWh Batterie (2019), Dachisolation (2021), Fussbodenheizung in einem Raum (2021).
 
 **Gasbezug (kWh/Jahr):** 2017: 28'613 · 2018: 26'250 · 2019: 28'560 · 2020: 22'754 · 2021: 19'073
-— Ruecknahme um rund einen Drittel nach WP-Boiler (2019) und Dachdaemmung (2021); die
+— Rücknahme um rund einen Drittel nach WP-Boiler (2019) und Dachdämmung (2021); die
 Gaskosten pro kWh stiegen im selben Zeitraum von 0,088 auf 0,15 CHF/kWh (2021), die Gaskosten/Jahr
-blieben deshalb trotz Mengenrueckgang bei 2'832 CHF (2021) aehnlich hoch wie 2017 (2'530 CHF) —
+blieben deshalb trotz Mengenrückgang bei 2'832 CHF (2021) ähnlich hoch wie 2017 (2'530 CHF) —
 zeigt die Teuerungs-Kompensation durch Verbrauchsreduktion.
 
 **Stromverbrauch (kWh/Jahr):** Bezug 2017–2019 rund 6'360–6'522 kWh, ab PV-Inbetriebnahme 2019
 Einspeisung −495 kWh; nach Batterie-Vollbetrieb 2020/2021 Bezug nur noch 2'266/1'650 kWh,
 Einspeisung −9'900/−10'850 kWh, Eigenverbrauch 5'600/5'179 kWh — die Batterie verschiebt den
 Eigenverbrauchsanteil deutlich. Strompreis stieg 0,204 (2017) auf 0,228 CHF/kWh (2020), die
-Einspeiseverguetung blieb konstant bei 0,15 CHF/kWh (2019–2021).
+Einspeisevergütung blieb konstant bei 0,15 CHF/kWh (2019–2021).
 
 **Einsparung nach Massnahme (CHF/Jahr):** 2020 Strom 2'290 + Boiler 453 = 2'743 CHF; 2021 Strom
-2'353 + Daemmung 546 + Boiler 862 = 3'761 CHF — die Dachdaemmung liefert ab 2021 einen separat
+2'353 + Dämmung 546 + Boiler 862 = 3'761 CHF — die Dachdämmung liefert ab 2021 einen separat
 ausgewiesenen Spareffekt.
 
 **Amortisationsrechnung:** Anlagekosten (Solaranlage, Batterie, Boiler, Installation) 36'000 CHF,
-abzueglich Foerderung **Pronovo Einmalverguetung (KLEIV)** und Steuerabzug −15'000 CHF ⇒
-Nettokosten 21'000 CHF. Bei einer belegten Einsparung von 5'958 CHF ueber 2 Jahre (≈ 3'000 CHF/
-Jahr) ergibt sich eine **Amortisationszeit von rund 7 Jahren**. Die Einmalverguetung fuer
-Kleinanlagen (KLEIV, PV < 100 kWp) wird ueber **Pronovo** (`pronovo.ch`) abgewickelt — die
-Foerdersystematik (KLEIV/GREIV/HEIV, Grundbeitrag + degressiver Leistungsbeitrag, Neigungs-/
-Parkflaechenbonus, Tarifrechner, Stand 2026-07) ist in [[energie-betriebsenergie-pv-wirtschaftlichkeit]]
+abzüglich Förderung **Pronovo Einmalvergütung (KLEIV)** und Steuerabzug −15'000 CHF ⇒
+Nettokosten 21'000 CHF. Bei einer belegten Einsparung von 5'958 CHF über 2 Jahre (≈ 3'000 CHF/
+Jahr) ergibt sich eine **Amortisationszeit von rund 7 Jahren**. Die Einmalvergütung für
+Kleinanlagen (KLEIV, PV < 100 kWp) wird über **Pronovo** (`pronovo.ch`) abgewickelt — die
+Fördersystematik (KLEIV/GREIV/HEIV, Grundbeitrag + degressiver Leistungsbeitrag, Neigungs-/
+Parkflächenbonus, Tarifrechner, Stand 2026-07) ist in [[energie-betriebsenergie-pv-wirtschaftlichkeit]]
 belegt aufbereitet; der gleichnamige SharePoint-Ordner `PL - 04 Energie/pronovo.ch/` ist leer
 (Quelle = Website).
 
-*Status:* `emerging` — ein einzelnes, nicht-JANS-eigenes Fallbeispiel ohne Primaerquellen-Beleg
-(Urheber/Publikationsdatum des Screenshots nicht bekannt, Datenreihe endet 2021); Groessenordnung
-plausibel und intern konsistent, aber nicht als allgemeingueltiger Kennwert zu zitieren, sondern
-als anschauliches Amortisations-Beispiel fuer Bauherren-Gespraeche.
+*Status:* `emerging` — ein einzelnes, nicht-JANS-eigenes Fallbeispiel ohne Primärquellen-Beleg
+(Urheber/Publikationsdatum des Screenshots nicht bekannt, Datenreihe endet 2021); Grössenordnung
+plausibel und intern konsistent, aber nicht als allgemeingültiger Kennwert zu zitieren, sondern
+als anschauliches Amortisations-Beispiel für Bauherren-Gespräche.
 
 ## Energienachweis ZH — EN-ZH + Fachformulare + EVEN
 
 Im Kt. ZH ist das **Hauptformular EN-ZH** die Projektkontroll-Checkliste, die je Fachbereich auf
-die **EN-Fachnachweise** verweist (EN-101…EN-141, Schallschutz S/LN-1). **Vollstaendige
+die **EN-Fachnachweise** verweist (EN-101…EN-141, Schallschutz S/LN-1). **Vollständige
 Fachformular-Liste mit Nummern, Inhalt und Rechtsbezug, plus Detail EN-105/EN-110-ZH und der
 EVEN-Umstellung 2026 → eigener Artikel `[[energie-energienachweis-zh-formulare]]`** (belegt
 2026-06-12 aus den Original-PDF + zh.ch). Kurzfassung:
 
-- **⚠ Bezug seit 01.01.2026: Plattform EVEN** (`energievollzug.ch`) — die fruehere PDF-Familie
+- **⚠ Bezug seit 01.01.2026: Plattform EVEN** (`energievollzug.ch`) — die frühere PDF-Familie
   EN-101…EN-141 liegt jetzt komplett digital in EVEN. PDF bleiben nur: Energienutzungs-Deklaration
-  (geringf. Umbau), WTA, **EN-104-ZH**, **EN-110-ZH**, Ausfuehrungskontrolle, Lueftung
-  Fahrzeugeinstellraeume/gewerbl. Kuechen. Alt-Projekte → Plattform «Energiehub Gebaeude».
+  (geringf. Umbau), WTA, **EN-104-ZH**, **EN-110-ZH**, Ausführungskontrolle, Lüftung
+  Fahrzeugeinstellräume/gewerbl. Küchen. Alt-Projekte → Plattform «Energiehub Gebäude».
   **EVEN-Bedienung** (Rollen/Ablauf/Statusmodell/Beilagen-Upload/Private Kontrolle) →
   `[[energie-even-plattform-bedienung]]` (alle Kantone ausser BE + FL; ZH = Kanton mit PK).
-- **Wer/wo:** rechtzeitig **vor Baubeginn**; Nachweis in EVEN anlegen (frueher: DLZ/Gemeinde).
-- **EN-ZH-Logik:** Art des Vorhabens (Neubau/Anbau/Umbau/Umnutzung) + SIA-Gebaeudekategorie →
-  Checkliste kreuzt die betroffenen Fachnachweise an (Energiebedarf, Waermedaemmung, Heizung/WW,
-  Eigenstrom, Lueftung/Kuehlung/Befeuchtung, Beleuchtung, Spezialanlagen, Schutz vor Laerm).
+- **Wer/wo:** rechtzeitig **vor Baubeginn**; Nachweis in EVEN anlegen (früher: DLZ/Gemeinde).
+- **EN-ZH-Logik:** Art des Vorhabens (Neubau/Anbau/Umbau/Umnutzung) + SIA-Gebäudekategorie →
+  Checkliste kreuzt die betroffenen Fachnachweise an (Energiebedarf, Wärmedämmung, Heizung/WW,
+  Eigenstrom, Lüftung/Kuehlung/Befeuchtung, Beleuchtung, Spezialanlagen, Schutz vor Lärm).
 - **Nachweiswege** (System- vs. Einzelbauteilnachweis, SIA 380/1:2016): → `[[u-werte-grenzwerte-ch]]`.
-- **Wer unterzeichnet (Private Kontrolle):** im Kt. ZH unterstehen die Energienachweise **primaer
+- **Wer unterzeichnet (Private Kontrolle):** im Kt. ZH unterstehen die Energienachweise **primär
   der Privaten Kontrolle** durch befugte Fachleute (Befugnisbereiche Wä/He/Kl/Bl/Lä) — wer welches
   EN-Formular zeichnen darf, die drei Unterschriften (Bauherr/Projekt-Verantw./Befugte) und die
-  interkantonale Geltung (SZ nur natuerliche Personen) → eigener Artikel
+  interkantonale Geltung (SZ nur natürliche Personen) → eigener Artikel
   `[[energie-private-kontrolle-zh]]` (belegt 2026-06-26, Merkblatt AWEL Stand April 2025).
 - **Reale Anwendung JANS:** 2619-KISPI (Auflage UGZ II.8.a/b/c → EN-ZH / EN-105 / EN-110-ZH),
-  gefuehrt in EVEN.
-- **Zusatzformulare neben EN-ZH/EVEN** (WTA fuer waermetechnische Anlagen, Formular S
-  Schallschutznachweis Aussenlaerm, Gesuch Versickerung Regenwasser) — eigenstaendige Verfahren,
+  geführt in EVEN.
+- **Zusatzformulare neben EN-ZH/EVEN** (WTA für wärmetechnische Anlagen, Formular S
+  Schallschutznachweis Aussenlärm, Gesuch Versickerung Regenwasser) — eigenständige Verfahren,
   kein Bestandteil des Energienachweises selbst → eigener Artikel
   `[[energie-baueingabe-zusatzformulare]]` (2026-07-13).
 
 ## Graue Energie / THGE als Planungsgrundlage (PL-04, kommender Grenzwert)
 
-Mit besser werdender Huelle wird die **graue Energie (THGE der Erstellung)** zum dominierenden
-Hebel — und sie kommt **rechtlich**: Pa.Iv. 20.433 verpflichtet die Kantone, kuenftig (Art. 45
-Abs. 3 lit. e EnG) **Grenzwerte fuer graue Energie** festzulegen (kommende MuKEn 2025-Umsetzung).
-Heute im Vollzug nur ueber Labels: **Minergie-ECO** (THGE-Nachweis vereinfacht im Minergie-Tool
-**oder** rechnerisch via Minergie-ECO-Tool; Basis **SIA 2032 + KBOB-Oekobilanzdaten**, Lebensdauer
+Mit besser werdender Hülle wird die **graue Energie (THGE der Erstellung)** zum dominierenden
+Hebel — und sie kommt **rechtlich**: Pa.Iv. 20.433 verpflichtet die Kantone, künftig (Art. 45
+Abs. 3 lit. e EnG) **Grenzwerte für graue Energie** festzulegen (kommende MuKEn 2025-Umsetzung).
+Heute im Vollzug nur über Labels: **Minergie-ECO** (THGE-Nachweis vereinfacht im Minergie-Tool
+**oder** rechnerisch via Minergie-ECO-Tool; Basis **SIA 2032 + KBOB-Ökobilanzdaten**, Lebensdauer
 60 J), **SNBS**, **SIA 390/1 Klimapfad**. **Methodik/Kennwerte/9 Reduktionshebel → KB
 `wissen/energie/`** (`[[graue-energie]]`, `[[minergie-standards]]`) — hier kein Doppel, nur die
 beschaffbare Planungsgrundlage + das reale JANS-Deliverable:
 
-- **SIA-2040-Zielwerte Wohnen (Effizienzpfad Energie, Standardpersonenflaeche, Richtwerte
-  kWh/m²·a Primaerenergie nicht erneuerbar):** Erstellung **30** (Neubau) / 20 (Umbau) · Betrieb
-  **60 / 70** · Mobilitaet **30 / 30**; Zielwert E+B-Zusatzanforderung **~90**. Bei Belegungs-
-  vorschriften hoeher (Erstellung 30/20 · Betrieb 90/100 · Mobilitaet 40/40). Quelle PL-04/
+- **SIA-2040-Zielwerte Wohnen (Effizienzpfad Energie, Standardpersonenfläche, Richtwerte
+  kWh/m²·a Primärenergie nicht erneuerbar):** Erstellung **30** (Neubau) / 20 (Umbau) · Betrieb
+  **60 / 70** · Mobilität **30 / 30**; Zielwert E+B-Zusatzanforderung **~90**. Bei Belegungs-
+  vorschriften höher (Erstellung 30/20 · Betrieb 90/100 · Mobilität 40/40). Quelle PL-04/
   `_Heizwaermebedarf` (SIA 2040 Tab. 3/4) — ⚠ Edition vor Zitat verifizieren, Tiefe → `[[graue-energie]]`.
-- **JANS-Benchmark — Oekobilanz Wettbewerb «Schlierenweg 31»** (ZPF Ingenieure, Remo Thalmann,
+- **JANS-Benchmark — Ökobilanz Wettbewerb «Schlierenweg 31»** (ZPF Ingenieure, Remo Thalmann,
   28.03.2022): Ziel = **rechnerische Amortisation der grauen Energie aus der Erstellung mittels
-  PV-Ertrags-Ueberschuss in unter 30 Jahren**. Zielwerte Erstellung inkl. PV-Anteil **THGE
+  PV-Ertrags-Überschuss in unter 30 Jahren**. Zielwerte Erstellung inkl. PV-Anteil **THGE
   6.0 kg CO₂-eq/m²·a · graue Energie 20 kWh/m²·a · 12'000 UBP/m²·a** (akzeptabel: 9.0 / 30 / 13'000);
   Betrieb netto 0. Zeigt, **wie** ein graue-Energie-Nachweis als Wettbewerbs-Deliverable aufgebaut
   ist (Bilanz Erstellung + Betrieb − PV-Ertrag).
 
-⚠ **Datenstand:** Kt. ZH operativ ueber EnerG seit 1.9.2022 (MuKEn 2014); **MuKEn 2025** von der
+⚠ **Datenstand:** Kt. ZH operativ über EnerG seit 1.9.2022 (MuKEn 2014); **MuKEn 2025** von der
 EnDK-Plenarversammlung **29.08.2025** verabschiedet (Umsetzungshorizont bis 2030; Neubau neu: graue-
-Energie-THG-Grenzwert nach Minergie-Reglement ab 01.01.2025, vollstaendig erneuerbare Waerme,
-**Eigenstrom 20 W/m² EBF** statt 10). **ZH-Ueberfuehrung Stand 04.07.2026 weiter ausstehend** — bis
+Energie-THG-Grenzwert nach Minergie-Reglement ab 01.01.2025, vollständig erneuerbare Wärme,
+**Eigenstrom 20 W/m² EBF** statt 10). **ZH-Überführung Stand 04.07.2026 weiter ausstehend** — bis
 dahin gilt weiterhin MuKEn 2014 (Eigenstrom 10 W/m²). Details/Artikel-Nummern →
 `[[energie-energienachweis-zh-formulare]]` §Datenstand. ZH-PDF (EN-ZH Juli 2022, EN-110-ZH Sept 2022)
-tragen «gueltig bis 31.12.2025» → ab 2026 EVEN-Version verwenden. **Refresh 2026-07-14 (Run 38):**
-amtliche ZH-Ueberfuehrung weiterhin nicht publiziert (Detail-Check → `[[energie-energienachweis-
-zh-formulare]]` §Datenstand). **Ungeklaerter Nebenfund, NICHT amtlich verifiziert:** mehrere
-WebSearch-Zusammenfassungen (nicht auf eine konkrete zh.ch-Seite oder ein PDF zurueckfuehrbar —
-Massnahmenblaetter GE01–GE05 der kantonalen Klimastrategie einzeln gegengeprueft, keines davon
-enthaelt die Aussage) behaupten unabhaengig voneinander, der Kanton ZH wolle bis **2027** einen
-eigenen Grenzwert fuer graue Treibhausgasemissionen festlegen («Pionierrolle», «normierte Standards
-der Baubranche», periodische Verschaerfung). Gemaess Rule `identifikatoren-verifizieren`/
+tragen «gültig bis 31.12.2025» → ab 2026 EVEN-Version verwenden. **Refresh 2026-07-14 (Run 38):**
+amtliche ZH-Überführung weiterhin nicht publiziert (Detail-Check → `[[energie-energienachweis-
+zh-formulare]]` §Datenstand). **Ungeklärter Nebenfund, NICHT amtlich verifiziert:** mehrere
+WebSearch-Zusammenfassungen (nicht auf eine konkrete zh.ch-Seite oder ein PDF zurückführbar —
+Massnahmenblätter GE01–GE05 der kantonalen Klimastrategie einzeln gegengeprüft, keines davon
+enthält die Aussage) behaupten unabhängig voneinander, der Kanton ZH wolle bis **2027** einen
+eigenen Grenzwert für graue Treibhausgasemissionen festlegen («Pionierrolle», «normierte Standards
+der Baubranche», periodische Verschärfung). Gemäss Rule `identifikatoren-verifizieren`/
 `wissens-bibliothekar` (Status-Hebung nur nach Verifikation gegen amtliche Quelle) wird dieser
-Punkt **nicht** als belegter KB-Stand uebernommen, sondern nur als Rechercheauftrag fuer einen
-kuenftigen Lauf vermerkt: pruefen, ob eine RRB-Vorlage/ein Kantonsratsgeschaeft auf
-kantonsrat.zh.ch oder ein AWEL-Faktenblatt diesen «2027»-Zielwert amtlich bestaetigt.
+Punkt **nicht** als belegter KB-Stand übernommen, sondern nur als Rechercheauftrag für einen
+künftigen Lauf vermerkt: prüfen, ob eine RRB-Vorlage/ein Kantonsratsgeschäft auf
+kantonsrat.zh.ch oder ein AWEL-Faktenblatt diesen «2027»-Zielwert amtlich bestätigt.
 
 ## Offen (→ QUESTIONS)
 - ✓ **D4 erledigt** (2026-06-12): Fachformular-Liste belegt → `[[energie-energienachweis-zh-formulare]]`.
@@ -202,17 +202,17 @@ kantonsrat.zh.ch oder ein AWEL-Faktenblatt diesen «2027»-Zielwert amtlich best
   (SIA 2040 + JANS-Benchmark; MuKEn 2025 = THG-Grenzwert nach Minergie-Reglement, Eigenstrom
   20 W/m²); konkreter **ZH-Grenzwert** nachziehen, sobald kant. Gesetz/Verordnung publiziert.
   **Refresh 2026-07-14 (Run 38):** weiterhin kein amtlich publizierter ZH-Grenzwert (gekoppelt an
-  die ebenfalls unveraendert ausstehende ZH-Ueberfuehrung der MuKEn 2025, siehe §Datenstand oben);
-  unverifizierter «2027»-Nebenfund dort dokumentiert, nicht als KB-Stand uebernommen.
+  die ebenfalls unverändert ausstehende ZH-Überführung der MuKEn 2025, siehe §Datenstand oben);
+  unverifizierter «2027»-Nebenfund dort dokumentiert, nicht als KB-Stand übernommen.
 - ✓ **D6 erledigt** (2026-07-04): EVEN-Bedienung (Rollen/Ablauf/Statusmodell/Beilagen/Private
   Kontrolle) aus EnDK-Schulung V1.4 → `[[energie-even-plattform-bedienung]]`; offen nur noch
   realer JANS-Screenshot-Walkthrough am KISPI-Fall.
-- **D3 entschieden (2026-07-13, Run 23): KEIN eigenes Skill `energie-nachweis`.** Begruendung:
-  die Domaene ist bereits vollstaendig abgedeckt — Fachformulare/Prozess in
+- **D3 entschieden (2026-07-13, Run 23): KEIN eigenes Skill `energie-nachweis`.** Begründung:
+  die Domäne ist bereits vollständig abgedeckt — Fachformulare/Prozess in
   `[[energie-energienachweis-zh-formulare]]` + `[[energie-baueingabe-zusatzformulare]]`,
   Plattform-Bedienung in `[[energie-even-plattform-bedienung]]`, Unterschriftsbefugnis in
   `[[energie-private-kontrolle-zh]]`, PV-Fachfragen in `[[energie-pv-eignung-typenwahl]]` +
   `[[energie-pv-brandschutz]]`, und der Agent `energie-berater` bedient all das bereits als
-  Fan-out des Skills `planungsgrundlagen`. Ein eigenes Skill wuerde nur Struktur duplizieren, ohne
-  neue Faehigkeit zu schaffen (kein eigener Generator/Workflow, der einen Skill rechtfertigen
-  wuerde) — Entscheid gegen Proliferation, Domaene bleibt im Wiki + Agent organisiert.
+  Fan-out des Skills `planungsgrundlagen`. Ein eigenes Skill würde nur Struktur duplizieren, ohne
+  neue Fähigkeit zu schaffen (kein eigener Generator/Workflow, der einen Skill rechtfertigen
+  würde) — Entscheid gegen Proliferation, Domäne bleibt im Wiki + Agent organisiert.

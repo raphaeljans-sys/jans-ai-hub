@@ -166,8 +166,8 @@ Baufeld hart. → [[machbarkeit]] / Agent `baulinien-analyst`.
 **Festlegung im nutzungsplanerischen Verfahren (§§ 36–89 PBG):** Planungsträger reicht Antrag +
 Entwurf (Plan + technischer Bericht) → **Vorprüfung ARE + AWEL (60 Tage)** → öffentliche Auflage
 60 Tage → **Festlegung durch die Baudirektion mit Verfügung** → gemeinsame Publikation → Eintrag
-in den **kantonalen GIS-Übersichtsplan** (bis 31.5.2026 § 15c HWSchV, heute WsG/WsV). Kontakt: gewaesserraum@bd.zh.ch;
-Musterunterlagen unter gewaesserschutzgesetz.zh.ch.
+in den **kantonalen GIS-Übersichtsplan** (bis 31.5.2026 § 15c HWSchV, heute WsG/WsV). Kontakt: gewässerraum@bd.zh.ch;
+Musterunterlagen unter gewässerschutzgesetz.zh.ch.
 
 **Geodatum:** Die **aktuelle Gerinnesohlenbreite** und die Breitenvariabilität liest man aus der
 Karte **«Gewässer-Ökomorphologie»** (Thema Wasser) im **kantonalen GIS-Browser gis.zh.ch**; die

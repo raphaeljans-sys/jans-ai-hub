@@ -10,10 +10,10 @@ sources:
   - Acht Grad Ost AG, Kloten (achtgradost.ch) — Liefergegenstand
     "Gemeinde_Regensdorf_Holenbachstrasse_45_55_Berechnung_massgebendes_Terrain" (PDF/DWG/LandXML,
     29.02.2024)
-  - PL-01/KtZH Zuerich/achtgradost.ch/{240210_Lidar_AV, 240229_Terrain_1980, WebGIS, Zonenplan}
-  - Run 38 (2026-07-14): KtZH Zuerich/achtgradost.ch/Zonenplan/Legende_OEREB_Regensdorf.pdf (Acht
+  - PL-01/KtZH Zürich/achtgradost.ch/{240210_Lidar_AV, 240229_Terrain_1980, WebGIS, Zonenplan}
+  - Run 38 (2026-07-14): KtZH Zürich/achtgradost.ch/Zonenplan/Legende_OEREB_Regensdorf.pdf (Acht
     Grad Ost AG, 10.10.2017) + 4a632a5f-…pdf (Planauskunft Zonenplan Regensdorf, 11.04.2024);
-    KtZH Zuerich/achtgradost.ch/WebGIS/link.docx (URL oeffentliches WebGIS), Legende_Abstandslinien.pdf
+    KtZH Zürich/achtgradost.ch/WebGIS/link.docx (URL öffentliches WebGIS), Legende_Abstandslinien.pdf
     (Acht Grad Ost AG, 05.01.2018), 313c05b3-…pdf (Planauskunft Orthofoto, 08.02.2024),
     d7ceba65-…pdf (Planauskunft amtliche Vermessung, 08.02.2024)
 links: [[kartenportale-bund-geodaten]] [[kartenportale-grundlagen-checkliste-neue-parzelle]]

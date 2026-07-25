@@ -1,7 +1,7 @@
 ---
 title: Grobkosten-Kennwerte (CHF/m³ GV, BKP 1–5)
 status: emerging
-last_updated: 2026-07-25
+last_updated: 2026-07-26
 sources: [skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md, wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro, raw/2414-thalwil.md, raw/2518-grubenackerstrasse.md, raw/2515-wartstrasse.md, raw/2202-ackersteinstrasse.md, raw/2304-reckholdern.md]
 links: []
 ---
@@ -97,6 +97,33 @@ hier geführt — auch nicht als Einzelfall n=1 mit Kaveat, da die Provenienzket
 sondern in sich widersprüchlich ist. Details: `raw/2202-ackersteinstrasse.md`,
 `raw/2304-reckholdern.md`; offene Klärungsfrage in `wiki/QUESTIONS.md`.
 
+## Run 4 (26.07.2026) — Reckholdern doch verwertbar (späteres Dokument löst Run-3-Widerspruch auf); Ackersteinstrasse-Ursache geklärt
+
+Ein fünftes, später gelesenes JANS-eigenes Dokument (`2304RE20_Marktwertanalyse_RJ.pdf`, Stand
+31.12.2023) liefert für **2304 Reckholdern 20** GV und BKP-1–5-Kosten erstmals im selben
+Dokument UND intern rechnerisch konsistent (Gegenprobe P/GF, P/HNF, P/GV stimmen alle exakt).
+Der Wert deckt sich zudem mit dem unabhängig in Run 3 gefundenen KV Siworks (CHF 3'446'500).
+Der ältere, widersprüchliche eBKP-H-Stand aus Run 3 (GV 1'715 m³) bleibt verworfen. Details und
+volle Herleitung: `raw/2304-reckholdern.md` (Abschnitt "Run 4").
+
+| Projekt | Bezug | Kennwert | Kaveat | Reife |
+|---|---|---|---|---|
+| 2304 Reckholdern 20 (Ersatzneubau EFH, Hanglage) | GV 1'986 m³ SIA 416, BKP 1–5 klassisch, KV "Aktuelle Pläne" | 1'735 CHF/m³ | Kostenvoranschlag (kein Ausführungsbeleg), Standard gehoben/Luxus (Pool/Erker/Dachreiter, laut Quelle "Startbereich Luxussegment"), Preisstand 12/2023, Kanton Schwyz | Einzelfall n=1, aber GV+BKP-1–5 im selben Dokument und intern konsistent geprüft |
+
+Für **2202 Ackersteinstrasse 67** klärt Run 4 die Ursache der Run-3-Widersprüche: Das Mandat
+endete nachweislich in der Baugesuchs-/Abänderungseingabe-Phase (letzte Rechnung 07.09.2023,
+Plangrundlagen für Abänderungseingabe) und erreichte nie die Ausführung — die vier
+GKS-Revisionen waren Zwischenstände eines nie abgeschlossenen Projekts, kein Dokumentationsfehler.
+Eine Bauabrechnung wird für dieses Projekt mit an Sicherheit grenzender Wahrscheinlichkeit nie
+existieren. Weiterhin nicht verwertbar; Details: `raw/2202-ackersteinstrasse.md` (Abschnitt "Run 4").
+
+Der neue EFH-Wert (1'735 CHF/m³, gehoben/Luxus) liegt deutlich über dem bisherigen EFH-Seed-Band
+(850–1'200, mittel–gehoben) — konsistent mit der im Quelldokument selbst benannten
+Luxus-Einordnung (Pool, Erker, Dachreiter, exponierte Hanglage). Kein Widerspruch zum Seed,
+sondern ein Beleg dafür, dass das bestehende Band den gehobenen/Luxus-Bereich nicht abdeckt;
+bei einem zweiten vergleichbaren Fall (n=2, gehoben/Luxus-EFH) wäre eine eigene Standardstufe
+"Luxus" mit eigenem Band zu erwägen (siehe `wiki/QUESTIONS.md`).
+
 ## Zuschläge (multiplikativ)
 
 | Treiber | Zuschlag | Hinweis |
@@ -157,3 +184,10 @@ kennwerte bleibt diese KB; energie liefert nur die Detail-/Betriebskosten (Wisse
   2304 Reckholdern), beide wegen interner Widersprüche in den Quelldokumenten nicht verwertbar
   — Seed-Werte unverändert. Damit sind beide bekannten SharePoint-Projektquellen
   (`AR - 01 Projekte`, `AR - 07 Archiv`) vollständig durchgeprüft.
+- Run 4 (26.07.2026): gezielte Vertiefung der beiden Run-3-Kandidaten (Vorschlag aus
+  `QUESTIONS.md`) statt neuer Projektordner. Reckholdern: ein fünftes, späteres JANS-Dokument
+  (Marktwertanalyse 31.12.2023) löst den Run-3-Widerspruch auf und liefert den ersten
+  Einzelfall n=1 mit GV+BKP-1–5 im selben, intern konsistent geprüften Dokument (1'735 CHF/m³,
+  EFH gehoben/Luxus). Ackersteinstrasse: Rechnungsprüfung klärt, dass das Mandat nie zur
+  Ausführung kam (letzte Rechnung Abänderungseingabe 09/2023) — bleibt nicht verwertbar, aber
+  Ursache dokumentiert statt offen.

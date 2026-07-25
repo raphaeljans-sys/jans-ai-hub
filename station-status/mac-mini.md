@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 26.07.2026 00:26:29
+Stand: 26.07.2026 00:36:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 00:08)
+- Developer/jans/ai/hub  (letzte Aktivitaet 00:36)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 26.07.2026 00:26:29
 - keine
 
 ## Hub-Git-Stand (NAS)
-- c6c57cc7 git-ueber-SMB abgeschafft: nas-commit-now-Weg kodifiziert (Rules sync-kanonische-quelle/git-auto-push/auto-verbesserung 260726, vollgas-runner-Disziplin, Doku)
+- eb8b911e Nachtschicht Mac Mini 260726: Logbuch-Nachtrag verwaister index.lock

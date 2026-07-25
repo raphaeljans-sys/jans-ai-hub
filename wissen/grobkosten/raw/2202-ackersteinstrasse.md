@@ -54,3 +54,28 @@ werden, welcher der vier Stände effektiv realisiert wurde — Rückfrage an Rap
 Abgleich mit einer allfälligen Schlussabrechnung im selben Projektordner.
 
 Abrufdatum: 2026-07-25.
+
+## Run 4 (26.07.2026) — Ursache der Widersprüche geklärt: Mandat endete vor Ausführung, nie eine Bauabrechnung zu erwarten
+
+**Geprüfte Rechnungen** (`04_KTV/08_Rechnungen/` + `10_Dokumente/04_Rechnungen/`):
+`230517_Schlussrechnung_BEAS67_re30.pdf` ("Schlussrechnung gemäss Honorarofferte 24. März 2022",
+CHF 500.–, pauschal) und `re-00042.pdf` (07.09.2023, "AS 67: Plangrundlagen für
+Abänderungseingabe", CHF 3'240.–, Leistungszeitraum 04.–07.09.2023, Planlieferung 07.09.2023).
+Beide Rechnungen sind **objektbezogene Einzelpositionen** (kein SIA-102-Phasen-Zahlungsplan mit
+Leistungsprozenten wie bei 2304 Reckholdern, Rule-Vergleich siehe dort) — kein Hinweis auf ein
+laufendes Prozent-Honorar über SIA-Phasen 32–52 hinaus. Keine weiteren Rechnungen nach
+07.09.2023 gefunden; keine Bauleitungs-/Baubuchhaltungsrechnung; kein Unternehmerangebot mit
+Zuschlag.
+
+**Schlussfolgerung:** Das Mandat blieb in der **Baugesuchs-/Abänderungseingabe-Phase stecken**
+und erreichte nie die Ausführung. Das erklärt, warum die vier in Run 3 gefundenen
+Grobkostenberechnungen (2021–2023) nie zu einem konvergenten, realisierten Stand zusammenliefen:
+es gab keinen Ausführungsentscheid, der eine Version verbindlich gemacht hätte — jede GKS-
+Revision war ein Zwischenstand einer laufenden, nie abgeschlossenen Projektentwicklung, kein
+Fehler in der Dokumentation an sich. Eine Bauabrechnung wird für dieses Projekt **mit an
+Sicherheit grenzender Wahrscheinlichkeit nie existieren**. Damit ist die in `QUESTIONS.md`
+(Run 3) offene Frage "welcher Stand wurde realisiert" beantwortet: **keiner** — das Projekt kam
+so nicht zur Ausführung. Weiterhin **nicht verwertbar** für eine Kennwert-Promotion (kein
+Ausführungsstand), aber die Ursache ist nun dokumentiert statt offen.
+
+Abrufdatum: 2026-07-26.

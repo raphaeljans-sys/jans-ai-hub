@@ -244,7 +244,7 @@ Projektberatung für Kt.-ZH-Vorhaben (analog ZHB Muhen ausserhalb ZH).
 ## Offen / QUESTIONS
 
 - Kein Datum auf dem Aufzugs-Merkblatt selbst auffindbar (Dateiname/Inhalt ohne Jahresangabe) —
-  gegen die aktuelle UGZ-Webseite (stadt-zuerich.ch/ugz-baubewilligungsverfahren) verifizieren,
+  gegen die aktuelle UGZ-Webseite (stadt-zürich.ch/ugz-baubewilligungsverfahren) verifizieren,
   ob es eine neuere Fassung gibt.
 - SN EN 81-70 (Vollnorm) selbst weiterhin nicht im Ordner vorhanden, nur referenziert — bei
   Bedarf via SIA-Normenshop beschaffen (Skill `normen`); Register-Zuordnung (§ 2b) jetzt belegt.

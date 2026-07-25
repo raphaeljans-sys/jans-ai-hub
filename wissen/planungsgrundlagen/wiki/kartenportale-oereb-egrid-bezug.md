@@ -8,9 +8,9 @@ links: [[kartenportale-geoportale-uebersicht]], [[recht-norm-quellenlandkarte]],
 
 # OEREB-Auszug und EGRID beziehen (Kt. ZH)
 
-Der **OEREB-Auszug** (Kataster der oeffentlich-rechtlichen Eigentumsbeschraenkungen) ist der
-amtliche Nachweis, welche Beschraenkungen (Nutzungsplanung, Baulinien, Laermschutz, Wald,
-Gewaesser, Belastungen) auf einer Parzelle liegen. Er ist die wichtigste Einzel-Grundlage am
+Der **OEREB-Auszug** (Kataster der öffentlich-rechtlichen Eigentumsbeschränkungen) ist der
+amtliche Nachweis, welche Beschränkungen (Nutzungsplanung, Baulinien, Lärmschutz, Wald,
+Gewässer, Belastungen) auf einer Parzelle liegen. Er ist die wichtigste Einzel-Grundlage am
 Anfang jeder Studie/Baueingabe.
 
 ## Bezugskette (validiert 2026-06-05)
@@ -25,25 +25,25 @@ EGRID  --maps.zh.ch-->  OEREB-Auszug (PDF, 7 S.)
    `…/SearchServer?searchText=<Adresse>&type=locations&origins=address&sr=2056`
    liefert `y` (Ost, ~2.68 Mio) und `x` (Nord, ~1.24 Mio).
 2. **Koordinate → EGRID** (identify auf Layer `ch.swisstopo-vd.amtliche-vermessung`):
-   benoetigt `imageDisplay` und `mapExtent`; Attribut `egris_egrid` enthaelt den EGRID,
+   benötigt `imageDisplay` und `mapExtent`; Attribut `egris_egrid` enthält den EGRID,
    `number` die Parzellennummer, `bfsnr` die Gemeindenummer.
 3. **EGRID → OEREB-PDF** (Kt. ZH, **kein Login**):
    `https://maps.zh.ch/oereb/v2/extract/pdf.pdf?EGRID=<EGRID>`
-   Einstieg manuell: GIS-Browser `https://maps.zh.ch?topic=OerebKatasterZH` → Grundstueck
+   Einstieg manuell: GIS-Browser `https://maps.zh.ch?topic=OerebKatasterZH` → Grundstück
    anklicken → Infoabfrage → «Auszug drucken».
 
 > Quelle Bezugsweg: GIS-Helpdesk Kt. ZH, Hannah Gies (Baudirektion, ARE, Geoinformation), 2026.
 
 ## EGRID — Format & Bedeutung
 
-Der **EGRID** (Eidg. Grundstueckidentifikator) ist der schweizweit eindeutige Schluessel einer
+Der **EGRID** (Eidg. Grundstückidentifikator) ist der schweizweit eindeutige Schlüssel einer
 Parzelle: `CH` + 12 Zeichen, z.B. `CH879777718909`. Er ist stabil (anders als die kantonale
-Parzellennummer) und der richtige Schluessel fuer OEREB, Grundbuch-/Eigentumsabfragen.
+Parzellennummer) und der richtige Schlüssel für OEREB, Grundbuch-/Eigentumsabfragen.
 
 ## Dateinamen-Konvention
 
 Der ZH-Server liefert via `content-disposition` bereits den JANS-Standardnamen:
-`Oereb-Auszug_<BFS>_<Parzelle>_<JJJJ-MM-TT>.pdf`. Unveraendert uebernehmen.
+`Oereb-Auszug_<BFS>_<Parzelle>_<JJJJ-MM-TT>.pdf`. Unverändert übernehmen.
 
 ## Realer Beleg (Benchmark)
 
@@ -57,7 +57,7 @@ OEREB-PDF `Oereb-Auszug_136_3338_2026-06-05.pdf` (7 Seiten, ~945 KB). Projekt `2
 
 ## Standard-Ablage
 
-(1) `PL - 01 Kartenportale/OEREB-Auszug` (buerofweit) und
+(1) `PL - 01 Kartenportale/OEREB-Auszug` (bürofweit) und
 (2) Projektordner `…/01_Plaene/99 Plangrundlage`.
 
 ## Grenzen / offen

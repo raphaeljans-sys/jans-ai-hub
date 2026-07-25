@@ -1,181 +1,181 @@
 ---
-title: Recht & Norm — Regenwasserentsorgung und Gewaesserraum-Festlegung Kt. ZH
+title: Recht & Norm — Regenwasserentsorgung und Gewässerraum-Festlegung Kt. ZH
 status: established
 last_updated: 2026-07-18 (Run 52)
-sources: [PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Wasser/Richtlinie_Regenwasserentsorgung_V2_2a.pdf (AWEL Kt. ZH, "Richtlinie und Praxishilfe Regenwasserentsorgung", 2005/Version 2.2 Maerz 2006, 48 S., basiert auf VSA-Richtlinie 2002 + SN 592'000), .../Wasser/AWEL_Merkblatt_ Gewässerraum.pdf (AWEL/ARE Kt. ZH, "Festlegung des Gewaesserraums bei nutzungsplanerischen Verfahren und bei Wasserbauprojekten", Juli 2014, 7 S.), PL - 02_Recht_Norm/04_Merkblätter/AWEL_Merkblatt_Versickerung.pdf (AWEL Kt. ZH, "Versickerung des Regenwassers — Gruenflaechen in Industrie- und Gewerbearealen doppelt nutzen", Reihe Umweltpraxis Entwaesserung, Februar 2009, 12 S.)]
+sources: [PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Wasser/Richtlinie_Regenwasserentsorgung_V2_2a.pdf (AWEL Kt. ZH, "Richtlinie und Praxishilfe Regenwasserentsorgung", 2005/Version 2.2 März 2006, 48 S., basiert auf VSA-Richtlinie 2002 + SN 592'000), .../Wasser/AWEL_Merkblatt_ Gewässerraum.pdf (AWEL/ARE Kt. ZH, "Festlegung des Gewässerraums bei nutzungsplanerischen Verfahren und bei Wasserbauprojekten", Juli 2014, 7 S.), PL - 02_Recht_Norm/04_Merkblätter/AWEL_Merkblatt_Versickerung.pdf (AWEL Kt. ZH, "Versickerung des Regenwassers — Grünflächen in Industrie- und Gewerbearealen doppelt nutzen", Reihe Umweltpraxis Entwässerung, Februar 2009, 12 S.)]
 links: [[recht-norm-quellenlandkarte]], [[recht-norm-abstandsvorschriften-wald-gewaesser]], [[energie-baueingabe-zusatzformulare]], [[regenwasserbewirtschaftung-versickerung-zh]] (KB energie — aktuelle Bewilligungsschwellen + Schwammstadt)
 ---
 
-# Recht & Norm — Regenwasserentsorgung und Gewaesserraum-Festlegung Kt. ZH
+# Recht & Norm — Regenwasserentsorgung und Gewässerraum-Festlegung Kt. ZH
 
 (Run 28, 2026-07-13) Neuer Artikel — destilliert den bislang unerschlossenen
-Ordner `01_Gesetze/02_Zuerich/Wasser/`. Zwei eigenstaendige, aber verwandte
+Ordner `01_Gesetze/02_Zuerich/Wasser/`. Zwei eigenständige, aber verwandte
 Themen: (A) die materielle Richtlinie **wo/wie Regenwasser entsorgt werden
 muss** (Versickerung/Einleitung/Retention), (B) das **Verfahren**, wie der
-Gewaesserraum (Pufferstreifen entlang Gewaessern) rechtlich festgelegt wird.
-Ergaenzt `recht-norm-abstandsvorschriften-wald-gewaesser.md`, wo die
-**Bemessungswerte** des ZH-Gewaesserraums (GSchV Art. 41a/41b) bereits
-dokumentiert sind — dieser Artikel liefert das dazugehoerige **Verfahren**
+Gewässerraum (Pufferstreifen entlang Gewässern) rechtlich festgelegt wird.
+Ergänzt `recht-norm-abstandsvorschriften-wald-gewaesser.md`, wo die
+**Bemessungswerte** des ZH-Gewässerraums (GSchV Art. 41a/41b) bereits
+dokumentiert sind — dieser Artikel liefert das dazugehörige **Verfahren**
 (Festsetzungsprozess) sowie die separate Regenwasser-Materie.
 
 ## A) Richtlinie Regenwasserentsorgung (AWEL, VSA-basiert)
 
 > ⚠ **Ausgaben-Vorbehalt (Wissens-Chef Run 15, 25.07.2026).** Teil A ist aus der Ausgabe
-> 2005 / V2.2 Maerz 2006 destilliert («Richtlinie und Praxishilfe **Regenwasserentsorgung**»).
+> 2005 / V2.2 März 2006 destilliert («Richtlinie und Praxishilfe **Regenwasserentsorgung**»).
 > Die Richtlinie wurde umbenannt und neu aufgelegt: AWEL «**Regenwasserbewirtschaftung** —
-> Richtlinie und Praxishilfe»; die konsolidierte **BBV I (LS 700.21)** fuehrt im Anhang der
+> Richtlinie und Praxishilfe»; die konsolidierte **BBV I (LS 700.21)** führt im Anhang der
 > anerkannten Regeln der Baukunde, Abschnitt Abwasserentsorgung, die **Ausgabe 2025**.
-> Die Grundsaetze (Art. 7 GSchG, Zonen S1/S2/S3, verschmutzt/nicht verschmutzt, Zustaendigkeit)
-> sind unveraendert; die **aktuellen Bewilligungs-Schwellen** (Flaechenverhaeltnis > 5:1,
+> Die Grundsätze (Art. 7 GSchG, Zonen S1/S2/S3, verschmutzt/nicht verschmutzt, Zuständigkeit)
+> sind unverändert; die **aktuellen Bewilligungs-Schwellen** (Flächenverhältnis > 5:1,
 > Bagatell 20 m², Adsorberpflicht unbeschichtete Metalle) stehen in
 > [[energie-baueingabe-zusatzformulare]] bzw. in KB `wissen/energie`
 > → `wiki/regenwasserbewirtschaftung-versickerung-zh.md` (Datenstand 2026-06-23).
 > Vor Zitat in Kundenberatung die Ausgabe 2025 beiziehen.
 
-### Grundsatz und Zustaendigkeit
+### Grundsatz und Zuständigkeit
 Nach **Art. 7 Abs. 2 GSchG** ist nicht verschmutztes Abwasser (und damit
-Regenwasser von Daechern, Wegen und Plaetzen) **nach den Anordnungen der
-kantonalen Behoerde versickern zu lassen**; dabei ist die **Versickerung ueber
+Regenwasser von Dächern, Wegen und Plätzen) **nach den Anordnungen der
+kantonalen Behörde versickern zu lassen**; dabei ist die **Versickerung über
 bewachsenen Boden der Versickerung in einer unterirdischen Anlage
-grundsaetzlich vorzuziehen**. Erlauben die oertlichen Verhaeltnisse die
-Versickerung nicht, kann das Wasser — nach Moeglichkeit mit
-Rueckhaltemassnahmen (Retention) — in ein oberirdisches Gewaesser eingeleitet
-werden. Ist weder Versickerung noch Einleitung moeglich/zweckmaessig, kann eine
+grundsätzlich vorzuziehen**. Erlauben die örtlichen Verhältnisse die
+Versickerung nicht, kann das Wasser — nach Möglichkeit mit
+Rückhaltemassnahmen (Retention) — in ein oberirdisches Gewässer eingeleitet
+werden. Ist weder Versickerung noch Einleitung möglich/zweckmaessig, kann eine
 Ableitung zur ARA (Abwasserreinigungsanlage) erforderlich werden.
 
 > *Korrektur Wissens-Chef Run 15 (25.07.2026):* hier stand bis dahin, nicht
-> verschmutztes Regenwasser muesse **nicht** versickert werden. Das kehrt die
+> verschmutztes Regenwasser müsse **nicht** versickert werden. Das kehrt die
 > gesetzliche Regel um. Amtlich verifiziert an Art. 7 Abs. 2 GSchG (SR 814.20,
 > Fedlex-Konsolidierung 01.02.2023, Fassung seit 01.06.2008) — Versickerung ist
 > der gesetzliche Regelfall, Einleitung und ARA-Ableitung sind die Ausnahmen der
 > Kaskade. Deckungsgleich mit KB `wissen/energie`
 > → [[regenwasserbewirtschaftung-versickerung-zh]] («Regenwasser von Dach und
-> befestigten Flaechen versickert auf der Parzelle»), die dort auch die
-> aktuellen Bewilligungs-Schwellen fuehrt.
+> befestigten Flächen versickert auf der Parzelle»), die dort auch die
+> aktuellen Bewilligungs-Schwellen führt.
 
 - In **Grundwasserschutzzonen S1/S2** sowie **Grundwasserschutzarealen** ist
-  Versickerung von Abwasser **grundsaetzlich verboten**.
-  In **Zone S3** darf nur unverschmutztes **Dachwasser** ueber bewachsenen
-  Boden versickert werden. Im **Gewaesserschutzbereich Au** ist im
+  Versickerung von Abwasser **grundsätzlich verboten**.
+  In **Zone S3** darf nur unverschmutztes **Dachwasser** über bewachsenen
+  Boden versickert werden. Im **Gewässerschutzbereich Au** ist im
   Zweifelsfall auf Versickerung zu verzichten (Trinkwasserschutz — rund **zwei
   Drittel** des Trinkwassers im Kt. ZH stammen aus Grundwasser inkl.
   Quellwasser).
-- **Zustaendigkeit:** die technischen Bewilligungssachverhalte fuer
-  Einleitungen von nicht verschmutztem Abwasser in Gewaesser sowie
-  Versickerung liegen **groesstenteils bei den Gemeinden**; das **AWEL**
-  ist zustaendig bei uebergeordneten Infrastrukturanlagen
+- **Zuständigkeit:** die technischen Bewilligungssachverhalte für
+  Einleitungen von nicht verschmutztem Abwasser in Gewässer sowie
+  Versickerung liegen **grösstenteils bei den Gemeinden**; das **AWEL**
+  ist zuständig bei übergeordneten Infrastrukturanlagen
   (Verbindungs-/Hauptverkehrs-/Hochleistungsstrassen, Eisenbahnlinien,
-  Flughaefen), in provisorischen Grundwasserschutzzonen, Grundwasserschutz­
-  arealen, bei Altlastenverdachtsflaechen und bei Betrieben mit sehr
+  Flughäfen), in provisorischen Grundwasserschutzzonen, Grundwasserschutz­
+  arealen, bei Altlastenverdachtsflächen und bei Betrieben mit sehr
   umweltrelevanten Prozessen.
 
-### Begriffsabgrenzung "verschmutzt / nicht verschmutzt" (zentral fuer die Praxis)
-**Nicht verschmutztes Abwasser:** i.d.R. Abwasser von Dachflaechen,
-Strassen, Wegen, Plaetzen ohne erhebliche Mengen gewaesserverunreinigender
+### Begriffsabgrenzung "verschmutzt / nicht verschmutzt" (zentral für die Praxis)
+**Nicht verschmutztes Abwasser:** i.d.R. Abwasser von Dachflächen,
+Strassen, Wegen, Plätzen ohne erhebliche Mengen gewässerverunreinigender
 Stoffe und ohne nennenswerten Verkehr; wird bei Versickerung im Boden/nicht
-gesaettigten Untergrund ausreichend gereinigt. Auch Wasser von Gleisanlagen
+gesättigten Untergrund ausreichend gereinigt. Auch Wasser von Gleisanlagen
 (ohne/mit im Boden leicht abbaubaren Pflanzenschutzmitteln) sowie Reinwasser
 aus Brunnen/Sicker-/Drainageleitungen gelten als nicht verschmutzt.
 
-**Verschmutztes Abwasser:** kann ein Gewaesser verunreinigen — dazu zaehlt
-Regenwasser, das **von Daechern in der Naehe staubverursachender Prozesse
-oder Abluftanlagen** stammt, oder wenn Dach/Fassade **erhoehte Anteile
-unbeschichteter Metalle** (Kupfer, Zink, Zinn, Blei) enthaelt. Auch
-Reinigungsmittel/Pestizide auf Daechern/Fassaden sowie Umschlag-/
-Lagerplaetze mit Staub-/Schadstoffemission koennen Regenwasser verschmutzen.
+**Verschmutztes Abwasser:** kann ein Gewässer verunreinigen — dazu zählt
+Regenwasser, das **von Dächern in der Nähe staubverursachender Prozesse
+oder Abluftanlagen** stammt, oder wenn Dach/Fassade **erhöhte Anteile
+unbeschichteter Metalle** (Kupfer, Zink, Zinn, Blei) enthält. Auch
+Reinigungsmittel/Pestizide auf Dächern/Fassaden sowie Umschlag-/
+Lagerplätze mit Staub-/Schadstoffemission können Regenwasser verschmutzen.
 **Praxisrelevanz JANS:** bei Dach-/Fassadenmaterialwahl (unbeschichtetes
-Kupfer/Zink) ist die Regenwasser-Verschmutzungsfrage vorzupruefen (Verweis
-KBOB-Empfehlung "Metalle fuer Daecher und Fassaden" im Merkblatt genannt).
+Kupfer/Zink) ist die Regenwasser-Verschmutzungsfrage vorzuprüfen (Verweis
+KBOB-Empfehlung "Metalle für Dächer und Fassaden" im Merkblatt genannt).
 
-### Verfahrensausloeser (Kapitel 5, Grafik 1 fuer Industrie-/Gewerbezonen)
-Vier Leitfragen bei der Planung von Entwaesserungsprojekten: (1) welche
-Flaechen muessen entwaessert werden (Daecher, Verkehrsflaechen, Zufahrten,
-Vorplaetze, Lagerplaetze, Parkplaetze)? (2) wie werden diese Flaechen genutzt,
-sind Nutzungsaenderungen absehbar? (3) wird das Regenwasser durch Materialien/
+### Verfahrensauslöser (Kapitel 5, Grafik 1 für Industrie-/Gewerbezonen)
+Vier Leitfragen bei der Planung von Entwässerungsprojekten: (1) welche
+Flächen müssen entwässert werden (Dächer, Verkehrsflächen, Zufahrten,
+Vorplätze, Lagerplätze, Parkplätze)? (2) wie werden diese Flächen genutzt,
+sind Nutzungsänderungen absehbar? (3) wird das Regenwasser durch Materialien/
 betriebliche Prozesse/Staubemissionen verschmutzt, muss mit Havarien
 gerechnet werden? (4) kann das Problem mit optimierter Materialwahl oder
-betrieblichen Anpassungen entschaerft werden?
+betrieblichen Anpassungen entschärft werden?
 
 **Nicht Gegenstand dieser Richtlinie:** Planung/Ausfuehrung von
 Versickerungs-/Retentionsanlagen selbst, Gestaltung von
-Regenwassereinleitungen in Gewaesser, Umschlagplaetze fuer
-wassergefaehrdende Fluessigkeiten, Industrieabwasser, Baustellenentwaesserung
+Regenwassereinleitungen in Gewässer, Umschlagplätze für
+wassergefährdende Flüssigkeiten, Industrieabwasser, Baustellenentwässerung
 (dort gilt SIA-Norm 431) — diese sind Gegenstand separater Richtlinien.
 
 ### Rechtsgrundlagen (Bund/Kanton, belegt S.4-5)
 Bund: USG (7.10.1983, Vorsorge-/Verursacherprinzip), **GSchG** (24.1.1991,
 Sorgfalts-/Verursacherprinzip), **GSchV** (28.10.1998), BGF Fischereigesetz
 (21.6.1991). Kanton: **EG GSchG** (8.12.1974, kantonale Bewilligungspflicht
-fuer Vorkehren, welche Guete/Wassermenge eines Gewaessers veraendern koennen),
+für Vorkehren, welche Güte/Wassermenge eines Gewässers verändern können),
 GSchV-ZH (22.1.1975), **WWG** (2.6.1991, regelt Hochwasserschutz/
 Wasserbaupolizei/Gewaessernutzung/Wasserversorgung; § 18 kantonale
-Bewilligung fuer bauliche Veraenderungen an Oberflaechengewaessern
+Bewilligung für bauliche Veränderungen an Oberflächengewässern
 — ⚠ **das WWG wurde per 1.6.2026 durch das neue Wassergesetz WsG vom
-12.12.2022 abgeloest**, § 126 WsG explizite Aufhebung, primaerquellen-belegt
+12.12.2022 abgelöst**, § 126 WsG explizite Aufhebung, primärquellen-belegt
 in `wissen/energie` → `grundwasserwaermenutzung-bewilligung-zh-sz`; §-Mapping
 WWG→WsG belegt in `wissen/baurecht` → `raw/260717_amtlich_zh_hwschv.md`
 (Konkordanztabelle alt/neu), Wissens-Chef Run 5/7, 2026-07-15/17), **HWSchV**
-(14.10.1992, Verordnung ueber den Hochwasserschutz und die Wasserbaupolizei,
-regelt bauliche Veraenderungen/Eingriffe an Oberflaechengewaessern insb.
+(14.10.1992, Verordnung über den Hochwasserschutz und die Wasserbaupolizei,
+regelt bauliche Veränderungen/Eingriffe an Oberflächengewässern insb.
 Bewilligungspflicht bei Regenwassereinleitungen — ⚠ **die HWSchV wurde
 ebenfalls per 1.6.2026 aufgehoben** (OS 81, 144) und durch WsG/WsV ersetzt;
 § 15h → § 183 lit. b WsV, Bemessung §§ 22-25 WsV, Wissens-Chef Run 7).
 
-## B) Verfahren zur Gewaesserraum-Festlegung (AWEL/ARE Merkblatt Juli 2014)
+## B) Verfahren zur Gewässerraum-Festlegung (AWEL/ARE Merkblatt Juli 2014)
 
 Hintergrund: seit 1.1.2011 verpflichtet **Art. 36a GSchG** die Kantone, den
-Raumbedarf oberirdischer Gewaesser auszuscheiden (Frist **31.12.2018**). Drei
-Verfahren fuer die Festlegung im Siedlungsgebiet — dieser Artikel behandelt
+Raumbedarf oberirdischer Gewässer auszuscheiden (Frist **31.12.2018**). Drei
+Verfahren für die Festlegung im Siedlungsgebiet — dieser Artikel behandelt
 Verfahren 2 und 3 (Verfahren 1 = ordentliches kantonales Verfahren, hier nicht
 vertieft):
 
 - **Verfahren 1:** Festlegung im ordentlichen Verfahren durch den Kanton
-  (Anhoerung + Antragsrecht/-pflicht der Betroffenen) → mündet in die
-  **kantonale Gewaesserraum-Karte** (grundeigentuemerverbindlich).
+  (Anhörung + Antragsrecht/-pflicht der Betroffenen) → mündet in die
+  **kantonale Gewässerraum-Karte** (grundeigentümerverbindlich).
 - **Verfahren 2 — Nutzungsplanerisches Verfahren (bis 31.5.2026 §§ 15 ff. HWSchV,
-  heute WsG/WsV; Art. 41a/41b GSchV):** Festlegung des Gewaesserraums **auf Antrag** eines
-  Planungstraegers, **nur im Rahmen von nutzungsplanerischen Verfahren gemaess
-  §§ 36-89 PBG** moeglich (im Quartierplanverfahren **nicht** moeglich).
-  Ablauf: Planungstraeger erstellt Entwurf (Plan + technischer Bericht) →
-  Einreichung zur Vorpruefung beim ARE (7-fache Ausfertigung) → AWEL prueft
-  Rechtmaessigkeit/Zweckmaessigkeit **innert 60 Tagen** → Ueberarbeitung durch
-  Gemeinde/Planungstraeger → **oeffentliche Auflage 60 Tage** zusammen mit dem
+  heute WsG/WsV; Art. 41a/41b GSchV):** Festlegung des Gewässerraums **auf Antrag** eines
+  Planungsträgers, **nur im Rahmen von nutzungsplanerischen Verfahren gemäss
+  §§ 36-89 PBG** möglich (im Quartierplanverfahren **nicht** möglich).
+  Ablauf: Planungsträger erstellt Entwurf (Plan + technischer Bericht) →
+  Einreichung zur Vorprüfung beim ARE (7-fache Ausfertigung) → AWEL prüft
+  Rechtmässigkeit/Zweckmaessigkeit **innert 60 Tagen** → Überarbeitung durch
+  Gemeinde/Planungstraeger → **öffentliche Auflage 60 Tage** zusammen mit dem
   Nutzungsplan → jedermann kann Einwendungen erheben → Baudirektion legt den
-  Gewaesserraum mit Verfuegung fest → gemeinsame Publikation von Nutzungsplan
-  und Gewaesserraumfestlegung → Rechtsschutz analog Planungsverfahren
+  Gewässerraum mit Verfügung fest → gemeinsame Publikation von Nutzungsplan
+  und Gewässerraumfestlegung → Rechtsschutz analog Planungsverfahren
   (Baurekursgericht → Verwaltungsgericht → Bundesgericht).
 - **Verfahren 3 — Wasserbauprojekte (bis 31.5.2026 § 18 Abs. 4 WWG, § 15h HWSchV;
   heute WsG/WsV):**
   Festlegung im Rahmen der Projektfestsetzung von Wasserbauprojekten;
-  projektierendes Ingenieurbuero erstellt zusaetzlich zum
+  projektierendes Ingenieurbüro erstellt zusätzlich zum
   Wasserbauprojekt einen **separaten Plan + technischen Kurzbericht** zum
-  Gewaesserraum → kantonsinterne Vernehmlassung (AWEL Abteilung Wasserbau) →
-  **oeffentliche Auflage 30 Tage** durch die Gemeinde → evtl.
-  Einspracheverfahren → Projektfestsetzung inkl. Gewaesserraum (anfechtbar).
+  Gewässerraum → kantonsinterne Vernehmlassung (AWEL Abteilung Wasserbau) →
+  **öffentliche Auflage 30 Tage** durch die Gemeinde → evtl.
+  Einspracheverfahren → Projektfestsetzung inkl. Gewässerraum (anfechtbar).
 
 ### Bemessung (Kurzfassung, Details in `recht-norm-abstandsvorschriften-wald-gewaesser`)
-Massgebend ist die **natuerliche Gerinnesohlenbreite (GSB)**, aus der
-**aktuellen** GSB via Breitenvariabilitaets-Faktor abgeleitet (ausgepraegt
-x1, eingeschraenkt x1.5, keine x2) — ermittelbar ueber die Karte
-«Gewaesser-Oekomorphologie» im GIS-Browser (`www.gis.zh.ch`). Mindestbreiten
-je nach Gebietstyp (allgemein/Schutzgebiet/stehendes Gewaesser) sowie
-Abweichungsregeln (Verkleinerung in dicht ueberbauten Gebieten,
-Vergroesserung bei Hochwasserschutz/Revitalisierung/Natur-
+Massgebend ist die **natürliche Gerinnesohlenbreite (GSB)**, aus der
+**aktuellen** GSB via Breitenvariabilitäts-Faktor abgeleitet (ausgeprägt
+x1, eingeschränkt x1.5, keine x2) — ermittelbar über die Karte
+«Gewässer-Ökomorphologie» im GIS-Browser (`www.gis.zh.ch`). Mindestbreiten
+je nach Gebietstyp (allgemein/Schutzgebiet/stehendes Gewässer) sowie
+Abweichungsregeln (Verkleinerung in dicht überbauten Gebieten,
+Vergrösserung bei Hochwasserschutz/Revitalisierung/Natur-
 Landschaftsschutz/Gewaessernutzung) — identische GSchV-Systematik wie bereits
 in `recht-norm-abstandsvorschriften-wald-gewaesser.md` (§3-4) dokumentiert.
 
 ### Anforderungen an die Planungsunterlagen (technischer Bericht, Verfahren 2)
 Ausgangslage/Verfahrensbezug, gesetzliche Grundlagen (GSchG/GSchV/HWSchV),
-Bemessung des Gewaesserraums (offene UND eingedolte Abschnitte getrennt),
-Pruefung ob eine **Vergroesserung** noetig ist (Hochwasserschutz,
+Bemessung des Gewässerraums (offene UND eingedolte Abschnitte getrennt),
+Prüfung ob eine **Vergrösserung** nötig ist (Hochwasserschutz,
 Revitalisierung, Schutzziele Art. 41a Abs.1 GSchV, Natur-/
-Landschaftsschutz-Interessen, Gewaessernutzung), Begruendung bei
-**Verkleinerung/asymmetrischer** Anordnung, Zugaenglichkeit fuer
-Gewaesserunterhalt, **Fruchtfolgeflaechen-Bilanz** (Rundschreiben ARE
-4.5.2011), Einbezug betroffener Grundeigentuemer. Plaene folgen
+Landschaftsschutz-Interessen, Gewässernutzung), Begründung bei
+**Verkleinerung/asymmetrischer** Anordnung, Zugänglichkeit für
+Gewässerunterhalt, **Fruchtfolgeflächen-Bilanz** (Rundschreiben ARE
+4.5.2011), Einbezug betroffener Grundeigentümer. Pläne folgen
 spezifischen Darstellungsvorgaben + Musterdatensatz
-(`www.gewaesserschutzgesetz.zh.ch`); bei privaten Gestaltungsplaenen ist der
-Gewaesserraum-Plan von **allen** Grundeigentuemern zu unterschreiben.
+(`www.gewaesserschutzgesetz.zh.ch`); bei privaten Gestaltungsplänen ist der
+Gewässerraum-Plan von **allen** Grundeigentümern zu unterschreiben.
 
 ## C) Praxis-Broschüre AWEL «Versickerung des Regenwassers — Grünflächen in Industrie- und Gewerbearealen doppelt nutzen» (Run 52, 2026-07-18)
 
@@ -241,24 +241,24 @@ und ökologisch beste Variante ist — nicht nur für Gewerbe/Industrie.
 
 ## Praxis-Anker JANS
 
-- Ergaenzt `energie-baueingabe-zusatzformulare.md` (dort das
+- Ergänzt `energie-baueingabe-zusatzformulare.md` (dort das
   AWEL-Versickerungsgesuch als Formular) um die materiellen
   Entscheidkriterien (Versickerung vor Einleitung, GWS-Zonen-Verbote,
   verschmutzt/nicht verschmutzt).
 - Bei Fassaden-/Dachmaterialwahl mit unbeschichteten Metallen (Kupfer, Zink)
-  fruehzeitig pruefen, ob Regenwasser dadurch als "verschmutzt" gilt — das
-  kann Versickerung ausschliessen und eine ARA-Ableitung noetig machen
+  frühzeitig prüfen, ob Regenwasser dadurch als "verschmutzt" gilt — das
+  kann Versickerung ausschliessen und eine ARA-Ableitung nötig machen
   (Kostenrelevanz).
-- Gewaesserraum-Festlegung via nutzungsplanerisches Verfahren (Verfahren 2)
-  ist fuer JANS nur bei Arealentwicklungen mit privatem Gestaltungsplan
-  relevant, in denen ein Gewaesser die Parzelle beruehrt — dort sind ALLE
-  Grundeigentuemer zur Unterschrift auf dem Gewaesserraum-Plan verpflichtet.
+- Gewässerraum-Festlegung via nutzungsplanerisches Verfahren (Verfahren 2)
+  ist für JANS nur bei Arealentwicklungen mit privatem Gestaltungsplan
+  relevant, in denen ein Gewässer die Parzelle berührt — dort sind ALLE
+  Grundeigentümer zur Unterschrift auf dem Gewässerraum-Plan verpflichtet.
 
-## Offen / naechste Schritte
+## Offen / nächste Schritte
 - Anhang 1-6 der Regenwasser-Richtlinie (Retentionsmassnahmen,
   Versickerungs-/Einleitungskataster, Verlegung Sicker-/Drainageleitungen,
-  Liegenschaftsentwaesserung Private Fachpersonen) sind nicht gelesen — S.12
-  ff. (materielle Vorgaben Daecher/Fassaden/Verkehrsflaechen) ebenfalls noch
-  offen fuer einen Folgelauf.
+  Liegenschaftsentwässerung Private Fachpersonen) sind nicht gelesen — S.12
+  ff. (materielle Vorgaben Dächer/Fassaden/Verkehrsflaechen) ebenfalls noch
+  offen für einen Folgelauf.
 - `Anhang_C_Glossar_Gewässer_Umwelt_Schutz.pdf` (im selben Ordner) nicht
-  gelesen — moeglicher Glossar-Beitrag fuer kuenftige Artikel.
+  gelesen — möglicher Glossar-Beitrag für künftige Artikel.
