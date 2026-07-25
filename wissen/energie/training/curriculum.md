@@ -1668,3 +1668,68 @@ Weg. FAQ-Stand: **166 Kernfragen (F1-F166) belegt.** Destillate-Stand: **181** (
    Rueckkuehlwerk zwei Healthcare-spezifische Themenfelder erschlossen — weitere Kandidaten fuer
    kuenftige Laeufe waeren Reinraum-/OP-Klimatisierung (Filterklassen H13/H14, Ueberdruckkaskaden)
    und Sterilisationsenergie (Autoklaven-Prozessenergie), beide bisher nur am Rand erwaehnt.
+
+## D86 (Run 115, 2026-07-26) — zwei parallele Rechercheagenten, Healthcare-Prozessenergie-Vertiefung; Prozesslehre zum Redundanz-Check
+
+PDF-Inventar weiterhin erschoepft seit Run 65. Dem von Run 114 vorgeschlagenen Schwerpunkt gefolgt:
+Reinraum-/OP-Klimatisierung und Sterilisationsenergie, beide per grep vorab geprueft. **Wichtige
+Prozesslehre:** Der Redundanz-Check-Grep fand fuer Reinraum/OP-Klimatisierung das Run-98-Destillat
+`[[swki-lueftung-gesundheitsbau-hygiene-energie]]` korrekt als Treffer — der Orchestrator hat den
+Dateiinhalt vor Auftragsvergabe aber nicht gelesen und den Kandidaten faelschlich als vollstaendig
+offene Luecke eingestuft. **Lehre fuer kuenftige Laeufe: jeden grep-Treffer inhaltlich lesen, nicht
+nur zaehlen, bevor ein Thema als "echte Luecke" gilt** — ein blosser Namens-/Zeilentreffer ist kein
+Ausschlusskriterium, aber auch kein automatischer Freibrief fuer eine neue eigenstaendige Datei ohne
+Pruefung, was bereits dokumentiert ist. Trotz der verpassten Vor-Pruefung war die Doppelarbeit nicht
+verloren: der unabhaengig recherchierende Agent fand echte neue Primaerquellen, die das bestehende
+Destillat sinnvoll vertiefen, statt es nur zu wiederholen.
+
+**Reinraum-/OP-Klimatisierung im Gesundheitsbau** (SWKI VA105-01:2015 Titelseite/Vorwort/Inhalts-
+verzeichnis/Geltungsbereich via KSSG-Reproduktion + USZ-Baurichtlinie 244/245 vollstaendig, 68 S. +
+Swissnoso-Bulletin Bally et al. 2018 vollstaendig + DGKH-LL-RLTA-2023 vollstaendig, 16 S.): vertieft
+das Run-98-Destillat um die SN-22500-Identifikation, ein reales USZ-Filterfabrikat (H14) und vor
+allem die **Swissnoso-Metaanalyse 2018**, die den Infektionsschutz-Nutzen der aufwaendigeren TAV-
+Lueftung gegenueber einfacher Mischlueftung explizit anzweifelt (330'146 Hueft-/134'368 Knie-
+prothesen, bei Hueftprothesen sogar ungünstigeres Ergebnis; TAV-Mehrkosten ~7'000 EUR/Jahr/Saal) —
+ein konkretes Verhandlungsargument fuer die Bauherrschaft gegenueber dem Spitalbetreiber. Neues
+Destillat `[[reinraum-op-klimatisierung-gesundheitsbau-ch]]` (emerging, bidirektional mit dem
+Run-98-Destillat verlinkt statt formal gemerged — Merge waere destruktiv und braeuchte Ruecksprache
+mit Raphael gemaess Rule `wissens-bibliothekar`), FAQ **F136 geschaerft**, erster eigenstaendiger
+Wiki-Artikel `wiki/reinraum-op-klimatisierung.md`.
+
+**Sterilisationsenergie und Medizintechnik-Prozessenergie** (SGSV/Swissmedic-Leitlinie Validierung
+Sterilisationsprozesse 2023 vollstaendig per curl+pdftotext + USZ «24 Richtlinien Raumklimatisierung»
+07.04.2014 vollstaendig, 614 Zeilen + architektur-technik.ch Radiologiezentrum Reinach 2017 +
+Umweltinnovationsprogramm Bund D/Fluoron GmbH als explizit branchenfremdes Fallbeispiel): echte,
+bestaetigte Luecke (Redundanz-Check: keine Vorarbeit gefunden). USZ-Klimaklassifikation ZSVA
+(Raumtyp 73: Produktionsraeume Klasse 3, Sterillager Klasse 4 wegen Feuchteempfindlichkeit der
+Sterilgut-Verpackung) und SGSV/Swissmedic-Prozessparameter (134 °C Referenztemperatur, ≥18 Min.
+Haltezeit, 800-l-Kammervolumen-Schwelle) primaerquellenbelegt — aber **ehrlicher Negativbefund**
+zur eigentlichen Energiequantifizierung: kein CH-/D-A-CH-Kennwert kWh/Zyklus oder Prozessenergie-
+Anteil gefunden, die kursierende «2-4 kWh/Zyklus»-Angabe wurde bewusst nicht uebernommen (keine
+zitierfaehige Quelle). Neues Destillat `[[sterilisationsenergie-medizintechnik-prozessenergie-ch]]`
+(emerging), FAQ **F167** neu.
+
+Beide Agenten editierten disjunkte Dateien (kein Register-Edit durch die Agenten selbst, Konsolidierung
+durch den Orchestrator). FAQ-Stand: **167 Kernfragen (F1-F167) belegt.** Destillate-Stand: **183**
+(zwei neue).
+
+**Naechster Lauf: Prioritaet**
+1. Die fuenf gebuendelten Kaufentscheide wachsen seit Run 98 unveraendert ohne Entscheidung — jetzt
+   **siebzehn Runs** in Folge. Dringende Empfehlung unveraendert: beim naechsten Kontakt mit Raphael
+   als kurze Buendel-Frage stellen.
+2. Meta-Punkt M2 (eigenstaendiger Skill "energie"?) seit Run 45 spruchreif, weiterhin unentschieden.
+3. SIA-2024-Gesundheitsbau-Merge weiterhin ausfuehrungsreif, wartet auf Raphaels Zustimmung.
+4. Neue offene Punkte aus Run 115: SN 22500 (Strukturelle Anforderungen OP-Abteilungen) nur
+   bibliografisch identifiziert, Volltext kostenpflichtig nicht beschafft; SWKI VA105-01 Kap. 3-6
+   (die eigentlichen Zahlentabellen inkl. Pa-Wert der Ueberdruckkaskade) weiterhin nicht zugaenglich;
+   Fraunhofer-UMSICHT-Abschlussbericht 2010 zum Krankenhaus-Energieverbrauch passwortgeschuetzt;
+   Systemgrenze Dampfversorgung ZSVA (zentral vs. lokal je Sterilisator) nicht recherchiert; SWKI 99-3
+   (2003) weiterhin nur bibliografisch identifiziert.
+5. **Prozessverbesserung fuer kuenftige Laeufe** (aus der Run-115-Redundanz-Lehre): vor Dispatch eines
+   Rechercheagenten JEDEN grep-Treffer-Dateinamen kurz oeffnen/pruefen, nicht nur die Trefferliste
+   zaehlen — verhindert unbeabsichtigte Doppelarbeit, auch wenn diese sich (wie hier) am Ende noch als
+   wertsteigernd herausstellen kann.
+6. Weitere Healthcare-Prozessenergie-Kandidaten fuer kuenftige Laeufe (noch nicht geprueft): Grossküchen-/
+   Waescherei-Abluft-Waermerueckgewinnung im Gesundheitsbau, Rechenzentrum/Serverraum-Kuehlung als
+   eigenstaendiges Thema (bisher nur in `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]` als
+   SIA-2024-Kennwert 1'052 kWh/m²/Jahr erwaehnt).

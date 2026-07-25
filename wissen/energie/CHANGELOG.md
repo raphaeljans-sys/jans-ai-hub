@@ -2,6 +2,63 @@
 
 Neueste zuoberst.
 
+## 2026-07-26 — Run 115: Zwei parallele Rechercheagenten, Healthcare-Prozessenergie-Vertiefung; Prozesslehre zum Redundanz-Check
+
+PDF-Inventar weiterhin erschöpft seit Run 65. Dem von Run 114 vorgeschlagenen Schwerpunkt gefolgt:
+Reinraum-/OP-Klimatisierung und Sterilisationsenergie/Medizintechnik-Prozessenergie, beide vorab
+per grep geprüft, zwei `general-purpose`-Rechercheagenten parallel angesetzt (jeder editierte
+ausschliesslich sein eigenes Destillat, keine Register-Edits — Kollisionsschutz).
+
+**Wichtige Prozesslehre:** Der Redundanz-Check-Grep fand für Reinraum-/OP-Klimatisierung das
+Run-98-Destillat `swki-lueftung-gesundheitsbau-hygiene-energie` korrekt als Treffer — der
+Orchestrator hat den Dateiinhalt vor Auftragsvergabe aber nicht gelesen und den Kandidaten
+fälschlich als vollständig offene Lücke behandelt. Lehre für künftige Läufe: jeden Grep-Treffer
+inhaltlich prüfen, nicht nur zählen. Die Doppelarbeit war dennoch nicht verloren — der Agent fand
+echte neue Primärquellen, die das bestehende Destillat sinnvoll vertiefen.
+
+1. **Reinraum-/OP-Klimatisierung im Gesundheitsbau** (SWKI VA105-01:2015 Titelseite/Vorwort/
+   Inhaltsverzeichnis/Geltungsbereich via KSSG-Reproduktion; USZ-Baurichtlinie 244/245, 68 S.
+   vollständig; Swissnoso-Bulletin Bally F. et al. 2018 vollständig; DGKH-LL-RLTA-2023, 16 S.
+   vollständig — deutsche Parallelnorm DIN 1946-4:2018 als Vergleichsmassstab): vertieft das
+   Run-98-Destillat um die SN-22500-Identifikation, ein reales USZ-Filterfabrikat (H14) und vor
+   allem die **Swissnoso-Metaanalyse 2018**, die den Infektionsschutz-Nutzen der aufwändigeren
+   TAV-Lüftung (Laminarflow) gegenüber einfacher Mischlüftung explizit anzweifelt (330'146 Hüft-/
+   134'368 Knieprothesen; bei Hüftprothesen sogar ungünstigeres Ergebnis 0.80 % vs. 0.49 %;
+   TAV-Mehrkosten ~7'000 EUR/Jahr/Saal) — ein konkretes Verhandlungsargument für die Bauherrschaft
+   gegenüber dem Spitalbetreiber. Neues Destillat `reinraum-op-klimatisierung-gesundheitsbau-ch`,
+   emerging, bidirektional mit dem Run-98-Destillat verlinkt (kein formaler Merge — destruktiv,
+   Rückfrage nötig gemäss Rule `wissens-bibliothekar`); FAQ **F136 geschärft**; erster
+   eigenständiger Wiki-Artikel `reinraum-op-klimatisierung.md`.
+2. **Sterilisationsenergie und Medizintechnik-Prozessenergie** (SGSV/Swissmedic-Leitlinie
+   Validierung Sterilisationsprozesse 2023, vollständig per curl+pdftotext; USZ «24 Richtlinien
+   Raumklimatisierung» 07.04.2014, vollständig; architektur-technik.ch Radiologiezentrum Reinach
+   2017; Umweltinnovationsprogramm Bund D/Fluoron GmbH als explizit branchenfremdes Fallbeispiel):
+   echte, bestätigte Lücke. USZ-Klimaklassifikation ZSVA (Raumtyp 73: Produktionsräume Klasse 3,
+   Sterillager Klasse 4 wegen Feuchteempfindlichkeit der Sterilgut-Verpackung) und
+   SGSV/Swissmedic-Prozessparameter (134 °C Referenztemperatur, ≥18 Min. Haltezeit,
+   800-l-Kammervolumen-Schwelle) primärquellenbelegt — **ehrlicher Negativbefund** zur
+   eigentlichen Energiequantifizierung: kein CH-/D-A-CH-Kennwert kWh/Zyklus oder
+   Prozessenergie-Anteil gefunden, kursierende «2-4 kWh/Zyklus»-Angabe bewusst nicht übernommen.
+   Neues Destillat `sterilisationsenergie-medizintechnik-prozessenergie-ch`, emerging; FAQ
+   **F167** neu.
+
+FAQ-Stand: **167 Kernfragen (F1-F167) belegt.** Destillate-Stand: **183** (zwei neue).
+
+**Nächster Lauf: Priorität**
+1. Die fünf gebündelten Kaufentscheide wachsen seit Run 98 unverändert ohne Entscheidung — jetzt
+   **siebzehn Runs** in Folge. Dringende Empfehlung unverändert: beim nächsten Kontakt mit
+   Raphael als kurze Bündel-Frage stellen.
+2. Meta-Punkt M2 (eigenständiger Skill "energie"?) seit Run 45 spruchreif, weiterhin unentschieden.
+3. SIA-2024-Gesundheitsbau-Merge weiterhin ausführungsreif, wartet auf Raphaels Zustimmung.
+4. Neue offene Punkte: SN 22500 nur bibliografisch identifiziert; SWKI VA105-01 Kap. 3-6
+   (Zahlentabellen inkl. Pa-Wert Überdruckkaskade) weiterhin nicht zugänglich; Fraunhofer-UMSICHT-
+   Abschlussbericht 2010 passwortgeschützt; Systemgrenze Dampfversorgung ZSVA nicht recherchiert;
+   SWKI 99-3 (2003) weiterhin nur bibliografisch identifiziert.
+5. Prozessverbesserung: vor Dispatch eines Rechercheagenten jeden Grep-Treffer kurz öffnen, nicht
+   nur die Trefferliste zählen.
+6. Weitere Healthcare-Prozessenergie-Kandidaten: Grossküchen-/Wäscherei-Abluft-Wärmerückgewinnung,
+   Rechenzentrum/Serverraum-Kühlung als eigenständiges Thema.
+
 ## 2026-07-26 — SIA-2024-Gesundheitsbau-Zwilling gemergt (Freigabe Raphael)
 
 - **Merge ausgefuehrt** (destruktive Aktion, ausdruecklich freigegeben am 26.07.2026):
