@@ -24,6 +24,25 @@ fi
 # node_modules/.bin in PATH (fuer m365 CLI)
 export PATH="$PROJECT_DIR/node_modules/.bin:$PATH"
 
+# --- Befehlskatalog fuer den MCP-Server auffindbar machen --------------------
+# Der MCP-Server (@pnp/cli-microsoft365-mcp-server, dist/util.js:138
+# checkGlobalPackage) sucht `@pnp/cli-microsoft365` AUSSCHLIESSLICH global:
+# er ruft `npm list -g --depth=0` und `npm root -g` und liest von dort
+# allCommandsFull.json. JANS installiert das Paket aber lokal (package.json),
+# darum meldete jedes MCP-Werkzeug «@pnp/cli-microsoft365 npm package not
+# found or allCommandsFull.json file not found» — belegt seit 13.07.2026 und
+# zuletzt in wissen/twin/outputs/2026-07-25d_fidelity.md; die Twin-Loops
+# mussten auf Apple Mail ausweichen. /usr/local/lib/node_modules gehoert root
+# (kein sudo im headless-Betrieb), darum ein benutzereigener npm-Prefix mit
+# einem Symlink auf die lokale Installation — kein zweiter Download, keine
+# Versions-Divergenz zur package.json. (VOLLGAS-Chef-Radar, 25.07.2026)
+export npm_config_prefix="$HOME/.npm-global"
+if [ ! -e "$npm_config_prefix/lib/node_modules/@pnp/cli-microsoft365" ]; then
+    mkdir -p "$npm_config_prefix/lib/node_modules/@pnp"
+    ln -sfn "$PROJECT_DIR/node_modules/@pnp/cli-microsoft365" \
+            "$npm_config_prefix/lib/node_modules/@pnp/cli-microsoft365"
+fi
+
 # CLI M365 Umgebungsvariablen setzen
 export CLIMICROSOFT365_ENTRAAPPID="${MICROSOFT_CLIENT_ID}"
 export CLIMICROSOFT365_TENANT="${MICROSOFT_TENANT_ID}"
