@@ -82,7 +82,13 @@ Teil 2 Rang-Klaerung UND Teil 3 Muster-Verdichtung, siehe `training/PROGRAMM.md`
   `grobkosten-onepager` (JANS-Grobkosten-Vorlagen). **Erfuellt den letzten offenen
   Endbedingung-Punkt Etappe 2** (Bild-Katalog indexiert).
 
-## Externe Referenz-Juryberichte (wiki/extern/) — 23 von 23 established
+## Externe Referenz-Juryberichte (wiki/extern/) — 23 von 23 established (Schulbau) + Healthcare-Tranche
+
+Healthcare (Alters-/Pflege-/Gesundheitsbau), alle established: kantonsspital-aarau-ksa (Sieger
+«Dreiklang»), alterszentrum-sihlsana-adliswil (Sieger «SOPHIE»), ipw-klinik-schlosstal-winterthur
+(Sieger «GrassGreen»), alterswohnen-taegermoos-kuesnacht (betreutes Alterswohnen, Sieger
+«Kassiopeia», neff neumann architekten; refuter-verifiziert 25.07.2026 direkt aus der
+Grundwahrheit, da das Erst-Destillat wegen NAS-Mount-Abbruch nie geschrieben worden war).
 
 Schul-/Bildungsbau 2012–2026: bruehl-solothurn, faellanden, froeschmatt-pratteln,
 heilpaedagogische-schule-bern, hinter-gaerten-riehen, kantonsschule-baden,

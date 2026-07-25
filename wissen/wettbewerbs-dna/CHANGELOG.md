@@ -1,5 +1,28 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-25 — Extern Healthcare Tranche 2: Jurybericht «Betreutes Alterswohnen Tägermoos, Küsnacht» (2023) destilliert + Refuter-verifiziert (established)
+- Neuer Artikel `wiki/extern/jurybericht-alterswohnen-taegermoos-kuesnacht.md` aus dem
+  Volltext-Extrakt `raw/extern-jurybericht-alterswohnen-taegermoos-kuesnacht.txt` (pdftotext
+  -layout, 80 S., Gemeinde Küsnacht, arc Consulting, Juni 2023). Subtyp **alterswohnen**
+  (vierte Healthcare-Referenz, deckt die im B1-Sweep vermerkten alterswohnen-Lücken).
+- Besonderheit: das ursprüngliche Extraktions-Destillat wurde wegen eines abgebrochenen
+  NAS-Mounts NIE geschrieben (Extraktions-Agent wartete auf Remount). Der Refuter hat den
+  Mount via Tailscale-Hostname wiederhergestellt und das Destillat direkt aus der Grundwahrheit
+  erstellt; jede Aussage per Konstruktion quellenbelegt.
+- **Ergebnis:** Sieger «Kassiopeia» (Projekt 6, 1. Rang / 1. Preis, CHF 30'000), Architektur
+  neff neumann architekten Zürich (Verantwortlich Barbara Neff, Bettina Neumann, Thomas
+  Wölfel), Landschaft manoa Landschaftsarchitekten Meilen. 42 eingereichte Projekte,
+  Preissumme CHF 140'000 exkl. MwSt., acht Preise, keine Ankäufe. Jury tagte 7./9. Februar
+  und 9. März 2023. Parzelle Tägermoos 4'535 m2, Zone öffentliche Bauten, Programm-Soll rund
+  50 bis 55 betreute Alterswohnungen (Sieger 57).
+- Strukturbefund wie Schulbau/Healthcare: KEINE absoluten Kosten-/Flächenkennwerte publiziert
+  (CHF/m2, BGF, GV); Wirtschaftlichkeit nur qualitativ («über/im/unter dem Durchschnitt»). Für
+  B6 nur als Programm-/Mengengerüst-Quelle (Wohnungsanzahl je Projekt) brauchbar. Delta zum
+  1. Rang: Wohnungsanzahl x Grundrissqualität x Kompaktheit (Kassiopeia 57 gegen Trialog 50
+  «wenig flächeneffizient», Tödi 52 «knapp gegeben»).
+- Status **established**, verdict Refuter BESTANDEN (Erst-Destillat aus Grundwahrheit, keine
+  Zuordnungs-/Seitenfehler zu korrigieren).
+
 ## 2026-07-24 — 2507 TKHL Halden: Jurybericht amtlich beschafft, Dossier + Muster vervollstaendigt (Mac Mini Nachtschicht, Dispatch-Run 20260724-063005)
 - Der seit 12.07.2026 faellige Jurybericht «Bericht des Preisgerichts» (Stadt St.Gallen
   Hochbauamt, Maerz 2026, 68 S.) via curl von stadt.sg.ch bezogen (57 MB, «klein»-Aufloesung;
