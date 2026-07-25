@@ -1268,3 +1268,39 @@ Verfahrensstand unverändert. FAQ-Stand jetzt **F1–F105**. Details: `outputs/2
   Zürcher Fachplanung Hitzeminderung, «5x mehr Tropennächte»-Zahl am MeteoSchweiz-Primärbericht
   direkt verifizieren, fünf gebündelte Kaufentscheide (B1, SWKI-VA105-01, SIA-385/1, SIA-385/2,
   SIA-384.354) sollten Raphael bald tatsächlich vorgelegt statt nur weitergetragen werden.
+
+- **D71 (Run 101, 2026-07-25)** — Drei parallele general-purpose-Agenten arbeiten Run-100-Priorität
+  3 (Hitzeinseln vertiefen) und 4 (neues Thema frei) ab; ein vierter Auftrag (Priorität-Backlog
+  Blitzschutz/Lithium/SNR 464022) stellte sich als bereits in Run 94 erledigt heraus — der Agent
+  fand die beiden Ziel-Destillate schon vorhanden (`vkf-lithium-batteriespeicher-brandschutz`,
+  `snr-464022-blitzschutz-ausfuehrung`), editierte nichts und meldete stattdessen den veralteten
+  `wiki/INDEX.md`-Backlog-Eintrag zurück — dort bereinigt. **BAFU/ARE-Volltext + Kt. SZ + MeteoSchweiz**
+  (Punkt 3): der BAFU/ARE-Bericht UW-1812-D (2018, 108 S.) wurde diesmal per NCCS-Spiegel vollständig
+  gelesen (Original-Domains bafu.admin.ch/are.admin.ch lieferten HTTP 502) — wichtige Korrektur: die
+  vereinfachte 5er-Massnahmenliste war eine Verkürzung, der Bericht selbst gliedert eigenständig in
+  6 Planungsgrundsätze + 3 städtebauliche Leitsätze + 18 Einzelmassnahmen; mehrere Kanton-ZH-
+  Kühlwerte weichen vom Original ab und wurden präzisiert (Fassadenbegrünung 4,8 vs. 1,3 °C,
+  Wasserelemente 8 °C = Oberflächen- nicht Lufttemperatur-Effekt, Albedo 0,6 °C stammt von einer
+  US-EPA-Schätzung für L.A.). Kt. Schwyz hat seit 13.04.2026 eigene Klimakarten (WebGIS), aber
+  ausdrücklich nur für Fachleute/Gemeinden/Bezirke — kein Pendant zum Zürcher Stadtklimatool/zur
+  Freiraumberatung gefunden (differenzierter Teilbefund, kein reiner Negativbefund). Die
+  «5x mehr Tropennächte»-Zahl wurde an der offiziellen MeteoSchweiz-Medienmitteilung (04.11.2025)
+  verifiziert und bestätigt (keine Ungenauigkeit der Sekundärquelle) →
+  `[[urbane-hitzeinseln-kuehlstrategien-aussenraum]]` von emerging auf **established** gehoben,
+  FAQ F140 geschärft. **Neues Thema: Energie-Performance-Gap** (Punkt 4, Lücken-Check per grep
+  bestätigte echte Lücke — MuKEn-Modul-7-Destillat deckt nur die gesetzliche Betriebsoptimierungs-
+  Pflicht ab, nicht das Phänomen selbst): EBP-Grundlagenbericht (BFE/EnergieSchweiz/Stadt Zürich,
+  November 2019, 31 S. Volltext) zeigt einen Mehrverbrauch von 10-44 % bei CH-Mehrfamilienhäusern
+  gegenüber dem SIA-380/1-Standardbedarf (Haupttreiber Verhaltens-Gap: reale Raumtemperatur
+  ~22,5 °C statt Norm-20 °C), während zertifizierte Minergie-P/A-Neubauten gemäss GAPxPLORE-Studie
+  tendenziell weniger verbrauchen (-12 % bis -18 %); vier Gap-Komponenten (Verhaltens-/Technischer-/
+  Klima-/Modellierungs-Gap), Gegenmassnahmen Sub-Metering/Commissioning/Nutzerkommunikation →
+  `[[energie-performance-gap-monitoring-inbetriebnahme]]` (neu, emerging), FAQ **F141** neu.
+  FAQ-Stand: **141 Kernfragen (F1-F141) belegt.** Alle drei Agenten-Ergebnisse vor Register-
+  Konsolidierung per `git status` verifiziert (ein geändertes + ein neues Destillat; der dritte
+  Agent hatte bewusst nichts editiert). Neu offen: GAPxPLORE-Studie im Volltext lesen (bisher nur
+  Minergie-Sekundärdarstellung), Healthcare-/Pflegebau-spezifische Performance-Gap-Zahlen fehlen
+  vollständig, Dachbegrünung/Rasenfläche-Kühlwerte (Kt. ZH) weiterhin ohne eigene Primärstudie,
+  Fassadenbegrünungs-Diskrepanz (4,8 vs. 1,3 °C) ungeklärt, fünf gebündelte Kaufentscheide (B1,
+  SWKI-VA105-01, SIA-385/1, SIA-385/2, SIA-384.354) sollten Raphael jetzt tatsächlich vorgelegt
+  werden statt weiter nur mitgeführt zu werden — wächst seit Run 98 unverändert im Backlog.

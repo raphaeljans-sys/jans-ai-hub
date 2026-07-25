@@ -2,6 +2,62 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 101: Hitzeinseln-Destillat auf established (BAFU/ARE-Volltext), Blitzschutz-Backlog bereinigt (Run-94-Nachzug), neues Thema Energie-Performance-Gap
+Drei parallele `general-purpose`-Agenten arbeiten die Run-100-Prioritäten 3 (Hitzeinseln vertiefen)
+und 4 (neues Thema) sowie einen Blitzschutz-Backlog-Punkt ab. Die fünf gebündelten Kaufentscheide
+(B1, SWKI-VA105-01, SIA-385/1, SIA-385/2, SIA-384.354) und Massivbau/WDVS-Brandriegel bleiben
+unverändert (Kaufentscheide/passive Beobachtung). Vor der Register-Konsolidierung per `git status`
+verifiziert: zwei der drei Agenten haben tatsächlich geschrieben (ein modifiziertes + ein neues
+Destillat), der dritte hatte bewusst nichts editiert (siehe unten).
+- **Urbane Hitzeinseln/Aussenraum-Kühlung: auf established gehoben.** Der BAFU/ARE-Grundlagenbericht
+  «Hitze in Städten» (UW-1812-D, 2018, 108 S.) wurde diesmal per NCCS-Spiegel vollständig im
+  Volltext gelesen (Original-Domains bafu.admin.ch/are.admin.ch lieferten HTTP 502). Wichtige
+  Korrektur: die in Run 100 verwendete vereinfachte 5er-Massnahmenliste (Begrünung/Verschattung/
+  Wasser/Entsiegelung/Ventilation) war eine Verkürzung — der Bericht selbst gliedert eigenständig in
+  6 Planungsgrundsätze + 3 städtebauliche Leitsätze + 18 Einzelmassnahmen in 4 Gruppen. Mehrere
+  Kanton-ZH-Kühlwerte weichen vom Original ab und wurden präzisiert: Fassadenbegrünung 4,8 °C (Kt.
+  ZH) vs. 1,3 °C (BAFU-Original); Wasserelemente «bis 8 °C» ist im Original ein **Oberflächen**-,
+  kein Lufttemperatur-Effekt (Luftkühlung nur ca. 1 °C); Albedo-Wert 0,6 °C stammt ursprünglich von
+  einer US-EPA-Schätzung zum «Coole Pavement»-Pilotprojekt in Los Angeles, nicht aus einer Schweizer
+  Messung. Kanton Schwyz hat seit 13.04.2026 eigene Klimakarten (WebGIS, Klimaanalyse-/Bewertungs-/
+  Planungshinweiskarte), Zielgruppe aber ausdrücklich «Fachleute, Gemeinden und Bezirke» — kein
+  Pendant zum Zürcher Stadtklimatool/zur Freiraumberatung für private Bauherren gefunden
+  (differenzierter Teilbefund, kein reiner Negativbefund). Die «rund fünfmal mehr Tropennächte»-
+  Zahl für Zürich wurde an der offiziellen MeteoSchweiz-Medienmitteilung «Klimawandel in der Schweiz
+  besonders ausgeprägt» (04.11.2025) verifiziert und bestätigt (3-Grad-Welt gegenüber Referenz-
+  periode 1991–2020) → `[[urbane-hitzeinseln-kuehlstrategien-aussenraum]]` von emerging auf
+  **established** gehoben, FAQ F140 geschärft.
+- **Blitzschutz-Backlog (Lithium-Ionen-Infoblatt + SNR 464022): kein neuer Schreibbedarf, Backlog
+  bereinigt.** Der beauftragte Agent stellte fest, dass beide im `wiki/INDEX.md`-Backlog seit Run 93
+  als offen geführten Punkte bereits in **Run 94** durch zwei eigene Destillate geschlossen wurden:
+  `[[vkf-lithium-batteriespeicher-brandschutz]]` (VKF-Brandschutzmerkblatt 2005-15de + FAQ 2005-01,
+  dreistufige Hazard-Level-Tabelle HL I <15 kWh/HL II 15-100 kWh/HL III >100 kWh, für LFP auf EI 30
+  gelockert) und `[[snr-464022-blitzschutz-ausfuehrung]]` (Geltungsbereich/Erder-Tabelle/PV-
+  Integrationspflicht frei über Electrosuisse-Korrigenda verfügbar, die eigentlichen Ausführungs-
+  klassen I-IV bleiben bestätigter Negativbefund — nur käuflich, auch in der 2024er-Nachfolgenorm
+  SN 414022 kein freier Auszug gefunden). Der Backlog-Eintrag in `wiki/INDEX.md` war seit Run 94
+  nicht nachgezogen worden und wurde in Run 101 bereinigt (Lehre: Backlog-Einträge nach jedem Lauf,
+  der sie schliesst, sofort entfernen statt erst beim nächsten Zufallstreffer).
+- **Neues Thema: Energie-Performance-Gap.** Lücken-Check per grep bestätigte eine echte Lücke: das
+  bestehende MuKEn-Modul-7-Destillat behandelt nur die gesetzliche Betriebsoptimierungspflicht,
+  nicht das Phänomen selbst. Der EBP-Grundlagenbericht «Energie Performance Gap in Neubauten»
+  (EnergieSchweiz/BFE/Stadt Zürich, November 2019, 31 S. Volltext) zeigt: Schweizer Mehrfamilien-
+  häuser verbrauchen im Schnitt 10-44 % mehr Heizwärme als der SIA-380/1-Standardbedarf
+  (Haupttreiber Verhaltens-Gap: reale Raumtemperatur ~22,5 °C statt Norm-20 °C), während
+  zertifizierte Minergie-P/A-Neubauten gemäss der GAPxPLORE-Studie (nur sekundärquellig über
+  Minergie) tendenziell weniger verbrauchen (-12 % bis -18 %). Vier Gap-Komponenten (Verhaltens-/
+  Technischer-/Klima-/Modellierungs-Gap), Gegenmassnahmen Sub-Metering/Monitoring schon in der
+  Projektierung, systematische Inbetriebsetzung/Commissioning in den ersten 1-2 Betriebsjahren,
+  Nutzerkommunikation; keine gesetzliche Betriebsoptimierungspflicht bei Wohnbauten →
+  `[[energie-performance-gap-monitoring-inbetriebnahme]]` (neu, emerging), FAQ **F141** neu.
+
+**Register nachgeführt:** `destillate/INDEX.md` (zwei Zeilen neu), `wiki/INDEX.md` (ein neuer
+Destillat-Direktverweis, Hitzeinseln-Zeile auf established, Backlog Run-94-Nachzug bereinigt,
+FAQ-Zählerzeile auf F141/Run 101 aktualisiert), `wiki/BAUHERREN-FAQ.md` (F140 geschärft/
+established, F141 neu), `wiki/QUESTIONS.md` (Run 101 abgeschlossen, neue Prioritäten), `training/
+curriculum.md` (D71), `raw/_INGESTED.md` (zwei Zeilen neu). FAQ-Stand: **141 Kernfragen (F1-F141)
+belegt.**
+
 ## 2026-07-25 — Run 100: TABS-OP-Saal-Negativbefund bestätigt, Sanierungsfahrplan auf established gehoben, neues Thema urbane Hitzeinseln
 Drei parallele `general-purpose`-Agenten (nach der Run-97-Lehre zum Hintergrund-Stall des
 `energie-berater`-Subtyps bewusst gewählt) arbeiten die Run-99-Prioritätenpunkte 4, 5 und 6 ab.

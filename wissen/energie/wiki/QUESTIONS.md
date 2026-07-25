@@ -1658,7 +1658,7 @@ Duschwasser-WRG SIA-385/2-Vollversion, SIA-384.354-Volltext (fünf Kaufentscheid
 Rückfragen bei Raphael, unverändert gegenüber Run 99); Massivbau-CHF/m² und WDVS-Brandriegel-Kosten
 (auf passive Beobachtung, unverändert).
 
-**Nächster Lauf: Priorität**
+**Nächster Lauf: Priorität** (Stand nach Run 100, vor Run 101)
 1. Die fünf gebündelten Kaufentscheide (B1-Konsolidierung, SWKI-VA105-01, SIA-385/1, SIA-385/2,
    SIA-384.354) weiterhin Raphael vorlegen statt automatisch lösen — Liste wächst, sollte bald
    tatsächlich vorgelegt statt nur weitergetragen werden.
@@ -1667,3 +1667,61 @@ Rückfragen bei Raphael, unverändert gegenüber Run 99); Massivbau-CHF/m² und 
    Web-Auszug), Kt.-SZ-Pendant zur Zürcher Fachplanung Hitzeminderung recherchieren, «5x mehr
    Tropennächte»-Zahl am MeteoSchweiz-Primärbericht direkt verifizieren.
 4. Neue Themen-Recherche nach freier Wahl (PDF-Inventar bleibt erschöpft, Web-Pfad).
+
+## Run 101 (2026-07-25) — drei parallele Agenten: Hitzeinseln vertiefen, Blitzschutz-Backlog-Check, neues Thema Performance Gap
+
+Punkte 1/2 (fünf Kaufentscheide, Massivbau/WDVS) bleiben unverändert unangetastet. Drei parallele
+`general-purpose`-Agenten bearbeiten Punkt 3 (Hitzeinseln-Vertiefung, alle drei Teilaufträge),
+einen gezielten Blitzschutz-Backlog-Punkt (Lithium-Ionen-Infoblatt + SNR 464022) und Punkt 4
+(neues Thema frei); vor der Register-Konsolidierung per `git status` verifiziert, dass genau zwei
+der drei Agenten tatsächlich geschrieben haben.
+
+- [x] **Punkt 3 (Hitzeinseln vertiefen)** ✓ 2026-07-25: alle drei Teilaufträge erledigt. BAFU/ARE-
+  Bericht UW-1812-D (2018, 108 S.) jetzt im **Volltext** gelesen (NCCS-Spiegel, Original-Domains
+  502) — wichtige Korrektur der Massnahmen-Systematik (6 Planungsgrundsätze + 3 städtebauliche
+  Leitsätze + 18 Einzelmassnahmen statt vereinfachter 5er-Liste), mehrere Kanton-ZH-Kühlwerte
+  präzisiert/als abweichend markiert (Fassadenbegrünung 4,8 vs. 1,3 °C, Wasserelemente = Oberfläche
+  nicht Luft, Albedo-Wert US-Herkunft). Kt. Schwyz recherchiert: eigene Klimakarten seit 13.04.2026,
+  aber ausdrücklich nur für Fachleute/Gemeinden — kein Bauherren-Pendant zu Zürich gefunden
+  (differenzierter Teilbefund). Tropennächte-«5x»-Zahl an der offiziellen MeteoSchweiz-
+  Medienmitteilung (04.11.2025) verifiziert und bestätigt →
+  `[[urbane-hitzeinseln-kuehlstrategien-aussenraum]]` von emerging auf **established** gehoben,
+  FAQ F140 geschärft.
+- [x] **Blitzschutz-Backlog (Lithium-Ionen/SNR 464022)** ✓ 2026-07-25: **kein neuer Schreibbedarf**
+  — der beauftragte Agent stellte fest, dass beide im `wiki/INDEX.md`-Backlog als offen geführten
+  Punkte bereits in **Run 94** durch zwei eigene Destillate geschlossen wurden
+  (`[[vkf-lithium-batteriespeicher-brandschutz]]`: VKF-Merkblatt 2005-15de + FAQ 2005-01, HL-I/II/
+  III-Tabelle 15/100 kWh primärquellen-bestätigt; `[[snr-464022-blitzschutz-ausfuehrung]]`:
+  Geltungsbereich/Erder-Tabelle/PV-Integrationspflicht frei verfügbar via Electrosuisse-Korrigenda,
+  die eigentlichen Klassen I-IV bleiben bestätigter Negativbefund, nur käuflich). Der `wiki/
+  INDEX.md`-Backlog war seit Run 94 nicht nachgezogen worden — in Run 101 bereinigt.
+- [x] **Punkt 4 (neues Thema)** ✓ 2026-07-25: **Energie-Performance-Gap** (Lücken-Check per grep
+  bestätigte echte Lücke gegenüber dem bestehenden MuKEn-Modul-7-Destillat, das nur die
+  gesetzliche Pflicht behandelt). EBP-Grundlagenbericht (BFE/EnergieSchweiz/Stadt Zürich, November
+  2019, 31 S. Volltext): CH-MFH verbrauchen im Schnitt 10-44 % mehr Heizwärme als der SIA-380/1-
+  Standardbedarf (Haupttreiber Verhaltens-Gap), zertifizierte Minergie-P/A-Neubauten gemäss
+  GAPxPLORE tendenziell weniger (-12 % bis -18 %); Gegenmassnahmen Sub-Metering, Commissioning,
+  Nutzerkommunikation → `[[energie-performance-gap-monitoring-inbetriebnahme]]` (neu, emerging),
+  FAQ **F141** neu.
+
+**Register nachgeführt:** `destillate/INDEX.md` (zwei Zeilen neu), `wiki/INDEX.md` (ein neuer
+Destillat-Direktverweis, Backlog-Bereinigung Run-94-Nachzug, FAQ-Zählerzeile auf F141
+aktualisiert), `wiki/BAUHERREN-FAQ.md` (F140 geschärft/established, F141 neu), `training/
+curriculum.md` (D71), `raw/_INGESTED.md` (zwei Zeilen neu), `CHANGELOG.md`.
+
+**Bewusst nicht weiterverfolgt:** die fünf gebündelten Kaufentscheide (unverändert seit Run 98);
+Massivbau-CHF/m² und WDVS-Brandriegel-Kosten (passive Beobachtung, unverändert).
+
+**Nächster Lauf: Priorität**
+1. Die fünf gebündelten Kaufentscheide (B1-Konsolidierung, SWKI-VA105-01, SIA-385/1, SIA-385/2,
+   SIA-384.354) sollten jetzt tatsächlich Raphael vorgelegt werden — die Liste wächst seit Run 98
+   unverändert, ohne dass eine Entscheidung eingeholt wurde.
+2. Massivbau-CHF/m² und WDVS-Brandriegel-Kosten: passive Beobachtung fortsetzen.
+3. GAPxPLORE-Studie (BFE 2019) im Volltext beschaffen und die Minergie-P/A-Zahlen (-12 %/-18 %/
+   -16 %/-5,3 %) direkt am Original verifizieren (bisher nur Minergie-Sekundärdarstellung).
+4. Dachbegrünung/Rasenfläche-Kühlwerte (Kanton ZH) und die Fassadenbegrünungs-Diskrepanz
+   (4,8 vs. 1,3 °C) — beide ohne eigene Primärstudie hinter der Kanton-ZH-Angabe, siehe Destillat
+   `urbane-hitzeinseln-kuehlstrategien-aussenraum`.
+5. Neue Themen-Recherche nach freier Wahl (PDF-Inventar bleibt erschöpft, Web-Pfad) — z.B.
+   Healthcare-spezifische Performance-Gap-Zahlen (Spital/Pflegeheim, 24h-Betrieb, Prozessenergie),
+   bisher vollständig unbelegt.
