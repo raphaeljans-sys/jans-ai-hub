@@ -1,9 +1,14 @@
 ---
 title: Ausnützungsübertragung — Kanton Zürich
 status: established
-last_updated: 2026-07-10
-sources: ["§ 251 PBG", "§ 254 PBG", "§ 259 PBG", "§ 72 Abs. 3 PBG", "§ 17 Abs. 2 ABV", "Art. 646 ZGB", "Buch Bd 2 Kap. 14.1.2.5 S. 928-935", "Buch Bd 2 Kap. 14.2.6 S. 987", "ZBl 1999 S. 218", "BGer 1P.256/2006", "BEZ 1996 Nr. 17", "Art. 40 BO Erlenbach", "Art. 6 BO Zürich"]
+last_updated: 2026-07-25
+sources: ["§ 251 PBG", "§ 254 PBG", "§ 259 PBG", "§ 72 Abs. 3 PBG", "§ 17 ABV (aufgehoben seit 1.2.1992, keine Grundlage der Nutzweisen-Uebertragung)", "Art. 646 ZGB", "Buch Bd 2 Kap. 14.1.2.5 S. 928-935", "Buch Bd 2 Kap. 14.2.6 S. 987", "ZBl 1999 S. 218", "BGer 1P.256/2006", "BEZ 1996 Nr. 17", "Art. 40 BO Erlenbach", "Art. 6 BO Zürich", 260607_amtlich_zh_abv.md]
 links: [[nutzungsziffern]], [[14-nutzungsdichte-ausnuetzung]], [[zonenkonformitaet]]
+verifiziert:
+  - datum: 2026-07-25
+    methode: "Modell-D-Volltextabgleich (adversarial), Buch-Run 55, Stichproben-Re-Verifikation (Prioritaet c, PROGRAMM.md)"
+    umfang: "§ 17 Abs. 2 ABV (Nutzweisen-Uebertragung) gegen raw/260607_amtlich_zh_abv.md"
+    ergebnis: "KORRIGIERT: § 17 ABV seit 1.2.1992 aufgehoben (RRB 25.9.1991), enthaelt keinen Abs. 2 - Fundstelle nicht bestaetigbar; Nutzweisen-Uebertragung beruht nach geltendem Recht ausschliesslich auf kommunalem Recht. Kernaussagen zur Ausnuetzungsuebertragung selbst (§ 251/§ 254/§ 259/§ 72 Abs. 3 PBG) unveraendert CONFIRMED"
 ---
 
 # Ausnützungsübertragung (Kanton Zürich)
@@ -49,7 +54,19 @@ problematisch.
 - Wirkung primär **zivilrechtlich**; das Grundbuch dokumentiert die baurechtliche
   Reduktion der belasteten Parzelle.
 
-## Abgrenzung: Übertragung von Nutzweisen (§ 17 Abs. 2 ABV) — NICHT dasselbe
+## Abgrenzung: Übertragung von Nutzweisen — NICHT dasselbe
+
+> **Korrektur (Run 55, Modell-D-Volltextabgleich):** Das Buch (S. 987) und dieser Artikel
+> nannten bisher **§ 17 Abs. 2 ABV** als Rechtsgrundlage der Nutzweisen-Übertragung. Am
+> amtlichen ABV-Volltext (`raw/260607_amtlich_zh_abv.md`) lässt sich das **nicht bestätigen**:
+> § 17 ABV wurde durch RRB vom 25. September 1991 **aufgehoben** (in Kraft seit 1. Februar
+> 1992) und ist seither ein leerer Platzhalter ohne eigenen Absatz — es gibt keinen § 17
+> Abs. 2 ABV. Die Herkunft der Buch-Fundstelle bleibt ungeklärt (evtl. Verweis auf eine vor
+> 1992 geltende ABV-Fassung, evtl. Verwechslung mit einer anderen Norm) — hier nicht erfunden,
+> sondern offen ausgewiesen. **Praktisch ändert das nichts an der Kernaussage:** wie die Buch-
+> Beispiele selbst zeigen (BO Zürich Art. 6, unten), beruht die Nutzweisen-Übertragung nach
+> heute geltendem Recht **ausschliesslich auf kommunalem Recht** — es gibt keine eigene
+> kantonale ABV-Norm dafür.
 
 Von der Ausnützungsübertragung strikt zu **trennen** ist die **Übertragung von Nutzweisen**
 (insbesondere des **Wohnanteils**) von einem auf ein anderes Grundstück (Buch Bd 2 Kap. 14.2.6,
@@ -58,7 +75,7 @@ S. 987):
 | | Ausnützungsübertragung | Übertragung von Nutzweisen |
 |---|---|---|
 | Was wird verschoben | **Ausnützungsreserve** (aGF) | **Nutzweise/Wohnanteil** |
-| Rechtsgrundlage | § 251 lit. a i.V.m. § 254/**§ 259 Abs. 1 PBG** | **§ 17 Abs. 2 ABV** |
+| Rechtsgrundlage | § 251 lit. a i.V.m. § 254/**§ 259 Abs. 1 PBG** | **kommunales Recht** (keine kantonale ABV-Norm, § 17 ABV seit 1992 aufgehoben) |
 | Reichweite | gleiche Zone, räumliche Nähe (§ 72 Abs. 3) | nach **kommunalem Recht** frei regelbar |
 | Beispiel-Schwelle | max. 1/5 Grundausnützung (BO Erlenbach) | **Radius 150 m Kern- / 300 m übrige Zonen** (BO Zürich Art. 6) |
 
@@ -78,9 +95,10 @@ einzigen zulässigen Verschiebungen sind die Ausnützungsübertragung und die Nu
 
 ## Anwendungs-Transfer JANS
 
-- **Wohnanteil zu knapp?** Prüfen, ob eine **Nutzweisen-Übertragung** (§ 17 Abs. 2 ABV) nach der BO
-  der Gemeinde möglich ist — das ist ein **anderer** Hebel als die Ausnützungsübertragung und in
-  Zürich über den 150-m-/300-m-Radius (BO Art. 6) verfügbar. Grundbuch-Anmerkung vor Baubeginn.
+- **Wohnanteil zu knapp?** Prüfen, ob eine **Nutzweisen-Übertragung nach kommunalem Recht**
+  (keine kantonale ABV-Grundlage, siehe Korrektur oben) nach der BO der Gemeinde möglich ist —
+  das ist ein **anderer** Hebel als die Ausnützungsübertragung und in Zürich über den
+  150-m-/300-m-Radius (BO Art. 6) verfügbar. Grundbuch-Anmerkung vor Baubeginn.
 - Eine «kaufbare» Ausnützungsreserve auf der Nachbarparzelle ist **nur** verwertbar,
   wenn sie in **derselben Zone** liegt und **direkt angrenzt** — sonst scheitert sie an
   § 72 Abs. 3 PBG.

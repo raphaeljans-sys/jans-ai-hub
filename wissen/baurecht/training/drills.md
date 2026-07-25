@@ -862,11 +862,14 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   Lauf zwischen zwei Geschossen zaehlt **je zur Haelfte** (RB 2005 Nr. 70). Lift: Schachtflaeche je Geschoss
   mit anrechenbaren Raeumen. Fuehrt die Erschliessung **ausschliesslich** zu nicht anrechenbaren Raeumen,
   ist sie **nicht** anrechenbar (§ 255 Abs. 1 PBG; BEZ 2017 Nr. 25). _[2026-07-08]_
-- **F (Modell C):** Was besagt § 9 ABV zu Untergeschossen und welche Vorsicht ist geboten? — **A:** Ein UG,
-  das **mehrheitlich (dem Volumen nach) ueber dem gewachsenen Boden** liegt, gilt fuer die AZ als
-  **Vollgeschoss** und ist voll anrechenbar. **Vorsicht:** Die Baurekurskommission haelt § 9 ABV fuer
-  kompetenzueberschreitend (BEZ 1995 Nr. 24 / 2011 Nr. 23); viele Gemeinden wenden ihn faktisch nicht mehr
-  an, in der IVHB-Fassung ist er gestrichen → **kommunale Praxis pruefen** (Bd 2 S. 952 f.). _[2026-07-08]_
+- **F (Modell D):** Was besagt § 9 ABV zu Untergeschossen — und gilt das noch? — **A:** **Korrigiert
+  Run 55 (2026-07-25):** die «UG mehrheitlich ueber gewachsenem Boden = Vollgeschoss»-Regel steht nur
+  in der **alten Anhang-Fassung** von § 9 ABV (Stand 28.2.2017). Die seit 1.3.2017 geltende
+  harmonisierte Fassung (Hauptteil, RRB 11.5.2016) **enthaelt diesen Halbsatz nicht mehr** — nicht
+  bloss «faktisch nicht mehr angewandt», sondern **im Gesetzeswortlaut gestrichen**. Aktuelles Recht
+  kennt nur noch die Vollgeschoss-Ersatz-Regel (§ 9 ABV 1. Halbsatz i.V.m. § 276 Abs. 2 PBG). Die
+  Anhang-Fassung gilt nur bei nicht angepasster Gemeinde-BZO (Bd 2 S. 952 f.;
+  `raw/260607_amtlich_zh_abv.md`). _[2026-07-08, korrigiert 2026-07-25]_
 - **F (Modell A · Frage→Beleg):** Ein Bauherr deklariert einen 12 m² grossen, gut belichteten Raum im UG mit
   Zugang direkt von der Wohnung als «Keller». Zaehlt er zur Ausnuetzung? — **A:** **Voraussichtlich ja.**
   Massgebend ist die objektive **Eignung**, nicht die Bezeichnung (BEZ 2005 Nr. 37). Ist der Raum nach
@@ -923,12 +926,15 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   geltend gemachte ideelle Immissionen (Alter/Sterben) stehen nicht entgegen (**BEZ 2015 Nr. 36**;
   Bd 2 S. 982). JANS-Merke: kleinteilige Healthcare-/Pflegenutzung ist in ZH-Wohnzonen i.d.R. moeglich.
   _[2026-07-10]_
-- **F (Modell C):** Worin unterscheidet sich die **Uebertragung von Nutzweisen** von der
-  **Ausnuetzungsuebertragung**? — **A:** Die Ausnuetzungsuebertragung verschiebt **Ausnuetzungsreserve**
-  (§ 259 Abs. 1 PBG, gleiche Zone, Naehe). Die **Nutzweisen-Uebertragung** (z.B. des Wohnanteils) richtet
-  sich **nicht** danach, sondern nach **§ 17 Abs. 2 ABV** — kommunal frei regelbar; BO Zuerich Art. 6:
-  Verlegung des Wohnanteils im **Radius 150 m (Kernzone) / 300 m (uebrige Zonen)**, vor Baubeginn im
-  Grundbuch anzumerken (Bd 2 S. 987). _[2026-07-10]_
+- **F (Modell D):** Worin unterscheidet sich die **Uebertragung von Nutzweisen** von der
+  **Ausnuetzungsuebertragung** — und was ist ihre Rechtsgrundlage? — **A:** Die Ausnuetzungsuebertragung
+  verschiebt **Ausnuetzungsreserve** (§ 259 Abs. 1 PBG, gleiche Zone, Naehe). Die **Nutzweisen-
+  Uebertragung** (z.B. des Wohnanteils) richtet sich **nicht** danach. **Korrigiert Run 55
+  (2026-07-25):** die bisher zitierte Fundstelle «§ 17 Abs. 2 ABV» existiert nicht — § 17 ABV ist seit
+  1.2.1992 aufgehoben (RRB 25.9.1991) und enthaelt keinen Abs. 2. Die Uebertragung beruht nach
+  geltendem Recht **ausschliesslich auf kommunalem Recht**; BO Zuerich Art. 6: Verlegung des
+  Wohnanteils im **Radius 150 m (Kernzone) / 300 m (uebrige Zonen)**, vor Baubeginn im Grundbuch
+  anzumerken (Bd 2 S. 987; `raw/260607_amtlich_zh_abv.md`). _[2026-07-10, korrigiert 2026-07-25]_
 - **F (Modell C):** Gibt es in Kap. 14 ein «Mischrechnungsverbot»? — **A:** **Nicht als benannte
   Doktrin.** Jede Nutzungsziffer (AZ/BMZ/UEZ/Gruenflaechenziffer) bindet **eigenstaendig und
   abschliessend** (numerus clausus § 251 PBG); Reserve bei einer Ziffer laesst sich nicht in Mehrnutzung
@@ -939,16 +945,37 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   BO das vor, wird die Baumasse integrierter Garagen/Autolifte der BMZ fuer Besondere Gebaeude
   angerechnet, **ohne** dass die Garage die Maximalgroessen von § 49 Abs. 3 PBG einhalten muss (§ 13 ABV;
   **BEZ 2012 Nr. 2** Zollikon; Bd 2 S. 971). _[2026-07-10]_
-- **F (Modell C):** Was aendert sich bei der **Ueberbauungsziffer** unter der Harmonisierungsvorlage
-  (§ 256 nPBG)? — **A:** Bezug ist die anrechenbare Gebaeudeflaeche innerhalb der **projizierten
-  Fassadenlinie**; **neu sind Unterniveaubauten anzurechnen** (auch Klein-/Anbauten). Energiespar-Bonus
-  **+20 %** der Grundziffer (§ 11 nABV). Bei der BMZ (§ 258 nPBG) faellt neu das Volumen offener,
-  weniger als zur Haelfte umschlossener Gebaeudeteile ausser Ansatz (Bd 2 S. 990 f.). _[2026-07-10]_
+- **F (Modell D):** Was gilt heute bei der **Ueberbauungsziffer** — «Harmonisierungsvorlage» oder
+  bereits geltendes Recht? — **A:** **Korrigiert Run 55 (2026-07-25):** die harmonisierte Fassung
+  (§ 256 PBG) ist **bereits seit 2015/2017 geltender Hauptteil**, keine kuenftige Vorlage — Bezug ist
+  die anrechenbare Gebaeudeflaeche innerhalb der **projizierten Fassadenlinie**; Energiespar-Bonus
+  **+20 %** der Grundziffer (§ 11 ABV). Bei der BMZ (§ 258 PBG) faellt **seit derselben Harmonisierung**
+  das Volumen offener, weniger als zur Haelfte umschlossener Gebaeudeteile ausser Ansatz (Bd 2 S. 990 f.;
+  `raw/260607_amtlich_zh_pbg.md`). Die «Unterniveaubauten»-Neuregelung liess sich am gelesenen
+  Gesetzeswortlaut von § 256 PBG nicht woertlich bestaetigen (needs-verification). _[2026-07-10,
+  korrigiert 2026-07-25]_
 - **F (Modell A · Frage→Beleg):** Eine Gemeinde legt in einer Kernzone gar keine Nutzungsziffern fest —
   ist das zulaessig, und woran bemisst sich dann die Ausnuetzung? — **A:** **Zulaessig** (§ 251 lit. b
   PBG): die Gemeinde darf auf Nutzungsziffern verzichten und die Ausnuetzung **indirekt** nur ueber die
   primaeren Baubegrenzungen (Abstands-, Hoehen-, Geschosszahlvorschriften) beschraenken; in Kern-/
   Zentrumszonen ist dies **ueblich** (Bd 2 S. 992). _[2026-07-10]_
+- **F (Modell D, neu Run 55):** Wieviel Prozent der anrechenbaren Geschossflaeche duerfen energiesparende
+  verglaste Balkone/Wintergaerten (§ 10 lit. c ABV) heute maximal betragen, ohne voll zur AZ zu zaehlen —
+  10 % oder 20 %? — **A:** **20 %.** Die seit RRB vom 11.5.2016 (in Kraft 1.3.2017) geltende
+  harmonisierte Fassung von § 10 lit. c ABV setzt «bis zu 20 % der Summe aller anrechenbaren
+  Geschossflaechen» und nennt zusaetzlich «Loggien». Die oft zitierten **10 %** stammen aus der
+  **alten Anhang-Fassung** (Stand 28.2.2017, Begriff «Vorbauten» statt «Loggien») und gelten nur noch
+  bei nicht angepasster Gemeinde-BZO. `raw/260607_amtlich_zh_abv.md`, volltextverifiziert Run 55
+  (2026-07-25).
+- **F (Modell D, neu Run 55) — Merkregel Fassungsstand-Umkehr Kap. 14:** Woran erkennt man im ZH-
+  PBG/-ABV-Volltext, welche Fassung (Hauptteil oder Anhang) heute gilt? — **A:** Der **Hauptteil**
+  traegt Nachtrag-Superskripte (z. B. «§ 255.55, 59») und steht im vorderen Teil des Dokuments — er ist
+  seit der PBG-Aenderung vom 14.9.2015 bzw. ABV-Aenderung vom 11.5.2016 (in Kraft 1.3.2017) das
+  **geltende Recht**. Der **Anhang** («vom 7. September 1975; Stand 28. Februar 2017», PBG-Anhang
+  ab dortiger Ueberschrift «Anhang») enthaelt die **alte** Zaehlung/Fassung und gilt nur, **bis die
+  jeweilige Gemeinde ihre BZO angepasst hat** (Uebergangsbestimmung zur Aenderung vom 14.9.2015, Frist
+  urspruenglich 8 Jahre). Diese Umkehr-Falle betraf bereits [[abstaende-und-hoehen]] (Run 31) und
+  [[geschosse-und-kniestock]] (Run 33/34) — mit Kap. 14 ([[nutzungsziffern]]) jetzt auch bestaetigt.
 
 ## Buch-Run 27 (2026-07-11) — Kap. 17 Haustechnik / Kap. 19 Laerm + NIS
 - **F (Modell C):** Reicht es an einer verkehrslaermbelasteten Lage, wenn EIN Fenster jedes

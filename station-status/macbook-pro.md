@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.07.2026 16:58:05
+Stand: 25.07.2026 17:08:09
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 16:57)
+- Developer/jans/ai/hub  (letzte Aktivitaet 16:59)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 25.07.2026 16:58:05
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 443b26b5 energie-training Run 93: GVZ-PV-Feuerwehrmeldung, VKF Gefährliche-Stoffe-Negativbefund, Glas-g-Wert-Negativbefund, Massivbau-CO2-Gegenzahl (F123-F126)
+- 545296bf sync: twin-fidelity-review: 2026-07-25d

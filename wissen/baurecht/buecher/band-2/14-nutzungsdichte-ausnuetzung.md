@@ -7,7 +7,8 @@ shots: "462-500 (distilliert: 462-500 vollstaendig; Tail-Shots 489/492/495/497/4
 paragraphen: ["§ 49 PBG", "§ 49a PBG", "§ 50 PBG", "§ 51 PBG", "§ 52 PBG", "§ 57 PBG", "§ 58 PBG", "§ 72 PBG", "§ 251 PBG", "§ 253 PBG", "§ 253a PBG", "§ 254 PBG", "§ 255 PBG", "§ 256 PBG", "§ 257 PBG", "§ 258 PBG", "§ 255 nPBG", "§ 256 nPBG", "§ 257 nPBG", "§ 258 nPBG", "§ 259 PBG", "§ 260 PBG", "§ 269 PBG", "§ 273 PBG", "§ 276 PBG", "§ 302 PBG", "§ 303 PBG", "§ 304 PBG", "§ 5 ABV", "§ 9 ABV", "§ 10 ABV", "§ 11 ABV", "§ 12 ABV", "§ 13 ABV", "§ 17 ABV", "§ 18 ABV", "§ 27 ABV", "§ 11 nABV", "§ 13 nABV", "§ 20 BBV II", "Art. 22 RPG", "Art. 52 PBG", "Art. 646 ZGB"]
 status: established
 gelesen: 2026-06-09
-last_updated: 2026-07-10
+last_updated: 2026-07-25
+verifiziert: "2026-07-25 (Buch-Run 55, Modell-D-Volltextabgleich gegen raw/260607_amtlich_zh_pbg.md + raw/260607_amtlich_zh_abv.md, Hauptteil UND Anhang je gegengelesen) — Fassungsstand-Umkehr korrigiert (harmonisierte Fassung §§ 255/256/257/258 PBG + §§ 9-13 ABV ist bereits seit 2015/2017 geltender Hauptteil, nicht kuenftige nPBG-Vorlage); 3 Einzelkorrekturen: § 9 ABV 'UG mehrheitlich ueber gewachsenem Boden' nur Anhang-Recht; § 10 lit. c ABV aktuell 20% (nicht 10%); § 17 Abs. 2 ABV existiert nicht (aufgehoben seit 1.2.1992)"
 ---
 
 # Kap. 14 — Nutzungsdichte und Nutzungsart (Ausnuetzung)
@@ -121,7 +122,12 @@ anrechenbaren Geschossflaeche? Der Detailkatalog (schliesst die frueher offene �
   2. der **Arbeitsplatzgestaltung** dienende Nebenraeume (Erfrischungsraeume, kleine Kuechen,
      Kleiderraeume, Garderoben, Duschen) bis **2 %** der anrechenbaren Geschossflaeche;
   3. **verglaste Balkone, Veranden und Vorbauten ohne heiztechnische Installationen**, soweit sie dem
-     Energiesparen dienen, bis **10 %** der Summe aller anrechenbaren Geschossflaechen (§ 10 lit. c ABV).
+     Energiesparen dienen, bis **10 %** der Summe aller anrechenbaren Geschossflaechen (§ 10 lit. c ABV,
+     **Anhang-/alte Fassung**). **Korrektur (Buch-Run 55, 2026-07-25, Modell-D-Volltextabgleich):** die
+     seit 1.3.2017 geltende harmonisierte Fassung von § 10 lit. c ABV setzt **20 %** (nicht 10 %) und
+     nennt zusaetzlich «Loggien» («verglaste Balkone, Veranden und Loggien sowie Wintergaerten und
+     Windfaenge»); die 10-%-Schwelle und der Begriff «Vorbauten» stammen aus der Anhang-Fassung
+     (Stand 28.2.2017), die nur fuer Gemeinden mit nicht angepasster BZO fortgilt.
   Bezugsgroesse ist die **anrechenbare** Geschossflaeche (ohne DG/UG). Ist ein Vorbau **groesser** als
   die Schwelle, wird nur die **Mehrflaeche** (nicht der ganze Vorbau) angerechnet (S. 957).
 - **Verglaste Vorbauten / Wintergaerten (AZ)** (14.1.5.10, § 10 lit. c ABV, S. 955-957): privilegiert
@@ -139,14 +145,19 @@ anrechenbaren Geschossflaeche? Der Detailkatalog (schliesst die frueher offene �
 
 ### Untergeschosse als Vollgeschoss — § 9 ABV (S. 952 f.)
 
-- **§ 9 ABV, 2. Halbsatz:** Untergeschosse, die **mehrheitlich ueber dem gewachsenen Boden** liegen,
-  gelten fuer die AZ-Berechnung als **Vollgeschosse** (und sind damit voll anrechenbar) — dies wirkt
-  der ungewollten Verdichtung durch DG-/UG-Privilegierung entgegen (Weisung RR 5.8.1992). «Mehrheitlich»
-  bezieht sich auf das **Volumen**; die **Betondecke** zaehlt zum UG, der **Fertigboden** des darueber
-  liegenden Geschosses zu jenem (BEZ 2009 Nr. 63; VB.2008.00163). *needs-verification:* Die
-  Baurekurskommission I hielt § 9 ABV insoweit fuer mit § 255 PBG unvereinbar/kompetenzueberschreitend
-  (BEZ 1995 Nr. 24; BEZ 2011 Nr. 23) — viele Gemeinden wenden die Bestimmung faktisch nicht mehr an;
-  in der IVHB-angepassten neuen Fassung ist der Passus gestrichen. **Vor Anwendung kommunale Praxis pruefen.**
+- **§ 9 ABV, 2. Halbsatz (nur Anhang-/alte Fassung, Stand 28.2.2017):** Untergeschosse, die
+  **mehrheitlich ueber dem gewachsenen Boden** liegen, gelten fuer die AZ-Berechnung als
+  **Vollgeschosse** (und sind damit voll anrechenbar) — dies wirkt der ungewollten Verdichtung durch
+  DG-/UG-Privilegierung entgegen (Weisung RR 5.8.1992). «Mehrheitlich» bezieht sich auf das
+  **Volumen**; die **Betondecke** zaehlt zum UG, der **Fertigboden** des darueber liegenden Geschosses
+  zu jenem (BEZ 2009 Nr. 63; VB.2008.00163). **needs-verification GELOEST (Buch-Run 55,
+  2026-07-25, Modell-D-Volltextabgleich gegen `raw/260607_amtlich_zh_abv.md`):** Bestaetigt — die seit
+  RRB vom 11.5.2016 (in Kraft 1.3.2017) geltende **harmonisierte Fassung von § 9 ABV enthaelt diesen
+  2. Halbsatz nicht mehr**, sie kennt nur noch die Vollgeschoss-Ersatz-Regel (1. Halbsatz). Es handelt
+  sich damit **nicht** um eine blosse uneinheitliche kommunale Anwendungspraxis, sondern um eine im
+  **Gesetzeswortlaut selbst gestrichene** Regel. Die Anhang-Fassung (und damit dieser 2. Halbsatz)
+  gilt nur noch fuer Gemeinden mit nicht angepasster BZO (Uebergangsfrist ab 2015, im Einzelfall zu
+  pruefen). Korrektur nachgezogen in [[nutzungsziffern]].
 - **DG/UG, die ein Vollgeschoss ersetzen** (§ 276 Abs. 2 PBG, S. 953): Werden zulaessige Vollgeschosse
   durch DG/UG ersetzt (z. B. statt 2 VG + 1 DG nur 1 VG + 2 DG), sind die Raeume jenes Geschosses **voll
   anrechenbar**, das naeher bei den Vollgeschossen liegt (§ 9 ABV 1. Halbsatz; BEZ 1988 Nr. 36). Diese
@@ -380,12 +391,17 @@ bestimmt werden, dass im **Erdgeschoss nur Laeden und Gaststaetten** zulaessig s
 Zentrumszonen liegt im oeffentlichen Interesse, VB.2014.00077; Publikumsverkehr gesetzeskonform,
 VB.2013.00560).
 
-**Uebertragung von Nutzweisen** (14.2.6, **§ 17 Abs. 2 ABV**, S. 987) — *nicht mit der
-Ausnuetzungsuebertragung verwechseln:* Die Uebertragung von **Nutzweisen** (insbesondere des
-**Wohnanteils**) von einem auf ein anderes Grundstueck richtet sich **nicht** nach den Regeln der
-Ausnuetzungsuebertragung (die auf § 259 Abs. 1 PBG beruht), sondern nach **§ 17 Abs. 2 ABV**: die
-Gemeinden sind frei, eigene Vorschriften zu erlassen (Nutzungsverlagerungen einschraenken oder ueber
-groessere Distanzen erlauben; das Mass richtet sich nach **kommunalem Recht**). Die Uebertragung muss
+**Uebertragung von Nutzweisen** (14.2.6, S. 987) — *nicht mit der Ausnuetzungsuebertragung
+verwechseln:* Die Uebertragung von **Nutzweisen** (insbesondere des **Wohnanteils**) von einem auf
+ein anderes Grundstueck richtet sich **nicht** nach den Regeln der Ausnuetzungsuebertragung (die auf
+§ 259 Abs. 1 PBG beruht). **Korrektur (Buch-Run 55, 2026-07-25, Modell-D-Volltextabgleich gegen
+`raw/260607_amtlich_zh_abv.md`):** das Buch nennt hier § 17 Abs. 2 ABV — diese Fundstelle liess sich
+am amtlichen Volltext **nicht bestaetigen**: § 17 ABV wurde durch RRB vom 25.9.1991 aufgehoben (in
+Kraft seit 1.2.1992) und enthaelt seither keinen eigenen Absatz mehr. Die Herkunft der Buch-Angabe
+bleibt ungeklaert (evtl. Bezug auf eine vor 1992 geltende ABV-Fassung). **Praktisch bleibt die
+Kernaussage unveraendert richtig:** die Gemeinden sind frei, eigene Vorschriften zu erlassen
+(Nutzungsverlagerungen einschraenken oder ueber groessere Distanzen erlauben; das Mass richtet sich
+nach **kommunalem Recht** — ohne eigene kantonale ABV-Grundlage). Die Uebertragung muss
 **angemessen** bleiben; die in der kommunalen Nutzungsplanung zugeteilten Nutzungen duerfen nicht
 infrage gestellt werden (Wolf/Kull N 164; BEZ 1996 Nr. 17). **Beispiel BO Zuerich Art. 6 Abs. 3
 (Wohnanteil):** «Die Wohnflaeche kann innerhalb des Gebaeudes und innerhalb eines Kreises mit einem
@@ -394,6 +410,13 @@ Weiterverlegung ueber diesen Kreis hinaus ist nicht zulaessig. Diese Beschraenku
 Baubeginn im Grundbuch anzumerken**.»
 
 ## Nutzungsdichte nach der Harmonisierungsvorlage (14.3, § 255/256/257/258 nPBG, S. 988 f.)
+
+> **Fassungsstand-Hinweis (Buch-Run 55, 2026-07-25):** Das Buch (6. Aufl. 2019) beschreibt die
+> IVHB-Harmonisierung hier noch als (damals evtl. bevorstehende) Vorlage. Am amtlichen PBG-/ABV-
+> Volltext geprueft: die PBG-Aenderung vom 14. September 2015 und die ABV-Aenderung vom 11. Mai
+> 2016 (in Kraft 1.3.2017) sind laengst in Kraft und bilden den **Hauptteil** des heute geltenden
+> Rechts (LS 700.1/700.2). Die untenstehende «nPBG/nABV»-Terminologie beschreibt damit **bereits
+> geltendes Recht**, nicht eine kuenftige Aenderung — Details/Korrektur in [[nutzungsziffern]].
 
 Die **Harmonisierungsvorlage (IVHB / nPBG)** kennt vier abschliessende Nutzungsziffern:
 **Ausnuetzungsziffer (§ 255 nPBG)** beschraenkt die zulaessige Geschossflaeche, **Baumassenziffer
@@ -460,12 +483,18 @@ Zentrumszonen** in den meisten Gemeinden **ueblich**.
 
 ## Offene Punkte / zu verifizieren
 
-- Exakter Wortlaut § 255 Abs. 2 + § 276 PBG (aktuelle Fassung) gegen amtlichen Volltext
-  `wissen/baurecht/raw/260607_amtlich_zh_pbg.md` abgleichen (Modell D).
+- **Exakter Wortlaut §§ 251/253a/254-259 PBG + §§ 9-13/17 ABV gegen amtlichen Volltext:
+  ERLEDIGT (Buch-Run 55, 2026-07-25, Modell-D-Volltextabgleich)** — Hauptteil UND Anhang beide
+  gegengelesen (`raw/260607_amtlich_zh_pbg.md`, `raw/260607_amtlich_zh_abv.md`). Ergebnis:
+  Fassungsstand-Umkehr korrigiert (siehe Hinweis bei «Harmonisierungsvorlage» oben) + 3
+  Einzelkorrekturen (§ 9 ABV, § 10 lit. c ABV Prozentsatz, § 17 ABV existiert nicht) — nachgezogen
+  in [[nutzungsziffern]] und [[ausnuetzungsuebertragung]]. Verbleibend unverifiziert: die
+  «Unterniveaubauten»-Neuregelung bei der ÜZ (Buch S. 990 f.) liess sich am gelesenen § 256-PBG-
+  Wortlaut nicht woertlich bestaetigen (evtl. Buchkommentar statt Gesetzestext) — needs-verification.
 - Vollgeschoss-/Dachgeschoss-Abgrenzung (§ 276 PBG) → Kap. 16 distillieren und [[backlink]].
-- **§ 9 ABV needs-verification:** ob eine Gemeinde die «UG mehrheitlich ueber gewachsenem Boden =
-  Vollgeschoss»-Regel noch anwendet, ist kommunal zu pruefen (Baurekurskommission haelt § 9 ABV fuer
-  kompetenzueberschreitend; in vielen Gemeinden faktisch nicht mehr angewandt; IVHB-Fassung gestrichen).
+- ~~**§ 9 ABV needs-verification**~~ → **ERLEDIGT (Buch-Run 55):** siehe Korrektur oben — im
+  Hauptteil (geltendes Recht seit 1.3.2017) ist der Passus tatsaechlich gestrichen, nicht nur
+  «faktisch nicht mehr angewandt».
 - **Mischrechnungsverbot — RESOLVIERT (Run 26, 2026-07-10):** Das gesamte Kap. 14 (S. 919-992,
   Shots 462-500) ist nun gelesen; **ein «Mischrechnungsverbot» taucht in Kap. 14 nicht als eigene,
   benannte Doktrin auf.** Der Sache nach ist die Quervergueterung verschiedener Ziffern ausgeschlossen,

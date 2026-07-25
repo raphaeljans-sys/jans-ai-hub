@@ -1,9 +1,14 @@
 ---
 title: Nutzungsziffern (Mass der Nutzung) — Kanton Zürich
 status: established
-last_updated: 2026-07-10
-sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§ 251 PBG", "§ 253a PBG", "§ 254 PBG", "§ 255 PBG", "§ 256 PBG", "§ 257 PBG", "§ 258 PBG", "§ 259 PBG", "§ 9 ABV", "§ 10 ABV", "§ 12 ABV", "§ 17 ABV", "§ 52 PBG", "§ 276 PBG", "§ 255 nPBG", "§ 256 nPBG", "§ 257 nPBG", "§ 258 nPBG", "§ 11 nABV", "§ 13 nABV", "Buch Bd 2 Kap. 14 S. 919-992"]
+last_updated: 2026-07-25
+sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§ 251 PBG", "§ 253a PBG", "§ 254 PBG (Anhang)", "§ 255 PBG", "§ 256 PBG", "§ 257 PBG", "§ 258 PBG", "§ 259 PBG", "§ 9 ABV", "§ 10 ABV", "§ 11 ABV", "§ 12 ABV", "§ 13 ABV", "§ 17 ABV (aufgehoben)", "§ 52 PBG", "§ 276 PBG", "Buch Bd 2 Kap. 14 S. 919-992", 260607_amtlich_zh_pbg.md, 260607_amtlich_zh_abv.md]
 links: [[abstaende-und-hoehen]], [[zonenkonformitaet]], [[baubewilligungsverfahren]], [[ausnuetzungsuebertragung]], [[14-nutzungsdichte-ausnuetzung]], [[geschosse-und-kniestock]]
+verifiziert:
+  - datum: 2026-07-25
+    methode: "Modell-D-Volltextabgleich (adversarial), Buch-Run 55, Stichproben-Re-Verifikation (Prioritaet c, PROGRAMM.md)"
+    umfang: "§§ 251/253a/254-259 PBG + §§ 9-13/17 ABV gegen raw/260607_amtlich_zh_pbg.md + raw/260607_amtlich_zh_abv.md, Hauptteil UND Anhang je gegengelesen"
+    ergebnis: "Fassungsstand-Umkehr KORRIGIERT (harmonisierte Fassung = geltender Hauptteil seit 2015/2017, nicht 'nPBG'-Vorlage; Anhang = altes Recht, nur bis BZO-Anpassung der Gemeinde); 3 Einzelkorrekturen: § 9 ABV 'UG mehrheitlich ueber gewachsenem Boden' ist nur Anhang-Recht, im Hauptteil gestrichen; § 10 lit. c ABV Energiespar-Nebenraeume aktuell 20% (nicht 10%); § 17 Abs. 2 ABV existiert nicht (seit 1.2.1992 aufgehoben) - Nutzweisen-Uebertragung beruht auf kommunalem Recht"
 ---
 
 # Nutzungsziffern (Mass der Nutzung)
@@ -12,6 +17,20 @@ Die Nutzungsziffern legen fest, wie intensiv ein Grundstück überbaut werden da
 Sie werden in der BZO pro Zone festgelegt (siehe [[zonenkonformitaet]]) und im
 Baubewilligungsverfahren nachgewiesen (siehe [[baubewilligungsverfahren]]).
 
+> **Fassungsstand-Klärung (Modell-D-Volltextabgleich, Buch-Run 55, 2026-07-25):** Der amtliche
+> PBG-Volltext (`raw/260607_amtlich_zh_pbg.md`) enthält §§ 254-259 **zweimal** — als
+> **harmonisierten Hauptteil** (Nachtrag-Superskripte, aktuell Stand 1.7.2026 Nachtrag 133) UND
+> als **Anhang** («vom 7. September 1975; Stand 28. Februar 2017»). Die Übergangsbestimmung zur
+> Änderung vom 14. September 2015 stellt klar: **die harmonisierte Fassung ist seither das
+> geltende Recht**; die Anhang-Fassung («altes Recht») bleibt nur anwendbar, **bis die jeweilige
+> Gemeinde ihre BZO angepasst hat** (Frist ursprünglich 8 Jahre ab 2015). Analog bei der ABV: die
+> harmonisierten §§ 9-13 ABV gelten seit RRB vom 11.5.2016 (in Kraft 1.3.2017). Dieser Artikel
+> zitierte bisher **beide Fassungen vertauscht** (Anhang als «geltendes PBG», Hauptteil als
+> «Harmonisierungsvorlage/nPBG» im Futur) — analog zur bereits in [[abstaende-und-hoehen]]
+> (Buch-Run 31) und [[geschosse-und-kniestock]] (Buch-Run 33/34) gefundenen Fassungsstand-Umkehr.
+> Unten korrigiert; **Grünflächenziffer (§ 257 PBG) ist die heute geltende Bezeichnung**, die
+> «Freiflächenziffer» nur noch Anhang-Recht nicht-harmonisierter Gemeinden.
+
 > **Querbezug KB normen:** Die Flächen-/Volumendefinitionen, auf denen aGF/GF/GV und die
 > anrechenbare Geschossfläche beruhen (GSF/GF/NGF/HNF/NNF/KF/AGF/GV), definiert die Norm
 > **SIA 416:2003** — Destillat `wissen/normen/destillate/sia-416-2003`. Bei Flächennachweisen
@@ -19,14 +38,20 @@ Baubewilligungsverfahren nachgewiesen (siehe [[baubewilligungsverfahren]]).
 
 ## Ausnützungsziffer (AZ)
 Verhältnis der anrechenbaren Geschossfläche (aGF) zur **massgeblichen
-Grundstücksfläche**. Formel: AZ = aGF / massgebliche GSF. Rechtsgrundlage:
-**§ 254 Abs. 1 PBG** (Definition), **§ 255 PBG** (anrechenbare Geschossfläche).
-Detail: [[14-nutzungsdichte-ausnuetzung]].
+Grundstücksfläche**. Formel: AZ = aGF / massgebliche GSF. Rechtsgrundlage (aktuell/Hauptteil):
+**§ 255 Abs. 1 PBG** («Die Ausnützungsziffer ist das Verhältnis der anrechenbaren
+Geschossfläche zur anrechenbaren Grundstücksfläche», volltextverifiziert Run 55). **Korrektur:**
+frühere Fassung dieses Artikels nannte «§ 254 Abs. 1 PBG» als Fundstelle — das ist die Anhang-
+Fassung (§ 254 alt trägt die AZ/ÜZ/Freiflächenziffer-Sammeldefinition); im heute geltenden
+Hauptteil ist § 254 nur noch Abschnittstitel ohne eigenen Absatz, die Definition steht in § 255
+Abs. 1. Detail: [[14-nutzungsdichte-ausnuetzung]].
 
 ### Anrechenbare Geschossfläche — welche Räume zählen? (§ 255 PBG / § 9-10 ABV)
-Der häufigste AZ-Streitpunkt im Büroalltag. Merksätze (Buch Bd 2 S. 940-957):
+Der häufigste AZ-Streitpunkt im Büroalltag. Merksätze (Buch Bd 2 S. 940-957; Absatzzählung
+unten nach der aktuell geltenden harmonisierten Fassung, volltextverifiziert Run 55):
 - **Anrechenbar** ist jeder Raum in einem **Vollgeschoss**, der dem Wohnen/Arbeiten oder
-  sonst dem **dauernden Aufenthalt** dient **oder dafür «verwendbar» ist** (§ 255 Abs. 1 PBG).
+  sonst dem **dauernden Aufenthalt** dient **oder dafür «verwendbar» ist** (§ 255 **Abs. 2** PBG
+  aktuell — Buch/ältere Wiki-Fassungen zitieren dies als Abs. 1, das ist die Anhang-Nummerierung).
   Massgebend ist die **objektive Eignung** (Belichtung ≥ 1/10 nach § 302, Raumhöhe ≥ 2.4 m
   nach § 304, Erschliessung), **nicht** die Plan-Bezeichnung oder der Parteiwille (BEZ 2005
   Nr. 37; RB 2000 Nr. 100). Inkl. Sanitärräume, innere Trennwände und **zugehörige
@@ -34,31 +59,69 @@ Der häufigste AZ-Streitpunkt im Büroalltag. Merksätze (Buch Bd 2 S. 940-957):
   anrechenbaren Räumen führt (BEZ 2017 Nr. 25).
 - **Nicht anrechenbar**: reine Sachzweck-Räume (Lager, Wasch-/Trocken-/Heiz-/Maschinen-/
   Technikräume, Einstellräume für Fahrzeuge, Besondere Gebäude), sowie die drei über
-  **§ 10 ABV / § 255 Abs. 3 PBG** ausgenommenen Nebenraumgruppen: Gemeinschafts-Mehrzweck­räume
-  (≥ 20 m², max. **2 %** aGF), Arbeitsplatz-Nebenräume (max. **2 %** aGF) und **verglaste
-  Balkone/Wintergärten** ohne Heizung, soweit energiesparend (max. **10 %** aGF, § 10 lit. c ABV).
+  **§ 10 ABV / § 255 Abs. 4 PBG** (aktuell; Delegationsnorm) ausgenommenen Nebenraumgruppen:
+  Gemeinschafts-Mehrzweckräume (≥ 20 m², max. **2 %** aGF), Arbeitsplatz-Nebenräume (max.
+  **2 %** aGF) und **verglaste Balkone, Veranden und Loggien sowie Wintergärten/Windfänge**
+  ohne Heizung, soweit energiesparend, **bis zu 20 % der Summe aller anrechenbaren
+  Geschossflächen** (§ 10 lit. c ABV). **Korrektur (Run 55):** frühere Fassung nannte hier
+  «max. 10 % aGF» — das ist der Wert der alten Anhang-Fassung von § 10 lit. c ABV («verglaste
+  Balkone, Veranden und **Vorbauten**», 10 %, Stand 28.2.2017); die seit 1.3.2017 geltende
+  harmonisierte Fassung (RRB 11.5.2016) setzt **20 %** und nennt zusätzlich «Loggien».
 - **Dach-/Untergeschosse**: grundsätzlich nur die **Mehrfläche** über der Schwelle
-  `zulässige Ausnützung ÷ zulässige Vollgeschosszahl` anrechenbar (§ 255 Abs. 2 PBG);
-  1.50-m-Höhenlinie = Grenze der wohntauglichen Fläche. **Aber** ein UG, das **mehrheitlich
-  über dem gewachsenen Boden** liegt, gilt als **Vollgeschoss** (§ 9 ABV — *kommunale Praxis
-  prüfen, teils nicht mehr angewandt*), und DG/UG, die ein Vollgeschoss **ersetzen**, sind voll
-  anrechenbar (§ 276 Abs. 2 PBG). Detail: [[14-nutzungsdichte-ausnuetzung]], [[geschosse-und-kniestock]].
+  `zulässige Ausnützung ÷ zulässige Vollgeschosszahl` anrechenbar (§ 255 **Abs. 3** PBG aktuell;
+  Anhang-Nummerierung Abs. 2); 1.50-m-Höhenlinie = Grenze der wohntauglichen Fläche.
+  DG/UG, die ein Vollgeschoss **ersetzen**, sind voll anrechenbar (§ 276 Abs. 2 PBG i.V.m. § 9
+  ABV 1. Halbsatz). **Korrektur (Run 55):** die frühere Aussage «ein UG, das mehrheitlich über
+  dem gewachsenen Boden liegt, gilt ebenfalls als Vollgeschoss» stammt aus der **alten**
+  Anhang-Fassung von § 9 ABV («Untergeschosse, die … mehrheitlich über dem gewachsenen Boden
+  liegen, gelten … als Vollgeschosse»). Die seit 1.3.2017 geltende harmonisierte Fassung von
+  § 9 ABV enthält diesen zweiten Halbsatz **nicht mehr** — sie kennt nur noch die
+  Vollgeschoss-Ersatz-Regel. Der bisherige Vermerk «kommunale Praxis prüfen, teils nicht mehr
+  angewandt» war zu vorsichtig: es handelt sich nicht um eine uneinheitliche kommunale
+  Anwendungspraxis, sondern um eine **im Gesetzeswortlaut selbst gestrichene** Regel (deckt
+  sich mit dem needs-verification-Vermerk im Buch-Destillat [[14-nutzungsdichte-ausnuetzung]],
+  der die Streichung bereits vermutete). Weiterhin denkbar: eine Gemeinde mit noch nicht
+  angepasster BZO wendet bis zur BZO-Anpassung die Anhang-Fassung samt der alten Regel an —
+  im Einzelfall zu prüfen. Detail: [[14-nutzungsdichte-ausnuetzung]], [[geschosse-und-kniestock]].
 
 ## Überbauungsziffer (ÜZ)
-Verhältnis der senkrechten Projektion der grössten oberirdischen Gebäudeumfassung
-zur massgeblichen Grundstücksfläche. Rechtsgrundlage: **§ 256 PBG**.
+Verhältnis der anrechenbaren Gebäudefläche (Fläche innerhalb der **projizierten
+Fassadenlinie**) zur anrechenbaren Grundstücksfläche. Rechtsgrundlage (aktuell): **§ 256
+Abs. 1 PBG**. **Präzisierung (Run 55):** die alte Anhang-Fassung von § 256 kannte noch
+Abzüge für geschlossene Vorsprünge (≤ 1,5 m Tiefe), Balkone (≤ 2 m) und privilegierte
+Erker/Laubengänge (≤ ⅓ der Fassade) — diese Ausnahmen fehlen im heute geltenden Hauptteil;
+dort zählt grundsätzlich **jeder** oberirdische Vorsprung zur anrechenbaren Gebäudefläche.
+Die ÜZ ist damit unter dem harmonisierten Recht tendenziell **strenger** als unter der
+Anhang-Fassung. (Ob im geltenden Recht Unterniveaubauten neu mitgerechnet werden — so das
+Buch S. 990 f. — liess sich am gelesenen Gesetzeswortlaut von § 256 PBG nicht wörtlich
+bestätigen; *needs-verification*, evtl. Buchkommentar statt Gesetzestext.)
 
 ## Baumassenziffer (BMZ)
-Verhältnis des Gebäudevolumens zur massgeblichen Grundstücksfläche. Rechtsgrundlage:
-**§ 254 PBG** (geltendes PBG); nach Harmonisierungsvorlage **§ 258 nPBG**.
+Verhältnis des Bauvolumens über dem massgebenden Terrain zur anrechenbaren
+Grundstücksfläche. Rechtsgrundlage (aktuell): **§ 258 Abs. 1/2 PBG**. **Korrektur (Run 55):**
+Abs. 3 («Volumen offener Gebäudeteile, die weniger als zur Hälfte durch Abschlüsse umgrenzt
+sind, wird nicht angerechnet») ist **bereits geltendes Recht** seit der Harmonisierung — nicht
+erst «§ 258 Abs. 3 nPBG» als künftige Änderung. Sie ersetzt im Hauptteil den alten
+**Witterungsbereich-Abzug** (Anhang § 258 Abs. 2: «Ausser Ansatz fallen Räume, die als
+öffentliche Verkehrsflächen benützt werden oder sich innerhalb des Witterungsbereichs
+unter vorspringenden freitragenden Bauteilen befinden»), der nur noch für nicht
+harmonisierte Gemeinde-BZO gilt.
 
-## Freiflächenziffer / Grünflächenziffer
+## Grünflächenziffer (aktuell) / Freiflächenziffer (Anhang, alte Fassung)
 Mindestanteil unbebauter bzw. begrünter (vor Versiegelung bewahrter) Fläche.
-Rechtsgrundlage: **§ 257 PBG** (Freiflächenziffer); nach Harmonisierungsvorlage
-**Grünflächenziffer § 257 nPBG**.
-> Korrektur 2026-06-09: Frühere Fassung nannte hier § 259 PBG — das ist falsch.
-> **§ 259 PBG regelt die *massgebliche Grundstücksfläche*** (die Bezugsgrösse aller
-> Ziffern), nicht die Freiflächenziffer. Beleg: Buch Bd 2 S. 920, 949.
+**Korrektur (Run 55, Fassungsstand-Umkehr):** Rechtsgrundlage im heute geltenden Hauptteil
+ist **§ 257 PBG — Grünflächenziffer** («Verhältnis der anrechenbaren Grünfläche zur
+anrechenbaren Grundstücksfläche»; Abs. 2: anrechenbar sind natürliche/bepflanzte,
+nicht versiegelte, nicht als Abstellfläche dienende Bodenflächen). Die **Freiflächenziffer**
+(§ 257 PBG Anhang-Fassung — anrechenbar: offene Flächen für dauernde Spiel-/Ruheplätze und
+Gärten) ist die **alte** Bezeichnung/Definition, die nur für Gemeinden mit noch nicht
+harmonisierter BZO fortgilt. Frühere Fassungen dieses Artikels führten die beiden
+Bezeichnungen vertauscht («Freiflächenziffer» als geltend, «Grünflächenziffer» als künftige
+Harmonisierungsvorlage) — analog zur bei [[abstaende-und-hoehen]]/[[geschosse-und-kniestock]]
+bereits behobenen Fassungsstand-Umkehr.
+> Korrektur 2026-06-09 (weiterhin gültig): § 259 PBG regelt die *massgebliche
+> Grundstücksfläche* (Bezugsgrösse aller Ziffern), nicht die Grünflächen-/Freiflächenziffer.
+> Beleg: Buch Bd 2 S. 920, 949.
 
 ## Massgebliche Grundstücksfläche (Bezugsgrösse)
 **§ 259 PBG.** Von der Baueingabe erfasste, baulich noch nicht ausgenützte
@@ -93,20 +156,36 @@ ergänzend **§ 12 Abs. 3 ABV**. In Kraft seit **1.4.2013** (FN 46: G vom 26.03.
 > über AZ/BMZ/ÜZ/Grünflächenziffer. Die frühere Aussage «in neueren Planungen
 > anstelle der AZ verwendet» trifft für ZH nicht zu.
 
-## Harmonisierungsvorlage (nPBG/IVHB) — was sich ändert
-Die Harmonisierungsvorlage kennt vier abschliessende Ziffern (Buch Bd 2 S. 990-992):
-- **AZ (§ 255 nPBG):** Berechnungsweise **unverändert** (aGF / anrechenbare Grundfläche).
-- **BMZ (§ 258 nPBG):** Bauvolumen **über dem massgebenden Terrain** / anrechenbare GSF; **neu** wird
-  das Volumen offener Gebäudeteile, die **weniger als zur Hälfte umschlossen** sind, nicht angerechnet
-  (§ 258 Abs. 3 nPBG, ersetzt den Witterungsbereich-Abzug); Energiespar-Bonus **+20 %** (§ 13 Abs. 2 nABV).
-- **ÜZ (§ 256 nPBG):** anrechenbare Gebäudefläche innerhalb der **projizierten Fassadenlinie**; **neu
-  sind Unterniveaubauten anzurechnen** (auch Klein-/Anbauten); Energiespar-Bonus **+20 %** (§ 11 nABV).
-- **Grünflächenziffer (§ 257 nPBG):** ersetzt die Freiflächenziffer; nur **natürliche, nicht versiegelte,
-  nicht als Abstellfläche dienende** Bodenflächen (auch keine Rasengittersteine).
+## Die vier Nutzungsziffern seit der Harmonisierung 2015/2017 (heute geltendes Recht)
+> **Korrektur (Run 55):** dieser Abschnitt hiess bisher «Harmonisierungsvorlage (nPBG/IVHB) —
+> was sich ändert» und beschrieb die harmonisierten Ziffern als **künftige** Änderung. Das ist
+> mit dem amtlichen Volltext **nicht vereinbar**: die PBG-Änderung vom 14. September 2015 und
+> die ABV-Änderung vom 11. Mai 2016 (in Kraft 1.3.2017) sind seit über einem Jahrzehnt in Kraft
+> und bilden den **Hauptteil** des geltenden Rechts (LS 700.1/700.2, aktuell Nachtrag 133/127).
+> Das Buch (6. Aufl. 2019) beschreibt sie an dieser Stelle noch als Vorlage/IVHB-Fassung — zum
+> Zeitpunkt der Drucklegung mag das teils noch zutreffend gewesen sein, für die Gegenwart ist die
+> Formulierung überholt. Die «alte» Zählung lebt nur noch im **Anhang** (Stand 28.2.2017) fort,
+> und dort nur für Gemeinden, deren BZO noch nicht angepasst ist (Übergangsfrist ursprünglich
+> 8 Jahre ab 2015 — im Einzelfall an der aktuellen BZO der Gemeinde zu prüfen).
+
+Die vier abschliessenden Ziffern des geltenden Hauptteils (Buch Bd 2 S. 990-992, Absatzzählung
+volltextverifiziert Run 55):
+- **AZ (§ 255 Abs. 1 PBG):** Berechnungsweise **gegenüber der Anhang-Fassung unverändert**
+  (aGF / anrechenbare Grundfläche).
+- **BMZ (§ 258 PBG):** Bauvolumen **über dem massgebenden Terrain** / anrechenbare GSF; Abs. 3
+  (Volumen offener, weniger als zur Hälfte umschlossener Gebäudeteile **nicht** angerechnet)
+  ersetzt den alten Witterungsbereich-Abzug; Energiespar-Bonus **+20 %** (§ 13 Abs. 2 ABV).
+- **ÜZ (§ 256 PBG):** anrechenbare Gebäudefläche innerhalb der **projizierten Fassadenlinie**;
+  Energiespar-Bonus **+20 %** (§ 11 ABV). (Unterniveaubauten-Neuregelung: siehe
+  needs-verification-Vermerk oben bei ÜZ.)
+- **Grünflächenziffer (§ 257 PBG):** ersetzt die alte Freiflächenziffer; nur **natürliche, nicht
+  versiegelte, nicht als Abstellfläche dienende** Bodenflächen (auch keine Rasengittersteine).
 
 **Verzicht auf Nutzungsziffern (§ 251 lit. b PBG):** Gemeinden können auf Ziffern **verzichten** und die
 Ausnützung nur **indirekt** über Abstands-, Höhen- und Geschosszahlvorschriften begrenzen — in **Kern-
-und Zentrumszonen** üblich (Buch Bd 2 S. 992).
+und Zentrumszonen** üblich (Buch Bd 2 S. 992; § 251 lit. b selbst formuliert dies nicht als «Verzicht»,
+sondern zählt Abstands-/Geschosszahlvorschriften als zweite Festlegungsart der zulässigen Ausnützung
+neben den Ziffern auf — die Verzichts-Lesart ist Bucheinordnung, nicht Gesetzeswortlaut).
 
 ## Nutzungsart (nicht nur Dichte)
 Die Zone steuert auch die zulässige **Nutzungsart**: in Wohnzonen sind **nicht störende Betriebe
@@ -114,8 +193,10 @@ stillschweigend erlaubt**, **mässig störende** nur wo die BO sie zulässt (§ 
 zur Immissionsverträglichkeit verlangt das VGer die **raumplanerische Zweckbestimmung** (funktionale
 Betrachtung, BEZ 2010 Nr. 2). **Pflegewohnungen/Alterswohnen** sind als wohnähnlich regelmässig
 **zonenkonform** (BEZ 2015 Nr. 36 — Healthcare-relevant). **Wohnanteil** kann über die
-**Nutzweisen-Übertragung** (§ 17 Abs. 2 ABV) verlagert werden — siehe [[ausnuetzungsuebertragung]].
-Detail: [[14-nutzungsdichte-ausnuetzung]].
+**Nutzweisen-Übertragung** verlagert werden — siehe [[ausnuetzungsuebertragung]] (dort
+**Korrektur Run 55**: die bisherige Fundstelle «§ 17 Abs. 2 ABV» liess sich am amtlichen
+Volltext nicht bestätigen — § 17 ABV ist seit 1.2.1992 aufgehoben und enthält heute keinen
+Abs. 2). Detail: [[14-nutzungsdichte-ausnuetzung]].
 
 ## Erhöhte Nutzungsziffern (Boni)
 Gemeinden können erhöhte Ziffern festsetzen: **Gewerbebonus / Familienwohnungen**
