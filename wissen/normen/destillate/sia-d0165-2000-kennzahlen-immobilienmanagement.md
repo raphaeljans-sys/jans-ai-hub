@@ -4,8 +4,8 @@ herausgeber: "SIA (Schweizerischer Ingenieur- und Architektenverein) unter Feder
 ausgabe: "SIA D 0165, Juli 2000 (Copyright 2000 SIA Zürich, ISBN 3-908483-29-8); Druck Schwabe & Co. AG Muttenz, 2. Auflage 2000 Exemplare, 2002-06"
 gelesen: "Vollversion vollständig gelesen 260725 (Run 29, 4 parallele Lese-Agenten, PDF-Seiten 1-73 lückenlos); löst das bisherige 5-Seiten-Teil-Destillat (nur S.14-17) ab"
 datenstand: "Juli 2000 (einzige Ausgabe, kein Nachfolgestand im Bestand oder im Gesamtverzeichnis SIA bekannt)"
-status: "destilliert VOLLSTAENDIG (Verifikation ausstehend, siehe Run-29-Report)"
-last_updated: 2026-07-25
+status: "destilliert VOLLSTAENDIG, adversarial verifiziert 260726 (Run 29, 3 unabhängige Refuter-Agenten, 13 Befunde alle korrigiert) — bleibt speculative bis eine folgende Verifikationsrunde einen sauberen Nulldurchgang bestätigt"
+last_updated: 2026-07-26
 links: [[sia-416-2003]], [[din-277-1-2005]], [[din-277-2-2005]], [[REGISTER]]
 ---
 
@@ -461,7 +461,17 @@ eigenen fachlichen Zusatzwert).
   selben Beispiel, aber nicht visuell verifiziert).
 - Anhang 6 (DIN-18960/GEFMA-200-Kreuztabelle) hier bewusst strukturiert zusammengefasst statt
   vollständig transkribiert (Umfang + Urheberrechts-Vorsicht bei DIN-Fremdinhalt); bei
-  konkretem Bedarf einer einzelnen Kostenstelle das Original S.64-67 konsultieren.
+  konkretem Bedarf einer einzelnen Kostenstelle das Original S.63-66 konsultieren.
 - Verhältnis zu SIA 416 in der heute gültigen Ausgabe 2003 (statt der hier zitierten
   Ausgabe 1993) nicht Gegenstand dieser Destillation — bei Detailwidersprüchen SIA 416:2003
   als das massgebliche, aktuellere Original behandeln.
+- Literaturverzeichnis Position 15 (S. 67): Abkürzung im Scan nicht zweifelsfrei lesbar
+  ("SVKG" vs. möglich "SVGK") — hier gemäss der in anderen JANS-KBs (`immobilienbewertung`)
+  etablierten Schreibweise "SVKG/SEK/SVIT" belassen; bei Bedarf am Original visuell
+  nachprüfen.
+- Anhang-Seitenangaben (Anhang 1-8): Verifikations-Run 29 hat einen systematischen Versatz
+  zwischen PDF-Tool-Seitenindex und gedruckter Originalfolio aufgedeckt und alle
+  "S. XX"-Fundstellen in diesem Destillat entsprechend korrigiert (Anhang 1 S.49-50,
+  Anhang 2 S.51-56, Anhang 3 S.57, Anhang 4 S.58, Anhang 5 S.60-62, Anhang 6 S.63-66,
+  Anhang 7 S.67, Anhang 8 S.68-70). Kapitel 1-6 (S.4-49) waren von diesem Versatz nicht
+  betroffen (dort deckungsgleich).

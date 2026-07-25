@@ -1,3 +1,46 @@
+## 2026-07-26 — Run 29 (MacBook Pro): SIA D 0165 von 5-S.-Fragment auf 73-S.-Vollversion gehoben, Bestandsfalle wie Run 22 (Ordner ≠ Fassungsstand), 13 Verifikations-Befunde korrigiert
+- **Auslöser:** Run-28-Empfehlung, die als "Teil-Destillat" gefuehrten P2-Normen systematisch auf
+  ungelesene Seiten IM BEREITS VORHANDENEN PDF zu pruefen. `sia-d0165-2000-kennzahlen-immobilienmanagement.md`
+  war seit 260713 nur ein 5-Seiten-Fragment (Titelblatt + S.14-17); die Vollversion (73 S.) lag
+  unter `alle/xalt/SIA D0165_2000...pdf` und `alle/xalt/neu/` (identische Kopie), im Inventar
+  faelschlich als "ersetzt/alt" gefuehrt.
+- **Bestandsfalle bestaetigt (analog Run 22):** pdfinfo + MD5-Vergleich zeigen: beide xalt-Dateien
+  sind byte-identisch (MD5 6bd3c2c6e10a92aec8f94278b3de3a77), 73 S., gleicher Scan-Zeitstempel
+  23.06.2014. SIA D 0165 hat nur EINE Ausgabe (Juli 2000, kein Nachfolgestand im Gesamtverzeichnis
+  SIA) — "xalt" bedeutet hier NICHT superseded, sondern reine Ordner-Fehlklassierung (wie bei
+  SIA 266/1 im italienischen und SIA 410 im franzoesischen Sprachordner, Run 22).
+- **Destillation:** 4 parallele Lese-Agenten (Agent-Tool, `general-purpose`, je ~18-19 Seiten,
+  Bild-Scan ohne Textlayer, visuell gelesen) haben alle 73 Seiten lueckenlos erfasst. Destillat
+  komplett neu geschrieben: Kapitel 1 Einleitung, 2 Kennzahlen-Kataloge (Flaechen/Volumen +
+  Kosten), 3 Parameter-Definitionen (Flaechen/Volumen 3.1, Kosten 3.2, Spezielle 3.3), 4
+  Berechnungsformulare (zusammengefasst), 5 zwei durchgerechnete Berechnungsbeispiele (alle
+  Zahlenwerte), 6 Begriffe-Glossar, Anhang 1-8 (Flaechenbaum, Zuordnung SIA416↔DIN277, die
+  6 Abweichungen SIA416/DIN277, Vermietbare-Flaeche-Baum, Bemessungs-Spezialfaelle Bruestungen/
+  Abschraegungen/Treppenlaeufe, Kostengliederung DIN18960/GEFMA200, Literaturverzeichnis).
+- **Verifikation (3 unabhaengige Refuter-Agenten, je ein Drittel des Dokuments):** 13 Befunde,
+  alle korrigiert: (1) unvollstaendige Funktionstraeger-Rollenliste (5 fehlende Rollen ergaenzt),
+  (2) "begehbar" bei Installationsschaechten fehlte, (3) "von Konstruktionen" bei Hohlraeumen
+  fehlte, (4) "ober- und unterirdisch" bei EBF-Definition fehlte, (5) unbelegtes BKP-Detail
+  "19-99/W1-W6" entfernt, (6) Nettorendite-Definition: fehlendes "vor Steuern" + falsche
+  Formel-Verschachtelung korrigiert, (7) Verkehrswert-Definition: fehlender Wirtschaftlichkeits-
+  Bezugssatz ergaenzt, (8) **systematischer Seitenzahl-Versatz +1** in allen Anhang-1-bis-7-
+  Zitaten korrigiert (Anhang 1 S.49-50 statt 50-51, Anhang 2 S.51-56, Anhang 3 S.57, Anhang 4
+  S.58, Anhang 5 S.60-62, Anhang 6 S.63-66, Anhang 7 S.67, Anhang 8 S.68-70), (9) "Fall A3"
+  existiert im Original nicht (dort A1/A2/A2, ein Tippfehler des Originals) — korrigiert, (10)
+  faelschlicher "JANS-"Praefix bei der BUF10-Ergaenzung entfernt (ist eine SIA-D-0165-eigene
+  Ergaenzung, keine JANS-Erfindung), (11) KFT/KFN-Split faelschlich in Anhang 1 statt nur
+  Anhang 4 (Original-Diagramme vermengt) korrigiert. Kapitel 4 und 5 (alle Zahlenwerte beider
+  Berechnungsbeispiele) sowie die 6 Abweichungspunkte in Anhang 3 wurden **0-Fehler bestaetigt**.
+- **Status:** bleibt bewusst `speculative` (kein sauberer Nulldurchgang) trotz Vollstaendigkeit —
+  Verifikation ist kein Ritual, sie fand hier 13 echte, wenn auch groesstenteils kleinere,
+  Praezisionsverluste. Naechste Runde: sauberer Nulldurchgang moeglich macht `established`.
+- **Nachgefuehrt:** `training/norm-inventar.md` (3 Zeilen: `d 0165.pdf` + beide xalt-Kopien,
+  Tracker-Kopf Run-29-Eintrag), `destillate/INDEX.md`, dieses CHANGELOG,
+  `outputs/2026-07-26_normen-nacht-run29.md`.
+- **Workflow-Tool weiterhin nicht genutzt** (Run-28-Erkenntnis: im Scheduled-Task-Kontext durch
+  "Review dynamic workflow before running" blockiert) — direkter Agent-Tool-Fallback (parallele
+  Lese- + Verifikations-Agenten) erneut erfolgreich.
+
 ## 2026-07-25 — Run 28 (MacBook Pro): drei P2-Teildestillate auf den vorhandenen Bestand hin vervollstaendigt (Vertiefungsstufe a), Workflow-Tool blockiert (interaktive Review-Sperre), Fallback ueber direkte Parallel-Agenten
 - **Auslöser:** Nach acht Bestaetigungen "SIA/VKF komplett" (Run 20-27) und der Q&A-Vertiefung aller 15
   Kernnormen (Run 27) zeigte eine gezielte Pruefung der als "Teil-Destillat" gefuehrten P2-Normen drei

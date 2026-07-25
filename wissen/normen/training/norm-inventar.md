@@ -1,5 +1,26 @@
 # Norm-Inventar — Arbeitsliste des Nacht-Loops `normen-training-nacht`
 
+- **Run 29 (MacBook Pro, 260725/260726) — SIA D 0165 von 5-S.-Fragment auf 73-S.-Vollversion
+  gehoben (Run-28-Empfehlung umgesetzt), Bestandsfalle wie Run 22 bestaetigt, 13 Verifikations-
+  Befunde korrigiert.** `d 0165.pdf` (Hauptordner) war nur ein 5-Seiten-Scan-Fragment;
+  die vollstaendige 73-seitige Ausgabe lag unbemerkt unter `xalt/` (+ identische Kopie
+  `xalt/neu/`), faelschlich als "ersetzt/alt" gefuehrt, obwohl SIA D 0165 nur eine einzige
+  Ausgabe (Juli 2000) hat — MD5-Abgleich und Seitenzahl (73 vs. 5) bestaetigen: kein
+  Fassungsunterschied, nur eine Ordner-Fehlklassierung (analog Run 22: `alle/i/266_1_d.pdf`,
+  `alle/f/410_d_f_i.pdf`). Vollversion mit 4 parallelen Lese-Agenten (je ~18 Seiten) komplett
+  gelesen (Bild-Scan ohne Textlayer), Destillat neu geschrieben (alle 8 Kapitel + 8 Anhaenge:
+  Kennzahlen-Kataloge, Flaechen-/Kostenparameter, 2 Berechnungsbeispiele mit allen Zahlenwerten,
+  Glossar, Flaechenbaum, die 6 Abweichungen SIA 416/DIN 277, Bemessungs-Spezialfaelle,
+  Kostengliederung DIN 18960/GEFMA 200, Literaturverzeichnis). Anschliessend 3 unabhaengige
+  Refuter-Agenten (je ein Drittel des Dokuments) gegen das Original verifiziert: **13 Befunde**
+  (u.a. unvollstaendige Rollenliste, fehlende Qualifikatoren "begehbar"/"von Konstruktionen"/
+  "ober- und unterirdisch", Glossar-Praezisionsverluste Nettorendite/Verkehrswert, ein
+  systematischer Seitenzahl-Versatz +1 in allen Anhang-Zitaten, falsches "Fall A3"-Label
+  [Original hat A1/A2/A2], faelschlicher "JANS-"Praefix bei der BUF10-Ergaenzung, KFT/KFN-Split
+  faelschlich in Anhang 1 statt nur Anhang 4) — alle korrigiert. Status bleibt bewusst
+  `speculative` (kein sauberer Nulldurchgang), da die Verifikation selbst Fehler fand.
+  Details `CHANGELOG.md`, Report `outputs/2026-07-26_normen-nacht-run29.md`.
+
 - **Run 28 (MacBook Pro, 260725) — drei P2-Teildestillate vervollstaendigt (Vertiefungsstufe a),
   Workflow-Tool im headless Kontext blockiert, Fallback ueber direkte Parallel-Agenten bewaehrt.**
   Nach acht "SIA/VKF komplett"-Bestaetigungen (Run 20-27) gezielt die als "Teil-Destillat" gefuehrten
@@ -240,7 +261,7 @@
 | [x] 260713 | P2 | `752_2002_d.pdf` | 752 | 2002 | verifiziert established 260713 Run5 (beanst.-korr. Ziff.2.4.5); sia-752-2002.md |
 | [x] 260713 | P2 | `753_2002_d.pdf` | 753 | 2002 | verifiziert established 260713 Run5 (bestanden); sia-753-2002.md |
 | [x] 260713 | P2 | `EN 13200-12019.pdf` | 1320 | 2019 | established (Run5, SN EN 13200-1:2019 Zuschaueranlagen, Volltext verifiziert); sia-en-13200-1-2019.md |
-| [x] 260713 | P2 | `d 0165.pdf` | 0165 | 2000 | Teil-Destillat (sia-d0165-2000-kennzahlen-immobilienmanagement.md), nur 5-S.-Fragment gelesen; Vollversion 73 S. in xalt offen |
+| [x] 260726 | P2 | `d 0165.pdf` | 0165 | 2000 | Vollversion (73 S., xalt) vollständig destilliert Run 29 (260725/260726), adversarial verifiziert (3 Refuter-Agenten, 13 Befunde korrigiert); sia-d0165-2000-kennzahlen-immobilienmanagement.md, speculative bis sauberer Nulldurchgang |
 | — | — | `e/112_2001_e.pdf` | 112 | 2001 | Sprachvariante |
 | — | — | `e/260_2003_e.pdf` | 260 | 2003 | Sprachvariante |
 | — | — | `e/261_2003_e.pdf` | 261 | 2003 | Sprachvariante |
@@ -503,7 +524,7 @@
 | — | — | `xalt/SIA 252_VL_2011-12.pdf` | 252 | 2011 | ersetzt/alt (xalt) |
 | — | — | `xalt/SIA 342_VL_d_2008-04-17.pdf` | 342 | 2008 | ersetzt/alt (xalt) |
 | — | — | `xalt/SIA 500_Vernehmlassung_2006.pdf` | 500 | 2006 | ersetzt/alt (xalt) |
-| — | — | `xalt/SIA D0165_2000 Kennzahlen im Immobilienmanagement.pdf` | 0165 | 2000 | ersetzt/alt (xalt) |
+| [x] 260726 | P2 | `xalt/SIA D0165_2000 Kennzahlen im Immobilienmanagement.pdf` | 0165 | 2000 | **KEINE Altversion trotz xalt-Ordner** (Run 29 verifiziert: identische einzige Ausgabe Juli 2000 wie `d 0165.pdf`, MD5-identisch mit xalt/neu-Kopie, 73 S. Vollversion) — war die Quelle des Vollversion-Destillats sia-d0165-2000-kennzahlen-immobilienmanagement.md. Analog zur Run-22-Falle (SIA 266/1, SIA 410): Ordnername ≠ Fassungsstand |
 | — | — | `xalt/neu/102_d_2001.pdf` | 102 | 2001 | ersetzt/alt (xalt) |
 | — | — | `xalt/neu/111_3_1991.pdf` | 111 | 1991 | ersetzt/alt (xalt) |
 | — | — | `xalt/neu/112_d_2001.pdf` | 112 | 2001 | ersetzt/alt (xalt) |
@@ -522,7 +543,7 @@
 | — | — | `xalt/neu/SIA 358_2010 Geländer und Brüstungen.pdf` | 358 | 2010 | ersetzt/alt (xalt) |
 | — | — | `xalt/neu/SIA 416_1_2007.pdf` | 416 | 2007 | ersetzt/alt (xalt) |
 | — | — | `xalt/neu/SIA 500_2009.pdf` | 500 | 2009 | ersetzt/alt (xalt) |
-| — | — | `xalt/neu/SIA D0165_2000 Kennzahlen im Immobilienmanagement.pdf` | 0165 | 2000 | ersetzt/alt (xalt) |
+| [x] 260726 | P2 | `xalt/neu/SIA D0165_2000 Kennzahlen im Immobilienmanagement.pdf` | 0165 | 2000 | MD5-identische Kopie von `xalt/SIA D0165_2000...pdf` (siehe dort) — keine Altversion, keine separate Destillation nötig |
 | — | — | `xalt/pub2007.pdf` | 2007 | 2007 | ersetzt/alt (xalt) |
 | — | — | `xalt/reserve.pdf` |  |  | ersetzt/alt (xalt) |
 | — | — | `xalt/revision.pdf` |  |  | ersetzt/alt (xalt) |
