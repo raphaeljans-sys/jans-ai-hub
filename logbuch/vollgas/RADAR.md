@@ -30,6 +30,95 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-07-25 18:55 — [FREI] Der Blindgaenger-Fix von 16:00 lief den ganzen Nachmittag ins Leere (kein Runner-Neustart) — jetzt scharf, Erkennung verbreitert, M365-Connector nach 12 Tagen repariert
+
+**Fensterzustand:** FREI. Login-Probe mit der Runner-Anmeldung (`~/.jans-dispatch.env`) antwortet
+«OK» — kein Usage-/Rate-Limit, kein Login-Block, kein Mail-Anlass.
+
+**Lagebild:** Durchsatz gesund — 19 Commits in 90 Minuten, beide Stationen produktiv (energie Run
+95/96/97, planungsgrundlagen 70–74, baurecht-buch 55, immobewertung 47, spec 32, twin-mail Batch 66,
+zwei wettbewerbs-dna-Refuter-Laeufe). Keine STOP-Datei, je Station genau eine Runner-Instanz.
+
+**Hauptbefund (P1, behoben): der eigene Fix von 16:00 war nie aktiv.** Der Runner liest sein Script
+einmal beim Start in den Speicher. Der Blindgaenger-Retry wurde um 15:55 geschrieben — die Runner
+liefen aber seit 13:10 (MacBook Pro) bzw. 13:07 (Mac Mini). Der um 15:57 armierte schonende Neustart
+brach um 16:41 erfolglos ab, und danach blieb es dabei: **beide Stationen fuhren den ganzen
+Nachmittag ohne Retry weiter**. Belegt durch zwei Blindgaenger nach dem Fix, die unwiderholt blieben
+(MacBook Pro 17:00 `wettbewerbs-dna-training`, Mac Mini 18:34 `energie-training`). Der Fix war
+dokumentiert, aber nicht wirksam — dieselbe Falle wie beim Vollgas-Neustart um 12:45.
+
+**Zweiter Befund: die Erkennung war zu eng.** Der Retry suchte feste Tell-Tale-Saetze. Die
+vollstaendige Zaehlung ueber beide Stationen ergibt heute **18 Blindgaenger** (Mac Mini 11, MacBook
+Pro 7) — das Modell formuliert die Leer-Antwort aber frei, und **4 der 18 haetten den Filter
+passiert** («Bereit. Woran soll ich arbeiten?», «Ich bin bereit — was moechtest Du als Naechstes…»,
+«…Nachricht ist ohne Inhalt bei mir angekommen», «…sei diese Nachricht ohne konkreten Auftrag
+angekommen»).
+
+**Messfalle, die das verdeckt hat:** `Macmini.log` enthaelt 5'520 Zeilen mit NUL-Bytes (Folge der
+konkurrierenden `tee -a`-Schreibzugriffe ueber SMB). `grep` behandelt die Datei damit als binaer und
+liefert **kommentarlos gar nichts** — kein Fehler, keine Meldung. Jede Auswertung der Mini-Logs
+braucht zwingend `grep -a`, sonst misst man still nur die halbe Flotte.
+
+**Selbst ausgefuehrt:**
+- **Erkennung auf die FORM statt auf Phrasen umgestellt** (`scripts/vollgas-runner.sh`): ein
+  Blindgaenger ist rc=0, unter 60 s **und** unter 400 Zeichen Antwort. Ein echter Trainingslauf
+  schreibt immer einen Report (kuerzester produktiver Lauf heute 125 s, jede produktive Antwort weit
+  ueber 400 Zeichen). Der Phrasen-Zweig bleibt als OR und wurde um die vier neuen Varianten ergaenzt.
+  Gegen alle 18 heutigen Blind-Antworten getestet (alle erkannt) und gegen die drei heutigen
+  Kollisions-Abbrueche nach Rule 260724 (keiner ausgeloest — die enden zwar auch kurz, liefern aber
+  einen langen Begruendungstext; ein Retry wuerde dort nur erneut kollidieren).
+- **Neues Werkzeug `scripts/vollgas-runner-restart.sh`** — der schonende Neustart als wiederverwendbares
+  Script statt als Ad-hoc-Konstrukt. Es wartet auf das Pausenfenster zwischen zwei Laeufen und
+  erkennt es daran, dass das einzige Kind des Runners ein `sleep` ist. **Genau daran scheiterte der
+  Versuch von 15:57:** der wartete auf «gar kein Kindprozess» — den Zustand gibt es praktisch nie,
+  weil die 30-Sekunden-Pause selbst ein Kind ist. Danach killt es sauber, raeumt den verwaisten Lock
+  auf (bash fuehrt den EXIT-Trap bei SIGTERM nicht aus) und startet den Runner sofort selbst neu;
+  der launchd-Supervisor ist nur noch Rueckfallnetz.
+- **Mac Mini neu gestartet und verifiziert:** Kill um 18:52:54 exakt im Pausenfenster (der 860-s-Lauf
+  `energie-training` war um 18:52:41 sauber fertig geworden — **kein Lauf verloren**), neuer Runner
+  PID 68866 um 18:52:59, Zyklus 1 laeuft. MacBook Pro: Waechter armiert, wartet auf das Ende des
+  laufenden `wettbewerbs-dna-training` (seit 18:20, produktiv — hat bereits zwei Refuter-Commits
+  geliefert). Der Neustart erfolgt dort automatisch in der naechsten Pause.
+- **M365-Connector repariert (P2 aus dem 16:00-Eintrag, seit 13.07. offen).** Ursache gefunden statt
+  vermutet: der MCP-Server sucht `@pnp/cli-microsoft365` **ausschliesslich global**
+  (`dist/util.js:138`, `npm list -g` + `npm root -g`), JANS installiert es aber lokal ueber die
+  `package.json` — der Katalog `allCommandsFull.json` konnte damit nie gefunden werden. Der
+  eigentliche Connector war die ganze Zeit intakt (`m365 status` meldet gueltigen Certificate-Login).
+  `/usr/local/lib/node_modules` gehoert root, sudo geht headless nicht — darum benutzereigener
+  npm-Prefix `~/.npm-global` mit Symlink auf die lokale Installation (kein zweiter Download, keine
+  Versions-Divergenz). Der Wrapper `scripts/m365-mcp-server.sh` setzt den Prefix und legt den Symlink
+  bei Bedarf selbst an, **der Mac Mini heilt sich damit beim naechsten Lauf von allein**. End-to-End
+  gegengeprueft: 851 Befehle laden, inklusive `outlook message list`. Damit haben
+  `twin-fidelity-review` und `twin-mail-training` ihre Goldproben-Quelle zurueck — letzterer meldete
+  um 18:19 ausdruecklich, er brauche fuer den naechsten Lauf einen frischen M365-Pull.
+
+**Weiter beobachtet, nicht angetastet:**
+- `immobewertung-training`: **15. Delta-Null-Lauf in Folge** (Run 47, Commit 82cea2ea). Der Loop hat
+  die Ruecktaktung selbst eskaliert; sie liegt als offene Pendenz in `logbuch/fristen.md` bei Raphael.
+- `planungsgrundlagen-training`: **8 Laeufe ohne neuen Fund**, empfiehlt zum **sechsten Mal** die
+  Umstellung auf ereignisgetriebenen Modus und setzt sie auftragsgemaess nicht selbst um. Auf dem Mac
+  Mini ist es nach den Deaktivierungen von 16:00 einer von nur noch zwei Loops — der Zyklus besteht
+  dort faktisch aus einem produktiven Lauf (energie, ~900 s) und einem Frischecheck (~150 s).
+
+**Vorschlaege:**
+- **P1 — erledigt.** Retry ist ab dem jeweiligen Neustart scharf und erkennt jetzt alle 18 heute real
+  aufgetretenen Varianten; Mini laeuft bereits damit, MacBook Pro zieht in der naechsten Pause nach.
+- **P2 — Taktentscheid Raphael: `immobewertung-training` und `planungsgrundlagen-training`.** Beide
+  sind gesaettigt und melden das selbst, beide warten seit Tagen auf einen Entscheid, den der Radar
+  bewusst nicht faellt. Empfehlung: `immobewertung-training` stilllegen (15 Nullaeufe),
+  `planungsgrundlagen-training` auf ereignisgetrieben umstellen; frei werdende Kapazitaet auf
+  `wettbewerbs-dna` ETAPPE 3 lenken, den einzigen Loop mit sichtbar offener Substanz.
+- **P3 — DIN/VSS/RAL einmalig re-auditieren** (unveraendert aus dem 16:00-Eintrag): die Stilllegung
+  von `normen-training-mini` stuetzt sich auf eine «Inventar komplett»-Selbstmeldung, und Run 22 des
+  Schwester-Loops hat gezeigt, dass so eine Meldung eine Messfehler-Kette sein kann.
+- **P3 — Log-Rotation fuer `logbuch/vollgas/*.log` erwaegen.** Die NUL-Byte-Verseuchung waechst mit
+  jedem Parallel-Schreibzugriff; die Logs sind bei 600–700 KB und werden fuer Auswertungen zunehmend
+  unzuverlaessig.
+
+**Mail:** keine. Kein P1-Blocker, den nur Raphael loesen kann; Fenster frei, beide Runner laufen.
+
+---
+
 ## 2026-07-25 16:00 — [FREI] Zwei Loops liefen den ganzen Tag leer im Kreis; Mini von 4 auf 2 echte Slots bereinigt, Blindgaenger-Retry im Runner
 
 **Fensterzustand:** FREI. Login-Probe mit der Runner-Anmeldung (`~/.jans-dispatch.env`) antwortet

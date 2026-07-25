@@ -202,10 +202,26 @@ den Stationen und laesst jeden Lauf sauber mit rc=0 enden."
         # also ein transienter Drop auf CLI-Seite, kein Datei-Problem. Ohne Retry
         # verliert der betroffene Loop seinen ganzen Zyklus-Slot (belegt 25.07.:
         # wettbewerbs-dna-training 3 von 4 Laeufen blind). Darum: einmal sofort
-        # nachfeuern. Erkennung bewusst eng (kurze Laufzeit UND Tell-Tale-Satz),
-        # damit ein echter, schnell fertiger Lauf nie faelschlich wiederholt wird.
+        # nachfeuern.
+        #
+        # ERKENNUNG NACHGESCHAERFT (25.07.2026 18:50, gleicher Radar): Die erste
+        # Fassung zaehlte nur Tell-Tale-SAETZE auf und liess damit 4 von 18 real
+        # aufgetretenen Blindgaengern durch, weil das Modell die Leer-Antwort
+        # frei formuliert («Bereit. Woran soll ich arbeiten?», «Ich bin bereit —
+        # was moechtest Du als Naechstes...», «Nachricht ist ohne Inhalt bei mir
+        # angekommen»). Statt der Phrasen-Jagd zaehlt jetzt primaer die FORM der
+        # Antwort: ein Blindgaenger ist kurz UND liefert fast keinen Text. Ein
+        # echter Trainingslauf schreibt immer einen Report (kuerzester produktiver
+        # Lauf heute: 125s; jede produktive Antwort deutlich ueber 400 Zeichen).
+        # Der Phrasen-Zweig bleibt als OR fuer den seltenen langen Blindgaenger.
+        # Bewusst NICHT betroffen: der Kollisionsschutz-Abbruch (Rule 260724)
+        # endet zwar auch in 20-35s, liefert aber einen langen Begruendungstext
+        # und wird darum nicht wiederholt — ein Retry wuerde dort nur erneut
+        # kollidieren. Gegen alle 18 heutigen Blind-Antworten UND die 3 heutigen
+        # Kollisions-Abbrueche gegengeprueft.
         if [ "$RC" -eq 0 ] && [ "$DAUER" -lt 60 ] \
-           && printf '%s' "$OUT" | grep -qiE "keine (eigentliche |konkrete )?(Anfrage|Nachricht)|nur (System|Systemkontext)|don't see an actual request|no actual request"; then
+           && { [ "${#OUT}" -lt 400 ] \
+                || printf '%s' "$OUT" | grep -qiE "keine (eigentliche |konkrete )?(Anfrage|Nachricht)|nur (System|Systemkontext)|ohne (Inhalt|konkrete[nrs]? )|Woran (soll ich|m(ö|oe)chtest Du)|don't see an actual request|no actual request"; }; then
             log "BLIND $name (rc=0, ${DAUER}s — Prompt kam leer an) — einmaliger Retry."
             sleep 5
             START_TS=$(date +%s)
