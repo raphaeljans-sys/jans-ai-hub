@@ -4,10 +4,10 @@ quelle_vorgaenger: "PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlin
 herausgeber: VKF (Vereinigung Kantonaler Feuerversicherungen)
 ausgabe: "VKF-Brandschutzrichtlinie 16-15de, 01.01.2017 (Ausgabe 2015, Aenderungen IOTH 17.09.2015 und 22.09.2016 eingearbeitet)"
 ersetzt: "VKF-Brandschutzrichtlinie 16-15de, 01.01.2015 (Original-Ausgabe vor den IOTH-Revisionen 2015/2016) — Delta siehe Abschnitt 'Vorgaenger-Ausgabe' unten"
-gelesen: "S. 1-13 (Ziff. 1-5 vollstaendig); Anhang S. 14-25 gelesen (Zeichnungen/Erlaeuterungen zu Ziff. 2.3, 2.4.2, 2.4.4, 2.4.5, 2.5.1, 2.5.2, 2.5.5, 3.2.1/3.3.1/3.4.1, 3.3, 3.4.3, 3.5.2, 3.5.3); Kennwerte aus Anhang S. 17 (Treppen), S. 19 (Tuerverschluesse), S. 24 (Personenbelegung) am Original verifiziert und eingearbeitet (17.07.2026). Restlicher Anhang S. 26-35 noch nicht im Detail gelesen. Vorgaenger-Ausgabe 01.01.2015 (Datei 'Flucht & Rettungswege.pdf', 34 S.) vollstaendig gegen die Fassung 01.01.2017 abgeglichen (pdftotext-Volltextvergleich). Unabhaengige Gegenpruefung (Refuter, 17.07.2026): Personenbelegungs-Kennwerte (S. 24), Treppen-Steigungsformeln/Podeste (S. 17), Tuerverschluss-Zuordnung EN 179/EN 1125/EN 13637 (S. 19), Datierung/Ausgabe (S. 1, 2, 13) sowie die Messweise-Zuordnung Treppenbreite (S. 15) und der Anhang-Vorbehalt (S. 14) am Original nachgeprueft — keine Abweichung gefunden. NACHTRAG 25.07.2026: Fassung Stand 01.12.2022 (BSPUB-1394520214-85.pdf, 35 S.) vollstaendig per pdftotext extrahiert und Seite fuer Seite (Volltextvergleich) gegen die Fassung 01.01.2017 (Datei 16-15_rev2016_flucht_und_rettungswege.pdf, identisch mit der oben destillierten Quelle) abgeglichen; gezielt gegengelesen S. 1-2 (Titelblatt/Copyright/Aenderungsliste), S. 6 (Hauptziffern 2.4.3/2.4.4 im Kontext der Volltextextraktion), S. 12 (Hauptziffer 3.7), S. 14-16 (Anhang zu Ziff. 2.4.2-2.4.4), S. 24 (Anhang zu Ziff. 3.5.2, Personenbelegung), S. 32-34 (Anhang zu Ziff. 3.7/3.9/3.10). Siehe Abschnitt 'Fassung 01.12.2022 — Delta zur Fassung 01.01.2017' unten."
+gelesen: "S. 1-13 (Ziff. 1-5 vollstaendig); Anhang S. 14-25 gelesen (Zeichnungen/Erlaeuterungen zu Ziff. 2.3, 2.4.2, 2.4.4, 2.4.5, 2.5.1, 2.5.2, 2.5.5, 3.2.1/3.3.1/3.4.1, 3.3, 3.4.3, 3.5.2, 3.5.3); Kennwerte aus Anhang S. 17 (Treppen), S. 19 (Tuerverschluesse), S. 24 (Personenbelegung) am Original verifiziert und eingearbeitet (17.07.2026). Restlicher Anhang S. 26-35 noch nicht im Detail gelesen. Vorgaenger-Ausgabe 01.01.2015 (Datei 'Flucht & Rettungswege.pdf', 34 S.) vollstaendig gegen die Fassung 01.01.2017 abgeglichen (pdftotext-Volltextvergleich). Unabhaengige Gegenpruefung (Refuter, 17.07.2026): Personenbelegungs-Kennwerte (S. 24), Treppen-Steigungsformeln/Podeste (S. 17), Tuerverschluss-Zuordnung EN 179/EN 1125/EN 13637 (S. 19), Datierung/Ausgabe (S. 1, 2, 13) sowie die Messweise-Zuordnung Treppenbreite (S. 15) und der Anhang-Vorbehalt (S. 14) am Original nachgeprueft — keine Abweichung gefunden. NACHTRAG 25.07.2026: Fassung Stand 01.12.2022 (BSPUB-1394520214-85.pdf, 35 S.) vollstaendig per pdftotext extrahiert und Seite fuer Seite (Volltextvergleich) gegen die Fassung 01.01.2017 (Datei 16-15_rev2016_flucht_und_rettungswege.pdf, identisch mit der oben destillierten Quelle) abgeglichen; gezielt gegengelesen S. 1-2 (Titelblatt/Copyright/Aenderungsliste), S. 6 (Hauptziffern 2.4.3/2.4.4 im Kontext der Volltextextraktion), S. 12 (Hauptziffer 3.7), S. 14-16 (Anhang zu Ziff. 2.4.2-2.4.4), S. 24 (Anhang zu Ziff. 3.5.2, Personenbelegung), S. 32-34 (Anhang zu Ziff. 3.7/3.9/3.10). Siehe Abschnitt 'Fassung 01.12.2022 — Delta zur Fassung 01.01.2017' unten. NACHTRAG 25.07.2026 (Run 23): Diagnose zur Bildunterschrift Ziff. 2.4.3/2.4.4 korrigiert — per `pdftotext -layout` S. 15 beider Fassungen (nicht S. 16), keine Vertauschung zwischen den Ueberschriften, reine Umbenennung unter Ziff. 2.4.4."
 datenstand: "Ausgabe 2015 (in Kraft 01.01.2015); destilliert ab Dokumentfassung 01.01.2017 mit den IOTH-Aenderungen 17.09.2015 und 22.09.2016. Im Bestand liegt zusaetzlich die Fassung Stand 01.12.2022 (BSPUB-1394520214-85.pdf) mit drei weiteren Aenderungsstufen — Beschluss ABSV 22.03.2017 (Anhang zu Ziff. 2.4.3/2.4.4), Beschluss TKB 09.06.2021 (Ziff. 3.5.2 Personenbelegung Verkauf, ERSETZT) und Fehlerkorrektur 01.12.2022 (Anhang zu Ziff. 3.7). Alle drei sind jetzt am Original geprueft und destilliert (Personenbelegung Verkauf: Wissens-Chef Run 8, 18.07.2026; ABSV und Fehlerkorrektur: 25.07.2026, siehe Abschnitt 'Fassung 01.12.2022 — Delta zur Fassung 01.01.2017'). Ergebnis: in allen drei Faellen ist NUR der erlaeuternde Anhang (Zeichnungs-Legenden/Bildunterschriften) geaendert bzw. praezisiert worden, nicht der normative Haupttext der Ziffern 2.4.3/2.4.4 bzw. 3.7 (Ziff. 3.5.2 Personenbelegung ist die Ausnahme: dort wurde die Verkaufs-Tabelle im Anhang selbst materiell ersetzt)."
 status: established-mit-vorbehalt
-last_updated: 2026-07-18
+last_updated: 2026-07-25
 links: [[REGISTER]], [[QUESTIONS]]
 ---
 
@@ -318,7 +318,7 @@ erlaeuternden Anhang-Bildunterschrift, vgl. Anhang-Vorbehalt S. 14: der Anhang �
 keinen eigenstaendigen Vorschriftenstatus»). Die Korrektur beseitigt lediglich die
 Inkonsistenz zwischen Text und Bildunterschrift.
 
-### Ziff. 2.4.3 / 2.4.4 und der Beschluss ABSV 22.03.2017
+### Ziff. 2.4.3 / 2.4.4 und der Beschluss ABSV 22.03.2017 (Diagnose korrigiert, Run 23, 25.07.2026)
 Auch hier ist der **Hauptziffertext unveraendert** (S. 6, wortidentisch in beiden Fassungen):
 Ziff. 2.4.3 Abs. 1-2 (Gesamtlaenge Fluchtweg: max. 35 m bei einem vertikalen Fluchtweg/
 Ausgang, max. 50 m bei mind. zwei unabhaengigen) und Ziff. 2.4.4 Abs. 1-3 (Fluchtweglaenge
@@ -326,25 +326,46 @@ in der Nutzungseinheit max. 35 m, ueber 35 m horizontaler Fluchtweg noetig, bei 
 Raeumen mit mehreren Fluchtrichtungen bis 50 m in Absprache mit der Behoerde) — keine
 Zahlenaenderung, keine Wortlautaenderung.
 
-Der Beschluss ABSV 22.03.2017 betrifft die **Anhang-Zeichnungen «zu Ziffer 2.4.3 Gesamtlänge
-von Fluchtwegen» / «zu Ziffer 2.4.4 Fluchtweglänge in der Nutzungseinheit» (S. 15/16)**:
-zwei Prinzipskizzen mit Bildunterschriften. In der Fassung 01.01.2017 lautete die
-Bildunterschrift der ersten Skizze fehlerhaft:
+Der Beschluss ABSV 22.03.2017 betrifft eine **Anhang-Bildunterschrift auf S. 15** (nicht S. 16
+wie in einer frueheren Fassung dieses Abschnitts angenommen; Korrektur unten). Direkt per
+`pdftotext -layout` (verlaesslich, da die Bildunterschriften als echter PDF-Textlayer vorliegen,
+nicht als Rastertext in der Zeichnung) auf S. 15 beider Fassungen extrahiert: Der Reihe nach
+stehen dort auf derselben Seite die Ueberschrift «zu Ziffer 2.4.3 Gesamtlänge von Fluchtwegen»
+(ohne eigene Bildunterschrift direkt darunter), dann die Ueberschrift «zu Ziffer 2.4.4
+Fluchtweglänge in der Nutzungseinheit», darunter ZWEI Bildunterschriften nacheinander: (1)
+«Fluchtweglänge in der Nutzungseinheit.» (in beiden Fassungen identisch) und (2), in der
+Fassung 01.01.2017:
 
 > «Horizontaler Fluchtweg mit einem Ausgang an einen sicheren Ort im Freien oder in einen
 > vertikalen Fluchtweg.»
 
-— das beschreibt inhaltlich Ziff. 2.4.4 (horizontaler Fluchtweg), stand aber unter der
-Überschrift zu Ziff. 2.4.3 (Gesamtlänge von Fluchtwegen). In der Fassung Stand 01.12.2022
-(S. 15) ist dieselbe Bildunterschrift korrigiert auf:
+in der Fassung Stand 01.12.2022 umbenannt auf:
 
 > «Gesamtlänge von Fluchtwegen mit einem Ausgang an einen sicheren Ort im Freien oder in
 > einen vertikalen Fluchtweg.»
 
-— jetzt inhaltlich passend zu Ziff. 2.4.3, unter der sie steht. Es handelt sich um die
-Korrektur einer falsch zugeordneten Zeichnungs-Bildunterschrift (Ziff. 2.4.3 vs. 2.4.4
-vertauscht), nicht um eine inhaltliche Aenderung der 35-m-/50-m-Werte oder der
-Anwendungsvoraussetzungen.
+**Korrigierte Einordnung:** Beide Bildunterschriften (die unveraenderte «Fluchtweglänge in
+der Nutzungseinheit.» UND die umbenannte «Gesamtlänge von Fluchtwegen …») stehen textlich
+**in beiden Fassungen unter derselben Ueberschrift «zu Ziffer 2.4.4»** — es liegt **keine**
+Vertauschung zwischen den Ueberschriften Ziff. 2.4.3 und Ziff. 2.4.4 vor, anders als eine
+fruehere Fassung dieses Abschnitts (vor Run 23) angenommen hatte. Es handelt sich um eine
+**reine Umbenennung** der zweiten Bildunterschrift, ohne Zuordnungsaenderung und ohne
+Aenderung der Zeichnung/des Bildinhalts selbst. Die Seitenangabe in der amtlichen
+Aenderungsliste («Seiten 15 und 16») bezieht sich vermutlich auf den Druck-Umbruch der
+Zeichnungsflaeche (das Bild reicht optisch bis auf die Folgeseite 16, wo nur eine dritte,
+unveraenderte Bildunterschrift «Verbindungskorridor auf der Zugangsebene …» mit Fussnotenmarker
+steht) — die eigentliche Textaenderung liegt vollstaendig auf S. 15. Keine inhaltliche
+Aenderung der 35-m-/50-m-Werte oder der Anwendungsvoraussetzungen von Ziff. 2.4.3/2.4.4.
+
+**Frueherer Diagnosefehler (vor Run 23) und dessen Herkunft:** Eine vorherige Fassung dieses
+Abschnitts hatte behauptet, die Bildunterschrift sei faelschlich unter Ziff. 2.4.3 gestanden
+und mit der Korrektur richtig Ziff. 2.4.3 zugeordnet worden («Ziff. 2.4.3 vs. 2.4.4
+vertauscht») sowie die Seitenangabe «S. 16» genannt. Beides ist durch den obigen
+Text-Volltextvergleich widerlegt: Die Zuordnung zur Ueberschrift 2.4.4 ist in beiden Fassungen
+gleich, und die Bildunterschrift steht auf S. 15. Diese Korrektur wurde in Run 22 (25.07.2026)
+bereits vermutet (dort per `pdfimages`-Bildvergleich auf «S. 16» eingegrenzt) und in Run 23
+(25.07.2026) per direktem `pdftotext`-Textlayer-Abgleich beider Fassungen auf S. 15 exakt
+verifiziert und die Seitenangabe korrigiert.
 
 ### Delta-Liste gegen das bestehende Destillat (nur echte Unterschiede)
 1. **Ziff. 3.7, Anhang-Bildunterschrift S. 33 (NEU/korrigiert):** «Geschossfläche» →
@@ -352,10 +373,13 @@ Anwendungsvoraussetzungen.
    bestehenden Destillat bisher nicht als eigener Anhang-Kennwert gefuehrt (die «Anhang-
    Kennwerte» oben decken Ziff. 3.5.2/2.5.1/2.5.5/2.5.5-Schiebetueren/2.4.2/2.5.2/3.3 ab,
    nicht Ziff. 3.7) — ergaenzt hier erstmals.
-2. **Ziff. 2.4.3/2.4.4, Anhang-Bildunterschrift S. 15 (NEU/korrigiert):** vertauschte
-   Bildunterschrift der Prinzipskizze richtiggestellt («Horizontaler Fluchtweg…» →
-   «Gesamtlänge von Fluchtwegen…»). Hauptziffertext Ziff. 2.4.3/2.4.4 unveraendert (35 m/
-   50 m-Werte bleiben exakt gleich). Im bestehenden Destillat bisher nicht abgedeckt.
+2. **Ziff. 2.4.4, Anhang-Bildunterschrift S. 15 (umbenannt, Diagnose in Run 23 korrigiert):**
+   zweite Bildunterschrift unter der Ueberschrift «zu Ziffer 2.4.4» umbenannt von
+   «Horizontaler Fluchtweg…» auf «Gesamtlänge von Fluchtwegen…» — **keine** Vertauschung
+   zwischen den Ueberschriften Ziff. 2.4.3/2.4.4 (beide Bildunterschriften stehen in beiden
+   Fassungen unter Ziff. 2.4.4; per `pdftotext`-Volltextabgleich auf S. 15 verifiziert, Run 23,
+   25.07.2026). Hauptziffertext Ziff. 2.4.3/2.4.4 unveraendert (35 m/50 m-Werte bleiben exakt
+   gleich).
 3. **Ziff. 3.5.2 Personenbelegung Verkauf (bereits im bestehenden Destillat als ERSETZT
    markiert, hier nur bestaetigt):** Am Original S. 24 der Fassung Stand 01.12.2022
    nochmals gegengelesen — die vom Wissens-Chef Run 8 (18.07.2026) eingetragene 3-zeilige

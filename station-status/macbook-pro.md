@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.07.2026 14:36:10
+Stand: 25.07.2026 14:56:25
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 14:20)
+- Developer/jans/ai/hub  (letzte Aktivitaet 14:47)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 25.07.2026 14:36:10
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 1919e7b3 sync: twin-fidelity-review: 2026-07-25b (Fidelity 85, gestapelte Anrede/Gruss-Inhaltstyp/Signatur-Gewicht neu belegt);twin-mail-training: Batch 62 (2026-07-08 16:09...07-13 11:16)
+- d773ac3f immobewertung-training Run 45: Delta-Null-Bestaetigungslauf (dreizehnter in Folge)
