@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.07.2026 15:26:51
+Stand: 25.07.2026 15:36:59
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 15:23)
@@ -18,4 +18,4 @@ Stand: 25.07.2026 15:26:51
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- d8da7c8e spec-training Run 30: Verifikationslauf — P1 haelt (zweite Wochenend-Bestaetigung), SYN-02/Environment unveraendert, kein neuer Refinement-Beleg
+- 2105ff18 nas-selfcommit: 5 Datei(en) 2026-07-25 15:30
