@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 25.07.2026 09:51:44
+Stand: 25.07.2026 10:11:50
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 25.07.2026 09:51:44
 - keine
 
 ## Hub-Git-Stand (NAS)
-- fbe78985 nas-selfcommit: 7 Datei(en) 2026-07-25 09:45
+- 4dd30830 nas-selfcommit: 2 Datei(en) 2026-07-25 10:00
