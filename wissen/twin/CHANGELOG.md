@@ -5,6 +5,22 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-25i — twin-mail-training Batch 66 (2026-07-23 21:42 bis 2026-07-24 15:30, M365-CLI-Fallback
+  `node_modules/.bin/m365` mit Zertifikat-Auth, da der MCP-Tool-Pfad nicht aufrufbar war).** Kleines,
+  luecklos gesichtetes Fenster (13 Treffer, 7 relevante Volltexte, kein Echo-Fall). Neue Marker:
+  `stimme.md` (kleingeschriebener Vorname erstmals in der Anrede-Zeile selbst «Guten Morgen levi»,
+  zweiter Gegenbeleg «%» ohne Leerschlag bei technischen Inline-Massangaben, Satzebene-Slip-Familie,
+  Metrik Batch 66), `beziehungsregister.md` (Mehrfachversand derselben Frage an unterschiedliche
+  Amtskontakte bei Zustaendigkeits-Unsicherheit statt gestapelter Anrede, Formalitaetsgefaelle
+  «Guten Tag»↔«sehr geehrter» nach Amt/Rolle in einer Anredezeile, neue Mappings Kuebler/Stubbe/
+  Zuercher/Stegmann/Becker/Furrer), `arbeitsweise.md` (Baustein-Wiederverwendung mit angepasster
+  Anrede bei unklarer Zustaendigkeit, native Outlook-Buchstabenliste A-E technisch bestaetigt),
+  `fachsignatur.md` (Sanitaer/Bodenheizung-Kollisionsfrage inline mit Masskette + eigenem
+  Loesungsvorschlag, Planaenderung mit Feuerpolizei-Ein-Wort-Begruendung pro Punkt). Zwei neue
+  Fragen in `QUESTIONS.md` (Mehrfachversand-Strategie, «%»-Leerschlag-Ausnahme). Ingest-Register
+  `raw/_INGESTED.md` fortgeschrieben, Sweep-Endpunkt neu 2026-07-24 15:30:13 (Restfenster bis
+  2026-07-25 05:16 bereits leer gesichtet, naechster Lauf braucht frischen M365-Pull).
+
 - **2026-07-25h — twin-fidelity-review (Selbsttest 2026-07-25e, Apple-Mail-Fallback, M365-Connector
   weiterhin ohne Mail-Tool in dieser Session).** Drei frische authentische Goldproben bewusst
   ausserhalb der KISPI-/Baurechts-Achse gezogen (Costamagna/3D-Software.ch Sie-Vendor 14.11.2025,

@@ -1585,3 +1585,20 @@ Daraus belegt beantwortet:
   sondern Register-Ernsthaftigkeit gegenueber einem kommerziellen Sie-Erstkontakt mit hohem
   Warenwert), ODER es ist tatsaechlich KI-assistiert. Nicht als Stilquelle verwendet. Frage an
   Raphael: hast Du diese MacBook-Finanzierungsanfrage selbst so formuliert? → [[stimme]]
+- **Mehrfachversand derselben Frage an unterschiedliche Amtskontakte: Strategie oder
+  Adressunsicherheit? (Batch 66, 2026-07-25):** Am 24.07. ging dieselbe UGZ-Sachfrage binnen
+  30 Minuten dreifach an unterschiedliche Personenpaare (Stubbe/Zürcher, Stegmann/Becker,
+  Becker allein), statt in einer Mail mit gestapelter Anrede gebündelt zu werden. Zwei
+  Lesarten: (a) bewusstes Breitstreuen bei unklarer Zuständigkeit, um schneller eine Antwort
+  von irgendeiner zuständigen Stelle zu bekommen; (b) echte Unsicherheit, wer die richtige
+  Ansprechperson ist, und sukzessives Nachfassen bei neuen Namen aus dem Verteiler. Frage an
+  Raphael: war Dir zu dem Zeitpunkt unklar, wer bei UGZ zuständig ist, oder war das bewusstes
+  Parallel-Nachfassen? Soll der Zwilling dieses Muster bei unklarer Zuständigkeit übernehmen
+  (mehrfach knapp fragen) oder lieber immer konsolidieren und einmal nachfragen, wer zuständig
+  ist? → [[beziehungsregister]], [[arbeitsweise]]
+- **«%» ohne Leerschlag in technischen Inline-Massangaben, zweiter unabhängiger Beleg (Batch 66,
+  2026-07-25):** «1.5% Gefälle» (Sie-Fachfrage an Gebäudetechnikplaner) steht eng, nicht mit
+  Leerschlag wie die DNA-Regel verlangt — bereits Batch 20 hatte einen engen Beleg in einer
+  Sie-Tabelle. Zeichnet sich ein Muster ab: der Leerschlag-Marker gilt zuverlässig in
+  Fliesstext-Prosa, bricht aber bei kurzen technischen Kennwerten/Formeln im Satz. Braucht
+  weitere Beobachtung, bevor die DNA-Regel präzisiert wird. → [[stimme]]

@@ -2222,3 +2222,33 @@ Quelle: 2620 Albertstrasse 7 (Nova/Steinmann), Baumackerstrasse 43 (AfB), 2414 T
   derselben Stichprobe, die alle klar handgetippt sind. Die Nummerierung selbst passt zur echten DNA (sequenzielle
   Fragen an eine Sie-Person werden nummeriert), die Fehlerfreiheit + En-dash-Dichte aber nicht. Als offener
   Verdachtsfall in [[QUESTIONS]] vermerkt statt stillschweigend gewertet.
+
+## Batch 66 (2026-07-23 21:42 bis 07-24 15:30) — Kleingeschriebener Vorname in der Anrede selbst, «1.5%» ohne Leerschlag als Gegenbeleg
+
+Gewichtung: authentisch (alle 7 Mails klar handgetippt, keine Echo-Falle in diesem Fenster). Quelle: KISPI-PPTS
+Lenggstrasse 30 (Gruner/Kübler, TeKoSi/Hiltmann, AfB/UGZ/SRZ-Auflagebereinigung), 23.–24.07.2026.
+
+- **Kleingeschriebener Vorname NICHT nur im Fliesstext, sondern in der Anrede-Zeile selbst:** «Guten Morgen
+  **levi**» (Du, TeKoSi) — bisher waren Kleinschreibungs-Slips auf Wörter im Fliesstext beschränkt («uhr» in
+  derselben Mail: «für heute 10:00 **uhr**»), hier rutscht die Nachlässigkeit erstmals in die Anrede-Formel
+  selbst. Bestätigt: die Anrede ist kein gesondert sorgfältig getipptes Element, sondern Teil desselben
+  flüchtigen Tippflusses wie der Rest der Kurzmail.
+- **«1.5%» ohne Leerschlag vor dem Prozentzeichen — Gegenbeleg zur DNA-Regel «% mit Leerschlag»:** in einer
+  technischen Sie-Fachfrage an den Gebäudetechnikplaner («1.5% Gefälle der Schmutzwasserleitungen») steht die
+  Prozentzahl eng, nicht mit Leerschlag. Bereits Batch 20 hatte «%» ohne Leerschlag in einer Sie-Tabelle belegt —
+  der Marker gilt damit gesichert NICHT absolut, sondern bricht bei technischen Inline-Massangaben im
+  Fliesstext (Tabellen/Kurzformeln) häufiger als in Fliesstext-Prosa. Nicht geglättet, siehe [[QUESTIONS]].
+- **Syntaktisch verunglückter Satz als Echtheitsindikator, neue Ausprägung:** «So weiss ich, wer ich betreffende
+  Auflagebereinigung bei den Fachstellen kontaktieren darf.» — fehlerhafte Wortstellung/ausgelassenes Element,
+  kein Modell würde diesen Satz erzeugen. Reiht sich zur Genus-/Flexionsfehler-Familie (Batch 65), hier auf
+  Satzebene statt Wortebene.
+- **Weitere Slips:** «Raumbennenung» (Tippfehler), «integriert und in **in** 2.331» (Wortdopplung, Batch-64-Familie
+  «Slip innerhalb derselben Mail» bestätigt), «vom Jahre 2025» (leicht altertümliche Wendung), «Ich wollte ich
+  mich erkundigen» (verdoppeltes «ich»), «noch **pendelt** sind» (Verb/Adjektiv-Verwechslung statt «pendent»).
+- **«Dake» statt «Danke»** als bislang kürzeste dokumentierte Danksagung — ein Ein-Wort-Tippfehler eröffnet die
+  ganze Mail («Dake für Deine E-Mail.»), gefolgt von reinem Telegrammstil («Bis später.») vor «Lieber Gruss».
+- **Metrik (Batch 66, 834 W aus 7 authentischen Mails, davon 6 Sie/1 Du):** Du-Gross-Quote 1.0 (einzige
+  Du-Mail: «Deine»/«Dir» korrekt), Satzlänge ø 20.9 W (deutlich über dem bisherigen Schnitt — Sie-lastiges
+  Fenster mit langen Behörden-/Fachfragen), Tausender-Apostroph 0 (keine grossen Zahlen im Sample), «%» mit
+  Leerschlag-Quote 0.0 (einziger Beleg ohne Leerschlag, siehe oben), Ellipsen 0, Grüsse «Freundliche Grüsse»
+  6×/«Lieber Gruss» 1×.

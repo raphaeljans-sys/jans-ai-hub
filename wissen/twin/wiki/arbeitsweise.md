@@ -1542,3 +1542,21 @@ TeKoSi), Baumackerstrasse 43 (SRZ-Behördenversand).
   über die eBaugesuche-Plattform (Upload) als auch als direkter SharePoint-Link an mehrere Amtsstellen gleichzeitig
   («Folgend zusätzlich zum Upload auf der eBaugesuch Platform der Download Link …») — wichtige Verfahrensdokumente
   werden redundant über zwei Kanäle gesichert, nicht auf einen Übertragungsweg verlassen.
+
+## Batch 66 (2026-07-23 21:42 bis 07-24 15:30) — Bei unklarer Zuständigkeit mehrfach statt konsolidiert versenden, Baustein-Wiederverwendung mit angepasster Anrede
+
+Gewichtung: authentisch (alle 7 Mails handgetippt, keine Echo-Falle). Quelle: KISPI-PPTS Lenggstrasse 30
+(UGZ-Auflagebereinigung, Gruner/Kübler Bodenheizung/Bodenablauf, TeKoSi/Hiltmann, AfB Abänderungsplan), 23.–24.07.2026.
+
+- **Identische Sachfrage-Mail wortgleich an mehrere potenziell zuständige Amtspersonen versendet, statt zu
+  konsolidieren:** derselbe Text (Auflagepunkte UGZ II.1.c) geht binnen 30 Minuten dreifach an unterschiedliche
+  UGZ-Kontaktpaare, jedes Mal nur mit angepasster Anredezeile — kein Zusammenfassen in eine Mail mit gestapelter
+  Anrede, kein Abwarten auf Klärung der Zuständigkeit. Vgl. [[beziehungsregister]] für die Register-Seite dieses
+  Musters; auf der Arbeitsweise-Seite zeigt sich: bei Unsicherheit über den richtigen Ansprechpartner wird lieber
+  breit gestreut als verzögert nachgefragt — Tempo geht vor Konsolidierung, wenn die Zuständigkeit selbst unklar ist.
+- **«Gegenstand:»-Kopfzeile bei Behördenmails erneut bestätigt,** diesmal als eigener Absatz VOR der Anrede
+  («Gegenstand: Eingabe Abänderungsplan; Bauentscheid 1171/26 … / Akutspital Innerer Umbau …») — das amtsübliche
+  Muster wird konsequent über verschiedene Mails desselben Verfahrens hinweg wiederholt, nicht nur einmalig gesetzt.
+- **Konzeptionelle Planänderungen werden als native Outlook-Buchstabenliste (A) B) C) D) E)) aufgezählt,**
+  nicht als Markdown-«-»-Bullets — bestätigt, dass die Listenform bei Behördenmails technisch (Outlook-eigene
+  Aufzählung), nicht stilistisch motiviert ist; kein Bruch mit dem Verbot dekorativer Formatierung.

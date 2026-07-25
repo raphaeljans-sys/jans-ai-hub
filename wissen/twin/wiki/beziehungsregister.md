@@ -1617,3 +1617,29 @@ Gewichtung: authentisch (handgetippte Rahmen). Quelle: 2414 Thalwil/SBB (Wiedmer
   (TeKoSi, Türfachplanung) → Du bestätigt «Geschätzter Levi»; Angela Hottinger/Markus Gantenbein/Andreas
   Sörensen/Ralf Schröder (SRZ/AfB-Sammelverteiler) → generisches «Guten Tag» bei technischer Weiterleitung
   ohne Einzelbegründung (deckt sich mit der Regel zur trivialen Service-Bitte ans Sammelpostfach).
+
+## Batch 66 (2026-07-23 21:42 bis 07-24 15:30) — Bei Zuständigkeits-Unsicherheit dieselbe Frage parallel an mehrere Amtspersonen statt EINER gestapelten Anrede
+
+Gewichtung: authentisch (alle 7 Mails handgetippt, keine Echo-Falle). Quelle: KISPI-PPTS Lenggstrasse 30
+(UGZ/AfB/SRZ-Auflagebereinigung, Gruner/Kübler, TeKoSi/Hiltmann), 23.–24.07.2026.
+
+- **Neuer Gegenfall zur gestapelten Anrede: dieselbe wortgleiche Sachfrage geht binnen 30 Minuten dreifach an
+  unterschiedliche UGZ-Kontakte** («Geschätzter Herr Stubbe, werter Herr Zürcher» → «Geschätzter Herr Stegmann,
+  werter Herr Becker» → «Geschätzter Herr Becker» allein), statt sie in EINER Mail mit gestapelter Anrede an
+  alle vier zu bündeln. Anders als beim etablierten Muster (mehrere am Vorgang Beteiligte → EINE gestapelte
+  Anrede, Fidelity 260725b) liegt hier erkennbar **Zuständigkeits-Unsicherheit** vor (welcher UGZ-Sachbearbeiter
+  ist für die Auflagepunkte II.1.c zuständig) — der Zwilling broadcastet die identische Frage an mehrere
+  mögliche Ansprechpersonen einzeln, statt auf Klärung zu warten oder alle in einer Mail zu bündeln. Die
+  gestapelte Anrede bleibt also auf den Fall «bekannte Beteiligte am selben Vorgang» beschränkt; bei unklarer
+  Zuständigkeit greift stattdessen Mehrfachversand. Offene Frage, ob das bewusste Strategie oder
+  Adressunsicherheit ist → [[QUESTIONS]].
+- **Formalitätsgefälle INNERHALB einer einzigen gestapelten Anrede, nach Amt/Rolle nicht nach Person:**
+  «**Guten Tag** Herr Furrer (AfB), **sehr geehrter** Herr Gantenbein (SRZ)» — zwei Institutionen in derselben
+  Anredezeile bekommen unterschiedliche Formalitätsstufen (Guten Tag ↔ sehr geehrter), obwohl beide Sie-Kontakte
+  sind. Ergänzt die bereits belegte Erkenntnis (Batch 64: unterschiedliche Register in einer Zeile je Person)
+  um die Variante, dass das Gefälle nicht an der Vertrautheit zur Person, sondern am wahrgenommenen Gewicht/
+  der Rolle der jeweiligen Fachstelle im Verfahren hängt.
+- **Neue Mappings:** Benjamin Kübler (Gruner AG, Gebäudetechnik/HLK, Sie «Geschätzter Herr Kübler»); Torsten
+  Stubbe/Robert Zürcher (UGZ, Sie); Martin Stegmann/Ramon Becker (UGZ, Sie); Linus Furrer (AfB, Sie «Guten Tag
+  Herr Furrer»); Markus Gantenbein (SRZ, hier «sehr geehrter Herr Gantenbein», bestätigt bereits bekannten
+  Kontakt mit variierender Formalitätsstufe je Anlass).

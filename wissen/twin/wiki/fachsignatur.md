@@ -1392,3 +1392,22 @@ Gewichtung: authentisch (handgetippte Rahmen). Quelle: 2414 Thalwil/SBB (Wiedmer
 - **Auflagebereinigungs-Unterlagen werden je Amt/Fachstelle mit «Bitte um Prüfung und Baufreigabe» begleitet,**
   nicht mit einer offenen Frist- oder Themenerläuterung — die Freigabebitte ist der ganze Handlungsauftrag,
   der fachliche Kontext (Gegenstand, Bauentscheid-Nummer) steht bereits im Betreff/der Kopfzeile.
+
+## Batch 66 (2026-07-23 21:42 bis 07-24 15:30) — Sanitär/Bodenheizung-Kollisionsfrage inline gerechnet, Planänderung mit Feuerpolizei-Begründung als Buchstabenliste
+
+Gewichtung: authentisch (alle 7 Mails handgetippt, keine Echo-Falle). Quelle: KISPI-PPTS Lenggstrasse 30
+(Gruner/Kübler Bodenheizung/Bodenablauf-Koordination, AfB Abänderungsplan-Eingabe), 23.–24.07.2026.
+
+- **Bauteilkollision Sanitär↔Bodenheizung mit konkreten Massen statt allgemeiner Frage formuliert:** «alle +/-
+  0.00 bis -0.02 cm zu OK fFB», «8cm Konstruktionshöhe des Bodenablaufes», «1.5% Gefälle der
+  Schmutzwasserleitungen» — die Kollisionsfrage an den Gebäudetechnikplaner trägt bereits die eigene Masskette,
+  und er schlägt selbst eine mögliche Lösung vor («Register im ehemaligen Raum Besprechung … abhänken sodass dort
+  normale Bodenabläufe eingebaut werden könne»), bevor er die Rückfrage stellt. Bestätigt «Fachwissen
+  rechnend/verfahrensnah einweben» für die HLK-/Sanitär-Schnittstellenkoordination.
+- **Konzeptionelle Planänderung gegenüber der Behörde mit knapper Feuerpolizei-Begründung pro Punkt:**
+  Abänderungsplan-Eingabe listet fünf Änderungen (A–E), darunter «Anforderungen SRZ Feuerpolizei eingearbeitet
+  (Raum Reduit aufgelöst und zur Küche hinzugeschaltet)» und «Türen im Bereich 0.302 Fluchtweg … werden durch
+  EI30 Türen ersetzt» — jede Änderung trägt ihre eigene, knappe fachliche Rechtfertigung (Feuerpolizei-Auflage,
+  Kosteneinsparung, Facilitymanagement-Nummerierung), keine Sammelbegründung am Ende. Reiht sich zum bereits
+  belegten Muster «Plannummer + Klasse + Ein-Wort-Begründung» (Batch 64), hier auf eine mehrpunktige
+  Änderungsliste skaliert.
