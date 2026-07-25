@@ -4913,3 +4913,77 @@ allfälliger Mehrverbrauch später überhaupt einer Ursache zuordnen lässt.
 Datenstand 25.07.2026 (Run 102, neu). Status **speculative** (sauberer, mehrfach im Volltext
 belegter Negativbefund zur Kernfrage; die Näherungswerte stammen aus deutschen, nicht Schweizer
 Bestandsbauten und sind nicht auf CH-Klimazone/-Bauvorschriften validiert).
+
+### F144 — Unsere Wärmepumpe steht knapp an der Nachbargrenze — wer prüft das eigentlich, und was passiert, wenn sich der Nachbar trotzdem beschwert?
+
+Die Berechnung selbst (Formel, Planungswerte, Fallbeispiel) ist bereits in F65 beantwortet — hier
+geht es um das Verfahren danach. Im Kanton Zürich prüft **keine Behörde** den Lärmschutznachweis
+direkt: Er läuft über die **private Kontrolle**, das heisst eine befugte Fachperson aus dem
+Fachbereich «Schutz vor Lärm» (oder bei einfachen Fällen «Heizungsanlagen») erstellt und bestätigt
+ihn selbst, über die Webapplikation der FWS (`fws.ch/schallrechner`, Formulare LN-1a/LN-1b). Das
+örtliche Bauamt ist im **Meldeverfahren** (seit 1.1.2023 der Regelfall) die Anlaufstelle: 30 Tage
+Frist ab Eingangsbestätigung, wird nichts angeordnet, darf gebaut werden. Eine Ausnahme gilt in
+**Kernzonen** sowie bei **Ortsbild- oder Denkmalschutz** — dort braucht es das ordentliche
+Bewilligungsverfahren mit öffentlicher Auflage und echter Einsprachemöglichkeit. Das AWEL ist nur
+bei Sole/Wasser- oder Wasser/Wasser-Wärmepumpen (Erdsonden) zuständig, nicht bei der Luft/Wasser-
+Lärmfrage. Im Kanton Schwyz gibt es kein eigenes kantonales Merkblatt zu Wärmepumpen-Lärm (die
+Kantonsseite verweist direkt auf die Cercle-Bruit-Vollzugshilfe); bei einer Reklamation über eine
+bestehende Anlage ist dort in der Praxis **die Gemeinde** (und der Bezirk) zuständig, das kantonale
+Amt für Umwelt und Energie (AfU) tritt nur unterstützend als Fachstelle auf.
+
+Kommt es zu einer Reklamation, sind zwei Situationen zu unterscheiden: Läuft ein ordentliches
+Bewilligungsverfahren, kann ein Nachbar förmlich Einsprache erheben — üblicherweise sucht die
+Behörde zuerst eine Aussprache zwischen den Parteien, bevor sie entscheidet. Bei einer im
+Meldeverfahren bereits realisierten Anlage gibt es keine öffentliche Auflage, aber ein Nachbar kann
+**nach der Inbetriebnahme** trotzdem bei der Gemeinde reklamieren; ob und unter welchen Bedingungen
+dann eine unabhängige Nachmessung angeordnet wird und wer sie bezahlt, ist für ZH/SZ nicht amtlich
+verifiziert — das kursiert nur über allgemeine Ratgeberquellen und sollte nicht als gesicherte
+Regel weitergegeben werden. Praktisch heisst das: den Lärmschutznachweis in jedem Fall vorgängig
+erstellen und aufbewahren, den Standort nach Möglichkeit informell mit dem Nachbarn absprechen und
+bei Kernzone/Ortsbild-/Denkmalschutz-Lage frühzeitig klären, ob das Meldeverfahren überhaupt greift.
+→ `[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]`, `[[waermepumpe-aussenlaerm-vollzugshilfe]]`,
+`[[waermepumpe-aussengeraet-grenzabstand-zh-sz]]`, `[[private-kontrolle-zh]]`,
+`[[erdwaermesonden-bewilligung-zh-sz]]`.
+Datenstand 25.07.2026 (neu). Status **emerging** (ZH-Verfahrensangaben primärquellenbelegt via
+zh.ch-Direktfetch; SZ-Zuständigkeit und Einsprache-/Reklamationsablauf teils nur sekundärquellig,
+Kostenfolge einer Nachmessung amtlich nicht verifiziert).
+
+### F145 — Wir bauen mit grossen Fensterflächen (gute Dämmung, viel Glas) — schützt uns das im Sommer nicht eher vor Überhitzung als davor?
+
+**Kurz:** Nein — eine gut gedämmte Gebäudehülle mit grossen, ungeschützten Glasflächen ist im
+Sommer eher **anfälliger** für Überhitzung, nicht weniger: Sie hält die solaren Wärmegewinne durch
+die Verglasung genauso gut «drin» wie im Winter die Heizwärme. Der sommerliche Wärmeschutz ist
+deshalb ein **eigener, zwingender Nachweis** (SIA 180:2014, in Kt. ZH über die energierechtliche
+Vollzugshilfe EN-102 geführt) — unabhängig vom winterlichen U-Wert-Nachweis. Wirksamster Hebel ist
+in jedem Fall der **aussenliegende, automatisch gesteuerte Sonnenschutz** (Faktor 4–5 wirksamer als
+innenliegender Behang), kombiniert mit Speichermasse und Nachtauskühlung.
+
+**Fachliche Begründung:** SIA 180:2014 kennt drei gestufte Nachweisverfahren. Verfahren 1
+(einfache Kennwerte: Dach-U ≤ 0,20 W/m²K, g-Wert Sonnenschutz+Verglasung ≤ 0,10, Raumtiefe
+≥ 3,5 m/7 m, Nachtauskühlung ≥ 10 m³/h·m² EBF) genügt im Standardfall ohne Kühlabsicht. Reicht das
+nicht, wird über Verfahren 2 mit dem orientierungsabhängigen g_tot-Grenzwert gerechnet (Nord
+grosszügig ≤ 0,20/f_g, Nordost/-west ≤ 0,13/f_g, alle übrigen Fassaden inkl. Ost/West so streng wie
+Süd ≤ 0,07/f_g — das Vorurteil «Ost/West ist weniger kritisch als Süd» stimmt normativ nicht).
+Erst wenn eine Kühlmaschine geplant ist oder Ventilatoren zum Einsatz kommen, wird Verfahren 3
+(dynamische Simulation) zwingend — das ändert das Nachweisregime und die Formularlage (Kt. ZH
+zusätzlich Formular EN-110-ZH) grundlegend, weshalb eine Kühlabsicht früh im Vorprojekt geklärt
+werden sollte. Die MuKEn 2025 (EnDK, verabschiedet 29.08.2025, noch keine geltende kantonale
+Vorschrift) hebt diesen Nachweis erstmals in einen eigenen Basismodul-Artikel (Art. 1.9): auch bei
+**Wohnbauten ohne jede Kühlabsicht** bleibt mindestens der g-Wert-Nachweis für den Sonnenschutz
+Pflicht (Art. 1.9 Abs. 3). Für Kt. Schwyz konnte keine eigene, von der nationalen EN-102-
+Vollzugshilfe abweichende Wegleitung gefunden werden (Negativbefund) — SZ dürfte denselben
+nationalen Massstab anwenden wie Kt. ZH, seit 1.1.2026 ebenfalls über die EVEN-Plattform
+eingereicht.
+
+**Quelle + Datenstand:** EnFK/EnDK-Vollzugshilfe EN-102 (Ausgabe Januar 2020, Basis SIA 380/1:2016)
+Kap. 8 + Kt.-ZH-Vollzugsordner Energie (Sept. 2022) + HBA-Richtlinie Sommerlicher Wärmeschutz
+(23.01.2023) + Stadt-ZH-Wegleitung, alle per curl+pdftotext gelesen 16.07.2026; SIA 180:2014
+Ziff. 5.2.4.1 (g_tot-Grenzwerte Fassadenfenster) aus `wissen/normen/destillate/sia-180-2014`;
+MuKEn-2025-Originaltext Art. 1.7–1.11 (EnDK, amtl. PDF endk.ch, verabschiedet 29.08.2025) per
+curl+pdftotext gelesen 25.07.2026; Kt.-SZ-Vollzugsseiten (energie-zentralschweiz.ch, sz.ch Amt für
+Umwelt und Energie) per WebFetch gelesen 25.07.2026.
+→ `[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]`, `[[sommerlicher-waermeschutz]]`,
+`[[muken-2025-verabschiedet]]`, `[[fenster-uw-g-wert-zielkonflikt]]`, `[[naturdaemmstoffe-kennwerte-sommerhitzeschutz]]`.
+Datenstand 25.07.2026 (neu). Status **established** für den Kt.-ZH-Nachweisweg (vierfach
+primärquellenbelegt, deckungsgleich mit F88); **emerging** für den MuKEn-2025-Ausblick (Empfehlung,
+noch nicht geltendes Recht) und den Kt.-SZ-Teil (Negativbefund, nicht positiv verifiziert).

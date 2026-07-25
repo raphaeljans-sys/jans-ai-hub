@@ -1336,3 +1336,29 @@ Verfahrensstand unverändert. FAQ-Stand jetzt **F1–F105**. Details: `outputs/2
   Destillate). Weiterhin offen: fünf gebündelte Kaufentscheide (unverändert seit Run 98, sollten
   Raphael jetzt vorgelegt werden), Massivbau-CHF/m²/WDVS-Brandriegel-Kosten (passive Beobachtung),
   Meta-Punkt M2 (Skill-Entscheidung "energie" eigenständig?) weiterhin unentschieden.
+
+- **D73 (2026-07-25, Auftrag Raphael: Lärmschutz bei Wärmepumpen-Aussengeräten)** — Bei Prüfung
+  des Auftrags festgestellt: die **Berechnungsmethodik selbst** (Cercle Bruit Vollzugshilfe 6.21,
+  Formel Leq/Lr, Planungswerttabelle Anhang 6 LSV, Fallbeispiel) war bereits seit Run 56/57
+  vollständig destilliert und **established** (`[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]`,
+  FAQ F65) — keine Doppelarbeit, stattdessen die dort offen gebliebene **Verfahrensfrage**
+  geschlossen: wer prüft den Nachweis, in welchem Verfahren, was passiert bei Reklamation/Einsprache.
+  Vier ZH-Behördenseiten (zh.ch Lärmschutz-Neuanlagen, Meldeverfahren, Wärmepumpen/AWEL) direkt per
+  WebFetch gelesen: die Prüfung läuft über die **private Kontrolle** durch eine befugte Fachperson
+  («Schutz vor Lärm» bzw. «Heizungsanlagen»), nicht durch eine Behörde direkt; Meldeverfahren seit
+  1.1.2023 mit 30-Tage-Frist, Ausnahme Kernzone/Ortsbild-/Denkmalschutz (dann ordentliches
+  Bewilligungsverfahren); AWEL nur für Sole/Wasser- und Wasser/Wasser-WP zuständig, nicht für die
+  Luft/Wasser-Lärmfrage. Für Kt. Schwyz zwei sz.ch-Seiten (AfU Lärm und Bauen, Zuständigkeiten)
+  gelesen: **kein eigenes WP-Lärm-Merkblatt** (Negativbefund, Kanton verweist direkt auf Cercle
+  Bruit), operative Zuständigkeit bei Reklamationen über bestehende Anlagen liegt bei **Gemeinde/
+  Bezirk**, das AfU ist nur unterstützende Fachstelle. Einsprache-/Reklamationsablauf (Gespräch →
+  formale Einsprache → Aussprache) nur über eine journalistische Sekundärquelle (Beobachter-
+  Ratgeber) belegt, explizit als solche markiert; die kursierende Kostenfolge einer nachträglichen
+  Lärmmessung bei Nachbarreklamation ist **nicht** amtlich verifiziert und bewusst als offener Punkt
+  stehen gelassen statt übernommen → neues Destillat `[[waermepumpe-aussenlaerm-vollzugshilfe]]`
+  (emerging, bewusst als Verfahrens-Ergänzung zum bestehenden Formel-Destillat angelegt, keine
+  Duplizierung), FAQ **F144** neu, Themenartikel `[[waermepumpen-laermschutz]]` ergänzt (jetzt zwei
+  Destillate), Querverweis im bereits bestehenden Grenzabstand-Destillat
+  `[[waermepumpe-aussengeraet-grenzabstand-zh-sz]]` ergänzt (neuer Backlink auf das neue
+  Verfahrens-Destillat, gegenseitige Verlinkung). FAQ-Stand: **144 Kernfragen (F1-F144)
+  belegt.**

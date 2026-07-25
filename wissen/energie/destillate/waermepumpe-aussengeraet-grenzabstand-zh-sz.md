@@ -291,6 +291,8 @@ waere anwendbar) - ein Risiko, das die bisherige Praxisempfehlung im Destillat n
 Querbezug: `[[bvv-zh-meldeverfahren-klimaanlagen-waermepumpen]]` (Verfahrensfrage ZH),
 `[[rrb-2025-1082-klimaanlagen-bewilligungspraxis-zh]]` (Klimaanlagen-Bewilligungspraxis ZH),
 `[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]` (Laermabstand, andere Rechtsfrage),
+`[[waermepumpe-aussenlaerm-vollzugshilfe]]` (wer prueft den Laermschutznachweis, welches Verfahren,
+was bei Reklamation/Einsprache ZH/SZ — Verfahrensfrage zum Laermabstand, ergaenzt das Destillat oben),
 `[[heizleistung-und-waermeerzeuger]]` (WP-Systemwahl allgemein). KB `baurecht`:
 `[[abstaende-und-hoehen]]` (fuehrend fuer die allgemeine Grenzabstands-Systematik PBG ZH, dort
 Aktualisierungshinweis zu § 273 hinterlegt).

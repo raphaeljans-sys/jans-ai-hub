@@ -2,6 +2,34 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Lärmschutz bei Wärmepumpen-Aussengeräten: Verfahrensfrage neu, keine Doppelarbeit an der Berechnungsmethodik
+
+Auftrag Raphael: neues Thema Lärmschutz bei Luft/Wasser-Wärmepumpen-Aussengeräten erschliessen.
+Vor Recherchestart geprüft, ob das Thema bereits in der KB steckt — Ergebnis: die eigentliche
+**Berechnungsmethodik** (Cercle Bruit Vollzugshilfe 6.21, Formel Leq/Lr, Planungswerttabelle
+Anhang 6 LSV, Fallbeispiel) war bereits seit Run 56/57 vollständig destilliert und **established**
+(`[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]`, FAQ F65). Statt sie zu duplizieren,
+wurde gezielt die dort offen gebliebene **Verfahrensfrage** recherchiert und geschlossen: wer prüft
+den Lärmschutznachweis, in welchem Verfahren, was passiert bei einer Reklamation/Einsprache.
+
+- **Neues Destillat `[[waermepumpe-aussenlaerm-vollzugshilfe]]`** (emerging), bewusst als
+  Verfahrens-Ergänzung angelegt: ZH prüft den Nachweis über die **private Kontrolle** durch eine
+  befugte Fachperson («Schutz vor Lärm» bzw. «Heizungsanlagen»), nicht durch eine Behörde direkt
+  (zh.ch, WebFetch-Volltext); Meldeverfahren seit 1.1.2023 mit 30-Tage-Frist, Ausnahme Kernzone/
+  Ortsbild-/Denkmalschutz (dann ordentliches Bewilligungsverfahren mit Einsprachemöglichkeit);
+  AWEL nur für Sole/Wasser- und Wasser/Wasser-Wärmepumpen zuständig, nicht für die Luft/Wasser-
+  Lärmfrage. Kt. Schwyz: **kein eigenes WP-Lärm-Merkblatt gefunden** (Negativbefund, sz.ch verweist
+  direkt auf Cercle Bruit); operative Zuständigkeit bei Reklamationen über bestehende Anlagen liegt
+  bei **Gemeinde/Bezirk**, das AfU ist nur unterstützende Fachstelle. Einsprache-/Reklamationsablauf
+  nur über eine journalistische Sekundärquelle (Beobachter-Ratgeber) belegt und als solche
+  gekennzeichnet; die kursierende Kostenfolge einer nachträglichen Lärmmessung bei Nachbarreklamation
+  ist amtlich nicht verifizierbar und bewusst als offener Punkt stehen gelassen statt übernommen.
+- **FAQ F144 neu**, Themenartikel `[[waermepumpen-laermschutz]]` ergänzt (jetzt zwei Destillate),
+  bestehendes Destillat `[[waermepumpe-aussengeraet-grenzabstand-zh-sz]]` um einen Backlink auf das
+  neue Verfahrens-Destillat ergänzt (gegenseitige Verlinkung zwischen Lärmschutz- und Grenzabstands-
+  Rechtsfrage). `destillate/INDEX.md`, `wiki/INDEX.md`, `training/curriculum.md` (D73),
+  `raw/_INGESTED.md` nachgeführt. FAQ-Stand: **144 Kernfragen (F1-F144) belegt.**
+
 ## 2026-07-25 — Run 102: GAPxPLORE-Original gefunden (established), Kt.-ZH-Kühlwerte-Diskrepanz geklärt, zwei neue Themen (Healthcare-Performance-Gap, Smart-Meter-Rollout)
 
 Vier parallele `general-purpose`-Rechercheagenten arbeiten die in Run 101 formulierte Prioritätenliste
