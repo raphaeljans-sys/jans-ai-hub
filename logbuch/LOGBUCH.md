@@ -7,6 +7,29 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-25
 
+**NAS-Mount gehaertet (mobile Station) — auf Auftrag Raphael «viel robuster aufsetzen»
+(~13:30).** Befund aus `nas-auto-mount.log`: der SMB-Mount `/Volumes/daten` stallte alle
+15-20 Min (07:24/07:40/07:57/08:13/08:33/08:53/09:16 …), IMMER ueber Tailscale. Diagnose:
+Netzpfad gesund (Tailscale 9 ms, 0 % Verlust, direkte WireGuard-Verbindung) — Ursache ist
+NICHT das Netz, sondern der macOS-SMB-Client (idle-disconnect / stale-Sitzung ueber VPN). Der
+bestehende 3-Min-Waechter heilte nur, verhinderte nicht, und jede Heilung riss headless-Laeufe
+ab (belegt: immobewertung Run 43, spec-training abgebrochen). Entscheid Raphael: nur Mount
+haerten, Loops bleiben auf dem MacBook (kein Mini-Umzug). Umgesetzt (3 Schichten, kein sudo):
+(1) VERHINDERN — `~/Library/Preferences/nsmb.conf` (notify_off/mc_on=no/signing_required=no,
+greift am naechsten Remount) + neuer 60-s-Keepalive `scripts/nas-keepalive.sh` + LaunchAgent
+`com.jans.nas-keepalive` (haelt SMB-Sitzung via Sentinel `.nas-sentinel` warm, stoesst bei
+Stall sofort den Remount an → max. 60 s Latenz statt 180 s); (2) HEILEN — `nas-auto-mount.sh`
+neu mit gemeinsamer mkdir-Lock (kein Doppel-Remount durch Keepalive+Intervall+Netzwechsel);
+(3) UEBERLEBEN — neuer blockierender Guard `scripts/ensure-nas-mounted.sh` (rc-0/rc-1-Contract),
+vor JEDEM `vollgas-runner`-Lauf verdrahtet: NAS nicht bereit → Task bricht sauber ab statt
+mitten im Schreiben. Getestet: Guard-Erfolg rc 0 in 0 s, Guard-Abbruch rc 1 nach Budget,
+Keepalive rc 0 (Sitzung warm, keine Stalls seit Aktivierung), Lock haelt bei 2x-parallel.
+Commit 035cb9c1 (NAS→GitHub→SSD gepullt), Doku `docs/referenz/nas-mount-haerten.md`.
+Erfolgskennzahl zu beobachten: «Mount haengt»-Rate im Waechter-Log muss deutlich sinken.
+Nebenbefund: die git-ueber-SMB-Commits kollidierten erneut mehrfach (fremder vollgas-radar-
+Commit hing uninterruptible auf der Index-Lock) — bestaetigt Rule 260724; mein Commit ging
+erst nach Freigabe der Lock durch, mit Timeout-Wrapper.
+
 **Hub-Chef-Lauf regulaer nachgeholt (~12:40, NAS wieder gemountet) — ohne neuen Befund, keine
 zweite Mail.** Nach dem Abbruch am Vormittag (NAS nicht gemountet, Vermerk unten) auf Zuruf
 Raphaels («kannst du weiter machen») vollstaendig durchgefuehrt: Signale eingesammelt
