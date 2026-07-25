@@ -84,8 +84,9 @@ als offener Punkt zu führen.
 
 Bemerkenswert im Vergleich zum Schulbau ([[kennwerte-schulbauten]]): dort war wenigstens die
 Flächeneffizienz HNF/GF aus zwei unabhängigen Quellen zu einem Band verdichtbar. Im Healthcare
-fehlt selbst diese Grundlage — die einzigen belastbaren Absolut-Flächen der ganzen Sammlung
-stammen aus der **eigenen** Abgabe 2101.
+fehlt selbst diese Grundlage — die einzigen nach Geschossen und Flächenarten **aufgeschlüsselten**
+Absolut-Flächen der ganzen Sammlung stammen aus der **eigenen** Abgabe 2101; extern existieren
+lediglich zwei nackte GF-Summen (LUKS Sursee, S. 23 und S. 109).
 
 ## 1. Programm-Mengengerüst je Subtyp
 
@@ -230,8 +231,8 @@ entsprechend nachzuziehen.
 | Bombach Zürich | 40 Bewohnerzimmer à 18–20 m² (760 m² total); ca. 15 geteilte Nasszellen (75 m²) + ca. 10 individuelle (50 m²) | Bombach, S. 7 | Soll aus Auslobung (Raumprogramm) |
 | Bombach Zürich | 3–4 Eingangsbereiche total 60 m²; 3–8 Besucher-WC total 40 m²; 3–4 grosse Aufenthaltsräume mit Küche/Essbereich 240 m²; 3–4 kleine Aufenthaltsräume 80 m²; Therapie/Sitzung 30 m² | Bombach, S. 7 | Soll aus Auslobung (Raumprogramm) |
 | Bombach Zürich | Dienstleistungsbereich, 11 Positionen zusammen **260 m²** (abgeleitet, Summe der Einzelzeilen); Personalwohnungen 2× 1-Zi. (80 m²) + 4× 2-Zi. (240 m²); 6 Keller-/Estrichabteile 30 m²; Schutzraum/Lager 135 m² | Bombach, S. 7–8 | Soll aus Auslobung (Raumprogramm) |
-| 2101 KSSG Haus 14 | Fiore Praxis AG ca. 500 m² NF; Büro KSSG/Administration ca. 400 m² NF; Tiefgarage ca. 240 m² NF mit mindestens 12 Parkplätzen | 2101 Programm, S. 8 | Soll aus Auslobung |
-| 2101 KSSG Haus 14 | gedeckter Velo-/Kinderwagenraum rund 40 m² für ca. 12 Fahrräder und rund 14 Kinderwagen; zusätzlicher Kinderwagenraum GHG rund 24 m² | 2101 Programm, Extrakt Z. 1934–1935 | Soll aus Auslobung |
+| 2101 KSSG Haus 14 | Fiore Praxis AG ca. 500 m² NF; Büronutzungen KSSG ca. 400 m² NF; Tiefgarage ca. 240 m² NF mit mindestens 12 Parkplätzen | 2101 Programm, S. 7 Ziff. 2.1 (Extrakt Z. 211–214) | Soll aus Auslobung |
+| 2101 KSSG Haus 14 | gedeckter Velo-/Kinderwagenraum rund 40 m² für ca. 12 Fahrräder und rund 14 Kinderwagen; zusätzlicher Kinderwagenraum GHG rund 24 m² | 2101 Programm, Extrakt Z. 1932–1936 | Soll aus Auslobung |
 
 **Lesehinweis zum Bombach-Raumprogramm (Rohtext-Verifikation 25.07.2026):** Die m²-Spalte des
 Raumprogramms auf S. 7–8 nennt durchgehend die **Positionssumme**, nicht die Einzelraumfläche
@@ -314,7 +315,7 @@ Gesundheits-/Bürotypologie gegenüber einem Schulbau bindet, sind aber ein Einz
 | Fall | Wert | Quelle + Seite | Charakter |
 |---|---|---|---|
 | 2101 KSSG «LOUISE» | Gebäudevolumen Total 10'922 m³ (unter Terrain 2'413 m³, über Terrain 8'509 m³) | 2101 Flächenberechnung, Extrakt Z. 127–130 | Ist der eigenen Abgabe |
-| 2101 KSSG «LOUISE» | je Geschoss: UG 2'413 / EG 1'937 / 1.OG 1'937 / 2.OG 1'821 / 3.OG 1'821 / DG 993 m³ | 2101 Flächenberechnung, Extrakt Z. 107–121 | Ist der eigenen Abgabe |
+| 2101 KSSG «LOUISE» | je Geschoss: UG 2'413 / EG 1'937 / 1.OG 1'937 / 2.OG 1'821 / 3.OG 1'821 / DG 993 m³ | 2101 Flächenberechnung, Extrakt Z. 107–121 | Ist der eigenen Abgabe (Beschriftungsfehler im Plan: die Geschosswerte tragen dort «m2», stehen aber unter dem Titel «Gebäudevolumen» und summieren sich exakt auf die 10'922 m³) |
 | 2101 KSSG «LOUISE» | **Volumen je m² GF rund 3.20 m³/m²** | 10'922 m³ / 3'417 m² (Z. 130 + Z. 28) | **abgeleitet**, Ist der eigenen Abgabe |
 
 **Einzelbeleg, kein Band.** In keinem der 11 externen Berichte steht ein Gebäudevolumen als
@@ -335,7 +336,7 @@ untereinander NICHT direkt vergleichbar. Sie dienen der Grössenordnung, nicht d
 | Thurgauerstrasse (gemischt) | CHF 113 Mio. | inkl. MWST, BKP 1–9, Zielkosten Erstellung Gesamtprojekt | Thurgauerstrasse, S. 7 | Soll aus Auslobung |
 | Sihlsana Adliswil (Pflege + Alterswohnen) | CHF 73 Mio. | Kostenziel Erstellung, Fokus Lebenszykluskosten | Adliswil, S. 13 | Soll aus Auslobung |
 | Bombach Zürich (Demenz) | CHF 18.5 Mio. | BKP 1–9, inkl. 8 % MWST, exkl. Reserven/Unvorhergesehenes | Bombach, S. 5 | Soll aus Auslobung |
-| 2101 KSSG Haus 14 (Praxis/Büro) | ca. CHF 10 Mio. | SKP 1–9, inkl. Honorare, inkl. MwSt. | 2101 Programm, S. 30 Ziff. 6.4 | Soll aus Auslobung |
+| 2101 KSSG Haus 14 (Praxis/Büro) | ca. CHF 10 Mio. | Investitionsvolumen SKP 1–9, inkl. Honorare, inkl. MwSt. | 2101 Programm, S. 29 Ziff. 6.4 (Extrakt Z. 2168–2169) | Soll aus Auslobung |
 
 **Nur fünf von zwölf Quellen nennen überhaupt eine Kostenzahl.** LUKS Sursee, USB Basel,
 LUKS Kinderspital, ipw, KJPK, Widnau und Tägermoos publizieren **kein** Kostendach und
@@ -354,8 +355,8 @@ und ergibt sich aus den beiden Teilbeträgen.
 |---|---|---|---|
 | KSA Aarau | 600 Mio. / ca. 500 Betten (S. 8) | **rund 1.2 Mio. CHF je Akutspitalbett** | **abgeleitet**, Soll gegen Soll |
 | Bombach Zürich | 18.5 Mio. / 40 Bewohnende (S. 5 + S. 3/5) | **rund 462'500 CHF je Demenz-Pflegeplatz** (BKP 1–9 inkl. 8 % MWST, exkl. Reserven; Preisstand Auslobung, Verfahren 2011–2012) | **abgeleitet**, Soll gegen Soll |
-| 2101 KSSG «LOUISE» | 10 Mio. / 10'922 m³ (Programm S. 30 + Flächenberechnung Z. 130) | **rund 916 CHF/m³** | **abgeleitet**, Soll-Kosten gegen Ist-Volumen |
-| 2101 KSSG «LOUISE» | 10 Mio. / 3'417 m² GF (Programm S. 30 + Flächenberechnung Z. 28) | **rund 2'930 CHF/m² GF** | **abgeleitet**, Soll-Kosten gegen Ist-Volumen |
+| 2101 KSSG «LOUISE» | 10 Mio. / 10'922 m³ (Programm S. 29 + Flächenberechnung Z. 130) | **rund 916 CHF/m³** | **abgeleitet**, Soll-Kosten gegen Ist-Volumen |
+| 2101 KSSG «LOUISE» | 10 Mio. / 3'417 m² GF (Programm S. 29 + Flächenberechnung Z. 28) | **rund 2'930 CHF/m² GF** | **abgeleitet**, Soll-Kosten gegen Ist-Fläche |
 
 **Alle vier sind Einzelbelege ohne zweite Stütze.** Die beiden 2101-Werte sind zusätzlich
 methodisch gemischt: Bauherren-Kostenziel (SKP 1–9 inkl. Honorare und MwSt.) gegen das
@@ -415,8 +416,8 @@ Zimmerachse den Betrieb trägt. Vgl. [[jury-argumente-healthcare]] (Betrieb schl
 
 | Fall | Wert | Quelle + Seite | Charakter |
 |---|---|---|---|
-| 2101 KSSG Haus 14 | Geschosshöhe 3.60 m (OK fertig bis OK fertig), 4 Geschosse zu berücksichtigen | 2101 Programm, Extrakt Z. 1800 | Soll aus Auslobung |
-| 2101 KSSG Haus 14 | betrieblicher Referenzwert: 4 Vollgeschosse + Tiefgarage (aus abgebrochener Bestandesbaute) | 2101 Programm, Extrakt Z. 1851 | Soll/Referenz aus Auslobung |
+| 2101 KSSG Haus 14 | Geschosshöhe 3.60 m (OK fertig bis OK fertig), 4 Geschosse zu berücksichtigen | 2101 Programm, Extrakt Z. 1800 (Satz Z. 1789–1813) | Soll aus Auslobung |
+| 2101 KSSG Haus 14 | baulich-städtebaulicher Referenzwert: 4 Vollgeschosse + Tiefgarage (aus baulichem Kontext und abgebrochener Bestandesbaute; höhere Ausnutzung = Einspracherisiko) | 2101 Programm, Extrakt Z. 1850–1853 | Soll/Referenz aus Auslobung |
 | ipw Winterthur, «Tandem» (4. Rang) | minimale Geschosshöhe 3 Meter | ipw, S. 24 | Ist eines Beitrags |
 | ipw Winterthur | Geschossigkeit der Prämierten: Fossi Matto 4; «Agatha» 3–4 (Hauptbaukörper); Tandem 7 bis Parkniveau (Privatstation 6./7. OG); KAMBA 2–3; nightingale 4–5; Sieger GrassGreen eingeschossige Höhenstaffelung (nicht beziffert) | ipw, S. 12/16/20/24/28/32 | Ist der Beiträge |
 | KJPK UPK Basel | Baubereich 1: Bereich A max. 4-geschossig, Bereich B max. 3-geschossig | KJPK, S. 4 | Soll aus Auslobung |
@@ -442,7 +443,7 @@ Praxis/Büro) — kein Band, und die beiden Zahlen gehören verschiedenen Subtyp
 | KSA Aarau, «Fünftausendeins» (2. Rang) | zwei Baukörper ca. 182 m und 160 m Länge, ca. 35 m Höhe | KSA, S. 43–46 | Ist eines Beitrags |
 | USB Basel Klinikum 2 | Mantellinien: max. 70 m entlang Schanzen-/Klingelbergstrasse, 60 m im Bereich Klinikum 2, 29 m entlang Hebelstrasse | USB, S. 14 | Soll aus Auslobung (ersetzt gesetzliche Höhen-/Baulinien) |
 | Thurgauerstrasse Zürich | öGP: max. Gebäudehöhe 70 m (Hochhaus), Sockelbau max. 11 m | Thurgauerstrasse, S. 5 | Soll aus Auslobung |
-| 2101 KSSG Haus 14 | Strassenabstand mindestens 3.00 m (Gemeindestrassen 2. Klasse); Grenzabstand WG4 5.00 m, gegenüber C4618 erweitert auf 6.00 m | 2101 Programm, S. 27 Ziff. 6.1.1/6.1.2 | Soll aus Auslobung |
+| 2101 KSSG Haus 14 | ordentlicher Strassenabstand mindestens 3.00 m (umgebende Gemeindestrassen 2. Klasse); Grenzabstand Zone WG4 5.00 m (Art. 13 Abs. 2 städtische Bauordnung), gegenüber Grundstück C4618 gemäss Grundbucheintrag um 1.00 m erweitert auf 6.00 m | 2101 Programm, S. 26 Ziff. 6.1.1/6.1.2 (Extrakt Z. 2040–2051) | Soll aus Auslobung |
 | LUKS Sursee, «Feld und Flur» (Sieger) | Fensteranteil 60 %, von der Jury als sehr gross kritisiert | LUKS Sursee, S. 23 | Ist eines Beitrags |
 | LUKS Sursee, «GRÜNACHSE» | «moderater Fensteranteil von 41 %» | LUKS Sursee, S. 36 | Ist eines Beitrags |
 | LUKS Sursee, «HOSPES» | Glasanteil 45 % | LUKS Sursee, S. 50 | Ist eines Beitrags |
@@ -480,7 +481,7 @@ in der Grundstücks-Infobox «Kataster-Nr. SE6833», S. 10) ohne Erklärung der 
 | Sihlsana Adliswil | Wettbewerbsperimeter rund 12'100 m² (Parzelle 6769 + Teile 8398/8378) | Adliswil, S. 12 | Soll/Rahmen aus Auslobung |
 | Tägermoos Küsnacht | Perimeter 4'535 m², Zone für öffentliche Bauten | Tägermoos, S. 8 | Soll/Rahmen aus Auslobung |
 | Thurgauerstrasse Zürich | Teilgebiet A rund 4'300 m² (Fliesstext) bzw. Kataster SE6833 mit 4'324 m² (Infobox) | Thurgauerstrasse, S. 6 bzw. S. 10 | Soll/Rahmen aus Auslobung, Quellen-Widerspruch |
-| 2101 KSSG Haus 14 | Parzelle C1583 rund 970 m² | 2101 Programm, S. 9 | Soll/Rahmen aus Auslobung |
+| 2101 KSSG Haus 14 | Parzelle C1583 (Neubau KSSG) rund 970 m² | 2101 Programm, S. 8 Ziff. 2.3 (Extrakt Z. 281–282) | Soll/Rahmen aus Auslobung |
 
 ## 6. Verfahrenskennwerte
 
@@ -500,7 +501,7 @@ in der Grundstücks-Infobox «Kataster-Nr. SE6833», S. 10) ohne Erklärung der 
 | LUKS Kinderspital/Frauenklinik (Studienauftrag) | 19 vollständige Bewerbungen, 5 Generalplanerteams selektioniert | Kispi Luzern, S. 4–5 | Verfahren |
 | KSA Aarau (Gesamtleistungswettbewerb) | 11 Anbieter Präqualifikation → 6 für Stufe 1 → 3 für Stufe 2 | KSA, S. 4–5/54 | Verfahren |
 | KSA Aarau | Eignungskriterium: Referenz-Abrechnungssumme BKP 2 mind. CHF 50 Mio. exkl. MwSt. | KSA, S. 9 | Zulassungsschwelle |
-| 2101 KSSG Haus 14 | eigener Beitrag «04 LOUISE» im 2. Rundgang ausgeschieden | 2101 Beurteilungsbericht, S. 12 Ziff. 5.2.2 | Ist der eigenen Abgabe |
+| 2101 KSSG Haus 14 | eigener Beitrag «04 LOUISE» im 2. Rundgang ausgeschieden (einstimmiger Beschluss) | 2101 Beurteilungsbericht, S. 12 Ziff. 5.2.2 (Extrakt Z. 445–451; bestätigt in Anhang C, Z. 1740–1743) | Ist der eigenen Abgabe |
 
 **Referenzband offener Healthcare-Wettbewerb: 33 bis 54 Beiträge — vier unabhängige
 Quellen** (ipw 33, Tägermoos 42, KJPK 43, Thurgauerstrasse 54).
@@ -908,17 +909,70 @@ Z. 22–28), HNF Total 1'532 m² und NNF Total 113 m² je Geschoss (Z. 97–103)
 62 m² (Z. 147–149), Fassadenfläche 2'114/383/829/902 m² (Z. 174–177), Dachhaut 537/248/289 m²
 (Z. 202–205), Gebäudevolumen 10'922/2'413/8'509 m³ und die Geschossvolumina (Z. 107–130,
 Summenprobe exakt), Tragwerksspannweite ca. 6.5 m (Projekttext Diggelmann Z. 4), Geschosshöhe
-3.60 m/4 Geschosse (Z. 1800) und der betriebliche Referenzwert 4 Vollgeschosse + Tiefgarage
-(Z. 1851), Strassen-/Grenzabstände (Programm S. 27 Ziff. 6.1.1/6.1.2), Parzelle C1583 rund
-970 m² (Programm S. 9), Fiore-Praxis/Büro-KSSG/Tiefgarage-Flächen (Programm S. 8),
-Velo-/Kinderwagenraum-Flächen (Z. 1934–1935), Ausscheiden von «04 LOUISE» im 2. Rundgang
-(Beurteilungsbericht S. 12 Ziff. 5.2.2), Kostenziel CHF 10 Mio. SKP 1–9 inkl. Honorare/MwSt.
-(Programm S. 30 Ziff. 6.4). Die drei abgeleiteten Rechnungen wurden nachgerechnet und sind
+3.60 m/4 Geschosse (Z. 1800), der Referenzwert 4 Vollgeschosse + Tiefgarage
+(Z. 1850–1853), Strassen-/Grenzabstände (Ziff. 6.1.1/6.1.2, Z. 2040–2051), Parzelle C1583 rund
+970 m² (Ziff. 2.3, Z. 281–282), Fiore-Praxis/Büro-KSSG/Tiefgarage-Flächen (Ziff. 2.1,
+Z. 211–214), Velo-/Kinderwagenraum-Flächen (Z. 1932–1936), Ausscheiden von «04 LOUISE» im
+2. Rundgang (Beurteilungsbericht S. 12 Ziff. 5.2.2, Z. 445–451), Kostenziel CHF 10 Mio.
+SKP 1–9 inkl. Honorare/MwSt. (Ziff. 6.4, Z. 2168–2169) — die **Seitenzahlen** dieser
+Fundstellen sind allerdings in der Zweitwelle unten korrigiert. Die drei abgeleiteten Rechnungen wurden nachgerechnet und sind
 exakt: HNF/GF = 1'532/3'417 = **44.83 %** (Artikel: «rund 44.8 %»); Volumen/GF =
 10'922/3'417 = **3.196 m³/m²** (Artikel: «rund 3.20 m³/m²»); Kosten/Volumen = 10 Mio./10'922 m³
 = **915.6 CHF/m³** (Artikel: «rund 916 CHF/m³»); Kosten/GF = 10 Mio./3'417 m² =
 **2'926.5 CHF/m² GF** (Artikel: «rund 2'930 CHF/m² GF»). Alle vier «rund»-Rundungen sind
 sachlich gedeckt.
+
+**Zweite (unabhängige) Refuter-Welle zur Quellgruppe 2101, gleichentags.** Die vorstehende
+2101-Welle und diese Prüfung liefen parallel auf derselben Station (Kollisionsfall nach Rule
+260724); die Befunde sind hier zusammengeführt, die inhaltlich strengere Fassung gewinnt.
+Ergebnis dieser zweiten Prüfung: **alle 21 Zahlenwerte der Quellgruppe 2101 sind ziffernweise
+bestätigt** (inkl. sämtlicher Summenproben, siehe unten), **fünf Fundstellen waren jedoch
+falsch** — die Erstwelle hatte vier davon als «bestätigt» durchgewinkt:
+
+- **Systematischer Seitenversatz um +1 in allen vier Programm-Seitenbelegen.** Der
+  `pdftotext`-Extrakt des Wettbewerbsprogramms setzt die Fusszeile «… Seite N» **vor** den
+  Textblock der Seite N, nicht danach. Wer sie als Seitenabschluss liest, landet durchgehend
+  eine Seite zu weit hinten. Gegenprobe am eigenen Inhaltsverzeichnis des Programms, vier
+  unabhängige Treffer: Ziff. 2.1 → S. 7, Ziff. 2.3 → S. 8, Ziff. 6.1 → S. 26, Ziff. 6.4 →
+  S. 29. Korrigiert wurden entsprechend: Fiore/Büro/Tiefgarage **S. 8 → S. 7**, Parzelle
+  C1583 **S. 9 → S. 8**, Strassen-/Grenzabstand **S. 27 → S. 26**, Kostenziel CHF 10 Mio.
+  **S. 30 → S. 29** (dieser Beleg zweimal, auch in den beiden abgeleiteten CHF-Werten des
+  Abschnitts 4a). Der Seitenbeleg des Beurteilungsberichts (S. 12, Ziff. 5.2.2) ist nach
+  derselben Prüfung **richtig** — er wurde bereits nach der korrekten Lesart gesetzt.
+  Sämtliche Programm-Fundstellen tragen neu zusätzlich die Ziffer und den Zeilenbereich,
+  damit der Beleg unabhängig von der Seitenlesart nachprüfbar bleibt.
+- **Zeilenbeleg Preissumme** (Z. 594–608 → Ziff. 4.12, Z. 646–650): bereits in der Erstwelle
+  korrigiert, hier bestätigt.
+- **Charakter-Korrektur:** Die 4 Vollgeschosse + Tiefgarage waren als «betrieblicher»
+  Referenzwert geführt. Der Rohtext leitet sie ausdrücklich aus dem **baulichen Kontext** und
+  der abgebrochenen Bestandesbaute ab und begründet sie mit dem Einspracherisiko bei höherer
+  Ausnutzung (Z. 1850–1853) — auf «baulich-städtebaulich» präzisiert.
+- **Beleg-Genauigkeit Flächenberechnung:** Der Abgabeplan beschriftet die **Geschossvolumina**
+  mit «m2» (Z. 107–121), obwohl sie unter dem Titel «Gebäudevolumen» stehen und sich exakt auf
+  die 10'922 m³ summieren. Als Beschriftungsfehler der Quelle vermerkt, damit die m³-Angabe im
+  Artikel nachvollziehbar bleibt.
+- **Überzogene Aussage entschärft (Abschnitt 0):** «die einzigen belastbaren Absolut-Flächen
+  der ganzen Sammlung stammen aus 2101» widersprach dem eigenen Abschnitt 0, der für LUKS
+  Sursee zwei GF-Werte (38'100 / 37'500 m²) ausweist. Neu: 2101 liefert die einzigen nach
+  Geschossen und Flächenarten **aufgeschlüsselten** Absolutflächen.
+
+Summenproben dieser Welle, alle exakt aufgehend: GF 727 + 5 × 538 = **3'417 m²**;
+HNF 48 + 247 + 381 + 423 + 423 + 10 = **1'532 m²**; NNF 31 + 8 + 8 + 66 = **113 m²**;
+AGF 31 + 31 = **62 m²**; Fassade E1 383 + E2 829 + E3 902 = **2'114 m²** (und je Bauteil
+gegen die Geschosswerte nachgerechnet); Dachhaut 248 + 289 = **537 m²** (FFDA 32 + 257 = 289);
+Geschossvolumina 2'413 + 1'937 + 1'937 + 1'821 + 1'821 + 993 = **10'922 m³** = unter Terrain
+2'413 + über Terrain 8'509; Programm-NF 500 + 400 + 240 = **1'140 m²**. Keine Abweichung.
+
+Ebenfalls geprüft und nicht zu beanstanden ist die **Trennung Soll/Ist**: alle 2101-Werte aus
+dem Programm sind als «Soll aus Auslobung» geführt, alle Werte aus der eigenen
+Flächenberechnung und den Projekttexten als «Ist der eigenen Abgabe»; die beiden CHF-Kennwerte
+in Abschnitt 4a sind ausdrücklich als Mischung (Soll-Kosten gegen Ist-Grösse) gekennzeichnet.
+Ebenso bestätigt: **kein 2101-Wert ist mit externen Quellen zu einem Band verschmolzen** — die
+Spannweite 6.5 m bleibt aus dem Rasterband 7.1–10.8 m ausgeschlossen (Spannweite ≠
+Stützenraster), 44.8 % HNF/GF und 3.20 m³/m² sind ausdrücklich als Einzelbelege eines
+Praxis-/Bürogebäudes ohne Bettenhaus-Bezug markiert, die Geschosshöhe 3.60 m wird gegen die
+3.00 m der ipw ausdrücklich **nicht** zu einem Band verbunden, und beide CHF-Kennwerte sind in
+Abschnitt 8 von der Übernahme ins Parameter-Set ausgeschlossen.
 
 **Status-Entscheid (25.07.2026):** Mit dieser vierten Welle haben nun alle zwölf Quellen des
 Artikels (11 externe Juryberichte + eigene Teilnahme 2101) eine unabhängige Refuter-Prüfung
@@ -928,4 +982,8 @@ stützt sich auf 2 Quellen, betreutes Alterswohnen und der gemischte Subtyp auf 
 das bleibt eine Aussage über den knappen Bestand an frei zugänglichen Healthcare-Juryberichten
 dieser Subtypen, nicht über die Sorgfalt der Prüfung, und ist in `QUESTIONS.md` als offener
 Beschaffungspunkt zu führen. Abgeleitete Werte sind gerechnet und rechnerisch nachgeprüft; ihre
-Ausgangszahlen sind seitengenau belegt.
+Ausgangszahlen sind belegt. Die Quellgruppe 2101 hat zwei unabhängige Refuter-Durchgänge
+durchlaufen; der zweite hat den Seitenversatz der Programm-Belege aufgedeckt und behoben. Für
+alle 2101-Fundstellen gilt neu der **Zeilenbereich des Extrakts** als führender Beleg, die
+Seitenzahl als Zusatzinformation — die Seitenlesart des `pdftotext`-Extrakts ist fehleranfällig
+(Fusszeile vor dem Textblock).

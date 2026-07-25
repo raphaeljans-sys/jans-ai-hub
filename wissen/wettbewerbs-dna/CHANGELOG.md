@@ -1,5 +1,55 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-25 — Refuter-Welle B6 Healthcare, Quellgruppe Eigene Teilnahme 2101 KSSG Haus 14 «LOUISE» (zweiter, unabhängiger Durchgang)
+- Unabhängige Gegenprüfung **aller** 2101-Zahlen im Artikel `wiki/muster/kennwerte-healthcare.md`
+  gegen die fünf Rohtexte in `raw/` (`2101-kssg-h14_eigene-flaechenberechnung.txt`,
+  `_programm.txt`, `_beurteilungsbericht.txt`, `_projekttext-technik.txt`,
+  `_projekttext-diggelmann.txt`). **21 Zahlenwerte geprüft, 21 ziffernweise bestätigt,
+  5 Fundstellen korrigiert, 2 Charakter-/Formulierungsangaben präzisiert.** Keine Zahl
+  gestrichen — alle 2101-Werte sind belegbar.
+- **Kollisionsfall (Rule 260724):** Parallel lief auf derselben Station eine zweite
+  2101-Refuter-Instanz, die ihre Welle bereits in den Artikel geschrieben und `established`
+  gesetzt hatte. Befunde zusammengeführt, die strengere Fassung gewinnt; die Erstwelle hatte
+  vier der fünf falschen Fundstellen als «bestätigt» durchgewinkt.
+- **Hauptbefund — systematischer Seitenversatz +1 in allen Programm-Belegen.** Der
+  `pdftotext`-Extrakt des Wettbewerbsprogramms setzt die Fusszeile «… Seite N» **vor** den
+  Textblock der Seite N. Gegenprobe am Inhaltsverzeichnis des Programms (vier unabhängige
+  Treffer: Ziff. 2.1 → S. 7, 2.3 → S. 8, 6.1 → S. 26, 6.4 → S. 29). Korrigiert:
+  Fiore/Büro/Tiefgarage S. 8 → **S. 7**, Parzelle C1583 S. 9 → **S. 8**, Strassen-/
+  Grenzabstand S. 27 → **S. 26**, Kostenziel CHF 10 Mio. S. 30 → **S. 29** (an drei Stellen,
+  inkl. der beiden abgeleiteten CHF-Kennwerte in Abschnitt 4a). Der Beleg des
+  Beurteilungsberichts (S. 12, Ziff. 5.2.2) ist korrekt. Alle Programm-Fundstellen tragen neu
+  Ziffer **und** Zeilenbereich; der Zeilenbereich ist ab jetzt der führende Beleg.
+- **Zeilenbeleg Preissumme** CHF 110'000 exkl. MwSt.: Z. 594–608 (dort stehen die
+  Beurteilungskriterien) → Ziff. 4.12, Z. 646–650. In der Erstwelle bereits korrigiert, hier
+  bestätigt.
+- **Charakter präzisiert:** «betrieblicher Referenzwert 4 Vollgeschosse + Tiefgarage» →
+  **baulich-städtebaulicher** Referenzwert; der Rohtext leitet ihn aus dem baulichen Kontext
+  und der abgebrochenen Bestandesbaute ab und begründet ihn mit dem Einspracherisiko
+  (Z. 1850–1853).
+- **Beleg-Genauigkeit:** Der Abgabeplan beschriftet die Geschoss**volumina** mit «m2»
+  (Z. 107–121), obwohl sie unter «Gebäudevolumen» stehen und sich exakt auf 10'922 m³
+  summieren — als Quellen-Beschriftungsfehler vermerkt.
+- **Überzogene Aussage entschärft (Abschnitt 0):** «die einzigen belastbaren Absolut-Flächen
+  der Sammlung stammen aus 2101» widersprach dem eigenen Abschnitt 0 (LUKS Sursee 38'100 /
+  37'500 m²). Neu: 2101 liefert die einzigen nach Geschossen und Flächenarten
+  **aufgeschlüsselten** Absolutflächen.
+- **Summenproben, alle exakt:** GF 727 + 5 × 538 = 3'417 m²; HNF 48+247+381+423+423+10 =
+  1'532 m²; NNF 31+8+8+66 = 113 m²; AGF 31+31 = 62 m²; Fassade 383+829+902 = 2'114 m² (auch je
+  Bauteil gegen die Geschosswerte); Dachhaut 248+289 = 537 m²; Geschossvolumina
+  2'413+1'937+1'937+1'821+1'821+993 = 10'922 m³ = 2'413 unter + 8'509 über Terrain;
+  Programm-NF 500+400+240 = 1'140 m². Abgeleitet nachgerechnet: HNF/GF 44.83 %, GV/GF
+  3.196 m³/m², 915.6 CHF/m³, 2'926.5 CHF/m² GF — alle «rund»-Angaben gedeckt.
+- **Soll/Ist-Trennung und Band-Disziplin bestätigt:** Programmwerte durchgehend als «Soll aus
+  Auslobung», Werte aus Flächenberechnung/Projekttexten als «Ist der eigenen Abgabe», die
+  beiden CHF-Kennwerte ausdrücklich als Soll-gegen-Ist-Mischung. Kein 2101-Wert ist mit
+  externen Quellen zu einem Band verschmolzen (Spannweite 6.5 m bleibt ausserhalb des
+  Rasterbands 7.1–10.8 m; 44.8 % und 3.20 m³/m² als Praxis-/Büro-Einzelbelege markiert;
+  3.60 m Geschosshöhe nicht mit ipw 3.00 m verbunden; beide CHF-Kennwerte in Abschnitt 8 von
+  der Übernahme ins Parameter-Set ausgeschlossen).
+- **Status:** Damit sind alle zwölf Quellen des Artikels refuter-geprüft; `status: established`
+  bestätigt (von der Erstwelle gesetzt, nach dieser Prüfung inhaltlich gedeckt).
+
 ## 2026-07-25 — Refuter-Welle B6 Healthcare, Quellgruppe Spital/Klinik (KSA Aarau, LUKS Sursee, USB Basel, Kispi Luzern)
 - Unabhängige Gegenprüfung aller Zahlen der Quellgruppe Spital/Klinik im Artikel
   `wiki/muster/kennwerte-healthcare.md` gegen die vier Rohtexte in `raw/`
