@@ -692,6 +692,13 @@ einzeln geprüft:
   **Vorarbeit vorhanden (Run 8):** `planungsgrundlagen` hat fuer **BSR 13-15** (Rev. 2017,
   redaktionelle Deltas) und **BSR 14-15** bereits Fassungs-Recherche geleistet — siehe
   `wissen/planungsgrundlagen/wiki/brandschutz-pl03-wegweiser` (Run 41/52). Dort abholen statt neu machen.
+- [~] **TEILWEISE GESCHLOSSEN Run 22 (260725): Fassung «Stand 01.12.2022» gelesen und die Teilfrage zu
+  Ziff. 3.7 entschieden** (Bezugsgrösse **Brandabschnittsfläche > 1'200 m²** in beiden Fassungen
+  wortidentisch, Haupttext S. 12 — das Destillat hatte nichts geglättet; geändert wurde nur die
+  erläuternde Anhang-Zeile S. 33). **Offen bleiben zwei Punkte**, siehe Run-22-Sektion oben: die
+  materielle Kennwert-Änderung der Personenbelegung Ziff. 3.5.2 (Anhang S. 24) ist nur teilweise
+  nachgeführt, und die ABSV-Änderung auf S. 16 (umbenannte Bildlegenden) fehlt noch. Ursprünglicher
+  Auftragstext zur Nachvollziehbarkeit:
 - [ ] **P1 — Fassung «Stand 01.12.2022» der VKF-BRL 16-15 vollstaendig destillieren.**
   *Eingegangen ueber den Wissens-Chef Run 8 (18.07.2026); der Uebergabe-Flag stand seit Run 52 nur
   in `planungsgrundlagen` und war hier nie angekommen.* Im Bestand liegt
@@ -704,6 +711,14 @@ einzeln geprüft:
   «Brandabschnittsflaeche > 1'200 m2» — unser 2017er-Destillat schreibt aber **bereits**
   «Brandabschnittsflaeche». Entweder ist die Beschreibung der Vorfassung unpraezis oder das
   Destillat hat die Formulierung damals geglaettet. Am Wortlaut beider Fassungen klaeren.
+- [~] **BESTÄTIGT UND TEILWEISE BEHOBEN Run 22 (260725) — der Strukturhinweis war zutreffend und hat
+  zwei konkrete Fälle geliefert.** Der hier geforderte «Bestand nach jüngeren Fassungen durchsuchen»-Schritt
+  wurde erstmals systematisch ausgeführt und förderte zutage, dass die Destillate der BRL 13-15 und
+  BRL 14-15 auf der überholten Fassung 01.01.2015 beruhten, während die Fassung 01.01.2017 im Haus lag —
+  in der **zweiten Ablage** `PL - 03 Brandschutz/`, die das Inventar nicht abdeckt (eigener Eintrag in der
+  Run-22-Sektion oben). Beide Deltas sind nachgetragen, Verifikation offen. Der Schritt gehört als
+  Pflichtschritt in `training/PROGRAMM.md`, zusammen mit der neuen Bildvergleichs-Pflicht. Ursprünglicher
+  Hinweistext:
 - [ ] **Strukturhinweis (Run 8): Fassungspflege ist der blinde Fleck der Destillate.** Die
   Refuter-Notiz im 16-15-Destillat («keine Abweichung gefunden», 17.07.) prueft gegen **dieselbe
   Datei**, aus der destilliert wurde — sie kann eine juengere Fassung im Bestand grundsaetzlich nicht
@@ -717,8 +732,14 @@ einzeln geprüft:
   `SIA_Abo/Korrespondenz/`, Aktualitaet ungeprueft) oder Kauf.
 - [ ] **BRING-SCHULD P1 — Volltext SIA 385/1:2011 beschaffen** (6 von 28 Seiten im Bestand). Die
   praxisrelevanteste Frage (Legionellen-Temperaturen, Ziff. 3.1/3.2, Normseite 13) ist bis dahin
-  aus dieser Norm nicht beantwortbar. Vor einem Normkauf zuerst pruefen, ob die franzoesische
-  Variante `alle/f/385_1_f.pdf` den Volltext enthaelt — waere der billigste Lueckenschluss.
+  aus dieser Norm nicht beantwortbar. ~~Vor einem Normkauf zuerst pruefen, ob die franzoesische
+  Variante `alle/f/385_1_f.pdf` den Volltext enthaelt — waere der billigste Lueckenschluss.~~
+  **GEPRÜFT Run 22 (260725) — negativ, dieser Weg ist versperrt:** `alle/f/385_1_f.pdf` (60 S.) ist die
+  Ausgabe **2000** zum Thema «Wasser und Wasseraufbereitungsanlagen in öffentlichen Schwimmbädern». Die
+  Nummer 385/1 wurde 2011 für «Anlagen für Trinkwarmwasser in Gebäuden» wiederverwendet; die
+  Schwimmbad-Materie ging in **385/9** auf. Kein Ersatz, auch nicht teilweise — die Legionellen-Angaben
+  der 2000er betreffen Beckenwasser und Duschen. Die Bring-Schuld bleibt somit vollumfänglich offen und
+  ist nur über SIA-Abo/Kauf schliessbar.
 - [ ] **P2 — SIA-Merkblatt 2048 «Energetische Betriebsoptimierung» ins Inventar aufnehmen.**
   *Eingegangen ueber den Wissens-Chef Run 8 (18.07.2026).* Die KB `energie` hat die Uebergabe
   («Kandidat fuer den Skill/die KB `normen`») in `destillate/muken-2025-modul-7-betriebsoptimierung-hlkkse.md`

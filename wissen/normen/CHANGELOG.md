@@ -1,3 +1,56 @@
+## 2026-07-25 — Run 22 (MacBook Pro): «KOMPLETT» war eine Messfehler-Kette — 2 unsichtbare Normen destilliert, 2 Destillate auf ueberholter Fassung, 11 QUESTIONS-Punkte geschlossen
+- **Keine achte Vollstaendigkeits-Bestaetigung, sondern Pruefung der MESSGROESSE.** «0 offene `[ ]`»
+  plus «keine neuen Dateien» misst nur Datei-**Existenz** — nicht Klassierung, nicht Fassungsstand, nicht
+  die zweite Ablage `PL - 03 Brandschutz/`, und gar nicht die ~50 offenen Punkte in `wiki/QUESTIONS.md`.
+  In allen vier Bereichen lag reale Arbeit; Run 21s Schluss «keine reale Quelle zu bearbeiten» traf nicht zu.
+- **Zwei Normen waren als «Sprachvariante» unsichtbar und sind jetzt destilliert:** `alle/i/266_1_d.pdf`
+  = **SIA 266/1:2003** «Mauerwerk – Ergaenzende Festlegungen» (deutsch, im italienischen Ordner) und
+  `alle/f/410_d_f_i.pdf` = **SIA 410:1986** «Sinnbilder fuer die Haustechnik» (dreisprachig d/f/i, im
+  franzoesischen Ordner; **Empfehlung**, nicht Norm, Kennzeichnung empfehlend — und bis heute ohne jeden
+  REGISTER-Eintrag). Systematische Gegenprobe ueber alle drei Sprachordner: genau diese zwei Faelle.
+- **Zwei VKF-Destillate beruhten auf der ueberholten Fassung 01.01.2015**, waehrend die Fassung
+  01.01.2017 (IOTH 22.09.2016) im Haus lag — in PL-03, das das Inventar nicht scannt. **BRL 14-15
+  «Verwendung von Baustoffen»**: 13 materielle Aenderungen, u.a. neuer neunteiliger cr-Ausnahmekatalog
+  (Ziff. 2 Abs. 3, zuvor drei), Wegfall der Hochhaus-Sonderanforderung fuer Rohrleitungen/-daemmungen
+  (Ziff. 5.1.2), Wegfall der RF1-Gehaeusepflicht fuer Rauminformationssysteme (Ziff. 5.3). **BRL 13-15
+  «Baustoffe und Bauteile»**: Klassen E/E-d2 und EL/EL-d2 von **RF4 auf RF3 (cr)** umgestuft. Beide Deltas
+  einfach destilliert, **noch nicht verifiziert** — im Destillat sichtbar mit Vorbehalt markiert.
+- **Verifikations-Verdikte (3 adversariale Refuter, Hauptmodell): 3x BEANSTANDET, alle Befunde eingearbeitet,
+  kein Artefakt auf `established` gehoben.** Gewichtigste Befunde: (a) `sia-266-1-2003` behauptete «liefert
+  keine Kennwerte», obwohl Tabelle 1 charakteristische Mindestwerte fuehrt, und «drei eigene Pruefverfahren»
+  statt zwei plus einer EN-Ergaenzung (13 Befunde, 9 Luecken; Zahlen und Formeln fehlerfrei);
+  (b) Beherbergungskategorien: die Negativaussage «Betreutes Wohnen — keine VKF-Fundstelle» ist widerlegt,
+  BRL 10-15de S. 35 nennt **Alterswohnungen** ausdruecklich als Wohnbauten (12 Korrekturen, u.a. 5 falsche
+  Seitenzahlen und eine Modalitaets-Haertung); (c) BRL 16-15: die Einordnung «nur erlaeuternder Anhang» ist
+  fuer Ziff. 3.7 richtig, fuer **Ziff. 3.5.2 Personenbelegung** aber falsch — dort traegt allein der Anhang
+  die Zahlen (Verkaufsgeschaefte 0.5/0.35/0.25 → Fachmaerkte/Supermaerkte 0.1-0.45), materielle Aenderung
+  mit Wirkung auf Fluchtwegbreiten.
+- **Neuer Wiki-Artikel `wiki/vkf-beherbergungskategorien.md`** — die fuer die Healthcare-Projekte
+  kritische Definition [a]/[b]/[c] (Brandschutznorm 1-15de Art. 13 Abs. 2 lit. a, S. 8; ≥ 20 Personen +
+  Angewiesenheit auf fremde Hilfe; [c] ueber vier **kumulative** Bedingungen, PV/Notstrom ausdruecklich
+  ungenuegend). Spital/Alters-/Pflegeheim → [a], Hotel/Pension/Ferienheim → [b].
+- **Methodischer Kernbefund, als Pflicht in PROGRAMM.md verankert:** `pdftotext` ist bei Normen mit
+  Prinzipskizzen strukturell blind (Masse/Legenden liegen als Rastertext IN den Zeichnungen). Erst der
+  Bildvergleich (`pdfimages -list`, 55 Bilder paarweise) fand die uebersehene ABSV-Aenderung auf S. 16 der
+  BRL 16-15. Ferner neu verpflichtend: zwei Ablagen pruefen, «Sprachvariante» am Inhalt verifizieren,
+  Fassungsstand vor Werteabgleich, und QUESTIONS.md vor jeder «KOMPLETT»-Meldung durcharbeiten.
+- **Weitere Schliessungen:** SIA 385/1 — die franzoesische Bestandsvariante ist **kein** Lueckenschluss
+  (Nummern-Wiederverwendung: 2000 = Schwimmbad-Wasseraufbereitung, 2011 = Trinkwarmwasser; Schwimmbad ging
+  in 385/9 auf); SIA 112 — OCR-Verdacht ausgeraeumt, die Fehlzuordnung war ein Destillat-Fehler
+  (Volltext-OCR aller 26 S.); VKF-Merkblatt 2001-15 Solaranlagen — PL-02 und PL-03 byte-identisch (MD5
+  `56fb4bab…`), keine 2022er im Bestand, belegt RF4(cr) Ziff. 3.2.3; SIA `/1`-Normen — Bestand geprueft;
+  zwei **Stale-Befunde** korrigiert (SIA 118:1991 und Merkblatt-Serie 2001-2027 sind laengst destilliert).
+- **Empfehlung an Raphael: Task NICHT pausieren, aber Auftrag verschieben** — es gibt keine neuen Dateien,
+  aber einen bezifferbaren Rueckstand (5 unverifizierte Artefakte von heute, 2 offene P1-Punkte an der
+  BRL 16-15, ~40 QUESTIONS-Punkte). Ein reiner Datei-Trigger haette diesen Lauf verhindert. Entscheid
+  noetig: PL-03 ins Inventar aufnehmen oder Pflicht-Querblick im Skill `normen` verankern.
+- Nebenbefund: **Cross-Contamination erneut** (Rule 260724) — Selfcommit `3fe6585b` meldet
+  «twin-mail-training», enthaelt aber alle heutigen Normen-Dateien plus `energie`/`twin`. Ferner haben
+  heute zwei Laeufe unabhaengig die Run-Nummer 21 belegt; dieser Lauf fuehrt die Nummer 22, der
+  Fremd-Report bleibt als Protokoll stehen.
+- 13 Agenten (10 mechanisch auf Sonnet, 3 Refuter auf dem Hauptmodell). Report
+  `outputs/2026-07-25_normen-nacht-run22.md`, Fassungs-Mapping `outputs/2026-07-25_pl03-fassungs-mapping.md`.
+
 ## 2026-07-25 — Run 21 (MacBook Pro): Frischecheck, keine Aenderung seit Run 20, 7. Endbedingungs-Meldung
 - Datei-Anzahl-Stichprobe (458 SIA-PDF, 58 VKF-Dateien) + Aenderungsdatum-Filter seit 06:00 Uhr:
   **0 neue/veraenderte Dateien** seit Run 20. Grunddestillation + alle 4 Vertiefungsstufen bleiben

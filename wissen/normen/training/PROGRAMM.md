@@ -41,6 +41,37 @@ Inventar 528 Dateien) in belegte, schnell verfügbare Destillate überführen �
    Plan für die nächste Nacht.
 6. **CHANGELOG** ergänzen (neueste zuoberst), NAS-Repo committen + pushen.
 
+## Methodik-Pflichten (neu ab Run 22, 25.07.2026 — aus belegten Fehlbefunden)
+
+Die Runs 15-21 haben SIA/VKF sieben Mal als «komplett» gemeldet; Run 22 hat gezeigt, dass die
+Vollständigkeits-Metrik zu schmal war und reale Arbeit unsichtbar blieb. Vier Pflichten folgen daraus:
+
+1. **Zwei Ablagen prüfen, nicht eine.** Der Normen-Bestand liegt in `PL - 02_Recht_Norm/02_Normen/`
+   **und** in `PL - 03 Brandschutz/`. Die geltenden VKF-Fassungen 2017/2022 liegen in PL-03, das
+   `norm-inventar.md` scannt aber nur PL-02. Deshalb standen zwei Destillate unbemerkt auf der
+   überholten Fassung 01.01.2015. Jede VKF-Fundstelle ist vor Verwendung gegen PL-03 zu prüfen.
+2. **«Sprachvariante» ist eine Behauptung, keine Feststellung.** Vor dem Überspringen einer Datei als
+   f/i/e-Variante ist die Sprache am Dateiinhalt bzw. an den Titel-Metadaten zu prüfen. Belegte Fälle:
+   `alle/i/266_1_d.pdf` ist deutsch (SIA 266/1), `alle/f/410_d_f_i.pdf` ist dreisprachig und enthält
+   den deutschen Volltext (SIA 410). Beide galten jahrelang als erledigt, weil sie im «falschen» Ordner lagen.
+3. **Fassungsstand vor Werteabgleich.** Erster Schritt jeder Verifikation ist die Suche nach einer
+   **jüngeren Fassung derselben Norm** im Bestand (Dateiname, Titelblatt-Stempel, Änderungsliste meist
+   S. 2). Eine Refuter-Prüfung gegen dieselbe Datei, aus der destilliert wurde, kann eine jüngere Fassung
+   grundsätzlich nicht finden. Ausgabejahr und Fassungsdatum sind strikt getrennt zu führen und zu zitieren.
+4. **Bildvergleich-Pflicht bei Normen mit Prinzipskizzen.** `pdftotext` allein ist dort strukturell blind:
+   Masse, Legenden und Begriffe liegen teils als Rastertext INNERHALB der Zeichnungen. Eine Aussage «alle
+   übrigen Werte identisch» ist ohne Bildvergleich unbelegt. Vorgehen: `pdfimages -list` über beide
+   Fassungen, Paarvergleich nach Seite/Dimension/Bytegrösse, bei Abweichung Extraktion und Sichtkontrolle.
+   So wurde in Run 22 eine übersehene Änderung auf S. 16 der BRL 16-15 gefunden.
+
+**Konsequenz für die Endbedingung.** «0 offene `[ ]`» plus «keine neuen Dateien» ist KEIN Nachweis, dass
+nichts zu tun ist — es misst nur Datei-Existenz. Vor jeder «KOMPLETT»-Meldung ist zusätzlich `wiki/QUESTIONS.md`
+durchzuarbeiten: dort liegt der eigentliche Rückstand (Run 22 hat daraus 11 Punkte geschlossen). Ein
+Frischecheck auf Datei-Anzahl/Änderungsdatum ersetzt das nicht.
+
+**Run-Nummer erst nach Sicht der jüngsten `outputs/`-Datei belegen** — am 25.07.2026 haben zwei Läufe
+unabhängig die Nummer 21 vergeben.
+
 ## Leitplanken (Qualität)
 
 - **Nie Ziffern/Kennwerte erfinden** — nur was im PDF steht; Unsicheres `speculative`.
