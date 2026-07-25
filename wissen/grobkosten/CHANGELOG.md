@@ -1,5 +1,20 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-25 — Trainings-Run 1 (Stufe 1: Quellen-Inventar 04_Buero/02_Projekte)
+- `training/quellen-inventar.md` neu angelegt: alle 21 Projektordner unter
+  `/Volumes/daten/04_Buero/02_Projekte/` systematisch auf Kostendokumente geprüft (10 ohne
+  jeden Kosten-Treffer, 11 mit "Kosten" im Pfad einzeln auf Dateiebene verifiziert).
+- **Ergebnis: 0 auswertbare GV/BKP-1-5-Kostendokumente.** Mehrere Ordner mit vollständig
+  suggerierter Phasenkette (Wettbewerb→Kostenfeststellung, z.B. 1602_St_Karli_11,
+  1303_Steinhof) sind auf Dateiebene leere Struktur-Schablonen; andere Treffer sind
+  Honorarofferten, Möbel-/Umzugs-Preisvergleiche, ein leeres Berechnungs-Template oder
+  fachfremdes Material (Details siehe Inventar-Datei).
+- `wiki/kennwerte.md` bleibt unverändert auf Status Seed — keine Extraktion möglich, keine
+  Verdichtung (Stufe 2/3 dieses Laufs entfällt mangels Material).
+- Neue Frage in `wiki/QUESTIONS.md`: SharePoint-Projektordner (aktive Mandate,
+  Rule `projekt-ablage-stand`) als Zweitquelle für den nächsten Lauf statt erneuter Prüfung
+  des jetzt ausgeschöpften NAS-Altarchivs. Lauf-Report: `outputs/2026-07-25_grobkosten-run1.md`.
+
 ## 2026-07-25 — Wissens-Chef Run 15 (Cross-KB): needs-decision zum Flaechenfaktor-Komplex; ein Altpunkt geschlossen
 - **needs-decision-Box in `wiki/kennwerte.md`** (additiv, kein Wertwechsel): (a) Die Begruendung «die ~1020 CHF/m3 beruhen auf GV/HNF 4.7 (Gesamtgebaeude), das 0.70 dient nur als Geschoss-Kennwert» ist nachrechenbar falsch — **3.3 / 0.70 = 4.71**, die 4.7 ist regelgeschoss-basiert. Mit Gesamtgebaeude-Faktoren ergaebe sich GV/HNF ~5.0-5.5 und ein Anker von ~870-960 CHF/m3. (b) Gekoppelt: der E1-Regelgeschoss-Wert **0.70** kollidiert mit dem belegten **0.75** in `immobilienbewertung/wiki/flaechendefinitionen-sia:84`. Beides adversarial BESTAETIGT, beides Fachentscheid Raphael (Korrektur eines frueheren Wissens-Chef-Entscheids) — der Anker bleibt bis dahin gueltig (oberer Rand des eigenen Bands 850-1050, innerhalb ±25 %).
 - **Altpunkt geschlossen:** die seit Run 14 gefuehrte «0,70/0,60-Kopplungsformulierung» in der Wuest-Referenz ist ein **Scheinbefund** — beide Richtwerte sind unabhaengig aus der Quantilstabelle indexiert (4360 CHF/m2 HNF, 2840 CHF/m2 GF), kein Faktor im Spiel; das Quellen-Verhaeltnis wandert selbst von 0,70 (Q1.0) auf 0,60 (Q5.0). Kein Handlungsbedarf.
