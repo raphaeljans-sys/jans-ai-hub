@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 26.07.2026 00:23:43
+Stand: 26.07.2026 00:33:52
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 00:10)
@@ -18,4 +18,4 @@ Stand: 26.07.2026 00:23:43
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- c6c57cc7 git-ueber-SMB abgeschafft: nas-commit-now-Weg kodifiziert (Rules sync-kanonische-quelle/git-auto-push/auto-verbesserung 260726, vollgas-runner-Disziplin, Doku)
+- f8a6a6a1 wissens-chef Run 16: Cross-KB-Lauf (5 Lese-Agenten + 10 adversariale Verifikatoren), 10 Befunde bestaetigt/0 widerlegt — 6 materielle Korrekturen (ZH-Befreiungskatalog Grossverbraucher, Betriebsoptimierung Fristbeginn+Ausnahmen, SIA-181-Fallunterscheidung 4 Stellen, USG-Bezug Koerperschall, SIA-382/1-Ausgabenvorbehalt, Healthcare-quelle_kb), Muster 1 zum 5./6. Mal mit Ursache (Uebergabe gehoert ins Arbeitsregister, nicht in die Fragenliste), Erst-Pruefung projekt-lessons, 3 neue Matrix-Zeilen, E-2 geschlossen

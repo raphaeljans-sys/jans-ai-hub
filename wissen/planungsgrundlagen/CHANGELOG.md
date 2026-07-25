@@ -2,6 +2,14 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-26 — Run 90: Frischecheck Recht/Norm+Brandschutz, vierzehnter Nullbefund
+Frischecheck `PL - 02_Recht_Norm` + `PL - 03 Brandschutz` gegen Run 88 (`find -newer`): 0 neue/
+veraenderte Dateien. Vierzehnte unabhaengige Erschoepfungs-Bestaetigung fuer dieses
+Domaenenpaar, vierundzwanzigste in Folge ueber alle vier Domaenen (Run 67-90). Keine
+kuenstlichen Zusatzfragen erzeugt. Empfehlung an Raphael (Umstellung auf reinen
+Frischecheck-Takt) neunzehnte Wiederholung, unveraendert nicht eigenmaechtig umgesetzt.
+→ `outputs/2026-07-26_training-run90.md`.
+
 ## 2026-07-26 — Wissens-Chef Run 16 (Cross-KB): Betriebsoptimierung ZH materiell korrigiert
 - **[korrektur, materiell] `wiki/energie-energienachweis-zh-formulare.md`** fuehrte die Betriebsoptimierung als reine Verbrauchsschwelle mit Fristbeginn «nach Fertigstellung». Zwei Fehler: die Frist laeuft ab **Inbetriebsetzung** (§ 13d Abs. 1 EnerG), und die Verordnung ist als **Befreiungs**norm gebaut — § 48c Abs. 1 BBV I befreit (a) < 200'000 kWh Strom/Jahr, (b) Grossverbraucher mit Zielvereinbarung, (c) freiwillige Zielvereinbarung (KMU-Modell). Die Ausnahmen (b)/(c) fehlten ganz. **Praxisfolge fuer JANS:** Spital/Pflegeheim ueberschreitet die Stromschwelle regelmaessig, faellt aber ueber (b)/(c) haeufig doch aus der Pflicht — nach der bisherigen Zeile waere faelschlich eine Pflicht angenommen worden. Adversarial verifiziert am amtlichen BBV-I-/EnerG-Volltext. Verweis auf `wissen/energie/destillate/grossverbraucherartikel-zielvereinbarung-zh-sz.md` und die fuehrenden `baurecht/raw/`-Dateien gesetzt.
 - Bericht: `wissen/koordination/outputs/2026-07-26_wissens-chef-run16.md`.

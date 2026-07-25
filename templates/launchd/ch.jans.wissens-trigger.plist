@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>ch.jans.wissens-trigger</string>
+
+    <!-- Ereignis-Trigger fuer gesaettigte Lern-Loops (Entscheid Raphael 26.07.2026).
+         Prueft einmal taeglich, ob sich das Quellmaterial einer auf Ereignis-Trigger
+         umgestellten KB geaendert hat, und faehrt nur dann deren Trainingslauf.
+         Installation: cp in ~/Library/LaunchAgents/ und
+         launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/ch.jans.wissens-trigger.plist -->
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Volumes/daten/jans-ai-hub/scripts/wissens-trigger.sh</string>
+    </array>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key>
+        <integer>6</integer>
+        <key>Minute</key>
+        <integer>30</integer>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <false/>
+
+    <key>StandardOutPath</key>
+    <string>/Volumes/daten/jans-ai-hub/logbuch/wissens-trigger/launchd.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Volumes/daten/jans-ai-hub/logbuch/wissens-trigger/launchd.log</string>
+</dict>
+</plist>

@@ -7,6 +7,23 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-26
 
+**Nachtschicht Mac Mini: pendenten NAS-Commit-Sync-Task abgearbeitet + `nas-commit-now.sh`
+vom Mac Mini aus reparatur-faehig gemacht.** Pruefung von `sync-tasks/mac-mini/` fand einen
+pendenten Task («NAS-COMMIT angefragt», Station Macbookpro, 00:23:53, Message
+`twin-fidelity-review: 2026-07-26`, Pfade `wissen/twin rules/jans-dna.md`) — Relikt des
+alten Single-Committer-Mechanismus (`nas-git-commit.sh`), der laut Rule 260726 durch
+`nas-commit-now.sh` ersetzt ist. Ausfuehrung von `nas-commit-now.sh` scheiterte zunaechst mit
+«Host key verification failed»: `~/.ssh/known_hosts` auf dem Mac Mini kannte den Synology-
+Hostkey nur unter der LAN-IP `192.168.1.10`, nicht unter dem Tailscale-Hostnamen
+`diskstation918.tail8265aa.ts.net`, den `nas-commit-now.sh` per ssh anspricht — mit
+`BatchMode=yes` blockiert das jede TOFU-Anfrage. Fingerprint-Abgleich bestaetigte denselben
+Schluessel (SHA256:hbOv7EP9We/JD+69Hkrqk5aEqfDILEQimZANxJbwAO8) unter beiden Namen; Key per
+`ssh-keyscan` ergaenzt (kein neues Vertrauen, nur bereits verifizierter Schluessel unter
+zusaetzlichem Namen). Danach `nas-commit-now.sh` erfolgreich: nativer Commit+Push auf der
+Synology ausgeloest, `main...github/main` ohne Divergenz verifiziert (ssh-Check auf der
+Synology). Sync-Task nach `sync-tasks/done/` verschoben. Damit ist `nas-commit-now.sh` neu
+auch vom Mac Mini aus direkt nutzbar (zuvor nur MacBook Pro getestet, siehe Eintrag unten).
+
 **Schwesterproblem geloest: kein `git` mehr ueber SMB aufs NAS-Repo (~00:15).** Auf Raphaels
 Zuruf «mach es genau so wie Du findest ist die beste Loesung» das tieferliegende Thema hinter
 den Mount-Haengern angegangen. Ist-Analyse: `git-auto-sync.sh` laeuft auf dem lokalen SSD-Klon

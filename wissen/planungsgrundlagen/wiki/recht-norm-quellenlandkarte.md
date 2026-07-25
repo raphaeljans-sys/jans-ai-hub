@@ -1,8 +1,8 @@
 ---
 title: Recht & Norm — Quellenlandkarte (PL-02)
 status: established
-last_updated: 2026-07-24
-sources: [PL - 02_Recht_Norm (SharePoint), fedlex.admin.ch, zh.ch (RPG 2 / Klima-PBG / Denkmalschutz-Medienmitteilung 02.07.2026 / kantonaler Richtplan «Laufende Verfahren» TR2022 Vorlagen 6012/6013/6013a, abgerufen 2026-07-24), kantonsrat.zh.ch, espace-suisse.ch, are.admin.ch, sz.ch (PBG 400.100 Stand 1.2.2025 / PBV 400.111 Stand 1.2.2026 / Vollzugsverordnungs-Vorlage), bauen-im-laerm.ch, stadt-zuerich.ch (§ 49b PBG + UmV-Volksabstimmung 14.06.2026), admin.ch/bauimmorecht.ch (LSV-Novelle 01.04.2026), vzgv.ch (Vorentwurf + erlaeuternder Bericht PBG "Erleichtertes Bauen im Bestand" 07.08.2025, abgerufen 2026-07-19)]
+last_updated: 2026-07-26 (Run 90, Denkmalschutz-Refresh)
+sources: [PL - 02_Recht_Norm (SharePoint), fedlex.admin.ch, zh.ch (RPG 2 / Klima-PBG / Denkmalschutz-Medienmitteilung 02.07.2026 / kantonaler Richtplan «Laufende Verfahren» TR2022 Vorlagen 6012/6013/6013a, abgerufen 2026-07-24), kantonsrat.zh.ch, espace-suisse.ch, are.admin.ch, sz.ch (PBG 400.100 Stand 1.2.2025 / PBV 400.111 Stand 1.2.2026 / Vollzugsverordnungs-Vorlage), bauen-im-laerm.ch, stadt-zuerich.ch (§ 49b PBG + UmV-Volksabstimmung 14.06.2026), admin.ch/bauimmorecht.ch (LSV-Novelle 01.04.2026), vzgv.ch (Vorentwurf + erlaeuternder Bericht PBG "Erleichtertes Bauen im Bestand" 07.08.2025, abgerufen 2026-07-19), zh.ch Denkmalschutz-Medienmitteilung Refresh (WebSearch+WebFetch Run 90, 2026-07-26, unveraendert)]
 links: [[kartenportale-oereb-egrid-bezug]], [[recht-norm-dispensrecht]], [[recht-norm-abstandsvorschriften-wald-gewaesser]], [[recht-norm-baurechtsanalysen-benchmarks]], [[recht-norm-raumprogramm-referenzwerke]], [[recht-norm-pbg-revision-bauen-im-bestand]], [[machbarkeit]]
 ---
 
@@ -227,6 +227,12 @@ Schwächung, keine Schlussabstimmung terminiert). Kein neuer Verfahrensschritt s
   Verfügung); Eigentümer werden bei Inventaraufnahmen informiert.
 - **Einheitliche Inventare:** schärfere Kriterien für die Denkmalklassifizierung; die Zuständigkeit
   bleibt bei den **Gemeinden**.
+
+**Refresh 2026-07-26 (Run 90, WebSearch + WebFetch zh.ch-Medienmitteilung):** Stand weiterhin
+**unverändert** — die Vorlage «Modernisierung der Denkmalpflege-Gesetzgebung (Baudenkmäler)» ist
+seit der Verabschiedung durch den Regierungsrat am 02.07.2026 beim Kantonsrat in erster Lesung;
+kein Kantonsratstermin, keine Schlussabstimmung, keine neue Medienmitteilung seit Run 58
+(24.07.2026) gefunden. Vierte Refresh-Bestätigung ohne Delta seit Run 23 (Run 23/53/58/90).
 
 **Relevanz JANS:** direkt relevant für Sanierungs-/Umbauprojekte an inventarisierten/geschützten
 Bauten (Überschneidung mit `ankaufspruefung`, `machbarkeit` Typ A bei Bestandsbauten) — insbesondere

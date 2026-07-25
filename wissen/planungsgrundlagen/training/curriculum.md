@@ -755,6 +755,10 @@ das Ergebnis in den passenden Wiki-Artikel.
   — **0 neue/veraenderte Dateien** in beiden Ordnerbaeumen. Fuenfzehnte unabhaengige Erschoepfungs-
   Bestaetigung fuer Kartenportale+Energie (dreiundzwanzigste in Folge ueber alle vier Domaenen)
   → siehe `outputs/2026-07-26_training-run89.md`.
+- [x] R73 (Run 90, 2026-07-26) Frischecheck `PL - 02_Recht_Norm` + `PL - 03 Brandschutz` gegen
+  Run 88 (`find -newer`): 0 neue/veraenderte Dateien. Vierzehnte unabhaengige Erschoepfungs-
+  Bestaetigung fuer dieses Domaenenpaar, vierundzwanzigste in Folge ueber alle vier Domaenen
+  (Run 67-90). Details `outputs/2026-07-26_training-run90.md`.
 
 ## Meta / Querschnitt
 - [x] M1 Grundlagen-Checkliste «neue Parzelle» (was holt man IMMER zuerst) als Standard-Output. (2026-06-30 Run 12: 8 Pflicht-Grundlagen EGRID→OEREB→Zonenplan→Baulinien→Vermessung→DTM/Ortho→GWR→Behoerden je mit Connector-Befehl, SZ-Kurzvariante, End-to-End-Benchmark Giebelweg 12 EGRID CH879777718909 validiert → [[kartenportale-grundlagen-checkliste-neue-parzelle]])
