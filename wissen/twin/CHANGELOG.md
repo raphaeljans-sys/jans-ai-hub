@@ -17,6 +17,14 @@ die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) u
 
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-25m — twin-mail-training Batch 68 (frischer M365-Pull ab 2026-07-25T18:11:00Z).**
+  Erneut 0 Treffer im Zielfenster (Fortsetzung des ruhigen Wochenendes aus Batch 67). Zwei
+  Gegenproben bestaetigen, dass das MCP-Tool `mcp__microsoft-365__m365_run_command` korrekt
+  arbeitet [0 Treffer ab 15:00 Uhr, 2 bekannte Treffer ab dem Batch-66-Endpunkt] — echte
+  Mailstille, kein Tool-Fehler. 0 Volltexte, keine Marker, keine Wiki-Aenderung, keine
+  Echo-Falle. `raw/_INGESTED.md` Sweep-Endpunkt-Hinweis aktualisiert: naechster Lauf pullt
+  wieder ab 2026-07-25T18:11:00Z.
+
 - **2026-07-25k — twin-mail-training Batch 67 (2026-07-25 05:16 bis 2026-07-25 18:11, frischer M365-Pull
   via MCP-Tool `mcp__microsoft-365__m365_run_command` direkt, kein CLI-Fallback noetig).** Leeres
   Fenster: exakt EIN Treffer im Zielraum, die eigene Logbuch-Radar-Selbstmail vom Morgen (Claude-Rauschen,
