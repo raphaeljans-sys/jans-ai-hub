@@ -1,3 +1,19 @@
+## 2026-07-25 — sia-181-2006.md: Anhang A (Musik-/tieffrequente Emissionen) + Anhang B (Messverfahren) ergaenzt
+- **S. 34-47 gelesen** (bisher offen laut eigenem "Offene Punkte"-Abschnitt). Anhang A (normativ) neu als
+  eigener Abschnitt nach "Trittschall" verankert: Definition erheblich tieffrequenter Emissionen (Ziff. A.1.2),
+  Beurteilungsgroesse D_i50,tot mit C_tr,50-3150 (Ziff. A.2.1), Mindestanforderungen Tabelle 9 (Lärmbelastung
+  klein vs. maessig-sehr stark x Laermempfindlichkeit), Praxis-Bandbreiten Tabelle 10 (Restaurant/Pub/
+  Nachtclub/Diskothek), erhoehte Anforderungen (+3 dB), Sonderregelung bei Differenz L_Ceq-L_Aeq > 12 dB
+  (+3 dB strenger), Trittschall gegenueber Lokal/Tanzflaeche (-10 dB). Anhang B (normativ) neu als Abschnitt
+  nach "Nachweise" verankert: Messverfahren-Praezisierungen zu R_w/D_nT,w (Labor/Bau), offene Empfangsraeume,
+  Gesamt-Lautsprecher-Referenzverfahren fuer die Gebaeudehuelle, Trittschall-Normhammerwerk (ISO 140-7),
+  Geraeusche haustechnischer Anlagen (3 Messmethoden, K1-K4-Korrekturen, EMPA-Pendelfallhammer), Messgeraete-
+  Anforderungen (metas, EN 61672-1 Klasse 1), Normspektren (Tabelle 13/14). 21 neue Aussagen mit
+  Ziffer-Fundstelle. Frontmatter "gelesen" aktualisiert; "Offene Punkte" bereinigt (Anhang A+B als erledigt
+  gestrichen, Anhang E/F/G/H/J bleiben offen); status bleibt "teil-destillat". JANS-Praxis-Transfer um zwei
+  Punkte ergaenzt (Gastro-/Nachtbetrieb-Mischnutzung, Messverfahrens-Disziplin bei Abnahmen).
+- Keine woertlichen Tabellen-/Textkopien; Modalitaet "kann/sollte" nicht zu "muss" ueberdehnt.
+
 ## 2026-07-25 — Run 27 (MacBook Pro): Q&A-Selbstbefragung (Vertiefungsstufe c) fuer die 5 neu established Destillate — alle 15 SIA/VKF-Kernnormen jetzt Q&A-geprueft
 - **5 parallele Verifikations-Agenten**, je einer pro Norm (sia-266-1-2003, sia-410-1986,
   sia-112-leistungsmodell, sia-112-tabelle-infrastruktur, sia-271-wegleitung): 64 Fragen total, unabhängig
