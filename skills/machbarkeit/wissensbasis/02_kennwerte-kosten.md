@@ -28,6 +28,16 @@ Geschäftsflächen-Ertrag grob mit **5.5 % Bruttorendite** kapitalisieren.
 
 ## Kubaturmethode — CHF/m³ GV (alternative Grobschätzung)
 - Wohnen Vollausbau ~**CHF 2'400/m³ GV** (Ebmatingen-Grobkosten, BKP-2-Kennwert).
+  > ⚠ **needs-decision — Wissens-Chef Run 15 (25.07.2026), adversarial BESTÄTIGT.** Für dasselbe
+  > Projekt Ebmatingen führt die KB `wissen/immobilienbewertung/wiki/realwert-sachwert` **~855
+  > CHF/m³ GV (BKP 1–5, LB 3932)** — Faktor 2.8 Unterschied, durch keine Bezugsgrössen-Differenz
+  > erklärbar (Baumasse↔GV ergäbe laut führender KB nur 1.25–1.45). Die 855 sind dreifach gestützt
+  > (grobkosten-Band 850–1'050, Wüest-Indexreihe, Healthcare-8-Objekt-Vergleich), die 2'400 hier
+  > quellenlos. **Vermutung, nicht verifiziert:** die 2'400 könnten CHF/m² GF sein (Einheitenfehler)
+  > — deshalb wird hier NICHT eigenmächtig ersetzt. Bis zum Abgleich mit der Original-Grobkosten-
+  > schätzung (`2412 Ebmatingen/09_Dokumente/Im Grossacher 2/Grobkostenberechnung/…Stand241125.xlsx`)
+  > für Grobschätzungen den Wert der führenden KB `wissen/grobkosten/wiki/kennwerte` verwenden.
+  > Vorlage: `wissen/koordination/outputs/2026-07-25_wissens-chef-run15.md`.
 - Healthcare/Pflege höher; Steinhof rechnete **CHF 1'700/m³** (älterer Stand) bzw.
   WALD **CHF 4'000/m² GF** (Pflegeheim). → Kennwert immer mit Nutzung + Jahr belegen.
 

@@ -19,6 +19,11 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | Raphaels Arbeitsweise/Denken (Verhaltensevidenz) | **twin** | spec (verweist als Evidenz) |
 | Zonenmasse/Nutzungsziffern (AZ/BMZ/UEZ/GrFZ) inkl. **Daemmungs-Kappung** | **baurecht** | energie (MuKEn-Modul 11 verweist dorthin) |
 | MuKEn-Musterrecht (EnDK-Module, noch nicht kantonal umgesetzt) | **energie** | baurecht (verweist fuer den Muster-Stand) |
+| Regenwasser: Recht/Verfahren (GSchG-Kaskade Art. 7 Abs. 2, Gewaesserraum-Festsetzung) | **planungsgrundlagen** | energie (verweist fuer die Rechtsgrundlage) |
+| Regenwasser: Bewilligungsschwellen im Baugesuch (5:1, Bagatell 20 m², Adsorber) + Schwammstadt | **energie** | planungsgrundlagen (verweist fuer die aktuellen Schwellen) |
+| Referenz-Architekten/-Projekte + Raumtypologien/Parti (wer/was liegt in der Bibliothek) | **architekten-synobsis** | entwurfs-referenzen (verweist per Katalog/Slug) |
+| Entwurfs-Kennwerte je Bauaufgabe (HNF/GF, Programm, Entwurfsregeln, Parameter-Sets) | **entwurfs-referenzen** | architekten-synobsis (nennt die Abnehmer-KB) |
+| Healthcare-Kostenkennwerte CHF/m3 GV + CHF je Pflegeplatz (belegte Realwerte) | **immobilienbewertung** (`realwert-sachwert`) | entwurfs-referenzen, machbarkeit, healthcare-wirtschaftlichkeit — **grobkosten fuehrt Healthcare NICHT** (untersagt seine m3-Werte dafuer ausdruecklich) |
 
 > **NEU Run 8 — zweites Struktur-Muster «Uebergabe verpufft im abgebenden KB»:** Ein Artikel erkennt
 > korrekt, dass eine andere KB nachziehen muss, notiert den Flag aber NUR bei sich. Zwei Fundorte
@@ -43,6 +48,138 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 > Vollzugshilfen rekonstruiert, obwohl das Norm-Destillat 3 Tage aelter war).
 
 ## Gepruefte Paare
+
+### baurecht ↔ planungsgrundlagen (Verfahren, IVHB, PBG-Revision, OEREB-Bezugswege) — geprueft 2026-07-25 (Run 15)
+- **Anlass:** pg Run 59 + Health-Check 25.07.; baurecht Buch-Run 51/52.
+- **Befund 1 (WIDERSPRUCH-Verdacht → WIDERLEGT):** «Genehmigungsfiktion im Anzeigeverfahren». pg fuehrt
+  «gilt als bewilligt, wenn 30 Tage nach Anzeige keine Antwort vorliegt», der baurecht-Wiki-Artikel nennt nur
+  die Behandlungsfrist. Der Verifier zeigt: **argumentum e silentio** — die baurecht-Beleg-Schicht
+  (Buch-Destillat Bd. 1 S. 415/416) fuehrt sehr wohl «Verfahrensabschluss durch Stillschweigen». Der
+  Wiki-Satz sagt, wie lang die Frist ist, nicht was bei Ablauf geschieht. Keine Korrektur an pg.
+- **Befund 2 (FEHLENDE QUERVERLINKUNG, gesetzt, hoher Wert):** pg haelt das Destillat des **amtlichen
+  IVHB-Leitfadens der Baudirektion ZH** (1.3.2017, 29-Begriffe-Inventar §§ 2/2a/2b/2c/5/6/6a ABV), das
+  baurecht nicht besitzt — waehrend `baurecht/wiki/QUESTIONS.md:504-509` genau dazu einen offenen
+  needs-verification-Punkt (Fassungsstand nPBG/nABV) fuehrt. `grep «ivhb-baubegriffe»` in baurecht: 0 Treffer.
+  → Reziprok verlinkt; im baurecht-QUESTIONS-Punkt als **Teil-Antwort** vermerkt.
+- **Befund 3 (STRUKTUR, angemeldet):** Der ZH-Revisionsstrang «Erleichtertes Bauen im Bestand»
+  (§ 220a/§ 357 E-PBG, Aufhebung Mehrlaengenzuschlag §§ 23/24 ABV) hat in `wissen/baurecht` **0 Treffer** —
+  die fuehrende Recht-KB ist blind fuer die laufende Revision ihrer eigenen Leitnormen, die sie als
+  geltendes Recht fuehrt. Kein Widerspruch (Vorentwurf), aber in `baurecht/wiki/QUESTIONS.md` angemeldet
+  und in pg reziprok verlinkt.
+- **Befund 4 (DOPPELSPUR, Gegenrichtung, offen):** `baurecht/wiki/QUELLEN.md` fuehrt **Beschaffungswissen**,
+  das pg laut Matrix gehoert und dort fehlt (OEREBlex-SZ-attachmentId-Kette, geoportal.ch/SG 403-Sperre;
+  `grep «oereblex»` in pg: 0 Treffer). Die fuehrende Beschaffungs-KB ist hier aermer als die zuliefernde.
+  Nicht gespiegelt (waere Substanzverschiebung) — vorgemerkt fuer den naechsten pg-Lauf.
+  **Status: 1 Verdacht widerlegt, 3 Cross-Links/Anmeldungen gesetzt, 1 Punkt vorgemerkt.**
+
+### normen ↔ baurecht (Norm-Fundstellen) — geprueft 2026-07-25 (Run 15)
+- **Anlass:** normen Run 20 (NFC-Diff-Vollstaendigkeitsverifikation SIA/VKF), baurecht Buch-Run 51/52.
+- **Kein Sachwiderspruch:** die SIA-181-Aussagen beider KBs (Art. 32 Abs. 1 LSV Mindestanforderung vs.
+  Abs. 2 Verschaerfung) decken sich; der Anhang-6-LSV-Stoff beruehrt keine SIA/VKF-Fundstelle.
+- **Befund (Struktur-Muster 1 «Uebergabe verpufft», behoben):** `normen/wiki/QUESTIONS.md` enthielt
+  **0 Treffer** fuer «baurecht» — es war noch nie eine Bring-Schuld aus der Recht-KB dort angekommen.
+  baurecht zitiert jedoch vier Normen mit Fundstellenfunktion, die in `normen` **null Praesenz** haben:
+  **SIA 491**, **SN EN 12193:2008**, **SN 640 052**, **SN 641 400**. → als eigener Abschnitt in
+  `normen/wiki/QUESTIONS.md` angemeldet, inkl. Gegenrichtung (die dortige SIA-380/1:2016-Bring-Schuld
+  nennt nur `energie`/`planungsgrundlagen` als Adressaten, obwohl baurecht die Norm ebenfalls fuehrt).
+- **Befund (fehlender Hinlink, gesetzt):** `baurecht/wiki/laermschutz-und-nichtionisierende-strahlung`
+  nennt SIA 181 dreimal materiell ohne Verweis auf das Destillat → Rule `normen-referenz` nachgezogen,
+  inkl. Fassungsvorbehalt SIA 181:2020.
+  **Status: 1 Bring-Schuld-Block (4 Normen) + 1 Hinlink; kein Sachwiderspruch.**
+
+
+### energie ↔ planungsgrundlagen (EN-102-Ausgabe, Regenwasser/Versickerung, PV-Preise) — geprueft 2026-07-25 (Run 15)
+- **Anlass:** energie Run 88 + Health-Check 25.07.; pg Run 59 + Health-Check 25.07.
+- **Befund 1 (WIDERSPRUCH, BESTAETIGT, korrigiert):** Normbasis der EnFK-Vollzugshilfe EN-102-d (Dez. 2018).
+  pg fuehrte «Basis SIA 380/1:2009», energie «:2016». Der Verifier hat das Original-PDF geladen (curl +
+  pdftotext): Kopfzeile **jeder** Seite lautet «Ausgabe Dezember 2018 (Basis: Norm SIA 380/1, Ausgabe 2016)».
+  Ursache ist der irrefuehrende SharePoint-Dateiname `EN-102-d_Waermeschutz_3801_2009_2018Dez.pdf`.
+  → pg an zwei Stellen korrigiert (`energie-heizwaermebedarf-waermeerzeugerleistung:172`,
+  `energie-uebersicht:33`), Fallstrick dokumentiert, Verweis auf das fuehrende energie-Destillat gesetzt.
+  Die Grenzwerte (0,17 / 1,0 / 0,25 Umbau) waren beidseitig identisch und bleiben unveraendert.
+- **Befund 2 (WIDERSPRUCH, BESTAETIGT, korrigiert — Rechtsfehler):** Versickerungspflicht. pg schrieb
+  «nach Art. 7 GSchG muss nicht verschmutztes Regenwasser **nicht** versickert werden», energie «versickert
+  auf der Parzelle». Verifier am Fedlex-Volltext (SR 814.20, Konsolidierung 01.02.2023): **Art. 7 Abs. 2
+  GSchG macht die Versickerung zum Regelfall**; Einleitung/ARA sind die Ausnahmen der Kaskade. Die pg-Aussage
+  kehrte die Regel um → korrigiert, amtliche Fundstelle ergaenzt, bidirektionaler Link gesetzt.
+- **Befund 3 (VERALTETES, BESTAETIGT, Flag gesetzt):** Die in pg destillierte AWEL-«Richtlinie und Praxishilfe
+  **Regenwasserentsorgung**» (2005/V2.2 Maerz 2006) wurde umbenannt und neu aufgelegt; die konsolidierte
+  **BBV I (LS 700.21)** verweist im Anhang der anerkannten Regeln der Baukunde auf die Ausgabe **2025**
+  («Regenwasser**bewirtschaftung**»). Ausgaben-Flag im Stil der bestehenden WWG/HWSchV-Flags gesetzt; die
+  ueberholte «VSA-Richtlinie Regenwasserentsorgung 2002» auf die Nachfolge «Abwasserbewirtschaftung bei
+  Regenwetter» (2019) nachgefuehrt. Kein Trim, kein Neuschrieb — GSchG-Substanz bleibt gueltig.
+- **Befund 4 (VERALTETES-Verdacht → WIDERLEGT):** CHF/kWp-PV-Preisniveau pg gegen BFE-Marktmediane 2024.
+  Scheinwiderspruch: die pg-Tabelle ist eine **datierte Belegtabelle** (Basel 2022, Diemtigen 2023,
+  schluesselfertig inkl. MwSt), das energie-Destillat ein **Marktmedian 2024 ohne MwSt**. Keine Wert-Korrektur.
+- **Querbefund (Entlastung):** die 82 kaputten `sources:`-Referenzen aus dem energie-Health-Check 25.07. haben
+  **keine** Cross-KB-Wirkung (ausschliesslich KB-interne `destillate/…md`-Pfade) und sind von Run 88 behoben.
+  **Status: 4 Aktionen (2 Faktenkorrekturen, 1 Ausgaben-Flag + Normnachfolge, 2 reziproke Links); Rollen neu in der Matrix fixiert.**
+
+### grobkosten ↔ immobilienbewertung ↔ kostenschaetzung-Ref (Flaechenfaktoren) — geprueft 2026-07-25 (Run 15)
+- **Anlass:** grobkosten Health-Check-Re-Audit 25.07.; Delta-Check des seit Run 3 stabilen Kennwert-Felds.
+- **Ankerzahlen weiterhin widerspruchsfrei** (4'800 / 4'360 CHF/m² HNF, Quantile 3'460–7'250, ~1'020 CHF/m³ GV,
+  Ebmatingen ~855, Wuest-Healthcare-Mediane) — der Null-Befund aus Run 14 haelt fuer die Zahlen.
+- **NEU auf der Flaechenfaktor-Ebene (2 Befunde, beide BESTAETIGT, beide Fachentscheid Raphael):**
+  (a) Der als «kanonisch, Hub-weit» deklarierte **E1-Regelgeschoss-Wert 0.70** (Wissens-Chef-Entscheid
+  12.07.2026) kollidiert mit dem **belegten 0.75** (Band 0.73–0.80) im fuehrenden Flaechen-Artikel
+  `immobilienbewertung/wiki/flaechendefinitionen-sia:84`. Gleicher Geltungsbereich, gleiche Bezugsgroesse —
+  der Entscheid hat die Gesamtgebaeude-Haelfte (0.60–0.61) harmonisiert und die Regelgeschoss-Haelfte auf
+  einem quellenlosen Faustwert festgeschrieben. (b) Die Begruendung «die ~1'020 CHF/m³ beruhen auf GV/HNF 4.7
+  (Gesamtgebaeude), das 0.70 dient nur als Geschoss-Kennwert» ist nachrechenbar falsch: **3.3 / 0.70 = 4.71**.
+  Mit Gesamtgebaeude-Faktoren ergaebe sich GV/HNF ≈ 5.0–5.5 und ein Anker von ~870–960 CHF/m³.
+  → In beiden KBs **needs-decision-Box** gesetzt (additiv, kein Wertwechsel); der Anker bleibt bis zum
+  Entscheid gueltig (oberer Rand des eigenen Bands 850–1'050, innerhalb der ±25-%-Spanne).
+- **2 Verdachtsfaelle WIDERLEGT:** (a) «Baumasse vs. GV unvereinbar behandelt» — Scheinwiderspruch, weil
+  Flaeche/Volumen-Verhaeltnisse gegenueber dem UG-Ein-/Ausschluss invariant sind (GF/Volumen ≈ 1/mittlere
+  Geschosshoehe; am Objekt Averecura auf GV-Basis verifiziert: 0.323 / 0.196). Die Faustregel GV ≈ Baumasse ×
+  1.25–1.45 darf ausdruecklich **nicht** in die Flaechenfaktoren hineingerechnet werden. (b) Die 0,70/0,60-
+  Kopplungsformulierung in der Wuest-Referenz — beide Richtwerte sind unabhaengig aus der Quantilstabelle
+  indexiert, kein Faktor im Spiel; das Quellen-Verhaeltnis wandert selbst von 0,70 (Q1.0) auf 0,60 (Q5.0).
+  **Damit ist der seit Run 14 gefuehrte niederprioritaere Punkt (4) erledigt — als Scheinbefund geschlossen.**
+- **Fehlender dritter Verweis-Guard:** `skills/kostenschaetzung/` → `immobilienbewertung` (0 Treffer; nur
+  `grobkosten` ist verlinkt). Vorgemerkt, nicht gesetzt (Skill-Datei, kein KB-Wiki).
+  **Status: 2 needs-decision-Boxen; 3 Altpunkte geschlossen (2 widerlegt, 1 als Scheinbefund).**
+
+### wettbewerbs-dna ↔ grobkosten/kostenschaetzung/entwurfs-referenzen (Healthcare-Kennwerte) — geprueft 2026-07-25 (Run 15, rotierend)
+- **Anlass:** wettbewerbs-dna Healthcare-Tranche 2 (25.07.: LUKS Sursee, Haus der Demenz Bombach, Taegermoos)
+  und Synergie-Befund SYN-13 (Kennwert-Kompetenz waechst am vorgesehenen Ort vorbei).
+- **Entlastung fuer die neuen Artikel:** Sursee und Taegermoos publizieren ausdruecklich keine Kostenkennwerte;
+  Bombach traegt mit «rund Fr. 18.5 Mio. BKP 1–9 fuer 40 Plaetze» einen harten Anker, der die belegten
+  immobilienbewertung-Werte **bestaetigt** statt ihnen zu widersprechen. Kein Widerspruch aus Tranche 2.
+- **Befund (WIDERSPRUCH, 2x BESTAETIGT, Sperrvermerk gesetzt):** `entwurfs-referenzen/wiki/parameter-sets/
+  healthcare-neubau-zh.json` fuehrt als Healthcare-Kostenreferenz das **Wohnbau-MFH-Band 850–1'050 CHF/m³ GV**
+  und beruft sich dafuer auf `wissen/grobkosten` — ausgerechnet die KB, die diese Verwendung fuer «Spital,
+  Klinik, Alters-/Pflegeheim, Reha, Praxis» **ausdruecklich untersagt** (`kennwerte.md:66-68`). Zweitens liegt
+  das Band deutlich unter dem belegten Healthcare-Niveau (Neubauten ab 2019: **1'053–1'420 CHF/m³ GV**, BKP 2,
+  Median ~1'100; acht reale Objekte, fuenf davon Kt. ZH). → Feld **nicht geloescht** (Loeschung = Rueckfrage),
+  sondern `status: GESPERRT` + belegter Hinweis im Block ergaenzt; Schema-Validator laeuft weiter (`OK`).
+  Wertsetzung ist Fachentscheid Raphael.
+- **Befund (VERALTET-Verdacht → WIDERLEGT):** WALD-Anker ~CHF 4'000/m² GF sei ueberholt. Gegenteil: die neue
+  8-Objekt-Basis **zitiert und bestaetigt** ihn ausdruecklich («deckt sich mit dem WALD-Anker»).
+- **Strukturbefund:** Healthcare-Erstellungskennwerte werden an **vier** Orten materiell gefuehrt
+  (machbarkeit/wissensbasis, healthcare-wirtschaftlichkeit/SKILL, immobilienbewertung, kostenschaetzung-Ref)
+  ohne benannte Leitquelle → **neue Matrix-Zeile** gesetzt (immobilienbewertung fuehrend fuer CHF/m³ GV +
+  CHF/Pflegeplatz; grobkosten fuehrt Healthcare **nicht**).
+  **Status: 1 Sperrvermerk, 1 Matrix-Zeile; Wertsetzung offen (Raphael).**
+
+### architekten-synobsis ↔ entwurfs-referenzen — ERST-PRUEFUNG 2026-07-25 (Run 15, aus der Rotationsliste)
+- **Ausgangslage:** Die beiden KBs beruehrten sich **nie** (0 Grep-Treffer in beiden Richtungen), obwohl
+  entwurfs-referenzen den Referenz-Katalog als deklarierten Arbeitsweg fuehrt. Der erste Typologie-Artikel
+  (`typologien/bildung.md`, 24.07.) ist ohne eine einzige synobsis-Quelle kompiliert worden.
+- **Die Sorge aus dem Auftrag (kollidierende Typologie-Systematiken) bestaetigt sich NICHT:**
+  `RAUMTYPOLOGIEN.md` fuehrt **Raumfiguren/Parti**, entwurfs-referenzen fuehrt **Gebaeudenutzungen** —
+  zwei Achsen, gleiches Wort, kein Sachwiderspruch.
+- **Befund (WIDERSPRUCH, BESTAETIGT, korrigiert):** `architekten-synobsis/CLAUDE.md:50-52` nannte zwei der
+  neun Raumtypen anders als der kanonische Katalog-Schluessel («Grosser Raum» statt **«Grosse Halle»**,
+  «Skulpturaler» statt **«Skulptularer Raum»**) — die dokumentierte Abfrage `--raumtyp` schlaegt damit fehl.
+  Git-Historie: die Schluessel lauteten nie anders. → auf die literalen Schluessel korrigiert, inkl. Hinweis,
+  dass «Skulptularer» ein Schreibfehler im **read-only** Quellordner ist und bewusst so bleibt (eine
+  Bereinigung am Quellordner waere destruktiv → Freigabe Raphael, hier nicht vorgeschlagen).
+- **Erst-Verlinkung gesetzt (beide Richtungen)** + **zwei neue Matrix-Zeilen** (Rollenteilung Katalog/Raumfigur
+  gegen Entwurfs-Kennwerte). Offen (Bau-Arbeit, nicht Wissens-Chef): optionales Feld `synobsis_slug` in
+  `referenz_projekte`, damit die in den Sets genannten Architekten maschinell auf den Katalog zeigen.
+  **Status: 1 Korrektur, 2 Links, 2 Matrix-Zeilen — Paar aus der Rotationsliste ausgetragen.**
+
 
 ### baurecht ↔ planungsgrundlagen (Laerm/ES, Anhang 6 LSV) — geprueft 2026-07-24 (Run 14)
 - **Anlass:** baurecht Buch-Run 51 (24.07., Anhang 6 LSV Industrie-/Gewerbelaerm volltextverifiziert); pg Run 58.
@@ -755,9 +892,10 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 > datierten Paar-Eintrag, nicht hierhin.
 
 - kunde-bopp ↔ machbarkeit/stockwerkeigentum/ankaufspruefung (Kunden-Kontext)
-- architekten-synobsis ↔ entwurfs-referenzen (Referenz-/Entwurfswissen)
-- grobkosten ↔ immobilienbewertung ↔ kostenschaetzung-Ref (Kennwerte, seit Run 3 stabil — Delta-Check bei neuem Fall)
 
+*Ausgetragen 25.07.2026 (Run 15):* architekten-synobsis ↔ entwurfs-referenzen (→ Run 15, Erst-Pruefung:
+1 Widerspruch korrigiert, Erst-Verlinkung + 2 Matrix-Zeilen) · grobkosten ↔ immobilienbewertung ↔
+kostenschaetzung-Ref (→ Run 15, Delta-Check gefahren: Ankerzahlen stabil, neu 2 Flaechenfaktor-Punkte).
 *Ausgetragen 20.07.2026 (Run 10, bereits gepruefte Paare):* kunde-bopp ↔ firmengruendung-ch
 (→ Run 10, Erst-Check = Null-Ergebnis, disjunkt).
 *Ausgetragen 19.07.2026 (bereits gepruefte Paare):* energie ↔ baurecht (mehrfach, → Run 3/Run 6/Run 9/Run 10) ·

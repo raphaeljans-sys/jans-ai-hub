@@ -13,6 +13,12 @@
   entfernen, SIA 380/1:2016 + SIA 385/1:2011 per Abo beschaffen). Report
   `outputs/2026-07-25_normen-nacht-run20.md`.
 
+## 2026-07-25 — Wissens-Chef Run 15 (Cross-KB): vier Bring-Schulden aus `baurecht` angemeldet
+- Struktur-Muster 1 «Uebergabe verpufft im abgebenden KB», erstmals in dieser Richtung: `wiki/QUESTIONS.md` enthielt **0 Treffer** fuer «baurecht» — es war noch nie eine Bring-Schuld aus der Recht-KB hier angekommen, obwohl `baurecht` vier Normen mit Fundstellenfunktion zitiert, die hier null Praesenz haben (weder Destillat noch `training/norm-inventar.md`): **SIA 491**, **SN EN 12193:2008**, **SN 640 052**, **SN 641 400** (die beiden VSS-Normen reihen sich in den Parkierungs-/Erschliessungsblock ein, der in Run 11/12/13 dreimal korrigiert werden musste).
+- Als eigener Abschnitt in `wiki/QUESTIONS.md` angemeldet, inkl. Gegenrichtung: die hier gefuehrte Bring-Schuld «Volltext SIA 380/1:2016» nennt nur `energie-berater`/`planungsgrundlagen` als Adressaten, obwohl `baurecht` die Norm ebenfalls fuehrt.
+- Kein Sachwiderspruch zwischen den KBs gefunden; der Run-20-NFC-Diff hat keine neue Bring-Schuld erzeugt.
+- Bericht: `wissen/koordination/outputs/2026-07-25_wissens-chef-run15.md`.
+
 ## 2026-07-24 (18:30) — Vier + zwei tote Wiki-Links behoben (Mac Mini Nachtschicht)
 - Aus dem Health-Check vom selben Tag (siehe unten) die als "leicht" markierten 4 toten
   `[[links]]` korrigiert: `sia-382-1-2014.md` `[[sia-2024]]`→`[[sia-mb-2024-2006]]` und

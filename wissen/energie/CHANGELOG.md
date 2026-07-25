@@ -2,6 +2,12 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Wissens-Chef Run 15 (Cross-KB): Regenwasser-Rueckverweis zu planungsgrundlagen
+- `wiki/regenwasserbewirtschaftung-versickerung-zh.md` (links) → `[[recht-norm-regenwasser-gewaesserraum-zh]]` (KB planungsgrundlagen, Recht/Verfahren GSchG-Kaskade + Gewaesserraum-Festlegung). Beide KBs fuehrten einen materiellen Regenwasser-Artikel, ohne aufeinander zu zeigen — genau in dieser Blindstelle stand der jetzt korrigierte Versickerungs-Rechtsfehler auf der pg-Seite.
+- Diese KB war in beiden Cross-Befunden (EN-102-Normbasis SIA 380/1:2016, Versickerung als Regelfall) **die richtige Seite** — keine Korrektur hier.
+- Rollenteilung neu in der Matrix fixiert: energie fuehrt die Bewilligungsschwellen im Baugesuch (5:1, Bagatell 20 m2, Adsorber) + Schwammstadt, planungsgrundlagen fuehrt Recht/Verfahren.
+- Bericht: `wissen/koordination/outputs/2026-07-25_wissens-chef-run15.md`.
+
 ## 2026-07-25 — Run 88 (Verwaltungsschicht-Bereinigung nach Health-Check 2026-07-25)
 - [fix] **B5 vollstaendig behoben:** 82 kaputte `sources:`-Dateireferenzen in 11 Wiki-Artikeln
   (inkl. `BAUHERREN-FAQ.md` mit 50) zurueck auf ASCII-Dateinamen (deterministisches Script, nur

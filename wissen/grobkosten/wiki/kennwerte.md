@@ -37,6 +37,19 @@ Region Zürich / Zentralschweiz. Preisstand 2026. Immer als Grobschätzung ±25 
 > massgebend**, nicht 0.70. Die obige ≈ 1'020 CHF/m³-Ankopplung bleibt gültig, weil sie direkt
 > auf dem GV/HNF-Verhältnis 4.7 (Gesamtgebäude) beruht; das 0.70 dient nur als Geschoss-Kennwert.
 >
+> ⚠ **needs-decision — Wissens-Chef Run 15 (25.07.2026), adversarial verifiziert (BESTAETIGT):**
+> Der letzte Halbsatz hält nicht nach. Die 4.7 ist rechnerisch **3.3 / 0.70 = 4.71**, also
+> **regelgeschoss-basiert** — sie ist nicht vom 0.70 unabhängig. Mit den Gesamtgebäude-Faktoren
+> ergäbe sich GV/HNF ≈ 5.0 (über die belegten JANS-Flächenfaktoren 0.20/0.33 in
+> `immobilienbewertung/wiki/flaechendefinitionen-sia`) bis ≈ 5.5 (3.3 / 0.60) und damit ein Anker
+> von ~870–960 statt ~1'020 CHF/m³ GV. Der geführte Anker bleibt **bis zum Entscheid gültig** — er
+> liegt am oberen Rand des eigenen Bands 850–1'050 und innerhalb der ±25-%-Grobschätzungsspanne.
+> **Zweiter, gekoppelter Punkt:** der E1-Regelgeschoss-Wert **0.70** kollidiert mit dem belegten
+> **0.75** (Band 0.73–0.80 je Wohnungstyp, Flächenkonzeption Wohnen R. Jans 20.10.2024) im
+> führenden Flächen-Artikel `immobilienbewertung/wiki/flaechendefinitionen-sia:84`. Beides ist ein
+> **Fachentscheid Raphael** (Korrektur eines früheren Wissens-Chef-Entscheids), nicht autonom
+> änderbar — vorgelegt im Bericht `koordination/outputs/2026-07-25_wissens-chef-run15.md`.
+>
 > **Teuerungs-Check (12.07.2026):** Die Kalibrierung 2022/23 bleibt gültig — der BFS-Baupreisindex
 > (Stand April 2026 = 100.6 auf neuer Basis Okt-2025, +1.0 % YoY, moderat) ergibt eine kumulierte
 > Bauteuerung seit Kalibrierung von nur ~2–3 %, weit innerhalb der ±25 %-Grobschätzungsspanne.

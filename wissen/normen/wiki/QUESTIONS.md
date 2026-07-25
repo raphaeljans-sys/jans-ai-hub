@@ -683,3 +683,27 @@ koennten. Bearbeitungsstand Mini-Run 33 (20.07.2026):
   Werkvertrag oder Behördenkorrespondenz nicht haltbar ist. Die Destillier-Prompts künftiger Läufe
   sollten die Modalität ausdrücklich als Prüfpunkt führen: Kann-/Soll-/Muss-Bestimmung wörtlich am
   Original abgleichen und im Destillat kenntlich machen.
+
+## Bring-Schulden aus der KB `baurecht` (angemeldet Wissens-Chef Run 15, 25.07.2026)
+
+Struktur-Muster 1 «Übergabe verpufft im abgebenden KB»: `baurecht` nennt vier Normen mit
+Fundstellenfunktion, die in dieser KB **null Präsenz** haben (weder Destillat noch
+`training/norm-inventar.md`). Bis dahin gilt in `baurecht` der dortige Wortlaut; hier ist
+Bestandsprüfung und ggf. Destillat fällig. Gegenprobe im Cross-Lauf: `wiki/QUESTIONS.md`
+dieser KB enthielt bis heute **0 Treffer** fuer «baurecht» — es war noch nie eine Bring-Schuld
+aus der Recht-KB hier angekommen.
+
+- [ ] **SIA 491** (Vermeidung unnötiger Lichtemissionen im Aussenraum, in Kraft seit 1.3.2013) —
+  zitiert in `baurecht/wiki/laermschutz-und-nichtionisierende-strahlung.md:165`. Bestand prüfen
+  (SharePoint PL-02), Ausgabe verifizieren, Destillat anlegen.
+- [ ] **SN EN 12193:2008** (Licht und Beleuchtung — Sportstaettenbeleuchtung) — selbe Fundstelle.
+  Bestand prüfen; Nachfolgeausgabe abklären (EN 12193 wurde nach 2008 revidiert).
+- [ ] **SN 640 052** (VSS, Kehrplatz/Kehrmöglichkeit bei Stichstrassen) — zitiert in
+  `baurecht/wiki/baureife-und-erschliessung.md:76`. Reiht sich in den VSS-Parkierungs-/
+  Erschliessungsblock ein, der in Run 11/12/13 dreimal korrigiert werden musste.
+- [ ] **SN 641 400** (VSS, Grundlage der ZH-Parkplatzberechnung) — zitiert in
+  `baurecht/wiki/fahrzeugabstellplaetze-und-parkierung.md:43`.
+
+**Gegenrichtung, ebenfalls Run 15:** die hier geführte Bring-Schuld «Volltext SIA 380/1:2016
+beschaffen» (QUESTIONS `:558`) nennt als Adressaten nur `energie-berater`/`planungsgrundlagen` —
+`baurecht` führt SIA 380/1 jedoch ebenfalls und ist mit-adressiert.

@@ -89,5 +89,14 @@ Alternierender Batch-Lauf auf dem Mac Mini (immer-an, direkter NAS-Zugriff) via
 `synobsis_batch.sh`, getaktet ueber einen Scheduled Task / launchd. Programm:
 `PROGRAMM.md`.
 
+**Abnehmer-KB (Querbezug gesetzt Wissens-Chef Run 15, 25.07.2026):**
+`wissen/entwurfs-referenzen/` zieht aus diesem Katalog die Referenz-Fundstellen —
+`wiki/THEMEN.md` (Themenregister, u.a. §1.4 Bildungsbauten) und `wiki/RAUMTYPOLOGIEN.md`
+(Raumfiguren/Parti) fuer die Typologie-Artikel, `catalog/<slug>.json` fuer die in den
+Parameter-Sets woertlich genannten Referenz-Architekten (z.B. Boltshauser, Pool). Rollen-
+teilung: **hier** wer/was in der Bibliothek liegt (Katalog + Raumfiguren), **dort** die
+Entwurfs-Kennwerte je Bauaufgabe. Bis Run 15 kannten sich die beiden KBs nicht (0 Treffer
+in beiden Richtungen).
+
 Verwandt: Wissens-Layer-Schema [[WISSEN-CLAUDE]]. Speist Recherche/Referenz fuer
 Entwurf und Variantenfindung.

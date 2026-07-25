@@ -11,6 +11,7 @@ links:
   - "[[wettbewerbs-dna/kennwerte-schulbauten]]"
   - "[[wettbewerbs-dna/jury-argumente-schulbauten]]"
   - "[[wettbewerbs-dna/delta-zum-ersten-rang]]"
+  - "KB architekten-synobsis → wiki/THEMEN.md §1.4 Bildungsbauten + wiki/RAUMTYPOLOGIEN.md (Referenz-Fundstellen/Raumfiguren; Querbezug gesetzt Wissens-Chef Run 15, 25.07.2026 — bis dahin war dieser Artikel ohne eine einzige synobsis-Quelle kompiliert, obwohl der Referenz-Katalog der deklarierte Arbeitsweg dieser KB ist)"
 ---
 
 # Typologie Bildungsbau — Volksschule (CH)

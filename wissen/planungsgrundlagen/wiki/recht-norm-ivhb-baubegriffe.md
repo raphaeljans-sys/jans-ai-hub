@@ -3,7 +3,7 @@ title: Recht & Norm — IVHB-Leitfaden Kt. ZH (harmonisierte Baubegriffe)
 status: established
 last_updated: 2026-07-14
 sources: [PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/IVHB_Leitfaden/IVHB_Leitfaden_01.03.2017.pdf (Kt. ZH Baudirektion Generalsekretariat/Stab Recht, "Harmonisierung der Baubegriffe — Leitfaden", 1. Maerz 2017, 49 Seiten, §§ ABV), PL-02/04_Merkblätter/AFS_Leitfaden Dachlandschaften.pdf (Stadt Zuerich, Amt fuer Staedtebau, "Leitfaden Dachlandschaften — Projektierungshilfe fuer die Bauten im Dachbereich", Praesentation 9. Maerz 2010, ⚠ Datenstand 2010, Run 37 2026-07-14)]
-links: [[recht-norm-quellenlandkarte]], [[recht-norm-baueingabe-verfahren-zh]], [[machbarkeit]], [[massgebendes-terrain]], [[energie-pv-eignung-typenwahl]]
+links: [[recht-norm-quellenlandkarte]], [[recht-norm-baueingabe-verfahren-zh]], [[machbarkeit]], [[massgebendes-terrain]], [[energie-pv-eignung-typenwahl]], KB baurecht → `wiki/abstaende-und-hoehen.md` + `wiki/nutzungsziffern.md` (Recht führend für Zonenmasse/Baubegriffe; dieser Artikel liefert die amtliche Anwendungshilfe zum offenen Fassungs-Punkt `baurecht/wiki/QUESTIONS.md` §§ nABV/nPBG — Querbezug gesetzt Wissens-Chef Run 15, 25.07.2026)
 ---
 
 # Recht & Norm — IVHB-Leitfaden Kt. ZH (harmonisierte Baubegriffe)

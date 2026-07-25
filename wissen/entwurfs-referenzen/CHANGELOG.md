@@ -1,5 +1,12 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-07-25 — Wissens-Chef Run 15 (Cross-KB): Healthcare-Kostenband GESPERRT + Erst-Verlinkung zu architekten-synobsis
+- **`wiki/parameter-sets/healthcare-neubau-zh.json`, Block `kosten_referenz`: `status: GESPERRT` + belegter Hinweis ergaenzt** (nichts geloescht — Loeschung braucht Rueckfrage). Zwei unabhaengig adversarial BESTAETIGTE Befunde: (1) Das gefuehrte Band **[850, 1050] CHF/m3 GV ist das Wohnbau-MFH-Band** der KB `grobkosten` — und beruft sich per `quelle_kb` ausgerechnet auf die KB, die diese Verwendung fuer «Spital, Klinik, Alters-/Pflegeheim, Reha, Praxis» **ausdruecklich untersagt** (`grobkosten/wiki/kennwerte.md:66-68`). (2) Das Band liegt deutlich unter dem belegten Healthcare-Niveau: **1053-1420 CHF/m3 GV** (BKP 2, Median ~1100) aus dem 8-Objekt-Referenzvergleich in `immobilienbewertung/wiki/realwert-sachwert` (fuenf der acht Objekte im Kt. ZH). Wertsetzung = Fachentscheid Raphael. Schema-Validator laeuft unveraendert durch (`validate.py --all` → OK fuer alle drei Sets).
+- **Erst-Verlinkung zur KB `architekten-synobsis`** (die beiden KBs kannten sich bis heute nicht, 0 Grep-Treffer in beiden Richtungen): `wiki/typologien/bildung.md` fuehrt neu die synobsis-Quellen (`wiki/THEMEN.md` §1.4 Bildungsbauten, `wiki/RAUMTYPOLOGIEN.md`) — der Artikel war ohne eine einzige Katalog-Quelle kompiliert worden, obwohl der Referenz-Katalog der deklarierte Arbeitsweg dieser KB ist.
+- **Kein Systematik-Widerspruch:** synobsis fuehrt Raumfiguren/Parti, diese KB fuehrt Gebaeudenutzungen — zwei Achsen, gleiches Wort. In zwei getrennten Matrix-Zeilen fixiert.
+- Offen (Bau-Arbeit, nicht Wissens-Chef): optionales Feld `synobsis_slug` in `referenz_projekte`, damit die woertlich genannten Referenz-Architekten (Boltshauser, Pool) maschinell auf den Katalog zeigen.
+- Bericht: `wissen/koordination/outputs/2026-07-25_wissens-chef-run15.md`.
+
 ## 2026-07-25 (Nachtschicht-Zyklus Mac Mini ~06:30 — Health-Check + zwei Fixes)
 - [health-check] Wissens-Health-Check Phase 1: A1→behoben · B0 · C0 · D0 · E0 · F1→behoben
   · G0. Report: `outputs/2026-07-25_health-check.md`.

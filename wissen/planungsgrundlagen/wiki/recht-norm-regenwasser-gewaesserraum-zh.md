@@ -3,7 +3,7 @@ title: Recht & Norm — Regenwasserentsorgung und Gewaesserraum-Festlegung Kt. Z
 status: established
 last_updated: 2026-07-18 (Run 52)
 sources: [PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Wasser/Richtlinie_Regenwasserentsorgung_V2_2a.pdf (AWEL Kt. ZH, "Richtlinie und Praxishilfe Regenwasserentsorgung", 2005/Version 2.2 Maerz 2006, 48 S., basiert auf VSA-Richtlinie 2002 + SN 592'000), .../Wasser/AWEL_Merkblatt_ Gewässerraum.pdf (AWEL/ARE Kt. ZH, "Festlegung des Gewaesserraums bei nutzungsplanerischen Verfahren und bei Wasserbauprojekten", Juli 2014, 7 S.), PL - 02_Recht_Norm/04_Merkblätter/AWEL_Merkblatt_Versickerung.pdf (AWEL Kt. ZH, "Versickerung des Regenwassers — Gruenflaechen in Industrie- und Gewerbearealen doppelt nutzen", Reihe Umweltpraxis Entwaesserung, Februar 2009, 12 S.)]
-links: [[recht-norm-quellenlandkarte]], [[recht-norm-abstandsvorschriften-wald-gewaesser]], [[energie-baueingabe-zusatzformulare]]
+links: [[recht-norm-quellenlandkarte]], [[recht-norm-abstandsvorschriften-wald-gewaesser]], [[energie-baueingabe-zusatzformulare]], [[regenwasserbewirtschaftung-versickerung-zh]] (KB energie — aktuelle Bewilligungsschwellen + Schwammstadt)
 ---
 
 # Recht & Norm — Regenwasserentsorgung und Gewaesserraum-Festlegung Kt. ZH

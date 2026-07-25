@@ -3,6 +3,52 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-25 — Run 15 (Workflow-Fan-out: 6 Lese-Agenten + 14 adversariale Verifikatoren; 9 BESTAETIGT / 5 WIDERLEGT)
+- **Verfahren:** erster Lauf nach Aufhebung der Drossel (Rule 260725) wieder mit dem **Workflow-Tool**
+  statt inline — 6 parallele Lese-Agenten (baurecht↔pg · normen↔baurecht · energie↔pg · Kennwert-Feld ·
+  wettbewerbs-dna↔Healthcare-Kennwerte · **Erst-Pruefung** synobsis↔entwurfs-referenzen), danach je
+  gemeldetem Widerspruch/Veraltet-Fall **ein adversarialer Verifikator** mit Widerlegungs-Auftrag.
+  20 Agenten, ~2.93 Mio. Subagent-Token, 374 Tool-Calls, 12:52 Min. Kollisionsschutz (Rule 260724) vorab
+  geprueft, Commit pathspec-begrenzt. Bericht: `outputs/2026-07-25_wissens-chef-run15.md`.
+- **Ergebnis: 14 Meldungen → 9 BESTAETIGT, 5 WIDERLEGT.** Ertragreichster Cross-Lauf bisher; erstmals
+  mehrere **materielle** Fehler statt nur Struktur.
+- **[korrektur] Rechtsfehler Versickerungspflicht (pg).** `recht-norm-regenwasser-gewaesserraum-zh.md`
+  schrieb, nicht verschmutztes Regenwasser muesse nach Art. 7 GSchG **nicht** versickert werden — das
+  kehrt die Regel um. Verifier am Fedlex-Volltext (SR 814.20, 2 Konsolidierungen): **Art. 7 Abs. 2 GSchG
+  macht die Versickerung zum Regelfall**. Die KB `energie` hatte es richtig; die beiden Artikel zeigten
+  nur nie aufeinander. Korrigiert + Fundstelle + bidirektionaler Link.
+- **[korrektur] EN-102-Normbasis (pg).** «Basis SIA 380/1:2009» gegen energie «:2016» — Verifier hat das
+  Original-PDF geladen (curl+pdftotext): Kopfzeile jeder Seite nennt **Ausgabe 2016**. Ursache: der
+  irrefuehrende Dateiname `…3801_2009_2018Dez.pdf`. Zwei Stellen korrigiert, Fallstrick dokumentiert.
+- **[korrektur] AWEL-Regenwasser-Richtlinie veraltet.** Die BBV I (LS 700.21, anerkannte Regeln der
+  Baukunde) verweist auf die **Ausgabe 2025** («Regenwasser*bewirtschaftung*»); pg destilliert die
+  Ausgabe 2005/V2.2 2006. ⚠-Flag + VSA-Nachfolge 2019 nachgefuehrt, kein Trim.
+- **[korrektur] Raumtypologie-Schluessel (synobsis).** `CLAUDE.md` nannte «Grosser Raum»/«Skulpturaler»
+  statt der Katalog-Schluessel «Grosse Halle»/«Skulptularer Raum» — die dokumentierte `--raumtyp`-Abfrage
+  schlug fehl. Korrigiert; der Schreibfehler im **read-only** Quellordner bleibt bewusst stehen (eine
+  Bereinigung dort waere destruktiv → Freigabe Raphael, nicht vorgeschlagen).
+- **[struktur] Muster 1 «Uebergabe verpufft» zum 4. Mal, neue Richtung:** `normen/wiki/QUESTIONS.md`
+  hatte **0 Treffer** fuer «baurecht» — vier von baurecht zitierte Normen (SIA 491, SN EN 12193,
+  SN 640 052, SN 641 400) haben in `normen` null Praesenz. Als Block angemeldet, inkl. Gegenrichtung.
+- **[struktur] Weitere Aktionen:** SIA-181-Hinlink (Rule normen-referenz) · IVHB-**Teilantwort** zum
+  offenen baurecht-Fassungspunkt + reziproke Links · neue baurecht-Luecke «Erleichtertes Bauen im
+  Bestand» (§ 220a/§ 357 E-PBG, 0 Treffer in der Recht-KB) angemeldet · **Erst-Verlinkung**
+  synobsis ↔ entwurfs-referenzen · **5 neue Matrix-Zeilen** in QUERBEZUEGE.md.
+- **[offen fuer Raphael] Drei Fachentscheide, keiner autonom entschieden** (alle mit additivem
+  needs-decision-/Sperrvermerk versehen, Werte bleiben bis dahin gueltig):
+  **E-1** Flaechenfaktor HNF/GF Regelgeschoss — E1-Entscheid 12.07. sagt 0.70, der fuehrende Artikel
+  belegt 0.75; gekoppelt die nachrechenbar falsche Begruendung «4.7 ist Gesamtgebaeude» (3.3/0.70=4.71).
+  **E-2** Healthcare-Parameter-Set fuehrt das Wohnbau-Band 850–1050 CHF/m3 GV und beruft sich auf die
+  KB, die genau das untersagt; belegt waeren 1053–1420 (BKP 2) → Feld **gesperrt**, nicht geloescht.
+  **E-3** Ebmatingen 2400 gegen 855 CHF/m3 GV (Faktor 2.8, moeglicher Einheitenfehler) → ⚠-Flag.
+- **[geschlossen] Zwei Altpunkte:** LSV-Novelle 01.04.2026 (Run-14-Flag) — erledigt durch baurecht
+  Buch-Run 52 vom 25.07. (Art. 31a LSV aufgehoben, Anhaenge 3/4/5/6 unveraendert). 0,70/0,60-
+  Kopplungsformulierung — als **Scheinbefund** widerlegt. **Weiter offen:** Private-Kontrolle-Trim
+  energie↔pg (destruktiv, seit Run 11), Umlaut-Config-Bug (getrackt, keine Doppelmeldung).
+- **[beobachtung] Gegen-Muster neu:** bei OEREB-Bezugswegen ist die fuehrende Beschaffungs-KB
+  (planungsgrundlagen) **aermer** als die zuliefernde Recht-KB (baurecht/QUELLEN.md: OEREBlex-SZ-Kette,
+  SG-403-Sperre — 0 Treffer in pg). Die Rollen-Matrix beschreibt hier nicht mehr die Realitaet.
+
 ## 2026-07-25 — Synergie-Lauf 02 (Scheduled Task `synergie-lauf-monatlich`; 3 neue Befunde, 3 Status nachgefuehrt, 1 Kante gesetzt)
 - [synergie] Zweiter Lauf des Skills `synergie-orchestrator`, gedrosselt (Rule 260714: Inline-Analyse,
   kein Multi-Agent-Fan-out). Delta-Basis: Git-Log des NAS-Repos seit 15.07.2026 + KB-CHANGELOGs.

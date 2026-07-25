@@ -4,7 +4,7 @@ status: established
 last_updated: 2026-07-25
 datenstand: 2026-06-23 (AWEL-Formular + Hinweise; Normen VSA 2019 / SN 592 000:2012 / AWEL-Richtlinie 2022)
 sources: [destillate/regenwasserbewirtschaftung-versickerung-zh.md]
-links: [[INDEX]], [[BAUHERREN-FAQ]], [[greenpv-fassade-pv-begruenung-hslu]]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[greenpv-fassade-pv-begruenung-hslu]], [[recht-norm-regenwasser-gewaesserraum-zh]] (KB planungsgrundlagen — Recht/Verfahren GSchG-Kaskade + Gewaesserraum-Festlegung)
 ---
 
 # Regenwasserbewirtschaftung / Versickerung — Kanton Zürich

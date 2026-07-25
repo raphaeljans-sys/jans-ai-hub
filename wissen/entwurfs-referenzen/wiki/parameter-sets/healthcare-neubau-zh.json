@@ -41,7 +41,9 @@
   "kosten_referenz": {
     "chf_m3_gv_band": [850, 1050],
     "bkp_schwerpunkte": ["2 Gebäude", "23 Elektro", "25 Heizung", "27 Aufzüge"],
-    "quelle_kb": "wissen/grobkosten/"
+    "quelle_kb": "wissen/grobkosten/",
+    "status": "GESPERRT — nicht verwenden bis Entscheid Raphael",
+    "hinweis_wissens_chef": "⚠ Wissens-Chef Run 15 (25.07.2026), zwei unabhängig adversarial BESTÄTIGTE Befunde: (1) Das Band [850, 1050] ist das Wohnbau-MFH-Band der KB wissen/grobkosten. Ebendiese KB untersagt seine Verwendung für diese Bauaufgabe ausdrücklich (wissen/grobkosten/wiki/kennwerte.md:66-68: «Für Spital, Klinik, Alters-/Pflegeheim, Reha, Praxis NICHT diese m³-Werte verwenden — stattdessen die belegten m²-NF-Kennwerte (Wüest Partner) aus dem Skill kostenschaetzung»). Das Set beruft sich also auf eine Quelle, die genau diese Verwendung verbietet. (2) Das Band liegt zudem deutlich unter dem belegten Healthcare-Niveau: wissen/immobilienbewertung/wiki/realwert-sachwert.md (8-Objekt-Referenzvergleich, davon fünf im Kt. ZH) weist für Neubauten ab 2019 1'053–1'420 CHF/m³ GV (BKP 2, Median ~1'100) aus. Bis zum Entscheid Raphael dieses Band NICHT für Kostenaussagen verwenden; Healthcare-Kennwerte über skills/kostenschaetzung (m²-NF, Wüest) bzw. wissen/immobilienbewertung/wiki/realwert-sachwert ziehen. Vorlage: wissen/koordination/outputs/2026-07-25_wissens-chef-run15.md"
   },
   "entwurfs_regeln": [
     "Wohngruppen à 12–16 Betten mit eigenem Aufenthaltsraum",

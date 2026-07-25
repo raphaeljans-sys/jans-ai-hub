@@ -3,7 +3,7 @@ title: PBG-Revision "Erleichtertes Bauen im Bestand" (§ 220a E-PBG, Kt. ZH)
 status: emerging
 last_updated: 2026-07-24
 sources: [vzgv.ch/sites/default/files/25 12 - xx - Erleichtertes Bauen im Bestand Unterlagen.pdf (Vorentwurf mit erlaeuterndem Bericht, Amt fuer Raumentwicklung Baudirektion ZH, Referenz BDARE-2025-0158, Stand 07.08.2025, inkl. Auszug RRB 827/2025 Sitzung 20.08.2025 + synoptische Darstellung Aenderung ABV; Vernehmlassungsschreiben Regierungspraesident Dr. Martin Neukom 25.09.2025), WebSearch espacesuisse.ch/demokratis.ch/zhk.ch/rzu.ch (Verfahrensstand, abgerufen 2026-07-19), WebSearch rzu.ch/espacesuisse.ch/baublatt.ch/bauimmorecht.ch (Verfahrensstand-Refresh + Kopplung Neuerlass kantonale Stoerfallverordnung, abgerufen 2026-07-24, Run 58)]
-links: [[recht-norm-quellenlandkarte]], [[recht-norm-ivhb-baubegriffe]], [[recht-norm-dispensrecht]], [[machbarkeit]]
+links: [[recht-norm-quellenlandkarte]], [[recht-norm-ivhb-baubegriffe]], [[recht-norm-dispensrecht]], [[machbarkeit]], KB baurecht → `wiki/ausnahmebewilligung-und-bestandesschutz.md` (§§ 220/357 PBG) + `wiki/abstaende-und-hoehen.md` (§§ 21/23/24 ABV Mehrlängenzuschlag) — Recht führend; dieser Artikel führt den Revisionsstrang (Vorentwurf, noch ohne Rechtswirkung), Querbezug gesetzt Wissens-Chef Run 15, 25.07.2026
 ---
 
 # PBG-Revision "Erleichtertes Bauen im Bestand" (§ 220a E-PBG, Kt. ZH)

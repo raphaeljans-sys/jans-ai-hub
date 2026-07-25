@@ -185,6 +185,17 @@ fuer MFH die WP-Tabelle oben verwenden.
 > **Gesamtgebaeude** (inkl. Keller/Sockel/Attika, massgebend fuer die m²↔m³-Kostenbruecke) =
 > **0.60–0.61**; **Regelgeschoss** (effizientes Wohngeschoss) = **0.70**. Die KB `wissen/grobkosten`
 > nutzt 0.70 als Geschoss-Kennwert und verweist fuer die Gesamtgebaeude-Umrechnung hierher.
+>
+> ⚠ **needs-decision — Wissens-Chef Run 15 (25.07.2026), adversarial verifiziert (BESTAETIGT):**
+> Der Regelgeschoss-Wert **0.70** dieses Entscheids kollidiert mit dem **belegten 0.75** im
+> eigenen fuehrenden Flaechen-Artikel [[flaechendefinitionen-sia]] (`:84` «HNF zu GF (pro
+> Regelgeschoss) | 0.75 | nur Regelgeschoss (effizienter als Mittel)», Quelle Flaechenkonzeption
+> Wohnen R. Jans 20.10.2024, vgl. [[residualwertmethode]]`:191`). Gleicher Geltungsbereich,
+> gleiche Bezugsgroesse — der Entscheid hat die Gesamtgebaeude-Haelfte harmonisiert (0.60–0.61
+> deckt sich mit `flaechendefinitionen-sia:83`) und die Regelgeschoss-Haelfte auf einem
+> quellenlosen Faustwert festgeschrieben. **Fachentscheid Raphael**, nicht autonom aenderbar;
+> gekoppelt an den 4.7-Punkt in `grobkosten/wiki/kennwerte`. Bis zum Entscheid gilt 0.70 weiter.
+> Vorlage: `koordination/outputs/2026-07-25_wissens-chef-run15.md`.
 
 ### Healthcare-Neubau — Erstellungskosten-Benchmark (realer CH-Fall, belegt 2021)
 

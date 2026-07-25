@@ -4,6 +4,11 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-07-25 — Wissens-Chef Run 15 (Cross-KB): Raumtypologie-Schluessel in CLAUDE.md korrigiert + Abnehmer-KB benannt
+- **Widerspruch korrigiert (adversarial BESTAETIGT):** `CLAUDE.md` (Zugangs-Achse 2) nannte zwei der neun Raumtypen anders als der kanonische Katalog-Schluessel in `catalog/typology-map.json`: «Grosser Raum» statt **«Grosse Halle»** und «Skulpturaler» statt **«Skulptularer Raum»**. Die dort dokumentierte Abfrage `--raumtyp` schlug damit fehl. Git-Historie belegt: die Schluessel lauteten nie anders (`git log -p` liefert ausschliesslich `+ "Grosse Halle"` / `+ "Skulptularer Raum"`). Auf die literalen Schluessel korrigiert, inkl. Hinweis, dass «Skulptularer» ein Schreibfehler im **read-only** Quellordner `1 Selection` ist und bewusst unveraendert bleibt — die orthografisch richtige Form trifft den Teilstring-Filter NICHT. Eine Bereinigung am Quellordner waere destruktiv und braucht Freigabe Raphael; sie wird hier **nicht** vorgeschlagen. `typology-map.json`, `RAUMTYPOLOGIEN.md` und `tools/synobsis_query.py` sind korrekt und blieben unangetastet.
+- **Abnehmer-KB benannt:** `CLAUDE.md` verwies nur generisch («speist Recherche/Referenz fuer Entwurf»). Neu ist `wissen/entwurfs-referenzen/` als Abnehmer ausgewiesen, mit Rollenteilung (hier Katalog + Raumfiguren, dort Entwurfs-Kennwerte je Bauaufgabe). Gegenrichtung in `entwurfs-referenzen/wiki/typologien/bildung.md` gesetzt.
+- Bericht: `wissen/koordination/outputs/2026-07-25_wissens-chef-run15.md`.
+
 ## 2026-07-25 — Wissens-Health-Check (Phase 1, Skill wissenscheck, Mac Mini Nachtschicht)
 Scan unveraendert 853/853 (13. ergebnisloser Nachtlauf in Folge, Empfehlung Task
 `synobsis-batch-nacht` zu pausieren zum 13. Mal wiederholt). Umlaut-Ersatzschreibung aus dem
