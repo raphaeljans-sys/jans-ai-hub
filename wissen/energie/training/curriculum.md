@@ -1561,3 +1561,25 @@ Dateikonflikte). Damit ist die Run-110-Werkzeugliste abgearbeitet bis auf den IS
 JPEG2000-Grenzfall (`denkmalschutz-energiesanierung-zh-sz`), der laut eigener Beschreibung ein
 echter Bild-/Auflösungs-Grenzfall sein könnte statt eines WebFetch-Artefakts — nächster
 Kandidat für einen künftigen Lauf.
+
+- **D83 (Run 112, 2026-07-25, drei parallele Rechercheagenten)** — Letzter offener curl+Read-PDF-
+  Kandidat aus Run 110/111 abgearbeitet plus zwei echte neue Themenfelder erschlossen (Sättigungs-
+  diagnose ein zweites Mal in Folge widerlegt). **D83a ISOS-Bild-/JPEG2000-Scans aufgeklärt:** die
+  frühere Notiz bezog sich rückblickend gar nicht auf eigenständige ISOS-Dokumente, sondern auf
+  dieselben «Energie und Baudenkmal»-Teile aus Run 111. Eigenständige ISOS-Primärquellen (BAK-
+  Erläuterungen 2021, PBG-aktuell-Fachartikel zu einem realen ZH-Präjudiz Winterthur 2024,
+  EnergieSchweiz-Leitfaden Kap. 6) wurden erstmals gezielt gesucht und vollständig gelesen (technisch
+  problemlos) → `[[denkmalschutz-energiesanierung-zh-sz]]` bleibt established, um ISOS-Kategorisierung
+  A/B/C + PV-Bewilligungskette (Art. 32b lit. b RPV → Art. 18a Abs. 3 RPG zwingend bei Erhaltungsziel A)
+  erweitert, FAQ **F158** neu. **D83b Körperschallisolation bei Wärmepumpen** (neues Themenfeld,
+  abgegrenzt vom gut abgedeckten Aussenlärm-Recht) — EMPA-Primärquelle (2002) zur bautechnischen
+  Schwingungsentkopplung ins eigene Gebäude: Kapselung/Schalldämpfer/Feder-Masse-Körperschall-
+  isolation (Resonanzfrequenz-Fehldimensionierung verstärkt statt dämpft)/entkoppelte Rohrleitungen,
+  Zielwert SIA 181 28 dB(A) Schlafzimmer → neues Destillat `[[waermepumpe-koerperschallisolation-empa]]`,
+  ergänzt `[[waermepumpen-laermschutz]]`, FAQ **F159** neu. **D83c Grossverbraucherartikel**
+  (Energieanalyse-/Zielvereinbarungspflicht, neues Themenfeld, bisher nur Randerwähnung in sechs
+  Destillaten) — Art. 46 EnG + § 13a/§ 13d EnerG ZH + § 9 kEnG SZ primärquellenverifiziert: identische
+  Bundesschwellen 5 GWh Wärme/0,5 GWh Strom, ZH drei Vollzugswege (UZV/KZV/EVA) vs. SZ zwei (UZV/EVA);
+  besondere Healthcare-Relevanz (Pflegeheim/Spital erreicht Schwelle oft schon ab 3'000-7'000 m² EBF)
+  → neues Destillat `[[grossverbraucherartikel-zielvereinbarung-zh-sz]]`, FAQ **F160** neu. FAQ-Stand:
+  **160 Kernfragen (F1-F160) belegt.** Destillate-Stand: **175** (zwei neue, ein erweitert).

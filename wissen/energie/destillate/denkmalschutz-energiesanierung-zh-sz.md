@@ -140,6 +140,121 @@ unmittelbar bindend, sonst ist es ein gewichtiges, aber abwägungspflichtiges In
 - **Art. 18a Abs. 4 RPG:** bei Solaranlagen auf/an genügend angepassten Bauten geht das Interesse an
   der Solarenergienutzung dem ästhetischen Interesse grundsätzlich vor (wirkt in ZH über § 238 PBG).
 
+## ISOS-Kategorisierungssystem — Erhaltungsziele A/B/C (primärquellen-verifiziert)
+
+Nachrecherche 25.07.2026: die BAK-Publikation «Bundesinventar der schützenswerten Ortsbilder der
+Schweiz von nationaler Bedeutung — Erläuterungen» (9 S., 2021, im Volltext gelesen) beschreibt die
+ISOS-Methodik, die dem oben skizzierten «gewichtigen Abwägungsinteresse» überhaupt erst eine konkrete
+Struktur gibt. Für JANS-Projekte an ISOS-Objekten ist diese Kategorisierung der Ausgangspunkt jeder
+Einzelfallprüfung:
+
+- **Bewertung nach drei Qualitäten:** Lagequalitäten, räumliche Qualitäten, architekturhistorische
+  Qualitäten — je auf einer Skala von «herausragend hoch» bis «ohne besondere Qualitäten».
+- **Ortsbildteile mit Eigenwert erhalten eine Aufnahmekategorie/Erhaltungszustand A/B/C:**
+  **A** = ursprüngliche Substanz (Mehrheit der Bauten/Räume historisch gleich geprägt), **B** =
+  ursprüngliche Struktur (historisches Gefüge besteht, ähnliche Prägung), **C** = ursprünglicher
+  Charakter (Alt- und Neubauten gemischt). Ortsbildteile mit blossem Beziehungswert erhalten die
+  Kennung **b** (sensibler Bereich, kein eigener Erhaltungszustand).
+- **Daraus abgeleitete Erhaltungsziele (rechtlich relevant, nicht nur beschreibend):** **A → Erhalten
+  der Substanz** (alle Bauten/Anlageteile/Freiräume integral erhalten, störende Eingriffe beseitigen);
+  **B → Erhalten der Struktur** (Anordnung/Gestalt bewahren, strukturwesentliche Elemente integral
+  erhalten); **C → Erhalten des Charakters** (Gleichgewicht Alt-/Neubauten bewahren, charakterwesentliche
+  Elemente integral erhalten). Das Erhaltungsziel eines konkreten Objekts steht im jeweiligen
+  ISOS-Inventarblatt (Objektinformationen kostenlos abrufbar auf map.geo.admin.ch bzw. www.isos.ch).
+- **Rechtsgrundlage bestätigt:** Art. 78 BV (Bundeszuständigkeit Kulturerbe) → Art. 5 NHG (Auftrag an
+  den Bundesrat, Inventare zu erstellen) → Art. 6 NHG («ungeschmälerte Erhaltung, jedenfalls aber
+  grösstmögliche Schonung» der ISOS-Objekte). Zuständig für die Führung des ISOS: Bundesamt für Kultur
+  (BAK). Die Objekte selbst sind in Anhang 1 der Verordnung über das Bundesinventar der schützenswerten
+  Ortsbilder (VISOS) aufgelistet.
+- **Bedeutung für die Praxis (wörtlich, BAK-Erläuterungen):** «Obschon das Inventar festhält, was
+  Schutz verdient, ist es keine absolute Schutzmassnahme. Vielmehr stellt es eine
+  Entscheidungsgrundlage dar.» Der Bund wendet es bei eigenen Aufgaben systematisch an; Kantone und
+  Gemeinden berücksichtigen es bei ihrer Planung — das deckt sich mit der oben (Bundesebene-Abschnitt)
+  bereits primärquellenverifizierten Aussage, dass ISOS ohne Bundesaufgabe kein unmittelbar
+  verbindliches Recht ist.
+
+## PV/Solaranlagen und ISOS — die konkrete Bewilligungskette (Bund, primärquellen-verifiziert)
+
+Nachrecherche 25.07.2026 schliesst die bisher offene Lücke «keine ZH/SZ-Detailquelle zur
+Bewilligungspraxis je Produktkategorie» teilweise: zwei neue Primärquellen (ein Fachartikel zu einem
+ZH-Präjudiz und der Bundesleitfaden von EnergieSchweiz/BFE) legen die rechtliche Verknüpfung zwischen
+ISOS-Erhaltungsziel und PV-Bewilligungspflicht offen, die im bisherigen Destillat nur abstrakt
+(«ISOS bindet nur bei Bundesaufgabe») stand.
+
+**Die Verknüpfungsnorm — Art. 32b lit. b RPV:** Ein ISOS-Ortsbildteil mit **Erhaltungsziel A** gilt
+gemäss **Art. 32b lit. b der Raumplanungsverordnung des Bundes (RPV, SR 700.1)** ausdrücklich als
+**«Kultur- oder Naturdenkmal von kantonaler und kommunaler Bedeutung»**. Damit greift automatisch
+**Art. 18a Abs. 3 RPG**: Solaranlagen auf solchen Objekten sind **stets bewilligungspflichtig** (kein
+Meldeverfahren) und dürfen das Denkmal **«nicht wesentlich beeinträchtigen»**. Diese Norm-Kette macht
+das Erhaltungsziel A zum entscheidenden Schalter — nicht die Frage, ob das Gebäude selbst formell
+unter kommunalem/kantonalem Denkmalschutz steht.
+
+**Wann liegt eine «wesentliche Beeinträchtigung» vor (BFE-Leitfaden, Kap. 6.2.2, S. 24, wörtlich
+sinngemäss):** Massstab sind die im Inventarblatt festgehaltenen Schutzziele des jeweiligen Objekts.
+Eine wesentliche Beeinträchtigung liegt vor, wenn die Solaranlage das Gebäude in denjenigen zentralen
+Elementen/Merkmalen verändert, die für die Unterschutzstellung ausschlaggebend waren — das Objekt
+würde dann nicht mehr so erhalten, wie es war. Eine **unwesentliche** Beeinträchtigung liegt vor, wenn
+das Schutzziel zwar tangiert wird, der Eingriff aber ein im Einzelfall zu bestimmendes geringes Mass
+nicht überschreitet. Das Bundesgericht folgt dieser Auslegung (BGE-Referenzen unten).
+
+**Gutachtenpflicht EKD/ENHK — der Auslöser:** Droht durch die Solaranlage eine **erhebliche**
+Beeinträchtigung eines ISOS-Objekts, ist die Begutachtung durch die **Eidgenössische Kommission für
+Denkmalpflege (EKD)** obligatorisch. Wer die Erheblichkeit prüft, hängt vom Verfahren ab: bei
+Bundesverfahren das **BAK**, bei kantonalen Verfahren die **kantonale Fachstelle** (Denkmalpflege bzw.
+die für Orts-/Landschaftsbilder zuständige Fachkommission — in ZH das **Amt für Raumentwicklung
+[ARE]**, gestützt auf § 2a Abs. 1 der Kantonalen Natur- und Heimatschutzverordnung, KNHV). Rechtlich
+verankert ist dies über **Art. 25 Abs. 1/2 NHG** i.V.m. **Art. 7 Abs. 1 NHG** — die Prüfung, ob eine
+ISOS-Beeinträchtigung eine Bundesaufgabe darstellt (mit Gutachtenpflicht), erfolgt selbst dann, wenn
+eine rein kantonale Behörde die Baubewilligung erteilt.
+
+**ZH-Präjudiz Winterthur (BRGE IV Nr. 0012/2024 vom 25.01.2024):** Das Baurekursgericht Zürich beurteilte
+eine Aufdach-PV-Anlage in der Kernzone Winterthur (ISOS-Erhaltungsziel A, Technikumstrasse nahe
+Bahnhof). Die Stadt hatte die Baubewilligung erteilt, **ohne** zu prüfen, ob die Anlage das Ortsbild
+beeinträchtigt. Der Heimatschutz Kt. ZH rekurrierte; das Gericht hob den Entscheid auf und wies die
+Stadt an, die Eingriffsintensität zu beurteilen **und** dazu die EKD oder die Eidgenössische
+Natur- und Heimatschutzkommission (ENHK) beizuziehen — mit der Begründung, es handle sich um eine
+**Bundesaufgabe** (Art. 18a Abs. 3 RPG ist direkt anwendbar und hat einen unmittelbaren Bezug zum
+Landschafts-/Heimatschutz; BGE 139 II 271 E. 9.2 f./10.1; Urteil 1C_700/2013 E. 2.2). Der Entscheid war
+zum Lektürezeitpunkt (Artikel-Stand 2024) noch nicht rechtskräftig — bei einem aktuellen ZH-Fall
+lohnt sich eine Nachfrage, ob er inzwischen höchstrichterlich bestätigt wurde.
+**Praxisfolge für Gemeinden (aus dem Fachartikel, direkt übertragbar auf jedes ZH-Projekt):** Ist ein
+Ortsbild mit Erhaltungsziel A betroffen, **muss** bei geplanten Solaranlagen immer das kantonale ARE
+beigezogen werden — die Gemeinde darf dies nicht selbst abschliessend beurteilen. Bei bloss kommunalen
+Schutzobjekten (nicht ISOS-A) gilt hingegen direkt § 238 PBG (Abs. 2 besondere Rücksicht, Abs. 4
+Solar-Bewilligung vorbehältlich überwiegender öffentlicher Interessen); dort empfiehlt sich ein
+**Kurzgutachten zur Einordnungsfrage**, um die Sachverhaltsabklärung zu belegen.
+
+**Baubewilligungspflicht-Trias (BFE-Leitfaden Kap. 6.2, S. 23):** Ein Baubewilligungsverfahren statt
+des ordentlichen Meldeverfahrens ist für eine Dach-PV-Anlage immer dann nötig, wenn (1) das Gebäude in
+einer reinen Schutzzone liegt, (2) das Gebäude in einer Bau-/Landwirtschaftszone liegt, die von einer
+Schutzzone überlagert wird oder für die Schutzanordnungen bestehen (Art. 18a Abs. 2 lit. b RPG), oder
+(3) die Anlage auf einem Kultur-/Naturdenkmal von kantonaler oder nationaler Bedeutung montiert wird
+(Art. 18a Abs. 3 RPG) — Fallgruppe (3) ist über Art. 32b lit. b RPV automatisch erfüllt, sobald ein
+ISOS-Erhaltungsziel-A-Objekt betroffen ist. Typische betroffene Zonen: Altstadt-, Kern-, Dorf-,
+Weilerzonen, Ortsbildschutz-/Erhaltungszonen, kantonale Denkmalschutzobjekte. Die Bewilligungspflicht
+kann sich zusätzlich auf **selbst nicht geschützte Nachbargebäude** erstrecken, wenn sie einem
+Schutzobjekt benachbart oder Teil eines geschützten Ortsbilds sind (kantonales/kommunales Recht).
+**Abgrenzungsproblem in der Praxis:** Art. 18a Abs. 3 RPG spricht von «kantonaler» Bedeutung, doch das
+Natur- und Heimatschutzrecht kennt diese Stufe oft gar nicht (nur national/regional/lokal oder einen
+einheitlichen Denkmalbegriff) — massgebend ist dann das kantonale Recht und der kantonale Richtplan;
+frühzeitige Kontaktaufnahme mit der Behörde wird empfohlen (BFE-Leitfaden Kap. 6.2.3).
+
+**Gestalterische Konsequenz (BFE-Leitfaden Kap. 6.2.4, S. 25 f., ergänzt Beispiele):** Eine denkmal-
+und ortsbildgerechte Umsetzung ist mit heutigen Modulen/Kollektoren realisierbar (alle Farben/
+Geometrien, vollflächige Dachbelegung mit Blindmodulen in Randbereichen, bedruckte Module, farbige/
+unverglaste thermische Kollektoren) — allerdings meist mit **beträchtlichen Mehrkosten** gegenüber
+Standardprodukten. Belegte Realisierungsbeispiele auf ISOS-Erhaltungsziel-A-Objekten: Hôtel des
+Associations Neuchâtel (dachintegrierte PV 28 kW, Schweizer Solarpreis 2015), Schlossgut Meggenhorn
+Meggen LU (Scheune, 100 kW/580 m² vollflächig integriert, Solarpreis 2014); zusätzlich das
+denkmalgeschützte Justinushaus Zürich (Baujahr 1907, unverglaste thermische Kollektoren zur
+Erdsonden-Regeneration, Kämpfen Zinke + Partner AG) — ein reales ZH-Beispiel ausserhalb von ISOS im
+engeren Sinn, aber mit vergleichbarer denkmalpflegerischer Ausgangslage.
+**Vergleichspraxis Kt. Basel-Landschaft (Fussnote BFE-Leitfaden):** BL hat 2022 die
+Bewilligungspflicht auf jene ISOS-Gebiete mit Erhaltungsziel A beschränkt, die zusätzlich in
+Kernzonen liegen oder gemäss ISOS eine besondere Bedeutung aufweisen — ein enger gefasster Ansatz als
+der oben beschriebene ZH-Grundsatz («immer ARE beiziehen» bei Erhaltungsziel A); kein ZH/SZ-Pendant zu
+dieser BL-Einschränkung gefunden, bleibt Beobachtungspunkt.
+
 ## Praktische Lösungsansätze
 
 - **Innendämmung statt Aussendämmung:** Standardlösung, wo Aussendämmung ausscheidet — bei
@@ -295,6 +410,17 @@ Interessenabwägung dank Art. 18a RPG eher zugunsten der Solaranlage. In der Sta
 kann eine denkmalgerechte Sanierung deutlich mitfinanzieren. In SZ ist zusätzlich zu prüfen, ob ab
 CHF 10'000 Förderbeitrag ein GEAK Plus (Pflicht) eingeplant ist.
 
+**Ergänzung PV-Bewilligungskette (Nachrecherche 25.07.2026):** Steht ein Objekt in einem ISOS-Gebiet
+mit **Erhaltungsziel A**, gilt es kraft Art. 32b lit. b RPV automatisch als «Kulturdenkmal von
+kantonaler Bedeutung» — die Solaranlage ist dann IMMER bewilligungspflichtig (kein Meldeverfahren) und
+das kantonale ARE muss beigezogen werden, unabhängig davon, ob die Gemeinde das selbst für nötig hält
+(ZH-Präjudiz Baurekursgericht Winterthur, BRGE IV Nr. 0012/2024). Praktisch heisst das für die
+JANS-Bauherrschaft: vor Devisierung einer PV-Anlage IMMER das ISOS-Inventarblatt des Grundstücks
+prüfen (map.geo.admin.ch, kostenlos) und bei Erhaltungsziel A von Anfang an ein zeitliches Polster für
+die ARE-Beurteilung (ggf. mit EKD-Gutachten) einplanen — das ist kein Sonderfall, sondern die
+Regelfolge des Gesetzes. Bei bloss kommunalem Schutzstatus (nicht ISOS-A) lohnt sich stattdessen ein
+kurzes Einordnungs-Gutachten, um die Sachverhaltsabklärung nach § 238 Abs. 2 PBG belegen zu können.
+
 ## SZ-Beitragsformel — Herleitung geklärt (Run 87)
 
 Der scheinbare Widerspruch «25 % vs. 30/35/40 %» ist **kein Widerspruch**, sondern Grundbeitrag +
@@ -328,6 +454,25 @@ Anforderungen via Energiefachstelle des Hochbauamts SZ.
 - Art. 18a RPG in der SZ-Praxis: keine SZ-spezifische Umsetzungsquelle gefunden.
 - § 8b Abs. 3 lit. a DSV nennt «Energieeinsparung» nicht wörtlich (nur die RRB-Botschaft) — Wortlaut
   der aktuellen DSV-Fassung für eine hieb- und stichfeste Zitierung nochmals gegenlesen.
+- **Nachrecherche 25.07.2026 geschlossen:** die in mehreren Run-Reports (110/111) als offen vermerkte
+  «ISOS-Bild-/JPEG2000-Scan»-Werkzeugkandidatur bezog sich bei genauerem Hinsehen auf dieselben
+  «Energie und Baudenkmal»-Teile, die Run 111 bereits gelesen hat — eigenständige ISOS-Primärquellen
+  (BAK-Erläuterungen, PBG-aktuell-Fachartikel, BFE-Leitfaden) wurden mit dieser Recherche erstmals
+  gezielt gesucht, gefunden und per curl+Read-PDF-Tool vollständig gelesen; keine davon war
+  tatsächlich ein reiner Bild-Scan. Neu ergänzt: ISOS-Kategorisierungssystem (Erhaltungsziele A/B/C)
+  und die PV-Bewilligungskette Art. 32b lit. b RPV → Art. 18a Abs. 3 RPG → EKD/ENHK-Gutachtenpflicht,
+  belegt mit einem ZH-Präjudiz (Baurekursgericht Winterthur 2024).
+- **Offen geblieben:** die eigentliche WISOS («Weisungen über das Bundesinventar ISOS», BAK) liess
+  sich trotz drei curl-Versuchen mit unterschiedlichen User-Agents nicht laden — der BAK-Server
+  lieferte durchgehend HTTP 502 Bad Gateway (Server-Fehler, kein Format-/Scan-Problem). Bei Bedarf
+  später erneut versuchen oder über docplayer.org-Sekundärkopie prüfen (in dieser Recherche nicht
+  verifiziert, da Sekundärquelle).
+- Ob der Winterthurer Baurekursgerichtsentscheid (BRGE IV Nr. 0012/2024) inzwischen rechtskräftig
+  geworden oder ans Verwaltungsgericht weitergezogen wurde, ist mit dieser Recherche nicht geklärt
+  (Fachartikel-Stand: noch nicht rechtskräftig, Stand PBG aktuell 1/2024).
+- Keine SZ-spezifische Quelle zur ISOS-Erhaltungsziel-A/Art.-32b-RPV-Kette gefunden — die gelesenen
+  Quellen sind bundesrechtlich bzw. ZH-fallbezogen; ob die SZ-Praxis (Denkmalpflege/Amt für Kultur)
+  dieselbe Verknüpfung anwendet, bleibt offen.
 
 ## Quellen
 
@@ -337,6 +482,17 @@ Anforderungen via Energiefachstelle des Hochbauamts SZ.
   ETH, Architekturhistoriker Burgdorf); Fachexperten Ernst Baumann (Bauphysiker), Richard Widmer
   (Haustechnikingenieur); URLs: zh.ch (.../energie-und-baudenkmal/Energie_Baudenkmal_1_Gebaeudehuelle.pdf
   bzw. .../Energie_Baudenkmal_2_Fenster_Tueren.pdf), im Volltext gelesen Run 111 (25.07.2026).
+- Bundesamt für Kultur (BAK), «Bundesinventar der schützenswerten Ortsbilder der Schweiz von
+  nationaler Bedeutung — Erläuterungen» (9 S., © BAK Bern 2021); URL: zh.ch
+  (.../raumplanung/ortsbildschutz/isos_erlaeuterungen_2021.pdf), im Volltext gelesen 25.07.2026.
+- Katharina Seiler Germanier (Federas Beratung AG), «Solaranlagen und das ISOS», PBG aktuell 1/2024,
+  S. 31-33 (Fachartikel zu BRGE IV Nr. 0012/2024 vom 25.01.2024, Baurekursgericht Zürich); URL:
+  federas.ch/sites/default/files/fachartikel/download/2024-1_pbg_aktuell_praxis_seiler_solaranlagen_und_isos.pdf,
+  im Volltext gelesen 25.07.2026.
+- EnergieSchweiz / Bundesamt für Energie (BFE), «Leitfaden zum Melde- und Bewilligungsverfahren für
+  Solaranlagen» (Juni 2023, 28+ S., Autoren David Stickelberger/Christian Moll [Swissolar], Christoph
+  Jäger [Kellerhals Carrard], Peter Toggweiler [Basler & Hofmann]), Kap. 6 «Baubewilligungsverfahren»
+  (S. 22-28) im Volltext gelesen 25.07.2026; URL: pubdb.bfe.admin.ch/de/publication/download/10403.
 - Kanton Zürich, Medienmitteilung PBG-Revision Baudenkmäler, 02.07.2026.
 - Kanton Zürich, «Bauen & Denkmalpflege», «Denkmalpflegebeiträge beantragen», Leitfaden Solaranlagen
   (12/2022), PV-Kostenvergleichsstudie Kernzone/Denkmalschutz (2022).

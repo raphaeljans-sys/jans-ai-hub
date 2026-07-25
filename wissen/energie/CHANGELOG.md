@@ -2,6 +2,59 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 112: Drei parallele Rechercheagenten, letzter curl+Read-PDF-Kandidat (ISOS) abgearbeitet, zwei weitere komplett neue Themenfelder (Körperschall + Grossverbraucherartikel)
+
+PDF-Inventar weiterhin erschöpft seit Run 65 (keine neuen Dateien in PL-04 Energie seit 19.06.2026,
+frisch geprüft). Kollisionscheck via `ps` durchgeführt: keine zweite Instanz des energie-Loops auf
+diesem Host. Drei `general-purpose`-Rechercheagenten parallel angesetzt.
+
+1. **ISOS-Bild-/JPEG2000-Scans** (letzter offener Run-110/111-Werkzeugkandidat): klärte sich als
+   Missverständnis auf — die frühere Notiz bezog sich auf dieselben «Energie und Baudenkmal»-Teile
+   aus Run 111, nicht auf eigenständige ISOS-Dokumente. Erstmals gezielt gesucht und vollständig
+   gelesen (curl+Read-PDF, technisch problemlos, keine Bild-Scans): BAK «Bundesinventar ISOS —
+   Erläuterungen» (2021), PBG-aktuell-Fachartikel (reales ZH-Präjudiz Baurekursgericht Winterthur
+   BRGE IV Nr. 0012/2024), EnergieSchweiz-Leitfaden Kap. 6. **Ergebnis:** `denkmalschutz-
+   energiesanierung-zh-sz` bleibt established, erweitert um ISOS-Kategorisierung A/B/C (Art. 5/6
+   NHG) und die konkrete PV-Bewilligungskette bei Erhaltungsziel A (Art. 32b lit. b RPV → Art. 18a
+   Abs. 3 RPG zwingend, ENHK-Gutachtenpflicht). Die eigentliche WISOS-Weisung (bak.admin.ch)
+   lieferte dreimal HTTP 502 — Server-Fehler, kein Format-/Scan-Problem, bleibt offen. FAQ **F158**
+   neu.
+2. **Körperschallisolation bei Wärmepumpen** im eigenen Gebäude (neues Themenfeld, Redundanz-Check
+   bestätigt: null KB-Treffer für «Körperschall»/«Vibration»/«Erschütterung» trotz vier bestehender
+   Aussenlärm-Destillate). EMPA Dübendorf, «Zur lärmarmen Konstruktion von Wärmepumpenanlagen»
+   (K. Baschnagel, 2002, amtlich gehostet Kt. ZH/AWEL) vollständig per curl gelesen. **Ergebnis:**
+   vier Massnahmen-Bausteine (Kapselung, Schalldämpfer, Feder-Masse-Körperschallisolation —
+   Resonanzfrequenz-Fehldimensionierung verstärkt statt dämpft, entkoppelte Rohrleitungen); Zielwert
+   SIA 181, 28 dB(A) im Schlafzimmer; keine Behörde prüft dies, anders als den Aussenlärm-Nachweis.
+   Neues Destillat `waermepumpe-koerperschallisolation-empa`, ergänzt `waermepumpen-laermschutz`,
+   FAQ **F159** neu, Status emerging (Quellenalter 2002).
+3. **Grossverbraucherartikel** — Energieanalyse-/Zielvereinbarungspflicht ZH+SZ (neues Themenfeld,
+   bisher nur Randerwähnung in sechs bestehenden Destillaten, nie selbst recherchiert, besondere
+   Healthcare-Relevanz). Art. 46 EnG (SR 730.0) + § 13a/§ 13d EnerG Kt. ZH + § 9 kEnG Kt. SZ
+   primärquellenverifiziert (curl+pdftotext). **Ergebnis:** identische Bundesschwellen (>5 GWh
+   Wärme/>0,5 GWh Strom pro Jahr/Standort); ZH drei Vollzugswege (Universalzielvereinbarung UZV,
+   Kantonale Zielvereinbarung KZV, Energieverbrauchsanalyse EVA), SZ nur zwei (UZV/EVA, keine
+   eigene KZV); Zielvereinbarung befreit in ZH zusätzlich von der Betriebsoptimierungspflicht
+   (§ 13d EnerG); Pflegeheim/Spital erreicht die Schwelle oft schon ab 3'000-7'000 m² EBF. Neues
+   Destillat `grossverbraucherartikel-zielvereinbarung-zh-sz`, established, FAQ **F160** neu.
+
+**Register nachgeführt:** `destillate/INDEX.md` (drei Zeilen), `wiki/INDEX.md` (Kopfzeile-Stand
+160/175 + Run-112-Paragraph), `wiki/BAUHERREN-FAQ.md` (F158-F160 neu + sources-Liste),
+`wiki/waermepumpen-laermschutz.md` (Körperschall-Abschnitt ergänzt), `training/curriculum.md`
+(D83), `raw/_INGESTED.md`, `wiki/QUESTIONS.md`, `outputs/2026-07-25_energie-run112.md`.
+
+**Kollisionsschutz:** alle drei Agenten editierten disjunkte Dateien (Kollisionsschutz-Anweisung
+je Agent); vor zentraler Registerkonsolidierung per `git status` verifiziert — das Körperschall-
+Destillat war zwischenzeitlich bereits durch `nas-selfcommit` automatisch gesichert worden (kein
+Datenverlust, nur vorgezogener Commit).
+
+**Nächster Lauf — Priorität:** (1) fünf gebündelte Kaufentscheide, jetzt 14 Runs ohne Entscheidung,
+dringende Empfehlung; (2) Meta-Punkt M2 (eigener Skill "energie"?) seit Run 45 unentschieden;
+(3) SIA-2024-Gesundheitsbau-Merge ausführungsreif, wartet auf Zustimmung; (4) die gesamte
+curl+Read-PDF-Werkzeugliste aus Run 108-111 ist damit abgearbeitet — kein offener Werkzeug-
+Kandidat mehr; (5) Sättigungsdiagnose für neue Themenfelder zum zweiten Mal in Folge widerlegt
+(Redundanz-Check-per-grep-Methode bewährt sich als Weg zu echten Lücken statt Wiederholungen).
+
 ## 2026-07-25 — Run 111: Vier parallele Rechercheagenten, Run-110-Werkzeugliste fast abgeschlossen, zwei komplett neue Themenfelder (Haustechnik + Solaranlagen an Baudenkmälern)
 
 PDF-Inventar weiterhin erschöpft seit Run 65. Vier `general-purpose`-Rechercheagenten parallel auf

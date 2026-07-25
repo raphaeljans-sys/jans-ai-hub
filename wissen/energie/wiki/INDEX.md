@@ -3,7 +3,7 @@
 Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 
 ## Kernprodukt
-- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**Stand 2026-07-25 (Run 111): 157 Kernfragen F1–F157, 173 Destillate**, primärquellenbelegt, je Intensiv-Lauf mehrere parallele Rechercheagenten plus adversariale Gegenprüfung bestehender Antworten). Diese Zeile nennt bewusst nur den aktuellen Stand statt jede Lauf-Ergänzung einzeln aufzulisten (Verdichtung statt additivem Wachstum, Rule `wissens-bibliothekar`) — die vollständige Lauf-für-Lauf-Historie mit allen Einzelergänzungen steht in `CHANGELOG.md` (neueste zuoberst).
+- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**Stand 2026-07-25 (Run 112): 160 Kernfragen F1–F160, 175 Destillate**, primärquellenbelegt, je Intensiv-Lauf mehrere parallele Rechercheagenten plus adversariale Gegenprüfung bestehender Antworten). Diese Zeile nennt bewusst nur den aktuellen Stand statt jede Lauf-Ergänzung einzeln aufzulisten (Verdichtung statt additivem Wachstum, Rule `wissens-bibliothekar`) — die vollständige Lauf-für-Lauf-Historie mit allen Einzelergänzungen steht in `CHANGELOG.md` (neueste zuoberst).
 
 ## Themen-Artikel
 Echte eigenständige Wiki-Artikel (`wiki/*.md`), 26 Stück.
@@ -219,3 +219,20 @@ Vogelsang-Referat, ISOS-Bild-Scans) bleiben als Kandidaten für Run 111 offen.
 
 ---
 Status: `speculative` → `emerging` → `established`.
+
+**Run 112 (2026-07-25):** Drei parallele Rechercheagenten. Der letzte offene curl+Read-PDF-
+Kandidat aus Run 110/111 (ISOS-Bild-/JPEG2000-Scans) klärte sich als Missverständnis auf — die
+eigentlichen ISOS-Primärquellen (BAK-Erläuterungen 2021, PBG-aktuell-Fachartikel zu einem realen
+ZH-Präjudiz, EnergieSchweiz-Leitfaden Kap. 6) wurden erstmals gezielt gesucht, gefunden und
+vollständig gelesen (technisch problemlos, keine Bild-Scans) — `[[denkmalschutz-energiesanierung-zh-sz]]`
+bleibt established, um die ISOS-Kategorisierung (Erhaltungsziele A/B/C) und die PV-Bewilligungskette
+bei Erhaltungsziel A erweitert, FAQ F158. Zwei weitere Agenten erschlossen nach Redundanz-Check
+echte neue Themenfelder: **Körperschallisolation bei Wärmepumpen** im eigenen Gebäude (EMPA 2002,
+Feder-Masse-Systematik, Zielwert SIA 181 28 dB(A) Schlafzimmer) → neues Destillat
+`[[waermepumpe-koerperschallisolation-empa]]`, ergänzt `[[waermepumpen-laermschutz]]`, FAQ F159;
+und der **Grossverbraucherartikel** (Energieanalyse-/Zielvereinbarungspflicht ab 5 GWh Wärme/
+0,5 GWh Strom, Art. 46 EnG + § 13a EnerG ZH + § 9 kEnG SZ), bisher nur als Randerwähnung in sechs
+Destillaten gestreift, nie selbst recherchiert — besonders relevant für JANS' Healthcare-Fokus
+(Pflegeheim/Spital erreicht die Schwelle oft schon ab 3'000-7'000 m² EBF) → neues Destillat
+`[[grossverbraucherartikel-zielvereinbarung-zh-sz]]`, FAQ F160. Destillate-Stand: **175** (davor
+173, zwei neue). FAQ-Stand: **160** (davor 157).

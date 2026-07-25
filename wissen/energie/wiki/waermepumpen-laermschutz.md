@@ -4,7 +4,8 @@ status: established
 last_updated: 2026-07-25
 sources: [destillate/cerclebruit-vollzugshilfe-waermepumpen-laermschutz.md,
   destillate/waermepumpe-aussenlaerm-vollzugshilfe.md,
-  destillate/waermepumpe-laerm-nachmessung-kostenfolge.md]
+  destillate/waermepumpe-laerm-nachmessung-kostenfolge.md,
+  destillate/waermepumpe-koerperschallisolation-empa.md]
 links: [[INDEX]], [[waermepumpe-systemvergleich]], [[heizleistung-und-waermeerzeuger]]
 ---
 
@@ -71,6 +72,21 @@ laut Wegleitung ausdrücklich beim Anlagebesitzer). Eine im Ergebnis unbegründe
 bestätigte Überschreitung ist dagegen nicht eindeutig geregelt — eigene Einordnung, keine bestätigte
 Norm.
 
+## Körperschall im eigenen Gebäude (Run 112, neu)
+Der Lärmschutznachweis nach LSV prüft ausschliesslich den **Aussenlärm gegenüber Nachbarn** — ob
+die Wärmepumpe im eigenen Keller als Brummen im darüberliegenden Schlafzimmer oder in der
+Nachbarwohnung desselben Hauses hörbar wird, ist ein separates, rein bautechnisches
+**Körperschall-Thema** und wird von keiner Behörde geprüft. Vier Massnahmen-Bausteine (EMPA,
+lärmarme Konstruktion von WP-Anlagen): (1) **Kapselung** des Kompressors (`L_w2 = L_w1 − R +
+10·log(1/α)`), (2) Schalldämpfer in Luftkanälen, (3) **Körperschallisolation** via Feder-Masse-
+Schwinger — die Resonanzfrequenz f₀ der Lagerung muss deutlich unter der Erregerfrequenz des
+Kompressors liegen, sonst **verstärkt** eine falsch dimensionierte Federung das Problem statt es zu
+lösen, (4) entkoppelte Rohrleitungen (Kompensatoren, besonders kritisch bei Kältemittelleitungen).
+Massgebender Zielwert im eigenen Gebäude: **SIA 181 Haustechnik-Geräusche, 28 dB(A) im
+Schlafzimmer** — das muss der Bauherr/Planer selbst einfordern, insbesondere bei Sole/Wasser-
+Wärmepumpen im MFH-/STWEG-Keller (Aufstellung auf der Fundamentplatte statt auf einer Geschossdecke).
+
 **Destillate:** `[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]` (Formel/Grenzwerte, FAQ F65)
 · `[[waermepumpe-aussenlaerm-vollzugshilfe]]` (Verfahren/Zuständigkeit, FAQ F144/F146) ·
-`[[waermepumpe-laerm-nachmessung-kostenfolge]]` (Kostenfolge, FAQ F150).
+`[[waermepumpe-laerm-nachmessung-kostenfolge]]` (Kostenfolge, FAQ F150) ·
+`[[waermepumpe-koerperschallisolation-empa]]` (Körperschall im eigenen Gebäude, FAQ F159).

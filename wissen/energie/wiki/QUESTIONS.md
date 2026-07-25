@@ -2174,3 +2174,45 @@ gestrichen — kein weiterer Handlungsbedarf von dieser KB aus.
   6. Sättigungsdiagnose für neue Themenfelder ist mit Run 111 **widerlegt für den Bereich
      Denkmalschutz-Vertiefung** (zwei echte neue Themenfelder in einem Lauf) — bleibt aber für
      das breitere KB-Feld weiterhin eine begründete Beobachtung; keine pauschale Entwarnung.
+
+- [x] **Run 112 (2026-07-25) — letzter offener curl+Read-PDF-Kandidat abgearbeitet, ZWEI weitere
+  komplett neue Themenfelder erschlossen (Sättigungsdiagnose zum zweiten Mal in Folge widerlegt):**
+  Drei parallele Rechercheagenten. **ISOS-Bild-/JPEG2000-Scans** (letzter Run-110-Kandidat) klärte
+  sich als Missverständnis auf: die frühere Notiz bezog sich auf dieselben «Energie und Baudenkmal»-
+  Teile aus Run 111, nicht auf eigenständige ISOS-Dokumente. Erstmals gezielt gesucht: BAK
+  «Bundesinventar ISOS — Erläuterungen» (2021), PBG-aktuell-Fachartikel (reales ZH-Präjudiz
+  Baurekursgericht Winterthur BRGE IV Nr. 0012/2024), EnergieSchweiz-Leitfaden Kap. 6 — alle drei
+  technisch problemlos als Text lesbar (keine Bild-Scans), nur die WISOS-Weisung selbst
+  (bak.admin.ch) lieferte dreimal HTTP 502 (Server-Fehler, kein Formatproblem, bleibt offen) →
+  `[[denkmalschutz-energiesanierung-zh-sz]]` bleibt established, erweitert um ISOS-Kategorisierung
+  A/B/C + PV-Bewilligungskette (Art. 32b lit. b RPV → Art. 18a Abs. 3 RPG zwingend bei
+  Erhaltungsziel A), FAQ **F158** neu. **Körperschallisolation bei Wärmepumpen** (neues Themenfeld,
+  Redundanz-Check bestätigt: null KB-Treffer für "Körperschall"/"Vibration"/"Erschütterung" trotz
+  vier bestehender Aussenlärm-Destillate) — EMPA-Primärquelle 2002 zur bautechnischen
+  Schwingungsentkopplung ins eigene Gebäude → neues Destillat
+  `[[waermepumpe-koerperschallisolation-empa]]`, ergänzt `[[waermepumpen-laermschutz]]`, FAQ
+  **F159** neu, Status emerging (Quellenalter). **Grossverbraucherartikel** (neues Themenfeld,
+  bisher nur Randerwähnung in sechs Destillaten, nie selbst recherchiert) — Art. 46 EnG + § 13a/
+  § 13d EnerG ZH + § 9 kEnG SZ primärquellenverifiziert, besondere Healthcare-Relevanz (Pflegeheim/
+  Spital erreicht die 5-GWh/0,5-GWh-Schwelle oft schon ab 3'000-7'000 m² EBF) → neues Destillat
+  `[[grossverbraucherartikel-zielvereinbarung-zh-sz]]`, FAQ **F160** neu, established. FAQ-Stand:
+  **160 Kernfragen (F1-F160) belegt.** Destillate-Stand: **175** (zwei neue, ein erweitert). Alle
+  drei Agenten editierten disjunkte Dateien, vor Registerkonsolidierung per `git status` verifiziert
+  (nas-selfcommit hatte das Körperschall-Destillat bereits zwischenzeitlich automatisch committet —
+  kein Datenverlust, nur vorgezogene Sicherung).
+
+  **Nächster Lauf: Priorität**
+  1. Die fünf gebündelten Kaufentscheide wachsen seit Run 98 unverändert ohne Entscheidung — jetzt
+     **vierzehn Runs** in Folge. Dringende Empfehlung unverändert: beim nächsten Kontakt mit
+     Raphael als kurze Bündel-Frage stellen.
+  2. Meta-Punkt M2 (eigenständiger Skill "energie"?) seit Run 45 spruchreif, weiterhin unentschieden.
+  3. SIA-2024-Gesundheitsbau-Merge weiterhin ausführungsreif, wartet auf Raphaels Zustimmung.
+  4. Damit ist die gesamte in Run 108-111 identifizierte curl+Read-PDF-Werkzeugliste (VKF 22-15,
+     GVZ-Prämienmechanik, Referat Vogelsang, Baudenkmal-Handbuch Teil 1-4, ISOS) vollständig
+     abgearbeitet. Kein neuer konkreter Werkzeug-Kandidat aus dieser Liste offen.
+  5. Sättigungsdiagnose für neue Themenfelder ist mit Run 112 ein **zweites Mal in Folge widerlegt**
+     (Körperschall + Grossverbraucherartikel als echte neue Felder trotz 173 bereits bestehender
+     Destillate) — die Methode «Redundanz-Check per grep vor Themenwahl, dann gezielte Web-Suche
+     nach amtlicher Primärquelle» bleibt für künftige Läufe der belastbarste Weg, echte Lücken statt
+     Wiederholungen zu finden. Ohne offene Werkzeugliste (Punkt 4) wird der nächste Lauf wieder auf
+     freie Themenwahl mit Redundanz-Check angewiesen sein.
