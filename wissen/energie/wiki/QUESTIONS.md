@@ -2041,3 +2041,42 @@ Kontext in F36 geschärft), `destillate/INDEX.md` (drei Statuszeilen aktualisier
    Verbleibende `emerging`-Destillate: **59** (61 minus die zwei in Run 108 auf established
    gehobenen) — weiterhin genug Substanz für gezielte Primärquellen-Nachverifikation statt neuer,
    randständiger Themen, sollte kein Kontakt zustande kommen.
+
+- [x] **Run 109 (2026-07-25) — kein neues Themenfeld, aber ein echter Werkzeug-Durchbruch statt
+  reiner Wiederholung der Sättigungsdiagnose:** Statt weiter nur emerging-Lücken sekundärquellig
+  nachzuschärfen, wurde ein seit Run 76 als «WebFetch technisch gescheitert» dokumentiertes
+  Primärdokument (SIA-Harmonisierungsbericht «Standardwerte und Gebäudekategorien»,
+  cms.sia.ch/de/api/getMedia/940) erfolgreich per curl-Download + Read-PDF-Tool vollständig
+  gelesen (44 Seiten). Ergebnis: neues Destillat
+  `[[sia-harmonisierung-standardwerte-gebaeudekategorien-2019]]` mit den amtlichen SIA-380/1-
+  Gebäudekategorien-Definitionen (Tabelle 1) und der Erklärung der bisher unerklärten
+  Unterkategorie-Codes I.1/I.2/IV.1/IV.2/V.1/V.2/VIII.1/VIII.2. Schliesst zwei offene Punkte in
+  bestehenden Destillaten: `[[sia-380-1-aktualitaets-check-2026]]` (emerging → established,
+  Terminplan-Abgleich zeigt den Harmonisierungsvorschlag als überfällig/nicht in Kraft) und
+  `[[rrb-2025-1082-klimaanlagen-bewilligungspraxis-zh]]` (Gebäudekategorien-Definition I/II/IV).
+  FAQ F60 geschärft. Destillate-Stand: **171** (davor 170), FAQ-Stand unverändert 154.
+
+**Register nachgeführt:** `destillate/INDEX.md` (drei Zeilen: neues Destillat + zwei Status-
+Updates), `wiki/INDEX.md` (Run-109-Notiz + Werkzeug-Lehre), `wiki/BAUHERREN-FAQ.md` (F60
+geschärft), `training/curriculum.md` (D81), `raw/_INGESTED.md`, `CHANGELOG.md`,
+`outputs/2026-07-25_energie-run109.md`.
+
+**Nächster Lauf: Priorität**
+1. Die fünf gebündelten Kaufentscheide wachsen seit Run 98 unverändert ohne Entscheidung — jetzt
+   **elf Runs** in Folge. Dringende Empfehlung unverändert: beim nächsten Kontakt mit Raphael als
+   kurze Bündel-Frage stellen statt weiter automatisch mitzuführen.
+2. Meta-Punkt M2 (eigenständiger Skill "energie"?) seit Run 45 spruchreif, weiterhin unentschieden.
+3. ⚠ Weiterhin offen: KB `normen` pflegt SIA 382/1:2014 fälschlich als aktuell.
+4. SIA-2024-Gesundheitsbau-Merge weiterhin ausführungsreif, wartet auf Raphaels Zustimmung.
+5. **Neue, konkrete Werkzeug-Lehre aus Run 109:** mehrere ältere Destillate/Notizen könnten
+   fälschlich als «PDF/Quelle technisch nicht lesbar» archiviert sein, obwohl curl+Read-PDF-Tool
+   (statt WebFetch) sie lesen könnte — bei Gelegenheit die bisherigen «WebFetch gescheitert»-
+   Vermerke in QUESTIONS.md/Destillaten systematisch mit diesem Werkzeug erneut prüfen, statt sie
+   als dauerhaft blockiert zu behandeln (potenziell echter, wiederholbarer Zugewinn statt
+   Sättigung — würde die Sättigungsdiagnose selbst relativieren).
+6. ⚠⚠⚠⚠ **Sättigungsdiagnose weiterhin unverändert gültig für NEUE Themenfelder** (fünf Läufe
+   Run 105-109 ohne neue Themenwahl), aber Run 109 zeigt: die Erschöpfung betrifft die
+   *Themensuche*, nicht zwingend die *Werkzeugausschöpfung* — Punkt 5 oben sollte vor der
+   nächsten Rücktaktungs-Entscheidung geprüft werden, da er einen dritten, bisher übersehenen
+   Ergiebigkeitspfad eröffnet. Die PROGRAMM.md-Rücktaktungsempfehlung an Raphael bleibt trotzdem
+   unverändert bestehen und wird hier nicht zurückgenommen, nur ergänzt.

@@ -3,7 +3,7 @@
 Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 
 ## Kernprodukt
-- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**Stand 2026-07-25: 154 Kernfragen F1–F154**, primärquellenbelegt, je Intensiv-Lauf mehrere parallele Rechercheagenten plus adversariale Gegenprüfung bestehender Antworten). Diese Zeile nennt bewusst nur den aktuellen Stand statt jede Lauf-Ergänzung einzeln aufzulisten (Verdichtung statt additivem Wachstum, Rule `wissens-bibliothekar`) — die vollständige Lauf-für-Lauf-Historie mit allen Einzelergänzungen steht in `CHANGELOG.md` (neueste zuoberst).
+- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**Stand 2026-07-25 (Run 109): 154 Kernfragen F1–F154, 171 Destillate**, primärquellenbelegt, je Intensiv-Lauf mehrere parallele Rechercheagenten plus adversariale Gegenprüfung bestehender Antworten). Diese Zeile nennt bewusst nur den aktuellen Stand statt jede Lauf-Ergänzung einzeln aufzulisten (Verdichtung statt additivem Wachstum, Rule `wissens-bibliothekar`) — die vollständige Lauf-für-Lauf-Historie mit allen Einzelergänzungen steht in `CHANGELOG.md` (neueste zuoberst).
 
 ## Themen-Artikel
 Echte eigenständige Wiki-Artikel (`wiki/*.md`), 26 Stück.
@@ -182,6 +182,22 @@ exaktes Datum Stadtzürcher Volksabstimmung 15.5.2022/74.9 % Ja, kEnG/kEnV-SZ-Vo
 abweichendes Zieljahr) primärquellenverifiziert geschlossen, FAQ F81 geschärft. **Kein neues
 Themenfeld gewählt** — bestätigt die Sättigungsdiagnose ein viertes Mal in Folge (Run 105-108).
 Destillate-Stand: 170 (zwei Status-Upgrades, kein neues Destillat). FAQ-Stand unverändert: 154.
+
+**Run 109 (25.07.2026, Werkzeug-Durchbruch statt neuer Themenwahl):** Die frühere WebFetch-
+Blockade auf dem SIA-Harmonisierungsbericht (cms.sia.ch/de/api/getMedia/940, seit Run 76 als
+«PDF nicht textextrahierbar» dokumentiert) wurde durchbrochen — curl-Download + Read-PDF-Tool
+statt WebFetch liest das 44-seitige Dokument vollständig. Neues Destillat
+`[[sia-harmonisierung-standardwerte-gebaeudekategorien-2019]]`: amtliche SIA-380/1-
+Gebäudekategorien-Definitionen (Tabelle 1) im Wortlaut, Erklärung der Unterkategorie-Codes
+I.1/I.2/IV.1/IV.2/V.1/V.2/VIII.1/VIII.2 (tauchten bisher unerklärt in SIA-2024-Destillaten auf),
+und der Befund, dass der 2019 im Bericht selbst gesetzte Terminplan (Abschluss aller Phasen bis
+31.12.2024) verstrichen ist, ohne dass eine neue SIA-380/1-Ausgabe erschienen ist. Schliesst je
+einen offenen Punkt in zwei bestehenden Destillaten: `[[sia-380-1-aktualitaets-check-2026]]`
+(`emerging` → **established**) und `[[rrb-2025-1082-klimaanlagen-bewilligungspraxis-zh]]`
+(Gebäudekategorien-Definition). FAQ F60 geschärft. Destillate-Stand: **171** (ein neues
+Destillat, zwei Status-Upgrades). FAQ-Stand unverändert: 154. **Werkzeug-Lehre für künftige
+Läufe:** «WebFetch technisch gescheitert» ist keine dauerhafte Sackgasse — curl+Read-PDF-Tool
+zuerst versuchen, bevor ein Primärdokument als unlesbar gilt.
 
 ## Verwandte KBs/Skills
 - Skill `planungsgrundlagen` (Domaene Energie) → Bruecke `wissen/planungsgrundlagen/wiki/energie-uebersicht`

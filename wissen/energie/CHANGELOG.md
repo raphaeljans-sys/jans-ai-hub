@@ -2,6 +2,32 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 109: WebFetch-Blockade durchbrochen (curl+Read-PDF-Tool), SIA-Harmonisierungsbericht
+## erstmals im Volltext gelesen, zwei Destillate geschlossen
+
+Statt eine fünfte Runde reiner Sekundärquellen-Nachschärfung zu fahren, wurde ein seit Run 76 als
+«PDF technisch nicht auswertbar (WebFetch)» dokumentiertes Primärdokument neu angegangen: der
+SIA-Statusbericht «Harmonisierung SIA-Standardwerte und Gebäudekategorien» (V1.7, 2019,
+cms.sia.ch/de/api/getMedia/940). Direkter curl-Download + Read-PDF-Tool (statt WebFetch) liest
+das 44-seitige Dokument problemlos vollständig. Neues Destillat
+`sia-harmonisierung-standardwerte-gebaeudekategorien-2019`: amtliche SIA-380/1-
+Gebäudekategorien-Definitionen (Tabelle 1) im Wortlaut, Erklärung der bisher unerklärten
+Unterkategorie-Codes I.1/I.2/IV.1/IV.2/V.1/V.2/VIII.1/VIII.2 aus mehreren SIA-2024-Destillaten,
+und der belegte Befund, dass der im Bericht selbst gesetzte Terminplan (Abschluss aller
+Umsetzungsphasen bis 31.12.2024) verstrichen ist, ohne dass eine neue SIA-380/1-Ausgabe
+erschienen ist. Schliesst zwei offene Punkte: `sia-380-1-aktualitaets-check-2026` (emerging →
+established) und `rrb-2025-1082-klimaanlagen-bewilligungspraxis-zh` (Gebäudekategorien-
+Definition I/II/IV). FAQ F60 geschärft (Ausblick-Absatz ergänzt). Destillate-Stand: **171**
+(davor 170), FAQ-Stand unverändert 154. Register nachgeführt: `destillate/INDEX.md`,
+`wiki/INDEX.md`, `wiki/BAUHERREN-FAQ.md`, `training/curriculum.md` (D81), `raw/_INGESTED.md`,
+`wiki/QUESTIONS.md`, `outputs/2026-07-25_energie-run109.md`.
+
+**Werkzeug-Lehre:** die Sättigungsdiagnose (Run 105-109, fünf Läufe ohne neue Themenwahl) betrifft
+die *Themensuche*, nicht zwingend die *Werkzeugausschöpfung* — mehrere ältere «WebFetch
+gescheitert»-Vermerke könnten mit curl+Read-PDF-Tool alsbald lesbar sein und einen weiteren,
+bisher übersehenen Ergiebigkeitspfad eröffnen. Die PROGRAMM.md-Rücktaktungsempfehlung an Raphael
+(fünffach bestätigt) bleibt davon unberührt bestehen.
+
 ## 2026-07-25 — Run 108: drei parallele Rechercheagenten schliessen gezielt benannte emerging-Lücken
 ## (SZ-Steuerparagraph, GEAK-Kosten, Netto-Null — zwei Status-Upgrades), vierte Sättigungs-
 ## Bestätigung in Folge

@@ -1500,3 +1500,18 @@ Stadtzürcher Abstimmungsdatum 15.5.2022/74.9 %, kEnG/kEnV-SZ-Negativbefund) vol
 → `[[netto-null-klimaziele-zh-sz]]` auf established, FAQ F81 geschärft. Kein neues Themenfeld —
 vierte Bestätigung der Sättigungsdiagnose in Folge (Run 105-108). FAQ-Stand unverändert 154,
 Destillate-Stand unverändert 170, verbleibende emerging-Destillate 59.
+
+## D81 (Run 109, 2026-07-25) — SIA-Harmonisierungsbericht erstmals im Volltext gelesen (WebFetch-Grenze durchbrochen)
+Frühere WebFetch-Versuche auf cms.sia.ch/de/api/getMedia/940 waren technisch gescheitert
+(komprimiertes/schriftartlastiges PDF). Direkter curl-Download + Read-PDF-Tool umgeht das
+Problem vollständig. Ergebnis: der Bericht (V1.7, 2019) reproduziert die amtlichen SIA-380/1-
+Gebäudekategorien-Definitionen (Tabelle 1) und erklärt die Unterkategorie-Codes I.1/I.2 usw.,
+die in mehreren SIA-2024-Destillaten bereits unerklärt auftauchten. Der Terminplan des Berichts
+selbst (Abschluss aller Phasen bis 31.12.2024) ist verstrichen, ohne dass eine neue SIA-380/1-
+Ausgabe erschienen ist — bestätigt und schärft die bestehende Einschätzung «Zukunftsmusik,
+kein geltendes Recht». Schliesst je einen offenen Punkt in zwei bestehenden Destillaten
+(`sia-380-1-aktualitaets-check-2026` → established; `rrb-2025-1082-klimaanlagen-
+bewilligungspraxis-zh` Gebäudekategorien-Definition). **Werkzeug-Lehre:** bei künftigen als
+«WebFetch technisch gescheitert» dokumentierten PDF-Lücken zuerst curl+Read-PDF-Tool
+versuchen, bevor der Punkt als dauerhaft blockiert gilt. FAQ F60 geschärft. FAQ-Stand
+unverändert 154, Destillate-Stand neu 171 (ein neues Destillat, zwei Status-Upgrades).
