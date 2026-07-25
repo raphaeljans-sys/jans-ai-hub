@@ -3,6 +3,21 @@
 Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit ✓ + Datum.
 
 ## A — Kartenportale
+- [x] **K47-K54 (Run 63, 2026-07-25, Token-Vollgas)** Scout-Abgleich (vollstaendiger Ordnerbaum
+  PL-01 gegen curriculum.md/_INGESTED.md) findet sieben echte Fundstellen im bisher unter-
+  ausgewerteten Kt.-LU-Cluster. **K47 — echter Delta zu K12:** Kt. LU fuehrt (anders als ZH/SZ)
+  ein kantonsweites, offen lizenziertes Baumkataster-Produkt (`einzbaum_ds_v1`, WMS/WFS/GDB/
+  GeoPackage) — praezisiert die bisherige «kein Kanton hat das»-Aussage zu einer kantons-
+  spezifischen. **K48-K52:** Historische Karten (amtliches Zeitschieber-Tool, Ergaenzung zu
+  achtgradost.ch/K14), Baugesuchsverwaltung eBAGE+/GRAVIS (kantonales Pendant zu eBau SZ),
+  Werkleitungen ueber Vereins-/Mitgliedschaftsmodell (Organisationsmodell-Delta zum ZH-
+  Betreibermuster), Hoehenlinien-DXF-Lieferbeleg (Formattabelle-Ergaenzung), Nachfuehrung
+  amtliche Vermessung ueber konzessionierte private Geometer (bestaetigt ZH-analoges Muster).
+  **K53:** reale JANS-Arbeitsnotiz Baumwurzelwerk/Fundamentplanung (Tiefbauamt Stadt Luzern) —
+  drei Wurzeltypen mit unterschiedlicher Fundament-Konsequenz. **K54:** Grenzen-Kategorie
+  bestaetigter Nicht-Fund (generische Verwaltungsgrenzen ohne Planungsbezug). Alle sechs
+  inhaltlichen Funde → [[kartenportale-geoportale-uebersicht]] (§Baumkataster + §Weitere
+  Kantone, neuer Abschnitt «Kt.-LU-Vertiefung»). Details siehe `training/curriculum.md` K47-K53.
 - [x] **K46-Nachtrag (Run 61, 2026-07-25) — Backlog vollstaendig GESCHLOSSEN.** Der Run-59-
   OneDrive-EDEADLK-Blocker hatte sich aufgeloest. **cadastre.ch:** bestaetigter Nicht-Fund
   (bloss Link, Betreiber swisstopo). **geoportal.ch/Einsiedeln:** Service-Desk-Kontakt GEOINFO
@@ -746,6 +761,12 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   SIA 261/261-1, DC bleibt unter Spannung. Solar-spezifisch, kein Doppel zu Skill `brandschutz`.
 
 ## D — Energie
+- [x] **E44 (Run 63, 2026-07-25, Token-Vollgas Scout-Fund)** Letzte unausgewertete Datei im Ordner
+  `_Heizwaermebedarf/` (`_Wärmebedarf Warmwasser SIA 380_1.pdf`) gelesen — bestaetigter Nicht-Fund
+  (byte-identische Tab.-24/25-Doppelseite, bereits in [[energie-heizwaermebedarf-
+  waermeerzeugerleistung]] erfasst). Domaene Energie nach vollstaendigem Scout-Ordnerabgleich
+  ohne weitere unerschlossene PL-04-Datei; einziger offener Punkt bleibt D9 (realer MFH-/ZEV-Fall,
+  wartet auf reales Projekt).
 - [x] **E41 (Run 59, 2026-07-25)** Delta-Check `pv sol premium`/`solarapp.ch`/
   `energieschweiz.ch Diemtigen` gegen bereits dokumentierte E34/E37/E38 (Run 40/42) — KEIN Delta
   bei Kernzahlen, aber Zusatzfund Richtpreis-Stueckliste MFH Basel (Swiss Premium M340/Growatt/

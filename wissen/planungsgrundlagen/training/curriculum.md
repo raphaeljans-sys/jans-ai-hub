@@ -134,6 +134,32 @@ das Ergebnis in den passenden Wiki-Artikel.
 - [x] B5/BSV-2026-Refresh (Run 62, 2026-07-25) Terminplan per WebSearch erneut geprueft — unveraendert
   bestaetigt (politische Vernehmlassung 08/2026, IOTH-Genehmigung 03/2027, Inkrafttreten 2027), kein
   Delta seit Run 60 (25.07.) → [[brandschutz-pl03-wegweiser]] §1.
+- [x] K47-K53 (Run 63, 2026-07-25, Token-Vollgas) Scout-Abgleich (voller Ordnerbaum PL-01 gegen
+  Curriculum) findet sieben bisher unerschlossene Fundstellen, alle im selben blinden Fleck
+  `KtLU Luzern/` (Geodatenshop-Produktdetails + Stadt-Luzern-Gemeinde-GIS), bisher nur mit
+  Portal-Kontakt (Run 61), nicht mit Produktinhalt dokumentiert. **K47 Einzelbaeume:** Kt. LU fuehrt
+  entgegen der bisherigen K12-Einschaetzung («kein kantonal standardisiertes Baumkataster-Produkt»)
+  doch ein kantonsweites, offen lizenziertes (Open-By) Baumkataster-Produkt mit WMS/WFS/GDB/GeoPackage
+  → NEU-Absatz [[kartenportale-geoportale-uebersicht]] §Baumkataster, established. **K48 Historische
+  Karten:** amtliches Kt.-LU-WebGIS mit Zeitschieberegler 1845-2017 (swisstopo-Quelle), amtliche
+  Ergaenzung zum privaten Weg achtgradost.ch (K14) → §Weitere Kantone, emerging. **K49
+  Baugesuchsverwaltung eBAGE+ + GRAVIS:** kantonale (nicht kommunale wie eBau SZ) elektronische
+  Baubewilligungsplattform + kostenpflichtiges Grundbuchinformationssystem → §Weitere Kantone,
+  emerging. **K50 Leitungen digital:** Werkleitungsbezug Kt. LU laeuft ueber ein Vereins-/
+  Mitgliedschaftsmodell («Verein Raumdatenpool Kanton Luzern», Kategorie A/B + private Bueros im
+  Auftrag eines Mitglieds) statt ueber Betreiber-Einzelportale wie in ZH → Organisationsmodell-Delta
+  zu [[kartenportale-werkleitungskataster]], neuer Absatz [[kartenportale-geoportale-uebersicht]]
+  §Weitere Kantone, emerging. **K51 Hoehenlinien-DXF:** reale LU-Lieferdatei (DTM18H1M_V2, Kachel-
+  Logik) bestaetigt DXF-Format auch fuer Hoehenlinien-Produkte, Delta/Ergaenzung zur K8-Formattabelle
+  → dass., established. **K52 Nachfuehrung amtliche Vermessung:** Emch+Berger-Medienbeitrag (2019)
+  belegt private, vom Regierungsrat konzessionierte Geometer-Nachfuehrungskreise analog zum
+  ZH-Muster → dass., established. **K53 Baumwurzelwerk/Fundamentplanung:** reale JANS-Arbeitsnotiz
+  (Gespraech Tiefbauamt Stadt Luzern, Baumexperte Baechli) — nur oeffentliche Baeume kartiert, drei
+  Wurzeltypen Pfahl-/Teller-/Herzwurzel mit unterschiedlicher Fundament-Konsequenz (auskragende
+  Bodenplatte statt Wurzeldurchtrennung), Sondageschlitz zur Wurzelanlauf-Ortung → dass.,
+  speculative/Praxisnotiz. **K54 Grenzen-Kategorie (geprueft, geringe Relevanz):** 33 generische
+  Verwaltungsgrenzen-Produkte (Betreibungskreise, Bezirksgerichtskreise, AOC-Weinbauregionen u.ae.)
+  ohne Planungsbezug — bestaetigter Nicht-Fund, keine weitere Bearbeitung noetig.
 
 ## Domaene 2 — Energie (PL-04)  · Prioritaet
 - [x] E1 PV-Typenwahl: Entscheidungsbaum (Indach/Ziegel/transparent/Fassade/Aufdach)? (2026-06-06, → [[energie-pv-eignung-typenwahl]])
@@ -246,6 +272,15 @@ das Ergebnis in den passenden Wiki-Artikel.
   weiterhin keine ZH-spezifische PBG-Vernehmlassung/kein Gesetzesentwurf/kein Termin auffindbar,
   nur die allgemeine EnDK-Timeline "Umsetzung 2025-2030"; unveraendert bestaetigt (n-te
   Refresh-Bestaetigung seit Run 14, kein neuer Datenstand).
+- [x] E44 (Run 63, 2026-07-25, Token-Vollgas Scout-Fund) Bisher nie gezielt gelesene Datei
+  `_Heizwaermebedarf/_Wärmebedarf Warmwasser SIA 380_1.pdf` — liefert sie eine eigene
+  Warmwasserbedarf-Berechnungsmethodik ueber die bereits dokumentierte Tab.-25-Zeile 4.3 hinaus?
+  Bestaetigter Nicht-Fund: byte-identische Doppelseite «Tabelle 24/25» (Reader "Energetische
+  Gesamtoptimierung" S. 108/109), bereits vollstaendig in [[energie-heizwaermebedarf-
+  waermeerzeugerleistung]] §2 erfasst — kein neuer Rechenweg. Damit ist der Ordner
+  `_Heizwaermebedarf/` nun vollstaendig ausgewertet (letzte Restdatei). Domaene Energie nach
+  Scout-Vollabgleich (Run 63) ansonsten ohne unerschlossene PL-04-Datei — verbleibt nur der seit
+  Run 36 offene D9-Punkt (realer MFH-/ZEV-Betriebskostenfall), der auf ein reales Projekt wartet.
 
 ## Domaene 3 — Recht & Norm (PL-02)
 - [x] R1 Quellenlandkarte PL-02 vervollstaendigen (welcher Erlass wo, Datenstand fedlex). (2026-06-08, 10 Ordner kartiert, SR→fedlex-Schema, → [[recht-norm-quellenlandkarte]])

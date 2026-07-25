@@ -2,6 +2,29 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 — Training Run 63 (Kartenportale + Energie, Token-Vollgas): Kt.-LU-Vertiefung, beide Domaenen vollstaendig ausgeschoepft
+Rotation zurueck auf Kartenportale (PL-01) + Energie (PL-04) (Run 62 hatte Recht/Norm+Brandschutz).
+Delta-Scan beider PL-Ordner: keine neuen Dateien. Da beide Domaenen laut Register ohne bekannten
+Backlog-Punkt waren, Scout-Agent (Vordergrund, reiner Ordner-/Registerabgleich) beauftragt: fand
+7 echte unerschlossene Fundstellen in PL-01 (Kt.-LU-Cluster) + 1 in PL-04.
+- **K47-K54 (Kartenportale, Kt.-LU-Vertiefung):** Einzelbaeume = kantonsweites offen lizenziertes
+  Baumkataster-Produkt (praezisiert K12: Kt. LU ist die belegte Ausnahme zu ZH/SZ); Historische
+  Karten = amtliches Zeitschieber-WebGIS 1845-2017 (Ergaenzung zum privaten Weg achtgradost.ch);
+  Baugesuchsverwaltung eBAGE+/GRAVIS = kantonales Pendant zu eBau SZ; Leitungen digital =
+  Werkleitungsbezug ueber Vereins-/Mitgliedschaftsmodell «Verein Raumdatenpool Kanton Luzern»
+  (Organisationsmodell-Delta zum ZH-Betreibermuster); Hoehenlinien-DXF-Lieferbeleg (Formattabelle-
+  Ergaenzung K8); Nachfuehrung amtliche Vermessung ueber konzessionierte private Geometer (Emch+
+  Berger-Beleg); reale JANS-Arbeitsnotiz Baumwurzelwerk/Fundamentplanung (Tiefbauamt Stadt Luzern,
+  drei Wurzeltypen); Grenzen-Kategorie bestaetigter Nicht-Fund → [[kartenportale-geoportale-uebersicht]]
+  §Baumkataster + neuer Abschnitt «Kt.-LU-Vertiefung».
+- **E44 (Energie):** letzte Restdatei `_Heizwaermebedarf/` gelesen, bestaetigter Nicht-Fund
+  (Duplikat Tab. 24/25) → [[energie-heizwaermebedarf-waermeerzeugerleistung]]. Ordner vollstaendig
+  ausgewertet.
+- **Bilanz:** 8 Quellen + 1 Scout-Vorlauf = 9 Punkte (unterer Rand 10-16, da beide Domaenen nach
+  46/43 Curriculum-Lektionen ueber 62 Laeufe extrem ausgeschoepft sind — bewusst keine
+  Pseudo-Fragen erzeugt). Beide Domaenen nun ohne jeden bekannten Datei-Backlog; einziger offener
+  Punkt bleibt D9 (realer MFH-/ZEV-Fall, wartet auf reales Projekt). Details: `outputs/2026-07-25_training-run63.md`.
+
 ## 2026-07-25 — Training Run 62 (Recht/Norm + Brandschutz, Token-Vollgas): §9-Rest-Backlog vollstaendig geschlossen
 Rotation zurueck auf Recht/Norm (PL-02) + Brandschutz (PL-03) (Run 61 hatte Kartenportale/Energie).
 Direkt in der Hauptsession (OneDrive-Lehre Run 56). Delta-Scan beider PL-Ordner: keine neuen Dateien.
