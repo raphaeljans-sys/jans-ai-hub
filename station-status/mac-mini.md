@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 25.07.2026 16:03:36
+Stand: 25.07.2026 16:13:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 15:57)
@@ -60,4 +60,4 @@ den Stationen und laesst jeden Lauf sauber mit rc=0 enden.
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 1966a55f nas-selfcommit: 18 Datei(en) 2026-07-25 16:00
+- 4960f218 normen Run 24: Bookkeeping-Rueckstand (7 Punkte) geschlossen + BRL-14-15-Delta & SIA-266/1 weitere Retro-Verifikation
