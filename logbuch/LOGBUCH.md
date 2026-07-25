@@ -7,6 +7,14 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-25
 
+**Hub-Chef-Lauf ohne Befund (~08:40, geplanter Lauf).** NAS `/Volumes/daten` war beim Start
+NICHT gemountet (NAS-Waechter-Warnung). Skill-Definition, mail-vorfilter.sh, Connectoren und
+das kanonische Logbuch liegen alle auf dem NAS und waren unerreichbar. Gemaess Task-Vorbedingung
+abgebrochen und nur lokal geloggt. Keine neuen Signale gesammelt, keine Aktion (Whitelist nicht
+pruefbar), kein Briefing versendet. Der Logbuch-Radar hat heute 07:00 bereits gescannt und an
+rj@ gemailt (Eintrag unten) — daher keine Doppelmeldung. Bei naechstem Lauf mit gemountetem NAS
+regulaer nachholen.
+
 **Logbuch-Radar (~07:00, Samstag).** NAS zweimal per Tailscale nachgemountet (mobile Station,
 Mount fiel zwischenzeitlich weg). ERLEDIGT seit gestern: KISPI Auflagebereinigung 1171/26 —
 RJ hat 24.07. 17:30 den 33.1 Abaenderungsplan (Auflage II.1.a) ueber eBaugesuche + Mail an AFB
