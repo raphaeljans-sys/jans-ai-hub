@@ -107,6 +107,36 @@ Details siehe `raw/`, Verdichtung siehe `wiki/kennwerte.md`.
 Nicht geprüft in Run 2: SharePoint-Ordner ausserhalb `AR - 01 Projekte` (z.B. `AR - 07 Archiv`
 für abgeschlossene Mandate mit Schlussabrechnung) — Kandidat für Run 3.
 
+## Run 5 (26.07.2026) — Vierte Quelle: SharePoint `IMMO - 06 Kennwerte` (kuratierte Kennwerte-Bibliothek, nicht projektgebunden)
+
+Gemäss Empfehlung aus Run 4 (`wiki/QUESTIONS.md`: "neue Quelle identifizieren") systematisch
+die SharePoint-Bibliotheken ausserhalb `AR - 01`/`AR - 07` gesichtet (`OneDrive-
+FreigegebeneBibliotheken–JANS`, Top-Level-Ordner). Kandidat mit direktem Namensbezug:
+`IMMO - 06 Kennwerte` (kuratierte Kennwerte-/Benchmark-Ablage, nicht nach Projekt sondern nach
+Thema gegliedert: `WOHNEN Baumasse`, `WOHNEN Ausnützungsziffer`, `Healthcare`, `BUERO`, `pms`,
+`Immo-Monitoring_Baupreisteuerung`, `_Archiv`).
+
+| Dokument | Inhalt | Verwertbarkeit |
+|---|---|---|
+| `_Kennwerte Jans.docx` (25.03.2025) | aGF/bGF-Faktoren (Alt-/Neubau 0.8/0.9), Erstellungskosten-Benchmark "Wohnen Individuell" EFH/ZFH (BKP2-Median 2020 indexiert 2025 → 4'485 CHF/m² GF BKP1-5), Rechenbeispiel "Thalwil Bohlweg 1" (950 m² GF, TG 8 SP à 42'000, Total 4.6 Mio, HNF-Kennwert 7'350 CHF/HNF) | `[x]` extrahiert Run 5 → `raw/kennwerte-jans-referenzdokument.md`: eigenständiger m²-GF-Benchmark in `wiki/kennwerte.md`, NICHT in m³-GV-Tabelle umgerechnet (ungeklärter GV/GF-Faktor) |
+| `_Kennwerte_Links.docx` (29.12.2023) | reine Link-Liste externer Benchmark-Quellen (ZH-Wohnbaupreisindex, CRB werk-material, keevalue.ch, BFS, Wüest Reports) | `[-]` keine eigenen Zahlenwerte, nicht als Kennwert übernommen |
+| `pms/5.34_BR_Grobkosten.pdf` | Benutzerhandbuch Drittsoftware "BBase Grobkosten" (PMS Informatik AG, 28.11.2012) | `[-]` untauglich: Drittanbieter-Methodikliteratur, kein JANS-Projektdatum |
+| `BUERO/` (hbre Büromarkt-Analyse + Screenshots) | Büro-Marktmieten Zürich | `[-]` ausserhalb Scope: Marktmiete, keine Erstellungskosten |
+| `WOHNEN Ausnützungsziffer/`, `_Archiv/` | — | `[-]` leere Ordner |
+| `Healthcare/` (HEIM, Umbaukosten, Archiset) | Alters-/Pflegeheim-Kennwerte | `[-]` bewusst nicht geprüft: gehört gemäss `PROGRAMM.md` in Skill `kostenschaetzung`, nicht `grobkosten` |
+| `WOHNEN Baumasse/Flächenkonzeption Wohnen` | Flächenfaktoren Wohnen | `[-]` bereits bekannt/verarbeitet in KB `immobilienbewertung` (`wiki/flaechendefinitionen-sia`), keine Dublette |
+
+**Ergebnis Run 5:** Erste Quelle ausserhalb der reinen Projektordner erschlossen. Ein
+verwertbarer, aber in anderer Einheit (m² GF statt m³ GV) geführter Benchmark gefunden und
+transparent als Parallel-Sektion in `wiki/kennwerte.md` dokumentiert (keine erzwungene
+Umrechnung). Weitere SharePoint-Top-Level-Ordner ungeprüft und Kandidaten für künftige Läufe:
+`AR - 02 Wettbewerbe`, `AR - 03 Studien`, `AR - 04 Honorarauftraege`, `AR - 05 Transfer`,
+`AR - 06 Referenzen`, `IMMO - 01 Projekte`, `IMMO - 02 UBSFS`, `IMMO - 03 KNOW-HOW`,
+`IMMO - 04 Marktpreise` (enthält u.a. `crb.ch/Spital_210522_Kostenkennwerte_Referenzprojekte.pdf`
+— Healthcare, nicht hier relevant), `IMMO - 05 Bodenpreise` sowie die zweite SharePoint-
+Bibliothek `OneDrive-FreigegebeneBibliotheken–RaphaelJans-ArchitektenETH` (`JANS -
+1_Architektur`, `RJ Architekt ETH - 1_Architektur`, komplett ungesichtet).
+
 ## Run 3 (25.07.2026) — Drittquelle SharePoint `AR - 07 Archiv` (abgeschlossene Mandate)
 
 `AR - 07 Archiv/01_Projekte/` enthält nur 4 Ordner: `1318 Lorraine`, `2202 Ackersteinstrasse`,

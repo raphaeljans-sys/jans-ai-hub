@@ -3,6 +3,25 @@
 Stand: 14.07.2026 (Etappe-3-Start: Bauaufgaben-Blocker geschlossen)
 
 ## Offen
+- **Wohnungsbau B1-Sweep (26.07.2026): drei offene Einordnungsfragen fuer B3/B4.**
+  (1) **Felsenrain Zuerich** (Stiftung Alterswohnungen der Stadt Zuerich) ist ein Grenzfall
+  zwischen Wohnungsbau und der bereits abgeschlossenen Healthcare-Etappe (dort war Alterswohnen
+  ohne Pflege Teil des Samples). Bei B3 Programmtext gegenpruefen: enthaelt der Wettbewerb eine
+  Betreuungs-/Pflegekomponente? Falls nein, bleibt der Kandidat im Wohnungsbau-Sample.
+  (2) **6 Kandidaten sind Studienauftrag (SIA 143) statt klassischer Projektwettbewerb**
+  (Korki-Areal Duerrenaesch, Gleis 11 Solothurn, Wolfacker-Gaissbergpark/Bellevue 51/Bernrain
+  Kreuzlingen, Baelliz Thun) — analog zur Healthcare-Praezedenz (Widnau) im Frontmatter als
+  Studienauftrag kennzeichnen, nicht ausschliessen. (3) **7 Kandidaten kombinieren Wohnen mit
+  Gewerbe/Buero/Kultur** (Koch-Areal, Salzweg, Stadtsaege St. Gallen, Industriestrasse Luzern,
+  Erlach Stadtgraben, Les Vernets/PAV Genf, Unterfeld Sued Baar) — Entscheid bei B4 (Muster-
+  Synthese), ob deren Jury-Argumente unveraendert einfliessen oder mit Markierung «gemischt»
+  gefuehrt werden (analog Healthcare-Praxis Thurgauerstrasse/Aesch). Details/vollstaendige
+  Kandidatenliste: `outputs/2026-07-26_etappe3-wohnungsbau-sweep.md`.
+- **Wohnungsbau-Regionalluecke (26.07.2026):** Wallis, Schwyz, Glarus, Appenzell liefern keinen
+  frei zugaenglichen Wohnungsbau-Jurybericht (wie schon bei Schulbau/Healthcare beobachtet,
+  publizieren kleinere Kantone Wettbewerbe seltener als PDF). Kein Blocker fuer B2/B3 (Ziel
+  bereits deutlich uebertroffen: 55 Kandidaten/52 frei-pdf gegen Ziel 15/8), aber Wissensluecke
+  fuer die spaetere Muster-Synthese — bei Gelegenheit erneut pruefen, kein aktiver Suchauftrag.
 - **Betriebsbefund: der Vollgas-Runner schliesst `wettbewerbs-dna-training` NICHT aus (25.07.2026,
   Abendlauf):** Rule 260725 haelt fest, die sechs hochgetakteten Lern-Loops blieben ueber `EXCLUDE_RE`
   aus dem Endlos-Runner ausgeschlossen, «kein Doppellauf Runner↔Task». Tatsaechlich startete der

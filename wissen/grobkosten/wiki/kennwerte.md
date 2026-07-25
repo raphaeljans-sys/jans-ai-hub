@@ -2,7 +2,7 @@
 title: Grobkosten-Kennwerte (CHF/m³ GV, BKP 1–5)
 status: emerging
 last_updated: 2026-07-26
-sources: [skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md, wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro, raw/2414-thalwil.md, raw/2518-grubenackerstrasse.md, raw/2515-wartstrasse.md, raw/2202-ackersteinstrasse.md, raw/2304-reckholdern.md]
+sources: [skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md, wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro, raw/2414-thalwil.md, raw/2518-grubenackerstrasse.md, raw/2515-wartstrasse.md, raw/2202-ackersteinstrasse.md, raw/2304-reckholdern.md, raw/kennwerte-jans-referenzdokument.md]
 links: []
 ---
 
@@ -124,6 +124,30 @@ sondern ein Beleg dafür, dass das bestehende Band den gehobenen/Luxus-Bereich n
 bei einem zweiten vergleichbaren Fall (n=2, gehoben/Luxus-EFH) wäre eine eigene Standardstufe
 "Luxus" mit eigenem Band zu erwägen (siehe `wiki/QUESTIONS.md`).
 
+## Run 5 (26.07.2026) — neue Quelle SharePoint `IMMO - 06 Kennwerte`: eigenständiger m²-GF-Benchmark (parallel zur m³-Tabelle, nicht vermischt)
+
+Neue, bisher ungeprüfte Quelle ausserhalb der Projektordner: JANS' eigenes Referenzblatt
+`_Kennwerte Jans.docx` (Stand 25.03.2025). Liefert einen indexierten Erstellungskosten-
+Benchmark für Wohnen Individuell (EFH/ZFH) — aber auf Bezugsgrösse **CHF/m² GF**, nicht
+CHF/m³ GV. Da der GV/GF-Umrechnungsfaktor selbst als "needs-decision" geführt wird (siehe
+oben, Wissens-Chef Run 15), wird hier **nicht** umgerechnet, sondern der Wert eigenständig
+geführt:
+
+| Nutzung | Bezugsjahr | Kennwert | Herleitung | Reife |
+|---|---|---|---|---|
+| Wohnen Individuell (EFH/ZFH), Medianwert | 2020 → 2025 (Index 100→116) | 4'485 CHF/m² GF (BKP 1-5) | BKP2-Medianwert 2'900 CHF/m² GF (2020) indexiert auf 3'365 (2025), BKP2 = 75 % von BKP1-5 | JANS-Referenzwert, Index-Herleitung nicht rückverfolgt |
+| Tiefgarage (Zuschlag, separat) | — | 42'000 CHF/Parkplatz (BKP 1-5) | aus demselben Referenzblatt, Rechenbeispiel 8 SP | JANS-Referenzwert, Einzelbeleg |
+
+Vollständige Herleitung inkl. Rechenbeispiel "Thalwil Bohlweg 1" (950 m² GF, CHF 4.6 Mio,
+HNF-Kennwert CHF 7'350.-/HNF): `raw/kennwerte-jans-referenzdokument.md`. **Wichtig:** das
+Rechenbeispiel bezieht sich mutmasslich NICHT auf das bereits in dieser KB geführte Projekt
+"2414 THALWIL Bohlweg 3" (andere Hausnummer, ca. 10x grösseres Volumen) — nicht gleichgesetzt,
+offene Frage in `wiki/QUESTIONS.md`.
+
+Weitere in derselben Quelle geprüfte Dokumente (Link-Sammlung, Drittsoftware-Handbuch BBase
+Grobkosten 2012, Büro-Marktmietanalyse hbre) liefern keine verwertbaren JANS-Kostendaten —
+Details und Begründung in `raw/kennwerte-jans-referenzdokument.md`.
+
 ## Zuschläge (multiplikativ)
 
 | Treiber | Zuschlag | Hinweis |
@@ -191,3 +215,8 @@ kennwerte bleibt diese KB; energie liefert nur die Detail-/Betriebskosten (Wisse
   EFH gehoben/Luxus). Ackersteinstrasse: Rechnungsprüfung klärt, dass das Mandat nie zur
   Ausführung kam (letzte Rechnung Abänderungseingabe 09/2023) — bleibt nicht verwertbar, aber
   Ursache dokumentiert statt offen.
+- Run 5 (26.07.2026): neue Quelle ausserhalb der Projektordner geprüft — SharePoint
+  `IMMO - 06 Kennwerte` (kuratierte Kennwerte-Bibliothek, nicht projektgebunden). Liefert einen
+  eigenständigen m²-GF-Benchmark aus JANS' eigenem Referenzblatt (4'485 CHF/m² GF BKP1-5,
+  Wohnen Individuell EFH/ZFH, Index 2020→2025), bewusst NICHT in die m³-GV-Tabelle
+  umgerechnet (ungeklärter GV/GF-Faktor). Details `raw/kennwerte-jans-referenzdokument.md`.

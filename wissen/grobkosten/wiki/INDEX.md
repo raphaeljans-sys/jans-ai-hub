@@ -12,6 +12,9 @@ beide Run-3-Kandidaten: 2304 Reckholdern wird über ein späteres, in sich konsi
 verwertbar (erster Einzelfall mit sauberem GV+BKP-1–5-Tripel, 1'735 CHF/m³ EFH gehoben/Luxus),
 2202 Ackersteinstrasse bleibt nicht verwertbar, aber die Ursache (Mandat endete vor Ausführung)
 ist geklärt. Beide bekannten SharePoint-Quellen damit vollständig geprüft UND vertieft — 5
-Projekte in `raw/` dokumentiert, 1 davon promotionsfähig als Einzelfall n=1.
+Projekte in `raw/` dokumentiert, 1 davon promotionsfähig als Einzelfall n=1. Run 5 erschliesst
+eine vierte Quelle (SharePoint `IMMO - 06 Kennwerte`, kuratierte Kennwerte-Bibliothek statt
+Projektordner) und liefert einen eigenständigen m²-GF-Benchmark (JANS-Referenzblatt, Wohnen
+Individuell EFH/ZFH), der bewusst NICHT in die m³-GV-Tabelle konvertiert wurde.
 
 Offene Fragen / Lücken: siehe [QUESTIONS.md](QUESTIONS.md).

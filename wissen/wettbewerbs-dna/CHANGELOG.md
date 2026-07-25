@@ -1,5 +1,28 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-26 — Etappe 3 Wohnungsbau B1 Quellen-Sweep (Vollgas-Zyklus)
+- Neuer Report `outputs/2026-07-26_etappe3-wohnungsbau-sweep.md`: 6 parallele Scout-Agenten
+  (espazium/zuerich/bern-basel/luzern-ostschweiz/weitere-kantone/genossenschaften-stiftungen)
+  meldeten 61 Rohkandidaten fuer entschiedene Schweizer Wohnungsbau-Wettbewerbe mit
+  Jurybericht-PDF; nach Dedup (6 von je 2 Scouts unabhaengig gefundene identische PDF-URLs)
+  verbleiben **55 eindeutige Kandidaten, 52 davon per curl HTTP-verifiziert (frei-pdf)**.
+  B1-Ziel (>=15 Kandidaten/>=8 frei-pdf) deutlich uebertroffen.
+- Workflow-Tool-Aufruf verweigerte im headless Lauf erneut die interaktive
+  Review-Bestaetigung (wie im Nachtlauf 25.07.) — direkt per 6 parallelen Agent-Tool-Aufrufen
+  (general-purpose, WebSearch+curl) orchestriert, keine Workflow-Infrastruktur benoetigt.
+- Traeger-Typ-Verteilung: 15 genossenschaftlich, 15 stadt-gemeinde, 11 privat-institutionell
+  (Pensionskassen/Anlagestiftungen/Stiftungen), 7 gemischt (Wohnen+Gewerbe/Buero/Kultur),
+  6 Studienauftrag statt klassischer Wettbewerb, 1 Grenzfall Alterswohnen ohne Pflege
+  (Felsenrain Zuerich — bei B3 gegen die bereits abgeschlossene Healthcare-Etappe abgrenzen).
+- Dedup sauber gegen die drei eigenen JANS-Wohnungsbau-Teilnahmen (2205 Zentrum Guggerbach
+  Davos, 2207 Schliengerweg Basel, 2503 Glockenacker Zuerich-Witikon) sowie gegen den
+  bestehenden Schulbau-/Healthcare-Bestand (keine Ueberschneidung).
+- Regionale Luecke dokumentiert: Wallis, Schwyz, Glarus, Appenzell ohne frei zugaenglichen
+  Wohnungsbau-Jurybericht auffindbar (kein Blocker, Ziel bereits uebertroffen).
+- `training/ETAPPE-3.md` Stand-Tabelle (Wohnungsbau B1 auf erledigt) und Lauf-Log
+  nachgefuehrt; `wiki/INDEX.md` Stand-Absatz vorangestellt. **Naechste Zelle: Wohnungsbau
+  B2/B3** (empfohlener 9er-Batch im Sweep-Report markiert, traeger-gespreizt).
+
 ## 2026-07-26 — Wissens-Health-Check (Phase 1, Skill wissenscheck, Nachtschicht Mac Mini)
 Zweiter Health-Check (erster 21.07.). A1·B15·C0·D1·E0·F2·G1. Zentraler Befund unveraendert:
 2206-Schoental-GF-Widerspruch seit 21.07. nicht behoben, jetzt sogar Selbst-Widerspruch

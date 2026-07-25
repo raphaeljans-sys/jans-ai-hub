@@ -2,6 +2,34 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-07-26 — Trainings-Run 5 (neue Quelle SharePoint `IMMO - 06 Kennwerte`): m²-GF-Benchmark gefunden, zwei neue offene Fragen
+
+- **Befund:** Erste Quelle ausserhalb der Projektordner erschlossen. `_Kennwerte Jans.docx`
+  (JANS-eigenes Referenzblatt, 25.03.2025) liefert einen indexierten Erstellungskosten-
+  Benchmark für Wohnen Individuell EFH/ZFH (4'485 CHF/m² GF BKP1-5), aber auf einer anderen
+  Bezugsgrösse (m² GF) als die geführte Tabelle (m³ GV). Details: `raw/kennwerte-jans-
+  referenzdokument.md`, Verdichtung `wiki/kennwerte.md` (neue Parallel-Sektion).
+- **Offene Frage 1 — Projekt-Identität "Thalwil Bohlweg 1":** Das im Referenzblatt gerechnete
+  Beispiel (950 m² GF, 8-Platz-TG, CHF 4.6 Mio) passt weder in Hausnummer (Bohlweg 1 vs. 3)
+  noch in Grössenordnung (Faktor ~10) zum bereits bekannten "2414 THALWIL Bohlweg 3"
+  (EFH-Umbau, CHF 526'300 bzw. 482'000, `raw/2414-thalwil.md`). Ungeklärt, ob es sich um ein
+  anderes/benachbartes Projekt oder einen früheren, grösseren Planungsstand handelt. Nicht
+  autonom auflösbar (keine weitere Quelle in diesem Lauf gefunden) — bei Gelegenheit Raphael
+  fragen, oder in einem künftigen Lauf gezielt nach einem Projekt "Bohlweg 1 Thalwil"
+  suchen (SharePoint-Projektnummer unbekannt, evtl. unter anderer Nummer/Namen abgelegt).
+- **Offene Frage 2 — GV/GF-Umrechnungsfaktor weiterhin ungeklärt (verstärkt den bestehenden
+  needs-decision-Punkt aus Wissens-Chef Run 15):** Der neue m²-GF-Benchmark könnte in die
+  Haupttabelle (CHF/m³ GV) integriert werden, sobald der GV/GF-Faktor für "Wohnen Individuell"
+  entschieden ist. Bis dahin bleibt er als separate Sektion geführt — kein Kennwert wird
+  geraten/umgerechnet.
+- **Vorschlag für Run 6:** Weitere, in diesem Lauf identifizierte, aber ungeprüfte SharePoint-
+  Bibliotheken sichten — Kandidaten mit plausibler Kosten-Relevanz: `AR - 03 Studien` (frühe
+  Machbarkeits-/Kostenschätzungen), `IMMO - 01 Projekte`, `IMMO - 02 UBSFS`,
+  `IMMO - 03 KNOW-HOW`, `IMMO - 05 Bodenpreise`, sowie die komplett ungesichtete zweite
+  SharePoint-Bibliothek `OneDrive-FreigegebeneBibliotheken–RaphaelJans-ArchitektenETH`. Aus
+  `IMMO - 04 Marktpreise` ist bereits ein Healthcare-PDF (`crb.ch/Spital_...Kostenkennwerte...`)
+  bekannt — Weiterleitung an `kostenschaetzung` prüfen, nicht hier verwenden.
+
 ## 2026-07-26 — Trainings-Run 4 (Vertiefung statt neuer Projekte): Reckholdern verwertbar, Ackersteinstrasse-Ursache geklärt — neue offene Frage: Luxus-Standardstufe
 
 - **Befund Reckholdern (gelöst, kein offener Punkt mehr):** Ein fünftes, später datiertes

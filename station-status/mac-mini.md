@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 26.07.2026 00:36:34
+Stand: 26.07.2026 00:46:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 00:36)
@@ -12,4 +12,4 @@ Stand: 26.07.2026 00:36:34
 - keine
 
 ## Hub-Git-Stand (NAS)
-- eb8b911e Nachtschicht Mac Mini 260726: Logbuch-Nachtrag verwaister index.lock
+- 32ff64af planungsgrundlagen Run 91: Frischecheck Kartenportale+Energie (0 neue Dateien, 25. Nullbefund in Folge) + M4 GESCHLOSSEN — KB-weite Umlaut-Sanierung 51 Wiki-Dateien (2334 Tokens korrigiert / 317 bewusst unveraendert / 4769 Zeilen), kuratiertes Token-Mapping statt Regex, Wikilinks+URLs+Zeilenzahl bitgleich verifiziert; neues Werkzeug scripts/umlaut-restore.py + mapping.json; Tippfehler fruehren->frueheren
