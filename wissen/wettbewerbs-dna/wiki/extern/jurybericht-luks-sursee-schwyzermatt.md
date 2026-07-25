@@ -1,6 +1,6 @@
 ---
-title: "Extern-Jurybericht: Neubau Luzerner Kantonsspital Sursee (Schwyzermatt) — Projektwettbewerb (2021)"
-status: draft
+title: "Extern-Jurybericht: Neubau Luzerner Kantonsspital Sursee (Schwyzermatt) — Projektwettbewerb (2024/2025)"
+status: established
 last_updated: "2026-07-25"
 sources:
   - "https://espazium.s3.eu-central-1.amazonaws.com/files/2025-09/sursee-luks-jurybericht.pdf (Bericht des Beurteilungsgremiums, Studienauftrag Neubau LUKS Sursee, LUKS Immobilien AG / Büro für Bauökonomie AG Kriens; Unterschriftenseite datiert Luzern, 15.05.2025, Titelseite datiert Luzern, 02.06.2025; 146 Seiten)"
