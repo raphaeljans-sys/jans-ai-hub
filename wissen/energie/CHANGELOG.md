@@ -2,6 +2,31 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 108: drei parallele Rechercheagenten schliessen gezielt benannte emerging-Lücken
+## (SZ-Steuerparagraph, GEAK-Kosten, Netto-Null — zwei Status-Upgrades), vierte Sättigungs-
+## Bestätigung in Folge
+
+Run 108 wählte erneut bewusst kein neues Themenfeld, sondern griff drei konkrete, bereits in
+`QUESTIONS.md` benannte Lücken bei bestehenden `emerging`-Destillaten an (Vorgabe aus Run 107
+Punkt 6). Die drei Einzelergebnisse stehen bereits als eigene Einträge unten (von den
+Rechercheagenten selbst committet): SZ-Steuerparagraph § 32 Abs. 2 lit. a StG SZ gefunden
+(`steuerabzuege-energetische-sanierung-ch`, bleibt emerging), GEAK-Kosten über drei unabhängige
+Quellen trianguliert (`geak-kosten-efh-mfh`, emerging → established), Netto-Null-Primärquellen
+(Art. 102a KV-ZH, Stadtzürcher Abstimmungsdatum 15.5.2022, kEnG/kEnV-SZ-Negativbefund) vollständig
+geschlossen (`netto-null-klimaziele-zh-sz`, emerging → established). FAQ F76 und F81 geschärft,
+keine neuen FAQ-Nummern. Register nachgeführt: `destillate/INDEX.md`, `wiki/INDEX.md`,
+`wiki/QUESTIONS.md`, `wiki/BAUHERREN-FAQ.md`, `outputs/2026-07-25_energie-run108.md`.
+
+FAQ-Stand unverändert: **154 Kernfragen (F1-F154) belegt.** Destillate-Stand unverändert: **170**
+(zwei Status-Upgrades, kein neues Destillat). Verbleibende `emerging`-Destillate: **59**.
+
+**Beobachtung zur Reife der KB (vierter Lauf in Folge):** Run 105-108 haben alle bewusst auf neue
+Themenwahl verzichtet. Die PROGRAMM.md-Eskalationsschwelle für eine Rücktaktungs-Empfehlung an
+Raphael bleibt erreicht und wird mit diesem vierten Lauf dringlicher — unverändert keine
+eigenmächtige Umsetzung, siehe `QUESTIONS.md` für die vollständige Prioritätenliste (fünf gebündelte
+Kaufentscheide jetzt zehn Runs unverändert seit Run 98, Meta-Punkt M2, SIA-2024-Merge-Vorschlag,
+KB-`normen`-Korrekturhinweis).
+
 ## 2026-07-25 — Netto-Null-Klimaziele-Destillat: alle drei offenen Punkte primärquellig geschlossen, emerging → established
 
 `destillate/netto-null-klimaziele-zh-sz.md` hatte drei offene Punkte, alle über direkten

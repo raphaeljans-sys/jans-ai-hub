@@ -1490,3 +1490,13 @@ heizkoerper-altbau]]` auf established, FAQ F154 geschärft. (b) Ueberschneidungs
 Gesundheitsbau (Run 88) inhaltlich Zeile für Zeile verglichen, Merge-Empfehlung (kein Merge
 ausgeführt, destruktiv) in QUESTIONS.md hinterlegt. Kein neues Themenfeld — dritte Bestätigung der
 Sättigungsdiagnose aus Run 105/106. FAQ-Stand unverändert 154, Destillate-Stand unverändert 170.
+## D80 (Run 108, 2026-07-25) — drei gezielte Primärquellen-Lücken geschlossen, kein neues Themenfeld
+Drei parallele Rechercheagenten schliessen je eine in QUESTIONS.md benannte emerging-Lücke: (a)
+SZ-Steuerparagraph § 32 Abs. 2 lit. a StG SZ gefunden → `[[steuerabzuege-energetische-sanierung-ch]]`
+bleibt emerging (andere Lücken bestehen fort), FAQ F76 geschärft. (b) GEAK-Kosten über drei
+unabhängige Marktquellen (Göldi Energie/energielukas.ch/rundumenergie.ch) trianguliert →
+`[[geak-kosten-efh-mfh]]` auf established. (c) Netto-Null-Primärquellen (Art. 102a KV-ZH-Wortlaut,
+Stadtzürcher Abstimmungsdatum 15.5.2022/74.9 %, kEnG/kEnV-SZ-Negativbefund) vollständig geschlossen
+→ `[[netto-null-klimaziele-zh-sz]]` auf established, FAQ F81 geschärft. Kein neues Themenfeld —
+vierte Bestätigung der Sättigungsdiagnose in Folge (Run 105-108). FAQ-Stand unverändert 154,
+Destillate-Stand unverändert 170, verbleibende emerging-Destillate 59.

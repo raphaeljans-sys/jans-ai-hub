@@ -2002,3 +2002,42 @@ gewachsen, `training/curriculum.md` (D77a-c), `raw/_INGESTED.md`, `CHANGELOG.md`
    dennoch primär bei den verbleibenden `emerging`-Destillaten (61 Stück, Auswahl mit echtem
    Primärquellen-Zugewinn statt struktureller Markt-/Kostenpflicht-Grenze) bleiben statt neue,
    zunehmend randständige Themen zu suchen.
+
+- [x] **Run 108 (2026-07-25) — erneut bewusst KEINE neue Themenwahl, drei parallele
+  Rechercheagenten haben gezielt die in Run 105-107 selbst benannten `emerging`-Lücken
+  angegriffen (Vorgabe aus Run 107 Punkt 6 befolgt: „primär bei den verbleibenden
+  emerging-Destillaten bleiben, Auswahl mit echtem Primärquellen-Zugewinn"):**
+  (1) **SZ-Steuerparagraph** (`[[steuerabzuege-energetische-sanierung-ch]]`) geschlossen ✓ — amtlicher
+  Wortlaut **§ 32 Abs. 2 lit. a StG SZ** (sz.ch, curl+pdftotext, deckungsgleich mit Art. 32 Abs. 2 DBG/
+  § 30 Abs. 2 StG ZH) gefunden; Status bleibt `emerging` (Kantonsoption bis 2050,
+  Erstkäuferabzug-Beträge, amtliche Modellrechnung weiterhin offen), FAQ F76 geschärft.
+  (2) **GEAK-Kostentriangulierung** (`[[geak-kosten-efh-mfh]]`) von `emerging` auf **established**
+  gehoben ✓ — drei unabhängige Marktquellen (Göldi Energie Kt. Bern mit eigener Preisliste,
+  energielukas.ch, rundumenergie.ch) bestätigen dieselbe Grössenordnung wie die bisherige
+  Einzelquelle und liefern erstmals eine MFH-GEAK-Plus-Zahl (3-10 WE bis CHF 2'800); offen bleibt nur
+  noch MFH-GEAK-Plus ab 10 WE (keine Quelle nennt hier eine Zahl).
+  (3) **Netto-Null-Primärquellen** (`[[netto-null-klimaziele-zh-sz]]`) von `emerging` auf
+  **established** gehoben ✓ — alle drei Run-69-Offenpunkte geschlossen: Art. 102a KV-ZH im Wortlaut
+  (zhlex.zh.ch), Stadtzürcher Volksabstimmung exakt 15.5.2022/74.9 % Ja (Gemeindeordnung Stadt
+  Zürich Art. 152/152a als Primärtext identifiziert), kEnG/kEnV Kt. SZ im Volltext durchsucht —
+  primärquellenbestätigter Negativbefund (kein eigenes Zieljahr, § 1a kEnG deckt sich mit Bund
+  «bis 2050»). FAQ F81 geschärft. **Kein neues Themenfeld gewählt.** Destillate-Stand unverändert 170
+  (zwei Status-Upgrades), FAQ-Stand unverändert 154 (F76+F81 geschärft, keine neuen Nummern).
+
+**Register nachgeführt:** `wiki/INDEX.md` (Run-108-Notiz), `wiki/BAUHERREN-FAQ.md` (F76, F81, GEAK-
+Kontext in F36 geschärft), `destillate/INDEX.md` (drei Statuszeilen aktualisiert), `CHANGELOG.md`
+(drei Einzeleinträge der Rechercheagenten bereits vorhanden), `outputs/2026-07-25_energie-run108.md`.
+
+**Nächster Lauf: Priorität**
+1. Die fünf gebündelten Kaufentscheide wachsen seit Run 98 unverändert ohne Entscheidung — jetzt
+   **zehn Runs** in Folge. Dringende Empfehlung unverändert: beim nächsten Kontakt mit Raphael als
+   kurze Bündel-Frage stellen statt weiter automatisch mitzuführen.
+2. Meta-Punkt M2 (eigenständiger Skill "energie"?) seit Run 45 spruchreif, weiterhin unentschieden.
+3. ⚠ Weiterhin offen: KB `normen` pflegt SIA 382/1:2014 fälschlich als aktuell.
+4. SIA-2024-Gesundheitsbau-Merge weiterhin ausführungsreif, wartet auf Raphaels Zustimmung.
+5. ⚠⚠⚠ **Sättigungsdiagnose jetzt vierfach bestätigt (Run 105/106/107/108):** vier Läufe in Folge
+   ohne neue Themenwahl. Empfehlung unverändert und jetzt dringlicher: PROGRAMM.md-Rücktaktung
+   («Intensivphase... dann Rücktaktung ins Nachtfenster VORSCHLAGEN») aktiv bei Raphael vorlegen.
+   Verbleibende `emerging`-Destillate: **59** (61 minus die zwei in Run 108 auf established
+   gehobenen) — weiterhin genug Substanz für gezielte Primärquellen-Nachverifikation statt neuer,
+   randständiger Themen, sollte kein Kontakt zustande kommen.

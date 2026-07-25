@@ -167,6 +167,22 @@ die KB ist mit 170 Destillaten/154 FAQ so weit erschlossen, dass Verifikations-/
 (Primärquellen-Nachlese, Duplikat-Bereinigung) ergiebiger ist als die Suche nach neuen
 Themenkandidaten. Siehe CHANGELOG und `QUESTIONS.md` für die volle Priorität-Liste an Raphael.
 
+**Run 108 (25.07.2026, drei parallele Rechercheagenten, gezielte Primärquellen-Nachverifikation
+statt neuer Themenwahl — vierter Lauf in Folge mit dieser Ausrichtung):** PDF-Inventar weiterhin
+erschöpft seit Run 65. Drei konkrete, in `QUESTIONS.md` bereits benannte Lücken bei bestehenden
+`emerging`-Destillaten primärquellennah geschlossen. (1) `[[steuerabzuege-energetische-sanierung-ch]]`
+— exakter SZ-Steuerparagraph **§ 32 Abs. 2 lit. a StG SZ** am amtlichen Gesetzestext gefunden und
+wortgetreu zitiert (deckungsgleich mit Bund/ZH); Status bleibt `emerging` (andere Lücken bestehen
+fort), FAQ F76 geschärft. (2) `[[geak-kosten-efh-mfh]]` von `emerging` auf **established** gehoben —
+drei von der bisherigen Einzelquelle unabhängige Marktquellen (Göldi Energie Kt. Bern mit eigener
+Preisliste, energielukas.ch, rundumenergie.ch) bestätigen dieselbe Grössenordnung und liefern
+erstmals eine MFH-GEAK-Plus-Zahl, FAQ F36-Kontext geschärft. (3) `[[netto-null-klimaziele-zh-sz]]`
+von `emerging` auf **established** gehoben — alle drei offenen Punkte (Wortlaut Art. 102a KV-ZH,
+exaktes Datum Stadtzürcher Volksabstimmung 15.5.2022/74.9 % Ja, kEnG/kEnV-SZ-Volltextprüfung ohne
+abweichendes Zieljahr) primärquellenverifiziert geschlossen, FAQ F81 geschärft. **Kein neues
+Themenfeld gewählt** — bestätigt die Sättigungsdiagnose ein viertes Mal in Folge (Run 105-108).
+Destillate-Stand: 170 (zwei Status-Upgrades, kein neues Destillat). FAQ-Stand unverändert: 154.
+
 ## Verwandte KBs/Skills
 - Skill `planungsgrundlagen` (Domaene Energie) → Bruecke `wissen/planungsgrundlagen/wiki/energie-uebersicht`
 - Brandschutz bei Solar → Skill `brandschutz`; Energierecht → Skill `baurecht`

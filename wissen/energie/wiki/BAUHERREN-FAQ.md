@@ -1476,11 +1476,12 @@ Energiebezugsfläche nicht überschreitet (AfU-SZ-FAQ, Stand 28.08.2025, Volltex
 **Quelle:** Verein GEAK / EnDK — geak.ch (Was ist der GEAK / Produkt GEAK / FAQ / Weg zum GEAK), Stand
 2026; Reglemente 01.01.2026 → `[[geak-gebaeudeenergieausweis-kantone]]`. Förderbeiträge ZH/SZ →
 `[[foerderprogramm-energie-zh-2026]]`, `[[foerderprogramm-energie-sz-2026]]`; GEAK-Plus-Pflicht ab 10k →
-`[[gebaeudeprogramm-bund-hfm-2015]]`; Kosten-Marktrichtwerte → `[[geak-kosten-efh-mfh]]` (⚠ Sekundärquelle,
-nicht amtlich); Kantonsliste Handänderung → Immobilienmakler-Ratgeber (⚠ Sekundärquelle, keine
-Gesetzesartikel-Nummern, vor Einzelfall-Aussage am kantonalen Energiegesetz verifizieren). ⚠
-**Datenstand 2026-07-13:** GEAK-Kosten projektabhängig (kein amtlicher Fixpreis, nur Marktrichtwerte
-einer Quelle).
+`[[gebaeudeprogramm-bund-hfm-2015]]`; Kosten-Marktrichtwerte (drei unabhängige Marktquellen
+trianguliert, established) → `[[geak-kosten-efh-mfh]]`: EFH GEAK CHF 450–750, GEAK Plus CHF 1'400–2'700;
+MFH GEAK CHF 500–1'000, GEAK Plus (3–10 WE) bis CHF 2'800; Kantonsliste Handänderung → Immobilienmakler-
+Ratgeber (⚠ Sekundärquelle, keine Gesetzesartikel-Nummern, vor Einzelfall-Aussage am kantonalen
+Energiegesetz verifizieren). ⚠ **Datenstand 2026-07-25:** GEAK-Kosten weiterhin projektabhängig (kein
+amtlicher Fixpreis), aber jetzt über drei unabhängige Marktquellen bestätigt.
 
 ---
 
@@ -2752,10 +2753,11 @@ Energieabzug beim Bund für selbstgenutztes Eigentum. Bei vermieteten Liegenscha
 Unterhaltsabzug bestehen. Als grobe, nicht amtliche Illustration nennt eine Treuhandquelle bei
 CHF 37'000 Netto-Investition und ~30 % Grenzsteuersatz eine Ersparnis von rund CHF 11'100.
 
-**Quelle:** Art. 32 Abs. 2 DBG, ZStB Nr. 30.4 Kt. ZH, Schwyzer Steuerbuch 70.20, EFD/SRF zur
-Eigenmietwert-Reform → `[[steuerabzuege-energetische-sanierung-ch]]`. Status **emerging**
-(Bundes-/ZH-Recht primärquellennah, SZ-Paragraph und «bis 2050»-Kantonsoption nicht amtlich
-gegengeprüft).
+**Quelle:** Art. 32 Abs. 2 DBG, § 30 Abs. 2 StG ZH, **§ 32 Abs. 2 lit. a StG SZ** (amtlicher Wortlaut
+2026-07-25 primärquellenverifiziert, deckungsgleich mit Bund/ZH), EFD/SRF zur Eigenmietwert-Reform →
+`[[steuerabzuege-energetische-sanierung-ch]]`. Status **emerging** (Bundes-/ZH-/SZ-Recht jetzt
+primärquellennah belegt; «bis 2050»-Kantonsoption, Erstkäuferabzug-Beträge und amtliche
+Modellrechnung bleiben unbelegt).
 
 ---
 
@@ -2912,11 +2914,12 @@ stützt sich ohne eigene Verschärfung auf das Bundesziel «spätestens 2050». 
 Heizungsersatz tatsächlich eine Nachweispflicht auslöst, sind die bereits seit 2022 geltenden
 kantonalen Vorschriften — unabhängig vom Ausgang der Netto-Null-Debatte.
 
-**Quelle:** Klimaschutzgesetz Bund, Art. 102a KV-ZH, ZH-Energiegesetz-Abstimmung 28.9.2025,
-Stadt-Zürich-Klimaschutzziele, Kt. SZ Energie- und Klimaplanung 2023+ / kEnG →
-`[[netto-null-klimaziele-zh-sz]]`. Status **emerging** (Bundes-/ZH-Abstimmungsverlauf
-primärquellennah; genaues Stadt-ZH-Abstimmungsdatum + SZ-kEnG-Volltext nicht abschliessend
-geprüft).
+**Quelle:** Klimaschutzgesetz Bund, **Art. 102a KV-ZH im Wortlaut** (zhlex.zh.ch, Kantonsratsbeschluss
+25.10.2021, in Kraft 1.11.2022), ZH-Energiegesetz-Abstimmung 28.9.2025, **Gemeindeordnung Stadt
+Zürich Art. 152/152a** (Volksabstimmung 15.5.2022, 74.9 % Ja), **kEnG/kEnV Kt. SZ im Volltext**
+(SRSZ 420.100/420.111, § 1a kEnG «bis 2050», primärquellenbestätigter Negativbefund gegen ein
+abweichendes Zieljahr) → `[[netto-null-klimaziele-zh-sz]]`. Status **established** (alle drei
+ursprünglich offenen Punkte am 2026-07-25 primärquellenverifiziert geschlossen).
 
 ---
 
