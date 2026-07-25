@@ -2,6 +2,33 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-07-25 — Trainings-Run 2 (SharePoint-Zweitquelle geprüft): erste Realdaten, aber durchgängig zu dünn für Promotion
+
+- **Befund:** SharePoint `AR - 01 Projekte` (aktive Mandate) bestätigt die in Run 1 offen
+  gelassene Vermutung — hier liegen die echten Kostendokumente, nicht im NAS-Altarchiv. Von 8
+  geprüften Mandaten liefern 3 auswertbare Gesamtgebäude-Kostendokumente (Thalwil, Wartstrasse,
+  Grubenackerstrasse). Alle drei sind jedoch für eine Kennwert-Promotion **zu dünn**: Thalwil
+  hat ein volles BKP-1-6-Bild (CHF 526'300) aber kein Gesamt-GV; Wartstrasse hat gar kein
+  GV (Fassaden-Teilprojekt); Grubenackerstrasse hat ein Volumen (1'668 m³), aber nicht
+  SIA-416-verifiziert, ohne BKP-Gliederung und ohne Nutzungsangabe. Details: `raw/*.md`.
+- **Strukturelles Muster (wichtig für künftige Läufe):** Die Dokumente, die tatsächlich ein
+  sauberes GV+BKP-1-5+Nutzung-Tripel enthalten würden, existieren im JANS-Alltag offenbar
+  selten als EIN Dokument — GV steckt oft im Vorprojekt/Baugesuch (Planer-Fachdokument), BKP-
+  Kosten in einem separaten Kostenblatt. Ein künftiger Lauf sollte pro Projekt gezielt NACH
+  dem GV-Dokument (Baugesuch, Vorprojekt-Pläne mit Kubatur) suchen und es mit dem Kostenblatt
+  zusammenführen, statt nur das Kostenblatt allein zu prüfen.
+- **Ausgeschlossen (bewusst, nicht offen):** 2619 KISPI (Kinderspital Zürich, umfangreichstes
+  Kostendossier im Bestand) — Healthcare-Scope, gehört in den Skill `kostenschaetzung`, nicht
+  hierher. Empfehlung: eigener Hinweis an den `kostenschaetzung`-Loop, falls dieser die
+  KISPI-Kostendaten noch nicht kennt.
+- **Nebenbefund (kein grobkosten-Thema, aber notiert):** `2518_Grubenackerstrasse_7/
+  04_KostenTermine/1_Kosten/2_Kostenschätzung/230324 Kostenvergleich Liftposition/` enthält
+  Fremddaten zweier anderer Projekte (Reckholdern 20, Laternengasse 5) — Fehlablage, read-only
+  nicht bereinigt, zur Kenntnis an Raphael.
+- **Vorschlag für Run 3:** SharePoint `AR - 07 Archiv` (abgeschlossene Mandate mit
+  Schlussabrechnung) prüfen — dort ist die Wahrscheinlichkeit eines vollständigen GV+BKP-Bilds
+  höher als bei laufenden Mandaten (deren KV/GKS oft vor Baubeginn und ohne finales GV steht).
+
 ## 2026-07-25 — Trainings-Run 1 (Stufe 1, Inventar): Altarchiv `04_Buero/02_Projekte` liefert 0 auswertbare Kostendokumente — Zweitquelle SharePoint prüfen
 
 - **Befund:** Vollständige Durchsicht aller 21 Projektordner unter

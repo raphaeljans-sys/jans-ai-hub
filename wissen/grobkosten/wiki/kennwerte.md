@@ -1,8 +1,8 @@
 ---
 title: Grobkosten-Kennwerte (CHF/m³ GV, BKP 1–5)
 status: emerging
-last_updated: 2026-07-24
-sources: [skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md, wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro]
+last_updated: 2026-07-25
+sources: [skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md, wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro, raw/2414-thalwil.md, raw/2518-grubenackerstrasse.md, raw/2515-wartstrasse.md]
 links: []
 ---
 
@@ -65,6 +65,24 @@ Region Zürich / Zentralschweiz. Preisstand 2026. Immer als Grobschätzung ±25 
 | EFH (Einfamilienhaus) | mittel–gehoben | 1'000 | 850–1'200 | Seed |
 | Reihen-/Doppeleinfamilienhaus | mittel | 900 | 800–1'050 | Seed |
 
+## Erste reale Datenpunkte (Run 2, 25.07.2026) — Einzelfälle, noch nicht promotionsfähig
+
+Erster Ingest aus `raw/` (SharePoint `AR - 01 Projekte`, aktive Mandate). Beide Fälle sind zu
+dünn belegt für eine Median-Bildung mit dem Seed-Band (Reife bleibt **Seed**, siehe Stufe-3-
+Regel in `training/PROGRAMM.md`: bei n=1 den Seed nicht überschreiben) — hier nur transparent
+als Einzelfall mit vollem Kaveat geführt, damit sie beim nächsten Fall (n=2) sofort verdichtet
+werden können.
+
+| Projekt | Bezug | Kennwert | Kaveat | Reife |
+|---|---|---|---|---|
+| 2414 Thalwil (EFH-Umbau) | Aufstockung mit Terrasse, Neubauteil, 160 m³ | 1'600 CHF/m³ | Teilvolumen (nicht Gesamt-GV), JANS-Grobschätzung 03/2025, kein Ausführungsbeleg | Einzelfall n=1 |
+| 2414 Thalwil (EFH-Umbau) | Velokeller/Terrasse, Neubauteil, 90 m³ | 800 CHF/m³ | Teilvolumen (nicht Gesamt-GV), JANS-Grobschätzung 03/2025, kein Ausführungsbeleg | Einzelfall n=1 |
+| 2518 Grubenackerstrasse 7 | Gesamtvolumen 1'668 m³ (TG/ZG/UG/EG/OG) | 950–1'050 CHF/m³ | Volumen NICHT SIA-416-verifiziert (rohe Fläche×Höhe-Rechnung), Nutzung/Standard/Bauherrschaft unbekannt, keine BKP-Gliederung, Preisstand 04/2023 | Einzelfall n=1, unverifiziert |
+
+Vollständige Extraktion inkl. BKP-Detailpositionen: `raw/2414-thalwil.md`,
+`raw/2518-grubenackerstrasse.md`. Ebenfalls geprüft, aber ohne verwertbaren CHF/m³-Datenpunkt:
+`raw/2515-wartstrasse.md` (Fassaden-Teilprojekt ohne GV-Bezug, CHF 25'200).
+
 ## Zuschläge (multiplikativ)
 
 | Treiber | Zuschlag | Hinweis |
@@ -115,3 +133,8 @@ kennwerte bleibt diese KB; energie liefert nur die Detail-/Betriebskosten (Wisse
 - Seed 07.06.2026: Marktannahme MFH/EFH Neubau Region ZH (Erfahrungswerte JANS), kalibriert an der
   Studie 2621 Giebelweg 12. Noch ohne Realabrechnung.
 - Ziel: schrittweise Ablösung durch reale JANS-Daten (raw/) und publizierte Benchmarks.
+- Run 2 (25.07.2026): erster raw/-Ingest aus SharePoint `AR - 01 Projekte` (aktive Mandate,
+  Zweitquelle nach Nullbefund im NAS-Altarchiv `04_Buero/02_Projekte`, siehe
+  `training/quellen-inventar.md`). Zwei dünne Einzelfälle (2414 Thalwil, 2518 Grubenacker-
+  strasse) oben unter "Erste reale Datenpunkte" dokumentiert — Seed-Werte bewusst NICHT
+  überschrieben (Provenienz zu schwach für n=1-Promotion).

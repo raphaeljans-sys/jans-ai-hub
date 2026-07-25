@@ -1,5 +1,26 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-25 — Trainings-Run 2 (Stufe 1+2: SharePoint-Zweitquelle, erster raw/-Ingest)
+- `training/quellen-inventar.md` erweitert: alle 8 aktiven Mandate unter SharePoint
+  `AR - 01 Projekte` auf Kostendokumente geprüft (Zweitquelle gemäss Empfehlung aus Run 1).
+  3 von 8 liefern auswertbare Gesamtgebäude-Kostendokumente (Thalwil, Wartstrasse,
+  Grubenackerstrasse); 2619 KISPI bewusst als Healthcare-Scope ausgeschlossen (gehört zu
+  Skill `kostenschaetzung`); 4 weitere ohne verwertbares Material (leer/kein Treffer).
+- **Erster echter `raw/`-Ingest:** `raw/2414-thalwil.md`, `raw/2515-wartstrasse.md`,
+  `raw/2518-grubenackerstrasse.md` neu angelegt. Keiner der drei Fälle erreicht die Bar für
+  eine Promotion auf "belegt (n=…)" — Thalwil hat volle BKP-1-6-Kosten (526'300) aber kein
+  Gesamt-GV, Wartstrasse hat gar kein GV (Fassaden-Teilprojekt), Grubenackerstrasse hat ein
+  Volumen (1'668 m³) ohne SIA-416-Verifikation und ohne BKP-Gliederung.
+- `wiki/kennwerte.md`: neuer Abschnitt "Erste reale Datenpunkte (Run 2)" mit den zwei
+  brauchbaren Einzelfällen (Thalwil-Teilvolumen 1'600/800 CHF/m³, Grubenackerstrasse
+  950-1'050 CHF/m³ unverifiziert) — Seed-Werte bewusst NICHT überschrieben (Regel: bei n=1
+  Seed nicht ersetzen). Frontmatter/Provenienz-Abschnitt nachgeführt.
+- Neue Frage in `wiki/QUESTIONS.md`: strukturelles Muster erkannt (GV und BKP-Kosten liegen
+  bei JANS meist in getrennten Dokumenten, künftige Läufe sollten gezielt beide zusammenführen);
+  Vorschlag für Run 3: SharePoint `AR - 07 Archiv` (abgeschlossene Mandate mit
+  Schlussabrechnung) prüfen. Nebenbefund Fehlablage in Grubenackerstrasse-Ordner vermerkt
+  (read-only, nicht bereinigt). Lauf-Report: `outputs/2026-07-25_grobkosten-run2.md`.
+
 ## 2026-07-25 — Trainings-Run 1 (Stufe 1: Quellen-Inventar 04_Buero/02_Projekte)
 - `training/quellen-inventar.md` neu angelegt: alle 21 Projektordner unter
   `/Volumes/daten/04_Buero/02_Projekte/` systematisch auf Kostendokumente geprüft (10 ohne

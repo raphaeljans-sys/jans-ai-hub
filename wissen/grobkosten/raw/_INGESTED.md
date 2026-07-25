@@ -3,12 +3,15 @@
 Legende Status: `offen` (noch nicht gelesen) · `teilweise` (angelesen/quergelesen) ·
 `eingearbeitet` (in Wiki-Artikel verdichtet).
 
-**Stand 2026-07-24 (nachgetragen, Health-Check-Finding 01.07./21.07.2026):** `raw/` enthält
-bislang nur `README.md` — keine realen JANS-Schlussabrechnungen eingegangen. Alle Kennwerte in
-`wiki/kennwerte.md` bleiben daher Status "Seed", kalibriert an externen Wüest-Benchmarks
-(siehe `sources` im Frontmatter), nicht an eigenem `raw/`-Material. Erster echter Ingest löst
-die Promotion auf "belegt (n=…)" aus (siehe Compounding-Abschnitt in `kennwerte.md`).
+**Stand 2026-07-25 (Run 2):** Erster realer Ingest aus SharePoint `AR - 01 Projekte`. Alle drei
+Fälle sind als "Einzelfall n=1" bzw. "nicht verwertbar" eingearbeitet — keine Promotion auf
+"belegt (n=…)" ausgelöst, da Provenienzkette (SIA-416-GV, BKP-Gliederung, Nutzung) in jedem
+Fall lückenhaft ist. Die Seed-Werte in `wiki/kennwerte.md` bleiben Status "Seed, Wüest-
+kalibriert".
 
 | Datei | Status | Bemerkung |
 |---|---|---|
 | README.md | eingearbeitet | Scope-/Nutzungshinweis für `raw/`, kein Kennwert-Rohmaterial |
+| 2414-thalwil.md | eingearbeitet | Volles BKP-1-6-Bild (526'300 CHF, kein GV) + 2 Teilvolumen-Kennwerte als Einzelfall n=1 in `kennwerte.md` |
+| 2515-wartstrasse.md | eingearbeitet | Kein GV, nicht verwertbar für CHF/m³-Kennwerte; in `kennwerte.md` als geprüft/verworfen vermerkt |
+| 2518-grubenackerstrasse.md | eingearbeitet | 950-1'050 CHF/m³ auf unverifiziertem Volumen, Einzelfall n=1 unverifiziert in `kennwerte.md` |

@@ -80,3 +80,29 @@ Frage in `wiki/QUESTIONS.md` festgehalten.
 (docx/pdf-Kopfzeilen). Keine weiteren Namensvarianten offen (Suche deckte "Kosten",
 "kosten" gross/klein sowie die im PROGRAMM genannten Alt-Bezeichnungen "4 Kosten",
 "6_Kosten" ab).
+
+## Run 2 (25.07.2026) — Zweitquelle SharePoint `AR - 01 Projekte` (aktive Mandate)
+
+Bestätigt die in `wiki/QUESTIONS.md` (2026-07-25) offen gelassene Vermutung: die aktiven
+JANS-Bauleitungsmandate führen ihre Kostendokumente NICHT im NAS-Altarchiv, sondern in den
+SharePoint-Projektordnern `OneDrive-FreigegebeneBibliotheken–JANS/AR - 01 Projekte/<projektnr>/`.
+Systematische Durchsicht aller 8 aktiven Mandatsordner (Tiefe 3, `find -iname "*kosten*"` +
+Sichtprüfung der Dateiebene):
+
+| Projekt | Kosten-Fund | Verwertbarkeit |
+|---|---|---|
+| 2414 THALWIL | `04 KT/1_Kosten/Kostenschätzung JANS/`, `.../Kostenvoranschlag pw/`, `04 KT/5 Näherbaurecht/Grobkostenberechnung III...docx` | `[x]` extrahiert Run 2 → `raw/2414-thalwil.md`: volles BKP-1-6-Bild (Total 526'300, kein GV) + zwei Teilvolumen-Kennwerte (Aufstockung 1'600, Anbau 800 CHF/m³, Einzelfall n=1) |
+| 2515 WARTSTRASSE_7 | `04_KostenTermine/1_Kosten/260223 2515 WARTSTRASSE8 GKS.pdf` (+ Vorversionen `_Archiv`) | `[x]` extrahiert Run 2 → `raw/2515-wartstrasse.md`: kein GV, Fassaden-Teilprojekt CHF 25'200, nicht verwertbar für GV-Kennwerte |
+| 2518_Grubenackerstrasse_7 | `04_KostenTermine/1_Kosten/2_Kostenschätzung/230405_GKS/230405_GKS.docx` | `[x]` extrahiert Run 2 → `raw/2518-grubenackerstrasse.md`: 950-1'050 CHF/m³ auf nicht SIA-416-verifiziertem Volumen 1'668 m³, Nutzung unbekannt — Einzelfall n=1, unverifiziert. Nebenbefund: Unterordner `230324 Kostenvergleich Liftposition` ist eine Fehlablage (Daten zweier fremder Projekte), nicht verwendet |
+| 2619_KINDERSPITAL | `04_KostenTermine/1_Kosten/4_Baukosten/2619 KISPI BAUKOSTEN.xlsx` (Baukosten, nahe Ist), `.../2_Kostenschätzung/`, `.../3_Kostenvoranschlag/` — umfangreichstes Kostendossier im ganzen Bestand | `[-]` **bewusst ausgeschlossen**: Kinderspital Zürich = Healthcare-Institution, gehört gemäss `training/PROGRAMM.md` ("Healthcare gehört nicht hierher") in den Skill `kostenschaetzung` (Wüest-Partner m²-NF-Daten), nicht in `grobkosten`. Empfehlung an `kostenschaetzung`-Loop weitergeben (siehe `wiki/QUESTIONS.md`). |
+| 2201 Laternengasse | `04_KTV/01_Kosten/` (KV Sanitär-Ausmass, Modul3 BakeryCafé-Kosten, alte Kostenschätzung) | `[-]` untauglich für GV-Scope: reine Fitout-/Mieterausbau-Einzelpositionen (Sanitär, Café-Modul), kein Gesamtgebäude-GV; analog zu `1318_Lorraine_Kueche` potenziell für eine künftige BKP-Einzelposition-KB, hier nicht verwertet |
+| 2516 WINTERBERG | `04_KostenTermine/1_Kosten/` | `[-]` Ordner leer |
+| 2517 MOW | kein Treffer | `[-]` keine Kostenordner |
+| 2620_KELLER (Albertstrasse 7) | kein Treffer (Tiefe 2) | `[-]` keine Kostenordner — frühe Bauleitungsphase, Kostendokumente evtl. noch nicht angelegt oder unter anderem Namen; bei Gelegenheit erneut prüfen |
+
+Ergebnis: **3 auswertbare Gesamtgebäude-Kostendokumente** gefunden und extrahiert (Thalwil,
+Wartstrasse 8, Grubenackerstrasse 7) — die ersten realen JANS-Kostendaten in dieser KB.
+Details siehe `raw/`, Verdichtung siehe `wiki/kennwerte.md`.
+
+Nicht geprüft in Run 2: SharePoint-Ordner ausserhalb `AR - 01 Projekte` (z.B. `AR - 07 Archiv`
+für abgeschlossene Mandate mit Schlussabrechnung) — Kandidat für Run 3.
