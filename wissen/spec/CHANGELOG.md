@@ -1,5 +1,28 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-26 — Trainingslauf 36 (Verifikationslauf)
+- Output `outputs/2026-07-26_training-run36.md`. Erster Lauf am neuen Kalendertag; keine
+  neue reale Spec seit Lauf 24 (SYN-02); zehnter Verifikationslauf in Folge.
+- **P1 (mail@-Blindfleck `ag-gruendung-monitor`) hält weiter:** SKILL.md-mtime unverändert
+  21.07.2026 07:49; `fristen.md` bestätigt UBS-Strang 29 Tage ohne Antwort (Stand 25.07.,
+  letzter Monitor-Eintrag); für Sa/So 25./26.07. planmässig kein neuer Eintrag (Mo-Fr-Cron,
+  keine Regression).
+- **Scheduling-Diskrepanz `spec-training` (dritter Beleg):** `~/.claude/scheduled-tasks/
+  spec-training/SKILL.md` trägt weiterhin mtime 25.07.2026 13:18 und den Text «1x taeglich»,
+  obwohl Rule `auto-verbesserungen.md` (260725) eine 2x-täglich-Umstellung behauptet und die
+  tatsächliche Feuerfrequenz am 25.07. (Läufe 28–35) stündlich war — keines der drei Bilder
+  deckt sich. Dritter Lauf in Folge mit demselben Befund; weiterhin Raphael zur Klärung
+  vorgelegt, kein Eingriff in die Task-Definition selbst (ausserhalb KB-Mandat).
+- Environment-Zählstand (49 Skills/22 Rules/16 KBs) unverändert seit Lauf 26 — kein voller
+  Sweep fällig.
+- **Bewusst nicht getan:** kein erfundenes F1-Überdehnungsbeispiel; keine Rule-/Skill-/Wiki-
+  Methodik-Änderung ohne neuen Beleg; kein Eingriff in Runner-Konfiguration, Task-Registry
+  oder die lokalen SKILL.md-Task-Definitionen; kein Mailversand.
+- Offen: F1-Überdehnungs-Gegentest unbelegt; F3 Marketing/Text letzte offene Domänenzeile;
+  SYN-02-MVP-Bau Block 1 ungebaut (Faktenbasis seit Lauf 28 gewachsen, SYN-15 unverändert
+  offen); UBS-Strecke 29 Tage überfällig; Scheduling-Diskrepanz dreifach belegt, Klärung bei
+  Raphael.
+
 ## 2026-07-25 — Trainingslauf 35 (Verifikationslauf)
 - Output `outputs/2026-07-25_training-run35.md`. Keine neue reale Spec seit Lauf 24 (SYN-02);
   neunter Verifikationslauf in Folge am 25.07.2026.
