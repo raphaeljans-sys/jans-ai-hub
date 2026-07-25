@@ -3,6 +3,20 @@
 Stand: 14.07.2026 (Etappe-3-Start: Bauaufgaben-Blocker geschlossen)
 
 ## Offen
+- **Betriebsbefund: der Vollgas-Runner schliesst `wettbewerbs-dna-training` NICHT aus (25.07.2026,
+  Abendlauf):** Rule 260725 haelt fest, die sechs hochgetakteten Lern-Loops blieben ueber `EXCLUDE_RE`
+  aus dem Endlos-Runner ausgeschlossen, «kein Doppellauf Runner↔Task». Tatsaechlich startete der
+  Runner auf dem MacBook Pro heute mehrfach `wettbewerbs-dna-training` (Log `logbuch/vollgas/
+  Macbookpro.log`: 20:13, 21:22), waehrend der gleichnamige Scheduled Task lief — beide Instanzen
+  arbeiteten gleichzeitig an B6/2101 und schrieben in `wiki/muster/kennwerte-healthcare.md`, was
+  einen `index.lock`-Konflikt und eine Doppel-Refuter-Welle ausloeste. Immerhin hat die Doppelung
+  hier genutzt (die zweite Welle fand vier Fundstellen, welche die erste durchgewinkt hatte) — als
+  Betriebsmuster ist sie aber Token-Verschwendung und riskiert widersprechende Register-Edits.
+  **Klaerungsweg / Entscheid Raphael:** entweder `EXCLUDE_RE` im `vollgas-runner.sh` tatsaechlich um
+  die sechs Loop-Namen ergaenzen (dann stimmt die Rule wieder), oder Rule 260725 an die Realitaet
+  anpassen und den Loops einen verbindlichen Lockfile-Check verpassen. Verwandt: Rule 260724
+  (Zweitinstanz-Check, pathspec-begrenzte Commits) — der Check greift nur, wenn er VOR Beginn und
+  nicht nur beim Commit erfolgt.
 - **Kispi Luzern: sind die vier Bettenzahlen des Raumprogramms additiv? (Refuter Spital/Klinik,
   25.07.2026):** Der Jurybericht listet unter «rund 17'300 m² Nutzfläche ... darin enthalten sind»
   die Positionen 32 Betten Neonatologie, 15 Betten Kinder-Intensivmedizin, 72 Betten Kinderspital,
