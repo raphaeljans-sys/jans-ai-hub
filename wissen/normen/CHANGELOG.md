@@ -1,3 +1,36 @@
+## 2026-07-25 — Run 28 (MacBook Pro): drei P2-Teildestillate auf den vorhandenen Bestand hin vervollstaendigt (Vertiefungsstufe a), Workflow-Tool blockiert (interaktive Review-Sperre), Fallback ueber direkte Parallel-Agenten
+- **Auslöser:** Nach acht Bestaetigungen "SIA/VKF komplett" (Run 20-27) und der Q&A-Vertiefung aller 15
+  Kernnormen (Run 27) zeigte eine gezielte Pruefung der als "Teil-Destillat" gefuehrten P2-Normen drei
+  Faelle mit ungelesenen Seiten IM BEREITS VORHANDENEN PDF (kein Bring-Schulden-Fall): `sia-121-2003.md`
+  (Formularblaetter S.18-22), `sia-180-2014.md` (Anhaenge A-H S.50-72), `sia-181-2006.md` (Anhang A+B
+  S.34-47). Dies ist genau die in `training/PROGRAMM.md` Vertiefungsstufe (a) vorgesehene Arbeit.
+- **Workflow-Tool blockiert:** Der geplante Multi-Agent-Workflow (Destill+Verify-Pipeline) scheiterte mit
+  "Review dynamic workflow before running" — eine interaktive Freigabe, die im headless/Scheduled-Task-
+  Kontext nicht verfuegbar ist. **Fallback gemaess PROGRAMM.md** genutzt: 3 parallele Destillier-Agenten
+  (Agent-Tool, `general-purpose`, model sonnet) gefolgt von 3 parallelen unabhaengigen Verifikations-
+  Agenten (Refuter-Prinzip). Lehre fuer kuenftige Laeufe: Workflow-Tool im headless Scheduled-Task-Kontext
+  derzeit nicht nutzbar, direkter Agent-Tool-Fallback funktioniert zuverlaessig.
+- **sia-121-2003.md**: Formulare SIA 1021/1-1021/4 + Genehmigung (Delegiertenversammlung 21.06.2003 Basel,
+  Kuendig/Mosimann) ergaenzt, ~25 Aussagen. Verifikation: 1 Befund (Lohnklassen-Verteilung im Formular
+  1021/4 faelschlich als "Basisjahr"-Spalte dargestellt, ist eigene nicht-jahresspezifische Spalte) —
+  korrigiert. Status "destilliert VOLLSTAENDIG" (nicht established, da Verifikation nicht 0-Befund war).
+- **sia-180-2014.md**: Anhaenge A-H (Saettigungsdampfdruck, Fanger-Gleichung/PMV, Kaltluftabfall-Formel,
+  Sommersimulation, Waermespeicherfaehigkeit, Glaserverfahren-Details, Oberflaechentemperaturfaktoren,
+  Luftschadstoffe) in die passenden Kap.2-6-Abschnitte integriert, 9 neue Fundstellen-Bloecke. Verifikation:
+  1 Befund (Anhang C.1 Sonnenschutz-Steuerregel sinnentstellt — "unbehaglicher/zu warmer" statt korrekt
+  "behaglicher oder zu warmer" Raumtemperatur; eine Bedeutungsumkehrung) — korrigiert. Status "destilliert
+  VOLLSTAENDIG" (nicht established). Korrigenda-C2:2020-Bring-Schuld bleibt unveraendert offen.
+- **sia-181-2006.md**: Anhang A (Musik-/tieffrequente Emissionen, Tab. 9/10) + Anhang B (Messverfahren,
+  K1-K4-Korrekturen) ergaenzt, ~21 Aussagen — Details siehe Eintrag direkt unten. Verifikation: 3 Befunde
+  (Fundstellen-Attribution Ziff. B.1.1, fehlende Alternative in B.1.4.5/.4.6, Amtsname "Bundesamt fuer
+  Metrologie und Akkreditierung" statt verkuerzt "Metrologie") — alle korrigiert. Status bleibt bewusst
+  "teil-destillat" (Anhaenge E/F/G/H/J weiterhin offen, informativ/nachrangig).
+- **Bilanz Verifikationsstufe:** alle 3 Destillate wurden beanstandet (1/1/3 Befunde), 0 mit sauberem
+  Null-Befund — bestaetigt erneut die Methodik-Pflicht aus `training/PROGRAMM.md` (Verifikation ist kein
+  Ritual, sondern findet regelmaessig echte Fehler; keines der drei wurde deshalb auf `established`
+  gehoben). `training/norm-inventar.md` fuer alle drei Zeilen nachgefuehrt (Status/Datum/Bemerkung).
+  Details Report `outputs/2026-07-25_normen-nacht-run28.md`.
+
 ## 2026-07-25 — sia-181-2006.md: Anhang A (Musik-/tieffrequente Emissionen) + Anhang B (Messverfahren) ergaenzt
 - **S. 34-47 gelesen** (bisher offen laut eigenem "Offene Punkte"-Abschnitt). Anhang A (normativ) neu als
   eigener Abschnitt nach "Trittschall" verankert: Definition erheblich tieffrequenter Emissionen (Ziff. A.1.2),

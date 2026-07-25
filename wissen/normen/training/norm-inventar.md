@@ -1,5 +1,18 @@
 # Norm-Inventar — Arbeitsliste des Nacht-Loops `normen-training-nacht`
 
+- **Run 28 (MacBook Pro, 260725) — drei P2-Teildestillate vervollstaendigt (Vertiefungsstufe a),
+  Workflow-Tool im headless Kontext blockiert, Fallback ueber direkte Parallel-Agenten bewaehrt.**
+  Nach acht "SIA/VKF komplett"-Bestaetigungen (Run 20-27) gezielt die als "Teil-Destillat" gefuehrten
+  P2-Normen geprueft: `sia-121-2003.md` (Formularblaetter S.18-22), `sia-180-2014.md` (Anhaenge A-H
+  S.50-72), `sia-181-2006.md` (Anhang A+B S.34-47) hatten ungelesene Seiten IM BEREITS VORHANDENEN PDF.
+  Alle drei destilliert (3 parallele Agenten) und adversarial verifiziert (3 weitere parallele Agenten,
+  Refuter-Prinzip). Ergebnis: **alle drei beanstandet** (1/1/3 Befunde, alle korrigiert) — Verifikation
+  bleibt Pflicht, kein Ritual. sia-121 und sia-180 jetzt Status "destilliert VOLLSTAENDIG", sia-181
+  bleibt bewusst "teil-destillat" (Anhaenge E/F/G/H/J informativ/nachrangig, nicht Teil dieses Laufs).
+  Workflow-Tool-Aufruf scheiterte mit "Review dynamic workflow before running" (interaktive Freigabe
+  im Scheduled-Task-Kontext nicht verfuegbar) — Fallback gemaess `training/PROGRAMM.md` funktionierte.
+  Details `CHANGELOG.md`, Report `outputs/2026-07-25_normen-nacht-run28.md`.
+
 - **Run 26 (MacBook Pro, 260725) — die beiden letzten Run-25-Folgeaufgaben abgeschlossen, speculative-
   Bestandsliste jetzt bis auf den einen bewusst dauerhaften Fall leer.** Kein neues Destillat, 0 offene
   `[ ]`-Positionen unverändert (Frischecheck: 458 SIA-PDF/58 VKF-Dateien, keine Änderung seit Run 21).
@@ -137,7 +150,7 @@
 | [x] 260714 | P2 | `108-U_2014_d.pdf` | 108 | 2014 | gilt (jüngste im Bestand); established (verifiziert 260714, mehrere komplett fehlende Artikel ergaenzt: 1.7.21/.22, 1.9.3, 1.10.2/.4, 1.11/1.12, 3.5/3.6, 5.5/5.6/5.9/5.10/5.11); sia-108-2014.md |
 | — | — | `108_2003_d.pdf` | 108 | 2003 | ersetzt durch 108:2014 (destilliert sia-108-2014.md); Altausgabe uebersprungen |
 | [x] 260713 | P2 | `110_2003_d.pdf` | 110 | 2003 |  Reconcile 260713: sia-110-2003.md (verifiziert established 260713)  |
-| [x] 260713 | P2 | `121_2003_d.pdf` | 121 | 2003 | Teil-Destillat (Formularblaetter S.18-22 nicht im Detail); verifiziert 260713, 1 Fehler korrigiert (Ziff. 3.7); sia-121-2003.md |
+| [x] 260725 | P2 | `121_2003_d.pdf` | 121 | 2003 | VOLLSTAENDIG (Run 28, 260725: Formularblaetter SIA 1021/1-1021/4 + Genehmigung S.18-22 destilliert + adversarial verifiziert, ~25 Aussagen, 1 Befund korrigiert [1021/4-Lohnklassenverteilung faelschlich als Basisjahr-Spalte]); Kern verifiziert 260713 (1 Fehler Ziff. 3.7); sia-121-2003.md |
 | [x] 260713 | P2 | `125_2017.pdf` | 125 | 2017 | established, verifiziert 260713; sia-125-2017.md |
 | — | — | `142_1998_d.pdf` | 142 | 1998 | ersetzt durch 142:2009 (destilliert sia-142-2009.md); Altausgabe uebersprungen |
 | [x] 260714 | P2 | `142_2009.pdf` | 142 | 2009 | gilt (jüngste im Bestand); established (verifiziert 260714, 0 Fehler, Art. 29.2-29.3 + Genehmigung ergaenzt); sia-142-2009.md |
@@ -151,8 +164,8 @@
 | [x] 260713 | P2 | `179_1998_d.pdf` | 179 | 1998 | established, verifiziert 260713; sia-179-1998.md |
 | [x] 260713 | P2 | `180.081_2017.pdf` | 180 | 2017 | established, verifiziert 260713; sia-180-081-2017.md |
 | [x] 260713 | P2 | `180.082_2017.pdf` | 180 | 2017 | Teil-Destillat, verifiziert 260713; sia-180-082-2017.md |
-| [x] 260713 | P2 | `180_2014.pdf` | 180 | 2014 | Teil-Destillat (Kernkapitel, Anhaenge A-H offen), verifiziert 260713; sia-180-2014.md |
-| [x] 260713 | P2 | `181_2006_d.pdf` | 181 | 2006 | Teil-Destillat (normativer Kern + Teile Anhang), verifiziert 260713; sia-181-2006.md |
+| [x] 260725 | P2 | `180_2014.pdf` | 180 | 2014 | VOLLSTAENDIG (Run 28, 260725: Anhaenge A-H S.50-72 destilliert + adversarial verifiziert, 9 neue Fundstellen-Bloecke integriert in Kap.2-6, 1 Befund korrigiert [Anhang C.1 Sonnenschutz-Steuerregel sinnentstellt]); Kernkapitel verifiziert 260713; Rest-Bring-Schuld Korrigenda C2:2020 (Inhalt nicht verifiziert); sia-180-2014.md |
+| [x] 260725 | P2 | `181_2006_d.pdf` | 181 | 2006 | Teil-Destillat (Run 28, 260725: Anhang A [Musik/tieffrequente Emissionen] + Anhang B [Messverfahren] S.34-47 destilliert + adversarial verifiziert, ~21 Aussagen, 3 Befunde korrigiert [Fundstellen-Attribution B.1.1, fehlende Alternative B.1.4, Amtsname metas]); Anhaenge E/F/G/H/J weiterhin offen (informativ/nachrangig); Kern verifiziert 260713; sia-181-2006.md |
 | [x] 260714 | P2 | `184_1972_d.pdf` | 184 | 1972 | established (verifiziert 260714, Volltextabgleich, sia-184-1972.md), Baureinigungs-Arbeiten |
 | [x] 260723 | P2 | `193.111_1999_d.pdf` | 193 | 1999 | established VOLLSTAENDIG (Run 18, 260723: informative Anh. A-G S.47-89 destilliert + adversarial verifiziert, 30 Aussagen, 1 Befund korrigiert [Tab. B.3 Vorwaermtemperatur-Gruppierung]); Kern S.1-46 verifiziert Run5; sia-193-111-1999.md |
 | [x] 260713 | P2 | `195_1999_d.pdf` | 195 | 1999 | established (Run5, Rohrvortrieb, beanstandet-korrigiert gamma_Q); sia-195-1999.md |

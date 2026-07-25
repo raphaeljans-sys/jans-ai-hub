@@ -257,7 +257,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `de-baunvo-1990.md` | BauNVO (1990/1993) Verordnung über die bauliche Nutzung der Grundstücke (Baunutzungsveror | Baunutzungsverordnung (BauNVO), Ausferti | destilliert |
 | `de-vstaettvo-niedersachsen-2004.md` | VStättVO Niedersachsen (2004) Versammlungsstättenverordnung | VStättVO Niedersachsen vom 8. November 2 | destilliert |
 | `sia-108-2003.md` | SIA 108:2003 Ordnung für Leistungen und Honorare der Maschinen- und der Elektroinge | SIA 108, Ordnung 2003, 1. Auflage (2003- | destilliert |
-| `sia-121-2003.md` | SIA 121:2003 Verrechnung der Preisänderungen mit dem Objekt-Index-Verfahren (OIV) | Ordnung SIA 121:2003 (SN 508 121), 1. Au | destilliert (Korrektur nach Verifikation 13.07.2026, s. Beme |
+| `sia-121-2003.md` | SIA 121:2003 Verrechnung der Preisänderungen mit dem Objekt-Index-Verfahren (OIV) | Ordnung SIA 121:2003 (SN 508 121), 1. Au | destilliert VOLLSTAENDIG (Run 28, 260725: Formulare 1021/1-4 |
 | `sia-125-2017.md` | SIA 125:2017 Preisänderungen infolge Teuerung für Leistungen der General- und Total | SIA 125:2017 (SN 507 125), 1. Auflage 20 | established (verifiziert 13.07.2026) |
 | `sia-142-1998.md` | SIA 142:1998 Ordnung für Architektur- und Ingenieurwettbewerbe (VORGÄNGER-Ausgabe) | SIA 142, Ordnung für Architektur- und In | destilliert |
 | `sia-144-2013.md` | SIA 144:2013 Ordnung für Ingenieur- und Architekturleistungsofferten | SIA 144:2013 (SN 507 144), 1. Auflage 20 | established (verifiziert 13.07.2026) |
@@ -268,8 +268,8 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `sia-179-1998.md` | SIA 179:1998 Befestigungen in Beton und Mauerwerk | SIA 179:1998 (Empfehlung, Ausgabe 1998; | established (verifiziert 13.07.2026) |
 | `sia-180-081-2017.md` | SIA 180.081:2017 Wärmetechnisches Verhalten von Fenstern, Türen und Abschlüssen | SIA 180.081 = SN EN ISO 10077-1:2017 de, | established (verifiziert 13.07.2026) |
 | `sia-180-082-2017.md` | SIA 180.082:2017 Wärmetechnisches Verhalten von Fenstern, Türen und Abschlüssen | SIA 180.082 = SN EN ISO 10077-2:2017 de, | destilliert (Original teilweise gelesen; Teilbereich verifiz |
-| `sia-180-2014.md` | SIA 180:2014 Wärmeschutz, Feuchteschutz und Raumklima in Gebäuden | SIA 180:2014 (SN 520180:2014 de), 1. Auf | destilliert (Original teilweise gelesen; Kernkapitel verifiz |
-| `sia-181-2006.md` | SIA 181:2006 Schallschutz im Hochbau | SIA 181:2006 (SN 520 181), 1. Auflage 20 | destilliert (Original teilweise gelesen; Teilbereich verifiz |
+| `sia-180-2014.md` | SIA 180:2014 Wärmeschutz, Feuchteschutz und Raumklima in Gebäuden | SIA 180:2014 (SN 520180:2014 de), 1. Auf | destilliert VOLLSTAENDIG (Run 28, 260725: Anhaenge A-H erga |
+| `sia-181-2006.md` | SIA 181:2006 Schallschutz im Hochbau | SIA 181:2006 (SN 520 181), 1. Auflage 20 | teil-destillat (Run 28, 260725: + Anhang A+B, E/F/G/H/J offe |
 | `sia-270-1992.md` | SIA 270 Abdichtungen aus Dichtungsbahnen oder Gussasphalt | SIA 270:1992 «Abdichtungen aus Dichtungs | destilliert (Original vollstaendig gelesen, 2026-07-13) |
 | `sia-273-1998.md` | SIA 273 Gussasphalt im Hochbau | SIA 273, Empfehlung Ausgabe 1989 (Bauwes | destilliert (Original vollstaendig gelesen, 2026-07-13) |
 | `sia-318-1988.md` | SIA 318 Garten- und Landschaftsbau | SIA 318:1988 (SN 568 318, Ausgabe 1988; | destilliert (Original vollstaendig gelesen, 2026-07-13) |
