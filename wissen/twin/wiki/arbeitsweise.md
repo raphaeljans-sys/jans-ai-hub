@@ -1440,3 +1440,9 @@ Gewichtung: authentisch (handgetippte Rahmen). Quelle: KISPI-PPTS Lenggstrasse 3
 - **Angebot mit Kontroll-/Freigabe-Bitte an die Bauherrschaft weiterreichen:** «Im Anhang sende ich Dir das Angebot des Türfachplaners TeKoSi. Bitte um Kontrolle/Weiterreichung an Verkauf und ggf. Freigabe.» — Variante der Drei-Verb-Freigabe (Kontrolle / Weiterreichung / Freigabe), der Adressat entscheidet. Bestätigt das Muster.
 - **Sitzung delegieren, aber das Ziel selbst setzen:** er kündigt die nötige Koordinationssitzung an (PL Jegen + TeKoSi + interne Fachstelle Flächenmanagement&Sicherheit), delegiert die Terminlogistik an die Bauherrn-Seite («ein Termin nach Eurem Wünsch vor Ort zu organisieren») und nagelt den Zweck mit «Ziel: Türschliessmechanismus pro Türe in Türmatrix festlegen nach Wunsch/Pflicht Bauherrschaft» fest. Delegation der Logistik, Behalten der Zielhoheit.
 - **Jeder nächste Schritt an ein «Nach Rücksprache mit X» gekoppelt** (Fabian / Fabian Kübler Gruner) — er verankert Terminzusagen und Nachforderungen sichtbar in einem vorausgegangenen Gespräch. Bestätigt.
+
+## Batch 61 (2026-07-07…07-08) — Behörden-Nachfass eskaliert im Register, nicht nur im Ton
+
+Gewichtung: authentisch. Quelle: Baumackerstrasse 43 (AfB Team 4), 07.07.2026.
+
+- **Zwei-Stufen-Eskalationsleiter beim Behörden-Nachfass:** Stufe 1 (Routine-Status, Batch 60) ist ein Ein-Zeiler ohne Begründung. Stufe 2 (hier, weil die gesetzliche Bearbeitungsfrist bereits überschritten ist) wird strukturiert: Fristzitat mit Datum → drei nummerierte Sachfragen → explizite Bitte um zeitnahen Kontakt. Die Eskalation zeigt sich NICHT im Ton (beide bleiben höflich-sachlich, kein Vorwurf), sondern in der **Beweisdichte** (Datum, Projekt-ID, Norm-Referenz) und der **Anzahl der offenen Fragen**. Reiht sich zur bereits belegten Anrede-Skalierung nach Gewicht des Anliegens (DNA-Regel) — hier dieselbe Logik auf den Nachfass-Baustein selbst angewendet.

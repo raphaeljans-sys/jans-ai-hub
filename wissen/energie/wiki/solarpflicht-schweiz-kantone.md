@@ -27,7 +27,7 @@ verschärfen, nicht darunter bleiben.
 | Zürich | Vorlage Dächer >300 m² vollflächig — **noch nicht in Kraft** |
 | Aargau | **Bleibt beim Bundesminimum** (300 m²/20 % aGF) — eigene Verschärfung von Grossrats-Kommission 9:6 zur Ablehnung empfohlen |
 | Basel-Stadt | «Solaroffensive»: PV-Pflicht auf **Bestandsbauten** >100 m² Dachfläche, Ersatzabgabe CHF 1'500/fehlendem kW — **noch nicht Gesetz** (im Grossen Rat) |
-| Graubünden (seit 1.1.2021) | Eigenstromerzeugungspflicht Neubau, befreit bei Globalstrahlung <1'250 kWh/m²a oder Minergie-Standard — genaue W/m²-Vorgabe offen |
+| Graubünden (seit 1.1.2021) | Eigenstromerzeugungspflicht Neubau: **10 W/m² EBF, max. 30 kW** (amtlich EN-104 GR); befreit bei Globalstrahlung <1'250 kWh/m²a oder Minergie-Standard; keine Ersatzabgabe möglich |
 | Waadt (LVLEne, ab ca. 2027) | 20 % Strombedarf erneuerbar, **zusätzlich Dachsanierungspflicht** — strenger als Bern (das Dachsanierungen gerade ausnimmt) |
 | Genf (seit 1.9.2025, Volk 84,3 % Ja) | **Alle geeigneten Dachflächen** bei Neubau/Dachsanierung — Ereignis- statt Flächenschwellen-Prinzip; ab 2030 auch Grossverbraucher (>0,2 GWh/a) |
 | Tessin (seit 1.1.2024) | **10 W/m² neue EBF**, gedeckelt auf max. 30 kW — gleiches Modell wie die ZH-Vorlage |
@@ -35,17 +35,17 @@ verschärfen, nicht darunter bleiben.
 | Wallis (seit 1.1.2025) | Neubau >300 m²: 40 % Baufläche solar, **plus fossiles Heizungsverbot**; Bestandsbauten >500 m² binnen 25 Jahren pflichtig |
 | Schaffhausen (Volk 8.3.2026, 60,6 % Nein) | Solarinitiative **abgelehnt** — drittes Gegenbeispiel neben Aargau/Bern-Zusatzinitiative |
 | Uri (Volk 8.3.2026, 75 % Ja; Inkrafttreten Herbst 2026) | **300 m² = Bundesminimum** — nach Ablehnung einer strengeren 100-m²-Verordnung durchs Volk (22.9.2024) |
-| Zug (seit 1.1.2023, MuKEn-Modul E) | **Keine Flächenschwelle** — Eigenstromerzeugungspflicht für alle Neubauten (Bemessung offen) |
+| Zug (seit 1.1.2023, MuKEn-Modul E, Neufassung 1.2.2024) | **Keine Flächenschwelle** — Eigenstromerzeugungspflicht für alle Neubauten: **10 W/m² EBF, max. 30 kW** (§8 V EnG-ZG amtlich); Ersatzabgabe CHF 1'000/kW |
 | **Schwyz** (Kantonsrat 22.10.2025, 50:45 Nein) | **Keine kantonale Solarpflicht** — bleibt beim Bundesminimum (JANS-Fokuskanton) |
-| Neuenburg (Revision **in Erarbeitung**, noch nicht in Kraft) | Vorgesehen 15 W/m² SRE, Inkrafttreten offen |
+| Neuenburg | **Zwei Ebenen**: (a) bereits seit 2021 in Kraft eine warmwasserfokussierte Solarpflicht (Art. 27 RELCEn: >50 % WW-Bedarf solar, vereinfacht 2 % SRE Solarthermie oder 5 W/m² SRE PV); (b) separat für 2026/2027 **in Erarbeitung**: umfassendere Eigenstromerzeugungspflicht, vorgesehen 15 W/m² SRE (20 W/m² bei WW-Kombination), noch nicht in Kraft |
 | Basel-Landschaft (Solarinitiative Volk 8.3.2026, ~70 % Nein) | **Keine generelle kantonale Pflicht** — Kantonsgericht hatte zuvor die Dekrets-Grundlage der Neubau-Pflicht verworfen; nur kommunale BZO-Option |
 | Jura (OEn seit April 2019, MoPEC) | An beheizte EBF gekoppelt; weitergehende Revision für 2026/2027 in Erarbeitung |
 | Freiburg (MuKEn-2014, seit 2020) | 10 W/m² EBF — Inkrafttretensdatum der Eigenstromklausel nicht abschliessend verifiziert |
-| Glarus (seit 2023) | Eigenstromerzeugungspflicht Neubau, Vollzug laut Kanton «reibungslos», Ersatzabgabe bei Befreiung; genauer Satz offen |
-| Nidwalden (seit 1.11.2021) | 10 W/m² EBF — Gemeinschaftsanlage/SonnenDach zählt als Erfüllung (Art. 19b) |
-| Obwalden (PBG 4.12.2025 verabschiedet) | Solarpflicht Neubau/Sanierung — **SVP-Referendumsinitiative seit 22.1.2026 hängig**, Ausgang offen |
-| Appenzell Ausserrhoden (seit 1.1.2023) | Eigenstromerzeugungspflicht alle Neubauten (Art. 10a EnG), Satz offen |
-| Appenzell Innerrhoden | **Widersprüchlich**: Sekundärquellen behaupten Pflicht, amtliche Primärseite zeigt nur Melde-/Bewilligungspflicht — unbestätigt |
+| Glarus (seit 2023) | Eigenstromerzeugungspflicht Neubau: **10 W/m² EBF, max. 30 kW** (Art. 14b Energiegesetz amtlich); Vollzug laut Kanton «reibungslos», Ersatzabgabe/-investition bei Befreiung möglich |
+| Nidwalden (seit 1.11.2021) | 10 W/m² EBF — Gemeinschaftsanlage/SonnenDach zählt als Erfüllung (Art. 19b); Wert durch sechs strukturgleiche Nachbarkantone plausibilisiert, NW-Text selbst in Run 61 nicht erneut geprüft |
+| Obwalden (PBG 4.12.2025 verabschiedet, Art. 98/100) | Solarpflicht Neubau/erhebliche Erweiterung, Ersatzabgabe bis CHF 1'500/kW, Bemessung dem Regierungsrat delegiert — **SVP-Volksinitiative «Keine Solarpflicht» Anfang Juli 2026 eingereicht** (Regierungsrat-Kenntnisnahme 6.7.2026), Formalprüfung/Abstimmungstermin offen |
+| Appenzell Ausserrhoden (seit 1.1.2023) | Eigenstromerzeugungspflicht alle Neubauten: **10 W/m² EBF, max. 30 kW** (Art. 19a bis kEnV amtlich; 30 W/m² ohne Deckel bei Gemeinschaftsanlage) |
+| Appenzell Innerrhoden | **Widerspruch aufgelöst (Run 61)**: Eigenstromerzeugungspflicht besteht seit 1.4.2020 (Art. 7a EnerG/Art. 16a EnerV) — die frühere «nur Melde-/Bewilligungspflicht»-Lesart bezog sich auf die falsche Rechtsgrundlage (jene regelt nur das Bewilligungsverfahren der Anlage, nicht die Installationspflicht selbst); keine Ersatzabgabe möglich, Minergie befreit nicht automatisch |
 
 ## Bauherren-Transfer
 Standort- und gemeindespezifisch prüfen — Bund ist nur das Minimum, die tatsächliche Pflicht kann
@@ -55,20 +55,28 @@ jeder Kanton verschärft: Aargau, Schaffhausen und **Schwyz** haben eine eigene 
 erst wieder verworfen — «mein Nachbarkanton hat X» ist kein verlässlicher Schluss auf die eigene
 Gemeinde. **Für JANS-Projekte in Schwyz gilt schlicht das Bundesminimum (300 m²)** — keine
 kantonale Zusatzpflicht, anders als im Nachbarkanton Zürich (dort Vorlage in Beratung) oder Zug
-(dort strenger, keine Flächenschwelle). Die Bandbreite ist inzwischen (**alle 26 Kantone**
-mindestens einmal recherchiert, Run 60) gross: von «kein Zusatz zum Bund» (AG, SH, SZ, UR, BL,
-teils SO) über «keine Schwelle, alle Neubauten» (ZG, AR, Vermutung GL/NW/FR analog) bis «auch
-Bestandsbauten pflichtig» (Basel-Stadt, Wallis, teils Genf). Basel-Landschaft ist ein Lehrstück:
-eine kantonsgerichtlich gekippte Neubau-Pflicht plus eine anschliessend an der Urne klar
-verworfene Verschärfungs-Initiative zeigen, dass eine Solarpflicht auch **wieder wegfallen**
-kann — der aktuelle Rechtsstand am Standort ist immer tagesaktuell zu prüfen, nicht aus einem
-älteren Report zu übernehmen. Obwalden zeigt den umgekehrten Schwebezustand: eine neu
-verabschiedete Solarpflicht, gegen die eine Volksinitiative noch läuft.
+(dort strenger, keine Flächenschwelle, amtlich 10 W/m² EBF). Die Bandbreite ist inzwischen
+(**alle 26 Kantone** mindestens einmal recherchiert, Run 60; Bemessung bei sechs MuKEn-Modul-E-
+Kantonen — ZG/GR/GL/AR primärquellen-verifiziert plus NW/FR analog — in Run 61 präzisiert) gross:
+von «kein Zusatz zum Bund» (AG, SH, SZ, UR, BL, teils SO) über «keine Schwelle, alle Neubauten,
+10 W/m² EBF, meist gedeckelt auf 30 kW» (ZG, GR, GL, AR, NW, vermutlich FR analog, AI seit 1.4.2020
+ebenfalls mit Eigenstromerzeugungspflicht) bis «auch Bestandsbauten pflichtig» (Basel-Stadt,
+Wallis, teils Genf). Basel-Landschaft ist ein Lehrstück: eine kantonsgerichtlich gekippte
+Neubau-Pflicht plus eine anschliessend an der Urne klar verworfene Verschärfungs-Initiative
+zeigen, dass eine Solarpflicht auch **wieder wegfallen** kann — der aktuelle Rechtsstand am
+Standort ist immer tagesaktuell zu prüfen, nicht aus einem älteren Report zu übernehmen. Obwalden
+zeigt den umgekehrten Schwebezustand: eine neu verabschiedete Solarpflicht, gegen die inzwischen
+eine eingereichte (aber noch nicht entschiedene) Volksinitiative läuft.
 
 **Destillate:** `[[solarpflicht-national-mantelerlass-kantone]]` (Bund + andere Kantone),
-`[[zh-energiegesetz-revision-solarpflicht-2026]]` (ZH-Detail) — FAQ F66, F61.
+`[[zh-energiegesetz-revision-solarpflicht-2026]]` (ZH-Detail) — FAQ F66, F61, F117.
 
-**Offen:** Erst-Erhebung aller 26 Kantone abgeschlossen (Run 60), aber mehrere Detailwerte fehlen
-noch primärquellen-verifiziert: genaue W/m²-/%-Sätze bei Zug, Graubünden, Glarus, Nidwalden,
-Appenzell Ausserrhoden nur teilweise/nicht bestätigt; Appenzell Innerrhoden bleibt ein
-ungeklärter Quellenwiderspruch; Obwalden-Referendum und Neuenburg-Inkrafttreten ausstehend.
+**Offen:** Erst-Erhebung aller 26 Kantone abgeschlossen (Run 60); in Run 61 zusätzlich die
+W/m²-Bemessung für Zug, Graubünden, Glarus, Appenzell Ausserrhoden primärquellen-verifiziert
+(alle vier: 10 W/m² EBF, meist gedeckelt auf 30 kW) und der Appenzell-Innerrhoden-Widerspruch
+aufgelöst (Eigenstromerzeugungspflicht besteht dort seit 1.4.2020). Weiterhin offen: Nidwalden-
+Wert nur durch Analogie plausibilisiert statt in Run 61 erneut primärquellen-geprüft; Obwalden-
+Referendum eingereicht, aber Formalprüfung/Abstimmungstermin noch offen (⚠ politisch volatil);
+Neuenburg — die bereits seit 2021 geltende (engere, warmwasserfokussierte) Regel und die separat
+für 2026/2027 geplante (umfassendere) Revision sind zwei verschiedene Dinge, das
+Inkrafttretensdatum der Revision bleibt unbestätigt.

@@ -1309,6 +1309,13 @@ Weg-Klassifizierung der Erschliessung.
   Anforderung + Ziel benennen, die konkrete Ausführung dem Fachunternehmer überlassen, harte
   Schnittstellen (Schliesssystem, Termin) aber vorgeben. (Prosa claude-assistiert, nur Muster gewertet.)
 
+## Batch 61 (2026-07-07…07-08) — Fristüberschreitungs-Nachfass mit Verfahrensrecht-Zitat + Preis-Konsistenz-Check
+
+Gewichtung: authentisch (handgetippt, keine Gedankenstriche/Typos, präzise Datums-/ID-Angaben). Quelle: Baumackerstrasse 43 (Baugesuch AfB Team 4) + Albertstrasse 7 Nova (Sanitär Ernst Lips), 07.–08.07.2026.
+
+- **Fristüberschreitung gegenüber der Behörde mit dem Verfahrensrecht selbst belegen, dann strukturiert nachfassen:** «Das Verfahrensrecht sieht eine Bearbeitungsfrist von drei Wochen ab Eingabedatum vor. Diese Frist ist mit dem heutigen Datum … abgelaufen» — die Norm/Frist wird nicht nur behauptet, sondern mit exakten Daten (Eingabedatum, heutiges Datum, Projekt-ID) unterlegt, danach folgen drei geschlossene Sachfragen (Verfahrensstand? Zuständigkeit? Grund der Nichtbearbeitung?). Zweite, formellere Eskalationsstufe neben dem bereits belegten «ultra-knappen» Ein-Zeiler-Nachfass (Batch 60): **das Register der Behörden-Nachfrage skaliert mit dem Gewicht** (reine Status-Frage → Ein-Zeiler; überschrittene gesetzliche Frist → Fristzitat + Fragenkatalog), analog zur bereits belegten Anrede-Skalierung nach Gewicht des Anliegens.
+- **Kosten-Konsistenz-Check vor Vergabe (neuer Marker):** bei einem Sanitärangebot mit sechs Waschmaschinen-Typen erkennt er eine Lücke («für die Anschlüsse der Waschmaschine im Keller wurde keine expliziten Anschlüsse, Arbeitsstunden, Gerätschaften usw. Angeboten?»), verlangt deren Ergänzung, gleichzeitig eine Reduktion der «allgemeinen Arbeiten auf das absolut nötigste», und fordert einen **pro Gerätetyp konsistenten, belastbaren Preis** statt einer pauschalen Summe. Konkrete Ausprägung von «Bauherr vor unnötigen/inkonsistenten Kosten schützen»: nicht nur Endsumme prüfen, sondern Positions-Vollständigkeit und Kalkulationskonsistenz über mehrere Varianten hinweg einfordern, bevor freigegeben wird.
+
 ## Batch 60 (2026-07-02…07-07) — Leistungspflicht aus der Honorarofferte-Phase argumentieren
 
 Gewichtung: authentisch (Argument aus der handgetippten Mail «Frage: Ist gemäss Angebot ... die Firma Gruner AG verpflichtet die fehlenden Bestandteile ... zu liefern; insbesondere in Anbetracht, dass gemäss Honorarofferte für die Fachplanung die Eingabereife geschuldet ist»; die parallele Festhalte-Mail an Spörri trägt die gleiche Argumentation, ist im Fliesstext aber möglicherweise assistiert → nur der Argument-Typ, nicht die Formulierung genutzt, Echo-Schutz).

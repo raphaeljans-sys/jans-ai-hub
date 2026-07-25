@@ -1,3 +1,14 @@
+## 2026-07-25 — Run 21 (MacBook Pro): Frischecheck, keine Aenderung seit Run 20, 7. Endbedingungs-Meldung
+- Datei-Anzahl-Stichprobe (458 SIA-PDF, 58 VKF-Dateien) + Aenderungsdatum-Filter seit 06:00 Uhr:
+  **0 neue/veraenderte Dateien** seit Run 20. Grunddestillation + alle 4 Vertiefungsstufen bleiben
+  vollstaendig; ein weiterer Voll-Diff/Workflow-Batch haette keine reale Quelle zu bearbeiten und
+  wuerde gegen die Leitplanke "nichts erfinden" verstossen — daher bewusst kein Destillat erzeugt.
+  Hintergrund: Run 20 empfahl Pausierung/Datei-Trigger; Raphael hat den Task Stunden spaeter im
+  Rahmen der allgemeinen Vollgas-Reaktivierung (Rule auto-verbesserungen 260725) auf 2x taeglich
+  belassen — dieser Lauf vollzieht das, meldet aber erneut ehrlich den fehlenden Wissenszuwachs.
+  2 Bring-Schulden (SIA 380/1:2016, SIA 385/1:2011) weiterhin nur per SIA-Abo/Kauf schliessbar.
+  Report `outputs/2026-07-25_normen-nacht-run21.md`.
+
 ## 2026-07-25 — Run 20 (MacBook Pro): unabhaengige NFC-Diff-Vollstaendigkeitsverifikation SIA/VKF
 - Statt bereits erledigte Vertiefung zu wiederholen (Grunddestillation + Stufen a-d seit Run 19
   komplett), die Vollstaendigkeit **rigoros re-verifiziert**: programmatischer Diff aller 503 live

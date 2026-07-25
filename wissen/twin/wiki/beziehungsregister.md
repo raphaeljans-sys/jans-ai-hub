@@ -1484,6 +1484,13 @@ jemanden kennen» (Register per Person via @-Mention, bereits belegt). Quelle: 1
   formell «Sehr geehrte Frau …». (Batch 59, authentisch, Küchenbau-Reply an Steffi als Echo-Falle 19
   ausgeschlossen — siehe [[stimme]].)
 
+## Batch 61 (2026-07-07…07-08) — Gruss folgt dem Mail-Typ auch INNERHALB desselben Kontakts
+
+Gewichtung: authentisch (handgetippte Rahmen, Slips «Ihre Angebot», «dass es ein konsistenter…»). Quelle: Albertstrasse 7 Nova + KISPI PPTS + Thalwil 2414, 07.–08.07.2026.
+
+- **Derselbe Du-Kontakt bekommt je nach Mail-Typ FG oder «Lieber Gruss» — konkreter Beleg am selben Kontakt.** Stefan Tschopp (Thalwil, Bauherr-Partner) ist als Du-Kontakt mit «Lieber Gruss» belegt (Batch 59). Hier, bei einer dokumentierenden Freigabe-Vorlage («Im Anhang die Projektänderungspläne zur Durchsicht und Freigabe»), schliesst dieselbe Anrede «Geschätzter Stefan» stattdessen mit **«Freundliche Grüsse»**. Bestätigt die DNA-Regel Gruss-nach-Mail-Typ nicht abstrakt, sondern **am selben Kontakt in derselben Woche** — der Kontakt bestimmt das Anrede-Register, der Mail-Typ (hier: dokumentierend/Freigabe) den Gruss.
+- **Neue Mappings:** Herr Sivec (AfB-Team 4 Stadt Zürich, Baubewilligungsbehörde, formell «Sehr geehrter Herr Sivec, sehr geehrte Damen und Herren des Teams 4»); Herr Strübi/Portunus AG (Türfachplanung PPTS, Erst-Offertanfrage, formell «Sehr geehrter Herr Strübi»); Carlo La Mendola/Ernst Lips AG (Sanitär Albertstrasse 7, Du «Geschätzter Carlo» — Kontakt bereits geduzt trotz Sie-Anrede des Gegenübers «stehe ich Ihnen … zur Verfügung»: Register bleibt bei JANS' eigener Zuordnung, nicht beim Spiegeln).
+
 ## Batch 60 (2026-07-02…07-07) — Offert-Eingangs-Quittung register-gespalten + KISPI-PPTS-Kontaktmappings
 
 Gewichtung: authentisch (Sent Items rj@, handgetippte Rahmen; Slips «Ihre Angebot», «dass prüfen», «euren internen Fachstelle»). Quelle: KISPI-PPTS Lenggstrasse 30 + Albertstrasse 7 Nova, 02.–07.07.2026.

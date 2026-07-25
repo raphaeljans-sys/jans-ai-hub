@@ -26,6 +26,11 @@
   RAL_Norm/Lignum auftauchen. Details `wiki/QUESTIONS.md` Abschnitt "Mini-Run 32",
   Report `outputs/2026-07-16_normen-mini-run32.md`.
 
+- **Run 21 (MacBook Pro, 260725) — Frischecheck, 0 Aenderung seit Run 20:** Datei-Anzahl-Stichprobe
+  (458 SIA-PDF, 58 VKF-Dateien) + Aenderungsdatum-Filter seit 06:00 Uhr bestaetigen 0 neue/veraenderte
+  Dateien. Kein weiterer Voll-Diff/Workflow-Batch (keine reale Quelle zu bearbeiten). 7. Bestaetigung
+  der Endbedingung; Empfehlung an Raphael unveraendert (Datei-Trigger statt 2-Stunden-Takt).
+  Report `outputs/2026-07-25_normen-nacht-run21.md`.
 - **Run 20 (MacBook Pro, 260725) — unabhaengige NFC-Diff-Vollstaendigkeitsverifikation, 0 Luecken:**
   Programmatischer Diff aller **503 live** SIA/VKF-Basenamen (rekursiv ab `SIA_Norm/`+`VKF_Norm/`)
   gegen alle im Inventar erwaehnten Dateinamen, **beide Seiten NFC-normalisiert** (macOS-FS liefert

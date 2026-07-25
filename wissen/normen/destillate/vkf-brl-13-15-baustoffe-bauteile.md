@@ -115,3 +115,45 @@ Die Anhang-Tabelle zu Ziff. 3.4 (S. 24-25, Stand Fassung 01.01.2017) listet für
 - Verweis in Ziff. 5 «Weitere Bestimmungen» auf das periodisch aktualisierte TKB-VKF-Verzeichnis (Erlasse/Publikationen/Stand-der-Technik-Papiere) nicht im Detail geprüft — bei Bedarf separat beschaffen (www.praever.ch/de/bs/vs)
 - Norm-Nummer im Frontmatter als «13-15de» aus dem Fusszeilen-/Cover-Vermerk übernommen; Konsistenz mit den bereits destillierten Schwester-Richtlinien 14-15de (Verwendung von Baustoffen), 16-15 (Flucht/Rettungswege), 27-15 (Nachweisverfahren) bestätigt die Nummerierungslogik BRL xx-15
 - Anhang-Zuordnungstabelle Ziff. 3.4 ist laut PDF nur ein Auszug («Beispiel», Bauteile 201-238); die vollständige Tabelle liegt im Schweizerischen Brandschutzregister der VKF und wurde hier nicht separat beschafft
+
+## Fassung 01.01.2017 — Delta zur Fassung 01.01.2015
+
+**Dieses Destillat deckt mit diesem Nachtrag (25.07.2026) die geltende Fassung 01.01.2017 ab** (zusätzlich zur bisher gelesenen Fassung 01.01.2015). Statusanhebung auf `established` erfolgt NICHT durch diesen Nachtrag, sondern durch den separaten Richter-Lauf.
+
+### Dokument-Identifikation (Ausgabe strikt von Fassung getrennt)
+
+- **Geprüfte Fassung 2017**: `PL - 03 Brandschutz/02 Brandschutzrichtlinien 2015-17-22/BSPUB-1394520214-71.pdf`. Titelblatt (S. 1): «BRANDSCHUTZRICHTLINIE — Baustoffe und Bauteile — Klassifikation — **01.01.2017 / 13-15de**». Impressum (S. 2): «© Copyright 2015 Berne by VKF / AEAI / AICAA» — das **Copyright-/Ausgabejahr bleibt 2015** (Ursprungspublikation), nur die **Fassung** (Stand-Datum) ist auf 01.01.2017 fortgeschrieben.
+- **Vergleichsfassung 2015**: `PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlinien 2015/Baustoff & Bauteile.pdf`. Titelblatt: «01.01.2015 / 13-15de», identisches Impressum «© Copyright 2015».
+- **Änderungshinweis auf S. 2 der Fassung 2017** (fehlt in der Fassung 2015): «Vom IOTH am 22. September 2016 genehmigte Änderungen: - Ziffer 2.4.1, Tabelle (Seite 8). Änderungen im Anhang: - zu Ziffer 3.4, Tabelle (Seite 24).» IOTH = zuständiges Organ der Interkantonalen Vereinbarung zum Abbau Technischer Handelshemmnisse.
+- **Fussnote S. 8 der Fassung 2017**: «1 Fassung gemäss Beschluss IOTH vom 22. September 2016.»
+- **Ziff. 6 Inkrafttreten (S. 19) ist in beiden Fassungen wortgleich**: die Richtlinie wurde durch Beschluss des zuständigen IVTH-Organs vom **18.09.2014** für verbindlich erklärt und auf den **01.01.2015** in Kraft gesetzt, gültig für alle Kantone. Der IOTH-Beschluss vom 22.09.2016 ist somit **keine Neuerlassung** der Richtlinie mit neuem Inkraftsetzungsdatum, sondern eine punktuelle Änderung zweier Tabellen innerhalb der seit 01.01.2015 verbindlichen Richtlinie. Merksatz für diese KB: Ausgabe/Ursprungsjahr = 2015 (unverändert), Fassung/Stand = 01.01.2017 (neu), Inkraftsetzung der Grundrichtlinie = 01.01.2015 (unverändert).
+
+### Delta-Liste (Fundstellen je Fassung; inkl. Treffer, die die amtliche Änderungsliste NICHT nennt)
+
+1. **Ziff. 2.4.1, Zuordnungstabelle SN EN 13501-1 (S. 8, in der amtlichen Änderungsliste genannt) — sachliche Änderung, kein Redaktionsfehler.** Fassung 2015: die EN-Klassen E, E-d2 (Bauprodukte) sowie EL, EL-d2 (lineare Rohrisolationen) sind der Brandverhaltensgruppe **RF4** zugeordnet, durchgehend mit «cr»-Vermerk (kritisches Verhalten). Fassung 2017: dieselben vier Werte (E, E-d2, EL, EL-d2) sind neu der Brandverhaltensgruppe **RF3** zugeordnet, im cr-markierten Teilbereich zusammen mit den D-s../DL-s..-Kombinationen. Die RF4-Zeile zeigt in der Fassung 2017 über alle drei Spalten (Kritisches Verhalten / Bauprodukte / Lineare Rohrdämmungen) nur noch einen Gedankenstrich «–» — es gibt gemäss dieser Tabelle in der Fassung 2017 **kein SN-EN-13501-1-Äquivalent mehr für RF4**. Die Bodenbeläge-Spalte (Dfl-s2/Efl bei RF3) ist unverändert. Verifiziert per Seitenbildvergleich (`pdftoppm`, S. 8 beider Fassungen), nicht nur Text-Diff.
+2. **Ziff. 2.4.1, Tabellenkopf, Spaltenbezeichnung (S. 8)** — «Lineare Rohrisolationen» (Fassung 2015) heisst in der Fassung 2017 «Lineare Rohrdämmungen». Betrifft nur diese Tabellenspalte; der Fliesstext in Ziff. 2.2.6 (S. 6) verwendet in beiden Fassungen weiterhin den Begriff «Rohrisolierungen».
+3. **Ziff. 2.4.1/2.4.2/2.4.3, Normverweis-Titel (S. 8-11) sowie Inhaltsverzeichnis (S. 3)** — die referenzierten EN-Normen sind in der Fassung 2017 neu mit Ausgabejahr zitiert: «SN EN 13501-1» → «SN EN 13501-1:2009», «SN EN 13501-5» → «SN EN 13501-5:2009», «SN EN 13501-6» → «SN EN 13501-6:2014». Reine Zitierpräzisierung.
+4. **Ziff. 2.2.6 (S. 6) — von der amtlichen Änderungsliste NICHT genannt, per Volltext-Diff gefunden.** Die fünf dort aufgezählten Normverweise («Klassifizierung von Baustoffen/Bodenbelägen/Rohrisolierungen nach SN EN 13501-1», «... von Bedachungen nach SN EN 13501-5», «... von elektrischen Kabeln nach SN EN 13501-6») tragen in der Fassung 2017 ebenfalls die Jahresangabe («:2009», «:2009», «:2009», «:2009», «:2014»). Keine inhaltliche Änderung der Klassifikationslogik, nur dieselbe Zitierpräzisierung wie Punkt 3, hier aber im Fliesstext statt nur im Tabellentitel.
+5. **Anhang zu Ziff. 3.4, BSR-Tabelle (S. 24, in der amtlichen Änderungsliste genannt)** — per Seitenbildvergleich (`pdftoppm`, S. 24-25 beider Fassungen) geprüft:
+   - **BSR 203 «Innenwände tragend»**: Tippfehlerkorrektur in der Spalte «Anwendbar als», von «REI 60-RF1 – REI 240-RF-1» (Fassung 2015, fehlerhafter Bindestrich vor der Endziffer) auf «REI 60-RF1 – REI 240-RF1» (Fassung 2017, korrigiert). Keine Wertänderung der Feuerwiderstandsklasse.
+   - **BSR 208**: Bezeichnung «Bedachung, Dachelemente» (2015) → «Dachkonstruktionen» (2017). VKF-Klassierung (F 30 bb – F 60 bb / F 30, F 60 – F 90) und EN-Äquivalent (EI 30 – EI 60, EI 60-RF1 – EI 90-RF1) unverändert.
+   - **BSR 231**: Bezeichnung «Bekleidungen von brennbaren Bauteilen» (2015) → «Brandschutzplatten» (2017); Text der Spalte «Anwendbar als» von «Bekleidung mit 30 – 90 Minuten Feuerwiderstand» auf «Brandschutzplatten (BSP) mit 30 – 90 Minuten Feuerwiderstand» präzisiert. VKF-Klassierung F 30 – F 90 unverändert.
+   - BSR 201, 205, 206, 207, 221, 223, 224 (S. 24) sowie 232, 233, 234, 237, 238 (S. 25): Seitenbildvergleich zeigt **keine** Änderung gegenüber der Fassung 2015.
+6. **Ziff. 2.4.2 (S. 9, Bedachungen nach SN EN 13501-5), Ziff. 2.4.3 (S. 10-11, elektrische Kabel nach SN EN 13501-6), Ziff. 2.4.4 (S. 12, VKF-BKZ-Tabelle)** — Seitenbildvergleich zeigt bei allen drei Tabellen **keine** inhaltliche Änderung (Zellenwerte, RF-Zuordnung, cr-Markierungen identisch); einzige Änderung ist die Jahresangabe im Tabellentitel gemäss Punkt 3.
+7. **Titelblatt, Impressum, Ziff. 1-2.3 (Begriffe/Grundsätze zu Baustoffen), Ziff. 2.5-2.7, Ziff. 3.1-3.3 (Bauteile-Klassifikation komplett), Ziff. 4-6 (Anwendung/weitere Bestimmungen/Inkrafttreten)** — Volltextvergleich (`pdftotext -layout` + `diff -b -B`, Whitespace-/Zeilenumbruch-ignorierend) zeigt **keine** inhaltlichen Abweichungen; die einzigen verbleibenden Diff-Treffer in diesen Abschnitten (z.B. S. 19 Ziff. 4.2, S. 21/25 Tabellenfortsetzungen) sind reine PDF-interne Zeilenumbruch-Verschiebungen ohne Textänderung.
+
+### Methodik
+
+Beide PDF mit `pdftotext -layout` in Text gewandelt, `diff -b -B` (Leerraum-/Leerzeilen-ignorierend) über den Volltext gezogen; jeder inhaltlich relevante Treffer zusätzlich als Seitenbild (`pdftoppm -r 200`, S. 6, 8, 9-12, 19, 24-25) gegengelesen, um Tabellen-Layoutverschiebungen (die im reinen Text-Diff wie Inhaltsänderungen aussehen können) von echten Zellenänderungen zu unterscheiden.
+
+### Was im Destillat ergänzt/korrigiert wurde
+
+- Frontmatter `gelesen:` um Nachtrag 25.07.2026 ergänzt; `last_updated:` auf 2026-07-25 gesetzt.
+- Bullet «Ziff. 2.4.1 (S. 8)» im Abschnitt «Zentrale Tabellen / Kennwerte» korrigiert: RF3/RF4-Zuordnung von E/EL/E-d2/EL-d2 auf den Stand Fassung 2017 gehoben (vorher fälschlich als RF4 «durchgehend cr» beschrieben, tatsächlich seit 2017 RF3-cr bzw. RF4 = kein Äquivalent), mit explizitem Hinweis auf den überholten 2015-Stand.
+- Absatz zur Anhang-Tabelle (Ziff. 3.4) um die BSR-208/231-Umbenennungen ergänzt.
+- Dieser komplette neue Abschnitt.
+
+### Was unklar blieb
+
+- Ob die Umbenennungen BSR 208/231 und die Tippfehlerkorrektur BSR 203 durch einen eigenen, unpublizierten Redaktionsbeschluss oder implizit durch denselben IOTH-Beschluss vom 22.09.2016 gedeckt sind — die Änderungsliste auf S. 2 nennt nur «Tabelle (Seite 24)» ohne Aufschlüsselung der einzelnen BSR-Zeilen.
+- Ob nach der Fassung 01.01.2017 weitere, hier nicht geprüfte Fassungen existieren (der Ordnername auf SharePoint «02 Brandschutzrichtlinien 2015-17-22» deutet auf mindestens eine weitere Fassung um 2022 hin) — nicht Gegenstand dieses Nachtrags, ausschliesslich 2015 vs. 2017 verglichen.

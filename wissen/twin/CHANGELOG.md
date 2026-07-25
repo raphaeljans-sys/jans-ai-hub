@@ -5,6 +5,23 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-25 — twin-mail-training Batch 61 (2026-07-07 07:23…07-08 16:09).** Sent Items rj@ via
+  M365-CLI direkt (MCP-Tool `outlook_email_search` in dieser Session nicht verfügbar; Fallback
+  `node_modules/.bin/m365 outlook message list --folderId sentitems`, Certificate-Auth — Ordnername
+  „Sent Items" wird nicht erkannt, `--folderId sentitems` schon). 19 Mails gesichtet, 7 Volltexte,
+  alle klar handgetippt (keine Echo-Falle in dieser Stichprobe). Neue belegte Marker:
+  [[beziehungsregister]] (Gruss folgt dem Mail-Typ auch innerhalb desselben Kontakts — Tschopp
+  bekommt hier bei einer dokumentierenden Freigabe-Mail «Freundliche Grüsse» statt seinem sonstigen
+  «Lieber Gruss»; Mappings Sivec/Strübi/La Mendola), [[stimme]] («Bitten»-Grossschreibung nach
+  Modalkonstruktion dritter unabhängiger Beleg → Status established; «Nächster Schritt:» als dritter
+  Label-Opener neben «Frage:»/«Ziel:»; Metrik 348 W), [[fachsignatur]] (Behörden-Fristüberschreitungs-
+  Nachfass mit Verfahrensrecht-Zitat+Datumsbeleg+3-Punkte-Fragenkatalog als zweite Eskalationsstufe;
+  Kosten-Konsistenz-Check vor Vergabe — Lücke im Angebot erkennen, allgemeine Posten reduzieren
+  lassen, konsistenten Preis pro Variante einfordern), [[arbeitsweise]] (Zwei-Stufen-Eskalationsleiter
+  beim Behörden-Nachfass — Eskalation über Beweisdichte, nicht über den Ton). Register
+  `raw/_INGESTED.md` (Batch-61-Zeile) nachgeführt. Modell-Politik MVM: Mail-Abruf via CLI-Fallback
+  (mechanisch, hier im Hauptkontext wegen MCP-Ausfall), Volltext-Lektüre+Authentizitätsurteil+
+  Echo-Detektion+Marker-Destillation auf Hauptmodell (Verifikationsstufe).
 - **2026-07-25 — twin-fidelity-review (Turnus, Gesamt-Fidelity 90).** Drei authentische Vor-Claude-Golds
   03.–05.09.2025 in drei Registern gezogen (Yorck Design-Weisscollage-Du, Frick Honorar-Sie [bereits gesättigt],
   Gregori Service-Lieferanten-Sie mit Betreff «Anrufen: 0798461165»), Twin-Fassungen blind gescort. Zwei Funde:

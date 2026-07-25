@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 25.07.2026 13:42:52
+Stand: 25.07.2026 14:03:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:37)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:57)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 25.07.2026 13:42:52
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e3725af6 spec-training Lauf 28 (Verifikationslauf): P1 haelt + neuer Fund Faktenbasis-Drift (SYN-02)
+- d08c0412 immobewertung-training Run 44: Delta-Null-Bestaetigungslauf (zwoelfter in Folge)

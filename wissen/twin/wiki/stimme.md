@@ -2115,3 +2115,11 @@ der Café-/Büro-Empfangsgeste aus dem Peer-Du (stimme 260706 «Ich erwarte Dich
 sachlich-höflich als Angebot, für eine Bemusterung vorbeizukommen. Bislang nur EIN Datenpunkt (Echo-/
 Overfitting-Schutz: nicht generalisieren, bis ein zweiter Beleg vorliegt) → [[QUESTIONS]] 260725. Der
 Zwilling setzt diese Geste vorerst NICHT aktiv, bis ein zweiter Fall sie bestätigt.
+
+## Batch 61 (2026-07-07…07-08) — «Bitten»-Gross-Slip zum dritten Mal + «Nächster Schritt:» als Label-Opener-Variante
+
+Gewichtung: authentisch (handgetippte Rahmen, Metrik unten). Quelle: Wartstrasse 8 + Albertstrasse 7 Nova + Thalwil 2414, 07.–08.07.2026.
+
+- **Mitten-im-Satz-Grossschreibung nach «Bitte(n)»/Modalkonstruktion, dritter unabhängiger Beleg:** «Daher **Bitte** ich Dich …» (Du, Wartstrasse) und «Darf ich Dich **Bitten** dies … zu integrieren» (Du, Ernstlips) — beide in derselben Sitzung, unabhängig vom Batch-60-Beleg «Darf ich Dich Bitte.». Der Slip ist damit **established**, kein Einzelfall: das grossgeschriebene Verb nach Modal-/Aufforderungskonstruktion («Bitte»/«Bitten») tritt systematisch im handgetippten Du auf. Weitere Slips derselben Mails: «Sehe ich das Richtig» (Cap R), «dem Lieferant» (Genus-Fehler), «ein Vorschlag zu machen» (Kasus-Fehler) — starkes Echtheitssignal, KEINE Gedankenstriche in beiden Mails.
+- **«Nächster Schritt:» als weiterer Label-Opener** neben «Frage:»/«Ziel:» (Batch 60 Fidelity): «Im Anhang die Projektänderungspläne … Nächster Schritt: Näherbaurecht SBB Vordach Eingabe Projektänderung Gemeinde» — hier sogar ohne Verb, reine Stichwort-Kette. Bestätigt die Label-Opener-Familie als produktives Muster (mündliches Stichwort-Anhängen statt ausformuliertem Satz), jetzt mit drittem Label.
+- **Metrik (7 authentische Mails, 348 W):** Du-Gross-Quote 1.0, Satzlänge ø 13.9 W, Apostroph 0, «%» n/a, Ellipsen 0, Grüsse «Freundliche Grüsse» 5×/«Lieber Gruss» 1×.
