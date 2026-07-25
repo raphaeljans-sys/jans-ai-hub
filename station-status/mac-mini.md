@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 25.07.2026 17:44:07
+Stand: 25.07.2026 17:54:12
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:17)
+- Developer/jans/ai/hub  (letzte Aktivitaet 17:53)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 25.07.2026 17:44:07
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f8e99f63 planungsgrundlagen-training Run 70: Frischecheck Recht-Norm+Brandschutz (0 neue Dateien seit Run 68), Nullbefund fuer alle vier Domaenen bestaetigt
+- 6aa97478 nas-selfcommit: 13 Datei(en) 2026-07-25 17:45

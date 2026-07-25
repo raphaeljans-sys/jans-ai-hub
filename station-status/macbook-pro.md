@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.07.2026 17:38:33
+Stand: 25.07.2026 17:58:49
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:38)
+- Developer/jans/ai/hub  (letzte Aktivitaet 17:52)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 25.07.2026 17:38:33
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- f8e99f63 planungsgrundlagen-training Run 70: Frischecheck Recht-Norm+Brandschutz (0 neue Dateien seit Run 68), Nullbefund fuer alle vier Domaenen bestaetigt
+- 208339ac planungsgrundlagen-training Run 71: Kartenportale+Energie Frischecheck, 0 neue Dateien seit Run 69 (dritte Bestaetigung)
