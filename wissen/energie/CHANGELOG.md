@@ -2,6 +2,26 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 92: VKF-Richtlinie 22-15 + GVZ-Prämienformel primärquellen-verifiziert, zwei neue Themen
+- **VKF-Richtlinie 22-15 «Blitzschutzsysteme» selbst beschafft** (frühere Fehltreffer-Richtlinie
+  23-03d korrigiert): neunteilige Tabelle wer grundsätzlich blitzschutzpflichtig ist, JANS-Healthcare-
+  Doppelkriterium (Spital/Pflegeheim ab 20 hilfsbedürftigen Personen Klasse III/II + lebenserhaltende
+  Anlagen Klasse II unabhängig von Personenzahl) → `[[vkf-richtlinie-22-15-blitzschutzsysteme]]`
+  (neu, established), FAQ F119 neu.
+- **GVZ-Prämienmechanik PV/Speicher ziffern-genau verifiziert:** Einheitsprämie 0,29 ‰ für alle
+  Gebäude, PV zählt nur als Wertvermehrung (kein PV-Zuschlag); Negativbefund Batteriespeicher (keine
+  GVZ-Aussage) und Kt. Schwyz (keine öffentliche Formel) → `[[gvz-praemienmechanik-pv-speicher]]`
+  (neu, established), FAQ F120 neu.
+- **Neuer Themenartikel Fenster-Zielkonflikt Uw/g-Wert** (schliesst Curriculum-Punkt A5): SIA-180-
+  g_tot-Grenzen orientierungsabhängig, Sonnenschutzglas-vs-Storen-Tradeoff, CH-Stundenkriterium statt
+  DE-Kelvinstunden-Methode → `[[fenster-uw-g-wert-zielkonflikt]]`, FAQ F121 neu.
+- **Neues Destillat KBOB-Bauteilkatalog CO2 je Aufbau:** Holzbau-Aussenwand 25-34 kg CO2-eq/m²,
+  treeze-Studie belegt Holzriegelwand −73 % ggü. Backstein+EPS bei gleichem U-Wert →
+  `[[kbob-bauteilkatalog-co2-je-aufbau]]` (neu, established), FAQ F122 neu.
+- Vier parallele Sonnet-Rechercheagenten; alle Register-/FAQ-Edits mit echten Umlauten auf dem
+  Hauptmodell geschrieben. FAQ-Stand F1–F122 (vier neue Fragen). PDF-Inventar weiterhin erschöpft
+  seit Run 65. Output: `outputs/2026-07-25_energie-run92.md`.
+
 ## 2026-07-25 — Run 91: drei Run-90-Prioritäten abgearbeitet, eine wichtige Korrektur
 - **VKF-Blitzschutz-Ziffer ziffern-genau verifiziert:** VKF-Brandschutzmerkblatt «Solaranlagen»
   2001-15de (Ausg. 01.01.2022), Ziff. 3.1 Abs. 3, wörtlich zitiert und zweifach gegengeprüft (VKG-

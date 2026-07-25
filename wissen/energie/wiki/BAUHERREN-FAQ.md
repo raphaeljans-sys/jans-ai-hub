@@ -4240,3 +4240,112 @@ Datenstand 2026-07-25 (Run 91). Status **established** (Blitzschutz-Kernaussage 
 Brandabschnittsschwellen jetzt ziffern-genau am VKF-Original verifiziert; GVZ-Prämienmechanik und die
 VKF-Richtlinie 22-15 selbst — welche Gebäude grundsätzlich blitzschutzpflichtig sind — bleiben offen,
 vor verbindlicher Bauherren-Zusage direkt bei GVZ/VKF verifizieren).
+
+### F119 — Ab wann ist ein Spital oder Pflegeheim grundsätzlich blitzschutzpflichtig (unabhängig
+von einer PV-Anlage)?
+
+**Kurz für den Bauherrn:** Massgebend ist die VKF-Brandschutzrichtlinie 22-15de «Blitzschutzsysteme»
+(Ausgabe 01.01.2017, schweizweit für alle Kantone verbindlich, wortgetreu am Original verifiziert).
+Ihre Tabelle im Anhang zu Ziffer 2 erfasst ein Spital/Alters- oder Pflegeheim über **zwei
+unabhängige Kriterien**: (b[a]) sobald **20 oder mehr Personen** dauernd oder vorübergehend
+aufgenommen werden, die **auf fremde Hilfe angewiesen** sind → **Blitzschutzklasse III aussen /
+II innen**, unabhängig von Gebäudehöhe oder Fläche; sowie (i) unabhängig von der Personenzahl bei
+**jeder Einrichtung mit lebenserhaltenden technischen Anlagen** (Medizintechnik, Serverraum,
+Notstrom) mindestens **Klasse II innerer Blitzschutz** — hier verlagert die Richtlinie die konkrete
+Umsetzung explizit in die **Betreiberverantwortung** (dokumentiertes Überspannungsschutzkonzept),
+nicht in eine feste bauliche Vorschrift. Für ein JANS-Healthcare-Projekt heisst das: die
+Blitzschutzpflicht ist in der Vorprojektphase als feste Kostenposition einzuplanen, sobald absehbar
+ist, dass 20+ hilfsbedürftige Personen betreut werden — unabhängig davon, ob je eine PV-Anlage
+geplant ist (eine PV-Anlage selbst löst gemäss dem separat verifizierten VKF-Merkblatt «Solaranlagen»
+keine eigene Blitzschutzpflicht aus, siehe F118). Bei Umnutzung/Erweiterung eines Bestandsbaus zu
+einem Pflegeheim mit neu 20+ hilfsbedürftigen Bewohnern ist die Pflicht **neu zu prüfen**, auch wenn
+das Gebäude vorher nicht blitzschutzpflichtig war. Kontrollintervalle sind kantonal geregelt (Kt.
+Zürich: alle 10 Jahre für Klasse II/III, GVZ-Weisung 20.06); für Kt. Schwyz gilt die materielle
+Pflicht identisch (Richtlinie 22-15 gilt «für alle Kantone»), eine eigene kantonale Vollzugsweisung
+konnte in dieser Recherche jedoch nicht gefunden werden — bei einem konkreten SZ-Projekt vor
+Baueingabe direkt beim Amt für Militär, Feuer- und Zivilschutz nachfragen. → `[[vkf-richtlinie-22-15-blitzschutzsysteme]]`,
+`[[pv-blitzschutz-gebaeudeversicherung-ch]]`.
+Datenstand 2026-07-25 (Run 92). Status **established** (VKF-Primärdokument 22-15de vollständig
+gelesen, Tabelle wortgetreu zitiert und gegen zwei kantonale Vollzugsdokumente ZH/BE gegengeprüft;
+offen bleibt eine eigene SZ-Vollzugsweisung sowie ob zwischenzeitlich eine neuere Ausgabe als
+01.01.2017 erschienen ist).
+
+### F120 — Erhöht eine PV-Anlage die Gebäudeversicherungsprämie in Kt. Zürich?
+
+**Kurz für den Bauherrn:** Ja, aber nur **indirekt** — die GVZ kennt **keinen PV- oder
+Batteriespeicher-spezifischen Prämienzuschlag**. Wörtlich von gvz.ch: «Die GVZ setzt auf eine
+Einheitsprämie und erhebt trotz unterschiedlicher Risiken für alle Gebäude den gleichen
+Prämiensatz» — **29 Rappen pro CHF 1'000 Versicherungswert** (0,29 ‰; davon 19 Rp. Feuer, 2 Rp.
+Erdbeben, 8 Rp. Brandschutzabgabe, Mindestprämie CHF 10/Gebäude). Eine PV-Anlage zählt bei der GVZ
+selbst ausdrücklich als **«Wertvermehrung»** (wie eine energetische Sanierung oder ein Cheminée-
+Einbau) und erhöht damit den Gebäudeversicherungswert um ihre Erstellungskosten — auf diesen
+erhöhten Wert wird anschliessend derselbe Einheitssatz angewendet. **Faustrechnung:** PV-
+Erstellungskosten CHF 25'000 → Mehrprämie ca. CHF 7.25/Jahr (25 × 0.29); bei CHF 50'000 ca.
+CHF 14.50/Jahr. **Meldeweg:** bis CHF 50'000 und bis 50 % des bisherigen Versicherungswerts genügt
+die formlose «Anmeldung kleine Wertvermehrung» (keine Schätzung nötig, auch vor Baubeginn möglich);
+darüber ist vor Baubeginn eine Bauzeitversicherung Pflicht, nach Fertigstellung folgt ein
+Schätzungsgesuch. **Batteriespeicher:** gvz.ch macht dazu keine eigene Aussage — mit der GVZ-
+Fachstelle (versicherung@gvz.ch) klären. **Kt. Schwyz** ist als GUSTAVO-Kanton anders gelagert:
+keine kantonale Einheitsprämie, private Feuerversicherer (z.B. Mobiliar) kalkulieren individuell und
+risikobasiert ohne öffentlich publizierte Promille-Formel — hier lohnt sich die direkte Anfrage beim
+eigenen Versicherer statt eine Analogierechnung zur GVZ-Formel. → `[[gvz-praemienmechanik-pv-speicher]]`,
+`[[pv-blitzschutz-gebaeudeversicherung-ch]]`.
+Datenstand 2026-07-25 (Run 92). Status **established** (GVZ-Prämienformel und Wertvermehrungs-
+Mechanik ziffern-genau am Original verifiziert; PV-/Speicher-spezifischer Zuschlag ist ein
+verifizierter Negativbefund — existiert bei der GVZ nicht; Kt. Schwyz bleibt ebenfalls
+Negativbefund, keine öffentliche Formel auffindbar).
+
+### F121 — Welchen g-Wert soll ich für meine Fenster wählen?
+
+**Kurz für den Bauherrn:** Es gibt keinen pauschal «richtigen» g-Wert — ein Fenster kann nicht
+gleichzeitig maximal viel Sonnenwärme im Winter hereinlassen (hoher g-Wert nützt der Heizbilanz)
+UND maximal wenig im Sommer (tiefer g-Wert schützt vor Überhitzung), weil der g-Wert des Glases
+richtungslos und ganzjährig gleich ist. Die Schweizer Norm löst diesen Zielkonflikt nicht am Glas,
+sondern **zeitlich über einen beweglichen Aussensonnenschutz**: massgebend ist der **g_tot**
+(Glas × Sonnenschutz-Reduktionsfaktor) nach **SIA 180:2014 Ziff. 5.2.4.1**, dessen Grenzwert von der
+**Himmelsrichtung** abhängt — Nord grosszügig (g_tot ≤ 0,20/fg), Nordost/Nordwest mittel
+(≤ 0,13/fg), und **alle übrigen Fassaden inklusive Ost/West genauso streng wie Süd** (≤ 0,07/fg,
+weil die tiefstehende Morgen-/Abendsonne dort schwerer zu beschatten ist). **Der pragmatische
+Standardweg:** einen aussenliegenden, automatisch gesteuerten Sonnenschutz einplanen und das Glas
+selbst mit einem normalen, eher hohen g-Wert wählen (Standard-Dreifachglas ~0,5–0,6) — das System
+aus Glas + Storen macht den Unterschied, nicht das Glas allein. **Sonnenschutzglas** (fixer tiefer
+g-Wert) lohnt sich nur dort, wo bewegliche Storen baulich nicht möglich sind (Fixverglasung,
+Vorhangfassade, exponierte Fassade ohne Vordach) — und löst ab g < 0,3 automatisch den strengeren
+Systemnachweis nach EN-102 aus. **Wichtig:** innenliegender Sonnen-/Blendschutz ist **keine**
+gleichwertige Alternative — er wirkt gemäss SIA 382/1 rund **Faktor 4–5 schlechter** als
+aussenliegender, weil die Wärme dort bereits im Raum ist. Und: die Schweizer Norm rechnet mit
+**Überschreitungsstunden** (100 h Neubau/400 h Bestand über 26,5 °C), nicht mit der deutschen
+gradgewichteten Kelvinstunden-Methode — Letztere ist für CH-Projekte nicht direkt übertragbar.
+→ `[[fenster-uw-g-wert-zielkonflikt]]`, `[[fenster-verglasung]]`, `[[sommerlicher-waermeschutz]]`.
+Datenstand 2026-07-25 (Run 92). Status **emerging** (SIA-180-g_tot-Tabelle und Stunden-Kriterium
+primärquellenbelegt aus bereits established geführten KB-Destillaten; die Glas-g-Wert-Bandbreiten
+je Himmelsrichtung ohne Storen stützen sich teilweise auf DE-Sekundärquellen, da keine CH-amtliche
+Tabelle dafür gefunden wurde).
+
+### F122 — Wie viel graue Energie (CO2) steckt in einer typischen Holzbau-Aussenwand, und wie
+schneidet Holzbau gegenüber Massivbau ab?
+
+**Kurz für den Bauherrn:** Ein reales, KBOB-basiertes Holzbau-Aussenwandelement (Ständerbauweise,
+hinterlüftete Fassade, U ≈ 0,17–0,20 W/m²K) verursacht rund **25–34 kg CO2-eq/m²** (Herstellung +
+Entsorgung, Quelle Lignumdata/LIGNUM Holzwirtschaft Schweiz, Datenbasis KBOB/ecobau/IPB
+2009/1:2022 V6/2024). Eine unabhängige Schweizer Ökobilanz-Studie (treeze Ltd./ZZ Wancor, 2017)
+vergleicht drei real gebaute Wandsysteme bei **identischem U-Wert** (0,16 W/m²K): eine
+**Holz-Leichtbau-Ständerwand verursacht rund 73 % weniger** Treibhausgasemissionen als eine
+Backstein-plus-EPS-Wand, eine Poroton-Ziegelwand liegt nur 12 % tiefer als die Backsteinwand (bei
+der der importierte Ziegel selbst rund 40 % der Umweltbelastung ausmacht, allein wegen des
+550-km-Lkw-Transports). Das deckt sich mit der bereits dokumentierten Wüest-Partner-Zahl (Holzbau
+Gesamtgebäude −23 % ggü. mineralisch) — drei unabhängige Quellen auf drei Massstäben (Wandsystem,
+Gesamtgebäude, Tragstruktur), gleiche Richtung. **Wichtiger Vorbehalt bei der Materialwahl:** nicht
+«Holz vs. Massiv» allein entscheidet, sondern die **Masse der eingebauten Schichten** — ein
+Flachdach in einem Massivholz-Plattensystem (BRESTA) mit Kies-Nutzschicht kommt trotz Holzbau auf
+rund 204–206 kg CO2-eq/m², also 6–8× höher als die schlanke Ständerwand-Aussenwand, weil zusätzliche
+mineralische/bituminöse Schichten (Kies, Dichtungsbahn) das Gewicht treiben. Für eine
+projektspezifische, verbindliche Zahl (z.B. Energienachweis, SIA-2032-Berechnung) bleiben diese
+Werte Anhaltspunkte — massgebend ist immer die aktuelle KBOB-Liste v8.0 (20.02.2026) mit dem
+effektiven Schichtaufbau. → `[[kbob-bauteilkatalog-co2-je-aufbau]]`, `[[graue-energie]]`,
+`[[kbob-graue-treibhausgasemissionen-2025]]`.
+Datenstand 2026-07-25 (Run 92). Status **established** (beide Quellen primärquellenbelegt mit
+exakten Fundstellen; offen bleibt eine gleichwertig transparente Massivbau-Bauteil-Detailseite mit
+vollem Schichtplan — bauteilkatalog.ch führt die GWP-Spalte nur hinter einem kostenpflichtigen
+PRO-Abonnement, und die treeze-Studie liefert nur relative Prozentwerte im Text, die absoluten kg-
+Werte stecken in einem nicht textextrahierbaren Balkendiagramm).

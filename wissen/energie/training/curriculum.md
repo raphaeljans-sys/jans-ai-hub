@@ -128,8 +128,13 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   (FAQ F59). **Damit A4 wirklich vollstaendig — alle sechs Hauptgruppen des BFE-Waermebrueckenkatalogs
   mindestens einmal zahlenbasiert belegt** (einzelne Ausfuehrungsvarianten innerhalb der Gruppen
   bleiben offen, z.B. Gruppe 6.2 ATK/Clickpress/Halfen-Spezialanker S. 119-126).
-- [~] A5 Fenster: U-Wert (Aw) + g-Wert — g_tot 0,1-0,15 + sommerl. Waermeschutz belegt 2026-06-09 via
-  Minergie 2023 + EN-2 → `[[sommerlicher-waermeschutz]]` (FAQ F11); offen: eigener Fenster-Artikel U_w/Zielkonflikt.
+- [x] A5 Fenster: U-Wert (Aw) + g-Wert — g_tot 0,1-0,15 + sommerl. Waermeschutz belegt 2026-06-09 via
+  Minergie 2023 + EN-2 → `[[sommerlicher-waermeschutz]]` (FAQ F11). **Eigener Fenster-Zielkonflikt-
+  Artikel Uw/g-Wert belegt 2026-07-25 (Run 92)** — SIA-180-g_tot-Grenze orientierungsabhaengig (Nord
+  ≤0,20/fg, alle uebrigen Fassaden inkl. Ost/West gleich streng wie Sued ≤0,07/fg), Sonnenschutzglas-
+  vs-Storen-Tradeoff (Faktor 4-5 innen/aussen), CH-Stundenkriterium statt DE-Kelvinstunden-Methode
+  → `[[fenster-uw-g-wert-zielkonflikt]]`, FAQ F121 neu. **A5 damit vollstaendig** (offen bleibt nur:
+  CH-amtliche Tabelle fuer reinen Glas-g-Wert je Himmelsrichtung ohne Storen).
 - [x] A6 CLT/Holzbau-Bauphysik — belegt 2026-06-11 via Stora-Enso-Doku Kap. 1-3 (Waerme λ 0,12 /
   Luftdicht folienfrei n₅₀ 0,6 / Feuchte s_d feuchtevariabel) → `[[holzbau-bauphysik-clt]]`,
   `[[clt-bauphysik-stora-enso]]` (FAQ F15). **Bauteilkatalog Kap. 4 belegt 2026-06-12** (Aussenwand
@@ -1001,3 +1006,24 @@ Verfahrensstand unverändert. FAQ-Stand jetzt **F1–F105**. Details: `outputs/2
   erneuter Suche nicht auffindbar → `[[fernwaerme-anschlusskosten-zh]]`. FAQ F110 + F118 geschärft,
   FAQ-Stand unverändert **F1–F118** (keine neue Frage, nur Präzisierungen bestehender Antworten).
   B1-Konsolidierung und SIA-2024-Zwilling bewusst nicht angegangen (destruktiv, Rückfrage nötig).
+
+- **D62 (Run 92, 2026-07-25)** — PDF-Inventar weiterhin erschöpft; vier parallele Sonnet-
+  Rechercheagenten arbeiten drei «Nächster Lauf»-Prioritäten aus Run 91 ab plus ein neues Thema.
+  **VKF-Richtlinie 22-15 «Blitzschutzsysteme» selbst beschafft:** echtes Primärdokument (22-15de,
+  Ausgabe 01.01.2017) gefunden — der frühere Downloadversuch hatte fälschlich Richtlinie 23-03d
+  getroffen. Neunteilige Tabelle wer grundsätzlich blitzschutzpflichtig ist, mit JANS-Healthcare-
+  Doppelkriterium (Spital/Pflegeheim ab 20 hilfsbedürftigen Personen Klasse III/II; lebenserhaltende
+  Anlagen Klasse II unabhängig von Personenzahl, Betreiberpflicht) → `[[vkf-richtlinie-22-15-blitzschutzsysteme]]`
+  (neu, established), FAQ **F119** neu. **GVZ-Prämienmechanik PV/Speicher beschafft:** Einheitsprämie
+  0,29 ‰ für alle Gebäude ziffern-genau verifiziert, PV zählt nur als Wertvermehrung, kein eigener
+  PV-Zuschlag; Negativbefund für Batteriespeicher (keine GVZ-Aussage) und Kt. Schwyz (keine
+  öffentliche Formel bei privaten Versicherern) → `[[gvz-praemienmechanik-pv-speicher]]` (neu,
+  established), FAQ **F120** neu. **Neues Thema Fenster-Zielkonflikt Uw/g-Wert (schliesst A5):**
+  SIA-180-g_tot-Grenzen orientierungsabhängig (Nord grosszügig, alle übrigen Fassaden inkl. Ost/West
+  gleich streng wie Süd), Sonnenschutzglas-vs-Storen-Tradeoff, CH-Stundenkriterium statt DE-
+  Kelvinstunden-Methode → neuer Themenartikel `[[fenster-uw-g-wert-zielkonflikt]]`, FAQ **F121** neu.
+  **Neues Thema KBOB-Bauteilkatalog CO2 je Aufbau:** Lignumdata Holzbau-Aussenwand 25-34 kg CO2-eq/m²,
+  treeze/ZZ-Wancor-Studie belegt Holzriegelwand −73 % ggü. Backstein+EPS bei gleichem U-Wert →
+  `[[kbob-bauteilkatalog-co2-je-aufbau]]` (neu, established), FAQ **F122** neu. FAQ-Stand: **122
+  Kernfragen (F1-F122) belegt.** B1-Konsolidierung und SIA-2024-Zwilling weiterhin bewusst nicht
+  angegangen (destruktiv, Rückfrage nötig).

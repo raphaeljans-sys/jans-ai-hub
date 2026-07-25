@@ -1279,3 +1279,35 @@ mit echten Umlauten (bewährtes Run-86-Muster gegen den Umlaut-Bug).
 - **B1-Konsolidierung (destillate/INDEX.md-Dubletten) und SIA-2024-Gesundheitsbau-Zwilling bleiben
   bewusst nicht angegangen** — beide destruktiv (Merge/Löschen), Rückfrage bei Raphael nötig (Rule
   `wissens-bibliothekar`).
+
+## Run 92 (2026-07-25) — vier parallele Rechercheagenten, drei Run-91-Prioritäten + ein neues Thema
+
+- [x] **VKF-Richtlinie 22-15 «Blitzschutzsysteme» selbst beschafft und gelesen** ✓ 2026-07-25: echtes
+  Primärdokument (Dok.-Nr. 22-15de, Ausgabe 01.01.2017) gefunden — der frühere Downloadversuch hatte
+  fälschlich Richtlinie 23-03d getroffen. Neunteilige Tabelle wer grundsätzlich blitzschutzpflichtig
+  ist, mit zwei für JANS-Healthcare direkt relevanten Kriterien (Spital/Pflegeheim ab 20
+  hilfsbedürftigen Personen Klasse III/II; lebenserhaltende Anlagen Klasse II unabhängig von
+  Personenzahl) → `[[vkf-richtlinie-22-15-blitzschutzsysteme]]` (neu, established), FAQ **F119** neu.
+- [x] **GVZ-Originaltext zur Prämienmechanik bei PV/Speicher beschafft** ✓ 2026-07-25: konkrete Formel
+  gefunden und ziffern-genau verifiziert — Einheitsprämie 0,29 ‰ für alle Gebäude, PV zählt nur als
+  Wertvermehrung (kein PV-spezifischer Zuschlag); Negativbefund für Batteriespeicher (keine GVZ-Aussage)
+  und Kt. Schwyz (keine öffentliche Formel bei privaten Versicherern) sauber dokumentiert →
+  `[[gvz-praemienmechanik-pv-speicher]]` (neu, established), FAQ **F120** neu.
+- [x] **Neues Thema: eigener Fenster-Zielkonflikt-Artikel Uw/g-Wert (Curriculum A5)** ✓ 2026-07-25:
+  SIA-180-g_tot-Grenzen je Himmelsrichtung, Sonnenschutzglas-vs-Storen-Tradeoff (Faktor 4-5
+  innen/aussen), Klärung Stunden- statt Kelvinstunden-Kriterium → neuer Themenartikel
+  `[[fenster-uw-g-wert-zielkonflikt]]`, FAQ **F121** neu. Offen bleibt: CH-amtliche Tabelle für den
+  reinen Glas-g-Wert je Himmelsrichtung (ohne Storen) — nur DE-Sekundärquellen gefunden.
+- [x] **Neues Thema: KBOB-Bauteilkatalog kg CO2-eq/m² je konkretem Bauteilaufbau** ✓ 2026-07-25:
+  Lignumdata liefert Holzbau-Aussenwand 25-34 kg CO2-eq/m², treeze/ZZ-Wancor-Studie belegt
+  Holzriegelwand −73 % ggü. Backstein+EPS bei gleichem U-Wert → `[[kbob-bauteilkatalog-co2-je-aufbau]]`
+  (neu, established), FAQ **F122** neu. Offen: keine gleichwertig transparente Massivbau-Detailseite
+  gefunden (bauteilkatalog.ch GWP-Spalte hinter PRO-Abo); treeze-Absolutwerte nur als Diagramm.
+- **B1-Konsolidierung und SIA-2024-Gesundheitsbau-Zwilling weiterhin bewusst nicht angegangen** —
+  unverändert Rückfrage-würdig (destruktive Restrukturierung, Rule `wissens-bibliothekar`).
+- **Neu offen:** GVZ-PDF `21photovoltaikanlagen-doku-pm.pdf` technisch nicht auslesbar (kodierter
+  PDF-Stream, WebFetch scheitert) — Folge-Recherche mit dediziertem PDF-Textextraktor könnte weitere
+  Details liefern. VKF-Richtlinie «Gefährliche Stoffe» Ziff. 3.5.3 (Mengenschwellen e/f) nur sekundär
+  über GVZ-Weisung zitiert, nicht eigenständig verifiziert. SNR 464022 (Blitzschutz-Ausführungsdetails)
+  weiterhin nicht volltextlich gelesen. Kt. Schwyz: keine eigene Vollzugsweisung zu Blitzschutzsystemen
+  gefunden (materielle Pflicht gilt trotzdem identisch).
