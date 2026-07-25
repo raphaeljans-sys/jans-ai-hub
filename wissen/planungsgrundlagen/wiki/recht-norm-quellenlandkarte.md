@@ -160,6 +160,9 @@ Wuerdigung bleibt der Skill `baurecht`; hier der belegte Datenstand fuer Planung
   Richtplan-Strang datierbar (RR-Ueberweisung 12.03.2025, KEVU 03.03.2026), die PBG-RPG-2-Anpassung
   aber weiterhin nicht. Quelle: zh.ch/de/planen-bauen/raumplanung/richtplaene/kantonaler-richtplan/
   laufende-verfahren.html + Erlaeuterungsbericht Vorlage 6013 (regierungsratsbeschluss-unterlagen 2025/263).
+- **Refresh 2026-07-25 (Run 62, WebSearch zh.ch):** unveraendert bestaetigt — PBG-Umsetzung weiterhin
+  ohne Fertigstellungsdatum, Bundes-Etappen 01.01./01.07.2026 (inkl. Abbruchpraemie ab 01.07.2026)
+  wie dokumentiert in Kraft. Kein neuer Erkenntnisgewinn seit Run 58 (24.07.).
 - **Direkt seit 01.01.2026 (belegt zh.ch, Run 11):** u.a. Vorrang Landwirtschaft + **Bestandes-/
   Besitzstandsschutz fuer ueber 30 Jahre bestehende Gebaeude** ausserhalb Bauzone gilt unmittelbar.
 - **ZH-Stabilisierungswert (absolute Zahlen, belegt zh.ch 2026-06-28):** der 2-%-Schwellenwert

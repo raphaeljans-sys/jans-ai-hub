@@ -208,6 +208,13 @@ antizipierte BSV-2026-Erleichterung einzuplanen. Quellen: bsvonline.ch «Informa
 Inkrafttreten 2027 ohne Quartalsangabe). Kein neuer Erkenntnisgewinn seit Run 58 (24.07.); naechster
 sinnvoller Check bleibt der tatsaechliche Start der politischen Vernehmlassung im August 2026.
 
+**Refresh 2026-07-25 (Run 62, WebSearch bsvonline.ch/vkg.ch/presseportal.ch):** erneut **unveraendert**
+bestaetigt — technische Vernehmlassung 15.09.2025-11.01.2026 abgeschlossen, politische Vernehmlassung
+weiterhin fuer 08/2026 angekuendigt, IOTH-Plenums-Genehmigung 03/2027, Inkrafttreten Fruehjahr/Herbst
+2027 (Quelle nennt "Fruehjahr 2027" — leichte Formulierungs-Abweichung zu den bisherigen "Herbst
+2027"-Treffern, kein neuer Terminplan, da beide Formulierungen auf denselben unpraezisen offiziellen
+Zeitraum zurueckgehen). n-te Refresh-Bestaetigung ohne Delta seit Run 58/60.
+
 **§1a · Normkonzept BSV 2026 — die materiellen Eckpunkte (Primaerquelle, Run 48, 2026-07-14):**
 
 > **Querbezug KB normen (Fuehrung Norm-Fundstelle):** «Normkonzept BSV 2026» ist ein VKF-Primaerdokument;

@@ -1,7 +1,7 @@
 ---
 title: Recht & Norm — Amt für Hochbauten Stadt Zürich (AHB): Projektstandards für Planende (Flächenerfassung SIA 416, CAFM, Elektro-Sicherheitsnachweis, Gebäudeautomation Pflegezentren, Honorarwesen, Nachhaltiges Bauen, CAD, Submissions-/Zahlungswesen)
 status: established
-last_updated: 2026-07-25 (Run 60)
+last_updated: 2026-07-25 (Run 62)
 sources: [PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/09-Projektdokumentation/09.1-Projektdokumentation/Projektdokumentation_Richtlinie.pdf (PAB 2.16.R, Stand 01.06.2008), .../Projektdokumentation_Muster.doc (Instandsetzung Schulanlage Döltschi, Leutwyler Partner Architekten, Stand 01.10.2008), .../Projektdokumentation_KV.xls (BKP-Kostenzusammenstellung Schulanlage Döltschi, 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/10-Projektablauf/10.6-Projektabschluss/Abnahmeprotokoll-SIA.doc (Stadt Zürich AHB, Stand 24.05.2006), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/13-CAD+Archivierung/13.2-CAD-Richtlinie/Richtlinie-CAD-4.0-2008.pdf (Vollversion, 17 S., Ausgabe Januar 2008, Interessengemeinschaft CADexchange + AHB-Ergänzungen), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/12-Bauwerkdokumentation/12.1-Dokumentation/Richtlinie-Bauwerkdokumentation-2009.pdf (Januar 2009, 2 S.), .../12.2-Faltblatt/Faltblatt_Muster.pdf (Restaurant-Kiosk Hafen Riesbach, März 2005), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/16-Ingenieurwesen/16.2-Richtlinien/Tragwerkverstaerkungen+Tragelemente.pdf (März 2009), .../Betonneubauten.pdf (März 2009), .../Recyclingprodukte.pdf (Informationsblatt 5.6, Stand 1999/2001), .../Recyclingbeton-unbedenklich.pdf (Tages-Anzeiger 31.10.2003), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/IMMO_Richtlinie Flaechenerfassungpdf.pdf ("Richtlinie für die Flächenerfassung und Erstellung von Bewirtschaftungsplänen (RFB)", Immobilien-Bewirtschaftung der Stadt Zürich, Version 7.0, Stand 13.07.2007, 85 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/IMMO_Merkblatt_Bezeichnungen.pdf ("Merkblatt für Bezeichnungen IMMO", CAFM-Richtlinie V14.2, Stadt Zürich Immobilien-Bewirtschaftung, 13.12.2006), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/AHB_Merkblatt_SINA.pdf ("Merkblatt Sicherheitsnachweis (SiNa) Elektroinstallationen", Stadt Zürich Amt für Hochbauten, Fachstelle Energie und Gebäudetechnik, Version 1.1, 13.05.2005/23.11.2007), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.5-Standards/Standards_Gebaeudeautomation_Pflegezentren.pdf ("Pflegezentren der Stadt Zürich — Standard Gebäudeautomation", Amt für Hochbauten, Fachstelle Energie und Gebäudetechnik, Version 1.1, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.2-Honorarofferte/Allgemeine-Bedingungen-AHB-SIA-102-2009.pdf (Stand Januar 2009, 8 S.), .../Allgemeine-Bedingungen-AHB-SIA-103-2009.pdf, .../Allgemeine-Bedingungen-AHB-SIA-105-2009.pdf, .../Allgemeine-Bedingungen-AHB-SIA-108-2009.pdf (Stand November 2006, 9 S., inhaltlich mit SIA-102-Fassung ident geprüft), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.1-Allgemeine Unterlagen/Merkblatt-zu-Planungsauftraegen-AHB-2009.pdf (Stand Januar 2009, 9 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/15-Honorar+Vertragswesen/15.5-Tarife/Zeittarifansaetze-2009.pdf (Stadtratsbeschluss Nr. 199 vom 4.2.2009), .../VSR-Netto-Preisempfehlung-2007.pdf (VSR Sektion Zürich, gültig ab 1.1.2007), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.1 Grundsaetze/Richtlinie_7-Meilenschritte_(Flyer).pdf (Stadtratsbeschluss Nr. 1094 vom 17.9.2008), .../Zielvereinbarungen_SIA112.1_Nachhaltiges_Bauen_(Uebersicht).pdf (Checkliste Öko 1.13, Stand 10.03.2008), .../Richtlinie_Bedingungen_fuer_Planungsleistungen_(Vertragsbestandteil).pdf (KBOB/eco-bau/IPB, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.3 Baustoffe (Bauoekologie & Stofffluesse)/Richtlinie_Bedingungen_fuer_Werkleistungen_(Vertragsbestandteil).pdf (KBOB/eco-bau/IPB, Juli 2008), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.6 Organisation/Fachstelle_nachhaltiges_Bauen+Energie+Gebaeudetechnik.pdf (Öko 7.17.I, Stand 11.08.2006), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/13-CAD+Archivierung/13.2-CAD-Richtlinie/Richtlinie-CAD-Kurzfassung-4.0-2008.pdf (Januar 2008), .../Planarchiv-CAD-Formate.pdf (Stand 2009), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/11-Submissions+Zahlungswesen/11.1-Wegleitung+Anleitung/Bedingungen_Arbeiten+Lieferungen.pdf ("Bedingungen für Arbeiten und Lieferungen zu Hoch- und Tiefbauten der Stadtverwaltung", Systematische Rechtssammlung Stadt Zürich 720.110, Stadtratsbeschluss 29.3.1978 mit Änderungen bis 5.6.1991, 7 S.), .../Wegleitung_ueber_das_Submissions-+Zahlungswesen_(mitMusterbeispielen).pdf ("Wegleitung über das Submissions- und Zahlungswesen (mit Musterbeispielen)", AHB, Verfasst Thomas Braun/Eliane Bucher, Zürich September 2006, 36 S., Auszug S. 1-4, 13-15, 30-32 gelesen), .../Anleitung_Vorlagen.pdf (April 2009, 4 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.3-Richtlinien/GT_RL1_Planungsgrundlagen_V21.pdf (RichtlinieGT, Version 2.1, Juli 2008, 6 S.), .../Allgemeines_Uebersicht.pdf (Bau-Standards Gebäudetechnik, September 2005, 1 S.), .../GT_RL2_Systemwahl_V21.pdf (Version 2.1, Juli 2008, 5 S.), .../GT_RL9_Gebaeudeautomation_V21.pdf (Version 2.1, Juli 2008, 7 S.), .../GT_RL3_Heizungsanlagen_V21.pdf (Version 2.1, Juli 2008, 4 S.), .../GT_RL4_Raumkuehlung_V21.pdf (Version 2.1, Juli 2008, 4 S.), .../GT_RL5_Lueftungsanlagen_V21.pdf (Version 2.1, Juli 2008, 5 S.), .../GT_RL6_Sanitaerinstallationen_V21.pdf (Version 2.1, Juli 2008, 4 S.), .../GT_RL7_Elektroanlagen_V21.pdf (Version 2.1, Juli 2008, 4 S.), .../GT_RL8_Beleuchtung_V21.pdf (Version 2.1, Juli 2008, 4 S.), .../Uebersichtstabelle_Beleuchtung_EN12464-1.pdf (19.01.2007, 1 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.5-Standards/Standards_Kennzeichnungssystem_V2.2.pdf (Version 2.2, 1. September 2007, 24 S.), .../Standards_Raummodul_Buero.pdf (Version 1.1, Juli 2008, 11 S., GL AHB freigegeben 28.09.2005), .../Standards_Raummodul_Klassenzimmer.pdf (Version 2.1, Juli 2008, 10 S., GL AHB freigegeben 24.09.2003), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.3 Baustoffe (Bauoekologie & Stofffluesse)/Recycling_Beton_(KBOB-Empfehlung_2007.2).pdf (KBOB/eco-bau/IPB 2007/2, 6 S.), PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.4 Wohlbefinden (Innenraumklima)/PCB_in_Fugendichtung_(KBOB-Empfehlung_2004.4).pdf (KBOB/eco-bau/IPB 2004/4 + Grundlage "Umgang mit PCB-haltigen Fugendichtungsmassen", 8 S. Empfehlung, Grundlage S. 1-4 gelesen), .../Gutes_Innenraumklima_ist_planbar_(KBOB-Empfehlung_2004.1).pdf (KBOB/IPB 2004/1, 6 S.), .../Schadstoff_in_Bauten_(Checkliste).pdf (AHB/UGZ Stadt Zürich, 20.09.2005, 4 S.)]
 links: [[recht-norm-raumprogramm-referenzwerke]], [[recht-norm-quellenlandkarte]], [[recht-norm-sanitaerraeume-planungsgrundlagen]], [[recht-norm-submissionsverordnung-zh]], [[energie-uebersicht]], [[brandschutz-pl03-wegweiser]], [[energie-baustoffe-schadstoffe-rueckbau]]
 ---
@@ -1245,4 +1245,120 @@ dokumentierten SIA-118-Grundlagen, aber erstmals ein reales, direkt verwendbares
 
 Damit ist der zehnteilige «Projektadmin AHB»-Ordner **vollständig ausgewertet** (§1–§8, §10–§18);
 §9 verbleibt nur noch als Register des niedrigprioritären, bewusst nicht vertieften Rest-Backlogs
-(23 Nachhaltiges-Bauen-Einzelmerkblätter + 4 GT-Kleinrichtlinien, s.o.).
+(23 Nachhaltiges-Bauen-Einzelmerkblätter + 4 GT-Kleinrichtlinien, s.o.). **Run 62 (2026-07-25)
+hat diesen Rest-Backlog nun vollständig abgearbeitet** → §19/§20.
+
+## 19. Nachhaltiges Bauen — Rest-Backlog (12 Einzelmerkblätter, §9 abgeschlossen)
+
+Alle in §9 als offen geführten Merkblätter der Unterordner 18.1–18.5 wurden gelesen. Ergebnis:
+durchweg **historische, 2005–2009 datierte Grundlagenpapiere ohne belegte JANS-Kernzahl über die
+bereits in §6/§17 dokumentierte Substanz hinaus** — konsistent mit der Einschätzung in §9
+("Grundprinzipien bereits über §6.1/6.3 abgedeckt"). Kurz dokumentiert statt übersprungen, damit
+der Backlog nicht erneut aufgemacht wird:
+
+- **«Bauen für die 2000-Watt-Gesellschaft — Sieben Thesen» (Mai 2008, Expertengruppe H.R. Preisig):**
+  prozessorientiertes Merkblatt (nicht technisch) — die Kernaussage ist, dass die organisatorischen
+  Rahmenbedingungen des Planungsprozesses (nicht nur die Technik) über den Erfolg eines
+  2000-Watt-Projekts entscheiden; zehn ausgewählte Stadt-ZH-TopBauten als Referenzkorpus genannt,
+  keine Gebäude einzeln mit Kennzahlen belegt. Kein Delta zu [[energie-uebersicht]].
+- **MINERGIE-ECO®-Flyer:** bestätigt die bereits bekannte MINERGIE-ECO-Systematik (Komfort/
+  Energieeffizienz aus MINERGIE® + Gesundheit/Bauökologie neu) — sechs Kriterien Licht/Lärm/
+  Raumluft (Gesundheit) + Rohstoffe/Herstellung/Rückbau (Bauökologie) + Ausschlusskriterien
+  (Biozide/Holzschutzmittel verboten); Zertifizierung nur für Wohn-/Verwaltungsbauten/Schulhäuser
+  (Neubau), EFH damals "in Vorbereitung". Kein Delta, ergänzt aber die Kriterien-Systematik, die
+  bisher nirgends in der KB einzeln aufgeschlüsselt war.
+- **«Checkliste nachhaltige Gebäudeerneuerung» (BFE/ARE/BWO/SVW, 25.06.2007):** Bundesebene, nicht
+  Stadt-ZH-spezifisch trotz Ablage im AHB-Ordner — Zielpublikum gemeinnützige Wohnbaugenossen-
+  schaften, Instrument für Sanierungsentscheide. Reiner Prozess-/Kriterienrahmen, keine Kennzahlen
+  gelesen (Vorspann/Impressum ausgewertet, inhaltlicher Kern nicht materialisiert genug für eigenen
+  Fund).
+- **«Solarstromanlagen in Bauprojekten» (FUY, 25.09.2008):** Eignungspriorität **Steildach/Flachdach
+  vor Fassade**, aber **thermische Solarnutzung (Warmwasser) wird der PV grundsätzlich vorgezogen**
+  (Effizienzargument, Stand 2008 — heute durch die reale JANS-PV-Praxis in [[energie-pv-eignung-
+  typenwahl]] überholt, dort dominiert PV klar). Statische Reserve 0–50 kg/m² montageabhängig;
+  Wirtschaftlichkeitsschwelle historisch 15 kWp (≈150 m² Steildach / 300 m² Flachdach) für
+  Contractor-Modell über die ewz-Solarbörse — dieses Contracting-Modell ist ein Stadt-ZH-
+  Spezifikum ohne kantonale Entsprechung. ⚠ Datenstand 2008, PV-Wirtschaftlichkeit seither massiv
+  verändert (vgl. aktuelle Pronovo-Zahlen in [[energie-betriebsenergie-pv-wirtschaftlichkeit]]) —
+  nur als historischer Kontrast dokumentiert, nicht als aktuelle Handlungsempfehlung.
+- **«Topten Haushaltgeräte»-Flyer:** Beschaffungsempfehlung für Bewirtschafterinnen (A++-Klasse,
+  Warmwasseranschluss Geschirrspüler/Waschmaschine, Wärmepumpen-Tumbler ≈3'900 CHF Ersparnis über
+  15 Jahre MFH, individuelle Verbrauchsabrechnung −20 %) — Betriebsphase, nicht Planungsgrundlage
+  im engeren Sinn; niedrige JANS-Relevanz (Bewirtschaftung statt Planung), aber als Cross-Referenz
+  für [[healthcare-wirtschaftlichkeit]]-Betriebskosten-Kapitel vermerkt.
+- **«Baustellenkontrolle» + «Deviskontrolle» (Checklisten, POM 11.08.2006):** Vollzugs-Checklisten
+  für Bauleitung/Projektleitung — Baustellenkontrolle prüft reale vs. bestellte Materialien
+  (Originalgebinde-Pflicht, Mehrmuldensystem-Trennung, EC1-Klebstoffe, halogenfreie Kabel);
+  Deviskontrolle regelt die **Rangfolge der Vertragsbestandteile nach SIA 118** (1. Leistungs-
+  verzeichnis, 2. Allgemeine bauökologische Submissionsbedingungen, 3. Allgemeine Bedingungen) und
+  verweist auf die eco-devis (NPK-Ökopositionen) als Ausschreibungshilfe — direkt anschlussfähig an
+  Skill `ausschreibung`, aber kein neuer Fakt über die bereits im Skill dokumentierte SIA-118-
+  Systematik hinaus.
+- **`Bauteilkatalog_Energie+Oekologie.pdf`:** bestätigter Nicht-Fund — Datei enthält nur den
+  bareURL-Link `www.bauteilkatalog.ch` (dasselbe Tool, das bereits über den Bauteilkatalog
+  Neubauten BFE 2002 in [[energie-heizwaermebedarf-waermeerzeugerleistung]] §5 referenziert ist).
+- **«Elektrosmog» (Informationsblatt 5.7):** PDF technisch **nicht lesbar** — defekte
+  Zeichenkodierung (Font-Subsetting-Fehler, `pdftotext` liefert nur Kauderwelsch-Byte-Salat trotz
+  korrektem Seitenlayout). Kein Recherche-Nichtfund, sondern ein technischer Blocker; Kandidat für
+  einen Re-Versuch mit OCR (`ocrmypdf`) in einem Folgelauf, niedrige Priorität (Elektrosmog ist
+  kein JANS-Kernthema).
+- **«Gebäudescreening» (Checkliste):** Vorstufe zum bereits dokumentierten Gebäudecheck
+  ([[energie-baustoffe-schadstoffe-rueckbau]]) — rein visuelle Erstbegehung ohne Werkzeuge/
+  Sondierung (findet **keine verdeckten** Asbestvorkommen, dafür bleibt der Gebäudecheck zwingend),
+  Nachkontroll-Rhythmus 2 Jahre (Dringlichkeitsstufe II) bzw. 5 Jahre (Stufe III). Ergänzt, aber
+  ersetzt nicht die AWEL-Checkliste.
+- **«Holzwerkstoffe in Innenräumen» (Lignatec, Lignum):** Formaldehyd-Vermeidungsmatrix nach
+  Anwendungsfall (Rohplatte/werkseitig beschichtet/handwerklich beschichtet/Akustikbereich/
+  Feuchtbereich) — Kernregel **E1-Trägerplatte + diffusionsdichte Beschichtung ober- UND
+  unterseitig**, wenn keine formaldehydfrei verleimte Platte (PMDI/PU/PVAc) verwendet wird;
+  nachträgliches Schlitzen/Bohren vergrössert die emittierende Oberfläche massiv und ist zu
+  vermeiden. Direkter Bezug zum bereits in §17.2 dokumentierten Innenraumklima-CO₂-/TVOC-
+  Grenzwertrahmen — neue, materialspezifische Verarbeitungsregel, kein Zahlen-Delta.
+- **«Vorgehen bei Beschwerden» (Checkliste, Innenraumklima 4.15, 30.09.2005):** 4-Phasen-Prozess
+  Aufnahme→Messung→Massnahmen→Kommunikation bei Innenraumklima-Beschwerden; Grundsatz **"Ziel ist,
+  die Medien zu orientieren, bevor deren Recherche beginnt"** — Kommunikations-Checkliste, keine
+  technische Kennzahl.
+- **«Dachbegrünung» (Checkliste, FUY, 16.02.2009):** Rechtsgrundlage **BZO Art. 11 Abs. 1** (Flach-
+  dächer sind zu begrünen, "soweit zweckmässig sowie technisch und wirtschaftlich zumutbar") — ein
+  bisher nicht dokumentierter BZO-Artikel, Cross-Ref [[recht-norm-quellenlandkarte]]. Kennzahlen:
+  Regenwasserrückhalt 40–90 %, Wärmeleitzahl dichtes Graspolster λ=0.17 W/m²K vs. erdfeuchtes
+  Substrat λ=0.6 W/m²K; PV-Kombination-Regel **Panelabstand <80 cm → niedrigwachsende
+  Samenmischung + Substrattiefe punktuell auf 5 cm reduziert**, Bautenschutzmatte unter der
+  PV-Unterkonstruktion Pflicht — ergänzt [[energie-pv-eignung-typenwahl]] um die
+  Dachbegrünungs-Schnittstelle.
+
+## 20. GT-Kleinrichtlinien (4 Restdateien, §9 abgeschlossen)
+
+- **«Richtlinie (Checkliste) für die Anlagedokumentation ELEKTRO» + «… HEIZUNG/LÜFTUNG/SANITÄR»**
+  (AHB, undatiert, Serie mit GT_RL1-9): regeln die **Revisionsdokumentation nach Bauabschluss**
+  (nicht die Planung selbst) — vier Empfänger-Exemplare (AHB-Archiv/Objekt/Schaltschrank-Raster/
+  IMMO), Abgabefrist **Schlussabnahme, spätestens 2 Monate danach**, pro Gewerk ein separater
+  Plansatz bei HLS. Ergänzt die bereits dokumentierten GT_RL1-9-Systemwahl-Richtlinien
+  (§12–§16) um die Abnahme-/Dokumentationspflicht-Ebene — direkt anschlussfähig an
+  [[recht-norm-ahb-stadt-zuerich-projektstandards]] §18.3 (Abnahmeprotokoll SIA 118) und Skill
+  `unternehmerkontrolle`.
+- **«Raumtemperatur-Richtlinie 2006»** (Beilage Stadtratsbeschluss Nr. 1194, 04.10.2006): städtische
+  **Betriebs**-Vorgabe, keine Planungsgrundlage — SIA 384/2 als Referenznorm für die
+  Temperatur-Richtwerte, Betriebszeiten Büro/Werkstatt 06.00–20.00 Uhr, Nachtabsenkung i.d.R.
+  **nicht unter 16 °C**, keine Absenkung bei Aussentemperatur <−10 °C (Wiederaufheiz-Risiko),
+  Elektroheizöfen/-Luftbefeuchter in Schul-/Verwaltungsbauten **verboten** (Ausnahme nur durch
+  Dienstchef). JANS-Relevanz gering (Betriebsphase, Stadt-ZH-intern), aber als Cross-Referenz zu
+  SIA-380/1-Standardnutzungswerten in [[energie-heizwaermebedarf-waermeerzeugerleistung]] §2
+  vermerkt (dort Innentemperatur bereits je Gebäudekategorie tabelliert — kein Widerspruch, andere
+  Quelle/Ebene).
+- **«Verzeichnis relevanter Gesetze, Vorschriften, Normen und Richtlinien»** (Fachstelle Energie und
+  Gebäudetechnik AHB, Excel, Datenstand-Spalte durchgängig **12.12.2006**): eine **Meta-Tabelle**
+  (Bundesrecht → kantonales Recht → SIA/SN-EN-Normen → interne AHB-Richtlinien), keine eigene
+  Sachaussage — Wert liegt im Rechercheansatz (Fachgebiet × Thema × Rechtsstufe als Kreuztabelle),
+  nicht im Inhalt. ⚠ **Datenstand 2006, für alle Einzelverweise vor Verwendung gegen die
+  aktuelle SR-Nummer/fedlex-Fassung zu prüfen** (Bundesrecht seither mehrfach revidiert, z.B.
+  Energiegesetz EnG 730 durch das Energiegesetz 2017 abgelöst) — nur als historische
+  Rechercheanleitung dokumentiert, keine Einzelnorm daraus übernommen.
+- **UKV-Teilrichtlinien** (Kommunikationsverkabelung Verwaltungs-/Schulgebäude, Kommunikationsräume,
+  LWL): **bestätigter Nicht-Fund** — im Ordner `14-Energie-und Gebaeudetechnik/` nicht auffindbar
+  (weder unter diesem noch einem erkennbar verwandten Dateinamen); vermutlich mit einer früheren
+  Ordnerbereinigung entfernt oder nie auf SharePoint synchronisiert. Backlog-Punkt damit
+  geschlossen (nichts mehr zu finden), nicht gelöst.
+
+Mit §19/§20 ist der in §9 dokumentierte Rest-Backlog **vollständig abgearbeitet** — der zehnteilige
+«Projektadmin AHB»-Ordner hat damit keine offenen Backlog-Punkte mehr.

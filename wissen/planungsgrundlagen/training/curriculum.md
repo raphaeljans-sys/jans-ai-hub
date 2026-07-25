@@ -105,6 +105,35 @@ das Ergebnis in den passenden Wiki-Artikel.
   Produkt-URL-Muster `daten.geo.lu.ch/produkt/<code>` → [[kartenportale-geoportale-uebersicht]].
   Zugangsdaten aus Quelldatei bewusst nicht uebernommen (Datenschutz). Damit ist der K46-Backlog
   vollstaendig geschlossen.
+- [x] R62 (Run 62, 2026-07-25) §9-Rest-Backlog «18-Nachhaltiges Bauen» (12 verbleibende Einzel-
+  merkblaetter 18.1-18.5) — welche Inhalte liefern die restlichen, bisher nie gelesenen Checklisten/
+  Flyer ueber die bereits in §6/§17 dokumentierte Substanz hinaus? Durchweg historische
+  2005-2009-Grundlagenpapiere ohne belegten Kernzahlen-Delta: 2000-Watt-Sieben-Thesen (Prozess statt
+  Technik), MINERGIE-ECO-Kriteriensystematik (6 Kriterien, Ausschlusskriterien), Checkliste
+  nachhaltige Gebaeudeerneuerung (Bund/SVW, Genossenschaften), Solarstromanlagen-Checkliste (2008,
+  historisch PV nachrangig zu thermischer Solarnutzung — durch reale JANS-PV-Praxis ueberholt),
+  Topten-Haushaltgeraete (Betriebsphase), Baustellen-/Deviskontrolle-Checklisten (SIA-118-
+  Vertragsbestandteil-Rangfolge, eco-devis-NPK-Verweis), Bauteilkatalog.pdf (Nicht-Fund, nur URL),
+  Elektrosmog-Merkblatt (technisch nicht lesbar, defekte PDF-Kodierung), Gebaeudescreening-
+  Checkliste (Vorstufe zum Gebaeudecheck), Holzwerkstoffe-Merkblatt (Formaldehyd-Verarbeitungs-
+  matrix), Vorgehen-bei-Beschwerden-Checkliste (4-Phasen-Kommunikationsprozess), Dachbegruenung-
+  Checkliste (NEU: BZO Art. 11 Abs. 1 Rechtsgrundlage, PV-Dachbegruenungs-Kombinationsregel <80cm
+  Panelabstand) → NEU §19 [[recht-norm-ahb-stadt-zuerich-projektstandards]].
+- [x] R63 (Run 62, 2026-07-25) §9-Rest-Backlog «4 GT-Kleinrichtlinien» — Richtlinie
+  Anlagedokumentation Elektro/HLS (Revisionsdokumentation nach Bauabschluss, Abgabefrist
+  Schlussabnahme +2 Mte.), Raumtemperatur-Richtlinie 2006 (Betriebsvorgabe SIA 384/2, Nachtabsenkung
+  min. 16°C, kein Absenken unter -10°C Aussentemp.), Verzeichnis Vorschriften/Normen/Richtlinien.xls
+  (Meta-Rechercheindex, ⚠ Datenstand 12.12.2006, Einzelverweise vor Verwendung gegen fedlex pruefen).
+  UKV-Teilrichtlinien (Kommunikationsverkabelung/-raeume/LWL): bestaetigter Nicht-Fund, im Ordner
+  nicht mehr auffindbar → NEU §20 [[recht-norm-ahb-stadt-zuerich-projektstandards]]. **Damit ist der
+  gesamte §9-Rest-Backlog des «Projektadmin AHB»-Ordners geschlossen — keine offenen Backlog-Punkte
+  mehr in dieser Domaene.**
+- [x] R6-Refresh (Run 62, 2026-07-25) RPG-2-ZH-Umsetzungsstand per WebSearch erneut geprueft —
+  unveraendert bestaetigt (PBG/Richtplan weiterhin ohne Fertigstellungsdatum), kein Delta seit
+  Run 58 (24.07.) → [[recht-norm-quellenlandkarte]].
+- [x] B5/BSV-2026-Refresh (Run 62, 2026-07-25) Terminplan per WebSearch erneut geprueft — unveraendert
+  bestaetigt (politische Vernehmlassung 08/2026, IOTH-Genehmigung 03/2027, Inkrafttreten 2027), kein
+  Delta seit Run 60 (25.07.) → [[brandschutz-pl03-wegweiser]] §1.
 
 ## Domaene 2 — Energie (PL-04)  · Prioritaet
 - [x] E1 PV-Typenwahl: Entscheidungsbaum (Indach/Ziegel/transparent/Fassade/Aufdach)? (2026-06-06, → [[energie-pv-eignung-typenwahl]])

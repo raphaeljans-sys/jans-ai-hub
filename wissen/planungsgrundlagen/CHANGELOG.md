@@ -2,6 +2,24 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 — Training Run 62 (Recht/Norm + Brandschutz, Token-Vollgas): §9-Rest-Backlog vollstaendig geschlossen
+Rotation zurueck auf Recht/Norm (PL-02) + Brandschutz (PL-03) (Run 61 hatte Kartenportale/Energie).
+Direkt in der Hauptsession (OneDrive-Lehre Run 56). Delta-Scan beider PL-Ordner: keine neuen Dateien.
+- **R62/R63 (Recht/Norm, groesster Fund):** der seit Run 45/52 als niedrige Prioritaet gefuehrte
+  §9-Rest-Backlog des «Projektadmin AHB»-Ordners (12 Nachhaltiges-Bauen-Einzelmerkblaetter + 4
+  GT-Kleinrichtlinien) vollstaendig gelesen und abgearbeitet. Durchweg historische 2005-2009-
+  Grundlagenpapiere ohne Kernzahlen-Delta zur bereits dokumentierten Substanz — Ausnahme:
+  Dachbegruenungs-Checkliste liefert NEU die Rechtsgrundlage **BZO Art. 11 Abs. 1** + eine
+  PV-Dachbegruenungs-Kombinationsregel. Zwei technische Randfaelle dokumentiert: Bauteilkatalog.pdf
+  = reiner URL-Verweis (Nicht-Fund), Elektrosmog-Merkblatt technisch nicht lesbar (defekte PDF-
+  Zeichenkodierung), UKV-Teilrichtlinien im Ordner nicht mehr auffindbar (Nicht-Fund) → NEU §19/§20
+  [[recht-norm-ahb-stadt-zuerich-projektstandards]]. **Der zehnteilige AHB-Ordner hat damit keine
+  offenen Backlog-Punkte mehr.**
+- **R6/B5-Refresh:** RPG-2-ZH-Umsetzungsstand (PBG/Richtplan weiterhin ohne Fertigstellungsdatum)
+  und BSV-2026-Terminplan (politische Vernehmlassung weiterhin 08/2026) per WebSearch erneut
+  geprueft — beide unveraendert bestaetigt, kein Delta seit Run 58/60.
+- Bericht: `outputs/2026-07-25_training-run62.md`.
+
 ## 2026-07-25 — Wissens-Chef Run 15 (Cross-KB): 2 Faktenkorrekturen + Ausgaben-Flag Regenwasser
 - **EN-102-Normbasis korrigiert (BESTAETIGT am Original-PDF):** `wiki/energie-heizwaermebedarf-waermeerzeugerleistung.md:172` und `wiki/energie-uebersicht.md:33` fuehrten «EnFK EN-102 Dez. 2018, Basis SIA 380/1:**2009**». Die Kopfzeile jeder Seite des PDF nennt «Ausgabe Dezember 2018 (Basis: Norm SIA 380/1, Ausgabe **2016**)» — Ursache war der irrefuehrende SharePoint-Dateiname `EN-102-d_Waermeschutz_3801_2009_2018Dez.pdf`. Beide Stellen korrigiert, Fallstrick dokumentiert, Verweis auf das fuehrende Destillat der KB `energie` gesetzt. Die Grenzwerte (0,17 / 1,0 / 0,25 Umbau) waren richtig und bleiben unveraendert.
 - **Versickerungspflicht korrigiert (Rechtsfehler, amtlich verifiziert):** `wiki/recht-norm-regenwasser-gewaesserraum-zh.md` schrieb, nicht verschmutztes Regenwasser muesse nach Art. 7 GSchG **nicht** versickert werden. Das kehrt die gesetzliche Regel um: nach **Art. 7 Abs. 2 GSchG** (SR 814.20, Fedlex-Konsolidierung 01.02.2023) ist die Versickerung der Regelfall, Einleitung/ARA sind die Ausnahmen der Kaskade. Wortlaut korrigiert, Fundstelle ergaenzt.
