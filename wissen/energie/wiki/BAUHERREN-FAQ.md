@@ -4805,8 +4805,31 @@ die Fenster vorzuziehen, um den Wärmebedarf so weit zu senken, dass die neue He
 dimensioniert werden kann.
 → `[[sanierungsfahrplan-etappierung-gebaeudehuelle]]`, `[[geak-gebaeudeenergieausweis-kantone]]`,
 `[[foerderprogramm-energie-zh-2026]]`, `[[foerderprogramm-energie-sz-2026]]`.
-Datenstand 25.07.2026 (Run 99). Status **emerging** (Kernprinzip «Hülle vor Heizung» über
-EnergieSchweiz/HEV Schweiz solide belegt; die konkrete Etappen-Reihenfolge stammt nur aus zwei
-journalistischen Sekundärquellen; kein amtliches Schweizer Dokument mit dem Titel
-«Sanierungsfahrplan» gefunden, der GEAK Plus übernimmt diese Funktion, ist aber kein gleichnamiges
-eigenes Instrument).
+Datenstand 25.07.2026 (Run 100 geschärft). Status **established** (die Verbands-Broschüre
+«Königsweg e+» von Gebäudehülle Schweiz — Fachverband selbst, nicht mehr nur ein Blog-Zitat —
+bestätigt die 3-Etappen-Folge (1 Hülle/Dämmung, 2 Heizung/Solarthermie, 3 PV/Speicher/Smart Home)
+im Volltext; kleine Nuance bei der genauen PV-Einordnung bleibt offen).
+
+### F140 — Was bringt eine Dachbegrünung oder ein Baum wirklich gegen die sommerliche Überhitzung — lohnt sich das neben der Klimaanlage?
+
+Ja, und meist zuerst statt einer Klimaanlage. Der Kanton Zürich beziffert den Kühleffekt eines
+grosskronigen Baums auf **über 7 °C** Reduktion der Aussenlufttemperatur und einer Dachbegrünung
+tagsüber auf bis zu **6,6 °C** — deutlich mehr als ein heller, reflektierender Bodenbelag (nur
+0,6 °C). Wasserelemente (Brunnen, Vernebelung) kühlen über Verdunstung sogar bis zu 8 °C.
+Hintergrund ist der urbane Hitzeinseleffekt: versiegelte, dunkle Flächen speichern Wärme und
+strahlen sie ab, was gerade in Städten die sommerliche Überhitzung verstärkt — ein Effekt, den der
+Klimawandel gemäss MeteoSchweiz (Climate CH2025) zusätzlich verschärft. Der Regierungsratsbeschluss
+ZH zur Klimaanlagen-Bewilligungspraxis verlangt deshalb ausdrücklich genau diese baulichen
+Massnahmen (Verschattung, Begrünung, Nachtauskühlung, interne Lastreduktion) **vor** einer aktiven
+Kühlung. Kostenseitig ist nur die extensive Dachbegrünung amtlich beziffert: rund CHF 32–50/m²
+Erstellung plus CHF 1.40/m² Unterhalt pro Jahr — für Fassadenbegrünung/Wasserelemente/
+Verschattungselemente liegen keine amtlichen Schweizer Kostenkennwerte vor. Wer in der Stadt
+Zürich baut, sollte vor der Baueingabe das städtische Stadtklimatool sowie die kostenlose
+Freiraumberatung von Grün Stadt Zürich konsultieren — die kommunale Fachplanung Hitzeminderung
+liefert standortspezifische statt nur generische Empfehlungen.
+→ `[[urbane-hitzeinseln-kuehlstrategien-aussenraum]]`, `[[sommerlicher-waermeschutz]]`,
+`[[fassadenbegruenung-hitzeschutz-pv-zielkonflikt]]`, `[[rrb-2025-1082-klimaanlagen-bewilligungspraxis-zh]]`.
+Datenstand 25.07.2026 (Run 100, neu). Status **emerging** (kantonale Kühlkennwerte (Kt. ZH)
+primärquellen-nah zitiert, BAFU/ARE-Grundlagenbericht 2018 nur in Auszügen ausgewertet, keine
+eigene SIA-Norm zum Aussenraumklima gefunden; Instrumente wie Stadtklimatool/Fachplanung sind
+kommunales Zürcher Recht, für andere Gemeinden und Kt. SZ nicht ungeprüft übertragbar).

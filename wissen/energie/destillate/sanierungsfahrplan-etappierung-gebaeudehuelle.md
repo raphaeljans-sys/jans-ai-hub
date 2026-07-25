@@ -1,10 +1,10 @@
 ---
-quelle: "EnergieSchweiz (Stories/Renovieren-Sanieren/GEAK), HEV Schweiz (Sanierungsplanung); ergaenzend Gebaeudehuelle Schweiz (Fachverband, zitiert via Migrol-Blog) und HAUSmagazin (Raphael Hegglin) fuer die konkrete Etappen-Reihenfolge"
-herausgeber: "Bundesamt fuer Energie BFE / EnergieSchweiz (energieschweiz.ch); Hauseigentuemerverband Schweiz (hev-schweiz.ch); Gebaeudehuelle Schweiz (Fachverband, Sekundaerzitat); HAUSmagazin (Branchenmedium, Sekundaerquelle)"
-ausgabe: "Web-Stand 2026 (energieschweiz.ch, hev-schweiz.ch); Migrol-Blogartikel 26.09.2019 (Gebaeudehuelle-Schweiz-Zitat); hausmagazin.ch ohne Datumsangabe"
-gelesen: "energieschweiz.ch/stories/zuerst-heizung-ersetzen-oder-gebaeudehuelle-daemmen/, energieschweiz.ch/wohnen/renovieren-sanieren/, energieschweiz.ch/stories/geak/, hev-schweiz.ch Sanierungsplanung-Seite, migrol.ch/de/blog/gebaeudehuelle (Fachverband-Zitat), hausmagazin.ch/.../energetische-sanierung-in-etappen (2026-07-25, WebFetch-Volltext)"
-datenstand: "2026-07-25 (Web-Abruf); Migrol-Quelle datiert 26.09.2019, HAUSmagazin-Artikel ohne Datum — beide als journalistische Sekundaerquellen markiert, nicht amtlich"
-status: emerging
+quelle: "EnergieSchweiz (Stories/Renovieren-Sanieren/GEAK), HEV Schweiz (Sanierungsplanung), Gebaeudehuelle Schweiz Broschuere 'Koenigsweg e+' (Primaerquelle direkt vom Fachverband) fuer die konkrete Etappen-Reihenfolge; ergaenzend HAUSmagazin (Raphael Hegglin) und Migrol-Blog fuer Praxis-Nuancen"
+herausgeber: "Bundesamt fuer Energie BFE / EnergieSchweiz (energieschweiz.ch); Hauseigentuemerverband Schweiz (hev-schweiz.ch); Gebaeudehuelle Schweiz (Verband Schweizer Gebaeudehuellen-Unternehmen, Lindenstrasse 4, 9240 Uzwil) — Broschuere 'Koenigsweg e+', Autoren Technische Kommission Solar | Energie; HAUSmagazin (Branchenmedium, Sekundaerquelle); Migrol-Blog (Sekundaerzitat, Praxis-Nuance)"
+ausgabe: "Web-Stand 2026 (energieschweiz.ch, hev-schweiz.ch); Koenigsweg e+ Version 1.2, April 2020 (Gebaeudehuelle Schweiz, 16-seitige PDF-Broschuere); Migrol-Blogartikel 26.09.2019; hausmagazin.ch ohne Datumsangabe"
+gelesen: "energieschweiz.ch/stories/zuerst-heizung-ersetzen-oder-gebaeudehuelle-daemmen/, energieschweiz.ch/wohnen/renovieren-sanieren/, energieschweiz.ch/stories/geak/, hev-schweiz.ch Sanierungsplanung-Seite, gebäudehülle.swiss/energiestrategie-2050-etappiert-zum-ziel + PDF-Broschuere 'Koenigsweg e+' (de.cdn-website.com/.../CleverSanieren-Knigswege.pdf, 16 Seiten Volltext gelesen 2026-07-25), migrol.ch/de/blog/gebaeudehuelle, hausmagazin.ch/.../energetische-sanierung-in-etappen (2026-07-25, WebFetch-Volltext)"
+datenstand: "2026-07-25 (Web-Abruf); Koenigsweg e+ datiert April 2020, Version 1.2 (Primaerquelle, direkt vom Fachverband, Volltext gelesen und verifiziert); Migrol-Quelle 26.09.2019, HAUSmagazin-Artikel ohne Datum — beide bleiben Sekundaerquellen fuer Praxis-Nuancen, tragen aber nicht mehr allein die Kernaussage"
+status: established
 last_updated: "2026-07-25"
 ---
 
@@ -37,22 +37,53 @@ bereits fertige Fenster/Dach-Details «nachgefahren» werden — Mehraufwand und
 (Quelle: hausmagazin.ch, «Energetische Sanierung in Etappen», Autor Raphael Hegglin, kein Datum
 angegeben; Sekundaerquelle, nicht amtlich verifiziert).
 
-## Eine konkrete Etappen-Reihenfolge (Sekundaerquelle, illustrativ)
-Der Fachverband **Gebaeudehuelle Schweiz** schlaegt (zitiert im Migrol-Blog, 26.09.2019) folgende
-4er-Staffelung vor — als **Paket-Logik**, nicht als starre Einzelschritt-Abfolge:
+## Primaerquelle: Broschuere «Koenigsweg e+» von Gebaeudehuelle Schweiz (Fachverband selbst)
+Der Fachverband **Gebaeudehuelle Schweiz** (Verband Schweizer Gebaeudehuellen-Unternehmen,
+Lindenstrasse 4, 9240 Uzwil) publiziert dazu eine eigene Fachbroschuere: **«Koenigsweg e+ — Heute
+modernisieren, morgen profitieren»** (Autoren: Technische Kommission Solar | Energie, Version 1.2,
+April 2020, verfuegbar ueber gebäudehülle.swiss/energiestrategie-2050-etappiert-zum-ziel). Damit
+steht die konkrete Etappenfolge jetzt **direkt aus der Primaerquelle**, nicht mehr nur ueber ein
+Blog-Zitat — Status wird deshalb von `emerging` auf `established` gehoben.
 
-1. **Fenster + Sonnenschutz + Fassadendaemmung** (die Aussenhuelle als zusammenhaengendes Paket)
-2. **Dach/Estrichboden + Kellerdecke**
-3. **Heizkesselersatz, Wassererwaermer, Solarkollektoren/PV**
-4. **Innenausbau** (Kueche, Nasszellen, Leitungen, Komfortlueftung)
+Die Broschuere legt (S. 14, «In Etappen zum Ziel») folgende Reihenfolge der Bauetappen fest:
 
-Begruendung im Originalzitat: «die einzelnen Etappen jeweils die Basis fuer die Effizienz der
-nachfolgenden Etappe bilden» — eine Heizanlage wird erst nach der Isolationsoptimierung effizient
-dimensioniert. ⚠ **Sekundaerquelle** (Fachverband-Aussage nur via Migrol-Blog zugaenglich, kein
-Originaldokument gefunden); Reihenfolge innerhalb der Huelle (Fassade vs. Fenster zuerst) variiert
-je Quelle leicht — hausmagazin.ch setzt Fassade/Dach vor Fenster, Migrol/Gebaeudehuelle Schweiz buendelt
-Fenster+Fassade als erstes Paket. Beide Quellen sind sich aber im **Kernprinzip einig: Huelle
-(gesamthaft) vor Heizung, Heizung vor/mit Innenausbau**.
+1. **Etappe 1 — Gebaeudehuelle, Waermedaemmung:** Waermedaemmung der Fassade, Ersatz der Fenster
+   und Sonnenschutz, Waermedaemmung des Dachs oder des Estrichbodens und der Kellerdecke.
+2. **Etappe 2 — Heizung, Solarthermie:** Heizkesselersatz, neuer Wassererwaermer, Installation von
+   Sonnenkollektoren.
+3. **Etappe 3 — Photovoltaik, Batteriespeicher, Smart Home:** Photovoltaik-Anlagen fuer die
+   Stromproduktion, Smart-Home-Technologien fuer das Optimieren der Energiestroeme.
+4. **Innenausbau** (eigene Kategorie, kein nummeriertes «Etappe»-Label): Kueche, Bad, elektrische
+   Installationen, Einbau einer Komfortlueftung etc.
+
+Woertliche Begruendung fuer die Reihenfolge (S. 14): «Die Spezialisten der Gebaeudehuelle empfehlen
+Ihnen fuer den Koenigsweg e+ folgende Reihenfolge der Bauetappen zu beruecksichtigen». Zur
+Huelle-vor-Heizung-Logik konkret (S. 10, Kapitel Etappe 2): «Im Anschluss an das Erneuern der
+Gebaeudehuelle wird die Haustechnik inklusive Heizung auf den reduzierten Energiebedarf des
+Gebaeudes abgestimmt. Die groessten ‹Energiefresser› sind die Waerme- und Warmwassererzeuger.» Das
+bestaetigt woertlich das EnergieSchweiz-Prinzip «zuerst Huelle, dann Heizung» — jetzt zusaetzlich
+direkt vom Fachverband selbst, nicht mehr nur von EnergieSchweiz.
+
+Auch der zweite, bauphysikalische Fehlinvestitions-Pfad (Waermebruecken bei falscher Reihenfolge
+Fenster/Fassade) ist jetzt primaerquellen-belegt (S. 9, Tipps zu Etappe 1): «Alte Fenster zu
+ersetzen ist empfehlenswert. So kann die Fassadendaemmung lueckenlos an die Fensterleibungen
+angeschlossen werden. Wir empfehlen die Fensterbaenke, Leibungs- und Sturzausbildungen mit
+mindestens 60 mm Waermedaemmung auszukleiden. Auf diese Weise wird sichergestellt, dass es keine
+Waermebruecken gibt.» — nicht mehr nur ueber hausmagazin.ch (Sekundaerquelle), sondern direkt ueber
+die Fachverbands-Broschuere.
+
+**Verhaeltnis zur bisherigen Migrol-Blog-Paraphrase (26.09.2019):** Der Blog fasste dieselbe
+Verbandsposition inhaltlich richtig zusammen (Fenster+Sonnenschutz+Fassade / Dach+Kellerdecke /
+Heizkesselersatz+Solarkollektoren+PV / Innenausbau) — nur leicht anders gruppiert: die Broschuere
+buendelt Fassade+Fenster+Dach+Kellerdecke in EINE Etappe 1, waehrend der Blog sie auf zwei Etappen
+aufteilt; die Broschuere fuehrt PV als eigenstaendige Etappe 3 (zusammen mit Smart Home), waehrend
+der Blog PV in Etappe 3 mit dem Heizkesselersatz buendelt. Kernaussage in beiden Quellen identisch:
+**Huelle geschlossen vor Heizung, Heizung vor PV/Smart Home, Innenausbau am Ende.** Eine Nuance
+schwaecht die strikte Trennung leicht ab (S. 9, Tipps): «Wir empfehlen, die Solarthermie- und
+Photovoltaik-Anlage gleich mit der Dach- oder Fassadenerneuerung durchzufuehren. Oder zumindest
+entsprechend vorzubereiten. Denn so entstehen allfaellige Kosten fuer das Arbeitsgeruest nur
+einmal.» — die Etappentrennung ist also eine **Investitions-/Wirkungslogik**, keine zwingende
+Baustellen-Chronologie; PV-Vorbereitung (Dachdurchbrueche, Leerrohre) wird bewusst vorgezogen.
 
 ## Praxisrealitaet: reine Lehre selten 1:1 umsetzbar
 Hausmagazin.ch benennt den praktischen Zielkonflikt offen: «In Realitaet ist dies selten umsetzbar,
@@ -117,8 +148,8 @@ gekoppelt sind — das ist in beiden JANS-Referenzkantonen real so verankert:
 - **Etappieren ist erlaubt und foerderrechtlich neutral** — solange am Anfang ein Gesamtkonzept steht
   (GEAK Plus), nicht ein Bauteil nach dem anderen ohne Plan ersetzt wird.
 - **Faustregel Reihenfolge:** Huelle (Fassade + Fenster + Dach + Kellerdecke) vor Heizungsersatz — das
-  vermeidet eine ueberdimensionierte, ineffiziente neue Heizung UND (Sekundaerquelle) Waermebruecken an
-  nachtraeglich angeschlossenen Bauteilen.
+  vermeidet eine ueberdimensionierte, ineffiziente neue Heizung UND (primaerquellen-belegt, Koenigsweg
+  e+ S. 9) Waermebruecken an nachtraeglich angeschlossenen Bauteilen.
 - **Wenn die Heizung frueher ausfaellt als die Fassade saniert werden kann:** mindestens die Fenster
   vorziehen, um den Waermebedarf so weit zu senken, dass die neue Heizung sinnvoll dimensioniert werden
   kann (pragmatischer Kompromiss, keine Ideallösung).
@@ -128,19 +159,33 @@ gekoppelt sind — das ist in beiden JANS-Referenzkantonen real so verankert:
   Gesamtsanierung) inkl. deren Wirkung, entscheidet aber nichts — das bleibt Sache der Bauherrschaft.
 
 ## Offene Punkte / Folgelaeufe
-- **Kein amtliches EnergieSchweiz-/BFE-Dokument mit dem Titel «Sanierungsfahrplan» gefunden** (anders
-  als in Deutschland der individuelle Sanierungsfahrplan iSFP als foerderrechtlich definiertes
-  BAFA-Produkt) — in der Schweiz uebernimmt der **GEAK Plus** funktional diese Rolle, ist aber kein
-  gleichnamiges eigenes Instrument. Deshalb Status **emerging**: die Kernaussage (Huelle vor Heizung,
-  Etappen brauchen ein Gesamtkonzept) ist ueber EnergieSchweiz/HEV solid belegt, die **konkrete
-  4-Schritt-Etappenfolge** stammt aber nur aus zwei journalistischen Sekundaerquellen (Migrol-Blog
-  26.09.2019 mit Fachverband-Zitat, hausmagazin.ch ohne Datum) und sollte bei Gelegenheit gegen eine
-  Primaerquelle von Gebaeudehuelle Schweiz (gebaeudehuellenschweiz.ch) direkt verifiziert werden.
+- **Geloest (2026-07-25):** Die konkrete Etappenfolge ist jetzt ueber die Fachverbands-eigene
+  Broschuere «Koenigsweg e+» (Gebaeudehuelle Schweiz, Version 1.2, April 2020) primaerquellen-belegt
+  — nicht mehr nur ueber den Migrol-Blog. Status deshalb auf **established** gehoben.
+- **Weiterhin kein amtliches EnergieSchweiz-/BFE-Dokument mit dem Titel «Sanierungsfahrplan»
+  gefunden** (anders als in Deutschland der individuelle Sanierungsfahrplan iSFP als
+  foerderrechtlich definiertes BAFA-Produkt) — in der Schweiz uebernimmt der **GEAK Plus** funktional
+  diese Rolle, ist aber kein gleichnamiges eigenes Instrument. Das bleibt so; berührt die
+  Established-Einstufung der Etappenfolge nicht, da diese jetzt eigenstaendig (Koenigsweg e+)
+  primaerquellen-belegt ist.
+- **Kleine offene Nuance:** die Broschuere selbst ist nicht ganz konsistent, OB Photovoltaik strikt
+  Etappe 3 ist oder (laut Tipp-Kasten S. 9) besser gleich mit Etappe 1 vorbereitet/mitgeplant wird
+  (Dachdurchbrueche/Leerrohre) — als Investitionszeitpunkt vs. Planungszeitpunkt zu lesen, aber nicht
+  identisch mit der Migrol-Blog-Version (dort PV explizit in Etappe 3 mit Heizung gebuendelt). Fuer
+  die Bauherrenberatung unkritisch (beide Lesarten empfehlen PV-Vorbereitung frueh, PV-Montage/-
+  Inbetriebnahme spaeter), aber bei einer wörtlichen Zitierung der Etappen-Nummerierung gegenüber
+  Dritten die Fassung Königsweg e+ S. 14 als massgeblich nennen.
 - **Nicht recherchiert:** eine allfaellige eigene GEAK-Plus-Methodik/Formel, WIE die fuenf Varianten
   priorisiert werden (Kosten-Nutzen-Ranking je Massnahme) — dafuer waere das Produktreglement GEAK Plus
   (PDF, Verein GEAK) die naechste Quelle.
 - **Nicht recherchiert:** Foerder-Fallstricke bei Etappierung in weiteren Kantonen ausserhalb ZH/SZ
   (JANS-Referenzkantone) — andere Kantone koennen andere Bonus-Schwellen haben.
+- **Nicht recherchiert:** das im Königsweg-e+-Formular (S. 15, «Kostenrahmen») genannte
+  CHF/m²-NWF-Kostengeruest je Etappe (z.B. Fassade hinterlueftet 300 CHF/m² NWF, Fenster 200 CHF/m²
+  NWF, Heizung/Haustechnik pauschal 10'000-50'000 CHF) — ausdruecklich als «Erfahrungswerte, die je
+  nach Objekt, Lage und Topographie abweichen koennen» und «nicht fuer einen Kostenvoranschlag oder
+  eine Offerte» deklariert; fuer belastbare JANS-Kostenschaetzungen bleibt `kostenschaetzung`/Wuest
+  Partner massgeblich, nicht dieses Formular.
 - **Abgrenzung:** Heizsystem-Dimensionierung/JAZ-Logik → `[[waermepumpe-systemvergleich]]`; GEAK/GEAK
   Plus im Detail (Pflicht, Kosten, Klassen) → `[[geak-gebaeudeenergieausweis-kantone]]`; Foerdersaetze
   im Detail → `[[foerderprogramm-energie-zh-2026]]` / `[[foerderprogramm-energie-sz-2026]]`.

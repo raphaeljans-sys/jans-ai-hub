@@ -2,6 +2,51 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 100: TABS-OP-Saal-Negativbefund bestätigt, Sanierungsfahrplan auf established gehoben, neues Thema urbane Hitzeinseln
+Drei parallele `general-purpose`-Agenten (nach der Run-97-Lehre zum Hintergrund-Stall des
+`energie-berater`-Subtyps bewusst gewählt) arbeiten die Run-99-Prioritätenpunkte 4, 5 und 6 ab.
+Punkte 1-3 (B1-Konsolidierung, vier Norm-Kaufentscheide, Massivbau/WDVS-Brandriegel) bleiben
+unangetastet (Kaufentscheide/destruktive Rückfragen bzw. bereits auf passive Beobachtung
+umgestellt). Alle drei Agenten vor der Register-Konsolidierung per `git status` als echt
+geschrieben verifiziert (zwei geänderte Destillate + eine neue Datei).
+- **TABS OP-Saal-Eignung (Punkt 4): bestätigter Negativbefund.** Systematische Suche (10
+  Suchanfragen, 12 CH-Fachseiten: betonsuisse.ch, baublatt.ch, espazium/TEC21, tqm-gmbh.ch,
+  vadea.ch, waldhauser-hermann.ch, ans-architekten.ch, unicum.ch, suissetec, energie-cluster.ch)
+  findet weiterhin keine Schweizer Primärquelle, die TABS-Eignung differenziert nach OP-Saal vs.
+  Bettenstation beurteilt — die bisherige Vermutungslücke ist jetzt ein dokumentierter, echter
+  Negativbefund. Neue CH-Primärquelle zur allgemeinen TABS-Regelungsproblematik ergänzt (Gwerder,
+  Tödtli, Lehmann, Dorer, «Control of thermally activated building systems (TABS) in intermittent
+  operation with pulse width modulation», Applied Energy 86, 2009, S. 1606-1616, Volltext gelesen).
+  Ein Suchtreffer zu SWKI VA105-01 (RLT-Präzisionsklimatisierung OP) wird ausdrücklich als nicht
+  primärquellen-verifiziert gekennzeichnet (Rule `identifikatoren-verifizieren`) →
+  `[[betonkernaktivierung-tabs-energieeffizienz]]` bleibt emerging, FAQ F138 geschärft.
+- **Sanierungsfahrplan-Etappenfolge (Punkt 5): Primärquelle gefunden, Status auf established
+  gehoben.** Die 16-seitige Broschüre «Königsweg e+ — Heute modernisieren, morgen profitieren»
+  (Technische Kommission Solar/Energie, Verband Gebäudehülle Schweiz, Version 1.2, April 2020, im
+  Volltext gelesen) bestätigt die bisher nur über zwei journalistische Sekundärquellen (u.a.
+  Migrol-Blog) belegte 3-Etappen-Folge (1 Gebäudehülle/Wärmedämmung, 2 Heizung/Solarthermie,
+  3 Photovoltaik/Batteriespeicher/Smart Home) wörtlich beim Fachverband selbst →
+  `[[sanierungsfahrplan-etappierung-gebaeudehuelle]]` von emerging auf **established** gehoben,
+  FAQ F139 geschärft; kleine Nuance bei der genauen PV-Einordnung bleibt offen.
+- **Neues Thema: urbane Hitzeinseln und Aussenraum-Kühlung (Punkt 6).** Klimawandel-relevantes
+  Themenfeld, das die bisherige Innenraum-Perspektive (`[[sommerlicher-waermeschutz]]`, SIA 180)
+  und die Fassaden-Perspektive (`[[fassadenbegruenung-hitzeschutz-pv-zielkonflikt]]`) um die
+  Aussenraum-/Mikroklima-Ebene ergänzt. BAFU/ARE-Grundlagenbericht «Hitze in Städten» (UW-1812-D,
+  2018) liefert die 5-Kategorien-Systematik (Begrünung, Verschattung, Wasserelemente, Entsiegelung,
+  Ventilation); Kanton Zürich beziffert die Kühleffekte konkret (grosskroniger Baum >7 °C,
+  Dachbegrünung tagsüber bis 6,6 °C, Wasserelemente bis 8 °C, heller Bodenbelag/Albedo nur 0,6 °C);
+  Stadt Zürich mit eigener Fachplanung Hitzeminderung, Stadtklimatool und kostenloser
+  Freiraumberatung für Bauherren; MeteoSchweiz Climate CH2025 bestätigt überdurchschnittliche
+  Erwärmung der Schweiz. Keine eigene SIA-Norm zum Aussenraumklima gefunden — Steuerung läuft über
+  kommunale/kantonale Instrumente statt Bundesnorm →
+  `[[urbane-hitzeinseln-kuehlstrategien-aussenraum]]` (neu, emerging), FAQ **F140** neu.
+
+**Register nachgeführt:** `destillate/INDEX.md` (drei Zeilen neu), `wiki/INDEX.md` (ein neuer
+Destillat-Direktverweis, drei bestehende Zeilen mit Status-/Backlink-Updates, FAQ-Zählerzeile auf
+F140/Run 100 aktualisiert), `wiki/BAUHERREN-FAQ.md` (F140 neu, F139 auf established), `wiki/
+QUESTIONS.md` (Run 100 abgeschlossen, neue Prioritäten), `training/curriculum.md` (D70).
+FAQ-Stand: **140 Kernfragen (F1-F140) belegt.**
+
 ## 2026-07-25 — Run 99: drei neue Themen freier Wahl — Legionellenschutz/WP-Effizienz, Betonkernaktivierung/TABS, Sanierungsfahrplan-Etappierung
 PDF-Inventar weiterhin erschöpft. Punkte 1/2/4 der Run-98-Priorität (B1-Konsolidierung,
 SWKI-VA105-01-Vollversion, Duschwasser-WRG SIA-385/2-Vollversion) sind Kaufentscheide/destruktive

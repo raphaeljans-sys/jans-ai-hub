@@ -1,9 +1,9 @@
 ---
-quelle: Web-Synthese mehrerer Fach-/Branchenquellen (CH-Schwerpunkt) + SIA-Shop-Normeintrag (Titel/Bezug, nicht Volltext gelesen)
-herausgeber: Betonsuisse, Baublatt (CH), InformationsZentrum Beton (D), SIA (Normtitel), TABS-Control-Forschungsprojekt (Tödtli/Gwerder/Dorer et al., Bauphysik 2009)
+quelle: Web-Synthese mehrerer Fach-/Branchenquellen (CH-Schwerpunkt) + SIA-Shop-Normeintrag (Titel/Bezug, nicht Volltext gelesen) + Applied-Energy-Fachartikel (Volltext gelesen, Gwerder et al. 2009)
+herausgeber: Betonsuisse, Baublatt (CH), InformationsZentrum Beton (D), SIA (Normtitel), TABS-Control-Forschungsprojekt (Tödtli/Gwerder/Dorer et al., Bauphysik 2009 und Applied Energy 2009, Siemens Schweiz + Empa Dübendorf)
 ausgabe: Web-Stand Juli 2026
-gelesen: Web-Recherche 2026-07-25 (Funktionsprinzip, Systemtemperaturen, Regelungsproblematik, Eignung/Nicht-Eignung TABS)
-datenstand: 2026-07-25 (Richtwerte/Prinzipien aus mehreren Quellen quervergleichbar; SIA-384.354-Normtext selbst NICHT gelesen, nur Titel/ISO-Bezug aus SIA-Shop; Eignungsaussage Spital/OP aus D-Sekundärquellen abgeleitet, nicht CH-primär belegt)
+gelesen: Web-Recherche 2026-07-25 (Funktionsprinzip, Systemtemperaturen, Regelungsproblematik, Eignung/Nicht-Eignung TABS); Folgerecherche 2026-07-25 gezielt zu CH-Primärquelle Spital/OP-Saal (siehe Offene Punkte)
+datenstand: 2026-07-25 (Richtwerte/Prinzipien aus mehreren Quellen quervergleichbar; SIA-384.354-Normtext selbst NICHT gelesen, nur Titel/ISO-Bezug aus SIA-Shop; Eignungsaussage Spital/OP weiterhin aus D-Sekundärquellen abgeleitet — systematische CH-Recherche 2026-07-25 fand keine CH-Primärquelle, siehe offene Punkte)
 status: emerging
 last_updated: 2026-07-25
 ---
@@ -73,7 +73,7 @@ Die grosse Speichermasse ist gleichzeitig der Planungsknackpunkt:
 ## Eignung / Nicht-Eignung
 | Eignet sich | Eignet sich NICHT / nur eingeschränkt |
 |---|---|
-| Grosse, kompakte Gebäude mit stabiler, planbarer Nutzung: Büro-/Verwaltungsbauten, Schulen, Museen, Sporthallen (mehrfach belegt: Betonsuisse, Baublatt, beton.org) | Räume mit rasch wechselnden internen Lasten/Anforderungen: **OP-Säle**, Labors, Reinräume — dort ist eine schnelle, feinjustierbare Regelung nötig, die die träge Speichermasse strukturell nicht leisten kann (Ableitung aus D-Sekundärquellen; **keine CH-Primärquelle spezifisch für Spital-OP gefunden**, siehe offene Punkte) |
+| Grosse, kompakte Gebäude mit stabiler, planbarer Nutzung: Büro-/Verwaltungsbauten, Schulen, Museen, Sporthallen (mehrfach belegt: Betonsuisse, Baublatt, beton.org) | Räume mit rasch wechselnden internen Lasten/Anforderungen: **OP-Säle**, Labors, Reinräume — dort ist eine schnelle, feinjustierbare Regelung nötig, die die träge Speichermasse strukturell nicht leisten kann (Ableitung aus D-Sekundärquellen; **systematisch nach einer CH-Primärquelle gesucht, weiterhin keine gefunden**, siehe offene Punkte) |
 | Pflege-/Bettenbereiche mit gleichmässigem, vorhersagbarem Lastprofil (beton.org nennt «Krankenhäuser, Pflegeheime» explizit als Referenztypologie) | Kleine Wohnungen/Einzelräume mit individuellem, kurzfristigem Nutzerwunsch (Fenster auf/zu, punktuelle Nachheizung) — dort reagiert TABS zu langsam |
 | Neubauten mit Erdsonden-/Grundwasser-WP (tiefe Quelltemperatur passt zur tiefen TABS-Vorlauftemperatur) | Sanierungen ohne Rohbau-Eingriff (Rohrregister nur im Neubau/Betonersatz sinnvoll einbaubar) |
 
@@ -109,10 +109,37 @@ Recherche nicht belegt worden.
 ## Offene Punkte / Folgelaeufe
 - **SIA 384.354:2021 nicht im Volltext gelesen** (kostenpflichtig, SIA-Shop) — für eine belastbare
   Bemessungsaussage (Formeln, Auslegungsziffern) muss der Normtext beschafft und ausgewertet werden.
-- **Eignungsaussage «OP-Saal ungeeignet» stammt aus deutschen Sekundärquellen** (klimavida.de,
-  heizung.de), nicht aus einer Schweizer Primärquelle mit Spitalbezug — sollte gegen
-  `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]` bzw. eine Fachplaner-Aussage (HLK-Planer
-  Spitalbau) nachverifiziert werden, bevor sie in einer Bauherren-Antwort als gesichert dargestellt wird.
+- **Eignungsaussage «OP-Saal ungeeignet» stammt weiterhin aus deutschen Sekundärquellen** (klimavida.de,
+  heizung.de), nicht aus einer Schweizer Primärquelle mit Spitalbezug. **Folgerecherche 2026-07-25:**
+  systematisch (10 unterschiedliche Suchanfragen + Direktabruf von 12 Seiten) nach einer CH-Quelle
+  gesucht, die sich explizit zur Eignung/Nicht-Eignung von TABS in OP-Sälen, Eingriffsräumen oder
+  Intensivstationen äussert. Durchsucht: Betonsuisse (betonsuisse.ch, Artikel «Beton als natürlicher
+  Klimaregler» — nennt Spitäler/Pflegeheime nur pauschal, keine Differenzierung OP vs. Bettenstation),
+  Baublatt CH (baublatt.ch, Artikel «Der graue Energiespeicher» — nur Fallbeispiele ÖKK Landquart und
+  Parkhaus Norline, kein Spitalbezug), espazium/TEC21 (SIA-Fachzeitschrift; Artikel «Die Blut- und
+  Nervenbahnen des Spitals» und «Ein Filter für Wärme und Licht» zum Stadtspital Triemli-Bettenhaus,
+  beide 2016 — nennen Erdwärmesonden, Wärmepumpen, Lehmdecken, Doppelfassade, aber keine
+  Betonkernaktivierung/TABS), Fachplaner-Websites (TQM GmbH Reinraumtechnik, vadea.ch Gesundheitsbauten,
+  Waldhauser+Hermann Spitäler/Gesundheit, ANS Architekten Bettenhaus Spital, unicum.ch TABS-Glossar),
+  suissetec, energie-cluster.ch, HSLU-Umfeld (Adrian Altenburger). **Kein Treffer** mit einer expliziten
+  Spital-OP-Aussage zu TABS. Einzig **verifizierter CH-Primärtext mit Volltextlektüre**: Gwerder, M.;
+  Tödtli, J. (Siemens Switzerland Inc., Zug); Lehmann, B.; Dorer, V. (Empa, Dübendorf) — «Control of
+  thermally activated building systems (TABS) in intermittent operation with pulse width modulation»,
+  Applied Energy 86 (2009), S. 1606–1616 — bestätigt die Regelungsproblematik bei «different rooms with
+  different gains within the same hydraulic zone» allgemein, erwähnt aber Spitäler/OP-Säle nicht
+  namentlich. **Zusätzlicher, NICHT verifizierter Recherche-Hinweis für einen Folgelauf:** ein
+  Such-Snippet verweist auf eine SWKI-Richtlinie «VA105-01» (Raumlufttechnische Anlagen in medizinisch
+  genutzten Räumen), die für OP-Säle definierte Luftwechselraten, turbulenzarme Verdrängungsströmung
+  (TAV) und präzise Temperatur-/Feuchteregelung über die RLT-Anlage vorschreibe — das wäre ein
+  struktureller (nicht TABS-spezifischer) Grund, warum die OP-Raumklimatisierung in der Schweiz über
+  Lüftung statt Bauteilaktivierung läuft. Diese Angabe stammt nur aus einem Suchergebnis-Snippet, der
+  SWKI-Richtlinienkatalog selbst liess sich in dieser Recherche nicht direkt einsehen — Titel/Nummer
+  **vor Verwendung als Faktenquelle zwingend bei SWKI (swki.ch, kostenpflichtiger Shop) primär
+  verifizieren** (Rule `identifikatoren-verifizieren`/`normen-referenz`). **Ergebnis: Fazit unverändert,
+  aber jetzt als systematisch recherchierter, nicht nur unrecherchierter Negativbefund dokumentiert** —
+  sollte weiterhin gegen `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]` bzw. eine direkte
+  Fachplaner-Aussage (HLK-Planer Spitalbau, z.B. Waldhauser+Hermann, Amstein+Walthert, WSP) verifiziert
+  werden, bevor sie in einer Bauherren-Antwort als gesichert dargestellt wird.
 - **TABS-Control-Projekt (Tödtli et al. 2009) nur über Sekundärzusammenfassung erschlossen**, nicht
   über den Bauphysik-Artikel selbst (Wiley-Paywall) — Volltext wäre die stärkste verfügbare
   Schweizer Regelungs-Primärquelle für dieses Thema.

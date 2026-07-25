@@ -1609,7 +1609,7 @@ SIA-385/2-Vollversion (alle drei Kaufentscheide/destruktive Rückfragen bei Raph
 gegenüber Run 98); Massivbau-CHF/m² und WDVS-Brandriegel-Kosten (auf passive Beobachtung
 umgestellt, Run 98).
 
-**Nächster Lauf: Priorität**
+**Nächster Lauf: Priorität** (Stand nach Run 99, vor Run 100)
 1. B1-Konsolidierung weiterhin Raphael vorlegen (nicht automatisch lösen).
 2. SWKI-VA105-01-Vollversion, SIA-385/1-Volltext (Trinkwassererwärmung), SIA-385/2-Vollversion
    (Duschwasser-WRG), SIA-384.354-Volltext (TABS): vier Kaufentscheide bei Raphael bündeln und
@@ -1620,3 +1620,50 @@ umgestellt, Run 98).
 5. Sanierungsfahrplan-Etappenfolge direkt bei Gebäudehülle Schweiz (gebaeudehuellenschweiz.ch)
    verifizieren statt nur über Migrol-Blog-Zitat.
 6. Neue Themen-Recherche nach freier Wahl (PDF-Inventar bleibt erschöpft, Web-Pfad).
+
+## Run 100 (2026-07-25) — drei parallele Agenten arbeiten Punkte 4/5/6 ab
+
+Punkte 1-3 bleiben unangetastet (Kaufentscheide/destruktive Rückfragen bzw. bereits auf passive
+Beobachtung umgestellt). Drei parallele `general-purpose`-Agenten bearbeiten Punkt 4 (TABS-OP-Saal-
+Verifikation), Punkt 5 (Sanierungsfahrplan-Primärquelle) und Punkt 6 (neues Thema freier Wahl); vor
+der Register-Konsolidierung per `git status` verifiziert, dass alle drei Agenten tatsächlich
+geschrieben haben (Lehre aus Run 97).
+
+- [x] **Punkt 4 (TABS OP-Saal)** ✓ 2026-07-25: bestätigter Negativbefund nach systematischer Suche
+  (10 Suchanfragen, 12 CH-Fachseiten) — weiterhin keine Schweizer Primärquelle, die TABS-Eignung
+  differenziert nach OP-Saal vs. Bettenstation beurteilt; neue CH-Primärquelle zur allgemeinen
+  TABS-Regelungsproblematik ergänzt (Gwerder/Tödtli/Lehmann/Dorer, Applied Energy 86, 2009, Volltext
+  gelesen); unverifizierter SWKI-VA105-01-Hinweis (RLT-Präzisionsklimatisierung OP) ausdrücklich als
+  nicht bestätigt markiert (Rule `identifikatoren-verifizieren`) → `[[betonkernaktivierung-tabs-
+  energieeffizienz]]` bleibt emerging, FAQ F138 geschärft.
+- [x] **Punkt 5 (Sanierungsfahrplan-Primärquelle)** ✓ 2026-07-25: Positivbefund — Broschüre
+  «Königsweg e+» (Verband Gebäudehülle Schweiz, TK Solar/Energie, V1.2 April 2020, 16 S. vollständig
+  gelesen) bestätigt die 3-Etappen-Folge wörtlich; bisherige Migrol-Blog-Paraphrase damit
+  primärquellen-verifiziert statt nur plausibel → `[[sanierungsfahrplan-etappierung-gebaeudehuelle]]`
+  auf **established** gehoben, FAQ F139 geschärft. Kleine PV-Timing-Nuance bleibt offen.
+- [x] **Punkt 6 (neues Thema)** ✓ 2026-07-25: **Urbane Hitzeinseln/Aussenraum-Kühlung** (neues
+  Themenfeld, Klimawandel-Anpassung) — BAFU/ARE-Grundlagenbericht «Hitze in Städten» (2018) +
+  Kanton-ZH-Kühlkennwerte (Baum >7 °C, Dachbegrünung bis 6,6 °C, Wasserelemente bis 8 °C, heller
+  Belag nur 0,6 °C) + Stadt-Zürich-Fachplanung Hitzeminderung/Stadtklimatool + MeteoSchweiz Climate
+  CH2025 → `[[urbane-hitzeinseln-kuehlstrategien-aussenraum]]` (neu, emerging), FAQ **F140** neu.
+  Keine eigene SIA-Norm zum Aussenraumklima gefunden.
+
+**Register nachgeführt:** `destillate/INDEX.md` (drei Zeilen neu), `wiki/INDEX.md` (ein neuer
+Destillat-Direktverweis, drei bestehende Zeilen mit Status-/Backlink-Updates, FAQ-Zählerzeile auf
+F140 aktualisiert), `wiki/BAUHERREN-FAQ.md` (F140 neu, F139-Status auf established), `training/
+curriculum.md` (D70), `CHANGELOG.md`.
+
+**Bewusst nicht weiterverfolgt:** B1-Konsolidierung, SWKI-VA105-01-Vollversion, SIA-385/1-Volltext,
+Duschwasser-WRG SIA-385/2-Vollversion, SIA-384.354-Volltext (fünf Kaufentscheide/destruktive
+Rückfragen bei Raphael, unverändert gegenüber Run 99); Massivbau-CHF/m² und WDVS-Brandriegel-Kosten
+(auf passive Beobachtung, unverändert).
+
+**Nächster Lauf: Priorität**
+1. Die fünf gebündelten Kaufentscheide (B1-Konsolidierung, SWKI-VA105-01, SIA-385/1, SIA-385/2,
+   SIA-384.354) weiterhin Raphael vorlegen statt automatisch lösen — Liste wächst, sollte bald
+   tatsächlich vorgelegt statt nur weitergetragen werden.
+2. Massivbau-CHF/m² und WDVS-Brandriegel-Kosten: passive Beobachtung fortsetzen.
+3. Urbane-Hitzeinseln-Destillat vertiefen: BAFU/ARE-Bericht 2018 im PDF-Volltext lesen (bisher nur
+   Web-Auszug), Kt.-SZ-Pendant zur Zürcher Fachplanung Hitzeminderung recherchieren, «5x mehr
+   Tropennächte»-Zahl am MeteoSchweiz-Primärbericht direkt verifizieren.
+4. Neue Themen-Recherche nach freier Wahl (PDF-Inventar bleibt erschöpft, Web-Pfad).

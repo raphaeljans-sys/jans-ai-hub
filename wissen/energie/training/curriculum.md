@@ -1243,3 +1243,28 @@ Verfahrensstand unverändert. FAQ-Stand jetzt **F1–F105**. Details: `outputs/2
   SIA-384.354-Volltext + TABS-Control-Primärforschung (Tödtli et al. 2009, Wiley-Paywall), TABS-
   CHF/m²-Kostenkennwerte (noch nicht recherchiert), Etappenfolge-Primärquelle direkt bei
   Gebäudehülle Schweiz verifizieren (bisher nur Migrol-Blog-Zitat).
+
+- **D70 (Run 100, 2026-07-25)** — Drei parallele general-purpose-Agenten arbeiten die Run-99-
+  Prioritätenpunkte 4/5/6 ab (Punkte 1-3 bleiben Kaufentscheide/passive Beobachtung). **TABS
+  OP-Saal-Eignung** (Punkt 4): systematische Suche (10 Suchanfragen, 12 CH-Fachseiten) bestätigt den
+  Negativbefund erneut — weiterhin keine Schweizer Primärquelle mit Spitalbezug, die TABS-Eignung
+  differenziert nach Raumtyp beurteilt; neue CH-Primärquelle zur allgemeinen Regelungsproblematik
+  ergänzt (Gwerder/Tödtli/Lehmann/Dorer, Applied Energy 86, 2009, Volltext); ein SWKI-VA105-01-Hinweis
+  aus einem Suchtreffer ausdrücklich als unverifiziert markiert → `[[betonkernaktivierung-tabs-
+  energieeffizienz]]` bleibt emerging, FAQ F138 geschärft. **Sanierungsfahrplan-Primärquelle**
+  (Punkt 5): Positivbefund — die Verbandsbroschüre «Königsweg e+» (Gebäudehülle Schweiz, TK Solar/
+  Energie, V1.2 April 2020, 16 S. vollständig gelesen) bestätigt die 3-Etappen-Folge (Hülle,
+  Heizung/Solarthermie, PV/Speicher) wörtlich → `[[sanierungsfahrplan-etappierung-gebaeudehuelle]]`
+  auf **established** gehoben, FAQ F139 geschärft. **Neues Thema: urbane Hitzeinseln/Aussenraum-
+  Kühlung** (Punkt 6, Klimawandel-Anpassung, Grep-Check bestätigte echte Lücke) — BAFU/ARE-
+  Grundlagenbericht «Hitze in Städten» (2018) + Kanton-ZH-Kühlkennwerte (Baum >7 °C, Dachbegrünung
+  bis 6,6 °C, Wasserelemente bis 8 °C, heller Belag nur 0,6 °C) + Stadt-Zürich-Fachplanung
+  Hitzeminderung/Stadtklimatool + MeteoSchweiz Climate CH2025 → `[[urbane-hitzeinseln-
+  kuehlstrategien-aussenraum]]` (neu, emerging), Backlinks in `[[sommerlicher-waermeschutz]]` und
+  `[[fassadenbegruenung-hitzeschutz-pv-zielkonflikt]]` ergänzt, FAQ **F140** neu. FAQ-Stand:
+  **140 Kernfragen (F1-F140) belegt.** Alle drei Agenten vor Register-Konsolidierung per
+  `git status` als echt geschrieben verifiziert (zwei geänderte + eine neue Destillat-Datei). Neu
+  offen: BAFU/ARE-Bericht 2018 im PDF-Volltext lesen (bisher nur Web-Auszug), Kt.-SZ-Pendant zur
+  Zürcher Fachplanung Hitzeminderung, «5x mehr Tropennächte»-Zahl am MeteoSchweiz-Primärbericht
+  direkt verifizieren, fünf gebündelte Kaufentscheide (B1, SWKI-VA105-01, SIA-385/1, SIA-385/2,
+  SIA-384.354) sollten Raphael bald tatsächlich vorgelegt statt nur weitergetragen werden.
