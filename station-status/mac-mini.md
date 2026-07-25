@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 25.07.2026 13:12:42
+Stand: 25.07.2026 13:22:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 13:06)
@@ -60,4 +60,4 @@ den Stationen und laesst jeden Lauf sauber mit rc=0 enden.
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 495a4ed7 spec: syn02-spec-anstoss dritte Duplikat-Instanz dokumentiert, Loeschversuch + Info-Mail an Raphael
+- 559bbe76 nas-selfcommit: 9 Datei(en) 2026-07-25 13:15
