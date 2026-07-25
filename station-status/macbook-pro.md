@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.07.2026 18:29:16
+Stand: 25.07.2026 18:59:36
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 18:28)
+- Developer/jans/ai/hub  (letzte Aktivitaet 18:59)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 25.07.2026 18:29:16
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 3b61963f twin-mail-training Batch 66 (2026-07-23 21:42 bis 07-24 15:30): Mehrfachversand bei Zustaendigkeits-Unsicherheit, Anrede-Kleinschreibung, Sanitaer-Kollisionsfrage inline
+- f30ec262 vollgas-radar: Blindgaenger-Retry endlich scharf (Runner-Neustart-Werkzeug), Erkennung auf Antwortform umgestellt, M365-Connector repariert

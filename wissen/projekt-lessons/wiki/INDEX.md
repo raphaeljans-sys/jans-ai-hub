@@ -19,8 +19,8 @@ Inhaltsverzeichnis aller Lesson-Artikel. Vom Bibliothekar gepflegt.
 ### Koordination & Kommunikation
 - _(noch keine)_
 
-## Statistik (Stand 2026-06-02)
-- Artikel im Wiki: 0 (KB frisch angelegt)
-- Letzter Health-Check: noch keiner
+## Statistik (Stand 2026-07-25)
+- Artikel im Wiki: 1 (kispi-lbw-rohdichte-800, status established)
+- Letzter Health-Check: 2026-07-25 (siehe outputs/2026-07-25_health-check.md)
 
 > Befüllung: Roh-Material in `raw/` ablegen → kompilieren lassen. Siehe `CLAUDE.md`.
