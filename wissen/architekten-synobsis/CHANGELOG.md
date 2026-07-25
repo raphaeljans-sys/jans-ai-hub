@@ -4,6 +4,17 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-07-25 — Batch-Lauf Nr. 2 (leer, 14. Mal in Folge, ausserhalb Zeitfenster) + Vektorindex neu (Mac Mini)
+Batch 25, 13:26 — zweiter Lauf desselben Tages, ausserhalb des Nachtfensters 22:00–06:00.
+Faellt zeitlich mit der Wiederaufnahme des VOLLGAS-Runners nach Drosselaufhebung zusammen
+(STOP-Dateien laut Rule-Eintrag 260725 erst ~12:45 tatsaechlich entfernt) — vermutlich ein
+Nachhol-Lauf, keine Fehlkonfiguration des Tasks. Stufe 1 ohne neuen Stoff (853/853, offen 0,
+Stand unveraendert 2026-07-02). Stufe 2 hat `catalog/vectors.npz` deterministisch neu gebaut
+(853 × 768, `intfloat/multilingual-e5-base`). Kollisionsschutz (260724): keine Zweitinstanz.
+Vierzehnter ergebnisloser Lauf in Folge — Empfehlung zum vierzehnten Mal: Task
+`synobsis-batch-nacht` pausieren/herabtakten (Endbedingung erreicht). Protokoll:
+`outputs/2026-07-25b_batch-lauf.md`.
+
 ## 2026-07-25 — Wissens-Chef Run 15 (Cross-KB): Raumtypologie-Schluessel in CLAUDE.md korrigiert + Abnehmer-KB benannt
 - **Widerspruch korrigiert (adversarial BESTAETIGT):** `CLAUDE.md` (Zugangs-Achse 2) nannte zwei der neun Raumtypen anders als der kanonische Katalog-Schluessel in `catalog/typology-map.json`: «Grosser Raum» statt **«Grosse Halle»** und «Skulpturaler» statt **«Skulptularer Raum»**. Die dort dokumentierte Abfrage `--raumtyp` schlug damit fehl. Git-Historie belegt: die Schluessel lauteten nie anders (`git log -p` liefert ausschliesslich `+ "Grosse Halle"` / `+ "Skulptularer Raum"`). Auf die literalen Schluessel korrigiert, inkl. Hinweis, dass «Skulptularer» ein Schreibfehler im **read-only** Quellordner `1 Selection` ist und bewusst unveraendert bleibt — die orthografisch richtige Form trifft den Teilstring-Filter NICHT. Eine Bereinigung am Quellordner waere destruktiv und braucht Freigabe Raphael; sie wird hier **nicht** vorgeschlagen. `typology-map.json`, `RAUMTYPOLOGIEN.md` und `tools/synobsis_query.py` sind korrekt und blieben unangetastet.
 - **Abnehmer-KB benannt:** `CLAUDE.md` verwies nur generisch («speist Recherche/Referenz fuer Entwurf»). Neu ist `wissen/entwurfs-referenzen/` als Abnehmer ausgewiesen, mit Rollenteilung (hier Katalog + Raumfiguren, dort Entwurfs-Kennwerte je Bauaufgabe). Gegenrichtung in `entwurfs-referenzen/wiki/typologien/bildung.md` gesetzt.
