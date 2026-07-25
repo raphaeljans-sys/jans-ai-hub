@@ -1,5 +1,22 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-25 — Trainingslauf 32 (Verifikationslauf)
+- Output `outputs/2026-07-25_training-run32.md`. Keine neue reale Spec seit Lauf 24 (SYN-02);
+  Lauf 31 war bereits Verifikation, dieselbe Lage besteht fort.
+- **P1 (mail@-Blindfleck `ag-gruendung-monitor`) hält weiter:** SKILL.md-mtime unverändert
+  21.07.2026 07:49; `fristen.md` zeigt den jüngsten Monitor-Eintrag vom 24.07. (UBS 28 Tage
+  ohne Antwort). Für Samstag 25.07. liegt planmässig kein neuer Eintrag vor (Mo-Fr-Cron,
+  Lauf-29-Präzisierung bestätigt sich ein weiteres Mal).
+- Environment-Zählstand-Stichprobe (49 Skills, 22 Rules, 16 KBs) identisch zu Lauf 26/28/29/30/31
+  — kein voller Sweep fällig.
+- **Bewusst nicht getan:** kein erfundenes F1-Überdehnungsbeispiel; keine Rule-/Skill-/Wiki-
+  Änderung ohne neuen methodischen Beleg; kein Eingriff in `SYNERGIE-REGISTER.md`; kein
+  Mailversand.
+- Offen: F1-Überdehnungs-Gegentest unbelegt; F3 Marketing/Text letzte offene Domänenzeile;
+  SYN-02-MVP-Bau Block 1 ungebaut; UBS-Strecke 28 Tage überfällig, Einzahlungstermin Mitte
+  August zunehmend gefährdet (ausserhalb KB-Mandat); nächster ergiebiger Lauf voraussichtlich
+  nach neuer realer Spec oder Bewegung in der UBS-Strecke.
+
 ## 2026-07-25 — Trainingslauf 31 (Verifikationslauf)
 - Output `outputs/2026-07-25_training-run31.md`. Keine neue reale Spec seit Lauf 24 (SYN-02).
 - **P1 (mail@-Blindfleck `ag-gruendung-monitor`) hält weiter:** SKILL.md-mtime unverändert
