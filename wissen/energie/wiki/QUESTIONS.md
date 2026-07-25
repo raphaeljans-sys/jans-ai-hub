@@ -777,13 +777,16 @@ Mehraufwands bei den anderen drei Themen zeitlich nicht mehr erreichbar. Priorit
   `[[fenster-verglasung-uw-g-wert]]`, FAQ **F35** geschärft. Dokument real, aber Volltext nicht
   auffindbar und nicht mehr in der aktuellen SZFF-Verkaufsliste 2020 — als wahrscheinlich
   veraltet/zurückgezogen eingeordnet; drei aktuellere Ersatzbelege ergänzt.
-- [ ] **E84** **ZH-Solarpflicht Kantonsrat-Beratungsstand (Kommission/Lesung/Termin)** — vierter
-  Rechercheversuch 2026-07-16 (Run 73), diesmal über News-/Verbandsquellen statt der
-  kantonsrat.zh.ch-Plattform, erneut ohne Ergebnis → `[[zh-energiegesetz-revision-solarpflicht-2026]]`.
-  Vorgeschichte (KEVU-Kommissionsentwurf, Vernehmlassung 2024, fallengelassene Fassaden-/
-  Parkplatzpflichten) neu belegt, zwei Fehlspuren aktiv ausgeschlossen (SRF-2023-Artikel betrifft
-  Bundes-Stromgesetz, Geschäftsnummer 5921 gehört zu anderer, bereits abgestimmter Vorlage) —
-  bleibt bestätigter Negativbefund, kein weiterer Versuch ohne neue Rechercheidee sinnvoll.
+- [x] **E84** **ZH-Solarpflicht Kantonsrat-Beratungsstand (Kommission/Lesung/Termin)** — auf
+  «passiv beobachten» umgestellt ✓ 2026-07-25 (Run 95). Fünfter Rechercheversuch mit drei genuin
+  neuen Methoden (direkte Geschäfts-URLs statt Suchmaske, Google-Index des CDWS-Dateiservers,
+  gezielte KEVU-Traktandensuche) bestätigt denselben Befund wie die vier Vorversuche: kein
+  protokollierter Verfahrensschritt seit dem Antrag des Regierungsrates vom 26.11.2025. Fünf
+  methodisch unterschiedliche Versuche über sieben Wochen (13.07.–25.07.2026) mit identischem
+  Ergebnis gelten als stabiler Sachstand, nicht mehr als Recherchelücke → aus der aktiven
+  «Nächster Lauf»-Prioritätenliste gestrichen; künftig nur noch bei neuer Medienmitteilung/KEVU-
+  Bericht nachtragen (ereignisgetrieben) → `[[zh-energiegesetz-revision-solarpflicht-2026]]`,
+  FAQ **F116** geschärft.
 
 **Nicht bearbeitet in Run 73 (bewusst zurückgestellt):** MuKEn-2025-Modul-Detailtexte (2-14) im
 Volltext ausserhalb Teil G, SZ-Fernwärme-Restlücken (Einsiedeln/Ausserschwyz-Tarife),

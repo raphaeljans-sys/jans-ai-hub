@@ -1092,3 +1092,36 @@ Verfahrensstand unverändert. FAQ-Stand jetzt **F1–F105**. Details: `outputs/2
   GVZ-Anfrage nötig), Massivbau-Bauteildatenblatt mit vollem Schichtplan, SNR 464022 Rest-51-Seiten
   (bzw. Nachfolgenorm SN 414022:2024 kostenpflichtig), WP-Grenzabstand-Subsumtion amtlich unbestätigt
   (nur Präzedenzfälle).
+
+- **D65 (Run 95, 2026-07-25)** — PDF-Inventar weiterhin erschöpft. Vier parallele Agenten arbeiten
+  die «Nächster Lauf»-Priorität aus Run 94 ab. **WP-Aussengerät-Grenzabstand vertieft:** eigene
+  Volltextsuche in der Entscheiddatenbank des Baurekursgerichts ZH (1'231 Entscheide) bestätigt den
+  ZH-Negativbefund («kein Grenzabstandsentscheid zu WP-Geräten») jetzt durch eigene Prüfung statt
+  Vermutung (nur BRGE IV 0052/2014 + neu BRGE I 0071/2017, beide reine Bewilligungspflicht/Lärm);
+  die stützende ausserkantonale Linie ist präziser geworden — VGE AG WBE.2018.330 (3.12.2018) hält
+  fest, ein WP-Gerät gelte NICHT als «Gebäude» im IVHB-Sinn, habe aber aus Rechtsgleichheitsgründen
+  (Art. 8 BV) Anspruch auf das Kleinbauten-Grenzabstandsprivileg — übertragbarer als die bisherige
+  «WP=Gebäude»-Analogie; BGer 1C_204/2015 ergänzt dazu die Verkabelungs-Erwägung →
+  `[[waermepumpe-aussengeraet-grenzabstand-zh-sz]]` bleibt emerging, FAQ **F130** geschärft. **GVZ-
+  Meldeprozess PV-Feuerwehr↔Versicherung geklärt:** acht gvz.ch-Primärquellen (Formulare,
+  Versicherung, Brandschutz, Feuerwehr, Medienmitteilung) zeigen konsistent, dass die Feuerwehr-
+  Dokumentation (VKF-BSM Solaranlagen Ziff. 4) und die Versicherungs-Wertvermehrungsmeldung zwei
+  strukturell getrennte, unverlinkte GVZ-Meldewege sind — löst den seit Run 92 offenen Punkt →
+  `[[gvz-pv-meldeprozess-versicherung-feuerwehr]]` (neu, established), FAQ **F131** neu. **E84
+  ZH-Solarpflicht-Beratungsstand — fünfter und letzter aktiver Versuch:** drei genuin neue Methoden
+  (direkte Geschäfts-URLs, Google-Index CDWS-Dateiserver, KEVU-Traktandensuche) bestätigen denselben
+  Negativbefund wie die vier Vorversuche; nach fünf methodisch unterschiedlichen Versuchen über
+  sieben Wochen gilt der Sachstand als stabil bestätigt statt als Lücke → E84 aus der aktiven
+  Prioritätenliste gestrichen, künftig nur noch ereignisgetrieben (neue Medienmitteilung/KEVU-
+  Bericht) nachtragen, FAQ **F116** geschärft. **Neues Thema freie Wahl (Lücken-Check bestätigt
+  unabgedeckt, alle Kandidaten aus Run 94 bereits abgedeckt):** grüne Hypotheken/Klimahypotheken —
+  SBVg-Selbstregulierung (Juni 2022, Volltext) verpflichtet Banken seit 1.1.2023 zur Thematisierung
+  der Energieeffizienz bei EFH/Ferienhaus-Finanzierung, aber nicht zum Zinsrabatt; Praxisbeispiel
+  ZKB-Umweltdarlehen (Volltext-Factsheet) bis −0,8 % p.a. bei GEAK-Nachweis, laut IFZ-Studie
+  (Sekundärquelle) rund ein Drittel der CH-Banken mit Zinsrabatt (Ø 0,38 Pp.) →
+  `[[gruene-hypotheken-klimahypotheken-ch]]` (neu, emerging), FAQ **F132** neu. FAQ-Stand: **132
+  Kernfragen (F1-F132) belegt.** B1-Konsolidierung und SIA-2024-Zwilling weiterhin bewusst nicht
+  angegangen (destruktiv, Rückfrage nötig). Neu offen: mögliche interne unpublizierte GVZ-Praxis
+  (Direktanfrage nötig), Massivbau-Bauteildatenblatt mit vollem Schichtplan, SNR 464022 Rest-51-
+  Seiten, Marktbreite grüne Hypotheken über ZKB-Beispiel hinaus (IFZ-Studie im Original beschaffen),
+  WP-Grenzabstand-Subsumtion für Kt. Schwyz weiterhin ganz ohne Präzedenzfall.

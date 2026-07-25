@@ -2,6 +2,30 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 95: WP-Grenzabstand vertieft + GVZ-Meldeprozess geklärt + E84 abgeschlossen + grüne Hypotheken neu
+- **WP-Aussengerät-Grenzabstand vertieft:** eigene Volltextsuche in der Entscheiddatenbank des
+  Baurekursgerichts ZH (1'231 Entscheide) bestätigt den ZH-Negativbefund durch eigene Prüfung statt
+  Vermutung; ausserkantonale Stützlinie präzisiert — VGE AG WBE.2018.330 (3.12.2018): WP-Gerät gilt
+  NICHT als «Gebäude» im IVHB-Sinn, hat aber aus Rechtsgleichheitsgründen (Art. 8 BV) Anspruch auf
+  das Kleinbauten-Grenzabstandsprivileg; BGer 1C_204/2015 ergänzt die Verkabelungs-Erwägung →
+  `[[waermepumpe-aussengeraet-grenzabstand-zh-sz]]` bleibt emerging, FAQ **F130** geschärft.
+- **GVZ-Meldeprozess PV-Feuerwehr↔Versicherung geklärt (löst offenen Punkt aus Run 92/94):** acht
+  gvz.ch-Primärquellen zeigen konsistent zwei strukturell getrennte, unverlinkte GVZ-Meldewege
+  (Feuerwehr-Dokumentation nach VKF-BSM Solaranlagen Ziff. 4 vs. Versicherungs-Wertvermehrungs-
+  meldung) → `[[gvz-pv-meldeprozess-versicherung-feuerwehr]]` (neu, established), FAQ **F131** neu.
+- **E84 ZH-Solarpflicht-Beratungsstand — fünfter und letzter aktiver Rechercheversuch:** drei genuin
+  neue Methoden bestätigen denselben Negativbefund wie die vier Vorversuche über sieben Wochen;
+  Punkt von aktiver auf passive (ereignisgetriebene) Beobachtung umgestellt, aus der «Nächster
+  Lauf»-Prioritätenliste gestrichen → `[[zh-energiegesetz-revision-solarpflicht-2026]]`, FAQ
+  **F116** geschärft.
+- **Neues Thema freie Wahl:** grüne Hypotheken/Klimahypotheken — SBVg-Selbstregulierung (Volltext)
+  verpflichtet Banken seit 1.1.2023 zur Thematisierung der Energieeffizienz, aber nicht zum
+  Zinsrabatt; Praxisbeispiel ZKB-Umweltdarlehen bis −0,8 % p.a. bei GEAK-Nachweis →
+  `[[gruene-hypotheken-klimahypotheken-ch]]` (neu, emerging), FAQ **F132** neu.
+- FAQ-Stand: **F1–F132** (vier neue/geschärfte Einträge). Register nachgeführt: `destillate/
+  INDEX.md`, `wiki/INDEX.md`, `wiki/QUESTIONS.md` (E84 geschlossen), `training/curriculum.md`
+  (D65), `wiki/BAUHERREN-FAQ.md`.
+
 ## 2026-07-25 — Run 94: Batteriespeicher-Brandschutzquelle gefunden + SNR 464022 teilweise erschlossen
 - **VKF 22-15 gezielt auf Batteriespeicher geprüft — zweiter Negativbefund:** Volltextsuche
   «Batterie/Speicher/Lithium/Akku» in der Richtlinie 22-15de selbst sowie in den zwei zitierten
