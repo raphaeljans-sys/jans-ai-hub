@@ -4,9 +4,9 @@ beschreibung: Pflicht-Fahrzeugabstellplaetze im Kt. ZH — Normbedarf, Reduktion
 status: established
 kanton: ZH
 paragraphen: ["§ 242 PBG", "§ 243 PBG", "§ 244 PBG", "§ 245 PBG", "§ 246 PBG", "§ 247 PBG", "§ 248 PBG", "§ 309 Abs. 1 lit. i PBG", "Art. 44a USG", "Art. 12 Abs. 1 lit. c USG", "Art. 31 LRV"]
-quellen: ["[[13-fahrzeugabstellplaetze-spielflaechen-teil3]]", "raw/260607_amtlich_zh_pbg.md (§§ 242-249)", "raw/260713_amtlich_zh_ppv-stadt-zuerich.md (PPV Stadt Zuerich Art. 8 Abs. 5-8, Leitfaden Tiefbauamt 09.07.2024)"]
-last_updated: 2026-07-13
-verifiziert: 2026-07-12 (Modell-D §§ 242-249 PBG gegen amtl. Volltext; 2 Fassungsstand-Korrekturen); 2026-07-13 (Buch-Run 33, Modell-D: PPV Stadt Zuerich Art. 8 Abs. 5-8 wortlautbelegt/Fassungsstand korrigiert; Wegleitung 1997 als weiterhin geltend bestaetigt; VSS-Veloabstellplatz-Normbezug SN 640 065 statt SN 640 060/066 korrigiert; VSS-Rampenneigungsnorm auf aktuelle Nomenklatur VSS 40 291 [2021] praezisiert)
+quellen: ["[[13-fahrzeugabstellplaetze-spielflaechen-teil3]]", "raw/260607_amtlich_zh_pbg.md (§§ 242-249)", "raw/260713_amtlich_zh_ppv-stadt-zuerich.md (PPV Stadt Zuerich Art. 8 Abs. 5-8, amtliche Primaerquelle Fassung GRB 16.12.2015 + Leitfaden Tiefbauamt 09.07.2024)"]
+last_updated: 2026-07-25
+verifiziert: 2026-07-12 (Modell-D §§ 242-249 PBG gegen amtl. Volltext; 2 Fassungsstand-Korrekturen); 2026-07-13 (Buch-Run 33, Modell-D: PPV Stadt Zuerich Art. 8 Abs. 5-8 wortlautbelegt/Fassungsstand korrigiert; Wegleitung 1997 als weiterhin geltend bestaetigt; VSS-Veloabstellplatz-Normbezug SN 640 065 statt SN 640 060/066 korrigiert; VSS-Rampenneigungsnorm auf aktuelle Nomenklatur VSS 40 291 [2021] praezisiert); 2026-07-25 (Buch-Run 54, Fassungsstand-Check: amtliche Primaerquelle der PPV-Fassung 16.12.2015 lokalisiert und Art. 8 Abs. 5-8 direkt am Gesetzeswortlaut CONFIRMED, ersetzt die bisherige Sekundaerquellen-Absicherung ueber den Leitfaden)
 ---
 
 # Fahrzeugabstellplaetze und Parkierung (Pflichtparkplaetze ZH)
@@ -77,8 +77,14 @@ kommunalen Erlass.
   Kernaussage **CONFIRMED**, Fassungsstand **korrigiert**: die allgemein verlinkte PPV-PDF
   (Aenderung 7. Juli 2010) zeigt diese Absaetze noch NICHT; sie wurden erst mit einer spaeteren
   Revision eingefuegt (Fassungsstand laut Leitfaden 2024: «PPV vom 11. Dezember 1996 mit
-  Aenderungen bis 16. Dezember 2015»). Fuer Bauherren-/Kundenberatung ist der Wortlaut aus dem
-  aktuelleren Leitfaden massgebend.
+  Aenderungen bis 16. Dezember 2015»).
+  **Verifiziert 2026-07-25 (Buch-Run 54):** die amtliche Primaerquelle dieser Fassung (PPV-PDF
+  «mit Aenderungen bis 16. Dezember 2015», Stadt Zuerich, Art. 8 Abs. 5-8 in Kraft seit
+  12.09.2016) wurde jetzt lokalisiert und direkt gepruft (nicht mehr nur ueber den Leitfaden
+  als Sekundaerquelle) — Wortlaut **CONFIRMED**, 0 Korrekturen. Einzige Differenz: der Leitfaden
+  fuegt in Abs. 6 stilistisch «dabei» ein, das im Gesetzeswortlaut fehlt (keine materielle
+  Abweichung). Der Fassungsstand ist damit direkt am Erlass, nicht mehr nur am Leitfaden
+  verifiziert.
 - **Fahrtenmodell**: kant. Recht erlaubt anstelle einer Parkplatzzahl eine **Begrenzung der
   erzeugten Fahrten** (BEZ 2004 Nr. 46; BGer Stadion Zuerich, URP 2005).
 

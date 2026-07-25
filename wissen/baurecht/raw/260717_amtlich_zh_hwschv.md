@@ -10,6 +10,7 @@ pdf_url: https://www.notes.zh.ch/appl/zhlex_r.nsf/WebView/DA6564B96647A01FC12580
 abgerufen: 2026-07-17
 stand: Nachtrag 95, Fassungsstand 1.1.2017 — letzte materielle Fassung
 status: AUFGEHOBEN per 01.06.2026 (OS 81, 144) — Nachfolge WsG (LS 724.1) + WsV (LS 724.11)
+fassungsstand_wsg_wsv_geprueft: 2026-07-25 (Buch-Run 54) — WsG UND WsV je Nachtrag 133 (zhlex.zh.ch Location-Header-Check), identisch zum Abrufstand 2026-07-17 dieser Datei — kein Drift
 lizenz: Amtlicher Text — gemeinfrei (Art. 5 URG)
 umfang: HWSchV §§ 15, 15a-15n + Übergangsbestimmung 13.12.2011 (Gewässerraum-Teil, Abschnitt E) sowie die Nachfolgebestimmungen WsG § 20 und WsV §§ 22-25, 213 — treu abgeschrieben
 ---

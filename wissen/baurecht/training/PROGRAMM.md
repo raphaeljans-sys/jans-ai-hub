@@ -113,6 +113,28 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 54 (2026-07-25, Festigungsmodus, Fortsetzung Fassungsstand-Check + PPV-Primärquelle
+    gefunden — kein Agent-Fan-out):** Fortsetzung Priorität (b) aus Run 53: **EnerG (LS 730.1)
+    und WsG/WsV (LS 724.1/724.11) live gegen zhlex geprüft — beide ohne Drift** (EnerG weiterhin
+    Nachtrag 129; WsG/WsV Nachtrag 133, deckungsgleich mit dem bereits in `raw/260717_amtlich_zh_
+    hwschv.md` erfassten Stand). **Echter Lückenschluss:** die seit Run 33 (13.07.2026) nur über
+    ein Leitfaden-Sekundärzitat abgesicherte PPV-Stelle (Art. 8 Abs. 5-8 autoarme Nutzungen)
+    erhielt ihre **amtliche Primärquelle** — per Websuche die konsolidierte PPV-PDF «mit
+    Änderungen bis 16. Dezember 2015» lokalisiert (`741.500_Parkplatzverordnung_16_V4.pdf`,
+    Fussnote «Fassung gem. GRB vom 16. Dezember 2015; Inkraftsetzung 12. September 2016»),
+    `pdftotext -layout` extrahiert und Wort für Wort geprüft: **CONFIRMED, 0 materielle
+    Korrekturen** (einzige Differenz: Leitfaden fügt in Abs. 6 stilistisch «dabei» ein, kein
+    Gesetzeswortlaut). Nachgezogen: `raw/260713_amtlich_zh_ppv-stadt-zuerich.md` (neuer
+    Abschnitt), Wiki [[fahrzeugabstellplaetze-und-parkierung]] (Quellen + verifiziert-Feld +
+    Fliesstext), Destillat [[13-fahrzeugabstellplaetze-spielflaechen-teil3]] (offene-Punkte-Zeile
+    geschlossen). **Register-Sweep-Nebenbefund:** `wiki/INDEX.md` führte den Artikel noch als
+    `emerging` trotz seit Run 29 geltendem `established`-Frontmatter — korrigiert. **0
+    Halluzinationen**, 1 Lückenschluss, 2 Fassungsstand-Vermerke, 2 neue Drill-Karten. Damit ist
+    die seit Run 48 aufgebaute Liste kantonaler Erlasse (ABV/BBV I/BBV II/BVV/KNHV/StrG/EnerG/
+    WsG/WsV/PPV) **einmal vollständig durchlaufen**. **«Rückstand abgebaut» weiterhin NICHT
+    ausgerufen** (Leitplanke Run 48: Daueraufgabe) — Vorschlag für den nächsten Lauf: Wechsel zu
+    Priorität (c), Stichproben-Re-Verifikation eines `established`-Bestands mit ältestem
+    `verifiziert`-Datum. Report `outputs/2026-07-25_buch-run54.md`.
   - **Run 53 (2026-07-25, Festigungsmodus, MacBook Pro, Fassungsstand-Sammelcheck — kein Agent-
     Fan-out):** Priorität (a) geprüft und bereits geschlossen vorgefunden (Anhang 6 LSV = Run 51,
     WsG/WsV-Nachzug = Run 50) → direkt zu Priorität (b) übergegangen. **Sechs kantonale Erlasse

@@ -1,5 +1,42 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## 2026-07-25 (Buch-Run 54, Festigungsmodus) — Fassungsstand-Check EnerG/WsG/WsV/PPV fortgesetzt, PPV-Primärquelle gefunden
+
+Fortsetzung von Priorität (b) aus Run 53 (kantonale Erlasse, die dort noch offen waren: EnerG,
+WsG/WsV, PPV Stadt Zürich).
+
+- **EnerG (LS 730.1): kein Drift.** `curl -sIL` gegen zhlex liefert weiterhin Nachtrag 129 — deckt
+  sich mit der KB-Rohquelle `raw/260712_amtlich_zh_energ.md` (Nachtrag 129, publiziert 1.7.2025).
+  Fassungsvermerk im Frontmatter ergänzt.
+- **WsG (LS 724.1) + WsV (LS 724.11): kein Drift.** Beide aktuell auf Nachtrag 133 (zhlex,
+  Location-Header) — identisch zum Stand, den `raw/260717_amtlich_zh_hwschv.md` (Teil B, Abruf
+  17.07.2026) bereits als geltendes Recht erfasst hatte. Fassungsvermerk im Frontmatter ergänzt
+  (bisher fehlte dort ein expliziter Nachtrags-Beleg für WsG/WsV selbst, nur für die
+  Vorgänger-HWSchV).
+- **PPV Stadt Zürich (741.500, kommunal, kein zhlex-Eintrag): amtliche Primärquelle lokalisiert.**
+  Seit Buch-Run 33 (13.07.2026) stützte sich der Wortlaut von Art. 8 Abs. 5-8 (autoarme Nutzungen)
+  nur auf ein **Sekundärzitat** (Leitfaden Tiefbauamt 2024) — die allgemein verlinkte PPV-PDF
+  (Änderung 2010) enthielt diese Absätze noch nicht, und die vom Leitfaden genannte Fassung
+  «mit Änderungen bis 16. Dezember 2015» war nicht auffindbar. Per Websuche jetzt gefunden:
+  `741.500_Parkplatzverordnung_16_V4.pdf` (Stadt Zürich, offizielle Amtliche-Sammlung-Ablage) —
+  genau diese Fassung, Art. 8 Abs. 5-8 mit Fussnote «Fassung gem. GRB vom 16. Dezember 2015;
+  Inkraftsetzung 12. September 2016». `pdftotext -layout` extrahiert und Wort für Wort gegen das
+  bisherige Leitfaden-Zitat geprüft: **CONFIRMED, 0 materielle Korrekturen.** Einzige Differenz:
+  der Leitfaden fügt in Abs. 6 stilistisch «dabei» ein, das im Gesetzeswortlaut fehlt. Der
+  Fassungsstand ist damit erstmals direkt am Erlass (nicht nur am Leitfaden) belegt. Details:
+  `raw/260713_amtlich_zh_ppv-stadt-zuerich.md` (Nachtrag 2026-07-25), Wiki
+  [[fahrzeugabstellplaetze-und-parkierung]], Destillat
+  [[13-fahrzeugabstellplaetze-spielflaechen-teil3]] (Offene-Punkte-Zeile geschlossen).
+- **Weiterhin ungeprüft (nächster Fassungsstand-Lauf):** ABV, BBV II, KNHV, BVV wurden bereits in
+  Run 53 CONFIRMED (kein Drift); StrG-Drift aus Run 53 materiell folgenlos. Mit EnerG/WsG/WsV/PPV
+  ist die in Run 48-53 aufgezählte Liste kantonaler Erlasse damit **vollständig einmal durchlaufen**.
+  Ein neuer Umlauf (Re-Check aller Erlasse) ist gemäss Leitplanke (Run 48) eine Daueraufgabe, kein
+  einmaliger Abschluss — «Rückstand abgebaut» wird deshalb weiterhin nicht ausgerufen, sondern:
+  der nächste Festigungslauf kann auf **Priorität (c) Stichproben-Re-Verifikation** umschwenken.
+- **0 Halluzinationen, 1 echter Lückenschluss (PPV-Primärquelle), 2 Fassungsstand-Vermerke
+  ergänzt (EnerG, WsG/WsV).** Report `outputs/2026-07-25_buch-run54.md`.
+
+
 Vom Bibliothekar gepflegt. Hier landen Wissenslücken, ungelöste Spannungen und
 geplante Artikel. Der Health-Check (`wissenscheck`) prüft, ob bereits geflaggte
 Lücken erneut auftauchen (Doppel-Flag vermeiden) und ob sie inzwischen geschlossen

@@ -138,3 +138,48 @@ Eigentumsbeschränkung vor Baubeginn im Grundbuch angemerkt» ist damit
 **inhaltlich CONFIRMED** (Kernaussage korrekt), aber der zugrunde liegende
 Fassungsstand war unpräzise referenziert (2010er-PDF statt der Fassung bis
 16.12.2015). Diese Datei liefert nun den Wortlautbeleg.
+
+## Nachtrag 2026-07-25 (Buch-Run 54, Festigungsmodus) — amtliche Primärquelle gefunden, Sekundärquellen-Lücke geschlossen
+
+Die oben unter «Bezogene Fassungen» (2) verwendete Quelle war ein **Sekundärzitat** (Leitfaden
+Tiefbauamt). Die **amtliche Primärquelle** — die konsolidierte PPV-PDF in der Fassung «Gemeinderatsbeschluss
+vom 11. Dezember 1996, mit Änderungen bis 16. Dezember 2015» — war am 13.07.2026 nicht auffindbar (nur
+die ältere 2010er-PDF war unter dem allgemein verlinkten Pfad erreichbar). Sie wurde jetzt lokalisiert:
+
+3. Konsolidierte PDF-Fassung «Gemeinderatsbeschluss vom 11. Dezember 1996, mit Änderungen bis
+   16. Dezember 2015» (Art. 8 Abs. 5-8 Fassung gem. GRB vom 16. Dezember 2015, Inkraftsetzung
+   12. September 2016) — URL:
+   `https://www.stadt-zuerich.ch/dam/web/de/politik-verwaltung/politik-recht/amtliche-sammlung/741/500/741.500_Parkplatzverordnung_16_V4.pdf`
+   (Dateiname-Suffix «_16» = Fassung nach der Revision 2015/2016). **Abrufdatum: 2026-07-25.**
+
+**Wortlaut Art. 8 Abs. 5-8 gemäss Primärquelle (pdftotext -layout, wortgleich mit dem bisherigen
+Leitfaden-Zitat bis auf eine Nuance in Abs. 6):**
+
+> «5 Für autoarme Nutzungen kann der Minimalparkplatzbedarf für Bewohnerinnen und Bewohner sowie
+> für Beschäftigte abweichend von den Vorgaben dieser Verordnung im Einzelfall gestützt auf ein
+> Mobilitätskonzept festgelegt werden.
+>
+> 6 Der Minimalbedarf an behindertengerechten Abstellplätzen darf nicht unterschritten werden.
+>
+> 7 Bei Abweichungen von den Vorgaben des Mobilitätskonzepts kann die Grundeigentümerschaft
+> verpflichtet werden, die gemäss Art. 5 Abs. 1 minimal erforderlichen Abstellplätze auf dem
+> Grundstück zu schaffen. Ist dies nicht möglich, sind die minimal erforderlichen Abstellplätze
+> durch Beteiligung an einer Gemeinschaftsanlage oder durch Zumietung, beides im Umkreis von
+> maximal 300 m, nachzuweisen. Ist auch dies nicht möglich, sind die minimal erforderlichen
+> Abstellplätze durch eine entsprechende Ersatzabgabe gemäss Art. 15 ff. abzugelten.
+>
+> 8 Die Verpflichtung gemäss Abs. 7 ist vor Baubeginn als öffentlich-rechtliche
+> Eigentumsbeschränkung im Grundbuch anmerken zu lassen.»
+
+**Ergebnis: Kaskade Grundstück → Gemeinschaftsanlage/Zumietung (300 m) → Ersatzabgabe, Behinderten-
+Minimum, Grundbuch-Anmerkung alle CONFIRMED gegen die amtliche Primärquelle — 0 Korrekturen am
+Zahlenwerk nötig.** Einzige Abweichung: das Leitfaden-Zitat (Quelle 2) fügte in Abs. 6 das Wort
+«dabei» ein («darf dabei nicht unterschritten werden»), das im Gesetzeswortlaut fehlt — stilistische
+Glättung des Leitfadens, keine materielle Differenz.
+
+**Fassungsstand damit vollständig amtlich verifiziert (nicht mehr nur sekundärquellenbelegt):**
+PPV Stadt Zürich, Gemeinderatsbeschluss vom 11. Dezember 1996, mit Änderungen bis 16. Dezember 2015
+(Art. 8 Abs. 5-8: Fassung GRB 16.12.2015, in Kraft seit 12.09.2016) ist die per 25.07.2026 amtlich
+bestätigte geltende Fassung. Die 2010er-PDF (Quelle 1) bleibt nützlich als Beleg für die **ältere**
+Fassung von Art. 8 Abs. 1-4 (unverändert übernommen in der 2015er-Revision) und zur Illustration der
+Revisionsgeschichte, ist aber für Abs. 5-8 **nicht** massgebend.

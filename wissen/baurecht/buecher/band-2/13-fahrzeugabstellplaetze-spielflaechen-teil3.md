@@ -75,7 +75,7 @@ Die **Pflicht-Abstellplaetze** regelt die Gemeinde in ihrer BZO/Parkplatzverordn
 ## 6. Offene Punkte / zu verifizieren
 - Exakte Grenzwerte der **Wegleitungs-Tabelle 1** (Parkplatzkennzahlen je Nutzungstyp) nicht im Detail erfasst — bei konkretem Parkplatz-Mandat am kommunalen Erlass/PPV verifizieren.
 - Rampenneigungen (15/18 % bzw. 12/15 %) aus dem Fliesstext gelesen — vor Ausschreibung an SN 640 291a gegenpruefen (Modell D).
-- PPV Stadt Zuerich Art. 8 Abs. 5-8 (autoarm): aktueller Stand/Zahlen an der geltenden PPV-Fassung pruefen.
+- ~~PPV Stadt Zuerich Art. 8 Abs. 5-8 (autoarm): aktueller Stand/Zahlen an der geltenden PPV-Fassung pruefen.~~ → **erledigt (Buch-Run 54, 2026-07-25):** amtliche Primaerquelle (PPV-Fassung mit Aenderungen bis 16.12.2015) lokalisiert und Art. 8 Abs. 5-8 direkt am Gesetzeswortlaut CONFIRMED (`raw/260713_amtlich_zh_ppv-stadt-zuerich.md`, Nachtrag 2026-07-25).
 
 ### Modell-D Volltextabgleich §§ 242-249 PBG (2026-07-12, Buch-Run 29)
 Alle §-Belege gegen den amtlichen ZH-Volltext `raw/260607_amtlich_zh_pbg.md` (Zeilen 2525-2638) geprueft. **Ergebnis:**

@@ -4,6 +4,26 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-25 — Buch-Run 54 (Festigungsmodus, Fortsetzung Fassungsstand-Check + PPV-Primärquelle)
+- [pruefung] EnerG (LS 730.1) und WsG/WsV (LS 724.1/724.11) live gegen zhlex.zh.ch geprueft —
+  beide ohne Drift (EnerG weiterhin Nachtrag 129; WsG/WsV Nachtrag 133, identisch zum
+  bereits erfassten Stand in `raw/260717_amtlich_zh_hwschv.md`). Fassungsvermerke in beiden
+  Frontmatter-Bloecken (`raw/260712_amtlich_zh_energ.md`, `raw/260717_amtlich_zh_hwschv.md`)
+  ergaenzt.
+- [luecke geschlossen] PPV Stadt Zuerich Art. 8 Abs. 5-8 (autoarme Nutzungen): amtliche
+  Primaerquelle (PPV-Fassung mit Aenderungen bis 16.12.2015, PDF `741.500_Parkplatzverordnung_
+  16_V4.pdf`) via Websuche lokalisiert und per pdftotext direkt am Erlass geprueft — bisher nur
+  ueber ein Leitfaden-Sekundaerzitat abgesichert. **CONFIRMED, 0 materielle Korrekturen**; einzige
+  Differenz eine stilistische Ergaenzung («dabei») im Leitfaden, kein Gesetzeswortlaut.
+  Nachgezogen: `raw/260713_amtlich_zh_ppv-stadt-zuerich.md` (neuer Abschnitt), Wiki
+  [[fahrzeugabstellplaetze-und-parkierung]] (Quellen/verifiziert-Feld + Fliesstext), Destillat
+  [[13-fahrzeugabstellplaetze-spielflaechen-teil3]] (offene-Punkte-Zeile geschlossen).
+- [korrektur] `wiki/INDEX.md` fuehrte [[fahrzeugabstellplaetze-und-parkierung]] noch als
+  `emerging`, obwohl das Artikel-Frontmatter seit Run 29 `established` zeigt — Register-Sweep-
+  Fund, korrigiert.
+- [drills] 2 neue Karten (J, K) in `training/drills.md`.
+- Report `outputs/2026-07-25_buch-run54.md`.
+
 ## 2026-07-25 — Buch-Run 53 (Festigungsmodus, Fassungsstand-Sammelcheck kantonaler Erlasse)
 - [pruefung] Sechs kantonale Erlasse live gegen zhlex.zh.ch geprueft (ABV LS 700.2, BBV I 700.21,
   BBV II 700.22, BVV 700.6, KNHV 702.11, StrG 722.1). Fuenf ohne Drift bestaetigt.

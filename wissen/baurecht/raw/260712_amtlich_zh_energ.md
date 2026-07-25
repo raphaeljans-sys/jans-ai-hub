@@ -10,6 +10,7 @@ stand_publikation: 2025-07-01
 quelle_url: https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-730_1-1983_06_19-1986_07_01-129.html
 pdf_url: https://www.notes.zh.ch/appl/zhlex_r.nsf/WebView/52C0F42987AC41E1C1258CB40025CB78/$File/730.1_19.6.83_129.pdf
 abgerufen: 2026-07-12
+fassungsstand_geprueft: 2026-07-25 (Buch-Run 54) — zhlex.zh.ch Location-Header weiterhin Nachtrag 129, kein Drift
 lizenz: Amtlicher Text — gemeinfrei (Art. 5 URG)
 hinweis_fassung: >
   Diese Fassung (Nachtrag 129, publiziert 1.7.2025) ist die AKTUELL GUELTIGE

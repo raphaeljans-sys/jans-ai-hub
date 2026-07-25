@@ -1796,3 +1796,29 @@ Volltextvergleich §§ 59-64 zeigt **0 materielle Abweichungen** (Kapitel VII un
 Fassungsstand-Prüfvermerk in `raw/260713_amtlich_zh_strg.md` + `verifiziert`-Feld in
 `buecher/band-1/03-erschliessung-landsicherung-teil1.md`. **0 Halluzinationen, 0 inhaltliche
 Korrekturen**, 2 neue Drill-Karten (Modell D). Report `outputs/2026-07-25_buch-run53.md`.
+
+## Kap. 13 / kantonale Fassungsstände — Run 54 (2026-07-25)
+
+- **J (Modell D · Fassungsstand-Sweep):** Sind EnerG (LS 730.1) und WsG/WsV (LS 724.1/724.11) in
+  der KB auf dem aktuellen zhlex-Stand? — **A:** **Ja** — EnerG bleibt bei Nachtrag 129 (kein
+  Drift seit Abruf 12.07.2026); WsG UND WsV stehen aktuell bei Nachtrag 133, identisch zum
+  Abrufstand von `raw/260717_amtlich_zh_hwschv.md` (Teil B, 17.07.2026) — beide Gesetze wurden
+  gemeinsam mit der HWSchV-Ablösung per 01.06.2026 eingeführt, Nachtrag 133 ist ihr bisher
+  einziger/aktueller Stand. Fassungsvermerke in beiden Frontmatter-Blöcken ergänzt. _[2026-07-25]_
+- **K (Modell A/D · Frage→Beleg, PPV Primärquelle):** Wo genau steht der amtliche Wortlaut von
+  Art. 8 Abs. 5-8 PPV Stadt Zürich (autoarme Nutzungen), und ist die Fassung noch aktuell? —
+  **A:** Amtliche Sammlung 741.500, Gemeinderatsbeschluss vom 11. Dezember 1996 mit Änderungen
+  bis 16. Dezember 2015; Abs. 5-8 in der Fassung GRB 16.12.2015, in Kraft seit 12.09.2016 (PDF
+  `741.500_Parkplatzverordnung_16_V4.pdf`, Stadt Zürich). Bis Run 54 war dieser Wortlaut nur über
+  ein Leitfaden-Sekundärzitat abgesichert; jetzt direkt am Erlass CONFIRMED (0 Korrekturen, eine
+  stilistische Differenz im Leitfaden-Zitat: «dabei» in Abs. 6 ist kein Gesetzeswortlaut). Beleg:
+  `raw/260713_amtlich_zh_ppv-stadt-zuerich.md` (Nachtrag 2026-07-25). _[2026-07-25]_
+
+**Ergebnis Buch-Run 54 (Festigungsmodus, Fortsetzung Fassungsstand-Check):** EnerG/WsG/WsV
+geprüft (0 Drift), PPV Stadt Zürich Art. 8 Abs. 5-8 von Sekundär- auf Primärquellen-Beleg
+angehoben (amtliche PDF lokalisiert, 0 materielle Korrekturen). Register-Nebenbefund: `wiki/
+INDEX.md` führte [[fahrzeugabstellplaetze-und-parkierung]] noch als `emerging` trotz seit Run 29
+geltendem `established`-Frontmatter — korrigiert. Damit ist die in Run 48-53 benannte Liste
+kantonaler Erlasse (ABV/BBV I/BBV II/BVV/KNHV/StrG/EnerG/WsG/WsV/PPV) einmal vollständig
+durchlaufen. **0 Halluzinationen**, 1 echter Lückenschluss, 2 neue Drill-Karten. Report
+`outputs/2026-07-25_buch-run54.md`.
