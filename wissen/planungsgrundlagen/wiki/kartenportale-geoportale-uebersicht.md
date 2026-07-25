@@ -9,7 +9,13 @@ einzbaum_ds_v1, Run 63), .../32 Hoehenlinien (DTM18H1M_V2_LI_T1150422.dxf + Scre
 Run 63), .../Nachfuerung amtliche Vermessung (Emch+Berger Medienmitteilung 08.07.2019, Run 63),
 KtLU Luzern/Gemeinden Luzern Stadt/Baugesuchsverwaltung (eBAGE+/GRAVIS/Jagdportal-Uebersicht,
 Run 63), .../Leitungen (Verein Raumdatenpool Kanton Luzern, Run 63), .../_Stadt Luzern
-Tiefbauamt/Tiefbauamt.docx (JANS-Arbeitsnotiz Baumexperte Baechli, Run 63)]
+Tiefbauamt/Tiefbauamt.docx (JANS-Arbeitsnotiz Baumexperte Baechli, Run 63), KtLU Luzern/
+Geodatenshop Kanton Luzern/03 Produkte Geodatenshop/Grundbuchplan (ags_MapReport-PDFs,
+Ausdruck geoportal.lu.ch 12.06.2024) + .../Gebaeudeenergie Solarpotential/
+GeoportalLU_gebaudeenergie_2024-05-29.pdf, Gemeinden Luzern Stadt/_Stadt Luzern GIS/LINK.docx
+(Kundendienst-Kontaktdaten) + _Kontakte Links/_LINK_Stadt Luzern.docx (CityMap) +
+Landschaftsmodell/_LINK.docx (geo.lu.ch/landschaftsmodell), CH Schweiz/geoportal.ch/Oberaegerie/
+(6 Screenshots, ktzg-URL-Praezisierung, Run 65 2026-07-25 Token-Vollgas)]
 links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]] [[kartenportale-zonenplan-zh]] [[kartenportale-baulinien-abstandslinien-zh]] [[kartenportale-naturgefahren-objektschutz]] [[kartenportale-werkleitungskataster]] [[kartenportale-denkmalschutz-isos]] [[recht-norm-dispensrecht]] [[kartenportale-oereb-kataster-system-zh]]
 ---
 
@@ -293,6 +299,51 @@ vertiefte Bearbeitung, da kein wiederkehrender Bedarf erkennbar ist.
   Wurzeldurchtrennung. Praxishinweis, keine Norm-Fundstelle — Status `speculative`/Praxisnotiz
   (Einzelgespraech, nicht amtlich verifiziert), aber direkt einsetzbar als Fragenkatalog vor einer
   Baugrubenplanung neben Altbaeumen.
+
+### Kt.-LU-Vertiefung Teil 2: Grundbuchplan-Selbstbezug, Solarpotential-Layer, Stadt-Luzern-GIS-Kontakt
+(K55-K58, Run 65, 2026-07-25, Token-Vollgas — Cloud-Only-Scout gemaess Run-64-Empfehlung auf PL-01)
+
+- **K55 — Grundbuchplan als login-freier Web-Ausdruck, Delta zum bezahlten Geodatenshop-Bezug:**
+  neben dem bereits dokumentierten Geodatenshop-Produkt «Grundbuchplan» (Bestellung/Login) liefert
+  `geoportal.lu.ch` einen **direkten PDF-Ausdruck** «Grundbuchplan (amtliche Vermessung)» im
+  Massstab 1:1'000 (Beschriftung „Ausdruck geoportal.lu.ch", Kartenzentrum frei waehlbar, real
+  getestet am Beispiel Steinhofstrasse/Eichhof Luzern) — **ohne Bestellprozess/Login**, direkt aus
+  dem Kartenviewer druckbar. Ergaenzt K4 (Situationsplan-Bezug) um einen dritten, schnelleren Weg
+  neben (a) Geodatenshop-DXF-Bestellung und (b) `geodienste.ch`: fuer eine reine Uebersichts-/
+  Praesentationsqualitaet (kein CAD-Import) genuegt der Sofort-Ausdruck.
+- **K56 — Solarpotential/Gebaeudeenergie-Layer, kantonales Pendant zu sonnendach.ch:** das
+  Geodatenshop-Produkt «Gebaeudeenergie» liefert einen gebaeudeflaechenscharfen Solarpotential-Layer
+  (Ampel-/Farbcode je Dachflaeche, PDF-Druckexport 1:500) — dieselbe Grundidee wie das bereits
+  dokumentierte Bundes-Tool `sonnendach.ch`/`uvek-gis.admin.ch` ([[energie-pv-eignung-typenwahl]]
+  §2b), aber als **kantonales** Kartenprodukt mit eigenem Massstab/Layout statt Bundes-Portal.
+  Kein Delta bei der zugrunde liegenden Eignungsmethodik selbst belegt (Portal liefert nur die
+  Kartendarstellung, keine Methodenbeschreibung wie beim Bundesbericht) — bei Bedarf an
+  Kennzahlen (kWh/m²·a) bleibt `sonnendach.ch` die belegte Quelle.
+- **K57 — Stadt Luzern GIS-Kundendienst, dritte Portalebene Gemeinde:** neben Kanton (Geodatenshop)
+  und den bereits dokumentierten Fach-Tools (`klimafreundlichheizen.ch`, 3D-Stadtmodell) fuehrt die
+  **Stadt** Luzern einen eigenen GIS-Kundendienst — Industriestrasse 6, 6005 Luzern, 041 208 74 00,
+  `gis@stadtluzern.ch`, Oeffnungszeiten Mo-Do 08:00-12:00/13:30-17:00, Fr bis 16:00 (Schalter Di-Do
+  13:30-17:00). Reale FAQ aus der Quelle: amtliche Vermesserdaten **mit Baulinie** werden bei
+  diesem Kundendienst angefragt (nicht ueber den kantonalen Geodatenshop). Zusaetzlich die
+  **Stadtplan/CityMap** (`map.stadtluzern.ch/citymap/`, Bau- und Zonenordnung) als weiteres
+  Stadt-Tool sowie ein eigenstaendiges Geodatenshop-Produkt **Landschaftsmodell**
+  (`geo.lu.ch/landschaftsmodell/`, bisher nur als Katalogzeile ohne URL gefuehrt).
+- **K58 — bestaetigte Doppelfunde (Registerpflege, kein neuer Inhalt):** die Dateien
+  `Gemeinden Luzern Stadt/_Stadt Luzern Tiefbauamt/Tiefbauamt.docx` und
+  `.../Stadt Luzern 3D-Stadtmodell/_Stadt Luzern Stadt Modell.docx` wurden erneut gepruefte —
+  beide sind **identisch** mit den bereits dokumentierten K53 (Baumwurzelwerk-Arbeitsnotiz Herr
+  Baechli) bzw. K43 (Esri-WebScene-URL). Kein Korrekturbedarf, reine Bestaetigung.
+- **Praezisierung `geoportal.ch`-Verbund (K46/K61):** der bereits dokumentierte Gemeinde-Beleg
+  «Oberaegeri» (§Vierter White-Label-GIS-Betreiber oben) laeuft konkret ueber
+  `geoportal.ch/ktzg/map/…` — d.h. das Portal ist **kantonal fuer Kt. Zug** organisiert (nicht
+  gemeindeweise wie zunaechst vermutet), analog zum bereits bekannten `geoportal.ch/Einsiedeln`
+  (dort ebenfalls kantonal/bezirklich). Mobile Ansicht login-frei fuer die Basis-Parzellensuche;
+  erweiterte Funktionen (z.B. Sachdaten-Export) sind hinter einem Login-Dialog («Anmelden»,
+  Benutzername/Passwort) gefuehrt — bestaetigt dasselbe Zugangsmuster wie bei den anderen
+  `geoportal.ch`-Mitgliedern.
+
+Status **established** fuer K55/K56/K57 (amtliche Primaerquellen bzw. reale Kontaktdaten direkt
+aus dem Portal/der Quelldatei), K58 reine Registerbestaetigung.
 
 ### `geodienste.ch` — Registrierung und Bestellmechanik (K33, Run 38, 2026-07-14)
 

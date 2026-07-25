@@ -3,6 +3,13 @@
 Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit ✓ + Datum.
 
 ## A — Kartenportale
+- [x] **K55-K58 (Run 65, 2026-07-25, Token-Vollgas)** Cloud-Only-Scout auf PL-01 (Rule 260725,
+  Empfehlung aus Run 64) findet fuenf bisher unausgewertete LU-Fundstellen: Denkmalverzeichnis/
+  Bauinventar (zweistufig BILU/KDV + ÖREB-Thema Kulturdenkmaeler, realer Beleg Haus Jans
+  Steinhofstrasse 25 Luzern), Grundbuchplan-Selbstbezug via geoportal.lu.ch, Solarpotential-Layer
+  (kantonales Pendant zu sonnendach.ch), Stadt-Luzern-GIS-Kundendienst-Kontakt. Praezisierung
+  `geoportal.ch/ktzg` = kantonal Zug. Details `training/curriculum.md` K55-K58,
+  [[kartenportale-denkmalschutz-isos]] §3, [[kartenportale-geoportale-uebersicht]].
 - [x] **K47-K54 (Run 63, 2026-07-25, Token-Vollgas)** Scout-Abgleich (vollstaendiger Ordnerbaum
   PL-01 gegen curriculum.md/_INGESTED.md) findet sieben echte Fundstellen im bisher unter-
   ausgewerteten Kt.-LU-Cluster. **K47 — echter Delta zu K12:** Kt. LU fuehrt (anders als ZH/SZ)
@@ -780,6 +787,12 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   SIA 261/261-1, DC bleibt unter Spannung. Solar-spezifisch, kein Doppel zu Skill `brandschutz`.
 
 ## D — Energie
+- [x] **E45 (Run 65, 2026-07-25, Token-Vollgas)** Korrektur zu E44: `_Literatur/
+  Final_Dossier_Solararchitekur_tiefaufgeloest.pdf` (Tippfehler im Dateinamen liess es beim
+  Run-63-Scout-Grep durchrutschen) enthaelt das vollstaendige TEC21-Dossier «Solares Bauen» —
+  acht weitere Referenzbauten (Swiss Tech Convention Center EPFL, deltaZero Lugano, Sihlweid
+  Zuerich, Romanshorn TG, CeRN Bursins, Kunstdepot Freiburg, 3M Pioltello, Flims GR) als
+  Design-Referenzkatalog eingearbeitet → NEU §5b [[energie-pv-eignung-typenwahl]].
 - [x] **E44 (Run 63, 2026-07-25, Token-Vollgas Scout-Fund)** Letzte unausgewertete Datei im Ordner
   `_Heizwaermebedarf/` (`_Wärmebedarf Warmwasser SIA 380_1.pdf`) gelesen — bestaetigter Nicht-Fund
   (byte-identische Tab.-24/25-Doppelseite, bereits in [[energie-heizwaermebedarf-

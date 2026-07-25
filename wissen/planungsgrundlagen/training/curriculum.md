@@ -160,6 +160,24 @@ das Ergebnis in den passenden Wiki-Artikel.
   speculative/Praxisnotiz. **K54 Grenzen-Kategorie (geprueft, geringe Relevanz):** 33 generische
   Verwaltungsgrenzen-Produkte (Betreibungskreise, Bezirksgerichtskreise, AOC-Weinbauregionen u.ae.)
   ohne Planungsbezug — bestaetigter Nicht-Fund, keine weitere Bearbeitung noetig.
+- [x] K55-K58 (Run 65, 2026-07-25, Token-Vollgas) Cloud-Only-Scout (Rule 260725 Cloud-Only-Check,
+  aus Run 64 uebernommen) auf PL-01 findet fuenf bisher nie ausgewertete LU-Fundstellen. **K55
+  Denkmalverzeichnis/Bauinventar LU:** zweistufiges System BILU (Bauinventar, nicht
+  rechtsverbindlich)/KDV (Kantonales Denkmalverzeichnis, rechtsverbindlich) + Archaeologische
+  Fundstellen + ISOS in einem Portal (`map.geo.lu.ch/kulturgueter/denkmaeler`); realer Beleg **Haus
+  Jans, Steinhofstrasse 25 Luzern** (Otto Dreyer 1931, Bauhaus-Elemente, BILU-Status
+  «schuetzenswert») → NEU §3 [[kartenportale-denkmalschutz-isos]], established. Genuiner Delta zu
+  ZH: LU fuehrt «Kulturdenkmaeler» als eigenes, rechtskraeftiges ÖREB-Thema (Verordnung SRL 310)
+  direkt im ÖREB-Auszug, statt als separates GIS-Druckprodukt ausserhalb des ÖREB. **K56
+  Grundbuchplan-Selbstbezug:** `geoportal.lu.ch` liefert einen login-freien PDF-Sofort-Ausdruck
+  1:1'000, Delta zum bezahlten Geodatenshop-DXF-Bezug → [[kartenportale-geoportale-uebersicht]].
+  **K57 Gebaeudeenergie/Solarpotential-Layer:** kantonales Kartenprodukt-Pendant zu
+  `sonnendach.ch`, keine eigene Methodik belegt (Kartendarstellung only) → dass. **K58 Stadt
+  Luzern GIS-Kundendienst:** dritte Portalebene (Gemeinde), realer Kontakt + FAQ «Vermesserdaten
+  mit Baulinie», plus CityMap- und Landschaftsmodell-Produkt-URLs → dass. Zwei geprueft-aber-
+  Doppelfund-Dateien (Tiefbauamt.docx = K53, Stadtmodell.docx = K43) bestaetigt ohne neuen Inhalt.
+  Praezisierung `geoportal.ch/Oberaegerie` = kantonal organisiert fuer Kt. Zug (`/ktzg/`-Pfad),
+  login-Gate fuer erweiterte Funktionen bestaetigt dasselbe Muster wie Einsiedeln.
 
 ## Domaene 2 — Energie (PL-04)  · Prioritaet
 - [x] E1 PV-Typenwahl: Entscheidungsbaum (Indach/Ziegel/transparent/Fassade/Aufdach)? (2026-06-06, → [[energie-pv-eignung-typenwahl]])
@@ -281,6 +299,19 @@ das Ergebnis in den passenden Wiki-Artikel.
   `_Heizwaermebedarf/` nun vollstaendig ausgewertet (letzte Restdatei). Domaene Energie nach
   Scout-Vollabgleich (Run 63) ansonsten ohne unerschlossene PL-04-Datei — verbleibt nur der seit
   Run 36 offene D9-Punkt (realer MFH-/ZEV-Betriebskostenfall), der auf ein reales Projekt wartet.
+- [x] E45 (Run 65, 2026-07-25, Token-Vollgas) Korrektur zu E44/Run 63: `_Literatur/
+  Final_Dossier_Solararchitekur_tiefaufgeloest.pdf` (Dateiname mit Tippfehler «Architekur» ohne
+  «t» — deshalb vom Run-63-Scout-Abgleich gegen den korrekt geschriebenen Begriff nicht erfasst,
+  Datei selbst war lokal materialisiert, nicht cloud-only) liefert das VOLLSTAENDIGE TEC21-Dossier
+  «Solares Bauen» (25 S.), von dem bisher nur 2 der 10 Bauten in §5
+  [[energie-pv-eignung-typenwahl]] ausgewertet waren (Hoenggg-Plusenergiehaus, Umwelt Arena
+  Spreitenbach, beide via anderslautende Quellenverweise Run 40). Acht weitere Referenzbauten mit
+  vollstaendigen Energiekennwerten gelesen und eingearbeitet (Swiss Tech Convention Center EPFL,
+  Palazzo deltaZero Lugano, Sihlweid Zuerich, Romanshorn TG, CeRN Bursins, Kunstdepot Freiburg,
+  3M Pioltello, Flims GR) → NEU §5b [[energie-pv-eignung-typenwahl]], established. Damit ist die
+  Domaene-Energie-«vollstaendig ausgewertet»-Aussage aus E44 fuer diese eine Datei zu praezisieren
+  (Lehre: Scout-Abgleich per Text-Grep ist tippfehleranfaellig — ein Dateinamens-Scan ergaenzend
+  gegen den tatsaechlichen Ordnerinhalt, nicht nur gegen den erwarteten Suchbegriff).
 
 ## Domaene 3 — Recht & Norm (PL-02)
 - [x] R1 Quellenlandkarte PL-02 vervollstaendigen (welcher Erlass wo, Datenstand fedlex). (2026-06-08, 10 Ordner kartiert, SR→fedlex-Schema, → [[recht-norm-quellenlandkarte]])

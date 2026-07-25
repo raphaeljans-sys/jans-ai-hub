@@ -1,7 +1,7 @@
 ---
-title: Denkmalschutz/Ortsbildschutz als Planungsgrundlage — ISOS (Bund) + Archäologische Zonen/Denkmalschutzobjekte (Kt. ZH)
-status: emerging
-last_updated: 2026-07-14
+title: Denkmalschutz/Ortsbildschutz als Planungsgrundlage — ISOS (Bund) + Archäologische Zonen/Denkmalschutzobjekte (Kt. ZH) + BILU/KDV (Kt. LU)
+status: established
+last_updated: 2026-07-25
 sources:
   - PL-01 Kartenportale/CH Schweiz/gisos.bak.admin.ch/gisos.bak.admin.ch.docx (2 URLs:
     gisos.bak.admin.ch/sites, bak.admin.ch „ISOS in Kürze")
@@ -13,8 +13,15 @@ sources:
     identifiziert und via `geo-zh.mjs --produkt denkmalschutz --adresse "Haselstudstrasse 2, Wald ZH"`
     end-to-end getestet (EGRID CH927798864848, 4 Denkmalschutzobjekte inkl. Ensemble «Montana»/
     «Zelgli», Baujahr/Einstufung/Erlass/GVZ-Nr./EGID belegt)
+  - PL-01 Kartenportale/KtLU Luzern/Geodatenshop Kanton Luzern/03 Produkte Geodatenshop/
+    Denkmalverzeichnis und Bauinventar/ (BILU-Bauinventar + KDV-Denkmalverzeichnis + Kulturgüter +
+    Legende, map.geo.lu.ch/kulturgueter/denkmaeler, 29.05.2024, realer Beleg Haus Jans
+    Steinhofstrasse 25 Luzern, Grundstück 1737) + .../Grundbuchplan/ + .../Oeffentlich rechtliche
+    Eigentumsbeschraenkung/document.pdf (ÖREB-Auszug Kt. LU, ch.LU.20240529171105821, Run 65,
+    2026-07-25, Token-Vollgas)
 links: [[kartenportale-geoportale-uebersicht]] [[kartenportale-naturgefahren-objektschutz]]
-  [[kartenportale-grundlagen-checkliste-neue-parzelle]] `wissen/baurecht/wiki/naturschutz-und-denkmalschutz.md`
+  [[kartenportale-grundlagen-checkliste-neue-parzelle]] [[kartenportale-oereb-kataster-system-zh]]
+  `wissen/baurecht/wiki/naturschutz-und-denkmalschutz.md`
 ---
 
 # Denkmalschutz/Ortsbildschutz als eigenständige Planungsgrundlage
@@ -105,6 +112,52 @@ abfragbar — gefunden per `GetCapabilities` und live verifiziert:
   ist ab sofort in `skills/planungsgrundlagen/connectors/geo-zh.mjs` verfügbar — analog zu
   `zonenplan`/`baulinien` nur für Kt. ZH hinterlegt.
 
+## 3. Kt. LU: zweistufiges System BILU/KDV + Kulturdenkmäler als eigenes ÖREB-Thema (Run 65, 2026-07-25)
+
+Realer Beleg: Portal `map.geo.lu.ch/kulturgueter/denkmaeler` (Bau-, Umwelt- und
+Wirtschaftsdepartement, Raum und Wirtschaft), Druck-Exporte 29.05.2024, plus der amtliche
+ÖREB-Auszug desselben Grundstücks (Nr. 1737, E-GRID CH213596508835, Grundbuch Luzern linkes Ufer).
+Realer JANS-Bezug: das abgefragte Objekt ist **Haus Jans, Steinhofstrasse 25, Luzern** (Baujahr
+1931, Architekt Otto Dreyer, «Bauhaus entlehnte Elemente … typisches Schema des Einfamilienhauses
+mit Satteldach», staedtebaulich praegend an der Strassengabelung).
+
+**Zwei-Ebenen-Inventar, analog zur ZH-Struktur, aber mit einem klaren Bindungs-Unterschied:**
+
+1. **Bauinventar BILU** (kantonal, nicht rechtsverbindlich) — Stufung **erhaltenswert** (blau) /
+   **schuetzenswert** (rot) / **Baugruppe**; Portal-Hinweis woertlich: *„Gezeigte Daten haben keine
+   Rechtswirksamkeit und erheben keinen Anspruch auf Vollstaendigkeit. Im Zweifelsfall … kontaktieren
+   Sie die kantonale Denkmalpflege."* Haus Jans ist hier als **schuetzenswert** (Baugattung
+   Einfamilienhaus [c] Wohnbauten, Inkraftsetzung Bauinventar 01.12.2017) gefuehrt.
+2. **Kantonales Denkmalverzeichnis KDV** (die rechtsverbindliche Stufe darueber) — Layer-Werte
+   **denkmalgeschuetztes Objekt** / **keine digitalen Daten verfuegbar** / **denkmalgeschuetzte
+   Gaerten und Paerke (in Arbeit)**. Fuer Haus Jans ist im KDV-Layer **kein** Eintrag hinterlegt —
+   das Objekt steht also (Stand 2024) im vorgelagerten BILU, aber (noch) nicht im rechtsverbindlichen
+   KDV. Zustaendige Fachstelle fuer beide Layer: **Denkmalpflege und Archaeologie (da)**,
+   `denkmalpflege.lu.ch`.
+3. Zusaetzliche Layer im selben Portal: **Archaeologische Fundstellen** und **Inventar der
+   schuetzenswerten Ortsbilder der Schweiz (ISOS)** — damit fuehrt Kt. LU alle vier
+   Denkmalschutz-/Ortsbild-Ebenen (kommunal fehlt) in **einem** Portal, waehrend Kt. ZH sie auf
+   getrennte Systeme (maps.zh.ch-Druckprodukt vs. Bundes-ISOS-Portal) verteilt.
+
+**Genuiner struktureller Delta zu ZH — Kulturdenkmaeler als eigenes, rechtskraeftiges ÖREB-Thema:**
+im amtlichen ÖREB-Auszug Kt. LU (`ch.LU.20240529171105821`, S. 5) erscheint **„Kulturdenkmaeler"**
+als eigenstaendiges Thema unter den das Grundstueck **betreffenden** OEREB-Themen (neben
+Zonenplan und Laermempfindlichkeitsstufen) — mit Status **Rechtskraeftig**, Rechtsgrundlage
+*Verordnung zum Gesetz ueber den Schutz der Kulturdenkmaeler* (SRL 310), Flaechenanteil 66 m² /
+13 % **schuetzenswert** direkt auf der Parzelle ausgewiesen und Link zur Online-Karte
+(`map.geo.lu.ch/kulturgueter/denkmaeler?EGRID=…`). Kt. LU bindet den Denkmalschutz damit **direkt
+in den ÖREB-Kataster** ein statt (wie im bisher dokumentierten ZH-Modell) als separates
+GIS-Druckprodukt ausserhalb des ÖREB zu fuehren — bei einer LU-Grundlagenbeschaffung liefert der
+**ÖREB-Auszug allein bereits** die rechtsverbindliche Denkmalschutz-Auskunft, ohne dass zusaetzlich
+das Kulturgueter-Portal separat abgefragt werden muss (Delta-Pruefung dort bleibt trotzdem
+sinnvoll, weil das BILU als vorgelagerte Stufe NICHT im ÖREB erscheint, siehe Punkt 1 oben).
+
+**Bezugsweg:** `map.geo.lu.ch/kulturgueter/denkmaeler` (Adress-/Objektsuche, Layer einzeln
+zuschaltbar, PDF-Druckexport A4 1:500) fuer BILU/KDV/Archaeologie/ISOS; ÖREB-Auszug ueber den
+kantonalen ÖREB-Geoportal-Zugang (Katasterverantwortliche Stelle: Raum und Wirtschaft rawi,
+analog zu den bereits dokumentierten ZH/SZ-ÖREB-Auszuegen). Status **established** (amtliche
+Primaerquelle, Feldbezeichnungen/Rechtsgrundlage woertlich aus dem Portal/Auszug uebernommen).
+
 ## Zusammenfassung / Einordnung
 
 | Ebene | Quelle/Portal | Rechtsgrundlage | Bezugsweg (belegt) | Automatisierbarkeit |
@@ -112,6 +165,8 @@ abfragbar — gefunden per `GetCapabilities` und live verifiziert:
 | National (ISOS) | `gisos.bak.admin.ch` (BAK) | Art. 78 BV, Art. 2/3 NHG | Web-Portal | nicht getestet |
 | Kantonal ZH (überkommunal) | `maps.zh.ch` GIS-Browser + OGD-WFS 0368/0087 | §§ 203, 209 Abs. 2, 211 PBG | Druckprodukt/PDF-Export **und** OGD-WFS (login-frei, getestet) | **ja — Connector `--produkt denkmalschutz`** |
 | Kommunal ZH | gemeindeeigenes Inventar | §§ 203, 211 PBG | nicht erschlossen (je Gemeinde) | offen |
+| Kantonal LU, vorgelagert (BILU) | `map.geo.lu.ch/kulturgueter/denkmaeler` | nicht rechtsverbindlich (Portal-Hinweis) | Web-Portal + PDF-Druckexport | nein (Web-only) |
+| Kantonal LU, rechtsverbindlich (KDV) | dass. Portal **und** ÖREB-Auszug (eigenes Thema) | Verordnung zum Gesetz über den Schutz der Kulturdenkmäler (SRL 310) | ÖREB-Auszug amtlich, Web-Portal | ÖREB-Auszug ja (amtlicher Bezug, wie ZH/SZ) |
 
 Für eine belastbare Denkmalschutz-/Ortsbildschutz-Abklärung braucht es also **mindestens drei**
 Anfragen (ISOS-Portal grob, kantonaler Layer für überkommunale Objekte, Gemeinde für das
@@ -121,7 +176,12 @@ kommunale Inventar) — analog zur bereits dokumentierten Werkleitungskataster-D
 ## Offen (→ QUESTIONS)
 
 - ISOS-Perimeter grundstücksbezogen abfragen (API/WFS?) — nicht getestet.
-- Kt. SZ/andere Kantone: äquivalenter Denkmalschutz-/Archäologie-Layer noch nicht kartiert.
+- Kt. SZ: äquivalenter Denkmalschutz-/Archäologie-Layer noch nicht kartiert (Kt. LU seit Run 65,
+  2026-07-25, belegt — siehe §3).
 - Kommunale Schutzobjekt-Inventare (§§ 203/211 PBG, unterhalb der kantonalen Schwelle) sind
   gemeindespezifisch und hier bewusst nicht erschlossen (kein einheitlicher Bezugsweg zu erwarten,
   analog Baumkataster [[kartenportale-geoportale-uebersicht]] §Baumkataster).
+- Kt. LU: ob/wie sich ein KDV-Eintrag (rechtsverbindlich) nachträglich aus einem BILU-Eintrag
+  (vorgelagert) ergibt und ob es dafür ein laufendes Verfahren/eine Frist gibt, ist mit der
+  vorliegenden Quelle nicht belegt (nur der Ist-Zustand einer Stichprobe, kein Verfahrenstext
+  gelesen).

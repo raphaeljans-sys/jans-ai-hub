@@ -2,6 +2,21 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 — Training Run 65 (Kartenportale + Energie, Token-Vollgas): Kt.-LU-Denkmalschutz (Haus Jans), Solararchitektur-Referenzkatalog erweitert
+Rotation zurueck auf Kartenportale (PL-01) + Energie (PL-04) (Run 64 hatte Recht/Norm+Brandschutz).
+Cloud-Only-Scout (Empfehlung Run 64) findet fuenf bisher unausgewertete Fundstellen, alle in
+`KtLU Luzern/`: **K55** zweistufiges Denkmalschutz-System BILU/KDV + Kulturdenkmaeler als eigenes
+rechtskraeftiges ÖREB-Thema (Delta zum ZH-Modell), realer Beleg Haus Jans Steinhofstrasse 25 Luzern
+(Otto Dreyer 1931) → NEU §3 [[kartenportale-denkmalschutz-isos]]. **K56/K57** Grundbuchplan-
+Web-Ausdruck + Solarpotential-Layer (kantonales Pendant zu sonnendach.ch) → Ergaenzung
+[[kartenportale-geoportale-uebersicht]]. **K58** Stadt-Luzern-GIS-Kundendienst-Kontakt + CityMap/
+Landschaftsmodell-URLs; zwei Dateien bestaetigt als Doppelfund zu K53/K43. Praezisierung
+`geoportal.ch/ktzg` = kantonal Zug. **E45** Korrektur zu E44 (Run 63): Tippfehler im Dateinamen
+(«Solararchitekur») hatte das vollstaendige TEC21-Dossier «Solares Bauen» vor dem Scout-Grep
+verborgen — acht weitere Referenzbauten (Swiss Tech Convention Center EPFL/Graetzel-Zellen,
+deltaZero Lugano, Sihlweid Zuerich, Romanshorn TG, CeRN Bursins, Kunstdepot Freiburg, 3M Pioltello,
+Flims GR) → NEU §5b [[energie-pv-eignung-typenwahl]]. Report: `outputs/2026-07-25_training-run65.md`.
+
 ## 2026-07-25 — Training Run 64 (Recht & Norm + Brandschutz, Token-Vollgas): vier Cloud-Only-Ordner erstmals materialisiert, Sehbehinderten-Dimension neu
 Rotation zurueck auf Recht & Norm (PL-02) + Brandschutz (PL-03) (Run 63 hatte Kartenportale+
 Energie). Delta-Scan: keine neuen Dateien. Scout-Abgleich (Top-Level-Ordnerliste PL-02/PL-03

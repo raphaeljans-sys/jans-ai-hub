@@ -2,7 +2,7 @@
 title: PV/Solar — Typenwahl, Eignung & Ertrag (Planungsgrundlage)
 status: established
 last_updated: 2026-07-25
-sources: [PL - 04 Energie/Solaranlage (SharePoint), EnergieSchweiz Solarrechner Usermanual (Okt 2022), SolarApp AG "SolarReport" Reckholdern/Willerzell (09.01.2024, vollstaendiger Bericht Run 42) + MFH Basel (05.11.2022), PVSOL premium 2019 Projekt "PI" Thomas Lueem Partner AG (18.01.2019, Run 42), JANS-Projekt ewzWHH PS 19.36 (Korrespondenz 02/2019), Formular EN-104 (EnDK, Juni 2019), PREFA Solarfolder CH (Stand 09.2023 V5), Datenblatt SI-Saphir M175-M180 (Stand 06/2015, DIBt Z-70.3-204), Eternit Sunskin roof GG-L 195W (solar-home.ch Webshop, Screenshot 17.11.2024), Amt fuer Umwelt und Energie Basel/jessenvollenweider (2021, Fassaden-PV Schmelzglas), uvek-gis.admin.ch, sonnenverlauf.de, Megasol Datenblatt Hochleistungsmodul M385-HC120-b BF GG U30b Art. 0322.1580 (Version 10/2022, Run 31), PL - 04 Energie/Solaranlage/Dachausstiege (6 Produktfotos, 11/2024, Run 31), Eternit Sunskin roof "Planung + Ausführung" (solar-home.ch/Sunskin, Rev. 01.2022/web, Run 40), UVEK-GIS-Bericht "Wie viel Strom oder Waerme kann mein Dach produzieren?" (uvek-gis.admin.ch/BFE, sonnendach.ch-Druckausgabe, 02.07.2023, Run 40), EnergieSchweiz-Solarrechner-Report "Schluesseldaten rund um meine Solaranlage" (energieschweiz.ch, Diemtigen, 02.07.2023, Run 40), TEC21 | TRACÉS | archi Dossier 5/2012 "SolaRes Bauen" (PL-04/Solaranlage/_Literatur, Run 40), HSLU T&A "GreenPV" Workshop 2 Foliensatz (20220606_GreenPV - Workshop 2.pdf, 15.06.2022, S. 1-29 von 46, Run 49), HSLU IGE "GreenPV" Schlussbroschuere (502400-greenpv-broschuere-20240827-web.pdf, hslu.ch, 27.08.2024, 47 S. vollstaendig, Run 50)]
+sources: [PL - 04 Energie/Solaranlage (SharePoint), EnergieSchweiz Solarrechner Usermanual (Okt 2022), SolarApp AG "SolarReport" Reckholdern/Willerzell (09.01.2024, vollstaendiger Bericht Run 42) + MFH Basel (05.11.2022), PVSOL premium 2019 Projekt "PI" Thomas Lueem Partner AG (18.01.2019, Run 42), JANS-Projekt ewzWHH PS 19.36 (Korrespondenz 02/2019), Formular EN-104 (EnDK, Juni 2019), PREFA Solarfolder CH (Stand 09.2023 V5), Datenblatt SI-Saphir M175-M180 (Stand 06/2015, DIBt Z-70.3-204), Eternit Sunskin roof GG-L 195W (solar-home.ch Webshop, Screenshot 17.11.2024), Amt fuer Umwelt und Energie Basel/jessenvollenweider (2021, Fassaden-PV Schmelzglas), uvek-gis.admin.ch, sonnenverlauf.de, Megasol Datenblatt Hochleistungsmodul M385-HC120-b BF GG U30b Art. 0322.1580 (Version 10/2022, Run 31), PL - 04 Energie/Solaranlage/Dachausstiege (6 Produktfotos, 11/2024, Run 31), Eternit Sunskin roof "Planung + Ausführung" (solar-home.ch/Sunskin, Rev. 01.2022/web, Run 40), UVEK-GIS-Bericht "Wie viel Strom oder Waerme kann mein Dach produzieren?" (uvek-gis.admin.ch/BFE, sonnendach.ch-Druckausgabe, 02.07.2023, Run 40), EnergieSchweiz-Solarrechner-Report "Schluesseldaten rund um meine Solaranlage" (energieschweiz.ch, Diemtigen, 02.07.2023, Run 40), TEC21 | TRACÉS | archi Dossier 5/2012 "SolaRes Bauen" (PL-04/Solaranlage/_Literatur, Run 40), HSLU T&A "GreenPV" Workshop 2 Foliensatz (20220606_GreenPV - Workshop 2.pdf, 15.06.2022, S. 1-29 von 46, Run 49), HSLU IGE "GreenPV" Schlussbroschuere (502400-greenpv-broschuere-20240827-web.pdf, hslu.ch, 27.08.2024, 47 S. vollstaendig, Run 50), TEC21 | TRACÉS | archi Dossier 5/2012 "SolaRes Bauen" S. 1-38 vollstaendig gelesen (Final_Dossier_Solararchitekur_tiefaufgeloest.pdf, 8 weitere Referenzprojekte, Run 65 2026-07-25 Token-Vollgas)]
 links: [[energie-uebersicht]], [[energie-pv-brandschutz]], [[energie-energienachweis-zh-formulare]], [[energie-betriebsenergie-pv-wirtschaftlichkeit]], [[kartenportale-geoportale-uebersicht]], [[recht-norm-arbeitshilfen-planungsdetails]]
 ---
 
@@ -334,6 +334,59 @@ Fassaden z.B. gleichzeitig Absturzsicherung/Sichtschutz/Verschattung (spart ein 
 Gelaender-/Storen-Gewerk), am Dach als identitaetsstiftende Grossform. Das schaerft die
 Typenwahl-Logik in §1 (D Fassade/A-B Dach) um eine gestalterische Dimension, die rein technische
 Wp/m²-Tabellen nicht abbilden.
+
+### 5b — Weitere Referenzprojekte aus demselben Dossier (Run 65, 2026-07-25, Token-Vollgas)
+
+Das vollstaendige 25-seitige Dossier (bisher nur teilweise ausgewertet, §5 oben) enthaelt acht
+weitere real dokumentierte Bauten mit vollstaendigen Energiekennwerten — eine Kurzuebersicht nach
+architektonischer Integrationsstrategie, als Design-Referenzkatalog fuer Studien-Praesentationen:
+
+- **Swiss Tech Convention Center, EPFL Ecublens VD** (Richter · Dahl Rocha & Associés,
+  2011-2014): erste grossmasstaebliche Anwendung **transluzenter, farbiger Graetzel-Zellen**
+  (Farbstoffsolarzellen) an einer Glasfassade — Wirkungsgrad niedriger als kristalline Module,
+  dafuer Doppelfunktion als Sonnenschutz/Ueberhitzungsschutz UND Stromproduktion. Zusaetzlich
+  opake PV-Dachflaeche (400 m²) fuer Warmwasser-Vorwaermung. Zeigt eine vierte PV-Kategorie neben
+  den bereits in §1 gefuehrten Typen A-E: **transluzente Farbstoffzellen als Fassadenglas-Ersatz**.
+- **Palazzo deltaZero, Lugano-Paradiso TI** (deAngelis-Mazza architetti, 2008): Gegenbeispiel zur
+  «sichtbaren» Umwelt-Arena-Strategie — **unauffaellige, rein glaserne Fassade** (Glas-Glas-Module
+  in den vertikalen Achsen kaum erkennbar), PV nur auf dem flachen Dach (160.7 m², monokristallin)
+  plus eine **opake Solarthermie-Suedfassade** (71.9 m², hoher Absorptionsgrad, kombiniert mit 6
+  Erdsonden 130 m tief) fuer Heizung/Warmwasser. Deckt den gesamten Energiebedarf (~25'000 kWh/a)
+  ueber die PV-Anlage — «Differenzial-Null»-Konzept, Minergie-zertifiziert. Lehre: Solarintegration
+  muss architektonisch nicht sichtbar sein, um wirtschaftlich/energetisch zu funktionieren.
+- **Wohnhochhaeuser Sihlweid, Zuerich Leimbach** (Harder Haas Partner AG, Sanierung 2012-2013,
+  Bestand 1976/1978, 60 m/17-19 Geschosse, 167 Wohnungen bewohnt saniert): PV-Fassade mit
+  **amorphen Duennschichtmodulen an allen vier Himmelsrichtungen** (nicht nur Sued) — Nordfassade
+  liefert dank Duennschicht-Eignung fuer schwache/diffuse Einstrahlung noch 13 % des
+  Fassadenertrags. Deckt rund 30 % des Strombedarfs von 167 Wohnungen. Heizwaermebedarf nach
+  Sanierung um 83 % gesenkt bei gleichzeitig +16 % Nettowohnflaeche (Balkone von den Ecken in die
+  Fassadenmitte verschoben → grosszuegigere Kuechen). Reales Beispiel fuer PV-Sanierung im
+  bewohnten Zustand ohne vollstaendige Entmietung.
+- **Mehrfamilienhaus Romanshorn TG** (Viridén + Partner AG, Umbau 2012, Bestand 1962): **erster
+  Umbau eines Mehrfamilienhauses zum Plusenergiehaus in der Schweiz** — Suedwest-/Suedost-Fassade
+  vollstaendig mit PV verkleidet, Modulgroesse/Fugenbreiten an die Bestandsfensterraster angepasst
+  (keine sichtbare Zaesur Alt/Neu). Jaehrlicher Stromueberschuss ca. 6'000 kWh, den Mietern nicht
+  verrechnet. 200'000 CHF Foerdergelder Kt. Thurgau, Investition 7.3 Mio. CHF.
+- **CeRN Bursins VD** (atelier niv-o sa/Ivo Frei, 2004-2007, Autobahn-Unterhaltszentrum A1):
+  **unverglaste schwarze thermische Kollektoren als Suedfassade** (576 m²) fuegen sich ins
+  Landschaftsbild ein; kombiniert mit PV-Dach (191 m²) und einer Holzfeuerung mit
+  Autobahnunterhalts-Schnittgut. Deckt 40 % des Waermebedarfs solar/passiv. Erstes Westschweizer
+  Projekt mit Nachhaltigkeit als Vergabekriterium (1999), CO2-neutral ueber 40-jaehrigen
+  Lebenszyklus gerechnet, Rueckbaumaterial der Vorgaengerbauten als Recyclingbeton/-asphalt
+  wiederverwendet.
+- **Kunstdepot Freiburg i.Br. (D)** (Pfeifer Kuhn Architekten, 2010-2012): PV-Dach deckt den
+  Primaerenergiebedarf des Depots **und** produziert ~20 % Ueberschuss (Passivhausstandard-Huelle,
+  massiver Stahlbeton-/Kalksandsteinkern fuer klimastabile Lagerung lichtempfindlicher Kunstwerke).
+- **3M Italia Headquarters, Pioltello (I)** (Mario Cucinella Architects, 2008-2010): 105 m langer
+  Buerobau mit integrierten PV-Dachpaneelen, Kuehldecken-Klimatisierung und Regenwasser-Recycling;
+  brise-soleil-Fassade zur solaren Kontrolle.
+- **Zwei Plusenergie-Mehrfamilienhaeuser, Flims GR** (Andrea Rüedi, 2011): grossflaechige
+  Solar-Dreifachverglasung an der Suedfassade nutzt Waerme direkt UND speichert sie in Holz-Beton-
+  Verbunddecken (atmende Materialien, kein zusaetzlicher Speicher noetig).
+
+Status **established** fuer die belegten Kennzahlen (Fachzeitschriften-Primaerdaten je Projekt),
+Datenstand 2012 (Dossier-Jahrgang) — bei Zitat als historisches Referenzbeispiel kennzeichnen,
+analog zum Status-Vermerk am Ende von §5.
 
 Status `emerging` (Fachzeitschriften-Publikation mit Primaerdaten je Projekt, aber keine
 JANS-eigene Verifikation der Kennzahlen; Datenstand 2012 — bei Zitat der Modul-/Ertragszahlen als
