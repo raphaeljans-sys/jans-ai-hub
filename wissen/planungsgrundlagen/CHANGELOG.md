@@ -2,6 +2,17 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 — Training Run 75 (Kartenportale + Energie, Token-Vollgas): Frischecheck 0 neue Dateien seit Run 73 (vierte Bestaetigung), MuKEn-ZH-Refresh unveraendert
+Rotation zurueck auf Kartenportale (PL-01) + Energie (PL-04) nach Run 74. Datei-Frischecheck
+(`find -newer` gegen den Run-73-Report-Zeitstempel) fuer beide SharePoint-Ordner: **0 neue oder
+veraenderte Dateien** seit Run 73 — vierte unabhaengige Erschoepfungs-Bestaetigung fuer dieses
+Domaenenpaar. Ergaenzend E5/E9 (MuKEn-2025-ZH-Ueberfuehrung) per WebSearch erneut geprueft —
+weiterhin keine ZH-spezifische Vernehmlassung/Termin auffindbar, kein Delta seit Run 73. D9 und
+M4 bleiben unveraendert offen. Bewusst keine kuenstlichen Zusatzfragen erzeugt. Empfehlung aus
+Run 69-74 (Umstellung dieses Loops auf ereignisgetriebenen Modus statt taeglichem Vollgas) zum
+siebten Mal protokolliert, nicht eigenmaechtig umgesetzt (Taktentscheide bleiben Raphaels
+Entscheid) → `outputs/2026-07-25_training-run75.md`.
+
 ## 2026-07-25 — Training Run 74 (Recht/Norm + Brandschutz, Token-Vollgas): Frischecheck 0 neue Dateien seit Run 72 (sechste Bestaetigung), RPG-2-ZH/BSV-2026-Refresh unveraendert
 Rotation zurueck auf Recht & Norm (PL-02) + Brandschutz (PL-03) nach Run 73. Datei-Frischecheck
 (`find -newer` gegen den Run-72-Report-Zeitstempel) fuer beide SharePoint-Ordner: **0 neue oder

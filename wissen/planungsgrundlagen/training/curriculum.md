@@ -208,6 +208,10 @@ das Ergebnis in den passenden Wiki-Artikel.
   Erschoepfungs-Bestaetigung fuer Kartenportale (Begriffs-Grep Run 9-59, Tiefenscan,
   Dateinamen-Diff Run 67, Frischecheck Run 69, jetzt Frischecheck Run 73). Kein neuer
   Curriculum-Punkt moeglich ohne neues SharePoint-Material.
+- [x] K62-Freshness (Run 75, 2026-07-25, Token-Vollgas) Datei-Frischecheck PL-01 gegen den
+  Zeitstempel von Run 73 (`find -newer`) — **0 neue/veraenderte Dateien**. Sechste unabhaengige
+  Erschoepfungs-Bestaetigung fuer Kartenportale. Kein neuer Curriculum-Punkt moeglich ohne neues
+  SharePoint-Material.
 
 ## Domaene 2 — Energie (PL-04)  · Prioritaet
 - [x] E1 PV-Typenwahl: Entscheidungsbaum (Indach/Ziegel/transparent/Fassade/Aufdach)? (2026-06-06, → [[energie-pv-eignung-typenwahl]])
@@ -334,6 +338,13 @@ das Ergebnis in den passenden Wiki-Artikel.
   nur die allgemeine EnDK-Timeline "Umsetzung bis 2030"; Nebenfund bestaetigt (kein neuer Fakt):
   Volksabstimmung UmV § 49b PBG fand am 14.06.2026 statt (bereits als M3 in QUESTIONS erfasst).
   Unveraendert bestaetigt, n-te Refresh-Bestaetigung seit Run 14. D9 bleibt offen. Fuenfte
+  unabhaengige Erschoepfungs-Bestaetigung fuer Energie.
+- [x] E48-Freshness (Run 75, 2026-07-25, Token-Vollgas) Datei-Frischecheck PL-04 gegen den
+  Zeitstempel von Run 73 — **0 neue/veraenderte Dateien**. E5/E9 erneut per WebSearch geprueft
+  (Suche "MuKEn 2025 Kanton Zuerich Umsetzung Vernehmlassung Energiegesetz") — weiterhin keine
+  ZH-spezifische Vernehmlassung/kein Termin auffindbar, nur die bekannte EnDK-Timeline
+  "Umsetzung bis 2030" und die bereits dokumentierten MuKEn-2025-Kerninhalte (Verbot
+  Widerstandsheizungen, PV-Eigenversorgungspflicht ≥50 m²). D9 bleibt offen. Sechste
   unabhaengige Erschoepfungs-Bestaetigung fuer Energie.
 - [x] E44 (Run 63, 2026-07-25, Token-Vollgas Scout-Fund) Bisher nie gezielt gelesene Datei
   `_Heizwaermebedarf/_Wärmebedarf Warmwasser SIA 380_1.pdf` — liefert sie eine eigene
