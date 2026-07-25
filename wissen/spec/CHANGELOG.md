@@ -1,5 +1,24 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-25 — Trainingslauf 35 (Verifikationslauf)
+- Output `outputs/2026-07-25_training-run35.md`. Keine neue reale Spec seit Lauf 24 (SYN-02);
+  neunter Verifikationslauf in Folge am 25.07.2026.
+- **Taktreduktions-Frage aus Lauf 34 einen Schritt weiter geprüft — jetzt am Artefakt selbst:**
+  die lokale Task-Definition `~/.claude/scheduled-tasks/spec-training/SKILL.md` (mtime 25.07.2026
+  13:18, also nach dem in `rules/auto-verbesserungen.md` behaupteten Umstellungszeitpunkt 12:45)
+  trägt weiterhin wörtlich «1x taeglich (04:10, …)» statt der behaupteten «2x täglich
+  (04:10/16:10)». `RemoteTrigger action: list` liefert HTTP 401 (kein claude.ai-Login in dieser
+  Session) — die serverseitige Registrierungswahrheit bleibt von hier aus nicht einsehbar. Kein
+  neuer QUESTIONS.md-Eintrag: dies ist ein Betriebs-/Scheduling-Befund, keine Methodik-Frage.
+- Environment-Zählstand (49/22/16) unverändert seit Lauf 26 — kein voller Sweep fällig.
+- **Bewusst nicht getan:** kein erfundenes F1-Überdehnungsbeispiel; keine Rule-/Skill-/Wiki-
+  Methodik-Änderung ohne neuen Beleg; kein Eingriff in Runner-Konfiguration, Task-Registry oder
+  die lokale `spec-training/SKILL.md` selbst; kein Mailversand.
+- Offen: F1-Überdehnungs-Gegentest unbelegt; F3 Marketing/Text letzte offene Domänenzeile;
+  UBS-Strecke überfällig; die Diskrepanz zwischen behaupteter 2x/Tag-Umstellung und der
+  weiterhin 1x/Tag lautenden lokalen Task-Definition bleibt Raphael zur Klärung vorgelegt
+  (neunter redundanter Lauf desselben Tages).
+
 ## 2026-07-25 — Trainingslauf 34 (Verifikationslauf)
 - Output `outputs/2026-07-25_training-run34.md`. Keine neue reale Spec seit Lauf 24
   (SYN-02); achter Verifikationslauf in Folge am 25.07.2026.
