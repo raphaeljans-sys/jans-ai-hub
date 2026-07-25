@@ -1,0 +1,29 @@
+{
+  "slug": "Speer_Alfred",
+  "architekt": {
+    "name": "Speer Alfred",
+    "nachname": "Speer",
+    "vorname": "Alfred",
+    "jahre": [],
+    "ordner": "Speer_Alfred"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Speer_Alfred",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 29,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 1,
+    "total": 30
+  },
+  "dateitypen": {
+    ".jpg": 26,
+    ".jpeg": 2,
+    "": 1,
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Speer Alfred",
+  "stand": "2026-07-02T22:49:15"
+}

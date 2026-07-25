@@ -1,0 +1,35 @@
+{
+  "slug": "Radic_Smjlian",
+  "architekt": {
+    "name": "Radic Smjlian",
+    "nachname": "Radic",
+    "vorname": "Smjlian",
+    "jahre": [],
+    "ordner": "Radic_Smjlian"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Radic_Smjlian",
+  "projekte": [
+    {
+      "raw": "Chile Vilches House for the Poem of the Right Angle kitchen",
+      "ort": "Chile Vilches House for the Poem of the Right Angle kitchen",
+      "projekt": "Chile Vilches House for the Poem of the Right Angle kitchen",
+      "jahre": [],
+      "titel": "Chile Vilches House for the Poem of the Right Angle kitchen"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 7,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 8
+  },
+  "dateitypen": {
+    ".png": 7,
+    ".docx": 1
+  },
+  "textauszug": "https://creativehouses.tumblr.com/post/146455480285/house-of-the-poem-for-the-right-angle-in-the https://ar.pinterest.com/pin/445293481936325077/ https://www.apollo-magazine.com/shells-rocks-follies-serpentine-pavilion-2014-responds-well-location/ serpentine pavilion",
+  "embed_doc": "Radic Smjlian | Chile Vilches House for the Poem of the Right Angle kitchen Chile Vilches House for the Poem of the Right Angle kitchen | https://creativehouses.tumblr.com/post/146455480285/house-of-the-poem-for-the-right-angle-in-the https://ar.pinterest.com/pin/445293481936325077/ https://www.apollo-magazine.com/shells-rocks-follies-serpentine-pavilion-2014-responds-well-location/ serpentine pavilion",
+  "stand": "2026-07-02T22:45:30"
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "Kengo_Kuma",
+  "architekt": {
+    "name": "Kengo Kuma",
+    "nachname": "Kengo",
+    "vorname": "Kuma",
+    "jahre": [],
+    "ordner": "Kengo_Kuma"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Kengo_Kuma",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Lotushaus",
+      "ort": "Lotushaus",
+      "projekt": "Lotushaus",
+      "jahre": [],
+      "titel": "Lotushaus"
+    },
+    {
+      "raw": "N74BMS~1",
+      "ort": "N74BMS~1",
+      "projekt": "N74BMS~1",
+      "jahre": [],
+      "titel": "N74BMS~1"
+    },
+    {
+      "raw": "PDF",
+      "ort": "PDF",
+      "projekt": "PDF",
+      "jahre": [],
+      "titel": "PDF"
+    }
+  ],
+  "projekt_anzahl": 4,
+  "inventar": {
+    "bilder": 28,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 1,
+    "total": 30
+  },
+  "dateitypen": {
+    ".jpg": 26,
+    ".png": 2,
+    ".indd": 1,
+    ".pdf": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Kengo Kuma | 00 Architekten | Lotushaus Lotushaus | N74BMS~1 N74BMS~1 | PDF PDF",
+  "stand": "2026-07-02T21:22:18"
+}

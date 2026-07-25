@@ -1,0 +1,27 @@
+{
+  "slug": "Kleihuus",
+  "architekt": {
+    "name": "Kleihuus",
+    "nachname": "Kleihuus",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Kleihuus"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Kleihuus",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 4,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 4
+  },
+  "dateitypen": {
+    ".jpg": 3,
+    ".jpeg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Kleihuus",
+  "stand": "2026-07-02T21:32:25"
+}

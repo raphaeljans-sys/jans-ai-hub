@@ -1,0 +1,50 @@
+{
+  "slug": "Breuer_Marcel",
+  "architekt": {
+    "name": "Breuer Marcel",
+    "nachname": "Breuer",
+    "vorname": "Marcel",
+    "jahre": [],
+    "ordner": "Breuer_Marcel"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Breuer_Marcel",
+  "projekte": [
+    {
+      "raw": "Architektur",
+      "ort": "Architektur",
+      "projekt": "Architektur",
+      "jahre": [],
+      "titel": "Architektur"
+    },
+    {
+      "raw": "Moebeldesign",
+      "ort": "Moebeldesign",
+      "projekt": "Moebeldesign",
+      "jahre": [],
+      "titel": "Moebeldesign"
+    },
+    {
+      "raw": "Rotterdam_Waarenhaus",
+      "ort": "Rotterdam",
+      "projekt": "Waarenhaus",
+      "jahre": [],
+      "titel": "Rotterdam Waarenhaus"
+    }
+  ],
+  "projekt_anzahl": 3,
+  "inventar": {
+    "bilder": 8,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 8
+  },
+  "dateitypen": {
+    ".jpg": 6,
+    ".gif": 1,
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Breuer Marcel | Architektur Architektur | Moebeldesign Moebeldesign | Rotterdam Waarenhaus",
+  "stand": "2026-07-02T21:09:22"
+}

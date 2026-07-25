@@ -1,0 +1,2403 @@
+# Quelle: https://espazium.s3.eu-central-1.amazonaws.com/files/2019-12/jurybericht_alterszentrum_sihlsana_adliswil.pdf (Jurybericht Wohn- und Alterszentrum Adliswil Sihlsana, 2019, 114 Seiten, abgerufen 2026-07-24)
+# Extrakt: pdftotext -layout, 114 Seiten, erstellt 2026-07-24
+
+Sihlsana AG, Adliswil
+
+
+Neubau Wohn-
+und Alterszentrum
+Bericht des Preisgerichts zum selektiven Projektwettbewerb
+Zürich, 25. Juli 2019
+Impressum
+
+Auftraggeberin
+Sihlsana AG
+Badstrasse 4, 8143 Adliswil
+
+Organisation und Begleitung
+Planwerkstadt AG
+Raumplanung · Prozesse · Städtebau
+Binzstrasse 39, CH-8045 Zürich
+www.planwerkstadt.ch
++41 (0)44 456 20 10
+
+Fotos
+Juliet Haller
+
+Schrägbilder
+Sario Haladjian
+
+Modellfotos
+S+K Werbefotografie AG, Zürich
+
+Titelbild
+Projekt Nr. 2 SOPHIE, Visualisierung, Schmidlin Architekten ETH SIA, Zürich
+
+Dokument
+10197_20_190725_Bericht_PG.indd
+Inhaltsverzeichnis
+
+1   Einleitung                 4
+
+2   Verfahren                  6
+
+3   Strategie und Zielgruppe   10
+
+4   Aufgabenstellung           12
+
+5   Beurteilungskriterien      14
+
+6   Vorprüfung                 15
+
+7   Beurteilung                16
+
+8   Würdigung und Dank         21
+
+9   Genehmigung                22
+
+10 Wettbewerbsbeiträge         23
+                                 1 Einleitung
+
+                                 Nahe am Stadtzentrum von Adliswil und inmitten von Grün und grossen Bäumen liegt das
+                                 Pflegezentrum der Sihlsana AG. Hier befinden sich auch die Pflegewohngruppe Tal und die
+                                 Alterssiedlung in schön gelegener Umgebung.
+                                    Die Stadt Adliswil hat 2015 ihre Alters- und Pflegeeinrichtungen an die von ihr gehal-
+                                 tene Sihlsana AG ausgelagert. Sie hat den Zweck, attraktive, zeitgemässe und erschwing-
+                                 liche Wohnformen und Pflegeangebote für die älteren Menschen aus Adliswil anzubieten.
+                                    Kernstück der strategischen Entwicklung der Sihlsana AG ist es, die bestehenden Ge-
+                                 bäude – das Pflegezentrum und die Alterssiedlung an der Badstrasse Adliswil – durch eine
+                                 adäquate neue Infrastruktur zu ersetzen und damit die aktuellen und künftigen Anforde-
+                                 rungen an das Wohnen im Alter zu erfüllen. Als Grundlage für die Entwicklung des Areals
+                                 wurde 2012 eine Standortstrategie erarbeitet, welche 2017 mittels Machbarkeitsstudie ver-
+                                 tieft wurde. Weiter verfügt die Sihlsana AG über eine umfassende Markt- und Angebots-
+                                 strategie aus den Jahren 2016/17. Im Rahmen des selektiven Projektwettbewerbs wurden
+                                 die Leistungen zur Planung und Realisierung des Neubauprojekts ausgeschrieben.
+
+                                 Sihlsana AG
+                                 Die Sihlsana AG wurde 2015 nach einem Entscheid der Stimmbevölkerung gegründet.
+                                 Grundlage für die Aufgabenerfüllung ist ein Leistungsauftrag der Stadt Adliswil für den Be-
+                                 trieb von mindestens 125 Pflegeplätzen sowie die Bereitstellung einer grösseren Zahl von
+                                 Alterswohnungen im niedrigen Preissegment.
+                                    Die Stadt Adliswil ist derzeit alleinige Eigentümerin der Sihlsana AG. Über die Art der Auf-
+Abb. 1
+Übersichsplan
+                                 tragserfüllung und die strategische Weiterentwicklung der Sihlsana AG befindet der Ver-
+Stadt Adliswil mit               waltungsrat, worin die Stadt mit einer Person vertreten ist.
+Wettbewerbs-
+perimeter
+
+
+
+
+4       Bericht des Preisgerichts zum selektiven Projektwettbewerb | Sihlsana AG Adliswil
+                                           Badstrasse
+                         Pflegezentrum
+
+
+
+
+                          Wohnen am Bad
+
+                   Pflegewohngruppe Tal
+
+
+
+
+                               Alterssiedlung im Tal
+
+
+
+
+                                                                                                                           Abb. 2
+Ziele und Baustrategie                                                                                                     Luftbild
+                                                                                                                    Planungsgebiet
+Die Sihlsana AG beabsichtigt die Realisierung eines zeitgemässen Pflegezentrums entspre-
+chend den derzeitigen und absehbaren Bedürfnissen älterer Menschen. Der Neubau soll
+ein Cluster von verschiedenen Wohnformen bilden. Dabei soll die Versorgungskette breit
+abgedeckt werden: von der niederschwelligen Alterswohnung bis hin zum spezialisierten
+Pflegeplatz für Menschen mit Demenz und anderen altersbedingten Krankheitsbildern. Im
+Fokus steht dabei, die Eigenständigkeit der Bewohnenden entsprechend ihrer Lebenssitua-
+tion und Unterstützungsbedürftigkeit zu fördern, wozu die Infrastruktur einen wesentlichen
+Beitrag liefert. Die Auseinandersetzung mit den verschiedenen Wohnformen und deren ad-
+äquate Umsetzung durch die Planungsteams waren zentrale Elemente des Wettbewerbs.
+   Die Baustrategie sieht einen etappierten Ersatzneubau an Stelle der bestehenden Al-
+terssiedlung im Tal vor. In einer ersten Etappe ist neben der Alterssiedlung, im Bereich der
+bestehenden Tennisanlage, ein eigenständiger Bau mit Alterwohnungen zu realisieren. In
+einer zweiten Etappe wird der bestehende Bau durch ein neues Pflegezentrum mit Pflege-
+plätzen und Pflegestudios ersetzt. Die drei Wohnformen sind logistisch miteinander verbun-
+den, weisen aber je auch eine eigene Adresse auf. Das etappierte Vorgehen ermöglicht es,
+den Betrieb während der gesamten Bauzeit aufrechtzuerhalten.
+
+
+
+
+                                                                      Planwerkstadt AG | Raumplanung · Prozesse · Städtebau      5
+                             2 Verfahren
+
+                             Auftraggeberin
+                             Auftraggeberin des Projektwettbewerbs war die Sihlsana AG, Adliswil.
+
+                             Verfahren
+                             Zur Erlangung eines Projekts für den Neubau eines Wohn- und Alterszentrums führte die
+                             Sihlsana AG einen Planungswettbewerb im selektiven Verfahren durch. Das Wettbewerbs-
+                             verfahren untersteht dem WTO-Übereinkommen über das öffentliche Beschaffungswe-
+                             sen und dem Binnenmarktgesetz und wird gemäss Art. 12 Abs. 3 der interkantonalen Ver-
+                             einbarung über das öffentliche Beschaffungswesen (IVöB) durchgeführt. Subsidiär gilt die
+                             SIA-Ordnung 142 für Architektur- und Inge­nieurwettbewerbe, Ausgabe 2009. Die Verfah-
+                             renssprache ist ausschliesslich Deutsch.
+
+                             Organisation und Begleitung
+                             Die Organisation und Begleitung des Projektwettbewerbs sowie die Vorprüfung der Projek-
+                             teingaben erfolgte durch die Planwerkstadt AG, Zürich.
+
+                             Teilnahmeberechtigung
+                             Teilnahmeberechtigt am Projektwettbewerb waren die im Rahmen des Präqualifikations-
+                             verfahrens selektionierten Planungsteams zusammengesetzt aus den beiden Fachdiszipli-
+                             nen Architektur und Landschaftsarchitektur. Die Vervollständigung der Planungsteams mit
+                             den weiteren notwendigen Fachdisziplinen erfolgte bis zum Start des Projektwettbewerbs.
+
+                             • Architektur (Federführung)
+                             • Landschaftsarchitektur
+                             • Baumanagement (kann durch das Architekturbüro angeboten werden)
+                             • Bauingenieurwesen
+                             • Bauphysik / Akustik
+                             • Gebäudetechnik (HLKSE/MSRL)
+                             • Weitere Fachpersonen nach Bedarf
+
+                             Am Präqualifikationsverfahren nahmen 60 Teams teil. Elf Teams bewarben sich als Jung-
+                             team, Kriterium dafür war das Gründungsjahr nach 2013 bei beiden Teammitgliedern. Das
+                             Preisgericht beurteilte die Bewerbungen anhand der beiden Eignungskriterien «Firmenre-
+                             ferenzen» und «Ressourcen».
+                                Nach eingehender Prüfung der Bewerbungsunterlagen wurden zehn Planungsteams,
+                             davon zwei Jungteams selektoniert. Weiter wurden drei Teams als Ersatz gewählt, davon
+                             ein Jungteam. Nach Absage eines Jungteams kam das Jungteam auf dem Ersatzplatz zum
+                             Zuge.
+
+
+
+
+6   Bericht des Preisgerichts zum selektiven Projektwettbewerb | Sihlsana AG Adliswil
+Preisgericht
+
+  Fachpreisrichterinnen und Fachpreisrichter
+
+  Lorenzo Giuliani             Dipl. Architekt ETH/SIA/BSA, Zürich (Vorsitz)
+
+  Roger Boltshauser            Dipl. Architekt ETH/SIA/BSA, Zürich
+
+  Rita Illien                  Dipl. Landschaftsarchitektin HTL/BSLA/SIA, Zürich
+
+  Felix Bohn                   Alters- und demenzgerechtes Bauen und Wohnen, Zürich
+
+  Anne Kaestle                 Dipl. Ing. Architektin SIA/BDA, Zürich (Ersatz)
+
+  Sachpreisrichterinnen und Sachpreisrichter
+
+  Susy Senn                    Verwaltungsrätin Sihlsana AG, Stadträtin, Adliswil
+
+  Beatrice Biotti              Geschäftsführerin Sihlsana AG, Adliswil
+
+  Harald Huber                 Harald Huber Consulting, Adliswil
+
+  Thomas Rohrer                Verwaltungsrat Sihlsana AG, Adliswil (Ersatz)
+
+
+
+Die Empfehlung zur Weiterbearbeitung erfolgt einstimmig oder wenn eine Mehrheit der
+Personen mit Stimmrecht für ein Projekt gefunden wird. Bei jeder Abstimmung des Preisge-
+richts muss das gleichmässige Stimmverhältnis zwischen Fach- und Sachpreisgericht ge-
+wahrt werden.
+
+
+  Experten ohne Stimmrecht
+
+  Beat Fellmann                Experte Wohnen im Alter, Präsident Verwaltungsrat Sihlsana AG
+
+  Thomas Vonrufs               Experte Baurecht, Ressorleiter Bau und Planung, Stadt Adliswil
+
+  Maurus Jäger                 Experte Kostenplanung, Jäger Baumanagement AG, Zürich
+
+  Jörg Lamster                 Experte Energie/Nachhaltigkeit, Durable GmbH, Zürich
+
+  Patrick Maurer               Experte Brandschutz, ProteQ GmbH, Schaffhausen
+
+
+
+
+                                                                            Planwerkstadt AG | Raumplanung · Prozesse · Städtebau   7
+                                Ablauf und Termine
+
+                                    Anlass                                                 Termine
+
+                                    Publikation Programm Präqualifikation                  5. Oktober 2018
+
+                                    Abgabe Bewerbung                                       21. November 2018
+
+                                    Mitteilung Entscheid Präqualifikation                  18. Dezember 2018
+
+                                    Startveranstaltung                                     16. Januar 2019
+
+                                    Einreichung Fragen                                     24. Januar 2019
+
+                                    Beantwortung Fragen                                    8. Februar 2019
+
+                                    Abgabe Pläne                                           17. April 2019
+
+                                    Abgabe Modell                                          10. Mai 2019
+
+                                    Beurteilung                                            20. Juni / 9. Juli 2019
+
+                                    Mitteilung Entscheid                                   15. Juli 2019
+Abb. 3
+Weg zwischen
+PWG Tal und der
+zu ersetzenden
+Alterssiedlung
+
+
+
+
+8      Bericht des Preisgerichts zum selektiven Projektwettbewerb | Sihlsana AG Adliswil
+                                Abb. 4
+                                Badstrasse (Blick
+                                Richtung Süden)
+
+
+
+
+                                Abb. 5
+                                Asylweg (Blick
+                                Richtung Süden)
+
+
+
+
+Planwerkstadt AG | Raumplanung · Prozesse · Städtebau   9
+                              3 Strategie und Zielgruppe
+
+                              Die Pflegebranche ist seit einigen Jahren in einem Umbruch und erlebt gerade eine be-
+                              schleunigte Veränderung des Bewohnerverhaltens. Anstelle der traditionellen Altersheime
+                              sind verschiedene Wohnformen für das Alter entstanden: niederschwellige Wohnformen
+                              wie Wohnen mit Dienstleistungen und betreutes Wohnen auf der einen Seite, spezialisierte
+                              Pflege für Menschen mit Demenz oder anderen Alterserkrankungen auf der anderen Seite.
+                              Bekannt ist auch, dass Menschen länger zuhause wohnen, begünstigt durch die Reaktion
+                              der Immobilienwirtschaft auf den demographischen Wandel, vor allem aber durch ambu-
+                              lante Dienstleister (Spitex etc.).
+                                 Neu ist das Phänomen der kurzen Aufenthalte. Die Zahl der Menschen mit kurzer Verweil-
+                              dauer, mit vorübergehendem Aufenthalt oder mit Eintritt als Folge eines Spitalaufenthalts
+                              hat gegenüber füheren Jahren nochmals deutlich zugenommen. Der Aufenthalt in einem
+                              Heim ist längst nicht mehr nur Aufenthaltsort für die letzte Lebensphase. Vielmehr kehren
+                              viele Personen nach einem vorübergehenden Aufenthalt wieder nach Hause zurück. Die
+                              Zeit im Heim wird dazu genutzt, sich dank vorübergehender pflegerischer Unterstützung
+                              von einer Krankheit, einem Spitalaufenthalt oder einer anderweitigen schwierigen Situa-
+                              tion zu erholen. Mit gezielter betreuerischer und therapeutischer Unterstützung kann die
+                              Bewahrung oder Wiederherstellung einer eigenständigen Lebensform während eines vor-
+                              übergehenden Aufenthalts auch aktiv unterstützt werden.
+                                 Aus dieser Entwicklung ergibt sich für die Betreibenden von Altersinstitutionen die Stra-
+                              tegie der integrierten Versorgung: Es werden Wohnformen und Dienstleistungen entlang
+                              einer weitgreifenden Versorgungskette angeboten. Geplant wird deshalb das Nebenein-
+                              ander verschiedener Wohnformen, die sich gegenseitig ergänzen. Dabei soll insbesondere
+                              der Tatsache Rechnung getragen werden, dass für viele Betagte nicht die Pflege im Vorder-
+                              grund steht, sondern die Nähe zur Infrastruktur des Heims. Pflegenahes betreutes Wohnen
+                              und Wohnen mit Dienstleistungen haben deshalb einen hohen Stellenwert.
+                                 Die Sihlsana AG wird sich künftig nicht darauf beschränken können, lediglich Betreiberin
+                              eines Alterszentrums zu sein, sondern will umfassende Lösungen für Menschen mit unter-
+                              schiedlichen Bedürfnissen im Alter anbieten. So vielfältig die Lebensumstände sein mögen,
+                              so breit muss die Sihlsana AG ihr künftiges Angebot gestalten: von der spezialisierten Pflege
+                              für Menschen mit Demenzerkrankungen bis hin zur situationsgerechten Unterstützung in al-
+                              terstauglichen Wohnungen für ältere Menschen mit wenig oder gar keinem Pflegebedarf.
+                                 Hinsichtlich des Neubaus und der Zielgruppen heisst dies: Alle Menschen, die altersbe-
+                              dingt vorübergehend oder dauerhaft nicht mehr im angestammten Zuhause wohnen kön-
+                              nen, finden bei der Sihlsana AG einen geeigneten Wohnort. Dabei spielt es keine Rolle, ob
+                              jemand pflegebedürftig ist oder primär von der Nähe zu einer Institution profitiert. Im Ideal­
+                              fall soll dies dazu führen, dass der einmal gewählte Wohnort bis ans Lebensende beibehal-
+                              ten werden kann.
+                                 Das Angebot der Sihlsana AG richtet sich sodann vornehmlich an die Bevölkerung aus
+                              Adliswil und Umgebung. Es deckt primär die Grundversorgung ab und erstreckt sich na-
+                              mentlich auf Menschen mit geringem Renteneinkommen und Ergänzungsleistung.
+
+
+
+
+10   Bericht des Preisgerichts zum selektiven Projektwettbewerb | Sihlsana AG Adliswil
+                                                         Abb. 6
+                                               Sicht auf die Al-
+                                                 biskette (Rich-
+                                                   tung Süden)
+
+
+
+
+                                Abb. 7
+                                Sicht nach Kilch-
+                                berg (Richtung
+                                Osten)
+
+
+
+
+Planwerkstadt AG | Raumplanung · Prozesse · Städtebau        11
+                              4 Aufgabenstellung
+
+                              Wettbewerbsperimeter
+                              Der Perimeter des Wettbewerbs umfasst die Parzelle 6769 sowie Teile der Parzellen 8398
+                              und 8378. Die gesamte Fläche von rund 12‘100 m2 ist im Besitz der Stadt Adliswil. Westlich
+                              wird das Areal vom Asylweg begrenzt. Im Osten liegt die städtische Sportanlage Tal. Die
+                              Tennisanlage im Süden ist in privatem Besitz. Das Pflegezentrum und die Pflegewohngrup-
+                              pen nördlich des Perimeters werden von der Sihlsana AG betrieben. Die Siedlung «Wohnen
+                              am Bad» gehört der Stiftung für Altersbauten in Adliswil (SABA) an.
+
+                              Verschiedene Wohnformen
+                              Das Projekt vereint verschieden Wohnformen für Menschen mit unterschiedlichen Le-
+                              bensumständen und Biographien. Ziel ist es, damit einen Lebensraum zu begründen
+                              für Menschen, die auf Pflege und Betreuung angewiesen sind oder dank der Nähe zum
+                              Pflege­zentrum weiterhin eigenständig wohnen können. Aufgrund der unterschiedlichen
+                              Wohnanforderung dieser Menschen sind jeweils separate Adressen, ausgehend vom ver-
+                              bindenden «Quartierzentrum», zentrales Element des Wohn- und Lebenskonzept und der
+                              Versorgungskette.
+
+                              Raumprogramm und Etappierung
+                              Der Neubau des Wohn- und Alterszentrums soll in zwei Etappen erfolgen. Das etappierte
+                              Vorgehen ermöglicht es, den Betrieb während der gesamten Bauzeit aufrechtzuerhalten.
+                                 In einer ersten Etappe ist neben der Alterssiedlung, im Bereich der bestehenden Tennis-
+                              anlage, ein eigenständiger Bau für Wohnen mit Dienstleistungen (Alterswohnungen) zu re-
+                              alisieren.
+                                 Die zweite Etappe umfasst den Abbruch der bestehenden Alterssiedlung im Tal und den
+                              Bau eines neuen Pflegezentrums. Darin werden die klassische Alterspflege und das Wohnen
+                              mit Demenz wie auch das pflegenahe betreute Wohnen (Pflegestudios) angeboten. Aus-
+                              serdem wird die Restauration ein wichtiger Bestandteil des Pflegezentrums sein.
+
+                              • 60 Alterswohnungen
+                                –– 10 2-Zimmer-Wohnungen
+                                –– 40 2.5-Zimmer-Wohnungen
+                                –– 10 3.5-Zimmer-Wohnungen
+                              • 136 Pflegeplätze
+                                –– 36 Pflegeplätze für Menschen mit Demenz
+                                –– 60 Pflegeplätze für Menschen mit höherem Pflegebedarf (klassische Alterspflege)
+                                –– 40 Pflegeplätze für Menschen mit geringem Pflegebedarf (Pflegestudios)
+                              • 8 Ruheplätze für Tagesgäste
+                              • Weitere Räumlichkeiten
+                                –– Empfang, Verwaltung, Personal
+                                –– Aktivierung, Therapie
+                                –– Restauration, Gastronomie, Küche
+
+                              Freiraum
+                              Die Anlage ist als eine öffentlich zugängliche und durchlässige Anlage zu verstehen. Gene-
+                              rell sollen die Aussenbereiche einladend, auch für geh- und sehbehinderte Menschen zu-
+                              gänglich und abwechslungsreich gestaltet sein. Definierte Bereiche des Aussenraums sollen
+
+
+12   Bericht des Preisgerichts zum selektiven Projektwettbewerb | Sihlsana AG Adliswil
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                           5082
+                                                                   eg
+                                                              Asylw
+                                                                                       1629                                                                                                                                                                                                                                                                                                            6133
+
+                                                                                                                                                    2749
+               2947
+                                                                                             1630
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              6767
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          5
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                               Chr‰
+                                                                                                                                                                                                                  1195                                                                                                                                                                                                                 bsba                                                                                                                                   616
+                                                                                                                                                                                                                                                                                                                                                                                                                                               ch
+                                                                                                                                                                                                                                  heim
+                                                                                                                                                                                                             Alters- u. Pflege
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  220
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     9
+                                                                                                                                                                                                           1607
+
+
+
+
+                                                                                                                                                                                                                  Pflegezentrum
+                                                                                                                                                                                                                                                                                                                                                                                                                         68
+                                                                                                                                                                                                                                                                                                                                                                                                                           3                                                                                                                                                                Abb. 8
+                                                                                                                                                                                                                  7917
+                                                                                                                                                                                                                                                               4
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Wettbewerbspe-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             2843
+                                                                                                                                                               6133
+                                                                                                                                                                                                                                                                                                                                                                                                                                       2841
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                6
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            rimeter (Kontur)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           271
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              5
+                                                                                                                                                                                                                                                                                                                                                                                                                       «Wohnen am Bad»                                                                                                                                                      mit Perimeter für
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             Badstrasse
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Badstrasse
+                                                                                                                                                                                                                                                                                                                                      6767
+                                                                                                                                                                                                                                                                                                                                                                  5
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Neubau (Schraf-
+1195                                                                                                                                                                                                                     119
+                                                                                                                                                                                                                            8
+                                                                                                                                                                                                                                                                                                                                                                        616
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            fur)
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             8378
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              8378
+
+                                                                                                                                                                                                                                                                                                                                                                                                           8377
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        6a
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                  6768
+7917
+                                                                                                                                                                                           2841                                                                 2843
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                             2
+                                                                                                                                                                                                             6                                                                                                                                                                                                                                           271               28
+                                                                                                                                                                                                                                                                                                                                                                                                                                                            5                 4
+
+                                                                                                                                                                               «Wohnen am Bad»                                                                                                                                                                                                                                                            PWG Tal
+
+
+                                                                                                                                                                                                                                                                                                                    Badstrasse
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         8398
+                                                                                                                                                                                                                                                                                                                        Badstrasse
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    Pflegewohngruppen
+
+
+         98
+       11
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                Sportanlage Tal
+                                                                                                                                                                                                                                                                                                                                                                                                                                                     43
+
+                                                                                                                                                                                                                                                                                                                    8378
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    28
+                                                                                                                                                                                                                                                                                                                     8378
+
+                                                                                                                                                                   8377
+
+
+                                                                                                                                                                                                                                                     6a
+
+
+                                                                                                                                                                          6768
+                                                                                                                                                                                                                                                                                                                                      3108
+                                                                                                                                                                                                                           2
+                                                                                                                                                                                                                         28
+                                                                                                                                                                                                                            4
+
+                                                                                                                                                                                                         PWG Tal
+                                                                                                                                                                                                   Pflegewohngruppen                                                                                                                                                                                                                                8398
+                                                                                                                                                                                                                                                                       1162                     16
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                           1161    14
+
+
+
+                                                                                                                                                                                                                                          3109
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Sportanlage Tal
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       8
+                                                                                                                                                                                                      43
+                                                                                                                                                                                                   28
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              g im
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       lun
+                                                                                                                                                                                                                                                                                                     3107
+                                                                                                                                                                                                                                                                                                                                                                                              5213
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             sied
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           g im
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      AltersAlterss
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  80
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    iedlun
+                                                                                                                                                                                                                                       18                                                                                                                                                                                                                                                      2191
+                                                                                                                                                                                                                          1159
+
+                                                                                                3108                                                                                                                                                                                                               1158              20a          1157       20
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   Tal
+                                                                                                                                                                                                                                                     3105
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  n.v.
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 Tal
+
+                                                                                                                                                                                                                                                                                                                                                                                                        ylwegeg
+                                                                                                                                                                                                                                                                                                                                                                                                     AsAsy
+                                                                                                                                                                                                                                                                                                                                                                         3103
+                                                 1162     16
+
+                                                                                                                                                                                                                                                                                                            3104
+                                                                                                     1161    14
+                                                                                                                                                                                                                                                                                      n.v.
+                            3109                                                                                                                                                                                                                                                                                                                                       2568
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                6769
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                 6769
+                                                                                                                                                                                                                                                                                                       8
+                                                                                                                                                                                                                                                                                                                                                                      2567
+
+                                                                                                                                                                                                                                                                             1153
+                                                                                                                                                                                                                                  1154                                                                  1152
+
+
+
+
+                                                                                                                                                                                                                                                                                 siedlun
+                                                                        3107
+
+
+
+
+                                                                                                                                                                                                                                                                          AltersAlterss
+                                                                                                                                                      5213
+                                                                                                                                                                                                                                      5
+                                                                                                                                                                                                                                                          7
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     80
+                                                                                                                                                                                                                                                                                                                                           1152                       1151               22
+
+
+
+
+                                                                                                                                                                                                                                                                               iedlung im Tal
+                                                                                                                                                                                                                                                                   2191                                                                      9
+            1159        18
+                                                                                                                                                                                                                   3100
+
+
+
+
+                                                                                                                                                                                                                                                                              g im Tal
+                                                                                      1158     20a          1157       20                                                                                                                                     3099
+                                     3105                                                                                                                                                                                                                                                                           3098                                                                                                        n.v.
+                                                                                                                                                                                                                                                                                                                                                                        3097                                                                                    n.v.
+                                                                                                                                                                                                                                                                                                                                                                                              2918
+
+
+                                                                                                                                                                ylwegeg
+                                                                                                                                                             AsAsy
+                                                                                                                               3103
+                                                                               3104                                                                                                                                 5298
+                                                                                                                                                                                                                                                                                                                                                                                                                                           7685
+                                                        n.v.
+                                                                                                                             2568
+                                                                                                                                                                                                             6769
+                                                                                                                                                                                                              6769
+                                                                                                                                                                                                                                                      3014
+                                                                                                                            2567
+                                                                                                                                                                                                                                                                                       20
+
+
+                    1154
+                                                  1153
+                                                                           1152
+                                                                                                                                                                                                                                                                                                                                                        22                                                                                26
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     Tennisanlage
+                                                                                                                                                                                                                                                                              1139
+                                                                                                                                                                                                                                                                                                                                                    1137                            24                                                  1343
+                        5                                                                                                                                                                                                                                                                                                                                                    1138
+                                                                                                                                                                                                                                 3015
+                                      7                                                                                                                                                                                                                                             20a
+
+
+                                                                                                     1152                   1151               22                                                                                                                      1140
+
+
+                                                                                                       9
+ 3100                                                                                                                                                                                                                                                                                                                                                                                                                              7686
+                                          3099                                                                                                                                                                                                                                                                                  3011
+                                                                                      3098
+                                                                                                                              3097
+                                                                                                                                                                                    n.v.
+                                                                                                                                                                                                                                                                   3013     Stadt Adliswil, Sihlsana AG 3010
+                                                                                                                                                     2918
+                                                                                                                                                                                                                                                                                             2867
+                                                                                                                                                                                                                                                                            Neubau Wohn- und Alterszentrum
+  5298                                                                                                                                                                                                                           18
+                                                                                                                                                                                               7685                                                                         3012
+                                                                                                                                                                                                                               1142
+                                                                                                                                                                                                                                                                            Wettbewerbsperimeter                        3009                                                                                 Asylweg
+                                                                                                                                                                                                                                                                                                                                                                       1135
+                                      3014                                                                                                                                                                                                                                                                                                                                          26
+
+
+
+
+                                                        20
+                                                                                                                                                                                                                                                                            1:1000                                                                                                                                                                                     N                                                                                                                                                 Wettbewerbsperimeter
+                                                                                                                  22                                                                          26
+                                                                                                                                                                                                                                                                                                                                                  Tennisanlage
+                                                   1139                                                                                                                                                                                                                                                                                                                  1136
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    0                                                       20                                      40 m
+                                                                                                                                                                                                                                                                                                                                                                                         28
+
+
+
+
+               3015                                     20a
+                                                                                                              1137
+                                                                                                                                   1138
+                                                                                                                                          24                                                1343
+                                                                                                                                                                                                                                                 2716                       9. Mai 2018 3008                                                                                                                                                                                                                                                                                                                             Perimeter für Neubau
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       n.v.
+
+
+                                                 1140
+
+
+
+                                                                                                                                                                                       7686                                           4532
+                                                                                              3011
+                                             3013 Stadt Adliswil, 2867
+                                                                 Sihlsana AG 3010                                                                                                                                                                                                                     4533
+
+
+
+                   18
+                                          den Bewohnenden nach Wunsch Ruhe und Privatsphäre bieten. Andere, geeignete Aussen-
+                                                  Neubau Wohn- und Alterszentrum
+
+
+                                          bereiche sind aber auch für die Quartierbevölkerung attraktiv und zugänglich zu machen.
+                                                  3012
+             1142
+                                            Wettbewerbsperimeter                        3009                                                                         Asylweg
+                                                                                                                             1135
+                                                                                                                                          26
+
+
+
+
+                                          Für die Demenzwohnbereiche Nist ein grosszügiger, geschützter Aussenbereich     vorzusehen.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           6749
+                                            1:1000                                                            Wettbewerbsperimeter
+                                                                                                                               1136
+                                                                                                                                                                                                                                                 0                                                                 20                                                                         40 m
+                                                                                                                                               28
+
+
+                                   2716           9. Mai 2018 3008                                                                                                                                                                                                                                                                                                                                                                                                                Perimeter für Neubau                               n.v.
+
+
+
+
+                    4532
+                                          Wegenetz
+                                                                         4533
+
+                                          Das Wegenetz ist hindernisfrei zu planen und zu gestalten. Es soll so aufgebaut sein, dass
+                                          unterschiedliche Spazierrunden möglich sind. Diese könnten sich beispielsweise auch the-
+                                          matisch unterscheiden. Stereotypen wie reine Rundgänge ohne Wegalternativen sind zu
+                                          vermeiden.
+
+                                          Ökologische und energetische Nachhaltigkeit
+                                          Die Sihlsana AG beabsichtigt die Erfüllung der 2000-Watt-Anforderungen an die Gebäude.
+                                          Das soll mit der Anwendung des SIA 2040:2017 Effizienzpfades Energie sichergestellt wer-
+                                          den. Dafür sind ökologische und energetische Lösungsansätze gefragt, die die baulichen
+                                          und technischen Systeme der Gebäude als System betrachten.
+
+                                          Wirtschaftlichkeit
+                                          Der Wirtschaftlichkeit des Neubauprojektes in Erstellung und Betrieb ist eine zentrale Be-
+                                          deutung beizumessen. Dem Aspekt der knapp bemessenen Wirtschaftlichkeit ist Rech-
+                                          nung zu tragen. Optimierte Lebenszykluskosten sind wesentlich. Das Kostenziel liegt bei
+                                          CHF 73 Mio.
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Planwerkstadt AG | Raumplanung · Prozesse · Städtebau                                                                                             13
+                              5 Beurteilungskriterien
+
+                              Die eingereichten Arbeiten wurden nach folgenden Kriterien beurteilt:
+
+                              Städtebau, Architektur, Freiraum
+                              • Einbindung in den städtebaulichen Kontext
+                              • Architektonische Qualität und Ausdruck
+                              • Landschaftsarchitektonische Qualität der Freiräume
+                              • Erschliessung und Adressbildung
+
+                              Funktionalität
+                              • Nutzungs- und Wohnqualität der Pflegebereiche und Wohnungen
+                              • Nutzungsqualität der Aussenbereiche
+                              • Gebrauchswert der Anlage
+                              • Einhaltung Raumprogramm und betriebliche Anliegen
+
+                              Wirtschaftlichkeit
+                              • Kostengünstige Erstellungs-, Betriebs- und Unterhaltskosten
+                              • Geordnete, effiziente Gebäudelayouts (Statik/Leitungsführung/Technik)
+
+                              Insgesamt galt es, ein Optimum aller Faktoren zu erreichen. Die Reihenfolge der Kriterien
+                              stellt keine Gewichtung dar. Das Preisgericht gab für die eingereichten Vorschläge eine Ge-
+                              samtbewertung ab.
+
+
+
+
+14   Bericht des Preisgerichts zum selektiven Projektwettbewerb | Sihlsana AG Adliswil
+6 Vorprüfung
+
+Die Vorprüfung der zehn Projekteingaben wurde durch die Verfahrensbegleitung und die
+Experten ohne Stimmrecht vorgenommen. Die Ergebnisse wurden im Vorprüfungsbericht
+vom 17. Juni 2019 zuhanden des Preisgerichts festgehalten. Massgebliche Grundlagen wa-
+ren das Programm zum Projektwettbewerb vom 10. Dezember 2018 sowie die Fragenbe-
+antwortung vom 8. Februar 2019. Im Fokus der Vorprüfung standen folgende Themen:
+
+• Formelle Vorprüfung
+• Wohnen im Alter
+• Baurecht
+• Kostenplanung
+• Nachhaltigkeit
+• Brandschutz
+• Raumprogramm
+• Freiraum und Erschliessung
+
+Alle zehn Projekteingaben wurden fristgerecht eingereicht. Die Unterlagen und Projekt-
+darstellungen waren mehrheitlich vollständig und somit alle beurteilbar. Mit der materiel-
+len Vorprüfung wurden bei allen Projekteingaben kleinere Mängel festgestellt. Ein Projekt
+wies einen wesentlichen Verstoss gegenüber dem Raumprogramm auf:
+
+• Nr. 8 PAUL & PAULA: Das Projekt umfasst statt 40 nur 20 Pflegestudios.
+
+Am ersten Beurteilungstag wurden drei Projekte für die Rangierung und Preiserteilung aus-
+gewählt. Vorgängig zum zweiten Beurteilungstag fand eine vertiefte Vorprüfung der drei
+Projekte für folgende Themen statt:
+
+• Wohnen im Alter (Funktionalität, Aufenthaltsqualität)
+• Baurecht (Terrainveränderungen)
+• Brandschutz
+• Erschliessung
+
+
+
+
+                                                                    Planwerkstadt AG | Raumplanung · Prozesse · Städtebau   15
+                              7 Beurteilung
+
+                              Beurteilungstag 1
+                              Am 20. Juni 2019 fand der erste Beurteilungstag statt. Nach der Kenntnisnahme der Ergeb-
+                              nisse der Vorprüfung wurden alle zehn Projekteingaben zur Beurteilung zugelassen. Auf-
+                              grund eines wesentlichen materiellen Verstosses wurde ein Projekt von der Preiserteilung
+                              ausgeschlossen:
+
+                              • Nr. 8 PAUL & PAULA (statt 40 nur 20 Pflegestudios)
+
+                              Nach dem Studium wurden die Projekte durch das Preisgericht eingehend analysiert und
+                              diskutiert sowie anhand der im Programm formulierten Beurteilungskriterien beurteilt. In
+                              zwei Wertungsrundgängen und einem Kontrollrundgang wurden sieben Projekte ausge-
+                              schieden und drei Projekte für die engere Wahl bestimmt.
+
+                              Im ersten Wertungsrundgang wurden folgende Projekte ausgeschieden:
+
+                              • Nr. 1 Dreiblatt
+                              • Nr. 5 P.M.
+                              • Nr. 7 Aronia
+
+                              Im zweiten Wertungsrundgang wurden folgende Projekte ausgeschieden:
+
+                              • Nr. 3 Semiramis
+                              • Nr. 4 Katsura
+                              • Nr. 6 Milou
+                              • Nr. 8 PAUL & PAULA
+
+                              Während des Kontrollrundgangs wurden keine Rückkommensanträge gestellt. Die engere
+                              Wahl umfasste folgende Projekte:
+
+                              • Nr. 2 SOPHIE
+                              • Nr. 9 Un‘ altra vita
+                              • Nr. 10 COLLIER
+
+                              Beurteilungstag 2
+                              Der zweite Beurteilungstag fand am 9. Juli 2019 statt. Nach der Kenntnisnahme der Er-
+                              gebnisse der vertieften Vorprüfung und dem Verlesen der Projektbeschriebe wurde in ei-
+                              nem dritten Wertungsrundgang die verbleibenden drei Projekte nochmals eingehend dis-
+                              kutiert und deren Vor- und Nachteile gegeneinander abgewogen. Anschliessend wurden
+                              die Rangfolge und Preisverteilung festgesetzt. Das Preisgericht entschied sich, die Entschä-
+                              digung der zur Beurteilung zugelassenen Projekteingaben von insgesamt CHF 150‘000.--
+                              auf CHF 200‘000.-- (exkl. MwSt.) anzuheben. Während des abschliessenden Kontroll-
+                              rundgangs wurden keine Rückkommensanträge gestellt. Die Beschlüsse des Preisgerichts
+                              wurden einstimmig gefällt.
+
+
+
+
+16   Bericht des Preisgerichts zum selektiven Projektwettbewerb | Sihlsana AG Adliswil
+Rangfolge und Preisfestsetzung
+(Entschädigung und Preis exkl. MwSt.)
+
+  Rang                   Projekt                Entschädigung         Preis
+
+  1. Rang / 1. Preis     Nr. 2 SOPHIE           CHF 20‘000.--         CHF 40‘000.--
+
+  2. Rang / 2. Preis     Nr. 9 Un‘ altra vita   CHF 20‘000.--         CHF 35‘000.--
+
+  3. Rang / 3. Preis     Nr. 10 COLLIER         CHF 20‘000.--         CHF 25‘000.--
+
+  ohne Rang / Preis      Nr. 1 Dreiblatt        CHF 20‘000.--
+
+  ohne Rang / Preis      Nr. 3 Semiramis        CHF 20‘000.--
+
+  ohne Rang / Preis      Nr. 4 Katsura          CHF 20‘000.--
+
+  ohne Rang / Preis      Nr. 5 P.M.             CHF 20‘000.--
+
+  ohne Rang / Preis      Nr. 6 Milou            CHF 20‘000.--
+
+  ohne Rang / Preis      Nr. 7 Aronia           CHF 20‘000.--
+
+  ohne Rang / Preis      Nr. 8 PAUL & PAULA     CHF 20‘000.--
+
+
+
+
+Empfehlung zur Weiterbearbeitung
+Das Preisgericht empfiehlt der Sihlsana AG einstimmig, das Projekt Nr. 2 SOPHIE mit folgen-
+den Hinweisen zur Weiterbearbeitung:
+
+• Im Erdgeschoss ist die Anordnung der Gastronomienutzungen hinsichtlich der funktio-
+  nalen und räumlichen Verbindungen zu prüfen.
+• Die Pflegeabteilungen in den Obergeschossen weisen eine sehr gute Organsiation auf.
+  Die innere Organisation des geschützen Wohnbereichs der Demenzabteilung gilt es je-
+  doch in Zusammenarbeit mit der Sihlsana AG zu optimieren.
+• Die Eingangssituation auf dem Vorplatz ist hinsichtlich der Anlieferung sowie Begrünung
+  und Möblierung zu klären.
+
+
+
+
+                                                                     Planwerkstadt AG | Raumplanung · Prozesse · Städtebau   17
+                              Projektverfassende
+                              Nach der Formulierung der Empfehlung zur Weiterbearbeitung und Unterzeichnung des
+                              Berichts wurden die Verfassercouverts geöffnet. In Anwesenheit des Preisgerichts wurden
+                              die Projekte anhand der Kennwörter den verfassenden Planungsteams zugeordnet.
+
+
+                                  1. Rang / 1. Preis
+
+                                  Nr. 2 SOPHIE                            Schmidlin Architekten ETH SIA, Zürich
+
+                                                                          MØFA urban landscape studio, Zürich
+
+                                                                          Takt Baumanagement AG, Zürich
+
+                                                                          Dr. Lüchinger+Meyer Bauingenieur AG, Zürich
+
+                                                                          Kopitsis Bauphysik AG, Wohlen AG
+
+                                                                          RMB Engineering AG, Zürich
+
+                                                                          Pirmin Jung Ingenieure, Thun
+
+                                  2. Rang / 2. Preis
+
+                                  Nr. 9 Un‘ altra vita                    BS+EMI Architektenpartner AG, Zürich
+
+                                                                          Ganz Landschaftsarchitekten GmbH, Zürich
+
+                                                                          EBP Schweiz AG, Zürich
+
+                                                                          BAKUS Bauphysik & Akustik GmbH, Zürich
+
+                                                                          Pflegimuri, Muri AG
+
+                                  3. Rang / 3. Preis
+
+                                  Nr. 10 COLLIER                          kit | architects eth sia gmbh, Zürich
+
+                                                                          Schmid Landschaftsarchitekten GmbH, Zürich
+
+                                                                          HSSP AG, Zürich
+
+                                                                          EBP Schweiz AG, Zürich
+
+                                                                          3-plan Haustechnik AG, Winterthur
+
+
+
+
+18   Bericht des Preisgerichts zum selektiven Projektwettbewerb | Sihlsana AG Adliswil
+ohne Rang / ohne Preis
+
+Nr. 1 Dreiblatt          GOA – Gerber Odermatt Architekten ETH / SIA, Zürich
+
+                         Kirsch & Kuhn Freiräume und Landschaftsarchitektur, Wetzikon
+
+                         Anderegg Partner, Zürich
+
+                         Büro Thomas Boyle + Partner AG, Zürich
+
+                         Raumanzug GmbH, Zürich
+
+                         R+B engineering AG, Zürich
+
+                         IBG AG Engineering, Winterthur
+
+                         ARGE kathrinsimmen Architekten ETH SIA, Zürich und Wolfgang
+Nr. 3 Semiramis
+                         Rossbauer Architekten ETH SIA, Zürich
+
+                         planivers Landschaftsarchitekten AG, Zürich
+
+                         ffbk Architekten AG, Zürich
+
+                         Schnetzer Puskas Ingenieure AG, Zürich
+
+                         Grolimund + Partner AG, Zürich
+
+                         Balzer Ingenieure AG, Winterthur
+
+                         Boess & Partner AG, Zürich
+
+                         gkp plus Grossküchenplanung, Horn
+
+Nr. 4 Katsura            Büro Krucker Architekten AG, Zürich
+
+                         Studio Vulkan Landschaftsarchitektur, Zürich
+
+                         b+p Baurealisation AG, Zürich
+
+                         Pfyl Partner AG, Zürich
+
+                         3-plan Haustechnik AG, Winterthur
+
+                         Pirmin Jung Schweiz AG, Sargans
+
+Nr. 5 P.M.               Buol&Zünd Architekten BSA, Basel
+
+                         BRYUM GmbH, Basel
+
+                         BDS Security Design AG, Bern
+
+
+
+
+                                                                   Planwerkstadt AG | Raumplanung · Prozesse · Städtebau   19
+                                  ohne Rang / ohne Preis
+
+                                  Nr. 6 Milou                             Chebbi | Thomet | Bucher Architektinnen AG, Zürich
+
+                                                                          KuhnLandschaftsarchitekten GmbH, Zürich
+
+                                                                          GMS Partner AG, Zürich
+
+                                                                          Caprez Ingenieure AG, Zürich
+
+                                                                          Lemon Consult AG, Zürich
+
+                                                                          Böni Gebäudetechnik AG, Oberentfelden
+
+                                                                          Rapp Infra AG, Basel
+
+                                  Nr. 7 Aronia                            Meletta Strebel Architekten AG, Zürich
+
+                                                                          freiraumarchitektur GmbH, Luzern
+
+                                                                          Synaxis AG, Zürich
+
+                                                                          MARTINELLI + MENTI AG, Luzern
+
+                                                                          Klimawandler AG, Zürich
+
+                                                                          Gode AG, Zürich
+
+                                                                          Zostera Brandschutzplanung GmbH, Zürich
+
+                                  Nr. 8 PAUL & PAULA                      Fiechter & Salzmann Architekten GmbH, Zürich
+
+                                                                          Andreas Geser Landschaftsarchitekten AG, Zürich
+
+                                                                          Fanzun AG, Zürich
+
+                                                                          WMM Ingenieure AG, Münchenstein
+
+                                                                          Kopitsis Bauphysik AG, Wohlen AG
+
+                                                                          Energiehoch4 AG, Zürich
+
+                                                                          Fanzun AG, Chur
+
+
+
+
+20   Bericht des Preisgerichts zum selektiven Projektwettbewerb | Sihlsana AG Adliswil
+8 Würdigung und Dank
+
+Mit viel Enthusiasmus und Sachverstand hat das Preisgericht die mit Spannung erwarteten
+Wettbewerbsbeiträge der zehn qualifizierten Teams beurteilt und ausgiebig gewürdigt. Die
+Vielfalt und Qualität der Projektbeiträge führten zu einer angeregten und intensiven Dis-
+kussion und lieferten wertvolle Erkenntnisse für die weitere Entwicklung des Areals.
+   Die Aufgabenstellung war geprägt durch den Wunsch nach einem Miteinander und Ne-
+beneinander von Menschen mit unterschiedlichen Ansprüchen an das Wohnen im Alter und
+dementsprechend nach unterschiedlichen Wohnformen: von der schlichten Alterswohnung
+über betreute Wohnstudios bis hin zur spezialisierten Demenzpflege. Ziel der Bauherrschaft
+war es, vielseitige Möglichkeiten zu schaffen, aber wenig fixierte Strukturen zu zementieren.
+Dazu kam die Einbindung der bestehenden parkähnlichen Umgebung und die Gestaltung
+eines attraktiven Platzes als Herzstück für das ganze Quartiers.
+   Die Fülle an Anforderungen forderte eine qualifizierte Auseinandersetzung mit dem Ort
+und dem Thema Wohnen im Alter. Die Planungsteams haben sich der anspruchsvollen Auf-
+gabe mit erkennbarem Engagement gestellt – das Siegerprojekt hat das Preisgericht letzt-
+lich am meisten überzeugt. Die Sihlsana AG, vertreten durch den Verwaltungsrat und die
+Geschäftsleitung, und das Preisgericht danken allen Planungsteams für die wertvollen Bei-
+träge und die geleistete Arbeit.
+
+
+
+
+                                                                      Planwerkstadt AG | Raumplanung · Prozesse · Städtebau   21
+                              9 Genehmigung
+
+                              Der vorliegende Bericht wurde am 25. Juli 2019 vom Preisgericht genehmigt.
+
+
+
+                              Fachpreisrichterinnen und Fachpreisrichter
+
+                              Lorenzo Giuliani                                           ..................................................
+                              Dipl. Architekt ETH/SIA/BSA (Vorsitz)
+
+
+
+                              Roger Boltshauser                                          ..................................................
+                              Dipl. Architekt ETH/SIA/BSA, Zürich
+
+
+
+                              Rita Illien                                                ..................................................
+                              Dipl. Landschaftsarchitektin HTL/BSLA/SIA, Zürich
+
+
+
+                              Felix Bohn                                                 ..................................................
+                              Alters- & demenzgerechtes Bauen und Wohnen, Zürich
+
+
+
+                              Anne Kaestle                                               ..................................................
+                              Dipl. Ing. Architektin SIA/BDA (Ersatz)
+
+
+
+
+                              Sachpreisrichterinnen und Sachpreisrichter
+
+                              Susy Senn                                                  ..................................................
+                              Verwaltungsrat Sihlsana AG
+
+
+
+                              Beatrice Biotti                                            ..................................................
+                              Geschäftsführerin Sihlsana AG
+
+
+
+                              Harald Huber                                               ..................................................
+                              Harald Huber Consulting
+
+
+
+                              Thomas Rohrer                                              ..................................................
+                              Verwaltungsrat Sihlsana AG (Ersatz)
+
+
+
+
+22   Bericht des Preisgerichts zum selektiven Projektwettbewerb | Sihlsana AG Adliswil
+10 Wettbewerbsbeiträge
+                   Nr. 2      SOPHIE                             1. Rang / 1. Preis
+
+
+
+
+                   Architektur
+                   Schmidlin Architekten ETH SIA, Zürich
+
+                   Landschaftsarchitektur
+                   MØFA urban landscape studio, Zürich
+
+                   Baumanagement
+                   Takt Baumanagement AG, Zürich
+
+                   Bauingenieurwesen
+                   Dr. Lüchinger+Meyer Bauingenieur AG, Zürich
+
+                   Bauphysik, Akustik
+                   Kopitsis Bauphysik AG, Wohlen
+
+                   Gebäudetechnik HLKS
+                   RMB Engineering AG, Zürich
+
+                   Brandschutz
+                   Pirmin Jung Ingenieure, Thun
+
+
+
+
+         Modell
+     Nordansicht
+
+
+
+
+24
+Städtebau
+Den Verfassenden gelingt es, das Raumprogramm in zwei Neubauten so zu gliedern, dass
+die attraktive, fliessende Parklandschaft als Qualität des Ortes optimal erhalten werden
+kann und im Nahbereich überzeugende Freiräume entstehen. Indem sich die Neubauten in
+Höhe und Grundrissform an die vorhandenen Gebäude der Pflegewohngruppe Tal anleh-
+nen, wird mit dem Bestand insgesamt ein Ensemble geschaffen, auch wenn die Neubauten
+architektonisch eigenständig erscheinen. Im östlichen Gebäude nahe den Tennisplätzen
+sind die Alterswohnungen untergebracht, während sich im gestuften, westlichen Gebäude
+das Pflegezentrum mit den integrierten Studios befinden. Eine Abtreppung dieses Gebäu-
+des sowie ein grosser Freiraum erzeugen gute ortsbauliche Übergänge zur angrenzenden,
+kleinmassstäblichen Wohnbebauung. Stirnseitig zur Badstrasse hin bilden beide Gebäude
+die erwünschten Adressen, welche direkte Zugänge zu den jeweiligen Bereichen ermögli-
+chen. Der Neubau des Alterswohnens kann als erste, unabhängige Etappe sehr einfach er-
+stellt werden.
+
+Aussenraum
+Mit dieser differenzierten baulichen Setzung kann die Landschaft das Areal weiterhin offen
+durchfliessen. Die weite, von Wegen durchzogene Parklandschaft ist für Bewohnerinnen,
+Besucher und Passanten als Begegnungs- und Erholungsraum gut nutzbar. Die nötige Be-
+schattung ist durch den Baumbestand und Neupflanzungen gegeben. Eine differenzierte
+Zonierung und Belegung mit Nutzungen einerseits und das durchdachte Wegesystem an-
+dererseits fördern Begegnung, ermöglichen interessante Erlebnisse für Menschen mit un-
+terschiedlichen Bewegungsradien und schaffen gute Anbindungen an die Umgebung. Der
+offene Demenzgarten ist auf dem Erdgeschossdach mit Anschluss an den Park gut plat-
+ziert und mit seiner Bepflanzung attraktiv gestaltet. Der geschlossene Demenzgarten auf
+der unteren Parkebene schafft einen anregenden, den Ansprüchen der Nutzenden ent-
+sprechenden Ort.
+   Zwischen den Gebäuden und Gebäudeteilen entsteht ein Vorbereich, der verschiedene
+Funktionen – Vorfahrt, Adressen der Gebäude, Begegnungs- und Aufenthaltsraum mit Sitz-
+bereich – verbindet. Bewusst wird hier die Idee eines offenen und öffentlichen Dorf­platzes
+verfolgt. Das ist eine sehr schöne Lösung, die viele Nutzungen offenlässt und durch die Sitz-
+plätze eine gute Belebung verspricht. Um Konflikte zwischen den Nutzungen, vor allem zwi-
+schen dem Sitzplatzbereich und der Vorfahrt, zu vermeiden, wären die Verkehrsbeziehun-
+gen noch zu klären. Die zentrale Grünfläche ist als Platzelement attraktiv, ihre Nutzung als
+Marktplatz aber zu hinterfragen. Da der Bereich über der Tiefgarage liegt, ist die nötige
+Überdeckung als Wurzelraum für die Bäume als Schattenspender und wichtige Platzele-
+mente sicherzustellen.
+
+Funktionalität
+Ausgehend von den drei Adressen und Zugängen wird eine übersichtliche, innenräumliche
+Organisation erarbeitet. Beide Erdgeschosse enthalten die wichtigen öffentlichen Nutzun-
+gen. Im Pflegezentrum liegt der Empfang gut angeordnet in direktem Bezug zu Eingang,
+Liften, Haupttreppe und Foyer des modularen Veranstaltungssaals. Restaurant und Wohn-
+bereich als Begegnungsorte und öffentlichste Nutzungen sind gegen Osten auf den Dorf-
+platz hin und die Demenzabteilung gegen Westen mit direktem Zugang zum geschützten
+Freiraum hin sinnvoll angeordnet. Die erwünschte Verbindung von modularem Saal zu Res-
+
+
+                                                                                                25
+     taurant und Wohnbereich kann aber so noch nicht sattfinden. Im geschützten Demenzbe-
+     reich im westlichen Flügel kann die Anordnung des Stationszimmers noch nicht ganz über-
+     zeugen.
+        In den Obergeschossen sind jeweils eine Pflegeabteilung mit zwei Wohngruppen ange-
+     ordnet und in vier Nachbarschaften sehr gut gegliedert. Die Zwischenräume sind fliessend
+     ausgebildet, weisen unterschiedliche Aufenthaltsbereiche an den Fassaden auf und er-
+     möglichen attraktive Begegnungsorte und abwechslungsreiche Spaziergänge. Die Anord-
+     nung jeweils von zwei Zimmer mit Vorraum ist gut gestaltet und entspricht den gewünsch-
+     ten Anforderungen. Die Studiowohnungen liegen in den obersten drei Geschossen und sind
+     ebenso gut angeordnet und gestaltet.
+        Im Gebäude der Alterswohnungen sind im Erdgeschoss Eingang, Gemeinschaftsräume,
+     Ateliers und Gästezimmer und ab dem ersten Obergeschoss alle Wohnungen angeordnet.
+     Zwischen den nach Osten oder Westen gerichteten Wohnungen entstehen konische Gang­
+     räume. Eine Übereckterrasse im Süden und zweigeschossige Waschräume im Norden er-
+     zeugen an deren Enden gute soziale Begegnungsorte und erlauben Tageslicht ins Innere
+     zu führen.
+
+     Architektur
+     Die Gebäude werden in Mischbauweise vorgeschlagen, was die Raumstimmung im Innern
+     als auch den architektonischen Ausdruck prägt. Erschliessungskerne und Decken im Be-
+     reich der gemeinschaftlichen Räume sind jeweils in Beton ausgebildet, was für den Brand-
+     wie den Schallschutz sinnvoll ist. Im Bereich der Zimmer werden Holz-­Betonver­bund­decken,
+     Holztrennwände und in der Fassade Holzständerbau vorgeschlagen. Dadurch kann im In-
+     nern mit der primären Konstruktion eine wohnliche Atmosphäre geschaffen werden. Die
+     Holzfassaden werden durch horizontale, filigrane Betonelemente entweder als Vordach
+     oder als Balkone geschützt und geschossweise gegliedert. Sie prägen gemeinsam mit den
+     geschosshohen Fenstern und einer vertikalen Holzlattenverkleidung die architektonische
+     Erscheinung und verleihen den Neubauten eine dem Ort angemessene Leichtigkeit und
+     Offenheit.
+
+     Wirtschaftlichkeit und Nachhaltigkeit
+     Aufgrund der gewählten, kompakten Raumorganisation sowie der angemessenen Konst-
+     ruktion in Mischbauweise weist das Projekt sowohl eine gute Wirtschaftlichkeit als auch eine
+     gute Nachhaltigkeit auf.
+
+     Fazit
+     Das Projekt überzeugt durch eine gelungene ortsbauliche Setzung der Neubauten und
+     eine grosszügige Ausbildung und Gestaltung der Freiräume, welche das Potenzial des Or-
+     tes optimal nutzen. Bei der inneren Organisation und Grundrissgestaltung gelingt es, sinn-
+     volle betriebliche und räumliche Zusammenhänge auszubilden und hohe räumliche Quali-
+     täten zu erarbeiten. Nicht zuletzt wird durch die gewählten Konstruktionen den Neubauten
+     die erwünschte eigenständige architektonische Erscheinung verliehen.
+
+
+
+
+26
+Modell
+Bewohnerzimmer
+
+
+
+
+                   Modell
+            Südwestansicht
+
+
+
+
+                       27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+                   Nr. 9      Un‘ altra vita                  2. Rang / 2. Preis
+
+
+
+
+                   Architektur
+                   BS+EMI Architektenpartner AG, Zürich
+
+                   Landschaftsarchitektur
+                   Ganz Landschaftsarchitekten GmbH, Zürich
+
+                   Baumanagement
+                   BS+EMI Architektenpartner AG, Zürich
+
+                   Bauingenieurwesen
+                   EBP Schweiz AG, Zürich
+
+                   Bauphysik, Akustik
+                   BAKUS Bauphysik & Akustik GmbH, Zürich
+
+                   Gebäudetechnik HLKS/MSRL
+                   EBP Schweiz AG, Zürich
+
+                   Gerontologie
+                   Pflegimuri, Muri AG
+
+
+
+
+         Modell
+     Nordansicht
+
+
+
+
+44
+Städtebau
+Un‘ altra vita gelingt über eine intelligente städtebauliche Setzung die Ausformulierung
+einer klaren Mitte der neuen Gesamtanlage: Die beiden Wohnbauten besetzen in einem
+grossen Bogen den Rand des Freibades und begleiten die Badstrasse bis hin zum zentralen
+Ort der Ankunft – während sich der vielgliedrige Baukörper mit den Pflegezimmern span-
+nungsvoll in das Areal spreizt. Es entsteht ein intimer, gefasster Aussenraum im Innern und
+eine raumgreifende Verklammerung der vier Flügel mit dem umliegenden Aussenraum.
+
+Aussenraum
+Mit seiner schlichten Gestaltung bietet der Hof einen schönen Rahmen für verschiedene
+Nutzungen. Die Vorfahrt ist so organisiert, dass sie die Aufenthaltsbereiche nicht stört; im
+Zentrum liegt ein von Bäumen beschatteter Kiesplatz. Pflanzflächen mit Schattenstauden
+verbinden elegant zwei Funktionen: Sie bilden die grüne Platzfassung und schaffen als Di-
+stanzhalter Privatsphäre für die Innenräume.
+   Andererseits minimiert die grosse, zusammenhängende Gebäudefigur den Parkraum
+ausserhalb der Baukörper und führt zu einer deutlichen Trennung zwischen dem einladen-
+den Hof und den etwas abgekoppelten, aber ruhigen Aussenbereichen. Im Süden liegt,
+gut platziert, der Demenzgarten mit dem geschlossenen und offenen Bereich. Seine Ge-
+staltung ist den Bedürfnissen der Nutzenden angemessen. Leider bleibt insgesamt nur we-
+nig eigentliche Parkfläche offen, entsprechend ist das Wegenetz und damit die Anbindung
+nach aussen reduziert, es fehlt an variabel kombinierbaren Wegschlaufen für die unter-
+schiedlichen Bedürfnisse und Möglichkeiten.
+
+Architektur
+Der offene, attraktive Innenhof bildet das Herz der Anlage: Er ist Begegnungsort, schafft
+eine gute Orientierung und organisiert die Adressen zu den drei Funktionseinheiten Pflege,
+Studios und Alterswohnungen mit grosser Selbstverständlichkeit. Restaurant und Saal sind
+schlüssig verortet und lassen sich für grössere Veranstaltungen kombinieren.
+   Die Organisation der Pflegeabteilungen in den Obergeschossen hingegen wirkt etwas
+unübersichtlich. Durch die Gebäudeform entstehen im Innern komplexe Kreuzungspunkte
+bei der Verkettung der Rundläufe. Schön sind das Thema der Nischenbildung vor den Zim-
+mern und der Versuch die Erschliessungszone an vielen Stellen mit direktem Tageslicht zu
+versorgen. Bei den Studios bieten die detailliert ausformulierten Vorzonen mit Sitzbank und
+innerem Fenster eine gute Kontaktstelle zwischen den Bewohnenden.
+   Auch die gewählte Wohntypologie wird gewürdigt. In zwei unterschiedlichen Variationen
+werden gekonnt zwei Laubengangerschliessungen durchdekliniert. Die gedeckte Laube
+dient als Ort der informellen Begegnung und unterstützt das Zusammenwachsen der Haus-
+gemeinschaft. Die Wohnungen profitieren von dem weiten Blick über die Parkanlage des
+Freibades und einer zweiseitigen Orientierung. Nicht ganz nachvollziehbar hingegen ist der
+grosse Höhensprung zwischen den beiden Wohnhäusern.
+   Im architektonischen Ausdruck strahlt das Projekt eine angenehme Wohnlichkeit aus. Die
+hinterlüftete Holzelementfassade in Eiche wird mit Kupferblech, dunkel beschichteten Sta-
+ketengeländern und textilen Fallarmmarkisen kombiniert, was den Häusern eine Eleganz
+verleiht. Die klare Gliederung aus vertikalen Lisenen und horizontalem Gesims verleiht je-
+dem einzelnen Zimmer eine schöne Einfassung. Für die Menschen mit eingeschränktem Be-
+wegungsradius bieten die französischen Fenster ausserdem einen hohen Nutzwert.
+
+
+                                                                                               45
+       Beim Brandschutz wurde für einzelne vertikale Fluchtwege der Ausgang direkt ins Freie
+     vermisst. Feuerwehrzufahrten und Stellplätze wurden nicht thematisiert, eine entspre-
+     chende Korrektur würde die Aussenraumgestaltung an einigen Stellen einschränken.
+
+     Funktionalität
+     Betrieblich wurde die Demenzabteilung positiv beurteilt, da die drei zusammenhängen-
+     den Gruppen auf einem Geschoss effizient organisiert werden können, auch wenn nicht
+     alle einen direkten Zugang zum Aussenraum aufweisen und die inneren Rundläufe zu we-
+     nig abwechslungsreich sind. Als grosse Schwäche wird die Anlieferung im Zusammenhang
+     mit der Position von Küche und Lagerräumen bewertet. Ausserdem würde anstelle der ru-
+     higen Nutzungen wie Büro und Wäscherei die eher quartierbildenden Räume zum Platz hin
+     bevorzugt werden, um die Idee des belebten Quartierplatzes zu stärken.
+
+     Wirtschaftlichkeit
+     Die Ziele zur Wirtschaftlichkeit wurden vor allem durch die volumetrische Gliederung und
+     einer entsprechend erhöhten Hüllflächenzahl nicht ganz erfüllt.
+
+     Fazit
+     Un‘ altra vita überzeugt mit einer sympathischen Sperrigkeit in der städtebaulichen Figur.
+     Weder biedern sich die Neubauten an die formale Ästhetik des Bestehenden an, noch wird
+     im Kontrast die bewusste Abgrenzung gesucht. Das Ergebnis ist ein in sich stimmiges En-
+     semble, das dem Ort über die starke Mitte eine eigene, neue Identität verleiht. Die etwas la-
+     byrinthischen Korridorsysteme im Pflegebereich stehen einer grossen Klarheit in der Struk-
+     tur der Wohnhäuser gegenüber. In den bereits tief durchgearbeiteten Fassaden zeigt sich
+     grosses architektonisches Feingespür. Die Stärke des Projekts ist gleichzeitig seine grösste
+     Schwäche: Die raumgreifende Figur bedrängt die bestehende Parkanlage derart, dass das
+     Potenzial der Ortes nicht ausgeschöpft werden kann.
+
+
+
+
+46
+Modell
+Bewohnerzimmer
+
+
+
+
+                   Modell
+            Südwestansicht
+
+
+
+
+                       47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+                   Nr. 10      COLLIER                          3. Rang / 3. Preis
+
+
+
+
+                   Architektur
+                   kit | architects eth sia gmbh, Zürich
+
+                   Landschaftsarchitektur
+                   Schmid Landschaftsarchitekten GmbH, Zürich
+
+                   Baumanagement
+                   HSSP AG, Zürich
+
+                   Bauingenieurwesen
+                   EBP Schweiz AG, Zürich
+
+                   Bauphysik, Akustik
+                   3-plan Haustechnik AG, Winterthur
+
+                   Gebäudetechnik HLKSE/MSRL
+                   EBP Schweiz AG, Zürich
+
+                   Brandschutz
+                   EBP Schweiz AG, Zürich
+
+
+
+
+         Modell
+     Nordansicht
+
+
+
+
+64
+Städtebau
+Städtebaulich sucht der Projektvorschlag den Dialog zu seinen Nachbarbauten. Wie ein
+«Schmuckstück eines Colliers» – wie es die Verfassenden formulieren – sollen sich dabei die
+neuen und bestehenden Bauten um den Freiraum der Badeanstalt aufreihen. Das neue Al-
+terszentrum wird dabei als dreiflügelige Anlage mit Innenhöfen formuliert. Die volumetrisch
+konisch geformten Baukörper referenzieren dabei auf die bestehenden Punkthäuser an
+der Badstrasse. Der neue Alterswohnungsbau folgt ebenfalls diesem Prinzip und definiert
+zusammen mit dem Alterszentrum einen zentralen Platz, der den Ankunftsort zum Dreh-
+und Angelpunkt der Anlage macht. Das volumetrische Ensemble fasst an ihren Rändern
+drei weitere Grünräume, die für die geforderten Aussenfunktionen ansprechende Gestal-
+tungsmöglichkeiten bieten. Insgesamt werden die städtebauliche Setzung und die daraus
+resultierenden Aussenräume als durchaus gelungen beurteilt. Allerdings wirkt das Volumen
+des Alterszentrums durch die Hofsituationen etwas zu gross. Auch typologisch stellt sich die
+Frage, ob Innenhofsituationen in Anbetracht des grossen Parkraums wirklich sinnvoll sind.
+
+Aussenraum
+Die Setzung der Baukörper schafft differenzierte Aussenräume und Schwerpunkte, die sich
+zu einem spannungsvollen Ganzen verweben und eine Vielfalt an Aufenthalts-, Rückzugs-
+und Begegnungsräumen bieten. Das Entrée zu den Gebäuden bildet eine gestaffelte Platz-
+figur aus Vorfahrtsplatz und Wohnhof. Die Vorfahrt mit Anlieferung und Tiefgaragenein-
+fahrt liegt im vorderen Bereich, der eigentliche Aufenthaltshof liegt dahinter. Dieser Ansatz
+mit der funktionalen Trennung ist an sich gut vorstellbar und lässt zudem eine schöne
+Blickachse bis in den südlichen Grünraum offen. Die räumliche Verdoppelung und die syn-
+chrone Gestaltung der beiden Platz-/Hofräume sind aber auch – angesichts der so un-
+terschiedlichen Funktionen und Typologien – irritierend. Im unterbauten Bereich ist zudem
+die nötige Aufbauhöhe des Substrats für die Baumpflanzungen nachzuweisen. Die südlich
+an den Wohnhof angrenzende Parknische bietet zwei attraktive, gebäudenahe Aufent-
+haltsräume, die den Wohnhof gut ergänzen. Weniger gut ist, dass die Parknischen im Sü-
+den und Westen der Gebäude wegen des beengten Raums nicht über Parkwege mitein-
+ander verbunden werden können. Die Nischen selbst sind sehr gut erschlossen und an die
+Umgebung angeschlossen, dabei entsteht leider viel versiegelte Fläche. Es wäre zu erwä-
+gen, das Wegesystem zugunsten mehr zusammenhängender Grünflächen etwas zu ver-
+einfachen. Der offene und der geschlossene Demenzgarten sind separat in die Parkfläche
+integriert. Die Gestaltung bietet mit ihren Grundstrukturen wie Schattenbäume, Sitzgele-
+genheiten und Rundwege eine angemessene Umgebung für die Nutzenden, im Detail ist
+sie aber nicht beurteilbar.
+
+Architektur
+Im architektonischen Ausdruck suchen die Verfassenden eine kräftige Erscheinung, wel-
+che als eigenständiges Ensemble wahrgenommen werden soll. Die neuen Gebäude sind
+als Massivbauten mit einer hinterlüfteten Fassade aus Klinker und vorfabrizierten Betonele-
+menten konzipiert worden. Die Fassaden sollen mit einem sandgrauen Klinker und Beton­
+elementen sowie rötlichen Fenstern ausgeführt werden. Durch differenzierte Details, wie
+auch durch unterschiedliche Öffnungen, sollen die Gebäudetrakte unterschiedlich charak-
+terisiert werden. Insgesamt erscheint die architektonische Sprache solide, jedoch stellt sich
+die Frage, ob eine Klinkerfassade tatsächlich genügend eigenständig und ortspezifisch ist.
+
+
+                                                                                                65
+     Der Fassadenentwurf überzeugt in diesem Sinne nicht, auch die Wölbungen im Brüstungs-
+     und Sturzbereich erscheinen zufällig und wenig überzeugend formuliert. Auch die Ausge-
+     staltung der Innenräume ist etwas unspezifisch ausgefallen; hier ist ein Potenzial zu mehr
+     Eigenständigkeit auszumachen.
+
+     Funktionalität
+     Funktional sind die Gebäude grundsätzlich gut organisiert. Der Eingang zum Alterszent-
+     rum hingegen ist etwas marginal ausgefallen und wirkt neben dem Gastroteil ein wenig
+     gedrängt. Die Zulieferung des Speisetransports im Untergeschoss hat zu lange Wege. Die
+     Korridorsituationen, die nicht an den Höfen liegen, wirken teilweise beengend und schlecht
+     belichtet. Die dargestellten Zimmertypen der Pflegeplätze sind einfach und übersichtlich
+     ausgefallen, wenn auch nicht besonders innovativ. Die Pflegestudios überzeugen hingegen
+     wiederum. Die Grundrisse des Alterswohnungsbaus haben nicht das gleiche Niveau wie die
+     des Alterszentrums. Besonders in den Schnittstellen der beiden Gebäudeteile entstehen et-
+     was ungelenke Wohnungen. Neben einigen zweiseitig und gut besonnten Wohnungen sind
+     andere leider nur einseitig orientiert, was bezüglich Vermietung als nachteilig beurteilt wird.
+
+     Wirtschaftlichkeit/ Nachhaltigkeit
+     Bezüglich Wirtschaftlichkeit wird der Projektvorschlag aufgrund der kompakten Geomet-
+     rie als gut eingestuft. Ebenfalls in Bezug auf die Nachhaltigkeit wird der Projektvorschlag
+     positiv beurteilt.
+
+     Fazit
+     Insgesamt überzeugt der Projektvorschlag durch seine interessante städtebauliche Set-
+     zung. Typologisch stellt sich die Frage, ob die Innenhöfe wirklich notwendig gewesen wä-
+     ren, da das Alterszentrum dadurch einen grösseren Footprint erhält und die Aussenräume
+     auf dem Areal bedrängt werden und schlechter in Beziehung gesetzt werden können. Auf
+     der Ebene der Architektur ist der Projektvorschlag etwas unpräzis und wenig aussagekräf-
+     tig. Hier würde man sich eine eigenständigere und inspiriertere Sprache wünschen.
+
+
+
+
+66
+Modell
+Bewohnerzimmer
+
+
+
+
+                   Modell
+            Südwestansicht
+
+
+
+
+                       67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+                 Nr. 1      Dreiblatt                                           ohne Rang / Preis
+
+
+
+
+                 Architektur
+                 GOA – Gerber Odermatt Architekten ETH / SIA, Zürich
+
+                 Landschaftsarchitektur
+                 Kirsch & Kuhn Freiräume und Landschaftsarchitektur, Wetzikon
+
+                 Baumanagement
+                 Anderegg Partner, Zürich
+
+                 Bauingenieurwesen
+                 Büro Thomas Boyle + Partner AG, Zürich
+
+                 Bauphysik, Akustik
+                 Raumanzug GmbH, Zürich
+
+                 Gebäudetechnik HLKSE/MSRL
+                 R+B engineering AG, Zürich
+
+                 Brandschutz
+                 IBG AG Engineering, Winterthur
+
+
+
+Modell
+Südwestansicht
+
+
+
+
+84
+              Situationsplan
+
+
+
+
+Modell
+Nordansicht
+
+
+
+
+                         85
+2. Obergeschoss:
+Klassische Alterspflege
+
+
+
+
+86
+Modell
+Bewohnerzimmer
+
+
+
+
+                 Visualisierung
+
+
+
+
+                            87
+                 Nr. 3      Semiramis                                                ohne Rang / Preis
+
+
+
+
+                 Architektur
+                 ARGE kathrinsimmen Architekten ETH SIA, Zürich und Wolfgang Rossbauer Architekten ETH
+                 SIA, Zürich
+
+                 Landschaftsarchitektur
+                 planivers Landschaftsarchitekten AG, Zürich
+
+                 Baumanagement
+                 ffbk Architekten AG, Zürich
+
+                 Bauingenieurwesen
+                 Schnetzer Puskas Ingenieure AG, Zürich
+
+                 Bauphysik, Akustik
+                 Grolimund + Partner AG, Zürich
+
+                 Gebäudetechnik HLKS/MSRL, Brandschutz
+                 Balzer Ingenieure AG, Winterthur
+
+                 Elektroplanung
+                 Boess & Partner AG, Zürich
+
+                 Gastroplanung
+Modell
+Südwestansicht   gkp plus Grossküchenplanung, Horn
+
+
+
+
+88
+              Situationsplan
+
+
+
+
+Modell
+Nordansicht
+
+
+
+
+                         89
+2. und 3. Obergeschoss:
+Klassische Alterspflege
+
+
+
+
+90
+                         Modell
+                 Bewohnerzimmer
+
+
+
+
+Visualisierung
+
+
+
+
+                             91
+                 Nr. 4       Katsura                            ohne Rang / Preis
+
+
+
+
+                 Architektur
+                 Büro Krucker Architekten AG, Zürich
+
+                 Landschaftsarchitektur
+                 Studio Vulkan Landschaftsarchitektur, Zürich
+
+                 Baumanagement
+                 b+p Baurealisation AG, Zürich
+
+                 Bauingenieurwesen
+                 Pfyl Partner AG, Zürich
+
+                 Bauphysik
+                 3-plan Haustechnik AG, Winterthur
+
+                 Gebäudetechnik HLKSE
+                 3-plan Haustechnik AG, Winterthur
+
+                 Brandschutz
+                 Pirmin Jung Schweiz AG, Sargans
+
+
+
+Modell
+Südwestansicht
+
+
+
+
+92
+              Situationsplan
+
+
+
+
+Modell
+Nordansicht
+
+
+
+
+                         93
+1. Obergeschoss:
+Klassische Alterspflege und
+Pflegestudios
+
+
+
+
+94
+zentrum | Adliswil                                                                                                                                                                                                        Katsur
+
+
+
+
+                                                                                                                                                                             Modell
+                                                                                                                                                                     Bewohnerzimmer
+
+
+
+
+                                                                                                                                                    Visualisierung
+
+                     Alterszentrum und Wohngebäude am gemeinschaftlichen Quatiersplatz
+
+
+
+
+                                                                                         Die herausragenden Qualitäten des Grundstückes am Siedlungsrand
+                                                                                         von Adliswil liegen im starken Bezug zum angrenzenden landschaft-
+                                                                                         lich geprägten Kontext. Am Ende der Zufahrtsstrasse gelegen, ist es
+                                                                                         zwischen dem parkartigen Freibad und dem offenen Landschaftsraum
+                                                                                         gegen Südosten eingebettet. Die beiden Gebäude stärken diese Quali-
+                                                                                         täten, indem sie die auslaufende Strasse zu einem Quartierplatz trans-
+                                                                                         formieren und die Bauten im umgebenden Grünraum einbetten.
+
+
+                                                                                                                                                                      Fussweg
+                                                                                                                                                                      nach Adliswil
+
+
+                                                                                         Freiraum
+
+
+                                                                                         Das Grundstück, als öffentlich zugängliche Anlage ohne Zäune und                                           Sommer Freibad
+
+                                                                                         Barrieren, versteht sich als Teil des hier parkartig gestalteten Sied-                                     Winter offener Park
+
+                                                                                         lungsrandes von Adliswil. Die Wiesen und Grünflächen im Südosten
+                                                                                         werden durch differenzierte Wegebeziehungen über das Gelände mit
+                                                                                         dem Asylweg bis zum Adliswiler Zentrum verbunden. Auch das öf-
+                                                                                         fentliche Freibad, welches im Winter als frei zugängliche Parkanlage
+                                                                                         genutzt werden kann, schliesst im Nordosten an den Perimeter an
+                                                                                         und erweitert das vielseitige Wegesystem und die abwechslungs-
+                                                                                         reiche Landschaftsgestaltung für die Spaziergänge der Bewohner.
+                                                                                                                                                                                                                 Wald
+                                                                                         Ein Grossteil der charaktervollen Bestandsbäume bleibt erhalten , sie                                                   Wiese
+
+                                                                                         bestimmen somit auch das zukünftige Bild der Anlage. Der parkartige
+                                                                                                                                                                                      Sportanlage
+                                                                                         Saum umgreift das komplette Gebäude und bildet so den Kontext für
+                                                                                         die Wohn- und Pflegenutzungen in allen Geschossen. Westseitig ist
+                                                                                         der Dementengarten nahtlos in den Saum integriert, er setzt sich über
+                                                                                                                                                                  Leben im Park
+                                                                                         einen Heckenstreifen von der offenen Parklandschaft ab.
+
+
+                                                                                         Zwischen den Bauten spannt sich eine Platzfläche als Abschluss der
+                                                                                         Zufahrtsstrasse auf. Hier wird der lebendige Alltag des Quartiers ein-
+                                                                                         gefangen – die Anlieferung für die Pflegegruppen und das Restaurant
+                                                                                         am Morgen, die offenen Werkstätte der Atelierräume, das Kinderspiel
+                                                                                                                                                                                                     95
+                                                                                         im Schatten der Bestandsbaumgruppe sowie die Restaurantterrasse
+                                                                                         für den Kaffee am Sonntagnachmittag. Gleichzeitig ist der Platzraum
+                                                                                         offen für besondere Anlässe – das Sommertheater der benachbarten
+                                                                                         Schule oder den Wochenmarkt in den Morgenstunden.
+                 Nr. 5      P.M.                    ohne Rang / Preis
+
+
+
+
+                 Architektur
+                 Buol&Zünd Architekten BSA, Basel
+
+                 Landschaftsarchitektur
+                 BRYUM GmbH, Basel
+
+                 Baumanagement
+                 Buol&Zünd Architekten BSA, Basel
+
+                 Brandschutz
+                 BDS Security Design AG, Bern
+
+
+
+
+Modell
+Südwestansicht
+
+
+
+
+96
+              Situationsplan
+
+
+
+
+Modell
+Nordansicht
+
+
+
+
+                         97
+2. und 3. Obergeschoss:
+Klassische Alterspflege und
+Pflegestudios (abgedreht)
+
+
+
+
+98
+                         Modell
+                 Bewohnerzimmer
+
+
+
+
+Visualisierung
+
+
+
+
+                            99
+                 Nr. 6      Milou                                     ohne Rang / Preis
+
+
+
+
+                 Architektur
+                 Chebbi | Thomet | Bucher Architektinnen AG, Zürich
+
+                 Landschaftsarchitektur
+                 KuhnLandschaftsarchitekten GmbH, Zürich
+
+                 Baumanagement
+                 GMS Partner AG, Zürich
+
+                 Bauingenieurwesen
+                 Caprez Ingenieure AG, Zürich
+
+                 Bauphysik, Akustik
+                 Lemon Consult AG, Zürich
+
+                 Gebäudetechnik HLKS
+                 Böni Gebäudetechnik AG, Oberentfelden
+
+                 Brandschutz
+                 Rapp Infra AG, Basel
+
+
+
+Modell
+Südwestansicht
+
+
+
+
+100
+              Situationsplan
+
+
+
+
+Modell
+Nordansicht
+
+
+
+
+                        101
+2. Obergeschoss:
+Klassische Alterspflege und
+Pflegestudios
+
+
+
+
+102
+Modell
+Bewohnerzimmer
+
+
+
+
+                 Visualisierung
+
+
+
+
+                           103
+                 Nr. 7      Aronia                         ohne Rang / Preis
+
+
+
+
+                 Architektur
+                 Meletta Strebel Architekten AG, Zürich
+
+                 Landschaftsarchitektur
+                 freiraumarchitektur gmbh, Luzern
+
+                 Baumanagement
+                 Meletta Strebel Architekten AG, Zürich
+
+                 Bauingenieurwesen
+                 Synaxis AG, Zürich
+
+                 Bauphysik, Akustik
+                 MARTINELLI + MENTI AG, Luzern
+
+                 Gebäudetechnik HLKS/MSRL
+                 Klimawandler AG, Zürich
+
+                 Elektroplanung
+                 Gode AG, Zürich
+
+                 Brandschutz
+                 Zostera Brandschutzplanung GmbH, Zürich
+Modell
+Südwestansicht
+
+
+
+
+104
+                                                                                                                                                                                                                                                                                                                                               Architektur und Organisation Pﬂeg
+
+                                                                                                                                                                                                                                                                                                                                               Das Pﬂegeheim greift dreigeschossig
+                                                                                                                                                                                                                                                                                                                                               Garten für die Demenzabteilung. Der
+                                                                                                                                                                                                                                                                                                                                               Gastronomiebereich und über einer
+                                                                                                                                                                                                                                                                                                                                 Situationsplan
+                                                                                                                                                                                                                                                                                                                                               Seine eigene Adresse liegt am Quartier
+
+                                                                                                                                                                                   460
+                                                                                                                                                                                                                                                                                                                                               Der Eingang des Pﬂegeheims beﬁnd
+                                                                                                                                                                              PP Bestand
+                                                                                                                                                                                                                                                                                                                                               neben der Gastronomie. Diese bildet
+                                                                                                                                                                                                                                                                                                                                               ganzen Länge zum Quartierplatz.
+                                                                                                                                                                                         Badstrasse                    PP
+                                                                                                                                                                                                                                                                                                                                               Grossanlässe inkl. Salle modulabe zu
+                                                                                                                                                                                                                      Bes 10 stk
+                                                                                                                                                                                                                         tan
+                                                                                                                                                                                                                             d                                                                                                                 zum Quartierplatz geöffnet werden.
+
+
+                                                                                                                                          Schnitt A-A                                                                                                                         Schnitt B-B
+                                                                                                                                                                                                                                          46
+                                                                                                                                                                                                                                            2
+                                                                                                                                                                                                                                                                                                                                               Beim Eingang liegen der Empfa
+                                                                                                                                                                                                                                                                                                                                               Raumkontinuum mit Sitznischen und B
+                                                                                                                                                                        PP Bestand
+
+
+
+                                                                                                                                                                                                                                                                                                                                               und Treppe zentral auf die Statione
+                                                                                                                                                                                                                                                                                                                                               Besucher in die Wohnbereiche. D
+                                                                                                                                                                                                                                                                                                                                               Stationszimmer liegen mittig in den Sta
+                                                                                                                                                                 462
+
+
+
+                                                                                                                                                                                                                                                                                                                                               Drei Höfe bringen Tageslicht und Wett
+                                                                                                                                                                                  Einfahrt
+                                                                                                                                                                                  Einstellhalle                                                                                                                                                der Studios und der Administration- u
+                                                                                                                                                                                                                                                    463
+                                                                                                                                                                                                                                                          464                                                                                  Höfe in der Pﬂege erhalten du
+                                                                                                                                                                                                                                                                                                                                               Sonneneinstrahlung. Die Wohn-Essz
+                                                                                                                                                                                                                                                                                                                                               ausgereichtet. Weitere Aufenthaltsbe
+                                                                                                                                                                                                                                                                                                                                               Begegnungs-möglichkeiten. Attrak
+                                                                                                                                                                                                                                                                                                                                               Wohngruppen zum Training ein.
+
+                                                                                                                                                                                                                                                                                                                                               Die Zimmer der klassischen Pﬂege sin
+                                                                                                                                                                                                                                    463
+                                                                                                                                     46
+                                                                                                                                       2
+
+
+                                                                                                                                                                                                                                                                                                                                               privat erschlossen. Auf kleinstem R
+                                                          459                                                             Anlieferung Anlieferung
+                                                                            46
+                                                                                                                          Küche       Medikamente
+
+                                                                                                                                                                                                                                                                                                                                               Privaten erreicht. Die innere Vorzone d
+                                                                              0
+
+
+
+
+                                                                                                                                                                         Zugang                                                                                                                                                                die direkte Einsicht der Eintretenden.
+                                                                                        461
+                                                                                                                                                                         Wohnstudios
+                                                                                                                                                                                                                                                                                                                                               ihre eigene Vorzone mit Tageslicht
+                                                                                                                                                                                                                                                                                                                                               verbunden. Die Proportionen der Zimm
+                                                                             Aktivierungsraum
+                                                                                                                                                                                                                                                                                                                                               Freiheit bei der Möblierung. Die Fenste
+
+                                                            Asylweg                                                                                                           Quartierplatz                                                                                                                                                    Blick nach unten in den Garten falle
+                                                                                   46
+                                                                                     2
+                                                                                                                                                                                                       Schnitt B-B                                                                                                                             privaten Aussenraum.
+                                                                                                                                                                                                                                                                Zugang
+                                                                                                                                                                                                                                                                Spitex
+                                                    461                                                                                                                                                                                                                                                                                        Der Gebäudeﬂügel mit den Studios is
+                                                                                                                                                                                                                                                                                                                                               Die Studios werden über einen witt
+          465                                                                                                                                                                                                                                                                                                  465
+                                                                                                                                                                                                                                                                                                                                               welcher sich räumlich abstaffelt und
+                                                                                                                                                                             Zugang
+                                                                                                                                                                             Alterszentrum                                                                                                                                                     Qualitäten für Aufenthaltsbereiche sc
+                                           Schnitt C-C
+                                                                                                                                                                                                                             Zugang Wohnen
+                                                                                                                                                                                                                             mit Dienstleistungen
+                                                                                                                                                                                                                                                                                                     Schnitt C-C                               zentral beim Treppenhaus am Hof no
+                                                                                                                                                                                                                                                                                                                                               sucht, wird ihn an dieser prominenten
+                                                                      462
+
+                                                                                                                                                                                                                                                                                                                                               mit möbelartigen Leichteinbauten unt
+                                                                                                                                                                                                                                                                                                                                               kein Gefühl von Enge entsteht.
+
+
+                                                                  463                                                                                                                                         3
+                                                                                                                                                                                                            46
+                                                                                                                                                                                                                   4
+                                                                                                                                                                                                                 46
+                                                                                                                                                                                                                        5
+                                                                                                                                                                                                                      46
+                                                                                               Demenzgarten
+
+
+
+                                                                464
+
+
+
+
+                                                                                                                                                                                                                            466.4
+
+                                                                                                                                                                                                      466
+
+
+
+                                                                                                                  465
+                                                           465
+                                                                                                                             465
+                                                                                                                                                                       466
+
+
+
+
+                                                                                                                                                   Schnitt A-A                                                                                                           Schnitt B-B
+
+
+
+
+                          Situa tion 2. E t a p p e                                            1 : 500
+                                                                                                                                                                                                                                                                                                                                 Modell
+                                                                                                                                                                                                                                                                                                                                 Nordansicht
+
+
+
+                                                                                                    PP Besucher
+
+
+
+
+                                 PP Besucher
+                                                                                              ESH
+
+
+
+
+                           ESH
+
+
+
+
+                            HauptverbindungFussgänger
+                            Hauptverbindung  Fussgänger                                                                                                                                    Gehölze Bestand                                                                                  Gehölze  Bestand
+                                                                                                                                                                                                                                                                                            Gehölze Bestand
+                                                                                                                                                                                                                                                                                                                      874_WBW Sihlsana
+                             Sekundärverbindung
+                            Sekundärverbindung   Fussgänger
+                                               Fussgänger                                                                                                                                  Gehölze ergänzt                                                                                  Gehölze   ergänzt
+                                                                                                                                                                                                                                                                                            Gehölze ergänzt           Schema Nutzungen 1:800
+erbindung Fussgänger         EinfahrtVelo
+                            Einfahrt  Velo                                                                                                                                                 Baumdach Quartiersplatz
+                                                                                                                                                                                                                                                                                            Baumdach
+                                                                                                                                                                                                                                                                                            Baumdach   Quartier
+                                                                                                                                                                                                                                                                                                     Quartiersplatz   11.04.19
+ärverbindung Fussgänger      MIV
+                            MIV
+t Velo                      Anlieferung
+                            Anlieferung
+
+rung
+                                                                                                                                                                  874_WBW Sihlsana
+                                                                                  874_WBW Sihlsana                                                                Schema Erschliessung
+                                                                                                                                                                                                                                                                                                                                                                 105
+                                                                                  Schema Erschliessung                                                            11.04.19
+m a Erschliessung                                                                 11.04.19                              S c h e m a Vegetation                                                                                                                                                                                                                                    Fa
+                                                                                                Pflegenahes Wohnen                                              4.101
+                                                                                                                                                                                                            Lichthof
+                                                                                                                                                                                                                                                                                           Abwart
+                                                                                                (betreutes Wohnen)                                              Studio
+                                                                                                                                                                40
+                                                                                                                                                                                                                                                                                           8
+
+                                                                                                                                                                                                                                                                         Per.
+                                                                                                                                                                                                                                                                         Lift
+
+
+
+
+                                                                                                                                                                                                                       4.204       4.208                                                  4.101
+                                                                                                                                                                                                                       Wäsche      Putzraum                                               Studio
+                                                                                                                                                                                                                       Schrank     6                                                      40
+                                                                                                                                                                                                                       2
+
+                                                                                                                                                                4.101
+                                                                                                                                                                                                                       4.205
+                                                                                                                                                                Studio
+                                                                                                                                                                                                                       Ausguss WM
+                                                                                                                                                                40                                                     8
+
+
+
+
+                                                                                                                                                                                                                                                                                          4.101
+                                                                                                                                                                                                                                                                                          Studio
+                                                                                                                                                                                                                                                                                          40
+                                                                                                                                                                                                                       offener Lichthof
+                                                                                                                                                                4.101
+                                                                                                                                                                Studio
+                                                                                                                                                                40
+
+
+
+
+                                                                                                                                                                                                                                                                                          4.101
+                                                                                                                                                                                                                                                                                          Studio
+                                                                                                                                                                                                                                                                                          40
+
+
+                                                                                                                                                                4.101
+                                                                                                                                                                Studio
+                                                                                                                                                                40
+
+
+
+
+                                                                                                                                                                                                                                                                                          4.101
+                                                                                                                                                                                                                                                                                          Studio
+                                                                                                                                                                                                                                                                                          40
+
+
+                      1.104               1.105                            1.104                1.104                 1.104                1.104              1.214                 1.213                                                                                                                                                                          Extensive Ansaat
+                                                        1.201                                                                                                 Wäsche-               Schmutz-
+                      Einzelzimmer        Sanitärr.                        Einzelzimmer         Einzelzimmer          Einzelzimmer         Einzelzimmer
+                                                        Aufenthalt                                                                                            wagen                 Wäsche
+                      Typ 2               6                                Typ 2                Typ 2                 Typ 2                Typ 2
+                                                        10                                                                                                    10 m2                 10 m2                                               1.209
+                      16                                                   16                   16                    16                   16
+                                                                                                                                                                                                                                        WC P
+                                                                                                                                                                                                                                        3
+                                                                                                                                                                                                                                        1.216
+                                                                                                                                                                                                                                        Pflegeartikel
+                      1.104                                                                                                                                                                                                             6 m2                                                                                                                            Extensive Ansaat
+                      Einzelzimmer                                                                                                                                                                                                                                                                                                                                      mit Substraterhöhung
+                                                                          1.105                       1.105           1.105                       1.105
+                      Typ 2
+                                                                          Sanitärr.                   Sanitärr.       Sanitärr.                   Sanitärr.                                                                             2.212
+                      16                  1.105                           6                           6               6                           6                                                                                     Pflege-
+                                          Sanitärr.                                                                                                                                                                                     Material
+                                          6                                                                                                                                                                                             18 m2
+
+                      1.104               1.105                                                                                                                                                                                         1.219
+                      Einzelzimmer        Sanitärr.                                                                                                                                                                                     Büro
+                      Typ 2               6                                                                                                                                                                                             Besprechung
+                      16                                                                                                                                                                                                                18
+                                                                                                                                                              1.215
+                                                                                                                                                              Mobilisationshilfen
+                                                                                                                                                              8                                                                         1.211
+                                                                                                                                                                                                                                        Büro
+                      1.104                                                                                                                                                                                                             Abteilungsleiter
+                      Einzelzimmer                                                                                                                                                                                                      12                                  1.104                  1.104                               1.105       1.104
+                      Typ 2                                                                                                                                         Bettenlift      Pers.-     Pers.-                                                                       Einzelzimmer           Einzelzimmer                        Sanitärr.   Einzelzimmer
+                      16                  1.105                                                                                                                                     Lift       Lift                                                                         Typ 2                  Typ 2                               6           Typ 2
+                                          Sanitärr.                                                                                                                                                                                                                         16                     16                                              16
+                                          6
+                                                                                           1.202         1.201                                                                                                                            1.210
+
+                                                                                                                                                                                                                             Schalter
+                                                                                           Ausguss       Aufenthalt                                                                                                                       Büro
+                      1.104                                                                8             25                                                                                                                               Pflegeteam
+                                          1.105
+                      Einzelzimmer                                                                                                                                                                                                        24
+                                          Sanitärr.
+                      Typ 2               6                                                                                                                                                                                                                                 1.105                         1.105
+                      16
+                                                                                                                                                                                                                                                                            Sanitärr.                     Sanitärr.
+                                                                                                                                                                                                                                                                            6                             6
+
+
+
+
+                       1.103
+                       Vorraum                                                                                                                                                   1.205
+                       9                    1.102          1.105                       1.105         1.105                           1.105                                                      1.207       1.207        1.206
+                                                                                                                                                                                 Abwaschr.      WC          WC           Lager
+                                            Sanitärr.      Sanitärr.                   Sanitärr.     Sanitärr.                       Sanitärr.                                   8
+                                            7              6                           6             6                               6                                                          4           4            5
+                                                                                                                                                                                 1.204
+                                                                                                                                                                                 Catering
+                                                                                                                                                                                 12
+
+
+                      1.101          1.101                 1.104                 1.104               1.104                  1.104                 1.203
+                      Einzelzimmer   Einzelzimmer          Einzelzimmer          Einzelzimmer        Einzelzimmer           Einzelzimmer          Zentraler Wohn-, Ess-
+                      Typ 1          Typ 1                 Typ 2                 Typ 2               Typ 2                  Typ 2                 und Aufenthaltsbereich
+                      17             16                    16                    16                  16                     16                    40
+                                                                                                                                                                                                                                                        1.201                          1.202
+                                                                                                                                                                                                                                                        Aufenthalt                     Ausguss
+                                                                                                                                                                                                                                                        25                             8
+                                                                                                                                                                         Terrasse
+
+
+                    Pflege (klassische Pflege)                                                                                                                                                 1.203
+                                                                                                                                                                                               Zentraler Wohn-, Ess-
+                                                                                                                                                                                               und Aufenthaltsbereich
+                    Wohnbereich A                                                                                                                                                              40
+                                                                                                                                                                                                                                                                                                                                                        1.103
+                    15 Zimmer                                                                                                                                                                                                                                                                                                                           Vorraum
+                                                                                                                                                                                                                        1.103
+                                                                                                                                                                                                1.102                                                                                                                                                   9
+                                                                                                                                                                                                                        Vorraum                 1.105                      1.105          1.105                       1.105        1.102
+                                                                                                                                                                                                Sanitärr.               7                       Sanitärr.                  Sanitärr.      Sanitärr.                   Sanitärr.    Sanitärr.
+                                                                                                                                                                                                7                                               6                          6              6                           6            7
+
+
+
+
+                                                                                                                                                                                               1.104                    1.208                   1.104                1.104                1.104               1.104               1.101            1.101
+                                                                                                                                                                                               Einzelzimmer             Ruheraum                Einzelzimmer         Einzelzimmer         Einzelzimmer        Einzelzimmer        Einzelzimmer     Einzelzimmer
+                                                                                                                                                                                               Typ 2                    14                      Typ 2                Typ 2                Typ 2               Typ 2               Typ 1            Typ 1
+                                                                                                                                                                                               16                                               16                   16                   16                  16                  16               17
+
+
+
+
+                                                                                                                                                                                                                                                                                                                      Pflege (klassische Pflege)
+                                                                                                                                                                                                                                                                                                                      Wohnbereich B
+                                                                                                                                                                                                                                                                                                                      14 Zimmer
+
+
+
+
+2. Obergeschoss:
+Klassische Alterspflege und
+Pflegestudios
+
+
+
+
+                    2. O b e r g e s c h o s s                                                                    M 1: 2 0 0                                                                                                                                                                                                                                      3. O b e r g e
+
+
+
+
+106
+         Modell
+         Bewohnerzimmer
+
+
+
+
+Aronia
+         Visualisierung
+
+
+
+
+                          107
+                 Nr. 8      PAUL & PAULA                           ohne Rang / Preis
+
+
+
+
+                 Architektur
+                 Fiechter & Salzmann Architekten GmbH, Zürich
+
+                 Landschaftsarchitektur
+                 Andreas Geser Landschaftsarchitekten AG, Zürich
+
+                 Baumanagement
+                 Fanzun AG, Zürich
+
+                 Bauingenieurwesen
+                 WMM Ingenieure AG, Münchenstein
+
+                 Bauphysik, Akustik
+                 Kopitsis Bauphysik AG, Wohlen
+
+                 Gebäudetechnik HLKS/MSRL
+                 Energiehoch4 AG, Zürich
+
+                 Brandschutz
+                 Fanzun AG, Chur
+
+
+
+Modell
+Südwestansicht
+
+
+
+
+108
+              Situationsplan
+
+
+
+
+Modell
+Nordansicht
+
+
+
+
+                        109
+      2. und 3. Obergeschoss:
+       Klassische Alterspflege
+
+
+
+
+110
+Modell
+Bewohnerzimmer
+
+
+
+
+                 Visualisierung
+
+
+
+
+                           111
+

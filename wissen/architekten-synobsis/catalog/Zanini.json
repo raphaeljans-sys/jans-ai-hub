@@ -1,0 +1,26 @@
+{
+  "slug": "Zanini",
+  "architekt": {
+    "name": "Zanini",
+    "nachname": "Zanini",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Zanini"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Zanini",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 4,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 4
+  },
+  "dateitypen": {
+    ".jpg": 4
+  },
+  "textauszug": "",
+  "embed_doc": "Zanini",
+  "stand": "2026-07-02T22:51:48"
+}

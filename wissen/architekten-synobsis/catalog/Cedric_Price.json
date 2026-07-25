@@ -1,0 +1,26 @@
+{
+  "slug": "Cedric_Price",
+  "architekt": {
+    "name": "Cedric Price",
+    "nachname": "Cedric Price",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Cedric Price"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Cedric Price",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 9,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 9
+  },
+  "dateitypen": {
+    ".jpg": 9
+  },
+  "textauszug": "",
+  "embed_doc": "Cedric Price",
+  "stand": "2026-07-02T21:11:49"
+}

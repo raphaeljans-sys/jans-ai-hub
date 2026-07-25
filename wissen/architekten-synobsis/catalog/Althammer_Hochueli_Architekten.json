@@ -1,0 +1,36 @@
+{
+  "slug": "Althammer_Hochueli_Architekten",
+  "architekt": {
+    "name": "Althammer Hochueli Architekten",
+    "nachname": "Althammer",
+    "vorname": "Hochueli Architekten",
+    "jahre": [],
+    "ordner": "Althammer_Hochueli_Architekten"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Althammer_Hochueli_Architekten",
+  "projekte": [
+    {
+      "raw": "Wohnsiedlung_Guggach",
+      "ort": "Wohnsiedlung",
+      "projekt": "Guggach",
+      "jahre": [],
+      "titel": "Wohnsiedlung Guggach"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 12,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 13
+  },
+  "dateitypen": {
+    ".jpg": 10,
+    ".png": 2,
+    ".pdf": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Althammer Hochueli Architekten | Wohnsiedlung Guggach",
+  "stand": "2026-07-02T21:05:42"
+}

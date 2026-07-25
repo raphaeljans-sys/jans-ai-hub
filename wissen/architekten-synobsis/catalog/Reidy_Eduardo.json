@@ -1,0 +1,56 @@
+{
+  "slug": "Reidy_Eduardo",
+  "architekt": {
+    "name": "Reidy Eduardo",
+    "nachname": "Reidy",
+    "vorname": "Eduardo",
+    "jahre": [],
+    "ordner": "Reidy_Eduardo"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Reidy_Eduardo",
+  "projekte": [
+    {
+      "raw": "Rio_ Sued_Wohnschlange",
+      "ort": "Rio",
+      "projekt": " Sued Wohnschlange",
+      "jahre": [],
+      "titel": "Rio  Sued Wohnschlange"
+    },
+    {
+      "raw": "Rio_de_Janeiro_Museumof_Modern_Art",
+      "ort": "Rio",
+      "projekt": "de Janeiro Museumof Modern Art",
+      "jahre": [],
+      "titel": "Rio de Janeiro Museumof Modern Art"
+    },
+    {
+      "raw": "Rio_de_Janeiro_Pavillon",
+      "ort": "Rio",
+      "projekt": "de Janeiro Pavillon",
+      "jahre": [],
+      "titel": "Rio de Janeiro Pavillon"
+    },
+    {
+      "raw": "Rio_de_Janeiro_school_of_Architecture",
+      "ort": "Rio",
+      "projekt": "de Janeiro school of Architecture",
+      "jahre": [],
+      "titel": "Rio de Janeiro school of Architecture"
+    }
+  ],
+  "projekt_anzahl": 4,
+  "inventar": {
+    "bilder": 38,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 38
+  },
+  "dateitypen": {
+    ".jpg": 33,
+    ".tif": 5
+  },
+  "textauszug": "",
+  "embed_doc": "Reidy Eduardo | Rio Sued Wohnschlange | Rio de Janeiro Museumof Modern Art | Rio de Janeiro Pavillon | Rio de Janeiro school of Architecture",
+  "stand": "2026-07-02T22:45:44"
+}

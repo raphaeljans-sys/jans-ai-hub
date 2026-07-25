@@ -1,0 +1,82 @@
+{
+  "slug": "Shinohara_Kazuo",
+  "architekt": {
+    "name": "Shinohara Kazuo",
+    "nachname": "Shinohara Kazuo",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Shinohara Kazuo"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Shinohara Kazuo",
+  "projekte": [
+    {
+      "raw": " Innenraumbilder Stark",
+      "ort": " Innenraumbilder Stark",
+      "projekt": " Innenraumbilder Stark",
+      "jahre": [],
+      "titel": "Innenraumbilder Stark"
+    },
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "3D_Stuetze",
+      "ort": "3D",
+      "projekt": "Stuetze",
+      "jahre": [],
+      "titel": "3D Stuetze"
+    },
+    {
+      "raw": "House_in_White",
+      "ort": "House",
+      "projekt": "in White",
+      "jahre": [],
+      "titel": "House in White"
+    },
+    {
+      "raw": "Stuetzenenfilade",
+      "ort": "Stuetzenenfilade",
+      "projekt": "Stuetzenenfilade",
+      "jahre": [],
+      "titel": "Stuetzenenfilade"
+    },
+    {
+      "raw": "The_uncompleted_house",
+      "ort": "The",
+      "projekt": "uncompleted house",
+      "jahre": [],
+      "titel": "The uncompleted house"
+    },
+    {
+      "raw": "Tokio_Wohnhaus_Seastairway_1971",
+      "ort": "Tokio",
+      "projekt": "Wohnhaus Seastairway",
+      "jahre": [
+        "1971"
+      ],
+      "titel": "Tokio Wohnhaus Seastairway 1971"
+    }
+  ],
+  "projekt_anzahl": 7,
+  "inventar": {
+    "bilder": 268,
+    "dokumente": 12,
+    "cad": 0,
+    "andere": 0,
+    "total": 280
+  },
+  "dateitypen": {
+    ".jpg": 266,
+    ".pdf": 11,
+    ".png": 1,
+    ".tif": 1,
+    ".txt": 1
+  },
+  "textauszug": "Kazuo Shinohara Literatur: - Shinohara_VL1 Einfuehrung 04SS - Shinohara_VL4 Zeichnung 04SS - Shinohara_VL4 Shinohara 08HS - Shinohara_Sato_Kazuo Shinohara_1996 - Sato, Atsushi: \"Kazuo Shinohara\", Tokyo. Toto, 1996. Name, Vorname: \"Titel. Untertitel\", Verlagsort: Verlag, Jahreszahl. 63 THEMA Kazuo Shihonara, Wohnhaus Seastairway, 1971, Tokio, Japan",
+  "embed_doc": "Shinohara Kazuo | Innenraumbilder Stark Innenraumbilder Stark | 00 Architekten | 3D Stuetze | House in White | Stuetzenenfilade Stuetzenenfilade | The uncompleted house | Tokio Wohnhaus Seastairway 1971 | Kazuo Shinohara Literatur: - Shinohara_VL1 Einfuehrung 04SS - Shinohara_VL4 Zeichnung 04SS - Shinohara_VL4 Shinohara 08HS - Shinohara_Sato_Kazuo Shinohara_1996 - Sato, Atsushi: \"Kazuo Shinohara\", Tokyo. Toto, 1996. Name, Vorname: \"Titel. Untertitel\", Verlagsort: Verlag, Jahreszahl. 63 THEMA Kazuo Shihonara, Wohnhaus Seastairway, 1971, Tokio, Japan",
+  "stand": "2026-07-02T22:48:30"
+}

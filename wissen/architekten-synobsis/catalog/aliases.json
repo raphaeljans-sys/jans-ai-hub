@@ -1,0 +1,171 @@
+{
+  "_meta": {
+    "created": "2026-07-01",
+    "source": "remote-tasks/results/20260628-scan-synopsis/namenskonventionen.txt",
+    "description": "Maps duplicate/variant architect folder names to their canonical slug. Canonical = underscore-separated, Nachname_Vorname where applicable, correct spelling, consistent casing.",
+    "count": 79,
+    "rules": [
+      "Space → underscore normalization",
+      "Name order: Nachname_Vorname (e.g. Ito_Toyo not Toyo Ito)",
+      "Correct spelling preferred (e.g. Conen_Sigel not Conen_Sigl)",
+      "ALL-CAPS normalized unless no mixed-case variant exists",
+      "Trailing whitespace stripped",
+      "DIFFERENT architects are NEVER merged (e.g. Olgiati_Rudolf vs Olgiati Valerio)"
+    ]
+  },
+
+  "Christ Gantenbein": "Christ_Gantenbein",
+
+  "Conen Sigel": "Conen_Sigel",
+  "Conen_Sigl": "Conen_Sigel",
+
+  "Enzmann Fischer": "Enzmann_Fischer",
+
+  "Giuliani Hönger": "Giuliani_Hoenger_Zuerich",
+  "Hönger_Giulliani": "Giuliani_Hoenger_Zuerich",
+
+  "Graber Pulver": "Graber_Pulver_Architekten",
+
+  "gigon guyer": "Gigon_Guyer",
+
+  "Esch Sinzel": "Esch_Sinzel_Architekten",
+
+  "Dudler": "Dudler_Max",
+
+  "Toyo Ito": "Ito_Toyo",
+
+  "Sou Fugimoto": "Fujimoto",
+
+  "Aando_Tadao": "Tadao_Ando",
+
+  "Smiljan Radic ": "Radic_Smjlian",
+
+  "Miller Maranta": "Miller_Maranta",
+
+  "Mueller Sigrist": "Mueller_Sigrist",
+
+  "Meili Partner": "Meili_Partner",
+
+  "IGUALGUGGENHEIM": "Igual_Guggenheim",
+
+  "BAUMBERGER_STEGMEIER": "Baumberger_Stegmeier",
+
+  "Go_Hasegawa": "Hasegawa_Go",
+
+  "Cedric Price": "Price_Cedric",
+  "Price_Sederic": "Price_Cedric",
+
+  "Steven_Holl": "Holl_Steven",
+
+  "Reidy Alfonso": "Reidy_Eduardo",
+
+  "Josep_Llinas": "Llinas_Joseph",
+
+  "Paul_Rudolph": "Rudolph_Paul",
+
+  "Bawa Cheffrey": "Bawa_Geoffrey",
+
+  "Blaf Architekten": "Blaf_Architekten",
+
+  "Brassel Architekten": "Brassel_Architekten",
+
+  "Brooks Alison Architects": "Brooks_Alison_Architects",
+
+  "Brunhart Brunner Kranz": "Brunhart_Brunner_Kranz",
+
+  "Burkhard Meyer Architekt": "Burkhard_Meyer_Architekt",
+
+  "Conte Pianetti Zanetta Arch ": "Conte_Pianetti_Zanetta_Arch",
+
+  "Dietrich Untertrifaller": "Dietrich_Untertrifaller",
+
+  "Duplex Architekten": "Duplex_Architekten",
+
+  "Durisch Noelli": "Durisch_Noelli",
+
+  "Erhard Jann": "Erhard_Jann",
+
+  "Fischer Ammann Architekten, Schulanlage Freilager Zürich Albisrieden": "Fischer_Ammann_Architekten",
+
+  "Fischer Theodor": "Fischer_Theodor",
+
+  "Gambardella architetti": "Gambardella_Architetti",
+
+  "Gmür Gschwentner": "Gmuer_Gschwentner",
+
+  "Hauenstein LaRoche Schedler": "Hauenstein_LaRoche_Schedler",
+
+  "Heller Patrick": "Heller_Patrick",
+
+  "Huber Waser Mühlebach": "Huber_Waser_Muehlebach",
+
+  "Ilg Santer Architekten": "Ilg_Santer_Architekten",
+
+  "Jans Raphael": "Jans_Raphael",
+
+  "Jourda Francoise": "Jourda_Francoise",
+
+  "Karamuk Kuo Architekten": "Karamuk_Kuo_Architekten",
+
+  "Kjellander Sjoberg": "Kjellander_Sjoberg",
+
+  "Kummer Schiess": "Kummer_Schiess",
+
+  "Ladner Meyer Architekten": "Ladner_Meyer_Architekten",
+
+  "Lussi Halter": "Lussi_Halter",
+
+  "Maibach Manuel": "Maibach_Manuel",
+
+  "Marques Daniele": "Marques_Daniele",
+
+  "Meier Hug": "Meier_Hug",
+
+  "Melly Benjamin": "Melly_Benjamin",
+
+  "Melnikov Konstantin": "Melnikov_Konstantin",
+
+  "Murcutt Glenn": "Murcutt_Glenn",
+
+  "Nash John": "Nash_John",
+
+  "Nikisch Walder": "Nikisch_Walder",
+
+  "Oester Pfeninger": "Oester_Pfeninger",
+
+  "Ortner Ortner": "Ortner_Ortner",
+
+  "Pezo von Ellrichshausen": "Pezo_von_Ellrichshausen",
+
+  "Poelzig Hans": "Poelzig_Hans",
+
+  "Ponti Gio": "Ponti_Gio",
+
+  "Reiluf Ramstad Architekten": "Reiluf_Ramstad_Architekten",
+
+  "Ruf Sepp": "Ruf_Sepp",
+
+  "Schlup Max": "Schlup_Max",
+
+  "Schmitthenner Paul": "Schmitthenner_Paul",
+
+  "Schneller Andreas": "Schneller_Andreas",
+
+  "Semadenin Armon Architekten": "Semadenin_Armon_Architekten",
+
+  "Shinohara Kazuo": "Shinohara_Kazuo",
+
+  "Snozzi Luigi": "Snozzi_Luigi",
+
+  "Studio Blay Streeruwitz": "Studio_Blay_Streeruwitz",
+
+  "Ted Architekten": "Ted_Architekten",
+
+  "Zita Cotti": "Zita_Cotti",
+
+  "Dreyer Otto": "Dreyer_Otto",
+
+  "Dominioni Luigi Caccia": "Dominioni_Luigi_Caccia",
+
+  "Smith Samuel Modell": "Smith_Samuel_Modell"
+}

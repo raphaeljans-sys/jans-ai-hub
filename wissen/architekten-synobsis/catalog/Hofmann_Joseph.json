@@ -1,0 +1,34 @@
+{
+  "slug": "Hofmann_Joseph",
+  "architekt": {
+    "name": "Hofmann Joseph",
+    "nachname": "Hofmann",
+    "vorname": "Joseph",
+    "jahre": [],
+    "ordner": "Hofmann_Joseph"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Hofmann_Joseph",
+  "projekte": [
+    {
+      "raw": "Bruessel_Palais_Stoclet",
+      "ort": "Bruessel",
+      "projekt": "Palais Stoclet",
+      "jahre": [],
+      "titel": "Bruessel Palais Stoclet"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 18,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 18
+  },
+  "dateitypen": {
+    ".jpg": 18
+  },
+  "textauszug": "",
+  "embed_doc": "Hofmann Joseph | Bruessel Palais Stoclet",
+  "stand": "2026-07-02T21:18:09"
+}

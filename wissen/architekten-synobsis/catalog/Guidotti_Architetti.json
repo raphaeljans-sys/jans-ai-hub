@@ -1,0 +1,34 @@
+{
+  "slug": "Guidotti_Architetti",
+  "architekt": {
+    "name": "Guidotti Architetti",
+    "nachname": "Guidotti",
+    "vorname": "Architetti",
+    "jahre": [],
+    "ordner": "Guidotti_Architetti"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Guidotti_Architetti",
+  "projekte": [
+    {
+      "raw": "LVPH_architectes",
+      "ort": "LVPH",
+      "projekt": "architectes",
+      "jahre": [],
+      "titel": "LVPH architectes"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".jpg": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Guidotti Architetti | LVPH architectes",
+  "stand": "2026-07-02T21:16:42"
+}

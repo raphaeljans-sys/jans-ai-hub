@@ -1,0 +1,26 @@
+{
+  "slug": "Seddig",
+  "architekt": {
+    "name": "Seddig",
+    "nachname": "Seddig",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Seddig"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Seddig",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".jpg": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Seddig",
+  "stand": "2026-07-02T22:47:49"
+}

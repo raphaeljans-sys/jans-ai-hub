@@ -1,0 +1,50 @@
+# INDEX — Wissensbasis Firmengründung Schweiz
+
+## Fokus-Bereiche & Artikel
+
+### Rechtsformwahl
+- [[rechtsform-vergleich]] — Einzelfirma/Personengesellschaften/GmbH/AG/Ltd: Kapital, Haftung, Kosten · *established*
+
+### AG-Gründungsprozess
+- [[ag-gruendungsablauf]] — Master-Ablauf Schritt für Schritt (13 Schritte) · *established*
+- [[statuten-ag]] — Mindestinhalt der Statuten · *established*
+- [[errichtungsakt]] — öffentliche Gründungsurkunde (Art. 629 f. OR, Art. 44 HRegV) · *established*
+- [[belege-handelsregister]] — 15 Belege für die HR-Neueintragung · *established*
+
+### GmbH-Gründungsprozess
+- [[gmbh-gruendungsablauf]] — Master-Ablauf als Pendant zur AG (12 Schritte + Delta-Tabelle
+  Kapital/Organe/Öffentlichkeit/Übertragbarkeit/Revision/Nachschusspflicht) · *established*
+  (Artikelnummern über Sekundärquellen plausibilisiert, needs-verification am Fedlex-Volltext)
+
+### Nach der Gründung
+- [[nachgruendung-anmeldungen]] — AHV-Ausgleichskasse, BVG-Anschluss, UVG-Versicherer,
+  MWST-Registrierung: wer/Frist/Schwelle je Anmeldung, Reihenfolge in der Praxis · *established*
+  (needs-verification bei Fristen-Details/Kanton-Spezifika, Sekundärquellen)
+
+### Kapital & Organe
+- [[kapital-und-liberierung]] — Mindestkapital, Bar-/Sacheinlage, Sperrkonto, Emissionsabgabe · *established*
+- [[revision-und-opting-out]] — Revisionsstelle & Verzicht (Opting-out) · *established*
+- [[verwaltungsrat]] — Konstituierung (Amtsdauer/Präsidium), unübertragbare Aufgaben (Art. 716a),
+  Vertretung, Sorgfaltspflicht, Liquiditäts-/Kapitalverlust-/Überschuldungspflichten
+  (Art. 725–725b), Haftung (Art. 754–760) · *established* (OR-Artikel Fedlex-Volltext-verifiziert)
+
+### Kosten & Zeit
+- [[kosten-und-zeit]] — Gründungskosten und Zeitbedarf · *established*
+
+### Steuern (Gründung + laufend)
+- [[steuern-bei-gruendung]] — Kapitalsteuer (0,75 ‰ ZH), Gewinnsteuer (8,5 % Bund + 7 % ZH),
+  Verrechnungssteuer (35 %, Kapitaleinlageprinzip), Steuererleichterungen § 62 StG · *established*
+- [[steuern-ag-inhaber]] — Steuerhebel des AG-Inhabers ZH: PK-Einkauf, Säule 3a, Lohn/Dividende, situative Hebel, Jahresende-Checkliste · *established* (promoviert aus Output 02.07.2026)
+- [[holding-struktur]] — Beteiligungsabzug Art. 69/70 DBG, Transponierungsfalle bei Einbringung,
+  indirekte Teilliquidation, Übernahmeholding bei Nachfolge · *established* (Art. 69/70 + 20a
+  DBG Fedlex-verifiziert)
+
+## Backlog / Lücken
+Siehe [[QUESTIONS]] — Backlog-Punkt «Verwaltungsrat» am 25.07.2026 geschlossen, keine offenen
+Coverage-Lücken mehr registriert.
+
+## Statistik (Stand 2026-07-25)
+- Artikel im Wiki: 13
+- Offene Coverage-Lücken: 0 (Verwaltungsrat am 25.07.2026 geschlossen; Steuern bei Gründung am 24.07.2026)
+- Outputs: 3 (neue-ag-gruenden_vorgehen, health-check 2026-07-01, steuern-sparen-ag-inhaber)
+- Letzter Health-Check: 2026-07-21 (Mac Mini Nachtschicht)

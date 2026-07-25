@@ -1,0 +1,57 @@
+{
+  "slug": "Lacatonvassal",
+  "architekt": {
+    "name": "Lacatonvassal",
+    "nachname": "Lacatonvassal",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Lacatonvassal"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Lacatonvassal",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Floirac_Haus_Latapie",
+      "ort": "Floirac",
+      "projekt": "Haus Latapie",
+      "jahre": [],
+      "titel": "Floirac Haus Latapie"
+    },
+    {
+      "raw": "Nantes_School_of_Architecture",
+      "ort": "Nantes",
+      "projekt": "School of Architecture",
+      "jahre": [],
+      "titel": "Nantes School of Architecture"
+    },
+    {
+      "raw": "Wien_Cafe_Una",
+      "ort": "Wien",
+      "projekt": "Cafe Una",
+      "jahre": [],
+      "titel": "Wien Cafe Una"
+    }
+  ],
+  "projekt_anzahl": 4,
+  "inventar": {
+    "bilder": 15,
+    "dokumente": 7,
+    "cad": 0,
+    "andere": 0,
+    "total": 22
+  },
+  "dateitypen": {
+    ".png": 12,
+    ".pdf": 7,
+    ".jpg": 3
+  },
+  "textauszug": "Haus Latapie, Floirac. Lacaton & Vassal, 1993 Haus Latapie, Floirac. Lacaton & Vassal, 1993 Haus Latapie, Floirac. Lacaton & Vassal, 1993 Haus Latapie, Floirac. Lacaton & Vassal, 1993 Café Una, Wien. Lacaton & Vassal 2001 Café Una, Wien. Lacaton & Vassal 2001",
+  "embed_doc": "Lacatonvassal | 00 Architekten | Floirac Haus Latapie | Nantes School of Architecture | Wien Cafe Una | Haus Latapie, Floirac. Lacaton & Vassal, 1993 Haus Latapie, Floirac. Lacaton & Vassal, 1993 Haus Latapie, Floirac. Lacaton & Vassal, 1993 Haus Latapie, Floirac. Lacaton & Vassal, 1993 Café Una, Wien. Lacaton & Vassal 2001 Café Una, Wien. Lacaton & Vassal 2001",
+  "stand": "2026-07-02T21:35:44"
+}

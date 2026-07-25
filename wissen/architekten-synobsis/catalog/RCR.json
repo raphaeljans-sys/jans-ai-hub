@@ -1,0 +1,52 @@
+{
+  "slug": "RCR",
+  "architekt": {
+    "name": "RCR",
+    "nachname": "RCR",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "RCR"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/RCR",
+  "projekte": [
+    {
+      "raw": "ElCroquis",
+      "ort": "ElCroquis",
+      "projekt": "ElCroquis",
+      "jahre": [],
+      "titel": "ElCroquis"
+    },
+    {
+      "raw": "Fotos",
+      "ort": "Fotos",
+      "projekt": "Fotos",
+      "jahre": [],
+      "titel": "Fotos"
+    },
+    {
+      "raw": "PDF",
+      "ort": "PDF",
+      "projekt": "PDF",
+      "jahre": [],
+      "titel": "PDF"
+    }
+  ],
+  "projekt_anzahl": 3,
+  "inventar": {
+    "bilder": 6,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 8,
+    "total": 15
+  },
+  "dateitypen": {
+    ".psd": 7,
+    ".jpg": 5,
+    "": 1,
+    ".gif": 1,
+    ".pdf": 1
+  },
+  "textauszug": "Espacios de Sombra Lotus Blau Lotus Blau Shade Spaces SANTA COLOMA DE FARNERS, GIRONA, SPAIN 2007 ESPAÑA Lotus Blau 15/11/07 14:01 Página 182 Lotus Blau 15/11/07 14:01 Página 183 184 1 Santa Coloma de Farners 2 Acceso a Santa Coloma de Farners 3 Riera de Santa Coloma 4 Balneario Termas Orión 5 Lotus Blau 6 Espacio Polivalente 1 Lotus Blau 2 Espacio polivalente A 3 Espacio polivalente B 4 Lámina de agua 5 Mirador 6 Parque infantil 7 Zona instalaciones y servicios 8 Nuevo acceso servicios 9 Parque Balneario 10 Entrada principal 11 Camino Paraguas o parasoles para un día de fiesta. Paraguas chapoteando, parasoles refrescándose sobre una lámina de agua. La unidad y el conjunto, las partes y el todo. Una construcción afacetada que resuelve de un trazo la estructura, el cerramiento y el acabado, impregnándose de luces y sombras, vibr ando unitaria y conjuntamente. Umbrellas or sunshades for a festive day. Splashing umbrellas, sunshades cooling down on a film of water. Unit and group, parts a nd the whole. A faceted con- struction which, with one line, resolves the structure, the enclosure and the finish, impregnated with lights and shadows, vibr ating unitarily and collectively. Planta de situación / Site plan Planta general de cubiertas / Overall roof plan Lotus Blau 7/11/07 14:19 Página 184 Lotus Blau 7/11/07 14:19 Página 185 186 1 Edificio Lotus Blau 2 Espacio polivalente A 3 Espacio polivalente B 4 Lámina de agua 5 Jardín de césped y abedul blanco 6 Acceso espacio polivalente 7 Acceso personal 8 Talud ajardinado Planta y alzados / Floor plan and elevations Lotus Blau 15/11/07 14:01 Página 186 Lotus Blau 15/11/07 14:01 Página 187",
+  "embed_doc": "RCR | ElCroquis ElCroquis | Fotos Fotos | PDF PDF | Espacios de Sombra Lotus Blau Lotus Blau Shade Spaces SANTA COLOMA DE FARNERS, GIRONA, SPAIN 2007 ESPAÑA Lotus Blau 15/11/07 14:01 Página 182 Lotus Blau 15/11/07 14:01 Página 183 184 1 Santa Coloma de Farners 2 Acceso a Santa Coloma de Farners 3 Riera de Santa Coloma 4 Balneario Termas Orión 5 Lotus Blau 6 Espacio Polivalente 1 Lotus Blau 2 Espacio polivalente A 3 Espacio polivalente B 4 Lámina de agua 5 Mirador 6 Parque infantil 7 Zona instalaciones y servicios 8 Nuevo acceso servicios 9 Parque Balneario 10 Entrada principal 11 Camino Paraguas o parasoles para un día de fiesta. Paraguas chapoteando, parasoles refrescándose sobre una lámina de agua. La unidad y el conjunto, las partes y el todo. Una construcción afacetada que resuelve de un trazo la estructura, el cerramiento y el acabado, impregnándose de luces y sombras, vibr ando unitaria y conjuntamente. Umbrellas or sunshades for a festive day. Splashing umbrellas, sunshades cooling down on a film of water. Unit and group, parts a nd the whole. A faceted con- struction which, with one line, resolves the structure, the enclosure and the finish, impregnated with lights and shadows, vibr ating unitarily and collectively. Planta de situación / Site plan Planta general de cubiertas / Overall roof plan Lotus Blau 7/11/07 14:19 Página 184 Lotus Blau 7/11/07 14:19 Página 185 186 1 Edificio Lotus Blau 2 Espacio polivalente A 3 Espacio polivalente B 4 Lámina de agua 5 Jardín de césped y abedul blanco 6 Acceso espacio polivalente 7 Acceso personal 8 Talud ajardinado Planta y alzados / Floor plan and elevations Lotus Blau 15/11/07 14:01 Página 186 Lotus Blau 15/11/07 14:01 Página 187",
+  "stand": "2026-07-02T22:45:29"
+}

@@ -1,0 +1,80 @@
+{
+  "los_prefix":            "LOS 272 Metallbau Fertigteile 2620_Albertstrasse7",
+  "los_titel":             "LOS 272 — Metallbauarbeiten / Fertigteile (NPK 612)",
+  "betreff":               "Offertanfrage – Metallbauarbeiten / Fertigteile, Albertstrasse 7, Zürich (BKP 272)",
+  "projekt_adresse":       "2620 Albertstrasse 7, 8005 Zürich",
+  "datum_ort":             "Zürich, 2. Juni 2026",
+
+  "bauherr_zeilen": [
+    "Nova Property Fund Management AG",
+    "handelnd für Swiss Central City Real Estate Fund",
+    "8001 Zürich"
+  ],
+
+  "anschreiben_einleitung": "Für die Sanierung des Mehrfamilienhauses an der Albertstrasse 7 in Zürich laden wir Sie ein, ein Angebot für die Metallbauarbeiten / Fertigteile (NPK 612) einzureichen. Gegenstand dieses Loses sind zwei Fertigteile: ein Aussen-Veloständer sowie eine Wäsche-Hängevorrichtung für die Waschküche. Die Submission erfolgt im offenen Verfahren; alle Anbieter erhalten dieselben Unterlagen, dieselbe Frist und dasselbe Antwortformular.",
+  "grundlagen_satz":        "Massgebend sind das beiliegende Leistungsverzeichnis, der Objektplan / Grundriss mit Standort des Aussen-Veloständers und der Waschküchen sowie die Anordnungsskizze der Wäsche-Hängevorrichtung. Sämtliche Mengen sind funktional bzw. ab Plan angesetzt und vor Ausführung am Bau zu prüfen; die genaue Positionierung erfolgt in Absprache mit dem Architekten.",
+  "eingabefrist_satz":      "Wir bitten Sie, uns Ihr vollständiges Angebot (bepreistes Leistungsverzeichnis und ausgefülltes Antwortformular) bis spätestens Freitag, 26. Juni 2026, zukommen zu lassen.",
+  "besichtigung":           "Eine gemeinsame Objektbesichtigung findet am Freitag, 12. Juni 2026, um 13:30 Uhr vor Ort statt (Treffpunkt Albertstrasse 7, 8005 Zürich). Wir bitten um kurze Bestätigung Ihrer Teilnahme.",
+
+  "lv_einleitung":          "Metallbauarbeiten / Fertigteile für die Sanierung an der Albertstrasse 7 (rund 25 Wohneinheiten). Sämtliche Positionen umfassen Lieferung, Montage und Befestigung am Bau inkl. Befestigungsmaterial, soweit nicht anders vermerkt. Stahlteile feuerverzinkt und duplexiert, Farbton nach Angaben Architekt (RAL oder NCS). Die mit 'ca.' bezeichneten Mengen sind provisorisch auf rund 25 Wohneinheiten bemessen, ab Plan zu bestätigen und vor Ausführung am Bau zu prüfen.",
+
+  "bauseits": [
+    "Baumeister-/Betonarbeiten und bauseitige Montageplatten bzw. Beton-Aussenwand für die Befestigung",
+    "Elektroanschlüsse (sofern für ein Bauteil erforderlich)",
+    "Maler- und Gipserarbeiten an angrenzenden Bauteilen",
+    "Bauseitige Wandöffnungen, Kernbohrungen über Standardmass und statische Ertüchtigungen"
+  ],
+
+  "positionen": [
+    {
+      "bereich": "1  Allgemeines",
+      "items": [
+        {"pos": "272.01", "bez": "Baustelleneinrichtung, An- und Abtransport, Mehraufwand für das Arbeiten im bewohnten Zustand gemäss SIA 118", "menge": "1", "einheit": "pausch", "spez": "alle Aufwände pauschal in dieser Position oder in die Einzelpositionen einrechnen"},
+        {"pos": "272.02", "bez": "Aufmass am Bau, Werkstatt- und Montageplanung, Bemusterung des Farbtons", "menge": "1", "einheit": "pausch", "spez": "kein zusätzlicher Planungsaufwand wird vergütet, sofern nicht anders vermerkt"}
+      ]
+    },
+    {
+      "bereich": "2  Veloständer Aussen",
+      "items": [
+        {"pos": "272.11", "bez": "Veloständer-Anlage Aussen (Anlehnbügel-Typ), Stahl feuerverzinkt und duplexiert (Farbe nach Angaben Architekt, RAL oder NCS); bestellen, liefern und montieren an bauseitige Betonfläche bzw. Aussenwand gemäss Objektplan und Anordnungsskizze, inkl. Befestigungsmaterial und Bohrarbeiten", "menge": "ca. 25", "einheit": "Stk", "spez": "Veloabstellplätze; provisorisch für rund 25 Wohneinheiten (rund 1 Aussen-Veloabstellplatz je WE); Anzahl, Typ und Anordnung gemäss Architektenplan, am Bau zu prüfen"},
+        {"pos": "272.12", "bez": "Einheitspreis für Mehr-/Mindermenge je zusätzlichem Veloabstellplatz gleicher Ausführung", "menge": "1", "einheit": "Stk", "spez": "Einheitspreis für spätere Mengenanpassung"}
+      ]
+    },
+    {
+      "bereich": "3  Wäsche-Hängevorrichtung Waschküche",
+      "items": [
+        {"pos": "272.21", "bez": "Wäsche-Hängevorrichtung Waschküche / Trockenraum gemäss beiliegender Skizze, Gesamtlänge ca. 18 m je Anlage, inkl. Rollenübertragung und üblicher Spannvorrichtung; Stahl feuerverzinkt und duplexiert (Farbe nach Angaben Architekt, RAL oder NCS); bestellen, liefern und montieren, genaue Positionierung in Absprache mit dem Architekten", "menge": "ca. 2", "einheit": "Stk", "spez": "Anlagen; provisorisch 2 Waschküchen/Trockenräume für rund 25 Wohneinheiten; Anzahl und Gesamtlänge ab Plan/Skizze zu bestätigen"},
+        {"pos": "272.22", "bez": "Einheitspreis für Mehr-/Mindermenge je zusätzlichem Laufmeter Trockenleine gleicher Ausführung", "menge": "1", "einheit": "lm", "spez": "Einheitspreis für spätere Mengenanpassung"}
+      ]
+    },
+    {
+      "bereich": "4  Diverses und Regie",
+      "items": [
+        {"pos": "272.90", "bez": "Anpassungs- und Befestigungsarbeiten an bestehenden Bauteilen", "menge": "1", "einheit": "pausch", "spez": "nach Aufwand, Detail vor Ort"},
+        {"pos": "272.91", "bez": "Regiearbeiten gelernter Metallbauer (Stundenansatz)", "menge": "20", "einheit": "Std", "spez": "nur auf Anordnung der Bauleitung"},
+        {"pos": "272.92", "bez": "Regiearbeiten Hilfskraft (Stundenansatz)", "menge": "10", "einheit": "Std", "spez": "nur auf Anordnung der Bauleitung"}
+      ]
+    }
+  ],
+
+  "beilagen_namen": [
+    "Leistungsverzeichnis (zum Bepreisen)",
+    "Antwortformular",
+    "Grobterminplan",
+    "Objektplan / Grundriss mit Standort Veloständer und Waschküchen",
+    "Anordnungsskizze Wäsche-Hängevorrichtung"
+  ],
+  "beilagen_files": [],
+
+  "anbieter": [
+    {
+      "kurzname": "MUSTER-DOSSIER",
+      "zeilen":   ["[ Firma ]", "[ Strasse Nr. ]", "[ PLZ Ort ]"],
+      "empfaenger": ["[ Firma ]", "[ Strasse Nr. ]", "[ PLZ Ort ]"],
+      "anrede":   "Sehr geehrte Damen und Herren"
+    }
+  ],
+
+  "output_aihub_versand": "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AD - 01 Geschaeftsfuerung/JANS AI/30 JANS AI HUB OUTPUT/submission/2620-albertstrasse-272-metallbau-fertigteile/260602-versand",
+  "projekt_versand_dir": ""
+}

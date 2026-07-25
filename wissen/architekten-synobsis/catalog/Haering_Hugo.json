@@ -1,0 +1,56 @@
+{
+  "slug": "Haering_Hugo",
+  "architekt": {
+    "name": "Haering Hugo",
+    "nachname": "Haering",
+    "vorname": "Hugo",
+    "jahre": [],
+    "ordner": "Haering_Hugo"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Haering_Hugo",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Biberach_Haus_fuer_Guido_Schmitz",
+      "ort": "Biberach",
+      "projekt": "Haus fuer Guido Schmitz",
+      "jahre": [],
+      "titel": "Biberach Haus fuer Guido Schmitz"
+    },
+    {
+      "raw": "gta",
+      "ort": "gta",
+      "projekt": "gta",
+      "jahre": [],
+      "titel": "gta"
+    },
+    {
+      "raw": "haerign",
+      "ort": "haerign",
+      "projekt": "haerign",
+      "jahre": [],
+      "titel": "haerign"
+    }
+  ],
+  "projekt_anzahl": 4,
+  "inventar": {
+    "bilder": 100,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 100
+  },
+  "dateitypen": {
+    ".png": 74,
+    ".jpg": 26
+  },
+  "textauszug": "",
+  "embed_doc": "Haering Hugo | 00 Architekten | Biberach Haus fuer Guido Schmitz | gta gta | haerign haerign",
+  "stand": "2026-07-02T21:16:55"
+}

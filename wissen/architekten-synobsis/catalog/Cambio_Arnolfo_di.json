@@ -1,0 +1,42 @@
+{
+  "slug": "Cambio_Arnolfo_di",
+  "architekt": {
+    "name": "Cambio Arnolfo di",
+    "nachname": "Cambio",
+    "vorname": "Arnolfo di",
+    "jahre": [],
+    "ordner": "Cambio_Arnolfo_di"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Cambio_Arnolfo_di",
+  "projekte": [
+    {
+      "raw": "Florenz_Santa_Croce_1430",
+      "ort": "Florenz",
+      "projekt": "Santa Croce 1430",
+      "jahre": [],
+      "titel": "Florenz Santa Croce 1430"
+    },
+    {
+      "raw": "Florenz_Santa_Maria_del_Fiore_1472",
+      "ort": "Florenz",
+      "projekt": "Santa Maria del Fiore 1472",
+      "jahre": [],
+      "titel": "Florenz Santa Maria del Fiore 1472"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 1,
+    "total": 3
+  },
+  "dateitypen": {
+    ".jpg": 2,
+    ".textclipping": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Cambio Arnolfo di | Florenz Santa Croce 1430 | Florenz Santa Maria del Fiore 1472",
+  "stand": "2026-07-02T21:10:24"
+}

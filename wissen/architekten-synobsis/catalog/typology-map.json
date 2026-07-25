@@ -1,0 +1,895 @@
+{
+  "_meta": {
+    "quelle": "1 Selection Ordnerstruktur",
+    "stand": "2026-07-01",
+    "raumtypen": 9,
+    "projekte_gesamt": 105
+  },
+  "raumtypen": {
+    "Atomisierter Raum": {
+      "beschreibung": "Fragmentierte, aufgelöste Raumstrukturen — Durchdringung von Innen und Aussen, Auflösung der Gebäudehülle in einzelne Elemente oder Zellen.",
+      "projekte": [
+        {
+          "ordner": "21st Century Museum of Contemporary Art, Kanazawa, Sanaa",
+          "projekt": "21st Century Museum of Contemporary Art",
+          "ort": "Kanazawa",
+          "architekt": "SANAA",
+          "jahr": null,
+          "architekt_slug": "SANAA"
+        },
+        {
+          "ordner": "House NA, Tokio, Sou Fujimoto, 2011",
+          "projekt": "House NA",
+          "ort": "Tokio",
+          "architekt": "Sou Fujimoto",
+          "jahr": "2011",
+          "architekt_slug": "Fujimoto"
+        },
+        {
+          "ordner": "Le Cabanon, Cap Martin, Le Corbusier, 1952",
+          "projekt": "Le Cabanon",
+          "ort": "Cap Martin",
+          "architekt": "Le Corbusier",
+          "jahr": "1952",
+          "architekt_slug": "Le_Corbusier"
+        },
+        {
+          "ordner": "Sou Fujimoto designs masterplan made from modular arches",
+          "projekt": "Masterplan made from modular arches",
+          "ort": null,
+          "architekt": "Sou Fujimoto",
+          "jahr": null,
+          "architekt_slug": "Fujimoto"
+        }
+      ]
+    },
+    "Fliessender Raum": {
+      "beschreibung": "Kontinuierliche, ineinander übergehende Räume ohne harte Grenzen — die Architektur des freien Grundrisses und der fliessenden Übergänge zwischen Innen, Aussen und Geschossen.",
+      "projekte": [
+        {
+          "ordner": "Banco Pinto & Sotto Mayor, Siza, 1978",
+          "projekt": "Banco Pinto & Sotto Mayor",
+          "ort": null,
+          "architekt": "Siza",
+          "jahr": "1978",
+          "architekt_slug": "Siza_Alvaro_Vieira"
+        },
+        {
+          "ordner": "Fallingwather, Pennsylvania, Wright, 1934-37",
+          "projekt": "Fallingwater",
+          "ort": "Pennsylvania",
+          "architekt": "Frank Lloyd Wright",
+          "jahr": "1934-37",
+          "architekt_slug": "Wright_Frank_Lord_1867_1959"
+        },
+        {
+          "ordner": "Musashino Art University Library by Sou Fujimoto Architects, Tokyo, Japan",
+          "projekt": "Musashino Art University Library",
+          "ort": "Tokyo",
+          "architekt": "Sou Fujimoto",
+          "jahr": null,
+          "architekt_slug": "Fujimoto"
+        },
+        {
+          "ordner": "Rolex Learning Center, EPFL Lausanne, Sanaa, 2004",
+          "projekt": "Rolex Learning Center",
+          "ort": "EPFL Lausanne",
+          "architekt": "SANAA",
+          "jahr": "2004",
+          "architekt_slug": "SANAA"
+        }
+      ]
+    },
+    "Grosse Halle": {
+      "beschreibung": "Monumentale, überspannte Einraumsysteme — grosse stützenfreie oder minimal gegliederte Hallen, die durch ihre schiere Dimension und Raumhöhe wirken.",
+      "projekte": [
+        {
+          "ordner": "Administrationsgebäude Larkin Company, wright",
+          "projekt": "Administrationsgebäude Larkin Company",
+          "ort": "Buffalo",
+          "architekt": "Frank Lloyd Wright",
+          "jahr": null,
+          "architekt_slug": "Wright_Frank_Lord_1867_1959"
+        },
+        {
+          "ordner": "Aires Mateus",
+          "projekt": null,
+          "ort": null,
+          "architekt": "Aires Mateus",
+          "jahr": null,
+          "architekt_slug": "Aires_Mateus_Associados"
+        },
+        {
+          "ordner": "Biblioteca Vasconcelos, Mexiko-Stadt, Kalach, 2007",
+          "projekt": "Biblioteca Vasconcelos",
+          "ort": "Mexiko-Stadt",
+          "architekt": "Kalach",
+          "jahr": "2007",
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Candida Höfer, Bibliotheken, Fotografie",
+          "projekt": "Bibliotheken (Fotografie)",
+          "ort": null,
+          "architekt": "Candida Höfer",
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Durisch Nölli Primarschule in Riva San Vitale",
+          "projekt": "Primarschule",
+          "ort": "Riva San Vitale",
+          "architekt": "Durisch Noelli",
+          "jahr": null,
+          "architekt_slug": "Durisch Noelli"
+        },
+        {
+          "ordner": "FAU-USP, Rio de Janeiro, Artigas, 1961-68",
+          "projekt": "FAU-USP",
+          "ort": "Rio de Janeiro",
+          "architekt": "Artigas",
+          "jahr": "1961-68",
+          "architekt_slug": "Artigas_Vilanova"
+        },
+        {
+          "ordner": "Freilichtbühne der Salzburger Festspiele Clemens Holzmeister",
+          "projekt": "Freilichtbühne der Salzburger Festspiele",
+          "ort": "Salzburg",
+          "architekt": "Clemens Holzmeister",
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Henri Labrouste",
+          "projekt": null,
+          "ort": null,
+          "architekt": "Henri Labrouste",
+          "jahr": null,
+          "architekt_slug": "Labrouste_Henri_1801_1875"
+        },
+        {
+          "ordner": "Midway Gardens, Chicago, Wright, 1924",
+          "projekt": "Midway Gardens",
+          "ort": "Chicago",
+          "architekt": "Frank Lloyd Wright",
+          "jahr": "1924",
+          "architekt_slug": "Wright_Frank_Lord_1867_1959"
+        },
+        {
+          "ordner": "Mosche, Cordoba",
+          "projekt": "Moschee",
+          "ort": "Córdoba",
+          "architekt": null,
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Perret",
+          "projekt": null,
+          "ort": null,
+          "architekt": "Perret",
+          "jahr": null,
+          "architekt_slug": "Perret_Auguste_Gustave_1874_1954"
+        },
+        {
+          "ordner": "Racine Wisconsin Johnson Wax Building 1936-39",
+          "projekt": "Johnson Wax Building",
+          "ort": "Racine, Wisconsin",
+          "architekt": "Frank Lloyd Wright",
+          "jahr": "1936-39",
+          "architekt_slug": "Wright_Frank_Lord_1867_1959"
+        },
+        {
+          "ordner": "Rathaus Östberg Stockholm",
+          "projekt": "Rathaus",
+          "ort": "Stockholm",
+          "architekt": "Östberg",
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Schulhaus, Zinzikon, Streich, 2008",
+          "projekt": "Schulhaus",
+          "ort": "Zinzikon",
+          "architekt": "Streich",
+          "jahr": "2008",
+          "architekt_slug": "Streich_Adrian"
+        },
+        {
+          "ordner": "Stadthaus Fraumünsteramt Zürich",
+          "projekt": "Stadthaus Fraumünsteramt",
+          "ort": "Zürich",
+          "architekt": null,
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Tagungszentrum, Essen, Sanaa",
+          "projekt": "Tagungszentrum",
+          "ort": "Essen",
+          "architekt": "SANAA",
+          "jahr": null,
+          "architekt_slug": "SANAA"
+        },
+        {
+          "ordner": "Verwaltungsgebäude Zug Fiechter Salzmann",
+          "projekt": "Verwaltungsgebäude",
+          "ort": "Zug",
+          "architekt": "Fiechter Salzmann",
+          "jahr": null,
+          "architekt_slug": "Fiechter_Salzmann"
+        },
+        {
+          "ordner": "Zürich Universität, Hauptgebäude, Kollegien- und Biologiegebäude, Karl Moser",
+          "projekt": "Universität Zürich, Hauptgebäude, Kollegien- und Biologiegebäude",
+          "ort": "Zürich",
+          "architekt": "Karl Moser",
+          "jahr": null,
+          "architekt_slug": "Moser_Karl_1860_1936"
+        }
+      ]
+    },
+    "Hybrider Raum": {
+      "beschreibung": "Verschränkung und Überlagerung verschiedener Raumtypen in einem Gebäude — programmatische Mischung, vertikale Durchdringung und unkonventionelle Schnittfiguren.",
+      "projekte": [
+        {
+          "ordner": "Basel Rehab Klinik BS",
+          "projekt": "Rehab Klinik",
+          "ort": "Basel",
+          "architekt": null,
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Centennial Hall, Shinohara",
+          "projekt": "Centennial Hall",
+          "ort": null,
+          "architekt": "Shinohara",
+          "jahr": null,
+          "architekt_slug": "Shinohara Kazuo"
+        },
+        {
+          "ordner": "Exeter Bibliothek Louis Kahn",
+          "projekt": "Exeter Bibliothek (Phillips Exeter Academy Library)",
+          "ort": "Exeter",
+          "architekt": "Louis Kahn",
+          "jahr": null,
+          "architekt_slug": "Kahn_Louis"
+        },
+        {
+          "ordner": "Goldenberg House Louis Kahn",
+          "projekt": "Goldenberg House",
+          "ort": null,
+          "architekt": "Louis Kahn",
+          "jahr": null,
+          "architekt_slug": "Kahn_Louis"
+        },
+        {
+          "ordner": "Louis Kahn national assembly building dhaka",
+          "projekt": "National Assembly Building",
+          "ort": "Dhaka",
+          "architekt": "Louis Kahn",
+          "jahr": null,
+          "architekt_slug": "Kahn_Louis"
+        },
+        {
+          "ordner": "Media Campus Axel Springer, OMA,  Berlin, 2013",
+          "projekt": "Media Campus Axel Springer",
+          "ort": "Berlin",
+          "architekt": "OMA",
+          "jahr": "2013",
+          "architekt_slug": "Koolhaas_Rem_OMA"
+        },
+        {
+          "ordner": "New Tainan Public Library, Sou Fujimoto, Taiwan",
+          "projekt": "New Tainan Public Library",
+          "ort": "Tainan, Taiwan",
+          "architekt": "Sou Fujimoto",
+          "jahr": null,
+          "architekt_slug": "Fujimoto"
+        },
+        {
+          "ordner": "Schulhaus Buchen, Angela Deuber, Thal, 2016",
+          "projekt": "Schulhaus Buchen",
+          "ort": "Thal",
+          "architekt": "Angela Deuber",
+          "jahr": "2016",
+          "architekt_slug": "Deuber_Angela"
+        },
+        {
+          "ordner": "Seattle Public Library, Seattle, OMA, 2004",
+          "projekt": "Seattle Public Library",
+          "ort": "Seattle",
+          "architekt": "OMA",
+          "jahr": "2004",
+          "architekt_slug": "Koolhaas_Rem_OMA"
+        },
+        {
+          "ordner": "Villa Beer, Frank, Wien, 19",
+          "projekt": "Villa Beer",
+          "ort": "Wien",
+          "architekt": "Josef Frank",
+          "jahr": null,
+          "architekt_slug": "Kleihues_Josef_Paul"
+        },
+        {
+          "ordner": "Zuber Grono",
+          "projekt": "Haus Grono",
+          "ort": "Grono",
+          "architekt": "Raphael Zuber",
+          "jahr": null,
+          "architekt_slug": "Jans Raphael"
+        }
+      ]
+    },
+    "Modularer Raum": {
+      "beschreibung": "Aus wiederholbaren Einheiten (Modulen) zusammengesetzte Raumgefüge — additive Systeme, bei denen das Ganze aus der seriellen Fügung gleichartiger Teile entsteht.",
+      "projekte": [
+        {
+          "ordner": "Bawa House Geoffrey Bawa",
+          "projekt": "Bawa House",
+          "ort": null,
+          "architekt": "Geoffrey Bawa",
+          "jahr": null,
+          "architekt_slug": "Bawa Cheffrey"
+        },
+        {
+          "ordner": "First Unitarian Church, Kahn",
+          "projekt": "First Unitarian Church",
+          "ort": "Rochester",
+          "architekt": "Louis Kahn",
+          "jahr": null,
+          "architekt_slug": "Kahn_Louis"
+        },
+        {
+          "ordner": "Helmut Jahn",
+          "projekt": null,
+          "ort": null,
+          "architekt": "Helmut Jahn",
+          "jahr": null,
+          "architekt_slug": "Spieker_Helmut"
+        },
+        {
+          "ordner": "Konstantinopel",
+          "projekt": "Konstantinopel (historische Bauten)",
+          "ort": "Konstantinopel",
+          "architekt": null,
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Märkli Synthis",
+          "projekt": "Synthis",
+          "ort": null,
+          "architekt": "Peter Märkli",
+          "jahr": null,
+          "architekt_slug": "Behrens_Peter"
+        },
+        {
+          "ordner": "Nishi Horguij Palast",
+          "projekt": "Nishi Hongan-ji Palast",
+          "ort": "Kyoto",
+          "architekt": null,
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Villa Katsura, Kyoto - Nishikyo-ku, Kobori Enshu, 1586",
+          "projekt": "Villa Katsura",
+          "ort": "Kyoto, Nishikyo-ku",
+          "architekt": "Kobori Enshu",
+          "jahr": "1586",
+          "architekt_slug": null
+        }
+      ]
+    },
+    "Narrativer Raum": {
+      "beschreibung": "Räume als erzählerische Sequenz — architektonische Promenade, bei der die Abfolge der Räume eine Geschichte, einen Weg oder ein rituelles Erleben inszeniert.",
+      "projekte": [
+        {
+          "ordner": "OMA, Jussieu, Bibliothek",
+          "projekt": "Bibliothek Jussieu (Wettbewerb)",
+          "ort": "Paris",
+          "architekt": "OMA",
+          "jahr": null,
+          "architekt_slug": "Koolhaas_Rem_OMA"
+        },
+        {
+          "ordner": "Plecnik",
+          "projekt": null,
+          "ort": null,
+          "architekt": "Jože Plečnik",
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Primarschule, Montagnola, Vacchini, 1979-1984",
+          "projekt": "Primarschule",
+          "ort": "Montagnola",
+          "architekt": "Vacchini",
+          "jahr": "1979-1984",
+          "architekt_slug": "Vaccini_Livio"
+        },
+        {
+          "ordner": "Säulenpalast, Mitla, Mexiko, ca. 1200 n. Chr",
+          "projekt": "Säulenpalast (Grupo de las Columnas)",
+          "ort": "Mitla, Mexiko",
+          "architekt": null,
+          "jahr": "1200",
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Villa Noailles, Robert Mallet-Stevens",
+          "projekt": "Villa Noailles",
+          "ort": "Hyères",
+          "architekt": "Robert Mallet-Stevens",
+          "jahr": null,
+          "architekt_slug": "Adam_Robert"
+        }
+      ]
+    },
+    "Skulptularer Raum": {
+      "beschreibung": "Raum als plastisches, dreidimensional modelliertes Gebilde — die Architektur wird zur Skulptur, indem Masse, Hohlraum und Oberfläche expressiv geformt werden.",
+      "projekte": [
+        {
+          "ordner": "Baloise Park, Olgiati",
+          "projekt": "Baloise Park",
+          "ort": "Basel",
+          "architekt": "Valerio Olgiati",
+          "jahr": null,
+          "architekt_slug": "Olgiati Valerio"
+        },
+        {
+          "ordner": "DA Rocha",
+          "projekt": null,
+          "ort": null,
+          "architekt": "Paulo Mendes da Rocha",
+          "jahr": null,
+          "architekt_slug": "Da_Rocha_Eduardo_Mendes"
+        },
+        {
+          "ordner": "Erweiterung Kunstmuseum, Chur, Olgiati",
+          "projekt": "Erweiterung Kunstmuseum",
+          "ort": "Chur",
+          "architekt": "Valerio Olgiati",
+          "jahr": null,
+          "architekt_slug": "Olgiati Valerio"
+        },
+        {
+          "ordner": "HDM",
+          "projekt": null,
+          "ort": null,
+          "architekt": "Herzog & de Meuron",
+          "jahr": null,
+          "architekt_slug": "Herzog_de_Meuron"
+        },
+        {
+          "ordner": "HSG - Campus Rosenberg, Förderer, 1957",
+          "projekt": "HSG - Campus Rosenberg",
+          "ort": "St. Gallen",
+          "architekt": "Walter Förderer",
+          "jahr": "1957",
+          "architekt_slug": "Gropius_Walter"
+        },
+        {
+          "ordner": "Hochschule Luzern, Luzern, Olgiati, 2004",
+          "projekt": "Hochschule Luzern",
+          "ort": "Luzern",
+          "architekt": "Valerio Olgiati",
+          "jahr": "2004",
+          "architekt_slug": "Olgiati Valerio"
+        },
+        {
+          "ordner": "Kirche St. Nicolas im Dorf Hérémence, Förderer, 1963",
+          "projekt": "Kirche St. Nicolas",
+          "ort": "Hérémence",
+          "architekt": "Walter Förderer",
+          "jahr": "1963",
+          "architekt_slug": "Gropius_Walter"
+        },
+        {
+          "ordner": "Konstantinopel",
+          "projekt": "Konstantinopel (historische Bauten)",
+          "ort": "Konstantinopel",
+          "architekt": null,
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Kopenhagen Thomas Bo Jensen",
+          "projekt": null,
+          "ort": "Kopenhagen",
+          "architekt": "Thomas Bo Jensen",
+          "jahr": null,
+          "architekt_slug": "OMA"
+        },
+        {
+          "ordner": "Learning Campus EPFL, Lausanne, Olgiati, 2004",
+          "projekt": "Learning Campus EPFL (Wettbewerb)",
+          "ort": "Lausanne",
+          "architekt": "Valerio Olgiati",
+          "jahr": "2004",
+          "architekt_slug": "Olgiati Valerio"
+        },
+        {
+          "ordner": "MOMA, Vancouver, HDM",
+          "projekt": "MOMA",
+          "ort": "Vancouver",
+          "architekt": "Herzog & de Meuron",
+          "jahr": null,
+          "architekt_slug": "Herzog_de_Meuron"
+        },
+        {
+          "ordner": "Maekawa Kunio Tokyo Metropolitan Festival Hall, 1961",
+          "projekt": "Tokyo Metropolitan Festival Hall",
+          "ort": "Tokyo",
+          "architekt": "Maekawa Kunio",
+          "jahr": "1961",
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Museum",
+          "projekt": "Museum (unbenannt)",
+          "ort": null,
+          "architekt": null,
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Museum-Hong-Kong-Herzog-de-Meuron",
+          "projekt": "M+ Museum Hong Kong",
+          "ort": "Hong Kong",
+          "architekt": "Herzog & de Meuron",
+          "jahr": null,
+          "architekt_slug": "Herzog_de_Meuron"
+        },
+        {
+          "ordner": "Museumserweiterung Basel Christ Gantenbein",
+          "projekt": "Museumserweiterung (Kunstmuseum Basel)",
+          "ort": "Basel",
+          "architekt": "Christ & Gantenbein",
+          "jahr": null,
+          "architekt_slug": "Christ Gantenbein"
+        },
+        {
+          "ordner": "Paspels Schulhaus",
+          "projekt": "Schulhaus Paspels",
+          "ort": "Paspels",
+          "architekt": "Valerio Olgiati",
+          "jahr": null,
+          "architekt_slug": "Olgiati Valerio"
+        },
+        {
+          "ordner": "Perm, Olgiati",
+          "projekt": "Museum Perm (Wettbewerb)",
+          "ort": "Perm",
+          "architekt": "Valerio Olgiati",
+          "jahr": null,
+          "architekt_slug": "Olgiati Valerio"
+        },
+        {
+          "ordner": "Pfarrkirche",
+          "projekt": "Pfarrkirche",
+          "ort": null,
+          "architekt": null,
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Photographie - Museum L'Elysée Aires Mateus 2015, Lausanne",
+          "projekt": "Musée de l'Elysée (Photographie-Museum)",
+          "ort": "Lausanne",
+          "architekt": "Aires Mateus",
+          "jahr": "2015",
+          "architekt_slug": "Aires_Mateus_Associados"
+        },
+        {
+          "ordner": "Projektionsraum Gornergrat Zermatt 2003",
+          "projekt": "Projektionsraum Gornergrat",
+          "ort": "Zermatt",
+          "architekt": null,
+          "jahr": "2003",
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Tadao Ando Vitra Weil am Rein",
+          "projekt": "Vitra Konferenzpavillon",
+          "ort": "Weil am Rhein",
+          "architekt": "Tadao Ando",
+          "jahr": null,
+          "architekt_slug": "Tadao_Ando"
+        },
+        {
+          "ordner": "Taj Mahl, Agra, Indien 17. Jh",
+          "projekt": "Taj Mahal",
+          "ort": "Agra, Indien",
+          "architekt": null,
+          "jahr": "17. Jh",
+          "architekt_slug": null
+        },
+        {
+          "ordner": "V",
+          "projekt": null,
+          "ort": null,
+          "architekt": null,
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Vachini",
+          "projekt": null,
+          "ort": null,
+          "architekt": "Livio Vacchini",
+          "jahr": null,
+          "architekt_slug": "Vaccini_Livio"
+        },
+        {
+          "ordner": "Ville de Fathepour Sikri",
+          "projekt": "Fatehpur Sikri",
+          "ort": "Indien",
+          "architekt": null,
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "YSL",
+          "projekt": "Musée Yves Saint Laurent",
+          "ort": null,
+          "architekt": null,
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Zumthor",
+          "projekt": null,
+          "ort": null,
+          "architekt": "Peter Zumthor",
+          "jahr": null,
+          "architekt_slug": "Behrens_Peter"
+        }
+      ]
+    },
+    "Struktureller Raum": {
+      "beschreibung": "Raum, der unmittelbar aus dem Tragwerk entsteht — Struktur und Raum sind eins, das konstruktive System (Stützen, Träger, Schalen) definiert die räumliche Erfahrung.",
+      "projekte": [
+        {
+          "ordner": "Architekturschule, Nantes, Lacaton Vassal, 2009",
+          "projekt": "Architekturschule (ENSA)",
+          "ort": "Nantes",
+          "architekt": "Lacaton & Vassal",
+          "jahr": "2009",
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Asplund Bibliothek Erweiterung, Stockholm, Kerez, 200",
+          "projekt": "Asplund Bibliothek Erweiterung (Wettbewerb)",
+          "ort": "Stockholm",
+          "architekt": "Christian Kerez",
+          "jahr": null,
+          "architekt_slug": "Kerez_Christian"
+        },
+        {
+          "ordner": "Busbahnhof, Reidy, Rio de Janeiro",
+          "projekt": "Busbahnhof",
+          "ort": "Rio de Janeiro",
+          "architekt": "Affonso Eduardo Reidy",
+          "jahr": null,
+          "architekt_slug": "Da_Rocha_Eduardo_Mendes"
+        },
+        {
+          "ordner": "Frank Lloyd Wright, Hauptsitz Johnson Wax Company in Racine, Wisconsin, 1936-39",
+          "projekt": "Hauptsitz Johnson Wax Company",
+          "ort": "Racine, Wisconsin",
+          "architekt": "Frank Lloyd Wright",
+          "jahr": "1936-39",
+          "architekt_slug": "Wright_Frank_Lord_1867_1959"
+        },
+        {
+          "ordner": "Kanagawa Ishigami Workshop",
+          "projekt": "Kanagawa Institute of Technology Workshop",
+          "ort": "Kanagawa",
+          "architekt": "Junya Ishigami",
+          "jahr": null,
+          "architekt_slug": "Ishigam_Junya"
+        },
+        {
+          "ordner": "Museum für Moderne Kunst, Reidy, Rio de Janeiro",
+          "projekt": "Museum für Moderne Kunst (MAM)",
+          "ort": "Rio de Janeiro",
+          "architekt": "Affonso Eduardo Reidy",
+          "jahr": null,
+          "architekt_slug": "Da_Rocha_Eduardo_Mendes"
+        },
+        {
+          "ordner": "Neubau Department Biomedizin Uni Basel Fichter Salzmann",
+          "projekt": "Neubau Department Biomedizin Universität Basel",
+          "ort": "Basel",
+          "architekt": "Fiechter Salzmann",
+          "jahr": null,
+          "architekt_slug": "Fiechter_Salzmann"
+        },
+        {
+          "ordner": "Osram Gebäude, München",
+          "projekt": "Osram Gebäude",
+          "ort": "München",
+          "architekt": null,
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Schulanlage Freilager Zürich Albisrieden, Fischer Ammann Architekten, Zürich, 2016",
+          "projekt": "Schulanlage Freilager",
+          "ort": "Zürich Albisrieden",
+          "architekt": "Fischer Ammann Architekten",
+          "jahr": "2016",
+          "architekt_slug": "Fischer Ammann Architekten, Schulanlage Freilager Zürich Albisrieden"
+        },
+        {
+          "ordner": "Schule Leutschenbach Zürich Kerez",
+          "projekt": "Schule Leutschenbach",
+          "ort": "Zürich",
+          "architekt": "Christian Kerez",
+          "jahr": null,
+          "architekt_slug": "Kerez_Christian"
+        },
+        {
+          "ordner": "TA Media, Zürich, Shigeru Ban",
+          "projekt": "TA Media (Tamedia)",
+          "ort": "Zürich",
+          "architekt": "Shigeru Ban",
+          "jahr": null,
+          "architekt_slug": "Ban_Shigeru"
+        },
+        {
+          "ordner": "Tama Art University library, Toyo Ito Associates, Alessio Guarino",
+          "projekt": "Tama Art University Library",
+          "ort": "Tokyo",
+          "architekt": "Toyo Ito",
+          "jahr": null,
+          "architekt_slug": "Ito_Toyo"
+        },
+        {
+          "ordner": "Wettbewerb Lausanne Learningzenter OMA Stedebouw BL, Rotterdam",
+          "projekt": "Wettbewerb Learningcenter Lausanne",
+          "ort": "Lausanne",
+          "architekt": "OMA",
+          "jahr": null,
+          "architekt_slug": "Koolhaas_Rem_OMA"
+        }
+      ]
+    },
+    "Zentraler Raum": {
+      "beschreibung": "Um eine Mitte organisierte Raumfigur — der zentrale Raum als ordnendes, versammelndes Element, oft mit Oberlicht, Atrium oder Kuppel als räumlichem Höhepunkt.",
+      "projekte": [
+        {
+          "ordner": "Bibliothek der Humboldt Universität zu Berlin, Brerlin, 2004, Wenk Architekten",
+          "projekt": "Bibliothek der Humboldt Universität zu Berlin",
+          "ort": "Berlin",
+          "architekt": "Wenk Architekten",
+          "jahr": "2004",
+          "architekt_slug": "Althammer_Hochueli_Architekten"
+        },
+        {
+          "ordner": "Carlo Scarpa",
+          "projekt": null,
+          "ort": null,
+          "architekt": "Carlo Scarpa",
+          "jahr": null,
+          "architekt_slug": "Scarpa_Carlo"
+        },
+        {
+          "ordner": "Fabrikhale Esders",
+          "projekt": "Fabrikhalle Esders",
+          "ort": null,
+          "architekt": null,
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Grimm Zentrum, Bibliothek der Humboldt Universität zu Berlin, Brerlin, 2004, Max Dudler",
+          "projekt": "Jacob-und-Wilhelm-Grimm-Zentrum (Bibliothek Humboldt-Universität)",
+          "ort": "Berlin",
+          "architekt": "Max Dudler",
+          "jahr": "2004",
+          "architekt_slug": "Dudler_Max"
+        },
+        {
+          "ordner": "Hagia Irene",
+          "projekt": "Hagia Irene",
+          "ort": "Istanbul",
+          "architekt": null,
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Hagia Sophia",
+          "projekt": "Hagia Sophia",
+          "ort": "Istanbul",
+          "architekt": null,
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Hilti Innovationszentrum, Giuliani Hoenger, 2007-2014, Schaan",
+          "projekt": "Hilti Innovationszentrum",
+          "ort": "Schaan",
+          "architekt": "Giuliani Hönger",
+          "jahr": "2007-2014",
+          "architekt_slug": "Giuliani_Hoenger_Zuerich"
+        },
+        {
+          "ordner": "Hurva, Kahn",
+          "projekt": "Hurva Synagogue",
+          "ort": "Jerusalem",
+          "architekt": "Louis Kahn",
+          "jahr": null,
+          "architekt_slug": "Kahn_Louis"
+        },
+        {
+          "ordner": "Museumserweiterung Kunsthaus, Chipperfield, Zürich",
+          "projekt": "Museumserweiterung Kunsthaus",
+          "ort": "Zürich",
+          "architekt": "David Chipperfield",
+          "jahr": null,
+          "architekt_slug": "Adjaje_David"
+        },
+        {
+          "ordner": "Musikhochschule Luzern",
+          "projekt": "Musikhochschule",
+          "ort": "Luzern",
+          "architekt": null,
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Nobelcenter",
+          "projekt": "Nobelcenter",
+          "ort": null,
+          "architekt": null,
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Quartierzentrum Wesemlin Luzern",
+          "projekt": "Quartierzentrum Wesemlin",
+          "ort": "Luzern",
+          "architekt": null,
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "SRF Next Zuerich durisch nolli",
+          "projekt": "SRF Next",
+          "ort": "Zürich",
+          "architekt": "Durisch Noelli",
+          "jahr": null,
+          "architekt_slug": "Durisch Noelli"
+        },
+        {
+          "ordner": "Theater",
+          "projekt": "Theater",
+          "ort": null,
+          "architekt": null,
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Von Roll",
+          "projekt": "Von Roll Areal",
+          "ort": null,
+          "architekt": null,
+          "jahr": null,
+          "architekt_slug": null
+        },
+        {
+          "ordner": "Wright Kirche",
+          "projekt": "Unity Temple (Kirche)",
+          "ort": null,
+          "architekt": "Frank Lloyd Wright",
+          "jahr": null,
+          "architekt_slug": "Wright_Frank_Lord_1867_1959"
+        }
+      ]
+    }
+  }
+}

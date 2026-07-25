@@ -1,0 +1,48 @@
+{
+  "slug": "Sutter_Annabarbara",
+  "architekt": {
+    "name": "Sutter Annabarbara",
+    "nachname": "Sutter",
+    "vorname": "Annabarbara",
+    "jahre": [],
+    "ordner": "Sutter_Annabarbara"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Sutter_Annabarbara",
+  "projekte": [
+    {
+      "raw": "2004_2005_gigon_guyer",
+      "ort": "gigon",
+      "projekt": "guyer",
+      "jahre": [
+        "2004",
+        "2005"
+      ],
+      "titel": "2004 2005 gigon guyer"
+    },
+    {
+      "raw": "2005_2006_accademia",
+      "ort": "accademia",
+      "projekt": "accademia",
+      "jahre": [
+        "2005",
+        "2006"
+      ],
+      "titel": "2005 2006 accademia"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 19,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 1,
+    "total": 20
+  },
+  "dateitypen": {
+    ".jpg": 19,
+    ".psd": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Sutter Annabarbara | gigon guyer 2004 2005 | accademia accademia 2005 2006",
+  "stand": "2026-07-02T22:49:57"
+}

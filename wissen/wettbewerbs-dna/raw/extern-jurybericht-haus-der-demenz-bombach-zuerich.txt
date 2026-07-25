@@ -1,0 +1,940 @@
+# Quelle: https://espazium.s3.eu-central-1.amazonaws.com/files/2021-02/Jurybericht-Neubau-Haus-der-Demenz-Pflegezentrum-Bombach-Zuerich-Hoengg-Januar-2013.pdf (Jurybericht Januar 2013, 65 Seiten, abgerufen 2026-07-25)
+# Extrakt: pdftotext -layout, 65 Seiten, erstellt 2026-07-25
+
+                                                                                                     01 | 2013
+
+
+
+
+   NEU BAU | HAUS DER D EMENZ | ZÜR ICH-HÖ NGG
+
+
+
+
+                                                       NEUBAU
+                                                       HAUS DER DEMENZ
+                                                       BEIM PZ BOMBACH
+                                                       Zürich-Höngg
+
+Ja nua r 20 1 3                                        Projektwettbewer b im selektiven Ver fahren
+                                                       Beri cht des P rei s geri chts
+
+
+
+
+P ro j ektw et tbew erb im sel ekt iv en Ver fah ren
+I N H A LT S V E R Z E I C HNI S
+
+
+
+
+1      Einleitung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+
+2      Auftraggeberin, Wettbewerbsaufgabe und -ziele . . . . . . . . . . . . . . 4
+
+3      Betriebskonzept und Raumprogramm . . . . . . . . . . . . . . . . . . . . . 7
+
+4      Teilnehmende . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+
+5      Preisgericht . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
+
+6      Vorprüfung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+
+7      Beurteilung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+
+8      Rangierung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
+
+9      Schlussfolgerungen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+
+10     Empfehlungen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+
+11     Genehmigung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+
+12     Projektverfassende . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+
+       Projekte Wettbewerb . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
+Impressum
+
+
+Herausgeberin:
+Stadt Zürich
+Hochbaudepartement
+Amt für Hochbauten
+
+
+Inhalt/Redaktion:
+Seraina Carl
+Britta Walti
+
+
+Fotos:
+Luca Zanier
+
+
+Gestaltungskonzept:
+blink design, Zürich
+
+
+Layout:
+Fabian Unold
+
+
+Druck:
+GeoPrint-Shop, Zürich
+
+
+Bezugsquelle:
+Stadt Zürich
+Amt für Hochbauten
+Lindenhofstrasse 21
+Postfach, 8021 Zürich
+ahb@zuerich.ch
+
+
+Zürich, Januar 2013
+1     EI N LE I TU NG
+
+
+
+Eine Demenz ist ein Defizit in kognitiven, funktionellen und sozialen Fähigkeiten,
+das zu einer Beeinträchtigung der Alltagsfunktionen sozialer und beruflicher
+Funktionen führt und mit einer Erkrankung des Gehirns einhergeht. Vor allem
+ist das Kurzzeitgedächtnis, ferner das Denkvermögen, die Sprache, die
+Motorik und auch die Persönlichkeitsstruktur betroffen. Heute sind verschie-
+dene Ursachen von Demenzen bekannt; einige Formen können behandelt
+werden, bei anderen können die Symptome im Anfangsstadium einer Demenz
+verzögert werden. Die am häufigsten auftretende Form der Demenz ist der
+Alzheimertyp, unter welchem immer mehr Menschen leiden, da das Erkran-
+kungsrisiko mit dem Alter ansteigt. Wird bei einer Person die Diagnose einer
+Demenz gestellt, so braucht es eine Therapie, welche die Symptome lindert
+und das Fortschreiten der unheilbaren Krankheit verlangsamt. Vor allem gilt
+es für Betroffene, deren Angehörige und Freunde, den Alltag und das künf-
+tige Leben zu organisieren. Da die Zahl der Menschen mit Demenzerkrankung
+in den nächsten Jahrzenten stark steigen wird, gewinnen bei der Betreuung
+neue und spezialisierte Wohnformen immer mehr an Bedeutung.
+
+Die Pflegenzentren der Stadt Zürich bieten pflegebedürftigen Menschen mit
+über 1 600 Betten in zehn städtischen Pflegezentren und neun externen
+Wohngruppen ein Zuhause. Sie beherbergen Frauen und Männer mit einem
+Durchschnittsalter von 84 Jahren, die rund zwei Jahre in einem Pflegezen-
+trum leben. Die Pflegezentren der Stadt Zürich haben es sich zum Ziel
+gemacht, die Anzahl der Betreuungsplätze für demenzkranke Menschen zu
+erhöhen. Beim Pflegezentrum Bombach soll deshalb ein Spezialheim für 40
+Bewohnerinnen und Bewohner geschaffen werden. Ziel dieses Hauses ist die
+Betreuung von an Demenz erkrankten Menschen in einem familiären Rahmen
+von 3–4 Kleingruppen mit jeweils 10–13 Bewohnerinnen und Bewohnern mit
+jederzeitigem Zugang zum Aussenraum. Zudem ermöglichen regelmässige
+Spaziergänge und Ausflüge den Bewohnerinnen und Bewohnern den Kontakt
+zur Aussenwelt und zur Gemeinschaft.
+
+Diese besondere Bauaufgabe stellte für die Architektenteams eine grosse
+Herausforderung dar. Der Projektwettbewerb verfolgte das Ziel, für die
+Bewohnerinnen und Bewohner ein Haus mit grosser Wohnlichkeit zu schaffen.
+Dort sollen sie nach ihren Bedürfnissen begleitet werden, aber auch ihre
+Selbständigkeit soll möglichst erhalten bleiben und gefördert werden. Es galt
+Schutzmassnahmen zu beachten, die verhindern, dass die Patientinnen und
+Patienten weglaufen oder sich verirren. Der Bewegungsfreiheit innerhalb der
+Abteilung und im Aussenraum war besondere Beachtung zu schenken. Die
+Erschliessungsflächen waren übersichtlich zu gestalten und insbesondere
+«Sackgassen» waren zu vermeiden.
+
+Die Stadt Zürich plant die Fertigstellung des Neubaus für Mitte 2017.
+
+
+
+
+                                   Projektwettbewerb | Neubau Haus der Demenz | Zürich-Höngg   3
+    2       AUF T R AG G EB E R I N, W E TT B EW E R B SAUFG A BE
+            UND -ZIELE
+
+    Auftraggeberin
+    Die Stadt Zürich, vertreten durch die Immobilien-Bewirtschaftung (IMMO),
+    beauftragte das Amt für Hochbauten (AHB) mit der Durchführung eines
+    anonymen Projektwettbewerbs im selektiven Verfahren, um Projektvorschläge
+    für den Neubau eines Spezialheims für demenzkranke Menschen auf dem
+    Areal des Pflegezentrums Bombach in Zürich-Höngg zu erhalten. Die Nutze-
+    rin der Anlage sind die Pflegezentren der Stadt Zürich (PZZ). Der Wettbewerb
+    unterstand der Interkantonalen Vereinbarung über das öffentliche Beschaf-
+    fungswesen (IVöB) sowie der Submissionsverordnung (SVO) des Kantons
+    Zürich. Subsidiär dazu galt die Ordnung für Architektur- und Ingenieurwett-
+    bewerbe 142 (Ausgabe 2009).
+
+    Wettbewerbsperimeter
+    Das Areal des Pflegezentrums Bombach gehört der Immobilien-Bewirtschaf-
+    tung der Stadt Zürich und liegt am Westrand von Höngg, auf einem Plateau
+    mit Aussicht über das Limmattal. Die Grundstücksfläche des gesamten Areals
+    an der Limmattalstrasse 371, in 8049 Zürich, beträgt 21 672 m². Die beste-
+    henden Bauten mit der Parkanlage sind weder denkmalgeschützt noch
+    inventarisiert, stellen aber gut erhaltene Zeugen der von den Ideen des New
+    Brutalism beeinflussten Architektur der 1960er Jahre dar. Die Gesamtanlage
+    wurde zwischen 1962 und 1965 von den Architekten Josef Schütz und Hans
+    von Meyenburg erbaut. Das gesamte Ensemble von Gebäuden und Park
+    weist eine qualitätsvolle Gestaltung auf, die es möglichst zu erhalten und
+    respektvoll zu ergänzen galt. Das Pflegezentrum umfasst den Hauptbau,
+    das heute für Pflegewohngruppen umgebaute ehemalige Personalhaus sowie
+    einen beheizten Verbindungsgang zwischen den beiden Gebäuden. Der
+    Wettbewerbsperimeter liegt im Südosten des Grundstücks auf der Terrasse.
+    Um die vorhandene Infrastruktur des Hauptbaus optimal nutzen zu können,
+    soll an Stelle des ehemaligen Personalhauses neu das «Haus der Demenz»
+    entstehen. Der südliche Parzellenbereich mit der Schafweide war freizuhal-
+    ten, um zu einem späteren Zeitpunkt eine Bebauung entlang der Winzerhalde
+    zu ermöglichen.
+
+    Wettbewerbsaufgabe
+    Die Zahl der Demenzerkrankungen und der Bedarf an spezifischen Betreu-
+    ungs- und Pflegeangeboten nimmt stetig zu. In den vergangenen Jahren
+    hat sich das Verständnis für die Behandlung und Betreuung von an Demenz
+    erkrankten Menschen gewandelt: Ziel ist es, diesen Menschen bis zum
+    Lebensende ein hohes Mass an Lebensqualität, Würde und Selbstständigkeit
+    zu sichern. Mit dem neuen «Haus der Demenz» soll Wohnraum für rund
+    40 Demenzpatientinnen und -patienten geschaffen werden. Dabei werden
+    vor allem Einzelzimmer mit Nasszellen angeboten, die mehrheitlich von
+    zwei Zimmern erschlossen werden können.
+
+
+
+
+4   Projektwettbewerb | Neubau Haus der Demenz | Zürich-Höngg
+Jeweils 10–13 Bewohnende waren in 3–4 Pflegewohngruppen zu organisie-
+ren. Besondere Beachtung war dem Zugang von allen Pflegewohngruppen zu
+einem geschützten Aussenbereich zu schenken. Die Anordnung von Pflege-
+wohngruppen und Aussenbereich sollte möglichst ebenerdig oder auf dem-
+selben Geschoss erfolgen. Der Aussenbereich wird einen hohen Stellenwert
+einnehmen und sollte entsprechend den Bedürfnissen von dementen Per-
+sonen Schutz, aber auch Abwechslung und Reize für alle Sinne bieten.
+Zudem waren gute Lösungsvorschläge für den Umgang mit der vielbefah-
+renen Limmattalstrasse erwünscht. Es wird mit Investitionskosten von rund
+18.5 Mio. Franken (BKP 1–9, inkl. 8 % MWST, exkl. Reserven und Unvorher-
+gesehenes) gerechnet.
+
+Wettbewerbsziele
+– Hohe Funktionalität, optimale Layouts und Konzepte, die das
+  vorgeschriebene Raumprogramm und die formulierten Anforderungen
+  bestmöglich umsetzen
+– Städtebaulich, architektonisch und aussenräumlich qualitätsvolle,
+  zeitgemässe Neubauten
+– Wirtschaftlich vorbildliche Projekte, die niedrige Erstellungskosten sowie
+  einen kostengünstigen Betrieb und Unterhalt gewährleisten
+– Ökologisch nachhaltige Projekte, die den Minergie-ECO-Standard anstreben
+
+
+
+
+                               Projektwettbewerb | Neubau Haus der Demenz | Zürich-Höngg   5
+                                                                                                                           W
+                                                                                                                            ild
+                                                                                                                               en
+                                                                                                                                 we
+                                                                                                                                   g
+
+
+
+
+Übersichtsplan Stadt Zürich
+
+
+
+
+                                                                                                                                          Bo
+                                                                                                                                             mb
+                                                                                                                                               ac h
+                                                                                                                                                   str.
+
+
+
+
+                                                                                               Lim
+                                                                                                     ma
+                                                                                                       tta
+                                                                                                          ls   tra
+                                                                                                                  ss
+                                                                                                                       e
+
+
+
+
+                                                                       Pflegeze
+                                    Hauptha                                    ntrum Bo
+                                           us                                          mbach
+
+
+
+
+                                                                     Verb
+                                                                         indun
+                                                                              gsga
+                                                                                  ng
+                                                                                                                           Ehemalig
+                                                                                                                                    es
+                                                                                                                           Persona
+                                                                                                                                  lhaus
+
+
+
+                                                                                Sch
+                                                                                   afw
+                                                                                      eide
+
+
+
+
+Situation mit Projektperimeter 1:1500 (Plan genordet)
+
+
+
+      6             Projektwettbewerb | Neubau Haus der Demenz | Zürich-Höngg
+
+                                          Klo
+                                             st e
+                                                 r -F
+                                                        ahr
+                                                              -W
+                                                                eg
+3     B E T R I E B S K O NZ E PT UND R AUMPR O G R AMM
+
+
+
+Massgebend für das Betriebskonzept waren die strategischen Grundsätze
+und Haltungen des Gesundheits- und Umweltdepartements der Stadt Zürich,
+der Pflegenzentren der Stadt Zürich und die Qualitätsmanagementprozesse
+ISO 9001:2000.
+Grundsätzlich waren kurze Wege zum Zentrum (Abteilungsbüros, Ausgüsse,
+Aufenthaltsräume) anzustreben. Sämtliche Räume waren behindertengerecht
+zu gestalten.
+
+
+
+Zusammenfassung des Raumprogramms
+
+Erschliessungsbereich
+3–4 Eingangsbereiche              1 pro Wohngruppe                             60 m²
+1 Personen- und 1 Warenlift       behindertengerecht
+2 Treppenanlagen                  mit beidseitgen Handläufen
+Korridore                         pro Wohngruppe, evtl. mit
+                                  internem Rundlauf und Nischen
+                                  zum Hinsetzen
+3–8 Besucher/-innen-WC            1–2 pro Wohngruppe                           40 m²
+
+
+
+Privater Bewohner/-innenbereich
+40 Zimmer Bewohner/-innen       Raumgrösse 18–20 m²                          760 m²
+ca. 15 geteilte Nasszellen      70–80 % von 40 Zimmern                        75 m²
+ca. 10 individuelle Nasszellen  20–30 % von 40 Zimmern                        50 m²
+
+Allgemeiner Bewohner/-innenbereich
+3–4 grosse Aufenthaltsräume   1 pro Wohngruppe, mit                          240 m²
+                              Küche und Essbereich
+3–4 kleine Aufenthaltsräume   1 pro Wohngruppe                                 80 m²
+1 allgemeiner Raum            1 für alle 3–4 Wohngruppen,                      30 m²
+                              für Therapie, Sitzungen etc.
+
+Dienstleistungsbereich
+3–4 Stationszimmer                1 pro Wohngruppe                  48 m²
+1 Besprechungsraum                1 für alle 3–4 Wohngruppen        15 m²
+1 Leitungsbüro                    1 für alle 3–4 Wohngruppen        15 m²
+2 Personal-WC                     1 pro 2 Wohngruppen               10 m²
+1 Garderobe Personal Frauen       1 für alle 3–4 Wohngruppen        21 m²
+1 Garderobe Personal Männer       1 für alle 3–4 Wohngruppen         7 m²
+1 Ruheraum Personal               1 für alle 3–4 Wohngruppen        16 m²
+2 Putzräume                       1 pro 2 Wohngruppen               16 m²
+3–4 Ausgussräume                  1 pro Wohngruppe, nicht bei Küche 48 m²
+3–4 Lagerräume Küche              1 pro Wohngruppe, nähe Küche      24 m²
+3–4 Lagerräume allgemein          1 pro Wohngruppe                  40 m²
+
+
+                              Projektwettbewerb | Neubau Haus der Demenz | Zürich-Höngg   7
+    Personalwohnungen
+    2 1-Zimmerwohnungen                        für Personal, idealerweise im OG    80 m²
+    4 2-Zimmerwohnungen                        für Personal, idealerweise im OG   240 m²
+    6 Keller-/Estrichabteile                   minimal bemessen                    30 m²
+
+    Schutzraum
+    1 Schutzraum                               als Lagerraum nutzbar              135 m²
+
+    Technikräume
+    1 Heizungszentrale                         im UG                                12 m²
+    1 Lüftungszentrale                         im UG oder auf Dach                  50 m²
+    1 Sanitärzentrale                          im UG, nähe Heizung                  12 m²
+    1 Elektro Hauptverteilung                  im UG                                 8 m²
+    1 Schwachstromraum                         im UG                                 8 m²
+    Elektro Unterverteilung                    mind. 1 pro Geschoss
+    Steigschächte                              Anzahl nach Erfordernis,
+                                               durchgehend vom UG bis
+                                               zum obersten Geschoss
+
+    Aussenanlage
+    3–4 Dementengärten                         weglaufgeschützt, mit beschatteten
+                                               Gartensitzplätzen, Zugang von
+                                               Pflegewohngruppen ebenerdig oder
+                                               von demselben Geschoss, evtl.
+                                               mit Rundlauf
+
+
+
+
+8   Projektwettbewerb | Neubau Haus der Demenz | Zürich-Höngg
+4     TE I L N E H M E ND E
+
+
+
+Das Preisgericht trat am 10. Januar 2011 zur Genehmigung des Wettbe-
+werbsprogramms und zur Präqualifikation zusammen. Insgesamt haben sich
+50 Architekturteams um eine Teilnahme am Projektwettbewerb beworben.
+Zwei Architekturteams mussten von der Präqualifikation ausgeschlossen
+werden, da wesentliche Formerfordernisse gemäss Submissionsverordnung
+nicht eingehalten wurden. Die verbleibenden 48 Bewerbungen wurden
+hinsichtlich der in den Ausschreibungsunterlagen aufgeführten Kriterien
+geprüft. In mehreren Rundgängen wurden die folgenden 10 Teams zur Teil-
+nahme ausgewählt:
+
+–    von Ballmoos Krucker Architekten AG
+     mit Balliana Schubert Landschaftsarchitekten AG
+–    spillmann echsle architekten eth sia
+     mit ryffel + ryffel Landschaftsarchitekten BSLA SIA
+–    giuliani.hönger architekten eth bsa sia
+     und Caretta + Weidmann Baumanagement AG
+     mit Hager Partner AG
+–    Schneider Studer Primas GmbH
+     und BGS & Partner Architekten AG
+     mit Schmid Landschaftsarchitekten GmbH
+–    ARGE Joos & Mathys Schmid Schärer Architekten ETH SIA BSA
+     mit August Künzel Landschaftsarchitekten AG
+–    Althammer Hochuli Architekten AG und Caretta + Gitz AG
+     mit Umland, Brigitte Nyffenegger
+–    Gret Loewensberg Architekten GmbH und Allco AG
+     mit Nipkow Landschaftsarchitektur BSLA SIA
+–    Birchmeier Uhlmann Architekten SIA GmbH
+     und Martin Puppel Baurealisation
+     mit Kuhn Truninger Landschaftsarchitekten GmbH
+–    Allemann Bauer Eigenmann Architekten AG
+     und b+p baurealisation AG
+     mit Schweingruber Zulauf Landschaftsarchitekten BSLA
+–    ARGE Christian Scheidegger & Jürg Keller, dipl. Arch. ETH
+     mit Lorenz Eugster Landschaftsarchitektur und Städtebau GmbH
+
+
+
+
+                             Projektwettbewerb | Neubau Haus der Demenz | Zürich-Höngg   9
+     5      P R E I SG E R I C H T
+
+
+
+     Sachpreisrichterinnen und Sachpreisrichter
+     –   Christoph Rohner, Immobilien-Bewirtschaftung (1. und 2. Jurytag)
+         Marcel Heussi, Immobilien-Bewirtschaftung (Präqualifikation)
+     –   Kurt Meier, Direktor, Pflegezentren der Stadt Zürich (PZZ)
+     –   Regula Pfenninger, Vizedirektorin, PZZ
+     –   Erwin Zehnder, Betriebsleiter, PZZ
+     –   Geri Meier, Betriebsleiter, PZZ (Ersatz)
+
+     Fachpreisrichterinnen und Fachpreisrichter
+     –   Christoph Rothenhöfer, Architekt, Amt für Hochbauten (Vorsitz)
+     –   Gundula Zach, Architektin, Zürich
+     –   Marco Zünd, Architekt, Basel
+     –   Daniel Ganz, Landschaftsarchitekt, Zürich
+     –   Daniel Schmid, Amt für Städtebau Stadt Zürich
+     –   Urs Deppeler, Architekt, Brugg (Ersatz)
+
+     Expertinnen und Experten
+     −   Ian Jenkinson, Fachstelle Projektökonomie, AHB,
+         und Peter Diggelmann, Archobau AG, Zürich
+     −   Werner Hofmann, Fachstelle Ingenieurwesen, AHB
+     −   Annick Lalive d'Epinay, Fachstelle Nachhaltiges Bauen, AHB
+     −   Thomas Kessler, Fachstelle Energie- und Gebäudetechnik, AHB
+     –   Daniela Blum und Sousane Noaman, Immobilien-Bewirtschaftung
+     −   Gabrielle von Bernstorff, Amt für Baubewilligungen
+     −   Heinz Risi, Feuerpolizei
+     −   Jacqueline Item Nietlisbach, Grün Stadt Zürich
+     –   Antonius Sutter, Dienstabteilung Verkehr
+     –   Hansruedi Christen, Tiefbauamt
+
+     Wettbewerbsvorbereitung, Vorprüfung und Sekretariat
+     −   Seraina Carl, Architektin, Projektentwicklung AHB
+     −   Britta Walti, Assistentin Projektentwicklung AHB
+
+
+
+
+10   Projektwettbewerb | Neubau Haus der Demenz | Zürich-Höngg
+6     V O R P R ÜF UN G
+
+
+
+Die zehn eingereichten Projekte wurden nach den Grundsätzen der SIA-
+Ordnung 142 für Architektur- und Ingenieurwettbewerbe, den Anforderungen
+des Wettbewerbsprogramms und der Fragenbeantwortung auf folgende
+Punkte hin geprüft:
+
+Teil 1
+Für die Zulassung zur Beurteilung:
+–      Termingerechtigkeit der eingereichten Unterlagen
+–      Vollständigkeit der eingereichten Unterlagen
+
+Für die Zulassung zur Preiserteilung:
+–     Projektierungsperimeter
+–     Baurecht
+–     Raumprogramm
+–     Wirtschaftlichkeit
+–     Ökologische Nachhaltigkeit
+–     Verkehr, Erschliessung, Parkierung, Strassenverbreiterung
+–     Aussenraum
+–     Brandschutz
+–     Gebäudetechnik
+–     Tragstruktur
+–     Unterhalt, Lebenszykluskosten
+
+Im Teil 1 der Vorprüfung wurden die Mengenangaben der Wettbewerbskalku-
+lation zur Wirtschaftlichkeit und ökologischen Nachhaltigkeit plausibilisiert.
+
+Die Vorprüfung beantragte beim Preisgericht trotz kleinerer Verstösse alle
+Projekte zur Beurteilung und Preiserteilung zuzulassen.
+
+Teil 2
+Die Projekte der engeren Wahl wurden vertieft auf folgende Kriterien geprüft:
+–      Wirtschaftlichkeit
+–      Ökologische Nachhaltigkeit
+–      Baurecht
+–      Brandschutz
+
+Im Teil 2 der Vorprüfung wurden Mengenangaben der Projektverfassenden
+detailliert überprüft und verifiziert.
+
+
+
+
+                                Projektwettbewerb | Neubau Haus der Demenz | Zürich-Höngg   11
+     7      B EU RT E I LUN G
+
+
+
+     Das Preisgericht tagte am 26. November und am 11. Dezember 2012.
+     Der Jurierungsprozess wurde öffentlich in der Tramonthalle in Zürich-
+     Oerlikon durchgeführt.
+
+     Nach einer freien Besichtigung der Projekte nahm das Preisgericht am ersten
+     Jurierungstag vom Ergebnis der Vorprüfung Teil 1 Kenntnis. Das Preisgericht
+     beschloss dem Antrag der Vorprüfung stattzugeben und alle zehn Projekte
+     zur Beurteilung und Preiserteilung zuzulassen.
+
+     Als Grundlage für die Beurteilung dienten folgende Kriterien:
+     –    Funktionalität (Gebrauchswert der Anlage, Einhaltung Raumprogramm)
+     –    Städtebau, Architektur, Aussenraum
+     –    Wirtschaftlichkeit (Einhaltung Kostenrahmen)
+     –    Ökologische Nachhaltigkeit (Energiebilanz, Bauökologie)
+
+     Das Preisgericht nahm basierend auf diesen Beurteilungskriterien eine
+     Gesamtwertung vor. In den beiden Wertungsrundgängen mit anschlies-
+     sendem Kontrollrundgang wurden die folgenden Projekte ausgeschieden:
+
+     1. Wertungsrundgang:
+     Nr. 2 «Passepartout», Nr. 3 «AMOENUS», Nr. 10 «Eternal Sunshine of the
+     Spotless Mind»
+
+     2. Wertungsrundgang:
+     Nr. 1 «Sediment», Nr. 6 «VERGISS MEIN NICHT», Nr. 7 «momo»
+
+     Nach einem abschliessenden Kontrollrundgang verblieben die Projekte
+     Nr. 4 «hilda», Nr. 5 «Alina», Nr. 8 «Around the World» und Nr. 9 «ERIKA»
+     in der engeren Wahl.
+
+     Sämtliche Projekte wurden den Fachpreisrichterinnen und Fachpreisrichtern
+     zum Verfassen einer schriftlichen Projektbeurteilung zugeteilt.
+
+     Zu Beginn des zweiten Jurierungstags nahm das Preisgericht von der vertief-
+     ten Vorprüfung Teil 2 Kenntnis und redigierte die Projektbeurteilungen. Nach
+     intensiver Diskussion der Projekte der engeren Wahl und einem letzten
+     Kontrollrundgang wurde die Rangfolge festgelegt.
+
+
+
+
+12   Projektwettbewerb | Neubau Haus der Demenz | Zürich-Höngg
+8     RA NG I E RUN G
+
+
+
+Für Preise, Ankäufe und feste Entschädigungen stand insgesamt eine Summe
+von Fr. 160 000.- (exkl. 8% MWST) zur Verfügung. Für jedes zur Beurteilung
+zugelassene Projekt wurde den Teilnehmenden davon je eine Entschädigung
+von Fr. 5 000.- ausgerichtet. Das Preisgericht setzte folgende Rangierung und
+Preiszuteilung fest:
+
+
+
+1. Rang I 1. Preis        Projekt Nr. 9 «ERIKA»                     Fr. 40 000.–
+
+2. Rang I 2. Preis        Projekt Nr. 8 «Around the World»          Fr. 32 000.–
+
+3. Rang I 3. Preis        Projekt Nr. 5 «Alina»                     Fr. 20 000.–
+
+4. Rang I 4. Preis        Projekt Nr. 4 «hilda»                     Fr. 18 000.–
+
+
+
+
+                               Projektwettbewerb | Neubau Haus der Demenz | Zürich-Höngg   13
+     9      SCHL US SF O L G E R UNG E N
+
+
+
+     Die demografische Entwicklung der Schweiz zu einer ‹älteren› Gesellschaft,
+     in der die Zahl der Demenzerkrankungen stetig steigt, verlangt auch eine
+     Reaktion in der Konzeption von Gebäuden für ältere Menschen. Zielsetzung
+     für Gebäude für Demenzkranke ist die Sicherung einer maximalen Lebens-
+     qualität und einer Betreuung in Würde und mit Respekt. So stellt die Wett-
+     bewerbsausschreibung für das «Haus der Demenz» an die Projektverfas-
+     senden zusätzliche und neue Themenfelder. Wie sieht ein Gebäude aus,
+     das ausschliesslich von Menschen mit diesem besonderen Krankheitsbild
+     bewohnt wird? Welche architektonischen Reaktionen sind angemessen,
+     welche erhöhen den Grad des Wohlbefindens und welche Reaktionen sind
+     gerade kontraproduktiv?
+
+     Diese Fragen wurden in der Programmierung der Wettbewerbsausschreibung
+     und von der ersten Minute der Jurierung sehr intensiv diskutiert. Neben der
+     speziellen Funktion waren auch die weiteren Rahmenbedingungen wie unter
+     anderem die Eingliederung in das architektonische wie landschaftlich äus-
+     serst wertgeschätzte bestehende Ensemble, eine angemessene Reaktion
+     auf Hang- und Lärmsituation und schliesslich ökonomische wie ökologische
+     Anforderungen zu beachten. Dies machte die Umsetzung des eigentlich
+     überschaubaren Raumprogramms zu einer sehr komplexen Aufgabe.
+
+     Der erste Eindruck der Jury bezüglich der Qualität der zehn Projekte war sehr
+     positiv. Man war erstaunt, dass trotz der engen Rahmenbedingungen viele
+     unterschiedliche Ansätze abgegeben wurden. Die verschiedenen Interpretati-
+     onen zu dementengerechtem Wohnen sowie die Umsetzung der für die
+     Bewohnerinnen und Bewohner so wichtigen Dementengärten und das Spek-
+     trum von sich architektonisch stark am Bestand orientierender Abgaben bis
+     hin zu Neuinterpretierungen in Formensprache und Materialisierung ermögli-
+     chten eine breite und differenzierte Diskussion.
+
+     Allerdings zeigte sich recht bald, dass die meisten Abgaben nicht in allen
+     Bewertungskriterien zu überzeugen wussten - leider oft sogar so, dass
+     zwar einige Projekte hervorragende Teilaspekte beinhalten, gleichzeitig aber
+     auch kaum kompensierbare Lücken oder Fehlinterpretationen aufweisen.
+     Erstaunlich ist dabei, dass zum Teil selbst innerhalb eines Bewertungskriteri-
+     ums sehr überzeugende und gleichzeitig nicht akzeptable Lösungen vorge-
+     schlagen werden. So gibt es zum Beispiel Abgaben, welche auf betrieblicher
+     Ebene hervorragende Gärten für die Bewohner anbieten, gleichfalls aber
+     eine Innenraumgestaltung aufweisen, welche die Bewohnbarkeit für Demenz-
+     kranke verunmöglicht.
+
+     Besonders irritiert zeigte sich die Jury, dass trotz eindeutigem Hinweis im
+     Wettbewerbsprogramm, dass auf Grund der feuerpolizeilichen Zuordnung zur
+
+
+
+
+14   Projektwettbewerb | Neubau Haus der Demenz | Zürich-Höngg
+Nutzungskategorie der Beherbergungsbetriebe zwingend keine brennbaren
+Materialien für Konstruktion und Fassade verwendet werden dürfen, dies
+doch oft und zu weilen deutlich ignoriert wurde.
+
+Gesamtheitlich konnten letztlich die Projekte «hilda», «Alina», «Around the
+World» sowie «ERIKA» am besten überzeugen. «hilda» und «Alina» bieten sehr
+geschätzte Grundrisse an, die hohe Wohn- und Aufenthaltsqualität für die
+Bewohnerinnen und Bewohner sowie einen reibungslosen und logistisch gut
+funktionierenden Betrieb versprechen. Beide Projekte vermögen allerdings
+mit der jeweiligen Fassadenstruktur nicht zu überzeugen. «Around the World»
+begeisterte die Jury mit dem zentralen kreisförmigen Innenhof, der durch
+seine vollständige Verglasung weit in das Gebäudeinnere strahlt und
+spürbar wird. Mittels an die Aussenfassade gelegter Fluchtbalkone werden
+Erschliessungsbereiche und Aufenthaltsräume zusammengefasst, was eine
+hohe Transparenz und Durchgängigkeit ermöglicht. Ob diese sich überlap-
+penden Nutzungen im Betrieb den gewünschten Mehrwert wirklich bringen,
+bleibt allerdings fraglich. Ebenfalls weist das Gebäude nicht zuletzt durch
+diesen Lösungsansatz massive Brandschutzverstösse hinsichtlich der
+Materialisierung und Konstruktion von Fassade und Fluchtbalkonen auf.
+
+Nach intensiven Diskussionen kam das Preisgericht schliesslich zur Überzeu-
+gung, dass dem Projekt «ERIKA» im spezifischen Kontext des «Bombach
+Ensembles» die Umsetzung des «Hauses der Demenz» am besten gelingt. Die
+Gebäude mit ihren neuen Dementengärten werden sorgfältig - den Bestand
+respektierend, ohne dabei anbiedernd zu wirken - integriert. Die städtebau-
+liche Setzung akzentuiert die Geländekante und geht sehr ressourcenscho-
+nend mit dem parkartigen Baumbestand um. Die Ausgestaltung der Wohn-
+gruppen verspricht eine hohe Aufenthaltsqualität mit einer leichten Orientier-
+barkeit für die Bewohnerinnen und Bewohner. Die Jury ist überzeugt, dass
+das Projekt «ERIKA» gute und angemessene Antworten auf die Herausforde-
+rung des besonderen Bauens für demente Menschen liefert.
+
+Das Amt für Hochbauten und das Preisgericht danken allen Wettbewerbsteil-
+nehmenden für ihre engagierte Mitarbeit und gratuliert dem Siegerteam der
+Arbeitsgemeinschaft Joos & Mathys mit Schmid Schärer Architekten und
+August Künzel Landschaftsarchitekten sehr herzlich zum Wettbewerbserfolg.
+
+
+
+
+                               Projektwettbewerb | Neubau Haus der Demenz | Zürich-Höngg   15
+     10 E M P FE H L U NG E N
+
+
+
+     Das Preisgericht empfiehlt der Immobilien-Bewirtschaftung und den
+     Pflegezentren der Stadt Zürich das Projekt Nr. 9 «ERIKA» unter Berück-
+     sichtigung der Projektkritik und der nachfolgenden Punkte weiterbearbeiten
+     zu lassen und einem Ausschuss des Preisgerichts nochmals zur Stellung-
+     nahme vorzulegen.
+
+     Städtebau/Architektur/Aussenraum
+     –    Eine stärkere Einbindung der Parkplätze in den Grünraum ist erwünscht.
+
+     Funktionalität/Betrieb
+     –   Einer der Aufenthaltsräume oder eine Nische (im Idealfall der grosse
+         Aufenthaltsraum) soll direkten Anschluss an den Aussenraum erhalten.
+     –   Nach Möglichkeit sollen die langen Korridore räumlich aufgelockert
+         und besser belichtet werden (Tageslicht).
+     –   Die direkte Erschliessung aller Abteilungen sowohl vom Verbin-
+         dungsgang des Altbaus als auch von den Eingängen im Erdge-
+         schoss ist noch nicht erfüllt und muss noch nachgewiesen werden.
+     –   Verbesserungspotential besteht zudem bei den Zimmergeometrien
+         der beiden Nordzimmer im talseitigen Gebäudetrakt, dem Standort
+         der Lagerräume in den Aufenthaltsräumen und bei der inneren
+         Erschliessung der Personalwohnungen.
+     –   Die Pflegezentren der Stadt Zürich wünschen eine Küchenzeile
+         mit Frühstücksinsel als Verbindung zum Aufenthaltsraum.
+
+     Ökonomie/Ökologie/Konstruktion
+     –   Aus brandschutztechnischen Gründen müssen auf brennbare
+         Materialien in der Fassade verzichtet werden und die Treppenhäuser
+         direkt ins Freie entfluchten.
+     –   Das Gebäude erfüllt die Kriterien hinsichtlich der Zielvorgabe Minergie-
+         ECO nur sehr knapp und die Gebäudehülle muss überarbeitet werden.
+         Dabei sind die Konstruktion, Dämmstärken und Materialisierung zu
+         überprüfen und anzupassen.
+     –   Die Zielkosten werden knapp überschritten. Diese sind im Rahmen
+         der Weiterbearbeitung zu erfüllen.
+
+
+
+
+16   Projektwettbewerb | Neubau Haus der Demenz | Zürich-Höngg
+11 G E N E H M IG UN G
+
+
+
+Zürich, 26. November und 11. Dezember 2012, das Preisgericht:
+
+
+
+
+Daniel Ganz
+
+
+
+Daniel Schmid
+
+
+
+Gundula Zach
+
+
+
+Marco Zünd
+
+
+
+Urs Deppeler (Ersatz)
+
+
+
+Christoph Rothenhöfer (Vorsitz)
+
+
+
+Christoph Rohner
+
+
+
+Kurt Meier
+
+
+
+Regula Pfenninger
+
+
+
+Erwin Zehnder
+
+
+
+Geri Meier (Ersatz)
+
+
+
+
+                                  Projektwettbewerb | Neubau Haus der Demenz | Zürich-Höngg   17
+     12 P R O J E KT V E RFA SSE ND E
+
+
+
+
+     Mit der Unterzeichnung des Protokolls wurden die beschlossene Rangfolge, die
+     Festsetzung der Preissummen sowie die Schlussfolgerungen und Empfehlungen
+     genehmigt. Anschliessend wurden die folgenden Verfasserinnen und Verfasser
+     beim Öffnen der verschlossenen, anonymisierten Umschläge ermittelt:
+
+
+
+     1. Rang | 1. Preis               (Antrag zur Weiterbearbeitung)
+     Projekt Nr. 9                    ERIKA
+     Architektur:                     ARGE Joos & Mathys Architekten
+                                      mit Schmid Schärer Architekten
+                                      Sihlfeldstrasse 10, 8003 Zürich
+     Verantwortlich:                  Patrick Schmid
+     Mitarbeit:                       Roger Schärer, Peter Joos, Christoph Mathys,
+                                      Astrid Smitham, Gözde Yumusak, Tugba Demiral,
+                                      Christoph Widmer
+     Landschaftsarchitektur:          August + Margrith Künzel Landschaftsarchitekten AG
+                                      Schweissbergweg 34, 4102 Binningen
+     Verantwortlich:                  Lorenz Siegenthaler
+     Mitarbeit:                       August Künzel
+
+     2. Rang | 2. Preis
+     Projekt Nr. 8                    Around the World
+     Architektur:                     ARGE Schneider Studer Primas GmbH
+                                      Hafnerstrasse 60, 8005 Zürich
+                                      mit BGS & Partner Architekten AG
+                                      Schönbodenstrasse 4, 8640 Rapperswil
+     Verantwortlich:                  Franziska Schneider, Jens Studer, Urs Primas
+     Mitarbeit:                       Francisco Amado, Zlatina Paneva, Lukasz Pawlicki
+     Landschaftsarchitektur:          Schmid Landschaftsarchitekten GmbH
+                                      Uetlibergstrasse 137, 8045 Zürich
+     Verantwortlich:                  André Schmid
+     Mitarbeit:                       Daphne Kokkini
+
+
+
+
+18   Projektwettbewerb | Neubau Haus der Demenz | Zürich-Höngg
+3. Rang | 3. Preis
+Projekt Nr. 5             Alina
+Architektur:              Althammer Hochuli Architekten AG
+                          Alfred Escher-Strasse 38, 8002 Zürich
+Verantwortlich:           Margrit Althammer, René Hochuli
+Mitarbeit:                Ricardo Panizza
+Landschaftsarchitektur:   Umland, Quellenstrasse 27, 8005 Zürich
+Verantwortlich:           Brigitte Nyffenegger
+Mitarbeit:                Michaela Egger
+Kostenplanung:            Caretta + Gitz AG, Küsnacht
+Visualisierungen:         raumgleiter GmbH, Zürich
+
+4. Rang | 4. Preis
+Projekt Nr. 4             hilda
+Architektur:              Allemann Bauer Eigenmann Architekten AG
+                          Zweierstrasse 100, 8003 Zürich
+Verantwortlich:           Martin Bauer
+Mitarbeit:                Patric Allemann, Marc Eigenmann, Isabelle Bucher,
+                          Sabrina Mohr
+Landschaftsarchitektur:   Schweingruber Zulauf Landschaftsarchitekten
+                          Vulkanstrasse 120, 8048 Zürich
+Verantwortlich:           Lukas Schweingruber
+Mitarbeit:                Dominik Bueckers, Oliver Frey
+Tragkonstruktion:         Aerni + Aerni, Zürich
+
+
+
+
+                              Projektwettbewerb | Neubau Haus der Demenz | Zürich-Höngg   19
+     Weitere Projektverfassende:
+
+     Projekt Nr. 1                    Sediment
+     Architektur:                     von Ballmoos Krucker Architekten AG
+                                      Badenerstrasse 156, 8004 Zürich
+     Verantwortlich:                  Thomas von Ballmoos, Bruno Krucker
+     Mitarbeit:                       Cristiano Costantino, Paloma Martinez,
+                                      Franziska Müller, Pernille Scheuer, Martin Schiess
+     Landschaftsarchitektur:          Balliana Schubert Landschaftsarchitekten AG
+                                      Binzstrasse 39, 8045 Zürich
+     Verwantwortlich:                 Christoph Schubert
+
+     Projekt Nr. 2                    Passepartout
+     Architektur:                     Atélier Scheidegger Keller
+                                      Griesernweg 32, 8037 Zürich
+     Verantwortlich:                  Christian Scheidegger, Jürg Keller
+     Mitarbeit:                       Alessandro Bosshard, Tobias Krieg
+     Landschaftsarchitektur:          LORENZ EUGSTER
+                                      Landschaftsarchitektur und Städtebau
+                                      Hardstrasse 69, 8004 Zürich
+     Verwantwortlich:                 Lorenz Eugster
+     Mitarbeit:                       Bernd Schulze zur Verth
+     Bauingenieurwesen:               Bonalumi Monotti, Locarno
+     Bauphysik, HLKS-                 Raumanzug GmbH, Zürich
+     Planung:
+
+     Projekt Nr. 3                    AMOENUS
+     Architektur:                     giuliani.hönger architekten eth-bsa-sia
+                                      Lorenzo Giuliani, Christian Hönger,
+                                      Julia Koch, Martin Künzler
+                                      Kanzleistrasse 57, 8004 Zürich
+     Verantwortlich:                  Julia Koch, Martin Künzler
+     Mitarbeit:                       Harry Bee, Patrik Ronner
+     Baumanagement:                   Caretta+Weidmann Baumanagement AG, Zürich
+
+
+
+
+20   Projektwettbewerb | Neubau Haus der Demenz | Zürich-Höngg
+Projekt Nr. 6             VERGISS MEIN NICHT
+Architektur:              Gret Loewensberg Architekten GmbH
+                          Dufourstrasse 35, 8008 Zürich
+Verantwortlich:           Steffen Knab, Gret Loewensberg
+Mitarbeit:                Ulrike Feucht, Felipe Good
+Landschaftsarchitektur:   Nipkow Landschaftsarchitektur AG
+                          Seefeldstrasse 307, 8008 Zürich
+Verwantwortlich:          Beat Nipkow
+Bauingenieurwesen:        APT Ingenieure GmbH, Zürich
+Bauphysik, HLKS-          3-Plan Haustechnik AG, Winterthur
+und Elektroplanung:
+
+Projekt Nr. 7             momo
+Architektur:              spillmann echsle architekten AG
+                          Englischviertelstrasse 24, 8032 Zürich
+Verantwortlich:           Annette Spillmann, Harald Echsle
+Mitarbeit:                Ana Otero, Tiago Matthes, Simon Zehnder,
+                          Frank Keikut, Guillaume Chapallaz
+Landschaftsarchitektur:   ryffel + ryffel Landschaftsarchitekten BSLA/SIA
+                          Brunnenstrasse 14, 8610 Uster
+Verantwortlich:           Thomas Ryffel
+Akustik und Bauphysik:    Baumann Akustik und Bauphysik AG, Dietfurt
+Bauingenieurwesen:        Schnetzer Puskas Ingenieure AG, Zürich
+Baumanagement:            Jaeger Baumanagement AG, Zürich
+HLKS-Planung:             Amstein + Walthert St. Gallen AG, St. Gallen
+
+Projekt Nr. 10            ETERNAL SUNSHINE OF THE SPOTLESS MIND
+Architektur:              Birchmeier Uhlmann Architekten
+                          Hohlstrasse 150, 8004 Zürich
+Verantwortlich:           Anne Uhlmann, Urs Birchmeier, Michael Müllener
+Landschaftsarchitektur:   Kuhn Landschaftsarchitekten
+                          Ankerstrasse 3, 8004 Zürich
+Baurealisation:           Martin Puppel Baurealisation, Zürich
+
+
+
+
+                               Projektwettbewerb | Neubau Haus der Demenz | Zürich-Höngg   21
+                                                                                                     01 | 2013
+
+
+
+
+   NEU BAU | HAUS DER D EMENZ | ZÜR ICH-HÖ NGG
+
+
+
+
+                                                       NEUBAU
+                                                       HAUS DER DEMENZ
+                                                       BEIM PZ BOMBACH
+                                                       Zürich-Höngg
+
+Ja nua r 20 1 3                                        Projektwettbewer b im selektiven Ver fahren
+                                                       Beri cht des P rei s geri chts
+
+
+
+
+P ro j ektw et tbew erb im sel ekt iv en Ver fah ren
+

@@ -1,0 +1,77 @@
+{
+  "slug": "Bill_Max",
+  "architekt": {
+    "name": "Bill Max",
+    "nachname": "Bill",
+    "vorname": "Max",
+    "jahre": [],
+    "ordner": "Bill_Max"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Bill_Max",
+  "projekte": [
+    {
+      "raw": "00_Kuenstler",
+      "ort": "00",
+      "projekt": "Kuenstler",
+      "jahre": [],
+      "titel": "00 Kuenstler"
+    },
+    {
+      "raw": "Hongg_Atelierhaus_1932",
+      "ort": "Hongg",
+      "projekt": "Atelierhaus",
+      "jahre": [
+        "1932"
+      ],
+      "titel": "Hongg Atelierhaus 1932"
+    },
+    {
+      "raw": "Kleine_Villa",
+      "ort": "Kleine",
+      "projekt": "Villa",
+      "jahre": [],
+      "titel": "Kleine Villa"
+    },
+    {
+      "raw": "Odenthal_Fleckhaus",
+      "ort": "Odenthal",
+      "projekt": "Fleckhaus",
+      "jahre": [],
+      "titel": "Odenthal Fleckhaus"
+    },
+    {
+      "raw": "Ulm_Hochschule",
+      "ort": "Ulm",
+      "projekt": "Hochschule",
+      "jahre": [],
+      "titel": "Ulm Hochschule"
+    },
+    {
+      "raw": "Zuerich_Oerlikon_Radiostudio_1964_74",
+      "ort": "Zuerich",
+      "projekt": "Oerlikon Radiostudio 74",
+      "jahre": [
+        "1964"
+      ],
+      "titel": "Zuerich Oerlikon Radiostudio 1964 74"
+    }
+  ],
+  "projekt_anzahl": 6,
+  "inventar": {
+    "bilder": 22,
+    "dokumente": 2,
+    "cad": 0,
+    "andere": 0,
+    "total": 24
+  },
+  "dateitypen": {
+    ".png": 16,
+    ".jpg": 4,
+    ".tif": 2,
+    ".doc": 1,
+    ".pdf": 1
+  },
+  "textauszug": "führung durch das haus bill das 1967 von max bill erbaute wohn- und atelierhaus in zumikon bei zürich grenzt an ein naturschutzgebiet und liegt auf einem knapp drei hektaren grossen grundstück. im gegensatz zum ersten 1933 erbauten wohn- und atelierhaus in zürich-höngg wurde die zumiker bill-architektur in ihrem ursprünglichen zustand erhalten. angepasst wurde einzig die energieversorgung durch gewinnung von erdwärme und solarstrom, die in kombination den verbrauch (gegenüber früher) um rund 80 prozent gesenkt hat. das haus bill beherbergt die max bill georges vantongerloo stiftung und die wohn- und arbeitsräume von angela thomas und erich schmid sowie deren gemeinsame produktionsfirma ariadnefilm gmbh und diverse gästeräume. im haus bill werden publikationen und filme produziert und finden aktuell immer wieder führungen und kulturelle aktivitäten statt.",
+  "embed_doc": "Bill Max | 00 Kuenstler | Hongg Atelierhaus 1932 | Kleine Villa | Odenthal Fleckhaus | Ulm Hochschule | Zuerich Oerlikon Radiostudio 74 1964 | führung durch das haus bill das 1967 von max bill erbaute wohn- und atelierhaus in zumikon bei zürich grenzt an ein naturschutzgebiet und liegt auf einem knapp drei hektaren grossen grundstück. im gegensatz zum ersten 1933 erbauten wohn- und atelierhaus in zürich-höngg wurde die zumiker bill-architektur in ihrem ursprünglichen zustand erhalten. angepasst wurde einzig die energieversorgung durch gewinnung von erdwärme und solarstrom, die in kombination den verbrauch (gegenüber früher) um rund 80 prozent gesenkt hat. das haus bill beherbergt die max bill georges vantongerloo stiftung und die wohn- und arbeitsräume von angela thomas und erich schmid sowie deren gemeinsame produktionsfirma ariadnefilm gmbh und diverse gästeräume. im haus bill werden publikationen und filme produziert und finden aktuell immer wieder führungen und kulturelle aktivitäten statt.",
+  "stand": "2026-07-02T21:08:45"
+}

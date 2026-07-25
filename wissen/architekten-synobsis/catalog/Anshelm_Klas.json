@@ -1,0 +1,42 @@
+{
+  "slug": "Anshelm_Klas",
+  "architekt": {
+    "name": "Anshelm Klas",
+    "nachname": "Anshelm",
+    "vorname": "Klas",
+    "jahre": [],
+    "ordner": "Anshelm_Klas"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Anshelm_Klas",
+  "projekte": [
+    {
+      "raw": "Lunds_St_Johannesgatan_7_Kunsthalle",
+      "ort": "Lunds",
+      "projekt": "St Johannesgatan 7 Kunsthalle",
+      "jahre": [],
+      "titel": "Lunds St Johannesgatan 7 Kunsthalle"
+    },
+    {
+      "raw": "Malmö_Konsthall",
+      "ort": "Malmö",
+      "projekt": "Konsthall",
+      "jahre": [],
+      "titel": "Malmö Konsthall"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 134,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 135
+  },
+  "dateitypen": {
+    ".jpg": 134,
+    ".pdf": 1
+  },
+  "textauszug": "Malmö Konsthall MALMÖ KONSTHALL was renovated in 1994. At that time the exhibition hall and the adjacent older brick building known as Hantverkshuset (the Craft Building) were linked together. This created new spaces for a bookshop, restaurant, Hall C and space for children’s activities as well as a smaller exhibition space called Mellanrummet (the In-between Space). MALMÖ KONSTHALL’s primary mandate is to exhibit both international and national art ranging from the classics of modernism to current experiments. Over the years exhi- bitions have featured such artists as Munch, van Gogh, Kandinsky, Klee, Miró, Gia- cometti, César, Keith Haring, Andres Serrano, Louise Bourgeois, Peter Greenaway and Tony Cragg. The boundaries between the various art forms are kept fluid by associated special events: theatre, film, poetry, video installations, multimedia, music, lectures and debates. In conjunction with the exhibitions Malmö Konsthall organises extensive edu- cational activities for both children and adults. It is also possible to book private tours of current exhibitions. Each year Malmö Konsthall has around 200,000 visitors. MELLANRUMMET complements these activities with smaller-scale exhibitions and also offers information and service to visitors. C-SALEN is now used for exhibitions. THE BOOKSHOP contains Malmö Konsthall's own production of catalogues, posters and postcards as well as a wide selection of art catalogues and art books from publish- ers, museums and institutions around the world. We also sell a selection of prints and multiples by artists who have exhibited at Malmö Konsthall.",
+  "embed_doc": "Anshelm Klas | Lunds St Johannesgatan 7 Kunsthalle | Malmö Konsthall | Malmö Konsthall MALMÖ KONSTHALL was renovated in 1994. At that time the exhibition hall and the adjacent older brick building known as Hantverkshuset (the Craft Building) were linked together. This created new spaces for a bookshop, restaurant, Hall C and space for children’s activities as well as a smaller exhibition space called Mellanrummet (the In-between Space). MALMÖ KONSTHALL’s primary mandate is to exhibit both international and national art ranging from the classics of modernism to current experiments. Over the years exhi- bitions have featured such artists as Munch, van Gogh, Kandinsky, Klee, Miró, Gia- cometti, César, Keith Haring, Andres Serrano, Louise Bourgeois, Peter Greenaway and Tony Cragg. The boundaries between the various art forms are kept fluid by associated special events: theatre, film, poetry, video installations, multimedia, music, lectures and debates. In conjunction with the exhibitions Malmö Konsthall organises extensive edu- cational activities for both children and adults. It is also possible to book private tours of current exhibitions. Each year Malmö Konsthall has around 200,000 visitors. MELLANRUMMET complements these activities with smaller-scale exhibitions and also offers information and service to visitors. C-SALEN is now used for exhibitions. THE BOOKSHOP contains Malmö Konsthall's own production of catalogues, posters and postcards as well as a wide selection of art catalogues and art books from publish- ers, museums and institutions around the world. We also sell a selection of prints and multiples by artists who have exhibited at Malmö Konsthall.",
+  "stand": "2026-07-02T21:05:45"
+}

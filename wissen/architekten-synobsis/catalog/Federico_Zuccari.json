@@ -1,0 +1,26 @@
+{
+  "slug": "Federico_Zuccari",
+  "architekt": {
+    "name": "Federico Zuccari",
+    "nachname": "Federico",
+    "vorname": "Zuccari",
+    "jahre": [],
+    "ordner": "Federico_Zuccari"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Federico_Zuccari",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".jpg": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Federico Zuccari",
+  "stand": "2026-07-02T21:14:10"
+}

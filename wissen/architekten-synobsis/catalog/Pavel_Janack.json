@@ -1,0 +1,26 @@
+{
+  "slug": "Pavel_Janack",
+  "architekt": {
+    "name": "Pavel Janack",
+    "nachname": "Pavel",
+    "vorname": "Janack",
+    "jahre": [],
+    "ordner": "Pavel_Janack"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Pavel_Janack",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Pavel Janack",
+  "stand": "2026-07-02T22:44:08"
+}

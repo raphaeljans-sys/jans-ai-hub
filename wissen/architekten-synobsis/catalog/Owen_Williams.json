@@ -1,0 +1,26 @@
+{
+  "slug": "Owen_Williams",
+  "architekt": {
+    "name": "Owen Williams",
+    "nachname": "Owen",
+    "vorname": "Williams",
+    "jahre": [],
+    "ordner": "Owen_Williams"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Owen_Williams",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Owen Williams",
+  "stand": "2026-07-02T22:43:55"
+}

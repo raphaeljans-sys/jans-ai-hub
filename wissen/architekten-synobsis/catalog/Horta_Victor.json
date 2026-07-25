@@ -1,0 +1,50 @@
+{
+  "slug": "Horta_Victor",
+  "architekt": {
+    "name": "Horta Victor",
+    "nachname": "Horta",
+    "vorname": "Victor",
+    "jahre": [],
+    "ordner": "Horta_Victor"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Horta_Victor",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Bruessel_Maison_du_Peuble",
+      "ort": "Bruessel",
+      "projekt": "Maison du Peuble",
+      "jahre": [],
+      "titel": "Bruessel Maison du Peuble"
+    },
+    {
+      "raw": "Muse_Horta",
+      "ort": "Muse",
+      "projekt": "Horta",
+      "jahre": [],
+      "titel": "Muse Horta"
+    }
+  ],
+  "projekt_anzahl": 3,
+  "inventar": {
+    "bilder": 16,
+    "dokumente": 4,
+    "cad": 0,
+    "andere": 0,
+    "total": 20
+  },
+  "dateitypen": {
+    ".jpg": 15,
+    ".pdf": 4,
+    ".gif": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Horta Victor | 00 Architekten | Bruessel Maison du Peuble | Muse Horta",
+  "stand": "2026-07-02T21:18:26"
+}

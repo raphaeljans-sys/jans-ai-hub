@@ -1,0 +1,963 @@
+# QUELLE: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2102 WB Muttenz/07 Referenzen/1 Schulen/00 Turnhallentypologie/6 Turnhalle versenkt/Baden Kantonsschule Bernath Widmer/20210426101452_976_Jurybericht_Kantonsschule-Baden_bauliche-Erweiterung.pdf
+# Jurybericht Projektwettbewerb «Kantonsschule Baden: bauliche Erweiterung», Immobilien Aargau, Maerz 2021, 92 Seiten A4.
+# Extrakt (pdftotext -layout), 12.07.2026. Nur die relevanten Teile: Verfahren/Aufgabe/Kriterien, Beurteilung/Rangierung/Empfehlungen, Wuerdigungen Rang 1-3.
+# Hinweis: zweispaltiges Layout, Spalten teils verschraenkt; einzelne eingebettete Projektplan-Texte unvollstaendig (Font 'PDFTron-Identity').
+
+===== TEIL 1: VERFAHREN / AUFGABE / BEURTEILUNGSKRITERIEN (Berichtseiten 4-10) =====
+Für die angestrebte Kapazitätserhöhung der Schul-          Auf Basis von provisorischen Immobilienstandards
+anlage auf 66 Abteilungen ist eine Erweiterung für         und dem räumlich-pädagogischen Konzept wurde
+16 Abteilungen notwendig.                                  im Jahr 2018 vom Kanton Aargau eine Variantene-
+                                                           valuation und eine Machbarkeitsstudie in Auftrag
+Die Kantonsschule Baden hat sich 2017 mit der Er-          gegeben, um die Entwicklungsmöglichkeiten auf
+weiterung der Schulanlage auseinandergesetzt und           dem Areal der Kantonsschule Baden vertieft zu un-
+ihre Absichten in einem räumlich-pädagogischen             tersuchen. Die daraus resultierende Bestvariante
+Konzept festgehalten. Dieses legt dar, nach wel-           sieht vor, einen Neubau für den Cluster MINT (Phy-
+chen pädagogischen, schulorganisatorischen und             sik, Mathematik, Informatik, Geografie) und eine
+architektonischen Leitlinien aus der Sicht der Schu-       Doppelsporthalle zu realisieren sowie grosse Teile
+le eine räumliche Erweiterung ausgestaltet werden          der Sportanlagen bzw. des Aussenraums neu zur
+soll. Es würdigt die vorhandenen Qualitäten der Be-        organisieren. Die benötigten Neubauten umfassen
+standesbauten und plädiert auf eine Fortführung            eine Hauptnutzfläche von 3'500 m2 HNF.
+
+
+
+
+Luftbild: Kantonsschule Baden mit Wettbewerbsperimeter		                                     Quelle:Google earth
+
+
+
+
+Immobilien Aargau März 2021 4
+KANTONSSCHULE BADEN: BAULICHE ERWEITERUNG                                    BERICHT DES PREISGERICHTS
+
+
+
+
+
+2       VERFAHREN
+
+
+
+2.1     VERANSTALTER                                   Experten (nicht stimmberechtigte Mitglieder)
+Auftraggeber ist der Kanton Aargau, vertreten          – Heiko Dobler, Denkmalpflege, Kanton Aargau
+durch das Departement Bildung, Kultur und Sport        – Michael Umbricht, Generalsekretär Departement
+(BKS) sowie durch das Departement Finanzen und           Bildung, Kultur und Sport (BKS), Kanton Aargau
+Ressourcen (DFR).                                      – Cecile Gmünder, Sportlehrerin Kantonsschule
+                                                         Baden
+2.2      WETTBEWERBSART, VERFAHREN UND                 – Mirko Bächtiger, Mathematiklehrer, Stunden-
+         SPRACHE                                         planer, Kantonsschule Baden
+Der Projektwettbewerb wurde als einstufiges offe-      – Markus Boner, Geografielehrer, Kantonsschule
+nes Verfahren ausgeschrieben. Das Vergabeverfah-         Baden
+ren unterlag dem Submissionsdekret des Kantons         – Stefan Widmer, Physiklaborant, Kantonsschule
+Aargau (SubmD) vom 26.11.1996 (Stand am 1. Ja-           Baden
+nuar 2011). Es kamen zudem folgende Grundlagen         – Ljupko Peric, MWV Bauingenieure, Baden (Statik)
+zur Anwendung:                                         – Jörg Lamster, Durable Planung und Beratung
+– GATT/WTO-Übereinkommen                                 GmbH, Zürich (Nachhaltigkeit)
+– bilaterales Abkommen zwischen der Schweiz und        – Eduardo Gisel, Immobilien Aargau (HLKKS)
+  der EU über das öffentliche Beschaffungswesen        – Florian Sax, Immobilien Aargau (Elektro)
+– Interkantonale Vereinbarung über das öffentliche     – Daniel Gerber, Metron Architektur AG, Brugg
+  Beschaffungswesen                                      (Wirtschaftlichkeit)
+– Die Auftraggeberin erklärte die Ordnung SIA 142
+  (Ausgabe 2009) subsidiär zu den Bestimmungen         Verfahrensbegleitung
+  über das öffentliche Beschaffungswesen als ver-      – Ruedi Stauffer, Metron Raumentwicklung AG
+  bindlich.                                            – Renate Haueter, Metron Raumentwicklung AG
+
+2.3    PREISGERICHT                                    2.4      TEILNAHMEBEDINGUNGEN
+Das Preisgericht setzte sich wie folgt zusammen:       Mit dem Projektwettbewerb wurden Generalplaner-
+                                                       leistungen submittiert. Das gesuchte Planerteam
+Sachpreisrichter (stimmberechtigte Mitglieder)         mit Generalplaner umfasste obligatorisch folgende
+– Urs Heimgartner, Leiter Immobilien Aargau            Disziplinen des Kernteams:
+  (Vorsitz)                                            – Architektur / Gesamtleitung (keine Mehrfach-
+– Raoul Laimberger, Gesamtprojektleitung, Depar-          teilnahme)
+  tement Bildung, Kultur und Sport (BKS),              – Landschaftsarchitektur (keine Mehrfach-
+  Kanton Aargau                                           teilnahme)
+– Daniel Franz, Rektor Kantonsschule Baden             – Bauingenieurwesen (Mehrfachteilnahme möglich)
+– Dr. Karl Kürtös, Prorektor Kantonsschule Baden          HLK-Ingenieurwesen (Mehrfachteilnahme
+  (Ersatz)                                                möglich)
+
+Fachpreisrichter (stimmberechtigte Mitglieder)         Weitere Spezialisten und Fachplaner (Leistungen
+– Astrid Staufer, dipl. Architektin ETH BSA SIA,       für Elektroplanung, Bauphysik, Gebäudeautomati-
+  Frauenfeld (unabhängig)                              on, Fassadenplanung, Nachhaltigkeit, Brandschutz
+– David Leuthold, dipl. Architekt HTL BSA SIA,         etc.) wurden nicht verpflichtend verlangt, konnten
+  Zürich (unabhängig)                                  aber nach Bedarf der Teilnehmenden zusätzlich bei-
+– Jarl Olesen, dipl. Architekt ETH SIA, Leiter Pla-    gezogen werden.
+  nung und Bau, Stadt Baden (unabhängig)
+– Florian Bischoff, Landschaftsarchitekt HTL BSLA      2.5     TERMINE WETTBEWERBSVERFAHREN
+  SIA, Baden (unabhängig)                              Das Wettbewerbsverfahren wurde gemäss den
+– Kim Schoos, dipl. Ing. Architekt TU, Projektleiter   nachstehenden Terminen durchgeführt:
+  Immobilien Aargau (Ersatz)                           – Bezug der Wettbewerbsunterlagen (simap)
+                                                         24. Juli 2020
+
+
+Immobilien Aargau März 2021 5
+KANTONSSCHULE BADEN: BAULICHE ERWEITERUNG                                    BERICHT DES PREISGERICHTS
+
+
+
+
+
+– Anmeldung zum Wettbewerb (digital) spätestens:       – Räumliche Qualität
+  bis 9. Oktober 2020, 18:00 Uhr                       – Architektonische Umsetzung des räumlich-
+– Modellbezug (nach Anmeldung zum Wettbe-                pädagogischen Konzepts
+  werb): ab 3. August bis 16. Oktober 2020
+– Fragenstellung:                                      Funktionalität und Wirtschaftlichkeit
+  spätestens bis 14. August 2020, 18:00 Uhr            – Qualität und Zweckmässigkeit der Raumorganisa-
+– Fragenbeantwortung:                                    tion und Eignung für die vorgesehene Nutzung
+  28. August 2020                                      – Bewegungsführung im Gebäude, Hierarchien der
+– Eingabe der Wettbewerbsbeiträge:                       Öffentlichkeitsgrade
+  13. November 2020 (Poststempel)                      – Gebäudestruktur, Tragwerkkonzept, Haustechnik-
+– Modellabgabe:                                          konzept
+  27. November 2020                                    – Einhaltung des Raumprogramms und der
+– Jurierung:                                             Flächenkenndaten
+  10. Dezember 2020, 28. Januar 2021                   – Gesamtkosten, Ressourcenaufwand Betrieb, Res-
+– Bekanntgabe Entscheid:                                 sourcenaufwand Erstellung, Lebenszykluskosten
+  2. Quartal 2021
+– Bericht des Preisgerichts/Ausstellung:               Material, Konstruktion und Farbe
+  2. Quartal 2021                                      – Schlüssigkeit und Materialgerechtigkeit der
+                                                         konstruktiven Lösung
+2.6      AUSSCHLUSSKRITERIEN                           – Übersetzung des konstruktiven Prinzips in ein
+Bei Nichterfüllung der folgenden Kriterien wurden        architektonisches Bild
+die Wettbewerbsbeiträge von der Beurteilung aus-       – Qualität der Integration von Gebäude- und Um-
+geschlossen:                                             welttechnologien ins architektonische Konzept
+– fristgerechte Abgabe der verlangten Unterlagen       – Zusammenspiel von Konstruktion und Materialität
+  (Pläne und Modelle)                                    sowie von Raumwirkung und Lichtführung
+– Unvollständigkeit der zur Beurteilung notwendi-
+  gen Inhalte                                          Baukultureller Wert, Gesamtwirkung
+– Wahrung der Anonymität                               – Bewertung des geleisteten baukulturellen
+                                                         Beitrags / Innovationsgehalt
+2.7      BEURTEILUNGSKRITERIEN                         – Ausdruck des Bauwerks, atmosphärische
+Die Beurteilung der Wettbewerbsprojekte erfolgte         Wirkung, visuelle Identität
+nach den folgenden Kriterien. Die Reihenfolge der      – Verhältnismässigkeit zur Aufgabenstellung
+Kriterien stellte keine Gewichtung dar. Das Preisge-   – Gesamteindruck, Qualität der Arbeit, Auseinan-
+richt nahm aufgrund der aufgeführten Beurteilungs-       dersetzungstiefe
+kriterien eine Gesamtwertung vor.
+                                                       Nachhaltigkeit
+Städtebau, Siedlung und Aussenraum                     – Wohlbefinden und Komfort
+– Städtebauliches Konzept, Qualität der volumetri-     – Ressourcenschonung und Graue Energie
+  schen Setzung und Hierarchisierung des Frei-         – Flexibilität und Systemtrennung
+  raums                                                – Energieeffizienz und erneuerbare Energien
+– Beziehungen zum natürlichen und gebauten             – Ökologische Qualität der Aussenräume
+  Umfeld
+– Aussenraumgestaltung, Qualität, Umgang mit
+  dem Bestand
+– Beitrag zur Identität des Quartiers
+
+Architektonisches Konzept
+– Grundrissqualität
+– Gebäudetypologische Qualität
+
+
+Immobilien Aargau März 2021 6
+KANTONSSCHULE BADEN: BAULICHE ERWEITERUNG                                         BERICHT DES PREISGERICHTS
+
+
+
+
+
+3       AUFGABE
+
+
+
+3.1     ALLGEMEINES                                      neralplaner für die weiteren Projektierungsphasen.
+Der Bearbeitungsperimeter verläuft entlang der Par-      Die terminlich engen Vorgaben (Bezug spätestens
+zellengrenzen und entlang der Gebäudefluchten von        auf das Schuljahr 2027/28) bedingen ausserdem,
+Gebäude 6, 7 und 8. Die Treppenhäuser (Gebäude 6         dass die Weiterbearbeitung des Siegerprojekts un-
+und 7) sind nicht antastbar. Die Provisorien (Gebäu-     mittelbar nach der Beurteilung des Wettbewerbs er-
+de 9 und 10) sollen abgebrochen werden. Das Park-        folgen kann.
+deck, das von der Schönaustrasse her erschlossen
+wird, kann wegen geringerer Nachfrage an Park-           3.2      STÄDTEBAU, SIEDLUNG UND FREI-		
+plätzen und grossem Sanierungsbedarf ebenfalls                    RAUM
+abgebrochen werden.
+                                                         Städtebau
+Der Aussenraumperimeter verläuft entlang der Par-        Der Masterplan von Fritz Haller folgt einem ortho-
+zellengrenze sowie entlang der Strassenlinien der        gonalen Raster und stellt im Siedlungsgefüge eine
+Seminar-, Wettinger- und Schönaustrasse. Der Be-         campusartige Form dar, die sich von den nachbar-
+trachtungsperimeter umfasst die erste bzw. die           schaftlichen Siedlungsstrukturen im Massstab un-
+zweite Bautiefe der umliegenden Bebauung.                terscheidet. Der Lösungsvorschlag soll sich am
+Im Zentrum steht ein gesamtheitlicher Lösungsvor-        Masterplan Haller orientieren und diesen in einer
+schlag, der die funktionalen, ökonomischen, ökolo-       zeitgemässen Form weiterentwickeln. Mit der Posi-
+gischen und gesellschaftlichen Anforderungen im          tionierung des Neubaus sind aber auch der Bezug
+Sinn des Auftraggebers erfüllt. Ziel des Verfahrens      zum Quartier, die Übergänge zu den angrenzenden
+ist einerseits die Selektion eines Siegerprojekts und    Räumen und die Adressbildung des neuen Gebäu-
+andererseits die Auswahl eines Planerteams mit Ge-       des gegen innen und aussen zu klären. Die Haupt-
+
+
+
+
+                  Situationsplan                        Quelle: Amtliche Vermessung AG, Metron Raumentwicklung AG
+
+
+
+Immobilien Aargau März 2021 7
+KANTONSSCHULE BADEN: BAULICHE ERWEITERUNG                                    BERICHT DES PREISGERICHTS
+
+
+
+
+
+adresse des Areals ist weiterhin über den westli-     übergeordneten Verkehrsprojekte zu einer Verkehrs-
+chen Arealzugang definiert. Die Präsenz und           beruhigung der Wettingerstrasse führen. Eine min-
+Auffindbarkeit des neuen Clusters MINT ist insbe-     destens partielle Öffnung des Erdwalls, beispiels-
+sondere im inneren Campusgefüge zu beachten.          weise im Bereich des Zugangs zur
+Mit der ausserschulischen Sporthallennutzung          Wettingerstrasse, sowie eine Verbesserung des Zu-
+durch Vereine der Stadt Baden erhält das Gebäude      gangs beim Brückenkopf, wären denkbar und soll-
+aber auch eine öffentliche Orientierung.              ten weiterverfolgt werden. Die Nutzung der heuti-
+                                                      gen Personenunterführung an der Wettingerstrasse
+Freiraum                                              zur Bushaltestelle der Buslinien, welche stadtein-
+Der Aussenraum auf dem Areal der Kantonsschule        wärts fahren, ist für die Schüler der Kantonsschule
+Baden mit 38'000 m2 ist nach Massstab der provi-      nicht attraktiv. Es besteht ein Handlungsbedarf, at-
+sorischen Immobilienstandards für Mittelschulen       traktive oberirdische Fussgängerquerungen anzu-
+sehr knapp bemessen. Die Setzung der Neubauten        bieten.
+soll diese Tatsache berücksichtigen und auf den
+Masterplan Haller/Zulauf Rücksicht nehmen.            3.3      NUTZUNGEN
+                                                      Die Hallerbauten (insbesondere Gebäude 1) haben
+Aussenanlagen und Grünflächen sind von grosser        bezüglich Funktionalität, Grosszügigkeit, Begeg-
+Bedeutung für das Erscheinungsbild und die Nut-       nung, Transparenz und Helligkeit einen Vorbildcha-
+zung der Schule. Diese sollen gestalterisch über-     rakter. Die Neubauten sollen die architektonische
+zeugen. Es soll eine ausreichende Anzahl Orte für     Tradition der Hallerbauten fortführen und dennoch
+die Nutzung in der Pause, dem Unterricht und der      Innovation und Dynamik ausstrahlen. Als neue Hei-
+Freizeit geschaffen werden. Der Beschattung ist       mat eines naturwissenschaftlich-technischen Clus-
+eine besondere Bedeutung beizumessen. Die gros-       ters darf die Architektur zum Anschauungsobjekt
+se Rasenfläche und die weiteren Outdoorsportberei-    von guten bautechnischen und baukulturellen Lö-
+che (Beachvolleyanlage, Hartplatz etc.) werden viel   sungen werden. Von den Teilnehmenden am Wett-
+gebraucht und müssen in der aktuellen Grösse er-      bewerb wird ein Gesamtkonzept erwartet, das für
+halten bleiben. Die Sportflächen sollen so angeord-   die Planungs-, Bau- und Nutzungsprozesse das Zu-
+net werden, dass der Unterricht möglichst nicht       sammenwirken aller drei Nachhaltigkeitsdimensio-
+durch Emissionen gestört wird. Der Aussenraum         nen berücksichtigt und dabei den aktuellen Stand
+soll auch                                             der Technik einbezieht.
+didaktische Funktionen übernehmen und für
+pädagogische Zwecke vielseitig nutzbar sein.          Aufgabe im Wettbewerb ist es, eine Gebäudetypo-
+                                                      logie zu entwickeln, die flexibel und reversibel auf
+Erschliessung / Verkehr                               wechselnde Bedürfnisse reagieren kann. Die stetige
+Die Haupterschliessungsachsen für das Areal mün-      Entwicklung von Lehr- und Lernformen verlangt
+den in die Seminarstrasse im Westen, in die Wettin-   eine Gebäudestruktur, die in Zukunft eine hohe Va-
+gerstrasse im Norden sowie in die Schönaustrasse      riation an Lernorten für unterschiedliche Lernforma-
+im Osten. Für den motorisierten Individualverkehr     tionen bieten kann (Instruktion, Lernen in Gruppen,
+wird das Areal von der Schönaustrasse her er-         Selbststudium etc.). Bei der Bereitstellung von Ar-
+schlossen, wo auch die erforderlichen Parkplätze zu   beitsplätzen für Lehrende und Lernende sollen die
+organisieren sind. Die Veloparkplätze sind je zur     Einflüsse der Digitalisierung, der Anforderungen
+Hälfte an der Schönaustrasse und am Nordwestzu-       hinsichtlich Zusammenarbeitsmöglichkeiten, der In-
+gang (vis à vis Brückenkopf) anzuordnen.              dividualisierung und der Mobilität auf die Arbeits-
+                                                      welten berücksichtigt werden. Dies führt ebenso
+Von Seiten der Abteilung Planung und Bau der          zur Möglichkeit, verschiedene Arbeitsplatzkonzepte
+Stadt Baden würde begrüsst werden, wenn der           innerhalb einer flexiblen Raumstruktur umsetzen zu
+Campus der KSBA zukünftig ebenfalls vermehrt ge-      können.
+öffnet und als Teil des städtischen Gefüges wahrge-
+nommen würde, insbesondere dann, wenn die
+
+
+Immobilien Aargau März 2021 8
+KANTONSSCHULE BADEN: BAULICHE ERWEITERUNG                                       BERICHT DES PREISGERICHTS
+
+
+
+
+
+Fachschaften als räumliche Einheiten                     (keine starke Adressbildung, kein zweiter Hauptein-
+Innerhalb des Neubaus bilden die einzelnen Fach-         gang der Schule). Er soll eher als Ankunftsort aus-
+schaften eine eigene Einheit. Die Räume einer ein-       gebildet werden, der die Verkehrsfläche kombiniert
+zelnen Fachschaft sind so angeordnet, dass sie un-       mit Arbeits-, Begegnungs- und Verweilmöglichkei-
+tereinander ein logisches Gefüge bilden und sich in      ten, attraktiv und einladend. Vorbild ist das Café
+räumlicher Nähe zueinander befinden. Idealerweise        Haller im Parterre von Gebäude 1.
+befinden sich die Räume einer Fachschaft auf dem-
+selben Stockwerk; müssen sie auf mehrere Stock-          Sporthalle
+werke verteilt werden, muss der Transport von z.T.       Mit dem Wegfall der provisorischen Sporthalle (Hal-
+grösseren und schweren Versuchsanordnungen,              le 5) fehlen auf dem Gelände der Kanti Baden zwei
+Modellen und Gerätschaften einfach und effizient         Sporthallen für die Umsetzung des Raumpro-
+möglich sein (z.B. Physik).                              gramms bei 66 Abteilungen. Für den Zusammen-
+                                                         halt der Schule, der Fachschaft Sport und des tägli-
+Mathematik, Informatik, Geografie und Physik             chen Betriebs ist es wesentlich, alle sechs Hallen
+Für die Fächer Mathematik, Informatik, Geografie         auf dem Gelände zu haben. Die Sporthalle wird als
+und Physik sind getrennte Vorbereitungsräume pro         Doppelhalle Typ B ausgebaut. Die Diversität an
+Fachschaft zu planen mit dem Vorteil von räumli-         «Hallentypen» wird dadurch für die Schule erweitert
+cher Nähe zu den einer Fachschaft zugeordneten           (Grösse/Ausrüstung) und das Angebot an Sport-
+Unterrichtsräumen. Die Unterrichtsräume (Fach-           möglichkeiten verbessert. Die bestehenden Sport-
+raum sowie Kombi Fach-/Praktikumsraum) sowie             hallen der Kantonsschule Baden entsprechen nicht
+die Sammlung Physik befinden sich in räumlicher          den heute geltenden Normen. Mit einer Doppelhalle
+Nähe, optimalerweise auf demselben Stock. Die            B wird diesem Umstand entgegengewirkt. Rund ein
+Sammlung Physik dient sowohl als Lager der für           Drittel der gesamten Nutzungszeit der Sporthalle
+den Unterricht benötigten Materialien als auch der       fällt auf die Vereine (abends, Wochenende). Aus
+Vorbereitung von Versuchsanordnungen. In der             diesem Grund soll der Zugang zur Halle unabhängig
+Sammlung Physik oder in räumlicher Nähe befinden         vom Cluster MINT erfolgen können. Das Vorberei-
+sich auch einzelne Arbeitsplätze und –flächen für        tungszimmer der Fachschaft Sport ist mit Tageslicht
+die Physiklehrpersonen zur Vorbereitung von Ver-         zu versehen. Die Teeküche ist mit dem Fachschafts-
+suchsanordnungen. In der Werkstatt Physik befin-         zimmer verbunden oder darin integriert. Eine Ab-
+den sich grössere Maschinen und Geräte wie               trennung vom Fachschaftszimmer ermöglicht im
+Schweissgeräte, Bohrmaschinen, Stangensäge,              optimalen Fall eine externe Nutzung der Teeküche.
+Drehbank etc. sowie ein Arbeitsplatz für den Physi-      In der Sporthalle sind ein Unterrichtszimmer und
+klaborant. Die Stärkung der Interdisziplinarität von     Schülerarbeitsplätze (für Dispensierte) anzubieten.
+Mathematik und Physik ist wünschenswert.                 Ein Sichtbezug in die Sporthalle ist für diese multi-
+                                                         funktional nutzbare Fläche erwünscht. Je nach Po-
+Schülerarbeitsplätze                                     sitionierung der neuen Hallen wäre eine unterirdi-
+Auf jeder Etage befinden sich in Nähe der Unter-         sche Verbindung zum Gebäude 8 (Dreifachhalle)
+richtszimmer offene Schülerarbeitsplätze, die so-        prüfenswert.
+wohl zum konzentrierten Arbeiten alleine oder in
+Gruppen als auch zum Verweilen einladen. Sie sind        3.4     NACHHALTIGKEIT, ENERGIE
+multifunktional nutzbar als erweitertes Schulzimmer      Der Kanton Aargau beabsichtigt die Erweiterung
+bis hin zu Aufenthaltsflächen, z.B. für Apéros bei El-   der Kantonsschule Baden nach hochstehenden Re-
+ternabenden o.Ä. und genügend flexibel möbliert.         geln der Nachhaltigkeit zu entwickeln. Im Projekt-
+Vorbild bezüglich Anordnung, Licht, Grosszügigkeit       wettbewerb sollen explizit Lösungen zum ressour-
+usw. sind die Schülerarbeitsplätze im Gebäude 1.         censchonenden, klimagerechten und
+                                                         sozialverträglichen Bauen gesucht werden. Für die
+Eingangsbereich                                          Umsetzung sind Lösungsansätze gefragt, die die
+Der Eingangsbereich schafft den Bezug zum Cam-           baulichen und technischen Systeme gesamthaft be-
+pus gegen innen und die nötige Durchlässigkeit           trachten. Als verbindliche Anforderung gelten die
+
+
+Immobilien Aargau März 2021 9
+KANTONSSCHULE BADEN: BAULICHE ERWEITERUNG                                      BERICHT DES PREISGERICHTS
+
+
+
+
+
+Erfüllung der Standards Minergie-P-ECO (zertifiziert)   sätzlich durch Bauteil- und Materialoberflächen auf-
+und des Standards Nachhaltiges Bauen Schweiz            geheizt wird (weitgehende Vermeidung von versie-
+SNBS 2.0.                                               gelten Flächen und spiegelnden Oberflächen).
+
+Standard Nachhaltiges Bauen Schweiz SNBS 2.0            Die Gebäude sollen mit einem optimalen sommerli-
+für Schulbauten                                         chen Wärmeschutz versehen werden. Eine natürli-
+Der SNBS hat einen gesamthaften Nachhaltigkeits-        che Nachtauskühlung ist zu berücksichtigen. Bauli-
+ansatz mit der Berücksichtigung sozialer, wirt-         che Lösungen sollen sicherstellen, dass alle
+schaftlicher und ökologischer Themen. Diese sollen      Nutzungen nicht aktiv gekühlt werden müssen.
+in der Bearbeitung zu einem gesamthaft nachhalti-
+gen Konzept zusammengeführt werden. Die Erfül-
+lung der 2000-Watt-Anforderungen ist verbindlicher
+Teil des SNBS. Das soll mit der Anwendung des SIA
+2040: 2017 Effizienzpfades Energie sichergestellt
+werden.
+
+Variable Nutzung und flexible Anpassbarkeit als
+Teil der Lebenszyklusbetrachtungen
+Die variable Nutzbarkeit der Räume und die flexible
+Anpassbarkeit der Strukturen sind ein wesentlicher
+Teil der Langlebigkeit der Bauteile und Anlagen und
+somit der optimierten Lebenszyklen. Bauliche und
+räumliche Konzepte sollen die flexible Nutzung und
+Anpassbarkeit der Räume und Strukturen unterstüt-
+zen. Eine konsequente Systemtrennung ist zu be-
+rücksichtigen. Das gilt vor allem für die gute Zu-
+gänglichkeit der technischen Anlagen und
+Installationen. Positive Auswirkungen auf Lebenszy-
+klusbetrachtungen haben auch robuste und langle-
+bige Materialien, Bauteile und Anlagen und einfa-
+che Raumgeometrien.
+
+Baukörper / Bauweise
+Es wird eine hohe Kompaktheit der Baukörper er-
+wartet. Je kompakter die Baukörper, umso geringer
+der Ressourcen- und Energiebedarf. Geometrische
+Wärmebrücken durch viele Vor- und Rücksprünge
+sind soweit möglich zu vermeiden. Ziel ist eine
+möglichst einfache Bauweise und Tragstruktur mit
+geringen Spannweiten und direkten Lastabtragun-
+gen.
+
+Stadtklima und sommerlicher Wärmeschutz
+In der Entwicklung der Gebäudestruktur sowie der
+Innen- und Aussenräume sind stadtklimatische Be-
+dingungen zu berücksichtigen. Die Möglichkeit ei-
+ner guten Durchlüftung auf dem Grundstück ist an-
+zustreben. Gleichzeitig soll der Aussenraum so
+gestaltet werden, dass dieser im Sommer nicht zu-
+
+
+Immobilien Aargau März 2021 10
+KANTONSSCHULE BADEN: BAULICHE ERWEITERUNG                                     BERICHT DES PREISGERICHTS
+
+
+
+
+
+4       BEURTEILUNG
+
+
+
+4.1     ERSTE VORPRÜFUNG                               – Projekt N° 25: Franz fluchtet Fritz
+Es wurden 43 Wettbewerbsbeiträge fristgerecht          – Projekt N° 28: Incontro
+eingereicht. Die Projekteingaben wurden durch die      – Projekt N° 30: Vier mal Vier
+Metron Raumentwicklung AG in Brugg zwischen            – Projekt N° 32: Newton
+dem 16. November und dem 10. Dezember 2020             – Projekt N° 34: Orion
+entsprechend den Anforderungen des Wettbe-             – Projekt N° 35: Master.Plan
+werbsprogramms und der Präzisierungen aus der          – Projekt N° 37: Panta Rhei
+Fragenbeantwortung geprüft. In der materiellen         – Projekt N° 38: Der Innenraum im Aussenraum
+Vorprüfung wurden die Einhaltung des Raumpro-          – Projekt N° 41: Das Prinzip des Rationalen
+gramms sowie der baurechtlichen Rahmenbedin-           – Projekt N° 42: Neonlicht
+gungen überprüft. Die bauökonomischen Belange          – Projekt N° 43: Sportmint
+wurden für die erste Jurysitzung mit einem Quer-
+vergleich der wichtigsten Kennzahlen (Flächen, Vo-     Im zweiten Beurteilungsrundgang stellten die Fach-
+
+===== TEIL 2: BEURTEILUNG / RANGIERUNG / EMPFEHLUNGEN / WUERDIGUNG (Berichtseiten 11-13) =====
+vergleich der wichtigsten Kennzahlen (Flächen, Vo-     Im zweiten Beurteilungsrundgang stellten die Fach-
+lumen, Verhältniszahlen) aufgrund der Selbstdekla-     preisrichterInnen die Vor- und Nachteile der Projek-
+rationen dargestellt. Die Vorprüfungsergebnisse        te dem Plenum nochmals eingehend vor. Gemein-
+wurden in einem Bericht festgehalten, der dem          sam wurde aufgrund der Kriterien Städtebau,
+Preisgericht zu Beginn der Jurierung abgegeben         Architektur, Freiraum, Denkmalpflege und Betrieb
+wurde. Das Preisgericht beschloss, alle Projekte zur   entschieden, folgende Projekte im zweiten Beurtei-
+Beurteilung zuzulassen                                 lungsrundgang auszuscheiden:
+
+4.2      BEURTEILUNG DES PREISGERICHTS AN-             – Projekt N° 01: Palindrom
+LÄSSLICH DER ERSTEN JURYSITZUNG                        – Projekt N° 06: Mind
+Das Preisgericht traf sich am Freitag 11. Dezember     – Projekt N° 08: Frühling, Sommer, Herbst und 		
+2020 zur Beurteilung aller 43 eingereichten Projekte     				            Wintergarten
+an der Kantonsschule Baden. Das Ergebnis der Vor-      – Projekt N° 10: Terunobu
+prüfung wurde zur Kenntnis genommen und die be-        – Projekt N° 13: TheNewOne
+antragte Zulassung aller Wettbewerbsbeiträge zur       – Projekt N° 17: Freifach
+Beurteilung und einer allfälligen Preisvergabe ge-     – Projekt N° 23: rum 2.0
+nehmigt. Nach einem ersten Informationsrundgang        – Projekt N° 26: peppermint
+in Gruppen und der Vorstellung der Projekte durch      – Projekt N° 31: Zwilling
+die FachpreisrichterInnen wurden die Beiträge im       – Projekt N° 33: USW.
+Plenum nach den vorgegebenen Beurteilungskriteri-      – Projekt N° 36: Okapi
+en diskutiert. Nach einer intensiven Diskussion wur-   – Projekt N° 39: BINOM
+den aufgrund von Mängeln bei einem oder mehre-         – Projekt N° 40: Duplex
+ren Kriterien Städtebau, Architektur, Freiraum,
+Denkmalpflege und Betrieb entschieden, folgende        Im Kontrollrundgang begab sich das Preisgericht
+Projekte im ersten Beurteilungsrundgang ausge-         nochmals vor die Projekte und ging alle Projekte
+schieden:                                              der Reihe nach durch. Es wurden keine Rückkom-
+                                                       mensanträge gestellt. Somit wurden acht Projekte
+– Projekt N° 02: Arnia                                 für die engere Wahl bestimmt:
+– Projekt N° 04: Kitty Hawk
+– Projekt N° 05: Janus                                 – Projekt N° 03: Armilla
+– Projekt N° 09: Acht uf Acht                          – Projekt N° 07: Musmeci
+– Projekt N° 11: on-campus                             – Projekt N° 14: Woody
+– Projekt N° 12: Ritter Sport                          – Projekt N° 19: Newton
+– Projekt N° 15: π                                     – Projekt N° 21: Logos
+– Projekt N° 16: Schachmatt                            – Projekt N° 24: achtmalacht
+– Projekt N° 18: Hier & Jetzt                          – Projekt N° 27: Fermate
+– Projekt N° 20: Haller's Friends                      – Projekt N° 29: Neunbau
+– Projekt N° 22: Ottavia
+
+Immobilien Aargau März 2021 11
+KANTONSSCHULE BADEN: BAULICHE ERWEITERUNG                                    BERICHT DES PREISGERICHTS
+
+
+
+
+
+4.3     VERTIEFTE VORPRÜFUNG                          dem Dach der Sporthalle entstehen Emissionen, die
+Die Vorprüfung der Projekte der engeren Wahl er-      sich negativ auf das angrenzende Quartier auswir-
+folgte zwischen dem 14. Dezember 2020 und dem         ken könnten. Das Projekt N° 27: Fermate wird aus
+27. Januar 2021 unter Federführung der Metron         städtebaulicher und denkmalpflegerischer Sicht als
+Raumentwicklung AG. Die Beiträge wurden im Hin-       schwierig beurteilt. Es bildet einen Abschluss zum
+blick auf die im Wettbewerbsprogramm formulier-       Campus, wird aber auch als Riegel zum Wohnquar-
+ten sowie in der Fragenbeantwortung präzisierten      tier von Wettingen wahrgenommen und ist für den
+Rahmenbedingungen und zusätzlich durch die Ex-        Betrieb zu weit weg vom übrigen Schulbereich.
+perten in den Bereichen Baurecht, Brandschutz,
+Betrieb, Haustechnik, Nachhaltigkeit und Bau-         4.5      RANGIERUNG
+ökonomie einer vertieften Vorprüfung unterzogen.      Die vergleichende Wirtschaftlichkeitsprüfung zeig-
+Die Ergebnisse wurden in einem Bericht festgehal-     te, dass alle Projekte, die dem Hallerschen Gedan-
+ten und dem Preisgericht zu Beginn des zweiten        ken folgen, teurer abschneiden als die übrigen Pro-
+Beurteilungstages abgegeben.                          jekte. Die im Wettbewerbsprogramm genannte
+                                                      Kostenvorgabe erreichte keines dieser Projekte.
+4.4      BEURTEILUNG DES PREISGERICHTS                Nach eingehender Diskussion entschied sich das
+ANLÄSSLICH DER ZWEITEN JURYSITZUNG                    Preisgericht einstimmig für folgende Rangierung:
+Das Preisgericht traf sich zur Beurteilung der Pro-
+jekte der engeren Wahl am Donnerstag, 28. Januar      – 1. Rang/1. Preis: Projekt N° 24: achtmalacht		
+2021 an der Kantonsschule Baden. Es nahm von            Preissumme: 65'000.--
+den Vorprüfungsergebnissen, die durch die Exper-      – 2. Rang/2. Preis: Projekt N° 27: Fermate		
+ten aufgrund der Pandemie virtuell vorgetragen          Preissumme: 55'000.--
+wurden, Kenntnis. Anschliessend wurden die zwi-       – 3. Rang / 3. Preis: Projekt N° 7: Musmeci		
+schenzeitlich angefertigten provisorischen Projekt-     Preissumme: 40'000.--
+beschriebe von den FachpreisrichterInnen im Ple-      – 4. Rang / 4. Preis: Projekt N° 14: Woody		
+num vorgelesen und die Projekte besprochen. Im          Preissumme: 25'000.--
+Anschluss standen die Experten nochmals virtuell      – 5. Rang / 5. Preis: Projekt N°21: Logos		
+für Rückfragen zur Verfügung. Danach wurden im          Preissumme: 15'000.--
+dritten Beurteilungsrundgang die unterschiedlichen    – 6. Rang / 6. Preis: Projekt N° 19: Newton		
+Qualitäten, die Vor- und Nachteile der Projekte der     Preissumme: 10'000.--
+engeren Wahl nochmals eingehend diskutiert und
+folgende Projekte ausgeschieden:                      Nachdem im Kontrollrundgang kein Rückkommens-
+                                                      antrag gestellt wurde, wurde die Anonymität aufge-
+– Projekt N° 03: Armilla                              hoben.
+– Projekt N° 29: Neunbau
+                                                      4.6     EMPFEHLUNGEN
+Die verbleibenden Projekte wurden nochmals ein-       Das Preisgericht empfiehlt einstimmig das Projekt
+gehend im Plenum diskutiert. Die Projekte N° 24:      N° 24: achtmalacht zur weiteren Bearbeitung und
+achtmalacht, N° 14: Woody und N° 21: Logos sind       zur Ausführung. Aufgrund der Überschreitung der
+dem Weiterbauen nach Haller verpflichtet und          Kostenvorgabe wird beantragt, das Siegerprojekt N°
+schlagen Lösungen vor, die dessen Masterplan fort-    24: achtmalacht zu überarbeiten und dem Preisge-
+setzen. Während das Projekt N° 24: achtmalacht die    richt nochmals vorzulegen.
+Ideen am konsequentesten umsetzt und zwei gut
+funktionierende Schul- und Sportbauten vorschlägt,    4.7      WÜRDIGUNG
+weist das Projekt N° 14: Woody in Bezug auf den       Die Veranstalterin und das Preisgericht bedanken
+Sport und den Aussenraum eindeutige Nachteile         sich bei den Teilnehmenden für ihr ausserge-
+auf. Das Projekt N° 21: Logos schneidet städtebau-    wöhnliches Engagement und die wertvollen Pro-
+lich und konstruktiv schlechter ab. Durch das An-     jektbeiträge. Die eingereichten Projekte bieten eine
+ordnen eines Teils des Aussenraumprogramms auf        Vielzahl an Lösungen innerhalb einer bereits vor-
+
+
+Immobilien Aargau März 2021 12
+KANTONSSCHULE BADEN: BAULICHE ERWEITERUNG           BERICHT DES PREISGERICHTS
+
+
+
+
+
+handenen städtebaulichen Situation, eines engen
+Projektperimeters und den verschiedenen Nut-
+zungsanforderungen. Die Veranstalterin und auch
+das Preisgericht sind sich des hohen Arbeitsauf-
+wands bewusst, den jedes einzelne Team geleistet
+hat, und würdigen die Tiefe und den hohen Detail-
+lierungsgrad der eingereichten Arbeiten. Durch die
+grosse Vielfalt der Beiträge entstanden anregende
+und bereichernde Diskussionen innerhalb des Preis-
+gerichts.
+
+Die Auftraggeberin und das Preisgericht freuen
+sich, mit dem Projekt N° 24: achtmalacht ein her-
+vorragendes Projekt vorschlagen zu können, das so-
+wohl aus städtebaulicher und architektonischer
+Sicht wie auch betrieblich überzeugende Qualitäten
+aufweist.
+
+Das Preisgericht gratuliert dem siegreichen Team
+und bedankt sich bei allen Projektverfassenden für
+die Vorschläge für die bauliche Erweiterung der
+Kantonsschule Baden.
+
+
+
+
+Immobilien Aargau März 2021 13
+
+===== TEIL 3: WUERDIGUNG 1. RANG «achtmalacht» (Berichtseiten 16-18) =====
+KANTONSSCHULE BADEN: BAULICHE ERWEITERUNG                         BERICHT DES PREISGERICHTS
+
+
+
+
+achtmalacht
+1. Rang/1. Preis
+
+
+
+
+Modellfoto
+
+
+ARCHITEKTUR / GESAMTLEITUNG                  BAUINGENIEUR
+bernath+widmer Architekten AG, Zürich        Dr. Deuring + Oehninger AG, Winterthur
+Benjamin Widmer                              Martin Deuring
+Dominic Gobbo
+Lorenz Mörikofer                             HLKS
+Francois Chammartin                          Enerconom AG, Bern
+Gabriela Petermann                           Roni Hess
+Georg Bachmann
+Lukas Murer                                  WEITERE TEAMMITGLIEDER
+
+LANDSCHAFTSARCHITEKTUR                       BRANDSCHUTZ
+bernath+widmer Architekten AG, Zürich        AFC Air Flow Consulting AG, Zürich
+Janine Schneider                             Alois Schälin
+Benjamin Widmer                              Christian Kohler
+Dominic Gobbo                                Frank Ritter
+Lorenz Mörikofer
+
+
+
+
+Immobilien Aargau März 2021 16
+                                                                           KANTONSSCHULE BADEN: BAULICHE ERWEITERUNG                                  BERICHT DES PREISGERICHTS
+                                                                           
+
+
+
+
+                                                                        In grosser Konsequenz würdigen die Projektverfas-    drehung der Turnhalle um neunzig Grad eine für
+                                                                        ser den Entwurf Haller und führen diesen sinnge-     den Betrieb und die Anlage optimale Erschliessung
+                                                                        mäss für ihr eigenes Projekt weiter. Prägende Ei-    ermöglicht. Ein weitgehend freies Erdgeschoss mit
+                                                                        genschaften - wie die Hierarchisierung der Bauten    gedeckten Aussenbereichen und zwei Eingängen,
+                                                                        auf die Mittel- und Seitenzonen, das in der Archi-   mit einer zweiseitigen, prominenten Haupttreppe
+                                                                        tektursprache lesbare Rastermass, die geschickte     aus der grosszügigen Halle erinnert auch da an die
+                                                                        Abfolge von Aussenräumen bis hin zu der Ausge-       clevere Organisation der Bestandsbauten. Demge-
+                                                                        wogenheit der Volumina und die Leichtigkeit der      genüber wird die Sporthalle unabhängig in einem
+                                                                        Architektur - werden von Haller übernommen. Aus      eigenständigen Volumen in den vertrauten Massen
+                                                                        denkmalpflegerischer Sicht entsteht damit ein aus-   erschlossen, was für die Vereinsnutzungen in Rand-
+                                                                        gesprochen ausgewogenes Ensemble, das die we-        zeiten optimal funktioniert. Der Sport bekommt als
+                                                                        niger geschickt proportionierten Bauten der 70er     eigenständiger Bereich ein Gesicht, er wird auf dem
+                                                                        Jahre zudem gut einbindet.                           Campus sichtbar.
+
+                                                                        Mit einem cleveren Schachzug werden Rahmenbe-        Die Sportplätze werden in der gesamten Anlage
+                                                                        dingungen entflochten und damit entscheidende        verteilt, was die Freiräume einseitig belegt. Drei
+                                                                        Spielräume geschaffen, um schlüssig und unaufge-     Bäume aus der Reihe zwischen den zwei Neubau-
+                                                                        regt die Anlage nach dem bekannten und bewähr-       ten in dem unterkellerten Bereich funktionieren we-achtmalacht
+                                                                                                                                                                     Wettbewerb „Bauliche Erweiterung Kantonsschule Baden“
+
+ den zurückversetzten Fassaden des überhohen Erdge-
+ dtschaft mit den Gebäuden Hallers fort. Das Gebäude
+egachsen auf dem Campus erschlossen. Der Aussenraum
+  gsgeschoss, das frei bespielbar ist und mit seinen Aufent-
+                                                                        ten «Hallerschen Prinzip» weiterzuentwickeln. Die    gen der fehlenden Substratschicht in der dargestell-
+  inen belebten und einladenden Empfang bildet, welches die
+
+
+                                                                        oberirdische Volumensetzung entspricht den Ideen     ten Art nicht. Es muss eine Lösung im
+bauten weiterführt.
+  isation ist das Gebäude demjenigen Hallers stark verwandt,
+ r Gebäudemitte liegt und die Schulräume ringförmig an den
+weils zwei in die gleiche Richtung laufende Treppenläufe
+  Benutzer im Gebäude. Der Raster Hallers von 8 mal
+ n zugrunde, wobei jedoch im neuen Gebäude grössere
+ latz finden müssen. Über die drei Obergeschosse liegen
+ ne in der Verlängerung der Treppen sind als Unterrichts-
+                                                                        des Masterplanes, während die unterirdische Ab-      Zusammenhang mit der Tragstruktur der Hallende-
+ ze nutzbar, wobei sich diese durch Vorhänge je nach
+ Der gemeinsame Vorbereitungsraum der Fachschaften
+  rafie und Physik mit der Physiksammlung liegt zentral im
+
+Raster Hallers im Innenraum spürbar. Partielle Vergla-
+n in den Achsen der Struktur machen diese zusätzlich
+ r.
+
+er Weg zur Doppelturnhalle ins Untergeschoss, wo sich vor
+ deroben bereits ein Blick in die Weite der Sporthalle bietet.
+geslicht. Ebenfalls im Untergeschoss liegen die erforder-
+
+
+Gebäudes liegen die Unterrichts- und Fachschaftsräume
+den separaten Eingang und die eigene Anbindung an die
+rch Externe) genutzt werden, ohne dass diese das grössere
+ hqueren müssen.
+rmöglicht den Transport von grossen Sportgeräten zu den
+
+
+ tonsschule Baden sind hindernisfrei nach SIA 500
+
+
+
+verfolgt die Grundsätze einer Umsetzung der Stahl-
+tion mit Holz-Beton-Verbunddecken, einer stringenten und
+ tion der tragenden Bauteile auf ein sinnvolles Minimum zur
+ ilität innerhalb der Geschossflächen, sowie die konsequente
+k und Gebäudetechnik durch die offene Leitungsführung in
+
+
+ äudes ist diesen Grundsätzen entsprechend als
+konzipiert. Der Einsatzort der Baustoffe ist nach ihrer
+ sfähigkeit gewählt und im Sinne der Ressourcen-
+r Grauenergie eingesetzt und statisch optimiert.
+ laren Grundstruktur in Stahlbauweise sowie die stringente
+abtrag respektiert und würdigt die Prinzipien Hallers.
+
+ ne hohe Flexibilität für die offene Leitungsführung mit
+halb der Unterzugsebene. Die Stahlträger werden mit vor-
+n versehen. Die Aussteifung des Gebäudes wird durch die
+ ems zwischen Stützen und Trägern erreicht.
+
+
+
+
+ t ideale Möglichkeiten für ein zweiachsig tragendes
+  möglichst hohen Anteil an Holz zu verfügen wird für das
+ n-Verbunddecke gewählt, welche ideal für eine Spann-
+st. Durch die Wahl von Brettsperrholz (CLT-Elemente),
+ nschaften verfügen, kann die umlaufende Deckenauf-
+ nsbesondere die Gebrauchstauglichkeitseigenschaften wie
+ gen zu optimieren. Entsprechend genügt ein geringer
+ mit 10cm Überbeton, um die Deckenfelder von 8 mal
+ahmen oder Elemente aufzuspannen. Der im Verbund
+ tig auch für die Stahlträgeroptimierung genutzt.
+d der Betonanteil erhöht, um in dieser Zone die Trageigen-
+ uszunutzen und eine materialgerechte Auflagerung auf den
+ealisieren. Die Deckenuntersichten werden einheitlich in
+
+
+ eu und wirtschaftlich mit Stahl-Beton-Verbundträgern
+des darüber liegenden kleinen Gebäudes werden zu
+  spannen über die ganze Hallenbreite. Die Leistungsfähig-
+al ausgenutzt. Direkte Lastabtragungen auf die Turnhallen-
+mieden werden.
+
+
+
+
+                                                                 Situationsplan 1:500
+
+                                                                        Situationsplan
+
+
+                                                                        Immobilien Aargau März 2021 17
+KANTONSSCHULE BADEN: BAULICHE ERWEITERUNG                                     BERICHT DES PREISGERICHTS
+
+
+
+
+
+cke gesucht werden. Auch sonst ist das Potential      um die bestehenden Freiflächen zu erhalten.
+der Umgebungsgestaltung noch nicht ausge-             Der konstruktive und strukturelle Aufbau ist eine in-
+schöpft.                                              teressante, zeitgemässe Interpretation der Bauwei-
+                                                      se von Haller. Die Holz-Stahl-Hybridkonstruktion ist
+Der fliessende Übergang von Innen- und Aussen-        eine eher unübliche, aber gerade in diesem Fall un-
+raum im Erdgeschoss des neuen MINT-Gebäudes           bedingt weiter zu verfolgende Idee. Inwieweit sich
+und der grosse Platz zum Gebäude 6 fügen sich zu      das sehr filigrane Fassadenbild halten lässt, mit all
+einem neuen, attraktiven Zentrum mit hoher Auf-       den technischen Anforderungen an eine zeitgemäs-
+enthaltsqualität.                                     se Fassade, müsste eine Weiterbearbeitung zeigen.
+
+Obwohl oder gerade weil sich die Projektverfasser     Mit dem vorliegenden Projekt beweisen die Verfas-
+an die Geometrie der bestehenden Grundrisse hal-      ser, dass es mit grösster Sorgfalt und Rücksichts-
+ten, wird ein gut nutzbarer Normalgrundriss mit       nahme sehr gut möglich ist die Anlage sinnvoll und
+Fachzimmer und offenen Zonen entwickelt, die eine     schlüssig zu erweitern. Das baukulturelle Erbe mit
+gewünschte Nutzungsflexibilität erlauben. Im ersten   den wertvollen Innen- und Aussenraumqualitäten
+Untergeschoss sind Sporthalle und Schulgebäude        für einen vorbildlichen Schulbetrieb wird gestärkt
+räumlich und betrieblich attraktiv verbunden. Das     und kann weiterhin überzeugend zur starken Identi-
+fehlende Tageslicht wird mit einem dreiseitigen       tät der Kantonsschule Baden beitragen.
+Rundgang im ersten Untergeschoss kompensiert.
+Die Sporthalle mit den Garderoben und Geräteräu-
+men ist gut organisiert.
+
+Aus Nutzersicht überzeugt das Projekt. Die Räume
+sind multifunktional nutzbar und ermöglichen viel-
+fältige pädagogische Nutzungen. Es gibt attraktive
+Begegnungszonen und eine vertikale Verdichtung,
+
+
+
+
+PLÄNE
+
+
+
+
+Visualisierung Aussenraum, Urheber: indievisual AG
+
+
+Immobilien Aargau März 2021 18
+
+===== TEIL 4: WUERDIGUNG 2. RANG «FERMATE» (Berichtseiten 22-24) =====
+
+
+
+
+FERMATE
+2. Rang/2. Preis
+
+
+
+
+Modellfoto
+
+
+ARCHITEKTUR / GESAMTLEITUNG                      HLKS
+Comamala Ismail Architectes, Delémont            Waldhauser + Hermann AG, Münchenstein
+Diego Comamala                                   Marco Waldhauser
+Toufiq Ismail-Meyer
+Thibault Koulmey                                 WEITERE TEAMMITGLIEDER
+Andrè Paca
+Cornelius Thiele                                 ELEKTROPLANER
+                                                 Beraplan AG, Lyss
+LANDSCHAFTSARCHITEKTUR                           Andy Rindlisbacher
+Berchtold.Lenzin Landschaftsarchitekten, Basel   Daniel Gehrig
+Christian Lenzin                                 Markus Huber
+Katrin Siebert                                   Nico Beri
+
+BAUINGENIEUR
+Muttoni et Fernandez, ingenieurs conseils SA,
+Ecublens
+Miguel Fernandez Ruiz
+Antonio Garcia
+Simon De Castro
+
+
+
+
+Immobilien Aargau März 2021 22
+KANTONSSCHULE BADEN: BAULICHE ERWEITERUNG                                    BERICHT DES PREISGERICHTS
+
+
+
+
+
+Nur auf den ersten Blick scheinen sich die Projekt-   Die heute bestehende asymmetrische Anordnung
+verfasser über die Vorgaben des Masterplanes von      der Wegeführung wird beibehalten, was eine kom-
+Fritz Haller hinwegzusetzen. Bei der genaueren Be-    pakte Anordnung der Sportplätze im Osten ermög-
+trachtung zeigen sich intelligente und verblüffende   licht. Die Anbindung ans Quartier erfolgt geschickt
+Antworten auf Fragen, die in der Anlage von Haller    über einen baumbestandenen Platz an der Ecke
+nicht gelöst waren oder sich im Laufe der Zeit        Schönau-/Wettingerstrasse. Allgemein wirkt der
+grundsätzlich verändert haben. Mit dem präzise ge-    Umgang mit neuen Bäumen aber ein wenig zurück-
+setzten, langen Volumen wird die Anlage und das       haltend.
+an sich endlose Prinzip von Achsen und Baufeldern
+gegen Osten zum bestehenden Wohnquartier been-        Auch wenn das Schulhaus grundsätzlich durch sei-
+det. Es wird eine wohltuende Klarheit geschaffen,     ne Organisation und architektonische Ausformulie-
+sowohl zur Anlage als auch zum Wohnquartier und       rung besticht, trägt es aus denkmalpflegerischer
+zur Wettingerstrasse hin. Die gewählten Mittel sind   Sicht zu wenig für einen erwünschten Ensemble-
+überzeugend. Mit neuen Baumfeldern und Plätzen        bzw. Campuscharakter bei. Nach der bereits proble-
+werden hochwertige Orte geschaffen, sowohl bei        matischen Erweiterung der 70er-Jahre würde die
+den Zugängen zur Anlage als auch bei der geplan-      Identität des Campus durch eine neue Leitidee für
+ten Bushaltestelle und zur Kreuzung im Nordosten.     die dritte Erweiterung zu stark verunklärt.
+Die nördliche Campusachse wird gestärkt und en-
+det oder beginnt unter der grosszügigen, zweige-      Aus der Logik der Anlage ist der Haupteingang für
+schossigen Eingangshalle des neuen Schulgebäu-        den Erweiterungsbau an die Schnittstelle Halle zu
+des. Es entsteht ein würdiger zweiter Zugang zur      Achse gelegt. Das Erdgeschoss ist mit den
+Kantonsschule von Osten.                              Einsichten in die Sporthallen und die Eingangshalle
+
+
+
+
+Situationsplan
+
+
+Immobilien Aargau März 2021 23
+KANTONSSCHULE BADEN: BAULICHE ERWEITERUNG                                       BERICHT DES PREISGERICHTS
+
+
+
+
+
+mit schulischer Nutzung attraktiv gestaltet. Die         schen Antworten und einer grosszügigen didaktisch
+Breite des Baukörpers ist pragmatisch und sinnvoll       wertvollen Schulraumidee. Gerade weil das Projekt
+von den Massen der Sporthalle abgeleitet. Mit der        so präzise ausgearbeitet wurde, ist es ein hervorra-
+gut hierarchisierten Dreipunkterschliessung wird         gender Gradmesser für die Qualitäten der bestehen-
+sowohl die Entfluchtung als auch die Durchwegung         den Anlage. In der entscheidenden Gegenüberstel-
+des Hauptschulgeschosses sehr sinnvoll gelöst.           lung in der Schlussrunde wurde dann aber klar,
+Mittels der gewählten Tragstruktur wird eine grosse      dass bei aller Qualität der lange Baukörper eine zu
+Flexibilität und gute Tageslichtqualität erreicht, die   starke Zäsur im Quartier erzeugt.
+einen lebendigen Schulbetrieb verspricht. Bei aller
+städtebaulicher und architektonischer Klarheit und
+Ausdruckskraft stellt sich die Frage, ob der Erweite-
+rungsbau nicht zu weit von den anderen Schulbau-
+ten entfernt ist und somit der gewünschte Aus-
+tausch von Fachschaften verhindert wird.
+
+Die vorgeschlagene Materialisierung ist stimmig
+und orientiert sich in selbstbewusster Weise am Be-
+stand. Inwieweit die innere Schale bei dieser einfa-
+chen Schnittlösung sich auch in Leichtbauweise
+oder Vorfabrikation realisieren liesse, wäre im Hin-
+blick auf die Themen der Nachhaltigkeit eine prü-
+fenswerte Frage.
+
+Das Projekt überzeugt mit einem verblüffend befrei-
+enden Blick auf die Gesamtsituation und löst die
+gestellte Aufgabe mit intelligenten architektoni-
+
+
+
+
+PLÄNE
+
+
+
+
+Visualisierung Aussenraum
+
+
+===== TEIL 5: WUERDIGUNG 3. RANG «Musmeci» (Berichtseiten 28-30) =====
+
+
+
+Musmeci
+3. Rang/3. Preis
+
+
+
+
+Modellfoto
+
+
+ARCHITEKTUR / GESAMTLEITUNG                     HLKS
+Bollhalder Eberle Architektur, Zürich           Wirkungsgrad Ingenieure AG, Luzern
+Markus Bollhalder                               Nicolas Bless
+Raphael Bollhalder                              Nermin Prasovic
+Christian Walser
+Matthias Gorla                                  WEITERE TEAMMITGLIEDER
+
+LANDSCHAFTSARCHITEKTUR                          ELEKTROPLANER
+Anton Landschaft, Zürich                        Walter Salm, Meier & Partner AG, Zürich
+Carola Anton                                    Antonio Villar
+Pablo Rubio                                     Matthias Meier
+                                                Carmen Staudenrausch
+BAUINGENIEUR                                    Christina Schorer
+Borgogno Eggenberger + Partner AG, St. Gallen
+Walter Borgogno
+
+
+
+
+Immobilien Aargau März 2021 28
+KANTONSSCHULE BADEN: BAULICHE ERWEITERUNG                                       BERICHT DES PREISGERICHTS
+
+
+
+
+
+Das Kennwort bezieht sich auf den italienischen           haltsqualität aus. Die Erschliessung entlang den
+Bauingenieur Sergio Musmeci, einer der wichtigs-          Baumreihen wird übernommen und gegen Osten
+ten Vertreter des italienischen Strukturalismus.          weitergeführt. Bedingt durch den grösseren Fuss-
+Hauptmerkmal des Projekts ist denn auch das ge-           abdruck des Neubaus im Vergleich zum Hauptge-
+faltete Dach, das den ganzen Bau überspannt und           bäude Hallers springen die Baumreihen beim neuen
+in den darunterliegenden Schulgeschossen eine             Platz um mehrere Meter zur Seite. Die Absicht, das
+räumlich spannende Atmosphäre schafft. An die-            Erschliessungskonzept von Fritz Haller und Albert
+sem Dach ist auch die Decke der Doppelsporthalle          Zulauf weiterzuführen, kann dadurch nicht erfüllt
+mittels Zugelementen befestigt.                           werden. Zusammen mit dem baumbestandenen
+                                                          Platz entsteht eine neue Raumfigur, die den Neubau
+Die Unterrichtsräume und die Doppelsporthalle             eher aus dem Ensemble herauslöst. Südlich vom
+werden in einem Gebäude zusammengefasst, wel-             Neubau, in der Zone der Sportbauten, liegen konse-
+ches die Zone mit den Hauptbauten gemäss Kon-             quenterweise der Allwetterplatz sowie die Beach-
+zept von Fritz Haller im Osten abschliesst. Zwischen      Volleyballfelder. Die kompakte Setzung dieser Aus-
+dem Gebäude 6 und dem Neubau spannt sich ein              senanlagen erlaubt einerseits einen problemlosen
+neuer Platz auf, der als bewusster Kontrast und als       Übergang zum kleinmassstäblichen Wohnquartier
+Ergänzung zum bestehenden Platz vor dem Haupt-            sowie anderseits eine neue Grünfläche nördlich der
+gebäude im Westen als baumbestandener chaussi-            Aula als durchlässige Verbindung zur Wettingerst-
+erter Platz ausgebildet ist. Er dient als frei bespiel-   rasse.
+barer Pausenplatz sowie als Aussenraum für die
+angrenzende Mensa und weist eine hohe Aufent-
+
+
+
+
+Situationsplan
+
+
+Immobilien Aargau März 2021 29
+KANTONSSCHULE BADEN: BAULICHE ERWEITERUNG                                    BERICHT DES PREISGERICHTS
+
+
+
+
+
+Am neuen Platz liegen an den Gebäudeecken die          auch unabhängig vom Schulbetrieb im Rahmen von
+zwei gleichwertigen Haupteingänge, die über eine       Sportveranstaltungen genutzt werden soll, könnten
+mittige Treppenanlage den Sportbereich in den Un-      jedoch Nutzungskonflikte entstehen.
+tergeschossen sowie die Unterrichtsräume in den
+Obergeschossen erschliessen. Die sehr effiziente       Wie bei den Bauten Hallers ist die Transparenz bei
+Erschliessung und die intelligente Anordnung des       der Ausgestaltung des Baukörpers ein wichtiges
+Raumprogramms führen zu einer grossen Kompakt-         Thema. Der architektonische Ausdruck mit semit-
+heit der Anlage, welche eine wesentliche Qualität      ransparenten Brüstungen und Bandfenstern ist je-
+des Wettbewerbsbeitrags bildet.                        doch grundsätzlich anders und verstärkt zusammen
+                                                       mit der gewählten Materialisierung die bereits oben
+Das Erdgeschoss wird grösstenteils durch den Luft-     erwähnte Herauslösung des Neubaus aus dem En-
+raum der Doppelsporthalle eingenommen. Es ist          semble. Die ambivalente Haltung gegenüber dem
+zwar transparent ausgebildet, durch die fehlende       Bestand zeigt sich auch im Entscheid der Projekt-
+Nutzung auf der Fussgängerebene aber gleichwohl        verfasser, die stark bewegte Dachlandschaft mit ho-
+auf drei Seiten von derselben isoliert. In den zwei    hen Blenden unsichtbar zu machen, um so rundher-
+Obergeschossen, die mittels eines Luftraums mitei-     um doch noch eine zurückhaltende Gestalt zu
+nander verbunden sind, bildet eine Lernlandschaft      erreichen.
+die räumlich anregende Mitte der Unterrichtsflä-
+chen. Während die oberste Ebene mit Oblichtern im
+Faltdach grosszügig belichtet wird, erscheint es
+fraglich, ob die helle Atmosphäre der Visualisierung
+auch auf der unteren Ebene, bedingt durch die
+grosse Raumtiefe und die mannigfaltige Möblie-
+rung, tatsächlich erreicht werden kann. Ein Luft-
+raum verbindet ebenfalls das 1. Obergeschoss mit
+der Eingangshalle im Erdgeschoss. Da diese Halle
+
+
+
+
+Visualisierung Aussenraum
+
+
+Immobilien Aargau März 2021 30
+                                                  KANTONSSCHULE BADEN: BAULICHE ERWEITERUNG                                                                                                                                                                                                                             BERICHT DES PREISGERICHTS
+                                                  
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                      Musmeci
+
+
+
+
+                                                                                 11.6
+                                                                                 Rasenfläche
+                                                                                                                                                                                                                                                                                                                                                                                            10.2

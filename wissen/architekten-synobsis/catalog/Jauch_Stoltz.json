@@ -1,0 +1,34 @@
+{
+  "slug": "Jauch_Stoltz",
+  "architekt": {
+    "name": "Jauch Stoltz",
+    "nachname": "Jauch",
+    "vorname": "Stoltz",
+    "jahre": [],
+    "ordner": "Jauch_Stoltz"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Jauch_Stoltz",
+  "projekte": [
+    {
+      "raw": "Luzern",
+      "ort": "Luzern",
+      "projekt": "Luzern",
+      "jahre": [],
+      "titel": "Luzern"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 5,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 5
+  },
+  "dateitypen": {
+    ".jpg": 5
+  },
+  "textauszug": "",
+  "embed_doc": "Jauch Stoltz | Luzern Luzern",
+  "stand": "2026-07-02T21:21:53"
+}

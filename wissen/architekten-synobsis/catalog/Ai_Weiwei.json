@@ -1,0 +1,42 @@
+{
+  "slug": "Ai_Weiwei",
+  "architekt": {
+    "name": "Ai Weiwei",
+    "nachname": "Ai",
+    "vorname": "Weiwei",
+    "jahre": [],
+    "ordner": "Ai_Weiwei"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Ai_Weiwei",
+  "projekte": [
+    {
+      "raw": "China_Atelierstadt",
+      "ort": "China",
+      "projekt": "Atelierstadt",
+      "jahre": [],
+      "titel": "China Atelierstadt"
+    },
+    {
+      "raw": "Ordos_100",
+      "ort": "Ordos",
+      "projekt": "100",
+      "jahre": [],
+      "titel": "Ordos 100"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 3,
+    "dokumente": 3,
+    "cad": 0,
+    "andere": 0,
+    "total": 6
+  },
+  "dateitypen": {
+    ".tiff": 3,
+    ".pdf": 3
+  },
+  "textauszug": "OR 001DOS 04 Koenz Jachen und Molo Koenz Ludovica Lugano Parcel 15 06 Luscher Jean-Frédéric Basel Parcel 41 08 Manuel Herz Manuel Herz Architects Basel Parcel 25 10 Ines Huber Basel Parcel 53 12 Buchner Daniel und Bründler Andreas Buchner Bründler AG Architekten BSA Basel Parcel 54 14 Christ Emanuel und Gantenbein Christoph Christ & Gantenbein Architects Basel Parcel 58 16 Bachelard Cédric und Wagner Anne-Marie Bachelard Wagner Architekten Basel Parcel 60 18 Milica Topalovic Bas Princen Paul Gerretsen Topalovic Princen Gerretsen Architekten Basel Parcel 72 20 Lohmann Dietrich Lost Architekten Basel Parcel 79 22 Nobre Ligia und De Oliveira Rosa Eduardo Nobre De Oliveira Architekten Basel Parcel 99 24 Luca Selva Luca Selva Architekten ETH BSA SIA AG Basel Parcel 05 26 John Palmesino und Palmesino Rönnskog Territorial Agency Basel Parcel 22 28 Herlach Hartmann Frommenwiler HHF Architects Basel Parcel 51 30 Black Lineson White Paper Johannesburg Parcel 11 32 Bilbao Tatiana Mexico City Parcel 52 34 Michelle Howard Constructconcept Berlin Parcel 65 36 MOS Cambridge Parcel 06 38 NU architectuuratelier Gent Parcel 28 40 Kersten Geers und David Van Severen OFFICE Kersten Geers David Van Severen Belgien Parcel 44 42 Encore heureux + G Studio Paris Parcel 10 44 R&Sie(n), architect-Paris-NY Paris Parcel 26 46 L’Atelier Provisoire Bordeaux Parcel 40 48 Bernadette und Severin Heiermann Heiermann Architekten Cologne Parcel 73 50 Rafi Segal Rafi Segal Architect Princeton Princeton Parcel 03 52 NL Architects Amsterdam Parcel 13 54 Jan Olav Jensen JSA @ Norway - Jensen Skodvin Architekten Norwegen Parcel 88 56 Estudio Barozzi Veiga SL Barcelona Parcel 09 58 Coll Leclerc Coll Leclerc Arquitectos SL Barcelona Parcel 19 60 Matharoo Associates Ahmedabad Parcel 23 62 Jun Igarashi Architects Hokkaido Parcel 50 64 Lekker Design Singapore Parcel 81 66 PAD Toronto Parcel 66 68 Dellekamp Arquitectura SA de CV Condesa Parcel 14 70 Productora Condesa Parcel 35 72 Escobedo Frida Mexico Parcel 49 74 Javier Sanchez JS Mexico - City Parcel 86 76 Javier Sanchez JS Mexico - City Parcel 86 78 OBRA Architects New York Parcel 16 80 Multiplicities New York Parcel 24 82 Bill Price inc Houston Texas Parcel 29 84 IWAMOTOSCOTT San Francisco Parcel 43 86 Lee Architectects Los Angeles Parcel 46 88 Lee Architectects Los Angeles Parcel 46 90 Preston Scott Cohen Cambridge Parcel 47 92 Srdjan Jovanovic Weiss NAO Philadelphia Parcel 62 94 Dieguez Fridman Buenos_Aires Parcel 56 96 Aravena Alejandro Santiago Parcel 32 98 Leon de Lima Peru Parcel 16 04 Koenz Jachen und Molo Koenz Ludovica Lugano Parcel 15 06 Luscher Jean-Frédéric Basel Parcel 41",
+  "embed_doc": "Ai Weiwei | China Atelierstadt | Ordos 100 | OR 001DOS 04 Koenz Jachen und Molo Koenz Ludovica Lugano Parcel 15 06 Luscher Jean-Frédéric Basel Parcel 41 08 Manuel Herz Manuel Herz Architects Basel Parcel 25 10 Ines Huber Basel Parcel 53 12 Buchner Daniel und Bründler Andreas Buchner Bründler AG Architekten BSA Basel Parcel 54 14 Christ Emanuel und Gantenbein Christoph Christ & Gantenbein Architects Basel Parcel 58 16 Bachelard Cédric und Wagner Anne-Marie Bachelard Wagner Architekten Basel Parcel 60 18 Milica Topalovic Bas Princen Paul Gerretsen Topalovic Princen Gerretsen Architekten Basel Parcel 72 20 Lohmann Dietrich Lost Architekten Basel Parcel 79 22 Nobre Ligia und De Oliveira Rosa Eduardo Nobre De Oliveira Architekten Basel Parcel 99 24 Luca Selva Luca Selva Architekten ETH BSA SIA AG Basel Parcel 05 26 John Palmesino und Palmesino Rönnskog Territorial Agency Basel Parcel 22 28 Herlach Hartmann Frommenwiler HHF Architects Basel Parcel 51 30 Black Lineson White Paper Johannesburg Parcel 11 32 Bilbao Tatiana Mexico City Parcel 52 34 Michelle Howard Constructconcept Berlin Parcel 65 36 MOS Cambridge Parcel 06 38 NU architectuuratelier Gent Parcel 28 40 Kersten Geers und David Van Severen OFFICE Kersten Geers David Van Severen Belgien Parcel 44 42 Encore heureux + G Studio Paris Parcel 10 44 R&Sie(n), architect-Paris-NY Paris Parcel 26 46 L’Atelier Provisoire Bordeaux Parcel 40 48 Bernadette und Severin Heiermann Heiermann Architekten Cologne Parcel 73 50 Rafi Segal Rafi Segal Architect Princeton Princeton Parcel 03 52 NL Architects Amsterdam Parcel 13 54 Jan Olav Jensen JSA @ Norway - Jensen Skodvin Architekten Norwegen Parcel 88 56 Estudio Barozzi Veiga SL Barcelona Parcel 09 58 Coll Leclerc Coll Leclerc Arquitectos SL Barcelona Parcel 19 60 Matharoo Associates Ahmedabad Parcel 23 62 Jun Igarashi Architects Hokkaido Parcel 50 64 Lekker Design Singapore Parcel 81 66 PAD Toronto Parcel 66 68 Dellekamp Arquitectura SA de CV Condesa Parcel 14 70 Productora Condesa Parcel 35 72 Escobedo Frida Mexico Parcel 49 74 Javier Sanchez JS Mexico - City Parcel 86 76 Javier Sanchez JS Mexico - City Parcel 86 78 OBRA Architects New York Parcel 16 80 Multiplicities New York Parcel 24 82 Bill Price inc Houston Texas Parcel 29 84 IWAMOTOSCOTT San Francisco Parcel 43 86 Lee Architectects Los Angeles Parcel 46 88 Lee Architectects Los Angeles Parcel 46 90 Preston Scott Cohen Cambridge Parcel 47 92 Srdjan Jovanovic Weiss NAO Philadelphia Parcel 62 94 Dieguez Fridman Buenos_Aires Parcel 56 96 Aravena Alejandro Santiago Parcel 32 98 Leon de Lima Peru Parcel 16 04 Koenz Jachen und Molo Koenz Ludovica Lugano Parcel 15 06 Luscher Jean-Frédéric Basel Parcel 41",
+  "stand": "2026-07-02T21:05:27"
+}

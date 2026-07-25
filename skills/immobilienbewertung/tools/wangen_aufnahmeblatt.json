@@ -1,0 +1,84 @@
+{
+  "titel": "Besichtigungs-Aufnahmeblatt",
+  "untertitel": "Studie 2622, gemischtes Mehrfamilienhaus",
+  "objekt": "Bahnhofstrasse 27, 8855 Wangen SZ  ·  Besichtigung 19.06.2026",
+  "status_hinweis": "Vorausgefüllt aus Akten (GRULER 14.01.26, OEREB 07.06.26, UBS-FS 12/2025). Vor Ort die leeren Felder ausfüllen. Foto-Konvention: 260619_Bahnhofstr27_<Bauteil>_<NN>.jpg in 05_Bilder ablegen. Skalen: Standard 1 dürftig bis 5 luxuriös, Zustand 1 erneuerungsbedürftig bis 5 neuwertig, Mikrolage 1 sehr schlecht bis 5 exzellent.",
+  "doc_label": "Aufnahmeblatt Bahnhofstrasse 27 Wangen SZ",
+  "stamm": [
+    ["Objekt / Zone", "Bahnhofstrasse 27, 8855 Wangen SZ, Parz. 25, WG3, ES III, 751 m²"],
+    ["Objekttyp", "MFH gemischt (Arztpraxis EG und Wohnen), Bestand"],
+    ["HNF total", "538.0 m² (EG 175.4, OG1 166.9, WHG3 195.7); Lift und 3 Garagen vorhanden"],
+    ["Anwesend", "Raphael Jans, David Chaled (Eigentümer), ........................"],
+    ["Baujahr / letzte Sanierung", "................  /  ................"]
+  ],
+  "blocks": [
+    {"h2": "A  Standard (1 bis 5):  ........   (Akten-Annahme 2.5 bis 3.0)"},
+    {"table": {
+      "rows": [
+        ["Sub-Faktor", "Beobachtung", "Einstufung", "Foto"],
+        ["Aussenbereich / Umgebung", "", "Low / Basic / High", ""],
+        ["Wärmeerzeugung (Typ, Alter)", "", "", ""],
+        ["Wärmeabgabe", "", "Bodenhz. / Radiat.", ""],
+        ["Grundriss / Raumhöhe", "", "Low / Basic / Med / High", ""],
+        ["Küche(n)", "", "Low / Basic / High / Prem", ""],
+        ["Bodenbeläge", "", "Low / Basic / High / Prem", ""],
+        ["Nasszellen (Anzahl, Typ)", "", "Low / Basic / High / Prem", ""],
+        ["Weitere (Lift, Sicherheit)", "", "", ""]
+      ],
+      "widths": [50, 52, 40, 28],
+      "aligns": ["l", "l", "l", "l"],
+      "header": true
+    }},
+
+    {"h2": "B  Zustand (1 bis 5):  ........   (wichtigster Punkt = Realwert-Abschlag)"},
+    {"table": {
+      "rows": [
+        ["Bauteil", "Zust.", "San.-Jahr", "RND", "Bedarf CHF", "Foto"],
+        ["Tragwerk / Rohbau", "", "", "", "", ""],
+        ["Dach (First +12.05, DG-Boden +7.93)", "", "", "", "", ""],
+        ["Fassade / Balkone", "", "", "", "", ""],
+        ["Fenster", "", "", "", "", ""],
+        ["Küche(n)", "", "", "", "", ""],
+        ["Bäder / Sanitär", "", "", "", "", ""],
+        ["Oberflächen", "", "", "", "", ""],
+        ["WHG3 Maisonette (veraltet?)", "", "", "", "", ""],
+        ["Wärmeerzeugung", "", "", "", "", ""],
+        ["Wärmeabgabe", "", "", "", "", ""],
+        ["Elektro / Lüftung / Lift", "", "", "", "", ""],
+        ["Umgebung / Garagen", "", "", "", "", ""],
+        ["Summe Sanierungsstau", "", "", "", "", ""]
+      ],
+      "widths": [54, 14, 24, 14, 36, 28],
+      "aligns": ["l", "c", "c", "c", "r", "c"],
+      "header": true
+    }},
+
+    {"h2": "C  Mikrolage (1 bis 5):  ........   (Akten-Annahme 3.0)"},
+    {"bullets": [
+      "Verkehrslärm Bahnhofstrasse subjektiv: ........................",
+      "Besonnung / Ausrichtung: ........................",
+      "ÖV- und Bahnhof-Distanz bestätigen: ........................"
+    ]},
+
+    {"h2": "D  Besondere Werteinflüsse und Entwicklung"},
+    {"bullets": [
+      "WHG3 / DG, lichte Höhen messen: ab 1.80 m  ........ m²   ·   ab 2.25 m (Aufenthalt)  ........",
+      "2. Rettungsweg, Schall- und Brandschutz zwischen Einheiten machbar:  ........................",
+      "Pflichtparkplätze (Garagen und Vorplatz ausreichend):  ........................",
+      "Servitute / Grundbuch-Auffälligkeiten:  ........................"
+    ]},
+
+    {"h2": "E  Beim Eigentümer einholen (für belastbare Bewertung)"},
+    {"bullets": [
+      "☐  Mieterspiegel / Ist-Mietzinsliste (ersetzt die angenommenen Mietansätze)",
+      "☐  GVA-Police (Gebäudeversicherungswert, Realwert-Anker)",
+      "☐  Letzte Nebenkostenabrechnung / Unterhaltskosten",
+      "☐  Bewilligungsstatus bestehender DG-Ausbau"
+    ]},
+
+    {"h2": "F  Gesamteindruck und Bemerkungen"},
+    {"para": ".............................................................................................................................."},
+    {"para": ".............................................................................................................................."},
+    {"para": ".............................................................................................................................."}
+  ]
+}

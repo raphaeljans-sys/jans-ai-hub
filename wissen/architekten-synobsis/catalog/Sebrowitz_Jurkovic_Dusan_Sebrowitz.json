@@ -1,0 +1,32 @@
+{
+  "slug": "Sebrowitz_Jurkovic_Dusan_Sebrowitz",
+  "architekt": {
+    "name": "Sebrowitz Jurkovic Dusan Sebrowitz",
+    "nachname": "Sebrowitz",
+    "vorname": "Jurkovic Dusan Sebrowitz",
+    "jahre": [],
+    "ordner": "Sebrowitz_Jurkovic_Dusan_Sebrowitz"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Sebrowitz_Jurkovic_Dusan_Sebrowitz",
+  "projekte": [
+    {
+      "raw": "Resek_Landhaus",
+      "ort": "Resek",
+      "projekt": "Landhaus",
+      "jahre": [],
+      "titel": "Resek Landhaus"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 0
+  },
+  "dateitypen": {},
+  "textauszug": "",
+  "embed_doc": "Sebrowitz Jurkovic Dusan Sebrowitz | Resek Landhaus",
+  "stand": "2026-07-02T22:47:49"
+}

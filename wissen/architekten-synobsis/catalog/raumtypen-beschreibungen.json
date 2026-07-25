@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "quelle": "Abgeleitet aus der 1-Selection-Projektsammlung und architekturtheoretischem Kontext",
+    "stand": "2026-07-01",
+    "raumtypen": 9
+  },
+  "raumtypen": {
+    "Atomisierter Raum": {
+      "beschreibung": "Fragmentierte, aufgelöste Raumstrukturen — Durchdringung von Innen und Aussen, Auflösung der Gebäudehülle in einzelne Elemente oder Zellen."
+    },
+    "Fliessender Raum": {
+      "beschreibung": "Kontinuierliche, ineinander übergehende Räume ohne harte Grenzen — die Architektur des freien Grundrisses und der fliessenden Übergänge zwischen Innen, Aussen und Geschossen."
+    },
+    "Grosse Halle": {
+      "beschreibung": "Monumentale, überspannte Einraumsysteme — grosse stützenfreie oder minimal gegliederte Hallen, die durch ihre schiere Dimension und Raumhöhe wirken."
+    },
+    "Hybrider Raum": {
+      "beschreibung": "Verschränkung und Überlagerung verschiedener Raumtypen in einem Gebäude — programmatische Mischung, vertikale Durchdringung und unkonventionelle Schnittfiguren."
+    },
+    "Modularer Raum": {
+      "beschreibung": "Aus wiederholbaren Einheiten (Modulen) zusammengesetzte Raumgefüge — additive Systeme, bei denen das Ganze aus der seriellen Fügung gleichartiger Teile entsteht."
+    },
+    "Narrativer Raum": {
+      "beschreibung": "Räume als erzählerische Sequenz — architektonische Promenade, bei der die Abfolge der Räume eine Geschichte, einen Weg oder ein rituelles Erleben inszeniert."
+    },
+    "Skulptularer Raum": {
+      "beschreibung": "Raum als plastisches, dreidimensional modelliertes Gebilde — die Architektur wird zur Skulptur, indem Masse, Hohlraum und Oberfläche expressiv geformt werden."
+    },
+    "Struktureller Raum": {
+      "beschreibung": "Raum, der unmittelbar aus dem Tragwerk entsteht — Struktur und Raum sind eins, das konstruktive System (Stützen, Träger, Schalen) definiert die räumliche Erfahrung."
+    },
+    "Zentraler Raum": {
+      "beschreibung": "Um eine Mitte organisierte Raumfigur — der zentrale Raum als ordnendes, versammelndes Element, oft mit Oberlicht, Atrium oder Kuppel als räumlichem Höhepunkt."
+    }
+  }
+}

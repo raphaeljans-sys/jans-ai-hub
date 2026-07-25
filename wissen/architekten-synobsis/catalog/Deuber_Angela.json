@@ -1,0 +1,100 @@
+{
+  "slug": "Deuber_Angela",
+  "architekt": {
+    "name": "Deuber Angela",
+    "nachname": "Deuber",
+    "vorname": "Angela",
+    "jahre": [],
+    "ordner": "Deuber_Angela"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Deuber_Angela",
+  "projekte": [
+    {
+      "raw": "00_Architektin",
+      "ort": "00",
+      "projekt": "Architektin",
+      "jahre": [],
+      "titel": "00 Architektin"
+    },
+    {
+      "raw": "Baden",
+      "ort": "Baden",
+      "projekt": "Baden",
+      "jahre": [],
+      "titel": "Baden"
+    },
+    {
+      "raw": "Bueren",
+      "ort": "Bueren",
+      "projekt": "Bueren",
+      "jahre": [],
+      "titel": "Bueren"
+    },
+    {
+      "raw": "Referenz_Wettbewerb_Muenchen",
+      "ort": "Referenz",
+      "projekt": "Wettbewerb Muenchen",
+      "jahre": [],
+      "titel": "Referenz Wettbewerb Muenchen"
+    },
+    {
+      "raw": "Rigahaus",
+      "ort": "Rigahaus",
+      "projekt": "Rigahaus",
+      "jahre": [],
+      "titel": "Rigahaus"
+    },
+    {
+      "raw": "Sevelen",
+      "ort": "Sevelen",
+      "projekt": "Sevelen",
+      "jahre": [],
+      "titel": "Sevelen"
+    },
+    {
+      "raw": "Solothurn",
+      "ort": "Solothurn",
+      "projekt": "Solothurn",
+      "jahre": [],
+      "titel": "Solothurn"
+    },
+    {
+      "raw": "Thal",
+      "ort": "Thal",
+      "projekt": "Thal",
+      "jahre": [],
+      "titel": "Thal"
+    },
+    {
+      "raw": "Uster",
+      "ort": "Uster",
+      "projekt": "Uster",
+      "jahre": [],
+      "titel": "Uster"
+    },
+    {
+      "raw": "Vella",
+      "ort": "Vella",
+      "projekt": "Vella",
+      "jahre": [],
+      "titel": "Vella"
+    }
+  ],
+  "projekt_anzahl": 10,
+  "inventar": {
+    "bilder": 11,
+    "dokumente": 6,
+    "cad": 0,
+    "andere": 1,
+    "total": 18
+  },
+  "dateitypen": {
+    ".png": 9,
+    ".pdf": 6,
+    ".jpg": 2,
+    ".indd": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Deuber Angela | 00 Architektin | Baden Baden | Bueren Bueren | Referenz Wettbewerb Muenchen | Rigahaus Rigahaus | Sevelen Sevelen | Solothurn Solothurn | Thal Thal | Uster Uster | Vella Vella",
+  "stand": "2026-07-02T21:12:56"
+}

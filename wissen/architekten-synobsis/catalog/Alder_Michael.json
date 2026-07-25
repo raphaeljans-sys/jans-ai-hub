@@ -1,0 +1,27 @@
+{
+  "slug": "Alder_Michael",
+  "architekt": {
+    "name": "Alder Michael",
+    "nachname": "Alder",
+    "vorname": "Michael",
+    "jahre": [],
+    "ordner": "Alder_Michael"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Alder_Michael",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 3
+  },
+  "dateitypen": {
+    ".jpeg": 2,
+    ".pdf": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Alder Michael",
+  "stand": "2026-07-02T21:05:38"
+}

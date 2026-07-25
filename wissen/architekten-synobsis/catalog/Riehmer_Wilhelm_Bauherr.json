@@ -1,0 +1,35 @@
+{
+  "slug": "Riehmer_Wilhelm_Bauherr",
+  "architekt": {
+    "name": "Riehmer Wilhelm Bauherr",
+    "nachname": "Riehmer",
+    "vorname": "Wilhelm Bauherr",
+    "jahre": [],
+    "ordner": "Riehmer_Wilhelm_Bauherr"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Riehmer_Wilhelm_Bauherr",
+  "projekte": [
+    {
+      "raw": "Berlin_Hofgarten",
+      "ort": "Berlin",
+      "projekt": "Hofgarten",
+      "jahre": [],
+      "titel": "Berlin Hofgarten"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".png": 1,
+    ".pdf": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Riehmer Wilhelm Bauherr | Berlin Hofgarten",
+  "stand": "2026-07-02T22:46:00"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "S_uchov_Vladimir_Blechwalzwerk_Vyksa_Russland_1897_98",
+  "architekt": {
+    "name": "Šuchov Vladimir Blechwalzwerk Vyksa, Russland, 1897:98",
+    "nachname": "Šuchov",
+    "vorname": "Vladimir Blechwalzwerk Vyksa, Russland, 1897:98",
+    "jahre": [],
+    "ordner": "Šuchov_Vladimir_Blechwalzwerk Vyksa, Russland, 1897:98"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Šuchov_Vladimir_Blechwalzwerk Vyksa, Russland, 1897:98",
+  "projekte": [
+    {
+      "raw": "Pumpstationen in Groznyi, Tschetschenien",
+      "ort": "Pumpstationen in Groznyi, Tschetschenien",
+      "projekt": "Pumpstationen in Groznyi, Tschetschenien",
+      "jahre": [],
+      "titel": "Pumpstationen in Groznyi, Tschetschenien"
+    },
+    {
+      "raw": "Tuerme",
+      "ort": "Tuerme",
+      "projekt": "Tuerme",
+      "jahre": [],
+      "titel": "Tuerme"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 10,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 10
+  },
+  "dateitypen": {
+    ".jpg": 10
+  },
+  "textauszug": "",
+  "embed_doc": "Šuchov Vladimir Blechwalzwerk Vyksa, Russland, 1897:98 | Pumpstationen in Groznyi, Tschetschenien Pumpstationen in Groznyi, Tschetschenien | Tuerme Tuerme",
+  "stand": "2026-07-02T22:49:58"
+}

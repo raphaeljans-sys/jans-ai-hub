@@ -1,0 +1,36 @@
+{
+  "slug": "Munzer_Gustav_August",
+  "architekt": {
+    "name": "Munzer Gustav August",
+    "nachname": "Munzer",
+    "vorname": "Gustav August",
+    "jahre": [],
+    "ordner": "Munzer_Gustav_August"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Munzer_Gustav_August",
+  "projekte": [
+    {
+      "raw": "Kieler_Bucht_Marine_Ehrenmal_Lavoe_1927_36",
+      "ort": "Kieler",
+      "projekt": "Bucht Marine Ehrenmal Lavoe 36",
+      "jahre": [
+        "1927"
+      ],
+      "titel": "Kieler Bucht Marine Ehrenmal Lavoe 1927 36"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 3,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 3
+  },
+  "dateitypen": {
+    ".jpg": 3
+  },
+  "textauszug": "",
+  "embed_doc": "Munzer Gustav August | Kieler Bucht Marine Ehrenmal Lavoe 36 1927",
+  "stand": "2026-07-02T22:42:57"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "Smith_Samuel_Modell",
+  "architekt": {
+    "name": "Smith Samuel Modell",
+    "nachname": "Smith Samuel Modell",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Smith Samuel Modell"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Smith Samuel Modell",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".jpg": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Smith Samuel Modell",
+  "stand": "2026-07-02T22:48:50"
+}

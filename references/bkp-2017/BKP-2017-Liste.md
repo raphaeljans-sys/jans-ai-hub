@@ -1,0 +1,1066 @@
+# Baukostenplan BKP 2017 (CRB)
+
+**Quelle**: CRB Schweizerische Zentralstelle für Baurationalisierung
+**Standard**: BKP 2017 (Hochbau)
+**Original-PDF**: `BKP-2017-CRB.pdf` (in diesem Ordner)
+
+Diese Liste dient als verbindliche Referenz für alle BKP-Nummerierungen in JANS-Projekten (Offerten, Submissionen, Devis, Kostenschätzungen, Bauprogramme, Brandschutz-Factsheets).
+
+**WICHTIG**: Bei Unsicherheit IMMER hier nachschlagen, NIE BKP-Nummern erfinden oder schätzen.
+
+---
+
+## Hauptgruppen (Übersicht)
+
+| Code | Bezeichnung |
+|------|-------------|
+| 0    | Grundstück |
+| 1    | Vorbereitungsarbeiten |
+| 2    | Gebäude |
+| 3    | Betriebseinrichtungen |
+| 4    | Umgebung |
+| 5    | Baunebenkosten |
+| 6    | Reserve |
+| 7    | Reserve |
+| 8    | Reserve |
+| 9    | Ausstattung |
+
+---
+
+## 0 — Grundstück
+
+### 00 Vorstudien
+- **000** Übergangsposition
+- **001** Grundstücksbeurteilung, Machbarkeitsstudien
+- **002** Vermessung, Vermarkung
+- **003** Geotechnische und weitere Gutachten
+  - 003.1 Baugrund
+  - 003.2 Grundwasser
+  - 003.3 Altlasten
+  - 003.4 Weitere Gutachten
+- **004** Quartierplankosten, Richtplankosten
+- **006** Umweltverträglichkeitsprüfung
+- **009** Übriges
+
+### 01 Grundstücks- bzw. Baurechtserwerb
+- **010** Übergangsposition
+- **011** Grundstückserwerb
+- **012** Baurechtserwerb
+- **013** Brandmauereinkauf
+- **018** Sanierung Altlasten
+- **019** Übriges
+
+### 02 Nebenkosten zu Grundstücks- bzw. Baurechtserwerb
+- **020** Übergangsposition
+- **021** Handänderungssteuer
+- **022** Notariatskosten
+- **023** Grundbuchgebühren
+- **024** Anwaltskosten, Gerichtskosten
+- **025** Vermittlungsprovisionen
+- **029** Übriges
+
+### 03 Abfindungen, Servitute, Beiträge
+- **030** Übergangsposition
+- **031** Abfindungen an Mieter und Pächter
+- **032** Inkonvenienzentschädigungen
+- **033** Errichtung von Servituten
+- **034** Ablösung von Servituten
+- **035** Wirtschaftspatente
+- **036** Beiträge Melioration
+- **037** Beiträge Güterzusammenlegung
+- **038** Perimeterbeiträge
+- **039** Übriges
+
+### 04 Finanzierung vor Baubeginn
+- **040** Übergangsposition
+- **041** Errichten von Hypotheken auf Grundstück
+- **042** Hypothekarzinsen
+- **043** Baurechtszinsen
+- **044** Darlehenszinsen
+- **045** Eigenkapitalzinsen
+- **046** Grundstücksteuern
+- **048** Versicherungen bis Baubeginn
+- **049** Übriges
+
+### 05 Leitungen ausserhalb Grundstück
+- **050** Übergangsposition
+- **051** Erdarbeiten
+- **052** Kanalisationsleitungen
+- **053** Elektroleitungen, Gebäudeautomation
+- **054** Leitungen für HLK-Anlagen
+- **055** Sanitärleitungen
+- **056** Nebenarbeiten
+- **059** Übriges
+
+### 06 Verkehrsanlagen ausserhalb Grundstück
+- **060** Übergangsposition
+- **061** Strassen
+- **062** Bahnen
+- **063** Wasserwege
+- **069** Übriges
+
+### 09 Honorare (Grundstück)
+- **090** Übergangsposition
+- **091** Architekt
+- **092** Bauingenieur
+- **093** Elektroingenieur
+- **094** HLK-Ingenieur
+- **095** Sanitäringenieur
+- **096** Landschaftsarchitekt
+- **097** Spezialisten 1
+  - 097.0 Geometer
+  - 097.1 Geologe, Geotechniker
+- **098** Spezialisten 2
+  - 098.2 Baukönom
+  - 098.4 Umweltingenieur
+  - 098.6 Verkaufsaufwendungen
+- **099** Übriges
+
+---
+
+## 1 — Vorbereitungsarbeiten
+
+### 10 Bestandsaufnahmen, Baugrunduntersuchungen
+- **100** Übergangsposition
+- **101** Bestandsaufnahmen
+  - 101.1 Planaufnahmen
+  - 101.2 Schadstoffuntersuchungen
+  - 101.3 Erschütterungsmessungen
+  - 101.4 Rissprotokolle
+  - 101.5 Bestandsaufnahmen Bausubstanz
+  - 101.6 Bestandsaufnahmen Gebäudetechnik
+  - 101.7 Weitere Aufnahmen
+- **102** Baugrunduntersuchungen
+- **103** Grundwasseruntersuchungen
+- **104** Baugespann
+- **109** Übriges
+
+### 11 Räumungen, Terrainvorbereitungen
+- **110** Übergangsposition
+- **111** Rodungen
+- **112** Rückbau
+  - 112.0 Demontagen
+  - 112.1 Abbrüche
+  - 112.2 Entsorgung spezieller Bauteile
+- **113** Sanierung Altlasten
+- **114** Erdbewegungen
+  - 114.0 Baustelleneinrichtung
+  - 114.1 Erdarbeiten
+- **115** Bohr- und Schneidearbeiten
+- **119** Übriges
+
+### 12 Sicherungen, Provisorien
+- **120** Übergangsposition
+- **121** Sicherung vorhandener Anlagen
+- **122** Provisorien
+- **123** Unterfangungen
+  - 123.0 Baustelleneinrichtungen
+  - 123.1 Gerüste
+  - 123.2 Spezielle Unterfangungsarbeiten
+  - 123.3 Erdarbeiten
+  - 123.4 Kanalisationen
+  - 123.5 Beton- und Stahlbetonarbeiten
+  - 123.6 Maurerarbeiten
+- **124** Instandsetzungsarbeiten
+- **129** Übriges
+
+### 13 Gemeinsame Baustelleneinrichtung
+- **130** Übergangsposition
+- **131** Abschrankungen
+- **132** Zufahrten, Plätze
+- **133** Büro Bauleitung
+- **134** Unterkünfte, Verpflegungseinrichtungen
+- **135** Provisorische Installationen
+  - 135.0 Kanalisationen
+  - 135.1 Elektro
+  - 135.2 HLK-Anlagen, Gebäudeautomation
+  - 135.3 Wasser
+  - 135.4 Telekommunikation
+- **136** Kosten für Energie, Wasser und dgl.
+- **137** Provisorische Abschlüsse und Abdeckungen
+- **138** Sortierung Bauabfälle
+- **139** Übriges
+
+### 14 Anpassungen an bestehenden Bauten
+- **140** Übergangsposition
+- **141** Terraingestaltung, Rohbau 1
+  - 141.0 Erdarbeiten
+  - 141.1 Baumeisterarbeiten
+  - 141.2 Montagebau in Beton, vorgefertigtem Mauerwerk
+  - 141.3 Montagebau in Stahl
+  - 141.4 Montagebau in Holz
+  - 141.5 Montagebau als Leichtkonstruktion
+  - 141.6 Natur- und Kunststeinarbeiten
+  - 141.7 Schutzraumabschlüsse
+- **142** Rohbau 2
+  - 142.1 Fenster, Aussentüren, Tore
+  - 142.2 Spenglerarbeiten
+  - 142.3 Blitzschutzinstallationen
+  - 142.4 Bedachungsarbeiten
+  - 142.5 Spezielle Dichtungen und Dämmungen
+  - 142.6 Fassadenputze
+  - 142.7 Äussere Oberflächenbehandlungen
+  - 142.8 Äussere Abschlüsse, Sonnenschutzanlagen
+- **143** Elektroanlagen
+- **144** HLK-Anlagen, Gebäudeautomation
+- **145** Sanitäranlagen
+- **146** Transportanlagen, Lageranlagen
+- **147** Ausbau 1
+  - 147.1 Gipserarbeiten
+  - 147.2 Metallbauarbeiten
+  - 147.3 Schreinerarbeiten
+  - 147.4 Innere Spezialverglasungen
+  - 147.5 Schliessanlagen
+  - 147.6 Innere Abschlüsse
+  - 147.7 Elementwände
+- **148** Ausbau 2
+  - 148.1 Bodenbeläge
+  - 148.2 Wandbeläge, Wandbekleidungen
+  - 148.3 Deckenbekleidungen
+  - 148.4 Hafnerarbeiten
+  - 148.5 Innere Oberflächenbehandlungen
+  - 148.6 Bautrocknung
+  - 148.7 Baureinigung
+  - 148.8 Gärtnerarbeiten
+- **149** Übriges
+
+### 15 Anpassungen an bestehenden Erschliessungsanlagen
+- **150** Übergangsposition
+- **151** Erdarbeiten
+- **152** Kanalisationsleitungen
+- **153** Elektroleitungen, Gebäudeautomation
+- **154** Leitungen für HLK-Anlagen
+- **155** Sanitärleitungen
+- **156** Nebenarbeiten
+- **159** Übriges
+
+### 16 Anpassungen an bestehenden Verkehrsanlagen
+- **160** Übergangsposition
+- **161** Strassen
+- **162** Bahnen
+- **163** Wasserwege
+- **169** Übriges
+
+### 17 Spezialtiefbau
+- **170** Übergangsposition
+- **171** Pfähle
+- **172** Baugrubenabschlüsse
+- **173** Aussteifungen
+- **174** Anker
+- **175** Grundwasserabdichtungen
+- **176** Wasserhaltung
+  - 176.0 Offene Wasserhaltung
+  - 176.1 Grundwasserabsenkungen
+- **177** Baugrundverbesserungen
+- **178** Nebenarbeiten
+- **179** Übriges
+
+### 19 Honorare (Vorbereitungsarbeiten)
+- **190** Übergangsposition
+- **191** Architekt
+- **192** Bauingenieur
+- **193** Elektroingenieur
+- **194** HLK-Ingenieur
+- **195** Sanitäringenieur
+- **196** Landschaftsarchitekt
+- **197** Spezialisten 1
+  - 197.0 Geometer
+  - 197.1 Geologe, Geotechniker
+  - 197.5 Fachkoordinator
+  - 197.6 Gebäudeautomationsingenieur
+- **198** Spezialisten 2
+  - 198.2 Baukönom
+  - 198.4 Umweltingenieur
+  - 198.5 Brandschutzingenieur
+- **199** Übriges
+
+---
+
+## 2 — Gebäude
+
+### 20 Baugrube
+- **200** Übergangsposition
+- **201** Baugrubenaushub
+  - 201.0 Baustelleneinrichtung
+  - 201.1 Erdarbeiten
+  - 201.2 Kontaminiertes Material
+- **209** Übriges
+
+### 21 Rohbau 1
+- **210** Übergangsposition
+- **211** Baumeisterarbeiten
+  - 211.0 Baustelleneinrichtung
+  - 211.1 Gerüste
+  - 211.3 Baumeisteraushub
+  - 211.4 Kanalisationen im Gebäude
+  - 211.5 Beton- und Stahlbetonarbeiten
+  - 211.6 Maurerarbeiten
+  - 211.7 Instandsetzungsarbeiten
+  - 211.8 Witterungsbedingte Massnahmen
+- **212** Montagebau in Beton, vorgefertigtem Mauerwerk
+  - 212.0 Baustelleneinrichtung
+  - 212.1 Gerüste
+  - 212.2 Elemente aus Beton
+  - 212.3 Elemente aus vorgefertigtem Mauerwerk
+  - 212.4 Elemente aus Porenbeton
+- **213** Montagebau in Stahl
+  - 213.0 Baustelleneinrichtung
+  - 213.1 Gerüste
+  - 213.2 Stahlkonstruktionen
+  - 213.5 Äussere Bekleidungen
+- **214** Montagebau in Holz
+  - 214.0 Baustelleneinrichtung
+  - 214.1 Zimmerarbeiten
+  - 214.2 Ingenieurholzbau
+  - 214.3 Holzelementbau
+  - 214.4 Äussere Bekleidungen, Gesimse, Treppen
+  - 214.5 Gerüste
+  - 214.6 Geneigte Dächer, Unterkonstruktionen
+- **215** Montagebau als Leichtkonstruktion
+  - 215.0 Baustelleneinrichtung
+  - 215.1 Gerüste
+  - 215.2 Fassadenbau
+  - 215.4 Traggerippe
+  - 215.5 Äussere Bekleidungen
+- **216** Natur- und Kunststeinarbeiten
+  - 216.0 Natursteinarbeiten
+  - 216.1 Kunststeinarbeiten
+- **217** Schutzraumabschlüsse
+- **219** Übriges
+
+### 22 Rohbau 2
+- **220** Übergangsposition
+- **221** Fenster, Aussentüren, Tore
+  - 221.0 Fenster aus Holz
+  - 221.1 Fenster aus Holz-Metall
+  - 221.2 Fenster aus Kunststoff
+  - 221.3 Fenster aus Stahl
+  - 221.4 Fenster aus Aluminium
+  - 221.5 Aussentüren, Tore aus Holz
+  - 221.6 Aussentüren, Tore aus Metall
+  - 221.7 Schaufensteranlagen
+  - 221.8 Spezielle äussere lichtdurchlässige Bauteile
+  - 221.9 Metallbaufertigteile
+- **222** Spenglerarbeiten
+- **223** Blitzschutzanlagen
+- **224** Bedachungsarbeiten
+  - 224.0 Deckungen geneigte Dächer
+  - 224.1 Dichtungsbeläge Flachdächer
+  - 224.2 Glaseinbauten in geneigten Dächern
+  - 224.3 Glaseinbauten in Flachdächern
+  - 224.4 Gerüste
+- **225** Spezielle Dichtungen und Dämmungen
+  - 225.0 Gerüste
+  - 225.1 Fugendichtungen
+  - 225.2 Spezielle Dämmungen
+  - 225.3 Spezielle Feuchtigkeitsabdichtungen
+  - 225.4 Brandschutzbekleidungen und dgl.
+- **226** Fassadenputze
+  - 226.0 Gerüste
+  - 226.1 Aussenputze
+  - 226.2 Verputzte Aussenwärmedämmungen
+- **227** Äussere Oberflächenbehandlungen
+  - 227.0 Gerüste
+  - 227.1 Äussere Malerarbeiten
+  - 227.2 Äussere Holzschutzarbeiten
+  - 227.3 Äussere Holzbehandlungsarbeiten
+- **228** Äussere Abschlüsse, Sonnenschutzanlagen
+  - 228.0 Fenster- und Fensterläden
+  - 228.1 Rollläden
+  - 228.2 Lamellenstoren (Raffstoren)
+  - 228.3 Markisen
+  - 228.4 Blendschutzanlagen
+  - 228.5 Insektenschutz
+  - 228.6 Äussere bewegliche Gitterabschlüsse
+- **229** Übriges
+
+### 23 Elektroanlagen
+- **230** Übergangsposition
+- **231** Starkstromanlagen
+  - 231.0 Netzersatzanlagen
+  - 231.1 Hoch- und Mittelspannungsanlagen
+  - 231.2 Schaltgerätekombinationen
+  - 231.3 Blindstromkompensations-Anlagen
+  - 231.4 Sicherheitsanlagen
+  - 231.5 Energieerzeugungsanlagen
+  - 231.9 Übriges
+- **232** Starkstrominstallationen
+  - 232.0 Erschliessungen
+  - 232.1 Erdungen und Schutzpotenzialausgleich
+  - 232.2 Rohranlagen
+  - 232.3 Installationssysteme
+  - 232.4 Haupt- und Steigleitungen
+  - 232.5 Lichtinstallationen
+  - 232.6 Kraftinstallationen
+  - 232.7 HLKS-Installationen
+  - 232.9 Übriges
+- **233** Leuchten und Lampen
+  - 233.0 Lieferung
+  - 233.1 Montage
+- **234** Elektrogeräte
+- **235** Schwachstromanlagen
+  - 235.0 Telekommunikationsanlagen
+  - 235.1 Radio- und Fernsehanlagen
+  - 235.2 Multimediaanlagen
+  - 235.3 Informatikanlagen
+  - 235.4 Kommunikationsanlagen
+  - 235.5 Audio-, Video- und Uhrenanlagen
+  - 235.8 Sicherheitsanlagen
+  - 235.9 Übriges
+- **236** Schwachstrominstallationen
+  - 236.1 Installationen zu Telekommunikationsanlagen
+  - 236.2 Radio- und Fernsehinstallationen
+  - 236.3 Multimedia-Installationen
+  - 236.4 UKV-Installationen
+  - 236.5 Installationen zu Kommunikationsanlagen
+  - 236.6 Audio-, Video- und Uhreninstallationen
+  - 236.7 Sicherheitsinstallationen
+  - 236.8 Brandschutzinstallationen
+  - 236.9 Übriges
+- **237** Gebäudeautomations-Installationen
+- **238** Provisorische Installationen
+- **239** Übriges
+
+### 24 HLK-Anlagen, Gebäudeautomation
+- **240** Übergangsposition
+- **242** Heizungsanlagen
+  - 242.0 Apparate
+  - 242.1 Leitungen
+  - 242.2 Armaturen, Instrumente
+  - 242.3 Regelung
+  - 242.4 Schaltgerätekombinationen
+  - 242.5 Transport, Montage
+  - 242.6 Dämmungen
+  - 242.7 Unternehmerdienstleistungen
+- **244** Lufttechnische Anlagen
+  - 244.0 Apparate
+  - 244.1 Leitungen
+  - 244.2 Armaturen, Instrumente
+  - 244.3 Regelung
+  - 244.4 Schaltgerätekombinationen
+  - 244.5 Transport, Montage
+  - 244.6 Dämmungen
+  - 244.7 Unternehmerdienstleistungen
+- **245** Rauch- und Wärmeabzugsanlagen
+  - 245.0 Apparate
+  - 245.1 Leitungen
+  - 245.2 Armaturen, Instrumente
+  - 245.3 Regelung
+  - 245.4 Schaltgerätekombinationen
+  - 245.5 Transport, Montage
+  - 245.6 Dämmungen
+  - 245.7 Unternehmerdienstleistungen
+- **246** Kälteanlagen
+  - 246.0 Apparate
+  - 246.1 Leitungen
+  - 246.2 Armaturen, Instrumente
+  - 246.3 Regelung
+  - 246.4 Schaltgerätekombinationen
+  - 246.5 Transport, Montage
+  - 246.6 Dämmungen
+  - 246.7 Unternehmerdienstleistungen
+- **247** Spezialanlagen
+  - 247.4 Schutzraumbelüftungen
+  - 247.5 Thermische Solaranlagen
+  - 247.6 Spezielle Energieerzeugung
+  - 247.7 Staubsaugeranlagen
+- **248** Gebäudeautomation
+  - 248.1 Managementebene
+  - 248.2 Automationsebene
+  - 248.3 Feldebene
+  - 248.4 Raumautomation
+  - 248.5 Automationsnetzwerk
+  - 248.6 Schaltgerätekombinationen
+  - 248.7 Integration
+- **249** Übriges
+
+### 25 Sanitäranlagen
+- **250** Übergangsposition
+- **251** Allgemeine Sanitärapparate
+  - 251.0 Lieferung
+  - 251.1 Montage
+- **252** Spezielle Sanitärapparate
+  - 252.0 Lieferung
+  - 252.1 Montage
+- **253** Versorgungs- und Entsorgungsapparate
+  - 253.0 Wassernachbehandlung
+  - 253.1 Wassererwärmer
+  - 253.2 Abwasserhebeanlagen
+  - 253.3 Drucklufterzeuger
+  - 253.6 Thermische Solaranlagen
+- **254** Sanitärleitungen
+  - 254.1 Kaltwasserleitungen
+  - 254.2 Warmwasserleitungen
+  - 254.3 Druckluftleitungen
+  - 254.4 Gasleitungen
+  - 254.5 Löschleitungen
+  - 254.6 Leitungen für thermische Solaranlagen
+  - 254.7 Schmutzwasserleitungen
+  - 254.8 Regenwasserleitungen
+  - 254.9 Grundleitungen
+- **255** Dämmungen
+- **256** Sanitärinstallationselemente
+  - 256.0 Lieferung
+  - 256.1 Montage
+- **257** Löschanlagen
+  - 257.1 Sprinkleranlagen
+  - 257.2 Feuerlöschposten
+- **258** Kücheneinrichtungen
+- **259** Übriges
+
+### 26 Transportanlagen, Lageranlagen
+- **260** Übergangsposition
+- **261** Aufzüge
+- **262** Fahrtreppen, Fahrsteige
+- **263** Fassadenreinigungsanlagen
+- **264** Sonstige Förderanlagen
+- **265** Hebeeinrichtungen
+- **266** Parkieranlagen
+- **269** Übriges
+
+### 27 Ausbau 1
+- **270** Übergangsposition
+- **271** Gipserarbeiten
+  - 271.0 Innenputze
+  - 271.1 Trockenbauarbeiten
+  - 271.2 Gerüste
+- **272** Metallbauarbeiten
+  - 272.0 Innentüren aus Metall
+  - 272.1 Metallbaufertigteile
+  - 272.2 Allgemeine Metallbauarbeiten
+  - 272.3 Innere Verglasungen
+  - 272.4 Schutzraumteile
+- **273** Schreinerarbeiten
+  - 273.0 Innentüren
+  - 273.1 Wandschränke, Gestelle und dgl.
+  - 273.2 Innere Verglasungen
+  - 273.3 Allgemeine Schreinerarbeiten
+- **274** Innere Spezialverglasungen
+- **275** Schliessanlagen
+- **276** Innere Abschlüsse
+  - 276.0 Verdunkelungseinrichtungen
+  - 276.1 Innere bewegliche Gitterabschlüsse
+  - 276.2 Vorhangsysteme
+- **277** Elementwände
+  - 277.0 Versetzbare Elementwände
+  - 277.1 Schiebe- und Faltwände
+  - 277.2 Fest stehende Elementwände
+- **278** Beschriftungen, Markierungen, Signaletik
+- **279** Übriges
+
+### 28 Ausbau 2
+- **280** Übergangsposition
+- **281** Bodenbeläge
+  - 281.0 Estriche (Unterlagsböden)
+  - 281.1 Fugenlose Bodenbeläge
+  - 281.2 Bodenbeläge aus Kunststoffen, Textilien und dgl.
+  - 281.4 Bodenbeläge aus Naturstein
+  - 281.5 Bodenbeläge aus Kunststein
+  - 281.6 Bodenbeläge aus Platten
+  - 281.7 Bodenbeläge aus Holz
+  - 281.8 Doppelböden
+  - 281.9 Sockel
+- **282** Wandbeläge, Wandbekleidungen
+  - 282.0 Fugenlose Wandbeläge
+  - 282.1 Tapeziererarbeiten
+  - 282.2 Wandbekleidungen aus Naturstein
+  - 282.3 Wandbekleidungen aus Kunststein
+  - 282.4 Wandbekleidungen aus Platten
+  - 282.5 Wandbekleidungen aus Holz und Holzwerkstoffen
+  - 282.6 Wandbekleidungen aus Kunststoffen, Textilien und dgl.
+  - 282.7 Gerüste
+- **283** Deckenbekleidungen
+  - 283.0 Gerüste
+  - 283.1 Deckenbekleidungen aus Metall
+  - 283.2 Deckenbekleidungen aus Gips
+  - 283.3 Deckenbekleidungen aus Mineralfasern
+  - 283.4 Deckenbekleidungen aus Holz und Holzwerkstoffen
+  - 283.5 Deckenbekleidungen aus Kunststoffen, Textilien und dgl.
+- **284** Hafnerarbeiten
+- **285** Innere Oberflächenbehandlungen
+  - 285.0 Gerüste
+  - 285.1 Innere Malerarbeiten
+  - 285.2 Innere Holzschutzarbeiten
+  - 285.3 Innere Holzbehandlungsarbeiten
+- **286** Bautrocknung
+- **287** Baureinigung
+- **288** Gärtnerarbeiten (Gebäude)
+- **289** Übriges
+
+### 29 Honorare (Gebäude)
+- **290** Übergangsposition
+- **291** Architekt
+- **292** Bauingenieur
+- **293** Elektroingenieur
+- **294** HLK-Ingenieur
+- **295** Sanitäringenieur
+- **296** Landschaftsarchitekt
+- **297** Spezialisten 1
+  - 297.0 Geometer
+  - 297.1 Geologe, Geotechniker
+  - 297.2 Innenarchitekt
+  - 297.3 Bauphysiker
+  - 297.4 Akustiker
+  - 297.5 Fachkoordinator
+  - 297.6 Gebäudeautomationsingenieur
+  - 297.7 Fassadeningenieur
+- **298** Spezialisten 2
+  - 298.2 Baukönom
+  - 298.3 Prüfingenieur
+  - 298.4 Umweltingenieur
+  - 298.5 Brandschutzingenieur
+- **299** Übriges
+
+---
+
+## 3 — Betriebseinrichtungen
+
+### 30 Baugrube
+- **300** Übergangsposition
+- **301** Baugrubenaushub
+- **309** Übriges
+
+### 31 Rohbau 1
+- **310** Übergangsposition
+- **311** Baumeisterarbeiten
+- **312** Montagebau in Beton, vorgefertigtem Mauerwerk
+- **313** Montagebau in Stahl
+- **314** Montagebau in Holz
+- **315** Montagebau als Leichtkonstruktion
+- **316** Natur- und Kunststeinarbeiten
+- **317** Schutzraumabschlüsse
+- **319** Übriges
+
+### 32 Rohbau 2
+- **320** Übergangsposition
+- **321** Fenster, Aussentüren, Tore
+- **322** Spenglerarbeiten
+- **323** Blitzschutzanlagen
+- **324** Bedachungsarbeiten
+- **325** Spezielle Dichtungen und Dämmungen
+- **326** Fassadenputze
+- **327** Äussere Oberflächenbehandlungen
+- **328** Äussere Abschlüsse, Sonnenschutzanlagen
+- **329** Übriges
+
+### 33 Elektroanlagen
+- **330** Übergangsposition
+- **331** Starkstromapparate
+- **332** Starkstrominstallationen
+- **333** Leuchten und Lampen
+- **334** Elektrogeräte
+- **335** Schwachstromapparate
+- **336** Schwachstrominstallationen
+- **337** Gebäudeautomations-Installationen
+- **338** Provisorische Installationen
+- **339** Übriges
+
+### 34 HLK-Anlagen, Gebäudeautomation
+- **340** Übergangsposition
+- **342** Heizungsanlagen
+- **344** Lufttechnische Anlagen
+- **345** Rauch- und Wärmeabzugsanlagen
+- **346** Kälteanlagen
+- **347** Spezialanlagen
+- **348** Gebäudeautomation
+- **349** Übriges
+
+### 35 Sanitäranlagen
+- **350** Übergangsposition
+- **351** Allgemeine Sanitärapparate
+  - 351.0 Lieferung
+  - 351.1 Montage
+- **352** Spezielle Sanitärapparate
+  - 352.0 Lieferung
+  - 352.1 Montage
+- **353** Versorgungs- und Entsorgungsapparate
+  - 353.0 Wassernachbehandlung
+  - 353.1 Wassererwärmer
+  - 353.2 Abwasserhebeanlagen
+  - 353.3 Drucklufterzeuger
+  - 353.6 Thermische Solaranlagen
+- **354** Sanitärleitungen
+  - 354.1 Kaltwasserleitungen
+  - 354.2 Warmwasserleitungen
+  - 354.3 Druckluftleitungen
+  - 354.4 Gasleitungen
+  - 354.5 Löschleitungen
+  - 354.6 Leitungen für thermische Solaranlagen
+  - 354.7 Schmutzwasserleitungen
+  - 354.8 Regenwasserleitungen
+  - 354.9 Grundleitungen
+- **355** Dämmungen
+- **356** Sanitärinstallationselemente
+  - 356.0 Lieferung
+  - 356.1 Montage
+- **357** Löschanlagen
+  - 357.1 Sprinkleranlagen
+  - 357.2 Feuerlöschposten
+- **358** Kücheneinrichtungen
+- **359** Übriges
+
+### 36 Transportanlagen, Lageranlagen
+- **360** Übergangsposition
+- **361** Aufzüge
+- **362** Fahrtreppen, Fahrsteige
+- **364** Sonstige Förderanlagen
+- **365** Hebeeinrichtungen
+- **366** Parkieranlagen
+- **369** Übriges
+
+### 37 Ausbau 1
+- **370** Übergangsposition
+- **371** Gipserarbeiten
+- **372** Metallbauarbeiten
+- **373** Schreinerarbeiten
+- **374** Innere Spezialverglasungen
+- **375** Schliessanlagen
+- **376** Innere Abschlüsse
+- **377** Elementwände
+- **378** Beschriftungen, Markierungen, Signaletik
+- **379** Übriges
+
+### 38 Ausbau 2
+- **380** Übergangsposition
+- **381** Bodenbeläge
+- **382** Wandbeläge, Wandbekleidungen
+- **383** Deckenbekleidungen
+- **384** Hafnerarbeiten
+- **385** Innere Oberflächenbehandlungen
+- **386** Bautrocknung
+- **387** Baureinigung
+- **388** Gärtnerarbeiten (Betriebseinrichtungen)
+- **389** Übriges
+
+### 39 Honorare (Betriebseinrichtungen)
+- **390** Übergangsposition
+- **391** Architekt
+- **392** Bauingenieur
+- **393** Elektroingenieur
+- **394** HLK-Ingenieur
+- **395** Sanitäringenieur
+- **396** Landschaftsarchitekt
+- **397** Spezialisten 1
+  - 397.0 Geometer
+  - 397.1 Geologe, Geotechniker
+  - 397.2 Innenarchitekt
+  - 397.3 Bauphysiker
+  - 397.4 Akustiker
+  - 397.5 Fachkoordinator
+  - 397.6 Gebäudeautomationsingenieur
+  - 397.7 Fassadeningenieur
+- **398** Spezialisten 2
+  - 398.2 Baukönom
+  - 398.3 Prüfingenieur
+  - 398.4 Umweltingenieur
+  - 398.5 Brandschutzingenieur
+- **399** Übriges
+
+---
+
+## 4 — Umgebung
+
+### 40 Terraingestaltung
+- **400** Übergangsposition
+- **401** Erdbewegungen
+  - 401.0 Baustelleneinrichtung
+  - 401.1 Erdarbeiten
+- **409** Übriges
+
+### 41 Rohbau- und Ausbauarbeiten (Umgebung)
+- **410** Übergangsposition
+- **411** Baumeisterarbeiten
+  - 411.0 Baustelleneinrichtung
+  - 411.1 Gerüste
+  - 411.2 Böschungs- und Uferverbauungen
+  - 411.3 Baumeisteraushub
+  - 411.4 Kanalisationen ausserhalb Gebäude
+  - 411.5 Beton- und Stahlbetonarbeiten
+  - 411.6 Maurerarbeiten
+  - 411.7 Instandsetzungsarbeiten
+  - 411.8 Witterungsbedingte Massnahmen
+- **413** Übriger Rohbau 1
+  - 413.2 Montagebau in Beton, vorgefertigtem Mauerwerk
+  - 413.3 Montagebau in Stahl
+  - 413.4 Montagebau in Holz
+  - 413.5 Montagebau als Leichtkonstruktion
+  - 413.6 Natur- und Kunststeinarbeiten
+- **414** Rohbau 2
+  - 414.1 Fenster, Aussentüren, Tore
+  - 414.2 Spenglerarbeiten
+  - 414.3 Blitzschutzanlagen
+  - 414.4 Bedachungsarbeiten
+  - 414.5 Spezielle Dichtungen und Dämmungen
+  - 414.6 Fassadenputze
+  - 414.7 Äussere Oberflächenbehandlungen
+  - 414.8 Äussere Abschlüsse, Sonnenschutzanlagen
+  - 414.9 Arealabschlüsse
+- **415** Ausbau 1
+- **416** Ausbau 2
+- **419** Übriges
+
+### 42 Gartenanlagen
+- **420** Übergangsposition
+- **421** Gärtnerarbeiten
+- **422** Einfriedungen
+- **423** Ausstattungen, Geräte
+- **424** Spiel- und Sportplätze
+- **425** Stützmauern
+- **429** Übriges
+
+### 44 Installationen (Umgebung)
+- **440** Übergangsposition
+- **443** Elektroanlagen
+- **444** HLK-Anlagen, Gebäudeautomation
+- **445** Sanitäranlagen
+- **446** Transportanlagen
+- **449** Übriges
+
+### 45 Leitungen innerhalb Grundstück
+- **450** Übergangsposition
+- **451** Erdarbeiten
+- **452** Kanalisationsleitungen
+- **453** Elektroleitungen, Gebäudeautomation
+- **454** Leitungen für HLK-Anlagen
+- **455** Sanitärleitungen
+- **456** Nebenarbeiten
+- **458** Kanalspülung
+- **459** Übriges
+
+### 46 Trassenbauten
+- **460** Übergangsposition
+- **461** Erd- und Unterbau
+- **463** Oberbau
+- **464** Entwässerung
+- **465** Werkleitungen und Kanalisationen
+- **468** Ausbau
+
+### 47 Kunstbauten
+- **470** Übergangsposition
+- **471** Baugrube
+- **472** Tragkonstruktionen
+- **473** Oberbau
+- **474** Entwässerung
+- **475** Werkleitungen und Kanalisationen
+- **477** Transportanlagen
+- **478** Ausbau
+
+### 48 Untertagbauten
+- **480** Übergangsposition
+- **481** Vortrieb
+- **482** Auskleidungen, Gewölbe
+- **483** Oberbau
+- **484** Entwässerung und Wasserversorgung
+- **485** Werkleitungen und Kanalisationen
+- **487** Transportanlagen
+- **488** Ausbau
+
+### 49 Honorare (Umgebung)
+- **490** Übergangsposition
+- **491** Architekt
+- **492** Bauingenieur
+- **493** Elektroingenieur
+- **494** HLK-Ingenieur
+- **495** Sanitäringenieur
+- **496** Landschaftsarchitekt
+- **497** Spezialisten 1
+  - 497.1 Geologe, Geotechniker
+  - 497.2 Innenarchitekt
+  - 497.3 Bauphysiker
+  - 497.4 Akustiker
+  - 497.5 Fachkoordinator
+- **498** Spezialisten 2
+  - 498.2 Baukönom
+  - 498.4 Umweltingenieur
+- **499** Übriges
+
+---
+
+## 5 — Baunebenkosten
+
+### 50 Wettbewerbskosten
+- **500** Übergangsposition
+- **501** Wettbewerbe
+- **509** Übriges
+
+### 51 Bewilligungen, Gebühren
+- **510** Übergangsposition
+- **511** Bewilligungen, Gebühren
+- **512** Anschlussgebühren
+  - 512.0 Kanalisation
+  - 512.1 Elektrizität
+  - 512.2 Kommunikation
+  - 512.3 Gas
+  - 512.4 Wasser
+  - 512.5 Fernheizung
+  - 512.6 Radio, Fernsehen
+- **519** Übriges
+
+### 52 Dokumentation und Präsentation
+- **520** Übergangsposition
+- **521** Muster, Materialprüfungen
+  - 521.0 Muster
+  - 521.1 Materialprüfungen
+- **522** Modelle
+- **523** Fotos
+- **524** Vervielfältigungen, Plandokumente
+- **525** Dokumentation
+- **529** Übriges
+
+### 53 Versicherungen
+- **530** Übergangsposition
+- **531** Bauzeitversicherungen
+- **532** Spezialversicherungen
+- **533** Selbstbehalt in Schadenfällen während der Bauzeit
+- **539** Übriges
+
+### 54 Finanzierung ab Baubeginn
+- **540** Übergangsposition
+- **541** Errichten von Hypotheken auf Liegenschaften
+- **542** Baukreditzinsen, Bankspesen
+- **543** Baurechtszinsen
+- **545** Eigenkapitalzinsen
+- **546** Liegenschaftssteuer während der Bauzeit
+- **548** Rückvergütungen
+- **549** Übriges
+
+### 55 Bauherrenleistungen
+- **550** Übergangsposition
+- **557** Betriebsplanung
+- **558** Projektleitung, Projektbegleitung
+- **559** Übriges
+
+### 56 Übrige Baunebenkosten
+- **560** Übergangsposition
+- **561** Bewachung durch Dritte
+- **562** Entschädigungen, Nutzerkosten, Ersatzabgaben
+  - 562.1 Nachbar- und Mieterentschädigungen
+  - 562.2 Einkauf Schutzraum
+  - 562.3 Ersatzabgabe Parkplätze
+  - 562.4 Einkauf Wärmeverbund
+  - 562.9 Übriges
+- **563** Miete von fremdem Grund
+- **564** Gutachten
+- **565** Reisespesen
+- **566** Grundsteinlegung, Aufrichte, Einweihung
+- **567** Anwaltskosten, Gerichtskosten
+- **568** Baureklame
+- **569** Übriges
+
+### 57 Mehrwertsteuer (MWST)
+- **570** Übergangsposition
+- **571** Grundstück (MWST)
+- **572** Vorbereitungsarbeiten (MWST)
+- **573** Gebäude (MWST)
+- **574** Betriebseinrichtungen (MWST)
+- **575** Umgebung (MWST)
+- **576** Baunebenkosten (MWST)
+- **579** Ausstattung (MWST)
+
+### 58 Rückstellungen und Reserven
+- **580** Übergangsposition
+- **581** Rückstellungen für zu erwartende Kosten
+- **582** Rückstellungen für Teuerung
+- **583** Reserven für Unvorhergesehenes
+- **589** Übriges
+
+### 59 Übergangskonten für Honorare
+- **590** Übergangsposition
+- **598** Spezialisten
+  - 598.0 Bauherrenberater
+  - 598.1 FM-Berater
+  - 598.6 Verkaufsaufwendungen
+- **599** Übriges
+
+---
+
+## 6, 7, 8 — Reserve
+
+(Bewusst unbesetzt im BKP 2017)
+
+---
+
+## 9 — Ausstattung
+
+### 90 Möbel
+- **900** Übergangsposition
+- **901** Garderobeneinrichtungen, Gestelle und dgl.
+- **902** Sporteinrichtungen
+- **908** Schutzraumausstattungen
+- **909** Übriges
+
+### 91 Beleuchtungskörper
+- **910** Übergangsposition
+- **919** Übriges
+
+### 92 Textilien
+- **920** Übergangsposition
+- **921** Vorhänge und Innendekorationsarbeiten
+- **929** Übriges
+
+### 93 Geräte, Apparate
+- **930** Übergangsposition
+- **939** Übriges
+
+### 94 Kleininventar
+- **940** Übergangsposition
+- **949** Übriges
+
+### 96 Transportmittel
+- **960** Übergangsposition
+- **969** Übriges
+
+### 97 Verbrauchsmaterial
+- **970** Übergangsposition
+- **979** Übriges
+
+### 98 Kunst am Bau
+- **980** Übergangsposition
+- **989** Übriges
+
+### 99 Honorare (Ausstattung)
+- **990** Übergangsposition
+- **991** Architekt
+- **992** Bauingenieur
+- **993** Elektroingenieur
+- **994** HLK-Ingenieur
+- **995** Sanitäringenieur
+- **996** Landschaftsarchitekt
+- **997** Spezialisten 1
+  - 997.0 Geometer
+  - 997.2 Innenarchitekt
+  - 997.3 Bauphysiker
+  - 997.4 Akustiker
+- **998** Spezialisten 2
+  - 998.2 Baukönom
+- **999** Übriges
+
+---
+
+## Nutzungs-Konventionen
+
+### Häufig benötigte Spezialisten-Codes (Brandschutz)
+- **198.5** Brandschutzingenieur (Vorbereitungsarbeiten)
+- **298.5** Brandschutzingenieur (Gebäude)
+- **398.5** Brandschutzingenieur (Betriebseinrichtungen)
+
+### Häufig benötigte Codes für Healthcare-Projekte (KISPI etc.)
+- **271.10** Innenputze (häufig im LV)
+- **271.1** Trockenbauarbeiten (EI-Wände, Brandschutz)
+- **225.4** Brandschutzbekleidungen
+- **281.1** Fugenlose Bodenbeläge (häufig in OP-/Klinikbereich)
+- **281.2** Bodenbeläge aus Kunststoffen (PVC, häufig in Stationen)
+- **283.3** Deckenbekleidungen aus Mineralfasern (Akustikdecken)
+
+### Häufig benötigte Honorar-Codes (Architekt)
+- **091** Architekt (Grundstück)
+- **191** Architekt (Vorbereitungsarbeiten)
+- **291** Architekt (Gebäude) ← STANDARD für Honorarofferten
+- **391** Architekt (Betriebseinrichtungen)
+- **491** Architekt (Umgebung)
+- **991** Architekt (Ausstattung)
+
+### Devis-Konvention (Skill `ausschreibung`)
+- LV-Titel beginnt mit dem BKP-Code: `BKP 271.10 Innenputze — Kinderspital`
+- Bei Subpositionen wird die volle BKP-Hierarchie ausgeschrieben (z.B. `BKP 225.4 Brandschutzbekleidungen`)
+- Bei Spezialplaner-Honoraren: BKP-Spezialisten-Code aus der entsprechenden Hauptgruppe (Brandschutzingenieur in Phase Gebäude = **298.5**)

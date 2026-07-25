@@ -1,0 +1,27 @@
+{
+  "slug": "Lodoli",
+  "architekt": {
+    "name": "Lodoli",
+    "nachname": "Lodoli",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Lodoli"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Lodoli",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 2,
+    "cad": 0,
+    "andere": 0,
+    "total": 3
+  },
+  "dateitypen": {
+    ".pdf": 2,
+    ".jpg": 1
+  },
+  "textauszug": "Carlo Lodoli, 1690-1761",
+  "embed_doc": "Lodoli | Carlo Lodoli, 1690-1761",
+  "stand": "2026-07-02T21:42:49"
+}

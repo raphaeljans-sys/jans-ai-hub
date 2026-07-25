@@ -1,0 +1,34 @@
+{
+  "slug": "Lassen_Heinrich",
+  "architekt": {
+    "name": "Lassen Heinrich",
+    "nachname": "Lassen",
+    "vorname": "Heinrich",
+    "jahre": [],
+    "ordner": "Lassen_Heinrich"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Lassen_Heinrich",
+  "projekte": [
+    {
+      "raw": "Berlin_Caeciliengarten",
+      "ort": "Berlin",
+      "projekt": "Caeciliengarten",
+      "jahre": [],
+      "titel": "Berlin Caeciliengarten"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Lassen Heinrich | Berlin Caeciliengarten",
+  "stand": "2026-07-02T21:41:31"
+}

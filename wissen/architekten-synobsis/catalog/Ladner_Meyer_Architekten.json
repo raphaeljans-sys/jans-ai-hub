@@ -1,0 +1,41 @@
+{
+  "slug": "Ladner_Meyer_Architekten",
+  "architekt": {
+    "name": "Ladner Meyer Architekten",
+    "nachname": "Ladner Meyer Architekten",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Ladner Meyer Architekten"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Ladner Meyer Architekten",
+  "projekte": [
+    {
+      "raw": "Neuer Ordner",
+      "ort": "Neuer Ordner",
+      "projekt": "Neuer Ordner",
+      "jahre": [],
+      "titel": "Neuer Ordner"
+    },
+    {
+      "raw": "Zuerich Schulhaus Hard",
+      "ort": "Zuerich Schulhaus Hard",
+      "projekt": "Zuerich Schulhaus Hard",
+      "jahre": [],
+      "titel": "Zuerich Schulhaus Hard"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 7,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 7
+  },
+  "dateitypen": {
+    ".jpg": 7
+  },
+  "textauszug": "",
+  "embed_doc": "Ladner Meyer Architekten | Neuer Ordner Neuer Ordner | Zuerich Schulhaus Hard Zuerich Schulhaus Hard",
+  "stand": "2026-07-02T21:35:44"
+}

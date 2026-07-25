@@ -1,0 +1,90 @@
+{
+  "slug": "Quincy_de_Quatremere",
+  "architekt": {
+    "name": "Quincy de Quatremere",
+    "nachname": "Quincy",
+    "vorname": "de Quatremere",
+    "jahre": [],
+    "ordner": "Quincy_de_Quatremere"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Quincy_de_Quatremere",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "01_Projekte",
+      "ort": "01",
+      "projekt": "Projekte",
+      "jahre": [],
+      "titel": "01 Projekte"
+    },
+    {
+      "raw": "02_Wettbewerb",
+      "ort": "02",
+      "projekt": "Wettbewerb",
+      "jahre": [],
+      "titel": "02 Wettbewerb"
+    },
+    {
+      "raw": "03_Ausstellungen",
+      "ort": "03",
+      "projekt": "Ausstellungen",
+      "jahre": [],
+      "titel": "03 Ausstellungen"
+    },
+    {
+      "raw": "04_Literatur",
+      "ort": "04",
+      "projekt": "Literatur",
+      "jahre": [],
+      "titel": "04 Literatur"
+    },
+    {
+      "raw": "05_Referenzen",
+      "ort": "05",
+      "projekt": "Referenzen",
+      "jahre": [],
+      "titel": "05 Referenzen"
+    },
+    {
+      "raw": "06_Vortrag",
+      "ort": "06",
+      "projekt": "Vortrag",
+      "jahre": [],
+      "titel": "06 Vortrag"
+    },
+    {
+      "raw": "07_Lehre",
+      "ort": "07",
+      "projekt": "Lehre",
+      "jahre": [],
+      "titel": "07 Lehre"
+    },
+    {
+      "raw": "Amsterdam_Rathaus",
+      "ort": "Amsterdam",
+      "projekt": "Rathaus",
+      "jahre": [],
+      "titel": "Amsterdam Rathaus"
+    }
+  ],
+  "projekt_anzahl": 9,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".jpg": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Quincy de Quatremere | 00 Architekten | 01 Projekte | 02 Wettbewerb | 03 Ausstellungen | 04 Literatur | 05 Referenzen | 06 Vortrag | 07 Lehre | Amsterdam Rathaus",
+  "stand": "2026-07-02T22:45:27"
+}

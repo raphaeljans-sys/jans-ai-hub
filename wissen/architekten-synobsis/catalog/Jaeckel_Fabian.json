@@ -1,0 +1,26 @@
+{
+  "slug": "Jaeckel_Fabian",
+  "architekt": {
+    "name": "Jaeckel Fabian",
+    "nachname": "Jaeckel",
+    "vorname": "Fabian",
+    "jahre": [],
+    "ordner": "Jaeckel_Fabian"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Jaeckel_Fabian",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Jaeckel Fabian",
+  "stand": "2026-07-02T21:19:03"
+}

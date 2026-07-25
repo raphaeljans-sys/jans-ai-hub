@@ -1,0 +1,48 @@
+{
+  "slug": "Melly_Benjamin",
+  "architekt": {
+    "name": "Melly Benjamin",
+    "nachname": "Melly Benjamin",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Melly Benjamin"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Melly Benjamin",
+  "projekte": [
+    {
+      "raw": "12 Caruso",
+      "ort": "12 Caruso",
+      "projekt": "12 Caruso",
+      "jahre": [],
+      "titel": "12 Caruso"
+    },
+    {
+      "raw": "12 HS SIK Kulturhalle",
+      "ort": "12 HS SIK Kulturhalle",
+      "projekt": "12 HS SIK Kulturhalle",
+      "jahre": [],
+      "titel": "12 HS SIK Kulturhalle"
+    },
+    {
+      "raw": "13 Diplom",
+      "ort": "13 Diplom",
+      "projekt": "13 Diplom",
+      "jahre": [],
+      "titel": "13 Diplom"
+    }
+  ],
+  "projekt_anzahl": 3,
+  "inventar": {
+    "bilder": 37,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 37
+  },
+  "dateitypen": {
+    ".jpg": 37
+  },
+  "textauszug": "",
+  "embed_doc": "Melly Benjamin | 12 Caruso 12 Caruso | 12 HS SIK Kulturhalle 12 HS SIK Kulturhalle | 13 Diplom 13 Diplom",
+  "stand": "2026-07-02T22:41:42"
+}

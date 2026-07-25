@@ -1,0 +1,26 @@
+{
+  "slug": "Blum_Grossenbacher_Architekten",
+  "architekt": {
+    "name": "Blum Grossenbacher Architekten",
+    "nachname": "Blum",
+    "vorname": "Grossenbacher Architekten",
+    "jahre": [],
+    "ordner": "Blum_Grossenbacher_Architekten"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Blum_Grossenbacher_Architekten",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 2,
+    "total": 2
+  },
+  "dateitypen": {
+    ".psd": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Blum Grossenbacher Architekten",
+  "stand": "2026-07-02T21:08:47"
+}

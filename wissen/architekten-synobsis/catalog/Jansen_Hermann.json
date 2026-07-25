@@ -1,0 +1,48 @@
+{
+  "slug": "Jansen_Hermann",
+  "architekt": {
+    "name": "Jansen Hermann",
+    "nachname": "Jansen",
+    "vorname": "Hermann",
+    "jahre": [],
+    "ordner": "Jansen_Hermann"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Jansen_Hermann",
+  "projekte": [
+    {
+      "raw": "Berlin_Tempelhofer_Feld",
+      "ort": "Berlin",
+      "projekt": "Tempelhofer Feld",
+      "jahre": [],
+      "titel": "Berlin Tempelhofer Feld"
+    },
+    {
+      "raw": "Berlin_Wettbewerb_Gross_Berlin",
+      "ort": "Berlin",
+      "projekt": "Wettbewerb Gross Berlin",
+      "jahre": [],
+      "titel": "Berlin Wettbewerb Gross Berlin"
+    },
+    {
+      "raw": "Dahlem_Bebauung_der Königlichen Domaene DahlemDahlem_Strasse_im_Gehege",
+      "ort": "Dahlem",
+      "projekt": "Bebauung der Königlichen Domaene DahlemDahlem Strasse im Gehege",
+      "jahre": [],
+      "titel": "Dahlem Bebauung der Königlichen Domaene DahlemDahlem Strasse im Gehege"
+    }
+  ],
+  "projekt_anzahl": 3,
+  "inventar": {
+    "bilder": 8,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 8
+  },
+  "dateitypen": {
+    ".jpg": 8
+  },
+  "textauszug": "",
+  "embed_doc": "Jansen Hermann | Berlin Tempelhofer Feld | Berlin Wettbewerb Gross Berlin | Dahlem Bebauung der Königlichen Domaene DahlemDahlem Strasse im Gehege",
+  "stand": "2026-07-02T21:21:53"
+}

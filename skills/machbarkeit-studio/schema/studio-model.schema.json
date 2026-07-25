@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "JANS Machbarkeits-Studio Modell",
+  "description": "Single Source of Truth fuer build_studio.py (HTML) und build_dossier.py (DOCX/PDF). Rechen-Kern: tools/studio_calc.py.",
+  "type": "object",
+  "required": ["meta", "varianten"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["titel", "grundstuecksflaeche_m2"],
+      "properties": {
+        "studie": {"type": "string", "description": "z.B. 'Studie 2699 · Machbarkeits-Studio'"},
+        "kicker": {"type": "string", "description": "Masthead-Kicker oben links"},
+        "titel": {"type": "string"},
+        "untertitel": {"type": "string", "description": "Adresse · Parzelle · Objekt · Modus · Stand"},
+        "objekt": {"type": "string"},
+        "ort": {"type": "string"},
+        "parzelle": {"type": "string", "description": "amtlich, via geo-zh/geo-sz — nie erfinden"},
+        "egrid": {"type": "string", "description": "amtlich verifiziert"},
+        "zone": {"type": "string"},
+        "kanton": {"type": "string"},
+        "gemeinde": {"type": "string"},
+        "grundstuecksflaeche_m2": {"type": "number"},
+        "stand": {"type": "string", "description": "TT.MM.JJJJ"},
+        "bearbeiter": {"type": "string"},
+        "bauherrschaft": {"type": "string"}
+      }
+    },
+    "annahmen": {
+      "type": "object",
+      "description": "Regelbare Globalwerte. Fehlende werden mit belegten Defaults gefuellt (siehe studio_calc.DEFAULTS).",
+      "properties": {
+        "modus": {"enum": ["verkauf", "rendite"], "default": "verkauf"},
+        "bgf_faktor": {"type": "number", "default": 1.15, "description": "BGF = aGF × bgf_faktor"},
+        "gv_pro_gf": {"type": "number", "default": 3.3, "description": "GV(m3) = BGF × gv_pro_gf (SIA416 grob)"},
+        "hnf_faktor": {"type": "number", "default": 0.75, "description": "HNF = BGF × hnf_faktor"},
+        "kennwert_chf_m3": {"type": "number", "default": 950, "description": "BKP 1-5, CHF/m3 GV"},
+        "kennwert_band_low": {"type": "number", "default": 850},
+        "kennwert_band_high": {"type": "number", "default": 1050},
+        "kennwert_quelle": {"type": "string"},
+        "geschosshoehe_m": {"type": "number", "default": 3.0},
+        "verkaufspreis_chf_m2": {"type": "number", "default": 9000, "description": "Modus verkauf: CHF/m2 HNF"},
+        "miete_chf_m2_jahr": {"type": "number", "default": 320, "description": "Modus rendite: CHF/m2 HNF/Jahr"},
+        "kap_satz_pct": {"type": "number", "default": 3.5, "description": "Modus rendite: Kapitalisierungssatz %"},
+        "marge_pct": {"type": "number", "default": 7.0, "description": "Bautraeger-Marge %"},
+        "diskont_pct": {"type": "number", "default": 3.0, "description": "Diskontierung/Abzinsung %"},
+        "abzug_chf": {"type": "number", "default": 0, "description": "weitere Abzuege (Altlasten/Rueckbau)"},
+        "landpreis_chf": {"type": ["number", "null"], "default": null, "description": "falls bekannt → Marge-/Controlling-Methode"}
+      }
+    },
+    "leitvariante_index": {"type": "integer", "default": 0, "description": "fuehrt Hero-KPI + Sensitivitaet"},
+    "varianten": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["name", "ziffer"],
+        "properties": {
+          "name": {"type": "string"},
+          "kurz": {"type": "string"},
+          "ziffer": {"type": "number", "description": "AZ/GFZ der Variante"},
+          "geschosse": {"type": ["integer", "null"]},
+          "zuschlag_pct": {"type": "number", "default": 0, "description": "Kosten-Zuschlag % (Hang/Komplexitaet)"},
+          "zuschlag_label": {"type": "string"},
+          "nutzung": {"type": "string"},
+          "render_img": {"type": "string", "description": "optional: Pfad/Data-URI eines 3D-Renderings (volumenstudie)"}
+        }
+      }
+    },
+    "baurecht": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "label": {"type": "string"},
+          "wert": {"type": ["string", "number"]},
+          "quelle": {"type": "string"}
+        }
+      }
+    },
+    "fazit": {"type": "array", "items": {"type": "string"}},
+    "vorbehalte": {"type": "array", "items": {"type": "string"}},
+    "quellen": {"type": "string"}
+  }
+}

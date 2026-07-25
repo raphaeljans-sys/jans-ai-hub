@@ -1,0 +1,56 @@
+{
+  "slug": "Muratori_Saverio",
+  "architekt": {
+    "name": "Muratori Saverio",
+    "nachname": "Muratori",
+    "vorname": "Saverio",
+    "jahre": [],
+    "ordner": "Muratori_Saverio"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Muratori_Saverio",
+  "projekte": [
+    {
+      "raw": "Architekt",
+      "ort": "Architekt",
+      "projekt": "Architekt",
+      "jahre": [],
+      "titel": "Architekt"
+    },
+    {
+      "raw": "Bologna_Wohnhochhaus",
+      "ort": "Bologna",
+      "projekt": "Wohnhochhaus",
+      "jahre": [],
+      "titel": "Bologna Wohnhochhaus"
+    },
+    {
+      "raw": "Pisa_Kirche",
+      "ort": "Pisa",
+      "projekt": "Kirche",
+      "jahre": [],
+      "titel": "Pisa Kirche"
+    },
+    {
+      "raw": "Rom_Rossiplan",
+      "ort": "Rom",
+      "projekt": "Rossiplan",
+      "jahre": [],
+      "titel": "Rom Rossiplan"
+    }
+  ],
+  "projekt_anzahl": 4,
+  "inventar": {
+    "bilder": 6,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 6
+  },
+  "dateitypen": {
+    ".jpg": 5,
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Muratori Saverio | Architekt Architekt | Bologna Wohnhochhaus | Pisa Kirche | Rom Rossiplan",
+  "stand": "2026-07-02T22:42:57"
+}

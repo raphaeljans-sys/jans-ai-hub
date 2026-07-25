@@ -1,0 +1,26 @@
+{
+  "slug": "wang_shu",
+  "architekt": {
+    "name": "wang shu",
+    "nachname": "wang",
+    "vorname": "shu",
+    "jahre": [],
+    "ordner": "wang_shu"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/wang_shu",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpeg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "wang shu",
+  "stand": "2026-07-02T22:52:25"
+}

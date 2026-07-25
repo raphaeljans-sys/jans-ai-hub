@@ -1,0 +1,49 @@
+{
+  "slug": "Serlio_Sebastian_1475_1554",
+  "architekt": {
+    "name": "Serlio Sebastian 1475 1554",
+    "nachname": "Serlio",
+    "vorname": "Sebastian 1475",
+    "jahre": [
+      "1554"
+    ],
+    "ordner": "Serlio_Sebastian_1475_1554"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Serlio_Sebastian_1475_1554",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Tragische_Szene_Trattato_1545",
+      "ort": "Tragische",
+      "projekt": "Szene Trattato",
+      "jahre": [
+        "1545"
+      ],
+      "titel": "Tragische Szene Trattato 1545"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 56,
+    "dokumente": 2,
+    "cad": 0,
+    "andere": 1,
+    "total": 59
+  },
+  "dateitypen": {
+    ".jpg": 54,
+    ".pdf": 2,
+    ".tif": 1,
+    ".indd": 1,
+    ".gif": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Serlio Sebastian 1475 1554 | 00 Architekten | Tragische Szene Trattato 1545",
+  "stand": "2026-07-02T22:48:15"
+}

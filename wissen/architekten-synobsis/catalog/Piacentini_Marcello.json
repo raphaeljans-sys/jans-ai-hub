@@ -1,0 +1,58 @@
+{
+  "slug": "Piacentini_Marcello",
+  "architekt": {
+    "name": "Piacentini Marcello",
+    "nachname": "Piacentini",
+    "vorname": "Marcello",
+    "jahre": [],
+    "ordner": "Piacentini_Marcello"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Piacentini_Marcello",
+  "projekte": [
+    {
+      "raw": "00_Allgemein",
+      "ort": "00",
+      "projekt": "Allgemein",
+      "jahre": [],
+      "titel": "00 Allgemein"
+    },
+    {
+      "raw": "Brescia",
+      "ort": "Brescia",
+      "projekt": "Brescia",
+      "jahre": [],
+      "titel": "Brescia"
+    },
+    {
+      "raw": "Mailand_Palazzo_Missori_1933_38",
+      "ort": "Mailand",
+      "projekt": "Palazzo Missori 38",
+      "jahre": [
+        "1933"
+      ],
+      "titel": "Mailand Palazzo Missori 1933 38"
+    },
+    {
+      "raw": "Rom",
+      "ort": "Rom",
+      "projekt": "Rom",
+      "jahre": [],
+      "titel": "Rom"
+    }
+  ],
+  "projekt_anzahl": 4,
+  "inventar": {
+    "bilder": 11,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 12
+  },
+  "dateitypen": {
+    ".jpg": 11,
+    ".pdf": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Piacentini Marcello | 00 Allgemein | Brescia Brescia | Mailand Palazzo Missori 38 1933 | Rom Rom",
+  "stand": "2026-07-02T22:44:22"
+}

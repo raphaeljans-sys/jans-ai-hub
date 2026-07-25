@@ -1,0 +1,2172 @@
+# Quelle: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2206 WB Schoental/09 Dokumente/SB_PW_221103.pdf
+# Extrakt: pdftotext -layout, 12.07.2026 (Seitenmarker via -f/-l Schleife)
+
+===== SEITE 1 =====
+                   Projektwettbewerb
+                   Neubau Schulhaus Schöntal,
+                   Altstätten
+
+
+
+
+Schlussbericht
+19. Oktober 2022
+Entwurf
+===== SEITE 2 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+Impressum
+
+raum.manufaktur.ag
+Feldlistrasse 31A
+9000 St. Gallen
+
+071 555 03 10
+info@raummanufakturag.ch
+www.raummanufakturag.ch
+
+
+
+
+Projektleitung
+Armin Meier
+dipl. Ing. FH SIA, Raumplaner FSU
+Raumplaner FSU | REG A
+dipl. Wirtschaftsingenieur FH NDS
+
+Fachbearbeitung
+Christian Svec
+BSc FH in Raumplanung
+
+4.3251.780.SB_PW_221103.docx
+
+
+
+
+2 | 60
+===== SEITE 3 =====
+ Projektwettbewerb
+ Neubau Schulhaus Schöntal, Altstätten
+ Schlussbericht
+
+
+
+
+ Inhaltsverzeichnis
+
+                                         Impressum                                  2
+
+                                         1     Allgemeine Bestimmungen              4
+                                         1.1   Ausgangslage                         4
+                                         1.2   Aufgabenstellung                     5
+                                         1.3   Teilnahmeberechtigung                5
+
+                                         2   Organisation Wettbewerb                6
+                                         2.1 Veranstalterin und Verfahren           6
+                                         2.2 Preisgericht                           6
+
+                                         3     Vorprüfung                            7
+                                         3.1   Allgemein                             7
+                                         3.2   Ergebnis                              7
+
+                                         4     Beurteilung                          8
+                                         4.1   Allgemein                            8
+                                         4.2   Beurteilungskriterien                8
+                                         4.3   Erster Rundgang                      8
+                                         4.4   Zweiter Rundgang                     9
+                                         4.5 Projekte in engerer Wahl                9
+                                         4.6 Dritter Rundgang                       10
+
+                                         5   Rangierung                             11
+                                         5.1 Rangfolge                              11
+                                         5.2 Preiserteilung                         11
+
+                                         6   Empfehlung des Preisgerichts           12
+                                         6.1 Würdigung                              12
+                                         6.2 Weiterbearbeitung                      12
+                                         6.3   Veröffentlichung                     12
+
+                                         7     Genehmigung                          13
+
+                                         8     Ermittlung der Projektverfassenden   14
+                                         8.1   Rangierte Projekte                   14
+                                         8.2 Nicht rangierte Projekte               14
+
+                                         Anhang                                     15
+
+
+
+
+3 | 60
+===== SEITE 4 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+1        Allgemeine Bestimmungen
+
+
+1.1      Ausgangslage                       1.1.1 Anlass
+                                            Am bestehenden Schulstandort Schöntal sollen neue Räumlichkeiten für
+                                            vier Primar- und zwei Kindergartenklassen geschaffen werden.
+                                                 Der Schulcampus Schöntal befindet sich zwischen der historischen
+                                            Altstadt und dem Ortsteil Lüchingen. Der Campus umfasst das Primar-
+                                            schulhaus Schöntal mit vier Sporthallen und dem Berufs- und Weiterbil-
+                                            dungszentrum Rorschach-Rheintal (BZR).
+                                                 Das Schulhaus Schöntal wurde im Jahr 1974 erstellt und um 2011 zu-
+                                            sammen mit dem Bau der BZR mit einer Sporthalle und einem Foyer öst-
+                                            lich erweitert. Heute werden in zwölf Primarklassen 227 Schüler von ins-
+                                            gesamt 23 Lehrpersonen im unterrichtet. Wobei zurzeit zwei Kindergar-
+                                            tenklassen aus Platzgründen extern an der Heidenerstrasse untergebracht
+                                            sind. Das Schulhaus beherbergt im östlichen Gebäudeteil eine 4-fach-
+                                            Turnhalle. Wobei die vierte Sporthalle im Jahr 2011 durch den Kanton
+                                            St.Gallen für das BZR erstellt wurde. Die vierte Sporthalle ist zusammen
+                                            mit der Garderobe, den Sanitäranlagen und dem Foyer im Besitz des Kan-
+                                            tons.
+                                                Westlich des Schulhaus Schöntal befindet sich das «Haus Utz». Darin
+                                            waren bis im Sommer 2022 die Time-out Schule Oberrheintal der Ober-
+                                            stufenschulgemeinde Rebstein-Marbach, Altstätten und Oberriet-Rüthi
+                                            untergebracht. Im Sinne der Erweiterung wird diese Baute zurückgebaut.
+                                                Im Freiraum stehen unterschiedlichen Kinderspielanlagen, Pausenflä-
+                                            chen und ein Basketball-Hartplatz zur Verfügung.
+
+Abb. 1   Landkarte, www.map.geo.admin.ch,
+         Februar 2022 (kein Massstab)
+
+
+
+
+                                            1.1.2 Lösungsfindung über Projektwettbewerb
+                                            Die Primarschulgemeinde Altstätten entschied sich, das Projekt für einen
+                                            Neubau über einen offenen, anonymen Projektwettbewerb zu evaluieren.
+
+
+4 | 60
+===== SEITE 5 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+                                        Die Verfasserschaft des Siegerprojektes soll mit der weiteren Projektierung
+                                        des Vorhabens beauftragt werden.
+
+
+
+
+1.2      Aufgabenstellung               1.2.1 Umfang
+                                        Das Projekt umfasst die Erweiterung des Schulhauses Schöntal mit folgen-
+                                        den Räumlichkeiten:
+                                          – Primarschulräume für vier Klassen;
+                                          – Kindergartenräume für zwei Klassen;
+                                          – Diverse Gruppen- und Nebenräume;
+                                          – Pausenplatz und Aussenanlagen.
+                                        Die Gesamtkosten werden auf 10.5 Mio. CHF inkl. MWST (BKP 1 bis 10) ge-
+                                        schätzt.
+
+
+
+                                        1.2.2 Anforderungen
+                                        Gefragt war ein Lösungsvorschlag, der optimale pädagogische und funkti-
+                                        onelle Verhältnisse schafft und sich durch eine hohe ortsbauliche und ar-
+                                        chitektonische Qualität auszeichnet. Vorausgesetzt wurde ausserdem ein
+                                        haushälterischer Umgang mit dem Boden, eine wirtschaftliche Bauweise,
+                                        ein kostengünstiger Betrieb und Unterhalt und die Einhaltung der prog-
+                                        nostizierten Gesamtkosten. Die Anlage soll im Sommer 2026 bezogen
+                                        werden.
+
+
+
+
+1.3      Teilnahmeberech-               1.3.1 Teilnahmeberechtigte
+         tigung                         Zum Verfahren zugelassen waren Architekturschaffende, Architekturbüros
+                                        und Architekturgemeinschaften mit Wohn- oder Geschäftssitz in der
+                                        Schweiz oder in einem Vertragsstaat des WTO-Übereinkommens über das
+                                        öffentliche Beschaffungswesen.
+
+
+
+                                        1.3.2 Teambildung
+                                        Für die Wettbewerbsaufgabe wurde der Beizug eines Landschaftsarchitek-
+                                        turbüros dringend empfohlen. Eine Teambildung war aber nicht voraus-
+                                        gesetzt.
+
+
+
+
+5 | 60
+===== SEITE 6 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+2 Organisation Wettbewerb
+
+
+2.1      Veranstalterin und             2.1.1 Veranstalterin
+                                        Veranstalterin des Projektwettbewerbes war die Primarschulgemeinde
+         Verfahren
+                                        Altstätten, Bahnhofstrasse 5, 9450 Altstätten.
+
+
+
+                                        2.1.2 Organisation
+                                        Die Organisation des Wettbewerbs lag beim Büro raum.manufaktur.ag,
+                                        Feldlistrasse 31a, 9000 St.Gallen.
+
+
+
+                                        2.1.3 Verfahren
+                                        Die Planung und der Bau des Neubaus unterstehen dem Recht über das
+                                        öffentliche Beschaffungswesen. Der Projektwettbewerb wurde im offenen,
+                                        anonymen Verfahren durchgeführt. Für das formelle Verfahren galt die
+                                        SIA-Ordnung 142 subsidiär.
+
+
+
+
+2.2 Preisgericht                        Das Preisgericht setzte sich aus folgenden Personen zusammen:
+
+                                        Sachpreisrichter
+                                          – Remo Maurer, Präsident Primarschulgemeinde, Altstätten
+                                          – Patrik Haldner, Schulrat, Altstätten (Ersatz)
+
+
+                                        Fachpreisrichter/innen
+                                          – Werner Binotto, Dipl. Arch. HBK BSA SIA, Altstätten*
+                                          – Eva Keller, Dipl. Arch. HBK BSA, Herisau*
+                                          – Roger Graf, Dipl. Arch. FH, Altstätten (Ersatz)*
+                                          – Eva Maria Lässer, Bsc. Arch., Hinterforst (Ersatz)*
+
+
+                                        Mitglieder mit beratender Stimme
+                                         – Esther Gächter, Schulrätin
+                                          – Christian Graber, Hasler Baumanagement GmbH
+                                          – Anita Klaiber, Lehrperson
+                                          – Andrea Müller, Lehrperson
+                                          – Sabrina Sanserverino, Schulleiterin Schöntal
+                                          – Daniel Schelling, Stadtrat Altstätten
+                                          – Marco Schraner, Schulleiter Bild-Institut-Klaus
+                                          – Jeanine Streule, Lehrpersonenvertretung Primarschule Altstätten
+                                          – Martin Klauser, Landschaftsarchitekt HTL BSLA, Rorschach
+                                          – Rolf Gantenbein, Gantenbein + Partner AG, Balgach
+                                          – Rolf Bachofner, Bachofner GmbH, Frümsen
+                                        * Fachpreisrichter/in gemäss den Bestimmungen von SIA 142
+
+
+
+6 | 60
+===== SEITE 7 =====
+ Projektwettbewerb
+ Neubau Schulhaus Schöntal, Altstätten
+ Schlussbericht
+
+
+
+
+ 3       Vorprüfung
+
+
+ 3.1     Allgemein                       3.1.1 Prüfungsumfang
+                                         Die Vorprüfung umfasste eine wertungsfreie technische Überprüfung auf
+                                         die Erfüllung der Programmbedingungen und der gestellten Anforderun-
+                                         gen. Als Grundlage der Vorprüfung dienten die Anforderungen des Wett-
+                                         bewerbprogramms vom 30. März 2022 ergänzt mit der Fragenbeantwor-
+                                         tung vom 24. Juni 2022.
+                                             Im Rahmen der Vorprüfung wurden sämtliche Wettbewerbsbeiträge
+                                         mit Bezug auf die Erfüllung der wichtigsten Programmbestimmungen
+                                         (formelle Aspekte, generelle Einhaltung des Raumprogramms und die üb-
+                                         rigen messbaren Rahmenbedingungen) geprüft. Die Vorprüfung diente
+                                         dem Preisgericht zur Bestimmung allfälliger Ausschlüsse von der Beurtei-
+                                         lung. Die Nummerierung der Projekte wurde zufällig gewählt und durch-
+                                         gehend in der Vorprüfung, Beurteilung und Ausstellung verwendet.
+
+                                         Ausschluss
+                                         Ein Wettbewerbsbeitrag wurde von der Beurteilung ausgeschlossen,
+                                         wenn:
+                                           – er nicht rechtzeitig oder in wesentlichen Bestandteilen unvollständig
+                                             abgeliefert wurde;
+                                           – er unleserlich und damit nicht beurteilbar war;
+                                           – er unlautere Absichten vermuten liess;
+                                           – die Verfassenden gegen das Anonymitätsgebot verstiessen;
+                                           – von den Programmbestimmungen in wesentlichen Punkten abgewi-
+                                             chen wurde.
+
+
+
+
+ 3.2 Ergebnis                            Abweichungen
+                                         Dem Preisgericht wurde das Ergebnis der Vorprüfung allgemein und, so-
+                                         weit Abweichungen vorlagen, an den Projekten vorgestellt.
+                                             Dabei wurde festgestellt, dass zwei Projekte wesentliche Inhalte des
+                                         Raumprogramms ausserhalb des Bearbeitungsperimeters angeordnet hat-
+                                         ten.
+                                         Das Preisgericht nahm das Ergebnis der Vorprüfung zur Kenntnis und ent-
+                                         lastete damit die Vorprüfungsinstanz. Das Ergebnis der Vorprüfung wurde
+                                         im Bericht vom 27. September 2022 zusammengefasst.
+
+                                         Entscheid
+                                         Das Preisgericht entschied einstimmig, alle Projekte zur Beurteilung zuzu-
+                                         lassen. Die Projekte Nr. 6 «Pat & Patachon» und 7 «bonne chance» wur-
+                                         den aufgrund ihres Verstosses gegen den Bearbeitungsperimeter von der
+                                         Preiserteilung ausgeschlossen.
+
+
+
+7 | 60
+===== SEITE 8 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+4 Beurteilung
+
+
+4.1 Allgemein                           Das Preisgericht trat an zwei Jurytagen, am 27. September 2022 und am
+                                        19. Oktober 2022, zur Beurteilung der eingereichten Projekte in Altstätten
+                                        zusammen. Remo Maurer liess sich aus gesundheitlichen Gründen am
+                                        ersten Jurytag durch Patrik Haldner vertreten.
+
+
+
+
+4.2 Beurteilungskriterien               Die Projekte wurden vom Preisgericht namentlich hinsichtlich der nach-
+                                        stehenden Gesichtspunkte beurteilt, wobei die Reihenfolge weder einer
+                                        Hierarchie noch einer Gewichtung in der Bewertung entsprach:
+
+                                        Situation und aussenräumliche Qualität
+                                          – Situation, ortsbauliches und freiräumliches Gesamtkonzept;
+                                          – Architektur, Gestaltung der Baukörper, architektonischer Ausdruck;
+                                          – Freiräumliche Qualität und Erschliessung.
+
+                                        Organisation und innenräumliche Qualität
+                                          – Erfüllung Raumprogramm;
+                                          – Funktionalität der betrieblichen Abläufe;
+                                          – Inneres Erschliessungssystem;
+                                          – Nutzungs- und Grundrissflexibilität;
+                                          – Qualität und Atmosphäre der Innenräume und Tageslichtführung.
+
+                                        Wirtschaftlichkeit und Nachhaltigkeit
+                                          – Erstellungskosten, Betrieb und Unterhalt (Lebenszykluskosten);
+                                          – Flexibilität der Gebäudestruktur und Einfachheit der Tragkonstruktion;
+                                          – Wertebeständigkeit der gewählten Konstruktion und Materialien;
+                                          – Systemtrennung und Anpassungsfähigkeit der Gebäudetechnik;
+                                          – Energetische und ökologische Nachhaltigkeit.
+
+
+                                        Gesamteindruck
+
+
+
+
+4.3 Erster Rundgang                     Unter der Leitung der Fachpreisrichterinnen und Fachpreisrichter wurden
+                                        alle Projekte in einem ersten Rundgang, gestützt auf die Beurteilungskrite-
+                                        rien gemäss Wettbewerbsprogramm, beurteilt und anschliessend im Ple-
+                                        num vorgestellt und diskutiert.
+                                            Aufgrund der Beurteilung durch das Preisgericht wurden im ersten
+                                        Wertungsrundgang diejenigen Projekte ausgeschieden, welche in archi-
+                                        tektonischer und ortsbaulicher Hinsicht für diese Lage und Aufgabenstel-
+                                        lung nicht überzeugen konnten, sowie solche, die offensichtlich Mängel in
+                                        der inneren Organisation aufwiesen.
+
+
+8 | 60
+===== SEITE 9 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+                                        Folgende Projekte sind dabei ausgeschieden:
+                                         – Nr. 6     Pat & Patachon
+                                         – Nr. 7     bonne chance
+                                         – Nr. 8     LERNMODUL
+                                         – Nr. 10    Sonne, Mond und Sterne
+                                         – Nr. 11    Totoro
+                                         – Nr. 13    take off
+                                         – Nr. 16    LUCIDO
+                                         – Nr. 21    uranu
+                                         – Nr. 23    Playfull Altstätten
+                                         – Nr. 24    Laurentia, liebe Laurentia mein
+                                         – Nr. 26    Freiraum
+
+
+
+
+4.4 Zweiter Rundgang                    In einem zweiten Rundgang wurden die verbliebenen Projekte durch das
+                                        Preisgericht intensiv auf ihre ortsbaulichen, freiräumlichen, architektoni-
+                                        schen und innenräumlichen Qualitäten untersucht. Die folgenden Pro-
+                                        jekte sind dabei ausgeschieden:
+                                          – Nr. 1     Rotkäppchen
+                                          – Nr. 3     Krokodil
+                                          – Nr. 4     Chamäleon
+                                          – Nr. 5     SANDELHOLZ
+                                          – Nr. 15    Paeonia
+                                          – Nr. 17    TRICERATOPS
+                                          – Nr. 20    Janus
+
+
+
+
+4.5 Projekte in engerer                 Im Sinne einer Zwischenkontrolle wurden alle Projekte nochmlas begut-
+                                        achtet und diskutiert. Die nachfolgenden Projekte überzeugten durch ihre
+    Wahl
+                                        gesamthaft interessanten Lösungsansätze und vorhandenen Realisie-
+                                        rungschancen.
+                                         – Nr. 2     NORDLICHTER
+                                         – Nr. 9     Jim Knopf
+                                         – Nr. 12    Grünelia
+                                         – Nr. 14    Pavillion nouveau
+                                         – Nr. 18    ALEA
+                                         – Nr. 19    LEARNSCAPE
+                                         – Nr. 22    KIM
+                                         – Nr. 25    ARCHE
+
+
+
+
+9 | 60
+===== SEITE 10 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+                                        Detaillierte Prüfung
+                                        Die Projekte der engeren Wahl wurden bis zur zweiten Jurierung detail-
+                                        liert auf die Erfüllung des Raumprogramms, der brandschutztechnischen
+                                        und betrieblichen Vorgaben sowie hinsichtlich ihrer Wirtschaftlichkeit
+                                        überprüft bzw. miteinander verglichen. Die verbliebenen acht Projekte
+                                        wurden am zweiten Jurytag anhand der Projektbeschriebe durch die
+                                        Fachpreisrichterinnen und Fachpreisrichter im Detail dem Preisgericht
+                                        vorgestellt.
+
+
+
+
+4.6 Dritter Rundgang                    Aufgrund der vertieften Erkenntnisse und mit dem zusätzlichen Wissen
+                                        aus der Detailprüfung und einer erneuten Bewertung nach den Beurtei-
+                                        lungskriterien, entschied das Preisgericht, die nachstehenden Projekte im
+                                        dritten Rundgang auszuscheiden.
+                                          – Nr. 09    Jim Knopf
+                                          – Nr. 12    Grünelia
+                                          – Nr. 14    Pavillon nouveau
+
+
+
+
+10 | 60
+===== SEITE 11 =====
+ Projektwettbewerb
+ Neubau Schulhaus Schöntal, Altstätten
+ Schlussbericht
+
+
+
+
+ 5 Rangierung
+
+
+ 5.1 Rangfolge                           Nach eingehender Diskussion legte das Preisgericht einstimmig die fol-
+                                         gende Rangierung der verbliebenen Projekte fest:
+
+ Tab. 1   Übersicht Rangfolge             Rang       Nr.           Kennwort
+                                          1. Rang    02            NORDLICHTER
+                                          2. Rang    22            KIM
+                                          3. Rang    25            ARCHE
+                                          4. Rang    19            LEARNSCAPE
+                                          5. Rang    18            ALEA
+
+
+
+
+ 5.2 Preiserteilung                      Im Anschluss an die Rangierung wurden die Preise festgelegt. Dafür stand
+                                         dem Preisgericht eine Summe von CHF 120'000.- (zzgl. MWST) zur Verfü-
+                                         gung. Die Preissumme wurde einstimmig wie folgt den Projekten zuge-
+                                         teilt:
+
+ Tab. 2   Übersicht Preiserteilung        Rang       Preis         Nr.     Kennwort              Preissumme in CHF
+                                                                                                 zzgl. MWST
+                                          1. Rang    1. Preis      02      NORDLICHTER           40'000.-
+                                          2. Rang    2. Preis      22      KIM                   30'000.-
+                                          3. Rang    3. Preis      25      ARCHE                 25'000.-
+                                          4. Rang    4. Preis      19      LEARNSCAPE            15'000.-
+                                          5. Rang    5. Preis      18      ALEA                  10'000.-
+
+
+
+
+11 | 60
+===== SEITE 12 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+6         Empfehlung des Preisgerichts
+
+
+6.1       Würdigung                     Das Preisgericht konnte mit Genugtuung feststellen, dass unter den ein-
+                                        gereichten Projekten eine grosse Anzahl von insgesamt hoher Qualität
+                                        vorlag. Der offene Wettbewerb hat für die Primarschule Altstätten ein gu-
+                                        tes Ergebnis für den Neubau bei der Schule Schöntal gebracht.
+                                            Sämtlichen Teilnehmenden des Projektwettbewerbs gebührt für die
+                                        Teilnahme und Einreichung ihrer interessanten Beiträge ein grosser Dank.
+                                        Sie haben dazu beigetragen, eine intensive Diskussion und Auseinander-
+                                        setzung mit der Aufgabenstellung zu ermöglichen.
+
+
+
+
+ 6.2 Weiterbearbeitung                  Das Preisgericht empfiehlt der Veranstalterin einstimmig das erstrangierte
+                                        Projekt «NORDLICHTER»zur Weiterbearbeitung. Neben den im Projektbe-
+                                        schrieb enthaltenen Empfehlungen sind bei der weiteren Bearbeitung ins-
+                                        besondere folgende Punkte zu beachten:
+                                          – Die bestehenden Bäume entlang der Bildstrasse sind zu erhalten.
+                                          – Der vorgeschlagene Sonnenschutz ist aufgrund der regionalen Wind-
+                                            verhältnisse (Föhn) zu überdenken.
+                                          – Die Anordnung der Veloabstellanlagen ist im Kontext der gesamten
+                                            Schulanlage zu prüfen.
+
+
+
+
+6.3 Veröffentlichung                    Die Veröffentlichung des Wettbewerbsergebnisses erfolgt durch die Ver-
+                                        anstalterin. Das Resultat des Projektwettbewerbs wird der Tages- und
+                                        Fachpresse zu Verfügung gestellt. Sämtliche Projekte werden öffentlich
+                                        ausgestellt.
+
+
+
+
+12 | 60
+===== SEITE 13 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+7         Genehmigung
+
+
+                                        Das Preisgericht erklärt sich mit dem Beurteilungsbericht einverstanden,
+                                        hat diesen am 19. Oktober 2022 im Grundsatz genehmigt und redaktio-
+                                        nelle Ergänzungen und Korrekturen auf dem Korrespondenzweg nach der
+                                        Jurierung gutgeheissen.
+
+                                        Preisgericht
+
+                                        Remo Maurer                     ……............................................………………
+
+
+
+
+                                        Eva Keller                      ……............................................………………
+
+
+
+
+                                        Werner Binotto                  ……............................................………………
+
+
+
+
+                                        Eva Lässer                      ……............................................………………
+
+
+
+
+                                        Patrik Haldner                  ……............................................………………
+
+
+
+
+                                        Roger Graf                      ……............................................………………
+
+
+
+
+13 | 60
+===== SEITE 14 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+8 Ermittlung der Projektverfassenden
+
+
+                                        Nach Abschluss der Beurteilung, Rangierung und Genehmigung dieses
+                                        Berichts erfolgte die Ermittlung der Projektverfassenden durch die Öff-
+                                        nung der Verfassercouverts. Daraus ergeben sich in der Reihenfolge der
+                                        Rangierung die folgenden Namen der Projektverfassenden:
+
+
+
+
+8.1       Rangierte Projekte             1. Rang | 1. Preis   Nr. 02 NORDLICHTER
+                                         Architektur          Michal Krzywdziak . Architekt MSc ETH, Zürich
+                                         Projektleitung       Michal Krzywdziak
+                                         Mitarbeit            Natalia Huser
+
+
+                                         2. Rang | 2. Preis   Nr. 22 KIM
+                                         Architektur          GREDIG WALSER ARCHITEKTEN AG, Chur
+                                         Projektleitung       Joos Gredig
+                                         Mitarbeit            Peter Walser, Paula Jacomet, André Cerqueira, Alessio Tschuor
+
+
+                                         3. Rang | 3. Preis   Nr. 25 ARCHE
+                                         Architektur          Raphael Jans – Architekten ETH / SIA, Zürich
+                                         Projektleitung       Raphael Jans
+                                         Mitarbeit            Andrea Marco Zarn, Mario Sommer
+                                         Architektur
+
+                                         4. Rang | 4. Preis   Nr. 19 LEARNSCAPE
+                                         Architektur          Hull Inoue Radlinsky GmbH, Zürich
+                                         Projektleitung       Vanessa Hull
+                                         Mitarbeit            Miyuki Inoue, Silvia Radlinsky, Julia Schütz, Anna Mir
+
+
+                                         5. Rang | 5. Preis   Nr. 18 ALEA
+                                         Architektur          xander architektur zt gmbh, Feldkirch
+                                         Projektleitung       Andreas Xander
+                                         Mitarbeit            Andreas Xander
+
+
+
+
+8.2 Nicht rangierte                     Die Verfassenden der nicht rangierten Projekte, welche in einem früheren
+    Projekte                            Rundgang ausgeschieden sind, werden im Anhang aufgeführt.
+
+
+
+
+14 | 60
+===== SEITE 15 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+Anhang
+
+
+
+
+                                        A1 Rangierter Projekte
+                                        A2 Nicht rangierter Projekte
+
+
+
+
+15 | 60
+===== SEITE 16 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+A1             Rangierte Projekte
+
+
+1. Rang | 1. Preis
+Nr. 02          NORDLICHTER
+
+Architektur:    Michal Krzywdziak . Archi-
+                tekt MSc ETH, Zürich
+Projektleitung: Michal Krzywdziak
+Mitarbeit:      Natalia Huser
+
+
+
+
+                                             Projektbeschrieb
+                                             Mit grosser Wertschätzung zum bestehenden Grünraum werden die
+                                             neuen Baukörper der Schulerweiterung und Kindergarten gesetzt. Zwei
+                                             aneinandergeschobene Volumen werden in räumlich kontrolliertem Ab-
+                                             stand nahe an das bestehende Schulhaus Schöntal an die nördliche
+                                             Grenze des Grundstückes platziert. Mit dieser Setzung erreichen die Ver-
+                                             fassenden eine selbstverständlich wirkende Zuordnung der Aussenräume
+                                             unter grösstmöglicher Wahrung des wertvollen Baumbestandes. Die Ver-
+                                             fassenden nutzen die vorgegebene topografische Gegebenheit für eine
+                                             qualitätsvolle Differenzierung der Nutzungen. Die Wegführung ist einfach
+                                             und übersichtlich. Der zu kleine Velounterstand am Lyrikweg bildet den
+                                             räumlichen Abschluss des im Nordwesten liegenden Vorplatzes, welcher
+                                             primär die Kindergärten erschliesst. Die Verfassenden machen weiter den
+                                             Vorschlag, den Grünraum zwischen den Schulhäusern als Freiluftklassen-
+                                             zimmer zu nutzen.
+
+                                             Die beiden Nutzungen Kindergarten und Schule werden in zwei mass-
+                                             stäblich differenzierten Baukörpern zusammengefasst, die zusammenge-
+                                             schoben sind. Der Kindergarten ist eingeschossig ausgebildet. Die zweige-
+                                             schossige Schulhauserweiterung ist im Erdgeschoss auf zwei Niveaus or-
+                                             ganisiert. Auf dem Platz-Niveau ist der Neubau an den bestehenden
+                                             Schulcampus angebunden. Der Höhenunterschied wird in einer über-
+                                             dachten Pausenhalle mit grosszügigen Sitzstufen aufgenommen, welche
+
+16 | 60
+===== SEITE 17 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+                                        die Verfassenden Pausenarena nennen. Oben schliesst ein etwas knapp
+                                        bemessenes Foyer an. Garderobe samt Toilettenanlagen liegen sinnvoll
+                                        zwischen Haupteingang und sekundärem Zugang.
+                                            Die Tagesstruktur liegt erdgeschossig und räumlich abgegrenzt im
+                                        Nordosten, seitlich zur Pausenarena.
+                                            Im Angelpunkt zwischen Schule und Kindergarten befindet sich das
+                                        Lehrerzimmer samt Materialraum. Die beidseitige Zugänglichkeit schafft
+                                        Synergien für den Schulbetrieb und den Kindergarten. Es wird ein funktio-
+                                        nales Zentrum geschaffen, das die beiden Bauten räumlich verbindet.
+                                        Über die zentrale Treppe erreichen die Schülerinnen und Schüler das
+                                        Obergeschoss, in welchem sich alle Klassenzimmer kompakt aneinander-
+                                        reihen. Den Klassenzimmern vorgelagert und mit diesen gut verbunden
+                                        liegen die Lernlandschaften. Die schmalen und somit länglichen Klassen-
+                                        zimmer werden über ein nach Norden gerichtetes Oblicht in der Raum-
+                                        tiefe mit Tageslicht versorgt.
+                                            Der über den kleinen Vorplatz erschlossene Kindergarten bildet eine
+                                        zentralsymmetrische Einheit. Im Zentrum liegt die gemeinschaftlich ge-
+                                        nutzte Küche. Die L-förmigen Kindergärten werden grosszügig über Eck
+                                        mit Tageslicht versorgt und haben beide gleichermassen eine attraktive
+                                        Anbindung an den schön gestalteten Aussenbereich – sprich Kinder-Gar-
+                                        ten.
+
+                                        Der Ausdruck der Fassaden ist geprägt durch eine sichtbare Holzkonstruk-
+                                        tion und eine Architektursprache, die das Bild eines Pavillons evoziert. Das
+                                        offene und lichtdurchflutete Stützen- und Trägersystem wird durch we-
+                                        nige geschlossene Felder ergänzt, die mit einer visuell leichten Lattenver-
+                                        kleidung gefüllt sind. Die allseitig weit auskragenden Vordächer sind mar-
+                                        kante architektonische Elemente, welche einen wichtigen Beitrag zum
+                                        sommerlichen Wärme- und konstruktiven Witterungsschutz beitragen
+                                        können. Die aufgeräumte und sichtbare Holzkonstruktion lässt wirtschaft-
+                                        liche Erstellungskosten erwarten.
+
+                                        Gesamthaft wird mit diesem kompakten und äusserst gekonnt geglieder-
+                                        ten Baukörper die Schulanlage Schöntal sinnhaft erweitert. Die Disposition
+                                        der bestehenden Anlage wird aufgenommen und weiterentwickelt. Be-
+                                        trieblich entstehen gut organisierte Klassenbereiche und ein freundlicher
+                                        Kindergarten, welcher von der überzeugenden Anbindung an den Grün-
+                                        raum profitiert. Die positive Stimmung und der entlang den pädagogi-
+                                        schen Zielvorgaben überzeugend organisierte Schul- und Kindergarten-
+                                        bereich machen diesen Vorschlag zu einem gelungenen Beitrag.
+
+
+
+
+17 | 60
+===== SEITE 18 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+Abb. 2    Situation
+
+
+
+
+Abb. 3    Erdgeschoss
+
+
+
+
+18 | 60
+===== SEITE 19 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+Abb. 4    Obergeschoss und Untergeschoss
+
+
+
+
+Abb. 5    Längsschnitt
+
+
+
+
+Abb. 6    Südwestfassade
+
+
+
+
+Abb. 7    Nordwestfassade
+
+
+
+
+19 | 60
+===== SEITE 20 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+Abb. 8    Südostfassade
+
+
+
+
+Abb. 9    Nordostfassade
+
+
+
+
+Abb. 10 Querschnitt
+
+
+
+
+20 | 60
+===== SEITE 21 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+Abb. 11   Schnittperspektive
+
+
+
+
+Abb. 12 Visualisierung
+
+
+
+
+21 | 60
+===== SEITE 22 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+2. Rang | 2. Preis
+Nr. 22         KIM
+
+Architektur:    GREDIG WALSER ARCHI-
+                TEKTEN AG, Chur
+Projektleitung: Joos Gredig
+Mitarbeit:      Peter Walser, Paula Jaco-
+                met, André Cerqueira, Ales-
+                sio Tschuor
+
+Weitere
+Beteiligte:    Grand Paysage Landschafts-
+               architektur, Basel
+               Casutt Wyrsch Zwicky AG
+               Bauingenieure und Planer,
+               Chur
+               Pernette + Wilhelm Ingeni-
+               eure (Bauphysik), Maienfeld
+               Pm Sicherheit AG (Brand-
+               schutz), Vaduz
+
+
+
+
+                                              Projektbeschrieb
+                                              Als neuer Gebäudekörper fügt sich das quadratische zwei- bis zweiein-
+                                              halbgeschossige und eher grosse Volumen nordöstlich in das Baufeld ein.
+                                              Die Setzung ergibt einen grosszügigen Aussenbereich für die Kindergärten
+                                              und einen Abschluss für die Schule.
+                                                  Der Velounterstand wird am bestehenden Ort erstellt. Das führt zu ei-
+                                              nem eher kleinen und zerstückelten Pausenplatz für die Schülerinnen und
+                                              Schüler. Der Zugang für die Schülerinnen und Schüler sowie zur Tages-
+                                              struktur erfolgt über diesen unteren Pausenplatz.
+                                                  Die beiden Kindergärten werden in nicht optimaler Weise von aus-
+                                              serhalb des Perimeters über die Parzelle des BZR erschlossen, was die Zu-
+                                              stimmung von Dritten erfordert. Die Rampe, welche zu den Velounter-
+                                              ständen führt, ist ebenfalls nicht ideal gelöst.
+
+                                              Das Projekt ordnet kleinere Flächen für Nebennutzungen im Unterge-
+                                              schoss an. Das Erdgeschoss ist unterteilt in zwei Ebenen. So können die
+                                              drei Nutzungen Kindergarten, Tagesstruktur und Lehrerbereich jeweils mit
+                                              einem Aussenzugang versehen werden. Der Eingang zur Schule und das
+                                              Foyer mit Tagesstruktur liegen im unteren Bereich. Dabei ist das Foyer,
+                                              welches mit einem Lichthof belichtet wird, mittig im Grundriss angeord-
+                                              net. Von dort gelangt man über eine breite Treppe zu den überhohen
+                                              Garderoben und dem eingeschossigen Bereich für die Lehrpesonen.
+
+
+22 | 60
+===== SEITE 23 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+                                        Ebenfalls auf dieser oberen Ebene, jedoch separat erschlossen sind die
+                                        zwei Kindergärten mit den dazugehörigen Räumen. Die Räume der Kin-
+                                        dergärten sind gut proportioniert und auch die Anordnung dieser zwei
+                                        Haupträume ist betreffend Belichtung vorbildlich. Ein zusätzlicher Eingang
+                                        zum Garderobenbereich vom Lyrikweg her wäre ein Gewinn für das Pro-
+                                        jekt.
+                                             Von der Garderobe gelangt man über ein zweites Treppenhaus in die
+                                        Lernlandschaft im Obergeschoss. Von dort erreicht man die vier Klassen-
+                                        zimmer, welche jeweils in den Gebäudeecken angeordnet sind. Der Licht-
+                                        hof und die Nasszellen in der Mitte der Lernlandschaft bewirken eine Glie-
+                                        derung des Raumes. Die Bereiche östlich und westlich zwischen den Zim-
+                                        mern können dadurch variabel genutzt werden und bieten zudem je eine
+                                        Lernloggia an. Die Sichtbezüge der Klassenzimmer zu den Lernlandschaf-
+                                        ten sind gut gelöst.
+                                            Ebenso flexibel ist der südlich zwischen die zwei Klassenzimmer ge-
+                                        schaltete Mulitfunktionsraum.
+
+                                        Das Konzept der Fassade besteht aus einem feingliedrigen Raster aus Stüt-
+                                        zen und Fenstern in Holz. Ein Vordach dient als sommerlicher Wärme-
+                                        schutz und als konstruktiver Holzschutz. Einzig der Sockel und der Liftkern
+                                        sind in Beton vorgesehen.
+                                        Das Projekt überzeugt in der ortsbaulichen Setzung, mit einer guten An-
+                                        ordnung der Haupträume sowie einer im Obergeschoss grossen Flexibili-
+                                        tät. Der äussere architektonische Ausdruck wird ebenfalls begrüsst. Die Er-
+                                        schliessung der beiden Kindergärten über das Grundstück des benachbar-
+                                        ten Berufs- und Weiterbildungszentrums ist jedoch ungünstig gewählt
+                                        und auch der Aussenraum für die Schülerinnen und Schüler vermag nicht
+                                        restlos zu überzeugen.
+
+
+
+
+23 | 60
+===== SEITE 24 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+Abb. 13 Situation
+
+
+
+
+Abb. 14 Erdgeschoss
+
+
+
+
+24 | 60
+===== SEITE 25 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+Abb. 15 Unter- und Obergeschoss
+
+
+
+
+ Abb. 16 Schnitt A
+
+
+
+
+Abb. 17   Ansicht Nord
+
+
+
+
+Abb. 18 Ansicht Ost
+
+
+
+
+25 | 60
+===== SEITE 26 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+Abb. 19 Ansicht Süd
+
+
+
+
+Abb. 20 Ansicht West
+
+
+
+
+Abb. 21 Schnitt B
+
+
+
+
+26 | 60
+===== SEITE 27 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+Abb. 22 Fassadenschnitt
+
+
+
+
+Abb. 23 Visualisierung
+
+
+
+
+27 | 60
+===== SEITE 28 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+3. Rang | 3. Preis
+Nr. 25         ARCHE
+
+Architektur:    Raphael Jans – Architekten
+                ETH / SIA, Zürich
+Projektleitung: Raphael Jans
+Mitarbeit:      Andrea Marco Zarn, Mario
+                Sommer
+
+Weitere
+Beteiligte:    Andreas Geser Landschafts-
+               architekten AG, Zürich
+               WINTEC AG, Winterthur
+
+
+
+
+                                             Projektbeschrieb
+                                             Nomen est omen. Wie ein Schiff besetzt der Entwurf den nördlichen Rand
+                                             des Areals. Zusammen mit den grossen Bäumen und dem Kopfbau des
+                                             bestehenden Schulhauses bildet er einen guten Gartenraum aus. Die Zu-
+                                             gänge liegen übersichtlich angeordnet im etwas erhöhten Erdgeschoss.
+                                             Der Eingang zum Kindergarten liegt getrennt vom südlichen Hauptzu-
+                                             gang der Schule im Norden neben dem Eingang zur Tagesstruktur. Be-
+                                             grüsst wird der Bereich für die Lehrpersonen im Untergeschoss auf der
+                                             Ebene des heutigen Schulhauseinganges.
+
+                                             Der Holzbau überzeugt mit einer einfachen Struktur, die eine grosse be-
+                                             triebliche Flexibilität gewährleistet. Die funktionalen Abläufe sind gut und
+                                             übersichtlich organisiert. Die Räume besitzen gute Proportionen und sind
+                                             mehrheitlich gut belichtet. Etwas problematisch könnte der östliche Kin-
+                                             dergarten sein, weil der an sich gute überdeckte Vorbereich die natürliche
+                                             Belichtung im hinteren Bereich einschränken dürfte. Gut hingegen ist die
+                                             Zonierung der Kindergartenräume. Das Obergeschoss besitzt interessante
+                                             und grosszügige Räume für einen zeitgenössischen Unterricht. Um eine
+                                             zentrale, gut belichtete Lernlandschaft sind die Klassenräume angeordnet.
+                                             Gegen Süden erlaubt eine grosszügige Terrasse eine Erweiterung der
+                                             Lernlandschaft und der Klassenräume. Leider fehlt die Transparenz zwi-
+                                             schen den beiden nördlichen Klassenzimmern und der Lernlandschaft.
+
+
+
+28 | 60
+===== SEITE 29 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+                                        Der grosszügige Gartenbereich ist gut organisiert. Dem Kindergarten ist
+                                        eine geschützte und gut besonnte Aussenfläche zugeordnet, die neben
+                                        dem etwas abgetreppten Vorbereich der Schule liegt. Die beiden Garten-
+                                        bereiche sind gut gestaltet und besitzen angemessene Grössen, die sich
+                                        gut in den Bestand integrieren. Die grossen Bäume bringen eine ange-
+                                        nehme Verschattung im Sommer und bilden einen Windschutz in den
+                                        Übergangszeiten.
+
+                                        Konstruktiv lässt die einfache und klare Holzkonstruktion eine wirtschaftli-
+                                        che Erstellung und einen angemessenen Unterhalt erwarten. Die betriebli-
+                                        chen Kosten dürften auf Grund der einfachen und kompakten Gebäu-
+                                        destruktur positiv ausfallen. Vorteilhaft ist auch das umlaufende Vordach,
+                                        bzw. der Terrassenbereich. Er bietet einen guten baulichen Sonnenschutz
+                                        und eine gute Verschattung der Fassaden. Die Belichtung der Lernland-
+                                        schaft bleibt durch das grosse Oblicht trotzdem gewährleistet.
+
+                                        Zusammenfassend überzeugt der Entwurf ortsbaulich und architektonisch
+                                        mit einer klaren und einfachen Setzung des Baukörpers. Die dadurch ge-
+                                        formten Aussenräume sind gut proportioniert und binden den Neubau
+                                        gut in die vorhandenen Strukturen ein. Während die innere Organisation
+                                        des Kindergartens überzeugt, kann die teilweise fehlende Transparenz bei
+                                        einzelnen Klassenzimmern im Schulbereich aus pädagogischer Sicht nicht
+                                        vollständig überzeugen.
+
+
+Abb. 24 Situation
+
+
+
+
+29 | 60
+===== SEITE 30 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+Abb. 25 Erdgeschoss
+
+
+
+
+Abb. 26 1. Obergeschoss mit Umgebung
+
+
+
+
+Abb. 27 2. Obergeschoss
+
+
+
+
+30 | 60
+===== SEITE 31 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+Abb. 28 Längsschnitt
+
+
+
+
+Abb. 29 Ansicht Ostfassade
+
+
+
+
+Abb. 30 Ansicht Südfassade
+
+
+
+
+Abb. 31 Querschnitt
+
+
+
+
+31 | 60
+===== SEITE 32 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+Abb. 32 Konstruktionsschnitt
+
+
+
+
+Abb. 33 Visualisierung
+
+
+
+
+32 | 60
+===== SEITE 33 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+4. Rang | 4. Preis
+Nr. 19          LEARNSCAPE
+
+Architektur:    Hull Inoue Radlinsky GmbH,
+                Zürich
+Projektleitung: Vanessa Hull
+Mitarbeit:      Miyuki Inoue, Silvia Rad-
+                linsky, Julia Schütz, Anna
+                Mir
+weitere
+Beteiligte:     Lorenz Eugster Land-
+                schaftsarchitektur und Städ-
+                tebau GmbH, Zürich
+
+
+
+
+                                               Projektbeschrieb
+                                               Als dritter Solitär fügt sich der orthogonale, zweigeschossige Baukörper
+                                               zwischen das bestehende Primarschulhaus und die benachbarte Berufs-
+                                               schule. Er bildet den nördlichen Abschluss, als auch einen neuen Auftakt
+                                               zum Schulgelände.
+
+                                               Durch die Setzung des Gebäudes ohne Keller können fast alle Bäume er-
+                                               halten werden. Der zum bestehenden Schulhaus ausgerichtete Pausenhof
+                                               ist wohl proportioniert und klar den Schulzimmern zugeordnet. Der Velo-
+                                               unterstand wird am bestehenden Standort neu erstellt und vergrössert,
+                                               dadurch wird allerdings der grosszügige Zwischenraum kleinteilig und
+                                               verstellt. Es vermischen sich verschiedene Nutzergruppen, was im be-
+                                               trieblichen Ablauf zu Konflikten führen kann.
+
+
+                                               Der Zugang für die Primarschule und die Tagesstrukturen erfolgt im östli-
+                                               chen Teil. Am westlichen Gebäudekopf werden die Kindergärten über Eck
+                                               mit je einem eigenen Zugang von Norden und Süden erschlossen.
+                                                   Die Grundkonzeption aus einem umlaufenden Stützenraster, einem
+                                               Vordach als sommerlicher Wärmeschutz und zwei grossen Betonkernen
+                                               mit Treppe und Nebenräumen, zieht sich über beide Geschosse. Im Erd-
+                                               geschoss ist ein übersichtliches zentrales Foyer mit Garderoben platziert.
+                                               Die Kerne als Verteiler erschliessen die westlichen und östlichen Räume
+                                               im Obergeschoss. Dadurch kann der Mittelteil des Schulgeschosses als
+
+
+33 | 60
+===== SEITE 34 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+                                        umfliessende Lernlandschaft bespielt werden. Fassadenseitig an den Ker-
+                                        nen sind je zwei Klassenzimmer und gebäudemittig je zwei Aussenräume
+                                        eingezogen. So verlockend die Idee eines Aussenklassenzimmers in der
+                                        Lernlandschaft sein mag, so sehr verunmöglicht es die gewünschte Flexi-
+                                        bilität und Sichtbeziehungen zu den anderen Klassen. Ähnliches gilt für
+                                        die grossen Erschliessungskerne. Sie ermöglichen zwar ruhiges Lernen,
+                                        lösen die Entfluchtung aus dem Obergeschoss und schaffen kurze Verbin-
+                                        dungen, gleichzeitig verunmöglichen sie eine spätere Anbindung des Eck-
+                                        zimmers an die Lernlandschaft. Die Länge des Gebäudes scheint hier für
+                                        diese Konzeption nachteilig, weil durch die Anreihung Klassenzimmer-
+                                        Lernlandschaft-Aussenraum eine grosse Distanz zwischen zwei Klassen-
+                                        zimmern aufgespannt wird. Somit ist zu erwarten, dass die Klassen unter
+                                        sich bleiben, was eher einem klassischen pädagogischen Konzept von
+                                        Zimmer und Gruppenraum entspricht. Im Erdgeschoss führen die Trep-
+                                        penhäuser aus dem Obergeschoss nicht direkt, sondern über das Foyer
+                                        bzw. die Garderoben ins Freie; dadurch können sie aus brandschutztech-
+                                        nischen Gründen nicht genutzt werden. Hier wären grundsätzliche An-
+                                        passungen im Grundriss erforderlich.
+
+                                        Die gefällige Hybridkonstruktion aus Beton und Holz nutzt die Vorteile der
+                                        Materialien: Beton, als innere Tragkonstruktion, Wärmespeicher, Schall-
+                                        und Brandschutz; Holz dient als Fassadenverkleidung, äussere schlanke
+                                        Tragstruktur und innere Trennwände. Trotz der geschickten Materialwahl,
+                                        der einfachen Gebäudeform und dem Verzicht auf ein Kellergeschoss ist
+                                        dieses Projekt im Vergleich eher im oberen Kostensegment anzusiedeln,
+                                        da es eine grosse Kubatur und aufwändige zusätzlichen Aussenraumein-
+                                        schnitte aufweist.
+
+                                        Das facettenreiche Projekt überzeugt in der ortsbaulichen Setzung, sei-
+                                        nem äusseren architektonischen Ausdruck und kommt mit wenig Gebäu-
+                                        detechnik aus. Lässt aber diese Klarheit im Aussenraum und in der inne-
+                                        ren Organisation vermissen.
+
+
+
+
+34 | 60
+===== SEITE 35 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+Abb. 34 Situation
+
+
+
+
+Abb. 35 Erdgeschoss
+
+
+
+
+35 | 60
+===== SEITE 36 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+Abb. 36 Obergeschoss
+
+
+
+
+Abb. 37 Längsschnitt
+
+
+
+
+Abb. 38 Nordostfassade
+
+
+
+
+Abb. 39 Nordwestfassade
+
+
+
+
+Abb. 40 Südostfassade
+
+
+
+
+Abb. 41 Südwestfassade
+
+
+36 | 60
+===== SEITE 37 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+Abb. 42 Querschnitt
+
+
+
+
+Abb. 43 Fassadenschnitt
+
+
+
+
+37 | 60
+===== SEITE 38 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+Abb. 44 Visualisierung
+
+
+
+
+38 | 60
+===== SEITE 39 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+5. Rang | 5. Preis
+Nr. 18         ALEA
+
+Architektur:    xander architektur zt gmbh,
+                Feldkirch
+Projektleitung: Andreas Xander
+
+Weitere
+Beteiligte:    Alge Landschaftsarchitek-
+               ten, Widnau
+
+
+
+
+                                              Projektbeschrieb
+                                              Die Projektverfassenden setzen einen Kubus zur bestehenden Schulan-
+                                              lage. Die Setzung basiert auf einer sorgfältigen Analyse der räumlichen
+                                              Bezugsysteme, der benachbarten Bauten und deren Typologie. Auf einer
+                                              zweiten Ebene der Differenzierung wird der Lektüre des Ortes mit den
+                                              spezifischen topografischen Begebenheiten Rechnung getragen.
+                                                  Der Niveauunterschied von Süd nach Nord wird auf der Südseite zu
+                                              einer präzisen Schnittkante zwischen befestigtem Schulhausvorplatz und
+                                              dem beschützten Grünraum für den Kindergarten herausgearbeitet. Der
+                                              gedeckte Velounterstand wird zu einer Velogarage, mit welcher die Ge-
+                                              ländekante architektonisch formuliert wird. Mit der präzisen Setzung des
+                                              Gebäudekörpers und dem Bauen des Geschossversatzes kann der wert-
+                                              volle Baumbestand fast vollständig erhalten werden.
+
+                                              Die Schule wird auf dem Niveau der bestehenden Schulanlage Schöntal
+                                              erschlossen. Das Erdgeschoss wird so zu einem Sockelgeschoss. Der kom-
+                                              pakte Baukörper wird an der Südostecke aufgeschnitten, womit ein eng
+                                              bemessener, gedeckter Eingang für die Schülerinnen und Schüler ent-
+                                              steht. Im Erdgeschoss befindet sich südlich die Tagesbetreuung samt ei-
+                                              ner Küche, welche ohne Tageslicht an eher unattraktiver Lage unterge-
+                                              bracht ist. Der Garderobenbereich ist räumlich nicht abtrennbar, weil er
+                                              gleichzeitig als Zugang zu allen Nutzungen im Erdgeschoss dient. Die
+
+
+39 | 60
+===== SEITE 40 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+                                        Belichtung dieser Garderobe soll über ein hochliegendes Fenster im dar-
+                                        überlegenden Geschoss erfolgen. Der Flur, welcher zum Treppenhaus
+                                        führt, liegt im Dunkeln, was den Aufgang zu den Schulräumen im 2. Ober-
+                                        geschoss eher unattraktiv macht.
+
+                                        Der Kindergarten liegt im 1. Obergeschoss. Ein eigener Zugang in der Süd-
+                                        westecke, auch dieser mit einem kleinen gedeckten Einzug bedacht, er-
+                                        schliesst die beiden Kindergärten. Die Haupträume werden über einen
+                                        Windfang mit anschliessendem Foyer und der Garderobe erschlossen. Die
+                                        Kindergartenräume sind offen zum Park hin ausgerichtet und lassen mit
+                                        diesem eine schöne Stimmung erwarten. Unglücklich ist der Zusammen-
+                                        schluss von Sanitäranlagen und der Küche in der mittleren Raumschicht.
+
+                                        Die Schuleinheiten samt Lernlandschaft sind im 2. und 3. Obergeschoss
+                                        untergebracht. Nachdem die Schülerinnen und Schüler über zwei Stock-
+                                        werke aufgestiegen sind, werden sie in einem zweigeschossigen Foyer
+                                        mit Galerie und Sitzstufen empfangen, welches das spezifische Herzstück
+                                        dieser Schule darstellt. Dieser spektakuläre Raum ist eine grosse Aufwer-
+                                        tung und ein Ort für vielfältige Möglichkeiten. Die Klassenzimmer sind in
+                                        einer eigenen und räumlich abtrennbaren Einheit in den Gebäudeecken
+                                        untergebracht. Sie sind gut proportioniert und grosszügig belichtet. Wenig
+                                        Synergien bringt die Verortung des Lehrerzimmers im 2. Obergeschoss
+                                        und der Räume der Schulleitung im Erdgeschoss beim Kindergarten.
+
+
+                                        Konstruktiv sinnvoll ist das Erdgeschoss in Beton angedacht, da es sich
+                                        grossmehrheitlich unter Terrain befindet. Die drei darüberliegenden Ober-
+                                        geschosse werden als Holzkonstruktion dargestellt, welche jedoch einem
+                                        hohen Grad an Abstraktion folgen. Die architektonische oder tektonische
+                                        Qualität, welche mit einer Holzkonstruktion erzielt werden könnte, wird
+                                        leider nicht aufgezeigt. Auch die Ausarbeitung der Fassaden bleibt auf ei-
+                                        nem wenig aussagekräftigen Niveau stehen. Den Anforderungen der feu-
+                                        erpolizeilichen Vorschriften wird keine Rechnung getragen. Es finden sich
+                                        weiter keine Aussagen zu konstruktiven Wärme- und Witterungsschutz-
+                                        massnahmen. Man wird daher den Verdacht nicht ganz los, dass die Ver-
+                                        fassenden dieses Projektes eigentlich eine Konstruktion in Sichtbeton vor-
+                                        gezogen hätten.
+
+                                        Der elegante Baukörper mit spannenden innenräumlichen Qualitäten er-
+                                        füllt durch seinen abstrakten Umgang mit Konstruktion und Struktur die
+                                        pädagogischen Vorstellungen der Schule jedoch nicht. Die Übersetzungs-
+                                        arbeit des Projektes in eine Vorstellung einer lebendigen und kunterbun-
+                                        ten Schule, in welcher sich die Kinder dynamisch und motiviert aufhalten,
+                                        die Räume beleben und sich auch aktiv einbringen wollen, fällt schwer.
+
+
+40 | 60
+===== SEITE 41 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+Abb. 45 Situation
+
+
+
+
+Abb. 46 Erdgeschoss
+
+
+
+
+41 | 60
+===== SEITE 42 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+Abb. 47 1. Obergeschoss
+
+
+
+
+Abb. 48 2. und 3. Obergeschoss
+
+
+
+
+Abb. 49 Schnitt A
+
+
+
+
+42 | 60
+===== SEITE 43 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+ Abb. 50 Nordansicht
+
+
+
+
+Abb. 51 Ostansicht
+
+
+
+
+Abb. 52 Südansicht
+
+
+
+
+Abb. 53 Westansicht
+
+
+
+
+43 | 60
+===== SEITE 44 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+Abb. 54 Fassadenschnitt und Ansicht
+
+
+
+
+44 | 60
+===== SEITE 45 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+A2             Nicht rangierte Projekte
+
+
+ 3. Rundgang
+ Nr. 09          Jim Knopf
+
+ Architektur:    Mojdeh Aalaii, Zürich
+ Projektleitung: Dr. Arch. Mojdeh Aalaii
+ Mitarbeit:      Meghedi Orbelians
+
+ Weitere
+ Beteiligte:     Hoffmann & Müller Land-
+                 schaftsarchitekten BSLA,
+                 Zürich
+
+
+
+
+                                            Projektbeschrieb
+                                            Das kompakte, vier- bzw. dreigeschossige und annähernd quadratische
+                                            Bauvolumen ist gut gesetzt. Es nimmt einerseits Bezug auf den Kopfbau
+                                            des bestehenden Schulhauses und generiert andererseits zwei gut pro-
+                                            portionierte Aussenräume. Entsprechend den inneren Funktionen sind
+                                            diese einem Pausenplatz der Schule im Übergang zum bestehenden
+                                            Schulhaus und dem etwas höher gelegenen Spielbereich des Kindergar-
+                                            tens zugeordnet. Die Erschliessung der beiden Schulbereiche erfolgt denn
+                                            auch gut angeordnet und getrennt über diese beiden Aussenbereiche.
+
+                                            Die innere Organisation ist geprägt durch die halbgeschossige Versetzung
+                                            der Grundrisse. Zwischen den beiden Ebenen liegt der Erschliessungskern.
+                                            Damit sind sie funktional verbunden. Die Unterteilung der Geschossflä-
+                                            chen ist asymmetrisch und sieht gegen Osten einen schmalen und im
+                                            Westen einen übertiefen Bereich vor. Mit diesem Entscheid wird die Prob-
+                                            lematik des Entwurfes eingeleitet. Zum einen entstehen gegen Osten we-
+                                            der für die Tagesstruktur noch für die Lernlandschaft gute Raumproporti-
+                                            onen und im Westen verhindert die übergrosse Raumtiefe zumindest im
+                                            mittleren Unterrichtsraum eine gute Belichtung. Da im 2. Obergeschoss
+                                            die Klassen auf Grund der zur Verfügung stehenden Fläche traditionell an
+                                            einem Korridor aufgereiht werden müssen, sind sie von der Lernland-
+                                            schaft mehr oder weniger getrennt. Zwar wird über Treppen und Stufen
+                                            eine Verbindung gesucht, aber insgesamt ist die Idee eines interaktiven
+
+45 | 60
+===== SEITE 46 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+                                        Lehr- und Lernbetriebes praktisch verunmöglicht. Auch die Flexibilität für
+                                        zukünftige Veränderungen hält sich auf Grund der kompakten, jedoch
+                                        nicht optimal proportionierten Flächen in Grenzen.
+
+                                        Problematisch ist auch die innere Erschliessung. Alle Schülerinnen und
+                                        Schüler müssten sich, um den Lernbetrieb in den Lernlandschaften nicht
+                                        zu beeinträchtigen, über das viergeschossige, zentrale Treppenhaus be-
+                                        wegen. Das ist jedoch als Fluchttreppe ausgestaltet und für eine zentrale
+                                        Erschliessung zu knapp bemessen. Damit sind die betrieblichen Konflikte
+                                        vorgezeichnet.
+
+                                        Ein kompaktes Volumen verspricht in der Regel sowohl in der Erstellung
+                                        wie im Betrieb eine wirtschaftliche Lösung. Nachhaltig ist sie dann, wenn
+                                        überschaubare betriebliche und strukturelle Nachteile in Kauf genommen
+                                        werden müssen. Im vorliegenden Fall sind die Mängel jedoch erheblich.
+                                        Weder ist eine gute Belichtung aller Räume gewährleistet, noch ist eine
+                                        zukünftige flexible Nutzung möglich. Die Erschliessung ist nur über die
+                                        Lernlandschaften möglich, was deren Betrieb letztlich verunmöglicht.
+                                        Spätestens dann erweist sich der Entwurf in der vorliegenden Form weder
+                                        als ökonomisch noch als ökologisch nachhaltige Lösung.
+
+
+
+
+46 | 60
+===== SEITE 47 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+3. Rundgang
+Nr. 12          Grünelia
+
+Architektur:    Sara Gelibter Architecte, Biel
+Projektleitung: Sara Gelibter
+
+Weitere
+Beteiligte:     Kesküla Erard architecture
+                du paysage, Biel
+
+
+
+
+                                                 Projektbeschrieb
+                                                 Das Projekt sieht zwei zueinander im Grundriss und in der Höhe versetzte
+                                                 polygonale Baukörper vor. Durch die Form und Setzung des Volumens
+                                                 können fast alle Bäume erhalten werden und es ergeben sich grosszügige
+                                                 Grünräume.
+
+                                                 Der Zugang zur Tagesstruktur und den Schulzimmern erfolgt mittig zwi-
+                                                 schen dem Lyrikweg und dem Eingang des bestehenden Schulhauses.
+                                                 Dieser Zugang kann von beiden Seiten erreicht werden. Im nordwestli-
+                                                 chen Bereich des Volumens werden die Kindergärten von der Bildstrasse
+                                                 her erschlossen. Die Aussenräume sind durch die Erschliessungen und
+                                                 Höhenverhältnisse klar zoniert und den jeweiligen Nutzungen zugeord-
+                                                 net.
+                                                      Auf der unteren Ebene befinden sich der Eingang mit Foyer und die
+                                                 Tagesstruktur. Die Garderoben liegen unterirdisch. Über eine Treppe, im
+                                                 Zentrum der beiden Volumina, gelangt man zur Garderobe der Kindergär-
+                                                 ten und die daran angeschlossenen Kindergartenräume. Die Haupträume
+                                                 für die Kindergärten sind gut gesetzt, die Nebenräume sind jedoch nicht
+                                                 ideal angeordnet.
+                                                     Von der Garderobe der Kindergärten gelangt man erneut über eine
+                                                 weitere Treppe in eine Zone vor dem Multifunktionsraum und den Zim-
+                                                 mern der Lehrpersonen. Ein Halbgeschoss weiter oben befindet sich die
+
+
+47 | 60
+===== SEITE 48 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+                                        erste Lernlandschaft mit zwei Klassenzimmern und einer Lernloggia. Die
+                                        beiden weiteren Klassenzimmer mit der zweiten Lernlandschaft sind er-
+                                        neut ein Halbgeschoss weiter oben. Diese Split-Level ergeben spannende
+                                        Grundrisse, führen jedoch akustisch und brandschutztechnisch zu eher
+                                        schwierigen Verhältnissen.
+
+
+                                        Das neue Schulhaus wird als Holzelementbau mit einem massiven Beton-
+                                        kern und einer hinterlüfteten grünen Metallfassade vorgeschlagen. Die
+                                        Metallelemente über den Fenstern werden für Sonnen- und Regenschutz
+                                        geknickt. Ansonsten ist die Fassade sehr flach. Sie gleicht dadurch in ih-
+                                        rem Erscheinungsbild eher einem Industriebau als einer Primarschule. Die
+                                        Zugangsdächer sind sehr rudimentär gelöst. Zudem wurden aussen aus
+                                        brandschutztechnischen Gründen zwei gewendelten Metalltreppen ange-
+                                        fügt. Aus betrieblicher Sicht sind diese jedoch nicht ideal und bringen
+                                        eher Nach- als Vorteile.
+
+                                        Das Projekt überzeugt in der Setzung, seinen gut zonierten und wohl-
+                                        durchdachten Aussenräumen und ist so ein guter Beitrag in Bezug auf die
+                                        Aussenräume und Erschliessungen. Beim architektonischen Ausdruck und
+                                        der inneren Organisation vermag es jedoch nicht vollständig zu überzeu-
+                                        gen.
+
+
+
+
+48 | 60
+===== SEITE 49 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+3. Rundgang
+Nr. 14          Pavillon nouveau
+
+Architektur:    Uli Mayer, Urs Hüssy dipl.
+                Architekten eth/sia, Triesen
+Projektleitung: Urs Hüssy
+Mitarbeit:      Uli Mayer, Anna Lohs, Tina
+                Toldo, Heidi Alves, Gabriel
+                Frick
+
+
+
+
+                                               Projektbeschrieb
+                                               Dieses Projekt spinnt auf spannende Art und Weise die 70er-Jahre Archi-
+                                               tektur des bestehenden Schulhauses weiter. Das Gebäude entwickelt sich
+                                               mit dem Geländeverlauf um einen Erschliessungskern nach oben. Mit
+                                               dem Versetzen der Räume verzahnt sich das Gebäude mit dem Aussen-
+                                               raum. Die auskragenden Obergeschosse bilden jeweils einen Zugang für
+                                               die Hauptnutzungen, im Osten für die Schule und im Westen für die Kin-
+                                               dergärten. Der Eingang für die Tagesstrukturen liegt auf einer erhöhten
+                                               Plattform nördlich zum Bach und dem Lyrikweg, welcher durch einen ge-
+                                               schickten Gebäudeversatz windgeschützt wird.
+                                                   Wie das bestehende Schulhaus wird auch der Neubau in einen Ost-
+                                               und Westteil gegliedert, um ein halbes Geschoss versetzt und über das
+                                               zentrale Treppenhaus untereinander vernetzt. Jeweils zwei Klassenzim-
+                                               mer erhalten auf einem Niveau eine Lernlandschaft, welche wiederum
+                                               über eine Sitz- und Treppenlandschaft mit der erhöhten oberen Lernland-
+                                               schaft verbunden ist. Abgeschlossen wird das Bauwerk an dieser Schnitt-
+                                               stelle mit dem «Herzstück» einem Oblicht, welches aber eher als über-
+                                               höhter Raum zu bezeichnen ist, da es nur gegen Westen Öffnungen auf-
+                                               weist und über die gesamte Raumtiefe der Lernlandschaft gezogen wird.
+                                               Der Raum erhält dadurch wahrscheinlich zu wenig Tageslicht. Unabhän-
+                                               gig davon, ist es für Kinder wie auch für Erwachsene wichtig, sich im
+                                               Raum verorten zu können. Hier wäre analog zum bestehenden Schulhaus
+
+
+49 | 60
+===== SEITE 50 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+                                        durch einen Versatz der Klassenzimmer, ein Tageslichteintrag über die
+                                        Fassade möglich gewesen. Auch im Erdgeschoss wäre der Sichtbezug aus
+                                        dem Treppenhaus zum Aussenraum mit der Umplatzierung des Material-
+                                        raums denkbar. Durch die fehlenden Raumabschlüsse der Lernlandschaft
+                                        muss sie, um die einzelnen Räume zu erreichen (z.B. Multifunktionsraum),
+                                        komplett durchschritten werden. Ruhiges Lernen ist in dieser Lernland-
+                                        schaft nicht möglich. Die Niveaus 1 und 1.5 können nur über die zentral
+                                        gelegene innere Treppe entfluchtet werden. Diese Treppe ist in allen Ge-
+                                        schossen gegenüber den Nutzungen nicht abgetrennt und kann nicht als
+                                        vertikaler Fluchtweg dienen.
+
+                                        Der Kindergarten begeistert aussen- und innenräumlich mit viel Spiel-
+                                        und Gestaltungsfreiraum für die Kinder sowie kurzen Wegen. Dagegen
+                                        bleiben einige Räume sehr informell, wie die Schülergarderobe mit dem
+                                        Foyer oder die betrieblich schwierig angeordneten Räume für die Lehr-
+                                        personen.
+
+                                        In den Fassaden wird versucht die Analogie mit dem Bestand weiterzu-
+                                        führen. Durch die Verwendung des gleichen Standardfenstertyps gelingt
+                                        dies gut. Die eigenartigen runden Öffnungen im Sockelgeschoss und die
+                                        vertikale Holzschalung wirken dann aber völlig fremd. Hier wären hier
+                                        Platten und serielle, rasterartige Fensteröffnungen wesentlich adäquater.
+
+                                        Die Raumversätze und die daraus resultierende grossflächige Gebäudeab-
+                                        wicklung sind aus ökonomischer Sicht kritisch zu beurteilen.
+
+                                        Zusammenfassend ist dieses Projekt ein wertvoller Beitrag für die Weiter-
+                                        entwicklung einer Architektursprache. Die Setzung des Gebäudes ist orts-
+                                        baulich gut gelöst, der Aussenraum wird klar zoniert und entfaltet enorme
+                                        Aufenthaltsqualitäten. Die Fassade und die innere Organisation müssten
+                                        vollständig überarbeitet werden. Die Lernlandschaft an der zentralen Er-
+                                        schliessung und die akustischen Beeinträchtigungen sowie die brand-
+                                        schutztechnischen Anforderungen durch das offene Treppenhaus bilden
+                                        Herausforderungen, die nur mit einer tiefgreifenden Überarbeitung des
+                                        Projektes umsetzbar scheinen.
+
+
+
+
+50 | 60
+===== SEITE 51 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+2. Rundgang
+Nr. 01         Rotkäppchen
+
+Architektur:    Gregor Honold Dipl.-Ing.
+                TU/SIA, Wien
+Projektleitung: Gregor Honold
+
+
+
+
+2. Rundgang
+Nr. 03          Krokodil
+
+Architektur:    Ospelt Strehlau Architekten
+                AG, Schaan
+Projektleitung: Denise Ospelt Strehlau
+Mitarbeit:      Julia Beck
+
+
+
+
+51 | 60
+===== SEITE 52 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+2. Rundgang
+Nr. 04          Chamäleon
+
+Architektur:    Freier Architekt Christian
+                Kosack, Neustadt
+Projektleitung: Christian Kosack
+
+
+
+
+2. Rundgang
+Nr. 05          SANDELHOLZ
+
+Architektur:    VENTIRAARCHITEKTEN +
+                Peter Muxel Architektur,
+                Diepoldsau
+Weitere
+Beteiligte:     Pauli | Stricker GmbH Land-
+                schaftsarchitekten, St.Gallen
+
+
+
+
+52 | 60
+===== SEITE 53 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+2. Rundgang
+Nr. 15          Paeonia
+
+Architektur:    Christian Miller Architekt,
+                Schlier
+Projektleitung: Christian Miller
+
+
+
+
+2. Rundgang
+Nr. 17          TRICERATOPS
+
+Architektur:    h j b – häni joho birchler ar-
+                chitekten gmbh, Zürich
+Projektleitung: Elena Cecchettin
+Mitarbeit:      Sarah Birchler, Flurina
+                Leuchter, Dominik Joho,
+                Benjamin Häni
+
+Weitere
+Beteiligte:     Schnüriger Modellbau,
+                Dietikon
+
+
+
+
+53 | 60
+===== SEITE 54 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+2. Rundgang
+Nr. 20          Janus
+
+Architektur:    Schröder Architektur, Solo-
+                thurn
+Projektleitung: Martin Schröder
+
+
+
+
+1. Rundgang
+Nr. 06          Pat & Patachon
+
+Architektur:    Oestreich+Schmid Architek-
+                ten BSA/SIA, St.Gallen
+Projektleitung: Markus Schmid
+Mitarbeit:      Manuela Keller, Reto Lanker
+
+Weitere
+Beteiligte:     Andreas Kunz Landschafts-
+                architektur, Gossau
+
+
+
+
+54 | 60
+===== SEITE 55 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+1. Rundgang
+Nr. 07         bonne chance
+
+Architektur:    ARGE Nathalie Schümperlin,
+                Dominic Spalt, Corinne
+                Späni, Zürich
+Projektleitung: Dominic Spalt
+Mitarbeit:      Nathalie Schümperlin,
+                Corinne Späni
+
+
+
+
+1. Rundgang
+Nr. 08         LERNMODUL
+
+Architektur:    Lukas Zemp | Pascal Tobler,
+                St.Gallen
+Projektleitung: Pascal Tobler
+Mitarbeit:      Lukas Zemp
+
+
+
+
+55 | 60
+===== SEITE 56 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+1. Rundgang
+Nr. 10          Sonne, Mond und Sterne
+
+Architektur:    Studio Strata, Basel
+Projektleitung: Anna Lüssow
+
+
+
+
+1. Rundgang
+Nr. 11          Totoro
+
+Architektur:    Sonderegger Architekten
+                ETH / SIA, Zürich
+Projektleitung: Lukas Sonderegger
+Mitarbeit:      Marcio Fitze, Abidin Memeti,
+                Sabina Kickhofel, Janique
+                Lehner
+
+Weitere
+Beteiligte:     Fritschi Landschaftsarchi-
+                tekten GmbH, Mönchaltorf
+
+
+
+
+56 | 60
+===== SEITE 57 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+1. Rundgang
+Nr. 13          take off
+
+Architektur:    Krome GmbH, Zürich
+Projektleitung: Jean-Paul van der Merwe
+Mitarbeit:      Steve Kronenberg
+
+
+
+
+1. Rundgang
+Nr. 16          LUCIDO
+
+Architektur:    Wickli + Partner AG, Nesslau
+Projektleitung: Cyril Rutz
+Mitarbeit:      Anja Egli
+
+
+
+
+57 | 60
+===== SEITE 58 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+1. Rundgang
+Nr. 21          uranu
+
+Architektur:    Forcella Francesco, dipl.
+                Arch. FH, Ilanz
+Projektleitung: Francesco Forcella
+
+
+
+
+1. Rundgang
+Nr. 23          Playfull Altstätten
+
+Architektur:    Pape Architekten AG,
+                Herford (D)
+Projektleitung: Manuel Algar
+Mitarbeit:      Adriano Borges Dantas Ro-
+                drigues
+
+
+
+
+58 | 60
+===== SEITE 59 =====
+Projektwettbewerb
+Neubau Schulhaus Schöntal, Altstätten
+Schlussbericht
+
+
+
+
+1. Rundgang
+Nr. 24          Laurentia, liebe Laurentia
+                mein
+
+Architektur:    ARGE Brandenberger Kloter
+                Architekten AG, Basel und
+                ANDRÉ CAMPOS . JOANA
+                MENDES – ARQUITECTOS,
+                Porto
+Projektleitung: Adrian Kloter
+Mitarbeit:      André Campos, Adrian Klo-
+                ter, Samuel Borer, Veronika
+                Mutalova
+
+Weitere
+Beteiligte:     BURI BAUPHYSIK & AKUSTIK
+                AG, Volketswil
+
+
+
+
+1. Rundgang
+Nr. 26          Freiraum
+
+Architektur:    Notaton AG, Altstätten
+Projektleitung: Aldo Duelli
+Mitarbeit:      Irene Duelli, Damian Cortés,
+                Nikolai Müller
+Weitere
+Beteiligte:     OePlan GmbH, Altstätten
+
+
+
+
+59 | 60
+===== SEITE 60 =====
+raum.manufaktur.ag
+

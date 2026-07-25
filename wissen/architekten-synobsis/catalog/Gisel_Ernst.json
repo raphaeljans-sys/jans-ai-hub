@@ -1,0 +1,65 @@
+{
+  "slug": "Gisel_Ernst",
+  "architekt": {
+    "name": "Gisel Ernst",
+    "nachname": "Gisel",
+    "vorname": "Ernst",
+    "jahre": [],
+    "ordner": "Gisel_Ernst"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Gisel_Ernst",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Grenchen_Parktheater",
+      "ort": "Grenchen",
+      "projekt": "Parktheater",
+      "jahre": [],
+      "titel": "Grenchen Parktheater"
+    },
+    {
+      "raw": "Rigi_Kaltbad_Ferienhaus",
+      "ort": "Rigi",
+      "projekt": "Kaltbad Ferienhaus",
+      "jahre": [],
+      "titel": "Rigi Kaltbad Ferienhaus"
+    },
+    {
+      "raw": "Vaduz_Gisel_Haus",
+      "ort": "Vaduz",
+      "projekt": "Gisel Haus",
+      "jahre": [],
+      "titel": "Vaduz Gisel Haus"
+    },
+    {
+      "raw": "Zuerich_Uni_Hoersaal_Zuerich",
+      "ort": "Zuerich",
+      "projekt": "Uni Hoersaal Zuerich",
+      "jahre": [],
+      "titel": "Zuerich Uni Hoersaal Zuerich"
+    }
+  ],
+  "projekt_anzahl": 5,
+  "inventar": {
+    "bilder": 43,
+    "dokumente": 2,
+    "cad": 0,
+    "andere": 1,
+    "total": 46
+  },
+  "dateitypen": {
+    ".jpg": 43,
+    ".pdf": 1,
+    ".db": 1,
+    ".doc": 1
+  },
+  "textauszug": "18.10.12 10:05Nationale Informationsstelle für Kulturgüter Erhaltung NIKE - Detailansicht Seite 1 von 1http://www.nike-kultur.ch/de/hereinspaziertch-denkmaltage/programm-2011/detailansicht.html?tx_frpveranstaltung_id=21984&no_cache=1 Nationale Informationsstelle für Kulturgüter Erhaltung NIKE - Detailansicht Nach dem Vorbild der einfachen Alphütten baute sich der Architekt Ernst Gisel 1959 auf Rigi-Kaltbad ein Ferienhaus aus Holz. Um sich voll der Sonne und Aussicht nach Süden und Westen zuzuwenden, halbiert Gisel das Giebeldach über dem quadratischen Grundriss diagonal und spiegelte es. Diese raffinierte Gebäudeform findet im Inneren ihre konsequente Entsprechung: um den zentralen, bis unter das Dach reichenden Raum gruppieren sich im Erdgeschoss Terrasse und Gemeinschaftsbereiche, darüber die indi- viduellen Schlafräume. Über dem massiven Sockel, innen in hellem Sichtbackstein wie auch der Boden und der mächtige Ofen, erhebt sich der konventionelle Holzbau. Die perfekte Übereinstimmung von Form, Funktionalität, Stimmung und Materialisierung zeichnet dieses Haus aus. Die reformierte Bergkirche auf Kaltbad, ein Holzbau auf massivem Sockel wurde 1962/63 ebenfalls nach Plänen von Ernst Gisel errichtet. Individuelle Besichtigung, Georg Gisel, Sohn des Architekten Ernst Gisel, ist während der Besichtigungszeit anwesend, nicht rollstuhlgängig, bei starkem Regenfall wird der Anlass nicht durchgeführt, die Bergkirche kann auch besichtigt werden",
+  "embed_doc": "Gisel Ernst | 00 Architekten | Grenchen Parktheater | Rigi Kaltbad Ferienhaus | Vaduz Gisel Haus | Zuerich Uni Hoersaal Zuerich | 18.10.12 10:05Nationale Informationsstelle für Kulturgüter Erhaltung NIKE - Detailansicht Seite 1 von 1http://www.nike-kultur.ch/de/hereinspaziertch-denkmaltage/programm-2011/detailansicht.html?tx_frpveranstaltung_id=21984&no_cache=1 Nationale Informationsstelle für Kulturgüter Erhaltung NIKE - Detailansicht Nach dem Vorbild der einfachen Alphütten baute sich der Architekt Ernst Gisel 1959 auf Rigi-Kaltbad ein Ferienhaus aus Holz. Um sich voll der Sonne und Aussicht nach Süden und Westen zuzuwenden, halbiert Gisel das Giebeldach über dem quadratischen Grundriss diagonal und spiegelte es. Diese raffinierte Gebäudeform findet im Inneren ihre konsequente Entsprechung: um den zentralen, bis unter das Dach reichenden Raum gruppieren sich im Erdgeschoss Terrasse und Gemeinschaftsbereiche, darüber die indi- viduellen Schlafräume. Über dem massiven Sockel, innen in hellem Sichtbackstein wie auch der Boden und der mächtige Ofen, erhebt sich der konventionelle Holzbau. Die perfekte Übereinstimmung von Form, Funktionalität, Stimmung und Materialisierung zeichnet dieses Haus aus. Die reformierte Bergkirche auf Kaltbad, ein Holzbau auf massivem Sockel wurde 1962/63 ebenfalls nach Plänen von Ernst Gisel errichtet. Individuelle Besichtigung, Georg Gisel, Sohn des Architekten Ernst Gisel, ist während der Besichtigungszeit anwesend, nicht rollstuhlgängig, bei starkem Regenfall wird der Anlass nicht durchgeführt, die Bergkirche kann auch besichtigt werden",
+  "stand": "2026-07-02T21:16:12"
+}

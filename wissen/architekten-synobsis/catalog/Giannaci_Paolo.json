@@ -1,0 +1,36 @@
+{
+  "slug": "Giannaci_Paolo",
+  "architekt": {
+    "name": "Giannaci Paolo",
+    "nachname": "Giannaci",
+    "vorname": "Paolo",
+    "jahre": [],
+    "ordner": "Giannaci_Paolo"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Giannaci_Paolo",
+  "projekte": [
+    {
+      "raw": "Paolo_Diplom",
+      "ort": "Paolo",
+      "projekt": "Diplom",
+      "jahre": [],
+      "titel": "Paolo Diplom"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 3,
+    "total": 5
+  },
+  "dateitypen": {
+    ".pln": 2,
+    ".jpg": 2,
+    ".lck": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Giannaci Paolo | Paolo Diplom",
+  "stand": "2026-07-02T21:16:06"
+}

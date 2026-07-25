@@ -1,0 +1,36 @@
+{
+  "slug": "Steven_Holl",
+  "architekt": {
+    "name": "Steven Holl",
+    "nachname": "Steven",
+    "vorname": "Holl",
+    "jahre": [],
+    "ordner": "Steven_Holl"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Steven_Holl",
+  "projekte": [
+    {
+      "raw": "Fukuoka_Wohnprojekt",
+      "ort": "Fukuoka",
+      "projekt": "Wohnprojekt",
+      "jahre": [],
+      "titel": "Fukuoka Wohnprojekt"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 9,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 10
+  },
+  "dateitypen": {
+    ".jpg": 8,
+    ".pdf": 1,
+    ".tiff": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Steven Holl | Fukuoka Wohnprojekt",
+  "stand": "2026-07-02T22:49:22"
+}

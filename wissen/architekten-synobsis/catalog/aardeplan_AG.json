@@ -1,0 +1,32 @@
+{
+  "slug": "aardeplan_AG",
+  "architekt": {
+    "name": "aardeplan AG",
+    "nachname": "aardeplan",
+    "vorname": "AG",
+    "jahre": [],
+    "ordner": "aardeplan_AG"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/aardeplan_AG",
+  "projekte": [
+    {
+      "raw": "Neuer Ordner",
+      "ort": "Neuer Ordner",
+      "projekt": "Neuer Ordner",
+      "jahre": [],
+      "titel": "Neuer Ordner"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 0
+  },
+  "dateitypen": {},
+  "textauszug": "",
+  "embed_doc": "aardeplan AG | Neuer Ordner Neuer Ordner",
+  "stand": "2026-07-02T22:52:17"
+}

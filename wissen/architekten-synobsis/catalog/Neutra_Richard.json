@@ -1,0 +1,53 @@
+{
+  "slug": "Neutra_Richard",
+  "architekt": {
+    "name": "Neutra Richard",
+    "nachname": "Neutra",
+    "vorname": "Richard",
+    "jahre": [],
+    "ordner": "Neutra_Richard"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Neutra_Richard",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Kaufmann_Haus_1946",
+      "ort": "Kaufmann",
+      "projekt": "Haus",
+      "jahre": [
+        "1946"
+      ],
+      "titel": "Kaufmann Haus 1946"
+    },
+    {
+      "raw": "lovel_healt_house",
+      "ort": "lovel",
+      "projekt": "healt house",
+      "jahre": [],
+      "titel": "lovel healt house"
+    }
+  ],
+  "projekt_anzahl": 3,
+  "inventar": {
+    "bilder": 21,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 22
+  },
+  "dateitypen": {
+    ".jpg": 18,
+    ".gif": 2,
+    ".docx": 1,
+    ".png": 1
+  },
+  "textauszug": "Die wichtigsten Bauten von Richard Josef Neutra Haus Pescher Wuppertal; 1968-1969 Haus Delcourt Croix; 1968-1969 Casa Bucerius Navegna ; 1966 Haus Kemper Wuppertal; 1965 Sport- und Kongreßhalle Reno; 1965 Grundschule in Lemoore Lemoore ; 1964 Lincoln Memorial Museum Gettysburg ; 1963 Psychatrische Kinderklinik Los Angeles; 1963 Drive-in-Kirche Garden Grove; 1962 Casa Tuia Ascona; 1961 Haus Singleton Los Angeles; 1959-1960 Rivera Methodistenkirche Redondo Beach; 1958 Miramar-Kapelle La Jolla ; 1957 Eagle Rock Klubhaus Los Angeles; 1950-1954 Haus Atwell Los Angeles; 1950 Tremaine House House in Montecito Montecito ; 1950 Elkay Apartments Los Angeles; 1948 Holiday Apartments Malibu; 1948 Desert House Colorado; 1946 Haus Kaufmann Palm Springs; 1946-1947 Haus Nesbitt Los Angeles; 1942 Villa von John Nicholas Brown Fisher's Island; 1938 Haus für Edward Kaufman Westwood; 1937 Villa von Leon Barsha North Hollywood; 1937 Haus Mensendieck Palm Springs; 1937 Wohnanlage in Westwood Westwood ; 1937 Wohnanlage in Westwood Westwood ; 1936 Villa von Josef von Sternberg San Fernando Valley; 1935 Schule in der Corona Avenue Los Angeles; 1935 V.D.L.-Research House Wohnhaus des Architekten Los Angeles; 1932-1933 Wohnhaus auf der Werkbundausstellung Wien-Bezirk 13; 1930-1932 Lovell Health House - Haus für Philip Lovell Los Angeles; 1927-1929 Jardinette Apartments Los Angeles; 1927 Verlagshaus Rudolf- Mosse (Berliner Tageblatt) - Mosse -Haus Berlin-Kreuzberg; 1921-1923",
+  "embed_doc": "Neutra Richard | 00 Architekten | Kaufmann Haus 1946 | lovel healt house | Die wichtigsten Bauten von Richard Josef Neutra Haus Pescher Wuppertal; 1968-1969 Haus Delcourt Croix; 1968-1969 Casa Bucerius Navegna ; 1966 Haus Kemper Wuppertal; 1965 Sport- und Kongreßhalle Reno; 1965 Grundschule in Lemoore Lemoore ; 1964 Lincoln Memorial Museum Gettysburg ; 1963 Psychatrische Kinderklinik Los Angeles; 1963 Drive-in-Kirche Garden Grove; 1962 Casa Tuia Ascona; 1961 Haus Singleton Los Angeles; 1959-1960 Rivera Methodistenkirche Redondo Beach; 1958 Miramar-Kapelle La Jolla ; 1957 Eagle Rock Klubhaus Los Angeles; 1950-1954 Haus Atwell Los Angeles; 1950 Tremaine House House in Montecito Montecito ; 1950 Elkay Apartments Los Angeles; 1948 Holiday Apartments Malibu; 1948 Desert House Colorado; 1946 Haus Kaufmann Palm Springs; 1946-1947 Haus Nesbitt Los Angeles; 1942 Villa von John Nicholas Brown Fisher's Island; 1938 Haus für Edward Kaufman Westwood; 1937 Villa von Leon Barsha North Hollywood; 1937 Haus Mensendieck Palm Springs; 1937 Wohnanlage in Westwood Westwood ; 1937 Wohnanlage in Westwood Westwood ; 1936 Villa von Josef von Sternberg San Fernando Valley; 1935 Schule in der Corona Avenue Los Angeles; 1935 V.D.L.-Research House Wohnhaus des Architekten Los Angeles; 1932-1933 Wohnhaus auf der Werkbundausstellung Wien-Bezirk 13; 1930-1932 Lovell Health House - Haus für Philip Lovell Los Angeles; 1927-1929 Jardinette Apartments Los Angeles; 1927 Verlagshaus Rudolf- Mosse (Berliner Tageblatt) - Mosse -Haus Berlin-Kreuzberg; 1921-1923",
+  "stand": "2026-07-02T22:43:06"
+}

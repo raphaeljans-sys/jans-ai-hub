@@ -1,0 +1,26 @@
+{
+  "slug": "Go_Hasegawa",
+  "architekt": {
+    "name": "Go Hasegawa",
+    "nachname": "Go",
+    "vorname": "Hasegawa",
+    "jahre": [],
+    "ordner": "Go_Hasegawa"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Go_Hasegawa",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 6,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 6
+  },
+  "dateitypen": {
+    ".jpg": 6
+  },
+  "textauszug": "",
+  "embed_doc": "Go Hasegawa",
+  "stand": "2026-07-02T21:16:30"
+}

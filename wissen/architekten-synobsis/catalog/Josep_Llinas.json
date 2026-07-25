@@ -1,0 +1,34 @@
+{
+  "slug": "Josep_Llinas",
+  "architekt": {
+    "name": "Josep Llinas",
+    "nachname": "Josep",
+    "vorname": "Llinas",
+    "jahre": [],
+    "ordner": "Josep_Llinas"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Josep_Llinas",
+  "projekte": [
+    {
+      "raw": "Wohnhaeuser_Barcelona",
+      "ort": "Wohnhaeuser",
+      "projekt": "Barcelona",
+      "jahre": [],
+      "titel": "Wohnhaeuser Barcelona"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 13,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 13
+  },
+  "dateitypen": {
+    ".tif": 13
+  },
+  "textauszug": "",
+  "embed_doc": "Josep Llinas | Wohnhaeuser Barcelona",
+  "stand": "2026-07-02T21:22:03"
+}

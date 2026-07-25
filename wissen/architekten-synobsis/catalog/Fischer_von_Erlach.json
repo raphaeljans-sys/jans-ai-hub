@@ -1,0 +1,26 @@
+{
+  "slug": "Fischer_von_Erlach",
+  "architekt": {
+    "name": "Fischer von Erlach",
+    "nachname": "Fischer",
+    "vorname": "von Erlach",
+    "jahre": [],
+    "ordner": "Fischer_von_Erlach"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Fischer_von_Erlach",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".jpg": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Fischer von Erlach",
+  "stand": "2026-07-02T21:14:40"
+}

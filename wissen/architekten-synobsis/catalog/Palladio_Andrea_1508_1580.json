@@ -1,0 +1,198 @@
+{
+  "slug": "Palladio_Andrea_1508_1580",
+  "architekt": {
+    "name": "Palladio Andrea 1508 1580",
+    "nachname": "Palladio",
+    "vorname": "Andrea",
+    "jahre": [
+      "1508",
+      "1580"
+    ],
+    "ordner": "Palladio_Andrea_1508_1580"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Palladio_Andrea_1508_1580",
+  "projekte": [
+    {
+      "raw": "00_Allgemeine_Info",
+      "ort": "00",
+      "projekt": "Allgemeine Info",
+      "jahre": [],
+      "titel": "00 Allgemeine Info"
+    },
+    {
+      "raw": "Bologna_San_Petronius_Fassadententwurf",
+      "ort": "Bologna",
+      "projekt": "San Petronius Fassadententwurf",
+      "jahre": [],
+      "titel": "Bologna San Petronius Fassadententwurf"
+    },
+    {
+      "raw": "Capriccio_Giovanni_Antonio_Canaletto_1753_59",
+      "ort": "Capriccio",
+      "projekt": "Giovanni Antonio Canaletto 59",
+      "jahre": [
+        "1753"
+      ],
+      "titel": "Capriccio Giovanni Antonio Canaletto 1753 59"
+    },
+    {
+      "raw": "Fanzolo_Vedelago_Villa_Emo_1558",
+      "ort": "Fanzolo",
+      "projekt": "Vedelago Villa Emo",
+      "jahre": [
+        "1558"
+      ],
+      "titel": "Fanzolo Vedelago Villa Emo 1558"
+    },
+    {
+      "raw": "Fratta_Polesine_Villa_Badoer",
+      "ort": "Fratta",
+      "projekt": "Polesine Villa Badoer",
+      "jahre": [],
+      "titel": "Fratta Polesine Villa Badoer"
+    },
+    {
+      "raw": "Lonedo_Villa_Godi",
+      "ort": "Lonedo",
+      "projekt": "Villa Godi",
+      "jahre": [],
+      "titel": "Lonedo Villa Godi"
+    },
+    {
+      "raw": "Maser_Villa_Barbaro",
+      "ort": "Maser",
+      "projekt": "Villa Barbaro",
+      "jahre": [],
+      "titel": "Maser Villa Barbaro"
+    },
+    {
+      "raw": "Piombino_Dese_Villa_Cornaro",
+      "ort": "Piombino",
+      "projekt": "Dese Villa Cornaro",
+      "jahre": [],
+      "titel": "Piombino Dese Villa Cornaro"
+    },
+    {
+      "raw": "Venedig_Bruecke_Rialto",
+      "ort": "Venedig",
+      "projekt": "Bruecke Rialto",
+      "jahre": [],
+      "titel": "Venedig Bruecke Rialto"
+    },
+    {
+      "raw": "Venedig_Il_Redentore_1577",
+      "ort": "Venedig",
+      "projekt": "Il Redentore",
+      "jahre": [
+        "1577"
+      ],
+      "titel": "Venedig Il Redentore 1577"
+    },
+    {
+      "raw": "Venedig_San_Giorgio_Maggiore_1580",
+      "ort": "Venedig",
+      "projekt": "San Giorgio Maggiore",
+      "jahre": [
+        "1580"
+      ],
+      "titel": "Venedig San Giorgio Maggiore 1580"
+    },
+    {
+      "raw": "Vicenza_Loggia_del_Capitaniato",
+      "ort": "Vicenza",
+      "projekt": "Loggia del Capitaniato",
+      "jahre": [],
+      "titel": "Vicenza Loggia del Capitaniato"
+    },
+    {
+      "raw": "Vicenza_Palazzo_Della_Ragione_Basilica_1546",
+      "ort": "Vicenza",
+      "projekt": "Palazzo Della Ragione Basilica",
+      "jahre": [
+        "1546"
+      ],
+      "titel": "Vicenza Palazzo Della Ragione Basilica 1546"
+    },
+    {
+      "raw": "Vicenza_Palazzo_Porto",
+      "ort": "Vicenza",
+      "projekt": "Palazzo Porto",
+      "jahre": [],
+      "titel": "Vicenza Palazzo Porto"
+    },
+    {
+      "raw": "Vicenza_VIlla_Valmarana",
+      "ort": "Vicenza",
+      "projekt": "VIlla Valmarana",
+      "jahre": [],
+      "titel": "Vicenza VIlla Valmarana"
+    },
+    {
+      "raw": "Vicenza_Villa_Rotonda",
+      "ort": "Vicenza",
+      "projekt": "Villa Rotonda",
+      "jahre": [],
+      "titel": "Vicenza Villa Rotonda"
+    },
+    {
+      "raw": "Vicenza_Villa_Saraceno",
+      "ort": "Vicenza",
+      "projekt": "Villa Saraceno",
+      "jahre": [],
+      "titel": "Vicenza Villa Saraceno"
+    },
+    {
+      "raw": "Villa_Cornaro",
+      "ort": "Villa",
+      "projekt": "Cornaro",
+      "jahre": [],
+      "titel": "Villa Cornaro"
+    },
+    {
+      "raw": "Villa_Foscari",
+      "ort": "Villa",
+      "projekt": "Foscari",
+      "jahre": [],
+      "titel": "Villa Foscari"
+    },
+    {
+      "raw": "Villa_Pisani",
+      "ort": "Villa",
+      "projekt": "Pisani",
+      "jahre": [],
+      "titel": "Villa Pisani"
+    },
+    {
+      "raw": "Villa_Pojana",
+      "ort": "Villa",
+      "projekt": "Pojana",
+      "jahre": [],
+      "titel": "Villa Pojana"
+    }
+  ],
+  "projekt_anzahl": 21,
+  "inventar": {
+    "bilder": 242,
+    "dokumente": 40,
+    "cad": 0,
+    "andere": 29,
+    "total": 311
+  },
+  "dateitypen": {
+    ".jpg": 159,
+    ".png": 56,
+    ".pdf": 40,
+    ".tif": 25,
+    ".psd": 24,
+    ".jpeg": 1,
+    ".indd": 1,
+    ".gif": 1,
+    ".57": 1,
+    ".20 kopie": 1,
+    "": 1,
+    ".57 kopie": 1
+  },
+  "textauszug": "PALLADIO REASSESSED BY EISENMAN Peter Eisenman’s current exhibition at Yale School of Architecture leaves behind the mathematical analysis of Palladio’s villas espoused by Colin Rowe and replaces it with a volumetric analysis. In so doing, Eisenman overturns much of the traditional thinking around Palladio, and shows him to be an endlessly parametric experimenter and a paradigm for the present Under the slightly misleading title of Palladio virtuel, Peter Eisenman has constructed one of the most instructive, intellectually challenging, myth overturning, and it must be said, beautiful, exhibitions of recent years. It is instructive because it does not assume the viewer knows everything, and its didactic texts, drawings and models tell a story on many levels. It is intellectually challenging, because at the level of disciplinary architectural knowledge, it demands serious attention and a willingness to revise commonplaces. It is myth overturning because it sets out to critique many of the truisms attached to Palladio studies over the past half century. And its beauty stems from its impeccable presentation, superb model-making and drawing, and an inventive spatial installation. The models, indeed, in their apparent simplicity, their volumes coloured in white, grey and black, and set in illuminated frames within the pilasters of what seems to be a centralised Palladian villa, would be enough of an exhibition in themselves. The organisation seems simple enough: 20 Palladian villas from all moments of his career, modelled in three dimensions, are framed vertically in emulation of pages of Palladio’s own Quattro libri, joined, in an annexe, by as many analytical line drawings of the villas. Seemingly equally simple, because effortlessly represented, the central space of the exhibition is composed by the conjunction of two apparently disparate volumes: that of Palladio’s project for the Palazzo Dalla Torre (1555) and the church by Carlo Rainaldi, Santa Maria in Campitelli built a century later − a sign of imminent destabilisation that will characterise the exhibition as a whole. The effect of the framed models in their niches, the abstracted columnar space that encloses them, allowing controlled glimpses into and out of the Rudolph gallery beyond, with a glowing golden light infusing the whole, is breathtaking and in itself a major aesthetic experience: Palladio within Palladio within Rainaldi within Rudolph − at the very least an exercise in architectural demonstratio that bears witness to a profound and knowing architectonic sensibility. This, however, is where the simplicity ends and close reading has to begin. First, some historical context. It is well known that it was in meeting Colin Rowe at Cambridge in 1960 that Eisenman was confronted with an interlocutor whose intellectual reputation as a formidable critic of contemporary and modern architecture had been publicly established 13 years earlier by a now canonical article in The Architectural Review entitled ‘The Mathematics of the Ideal Villa. Palladio and Le Corbusier Compared’. We might, for the purposes of this review, assume that Eisenman’s introduction, not to Palladio, but to an intellectually interpreted Palladio, stemmed from this meeting and the ensuing friendship and Italian journeys. It is also well known that Rowe had derived the initial inspiration for this article from an earlier publication by his teacher Rudolf Wittkower in the Journal of the Warburg and Courtauld Institutes of 1946, that incorporated a diagrammatic chart of the typical plan forms of Palladian villas, reduced to rectangles and squares, modulated in a grid that operated according to an ABABA rhythm. Rowe, taking this grid for his armature, applied it to a witty comparison of the Palladian plan schema to that of Le Corbusier’s villas − Villa Malcontenta to Villa Stein at Garches, Villa La Rotonda to Villa Savoye at Poissy. We may also assume that Eisenman’s understanding of the spatial relations joining and differentiating the late Classical villa and the Modernist villa stem from this interpretation. There was much debate in Britain after the war as to the correct formulation of modern architecture, still in the shadow of the ‘masters’ − Le Corbusier, Mies van der Rohe, Aalto − and especially, given the pressure for post-war productivism and standardisation, to the correct mathematical ordering of the elements of architecture. This debate was divided between those who took the Gropius view of mass-production standards and those who espoused (mainly for aesthetic and cultural reasons) the new humanist mathematics propounded by Le Corbusier in the first volume of his Modulor, published in 1953. A further note was added by the translation of Matila Ghyka’s Nombre d’Or as The Geometry of Art and Life 1946, a diagram from which Rowe published the next year in his Palladio/Le Corbusier article. The debates were intense, and no more so than at Cambridge in the period 1950-60, when the literal mathematisation of architecture and its future adaption to computer design was being strongly advocated first by Christopher Alexander, then by Lionel March, and supported from 1956 in order for architecture to gain a reputation as a scientific discipline, by the new Professor, Sir Leslie Martin. Martin, as Sean Keller has recently noted, was a friend of Gabo and Nicholson, and therefore understood Russian Constructivism as a first step towards the science of the art, but it is clear that Rowe and then Eisenman were not in agreement. For Rowe ‘mathematics’ was more a device for the parti submitted to cultural/spatial interpretation, and not to be taken as a rule or fixed parameter − he was more interested in the relation between the formal structure of the plan and its implied visual and actual movement patterns − centroidal for Palladio, peripheral for Le Corbusier, thus Classical and Modern. For Rowe, the fundamental link between the Mannerist architect and the Modernist architect was both architects’ ‘late’ relationship to their epoch, and their ability to ‘reduce’ the language of their age into formulae that were easily transformed, project by project − ‘types’ one might say. They were also important for their ability to publish internationally, idealising and presenting their work to those who had not experienced it in person in an easily reproducible way. In Cambridge in the period 1960-62, this paradigm worked, at least for those tutored by Rowe. Eisenman’s characteristic ‘slice and dice’ formal method, for example, was derived from two other canonical articles by Rowe, ‘Mannerism and Modern Architecture’ (1950), and, with Robert Slutzky, ‘Transparency: Literal and Phenomenal’ (conceived 1956-58 but not published until ‘63). The former took the art-historical concept of Mannerism, newly imported into Britain by Wittkower and Pevsner, and applied its imputed formal distortions and inversions to Modernism, especially in the reading of the layers implied or stated in facades; the latter ranged from the Modernist notion of ‘transparency’ opposing the literal transparency of a Gropius at Dessau, to the implied, phenomenal, transparency of Le Corbusier’s project for the League of Nations building. Referring to the complex layering of the picture-plane in Cubist painting, the authors identified a series of striations passing through the volumes of Le Corbusier’s project, illustrated in axonometric. This model of Modernism’s Mannerism was disturbed, however, with Eisenman’s discovery of Giuseppe Terragni’s Casa del Fascio, Como. Here, and perhaps despite the presence of Rowe, he was confounded by a paradigm that did not seem to fit the Palladian/Corbusian model. A solid cubic block layered and cut as if made of compliant cheese − Mannerist in its depth of surface, but not at all Palladian in plan, and certainly Andrea Palladio Die Seminarreise im Frühling führt von Zürich aus über die Alpen ins Veneto. Entlang der Brenta liegen, in eine",
+  "embed_doc": "Palladio Andrea 1508 1580 | 00 Allgemeine Info | Bologna San Petronius Fassadententwurf | Capriccio Giovanni Antonio Canaletto 59 1753 | Fanzolo Vedelago Villa Emo 1558 | Fratta Polesine Villa Badoer | Lonedo Villa Godi | Maser Villa Barbaro | Piombino Dese Villa Cornaro | Venedig Bruecke Rialto | Venedig Il Redentore 1577 | Venedig San Giorgio Maggiore 1580 | Vicenza Loggia del Capitaniato | Vicenza Palazzo Della Ragione Basilica 1546 | Vicenza Palazzo Porto | Vicenza VIlla Valmarana | Vicenza Villa Rotonda | Vicenza Villa Saraceno | Villa Cornaro | Villa Foscari | Villa Pisani | Villa Pojana | PALLADIO REASSESSED BY EISENMAN Peter Eisenman’s current exhibition at Yale School of Architecture leaves behind the mathematical analysis of Palladio’s villas espoused by Colin Rowe and replaces it with a volumetric analysis. In so doing, Eisenman overturns much of the traditional thinking around Palladio, and shows him to be an endlessly parametric experimenter and a paradigm for the present Under the slightly misleading title of Palladio virtuel, Peter Eisenman has constructed one of the most instructive, intellectually challenging, myth overturning, and it must be said, beautiful, exhibitions of recent years. It is instructive because it does not assume the viewer knows everything, and its didactic texts, drawings and models tell a story on many levels. It is intellectually challenging, because at the level of disciplinary architectural knowledge, it demands serious attention and a willingness to revise commonplaces. It is myth overturning because it sets out to critique many of the truisms attached to Palladio studies over the past half century. And its beauty stems from its impeccable presentation, superb model-making and drawing, and an inventive spatial installation. The models, indeed, in their apparent simplicity, their volumes coloured in white, grey and black, and set in illuminated frames within the pilasters of what seems to be a centralised Palladian villa, would be enough of an exhibition in themselves. The organisation seems simple enough: 20 Palladian villas from all moments of his career, modelled in three dimensions, are framed vertically in emulation of pages of Palladio’s own Quattro libri, joined, in an annexe, by as many analytical line drawings of the villas. Seemingly equally simple, because effortlessly represented, the central space of the exhibition is composed by the conjunction of two apparently disparate volumes: that of Palladio’s project for the Palazzo Dalla Torre (1555) and the church by Carlo Rainaldi, Santa Maria in Campitelli built a century later − a sign of imminent destabilisation that will characterise the exhibition as a whole. The effect of the framed models in their niches, the abstracted columnar space that encloses them, allowing controlled glimpses into and out of the Rudolph gallery beyond, with a glowing golden light infusing the whole, is breathtaking and in itself a major aesthetic experience: Palladio within Palladio within Rainaldi within Rudolph − at the very least an exercise in architectural demonstratio that bears witness to a profound and knowing architectonic sensibility. This, however, is where the simplicity ends and close reading has to begin. First, some historical context. It is well known that it was in meeting Colin Rowe at Cambridge in 1960 that Eisenman was confronted with an interlocutor whose intellectual reputation as a formidable critic of contemporary and modern architecture had been publicly established 13 years earlier by a now canonical article in The Architectural Review entitled ‘The Mathematics of the Ideal Villa. Palladio and Le Corbusier Compared’. We might, for the purposes of this review, assume that Eisenman’s introduction, not to Palladio, but to an intellectually interpreted Palladio, stemmed from this meeting and the ensuing friendship and Italian journeys. It is also well known that Rowe had derived the initial inspiration for this article from an earlier publication by his teacher Rudolf Wittkower in the Journal of the Warburg and Courtauld Institutes of 1946, that incorporated a diagrammatic chart of the typical plan forms of Palladian villas, reduced to rectangles and squares, modulated in a grid that operated according to an ABABA rhythm. Rowe, taking this grid for his armature, applied it to a witty comparison of the Palladian plan schema to that of Le Corbusier’s villas − Villa Malcontenta to Villa Stein at Garches, Villa La Rotonda to Villa Savoye at Poissy. We may also assume that Eisenman’s understanding of the spatial relations joining and differentiating the late Classical villa and the Modernist villa stem from this interpretation. There was much debate in Britain after the war as to the correct formulation of modern architecture, still in the shadow of the ‘masters’ − Le Corbusier, Mies van der Rohe, Aalto − and especially, given the pressure for post-war productivism and standardisation, to the correct mathematical ordering of the elements of architecture. This debate was divided between those who took the Gropius view of mass-production standards and those who espoused (mainly for aesthetic and cultural reasons) the new humanist mathematics propounded by Le Corbusier in the first volume of his Modulor, published in 1953. A further note was added by the translation of Matila Ghyka’s Nombre d’Or as The Geometry of Art and Life 1946, a diagram from which Rowe published the next year in his Palladio/Le Corbusier article. The debates were intense, and no more so than at Cambridge in the period 1950-60, when the literal mathematisation of architecture and its future adaption to computer design was being strongly advocated first by Christopher Alexander, then by Lionel March, and supported from 1956 in order for architecture to gain a reputation as a scientific discipline, by the new Professor, Sir Leslie Martin. Martin, as Sean Keller has recently noted, was a friend of Gabo and Nicholson, and therefore understood Russian Constructivism as a first step towards the science of the art, but it is clear that Rowe and then Eisenman were not in agreement. For Rowe ‘mathematics’ was more a device for the parti submitted to cultural/spatial interpretation, and not to be taken as a rule or fixed parameter − he was more interested in the relation between the formal structure of the plan and its implied visual and actual movement patterns − centroidal for Palladio, peripheral for Le Corbusier, thus Classical and Modern. For Rowe, the fundamental link between the Mannerist architect and the Modernist architect was both architects’ ‘late’ relationship to their epoch, and their ability to ‘reduce’ the language of their age into formulae that were easily transformed, project by project − ‘types’ one might say. They were also important for their ability to publish internationally, idealising and presenting their work to those who had not experienced it in person in an easily reproducible way. In Cambridge in the period 1960-62, this paradigm worked, at least for those tutored by Rowe. Eisenman’s characteristic ‘slice and dice’ formal method, for example, was derived from two other canonical articles by Rowe, ‘Mannerism and Modern Architecture’ (1950), and, with Robert Slutzky, ‘Transparency: Literal and Phenomenal’ (conceived 1956-58 but not published until ‘63). The former took the art-historical concept of Mannerism, newly imported into Britain by Wittkower and Pevsner, and applied its imputed formal distortions and inversions to Modernism, especially in the reading of the layers implied or stated in facades; the latter ranged from the Modernist notion of ‘transparency’ opposing the literal transparency of a Gropius at Dessau, to the implied, phenomenal, transparency of Le Corbusier’s project for the League of Nations building. Referring to the complex layering of the picture-plane in Cubist painting, the authors identified a series of striations passing through the volumes of Le Corbusier’s project, illustrated in axonometric. This model of Modernism’s Mannerism was disturbed, however, with Eisenman’s discovery of Giuseppe Terragni’s Casa del Fascio, Como. Here, and perhaps despite the presence of Rowe, he was confounded by a paradigm that did not seem to fit the Palladian/Corbusian model. A solid cubic block layered and cut as if made of compliant cheese − Mannerist in its depth of surface, but not at all Palladian in plan, and certainly Andrea Palladio Die Seminarreise im Frühling führt von Zürich aus über die Alpen ins Veneto. Entlang der Brenta liegen, in eine",
+  "stand": "2026-07-02T22:44:04"
+}

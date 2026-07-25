@@ -1,0 +1,58 @@
+{
+  "slug": "Melnikov_Konstantin",
+  "architekt": {
+    "name": "Melnikov Konstantin",
+    "nachname": "Melnikov Konstantin",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Melnikov Konstantin"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Melnikov Konstantin",
+  "projekte": [
+    {
+      "raw": "Melnikov Konstantin",
+      "ort": "Melnikov Konstantin",
+      "projekt": "Melnikov Konstantin",
+      "jahre": [],
+      "titel": "Melnikov Konstantin"
+    },
+    {
+      "raw": "Moskau_Arbeiterclub",
+      "ort": "Moskau",
+      "projekt": "Arbeiterclub",
+      "jahre": [],
+      "titel": "Moskau Arbeiterclub"
+    },
+    {
+      "raw": "Moskau_Wohnhaus_1",
+      "ort": "Moskau",
+      "projekt": "Wohnhaus 1",
+      "jahre": [],
+      "titel": "Moskau Wohnhaus 1"
+    },
+    {
+      "raw": "hat die geschwugene_Fassade genacgt",
+      "ort": "hat die geschwugene",
+      "projekt": "Fassade genacgt",
+      "jahre": [],
+      "titel": "hat die geschwugene Fassade genacgt"
+    }
+  ],
+  "projekt_anzahl": 4,
+  "inventar": {
+    "bilder": 38,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 1,
+    "total": 40
+  },
+  "dateitypen": {
+    ".jpg": 37,
+    ".indd": 1,
+    ".jpeg": 1,
+    ".pdf": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Melnikov Konstantin | Melnikov Konstantin Melnikov Konstantin | Moskau Arbeiterclub | Moskau Wohnhaus 1 | hat die geschwugene Fassade genacgt",
+  "stand": "2026-07-02T22:41:43"
+}

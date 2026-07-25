@@ -1,0 +1,40 @@
+{
+  "slug": "Garnier_Charls_1825_1898",
+  "architekt": {
+    "name": "Garnier Charls 1825 1898",
+    "nachname": "Garnier",
+    "vorname": "Charls",
+    "jahre": [
+      "1825",
+      "1898"
+    ],
+    "ordner": "Garnier_Charls_1825_1898"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Garnier_Charls_1825_1898",
+  "projekte": [
+    {
+      "raw": "Paris_Oper_Garnier_1850",
+      "ort": "Paris",
+      "projekt": "Oper Garnier",
+      "jahre": [
+        "1850"
+      ],
+      "titel": "Paris Oper Garnier 1850"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 3,
+    "dokumente": 3,
+    "cad": 0,
+    "andere": 0,
+    "total": 6
+  },
+  "dateitypen": {
+    ".jpg": 3,
+    ".pdf": 3
+  },
+  "textauszug": "",
+  "embed_doc": "Garnier Charls 1825 1898 | Paris Oper Garnier 1850",
+  "stand": "2026-07-02T21:15:49"
+}

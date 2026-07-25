@@ -1,0 +1,294 @@
+{
+  "slug": "Wright_Frank_Lord_1867_1959",
+  "architekt": {
+    "name": "Wright Frank Lord 1867 1959",
+    "nachname": "Wright",
+    "vorname": "Frank Lord",
+    "jahre": [
+      "1867",
+      "1959"
+    ],
+    "ordner": "Wright_Frank_Lord_1867_1959"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Wright_Frank_Lord_1867_1959",
+  "projekte": [
+    {
+      "raw": "00_Allgemein",
+      "ort": "00",
+      "projekt": "Allgemein",
+      "jahre": [],
+      "titel": "00 Allgemein"
+    },
+    {
+      "raw": "00_Unklar",
+      "ort": "00",
+      "projekt": "Unklar",
+      "jahre": [],
+      "titel": "00 Unklar"
+    },
+    {
+      "raw": "Buffalo_Martin_House",
+      "ort": "Buffalo",
+      "projekt": "Martin House",
+      "jahre": [],
+      "titel": "Buffalo Martin House"
+    },
+    {
+      "raw": "Chicago_Charnley_House_1891_92_Sullivan_Louis_1856_1924_Wright",
+      "ort": "Chicago",
+      "projekt": "Charnley House 92 Sullivan Louis Wright",
+      "jahre": [
+        "1891",
+        "1856",
+        "1924"
+      ],
+      "titel": "Chicago Charnley House 1891 92 Sullivan Louis 1856 1924 Wright"
+    },
+    {
+      "raw": "Chicago_Home_Studio_House_1889_1898_Wright_Frank_Lord_1867_1959",
+      "ort": "Chicago",
+      "projekt": "Home Studio House Wright Frank Lord",
+      "jahre": [
+        "1889",
+        "1898",
+        "1867",
+        "1959"
+      ],
+      "titel": "Chicago Home Studio House 1889 1898 Wright Frank Lord 1867 1959"
+    },
+    {
+      "raw": "Chicago_Oak_Park",
+      "ort": "Chicago",
+      "projekt": "Oak Park",
+      "jahre": [],
+      "titel": "Chicago Oak Park"
+    },
+    {
+      "raw": "Chicago_Robie_House_1908_10_Wright_Frank_Lord_1867_1959",
+      "ort": "Chicago",
+      "projekt": "Robie House 10 Wright Frank Lord",
+      "jahre": [
+        "1908",
+        "1867",
+        "1959"
+      ],
+      "titel": "Chicago Robie House 1908 10 Wright Frank Lord 1867 1959"
+    },
+    {
+      "raw": "Chicago_Winslow_House",
+      "ort": "Chicago",
+      "projekt": "Winslow House",
+      "jahre": [],
+      "titel": "Chicago Winslow House"
+    },
+    {
+      "raw": "Cloverleaf",
+      "ort": "Cloverleaf",
+      "projekt": "Cloverleaf",
+      "jahre": [],
+      "titel": "Cloverleaf"
+    },
+    {
+      "raw": "Ennis_House",
+      "ort": "Ennis",
+      "projekt": "House",
+      "jahre": [],
+      "titel": "Ennis House"
+    },
+    {
+      "raw": "Fairfax_Country_Pope_Leight_House",
+      "ort": "Fairfax",
+      "projekt": "Country Pope Leight House",
+      "jahre": [],
+      "titel": "Fairfax Country Pope Leight House"
+    },
+    {
+      "raw": "Freeman_House",
+      "ort": "Freeman",
+      "projekt": "House",
+      "jahre": [],
+      "titel": "Freeman House"
+    },
+    {
+      "raw": "Haus_Brauner",
+      "ort": "Haus",
+      "projekt": "Brauner",
+      "jahre": [],
+      "titel": "Haus Brauner"
+    },
+    {
+      "raw": "Illinois_Springfield_Dana_House",
+      "ort": "Illinois",
+      "projekt": "Springfield Dana House",
+      "jahre": [],
+      "titel": "Illinois Springfield Dana House"
+    },
+    {
+      "raw": "Kent_Knop_Ferienhaus",
+      "ort": "Kent",
+      "projekt": "Knop Ferienhaus",
+      "jahre": [],
+      "titel": "Kent Knop Ferienhaus"
+    },
+    {
+      "raw": "Kirche_Glas_Churck",
+      "ort": "Kirche",
+      "projekt": "Glas Churck",
+      "jahre": [],
+      "titel": "Kirche Glas Churck"
+    },
+    {
+      "raw": "Lake Michigan_Hardy_House_on_shore_of_Lake_Michigan_in_Racine",
+      "ort": "Lake Michigan",
+      "projekt": "Hardy House on shore of Lake Michigan in Racine",
+      "jahre": [],
+      "titel": "Lake Michigan Hardy House on shore of Lake Michigan in Racine"
+    },
+    {
+      "raw": "Lakeland_Florida",
+      "ort": "Lakeland",
+      "projekt": "Florida",
+      "jahre": [],
+      "titel": "Lakeland Florida"
+    },
+    {
+      "raw": "Los_Angeles_Barnsdall_House_1916_21",
+      "ort": "Los",
+      "projekt": "Angeles Barnsdall House 21",
+      "jahre": [
+        "1916"
+      ],
+      "titel": "Los Angeles Barnsdall House 1916 21"
+    },
+    {
+      "raw": "Manchester_New_Hampshire_House_for_Dr_Toufic_Kalil_1955",
+      "ort": "Manchester",
+      "projekt": "New Hampshire House for Dr Toufic Kalil",
+      "jahre": [
+        "1955"
+      ],
+      "titel": "Manchester New Hampshire House for Dr Toufic Kalil 1955"
+    },
+    {
+      "raw": "Minneapolis_Willey_House_1934",
+      "ort": "Minneapolis",
+      "projekt": "Willey House",
+      "jahre": [
+        "1934"
+      ],
+      "titel": "Minneapolis Willey House 1934"
+    },
+    {
+      "raw": "New_York_Museum_Guggenheim",
+      "ort": "New",
+      "projekt": "York Museum Guggenheim",
+      "jahre": [],
+      "titel": "New York Museum Guggenheim"
+    },
+    {
+      "raw": "New_York_Reisley House",
+      "ort": "New",
+      "projekt": "York Reisley House",
+      "jahre": [],
+      "titel": "New York Reisley House"
+    },
+    {
+      "raw": "Pennsylvania_Fallingwather_1934_37",
+      "ort": "Pennsylvania",
+      "projekt": "Fallingwather 37",
+      "jahre": [
+        "1934"
+      ],
+      "titel": "Pennsylvania Fallingwather 1934 37"
+    },
+    {
+      "raw": "Racine_Wisconsin_Johnson_Wax_building_1936_39",
+      "ort": "Racine",
+      "projekt": "Wisconsin Johnson Wax building 39",
+      "jahre": [
+        "1936"
+      ],
+      "titel": "Racine Wisconsin Johnson Wax building 1936 39"
+    },
+    {
+      "raw": "Richard_Loyds_House",
+      "ort": "Richard",
+      "projekt": "Loyds House",
+      "jahre": [],
+      "titel": "Richard Loyds House"
+    },
+    {
+      "raw": "Riverside_Coonley_House_1906_08",
+      "ort": "Riverside",
+      "projekt": "Coonley House 08",
+      "jahre": [
+        "1906"
+      ],
+      "titel": "Riverside Coonley House 1906 08"
+    },
+    {
+      "raw": "San_Rafael_Marin_Civic_Center",
+      "ort": "San",
+      "projekt": "Rafael Marin Civic Center",
+      "jahre": [],
+      "titel": "San Rafael Marin Civic Center"
+    },
+    {
+      "raw": "System_Built_House",
+      "ort": "System",
+      "projekt": "Built House",
+      "jahre": [],
+      "titel": "System Built House"
+    },
+    {
+      "raw": "Taliesin",
+      "ort": "Taliesin",
+      "projekt": "Taliesin",
+      "jahre": [],
+      "titel": "Taliesin"
+    },
+    {
+      "raw": "Tokyo_Imperial_Hotel",
+      "ort": "Tokyo",
+      "projekt": "Imperial Hotel",
+      "jahre": [],
+      "titel": "Tokyo Imperial Hotel"
+    },
+    {
+      "raw": "VC_Moriss_Gift_Shop",
+      "ort": "VC",
+      "projekt": "Moriss Gift Shop",
+      "jahre": [],
+      "titel": "VC Moriss Gift Shop"
+    },
+    {
+      "raw": "Wauwatosa_Annunciation_Greek_Orthodox Church",
+      "ort": "Wauwatosa",
+      "projekt": "Annunciation Greek Orthodox Church",
+      "jahre": [],
+      "titel": "Wauwatosa Annunciation Greek Orthodox Church"
+    }
+  ],
+  "projekt_anzahl": 33,
+  "inventar": {
+    "bilder": 638,
+    "dokumente": 128,
+    "cad": 0,
+    "andere": 4,
+    "total": 770
+  },
+  "dateitypen": {
+    ".jpg": 493,
+    ".pdf": 125,
+    ".png": 68,
+    ".tiff": 46,
+    ".jpeg": 23,
+    ".gif": 6,
+    ".psd": 4,
+    ".docx": 3,
+    ".tif": 2
+  },
+  "textauszug": "26.02.12 13:1420 Minuten Online - Der erste Baumeister von Amerika - History Seite 1 von 2http://www.20min.ch/wissen/news/story/24170318 Ihre Story, Ihre Informationen, Ihr Hinweis? feedback@20minuten.ch von Reinhold Hügerich - Vor 50 Jahren starb Frank Lloyd Wright– der Architekt, der die erste unabhängige Baukunst des neuenKontinents hervorbrachte. Spektakuläre Bauten, viele Frauen und jede Menge Ärger: Wie nurwenige hat der amerikanische Architekt Frank Lloyd Wright mitseinem Schaffen die Architektur weltweit geprägt. Nach einemturbulenten Leben voller künstlerischer Höhepunkte und privaterKatastrophen starb er vor 50 Jahren, am 9. April 1959. Wrights pralles Achterbahnleben liefert dabei wahrlich genug Stoff für einen Roman.Der Schriftsteller T.C. Boyle, der seit Jahren selbst in einer Villa wohnt, die Wrighteinst für sich und seine Frau baute, hat sich dessen Biographie als Vorlage für seinneues Buch genommen. In «Die Frauen» beschreibt er den Architekten alsegomanischen Workaholic, der stets auf der Flucht vor eifersüchtigen Frauen undGläubigern durchs Land hetzt, notorisch pleite, aber heiss begehrt. Zwar mag einigesüberzeichnet sein, aber ein Mauerblümchen war Wright gewiss nicht. Wurzeln in Wisconsin Geboren wurde der eigenwillige Baumeister 1896 in der ländlichen Idylle vonRichland Center. Dort in Wisconsin beginnt er zunächst ein Architekturstudium.Dieses bricht er aber vorzeitig ab und macht sich auf in das amerikanische Mekkader Moderne, das boomende Chicago. Nach nur kurzer Zeit als Angestellter beginnter bald, selbstständig als Architekt zu arbeiten. Mit seinen Entwürfen für luxuriöse Villen entwickelt Wright den modernen Stil fürdas private Wohnhaus. Für uns heute selbstverständlich, war sein Ansatz damalsvöllig neu: Das Gebäude soll unmittelbar, ganz individuell auf die Bedürfnisse derBewohner abgestimmt werden. Seine «Organische Architektur» wächst dabei voninnen nach aussen. Wright gruppiert die einzelnen Baukörper um einen Kern, einstdie zentrale Feuerstelle in Präriehäusern. Er lockert die starre, traditionelleWohnstruktur und lässt die Räume ineinander übergehen, Ess- und Wohnzimmersind jetzt nicht mehr getrennt. Der Raum soll auch in die Umgebung fliessen. GrosseFensterflächen und Türen öffnen das Haus zum Garten, und eine Veranda dient alsüberdachter Sitzplatz im Freien. «Haus über dem Wasserfall» Besonders spektakulär in die Natur gesetzt hat Wright die Villa «Fallingwater», das«Haus über dem Wasserfall» aus den 30er-Jahren. Wie eine Skulptur schichtet erdas Gebäude direkt auf einen Felsen über den rauschenden Bach. Die Balkone undBrüstungen aus glattem Beton schieben sich in den umgebenden Wald. Den Kerndes Hauses mauert er aus groben Felssteinen, die er vor Ort sammeln lässt. DieFamilie sollte so den Bach nicht nur anschauen - Wright wollte, dass sie mit demWasserfall wohnt. Er soll Bestandteil ihres Lebens werden. Die starken Horizontalen und die weit auskragenden Dächer verraten WrightsBewunderung für Japan. Wright war dem Land und seiner Kultur immer sehrverbunden, er wurde sogar zum Hausarchitekten des japanischen Kaisers ernannt.Der europäischen Architektur habe er gar nichts zu verdanken, betonte er immerwieder. Dennoch ist in seinen späten Arbeiten der Einfluss der europäischenModerne mit ihren sachlichen und klaren Kuben spürbar. FRANK LLOYD WRIGHT 18. Januar 2010 13:13; Akt: 21.03.2010 15:56 Senden Fehler gesehen? Ihr Hinweis Art des Fehlers Ihr Name Ihre E-Mail * Fehler beheben! 26.02.12 13:1420 Minuten Online - Der erste Baumeister von Amerika - History Seite 2 von 2http://www.20min.ch/wissen/news/story/24170318 Unter seinen zahllosen Projekten finden sich die unterschiedlichsten Bauten:Schulen, Gaststätten, Kirchen, Synagogen, Museen, Theater und auch eineTankstelle. In seinen Hochhäusern entwickelte Wright mit dem Konzept einerdurchgehenden Bürolandschaft den Vorläufer unserer heutigen Grossraumbüros. Drei Ehen mit sieben Kindern Nach dem Zweiten Weltkrieg nutzte Wright die neuen Möglichkeiten desStahlbetons zu noch expressiveren Schöpfungen. Sein Guggenheim-Museum in NewYork, das er gegen alle Widerstände der Stadt baute, wurde zu einem seinerausdrucksstärksten Gebäude. Die «Schnecke», wie das Museum wegen seiner Formgenannt wurde, erhitzte Ende der 50er-Jahre noch die Gemüter und ist heute wohleines der bekanntesten Museen der Welt. Frank Lloyd Wright hat stets den absoluten Individualismus gelebt. Im Privatenführte sein Egoismus zu sehr unsteten Beziehungen. Seine drei Ehen, aus denensieben Kinder hervorgingen, und seine nicht gerade diskret gelebten Liebschaftenwaren in der damaligen Zeit skandalös. Wegen seines bisweilen tyrannischenVerhaltens war auch im Büro schwer mit ihm auszukommen. Es gab viel Streit mitAuftraggebern und Ärger wegen unbeglichener Rechnungen. In der Architektur aberhat Wrights Eigensinn die erste unabhängige Baukunst des neuen Kontinentshervorgebracht. 26.04.12 01:37Seite 2 - T. C. Boyle - Interview - \"Frank Lloyd Wright war ein Betrüger und Verführer\" - Architektur - art-magazin.de Seite 1 von 5http://www.art-magazin.de/architektur/17446/?mode=print&p=2 www.art-magazin.de - 15 / 04 / 2009ARCHITEKTUR Im Frühstücksraum des \"Art'otels\", einem Hotel auf der Fischerinsel in Berlin, vor dem ein roter Fiberglasbär Kopfstandmacht, drinnen an den Wänden hängt Druckgrafik von A. R. Penck. Kaum ist das Aufnahmegerät an, poltert deramerikanische Schriftsteller auch schon los. Er mache sich Sorgen um das deutsche Bildungssystem oder doch zumindestum das äußere Erscheinungsbild unserer Schulen. Gegenüber dem Hotel steht ein deprimierender, schutziggrauerFunktionsbau aus den siebziger Jahren, an dem die Farbe blättert: die evangelische Schule Berlin-Zentrum. T. C. Boyle: Als ich gestern abend ankam, dachte ich, es handelt sich um eine verlassene Fabrik. Das Gebäude siehtschrecklich aus. Vielleicht sollte ich mein Lesehonorar stiften und ein paar Eimer Farbe für die Schule kaufen. Es ist eineSchande zu sehen, wie Bildungseinrichtungen vernachlässigt werden. Das ist etwas, das ich aus Amerika kenne. Dieersten Dinge, die in der ökonomischen Krise vor die Hunde gehen, sind das Bildungssystem und die Umwelt – die zweifundamentalsten Elemente unserer Gesellschaft. Dabei bin ich selbst das beste Beispiel für ein funktionierendesöffentliches Bildungssystem. Ich stamme aus der Arbeiterklasse und war der Erste in unserer Familie, der eine höhereSchule besuchte. Eine Privatschule hätten sich meine Eltern nie leisten können. art: Sie haben eine steile Karriere gemacht: über 20 Buchveröffentlichungen, darunter Bestseller wie\"Wassermusik\", \"Der Samurai von Savannah\" und \"Dr. Sex\". Ihr neuestes Buch handelt von dem berühmtenamerikanischen Architekten Frank Lloyd Wright. Nun sind Sie weder Kunsthistoriker noch Architekturexperte.Was hat Sie an dem Thema gereizt? Meine Frau und ich sind vor 15 Jahren in ein Haus von Frank Lloyd Wright gezogen, das so genannte Georg StewartHouse in Kalifornien. Wir haben es restauriert, und so begann ich mich für den Architekten zu interessieren. Denn wirwollten es möglichst authentisch in Stand setzen. Als ich mir dann seine Lebensumstände näher anschaute, bemerkte ich,dass er zu den Menschentypen gehört, die mich als Romanfiguren interessieren, Leute wie der Sexforscher Dr. Kinsey(\"Dr. Sex\") oder John Kellogg, der Erfinder der Cornflakes (\"Road to Wellville\"). Es handelt sich um Guru-Figuren,mächtige, magnetisierende Menschen mit einer großen Anhängerschar. Also interessierten Sie sich weniger für Wrights architektonische Errungenschaften als für seinen Charakter? Auch die Architektur interessiert mich sehr, schon weil ich in einem seiner Häuser wohne. Er revolutionierte dieArchitektur, nicht nur in Amerika. In Japan baute er 1919 das Imperial Hotel, eines der wenigen Gebäude, dass das großeErdbeben von 1923 überstand. Sie können in meinem Buch viel über seine Karriere lernen, welche Häuser er baute, wieer Projekte realisierte und wie er dachte. Aber noch mehr erfährt man über s",
+  "embed_doc": "Wright Frank Lord 1867 1959 | 00 Allgemein | 00 Unklar | Buffalo Martin House | Chicago Charnley House 92 Sullivan Louis Wright 1891 1856 1924 | Chicago Home Studio House Wright Frank Lord 1889 1898 1867 1959 | Chicago Oak Park | Chicago Robie House 10 Wright Frank Lord 1908 1867 1959 | Chicago Winslow House | Cloverleaf Cloverleaf | Ennis House | Fairfax Country Pope Leight House | Freeman House | Haus Brauner | Illinois Springfield Dana House | Kent Knop Ferienhaus | Kirche Glas Churck | Lake Michigan Hardy House on shore of Lake Michigan in Racine | Lakeland Florida | Los Angeles Barnsdall House 21 1916 | Manchester New Hampshire House for Dr Toufic Kalil 1955 | Minneapolis Willey House 1934 | New York Museum Guggenheim | New York Reisley House | Pennsylvania Fallingwather 37 1934 | Racine Wisconsin Johnson Wax building 39 1936 | Richard Loyds House | Riverside Coonley House 08 1906 | San Rafael Marin Civic Center | System Built House | Taliesin Taliesin | Tokyo Imperial Hotel | VC Moriss Gift Shop | Wauwatosa Annunciation Greek Orthodox Church | 26.02.12 13:1420 Minuten Online - Der erste Baumeister von Amerika - History Seite 1 von 2http://www.20min.ch/wissen/news/story/24170318 Ihre Story, Ihre Informationen, Ihr Hinweis? feedback@20minuten.ch von Reinhold Hügerich - Vor 50 Jahren starb Frank Lloyd Wright– der Architekt, der die erste unabhängige Baukunst des neuenKontinents hervorbrachte. Spektakuläre Bauten, viele Frauen und jede Menge Ärger: Wie nurwenige hat der amerikanische Architekt Frank Lloyd Wright mitseinem Schaffen die Architektur weltweit geprägt. Nach einemturbulenten Leben voller künstlerischer Höhepunkte und privaterKatastrophen starb er vor 50 Jahren, am 9. April 1959. Wrights pralles Achterbahnleben liefert dabei wahrlich genug Stoff für einen Roman.Der Schriftsteller T.C. Boyle, der seit Jahren selbst in einer Villa wohnt, die Wrighteinst für sich und seine Frau baute, hat sich dessen Biographie als Vorlage für seinneues Buch genommen. In «Die Frauen» beschreibt er den Architekten alsegomanischen Workaholic, der stets auf der Flucht vor eifersüchtigen Frauen undGläubigern durchs Land hetzt, notorisch pleite, aber heiss begehrt. Zwar mag einigesüberzeichnet sein, aber ein Mauerblümchen war Wright gewiss nicht. Wurzeln in Wisconsin Geboren wurde der eigenwillige Baumeister 1896 in der ländlichen Idylle vonRichland Center. Dort in Wisconsin beginnt er zunächst ein Architekturstudium.Dieses bricht er aber vorzeitig ab und macht sich auf in das amerikanische Mekkader Moderne, das boomende Chicago. Nach nur kurzer Zeit als Angestellter beginnter bald, selbstständig als Architekt zu arbeiten. Mit seinen Entwürfen für luxuriöse Villen entwickelt Wright den modernen Stil fürdas private Wohnhaus. Für uns heute selbstverständlich, war sein Ansatz damalsvöllig neu: Das Gebäude soll unmittelbar, ganz individuell auf die Bedürfnisse derBewohner abgestimmt werden. Seine «Organische Architektur» wächst dabei voninnen nach aussen. Wright gruppiert die einzelnen Baukörper um einen Kern, einstdie zentrale Feuerstelle in Präriehäusern. Er lockert die starre, traditionelleWohnstruktur und lässt die Räume ineinander übergehen, Ess- und Wohnzimmersind jetzt nicht mehr getrennt. Der Raum soll auch in die Umgebung fliessen. GrosseFensterflächen und Türen öffnen das Haus zum Garten, und eine Veranda dient alsüberdachter Sitzplatz im Freien. «Haus über dem Wasserfall» Besonders spektakulär in die Natur gesetzt hat Wright die Villa «Fallingwater», das«Haus über dem Wasserfall» aus den 30er-Jahren. Wie eine Skulptur schichtet erdas Gebäude direkt auf einen Felsen über den rauschenden Bach. Die Balkone undBrüstungen aus glattem Beton schieben sich in den umgebenden Wald. Den Kerndes Hauses mauert er aus groben Felssteinen, die er vor Ort sammeln lässt. DieFamilie sollte so den Bach nicht nur anschauen - Wright wollte, dass sie mit demWasserfall wohnt. Er soll Bestandteil ihres Lebens werden. Die starken Horizontalen und die weit auskragenden Dächer verraten WrightsBewunderung für Japan. Wright war dem Land und seiner Kultur immer sehrverbunden, er wurde sogar zum Hausarchitekten des japanischen Kaisers ernannt.Der europäischen Architektur habe er gar nichts zu verdanken, betonte er immerwieder. Dennoch ist in seinen späten Arbeiten der Einfluss der europäischenModerne mit ihren sachlichen und klaren Kuben spürbar. FRANK LLOYD WRIGHT 18. Januar 2010 13:13; Akt: 21.03.2010 15:56 Senden Fehler gesehen? Ihr Hinweis Art des Fehlers Ihr Name Ihre E-Mail * Fehler beheben! 26.02.12 13:1420 Minuten Online - Der erste Baumeister von Amerika - History Seite 2 von 2http://www.20min.ch/wissen/news/story/24170318 Unter seinen zahllosen Projekten finden sich die unterschiedlichsten Bauten:Schulen, Gaststätten, Kirchen, Synagogen, Museen, Theater und auch eineTankstelle. In seinen Hochhäusern entwickelte Wright mit dem Konzept einerdurchgehenden Bürolandschaft den Vorläufer unserer heutigen Grossraumbüros. Drei Ehen mit sieben Kindern Nach dem Zweiten Weltkrieg nutzte Wright die neuen Möglichkeiten desStahlbetons zu noch expressiveren Schöpfungen. Sein Guggenheim-Museum in NewYork, das er gegen alle Widerstände der Stadt baute, wurde zu einem seinerausdrucksstärksten Gebäude. Die «Schnecke», wie das Museum wegen seiner Formgenannt wurde, erhitzte Ende der 50er-Jahre noch die Gemüter und ist heute wohleines der bekanntesten Museen der Welt. Frank Lloyd Wright hat stets den absoluten Individualismus gelebt. Im Privatenführte sein Egoismus zu sehr unsteten Beziehungen. Seine drei Ehen, aus denensieben Kinder hervorgingen, und seine nicht gerade diskret gelebten Liebschaftenwaren in der damaligen Zeit skandalös. Wegen seines bisweilen tyrannischenVerhaltens war auch im Büro schwer mit ihm auszukommen. Es gab viel Streit mitAuftraggebern und Ärger wegen unbeglichener Rechnungen. In der Architektur aberhat Wrights Eigensinn die erste unabhängige Baukunst des neuen Kontinentshervorgebracht. 26.04.12 01:37Seite 2 - T. C. Boyle - Interview - \"Frank Lloyd Wright war ein Betrüger und Verführer\" - Architektur - art-magazin.de Seite 1 von 5http://www.art-magazin.de/architektur/17446/?mode=print&p=2 www.art-magazin.de - 15 / 04 / 2009ARCHITEKTUR Im Frühstücksraum des \"Art'otels\", einem Hotel auf der Fischerinsel in Berlin, vor dem ein roter Fiberglasbär Kopfstandmacht, drinnen an den Wänden hängt Druckgrafik von A. R. Penck. Kaum ist das Aufnahmegerät an, poltert deramerikanische Schriftsteller auch schon los. Er mache sich Sorgen um das deutsche Bildungssystem oder doch zumindestum das äußere Erscheinungsbild unserer Schulen. Gegenüber dem Hotel steht ein deprimierender, schutziggrauerFunktionsbau aus den siebziger Jahren, an dem die Farbe blättert: die evangelische Schule Berlin-Zentrum. T. C. Boyle: Als ich gestern abend ankam, dachte ich, es handelt sich um eine verlassene Fabrik. Das Gebäude siehtschrecklich aus. Vielleicht sollte ich mein Lesehonorar stiften und ein paar Eimer Farbe für die Schule kaufen. Es ist eineSchande zu sehen, wie Bildungseinrichtungen vernachlässigt werden. Das ist etwas, das ich aus Amerika kenne. Dieersten Dinge, die in der ökonomischen Krise vor die Hunde gehen, sind das Bildungssystem und die Umwelt – die zweifundamentalsten Elemente unserer Gesellschaft. Dabei bin ich selbst das beste Beispiel für ein funktionierendesöffentliches Bildungssystem. Ich stamme aus der Arbeiterklasse und war der Erste in unserer Familie, der eine höhereSchule besuchte. Eine Privatschule hätten sich meine Eltern nie leisten können. art: Sie haben eine steile Karriere gemacht: über 20 Buchveröffentlichungen, darunter Bestseller wie\"Wassermusik\", \"Der Samurai von Savannah\" und \"Dr. Sex\". Ihr neuestes Buch handelt von dem berühmtenamerikanischen Architekten Frank Lloyd Wright. Nun sind Sie weder Kunsthistoriker noch Architekturexperte.Was hat Sie an dem Thema gereizt? Meine Frau und ich sind vor 15 Jahren in ein Haus von Frank Lloyd Wright gezogen, das so genannte Georg StewartHouse in Kalifornien. Wir haben es restauriert, und so begann ich mich für den Architekten zu interessieren. Denn wirwollten es möglichst authentisch in Stand setzen. Als ich mir dann seine Lebensumstände näher anschaute, bemerkte ich,dass er zu den Menschentypen gehört, die mich als Romanfiguren interessieren, Leute wie der Sexforscher Dr. Kinsey(\"Dr. Sex\") oder John Kellogg, der Erfinder der Cornflakes (\"Road to Wellville\"). Es handelt sich um Guru-Figuren,mächtige, magnetisierende Menschen mit einer großen Anhängerschar. Also interessierten Sie sich weniger für Wrights architektonische Errungenschaften als für seinen Charakter? Auch die Architektur interessiert mich sehr, schon weil ich in einem seiner Häuser wohne. Er revolutionierte dieArchitektur, nicht nur in Amerika. In Japan baute er 1919 das Imperial Hotel, eines der wenigen Gebäude, dass das großeErdbeben von 1923 überstand. Sie können in meinem Buch viel über seine Karriere lernen, welche Häuser er baute, wieer Projekte realisierte und wie er dachte. Aber noch mehr erfährt man über s",
+  "stand": "2026-07-02T22:51:45"
+}

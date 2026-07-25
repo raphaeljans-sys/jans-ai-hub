@@ -1,0 +1,26 @@
+{
+  "slug": "LUCA_SELVA",
+  "architekt": {
+    "name": "LUCA SELVA",
+    "nachname": "LUCA",
+    "vorname": "SELVA",
+    "jahre": [],
+    "ordner": "LUCA_SELVA"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/LUCA_SELVA",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 4,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 4
+  },
+  "dateitypen": {
+    ".gif": 4
+  },
+  "textauszug": "",
+  "embed_doc": "LUCA SELVA",
+  "stand": "2026-07-02T21:35:40"
+}

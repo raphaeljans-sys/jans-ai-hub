@@ -1,0 +1,36 @@
+{
+  "slug": "Gutkind_Erwin",
+  "architekt": {
+    "name": "Gutkind Erwin",
+    "nachname": "Gutkind",
+    "vorname": "Erwin",
+    "jahre": [],
+    "ordner": "Gutkind_Erwin"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Gutkind_Erwin",
+  "projekte": [
+    {
+      "raw": "Berlin_Sonnenhof_1925",
+      "ort": "Berlin",
+      "projekt": "Sonnenhof",
+      "jahre": [
+        "1925"
+      ],
+      "titel": "Berlin Sonnenhof 1925"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 4,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 4
+  },
+  "dateitypen": {
+    ".jpg": 4
+  },
+  "textauszug": "",
+  "embed_doc": "Gutkind Erwin | Berlin Sonnenhof 1925",
+  "stand": "2026-07-02T21:16:46"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "Takamatsu",
+  "architekt": {
+    "name": "Takamatsu",
+    "nachname": "Takamatsu",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Takamatsu"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Takamatsu",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 8,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 8
+  },
+  "dateitypen": {
+    ".jpg": 8
+  },
+  "textauszug": "",
+  "embed_doc": "Takamatsu",
+  "stand": "2026-07-02T22:49:59"
+}

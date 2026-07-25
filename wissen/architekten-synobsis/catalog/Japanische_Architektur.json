@@ -1,0 +1,34 @@
+{
+  "slug": "Japanische_Architektur",
+  "architekt": {
+    "name": "Japanische Architektur",
+    "nachname": "",
+    "vorname": "Japanische Architektur",
+    "jahre": [],
+    "ordner": "_Japanische_Architektur"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/_Japanische_Architektur",
+  "projekte": [
+    {
+      "raw": "Takeshi Ippei Office Kawatani House",
+      "ort": "Takeshi Ippei Office Kawatani House",
+      "projekt": "Takeshi Ippei Office Kawatani House",
+      "jahre": [],
+      "titel": "Takeshi Ippei Office Kawatani House"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 19,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 19
+  },
+  "dateitypen": {
+    ".png": 19
+  },
+  "textauszug": "",
+  "embed_doc": "Japanische Architektur | Takeshi Ippei Office Kawatani House Takeshi Ippei Office Kawatani House",
+  "stand": "2026-07-02T22:52:17"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "Horvat_Paolo",
+  "architekt": {
+    "name": "Horvat Paolo",
+    "nachname": "Horvat",
+    "vorname": "Paolo",
+    "jahre": [],
+    "ordner": "Horvat_Paolo"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Horvat_Paolo",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 5,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 6
+  },
+  "dateitypen": {
+    ".jpg": 5,
+    ".pdf": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Horvat Paolo",
+  "stand": "2026-07-02T21:18:26"
+}

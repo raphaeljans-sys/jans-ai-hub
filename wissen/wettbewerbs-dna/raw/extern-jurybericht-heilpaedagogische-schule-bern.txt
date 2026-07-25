@@ -1,0 +1,704 @@
+# QUELLE: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2103 WB Luzern Steinhofschule/07 Referenzen/00 Berichte/jurybericht_neubau_heilpadagogische_schule_bern.pdf
+# Extrakt (pdftotext -layout), 12.07.2026. 142 Seiten Original; hier nur die relevanten Teile:
+# Einleitung/Programm (S. 7-8), Preisgericht (S. 13), Vorpruefung (S. 14), Beurteilung (S. 15-16),
+# Empfehlung und Wuerdigung (S. 17), Rangierung (S. 21), Teams (S. 23),
+# Wuerdigungen Rang 1-6: Am Bach (S. 26), RUBIK (S. 34), DREI GAERTEN (S. 42), KATSURA (S. 50), JO-JO (S. 58), DUPLO (S. 66).
+# Neubau Heilpaedagogische Schule Bern, Projektwettbewerb im offenen Verfahren, Bericht des Preisgerichts, Maerz 2018 (Hochbau Stadt Bern).
+
+             EINLEITUNG
+
+
+
+
+             Die Heilpädagogische Schule Bern ist heute am Eigerplatz in stark sanie­
+             rungsbedürftigen Altbauten untergebracht. Wegen dem akuten Platzman­
+             gel in Gebäuden und Aussenbereichen können die heutigen pädagogischen
+             und funktionalen Anforderungen nicht mehr erfüllt werden. Aufgrund der
+             fehlenden räumlichen und strukturellen Entwicklungsmöglichkeiten vor Ort
+             soll durch einen Neubau auf dem Schulareal der Regelschulen Bümpliz und
+             Statthalter im Westen von Bern diese unbefriedigende Situation behoben
+             werden. Die räumliche Nähe von Heilpädagogischer Schule und Regelschule
+             wird zudem als grosse Chance für die Weiterentwicklung des integrativen
+             schulischen Gedankens bewertet.
+             Die Stadt Bern schafft für alle Kinder und Jugendliche, unabhängig von Ge­
+             schlecht, Alter, sozialer Herkunft, Sprache, Behinderung, Religion, Nationa­
+             lität und Quartier, gleiche schulische Chancen. Nicht zuletzt stellt die stän­
+             dige Veränderung in der Bildungslandschaft eine grosse Herausforderung
+             dar. So bietet der Neubau der Heilpädagogischen Schule Bern einmal mehr
+             die Möglichkeit, eine Schule für verschiedene Unterrichtsformen zu bauen
+             und Raumeinteilungen vorzusehen, die in einem hohen Mass Mehrfach­
+             nutzungen sowie Nutzungsänderungen zulassen. Es kann bis 2023 ein mo­
+             dernes Schulhaus entstehen, welches offen für zukünftige Entwicklungen
+             ist, einen Beitrag zur Umsetzung der Inklusion leistet und den Nachhaltig­
+             keitsvorgaben entspricht. Mit dem Neubau der Heilpädagogischen Schule
+             Bern wird der öffentliche sonderpädagogische Bildungsauftrag des Kantons
+             erfüllt, dessen Trägerschaft der Schule die Stadt Bern ist.
+
+===== PROGRAMM (S. 8) =====
+             PROGRAMM
+
+
+
+
+             Hochbau Stadt Bern führte einen einstufigen anonymen       beim Kriterium Gesellschaft
+             Projektwettbewerb im offenen Verfahren gemäss GATT/        −− städtebaulich angemessen auf die Quartierstruktur
+             WTO, den gesetzlichen Grundlagen über das öffentliche         rea­gieren und durch Schaffung eines attraktiven Be­
+             Beschaffungsrecht des Kantons Bern und der Beschaf­           gegnungsortes zur Aufwertung des Ortes sowohl für
+             fungsverordnung der Stadt durch. Es galt subsidiär die        Schülerinnen und Schüler als auch für Quartierbewoh­
+             Ordnung SIA 142 für Architektur- und Ingenieurwettbe­         nende beitragen;
+             werbe, Ausgabe 2009. Die Kommission für Wettbewerbe        −− mit einem konsistenten architektonischen Konzept
+             und Studienaufträge hat das Programm geprüft und die          räumlich, erschliessungsmässig und funktionell auf die
+             Konformität mit der Ordnung bestätigt. Das Verfahren          besonderen Anforderungen der Aufgabenstellung, ins­­­­-
+             richtete sich an Fachleute aus den Bereichen Architektur      besondere auf die spezifischen Bedürfnisse der Kin­
+             und Landschaftsarchitektur.                                   der und Jugendlichen wie auch der unterrichtenden
+             Die für den Neubau zur Verfügung stehende stadteigene         Lehrpersonen reagieren, und mit einer adäquaten Ma­
+             Parzelle Nr. 2955 befindet sich im Stadtteil 6, Bümpliz-      terialisierung der Institution eine überzeugende Iden­
+             Oberbottigen, und misst 9’360 m². Die weitgehend flache       tität schaffen;
+             Parzelle gehört zum Schulareal der benachbarten Regel­     −− aufgrund ihrer einfachen Struktur in flexibler Art auf
+             schulen Bümpliz und Statthalter. Sie wird heute als öf­       pädagogische und organisatorische Entwicklungen re­
+             fentlich zugängliches Spielfeld von der Bevölkerung des       agieren können;
+             Quartiers und von Vereinen genutzt. Der Bearbeitungs­      −− Spielraum für Partizipation ermöglichen;
+             perimeter beschränkt sich für sämtliche baulichen Mass­    beim Kriterium Wirtschaft
+             nahmen auf die Parzelle Nr. 2955. Der Ideenperimeter       −− aufgrund ihrer einfachen Grundstruktur und des mass­­-
+             umfasst einen Teil der Statthalterstrasse und der Wan­        vollen Flächenverbrauchs niedrige Erstellungs- sowie
+             genstrasse inklusive des Stadtbachs.                          tiefe Betriebs- und Unterhaltskosten auch bei sich än­
+             Auf der unbebauten Parzelle sollen ein Neubau für eine        dernden Nutzungen erwarten lassen;
+             Heilpädagogische Schule mit zehn Klassen, eine Einfach­    beim Kriterium Umwelt
+             turnhalle, eine Quartierküche und der zugehörige Aus­      −− einen niedrigen Energiebedarf in der Erstellung sowie
+             senbereich geplant und realisiert werden. Die drei Be­        im Betrieb und Unterhalt aufweisen, erneuerbare Ener­-
+             triebseinheiten sind autonome Einheiten, die im Zusam­        gieträger verwenden und bauökologisch einwandfreie
+             menspiel auch mit dem Aussenbereich optimal funk­             Konstruktionssysteme und Materialien einsetzen;
+             tio­nieren. Der räumliche Bezug der Heilpädagogischen      −− schonend mit der Ressource «Boden» umgehen.
+             Schule zur Regelschule, die gefahrlose und hindernis­      Die Vorgaben für Energie und Umwelt forderten ein der
+             freie Erschliessung wie auch die Situierung der Nutzun­    Situation angepasstes Energie-, Gebäudetechnik- und Ge­­-
+             gen innerhalb des Grundstücks sollen das Zusammen­         bäudehüllenkonzept, welches dem Richtplan der Stadt
+             wachsen von Sonder- und Regelschule begünstigen und        Bern entspricht und die Anforderungen nach Minergie-
+             deren gegenseitige Annäherung fördern. Die Räumlich­       P-ECO erfüllt. Für den Neubau werden geschätzte Zielbau­
+             keiten der Sonderschule sollen so veränderbar sein, dass   kosten (Anlagekosten) von CHF 25.2 Mio. (exkl. MwSt.)
+             sie zu einem späteren Zeitpunkt auch als Regelschule       zugrunde gelegt. Hochbau Stadt Bern erwartete bewilli­
+             genutzt werden können. Gesucht sind Raumstrukturen,        gungsfähige Vorschläge, die die spezifischen Anforderun­
+             die flexibel auf pädagogische Entwicklungen reagieren      gen der Heilpädagogischen Schule, der Einfachturnhalle
+             können. Die Quartierküche ist zur Produktion von rund      und der Quartierküche im Einzelnen als auch in ihrem Zu­­-
+             fünfhundert Mahlzeiten pro Tag ausgelegt und beliefert     sammenspiel optimal umsetzen, den Neubau und die be-
+             die Heilpädagogische Schule sowie die umliegenden fa­      stehende Schulanlage Bümpliz und Statthalter zu einer
+             milienergänzenden Betreuungseinrichtungen. Die Aus­        gut funktionierenden Gesamteinheit erweitern und den
+             senbereiche werden ausserhalb der Schulzeiten von Ve­      Qualitäten des kontrastreichen städtebaulichen Umfeldes
+             reinen und Quartier genutzt.                               gerecht werden. Es sollen gute Voraussetzungen für den
+             Die Stadt Bern legt grossen Wert auf eine umfassende       Austausch zwischen Regel- und Sonderschule geschaf­
+             Nachhaltigkeit. Gesucht wurden im vorliegenden Verfah­     fen werden, welche die Umsetzung des integrativen Ge­
+             ren Projekte, die:                                         dankens fördern.
+
+===== PREISGERICHT (S. 13) =====
+             PREISGERICHT
+
+
+
+
+             Sachpreisrichter/innen
+
+             Johanna Dürst                    Leiterin Heilpädagogische Schule Bern
+             Irène Hänsenberger               Leiterin Schulamt Stadt Bern
+             Renate Rolli Sommaruga           Bereichsleiterin Immobilienmanagement, Immobilien Stadt Bern
+
+
+
+             Ersatz Sachpreisrichter/in
+
+             Andreas Wyss                     Portfoliomanagement, Immobilien Stadt Bern
+             Jörg Moor                        Stv. Leiter Schulamt Stadt Bern
+
+
+
+             Fachpreisrichter/innen
+
+             Thomas Pfluger                   Architekt, Stadtbaumeister Bern (Vorsitz)
+             Tina Arndt                       Architektin, Zürich
+             Marco Graber                     Architekt, Bern und Zürich
+             Dominique Lorenz                 Architektin, Zürich
+             Daniel Schneider                 Landschaftsarchitekt, Olten
+
+
+
+             Ersatz Fachpreisrichter/in
+
+             Heike Lorenz                     Architektin, Hochbau Stadt Bern (Verfahrensleitung)
+             Michael Schmid                   Architekt, Bern (Verfahrensbegleitung)
+
+
+
+             Expertinnen und Experten mit beratender Stimme
+
+             Tobias Balzli                    Behindertenkonferenz Stadt und Region Bern
+             Rachel Picard                    Quartiervertretung
+             Thomas Kobe                      b + p Zürich (Kostenplaner)
+             Marco Waldhauser                 Waldhauser + Hermann Münchenstein (Energie und ökologische Nachhaltigkeit)
+             Ivo Stani                        Büro B Bern (Vorprüfung)
+             Judith Albers                    Verkehrsplanung Stadt Bern
+             Rainer Gilg                      Sportamt Stadt Bern
+             Michael Jermini                  Bauinspektorat Stadt Bern
+             Andreas Marczona                 Immobilien Stadt Bern
+             Claude Racine                    Stadtgrün Bern
+             Klemens Fankhauser               Pro Culina Seftigen (Gastronomie und Logistik)
+
+===== VORPRUEFUNG (S. 14) =====
+             VORPRÜFUNG
+
+
+
+
+             Generelle Vorprüfung                                        Vertiefte Vorprüfung
+
+             Die generelle Vorprüfung erfolgte unter Leitung von         Die zweite, vertiefte Vorprüfung der verbleibenden sechs
+             Hochbau Stadt Bern durch das Architekturbüro Büro B         Projekte erfolgte in der Periode Februar – März 2018 un­
+             Architekten AG Bern und die Fachstelle Beschaffungswe­      ter der Leitung von Hochbau Stadt Bern durch das Archi­
+             sen der Stadt Bern. Die insgesamt 70 eingereichten Pro­     tekturbüro Büro B Architekten AG mit der Unterstützung
+             jekte wurden nach den Anforderungen des Wettbewerbs­        durch die Verkehrsplanung der Stadt Bern, dem Sport­
+             programms und der Fragenbeantwortung geprüft. Die           amt der Stadt Bern, dem Bauinspektorat der Stadt Bern,
+             generelle Vorprüfung fand in der Periode Januar – Februar   den Immobilien Stadt Bern, Stadtgrün Bern und dem
+             2018 statt und umfasste folgende Themen:                    Küchenplaner Pro Culina. Die ökologische und energe­
+                                                                         tische Nachhaltigkeit sowie die Kosten wurden von den
+             Formelle Programmbestimmungen                               beigezogenen Fachexperten geprüft. Die vertiefte Vor­
+             −− Sämtliche Projekte (Pläne und Modelle) wurden frist­     prüfung umfasste die folgenden Themen:
+                gerecht eingereicht.
+             −− Bei sämtlichen Projekten wurde die Anonymität der        −− Baurechtliche Konformität
+                Verfasser eingehalten.                                   −− Betriebliche und die nutzungsmässigen Anforderungen
+             −− Bei sämtlichen Projekten wurden die Bestimmungen         −− Brandschutz und die Hindernisfreiheit
+                der Selbstdeklaration eingehalten und die notwendigen    −− Umgebung und die verkehrstechnische Erschliessung
+                Nachweise erbracht.                                      −− Ökologische und energetische Nachhaltigkeit
+             −− Mit kleinen, unbedeutenden Abweichungen wurden bei       −− zu erwartende Anlagekosten +/- 20%
+                allen Projekten die verlangten Unterlagen eingereicht.
+                                                                         Bezüglich des Baurechts gelten die Aussagen aus der ers­
+             Inhaltliche Programmbestimmungen                            ten Vorprüfung. Sämtliche Projekte haben die weiteren
+             −− Mit Ausnahme des Projektes UBUNTU, haben alle            Vorgaben gut umgesetzt, es sind nur einzelne, korrigier­
+                Pro­jekte den Wettbewerbsperimeter eingehalten. Das      bare Punkte zu bemängeln. Bezüglich Energie und öko­
+                Pro­­­
+                    jekt UBUNTU schlägt vor, die Heilpädagogische        logischer Nachhaltigkeit werden alle Projekte als durch­
+                Schu­le auf dem benachbarten Grundstück der Statt­       schnittlich bis gut bewertet.
+                halterschule zu realisieren.                             Die kostenrelevanten Faktoren jedes Projektes lagen dem
+             −− Die baurechtlichen Vorgaben (Grenzabstände) werden       Preisgericht bereits zu Beginn der Jurierung anhand ei­
+                von den Projekten primi hominis, KLEINER BÄR, Der        ner Mengenübersicht auf Basis der Elementkostenme­
+                Garten der 10 Schaukeln, TRANSITIONS und Halma           thode vor. Die Mengen der sechs Projekte der engeren
+                nicht eingehalten. Das Projekt UBUNTU hält die Aus­      Wahl wurden überprüft. Die jeweiligen Grobkostenschät­
+                nützungsziffer nicht ein.                                zungen haben ergeben, dass sich die zu erwartenden
+             −− Der Baum- und Heckenschutz wurde von diversen            Anlagekosten innerhalb einer Bandbreite von 24% be­
+                Pro­jekten in Teilen nicht eingehalten. Das Mass der     wegen. Die resultierenden Kostenkennwerte für die im
+                Verstösse fliesst in die allgemeine Beurteilung der      Minergie-P-ECO-Standard geplanten Bauten sind im Ver­
+                Projekte ein.                                            gleich zu ähnli­chen realisierten Projekten angemessen.
+             −− Die Vorgaben zum Raumprogramm wurden mit klei­           Mit Ausnahme des etwas teureren Projekts JO - JO liegen
+                nen Ausnahmen von allen Projektverfassenden gut          alle Projekte in einem engen Kostenrahmen.
+                umgesetzt. Die Abweichungen wurden als vernach­          Somit verbleibt dem Preisgericht bei der weiteren Diskus­
+                lässigbar beurteilt.                                     sion ein grosser Spielraum bei der Würdigung der städte­
+                                                                         baulichen, architektonischen, pädagogischen und betrieb­
+             Der generelle Vorprüfungsbericht wurde am ersten Jury­      lichen Kriterien. Der zweite, vertiefte Vorprüfungsbericht
+             tag, nach der ersten Begutachtung aller Projekte durch      wird am dritten Jurytag nach der Begutachtung vor den
+             das Preisgericht einstimmig genehmigt.                      Projekten durch das Preisgericht einstimmig genehmigt.
+
+===== BEURTEILUNG (S. 15-16) =====
+             BEURTEILUNG
+
+
+
+
+             Das Preisgericht tritt am 12. und 16. Februar sowie am      TUGA, Maat Mons, Apprendre ensemble, FLYING CAR­
+             9. März 2018 jeweils zur Beurteilung der Projekte voll­     PET, Schule.Spiel.Sport, HANNA, Zäme, Papagei, TRAN­
+             zählig und damit beschlussfähig zusammen. Der gene­         SITIONS, DRUMLIN, di-dakt, Halma, Clara, Andron,
+             relle Vorprüfungsbericht wird nach einer ersten Kennt­      MALAIKA, HULA HOOP, VIE SCOLAIRE, JARDIN, CANDY,
+             nisnahme der Projekte am ersten Jurytag präsentiert.        ORIGAMI
+             Die Präsentation des zweiten, vertieften Vorprüfungs­
+             berichts sowie die Vorstellung der beiden Fachexperten
+             erfolgt am dritten Jurytag vor den sechs verbleibenden      Zweiter Wertungsrundgang
+             Projekten.
+             Der erste Wertungsrundgang erfolgte am 1. Jurytag vom       Aufgrund weiterer, vertiefter Diskussionen beschliesst
+             12. Februar 2018, der zweite und dritte Wertungsrundgang    das Preisgericht einstimmig, folgende fünfzehn Projekte,
+             am 2. Jurytag vom 16. Februar 2018 sowie die Rangie­        welche wohl Qualitäten in Teilbereichen aufweisen, als
+             rung und Preiszuteilung am 3. Jurytag vom 9. März 2018.     Ganzes aber nicht zu überzeugen vermögen, in einem
+             Das Preisgericht besichtigte am 2. Jurytag den Wettbe­      zweiten Wertungsdurchgang auszuscheiden:
+             werbsperimeter und die benachbarten Regel­       schu­
+                                                                  len.
+             Die Erkenntnisse der Besichtigung finden Eingang in den     Heinrich Hanselmann, KLEINER BÄR, UBUNTU, Der Gar-
+             weiteren Verlauf der Diskussion.                            ten der 10 Schaukeln, HAPPY TOGETHER, RUNDHERUM,
+                                                                         twister, TWIX, ICHWIEDU, LE QUATTRO STAGIONI,
+                                                                         Bümpliz – Casablanca, FAGUS SYLVATICA, diesseits und
+             Ausschluss von der Preiserteilung                           jenseits, W. Nuss vo Bümpliz (68), KOBOLD
+
+             Die unten genannten sechs Projekte werden aufgrund
+             der vom Preisgericht einstimmig als wesentlichen Verstoss   Dritter Wertungsrundgang
+             gegen die Programmbestimmungen eingestuften Abwei­
+             chungen von einer allfälligen Preiserteilung ausgeschlos­   Die verbleibenden vierzehn Projekte werden erneut be­
+             sen. Sie bleiben jedoch für die Beurteilung zugelassen.     züglich ihrer Qualitäten intensiv diskutiert und vergli­
+             −− Wettbewerbsperimeter: UBUNTU                             chen. Das Preisgericht beschliesst einstimmig folgende
+             −− Baurecht: primi hominis, KLEINER BÄR, UBUNTU, Der        acht Projekte, die in verschiedenen Aspekten gute Lö­
+                Garten der 10 Schaukeln, TRANSITIONS und Halma           sungsansätze aufweisen, in einer gesamtheitlichen Be­
+                                                                         trachtung den gestellten Anforderungen nicht genügen,
+                                                                         in einem dritten Wertungsrundgang auszuscheiden:
+             Erster Wertungsrundgang
+                                                                         SUPERSTÖCKLI, CHNOPF, SCRABBLE, tissu, INSIEME,
+             In einem ersten Wertungsrundgang werden alle Projek­        Tschips, D‘ARTAGNAN, WOUD
+             te nach den im Programm aufgeführten Kriterien in ganz­
+             heitlicher Weise beurteilt. Folgende einundvierzig Pro­
+             jekte scheiden aufgrund von wesentlichen konzeptio­         Kontrollrundgang
+             nellen, gestalterischen oder betrieblichen Mängeln in
+             einem oder mehreren Punkten aus:                            Vor der definitiven Rangierung der Projekte findet der
+                                                                         Kontrollrundgang statt. Die Entscheide der vorangehen­
+             gro, unter dem dach, ARTISCHOCKE, Clairière, POLY­          den Wertungsrundgänge werden mit Ausnahme des Ent­
+             BOX, Olivia, DIRTSA, DUMBO, carré, Das Sams, GAR­           scheides zum Projekt DIRTSA, dieses wird vom ers­ten
+             TENKLANG, UNISONO, VONGRUNDAUF, TENTAKEL,                   in den zweiten Wertungsrundgang verschoben, be­stätigt.
+             primi hominis, Fridolin, ELMAR, JUIDIHUJ MIR ZÜGLE,
+             W. Nuss vo Bümpliz (27), Permanenz, Ligamente, TOR­
+
+
+
+
+180755_HSB_JB_HPS_03_04_18.indd 15                                                                                                  04.04.18 10:38
+             Beurteilung
+                                                                           16
+
+
+
+
+             Abschliessende Beurteilung
+
+             Das Preisgericht diskutiert die verbleibenden sechs Pro­
+             jekte nochmals ausführlich und wägt insbesondere die
+             unterschiedlichen Konzepte und Typologien mit ihren
+             spe­zifischen städtebaulichen, architektonischen, pädago­
+             gischen und betrieblichen Qualitäten sowie deren Poten­
+             zial für Veränderungen hin zur Inklusion, sorgfältig gegen­
+             einander ab. Das Preisgericht legt anschliessend die de­
+             finitive Rangierung und Preiszuteilung fest.
+
+===== EMPFEHLUNG UND WUERDIGUNG (S. 17) =====
+             EMPFEHLUNG UND WÜRDIGUNG
+
+
+
+
+             Empfehlung des Preisgerichts                                 Würdigung der Arbeiten
+
+             Das Preisgericht empfiehlt der Veranstalterin, die Ver­      Das Wettbewerbsverfahren für den Neubau der Heil­
+             fassenden des Projektes Am Bach mit der Weiterbear­          pädagogischen Schule an der Statthalterstrasse in Büm­
+             beitung gemäss den Bestimmungen aus dem Wettbe­              pliz wurde als einstufiger Projektwettbewerb für Teams,
+             werbsverfahren zu beauftragen. Bei der Weiterbearbei­        bestehend aus den Disziplinen Architektur und Land­
+             tung des Projekts müssen aus Sicht des Preisgerichts,        schaftsarchitektur, im offenen Verfahren ausgeschrieben.
+             nebst der im Projektbeschrieb zu entnehmenden Kritik,        Die qualitative Vielfalt der eingereichten Beiträge bestä­
+             folgende Punkte überprüft und überarbeitet werden:           tigt einmal mehr, dass trotz der hohen Anforderungen
+             −− Die Ausgestaltung der Statthalterstrasse ist in Abstim­   hinsichtlich Programm und Situation das gewählte Ver­
+                mung mit der Aussenraumgestaltung der zukünftigen         fahren zu einem sehr guten Ergebnis führt.
+                Heilpädagogischen Schule und den angrenzenden Re­         Die siebzig eingereichten und sehr unterschiedlich kon­
+                gelschulen mit dem Ziel, die schulischen Nutzungen        zipierten Lösungsvorschläge erlaubten es dem Preisge­
+                beidseits der Strasse noch stärker gestalterisch und      richt, die städtebauliche Setzung, das Zusammenspiel mit
+                nutzungsmässig zu verbinden und die gefahrlose Que­       den benachbarten Regelschulen, die Qualitäten der Frei­
+                rung zu erleichtern, weiterzuentwickeln.                  räume, das architektonische Konzept, die Nutzungsver­
+             −− Die Gestaltung des Aussenraums der zukünftigen            teilung und das Thema der Inklusion, unter Beachtung
+                Heilpädagogischen Schule ist bezüglich der Durchwe­       von Wirtschaftlichkeit und Ökologie, differenziert zu ver­
+                gungen für das Quartier, der Machbarkeit des an sich      gleichen und breit zu diskutieren.
+                wünschbaren Elements Wasser, der Bespielbarkeit           Das Preisgericht war einstimmig der Auffassung, dass
+                der Aussenräume, dem möglichst weitgehenden Ver­          das Siegerprojekt Am Bach in allen Aspekten den gestell­
+                meiden von nicht einsehbaren Nischen sowie insbe­         ten Anforderungen am besten gerecht wird. Die vorge­
+                sondere der möglichst offenen und einladenden Er­         schlagene Lösung ist sowohl ein wertvoller Beitrag zum
+                scheinung des Areals für die Bewohner des Quartiers,      zeitgenössischen Schulbau als auch eine sehr gute Um­
+                weiterzubearbeiten.                                       setzung der spezifischen Anforderungen einer Heilpäda­
+             −− Die Anordnung der Vorfahrt der Heilpädagogischen          gogischen Schule an diesem Ort und wird dadurch dem
+                Schule und der Anlieferung der Quartierküche sind in      Anspruch an die Inklusion in hohem Masse gerecht.
+                der Art zu verbessern und zu entflechten, dass der
+                motorisierte Verkehr ohne Rückwärtsfahrten und oh­        Allen Projektverfassenden gebührt ein grosser Dank für
+                ne Gefährdung für die Fussgänger erfolgen kann. Die       die wertvollen Beiträge und für ihre intensive Auseinan­
+                Querung der Statthalterstrasse soll für die Schüle­       dersetzung mit der gestellten Aufgabe.
+                rinnen und Schüler der Regelschulen und der Heilpä­
+                dagogischen Schule durch diesen motorisierten Ver­
+                kehr möglichst nicht zusätzlich belastet werden. Bei
+                der Anordnung der zukünftigen Parkplätze ist der gel­
+                tende Strassenabstand zu beachten.
+             −− Bei der Weiterentwicklung der inneren Organisation
+                sind die Bedürfnisse der Nutzer verstärkt zu beachten.
+                Es gilt unter anderem Lage, Anzahl und Grösse der
+                Lifte im Zusammenhang mit der unabhängigen Nut­
+                zung der Turnhalle, Standort der Entsorgung, Lage der
+                Betriebsräume (Büro Hauswart) sowie Lage und Grös­
+                se der Materialräume zu überprüfen.
+             −− Grösse und Anordnung der Technikräume sowie das
+                Prinzip der Horizontal- und Vertikalverteilung sind bei
+                der Weiterbearbeitung des Haustechnikkonzepts zu
+                konkretisieren.
+
+===== RANGIERUNG (S. 21) =====
+             RANGIERUNG
+
+
+
+
+             Für Preise und Ankäufe steht im Rahmen dieses Wettbewerbs eine Summe von insgesamt CHF 190  000.00 (exkl.
+             MwSt.) zur Verfügung. Das Preisgericht setzt die folgende Rangierung und Preiszuteilung fest:
+
+
+
+
+             1. Rang         1. Preis   Am Bach                    mit Antrag zur Weiterbearbeitung     CHF 60  000.00
+
+             2. Rang         2. Preis   RUBIK		                                                         CHF 45  000.00
+
+             3. Rang         3. Preis   DREI GÄRTEN		                                                   CHF 40  000.00
+
+             4. Rang         4. Preis   KATSURA		                                                       CHF 20  000.00
+
+             5. Rang         5. Preis   JO - JO		                                                       CHF 15  000.00
+
+             6. Rang         6. Preis   DUPLO		                                                         CHF 10  000.00
+
+===== PRAEMIERTE PROJEKTE / TEAMS (S. 23) =====
+             PRÄMIERTE PROJEKTE
+
+
+
+
+             Am Bach                 Froelich & Hsu Architekten ETH BSA SIA AG, Zürich
+                                     Dr. Christian Tschumi, Landschaftsarchitekten FH MLA BSLA, Pfaffhausen
+
+             RUBIK                   Herzog Architekten AG, Zürich
+                                     Haag Landschaftsarchitektur GmbH, Zürich
+
+             DREI GÄRTEN             Werkgruppe agw, Bern
+                                     Riggenbach GmbH Garten und Landschaft, Oberwangen b. Bern
+
+             KATSURA                 Berrel Berrel Kräutler AG, Zürich
+                                     Urbscheit Landschaftsarchitektur, Zürich
+
+             JO - JO                 ARGE Bleifrei Architekten GmbH und 3B Architekten AG, Bern
+                                     Hüsler + Hess AG Landschaftsarchitekten BSLA, Luzern
+
+             DUPLO                   arb Architekten, Bern
+                                     Graf Landschaftsarchitekt, Bern
+
+===== 1. RANG: AM BACH (S. 26) =====
+             Prämierte Projekte / 1. Rang, 1. Preis. Projekt Am Bach
+                                                                                                                                    26
+
+
+
+
+             Am Bach                                                       eines Shed-artigen Daches, welches sich über die ge­
+                                                                           samte Anlage erstreckt und so dem Gebäude zusätzlich
+             Das Projekt Am Bach übernimmt die orthogonale Geo­            Identität und Zusammenhalt verleiht.
+             metrie des Statthalter-Schulhauses. Dies wird vom Preis­      Der Projektvorschlag zeichnet sich durch eine hohe ar­
+             gericht als stimmige Ergänzung der Anlage von Hans            chitektonische Qualität aus. Es wird ein modulartiges,
+             Brechbühler aus den beginnenden 50er-Jahren gelesen.          strukturelles Prinzip vorgeschlagen, welches dank weit­
+             Die grosse Baumreihe, welche im Bestand den Pausen­           gehender Vorfabrikation und klarer Trennung von lastab­
+             platz vom grossen Spielfeld trennt, wird über die Statthal­   tragender und raumdefinierender Funktion eine hohe
+             terstrasse hinweg bis zum Haupteingang des Neubaus            Flexibilität bzw. auch Variabilität verspricht. Neben den
+             weitergeführt, wodurch eine selbstverständlich anmu­          wohlproportionierten Raumdimensionen und einer wer­
+             tende, räumliche Verknüpfung der beiden Schulen erzielt       tigen und stimmungsvollen Materialisierung besticht das
+             wird. Die Zufahrt der Kleinbusse sowie die Anlieferung        Projekt durch eine sehr raffinierte Gliederung der Fassa­
+             der Quartierküche erfolgt nur leicht gegen Norden ver­        den und prinzipiell durch eine präzise räumliche Fügung
+             setzt auch über die Statthalterstrasse. Der konfliktfreie     der Bauteile.
+             Betrieb der verschiedenen Nutzer ist in der vorgeschla­       Die Gliederung der Umgebung in verschiedene Nutzungs-
+             genen Form noch nicht gegeben. Der zweigeschossige            und Erlebnisräume verspricht eine interessante und viel­
+             Gebäudekörper gliedert mit seiner unregelmässig vier­         seitige Abfolge von gut proportionierten Aussenräumen
+             schenkligen Figur den Aussenraum in vier atmosphärisch        mit spannenden Erlebnis- und Lernorten. Die kleinteilige
+             sehr unterschiedliche, teilweise nischenartige Bereiche,      Strukturierung birgt aber auch die Gefahr einer nicht ein­
+             welche jeweils in enger Beziehung zu den angrenzenden         sehbaren Nischenbildung und verhindert die gewünsch­
+             Raumbereichen im Inneren stehen. Ausserhalb der Un­           te Durchlässigkeit der Anlage. Der hohe Anteil der befes­
+             terrichtszeit, bei entsprechender Zugänglichkeit, können      tigten Flächen ist hinsichtlich der Anforderung an die Bio­
+             diese auch von der Quartierbevölkerung genutzt werden.        diversität noch nicht schlüssig umgesetzt. Die bestehen­
+             Die Anordnung der verschiedenen Nutzungsbereiche er­­­­-      den Hecken und Bäume werden hingegen gut in den
+             scheint sinnvoll und zweckmässig. Die Turnhalle, mit dem      Projektvorschlag eingebettet. Der vorgeschlagene Bach
+             von den benachbarten Wohnbauten abgewandten Hart­             als Namensgeber des Projektes lässt Fragen zur Sicher­
+             platz, findet an der Statthalterstrasse eine Nähe zu den      heit und zur technischen Umsetzbarkeit offen. Er wird in
+             anderen Schulen. Alle Klassenräume sind optimal nach          dieser Ausformulierung nicht umgesetzt werden können,
+             Südwesten orientiert und profitieren ganztags von einer       auch wenn das Element Wasser grundsätzlich sehr be­
+             guten natürlichen Belichtung, wie auch im Falle der Ein­      grüsst wird.
+             gangsstufe von einem direkten Zugang zum gut dimen­           Das Energie- und Gebäudehüllenkonzept vermag durch
+             sionierten und geschützten Garten. Der Essraum richtet        die Mischbauweise sowie den ausgewogenen Glasan­
+             sich dreiseitig auf attraktive Aussenräume aus, die Quar­     teil zu überzeugen. Hingegen lässt das wenig bearbeite­
+             tierküche wie auch die Werkräume finden im nordwest­          te Technikkonzept Fragen zur Dimensionierung der Zen­
+             lichen Teil des Areals eine gute Situierung. Das Herz der     tralenflächen als auch zur Verteilung offen. Die Vorgabe
+             neuen Anlage bildet die gut proportionierte Eingangshalle,    der Zielbaukosten wird eingehalten. Die Kosten liegen
+             um welche die Unterrichtsräume, die Turnhalle, die Spe­       im Durchschnitt der rangierten Projekte.
+             zialräume sowie die Quartierküche mit den Werkräumen          Das Projekt Am Bach stellt durch seine räumlichen wie
+             angeordnet sind. Trotz dieser klaren funktionalen Gliede­     auch betrieblichen Qualitäten einen sehr wertvollen Bei­
+             rung, welche in ihrem Geiste durchaus auch an die Kon­        trag für eine neue Heilpädagogische Schule in Bern dar.
+             zeption der gegliederten Anlage von Brechbühler erin­         Es überzeugt durch seine städtebauliche Setzung, die
+             nert, nimmt man den Neubau als ein Gebäude wahr. Die­         robuste Grundstruktur und die gut dimensionierten In­
+             se Qualität resultiert aus einer geschickten räumlichen       nen- und Aussenräume. Im Inneren wie im Äusseren
+             Verknüpfung der verschiedenen Trakte im zentralen Be­         ent­wickelt die sorgfältige architektonische Ausformulie­
+             reich, die interessante diagonale Sichtbeziehungen im         rung eine pavillonartige Qualität, wie sie besser in so en­
+             Inneren wie Äusseren ermöglicht. Sie ist aber auch Fol­       ger Nachbarschaft zu den Bauten von Hans Brechbühler
+             ge einer überzeugenden architektonischen Ausprägung           kaum zur Geltung kommen kann.
+
+===== 2. RANG: RUBIK (S. 34) =====
+             Prämierte Projekte / 2. Rang, 2. Preis. Projekt RUBIK
+                                                                                                                                   34
+
+
+
+
+             RUBIK                                                        und Raumsituationen für den gemeinschaftlich genutzten
+                                                                          Pausenbereich. Sie dienen der Orientierung und sind at­
+             Das Projekt versteht sich als Teil der gesamten Schulan­     traktive Orte, an denen auch mal Teile des Unterrichts
+             lage und ist entsprechend gleich ausgerichtet. Das neue      stattfinden können. Die sinnvolle Anordnung der Neben­
+             Gebäude ist dreischenklig, aus unterschiedlich langen        räume und WCs ergibt kurze Wege. Die Gruppenräume
+             Schenkeln aufgebaut, die explizit auf die Umgebung rea­      sind leider nicht immer optimal zwischen zwei Klassen­
+             gieren und daraus sehr gut proportionierte Aussenräume       zimmern aufgeteilt. Auch wirken die Korridore im Bereich
+             generieren.                                                  der Treppen eher beengend. Die Quartierküche be­findet
+             Die Zugänglichkeit zum neuen Schulhaus ist klug orga­        sich im Obergeschoss und wird per Lift direkt an die An­
+             nisiert und trennt konsequent die motorisierte und fuss­     lieferung angebunden. Eine Doppelfunktion des Liftes
+             läufige Erschliessung. Die damit verbundenen Eingriffe       ist betrieblich nicht tauglich. Die Lage im Obergeschoss
+             in die bestehende, vegetative Struktur entlang der Mor­      und die U-förmige Grundrissorganisation wird zudem kri­
+             gen- und Statthalterstrasse werden mit einer neu ange­       tisch bewertet. Auch ist die Anordnung der Nebenräume an
+             legten Hecke gegenüber den Nachbarn kompensiert. Der         der südorientierten Fassade konzeptionell unverständlich.
+             Umgebungsgestaltung gelingt es, durch eine starke Vor­       Die Kombination von Brettstapeldecken und Betonüber­
+             strukturierung die zahlreichen Nutzungsansprüche unter­      zügen ergibt mit den parallel verlaufenden, von Stüt­
+             zubringen. Für ungeplante und freie Aneignung sowie          zen getragenen Unterzügen eine interessante statische
+             dem direkten Naturerlebnis besteht aber wenig Spiel­         Struktur. Einzelne, durchgehende Wände aus Beton sor­
+             raum. Die zahlreichen versiegelten Flächen belasten die      gen für die notwendige Stabilität. Damit entsteht eine
+             Biodiversität und verunmöglichen eine ökologische Ver­       grosse Flexibilität in der Raumaufteilung. Die Systemtren­
+             netzung der Aussenräume.                                     nung kann sauber vollzogen werden. Die Vorgabe der Ziel­
+             Die Erschliessungen sind verschiedenartig. So ist für den    baukosten wird eingehalten. Die Kosten liegen im Durch­
+             motorisierten Verkehr eine Vorfahrt mit Parkplätzen ent­     schnitt der rangierten Projekte. Die Bewertung der ökolo­
+             lang der Statthalterstrasse und für die Anlieferung der      gischen Nachhaltigkeit und Energie ist positiv. Einzig der
+             Quartierküche eine zweite an der Morgenstrasse vorge­        sommerliche Wärmeschutz, der durch den hohen Anteil
+             sehen. Die Grösse der Vorfahrt erlaubt einen konflikt­       an zenitalem Licht kritisch bewertet wird, und das Fehlen
+             freien Betrieb. Ein knapp gehaltenes Vordach markiert        der Lüftungsschächte für die Quartierküche fallen auf.
+             den Haupteingang und gibt der Schule eine klare Adresse.     Der architektonische Gebäudeausdruck wirkt sehr diffe­
+             Eine Treppe kombiniert mit Lift führt sowohl unabhängig      renziert und reagiert subtil auf die unterschiedlichen Nut­
+             in das Untergeschoss zu den Garderoben und der Turn­         zungen. Vertikale Holzlatten bilden ein hölzernes Kleid und
+             halle als auch in das Obergeschoss zu den Klassenzim­        werden von grosszügig zusammengefassten Fensterflä­
+             mern. Die Kinder profitieren von einem weiteren Zugang       chen unterbrochen. Horizontale Leisten binden das Vo­
+             in der Gebäudemitte, der die Schule mit dem Aussenbe­        lumen zusammen und differenzieren die Brüstungsbän­
+             reich verbindet. Die Platzsituation scheint hier durch die   der. Die Ecken werden mit geschlossenen Flächen be­
+             Treppe etwas beengend.                                       tont und lassen die Volumenkomposition stärker in Er­
+             Die Organisation der Grundrisse erfolgt auf selbstver­       scheinung treten. Das Gebäude erhält eine angenehme
+             ständliche Weise nach benutzerfreundlichen Prinzipien.       Massstäblichkeit und bleibt in seiner Materialisierung
+             Un­mittelbar beim Haupteingang befinden sich die auch        und Farbgebung zurückhaltend. Das Projekt überzeugt
+             von Externen genutzten Räume. Die Klassenzimmer der          sowohl mit seiner städtebaulichen Setzung und den da­
+             Eingangsstufe sind im Süden mit direkten Ausgängen           durch entstehenden gut proportionierten Aussenräumen
+             in die zugehörigen Aussenräume angeordnet. Im Innern         als auch mit den interessanten, im Schulalltag attraktiven
+             bringt ein zweigeschossiger Korridorraum Licht nach un­      Raumkompositio­nen im Innern. Die Schule strahlt einen
+             ten und ermöglicht einen visuellen Bezug ins Oberge­         ruhigen Ausdruck aus, wirkt in ihrer Volumetrie interes­
+             schoss. Diese räumlich starke Inszenierung der Vorberei­     sant und schafft dadurch eine eigenständige Identität für
+             che zu den Klassenzimmern wiederholt sich in den Ober­       die Heilpädagogische Schule. Lage und Ausprägung der
+             geschossen in jedem Schenkel in unterschiedlicher Weise      Quartierküche, wie in Teilen die zu beengten Platzverhält­
+             und führt zu verschiedenartigen und spannenden Licht-        nisse werden vom Preisgericht kritisch bewertet.
+
+===== 3. RANG: DREI GAERTEN (S. 42) =====
+             Prämierte Projekte / 3. Rang, 3. Preis. Projekt Drei Gärten
+                                                                                                                                   42
+
+
+
+
+             DREI GÄRTEN                                                   Geschossen kaum räumliche Bezüge und im Klassenzim­
+                                                                           mertrakt müssen die Korridore, die teilweise durch Mate­
+             Wie der Name es schon andeutet, schafft ein windmüh­          rialräume hindurchführen, als räumlich beengend einstuft
+             lenartig gegliederter Baukörper drei Aussenräume unter­       werden. Die verbindende Halle, die alle Nutzungen mit­
+             schiedlicher Prägung – ‚drei Gärten’– auf dem Grundstück.     einander verknüpft, besteht fast gänzlich aus Erschlies­
+             Nach Norden, an der Statthalterstrasse und mit Bezug zur      sungsflächen und weist zu wenig Aufenthaltsqualität auf,
+             nördlich gelegenen Schulanlage, liegt der vorwiegend mit      um als räumliche Mitte und verbindendes Element der
+             Hartbelägen gestaltete, offene Eingangsvorplatz mit der       drei Häuser und der zwei Geschosse bestehen zu kön­
+             Anlieferung. Nach Südosten, zur Morgenstrasse hin, ent­       nen. Der Vorteil der kleinen Volumetrie erlaubt aus wirt­
+             steht ein grosszügiger Freiraum, der die umzäunten Aus­       schaftlicher Sicht die tendenziell teurere Konstruktions­
+             senschulzimmer der Eingangsstufe sowie den Allwetter-         weise als reiner Holzbau für die drei ‚Häuser’ und Beton
+             platz beinhaltet und der durch die strassenbegleitende        für die Erschliessungsbereiche und Lauben. Die Kosten
+             Baumreihe eine angemessene räumliche Abgrenzung von           liegen daher folgerichtig deutlich unter dem Durchschnitt
+             der vielbefahrenen Strasse erhält. Nach Südwesten, zu         der rangierten Projekte.
+             den Wohnhäusern an der Wangenstrasse, wird ein gar­           Mit dem ausgewogenen Anteil an Holzelementen, den
+             tenähnlicher Pausenhof mit unterschiedlichen Spiel- und       reduzierten Fensterflächen sowie der klaren Systemtren­
+             Erfahrungsmöglichkeiten geschaffen. Die Fusswegverbin­        nung wird der Energiebilanz und der ökologischen Nach­
+             dungen zur Umgebung sind logisch angelegt. Das Projekt        haltigkeit positiv Rechnung getragen. Kritisch hingegen
+             weist aussenräumlich eine hohe Qualität auf.                  werden die geringe Speichermasse sowie der erhöhte
+             Die Platzierung der Quartierküche führt dazu, dass sich       Anteil an zenitalem Licht beurteilt (sommerlicher Wärme­
+             die Anlieferung neben dem Haupteingang, an der Statt­         schutz). Die Dimensionierung der Zentralen und die Ver­
+             halterstrasse befindet. Um eine Kreuzung von Schulweg         teilung der Haustechnikinstallationen sind nicht gelöst.
+             und Anlieferung zu vermeiden, wird der Übergang zur           Die Gestaltung der Umgebung lässt dank der klugen Plat­
+             nördlichen Schulanlage für die Fussgänger in der Verlän­      zierung der Baukörper keine Restflächen entstehen. Es
+             gerung des Haupteinganges auf den gegenüberliegenden          gibt keine durchgehende Grünanlage, dafür aber umlau­
+             Pausenplatz geführt. Jedoch wird dadurch die Verbindung       fend attraktive, gut proportionierte und funktionierende
+             zur Wangenstrasse, die für die Schülerinnen und Schü­         Räume. Die Hecken- und Baumstruktur wird weitgehend
+             ler als Nord-Süd-Verbindung zwischen den Schulanlagen         erhalten und gut eingebunden. Die Vorgaben der Biodiver­
+             dient, erschwert.                                             sität sind umsetzbar. Der Entwurf zeigt eine Umgebung
+             Das Raumprogramm wird auf drei Gebäudeflügel unter­           mit «Wohnraum-Qualität». Dies zeigt sich im Besonderen
+             schiedlicher Typologie, Tiefe und Baustruktur aufgeteilt.     darin, dass zahlreiche kleinräumige Orte geschaffen wer­
+             Dabei bildet derjenige nach Nordosten, der die Turnhal­       den. Das Naturerlebnis kann gut mit den zahlreichen An­
+             le mit ihren Nebenräumen und im Obergeschoss die Ver­         sprüchen an die Gartenanlage kombiniert werden. Kon­
+             waltung enthält, den volumetrischen Schwerpunkt. Die          fliktzonen sind weitgehend entflochten. Die Aussensport­
+             beiden anderen Arme werden im Prinzip zweibündig or­          anlage liegt in der Nähe der Sporthalle und der Morgen­
+             ganisiert, wobei der schlanke Klassenzimmertrakt opti­        strasse. Dank der spannenden Raumabfolge, der guten
+             mal Ost-West ausgerichtet ist. Der dritte Flügel beinhal­     Erschliessung und dem naturnahen Potenzialraum ist der
+             tet im Erdgeschoss die Quartierküche mit Essraum und          landschaftsarchitektonische Beitrag wertvoll.
+             Mehrzwecksaal und darüber die Spezial- und Therapie­          Das Projekt Drei Gärten besticht durch eine präzise Set­
+             zimmer. Diese Nutzungsanordnung erscheint insgesamt           zung der Bauvolumen und der daraus resultierenden wohl­­-
+             plausibel und übersichtlich. Die Bezüge der Erdgeschoss­      proportionierten und gut nutzbaren Aussenräume, durch
+             nutzungen zu den unterschiedlichen Aussenräumen sind          die logische Umsetzung des Raumprogramms in klar struk-
+             sorgfältig konzipiert. Die im Quervergleich minimale Vo­      turierte Funktionseinheiten und durch eine für die zukünf­
+             lumetrie wird durch eine effiziente Grundrissorganisati­      tigen Nutzer adäquate Materialisierung. Der fehlende
+             on und Baustruktur sowie die Minimierung der Verkehrs­        Freiraum aufgrund der sehr reduzierten Verkehrsflächen,
+             flächen erreicht. Dies geht jedoch vielerorts auf Kosten      die etwas zu karge Mitte sowie das «Zerfallen» des Bau­
+             der innenräumlichen Qualität. So gibt es zwischen den         körpers in Einzelgebäude können weniger überzeugen.
+
+===== 4. RANG: KATSURA (S. 50) =====
+             Prämierte Projekte / 4. Rang, 4. Preis. Projekt KATSURA
+                                                                                                                                  50
+
+
+
+
+             KATSURA                                                      für allfällige spätere Veränderungen und schafft mit den
+                                                                          natürlichen Materialien Beton, Holz und Klinker ein ange­
+             Der zweigeschossige, in Grundriss und Schnitt mehr­          nehmes Raumklima sowie eine atmosphärische Qualität.
+             fach gegliederte Baukörper besetzt den östlichen Teil des    Ob diverse vorgeschlagene architektonische Lösungen
+             Areals entlang der Morgenstrasse und schafft so einen        im Innern wie im Äussern den funktionalen, technischen
+             grösseren, zusammenhängenden Aussenraum zu den               und wirtschaftlichen Anforderungen zu genügen vermö­
+             bestehenden Wohnbauten am Stadtbach. Seine genaue            gen, muss zumindest hinterfragt werden. So bleibt bei­
+             Positionierung erzeugt eine gewisse Verunsicherung, sie      spielsweise unklar, wie die grossen im Erdgeschoss un­
+             folgt weder der Ausrichtung der bestehenden Schulan­         geteilten Fenster der Eingangsstufe geöffnet oder wie
+             lage noch einer der angrenzenden Strassen. Sämtliche         die Lichtdecke über dem Essbereich angemessen umge­
+             Zugänge und Anlieferungen erfolgen über die Statthalter­     setzt werden können. Das Projekt weist im Vergleich zu
+             strasse. Eine längere Mauer grenzt den Zugang für Fuss­      den rangierten Projekten überdies eher hohe Kosten auf.
+             gänger von den Häusern an der Wangenstrasse ab und           Die Vorgabe der Zielbaukosten wird jedoch eingehalten.
+             verhindert so allzu starkes Konfliktpotenzial.               Bei der Gestaltung des Aussenraums gelingt es dem Pro­
+             Die gekonnte Gliederung des Baukörpers entwickelt sich       jekt, dank des kompakten Fussabdrucks die Anforderun­
+             aus dem Raumprogramm und ordnet die Turnhalle über           gen an die ökologischen Massnahmen gut mit den An­
+             dem Lehrerbereich und der Mediathek sowie die Werk­          sprüchen an die Spielnutzung und dem Lern- und Erleb­
+             stätten über der Quartierküche entlang der Statthalter­      nisort Natur zu verbinden. Die Erschliessungswege sind
+             strasse an. Im dritten, nach Süden orientierten Trakt wer­   für die verschiedenen Nutzer aus Quartier und Schule gut
+             den sämtliche Unterrichtsräume angeordnet, wobei die         entflochten. Die Anlage ist an die bestehenden Schulge­
+             Eingangsstufe von einem direkten Bezug zum vorgela­          bäude bestens angeschlossen. Die Ankunftssituation ist
+             gerten, eigenen Gartenbereich profitiert. Diese Vorzonen     mit der einfachen Geste der Sitzmauer geklärt und wirkt
+             sind etwas zu exponiert ausformuliert und müssten stär­      dennoch nicht trennend zum Quartier. Der motorisierte
+             ker von der Umgebung abgegrenzt werden. Die drei Ge­         Verkehr wird kompakt und platzschonend geführt. Die
+             bäudetrakte werden im Erdgeschoss durch einen gross­         Parkierungsanlage für Autos belastet indes den Wurzel­
+             zügig angelegten Erschliessungs- und Essbereich mitei­       bereich der Bestandsbäume.
+             nander verbunden. Diese transparent ausformulierte Mit­      Das sorgfältig dargestellte Projekt weist grosse räum­
+             te erlaubt attraktive Sichtbezüge zwischen dem Essraum       liche Qualitäten auf und stellt mit seinem ambitiösen ar­
+             und den grossen Aussenbereichen beidseits des Gebäu­         chitektonischen Anspruch und einem attraktiven Aussen­
+             des. Den inneren Erschliessungsbereichen liegt spürbar       raum einen wertvollen Beitrag für eine neue Heilpädago­
+             ein räumlich hoher Anspruch zugrunde. Ihre in Teilen zu      gische Schule in Bern dar, es vermag letztendlich aber das
+             kleine Dimensionierung und im Erdgeschoss auch die           Preisgericht aus den genannten Gründen nicht vollständig
+             Qualität der natürlichen Belichtung der zentralen Zonen      zu überzeugen.
+             der drei Trakte vermögen diese Qualität aber nicht einzu­-
+             lösen. Die autonome Zugänglichkeit der Turnhalle im Ober-
+             geschoss kann während und ausserhalb des Schulbetrie-
+             bes nur mit grösserem Aufwand sichergestellt werden.
+             Der strukturelle Aufbau des Gebäudes ermöglicht in den
+             Nutzungsbereichen entlang der Fassade eine Flexibilität
+
+
+
+
+
+===== 5. RANG: JO - JO (S. 58) =====
+             Prämierte Projekte / 5. Rang, 5. Preis. Projekt JO - JO
+                                                                                                                                   58
+
+
+
+
+             JO - JO                                                      ter anderem dazu bei, dass dieses Projekt im Vergleich zu
+                                                                          den übrigen rangierten Projekten die grösste Volumetrie
+             Durch eine klare Setzung und die Übernahme der Geo­          und in Kombination mit der vorgesehenen Konstruktions­
+             metrie gelingt es, den prägnanten, auf einer Hoftypologie    weise die höchsten Gesamtkosten erwarten lässt. Die
+             basierenden Baukörper der nördlichen Schulanlage zuzu­       Statik der aus Stützen und Platten aufgebauten Baustruk­
+             ordnen. Das zweigeschossige Bauvolumen bildet dabei          tur ist ausserdem durch den Wechsel der Erschliessung
+             den räumlichen Abschluss des dem Statthalterschulhaus        zwischen den Geschossen an einigen Stellen ungelöst.
+             vorgelagerten Freiraums. Gleichzeitig wird das Gebäude       Mit dem ausgewogenen Anteil an Holzelementen sowie
+             über seinen nordwestlichen Eingangsvorplatz an die Wan­      der klaren Systemtrennung wird der ökologischen Nach­
+             genstrasse angebunden, die als Verbindungsachse zwi­         haltigkeit positiv Rechnung getragen. Kritisch hingegen
+             schen den drei Schulanlagen dient, und entlang derer die     werden der hohe Glasanteil, die geringe Speichermasse
+             Schulhausvorplätze eine eigentliche Platzabfolge bilden.     sowie der Anteil an zenitalem Licht beurteilt (sommer­
+             Der Haupteingang orientiert sich zur Wangenstrasse. Die      licher Wärmeschutz). Die Technikflächen sind in der Plat­
+             Vorfahrt und die Anlieferung liegen weiter in Richtung       zierung mit dem Schachtkonzept abgestimmt und lassen
+             Morgenstrasse, sodass Fussgängerzugang und Zufahrten         kurze und effiziente Wege zu.
+             gut voneinander getrennt sind.                               Die Umgebungsgestaltung zeigt einen umlaufenden Grün­
+             Die drei Nutzungseinheiten Heilpädagogische Schule,          gürtel entlang den äusseren Grundstücksgrenzen. Die
+             Quartierküche und Turnhalle sind so geschickt angeord­       Vegetation entlang der Morgenstrasse kann weitgehend
+             net, dass sie von der Eingangshalle direkt erreicht und      erhalten und ausgebaut werden. Der naturnahe Lern- und
+             autonom voneinander betrieben werden können. Die             Spielort lässt sich anhand der zurückhaltenden Darstel­
+             Quartierküche besetzt dabei im Erd- und Untergeschoss        lung aber nur erahnen. Der gegen die Statthalterstrasse
+             die Nordostecke zur Statthalterstrasse, während sich die     hin offen gestaltete Pausenplatz, welcher gleichzeitig auch
+             Turnhalle mit ihren Nebenräumen im Untergeschoss be­         als Teil des Ankunftsbereiches der Fussgänger dient, stellt
+             findet. Auf diese Weise organisieren sich im Erdgeschoss     einen interessanten Beitrag für eine Quartierfläche dar.
+             die gemeinschaftlichen Räume, die Verwaltung, der Leh­       Der begrünte Innenhof übernimmt das Thema der äus­
+             rerbereich und die Werkräume der Heilpädagogischen           seren Freiraumgestaltung in reduziertem Massstab. Die
+             Schule um den Luftraum der Turnhalle herum. Alle übri­       Funktionalität des Hofes lässt sich aber nicht schlüssig
+             gen Unterrichtszimmer und die Therapieräume befinden         deuten. Die gute Entwicklung der Vegetation bei fehlen­
+             sich im ersten Obergeschoss, was für den Unterrichts­        der Erdüberdeckung ist zu hinterfragen. Die Aussenraum­
+             betrieb Vorteile bietet. Dieses Geschoss beinhaltet im       gestaltung lässt die Potenziale einer vernetzten, natur­
+             Innern, auf dem Dach der Turnhalle, einen Hof, der den       nahen Umgebung für einen Schulbetrieb missen.
+             Schulzimmern der Eingangsstufe als begrünter und ge­         Das Projekt weist insgesamt interessante Qualitäten auf.
+             schützter Aussenraum dient.                                  Das Gebäudeinnere lebt von den räumlich reizvollen Be­
+             In konstruktiver Hinsicht wird das gesamte Projekt von       zügen zwischen den Erschliessungs- und Gemeinschafts­
+             der Idee einer Primärstruktur mit durchgehendem Ras­         bereichen des Erdgeschosses sowie der Turnhalle und
+             ter geprägt, welches je nach Bedarf unterschiedlich aus­     im Obergeschoss vom Angebot des geschützten, um­
+             gefüllt und später angepasst werden kann. Dies betrifft      schlossenen Innenhofes. Jedoch führt die Typologie mit
+             nicht nur den Grundrissaufbau, sondern auch die Fassa­       der Turnhalle im Inneren zu einem Gebäude, das sich
+             denstruktur. Die Idee der Modularität hat grosses Poten­     stark nach innen orientiert und das wenig mit dem um­
+             zial, bleibt jedoch vor allem in der Ausarbeitung der Fas­   liegenden Aussenraum kommuniziert. So ist die Turnhal­
+             sade rudimentär und schematisch. Dessen architekto­          le als schulübergreifende und quartierbezogene Nutzung
+             nischer Ausdruck erinnert eher an ein Büro-, denn an ein     von aussen nicht wahrnehmbar. Die Lage der Turnhalle im
+             Schulgebäude.                                                Innern hat ausserdem nur wenig Tageslicht zur Folge. Das
+             Die ringförmige Erschliessung, die teilweise entlang der     Preisgericht würdigt das Projekt als einen wertvollen Bei­
+             Aussenfassade geführt wird, wie auch der auf einem           trag zum Schulbau. Die vorgeschlagene Typologie vermag
+             strikten Raster basierende Grundrissaufbau führen zu         als spezifische Lösung für die Heilpädagogische Schule
+             einem grossen Verkehrsflächenverbrauch. Dies trägt un­       aus den genannten Gründen aber nicht zu überzeugen.
+
+
+
+
+
+===== 6. RANG: DUPLO (S. 66) =====
+             Prämierte Projekte / 6. Rang, 6. Preis. Projekt DUPLO
+                                                                                                                                    66
+
+
+
+
+             DUPLO                                                         tenanlagen sehr weit werden können. Die grosszügige
+                                                                           Treppenanlage liegt gut belichtet an attraktiver Lage und
+             Die Projektierenden verstehen die neue Schule als räum­       dient den Kindern zur Orientierung. Im ersten Oberge­
+             liche Weiterentwicklung der bestehenden Anlage auf der        schoss gelangen die Kinder direkt zu ihren eigenen Aus­
+             anderen Seite der Statthalterstrasse, was vom Preisge­        senräumen in luftiger Höhe. Diese an und für sich schöne
+             richt anhand des Modells nicht überzeugend nachvoll­          Idee mag für eine Regelschule gut funktionieren. Für eine
+             zogen werden kann. Das Neubauvolumen wirkt aufgrund           Heilpädagogische Schule mit Kindern unterschiedlichster
+             seiner Dimensionen etwas sperrig. Im Grundriss ist es         Beeinträchtigung bestehen hier Fragen zur Sicherheit, die
+             lang und breit. Die ausgewogen proportionierte Höhen­         mit dem angedeuteten Staketengeländer nicht beantwor­
+             staffelung fällt hingegen positiv auf. Das Gebäude ist ge­    tet werden.
+             schickt im Grundstück platziert. Es teilt das Grundstück in   Die Klassenzimmer sind nach Osten oder Westen orien­
+             langgezogene Aussenräume mit klar zugeordneten Funk­          tiert, zwei Gruppenräume befinden sich jeweils zwischen
+             tionen und logischer Adressbildung. Dabei bildet es als       drei Klassenzimmern. Die Spezialräume wie Hauswirt­
+             strassenbegleitendes Volumen einen wirksamen Lärm­            schaft und Werken befinden sich optimal im Erdgeschoss.
+             schutz für die Aufenthaltsbereiche im Freien. Der nord­       Der Essraum liegt in unmittelbarer Nähe zur Quartierkü­
+             westliche Aussenraum ist der Nutzung durch die Schu­          che. Sie bildet im Süden den eingeschossigen Abschluss
+             len und das Quartier vorbehalten, während die Fläche          der Schulanlage und schafft so einen verträglichen Über­
+             zwischen Morgenstrasse und dem neuen Volumen der              gang zum Wohnquartier. Die Anlieferung der Quartier­
+             Erschliessung dient. Der durch das Volumen getrennte          küche und die Vorfahrt der Schule sind betrieblich gut ge­
+             Freiraum wird jedoch mit grossem Nutzungsdruck be­            trennt. Die Quartierküche weist gute Abläufe auf, einzig
+             legt. Diesem Umstand begegnet das Projekt mit der An­         der ausserhalb liegende Lift liegt nicht optimal.
+             ordnung von Gärten auf zwei der abgestuften Dachflä­          Der architektonische Ausdruck mit dem vorgeschlagenen
+             chen. Atmosphärisch birgt diese Geste ein Versprechen,        regelmässigen Fassadenraster und den mächtigen Vergla­
+             welches aber nicht zu überzeugen vermag. So führt die         sungen erinnert stark an die Typologie neuzeitlicher Büro­
+             geografische und topografische Trennung auch zur Tren­        bauten. Geschosshohe Verglasungen entsprechen nicht
+             nung vom Lern- und Spielort und dem Erleben der Natur.        der Nutzung und der gewünschten Massstäblichkeit ei­­-
+             Der Aussenraum wirkt trotz guter Auseinander­      setzung    ner Heilpädagogischen Schule. Ausserdem sind die Klas­
+             mit dem Thema der Biodiversität eher trennend als inklu­      senzimmer schwierig zu möblieren oder zonieren, um bei­­­­-
+             dierend.                                                      spielsweise einen individuell betreuten Schulunterricht in
+             Die volumetrische Höhenstaffelung widerspiegelt hin­          Kleinstgruppen zu ermöglichen.
+             gegen sehr schön die innere Organisation. Dabei liegt die     Das Energie- und Gebäudehüllenkonzept vermag durch
+             Turn­halle prominent an der Statthalterstrasse und stellt     den hohen Glasanteil und die geringe Speichermasse
+             den Bezug zu bestehenden Schulanlage auf einfache und         nicht zu überzeugen. Das Technikkonzept lässt wesent­
+             selbstverständliche Weise her. Der dreigeschossige Schul­-    liche Fragen offen, sodass insgesamt Zweifel betreffend
+             trakt überragt alles und manifestiert die Heilpädagogische    dem Erreichen der Minergie-P-Vorgaben bestehen. Die
+             Schule nach aussen. Dazwischen liegt geschickt platziert,     Vorgabe der Zielbaukosten wird eingehalten. Die Kosten
+             eine als Verbindung genutzte und multifunktional einsetz­     liegen leicht über dem Durchschnitt der rangierten Pro­
+             bare Eingangshalle, die sowohl eine autarke Erschlies­        jekte.
+             sung der Schule als auch der Turnhalle zulässt. Die Ein­      Der Beitrag weist eine sehr einfache und intelligente Or­
+             gangshalle wird dadurch zu einer wichtigen und attrak­        ganisation auf und erzeugt Aussenräume mit vielseitigen
+             tiven Drehscheibe des Gebäudes.                               Bezügen. Aus den genannten Gründen vermag das Pro­
+             Im Erdgeschoss befinden sich die Gemeinschaftsräume           jekt das Preisgericht aber nicht vollends zu überzeugen,
+             und der Verwaltungsbereich. Die Eingangsstufe ist im ers­-    auch wenn es ortsbaulich und typologisch einen wert­
+             ten und die Oberstufe im zweiten Obergeschoss ange­           vollen Beitrag zum Thema Regelschule darstellt. Als spe­
+             ordnet. Ein zentraler Kern teilt den Zirkulationsbereich      zifische Lösung für die Heilpädagogische Schule bleiben
+             relativ hart in zwei Zonen, sodass die Wege zu den Toilet­    zu viele Fragen offen.
+
+
+
+
+180755_HSB_JB_HPS_03_04_18.indd 66                                                                                                       04.04.18 10:39

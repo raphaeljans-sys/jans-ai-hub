@@ -1,0 +1,181 @@
+{
+  "slug": "Ungers_Oswald_Mathias",
+  "architekt": {
+    "name": "Ungers Oswald Mathias",
+    "nachname": "Ungers",
+    "vorname": "Oswald Mathias",
+    "jahre": [],
+    "ordner": "Ungers_Oswald_Mathias"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Ungers_Oswald_Mathias",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "00_Vergleich_Ungers_Rowe",
+      "ort": "00",
+      "projekt": "Vergleich Ungers Rowe",
+      "jahre": [],
+      "titel": "00 Vergleich Ungers Rowe"
+    },
+    {
+      "raw": "Berlin_Archipel_Staedte_in_der_Stadt",
+      "ort": "Berlin",
+      "projekt": "Archipel Staedte in der Stadt",
+      "jahre": [],
+      "titel": "Berlin Archipel Staedte in der Stadt"
+    },
+    {
+      "raw": "Berlin_Charlottenburg_Goethepark_RESIDENTIAL BUILDING : WOHNHOF AM GOETHEPARK IN CHARLOTTENBURG, BERLIN 1980",
+      "ort": "Berlin",
+      "projekt": "Charlottenburg Goethepark RESIDENTIAL BUILDING : WOHNHOF AM GOETHEPARK IN CHARLOTTENBURG, BERLIN 1980",
+      "jahre": [],
+      "titel": "Berlin Charlottenburg Goethepark RESIDENTIAL BUILDING : WOHNHOF AM GOETHEPARK IN CHARLOTTENBURG, BERLIN 1980"
+    },
+    {
+      "raw": "Berlin_Entwurf_fuer_den_Umbau_des_Pergamonmuseum",
+      "ort": "Berlin",
+      "projekt": "Entwurf fuer den Umbau des Pergamonmuseum",
+      "jahre": [],
+      "titel": "Berlin Entwurf fuer den Umbau des Pergamonmuseum"
+    },
+    {
+      "raw": "Berlin_Friedrichvorstadt_1981",
+      "ort": "Berlin",
+      "projekt": "Friedrichvorstadt",
+      "jahre": [
+        "1981"
+      ],
+      "titel": "Berlin Friedrichvorstadt 1981"
+    },
+    {
+      "raw": "Berlin_Gutachen_Block_1",
+      "ort": "Berlin",
+      "projekt": "Gutachen Block 1",
+      "jahre": [],
+      "titel": "Berlin Gutachen Block 1"
+    },
+    {
+      "raw": "Berlin_Hotel",
+      "ort": "Berlin",
+      "projekt": "Hotel",
+      "jahre": [],
+      "titel": "Berlin Hotel"
+    },
+    {
+      "raw": "Berlin_IBA_Wohnhaus_Friedrichstrasse",
+      "ort": "Berlin",
+      "projekt": "IBA Wohnhaus Friedrichstrasse",
+      "jahre": [],
+      "titel": "Berlin IBA Wohnhaus Friedrichstrasse"
+    },
+    {
+      "raw": "Berlin_Ideenwettbewerb_Landwehrkanal",
+      "ort": "Berlin",
+      "projekt": "Ideenwettbewerb Landwehrkanal",
+      "jahre": [],
+      "titel": "Berlin Ideenwettbewerb Landwehrkanal"
+    },
+    {
+      "raw": "Berlin_Suedliche_Friedrichstadt_1977",
+      "ort": "Berlin",
+      "projekt": "Suedliche Friedrichstadt",
+      "jahre": [
+        "1977"
+      ],
+      "titel": "Berlin Suedliche Friedrichstadt 1977"
+    },
+    {
+      "raw": "Enschede_Studentenwohnheim_1964",
+      "ort": "Enschede",
+      "projekt": "Studentenwohnheim",
+      "jahre": [
+        "1964"
+      ],
+      "titel": "Enschede Studentenwohnheim 1964"
+    },
+    {
+      "raw": "Frankfurt_am_Main_Deutsches_Architekturmuseum",
+      "ort": "Frankfurt",
+      "projekt": "am Main Deutsches Architekturmuseum",
+      "jahre": [],
+      "titel": "Frankfurt am Main Deutsches Architekturmuseum"
+    },
+    {
+      "raw": "Hamburg_Galerie_der_Gegenwart",
+      "ort": "Hamburg",
+      "projekt": "Galerie der Gegenwart",
+      "jahre": [],
+      "titel": "Hamburg Galerie der Gegenwart"
+    },
+    {
+      "raw": "Koeln_Haus_am_Kaempchensweg",
+      "ort": "Koeln",
+      "projekt": "Haus am Kaempchensweg",
+      "jahre": [],
+      "titel": "Koeln Haus am Kaempchensweg"
+    },
+    {
+      "raw": "Koeln_Neue_Stadt",
+      "ort": "Koeln",
+      "projekt": "Neue Stadt",
+      "jahre": [],
+      "titel": "Koeln Neue Stadt"
+    },
+    {
+      "raw": "Koeln_Wallraf_Richartz_Museum",
+      "ort": "Koeln",
+      "projekt": "Wallraf Richartz Museum",
+      "jahre": [],
+      "titel": "Koeln Wallraf Richartz Museum"
+    },
+    {
+      "raw": "Koeln_Wohnhaus_des_Architekten",
+      "ort": "Koeln",
+      "projekt": "Wohnhaus des Architekten",
+      "jahre": [],
+      "titel": "Koeln Wohnhaus des Architekten"
+    },
+    {
+      "raw": "New_York_Gotham_Cyti",
+      "ort": "New",
+      "projekt": "York Gotham Cyti",
+      "jahre": [],
+      "titel": "New York Gotham Cyti"
+    },
+    {
+      "raw": "Utscheid_Haus_Glashuette_1988",
+      "ort": "Utscheid",
+      "projekt": "Haus Glashuette",
+      "jahre": [
+        "1988"
+      ],
+      "titel": "Utscheid Haus Glashuette 1988"
+    }
+  ],
+  "projekt_anzahl": 20,
+  "inventar": {
+    "bilder": 166,
+    "dokumente": 14,
+    "cad": 0,
+    "andere": 2,
+    "total": 182
+  },
+  "dateitypen": {
+    ".jpg": 135,
+    ".tif": 21,
+    ".pdf": 12,
+    ".png": 6,
+    ".tiff": 4,
+    ".html": 2,
+    ".docx": 2
+  },
+  "textauszug": "08.08.12 23:33Bauten - UAA Seite 1 von 3http://www.ungersarchiv.de/bauten.html Sie sind hier: UAA » OMU Nachlass » Bauten BAUTEN (selektiv) Mehrfamilienhäuser Mauenheimer Straße, Köln-Nippes 1957-1959 Deutsches Architekturmuseum Frankfurt am Main 1979-1984 Alfred-Wegener-Institut Bremerhaven 1980-1984 Torhaus Frankfurt 1983-1984 Erweiterung 1989-1997 08.08.12 23:33Bauten - UAA Seite 2 von 3http://www.ungersarchiv.de/bauten.html Kunstinsel Hamburg, Galerie der Gegenwart Hamburg 1986-1996 Erweiterung Messegelände Süd Berlin 1990-1999 Friedrichstadt-Passage Block 205 Berlin 1991-1995 Wallraf-Richartz-Museum Köln 1997-2000 08.08.12 23:33Bauten - UAA Seite 3 von 3http://www.ungersarchiv.de/bauten.html Pergamonmuseum Berlin Grundinstandsetzung und Ergänzung, Planung seit 2000 Haus Ungers 3 Köln 1994-1996 Wohnbebauungen Veröffentlichungen zur Architektur Herausgegeben an der TU Berlin vom Lehrstuhl für Entwerfen VI o. Prof. Dipl.-Ing. O.M.Ungers November 1968 Bearbeitet durch Gisa Suhr Seminarleiter Michael Wegener Semesterarbeiten Wintersemester 1 967 / 68 Teilnehmer: Dolf Bissinger Furio Cruciani Herfried Danisch Gorch Dennert Wolfgang Hack Hans-Henning Joeres Isabe Krause Heidrun Kunert Horst Looft Torsten Mahlke K. Walter Neumann Adolf Neunhäuserer Johann-Heinrich Olbrisch Detlef Ortmann Wildried Pohl Wolfgang Saltzmann Gernulf Schalow Kathrin Schaper Dieter Schloßmann Axel Schulz Ludwig Straube Gisa Suhr Mine Taner Hans-Joachim Uhlmann Karl Wucherpfennig 19 134 OMU_3_HT2_061203_2.indd 134 05.12.2006 19:45:20 Uhr Entwurfsprojekt W1 G. Dennert, T . Mahlke, Isometrie, Straßen- und Fußgängerwegenetz, Übersichtsdarstellung der Blocktypen. Bausubs- tanz, Nutzungen und T opographie siehe S.146, 147 Das gesteckte Ziel war eine städtebauliche Ent- wurfsübung, die sich auf die Organisation der Nutzungselemente und der Kommunikation und deren dreidimensionale Anordnung bezog. Hierbei kam es vor allen Dingen darauf an, einen komplexen Entscheidungsprozeß mit den verfügbaren Mitteln und Kenntnissen innerhalb der festgelegten Zeit exemplarisch durchzuspielen. Die Erkenntnisse, die aus diesem Seminar gezogen werden können, liegen im Vergleich der Alternativergebnisse unter- einander und deren gegenseitiger Bewertung. Die zur Anwendung kommenden Bewertungskriterien mußten von Fachleuten anderer Wissensgebiete aufgestellt und auf die AlternativvorschIäge ange- wandt werden. 135 OMU_3_HT2_061203_2.indd 135 05.12.2006 19:45:23 Uhr Die vorgeschlagenen Wohnbebauungen sind das Ergebnis einer städtebaulichen Übung des Winter- semesters 1967 / 68. Das Thema wurde in Form eines Seminars bearbeitet, an dem sich 25 Studen- ten beteiligten, und dessen Organisation und Lei- tung Herr Wegener übernahm. Die vier behandel- ten Wohngebiete Provinzstraße in Reinickendorf, Bornholmer Straße in Wedding, Ortolanweg in Neukölln und Buckower Damm in Buckow wurden vom Senator für Bau- und Wohnungswesen vorge- schlagen und planerisch vorbereitet. An Unterlagen standen die Flächennutzungspläne sowie kurze Gebietsbeschreibungen mit einer Definition der generellen Planungsziele zur Verfügung. Die hierin von der Senatsplanung getroffenen Vorentschei- dungen wurden wegen der schnelleren Faßbarkeit der Aufgabe als gegeben angenommen. Lediglich beim Planungsgebiet Buckower Damm ist in einer Reihe von Vorschlägen das Baugebiet über das in der Aufgabenstellung genannte Gebiet hinaus aus- gedehnt worden. Die weitgehende Außerachtlas- sung der dort vorhandenen Einzelhausbebauung verringert den Realitätsgrad dieser Vorschläge fast auf Null. Daß jedoch von den fünf mit diesem Gebiet befaßten Arbeitsgruppen nicht weniger als vier meinten, sich über die in den Planungsunter- lagen gegebenen Gebietsabgrenzungen hinweg- setzen zu müssen, läßt einen Rückschluß auf deren Willkürlichkeit zu. Die Planung für das Wohngebiet Ortolanweg in Neukölln wurde außerhalb der eigentlichen Seminarveranstaltung vorweg geson- dert bearbeitet, später jedoch der Vollständigkeit wegen in die Veröffentlichung mit einbezogen. Die Seminararbeit lief in drei aufeinander folgenden Phasen ab. Der erste Teil der Bearbeitung bestand in einer stark vereinfachten Gebietsanalyse, unter Berücksichtigung der Gesichtspunkte der Baustruk- tur, des Verkehrs, der Nutzung und der Standorte. Für die Erfassung dieser Gesichtspunkte sowie die zeichnerische Wiedergabe der Ergebnisse benö- tigten die Teilnehmer eine Bearbeitungszeit von etwa zwei Monaten. Die Arbeit fand in Gruppen von sechs (Reinickendorf und Wedding) bzw. zehn Teilnehmern (Buckow) statt. Der zweite Bearbeitungsgang diente der Ermittlung von Entwurfsvorschlägen. Zunächst legten die Teil- nehmer nach einer einwöchigen Bearbeitungszeit Einzelvorschläge vor. Hieraus konnten in einer ge- meinsamen Diskussion grundsätzliche Bebauungs- alternativen ermittelt werden, und zwar je drei für die Wohngebiete Reinickendorf und Wedding und fünf für das Wohngebiet Buckow. Die letzte Phase 136 OMU_3_HT2_061203_2.indd 136 05.12.2006 19:45:25 Uhr Diese Kombination von Rationalität und Kreativität war auch nach dem Verlassen der Architektur das Leitbild meiner beruflichen Arbeit. Michael Wegener Ungers und Wegener © Foto:Jürgen Müller-Trimbusch umfaßte die Ausarbeitung der Alternativlösungen durch je zwei Teilnehmer. Zum besseren Vergleich einigten sich die Gruppen untereinander auf eine einheitliche Darstellung der PIäne. Während der Ausarbeitungszeit von vier Monaten fanden wö- chentlich Korrekturbesprechungen mit den einzel- nen Gruppen statt. Das Seminar endete mit einer Präsentation und einer Abschlußdiskussion unter den Beteiligten. Die Planung und Durchführung des Seminars ging von vornherein von der Forderung einer zeitlichen Begrenzung auf ein Semester einschließlich der vorlesungsfreien Zeit aus, mit der Zusicherung eines abgeschlossenen Entwurfs für alle Teilnehmer. Dementsprechend mußte der Planungsprozeß verkürzt und der Umfang der Ausarbeitung einge- schränkt werden. aus dem Vorwort, VzA 19 137 OMU_3_HT2_061203_2.indd 137 05.12.2006 19:45:27 Uhr R1 Johann-Heinrich Olbrisch, Axel Schulz W1 Gorch Dennert, Torsten Mahlke B3 Hans-Henning Joeres, Gernulf Schalow N1 Herfried Danisch, Horst Looft, Detlef Ortmann R2 Wolgang Saltzmann, Dieter Schloßmann W2 Wolfgang Hack, Karl Wucherpfennig B4 K. Walter Neumann, Ludwig Straube B1 Furio Cruciani, Adolf Neunhäuserer R3 Dolf Bissinger, Gisa Suhr W3 Heidrun Kunert, Wilfried Pohl B5 Hans-Joachim Uhlmann, Kathrin Schaper B2 Ilsabe Krause, Mine Taner 138 OMU_3_HT2_061203_2.indd 138 05.12.2006 19:45:32 Uhr B3 Hans-Henning Joeres, Gernulf Schalow B4 K. Walter Neumann, Ludwig Straube B5 Hans-Joachim Uhlmann, Kathrin Schaper R1 Johann-Heinrich Olbrisch, Axel Schulz W1 Gorch Dennert, Torsten Mahlke N1 Herfried Danisch, Horst Looft, Detlef Ortmann R2 Wolgang Saltzmann, Dieter Schloßmann W2 Wolfgang Hack, Karl Wucherpfennig B1 Furio Cruciani, Adolf Neunhäuserer R3 Dolf Bissinger, Gisa Suhr W3 Heidrun Kunert, Wilfried Pohl B2 Ilsabe Krause, Mine Taner 139 OMU_3_HT2_061203_2.indd 139 05.12.2006 19:45:35 Uhr Erika Mühlthaler Im Gespräch mit Jürgen Sawade Zu den Wochenaufgaben Sawade: Ungers entwickelte seine Wochenaufgaben als Reaktion auf die ersten Ent- wurfsarbeiten, die ihm vorgelegt wurden. Die Studenten zu der Zeit entwarfen illustre Geschichten im Grünen. Sie wussten aber nicht, was ein Skelettbau, was ein Scheibenbau und was ein Massivbau ist. Ungers erkannte, daß er die Defizite ausgleichen mußte, um systematisch weiterarbeiten zu können. Er wollte die Arbeit der Studenten strukturieren und systematisieren. Daraufhin haben wir Wochenwettbewerbe zu den oben genannten Themen gemacht. Die Strukturierung, eine der wesentlichen Aufgaben der Architektur, war den Studenten bis dato nicht bewußt. Ungers Versuch zielte nun darauf, daß die Studenten exemplarisch in verschiedenen idealisierten, man könnte auch sagen konzep- tionellen Tragwerksstrukturen denken lernen mussten. Damit hat er die Entwurfsarbeit angekurbelt und die Studenten sauber in Kategorien denken l",
+  "embed_doc": "Ungers Oswald Mathias | 00 Architekten | 00 Vergleich Ungers Rowe | Berlin Archipel Staedte in der Stadt | Berlin Charlottenburg Goethepark RESIDENTIAL BUILDING : WOHNHOF AM GOETHEPARK IN CHARLOTTENBURG, BERLIN 1980 | Berlin Entwurf fuer den Umbau des Pergamonmuseum | Berlin Friedrichvorstadt 1981 | Berlin Gutachen Block 1 | Berlin Hotel | Berlin IBA Wohnhaus Friedrichstrasse | Berlin Ideenwettbewerb Landwehrkanal | Berlin Suedliche Friedrichstadt 1977 | Enschede Studentenwohnheim 1964 | Frankfurt am Main Deutsches Architekturmuseum | Hamburg Galerie der Gegenwart | Koeln Haus am Kaempchensweg | Koeln Neue Stadt | Koeln Wallraf Richartz Museum | Koeln Wohnhaus des Architekten | New York Gotham Cyti | Utscheid Haus Glashuette 1988 | 08.08.12 23:33Bauten - UAA Seite 1 von 3http://www.ungersarchiv.de/bauten.html Sie sind hier: UAA » OMU Nachlass » Bauten BAUTEN (selektiv) Mehrfamilienhäuser Mauenheimer Straße, Köln-Nippes 1957-1959 Deutsches Architekturmuseum Frankfurt am Main 1979-1984 Alfred-Wegener-Institut Bremerhaven 1980-1984 Torhaus Frankfurt 1983-1984 Erweiterung 1989-1997 08.08.12 23:33Bauten - UAA Seite 2 von 3http://www.ungersarchiv.de/bauten.html Kunstinsel Hamburg, Galerie der Gegenwart Hamburg 1986-1996 Erweiterung Messegelände Süd Berlin 1990-1999 Friedrichstadt-Passage Block 205 Berlin 1991-1995 Wallraf-Richartz-Museum Köln 1997-2000 08.08.12 23:33Bauten - UAA Seite 3 von 3http://www.ungersarchiv.de/bauten.html Pergamonmuseum Berlin Grundinstandsetzung und Ergänzung, Planung seit 2000 Haus Ungers 3 Köln 1994-1996 Wohnbebauungen Veröffentlichungen zur Architektur Herausgegeben an der TU Berlin vom Lehrstuhl für Entwerfen VI o. Prof. Dipl.-Ing. O.M.Ungers November 1968 Bearbeitet durch Gisa Suhr Seminarleiter Michael Wegener Semesterarbeiten Wintersemester 1 967 / 68 Teilnehmer: Dolf Bissinger Furio Cruciani Herfried Danisch Gorch Dennert Wolfgang Hack Hans-Henning Joeres Isabe Krause Heidrun Kunert Horst Looft Torsten Mahlke K. Walter Neumann Adolf Neunhäuserer Johann-Heinrich Olbrisch Detlef Ortmann Wildried Pohl Wolfgang Saltzmann Gernulf Schalow Kathrin Schaper Dieter Schloßmann Axel Schulz Ludwig Straube Gisa Suhr Mine Taner Hans-Joachim Uhlmann Karl Wucherpfennig 19 134 OMU_3_HT2_061203_2.indd 134 05.12.2006 19:45:20 Uhr Entwurfsprojekt W1 G. Dennert, T . Mahlke, Isometrie, Straßen- und Fußgängerwegenetz, Übersichtsdarstellung der Blocktypen. Bausubs- tanz, Nutzungen und T opographie siehe S.146, 147 Das gesteckte Ziel war eine städtebauliche Ent- wurfsübung, die sich auf die Organisation der Nutzungselemente und der Kommunikation und deren dreidimensionale Anordnung bezog. Hierbei kam es vor allen Dingen darauf an, einen komplexen Entscheidungsprozeß mit den verfügbaren Mitteln und Kenntnissen innerhalb der festgelegten Zeit exemplarisch durchzuspielen. Die Erkenntnisse, die aus diesem Seminar gezogen werden können, liegen im Vergleich der Alternativergebnisse unter- einander und deren gegenseitiger Bewertung. Die zur Anwendung kommenden Bewertungskriterien mußten von Fachleuten anderer Wissensgebiete aufgestellt und auf die AlternativvorschIäge ange- wandt werden. 135 OMU_3_HT2_061203_2.indd 135 05.12.2006 19:45:23 Uhr Die vorgeschlagenen Wohnbebauungen sind das Ergebnis einer städtebaulichen Übung des Winter- semesters 1967 / 68. Das Thema wurde in Form eines Seminars bearbeitet, an dem sich 25 Studen- ten beteiligten, und dessen Organisation und Lei- tung Herr Wegener übernahm. Die vier behandel- ten Wohngebiete Provinzstraße in Reinickendorf, Bornholmer Straße in Wedding, Ortolanweg in Neukölln und Buckower Damm in Buckow wurden vom Senator für Bau- und Wohnungswesen vorge- schlagen und planerisch vorbereitet. An Unterlagen standen die Flächennutzungspläne sowie kurze Gebietsbeschreibungen mit einer Definition der generellen Planungsziele zur Verfügung. Die hierin von der Senatsplanung getroffenen Vorentschei- dungen wurden wegen der schnelleren Faßbarkeit der Aufgabe als gegeben angenommen. Lediglich beim Planungsgebiet Buckower Damm ist in einer Reihe von Vorschlägen das Baugebiet über das in der Aufgabenstellung genannte Gebiet hinaus aus- gedehnt worden. Die weitgehende Außerachtlas- sung der dort vorhandenen Einzelhausbebauung verringert den Realitätsgrad dieser Vorschläge fast auf Null. Daß jedoch von den fünf mit diesem Gebiet befaßten Arbeitsgruppen nicht weniger als vier meinten, sich über die in den Planungsunter- lagen gegebenen Gebietsabgrenzungen hinweg- setzen zu müssen, läßt einen Rückschluß auf deren Willkürlichkeit zu. Die Planung für das Wohngebiet Ortolanweg in Neukölln wurde außerhalb der eigentlichen Seminarveranstaltung vorweg geson- dert bearbeitet, später jedoch der Vollständigkeit wegen in die Veröffentlichung mit einbezogen. Die Seminararbeit lief in drei aufeinander folgenden Phasen ab. Der erste Teil der Bearbeitung bestand in einer stark vereinfachten Gebietsanalyse, unter Berücksichtigung der Gesichtspunkte der Baustruk- tur, des Verkehrs, der Nutzung und der Standorte. Für die Erfassung dieser Gesichtspunkte sowie die zeichnerische Wiedergabe der Ergebnisse benö- tigten die Teilnehmer eine Bearbeitungszeit von etwa zwei Monaten. Die Arbeit fand in Gruppen von sechs (Reinickendorf und Wedding) bzw. zehn Teilnehmern (Buckow) statt. Der zweite Bearbeitungsgang diente der Ermittlung von Entwurfsvorschlägen. Zunächst legten die Teil- nehmer nach einer einwöchigen Bearbeitungszeit Einzelvorschläge vor. Hieraus konnten in einer ge- meinsamen Diskussion grundsätzliche Bebauungs- alternativen ermittelt werden, und zwar je drei für die Wohngebiete Reinickendorf und Wedding und fünf für das Wohngebiet Buckow. Die letzte Phase 136 OMU_3_HT2_061203_2.indd 136 05.12.2006 19:45:25 Uhr Diese Kombination von Rationalität und Kreativität war auch nach dem Verlassen der Architektur das Leitbild meiner beruflichen Arbeit. Michael Wegener Ungers und Wegener © Foto:Jürgen Müller-Trimbusch umfaßte die Ausarbeitung der Alternativlösungen durch je zwei Teilnehmer. Zum besseren Vergleich einigten sich die Gruppen untereinander auf eine einheitliche Darstellung der PIäne. Während der Ausarbeitungszeit von vier Monaten fanden wö- chentlich Korrekturbesprechungen mit den einzel- nen Gruppen statt. Das Seminar endete mit einer Präsentation und einer Abschlußdiskussion unter den Beteiligten. Die Planung und Durchführung des Seminars ging von vornherein von der Forderung einer zeitlichen Begrenzung auf ein Semester einschließlich der vorlesungsfreien Zeit aus, mit der Zusicherung eines abgeschlossenen Entwurfs für alle Teilnehmer. Dementsprechend mußte der Planungsprozeß verkürzt und der Umfang der Ausarbeitung einge- schränkt werden. aus dem Vorwort, VzA 19 137 OMU_3_HT2_061203_2.indd 137 05.12.2006 19:45:27 Uhr R1 Johann-Heinrich Olbrisch, Axel Schulz W1 Gorch Dennert, Torsten Mahlke B3 Hans-Henning Joeres, Gernulf Schalow N1 Herfried Danisch, Horst Looft, Detlef Ortmann R2 Wolgang Saltzmann, Dieter Schloßmann W2 Wolfgang Hack, Karl Wucherpfennig B4 K. Walter Neumann, Ludwig Straube B1 Furio Cruciani, Adolf Neunhäuserer R3 Dolf Bissinger, Gisa Suhr W3 Heidrun Kunert, Wilfried Pohl B5 Hans-Joachim Uhlmann, Kathrin Schaper B2 Ilsabe Krause, Mine Taner 138 OMU_3_HT2_061203_2.indd 138 05.12.2006 19:45:32 Uhr B3 Hans-Henning Joeres, Gernulf Schalow B4 K. Walter Neumann, Ludwig Straube B5 Hans-Joachim Uhlmann, Kathrin Schaper R1 Johann-Heinrich Olbrisch, Axel Schulz W1 Gorch Dennert, Torsten Mahlke N1 Herfried Danisch, Horst Looft, Detlef Ortmann R2 Wolgang Saltzmann, Dieter Schloßmann W2 Wolfgang Hack, Karl Wucherpfennig B1 Furio Cruciani, Adolf Neunhäuserer R3 Dolf Bissinger, Gisa Suhr W3 Heidrun Kunert, Wilfried Pohl B2 Ilsabe Krause, Mine Taner 139 OMU_3_HT2_061203_2.indd 139 05.12.2006 19:45:35 Uhr Erika Mühlthaler Im Gespräch mit Jürgen Sawade Zu den Wochenaufgaben Sawade: Ungers entwickelte seine Wochenaufgaben als Reaktion auf die ersten Ent- wurfsarbeiten, die ihm vorgelegt wurden. Die Studenten zu der Zeit entwarfen illustre Geschichten im Grünen. Sie wussten aber nicht, was ein Skelettbau, was ein Scheibenbau und was ein Massivbau ist. Ungers erkannte, daß er die Defizite ausgleichen mußte, um systematisch weiterarbeiten zu können. Er wollte die Arbeit der Studenten strukturieren und systematisieren. Daraufhin haben wir Wochenwettbewerbe zu den oben genannten Themen gemacht. Die Strukturierung, eine der wesentlichen Aufgaben der Architektur, war den Studenten bis dato nicht bewußt. Ungers Versuch zielte nun darauf, daß die Studenten exemplarisch in verschiedenen idealisierten, man könnte auch sagen konzep- tionellen Tragwerksstrukturen denken lernen mussten. Damit hat er die Entwurfsarbeit angekurbelt und die Studenten sauber in Kategorien denken l",
+  "stand": "2026-07-02T22:50:42"
+}

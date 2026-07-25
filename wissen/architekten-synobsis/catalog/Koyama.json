@@ -1,0 +1,24 @@
+{
+  "slug": "Koyama",
+  "architekt": {
+    "name": "Koyama",
+    "nachname": "Koyama",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Koyama"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Koyama",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 0
+  },
+  "dateitypen": {},
+  "textauszug": "",
+  "embed_doc": "Koyama",
+  "stand": "2026-07-02T21:35:32"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "Wittgenstein_Ludwig",
+  "architekt": {
+    "name": "Wittgenstein Ludwig",
+    "nachname": "Wittgenstein",
+    "vorname": "Ludwig",
+    "jahre": [],
+    "ordner": "Wittgenstein_Ludwig"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Wittgenstein_Ludwig",
+  "projekte": [
+    {
+      "raw": "Wien_Kundmanngasse",
+      "ort": "Wien",
+      "projekt": "Kundmanngasse",
+      "jahre": [],
+      "titel": "Wien Kundmanngasse"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 4,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 4
+  },
+  "dateitypen": {
+    ".jpg": 4
+  },
+  "textauszug": "",
+  "embed_doc": "Wittgenstein Ludwig | Wien Kundmanngasse",
+  "stand": "2026-07-02T22:51:32"
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "Boehm_Markus",
+  "architekt": {
+    "name": "Boehm Markus",
+    "nachname": "Boehm",
+    "vorname": "Markus",
+    "jahre": [],
+    "ordner": "Boehm_Markus"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Boehm_Markus",
+  "projekte": [
+    {
+      "raw": "Neuer Ordner",
+      "ort": "Neuer Ordner",
+      "projekt": "Neuer Ordner",
+      "jahre": [],
+      "titel": "Neuer Ordner"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 0
+  },
+  "dateitypen": {},
+  "textauszug": "",
+  "embed_doc": "Boehm Markus | Neuer Ordner Neuer Ordner",
+  "stand": "2026-07-02T21:08:51"
+}

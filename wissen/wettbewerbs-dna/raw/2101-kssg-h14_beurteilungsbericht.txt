@@ -1,0 +1,1861 @@
+# Quelle: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2101 WB StGallen KSSG H14/02_Korrespondenz/2_Bauherrschaft/16 Schlussbericht/003_beurteilungsbericht_kssg-H14_211118.pdf
+# Extrakt: pdftotext -layout, 2026-07-12, komplett (65 Seiten)
+
+Projekt Nr. 003.6.029                                                                  18. November 2021
+
+
+
+Beurteilungsbericht
+anonymer Projektwettbewerb im offenen Verfahren
+
+
+Neubau KSSG Haus 14, St.Gallen
+Stadt St.Gallen
+
+
+
+
+Kontakt                                           Informationen
+Stadtverwaltung St. Gallen                        Position:
+Geomatik und Vermessung                           x:2747230.24 y:1255062.19 z:666.46
+Neugasse 3
+9004 St. Gallen
+Telefon +41 71 224 67 45
+
+Notizen
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht           Seite 2
+
+
+
+
+Ingress
+Zur besseren Lesbarkeit wird generell
+nur die männliche Schreibweise verwendet.
+Selbstverständlich sind damit auch
+weibliche Personen angesprochen und
+eingeschlossen.
+
+
+Plandarstellungen sind grundsätzlich nach Norden ausgerichtet.
+
+
+ERR Raumplaner AG
+Teufener Strasse 19
+9001 St.Gallen
+
+
+www.err.ch
+info@err.ch
+Telefon     +41 (0)71 227 62 62
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                    Seite 3
+
+
+
+
+Inhaltsverzeichnis
+
+
+1    Ausgangslage                                                     5
+     1.1   Ausganslage des Wettbewerbs                               5
+     1.2   Ort des Wettbewerbs                                        5
+
+2    Verfahren                                                        6
+     2.1   Auftraggeberin                                             6
+     2.2   Organisation, Begleitung und Moderation                    6
+     2.3   Verfahrensart                                              6
+     2.4   Fragenbeantwortung                                         6
+     2.5   Preisgericht                                               7
+     2.6   Teilnehmende Projektteams                                  7
+     2.7   Begehung                                                   7
+
+3    Vorprüfung                                                       8
+     3.1   Bestandteile der Grobvorprüfung                            8
+
+4    Ausschlüsse                                                      8
+     4.1   Ausschluss von der Preiserteilung                          9
+
+5    Beurteilung                                                     10
+     5.1   Beurteilungskriterien                                     10
+     5.2   Erster Beurteilungstag                                    11
+           5.2.1   Erster Rundgang                                   11
+           5.2.2   Zweiter Rundgang                                  12
+           5.2.3   Dritter Rundgang                                  12
+           5.2.4   Kontrollrundgang                                  13
+     5.3   Unterbruch der Jurierung und detaillierte Vorprüfung      13
+     5.4   Vertiefte Vorprüfung                                      13
+           5.4.1   Erfüllung Raumprogramm                            13
+           5.4.2   Erfüllung funktionelle und betriebliche Aspekte   13
+           5.4.3   Wirtschaftlichkeit, Kosten                        13
+     5.5   Zweiter Beurteilungstag                                   13
+           5.5.1   Zulassung zur Preiserteilung                      13
+           5.5.2   Vierter Rundgang                                  14
+           5.5.3   Kontrollrundgang                                  14
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht        Seite 4
+
+
+
+
+6    Rangierung und Preiserteilung                       14
+     6.1   Rangfolge und Preise                          14
+     6.2   Empfehlung des Preisgerichtes                 15
+     6.3   Würdigung                                     15
+
+7    Projektverfassende                                  16
+
+8    Genehmigung                                         17
+
+9    Anhang: rangierte Projektbeiträge                   18
+
+10   Anhang B: Ausscheidung 3. Rundgang                  61
+
+11   Anhang C: Ausscheidung 2. Rundgang                  62
+
+12   Anhang D: Ausscheidung 1. Rundgang                  63
+  KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                                                                                                                                                             Seite 5
+
+
+
+
+1 Ausgangslage
+  1.1     Ausganslage des Wettbewerbs
+  Das Fachinstitut für Reproduktionsmedizin und gynäkologische Endokrinologie „Fiore AG“ ist
+  Teil des Kantonsspitals St.Gallen und derzeit in der Hirslandenklinik Stephanshorn eingemie-
+  tet. Gemäss Leitbild umfasst der Leistungsauftrag der Fiore AG die «medizinisch unterstützte
+  Fortpflanzung beim Menschen, die Erhaltung und Wiederherstellung der reproduktiven Ge-
+  sundheit der Frau und die Behandlung von gynäkologisch-endokrinologischen Erkrankungen
+  bei Frauen im fortpflanzungsfähigen Alter». In einfacheren Worten ausgedrückt geht es uns
+  darum, massgeschneiderte Behandlungen für Paare mit unerfülltem Kinderwunsch zu bieten,
+  eingebettet in eine umfassende und persönliche Beratung und Betreuung.
+
+  An der Tempelackerstrasse 30 soll ein Neubau (KSSG Haus 14) erstellt werden, in welchem
+  die Fiore AG neu mit einer Nutzfläche von ca. 500 m² stationiert wird. Nebst den Räumlich-
+  keiten für die Fiore AG sollen in der neu zu erstellenden Baute ergänzende Büronutzungen
+  seitens des Kantonsspitals St.Gallen sowie eine Tiefgarage angeordnet werden.
+
+  Zur Erlangung eines Realisierungsvorschlages mit hoher architektonischer Qualität und Funk-
+  tionalität führt die Eigentümerin einen anonymen, offenen Projektwettbewerb durch.
+
+
+  1.2     Ort des Wettbewerbs
+  Das Bearbeitungsgebiet befindet sich an der Tempelackerstrasse 30, nordöstlich der Altstadt
+  und des Stadtparks der Stadt St.Gallen. In unmittelbarer Nähe des Bearbeitungsgebiets befin-
+  den sich diverse öffentliche Bauten und Einrichtungen des Kantons- und Bürgerspitals.
+
+
+                                                                                                                                                                                                                                     Übersichtsplan
+
+                                                                                                                                                                                                                                     ERR Raumplaner AG;
+                                                                                                                                                                                                                                     Plangrundlage:
+                                                                                                                                                                                                                                     map.stadt.sg.ch
+
+                                                                                                                                                                                                                                     Planungsgebiet rot
+                                                                                                                                                                                                                                     gekennzeichnet
+
+
+
+
+                                                                                                                                                                                  0       50       100     150m
+                                                                                                                                                                                          Massstab 1: 5'000
+                                                                                                                                                                                  Gedruckt am 11.02.2021 09:59
+                                                                                                                                                                                https://s.geo.admin.ch/8ebbabb1d0
+
+                 www.geo.admin.ch ist ein Portal zur Einsicht von geolokalisierten Informationen, Daten und Diensten, die von öffentlichen Einrichtungen zur Verfügung gestellt werden
+                 Haftung: Obwohl die Bundesbehörden mit aller Sorgfalt auf die Richtigkeit der veröffentlichten Informationen achten, kann hinsichtlich der inhaltlichen Richtigkeit, Genauigkeit, Aktualität, Zuverlässigkeit und
+                 Vollständigkeit dieser Informationen keine Gewährleistung übernommen werden.Copyright, Bundesbehörden der Schweizerischen Eidgenossenschaft. http://www.disclaimer.admin.ch
+                 © swisstopo
+  KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                         Seite 6
+
+
+
+
+2 Verfahren
+  2.1     Auftraggeberin
+  Auftraggeberin ist die Spitalanlagengesellschaft Kantonsspital St.Gallen (SAG).
+
+  Vertreten durch:
+  Kantonsspital St.Gallen
+  Departement Bau und Raum
+  Rorschacher Strasse 95
+  9007 St.Gallen
+
+  T +41 71 494 22 16
+
+  Marco Gämperli, Projektleiter
+
+
+  2.2     Organisation, Begleitung und Moderation
+  Die gesamte Wettbewerbsbegleitung (fachliche Vorbereitung, Organisation, Moderation und
+  Vorprüfung) erfolgte durch nachfolgendes Büro:
+
+  ERR Raumplaner AG
+  Teufener Strasse 19
+  9001 St.Gallen
+  T+41 71 227 62 62
+  info@err.ch | www.err.ch
+
+  Manuel Rey, BSc FHO in Raumplanung (Organisation, Moderation)
+  Silvan Wichert, Hochbauzeichner EFZ (Organisation, Begleitung)
+
+
+  2.3     Verfahrensart
+  Der Wettbewerb wurde als einstufiger, anonymer Projektwettbewerb für Planerteams im offe-
+  nen Verfahren durchgeführt. Die Weiterbearbeitung schloss unmittelbar an das Wettbewerbs-
+  verfahren an.
+
+
+  2.4     Fragenbeantwortung
+  Die Gelegenheit, schriftlich Fragen zu stellen, wurde von den Teilnehmern genutzt. Alle ein-
+  gereichten Fragen sowie die dazugehörigen Antworten wurden jedem Teilnehmer schriftlich
+  zugestellt.
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                              Seite 7
+
+
+
+
+2.5        Preisgericht
+Die Beurteilung der eingereichten Beiträge erfolgte durch das nachstehende Preisgericht
+
+Sachpreisrichter (stimmberechtigt)
+
+•     Urs Buschor, Verwaltungsrat, Spitalanlagengesellschaft Kantonsspital St.Gallen*
+
+•     Wolfram Jochum, Präsident des Verwaltungsrates, Fiore Praxis AG
+
+•     Patrik Müller, Vorsitzender der Geschäftsleitung, GHG St.Gallen
+
+Fachpreisrichter (stimmberechtigt)
+
+•     Barbara Frei, Dipl. Arch. ETH BSA, Zürich
+
+•     Martin Engeler, Architekt BSA SIA, St.Gallen
+
+•     Thomas K. Keller, Architekt ETH BSA SIA, St.Gallen
+
+•     Roman Häne, M.Eng. Landschaftsarchitekt BSLA SIA, St.Gallen
+
+Experten (beratend)
+
+•     Silvan Schneider, Bereichsleiter Bauprojektmanagement, KSSG
+      (Ersatz Sachpreisrichter KSSG)
+
+•     Walter Meile, Mitglied der Geschäftsleitung, GHG St.Gallen
+      (Ersatz Sachpreisrichter GHG)
+
+•     Martin Saarinen, dipl. Arch. ETH SIA BSA, Zürich
+      (Ersatz Fachpreisrichter)
+
+•     Vera Hungerbühler, Leitende Ärztin, Fiore Praxis AG
+
+•     Marco Gämperli, Projektleiter Arealentwicklung, KSSG
+
+•     Bettina Gerhold, dipl. Ing. Arch. TU SIA, Fachspezialistin Architektur und Gestaltung, KSSG
+
+•     Andreas Studerus, Bereichsleiter Technik, KSSG
+
+•     Markus Schmalz, Dipl. Immobilienökonom NDS FH, Perita AG, St.Gallen (Kostenplaner)
+
+•     Manuel Rey, BSc FHO in Raumplanung, ERR Raumplaner AG (Organisation / Moderation)
+
+•     Silvan Wichert, Hochbauzeichner EFZ, ERR Raumplaner AG (Begleitung / Organisation)
+
+* Urs Buschor wurde während beiden Jurytagen durch Silvan Schneider (Ersatz Sachpreisrichter
+KSSG) vertreten
+
+
+2.6        Teilnehmende Projektteams
+Es sind insgesamt 24 Projektbeiträge eingegangen.
+
+2.7        Begehung
+Mitte Mai 2021 wurde an zwei Tagen eine fakultative Begehung des Areals der GHG St.Gallen
+angeboten, welche rege genutzt wurde.
+  KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                            Seite 8
+
+
+
+
+3 Vorprüfung
+  3.1     Bestandteile der Grobvorprüfung
+  Die eingereichten Wettbewerbsbeiträge wurden im Auftrag des Veranstalters durch das Büro
+  ERR Raumplaner AG, St.Gallen einer wertungsfreien Grobvorprüfung unterzogen. Sie um-
+  fasste formell die Kontrolle der Einhaltung der Abgabefristen, der Vollständigkeit, der Lesbar-
+  keit sowie der Anonymität. Materiell wurden die Einhaltung der Rahmenbedingungen und des
+  Wettbewerbsprogramms sowie die Einhaltung des Raumprogramms geprüft. Als Grundlage
+  für die Prüfung dienten das Wettbewerbsprogramm vom 21. April 2021 sowie die Fragenbe-
+  antwortung vom 04. Juni 2021.
+  Die Ergebnisse der Vorprüfung wurden in einem Bericht festgehalten. Sie wurden mit den
+  Mitgliedern des Preisgerichts besprochen.
+
+
+
+
+4 Ausschlüsse
+
+  Nach Kenntnisnahme der Ergebnisse der Vorprüfung hatte das Preisgericht darüber zu befin-
+  den, ob ein Beitrag auszuschliessen ist.
+
+  Die formelle Vorprüfung bezieht sich auf die Abgabefristen, die Vollständigkeit, sowie die Dar-
+  stellung und Anonymität der eingereichten Wettbewerbsbeiträge.
+
+  Das Preisgericht hat sämtliche formellen Mängel betrachtet und diskutiert. Alle festgestellten
+  Abweichungen sind nach Einschätzung des Preisgerichts marginal und somit weder wettbe-
+  werbsverzerrend noch lassen sie unlauteres Verhalten vermuten. Sämtliche Projekte sind gut
+  und umfassend beurteilbar. Das Preisgericht entschied einstimmig, sämtliche Beiträge zur
+  Beurteilung zuzulassen.
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                            Seite 9
+
+
+
+
+4.1     Ausschluss von der Preiserteilung
+Die materielle Vorprüfung bezieht sich auf die Einhaltung der Randbedingungen und die Erfül-
+lung der Aufgabenstellung. Sie bildet die Grundlage für allfällige Ausschlüsse von der Preiser-
+teilung gemäss Art. 19 SIA Ordnung 142.
+
+Ein Wettbewerbsbeitrag muss von der Preiserteilung ausgeschlossen werden, wenn er von
+den Programmbestimmungen in wesentlichen Punkten abweicht (Art. 19.1 SIA-Ordnung 142).
+
+Das Preisgericht hat sämtliche Abweichungen von den Programmbestimmungen betrachtet,
+gegenseitig verglichen und eingehend diskutiert. Die festgestellten Abweichungen werden
+nicht als massgeblichen Verstoss gegen die Randbedingungen des Wettbewerbsprogramms
+gewertet. Das Preisgericht entschied einstimmig, sämtliche Beiträge zur Preiserteilung zuzu-
+lassen.
+  KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                          Seite 10
+
+
+
+
+5 Beurteilung
+
+  Das Preisgericht trat zur Beurteilung der eingereichten Projekte an zwei Jurytagen zusam-
+  men. Die Projekte konnten jeweils am Morgen vor dem offiziellen Beginn der Beurteilung frei
+  besichtigt werden. Für die Beurteilung waren insgesamt vier Rundgänge sowie ein Kontroll-
+  rundgang erforderlich.
+
+
+  5.1        Beurteilungskriterien
+  Alle eingereichten Wettbewerbsbeiträge wurden im Rahmen der Beurteilung nach den folgen-
+  den, im Programm aufgeführten Kriterien beurteilt (die Reihenfolge entspricht keiner Gewich-
+  tung):
+
+  Situation / Städtebau
+
+  •     Städtebauliche, freiräumliche und gestalterische Qualität (Einfügung der Bauten am Ort)
+
+  •     Beziehung von Bebauung und Aussenraum
+
+  •     Erschliessungskonzept
+
+  •     Raumkonzept
+
+  Architektur
+
+  •     Gestaltung der Baukörper, architektonischer Ausdruck
+
+  •     Grundrisstypologie, Funktionalität, Flexibilität in der Ausführung, Innovation
+
+  •     Qualität der Innenräume
+
+  •     Realisierbarkeit / Bewilligungsfähigkeit
+
+  •     Betriebliche Prozesse (Praxis/Labor)
+
+  Aussenraum / Erschliessung
+
+  •     Konzept und Gestaltung des Aussenraums
+
+  •     Nutzungsvielfalt
+
+  •     Ökologie
+
+  Konstruktion
+
+  •     Angemessenheit der eingesetzten Mittel
+
+  •     Nutzflächen nach heutigen Bedürfnissen
+
+  •     Materialisierung
+
+  •     Nachhaltigkeit der Konstruktion in Bezug auf Unterhalt
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                      Seite 11
+
+
+
+
+Wirtschaftlichkeit
+
+•     Erstellungskosten
+
+•     Betriebs-, Unterhalts- und Erneuerungskosten
+
+Energie / Nachhaltigkeit
+
+•     Nachhaltigkeit der Energieversorgung und Energieeffizienz
+
+•     Erschliessungs- und Steigzonenkonzept der technischen Methoden innerhalb des Gebäu
+      des
+
+•     Anteil Erneuerbare Energien
+
+•     Wahl von Materialien (ressourcenschonendes Bauen)
+
+
+5.2       Erster Beurteilungstag
+Der erste Beurteilungstag fand am Mittwoch, 22. September 2021 statt. Insgesamt wurden
+drei Rundgänge durchgeführt.
+
+
+5.2.1     Erster Rundgang
+Der erste Rundgang fand in drei Gruppen jeweils unter der Leitung eines Fachpreisrichters
+statt. In jeder Gruppe waren zudem Sachpreisrichter und beratende Experten vertreten. Die
+Projekte wurden in Gruppen in ihrer Gesamtheit begutachtet und unter Berücksichtigung der
+Beurteilungskriterien diskutiert. Die erste Einschätzung der Gruppen wurde im Plenum ver-
+gleichend beraten und verifiziert.
+
+Das Preisgericht beschloss einstimmig, dass folgende 10 Projekte im ersten Rundgang aus-
+scheiden (Nr. Kennwort):
+
+•     02 IMPIANTO
+
+•     07 LIFE
+
+•     08 FRUCHTGARTEN
+
+•     11 OOZYTE
+
+•     12 DHWNSGUD
+
+•     15 Kriflex
+
+•     18 VNAIDA
+
+•     21 ziczac
+
+•     22 Schlussstein
+
+•     24 Frühling
+
+Die Gründe für das Ausscheiden im ersten Durchgang lagen vorwiegend in einem zu wenig
+überzeugenden ortsbaulich-architektonischen Lösungsansatz. Sie vermochten zudem volu-
+metrisch oder betrieblich nicht zu überzeugen.
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                           Seite 12
+
+
+
+
+5.2.2   Zweiter Rundgang
+In einem zweiten Rundgang wurden die verbleibenden Projekte durch das Preisgericht
+aufgrund der Beurteilungskriterien vertieft beurteilt und miteinander verglichen. Das Preisge-
+richt beschloss einstimmig, dass folgende Projekte im zweiten Rundgang ausscheiden (Nr.
+Kennwort):
+
+•   04 LOUISE
+
+•   09 FLOS
+
+•   13 FIORE
+
+Das Preisgericht stellte bei den im zweiten Durchgang ausgeschiedenen Projekten Qualitäten
+beim Lösungsansatz fest. Trotz interessanter Lösungsansätze, wiesen die Projekte Mängel
+hinsichtlich der architektonischen Gestaltung, der betriebliche Funktionalität und der Raumor-
+ganisation auf.
+
+
+5.2.3   Dritter Rundgang
+Im dritten Rundgang wurden die verbleibenden Wettbewerbsbeiträge durch das Preisgericht
+detailliert betrachtet, vertieft diskutiert und gegeneinander abgewogen. Das Preisgericht be-
+schloss einstimmig, dass folgende Projekte im dritten Rundgang ausscheiden (Nr. Kennwort):
+
+•   01 Fire Tarne
+
+•   10 LILIUM
+
+•   14 Leon und Lea
+
+•   16 cellula
+
+Die im dritten Rundgang ausgeschiedenen Projekte wiesen gute Qualitäten beim Lösungsan-
+satz auf, welche durch das Preisgericht festgestellt werden konnten. In einer gesamtheitlichen
+Beurteilung konnten Sie das Preisgericht jedoch nicht überzeugen. Die Ausschlüsse erfolgten
+aufgrund Mängel in den Bereichen ortsbauliche Einbindung, Freiraumgestaltung, Flexibilität in
+der Nutzung sowie aufgrund von betrieblichen Defiziten.
+
+Folgende sieben Projekte verblieben in der engeren Wahl:
+
+•   03 BETULA PAPYRIFERA
+
+•   05 Sol
+
+•   06 Insere
+
+•   17 Mary & Berthold
+
+•   19 ENSEMBLE
+
+•   20 PARTHÉNOS
+
+•   23 ZUHAUSE
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                        Seite 13
+
+
+
+
+5.2.4   Kontrollrundgang
+Nach dem dritten Rundgang erfolgte der Kontrollrundgang durch das Preisgericht. Es kam zu
+keinen Veränderungen.
+
+
+5.3     Unterbruch der Jurierung und detaillierte Vorprüfung
+Nach dem dritten Rundgang wurde die Jurierung unterbrochen, um die verbleibenden Beiträ-
+ge einer vertieften Betrachtung durch die Fachpreisrichter zu unterziehen.
+
+
+5.4     Vertiefte Vorprüfung
+
+
+Die Projekte in der engeren Wahl wurden einer detaillierten Prüfung unterzogen. Durch
+Experten des Auftraggebers (KSSG) wurde eine Beurteilung des Betriebs erstellt, durch das
+Organisationsbüro eine Detailprüfung der Rahmenbedingungen und des Raumprogramms
+vorgenommen sowie eine Gegenüberstellung der Kennzahlen der Wirtschaftlichkeit durch
+einen Experten erarbeitet. Die Ergebnisse der vertieften Prüfung wurden dem Preisgericht zu
+Beginn des dritten Jurytages detailliert erörtert und abgegeben.
+
+
+5.4.1   Erfüllung Raumprogramm
+Seitens der ERR Raumplaner AG wurden die Projekte und deren Raumprogramm einer
+detaillierten Prüfung bezüglich der einzelnen Bereiche und Räume unterzogen. Dabei werden
+folglich alle Räume aufgeführt, welche die verlangte Raumfläche gemäss Raumprogramm um
+mehr als 15 % unterschreiten oder nicht auffindbar sind.
+
+
+5.4.2   Erfüllung funktionelle und betriebliche Aspekte
+Die Beurteilung der betrieblichen und funktionalen Aspekte, des Facility Management sowie
+der Nachhaltigkeit und Technik der Projekte in der engeren Wahl wurde durch Fachspezialis-
+ten des Kantonsspitals detailliert erstellt.
+
+
+5.4.3   Wirtschaftlichkeit, Kosten
+Durch die Perita AG wurden die verbliebenen Projekte einer vergleichenden Kostenschätzung
+unterzogen Dabei wurden die Erstellungskosten vergleichend dargestellt. Mit der vorlie-
+genden Kostengrobschätzung kann mit einer Zielgenauigkeit von +/- 20 % für die weiteren
+Projektphasen gerechnet werden.
+
+
+5.5     Zweiter Beurteilungstag
+
+
+5.5.1   Zulassung zur Preiserteilung
+Zu Beginn des zweiten Beurteilungstages vom Dienstag, 26. Oktober 2021 stellte das
+wettbewerbsbegleitende Büro die Erkenntnisse aus der Detailprüfung vor. In der materiellen
+Detailprüfung wurden keine massgeblichen Verstösse gegen die Randbedingungen des Wett-
+bewerbsprogramms festgestellt. Das Preisgericht bestätigte den einstimmigen Beschluss des
+ersten Jurytages, sämtliche Projektbeiträge zur Preiserteilung zuzulassen.
+  KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                        Seite 14
+
+
+
+
+  5.5.2      Vierter Rundgang
+  Im vierten Rundgang stellten die Fachpreisrichter jeweils zu jedem Projekt der engeren Wahl
+  den von ihnen verfassten Projektbeschrieb vor. Zudem wurden dem Preisgericht die Erkennt-
+  nisse aus der erfolgten Expertenbeurteilung vorgestellt. Ausserdem stellte der beigezogene
+  Experten bezüglich Wirtschaftlichkeit seine Analyse dem Preisgericht vor. Die verbleibenden
+  sieben Projekte wurden unter den im Wettbewerbsprogramm aufgeführten Kriterien einander
+  gegenübergestellt und eingehende diskutiert. Ausscheidungen gab es keine.
+
+
+  5.5.3      Kontrollrundgang
+  Nach dem vierten Rundgang erfolgte der Kontrollrundgang durch das Preisgericht. Es kam zu
+  keinen Veränderungen. Anschliessend wurden die Rangfolge und die Preise festgelegt.
+
+
+
+
+6 Rangierung und Preiserteilung
+  6.1        Rangfolge und Preise
+  Nach eingehender Diskussion und nach Abwägung aller Kriterien legte das Preisgericht ein-
+  stimmig folgende Rangfolge fest:
+
+  •     1. Rang		       06 Insere
+
+  •     2. Rang		       17 Mary & Berthold
+
+  •     3. Rang		       20 PARTHÉNOS
+
+  •     4. Rang		       23 ZUHAUSE
+
+  •     5. Rang		       03 BETULA PAPYRIFERA
+
+  •     6. Rang		       05 Sol
+
+  •     7. Rang		       19 ENSEMBLE
+
+
+  Im Anschluss an die Rangierung wurden die Preise zugeteilt. Als Gesamtpreissumme standen
+  CHF 110'000.- (exkl. MwSt.) zur Verfügung, die wie folgt verteilt wurden:
+
+  •     1. Preis		      06 Insere			                       CHF 25'000.- exkl. MwSt.
+
+  •     2. Preis		      17 Mary & Berthold		               CHF 22'000.- exkl. MwSt.
+
+  •     3. Preis		      20 PARTHÉNOS		                     CHF 18'000.- exkl. MwSt.
+
+  •     4. Preis		      23 ZUHAUSE			                      CHF 15'000.- exkl. MwSt.
+
+  •     5. Preis		      03 BETULA PAPYRIFERA               CHF 12'000.- exkl. MwSt.
+
+  •     6. Preis		      05 Sol				                         CHF 10'000.- exkl. MwSt.
+
+  •     7. Preis		      19 ENSEMBLE			                     CHF 8'000.- exkl. MwSt.
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                         Seite 15
+
+
+
+
+6.2       Empfehlung des Preisgerichtes
+Das Preisgericht empfiehlt der Auftraggeberin, das auf dem ersten Rang platzierte Verfas-
+serteam des Projekts 06 Insere mit der Weiterbeauftragung und Ausführung (gemäss Kapitel
+4.13 des Wettbewerbsprogramms) zu beauftragen. Die im Projektbeschrieb festgehaltenen
+Kritikpunkte sind bei der Weiterbearbeitung des Projekts zu berücksichtigen.
+Hauptschwerpunkte der Überarbeitung sind:
+
+•     Das Fassadenbild ist in Bezug auf die Struktur und Farbwahl zu überarbeiten
+
+•     Die Tiefgaragenzufahrt ist unter Berücksichtigung des GHG-Haupteingangs sowie der
+      Kurzzeit-Parkplätze zu überdenken.
+
+•     Die Erschliessung des Bettenlifts zum Aussenraum hin muss optimiert werden.
+
+Zur Qualitätssicherung beschloss das Beurteilungsgremium ausserdem, dass das weiterent-
+wickelte Projekt nochmals dem gesamten Beurteilungsgremium zur Diskussion und Kenntnis-
+nahme vorgelegt wird.
+
+
+6.3       Würdigung
+Sämtlichen Teilnehmern gebührt für die Einreichung ihrer interessanten Wettbewerbsbeiträ-
+ge ein grosser Dank. Das Preisgericht konnte feststellen, dass die Projektverfassenden auf
+Grund ihrer eingehenden und sorgfältigen Analysen zu unterschiedlichen Schlussfolgerungen
+für die ortsbauliche Lösung innerhalb des Bearbeitungsperimeters gekommen sind. Die teil-
+nehmenden Büros haben verschiedene Lösungen präsentiert, haben sich gut mit der Örtlich-
+keit auseinandergesetzt und waren bestrebt, die Vorgaben und Erwartungen möglichst gut zu
+erfüllen. Sie haben unter anderem mit der Vielfalt an Lösungsvorschlägen dazu beigetragen,
+eine intensive Diskussion und Auseinandersetzung mit der Aufgabenstellung zu ermöglichen.
+
+Die Durchführung des Projektwettbewerbs hat sich aus Sicht des Preisgerichts und der
+Auftraggeberin als zweckmässig und gewinnbringend erwiesen. Die intensive, themenüber-
+greifende Auseinandersetzung mit dem Areal in interdisziplinären Teams hat zu städtebaulich,
+freiräumlich, architektonisch und betrieblich überzeugenden Lösungsvorschlägen geführt.
+  KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                      Seite 16
+
+
+
+
+7 Projektverfassende
+
+  Nach Abschluss der Jurierung ermittelte das Preisgericht folgende Projektverfassende der
+  rangierten Wettbewerbsbeiträge:
+
+
+  1. Rang / 1. Preis		 06 Insere
+  				                 Schneider & Schneider Architekten ETH BSA SIA AG, CH-5000 Aarau
+  				                 Hager Partner AG, CH-8032 Zürich (Landschaftsarchitektur)
+  				                 Institut für Beratungen im Gesundheitswesen IBG, CH-5001 Aarau
+  				(Praxis- und Laborplanung)
+  				                 Evoplan AG, CH-6005 Luzern (HLKS Ingenieur / Praxis- und Laborplanung)
+  				                 HKG Engineering AG, CH-5000 Aarau (Elektroingenieur)
+
+
+  2. Rang / 2. Preis		         17 Mary & Berthold
+  				                         Stefan Roggo und Christoph Widmer Architekten ETH SIA, CH-8008 Zürich
+  				                         peter vogt landschaftsarchitektur, FL-9490 Vaduz (Landschaftsarchitektur)
+  				                         Aicher, De Martin, Zweng AG, CH-6006 Luzern (Praxis- und Laborplanung)
+  				                         Gudenrath AG Bauingenieurbüro, CH-8866 Ziegelbrücke (Bauingenieur)
+  				                         Meierhans + Partner AG, CH-8603 Schwerzenbach (HLK Ingenieur)
+  				                         Raumanzug GmbH, CH-8003 Zürich (Bauphysik / Akustik)
+
+
+  3. Rang / 3. Preis		 20 PARTHÉNOS
+  				                 ARGE Steiger Concept AG, CH-8045 Zürich / Jung & Schmitt Architekten AG,
+  				CH-8037 Zürich
+  				                 PR Landschaftsarchitektur GmbH, CH-9320 Arbon (Landschaftsarchitektur)
+  				                 EVOMED AG, CH-8600 Dübendorf (Praxis- und Laborplanung)
+  				                 Hochstasser Glaus & Partner Consulting AG, CH-8048 Zürich
+  				(Fachplaner Gebäudetechnik HLKSE)
+  				                 JägerPartner AG Bauingenieure sia usic, CH-8045 Zürich
+  				(Tragwerkplanung, Bauingenieur)
+
+
+  4. Rang / 4. Preis		         23 ZUHAUSE
+  				                         Daniel Zajsek Dipl. Ing. Architekt, D-80636 München
+
+
+  5. Rang / 5. Preis		         03 BETULA PAPYRIFERA
+  				                         Yves Merkofer, CH-3613 Steffisburg
+
+
+  6. Rang / 6. Preis		         05 Sol
+  				                         Patrick Arnold Architekt ETH, CH-8005 Zürich
+
+
+  7. Rang / 7. Preis		 19 ENSEMBLE
+  				Gross Architects, CH-8700 Küsnacht
+  KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                                                Seite 17
+
+
+
+
+8 Genehmigung
+  Die Genehmigung des Beurteilungsberichts durch das Preisgericht erfolgte am 18. November
+  2021 im Zirkularverfahren.
+
+
+
+
+  Silvan Schneider, Ersatz für Urs Buschor		               .........................................................................
+
+
+
+
+  Wolfram Jochum					.........................................................................
+
+
+
+
+  Patrik Müller					.........................................................................
+
+
+
+
+  Barbara Frei					.........................................................................
+
+
+
+
+  Martin Engeler					.........................................................................
+
+
+
+
+  Thomas K. Keller					.........................................................................
+
+
+
+
+  Roman Häne					.........................................................................
+
+
+
+
+  Walter Meile (Ersatz)				.........................................................................
+
+
+
+
+  Martin Saarinen (Ersatz)				.........................................................................
+  KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 18
+
+
+
+
+9 Anhang: rangierte Projektbeiträge
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                        Seite 19
+
+
+
+
+06 Insere
+1. Rang / 1. Preis
+
+
+
+
+Projektverfasser (Architektur)				Mitarbeitende
+Schneider & Schneider Architekten ETH BSA SIA AG		 Schneider Beat, Schneider Thomas
+Bahnhofstrasse 102						Jung Michael, Wolf Patrick,
+5000 Aarau							Andermatt Dominic, Kovacs Sarina
+								Baer Joel, Albrecht Simon
+
+Projektverfasser (Landschaftsarchitektur)			Mitarbeitende
+Hager Partner AG						Altermatt Patrick
+Bergstrasse 50						Amacher Anja
+8032 Zürich							Sauter Nicolas
+
+Projektverfasser (Praxis- und Laborplanung)		            Mitarbeitende
+Institut für Beratungen im Gesundheitswesen (IBG)		      Messmer Heinrich
+Distelbergstrasse 12
+5001 Aarau
+
+Weitere Fachplaner						Mitarbeitende
+Evoplan AG, Luzern (HLKS Ing., Praxis- und Laborplanung) Alimpic Zoran
+HKG Engineering AG, Aarau (Elektroingenieur)
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                            Seite 20
+
+
+
+
+Projektbeschrieb «06 Insere»
+
+Städtebau, Typologie und Gebäudevolumetrie
+Das Projekt INSERE soll aufgrund der städtebaulichen Analyse der Projektverfasser die
+heutige offene Randbebauung abschliessen und ergänzen. Dies gelingt durch einen fast zu-
+fällig verzogenen sechseckigen Baukörper, welcher jedoch sehr präzise auf das Grundstück
+eingepasst ist. Überzeugend ist der Hofraum zwischen Neubauten und Bestand. Es entstehen
+selbstverständliche Gehwegverbindungen zu allen GHG Gebäuden, die Anbindung an die
+Friedaustrasse und Spielmöglichkeiten für Kinder unter Beibehalten von genügend Abstand
+zu den Klinikräumen, um deren Privatsphäre zu wahren. Unterstützt wird das städtebauliche
+Konzept der offenen von Grünraum umspülten Randbebauung durch das Abrunden der Ge-
+bäudeecken des kompakten Solitärgebäudes. Die Rundungen sind auch in den Innenräumen
+spürbar, indem gerade dort die öffentlicheren Zonen angeordnet werden, welche angenehm
+proportioniert sind und eine stimmige Raumatmosphäre erzeugen. Man betritt den Neubau
+durch eine zweigeschossige Eingangshalle auf dem Niveau der Tempelackerstrasse über
+einen grosszügig dimensionierten Gebäudeeinzug, der eine starke Adressierung schafft und
+den Baukörper trotz des massiven Fassadensockels einladend erscheinen lässt. Es stellt
+sich die Frage, ob diese Monumentalität der Eingangssituation für Quartier und Nutzung
+angebracht ist. Sie könnte etwas zurückhaltender ausformuliert werden. Die Hochparterrelö-
+sung zusammen mit der Höhenkote der Tiefgarage führt zu einem hohen Gebäudevolumen,
+welches minimaler in Erscheinung treten soll. Die Zufahrt zur Tiefgarage ist sehr nah an die
+GHG-Gebäude platziert und müsste anders gelegt werden.
+
+Organisation und Funktionalität
+Die lange Fassadenabwicklung erlaubt viele an die Aussenhülle stossende und somit gut
+ausgeleuchtete Räume, während die kompakten Kerne in der Mitte kurze Erschliessungs-
+wege und Rundläufe kreieren. Betriebliche Abläufe wurden durch die Projektverfassenden
+präzise studiert und optimal umgesetzt. Obwohl die klinik-interne Wendeltreppe räumlich
+inszeniert ist, entspricht sie dem Wunsch nach einer diskreten Verbindung. Vor dem Bettenlift
+eingeplante Rangierflächen scheinen, ebenso wie die Tiefgarage, zu eng bemessen zu sein.
+Die Erschliessung des Bettenlifts ist grundsätzlich anders zu lösen. Auf dem Dach wird ein
+überdachter Terrassenbereich vorgeschlagen. Dies birgt einen zusätzlichen Mehrwert für die
+zukünftigen Nutzer, wobei der effektive Mehrwert zu hinterfragen ist.
+
+Tragwerk, Konstruktion und Erscheinung
+Eine klare Tragstruktur mit statisch wirksamen im Raster angeordneten Fassadenstützen und
+tragenden inneren Kernen verspricht eine hohe Nutzungsflexibilität und eine gute Einteilung
+der Innenräume durch nichttragende Trennwände. Lisenen aus Metall überlagern die horizon-
+tale Schichtung von Fenster- und Brüstungsbändern und sollen die Aussenhaut feingliedrig
+erscheinen lassen, was durch die geknickten Brüstungselemente verstärkt wird. Dies ergibt
+ein an vergangene Zeiten erinnerndes Fassadenbild, welches unentschieden zwischen Hori-
+zontalität und Vertikalität auftritt und durch die vorgeschlagene Materialisierung und Farbwahl
+nicht zu überzeugen vermag.
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                           Seite 21
+
+
+
+
+Freiraum
+Die nordwestliche Setzung des Gebäudes eröffnet einen grosszügigen, gemeinsamen Hof
+mit den Gebäuden der GHG. Der Hof wird als attraktiver Aussenbereich dem Aufenthalt und
+Spiel der Kinder gewidmet, die Dachterrasse als aussergewöhnlicher Aufenthaltsort den
+Klinik-Mitarbeitenden. Der etwas erhöhte, durchgrünte Garten wird mit einem kniehohen Gar-
+tenmäuerchen zur Strasse gefasst, zu den Nachbargrundstücken ist die Topografie fliessend
+angeglichen. Der Bereich zur Brückengasse ist noch spärlich, weniger Versiegelung und
+mehr Grünfläche würden hier grössere Bäume, im Sinne einer Anbindung an das parkartige
+Spitalareal, zulassen. Die Eingangssituation Klinik, Tiefgarageneinfahrt, Kurzparkierung und
+Zuwegung GHG runden das Projekt stimmig ab, sind aber in Teilbereichen zu optimieren.
+
+Energie, Technik und Nachhaltigkeit
+Steigzonen sind in Bezug auf Zugänglichkeit sowie evtl. späteren Grundrissänderungen gut
+platziert. Die Gebäudetechnik ist detailliert beschrieben und verspricht ein nachhaltiges, den
+Minergie-P Eco Vorgaben entsprechendes Gebäudekonzept.
+
+Kenngrössen und Wirtschaftlichkeit
+Im Vergleich zu den anderen bewerteten Projekten bietet INSERE am meisten Nutzfläche
+und weist in Bezug auf die Erstellungskosten ein gutes CHF/NF-Verhältnis auf. Betrieb und
+Unterhalt verheissen wenig Wartungsaufwand.
+
+Gesamteindruck
+Die Projektverfasser überzeugen mit einem volumetrisch gut verorteten Passstück als
+Abschluss der offenen Blockrandbebauung und einem betrieblich optimalen Vorschlag. Die
+seitens des Beurteilungsgremiums beschriebenen Unstimmigkeiten, sind in der Weiterbear-
+beitung zu bereinigen.
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 22
+
+
+
+Situation
+
+
+
+
+Ansicht Nordwest
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 23
+
+
+
+Visualisierung
+
+
+
+
+Grundriss Erdgeschoss
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 24
+
+
+
+Grundrisse Obergeschosse
+
+
+
+
+Querschnitt
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                    Seite 25
+
+
+
+
+17 Mary & Berthold
+2. Rang / 2. Preis
+
+
+
+
+Projektverfasser (Architektur)				Mitarbeitende
+Stefan Roggo und Christoph Widmer Architekten ETH SIA Roggo Stefan
+Klausstrasse 9						Widmer Christoph
+8008 Zürich							Huber Nicole
+
+Projektverfasser (Landschaftsarchitektur)			Mitarbeitende
+peter vogt landschaftsarchitektur				       Vogt Peter
+Marianumstrasse 27						Serra Roberto
+FL-9490 Vaduz
+
+Projektverfasser (Praxis- und Laborplanung)		            Mitarbeitende
+Aicher, De Martin, Zweng AG					                         Zahno Martin
+Würzenbachstrasse 56
+6006 Luzern
+
+Weitere Fachplaner						Mitarbeitende
+Gudenrath AG Bauingenieurbüro, Ziegelbrücke (Bauing.) Gudenrath Andreas
+Meierhans + Partner AG, Schwerzenbach (HLK Ingenieur) Garzon Alberto
+Raumanzug GmbH, Zürich (Bauphysik / Akustik)		        Gilgen Daniel
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                          Seite 26
+
+
+
+
+Projektbeschrieb «17 Mary & Berthold»
+
+Städtebau, Typologie und Gebäudevolumetrie
+Die Bebauung des Quartiers Tempelacker, das mit unterschiedlichen Einzelbauten und unvoll-
+ständigen Randbebauungen gekennzeichnet ist, wird durch einen markanten viergeschossi-
+gen Einzelbau und einen Hofbau für die GHG ansprechend gelöst. Die volumetrische Setzung
+und Gliederung von Fiore erzeugt eine portalartige Wirkung zu den öffentlichen Klinikbauten
+und bindet das neue Ensemble der GHG geschickt mit ein. Die Erschliessung über die neu
+geschaffene Gasse, als Bindeglied zwischen den beiden Institutionen, ermöglicht eine gute
+kindergerechte Ankunft. Der Vorschlag für die Erweiterung der Tempelacker Institution mindert
+den heutigen Hofraum in deren Grundfläche und Höhe deutlich, bildet aber im Ansatz einen
+vertretbaren Ansatz für die Zukunftsentwicklung dar.
+
+Organisation und Funktionalität
+Der Klinik Neubau wird dreiseitig mit Risalit-Versätzen zum Aussenraum akzentuiert, wobei
+der Haupteingang plastisch ausgezeichnet wird. Der Eintritt wird über den gemeinsamen an-
+gehobenen Vorplatz eröffnet und in die bemerkenswerte Atriumshalle übergeleitet. In diesem
+Geschoss und im weiteren Obergeschoss darüber werden die Behandlungsräume kranzartig
+um einen ansprechenden Innenraum mit publikumswirksamer Spiraltreppe angeordnet. Die
+obersten zwei Ebenen sind als Open Space um den Lichtkern gruppiert. Diese Offenheit über
+alle Geschosse, die zwar mit der zusätzlichen abgetrennten Erschliessungsachse auch eine
+diskretere Verbindung ermöglicht, wird der Erwartung auf eine vertrauliche und intime Be-
+handlung nicht erfüllt. Hingegen verspricht die Belichtung der Innenmitte und die gewundene
+Treppe eine räumliche Atmosphäre.
+
+Tragwerk, Konstruktion und Erscheinung
+Der Neubau wird als Massivbau vorgeschlagen. Die Innenwände sind mit Ausnahme des
+Erschliessungsteils nichttragend konzipiert. Die Fassaden sind selbsttragend gegliedert in
+Gesimse, Brüstungsbänder, Holzsäulen, Stoffstoren und repetierenden Fenstereinheiten.
+Diese gekonnte Gliederung wirkt sich auf den äusseren Ausdruck bereichernd aus und ver-
+leiht dem Gebäude eine feinfühlige Ausstrahlung. Auch in bemerkenswerter Weise zeichnen
+sich die beiden Behandlungsgeschosse mit weniger Glasanteilen in der Fassadengliederung
+bereichernd aus, was der gewünschten Diskretions-Wahrnehmung nach aussen entspricht.
+Die Entscheidung für einen Massivbau begünstigt die Erfüllung der gesetzlichen Vorlagen und
+bietet innenräumliche gute Flexibilität an. Die energetischen Anforderungen und die Dauer-
+haftigkeit können gesamthaft günstig erbracht werden. Positiv ist auch, dass die Photovolta-
+ikelemente hinter dem erhöhten Dachkranz keine Beeinträchtigung des Erscheinungsbildes
+bewirken.
+
+Freiraum
+Für den Freiraum wird im Bereich zwischen der Klinik und der GHG – bei einem Neubau der
+GHG –eine mittlere Achse aufgebaut. Über einen offenen Auftakt erschliessen sich rampen-
+artig alle Eingänge gestaffelt, hindernisfrei und selbstverständlich. Der Neubau GHG schafft
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                            Seite 27
+
+
+
+
+eine Aussenraumgliederung mit allseitig erreichbaren Freiräumen. Die Klinik selbst wird von
+einem durchgrünten Garten umgeben. Für den Personalaufenthalt dient im nördlichen Garten
+ein grosszügiger Sitzplatz mit Ruhenischen. Ein Verzicht des Verbindungswegs vom Sitzplatz
+zur GHG hätte die Intimität des Gartensitzplatzes noch gestärkt. An der prominentesten städ-
+tebaulichen Stelle der Gabelung Tempelackerstrasse/ Brückengasse würde man sich wün-
+schen, dass der Garten das Gebäude bis zur Tiefgarageneinfahrt umgarnt und damit mehr in
+das parkartige Spitalareal eingebunden wird. Mit den funktionalen, attraktiven Gartenberei-
+chen und einem gebotenen ökologischen Beitrag mit Ruderal- und Retentionsbereichen zeigt
+das Projekt eine sorgfältig ausgearbeitete, zeitgemässe Gartengestaltung.
+
+Energie, Technik und Nachhaltigkeit
+Die Steigzonen sind in Bezug auf Zugänglichkeit sowie evtl. späteren Grundrissänderungen
+gut bzw. zentral platziert. Die Wäremaufbereitung mit Wärmepumpe und Erdsondenfeld wird
+als gut erachtet, generell liegt ein guter Gebäudetechnik-Beschrieb vor. Die Nachhaltigkeit ist
+in Form einer PV-Anlage auf dem Dach vorhanden, die Anforderungen für eine Zertifizierung
+nach Minergie-P Echo sind erfüllt.
+
+Kenngrössen und Wirtschaftlichkeit
+Das Projekt bietet im Vergleich verhältnismässig eher wenig Nutzfläche. Folglich weist der
+Neubau in Bezug auf die Erstellungskosten einen relativ hohen CHF / NF-Wert aus.
+
+Gesamteindruck
+Der Neubau Fiore überzeugt in der Setzung zum Umfeld, in der Plastizität des Baukörpers
+und im knappen Fussabdruck. Der gut durchdachte und sensibel ausgearbeitete Projektvor-
+schlag verspricht eine adäquate Akzeptanz im äussern Ausdruck und im Inneren einen Klinik-
+betrieb mit besonderer Raumstimmung. Wobei die betrieblichen Anliegen an gute Abläufe und
+die Erwartung an eine diskrete Behandlung im Erschliessungsbereich leider nicht genügend
+erfüllt werden.
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 28
+
+
+
+Situation
+
+
+
+
+Ansicht Südwest
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 29
+
+
+
+Visualisierung
+
+
+
+
+Grundriss Erdgeschoss
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 30
+
+
+
+Grundrisse Ober- und Untergeschosse
+
+
+
+
+Querschnitt
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                             Seite 31
+
+
+
+
+20 PARTHÉNOS
+3. Rang / 3. Preis
+
+
+
+
+Projektverfasser (Architektur)				Mitarbeitende
+ARGE:
+Steiger Concept AG						Kessler Thomas
+Rüdigerstrasse 15
+8045 Zürich
+
+Jung & Schmitt Architekten GmbH				 Jung Philipp
+Dorfstrasse 29						Schmitt Philip
+8037 Zürich
+
+Projektverfasser (Landschaftsarchitektur)			Mitarbeitende
+PR Landschaftsarchitektur GmbH				          Rutishauser Paul
+Zum See 2							Grabs Christine
+9320 Arbon							Muxel David
+
+Projektverfasser (Praxis- und Laborplanung)		             Mitarbeitende
+EVOMED AG, Auenstrasse 10, 8600 Dübendorf		               Simonett Valentin
+
+Weitere Fachplaner						Mitarbeitende
+Hochstrasser Glaus & Partner Consulting AG, Zürich (HLKSE) Glaus Peter
+JägerPartner AG Bauingenieure sia usic (Tragwerk, Bauing.) Saravanabavan Prasath
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                            Seite 32
+
+
+
+
+Projektbeschrieb «20 PARTHÉNOS»
+
+Städtebau, Typologie und Gebäudevolumetrie
+Das Projekt Parthénos setzt sich als klassisch geprägter Stadtbaustein in die kleinteilige
+Quartierstruktur von St. Finden. Diese selbstbewusste Strategie bezieht sich vor allem auf
+die Architekturen von Geriatrie und Bürgerspital und funktioniert deshalb, weil der perfekt
+ausproportionierte Baukörper mit seinem quadratischen Grundriss zu allen benachbarten Ge-
+bäuden einen ausbalancierten Bezug aufbauen kann. Seine präzise Stellung ermöglicht einen
+Raumfluss, der Parzellengrenzen überwindet. Die Erschliessung des Gebäudes erfolgt im
+nördlichen Bereich der Westfassade. Damit kann das Gebäude der GHG trotz baulicher Nähe
+des Hauses 14 die Intimität des eigenen Zugangs bewahren. Der hohe Sockel des Gebäu-
+des und die doppelt geführten überhohen OP-Geschossen führen zu einem vergleichsweise
+hohen Gebäude, das Probleme in der Nachbarschaft evozieren könnte. Eine Reduktion der
+Gebäudehöhe aber würde die Eleganz des Körpers brechen, weshalb die Strategie als delikat
+beurteilt wird.
+Das Projekt setzt sich unmittelbar an die Grenze zur GHG. Es wird deshalb ein neuer Stand-
+ort für die KITA vorgeschlagen. Mit einem neuen Haus an der Schwanenstrasse soll ein quar-
+tiertypischer Baustein geschaffen werden, welcher im Aussenraum neue Qualitäten ermög-
+licht. Dieser Beitrag ist inspirierend, schafft aber bezüglich baulicher Etappierung ungewollte
+Abhängigkeiten. Zudem ist die Haupterschliessung der Kita über die Schwanenstrasse nicht
+einfach zu bewerkstelligen, da die Platzverhältnisse in den bestehenden Strassenräumen
+beengt sind.
+
+Organisation und Funktionalität
+Die Verfassenden platzieren die Klinik in den beiden unteren Geschossen des Hauses, die
+Fiore könnte ihrer Meinung nach aber ebenso gut auch die beiden oberen besetzen. Der
+quadratische Grundriss wird mit einem Erschliessungskern in einen zur Stadt orientierten
+Empfangs- und Kommunikationsraum und einen gegen Osten orientierten Service-, Labor-
+und OP-Bereich getrennt. Der im Grundsatz dreibündig organisierte Grundriss reiht lateral
+zur zentralen Schicht an der Nord- und Südseite Büroräume auf. Diese Disposition ermöglicht
+im Innenausbau eine hohe grundrissliche Flexibilität, weil im Zentrum diverse tiefe und auch
+grossflächige Räume angesiedelt werden können. Auf den beiden Klinik-Geschossen werden
+unterschiedliche Korridorsysteme aufgezeigt, welche den Kundenfluss und die innerbetriebli-
+chen Wege gezielt steuern und die jeweils angemessene Diskretion sicherstellen wollen. Aus
+Nutzersicht weisen diese jedoch zu viel Weglänge und ungewollte Kreuzungen der Betriebs-
+abläufe auf. Bauträgerseits wird die starre Maschenweite von 4 Metern an der grossflächig
+verglasten Fassade bemängelt. Sie widerspricht der im Grundriss plausibel dargestellten
+Flexibilität.
+
+Tragwerk, Konstruktion und Erscheinung
+Das konstruktive Konzept ist klar und schlüssig. Es folgt der Strategie, den Bau nicht nur
+städtebaulich, sondern auch über die Materialität mit der Geriatrie und den Bürgerspitälern zu
+verbinden. Der Bau ist als konventioneller Massivbau mit Stützen und Flachdecken aus Beton
+konzipiert, wobei das innere Stützenraster mit Standardspannweiten nicht in allen Geschos-
+sen dargestellt ist. Die Fassade zeichnet sich durch eine hohe architektonische Präzision
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                              Seite 33
+
+
+
+
+aus. So sind die Fenster pro Geschoss unterschiedlich tief in die Fassadenstruktur gesetzt.
+Auch die Deckenverkleidungen stehen in unterschiedlichem Bezug zu den Geschossdecken,
+um die Geschosshöhen spannungsvoll auszubalancieren. Der äussere Sonnenschutz soll mit
+fein perforierten Lammellenstoren erreicht werden, so dass auch bei geschlossenen Lamellen
+eine Sicht nach aussen gewährleistet ist. Für den Sichtschutz wird im Innern ein Vorhangsys-
+tem vorgeschlagen.
+Die Konstruktion ist sehr bewusst und in Abstimmung mit den haustechnischen Konzepten
+aufgebaut. Leider nicht beantwortet werden die Fragen, wie mit den inneren Raumteilun-
+gen flexibel an die Fassade angeschlossen werden kann. Obwohl die Fassade sehr flexibel
+gedacht ist, vermittelt sie den Eindruck eines hermetischen Systems. Auch wenn im Ausdruck
+als medizinisches Kompetenzzentrum vorstellbar, fehlt eine Komponente, welche sie zum
+Zuhause der Klinik Fiore werden lässt.
+
+Freiraum
+Der mittig gesetzte kompakte Fussabdruck der Klinik und die Hinwendung des GHG Neubaus
+zur Strasse spielt eine bestechende Grünflächendisposition frei. Der grosse, grüne Hof und
+die Gartenfläche im Norden sind ein Versprechen an das parkartige Spitalareal mit grosszü-
+gigen Grünräumen. Der Klinikgarten ist informell und wohltuend zurückhaltend gestaltet und
+bietet einen attraktiven Aussensitzplatz. Der Hof befindet sich auf einem oberen Niveau, wird
+über Treppenanlagen erschlossen und ist ohne gartenseitige Ausgänge leider nur umständlich
+erreichbar und nutzbar. Beim Eingangsbereich zur Strasse mit den hohen Sockelgeschossen
+und Gartenmauern fragt sich, ob die vorgelagerte Rabatte mit Sitzmauer die gewünschte
+Aufenthaltsqualität bietet und wenn, hier an der richtigen Stelle ist. Die Ausfahrt der Kurzzeit-
+parkplätze in nächster Nähe mit dem Treppenaufgang zur GHG wird als kritisch angesehen.
+
+Energie, Technik und Nachhaltigkeit
+Die energietechnische Grundkonzeption ist nachvollziehbar und schlüssig. Der Typus ermög-
+licht eine flexible und effiziente Medienerschliessung. Die Wärmeaufbereitung mit Erdsonden-
+feld und Wärmepumpe inkl. Freecooling wird als sinnvoll erachtet. Zu wenig thematisiert wird
+die voll verglaste Konstruktion mit dem wohl intensiven Reinigungs- und Unterhaltsaufwand.
+Auch werden Aussagen bezüglich Verdunkelung (Ultraschall Gynäkologie), natürlicher Lüf-
+tung und dem spezifischen Umgang mit dem hohen Wärmeeintrag vermisst.
+
+Kenngrössen und Wirtschaftlichkeit
+Die Effizienz des Projekts liegt im Mittelfeld, was das Verhältnis von Kubatur zu Nutzfläche
+betrifft. Dies führt dazu, dass sich das Projekt trotz der relativ hohen Erstellungskosten, die
+durch die wertige bis exklusive Konstruktion generiert sind, auch bezüglich der Kosten im
+guten Mittelfeld halten kann.
+
+Gesamteindruck
+Das Projekt Parthénos ist ein sehr präzises und stringentes Projekt, das sich als klassisch
+modernes Gebäude den Moden der Zeit widersetzt und gerade deshalb eine hohe städtebau-
+liche und typologische Nachhaltigkeit erreicht. Dieser guten Ausgangslage entspricht die Fas-
+sade leider nur teilweise. Zudem ist die Gesamtstrategie wegen der Gebäudehöhe und wegen
+der Position des Gebäudes unmittelbar an der Grenze zur GHG nicht vollends tragfähig.
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 34
+
+
+
+Situation
+
+
+
+
+Ansicht West
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 35
+
+
+
+Visualisierung
+
+
+
+
+Grundriss Erdgeschoss
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 36
+
+
+
+Grundrisse Obergeschosse
+
+
+
+
+Querschnitt
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 37
+
+
+
+
+23 ZUHAUSE
+4. Rang / 4. Preis
+
+
+
+
+Projektverfasser (Architektur)				Mitarbeitende
+Dipl. Ing Architekt Daniel Zajsek				 Zajsek Daniel
+Volkartstrasse 40
+D-80636 München
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                             Seite 38
+
+
+
+
+Projektbeschrieb «23 ZUHAUSE»
+
+Städtebau, Typologie und Gebäudevolumetrie
+Das polygonale Haus 14 schmiegt sich allseitig in das Geviert ein. Die brechenden Fluchten
+eröffnen Blickachsen und bewirken auch Freiräume auf die Institution Tempelacker. Der Er-
+weiterungsvorschlag GHG wird als Ersatzbau des bestehenden Verbindungstraktes ausge-
+weitet und in dessen Ausdruck dem Haus Fiore angeglichen. Damit wird die solitäre Aus-
+strahlung von Fiore gemindert und eine gewisse Form-Beliebigkeit erzeugt. Der gemeinsame
+Vorplatz wird durch Rampen- und Treppenanlagen wesentlich verbaut, was in Verbindung mit
+der Fassaden-Begrünung als neu erlebbare Weise dargelegt wird.
+
+Organisation und Funktionalität
+Der Vorschlag zeigt zwei Hauteingänge auf. Der westliche Eintritt führt direkt in das Treppen-
+haus und weiterführend am Empfang vorbei in das erste Behandlungsgeschoss. Zusätzlich
+wird südseitig ein Eintritt direkt in den Korridor ermöglicht. Die tragende Hauptstruktur bilden
+neben dem Treppenhaus die Nebenraumkerne und ein lockeres Stützenraster. Die zwei
+Behandlungs-Ebenen sind betrieblich auf die Nutzungen gut organisiert. Die oberen Open
+Space Geschosse können auch ansprechend strukturiert werden. Das Untergeschoss wird
+mit einer breiten und dominanten Rampe auf der Hauptseite für die Einstellhalle erschlossen.
+Die schiefwinklige Gebäudestruktur kann hier nur begrenzt übernommen werden, was zu
+aufwendigen Ausweitungen und konstruktiven Sonderlösungen führt.
+
+Tragwerk, Konstruktion und Erscheinung
+Die Tragstruktur basiert auf einem Massivbau mit Plattendecken in Beton. Die Flexibilität ist
+damit in gutem Mass nachgewiesen. Die Fassaden sind mit den durchfliessenden vorgefer-
+tigten Gurten und integrierten Pflanzmulden als «Architekturbeton» dominant geprägt. Der
+umlaufende Lamellen- oder Seilvorhang, der als wichtiges architektonisches Element die
+Fassaden vertikal überspannt, dient mehrheitlich als Pflanzenfilter. Die Holzfensterfronten
+sind teilweise mit dem Wartungssteg rückversetzt und erhalten mit den Textilstoren eine
+Beschattung. Die konstruktive Lösung bezüglich unterschiedlicher Fluchtverschiebungen der
+Aussenwände und beim auskragenden Vordach der Eingangsfront, lässt einige statische und
+bauphysikalische Fragen offen.
+
+Freiraum
+Die grosse Gebäudegrundfläche mit mittiger Setzung im Grundstück beansprucht beinahe die
+gesamte Fläche und lässt nur wenig Grünflächen zu. Das Gebäude wird auf Strassenniveau
+gesetzt und die Topografie zu den Nachbargrundstücken mit Sitzstufen überwunden. Ob mit
+Sitzstufen – so eng um den Klinikneubau – eine Aufenthaltsqualität erbracht wird, ist zweifel-
+haft. Die Ausgestaltung der begrünten Bereiche bleiben nur vage angedeutet. Die Vorplätze
+zur Klinik und zur GHG wirken offen und grosszügig, die Treppen- und Rampenanlage zur
+Erschliessung der Kita etwas ungelenk. Die Parkierung im bestehenden Spielbereich zur
+Schwanenstrasse wird als ungeeignet angesehen.
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                          Seite 39
+
+
+
+
+Energie, Technik und Nachhaltigkeit
+Die Steigzonen sind zentral gelegen und in Bezug auf Zugänglichkeit sowie evtl. späteren
+Grundrissänderungen gut verortet. Jedoch ist die Wärmeaufbereitung nicht klar definiert.
+Zudem wird das Haustechnikkonzept sowie Konzept Erschliessung HLK nicht aufgezeigt.
+Hinsichtlich Nachhaltigkeit ist keine PV-Anlage vorgesehen, die Erfüllung der Anforderungen
+für eine Zertifizierung nach Minergie-P Eco ist somit nicht erkennbar.
+
+Kenngrössen und Wirtschaftlichkeit
+Das Projekt bietet im Vergleich eine grosse Nutzfläche an. Aufgrund der relativ hohen Erstel-
+lungskosten liegt der Neubau bezüglich CHF / NF -Verhältnis im Mittelfeld.
+
+Gesamteindruck
+Der formal reduzierte Projektvorschlag erweckt mit seiner etwas rigorosen und schnittigen
+Grundhaltung einen zwiespältigen Ausdruck. Auch die innere Beschaffenheit mit Terrazzo-
+böden und Sichtbetondecken erfordert eine grosse Bereitschaft der Nutzer für das «ZUHAU-
+SE». Die Grundidee ein Haus zu schaffen, das in Symbiose mit Pflanzen eine sympathische
+Wirkung ausstrahlt und zusätzlich auch eine Antwort auf die Klima-Tauglichkeit einlöst, wird
+begrüsst.
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 40
+
+
+
+Situation
+
+
+
+
+Ansicht Ost
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 41
+
+
+
+Visualisierung
+
+
+
+
+Grundriss Erdgeschoss
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 42
+
+
+
+Grundrisse Obergeschosse
+
+
+
+
+Querschnitt
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 43
+
+
+
+
+03 BETULA PAPYRIFERA
+5. Rang / 5. Preis
+
+
+
+
+Projektverfasser (Architektur)				Mitarbeitende
+Yves Merkofer						Merkofer Yves
+Alleestrasse 3
+3613 Steffisburg
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                          Seite 44
+
+
+
+
+Projektbeschrieb «03 BETULA PAPYRIFERA»
+
+Städtebau, Typologie und Gebäudevolumetrie
+Eine sorgfältige Analyse der öffentlichen Parkanlagen im Quartier durch die Projektverfasser
+begründet nachvollziehbar Form und Platzierung des Neubaus. Das Projekt BETULA PA-
+PYRIFERA stärkt die Aufweitung des Strassenraumes als Auftakt zum Spitalareal einerseits
+durch die Weiterführung der geschlossenen Bauweise, andererseits durch die Krümmung der
+Westfassade, welche Bezug auf die Klinikgebäude der Nachbarschaft nimmt.
+Der kompakte Gebäudesolitär, der durch seine Form die Parzelle optimal ausnützt, schafft
+einen überraschend grosszügigen Zwischenraum, welcher einen gemeinsamen Platz als
+Hochplateau zwischen Neubau und der GHG aufspannt.
+Es entsteht eine klare Zugangssituation, indem die Erschliessung in Form von einer ge-
+schwungenen Treppe und einer leider nicht rollstuhlgängigen Rampe, welche die Tiefgara-
+geneinfahrt umrahmen, das Hochplateau mit einer etwas sehr theatralischen Geste mit dem
+Strassenraum verbindet. Unterstützt wird die räumliche Situation durch einen begrünten
+Sockel auf Strassenniveau, der sich von der darüberliegenden Fassade unterscheidet.
+
+Organisation und Funktionalität
+Durch das simple Konzept von einer rundumlaufender Raumschicht und Kern in der Mitte sind
+gute funktionale Abläufe und kurze Wege vorgesehen. Die Gebäudeform lässt zu, dass viele
+Räume direkt an die Fassade stossen und somit gut ausgeleuchtet sind und, dass die inneren
+Erschliessungsflächen – mit pro Geschoss leicht abwechselnder Tragstruktur - räumlich ange-
+nehme Zonen mit Ausblicken und Tageslicht entstehen. Der Haupteingang- und Empfangsbe-
+reich sowie die Vorzone um den Bettenlift sind zu knapp bemessen.
+
+Tragwerk, Konstruktion und Erscheinung
+Vorgeschlagen wird ein Hybrid von einer tragender Aussenhülle aus einer Holzrahmenkons-
+truktion, einem Kern aus Beton und dazwischen gespannte Holzverbunddecken. Die Trag-
+konstruktion ist über alle Geschosse klar strukturiert und lässt eine flexible Einteilung der
+Sekundärstruktur zu; die Holzkonstruktion verspricht eine kurze Bauzeit. Allerdings sind die
+vorgesehenen Spannweiten zu gross für eine ökonomische und nachhaltige Holzbauweise.
+Der Fassadenausdruck ist geprägt durch die feingliedrigen vertikalen PV-Lamellen und wirkt
+in den Darstellungen fast poetisch. Die gekrümmten Fassadenabwicklungen unterstützen die
+Wirkung der je nach Ausrichtung in verschieden Winkeln gefächerten Lamellen maximal.
+Was hinterfragt werden muss, ist, ob die hinter den semitransparenten Lamellen liegenden,
+relativ klein bemessenen Fenster tatsächlich genügend Tageslicht in die Innenräume bringen
+werden. Der für die Behandlungsräume gewünschte Einsicht-Schutz ist jedoch sicherlich
+gewährleistet.
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                           Seite 45
+
+
+
+
+Freiraum
+Die Verfasserin spannt einen wohl proportionierten Hofraum zwischen Neubau und der GHG
+auf. Darin platziert wird die Ankunft mit Tiefgarageneinfahrt, die Zuwegung der höher gelege-
+nen Eingänge und einen mit Grüninseln durchsetztem Aufenthaltsbereich. Mit der klaren Glie-
+derung von Parkierung, Eingang/Aufenthalt und den Aussenbereichen der GHG werden die
+Funktionen sinnvoll entflechtet und die Anlage zu einem stimmigen Gesamten zusammenge-
+bunden. In der Ausgestaltung ist der Aussenbereich von Verkehrs- und Erschliessungswegen
+dominiert, beinahe die gesamte Aussenfläche wird versiegelt. Es wäre wünschenswert, dass
+sich die Aussenanlage der Klinik mehr in den Kontext des parkartig durchgrünten Spitalareals
+eingliedert und der Anteil der Grünflächen massgeblich erhöht würde. Aus diesem Aspekt ist
+die Verdoppelung der Asphaltfläche zur Verbreiterung der Brückengasse unverständlich.
+
+Energie, Technik und Nachhaltigkeit
+Die Steigzonen sind in Bezug auf Zugänglichkeit sowie Flexibilität gut platziert. Die Nachhal-
+tigkeit ist in Form der PV-Anlage an der Fassade vorhanden. Ihre Effizienz lässt sich aufgrund
+der Ausrichtung aber schlecht abschätzen.
+Hohe Unterhaltskosten für die Fassadenkonstruktion sind zu erwarten.
+
+Kenngrössen und Wirtschaftlichkeit
+Im Vergleich zu anderen geprüften Projekten bietet BETULA PAPYRIFERA am wenigsten
+Nutzfläche, was kaum Spielraum zu Flächenkorrekturen zulässt und weist in Bezug auf die
+hohen Erstellungskosten ein schlechtes CHF / NF- Verhältnis aus.
+
+Gesamteindruck
+Den Verfassern gelingt mit ihrem Projekt trotz - oder wegen - der nicht alltäglichen Gebäude-
+form ein sorgfältig in das Quartier eingepasster Vorschlag.
+Die vorgesehenen Materialien in Fassade und Aussenraum geben ein stimmiges Gesamtbild.
+Ob bei einer Umsetzung der feingliedrige Fassadenausdruck bleiben wird, lässt sich nicht
+bekräftigen.
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 46
+
+
+
+Situation
+
+
+
+
+Ansicht West
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 47
+
+
+
+Querschnitt
+
+
+
+
+Grundriss Erdgeschoss
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 48
+
+
+
+Grundrisse Ober- und Untergeschosse
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 49
+
+
+
+
+05 Sol
+6. Rang / 6. Preis
+
+
+
+
+Projektverfasser (Architektur)				Mitarbeitende
+Patrick Arnold Architekt ETH					Overath Luisa
+Pfingstweidstrasse 6						        Arnold Patrick
+8005 Zürich
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                             Seite 50
+
+
+
+
+Projektbeschrieb «05 Sol»
+
+Städtebau, Typologie und Gebäudevolumetrie
+Das Projekt SOL zielt mit der Ausbildung seines Volumens auf einen Ausgleich zwischen der
+kleinteiligen Quartierstruktur von St. Fiden und dem grosszügigen Freiraum des St. Galler
+Bürgerspitals an der Chaussée nach Rorschach. Es adressiert sich als grosse und allseitig
+orientierte Stadtvilla mit einem Hochparterresockel von zwei Metern Höhe direkt und selbst-
+verständlich zur Tempelackerstrasse hin. Eine Gartenmauer fasst den höhergelegten Garten,
+welcher ebenerdig zum Erdgeschoss liegt. Der viergeschossige Bau setzt die grossbürger-
+liche Villentypologie konsequent um. Ein grosszügiges Treppenhaus liegt mit einem alle
+Geschosse verbindenden Podestraum direkt am Eingangsrisalit. Eine grosse Korridorhalle
+liegt mittig im Haus und entwickelt eine Räumlichkeit, die gekonnt zwischen Wohnlichkeit und
+institutioneller Seriosität vermittelt. Die Gebäudehöhe ist trotz Ausbildung eines Hochparterre-
+Sockel gut mit dem Kontext verträglich.
+Zur Erweiterung der GHG wird mit der Mauer der Tiefgaragenabfahrt und einer Gartenschicht
+eine klare Zäsur aufgebaut. Der vorgeschlagene Zwischenbau zeigt eine funktionale Plausibi-
+lität, funktioniert volumetrisch, wie die Verfasser selbst erörtern, aber nur bedingt.
+
+Organisation und Funktionalität
+Die Organisation der beiden Geschosse folgt den funktionalen Vorgaben des Programms. Die
+Besprechungs- und Gynäkologieräume sind sinnvoll gruppiert und orientieren sich im Erdge-
+schoss zumeist zum Gartenraum. Dieser ist aber mit Wegführungen und dem Blumengarten
+zu stark bespielt, so dass der direkte Aussenraumbezug die Diskretion beeinträchtigen könn-
+te. Im oberen OP-Geschoss zeigt die Disposition des Grundrisses die Flexibilität der Typolo-
+gie und ist im Grundsatz ebenfalls funktionsfähig. Als eher problematisch werden der grosse
+Erschliessungsraum und die prominente Anordnung des Warteraums eingestuft. Was in den
+Obergeschossen der Open Spaces als Kommunikationszone erwünscht ist, beeinträchtigt in
+den Praxisgeschossen die Diskretion. Es ist betrieblich nicht erwünscht, wenn Kundinnen und
+Kunden während des Wartens den ganzen Betrieb wahrnehmen können, und sie sollten nicht
+stetig auf andere Klientinnen und Klienten treffen. Auch bietet die vorgeschlagene Organisati-
+on dem Personal wenig Möglichkeiten für eigene Wege ohne Kundenkontakt.
+
+Tragwerk, Konstruktion und Erscheinung
+Das Gebäude ist in den Regelgeschossen als Holzbau konzipiert. Das Tragwerkssystem mit
+Flachdecken und Stützenabständen von bis zu acht Metern ohne Verstärkungen in Form von
+Unterzugsbalken oder besonderer Stützenausbildung ist aber nicht plausibilisiert. Die Fas-
+sadenstruktur mit der vorvergrauten Holzschalung stimmt in ihrer konstruktiven Ausformulie-
+rung nur bedingt mit dem Bild einer wertigen Stadtarchitektur zusammen. Die Gesimse aus
+Aluminium, die nicht Patina ansetzen können, erzielen zusammen mit dem offen montierten
+Sonnenschutz eine sehr direkte und rohe Erscheinung. Diese steht in widersprüchlichem Kon-
+trast zur Motivik, die mit dem historisierenden Fries beim Dachabschluss angestossen wird.
+Im Innern ist keine spezifische konstruktive Auseinandersetzung bezüglich Medizinalpraxis
+sichtbar.
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                          Seite 51
+
+
+
+
+Freiraum
+Die Verfasserin setzt das neue Praxisgebäude auf eine üppig bepflanzte Gartenterrasse. Die-
+se wird zwischen Nachbargrundstück und Strassenebene gemittelt, hohe Mauern stützen zur
+Strasse, kleinere Mauern fangen die Nachbarparzelle auf. Über einen kleinen Vorplatz werden
+Gebäudezutritt und Tiefgarageneinfahrt erschlossen, etwas deplatziert wirkt die ebenfalls an
+diesem prominenten Ort befindliche Entsorgungsstelle. Im nördlich gelegenen Blumengarten
+befindet sich ein kleiner, von Grün umrahmter Sitzplatz, der mit Sitzgelegenheiten und einem
+Brunnen zum Verweilen einlädt. Die Intimität des Blumengartens hätte mit einem Verzicht des
+Verbindungsweges zur GHG noch gestärkt werden können. Die GHG wird als eigenständiger
+Garten ausgebildet. Eine als Rampe ausgebildete Zuwegung erschliesst die Eingänge der
+GHG zweckmässig, die Nähe der Kurzzeitparkplätze an diesen Weg wird als kritisch angese-
+hen. Die Aussenräume mit Spielwiese, Spielstube und Lerngarten sind stimmig.
+
+Energie, Technik und Nachhaltigkeit
+Die Funktionsflächen für die Technik sind in den Untergeschossen nicht vollständig nach-
+gewiesen. Es besteht zudem wenig Zusammenhang zwischen den energietechnischen
+Beschrieben und den Planunterlagen. Den spezifischen Bedingungen des Holzbaus wird im
+Zusammenhang mit der Bauaufgabe (OP, Labor, Lüftung, Kühlung, Nachtauskühlung) zu
+wenig Aufmerksamkeit geschenkt.
+
+Kenngrössen und Wirtschaftlichkeit
+Der kompakte und effizient organisierte Baukörper weist ein gutes Verhältnis von Nutzflächen
+zu Erstellungskosten auf. Das Projekt liegt deshalb bezüglich Wirtschaftlichkeit im optimalen
+Bereich. Die Art der Fassadenkonstruktion (z.B. mit aussenliegenden und ungeschützten
+Sonnenstoren) wird als unterhaltsintensiv wahrgenommen. Die Holzfassade per se wird aus
+wirtschaftlichen Gründen jedoch nicht in Frage gestellt.
+
+Gesamteindruck
+Das Projekt SOL zeichnet sich durch eine präzise städtebauliche und architektonische
+Setzung aus, die einen sehr hohen Grad an Selbstverständlichkeit erreicht. Leider kann die
+gewählte Typologie den spezifischen Anforderungen einer endokrinologischen Klinik nicht ent-
+sprechen. Auch erreicht die Konstruktion nicht die gewünschte Plausibilität, und die Aussagen
+zu Energie und Nachhaltigkeit bleiben vage. Das Projekt vermittelt eine gelungene Stimmung,
+bleibt aber insgesamt ein Stück weit zu stark im Bildhaften hängen.
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 52
+
+
+
+Situation
+
+
+
+
+Ansicht Nord
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 53
+
+
+
+Visualisierung
+
+
+
+
+Grundriss Erdgeschoss
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 54
+
+
+
+Grundriss 1. Obergeschoss
+
+
+
+
+Grundriss 2. & 3. Obergeschoss
+
+
+
+
+Querschnitt
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 55
+
+
+
+
+19 ENSEMBLE
+7. Rang / 7. Preis
+
+
+
+
+Projektverfasser (Architektur)				Mitarbeitende
+Gross Architects						Kornilaeva Daria
+Obere Heslibachstrasse 52					Gurgenishvili Xenia
+8700 Küsnacht
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                          Seite 56
+
+
+
+
+Projektbeschrieb «19 ENSEMBLE»
+
+Städtebau, Typologie und Gebäudevolumetrie
+Das Quartier am Tempelacker erhält mit dem kubischen Neubau einen markanten Akzent.
+Durch die parallele Ausrichtung des länglichen viergeschossigen Baukörpers zum östlichen
+Wohnbau wird ein Vorplatz freigespielt, der das bestehende Tempelackergebäude angemes-
+sen einbezieht. Der Erweiterungsbau für die Institution GHG wird mit einem etwas sperrigen
+Einzelbau vorgeschlagen, womit der Hof zwischen den beiden flankierenden Gebäuden
+geschmälert und eine konkurrenzierende Massigkeit mit Fiore erzeugt wird.
+
+Organisation und Funktionalität
+Über den breitangelegten Haupteingang wird der Besucher direkt auf die vertikale Erschlies-
+sung geleitet. Eine gewisse Diskretion wird damit eingehalten, hingegen entspricht dies nicht
+dem überdimensionierten Eingangs-Auftritt. Dieses Geschoss wird zusätzlich zum Dachge-
+schoss als Open Office genutzt. In den zwischenliegenden Ebenen sind die Abteilungen mit
+zusätzlicher Treppe für die Behandlungen eingebunden. Die Stockwerke sind in einem ein-
+heitlichen feinmaschigen Stützraster strukturiert, damit sind flexible Raumteilungen möglich,
+dabei werden aber einige Räume durch störende Stützen in der Nutzung eingeschränkt. Die
+Behandlungsräume sind mit innerem Korridornetz differenziert und den Ansprüchen entspre-
+chend zugeordnet, was dem Anliegen an Diskretion entgegenkommt.
+
+Tragwerk, Konstruktion und Erscheinung
+Das Tragwerk aus Stützen und Balkenunterzügen beruht auf einem Holzsystem, das mit
+Holzstapeldecken, Schüttungen und Hohlboden für die Installationen durchdacht eigebunden
+wird. Die Aussenwände sind im Holzrahmenbau kombiniert mit Gurtsimsen in Faserbeton und
+Holzrollläden ansprechend gegliedert; dies wirft aber bezüglich Wertigkeit und Materialmix
+einige Fragen auf. Die Fenstereinheiten werden umfassend einheitlich, durch Brüstung- und
+Sturzbänder reduziert, vorgeschlagen. Der architektonische Ausdruck bewirkt auf den Besu-
+cher eine gefällige, aber auch dominante Präsenz. Die witterungsbedingte Veränderung und
+Langlebigkeit der äusseren Materialien ist nicht vorteilhaft einzustufen. Das Untergeschoss
+mit den seitlichen Ausweitungen ist ungünstig und die Erschliessungsrampe nicht praktikabel
+gelöst.
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht                                              Seite 57
+
+
+
+
+Freiraum
+Die durchgrünte Gartengestaltung passt sich freundlich in das parkartige Spitalareal ein, die
+erschliessenden Funktionen sind selbstverständlich angeordnet. Das auf Strassenniveau
+gesetzte Gebäude überwindet die Topografie zu den Nachbargrundstücken mit ondulierenden
+Geländeabstufungen und umspielt den Praxisneubau mit freien Beetformen. Die kleinteili-
+ge und bewegte Topografie wird zu einem dichten Garten aufgepflanzt. Infolge der grossen
+Gebäudegrundfläche sind die Grünflächen um die Klinik eher bescheiden. Dennoch vermag
+dies für den Ausblick aus dem Gebäude eine attraktive grüne Kulisse bilden, die hausnahen
+Aufenthaltsflächen dagegen wirken bei der geringen Freiraumtiefe eingegraben. Fraglich, ob
+eine Aufenthaltsqualität dort erreicht wird. Die Projektdarstellung lässt vieles offen und bleibt
+in der Andeutung. So wird aus der Plandarstellung nicht klar wie die Ein- und Ausfahrt, sowie
+die Lage der Parkierung vor dem Tempelacker genau funktioniert, oder etwa wie die Situation
+zwischen dem Neubau und der GHG aussieht.
+
+Energie, Technik und Nachhaltigkeit
+Die Steigzonen sind zentral gelegen und in Bezug auf Zugänglichkeit sowie evtl. späteren
+Grundrissänderungen somit gut verortet. Die Wärmeaufbereitung mit Wärmepumpe und Erd-
+sondenfeld sowie Wärme- und Kälteausgabe mittels Heiz- / Kühldecken wird als gut erachtet,
+generell liegt ein guter Gebäudetechnik-Beschrieb vor.
+Die Nachhaltigkeit ist in Form einer PV-Anlage auf dem Dach vorhanden, die Anforderungen
+für eine Zertifizierung nach Minergie-P Eco sind erfüllt. Aus Sicht Energie / Nachhaltigkeit
+zeichnet sich das Projekt durch eine hohe Betriebseffizienz (geringe Betriebskosten) aus.
+
+Kenngrössen und Wirtschaftlichkeit
+Die Effizienz des Projekts liegt im Mittelfeld, was das Verhältnis von Kubatur zu Nutzfläche
+betrifft. Durch die relativ niedrigen Erstellungskosten kann sich der Bau auch trotz der verhält-
+nismässig kleinen Nutzfläche im guten Mittelfeld halten.
+
+Gesamteindruck
+Das Haus 14 zeichnet sich in der Setzung zum Quartier erträglich aus, wobei der Baukörper
+das Geviert etwas zu voluminös einnimmt. Der Erweiterungsvorschlag für die Institution Tem-
+pelacker mit einem grossen Einzelbau im Hof kann nur ansatzweise überzeugen. Die Bemü-
+hungen für eine nachhaltige Bauweise, womit sich dieser Vorschlag besonders auszeichnet,
+werden eingehend dargelegt. Die hohen Anforderungen an die Umsetzung eines Holzbau-
+systems sind einerseits kostentreibend und andererseits wird von dem Betreiber einiges an
+Entgegenkommen erzwungen.
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 58
+
+
+
+Situation
+
+
+
+
+Ansicht West
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 59
+
+
+
+Visualisierung
+
+
+
+
+Grundriss Erdgeschoss
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 60
+
+
+
+Grundrisse Obergeschosse
+
+
+
+
+Querschnitt
+  KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 61
+
+
+
+
+10 Anhang B: Ausscheidung 3. Rundgang
+
+
+  01 Fire Tarne
+  Architektur
+  AXEL VANSTEENKISTE ARCHITECTURE, Basel
+
+
+
+
+  10 LILIUM
+  Architektur
+  Skop AG Architektur & Städtebau, Zürich
+
+  Landschaftsarchitektur
+  Grand Paysage GmbH, Basel
+
+
+
+
+  14 Leon und Lea
+  Architektur
+  Stoffel Schneider Architekten AG, Weinfelden
+
+  Praxis- und Laborplanung
+  Pratton GmbH, Frauenfeld
+
+
+
+
+  16 cellula
+  Architektur
+  Atelier Q31, Zürich
+
+  Praxis- und Laborplanung
+  Laborplaner Tonelli AG, Gelterkinden
+  KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 62
+
+
+
+
+11 Anhang C: Ausscheidung 2. Rundgang
+
+
+  04 LOUISE
+  Architektur
+  Raphael Jans Arch. ETH & Meng Li, Zürich
+
+  Landschaftsarchitektur
+  Andreas Geser Landschaftsarchitekten AG, Zürich
+
+  Praxis- und Laborplanung
+  daniel pauli dipl. arch ETH / SIA, Villnachern
+
+
+
+
+  09 FLOS
+  Architektur
+  Gähler Flühler Architekten AG, St. Gallen
+
+  Praxis- und Laborplanung
+  Laborplaner Tonelli AG, Gelterkinden
+
+
+
+
+  13 FIORE
+  Architektur
+  Oestreich + Schmid Architekten BSA / SIA, St. Gallen
+  KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 63
+
+
+
+
+12 Anhang D: Ausscheidung 1. Rundgang
+
+
+  02 IMPIANTO
+  Architektur
+  BUTSCHER ARCHITEKTEN AG, Basel
+
+  Praxis- und Laborplanung
+  BUTSCHER ARCHITEKTEN AG, Basel
+
+
+
+
+  07 LIFE
+  Architektur
+  ARGE: seiler architects / Rujbr Architekten, Zürich
+
+  Landschaftsarchitektur
+  Tremp Landschaftsarchitekten GmbH, Zürich
+
+
+
+
+  08 FRUCHTGARTEN
+  Architektur
+  ARCHPLAN AG ARCHITEKTEN, St. Gallen
+
+  Landschaftsarchitektur
+  Andreas Kunz Landschaftsarchitektur, Gossau SG
+
+
+
+
+  11 OOZYTE
+  Architektur
+  MANIERA Architekturatelier GmbH, Chur
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 64
+
+
+
+
+12 DHWNSGUD
+Architektur
+Jun Hyoung OH, Bergheim (D)
+
+
+
+
+15 Kriflex
+Architektur
+Architekturbüro Antoniol+Huber+Partner, Frauenfeld
+
+Praxis- und Laborplanung
+Praxisplaner idtwo gmbh, Zürich
+
+
+
+
+18 VNAIDA
+Architektur
+MIN.ARCHI, Berlin (D)
+
+
+
+
+21 ziczac
+Architektur
+kimlim architekten eth/sia gmbh, St. Gallen
+KSSG | Neubau Haus 14, St.Gallen | Beurteilungsbericht   Seite 65
+
+
+
+
+22 Schlussstein
+Architektur
+Architrav Architektur AG, Gossau SG
+
+
+
+
+24 Frühling
+Architektur
+Anne Hangebruch Mark Ammann Architekten GmbH,
+Zürich
+
+Landschaftsarchitektur
+Fritschi Landschaftsarchitekten GmbH, Mönchaltorf
+

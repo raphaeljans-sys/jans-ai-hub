@@ -1,0 +1,41 @@
+{
+  "slug": "Kampmann",
+  "architekt": {
+    "name": "Kampmann",
+    "nachname": "Kampmann",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Kampmann"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Kampmann",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Kopenhagen_Polizeigebaeude",
+      "ort": "Kopenhagen",
+      "projekt": "Polizeigebaeude",
+      "jahre": [],
+      "titel": "Kopenhagen Polizeigebaeude"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Kampmann | 00 Architekten | Kopenhagen Polizeigebaeude",
+  "stand": "2026-07-02T21:22:13"
+}

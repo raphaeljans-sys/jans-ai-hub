@@ -1,0 +1,34 @@
+{
+  "slug": "Archifactory",
+  "architekt": {
+    "name": "Archifactory",
+    "nachname": "Archifactory",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Archifactory"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Archifactory",
+  "projekte": [
+    {
+      "raw": "Ebeling House",
+      "ort": "Ebeling House",
+      "projekt": "Ebeling House",
+      "jahre": [],
+      "titel": "Ebeling House"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 6,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 6
+  },
+  "dateitypen": {
+    ".jpg": 6
+  },
+  "textauszug": "",
+  "embed_doc": "Archifactory | Ebeling House Ebeling House",
+  "stand": "2026-07-02T21:05:48"
+}

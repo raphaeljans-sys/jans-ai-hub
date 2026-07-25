@@ -1,0 +1,44 @@
+{
+  "slug": "Erickson_Arthur",
+  "architekt": {
+    "name": "Erickson Arthur",
+    "nachname": "Erickson",
+    "vorname": "Arthur",
+    "jahre": [],
+    "ordner": "Erickson_Arthur"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Erickson_Arthur",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Smith_House_1964",
+      "ort": "Smith",
+      "projekt": "House",
+      "jahre": [
+        "1964"
+      ],
+      "titel": "Smith House 1964"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 12,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 12
+  },
+  "dateitypen": {
+    ".jpg": 11,
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Erickson Arthur | 00 Architekten | Smith House 1964",
+  "stand": "2026-07-02T21:14:02"
+}

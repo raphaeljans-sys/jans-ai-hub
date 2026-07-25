@@ -1,0 +1,34 @@
+{
+  "slug": "Hauenstein_LaRoche_Schedler",
+  "architekt": {
+    "name": "Hauenstein LaRoche Schedler",
+    "nachname": "Hauenstein LaRoche Schedler",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Hauenstein LaRoche Schedler"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Hauenstein LaRoche Schedler",
+  "projekte": [
+    {
+      "raw": "Haus in Zürich",
+      "ort": "Haus in Zürich",
+      "projekt": "Haus in Zürich",
+      "jahre": [],
+      "titel": "Haus in Zürich"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 4,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 4
+  },
+  "dateitypen": {
+    ".tif": 4
+  },
+  "textauszug": "",
+  "embed_doc": "Hauenstein LaRoche Schedler | Haus in Zürich Haus in Zürich",
+  "stand": "2026-07-02T21:16:59"
+}

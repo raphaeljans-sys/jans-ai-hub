@@ -1,0 +1,44 @@
+{
+  "slug": "Morger_Dettilin",
+  "architekt": {
+    "name": "Morger Dettilin",
+    "nachname": "Morger",
+    "vorname": "Dettilin",
+    "jahre": [],
+    "ordner": "Morger_Dettilin"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Morger_Dettilin",
+  "projekte": [
+    {
+      "raw": "Stutgahrt_Roemerhof",
+      "ort": "Stutgahrt",
+      "projekt": "Roemerhof",
+      "jahre": [],
+      "titel": "Stutgahrt Roemerhof"
+    },
+    {
+      "raw": "Zuerich_Wohnhaus_Zueriberg",
+      "ort": "Zuerich",
+      "projekt": "Wohnhaus Zueriberg",
+      "jahre": [],
+      "titel": "Zuerich Wohnhaus Zueriberg"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 3,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 1,
+    "total": 5
+  },
+  "dateitypen": {
+    ".png": 2,
+    ".jpg": 1,
+    ".indd": 1,
+    ".pdf": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Morger Dettilin | Stutgahrt Roemerhof | Zuerich Wohnhaus Zueriberg",
+  "stand": "2026-07-02T22:42:16"
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "Rey_Adolphe_Augustin",
+  "architekt": {
+    "name": "Rey Adolphe Augustin",
+    "nachname": "Rey",
+    "vorname": "Adolphe Augustin",
+    "jahre": [],
+    "ordner": "Rey_Adolphe_Augustin"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Rey_Adolphe_Augustin",
+  "projekte": [
+    {
+      "raw": "Paris_Dreiecksblock_Rue_de_Prague_Fondation_rothschild_Gewonnener_Wet_erbaut_1905",
+      "ort": "Paris",
+      "projekt": "Dreiecksblock Rue de Prague Fondation rothschild Gewonnener Wet erbaut",
+      "jahre": [
+        "1905"
+      ],
+      "titel": "Paris Dreiecksblock Rue de Prague Fondation rothschild Gewonnener Wet erbaut 1905"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 8,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 8
+  },
+  "dateitypen": {
+    ".jpg": 6,
+    ".png": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Rey Adolphe Augustin | Paris Dreiecksblock Rue de Prague Fondation rothschild Gewonnener Wet erbaut 1905",
+  "stand": "2026-07-02T22:45:47"
+}

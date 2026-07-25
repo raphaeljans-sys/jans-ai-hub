@@ -1,0 +1,94 @@
+{
+  "slug": "Bucher_Bruendler",
+  "architekt": {
+    "name": "Bucher Bruendler",
+    "nachname": "Bucher",
+    "vorname": "Bruendler",
+    "jahre": [],
+    "ordner": "Bucher_Bruendler"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Bucher_Bruendler",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "01_Projekte",
+      "ort": "01",
+      "projekt": "Projekte",
+      "jahre": [],
+      "titel": "01 Projekte"
+    },
+    {
+      "raw": "02_Wettbewerb",
+      "ort": "02",
+      "projekt": "Wettbewerb",
+      "jahre": [],
+      "titel": "02 Wettbewerb"
+    },
+    {
+      "raw": "03_Ausstellungen",
+      "ort": "03",
+      "projekt": "Ausstellungen",
+      "jahre": [],
+      "titel": "03 Ausstellungen"
+    },
+    {
+      "raw": "04_Literatur",
+      "ort": "04",
+      "projekt": "Literatur",
+      "jahre": [],
+      "titel": "04 Literatur"
+    },
+    {
+      "raw": "05_Referenzen",
+      "ort": "05",
+      "projekt": "Referenzen",
+      "jahre": [],
+      "titel": "05 Referenzen"
+    },
+    {
+      "raw": "06_Vortrag",
+      "ort": "06",
+      "projekt": "Vortrag",
+      "jahre": [],
+      "titel": "06 Vortrag"
+    },
+    {
+      "raw": "07_Lehre",
+      "ort": "07",
+      "projekt": "Lehre",
+      "jahre": [],
+      "titel": "07 Lehre"
+    },
+    {
+      "raw": "Fotos_Innenarchitektur",
+      "ort": "Fotos",
+      "projekt": "Innenarchitektur",
+      "jahre": [],
+      "titel": "Fotos Innenarchitektur"
+    }
+  ],
+  "projekt_anzahl": 9,
+  "inventar": {
+    "bilder": 20,
+    "dokumente": 3,
+    "cad": 0,
+    "andere": 2,
+    "total": 25
+  },
+  "dateitypen": {
+    ".png": 18,
+    ".jpg": 2,
+    "": 2,
+    ".pdf": 2,
+    ".docx": 1
+  },
+  "textauszug": "http://www.bbarc.ch/ Architektur BETONMINIATUREN Text: Jørg Himmelreich / 4.10.2012 18:00 Das architektonische Werk von Daniel Buchner und Andreas Bründler entwickelt sich durch fortlaufende Recherchen und das Experimentieren mit Form und Material kontinuierlich weiter. Auch intensive Dialoge mit Auftraggebern und künftigen Nutzern, die verschiedenen Programme und heterogene urbane Kontexte führen zu verschiedenartigen Lösungen. Den konzeptionellen Reichtum ihrer Projekte spürt man deutlich in der heute Abend eröffneten ersten grossen Einzelausstellung des Basler Büros. In der Haupthalle der ETH Zürich gibt es grosse Modelle aus Beton zu sehen. Zwar werden die unterschiedlichen Materialisierungen der Bauten und der Bezug zum urbanen Kontext durch diese Art der Präsentation ausgeblendet , doch werden die plastische Kraft der Kubaturen und die (innen-)räumlichen Qualitäten umso deutlicher. Gezeigt werden unter anderem das Wohn- und Geschäftshaus Volta und das Wohnhaus am Bläsiring in Basel , das Einfamilienhaus in Binningen oder der Schweizer Pavillon der Weltausstellung in Schanghai. Die Schau läuft bis zum 1. November 2012. http://www.bbarc.ch/",
+  "embed_doc": "Bucher Bruendler | 00 Architekten | 01 Projekte | 02 Wettbewerb | 03 Ausstellungen | 04 Literatur | 05 Referenzen | 06 Vortrag | 07 Lehre | Fotos Innenarchitektur | http://www.bbarc.ch/ Architektur BETONMINIATUREN Text: Jørg Himmelreich / 4.10.2012 18:00 Das architektonische Werk von Daniel Buchner und Andreas Bründler entwickelt sich durch fortlaufende Recherchen und das Experimentieren mit Form und Material kontinuierlich weiter. Auch intensive Dialoge mit Auftraggebern und künftigen Nutzern, die verschiedenen Programme und heterogene urbane Kontexte führen zu verschiedenartigen Lösungen. Den konzeptionellen Reichtum ihrer Projekte spürt man deutlich in der heute Abend eröffneten ersten grossen Einzelausstellung des Basler Büros. In der Haupthalle der ETH Zürich gibt es grosse Modelle aus Beton zu sehen. Zwar werden die unterschiedlichen Materialisierungen der Bauten und der Bezug zum urbanen Kontext durch diese Art der Präsentation ausgeblendet , doch werden die plastische Kraft der Kubaturen und die (innen-)räumlichen Qualitäten umso deutlicher. Gezeigt werden unter anderem das Wohn- und Geschäftshaus Volta und das Wohnhaus am Bläsiring in Basel , das Einfamilienhaus in Binningen oder der Schweizer Pavillon der Weltausstellung in Schanghai. Die Schau läuft bis zum 1. November 2012. http://www.bbarc.ch/",
+  "stand": "2026-07-02T21:09:38"
+}

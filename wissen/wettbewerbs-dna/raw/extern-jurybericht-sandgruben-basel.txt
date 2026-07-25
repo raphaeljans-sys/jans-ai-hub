@@ -1,0 +1,944 @@
+# Quelle: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2102 WB Muttenz/07 Referenzen/12 Berichte/Basel_BVD_Jurybericht_Sandgruben.pdf
+# Extrakt: pdftotext -layout, 12.07.2026, 78 Seiten (A4), Bericht des Preisgerichts Juni 2012
+# Teilextrakt (relevante Abschnitte): Titel/Inhalt · Aufgabe/Programmvorgaben (S. 10-12) · Beurteilungskriterien (S. 13) · Verfahren/Teams (S. 14-16) · Beurteilung/Rangierung (S. 17) · Couvertoeffnung/Empfehlung (S. 18) · Beurteilungen Rang 1-3 (S. 20-22, 26-28, 32-34) · Wuerdigung/Genehmigung (S. 72-73)
+
+Bau- und Verkehrsdepartement des Kantons Basel-Stadt
+
+Städtebau & Architektur
+
+Hochbauamt
+
+
+
+
+Anonymer Projektwettbewerb im selektiven Verfahren
+
+Schulanlage Sandgruben
+NEubau Sekundarschulhaus
+mit Sporthallen
+Bericht des Preisgerichts
+Juni 2012
+
+===== AUFGABE / PROGRAMMVORGABEN / KRITERIEN / VERFAHREN (S. 10-16) =====
+10        Bericht des Preisgerichts/Projektwettbewerb Neubau Sekundarschulhaus Sandgruben Basel/Juni 2012
+                                                                                                                        Aufgabe
+
+
+
+
+sollen die Jugendlichen bereits in der Schule lernen, dass        ten zu können. Die Gestaltung des Aussenbereiches soll zu-
+Akademiker und Handwerker oder Kaufmann in einem Be-              dem die Bewohner aus dem Quartier dazu einladen, den
+trieb erfolgreich zusammenarbeiten können.                        Raum in den schulfreien Zeiten zu nutzen.
+    Diese Strukturierung soll den Jugendlichen innerhalb
+der Schule auch eine klare Orientierung geben und das             Handhabung der Raumbedarfstabellen
+Gefühl der Zugehörigkeit zu einem Ort und somit der Si-           Der moderne Schulbau muss auf Veränderungen im Betrieb
+cherheit ermöglichen.                                             reagieren können und Anpassungen an veränderte Raum-
+                                                                  nutzungen nachträglich ohne grossen Aufwand ermögli-
+Das Spezialangebot Sandgruben hat eine heilpädagogische           chen. Das oberste Ziel bei Schulhausneubauten ist deshalb
+Ausrichtung: Gleichwertig mit dem Vermitteln von Fach-            ein möglichst hohes Mass an Multifunktionalität und Flexi-
+kenntnissen ist der Aufbau von sozial angepasstem Verhal-         bilität bei Unterrichts- und Gruppenräumen. Spezialräume
+ten und Beziehungsfähigkeit. Lernen findet in jedem Winkel        sind nur für diejenigen Schulfächer anzubieten, wo dies
+des Schulhauses statt, weil jede Situation (ein Konflikt auf      zwingend notwendig ist.
+dem Pausenhof, ein Suchauftrag in der Bibliothek, das Ver-            Das Nutzungsprogramm und der Flächenbedarf wurden
+halten gegenüber einer Lehrperson im Gang, die Diskussion         in zwei verschiedenen Arten dargestellt. Die konventionelle,
+mit dem Lernpartner über einen Unterrichtsgegenstand in           tabellarische Darstellung war lediglich als Orientierungshilfe
+einer Nische) eine Lernsituation darstellt. Das Reflektieren      für die Berechnung der Flächenbudgets zu verstehen. Mass-
+von Lernsituationen in Abteilungen, Gruppen, Elterngesprä-        gebend für die Planung sind die Flächenbudgets. Ein Cluster
+chen, runden Tischen oder in Zweierteams findet im, vor           kann folglich aus Flächen verschiedener Bereiche zusam-
+und nach dem Unterricht sowie parallel dazu statt.                mengesetzt werden, zum Beispiel aus den Bereichen Un-
+                                                                  terricht, Gruppen, Lehrkraft und Erschliessung. Innerhalb
+/ Schule als Lebensmittelpunkt                                    der daraus resultierenden Fläche ist eine freie Anordnung
+Durch das vielfältige Angebot der Tagesstrukturen (Mit-           der Nutzungen denkbar, in der sowohl traditionelle Räume
+tagstisch, Hausaufgabenbetreuung, zusätzliche Lernan-             (z. B.  Inputraum, Förderraum) wie auch Flächen (z. B. Schü-
+gebote, Freizeitgestaltung, Sport und Spiel etc.) verbrin-        ler- und Lehrpersonenarbeitsplätze) und Nischen in Gang-
+gen viele Jugendliche mehr Zeit in der Schule als zu Hau-         zonen (z. B. Gruppenbereiche) etc. angeboten werden. Dafür
+se. Auch viele Lehrpersonen erledigen heute die Vor- und          waren innovative architektonische Konzepte gefragt.
+Nachbereitung nicht mehr allein zu Hause, sondern als
+Teil eines Teams in der Schule. Die Schule wird also zum          Es wird ein möglichst haushälterischer Umgang mit dem
+Lebensmittelpunkt für alle Beteiligten.                           Raum angestrebt. Die ausgewiesenen Flächen setzen sich
+    Bibliothek / Mediathek, Lehrpersonenzimmer, Aufent-           aus Anteilen der jeweiligen Flächenbudgets zusammen. Es
+haltsräume, Mittagstisch und Zusatzangebote wie Schul-            muss bei jeder Lösung darauf geachtet werden, dass die
+verwaltung, Förderzentrum und Sozialarbeit sollen neben           Verteilung und Anordnung der Flächen zukünftige Schul-
+den Lernbereichen an einem Ort konzentriert werden. In            entwicklungen weder beeinträchtigt noch verunmöglicht.
+diesem Bereich halten sich Jugendliche und Erwachsene             Eine offene Lernlandschaft muss sich wieder ohne grossen
+vor oder nach dem Unterricht, über Mittag oder in Zwi-            Aufwand in einen traditionellen Unterrichtsraum verwan-
+schenstunden auf. Vielleicht könnte im Zentrum ein offe-          deln lassen – und umgekehrt.
+ner marktplatzähnlicher Begegnungsort sein, gleichzeitig
+braucht es aber auch Rückzugsmöglichkeiten.                       Energie und Ökologie
+                                                                  Es gelten die heutigen Forderungen des nachhaltigen Bau-
+/ Die Schule im Quartier                                          ens (SIA Empfehlung 112 / 1 nachhaltiges Bauen). Die Auf-
+Noch nicht abschliessend geklärt ist die Frage, inwiefern die     traggeberin verfolgt das Ziel, das Schulhaus möglichst um-
+neue Schule ein öffentlicher Ort sein soll oder nicht. Soll sie   weltschonend und energieeffizient zu erstellen. Hierfür gilt
+im Quartier noch andere Funktionen übernehmen? So könn-           der Minergie-P-Eco Standard als Leitlinie. Im Sinne der Vor-
+te es auch für die Schule eine Chance sein, wenn die Biblio-      reiterrolle will die Bauherrschaft das Schulhaus entspre-
+thek / Mediathek zum Beispiel diejenige des Quartiers wäre.       chend zertifizieren lassen.
+So wäre sie für die Schule optimal ausgestattet und man               Das Erreichen des Standards Minergie-P-Eco oder gleich-
+hätte zudem den Vorteil, in der Schule von professionellen        wertig ist zeichnerisch und mit Text in den Plänen plausibel
+Bibliothekarinnen und Bibliothekaren zu profitieren.              darzulegen. Eine nachvollziehbare Berechnung der Gebäude-
+                                                                  hüllzahl (Ath / AE) ist pro Gebäude abzuliefern. Insbesondere
+Für den Pausenbereich sind zwei eher konträre Anliegen            dem Thema graue Energie ist konstruktiv Rechnung zu tra-
+zu berücksichtigen. Einerseits wollen Jugendliche in den          gen.
+Pausen Rückzugsmöglichkeiten haben, andererseits ist es
+für die Erwachsenen wichtig, mit sinnvollem Aufwand den           Im Hinblick auf die Zielsetzung zum Erreichen der 2000-
+Überblick über die ihnen anvertrauten Jugendlichen behal-         Watt-Gesellschaft ist im Projekt aufzuzeigen, wie eine Inte-
+
+
+
+
+                                                                                                                             11
+Aufgabe
+
+
+
+
+gration von Photovoltaik auf dem Dach respektive in der            Fluchtwege und Brandschutz
+Fassade möglich ist. Allerdings wird Solarstrom im Kanton          Korridore, welche ausschliesslich der Erschliessung dienen,
+Basel-Stadt grundsätzlich in der Solarstrombörse abgege-           sind grundsätzlich unökonomisch und wenn möglich zu ver-
+ben und kann deshalb nicht der Energiebilanz der Gebäude           meiden. Ein Teil der notwendigen horizontalen, eventuell
+angerechnet werden.                                                auch vertikalen Erschliessungsflächen muss für den Schul-
+                                                                   alltag genutzt werden, sei es zum erweiterten Unterricht,
+/ Erstellung und Betrieb Gebäude                                   sei es zum Ausspannen in Pausenzeiten. Dabei sind konzep-
+Der Bau soll mit einem niedrigen Ressourcenaufwand (graue          tionell die Vorschriften der Fluchtweg- und Brandab-
+Energie) für Baugrube, Terraingestaltung und Gebäude ge-           schnittsbildungen zu berücksichtigen. Bei der Ausgestal-
+baut werden. Als Leitlinie dient der Standard Minergie-P-Eco       tung der Erschliessungsflächen sind sowohl eine gute und
+oder gleichwertig. Die massgeblichen Kriterien sind:               einfache Orientierung gefragt als auch die Schaffung von
+                                                                   Nischen und Rückzugsorten. Die Lösung der damit verbun-
+/ Energie                                                          denen Fluchtwegprobleme und Brandabschnitte fordert in-
+–– Hohe Kompaktheit                                                novative Lösungen.
+–– Passive Sonnenenergienutzung                                        Bezüglich den Anforderungen an Treppenhäuser und an
+–– Gut wärmedämmende Gebäudehülle mit hoher                        Korridore mit bzw. ohne Brandabschnittsbildung zum Trep-
+   Luftdichtigkeit und minimierten Wärmebrücken.                   penhaus gelten die Bestimmungen der VKF (Brandschutz-
+   Für Boden zu UG, Wände, Fenster und Dach                        vorschriften vom 01.01.2005) und der Verordnung über den
+   sind U-Wert-Berechnungen mitzuliefern.                          Brandschutz des Kantons Basel-Stadt (vom 21.12.2001).
+–– Optimale Tageslichtnutzung
+–– Sommerlicher Wärmeschutz                                        Kostenrahmen
+–– Einsatz von erneuerbaren Energien                               Auf der Basis einer Machbarkeitsstudie wurde ein Kosten-
+   (Photovoltaik und weitere).                                     dach in der Höhe von CHF 50 Mio. inkl. MWSt definiert
+   Die Überlegungen zum Energie- und Klimakonzept müs-             (BKP 2 + 4) unter Berücksichtigung des geforderten Stan-
+sen aufgezeigt werden. Es ist möglich, den Neubau an das           dards Minergie-P-Eco. Die Kosten beinhalten nebst dem ge-
+städtische Fernwärmenetz anzuschliessen, das von der Ab-           forderten Raumbedarf für die neue Sekundarschule und der
+wärme der Kehrichtverbrennung gespeist wird.                       Dreifachsporthalle auch noch die eventuelle Substitution
+                                                                   der Doppelturnhalle und des Vereinsgebäudes des TV-
+/ Bauökologie und Gesundheit                                       Kleinbasel.
+–– Ressourcensparende Bauweise (z. B. graue Energie)
+–– Schadstoffarme Bauweise (ECO-BKP Merkblätter)
+–– Gute Belüftung der Räume (CO2-Belastung minimieren)
+–– Optimale Massnahmen zur Lärmreduktion
+   (von innen und aussen)
+–– Vertikale Steigzonen und gut zugängliche Installations-
+   zonen für die Vertikal- und Horizontalerschliessung
+–– Konzentration der Nasszonen im Grundriss
+–– Rasche und einfache Realisierbarkeit
+
+/ Funktionstüchtigkeit
+Von primärer Bedeutung sind die folgenden Kriterien:
+–– Bausysteme, welche eine einfache, unabhängige
+   Erneuerung der einzelnen Bauteile mit unterschied-
+   licher Lebensdauer ermöglichen (Primär-, Sekundär-
+   und Tertiärsystem)
+–– Effiziente Systeme für die Gewährleistung eines
+   angenehmen Raumklimas
+–– Hohe Beständigkeit der Gebäudehülle
+–– Hohe Flexibilität für spätere Umbaumassnahmen.
+
+Es wird kein rechnerischer Nachweis einer Energiebilanz
+verlangt.
+
+
+
+
+12        Bericht des Preisgerichts/Projektwettbewerb Neubau Sekundarschulhaus Sandgruben Basel/Juni 2012
+Beurteilungskriterien
+
+
+
+Für die Beurteilung der Wettbewerbsvorschläge im Projekt­-
+wettbewerb sind folgende Kriterien massgebend:
+
+–– Architektur und städtebauliches Konzept
+–– Aussenräume und Landschaftsgestaltung
+–– Funktionalität und Flexibilität
+–– Energie, Ökologie
+–– Wirtschaftlichkeit.
+
+Die Reihenfolge der Kriterien bedeutet keine Wertung. Das
+Preisgericht hat aufgrund der aufgeführten Kriterien die
+Gesamtwertung vorgenommen.
+
+
+
+
+                                                             13
+Informationen zum Verfahren
+
+
+Organisation                                                      Formelle Bestimmungen
+Veranstalter des Projektwettbewerbs                               Verfahren
+Kanton Basel-Stadt                                                Ziel des Verfahrens ist die Evaluation eines Generalplaner-
+Finanzdepartement Basel-Stadt,                                    teams, dessen Leitung bei einem ausgewiesenen Gesamt-
+Immobilien Basel-Stadt (Eigentümervertretung)                     leiter oder einem Architekturbüro mit der entsprechenden
+Erziehungsdepartement Basel-Stadt,                                Qualifikation liegt. Zu diesem Zweck wird ein anonymer
+Raum und Anlagen (Nutzervertretung)                               Projektwettbewerb im selektiven Verfahren (Präqualifika-
+Bau- und Verkehrsdepartement Basel-Stadt, Hochbauamt              tion) durchgeführt. Das Preisgericht hat aufgrund der ein-
+(Baufachvertretung / Federführung)                                gereichten Präqualifikationsunterlagen 20 Teams zur Teil-
+                                                                  nahme am Projektwettbewerb zugelassen.
+Wettbewerbsbegleitung
+Ramon Ebri, Projekt Manager, Hochbauamt                           Zur Teilnahme berechtigt waren Teams mit Wohn- und Ge-
+                                                                  schäftssitz in der Schweiz oder einem Vertragsstaat des
+                                                                  GATT / WTO-Übereinkommens.
+                                                                      Die Ausschreibung des Wett­  bewerbs unterstand dem
+                                                                  GATT / WTO-Übereinkommen über das öffentliche Beschaf­
+                                                                  fungswesen (GPA) vom 15. April 1994. Für das Verfahren gilt
+                                                                  das Gesetz über öffentliche Beschaffungen (BeG) vom
+                                                                  20. Mai 1999, die Verordnung über das öffentliche Beschaf-
+                                                                  fungswesen (VöB) vom 11. April 2000 des Kantons Basel-
+                                                                  Stadt und die Interkantonale Vereinbarung über das öffentli-
+                                                                  che Beschaffungs­wesen (IVöB) vom 25. November 1994 /
+                                                                  15. März 2001 sowie subsidiär die SIA-Ordnung 142 (Ausga-
+                                                                  be 2009).
+
+                                                                  Preise und Ankäufe
+                                                                  Für Preise, Ankäufe und Entschädigungen im Rahmen des
+                                                                  Projektwettbewerbs stand dem Preisgericht eine Summe
+                                                                  von insgesamt CHF 300 000.– exkl. MWSt zur Verfügung.
+                                                                     Jedem zur Beurteilung zugelassenen Team wird vom
+                                                                  Gesamtbetrag eine feste Entschädigung in der Höhe von
+                                                                  CHF 10 000.– exkl. MWSt zugesprochen.
+                                                                     Die verbleibende Summe von CHF 100 000.– exkl. MWSt
+                                                                  wird auf Preisgelder verteilt.
+
+
+
+
+14      Bericht des Preisgerichts/Projektwettbewerb Schulanlage Bäumlihof Basel/Januar 2012
+                                                                                           Informationen zum Verfahren
+
+
+
+
+Teilnehmende Teams                                        Preisgericht
+Ausgewählt wurden die folgenden 20 Teams:                 Fachpreisrichter
+                                                          –– Fritz Schumacher (Vorsitz), Kantonsbaumeister
+–– b + p baurealisation ag, Zürich (GL)                      Basel-Stadt
+   :mlzd, Biel (Arch)                                     –– Thomas Blanckarts, Leiter Hochbauamt
+–– Büro für Bauökonomie AG, Luzern (Arch / GL)            –– Marie-Theres Caratsch, Architektin, Flüeli-Ranft
+   Büro Konstrukt, Luzern (Arch / GL)                     –– Matthias Ackermann, Architekt, Professur Architektur
+–– Degelo Architekten BSA SIA AG, Basel /                    FHNW Muttenz
+   GWJ Architektur AG, Bern (Arch / GL)                   –– Andrea Bassi, Architekt, Professur Architektur EPFL,
+–– Hämmerle + Partner GmbH, Zürich (GL)                      Lausanne
+   Dietrich.Untertrifaller.Stäheli Architekten,           –– Dr. Hanspeter Eicher, Energieingenieur, VR Präsident
+   St. Gallen (Arch)                                         Eicher + Pauli, Liestal
+–– Stokar + Partner AG, Basel (GL)                        –– Pascal Gysin, Landschaftsarchitekt, pg landschaften
+   Stücheli Architekten AG, Zürich (Arch)                    Sissach
+–– S + B Baumanagement AG, Pratteln (GL)
+   englerarchitekten BSA SIA, Basel (Arch)                Sachpreisrichter
+–– b + p baurealisation ag, Zürich (GL)                   –– Dr. Christoph Eymann, Regierungsrat, Vorsteher
+   Bob Gysin + Partner BGP, Zürich (Arch)                    Erziehungs­departement Basel-Stadt
+–– Boltshauser Architekten AG, Zürich (Arch / GL)         –– Stephan Hug, Leiter Raum und Anlagen, Erziehungs­
+–– Luca Selva AG Architekten ETH BSA SIA, Basel              departement Basel-Stadt
+   (Arch / GL)                                            –– Stefan Schmitt, Leitung Sekundar Sandgruben
+–– Ghisleni Planen Bauen GmbH, Zürich (GL)                –– Marius Keller, Portfoliomanager, Immobilien Basel-Stadt
+   A. Gigon / M. Guyer Architekten ETH BSA, Zürich        –– Barbara Suter, Leiterin Sonderpädagogik, Erziehungs­
+   (Arch)                                                    departement Basel-Stadt
+–– Emch + Berger AG, Basel (GL)                           –– Urs Maurer, Präsident Netzwerk Bildung / Architektur
+   Bachelard Wagner Architekten ETH SIA, Basel
+   (Arch)                                                 Ersatz Fachpreisrichter
+–– ARCHOBAU AG, Zürich (GL)                               –– Thomas Fries, Architekt, Leiter Projekte 1, Hochbauamt
+   Masswerk AG, Kriens (Arch)
+–– Metron Architektur AG, Brugg (Arch / GL)               Ersatz Sachpreisrichter
+–– Burkard Meyer Architekten BSA, Baden(Arch / GL)        –– Judith Kuhn, Projektleitung Schulraumplanung,
+–– e2a eckert eckert architekten ag, Zürich (Arch / GL)      Erziehungs­departement Basel-Stadt
+–– BE Zürich AG, Zürich (Arch / GL)
+–– Miller & Maranta AG, Basel (Arch / GL)                 Experten (nicht stimmberechtigt)
+–– Nissen & Wentzlaff Architekten, Basel (Arch / GL)      –– Jeannine Borer, Sportamt BS Planung
+   PG Aldiger Architekten, D-Stuttgart (Arch)             –– Susanne Brinkforth, Stadtgärtnerei
+–– Aebli Zimmermann Generalplaner GmbH, Basel             –– Urs Vonäsch, Amt für Umwelt und Energie
+   (GL)                                                   –– Barbara Sintzel, Bauökologie, nachhaltiges Bauen,
+   Galli Rudolf Architekten AG ETH BSA, Zürich (Arch)        NASKA Zürich
+–– b + p baurealisation ag, Zürich (GL)                   –– Hans Imbach, Präsident TV Kleinbasel
+   Herzog & de Meuron, Basel (Arch)                       –– Silvia Rietschi, NQV Oberes Kleinbasel
+                                                          –– Giovanni Olivieri, Gebäudetechnik, Hochbauamt
+   Arch Architektur
+   GL Gesamtleitung
+
+
+
+
+                                                                                                                   15
+Vorprüfung
+
+
+
+19 Projekte wurden unter Wahrung der Anonymität frist-           Formelle Vorprüfung
+gerecht eingereicht.                                             Alle Arbeiten wurden vollständig eingegeben.
+
+Projekt 01 – Plateaus                                            Fachliche Vorprüfung
+Projekt 02 – OPENLUCHT                                           Die eingereichten Projekte wurden gemäss den im Wett­
+Projekt 03 – GROSSE WIESE                                        be­werbsprogramm gestellten Anforderungen durch die im
+Projekt 04 – POIVRE SAMARCANDE                                   Programm genannten Experten und Sachverständigen de-
+Projekt 05 – les sablés                                          tailliert geprüft und die Ergebnisse wurden gemäss den Kri-
+Projekt 06 – sandfisch                                           terien in der Ausschreibung den Mitgliedern des Preisge­
+Projekt 07 – harmonica                                           richts zur Kenntnis gebracht.
+Projekt 08 – schöne aussichtEN
+Projekt 09 –	max                                                 Vorprüfungskriterien
+Projekt 10 – la luz                                              –– Pädagogik
+Projekt 11 – sophie                                              –– Energie / Ökologie / Nachhaltigkeit
+Projekt 12 –	mon(t)plaisier                                      –– Einhaltung Raumprogramm
+Projekt 13 –	open mind                                           –– Wirtschaftlichkeit
+Projekt 14 – luke                                                –– Statik / Realisierbarkeit
+Projekt 15 – beaufort                                            –– Grün- und Freiräume
+Projekt 16 – l’EspRit d’apprendre                                –– Sportraum
+Projekt 17 – l’une et L’autre                                    –– Lärmschutz
+Projekt 18 – Fit & Fertig ?                                      –– Brandschutz
+Projekt 19 – FUNDUK                                              –– Planungs- und Baurecht
+                                                                 –– Turnverein
+Nummerierung der Projekte gemäss Eingang der Beiträge            –– Quartierverein
+beim Veranstalter.
+
+Nachrücker
+Das eingeladene Team Romero & Schäfli Architekten AG,
+Zürich hat sich innerhalb der Frist zurückgezogen. In der
+folge wurde als erster Nachrückender das Büro für Bau-
+ökonomie AG / Büro Konstrukt, Luzern eingeladen.
+   Der Rückzug von b + p baurealisation ag / HdM, Basel
+erfolgte leider zu spät und es konnte kein nachrückendes
+Team mehr zur Teilnahme angefragt werden.
+
+
+
+
+16      Bericht des Preisgerichts/Projektwettbewerb Neubau Sekundarschulhaus Sandgruben Basel/Juni 2012
+
+===== BEURTEILUNG / RANGIERUNG / EMPFEHLUNG (S. 17-18) =====
+Beurteilung
+
+
+Erster Jurytag                                                  Zweiter Jurytag
+Die Jury trifft sich am 11. Juni 2012 vollzählig zum ersten     Zu Beginn des zweiten Jurytags vom 18. Juni 2012 nehmen
+Jurytag. Der Vorsitzende erläutert das Vorgehen und die         die Jurymitglieder Kenntnis von den gewünschten objekt-
+Ziele für den ersten Tag und erinnert alle Anwesenden an        spezifischen Abklärungen und Berechnungen durch Exper-
+die Vertraulichkeit der Jurierung.                              ten und Sachverständige. Es wurden Aussagen zu den The-
+   Der Vorprüfungsbericht wird vorgestellt und erläutert.       men Pädagogik, Ökologie, Energie, Lärmschutz und Wirt-
+Da keine Verstösse vorliegen, können alle Projektvorschlä-      schaftlichkeit gemacht.
+ge zur Beurteilung zugelassen werden.
+                                                                Die Projekte in der engeren Wahl werden anhand der Pro-
+Erster Rundgang                                                 jektbeschriebe der Fachpreisrichter nochmals im Plenum
+Die Jury teilt sich in zwei Gruppen und diskutiert in einem     vorgestellt. Die Texte werden zu den Bereichen Pädagogik,
+ersten Rundgang jeweils eine Hälfte der Arbeiten. Insbe-        Energie, Ökologie und Freiräume ergänzt und in der Diskus-
+sondere die städtebauliche Lösung, die Umsetzung der pä-        sion vor den Plänen wo nötig angepasst.
+dagogischen Anforderungen und der räumlich-architekto-
+nische Ausdruck werden studiert und gewertet. Anschlie-         Nach einer intensiven Diskussion werden die Projekte in en-
+ssend werden in einem gemeinsamen Rundgang alle Pro-            gerer Wahl bestätigt.
+jekte nochmals verglichen und bewertet.
+   Die folgenden Projekte, die hinsichtlich mehrerer Beurtei-   Kontrollrundgang
+lungskriterien im direkten Vergleich am wenigsten zu über-      In einem Kontrollrundgang werden alle ausgeschiedenen
+zeugen vermochten, werden in der Folge ausgeschieden:           Wettbewerbsbeiträge nochmals einer Durchsicht unterzo-
+                                                                gen. Keines der Mitglieder des Preisgerichts stellt einen
+Projekt 01 – Plateaus                                           Rückkommensantrag.
+Projekt 03 – GROSSE WIESE
+Projekt 04 – POIVRE SAMARCANDE                                  Rangfolge und Verteilung Preisgeld
+Projekt 07 – harmonica                                          Nach weitergehender Diskussion und Bewertung im Ple-
+Projekt 13 –	open mind                                          num wird einstimmig folgende Rangierung und Preisgeld-
+Projekt 19 – FUNDUK                                             verteilung vorgenommen:
+
+Zweiter Rundgang                                                1. Rang/1. Preis Fit & Fertig ?             CHF 28 000.–
+Die verbliebenen Arbeiten werden nochmals eingehend be-         2. Rang/2. Preis mon(t)plaisir              CHF 24 000.–
+sprochen und ausführlich diskutiert. Die intensive Ausein-      3. Rang/3. Preis sandfisch                  CHF 19 000.–
+andersetzung mit den Themen Architektur, Schule, Unter-         4. Rang/4. Preis sophie                     CHF 16 000.–
+richtsformen, räumliche Ausformulierung, Aussenräume,           5. Rang/5. Preis max                        CHF 13 000.–
+Lärmschutz und Erschliessung führt in der Folge zum Aus-        6. Rang/6. Preis beaufort                   CHF 10 000.–
+schluss von weiteren sieben Projekten in diesem Rund-
+gang. Alle sieben Projekte zeigen in Teilbereichen gelunge-
+ne Ansätze, vermögen aber in ihrer Gesamtheit nicht zu
+überzeugen:
+
+Projekt 02 – OPENLUCHT
+Projekt 05 – les sablés
+Projekt 08 – schöne aussichtEN
+Projekt 10 – la luz
+Projekt 14 – luke
+Projekt 16 – l’EspRit d’apprendre
+Projekt 17 – l’une et L’autre
+
+Engere Wahl
+Nach diesem ersten Jurytag qualifiziert die Jury einstim-
+mig die folgenden 6 Projekte für die weitere Beurteilung:
+
+Projekt 06 – sandfisch
+Projekt 09 –	max
+Projekt 11 – sophie
+Projekt 12 –	mon(t)plaisier
+Projekt 15 – beaufort
+Projekt 18 – Fit & Fertig ?
+
+
+                                                                                                                        17
+Beurteilung                                                       Empfehlung
+                                                                  und Weiterbearbeitung
+
+
+Couvertöffnung                                                    Das Preisgericht empfiehlt einstimmig, das Siegerprojekt
+Nach erfolgter Rangierung und der Preisgeldverteilung             Fit & Fertig ? weiterzubearbeiten. Der Entwurf schlägt die
+ergab die Couvertöffnung folgende Verfasser:                      Umsetzung des gesuchten pädagogischen Konzeptes in ei-
+                                                                  ner durchdachten und selbstverständlichen Anlage mit einer
+1. Rang/1. Preis                                                  hohen städtebaulichen Qualität vor und integriert auch die
+Fit & Fertig ?                                                    weiteren Aspekte wie Nachhaltigkeit, Ökologie, Wirtschaft-
+Stücheli Architekten AG, Zürich (Arch)                            lichkeit oder Flexibilität in sehr hohem Masse.
+Stokar + Partner AG, Basel (GL)                                       Für die weitere Bearbeitung empfiehlt das Preisgericht,
+                                                                  die folgenden Aspekte zu beachten:
+2. Rang/2. Preis
+MON(T)PLAISIR                                                     –– Eine Optimierung der Nutzungsbereiche der Lehrer
+Luca Selva AG Architekten ETH BSA SIA, Basel (Arch / GL)             im Untergeschoss, die in Bezug auf Belichtung und
+                                                                     Situierung nicht optimal sind, und der teilweise zu
+3. Rang/3. Preis                                                     grossen Flächen der Förderzimmer ist unter Einbezug
+SANDFISCH                                                            der Aula- und Mensaerschliessung anzustreben.
+Boltshauser Architekten AG, Zürich (Arch / GL)
+                                                                  –– Im Bereich der Doppelturnhalle und der Spezialzimmer
+4. Rang/4. Preis                                                     im 3. OG (Luftraum) sind die Geschoss- bzw. Nutz-
+SOPHIE                                                               flächen auf ihre Verhältnismässigkeit zu überprüfen.
+Degelo Architekten BSA SIA AG, Basel /
+GWJ Architektur AG, Bern (Arch / GL)                              –– Die Materialisierung der Fassade zur Schwarzwaldallee
+                                                                     hin ist nicht nur aus Unterhaltsaspekten vertieft zu
+5. Rang/5. Preis                                                     prüfen.
+MAX
+Nissen & Wentzlaff Architekten, Basel (Arch / GL)                 –– Dem Investitionsziel von 50  Mio. (BKP 2 + 4) der Bau-
+PG Aldiger Architekten, D-Stuttgart (Arch)                           herrschaft ist in der Weiterentwicklung mit geeigneten
+                                                                     Massnahmen besonders Beachtung zu schenken.
+6. Rang/6. Preis
+BEAUFORT
+Metron Architektur AG, Brugg (Arch / GL)
+
+Kein Mitglied des Preisgerichts hat ein bestehendes Abhän-
+gigkeits- oder Zusammengehörigkeitsverhältnis erkannt. So-
+mit sind keine Ausstands- bzw. Ausschlussgründe gegeben.
+
+
+
+
+18       Bericht des Preisgerichts/Projektwettbewerb Neubau Sekundarschulhaus Sandgruben Basel/Juni 2012
+Projekte
+
+
+
+===== 1. RANG FIT & FERTIG ? — BEURTEILUNG (S. 20-22) =====
+Rangierte Projekte
+
+
+
+
+                     19
+Rangierte Projekte
+
+
+
+
+Projekt 18
+1. Rang/1. Preis                                                                       FIT & FERTIG?
+Architektur
+Stücheli Architekten AG
+Binzstrasse 18, 8045 Zürich
+Matthias Roth, Kana Ueda-Thomma, Johanna Fujara,
+Anthi Skoupra, Markus Graf, Jacob Robinson
+
+Gesamtleitung
+Stokar + Partner AG
+Pfeffingerstrasse 41, 4053 Basel
+Markus Stokar
+
+Fachplaner und Spezialisten
+BRYUM GmbH, Basel
+APT Ingenieure GmbH, Zürich
+ahochn AG, Dübendorf
+Pro Engineering AG, Basel
+
+
+Beurteilung
+
+Die Autoren des Projekts Fit & Fertig ? schlagen vor, die          Schule wie durch Sportvereine genutzt werden. Die Turnhal-
+verschiedenen Anforderungen des Wettbewerbsprogramms               len werden grosszügig natürlich belichtet.
+in drei Baukörpern zu realisieren, die einen gemeinsamen              Von dem neuen Hof und einer zweiten Eingangshalle
+Sockel haben.                                                      aus, die mit der Schwarzwaldallee verbunden ist, gelangt
+    Das Projekt versucht die Bauvolumen der bestehenden            man in das bestehende Sandgrubenschulhaus. Der Kinder-
+Baukörper durch die Wiedergabe von Ausdehnung und im               garten wird als ein neues, eingeschossiges Volumen vor-
+Rhythmus der Aussenräume zu integrieren. Das Prinzip der           geschlagen, mit eigenem Eingang und Garten zum Park.
+offenen Hoftypologie, das schon in der Umgebung vorhan-            Durch die unterirdische Parkierung der Velos bleibt der
+den ist, hat die Architekten dazu bewegt, dieses Prinzip im        Park den Fussgängern vorbehalten.
+Wettbewerbsvorschlag anzuwenden.                                      Die Autoren haben eine wichtige Lösung für die Eingänge
+    Die interessante und behutsame Suche nach städtebau-           und Vertikalerschliessungen gefunden, wodurch den Nutzern
+lichen Regeln findet sich sowohl im Gebäudeentwurf wie in          angenehme, voneinander unabhängige Zugangsvarianten
+der Organisation des öffentlichen Raums.                           geboten werden. Gleichzeitig wird eine Einheitlichkeit und
+    Das System der offenen Höfe, das begleitet wird von Tor-       die Möglichkeit qualitätvoller sozialer Interaktion erreicht.
+öffnungen, sowie die unabhängige Organisation der funktio-
+nellen Anforderungen erlauben verschiedene Zugangsmög-             Das Prinzip der Cluster-Organisation schlägt eine Autono-
+lichkeiten, entweder von der Riehenstrasse her oder durch          mie von drei Gruppen pro Etage mit vier separaten Treppen
+das Vogelsangweglein und schliesslich auch durch die               vor. Diese Lösung könnte zu einem zusätzlich möglichen
+Schwarzwaldallee. Diese Lösung bietet der Schulanlage und          pädagogischen Austausch zwischen jeweils zwei Gruppen
+dem Sportzentrum eine grosse städtebauliche Durchlässig-           führen. Lernatelier, Inputraum und Gruppenraum sind klar
+keit und Gebrauchsflexibilität.                                    unterschieden und durch eine Vorzone verbunden, die auch
+    Die Autoren schlagen für die öffentlichen Bereiche im          zur Haupttreppe führt. Die didaktischen Möglichkeiten
+Erdgeschoss wie der Aula und der Cafeteria einen unabhän-          werden in den Plänen in drei Varianten dargestellt, die die
+gigen Eingang vor, ebenso für das bestehende Schulhaus.            unterschiedlichen Gebrauchsmöglichkeiten erklären.
+    Von einer gemeinsamen Halle aus kann man zu den hö-                Der architektonische Ausdruck für den Entwurf der
+her gelegenen Lernateliers in einem separaten Gebäude-             Volumen und der Programme wird durch eine gemeinsa-
+trakt gelangen oder zu den Spezialräumen in einem zwei-            me Sprache gestaltet, wobei gleichzeitig Varianten vorge-
+ten, separaten Trakt.                                              schlagen werden. Die Lösung erlaubt die Erkennbarkeit der
+    Von derselben zweigeschossigen Halle aus ermöglicht            unterschiedlichen Nutzungen bei gleichzeitiger Einheit-
+eine dritte Treppe den Zugang zu den Turnhallen. Die vorge-        lichkeit. Die elegante Arbeit im Schnitt und in der Fassa-
+schlagene Lösung macht es möglich, die Turnhallen in zwei          de integriert die Bewegungen der bestehenden Topografie
+Gruppen aufzuteilen, zwei im Obergeschoss und drei im Un-          miteinander und verbindet sie mit anderen Gebäuden im
+tergeschoss. So können die Räume unabhängig durch die              Gelände. Die einheitliche Ausgestaltung der Fassadende-
+
+
+
+
+20        Bericht des Preisgerichts/Projektwettbewerb Neubau Sekundarschulhaus Sandgruben Basel/Juni 2012
+FIT & FERTIG ?
+
+
+
+
+            21
+Rangierte Projekte
+1. Rang/1. Preis
+
+
+
+
+tails, eingefärbter rezyklierter Beton, und Schlosserarbei-        sehr gut wärmegedämmt, weisen jedoch noch Wärmebrü-
+ten aus Metall geben eine ruhige, elegante Erscheinung.            cken im Fassadenbereich auf. Der Glasanteil der Fassade
+    Das Konstruktionsprinzip ist klar und kohärent mit dem         liegt betreffend Behaglichkeit im unkritischen Bereich.
+architektonischen Ausdruck. Die vorgeschlagene Lösung                  Das Heizungskonzept ist mit dem Anschluss an die Fern-
+erscheint ökonomisch und nachhaltig bei gleichzeitiger             wärme, den Heizkörpern im Schulbereich und der Boden-
+Flexibilität der Nutzung.                                          heizung in den Turnhallen klassisch. Die Lüftungszentrale ist
+                                                                   gut platziert, jedoch ist die Anbindung an die Steigzonen und
+Pädagogik                                                          weiteren Gebäude unklar. Insgesamt kann Minergie-P-Eco
+Der zentrale Begegnungsraum erscheint grosszügig und               bei diesem Objekt mit einigen Verbesserungen und Präzisie-
+sehr gut gelöst. Die Aula kann zum Beispiel mit der Mensa          rungen erreicht werden.Folgende Bereiche müssen aus Sicht
+erweitert werden. Die Bibliothek könnte noch näher an die-         Nachhaltigkeit und Energie vertieft und verbessert werden:
+sen Bereich rücken. Ebenfalls gefällt die flexible Gestaltung      / Räumliches Konzept
+des Foyers, welches auch für kleine Aufführungen und Aus-          Das räumliche Konzept muss stark überarbeitet und ver-
+stellungen dienen kann. Zudem sind die Sporthallen leicht          tieft werden.
+erreichbar und doch deutlich getrennt vom Schulbereich.            –– Es ist zu prüfen, ob nicht eine Lüftungszentrale für
+Dass sie über Tageslicht verfügen, ist ebenfalls positiv. Ein          jedes der drei Gebäude optimaler wäre als eine einzige
+Fragezeichen setzen wir beim Lehrerarbeitsbereich. Dieser              Zentrale mit sehr langen Lüftungskanälen und dement-
+wird im Untergeschoss unterhalb der Aula angeordnet. Sind              sprechend hohem Druckabfall und Stromverbrauch.
+die Lehrpersonen hier zu weit weg von der Schule? Ist der          –– Das Steigzonenkonzept ist noch sehr rudimentär und
+sehr grosse Raum genügend mit Tageslicht versorgt? Die                 muss stark verbessert werden. Im Spezialtrakt fehlen
+Fachräume in einem eigenen Haus anzuordnen, ist ein toller             die Steigzonen.
+Ansatz. Dieses Gebäude ist ebenfalls optimal gegen den ru-         / Wärmeerzeugung
+higen Hof hin orientiert. Die Spezialräume sind von den Ler-       –– Dem Anschluss an die Fernwärme ist alternativ die
+nateliers aus nur via Erdgeschoss zu erreichen. Die Distan-           Nutzung von Grundwasser als Wärmequelle gegen-
+zen scheinen zumutbar. Die Anordnung und Einteilung der               überzustellen.
+Lernateliers ist gut gelöst. Sie sind sehr kompakt und doch        / Nachhaltigkeit
+offen. Ihr Platzangebot ist leicht überdurchschnittlich, es        –– Reduktion der grauen Energie durch Optimierung
+gibt aber keine direkten Ausweichmöglichkeiten aus diesen             der Materialwahl prüfen
+Bereichen, wie zum Beispiel Arbeitsplätze im Freien. Ein           –– Absenkung ins Grundwasser noch einmal kritisch
+Atelier verfügt jeweils über Zugänge zu zwei Treppenhäu-              hinterfragen.
+sern. Sehr schön ist der Einbezug und die Verlegung des
+Kindergartens. Durch seine Lage entsteht ein neuer Innen-          Freiräume
+hof als Zentrum der Schulanlage.                                   Die Architektur formt einen klar gefassten, wohlproportio-
+                                                                   nierten Pausenhof. Sitzgelegenheiten und vielfältige  Baum-
+Bauökologie und Gesundheit                                         pflanzungen schaffen eine subtil gestaltete innere Welt. Auf
+Die konzeptionellen Überlegungen zu Bauökologie und Ge-            zwei Seiten stehen den Schülern gedeckte Pausenhallen zur
+sundheit sind ansatzweise vorhanden. Die Anlage weist eine         Verfügung. Der Übergangsbereich zwischen Schule / Sport-
+Serie von verschiedenen relativ kompakten Baukörpern aus,          halle und Spielwiese erscheint wenig gestaltet, besonders im
+weist jedoch im Vergleich mit anderen Anlagen eine gerin-          Bereich des Ausgangs aus der Sporthalle wirkt die unmittel-
+gere Flächeneffizienz auf. Durch die Aufteilung der ver-           bare Nähe zu den Besprechungszimmern eher unglücklich.
+schiedenen Nutzungen auf unterschiedliche Gebäude wird                 Während die Veloabstellplätze für die Sporthalle und den
+die Statik insgesamt vereinfacht, was sich positiv auf die         Turnverein oberirdisch an der Schwarzwaldallee angeordnet
+Bilanz der grauen Energie auswirkt. Die Bilanz der grauen          sind, wird den Schülern lediglich ein Velokeller angeboten.
+Energie kann durch geringeres Absenken der Turnhallen bis              Die Baumbilanz ist ausgeglichen, wenngleich die Baum-
+über das Grundwasser und Anpassungen im Materialisie-              dichte im Pausenhof wohl etwas hoch ist. Ein differenzier-
+rungskonzept optimiert werden.                                     tes Vegetationskonzept ist umgesetzt. Die geschützte Bu-
+    Positiv wird indessen die Tageslicht-Situation für Schul-      che soll erhalten werden; dies scheint aufgrund der Neubau-
+zimmer, Spezialtrakt und Turnhallen gewertet sowie die             situation jedoch illusorisch.
+Schallsituation der Schulzimmer. Zudem leistet die schad-
+stoffarme Materialisierung und gute Belüftung der Räume            Resumée
+einen positiven Beitrag zum Innenraumklima.                        Die Verfasser präsentieren ein städtebaulich, funktional und
+                                                                   architektonisch sehr gut entwickeltes Projekt. Die vorge-
+Energie                                                            schlagenen Lösungen sind qualitativ überzeugend und stel-
+Die Anlage ist nicht sehr kompakt, was zu einem erhöhten           len unter pädagogischen Gesichtspunkten bemerkenswerte
+absoluten Wärmebedarf führen wird. Die Aussenwände sind            Ideen dar.
+
+
+
+
+22        Bericht des Preisgerichts/Projektwettbewerb Neubau Sekundarschulhaus Sandgruben Basel/Juni 2012
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        FIT & FERTIG ?
+
+===== 2. RANG MON(T)PLAISIR — BEURTEILUNG (S. 26-28) =====
+2. Rang/2. Preis                                                                MON(T)PLAISIR
+Architektur / Gesamtleitung
+Luca Selva Architekten ETH BSA SIA AG
+Viaduktstrasse 12 – 14, 4051 Basel
+Luca Selva, David Gschwind, Roger Braccini,
+Jonathan Benhamu, Sabine Bruinink, Raphaël Oehler,
+Petra Waldburger, Nadia Kopzev
+
+Fachplaner und Spezialisten
+Gruner AG Ingenieure & Planer, Basel
+Martin Lienhard, Langenbruck
+Safety Security Design, Allschwil
+
+
+
+
+Beurteilung
+
+Die Idee des städtebaulichen und architektonischen Kon-            Die geforderten separaten Erschliessungen für Sport und
+zepts liegt in der Auseinandersetzung mit dem Spagat Ver-          Aulabetrieb funktionieren. Im Hauptgeschoss sind die Nut-
+kehrsraum  – Park.  Das langgezogene Gebäude folgt der Be-         zungseinheiten für die Lehrerschaft, die Bibliothek sowie
+bauungsstruktur entlang der Schwarzwaldallee und schliesst         die Spezialräume untergebracht. In den zwei Obergeschos-
+als Riegel das Areal gegen den Lärm ab. Ein längsgeschich-         sen liegen die Lerncluster. Den Abschluss im Dachgeschoss
+tetes und abgetrepptes Gebäudevolumen öffnet sich im Sü-           bilden die Hauswirtschaftsräume. Durch die Anordnung der
+den gegen das Innere des Areals und gegen den Sportplatz.          schulischen Räume in den Obergeschossen kann eine ge-
+Es entstehen so grosse Flächen an begrünten Dachland-              wünschte soziale Kontrolle im Erdgeschoss nicht optimal
+schaften, die durch Treppenabgänge mit dem Aussenraum              wahrgenommen werden. Dieser Nachteil resultiert aus dem
+und Park verfliessen. Die Fassade mit horizontalen Beton-          Grundsatzentscheid, die Turnhallen nicht vollständig in den
+bändern und raumhohen vertikalen Verglasungen bzw. Holz-           Untergeschossen unterzubringen.
+elementen betont die Gebäudemodellierung, verbindet als                Das architektonische Konzept der Abtreppung und
+gestalterisches Element das Gebäude aber auch zu einem             Schichtung des Gebäudes ermöglicht viele differenzierte
+einheitlichen Ganzen.                                              Raumgeometrien und flexible Raumeinheiten. Unter Einbe-
+    Der Eingang des Gebäudes liegt an der Stirnseite im            zug der Dachterrassen als bespielbare Räume entstehen so
+Westen. Über einen angemessenen Vorplatzbereich kön-               spannende Unterrichtsräume, welche das neue Konzept der
+nen so gleichberechtigt das Schulhaus Sandgruben I und             Lernlandschaften unterstützen und fördern. Diese Qualitä-
+der Neubau erschlossen werden. Durch den grossen Fuss-             ten können aber nicht flächendeckend angeboten werden.
+abdruck des Gebäudes auf dem Grundstück können im Erd-             Die Schulraumschicht gegen die Schwarzwaldallee hin bie-
+geschoss die öffentlichen Nutzungen wie Aula, Mensa,               tet diese Vorteile nicht an. Mit wenigen Ausnahmen ist trotz
+Sport in einem lebendigen Zusammenspiel untergebracht              tiefen Raumschichten eine genügende Tageslichtsituation
+werden. Die Turnhallen sind versetzt zueinander angeord-           gewährleistet. Die innere Erschliessung erfolgt über eine
+net, liegen oberhalb des Grundwasserspiegels und werden            längs angelegte Verkehrszone. Grosszügige Treppenaufgän-
+über das Erdgeschoss gut belichtet. Der Aufwand für die            ge und Hallen mit zum Teil mehrgeschossigen Zonen verbin-
+Überspannung der Dreifachsporthalle mittels zwei mehrge-           den räumlich die Geschosse 1. Untergeschoss bis 3. Oberge-
+schossigen Scheiben ist gross, eine Einschränkung der Fle-         schoss. Es entstehen vielfältige Ausblicke im Gebäudeinnern
+xibilität in den oberen Geschossen wird in Kauf genommen.          und nach aussen sowie gute räumliche Beziehungen.
+
+
+
+
+26        Bericht des Preisgerichts/Projektwettbewerb Neubau Sekundarschulhaus Sandgruben Basel/Juni 2012
+MON(T)PLAISIR
+
+
+
+
+           27
+Rangierte Projekte
+2. Rang/2. Preis
+
+
+
+
+Die scheibenartige Struktur wird in den Pausenplatz über-          ven thermischen Masse und den aussen liegenden Raffla-
+führt, welcher über Mauern, Hecken und Bänke stark ge-             mellenstoren die sommerlichen Behaglichkeitsanforderun-
+gliedert ist. Durch die direkte Anbindung des Pausenplatzes        gen weitgehend eingehalten werden.
+an das bestehende Schulgebäude Sandgruben I ist eine Ver-              Die Platzierung von Photovoltaikmodulen wird durch die
+netzung auf dem Schulhausareal sichergestellt. Die Sport-          Dachlandschaft erschwert und durch eine thermische Solar-
+wiese bleibt intakt.                                               anlage konkurrenziert, die jedoch bei einem Fernwärmean-
+                                                                   schluss nicht sinnvoll ist.
+Pädagogik                                                              Das Heizungskonzept ist mit einem Fernwärmeanschluss
+Positiv ist die zentrale Anordnung der allgemeinen Berei-          und Heizkörpern klassisch. Das Lüftungskonzept schlägt in
+che (Lehrerzimmer, Arbeitsplätze, Bibliothek) im Hauptge-          den Räumen eine Luftverteilung über die Wände vor und be-
+schoss. Allerdings sind hier wichtige Räume intern nur über        gründet dies mit einer erhöhten Flexibilität bei räumlichen
+die Lehrerarbeitszimmer erreichbar. Beim Bau dieses Be-            Veränderungen. Die Vor- und Nachteile gegenüber einer üb-
+reichs müssten also Zimmer verkleinert werden, damit zu-           lichen Luftverteilung müssten jedoch vor einer weiteren Pla-
+sätzliche Zugänge realisiert werden können. Hier müsste            nung ausführlich diskutiert werden.
+man die Anordnung der Räume grundsätzlich überdenken.                  Die Anforderungen von Minergie-P-Eco sind durch Verrin-
+Schade ist, dass dieser Bereich nicht auch im Erdgeschoss          gerung der Wärmebrücken und mit einer Verbesserung des
+bei Aula und Mensa liegt. So sind nahe dem Aufenthaltsbe-          sommerlichen Wärmeschutzes erreichbar. Die thermische
+reich der Jugendlichen über Mittag oder in Freistunden             Solaranlage ist zugunsten einer PV-Anlage zu eliminieren.
+keine Arbeitsbereiche von Lehrpersonen oder Verwaltung
+zu finden. Somit fehlt eine natürliche soziale Kontrolle. Die      Freiräume
+Mensa ist grosszügig bemessen und mit ihrem Aussenbe-              Das Gebäude schafft drei getrennte Adressen für Schule,
+reich ideal gelegen. Es gibt verschiedene, vielfältige Typen       Sport und Turnverein. Die Veloabstellplätze sind sowohl an
+von Lernlandschaften. Im Bereich der Cluster ist die Frage,        der Schwarzwaldallee wie auch auf der Parkseite angeord-
+wie die Gruppenräume realisiert werden sollen, noch offen.         net. In einzelnen Bereichen (Eingang TV / Abstellfläche
+In den Plänen sind sie nicht als eigene Räume dargestellt,         Parkseite) ist die Funktionalität nicht gegeben oder sie sind
+sondern lediglich durch Raumteiler angedeutet. Die gestal-         gestalterisch zu wenig ausgearbeitet.
+teten Räume erzeugen eine gewisse Spannung und verlei-                 Das Projekt stellt neben dem kleinteiligen Pausenplatz
+hen den Lernbereichen ihre eigene Identität. Interessant           und der Spielwiese noch Freiräume in Form von Dachterras-
+sind auch die angebotenen Aussenräume auf den Dächern.             sen zur Verfügung. Die Verbindung der Terrassen mit dem
+Ihre Nutzung im Betrieb sowie an Wochenenden durch                 Pausenhof schafft Abgrenzungsprobleme und schwächt die
+«Besucher» könnte problematisch werden. Positiv ist das            Eigenständigkeit der Gartenzimmer.
+Erhalten der bisherigen Kindergärten.                                  Die aus der Architektur übernommene Struktur vermag
+                                                                   im Platzbereich nicht zu überzeugen, der Pausenplatz wirkt
+Bauökologie und Gesundheit                                         zu stark gegliedert und lässt Übersichtlichkeit und Grosszü-
+Die konzeptionellen Überlegungen zu Bauökologie und Ge-            gigkeit vermissen. Beziehungen zwischen den einzelnen Be-
+sundheit sind vorhanden, allerdings nicht immer ganz wi-           reichen (Pausenhalle / Platz) lassen sich höchstens erahnen.
+derspruchsfrei. Die Schulanlage ist recht kompakt und in               Die Baumbilanz ist aufgrund der gewählten Grafik kaum
+Holz-Massiv-Hybridbauweise erstellt, erhält jedoch durch           überprüfbar, einzelne als zu erhaltend eingezeichnete Bäume
+die Auflösung nach oben eine grössere Abwicklung der               können wegen der Nähe zu den Neubauten nicht erhalten
+Fassaden, welche die Bilanz der grauen Energie anhebt.             werden. Ein Vegetationskonzept lässt sich nicht erkennen.
+Positiv gewertet wird der Einsatz von Recycling-Beton.
+    Durch die Anordnung der Schulclusters über die ver-            Resumée
+schiedenen Stockwerke wird eine weitgehend optimale Ta-            Der Projektvorschlag zeigt eine breite und inhaltsvolle Aus-
+geslichtversorgung dieser Zonen möglich. Allerdings ist die        einandersetzung mit dem Ort und der Aufgabe. Es entsteht
+Anordnung der Schulzimmer auf der Ostseite aufgrund der            ein neues Schulgebäude mit eigener Identität im Äusseren
+Lärmsituation und der vorgelagerten Balkone eher ungüns-           wie im Inneren. Als wertvollen Beitrag würdigt die Jury eine
+tig. Die schadstoffarme Materialisierung, eine gute Belüftung      gelungene Verschränkung von Sport und Schulnutzung im
+der Räume und Massnahmen betreffend Schallschutz im In-            Erdgeschoss, verbunden mit dem Aufbrechen der in der
+nenraum wirken sich positiv auf das Innenraumklima aus.            Regel starren räumlichen Strukturen eines Gebäuderiegels.
+                                                                   Das städtebauliche Konzept eines abgetreppten und ge-
+Energie                                                            schichteten Gebäudevolumens als Trennung Verkehrsraum
+Die Schulanlage weist eine mittlere Kompaktheit auf. Die           und Park wird konsequent bearbeitet, stösst aber im Be-
+Aussenhülle ist sehr gut wärmegedämmt, jedoch sind Ver-            reich der Schulräume – bezogen auf die asymmetrischen
+besserungen bei den Wärmebrücken wünschenswert. Trotz              Qualitäten der Aussenbeziehungen – und bezüglich Nut-
+dem relativ hohen Glasanteil können wegen der hohen akti-          zung und Unterhalt der Terrassen an funktionale Grenzen.
+
+
+
+
+28        Bericht des Preisgerichts/Projektwettbewerb Neubau Sekundarschulhaus Sandgruben Basel/Juni 2012
+                                                                                                                                                                                                                                                                                                                                                                                                                                  MON(T)PLAISIR
+
+
+
+
+                                                                                                                                                           Hauptzugang Schulareal
+                                                                                                                                                                                                                                                                     Eingang Turnhallen
+
+===== 3. RANG SANDFISCH — BEURTEILUNG (S. 32-34) =====
+3. Rang/3. Preis                                                                             SANDFISCH
+Architektur / Gesamtleitung
+Boltshauser Architekten AG
+Dubsstrasse 45, 8003 Zürich
+Roger Boltshauser, Reinhard Prikoszovich, Marc Inderbitzin,
+Seraina Schwizer, Marle Freitag, Martin Kaschub
+
+Fachplaner und Spezialisten
+Müller Illien Landschaftsarchitekten, Zürich
+Walt + Galmarini AG, Zürich
+Waldhauser Haustechnik AG, Münchenstein
+IBG B. Graf AG Engineering, Winterthur
+
+
+
+
+Beurteilung
+
+Mit der Setzung eines schön proportionierten Gebäudes              me im 1. Obergeschoss sind flexibel in ihrer Teilung und
+entlang der Schwarzwaldallee reagieren die Verfasser auf           Nutzung.
+die Lärmbelastung an dieser Strasse, zugleich fasst der               Im Erdgeschoss sind neben weiteren Unterrichtsräumen
+Baukörper den inneren Grünraum. Dieser Aussenraum ist              auch die Mensa und die Aula angeordnet. Ihre Position er-
+Teil einer wichtigen zusammenhängenden Freifläche, die             laubt bei Bedarf mit einfachen Mitteln eine kombinierte
+von den bestehenden Schulhäusern und dem vorgeschla-               Nutzung. Die Disposition des Bereichs für die Lehrperso-
+genen Neubau umstanden wird. Die Beschränkung der Ge-              nen und die Schulleitung auf mehrere Zonen und zwei Ge-
+bäudehöhe auf drei oberirdische Geschosse stärkt die-              schosse ist nachteilig. Die Erschliessung des Gebäudes mit
+se räumliche Idee und ermöglicht das angestrebte Gleich-           insgesamt elf Eingängen ermöglicht zwar kurze Wege, ihre
+gewicht mit den bestehenden Schulbauten. Die Nutzun-               Tauglichkeit für den täglichen Betrieb ist indessen nicht
+gen der Aussenbereiche sind sinnvoll disponiert, der Erhalt        gegeben. Die unabhängige Erschliessung der Turnhallen
+der bestehenden Kleinbauten unterstützt die angestrebte            ausserhalb der Schulzeiten ist nicht nachgewiesen.
+Selbstverständlichkeit der städtebaulichen Setzung.
+                                                                   Die ganz in den Boden versenkte Turnhalle entlastet zwar
+Die rechteckige Grundform des Gebäudes entpuppt sich in            Aussenräume und oberirdische Baukörper, ihre Lage führt
+den Geschossen als kammartige Struktur, welche es mög-             aber neben den unten beschriebenen strukturellen Fragen
+lich macht, geschickt auf die Lärmbelastung zu reagieren           auf mehreren Ebenen zu erheblichen Problemen: Die Wege
+und gleichzeitig die Flexibilität herzustellen, die für die ge-    zu den Hallen werden sehr lang, die natürliche Belichtung
+wünschte Unterrichtsform mit Lernateliers notwendig ist.           der Halle kann trotz Oberlichtern nicht befriedigen und das
+Die rückwärtige Erschliessung über offene Treppen und              Bauen im Grundwasser birgt zusätzliche Risiken und Kos-
+Laubengänge bietet unerwartete, für den Schulbetrieb in-           ten. Die vorgeschlagenen Spezialräume zwischen den
+teressante Raumbeziehungen an. Die Unterrichtsräume                Sporthallen in den Untergeschossen können so nicht um-
+sind gut proportioniert und möblierbar. Die Verteilung der         gesetzt werden.
+Nutzungen im Obergeschoss ist nicht eindeutig darge-
+stellt, grundsätzlich sind aber beide Optionen machbar. Die        Die Erschliessung des Schulhauses für Menschen mit ein-
+Anordnung der Klassenräume im 2. Obergeschoss verhin-              geschränkter Mobilität ist in mehreren Bereichen kompli-
+dert Durchgangsverkehr in diesem Bereich. Die Spezialräu-          ziert oder gar nicht gewährleistet. Eine Sicherstellung die-
+
+
+
+
+32        Bericht des Preisgerichts/Projektwettbewerb Neubau Sekundarschulhaus Sandgruben Basel/Juni 2012
+SANDFISCH
+
+
+
+
+       33
+Rangierte Projekte
+3. Rang/3. Preis
+
+
+
+
+ser unverzichtbaren Anforderung wäre mit erheblichem               Tageslicht aus. So sind die Turnhallen und die unterirdischen
+Aufwand verbunden. Anzahl und Verteilung der Sanitärräu-           Unterrichtsräume ungenügend mit Tageslicht versorgt.
+me sind ungenügend.                                                Auch die Tageslichtnutzung in den Schulräumen wird durch
+    Die vorgeschlagene Struktur und Konstruktion des Ge-           die Balkone auf der Westseite eingeschränkt.
+bäudes versucht die Problematik des Bauens über der weit               Die schadstoffarme Materialisierung und eine gute Be-
+gespannten Decke der Dreifachturnhalle mit einer Optimie-          lüftung der Räume sowie geeignete Massnahmen betref-
+rung der Bauzeit zu verbinden. Die Abfangung der Lasten            fend Schallschutz wirken sich positiv auf das Innenraumkli-
+der oberirdischen Geschosse in der Decke der Turnhalle ist         ma aus.
+nicht nachgewiesen. Die Angemessenheit und Wirtschaft-
+lichkeit der vorgeschlagenen Systeme ist im Rahmen des             Energie
+Wettbewerbs kaum zu überprüfen und müsste nochmals                 Schulhaus und Turnhallen zeichnen sich durch eine kom-
+kritisch hinterfragt werden, insbesondere was den Schall-          pakte Bauweise aus. Die Aussenwände sind gut wärmege-
+und Brandschutz sowie die Integration der Haustechnik              dämmt und weisen, ausser bei den Balkonen, geringe Wär-
+betrifft. Die prägend wirkende Geometrie der Tragstruktur          mebrücken auf. Der Glasflächenanteil bleibt unter 50 % der
+gerät zudem in einen Konflikt mit der angestrebten Flexibi-        Fassadenfläche. Auch wenn die thermisch wirksame Masse
+lität der Raumeinteilung. Schön umgesetzt wird die Struk-          nur im mittleren Bereich liegt, ist zusammen mit der äusse-
+tur im Bild der Längsfassaden.                                     ren Beschattung ein akzeptables sommerliches Raumklima
+                                                                   erreichbar.
+Pädagogik                                                              Das Heizungs- und das Lüftungskonzept entsprechen
+Das Eingangszentrum mit Aula und Mensa ist gut erkennbar           dem Stand der Technik und den Anforderungen von Miner-
+und bildet ein Begegnungsforum. Die Aula ist für grös-sere         gie. Das räumliche Konzept der zentralen und der vertikalen
+Veranstaltungen erweiterbar. Schulleitung und Sekretariat          Steigzonen ist gut beschrieben, aber auf den Plänen nicht
+sind sinnvoll angeordnet. Der Lehrerarbeits- und Erholungs-        vollständig nachvollziehbar.
+bereich ist für Alt- und Neubau zentral gelegen, die Zwei-             Insgesamt ein Energie- und Gebäudekonzept, das die
+stöckigkeit generiert relativ lange Wege. Eine Verbindung          Anforderungen von Minergie-P-Eco erfüllen kann.
+zum Unterrichtsbereich wäre sinnvoll. Die Anordnung des
+Gebäudes erlaubt in den meisten Fällen kurze Wege. Dass            Freiräume
+der Kindergarten an seinem angestammten Platz verbleibt,           Das Projekt unterscheidet zwei wohlproportionierte, dem
+ist ein positiver Aspekt. Die Disposition der Cluster ist gut      Schulhaus zugewandte Aussenräume, den Pausenplatz und
+gelöst. Die Beziehung von Gruppenräumen und Inputräu-              eine Spielwiese. Der Vorplatzbereich zwischen Pausenplatz
+men zu den Lernlandschaften entspricht den pädagogi-               und Spielwiese wirkt in seiner gestalterischen Ausformulie-
+schen Anforderungen und ist logisch. Diesem Projekt ist es         rung unentschlossen.
+gelungen, den Clustern überdurchschnittlich viel Platz zur             Die Anlagen sind über die Schwarzwaldallee erschlos-
+Verfügung zu stellen (Atelier: 193 m2, Inputraum: 60 m2, 2 (!)     sen. Die Anbindung an das bestehende innere Wegesystem
+Gruppenräume à 25 m2, Gang 54 m2). Dies geht allerdings            ist untergeordnet.
+zulasten der Verkehrswege, wobei unerwünscht dichte und                Ein markanter Heckenkörper trennt die Aussenbereiche
+enge Situationen entstehen. Die Cluster könnten einfach in         von Schule und Sport von den beiden bestehenden Kinder-
+traditionelle Klassenzimmer unterteilt werden. Die Spezial-        gärten. Entlang der Abwicklung dieses Körpers werden un-
+räume sind über drei Etagen verstreut. Die Spezialräume im         terschiedliche Bereiche  / Nischen ausgeschieden.
+1. Untergeschoss erhalten zu wenig Tageslicht und funktio-             Mittels geschickter Möblierung werden Nutzungsschwer-
+nieren so nicht. Zudem fehlen im 1. Obergeschoss Sanitär-          punkte geschaffen und es entstehen Orte mit unterschied-
+räume. Als Material wird viel Holz verwendet. Dies zusam-          licher Aufenthaltsqualität.
+men mit den gewölbten Decken in den Unterrichtsräumen                  Ein differenziertes Vegetationskonzept wird nicht ausge-
+ergibt eine gewisse Wärme. Durch die gut positionierten            wiesen, zudem fehlt die zwingend zu erhaltene Hainbuche.
+Lichthöfe ist ausreichend Tageslicht in den Lernlandschaf-
+ten und sonstigen Räumen gewährleistet.                            Resumée
+                                                                   Das Projekt überzeugt sowohl durch die Setzung der Bau-
+Bauökologie und Gesundheit                                         körper als auch durch eine innovative Weiterentwicklung
+Die konzeptionellen Überlegungen zu Bauökologie und Ge-            des Clusterkonzepts. Das Projekt stösst aber an Grenzen,
+sundheit überzeugen weitgehend. Durch die hohe Kom-                weil das Raumprogramm für die vorgeschlagene Konzeption
+paktheit der Anlage wurde der Platzbedarf auf ein Minimum          zu gross und zu komplex ist. Die strukturellen Überlegun-
+beschränkt. Positiv bewertet wurde die Holzbauweise ab             gen sind interessant, sie müssten aber bei einer Weiterbe-
+Erdgeschoss und eine durchdachte ökologische Materiali-            arbeitung nochmals überarbeitet und konsequenter umge-
+sierung. Allerdings wirkt sich das tiefgründige Absenken der       setzt werden.
+Turnhallen nachteilig auf die Bilanz graue Energie und das
+
+
+
+
+34        Bericht des Preisgerichts/Projektwettbewerb Neubau Sekundarschulhaus Sandgruben Basel/Juni 2012
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     SANDFISCH
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                   Riehenstrasse
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                         Schulhaus Sandgruben II
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       256.00m.ü.M.
+                                                                                                                                                                                                                                                                                                                                                               Schulhaus Sandgruben I
+
+===== WUERDIGUNG / GENEHMIGUNG (S. 72-73) =====
+70        Bericht des Preisgerichts/Projektwettbewerb Neubau Sekundarschulhaus Sandgruben Basel/Juni 2012
+71
+Würdigung
+
+
+
+Der Schulbauwettbewerb Sandgruben hat für kommende                Es wurde intensiv und kontrovers über Lärmimmissionen,
+Schulbauwettbewerbe im Kanton Basel-Stadt die Messlat-            Grundwasserhöhen und -tiefen, Quartieranbindung, Nut-
+te hoch gesetzt. Das Erziehungsdepartement und das Bau-           zungsfreiheit versus Statikmassnahmen, innere Wegfüh-
+und Verkehrsdepartement des Kantons Basel-Stadt haben             rungen und Umleitungen, Sportmöglichkeiten, Aussen-
+dabei Neuland betreten.                                           raumgestaltung und Grünflächen, Klassen, Cluster, Brand-
+                                                                  schutz, Fluchtwege und -balkone und nicht zuletzt über die
+Erstmals wurde ein Schulbauwettbewerb nach dem im Pro-            Flexibilität diskutiert, debattiert und für den Bericht redi-
+gramm formulierten – und im Vorfeld den Wettbewerbs-              giert. Alles erfolgte in einem jederzeit fairen und professio-
+teilnehmern präsentierten – pädagogischen Konzept von             nellen Rahmen.
+einem Team aus Architekten und Pädagogen systematisch
+vorgeprüft, das heisst charakterisiert und hinsichtlich der       Der Wettbewerb Schulanlagen Sandgruben hat deutlich
+Erfüllung der im Programm definierten Kriterien beurteilt.        gemacht, dass es bei Schulbauwettbewerben nicht genügt,
+Als Folge davon konnten sich in der Jury Architekten, Pä-         Raumprogramme aufzulisten. Die Suche nach adäquaten
+dagogen und Spezialisten auf Augenhöhe begegnen. Der              Lösungen zwischen den beiden Extremen: «stützenfreier
+Boden für eine intensive inhaltliche Diskussion wurde so          Grossraum» und «betonierte Raumzelle» müssen in einem
+optimal vorbereitet.                                              offenen Prozess immer wieder neu erfolgen. So muss man
+                                                                  den berühmten Begriff des «form follows function» für die
+Die überwiegende Mehrheit der eingegebenen Projekte hat           Schulbaudebatte folgerichtig mit den zeitgemässen «form
+Lösungsvorschläge entwickelt, welche – gemäss den päd-            follows (kids) fiction» und «form follows learning» erwei-
+agogischen Leitvorstellungen – die Klassen in Cluster glie-       tern!
+derten. Cluster bedeuten eine besondere Herausforderung               Das Studium der eingegangenen Wettbewerbsprojekte
+bezüglich der Erfüllung des Brandschutzes, insbesondere           anlässlich der Ausstellung ist eine effiziente Methode, um
+der projektspezifischen Lösung der Fluchtwege und der             das Bewusstsein zu schärfen für die komplexen Aspekte
+Brandabschnitte.                                                  einer Schulanlage, die das Spielen, Lernen, Präsentieren,
+                                                                  Diskutieren, Werken, Gestalten unterstützen soll.
+Raumkonzepte und Unterrichtsmethodik befinden sich in
+einem dauernden, wechselseitigen, dynamischen Annähe-
+rungs- und Anpassungsprozess. Der Bezug zwischen Raum             Urs Maurer
+und Unterrichtsmethode kann damit programmatisch zu ei-           Sachpreisrichter, Architekt und Pädagoge, Präsident Netz-
+nem zusätzlichen, zentralen Gestaltungs-, Erfahrungs- und         werk Bildung & Architektur
+Reflexionsthema des allgemeinen Lehrplans werden.
+
+
+
+
+72       Bericht des Preisgerichts/Projektwettbewerb Neubau Sekundarschulhaus Sandgruben Basel/Juni 2012
+Genehmigung
+
+
+
+Das Preisgericht hat den Bericht in der vorliegenden
+Form am 22. Juni 2012 genehmigt.
+
+
+Fritz Schumacher
+Vorsitz
+
+
+Thomas Blanckarts
+
+
+Marie-Theres Caratsch
+
+
+Matthias Ackermann
+
+
+Andrea Bassi
+
+
+Hanspeter Eicher
+
+
+Pascal Gysin
+
+
+Thomas Fries
+Ersatz
+
+
+Christoph Eymann
+
+
+Stephan Hug
+
+
+Stefan Schmitt
+
+
+Marius Keller
+
+
+Barbara Suter
+
+
+Urs Maurer
+
+
+Judith Kuhn
+Ersatz
+
+
+
+
+                                                       73
+Impressum
+

@@ -1,0 +1,50 @@
+{
+  "slug": "Paul_Rudolph",
+  "architekt": {
+    "name": "Paul Rudolph",
+    "nachname": "Paul",
+    "vorname": "Rudolph",
+    "jahre": [],
+    "ordner": "Paul_Rudolph"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Paul_Rudolph",
+  "projekte": [
+    {
+      "raw": "101016_Rudolph_Paul",
+      "ort": "101016",
+      "projekt": "Rudolph Paul",
+      "jahre": [],
+      "titel": "101016 Rudolph Paul"
+    },
+    {
+      "raw": "The_Architecture_of_Paul_Rudolph",
+      "ort": "The",
+      "projekt": "Architecture of Paul Rudolph",
+      "jahre": [],
+      "titel": "The Architecture of Paul Rudolph"
+    },
+    {
+      "raw": "original",
+      "ort": "original",
+      "projekt": "original",
+      "jahre": [],
+      "titel": "original"
+    }
+  ],
+  "projekt_anzahl": 3,
+  "inventar": {
+    "bilder": 12,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 1,
+    "total": 14
+  },
+  "dateitypen": {
+    ".tiff": 12,
+    ".indd": 1,
+    ".pdf": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Paul Rudolph | 101016 Rudolph Paul | The Architecture of Paul Rudolph | original original",
+  "stand": "2026-07-02T22:44:08"
+}

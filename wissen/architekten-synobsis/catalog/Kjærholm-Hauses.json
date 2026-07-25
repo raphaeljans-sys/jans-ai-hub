@@ -1,0 +1,27 @@
+{
+  "slug": "Kjærholm-Hauses",
+  "architekt": {
+    "name": "Kjærholm-Hauses",
+    "nachname": "Kjærholm-Hauses",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Kjærholm-Hauses"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Kjærholm-Hauses",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 5,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 5
+  },
+  "dateitypen": {
+    ".jpg": 4,
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Kjærholm-Hauses",
+  "stand": "2026-07-02T21:32:23"
+}

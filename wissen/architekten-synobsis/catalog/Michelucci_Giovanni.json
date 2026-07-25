@@ -1,0 +1,35 @@
+{
+  "slug": "Michelucci_Giovanni",
+  "architekt": {
+    "name": "Michelucci Giovanni",
+    "nachname": "Michelucci",
+    "vorname": "Giovanni",
+    "jahre": [],
+    "ordner": "Michelucci_Giovanni"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Michelucci_Giovanni",
+  "projekte": [
+    {
+      "raw": "Florenz_La_Chiesa_di_Giovanni_Battista_all_Autostrada_del_Sole",
+      "ort": "Florenz",
+      "projekt": "La Chiesa di Giovanni Battista all Autostrada del Sole",
+      "jahre": [],
+      "titel": "Florenz La Chiesa di Giovanni Battista all Autostrada del Sole"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 6,
+    "cad": 0,
+    "andere": 0,
+    "total": 8
+  },
+  "dateitypen": {
+    ".pdf": 6,
+    ".jpg": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Michelucci Giovanni | Florenz La Chiesa di Giovanni Battista all Autostrada del Sole",
+  "stand": "2026-07-02T22:41:52"
+}

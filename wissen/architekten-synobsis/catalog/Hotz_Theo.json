@@ -1,0 +1,28 @@
+{
+  "slug": "Hotz_Theo",
+  "architekt": {
+    "name": "Hotz Theo",
+    "nachname": "Hotz",
+    "vorname": "Theo",
+    "jahre": [],
+    "ordner": "Hotz_Theo"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Hotz_Theo",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 3,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 1,
+    "total": 5
+  },
+  "dateitypen": {
+    ".png": 3,
+    ".pdf": 1,
+    ".indd": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Hotz Theo",
+  "stand": "2026-07-02T21:18:26"
+}

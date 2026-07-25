@@ -1,0 +1,913 @@
+=== NAMENSKONVENTIONEN ===
+Beispiel-Dateinamen (erste 50):
+00_Organisation/01_Konzept/Eine Synopse.docx
+00_Organisation/01_Konzept/Tektonik Synopsis.pdf
+00_Organisation/02_unklar/120120_Caracas_metrocable.jpg
+00_Organisation/02_unklar/120120_Medellin_metrocable.jpg
+00_Organisation/02_unklar/120120_Medellin_metrocable2.jpg
+00_Organisation/02_unklar/120120_Medellin_metrocable3.jpg
+00_Organisation/02_unklar/29_1-jinsub0707.jpg
+00_Organisation/02_unklar/2morgan.jpg
+00_Organisation/02_unklar/383491_10151436090094018_1115352126_n.jpg
+00_Organisation/02_unklar/542127_10150867902819018_670592870_n.jpg
+00_Organisation/02_unklar/558384_10150867903219018_2076699941_n.jpg
+00_Organisation/02_unklar/575183_10151174050094018_1113429393_n.jpg
+00_Organisation/02_unklar/Bilder-4265-2463-1280.jpg
+00_Organisation/02_unklar/jml_1.jpg
+00_Organisation/02_unklar/palais_equilibre06.jpg
+00_Organisation/02_unklar/um_schwimmbad.jpg
+00_Organisation/02_unklar/.DS_Store
+00_Organisation/06_Referenzliste/110731_Referenzliste_Jans.docx
+00_Organisation/Caruso/Referenzen_caruso_Semester_2011FSworkbook.pdf
+00_Organisation/Referenzen_Raphael/13.jpg
+00_Organisation/Referenzen_Raphael/1950029465_e5bfff2ea0_z.jpg
+00_Organisation/Referenzen_Raphael/20130122-141909-z806.jpg
+00_Organisation/Referenzen_Raphael/2f62d4b05a.jpg
+00_Organisation/Referenzen_Raphael/30_01_10_Germann_Titelbild_0.jpg
+00_Organisation/Referenzen_Raphael/58133933_caa6735556.jpg
+00_Organisation/Sik_Scans/Scan 1.jpeg
+00_Organisation/Sik_Scans/Scan 2.jpeg
+00_Organisation/Sik_Scans/Scan 3.jpeg
+00_Organisation/Sik_Scans/Scan 4.jpeg
+00_Organisation/Sik_Scans/Scan 5.jpeg
+00_Organisation/Sik_Scans/Scan 6.jpeg
+00_Organisation/Sik_Scans/Scan.jpeg
+00_Organisation/Bildschirmfoto 2013-11-17 um 14.37.28.png
+00_Organisation/Bildschirmfoto 2014-05-16 um 10.52.49.png
+00_Organisation/PHO_15301_Table2005-2006-junya.jpg
+00_Organisation/bestever/110-novartis-011.jpg
+00_Organisation/bestever/162-perspective-1.jpg
+00_Organisation/bestever/170327-antwerp-lecture-cover2-ornamental-construction.jpg
+00_Organisation/bestever/ace9b904ec007358cf269553750529a6--bristol-architects.jpg
+00_Organisation/bestever/170315-fitzjohns-facade.jpg
+00_Organisation/bestever/El-Croquis-187.jpg
+00_Organisation/0 ARCHITEKTEN SYNOBSIS/5e4fd2488aa3a5ff60cce87ba7d2d6bd.jpg
+00_Organisation/0 ARCHITEKTEN SYNOBSIS/33594955885_12c53a736b_o.png
+00_Organisation/7 Bibliothek/WG- Europaallee Grundriss EG.eml
+Aalto_Alvar/Altstetten_Ref_KiGeZe/Aalto_Alvar_Ref KiGeZe Altstetten000.jpg
+Aalto_Alvar/Altstetten_Ref_KiGeZe/Aalto_Alvar_Ref KiGeZe Altstetten001.jpg
+Aalto_Alvar/Altstetten_Ref_KiGeZe/Aalto_Alvar_Ref KiGeZe Altstetten002.jpg
+Aalto_Alvar/Altstetten_Ref_KiGeZe/Aalto_Alvar_Ref KiGeZe Altstetten003.jpg
+Aalto_Alvar/Altstetten_Ref_KiGeZe/Aalto_Alvar_Ref KiGeZe Altstetten004.jpg
+Aalto_Alvar/Altstetten_Ref_KiGeZe/Aalto_Alvar_Ref KiGeZe Altstetten005.jpg
+
+Unterordner-Namen (Ebene 1):
+00_Organisation
+1 Selection
+6a Architects
+AASZ
+Aalto_Alvar
+Aando_Tadao
+Abraham_Raimund
+Abril_Garcia_Anton
+Adam_Robert
+Adjaje_David
+Ai_Weiwei
+Aillaud
+Aires_Mateus_Associados
+Alberti_Leon_Battista_1404_1472
+Albini_Franco
+Alder_Michael
+Alessi_Alberto
+Alexander_Christoph
+Alpago_Novello_Alberto
+Althammer_Hochueli_Architekten
+Althaus_Architekten
+Andreani_Aldo
+Angelil_Marc
+Anshelm_Klas
+Antonakakis_Dimitris_Susana
+Arbeitsgruppe_4
+Archifactory
+Archigram
+Architekturfabrik
+Arminio_Cristofari_1883-1957
+Artigas_Vilanova
+Ashbee_Charles_Robert
+Asnago_e_Vender
+Asplund_Gunnar_1885_1940
+Atelier5
+Atkinson_Robert_1883_1952
+Azzola_Durrisch_Architekten
+BAUMBERGER_STEGMEIER
+BBPR
+BIQ_Architekten
+Bachem_Joseph
+Back_Lukas
+Balisat
+Ballmoos_Krucker
+Ban_Shigeru
+Barkow_Leibinger
+Barragan_Luis_Morfin
+Barrozi_Veira
+Bartning_Otto
+Baudot_Anatole
+Baumann_Ludwig
+Baumann_Povel
+Baumgartner_Hindermann
+Baumschlager_Eberle_Lochau
+Bawa Cheffrey
+Bazzani_Cesare
+Bearth_Deplazes
+Beel_Stephane
+Beer_Merz_Architekten
+Behrens_Peter
+Beigel_Florian
+Berg_Max
+Bergston_Carl
+Berlage_Henrik_Petrus
+Bernoulli_Hans
+Bertani_Giovanni_Battista_1516_76
+Betrix_Consolaschio_Erlbenbach
+Bicvardo_Arcitects
+Bienefeld_Heinz_1926_95
+Bill_Max
+Billing_Hermann
+BischoffKopp
+Blaf Architekten
+Blue_Architects
+Blum_Grossenbacher_Architekten
+Bo_Bardi_Lina
+Boehm_Domenicus
+Boehm_Gottfried
+Boehm_Markus
+Boesch_Ivo
+Bofill_Ricardo
+Boli
+Boltshauser_Architekten
+Bomarozzo
+Bonatz_Paul
+Boromini
+Botta_Mario
+Boullée_Etienne_Louis_1728_1799
+Bovenbouw
+Bow_How
+Braem_Gebrueder
+Braillard_Maurice
+Bramante_Donato
+Brandlhuber
+Brassel Architekten
+Brauen_Waelchli
+Braunfels_Stephan
+Brechbueler_Walser
+Breuer_Marcel
+Brooks Alison Architects
+Brotzki
+Brown_Lancelot_ Capability_1716_1783
+Brueckwald_Otto
+Brunelleschi_Filippo_1377_1446
+Brunhart Brunner Kranz
+Bucher_Bruendler
+Buehler_Martin
+Buenzli_Covasier_Architekten
+Buonarotti_Michelangelo_1475_1564
+Burkhalter_Sumi
+Burkhard Meyer Architekt
+Burkhardt_Elsa
+Burnham_Roots
+Butterfield_William
+Buzzi_e_Buzzi
+C18
+Cadafalch
+Calatrava_Santiago
+Cambio_Arnolfo_di
+Caminada_John
+Caminada_Marco
+Campi_Mario
+Candela_Felix
+Caniggia_Gianfranco
+Cantafora_Arduino
+Capponi_Giuseppe
+Carloni_Tita
+Carmassi_Massimo
+Caruso
+Caruso_St_John
+Casebere_James
+Castiglioni_Enrico
+Cavadini_Raffaele
+Cebra_Architekten
+Cedric Price
+Celsing_Peter
+Chamberlin
+Chareau_Pierre
+Cheung Simon
+Chiattone_Mario
+Chipperfild_David
+Chochol
+Christ Gantenbein
+Christ_Gantenbein
+Claus_en_Kaan
+Clavien_Rossier
+Clavuot
+Coderch_JoséAntonio
+Cohen_Preston_Scott
+Conen Sigel
+Conen_Sigl
+Consoni_Beat
+Conte Pianetti Zanetta Arch 
+Cuypers_Eduard
+Czech_Hermann
+DECARVALHO_BOTELHO
+DRDH_Architects
+Da_Rocha_Eduardo_Mendes
+Da_Vinci_Leonardo
+Dance_George_1741_1825
+Danzeisen_Voser_Hossorf
+DeFinetti_Giuseppe
+DeKlerk_Michel_1884_1923
+Degelo
+Deon_Luca
+Deplazes_Andrea
+Deuber_Angela
+Diener_Diener
+Dierendonckblanche
+Dieste_Elado
+Dietrich Untertrifaller
+Diller_Scofidio
+Doellgast_Hans
+Dogma
+Dominioni Luigi Caccia
+Don_Fabio
+Drewes_Marc_Benjamin
+Dreyer Otto
+Dudler
+Dudler_Max
+Duerig_Architekten
+Duiker_Johannes
+Dunkel
+Duplex Architekten
+Durand
+Durisch Noelli
+Durm_Joseph
+Durrer_Linggi
+Dürr_Otto
+Dyckerhoff_Widmann
+E2A_Eckert_Eckert_Architekten
+EM2N
+EMI
+E_Architekten
+Eames_Charls_Rey
+Eberle
+Ebers_Joerg
+Edelmann_krell_architekten
+Egeraat_Erick_van
+Ehrenklau_Katharina
+Eichinger_Gregor
+Eicke_Becker
+Eisenmann_Peter
+El_Khouli
+El_Lisizky
+Eldem
+Ellis_Peter
+Elsaesser_Martin_1884_1957
+Emerson_Tom-6a_Architect
+Enzmann Fischer
+Enzmann_Fischer
+Erhard Jann
+Erickson_Arthur
+Ericson_Sigfrid_Bjerke_Arvid
+Ernst_Heinrich_1846_1916
+Esch Sinzel
+Esch_Sinzel_Architekten
+FHV
+Fabiani_Max
+Fahrenkamp_Emil
+Fathy_Hassan
+Federico_Zuccari
+Fehn_Sverre_1924_2009
+Ferriss_Hugh
+Feuerstein_Marisa_Architectura
+Fiechter_Salzmann
+Fiets_Hermann
+Figini_Luigi_Pollini_Gino
+Finsterlin_Hermann
+Fisac_Miguel
+Fischer Ammann Architekten, Schulanlage Freilager Zürich Albisrieden
+Fischer Theodor
+Fischer_von_Erlach
+Fischle
+Fissler_Friedrich
+Flammer_Pascal
+Forster_Norman
+Förderer
+Francesca_Piero_della
+Frank_Joseph
+Frei_Saarinen
+Fretton_Toni
+Frisch_Max
+Frochoax
+Froehlich_Albert
+Fruehauf_Henry_Viladoms
+Fry_Edwin_Maxwell_1899_1987
+Fueg_Franz
+Fuji_Architekten_Studio
+Fujimoto
+Fuksas
+Fuller_Buckminster
+Furness_Frank
+Furrimann_Haechler
+Futurafrosch
+GUYER_LUX
+Gabetti_Robert
+Gaertner
+Galfetti_Aurelio
+Gambardella architetti
+Gandy_Joseph
+Gardella_Ignazio
+Garnier_Charls_1825_1898
+Garnier_Toni
+Gartmann_Patrick
+Gaudi_Antonio
+Gehry_Frank
+Geissbuehler_Dietere
+Geltner_Paul
+Gentz_Heinrich
+Gerkan
+Gessner
+Gessner_Albert
+Gessner_Hubert
+Giannaci_Paolo
+Gigometti
+Gigon_Guyer
+Gilly_Friedrich_1772_1800
+Gimson_Ernest
+Giorgio_Martini_Francesco
+Girault_Charles_1851_1931
+Gisel_Ernst
+Giuliani Hönger
+Giuliani_Hoenger_Zuerich
+Giumini_Pietro
+Gladbach_Ernst
+Glaus_Otto
+Gloor_Vera
+Gmuer_Patrick
+Gmür Gschwentner
+Go_Hasegawa
+Gocar_Joseph
+Goldfinger_Ernoe
+Goldsmith_Felix
+Graber Pulver
+Graber_Pulver_Architekten
+Graber_Steiger
+Gramazio_Kohler
+Grassi_Giorgio
+Graves_Michael
+Gray_Eileen
+Gregotti_Vittorio
+Gropius_Walter
+Gruppo_Ligure
+Gschwind_Higi
+Guarini_Guarino
+Guastavino_Raffael
+Guidotti_Architetti
+Gull_Gustav
+Gut_Schoep
+Gutkind_Erwin
+Guy_Morgan_and_Partners
+Gysin_Bob
+Hadrians
+Haefeli_Moser_Steiger
+Haefliger_Erich
+Haenel_Erich
+Haering_Hugo
+Haller_Fritz
+Halliday_James Theodore_1882_1932
+Hancock_John
+Handa_Heike_Prof
+Hankar_Paul
+Haratori
+Harwell_Hamilton_Harris
+Hasegawa_Go
+Hauenstein LaRoche Schedler
+Haussmann_Trix
+HdM
+Hejduk_John
+Helle
+Heller Patrick
+Herrle_Stoll
+Herter_Hermann_Meilard_Robert
+Herzog_de_Meuron
+Hetzberger_Hermann
+Hiestand_Chrisoph
+Hilberseimer_Ludwig
+Hill_Oliver_1887_1968
+Hippodamus
+Hobrecht
+Hoeger_Fritz
+Hoesli_Bernhar
+Hofmann_Hans
+Hofmann_Joseph
+Hofmann_Ludwig
+Holabird_Roche
+Holl_Steven
+Hollein_Hans
+Holzer_Kobler
+Holzhammer_Franz
+Hopkins_Michael
+Horta_Victor
+Horvat_Paolo
+Hotz_Theo
+Howard_Ebenezer
+Hönger_Giulliani
+Huber Waser Mühlebach
+Huebsch_Heinrich
+Hufnagel
+Hugenberger_Fries_Arch
+Hustistein_Partner
+IGUALGUGGENHEIM
+Igual_Guggenheim
+Ilg Santer Architekten
+Imhof_Edi
+Imhof_Lukas
+Ishigam_Junya
+Isler_Gysel_Architekten
+Isola_Aimaro
+Ito_Toyo
+Izozaki_Arata
+Jabornegg_Pálffy
+Jackob_Steib
+Jackson_Clements_Burrows
+Jacobsen_Arne
+Jaeckel_Fabian
+Jager_Egli_Architekten
+Janack_Pavel
+Jans Raphael
+Jansen_Hermann
+Jauch_Stoltz
+Jenny_William_Le_Baron_1832_1907
+Jensen_Klint
+Jessen_Vollenweider
+Johnson_Philiph
+Jones_Owen_1809_1874
+Joos_Mathys
+Josep_Llinas
+Jourda Francoise
+Kaeferstein_Meister
+Kahn_Adam
+Kahn_Louis
+Kai_Fisker
+Kampmann
+Kapfinger_Otto
+Karamuk Kuo Architekten
+Kaufmann_Hermann
+Kay_Fisker
+Keles_Oetzguer
+Kengo_Kuma
+Kennihan_Rayn
+Kent_William
+Kenzo_Tange
+Kere_Francis
+Kerez_Christian
+Kiel_Andrew
+Killer_Hermes
+Kjellander Sjoberg
+Kjærholm-Hauses
+Kleihues_Josef_Paul
+Kleihuus
+Klein_Alexander
+Klement_Juergen
+Klenze_von_Leo_1784_1864
+Klint_Peder_Kaare
+Klophaus_Rudolf
+Knapkiewicz_Fickert
+Knaus_Simon
+Knorr
+Knut_Knutsen
+Koch_Alexander
+Koenig_Petra_Architektur
+Koerner_Edmund
+Kollbrunner
+Kollhoff_Hans_1946
+Konstantinidis_Aris
+Koolhaas_Rem_OMA
+Kotnik_Toni
+Koyama
+Kramer_Pieter_Lodewijk
+Krier_Leon
+Krier_Robert
+Krischanitz
+Krokodil
+Kruse_Oliver
+Kuehn_Malvezzi
+Kuendig_Oetiker
+Kummer Schiess
+LUCA_SELVA
+La_Pierre_Eric
+Labrouste_Henri_1801_1875
+Lacatonvassal
+Ladner Meyer Architekten
+Lampugnani_Vittorio_Magnago
+Lancia_Emilio
+Langhans
+Lapadula_Ernesto
+Lasdun_Sir_Denys
+Lassen_Heinrich
+Lauener_Fabian
+Lauterbach_Heinrich
+Lautner_John
+Lazarini_Fenster
+Le_Corbusier
+Le_Vau_Louis
+Ledoux_Claude_Nicolas
+Lemmerzahl_Stephan_SLIK_Architekten
+Lengacher_Emenegger
+Leonidov_Ivan
+Lethaby_William
+Leutwiler_Architekten
+Leuzinger_Hans
+Lewerentz_Sigur
+Libera_Adalberto
+Ligorio_Pirro
+Llewelyn_Davies_Richard_Baron
+Llinas_Joseph
+Lodoli
+Loelinger_Strub
+Loos_Adolf
+Lorenz_Architekten_Basel
+Lubetkin_Berthold
+Lubetkin_Tecton
+Luebps_Atelier
+Luetjens_Padmanabhan_Architekten
+Lundgaard_Tranberg_Arkitekter_Copenhagen
+Lussi Halter
+Lutyens_Sir_Edward
+MPP
+MVRDV
+Maas_Wini
+Mackintosh_Charles_Rennie_1868_28
+MadeIn
+Maeckler_Christoph
+Maerkli_Peter
+Magistretti_Vico_con_Franco_Longoni
+Maguire_Murray
+Maibach Manuel
+Malvez_Elia
+Mangiarotti_Angelo
+Mansila
+Marques Daniele
+Mateo_Josep_Lluis
+Mattioni_Luigi
+Mawson_Thomas_H
+McKim
+McMorran_Withby
+Mebes_Paul
+Meck_Architekten
+Meier Hug
+Meier_Hannes
+Meier_Juergen_H
+Meier_Richard
+Meili Armin
+Meili Partner
+Melly Benjamin
+Melnikov Konstantin
+Mendelsohn_Erich
+Menn_Corinna
+Menz_Sascha
+Messel_Alfred
+Meyer_Hannes
+Meyer_de_J
+Michelozzo_di_Bartolommeo
+Michelucci_Giovanni
+Mies_van_der_Rohe_1886
+Miller Maranta
+Miller_Maranta
+Milne_Oswald_Partridge_1882_1968
+Mirlo_urbano_Architekten
+Mitzutome
+Moering_Bruno
+Moesch_Kunz
+Mohl
+Moller_C_F
+Mollino_Carlo
+Moneo_Raphael
+Morandi_Riccardo
+Morassutti_Bruno
+Moretti_Luigi
+Morgan_Julia
+Morger_Degelo
+Morger_Dettilin
+Morris_Jasper
+Morris_William
+Morscher_Architekten
+Moser_Karl_1860_1936
+Moser_Wegestein
+Mueller Sigrist
+Mueller_Barbara
+Muelletaler_Rolf
+Muncunill_Luis
+Munzer_Gustav_August
+Muratori_Saverio
+Murcutt Glenn
+Musman_Ernest_Brander_1888_1972
+Mutheisius_Hermann
+Muzio Lorenzo
+Muzio_Giovanni_1893_1982
+Nash John
+Nash_Paul_1889_1946
+Nelson_Paul
+Neuenschwander_Eduard
+Neutra_Richard
+New_York_Segram_pl_00_caruso2012FSworkbook 25.dwg
+Nicoletti_Manfredi
+Niemeyer_Oskar
+Nikisch Walder
+Nimbus_Architekten
+Noirjean_Adrien
+Nouvell_Jean
+OMA
+Oestberg_Ragnar
+Oester Pfeninger
+Olbricht_Joseph_Maria
+Olgiati Valerio
+Olgiati_Rudolf
+Ortner Ortner
+Ostendorf_Friedrich_1871_1915
+Oswald_Hannes
+Oud_J_J_Pieter
+Owen_William_Segar
+Owen_Williams
+Page Anna
+Paillard_Claude
+Palladio_Andrea_1508_1580
+Park_Architekten
+Parker_Barry_Unwin_Raymond
+Pascal_Jean_Louis
+Paul_Rudolph
+Pavel_Janack
+Pawson_John
+Paxton_Sir_Joseph_1803_1865
+Pei
+Penzel_Architekten
+Perraults_Dominique
+Perret_Auguste_Gustave_1874_1954
+Perrot
+Peruzzi_Baldasare
+Pezo von Ellrichshausen
+Pfister_Gebrueder
+Pfleghard_Haefeli
+Phalt_Architekten
+Piacentini_Marcello
+Piano_Renzo
+Pictet_Charles
+Pikionis_Dimitris
+Pinos_Carme
+Piranesi
+Pirzio_Biroli_Roberto
+Plecnik_Josef_1872_1957
+Pleydell_Bouverie_ David_1911_1994
+Poelzig Hans
+Polard
+Ponti Gio
+Pool_Architekten
+Portaluppi_Piero
+Portoghesi_Paolo
+Pouillon_Fernand
+Price_Sederic
+Prinz_Norman
+Prior_Edvard_Schroeder
+Prouvé_Jean
+Pugin
+Quaroni_Ludovico
+Quincy_de_Quatremere
+RCR
+Radic_Smjlian
+Ramser_Schmid
+Rasmussen
+Raumfalter
+Raumfindung
+Reichlin_Bruno
+Reidy Alfonso
+Reidy_Eduardo
+Reiluf Ramstad Architekten
+Reinhard_Fabio
+Rey_Adolphe_Augustin
+Rhytmeier_Furrer
+Richardson_Henry_Hobson_1838_86
+Ridolfi_Mario_1904_1984
+Riehmer_Wilhelm_Bauherr
+Rietveld_Gery
+Rimini_Alessandro
+Riphahn
+RobertMalletStevens
+Rocha_Tombai
+Roesler_Sascha
+Rogers_Richard
+Rohn_Roland
+Rolli_Boss_Architekten
+Romano_Giulio _1499_1546
+Romero_Schaefle
+Rosenauer_Michael_1884_1971
+Rossellino_Bernardo
+Rossetti_Biagio
+Rossi_Aldo
+Rouse_Goldstone
+Rowe_Collin
+Rowntree_Kenneth _1915_1997
+Ruch_Hansjoerg
+Ruchat_Roncati_Flora
+Ruf Sepp
+Russli_Architekten
+S2_Stucki_Schneebeli_Architekten
+SAM_Architekten
+SANAA
+SMARCH_mathys_Stuecheli
+SOM
+Saarinen_Eero
+Saarinen_Eliel
+SabArchitekten
+Saenz_de_Oiza_Francisco
+Salvisberger_Otto_Rudolf
+Sangallo_da_Giuliano
+Sansovino_Jacopo
+Sant_Elia_Antonio_und_die_Citta_Nuova_1914
+Santi_Raffael
+Sartoris_Alberto
+Sassenroth_Peter_Teitermann
+Sauerbruch_Hotton_Architekten
+Saulnier_Jules
+Sauvage_Henrry
+Scamozzi_Vincenzo_1548_1616
+Scarpa_Carlo
+Schader_Kt_Freudenberg
+Scharoun_Hans
+Schattner_Karl_Joseph
+Scheidegger_Keller
+Schett_Wolfgang
+Schilling_Hans
+Schindler_Rudolph
+Schinkel_Karl_Friedrich_1781_1841
+Schlup Max
+Schmid_Schaerer_Architekten
+Schmidt_Werner
+Schmitthenner Paul
+Schnaidt_Claude
+Schneider_Oelsen
+Schneider_Studer_Primas
+Schneller Andreas
+Schuerer_Architekten
+Schultes_Frank
+Schumacher_Fritz
+Schwartz_Fabien
+Schwarz_Dietrich
+Schwarz_Felix_Rolf_Gutmann_Basel
+Schwarz_Rudolf_1897_1961
+Schwippert_Hans
+Schwitters_Kurt
+Scott_Baillie
+Sebrowitz_Jurkovic_Dusan_Sebrowitz
+Seddig
+Seilerlinhard_Architekten
+Semadenin Armon Architekten
+Semper_Gottfried_1803_79
+Senn_Andy
+Senn_Otto
+Sergison_Bates_Dublin
+Serlio_Sebastian_1475_1554
+ShOP
+Shaker
+Shaw_Richard_Norman
+Shinohara Kazuo
+Shizuoka
+Sigg
+Sik_Miroslav
+Siza_Alvaro_Vieira
+Siza_Vieira_Àlavaro_Leite
+Smiljan Radic 
+Smith Samuel Modell
+Smithson_Peter_Alice
+Smythson_Robert
+Snozzi Luigi
+Soane_Sir_John
+Soeder - urform der abendländlichen Baukunst
+Sofaloung_Pinar_Goeunuel
+Soissons_Louis_de_Wellvyn_1919_Gartenstadt
+Soriano_Rafael
+Sota_de_la_Alejandro
+Sou Fugimoto
+Souto_de_Moura_Eduardo
+Speer_Alfred
+Spieker_Helmut
+Spielmann_Echsel
+Spiro_Annette
+Spuehler_Martin
+Stauffer_Hasler
+Steffann_Emil
+Steiner_Albert_H
+Stella_Franco
+Steven_Holl
+Stirling_James
+Stone_Edward_Albert_1880_1963
+Streich_Adrian
+Streicher_Otto
+Strnad_Lurje
+Stubbins_Hugh_A
+Studer_Schneider_Primas
+Studio Blay Streeruwitz
+Studio_Mumbai_Betoi
+Stuecheli_Ursula
+Stueler
+Sullivan_Louis_1856_1924
+Sutter_Annabarbara
+Šuchov_Vladimir_Blechwalzwerk Vyksa, Russland, 1897:98
+Tadao_Ando
+Takamatsu
+Taller_de_Arquitectura
+Tami_Rino
+Taniguchi_Yoshio
+Taut_Bruno
+Taut_Max
+Tavora_Fernando
+Taylor
+Team_Zoo
+Ted Architekten
+Terragni_Giuseppe
+Tessar_Heinz
+Tessenow_Heinrich
+Testa_Clorindo
+Thalhofer_Tom
+Thiersch_von_Friedrich
+Tiburtino_Ridolfi_SIK
+Tller_de_Arquitectura
+Torroja_Eduardo
+Toyo Ito
+Trachsel_Hofmann
+Tschumi_Bernhard
+Turnbull_William
+Tusquet_Oscar_Clotet_Lluìs
+UN_Studio_van_Berkel_Ben
+Ungers_Oswald_Mathias
+Unknown.jpg
+Utzon_Jørn
+Utzon_Kim_Architects
+Vaccini_Livio
+Valle_Gino
+Van_Doesburg
+Van_Eesterne
+Van_Eyck_Aldo
+Van_Gerkan_Meinrad
+Van_de_Velde_Henry
+Van_der_Laan_Dom
+Van_der_Mey
+Vandenhove_Charsl
+Vasari_Giorgio
+Vaulting_Gustavino
+Venturi_Robert
+Vignola_Giacomo_Barozzi_da_1507_1573
+Villerauxban
+Vinci_Leonardo_da
+Vinoly_Rafael_Architects
+Virgilio_Marchi
+Vitruv
+Vogeler_Heinrich
+Vogt_Klaus
+Voigt_Andreas
+Vorhoelzer_Robert
+Voysey_Charles
+Wachsmann_Konrad
+Wagner
+Wagner_Otto
+Wahlman_Lars_Israel
+Wallot_Paul
+Wallraff_Michael
+Wayss_Freytag
+Webb_Philiph
+Weinbrenner_Friedrich_1766_1826
+Wellington_Gerald_Wellesley
+Whiting_Luci
+Wiedemann_Josef
+Wijdeveld_Henricus_Theodorus
+Williams_Amancio
+Wittgenstein_Ludwig
+Wolf_Paul
+Wollkenstein
+Worm_Maximilian
+Wornum_George_Grey_1888_1957
+Wright_Frank_Lord_1867_1959
+Wurster_William
+Yorke_Breuer
+Yorke_Francis_Reginald_Stevens_1906_1962
+Zaha_Hadid
+Zanini
+Zenghelis_Elia
+Zeyer_Albert
+Ziegler_Heinrich_Rehfuss_Jakob
+Zindel_Reto
+Zirau_Frank
+Zita Cotti
+Zuber_Raphael
+Zuchi_Gino
+Zumthor_Peter
+_Japanische Architekten.docx
+_Japanische_Architektur
+aardeplan_AG
+architectuul
+darlington_meyer
+ebeling
+gigon guyer
+idA_Architekten
+inigo jones architecture
+lieblingsarchitekt.jpg
+maya
+mlzd
+tumblr_lbf4yyf79H1qat99uo1_500.jpg
+wang_shu

@@ -1,0 +1,71 @@
+{
+  "slug": "Adam_Robert",
+  "architekt": {
+    "name": "Adam Robert",
+    "nachname": "Adam",
+    "vorname": "Robert",
+    "jahre": [],
+    "ordner": "Adam_Robert"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Adam_Robert",
+  "projekte": [
+    {
+      "raw": " London_198_202_Piccadilly",
+      "ort": " London",
+      "projekt": "198 202 Piccadilly",
+      "jahre": [],
+      "titel": "London 198 202 Piccadilly"
+    },
+    {
+      "raw": "Butehouse",
+      "ort": "Butehouse",
+      "projekt": "Butehouse",
+      "jahre": [],
+      "titel": "Butehouse"
+    },
+    {
+      "raw": "Innenarchitektur",
+      "ort": "Innenarchitektur",
+      "projekt": "Innenarchitektur",
+      "jahre": [],
+      "titel": "Innenarchitektur"
+    },
+    {
+      "raw": "Literatur",
+      "ort": "Literatur",
+      "projekt": "Literatur",
+      "jahre": [],
+      "titel": "Literatur"
+    },
+    {
+      "raw": "New_House",
+      "ort": "New",
+      "projekt": "House",
+      "jahre": [],
+      "titel": "New House"
+    },
+    {
+      "raw": "Paris_Adelphi_Terrace",
+      "ort": "Paris",
+      "projekt": "Adelphi Terrace",
+      "jahre": [],
+      "titel": "Paris Adelphi Terrace"
+    }
+  ],
+  "projekt_anzahl": 6,
+  "inventar": {
+    "bilder": 34,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 35
+  },
+  "dateitypen": {
+    ".jpg": 32,
+    ".gif": 2,
+    ".pdf": 1
+  },
+  "textauszug": "12.02.12 08:48ROBERT ADAM Seite 1 von 27http://www.historiasztuki.com.pl/53_KLAS_ARCH_ADAM.html ROBERT ADAM 3.07.1728 – 3.03.1792szkocki architekt, wnętrzarz, meblarz, przedstawiciel klasycyzmu,Syn Williama Adama i brat Johna, z którym prowadził rodzinną firmę projektową.Wspólnie wypracowali tzw. styl Adamów, lżejszą wersję palladianizmu. Alnwick Castle, Northumberland /wnętrza - w dziale: rzemiosło/ 12.02.12 08:48ROBERT ADAM Seite 2 von 27http://www.historiasztuki.com.pl/53_KLAS_ARCH_ADAM.html Apsley House, Londyn (1778) 12.02.12 08:48ROBERT ADAM Seite 3 von 27http://www.historiasztuki.com.pl/53_KLAS_ARCH_ADAM.html Bowood House, k/Calne, Wiltshire Charlotte Square (strona północna), Edynburg (1791) 12.02.12 08:48ROBERT ADAM Seite 4 von 27http://www.historiasztuki.com.pl/53_KLAS_ARCH_ADAM.html Compton, Verney House 12.02.12 08:48ROBERT ADAM Seite 5 von 27http://www.historiasztuki.com.pl/53_KLAS_ARCH_ADAM.html Culzean Castle, South Ayrshire (1772-1790) 12.02.12 08:48ROBERT ADAM Seite 6 von 27http://www.historiasztuki.com.pl/53_KLAS_ARCH_ADAM.html Dumfries House, Ayrshire (1754-1759)",
+  "embed_doc": "Adam Robert | London 198 202 Piccadilly | Butehouse Butehouse | Innenarchitektur Innenarchitektur | Literatur Literatur | New House | Paris Adelphi Terrace | 12.02.12 08:48ROBERT ADAM Seite 1 von 27http://www.historiasztuki.com.pl/53_KLAS_ARCH_ADAM.html ROBERT ADAM 3.07.1728 – 3.03.1792szkocki architekt, wnętrzarz, meblarz, przedstawiciel klasycyzmu,Syn Williama Adama i brat Johna, z którym prowadził rodzinną firmę projektową.Wspólnie wypracowali tzw. styl Adamów, lżejszą wersję palladianizmu. Alnwick Castle, Northumberland /wnętrza - w dziale: rzemiosło/ 12.02.12 08:48ROBERT ADAM Seite 2 von 27http://www.historiasztuki.com.pl/53_KLAS_ARCH_ADAM.html Apsley House, Londyn (1778) 12.02.12 08:48ROBERT ADAM Seite 3 von 27http://www.historiasztuki.com.pl/53_KLAS_ARCH_ADAM.html Bowood House, k/Calne, Wiltshire Charlotte Square (strona północna), Edynburg (1791) 12.02.12 08:48ROBERT ADAM Seite 4 von 27http://www.historiasztuki.com.pl/53_KLAS_ARCH_ADAM.html Compton, Verney House 12.02.12 08:48ROBERT ADAM Seite 5 von 27http://www.historiasztuki.com.pl/53_KLAS_ARCH_ADAM.html Culzean Castle, South Ayrshire (1772-1790) 12.02.12 08:48ROBERT ADAM Seite 6 von 27http://www.historiasztuki.com.pl/53_KLAS_ARCH_ADAM.html Dumfries House, Ayrshire (1754-1759)",
+  "stand": "2026-07-02T21:05:26"
+}

@@ -1,0 +1,66 @@
+{
+  "slug": "Scamozzi_Vincenzo_1548_1616",
+  "architekt": {
+    "name": "Scamozzi Vincenzo 1548 1616",
+    "nachname": "Scamozzi",
+    "vorname": "Vincenzo",
+    "jahre": [
+      "1548",
+      "1616"
+    ],
+    "ordner": "Scamozzi_Vincenzo_1548_1616"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Scamozzi_Vincenzo_1548_1616",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Sabbioneta Theater",
+      "ort": "Sabbioneta Theater",
+      "projekt": "Sabbioneta Theater",
+      "jahre": [],
+      "titel": "Sabbioneta Theater"
+    },
+    {
+      "raw": "Vicenza",
+      "ort": "Vicenza",
+      "projekt": "Vicenza",
+      "jahre": [],
+      "titel": "Vicenza"
+    },
+    {
+      "raw": "Villa_Pisana",
+      "ort": "Villa",
+      "projekt": "Pisana",
+      "jahre": [],
+      "titel": "Villa Pisana"
+    },
+    {
+      "raw": "Zeichnung_Grossen_neronischen_Thermenhalle",
+      "ort": "Zeichnung",
+      "projekt": "Grossen neronischen Thermenhalle",
+      "jahre": [],
+      "titel": "Zeichnung Grossen neronischen Thermenhalle"
+    }
+  ],
+  "projekt_anzahl": 5,
+  "inventar": {
+    "bilder": 21,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 21
+  },
+  "dateitypen": {
+    ".jpg": 20,
+    ".tif": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Scamozzi Vincenzo 1548 1616 | 00 Architekten | Sabbioneta Theater Sabbioneta Theater | Vicenza Vicenza | Villa Pisana | Zeichnung Grossen neronischen Thermenhalle",
+  "stand": "2026-07-02T22:46:56"
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "Kere_Francis",
+  "architekt": {
+    "name": "Kere Francis",
+    "nachname": "Kere",
+    "vorname": "Francis",
+    "jahre": [],
+    "ordner": "Kere_Francis"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Kere_Francis",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Stahl",
+      "ort": "Stahl",
+      "projekt": "Stahl",
+      "jahre": [],
+      "titel": "Stahl"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 15,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 15
+  },
+  "dateitypen": {
+    ".jpg": 15
+  },
+  "textauszug": "",
+  "embed_doc": "Kere Francis | 00 Architekten | Stahl Stahl",
+  "stand": "2026-07-02T21:22:22"
+}

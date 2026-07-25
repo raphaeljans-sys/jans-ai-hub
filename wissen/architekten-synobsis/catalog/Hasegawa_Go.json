@@ -1,0 +1,34 @@
+{
+  "slug": "Hasegawa_Go",
+  "architekt": {
+    "name": "Hasegawa Go",
+    "nachname": "Hasegawa",
+    "vorname": "Go",
+    "jahre": [],
+    "ordner": "Hasegawa_Go"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Hasegawa_Go",
+  "projekte": [
+    {
+      "raw": "Cohen_Preston_Scott",
+      "ort": "Cohen",
+      "projekt": "Preston Scott",
+      "jahre": [],
+      "titel": "Cohen Preston Scott"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".jpg": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Hasegawa Go | Cohen Preston Scott",
+  "stand": "2026-07-02T21:16:59"
+}

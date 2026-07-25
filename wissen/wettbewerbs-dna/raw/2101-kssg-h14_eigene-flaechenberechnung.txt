@@ -1,0 +1,209 @@
+# Quelle: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2101 WB StGallen KSSG H14/01_Plaene/1_Abgabe/00_Final_Digital_Abgabe/LOUISE_Flaechenberechnung_Neubau_KSSG 14.pdf
+# Extrakt: pdftotext -layout, 2026-07-12
+
+727m2                538m2    538m2
+
+
+
+
+UG                   EG       1. OG
+     2                    2
+538m                 538m     538m2
+
+
+
+
+2. OG                3. OG    DG
+
+
+
+
+Geschossfläche                        LOUISE
+UG       : 727m2                      WETTBEWERB NEUBAU HAUS 14 KSSG
+EG       : 538m2
+1.OG     : 538m2                      Schemata Flächenberechnung
+2.OG     : 538m2                      nach SIA 416
+3 OG     : 538m2
+DG       : 538m2                      Titel:    Geschossflächen
+Total    : 3'417m2                    Mst.:     1:500
+                                      Format:   A4
+HNF: 48 m2                    NNF: 31m2
+
+                                                             HNF: 247m2                           NNF: 0m2                                   HNF: 381m2                                 NNF: 0m2
+
+
+
+
+                                                                                                                                              9,99    9,27       9,27     9,27
+                                                                                                                                                                                                                              3,97
+                                                                  28,96            28,96           28,96             28,96    28,96                                                      24,83       5,95      27,61
+                                                                                                                                                                                                                                          21,53
+                                                                                                                                                                            36,09                                             21,07
+                                                                                                                                                                                                                                          7,16
+                                                                                                            3,19
+                                                                                                                                                                        13,18
+                                                                                                                                              18,32
+                                                                  12,14           22,68                                                                                                                                                  7,16
+                                                                                                                             8,78     6,85
+                                                                                                                                                                                        20,11
+                                                                                                                                                       3,35 5,02 5,02 7,91
+                                                                                                                                9,15                                                                                           6,87      7,43
+                                                                          23,90           15,97
+
+                                                                                                                                                                                                   40,00
+                                                                                                                                                                        24,36
+           10,72   11,52         22,32           17,75                                                                                                                                     12,09
+
+                                                                                                                                                                                                      13,06                           35,54
+
+
+                                                                                                                                                                                                                      16,80
+
+                       8,30    8,30
+
+
+
+
+UG                                                           EG                                                                              1. OG
+
+
+HNF: 423m2                    NNF: 8m2                       HNF: 423m2                           NNF: 8m2                                   HNF: 10m2                                  NNF: 66m2
+
+
+
+
+                               422,97                                                              422,97
+
+
+
+
+                                         7,74                                                                 7,74
+                                                                                                                                                         16,12                  21,91
+
+
+
+
+                                                                                                                                                                                                   10,67      27,83
+
+
+
+
+2. OG                                                        3. OG                                                                           DG
+
+
+
+
+NF Nützfläche                                                                                                                                                            LOUISE
+UG        HNF: 48 m2                            NNF: 31m2                                                                                                                WETTBEWERB NEUBAU HAUS 14 KSSG
+EG        HNF: 247m2                            NNF: 0m2
+1.OG      HNF: 381m2                            NNF: 0m2                                                                                                                 Schemata Flächenberechnung
+2.OG      HNF: 423m2                            NNF: 8m2                                                                                                                 nach SIA 416
+3 OG      HNF: 423m2                            NNF: 8m2
+DG        HNF: 10m2                             NNF: 66m2                                                                                                                Titel:                    Nutzfläche
+Total     HNF: 1'532m2                          NNF: 113m2                                                                                                               Mst.:                     1:500
+                                                                                                                                                                         Format:                   A4
+     HNF
+     NNF
+2'413m2
+                                          1'937m2   1'937m2
+
+
+
+
+UG                                        EG        1. OG
+
+
+1'821m2                                   1'821m2   993m2
+
+
+
+
+2. OG                                     3. OG     DG
+
+
+
+
+Gebäudevolumen                                                LOUISE
+Gebäudevolumen unter Terrain: 2'413 m3                        WETTBEWERB NEUBAU HAUS 14 KSSG
+Gebäudevolumen über Terrain: 8'509 m3
+                                                              Schemata Flächenberechnung
+Total                       : 10,922 m3                       nach SIA 416
+
+                                                              Titel:    Gebäudevolumen
+                                                              Mst.:     1:500
+                                                              Format:   A4
+31m2                         31m2
+
+
+
+
+2. OG                        3. OG
+
+
+
+
+Aussengeschossfläche (AGF)           LOUISE
+                                     WETTBEWERB NEUBAU HAUS 14 KSSG
+2.OG     : 31 m2
+3 OG     : 31 m2                     Schemata Flächenberechnung
+Total    : 62 m2                     nach SIA 416
+
+                                     Titel:    Aussengeschossfläche
+                                     Mst.:     1:500
+                                     Format:   A4
+E1 325m2                                                    E1 58m2
+                                                            E2 217m2   E2 90m2
+                                                            E3 140m2   E3 240m2
+
+
+
+
+UG                                                          EG         1. OG
+E1 0m2                                                      E1 0m2     E1 0m2
+E2 56m2                                                     E2 56m2    E2 410m2
+E3 261m2                                                    E3 261m2   E3 0m2
+
+
+
+
+2. OG                                                       3. OG      DG
+
+
+
+
+Fassadefläche E(FAW) Total:                       2,114m2                         LOUISE
+Aussenwandfläche unter Terrain Total E1 (FAWU):   383m2                           WETTBEWERB NEUBAU HAUS 14 KSSG
+Aussenwandfläche über Terrain Total E2 (FAWUE):   829m2
+Fläche Einbauen Total E3 (FEA):                   902m2                           Schemata Flächenberechnung
+                                                                                  nach SIA 416
+
+                                                                                  Titel:    Fassadenflächen
+                                                                                  Mst.:     1:500
+                                                                                  Format:   A4
+FDU 248m2
+
+
+
+
+UG
+
+FFDA: 32m2                                            FFDA: 257 m2
+
+
+
+
+2. OG                                                 DG
+
+
+
+
+Fläche Dachhaut (FB)                                                 LOUISE
+                                                                     WETTBEWERB NEUBAU HAUS 14 KSSG
+Fläche Dachabdichtung unter Terrain (FDU)   : 248m2
+Flachdach exklusive Dacheinbauten (FFDA)    : 289m2                  Schemata Flächenberechnung
+                                                                     nach SIA 416
+FB Total                                    : 537m2
+                                                                     Titel:    Dachflächen
+                                                                     Mst.:     1:500
+                                                                     Format:   A4
+

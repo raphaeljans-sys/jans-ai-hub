@@ -1,0 +1,26 @@
+{
+  "slug": "Dunkel",
+  "architekt": {
+    "name": "Dunkel",
+    "nachname": "Dunkel",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Dunkel"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Dunkel",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Dunkel",
+  "stand": "2026-07-02T21:13:20"
+}

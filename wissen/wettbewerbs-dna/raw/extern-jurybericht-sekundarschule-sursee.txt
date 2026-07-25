@@ -1,0 +1,2239 @@
+# QUELLE: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2102 WB Muttenz/07 Referenzen/1 Schulen/00 Turnhallentypologie/2 Turnhalle freistehend/Surssee Sekundarschule/jurybericht_ww_sek_sursee_070519_.pdf
+# Extrakt: pdftotext -layout, 12.07.2026, 68 Seiten (fremder Referenz-Jurybericht, Neubau Sekundarschulhaus Zirkusplatz Sursee, 07.05.2019)
+
+Jurybericht
+
+Projektwettbewerb im selektiven Verfahren
+Parzelle Nr. 1402, 6210 Sursee
+
+
+Neubau Sekundarschulhaus Zirkusplatz
+
+
+
+
+  Jäger Egli Architekten                    Luzern, 07.05.2019
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Veranstalterin:               Stadt Sursee
+                              Centralstrasse 9
+                              6210 Sursee
+
+
+Organisation:                 Jäger Egli Architekten ETH / SIA / FSAI
+                              Klosterstrasse 11
+                              6003 Luzern
+                              Claudia Gassmann dipl. Architektin ETH
+                              Hansjürg Egli dipl. Architekt HBK / SIA / FSAI
+
+
+Aus Gründen der Lesbarkeit wird im Text die männliche Form gewählt, es ist jedoch immer die weibliche
+Form mitgemeint.
+
+
+
+
+                                                                                                  Seite 2
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Inhaltsverzeichnis
+1	       Ausgangslage                                                             4	  
+
+2	       Allgemeine Bestimmungen                                                  5	  
+        2.1	   Verfahren                                                          5	  
+        2.2	   Veranstalterin und Verfahrensorganisation                          5	  
+        2.3	   Termine                                                            6	  
+        2.4	   Preisgericht                                                       6	  
+        2.5	   Teilnahmeberechtigung Präqualifikation                             7	  
+        2.6	   Auswahlkriterien Präqualifikation                                  7	  
+        2.7	   Wettbewerbsteilnehmer                                              7	  
+        2.8	   Anonymität und Varianten                                           8	  
+        2.9	   Preise und Ankäufe                                                 8	  
+        2.10	     Weiterbearbeitung und Realisierung                              9	  
+        2.11	     Rechtliche Bestimmungen                                         9	  
+        2.12	     Urheberrechte und Rücknahme der eingereichten Unterlagen        9	  
+
+3	       Aufgabe (Auszug aus dem Wettbewerbsprogramm)                             9	  
+        3.1	   Wettbewerbsaufgabe und Ziele                                       9	  
+        3.2	   Wettbewerbsperimeter                                             10	  
+        3.3	   Anforderungen der Schule                                         11	  
+        3.4	   Schulhaus und Turnhalle als öffentliche Gebäude                  12	  
+        3.5	   Aussenraum                                                       12	  
+        3.6	   Erweiterungen                                                    13	  
+        3.7	   Wirtschaftlichkeit und Energie                                   13	  
+        3.8	   Denkmalschutz                                                    14	  
+        3.9	   Grundstückdaten                                                  14	  
+
+4	       Beurteilungskriterien                                                  15	  
+
+5	       Vorprüfung                                                             15	  
+
+6	       Jurierung                                                              15	  
+        6.1	   Vorprüfungsergebnis und Zulassung zur Jurierung                  15	  
+        6.2	   Beurteilung erster Jurytag                                       16	  
+        6.3	   Prüfung engere Wahl                                              17	  
+        6.4	   Beurteilung zweiter Jurytag                                      17	  
+        6.5	   Entscheid des Preisgerichts                                      18	  
+        6.6	   Schlussfolgerungen und Empfehlungen                              18	  
+
+7	       Genehmigung                                                            19	  
+
+8	       Verfasserteams                                                         20	  
+
+9	       Beschriebe und Dokumentation der Projekte                              25	  
+
+
+
+
+                                                                              Seite 3
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+1      Ausgangslage
+
+
+Sursee – goldene Kleinstadt im Herzen der Schweiz
+Die Stadt Sursee hat sich seit den sechziger Jahren des 20. Jahrhunderts zu einem modernen
+kleinstädtischen Zentrum entwickelt. Die hohe Zahl von mehr als 13'000 Beschäftigten und fast 10'000
+Einwohnern belegt ihre wirtschaftliche Bedeutung.
+
+
+Seit rund hundert Jahren ist Sursee ein wichtiges Zentrum für Schulen und weitere Bildungsinstitutionen.
+Dieses umfasst das Oberstufenzentrum, das Berufsschulzentrum mit Wirtschaft, Informatik und Technik,
+Gesundheit und Soziales sowie Natur und Ernährung, die Kantonsschule als Maturitäts- und
+Diplommittelschule     sowie   das   Bildungs-   und   Beratungszentrum   für   Milchwirtschaft,   Haus-     und
+Landwirtschaft. Sonderschulen für Kinder und Jugendliche mit besonderen Bedürfnissen ergänzen das
+Angebot.
+
+
+Die Stadt Sursee bildet mit den Gemeinden Oberkirch, Schenkon, Mauensee, Geuensee und Knutwil / St.
+Erhard einen Sekundarschulkreis. Die gemeinsame Sekundarschule ist heute in drei Schulhäusern auf der
+linken Seite der Sure untergebracht. Vom Martiniplatz her kommend, bildet das 1903 erbaute Schulhaus Alt
+St. Georg den Auftakt. Dahinter gruppieren sich auf einem grosszügigen Campus die Schulhäuser Neu St.
+Georg und Georgette sowie die Turnhallen mit Aula.
+
+
+Aufgrund entsprechender Prognosen und Entwicklungen der Schülerzahlen wird für das Schuljahr 2023/24
+ein neues, viertes Sekundarschulhaus für 12 Klassen benötigt. In einer Vorsondierung wurden
+verschiedene Standorte in der Region geprüft und die Standortgemeinden einigten sich auf zwei mögliche
+Standorte auf dem Gemeindegebiet der Stadt Sursee. Eine Machbarkeitsstudie lieferte die Grundlage für
+den definitiven Standortentscheid: Der Neubau des Sekundarschulhauses soll auf dem Zirkusplatz
+zwischen dem prägenden ökologischen Ausgleichs- und Naherholungsraum der Sure und der Stadthalle
+entstehen.
+
+Nicht abschliessend sind hier einige Vorteile des Standortes Zirkusplatz genannt:
+
+-      Bauen im städtischen, verdichteten Raum (haushälterische Nutzung des Bodens)
+-      Stärken des öffentlichen Charakters dieses Ortes
+-      Öffentliche Nutzung der Dreifachhalle und des Aussenraumes
+-      Aufwertung und Öffnung des Sureraums
+-      Vielfältige Synergien zum bestehenden Oberstufenzentrum
+
+
+Ort:
+Der Standort des neuen Sekundarschulhauses liegt vor den Toren der Altstadt zwischen Sure und
+Stadthalle. In unmittelbarer Nähe befinden sich links der Sure das bestehende Oberstufenzentrum und
+nördlich der Ringstrasse die Sportanlage Schlottermilch sowie die Kantonsschule Sursee.
+
+
+
+
+                                                                                                           Seite 4
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Luftbild mit Standort
+
+
+
+
+2     Allgemeine Bestimmungen
+
+2.1    Verfahren
+
+Für die vorliegende Aufgabe wird ein einstufiger, anonymer Projektwettbewerb im selektiven Verfahren
+durchgeführt.
+Der Projektwettbewerb untersteht der interkantonalen Vereinbarung über das öffentliche Beschaffungs-
+wesen sowie dem Gesetz über die öffentliche Beschaffung und dessen Verordnung des Kantons Luzern.
+Die Ordnung für Architektur- und Ingenieurwettbewerbe SIA 142, 2009, gilt subsidiär.
+Der Stadtrat von Sursee erlässt nach Abschluss der Präselektion und nach Abschluss des
+Projektwettbewerbs eine beschwerdefähige Verfügung mit Rechtsmittelbelehrung.
+
+2.2    Veranstalterin und Verfahrensorganisation
+
+Veranstalterin, Auftraggeberin:
+Stadt Sursee
+Stadtrat Sursee
+Centralstrasse 9
+6210 Sursee
+Administration: Daniel Ellenberger, Leiter Bauberatung
+
+
+
+
+                                                                                              Seite 5
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Verfahren wird organisiert und begleitet durch:
+Jäger Egli Architekten
+Klosterstrasse 11
+6003 Luzern
+Wettbewerbssekretariat: Claudia Gassmann, dipl. Architektin ETH
+Tel. 041 248 51 69 / e-Mail: gassmann@jaegeregli.ch
+
+2.3     Termine
+Jurierung                                                             März / April 2019
+Verfügung Stadtrat                                                    15. Mai 2019
+Öffentliche Ausstellung                                               17. bis 26. Juni 2019
+Urnenabstimmung Baukredit                                             Sommer/Herbst 2020
+Voraussichtlicher Baubeginn                                           Herbst 2021
+Bezug und Schulbeginn                                                 Schuljahr 2023/24
+
+
+2.4     Preisgericht
+
+Das Preisgericht hat die Aufgabe, in der Phase Präqualifikation die Wettbewerbsteilnehmer zu bestimmen,
+in der Phase Wettbewerb die Wettbewerbsbeiträge zu beurteilen, einen Sieger zu bestimmen und eine
+Empfehlung zur Weiterbearbeitung zuhanden des Stadtrates abzugeben.
+Das Preisgericht setzt sich wie folgt zusammen:
+
+
+Sachpreisrichter:
+-     Heidi Schilliger, Bildungsvorsteherin Stadt Sursee
+-     Bruno Bucher, Bauvorsteher Stadt Sursee
+-     Stephan Huber, Bildungsvorsteher Oberkirch
+-     Raphael Wyss, Bildungsvorsteher Schenkon
+
+
+Fachpreisrichter:
+-     Daniel Krieg, Burkard Meyer Architekten, Baden (Jurypräsident)
+-     Christoph Steiger, Graber Steiger Architekten, Luzern
+-     Sibylle Bucher, B.E.R.G. Architekten, Zürich
+-     Andreas Nötzli, Hertig Nötzli Architekten, Aarau
+-     Rosmarie Müller-Hotz, NRS-Team, Baar
+-     Daniel Schneider, SUR Schneider, Landschaftsarchitekt, Olten (ab März 2019 entschuldigt)
+
+
+Fachexperten (ohne Stimmrecht):
+-     Philipp Calivers, Rektor Stadtschulen Sursee
+-     Armin Steffen, Bereichsleiter Bildung und Kultur Stadt Sursee
+-     Daniel Ellenberger, Leiter Bauberatung Stadt Sursee
+-     Piroska Vaszary, Bereichsleiterin Planung und Bauberatung der Stadt Sursee
+-     Christian Albisser, Geschäftsleiter Betriebsgenossenschaft Stadthalle und Sportanlagen
+-     Pia Gisler, Sekundarlehrerin Schulhaus Georgette
+
+
+                                                                                                 Seite 6
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Vorprüfung:
+-     Claudia Gassmann, Jäger Egli Architekten, Luzern
+-     Hansjürg Egli, Jäger Egli Architekten, Luzern
+
+
+Die Auftraggeberin zieht bei Bedarf weitere Experten zur Beratung hinzu (ohne Stimmrecht):
+-     Cordula Weber, StadtLandschaft, Zürich (zweiter Jurytag)
+-     Stephan Barth, Dienststelle Immobilien Kanton Luzern, Luzern (zweiter Jurytag)
+-     Markus Hüsler, Büro für Bauökonomie, Luzern (Prüfung engere Wahl)
+-     Markus Portmann, e4plus AG, Kriens (Vorprüfung und Prüfung engere Wahl)
+-     Reto Höin, sinus AG, Sempach Station (Prüfung engere Wahl)
+-     Marcus Casutt, Denkmalpflege Kanton Luzern, Luzern (Vorprüfung)
+
+2.5     Teilnahmeberechtigung Präqualifikation
+
+Teilnahmeberechtigt sind Teams aus Architekten und Landschaftsarchitekten mit Erfahrung im öffentlichen
+Bau, vorzugsweise im Schulhausbau. Arbeitsgemeinschaften mehrerer Architekturbüros sind möglich.
+Mehrfachbewerbungen von Architekten und Landschaftsarchitekten sind nicht erlaubt.
+Die Teilnehmenden müssen Wohn- und Geschäftssitz in der Schweiz oder einem Vertragsstaat des
+GATT/WTO-Übereinkommens über das öffentliche Beschaffungswesen haben, soweit dieser Staat
+Gegenrecht gewährt.
+
+2.6     Auswahlkriterien Präqualifikation
+
+Die Auswahl aus den Bewerbungen erfolgt aufgrund der folgenden Eignungskriterien:
+-     Erfahrung: Drei aktuelle Referenzobjekte
+-     Leistungsfähigkeit: Qualifikation der Schlüsselperson, Grösse der Firma
+Die Jury bewertet die Qualität der eingereichten Referenzobjekte nach folgenden Kriterien:
+-     städtebauliche und architektonische Qualität
+-     Qualität der Aussenraumgestaltung
+-     Innovation Konzeptidee
+Im    Sinne   der   Nachwuchsförderung        lädt   das   Preisgericht   drei   bis   vier   Architekturbüros    zum
+Projektwettbewerb ein, die nicht allen Eignungskriterien genügen. Als Referenz sind für diese auch Beiträge
+zu Wettbewerben und nicht realisierte Projekte als Erfahrungsnachweis möglich. Ein Nachwuchsbüro
+unterliegt folgendem Kriterium:
+-     Firmeninhaber mit Jahrgang 1978 oder jünger
+
+2.7     Wettbewerbsteilnehmer
+
+Bis zum 20. Juli 2018 sind bei der Stadt Sursee termingerecht 86 Bewerbungen eingegangen, davon sind
+12 Nachwuchsbüros.
+Die Jury entscheidet am 24.08.2018, dem Stadtrat die Einladung von 15 Planungsteams (davon 3
+Nachwuchsbüros) zum Projektwettbewerb zu empfehlen. Der Stadtrat Sursee stimmt dieser Empfehlung
+am 29.08.2018 zu. Aus Kapazitätsgründen verzichten 3 Planungsteams auf die Teilnahme. Damit rücken
+die zwei Ersatzteams nach.
+Die folgenden 14 Planungsteams haben am Wettbewerb teilgenommen:
+
+
+                                                                                                                 Seite 7
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+-     ARGE Bünzli & Courvoisier Architekten AG / b+p baurealisation ag, Limmatstrasse 285, 8005 Zürich
+      (mit Vogt Landschaftsarchitekten, Zürich)
+-     Barozzi / Veiga GmbH, Oberalpstrasse 29, 7000 Chur,
+      (mit Pascal Heyraud sarl, Neuchâtel)
+-     BUR Architekten AG, Flüelastrasse 10, 8048 Zürich (Ersatz)
+      (mit Haag Landschaftsarchitektur GmbH, Zürich)
+-     Büro KONSTRUKT Architekten ETH SIA BSA, Unterlachenstrasse 5, 6005 Luzern
+      (mit Lorenz Eugster Landschaftsarchitektur, Zürich)
+-     E2A Piet Eckert u. Wim Eckert Architekten, Buckhauserstrasse 34, 8048 Zürich
+      (mit Neuland Architektur Landschaft GmbH, Zürich)
+-     Fiechter & Salzmann Architekten GmbH, Kernstrasse 37, 8004 Zürich
+      (mit Tremp Landschaftsarchitekten GmbH, Zürich)
+-     Graber Pulver Architekten AG, Sihlquai 75, 8005 Zürich
+      (mit w+s Landschaftsarchitekten AG, Solothurn)
+-     Lussi + Partner AG Architekten, Neustadtstrasse 3, 6003 Luzern
+      (mit koepflipartner landschaftsarchitekten, Luzern)
+-     ro.ma.roeoesli & maeder, arch ETH BSA, Bundesstrasse 9, 6003 Luzern
+      (mit Kuhn Landschaftsarchitekten, Zürich)
+-     Schneider Studer Primas Architekten GmbH, Pfingstweidstrasse 90, 8045 Zürich
+      (mit Daniel Schläpfer Landschaftsarchitektur, Zürich)
+-     Waeber / Dickenmann Architekten BSA/SIA, Limmatstrasse 275, 8005 Zürich (Ersatz)
+      (mit Fischer Landschaftsarchitekten bsla, Richterswil)
+
+
+Nachwuchsbüros:
+-     MAK architecture, Hardturmstrasse 169, 8005 Zürich
+      (mit KOLB Landschaftsarchitektur, Zürich)
+-     Penzisbettini. Architekten ETH/SIA GmbH, Alfred Escher-Str. 23, 8002 Zürich
+      (mit Baumschlager Eberle Landschaftsarchitekten, Zürich)
+-     Studio Burkhardt, Eglistrasse 8, 8004 Zürich,
+      (mit Ganz Landschaftsarchitekten, Zürich)
+
+2.8     Anonymität und Varianten
+
+Sämtliche Unterlagen zum Wettbewerb sind mit der Bezeichnung „Wettbewerb Neubau Sekundarschulhaus
+Sursee“ und einem Kennwort zu versehen und anonym einzureichen. Die Unterlagen müssen in deutscher
+Sprache verfasst sein. Varianten sind nicht erlaubt.
+
+2.9     Preise und Ankäufe
+
+Für die Prämierung steht eine Preissumme von CHF 180'000.- (exkl. MWST) zur Verfügung. Davon werden
+CHF 80'000.- (exkl. MWST) für 4 bis 5 Preise bzw. Ankäufe verwendet. Die restliche Preissumme wird als
+fixe Entschädigung gleichmässig unter den zur Beurteilung zugelassenen Projekten aufgeteilt.
+
+
+
+
+                                                                                                   Seite 8
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+2.10    Weiterbearbeitung und Realisierung
+
+Die Auftraggeberin beabsichtigt, das Verfasserteam des vom Preisgericht zur Ausführung empfohlenen
+Projekts mit der Weiterbearbeitung und Realisierung zu beauftragen. Vorbehalten bleibt in jedem Fall die
+Genehmigung durch behördliche und politische Instanzen.
+Die Projektphasen werden einzeln freigegeben. Grundleistungen gemäss SIA Ordnung 102 und 105 /
+Ausgabe 2014. Die Bauherrschaft behält sich eine GU-Vergabe und/oder eine separate Vergabe des
+Baumanagements vor, wobei mindestens 58.5% der Teilleistungen beim Wettbewerbssieger verbleiben.
+
+2.11    Rechtliche Bestimmungen
+
+Mit dem Einreichen der verlangten Unterlagen anerkennen die Teilnehmenden das Verfahren, das
+vorliegende Wettbewerbsprogramm und die damit verbundenen Abläufe, die Fragenbeantwortung, die
+Preisgelder und die Entscheide des Preisgerichts auch in Ermessensfragen. Das Wettbewerbsprogramm
+und die Fragebeantwortungen sind für die Auftraggeberin, für die Teilnehmenden und für das Preisgericht
+verbindlich.
+
+2.12    Urheberrechte und Rücknahme der eingereichten Unterlagen
+
+Das Urheberrecht an den Wettbewerbsbeiträgen verbleibt bei den Teilnehmenden. Die eingereichten
+Unterlagen der mit Preisen und Ankäufen ausgezeichneten Wettbewerbsbeiträge gehen ins Eigentum der
+Aufraggeberin über. Nicht prämierte Projekte können innert 30 Tagen nach Ausstellungsende abgeholt
+werden. Nicht abgeholte Projekte stehen zur freien Verfügung der Stadt Sursee.
+
+
+
+3      Aufgabe (Auszug aus dem Wettbewerbsprogramm)
+
+3.1     Wettbewerbsaufgabe und Ziele
+
+Am Standort Zirkusplatz sind ein neues Sekundarschulhauses für 12 Klassen mit den notwendigen Fach-
+und Nebenräumen und eine Dreifachturnhalle gemäss Raumprogramm zu planen. Das Raumprogramm
+kann in einem Baukörper umgesetzt werden oder auf mehrere Baukörper aufgeteilt werden. Zu einem
+späteren Zeitpunkt soll das Schulhaus um 6 Klassenzimmer erweitert werden können.
+
+
+Das    neue    Sekundarschulhaus      profitiert   von   den    vielfältigen   Synergien   zum    nahe    gelegenen
+Oberstufenzentrum.     Verschiedenen       Schulräume     und     die   Aussensportanlagen       werden   auf    dem
+bestehenden Oberstufencampus genutzt, so dass optimale Wegbezüge wichtig sind.
+Die neuen Pausenplätze und das Allwetterspielfeld werden ausserhalb der Schulzeiten für alle offen sein.
+Der ökologische Ausgleichs- und Naherholungsraum der Sure, der die Stadt Sursee wesentlich prägt, kann
+so eine attraktive Erweiterung erfahren.
+
+
+Heute befinden sich auf dem Areal 115 markierte und bewirtschaftete Parkplätze und bei Bedarf können
+zusätzliche Parkplätze auf dem Kiesplatz genutzt werden. Im Wettbewerbsprogramm wird davon
+ausgegangen, dass ein öffentliches Parkplatzangebot mit 150 Stellplätzen zur Verfügung stehen soll. Neu
+soll es aber von der Ringstrasse her erschlossen werden und zugunsten von neuem Aussenraum
+platzsparend untergebracht werden. Es ist dabei anzustreben, zwei Drittel der Parkplätze in einer
+Einstellhalle oder einem Parkhaus zusammenzufassen.
+
+                                                                                                                Seite 9
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Projektziele
+-     städtebaulich und architektonisch hervorragendes Projekt
+-     öffentlichen Charakter des Ortes stärken
+-     Aussenraum soll für alle zugänglich sein
+-     innovatives, funktional und pädagogisch hochwertiges Projekt
+-     heutige und zukünftige Anforderungen der Schule erfüllen
+-     effizient und kostengünstig
+-     haushälterische Nutzung des Bodens
+-     nachhaltig und ressourcensparend
+
+3.2     Wettbewerbsperimeter
+
+Der Bearbeitungsperimeter umfasst den rot umrandeten Bereich der Parzelle 1402 westlich der
+Stadthalle. Die Zu- und Wegfahrt für den motorisierten Verkehr ist von Norden her direkt ab der Ringstrasse
+Nord vorgesehen. Die bestehenden Fussgänger- und Veloachsen sind gelb markiert. Gelb gestrichelt ist die
+Möglichkeit einer zusätzlichen Brücke über die Sure eingezeichnet. Die pink eingezeichnete Anlieferung der
+Stadthalle (Nordsaal) muss gewährleistet bleiben. Die rechtsgültige Baulinie entlang der Sure weist einen
+Abstand von 10 m von der statischen Waldgrenze auf. Der Abstand der Baulinie entlang der Ringstrasse
+beträgt 6 m. Der ortsprägende Sureraum ist grün markiert.
+
+
+
+
+Perimeter
+
+
+
+                                                                                                    Seite 10
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+3.3    Anforderungen der Schule
+
+Schulmodell und Unterrichtsformen
+An den Stadtschulen Sursee wird seit dem Schuljahr 2015/2016 das Kooperative Oberstufen-Modell
+geführt. Dabei werden Stammklassen mit Niveau A/B und solche mit Niveau C gebildet. Einzelne Fächer
+belegen die Lernenden in Niveau-Gruppe ausserhalb der Stammklassen. Die übrigen Fächer werden in den
+Stammklassen im eigenen Klassenzimmer erteilt.
+An die Stelle des früheren Frontalunterrichts sind zusätzlich neue, individualisierende und kooperative
+Unterrichtsformen (Lernen in Gruppen, Projektunterricht, Planarbeit etc.) getreten. Dafür wird ein
+angepasstes und erweitertes Raumangebot nötig.
+
+
+Vorgesehene Belegung
+Im neuen Sekundarschulhaus werden dereinst bis zu 12 Sek-Klassen unterrichtet, das entspricht einer
+Schülerzahl von bis zu ca. 250 Lernenden, welche von rund 25-28 Lehrpersonen unterrichtet werden.
+Im künftigen Schulhaus werden je vier Klassen der 1., 2. und 3. Sekundarklasse unterrichtet. Jede Stufe
+wird eine soziale und organisatorische Einheit bilden. Diese Einheiten auch räumlich abzubilden wäre von
+Vorteil, ist aber nicht zwingend. Für die Identifikation der Lernenden mit „ihrer“ Gruppe sind überschaubare
+Einheiten wichtig.
+
+
+Schulraumkonzept
+Die Raumanordnung und Raumgestaltung sollen gute schulinterne Abläufe und zeitgemässe pädagogische
+Unterrichtsformen    ermöglichen.     Dafür   wird   zusätzlicher   Raum   in   Form   von   Lernnischen   im
+Erschliessungsbereich und Nischen in den Klassenzimmern notwendig, wo sich die Lernenden (mit
+Förderlehrpersonen) während des Unterrichts zurückziehen und individuell lernen können.
+Auf zwei Klassenzimmer gibt es ein Halbklassenzimmer (Gruppenraum). Diese Halbklassenzimmer sollen
+so angeordnet werden, dass sie von zwei Klassenzimmern her zugänglich sind und auch über einen
+direkten Zugang vom Erschliessungsbereich her verfügen. Dadurch sind sie vielseitig einsetzbar.
+Es kommt zu relativ vielen Zimmerwechseln der Schüler und Schülerinnen. Sie haben zwar ein
+Stammklassenzimmer, verlassen dieses jedoch oft für den Fachunterricht.
+
+
+Eine hohe Flexibilität im Ausbau der Flächen und Räumlichkeiten ist anzustreben, damit pädagogische
+Entwicklungen sowie Nutzungsänderungen aufgefangen werden können. Die Funktion der Räume ist -
+zwecks hoher Nutzungsflexibilität - soweit als möglich nur durch die Ausstattung und das Mobiliar zu
+definieren.
+Mit zukünftigen Veränderungen der Schulformen können sich im Laufe der Jahrzehnte auch die Ansprüche
+an die Raumaufteilung wandeln. Damit Umbauten/Umnutzungen später besser möglich sind, sollten wenig
+tragende Wände zwischen den Zimmern stehen, so dass Flexibilität in der Raumaufteilung und Gestaltung
+besteht. Mobile, verschiebbare Wände werden hingegen wenig genutzt und haben sich in der Praxis nicht
+bewährt.
+
+
+
+
+                                                                                                      Seite 11
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+3.4    Schulhaus und Turnhalle als öffentliche Gebäude
+
+Das neue Schulhaus und die Turnhalle sind öffentliche Bauten, sie werden für alle offen sein (Sport- und
+Kulturvereine, QV, Surwa, Erwachsenenbildung usw.). Dies manifestiert sich auch in ihrem architekto-
+nischen Ausdruck.
+
+
+Im neuen Schulgebäude ist ein grosser Raum (Mehrzweckraum) vorhanden, wo sich die ganze Schule für
+Aufführungen, Vollversammlungen, kulturelle Anlässe, Präsentationen, Elternveranstaltungen usw. treffen
+kann. Er wird auch für nicht schulische Zwecke, für öffentliche Anlässe, nutzbar sein. Dieser Raum kann
+eine grosszügige Eingangshalle/Aula oder ein abgetrennter Saal/Mehrzweckraum sein. Es braucht aber
+eine klare Trennung zwischen den öffentlich nutzbaren Einrichtungen/Räumen und solchen, die
+ausschliesslich für die Schule bestimmt sind.
+
+
+Die Dreifachhalle wird einerseits während des Schulbetriebes auch von anderen Schulen (kantonale
+Schulen, Primarschulen) belegt. Am Abend und am Wochenende steht sie andererseits für Vereine und
+weitere Nutzer offen. Es ist darauf zu achten, dass der Zugang zu den Turnhallen direkt von aussen
+erfolgen kann, so dass die Nutzenden nicht erst durch das Schulgebäude eintreten müssen. Tribünenplätze
+sind keine vorzusehen, denn für grosse Anlässe steht die Stadthalle zur Verfügung.
+
+3.5    Aussenraum
+
+Pausenplätze und Sportanlagen
+Die Pausenfläche soll in mehrere Teilbereiche gegliedert sein und ist teilweise gedeckt. Die Aussenräume
+sind möglichst vielfältig und erlebnisreich zu gestalten. Verschiedene, stufengerechte, insbesondere auch
+körperliche Pausenaktivitäten sollen möglich sein. Der Pausenraum weist eine gewisse Unterteilung in
+verschiedene Flächen auf, soll aber trotzdem überblickbar bleiben.
+Der Pausenplatz ist gegen die Stadthalle und das Restaurant Bahnhöfli klar abzugrenzen.
+Die Umgebungsgestaltung soll auch dem Aspekt des Unterrichtens im Freien Aufmerksamkeit schenken
+(z.B. Naturlehre im Raum Sure).
+
+
+Neben der Stadthalle besteht ein attraktiver Allwetterplatz mit kleiner Tribüne. Er wird von verschiedenen
+Bevölkerungsgruppen rege genutzt und liegt recht ideal, denn hier wird niemand von allfälligen
+Lärmemissionen gestört. Dieses Spielfeld kann verlegt werden, ist in seiner Grösse jedoch zu erhalten.
+Zusätzliche Aussensportanlagen sind nicht nötig. Es stehen die bestehenden Anlagen auf dem
+Oberstufenareal und in der Sportanlage Schlottermilch zur Verfügung.
+Die neuen Pausenflächen und der Allwetterplatz werden ausserhalb der Schulzeiten für alle zugänglich
+sein. Massnahmen zur Unterstützung eines hohen Sicherheitsgefühls und gegen Littering sind wichtig.
+
+
+Sureraum
+Alte und neue Sure fliessen bis kurz vor das 2001 erstellte Kleinkraftwerk in getrennten Wasserläufen.
+Dazwischen liegt eine langgezogene, üppig bestockte Insel. Oberhalb des Wehrs soll der auenähnliche
+Charakter der Sure und der Surenufer durch gezielte Pflege gefördert und erhalten werden. Unterhalb des
+Wehrs fliesst die Sure tief im befestigten Bachbett, die Böschung ist steil und locker bestockt. Dieser
+
+
+
+
+                                                                                                    Seite 12
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Abschnitt soll im Rahmen des Hochwasserschutzes und der Revitalisierung der Sure durch
+strömungslenkende Elemente lebendiger gestaltet und dadurch ökologisch aufgewertet werden.
+Die Uferbestockung der Sure ist zwischen St. Urbanstrasse und Ringstrasse als Wald deklariert und es
+besteht eine statische Waldgrenze. Eine massvolle Öffnung zum Bearbeitungsperimeter ist jedoch möglich,
+gleichzeitig soll der Sureraum mit dem Areal des neuen Schulhauses eine attraktive Erweiterung erfahren.
+Der Wald im Siedlungsgebiet hat Erholungswert. Wenn dieser verbessert wird, ist eine gewisse Rodung
+denkbar, besonders wenn der Wald mit einer entsprechenden Bepflanzung ins Siedlungsgebiet
+ausgeweitet wird.
+
+
+Wichtige Fussgänger- und Veloachsen
+Der Fuss- und Veloweg am rechten Ufer der Sure hat übergeordnete Bedeutung für die Stadt Sursee und
+die Region. Im Perimeterplan ist eine zusätzliche Wegführung mit einer neuen Brücke über die Sure
+skizziert. Die Unterführung unter der Ringstrasse muss jedoch für den Langsamverkehr erhalten bleiben.
+Für den Besuch von Fachunterricht bzw. für die Unterrichtserteilung an verschiedenen Sek-Schulhäusern
+ist eine gute Verbindung und Zirkulationsmöglichkeit zwischen den drei bestehenden Schulen und dem
+neuen, vierten Standort wichtig. Die Schülerinnen und Schüler, aber auch Lehrpersonen sollten zügig und
+unkompliziert die Schulhäuser wechseln können. Die Anbindung an die Sportanlage Schlottermilch ist
+ebenfalls sorgfältig zu studieren.
+
+3.6    Erweiterungen
+
+Die Wettbewerbsprojekte sollen die Möglichkeit einer späteren Erweiterung des Schulhauses beinhalten.
+Die Wettbewerbsteilnehmer zeigen schematisch auf, wie die Schulanlage in 10 bis 15 Jahren mit 6
+Klassenzimmern, 3 Halbklassenzimmern sowie der entsprechenden Infrastruktur ergänzt werden könnte.
+Dies kann als Aufstockung, Anbau oder ev. mit einem separaten Baukörper geschehen.
+Der sparsame Umgang mit dem Boden, als wichtiges Projektziel, lässt zudem Spielraum für Entwicklungen
+in der ferneren Zukunft.
+
+3.7    Wirtschaftlichkeit und Energie
+
+Sparsamkeit ist ein wesentlicher Eckpfeiler von Wirtschaftlichkeit und Ökologie: Sparsamer Umgang mit
+dem Boden, kompakte Bauvolumen und Flächeneffizienz stehen ganz am Anfang des Planungsprozesses.
+Es folgen tiefe Erstellungs-, Betriebs- und langfristige Unterhaltskosten, welche sich sehr nachhaltig
+auswirken. Bei der Wahl von einfachen konstruktiven Details und widerstandsfähigen Materialien ist der
+ganze Lebenszyklus der Gebäude, von der Erstellung bis zum Rückbau, zu berücksichtigen.
+
+
+Schulhäuser haben meist eine lange Nutzungsdauer. Anpassbarkeit und Flexibilität sind daher
+entscheidend. Die Tragstruktur soll einfach sein, der Ausbau ist konsequent von dieser getrennt, ebenso
+wie alle Installationen. Damit wird die unterschiedliche Lebensdauer dieser Komponenten berücksichtigt
+und   das    Gebäude       kann   einfacher   an   sich   ändernde   Bedürfnisse   angepasst   werden.   Das
+Installationssystem soll, unter anderem durch eine optimale Anordnung der Steigzonen, bereits zu Beginn
+der Nutzung eine flexible Innenraumgestaltung unterstützen.
+
+
+
+
+                                                                                                     Seite 13
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Es ist im Sinne der Nachhaltigkeit ein möglichst geringer Energieverbrauch anzustreben. Die
+Anforderungen an die Gebäudehülle sollen die gesetzlichen Anforderungen übertreffen und ein erhöhter
+Gebäudestandard bezüglich Energie soll erreicht werden. Ob die Zertifizierung nach einem Energielabel
+angestrebt wird, entscheidet sich erst im weiteren Planungsprozess. Der Behaglichkeit der Nutzer,
+besonders dem sommerlichen Wärmeschutz und der Raumluftqualität, ist grosse Beachtung zu schenken.
+
+
+Die neue Schulanlage wird an das Wärmeverbundsystem „St. Georg“ angeschlossen und somit mit der
+Wärme der Holzschnitzel-Heizzentrale versorgt.
+
+3.8    Denkmalschutz
+
+Das Restaurant Bahnhöfli, der ehemalige Bahnhof der Sursee-Triengen-Bahn auf der Parzelle 1700, ist im
+Inventar der schützenswerten Kulturobjekte eingetragen. Der ehemalige Güterschuppen (ev. auch
+Lokomotivenremise) im Wettbewerbsperimeter ist nicht geschützt und darf somit abgebrochen werden.
+Zusammen mit dem alten Bahnhofgebäude bildet er jedoch eine ortsprägende Einheit und könnte, sofern
+dafür eine sinnvolle Nutzung gefunden würde, durchaus erhalten werden.
+Der mutmasslich im 13. Jahrhundert künstlich angelegte Seitenkanal der Sure ist bis zum Kleinkraftwerk
+ebenfalls als schützenswert taxiert. Er ist als Stadtbach ein siedlungshistorisch für die gewerbliche
+Entwicklung bedeutender Bestandteil der Stadt Sursee.
+
+3.9    Grundstückdaten
+
+
+ Thema                                                  Parzelle 1402
+                                                                 2
+ Grundstücksfläche total                                25'201 m
+                                                                 2
+ Grundstücksfläche Anteil Perimeter                     14'947 m
+ Zone                                                   OeZ
+                                                        Zone für öffentliche Zwecke
+ Lärmempfindlichkeitsstufe                              III
+ Überbauungsziffer ÜZ                                   Wird vom Stadtrat im
+                                                        Rahmen des Baubewilligungs-
+                                                        Verfahrens festgelegt
+ Gesamthöhe                                             Wird vom Stadtrat im
+                                                        Rahmen des Baubewilligungs-
+                                                        Verfahrens festgelegt
+ Gebäudelänge                                           Wird vom Stadtrat im
+                                                        Rahmen des Baubewilligungs-
+                                                        Verfahrens festgelegt
+
+
+
+
+                                                                                               Seite 14
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+4     Beurteilungskriterien
+
+
+Bei der Beurteilung der Wettbewerbsprojekte gelten folgende Kriterien, wobei die Reihenfolge nicht der
+Gewichtung entspricht.
+-     Städtebau und Aussenraum inkl. Einbezug des Kontextes
+-     Architektonisches und gestalterisches Gesamtkonzept
+-     Nutzung / Betrieb
+-     Flexibilität / Innovation / Erweiterung
+-     Erschliessung / Parkierung
+-     Nachhaltigkeit (Wirtschaftlichkeit, Flächeneffizienz, Energieeffizienz)
+
+
+Das Preisgericht kann mit den Projekten der engeren Wahl, falls es sich als notwendig erweisen würde, den
+Wettbewerb mit einer anonymen Bereinigungsstufe verlängern. Diese Bereinigungsstufe wird separat
+vergütet.
+
+
+
+5     Vorprüfung
+
+
+Die eingereichten Wettbewerbsbeiträge werden vor der Beurteilung vom Büro Jäger Egli einer Vorprüfung
+unterzogen, eine Stellungnahme des Experten für Denkmalpflege und des Experten für Energie/
+Nachhaltigkeit eingeholt und die Ergebnisse in einem Vorprüfungsbericht zusammengefasst.
+Formelle Kriterien:
+-     fristgerechtes Einreichen der Unterlagen
+-     Vollständigkeit der Unterlagen
+-     Lesbarkeit und Sprache
+-     Anonymität
+Inhaltliche Kriterien:
+-     erfüllen der Wettbewerbsaufgabe
+-     erfüllen des Raumprogramms
+-     erfüllen der Rahmenbedingungen (Energie/Nachhaltigkeit, Baurecht usw.)
+
+
+
+6     Jurierung
+
+6.1     Vorprüfungsergebnis und Zulassung zur Jurierung
+
+Am 15. März 2019 tritt das Preisgericht im Nordsaal der Stadthalle Sursee zusammen. Daniel Schneider,
+Landschaftsarchitekt kann an der Jurierung nicht teilnehmen und lässt sich entschuldigen. Alle übrigen
+Mitglieder des Preisgerichts sind anwesend.
+Als erstes nimmt das Preisgericht die Ergebnisse der Vorprüfung zur Kenntnis. Die Jury erhält so einen
+neutralen und wertungsfreien Überblick über die Wettbewerbsbeiträge.
+
+
+Alle 14 eingeladenen Teams haben ihre Projekte eingereicht. Die Wettbewerbsbeiträge wurden in der
+Reihenfolge ihrer Öffnung nummeriert:
+
+
+                                                                                                  Seite 15
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+01    BIBER
+02    APOLLOLAAN
+03    Zirkusplatz
+04    KONTIKI
+05    CIRCUS
+06    GEORGIUS
+07    MANEGE FREI
+08    22231
+09    GIORNI BUONI
+10    HINZUGESELLEN
+11    LERNKURVE
+12    PAC-MAN
+13    tsírko
+14    CAMPUS SURE
+
+
+Formelle Vorprüfung: Alle 14 Projekte wurden fristgerecht und vollständig eingereicht. Die Anonymität ist
+überall gegeben. Lesbarkeit und Sprache (Deutsch) sind erfüllt. Die Jury beschliesst daher, alle Projekte
+zur Beurteilung zuzulassen.
+
+
+Inhaltliche Vorprüfung: Die Vorprüfung hat einige Abweichungen von den Vorgaben aufgezeigt. Es
+handelt sich jedoch nicht um erhebliche Verstösse. Die Verfasser haben sich durch einzelne, geringe
+Abweichungen keine Vorteile verschafft. Die Jury beschliesst daher alle Projekte zur Preiserteilung
+zuzulassen.
+
+6.2     Beurteilung erster Jurytag
+
+In fünf Gruppen lesen sich die Jurymitglieder in die zugeteilten Projekte ein. Die Fachpreisrichter stellen die
+jeweiligen Wettbewerbsbeiträge dem Plenum detailliert vor, noch ohne eine Wertung vorzunehmen. Nach
+dieser intensiven Präsentationsrunde haben die Jurymitglieder zu allen Projekten einen vergleichbaren
+Wissensstand.
+Die zugeteilten Projekte werden anschliessend in den Gruppen aufgrund der im Wettbewerbsprogramm
+aufgeführten Bewertungskriterien beurteilt. Daraus wird ein erster Vorschlag für die Gesamtbeurteilung
+abgeleitet.
+
+
+Im ersten Bewertungsrundgang werden die Projekte nun im Plenum anhand der Bewertungskriterien
+beurteilt. Das Preisgericht entscheidet sich nach sorgfältigem Abwägen von Vorzügen und Kritikpunkten
+einstimmig, die folgenden Projekte auszuscheiden und nicht mehr weiter zu verfolgen. Sie vermögen
+insbesondere städtebaulich nicht zu überzeugen und/oder weisen betriebliche Mängel auf:
+01    BIBER
+04    KONTIKI
+10    HINZUGESELLEN
+12    PAC-MAN
+14    CAMPUS SURE
+
+
+                                                                                                       Seite 16
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Nun befasst sich die Jury wiederum im Plenum, unter Anwendung der Beurteilungskriterien, vertiefter mit
+den verbleibenden Projekten. Dabei werden im zweiten Rundgang die folgenden Projekte ausgeschieden:
+02    APOLLOLAAN
+03    Zirkusplatz
+05    CIRCUS
+06    GEORGIUS
+08    22231
+
+
+Im anschliessenden Kontrollrundgang bestätigt die Jury einstimmig ihre Beschlüsse der beiden
+vorhergegangenen Bewertungsrundgänge. Damit entscheidet das Preisgericht definitiv, die folgenden vier
+Projekte in die engere Wahl zu nehmen:
+07    MANEGE FREI
+09    GIORNI BUONI
+11    LERNKURVE
+13    tsírko
+
+
+Zum Abschluss des ersten Jurytages beschliesst das Preisgericht, infolge krankheitsbedingtem Ausfall des
+Landschaftsarchitekten, zur Beurteilung „Aussenraum“ das Büro StadtLandschaft GmbH, Zürich, zum
+Wettbewerb beizuziehen. Frau Cordula Weber, StadtLandschaft, wird als Expertin ohne Stimmrecht
+hinzugezogen. Ausserdem wird Herr Stephan Barth, Dienststelle Immobilien Kanton Luzern, als Experte
+ohne Stimmrecht am zweiten Jurytag teilnehmen, da geprüft wird, ob der Kanton einen Investitionsbeitrag
+an die Sporthalle leisten wird.
+
+6.3     Prüfung engere Wahl
+
+Bis zum zweiten Jurytag verfassen die Fachpreisrichter zu jedem Projekt einen Beschrieb. Zudem findet für
+die vier Projekte der engeren Wahl eine detaillierte Prüfung statt:
+-     Nachrechnen von Flächen und Volumen und vergleichbare Grobkostenschätzung durch das Büro für
+      Bauökonomie, Luzern
+-     Beurteilung Energie/Nachhaltigkeit durch das Büro e4plus, Kriens
+-     Überprüfung auf Einhaltung der Lärmschutzvorschriften bzw. Formulierung der nötigen Massnahmen
+      durch das Büro sinus, Sempach Station
+
+6.4     Beurteilung zweiter Jurytag
+
+Am 9. April 2019 tagt das Preisgericht erneut im Nordsaal der Stadthalle Sursee. Alle Mitglieder des
+Preisgerichts, mit Ausnahme von Herrn Daniel Schneider, sind anwesend. Das Protokoll wird durch
+Sebastian Kutschki (Jäger Egli Architekten) geführt, in Vertretung für Claudia Gassmann, welche
+entschuldigt ist.
+Als erstes nimmt die Jury die Prüfungsberichte der engeren Wahl zur Kenntnis. Markus Hüsler, Büro für
+Bauökonomie Luzern stellt eine vergleichende Grobschätzung der Baukosten vor. Moritz Kulawik, e4plus
+AG Kriens präsentiert einen Vergleich der Projekte hinsichtlich Energieeffizienz bei der Erstellung und im
+Betrieb. Sebastian Kutschki, Jäger Egli Architekten stellt die Vorprüfung Lärmschutz, verfasst durch die
+sinus ag Sempach Station, Reto Höin vor. Alle drei Berichte werden den Jurymitgliedern ausgehändigt.
+
+
+                                                                                                   Seite 17
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Die im Rahmen des ersten Jurytages ausgeschiedenen Wettbewerbsbeiträge werden nacheinander
+besichtigt. Die Fachpreisrichter lesen die Projektbeschriebe vor. Landschaftsarchitektin Cordula Weber
+ergänzt ihre Beurteilung der Aussenraumqualitäten. Die Beiträge werden nochmals eingehend diskutiert
+und     die Bewertungen vom ersten Jurytag überprüft. Die Entscheide des ersten Jurytages und damit das
+Ausscheiden der Projekte im ersten bzw. zweiten Bewertungsrundgang werden einstimmig bestätigt.
+
+
+Im Anschluss wenden sich die Jurymitglieder den Projekten der engeren Wahl zu. Die Fachpreisrichter
+lesen ihre Projektbeschriebe vor. Alle Jurymitglieder erläutern gemeinsam die vier Projekte. Das
+Preisgericht beurteilt die Projekte in der engeren Wahl anhand der im Wettbewerbsprogramm aufgeführten
+Bewertungskriterien. Die eingehende und breite Diskussion im Plenum weist die Vorzüge und
+Problempunkte der vier Projekte aus. Es zeigt sich relativ schnell, dass das Projekt 13 tsírko am wenigsten
+überzeugt. Dieses wird ausgeschieden.
+Nun vergleicht die Jury die Projekte 07 MANEGE FREI und 11 LERNKURVE, beide mit der Konzeptidee
+der Lernlandschaft, miteinander, und anschliessend das verbleibende Projekt mit der geschossweisen
+Organisation des Projekts 09 GIORNI BUONI. Konzeptionelle Vorzüge führen schliesslich dazu, dass sich
+die Jury einstimmig für das Projekt 07 MANEGE FREI entscheidet
+
+6.5     Entscheid des Preisgerichts
+
+Die Jury beschliesst die Rangfolge und die damit verbundenen Preisverteilung wie folgt:
+
+
+    1. Rang                         07 MANEGE FREI               Fr. 26‘000.-
+    2. Rang                         09 GUORNI BUONI              Fr. 24‘000.-
+    3. Rang                         11 LERNKURVE                 Fr. 20‘000.-
+    4. Rang                         13 tsírko                    Fr. 10‘000.-
+
+
+Gemäss Wettbewerbsprogramm steht allen teilnehmenden Büros die fixe Entschädigung von Fr. 7'143.-
+(exkl. MWST) zu.
+
+6.6     Schlussfolgerungen und Empfehlungen
+
+Die Jury stellt fest, dass die eingereichten Arbeiten eine hohe Qualität aufweisen und die Palette der
+Lösungsansätze breit ist. Diese Vielfalt der Projekte ermöglichte der Jury eine intensive Auseinander-
+setzung mit der gestellten Aufgabe und sie konnte eine gute Wahl treffen.
+Die Jury empfiehlt dem Stadtrat von Sursee einstimmig, die Verfasser des erstrangierten Projektes mit der
+Weiterbearbeitung zu beauftragen. Dabei sind die folgenden Aspekte zu beachten:
+-     Mehrzweckraum in den Schulhausneubau integrieren, anstelle des Einbaus im Güterschuppen
+-     Wendeltreppe: Grösse prüfen und ev. vergrössern
+-     Turnhalle: unabhängige Nutzung vom Schulbetrieb verbessern
+-     Einsehbarkeit in die Dreifachhalle reduzieren (Sonnenschutz/Sockel)
+-     Fluchtwegkonzept Balkone und Turnhalle nachweisen
+-     Energieeffizienz verbessern
+-     Aussenparkplätze: Anordnung und Anzahl überprüfen
+-     Veloparkplätze: Alternativen, weniger prominenten Standort prüfen
+
+
+                                                                                                    Seite 18
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+7    Genehmigung
+
+
+Die Entscheide des Preisgerichts werden per Unterschrift bestätigt.
+Sursee, 09. April 2019
+
+
+
+
+Sachpreisrichter:
+
+
+
+Heidi Schilliger, Bildungsvorsteherin Stadt Sursee
+
+
+
+Bruno Bucher, Bauvorsteher Stadt Sursee
+
+
+
+Stephan Huber, Bildungsvorsteher Oberkirch
+
+
+
+Raphael Wyss, Bildungsvorsteher Schenkon
+
+
+
+
+Fachpreisrichter:
+
+
+
+Daniel Krieg, Burkard Meyer Architekten, Baden (Jurypräsident)
+
+
+
+Christoph Steiger, Graber Steiger Architekten, Luzern
+
+
+
+Sibylle Bucher, B.E.R.G. Architekten, Zürich
+
+
+
+Andreas Nötzli, Hertig Nötzli Architekten, Aarau
+
+
+
+Rosmarie Müller - Hotz, NRS-Team, Baar
+
+
+
+
+                                                                      Seite 19
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+8    Verfasserteams
+Nach Abschluss der Jurierung und Genehmigung des Ergebnisses wurden die verschlossenen und
+anonymisierten Verfassercouverts geöffnet. Mit folgendem Ergebnis:
+
+
+
+
+Projekt Nr. 07            MANEGE FREI                                             1. Rang / 1. Preis
+
+Architekturbüro           BUR Architekten AG
+Adresse, Ort              Flüelastrasse 10, 8048 Zürich
+Kontaktperson             Carlos Rabinovich
+Mitarbeit                 Anne Uhlmann, Urs Birchmeier, Carlos Rabinovich, Mishell Parodi
+
+Landschaftsarchitekt      Haag Landschaftsarchitekten GmbH
+Adresse, Ort              Räffelstrasse 11, 8045 Zürich
+Kontaktperson             Fabian Haag
+Mitarbeit                 Fabian Haag, Till Carrard, Nico Blaser
+
+
+
+
+Projekt Nr. 09            GIORNI BUONI                                            2. Rang / 2. Preis
+
+Architekturbüro           Studio Burkhardt
+Adresse, Ort              Eglistrasse 8, 8004 Zürich
+Kontaktperson             Manuel Burkhardt
+Mitarbeit                 Achille Patà, Reto Gasser
+
+Landschaftsarchitekt      Ganz Landschaftsarchitekten
+Adresse, Ort              Grubenstrasse 45, 8045 Zürich
+Kontaktperson             Daniel Ganz
+Mitarbeit                 Kathrin Krell
+
+
+
+
+Projekt Nr. 11            LERNKURVE                                               3. Rang / 3. Preis
+
+Architekturbüro           MAK architecture AG
+Adresse, Ort              Hardturmstrasse 169, 8005 Zürich
+Kontaktperson             Marcia oder Mirko Akermann
+Mitarbeit                 Marcia Akermann, Mirko Akermann, Aurèle Pulfer
+
+Landschaftsarchitekt      KOLB Landschaftsarchitektur GmbH
+Adresse, Ort              Hardturmstrasse 175, 8005 Zürich
+Kontaktperson             Thomas Kolb
+Mitarbeit                 Thomas Kolb, Patrick Schönenberger
+
+
+
+
+                                                                                                  Seite 20
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Projekt Nr. 13            tsírko                                                   4. Rang / 4. Preis
+
+Architekturbüro           ro.ma. roeoesli & maeder gmbh
+Adresse, Ort              Bundesstrasse 9, 6003 Luzern
+Kontaktperson             Christian Maeder
+Mitarbeit                 Philipp Röösli, Christian Maeder, Matthias Thaler, Lorna Fuchs, Jörg Schumacher
+
+Landschaftsarchitekt      Kuhn Landschaftsarchitekten GmbH
+Adresse, Ort              Ankerstrasse 3, 8004 Zürich
+Kontaktperson             Stefan Kuhn
+Mitarbeit                 Stefan Kuhn
+
+
+
+Die weiteren Verfasser sind:
+
+
+
+Projekt Nr. 01            BIBER
+
+Architekturbüro           Schneider Studer Primas GmbH
+Adresse, Ort              Pfingstweidstrasse 6, 8005 Zürich
+Kontaktperson             Urs Primas
+Mitarbeit                 Franziska Schneider, Jens Studer, Urs Primas, Andreas Fluck, Samuel Aebersold,
+                          Roy Gehrig, Chenfan Zhu, Shahrooz Momeni
+
+Landschaftsarchitekt      Daniel Schläpfer Landschaftsarchitekt
+Adresse, Ort              Flüelastrasse 6, 8048 Zürich
+Kontaktperson             Daniel Schläpfer
+Mitarbeit                 Daniel Schläpfer
+
+
+
+
+Projekt Nr. 02            APOLLOLAAN
+
+Architekturbüro           Waeber / Dickenmann Architekten
+Adresse, Ort              Limmatstrasse 275, 8005 Zürich
+Kontaktperson             Daniel Dickenmann
+Mitarbeit                 D. Dickenmann, B. Waeber, S. Kieser, G.M. Deplazes, S. Meier, S. Noser
+
+Landschaftsarchitekt      Fischer Landschaftsarchitekten GmbH
+Adresse, Ort              Alte Wolleraustrasse 4, 8805 Richterswil
+Kontaktperson             Silvan Fischer
+Mitarbeit                 S. Fischer, A. Wischmann, M. Notz, M. Meyer-Pittier
+
+
+
+
+                                                                                                   Seite 21
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Projekt Nr. 03            Zirkusplatz
+
+Architekturbüro           E2A / Piet Eckert und Wim Eckert Architekten AG
+Adresse, Ort              Buckhauserstrasse 34, 8048 Zürich
+Kontaktperson             Wim Eckert
+Mitarbeit                 Wim Eckert, Piet Eckert, André Passos, Bojana Miskeljin, Ana Maestu,
+                          Matsunami Takato
+
+Landschaftsarchitekt      Neuland ArchitekturLandschaft GmbH
+Adresse, Ort              Buckhauserstrasse 34, 8048 Zürich
+Kontaktperson             Maria Viñé
+Mitarbeit                 Maria Viñé, Karolin Sprissler, Ioulia Goula, Alberto Grumi
+
+
+
+
+Projekt Nr. 04            KONTIKI
+
+Architekturbüro           Graber Pulver Architekten AG
+Adresse, Ort              Sihlquai 75, 8005 Zürich
+Kontaktperson             Thomas Pulver, Marco Graber
+Mitarbeit                 Thomas Pulver, Marco Graber, Mischa Trnka, Lukas Spirig, Sophie Ackermann,
+                          Leonie Wrede
+
+Landschaftsarchitekt      w+s Landschaftsarchitekten AG
+Adresse, Ort              Untere Steingrubenstrasse 19, 4500 Solothurn
+Kontaktperson             Toni Weber, David Gadola
+Mitarbeit                 Toni Weber, David Gadola, Justyna Geiger, Dominique Würmli, Eric Aloisi
+
+
+
+Projekt Nr. 05            CIRCUS
+
+Architekturbüro           BÜRO KONSTRUKT
+Adresse, Ort              Unterlachenstrasse 5, 6005 Luzern
+Kontaktperson             Simon Businger
+Mitarbeit                 Fabian Kaufmann, Niklaus Hunkeler
+
+Landschaftsarchitekt      Lorenz Eugster Landschaftsarchitektur und Städtebau GmbH
+Adresse, Ort              Hardstrasse 81, 8004 Zürich
+Kontaktperson             Lorenz Eugster
+Mitarbeit                 Miriam Hug, Svenja Oehlerking
+
+
+
+
+                                                                                                    Seite 22
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Projekt Nr. 06            GEORGIUS
+
+Architekturbüro           Lussi + Partner AG
+Adresse, Ort              Neustadtstrasse 3, 6003 Luzern
+Kontaktperson             Thomas Lussi
+Mitarbeit                 Daniele Savi, Dominik von Moos, Martin Rickert, Romano Fischer
+
+Landschaftsarchitekt      Koepflipartner GmbH
+Adresse, Ort              Neustadtstrasse 3, 6003 Luzern
+Kontaktperson             Stefan Koepfli
+Mitarbeit                 Anna Sarroca
+
+
+
+
+Projekt Nr. 08            22231
+
+Architekturbüro           Barozzi / Veiga GmbH
+Adresse, Ort              Oberalpstrasse 29, 7000 Chur
+Kontaktperson             Alberto Veiga
+Mitarbeit                 Yorgos Apostolopoulos, Oscar Jobin, Antoni Poch,
+                          Alessandro Lussignoli, Diletta Trinari, Kim Lou Monnier
+
+Landschaftsarchitekt      Pascal Heyraud sàrl
+Adresse, Ort              Rue de l’Evole 8A, 2000 Neuchâtel
+Kontaktperson             Pascal Heyraud
+Mitarbeit                 Pascal Heyraud
+
+
+
+Projekt Nr. 10            HINZUGESELLEN
+
+Architekturbüro           ARGE Bünzli&Courvoisier Architekten AG / b+p baurealisation ag
+Adresse, Ort              Limmatstrasse 285, 8005 Zürich
+Kontaktperson             Samuel Bünzli
+Mitarbeit                 Samuel Bünzli, Jonas Grob, Kai Konopacki, Markus Horn
+
+Landschaftsarchitekt      Vogt Landschaftsarchitekten AG
+Adresse, Ort              Stampfenbachstrasse 57, 8006 Zürich
+Kontaktperson             Lars Ruge
+Mitarbeit                 Günther Vogt, Lars Ruge, Thomas Boyer
+
+
+
+
+                                                                                           Seite 23
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Projekt Nr. 12            PAC-MAN
+
+Architekturbüro           PENZISBETTINI Architekten GmbH
+Adresse, Ort              Alfred-Escher-Strasse 23, 8002 Zürich
+Kontaktperson             Daniel Penzis
+Mitarbeit                 Daniel Penzis, Giulio Bettini, Petra Pfaff, Julia Schütz, Isabel Marin,
+                          Anabell Fritsches
+
+Landschaftsarchitekt      Baumschlager Eberle Landschaftsarchitekten
+Adresse, Ort              Bäckerstrasse 40, 8004 Zürich
+Kontaktperson             Johannes Heine
+Mitarbeit                 Johannes Heine, Elena Heinzmann
+
+
+
+
+Projekt Nr. 14            Campus Sure
+
+Architekturbüro           Fiechter & Salzmann Architekten GmbH
+Adresse, Ort              Kernstrasse 37, 8004 Zürich
+Kontaktperson             René Salzmann
+Mitarbeit                 Kaspar Berbuer, Lisa Schüler, Jessica Pereira
+
+Landschaftsarchitekt      Tremp Landschaftsarchitekten
+Adresse, Ort              Klingenstrasse 42, 8005 Zürich
+Kontaktperson             Andreas Tremp
+Mitarbeit                 Andreas Tremp
+
+
+
+
+                                                                                                    Seite 24
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+9    Beschriebe und Dokumentation der Projekte
+
+
+07 MANEGE FREI                                                                    1. Rang / 1. Preis
+Architekt                 BUR Architekten AG, Zürich
+Landschaftsarchitekt      Haag Landschaftsarchitekten GmbH, Zürich
+
+
+
+
+An der Nahtstelle zwischen der kleinkörnigen Altstadtstruktur, dem Sureraum und den grossmassstäblichen
+Bauten längs der Ringstrasse verstehen die Verfasser ihren Projektvorschlag als Erweiterung der
+Stadthalle, welche über die Sure hinaus auch die bestehende Sekundarschule Teil eines neuen Ensembles
+werden lässt. Die Verknüpfung mit dem Kontext erfolgt geschickt über einen grosszügig angelegten,
+öffentlichen Aussenraum, der die Schulanlage sowie das Bahnhöfli als Bestandteile der neuen
+Parklandschaft definiert und eine gelungene Aufwertung und Ausweitung des Flussraumes als
+Naherholungszone darstellt. Die Lage und die Anzahl der Aussenparkplätze wirken diesem Ziel allerdings
+entgegen.
+
+Das geometrisch und volumetrisch präzise zur Stadthalle bezugnehmende Neubauvolumen umfasst
+schlüssig den dazwischen liegenden Allwetterplatz mit sich in der gemeinsamen Ecke verschränkenden,
+rechteckigen Volumina. Die Erschliessung der unter dem Allwetterhartplatz angeordneten Tiefgarage erfolgt
+über eine im Norden der Gebäudeflucht folgende Rampe.
+
+Das insgesamt dreigeschossige Gebäude gliedert sich in einen zweigeschossigen Sockel und ein
+Obergeschoss. Der markante Sockel wird in zwei Gebäudeteile aufgelöst und trennt längs des
+Allwetterplatzes räumlich den um ein Geschoss versenkten Turnhallenbereich vom Schulbereich. Die
+dadurch erzielte Durchlässigkeit der Schulanlage ergibt funktional wie auch architektonisch eine
+überzeugende Lösung. Das überspannende Obergeschoss bildet einen zweigeschossigen, gedeckten
+Aussenbereich, der selbstverständlich den Zugang zur Schulanlage kennzeichnet.
+
+Der architektonische Ausdruck folgt der konzeptionellen Idee und zeigt sich in der unterschiedlichen
+Gestaltung der Gebäudeteile. Wechselweise angeordnete Glas- und Sichtbetonbänder gliedern die
+
+
+
+                                                                                                  Seite 25
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Sockelfassade in der Vertikalen. Das darüber liegende Obergeschoss präsentiert sich als horizontales,
+verglastes Element, welches zweiseitig mit Balkon und Vordach gefasst wird. Die fünfte Fassade erinnert
+mit der vorgeschlagenen Sheddachkonstruktion an industrielle Vorbilder und ermöglicht eine optimale
+Nutzung der tiefen Räume über der Turnhalle. Die Fluchtbalkone mit den Treppen dürften grösseren
+Einfluss auf die architektonische Erscheinung der Gebäude haben, als es in den Plänen und
+Visualisierungen dargestellt wird.
+
+Die aufgezeigte konstruktive Ausbildung des Schule und Turnhalle umfassenden Baukörpers folgt der
+architektonischen Haltung. Das Tragwerk des Sockels ist in Stahlbeton vorgesehen, der Aufbau des
+ausgedehnten Schulgeschosses als Kombination von Holz- und Stahlbau angedacht.
+
+Der Zugang zur Schule erfolgt über die zweigeschossige Eingangshalle mit einer Galerie, welche die
+Fachzimmer und den Lehrerbereich aufnimmt. Die grosszügig dimensionierte Eingangshalle kann durch
+ihre zentrale und von der Haupterschliessung abkoppelbare Lage vielseitig genutzt werden, sei es als
+täglicher Begegnung- und Aufenthaltsbereich oder auch als Aula der Schule. Die sonst so strenge
+orthogonale Organisation des Gebäudes wird durch eine Wendeltreppe aufgebrochen, was ihre wichtige
+Funktion als Erschliessung zur obergeschossigen Lernlandschaft begründet. Es wäre wünschenswert, dass
+die Fluchtbalkone auch dem normalen Schulbetrieb zusätzlich als Erschliessung zu Verfügung stehen
+würden.
+
+Die Organisation des Unterrichtsgeschosses ist überzeugend. Die Struktur erlaubt eine flexible und dadurch
+nachhaltige Nutzung durch die Schule. Grosszügige Erschiessungsflächen ergänzen die klassischen
+Unterrichtsräume. Je nach Bedarf können die gemeinsam genutzten Gruppenbereiche in die Vorzonen
+ausgedehnt werden. Die vorgesehene Erweiterung der Schule soll als Anbau erfolgen.
+
+Die über einen abgrenzbaren Zugang erschlossene Turnhalle im Untergeschoss profitiert von der
+natürlichen Belichtung und ist betrieblich gut organisiert. Der Nachweis der vertikalen Entfluchtung der Halle
+fehlt.
+
+Das kompakt wirkende Projekt weist eine vergleichsweise grosse Kubatur und Gebäudegrundfläche auf.
+Die zu erwartenden Kosten dürften im Vergleich mit den anderen Projekten über dem Durchschnitt liegen.
+Mit einer Integration des Mehrzweckraumes in die übergrosse Eingangshalle besteht ein Potential, die
+Kosten zu optimieren. Das grosse Gebäudevolumen unter Terrain und die massive Bauweise des Sockels
+lassen einen hohen Grauenergie-Bedarf erwarten. Bezüglich Nachhaltigkeit sind hingegen die klare
+Struktur, die maximale Flexibilität sowie das logische Erweiterungspotential positiv zu werten.
+
+Die überzeugende Qualität des Projektvorschlages liegt in der städtebaulichen Situation, welche die
+unterschiedlichen Massstäblichkeiten des Ortes zu respektieren und mit einem gut durchdachten
+Aussenraumkonzept zu verknüpfen vermag. Die Konzeption als Schule im Park schafft grosszügige
+öffentliche Aussenräume mit sich überlagerndem Nutzungspotenzial. Die vorgeschlagene Projektidee zeigt
+die neue Schule als offene und transparente Bildungswerkstatt.
+
+
+
+
+                                                                                                       Seite 26
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+                                              Seite 27
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+                                              Seite 28
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+                                              Seite 29
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+                                              Seite 30
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+09 GIORNI BUONI                                                                     2. Rang / 2. Preis
+Architekt                 Studio Burkhardt, Zürich
+Landschaftsarchitekt      Ganz Landschaftsarchitekten, Zürich
+
+
+
+
+Den Anforderungen des Perimeters begegnen die Projektverfasser mit einem differenziert ausgearbeiteten
+Situationsvorschlag. Die grossmassstäblichen Bauten längs der Ringstrasse im Norden der Parzelle
+ermutigen die Verfasser, eine erdgeschossige Turnhalle vorzuschlagen, was die Nutzung des Unterge-
+schosses als Tiefgarage ermöglicht. Die Erschliessung derselben soll über eine aussenliegende Rampe
+erfolgen, welche der Entflechtung von Auto- und Fussverkehr dient. Leider lassen die geometrischen
+Anforderungen und die topografischen Begebenheiten die Umsetzung dieser Lösung nicht zu.
+
+Die Dachausbildung der Turnhalle schafft nicht nur eine angemessene Massstäblichkeit in Richtung
+Sportplatz, sondern stellt auch eine Referenz zur Architektur der Stadthalle dar.
+
+Der neue Allwetterplatz mit strassenseitiger Tribüne wird zum verbindenden aussenräumlichen Element der
+Gebäude zur Stadthalle hin. Das viergeschossige Schulhaus bildet den südlichen Abschluss des
+Sportplatzes, nordseitig dessen Geometrie folgend, gegen Süden jedoch weitet sich das Volumen zu einem
+Fünfeck auf und schafft die Adressierung zur St. Urban-Strasse hin. Anstelle des bestehenden
+Güterschuppens wird ein neues Gebäude mit dem Mehrzwecksaal vorgeschlagen, welcher auch durch die
+Öffentlichkeit genutzt werden soll. Die Angemessenheit des Neubauvolumens mit hohem First und tiefer
+Traufe respektiert in seiner Ausgestaltung die Nachbarschaft zum Bahnhöfli.
+
+Nebst dem Sportplatz und dem angebotenen Werkhof sollen auch der Waldpark längs der Sure und der die
+interne Arealerschliessung säumende Platzwald die räumliche Erlebnisdichte der Schüler in den Pausen
+erhöhen. Ebenso bietet der Werkhof attraktive Flächen für die Schulnutzung. Die Aussenräume sind
+mehrheitlich dem Schulbetrieb vorbehalten, eine öffentliche Nutzung ist untergeordnet möglich.
+
+Der differenziert ausgearbeitete architektonische Ausdruck der einzelnen Gebäude, welche als robuste
+Holzbauten und mit Holzelementen verkleideten Fassaden vorgeschlagen werden, thematisiert die
+
+
+
+                                                                                                    Seite 31
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+unterschiedlichen Nutzungen. Das Schulhaus wird durch feingliedrig unterteilte Bandfenster und
+Brüstungsbänder mit horizontalen Holzpanelen charakterisiert. Eine transparente, schürzenartige Verklei-
+dung markiert den zweigeschossigen gedeckten Aufenthaltsraum beim Südeingang.
+
+Die Organisation der Turnhalle ist gut durchdacht. Der Zugang auf Erdgeschossniveau führt zu einer
+vielseitigen Nutzbarkeit der Halle. Die erforderlichen Erschliessungsräume sind natürlich belichtet und
+können auch als gedeckte Zuschauerplätze mit Ausblick auf den Sportplatz genutzt werden.
+
+Die vorgeschlagene Struktur des Schulhauses verspricht eine flexible und dadurch nachhaltige Nutzung.
+Zwei   massiv      ausgebildete   Erschliessungskerne   umfassen    eine   dreiteilige   Raumabfolge    aus
+Unterrichtsräumen und Aufenthaltsbereichen. Die Belichtung der innenliegenden Erschliessungszone wird
+mit Verglasungen aufgewertet. Die Fachzimmer im Erdgeschoss verfügen über einen direkten Zugang zum
+Aussenraum, was ein betriebliches Potenzial aufweist. Gegenteilig wirkt sich jedoch die ausgelagerte Aula
+aus, die als Saalbau eine grosse Ausstrahlung trägt, für den tagtäglichen Schulbetrieb durch ihre
+Abkoppelung jedoch weniger geeignet ist.
+
+Die vorgesehene Erweiterung soll mit einer Aufstockung des Schulhauses erfolgen. Die Beeinträchtigung
+des Schulbetriebes muss jedoch bedacht werden.
+
+Die Unterbringung sämtlicher Parkplätze im Untergeschoss wirkt sich bezüglich Nachhaltigkeit sowie
+Erstellungskosten nachteilig aus. Trotzdem handelt es sich insgesamt um ein Projekt, das sich wirtschaftlich
+umsetzen liesse.
+
+Die Situierung der neuen Gebäude integriert die Stadthalle und das Bahnhöfli zu einem Ensemble, das
+auch die räumliche Verknüpfung über den Perimeter hinaus sichert. Mit der Umsetzung des
+Raumprogramms in drei Baukörpern erfolgt jedoch eine Besetzung des gesamten Areals und es bleibt
+wenig Entwicklungsspielraum. Auch bezüglich des Schulbetriebs vermag das Projekt letztlich nicht zu über-
+zeugen. Nebst dem ausgelagerten Mehrzweckraum trägt die Aufteilung der Unterrichtsräume über vier
+Geschosse nicht das Potential, das eine zukunftsfähige Schule an räumlicher Nähe und unterschiedlicher
+Bespielbarkeit sucht.
+
+
+
+
+                                                                                                     Seite 32
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+                                              Seite 33
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+                                              Seite 34
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+                                              Seite 35
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+                                              Seite 36
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+11 LERNKURVE                                                                      3. Rang / 3. Preis
+Architekt                 MAK architecture AG, Zürich
+Landschaftsarchitekt      KOLB Landschaftsarchitektur GmbH, Zürich
+
+
+
+
+Das Projekt „Lernkurve“ fasst das gesamte Raumprogramm unter einem Dach in einem quadratischen,
+kompakten Baukörper zusammen. Durch seine grossmassstäbliche Dimension vermag der Solitär sich in
+Dialog zur danebenliegenden Stadthalle wie auch zu der naheliegenden Eishalle und den grossen
+Schulanlagen zu setzen. Mit der Fokussierung auf ein einzelnes Gebäude wird ein grosszügiger,
+zusammenhängender Freiraum ermöglicht, der ein vielfältiges Entwicklungspotenzial aufweist.
+
+Der Neubau setzt sich an die nordöstliche Seite der Parzelle und ermöglicht im Westen entlang der Sure
+einen grosszügigen Freiraum, der als ökologisch wertvoller Ausgleichs- und Naherholungsraum den
+öffentlichen Raum aufwertet. Geplante Zugänge zur Sure, grossformatige Sitzpodeste und Liegegelegen-
+heiten für die Schülerschaft und Öffentlichkeit machen den Flussraum erlebbar. Das Langsamverkehrsnetz
+wird gestärkt, eine zusätzliche Brücke verbindet das westlich der Sure gelegene Gebiet, insbesondere auch
+die Schule Neu St. Georg, mit dem Entwicklungsareal. Der Allwetterplatz setzt sich in Bezug zu diesem
+Grünraum, ist jedoch mit 1000 m2 etwas zu klein bemessen. Der öffentliche Grünraum geht fliessend in die
+Platzgestaltung des Baumhains und des Viehmarktplatzes über.
+
+Durch die Verschiebung der Zufahrt von der Ringstrasse gegen Osten können Querungen mit dem
+Langsamverkehr vermieden werden. Die Aus- und Einfahrt von und in die Ringstrasse, insbesondere von
+den oberirdischen Parkfeldern ist wegen dem zu kleinen Einbiegeradius nicht gelöst. Südlich der neuen
+Schule, in Anbindung zur St. Urban-Strasse und zur Altstadt von Sursee, breitet sich ein einladender und
+dem grossmassstäblichen Volumen angemessener Schulplatz aus. An der St. Urban-Strasse wird der
+Güterschuppen samt Viehmarktplatz belassen und als Reservezone für zukünftige Entwicklungen
+bezeichnet.
+
+Der Neubau setzt sich mit einem transparenten, offenen Erdgeschoss elegant an den Hauptplatz und führt
+die Benutzer über einen grossen Windfang in den multifunktionalen Eingangsbereich des Gebäudes. Je
+
+
+                                                                                                  Seite 37
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+nach Nutzung kann dieser Bereich durch flexible Elemente abgetrennt werden. Zur Linken befindet sich der
+Musik- und Mehrzweckraum, zur Rechten der separate Turnhallenzugang. Der hohe Öffentlichkeitsgrad
+des Erdgeschosses verbindet das Gebäude stringent mit der attraktiven Umgebung. Die projektierte
+Raumhöhe von 3 Metern wird jedoch als deutlich zu gering für diese Nutzungen angesehen.
+
+Zwei   Doppelhelixtreppen     erschliessen    über   das   Galeriegeschoss    mit   den    Spezialräumen   das
+Hauptgeschoss der ausgebreiteten Lernlandschaft. Räumlich und organisatorisch überzeugend werden
+Klassenzimmer, Halbklassenzimmer, Arbeits- und Erschliessungsbereiche sowie offene Innenhöfe in einer
+rasterförmigen    Ordnung      sinnstiftend   zusammengebracht.     Die      primären     Schulräume   werden
+konsequenterweise entlang der Fassade angeordnet und können optimal belichtet und belüftet werden. Die
+gegen die Ringstrasse gerichteten Zimmer sind lärmbelastet und müssen dementsprechend über die
+Innenhöfe oder das Dach mit den Shed-Oberlichtern belüftet werden. Negativ wird die gegenseitige Einsicht
+in die Klassenzimmer über die Innenhöfe bewertet.
+
+Die Turnhalle liegt unter dieser Lernlandschaft und wird bis in das 1. Untergeschoss abgetieft. Mit ihrer
+Raumhöhe ragt sie über das Terrain und wird so über die Ost-, Nord- und Westfassade optimal belichtet. Im
+2. Untergeschoss wird die Tiefgarage angeordnet. Dementsprechend wird der Eingriff in das Terrain auf
+eine möglichst kleine Fläche beschränkt, jedoch ist eine grosse Aushubtiefe notwendig.
+
+Die Kompaktheit dieses Projektes sollte sich eigentlich positiv auf die Wirtschaftlichkeit auswirken, doch das
+zweigeschossige Untergeschoss und die aufwändigen Dach- und Fassadenkonstruktionen des System-
+Holzbaus verhindern eine optimale Wirtschaftlichkeit. Diese Punkte wirken sich auch nachteilig auf Energie
+und Nachhaltigkeit aus. Die Verfasser schlagen vor, für die etwaige Erweiterung von sechs
+Klassenzimmern das Gebäude gegen Süden um ein weiteres Modul zu vergrössern. Dadurch wird jedoch
+der vor der Turnhalle vorgelagerte Hauptzugangs- und Aulabereich im Erdgeschoss wie auch das
+Galeriegeschoss in der Gebäudetiefe schlecht belichtet und unattraktiv.
+
+Der architektonische Ausdruck des Gebäudes ist geprägt durch die ausdrucksstarke Form des
+geschwungenen Sheddachs, das auf die darunterliegende Lernlandschaft verweist. Die Verfasser sind
+inspiriert von den unterschiedlichen Dachformen der Altstadt von Sursee und sehen im Sheddach einen
+Bezug zur Silhouette des dahinterliegenden Alpenpanoramas. Vielmehr trägt diese Dachkrone jedoch dazu
+bei, als Alleinstellungsmerkmal den Bau und seine öffentliche Bedeutsamkeit zu betonen. Dieser Ausdruck
+des Gebäudes lässt jedoch eine spezifische Auseinandersetzung mit der heutigen Prägung des Ortes,
+insbesondere mit der Stadthalle vermissen.
+
+Der Wettbewerbsbeitrag „Lernkurve“ stellt ein sorgfältig geplantes Projekt dar, welches auf ortsbaulicher
+und funktionaler Ebene über weite Strecken zu überzeugen vermag. Die Konzentrierung auf ein
+Bauvolumen ermöglicht grosse Freiheiten in der Gestaltung der direkt umliegenden Räume sowie des
+Sureraums im Westen und des grosszügigen Hauptplatzes gegen Süden und bietet dadurch einen hohen
+öffentlichen Mehrwert im Aussenraum. Die Thematik der Schule als Lernlandschaft wird unter dem Dach
+architektonisch spannend umgesetzt und verspricht vielfältige Formen des Unterrichts. Der Entwurf verhält
+sich leider, insbesondere im Umgang mit den Nachbarsbauten, etwas zu selbstreferenziell.
+
+
+
+
+                                                                                                       Seite 38
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+                                              Seite 39
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+                                              Seite 40
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+                                              Seite 41
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+                                              Seite 42
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+13 tsírko                                                                         4. Rang / 4. Preis
+Architekt                 ro.ma roeoesli & maeder gmbh, Luzern
+Landschaftsarchitekt      Kuhn Landschaftsarchitekten GmbH, Zürich
+
+
+
+
+Die in ihrer Volumetrie eher zufällig wirkenden Baukörper mit ihren polygonalen Grundrissen begründen
+sich in der sorgfältigen Abstimmung zwischen dem gebautem Raum und dem Dazwischen. Die präzis
+gesetzten Fassaden der Häuser verstehen sich als Begrenzungen der Aussenräume und definieren
+qualitätsvolle öffentliche Bereich, die untereinander schlüssig verknüpft sind.
+
+Als Auftakt steht der „Bahnhöfli-Platz“ an der St. Urban-Strasse. Dieser wird der Massstäblichkeit der
+Bestandesbauten überlassen und behält die historische Bahnachse als Rad- und Fussweg entlang dem
+nördlichen Stadtrand aufrecht. Die Veloparkierung findet hier ihren idealen Standort. Der Pausenplatz mit
+der Rasenfläche sucht die Ausrichtung hin zur Schulanlage St. Georg und verwebt sich mit dem
+aufgewerteten Naturraum der Sure. Das neue Schulhaus und die Turnhalle richten sich mit den Zugängen
+folgerichtig auf diesen Raum aus. Und letztlich definiert sich durch die rechtwinklig zueinander stehenden
+Fassaden der Neubauten sowie durch die Stadthalle und die Baumallee der Ringstrasse der Allwetterplatz.
+Dieser bildet gleichzeitig das Dach der darunterliegenden Tiefgarage, die als eigenständiges Bauwerk mit
+den Ausgängen ideal der Stadthalle zugewandt organisiert ist.
+
+Die Sporthalle ist mit ihren Nebenräumen schlüssig und ökonomisch organisiert. Der Fluchtwegthematik
+wäre noch die erforderliche Aufmerksamkeit zu schenken. Die Eingangshalle wird zu einer Galerie, die zwar
+nicht Teil des Raumprogramms ist, sich in der gewählten Lösung aber auch reduziert umsetzen liesse.
+
+Die räumlichen und funktionalen Qualitäten des ausgewogenen Aussenraums finden im Innern des
+Schulhauses nur eine beschränkte Fortsetzung. Nach dem gut organisierten Erdgeschoss verliert sich das
+Selbstverständnis hin zu den drei Obergeschossen (vier Geschosse bei einer Erweiterung). Entlang eines
+minimalen Treppenauges erreicht man im Kern die Unterrichtsgeschosse, an denen ringförmig sechs
+Haupträume angeordnet sind. Einen minimalen Tageslichtbezug für den knapp geschnittenen,
+sternförmigen Mittelbereich schaffen zwei abgewinkelte Zugänge zu den offenen Arbeitsnischen sowie die
+
+
+                                                                                                   Seite 43
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+drei verglasten Türen zu den eckangelagerten Halbklassenzimmern. Erschliessungsflächen und
+Zwischenräumen mangelt es an räumlicher Qualität, um über die geforderten Schulräume hinaus ein
+flexibles Lernumfeld zu schaffen.
+
+Eine massive Baukonstruktion mit Platten und tragenden Wänden als Torso sowie ein Gitterwerk aus
+vorgehängten Betonstützen und -simsen bilden das architektonische Konzept. Die Erscheinung des Hauses
+und die Fragen nach Innovation bleiben vage und mit dem hohen Anteil an transparenten
+Aussenwandflächen wird ein wirtschaftliches Projekt geschwächt. Der hohe Fensteranteil und das grosse
+Volumen unter Terrain lassen darauf schliessen, dass das Thema Energie und Nachhaltigkeit nicht im
+Fokus stand.
+
+Leider besteht bei diesem Projektvorschlag mit seiner stadtbaulich sehr sorgfältig austarierten Setzung eine
+Diskrepanz zwischen dem behutsamen Umgang mit den äusseren Zwischenräumen zur Organisation der
+Schulzimmer und ihrem Dazwischen. Für ein zukunftsweisendes Lernumfeld ist das ausgewiesene
+Raumpotenzial zu knapp und zu segmentiert.
+
+
+
+
+                                                                                                     Seite 44
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+                                              Seite 45
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+                                              Seite 46
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+                                              Seite 47
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+                                              Seite 48
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+01 BIBER
+Architekt                 Schneider Studer Primas GmbH, Zürich
+Landschaftsarchitekt      Daniel Schläpfer Landschaftsarchitekt, Zürich
+
+
+
+
+Die Projektverfassenden setzen mit einem kompakten Schulhausneubau einen Schlusspunkt in die nach
+ihrer Lesart abwechslungsreiche Sequenz von Bauten und Freiräumen. Der markante Neubau fasst Schule,
+Turnhalle mit Allwetterplatz und Einstellhallen mit 105 Parkplätzen in einem Gebäude zusammen.
+
+Der Schultrakt orientiert sich zur Sure. Der beidseitig auskragende Klassentrakt formuliert im Norden und
+Süden eine gedeckte Eingangssituation und führt in eine zentrale, eher knapp bemessene Längs- und
+Vertikalerschliessung. Die einzelnen Bereiche können je nach Nutzungsszenario „Schule“, „Abend -
+Vereinsbetrieb“ oder „Fest – Sportevent“ unabhängig erschlossen werden. Im Erdgeschoss des Schul-
+traktes befinden sich Mehrzweck- und Musikraum sowie der Lehrpersonen-Bereich. In den 3 OGs werden
+die Klassen- und Gruppenräume und eine dreigeteilte Atelier- und Erschliessungszone angeordnet. Leider
+ist deren mittlerer Bereich durch die ausschliessliche Belichtung über die Turnhalle und die Verengung
+durch die zwei abschliessbaren Erschliessungskerne wenig attraktiv. Eine Erweiterung ist mit einem 4.OG
+möglich. Im Turnhallentrakt befinden sich im EG die Garderobenräume und eine Einstellhalle für 32
+Fahrzeuge. Gemäss den Vorstellungen des Planungsteams kann diese Halle multifunktional für
+verschiedene Events genutzt werden. Die Turnhalle wird ins 1.OG platziert und auf deren Dach der
+Allwetterplatz vorgeschlagen. Zugänglichkeit und Nutzung der Gesamtanlage scheinen für die verschie-
+denen Benutzergruppen problematisch.
+
+Die ganze Schulanlage steht auf einer grosszügigen, dreiseitig umlaufenden Betonplattform, die den
+Schülern als Aufenthaltsbereich dient. An ihr schliesst im Westen ein naturnah gestalteter Pausenbereich
+an, der mit Kiesbelag, Auenvegetation und Sitzgelegenheiten ausgestattet ist. Im Osten wird ein der
+Stadthalle vorgelagerter einfach gestalteter Kiesplatz unter Bäumen vorgeschlagen. Leider wird er von der
+TG-Abfahrt und Zufahrt zur EG-Einstellhalle beeinträchtigt. Im Süden dient ein Hartplatz auch den
+Anwohnern als Fussball- und Basketballfeld. Diese Anlage wird ergänzt mit einem Magazin im
+
+
+
+
+                                                                                                  Seite 49
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Güterschuppen. Zusammen mit dem „Bahnhöfli“ schafft dieser südliche Bereich einen guten Übergang zum
+neuen Vierherrenquartier.
+
+Damit der Sureraum vergrössert werden kann, wird die MIV-Erschliessung nach Osten verschoben. Sie
+führt über 45 Aussenparkplätze in eine als Tribüne frei gestaltete Garagenerschliessung. Ebenfalls im
+Norden befindet sich die zentrale grosszügige Veloanlage mit 110 gedeckten Plätzen, die gut ins Fuss- und
+Radwegnetz eingebunden wird.
+
+Dem Planungsteam ist es gelungen, ein radikales, einfaches Schulhausprojekt vorzuschlagen. Die
+vorgeschlagene kompakte Anlage, welche trotz Nutzungskonzentration ein sehr grosses Volumen aufweist,
+erachtet die Jury jedoch als zu dominant und bezweifelt, ob die gewählte horizontale und vertikale
+Erschliessung für die vielfältige interne und externe Benutzung im 24-Std.-Betrieb zu funktionieren vermag.
+
+
+
+
+                                                                                                     Seite 50
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+02 APOLLOLAAN
+Architekt                 Waeber Dickenmann Partner Architekten, Zürich
+Landschaftsarchitekt      Fischer Landschaftsarchitekten GmbH, Richterswil
+
+
+
+
+Das Projekt APOLLOLAAN orientiert sich am gleichnamigen Amsterdamer Primarschulhaus des
+Architekten Hermann Hertzberger. So wird das Schulgebäude ins Zentrum gerückt und bildet mit der neuen
+Sporthalle, der Stadthalle, dem umgebautem Güterschuppen und dem Restaurant Bahnhöfli ein neues
+Ensemble. Mit dieser städtebaulichen Ausgangslage möchten die Projektverfasser eine inspirierende
+Lernumgebung schaffen, die verschiedenen Nutzungsansprüchen und Nutzungsintensitäten gerecht wird.
+
+Die ganze Entwurfskraft steckt das Planungsteam in ein stimmungsvolles Schulgebäude. Das Erdgeschoss
+wird als transparenter Sockel mit grosszügigen Aufenthaltsbereichen, zwei flexibel nutzbaren Schulräumen,
+dem Lehrpersonenbereich und einer zentralen Erschliessung gestaltet. In den beiden OGs werden je 8
+Klassenzimmer und 4 Gruppenräume frei angeordnet. Die Schulräume verfügen über differenzierte Arbeits-
+und Lernbereiche mit direktem Bezug zu den Kommunikations- und Begegnungszonen. Es soll eine
+maximale Flexibilität gewährleistet werden. Ein rundum laufender Laubengang dient als Fluchtweg und
+ergibt eine „Verwebung“ von innen nach aussen durch direkt ins Freie führende Treppen. Die Erweiterung
+soll durch Aufstockung realisiert werden. Der Güterschuppen wird um- und angebaut. Es ist vorgesehen,
+hier die Mehrzweckräume zu verorten, die auch problemlos von der Öffentlichkeit mitbenutzt werden
+können.
+
+Die Sporthalle wird im Nordwesten platziert und als einfacher, unabhängig erschlossener, 2-geschossiger
+Bau gestaltet. Turnhalle mit Geräteräumen und Technik befindet sich im UG. Die Tiefgarage mit 128
+Plätzen unter dem Allwetterplatz wird an dieses UG angeschlossen. Im Erdgeschoss befinden sich die
+Garderobenbereiche. Die drei knapp bemessenen Eingänge zu Turnhalle und Tiefgarage sind wenig
+einladend. Leider leistet dieser Bau durch seine eher isolierte Lage und unattraktive Zugänglichkeit keinen
+Beitrag zu einem attraktiven Schulzentrum.
+
+Grossen Wert wird auf eine Aufwertung des Sureraumes als Naherholungsgebiet gelegt. Die Auen-
+
+
+                                                                                                    Seite 51
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+landschaft soll mit standortgerechter Bepflanzung aufgewertet und erweitert werden. Leider befinden sich
+darin auch – etwas verschämt – 22 Aussenparkplätze. Weitergehende Konkretisierungen zum Aussenraum
+liegen nicht vor. Der Allwetterplatz wird leicht nach Norden verschoben, dient aber nach wie vor auch der
+Nutzung durch die Stadthalle, was zu begrüssen ist.
+
+Die MIV-Erschliessung führt ab Ringstrasse zum Aussenparkplatz und entlang der nördlichen
+Sporthallenfassade über eine knapp bemessene Abfahrt in die Tiefgarage. Die Fahrradparkierung ist
+zwischen Stadthalle und neuer Schulanlage vorgesehen, wobei deren Zu- und Wegfahrt nicht geklärt wird.
+
+Es handelt sich um einen sorgfältig hergeleiteten und entwickelten Projektvorschlag. Wohltuend ist die
+Massstäblichkeit mit durchgehender Dreigeschossigkeit und viel Transparenz. Nicht zu überzeugen vermag
+aber die städtebauliche Setzung und Adressierung der Turnhalle, die Erweiterung des Güterschuppens und
+die undefinierte Zuordnung der Aussenräume für die verschiedenen Nutzungsansprüche.
+
+
+
+
+                                                                                                  Seite 52
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+03 Zirkusplatz
+Architekt                 E2A / Piet Eckert und Wim Eckert Architekten AG, Zürich
+Landschaftsarchitekt      Neuland ArchitekturLandschaft GmbH, Zürich
+
+
+
+
+Das Projektteam schlägt vor, mit einem grosszügigen, sich zur Sure hin öffnenden Zirkusplatz ein neues
+Zentrum für Schule, Sport und Stadtquartier zu schaffen. An diese neue Mitte werden zwei unterschiedliche
+Gebäudeensembles platziert. Einerseits entsteht mit der Platzierung der Turnhalle in unmittelbare Nähe zur
+Stadthalle ein Sport- und Kulturzentrum. Andererseits ersetzt das neue Schulhaus den Güterschuppen und
+versucht, mit den beiden Bauten am Vierherrenplatz und dem Bahnhöfli eine neue städtebauliche Einheit
+an der St. Urban-Strasse zu schaffen.
+
+Der 4-geschossige Schulhausneubau wird ausschliesslich über den Zirkusplatz erschlossen. Ein
+gleichwertiger Zugang ab St. Urban-Strasse wird vermisst. Im EG werden Kombi- und Mehrzweckraum, die
+Arbeitsräume für Lehrpersonal und Schulleitung sowie ein grosser Aufenthaltsbereich verortet. Über eine
+grosszügige dreiläufige Treppenanlage werden die 3 OGs erschlossen. In jedem OG befinden sich 4
+Klassenzimmer und 2 Gruppenräume, nach Jahrgängen zugeordnet. Der mittig gelegene zentrale Korridor -
+Kommunikations- und Nischenbereich - ist wenig attraktiv, auch wenn er durch die separierten Zugänge der
+Fachzimmer nicht tangiert ist. Eine allfällige Schulerweiterung kann einerseits über eine Aufstockung
+(5.OG) oder über ein eigenständiges neues Gebäude am Zirkusplatz realisiert werden. Beide
+vorgeschlagenen Varianten überzeugen nicht, da sie das Umfeld stark beeinträchtigen.
+
+Der Turnhallentrakt schliesst unverständlich nahe an die Stadthalle an und verursacht die Verlegung des
+Allwetterplatzes an den Sureraum. Die zentrale Erschliessung erfolgt ab Zirkusplatz über eine knapp
+bemessene Eingangshallenschicht.
+
+Die beiden neuen Gebäude Schule und Turnhalle unterscheiden sich stark in ihren Volumetrien, nicht aber
+in der Architektur. Beide sollen mit sorgfältig ausformulierten Gliederungselementen und Materien gestaltet
+werden. Auch das gleiche Konstruktionsprinzip „Harte Schale – weicher Kern“ ist vorgesehen. Sie sollen
+typologisch ein Gebäudepaar um den Zirkusplatz darstellen, was nicht zu überzeugen vermag.
+
+
+                                                                                                    Seite 53
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Das Projektteam schlägt zwei Aussenraumsysteme vor. Der Uferbereich der Sure wird als grosszügiger
+Erholungs- und Freizeitraum für den Schulbetrieb aufgespannt. Er dient dem Schulbetrieb und bietet
+zugleich einen hohen öffentlichen Mehrwert für die Bevölkerung. Der Zirkusplatz mit seinem runden und
+teilweise gedeckten „Manege“ soll die Geschichte des Ortes aufnehmen und städtisches Flair generieren.
+Die gut funktionierende MIV-Erschliessung führt ab Ringstrasse über die Aussenparkierung zur TG-Abfahrt
+Die Veloerschliessung wird über die St. Urban-Strasse geführt. Schade, dass die Veloabstellplätze so
+unsorgfältig rund um das neue Schulgebäude platziert werden.
+
+Die städtebauliche Setzung der beiden Neubauten nahe an den unterschiedlichsten Bestandesbauten, die
+gleiche architektonische    Ausgestaltung von Schule und Turnhalle sowie die inneren Organisationen der
+Neubauten überzeugen nicht vollständig.
+
+
+
+
+                                                                                                Seite 54
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+04 KONTIKI
+Architekt                 Graber Pulver Architekten AG, Zürich
+Landschaftsarchitekt      w+s Landschaftsarchitekten AG, Solothurn
+
+
+
+
+Das Raumprogramm wird in zwei Baukörper aufgeteilt, wobei das zweigeschossige Volumen des
+Schulhauses dem Lauf der Sure folgt.
+Die wichtige bestehende Verbindung zum Areal St. Georg wird, obwohl sie in der zentralen Eingangshalle
+der Schule aufgenommen wird, durch das Gebäude unterbrochen.
+Der Sportbau nimmt Bezug auf die Stadthalle und wird vom zentralen Platz erschlossen
+
+
+Der feingliedrige Baukörper der Schule überzeugt in seiner Gestaltung und bezieht den Flussraum für die
+Bedürfnisse der Schule gelungen ein. Eine Aufwertung des Sureraumes für die breite Öffentlichkeit erfolgt
+dabei jedoch nicht. Trotz seiner Länge bildet der Neubau zusammen mit Dreifachturnhalle, Stadthalle und
+altem Bahnhof ein stimmungsvolles Ensemble. Der Fussabdruck ist allerdings gross.
+Durch die vorgeschlagene Situierung der Baukörper und die auf die Schulnutzung ausgerichtete
+Freiraumgestaltung wirkt die Anlage gegenüber der Öffentlichkeit abgeschlossen und bietet wenig
+Mehrwert.
+
+
+Für das Obergeschoss der Schule wird die Bildung von drei bis vier Klassenclustern vorgeschlagen. Durch
+die innenliegenden Gruppenräume wird die gewünschte Flexibilität leider stark eingeschränkt.
+Die Erschliessung der einzelnen Turnhallen über den gemeinsamen Vorbereich zum Geräteraum wird
+nachteilig beurteilt.
+Die an und für sich interessante Lage des Sportfeldes auf dem Dach der Dreifachturnhalle steht der
+öffentlichen Nutzung im Wege.
+
+
+Die Verfasser stellen die lineare Erweiterung der Schulanlage detailliert in Grundriss und Fassade dar.
+Die Freiraumgestaltung der ersten Etappe mit einem zusätzlichen Platz zwischen der Schule und den
+Parkplätzen ist nicht definiert und lässt Fragen offen.
+
+
+                                                                                                     Seite 55
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Charakteristisches Element des Vorschlages ist die zweigeschossige Schulanlage. Die Vorteile der
+attraktiven Lage am Fluss werden leider nicht voll ausgenutzt.
+Die Schule kann während laufendem Betrieb problemlos erweitert werden.
+
+
+Die unterirdischen Parkplätze sind pragmatisch und einfach angeordnet. Die Zufahrt zum Parking kreuzt die
+Einfahrt zu den oberirdischen Parkplätzen und den bestehenden Veloweg zur Unterführung.
+
+
+Die im Endausbau als Figur schlüssige Disposition vermag leider den funktionalen Ansprüchen
+aussenräumlicher Beziehungen und schulischer Flexibilität nicht entsprechend Rechnung zu tragen.
+
+
+
+
+                                                                                                   Seite 56
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+05 CIRCUS
+Architekt                 BÜRO KONSTRUKT, Luzern
+Landschaftsarchitekt      Lorenz Eugster, Landschaftsarchitektur und Städtebau GmbH, Zürich
+
+
+
+
+Das neue Schulhaus und die Dreifachturnhalle werden in zwei sich orthogonal auf die Stadthalle
+orientierten Baukörper organisiert. Der Flussraum entlang der Sure wird optimal erweitert, der alte Bahnhof
+wird freigespielt. Allerdings wird der Nutzwert dieser Freiräume durch die oberirdischen Parkplätze im
+nördlichen Bereich eingeschränkt.
+Der Aussensportplatz ist zwischen den drei Gebäudevolumen eingespannt.
+Das Schulgebäude unterschreitet den erforderlichen Grenzabstand zum alten Bahnhof.
+
+
+Das Projekt Circus legt starkes Gewicht auf den zentralen, schulischen und öffentlichen Raum, den
+Circusplatz. Der Zugang zur Stadthalle bleibt sekundär.
+Die beiden vorgeschlagenen Gebäudevolumen nähern sich in der Materialisierung an, verfügen aber
+jeweils über einen eigenen individuellen Ausdruck.
+
+
+Das Schulgebäude nimmt im Erdgeschoss den vorhandenen Geländesprung elegant auf. So ergeben sich
+für Mehrzweckraum und Eingangshalle grosszügige Raumhöhen. Bedauert wird, dass durch die
+unterschiedlichen EG-Koten keine Raumerweiterungen oder Zusammenlegungen von Räumen ermöglicht
+werden.
+In den schulischen Obergeschossen sind die gewünschten Lernzonen im Verkehrsbereich als eigentliche
+Lernnischen ausgewiesen. In wie weit die dargestellten Balkone als Aussenlernbereiche genutzt werden
+können, wird in Frage gestellt.
+Durch die gewählte Konstruktion der Dreifachturnhalle ist die Raumhöhe von 9 Metern nur in den
+Einzelhallen erfüllt. Die Disposition von Garderoben und Geräteraum ist kompakt und zweckmässig, die
+vorgeschlagene Haupttreppe ist eher knapp dimensioniert. Die Masse der Turnhalle entsprechen nicht den
+gestellten Anforderungen.
+
+
+
+
+                                                                                                    Seite 57
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Im Erdgeschoss schränkt die unterschiedliche Raumhöhe die interne Flexibilität ein. Die Obergeschosse für
+die schulische Nutzung sind bewährt und konventionell organisiert.
+Die Erweiterung wird als Aufstockung vorgeschlagen. Die kritische Abstandsituation zum alten Bahnhof
+wird dadurch noch verschärft.
+
+
+Das unterirdische Parking wird als zweites UG unter der Dreifachhalle vorgeschlagen. Das erfordert eine
+entsprechend lange Zufahrtsrampe. Ob dafür eine einspurige Lösung angebracht ist, wird bezweifelt. Das
+oberirdische Parken im Sureraum wird bedauert, auch wenn Optionen für weitere, überlagernde Nutzungen
+aufgezeigt sind.
+
+
+In einigen Punkten (Turnhallenmasse, Abstand zum alten Bahnhof) verletzt das Projekt CIRCUS die
+vorgegebenen Bedingungen. Ausserdem weist das Projekt einige funktionale Mängel auf. Das Projekt wird
+dem Anspruch, einen Ort mit öffentlichem Charakter zu schaffen gerecht und bietet mehrheitlich hohe
+Nutzungsqualitäten im Aussenraum. Trotz interessanter Ansätze in der Setzung der Volumen überwiegen
+die kritisierten Punkt und das Projekt verbleibt nicht in der weiteren Auswahl.
+
+
+
+
+                                                                                                  Seite 58
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+06 GEORGIUS
+Architekt                 Lussi + Partner AG, Luzern
+Landschaftsarchitekt      Koepflipartner GmbH, Luzern
+
+
+
+
+Das Projekt Georgius gliedert das geforderte Volumen mit zwei Baukörpern. Die Dreifachturnhalle und das
+Schulhaus bilden ein Ensemble, das sich am Surelauf orientiert. Der alte Bahnhof liegt im Zwischenraum
+von Schule, Turnhalle und Stadthalle, aber ohne eine zentrale Aufgabe erfüllen zu können. Eine
+umlaufende Arkade bindet die Elemente zusammen. Der Sureraum ist das Rückgrat der Anlage. Der
+Flussraum wird als Naherholungsraum aufgewertet und dient überlagernd auch der Schule. Er geht in einen
+durchgehenden, öffentlichen Kiesplatz über.
+
+
+Die Verfasser nehmen Bezug auf die Gestaltung des bestehenden Schulhauses St. Georg auf der
+gegenüberliegenden Seite der Sure. Wie weit hier eine Verwandtschaft spürbar werden kann, wird
+bezweifelt. Die Idee der antiken Schule mit dem umlaufenden Arkadengang wird konsequent
+durchgestaltet. Es ergibt sich dadurch ein schöner Bezug zu den Aussenräumen.
+
+
+Das Erdgeschoss der Schule ist für die allgemeinen Räume vorgesehen. In ihrer Disposition sind sie
+vielseitig nutz- und kombinierbar. Die Klassengeschosse sind klassisch und übersichtlich organisiert. Ein
+Lichthof verbindet die ganze Anlage.
+Die Dreifachturnhalle ist um ein Geschoss vertieft. Die Verkehrsfläche vor den Hallen ist grosszügig
+dimensioniert, die Anordnung der Geräteräume ist zweckmässig.
+
+
+Die Struktur des Schulgebäudes erlaubt eine grosse innere Flexibilität. Ob allerdings der attraktive Lichthof
+auch bei einer Erweiterung als Aufstockung brandschutzmässig noch zulässig ist, wird bezweifelt. Eine
+Aufstockung des Volumens würde die unglückliche Situation gegenüber dem alten Bahnhof noch zusätzlich
+verschärfen.
+Die zweite vorgeschlagene Erweiterungsmöglichkeit über der neuen Einstellhalle wäre vor allem als
+Schulraumerweiterung schlecht denkbar.
+
+
+                                                                                                      Seite 59
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Die unterirdischen Parkplätze werden in einer separaten Tiefgarage, die über eine zweispurige Rampe
+erschlossen ist, untergebracht. Die Überschneidung mit der Zufahrt zu den oberirdischen Parkplätzen wird
+kritisch beurteilt.
+
+
+Dieses in vielen Teilen sorgfältig erarbeitete Projekt scheitert in der grundlegenden Volumensetzung. Die
+Neubauten belassen dem alten Bahnhof zu wenig Raum und erzeugen mit dem Schulhaus an der
+St.Urban-Strasse eine unverständliche Gassenwirkung.
+
+
+
+
+                                                                                                  Seite 60
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+08   22231
+Architekt                 Barozzi / Veiga GmbH, Chur
+Landschaftsarchitekt      Pascal Heyraud sàrl, Neuchâtel
+
+
+
+
+Der Verfasser löst die gestellte Aufgabe mit zwei klaren, jedoch solitären Baukörpern, die sich ohne
+direkten Bezug untereinander an den flankierenden Strassenzügen ausrichten. Der Eingang zum
+Schulhaus liegt direkt an der St. Urban-Strasse, derjenige zur Turnhalle erfolgt aus dem Zwischenraum.
+Eine allmendartige Wiesenfläche vermittelt zwischen den Bauten und soll mit dem ergänzten Waldsaum
+entlang der Sure eine „städtische Landschaft“ für vielfältige Nutzungen ergeben. Der Allwetterplatz
+zwischen Turn- und Stadthalle ist Teil der befestigten Aussenflächen und stellt das Dach einer
+Unterflurgarage dar, die auch unabhängig als spätere Etappe realisierbar wäre.
+
+Die Positionierung des viergeschossigen Schulhauses bildet mit dem ebenfalls mächtigen Gegenüber an
+der St. Urban-Strasse eine dominante Portalsituation und belässt dem denkmalgeschützten Bahnhof als
+kleinmassstäbliches Objekt viel zu wenig Raum.
+
+Das Schulhaus weist, aufgeteilt über zwei Obergeschosse, die drei bestellten Einheiten für jeweils 4
+Klassen auf. Trotz dem durch Aussenräume vergrösserten Footprint gelingt es nicht, direkt zugängliche
+Klassenzimmer und die geforderten Verbindungen zu den Halbklassenzimmern zu organisieren. Die
+räumlich und nutzungsmässig bereichernden Geschossterrassen finden sich auch im dritten Obergeschoss
+mit den Fachräumen und Reservezimmern. Mit Ausnahme des nur indirekt erschlossenen Musikraums ist
+das Erdgeschoss mit dem zuschaltbaren Merzwecksaal zum Foyer, den Räumen der Schulleitung sowie
+einem eingezogenen Vorbereich gut organisiert.
+
+Gefertigt in systemischem Holzbau, weist das Schulhaus einfache und klare Strukturen aus.
+Geschossweise Vordächer, raumhohe Fenster sowie das leicht vom Terrain abgehobene Erdgeschoss
+tragen eine Eleganz, die sich auch bei der Turnhalle wiederfindet. Deren Tragwerk als grosse
+Tischkonstruktion sowie die grossflächigen Verglasungen entbehren jedoch der Logik des profanen und
+damit wirtschaftlichen Bauens und führt zu einer Erscheinung, die der Nutzung nicht angepasst ist.
+
+
+                                                                                                     Seite 61
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Der Projektvorschlag vermag trotz der grossen Eigenständigkeit und sorgfältigen Formensprache die
+gewünschte Klärung in der heterogenen Umgebung nicht herbeizuführen. Der eher trennende denn
+verbindende    Landschaftsraum       zwischen   den   Baukörpern   sowie   das   vorgeschlagene   seitliche
+Erweiterungskonzept am solitären Schulbau werden nicht verstanden.
+
+
+
+
+                                                                                                   Seite 62
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+10 HINZUGESELLEN
+Architekt                 ARGE Bünzli&Courvoisier Architekten AG / b+p baurealistion ag, Zürich
+Landschaftsarchitekt      Vogt Landschaftsarchitekten AG, Zürich
+
+
+
+
+Die Verfasser des Projekts „Hinzugesellen“ entwickeln ihren ortsbaulichen Ansatz aus zwei Anliegen: Zum
+einen soll sich die Schulanlage in ihrer Dimension auf die unmittelbaren Nachbarsgebäude beziehen, zum
+andern soll sie einen starken Bezug zur Sure und dessen Naturraum aufbauen. Um dies zu erreichen,
+teilen die Verfasser das Raumprogramm auf zwei Baukörper unterschiedlicher Grössen auf, die mit dem
+Bestand interagieren und deren Zwischenräume sich zum Sureraum öffnen.
+
+Der bestehende Güterschuppen an der St. Urban-Strasse wird als Baukörper belassen und in einen
+Velounterstand umfunktioniert. Dadurch behält der alte Bahnhof seine massstäbliche Einbindung, der Ort
+seine heutige Prägung. Im Norden des Perimeters setzt sich die grossformatige Dreifachturnhalle
+folgerichtig an die Ringstrasse neben die Stadthalle und setzt im dazwischenliegenden Raum den
+Aussenplatz. Als vermittelndes Element wird zwischen Turnhalle und Bestandesbauten die Schule
+positioniert, die in ihrer Grösse Bezug zu den Neubauten im Süden nimmt und ein Ensemble mit dem
+Güterschuppen und dem alten Bahnhof bildet. Die Gebäude werden so abgedreht, dass zwischen den
+Volumen konische Aussenräume entstehen, die sich gegen den Sureraum öffnen. Das bestehende
+Fahrrad- und Fussgängernetz im Sureraum und der dazu quer führende Bahnhöfliweg können optimal in
+die Bebauung eingeflochten werden.
+
+Obwohl die Absichten der Verfasser klar sind, zeigen sich bei näherer Betrachtung des Städtebaus doch
+gewisse Unzulänglichkeiten. Das vorgeschlagene Abdrehen der neuen Schule wirkt etwas beliebig. Der
+südliche wie auch der nördliche Aussenplatz werden dadurch in ihrer Dimension gleichwertig ausgebildet.
+Im Sinne einer Gewichtung der Aussenräume wäre es von Vorteil gewesen, die Schule parallel zur St.
+Urban-Strasse zu stellen, den Vorplatz zu verkleinern und damit die Adressierung zu stärken. Im Gegenzug
+wäre der Schulhausplatz zwischen Schule und Turnhalle grösser ausgefallen, das Gegenüber der Zugänge
+hätte einen stärkeren Bezug erhalten. Ebenfalls irritiert die nahezu identische Gestalt der beiden Baukörper.
+
+
+
+
+                                                                                                      Seite 63
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Insbesondere die Südfassade der Turnhalle kopiert den Schulhausbau, obwohl sich dahinter die
+Erschliessungsgänge der Garderoben befinden.
+
+Das Schulhaus ist über vier Geschosse organisiert. Ein durchgängiger, knapp bemessener Eingangs-
+bereich verbindet den Vorplatz im Süden mit dem Schulhausplatz im Norden. In der südwestlichen Seite
+des Erdgeschosses wird der vielfältig bespielbare Kombiraum angeboten, der an idealer Lage für
+öffentliche Nutzungen wie auch für den Schulbetrieb genutzt werden kann und der Schule einen markanten
+öffentlichen Auftritt ermöglicht. Umso mehr überrascht, dass gegenüberliegend Klassenzimmer an gut
+einsehbarer Lage angeordnet werden. Weiter ist es aus betrieblicher Sicht nicht verständlich, dass die drei
+Einheiten der unterschiedlichen Stufen jeweils an den Gebäudeenden über zwei Geschosse organisiert
+sind.
+
+Die Dreifachturnhalle wird auf das Erdgeschossniveau gesetzt. Über drei Geschosse werden daran
+anliegend die Lehrergarderoben, Nebenräume sowie die Schülergarderoben angeordnet. Dies führt
+einerseits über die Erschliessungsgänge entlang dem Pausenplatz zu interessanten Aussichten auf das
+Geschehen im Aussenraum sowie zu spannenden Einblicken über die Treppenanlagen und aus dem Foyer
+in die Sporthalle. Andererseits führt es aber auch zu sehr langen Wegen.
+
+Abschliessend kann festgehalten werden, dass das Projekt „Hinzugesellen“ sich intensiv mit dem örtlichen
+Kontext auseinandergesetzt hat und Antworten auf den Umgang mit dem Sureraum und den bestehenden
+Gebäuden geben will. Als solches stellt es einen wertvollen Beitrag zur gestellten Aufgabe dar. Der
+Aussenraum nimmt Bezug zur Flusslandschaft und führt das Element der Auengehölze als Platzintarsien
+stimmungsvoll und mit unterschiedlichen Nutzungsqualitäten weiter. Leider vermag das Projekt in der
+städtebaulichen Setzung nicht vollends zu überzeugen. Zudem sind gewisse betriebliche Abläufe zu
+umständlich.
+
+
+
+
+                                                                                                    Seite 64
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+12 PAC-MAN
+Architekt                 PENZISBETTINI, Architekten GmbH, Zürich
+Landschaftsarchitekt      Baumschlager Eberle Landschaftsarchitekten, Zürich
+
+
+
+
+Das Projekt PAC-MAN setzt die beiden nach Nutzungen aufgeteilten Baukörper Schulhaus und Turnhalle in
+Ausrichtung und Volumen in Bezug zur Stadthalle und kreiert in deren Mitte einen grossen Aussenraum,
+der den Schulplatz und Aussenplatz aufnimmt. Dadurch wird eine grossmassstäbliche Anlage kreiert, die
+sich auf die beiden in der Nähe situierten Anlagen der Kantonsschule und der Schule St. Georg beziehen
+will. Leider vermag das vorgeschlagene Gebäudeensemble nicht restlos zu überzeugen. Insbesondere das
+Restaurant Bahnhöfli, das ebenfalls Teil der Anlage ist, wirkt verloren, als übriggebliebenes Relikt, das sich
+nicht in dieses Raumgefüge einzuordnen vermag.
+
+Der Sureraum im Westen der Anlage wird von den Projektverfassern als verbindendes Element zur
+Kantonsschule und zur Schule St. Georg erkannt. Dementsprechend setzen sie sämtliche Haupträume der
+Schule und der Dreifachturnhalle mit diesem Naturraum in eine attraktive Beziehung. Leider aber wird der
+Zugang zur Anlage und zu deren Haupteingängen diesbezüglich nicht thematisiert. So erhält die neue
+Anlage den Hauptzugang seitens der St. Urban-Strasse, der Zugang vom Sureraum wird zweitrangig
+behandelt. Insbesondere die unterbrochene Anbindung an den Bahnhöfliweg isoliert die Anlage.
+
+Das Schulhaus wird über drei Geschosse organisiert. Die Schulräume werden um einen innenliegenden
+Lichthof angeordnet, der über zwei in der Lage etwas unattraktive Zugänge von den beiden Schulplätzen
+her erschlossen wird. Gedeckte Aussenpausenplätze fehlen nahezu. Die Klassenzimmer werden als
+zusammenschaltbares Raumkontinuum konzipiert, die Schule als wandelbares Lernatelier vorgeschlagen.
+Inwieweit im täglichen Gebrauch die Schule diese räumliche Qualität nutzt, ist fraglich. Dass diese
+wandelbare Raumaufteilung zu akustischen Problemen führt, ist wahrscheinlich. Die Anordnung von
+Klassenzimmern im Erdgeschoss am stark frequentierten Naherholungsraum der Sure wird kritisch
+betrachtet. Ebenfalls sind die öffentlichen Räume im Erdgeschoss nicht von der Schule getrennt
+erschliessbar. Aus brandschutztechnischen Gründen müssten der Atriumraum verglast sein und im
+Erdgeschoss zwei unabhängige Fluchtwege etabliert werden.
+
+
+                                                                                                      Seite 65
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Die Dreifachturnhalle wird auf das Erdgeschossniveau gesetzt. Kleine Zugänge führen die Schüler in das
+Obergeschoss zu den Garderoben und nach dem Umkleiden über die gleichen Treppen zurück ins
+Erdgeschoss, mit Ausnahme der mittigen Halle, die über eine separate Treppe erschlossen wird. Sehr
+problematisch ist der fehlende hindernisfreie Zugang zu dieser Halle.
+
+Zusammengefasst kann das Projekt PAC-Man in der ortsbaulichen Setzung nicht vollends überzeugen.
+Funktionale Unstimmigkeiten führen dazu, dass das Projekt auch betrieblich kritisch betrachtet wird.
+
+
+
+
+                                                                                                       Seite 66
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+14 CAMPUS SURE
+Architekt                 Fiechter & Salzmann Architekten GmbH, Zürich
+Landschaftsarchitekt      Tremp Landschaftsarchitekten, Zürich
+
+
+
+
+Die Setzung von vier Volumina unterliegt der bewussten Konzentration, der räumlichen und massstäblichen
+Abstimmung untereinander sowie der Berücksichtigung des heterogenen Umfelds. Mit den jeweiligen
+Parallelstellungen zu Stadthalle sowie zum alten Bahnhof, respektive der St. Urban-Strasse verankert sich
+das Konglomerat im baulichen Kontext und ermöglicht den beiden weiteren Baukörpern eine darauf
+angepasste freie Ausrichtung. Das zwischenliegende Verbindungsdach mit seiner zentrierenden
+Himmelsöffnung soll die getroffene Disposition als funktionale Gesamtanlage festigen.
+
+Die waldartige Auenlandschaft entlang der Sure mit ihren Aufenthaltsqualitäten sowie der Baumkörper
+entlang der Ringstrasse werden durch Aufforsten respektive Abholzen zur passgenauen Fassung des
+Schulareals. Eine Aufwertung des Naherholungsraums und ein öffentlicher Mehrwert werden aber nicht
+erwirkt. Das Areal des alten Bahnhofs sowie der gefasste Allwetterplatz erzeugen einen von der Strasse
+getrennten und nur indirekt erreichbaren Platz, der sowohl als Wegkreuz als auch durch die Auszeichnung
+mit einem Baumsolitär den Eingangshof der Schule darstellt. Diese räumliche Fokussierung steht in einem
+gewissen Widerspruch zum gebauten Zentrum.
+
+Ein Vordach vereint die vier Einheiten Schule, Mehrzwecksaal, Turnhalle sowie Parkhaus, die sich alle mit
+klassizistisch anmutender Axialität und ausformulierten Portalen dem zentralen Freiraum zuwenden. Die
+Nutzungsqualität dieses Pausenplatzes wirft grosse Fragen auf. Das Parkhaus als gleichwertig gewichteter
+und ausgerichteter Teil des Komplexes wird nicht verstanden. Die Autoparkierung steht lediglich in loserer
+Beziehung zur Anlage und trägt über seine offene Fassade zudem ein Beeinträchtigungspotenzial für den
+Pausenhof.
+
+Der fünfstöckige, quadratische Schulbau ist mit jeweils vier Klassenzimmern in den Gebäudeecken klar und
+einfach organisiert und bildet je Geschoss die betrieblichen Einheiten. Die zentrale Vertikalerschliessung
+mit den Toilettenräumen lassen ein geschossweises Wechselspiel von offener Erschliessung und
+Halbklassezimmern zu.
+
+                                                                                                   Seite 67
+Jurybericht Neubau Sekundarschulhaus Sursee
+
+
+
+
+Die schulischen Einheiten sind alle klar strukturiert und ökonomisch organisiert, sodass der mit drei
+Baukörpern einhergehende Mehraufwand an Hüllfläche teilweise kompensiert wird. Das sich als Splittlevel
+über sechs Decks in die Höhe schraubende Parkhaus ist infolge seiner geringen Ausdehnung und dem
+damit verbundenen hohen Fahrspuranteil bezüglich Wirtschaftlichkeit zu hinterfragen.
+
+Das Projekt stellt mit der Umsetzung des Programms in vier Baukörpern auf der nördlichen Parzellenhälfte
+und dem damit einhergehenden Freispielen des Areals um das alte Bahnhöfli einen interessanten Beitrag
+dar. Dieser vermag jedoch schulisch nicht zu überzeugen. Grundsätzlich stellt sich die Frage, inwieweit
+räumliches Trennen von Mehrzweckraum und Schulhaus sowie das Stapeln von Einheiten die erforderliche
+Flexibilität für eine zukunftsgerichtete Schule tragen.
+
+
+
+
+                                                                                                 Seite 68
+

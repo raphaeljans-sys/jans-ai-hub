@@ -1,0 +1,27 @@
+{
+  "slug": "Cheung_Simon",
+  "architekt": {
+    "name": "Cheung Simon",
+    "nachname": "Cheung Simon",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Cheung Simon"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Cheung Simon",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 5,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 6
+  },
+  "dateitypen": {
+    ".jpg": 5,
+    ".pdf": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Cheung Simon",
+  "stand": "2026-07-02T21:11:54"
+}

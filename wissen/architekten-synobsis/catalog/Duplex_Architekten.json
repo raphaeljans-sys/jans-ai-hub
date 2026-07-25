@@ -1,0 +1,50 @@
+{
+  "slug": "Duplex_Architekten",
+  "architekt": {
+    "name": "Duplex Architekten",
+    "nachname": "Duplex Architekten",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Duplex Architekten"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Duplex Architekten",
+  "projekte": [
+    {
+      "raw": "Dietikon Limmatfeld",
+      "ort": "Dietikon Limmatfeld",
+      "projekt": "Dietikon Limmatfeld",
+      "jahre": [],
+      "titel": "Dietikon Limmatfeld"
+    },
+    {
+      "raw": "Zuerich Schwammedingen Mehr als Wohnen",
+      "ort": "Zuerich Schwammedingen Mehr als Wohnen",
+      "projekt": "Zuerich Schwammedingen Mehr als Wohnen",
+      "jahre": [],
+      "titel": "Zuerich Schwammedingen Mehr als Wohnen"
+    },
+    {
+      "raw": "Zug Hochhaus V-Zug",
+      "ort": "Zug Hochhaus V-Zug",
+      "projekt": "Zug Hochhaus V-Zug",
+      "jahre": [],
+      "titel": "Zug Hochhaus V-Zug"
+    }
+  ],
+  "projekt_anzahl": 3,
+  "inventar": {
+    "bilder": 16,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 1,
+    "total": 17
+  },
+  "dateitypen": {
+    ".jpg": 11,
+    ".png": 5,
+    ".psd": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Duplex Architekten | Dietikon Limmatfeld Dietikon Limmatfeld | Zuerich Schwammedingen Mehr als Wohnen Zuerich Schwammedingen Mehr als Wohnen | Zug Hochhaus V-Zug Zug Hochhaus V-Zug",
+  "stand": "2026-07-02T21:13:20"
+}

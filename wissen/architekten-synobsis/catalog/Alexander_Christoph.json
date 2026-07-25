@@ -1,0 +1,93 @@
+{
+  "slug": "Alexander_Christoph",
+  "architekt": {
+    "name": "Alexander Christoph",
+    "nachname": "Alexander",
+    "vorname": "Christoph",
+    "jahre": [],
+    "ordner": "Alexander_Christoph"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Alexander_Christoph",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "01_Projekte",
+      "ort": "01",
+      "projekt": "Projekte",
+      "jahre": [],
+      "titel": "01 Projekte"
+    },
+    {
+      "raw": "02_Wettbewerb",
+      "ort": "02",
+      "projekt": "Wettbewerb",
+      "jahre": [],
+      "titel": "02 Wettbewerb"
+    },
+    {
+      "raw": "03_Ausstellungen",
+      "ort": "03",
+      "projekt": "Ausstellungen",
+      "jahre": [],
+      "titel": "03 Ausstellungen"
+    },
+    {
+      "raw": "04_Literatur",
+      "ort": "04",
+      "projekt": "Literatur",
+      "jahre": [],
+      "titel": "04 Literatur"
+    },
+    {
+      "raw": "05_Referenzen",
+      "ort": "05",
+      "projekt": "Referenzen",
+      "jahre": [],
+      "titel": "05 Referenzen"
+    },
+    {
+      "raw": "06_Vortrag",
+      "ort": "06",
+      "projekt": "Vortrag",
+      "jahre": [],
+      "titel": "06 Vortrag"
+    },
+    {
+      "raw": "07_Lehre",
+      "ort": "07",
+      "projekt": "Lehre",
+      "jahre": [],
+      "titel": "07 Lehre"
+    },
+    {
+      "raw": "08_Disskusion",
+      "ort": "08",
+      "projekt": "Disskusion",
+      "jahre": [],
+      "titel": "08 Disskusion"
+    }
+  ],
+  "projekt_anzahl": 9,
+  "inventar": {
+    "bilder": 12,
+    "dokumente": 6,
+    "cad": 0,
+    "andere": 1,
+    "total": 19
+  },
+  "dateitypen": {
+    ".jpg": 11,
+    ".pdf": 6,
+    ".gif": 1,
+    ".html": 1
+  },
+  "textauszug": "24.09.12 12:21Christopher Alexander – Wikipedia Seite 1 von 4http://de.wikipedia.org/wiki/Christopher_Alexander Christopher Alexander Christopher Alexander (* 4. Oktober 1936 in Wien) ist ein US-amerikanischer Architekt, Architektur- theoretiker, Systemtheoretiker und Philosoph des 20. Jahrhunderts. Leben Christopher Alexander wurde 1936 in Wien geboren und ist aufgewachsen in Oxford und Chichester, England. Er absolvierte die renommierte University of Cambridge, an der er Mathema- tik und Architektur studierte. Er wurde an der Harvard University in Architektur pro- moviert; für seine Dissertation, später unter dem Titel Notes on the Synthesis of Form ver- öffentlicht, wurde ihm die erste Goldmedaille für Forschung vom American Institute of Architects (AIA) zugesprochen. Im Jahre 1963 wurde er Professor der Architektur an der University of California, Berkeley und gründete das Institut für Stadt- und Raumpla- nung (Center for Environmental Structure, CES). 1980 wurde Professor Christopher Alexander zum Mitglied der Schwedischen Königlichen Akademie ernannt. 1996 wurde er in die amerikanische Akademie der Künste und Wissenschaften (Fellow of the Ameri- can Academy of Arts and Sciences) aufgenommen. 2001 emeritierte er nach 38 Jahren durchgehender Lehrtätigkeit. Im Jahr 2009 erhielt er den Vincent Scully Preis. Christopher Alexander ist zudem einer der Treuhänder von Prinz Charles für das Wa- les's Institute of Architecture. Wissenschaft Christopher Alexander ist als Architekturtheoretiker mit der Trilogie A Pattern Language (Eine Mustersprache), A Timeless Way of Building und The Oregon Experiment hervorgetre- ten. Die Bücher sind zeitgleich entstanden. Sie behandeln die theoretische Herleitung, praktische Implementierung und experimentelle Umsetzung seiner Ideen. Seine Thesen werden vor allem im englischen Sprachraum diskutiert. Alexanders Positionen haben im Bereich der Planungsmethodik weltweit Beachtung gefunden. Christopher Alexander ist Vater der sogenannten Entwurfsmuster (design patterns). Dieser Ansatz bemüht sich, unterschiedlich komplexe Architekturaspekte und -struktu- ren logisch zusammenzuführen. Strukturen werden in Muster (patterns) unterteilt und verknüpft. In der wissenschaftlichen Methodik kann damit die Komplexität sehr gut verdeutlicht werden. Alexanders Ideen wurden zunächst von Kent Beck und Ward Cun- 24.09.12 12:21Christopher Alexander – Wikipedia Seite 2 von 4http://de.wikipedia.org/wiki/Christopher_Alexander ningham, später von der sogenannten Viererbande aufgenommen, die den Ansatz auf die Informatik übertrugen und damit die heutige Methodik der Softwareentwicklung wesentlich beeinflussten. Christopher Alexanders architekturtheoretische Ansätze sind in Fachkreisen umstritten; sie gelten für manche als postmodern im reaktionären Sinne, für andere als nach wie vor umfassendster zeitgenössischer Denkansatz zur Weiterentwicklung des Bauens. Philosophie und Systemtheorie Alexanders Spätwerk The Nature of Order hat einen philosophischen und systemanalyti- schen Charakter und entwickelt eine umfassende Theorie lebendiger Systeme. Wichtige Elemente sind eine ganzheitliche Sicht, der empirische Ansatz (typische Systemeigen- schaften, Muster), der Schwerpunkt auf generativen Prozessen bzw. strukturerhalten- den Transformationen, die Orientierung an der Natur und die Rücknahme der Rolle des Architekten zugunsten der Mitentscheidung direkt Betroffener. Wirkung Die von Alexander entwickelten Prinzipien sind in vielen Bereichen außerhalb der Ar- chitektur aufgenommen und weiterentwickelt worden. Beispiele: Softwareentwicklung - Design Patterns (siehe oben), Extreme Programming Musik - Jazz Patterns, Blues Patterns Kommunikationssysteme - Wiki Lebensraumgestaltung - Permakultur Pädagogik/Didaktik - Pedagogical Patterns, Educational Patterns Human Computer Interface (HCI) Design Werke (Auswahl) Christopher Alexander: Notes On The Synthesis Of Form. Oxford University Press, New York 1970 (mit Preface to the Paperback Edition), ISBN 0-674-62751-2 Christopher Alexander: Notes On The Synthesis Of Form. Oxford University Press, New York 1964, ISBN 0-674-62750-4 Christopher Alexander, Sara Ishikawa, Murray Silverstein (1974). 'A Collection of Patterns which Generate Multi-Service Centres' in Declan and Margrit Kennedy (eds.): The Inner City. Architects Year Book 14, Elek, London. ISBN 0 236 15431 1. 24.09.12 12:21Christopher Alexander – Wikipedia Seite 3 von 4http://de.wikipedia.org/wiki/Christopher_Alexander Christopher Alexander: A Pattern Language. Towns, Buildings, Construction, mit Sara Ishikawa, Murray Silverstein, Max Jacobson, Ingrid F. King und Shlomo Angel, Ox- ford University Press, New York 1977, ISBN 0195019199 Christopher Alexander: Eine Muster-Sprache. Städte, Gebäude, Konstruktion, mit Sara Ishikawa, Murray Silverstein, Max Jacobson, Ingrid F. King und Shlomo Angel, Löcker Verlag, Wien 1995, (deutsche Übersetzung von A Pattern Lan- guage, hg. von Hermann Czech), ISBN 385409-179-6 Christopher Alexander: The Timeless Way of Building. Oxford University Press, New York 1979, ISBN 0195024028 Christopher Alexander: The Oregon Experiment, mit Murray Silverstein, Shlomo An- gel, Sara Ishikawa und Denny Abrams, Oxford University Press, New York 1975, ISBN 0195018249 Christopher Alexander: The Production of Houses, mit Howard Davis, Julio Martinez und Don Corner, Oxford University Press, New York 1985, ISBN 0195032233 Christopher Alexander: The Linz Café/Das Linz Café (englisch und deutsch), Oxford University Press, New York/Löcker, Wien 1981, ISBN 0-19-520263-5/ISBN 3-85409- 021-8 Christopher Alexander: A New Theory of Urban Design, mit Hajo Neis, Artemis An- ninou und Ingrid King, Oxford University Press, New York 1987, ISBN 978-0-19- 503753-1 Christopher Alexander: Foreshadowing of 21st Century Art: The Color and Geometry of Very Early Turkish Carpets, Oxford University Press, New York 1993, ISBN 0195208668 Christopher Alexander: The Mary Rose Museum, mit Miyoko Tsutsui und Gary Black, Oxford University Press, New York 1995, ISBN 0195210174 Christopher Alexander: The Nature of Order. An essay on the art of building and the na- ture of the Universe. Center for Environmental Structure, Berkeley, ISBN 0-9726529- 0-6 The Phenomenon of Life. 2002 (Band 1), ISBN 0-9726529-1-4 The Process of Creating Life. 2002 (Band 2), ISBN 0-9726529-2-2 A Vision of a Living World. 2005 (Band 3), ISBN 0-9726529-3-0 The Luminous Ground. 2004 (Band 4), ISBN 0-9726529-4-9 Literatur Helmut Leitner: Mustertheorie - Einführung und Perspektiven auf den Spuren von Chris- topher Alexander, Verlag Nausner & Nausner, Graz 2007, ISBN 3-901402-50-0 24.09.12 12:21Christopher Alexander – Wikipedia Seite 4 von 4http://de.wikipedia.org/wiki/Christopher_Alexander Weblinks Literatur von und über Christopher Alexander im Katalog der Deutschen National- bibliothek Sein Unternehmen: patternlanguage Eine Einführung in Alexanders Werk bietet: Theorie und Bauten Einführung in die Pattern Language: Pattern Language Einführung in \"The Nature of Order\": NEW CONCEPTS IN COMPLEXITY THEO- RY Christopher Alexander. In: archINFORM. 22.09.12 10:39DRAWINGS Seite 1 von 24http://www.katarxis3.com/Gallery/drawings/drawings.htm To Gallery Menu To Home DRAWINGS of projects designed and built by Christopher Alexander and his associates from PATTERNLANGUAGE.COM / CENTER FOR ENVIRONMENTAL STRUCTURE in conjunction with the clients, users and families of users who worked with us. San Jose Homeless Shelter, California 22.09.12 10:39DRAWINGS Seite 2 von 24http://www.katarxis3.com/Gallery/drawings/drawings.htm ~ o O o ~ Mountain View Civic Center, Mountain View, California 22.09.12 10:39DRAWINGS Seite 3 von 24http://www.katarxis3.com/Gallery/drawings/drawings.htm 22.09.12 10:39DRAWINGS Seite 4 von 24http://www.katarxis3.com/Gallery/drawings/drawings.htm 22.09.12 10:39DRAWINGS Seite 5 von 24http://www.katarxis3.com/Gallery/drawings/drawings.htm 22.09.12 10:39DRAWINGS Seite 6 von 24http://www.katarxis3.com",
+  "embed_doc": "Alexander Christoph | 00 Architekten | 01 Projekte | 02 Wettbewerb | 03 Ausstellungen | 04 Literatur | 05 Referenzen | 06 Vortrag | 07 Lehre | 08 Disskusion | 24.09.12 12:21Christopher Alexander – Wikipedia Seite 1 von 4http://de.wikipedia.org/wiki/Christopher_Alexander Christopher Alexander Christopher Alexander (* 4. Oktober 1936 in Wien) ist ein US-amerikanischer Architekt, Architektur- theoretiker, Systemtheoretiker und Philosoph des 20. Jahrhunderts. Leben Christopher Alexander wurde 1936 in Wien geboren und ist aufgewachsen in Oxford und Chichester, England. Er absolvierte die renommierte University of Cambridge, an der er Mathema- tik und Architektur studierte. Er wurde an der Harvard University in Architektur pro- moviert; für seine Dissertation, später unter dem Titel Notes on the Synthesis of Form ver- öffentlicht, wurde ihm die erste Goldmedaille für Forschung vom American Institute of Architects (AIA) zugesprochen. Im Jahre 1963 wurde er Professor der Architektur an der University of California, Berkeley und gründete das Institut für Stadt- und Raumpla- nung (Center for Environmental Structure, CES). 1980 wurde Professor Christopher Alexander zum Mitglied der Schwedischen Königlichen Akademie ernannt. 1996 wurde er in die amerikanische Akademie der Künste und Wissenschaften (Fellow of the Ameri- can Academy of Arts and Sciences) aufgenommen. 2001 emeritierte er nach 38 Jahren durchgehender Lehrtätigkeit. Im Jahr 2009 erhielt er den Vincent Scully Preis. Christopher Alexander ist zudem einer der Treuhänder von Prinz Charles für das Wa- les's Institute of Architecture. Wissenschaft Christopher Alexander ist als Architekturtheoretiker mit der Trilogie A Pattern Language (Eine Mustersprache), A Timeless Way of Building und The Oregon Experiment hervorgetre- ten. Die Bücher sind zeitgleich entstanden. Sie behandeln die theoretische Herleitung, praktische Implementierung und experimentelle Umsetzung seiner Ideen. Seine Thesen werden vor allem im englischen Sprachraum diskutiert. Alexanders Positionen haben im Bereich der Planungsmethodik weltweit Beachtung gefunden. Christopher Alexander ist Vater der sogenannten Entwurfsmuster (design patterns). Dieser Ansatz bemüht sich, unterschiedlich komplexe Architekturaspekte und -struktu- ren logisch zusammenzuführen. Strukturen werden in Muster (patterns) unterteilt und verknüpft. In der wissenschaftlichen Methodik kann damit die Komplexität sehr gut verdeutlicht werden. Alexanders Ideen wurden zunächst von Kent Beck und Ward Cun- 24.09.12 12:21Christopher Alexander – Wikipedia Seite 2 von 4http://de.wikipedia.org/wiki/Christopher_Alexander ningham, später von der sogenannten Viererbande aufgenommen, die den Ansatz auf die Informatik übertrugen und damit die heutige Methodik der Softwareentwicklung wesentlich beeinflussten. Christopher Alexanders architekturtheoretische Ansätze sind in Fachkreisen umstritten; sie gelten für manche als postmodern im reaktionären Sinne, für andere als nach wie vor umfassendster zeitgenössischer Denkansatz zur Weiterentwicklung des Bauens. Philosophie und Systemtheorie Alexanders Spätwerk The Nature of Order hat einen philosophischen und systemanalyti- schen Charakter und entwickelt eine umfassende Theorie lebendiger Systeme. Wichtige Elemente sind eine ganzheitliche Sicht, der empirische Ansatz (typische Systemeigen- schaften, Muster), der Schwerpunkt auf generativen Prozessen bzw. strukturerhalten- den Transformationen, die Orientierung an der Natur und die Rücknahme der Rolle des Architekten zugunsten der Mitentscheidung direkt Betroffener. Wirkung Die von Alexander entwickelten Prinzipien sind in vielen Bereichen außerhalb der Ar- chitektur aufgenommen und weiterentwickelt worden. Beispiele: Softwareentwicklung - Design Patterns (siehe oben), Extreme Programming Musik - Jazz Patterns, Blues Patterns Kommunikationssysteme - Wiki Lebensraumgestaltung - Permakultur Pädagogik/Didaktik - Pedagogical Patterns, Educational Patterns Human Computer Interface (HCI) Design Werke (Auswahl) Christopher Alexander: Notes On The Synthesis Of Form. Oxford University Press, New York 1970 (mit Preface to the Paperback Edition), ISBN 0-674-62751-2 Christopher Alexander: Notes On The Synthesis Of Form. Oxford University Press, New York 1964, ISBN 0-674-62750-4 Christopher Alexander, Sara Ishikawa, Murray Silverstein (1974). 'A Collection of Patterns which Generate Multi-Service Centres' in Declan and Margrit Kennedy (eds.): The Inner City. Architects Year Book 14, Elek, London. ISBN 0 236 15431 1. 24.09.12 12:21Christopher Alexander – Wikipedia Seite 3 von 4http://de.wikipedia.org/wiki/Christopher_Alexander Christopher Alexander: A Pattern Language. Towns, Buildings, Construction, mit Sara Ishikawa, Murray Silverstein, Max Jacobson, Ingrid F. King und Shlomo Angel, Ox- ford University Press, New York 1977, ISBN 0195019199 Christopher Alexander: Eine Muster-Sprache. Städte, Gebäude, Konstruktion, mit Sara Ishikawa, Murray Silverstein, Max Jacobson, Ingrid F. King und Shlomo Angel, Löcker Verlag, Wien 1995, (deutsche Übersetzung von A Pattern Lan- guage, hg. von Hermann Czech), ISBN 385409-179-6 Christopher Alexander: The Timeless Way of Building. Oxford University Press, New York 1979, ISBN 0195024028 Christopher Alexander: The Oregon Experiment, mit Murray Silverstein, Shlomo An- gel, Sara Ishikawa und Denny Abrams, Oxford University Press, New York 1975, ISBN 0195018249 Christopher Alexander: The Production of Houses, mit Howard Davis, Julio Martinez und Don Corner, Oxford University Press, New York 1985, ISBN 0195032233 Christopher Alexander: The Linz Café/Das Linz Café (englisch und deutsch), Oxford University Press, New York/Löcker, Wien 1981, ISBN 0-19-520263-5/ISBN 3-85409- 021-8 Christopher Alexander: A New Theory of Urban Design, mit Hajo Neis, Artemis An- ninou und Ingrid King, Oxford University Press, New York 1987, ISBN 978-0-19- 503753-1 Christopher Alexander: Foreshadowing of 21st Century Art: The Color and Geometry of Very Early Turkish Carpets, Oxford University Press, New York 1993, ISBN 0195208668 Christopher Alexander: The Mary Rose Museum, mit Miyoko Tsutsui und Gary Black, Oxford University Press, New York 1995, ISBN 0195210174 Christopher Alexander: The Nature of Order. An essay on the art of building and the na- ture of the Universe. Center for Environmental Structure, Berkeley, ISBN 0-9726529- 0-6 The Phenomenon of Life. 2002 (Band 1), ISBN 0-9726529-1-4 The Process of Creating Life. 2002 (Band 2), ISBN 0-9726529-2-2 A Vision of a Living World. 2005 (Band 3), ISBN 0-9726529-3-0 The Luminous Ground. 2004 (Band 4), ISBN 0-9726529-4-9 Literatur Helmut Leitner: Mustertheorie - Einführung und Perspektiven auf den Spuren von Chris- topher Alexander, Verlag Nausner & Nausner, Graz 2007, ISBN 3-901402-50-0 24.09.12 12:21Christopher Alexander – Wikipedia Seite 4 von 4http://de.wikipedia.org/wiki/Christopher_Alexander Weblinks Literatur von und über Christopher Alexander im Katalog der Deutschen National- bibliothek Sein Unternehmen: patternlanguage Eine Einführung in Alexanders Werk bietet: Theorie und Bauten Einführung in die Pattern Language: Pattern Language Einführung in \"The Nature of Order\": NEW CONCEPTS IN COMPLEXITY THEO- RY Christopher Alexander. In: archINFORM. 22.09.12 10:39DRAWINGS Seite 1 von 24http://www.katarxis3.com/Gallery/drawings/drawings.htm To Gallery Menu To Home DRAWINGS of projects designed and built by Christopher Alexander and his associates from PATTERNLANGUAGE.COM / CENTER FOR ENVIRONMENTAL STRUCTURE in conjunction with the clients, users and families of users who worked with us. San Jose Homeless Shelter, California 22.09.12 10:39DRAWINGS Seite 2 von 24http://www.katarxis3.com/Gallery/drawings/drawings.htm ~ o O o ~ Mountain View Civic Center, Mountain View, California 22.09.12 10:39DRAWINGS Seite 3 von 24http://www.katarxis3.com/Gallery/drawings/drawings.htm 22.09.12 10:39DRAWINGS Seite 4 von 24http://www.katarxis3.com/Gallery/drawings/drawings.htm 22.09.12 10:39DRAWINGS Seite 5 von 24http://www.katarxis3.com/Gallery/drawings/drawings.htm 22.09.12 10:39DRAWINGS Seite 6 von 24http://www.katarxis3.com",
+  "stand": "2026-07-02T21:05:41"
+}

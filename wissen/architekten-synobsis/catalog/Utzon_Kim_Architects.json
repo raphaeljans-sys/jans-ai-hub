@@ -1,0 +1,36 @@
+{
+  "slug": "Utzon_Kim_Architects",
+  "architekt": {
+    "name": "Utzon Kim Architects",
+    "nachname": "Utzon",
+    "vorname": "Kim Architects",
+    "jahre": [],
+    "ordner": "Utzon_Kim_Architects"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Utzon_Kim_Architects",
+  "projekte": [
+    {
+      "raw": "Utzon_Center_Aalborg_2008",
+      "ort": "Utzon",
+      "projekt": "Center Aalborg",
+      "jahre": [
+        "2008"
+      ],
+      "titel": "Utzon Center Aalborg 2008"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 4,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 4
+  },
+  "dateitypen": {
+    ".jpg": 4
+  },
+  "textauszug": "",
+  "embed_doc": "Utzon Kim Architects | Utzon Center Aalborg 2008",
+  "stand": "2026-07-02T22:50:44"
+}

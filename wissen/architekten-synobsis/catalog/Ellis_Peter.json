@@ -1,0 +1,71 @@
+{
+  "slug": "Ellis_Peter",
+  "architekt": {
+    "name": "Ellis Peter",
+    "nachname": "Ellis",
+    "vorname": "Peter",
+    "jahre": [],
+    "ordner": "Ellis_Peter"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Ellis_Peter",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "01_Projekte",
+      "ort": "01",
+      "projekt": "Projekte",
+      "jahre": [],
+      "titel": "01 Projekte"
+    },
+    {
+      "raw": "02_Lehre",
+      "ort": "02",
+      "projekt": "Lehre",
+      "jahre": [],
+      "titel": "02 Lehre"
+    },
+    {
+      "raw": "03_Ausstellungen",
+      "ort": "03",
+      "projekt": "Ausstellungen",
+      "jahre": [],
+      "titel": "03 Ausstellungen"
+    },
+    {
+      "raw": "04_Literatur",
+      "ort": "04",
+      "projekt": "Literatur",
+      "jahre": [],
+      "titel": "04 Literatur"
+    },
+    {
+      "raw": "05_Referenzen",
+      "ort": "05",
+      "projekt": "Referenzen",
+      "jahre": [],
+      "titel": "05 Referenzen"
+    }
+  ],
+  "projekt_anzahl": 6,
+  "inventar": {
+    "bilder": 28,
+    "dokumente": 2,
+    "cad": 0,
+    "andere": 0,
+    "total": 30
+  },
+  "dateitypen": {
+    ".jpg": 27,
+    ".pdf": 2,
+    ".png": 1
+  },
+  "textauszug": "Peter Ellis Oriel Chambers Liverpool 1864 9 References 11 References Bibliography Internet http://www.jstor.org/stable/1568239 10 FS 2012 The Tall Office Building Artitistically Considered Plan, 1:500 Elevation 2.85m 2.85m 2.85m 2.85m 0.20m 2.85m 2.85m 2.85m 2.85m 0.20m 2.85m 2.85m 2.85m 2.85m 0.20m 2.85m 2.85m 2.85m 2.85m 0.20m 2.85m 2.85m 2.85m 2.85m 0.10m 11.50m 11.60m 11.60m 11.60m 11.60m 57.90m 2.85m 2.85m 2.85m 2.85m 0.20m 2.85m 2.85m 2.85m 2.85m 0.20m 2.85m 2.85m 2.85m 2.85m 0.20m 2.85m 2.85m 2.85m 2.85m 0.20m 2.85m 2.85m 2.85m 2.85m 0.10m 11.50m 11.60m 11.60m 11.60m 11.60m 57.90m 2.15m 2.15m 2.15m 2.15m 2.15m 2.15m 2.15m 15.06m",
+  "embed_doc": "Ellis Peter | 00 Architekten | 01 Projekte | 02 Lehre | 03 Ausstellungen | 04 Literatur | 05 Referenzen | Peter Ellis Oriel Chambers Liverpool 1864 9 References 11 References Bibliography Internet http://www.jstor.org/stable/1568239 10 FS 2012 The Tall Office Building Artitistically Considered Plan, 1:500 Elevation 2.85m 2.85m 2.85m 2.85m 0.20m 2.85m 2.85m 2.85m 2.85m 0.20m 2.85m 2.85m 2.85m 2.85m 0.20m 2.85m 2.85m 2.85m 2.85m 0.20m 2.85m 2.85m 2.85m 2.85m 0.10m 11.50m 11.60m 11.60m 11.60m 11.60m 57.90m 2.85m 2.85m 2.85m 2.85m 0.20m 2.85m 2.85m 2.85m 2.85m 0.20m 2.85m 2.85m 2.85m 2.85m 0.20m 2.85m 2.85m 2.85m 2.85m 0.20m 2.85m 2.85m 2.85m 2.85m 0.10m 11.50m 11.60m 11.60m 11.60m 11.60m 57.90m 2.15m 2.15m 2.15m 2.15m 2.15m 2.15m 2.15m 15.06m",
+  "stand": "2026-07-02T21:13:48"
+}

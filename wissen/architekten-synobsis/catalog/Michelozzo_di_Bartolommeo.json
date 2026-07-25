@@ -1,0 +1,34 @@
+{
+  "slug": "Michelozzo_di_Bartolommeo",
+  "architekt": {
+    "name": "Michelozzo di Bartolommeo",
+    "nachname": "Michelozzo",
+    "vorname": "di Bartolommeo",
+    "jahre": [],
+    "ordner": "Michelozzo_di_Bartolommeo"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Michelozzo_di_Bartolommeo",
+  "projekte": [
+    {
+      "raw": "Palazzo_Medici",
+      "ort": "Palazzo",
+      "projekt": "Medici",
+      "jahre": [],
+      "titel": "Palazzo Medici"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".jpg": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Michelozzo di Bartolommeo | Palazzo Medici",
+  "stand": "2026-07-02T22:41:49"
+}

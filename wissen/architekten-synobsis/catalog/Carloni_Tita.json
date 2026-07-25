@@ -1,0 +1,41 @@
+{
+  "slug": "Carloni_Tita",
+  "architekt": {
+    "name": "Carloni Tita",
+    "nachname": "Carloni",
+    "vorname": "Tita",
+    "jahre": [],
+    "ordner": "Carloni_Tita"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Carloni_Tita",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Carloni_Tito",
+      "ort": "Carloni",
+      "projekt": "Tito",
+      "jahre": [],
+      "titel": "Carloni Tito"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 11,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 11
+  },
+  "dateitypen": {
+    ".jpg": 11
+  },
+  "textauszug": "",
+  "embed_doc": "Carloni Tita | 00 Architekten | Carloni Tito",
+  "stand": "2026-07-02T21:10:32"
+}

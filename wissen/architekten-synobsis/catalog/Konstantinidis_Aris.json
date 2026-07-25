@@ -1,0 +1,35 @@
+{
+  "slug": "Konstantinidis_Aris",
+  "architekt": {
+    "name": "Konstantinidis Aris",
+    "nachname": "Konstantinidis",
+    "vorname": "Aris",
+    "jahre": [],
+    "ordner": "Konstantinidis_Aris"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Konstantinidis_Aris",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 6,
+    "dokumente": 3,
+    "cad": 0,
+    "andere": 0,
+    "total": 9
+  },
+  "dateitypen": {
+    ".jpg": 6,
+    ".pdf": 3
+  },
+  "textauszug": "Aris Konstantinidis, God-Built, 1989 Aris Konstantinidis, God-Built, 1989 Aris Konstantinidis, Hotel Xenia Mykonos, 1958-1960",
+  "embed_doc": "Konstantinidis Aris | 00 Architekten | Aris Konstantinidis, God-Built, 1989 Aris Konstantinidis, God-Built, 1989 Aris Konstantinidis, Hotel Xenia Mykonos, 1958-1960",
+  "stand": "2026-07-02T21:35:27"
+}

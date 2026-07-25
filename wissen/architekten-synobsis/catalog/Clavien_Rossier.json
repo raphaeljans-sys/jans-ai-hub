@@ -1,0 +1,40 @@
+{
+  "slug": "Clavien_Rossier",
+  "architekt": {
+    "name": "Clavien Rossier",
+    "nachname": "Clavien",
+    "vorname": "Rossier",
+    "jahre": [],
+    "ordner": "Clavien_Rossier"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Clavien_Rossier",
+  "projekte": [
+    {
+      "raw": "Wohnhaus_Chartat_VS_2010",
+      "ort": "Wohnhaus",
+      "projekt": "Chartat VS",
+      "jahre": [
+        "2010"
+      ],
+      "titel": "Wohnhaus Chartat VS 2010"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 39,
+    "dokumente": 2,
+    "cad": 0,
+    "andere": 1,
+    "total": 42
+  },
+  "dateitypen": {
+    ".jpg": 23,
+    ".tiff": 16,
+    ".indd": 1,
+    ".pdf": 1,
+    ".docx": 1
+  },
+  "textauszug": "Strukturwechsel – Wohngebäude in den Schweizer Alpen von Clavienrossier Architekten 12. Juli 2011 In der Nähe des kleinen Dorfes Charrat inmitten der Schweizer Alpen befindet sich ein Wohngebäude aus altem Natursteinmauerwerk und neuem Erweiterungsbau. Bei der Renovierung legten die Architekten vom Genfer Planungsbüro Clavienrossier besonderen Wert auf den Erhalt der historischen Grundmauern. Aufgrund der Natursteine scheint das Haus fest in dem ländlichen Kontext der alpinen Bergwelt verwurzelt. Die linearen Anbauten, die nicht aus einem natürlichen Gestein, sondern aus einer Stahlbetonkonstruktion bestehen, stehen in ihrer Farbigkeit im Kontrast zu dem alten Mauerbestand. Mittels der Zugabe von Oxiden erhielt der glatte Beton eine tuffähnliche Struktur und seine sa ndsteinfarbene Tönung",
+  "embed_doc": "Clavien Rossier | Wohnhaus Chartat VS 2010 | Strukturwechsel – Wohngebäude in den Schweizer Alpen von Clavienrossier Architekten 12. Juli 2011 In der Nähe des kleinen Dorfes Charrat inmitten der Schweizer Alpen befindet sich ein Wohngebäude aus altem Natursteinmauerwerk und neuem Erweiterungsbau. Bei der Renovierung legten die Architekten vom Genfer Planungsbüro Clavienrossier besonderen Wert auf den Erhalt der historischen Grundmauern. Aufgrund der Natursteine scheint das Haus fest in dem ländlichen Kontext der alpinen Bergwelt verwurzelt. Die linearen Anbauten, die nicht aus einem natürlichen Gestein, sondern aus einer Stahlbetonkonstruktion bestehen, stehen in ihrer Farbigkeit im Kontrast zu dem alten Mauerbestand. Mittels der Zugabe von Oxiden erhielt der glatte Beton eine tuffähnliche Struktur und seine sa ndsteinfarbene Tönung",
+  "stand": "2026-07-02T21:12:12"
+}

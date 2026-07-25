@@ -1,0 +1,36 @@
+{
+  "slug": "Pfister_Gebrueder",
+  "architekt": {
+    "name": "Pfister Gebrueder",
+    "nachname": "Pfister",
+    "vorname": "Gebrueder",
+    "jahre": [],
+    "ordner": "Pfister_Gebrueder"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Pfister_Gebrueder",
+  "projekte": [
+    {
+      "raw": "Zuerich_Bahnhof_Eng",
+      "ort": "Zuerich",
+      "projekt": "Bahnhof Eng",
+      "jahre": [],
+      "titel": "Zuerich Bahnhof Eng"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 16,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 17
+  },
+  "dateitypen": {
+    ".jpg": 15,
+    ".tiff": 1,
+    ".pdf": 1
+  },
+  "textauszug": "S T A D T S K I Z Z E N Z Ü R I C H u R bA N E O U T D O O R S S Em I N A Rwo C H E P Ro fE S Su R Š I K Vo N m oN TAG 2 1. m äR Z b I S D o N N E R S TAG 2 4 . m äR Z 2 0 11 m I T b L E I S T If T u N D S K I Z Z E Nb Lo C K H A LT E N w I R A R C H I T E K Tu R u N D R Au mS T Im m uN G f E S T. D I E S Em I N A Rwo C H E KoS T E T 15 0 fR A N K E N. m I N D E S T E N S 15 ST u D E N TiN N E N. E I N S C H RE Ibu N G A b 19 . 0 1. 2 0 11 bI S 31. 0 1. 2 0 11 Au f w w w.E I N S C H R E Ib uN G. A R C H. E T H Z.C H/ S Em I N A Rwo C H E P Ro f. m I Ro S L AV Š I K",
+  "embed_doc": "Pfister Gebrueder | Zuerich Bahnhof Eng | S T A D T S K I Z Z E N Z Ü R I C H u R bA N E O U T D O O R S S Em I N A Rwo C H E P Ro fE S Su R Š I K Vo N m oN TAG 2 1. m äR Z b I S D o N N E R S TAG 2 4 . m äR Z 2 0 11 m I T b L E I S T If T u N D S K I Z Z E Nb Lo C K H A LT E N w I R A R C H I T E K Tu R u N D R Au mS T Im m uN G f E S T. D I E S Em I N A Rwo C H E KoS T E T 15 0 fR A N K E N. m I N D E S T E N S 15 ST u D E N TiN N E N. E I N S C H RE Ibu N G A b 19 . 0 1. 2 0 11 bI S 31. 0 1. 2 0 11 Au f w w w.E I N S C H R E Ib uN G. A R C H. E T H Z.C H/ S Em I N A Rwo C H E P Ro f. m I Ro S L AV Š I K",
+  "stand": "2026-07-02T22:44:20"
+}

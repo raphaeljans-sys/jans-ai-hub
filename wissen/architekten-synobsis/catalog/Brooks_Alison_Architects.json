@@ -1,0 +1,34 @@
+{
+  "slug": "Brooks_Alison_Architects",
+  "architekt": {
+    "name": "Brooks Alison Architects",
+    "nachname": "Brooks Alison Architects",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Brooks Alison Architects"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Brooks Alison Architects",
+  "projekte": [
+    {
+      "raw": "CASA COLLECTIVA",
+      "ort": "CASA COLLECTIVA",
+      "projekt": "CASA COLLECTIVA",
+      "jahre": [],
+      "titel": "CASA COLLECTIVA"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 2,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".pdf": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Brooks Alison Architects | CASA COLLECTIVA CASA COLLECTIVA",
+  "stand": "2026-07-02T21:09:23"
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "Smythson_Robert",
+  "architekt": {
+    "name": "Smythson Robert",
+    "nachname": "Smythson",
+    "vorname": "Robert",
+    "jahre": [],
+    "ordner": "Smythson_Robert"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Smythson_Robert",
+  "projekte": [
+    {
+      "raw": "Derbyshire_Hardwick_Hall_1590_97_England",
+      "ort": "Derbyshire",
+      "projekt": "Hardwick Hall 97 England",
+      "jahre": [
+        "1590"
+      ],
+      "titel": "Derbyshire Hardwick Hall 1590 97 England"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 9,
+    "dokumente": 7,
+    "cad": 0,
+    "andere": 0,
+    "total": 16
+  },
+  "dateitypen": {
+    ".jpg": 7,
+    ".pdf": 7,
+    ".png": 1,
+    ".gif": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Smythson Robert | Derbyshire Hardwick Hall 97 England 1590",
+  "stand": "2026-07-02T22:48:59"
+}

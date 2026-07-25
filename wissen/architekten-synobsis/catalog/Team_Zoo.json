@@ -1,0 +1,27 @@
+{
+  "slug": "Team_Zoo",
+  "architekt": {
+    "name": "Team Zoo",
+    "nachname": "Team",
+    "vorname": "Zoo",
+    "jahre": [],
+    "ordner": "Team_Zoo"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Team_Zoo",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".png": 1,
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Team Zoo",
+  "stand": "2026-07-02T22:50:08"
+}

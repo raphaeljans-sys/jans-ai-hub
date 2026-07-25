@@ -1,0 +1,42 @@
+{
+  "slug": "Karamuk_Kuo_Architekten",
+  "architekt": {
+    "name": "Karamuk Kuo Architekten",
+    "nachname": "Karamuk Kuo Architekten",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Karamuk Kuo Architekten"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Karamuk Kuo Architekten",
+  "projekte": [
+    {
+      "raw": "Kamuku",
+      "ort": "Kamuku",
+      "projekt": "Kamuku",
+      "jahre": [],
+      "titel": "Kamuku"
+    },
+    {
+      "raw": "Lausanne Schule",
+      "ort": "Lausanne Schule",
+      "projekt": "Lausanne Schule",
+      "jahre": [],
+      "titel": "Lausanne Schule"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 11,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 11
+  },
+  "dateitypen": {
+    ".png": 9,
+    ".jpg": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Karamuk Kuo Architekten | Kamuku Kamuku | Lausanne Schule Lausanne Schule",
+  "stand": "2026-07-02T21:22:14"
+}

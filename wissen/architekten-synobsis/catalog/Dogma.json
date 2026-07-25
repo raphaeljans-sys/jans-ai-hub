@@ -1,0 +1,26 @@
+{
+  "slug": "Dogma",
+  "architekt": {
+    "name": "Dogma",
+    "nachname": "Dogma",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Dogma"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Dogma",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Dogma",
+  "stand": "2026-07-02T21:13:02"
+}

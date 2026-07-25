@@ -1,0 +1,42 @@
+{
+  "slug": "Hiestand_Chrisoph",
+  "architekt": {
+    "name": "Hiestand Chrisoph",
+    "nachname": "Hiestand",
+    "vorname": "Chrisoph",
+    "jahre": [],
+    "ordner": "Hiestand_Chrisoph"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Hiestand_Chrisoph",
+  "projekte": [
+    {
+      "raw": "Diplom",
+      "ort": "Diplom",
+      "projekt": "Diplom",
+      "jahre": [],
+      "titel": "Diplom"
+    },
+    {
+      "raw": "Semester",
+      "ort": "Semester",
+      "projekt": "Semester",
+      "jahre": [],
+      "titel": "Semester"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 22,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 22
+  },
+  "dateitypen": {
+    ".jpg": 14,
+    ".png": 8
+  },
+  "textauszug": "",
+  "embed_doc": "Hiestand Chrisoph | Diplom Diplom | Semester Semester",
+  "stand": "2026-07-02T21:17:39"
+}

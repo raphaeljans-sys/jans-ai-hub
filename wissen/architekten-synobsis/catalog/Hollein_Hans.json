@@ -1,0 +1,26 @@
+{
+  "slug": "Hollein_Hans",
+  "architekt": {
+    "name": "Hollein Hans",
+    "nachname": "Hollein",
+    "vorname": "Hans",
+    "jahre": [],
+    "ordner": "Hollein_Hans"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Hollein_Hans",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 4,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 4
+  },
+  "dateitypen": {
+    ".jpg": 4
+  },
+  "textauszug": "",
+  "embed_doc": "Hollein Hans",
+  "stand": "2026-07-02T21:18:23"
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "Hancock_John",
+  "architekt": {
+    "name": "Hancock John",
+    "nachname": "Hancock",
+    "vorname": "John",
+    "jahre": [],
+    "ordner": "Hancock_John"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Hancock_John",
+  "projekte": [
+    {
+      "raw": "Chicago_Center",
+      "ort": "Chicago",
+      "projekt": "Center",
+      "jahre": [],
+      "titel": "Chicago Center"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 5,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 5
+  },
+  "dateitypen": {
+    ".jpg": 4,
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Hancock John | Chicago Center",
+  "stand": "2026-07-02T21:16:57"
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "Taller_de_Arquitectura",
+  "architekt": {
+    "name": "Taller de Arquitectura",
+    "nachname": "Taller",
+    "vorname": "de Arquitectura",
+    "jahre": [],
+    "ordner": "Taller_de_Arquitectura"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Taller_de_Arquitectura",
+  "projekte": [
+    {
+      "raw": "Calple_Xandu_1967",
+      "ort": "Calple",
+      "projekt": "Xandu",
+      "jahre": [
+        "1967"
+      ],
+      "titel": "Calple Xandu 1967"
+    },
+    {
+      "raw": "Sant_Juste_Desvern_1975",
+      "ort": "Sant",
+      "projekt": "Juste Desvern",
+      "jahre": [
+        "1975"
+      ],
+      "titel": "Sant Juste Desvern 1975"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 11,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 11
+  },
+  "dateitypen": {
+    ".jpg": 11
+  },
+  "textauszug": "",
+  "embed_doc": "Taller de Arquitectura | Calple Xandu 1967 | Sant Juste Desvern 1975",
+  "stand": "2026-07-02T22:50:00"
+}

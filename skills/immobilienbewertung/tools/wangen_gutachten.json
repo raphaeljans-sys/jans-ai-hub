@@ -1,0 +1,150 @@
+{
+  "titel": "Bewertungsgutachten (Entwurf, aktenbasiert)",
+  "untertitel": "Gemischtes Mehrfamilienhaus",
+  "objekt": "Bahnhofstrasse 27, 8855 Wangen SZ",
+  "marktwert": "CHF 2.6 bis 2.8 Mio",
+  "marktwert_label": "Marktwert (Halten), Stichtag 15.06.2026",
+  "status_hinweis": "Status: aktenbasierter Entwurf. Zustand, Standard und Sanierungsstau sind Annahmen (A) und werden mit dem Augenschein vom 19.06.2026 verifiziert. Die Umbaukosten (Dachwohnung zu zwei Wohnungen) werden mit dem KV nach der Besichtigung belastbar. Keine Rechts- oder Schaetzungsverbindlichkeit.",
+  "doc_label": "Bewertungsgutachten (Entwurf) Bahnhofstrasse 27 Wangen SZ",
+  "stamm": [
+    ["Auftraggeber", "David Chaled (Eigentümer)"],
+    ["Zweck", "Kaufpreis- und Werteinschätzung; Grundlage Dachausbau-Entscheid"],
+    ["Bewertungsstichtag", "15.06.2026"],
+    ["Besichtigung", "19.06.2026 (geplant)"],
+    ["Verfasser", "Raphael Jans Architekten ETH/SIA"],
+    ["Methodik", "nach Schweizer Schätzungsstandard / Schätzerhandbuch SVKG/SEK/SVIT 2012"]
+  ],
+  "blocks": [
+    {"h2": "2. Objekt und Flächen (SIA 416, GRULER-Vermessung 14.01.2026)"},
+    {"stamm": [
+      ["Adresse", "Bahnhofstrasse 27, 8855 Wangen SZ"],
+      ["Parzelle / EGRID", "25 / CH379377805305, 751 m²"],
+      ["Zone / ES", "Wohn- und Gewerbezone 3 Geschosse (WG3), ES III"],
+      ["OEREB (07.06.2026)", "sauber: keine belasteten Standorte, Gefahren, Gewässerraum, Baulinien"],
+      ["Objekttyp", "gemischtes Mehrfamilienhaus (Gewerbe-EG und Wohnen), Bestand"]
+    ]},
+    {"table": {
+      "rows": [
+        ["Geschoss", "GF m²", "HNF m²", "Nutzung"],
+        ["UG", "298.8", "", "3 Garagen, Keller, Heizung/Tank, Luftschutz"],
+        ["EG", "240.1", "175.4", "Arztpraxis (zonenkonform)"],
+        ["OG1", "223.9", "166.9", "2 Whg (4.5-Zi 105.0, 2.5-Zi 61.9)"],
+        ["OG2", "152.3", "117.7", "Teil WHG 3"],
+        ["DG", "107.3", "78.0", "Teil WHG 3 (3 Zimmer, Estrich)"],
+        ["HNF total", "", "538.0", "EG 175.4, OG1 166.9, WHG3 195.7"]
+      ],
+      "widths": [26, 20, 20, 104],
+      "aligns": ["l", "r", "r", "l"],
+      "header": true
+    }},
+    {"bullets": [
+      "WHG 3 = 7.5-Zi-Maisonette OG2 und DG, 195.7 m², Annahme veraltet (am Augenschein zu verifizieren).",
+      "3 Vollgeschosse (EG, OG1, OG2): in der WG3 zulässige Geschosszahl bereits ausgeschöpft.",
+      "Ausstattung: Treppenhaus und Lift vorhanden, 3 Garagen und Vorplatz (Parkierung reichlich)."
+    ]},
+
+    {"h2": "3. Lage"},
+    {"bullets": [
+      "Makrolage Wangen (SZ): UBS-Rating Mittelsegment im oberen Kantonsbereich (March, Korridor Pfäffikon und Zürichsee). Bevölkerungswachstum hoch, Leerstand 0.7 %. Quelle: UBS Real Estate Local Fact Sheet Wangen 12/2025.",
+      "Mikrolage Bahnhofstrasse 27: zentral, top ÖV (Bahnhofnähe), aber Verkehrslärm und ES III, kein See- oder Aussichtsbonus. Lageklasse «Mittel» (Bauland 2'702 CHF/m²; Schlecht 2'358 / Top 3'891)."
+    ]},
+
+    {"h2": "4. Augenschein und Qualitätsprofil  (Annahme A, vollständig zu erheben am 19.06.2026)"},
+    {"para": "Noch nicht erhoben. Aufnahmeblatt für Freitag vorbereitet. Vorläufige Aktenannahmen, die der Augenschein bestätigt oder korrigiert:"},
+    {"profile": [
+      ["Standard", "2.75", "Annahme: Altbau, Praxis solide, Maisonette einfach"],
+      ["Zustand", "2.75", "Annahme: Bestand, WHG3 veraltet; Sanierungsstau zu erheben"],
+      ["Mikrolage", "3.0", "Annahme: zentral, top ÖV, aber Lärm und ES III"]
+    ]},
+    {"para": "Der vor Ort erhobene Sanierungsstau bestimmt den Realwert-Abschlag und ist heute der grösste Unsicherheitsfaktor des Marktwerts."},
+
+    {"h2": "5. Bewertung je Verfahren"},
+    {"para": "5.1 Ertragswert (führend, Renditeobjekt). Mietansätze sind belegte Markt-Annahmen (UBS-FS-Bänder), kein erhobener Mieterspiegel.", "bold": true},
+    {"table": {
+      "rows": [
+        ["Position", "HNF m²", "Ansatz CHF/m²/J", "Sollertrag CHF/J"],
+        ["EG Arztpraxis", "175.4", "200", "35'080"],
+        ["OG1 2 Whg", "166.9", "255", "42'560"],
+        ["WHG3 Maisonette", "195.7", "235", "45'990"],
+        ["Garagen / Parking", "", "Pauschale", "~5'500"],
+        ["Brutto-Sollertrag", "", "", "≈ 129'000"]
+      ],
+      "widths": [62, 26, 42, 40],
+      "aligns": ["l", "r", "r", "r"],
+      "header": true
+    }},
+    {"bullets": [
+      "Brutto-Kapitalisierungssatz Annahme ~5.0 % (Band 4.75 bis 5.5 %; gemischtes MFH, periphere SZ-Gemeinde, Altbau).",
+      "Ertragswert (brutto) = 129'000 / 5.0 % ≈ 2.58 Mio. Band bei 4.75 bis 5.25 % = 2.46 bis 2.72 Mio.",
+      "Hinweis: Eine Netto-Betrachtung (Betriebs- und Unterhaltskosten Altbau) läge tiefer; die Brutto-Kapitalisierung bei 5.0 % bildet die lokale Marktusanz ab."
+    ]},
+    {"para": "5.2 Realwert / Sachwert (Plausibilisierung)", "bold": true},
+    {"para": "Annahme ~2.7 bis 3.0 Mio grob (Bodenwert plus Gebäude-Zeitwert). Kein Gebäudeversicherungswert erhoben, Sanierungsstau noch nicht abgezogen, nach Augenschein zu schärfen. Bodenwert-Anker: 751 m² × Lageklasse «Mittel» 2'702 ≈ 2.03 Mio (Unterkante; WG3-Ausnützung ~0.75 deutlich über reinem EFH-Land, real höher)."},
+    {"para": "5.3 Vergleichswert / Sum-of-parts (Potenzial-Oberkante)", "bold": true},
+    {"para": "STWE-Einzelverkauf Wohnteil: HNF 362.6 m² (OG1 166.9 plus WHG3 195.7) × EW-Median Wangen 9'616 ≈ 3.49 Mio, zuzüglich Gewerbe-EG separat. Das ist die Aufteilungs-Oberkante, nicht der Halten-Marktwert; setzt STWE-Begründung plus Sanierung voraus."},
+
+    {"h2": "6. Marktwert-Synthese"},
+    {"para": "Gemischtes MFH ist ein Renditeobjekt: der Ertragswert führt, der Realwert plausibilisiert nach oben, der Vergleichswert markiert das STWE-Potenzial."},
+    {"table": {
+      "rows": [
+        ["Nutzungsszenario", "Wert", "Lesart"],
+        ["Halten (Ist-Nutzung)", "CHF 2.6 bis 2.8 Mio", "massgeblicher Marktwert als Renditeobjekt"],
+        ["STWE-Einzelverkauf", "~3.5 Mio Wohnteil plus EG", "Potenzial, mit Sanierungs- und Aufteilungsaufwand"]
+      ],
+      "widths": [44, 42, 84],
+      "aligns": ["l", "l", "l"],
+      "header": true
+    }},
+    {"para": "Marktwert JANS (Halten), Stichtag 15.06.2026: CHF 2.6 bis 2.8 Mio (Annahme, vorbehältlich Augenschein).", "bold": true},
+    {"para": "Kaufpreis-Einordnung", "bold": true},
+    {"bullets": [
+      "Angebot 3.1 Mio: als reiner Renditekauf ~10 % zu hoch (implizite Bruttorendite nur 4.2 %).",
+      "Bankschätzung 2.9 Mio (korrigiert): leicht über dem JANS-Band, vertretbar (Bruttorendite 4.4 %).",
+      "Das Ertragswert-Niveau entspricht ~5.0 % Bruttorendite. 3.1 Mio nur gerechtfertigt bei Mietpotenzial-Hebung oder STWE-Einzelverkauf.",
+      "Kaufpreisempfehlung: ~3.0 Mio, Verhandlungsziel Richtung Bankwert 2.9."
+    ]},
+
+    {"h2": "7. Wertsteigerungs-Szenario: Dachwohnung zu zwei Wohnungen"},
+    {"para": "Baurechtlich (Einschätzung 07.06.2026) ist die Aufteilung der 7.5-Zi-Maisonette grundsätzlich zulässig (WG3 erlaubt Wohnen, ändert Geschosszahl und Ausnützung nicht). Im bestehenden Dachvolumen bleiben (2/3-Deckel OG2 ≈ 101.5 m², lichte Höhe ab 1.80 m) hält den Ausbau anrechnungs- und geschossneutral. Zu klären: Wohnhygiene (Raumhöhe ab 2.25 m, im DG wegen Schräge kritisch), Schall- und Brandschutz, 2. Rettungsweg, Pflichtparkplätze (durch Garagen und Vorplatz gedeckt). Die DG-Einheit allein (78 m² HNF, tiefe Räume) ist grenzwertig, eher OG2 und DG neu gliedern."},
+    {"table": {
+      "rows": [
+        ["Wirtschaftlichkeit", "Wert", "Quelle"],
+        ["Investition Aufteilung", "KV folgt nach Besichtigung (Platzhalter ~0.7 Mio)", "KV 2622, nach 19.06."],
+        ["Mietuplift modernisiert", "~+10'000/J, Wertzuwachs bei 5 % ~0.20 Mio", "KB-Kennwert"],
+        ["Befund Mietrendite", "Investition grösser als Wertzuwachs: trägt sich als Halten nicht", ""],
+        ["Befund STWE-Verkauf", "lohnt nur bei Einzelverkauf (Oberkante ~3.5 Mio)", ""]
+      ],
+      "widths": [42, 86, 42],
+      "aligns": ["l", "l", "l"],
+      "header": true
+    }},
+    {"para": "Der KV nach Freitag ersetzt den Platzhalter und macht diese Rechnung belastbar; dann lässt sich die Aufteilung sauber gegen den STWE-Exit stellen."},
+
+    {"h2": "8. Marktwertbereinigungen und besondere Werteinflüsse"},
+    {"bullets": [
+      "Parkierung (3 Garagen und Vorplatz): im Ertrag erfasst, bei Bedarf separat bewertbar.",
+      "Servitute / Baurecht: Annahme keine wertrelevanten erkennbar (OEREB sauber), Grundbuchauszug bestätigen.",
+      "Ausbaureserve: Geschosszahl ausgeschöpft, die Wert-Upside liegt in der inneren Neugliederung plus STWE."
+    ]},
+
+    {"h2": "9. Annahmen und Vorbehalte"},
+    {"para": "Alle als Annahme (A) markierten Werte (Mietansätze, Kapitalisierungssatz, Zustand und Standard, Realwert, Umbaukosten) sind belegte Markt-Annahmen oder Aktenstände, keine erhobenen Ist-Werte. Belastbar erst mit (a) Augenschein 19.06., (b) Mieterspiegel des Eigentümers, (c) GVA-Police, (d) KV Dachausbau. Die Bewertung ist zeitpunktbezogen auf den Stichtag; keine Haftung für verdeckte Mängel oder nicht zugängliche Bauteile."},
+
+    {"h2": "10. Offene Punkte, Besichtigung Freitag 19.06.2026 (Agenda)"},
+    {"bullets": [
+      "Zustand je Bauteil (Dach, Fassade, Fenster, Haustechnik, Nasszellen): Sanierungsstau in CHF.",
+      "Standard (Küche, Bäder, Böden, Haustechnik-Alter): Realwert-Zu- und Abschlag.",
+      "Mieterspiegel beim Eigentümer einholen: Ist-Ertrag statt Annahme.",
+      "WHG3 und DG ausmessen: lichte Höhen ab 1.80 m und ab 2.25 m für das Aufteilungs-Szenario.",
+      "GVA-Police (Versicherungswert): Realwert-Anker.",
+      "Fotos je Bauteil gemäss Foto-Konvention für den Bericht."
+    ]},
+    {"para": "Danach: KV Dachausbau erstellen, die Annahmen durch Ist-Werte ersetzen, Gutachten finalisieren (DOCX und PDF, doppelte Ablage Projektordner und AI-Hub-Output)."}
+  ],
+  "unterschrift": [
+    "Zürich, 15.06.2026",
+    "",
+    "Raphael Jans Architekten ETH/SIA",
+    "Raphael Jans"
+  ]
+}

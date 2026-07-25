@@ -1,0 +1,37 @@
+{
+  "slug": "Brown_Lancelot__Capability_1716_1783",
+  "architekt": {
+    "name": "Brown Lancelot  Capability 1716 1783",
+    "nachname": "Brown",
+    "vorname": "Lancelot  Capability",
+    "jahre": [
+      "1716",
+      "1783"
+    ],
+    "ordner": "Brown_Lancelot_ Capability_1716_1783"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Brown_Lancelot_ Capability_1716_1783",
+  "projekte": [
+    {
+      "raw": "East Sussex_Ashburnham_Place_the park",
+      "ort": "East Sussex",
+      "projekt": "Ashburnham Place the park",
+      "jahre": [],
+      "titel": "East Sussex Ashburnham Place the park"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Brown Lancelot Capability 1716 1783 | East Sussex Ashburnham Place the park",
+  "stand": "2026-07-02T21:09:26"
+}

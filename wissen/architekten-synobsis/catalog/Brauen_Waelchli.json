@@ -1,0 +1,26 @@
+{
+  "slug": "Brauen_Waelchli",
+  "architekt": {
+    "name": "Brauen Waelchli",
+    "nachname": "Brauen",
+    "vorname": "Waelchli",
+    "jahre": [],
+    "ordner": "Brauen_Waelchli"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Brauen_Waelchli",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Brauen Waelchli",
+  "stand": "2026-07-02T21:09:19"
+}

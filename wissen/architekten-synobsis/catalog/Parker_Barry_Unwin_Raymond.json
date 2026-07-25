@@ -1,0 +1,45 @@
+{
+  "slug": "Parker_Barry_Unwin_Raymond",
+  "architekt": {
+    "name": "Parker Barry Unwin Raymond",
+    "nachname": "Parker",
+    "vorname": "Barry Unwin Raymond",
+    "jahre": [],
+    "ordner": "Parker_Barry_Unwin_Raymond"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Parker_Barry_Unwin_Raymond",
+  "projekte": [
+    {
+      "raw": "Hampstead_Garden_Suburb_1905",
+      "ort": "Hampstead",
+      "projekt": "Garden Suburb",
+      "jahre": [
+        "1905"
+      ],
+      "titel": "Hampstead Garden Suburb 1905"
+    },
+    {
+      "raw": "Letchworth_1903",
+      "ort": "Letchworth",
+      "projekt": "Letchworth",
+      "jahre": [
+        "1903"
+      ],
+      "titel": "Letchworth 1903"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 62,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 62
+  },
+  "dateitypen": {
+    ".jpg": 62
+  },
+  "textauszug": "",
+  "embed_doc": "Parker Barry Unwin Raymond | Hampstead Garden Suburb 1905 | Letchworth Letchworth 1903",
+  "stand": "2026-07-02T22:44:05"
+}

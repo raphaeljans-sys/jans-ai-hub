@@ -1,0 +1,26 @@
+{
+  "slug": "Vinci_Leonardo_da",
+  "architekt": {
+    "name": "Vinci Leonardo da",
+    "nachname": "Vinci",
+    "vorname": "Leonardo da",
+    "jahre": [],
+    "ordner": "Vinci_Leonardo_da"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Vinci_Leonardo_da",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 6,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 6
+  },
+  "dateitypen": {
+    ".jpg": 6
+  },
+  "textauszug": "",
+  "embed_doc": "Vinci Leonardo da",
+  "stand": "2026-07-02T22:51:13"
+}

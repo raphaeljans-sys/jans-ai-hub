@@ -1,0 +1,79 @@
+{
+  "slug": "Kahn_Adam",
+  "architekt": {
+    "name": "Kahn Adam",
+    "nachname": "Kahn",
+    "vorname": "Adam",
+    "jahre": [],
+    "ordner": "Kahn_Adam"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Kahn_Adam",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Fawe_Street_Tower_Hamlets",
+      "ort": "Fawe",
+      "projekt": "Street Tower Hamlets",
+      "jahre": [],
+      "titel": "Fawe Street Tower Hamlets"
+    },
+    {
+      "raw": "Kaeferstein_Meister",
+      "ort": "Kaeferstein",
+      "projekt": "Meister",
+      "jahre": [],
+      "titel": "Kaeferstein Meister"
+    },
+    {
+      "raw": "New_Horizon_Youth_Centre_2007_10",
+      "ort": "New",
+      "projekt": "Horizon Youth Centre 10",
+      "jahre": [
+        "2007"
+      ],
+      "titel": "New Horizon Youth Centre 2007 10"
+    },
+    {
+      "raw": "Preston_Brockholes_Visitor_Centre_UK",
+      "ort": "Preston",
+      "projekt": "Brockholes Visitor Centre UK",
+      "jahre": [],
+      "titel": "Preston Brockholes Visitor Centre UK"
+    },
+    {
+      "raw": "Stockholm_Erweiterung_Asplund_Bibliothek",
+      "ort": "Stockholm",
+      "projekt": "Erweiterung Asplund Bibliothek",
+      "jahre": [],
+      "titel": "Stockholm Erweiterung Asplund Bibliothek"
+    },
+    {
+      "raw": "Windermere_Steamboat_Museum",
+      "ort": "Windermere",
+      "projekt": "Steamboat Museum",
+      "jahre": [],
+      "titel": "Windermere Steamboat Museum"
+    }
+  ],
+  "projekt_anzahl": 7,
+  "inventar": {
+    "bilder": 58,
+    "dokumente": 2,
+    "cad": 0,
+    "andere": 0,
+    "total": 60
+  },
+  "dateitypen": {
+    ".jpg": 58,
+    ".docx": 2
+  },
+  "textauszug": "New Horizon Youth Centre 2007-10 RIBA Award Winner Civic Trust Awards 2012 Commendation “A beautifully refined and elegant building, with intelligent and intensively multi-used interiors\" The refurbishment and extension of an established day centre for young homeless people. Centred on the concept of Home, and how to invest an institutional building with the nurturing qualities, the flexibility, ease and generosity of a welcoming, settled house. The user can make themselves at home - opportunities for seating and working are quietly provided with varying degrees of privacy and sociability - window nooks, wide stairs, consulting desks that allow side-by-side working. Solid pieces of infrastructure - the concrete counter, the long oak table, banquette seating, are highly durable, but allow an active creative inhabitation. This culminates in the Barn, a space of emotional intensity. A lofty wooden room of softly folding roof planes, it is an enveloping home for the imagination, play and daydreaming. Brockholes Visitor Centre Preston UK Civic Trust Awards 2012 Winner Civic Trust Awards 2012 Special Award for Sustainability Wood Award Winner 2011 “The design of this building takes away all the apparent conflicts between architecture and sustainability .....\" Max Fordham Civic Trust Awards National Panel 2012 Completed : June 2011 Contract sum : £6.2million Breeam rating ( interim ): Outstanding The buildings and open spaces form a village-like cluster , floating on a large pontoon . As well as giving unlimited flood protection , this brings the visitor into the magical territory amongst the reeds at the water’s edge . Following an RIBA competition win , Adam Khan Architects were appointed as architects and lead consultants for the new visitor centre and the master- planning of the 67-hectare nature reserve . The project , with a total value of £9 million including landscaping and habitat creation , is funded by the North West Regional Development Agency, and is due for completion in May 2011. The project has already achieved the new and highest rating of sustainability - BREAAM ‘Outstanding’ at the interim stage . Links: For landscaping work click here For centre info : www.brockholes.org",
+  "embed_doc": "Kahn Adam | 00 Architekten | Fawe Street Tower Hamlets | Kaeferstein Meister | New Horizon Youth Centre 10 2007 | Preston Brockholes Visitor Centre UK | Stockholm Erweiterung Asplund Bibliothek | Windermere Steamboat Museum | New Horizon Youth Centre 2007-10 RIBA Award Winner Civic Trust Awards 2012 Commendation “A beautifully refined and elegant building, with intelligent and intensively multi-used interiors\" The refurbishment and extension of an established day centre for young homeless people. Centred on the concept of Home, and how to invest an institutional building with the nurturing qualities, the flexibility, ease and generosity of a welcoming, settled house. The user can make themselves at home - opportunities for seating and working are quietly provided with varying degrees of privacy and sociability - window nooks, wide stairs, consulting desks that allow side-by-side working. Solid pieces of infrastructure - the concrete counter, the long oak table, banquette seating, are highly durable, but allow an active creative inhabitation. This culminates in the Barn, a space of emotional intensity. A lofty wooden room of softly folding roof planes, it is an enveloping home for the imagination, play and daydreaming. Brockholes Visitor Centre Preston UK Civic Trust Awards 2012 Winner Civic Trust Awards 2012 Special Award for Sustainability Wood Award Winner 2011 “The design of this building takes away all the apparent conflicts between architecture and sustainability .....\" Max Fordham Civic Trust Awards National Panel 2012 Completed : June 2011 Contract sum : £6.2million Breeam rating ( interim ): Outstanding The buildings and open spaces form a village-like cluster , floating on a large pontoon . As well as giving unlimited flood protection , this brings the visitor into the magical territory amongst the reeds at the water’s edge . Following an RIBA competition win , Adam Khan Architects were appointed as architects and lead consultants for the new visitor centre and the master- planning of the 67-hectare nature reserve . The project , with a total value of £9 million including landscaping and habitat creation , is funded by the North West Regional Development Agency, and is due for completion in May 2011. The project has already achieved the new and highest rating of sustainability - BREAAM ‘Outstanding’ at the interim stage . Links: For landscaping work click here For centre info : www.brockholes.org",
+  "stand": "2026-07-02T21:22:06"
+}

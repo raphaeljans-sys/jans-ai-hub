@@ -1,0 +1,26 @@
+{
+  "slug": "Schader_Kt_Freudenberg",
+  "architekt": {
+    "name": "Schader Kt Freudenberg",
+    "nachname": "Schader",
+    "vorname": "Kt Freudenberg",
+    "jahre": [],
+    "ordner": "Schader_Kt_Freudenberg"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Schader_Kt_Freudenberg",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 3,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 3
+  },
+  "dateitypen": {
+    ".jpg": 3
+  },
+  "textauszug": "",
+  "embed_doc": "Schader Kt Freudenberg",
+  "stand": "2026-07-02T22:47:00"
+}

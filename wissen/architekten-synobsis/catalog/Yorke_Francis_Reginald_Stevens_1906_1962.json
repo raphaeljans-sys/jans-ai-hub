@@ -1,0 +1,37 @@
+{
+  "slug": "Yorke_Francis_Reginald_Stevens_1906_1962",
+  "architekt": {
+    "name": "Yorke Francis Reginald Stevens 1906 1962",
+    "nachname": "Yorke",
+    "vorname": "Francis Reginald Stevens",
+    "jahre": [
+      "1906",
+      "1962"
+    ],
+    "ordner": "Yorke_Francis_Reginald_Stevens_1906_1962"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Yorke_Francis_Reginald_Stevens_1906_1962",
+  "projekte": [
+    {
+      "raw": "Shangri_la_Milvil_Road_Lee_on_Solent",
+      "ort": "Shangri",
+      "projekt": "la Milvil Road Lee on Solent",
+      "jahre": [],
+      "titel": "Shangri la Milvil Road Lee on Solent"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Yorke Francis Reginald Stevens 1906 1962 | Shangri la Milvil Road Lee on Solent",
+  "stand": "2026-07-02T22:51:47"
+}

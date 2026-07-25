@@ -1,0 +1,66 @@
+{
+  "slug": "Zaha_Hadid",
+  "architekt": {
+    "name": "Zaha Hadid",
+    "nachname": "Zaha",
+    "vorname": "Hadid",
+    "jahre": [],
+    "ordner": "Zaha_Hadid"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Zaha_Hadid",
+  "projekte": [
+    {
+      "raw": "Rom_Museum_Maxxi_2010",
+      "ort": "Rom",
+      "projekt": "Museum Maxxi",
+      "jahre": [
+        "2010"
+      ],
+      "titel": "Rom Museum Maxxi 2010"
+    },
+    {
+      "raw": "Stadtcasino_Basel",
+      "ort": "Stadtcasino",
+      "projekt": "Basel",
+      "jahre": [],
+      "titel": "Stadtcasino Basel"
+    },
+    {
+      "raw": "Zaha Hadid_Feuerwehrhaus",
+      "ort": "Zaha Hadid",
+      "projekt": "Feuerwehrhaus",
+      "jahre": [],
+      "titel": "Zaha Hadid Feuerwehrhaus"
+    },
+    {
+      "raw": "Zaha Hadid_Landscape formation one",
+      "ort": "Zaha Hadid",
+      "projekt": "Landscape formation one",
+      "jahre": [],
+      "titel": "Zaha Hadid Landscape formation one"
+    },
+    {
+      "raw": "hungerburgSTATIONinnsbruck.ZahaHADID",
+      "ort": "hungerburgSTATIONinnsbruck.ZahaHADID",
+      "projekt": "hungerburgSTATIONinnsbruck.ZahaHADID",
+      "jahre": [],
+      "titel": "hungerburgSTATIONinnsbruck.ZahaHADID"
+    }
+  ],
+  "projekt_anzahl": 5,
+  "inventar": {
+    "bilder": 46,
+    "dokumente": 2,
+    "cad": 0,
+    "andere": 0,
+    "total": 48
+  },
+  "dateitypen": {
+    ".jpg": 43,
+    ".png": 3,
+    ".doc": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Zaha Hadid | Rom Museum Maxxi 2010 | Stadtcasino Basel | Zaha Hadid Feuerwehrhaus | Zaha Hadid Landscape formation one | hungerburgSTATIONinnsbruck.ZahaHADID hungerburgSTATIONinnsbruck.ZahaHADID",
+  "stand": "2026-07-02T22:51:48"
+}

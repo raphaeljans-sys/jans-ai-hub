@@ -1,0 +1,43 @@
+{
+  "slug": "Ortner_Ortner",
+  "architekt": {
+    "name": "Ortner Ortner",
+    "nachname": "Ortner Ortner",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Ortner Ortner"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Ortner Ortner",
+  "projekte": [
+    {
+      "raw": "Berlin Alexanderplatz",
+      "ort": "Berlin Alexanderplatz",
+      "projekt": "Berlin Alexanderplatz",
+      "jahre": [],
+      "titel": "Berlin Alexanderplatz"
+    },
+    {
+      "raw": "machen_schoene_skizzen",
+      "ort": "machen",
+      "projekt": "schoene skizzen",
+      "jahre": [],
+      "titel": "machen schoene skizzen"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 12,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 13
+  },
+  "dateitypen": {
+    ".png": 11,
+    ".jpg": 1,
+    ".pdf": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Ortner Ortner | Berlin Alexanderplatz Berlin Alexanderplatz | machen schoene skizzen",
+  "stand": "2026-07-02T22:43:52"
+}

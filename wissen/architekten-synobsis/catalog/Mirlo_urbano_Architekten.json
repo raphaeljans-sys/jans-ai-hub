@@ -1,0 +1,26 @@
+{
+  "slug": "Mirlo_urbano_Architekten",
+  "architekt": {
+    "name": "Mirlo urbano Architekten",
+    "nachname": "Mirlo",
+    "vorname": "urbano Architekten",
+    "jahre": [],
+    "ordner": "Mirlo_urbano_Architekten"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Mirlo_urbano_Architekten",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 6,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 6
+  },
+  "dateitypen": {
+    ".jpg": 6
+  },
+  "textauszug": "",
+  "embed_doc": "Mirlo urbano Architekten",
+  "stand": "2026-07-02T22:42:00"
+}

@@ -1,0 +1,63 @@
+{
+  "slug": "Schindler_Rudolph",
+  "architekt": {
+    "name": "Schindler Rudolph",
+    "nachname": "Schindler",
+    "vorname": "Rudolph",
+    "jahre": [],
+    "ordner": "Schindler_Rudolph"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Schindler_Rudolph",
+  "projekte": [
+    {
+      "raw": "Avalon_Haus_Wolfe",
+      "ort": "Avalon",
+      "projekt": "Haus Wolfe",
+      "jahre": [],
+      "titel": "Avalon Haus Wolfe"
+    },
+    {
+      "raw": "Hollywood_Schindler_House",
+      "ort": "Hollywood",
+      "projekt": "Schindler House",
+      "jahre": [],
+      "titel": "Hollywood Schindler House"
+    },
+    {
+      "raw": "How_House",
+      "ort": "How",
+      "projekt": "House",
+      "jahre": [],
+      "titel": "How House"
+    },
+    {
+      "raw": "Lovell_Beach_House",
+      "ort": "Lovell",
+      "projekt": "Beach House",
+      "jahre": [],
+      "titel": "Lovell Beach House"
+    },
+    {
+      "raw": "Victoria McAlmon House 1935",
+      "ort": "Victoria McAlmon House 1935",
+      "projekt": "Victoria McAlmon House 1935",
+      "jahre": [],
+      "titel": "Victoria McAlmon House 1935"
+    }
+  ],
+  "projekt_anzahl": 5,
+  "inventar": {
+    "bilder": 17,
+    "dokumente": 3,
+    "cad": 0,
+    "andere": 0,
+    "total": 20
+  },
+  "dateitypen": {
+    ".jpg": 17,
+    ".pdf": 3
+  },
+  "textauszug": "45 THEMA R.M. Schindler, Haus Wolfe, Old Stage Road, Avalon, 1928-1929, Catailina Island, USA Schindler House, Hollywood, Rudolf M. Schindler, 1921-22 Schindler House, Hollywood, Rudolf M. Schindler, 1921-22",
+  "embed_doc": "Schindler Rudolph | Avalon Haus Wolfe | Hollywood Schindler House | How House | Lovell Beach House | Victoria McAlmon House 1935 Victoria McAlmon House 1935 | 45 THEMA R.M. Schindler, Haus Wolfe, Old Stage Road, Avalon, 1928-1929, Catailina Island, USA Schindler House, Hollywood, Rudolf M. Schindler, 1921-22 Schindler House, Hollywood, Rudolf M. Schindler, 1921-22",
+  "stand": "2026-07-02T22:47:11"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "2623_OBR",
+  "origin_lv95": [
+    2686254.53,
+    1236866.04
+  ],
+  "z": "m ue.M.",
+  "systemgrenze_radius_m": 30.0,
+  "terrain_bbox_lv95": [
+    2686196.7,
+    1236798.9,
+    2686313.0,
+    1236935.4
+  ],
+  "gebaeude_kontext": 21,
+  "gebaeude_bestand_parzelle": 1,
+  "varianten": [
+    "R2"
+  ],
+  "vol_okt_m": 442.8,
+  "quellen": {
+    "terrain": "swissALTI3D (GeoTIFF 0.5 m)",
+    "gebaeude": "SWISSBUILDINGS3D_2_0_CHLV95LN02_1111-24.dxf"
+  }
+}

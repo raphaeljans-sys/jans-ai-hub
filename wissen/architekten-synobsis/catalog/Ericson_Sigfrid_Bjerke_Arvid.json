@@ -1,0 +1,35 @@
+{
+  "slug": "Ericson_Sigfrid_Bjerke_Arvid",
+  "architekt": {
+    "name": "Ericson Sigfrid Bjerke Arvid",
+    "nachname": "Ericson",
+    "vorname": "Sigfrid Bjerke Arvid",
+    "jahre": [],
+    "ordner": "Ericson_Sigfrid_Bjerke_Arvid"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Ericson_Sigfrid_Bjerke_Arvid",
+  "projekte": [
+    {
+      "raw": "Goeteborg_Goetaplatsen",
+      "ort": "Goeteborg",
+      "projekt": "Goetaplatsen",
+      "jahre": [],
+      "titel": "Goeteborg Goetaplatsen"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 44,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 45
+  },
+  "dateitypen": {
+    ".jpg": 44,
+    ".pdf": 1
+  },
+  "textauszug": "230 Göteborg. Eriksson. Konzerthaus Nils Einar Eriksson Konzerthaus (1931–1935) Götaplatsen 8, Göteborg 231Göteborg. Eriksson. Konzerthaus",
+  "embed_doc": "Ericson Sigfrid Bjerke Arvid | Goeteborg Goetaplatsen | 230 Göteborg. Eriksson. Konzerthaus Nils Einar Eriksson Konzerthaus (1931–1935) Götaplatsen 8, Göteborg 231Göteborg. Eriksson. Konzerthaus",
+  "stand": "2026-07-02T21:14:02"
+}

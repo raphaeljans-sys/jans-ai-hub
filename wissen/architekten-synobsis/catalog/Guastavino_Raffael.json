@@ -1,0 +1,36 @@
+{
+  "slug": "Guastavino_Raffael",
+  "architekt": {
+    "name": "Guastavino Raffael",
+    "nachname": "Guastavino",
+    "vorname": "Raffael",
+    "jahre": [],
+    "ordner": "Guastavino_Raffael"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Guastavino_Raffael",
+  "projekte": [
+    {
+      "raw": "Gustavino",
+      "ort": "Gustavino",
+      "projekt": "Gustavino",
+      "jahre": [],
+      "titel": "Gustavino"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 33,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 33
+  },
+  "dateitypen": {
+    ".jpg": 30,
+    ".gif": 2,
+    ".tif": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Guastavino Raffael | Gustavino Gustavino",
+  "stand": "2026-07-02T21:16:42"
+}

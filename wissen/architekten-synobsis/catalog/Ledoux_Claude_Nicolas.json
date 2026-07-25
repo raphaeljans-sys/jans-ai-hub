@@ -1,0 +1,146 @@
+{
+  "slug": "Ledoux_Claude_Nicolas",
+  "architekt": {
+    "name": "Ledoux Claude Nicolas",
+    "nachname": "Ledoux",
+    "vorname": "Claude Nicolas",
+    "jahre": [],
+    "ordner": "Ledoux_Claude_Nicolas"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Ledoux_Claude_Nicolas",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "Arc_et_Sensans_Salzfabrik_mit_Arbeitersiedlung_1779",
+      "ort": "Arc",
+      "projekt": "et Sensans Salzfabrik mit Arbeitersiedlung",
+      "jahre": [
+        "1779"
+      ],
+      "titel": "Arc et Sensans Salzfabrik mit Arbeitersiedlung 1779"
+    },
+    {
+      "raw": "Burgee, John Henry",
+      "ort": "Burgee, John Henry",
+      "projekt": "Burgee, John Henry",
+      "jahre": [],
+      "titel": "Burgee, John Henry"
+    },
+    {
+      "raw": "Cimetière de la ville de Chaux",
+      "ort": "Cimetière de la ville de Chaux",
+      "projekt": "Cimetière de la ville de Chaux",
+      "jahre": [],
+      "titel": "Cimetière de la ville de Chaux"
+    },
+    {
+      "raw": "Haus des Gärtners",
+      "ort": "Haus des Gärtners",
+      "projekt": "Haus des Gärtners",
+      "jahre": [],
+      "titel": "Haus des Gärtners"
+    },
+    {
+      "raw": "Haus_Programm",
+      "ort": "Haus",
+      "projekt": "Programm",
+      "jahre": [],
+      "titel": "Haus Programm"
+    },
+    {
+      "raw": "Haus_d'éducation",
+      "ort": "Haus",
+      "projekt": "d'éducation",
+      "jahre": [],
+      "titel": "Haus d'éducation"
+    },
+    {
+      "raw": "Haus_der_Kreise",
+      "ort": "Haus",
+      "projekt": "der Kreise",
+      "jahre": [],
+      "titel": "Haus der Kreise"
+    },
+    {
+      "raw": "Haus_des Directeurs de la Loue",
+      "ort": "Haus",
+      "projekt": "des Directeurs de la Loue",
+      "jahre": [],
+      "titel": "Haus des Directeurs de la Loue"
+    },
+    {
+      "raw": "Haus_des_Vereins",
+      "ort": "Haus",
+      "projekt": "des Vereins",
+      "jahre": [],
+      "titel": "Haus des Vereins"
+    },
+    {
+      "raw": "Haus_of Agricultural Guadrs of Maupertuis",
+      "ort": "Haus",
+      "projekt": "of Agricultural Guadrs of Maupertuis",
+      "jahre": [],
+      "titel": "Haus of Agricultural Guadrs of Maupertuis"
+    },
+    {
+      "raw": "Haus_of the Surveyors of the Loue River",
+      "ort": "Haus",
+      "projekt": "of the Surveyors of the Loue River",
+      "jahre": [],
+      "titel": "Haus of the Surveyors of the Loue River"
+    },
+    {
+      "raw": "Haus_of_supervisors_of_the_source_of_the_Loue",
+      "ort": "Haus",
+      "projekt": "of supervisors of the source of the Loue",
+      "jahre": [],
+      "titel": "Haus of supervisors of the source of the Loue"
+    },
+    {
+      "raw": "Market of Chaux",
+      "ort": "Market of Chaux",
+      "projekt": "Market of Chaux",
+      "jahre": [],
+      "titel": "Market of Chaux"
+    },
+    {
+      "raw": "Memorial_ledoux",
+      "ort": "Memorial",
+      "projekt": "ledoux",
+      "jahre": [],
+      "titel": "Memorial ledoux"
+    },
+    {
+      "raw": "Rendez-vous de chasse",
+      "ort": "Rendez-vous de chasse",
+      "projekt": "Rendez-vous de chasse",
+      "jahre": [],
+      "titel": "Rendez-vous de chasse"
+    }
+  ],
+  "projekt_anzahl": 16,
+  "inventar": {
+    "bilder": 39,
+    "dokumente": 2,
+    "cad": 0,
+    "andere": 1,
+    "total": 42
+  },
+  "dateitypen": {
+    ".jpg": 32,
+    ".png": 3,
+    ".pdf": 2,
+    ".tif": 2,
+    ".gif": 2,
+    ".psd": 1
+  },
+  "textauszug": "Ledoux, Claude Nicolas. Paris, Zollhaus von Enfer (Place Denfert-Rochereau), 1784 bis 1789. Boulée, Etienne Louis. Kenotaph (Ehrengrabmahl) für Newton, Projekt, 1784. Freitag, 12. März 2010",
+  "embed_doc": "Ledoux Claude Nicolas | 00 Architekten | Arc et Sensans Salzfabrik mit Arbeitersiedlung 1779 | Burgee, John Henry Burgee, John Henry | Cimetière de la ville de Chaux Cimetière de la ville de Chaux | Haus des Gärtners Haus des Gärtners | Haus Programm | Haus d'éducation | Haus der Kreise | Haus des Directeurs de la Loue | Haus des Vereins | Haus of Agricultural Guadrs of Maupertuis | Haus of the Surveyors of the Loue River | Haus of supervisors of the source of the Loue | Market of Chaux Market of Chaux | Memorial ledoux | Rendez-vous de chasse Rendez-vous de chasse | Ledoux, Claude Nicolas. Paris, Zollhaus von Enfer (Place Denfert-Rochereau), 1784 bis 1789. Boulée, Etienne Louis. Kenotaph (Ehrengrabmahl) für Newton, Projekt, 1784. Freitag, 12. März 2010",
+  "stand": "2026-07-02T21:42:36"
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "Bazzani_Cesare",
+  "architekt": {
+    "name": "Bazzani Cesare",
+    "nachname": "Bazzani",
+    "vorname": "Cesare",
+    "jahre": [],
+    "ordner": "Bazzani_Cesare"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Bazzani_Cesare",
+  "projekte": [
+    {
+      "raw": "Rom_GNAM_Galleria_Nazionale_d'arte_moderna_1911",
+      "ort": "Rom",
+      "projekt": "GNAM Galleria Nazionale d'arte moderna",
+      "jahre": [
+        "1911"
+      ],
+      "titel": "Rom GNAM Galleria Nazionale d'arte moderna 1911"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Bazzani Cesare | Rom GNAM Galleria Nazionale d'arte moderna 1911",
+  "stand": "2026-07-02T21:07:24"
+}

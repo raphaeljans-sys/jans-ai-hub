@@ -1,0 +1,85 @@
+{
+  "slug": "Morris_William",
+  "architekt": {
+    "name": "Morris William",
+    "nachname": "Morris",
+    "vorname": "William",
+    "jahre": [],
+    "ordner": "Morris_William"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Morris_William",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "01_Projekte",
+      "ort": "01",
+      "projekt": "Projekte",
+      "jahre": [],
+      "titel": "01 Projekte"
+    },
+    {
+      "raw": "02_Wettbewerb",
+      "ort": "02",
+      "projekt": "Wettbewerb",
+      "jahre": [],
+      "titel": "02 Wettbewerb"
+    },
+    {
+      "raw": "03_Ausstellungen",
+      "ort": "03",
+      "projekt": "Ausstellungen",
+      "jahre": [],
+      "titel": "03 Ausstellungen"
+    },
+    {
+      "raw": "04_Literatur",
+      "ort": "04",
+      "projekt": "Literatur",
+      "jahre": [],
+      "titel": "04 Literatur"
+    },
+    {
+      "raw": "05_Referenzen",
+      "ort": "05",
+      "projekt": "Referenzen",
+      "jahre": [],
+      "titel": "05 Referenzen"
+    },
+    {
+      "raw": "06_Vortrag",
+      "ort": "06",
+      "projekt": "Vortrag",
+      "jahre": [],
+      "titel": "06 Vortrag"
+    },
+    {
+      "raw": "07_Lehre",
+      "ort": "07",
+      "projekt": "Lehre",
+      "jahre": [],
+      "titel": "07 Lehre"
+    }
+  ],
+  "projekt_anzahl": 8,
+  "inventar": {
+    "bilder": 9,
+    "dokumente": 5,
+    "cad": 0,
+    "andere": 0,
+    "total": 14
+  },
+  "dateitypen": {
+    ".png": 5,
+    ".pdf": 5,
+    ".jpg": 4
+  },
+  "textauszug": "William Morris, Queen Guenevere, 1858. William Morris, Dante Gabriel Rossetti und Edward Burne Jones, Ausmalung Debating Hall (heute Library), Oxford Union Society Building, Oxford, 1857. Dante Gabriel Rossetti, Jane Morris, 1871. Donnerstag, 15. April 2010 Musterbuch von Morris, Marshall, Faulkner & Co., um 1865 bis 1893. William Morris, «Schwarzdorn», Tapete, 1892. William Morris, «Spalier», Tapete, 1862, Entwurf Vögel: Philip Webb. Donnerstag, 15. April 2010 Morris, Marshall, Faulkner & Co., Armlehnstuhl nach traditionellem Vorbild («Morris Chair»), ab 1870. Morris, Marshall, Faulkner & Co. (Philip Webb, William Morris), Green Dining Room, South Kensington Museum (heute Victoria & Albert Museum), London, 1866–1869. Donnerstag, 15. April 2010 William Morris, News from Nowhere, 1891, Titelblatt. Donnerstag, 15. April 2010",
+  "embed_doc": "Morris William | 00 Architekten | 01 Projekte | 02 Wettbewerb | 03 Ausstellungen | 04 Literatur | 05 Referenzen | 06 Vortrag | 07 Lehre | William Morris, Queen Guenevere, 1858. William Morris, Dante Gabriel Rossetti und Edward Burne Jones, Ausmalung Debating Hall (heute Library), Oxford Union Society Building, Oxford, 1857. Dante Gabriel Rossetti, Jane Morris, 1871. Donnerstag, 15. April 2010 Musterbuch von Morris, Marshall, Faulkner & Co., um 1865 bis 1893. William Morris, «Schwarzdorn», Tapete, 1892. William Morris, «Spalier», Tapete, 1862, Entwurf Vögel: Philip Webb. Donnerstag, 15. April 2010 Morris, Marshall, Faulkner & Co., Armlehnstuhl nach traditionellem Vorbild («Morris Chair»), ab 1870. Morris, Marshall, Faulkner & Co. (Philip Webb, William Morris), Green Dining Room, South Kensington Museum (heute Victoria & Albert Museum), London, 1866–1869. Donnerstag, 15. April 2010 William Morris, News from Nowhere, 1891, Titelblatt. Donnerstag, 15. April 2010",
+  "stand": "2026-07-02T22:42:19"
+}

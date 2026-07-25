@@ -1,0 +1,37 @@
+{
+  "slug": "Rowntree_Kenneth__1915_1997",
+  "architekt": {
+    "name": "Rowntree Kenneth  1915 1997",
+    "nachname": "Rowntree",
+    "vorname": "Kenneth ",
+    "jahre": [
+      "1915",
+      "1997"
+    ],
+    "ordner": "Rowntree_Kenneth _1915_1997"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Rowntree_Kenneth _1915_1997",
+  "projekte": [
+    {
+      "raw": "London_British_Restaurant_Acton_with mural decoration_designed_by_Kenneth_Rowntree",
+      "ort": "London",
+      "projekt": "British Restaurant Acton with mural decoration designed by Kenneth Rowntree",
+      "jahre": [],
+      "titel": "London British Restaurant Acton with mural decoration designed by Kenneth Rowntree"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Rowntree Kenneth 1915 1997 | London British Restaurant Acton with mural decoration designed by Kenneth Rowntree",
+  "stand": "2026-07-02T22:46:25"
+}

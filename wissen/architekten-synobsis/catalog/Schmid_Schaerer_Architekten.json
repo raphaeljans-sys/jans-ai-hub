@@ -1,0 +1,26 @@
+{
+  "slug": "Schmid_Schaerer_Architekten",
+  "architekt": {
+    "name": "Schmid Schaerer Architekten",
+    "nachname": "Schmid",
+    "vorname": "Schaerer Architekten",
+    "jahre": [],
+    "ordner": "Schmid_Schaerer_Architekten"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Schmid_Schaerer_Architekten",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 3,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 3
+  },
+  "dateitypen": {
+    ".jpg": 3
+  },
+  "textauszug": "",
+  "embed_doc": "Schmid Schaerer Architekten",
+  "stand": "2026-07-02T22:47:16"
+}

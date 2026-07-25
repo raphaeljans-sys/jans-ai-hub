@@ -1,0 +1,34 @@
+{
+  "slug": "Strnad_Lurje",
+  "architekt": {
+    "name": "Strnad Lurje",
+    "nachname": "Strnad",
+    "vorname": "Lurje",
+    "jahre": [],
+    "ordner": "Strnad_Lurje"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Strnad_Lurje",
+  "projekte": [
+    {
+      "raw": "Wien_Haus_Oskar_Hock_Cobenzlgasse_71",
+      "ort": "Wien",
+      "projekt": "Haus Oskar Hock Cobenzlgasse 71",
+      "jahre": [],
+      "titel": "Wien Haus Oskar Hock Cobenzlgasse 71"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 3,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 3
+  },
+  "dateitypen": {
+    ".jpg": 3
+  },
+  "textauszug": "",
+  "embed_doc": "Strnad Lurje | Wien Haus Oskar Hock Cobenzlgasse 71",
+  "stand": "2026-07-02T22:49:30"
+}

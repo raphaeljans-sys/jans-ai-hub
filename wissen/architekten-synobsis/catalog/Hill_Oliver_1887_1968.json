@@ -1,0 +1,37 @@
+{
+  "slug": "Hill_Oliver_1887_1968",
+  "architekt": {
+    "name": "Hill Oliver 1887 1968",
+    "nachname": "Hill",
+    "vorname": "Oliver",
+    "jahre": [
+      "1887",
+      "1968"
+    ],
+    "ordner": "Hill_Oliver_1887_1968"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Hill_Oliver_1887_1968",
+  "projekte": [
+    {
+      "raw": "Midland Hotel, Morecambe, Lancashire",
+      "ort": "Midland Hotel, Morecambe, Lancashire",
+      "projekt": "Midland Hotel, Morecambe, Lancashire",
+      "jahre": [],
+      "titel": "Midland Hotel, Morecambe, Lancashire"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 3,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 3
+  },
+  "dateitypen": {
+    ".jpg": 3
+  },
+  "textauszug": "",
+  "embed_doc": "Hill Oliver 1887 1968 | Midland Hotel, Morecambe, Lancashire Midland Hotel, Morecambe, Lancashire",
+  "stand": "2026-07-02T21:17:40"
+}

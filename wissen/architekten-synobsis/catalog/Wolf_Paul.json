@@ -1,0 +1,36 @@
+{
+  "slug": "Wolf_Paul",
+  "architekt": {
+    "name": "Wolf Paul",
+    "nachname": "Wolf",
+    "vorname": "Paul",
+    "jahre": [],
+    "ordner": "Wolf_Paul"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Wolf_Paul",
+  "projekte": [
+    {
+      "raw": "Berlin_Schoeneberg_Ceciliengaerten_1920_27",
+      "ort": "Berlin",
+      "projekt": "Schoeneberg Ceciliengaerten 27",
+      "jahre": [
+        "1920"
+      ],
+      "titel": "Berlin Schoeneberg Ceciliengaerten 1920 27"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 3,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 3
+  },
+  "dateitypen": {
+    ".jpg": 3
+  },
+  "textauszug": "",
+  "embed_doc": "Wolf Paul | Berlin Schoeneberg Ceciliengaerten 27 1920",
+  "stand": "2026-07-02T22:51:32"
+}

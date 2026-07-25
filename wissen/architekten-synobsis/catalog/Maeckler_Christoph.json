@@ -1,0 +1,43 @@
+{
+  "slug": "Maeckler_Christoph",
+  "architekt": {
+    "name": "Maeckler Christoph",
+    "nachname": "Maeckler",
+    "vorname": "Christoph",
+    "jahre": [],
+    "ordner": "Maeckler_Christoph"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Maeckler_Christoph",
+  "projekte": [
+    {
+      "raw": "Berlin_Zoofenster",
+      "ort": "Berlin",
+      "projekt": "Zoofenster",
+      "jahre": [],
+      "titel": "Berlin Zoofenster"
+    },
+    {
+      "raw": "Frankfurt_Tower_185",
+      "ort": "Frankfurt",
+      "projekt": "Tower 185",
+      "jahre": [],
+      "titel": "Frankfurt Tower 185"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 23,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 23
+  },
+  "dateitypen": {
+    ".jpg": 17,
+    ".png": 4,
+    ".jpeg": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Maeckler Christoph | Berlin Zoofenster | Frankfurt Tower 185",
+  "stand": "2026-07-02T22:39:40"
+}

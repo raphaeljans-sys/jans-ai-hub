@@ -1,0 +1,48 @@
+{
+  "slug": "Bramante_Donato",
+  "architekt": {
+    "name": "Bramante Donato",
+    "nachname": "Bramante",
+    "vorname": "Donato",
+    "jahre": [],
+    "ordner": "Bramante_Donato"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Bramante_Donato",
+  "projekte": [
+    {
+      "raw": "Belveder_Rom",
+      "ort": "Belveder",
+      "projekt": "Rom",
+      "jahre": [],
+      "titel": "Belveder Rom"
+    },
+    {
+      "raw": "Peters_Dom",
+      "ort": "Peters",
+      "projekt": "Dom",
+      "jahre": [],
+      "titel": "Peters Dom"
+    },
+    {
+      "raw": "Raffaels_Haus",
+      "ort": "Raffaels",
+      "projekt": "Haus",
+      "jahre": [],
+      "titel": "Raffaels Haus"
+    }
+  ],
+  "projekt_anzahl": 3,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".jpg": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Bramante Donato | Belveder Rom | Peters Dom | Raffaels Haus",
+  "stand": "2026-07-02T21:09:11"
+}

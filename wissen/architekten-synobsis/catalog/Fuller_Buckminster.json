@@ -1,0 +1,83 @@
+{
+  "slug": "Fuller_Buckminster",
+  "architekt": {
+    "name": "Fuller Buckminster",
+    "nachname": "Fuller",
+    "vorname": "Buckminster",
+    "jahre": [],
+    "ordner": "Fuller_Buckminster"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Fuller_Buckminster",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "01_Projekte",
+      "ort": "01",
+      "projekt": "Projekte",
+      "jahre": [],
+      "titel": "01 Projekte"
+    },
+    {
+      "raw": "02_Wettbewerb",
+      "ort": "02",
+      "projekt": "Wettbewerb",
+      "jahre": [],
+      "titel": "02 Wettbewerb"
+    },
+    {
+      "raw": "03_Ausstellungen",
+      "ort": "03",
+      "projekt": "Ausstellungen",
+      "jahre": [],
+      "titel": "03 Ausstellungen"
+    },
+    {
+      "raw": "04_Literatur",
+      "ort": "04",
+      "projekt": "Literatur",
+      "jahre": [],
+      "titel": "04 Literatur"
+    },
+    {
+      "raw": "05_Referenzen",
+      "ort": "05",
+      "projekt": "Referenzen",
+      "jahre": [],
+      "titel": "05 Referenzen"
+    },
+    {
+      "raw": "06_Vortrag",
+      "ort": "06",
+      "projekt": "Vortrag",
+      "jahre": [],
+      "titel": "06 Vortrag"
+    },
+    {
+      "raw": "07_Lehre",
+      "ort": "07",
+      "projekt": "Lehre",
+      "jahre": [],
+      "titel": "07 Lehre"
+    }
+  ],
+  "projekt_anzahl": 8,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".pdf": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Fuller Buckminster | 00 Architekten | 01 Projekte | 02 Wettbewerb | 03 Ausstellungen | 04 Literatur | 05 Referenzen | 06 Vortrag | 07 Lehre",
+  "stand": "2026-07-02T21:15:25"
+}

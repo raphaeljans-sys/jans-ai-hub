@@ -1,0 +1,41 @@
+{
+  "slug": "Graber_Pulver",
+  "architekt": {
+    "name": "Graber Pulver",
+    "nachname": "Graber Pulver",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Graber Pulver"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Graber Pulver",
+  "projekte": [
+    {
+      "raw": "Luzern Wesemlin",
+      "ort": "Luzern Wesemlin",
+      "projekt": "Luzern Wesemlin",
+      "jahre": [],
+      "titel": "Luzern Wesemlin"
+    },
+    {
+      "raw": "Rotkreuz",
+      "ort": "Rotkreuz",
+      "projekt": "Rotkreuz",
+      "jahre": [],
+      "titel": "Rotkreuz"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 11,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 11
+  },
+  "dateitypen": {
+    ".jpg": 11
+  },
+  "textauszug": "",
+  "embed_doc": "Graber Pulver | Luzern Wesemlin Luzern Wesemlin | Rotkreuz Rotkreuz",
+  "stand": "2026-07-02T21:16:32"
+}

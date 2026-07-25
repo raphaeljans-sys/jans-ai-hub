@@ -1,0 +1,43 @@
+{
+  "slug": "Gaudi_Antonio",
+  "architekt": {
+    "name": "Gaudi Antonio",
+    "nachname": "Gaudi",
+    "vorname": "Antonio",
+    "jahre": [],
+    "ordner": "Gaudi_Antonio"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Gaudi_Antonio",
+  "projekte": [
+    {
+      "raw": "Barcelona_casa_mila",
+      "ort": "Barcelona",
+      "projekt": "casa mila",
+      "jahre": [],
+      "titel": "Barcelona casa mila"
+    },
+    {
+      "raw": "Kirche",
+      "ort": "Kirche",
+      "projekt": "Kirche",
+      "jahre": [],
+      "titel": "Kirche"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 50,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 51
+  },
+  "dateitypen": {
+    ".jpg": 32,
+    ".png": 18,
+    ".pdf": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Gaudi Antonio | Barcelona casa mila | Kirche Kirche",
+  "stand": "2026-07-02T21:15:57"
+}

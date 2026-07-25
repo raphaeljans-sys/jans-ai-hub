@@ -1,0 +1,36 @@
+{
+  "slug": "Owen_William_Segar",
+  "architekt": {
+    "name": "Owen William Segar",
+    "nachname": "Owen",
+    "vorname": "William Segar",
+    "jahre": [],
+    "ordner": "Owen_William_Segar"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Owen_William_Segar",
+  "projekte": [
+    {
+      "raw": "Port_Sunligth_1910",
+      "ort": "Port",
+      "projekt": "Sunligth",
+      "jahre": [
+        "1910"
+      ],
+      "titel": "Port Sunligth 1910"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Owen William Segar | Port Sunligth 1910",
+  "stand": "2026-07-02T22:43:55"
+}

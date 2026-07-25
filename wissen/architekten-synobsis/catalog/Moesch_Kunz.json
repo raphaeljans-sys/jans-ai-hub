@@ -1,0 +1,26 @@
+{
+  "slug": "Moesch_Kunz",
+  "architekt": {
+    "name": "Moesch Kunz",
+    "nachname": "Moesch",
+    "vorname": "Kunz",
+    "jahre": [],
+    "ordner": "Moesch_Kunz"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Moesch_Kunz",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Moesch Kunz",
+  "stand": "2026-07-02T22:42:02"
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "Hadrians",
+  "architekt": {
+    "name": "Hadrians",
+    "nachname": "Hadrians",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Hadrians"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Hadrians",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 5,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 6
+  },
+  "dateitypen": {
+    ".jpg": 5,
+    ".pdf": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Hadrians",
+  "stand": "2026-07-02T21:16:47"
+}

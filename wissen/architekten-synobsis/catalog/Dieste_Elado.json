@@ -1,0 +1,26 @@
+{
+  "slug": "Dieste_Elado",
+  "architekt": {
+    "name": "Dieste Elado",
+    "nachname": "Dieste",
+    "vorname": "Elado",
+    "jahre": [],
+    "ordner": "Dieste_Elado"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Dieste_Elado",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".jpg": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Dieste Elado",
+  "stand": "2026-07-02T21:12:59"
+}

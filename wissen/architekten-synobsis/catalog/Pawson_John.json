@@ -1,0 +1,43 @@
+{
+  "slug": "Pawson_John",
+  "architekt": {
+    "name": "Pawson John",
+    "nachname": "Pawson",
+    "vorname": "John",
+    "jahre": [],
+    "ordner": "Pawson_John"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Pawson_John",
+  "projekte": [
+    {
+      "raw": "Architekt",
+      "ort": "Architekt",
+      "projekt": "Architekt",
+      "jahre": [],
+      "titel": "Architekt"
+    },
+    {
+      "raw": "London_Pawson_House",
+      "ort": "London",
+      "projekt": "Pawson House",
+      "jahre": [],
+      "titel": "London Pawson House"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 21,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 22
+  },
+  "dateitypen": {
+    ".tif": 16,
+    ".jpg": 5,
+    ".docx": 1
+  },
+  "textauszug": "http://www.johnpawson.com/architecture/martyrspavilion",
+  "embed_doc": "Pawson John | Architekt Architekt | London Pawson House | http://www.johnpawson.com/architecture/martyrspavilion",
+  "stand": "2026-07-02T22:44:08"
+}

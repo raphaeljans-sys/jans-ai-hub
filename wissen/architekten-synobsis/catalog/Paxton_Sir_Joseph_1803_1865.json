@@ -1,0 +1,37 @@
+{
+  "slug": "Paxton_Sir_Joseph_1803_1865",
+  "architekt": {
+    "name": "Paxton Sir Joseph 1803 1865",
+    "nachname": "Paxton",
+    "vorname": "Sir Joseph",
+    "jahre": [
+      "1803",
+      "1865"
+    ],
+    "ordner": "Paxton_Sir_Joseph_1803_1865"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Paxton_Sir_Joseph_1803_1865",
+  "projekte": [
+    {
+      "raw": "London_Crystal_Palace_Sydenham",
+      "ort": "London",
+      "projekt": "Crystal Palace Sydenham",
+      "jahre": [],
+      "titel": "London Crystal Palace Sydenham"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 2
+  },
+  "dateitypen": {
+    ".jpg": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Paxton Sir Joseph 1803 1865 | London Crystal Palace Sydenham",
+  "stand": "2026-07-02T22:44:09"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "Hetzberger_Hermann",
+  "architekt": {
+    "name": "Hetzberger Hermann",
+    "nachname": "Hetzberger",
+    "vorname": "Hermann",
+    "jahre": [],
+    "ordner": "Hetzberger_Hermann"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Hetzberger_Hermann",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 4,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 4
+  },
+  "dateitypen": {
+    ".tiff": 4
+  },
+  "textauszug": "",
+  "embed_doc": "Hetzberger Hermann",
+  "stand": "2026-07-02T21:17:39"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "Schneider_Studer_Primas",
+  "architekt": {
+    "name": "Schneider Studer Primas",
+    "nachname": "Schneider",
+    "vorname": "Studer Primas",
+    "jahre": [],
+    "ordner": "Schneider_Studer_Primas"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Schneider_Studer_Primas",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 5,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 5
+  },
+  "dateitypen": {
+    ".jpg": 5
+  },
+  "textauszug": "",
+  "embed_doc": "Schneider Studer Primas",
+  "stand": "2026-07-02T22:47:21"
+}

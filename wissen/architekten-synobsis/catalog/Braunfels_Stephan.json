@@ -1,0 +1,63 @@
+{
+  "slug": "Braunfels_Stephan",
+  "architekt": {
+    "name": "Braunfels Stephan",
+    "nachname": "Braunfels",
+    "vorname": "Stephan",
+    "jahre": [],
+    "ordner": "Braunfels_Stephan"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Braunfels_Stephan",
+  "projekte": [
+    {
+      "raw": "Deutsches_Schifffahrtsmuseum",
+      "ort": "Deutsches",
+      "projekt": "Schifffahrtsmuseum",
+      "jahre": [],
+      "titel": "Deutsches Schifffahrtsmuseum"
+    },
+    {
+      "raw": "Erweiterung_Luedershaus",
+      "ort": "Erweiterung",
+      "projekt": "Luedershaus",
+      "jahre": [],
+      "titel": "Erweiterung Luedershaus"
+    },
+    {
+      "raw": "Muenchen_Ueberbauung_Maximilian_Platz",
+      "ort": "Muenchen",
+      "projekt": "Ueberbauung Maximilian Platz",
+      "jahre": [],
+      "titel": "Muenchen Ueberbauung Maximilian Platz"
+    },
+    {
+      "raw": "bühnen_am_offenbachplatz",
+      "ort": "bühnen",
+      "projekt": "am offenbachplatz",
+      "jahre": [],
+      "titel": "bühnen am offenbachplatz"
+    },
+    {
+      "raw": "saarphilharmonie",
+      "ort": "saarphilharmonie",
+      "projekt": "saarphilharmonie",
+      "jahre": [],
+      "titel": "saarphilharmonie"
+    }
+  ],
+  "projekt_anzahl": 5,
+  "inventar": {
+    "bilder": 26,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 26
+  },
+  "dateitypen": {
+    ".jpg": 24,
+    ".png": 2
+  },
+  "textauszug": "",
+  "embed_doc": "Braunfels Stephan | Deutsches Schifffahrtsmuseum | Erweiterung Luedershaus | Muenchen Ueberbauung Maximilian Platz | bühnen am offenbachplatz | saarphilharmonie saarphilharmonie",
+  "stand": "2026-07-02T21:09:20"
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "Abraham_Raimund",
+  "architekt": {
+    "name": "Abraham Raimund",
+    "nachname": "Abraham",
+    "vorname": "Raimund",
+    "jahre": [],
+    "ordner": "Abraham_Raimund"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Abraham_Raimund",
+  "projekte": [
+    {
+      "raw": "Haus_der_Musik",
+      "ort": "Haus",
+      "projekt": "der Musik",
+      "jahre": [],
+      "titel": "Haus der Musik"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 10,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 10
+  },
+  "dateitypen": {
+    ".jpg": 10
+  },
+  "textauszug": "",
+  "embed_doc": "Abraham Raimund | Haus der Musik",
+  "stand": "2026-07-02T21:05:23"
+}

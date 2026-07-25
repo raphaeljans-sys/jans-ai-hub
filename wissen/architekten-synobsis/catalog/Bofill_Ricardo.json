@@ -1,0 +1,43 @@
+{
+  "slug": "Bofill_Ricardo",
+  "architekt": {
+    "name": "Bofill Ricardo",
+    "nachname": "Bofill",
+    "vorname": "Ricardo",
+    "jahre": [],
+    "ordner": "Bofill_Ricardo"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Bofill_Ricardo",
+  "projekte": [
+    {
+      "raw": "Nicaragua_Calle",
+      "ort": "Nicaragua",
+      "projekt": "Calle",
+      "jahre": [],
+      "titel": "Nicaragua Calle"
+    },
+    {
+      "raw": "showarch",
+      "ort": "showarch",
+      "projekt": "showarch",
+      "jahre": [],
+      "titel": "showarch"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 12,
+    "dokumente": 3,
+    "cad": 0,
+    "andere": 1,
+    "total": 16
+  },
+  "dateitypen": {
+    ".jpg": 12,
+    ".pdf": 3,
+    ".zip": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Bofill Ricardo | Nicaragua Calle | showarch showarch",
+  "stand": "2026-07-02T21:08:53"
+}

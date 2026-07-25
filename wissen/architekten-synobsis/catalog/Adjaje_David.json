@@ -1,0 +1,42 @@
+{
+  "slug": "Adjaje_David",
+  "architekt": {
+    "name": "Adjaje David",
+    "nachname": "Adjaje",
+    "vorname": "David",
+    "jahre": [],
+    "ordner": "Adjaje_David"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Adjaje_David",
+  "projekte": [
+    {
+      "raw": "Dachausbauten",
+      "ort": "Dachausbauten",
+      "projekt": "Dachausbauten",
+      "jahre": [],
+      "titel": "Dachausbauten"
+    },
+    {
+      "raw": "Haus Swarovski",
+      "ort": "Haus Swarovski",
+      "projekt": "Haus Swarovski",
+      "jahre": [],
+      "titel": "Haus Swarovski"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 10,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 10
+  },
+  "dateitypen": {
+    ".tif": 9,
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Adjaje David | Dachausbauten Dachausbauten | Haus Swarovski Haus Swarovski",
+  "stand": "2026-07-02T21:05:26"
+}

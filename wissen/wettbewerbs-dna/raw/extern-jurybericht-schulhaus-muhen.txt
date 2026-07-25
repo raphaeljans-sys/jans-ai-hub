@@ -1,0 +1,936 @@
+# Quelle: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2102 WB Muttenz/07 Referenzen/12 Berichte/Muhen 20150610160457_133_2015_jurybericht_schulhaus_muhen.pdf
+# Extrakt: 12.07.2026 — PDF ist Bild-Scan ohne Textlayer (pdffonts leer); OCR via tesseract 200 dpi -l deu.
+# Umfang: relevante Teile (S. 1, 5-15 Einleitung/Verfahren/Aufgabe/Beurteilung/Rangierung/Wuerdigung, S. 17-28 Projektbeschriebe Rang 1-3). Plan-/Bildseiten und Raenge 4-8 nicht extrahiert.
+# Hinweis: OCR-Fehler moeglich (z.B. 'ı' statt '1').
+
+===== [PDF-Seite 01] =====
+Projektwettbewerb
+
+— Ersatzneubau Schulhaus
+und Turnhalle Süd
+
+Bericht des Preisgerichtes
+
+Gemeinde Muhen
+April 2015
+
+metron
+
+===== [PDF-Seite 05] =====
+Projektwettbewerb Ersatzneubau Schulhaus und Turnhalle Süd | Einleitung 5
+
+ı Einleitung
+
+Ausgangslage
+
+Ausgelöst durch den Grundsatzentscheid zur Stärkung der Volksschule Aargau führte
+die Schule Muhen im Jahr 2012 eine Schulraumplanung durch. Dabei stellte sich neben
+den erforderlichen Raumrochaden sowie der Deckung des Mehrbedarfs an Flächen die
+Frage des Zustandes der baulichen Schulinfrastruktur. Die Turnhalle mit Mehrzweck-
+raum sowie das Schulhaus Süd sind baulich in einem schlechten Zustand.
+
+Die Schulraumplanung umfasste eine Schülerprognose für die nächsten 10 Jahre, ba-
+sierend auf der Bevölkerungsentwicklung der Gemeinde. Zudem wurden eine qualita-
+tive und quantitative Raumbilanzierung sowie Bedarfsabklärung durchgeführt. Auf der
+Grundlage dieser Ergebnisse wurden zwei Belegungskonzepte ausgearbeitet: Einer Ge-
+samtsanierung des Schulhauses und der Turnhalle Süd wurde ein Ersatzneubau gegen-
+übergestellt.
+
+Im Rahmen der Gegenüberstellung dieser Varianten konnte aufgezeigt werden, dass die
+Variante Ersatzneubau zwar leicht teurer ist, jedoch deutlich besser auf die Nutzerbe-
+dürfnisse abgestimmt werden kann und eine hohe Flexibilität aufweist. Da der Neubau
+kompakter erstellt werden kann und dem neusten Stand der Technik entspricht, lässt
+dies zudem tiefere Unterhalts- und Betriebskosten erwarten.
+
+Die Arbeitsgruppe Schulraumplanung hat sich nach eingehender Diskussion entschie-
+den, den Neubau Schulhaus und Turnhalle weiterzuverfolgen. Zur Abdeckung der Be-
+dürfnisse von Schule und Vereinen wurde die Variante mit einer Doppelhalle favorisiert.
+
+Die Einwohner von Muhen haben an der Gemeindeversammlung vom 22. November
+2013 dem Projektierungskredit für einen Ersatzneubau von Turnhalle (Doppelhalle)
+und Schulhaus Süd zugestimmt.
+
+Mit einem Projektwettbewerb mit vorgängiger Präqualifikation sollten ein qualitativ
+hochstehendes Projekt sowie die Partner zu dessen Projektierung und Realisierung be-
+stimmt werden.
+
+Legende:
+
+ı Schulhaus Ost
+
+2 Turnhalle Süd
+
+3 Schulhaus Süd
+
+4 Schulhaus Nord
+
+5 Turnhalle
+
+6 Mehrzweckgebäude
+
+7 Kindergarten
+
+8 Gemeindehaus
+
+Schulanlage Muhen
+
+
+===== [PDF-Seite 06] =====
+Projektwettbewerb Ersatzneubau Schulhaus und Turnhalle Süd | Verfahren 6
+
+2 Verfahren
+Auftraggeberin, Gegenstand
+
+Die Gemeide Muhen führte für die Vergabe der Planerleistungen für den Ersatzneubau
+Schulhaus und Turnhalle Süd einen Projektwettbewerb im selektiven Verfahren mit vor-
+gelagerter Präqualifikation durch.
+
+Wettbewerbsverfahren
+
+Das Wettbewerbsverfahren unterstand dem GATT/WTO-Übereinkommen über das öf-
+fentliche Beschaffungswesen und dem Binnenmarktgesetz. Die Auftragsvergabe für die
+Planerleistungen erfolgte in Anwendung von Art. 12 Abs. ı Bst. B und Abs. 3 der Inter-
+kantonalen Vereinbarung über das öffentliche Beschaffungswesen vom 15. März 2001
+(IVöB) über einen Planungswettbewerb im selektiven Verfahren. Die Auftragsvergabe
+für Architektur- und Planerleistungen erfolgte gestützt auf 8 8 Abs. ı Submissionsdekret
+(SubmD) Kanton Aargau. Die Ordnung SIA 142, 2009 galt.
+
+Die Verfahrenssprache war Deutsch. Unterlagen für die Präqualifikation sowie für den
+Projektwettbewerb mussten in deutscher Sprache eingereicht werden. Mündliche Aus-
+künfte wurden nicht erteilt. Es war keine öffentliche Beurteilung der Präqualifikation
+und der Projektvorschläge vorgesehen.
+
+Die zur Teilnahme eingeladenen Generalplanerteams erarbeiteten Projektvorschläge für
+den Ersatzneubau Schulhaus und Turnhalle Süd. Der Projektwettbewerb wurde anonym
+durchgeführt.
+
+Teilnahmebedingungen
+
+Die Teilnahme am Präqualifikationsverfahren stand allen Generalplanerteams mit Sitz
+oder Niederlassung in der Schweiz oder in einem Vertragsstaat des GATT/WTO-Über-
+einkommens über das Beschaffungswesen, soweit dieser Staat Gegenrecht gewährt, of-
+fen. Die Zusammensetzung der Generalplanerteams hatte zwingend aus Fachleuten der
+Bereiche Architektur / Städtebau (Generalplaner und Gesamtverantwortung), Bauinge-
+nieurwesen, Landschaftsarchitektur, Gebäudetechnik HLKS und Gebäudetechnik Elek-
+tro zu erfolgen. Es stand den teilnehmenden Büros offen, eine Teambildung mit weite-
+ren Fachplanern vorzunehmen. Die Mitarbeit von Fachplanern in mehreren Teams war
+mit Ausnahme des Bereichs Architektur / Städtebau zulässig.
+
+Präqualifikation
+
+Im Rahmen der öffentlich ausgeschriebenen Präqualifikation konnten sich interessierte
+Generalplanerteams für die Teilnahme am Projektwettbewerb bewerben. Sie hatten ihre
+gestalterische, technische, personelle und organisatorische Leistungsfähigkeit sowie
+ihre Erfahrung mit vergleichbaren Objekten darzulegen. Im Präqualifikationsverfahren
+wählte das Preisgericht aus den 51 eingegangenen Bewerbungen 8 Generalplanerteams
+(davon 2 im Sinne der Nachwuchsförderung) aus, welche zur Teilnahme am anschlies-
+senden Projektwettbewerb eingeladen wurden.
+
+
+===== [PDF-Seite 07] =====
+Projektwettbewerb Ersatzneubau Schulhaus und Turnhalle Süd | Verfahren 7
+
+Preissumme
+
+Für die Einreichung der Beiträge zum Projektwettbewerb standen dem Preisgericht für
+mindestens 5 Preise, Ankäufe und Festentschädigungen insgesamt CHF 180‘000.- (exkl.
+MwSt.) zur Verfügung.
+
+Weiterbearbeitung
+
+Die Veranstalterin beabsichtigt, entsprechend dem Resultat der Beurteilung und den
+Empfehlungen des Preisgerichts, das Generalplanerteam des vom Preisgericht zur Aus-
+führung empfohlenen Projekts mit der Weiterbearbeitung der Aufgabe für die Projek-
+tierung und Realisierung zu beauftragen (Architekturleistungen mind. 60 Teilleistungs-
+prozente gemäss SIA 112).
+
+Die Planungsleistungen für Vorprojekt und Bauprojekt inkl. Kostenvoranschlag (ohne
+Bewilligungsverfahren) sindim Rahmen des bewilligten Planungskredites gesichert. Die
+weiterführenden Planungs- und Realisierungsleistungen sind Bestandteil des Baukredi-
+tes, der voraussichtlich im Sommer 2016 beantragt wird.
+
+Fakultativ beigezogene Fachplaner werden, sofern sie einen wesentlichen Beitrag am
+Wettbewerbsprojekt leisten oder als Miturheber Bestandteil des Wettbewerbsprojektes
+sind, nach Abschluss des Wettbewerbsverfahrens zur Offertstellung eingeladen.
+
+Vorbehalten bleiben die Kreditgenehmigung und Bewilligung übergeordneter Instan-
+zen sowie die etappenweise Realisierung des Gesamtprojektes.
+
+Termine Wettbeweb
+Präqualifikation
+- Publikation Präqualifikation 27.06.2014
+— Eingabefrist Bewerbungen 22.08.2014
+— Beurteilung 23.09.2014
+Projektwettbewerb
+— Startveranstaltung, Abgabe der Unterlagen 21.10.2014
+— Abgabe Projektvorschläge Pläne / Modelle 09./16.02.2015
+— Jurierung 10./24.03.2015
+
+— Publikation, Ausstellung Mitte/Ende Mai 2015
+
+
+===== [PDF-Seite 08] =====
+Projektwettbewerb Ersatzneubau Schulhaus und Turnhalle Süd | Preisgericht 8
+
+3 Preisgericht
+
+Zur Beurteilung des Projektwettbewerbes setzte die Auftraggeberin folgendes
+Preisgericht ein:
+
+Sachpreisrichter (stimmberechtigt)
+
+Andreas Urech, Gemeindeammann, Gemeinde Muhen (Vorsitz)
+Nils Hunziker, Schulpflege, Schule Muhen
+
+Roger Zimmermann, Vertreter Vereine
+
+Fachpreisrichter/-innen (stimmberechtigt)
+
+Ruedi Dietiker, Dipl. Architekt ETH / SIA, Brugg
+
+Pius Flury, Dipl. Architekt ETH / SIA, Solothurn
+
+Peter Frei, Dipl. Architekt ETH / BSA / SIA, Aarau
+
+Beatrice Friedli, Landschaftsarchitektin HTL / BSLA / SWB, Bern
+
+Experten (ohne Stimmrecht)
+
+Philipp Grolimund, Schulleitung, Schule Muhen
+
+Konrad Kissling, Kostenplaner, Metron Architektur AG
+
+Angelo Lozza, Haustechnik / Energie, Lozza Energie und Gebäudetechnik
+Andreas Schmucki, Bauverwalter, Gemeinde Muhen
+
+Fachliche Begleitung und Vorprüfung
+Die Vorbereitung und Begleitung sowie die Vorprüfung des Projektwettbewerbes er-
+folgten unter Federführung der Metron Raumentwicklung AG in Brugg.
+
+Kati Grzybowski, Metron Raumentwicklung AG
+Dajana Bässler, Metron Raumentwicklung AG
+
+weitere Beteiligte an der Vorprüfung:
+Erik Hansen, Aargauischen Gebäudeversicherung (AGV)
+
+
+===== [PDF-Seite 09] =====
+Projektwettbewerb Ersatzneubau Schulhaus und Turnhalle Süd | Aufgabenstellung 9
+
+4 Aufgabenstellung
+Zielsetzung
+
+Mit dem Neubau des Schulhauses und der Turnhalle sollen die baulichen und infra-
+strukturellen Voraussetzungen für einen modernen Schulbetrieb geschaffen sowie die
+Schulanlage räumlich strukturiert und gegliedert werden. Die bestehenden Gebäude
+Schulhaus und Turnhalle Süd sollen abgebrochen werden. Der Aussenraum ist so aufzu-
+werten, dass dessen Nutzbarkeit auch ausserhalb der Unterrichtszeiten erhöht werden
+kann. Unter Berücksichtigung der baurechtlichen Rahmenbedingungen und des Raum-
+programms war im Rahmen des Wettbewerbs ein qualitativ hochwertiges Projekt für
+einen kompakten Ersatzneubau zu entwickeln. Die Bauarbeiten sollen unter laufendem
+Schulbetrieb stattfinden. Eine hohe architektonische Kompetenz sowie Qualität und
+Kostensicherheit sind Voraussetzungen für diese anspruchsvolle Bauaufgabe.
+
+Wettbewerbsperimeter
+
+Die Schulanlage Muhen befindet sich im Gemeindeteil Mittelmuhen und liegt an der
+Hauptstrasse. Die Schulanlage erstreckt sich westlich entlang der Hauptstrasse und der
+Wynental-/Suhrentalbahn. Dabei ist die Schulanlage im Norden über die Schulstrasse
+erschlossen oder auch fussläufig über eine südöstlich gelegene Unterführung zu errei-
+chen. Westlich grenzt der Fluss Suhre an die Parzelle. Da eine gesamthafte Betrachtung
+der Schulanlage gewünscht ist, erstreckt sich der Betrachtungsperimeter über die ge-
+samte Parzelle 1047. Die über Jahrzehnte immer wieder erweiterte Schulanlage sollte
+durch einen konzentrierten Eingriff mit einem Ersatzneubau aufgewertet werden.
+
+ E
+
+N
+=
+
+Wettbewerbsgrundlage Betrachtungs- (gelb) und Bearbei-
+tungsperimeter (hellblau), Ergebnis Machbarkeitsstudie (dun-
+kelblau), Grenzabstände zur Wynental- Suhrental-Bahn (pink)
+
+
+===== [PDF-Seite 10] =====
+Projektwettbewerb Ersatzneubau Schulhaus und Turnhalle Süd | Aufgabenstellung 10
+
+Erschliessung / Parkierung / Veloabstellplätze
+
+Die motorisierte Erschliessung erfolgt weiterhin durch einen Stich von der Schulstrasse
+auf das Schulareal. Die Anlieferung soll dies ebenfalls berücksichtigen. Die Gemeinde
+Muhen verfügt über keine kommunale Parkplatzrichtlinie, daher gilt als Berechnungs-
+grundlage die Norm SN 640 281.
+
+Zwischen dem Trassee der Wynental- und Suhrentalbahn und der neuen Anlage soll
+weiterhin eine multifunktionale Fläche zur Verfügung stehen, die bei Bedarf für ca. 15
+Parkplätze genutzt werden kann.
+
+Auszug aus dem Raumprogramm
+
+Die Eingangshalle der Schule und Sporthalle soll multifunktional ausgebildet werden.
+Die Erschliessung ist durch einen Lift sowie ein Treppenhaus sicherzustellen, so dass
+die Hindernisfreiheit gewährleistet ist. Schul- und Sportnutzungen sollen sich nicht be-
+einträchtigen. Eine betriebliche Trennung bspw. abends oder an den Wochenenden ist
+wünschenswert. Die Schulzimmer sollen multifunktional nutzbar sein und die Schule
+soll eine hohe Nutzungsflexibilität aufweisen.
+
+Kindergarten
+
+Die beiden Kindergartenabteilungen sollen betrieblich zusammengefasst werden. Es ist
+ein separater Garderobenbereich vorzusehen. Die zwei Abteilungen des Kindergartens
+sollen einen direkten Aussenraumbezug mit separatem Zugang aufweisen.
+
+Schule
+
+Das Foyer soll multifunktionale Nutzungen zulassen (Gruppenarbeiten, Schüleraufent-
+halt, Mittagstisch ete.). Die Schulsozialarbeit dient allen Schülern der Schule Muhen.
+Daher soll sie möglichst zentral angeordnet werden, um einen niederschwelligen Zugang
+zu ermöglichen. Die Unterrichtsräume sollen flexibel möblierbar sein. Die Gruppenräu-
+me sind möglichst zwischen den jeweiligen Unterrichtszimmern anzuordnen und sollen
+multifunktional nutzbar sein. Pro Unterrichtsraum soll ein Garderobenbereich vorgese-
+hen werden. Es ist mindestens eine Nasszelle pro Gebäude mit Lehrer-WC und einem
+behindertengerechten WC auszustatten.
+
+Turnhalle
+
+Die Sporthalle ist tagsüber in erster Linie dem Schulsportunterricht zugeordnet, abends
+und an den Wochenenden wird sie durch den Vereinssport genutzt. Zusätzlich soll die
+Halle auch für öffentliche Veranstaltungen genutzt werden können. Dementsprechend
+sind ein Foyer mit Garderobe sowie eine Küche zur Bewirtschaftung von Grossanläs-
+sen anzubieten. Die Bühne soll auch im schulischen Zusammenhang mehrfach nutzbar
+sein (Mehrzweckraum). Im Rahmen der öffentlichen Veranstaltungen ist sicherzustel-
+len, dass die Lagerräume der Vereine separat erschlossen werden können. Ein direkter
+Zugang von den Garderoben zum Aussensportplatz soll gewährleistet sein. Im Foyer ist
+ein entsprechender Bezug zur Sporthalle durch eine Tribüne oder eine Galerie für ca. 50
+Personen herzustellen.
+
+
+===== [PDF-Seite 11] =====
+Projektwettbewerb Ersatzneubau Schulhaus und Turnhalle Süd | Aufgabenstellung 11
+
+Aussenraum
+
+Der Pausenbereich der Schulanlage ist möglichst verkehrsfrei zu gestalten. Es ist ein
+gedeckter Pausenplatz allenfalls mit Sitzgelegenheiten anzubieten. Der Aussenbereich
+des Kindergartens ist vom übrigen Schulbereich möglichst zu trennen. Ein Hartplatz für
+Ballsportarten sowie ein Skaterplatz sollen auch weiterhin angeboten werden. Ein Be-
+reich des Areals soll als provisorischer Parkplatz bei Grossanlässen so wie als Zufahrt für
+Anlieferungen dienen können. Ein Aussengeräteraum mit direktem Bezug zum Sport-
+platz ist vorzusehen.
+
+Brandschutz / Hindernisfreies Bauen
+
+Es gelten die Brandschutznormen, die Brandschutzrichtlinien und die Brandschutzer-
+läuterungen der Vereinigung Kantonaler Feuerversicherungen VKF, Ausgabe 2015. Die
+Bauten und der Aussenraum müssen gemäss Behindertengleichstellungsgesetz (BehiG)
+und kantonalem Baugesetz (BauG) hindernisfrei gestaltet sein. Es gilt die Norm SIA 500
+(Ausgabe 2009). Zudem ist das Merkblatt 11/99, Schulbauten, Konzepte Anforderungen
+und Checkliste der Schweizerischen Fachstelle für behindertengerechtes Bauen zu be-
+rücksichtigen.
+
+Energie / Ökologie
+
+In Übereinstimmung mit dem Leitbild der Gemeinde Muhen soll der Ersatzneubau mög-
+lichst umweltschonend und nachhaltig erstellt und betrieben werden. Es wird eine ener-
+giesparende Bauweise gefordert. Die bestehende Fernwärmeanlage (Wärmeverbund/
+Fernleitung ab bestehender Gas-/Holzschnitzelheizung) bedient momentan die gesamte
+Schulanlage, den Kindergarten, das Gemeindehaus mit Geschäften, Post und Wohnun-
+gen sowie das Altersheim Muhen. Auf Grundlage einer Machbarkeitsabklärung im Rah-
+men der Schulraumstudie kann davon ausgegangen werden, dass das neue Gebäude mit
+energiesparenden Anlagen bestückt und an den bestehenden Fernwärmeverbund an-
+geschlossen werden kann. Im Rahmen des Wettbewerbs war durch die Planenden kein
+Minergie-Standard gefordert, jedoch eine Heizleistung analog Minergie-Standard (auf-
+grund der Auslastung der bestehenden Heizzentrale).
+
+
+===== [PDF-Seite 12] =====
+Projektwettbewerb Ersatzneubau Schulhaus und Turnhalle Süd | Beurteilung 12
+
+5 Beurteilung
+
+Die ‚Jurierung des Wettbewerbs fand am 10. und 24. März 2015 im Schulhaus Nord in
+Muhen statt. Am Vormittag des ı. Jurytages war eine Fachpreisrichterin nicht anwe-
+send. Wie im Wettbewerbsprogramm für diesen Fall vorgesehen, trat ein Sachpreisrich-
+ter (Herr Zimmermann) für diese Zeit von seinem Amt zurück und verzichtete auf sein
+Stimmrecht. Damit konnte zu jeder Zeit das Mehrheitsverhältnis zwischen Fach- und
+Sachpreisrichtern gewahrt und das Preisgericht beschlussfähig bleiben. Am zweiten Ju-
+rytag war das Preisgericht ganztags vollzählig anwesend und somit ebenfalls beschluss-
+fähig.
+
+Die Eingabefrist für die acht Projekte war im Wettbewerbsprogramm definiert: Für die
+Abgabe der Pläne war der 9. Februar 2015, 16.00 Uhr und für die Modelle der 16. Febru-
+ar 2015, 16.00 Uhr festgelegt.
+
+Vorprüfung
+
+Die Vorprüfung erfolgte vom 10. Februar bis 6. März 2015 unter Federführung der Me-
+tron Raumentwicklung AG. Die Projekte wurden im Hinblick auf die im Wettbewerbs-
+programm formulierten Rahmenbedingungen und Anforderungen geprüft. Die Ergeb-
+nisse wurden in einem nicht wertenden Bericht festgehalten, welcher dem Preisgericht
+zu Beginn des 1. Jurytages abgegeben wurde.
+
+Formelle Vorprüfung
+
+Alle acht im Rahmen der Präqualifikation zur Teilnahme am Projektwettbewerb aus-
+gewählten Teams haben ihren Projektvorschlag fristgerecht und unter Einhaltung der
+Anonymität eingereicht. Sämtliche Abweichungen bezüglich der geforderten Leistungen
+wurden im Vorprüfungsbericht vermerkt. Bei einigen Projekten wurden geringfügige
+Mängel in Bezug auf die Vollständigkeit der Unterlagen (z.B. nicht vollständig deklarier-
+tes Raumprogramm im Bereich Aussenraum, fehlende Aussagen zur Wirtschaftlichkeit
+im Erläuterungsbericht etc.) festgestellt.
+
+Materielle Vorprüfung
+
+Alle Arbeiten haben mit minimalen Abweichungen die Anforderungen an das Raumpro-
+gramm eingehalten. Bei einigen Projekten wurden geringfügige Überschreitungen des
+Bauperimeters festgestellt. Die weiteren Ergebnisse der materiellen Vorprüfung wurden
+direkt vor den Projekten erläutert.
+
+Zulassung zur Beurteilung
+Das Preisgericht beschloss einstimmig, sämtliche acht eingereichten Projekte zur Beur-
+
+teilung zuzulassen, da sich kein Team gegenüber den anderen einen wesentlichen Vor-
+teil verschaffen konnte und alle Projekte prüf- und beurteilbar waren.
+
+
+===== [PDF-Seite 13] =====
+Projektwettbewerb Ersatzneubau Schulhaus und Turnhalle Süd | Beurteilung 13
+
+Die Beurteilung erfolgte anhand folgender, im Programm formulierter Beurteilungskri-
+terien:
+
+— Städtebauliches Konzept
+
+— Architektonisches Konzept
+
+— Nutzungsanforderungen
+
+— Aussenräume
+
+— Wirtschaftlichkeit und Nachhaltigkeit
+
+Informationsrundgang / 1. Beurteilungsrundgang
+
+Zu Beginn des 1. Jurytages hatten alle Anwesenden die Möglichkeit, sich individuell in
+die Projekte einzulesen. Im anschliessenden gemeinsamen Informationsrundgang wur-
+den die Projekte wertfrei vorgestellt. Im ı. Beurteilungsrundgang wurde jedes Projekt im
+Plenum ausgiebig diskutiert, wobei die Themen Städtebau, Architektur und Nutzungs-
+anforderungen/Funktionalität im Fokus standen. Die Projekte wurden gemeinsam be-
+wertet.
+
+Aufgrund der festgestellten Mängel hinsichtlich der städtebaulichen Einordnung, der ar-
+chitektonischen Qualität sowie der Nutzungsanforderungen wurden die Projekte MUK
+und WALTER einstimmig im 1. Rundgang ausgeschieden.
+
+2. Beurteilungsrundgang
+
+Im zweiten Beurteilungsrundgang fanden vertiefte Diskussionen hinsichtlich der Beur-
+teilungskriterien sowie eine Überprüfung der im ersten Rundgang erfolgten Bewertun-
+gen statt. Dabei zeigte sich, dass die Projekte ATELIER und CARDINALE im Vergleich
+zu den übrigen Projekten geringere Qualitäten aufweisen. Diese beiden Projekte wurden
+im 2. Beurteilungsrundgang einstimmig ausgeschieden. Die übrigen vier Projekte stell-
+ten die engere Wahl dar. Für diese Projekte wurden zwischen den beiden Jurytagen im
+Rahmen einer vertieften Vorprüfung Kostenschätzungen erstellt.
+
+Die Beurteilung wurde am 24. März 2015 fortgesetzt.
+Vertiefte Vorprüfung
+
+Die Grobkostenschätzung für die vier verbliebenen Projekte wurde durch Konrad Kiss-
+ling, Kostenplaner bei der Metron Architektur AG, erläutert. Ziel der Kostenschätzungen
+war eine Vergleichbarkeit der Projekte untereinander hinsichtlich ihrer Erstellungskos-
+ten. Die Ergebnisse der vertieften Vorprüfung wurden in einer Übersichtstabelle darge-
+stellt und allen Preisgerichtsmitgliedern zu Beginn des 2. Jurytages abgegeben.
+
+3. Beurteilungsrundgang / Rangierung / Kontrollrundgang
+
+Die vier verbliebenen Projekte wurden im 3. Beurteilungsrundgang erneut eingehend
+diskutiert und hinsichtlich der Beurteilungskriterien bewertet. In diesem Rundgang
+wurde kein Projekt ausgeschieden. Im Laufe der Diskussionen zeigte sich jedoch, dass
+die zwei Projektvorschläge MAMMA MUHHH und UNUM im Vergleich zu den beiden
+anderen Projekten gesamthaft höhere Qualitäten aufweisen.
+
+
+===== [PDF-Seite 14] =====
+Projektwettbewerb Ersatzneubau Schulhaus und Turnhalle Süd | Beurteilung 14
+
+Das Preisgericht beschloss einstimmig folgende Rangierung und Preiserteilung:
+
+1. Rang / 1. Preis MAMMA MUHHH CHF 35‘000.-
+
+2. Rang / 2. Preis UNUM CHF 25‘000.-
+3. Rang / 3. Preis PAPAGENO CHF 18°000.-
+4. Rang / 4. Preis TRIO CHF 12°000.-
+5. Rang / 5. Preis ATELIER CHF 10°000.-
+
+Zudem wird, wie im Wettbewerbsprogramm vermerkt, jedem teilnehmenden Team eine
+Festentschädigung in Höhe von CHF 10‘000.- ausbezahlt.
+
+Anschliessend fand ein Kontrollrundgang statt.
+Empfehlung
+
+Das Preisgericht empfiehlt einstimmig das Projekt Mamma Muhh zur weiteren Bearbei-
+tung und zur Ausführung. Dabei werden folgende Empfehlungen für die weitere Überar-
+beitung des Projektes abgegeben:
+
+— Das Projekt ist zwingend bezüglich der Erstellungskosten zu optimieren. Dabei
+könnten insbesondere folgende Faktoren eine Rolle spielen: Flächenangebot,
+Fassadengestaltung/Materialisierung, Haustechnik/Anzahl WCs etc.
+
+— Eine Vereinfachung der Oberlichterstruktur ist anzustreben.
+
+— Die Lage des Skaterplatzes ist zu überprüfen.
+
+- Der Korridor im Untergeschoss des Schulhauses (Gang zu Garderoben) muss
+hinsichtlich seiner Dimensionierung überprüft werden.
+
+Anschliessend wurde die Anonymität aufgehoben.
+
+
+===== [PDF-Seite 15] =====
+Projektwettbewerb Ersatzneubau Schulhaus und Turnhalle Süd | Dank und Würdigung 15
+
+6 Dank und Würdigung
+
+Die eingereichten Projektvorschläge für den Ersatzneubau Schulhaus und Turnhalle Süd
+zeigen eine breite Palette mit Lösungsansätzen für die gestellte Aufgabe auf. Inhaltlich
+konnte das Preisgericht anhand der vorliegenden Projekte verschiedene Grundhaltun-
+gen diskutieren. Der Veranstalter und das Preisgericht schätzen die interessanten Pro-
+jektbeiträge und bedanken sich für das Engagement aller Teilnehmenden.
+
+Sowohl der Veranstalter als auch das Preisgericht sind sich bewusst, dass die gestellte
+Aufgabe anspruchsvoll ist. Verschiedene Rahmenbedingungen, die pädagogischen An-
+sprüche sowie die vielschichtigen Nutzungsanforderungen an den Ersatzneubau stei-
+gern den Schwierigkeitsgrad des Projekts. Das Preisgericht würdigt die durchgehend
+hohe Qualität und die sorgfältige Ausarbeitung der Projektbeiträge.
+
+Das Preisgericht freut sich, mit dem Projekt Mamma Muhhh ein Projekt zur Weiterbear-
+beitung vorschlagen zu können, welches sowohl aus städtebaulicher, architektonischer
+und aussenräumlicher sowie aus Nutzersicht überzeugende Qualitäten aufweist. Die Er-
+weiterung des Schulareals stellt für die Gemeinde Muhen eine wichtigen Meilenstein bei
+der Umsetzung der Schulraumplanung dar.
+
+
+===== [PDF-Seite 17] =====
+Projektwettbewerb Ersatzneubau Schulhaus und Turnhalle Süd | Projekte
+
+7 Projekte
+
+17
+
+
+===== [PDF-Seite 18] =====
+Städtebau / Architektur
+
+Landschaftsarchitektur
+rac
+
+Bauingenieur
+MY
+
+N Bauingenieure AG
+
+Ljupko Peric
+
+Gebäudetechnik HLKS
+
+Marco W
+
+Gebäudetechnik
+Elektro
+P. Keller +
+
+Baden
+
+Luca Vedovato
+
+Projektwettbewerb Ersatzneubau Schulhaus und Turnhalle Süd | Projekte 18
+
+MAMMA MUHHH (1
+
+Rang)
+
+Situationsplan
+
+Innerhalb der heterogenen Struktur der bestehenden Schulanlage schaffen es die Ver-
+
+ann fasser mit der präzisen Setzung von zwei Ersatzbauten vorhandene räumliche Qualitä-
+
+ten zu stärken und besser zur Geltung zu bringen.
+
+Der zweigeschossige Baukörper mit den über der Doppelturnhalle angeordneten Räu-
+men der Primarschule steht mit seiner Längsseite auf der westlichen Flucht des Ober-
+stufen-Schulhauses am sich bis zur Suhre erstreckenden Freiraum, der durch diese
+Massnahme räumlich gestärkt wird. Gleichzeitig entsteht auf der Ostseite ein zweiter,
+grosszügiger Freiraum. Der Neubau erhält, im Gegensatz zur heutigen Situation, durch
+den ostseitigen Haupteingang ein Gesicht zur Hauptstrasse und zur Bahn.
+
+Auch der im Süden angeordnete neue Doppelkindergarten orientiert sich mit seinem
+Eingang zur Strasse. Er bildet zusammen mit dem bestehenden Kindergarten eine kleine
+Welt für sich.
+
+Die Freiräume sind sehr gut zoniert. Sie sind grob in einen offenen Bereich beim Rasen-
+spielfeld und in einen räumlich dichteren Bereich beim Schulhaus gegliedert. Geschnit-
+tene Linden in Mergelplätzen vor dem alten Schulhaus und auf dem Platz zwischen
+Neubau und Bahn generieren schattige Aufenthalts-, Spiel- und Rückzugsbereiche. Die
+multifunktionale Fläche wird damit zwar etwas verkleinert, die Parkierung bleibt aber
+möglich. Eine Ahornreihe entlang des Rasenfeldes bildet einen schönen Übergang zur
+offenen Spielwiese. Der Freiraum der Kindergärten, ein lichtes Wäldchen, ist direkt mit
+den Unterrichtsräumen verbunden und liegt, bedingt durch den separaten Neubau, un-
+mittelbar neben dem bestehenden Kindergarten.
+
+
+===== [PDF-Seite 19] =====
+Projektwettbewerb Ersatzneubau Schulhaus und Turnhalle Süd | Projekte 19
+
+Es ist ein sehr gut und stimmig ausgearbeitetes Freiraumkonzept, welches differenzierte
+gut proportionierte Aussenräume anbietet.
+
+Im Umfeld der sehr heterogenen bestehenden Bebauung streben die Verfasser nach ei-
+nem, in den Worten der Verfasser, „gefassten Charakter, wie er dem alten Schulhaus Ost
+zugrunde liege“.
+
+Die beiden ein- resp. zweigeschossigen Neubauten sind horizontal und vertikal struktu-
+riert mit einer repetitiven Fensteranordnung. Sie zeigen grundsätzlich ein ruhiges, ange-
+messenes Erscheinungsbild.
+
+Die edlen Holz-Metallfenster mit den markanten, ebenfalls metallenen Schutzgittern
+stehen allerdings im seltsamen Kontrast zur lasierten Holzschalung der Brüstungen.
+
+Die Verfasser schlagen eine konsequente Trennung der Erschliessungsbereiche von
+Turnhalle und Primarschule vor. Die überdachten Eingangsbereiche im Nordwesten und
+Südosten liegen einander diagonal gegenüber. Das gut dimensionierte Foyer der Turn-
+halle gewährt Einblick in beide, ein Geschoss tiefer liegende Turnhallen, welche über
+eine grosszügige Treppe erschlossen werden. Die Raumaufteilung im Untergeschoss ist
+grundsätzlich gut gelöst, kritisch ist der relativ schmale Zugang zu den einander gegen-
+überliegenden Garderoben.
+
+Das Foyer der Unterstufe ist auch Aufenthaltsort und gewährt Einblick in den zweige-
+schossigen Bühnenraum, der sich sehr gut als Mehrzweckraum für die Schule eignet und
+auch gut erschlossen ist. Zudem wird er über den gedeckten Eingangsbereich auch noch
+natürlich belichtet, eine sehr geschickte Lösung.
+
+Erdgeschossig und über das Foyer erschlossen sind die Schulsozialarbeit und das Büro
+des Hauswarts angeordnet. Die breiten Treppenanlagen erschliessen die eigentlichen
+Schulräume im Obergeschoss, die perfekt organisiert und orientiert sind. Die auch orts-
+baulich überzeugende Gebäudesituierung führt zu nach Osten oder Westen orientier-
+ten Klassenzimmern, die über eine grosszügig dimensionierte Raumschicht erschlossen
+werden.
+
+
+===== [PDF-Seite 20] =====
+Projektwettbewerb Ersatzneubau Schulhaus und Turnhalle Süd | Projekte 20
+
+Eingestellte Gruppenräume, die jeweils direkt von zwei Schulzimmern und von aussen
+zugänglich sind, struktieren diesen attraktiven Raum von hoher Aufenthaltsqualität. Die
+Belichtung dieser Zone und der Gruppenräume erfolgt durch unterschiedliche Raum-
+höhen mit seitlichen Oberlichtern. In diesem Schulgeschoss ermöglicht eine intelligente
+Trag- und Raumstruktur eine den heutigen Bedürfnissen optimal entsprechende Grund-
+rissorganisation bei gleichzeitig hoher, langfristiger Flexibilität.
+
+Auch der Kindergartenbereich zeichnet sich durch eine durchdachte Organisation aus.
+Über den gedeckten, ostseitigen Zugang gelangt man in den mittigen Erschliessungs-
+bereich, der die beiden Unterrichtsräume erschliesst und den Zugang in den ebenfalls
+gedeckten Freiraum ermöglicht.
+
+Die Grundstruktur der Schulanlage und das Tragkonzept sind effizient. Die grosse Ab-
+wicklung der Oblichter und die überhohen Kindergartenräume wirken sich jedoch kos-
+tentreibend aus.
+
+Zusammenfassend gelingt es den Projektverfassern, die anspruchsvolle Aufgabenstel-
+lung auf überzeugende Art zu lösen.
+
+Betty) Pet MP TI TEE,
+mannns N —_ nl
+
+ns
+
+Lu
+>] gl al
+
+Schnitte und Fassadenansichten Mst. 1:800
+
+
+===== [PDF-Seite 21] =====
+Projektwettbewerb Ersatzneubau Schulhaus und Turnhalle Süd | Projekte
+
+L
+
+EN
+
+MI
+
+I BEAT
+
+—
+
+u&
+
+Bel m 8
+
+gi
+o
+e
+
+‚a
+
+21
+
+Grundriss Erd-, Unter- und Obergeschoss Mst. 1:800
+
+
+===== [PDF-Seite 22] =====
+Städtebau / Architektur
+
+Marlies David
+
+Bauingenieur
+
+Gebäudetechnik
+Elektro
+HEFTI.HES
+
+Projektwettbewerb Ersatzneubau Schulhaus und Turnhalle Süd | Projekte
+
+UNUM « Rang)
+
+Situationsplan
+
+Auf quadratischer Grundfläche wird ein Gebäude zwischen bestehendem Schulhaus und
+Kindergarten eingefügt. Das Volumen ist aufgegliedert in einen dreigeschossigen Teil,
+der in seinen Abmessungen zum Schulhaus einen Bezug schafft, und einen eingeschossi-
+gen Teil, welcher sich auf das Kindergartengebäude bezieht und den Übergang zu Spiel-
+wiese und Allwetterplatz herstellt. Alle geforderten Nutzungsgruppen werden in diesem
+einen Gebäude zusammengefasst.
+
+Mit diesem Konzept gelingt es, den Neubau mit dem Bestand zu verknüpfen. Die beste-
+hende Gebäudeabfolge entlang der Hauptstrasse wird angemessen weitergeführt.
+
+Zusammen mit den Schulhäusern Ost und Nord wird ein grosszügig dimensionierter
+Aussenraum aufgespannt, der als Pausenplatz der Schulkinder genutzt wird. Auf der
+südlichen Seite umfassen die Fassaden des bestehenden Kindergartens und des Neu-
+baus zweiseitig den parkartigen Aussenbereich für die jüngeren Kinder.
+
+Die Zuordnung der Nutzungsbereiche ist situationsgerecht. Schulhaus und Turnhalle
+richten sich zum Pausenplatz und auch die Kindergartenräume sind den entsprechenden
+Aussenflächen zugeordnet. Der Eingangsbereich des Schul- und Sportbereiches öffnet
+sich mit einer verglasten Wand zur Sporthalle. Durch die sparsamen Abmessungen des
+Foyers wirkt diese Zone jedoch weniger als Halle, sondern als erweiterte Korridorfläche.
+
+Mittels Schiebetüren kann abends der Sportbetrieb, wie im Programm gefordert, unab-
+hängig von der Schule erschlossen werden. Betrieblich störend ist jedoch, dass es nicht
+gelungen ist, den Kindergartenzugang von Süden zu ermöglichen. Zusammen mit dem
+zweiten Gruppenraum ist der Eingang auf der Ostseite platziert, was im Widerspruch
+
+
+===== [PDF-Seite 23] =====
+Projektwettbewerb Ersatzneubau Schulhaus und Turnhalle Süd | Projekte 23
+
+Modellfoto Ansicht von Südost
+
+zum gewählten Zuordnungskonzept steht.
+
+In den beiden Obergeschossen gruppieren sich die Unterrichtsräume um einen ange-
+messen proportionierten Erschliessungsraum, der sich nach Westen zur Landschaft öff-
+net. Alle vier Gruppenräume sind zwischen je zwei Klassenzimmer eingefügt und über-
+nehmen so ein im Gebrauch bewährtes Anordnungsmuster.
+
+Die Doppelsporthalle ist funktional richtig geplant und mit genügend dimensionierten
+Hallen- und Korridorflächen versehen. Die Bühne kann allerdings nur über einen langen
+Korridorzugang als unabhängiger Mehrzweckraum direkt erschlossen werden. Der se-
+parate Aussenzugang zur Halle ist zu minimalistisch ausgefallen.
+
+Die äussere Erscheinung ist geprägt durch die Umhüllung mit einer Zedernholz-Fassa-
+de und den umlaufenden Beton-Sockel. Dieser dient als Holzschutz und bewerkstelligt
+den Ausgleich zu den unterschiedlichen Gebäudehöhen. Das Material Holz wird hier
+nicht nur als äusserste Schicht angewendet, sondern die Aussenwände sind als Ganzes
+in Holz-Elementbauweise vorgesehen. Nur für die Untergeschosse und die Geschossde-
+cken wird Beton vorgeschlagen.
+
+Die Fassadengestaltung ist angenehm ruhig und unprätentiös. Das Haus versucht kei-
+ne direkten formalen Anlehnungen an den klassizistischen Nachbarn aufzunehmen. Es
+überlässt dem traditionellen Hauptgebäude seine zentrale Position in der Schulanlage.
+Trotz der Eigenständigkeit in Materialisierung und Ausdruck entsteht kein störendes
+Nebeneinander.
+
+Der Hartplatz wird auf der Höhe des bestehenden Kindergartens, am südlichen Ende
+des Rasenspielfeldes, platziert. Dadurch kann der Vorplatz zum Neubau als grosszügi-
+ger Pausenplatz ausformuliert werden. Ob sich die Neuorganisation, in Anbetracht des
+vorgeschlagenen Elementes auf dem grosszügigen Pausenplatz und den zu erwartenden
+Nutzungskonflikten beim Kindergarten auszahlt, wird bezweifelt.
+
+Die Länge der Treppe, welche den Höhenunterschied zwischen den beiden Pausenplatz-
+niveaus aufnimmt und die darüber gestülpten kreisförmigen Grünbereiche erscheinen
+
+
+===== [PDF-Seite 24] =====
+Projektwettbewerb Ersatzneubau Schulhaus und Turnhalle Süd | Projekte 24
+
+etwas bezugslos. Die Lage des Hartplatzes erzeugt Lärmprobleme für den Kindergarten.
+Die Wegverbindung in den südlichen Teil des Schulareals wird mit dieser Konzeption
+eingeschränkt.
+
+Die Freiräume der Kindergärten liegen richtig und sind gut an den Neubau angebunden.
+Die sehr formal gehaltene Wegführung gibt eine Vorstellung, wie es vielleicht sein könn-
+te, wirkt aber etwas grafisch. Die vorgeschlagenen Elemente wirken schematisch und
+noch wenig ausgereift.
+
+Das Projekt zeigt in der Gliederung des Volumens eine ansprechende Lösung auf. Insbe-
+sondere im Erdgeschoss und Untergeschoss vermögen die Gestaltung und Disposition
+der Erschliessungszonen jedoch nicht zu überzeugen.
+
+Durch das Zusammenfassen des Raumprogramms in einem Baukörper und aufgrund
+des Verzichts auf Räume über der Halle resultiert eine gute Wirtschaftlichkeit dieses
+Vorschlages.
+
+Schnitte und Fassadenansichten Mst. 1:800
+
+
+===== [PDF-Seite 25] =====
+Projektwettbewerb Ersatzneubau Schulhaus und Turnhalle Süd | Projekte 25
+
+f
+— u poboo .o
+Ss-—-Hob4f
+| ocooo DO
+=EE pnan DO
+A ooB m)
+pboo DO
+pboonoa 0
+oo D
+"FE (Fr pboo 0
+D OD
+a ie una
+
+Grundriss Erd-, Unter- und Obergeschoss ı und 2 Mst. 1:800
+
+
+===== [PDF-Seite 26] =====
+Städtebau / Architektur
+Bob Gysin + Partner AG
+Architekten, Zürich
+
+Bob Gysin
+Marco Giuliani,
+Franz Aeschbach
+Laura Müller,
+Domizia Lantin
+
+Landschaftsarchitektur
+Hager Partner AG, Zürich
+
+Pascal Posset.
+Heiko Schaetzle
+
+Bauingenieur
+Suisseplan Ingenieure +
+Planer, Zürich
+
+Pius Kappeler
+
+Gebäudetechnik HLKS
+3-Plan, Winterthur
+
+Stefan van Velsen
+Matthias Schäpper
+
+Bauphysik /
+Nachhaltigkeit
+
+EK Energiekonzepte,
+Zürich
+
+Barbara Beckmann
+
+Projektwettbewerb Ersatzneubau Schulhaus und Turnhalle Süd | Projekte 26
+
+PA PAGEN O (3. Rang)
+
+Situationsplan
+
+Das Raumprogramm wird in einem zweigeschossigen Gebäude für Schule / Mehrzweck-
+halle und einem separaten eingeschossigen Gebäude für den Doppelkindergarten um-
+gesetzt.
+
+Das neue Kindergartengebäude wird neben dem bestehenden situiert und bildet mit die-
+sem zusammen einen gut organisierten eigenständigen Kindergartenbetrieb. Der beste-
+hende Weg von der Unterführung zur Brücke über die Suhre bleibt als übergeordneter
+Spazierweg erhalten.
+
+Die Setzung des neuen Schul- und Mehrzweckgebäudes ist wohl überlegt. Es gliedert
+zusammen mit der Baumreihe zur Schulstrasse das Areal in einen östlich gelegenen An-
+kunfts- und Pausenbereich und einen westlichen Spiel- und Sportbereich. Alle Gebäude
+respektieren sich gegenseitig durch genügende Abstände und bilden ein stimmiges En-
+semble.
+
+Die integrative Haltung bildet die ortsbauliche Grundidee für die architektonische Ge-
+staltung der Gebäude mit geneigten Dächern und ausladenden Vordächern. Der sorgfäl-
+tig gestaltete Holzbau, auf einem präzisen Konstruktionsraster aufgebaut, verleiht dem
+Gebäude eine sinnliche Leichtigkeit, welche noch verstärkt wird durch die horizontale
+Gliederung mit Vordach und Balkon. Der auf das Minimum reduzierte Einbau ins Erd-
+reich ergibt ein überhöhtes Erdgeschoss, das der Mehrzwecknutzung gerecht wird und
+der Halle eine optimale natürliche Belichtung ermöglicht.
+
+Dem Kindergarten verleihen Dachform und Oblicht besondere innenräumliche Quali-
+täten.
+
+
+===== [PDF-Seite 27] =====
+Projektwettbewerb Ersatzneubau Schulhaus und Turnhalle Süd | Projekte 27
+
+Modellfoto Ansicht von Südost
+
+Durch eine geschickt konstruierte, zweiteilig sich kreuzende Treppenanlage können
+zwei Anforderungen auf überraschende Weise elegant erfüllt werden: einerseits die
+vom Schulbereich getrennte Abendnutzung der Halle und andererseits zwei getrennte
+Fluchtwege sowohl vom Obergeschoss wie vom Untergeschoss.
+
+Eine besondere betriebliche und räumliche Qualität befindet sich im Schulgeschoss. Der
+von oben belichtete „Marktplatz“ bildet das räumliche Zentrum und ist, je nach päda-
+gogischem Konzept, flexibel nutzbar. Darum herum sind vier nach oben offene Licht-
+höfe angeordnet, welche vier Gruppenräume und vier Garderobenbereiche natürlich
+belichten und belüften. Drei Gruppenräume sind je mit zwei Unterrichtsräumen direkt
+verbunden. Die vier Garderoben können zusätzlich als Gruppenräume genutzt werden.
+Sämtliche Unterrichtsräume an der durchgehend verglasten Aussenwand lassen sich
+optimal natürlich belichten und durch den umlaufend vorspringenden Balkon auch wir-
+kungsvoll beschatten. Dieser kann als besonderes räumliches Element durchaus in den
+Unterricht integriert werden. Die räumliche Organisation zeichnet sich durch eine hohe
+Nutzungsflexibilität aus, die verschiedene Unterrichtsformen zulässt.
+
+Auch die Hallenebene ist betrieblich gut organisiert. Die Bühne kann wegen der guten
+Belichtung und Sichtbeziehung nach aussen attraktiv unterschiedlich genutzt werden.
+
+Der mit Bäumen flankierte Zugang ins Areal mündet auf einem grosszügigen Platz. Von
+diesem zentralen Platz sind das alte Schulhaus und der Neubau erschlossen und ein Weg
+führt logisch zum Eingang der Kindergärten weiter. Der gemergelte, mit Einzelbäumen
+bepflanzte Pausenplatz der Primarstufe ist gut proportioniert und liegt entlang diesem
+Weg.
+
+Die vorgeschlagenen Parkplätze liegen ausserhalb des Wettbewerbsperimeters. Dieser
+Vorschlag ermöglicht zwar eine gute Entflechtung zwischen Erschiessungflächen und
+Schulareal, wird jedoch mit dem in Anspruch nehmen von Flächen, die ausserhalb des
+Perimeters liegen, erkauft. Hier müsste geprüft werden, ob diese Parkplätze auch auf
+dem vorgeschlagenen Zugangsplatz platziert werden könnten. Der Hartplatz wird quer
+zum Neubau platziert und generiert damit eine etwas zu breite, als Skateranlage genutz-
+te, Zone zwischen Neubau und Rasenspielfeld.
+
+
+===== [PDF-Seite 28] =====
+Projektwettbewerb Ersatzneubau Schulhaus und Turnhalle Süd | Projekte 28
+
+Die Kindergartenfreiräume sind gut platziert und zoniert.
+
+Es ist ein klar strukturiertes Freiraumkonzept, welches bis auf den zu breiten westlichen
+Bereich gut organisierte und ausformulierte Freiräume anbietet.
+
+Die Kostenkennwerte dieses Vorschlages liegen im Vergleich zu den weiteren überprüf-
+ten Projekten am höchsten. Zudem ist mit hohem Instandhaltungsaufwand zu rechnen.
+
+Das Projekt überzeugt durch seine ortsbauliche Haltung sowie mit seiner hohen gestalte-
+rischen, räumlichen und betrieblichen Qualität. Mit ihrer ausgeprägten Einzelwirkung
+fügen sich die neuen Gebäude mit den bestehenden auf eindrückliche Weise zu einem
+zusammenhängenden Ganzen. Leider vermag es die Anforderungen in der Wirtschaft-
+lichkeit sowohl in der Erstellung wie im Unterhalt nicht zu erfüllen.
+
+Schnitte und Fassadenansichten Mst. 1:800
+

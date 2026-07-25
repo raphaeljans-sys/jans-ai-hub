@@ -1,0 +1,35 @@
+{
+  "slug": "BIQ_Architekten",
+  "architekt": {
+    "name": "BIQ Architekten",
+    "nachname": "BIQ",
+    "vorname": "Architekten",
+    "jahre": [],
+    "ordner": "BIQ_Architekten"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/BIQ_Architekten",
+  "projekte": [
+    {
+      "raw": "Literatur",
+      "ort": "Literatur",
+      "projekt": "Literatur",
+      "jahre": [],
+      "titel": "Literatur"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 2,
+    "dokumente": 2,
+    "cad": 0,
+    "andere": 0,
+    "total": 4
+  },
+  "dateitypen": {
+    ".jpg": 2,
+    ".pdf": 2
+  },
+  "textauszug": "",
+  "embed_doc": "BIQ Architekten | Literatur Literatur",
+  "stand": "2026-07-02T21:06:43"
+}

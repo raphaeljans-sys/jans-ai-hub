@@ -1,0 +1,26 @@
+{
+  "slug": "Chochol",
+  "architekt": {
+    "name": "Chochol",
+    "nachname": "Chochol",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Chochol"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Chochol",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Chochol",
+  "stand": "2026-07-02T21:11:59"
+}

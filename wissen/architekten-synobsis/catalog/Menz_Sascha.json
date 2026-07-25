@@ -1,0 +1,26 @@
+{
+  "slug": "Menz_Sascha",
+  "architekt": {
+    "name": "Menz Sascha",
+    "nachname": "Menz",
+    "vorname": "Sascha",
+    "jahre": [],
+    "ordner": "Menz_Sascha"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Menz_Sascha",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 9,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 9
+  },
+  "dateitypen": {
+    ".png": 9
+  },
+  "textauszug": "",
+  "embed_doc": "Menz Sascha",
+  "stand": "2026-07-02T22:41:48"
+}

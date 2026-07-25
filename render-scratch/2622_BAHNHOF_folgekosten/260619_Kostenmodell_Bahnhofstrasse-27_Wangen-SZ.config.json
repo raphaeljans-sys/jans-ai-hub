@@ -1,0 +1,60 @@
+{
+  "studie": "2622",
+  "objekt": "Bahnhofstrasse 27, 8855 Wangen SZ",
+  "parzelle": "25",
+  "egrid": "CH379377805305",
+  "zone": "WG3 / ES III",
+  "stand": "2026-06-19",
+  "status": "Grobschaetzung +/-25 %; Marktwert aktenbasiert (A); keine Verbindlichkeit",
+  "flaechen_m2": {
+    "grundstueck": 751,
+    "hnf_total": 538.0,
+    "gf_oberirdisch": 723.6,
+    "hnf_eg_praxis": 175.4,
+    "hnf_og1": 166.9,
+    "hnf_whg3_maisonette": 195.7
+  },
+  "bezugsgroessen_abgeleitet": {
+    "fensterflaeche_m2": 150,
+    "dachflaeche_m2": 300,
+    "ebf_m2": 720,
+    "heizleistung_kw": 45,
+    "hinweis": "abgeleitet, vor Finalisierung bestaetigen/messen"
+  },
+  "block_A_instandsetzung": [
+    {"bauteil": "Fenster", "bezug": "150 m2", "kennwert_chf_pro_einheit": [900, 1300], "band_chf": [135000, 195000], "punkt_chf": 165000, "horizont": "~5 J", "preisrelevant": "voll"},
+    {"bauteil": "Dach Eindeckung+Nachdaemmung", "bezug": "300 m2", "kennwert_chf_pro_einheit": [350, 600], "band_chf": [105000, 180000], "punkt_chf": 145000, "horizont": "akut-mittel", "preisrelevant": "voll"},
+    {"bauteil": "Waermeerzeugung Oel->Fernwaerme", "bezug": "~45 kW", "kennwert_chf_pro_einheit": null, "band_chf": [50000, 90000], "punkt_chf": 70000, "horizont": "~10 J", "preisrelevant": "anteilig_50pct"},
+    {"bauteil": "Waermeverteilung", "bezug": "720 m2 EBF", "kennwert_chf_pro_einheit": [130, 260], "band_chf": [95000, 190000], "punkt_chf": 140000, "horizont": "bedingt_fernwaerme", "preisrelevant": "nein"},
+    {"bauteil": "Sanitaer Leitsystem", "bezug": "538 m2 HNF", "kennwert_chf_pro_einheit": [130, 280], "band_chf": [70000, 150000], "punkt_chf": 110000, "horizont": "bedingt_dachausbau", "preisrelevant": "nein"},
+    {"bauteil": "Elektro", "bezug": "Zustand gut", "kennwert_chf_pro_einheit": null, "band_chf": [0, 30000], "punkt_chf": 15000, "horizont": "gering", "preisrelevant": "nein"}
+  ],
+  "block_A_total_chf": {"band": [455000, 835000], "punkt": 645000, "preisrelevant_punkt": 350000},
+  "block_B_dachausbau": {
+    "methodik": "Wuest Umbau = Neubau 4800 CHF/m2 HNF x Eingriffstiefe 0.50-0.80",
+    "bezug_m2_hnf": 195.7,
+    "kennwert_chf_pro_m2": [2400, 3840],
+    "band_chf": [470000, 750000],
+    "punkt_chf": 600000,
+    "wertsteigernd_nur_via": "STWE-Einzelverkauf"
+  },
+  "folgekosten_total_chf": {"band": [925000, 1585000], "punkt": 1245000, "anteil_kaufpreis_pct": [31, 53]},
+  "kaufpreis": {
+    "angebot": 3100000,
+    "bankschaetzung": 2900000,
+    "marktwert_halten_asis": [2600000, 2800000],
+    "marktwert_mitte": 2700000,
+    "investitionsstau_abzug_chf": 350000,
+    "investitionsstau_abzug_band": [300000, 500000],
+    "bereinigte_empfehlung_chf": 2350000,
+    "bereinigte_empfehlung_band": [2100000, 2500000],
+    "verhandlungsziel": 2250000,
+    "schmerzgrenze": 2500000,
+    "sensitivitaet": {"nur_dach_fenster": 2390000, "inkl_heizung_voll_teil_sanitaer": 2200000}
+  },
+  "quellen": [
+    "GRULER 14.01.2026", "OEREB 07.06.2026",
+    "260615_Bewertungsgutachten-ENTWURF", "260619_Aufnahmeblatt_Besichtigung",
+    "skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md"
+  ]
+}

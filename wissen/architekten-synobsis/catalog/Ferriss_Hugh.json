@@ -1,0 +1,50 @@
+{
+  "slug": "Ferriss_Hugh",
+  "architekt": {
+    "name": "Ferriss Hugh",
+    "nachname": "Ferriss",
+    "vorname": "Hugh",
+    "jahre": [],
+    "ordner": "Ferriss_Hugh"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Ferriss_Hugh",
+  "projekte": [
+    {
+      "raw": "00_Zeichner",
+      "ort": "00",
+      "projekt": "Zeichner",
+      "jahre": [],
+      "titel": "00 Zeichner"
+    },
+    {
+      "raw": "Objekt",
+      "ort": "Objekt",
+      "projekt": "Objekt",
+      "jahre": [],
+      "titel": "Objekt"
+    },
+    {
+      "raw": "Stadt",
+      "ort": "Stadt",
+      "projekt": "Stadt",
+      "jahre": [],
+      "titel": "Stadt"
+    }
+  ],
+  "projekt_anzahl": 3,
+  "inventar": {
+    "bilder": 28,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 29
+  },
+  "dateitypen": {
+    ".jpg": 27,
+    ".docx": 1,
+    ".png": 1
+  },
+  "textauszug": "http://www.alternativeink.com/exhibits/30/",
+  "embed_doc": "Ferriss Hugh | 00 Zeichner | Objekt Objekt | Stadt Stadt | http://www.alternativeink.com/exhibits/30/",
+  "stand": "2026-07-02T21:14:12"
+}

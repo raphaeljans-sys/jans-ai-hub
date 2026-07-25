@@ -1,0 +1,45 @@
+{
+  "slug": "Dance_George_1741_1825",
+  "architekt": {
+    "name": "Dance George 1741 1825",
+    "nachname": "Dance",
+    "vorname": "George",
+    "jahre": [
+      "1741",
+      "1825"
+    ],
+    "ordner": "Dance_George_1741_1825"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Dance_George_1741_1825",
+  "projekte": [
+    {
+      "raw": "00_Architekten",
+      "ort": "00",
+      "projekt": "Architekten",
+      "jahre": [],
+      "titel": "00 Architekten"
+    },
+    {
+      "raw": "London_Gefaengnis_Newgate_Prison",
+      "ort": "London",
+      "projekt": "Gefaengnis Newgate Prison",
+      "jahre": [],
+      "titel": "London Gefaengnis Newgate Prison"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 4,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 4
+  },
+  "dateitypen": {
+    ".jpg": 3,
+    ".gif": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Dance George 1741 1825 | 00 Architekten | London Gefaengnis Newgate Prison",
+  "stand": "2026-07-02T21:12:30"
+}

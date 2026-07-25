@@ -1,0 +1,34 @@
+{
+  "slug": "Esch_Sinzel",
+  "architekt": {
+    "name": "Esch Sinzel",
+    "nachname": "Esch Sinzel",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Esch Sinzel"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Esch Sinzel",
+  "projekte": [
+    {
+      "raw": "die bestene",
+      "ort": "die bestene",
+      "projekt": "die bestene",
+      "jahre": [],
+      "titel": "die bestene"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 5,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 5
+  },
+  "dateitypen": {
+    ".png": 5
+  },
+  "textauszug": "",
+  "embed_doc": "Esch Sinzel | die bestene die bestene",
+  "stand": "2026-07-02T21:14:03"
+}

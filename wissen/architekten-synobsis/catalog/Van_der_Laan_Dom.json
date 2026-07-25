@@ -1,0 +1,35 @@
+{
+  "slug": "Van_der_Laan_Dom",
+  "architekt": {
+    "name": "Van der Laan Dom",
+    "nachname": "Van",
+    "vorname": "der Laan Dom",
+    "jahre": [],
+    "ordner": "Van_der_Laan_Dom"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Van_der_Laan_Dom",
+  "projekte": [
+    {
+      "raw": "Vaals_St_Benedikt",
+      "ort": "Vaals",
+      "projekt": "St Benedikt",
+      "jahre": [],
+      "titel": "Vaals St Benedikt"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 17,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 17
+  },
+  "dateitypen": {
+    ".jpg": 16,
+    ".gif": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Van der Laan Dom | Vaals St Benedikt",
+  "stand": "2026-07-02T22:50:53"
+}

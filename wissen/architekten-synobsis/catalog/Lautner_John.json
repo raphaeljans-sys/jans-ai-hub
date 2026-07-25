@@ -1,0 +1,77 @@
+{
+  "slug": "Lautner_John",
+  "architekt": {
+    "name": "Lautner John",
+    "nachname": "Lautner",
+    "vorname": "John",
+    "jahre": [],
+    "ordner": "Lautner_John"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Lautner_John",
+  "projekte": [
+    {
+      "raw": "ARCHITEKT",
+      "ort": "ARCHITEKT",
+      "projekt": "ARCHITEKT",
+      "jahre": [],
+      "titel": "ARCHITEKT"
+    },
+    {
+      "raw": "Audiad_house",
+      "ort": "Audiad",
+      "projekt": "house",
+      "jahre": [],
+      "titel": "Audiad house"
+    },
+    {
+      "raw": "Boykof",
+      "ort": "Boykof",
+      "projekt": "Boykof",
+      "jahre": [],
+      "titel": "Boykof"
+    },
+    {
+      "raw": "Brent_Bolthaose",
+      "ort": "Brent",
+      "projekt": "Bolthaose",
+      "jahre": [],
+      "titel": "Brent Bolthaose"
+    },
+    {
+      "raw": "Elrod_Resicence",
+      "ort": "Elrod",
+      "projekt": "Resicence",
+      "jahre": [],
+      "titel": "Elrod Resicence"
+    },
+    {
+      "raw": "LA_Arango_Residence",
+      "ort": "LA",
+      "projekt": "Arango Residence",
+      "jahre": [],
+      "titel": "LA Arango Residence"
+    },
+    {
+      "raw": "Segel_house",
+      "ort": "Segel",
+      "projekt": "house",
+      "jahre": [],
+      "titel": "Segel house"
+    }
+  ],
+  "projekt_anzahl": 7,
+  "inventar": {
+    "bilder": 26,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 26
+  },
+  "dateitypen": {
+    ".jpg": 25,
+    ".gif": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Lautner John | ARCHITEKT ARCHITEKT | Audiad house | Boykof Boykof | Brent Bolthaose | Elrod Resicence | LA Arango Residence | Segel house",
+  "stand": "2026-07-02T21:42:25"
+}

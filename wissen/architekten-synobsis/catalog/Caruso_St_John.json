@@ -1,0 +1,293 @@
+{
+  "slug": "Caruso_St_John",
+  "architekt": {
+    "name": "Caruso St John",
+    "nachname": "Caruso",
+    "vorname": "St John",
+    "jahre": [],
+    "ordner": "Caruso_St_John"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Caruso_St_John",
+  "projekte": [
+    {
+      "raw": "Arosa_Sporttheater",
+      "ort": "Arosa",
+      "projekt": "Sporttheater",
+      "jahre": [],
+      "titel": "Arosa Sporttheater"
+    },
+    {
+      "raw": "Ascona_Kultur_und_Tourismuszenter",
+      "ort": "Ascona",
+      "projekt": "Kultur und Tourismuszenter",
+      "jahre": [],
+      "titel": "Ascona Kultur und Tourismuszenter"
+    },
+    {
+      "raw": "Basel_Naturmuseum",
+      "ort": "Basel",
+      "projekt": "Naturmuseum",
+      "jahre": [],
+      "titel": "Basel Naturmuseum"
+    },
+    {
+      "raw": "Basel_Oceanium",
+      "ort": "Basel",
+      "projekt": "Oceanium",
+      "jahre": [],
+      "titel": "Basel Oceanium"
+    },
+    {
+      "raw": "Bremen_Landesbank",
+      "ort": "Bremen",
+      "projekt": "Landesbank",
+      "jahre": [],
+      "titel": "Bremen Landesbank"
+    },
+    {
+      "raw": "Hamburg_",
+      "ort": "Hamburg",
+      "projekt": "",
+      "jahre": [],
+      "titel": "Hamburg"
+    },
+    {
+      "raw": "Kalmar_Stortorget",
+      "ort": "Kalmar",
+      "projekt": "Stortorget",
+      "jahre": [],
+      "titel": "Kalmar Stortorget"
+    },
+    {
+      "raw": "Kandergrien",
+      "ort": "Kandergrien",
+      "projekt": "Kandergrien",
+      "jahre": [],
+      "titel": "Kandergrien"
+    },
+    {
+      "raw": "Lausanne_Museum",
+      "ort": "Lausanne",
+      "projekt": "Museum",
+      "jahre": [],
+      "titel": "Lausanne Museum"
+    },
+    {
+      "raw": "Lille_Lycée Hôtelier de Lille",
+      "ort": "Lille",
+      "projekt": "Lycée Hôtelier de Lille",
+      "jahre": [],
+      "titel": "Lille Lycée Hôtelier de Lille"
+    },
+    {
+      "raw": "London_2FH",
+      "ort": "London",
+      "projekt": "2FH",
+      "jahre": [],
+      "titel": "London 2FH"
+    },
+    {
+      "raw": "London_Brick_House",
+      "ort": "London",
+      "projekt": "Brick House",
+      "jahre": [],
+      "titel": "London Brick House"
+    },
+    {
+      "raw": "London_Chiswik_Hous_Cafe",
+      "ort": "London",
+      "projekt": "Chiswik Hous Cafe",
+      "jahre": [],
+      "titel": "London Chiswik Hous Cafe"
+    },
+    {
+      "raw": "London_New_Port_Street_Gallerie",
+      "ort": "London",
+      "projekt": "New Port Street Gallerie",
+      "jahre": [],
+      "titel": "London New Port Street Gallerie"
+    },
+    {
+      "raw": "London_Sir_John_Soane_s_Museum_3_Interiors",
+      "ort": "London",
+      "projekt": "Sir John Soane s Museum 3 Interiors",
+      "jahre": [],
+      "titel": "London Sir John Soane s Museum 3 Interiors"
+    },
+    {
+      "raw": "London_Studyhouse_London",
+      "ort": "London",
+      "projekt": "Studyhouse London",
+      "jahre": [],
+      "titel": "London Studyhouse London"
+    },
+    {
+      "raw": "London_Tate_Britain_Millbank_Project",
+      "ort": "London",
+      "projekt": "Tate Britain Millbank Project",
+      "jahre": [],
+      "titel": "London Tate Britain Millbank Project"
+    },
+    {
+      "raw": "London_The_Victoria_and_Albert_Museum_Childhood",
+      "ort": "London",
+      "projekt": "The Victoria and Albert Museum Childhood",
+      "jahre": [],
+      "titel": "London The Victoria and Albert Museum Childhood"
+    },
+    {
+      "raw": "Luzern_Musikhaus",
+      "ort": "Luzern",
+      "projekt": "Musikhaus",
+      "jahre": [],
+      "titel": "Luzern Musikhaus"
+    },
+    {
+      "raw": "Neuhausen_Rheinfall_City_Centre",
+      "ort": "Neuhausen",
+      "projekt": "Rheinfall City Centre",
+      "jahre": [],
+      "titel": "Neuhausen Rheinfall City Centre"
+    },
+    {
+      "raw": "Nottingham_Contemporary_New_Art_Gallery_Walsall",
+      "ort": "Nottingham",
+      "projekt": "Contemporary New Art Gallery Walsall",
+      "jahre": [],
+      "titel": "Nottingham Contemporary New Art Gallery Walsall"
+    },
+    {
+      "raw": "Paris_Gagosian_paris",
+      "ort": "Paris",
+      "projekt": "Gagosian paris",
+      "jahre": [],
+      "titel": "Paris Gagosian paris"
+    },
+    {
+      "raw": "St_Gallen_Altarraum_Klosterkirche",
+      "ort": "St",
+      "projekt": "Gallen Altarraum Klosterkirche",
+      "jahre": [],
+      "titel": "St Gallen Altarraum Klosterkirche"
+    },
+    {
+      "raw": "St_Gallen_Villa_Wiesental_Ersatzneubau",
+      "ort": "St",
+      "projekt": "Gallen Villa Wiesental Ersatzneubau",
+      "jahre": [],
+      "titel": "St Gallen Villa Wiesental Ersatzneubau"
+    },
+    {
+      "raw": "Wien_Erste_Bank",
+      "ort": "Wien",
+      "projekt": "Erste Bank",
+      "jahre": [],
+      "titel": "Wien Erste Bank"
+    },
+    {
+      "raw": "Zuerich_Eishokeystadion",
+      "ort": "Zuerich",
+      "projekt": "Eishokeystadion",
+      "jahre": [],
+      "titel": "Zuerich Eishokeystadion"
+    },
+    {
+      "raw": "Zuerich_HB_Europaallee",
+      "ort": "Zuerich",
+      "projekt": "HB Europaallee",
+      "jahre": [],
+      "titel": "Zuerich HB Europaallee"
+    },
+    {
+      "raw": "Zuerich_HB_Zollerstrasse",
+      "ort": "Zuerich",
+      "projekt": "HB Zollerstrasse",
+      "jahre": [],
+      "titel": "Zuerich HB Zollerstrasse"
+    },
+    {
+      "raw": "Zuerich_Landesmuseum_Zuerich",
+      "ort": "Zuerich",
+      "projekt": "Landesmuseum Zuerich",
+      "jahre": [],
+      "titel": "Zuerich Landesmuseum Zuerich"
+    },
+    {
+      "raw": "Zuerich_Nagelhaus",
+      "ort": "Zuerich",
+      "projekt": "Nagelhaus",
+      "jahre": [],
+      "titel": "Zuerich Nagelhaus"
+    },
+    {
+      "raw": "Zuerich_Oerlikon_Tower",
+      "ort": "Zuerich",
+      "projekt": "Oerlikon Tower",
+      "jahre": [],
+      "titel": "Zuerich Oerlikon Tower"
+    },
+    {
+      "raw": "Zuerich_St_Jakob",
+      "ort": "Zuerich",
+      "projekt": "St Jakob",
+      "jahre": [],
+      "titel": "Zuerich St Jakob"
+    },
+    {
+      "raw": "Zuerich_Studentenwohnheim_Areal_Rosengarten",
+      "ort": "Zuerich",
+      "projekt": "Studentenwohnheim Areal Rosengarten",
+      "jahre": [],
+      "titel": "Zuerich Studentenwohnheim Areal Rosengarten"
+    },
+    {
+      "raw": "Zuerich_Wipkingen_Wohnsiedlung_Tiechestrasse",
+      "ort": "Zuerich",
+      "projekt": "Wipkingen Wohnsiedlung Tiechestrasse",
+      "jahre": [],
+      "titel": "Zuerich Wipkingen Wohnsiedlung Tiechestrasse"
+    }
+  ],
+  "projekt_anzahl": 34,
+  "inventar": {
+    "bilder": 1301,
+    "dokumente": 865,
+    "cad": 0,
+    "andere": 239,
+    "total": 2405
+  },
+  "dateitypen": {
+    ".jpg": 1021,
+    ".pdf": 841,
+    ".png": 203,
+    ".psd": 107,
+    ".tif": 31,
+    ".jpeg": 27,
+    ".indd": 23,
+    "": 18,
+    ".dfont": 16,
+    ".docx": 15,
+    ".ttf": 13,
+    ".lst": 12,
+    ".db": 12,
+    ".gif": 11,
+    ".txt": 9,
+    ".tiff": 8,
+    ".otf": 6,
+    ".ai": 5,
+    ".pln": 4,
+    ".aif": 4,
+    ".vwx": 3,
+    ".idml": 3,
+    ".idlk": 3,
+    ".zip": 2,
+    ".odt": 2,
+    ".plist": 2,
+    ".inetloc": 2,
+    ".m4a": 1,
+    ".tmp": 1
+  },
+  "textauszug": "WORKBOOK Reto Gasser / Ben Speltz / Rainer Tscherrig Dominic Wohlgemuth Jonas Brun / Chantal Lutz Katharina Ehrenklau / Julia Hemmerling / Rosanna May Marine de Dardel / Christina Friedrich / Jan Zachmann Stefan Roos / Nicolas Schwabe / Christian Suter Jonas Bründler / Seo Yeon Cho / Mattias Josefsson Alex Domin Christina Weber / Lichen Zhu Céline Bessire / Lea Glanzmann / Isabel Ramseier Marisa Musiconico / Lena Paulsson / Paula Schilliger Ozan Enginsal / Joni Kacani / Christian Portmann Samuel Aebersold / Klaus Platzgummer / Michael Stirnemann Alexander Athanassoglou / Lennart Harbich / Thai Tran Riet Fanzun / Marcel Fässler / Stephanie Schenk Eliane Bigliotti / Adriane La / Pascal Tschumper ALLES IST UMBAU FS 2013Professor Adam CarusoETH Zürich Alles ist Umbau FS 2013 Since the war there have been four hundred mills constructed in Lancashire. One sees buildings in places that were meadows three years ago. Y et the buildings are so smoke stained they appear to have been used for a hundred years – colossal masses of building substance are being constructed by builders alone without any regard for architectural principles, solely for utilitarian ends and rendered in red brick. Until architects begin to design for outer space, all projects will be made within specific physical and social contexts, and therefore, are modifications of an existing situation. A situation without qualities, tabula rasa, these do not exist, at least not in this world. As soon as one builds, a dynamic process of inhabitation, adaptation, and further building is set into motion. This is not a situation to lament, no architecture is so precious that it should not, in some circumstances, have the capacity to be altered. This is true of our cathedrals and public buildings, it is also true of industrial buildings like the ones that Schinkel described during his visit to the Midlands and North of England at the beginning of the 19th century, structures so rude that he considered them not to have been touched by the culture of architecture. These buildings are now Grade 1 listed monuments and enjoy a new life accommodating luxurious loft dwellings and cultural institutions. This transformation in the physical condition as well as the social perception of structures can also occur at an urban scale. The city of Split is the re-inhabitation of the Roman emperor Diocletian’s palace, an imperial palace that fell into disuse and after a time, became the structure for a city. Although the Roman architecture is today visible mostly as a fragmentary network of masonry ruins, the spatial morphology, the hierarchy of rooms and courtyards of the palace, is still embodied in the core of the modern city. The idea of re-use is not only a physical operation, it can also be a way of thinking that can inform the design of new buildings. John Soane’s Bank of England was built on an extremely constrained site in the City of London. In order to achieve a appropriate monumentality and coherence, and in response to the great difficulties of the site, where the new banking halls were enmeshed into the complex existing building fabric, Soane conceived of the Bank as a sublime Roman ruin, a set of grand interiors excavated, almost discovered, within the volume of the site. Lacaton V assal’s school of architecture in Nantes is conceived of as a newly built, found industrial structure. Very loosely inhabited by its current programme, the building suggests that programme and the ways in which buildings are inhabited necessarily change more quickly than the physical structures that accommodate them. This semester studies the potential of re-use at the urban scale of Split as well as at the more intimate scale of a Zurich restaurant interior. A sensibility that celebrates the fleeting and dynamic relationship between physical structures and programme is developed. This is a dynamism that forces us to think beyond rhetorically empty architecture that desperately clings to illusions of its symbolic significance, in the positivist sense of the 1950s, or in the consumerist sense of today. These lessons are applied to the design of a new ETH Department of Architecture. The two sites for the project are the 1970s HIL building on the Hönggerberg campus designed by Ziegler and Lanter, and the late 19th, early 20th century HG building designed by Semper and Gull on the central campus. 1 Bank of England A A1 Front Court A2 Pay Hall A3 The Bill Office A4 Strong Room A5 Treasury B B1 Old Four Per Cent Office (later Old Dividend Office) B2 New Four Per Cent Office (later Colonial Office B3 Rotunda B4 Four Per Cent and Five Per Cent Office B5 Bank Stock Office B6 Power Of Attorney Office B7 Consols Transfer Office B8 Unclaimed Dividends Office B9 Room for the Chief Clerk B10 Wills Office B11 Consols Library C C1 Bill Office C2 Reduced Annuities Office C3 Cheque Office C4 Dividend Warrant Office C5 Garden Court D D1 Bullion Court D2 Bullion Office D3 Silver Room D4 Rooms for the Chief Cashier D5 Gateway, Triumphal Arch D6 Chief Cashier’s Office D7 Lothbury Court E E1 Backyard E2 Officer’s Room E3 Secretary E4 Committee Room E5 Court Room E6 Rustic Lobby E7 Central Hall E8 Waiting Rooms E9 Three Lobbies E10 Committee Room E11 Waiting Rooms E12 Deputy Governor’s Room E13 Governor’s Room E14 Discount Office E15 Coffee Room E16 Chief Accountant’s Room E17 Deputy Accountant’s Room E18 Governor’s Court or Waiting Room Court E19 Branch Bank Office E20 Branch Bank Room E21 Atrium E22 Passage E23 Post Bill Office F F1 Residence Court F2 House Of The Deputy Accountant F3 Chief Accountant’s Parlour F4 House Of The Chief Accountant G G1 Nightly Watch G2 Accountant’s Office G3 Note Store Room G4 Great Court or Printing House Court G5 Store G6 Backyard G7 Accountant’s Drawing Office G8 Note Office G9 Barracks G10 Barrack Court G11 Mould-Maker’s Room H H1 Main Entrance H2 Doric Vestibule H3 East Entrance, Vestibule H4 Lodge Princess street program/sequences GRUNDRISS ORIGINAL 1_400 E18 E13 E12 E11E11E10 E7 E6 E8 E8 E5 C5 C4C3C2 H1 A1 A4 B1 B3 B2 B5 B4 B8 B7 B11 D7 H4 F4 F1 D6 D4 D4 D1 D2 A3 A2 G10 G9 G4 G2 H2 E22 E4 E2 E3 E17 E19 D5 A5 E14 E20 A5 C1 D3 F2 E23 E21 G1 F3 E16 G3 G11 G8 G7 H3 G6 E1 G5 G5 B6 B9 B10 E9 E15 Bank of England GRUNDRISS ORIGINAL 1_400 E18 E13 E12 E11E11E10 E7 E6 E8 E8 E5 C5 C4C3C2 H1 A1 A4 B1 B3 B2 B5 B4 B8 B7 B11 D7 H4 F4 F1 D6 D4 D4 D1 D2 A3 A2 G10 G9 G4 G2 H2 E22 E4 E2 E3 E17 E19 D5 A5 E14 E20 A5 C1 D3 F2 E23 E21 G1 F3 E16 G3 G11 G8 G7 H3 G6 E1 G5 G5 B6 B9 B10 E9 E15 Lothbury street Threadneedle street Bartholomew lane program/sequences 3 References Overview Lacaton Vassal Palais de Tokyo p. 25 Les Halles p. 17 Fuhrimann Hächler, Gigon Guyer, Atelier WW Löwenbräu p. 21 Lacaton Vassal Tour Bois-Le-Prêtre p. 41 References 2 FS 2013 Alles ist Umbau Gottfried Semper, Gustav Gull ETH Hauptgebäude p. 9 John Soane Bank of England p. 5 Rote Fabrik p. 29 Max Ziegler, Erik Lanter ETH Hönggerberg p. 13 Split p. 37 Sitterwerk p. 33 Bibliothek / Materialarchiv Giesserei Kesselhaus Werkstatt Wohnpavillion C, D, E, F, H Bank of England D7H1 A1 E13 B3 D5 D1 A3 E9 E5 C5 SectionSections sections Bank of England H3 A2 A1 H1 A1 sections Bank of England D7H1 A1 E13 B3 D5 D1 A3 E9 E5 C5 SectionSections sections Bank of England H3 A2 A1 H1 A1 sections Bank of England D7H1 A1 E13 B3 D5 D1 A3 E9 E5 C5 SectionSections sections Bank of England H3 A2 A1 H1 A1 sections Bank of England B7 B1 H2 E18 E18 G2 G4 G1 E22 E18 E13 B3 B4 sections Bank of England H2 E14 E12 D1 D2 B7 B11 sections Bank of England B7 B1 H2 E18 E18 G2 G4 G1 E22 E18 E13 B3 B4 sections Bank of England H2 E14 E12 D1 D2 B7 B11 sections Bank of England H2 E14 E12 D1 D2 B7 B11 sections Bank of England B7 B1 H2 E18 E18 G2 G4 G1 E22 E18 E13 B3 B4 sections Bank of England B7 B1 H2 E18 E18 G2 G4 G1 E22 E18 E13 B3 B4 sections Bank of England H2 E14 E12 D1 D2 B7 B11 sections Sections Ground Floor Plan 4 FS 2013 Alles ist Umbau John Soane Bank of England London 1732-1833 5 References B",
+  "embed_doc": "Caruso St John | Arosa Sporttheater | Ascona Kultur und Tourismuszenter | Basel Naturmuseum | Basel Oceanium | Bremen Landesbank | Hamburg | Kalmar Stortorget | Kandergrien Kandergrien | Lausanne Museum | Lille Lycée Hôtelier de Lille | London 2FH | London Brick House | London Chiswik Hous Cafe | London New Port Street Gallerie | London Sir John Soane s Museum 3 Interiors | London Studyhouse London | London Tate Britain Millbank Project | London The Victoria and Albert Museum Childhood | Luzern Musikhaus | Neuhausen Rheinfall City Centre | Nottingham Contemporary New Art Gallery Walsall | Paris Gagosian paris | St Gallen Altarraum Klosterkirche | St Gallen Villa Wiesental Ersatzneubau | Wien Erste Bank | Zuerich Eishokeystadion | Zuerich HB Europaallee | Zuerich HB Zollerstrasse | Zuerich Landesmuseum Zuerich | Zuerich Nagelhaus | Zuerich Oerlikon Tower | Zuerich St Jakob | Zuerich Studentenwohnheim Areal Rosengarten | Zuerich Wipkingen Wohnsiedlung Tiechestrasse | WORKBOOK Reto Gasser / Ben Speltz / Rainer Tscherrig Dominic Wohlgemuth Jonas Brun / Chantal Lutz Katharina Ehrenklau / Julia Hemmerling / Rosanna May Marine de Dardel / Christina Friedrich / Jan Zachmann Stefan Roos / Nicolas Schwabe / Christian Suter Jonas Bründler / Seo Yeon Cho / Mattias Josefsson Alex Domin Christina Weber / Lichen Zhu Céline Bessire / Lea Glanzmann / Isabel Ramseier Marisa Musiconico / Lena Paulsson / Paula Schilliger Ozan Enginsal / Joni Kacani / Christian Portmann Samuel Aebersold / Klaus Platzgummer / Michael Stirnemann Alexander Athanassoglou / Lennart Harbich / Thai Tran Riet Fanzun / Marcel Fässler / Stephanie Schenk Eliane Bigliotti / Adriane La / Pascal Tschumper ALLES IST UMBAU FS 2013Professor Adam CarusoETH Zürich Alles ist Umbau FS 2013 Since the war there have been four hundred mills constructed in Lancashire. One sees buildings in places that were meadows three years ago. Y et the buildings are so smoke stained they appear to have been used for a hundred years – colossal masses of building substance are being constructed by builders alone without any regard for architectural principles, solely for utilitarian ends and rendered in red brick. Until architects begin to design for outer space, all projects will be made within specific physical and social contexts, and therefore, are modifications of an existing situation. A situation without qualities, tabula rasa, these do not exist, at least not in this world. As soon as one builds, a dynamic process of inhabitation, adaptation, and further building is set into motion. This is not a situation to lament, no architecture is so precious that it should not, in some circumstances, have the capacity to be altered. This is true of our cathedrals and public buildings, it is also true of industrial buildings like the ones that Schinkel described during his visit to the Midlands and North of England at the beginning of the 19th century, structures so rude that he considered them not to have been touched by the culture of architecture. These buildings are now Grade 1 listed monuments and enjoy a new life accommodating luxurious loft dwellings and cultural institutions. This transformation in the physical condition as well as the social perception of structures can also occur at an urban scale. The city of Split is the re-inhabitation of the Roman emperor Diocletian’s palace, an imperial palace that fell into disuse and after a time, became the structure for a city. Although the Roman architecture is today visible mostly as a fragmentary network of masonry ruins, the spatial morphology, the hierarchy of rooms and courtyards of the palace, is still embodied in the core of the modern city. The idea of re-use is not only a physical operation, it can also be a way of thinking that can inform the design of new buildings. John Soane’s Bank of England was built on an extremely constrained site in the City of London. In order to achieve a appropriate monumentality and coherence, and in response to the great difficulties of the site, where the new banking halls were enmeshed into the complex existing building fabric, Soane conceived of the Bank as a sublime Roman ruin, a set of grand interiors excavated, almost discovered, within the volume of the site. Lacaton V assal’s school of architecture in Nantes is conceived of as a newly built, found industrial structure. Very loosely inhabited by its current programme, the building suggests that programme and the ways in which buildings are inhabited necessarily change more quickly than the physical structures that accommodate them. This semester studies the potential of re-use at the urban scale of Split as well as at the more intimate scale of a Zurich restaurant interior. A sensibility that celebrates the fleeting and dynamic relationship between physical structures and programme is developed. This is a dynamism that forces us to think beyond rhetorically empty architecture that desperately clings to illusions of its symbolic significance, in the positivist sense of the 1950s, or in the consumerist sense of today. These lessons are applied to the design of a new ETH Department of Architecture. The two sites for the project are the 1970s HIL building on the Hönggerberg campus designed by Ziegler and Lanter, and the late 19th, early 20th century HG building designed by Semper and Gull on the central campus. 1 Bank of England A A1 Front Court A2 Pay Hall A3 The Bill Office A4 Strong Room A5 Treasury B B1 Old Four Per Cent Office (later Old Dividend Office) B2 New Four Per Cent Office (later Colonial Office B3 Rotunda B4 Four Per Cent and Five Per Cent Office B5 Bank Stock Office B6 Power Of Attorney Office B7 Consols Transfer Office B8 Unclaimed Dividends Office B9 Room for the Chief Clerk B10 Wills Office B11 Consols Library C C1 Bill Office C2 Reduced Annuities Office C3 Cheque Office C4 Dividend Warrant Office C5 Garden Court D D1 Bullion Court D2 Bullion Office D3 Silver Room D4 Rooms for the Chief Cashier D5 Gateway, Triumphal Arch D6 Chief Cashier’s Office D7 Lothbury Court E E1 Backyard E2 Officer’s Room E3 Secretary E4 Committee Room E5 Court Room E6 Rustic Lobby E7 Central Hall E8 Waiting Rooms E9 Three Lobbies E10 Committee Room E11 Waiting Rooms E12 Deputy Governor’s Room E13 Governor’s Room E14 Discount Office E15 Coffee Room E16 Chief Accountant’s Room E17 Deputy Accountant’s Room E18 Governor’s Court or Waiting Room Court E19 Branch Bank Office E20 Branch Bank Room E21 Atrium E22 Passage E23 Post Bill Office F F1 Residence Court F2 House Of The Deputy Accountant F3 Chief Accountant’s Parlour F4 House Of The Chief Accountant G G1 Nightly Watch G2 Accountant’s Office G3 Note Store Room G4 Great Court or Printing House Court G5 Store G6 Backyard G7 Accountant’s Drawing Office G8 Note Office G9 Barracks G10 Barrack Court G11 Mould-Maker’s Room H H1 Main Entrance H2 Doric Vestibule H3 East Entrance, Vestibule H4 Lodge Princess street program/sequences GRUNDRISS ORIGINAL 1_400 E18 E13 E12 E11E11E10 E7 E6 E8 E8 E5 C5 C4C3C2 H1 A1 A4 B1 B3 B2 B5 B4 B8 B7 B11 D7 H4 F4 F1 D6 D4 D4 D1 D2 A3 A2 G10 G9 G4 G2 H2 E22 E4 E2 E3 E17 E19 D5 A5 E14 E20 A5 C1 D3 F2 E23 E21 G1 F3 E16 G3 G11 G8 G7 H3 G6 E1 G5 G5 B6 B9 B10 E9 E15 Bank of England GRUNDRISS ORIGINAL 1_400 E18 E13 E12 E11E11E10 E7 E6 E8 E8 E5 C5 C4C3C2 H1 A1 A4 B1 B3 B2 B5 B4 B8 B7 B11 D7 H4 F4 F1 D6 D4 D4 D1 D2 A3 A2 G10 G9 G4 G2 H2 E22 E4 E2 E3 E17 E19 D5 A5 E14 E20 A5 C1 D3 F2 E23 E21 G1 F3 E16 G3 G11 G8 G7 H3 G6 E1 G5 G5 B6 B9 B10 E9 E15 Lothbury street Threadneedle street Bartholomew lane program/sequences 3 References Overview Lacaton Vassal Palais de Tokyo p. 25 Les Halles p. 17 Fuhrimann Hächler, Gigon Guyer, Atelier WW Löwenbräu p. 21 Lacaton Vassal Tour Bois-Le-Prêtre p. 41 References 2 FS 2013 Alles ist Umbau Gottfried Semper, Gustav Gull ETH Hauptgebäude p. 9 John Soane Bank of England p. 5 Rote Fabrik p. 29 Max Ziegler, Erik Lanter ETH Hönggerberg p. 13 Split p. 37 Sitterwerk p. 33 Bibliothek / Materialarchiv Giesserei Kesselhaus Werkstatt Wohnpavillion C, D, E, F, H Bank of England D7H1 A1 E13 B3 D5 D1 A3 E9 E5 C5 SectionSections sections Bank of England H3 A2 A1 H1 A1 sections Bank of England D7H1 A1 E13 B3 D5 D1 A3 E9 E5 C5 SectionSections sections Bank of England H3 A2 A1 H1 A1 sections Bank of England D7H1 A1 E13 B3 D5 D1 A3 E9 E5 C5 SectionSections sections Bank of England H3 A2 A1 H1 A1 sections Bank of England B7 B1 H2 E18 E18 G2 G4 G1 E22 E18 E13 B3 B4 sections Bank of England H2 E14 E12 D1 D2 B7 B11 sections Bank of England B7 B1 H2 E18 E18 G2 G4 G1 E22 E18 E13 B3 B4 sections Bank of England H2 E14 E12 D1 D2 B7 B11 sections Bank of England H2 E14 E12 D1 D2 B7 B11 sections Bank of England B7 B1 H2 E18 E18 G2 G4 G1 E22 E18 E13 B3 B4 sections Bank of England B7 B1 H2 E18 E18 G2 G4 G1 E22 E18 E13 B3 B4 sections Bank of England H2 E14 E12 D1 D2 B7 B11 sections Sections Ground Floor Plan 4 FS 2013 Alles ist Umbau John Soane Bank of England London 1732-1833 5 References B",
+  "stand": "2026-07-02T21:11:45"
+}

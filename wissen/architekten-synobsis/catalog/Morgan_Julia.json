@@ -1,0 +1,26 @@
+{
+  "slug": "Morgan_Julia",
+  "architekt": {
+    "name": "Morgan Julia",
+    "nachname": "Morgan",
+    "vorname": "Julia",
+    "jahre": [],
+    "ordner": "Morgan_Julia"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Morgan_Julia",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Morgan Julia",
+  "stand": "2026-07-02T22:42:15"
+}

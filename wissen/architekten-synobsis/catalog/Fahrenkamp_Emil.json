@@ -1,0 +1,36 @@
+{
+  "slug": "Fahrenkamp_Emil",
+  "architekt": {
+    "name": "Fahrenkamp Emil",
+    "nachname": "Fahrenkamp",
+    "vorname": "Emil",
+    "jahre": [],
+    "ordner": "Fahrenkamp_Emil"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Fahrenkamp_Emil",
+  "projekte": [
+    {
+      "raw": "Berlin_Shell_Haus_in_Berlin_Tiergarten",
+      "ort": "Berlin",
+      "projekt": "Shell Haus in Berlin Tiergarten",
+      "jahre": [],
+      "titel": "Berlin Shell Haus in Berlin Tiergarten"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 8,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 9
+  },
+  "dateitypen": {
+    ".jpg": 5,
+    ".png": 3,
+    ".docx": 1
+  },
+  "textauszug": "Das wunderschöne Bürohaus aus Zeiten der Weimarer Republik (1930 - 32) gilt eines der ersten Stahlskelettbauten Berlins. Es ist stilistisch der Neuen Sachlichkeit zuzuordnen. Architekt: Emil Fahrenkamp",
+  "embed_doc": "Fahrenkamp Emil | Berlin Shell Haus in Berlin Tiergarten | Das wunderschöne Bürohaus aus Zeiten der Weimarer Republik (1930 - 32) gilt eines der ersten Stahlskelettbauten Berlins. Es ist stilistisch der Neuen Sachlichkeit zuzuordnen. Architekt: Emil Fahrenkamp",
+  "stand": "2026-07-02T21:14:09"
+}

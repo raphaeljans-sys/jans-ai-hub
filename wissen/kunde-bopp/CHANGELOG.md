@@ -1,0 +1,87 @@
+# CHANGELOG — Wissensbasis Kunde Christoph Bopp
+
+Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
+
+## 2026-07-25 — Dritter Wissens-Health-Check (Phase 1, Mac Mini Nachtschicht)
+- Re-Audit nach 21.07.: A0 gruen · B2 gelb (dieselben 2 toten Backlinks, unveraendert seit
+  01.07.) · C0 gruen (neuer Artikel `projekt-giebelweg12` sauber belegt) · D0 gruen (Sonderfall)
+  · **E1 gelb, NEU:** Abschnitt «Aktuell offen (Stand 2026-06-03)» in `profil-christoph-bopp.md`
+  durch den neuen Detailartikel `projekt-giebelweg12` (24.07.) inhaltlich ueberholt, nicht
+  nachgezogen — Vorschlag: Abschnitt auf Verweis `[[projekt-giebelweg12]]` kuerzen · F0 gruen
+  (kein ae/oe/ue, kein ß, Frontmatter vollstaendig) · G3 gelb (unveraendert: Status-Promotion
+  `profil-christoph-bopp`, 2 geplante Cluster-Artikel). Reine Audit-Phase, keine Wiki-Datei
+  inhaltlich veraendert. Report `outputs/2026-07-25_health-check.md`.
+
+## 2026-07-24 — Projekt-Detailartikel Giebelweg 12 (Mac Mini Nachtschicht)
+- Offene Frage aus `QUESTIONS.md` recherchiert (Priorität 5 der Nachtschicht: offene KB-Frage
+  bearbeiten): Projektordner `AR - 03 Studien/2621 Giebelweg 12/` gelesen (PROJEKT-STAND.md +
+  Korrespondenzordner). Neuer Wiki-Artikel [[projekt-giebelweg12]] (emerging): Machbarkeitsstudie
+  Juni 2026 loeste Baumasse-Konflikt via Hangschnitt-Nachweis massgebendes Terrain; darauf
+  aufbauend hat Christoph am 30.06.2026 fuer seine Mutter (Eigentuemerin) formell Einwendung
+  gegen die Baulinien-Festsetzung bei der Gemeinde Langnau a/A eingereicht — Antwort stand per
+  24.07. noch aus. Report `outputs/2026-07-24_giebelweg12-projektstand.md`. INDEX.md und
+  QUESTIONS.md nachgefuehrt (Frage nach «Beantwortet» verschoben).
+- Zweite offene Frage (Baar Zugerstrasse 49, TDD-Ausgang) versucht, aber gescheitert: die
+  relevanten Dateien im IMMO-Projektordner sind nicht lokal materialisierte OneDrive-
+  Cloud-Platzhalter (`EDEADLK` beim Lesezugriff, auch im Vordergrund-Read-Tool, nicht nur bei
+  Background-Agents). In `QUESTIONS.md` mit Ursache vermerkt statt geraten oder ausgelassen.
+
+## 2026-07-21 — Zweiter Health-Check: Re-Audit bestaetigt Verbesserung (Mac Mini Nachtschicht, ~23:35)
+- Wissenscheck Phase 1 (unbeaufsichtigt) auf `kunde-bopp` erneut ausgefuehrt — letzter Check
+  war 01.07., seither zwei inhaltliche Aktualisierungen (20./21.07., ebenfalls Mac-Mini-
+  Nachtschicht). Ampel jetzt A gruen · B gelb (unveraendert) · C gruen (**verbessert**,
+  Firmenrollen jetzt registerverifiziert) · D gruen* · E gruen · F gruen (**behoben**, die am
+  01.07. rot geflaggten ae/oe/ue-Digraphen sind seit 20.07. korrigiert, hiermit unabhaengig
+  bestaetigt) · G 3 Kandidaten (neu: Status-Promotion `profil-christoph-bopp` emerging→
+  established; unveraendert: 2 Cluster-Artikel `auftrags-muster-bopp`/
+  `zusammenarbeit-lessons-bopp` anlegbar).
+- Nur Audit + Ablegen (Phase 1); keine Phase-2-Aktionen (Status-Hebung/Artikel-Auslagerung
+  bleiben fuer eine interaktive Session vorgemerkt).
+- Report: `outputs/2026-07-21_health-check-2.md`.
+
+## 2026-07-21 — Viertes Mandat identifiziert (Mac Mini Nachtschicht)
+- Offene Faktenfrage aus QUESTIONS.md (2026-07-20, "drittes KMU-Vehikel") beantwortet:
+  **Feag Facility Engineering AG**, Zuerich (UID CHE-108.531.313) — Bopp-Familienunternehmen
+  (Bauphysik/-akustik/Energie, Facility Management). Christoph Bopp seit Jan. 2003 im
+  Vorstand, seit Maerz 2019 Praesident des Verwaltungsrats (Nachfolge Vater Walter Bopp).
+  Read-only Web-Recherche (moneyhouse.ch Personensuche, northdata.com Vorstands-Historie,
+  business-monitor.ch aktuelle Organe).
+- `wiki/profil-christoph-bopp.md` aktualisiert (neues Mandat, sources/last_updated).
+- Report: `outputs/2026-07-21_drittes-kmu-mandat.md`.
+
+## 2026-07-20 — Firmenrollen verifiziert (Mac Mini Nachtschicht)
+- Offene Faktenfrage aus QUESTIONS.md beantwortet: exakte Rollen bei WOMA Maur und Nova
+  Property via oeffentliche Register/Webseiten verifiziert (kein Mail-Archiv noetig).
+  WOMA Maur ist eine **Genossenschaft** (UID CHE-103.976.168, Sitz Binz), Christoph seit 2013
+  Vorstand Ressort Liegenschaften + Vizepraesident. Nova Property Fund Management AG
+  (UID CHE-403.795.970, Sitz Freienbach/Pfaeffikon SZ), Christoph seit 2021 Head Development &
+  Construction, erweiterte Geschaeftsleitung (davor Losinger Marazzi AG 2010-2021).
+- Neuer Lead: drittes, nicht identifiziertes KMU-Vorstandsmandat seit 2004 (Nova-Kurzbio) —
+  als neue Frage in QUESTIONS.md aufgenommen.
+- `wiki/profil-christoph-bopp.md` aktualisiert (Rollen-Tabelle, Qualifikation) und dabei die im
+  Health-Check 01.07. als "rot" geflaggten ae/oe/ue-Digraphen auf echte Umlaute korrigiert.
+- Report: `outputs/2026-07-20_firmenrollen-verifikation.md`. Read-only Web-Recherche, kein
+  Versand, kein Kontakt mit Dritten.
+
+## 2026-07-01 — Health-Check Phase 1 (Audit)
+- Erster Wissens-Health-Check (Skill `wissenscheck`, unbeaufsichtigt) durchgefuehrt.
+  Report: `outputs/2026-07-01_health-check.md`.
+- Ampel A gruen · B gelb · C gelb · D gruen · E gruen · F rot · G gelb.
+- Top-Findings: (F) durchgaengige ae/oe/ue-Digraphen statt echter Umlaute im Artikel
+  `profil-christoph-bopp`; (B) 2 tote Backlinks `[[auftrags-muster-bopp]]` /
+  `[[zusammenarbeit-lessons-bopp]]`; (G) 4 Projekt-Detailartikel anlegbar.
+- Nur Audit + Ablegen; keine Phase-2-Aktionen ausgefuehrt.
+
+## 2026-06-03 — Belegte Projekte ergaenzt (aus Studien-Archiv)
+- `profil-christoph-bopp`: Tabelle "Belegte JANS-Projekte fuer Bopp/Nova" ergaenzt — 5 reale
+  Studien aus `AR - 03 Studien` (WOMA Maur, Ebmatingen, Baar, Regensdorf, WALD/Nova).
+  Erkenntnis: Bopp/Nova ist der wichtigste Studien-Kunde (5 von 16 Archiv-Studien).
+- Quelle: Analyse der 16 Machbarkeitsstudien beim Aufbau der `machbarkeit`-Wissensbasis.
+
+## 2026-06-03 — KB angelegt
+- Neuer Kunden-KB `wissen/kunde-bopp/` aus dem Bopp-Harness-Aufbau erstellt.
+- Seed-Artikel `wiki/profil-christoph-bopp.md` aus dem Mail-Archiv kompiliert (25 Mails,
+  Absender woma-maur.ch / novaproperty.ch / bluewin.ch; Stand 2026-06-03).
+- `INDEX.md`, `QUESTIONS.md`, `raw/_INGESTED.md` initialisiert.
+- Offene Coverage: Projekt-Detailartikel (Ebmatingen 113/115, Romanshorn Hafenstrasse 46,
+  Baar Zugerstrasse 49, Giebelweg 12 Langnau) noch nicht angelegt — siehe QUESTIONS.

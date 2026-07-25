@@ -1,0 +1,26 @@
+{
+  "slug": "Gessner",
+  "architekt": {
+    "name": "Gessner",
+    "nachname": "Gessner",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Gessner"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Gessner",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 1,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".pdf": 1
+  },
+  "textauszug": "363 3 Albert Geßner, Einband des Werkes Das Deutsche Miethaus , München 1909 5 Albert Geßner, Doppelseite aus Das Deutsche Miethaus , München 1909 4 Albert Geßner, Seite aus Das Deutsche Miethaus , München 1909",
+  "embed_doc": "Gessner | 363 3 Albert Geßner, Einband des Werkes Das Deutsche Miethaus , München 1909 5 Albert Geßner, Doppelseite aus Das Deutsche Miethaus , München 1909 4 Albert Geßner, Seite aus Das Deutsche Miethaus , München 1909",
+  "stand": "2026-07-02T21:16:05"
+}

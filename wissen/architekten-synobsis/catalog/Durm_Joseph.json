@@ -1,0 +1,43 @@
+{
+  "slug": "Durm_Joseph",
+  "architekt": {
+    "name": "Durm Joseph",
+    "nachname": "Durm",
+    "vorname": "Joseph",
+    "jahre": [],
+    "ordner": "Durm_Joseph"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Durm_Joseph",
+  "projekte": [
+    {
+      "raw": "00_Literatur",
+      "ort": "00",
+      "projekt": "Literatur",
+      "jahre": [],
+      "titel": "00 Literatur"
+    },
+    {
+      "raw": "Karlsruhe_Kunsthalle",
+      "ort": "Karlsruhe",
+      "projekt": "Kunsthalle",
+      "jahre": [],
+      "titel": "Karlsruhe Kunsthalle"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 6,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 1,
+    "total": 7
+  },
+  "dateitypen": {
+    ".jpg": 5,
+    ".png": 1,
+    ".psd": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Durm Joseph | 00 Literatur | Karlsruhe Kunsthalle",
+  "stand": "2026-07-02T21:13:25"
+}

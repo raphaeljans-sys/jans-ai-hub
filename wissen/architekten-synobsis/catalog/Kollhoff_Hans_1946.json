@@ -1,0 +1,253 @@
+{
+  "slug": "Kollhoff_Hans_1946",
+  "architekt": {
+    "name": "Kollhoff Hans 1946",
+    "nachname": "Kollhoff",
+    "vorname": "Hans",
+    "jahre": [
+      "1946"
+    ],
+    "ordner": "Kollhoff_Hans_1946"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Kollhoff_Hans_1946",
+  "projekte": [
+    {
+      "raw": "00 Architekt",
+      "ort": "00 Architekt",
+      "projekt": "00 Architekt",
+      "jahre": [],
+      "titel": "00 Architekt"
+    },
+    {
+      "raw": "Amersfoort",
+      "ort": "Amersfoort",
+      "projekt": "Amersfoort",
+      "jahre": [],
+      "titel": "Amersfoort"
+    },
+    {
+      "raw": "Amsterdam",
+      "ort": "Amsterdam",
+      "projekt": "Amsterdam",
+      "jahre": [],
+      "titel": "Amsterdam"
+    },
+    {
+      "raw": "Berlin_Alexanderplatz",
+      "ort": "Berlin",
+      "projekt": "Alexanderplatz",
+      "jahre": [],
+      "titel": "Berlin Alexanderplatz"
+    },
+    {
+      "raw": "Berlin_Charlottenburg_Louisenplatz",
+      "ort": "Berlin",
+      "projekt": "Charlottenburg Louisenplatz",
+      "jahre": [],
+      "titel": "Berlin Charlottenburg Louisenplatz"
+    },
+    {
+      "raw": "Berlin_Delbrueckhaus",
+      "ort": "Berlin",
+      "projekt": "Delbrueckhaus",
+      "jahre": [],
+      "titel": "Berlin Delbrueckhaus"
+    },
+    {
+      "raw": "Berlin_Potsdamer_Platz_Delbrueckhaus",
+      "ort": "Berlin",
+      "projekt": "Potsdamer Platz Delbrueckhaus",
+      "jahre": [],
+      "titel": "Berlin Potsdamer Platz Delbrueckhaus"
+    },
+    {
+      "raw": "Berlin_Potsdamer_Platz_Kollhoff_Tower_1999_101m",
+      "ort": "Berlin",
+      "projekt": "Potsdamer Platz Kollhoff Tower 101m",
+      "jahre": [
+        "1999"
+      ],
+      "titel": "Berlin Potsdamer Platz Kollhoff Tower 1999 101m"
+    },
+    {
+      "raw": "Berlin_Potsdamerplatz_Wettbewerb",
+      "ort": "Berlin",
+      "projekt": "Potsdamerplatz Wettbewerb",
+      "jahre": [],
+      "titel": "Berlin Potsdamerplatz Wettbewerb"
+    },
+    {
+      "raw": "Berlin_Reinhardstrasse_33",
+      "ort": "Berlin",
+      "projekt": "Reinhardstrasse 33",
+      "jahre": [],
+      "titel": "Berlin Reinhardstrasse 33"
+    },
+    {
+      "raw": "Berlin_Tempelhoferfeld",
+      "ort": "Berlin",
+      "projekt": "Tempelhoferfeld",
+      "jahre": [],
+      "titel": "Berlin Tempelhoferfeld"
+    },
+    {
+      "raw": "Berlin_Walter_Benjamin_Platz",
+      "ort": "Berlin",
+      "projekt": "Walter Benjamin Platz",
+      "jahre": [],
+      "titel": "Berlin Walter Benjamin Platz"
+    },
+    {
+      "raw": "Berlin_Wohnpark_am_Berlin_Museum_Neubau_IBA_1980",
+      "ort": "Berlin",
+      "projekt": "Wohnpark am Berlin Museum Neubau IBA",
+      "jahre": [
+        "1980"
+      ],
+      "titel": "Berlin Wohnpark am Berlin Museum Neubau IBA 1980"
+    },
+    {
+      "raw": "Berlin_Wohnungsbau",
+      "ort": "Berlin",
+      "projekt": "Wohnungsbau",
+      "jahre": [],
+      "titel": "Berlin Wohnungsbau"
+    },
+    {
+      "raw": "Bodmann_(noch zu Einfuegen)",
+      "ort": "Bodmann",
+      "projekt": "(noch zu Einfuegen)",
+      "jahre": [],
+      "titel": "Bodmann (noch zu Einfuegen)"
+    },
+    {
+      "raw": "Botersloot_Wohnhochhaus",
+      "ort": "Botersloot",
+      "projekt": "Wohnhochhaus",
+      "jahre": [],
+      "titel": "Botersloot Wohnhochhaus"
+    },
+    {
+      "raw": "City_of_composite_presence",
+      "ort": "City",
+      "projekt": "of composite presence",
+      "jahre": [],
+      "titel": "City of composite presence"
+    },
+    {
+      "raw": "Denhag_Justitz_Ministerium",
+      "ort": "Denhag",
+      "projekt": "Justitz Ministerium",
+      "jahre": [],
+      "titel": "Denhag Justitz Ministerium"
+    },
+    {
+      "raw": "Dietikon_Limmatfeld",
+      "ort": "Dietikon",
+      "projekt": "Limmatfeld",
+      "jahre": [],
+      "titel": "Dietikon Limmatfeld"
+    },
+    {
+      "raw": "Frankfurt_Dom_Roemer",
+      "ort": "Frankfurt",
+      "projekt": "Dom Roemer",
+      "jahre": [],
+      "titel": "Frankfurt Dom Roemer"
+    },
+    {
+      "raw": "LAM",
+      "ort": "LAM",
+      "projekt": "LAM",
+      "jahre": [],
+      "titel": "LAM"
+    },
+    {
+      "raw": "Leipzig_Verwaltungsgebaeude",
+      "ort": "Leipzig",
+      "projekt": "Verwaltungsgebaeude",
+      "jahre": [],
+      "titel": "Leipzig Verwaltungsgebaeude"
+    },
+    {
+      "raw": "Luzern_Tivoli",
+      "ort": "Luzern",
+      "projekt": "Tivoli",
+      "jahre": [],
+      "titel": "Luzern Tivoli"
+    },
+    {
+      "raw": "Muenchen_",
+      "ort": "Muenchen",
+      "projekt": "",
+      "jahre": [],
+      "titel": "Muenchen"
+    },
+    {
+      "raw": "Zumthor_Moerteltyp",
+      "ort": "Zumthor",
+      "projekt": "Moerteltyp",
+      "jahre": [],
+      "titel": "Zumthor Moerteltyp"
+    }
+  ],
+  "projekt_anzahl": 25,
+  "inventar": {
+    "bilder": 2243,
+    "dokumente": 830,
+    "cad": 26,
+    "andere": 1356,
+    "total": 4455
+  },
+  "dateitypen": {
+    ".jpg": 1502,
+    ".pdf": 795,
+    ".pln": 550,
+    ".png": 381,
+    ".bpn": 358,
+    ".tiff": 197,
+    ".2dl": 161,
+    ".tif": 121,
+    ".gsm": 96,
+    ".psd": 54,
+    ".docx": 26,
+    ".gif": 22,
+    ".dwg": 21,
+    ".jpeg": 20,
+    ".dot": 17,
+    "": 16,
+    ".pla": 11,
+    ".lck": 11,
+    ".doc": 9,
+    ".c4d": 9,
+    ".mod": 8,
+    ".indd": 8,
+    ".zip": 8,
+    ".gpi": 6,
+    ".dxf": 5,
+    ".bak": 4,
+    ".ac4d": 4,
+    ".log": 4,
+    ".ifc": 3,
+    ".xls": 3,
+    ".aat": 3,
+    ".3ds": 3,
+    ".jp2": 3,
+    ".textclipping": 2,
+    ".d83": 2,
+    ".aif": 2,
+    ".dat": 1,
+    ".pat": 1,
+    ".d81": 1,
+    ".2]": 1,
+    ". gross- lv": 1,
+    ".pct": 1,
+    ".pict": 1,
+    ".mov": 1,
+    ".plist": 1,
+    ".iff": 1
+  },
+  "textauszug": "Hallo Raphael, anbei ein Link: http://we.tl/y7WvNkkJQh Es sind ein Paar Fassaden und Grundrissen von de Projekten Botersloot (Rotterdam 2006) und Amerfoort (2008) zum ausdrucken für Hans.Die Baukosten lagen bei beiden Projekten um die 1000 euro/ m2. Verkaufspreise bewegen sich momentan zwischen 2500 euro/m2 in Rotterdam und 8000 euro/m2 in Amsterdam. Mietpreise zwischen 10 und 25 Euro/m2/Monat.Die Türme in den Projekten BOT und AMF waren Teil einer grösseren Entwicklung. Die Türme waren alleine nie wirtschaftlich (brutto-netto-Verhältnis ungünstig, mehr Fassade usw.), aber die Wohnungen im Sockel beim Projekt AMF und die Bürofläche im Projekt BOT haben das kompensiert. Alles weitere kann ich telefonisch erklären. Gruss,Alexander Pols Kantoor KollhoffNieuwe Uitleg 252514 BR Den Haag T. +31 · (0)70 7370399F. +31 · (0)70 7370370pols@kollhoff.nlwww.kollhoff.de Alexander Pols <pols@kollhoff.nl> An: alx@kollhoff.de ALX, Beispiele aus Holland 22. Mai 2015 13:19 1:500 Drawing Scale Layout ID AMF_38_41 1:500 Drawing Scale Layout ID AMF_40 1:500 Drawing Scale Layout ID AMF_40 B6117t 1 BERLIN ALEXANDERPLATZ PRÄSENTATION 1. BÜRGERWORKSHOP 1. SEPTEMBER 2015 2 ALEXANDERPLATZ LUFTBILD VON SÜDOSTEN 1935 3 LAGEPLAN WETTBEWERB II PHASE 1993 4 MODELLFOTO WETTBEWERB II PHASE 1993 5 MODELLFOTO WETTBEWERB III PHASE 1993 6 B-PLAN ÜBERLAGERUNG MIT BESTAND 2014 Berlin, 2.9.2015 We ichenstellung Auftragsverhältnis Termin: Donnerstag 3. September 2015 12.00 Uhr (30 Minuten) Teilnehmer: Hans Kollhoff, Helga Timmermann, Raphael Jans > Konkurs Ankündigung meiner Einzelf irma durch Zahlungsversäumnisse von Prof. Hans Kollhoff an Raphael Jans > Kenntnis von Rausschmiss aus der Wohnung weil Zahlungsunfähigkeit von Raphael Jans gegenüber seinem Wohnunsvermieter > Reaktionslosigkeit nach mehrere mündlicher Ankündigung wegen Zahlungsnot gegenüber Gläubiger von Raphael Jans > Reaktionslosigkeit nach E-Mail von Eliane Murer (Finanzbetreuerin der Einzelfirma Raphael Jans Architekt ETH) bezüglich nicht Überweisen der Ausstehenden Lohnzahlungen > Unterschreiben /Einschreiben des Erhalts des Schreibens > Unterschreiben /Einschreiben des Erhalt der Rechnungen > Unterschreiben /Einschreiben des Arbeitszeugnis Politik, Verwaltung, Bürger Kultur & Ausgehen Tourismus Wirtschaft Themen BerlinFinder Stadtplan Google Seit dem 17. Jahrhundert ist der Alexanderplatz mit dem Georgentor als wichtigstem Zugang zum historischen Zentrum einer der bedeutendsten und verkehrsreichsten Berliner Plätze. Die nunmehr eingeleitete Umgestaltung des \"Alex\" trägt seiner historischen Bedeutung als dynamischem Handelsstandort, hochfrequentiertem Einkaufsviertel und gesellschaftlichem Zentrum Rechnung. Für die erst nach der Wiedervereinigung Deutschlands ermöglichten Neuplanungen wurde im Januar 1993 von der Senatsverwaltung für Stadtentwicklung und Umweltschutz mit dem Bezirk Mitte und den acht Grundstückseigentümern / Investoren am Alexanderplatz ein städtebaulicher Ideenwettbewerb zum Alexanderplatz ausgelobt. Der prämierte Entwurf der Architekten Hans Kollhoff und Helga Timmermann mit ursprünglich 13 geplanten Hochhäusern bildete die Grundlage für alle weiteren Planungen. Die Festsetzung des ersten von vier Bebauungsplänen erfolgte im April 2000. Der Bebauungsplan I-B4a sieht den Bau von sieben Hochhäusern vor, welche mittelfristig realisiert werden sollen. Die Kosten für die Umbaumaßnahmen im öffentlichen Straßen- und Platzbereich wurden bzw. werden im Rahmen einer \"Public Private Partnership\" von den Investoren und dem Land Berlin anteilig übernommen. Das auf eine stufenweise Umsetzung ausgerichtete städtebauliche Konzept sieht die Realisierung von ca. 1,3 Mio. m² Geschossfläche vor, davon sieht das Planungsrecht ca. 350.000 m² für Einzelhandels-, 650.000 m² für Büro-, Hotel- und Entertainmentflächen sowie bis zu 300.000 m² für Wohnflächen vor. Bereits realisierte Projekte Viele angedachte Bauprojekte am Alexanderplatz sind in den vergangenen Jahren bereits umgesetzt worden. Neben der Erneuerung der Platzgestaltung Alexanderplatz war ein weiteres jedoch kaum sichtbares Großprojekt der Bau einer zentralen Tiefgarage mit 650 Stellplätzen unter der Alexanderstraße nördlich des Alexanderplatzes. Sowohl die Alexanderstraße als auch die Tiefgarage wurden im November 2011 eröffnet. Bereits 1998 wurde die Umgestaltung des S- und Regionalbahnhofs Alexanderplatz durch die Deutsche Bahn beendet. Im selben Jahr wurde der Alexanderplatz wieder an das Straßenbahnnetz angebunden, die 2007 um eine weitere Strecke ergänzt wurde. Die erste Hochbaumaßnahme im Projektbereich Alexanderplatz war im Jahr 2001 der Bau des Multiplexkinos CUBIX auf der Südseite des Bahnhofs Alexanderplatz. Einige Jahre später im Jahr 2006 wurde das völlig neu gestaltete Kaufhaus Galeria-Kaufhof sowie das daneben liegende denkmalgerecht sanierte Büro- und Geschäftshaus Berolinahaus eröffnet - das Alexanderhaus war schon 1993-95 restauriert worden. 2007 folgte die Eröffnung der Shopping Mall ALEXA, die auf einer über Jahrzehnte als Parkplatz zwischengenutzten Baufläche an der Alexanderstraße errichtet wurde. 2009 wurde der Sockelbau auf dem Baublock D4 am Alexanderplatz Baustelle Alexanderplatz, März 2007: Die Sanierung der Gebäude am Alexanderplatz sowie die Platzumgestaltung ist nahezu abgeschlossen. Blick vom Fernsehturm, März 2009: Der Sockelbau von Baublock D4 ist fertig, die Tiefbauarbeiten für die Tiefgarage auf der Alexanderstraße haben begonnen. Senatsverwaltung für Stadtentwicklung und Umwelt Städtebau Projekte Alexanderplatz Geschichte Alexanderplatz heute Planverfahren Projekte Kontakt Druckversion Projekte Luftbild Alexanderplatz, Juni 2008; Foto: Dirk Laubner Home English Kontakt Impressum WohnenBauen Planen VerkehrUmweltDenkmal Über uns Service Alexanderplatz fertig gestellt, der nun viele zusätzliche Geschäfte an den Platz lockt und die bislang fehlende Begrenzung des Platzes in nordöstlicher Richtung darstellt. 2011 wurde das an der Karl-Liebknecht-Straße neu gebaute Hotel- und Bürohaus \"Die Welle\" eröffnet und im Jahr 2012 der Hotel- und Wohnkomplex \"Alexander Parkside\" nördlich des Alexanderplatzes an der Otto-Braun-Straße fertig. Südlich des Alexanderplatzes in der Nähe des Fernsehturmes auf dem Grundstück des traditionsreichen Handelsunternehmens C & A wurde 2012 mit dem Bau des Geschäfts- und Wohnhauses Alea 101 begonnen. Die Fertigstellung wird 2014 erfolgen. Die bereits realisierten und die weiteren in Vorbereitung befindlichen Projekte sowie auch erfolgreiche Zwischennutzungskonzepte - wie das zeitlich befristete Angebot der Gaststätte Hofbräu Berlin - tragen inzwischen zu einer deutlichen Verbesserung der städtebaulichen Situation und der damit einhergehenden Aufenthaltsqualität am Alexanderplatz und seinem Umfeld bei. Blick von der Dircksenstraße auf die Galeria-Kaufhof (links), das park inn-Hotel und das Berolinahaus (rechts), März 2007 Senatsverwaltung für Stadtentwicklung und Umwelt Württembergische Straße 6, 10707 Berlin Wir über unsKontaktImpressumSitemap Tel.: 030 90139-3000 Bürgertelefon: 115 Seitenanfang !\" + $ !\" + $ Seite empfehlen Aktuell 64.28064.280 Stellen in Berlin und Brandenburg BAULEITER (M/W) BAULEITER (M/W) Bauleiter (m/w) ges. für schlüsselfertiges Bauen im Bereich EFH / ZFH in Bln./BB, abgeschl. Studium (Bauing.... MALER MALER Maler u. WDVS-Techniker für diverse Arbeiten im Innen-u. Aussenbereich ab sofort f. Großraum Bln. gesucht. B... TISCHLER (M/W) TISCHLER (M/W) Gebäudetechnik in Berlin sucht Tischler (m/w) Vollzeit, FS Klasse B bzw. 3 erforderlich, Gehaltsvorstellung, ... Aktuell 64.28064.280 Stellen in Berlin und Brandenburg BAULEITER (M/W) BAULEITER (M/W) Bauleiter (m/w) ges. für schlüsselfertiges Bauen im Bereich EFH / ZFH in Bln./BB, abgeschl. Studium (Bauing.... MALER MALER Maler u. WDVS-Techniker für diverse Arbeiten im Innen-u. Aussenbereich ab sofort f. Großraum Bln. gesucht. B... TISCHLER (M/W) TISCHLER (M/W) Gebäudetechnik in Berlin sucht Tischler (m/w) Vollzeit, FS Klasse B bzw. 3 erforderlic",
+  "embed_doc": "Kollhoff Hans 1946 | 00 Architekt 00 Architekt | Amersfoort Amersfoort | Amsterdam Amsterdam | Berlin Alexanderplatz | Berlin Charlottenburg Louisenplatz | Berlin Delbrueckhaus | Berlin Potsdamer Platz Delbrueckhaus | Berlin Potsdamer Platz Kollhoff Tower 101m 1999 | Berlin Potsdamerplatz Wettbewerb | Berlin Reinhardstrasse 33 | Berlin Tempelhoferfeld | Berlin Walter Benjamin Platz | Berlin Wohnpark am Berlin Museum Neubau IBA 1980 | Berlin Wohnungsbau | Bodmann (noch zu Einfuegen) | Botersloot Wohnhochhaus | City of composite presence | Denhag Justitz Ministerium | Dietikon Limmatfeld | Frankfurt Dom Roemer | LAM LAM | Leipzig Verwaltungsgebaeude | Luzern Tivoli | Muenchen | Zumthor Moerteltyp | Hallo Raphael, anbei ein Link: http://we.tl/y7WvNkkJQh Es sind ein Paar Fassaden und Grundrissen von de Projekten Botersloot (Rotterdam 2006) und Amerfoort (2008) zum ausdrucken für Hans.Die Baukosten lagen bei beiden Projekten um die 1000 euro/ m2. Verkaufspreise bewegen sich momentan zwischen 2500 euro/m2 in Rotterdam und 8000 euro/m2 in Amsterdam. Mietpreise zwischen 10 und 25 Euro/m2/Monat.Die Türme in den Projekten BOT und AMF waren Teil einer grösseren Entwicklung. Die Türme waren alleine nie wirtschaftlich (brutto-netto-Verhältnis ungünstig, mehr Fassade usw.), aber die Wohnungen im Sockel beim Projekt AMF und die Bürofläche im Projekt BOT haben das kompensiert. Alles weitere kann ich telefonisch erklären. Gruss,Alexander Pols Kantoor KollhoffNieuwe Uitleg 252514 BR Den Haag T. +31 · (0)70 7370399F. +31 · (0)70 7370370pols@kollhoff.nlwww.kollhoff.de Alexander Pols <pols@kollhoff.nl> An: alx@kollhoff.de ALX, Beispiele aus Holland 22. Mai 2015 13:19 1:500 Drawing Scale Layout ID AMF_38_41 1:500 Drawing Scale Layout ID AMF_40 1:500 Drawing Scale Layout ID AMF_40 B6117t 1 BERLIN ALEXANDERPLATZ PRÄSENTATION 1. BÜRGERWORKSHOP 1. SEPTEMBER 2015 2 ALEXANDERPLATZ LUFTBILD VON SÜDOSTEN 1935 3 LAGEPLAN WETTBEWERB II PHASE 1993 4 MODELLFOTO WETTBEWERB II PHASE 1993 5 MODELLFOTO WETTBEWERB III PHASE 1993 6 B-PLAN ÜBERLAGERUNG MIT BESTAND 2014 Berlin, 2.9.2015 We ichenstellung Auftragsverhältnis Termin: Donnerstag 3. September 2015 12.00 Uhr (30 Minuten) Teilnehmer: Hans Kollhoff, Helga Timmermann, Raphael Jans > Konkurs Ankündigung meiner Einzelf irma durch Zahlungsversäumnisse von Prof. Hans Kollhoff an Raphael Jans > Kenntnis von Rausschmiss aus der Wohnung weil Zahlungsunfähigkeit von Raphael Jans gegenüber seinem Wohnunsvermieter > Reaktionslosigkeit nach mehrere mündlicher Ankündigung wegen Zahlungsnot gegenüber Gläubiger von Raphael Jans > Reaktionslosigkeit nach E-Mail von Eliane Murer (Finanzbetreuerin der Einzelfirma Raphael Jans Architekt ETH) bezüglich nicht Überweisen der Ausstehenden Lohnzahlungen > Unterschreiben /Einschreiben des Erhalts des Schreibens > Unterschreiben /Einschreiben des Erhalt der Rechnungen > Unterschreiben /Einschreiben des Arbeitszeugnis Politik, Verwaltung, Bürger Kultur & Ausgehen Tourismus Wirtschaft Themen BerlinFinder Stadtplan Google Seit dem 17. Jahrhundert ist der Alexanderplatz mit dem Georgentor als wichtigstem Zugang zum historischen Zentrum einer der bedeutendsten und verkehrsreichsten Berliner Plätze. Die nunmehr eingeleitete Umgestaltung des \"Alex\" trägt seiner historischen Bedeutung als dynamischem Handelsstandort, hochfrequentiertem Einkaufsviertel und gesellschaftlichem Zentrum Rechnung. Für die erst nach der Wiedervereinigung Deutschlands ermöglichten Neuplanungen wurde im Januar 1993 von der Senatsverwaltung für Stadtentwicklung und Umweltschutz mit dem Bezirk Mitte und den acht Grundstückseigentümern / Investoren am Alexanderplatz ein städtebaulicher Ideenwettbewerb zum Alexanderplatz ausgelobt. Der prämierte Entwurf der Architekten Hans Kollhoff und Helga Timmermann mit ursprünglich 13 geplanten Hochhäusern bildete die Grundlage für alle weiteren Planungen. Die Festsetzung des ersten von vier Bebauungsplänen erfolgte im April 2000. Der Bebauungsplan I-B4a sieht den Bau von sieben Hochhäusern vor, welche mittelfristig realisiert werden sollen. Die Kosten für die Umbaumaßnahmen im öffentlichen Straßen- und Platzbereich wurden bzw. werden im Rahmen einer \"Public Private Partnership\" von den Investoren und dem Land Berlin anteilig übernommen. Das auf eine stufenweise Umsetzung ausgerichtete städtebauliche Konzept sieht die Realisierung von ca. 1,3 Mio. m² Geschossfläche vor, davon sieht das Planungsrecht ca. 350.000 m² für Einzelhandels-, 650.000 m² für Büro-, Hotel- und Entertainmentflächen sowie bis zu 300.000 m² für Wohnflächen vor. Bereits realisierte Projekte Viele angedachte Bauprojekte am Alexanderplatz sind in den vergangenen Jahren bereits umgesetzt worden. Neben der Erneuerung der Platzgestaltung Alexanderplatz war ein weiteres jedoch kaum sichtbares Großprojekt der Bau einer zentralen Tiefgarage mit 650 Stellplätzen unter der Alexanderstraße nördlich des Alexanderplatzes. Sowohl die Alexanderstraße als auch die Tiefgarage wurden im November 2011 eröffnet. Bereits 1998 wurde die Umgestaltung des S- und Regionalbahnhofs Alexanderplatz durch die Deutsche Bahn beendet. Im selben Jahr wurde der Alexanderplatz wieder an das Straßenbahnnetz angebunden, die 2007 um eine weitere Strecke ergänzt wurde. Die erste Hochbaumaßnahme im Projektbereich Alexanderplatz war im Jahr 2001 der Bau des Multiplexkinos CUBIX auf der Südseite des Bahnhofs Alexanderplatz. Einige Jahre später im Jahr 2006 wurde das völlig neu gestaltete Kaufhaus Galeria-Kaufhof sowie das daneben liegende denkmalgerecht sanierte Büro- und Geschäftshaus Berolinahaus eröffnet - das Alexanderhaus war schon 1993-95 restauriert worden. 2007 folgte die Eröffnung der Shopping Mall ALEXA, die auf einer über Jahrzehnte als Parkplatz zwischengenutzten Baufläche an der Alexanderstraße errichtet wurde. 2009 wurde der Sockelbau auf dem Baublock D4 am Alexanderplatz Baustelle Alexanderplatz, März 2007: Die Sanierung der Gebäude am Alexanderplatz sowie die Platzumgestaltung ist nahezu abgeschlossen. Blick vom Fernsehturm, März 2009: Der Sockelbau von Baublock D4 ist fertig, die Tiefbauarbeiten für die Tiefgarage auf der Alexanderstraße haben begonnen. Senatsverwaltung für Stadtentwicklung und Umwelt Städtebau Projekte Alexanderplatz Geschichte Alexanderplatz heute Planverfahren Projekte Kontakt Druckversion Projekte Luftbild Alexanderplatz, Juni 2008; Foto: Dirk Laubner Home English Kontakt Impressum WohnenBauen Planen VerkehrUmweltDenkmal Über uns Service Alexanderplatz fertig gestellt, der nun viele zusätzliche Geschäfte an den Platz lockt und die bislang fehlende Begrenzung des Platzes in nordöstlicher Richtung darstellt. 2011 wurde das an der Karl-Liebknecht-Straße neu gebaute Hotel- und Bürohaus \"Die Welle\" eröffnet und im Jahr 2012 der Hotel- und Wohnkomplex \"Alexander Parkside\" nördlich des Alexanderplatzes an der Otto-Braun-Straße fertig. Südlich des Alexanderplatzes in der Nähe des Fernsehturmes auf dem Grundstück des traditionsreichen Handelsunternehmens C & A wurde 2012 mit dem Bau des Geschäfts- und Wohnhauses Alea 101 begonnen. Die Fertigstellung wird 2014 erfolgen. Die bereits realisierten und die weiteren in Vorbereitung befindlichen Projekte sowie auch erfolgreiche Zwischennutzungskonzepte - wie das zeitlich befristete Angebot der Gaststätte Hofbräu Berlin - tragen inzwischen zu einer deutlichen Verbesserung der städtebaulichen Situation und der damit einhergehenden Aufenthaltsqualität am Alexanderplatz und seinem Umfeld bei. Blick von der Dircksenstraße auf die Galeria-Kaufhof (links), das park inn-Hotel und das Berolinahaus (rechts), März 2007 Senatsverwaltung für Stadtentwicklung und Umwelt Württembergische Straße 6, 10707 Berlin Wir über unsKontaktImpressumSitemap Tel.: 030 90139-3000 Bürgertelefon: 115 Seitenanfang !\" + $ !\" + $ Seite empfehlen Aktuell 64.28064.280 Stellen in Berlin und Brandenburg BAULEITER (M/W) BAULEITER (M/W) Bauleiter (m/w) ges. für schlüsselfertiges Bauen im Bereich EFH / ZFH in Bln./BB, abgeschl. Studium (Bauing.... MALER MALER Maler u. WDVS-Techniker für diverse Arbeiten im Innen-u. Aussenbereich ab sofort f. Großraum Bln. gesucht. B... TISCHLER (M/W) TISCHLER (M/W) Gebäudetechnik in Berlin sucht Tischler (m/w) Vollzeit, FS Klasse B bzw. 3 erforderlich, Gehaltsvorstellung, ... Aktuell 64.28064.280 Stellen in Berlin und Brandenburg BAULEITER (M/W) BAULEITER (M/W) Bauleiter (m/w) ges. für schlüsselfertiges Bauen im Bereich EFH / ZFH in Bln./BB, abgeschl. Studium (Bauing.... MALER MALER Maler u. WDVS-Techniker für diverse Arbeiten im Innen-u. Aussenbereich ab sofort f. Großraum Bln. gesucht. B... TISCHLER (M/W) TISCHLER (M/W) Gebäudetechnik in Berlin sucht Tischler (m/w) Vollzeit, FS Klasse B bzw. 3 erforderlic",
+  "stand": "2026-07-02T21:35:26"
+}

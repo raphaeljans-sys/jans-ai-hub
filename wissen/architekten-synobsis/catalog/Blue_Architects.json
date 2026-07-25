@@ -1,0 +1,34 @@
+{
+  "slug": "Blue_Architects",
+  "architekt": {
+    "name": "Blue Architects",
+    "nachname": "Blue",
+    "vorname": "Architects",
+    "jahre": [],
+    "ordner": "Blue_Architects"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Blue_Architects",
+  "projekte": [
+    {
+      "raw": "Zuerich_Kafischnaps",
+      "ort": "Zuerich",
+      "projekt": "Kafischnaps",
+      "jahre": [],
+      "titel": "Zuerich Kafischnaps"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 4,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 4
+  },
+  "dateitypen": {
+    ".png": 4
+  },
+  "textauszug": "",
+  "embed_doc": "Blue Architects | Zuerich Kafischnaps",
+  "stand": "2026-07-02T21:08:47"
+}

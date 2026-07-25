@@ -1,0 +1,26 @@
+{
+  "slug": "Van_der_Mey",
+  "architekt": {
+    "name": "Van der Mey",
+    "nachname": "Van",
+    "vorname": "der Mey",
+    "jahre": [],
+    "ordner": "Van_der_Mey"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Van_der_Mey",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 12,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 12
+  },
+  "dateitypen": {
+    ".jpg": 12
+  },
+  "textauszug": "",
+  "embed_doc": "Van der Mey",
+  "stand": "2026-07-02T22:50:53"
+}

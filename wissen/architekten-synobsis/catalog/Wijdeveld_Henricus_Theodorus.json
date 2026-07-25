@@ -1,0 +1,34 @@
+{
+  "slug": "Wijdeveld_Henricus_Theodorus",
+  "architekt": {
+    "name": "Wijdeveld Henricus Theodorus",
+    "nachname": "Wijdeveld",
+    "vorname": "Henricus Theodorus",
+    "jahre": [],
+    "ordner": "Wijdeveld_Henricus_Theodorus"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Wijdeveld_Henricus_Theodorus",
+  "projekte": [
+    {
+      "raw": "Amsterdam_Hofweg_1927",
+      "ort": "Amsterdam",
+      "projekt": "Hofweg",
+      "jahre": [
+        "1927"
+      ],
+      "titel": "Amsterdam Hofweg 1927"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 0,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 0
+  },
+  "dateitypen": {},
+  "textauszug": "",
+  "embed_doc": "Wijdeveld Henricus Theodorus | Amsterdam Hofweg 1927",
+  "stand": "2026-07-02T22:51:31"
+}

@@ -1,0 +1,26 @@
+{
+  "slug": "Zuchi_Gino",
+  "architekt": {
+    "name": "Zuchi Gino",
+    "nachname": "Zuchi",
+    "vorname": "Gino",
+    "jahre": [],
+    "ordner": "Zuchi_Gino"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Zuchi_Gino",
+  "projekte": [],
+  "projekt_anzahl": 0,
+  "inventar": {
+    "bilder": 1,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 1
+  },
+  "dateitypen": {
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Zuchi Gino",
+  "stand": "2026-07-02T22:51:59"
+}

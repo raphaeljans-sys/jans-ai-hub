@@ -1,0 +1,35 @@
+{
+  "slug": "Studio_Blay_Streeruwitz",
+  "architekt": {
+    "name": "Studio Blay Streeruwitz",
+    "nachname": "Studio Blay Streeruwitz",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Studio Blay Streeruwitz"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Studio Blay Streeruwitz",
+  "projekte": [
+    {
+      "raw": "Wien MGC Plaza",
+      "ort": "Wien MGC Plaza",
+      "projekt": "Wien MGC Plaza",
+      "jahre": [],
+      "titel": "Wien MGC Plaza"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 18,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 1,
+    "total": 19
+  },
+  "dateitypen": {
+    ".png": 18,
+    ".pln": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Studio Blay Streeruwitz | Wien MGC Plaza Wien MGC Plaza",
+  "stand": "2026-07-02T22:49:31"
+}

@@ -1,0 +1,3446 @@
+# Quelle: https://espazium.s3.eu-central-1.amazonaws.com/files/2025-09/sursee-luks-jurybericht.pdf (Jurybericht 2021, 146 Seiten, abgerufen 2026-07-25)
+# Extrakt: pdftotext -layout, 146 Seiten, erstellt 2026-07-25
+
+Bericht des Beurteilungsgremiums
+Studienauftrag Neubau LUKS Sursee
+
+
+
+
+Luzern, 02. Juni 2025
+
+Luzern, 26. August 2021
+Impressum
+
+Auftraggeberin:
+LUKS Immobilien AG
+Spitalstrasse
+6000 Luzern 16
+
+
+
+Verfahrensbegleitung:
+Büro für Bauökonomie AG
+Am Mattenhof 14
+6010 Kriens
+www.bfbag.ch
+Inhalt
+Vorwort                                     3
+
+Einleitung                                   4
+Ausgangslage                                 4
+Spital LUKS Sursee                           4
+Mehrfelderwirtschaft des LUKS                4
+Pflegezentrum Seeblick                       5
+Machbarkeitsstudien Standort Schwyzermatt    6
+Betriebliche Machbarkeitsstudie              6
+Ziele des Wettbewerbsverfahren               6
+
+Verfahren                                   7
+Auftraggeberin                              7
+Art des Verfahrens                          7
+Grundlagen und Verbindlichkeiten            7
+Eigentumsverhältnisse und Urheberrecht      7
+Termine 1. Stufe                            7
+Termine 2. Stufe                            7
+Beurteilungsgremium                         8
+
+Beurteilungskriterien                        9
+
+Beurteilung der Projekte 1. Stufe           10
+Eingegangene Projekte                       10
+Beurteilungssitzungen 1. Stufe              10
+Formale Vorprüfung                          10
+Baurechtliche Prüfung                       10
+Betriebliche Vorprüfung                     10
+Wirtschaftlichkeit                          10
+Nachhaltigkeit                              10
+Beurteilung                                 11
+Preiszuteilung                              11
+Rückmeldungen zur 2. Stufe                  12
+Kuvertöffnung                               12
+
+Beurteilung der Projekte 2. Stufe           14
+Zwischenbesprechung                         14
+Schlussbeurteilung                          14
+Beurteilung der engeren Wahl                14
+Entschädigung                               15
+Empfehlung zur Weiterbearbeitung            16
+
+Genehmigung                                 17
+
+Projekte 2. Stufe Studienauftrag            19
+
+Projekte 1. Stufe Projektwettbewerb         91
+
+
+
+
+                                             1
+2
+Vorwort
+Mit dem Architekturwettbewerb für den Neubau des          Die Begleitung des Wettbewerbs als Besteller und
+Spitals LUKS Sursee auf dem Areal Schwyzermatt            Bauherr war eine intensive und herausfordernde, aber
+in der Gemeinde Schenkon macht das Luzerner               äusserst spannende Aufgabe. Im Namen des Auf-
+Kantonsspital (LUKS) einen wichtigen und ent-             traggebers und des Beurteilungsgremiums stellen wir
+scheidenden Schritt, um eine qualitativ hochwertige,      mit grosser Genugtuung fest, dass das Verfahren ein
+wohnortnahe, patientenorientierte, effiziente und         breites Spektrum interessanter und wirtschaftlicher
+zukunftsfähige Gesundheitsversorgung für die Region       Lösungsvorschläge aufgezeigt hat. Die eingereichten
+Sursee-Sempachersee langfristig sicherzustellen. Der      Projektbeiträge weisen alle eine sehr hohe Qualität auf
+Neubau ist ein wesentlicher Bestandteil der kanto-        und zeugen von einer intensiven Auseinandersetzung
+nalen Versorgungsstrategie, ermöglicht modernste          mit der anspruchsvollen Aufgabenstellung.
+medizinische Behandlungen und trägt zu Stärkung
+von Effizienz und Qualität bei.                           Der Auftraggeber und das Beurteilungsgremium dan-
+                                                          ken allen Beteiligten herzlich für die geleistete Arbeit
+Heute werden an ein Spital völlig andere Anforde-         und das grosse Engagement.
+rungen gestellt als zur Zeit des Baus des aktuellen
+Spitalgebäudes in den 70er Jahren. Bevölkerungs-          Luzerner Kantonsspital
+wachstum und Alterung haben eine steigende Nach-
+frage von Spitalbehandlungen zur Folge, immer mehr        Peter Schilliger, Vizepräsident Verwaltungsrat und
+Behandlungen können ambulant durchgeführt wer-            Vorsitzender Ausschuss Bau/Infrastruktur
+den, mit der Verbesserung der medizinischen Mög-          Florian Aschbrenner, CEO/Vorsitzender der Ge-
+lichkeiten sind die Aufenthaltszeiten für die Patienten   schäftsleitung
+deutlich kürzer geworden.
+
+Der Neubau LUKS Sursee hat den Anspruch, Ant-
+worten auf die dynamische Entwicklung des Gesund-
+heitswesens zu geben. Dazu zählen neue Behand-
+lungs- und Versorgungsformen, technologische
+Innovationen, zunehmende Spezialisierung, Digitalisie-
+rung, der Fachkräftemangel sowie wachsende Bedürf-
+nisse an Kommunikation und Komfort. Die integrierte
+Gesundheitsversorgung setzt die eng koordinierte
+Zusammenarbeit über Fachgrenzen und Versorgungs-
+stufen voraus. Entscheidende Prozessverbesserungen
+benötigen neue Strukturen, der Neubau schafft die
+räumlichen und technischen Voraussetzungen dafür.
+
+Das LUKS realisiert derzeit mehrere Grossbauvor-
+haben und hat bereits für die Neubauten in Luzern
+und Wolhusen qualitätssichernde Auswahlverfahren
+durchgeführt. Insbesondere für das Verständnis der
+komplexen betrieblichen Abhängigkeiten im Spitalbau
+und die vielfältigen Zusammenhänge haben sich die
+Dialogverfahren bewährt. Um ein breiteres Teilneh-
+merfeld anzusprechen und auch Teams mit weniger
+Spitalerfahrung eine Teilnahme zu ermöglichen, be-
+inhaltete das Wettbewerbsverfahren für den Neubau
+LUKS Sursee eine offene, anonyme Stufe. Die Vielfalt
+der eingereichten Projekte sowie deren betriebliche
+Qualitäten bestätigen dieses Vorgehen.
+
+
+                                                                                                                 3
+Einleitung
+Ausgangslage
+Das Luzerner Kantonsspital (LUKS) mit den Spital-           lich und betrieblich nicht mehr den heutigen, respektiv
+betrieben in Luzern, Sursee und Wolhusen ist ein            künftigen Anforderungen. Um auch in Zukunft eine
+Unternehmen der LUKS Gruppe. Diese gehört zu                wohnortnahe, wirtschaftliche und qualitativ hoch-
+den führenden Spitalgruppen der Schweiz und um-             stehende medizinische Versorgung gewährleisten
+fasst zudem die Spital Nidwalden AG, die Luzerner           zu können, benötigt das LUKS Sursee eine moderne
+Höhenklinik Montana AG, die LUKS Immobilien AG              Infrastruktur und an die Prozesse zur Leistungserbrin-
+sowie weitere Beteiligungen. Die LUKS Gruppe sorgt          gung angepasste Flächen. Aufgrund des Standortent-
+für eine koordinierte, digital vernetzte und für alle zu-   scheids wird der Neubau für das Spital LUKS Sursee
+gängliche Gesundheitsversorgung mit einer starken           auf dem Areal «Schwyzermatt» an der Peripherie von
+Patienten-, Zuweiser- und Kundenorientierung.               Sursee realisiert. Das Areal Schwyzermatt liegt auf
+                                                            dem Gebiet der Gemeinde Schenkon.
+Mehr als 8270 Mitarbeitende sind mit Herz, Leiden-
+schaft und Engagement rund um die Uhr für das               Mehrfelderwirtschaft des LUKS
+Wohl der Patientinnen und Patienten da. Die LUKS            Der Neubau LUKS Sursee wird – im wahrsten Sinne
+Gruppe verfügt über 886 Akutbetten und versorgt             des Wortes – «auf der grünen Wiese» geplant und ge-
+ein Einzugsgebiet mit rund 700‘000 Einwohnern. Sie          baut. Das Land wird heute landwirtschaftlich genutzt,
+behandelt jährlich über 48‘000 stationäre Patientinnen      die erforderlichen Fruchtfolgeflächen sind vorhanden.
+und Patienten und zählt rund 920 000 ambulante Pa-          Spitalgebäude haben üblicherweise einen eher kurzen
+tientenkontakte (Geschäftsbericht 2022). Die Kliniken       Lebenszyklus von 30 bis 40 Jahren. Die schnellen
+und Institute der LUKS Gruppe bieten medizinische           Entwicklungen im Gesundheitswesen fordern stete
+Leistungen von höchster Qualität. Mit dem Stand-            Anpassungen und Umbauten. Teilweise verändern
+ort Luzern gehört das grösste Zentrumsspital der            sich die Kernprozesse so stark, dass sie in älteren Ge-
+Schweiz der LUKS Gruppe an.                                 bäuden nicht mehr realisiert werden können. Ausser-
+                                                            dem belastet Bauen im Bestand den Betrieb stark und
+Das Spital Sursee ist elementarer Bestandteil der           bedingt teure Provisorien. Daher sind nach einiger
+LUKS Gruppe und übernimmt wesentliche Versor-               Zeit Ersatzneubauten die wirtschaftlichere Lösung.
+gungsaufgaben für die Region. Das medizinische              Vor diesem Hintergrund spielt eine nachhaltige und
+Behandlungskonzept in Sursee bildet die wichtigsten         ökonomische Bauweise mit Berücksichtigung der
+medizinischen Anforderungsprofile eines Grundver-           Kreislaufwirtschaft eine entscheidende Rolle. Da-
+sorgers mit einer umfassenden Notfallversorgung             mit der neue Standort Schwyzermatt über mehrere
+und der Behandlung der wichtigsten epidemiologisch          Generationen als Spitalstandort dienen kann, soll das
+zu erwartenden Krankheitsbilder ab. Leitgedanken            Grundstück entsprechend strukturiert und gegliedert
+sind dabei hohe Versorgungsqualität, Abbildung von          werden. Besondere Beachtung muss daher der lang-
+Innovation, Mitarbeiter- und Patientenfreundlichkeit,       fristigen Entwicklungsfähigkeit geschenkt werden.
+hohe Flexibilität in den Raumnutzungen sowie effizi-        Eine Kernaufgabe der ersten Wettbewerbsstufe be-
+ente Betriebsprozesse. Interdisziplinäre Fachzentren        steht daher in der Verortung der Nutzungen auf dem
+erlauben eine individuelle und personalisierte Patien-      zur Verfügung stehenden Areal, das Erschliessungs-
+tenbehandlung.                                              konzept aller Verkehrsträger zum Grundstück sowie
+                                                            die verschiedenen betrieblichen und logistischen
+Spital LUKS Sursee                                          Verbindungen. Sämtliche nicht zum Kerngeschäft
+Spitalbauten unterliegen einem Erneuerungszyklus            gehörenden – und damit nicht dem kurzen Lebens-
+von 30 bis 40 Jahren. Mit Neubauten lassen sich die         zyklus unterworfenen – Funktionen werden in separa-
+Betriebsprozesse effizienter verbessern, belastendes        ten, langlebigeren Gebäuden untergebracht. So sind
+Bauen unter Betrieb sowie teure Provisorien werden          neben einem Parkhaus auch Baufelder für Gebäude
+stark reduziert und die steigenden Instandhaltungs-         für die Technik, den Rettungsdienst, Personalwohnun-
+kosten älterer Liegenschaften entfallen. Das heutige        gen, Arztpraxen und dgl. zu definieren.
+Spitalgebäude des Luzerner Kantonsspitals (LUKS)
+Sursee stammt aus dem Jahre 1976 und genügt bau-
+
+
+4
+Pflegezentrum Seeblick
+Im Gleichschritt mit dem Standortwechsel des Spitals          Da das Pflegezentrum Seeblick auf dem gemeinsa-
+soll auch das Pflegezentrum Seeblick an den neuen             men Areal verwirklicht werden soll, war es Bestandteil
+Standort verlegt werden, um weiterhin die Synergien           der Wettbewerbsaufgabe. Im Rahmen des Wettbe-
+der beiden Einrichtungen vollumfänglich nutzen zu             werbsverfahrens LUKS Sursee waren jedoch ledig-
+können.                                                       lich die Verortung auf dem Areal, die Zugänge, die
+                                                              funktionalen Schnittstellen, Schematische Grundrisse
+2 Aufgabenstellung Wettbewerbsverfahren
+Das vom Gemeindeverband Seeblick Sursee betrie-               mit horizontal- und Vertikalerschliessungen sowie die
+bene Pflegeheim richtet sich primär auf die Lang-             Abmessungen / Geometrie vorzuschlagen.
+zeitpflege aus, bietet aber auch Kurzzeit-, Akut- und
+Übergangspflege sowie eine geschützte Wohn-                  Der Gemeindeverband Seeblick Sursee wird nach
+2.1      Spital
+gruppe für        LUKS
+              Menschen      Sursee
+                        mit Demenz  an. Künftig sollen       dem Entscheid des Wettbewerbs LUKS Sursee auf
+insgesamt 100 Betten zur Verfügung stehen, ver-              Basis der Festlegungen des Siegerprojektes einen
+Spitalbauten unterliegen einem Erneuerungszyklus von 30 bis 40 Jahren. Mit Neubauten lassen sich
+teilt auf vier Wohn- und Pflegebereiche mit jeweils 22       eigenen Wettbewerb zum Neubau des Pflegeheims
+die Betriebsprozesse effizienter verbessern, belastendes Bauen unter Betrieb sowie teure Provisorien
+Betten und einen geschützten Wohnbereich mit 12              am Standort Schwyzermatt durchführen. Die Realisa-
+werden stark reduziert und die steigenden Instandhaltungskosten älterer Liegenschaften entfallen.
+Betten. Das Pflegezentrum Seeblick ist unabhängig            tion des Neubaus Seeblick erfolgt als gesondertes
+Das Spital
+vom    heutige  Spitalgebäude
+              LUKS Sursee        deseigenständig
+                           und wird   Luzerner be-
+                                                 Kantonsspitals (LUKS) Sursee
+                                                             Bauvorhaben         stammt
+                                                                           unabhängig vomaus   dem LUKS.
+                                                                                           Neubau    Jahre 1976
+und    genügt baulich und betrieblich nicht mehr den heutigen, respektiv künftigen Anforderungen.
+trieben.
+Um auch in Zukunft eine wohnortnahe, wirtschaftliche und qualitativ hochstehende medizinische Ver-
+sorgung gewährleisten zu können, benötigt das LUKS Sursee eine moderne Infrastruktur und an die
+Prozesse zur Leistungserbringung angepasste Flächen.
+Aufgrund des Standortentscheids wird der Neubau für das Spital LUKS Sursee auf dem Areal
+«Schwyzermatt» an der Peripherie von Sursee realisiert. Das Areal Schwyzermatt liegt auf dem Gebiet
+der Gemeinde Schenkon.
+
+
+
+
+                                                                       Standort neu
+                                                                       Schwyzermatt
+
+
+
+
+                                              Standort bestehend
+                                              Spital Sursee
+                                              Pflegeheim Seeblick
+
+
+
+
+Abbildung 2: Standort bestehend und neu Spital LUKS Sursee
+                                                                                                                   5
+Machbarkeitsstudien Standort Schwyzermatt                Ziele des Wettbewerbsverfahren
+Zur Basis der Standortevaluation gehören die vom         • Räumliche Umsetzung der betrieblichen und
+Kanton Luzern, Dienststelle Immobilien, in Auftrag ge-      baulichen Anforderungen entlang der Betriebspro-
+gebene Machbarkeitsstudien zum Standort Schwy-              zesse, die einen betriebswirtschaftlich effizienten,
+zermatt Schenkon, erstellt durch Ecoptioma AG,              patienten- und mitarbeiterfreundlichen Betrieb
+Bern.                                                       unterstützen und fördern
+                                                         • Betrieblich effiziente Anordnung der geforderten
+Die Machbarkeitsstudie Ecoptioma AG und deren Be-           Nutzungen auf dem Projektperimeter
+richte bilden Grundlagen für die Planung am Standort     • Auf die Nutzung des Spitals abgestimmte Ge-
+Schwyzermatt.                                               staltung der Innenräume, hohe räumliche Qualität
+                                                            bezüglich Aufenthalt, räumlicher Orientierung und
+Weitere Machbarkeitsstudien zur Standortevaluation          Lichtführung
+wurden durch fsp Architekten AG und hemmi fayet          • Architektonisch und städtebaulich überzeugender
+Architekten AG erarbeitet. Diese Studien liefern eben-      Projektvorschlag unter Einbezug der bestehenden
+falls Erkenntnisse zum Standort Schwyzermatt. Alle          Bebauung, der Umgebung und der zukünftigen
+Machbarkeitsstudien wurden den Teilnehmenden des            Arealentwicklung
+Wettbewerbs als Auszüge zum Standort Schwyzer-           • Planung einer effizienten modularen Infrastruktur,
+matt abgegeben.                                             die flexibel reagieren kann, sowohl auf Veränderun-
+                                                            gen im Leistungsangebot als auch auf betriebliche
+Betriebliche Machbarkeitsstudie                             Veränderungen und deren Anforderungen
+Unabhängig von der Standortevaluation durch den          • Optimale Umsetzung der Anforderungen an die
+Kanton Luzern wurden die betrieblichen Grundlagen           Nachhaltigkeit und Kreislaufwirtschaft
+und Bedürfnisse für den Spitalneubau erarbeitet. Zur     • Bedürfnisorientierte und alltagsgerechte Gestal-
+Bestätigung der grundsätzlichen Realisierbarkeit und        tung der Aussen- und Freiräume für die angedach-
+der Vorbereitung des qualitätssichernden Auswahlver-        te Nutzung
+fahrens wurde auf Grundlage der leistungsbasierten       • Verkehrsplanerisch einwandfreie Erschliessung der
+Flächenaussage, des Grobflächenraumprogramms,               Neubauten für alle Anspruchsgruppen mit guter
+sowie des Rahmenbetriebskonzeptes mit Affinitäts-           Anbindung an die geplanten ÖV-Haltepunkte
+matrix die Machbarkeit überprüft. Weiter wurden eine     • Umsetzbares, rationales Realisierungskonzept
+mögliche Funktionsverortung nach DIN 13080 und              unter Berücksichtigung der baulichen Rahmenbe-
+die Primärerschliessung für die Standorte überprüft         dingungen bis und mit Bezug des Neubaus
+(Footprint). Die Erkenntnisse sind in die abgegebenen    • Aufzeigen einer etappierten Bebauung des Areals
+Machbarkeitsstudien eingeflossen.                           auf städtebaulicher Ebene mit Einbezug der Ablö-
+                                                            seflächen und der Arealerschliessung
+
+
+
+
+6
+Verfahren
+Auftraggeberin                                          Termine 1. Stufe
+Veranstalterin für das Verfahren war die LUKS           Publikation und Versand Unterlagen      Februar 2024
+Immobilien AG.                                          Fragenbeantwortung                        März 2024
+                                                        Abgabetermin		                              Mai 2024
+Art des Verfahrens                                      Beurteilung		                              Juni 2024
+Das Verfahren unterstand dem öffentlichen Beschaf-
+fungswesen und dem GATT/WTO-Übereinkommen.              Termine 2. Stufe
+Aufgrund der komplexen und spezifisch auf die Be-       Versand Unterlagen 2. Stufe             August 2024
+dürfnisse des LUKS abgestimmten Aufgabenstellung        Fragenbeantwortung                   September 2024
+erachtete die Auftraggeberin einen direkten Dialog      Zwischenpräsentation                   Oktober 2024
+zwischen den Teilnehmern und dem Beurteilungsgre-       Abgabetermin		                         Februar 2025
+mium als zwingend erforderlich.                         Beurteilung		                         März/April 2025
+                                                        Ausstellung		                              Juni 2025
+Es wurde ein zweistufiges Wettbewerbsverfahren
+durchgeführt. Das Verfahren bestand aus einem
+öffentlich ausgeschriebenen, anonymen Projektwett-
+bewerb (1. Stufe) und einem nachfolgenden, nicht
+anonymen Studienauftrag (2. Stufe) mit 5 Projekt-
+vorschlägen und war eine Kombination der Ordnung
+SIA 142 (2009) «Ordnung für Architektur- und Inge-
+nieurwettbewerbe» (1. Stufe) und der Ordnung SIA
+143 (2009) «Ordnung für Architektur- und Studienauf-
+träge» (2. Stufe).
+
+Grundlagen und Verbindlichkeiten
+Das Verfahren richtete sich nach der interkantonalen
+Vereinbarung über das öffentliche Beschaffungs-
+wesen (IVöB) vom 19. November 2019 (IVöB 2019)
+und dem Dekret über die Genehmigung des Beitritts
+des Kantons Luzern zur Interkantonalen Vereinbarung
+über das öffentliche Beschaffungswesen vom
+12. September 2022.
+
+Mit Einreichung eines Projektvorschlags haben die
+Projektteams die Verfahrensgrundsätze als verbindlich
+anerkannt. In gleicher Weise war es für die Auftrag-
+geberin bindend. Die Teilnehmer akzeptieren die
+Entscheide des Beurteilungsgremiums, auch jene in
+Ermessensfragen.
+
+Eigentumsverhältnisse und Urheberrecht
+Die Entwürfe gingen mit der Einreichung in das
+Eigentum der Auftraggeberin über. Die Urheberrechte
+blieben jedoch vollumfänglich beim Verfasser.
+
+
+
+
+                                                                                                            7
+Beurteilungsgremium
+Das Gremium setzte sich wie folgt zusammen:              Experten und Berater ohne Stimmrecht
+                                                         • Roland Schwilch, LUKS, Leiter Projektentwicklung
+Fachgremium mit Stimmrecht                               • Florian Eggert, LUKS Bau, Gesamtprojektleiter
+• Marie–Theres Caratsch, dipl. Architektin ETH SIA       • Nils Eichbaum, LUKS Leiter Bau
+   (Vorsitz)                                             • Werner Furrer, Büro für Bauökonomie AG Luzern,
+• Doris Wälchli, dipl. Architektin EPFL FAS SIA             Verfahrensbegleitung / Baukosten
+• Fawad Kazi, dipl. Architekt ETH SIA                    • Roger Gort, Büro für Bauökonomie AG Luzern,
+• Mauritius Carlen, MA ZFH Architektur, SIA                 Verfahrensbegleitung
+• Rita Illien, Landschaftsarchitektin BSLA SIA           • Andreas Ulrich, Büro für Bauökonomie AG Luzern,
+• Barbara Sintzel, dipl. Natw. ETH, Dozentin                Experte BIM / Kosten
+• Urs Meyer, dipl. Architekt FH (Ersatz)                 • Jürg Schär, Seeblick, Haus für Pflege und Betreu-
+                                                            ung, Verbandsleitung
+Sachgremium mit Stimmrecht                               • Rolf Bossart, Bauvorsteher Gemeinderat Schenkon
+• Peter Schilliger, Vizepräsident Verwaltungsrat         • Dario Kühni, Bauvorsteher seit 01.09.2024
+• Dr. rer. oec. Virginie Schubert, Leiterin Regionen     • Ruth Kurmann, TGS Architekten AG Luzern, Fach-
+• Prof. Dr. med. Katrin Hoffmann, Chief Medical             gremium Ortsbild Schenkon
+  Officer CMO                                            • Romeo Venetz, Vorsteher Ressort Bau und Umwelt
+• Prof. Dr. med. Jacqueline Mauch, Chefärztin An-           Sursee
+  ästhesie SU, ärztliche Vertretung                      • Hansjörg Schmid, LUKS, Leiter Finanzen / Stv.
+• Yvonne Neff Lüthy, Leiterin Standort Sursee, pfle-        CEO
+  gerische Vertretung                                    • Aron Duss, LUKS Leiter Technik und Sicherheit
+• Florentin Eiholzer, Leiter Betrieb und Infrastruktur   • Philippe Linder, LUKS Leiter Einkauf und Logistik
+  (Ersatz), betriebliche Vertretung                      • Tamar Sommerstein, Emch+Berger WSB AG,
+                                                            Expertin Bauingenieurwesen
+                                                         • Zoran Alimpic, EvoPlan AG, Experte Gebäude-
+                                                            technik
+
+                                                         Das Preisgericht behielt sich vor, bei Bedarf weitere
+                                                         Experten und Berater beizuziehen.
+
+
+
+
+8
+Beurteilungskriterien
+Für die 1. Stufe des Projektwettbewerbs galten folgen-   Für die 2. Stufe des Wettbewerbsverfahrens galten
+de Beurteilungskriterien:                                zusätzlich zu jenen aus der 1. Stufe die nachfolgend
+                                                         aufgeführten Beurteilungskriterien:
+Funktionalität
+• Übergeordnete Strategie der Nutzungsanordnung          Funktionalität
+• Betrieblich effiziente Anordnung der Funktionsbe-      • Qualität und Effizienz der betrieblichen Anforderun-
+  reiche                                                   gen in der räumlichen Umsetzung
+• Qualität Erschliessungskonzept aussen und innen        • Modulare Infrastruktur, Flexibilität und Erweiterbar-
+                                                           keit
+Städtebau und Architektur                                • Funktionelle räumliche Anschlusspunkte
+• Architektonisches Gesamtkonzept                        • Realisierbarkeit gebäudetechnische Konzepte und
+• Gestaltung und Einordnung in die vorhandenen             Konzept Wärme-/Kälteerzeugung
+   städtebaulichen Strukturen
+• Positionierung und Dimensionierung der Gebäude-        Städtebau und Architektur
+   volumen                                               • Gestaltung der Innenräume und Aufenthaltsqualität
+• Lage und Qualität der Aussenräume                      • Räumliche Orientierung und Lichtführung
+• Verbindungen im Areal, Anbindung / Baufeld Pfle-       • Fassadenkonzeption und -materialisierung
+   gezentrum Seeblick                                    • Qualität der Aussenräume, Freiräume und Plätze,
+• Funktionalität und Integration der Verkehrser-            Aufenthaltsqualität
+   schliessung, Langsamverkehr, ÖV
+                                                         Wirtschaftlichkeit
+Wirtschaftlichkeit                                       • Einhaltung / Erreichung Kostenziel
+• Flächeneffizienz, Kompaktheit (z.B. Faktor GF/NF)      • Kostenbewusste Konzeption bezüglich der Be-
+• Wirtschaftlichkeit und Einfachheit der Systeme           triebs- und Unterhaltskosten
+• Flexibilität in der Arealentwicklung
+                                                         Nachhaltigkeit
+Nachhaltigkeit                                           • Zertifizierbarkeit Minergie-P-ECO
+• Nachhaltigkeit der Gesamtkonzeption in Erstellung      • Beitrag zur Kreislauffähigkeit von Primär-, Sekun-
+  und Betrieb                                              där- und Tertiärstruktur
+• Konzeptionelle Eignung zur Zertifizierung Minergie-
+  P-ECO
+• Integration der Anforderungen an die Kreislaufwirt-
+  schaft
+• Innovationsfähigkeit der Konzepte
+
+
+
+
+                                                                                                                9
+Beurteilung der Projekte 1. Stufe
+Eingegangene Projekte                                   Betriebliche Vorprüfung
+Bei der Verfahrensbegleitung gingen termingerecht       Die betriebliche Vorprüfung des Vorprüfungsteams
+folgende 22 Projekte ein (Reihenfolge alphabetisch):    des LUKS wird von Florian Eggert vorgestellt. Die Vor-
+01       adidas                                         prüfung offenbart grosse Differenzen in der Funktiona-
+02       Aeternitas                                     lität der Projektvorschläge.
+03       APOLLO
+04       CAMPO LIBRE                                    Die betriebsplanerischen Vorgaben wurden von den
+05       Feld und Flur                                  Planungsbüros teilweise unterschiedlich interpretiert
+06       FORMAVITAE                                     und nicht durchgehend anforderungsgerecht umge-
+07       GEHÖFT                                         setzt. Insbesondere trifft die Feststellung auf folgende
+08       GRÜNACHSE                                      Bereiche zu:
+09       heute-morgen-übermorgen                        • On-/Off-Stage Prinzip nicht ausreichend umge-
+10       HOSPES                                            setzt
+11       IMPULS                                         • Bezüge zwischen Funktionseinheiten nicht hinrei-
+12       KARÖTIS                                           chend berücksichtigt
+13       Libelle                                        • Ungenügender Tageslicht-/ Aussenbezug
+14       lumière du lac
+15       PROMENADE                                      Die projektspezifischen Qualitäten und Problempunk-
+16       RAUTE                                          te der Projektvorschläge im betrieblichen Bereich
+17       Spitelmatte                                    wurden vor den Plänen detailliert erläutert.
+18       TOURNESOL
+19       VIER JAHRESZEITEN                              Zudem wurde festgestellt, dass wesentliche Randbe-
+20       Vincent                                        dingungen bei der Arealplanung präziser zu berück-
+21       131885408                                      sichtigen sind. Insbesondere betrifft das:
+22       156945                                         • Lärmschutz
+                                                        • ÖV-Erschliessung
+Beurteilungssitzungen 1. Stufe                          • Flexibilität Nebengebäude
+Zwischen dem 24. Juni 2024 und dem 08. Juli 2024
+hat sich das Beurteilungsgremium zu drei Beurtei-       Wirtschaftlichkeit
+lungssitzungen der ersten Stufe getroffen.              Die Beurteilung der Wirtschaftlichkeit erfolgte auf
+                                                        Grundlage der Gebäudekennwerte auf vergleichender
+Formale Vorprüfung                                      Basis. Die Ergebnisse und Vergleichswerte sind in die
+Als erstes nahm das Beurteilungsgremium von den         Beurteilung eingeflossen.
+Ergebnissen aus der formalen Vorprüfung der Büro
+für Bauökonomie AG und der Experten Kenntnis. Es        Nachhaltigkeit
+wurden keine Verstösse festgestellt.                    Die Vorprüfung der Nachhaltigkeit erfolgte stufenge-
+                                                        recht zusammen mit dem Statik-Konzept auf über-
+Baurechtliche Prüfung                                   geordneter Ebene. Die Hinweise und Empfehlung
+Bei der baurechtlichen Prüfung waren bei mehreren       aus der Vorprüfung wurden bei der Beurteilung der
+Projekten leichte Abweichungen zu den vorgegebe-        Projektvorschläge berücksichtigt.
+nen Grenzabständen und teilweise Unterschreitungen
+des Waldabstandes zur Grünzone im Norden fest-          Ablöseflächen
+gestellt worden. Das Beurteilungsgremium entschied,     Im Umgang mit dem Konzept der Ablöseflächen für
+kein Projekt von der Beurteilung auszuschliessen, da    einen möglichen Ersatzbau bis im Jahr 2070 sind
+sich aus den Verstössen keine Vorteile ableiten las-    grosse Unterschiede auszumachen. Dem Umstand,
+sen. Die Interpretation des definierten Waldabstandes   dass diese Fläche bis dahin in der Landwirtschafts-
+und mögliche Ausnahmen wurden abgeklärt und im          zone verbleibt und landwirtschaftlich genutzt werden
+Gremium besprochen.                                     muss, wurde nicht von allen Projektvorschlägen aus-
+                                                        reichend Rechnung getragen.
+
+
+10
+Städtebau                                                Das Gremium hat folgende sieben Projekte im
+Unter der Leitung von Ruth Kurmann, Fachgremium          1. Wertungsrundgang ausgeschieden:
+Ortsbild Schenkon wurden die Projektvorschläge           01      adidas
+nach ortsbaulichen Aspekten begutachtet und die          03      APOLLO
+Erkenntnisse den Gremium vorgestellt.                    06      FORMAVITAE
+                                                         09      heute-morgen-übermorgen
+Seeblick                                                 12      KARÖTIS
+Die Projekteingaben wurden auch durch ein Team des       16      RAUTE
+Zentrums Seeblick auf betriebliche, räumliche und        21      131885408
+qualitative Aspekte hin vorgeprüft. Die Ergebnisse
+wurden dem Beurteilungsgremium erläutert und in die      Im 2. Wertungsrundgang schieden folgende Projekte
+Beurteilung einbezogen.                                  aus:
+                                                         02      Aeternitas
+Beurteilung                                              04      CAMPO LIBRE
+Vor dem ersten Wertungsrundgang wurden die Pro-          07      GEHÖFT
+jekte zunächst in Gruppen analysiert, anschliessend      11      IMPULS
+dem Gremium vorgestellt und ausführlich erläutert.       13      Libelle
+                                                         17      Spitelmatte
+Im Anschluss an den Orientierungsrundgang wurden         22      156945
+im Wertungsrundgang alle Projekte eingehend dis-
+kutiert und nach den genannten Beurteilungskriterien
+beurteilt. Aufgrund dieser Erkenntnisse erfolgte durch   Damit verblieben 8 Projekte in der engeren Wahl.
+das Preisgericht eine Selektion der Projekte in mehre-   Zur weiteren Beurteilung am 3. Beurteilungstag ver-
+ren Wertungsrundgängen. Ausschlaggebend waren            fassten die Fachpreisrichterinnen und Fachpreisrichter
+primär betriebliche Gründe sowie die städtebauliche      zu diesen 8 Projekten eine erste Würdigung.
+Setzung und der Umgang mit den Ablöseflächen. Das
+Gremium würdigt die gestalterisch und städtebaulich      Am 3. Beurteilungstag wurden auf Grundlage der
+interessanten Vorschläge dieser Projekte.                Würdigungen, einer vertieften betrieblichen Vorprü-
+                                                         fung und nach eingehender Diskussion mit sorgfälti-
+                                                         ger Abwägung der Beurteilungskriterien drei weitere
+                                                         Projekte ausgeschieden.
+                                                         14       lumière du lac
+                                                         18       TOURNESOL
+                                                         19       VIER JAHRESZEITEN
+
+                                                         Der Kontrollrundgang bestätigte folgende fünf Projek-
+                                                         te für die Teilnahme an der 2. Stufe:
+                                                         05        Feld und Flur
+                                                         08        GRÜNACHSE
+                                                         10        HOSPES
+                                                         15        PROMENADE
+                                                         20        Vincent
+
+
+
+
+                                                                                                            11
+Preiszuteilung                                           Kuvertöffnung
+Die Gesamtsumme für Preise und allfällige Ankäufe        Die Kuvertöffnung ergibt nachfolgende Verfasser:
+im Rahmen der 1. Stufe des Projektwettbewerbes           Aufgeführt sind die Funktionen Gesamtleitung und
+beträgt CHF 250 000 exkl. MWST. Das Beurteilungs-        Architektur des Generalplanerteams. Die detaillierten
+gremium vergab in der 1. Stufe acht Preise.              Verfasserangaben sind bei den Projektdokumentatio-
+                                                         nen aufgeführt.
+1. Rang / 1. Preis - Vincent
+CHF 50 000.00                                            Teilnehmer 2. Stufe
+
+2. Rang / 2. Preis - PROMENADE                           Projekt 05 Feld und Flur
+CHF 45 000.00                                            Jaeger Coneco AG Baumanagement, Zürich
+                                                         Fischer Architekten AG, Zürich
+3. Rang / 3. Preis - HOSPES
+CHF 40 000.00                                            Projekt 08 GRÜNACHSE
+                                                         ATP architekten ingenieure Zürich AG, Zürich
+4. Rang / 4. Preis - Feld und Flur                       Mint Architecture AG, Zürich
+CHF 35 000.00
+                                                         Projekt 10 HOSPES
+5. Rang / 5. Preis - GRÜNACHSE                           S+B Baumanagement AG, Olten
+CHF 30 000.00                                            Silvia Gmür Reto Gmür Architekten GmbH, Basel
+
+6. Rang / 6. Preis - TOURNESOL                           Projekt 15 PROMENADE
+CHF 20 000                                               Perita AG, Zürich
+                                                         a l sh architekten AG, Zürich und
+7. Rang / 7. Preis - VIER JAHRESZEITEN                   Pascal Flammer Architekten AG, Zürich
+CHF 16 000
+                                                         Projekt 20 Vincent
+8. Rang / 8. Preis - lumière du lac                      Conradi & Partner GmbH, Bach
+CHF 14 000                                               LUDES Architekten - Ingenieure GmbH, München
+
+Rückmeldungen zur 2. Stufe
+Im Anschluss erfasst das Gremium die allgemeinen
+und die projektspezifischen Hinweise und Anforderun-
+gen zur Weiterbearbeitung in der 2. Stufe an die Teil-
+nehmenden. Ebenso erhalten die Teilnehmenden der
+2. Stufe eine individuelle Würdigung des Fachpreis-
+gerichts. Die Erkenntnisse der Vorprüfungen ergänzen
+die Rückmeldungen. Mit den Rückmeldungen werden
+die Vorgaben bezüglich Ablöseflächen, öV-Erschlies-
+sung und Schallschutz noch einmal präzisiert.
+
+
+
+
+12
+Engere Wahl                                  1. Wertungsrundgang
+
+Projekt 14 lumière du lac                    Projekt 01 adidas
+Archipel Generalplanung AG, Zürich           Inneva AG, Frick
+ARGE ARCHIPEL / ASTOC / fsp / IAAG, Zürich   Fangan GmbH, Zürich
+
+Projekt 18 TOURNESOL                         Projekt 03 APOLLO
+Gruner AG, Basel                             HSSP AG, Zürich
+ARGE Burckhardt Architektur AG /             Theo Hotz Partner AG, Zürich
+wörner traxler richter gmbh, Basel
+                                             Projekt 06 FORMAVITAE
+Projekt 19 VIER JAHRESZEITEN                 Caretta Weidmann Baumanagement AG, Zürich
+Drees & Sommer Schweiz AG, Zürich            Nickl & Partner Architekten Schweiz AG, Zürich
+GWJ Architektur AG, Bern
+                                             Projekt 09 heute-morgen-übermorgen
+2. Wertungsrundgang                          Freiraum Baumanagement AG, Zürich
+                                             Dürig AG, Zürich
+Projekt 02 Aeternitas
+CSG Baumanagement AG, Basel                  Projekt 12 KARÖTIS
+Healing Spaces Kft. Budapest, Ungarn         Blaser Architekten AG, Basel
+                                             STUDIOPEZ, Basel
+Projekt 04 CAMPO LIBRE
+PPM Peter Baumanagement AG, St. Gallen       Projekt 16 RAUTE
+wulf architekten gmbh Stuttgart,             WSP Suisse AG, Zürich
+Zweigniederlassung Basel                     Baumschlager Eberle Vaduz AG, Vaduz
+
+Projekt 07 GEHÖFT                            Projekt 21 131885408
+Itten+Brechbühl AG, Bern                     albrings + müller ag, Lindau (DE)
+Herzog & de Meuron, Basel                    Michelgroup AG, Zürich
+
+Projekt 11 IMPULS
+DREICON AG, Zürich
+llg Santer Architekten, Zürich
+
+Projekt 13 Libelle
+a r c experts AG, Zürich
+SAM ARCHITEKTEN AG, Zürich
+
+Projekt 17 Spitelmatte
+Bühlmann & Partner Baumanagement GmbH,
+Steinhausen
+Metron Architektur AG, Brugg
+
+Projekt 22 156945
+Assmann Beraten + Planen GmbH, Berlin
+ingenhoven associates GmbH, Düsseldorf
+
+
+
+
+                                                                                          13
+Beurteilung der Projekte 2. Stufe
+Zwischenbesprechung                                       Aus der Kostenplausibilisierung ging hervor, dass
+Aufgrund der komplexen und spezifisch auf den Spi-        nicht alle Projektvorschläge das Kostendach einzuhal-
+talbetrieb abgestimmten Aufgabenstellung sowie der        ten vermögen. Das Beurteilungsgremium beschloss,
+städtebaulich anspruchsvollen Setzung der Baukörper       diesen Punkt im Rahmen der Gesamtbeurteilung und
+erachteten der Auftraggeber und das Beurteilungs-         mit Einbezug eines allfällig entstehenden Mehrwerts
+gremium einen direkten Dialog zur Erreichung der          zu bewerten.
+Zielsetzungen des Verfahrens als erforderlich und
+zielführend.                                              Das Kernteam Vorprüfung des LUKS stellte die
+                                                          detaillierte betriebliche Vorprüfung (Abläufe, Funktio-
+Am 29. Oktober 2024 fanden die Zwischenpräsenta-          nalitäten, Affinitäten, Logistik usw.) pro Projekt vor.
+tionen der 5 Projektteams der 2. Stufe statt. Ziel der    Damit die dem Betriebskonzept zugrunde gelegten
+Zwischenbesprechungen war die Präsentation der            betrieblichen Abläufe und Funktionalitäten optimal
+vom jeweiligen Projektteam vorgesehenen Weiterent-        erfüllt werden können, bildeten die Ergebnisse der
+wicklung ihres Projektes auf Grundlage der Hinweise       betrieblichen Vorprüfung eine wesentliche Grundlage
+des Beurteilungsgremiums aus der 1. Stufe. Die Zwi-       zur Projektauswahl.
+schenbesprechungen wurden für die Teilnehmer ein-
+zeln durchgeführt. Sie bestanden aus der Vorstellung      Wertungsrundgang
+des Projektstandes durch das Generalplanerteam            Zu Beginn der Beurteilung wurden alle Projekte detail-
+sowie einer Beantwortung von Verständnisfragen des        liert und unter Einbezug der Vorprüfungen analysiert
+Beurteilungsgremiums.                                     und eingehend diskutiert. Ein zusätzlich zugezoge-
+                                                          ner Experte Schallschutz konnte dem Gremium die
+Im Anschluss erfasste das Gremium wiederum                diesbezüglichen Problempunkte und Qualitäten der
+projektbezogene, wertungsfreie Erkenntnisse und           einzelnen Lösungsansätze aufzeigen. Aufgrund ein-
+Hinweise zum vorgestellten Projektstand für die finale    gehender Diskussionen und Abwägungen nach den
+Weiterbearbeitung. Das Beurteilungsgremium war da-        definierten Bewertungskriterien wurde das Projekt
+für besorgt, dass keine Übertragung von Ideen unter       „HOSPES“ ausgeschieden, in einem weiteren Schritt
+den Teams erfolgt.                                        auch die Projekte „Grünachse“ und „Vincent“.
+
+Schlussbeurteilung                                        Beurteilung der engeren Wahl
+Die fünf Projekte sind unter gleicher Namensgebung        Zu Beginn des letzten Wertungsrundgangs wurden
+wie in der 1. Stufe fristgerecht und vollständig ein-     die Ergebnisse und Erkenntnisse der betrieblichen
+gegangen.                                                 Vorprüfung und der weiteren Vorprüfungen dieser
+                                                          beiden Projekte noch einmal analysiert und ver-
+Als erstes nahm das Beurteilungsgremium von den           glichen. Beide verbleibenden Projekte weisen eine
+Ergebnissen der formalen Vorprüfung der Büro für          hohe Erfüllung der wichtigen Abläufe und räumlichen
+Bauökonomie AG Kenntnis. Ebenfalls wurden die             Affinitäten auf.
+durch die Planerteams ermittelten Baukosten plausibi-
+lisiert. Aus der Vorprüfung wurden keine erheblichen      Das Beurteilungsgremium gelangte einstimmig zum
+Verstösse festgestellt. Das Beurteilungsgremium ge-       Entscheid, dass mit dem Projektvorschlag „Feld und
+nehmigte die formale Vorprüfung und beschloss ein-        Flur“ die Aufgabenstellung am überzeugendsten um-
+stimmig, alle fünf Projekte zur Beurteilung zuzulassen.   gesetzt wurde und das Projekt mit der Setzung der
+                                                          Bauvolumen eine hohe städtebauliche Qualität aus-
+                                                          zuspielen vermag, welche auch ein hohes Mass an
+                                                          Flexibilität für Etappierungen ermöglicht.
+
+
+
+
+14
+Kontrollrundgang
+In einem Kontrollrundgang wurde der Entscheid ein-
+stimmig bestätigt.
+
+Das Beurteilungsgremium beantragt der Auftragge-
+berin einstimmig, das Planerteam Fischer Architekten
+AG, Zürich, mit dem Projekt „Feld und Flur“ mit der
+Weiterbearbeitung ihres Projektvorschlags zu beauf-
+tragen.
+
+Aufgrund der vereinbarten festen Entschädigung
+wird auf eine Rangierung der Projekte verzichtet.
+
+Entschädigung
+Für die Projektbearbeitung erhalten die selektionierten
+Planerteams als feste Aufwandsentschädigung je
+CHF 90 000 (exkl. MWST) für die vollständig einge-
+reichten und beurteilbaren Projektvorschläge.
+
+Begleitgremium Weiterbearbeitung
+Das Gremium entscheidet, einen Ausschuss aus
+4 Personen aus dem Fachpreisgericht mit der Beglei-
+tung der nächsten Planungsschritte und des Richtpro-
+jekts für den Bebauungsplan zu delegieren.
+
+Wettbewerbsverfahren Zentrum Seeblick
+Das Projekt „Feld und Flur“ überzeugt mit einer
+hohen Qualität der städtebaulichen Setzung auch für
+das noch zu projektierende Zentrum Seeblick. Der
+vorgesehene Standort dient als städtebauliche klare
+Grundlage mit hoher aussenräumlicher Qualität für
+den nachgelagerten Wettbewerb Seeblick.
+
+
+
+
+                                                          15
+Empfehlung zur Weiterbearbeitung                        Betrieb
+Das Preisgericht empfiehlt in der Weiterbearbeitung     • Die funktionale Zuordnung der Lifte ist zu klären,
+des Projektes «Feld und Flur» mit Bezug auf die Vor-      kombinierte Nutzungen, Kreuzungen der unter-
+prüfung und den Projektbeschrieb folgende Punkte zu       schiedlichen Verkehrsströme sind zu vermeiden
+berücksichtigen:                                        • Die IPS-Anbindung über öffentlichen Bereich ist zu
+                                                          überarbeiten bzw. zu lösen
+Aussenraum                                              • Im 1. OG sind Syergien zwischen Prozessen und
+• Die Gestaltung des zentralen Platzes ist zu konkre-     Bereichen weiter auszuschöpfen
+  tisieren, der Anteil Grünflächen zu erhöhen           • Der Tageslichtbezug im On-Stage-Bereich des
+• Generell sind die Orientierungen und Adressierun-       interdisziplinären Ambulatoriums ist zu verbessern
+  gen der Gebäudezugänge zu präzisieren und zum         • Der Patientenfluss On-/Off-Stage Gebärstation ist
+  Platz hin anzuordnen                                    ungenügend
+• Wünschenswert wäre eine Erschliessung des             • Es fehlt der betrieblich wichtige direkte Bezug
+  Nebengebäudes über die Geuenseestrasse                  Küche zu Restaurant
+• Eine Verkleinerung des Parkhaus ist zu prüfen,        • Technik- und Logistikflächen sind zu optimieren
+  ebenso eine Vergrösserung des Abstandes zum
+  Spitalgebäude                                         Bebauungsplan
+• Anzustreben ist eine Entflechtung des Verkehrs im     Das Beurteilungsgremium empfiehlt, im Rahmen der
+  Bereich Hauptzugang, die Durchfahrt zum Neben-        Erarbeitung des Bebauungsplanes folgende Punkte
+  gebäude ist störend                                   verbindlich aufzunehmen, um die Qualität des aus-
+                                                        gewählten Projekts in den weiteren Planungsschritten
+Hauptgebäude                                            sicherzustellen:
+• Der Flächenüberhang in den Zimmerbereichen ist        • Definieren der wichtigen Gebäudefluchten im Sin-
+  zu optimieren                                            ne von zwingenden Baulinien
+• Der seitlich angeordnete Zugang Notfallzentrum ist    • Die geschaffene Torsituation beim nördlichem Zu-
+  besser zu integrieren                                    gang zum Platz ist beizubehalten bzw. zu schärfen
+• Die Adressierung Eingang Hauptgebäude mit             • Die nordostseitigen Lücke / der Freibereich gegen
+  Adresse zum Platz ist zu konkretisieren                  den Bauernhof ist beizubehalten
+• Die Überdachung Hauptzugang und die Wind-             • Die südliche Kante des Nebengebäudes kann
+  fangsituation sind zu verbessern                         allenfalls weiter Richtung Süden rücken
+• Die Anbindungen der EG-Nutzungen an den zent-
+  ralen Platz sind zu verbessern                        Seeblick
+• Liftanordnung EG: Die Sichtbarkeit der Lifte vom      • Die städtebauliche Position soll im Bebauungsplan
+  Haupteingang aus ist zu verbessern (hinter Wen-         festgelegt werden
+  deltreppe)                                            • Das Gremium empfiehlt eine Prüfung der Ausrich-
+• Der Helikopterstandort tangiert die Innenhöfe, Ver-     tung der Zimmer nach Süden
+  schiebung in SO-Ecke prüfen                           • Die Höhe des Zentrum Seeblick ist auf maximal 6
+• Fassadengestaltung: Die horizontale Ordnung wird        Geschosse zu beschränken
+  als richtig empfunden, es ist aber eine adäquate
+  Weiterentwicklung des Ausdrucks anzustreben, die
+  Fassade soll einen nutzungsspezifischen, prägnan-
+  teren Ausdruck erhalten
+• Anzustreben ist eine Verringerung des Glasan-
+  teils, die Fixverschattung ist zu überdenken
+
+
+
+
+16
+Genehmigung
+Das Beurteilungsgremium hat den Entscheid und die
+Empfehlung im vorliegenden Bericht genehmigt.
+
+Luzern, 15. Mai 2025
+
+
+Marie–Theres Caratsch (Vorsitz)
+
+
+
+Doris Wälchli
+
+
+
+Fawad Kazi
+
+
+
+Mauritius Carlen
+
+
+
+Rita Illien
+
+
+
+Barbara Sintzel
+
+
+
+Urs Meyer (Ersatz)
+
+
+
+Peter Schilliger
+
+
+
+Dr. rer. oec. Virginie Schubert
+
+
+
+Prof. Dr. med. Katrin Hoffmann
+
+
+
+Prof. Dr. med. Jacqueline Mauch
+
+
+
+Yvonne Neff Lüthy
+
+
+
+Florentin Eiholzer (Ersatz)
+
+
+
+                                                    17
+18
+Projekte 2. Stufe Studienauftrag
+
+
+
+
+                                   19
+Feld und Flur
+Siegerprojekt
+
+Gesamtleitung                                    Heizung-Kälte / Lüftung-Klima -Ingenieur
+Jaeger Coneco AG Baumanagement                   Anima Engineering AG
+8004 Zürich                                      4051 Basel
+
+Architektur                                      Sanitär-Ingenieur
+Fischer Architekten AG                           Anima Engineering AG
+8045 Zürich                                      4051 Basel
+
+Simon Edelmann, Camilla Rossi,                   Fachkoordinator (technisch / räumlich)
+Eszter Nagy, Iris Keller                         Anima Engineering AG
+                                                 4051 Basel
+Baumanagement
+Jaeger Coneco AG Baumanagement                   Brandschutzplaner
+8004 Zürich                                      Gruner AG
+                                                 8050 Zürich
+Bauingenieur
+Basler & Hofmann AG                              Verkehrsplaner
+8032 Zürich                                      IBV HüslerAG
+                                                 8001 Zürich
+Daniel Graf
+                                                 Akustik
+Landschaftsplaner                                BAKUS AG
+Bischoff Landschaftsarchitektur GmbH             8045 Zürich
+5400 Baden
+                                                 Reto Waldmeier
+Florian Bischoff, Thomas Dietemann
+
+Spitalplaner
+Istitut für Beratungen im Gesundheitswesen IBG
+5001 Aarau
+
+Heinrich Messmer
+
+Nachhaltigkeitsplaner
+Lemon Consul AG
+8006 Zürich
+
+Elektro-Ingenieur
+Buergin & Keller Management & Engineering AG
+8134 Adliswil
+
+
+
+
+20
+21
+Projektbeschrieb
+Drei nutzungsdifferenzierte Aussenräume öffnen in         Das Pflegeheim Seeblick sowie das Nebengebäude
+der Abfolge die Perspektive vom Arealzugang im            komplettieren neben dem Hauptgebäude das platz-
+Nordwesten des Projektperimeters zur angrenzenden         bildende Ensemble. Beide bilden sowohl als Volumen
+Landwirtschaftszone in der südöstlichen Ecke. Die         als auch in der Organisation eine gute Ausgangslage
+drei Räume bestimmen das städtebauliche Grund-            für die weitere individuelle Entwicklung. Während das
+muster der vorgeschlagenen Arealüberbauung. Der           Pflegeheim von der ruhigen Lage im Areal sowie der
+Auftakt bildet der Ankunftsraum mit der zentralgele-      differenzierten Aussenraumqualität profitiert, nutzt
+genen Bushaltestelle. Er dient der Entflechtung der       das Nebengebäude die Nähe zum Hauptgebäude,
+Verkehrsströme und als Vorzone für den diagonal           welches direkt über die südliche Verbindungsachse
+angrenzenden, zentral angelegten Hauptplatz des           zugänglich ist. Beiden fehlt jedoch die Adressierung
+künftigen Spitalareals. Die gemeinsame, offene Mitte      am Hauptplatz.
+zwischen den versetzten Baukörpern ist das Herz der
+Anlage und die eigentliche Stärke des städtebaulichen     Das Hauptgebäude bildet den Abschluss des Areals
+Grundkonzeptes. Die nutzungsspezifischen Gebäu-           in südlicher Richtung und situiert sich angrenzend ans
+de sind entsprechend ihrer Anforderungen richtig          Parkhaus entlang der Surentalstrasse. Die Setzung
+platziert. Sowohl in der Etappierung der Baukörper        ermöglich eine effiziente Nutzung des Bodens und
+als auch in der Setzung der Reservefläche für einen       angrenzend eine gut zu bewirtschaftende, zusam-
+allfälligen Ersatzneubau des Hauptgebäudes, bleibt        menhängende Landwirtschaftsfläche. Das fünfge-
+der Aussenraum als Zentrum beständig und somit            schossige Volumen fügt sich gut in die bestehende
+als identitätsstiftendes Merkmal in der Kontinuität er-   Bebauungsstruktur ein. Der Haupteingang im Norden
+halten. Schwer verständlich hingegen ist angesichts       ist zentral gesetzt und öffnet sich richtigerweise zum
+der zentralen Lage und der Vernetzung der partizipie-     Hauptplatz hin. Die Setzung der gastronomischen
+renden Gebäude deren Adressbildung. Keines dieser         Aussenfläche wirkt dagegen etwas abseits und durch
+ist klar auf den zentralen Hof ausgerichtet. Auch die     die Verbindungsstrasse zum Nebengebäude fehlt der
+Gestaltung und ihre Formensprache wird der Funktion       Bezug zum Hauptplatz. Auch der Annex der Notfall-
+dieses Ortes nicht gerecht. Statt der wünschens-          zufahrt wirkt im Verhältnis zu den sonst klar definier-
+werten, grosszügigen, verbindenden Mitte entsteht         ten Volumen fremd. Im Innenraum definieren vier
+vielmehr eine kleinteilige Sammlung unterschiedlicher     peripher angeordnete vertikale Erschliessungskerne
+Teilflächen ohne die nötige verbindende Wirkung.          zusammen mit dem zentral angelegten Hauptkern
+                                                          die Grundstruktur des Gebäudes. Diese strategisch
+Die Erschliessung ist effizient gelöst, geht aber in      richtige Platzierung der Kerne ermöglicht kurz Wege
+ihrer Dominanz zulasten einer klaren, attraktiven und     und eine hohe Nutzungsflexibilität. Die Schlüssige
+gut auffindbaren Adressierung innerhalb des Spital-       Anordnung der Funktionsbereiche versprechen
+Areals. Das Parkhaus separiert mithilfe der unter-        eine effizienten interne Organisation und eine klare
+schiedlichen Gebäudeseiten Individualverkehr und          Orientierung für Patientinnen und Patienten. Die in die
+Anlieferung sowie den Rettungsdienst. Das sieben-         Struktur eingebetteten, präzise gesetzten Lichthöfe
+geschossige Gebäude trennt zudem den zentralen            bringen das notwendige Tageslicht in die jeweiligen
+Platz von der stark befahrenen Surentalstrasse. Das       Stationen.
+statische System welches aus Platten, Stützen und
+Kernen besteht, bildet gleichermassen den Ausdruck        Im Erdgeschoss sind die Funktionsbereiche U-förmig
+des Gebäudes. Ergänzt wird es mit einer geschoss-         um die grosszügige und übersichtliche Eingangshalle
+weisen, brüstungshohen Begrünung. Dem Parkhaus            gruppiert, das On-/Off-Stage-Konzept wird weitge-
+fehlt neben einer effizienten Parkplatzorganisation       hend kreuzungsfrei und mit kurzen Wegen umgesetzt.
+auch ein differenzierter Ausdruck zum Hauptplatz hin.     Die zentrale Liftgruppe für Besucher und gehende Pa-
+Hier wünscht man sich zum Beispiel eine Sichtbarkeit      tienten als Abschluss des Foyers ist eindeutig auffind-
+der Besucherströme entlang der Fassade. Der Anteil        bar. Die weiteren Lifte erscheinen von der Anzahl eher
+der Erschliessung im Verhältnis zu den Parkfeldern ist    knapp bemessen und sind nicht eindeutig den Funkti-
+zu dem noch hoch.                                         onen zugeordnet. Notfallstation und Notfallpraxis sind
+                                                          sinnvoll organisiert. Ebenso überzeugt die Bildgebung
+
+
+22
+von der inneren Organisation, die Anbindung an die        die je nach Lage des Gebäudes sinnvoll eingesetzt
+Intensivstation führt allerdings über den öffentlichen    ist. Eine leichte Anbaukonstruktion ergänzt dies durch
+Bereich (On-Stage) was betrieblich nicht ideal ist. Das   natürliche Verschattung und ermöglicht die Integration
+Ambulatorium ist mit der kammartigen Verzahnung           von PV-Modulen in der Fassade. Die gewählte Bau-
+von On- und Off-Stage-Bereichen gut organisiert. Das      weise reduziert die Treibhausgasemissionen der Er-
+1.Obergeschos hat gute Ansätze einer prozessorien-        stellung deutlich und ermöglicht eine spätere Wieder-
+tierten Planung, bietet aber bezüglich der Synergien      verwendung vieler Elemente. Auch die Materialwahl
+der Bereiche noch Optimierungspotenzial, dieses           in den Patientenzimmern – mit Holzdecken, Gips und
+scheint mit einer verbesserten Anbindung der Inter-       schadstoffarmen Oberflächen – ist positiv zu bewer-
+disziplinären Tagesklink gut möglich. Die funktionalen    ten, wobei der Bodenbelag noch zu definieren ist.
+Anforderungen an OP-Bereich, Interventionszentrum         Eine kontrollierte Lüftung ist vorgesehen. Das Gebäu-
+und die Tageskliniken sind weitgehend schlüssig um-       detechnikkonzept mit funktionierendem Steigzonen-
+gesetzt, die Lagerbereiche im OP-Bereich sind jedoch      system und Anbindung an die Technikzentralen wird
+nicht optimal angeordnet und der Tageslichtbezug im       positiv beurteilt. Die vorgesehene PV-Anlage auf dem
+OP-Bereich ist nicht gegeben. Das 2. Obergeschoss         extensiv begrünten Dach sowie an der Fassade ist
+ist schlüssig organisiert und umfasst die Onkologi-       ebenfalls überzeugend, ebenso wie die Infrastruktur
+sche-Tagesklinik, den Laborbereich, die Pikettzimmer,     für E-Mobilität. Das Projekt zeigt insgesamt sehr gute
+das Mitarbeiterrestaurant sowie die Gebärabteilung,       Ansätze zur Erfüllung der Standards Minergie-P-ECO
+welche über einen separaten, ausschliesslich für den      und SNBS, wie ein Pre-Check bestätigt. Optimie-
+Fall einer Sectio-OP genutzten Lift direkt an den OP-     rungspotenzial besteht insbesondere beim Schall-
+Bereich angebunden ist. Das 4. und 5. Obergeschoss        schutz, der Verschattung und der Fenstergrösse.
+mit den Bettenstationen bietet mit der Orientierung al-
+ler Zimmer nach Aussen ohne Über-Eck-Beziehungen          Die Geschossflächen liegen mit rund 38’100m2 im
+sowie der Anordnung der Off-Stage-Bereiche an den         oberen Drittel der eingereichten Projekte. Mit einem
+Innenhöfen und Liftkernen eine grundsätzlich gute         Flächeneffizienzwert von 1.64 und einer sehr kom-
+Lösung, hat bei der inneren Organisation hinsichtlich     pakten Gebäudeform besitzt das Projekt im Querver-
+zusammenhängender Off-Stage-Zonen und in Pflege-          gleich die besten Werte. Das Projekt weist sowohl in
+Cluster jedoch klare Schwächen. Die Logistik ist mit      der Erstellung als auch im Betrieb eine gute Wirt-
+der geplanten Vertikalerschliessung grundsätzlich gut     schaftlichkeit auf.
+gelöst.
+                                                          Das Projekt «Feld und Flur» besitzt seine Stärken
+Das Spital überzeugt durch eine kompakte Bauwei-          primär in der städtebaulichen Setzung und primä-
+se, gute Dämmung und hohe Flächeneffizienz. Die           ren Struktur des Hauptgebäudes. Die Funktionalität
+Untergeschosse bestehen aus Massivbau, während            sowohl des Areals über die verschiedene Bauetappen
+die Obergeschosse mit vorfabrizierten Holz-Hohlkas-       als auch der Betriebsprozesse im Hauptgebäude so-
+tenelementen errichtet sind. Die fünf Treppenkerne        wie die Potentiale der Nebengebäude im Pflegeheim
+bilden das statische Rückgrat des Gebäudes. Sie sind      Seeblick erfüllen die Anforderungen der Aufgabenstel-
+im Untergeschoss eingespannt und stabilisieren den        lung eigenständig und nachhaltig.
+darüberliegenden Holzbau. Ein Stützenraster von 8
+× 8 Metern sorgt für hohe Flexibilität in der Raumbil-
+dung. Die Fassade besteht aus Holzständerelementen
+mit Holzkastenfenstern, die sowohl Schallschutz als
+auch sommerlichen Wärmeschutz gewährleisten.
+Die Fensterflächen sind mit 60 % jedoch sehr gross,
+was zusammen mit der geplanten Fix Verschattung
+zu einer übermässigen Reduktion des Tageslichts im
+Winter führt. Hier besteht Optimierungsbedarf. Die
+äussere Metallverkleidung aus aluminiumeloxiertem
+Trapezblech bildet eine robuste Wetterschutzschicht,
+
+
+                                                                                                             23
+                      Situation 2031
+
+
+
+
+     Situation 2070
+
+
+24
+25
+Spitalgebäude Erdgeschoss
+
+
+
+
+           Querschnitt Spital B-B
+
+
+
+26
+Spitalgebäude 1. Obergeschoss
+
+
+
+
+                                27
+Spitalgebäude 2. Obergeschoss
+
+
+
+
+Längsschnitt Sptital A-A
+
+
+
+28
+    Spitalgebäude 3. Obergeschoss
+
+
+
+
+Längsschnitt Sptital A-A
+
+
+
+                                    29
+Nebengebäude Erdgeschoss
+
+
+
+
+Nebengebäude Regelgeschoss   Nebengebäude 3. Obergeschoss
+
+
+
+
+Ansicht Westfassade
+
+
+
+30
+Pflegeheim Erdgeschoss
+
+
+
+
+Pflegeheim 1. Obergeschoss
+
+
+
+
+Pflegeheim Regelgeschoss
+
+
+
+
+Ansicht Westfassade
+
+
+
+                             31
+Parkhaus Erdgeschoss
+
+
+
+
+               Parkhaus Regelgeschoss
+
+
+
+
+32
+Fassadenschnitt
+
+
+
+
+                  33
+GRÜNACHSE
+Gesamtleitung                                            Heizung-Kälte / Lüftung-Klima -Ing.
+ATP architekten ingenieure Zürich AG                     ATP architekten ingenieure Zürich AG
+8005 Zürich                                              8005 Zürich
+
+Andrea Bianchi, Serge Fayet, Petra Hemmi                 Christopher Kaitz, Christoph Lüthi
+
+Architektur                                              Sanitär-Ingenieur
+Mint Architecture AG                                     ATP architekten ingenieure Zürich AG
+8005 Zürich                                              8005 Zürich
+
+Tobias Stenico, Antonio Mesquita, Alfred Peci, Antonia   Fachkoordinator (technisch / räumlich)
+Fuchs, Sandra Prieto, Michael Hosch                      ATP architekten ingenieure Zürich AG
+                                                         8005 Zürich
+Baumanagement
+ATP architekten ingenieure Zürich AG                     Brandschutzplaner
+8005 Zürich                                              4 Management 2 Security GmbH
+                                                         8021 Zürich
+Bauingenieur
+ATP architekten ingenieure Zürich AG                     Verkehrsplaner
+8005 Zürich                                              Enz & Partner GmbH
+                                                         8045 Zürich
+Stefan Demetz, Elia Quadranti
+                                                         Paul Schob
+Landschaftsplaner
+Habitat Landschaftsarchitektur                           Bauphysik / Bauakustik
+8003 Zürich                                              brauneroth ag
+                                                         8406 Winterthur
+Andreas Hoffmann, Luana Presta,
+Alexandra Kaufmann                                       Matthias Dänzer
+
+Spitalplaner
+ATP health GmbH
+D-52078 Aachen
+
+Nachhaltigkeitsplaner
+ATP Sustain GmbH
+DE-80335 München
+
+Elektro-Ingenieur
+ATP architekten ingenieure Zürich AG
+8005 Zürich
+
+
+
+
+34
+35
+Projektbeschrieb
+Das Kennwort des Projekts «Grünachse» prägt auch          schlechtere Belichtung zur Folge hat; dies betrifft auch
+im Endentwurf die leitende Idee für die städtebau-        den Hof des Nebengebäudes. Kritisch zu bewerten
+liche Disposition. Eine verkehrsfreie, stark begrünte     ist zudem die Positionierung des Demenzgartens auf
+Freiraumachse erstreckt sich von Norden nach Süden        dem Dach des Pflegeheims.
+und bildet das zentrale Rückgrat sowie den räum-
+lichen Bezugspunkt des neuen Spitalcampus. Entlang        Parkhaus, Nebengebäude und Pflegeheim zeigen
+der Surentalstrasse erschließt sie das Parkhaus, das      nun eine stärkere Anbindung an den Außenraum und
+Nebengebäude, das Pflegeheim Seeblick und gegen-          tragen damit zur Belebung der Grünachse bei. Die
+über den Spitalbau im nordöstlichen Teil des Areals.      großzügiger bemessenen Zwischenräume zwischen
+Die südlich gelegene Ablösefläche 2070 bietet aus-        den Baukörpern sind funktional genutzt und sichern
+reichend Raum für einen zukünftigen Neubau in ver-        die durchgehende, verkehrsfreie Grünachse. Der
+gleichbarer Dimension. Diese Grundstruktur schafft        motorisierte Verkehr wird entlang der Surentalstrasse
+eine tragfähige, langfristig nutzbare Ausgangslage.       geführt, was einen begrüßenswerten Abstand zur
+Bereits die erste Ausbaustufe mit Spital und Verkehrs-    Lärmquelle schafft.
+hub verspricht ein stimmiges Gesamtbild.
+                                                          Die Bepflanzung am Chrommlibach, gegen die Su-
+Die neue verkehrliche Lösung mit der breiten Zu-          rentalstrasse und nach Süden stärken die Biodiversi-
+fahrt und dem Kiss-&-Ride-Bereich am Beginn der           tät und fassen den Raum gut.
+Grünachse ist zwar funktional effizient, dominiert
+jedoch den zentralen Zugang zum Spitalcampus und          Die Kompaktheit und Flächeneffizienz des Spitals
+schwächt sowohl die Wirkung des Auftakts der Grün-        liegen im mittleren Bereich. Bis ins zweite Oberge-
+achse als auch die Adressbildung des Spitals – ein        schoss sind Betondecken geplant mit Cobiax-Hohl-
+Problem, das sich mit der geplanten Neuorganisation       körper, in den oberen Stockwerken sind CLT-Brett-
+ab 2070 weiter verschärfen dürfte. Die Grünachse          sperrholz-Decken vorgesehen. Zur Herstellung von
+selbst ist durch amorph gestaltete Grünflächen ge-        Beton wird, wo möglich, CO2 reduzierter Zement
+gliedert, die in Bezug auf Nutzung und Verschattung       und Recycling-Betongranulat verwendet. Die hybride
+einen wertvollen Beitrag leisten. Ihre Detailgestaltung   Konstruktion liegt bezüglich der Treibhausgasemis-
+und die formale Sprache wirken jedoch noch wenig          sionen im mittleren Bereich und wird nur teilweise
+ausgearbeitet und beliebig. Kritisch zu hinterfragen      rückbaufähig ausgeführt.
+ist insbesondere der dichte Strauchgürtel im Osten,
+der die Aussicht über das offene Kulturland unnötig       Die Anordnung der Räume im Spital zeigt, dass die
+einschränkt.                                              Zimmer generell gut mit Tageslicht belichtet werden
+                                                          bei einem moderaten Fensteranteil von 41%. Es ist
+Positiv hervorzuheben ist, dass die Empfehlungen          eine mechanische Lüftung vorgesehen. Als sommer-
+aus der Wettbewerbsphase und der Zwischenkritik           licher Wärmeschutz sind aussenliegende Stoffstoren
+bezüglich der Gebäude entlang der Surentalstrasse         geplant. Sensoren messen die Sonneneinstrahlung
+in der präziseren Anordnung und Überarbeitung der         und regulieren drehbare Lamellen. Stark lärmbelas-
+Baukörper berücksichtigt wurden.                          tet ist jedoch das Pflegeheim. Es braucht trotz einer
+                                                          zusätzlichen Fassade zur Surentalstrasse hin weitere
+Das Spital wurde neu konzipiert und fügt sich in seiner   Optimierungen bezüglich Schallschutzes.
+volumetrischen Ausgestaltung nun stimmiger in den
+städtebaulichen Kontext ein. Der Haupteingang ist
+klar erkennbar und der Eingangsbereich ansprechend
+gestaltet. Zwei großzügige, gut positionierte Dach-
+terrassen stellen gegenüber der ersten Entwurfsphase
+eine deutliche Aufwertung dar – sowohl hinsichtlich
+der Nutzbarkeit als auch im Hinblick auf die Förderung
+der Biodiversität. Demgegenüber führen die veränder-
+ten Grundrisse zu beengteren Innenhöfen, was eine
+
+
+36
+Die Energieeffizienz der Gebäudehülle erfüllt vermut-     Die Gebärabteilung im 2. Obergeschoss ist über
+lich noch nicht die Anforderungen an Minergie-P. Das      die Bettenlifte an den OP-Bereich angeschossen,
+Energiekonzept basiert auf Grundwasser-Wärmenut-          die Wegeführung von den Gebärsälen in den OP ist
+zung ev. in Ergänzung mit Erdsonden. Das Steig-           jedoch weit und verwinkelt. Die Bettenstationen im 3.
+zonenkonzept für das Gebäudetechnikkonzept mit            Und 4. Obergeschoss sind nicht eindeutig zoniert, die
+Anbindung an die Technikzentralen ist erkennbar. Die      Zimmer über Eck führen zu ungewollten Sichtbezie-
+PV-Anlage auf dem Dach wird mit einer extensiven          hungen.
+Begrünung kombiniert. Ausserdem sind PV-Module
+an der Fassade des Nebengebäudes vorgehen.                Das Projekt Grünachse bietet einen vielversprechen-
+                                                          den Ansatz zur Organisation des Gesamtareals, weist
+Das Projekt zeigt gute Ansätze für die Realisierung       jedoch Schwächen in Bezug auf die prozessorien-
+des Standards Minergie-P-ECO und SNBS, was der            tierte Zonierung des Spitalgebäudes auf. Die zentral
+Pre-Check bestätigt. Es braucht jedoch noch weitere       gelegene Grünachse, die der fußläufigen Erschließung
+Optimierungen bezüglich Schallschutzes und System-        dient, besitzt das Potenzial für eine hohe Aufent-
+trennung.                                                 haltsqualität. Allerdings fehlt dem Projekt ein über-
+                                                          zeugendes architektonisches Gesamtkonzept: Das
+Vom grosszügigen Eingangsbereich im Erdgeschoss           Erscheinungsbild der Gebäude – geprägt durch eine
+wird das Gebäude horizontal über Flure in die Funk-       modulare Konstruktion aus Holz und Beton – wirkt
+tionsbereiche und vertikal über eine Besucherliftgrup-    noch zufällig und stark von funktionalen sowie techni-
+pe erschlossen, wobei die Wegefolge auf Grund der         schen Vorgaben dominiert.
+Lage und Ausrichtung der Orientierungspunkte nicht
+intuitiv erscheint. Der Bereich der Bildgebung über-
+zeugt sowohl in der Organisation wie im Tageslicht-
+bezug, ebenso ist das Ambulatorium schlüssig nach
+On-/Off-Stage-Konzept organisiert. Die langen Flure
+bedingen jedoch weite Wege für die Mitarbeitenden.
+Die Notfallstation ist an die funktional verbundenen
+Bereiche gut angebunden, deren innere Funktionalität
+wird jedoch durch die inkonsequente Umsetzung des
+On-/Off-Stage-Konzept gestört und der Tageslichtbe-
+zug ist unzureichend.
+
+Im ersten Obergeschoss haben sowohl der OP-Be-
+reich als auch die Interventionszentrum trotz des
+grundsätzlich gut abgebildeten Patientenpfades funk-
+tionelle Schwächen aufgrund der Zonierung der On-/
+Off-Stage-Bereiche sowie teilweise umständlicher,
+kreuzungsbelasteter und weiter Wege. Synergien
+zwischen der operativen und der interdisziplinären Ta-
+gesklinik sind nicht vorhanden. Die Intensivstation ist
+funktional gut angebunden, die vorgelagerte Logistik-
+zone stört jedoch die innere Organisation.
+
+
+
+
+                                                                                                             37
+                      Situation 2031
+
+
+
+
+     Situation 2070
+
+
+38
+39
+Spitalgebäude Erdgeschoss
+
+
+
+
+Schnitt A-A
+
+
+
+40
+Spitalgebäude 1. Obergeschoss
+
+
+
+
+Schnitt A-A
+
+
+
+                                41
+Spitalgebäude 2. Obergeschoss
+
+
+
+
+Schnitt B-B
+
+
+
+42
+Spitalgebäude 3. Obergeschoss
+
+
+
+
+Schnitt B-B
+
+
+
+                                43
+Nebengebäude Erdgeschoss            Nebengebäude 1. Obergeschoss
+
+
+
+
+Nebengebäude 2. - 3. Obergeschoss   Nebengebäude 4. - 5. Obergeschoss
+
+
+
+
+Arealansicht Nord - Süd
+
+
+
+44
+Pflegeheim Untergeschoss          Pflegeheim Erdgeschoss
+
+
+
+
+Pflegeheim 1. - 4. Obergeschoss   Pflegeheim 5. Obergeschoss
+
+
+
+
+Arealansicht Nord - Süd
+
+
+
+                                                               45
+Parkhaus Erdgeschoss   Parkhaus Regelgeschoss
+
+
+
+
+Ansicht Ost - West
+
+
+
+46
+Fassadenschnitt
+
+
+
+
+Ansicht Ost - West
+
+
+
+                     47
+HOSPES
+Gesamtleitung                                           Elektro-Ingenieur
+S+B Baumanagement AG                                    Gode AG
+4601 Olten                                              8048 Zürich
+
+Florian Ritter, Philip Albrecht, Lukas Stadelmann,      Petar Radujko, Zlatko Spahic
+Christian Jackisch
+                                                        Heizung-Kälte / Lüftung-Klima -Ing.
+Architektur                                             Arnstein + Walthert Luzern AG
+Silvia Gmür Reto Gmür Architekten GmbH                  6048 Horw
+4001 Basel
+                                                        Livio Furrer, Kurt Wyss
+Reto Gmür, Elisa Gutermuth, Marta Wroblewska,
+Alexander Wagner, Linda Gmür, Wojtek Hryszkiewicz,      Sanitär-Ingenieur
+Kresimir Franciskovic, Jacek Wojtasik, Judith Lenzen,   ing.-büro riesen AG
+Nicole Schulze, Philipp Müller                          3014 Bern
+
+Baumanagement                                           Thierry Stöckli, Yuri Binz
+S+B Baumanagement AG
+4601 Olten                                              Fachkoordinator (technisch und räumlich)
+                                                        Arnstein + Walthert Luzern AG
+Florian Ritter, Philip Albrecht, Lukas Stadelmann,      6048 Horw
+Christian Jackisch
+                                                        Brandschutzplaner
+Bauingenieur                                            A. Aegerter & Dr. Bosshardt AG
+Ribi + Blum AG                                          4052 Basel
+8590 Romanshorn
+                                                        Garis Grünthal
+Rolf Marschall, Matthias Peter, Rene Zellweger, Mar-
+kus Kräftiger, Nicolas Leimbacher                       Verkehrsplaner
+                                                        Ribi + Blum AG
+Landschaftsplaner                                       8590 Romanshorn
+Maurus Schifferli Landschaftsarchitekt AG
+3011 Bern                                               Bauphysik & Akustik / Lärmschutz
+                                                        Kuster + Partner AG
+Maurus Schifferli, Victoria Conejero                    4142 Münchenstein
+
+Spitalplaner                                            Fassadenplaner
+Lead Consultants AG                                     PPEngineering GmbH
+8005 Zürich                                             4052 Basel
+
+Karin Imoberdorf, Melanie Geisser                       Jasmin Schütz, Philippe Petignat
+
+Nachhaltigkeitsplaner                                   Medizinalplaner/ Laborplaner
+Nabuco AG                                               Lead Consultants AG
+8003 Zürich                                             8005 Zürich
+
+Georg Schulte
+
+
+
+
+48
+49
+Projektbeschrieb
+Das Projekt «Hospes» schlägt eine geometrisch diffe-       Dies betrifft insbesondere den resultierenden gassen-
+renzierte Setzung seiner vier Gebäude auf der Parzel-      artigen Freiraum zwischen Ärztehaus und zukünftigem
+le vor. Das Spitalgebäude übernimmt annähernd die          Spital wie auch die entsprechende Verkehrsführung.
+geometrische Ausrichtung der Bauten der im Westen
+angrenzenden Gewerbezone. Das fünfgeschossige              Das neu an die Surentalstrasse gerückte Zentrum
+Spitalgebäude besteht aus zwei gegeneinander ver-          Seeblick lässt eine hohe Lärmbelastung vermuten.
+setzten Volumen. Die entstehenden Einschnitte um-          Die innere Organisation nimmt Rücksicht auf diese
+fassen als Haupteingang und Restaurant den zentra-         Entwicklung und schlägt zudem im Bereich der Ober-
+len Spitalplatz einerseits, und bilden andererseits den    geschosse einen Wintergarten als Lärmschutzmass-
+Logistikhof in der nordöstlichen Parzellenecke. Südlich    nahme vor. Die Zimmer sind mehrheitlich attraktiv
+dazu reihen sich das Parkhaus und der Seeblick ent-        nach Osten hin ausgerichtet. Die Aufenthaltsräume
+lang der Surentalstrasse auf, wobei das Pflegeheim         hingegen gehen zur Surentalstrasse hinaus. Die
+gegenüber der 1. Stufe nun näher an die Strasse            rechteckige Gebäudeform erlaubt zwar eine gute
+gesetzt wurde. Das Ärztehaus liegt in der Mitte des        Übersicht über die Stationen, verursacht aber auch
+Grundstücks und schliesst den entstandenen zentra-         lange Wege und sorgt für eine spitalähnliche Atmo-
+len Aussenraum ab. Die Gebäudesetzung generiert            sphäre. Die motorisierte Zufahrt durch das Parkhaus
+ein städtebauliches Gefüge um einen zentralen, ver-        funktioniert, ist aber nicht ideal. Dies betrifft ebenso
+kehrsfreien Spitalplatz, der alle Bauten am Platz mehr     die Anbindung an die Logistik im Untergeschoss. Der
+oder weniger direkt adressiert und eine ruhige Mitte       grosse Fussabdruck lässt im Vergleich zu den ande-
+mit Aufenthaltsqualität verspricht. Gegenüber der 1.       ren Projektbeiträgen auf höhere Kosten schliessen.
+Stufe mindert die neue Lage des Zentrums Seeblick          Insgesamt vermag das Pflegeheim als Basis für den
+jedoch die Prägnanz und Qualitäten der ursprüng-           zukünftigen Wettbewerb nicht zu überzeugen, dies
+lichen Gebäudesetzung.                                     insbesondere hinsichtlich der zukünftigen Arealent-
+                                                           wicklung.
+Die Erschliessung mit Notfallzufahrt, Vorfahrt, Bus-
+haltestelle und Parking sind effizient im Norden gelöst.   Das Spital ist als Hybridbau mit Betonrippen-Decken
+Zwar ist dieser Raum mit Bäumen in Grünflächen             mit Schüttung konzipiert und wird mit CO2-angerei-
+strukturiert, die jedoch keine Aufenthaltsqualitäten       chertem Recycling-Beton und Holzständer-Wänden
+bieten. Diese Dominanz des Verkehrs am eigentlichen        zur Reduktion der grauen CO2-Emissionen ausge-
+Ankunftspunkt des Gesamtcampus schwächt dessen             führt. Für das Tragwerk wird ein Stützenraster von
+Adressierung.                                              8.40m x 8.40m verwendet. Das Spital liegt bezüg-
+                                                           lich Kompaktheit im mittleren Bereich und weist eine
+Verschiedene Dachgärten und -begrünungen bieten            geringe Flächeneffizienz auf. Die indirekten Treib-
+wertvollen Freiraum für alle Menschen im Spital.           hausgasemissionen liegen im mittleren Bereich. Die
+Begrünte Lichthöfe bringen Tageslicht in die unteren       Parkgarage soll sich mit Fassaden-Photovoltaik zu
+Geschosse, wobei für das Wachstum in den engen             einem Kraftwerk weiterentwickeln. Die Ausführung
+„Pocketgardens“ die nötige Belichtung nachzuweisen         in Vorfabrikation vereinfacht die Rückbaubarkeit. Die
+wäre. Ein Baumsaum fasst das Pflegeheim. Dieser er-        Nebengebäude sind als Holzbauten geplant.
+möglicht im Norden eine klare Eingangssituation und
+im Osten eine ruhige Terrasse, die in der ersten Phase     Die Anordnung der Räume im Spital zeigt, dass die
+auf das offene Kulturland, nach 2070 aufs neue Spital      Spitalzimmer gut mit Tageslicht belichtet werden bei
+blickt. Nach der Neuorganisation 2070 geht mit dem         einem Glasanteil von 45%. Die Verschattung erfolgt
+zentralen Spitalplatz eine wichtige Qualität verloren.     mit einer Brise-Soleil, ausgebildet mit einem stark aus-
+Für die neue Adressierung und den Aufenthalt wäre          kragenden Gitterrost, der einen Teil des Tageslichts
+dann eine Lösung zu finden.                                absorbiert. Alle Räume sind mechanisch belüftet,
+                                                           zudem verfügen die Bettenzimmer über öffenbare
+Das als Ablösefläche 2070 vorgesehene verbleibende         Fensterflügel. Für den Innenausbau werden emis-
+Grundstück ist flächenmässig plausibel, mag jedoch         sionsarme und regenerative Materialien eingesetzt.
+als städtebauliche Gesamtfigur nicht zu überzeugen.        Die Spitalzimmer werden mit einheimischem Holz,
+
+
+50
+Lehmdecken, kautschukbasierten Bodenbelägen              Wege lang und verwinkelt. Die Lage der Personalgar-
+und bauökologisch geprüften Materialien realisiert.      derobe im 2. Obergeschoss mit Anbindung über eine
+Eine Schallschutzwand entlang der Surentalstrasse        Wendeltreppe ist nicht optimal. Synergien zwischen
+soll die Lärmimmissionen für das Pflegeheim See-         der operativen und interdisziplinären Tagesklinik sind
+blick reduzieren, trotzdem braucht es noch weitere       nicht vorhanden, das On-/Off-Stage-Konzept ist nicht
+Optimierungen.                                           konsequent umgesetzt. Ebenso sind in der Intensiv-
+                                                         station die Prozesse zerrissen, die Anbindung an
+Das Energiekonzept sieht zu 100% erneuerbare Ener-       den OP-Bereich erfolgt über eine lange, komplexe
+gie mit einer Grundwasserwärmepumpe und Abwär-           Wegeführung oder über den öffentlichen Bereich.
+menutzungen vor. Die Energieeffizienz der Gebäude-       Die Belichtung der Gebärabteilung über den an die
+hülle erfüllt die Anforderungen an Minergie-P. Es sind   Tagesklinik angrenzenden Hof ist fragwürdig. Im 3.
+sieben Steigzonen geplant mit direkter Anbindung an      und 4. Obergeschoss ist in den Bettenstationen keine
+die Technikzentrale im Untergeschoss.                    klare Zonierung gegeben, die Orientierung ist nicht
+                                                         intuitiv. Bei den Zimmern über Eck verhindern Vertikal-
+Das Projekt zeigt gute Ansätze für die Realisierung      lamellen vor den Fenstern zwar ungewollte Einblicke,
+des Standards Minergie-P-ECO und SNBS. Die               schränken aber auch den Ausblick und die Tageslicht-
+Fix-Verschattung und ihr Einfluss aufs Tageslicht wie    nutzung ein.
+auch der Schallschutz muss überprüft und optimiert
+werden.                                                  Aufgrund dieser prozessualen Schwächen, welche
+                                                         insbesondere der vorgeschlagenen Gebäudestruk-
+Der fünfgeschossige Spitalbau mit seinen zwei gros-      tur geschuldet sind, ist der Entwurf aus betrieblicher
+sen und drei kleineren Lichthöfen überzeugt in vielen    Sicht für die weitere Bearbeitung kaum geeignet.
+Details mit gelungenen Lösungen, weist jedoch er-
+hebliche funktionale Schwächen auf. Die linear ange-     Das Projekt «Hospes» weist im Vergleich zu den
+ordnete Vertikalerschliessung, die zentral gelegenen     anderen Projektbeiträgen die grösste Geschossfläche
+Innenhöfe und die durchgehenden Magistralen beein-       sowie das mit Abstand grösste Gebäudevolumen auf
+trächtigen die Effizienz des Spitalgebäudes erheblich.   und ist hinsichtlich Kompaktheit, Flächeneffizienz und
+Zudem führt die Platzierung öffentlicher Flächen im      Kosten als unwirtschaftlich zu bewerten.
+Kernbereich des Gebäudes dazu, dass Potenziale für
+effiziente Abläufe und synergetische Prozesse nicht      Zusammenfassend betrachtet gelingt es dem Pro-
+genutzt werden können.                                   jekt «Hospes» durch die differenzierte geometrische
+                                                         Ausrichtung der einzelnen Bauten ein städtebau-
+Der Eingangsbereich im Erdgeschoss ist grosszü-          liches Ensemble zu erstellen, das die verschiedenen
+gig gestaltet und bietet eine gute Orientierung. Der     Verkehrsflüsse gekonnt trennt und so einen ruhigen
+Bereich der Notaufnahme ist bis auf den Tages-           verkehrsfreien Campus schafft. Die Potentiale der
+lichtbezug gut gelöst, in der Bildgebung ist die On-/    1. Stufe konnten jedoch insbesondere in städtebau-
+Off-Stage Zonierung mit Kreuzungen der Bereiche          licher und betrieblicher Sicht nicht adäquat fortgeführt
+nicht konsequent umgesetzt, der Tageslichtbezug des      werden.
+Mitarbeiterbereichs ist trotz des geplanten Oberlichts
+nicht zufriedenstellend, die Anbindung zur Intensiv-
+station ist mangelhaft, weil sie nur über den öffent-
+lichen Bereich erfolgen kann. Das Ambulatorium ist
+mit der kammartigen Zonierung und dem zentralen
+Empfang grundsätzlich gut gelöst, hat jedoch keinen
+ausreichenden Tageslichtbezug. Die Funktionali-
+tät des 1. Obergeschosses ist durch die Lage der
+linearen Erschliessungsachse und die Anordnung
+des öffentlichen Bereichs deutlich eingeschränkt. Im
+OP-Bereich und im Interventionszentrum sind die
+
+
+                                                                                                              51
+                      Situation 2031
+
+
+
+
+     Situation 2070
+
+
+52
+53
+Spitalgebäude Erdgeschoss
+
+
+
+
+54
+Spitalgebäude 1. Obergeschoss
+
+
+
+
+Schnitt A - A
+
+
+
+                                55
+Spitalgebäude 2. Obergeschoss
+
+
+
+
+Schnitt B - B
+
+
+
+56
+Spitalgebäude 3. Obergeschoss
+
+
+
+
+                                57
+Nebengebäude Erdgeschoss              Nebengebäude 1. Obergeschoss    Nebengebäude 2. Obergeschoss
+
+
+
+
+  Nebengebäude 3. - 4. Obergeschoss    Nebengebäude 5. Obergeschoss   Nebengebäude 6. Obergeschoss
+
+
+
+
+Schnitt A - A
+
+
+
+58
+Pflegezentrum Seeblick Erdgeschoss                       Pflegezentrum Seeblick 1. - 4. Obergeschoss
+
+
+
+
+Pflegezentrum Seeblick 5. Obergeschoss
+
+
+
+
+Nordfassade und Schnitt Ost - West Pflegeheim Seeblick
+
+
+
+                                                                                                       59
+Parkhaus Erdgeschoss            Parkhaus 1. Obergeschoss
+
+
+
+
+Parkhaus 2. - 6. Obergeschoss   Parkhaus Dachgeschoss
+
+
+
+
+60
+Fassadenschnitt
+
+
+
+
+                  61
+PROMENADE
+Gesamtleitung                                           Elektro-Ingenieur
+Perita AG                                               SCHERLER AG
+8003 Zürich                                             8400 Winterhur
+
+Architektur                                             Martin Winiger, Bruno von Rotz, Bryan Furrer, Werner
+a|sh architekten AG                                     Heller, Manuel Börger, Lars Albisser
+8008 Zürich
+                                                        Heizung-Kälte / Lüftung-Klima -Ing.
+Linus Hofrichter, Michael Matthes, Fabian Koppenhö-     Waldhauser+Hermann AG
+fer, Bahar Tarakci, Maximilian Ebert, Verena Freuden-   4142 Münchenstein
+berg, Simon Sommer
+                                                        Roman Hermann, Manuel Boned, Martin Imhof,
+Pascal Flammer Architekten AG                           Flavio Meier
+8037 Zürich
+                                                        Sanitär-Ingenieur
+Pascal Flammer, Ewa Kaszuba, Lukas Zabrac               Schmutz +Partner AG
+                                                        4053 Basel
+Baumanagement
+Perita AG                                               Sandro Caso, Nicolas Flückiger
+8003 Zürich
+                                                        Fachkoordinator (technisch und räumlich)
+Tim Hercka, Markus Schmalz                              Waldhauser+Hermann AG
+                                                        4142 Münchenstein
+Bauingenieur
+Lüchinger Meyer Partner                                 Brandschutzplaner
+8005 Zürich                                             Brandschutzwerkstatt GmbH
+                                                        9400 Rorschach
+Flavio Wanninger
+                                                        Thomas Koller
+Landschaftsplaner
+BÖE GmbH                                                Verkehrsplaner
+8005 Zürich                                             Rombo GmbH
+                                                        8005 Zürich
+Franziska Gehrer, Karen Morris, Johannes Heine
+                                                        Jordi Riegg, Enea Corubolo, André Lusser
+Spitalplaner
+a|sh architekten AG                                     Bauphysik & Akustik / Lärmschutz
+8008 Zürich                                             Gruner AG
+                                                        4020 Basel
+Nachhaltigkeitsplaner
+Durable Planung und Beratung GmbH                       Thomas Braun, Martin Beyeler
+8047 Zürich
+
+Niklaus Haller, Sandro Camichel
+
+
+
+
+62
+63
+Projektbeschrieb
+Die Verfasser des Beitrages «Promenade» halten im         nicht unterbautem Grund wurzeln. Im Spitalbau sind
+Rahmen der finalen Ausarbeitung am bisher gewähl-         vier Lichthöfe vorgesehen, deren Gestaltung jedoch
+ten städtebaulichen Konzept fest. So resultiert mit der   nicht präzisiert wird und deren Eignung für Bepflan-
+Setzung der drei kleineren Gebäudevolumen entlang         zung angesichts der nach unten zunehmend engeren
+der Surentalstrasse die kontinuierliche Fortführung       Situation nachzuweisen wäre. Auch die Frage nach
+zum angrenzenden Gewerbegebiet mit vergleichbarer         Freiflächen mit Aufenthaltsqualität für Pflegezentrum
+Körnung und Durchwegung der städtebaulichen Ach-          wäre, abgesehen von der Aussencaféteria, noch zu
+sen. Mit unterschiedlichen Abständen der drei Gebäu-      beantworten.
+de zur Hauptstrasse gelingt die gewünschte Abkehr
+von der Serialität der Gebäudevolumen und resultiert      Der fussläufige Auftakt ins Spitalzentrum ist in der
+der aussenräumliche Abschluss der Promenade. Mit          zentral platzierten Bushalle verortet. Die grosszügige
+deutlicher Vergrösserung des Strassenabstandes            und vollständig überdachte Halle mit zusätzlichen
+für das Pflegezentrum wird dessen Eigenständigkeit        Nebennutzungen übertrifft die bestellten Bedürfnisse
+gestärkt und die Entwicklung für optimale Innen- und      für die Bushaltestelle deutlich. Über die verkehrsfreie
+Aussenräume geschaffen und teilweise aufgezeigt.          Promenade erfolgt der Zugang zum Spitalgebäude.
+Der neu mittig im Dreierensemble verortete «Mobi-         Die übersichtliche und helle Eingangshalle im Erdge-
+lity-Hub» gewährleistet kurze Wege für die über die       schoss schafft eine einladende Empfangssituation mit
+Promenade organisierten Zugänglichkeiten und deren        klarer Orientierung zu den angrenzenden Funktions-
+klare Adressierung.                                       bereichen und der Besucherliftgruppe. Die ring-
+                                                          förmige Anordnung der Off-Stage-Bereiche um die Er-
+Die unveränderte Positionierung des Spitalgebäudes        schliessungskerne schafft eine gelungene Zonierung
+in der nordwestlichen Ecke mit resultierender Ersatz-     mit dem Potenzial einer äusserst effizienten Wegetren-
+fläche 2070 südlich davon stärkt das städtebauliche       nung. Die Warenanlieferung der Logistik ist mit der
+Konzept bezüglich Setzung und Haltung. Die annä-          Zufahrt über eine enge Kurve im Untergeschoss nicht
+hernd quadratische Grossform des Gebäudes schafft         machbar, scheint aber heilbar. Ebenso bedürfen die
+mit Geschosssprung gegen die Bauzonengrenze hin           Logistikwege und -flächen im Gebäude weitergehen-
+einen massvollen Übergang zur Landwirtschafts-            der Präzisierungen.
+zone. Nach wie vor ungeklärt bleibt der ungenügende
+Waldabstand für die angedachten Nebenbauten und           Gestärkt wird das innere Erschliessungskonzept mit
+Erschliessungen für den Rettungsdienst.                   den mittig in den Quadraten verorteten Innenhöfen.
+Die zentrale Promenade als räumlich verbindendes          Mit Verjünung der Innenhöfe gegen die unteren Ebe-
+Rückgrat des Spitalcampus wurde mit der Über-             nen hin kann die angedachte Funktion für Belichtung
+arbeitung bis zum Pflegeheim verlängert und durch-        und Besonnung hochwertiger Räume nur bedingt
+zieht so als kraftvolle, verkehrsfreie Freiraumachse      erfüllt werden.
+mit Adressfunktion den ganzen Perimeter. Während
+in dieser Grunddisposition grosse Kraft liegt – die       Die generisch und robust gestalteten Fassaden haben
+allerdings mit der Neuorganisation 2070 zum Teil ver-     laut Verfasser den Anspruch der Lesbarkeit hinter-
+loren geht – können die verkehrliche und die freiraum-    liegender Nutzungen und sind entsprechend differen-
+gestalterische Lösung weniger überzeugen. Zwar ist        ziert ausgestaltet, befenstert und materialisiert. Dem
+die Erschliessung praktikabel gelöst, die Westseite       Anspruch eines Spitalcampus der unterschiedliche
+des Areals ist aber stark von der Verkehrsinfrastruktur   Gebäudenutzungen mit einheitlicher Architekturspra-
+geprägt, was die Zugangssituation zum Spitalcampus        che und Materialität in einem Gesamtensemble er-
+wenig attraktiv macht und die Adressierung schwächt.      scheinen und wirken lässt, kann die bewusst gewählte
+Die Freiraumgestaltung selbst ist insbesondere am         Differenzierung nicht gerecht werden.
+Beginn der Promenade und im Bereich des Spital-
+Haupteingangs eher verunklärend: Die kleinen Dächer       Das Projekt Promenade überzeugt mit einer prozess-
+sind funktional unnötig und verstellen die Sicht, die     orientierten Raumordnung, einer klaren Zonierung
+Bäume in «Tröge» zu setzen, schafft unnötige Klein-       und bereichsübergreifenden Synergien in den hoch-
+räumigkeit und ist unbegründet, da die Bäume hier in      installierten Bereichen. Die modulare Gliederung des
+
+
+64
+Gebäudes um die vier Innenhöfe bietet eine gute            Die Spitalzimmer sind generell gut mit Tageslicht be-
+Struktur – sowohl für die aktuellen Anforderungen als      lichtet. Mit kleinen optimierten Brise Soleil (ca. 30 cm)
+auch für zukünftige Nutzungen.                             in den Obergeschossen, drehbaren Lamellen im Erd-
+                                                           geschoss und Lamellenstoren wird der sommerliche
+Die Notfallstation ist bezüglich der Affinitäten zu den    Wärmeschutz sichergestellt. Für die Grundlüftung in
+verbundenen Funktionsbereichen optimal angeordnet,         den Zimmern wird eine mechanische Lüftungsanlage
+hat jedoch Schwächen in der inneren Organisation           realisiert. Die Materialisierung der Patientenzimmer
+und beim Tageslichtbezug. Das Ambulatorium über-           erfolgen mit Linoleum und gespachtelten Lehm-
+zeugt bis auf die unzureichend umgesetzte On-/Off-         platten. Das Pflegeheim ist stark schallexponiert.
+Stage-Logik. Die Bildgebung ist bis auf die Anbindung      Strassenseitig werden weniger sensible Nutzungen
+an die angrenzende Liftgruppe funktional zufrieden-        angeordnet. Zudem sind Festverglasungen und ge-
+stellend gelöst.                                           schlossene Fassaden vorgesehen.
+
+Der Entwurf zeigt seine überzeugende Qualität insbe-       Bezüglich Energieeffizienz werden die Gebäude gut
+sondere im 1. Obergeschoss. Hier sind die Synergien        gedämmt. Das Energiekonzept sieht eine Grundwas-
+erkannt und die Bereiche OP / IVZ und Tageskliniken        sernutzung vor. Es sind grosse Flächen mit PV-Mo-
+/ AWR sowie Intensivstation sind intelligent zu einer      dulen auf dem Dach und an der Fassade des Park-
+effizient zu betreibenden Einheit mit kurzen Wegen,        hauses vorgesehen. Das Steigzonenkonzept wird mit
+klarer Orientierung und hoher Aufenthaltsqualität zu-      sechs Hauptsteigzonen realisiert. Systemtrennung
+sammengefasst. Ebenso ist das On-/Off-Stage-Kon-           wird konsequent umgesetzt und alle Installationen
+zept in diesem Geschoss gekonnt umgesetzt. Noch            bleiben zugänglich.
+unklare Personal- und Logistikwege in der Sterilzone
+erscheinen lösbar.                                         Das Projekt zeigt gute Ansätze für die Realisierung
+                                                           des Standards Minergie-P-ECO und SNBS. Es
+Die Bettenstationen im 2. und 3. Obergeschoss              braucht weitere Optimierungen bezüglich direkten
+überzeugen durch klare Zonierung, gute Orientierung        Treibhausgasemissionen und Schallschutz.
+und durchdachte Umsetzung des Pflege-Cluster-Kon-
+zepts.                                                     Der Beitrag «Promenade» überzeugt mit präzisem
+                                                           städtebaulichem Konzept und stringenter Setzung
+Die Konferenzräume und das Mitarbeiterrestaurant im        der Gebäude. Der Entwurf löst die anspruchsvollen
+4. Obergeschoss haben durch die attraktive Sicht-          betrieblichen Abläufe und garantiert die gewünschte
+beziehung in die Umgebung eine sehr hohe Qualität.         Nutzungsflexibilität.
+Die Anordnung der Mitarbeitergarderoben in diesem
+Geschoss ist aus betrieblicher Sicht nicht sinnvoll, be-   Fraglich bleibt das fussläufige Erschliessungskonzept
+dingt lange Wege und vergrösserte Liftkapazitäten.         mit dem Auftakt auf die Promenade über die über-
+Das Spital hat eine mittlere Kompaktheit und hat eine      dimensionierte und wenig attraktive Bushalle. Die
+geringe Flächeneffizienz. Es handelt sich um einen         Erwartungen an einen Spitalcampus nicht erfüllen ver-
+Hybridbau mit Betondecken bis ins 1. OG, an-               mag der architektonische Ausdruck mit differenzierter
+schliessend werden Brettstapel-Beton-Hybriddecken          Geometrie und Materialität für die verschiedenen
+realisiert. Die Fassade besteht aus gut gedämmten          Gebäude.
+Holzfassaden-Elementen mit kleinen hervortretenden
+Verschattungselementen. Die Struktur ist nur bedingt
+rückbaubar und das Projekt liegt bezüglich indirekter
+Treibhausgasemissionen im mittleren Bereich. Die
+innenliegenden Höfe des Spitals werden mit einer
+intensiven, das Dach mit einer extensiven Begrünung
+realisiert.
+
+
+
+
+                                                                                                                 65
+                      Situation 2070
+
+
+
+
+     Situation 2070
+
+
+66
+67
+Spitalgebäude Erdgeschoss
+
+
+
+
+68
+Spitalgebäude 1. Obergeschoss
+
+
+
+
+Ansicht West
+
+
+
+                                69
+Spitalgebäude 2. Obergeschoss
+
+
+
+
+Längsschnitt
+
+
+
+70
+Spitalgebäude 4. Obergeschoss
+
+
+
+
+Querschnitt
+
+
+
+                                71
+Nebengebäude Erdgeschoss            Nebengebäude 1. Obergeschoss
+
+
+
+
+Nebengebäude 2. - 4. Obergeschoss   Nebengebäude 5. Obergeschoss
+
+
+
+
+Nebengebäude Ansicht Ost            Nebengebäude Längsschnitt
+
+
+
+72
+Seeblick Untergeschoss          Seeblick Erdgeschoss
+
+
+
+
+Seeblick 1. - 4. Obergeschoss   Seeblick 5. Obergeschoss
+
+
+
+
+Seeblick Ansicht Ost            Seeblick Querschnitt
+
+
+
+                                                           73
+Parking Erdgeschoss   Parking 1. Obergeschoss
+
+
+
+
+Parking Ansicht Ost
+
+
+
+
+Parking Querschnitt
+
+
+
+74
+Fassadenschnitt
+
+
+
+
+                  75
+Vincent
+Gesamtleitung                                       Hubert Huber
+Conradi & Partner GmbH
+8806 Bäch                                           Elektro-Ingenieur
+                                                    Amstein + Walthert Zürich AG
+Christoph Conradi, Lutz Wörner                      8050 Zürich
+
+Architektur                                         Heizung-Kälte / Lüftung-Klima -Ing.
+LUDES Architekten - Ingenieure GmbH                 Meierhans + Partner AG
+D-80336 München                                     8603 Schwerzenbach
+
+Maximilian Ludes, Julia Ludes, David Baumgartner,
+Luis Arteaga, Minghui Zhang                         Sanitär-Ingenieur
+                                                    Bösch AG
+Baumanagement                                       8953 Dietikon
+Conradi & Partner GmbH
+8806 Bäch
+                                                    Fachkoordinator (technisch und räumlich)
+Christoph Conradi, Lutz Wörner                      Meierhans + Partner AG
+                                                    8603 Schwerzenbach
+Bauingenieur
+wh-p Ingenieure AG                                  Brandschutzplaner
+4052 Basel                                          BIOS Brandschutzingenieure AG
+                                                    8048 Zürich
+Martin Stumpf
+                                                    Verkehrsplaner
+Landschaftsplaner                                   F. Preisig AG
+METTLER Landschaftsarchitektur AG                   9000 St. Gallen
+9200 Gossau
+                                                    Bauphysik & Akustik / Lärmschutz
+Marek Langner, Daniel Platon, Claudio Bertelli,     Kopitsis Bauphysik AG
+Franz Erpenbeck                                     5610 Wohlen
+
+Spitalplaner                                        Türplanung / Sicherheit
+MTI Medizintechnische Ingenieurplanung GmbH         TeKoSi AG
+D-82398 Polling                                     8240 Thayngen
+
+Martin Sonnet                                       Lichtplanung
+                                                    Kardorff Ingenieure Lichtplanung GmbH
+Nachhaltigkeitsplaner                               8008 Zürich
+FC-Planung GmbH
+8634 Hombrechtikon
+
+
+
+
+76
+77
+Projektbeschrieb
+Das städtebauliche Konzept von „Vincent“ hat sich          Der beinahe quadratische Grundriss des Spitalge-
+im Verfahren stabil gehalten und besticht durch            bäudes zeichnet sich aus durch einen kompakten
+eine stimmige Setzung der einzelnen Gebäude, gut           zweigeschossigen Sockelbau, auf welchem über die
+proportionierte Aussenräume und entflochtenen              Diagonale die zwei Obergeschosse für die Bettensta-
+Erschliessungssträngen. Das Nebengebäude ist beim          tionen entwickelt werden. Auf einer Station wird das
+Arealauftrakt als Solitär präzise gesetzt und spannt       Gebäude um ein weiteres Geschoss für Büronutzun-
+zusammen mit dem Parkhaus einen zentralen Platz            gen aufgestockt. Diese Höhenstaffelung reagiert subtil
+als Erschliessungs- und Aufenthaltsbereich auf. Das        auf die Gebäude in der nordöstlichen Nachbarschaft.
+Pflegeheim Seeblick liegt als letztes Gebäude entlang      Durch die Staffelung entstehen zwei grosse Dachter-
+der Surentalstrasse in der Reihe. Die Ablösefläche         rassen, für welche keine Nutzung vorgesehen ist. Die
+2070 liegt südlich vom Spitalneubau. Diese Setzung         Bettenstationen sind um einen grosszügigen Innenhof
+stellt grundsätzlich eine robuste und langfristig nutz-    orientiert, welcher sich bis in das Erdgeschoss ver-
+bare Disposition dar.                                      jüngt.
+
+Die drei entlang der Surentalstrasse platzierten Ge-       Der Konzeptvorschlag für das Pflegezentrum Seeblick
+bäude – Ärztehaus/Parkhaus mit Garage Rettungs-            wurde weiterentwickelt mit dem Fokus Lärmschutz.
+dienst sowie Pflegeheim Seeblick – sind jeweils effizi-    Es werden keine Bewohnerzimmer mehr direkt zur
+ent erschlossen. Vom zentralen Platz des Ankommens         Surentalstrasse hinaus ausgerichtet. An der Süd- und
+wird der Verkehr der Anlieferung, des Rettungsdienst       Nordseite des Gebäudes wird mit Loggien auf die
+sowie des MIV direkt im Parkhaus abgefangen. Eine          Lärmimmissionen reagiert. Der leicht rechteckige
+Lösung, die auch für den Zustand 2070 gut funktio-         Fussabdruck ermöglicht eine effiziente und auch
+niert. Die Zufahrt Notfall-Liegend führt vom Zugang        zweckdienliche Grundrissorganisation um einen klei-
+des Areals direkt und konfliktfrei auf die Nordseite des   nen Innenhof herum. Zu einer möglichen Gestaltung
+Spitalgebäudes.                                            und Zonierung des Aussenraums liegen noch wenig
+                                                           Informationen vor. Der Umgebungsplan bleibt dazu
+Mit geringfügigen Anpassungen führt auch der Frei-         sehr undifferenziert und schematisch.
+raumentwurf die zukunftsfähige Grundhaltung der
+ersten Phase fort: Die Erschliessung ist direkt und        Der Baustoff Holz ist tragendes Element bei den Ge-
+effizient gelöst und führt direkt zum Vorplatz des Spi-    staltungsansätzen im Gebäudeinnern wie auch bei
+tals, der ein klare Adresse bildet. Der Haupteingang       der Fassade. Die ansprechende Eingangshalle zeigt
+liegt prominent, verschiedene Baumkörper gliedern          einen schönen Mix von Holzdecken und kühleren
+den Platz davor, beschatten die Kurzzeit-Parkplätze,       Materialien und Farben. Im Patientenzimmer schafft
+die Bushaltestelle und den leicht seitlich vor dem         ein Parkettboden für notwendige Wärme. Eine tiefen-
+Spital platzierten Aussensitzplatz. Von hier führt eine    gestaffelte, abwechslungsreiche Fassadenstruktur mit
+baumbestandene Promenade zwischen Parkhaus und             Holz zielt auf eine Auflockerung des großen Bauvolu-
+Landwirtschaftsfläche zum Pflegeheim. Nicht ganz           mens und die Schaffung einer natürlichen und war-
+glücklich ist die Erschliessung des Pflegeheims für        men Ausstrahlung, als Kennzeichen und zukunftswei-
+den Drop-Off-Bereich gelöst, wünschenswert wäre,           sendes Bild für das neue Spital in Sursee. Es wird auf
+dass Platz und Promenade verkehrsfrei bleiben kön-         einen hohen Vorfertigungsgrad und eine konsequente
+nen. Im Norden fasst ein kräftiges Vegetationsband         Systemtrennung gesetzt. Horizontale Fassadenbän-
+am Chrommlibach den Spitalperimeter, im Süden              der im Sockelbereich aus Stahlbetonfertigteilen und in
+fasst ein lichter Gehölzsaum das Pflegeheim stimmig.       den oberen Geschossen als vorgehängte Stahlkons-
+Mit der Neuorganisation 2070 würde sich der Ein-           truktion gliedern das Gebäude. Vertikale Lamellen-
+gangsplatz nach Süden verschieben im Norden würde          elemente differenzieren das Fassadenbild wie auch
+eine Freifläche entstehen, die Gestaltung könnte           die unterschiedlich eingesetzten geschosshohen,
+weitergeführt werden.                                      geschlossene Fassadenelement aus Holz.
+
+
+
+
+78
+Das Spital ist vergleichsweise wenig kompakt und          ren zu langen Wegen auf den einzelnen Ebenen sowie
+hat eine geringe Flächeneffizienz. Die Sockelbauten       zu unklaren und durch Kreuzungen belasteten On-/
+sind in Massivbauweise mit einer Stahlbeton-Hohl-         Off-Stage-Zonierungen. Dieses strukturell bedingte
+raumdecke geplant. Die Obergeschosse werden mit           Defizit würde eine Überarbeitung der Gebäudestruk-
+Holz-Hohlkastendecken mit Schüttungen und Holz-           tur erfordern.
+ständerwänden realisiert. Damit wird der Fussabdruck
+bezüglich Treibhausgasemissionen als tief einge-          Die Eingangshalle im Erdgeschoss schafft eine über-
+schätzt, zudem kann ein wesentlicher Teil der Bauteile    sichtliche Empfangssituation, die Orientierung zu den
+später wiederverwendet werden. Für das Neben-             angrenzenden Funktionsbereichen und der Besucher-
+gebäude und das Parkhaus werden keine Aussagen            liftgruppe ist jedoch nicht intuitiv, die Magistrale zer-
+über das statische Konzept gemacht.                       schneidet die Funktionsbereiche. Die Notfallstation ist
+                                                          intern gut organisiert, hat jedoch Schwächen bei der
+Die Spitalzimmer sind generell gut mit Tageslicht         kreuzungsfreien Ausbildung der On-/Off-Stage-Zonen.
+belichtet. Der sommerliche Wärmeschutz wird mit           Das Ambulatorium wird durch die Wartezone in zwei
+Rafflamellenstoren sichergestellt, zusätzlich ist eine    Hälften geteilt, so dass keine durchgehende On-/Off-
+kleine Fix-Verschattung vorgesehen. Das Thema             Zone vorhanden ist. Ebenso ist der Off-Stage-Bereich
+Schallschutz wurde im Entwurf bereits berücksichtigt.     der Bildgebung zersplittert. Im 1. Obergeschoss sind
+Allerdings braucht es weitere Massnahmen, ins-            die Synergien erkannt und die Bereiche OP/IVZ und
+besondere auch beim Pflegeheim Seeblick, um die           Tageskliniken, Aufwachraum sowie Intensivstation sind
+gesetzlichen Anforderungen zu erreichen. Es ist eine      zu einer effizient zu betreibenden Einheit mit kurzen
+mechanische Lüftungsanlage vorgesehen. Bei der            Wegen zusammengefasst. Ebenso ist das On-/Off-
+Materialisierung der Innenräume werden emissions-         Stage-Konzept in diesem Geschoss bis auf Schwä-
+arme Produkte erwähnt.                                    chen im Sterilbereich gut umgesetzt. Die Möglichkeit
+                                                          von kompakten Strukturen und klarer Orientierung bei
+Die Energieeffizienz des Gebäudes wird gut be-            der gewählten Anordnung der Bettenstationen im 2.
+urteilt. Das Energiekonzept basiert auf energetischer     und 3. Obergeschoss wird nicht ausgeschöpft. Eine
+Nutzung des Grundwassers und weiteren Energie-            Zonierung der Station ist nicht erkennbar. Die Über-
+systemen wie zum Beispiel ein Eisspeicher. Es sind        Eck-Lösung führt zu ungewollten Sichtbeziehungen
+eine Photovoltaik-Anlage auf dem Dach in Kombina-         aus den Patientenzimmern. Die Verkehrsflächen der
+tion mit extensiver Begrünung und im Bereich der          Logistik sind zu knapp dimensioniert auch sind die
+Fix-Verschattungselemente an der Fassade geplant.         Warenanlieferung und die weitere Wegführung dazu
+Das Steigzonenkonzept ist vorhanden mit detaillierten     funktional nicht zufriedenstellend.
+Plänen. Die Anbindung an die Technikräume funktio-
+niert gut.                                                Der Wettbewerbsbeitrag „Vincent“ zeigt ein solides
+                                                          städtebauliches Konzept, welches insbesondere
+Das Projekt zeigt erste gute Ansätze für die Realisie-    durch ein gut proportioniertes Spitalgebäudevolumen
+rung des Standards Minergie-P-ECO und SNBS, was           überzeugt, Der grosszügige Zugangs- und Vor-
+auch mit dem SNBS-Quickcheck sichtbar wird. Das           platz schafft eine starke Adressbildung für das neue
+Energiekonzept und der Schallschutz müssten weiter        Spital in Sursee. Das Erschliessungs- und Aussen-
+ausgearbeitet werden.                                     raumkonzept überzeugt über weite Strecken, auch
+                                                          sind die aufgezeigten gestalterischen Grundsätze
+Der Betrieb des Spitals wurde weiterentwickelt und        zu würdigen. Leider weist der Vorschlag des Spitals
+die Abläufe von einzelnen Funktionsbereichen ver-         aus funktionaler Sicht noch erhebliche Defizite aus,
+bessert. Allerdings weist der Entwurf immer noch          dessen Behebung mit strukturellen Anpassungen ein-
+Schwächen in der prozessorientierten Zonierung der        hergehen würden.
+Geschosse auf. Die zentral platzierten Liftanlagen füh-
+
+
+
+
+                                                                                                                79
+                      Situation 2031
+
+
+
+
+     Situation 2070
+
+
+80
+81
+Spitalgebäude Erdgeschoss
+
+
+
+
+Schnitt A - A
+
+
+
+82
+Spitalgebäude 1. Obergeschoss
+
+
+
+
+Schnitt B-B
+
+
+
+                                83
+Spitalgebäude 2. Obergeschoss
+
+
+
+
+Ansicht West
+
+
+
+84
+Spitalgebäude 4. Obergeschoss
+
+
+
+
+Ansicht Süd
+
+
+
+                                85
+Nebengebäude, Dialyse       Nebengebäude, Physiotherapie
+
+
+
+
+Nebengebäude, Praxis        Nebengebäude, Wohnen
+
+
+
+
+Ansicht Nord Nebengebäude
+
+
+
+86
+Seeblick Erdgeschoss
+
+
+
+
+                                Seeblick 1. Untergeschoss
+
+
+
+
+Seeblick 1. - 4. Obergeschoss
+
+
+
+
+Ansicht Nord Spitalgebäude
+
+
+
+                                                            87
+Parking / Werkhof / Arealvers. 1. Untergeschoss   Parking / Werkhof / Arealvers. Erdgeschoss
+
+
+
+
+Parking / Werkhof / Arealvers. 1. Obergeschoss    Parking / Werkhof / Arealvers. 2. - 7. Obergeschoss
+
+
+
+
+88
+Fassadenschnitt
+
+
+
+
+                  89
+90
+Projekte 1. Stufe Projektwettbewerb
+
+
+
+
+                                      91
+Vincent
+1. Stufe		       1. Rang / 1. Preis
+
+Gesamtleitung
+Conradi & Partner GmbH
+8806 Bäch
+
+Christoph Conradi, Lutz Wörner
+
+Architektur
+LUDES Architekten - Ingenieure GmbH
+D-80336 München
+
+Maximilian Ludes, Julia Ludes, David Baumgartner,
+Luis Arteaga, Minghui Zhang
+
+Baumanagement
+Conradi & Partner GmbH
+8806 Bäch
+
+Christoph Conradi, Lutz Wörner
+
+Bauingenieur
+wh-p Ingenieure AG
+4052 Basel
+
+Martin Stumpf
+
+Landschaftsplaner
+METTLER Landschaftsarchitektur AG
+9200 Gossau
+
+Marek Langner, Daniel Platon, Claudio Bertelli,
+Franz Erpenbeck
+
+Spitalplaner
+MTI Medizintechnische Ingenieurplanung GmbH
+D-82398 Polling
+
+Martin Sonnet
+
+Nachhaltigkeitsplaner
+FC-Planung GmbH
+8634 Hombrechtikon
+
+Hubert Huber
+
+
+
+
+92
+Situation 2031
+
+
+                 93
+PROMENADE
+1. Stufe           2. Rang / 2. Preis
+
+Gesamtleitung                                           Sanitär, Medizinalgas
+Perita AG                                               ing.- büro riesen AG
+8004 Zürich                                             3014 Bern
+
+Architektur                                             Thierry Stöckli
+a|sh architekten AG
+8008 Zürich                                             Elektro- und Brandschutzplanung
+                                                        SCHERLER AG
+Linus Hofrichter, Dimphie Slooters, Verena Freuden-     6004 Luzern
+berg, Stefan Peters, Maximilian Ebert, Bahar Tarakci,
+Mario Münz, Sanem Bakan, Andreas Wild, Patrick          Roger Weber, Bryan Furrer
+Riebe, Svetlozara Tsankova, Amber de Vrede
+                                                        Verkehrsplaner
+Pascal Flammer Architekten AG                           Rombo GmbH
+8037 Zürich                                             8005 Zürich
+
+Pascal Flammer, Ewa Kaszuba                             Enea Corubolo, Maylis Hurni
+
+Baumanagement
+Perita AG
+8003 Zürich
+
+Tim Hercka
+
+Bauingenieur
+Dr. Lüchinger+Meyer Bauingenieure AG
+8005 Zürich
+
+Flavio Wanninger
+
+Landschaftsplaner
+BÖE GmbH
+8005 Zürich
+
+Nina Grünig, Bertha Chen, Johannes Heine
+
+HLK / Räumliche Koordination / Gebäudeautoma-
+tion / Nachhaltigkeit
+Waldhauser+Hermann AG
+4142 Münchenstein
+
+Roman Hermann, Martin Imhof, Gabriel Borer
+
+
+
+
+94
+Situation 2031
+
+
+                 95
+HOSPES
+1. Stufe            3. Rang / 3. Preis
+
+Gesamtleitung
+S+B Baumanagement AG
+4601 Olten
+
+Architektur
+Silvia Gmür Reto Gmür Architekten GmbH
+4001 Basel
+
+Reto Gmür, Marta Wrbblewska, Kresimir Francisko-
+vic, Linda Gmür, Wojtek Hryszkiewicz, Philipp Müller,
+Nicole Schulze, Jacek Wojtasik
+
+Landschaftsplaner
+Maurus Schifferli Landschaftsarchitekt AG
+3011 Bern
+
+Maurus Schifferli
+
+Nachhaltigkeitsplaner
+Nabuco AG
+8003 Zürich
+
+Georg Schulte
+
+
+
+
+96
+Situation 2031
+
+
+                 97
+Feld und Flur
+1. Stufe		       4. Rang / 4. Preis
+
+Gesamtleitung
+Jaeger Coneco AG Baumanagement
+8004 Zürich
+
+Architektur
+Fischer Architekten AG
+8045 Zürich
+
+Simon Edelmann, Camilla Rossi,
+Eszter Nagy, Iris Keller
+
+Baumanagement
+Jaeger Coneco AG Baumanagement
+8004 Zürich
+
+Bauingenieur
+Basler & Hofmann AG
+8032 Zürich
+
+Daniel Graf
+
+Landschaftsplaner
+Bischoff Landschaftsarchitektur GmbH
+5400 Baden
+
+Florian Bischoff, Thomas Dietemann
+
+Spitalplaner
+Istitut für Beratungen im Gesundheitswesen IBG
+5001 Aarau
+
+Heinrich Messmer
+
+Nachhaltigkeitsplaner
+Lemon Consul AG
+8006 Zürich
+
+Haustechnik
+Anima Engineering AG
+4051 Basel
+
+Akustik
+BAKUS AG
+8045 Zürich
+
+Reto Waldmeier
+
+
+
+98
+Situation 2031
+
+
+                 99
+GRÜNACHSE
+1. Stufe         5. Rang / 5. Preis
+
+Gesamtleitung
+ATP architekten ingenieure Zürich AG
+8005 Zürich
+
+Architektur
+Mint Architecture AG
+8005 Zürich
+
+Peter Roth
+
+Baumanagement
+ATP architekten ingenieure Zürich AG
+8005 Zürich
+
+Bauingenieur
+ATP architekten ingenieure Zürich AG
+8005 Zürich
+
+Landschaftsplaner
+Habitat Landschaftsarchitektur
+8003 Zürich
+
+Andreas Hoffmann, Alexandra Kaufmann
+
+Spitalplaner
+ATP health GmbH
+D-52078 Aachen
+
+Nachhaltigkeitsplaner
+ATP Sustain GmbH
+DE-80335 München
+
+Heizung-Lüftung-Klima-Kälte-Sanitär-GA
+Hochstrasser Glaus & Partner Consulting AG, Be-
+ratende Ingenieure SIA/suisse.ing
+ 8048 Zürich
+
+Peter Glaus, Jasmin Biondi, Larissa Hehnen
+
+
+
+
+100
+Situation 2031
+
+
+                 101
+TOURNESOL
+1. Stufe		       Engere Wahl, 6. Rang / 6. Preis
+
+Gesamtleitung
+Burckhardt Architektur AG
+3001 Bern
+
+Architektur
+Burckhardt Architektur AG
+3001 Bern
+
+Daniel Hauswirtin, Christof Goldschmid, Markus Mat-
+hys, Malte Krohn, Markus von Bergen, Ernesto Flores
+Serrano
+
+wörner traxler richter Schweiz gmbh Frankfurt am
+Main
+4053 Basel
+
+Sebastian Pfau, Annalena Orlob, Darshan Rajendra
+
+Landschaftsplaner
+exträ Landschaftsarchitekten
+3013 Bern
+
+David Gnehm, Hanna Schneider, Dominik Ramseyer
+
+Spitalplaner
+LOHFERT & LOHFERT AG
+D-20148 Hamburg
+
+Nachhaltigkeitsplaner
+Durable Planung und Beratung GmbH
+8045 Zürich
+
+Niklaus Haller, Sandro Camichel
+
+
+
+
+102
+Situation 2031
+
+
+                 103
+Projektbeschrieb
+Das Projekt Tournesol schlägt zwei Sockelgebäude          Die Situierung des Pflegezentrums Seeblick ent-
+vor, die fünf über Innenhöfe grosszügig belichtete        lang der Strasse ist dank der zurückversetzten Lage
+mehrgeschossige Gebäudequader aufnehmen. Durch            akzeptierbar. Die vorgeschlagene grosszügige Typo-
+diese Höhenstaffelung vermittelt das Projekt zwischen     logie wird geschätzt. Die durch den mit den Nachbar-
+den im Westen liegenden höheren Bauten der Gewer-         nutzungen gemeinsamen Sockel bedingte Überhöhe
+bezone und der durch Landwirtschaftsbetriebe cha-         des Erdgeschosses hat eine negative Auswirkung
+rakterisierten Umgebung im Osten und Süden. Der           auf die Kompaktheit der Anlage. Die Verflechtung der
+Surentalstrasse entlang bietet ein Gehölzstreifen den     Nutzungen im Sockel der Nebengebäude, sowie das
+erwünschten Abstand zum langgezogenen Sockel,             Unterfahren des Parkings im Untergeschoss, er-
+der die langzyklischen Funktionen aufnimmt. Diesem        schweren es erheblich, einen klaren Perimeter für den
+Gebäudekonglomerat gegenüber, zurückversetzt liegt        Seeblick zu definieren und zukünftig einen Wettbe-
+der Spitalbau, der im zweigeschossigen Sockelbe-          werb für das Pflegeheim auszuloben. Eine eigenstän-
+reich alle Funktionsbereiche des Spitals aufnimmt und     dige Realisierung birgt viele anspruchsvolle bauliche
+in den zwei Aufbauten die zudienenden Räume, sowie        und organisatorische Schnittstellen.
+die Pflegestationen und Büros.
+                                                          Das sechsgeschossige Spitalgebäude mit mehreren
+Im Norden liegt der Eingangsplatz zum Areal. Er wird      Innenhöfen, einer Hauptliftgruppe und drei weiteren
+mit einer Baumgruppe akzentuiert und führt in das         Aufzugsanlagen hat das Potenzial für eine gute innere
+promenadenartig gestaltete Zentrum. Der gestaltete        Organisation. Die rechtwinklig zum Eingangsbereich
+Bereich führt bis zum Pflegeheim im Süden. Erhöhte        liegende Erschliessungsachse bedingt aber eine
+Pflanzbeete und ein grosses Wasserbecken gliedern         starke Trennung der Funktionsbereiche mit mehreren
+hier den Raum; der grosszügige Eingangsbereich mit        Wegekreuzungen und teilweise langen Erschlies-
+angrenzendem Sitzplatz ist gut positioniert. Entlang      sungswegen. Die Nutzungseinheiten sind plausibel
+der Surentalstrasse wird ein Feldgehölz vorgeschla-       auf zwei Geschossen angeordnet, das On-Off-Stage
+gen. Es schafft Abstand zur Strasse und steigert den      Konzept wurde jedoch nicht umgesetzt.
+ökologischen Wert.
+                                                          Turnesol besteht aus einem Ensemble mit zwei Ge-
+Einen weiteren Mehrwert schafft der Entwurf mit den       bäuden mit mehreren Aufbauten und einer geringen
+grossen Dachterrassen, die vom Pflegepersonal wie         Kompaktheit. Das Spitalgebäude liegt im nördlichen
+auch von den Patienten genutzt werden können. Die         Arealteil und wird über vier Lichthöfe belichtet. Das
+Erschliessung ist nicht optimal gelöst. Die Zufahrt zum   Stützenraster von 10.8m x 10.8m ist für das Sockel-
+Notfall und die Vorfahrt des Spitals funktionieren gut,   geschoss angemessen. Die Sockelgeschosse sind in
+die Anlieferung zum Spital erfordert aber einen langen    Stahlbetonelementbau, die Obergeschosse in Holz-
+Weg um das Gebäude herum. Konfliktbereiche sind           konstruktionen ausgeführt. Ein zukünftiger Rückbau
+auch beim Parking und bei der Vorfahrt des Pflege-        wird mitgedacht. Der Aushub soll als Schüttung in den
+heims Seeblick zu erkennen.                               Holzdecken verwendet werden.
+
+Die Ablösefläche 2070 ist flächenmässig ausreichend,      Die Spitalzimmer sind generell gut mit Tageslicht
+wobei die Anlieferung im Untergeschoss überarbeitet       belichtet. Teilweise wird das Tageslicht entlang der
+werden müsste. Die Qualität der Sichtbeziehungen          Fassaden durch eine horizontale Fixverschattung
+vom Pflegeheim würden mit dem Bau der Etappe              geschmälert. Diese muss bezüglich Dimensionierung
+2070+ deutlich geschmälert.                               noch optimiert werden. Durch die grossen Lichthöfe
+                                                          gelangt das Tageslicht in vier Bereichen bis ins Erd-
+                                                          geschoss. Die Schallsituation wird durch den durch-
+                                                          gehenden Riegel entlang der Strasse verbessert. Zur
+                                                          Belüftung der Räume liegen noch keine Aussagen vor.
+
+
+
+
+104
+Bezüglich Energieeffizienz liegen noch keine Aus-
+sagen vor. Die Steigzonen sind zwar ersichtlich, aber
+schwer erkennbar. Die Anbindung der Steigzonen an
+die Energiezentralen müssen optimiert werden. Es ist
+eine arealübergreifende fossilfreie Wärmeversorgung
+geplant über ein dynamisches Erdspeichersystem mit
+Anergienetz und passiver Kühlung im Sommer. Es
+sind grossflächige PV-Anlagen auf dem Dach vorge-
+sehen.
+
+Das Projekt zeigt erste gute Ansätze für die Realisie-
+rung des Standards Minergie-P-ECO.
+
+Gesamtheitlich betrachtet besticht das Projekt Tour-
+nesol durch den Willen einen projektübergreifenden
+gemeinsamen architektonischen Ausdruck zu finden,
+der alle Gebäude und Funktionen zusammenfasst. Die
+neue Anlage erhält somit eine klare Identität, deren
+Einheitlichkeit aber den Vorgaben der Wettbewerbs-
+aufgabe und der geforderten etappengerechten
+Flexibilität widerspricht.
+
+
+
+
+                                                         105
+VIER JAHRESZEITEN
+1. Stufe          Engere Wahl, 7. Rang / 7. Preis
+
+Gesamtleitung                                             Verkehrsplanung
+Drees & Sommer Schweiz AG                                 Emch+Berger Verkehrsplanung AG
+8008 Zürich                                               3008 Bern
+
+Patrizia Dünner, Sabine Sagolla, Anna Wald                Guido Rindsfüser, Joseph von Sury
+
+Architektur                                               Bauleitung
+GWJ Architektur AG                                        Drees & Sommer Schweiz AG
+3001 Bern                                                 8008 Zürich
+
+Valentina Astudillo, Thomas Berger, Marilyn Brühl-        Patrizia Dünner, Anna Wald
+mann, Regula Deutsch, Tania Garcia, Bettina Gubler,
+Claudio Höllenstein, Christian Lasser, Jan Palomo, Arif
+Sadek, Alejandra Scott, Donat Senn, Elisa Vacca
+
+Bauingenieur
+Synaxis AG Zürich
+8050 Zürich
+
+Carlo Bianchi, Sina Fehr, Claude Leyder
+
+Landschaftsplaner
+Chaves Biedermann GmbH
+8001 Zürich
+
+Miguel Chaves, Matthias Biedermann, Maria Moreno
+
+Spitalplaner
+MedPlan Engineering AG
+8200 Schaffhausen
+
+Manuela Knecht, Alexandra Kreidler
+
+Nachhaltigkeitsplaner
+Drees & Sommer Schweiz AG
+8008 Zürich
+
+Alina Gratz
+
+Planung HLKK, Gebäudeautomation, Energiezen-
+trale / Fachkoordination HLKKSE
+Waldhauser+Hermann AG
+4142 Münchenstein
+
+Marco Waldhauser
+
+
+
+
+106
+Situation 2031
+
+
+                 107
+Projektbeschrieb
+Drei eigenständige Gebäude besetzen strassenbe-          Positionierungen bilden eine gute Grundlage für eine
+gleitend den östlichen Teil des Perimeters und bilden    weiterführende, eigenständige Entwicklung. Zu über-
+mit einer Vielzahl von differenzierten Aussenräumen      prüfen sind insbesondere die Zu- und Wegfahrten
+die notwendigen Hierarchien und Strukturen für das       sowie die Anlieferung, welche aufgrund der Verortung
+neue Spitalareal. Der zwischen dem Nebengebäude          beim Spital auf der diagonal gegenüberliegenden
+und dem Parkhaus aufgespannte Platz verbindet die        Seite des Areals sehr lange Wege verursacht. Ver-
+Surentalstrasse mit dem Hauptgebäude und bildet          misst werden gut nutzbare Aussenbereiche und einen
+das Zentrum der neuen Überbauung. Die breite Öff-        geeigneten Ort für den Demenzgarten.
+nung zur Hauptstrasse hin wird jedoch aufgrund der
+Positionierung und Frequentierung der Bushaltestellen    Die quadratische Grundform wird in vier gleichwertige
+in dem doch ländlichen geprägten Einzugsgebiet in        Quadranten eingeteilt. Im Mittelpunkt der Anlage liegt
+Frage gestellt. Der Vorplatz und die angrenzende         die vertikale Haupterschliessung für die Patienten
+Grünachse bilden jedoch eine gute Aussenstruktur         und Besucher. Der zentrale Platz, welcher diagonal
+für die Orientierung auf dem Gelände. Die Höhenstaf-     von zwei Innenhäfen natürlich belichtet wird, dient
+felung der einzelnen Gebäude und Gebäudeteile ist        als Ankerpunkt für die innere räumliche Orientierung.
+harmonisch aufeinander abgestimmt und integrieren        Das anschliessende Wegnetz ist bis auf die Betten-
+sich gut in die angrenzende, heterogene Umgebung,        geschosse in jedem Quadranten unterschiedlich und
+wobei der Spitalbau an der Grenze zur Landwirtschaft     zum Teil sehr verwinkelt und unübersichtlich aufge-
+eine etwas überhöhte Situation darstellt.                baut. So entstehen trotz kompakter Grundstruktur
+                                                         lange Wege und unstrukturierte Verkehrsströme. Das
+Der gesamte motorisierte Verkehr mit Ausnahme            Konzept der «On / Off-Stage Bereiche» ist zu wenig
+der Vorfahrt für das Pflegezentrum Seeblick wir über     konsequent umgesetzt. So gibt es trotz einer guten
+den nördlichen Teil der Parzelle direkt ab dem Kreisel   primären Einteilung der Nutzungseinheiten keinen zu-
+abgewickelt. Es entsteht ein wenig attraktiver Raum      sammenhängende Off-Stage Bereiche oder sie fehlen
+mit vielen Kreuzungen und möglichen Komplikationen       zum Beispiel wie in der interdisziplinären Notfallstation
+zwischen Fussgängerbereichen und Anlieferungs-           gänzlich. Ebenfalls wenig Beachtung wurde dem Pa-
+zonen. Zugunsten einer grösseren Reservefläche im        tientenfluss geschenkt. Diese sind wie zum Beispiel im
+Süden wünscht man sich das Spital zudem näher an         Operationsgeschoss mit der abgebildeten räumlichen
+der Waldgrenze. Die Zugänge und Erschliessungen          Anordnung kaum effizient umzusetzen. Die Bettenge-
+für den Ersatzbau im Süden sind mit dem gewählten        schoss sind übersichtliche aufgebaut und alle Zimmer
+Dispositiv nur schwer vorstellbar.                       verfügen über einen Bezug in die umliegende Land-
+                                                         schaft. Währen in den oberen Etagen mittels Innen-
+Der gesamte Freiraum wird mehr oder weniger als          höfe genügend Tageslicht in die Erschliessungs- und
+Agrarpark gelesen. Zier- und Fruchtbäume in grosser      Arbeitszonen gebracht werden kann, fehlt es teils im
+Anzahl sind im Raster über dem ganzen Perimeter          Erdgeschoss gänzlich auch aufgrund der Positionie-
+verteilt. Durch den Park führen geschwungene Wege        rung der Anlieferung.
+in den südlichen Bereich und zum Pflegeheim See-
+blick, welches an der Südwestecke positioniert ist.      Für das Tragwerk ist ein Stützenraster von 8.10m
+Nutzbare Aufenthaltsorte für den Seeblick und der        x 8.10m vorgesehen. Die geringe Deckenstärke
+Demenzgarten werden vermisst. Zu loben ist der tiefe     wird mittels vorgefertigten Beton-Hohlkörperplatten
+Versiegelungsgrad der Erschliessung und die hohe         erzielt, was zu einem geringen Gewicht und hoher
+Vegetationsdichte, jedoch den Ort als Park zu lesen      Wiederverwendbarkeit führt. Das Ärztehaus wird in
+wird nicht verstanden.                                   Holzbeton-Hybridbauweise ausgeführt. Generell wird
+                                                         das Projekt mit einem hohen Anteil an vorfabrizierten
+Das Pflegeheim Seeblick bildet den südlichen Ab-         Elementen geplant. Dies ermöglich ein effizientes und
+schluss der strassenbegleitenden Gebäudekörper.          kostenoptimiertes bauen. Bezüglich Energieeffizienz
+Im Gegensatz zum Parkhaus aber liegt das Gebäude         liegen noch keine konkreten Aussagen vor. Das Pro-
+Quer zur Strasse und orientiert sich mit den Längs-      jekt zeigt jedoch erst gute Ansätze für die Realisierung
+seiten zur Landwirtschaft hin. Das Volumen und die       des Standards Minergie-P-ECO.
+
+
+108
+Die Geschossflächen liegen mit rund 37‘500m2
+genau im Mittelwert der eingereichten Projekte. Die
+Flächeneffizienz liegt mit einem Wert von 1.88 gleich
+wie die Kompaktheit im Quervergleich ebenfalls im
+Mittel. Das Projekt weist sowohl in der Erstellung als
+auch im Betrieb eine gute Wirtschaftlichkeit auf.
+
+Das Projekt «Vier Jahreszeiten» besitzt seine Stärken
+primär in der städtebaulichen Setzung und überge-
+ordneten Primärstruktur sowie den konzeptionellen
+konstruktiven Ansätzen. Die komplexen Anforderun-
+gen an die Erschliessungen und betrieblichen Abläufe
+konnten jedoch nicht in der gewünschten Effizienz
+umgesetzt werden. Auch im Aussenraum fehlte trotz
+guter Elemente eine gewisse räumliche Präzision und
+Zuweisung. Obwohl viele spannende Inhalte und gute
+Ansätze erkennbar sind, konnte das Projekt letztend-
+liche nicht restlos überzeugen.
+
+
+
+
+                                                         109
+lumière du lac
+1. Stufe          Engere Wahl, 8. Rang / 8. Preis
+
+Gesamtleitung                                         Nachhaltigkeit / Bauphysik / Akustik
+Pascal Petschen                                       Gartenmann Engineering AG
+8003 Zürich                                           8003 Zürich
+
+Architektur                                           Emanuele Chollet, Natalia Kobylinska, Nora Linsi
+ASTOC Architects and Planners GmbH
+D 50677 Köln
+
+Timo Eisele, Judith Freund, Julius Gronemann, Rüdi-
+ger Hundsdörfer, Jan Wilmer
+
+fsp Architekten AG
+8957 Spreitenbach
+
+Alexander Christen, Christoph Kaech, Ines Arnau,
+Nico Seiberle
+
+IAAG Architekten AG
+3000 Bern
+
+Andreas Stebler, Arnaud Scheurer, Marijana Momic
+
+Baumanagement
+ARGE ARCHIPEL / ASTOC / fsp / IAAG
+8003 Zürich
+
+Oliver Burghard
+
+Bauingenieur
+dsp Ingenieure + Planer AG
+8610 Uster
+
+Landschaftsplaner
+BNP Landschaftsarchitekten GmbH
+8045 Zürich
+
+Anja Bandorf, Theresa Schuster
+
+Spitalplaner
+daniel pauli architektur.consulting
+5213 Villnachern
+
+Daniel Pauli
+
+
+
+
+110
+Situation 2031
+
+
+                 111
+Projektbeschrieb
+Die Verfasser von „Lumière du Lac“ situieren die vier     haltig zu garantieren. Auch dürfte die für die erste
+Gebäude gekonnt um eine zentrale, attraktive Frei-        Realisierungsetappe aufgezeigte optimale Trennung
+fläche und schaffen mit dieser Setzung der Gebäude        der verschiedenen Erschliessungskategorien in allen
+eine spannende Interaktion zu den Gewerbebauten           Bereichen Einbussen in der Qualität erfahren.
+vis-a-vis der Surentalstrasse. Die vier Hochbauten
+sind aufgesetzt auf eine durchgehende Nutzfläche          Die Verortung des Pflegeheims in zentraler südlicher
+unter Terrain, welche primär mit Parkierung belegt        Position überzeugt im Rahmen der ersten Realisie-
+ist. Die einzelnen Gebäude sind in der Geschossig-        rung, obwohl die Einbindung ins Gebäudeensemble
+keit unterschiedlich ausformuliert. Dabei wirkt das       und der zugewiesene Grundstückperimeter nur wenig
+sehr voluminös wirkende Spitalgebäude, verortet in        Spielraum zulassen. Mit der Realisierung der zweiten
+der Nordostecke gegen den Grünraum und landwirt-          Generation für das Spitalgebäude wird die Standort-
+schaftliche Nutzflächen hin, sehr dominant und re-        qualität des Pflegeheims mit südseitiger Belagerung
+agiert unsensibel auf die angrenzende Umgebung. Es        durch das Hauptgebäude und stark veränderten
+fehlt die gewünschte Klärung des heiklen Übergangs        Aussenraumbeziehungen infrage gestellt.
+vom Bauzonenrand zur Landwirtschaftszone. Mit der
+vorgeschlagenen Adressierung des Spitalgeländes ab        Das Spitalgebäude überzeugt mit eindeutiger Orien-
+Chreisel erfolgt beim Auftakt in das Areal die optimale   tierung und ermöglicht mit zentral platzierter Vertika-
+Trennung von verkehrsbelasteten Achsen und fussläu-       lerschliessung kurze Wege und hohe Flexibilität. Die
+figen Erschliessungen. Damit gelingt die annähernd        konsequente Umsetzung fehlt mit verwinkelten Weg-
+verkehrsfreie Bespielung der zentralen Freiflächen,       führungen im Notfall und beim Patientenpfad im OPs.
+ab welcher die vier Gebäude gut auffindbar erschlos-      Klärungsbedarf hat auch das On-/Off-Stage Konzept,
+sen sind. Fraglich bleibt die aufwändige unterirdische    welches im Interventionszentrum nicht durchgängig
+Erschliessung des Parkhauses und die grossflächige        aufgezeigt ist und im Notfall gänzlich fehlt.
+und kostenaufwendige Parkierung in grundwasserfüh-
+rendem Terrain.                                           Lumière du lac besteht aus einem Ensemble aus vier
+                                                          Gebäuden mit einem sehr grossen durchgängigen
+Ein zentraler Platz mit vier angrenzenden Freiräu-        Untergeschoss. Dies führt insgesamt zu einer gerin-
+men verbindet das Areal mit der Umgebung. Die             gen Kompaktheit der gesamten Anlage. Das Spital
+Mitte wird mit einem Wasserspiel besetzt und durch        liegt im nördlichen Arealteil und verfügt über zwei
+Baumpflanzungen, die in die Zwischenräume führen,         Lichthöfe. Das Spital ist bis ins 2. Obergeschoss als
+begrenzt. So entsteht eine gemeinsame Adresse für         Skelettbau massiv geplant, ab dem 3. OG ist ein Holz-
+sämtliche Neubauten. Der Haupteingang des Spitals         bau vorgesehen. Für das Tragwerk ist ein Stützen-
+wird von der Bushaltestelle an der Surentalstrasse        raster von 8.10m x 8.10m vorgesehen. Das Ärztehaus
+her erschlossen. Gut gebündelt liegen im Norden die       und das Pflegeheim werden in Holzbauweise vor-
+Zufahrten von Ambulanz, Parking und Anlieferung.          geschlagen. Das Parking ist als Stahlbau geplant mit
+Einzig die Vorfahrt zum Pflegeheim führt über den         einer begrünten Fassade. Generell werden die Ma-
+Zentrumsplatz, der in erster Linie für den Fussverkehr    terialien nach ECO-Kriterien ausgewählt. Die Anord-
+vorgesehen ist. Die Restaurantterrasse mit Pergola        nung der Räume im Spital zeigt, dass die Spitalzim-
+ist im Übergangsbereich zur offenen Landschaft gut        mer generell gut mit Tageslicht belichtet werden. Im
+situiert. Auch das Angebot der beiden Dachterrassen       Sockelgeschoss hingegen sind trotz Lichthöfen einige
+beim Spital ist begrüssenswert. Vermisst wird aber ein    Arbeitsbereiche ohne Tageslicht. Die Kombination von
+gut nutzbarer Freiraum beim Pflegeheim. Der Entwurf       aussenliegendem Sonnenschutz, gut isolierendem
+verspricht einen grossen Beitrag zur Hitzeminderung       Glas und innenliegender thermischer Speichermasse
+und zur Förderung der Biodiversität.                      wird im Sommer für behagliche und gesunde Verhält-
+                                                          nisse sorgen. Zur Belüftung der Räume sind keine
+Mit der südseitig aufgezeigten, länglich zugeschnit-      Angaben verfügbar.
+tenen Freifläche für die Zweifelderwirtschaft dürfte es
+eine Herausforderung sein, die Qualität der Setzung       Die Energieeffizienz der Gebäudehülle erfüllt die
+der Gebäude und der resultierenden Freiräume nach-        Anforderungen an Minergie-P. Es soll ein Netto-Null
+
+
+112
+Konzept entwickelt werden. Das Steigzonenkonzept
+ist erkennbar, die Anbindung an Technikzentralen
+noch unklar. Auf den Dächern sind PV-Anlagen auf
+ext. Begrünung geplant. Das Konzept sieht einige
+Massnahmen punkto Hitzeminderung vor. So lässt die
+Anordnung der Gebäude eine gute Luftzirkulation zu
+und es sind helle Oberflächen für eine hohe Reflexion
+geplant. Das Projekt zeigt erste gute Ansätze für die
+Realisierung des Standards Minergie-P-ECO.
+
+Zusammenfassend überzeugt der Beitrag „Lumiere du
+Lac“ mit gut proportionierten Freiflächen und stimmi-
+gem Erschliessungskonzept. Aus städtebaulicher Be-
+urteilung Klärungsbedarf hat die Verortung massiver
+Gebäudevolumen angrenzend zur Nichtbauzone.
+
+
+
+
+                                                        113
+Aeternitas
+1. Stufe 		              2. Rundgang
+
+Gesamtleitung
+CSG Baumanagement AG
+4051 Basel
+
+Architektur
+Healing Spaces Kft.
+1123 Budapest, Ungarn
+
+Pal Andres Rutkai
+
+Baumanagement
+CSG Baumanagement AG
+4051 Basel
+
+Stefan Spano, Sarah Tufano, Rebecca Tschudin
+
+Bauingenieur
+Plankenauer GmbH
+8180 Bülach
+
+Gergely Pozsonyi Plankenauer
+
+Landschaftsplaner
+S73 Kft.
+1113 Budapest, Ungarn
+
+Sandor Mohacsi, Ida Bogata Bugnics, David Kovacs
+
+Spitalplaner
+Evomed AG
+8600 Dübendorf
+
+Valentin Simonett
+
+Nachhaltigkeitsplaner
+eicher+pauli Luzern AG
+6010 Kriens
+
+Andreas Glauser
+
+
+
+
+114
+Situation 2031
+
+
+                 115
+CAMPO LIBRE
+1. Stufe 		              2. Rundgang
+
+Gesamtleitung
+PPM Baumanagement AG
+9014 St. Gallen
+
+Architektur
+wulf architekten gmbh
+4057 Basel
+
+Gabriel Wulf, Ingmar Menzer, Zhan Xu, Mustafa Al-
+parslan Turan, Alexandra Gorovaya
+
+Baumanagement
+PPM Baumanagement AG
+9014 St. Gallen
+
+Bauingenieur
+wh-p Ingenieure AG
+4052 Basel
+
+Landschaftsplaner
+JACOB PLANUNG
+4001 Basel
+
+Spitalplaner
+Institut für Beratungen im Gesundheitswesen (IBG)
+5001 Aarau
+
+Nachhaltigkeitsplaner
+Lemon Consult AG
+4052 Basel
+
+
+
+
+116
+Situation 2031
+
+
+                 117
+GEHÖFT
+1. Stufe 		               2. Rundgang
+
+Gesamtleitung                                        Heizung-Lüftung-Klima-Kälte
+Itten + Brechbühl AG                                 Hochstrasser Glaus & Partner Consulting AG
+3001 Bern                                            8048 Zürich
+
+Jana Trachsel, Yves Reinacher, Ronny Erler, David    Peter Glaus, Christoph Schmocker, Jasmin Biondi,
+Perez                                                Larissa Hehnen, Giuliano Bernardasci
+
+Architektur                                          Verkehrsplanung
+Herzog & de Meuron Ltd.                              movelng AG
+4056 Basel                                           4051 Basel
+
+Jacques Herzog, Pierre de Meuron, Christine Bins-    Jan Bautz, Stefan Armbruster
+wanger, Thorben Bazlen, Baläzs Schrammel, Catarina
+Croft, Michael Schmidt
+
+Baumanagement
+Itten + Brechbühl AG
+3001 Bern
+
+Jürg Born
+
+Bauingenieur
+ZPF Structure AG
+4051 Basel
+
+Tobias Huber, Eleonore Wimart
+
+Landschaftsplaner
+Antön Landschaft GmbH
+8044 Zürich
+
+Carola Antön, Maria Luisa Benitez Paez
+
+Spitalplaner
+Lead Consultants AG
+8005 Zürich
+
+Karin Imoberdorf
+
+Nachhaltigkeitsplaner, Bauphysik
+brücker+ernst gmbh sia
+6003 Luzern
+
+Patrick Emst
+
+
+
+
+118
+Situation 2031
+
+
+                 119
+IMPULS
+1. Stufe 		                2. Rundgang
+
+Gesamtleitung
+DREICON AG / Architekten
+8005 Zürich
+
+Lutz Wörner, Josef Kaps
+
+Architektur
+ISA - llg Santer Architekten
+8001 Zürich
+
+Andreas llg, Marcel Santer, Carolina Contreras, Sibyl-
+le Küpfer, Flavia Murati, Vesna Petrovic, Luca Prisco
+
+Baumanagement
+DREICON AG /Architekten
+8005 Zürich
+
+Lutz Wörner, Christoph Conradi
+
+Bauingenieur
+Dr. Lüchinger+Meyer Bauingenieure AG
+8050 Zürich
+
+Andrea Bassetti
+
+Landschaftsplaner
+MUTO GmbH
+8032 Zürich
+
+Ramon Subira
+
+Spitalplaner
+mtp Planungsgesellschaft für Medizintechnik
+5053 Basel
+
+Thomas Wehrle
+
+Nachhaltigkeitsplaner
+pom+Consulting AG
+8005 Zürich
+
+Johannes Gantner
+
+
+
+
+120
+Situation 2031
+
+
+                 121
+Libelle
+1. Stufe 		               2. Rundgang
+
+Gesamtleitung
+a r c experts
+8005 Zürich
+
+Michael Haller
+
+Architektur
+SAM ARCHITEKTEN AG
+8005 Zürich
+
+Sacha Menz, Andrea Gubler, Christoph Schneider,
+Jacopo Bianchi, Emanuela Primerano, Claire Hilgert
+
+Baumanagement
+Fanzun AG
+8003 Zürich
+
+Petr Michalek
+
+Bauingenieur
+WaltGalmarini AG
+8008 Zürich
+
+Stephane Braune
+
+Landschaftsplaner
+Andreas Geser Landschaftarchitekten AG
+8004 Zürich
+
+Andreas Geser, Stefano Leuenberger
+
+Spitalplaner
+LOHFERT - PRAETORIUS A/S.
+DK-2800 Kongens Lyngby
+
+Carolina Lohfert Praetorius
+
+Nachhaltigkeitsplaner
+Büro für Nachhaltigkeit am Bau - Stefan Schrader AG
+8045 Zürich
+
+Stefan Schrader
+
+
+
+
+122
+Situation 2031
+
+
+                 123
+Spitelmatte
+1. Stufe 		              2. Rundgang
+
+Gesamtleitung
+Bühlmann & Partner Baumanagement GmbH
+6312 Steinhausen
+
+Beat Bühlmann
+
+Architektur
+Metron Architektur AG
+5201 Brugg
+
+Cornelius Bodmer, Sascha Buczek, Ardian Bujupaj,
+Stephan Lozza, Sebastian Meuschke, Lukas Nuss-
+baumer, Florian Nussberger, Antti Rüegg, Jonas
+Ryser, Tuula Tuomi
+
+Baumanagement
+Conradi & Partner GmbH
+8806 Bach
+
+Christoph Conradi
+
+Bauingenieur
+WMM Ingenieure AG
+4142 Münchenstein
+
+Andreas Bartsch
+
+Landschaftsplaner
+Metron Bern AG
+3001 Bern
+
+Sebastian Lehmann
+
+Nachhaltigkeitsplaner
+Durable Planung und Beratung GmbH
+8045 Zürich
+
+Niklaus Haller, Sandro Camichel
+
+
+
+
+124
+Situation 2031
+
+
+                 125
+156945
+1. Stufe 		              2. Rundgang
+
+Gesamtleitung
+Assmann Beraten + Planen GmbH
+10623 Berlin, Deutschland
+
+Architektur
+ingenhoven associates
+40221 Düsseldorf, Deutschland
+
+Martin Reuter, Armin Buchbinder, Florian Jung, Han-
+nah Palmen, Angelina Strauff
+
+Baumanagement
+Confirm AG
+8045 Zürich
+
+Bauingenieur
+R&P RUFFERT Ingenieurgesellschaft mbH
+65549 Limburg, Deutschland
+
+Landschaftsplaner
+WKM Landschaftsarchitekten GmbH
+40545 Düsseldorf, Deutschland
+
+Spitalplaner
+Planungsgruppe Schweitzer GmbH
+38102 Braunschweig, Deutschland
+
+Nachhaltigkeitsplaner
+Ingenieurbüro Hausladen GmbH
+85551 Kirchheim, Deutschland
+
+TGA Planer
+WINTER Beratende Ingenieure für Gebäudetechnik
+GmbH
+40211 Düsseldorf, Deutschland
+
+Verkehrsplaner
+Durth Roos Consulting GmbH
+64293 Darmstadt, Deutschland
+
+
+
+
+126
+Situation 2031
+
+
+                 127
+adidas
+1. Stufe 		                1. Rundgang
+
+Gesamtleitung                                      Kreislaufplaner
+Inneva AG                                          Kouto Alternative Building
+5070 Frick                                         8005 Zürich
+
+Daniel Schäuble, Fabrizio Urban                    Jordan Kouto
+
+Architektur                                        Massivbau, Geologie
+FANGAN GmbH                                        Inexo AG
+8045 Zürich                                        8200 Schaffhausen
+
+Joseph Redpath, Hannah Fotheringham, Jürg Burger   Manuel Stoll
+
+Baumanagement                                      PV Planer
+GPplus GmbH                                        Sems AG
+4562 Biberist                                      8045 Zürich
+
+Franziska Patzen                                   Luis Garabito
+
+Bauingenieur
+Timbatec Ingenieure
+8005 Zürich
+
+Alois Räber
+
+Landschaft und Städtebau
+Dematte Fontana GmbH
+8045 Zürich
+
+Elena Fontana, Enrico Dematte, Federico Brebbia
+
+Spitalplaner
+H. LimacherAG
+8302 Kloten
+
+Nicolo Lupino
+
+Nachhaltigkeitsplaner
+LEMON CONSULT AG
+8006 Zürich
+
+Philip Haupt
+
+Energieplaner
+Visplanum GmbH
+891 0 Affoltern am Albis
+
+Raphael Frei
+
+
+128
+Situation 2031
+
+
+                 129
+APOLLO
+1. Stufe 		              1. Rundgang
+
+Gesamtleitung
+HSSP AG
+8047 Zürich
+
+Architektur
+Theo Hotz Partner Architekten AG
+8008 Zürich
+
+Stefan Weber, Noel Rusiecki, Guninder Singh, Stefan
+Adler, Rubert Surbeck, Marc Zicklam
+
+Baumanagement
+HSSP AG
+8047 Zürich
+
+Bauingenieur
+Schnetzer Puskas AG
+4010 Basel
+
+Remy Jabas
+
+Landschaftsplaner
+Brogle Rüeger Landschaftsarchitekten BSLA
+8400 Winterthur
+
+Michael Brogle, Nadia Müllhaupt
+
+Spitalplaner
+Evomed AG
+8600 Dübendorf
+
+Valentin Simonett, Benjamin Scholz
+
+Nachhaltigkeitsplaner
+CSD Ingenieure AG
+8021 Zürich
+
+Christoph Neururer
+
+
+
+
+130
+Situation 2031
+
+
+                 131
+FORMAVITAE
+1. Stufe 		                1. Rundgang
+
+Gesamtleitung                                          Nachhaltigkeitsplaner
+Caretta Weidmann Baumanagement AG                      ee concept GmbH
+8047 Zürich                                            64295 Darmstadt
+
+Lars Steffen                                           Angele Tersluisen, David Bewersdorff
+
+Architektur
+Nickl&Partner Architekten Schweiz AG
+8005 Zürich
+
+Christine Nickl-Weller, Hans Nickl, Magnus Nickl,
+Lucia Kühnel, Mariia Kushchenkova, Cecilia Bautista,
+Laura Lampe
+
+Baumanagement
+Caretta Weidmann Baumanagement AG
+8047 Zürich
+
+Lars Steffen
+
+Bauingenieur
+Leonhardt, Andrä und Partner Beratende Ingenieure
+VBI AG
+10178 Berlin
+
+Oliver Kusch, Andreas Naeff
+
+Landschaftsplaner
+Uniola AG Landschaftsarchitektur Stadtplanung
+8032 Zürich
+
+Pascal Posset, Ge Gao, Marie Lintel
+
+Betriebsorganisation
+Lohfert - Praetorius A/S
+DK-2800 Kongens Lyngby
+
+Carolina Lohfert Praetorius
+
+Spitalplaner
+conspecton GmbH & Co. KG
+70193 Stuttgart
+
+Florian Raab, Przemyslaw Jendrus
+
+
+
+
+132
+Situation 2031
+
+
+                 133
+heute-morgen-übermorgen
+1. Stufe 		               1. Rundgang
+
+Gesamtleitung
+Freiraum Baumanagement AG
+8045 Zürich
+
+Architektur
+DÜRIG AG
+8004 Zürich
+
+Jean-Pierre Dürig, Gian Paolo Ermolli, Paul Kuhn
+
+Baumanagement
+Demmel & Partner Baumanagement AG
+8048 Zürich
+
+Simone Wildi, Daniel Binder
+
+Bauingenieur
+Basler & Hofmann AG
+8032 Zürich
+
+Dimitrios Piskas, Daniel Graf, Alexander Ducksch
+
+Landschaftsplaner
+vetschpartner Landschaftsarchitekten AG
+8001 Zürich
+
+Jürg Zollinger, Stefanie Schaufelberger, Anne Ober-
+rauch
+
+Spitalplaner
+Institut für Beratungen im Gesundheitswesen (IBG)
+5001 Aarau
+
+Lionel Jordan, Heinrich Messmer
+
+Nachhaltigkeitsplaner
+Amstein + Walthert AG
+8050 Zürich
+
+Marcus Knapp, Jens Schuster
+
+
+
+
+134
+Situation 2031
+
+
+                 135
+KARÖTIS
+1. Stufe 		               1. Rundgang
+
+Gesamtleitung                                            HLK-Planung / Gebäudeautomation
+Blaser Architekten                                       Aicher, De Martin, Zweng AG
+4051 Basel                                               6006 Luzern
+
+Christian W. Blaser, Christoph Butscher, Eladio Pania-   Andreas Andermatt, Peter Strohhammer
+gua
+
+Architektur
+STUDIOPEZ GmbH
+4057 Basel
+
+Isabela Avila, Marcos Brugarolas, Luca Perekresten-
+ko, Pedro Pena, Daniel Zarhy
+
+Baumanagement
+Blaser Architekten
+4051 Basel
+
+Christian W. Blaser, Christoph Butscher, Eladio Pania-
+gua
+
+Bauingenieur / Holzbauingenieur
+Gruner AG
+4020 Basel
+
+Sandro Brunella, Mario Hess
+
+Landschaftsplaner
+atelier soto . freiraum und landschaft GmbH
+4001 Basel
+
+Sandra Schlosser
+
+Spitalplaner
+mtp-Planiingsgesellschaft für Medizintechnik mbh
+Frankfurt am Main
+4053 Basel
+
+Thomas Wehrle
+
+Nachhaltigkeitsplaner
+Gruner AG
+4020 Basel
+
+Natasha Catunda
+
+
+
+
+136
+Situation 2031
+
+
+                 137
+RAUTE
+1. Stufe 		                1. Rundgang
+
+Gesamtleitung
+WSP Suisse AG
+8050 Zürich
+
+Andrea Schmidhauser, Michael Häge
+
+Architektur
+Baumschlager Eberle Vaduz AG
+9490 Vaduz, Fürstentum Liechtenstein
+
+Martin Neuwirther, Marc Fisler, Stephan Kurath, Miaa
+Kos, Merita Hasani, Aleyna Motur
+
+Baumanagement
+Dress & Sommer Schweiz AG
+8003 Zürich
+
+Patrizia Dünner, Anna Wald, Alina Glatz
+
+Bauingenieur
+WSP 1 BG Ingenieure und Berater AG
+6340 Baar
+
+Peter Bisang, Markus Trexler, Caroline Schwerzmann,
+Lukas Scheibmayr
+
+Landschaftsplaner
+Planstatt Senner
+88662 Überlingen
+
+Kerstin Winand, Brigitte Beyer, Laura Glas
+
+Spitalplaner
+mtp Planungsgesellschaft
+4053 Basel
+
+Thomas Wehrle, Nina Köhler, Anne Schellenberger
+
+Nachhaltigkeitsplaner
+WSP 1 BG Ingenieure und Berater AG
+8050 Zürich
+
+Sara Wyss, Yanis Python
+
+
+
+
+138
+Situation 2031
+
+
+                 139
+131885408
+1. Stufe 		                1. Rundgang
+
+Gesamtleitung
+albrings + müller ag
+88131 Lindau
+
+Frank Bindszus, Marvin Kluge, Jessica Hirt
+
+Architektur
+Michelgroup AG
+8045 Zürich
+
+Wolfgang Michel, Nico Santuario, Mateusz Kropop,
+Ankit Kokil
+
+Baumanagement
+albrings + müller ag
+88131 Lindau
+
+Frank Bindszus, Marvin Kluge, Jessica Hirt
+
+Bauingenieur und Verkehrsplanung
+Ribi + Blum AG
+8590 Romanshorn
+
+Wolfgang Narr, Matthias Peter, Marco Zumkehr, Pas-
+cal Stadler
+
+Landschaftsplaner
+Ulrich Stief Landschaftsarchitekt
+78464 Konstanz
+
+Ulrich Stief
+
+Spitalplaner
+u2 projektagentur Ulrich uetz
+89073 Ulm
+
+Urlich Uetz
+
+Nachhaltigkeit und HLKK Konzept
+TRANSSOLAR Energietechnik GmbH
+70563 Stuttgart
+
+Matthias Schuler, Daniel Lago, Lola Abalos
+
+
+
+
+140
+Situation 2031
+
+
+                 141
+© Luzerner Kantonsspital LUKS
+Schutzgebühr CHF 20.-
+

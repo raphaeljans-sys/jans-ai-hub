@@ -1,0 +1,34 @@
+{
+  "slug": "Helle",
+  "architekt": {
+    "name": "Helle",
+    "nachname": "Helle",
+    "vorname": "",
+    "jahre": [],
+    "ordner": "Helle"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Helle",
+  "projekte": [
+    {
+      "raw": "Haus_Campel",
+      "ort": "Haus",
+      "projekt": "Campel",
+      "jahre": [],
+      "titel": "Haus Campel"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 5,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 5
+  },
+  "dateitypen": {
+    ".jpg": 5
+  },
+  "textauszug": "",
+  "embed_doc": "Helle | Haus Campel",
+  "stand": "2026-07-02T21:17:24"
+}

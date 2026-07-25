@@ -1,0 +1,36 @@
+{
+  "slug": "Althaus_Architekten",
+  "architekt": {
+    "name": "Althaus Architekten",
+    "nachname": "Althaus",
+    "vorname": "Architekten",
+    "jahre": [],
+    "ordner": "Althaus_Architekten"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Althaus_Architekten",
+  "projekte": [
+    {
+      "raw": "Worblaufen_CASAPPELLA_2007_09",
+      "ort": "Worblaufen",
+      "projekt": "CASAPPELLA 09",
+      "jahre": [
+        "2007"
+      ],
+      "titel": "Worblaufen CASAPPELLA 2007 09"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 5,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 5
+  },
+  "dateitypen": {
+    ".jpg": 5
+  },
+  "textauszug": "",
+  "embed_doc": "Althaus Architekten | Worblaufen CASAPPELLA 09 2007",
+  "stand": "2026-07-02T21:05:42"
+}

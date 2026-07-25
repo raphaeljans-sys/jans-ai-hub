@@ -1,0 +1,36 @@
+{
+  "slug": "Guy_Morgan_and_Partners",
+  "architekt": {
+    "name": "Guy Morgan and Partners",
+    "nachname": "Guy",
+    "vorname": "Morgan and Partners",
+    "jahre": [],
+    "ordner": "Guy_Morgan_and_Partners"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Guy_Morgan_and_Partners",
+  "projekte": [
+    {
+      "raw": "London_Florin_Court_1936",
+      "ort": "London",
+      "projekt": "Florin Court",
+      "jahre": [
+        "1936"
+      ],
+      "titel": "London Florin Court 1936"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 5,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 5
+  },
+  "dateitypen": {
+    ".jpg": 5
+  },
+  "textauszug": "",
+  "embed_doc": "Guy Morgan and Partners | London Florin Court 1936",
+  "stand": "2026-07-02T21:16:46"
+}

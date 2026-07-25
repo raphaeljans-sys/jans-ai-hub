@@ -1,0 +1,34 @@
+{
+  "slug": "Beer_Merz_Architekten",
+  "architekt": {
+    "name": "Beer Merz Architekten",
+    "nachname": "Beer",
+    "vorname": "Merz Architekten",
+    "jahre": [],
+    "ordner": "Beer_Merz_Architekten"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Beer_Merz_Architekten",
+  "projekte": [
+    {
+      "raw": "Basel_Umbau_Eigentumswohung",
+      "ort": "Basel",
+      "projekt": "Umbau Eigentumswohung",
+      "jahre": [],
+      "titel": "Basel Umbau Eigentumswohung"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 10,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 10
+  },
+  "dateitypen": {
+    ".png": 10
+  },
+  "textauszug": "",
+  "embed_doc": "Beer Merz Architekten | Basel Umbau Eigentumswohung",
+  "stand": "2026-07-02T21:08:25"
+}

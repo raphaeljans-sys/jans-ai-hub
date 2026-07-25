@@ -1,0 +1,37 @@
+{
+  "slug": "Atkinson_Robert_1883_1952",
+  "architekt": {
+    "name": "Atkinson Robert 1883 1952",
+    "nachname": "Atkinson",
+    "vorname": "Robert",
+    "jahre": [
+      "1883",
+      "1952"
+    ],
+    "ordner": "Atkinson_Robert_1883_1952"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Atkinson_Robert_1883_1952",
+  "projekte": [
+    {
+      "raw": "London_Oslo_Court_Prince_Albert_Road_ Regent's_Park,",
+      "ort": "London",
+      "projekt": "Oslo Court Prince Albert Road  Regent's Park,",
+      "jahre": [],
+      "titel": "London Oslo Court Prince Albert Road  Regent's Park,"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 6,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 6
+  },
+  "dateitypen": {
+    ".jpg": 6
+  },
+  "textauszug": "",
+  "embed_doc": "Atkinson Robert 1883 1952 | London Oslo Court Prince Albert Road Regent's Park,",
+  "stand": "2026-07-02T21:06:39"
+}

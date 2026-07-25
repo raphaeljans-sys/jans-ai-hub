@@ -1,0 +1,42 @@
+{
+  "slug": "Gysin_Bob",
+  "architekt": {
+    "name": "Gysin Bob",
+    "nachname": "Gysin",
+    "vorname": "Bob",
+    "jahre": [],
+    "ordner": "Gysin_Bob"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Gysin_Bob",
+  "projekte": [
+    {
+      "raw": "Zuerich_Townhouse_Hottingerplatz",
+      "ort": "Zuerich",
+      "projekt": "Townhouse Hottingerplatz",
+      "jahre": [],
+      "titel": "Zuerich Townhouse Hottingerplatz"
+    },
+    {
+      "raw": "hinterberg",
+      "ort": "hinterberg",
+      "projekt": "hinterberg",
+      "jahre": [],
+      "titel": "hinterberg"
+    }
+  ],
+  "projekt_anzahl": 2,
+  "inventar": {
+    "bilder": 9,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 9
+  },
+  "dateitypen": {
+    ".jpg": 8,
+    ".png": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Gysin Bob | Zuerich Townhouse Hottingerplatz | hinterberg hinterberg",
+  "stand": "2026-07-02T21:16:46"
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "Studer_Schneider_Primas",
+  "architekt": {
+    "name": "Studer Schneider Primas",
+    "nachname": "Studer",
+    "vorname": "Schneider Primas",
+    "jahre": [],
+    "ordner": "Studer_Schneider_Primas"
+  },
+  "pfad": "/Volumes/daten/05_Architekten_Synobsis/Studer_Schneider_Primas",
+  "projekte": [
+    {
+      "raw": "Zuerich_Holunderhof",
+      "ort": "Zuerich",
+      "projekt": "Holunderhof",
+      "jahre": [],
+      "titel": "Zuerich Holunderhof"
+    }
+  ],
+  "projekt_anzahl": 1,
+  "inventar": {
+    "bilder": 6,
+    "dokumente": 0,
+    "cad": 0,
+    "andere": 0,
+    "total": 6
+  },
+  "dateitypen": {
+    ".png": 5,
+    ".jpg": 1
+  },
+  "textauszug": "",
+  "embed_doc": "Studer Schneider Primas | Zuerich Holunderhof",
+  "stand": "2026-07-02T22:49:31"
+}

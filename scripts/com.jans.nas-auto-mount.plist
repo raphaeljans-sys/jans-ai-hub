@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.jans.nas-auto-mount</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/raphaeljans/Developer/jans-ai-hub/scripts/nas-auto-mount.sh</string>
+    </array>
+
+    <!-- Alle 5 Minuten pruefen -->
+    <key>StartInterval</key>
+    <integer>300</integer>
+
+    <!-- Auch beim Login starten -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <!-- Bei Netzwerkwechsel pruefen -->
+    <key>WatchPaths</key>
+    <array>
+        <string>/Library/Preferences/SystemConfiguration</string>
+    </array>
+
+    <key>StandardErrorPath</key>
+    <string>/tmp/com.jans.nas-auto-mount.err</string>
+</dict>
+</plist>
