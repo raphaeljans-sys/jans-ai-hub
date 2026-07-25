@@ -1,7 +1,20 @@
 # INDEX — KB wettbewerbs-dna
 
-Stand: 25.07.2026 (Etappe 3, **Baustein B2/B3 Healthcare Tranche 2**: 3 weitere externe
-Juryberichte destilliert + Refuter-verifiziert (established) — **luks-sursee-schwyzermatt**
+Stand: 25.07.2026 (Etappe 3, **Baustein B2/B3 Healthcare Tranche 3 — Healthcare B3 nun 8/8,
+damit B3-Ziel erreicht:** 2 weitere externe Juryberichte destilliert + Refuter-verifiziert
+(established) — **universitaetsspital-basel-klinikum-2** (spital-klinik, Erneuerung Klinikum 2
+USB 2013, Sieger «Arcadia», giuliani.hönger/Caretta+Weidmann; Refuter fand ~20 systematisch
+verschobene Seitenzitate bei Kazwei/The Edge/Wallace — Bild- statt Fliesstextseite — und
+korrigierte per Footer-Marker-Abgleich), **alters-pflegezentrum-widnau** (pflegeheim-
+alterszentrum, Schlussbericht Studienauftrag 2017, empfohlenes Projekt Cukrowicz Nachbaur
+Architekten Bregenz, kein klassisches Rangsystem sondern einstimmige Empfehlung aus 7 gleich
+entschaedigten Teams; Refuter korrigierte 7 Stellen inkl. einer erfundenen Rollenbezeichnung und
+mehrerer Seiten-Drifts). Workflow-Pipeline 1 Extraktion (Sonnet, Agent-Tool statt Workflow-Tool
+da Workflow-Review im headless Lauf nicht bestaetigbar war) → 1 Refuter (Hauptmodell), 4 Agenten/
+0 Fehler. **Healthcare B3 8/8 — Naechste Zelle: Healthcare B4 (Muster-Synthese
+jury-argumente-healthcare, neu anzulegen).** — vorher 25.07.2026 (Etappe 3, **Baustein B2/B3
+Healthcare Tranche 2**: 3 weitere externe Juryberichte destilliert + Refuter-verifiziert
+(established) — **luks-sursee-schwyzermatt**
 (spital-klinik, Neubau Kantonsspital Sursee, zweistufig 2024/2025, Sieger «Feld und Flur»,
 Fischer Architekten), **alterswohnen-taegermoos-kuesnacht** (alterswohnen, Sieger
 «Kassiopeia», neff neumann), **haus-der-demenz-bombach-zuerich** (pflegeheim/Demenz-Sondertyp,
@@ -98,7 +111,7 @@ Teil 2 Rang-Klaerung UND Teil 3 Muster-Verdichtung, siehe `training/PROGRAMM.md`
   `grobkosten-onepager` (JANS-Grobkosten-Vorlagen). **Erfuellt den letzten offenen
   Endbedingung-Punkt Etappe 2** (Bild-Katalog indexiert).
 
-## Externe Referenz-Juryberichte (wiki/extern/) — 23/23 established (Schulbau) + 6/8 established (Healthcare)
+## Externe Referenz-Juryberichte (wiki/extern/) — 23/23 established (Schulbau) + 8/8 established (Healthcare, B3-Ziel erreicht)
 
 Healthcare (Alters-/Pflege-/Gesundheitsbau), alle established: kantonsspital-aarau-ksa (spital-klinik,
 Sieger «Dreiklang»), alterszentrum-sihlsana-adliswil (pflegeheim, Sieger «SOPHIE»),
@@ -108,8 +121,14 @@ korrigierte HOSPES/Vincent-Misattribution + Seiten-/Titel-Drift), alterswohnen-t
 (betreutes Alterswohnen, Sieger «Kassiopeia», neff neumann architekten; refuter-verifiziert
 25.07.2026 direkt aus der Grundwahrheit, da das Erst-Destillat wegen NAS-Mount-Abbruch nie
 geschrieben worden war), haus-der-demenz-bombach-zuerich (pflegeheim/Demenz-Sondertyp, Sieger
-«ERIKA», ARGE Joos & Mathys mit Schmid Schaerer; refuter fehlerfrei bestanden). Offen fuer
-B3-Ziel 8/8: 2 weitere Kandidaten aus der B1-Reserveliste (Subtyp-Spreizung gemischt/reha-Luecke).
+«ERIKA», ARGE Joos & Mathys mit Schmid Schaerer; refuter fehlerfrei bestanden),
+universitaetsspital-basel-klinikum-2 (spital-klinik, Erneuerung Klinikum 2 USB 2013, Sieger
+«Arcadia», giuliani.hönger/Caretta+Weidmann; refuter korrigierte ~20 systematisch verschobene
+Seitenzitate bei drei Projektwuerdigungen), alters-pflegezentrum-widnau (pflegeheim-alterszentrum,
+Schlussbericht Studienauftrag 2017, empfohlenes Projekt Cukrowicz Nachbaur Architekten Bregenz,
+kein Rangsystem sondern einstimmige Empfehlung; refuter korrigierte 7 Stellen). **B3-Ziel 8/8
+erreicht — naechste Zelle Healthcare B4 (Muster-Synthese jury-argumente-healthcare, neu
+anzulegen).**
 
 Schul-/Bildungsbau 2012–2026: bruehl-solothurn, faellanden, froeschmatt-pratteln,
 heilpaedagogische-schule-bern, hinter-gaerten-riehen, kantonsschule-baden,

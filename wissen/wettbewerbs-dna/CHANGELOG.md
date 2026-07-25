@@ -1,5 +1,28 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-25 — Extern Healthcare Tranche 3: Jurybericht «Alters- und Pflegezentrum Widnau» (Schlussbericht Studienauftrag, 2017) destilliert + Refuter-verifiziert (established) — Healthcare B3 damit 8/8
+- Neuer Artikel `wiki/extern/jurybericht-alters-pflegezentrum-widnau.md` aus dem Volltext-Extrakt
+  `raw/extern-jurybericht-alters-pflegezentrum-widnau.txt` (pdftotext -layout, 63 S., espazium-S3).
+  Subtyp **pflegeheim-alterszentrum**. Kein klassischer offener Wettbewerb, sondern ein
+  selektiver Studienauftrag im Dialog mit Praequalifikation (SIA 143): 8 eingeladene Teams,
+  7 Eingaben, alle mit gleich hoher Pauschalentschaedigung (CHF 25'000.-- exkl. MWST), ohne
+  Preisrangliste — endet mit einer einstimmigen Empfehlung eines einzigen Projekts zur
+  Weiterbearbeitung statt mit 1./2./3.-Raengen.
+- **Empfohlenes Projekt:** Cukrowicz Nachbaur Architekten ZT GmbH, Bregenz — kompakter Solitaer
+  mit Sockel-Aufbau-Gliederung, kleine dezentrale Lichthoefe je Appartement statt eines grossen
+  zentralen Atriums.
+- **Refuter korrigierte 7 Stellen:** eine erfundene Rollenbezeichnung (Dr. Ruth Koeppel als
+  «Betriebsberatung» statt korrekt «Orgavisit, Rikon»), vier falsche Seitenangaben (materielle
+  Vorpruefung S. 10→11; Zwischenbesprechungs-Vorgaben Aussenraeume und Office/Tagescafé/
+  Speisesaal), sowie eine sachlich falsche Interpretation zur Kapitel-Reihenfolge (Sieger-Kapitel
+  bewusst vorangestellt laut Inhaltsverzeichnis, nicht "zufaellig" alphabetisch). Rund 50 uebrige
+  Seiten-/Zitatangaben (inkl. der vollstaendigen Sieger-Wuerdigung) stimmten wortgenau.
+- **DNA-Erkenntnis:** Bei Pflegebauten mit Demenzbezug sind grosse zentrale Atrien/Lichthoefe ein
+  wiederkehrend sanktionierter Risikofaktor (Brandschutz, Weglaufgefaehrdung, Wirtschaftlichkeit);
+  kleine dezentrale Lichthoefe je Appartement sind die durchgehend goutierte Alternative.
+- Status auf `established` gehoben, `last_updated` auf 2026-07-25 gesetzt. Damit Healthcare
+  B3-Ziel (8/8) erreicht — naechste Zelle B4 Muster-Synthese `jury-argumente-healthcare.md`.
+
 ## 2026-07-25 — Extern Healthcare Tranche: Jurybericht «Erneuerung Klinikum 2, Universitätsspital Basel» (2013) Refuter-verifiziert, ~20 Seitenzitate korrigiert (established)
 - Artikel `wiki/extern/jurybericht-universitaetsspital-basel-klinikum-2.md` gegen den Volltext-
   Extrakt `raw/extern-jurybericht-universitaetsspital-basel-klinikum-2.txt` (pdftotext -layout,
