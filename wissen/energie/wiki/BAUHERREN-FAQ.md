@@ -4602,15 +4602,43 @@ und wäre nur per Direktanfrage (versicherung@gvz.ch) abschliessend zu klären.
 Ja, aber freiwillig. Seit 1.1.2023 müssen Banken gemäss der SBVg-Selbstregulierung «Richtlinien für
 Anbieter von Hypotheken zur Förderung der Energieeffizienz» (Juni 2022) bei der Finanzierung
 selbstbewohnter EFH/Ferienhäuser die Energieeffizienz aktiv thematisieren — verpflichtet sind sie
-aber nicht zu einem Zinsrabatt. In der Praxis bietet laut IFZ-Hochschule-Luzern-«Sustainable Lending
-Monitor» 2024 (Sekundärquelle, 85 untersuchte Banken) rund ein Drittel (36,5 %) einen Zinsrabatt an,
-im Schnitt 0,38 Prozentpunkte. Primärquellen-Beispiel ZKB-Umweltdarlehen (Factsheet 2025): bis zu
-**−0,8 % p.a.** während max. 5 Jahren, Kriterium GEAK Klasse A (Neubau) bzw. GEAK Plus Klasse C plus
-eine Effizienzklassen-Verbesserung (Sanierung), Deckel CHF 250'000 (EFH) bzw. CHF 5 Mio. (MFH). Da
-für die kantonale Förderung ohnehin oft ein GEAK-Plus-Gutachten erstellt wird, lässt sich dieselbe
-Unterlage für den Bankantrag doppelt nutzen — beim eigenen Finanzierungspartner gezielt nachfragen,
-da die Marktbreite über das ZKB-Beispiel hinaus nicht primärquellengeprüft ist und jede Bank eigene
-Kriterien/Deckel setzt.
-→ `[[gruene-hypotheken-klimahypotheken-ch]]`. Datenstand 25.07.2026 (Run 95). Status **emerging**
-(SBVg-Rahmenregel und ZKB-Beispiel primärquellenbelegt, Marktüberblick nur sekundärquellig via IFZ-
-Studie, ZH/SZ-Marktbreite nicht flächendeckend geprüft).
+aber nicht zu einem Zinsrabatt. Der IFZ-Hochschule-Luzern-«Sustainable Lending Monitor» wurde jetzt
+im **Original** gelesen (Ausgabe 2023, 88 untersuchte Banken): rund **30 %** (26 Banken) bieten
+einen Zinsrabatt an, im Schnitt 0,38 Prozentpunkte (Bandbreite 0,25–0,8 Pp.); die Folgeausgabe 2024
+(85 Banken) nennt einen höheren Bankenanteil von 36,5 % bei derselben 0,38-Pp.-Durchschnittszahl —
+die beiden Jahrgänge nicht verwechseln. Acht konkrete Bankprodukte sind inzwischen belegt: ZKB
+Umweltdarlehen (bis **−0,8 % p.a.**, max. 5 Jahre, GEAK Klasse A Neubau bzw. GEAK Plus Klasse C plus
+Effizienzsprung Sanierung, Deckel CHF 250'000 EFH/CHF 5 Mio. MFH), UBS Hypothek Green (CHF 500
+Bonus statt %-Rabatt) und Hypothek Renovation (+0,30 %), Raiffeisenbank Aare-Reuss Eco-Hypothek
+(0,25 %), Migros Bank Eco-Vergünstigung (0,15–0,30 %), BEKB Hypothek GEAK/Minergie (unbezifferter
+«bevorzugter Zinssatz»), Luzerner Kantonalbank Energiespar-Hypothek plus (0,50 %) sowie ein
+sekundärquellig belegtes Beispiel der Schwyzer Kantonalbank (0,300 %). Da für die kantonale
+Förderung ohnehin oft ein GEAK-Plus-Gutachten erstellt wird, lässt sich dieselbe Unterlage für den
+Bankantrag doppelt nutzen — die exakten Konditionen vor Mandatsverwendung stets bei der jeweils
+finanzierenden Bank verifizieren, da sich Sätze/Deckel laufend ändern können.
+→ `[[gruene-hypotheken-klimahypotheken-ch]]`. Datenstand 25.07.2026 (Run 96). Status **established**
+(SBVg-Rahmenregel, IFZ-2023-Studie im Original und acht Bank-Beispiele primärquellenbelegt bzw.
+mehrheitlich primärquellenbelegt; SZKB bleibt sekundärquellig).
+
+### F133 — Lohnt sich eine Wärmerückgewinnung aus dem Duschwasser (Duschrinnen-WRG)?
+
+Ja, für praktisch jede ohnehin neu geplante Dusche. Eine Duschrinne mit integriertem
+Wärmetauscher (Schweizer Marktführer: Joulia, Biel/Bienne) gewinnt **13–46 %** der
+Duschwasser-Wärme zurück und kühlt dabei nichts als das abfliessende Wasser — ganz ohne Strom,
+nur über den Wasserdruck. Der Mehrpreis gegenüber einer normalen Duschrinne beträgt laut
+Hersteller nur rund **CHF 600.–**, bei einer Einsparung von rund 1'000 kWh/Jahr (4-Personen-
+Haushalt) amortisiert sich das in rund 3 Jahren — deutlich schneller als klassische
+Sanierungsmassnahmen wie Fenster- oder Dachsanierung. Offiziell anrechenbar ist die Massnahme
+gleich dreifach: bei der kantonalen Baubewilligung (EN-ZH) pauschal mit 10 % der Warmwasser-
+produktion ohne Produktnachweis, bei Minergie produktspezifisch mit bis zu 46 % (amtlich
+hinterlegtes Herstellerbeiblatt), und laut Sekundärquelle auch beim GEAK. Eine gesetzliche
+10 °C-Grenze für die einzelne, private Duschrinne gibt es entgegen einem verbreiteten Missver-
+ständnis nicht — diese Grenze betrifft nur die Dimensionierung grosstechnischer ARA-Anlagen, nicht
+den einzelnen Haushalt. Besonders relevant wird die Massnahme, je energieeffizienter das Gebäude
+ist: der Anteil der Warmwasserproduktion am Gesamtenergiebedarf steigt von rund 10 % bei
+Altbauten auf bis zu 73 % bei Minergie-P — dort wirkt eine Reduktion des Warmwasserbedarfs
+verhältnismässig stärker. Baulich zu beachten: Einbauhöhe 9–12 cm, nur für Duschen (nicht
+Badewannen) geeignet — früh mit dem Sanitärplaner abstimmen.
+→ `[[duschwasser-waermerueckgewinnung-joulia]]`. Datenstand 25.07.2026 (Run 96). Status
+**emerging** (Hersteller- und Minergie-Primärquelle vorhanden, Kosten-/Amortisationsangabe vom
+Hersteller selbst, nicht unabhängig geprüft; GEAK-Anrechnung nur sekundärquellig).

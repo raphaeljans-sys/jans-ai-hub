@@ -2,21 +2,27 @@
 quelle: Schweizerische Bankiervereinigung (SBVg) «Richtlinien für Anbieter von Hypotheken zur
   Förderung der Energieeffizienz» (Juni 2022, vollständig via curl+pdftotext gelesen, 6 S.);
   Zürcher Kantonalbank «Das ZKB Umweltdarlehen» Factsheet (Stand 2025, vollständig via
-  curl+pdftotext gelesen, 4 S.); Hochschule Luzern IFZ «Sustainable Lending Monitor 2024» (i.Z.m.
-  SIX, Web-Zusammenfassung); Deloitte Schweiz «Die SBVg-Richtlinie zum Thema Energieeffizienz bei
-  Hypotheken»; nachhaltigleben.ch «Grüne Hypothek Schweiz»
+  curl+pdftotext gelesen, 4 S.); Hochschule Luzern IFZ «Sustainable Lending Monitor 2023»
+  (Berchtold/Fister/Illi/Kraft, vollständig gelesen, S. 1-20) + «Sustainable Lending Monitor 2024»
+  (institutseigener Blog-Artikel des Erst-Autors, 19.05.2025, Zahlen bestätigt); Produktseiten
+  UBS (Hypothek Green, Hypothek Renovation), Raiffeisenbank Aare-Reuss (Eco-Hypothek), Migros Bank
+  (Eco-Vergünstigung), BEKB (Hypothek GEAK/Minergie), Luzerner Kantonalbank (Energiespar-Hypothek
+  plus), moneyland.ch (Schwyzer Kantonalbank Nachhaltigkeits-Bonus, Sekundärquelle)
 herausgeber: Schweizerische Bankiervereinigung (SBVg) / Zürcher Kantonalbank / Hochschule Luzern
-  IFZ / Deloitte Schweiz
+  IFZ / UBS / Raiffeisen / Migros Bank / BEKB / Luzerner Kantonalbank / moneyland.ch
 ausgabe: SBVg-Richtlinien Juni 2022 (in Kraft seit 1.1.2023); ZKB-Factsheet Stand 2025; IFZ
-  Sustainable Lending Monitor 2024
+  Sustainable Lending Monitor 2023 (Original) + 2024 (Blog-bestätigt); Bank-Produktseiten Stand
+  2026
 gelesen: 2026-07-25
-datenstand: 2026-07-25 (SBVg-Richtlinientext im Volltext primärquellenverifiziert; ZKB-Konditionen
-  Factsheet-Stand 2025, Zinssätze «derzeit max. 0,8 %» ausdrücklich als veränderlich markiert;
-  IFZ-Marktzahlen Stand 2024, nicht selbst nachgerechnet, aus Web-Zusammenfassung übernommen)
-status: emerging (SBVg-Rahmenregel + ein Bank-Beispiel primärquellenbelegt; Marktüberblick über
-  mehrere Banken nur aus Sekundärquelle, keine Breite/Vollständigkeit der Bankenlandschaft ZH/SZ
-  geprüft; steuerliche/hypothekarrechtliche Einordnung offen)
-last_updated: 2026-07-25
+datenstand: 2026-07-25 (SBVg-Richtlinientext + IFZ-2023-Studie im Volltext primärquellenverifiziert;
+  ZKB-Konditionen Factsheet-Stand 2025, Zinssätze «derzeit max. 0,8 %» ausdrücklich als veränderlich
+  markiert; IFZ-2024-Marktzahlen über institutseigenen Blog des Erst-Autors bestätigt, nicht direkt
+  aus dem 2024er-PDF selbst (Formular-Download); sieben weitere Bank-Beispiele primärquellenbelegt,
+  SZKB nur sekundärquellig)
+status: established (SBVg-Rahmenregel, IFZ-2023-Studie im Original UND acht konkrete
+  Bank-Beispiele primärquellenbelegt — Marktbreite jetzt über ZKB hinaus verifiziert; einzig SZKB
+  bleibt sekundärquellig, steuerliche/hypothekarrechtliche Einordnung weiterhin offen)
+last_updated: 2026-07-25 (Run 96: IFZ-Original 2023 gelesen, sieben weitere Bank-Beispiele ergänzt)
 ---
 
 # Grüne Hypotheken / Klimahypotheken Schweiz — Zinsanreize für Energieeffizienz
@@ -84,22 +90,51 @@ GEAK-/GEAK-Plus-Ausweis oder ein Minergie-Zertifikat eine energetische Mindestqu
   das ohnehin für die kantonale Förderung (Kt. ZH/SZ, s. `[[geak-gebaeudeenergieausweis-kantone]]`)
   erstellt wird — ein Gutachten, zwei Nutzenkanäle (Förderbeitrag + Zinsrabatt).
 
-## 3. Marktüberblick (Sekundärquelle, nicht selbst verifiziert)
+## 3. Marktüberblick — IFZ-Studie im Original + acht Bank-Beispiele (Run 96, 2026-07-25)
 
-- **IFZ Hochschule Luzern, «Sustainable Lending Monitor 2024»** (i.Z.m. SIX, Web-Zusammenfassung,
-  nicht im Original gelesen): von 85 untersuchten Schweizer Banken führten **36,5 %** eine grüne
-  Hypothek im Sortiment; durchschnittliche Zinsreduktion **0,38 Prozentpunkte** (Median 0,35),
-  durchschnittliche Maximallaufzeit **9,5 Jahre** (Median 10), durchschnittlicher
-  Maximalbetrag **CHF 965'000** (Median CHF 625'000). Für grüne Renovationskredite separat:
-  Zinsreduktion ⌀ 0,44 Prozentpunkte, Maximallaufzeit ⌀ 7,5 Jahre, Maximalbetrag ⌀ CHF 615'000.
-- Weitere in Sekundärquellen genannte Anbieter mit vergleichbaren Produkten: Urner Kantonalbank
-  (Energie-/Sanierungshypothek), Berner Kantonalbank (GEAK-/Minergie-Bezug), Luzerner
-  Kantonalbank (Energiespar-Hypothek), Thurgauer Kantonalbank (Energie-Hypothek), Zurich Invest
-  (seit 2026 Zinsvorteil an GEAK-Anlehnung) — **Konditionen dieser Anbieter nicht primärquellen-
-  geprüft**, nur namentlich in Sekundärquellen erwähnt.
+**IFZ Sustainable Lending Monitor, zwei Jahrgänge — beide primärquellenbelegt, nicht vermischen:**
+
+- **2023-Ausgabe (Original-PDF vollständig gelesen, hslu.ch):** 88 untersuchte Banken, davon
+  **26 Banken (≈ 30 %)** mit total 42 nachhaltigen Immobilienfinanzierungsprodukten. Grüne
+  Hypothek: Zinsreduktion ⌀ **0,38 Prozentpunkte** (Median 0,30), Höchstlaufzeit ⌀ 8,5 Jahre
+  (Median 10), Maximalbetrag ⌀ CHF 946'000 (Median CHF 750'000). Grüner Renovationskredit:
+  Zinsreduktion ⌀ 0,32 Pp. (Median 0,40), Höchstlaufzeit ⌀ 9 Jahre, Maximalbetrag ⌀ CHF 554'000
+  (Median CHF 250'000). Bandbreite gesamt 0,25–0,8 Prozentpunkte (deckt sich mit einer
+  WWF/Inrate-Studie 2016: 0,125–0,8 Pp.). Kreditbedingung/Messinstrument: Minergie (von allen
+  Banken akzeptiert), GEAK (rund drei Viertel akzeptieren ihn).
+- **2024-Ausgabe (institutseigener Blog des Erst-Autors, 19.05.2025, bestätigt):** 85 untersuchte
+  Banken, **36,5 %** mit grüner Hypothek im Sortiment. Grüne Hypothek: Zinsrabatt ⌀ **0,38
+  Prozentpunkte** (Median 0,35), Höchstlaufzeit ⌀ 9,5 Jahre (Median 10), Maximalbetrag ⌀
+  CHF 965'000 (Median CHF 625'000). Grüner Renovationskredit: Zinsrabatt ⌀ 0,44 Pp. (Median 0,35),
+  Höchstlaufzeit ⌀ 7,5 Jahre, Maximalbetrag ⌀ CHF 615'000.
+- **Wichtig für Zitate:** die 0,38-Prozentpunkte-Zahl für die grüne Hypothek gilt für BEIDE
+  Jahrgänge, aber der Bankenanteil unterscheidet sich (2023: ≈ 30 % von 88; 2024: 36,5 % von 85)
+  — beim Zitieren immer das Studienjahr nennen.
+
+**Acht konkrete Bank-Produkte (sieben primärquellenbelegt, eines sekundärquellig):**
+
+| Bank/Produkt | Zinsrabatt | Bedingung | Deckel/Laufzeit |
+|---|---|---|---|
+| ZKB Umweltdarlehen | bis −0,8 % p.a., max. 5 J. | GEAK A Neubau / GEAK Plus C + Effizienzsprung Sanierung | CHF 250k EFH / 5 Mio. MFH |
+| UBS Hypothek Green | kein %-Rabatt, CHF 500 KeyClub-Bonus | GEAK/Minergie Klasse A/B, ≤10 J. alt | k.A. |
+| UBS Hypothek Renovation (Öko-Bonus) | +0,30 % zusätzlich | Minergie-Zertifikat oder GEAK A/B nach Renovation | k.A. |
+| Raiffeisenbank Aare-Reuss Eco-Hypothek | 0,25 % (Neuhypothek) | Minergie, GEAK A/B Neubau bzw. C/D Altbau, oder fossil→erneuerbar-Umstieg, oder PV/Solarthermie | Zertifikat max. 5 J. alt |
+| Migros Bank Eco-Vergünstigung | 0,15 % (5 J.), 0,30 % bei Erstkauf/Bankwechsel | GEAK A/B (C bei Bauten vor 2000) oder Minergie | + Rückerstattung GEAK/Minergie-Kosten bis CHF 2'000 |
+| BEKB Hypothek GEAK/Minergie | "bevorzugter Zinssatz" (kein %-Wert publiziert) | GEAK-Verbesserung ≥2 Kategorien bzw. Neubau GEAK A/Minergie, ≤2 J. alt | CHF 100k–1 Mio. |
+| LUKB Energiespar-Hypothek plus | 0,50 % | Minergie/GEAK AAA/SNBS Neubau; ≥60 % energetische Sanierung | CHF 250k EFH / 500k MFH |
+| Schwyzer KB Nachhaltigkeits-Bonus (nur sekundärquellig, moneyland.ch) | 0,300 % | nicht spezifiziert in der gesichteten Quelle | max. CHF 500k |
+
+PostFinance führt kein eigenes grünes Hypothekarprodukt, vermittelt aber über die Plattform
+Valuu u.a. die auf Nachhaltigkeit spezialisierte Alternative Bank Schweiz (ABS). Raiffeisen ist
+genossenschaftlich mit rund 200 Regionalbanken organisiert — das Aare-Reuss-Beispiel gilt nicht
+zwingend für jede Raiffeisenbank.
+
 - **GEAK und Minergie sind branchenweit die faktischen Referenzstandards**, aber es gibt laut
   IFZ-Studie **keine einheitliche Definition** von «grün» zwischen den Banken — jede Bank legt
-  eigene Schwellen fest (Beispiel ZKB: Klasse A Neubau / Klasse-C-plus-Sprung Renovation).
+  eigene Schwellen fest.
+- **Keine gesamtschweizerische Vergleichstabelle mit Prozentzahlen:** moneypark.ch, hausinfo.ch
+  und nachhaltigleben.ch nennen Anbieter, verweisen aber wegen fehlender Standardisierung auf die
+  Direktanfrage bei der Bank.
 
 ## Bauherren-Transfer
 
@@ -129,15 +164,22 @@ GEAK-/GEAK-Plus-Ausweis oder ein Minergie-Zertifikat eine energetische Mindestqu
 
 ## Offene Punkte
 
-- Marktbreite über ZKB hinaus nicht primärquellengeprüft (Urner/Berner/Luzerner/Thurgauer
-  Kantonalbank nur sekundärquellig erwähnt, keine Factsheets gelesen) — für ein konkretes Mandat
-  vor Empfehlung die aktuellen Konditionen bei der jeweils finanzierenden Bank verifizieren.
+- **Schwyzer Kantonalbank:** Nachhaltigkeits-Bonus (0,300 %) nur über moneyland.ch (Vergleichsportal,
+  keine Bank-Primärquelle) belegt; die SZKB-eigene Produktseite nennt kein eigenständiges
+  «Umwelthypothek»-Label — vor Mandatsverwendung direkt bei der SZKB verifizieren.
+- IFZ-2024-PDF selbst nur über ein Formular auf hub.hslu.ch beziehbar; für Zitate mit exakter
+  Seiten-/Tabellenangabe das 2024er-Original per Formular beschaffen (2023er-Original bereits
+  vollständig gelesen und oben zitiert).
+- UBS Hypothek Energy (Heizungsersatz/Solar/PV) nennt auf der Produktseite nur «attraktive
+  Zinskonditionen» ohne bezifferten Wert.
+- Raiffeisen: Konditionen gelten für Raiffeisenbank Aare-Reuss; andere der rund 200
+  Raiffeisen-Regionalbanken können abweichen — für eine generelle «Raiffeisen»-Aussage wäre eine
+  Abfrage bei Raiffeisen Schweiz (Verband) sauberer.
+- Urner Kantonalbank und Thurgauer Kantonalbank werden bei nachhaltigleben.ch namentlich als
+  Anbieter genannt, aber noch nicht mit eigener Primärquelle/Konditionen verifiziert.
 - Steuerliche Behandlung des Zinsrabatts (z.B. Eigenmietwert-/Schuldzinsabzug-Interaktion) nicht
   recherchiert.
 - Keine Aussage zu STWEG-Gemeinschaftskrediten (Erneuerungsfonds-Finanzierung) — nur
   Einzeleigentum/EFH/MFH-Gesamtfinanzierung betrachtet.
-- IFZ-Sustainable-Lending-Monitor-Zahlen aus Web-Zusammenfassung übernommen, nicht am
-  Originalbericht verifiziert; für einen belastbaren Marktüberblick den Originalbericht (IFZ/HSLU,
-  ggf. kostenpflichtig) beschaffen.
 - Aktualität der ZKB-Zinssätze: Factsheet nennt «derzeit max. 0,8 %» ausdrücklich als variabel —
   vor Mandatsverwendung aktuellen Satz bei ZKB verifizieren.

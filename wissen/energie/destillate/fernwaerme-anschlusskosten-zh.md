@@ -530,6 +530,38 @@ Läufe: bei der `?id=`-Pricing-Route **kein** `HX-Request`-Header setzen (Gegent
 `?q=`-Suchroute); zeigt die Seite trotz "möglich"+"geplant" keinen Preis, im Text nach "Aufgrund
 der Objektgrösse" suchen, bevor ein Tool-Fehler vermutet wird.
 
+### Vertiefung 25.07.2026 (Run 96): Objektgrössen-Schwelle weiter eingegrenzt auf ca. 290–303 kW
+
+Statt weiter Strassen "blind" durchzuprobieren wurden gezielt reale Grossobjekte (Schulen,
+Alters-/Pflegeheime, Kirchgemeindehäuser, Gemeindeverwaltung, Hotel, Genossenschaftswohnungen) in
+Pfäffikon SZ, Galgenen, Siebnen, Lachen und Schübelbach getestet. Neuer, sehr sauberer
+Verweigerungs-Fall: **Tertianum Residenz Huob, Huobstrasse 3/5, 8808 Pfäffikon SZ** (Alterswohnen
+mit Pflege-/Demenzabteilung, 67 Appartements + 21 Pflegezimmer, Objekt-IDs 190060916/190188702)
+zeigt die Objektgrössen-Verweigerung bereits bei CO2-Wert 122,9 t/Jahr → geschätzt **≈ 303 kW**
+(CO2-Proxy-Formel kW ≈ CO2 ÷ 0,405) — deutlich tiefer als der bisher tiefste bekannte
+Verweigerungsfall (Churerstrasse 100 Pfäffikon SZ, ≈ 407 kW). Kontrollpunkte an derselben
+Strasse: Huobstrasse 10 funktioniert noch (≈ 278 kW, CHF 181'000), Huobstrasse 11 (≈ 220 kW,
+CHF 157'500) — die Verweigerung setzt also zwischen rund 278 und 303 kW ein.
+
+**Fenster damit von 290–407 kW auf ca. 290–303 kW geschrumpft** (rund 13 kW statt vorher 117 kW,
+eine Reduktion um rund 90 %). Weiterer Beleg ausserhalb des Fensters: Wohn- und Pflegezentrum
+Stockberg, Stockbergstrasse 9, Siebnen (CO2 268,5 t/Jahr, verweigert, ≈ 663 kW) — dritter
+unabhängiger Beleg, dass Alters-/Pflegeheime als Gebäudetyp praktisch durchgehend deutlich
+oberhalb der Verweigerungsschwelle liegen.
+
+**Reglements-Check (negativ, PDFs vollständig geprüft):** "Technische Anschlussbedingungen (TAB)
+für die Abgabe von Fernwärme", Version 1.8, 01.10.2025 (Abschnitt 3.1 "Anschlussleistung" regelt
+nur die technische Plombierung des Durchflussbegrenzers, keine Zahl) sowie AGB V5.0
+(Ziff. 2.4.1: Investitionsbeitrag "bemisst sich nach der Leistung (kW) des Anschlusses", aber
+ohne Formel oder Schwellenwert) — **kein publiziertes Dokument erklärt oder beziffert die
+Verweigerungsschwelle**, sie bleibt eine reine Rechner-interne Kalkulationsgrenze des
+Tool-Anbieters (abonax/evus), nicht im Vertragswerk verankert. Eine autoritative Zahl liesse
+sich nur per Direktanfrage bei EASZ (info@energie-ausserschwyz.ch) beschaffen.
+
+**Bauherren-Einordnung präzisiert:** ab rund **300 kW** Anschlussleistung ist im
+Versorgungsgebiet Energie Ausserschwyz mit einer Objektgrössen-Verweigerung des Online-Rechners
+zu rechnen — nicht erst ab 400 kW wie bisher dokumentiert.
+
 ### Vertragsdauer und Kündigungsfrist — die drei SZ-Fernwärme-Verbünde (Primärquellen 17.07.2026)
 
 **Agro Energie Schwyz AG** ("Reglement für die Abgabe von Fernwärme", Ausgabe 31.07.2022, Art. 5
@@ -648,14 +680,14 @@ CHF 606/kW zusätzlich (jetzt bis 202 kW mit 31 Stützpunkten dicht verifiziert 
 gemeindeübergreifend identisch bestätigt — Pfäffikon/Siebnen/Galgenen liefern beim selben kW-Wert
 exakt denselben Preis, d.h. objektiv eine echte, ortsunabhängige Tarifstaffel, auch für
 Grossobjekte/Pflegeheim-Grössenordnung belastbar). Ein Einzelpunkt bei 290 kW weicht ca. 10 % nach
-unten ab und bleibt Ausreisser; ab einer jetzt eingegrenzten Grössenschwelle (nachweislich zwischen
-290 kW, dem höchsten bepreisten Fall, und rund 407 kW, dem tiefsten verweigerten Fall — Fenster ca.
-117 kW, CO2-Proxy-Methode, Run 85 23.07.2026, siehe Abschnitt "Vertiefung 23.07.2026 (Run 85)"
-oben) verweigert der Rechner die automatische Preisindikation ganz und verweist auf eine
-Individualofferte — bei einem grossen Bauherren-Objekt (Pflegeheim, grössere Überbauung) im
-March-/Höfe-Gebiet ab rund 300–400 kW Anschlussleistung deshalb frühzeitig eine Individualofferte
-bei Energie Ausserschwyz einholen, statt sich auf den Online-Rechner zu verlassen. Bei der
-Vertragsdauer bestehen
+unten ab und bleibt Ausreisser; ab einer jetzt eng eingegrenzten Grössenschwelle (nachweislich
+zwischen 290 kW, dem höchsten bepreisten Fall, und rund 303 kW, dem tiefsten verweigerten Fall —
+Fenster nur noch ca. 13 kW, CO2-Proxy-Methode, Run 96 25.07.2026, siehe Abschnitt "Vertiefung
+25.07.2026 (Run 96)" oben) verweigert der Rechner die automatische Preisindikation ganz und
+verweist auf eine Individualofferte — bei einem grossen Bauherren-Objekt (Pflegeheim, grössere
+Überbauung) im March-/Höfe-Gebiet ab rund **300 kW** Anschlussleistung deshalb frühzeitig eine
+Individualofferte bei Energie Ausserschwyz einholen, statt sich auf den Online-Rechner zu
+verlassen. Bei der Vertragsdauer bestehen
 deutliche Unterschiede: Energie Ausserschwyz bindet **fest auf 20 Jahre** (danach automatische
 Verlängerung um je 5 Jahre, Ausstieg mit 1 Jahr Frist gegen Nachzahlung), Agro Energie Schwyz legt
 die Dauer individuell in der Offerte fest (Ausstieg mit 2 Jahren Frist gegen Nachzahlung), bei
@@ -748,12 +780,15 @@ Nutzungsdauer des Gebäudes abgleichen.
   sobald das Tool wieder stabil antwortet.
 - Herkunft/Methodik der bereits in der KB vorhandenen EnergieSchweiz-4'940-CHF-Zahl nicht bis auf
   Eingabeprofil zurückverfolgt.
-- **Neu 23.07.2026 (Run 85): Objektgrössen-Schwelle auf 290–407 kW eingegrenzt, exaktes 10-kW-
-  Fenster nicht erreicht.** Trotz rund 90 gezielter zusätzlicher Adressabfragen im vermuteten
-  Übergangsbereich (Pfäffikon SZ, Freienbach, Siebnen, Lachen SZ) lag kein reales Objekt genau
-  zwischen 290 kW (bepreist) und 407 kW (verweigert) — bleibt offen für einen künftigen Lauf,
-  idealerweise mit funktionierendem Overpass-Zugriff (siehe Werkzeug-Grenze unten) oder einer
-  direkten Nachfrage bei Energie Ausserschwyz nach dem effektiven Schwellenwert.
+- ~~Neu 23.07.2026 (Run 85): Objektgrössen-Schwelle auf 290–407 kW eingegrenzt, exaktes 10-kW-
+  Fenster nicht erreicht.~~ **Weiter eingegrenzt Run 96 (25.07.2026):** gezielte Abfrage realer
+  Grossobjekte (Alters-/Pflegeheime, Schulen) statt Strassenlisten-Rätselraten fand mit Tertianum
+  Residenz Huob (Huobstrasse 3/5, Pfäffikon SZ) einen neuen Verweigerungsfall bei nur ≈ 303 kW —
+  das Fenster schrumpft von 290–407 kW auf **ca. 290–303 kW** (rund 13 kW statt 117 kW). Kein
+  publiziertes Reglement (TAB V1.8 + AGB V5.0, beide vollständig geprüft) beziffert die Schwelle —
+  bleibt reine Tool-interne Logik. Eine letzte Verengung auf < 10 kW bzw. eine autoritative Zahl
+  wäre nur per Direktanfrage bei EASZ (info@energie-ausserschwyz.ch) erreichbar — kein weiterer
+  automatischer Rechercheaufwand hier sinnvoll.
 - **Datenqualitäts-Flag (23.07.2026, nicht verifiziert):** Etzelstrasse 103, Pfäffikon SZ zeigte
   am 23.07.2026 CHF 21'300 (10-kW-Stufe) statt der am 20.07.2026 (Run 82) dokumentierten CHF 59'200
   (50-kW-Stufe) unter identischer Adresse/ID (191644161). Ursache ungeklärt (Verwechslung in Run 82

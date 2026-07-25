@@ -1125,3 +1125,30 @@ Verfahrensstand unverändert. FAQ-Stand jetzt **F1–F105**. Details: `outputs/2
   (Direktanfrage nötig), Massivbau-Bauteildatenblatt mit vollem Schichtplan, SNR 464022 Rest-51-
   Seiten, Marktbreite grüne Hypotheken über ZKB-Beispiel hinaus (IFZ-Studie im Original beschaffen),
   WP-Grenzabstand-Subsumtion für Kt. Schwyz weiterhin ganz ohne Präzedenzfall.
+
+
+- **D66 (Run 96, 2026-07-25)** — PDF-Inventar weiterhin erschöpft. Vier parallele Agenten arbeiten
+  die «Nächster Lauf»-Priorität aus Run 95 ab. **Massivbau-Bauteildatenblatt gefunden:** zwei
+  Herstellerquellen (KSV Kalksandstein 04.2015, swisspor Backstein 06/2022) liefern je einen
+  vollständigen Kompaktfassaden-Schichtaufbau (Tragwerk+Dämmung+Putz) mit U-Wert-Staffelung
+  0.36→0.13 W/m²K → `[[massivbau-bauteildatenblatt-ksv-swisspor]]` (neu, established für
+  Schichtaufbau/U-Wert; CHF/m²-Kennwert bestätigter Negativbefund, keine Primärquelle gefunden).
+  **Grüne Hypotheken vertieft:** IFZ Sustainable Lending Monitor 2023 im Volltext gelesen
+  (26/88 Banken ≈ 30 %, 0,38 Pp. Zinsrabatt), 2024-Ausgabe über Institutsblog bestätigt (36,5 %
+  von 85, dieselbe 0,38-Pp.-Zahl — Jahrgänge nicht verwechseln); sieben weitere Bankprodukte
+  ergänzt (UBS, Raiffeisen Aare-Reuss, Migros Bank, BEKB, LUKB primärquellenbelegt, SZKB nur
+  sekundärquellig) → `[[gruene-hypotheken-klimahypotheken-ch]]` auf established gehoben, FAQ F132
+  geschärft. **Fernwärme-Objektgrössenschwelle weiter eingegrenzt:** gezielte Abfrage realer
+  Grossobjekte (Alters-/Pflegeheime) statt Strassenlisten fand mit Tertianum Residenz Huob
+  (Pfäffikon SZ) einen neuen Verweigerungsfall bei ≈303 kW — Fenster schrumpft von 290-407 kW auf
+  **ca. 290-303 kW**; Reglements-Check (TAB V1.8 + AGB V5.0) bestätigt weiterhin keine publizierte
+  Formel → `[[fernwaerme-anschlusskosten-zh]]`. **Neues Thema freie Wahl (Lücken-Check bestätigt
+  unabgedeckt):** Wärmerückgewinnung aus Duschwasser (Joulia-Duschrinnen) — 13-46 % Wärmerück-
+  gewinnung, Mehrpreis ~CHF 600.-, Payback ~3 Jahre (Herstellerangabe), anrechenbar MuKEn/EN-ZH
+  (10 % pauschal) + Minergie (bis 46 %); keine 10°C-Gesetzesgrenze für Privathaushalte (nur
+  ARA-Dimensionierung) → `[[duschwasser-waermerueckgewinnung-joulia]]` (neu, emerging), FAQ **F133**
+  neu. FAQ-Stand: **133 Kernfragen (F1-F133) belegt.** B1-Konsolidierung und SIA-2024-Zwilling
+  weiterhin bewusst nicht angegangen (destruktiv, Rückfrage nötig). Neu offen: bauteilkatalog.ch
+  PRO-Zugang manuell verifizieren, Urner/Thurgauer Kantonalbank + SZKB primärquellig nachziehen,
+  SIA-385/2:2025-Endfassung zur Duschwasser-WRG-Methode verifizieren, WP-Grenzabstand-Subsumtion
+  für Kt. Schwyz weiterhin ganz ohne Präzedenzfall.

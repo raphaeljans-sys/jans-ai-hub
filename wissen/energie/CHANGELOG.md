@@ -2,6 +2,36 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 96: Massivbau-Bauteildatenblatt + grüne Hypotheken vertieft + Fernwärme-Schwelle enger + Duschwasser-WRG neu
+- **Massivbau-Bauteildatenblatt gefunden (löst Priorität aus Run 95):** KSV-Dokumentation
+  Kalksandstein (04.2015) + swisspor Planungsunterlagen Backstein (06/2022), beide vollständig
+  gelesen — je ein kompletter Kompaktfassaden-Schichtaufbau (Tragwerk+Dämmung+Putz) mit U-Wert-
+  Staffelung 0.36→0.13 W/m²K → `[[massivbau-bauteildatenblatt-ksv-swisspor]]` (neu, established
+  für Schichtaufbau/U-Wert). CHF/m²-Kennwert in keiner Primärquelle gefunden (bestätigter
+  Negativbefund, nur unbelegte Portal-Schätzungen CHF 85–260/m²).
+- **Grüne Hypotheken auf established gehoben:** IFZ Sustainable Lending Monitor 2023 im Original
+  gelesen (26/88 Banken ≈ 30 %, Zinsrabatt Ø 0,38 Pp.), 2024-Ausgabe über Institutsblog des
+  Erst-Autors bestätigt (36,5 % von 85 Banken, dieselbe 0,38-Pp.-Zahl — Jahrgänge nicht
+  verwechseln); sieben weitere Bankprodukte ergänzt (UBS Green/Renovation, Raiffeisenbank
+  Aare-Reuss, Migros Bank, BEKB, LUKB primärquellenbelegt; Schwyzer Kantonalbank nur
+  sekundärquellig via moneyland.ch) → `[[gruene-hypotheken-klimahypotheken-ch]]` established,
+  FAQ **F132** geschärft.
+- **Fernwärme-Objektgrössenschwelle weiter eingegrenzt:** gezielte Abfrage realer Grossobjekte
+  (Alters-/Pflegeheime, Schulen) statt Strassenlisten-Rätselraten findet mit Tertianum Residenz
+  Huob (Huobstrasse 3/5, Pfäffikon SZ) einen neuen Verweigerungsfall bei ≈303 kW — Fenster
+  schrumpft von 290–407 kW auf **ca. 290–303 kW** (rund 13 statt 117 kW); Reglements-Check (TAB
+  V1.8 + AGB V5.0, beide vollständig geprüft) bestätigt: keine publizierte Formel, reine
+  Tool-interne Logik → `[[fernwaerme-anschlusskosten-zh]]`.
+- **Neues Thema freie Wahl: Wärmerückgewinnung aus Duschwasser (Joulia-Duschrinnen):**
+  Lückencheck gegen die komplette Sperrliste bestätigt eine echte Lücke. Duschrinnen-WRG gewinnt
+  13–46 % der Duschwasserwärme zurück, Mehrpreis ~CHF 600.–, Payback ~3 Jahre (Herstellerangabe),
+  offiziell anrechenbar bei MuKEn/EN-ZH (10 % pauschal) und Minergie (bis 46 % produktspezifisch);
+  keine gesetzliche 10 °C-Grenze für die private Anwendung (nur ARA-Dimensionierungsgrundlage) →
+  `[[duschwasser-waermerueckgewinnung-joulia]]` (neu, emerging), FAQ **F133** neu.
+- FAQ-Stand: **F1–F133** (F133 neu, F132 geschärft). Register nachgeführt: `destillate/INDEX.md`
+  (vier Zeilen), `wiki/INDEX.md` (eine geschärft, zwei neu), `wiki/QUESTIONS.md` (Run 96),
+  `training/curriculum.md` (D66).
+
 ## 2026-07-25 — Run 95: WP-Grenzabstand vertieft + GVZ-Meldeprozess geklärt + E84 abgeschlossen + grüne Hypotheken neu
 - **WP-Aussengerät-Grenzabstand vertieft:** eigene Volltextsuche in der Entscheiddatenbank des
   Baurekursgerichts ZH (1'231 Entscheide) bestätigt den ZH-Negativbefund durch eigene Prüfung statt

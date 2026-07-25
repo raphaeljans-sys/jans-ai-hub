@@ -1394,3 +1394,49 @@ mit echten Umlauten (bewährtes Run-86-Muster gegen den Umlaut-Bug).
   zitierten Inhalte in SN 414022:2024 geändert haben, ist unbekannt (Norm selbst nicht beschafft).
   Electrosuisse-Broschüre «Photovoltaikanlagen — Erläuterungen zu SNR 464022» als möglicher
   weiterer Fund identifiziert, aber nicht beschafft.
+
+
+## Run 96 (2026-07-25) — vier parallele Rechercheagenten, Run-95-Prioritätenliste abgearbeitet
+
+- [x] **Massivbau-Bauteildatenblatt mit vollem Schichtplan gefunden** ✓ 2026-07-25: zwei
+  Herstellerquellen (KSV Kalksandstein 04.2015, swisspor Backstein 06/2022) liefern je einen
+  vollständigen Kompaktfassaden-Aufbau (Tragwerk+Dämmung+Putz) mit U-Wert-Staffelung 0.36→0.13
+  W/m²K → `[[massivbau-bauteildatenblatt-ksv-swisspor]]` (neu, established für Schichtaufbau/
+  U-Wert). CHF/m²-Kennwert bestätigter Negativbefund (keine Primärquelle, nur unbelegte
+  Portal-Schätzungen) — bleibt offen für eine belastbare Kostenschätzung.
+- [x] **Grüne Hypotheken: IFZ-Original beschafft + sieben weitere Bank-Beispiele** ✓ 2026-07-25:
+  IFZ Sustainable Lending Monitor 2023 im Volltext gelesen (26/88 Banken ≈ 30 %, 0,38 Pp.),
+  2024-Ausgabe über Institutsblog bestätigt (36,5 % von 85); UBS, Raiffeisen Aare-Reuss, Migros
+  Bank, BEKB, LUKB primärquellenbelegt, SZKB nur sekundärquellig (moneyland.ch) →
+  `[[gruene-hypotheken-klimahypotheken-ch]]` auf established gehoben, FAQ F132 geschärft.
+- [x] **Fernwärme Objektgrössen-Verweigerung weiter eingegrenzt** ✓ 2026-07-25: gezielte Abfrage
+  realer Grossobjekte (statt Strassenlisten) fand mit Tertianum Residenz Huob (Pfäffikon SZ)
+  einen neuen Verweigerungsfall bei ≈303 kW — Fenster schrumpft von 290-407 kW auf **ca. 290-303
+  kW**. Reglements-Check (TAB V1.8 + AGB V5.0) bestätigt: keine publizierte Formel, reine
+  Tool-Logik → `[[fernwaerme-anschlusskosten-zh]]`. Weitere Verengung nur per EASZ-Direktanfrage
+  sinnvoll — kein automatischer Rechercheaufwand mehr angezeigt.
+- [x] **Neues Thema freie Wahl: Duschwasser-Wärmerückgewinnung (Joulia)** ✓ 2026-07-25:
+  Lückencheck gegen die komplette Sperrliste bestätigt eine echte Lücke. Duschrinnen-WRG
+  gewinnt 13-46 % der Duschwasserwärme zurück, Mehrpreis ~CHF 600.-, Payback ~3 Jahre
+  (Herstellerangabe), anrechenbar MuKEn/EN-ZH (10 % pauschal) + Minergie (bis 46 %) →
+  `[[duschwasser-waermerueckgewinnung-joulia]]` (neu, emerging), FAQ **F133** neu.
+
+**Register nachgeführt:** `destillate/INDEX.md` (vier Zeilen neu/ergänzt), `wiki/INDEX.md`
+(gruene-hypotheken-Zeile geschärft, zwei neue Zeilen), `wiki/BAUHERREN-FAQ.md` (F132 geschärft,
+F133 neu), `training/curriculum.md` (D66 neu), `CHANGELOG.md`.
+
+**Bewusst nicht weiterverfolgt:** WP-Aussengerät-Grenzabstand SZ (weiterhin ganz ohne
+Präzedenzfall, bei konkretem Mandat Amtsanfrage empfehlen statt weiterer Pauschalrecherche);
+GVZ-Meldeprozess interne Praxis (nur per Direktanfrage klärbar); SNR 464022 Restseiten/
+Nachfolgenorm SN 414022:2024 (Kaufentscheid bei Raphael); B1-Konsolidierung + SIA-2024-Zwilling
+(destruktiv, Rückfrage nötig).
+
+**Nächster Lauf: Priorität**
+1. B1-Konsolidierung weiterhin Raphael vorlegen (nicht automatisch lösen).
+2. Massivbau-CHF/m²-Kennwert: bauteilkatalog.ch manuell mit echtem Login prüfen, ob die
+   Detailansicht ohne Speichern/Export tatsächlich frei zugänglich ist.
+3. Grüne Hypotheken: Urner Kantonalbank + Thurgauer Kantonalbank noch ohne eigene Primärquelle
+   verifizieren; SZKB-Angabe direkt bei der Bank bestätigen.
+4. Duschwasser-WRG: SIA-385/2:2025-Endfassung zur Berechnungsmethode verifizieren (nur
+   Vernehmlassungsstand 2023 bekannt); GEAK-Anrechnungsmechanik primärquellig belegen.
+5. Neue Themen-Recherche nach freier Wahl (PDF-Inventar bleibt erschöpft, Web-Pfad).
