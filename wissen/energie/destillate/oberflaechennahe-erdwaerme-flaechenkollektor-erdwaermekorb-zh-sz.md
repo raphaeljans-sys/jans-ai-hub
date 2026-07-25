@@ -2,10 +2,10 @@
 quelle: Kanton ZH AWEL «Oberflaechennahe Erdwaerme» + amtliches Gesuchsformular (Stand 6/2022, BVV Ziff. 5.6.2); EnergieSchweiz/BFE-Broschuere «Geothermie in der Schweiz» (via fws.ch); BFE «Umgebungswaerme» (01.04.2021); SIA 384/6:2021 «Erdwaermesonden»; geothermie-schweiz.ch; effiziente-waermepumpe.ch (DE-VDI-4640, nicht CH-amtlich); Run 87: AWP-Merkblatt T2 «Waermepumpenheizungsanlage mit horizontalen Erdkollektoren, Erdwaermekoerben und Kompaktkollektoren» (2007, zitiert in BAFU/FWS-Vollzugshilfe 2009) + Kt. SZ AfU Amtsseite «Waermenutzung» (Volltext via curl mit Browser-User-Agent)
 herausgeber: Kanton Zuerich (AWEL), Bundesamt fuer Energie / EnergieSchweiz, Kanton Schwyz (AfU), SIA, AWP (Arbeitsgemeinschaft Waermepumpen Schweiz)
 ausgabe: ZH-Formular 6/2022; EnergieSchweiz-Broschuere Datenstand bis 2015; SIA 384/6:2021 (in Kraft 01.05.2026); AWP-Merkblatt T2 (2007)
-gelesen: ZH-Gesuchsformular vollstaendig; EnergieSchweiz-Broschuere S. 1–20; Run 87 (2026-07-24): SZ-Amtsseite Volltext + AWP-Merkblatt T2 Kap. 5–6 gelesen
-datenstand: 2026-07-24 (ZH- UND SZ-Verfahren amtlich belegt; Entzugsleistung jetzt CH-fachverbandlich belegt, AWP-Merkblatt 2007 — kein aktuelleres Nachfolgedokument gefunden)
-status: established (Verfahren ZH+SZ amtlich belegt, Entzugsleistung CH-fachverbandlich belegt; CHF-Kosten und «Grabenkollektor»-Kategorie bleiben offen)
-last_updated: 2026-07-24
+gelesen: ZH-Gesuchsformular vollstaendig; EnergieSchweiz-Broschuere S. 1–20; Run 87 (2026-07-24): SZ-Amtsseite Volltext + AWP-Merkblatt T2 Kap. 5–6 gelesen; Run 91 (2026-07-25): acht weitere SZ-amtliche Dokumente (EGzGSchG, KWV, KWRG, KEnV, eBau-Anleitung, drei AfU-Praesentationen/-Antworten) per curl+pdftotext gezielt auf S1/S3-Aussagen geprueft
+datenstand: 2026-07-25 (ZH- UND SZ-Verfahren amtlich belegt; Entzugsleistung CH-fachverbandlich belegt; SZ-S1/S3-Negativbefund jetzt breiter abgestuetzt)
+status: established (Verfahren ZH+SZ amtlich belegt, Entzugsleistung CH-fachverbandlich belegt, SZ-S1/S3-Negativbefund abgeschlossen; CHF-Kosten und «Grabenkollektor»-Kategorie [Negativbefund] bleiben die einzigen offenen Punkte)
+last_updated: 2026-07-25
 ---
 
 # Destillat — Oberflächennahe Erdwärme ohne Tiefbohrung (Flächenkollektor / Erdwärmekorb / Energiepfahl) ZH+SZ
@@ -106,6 +106,32 @@ bestätigt:** die AfU-SZ-Amtsseite selbst äussert sich weiterhin nur zu S2, ein
 expliziter S1/S3-Aussage wurde trotz gezielter Suche nicht gefunden — Status daher **established** für
 die Bundesregel, **offen**, ob Kt. SZ 1:1 übernimmt oder abweicht.
 
+**Vertiefung Run 91 (2026-07-25) — SZ-eigenes Merkblatt gezielt gesucht, Negativbefund bestätigt und
+verbreitert.** Acht SZ-amtliche Dokumente per curl+pdftotext im Volltext durchsucht (AfU-
+Tagungspräsentation «Erdwärmenutzung — Oberflächen- und Tiefengeothermie im Kanton Schwyz»,
+31.05.2023; AfU-Schulung «Grundwasserschutz beim Bauen», Stand 22.10.2024; Regierungsratsantwort
+KA 37/19 «Erdsonden im Gewässerschutzbereich Au», 04.12.2019; eBau-Anleitung «Fachbereiche
+Grundwasserschutz und Erdwärmenutzung», Stand 06.03.2024; EGzGSchG SRSZ 712.110; KWV SRSZ 451.111;
+KWRG SRSZ 451.100; KEnV SRSZ 420.111) — **keines davon regelt S1/S2/S3 spezifisch für
+Flächenkollektoren/Erdwärmekörbe**; alle behandeln entweder Tiefengeothermie/Erdwärmesonden oder die
+generische Zonenausscheidung. Die AfU-Website-Formulierung («ausserhalb S2 grundsätzlich überall»)
+schliesst S1 implizit mit ein (S1 liegt geometrisch innerhalb S2) und deckt sich damit mit der
+Bundesregel für S1/S2; zu S3 macht die SZ-Seite **keine** eigene Aussage (weder Bestätigung noch
+Abweichung von der bundesrechtlichen Einzelfallbewilligung nach Art. 32 GSchV) — die Formulierung ist
+also nicht restriktiver als die Bundesregel, aber auch nicht präzisierend.
+
+Rechtsgrundlage der Zonenausscheidung selbst (nicht der materiellen Nutzungsregel je Anlagetyp):
+**EGzGSchG SRSZ 712.110, § 22** («Grundwasserschutzzonen — Zuständigkeit und Verfahren»: Gemeinderat
+scheidet in Zusammenarbeit mit Wasserversorgung und kantonaler Fachstelle aus) und **§ 29**
+(«Erhaltung des Grundwassers»: AfU als kantonale Gewässerschutzfachstelle erteilt Bewilligungen für
+Bauten in besonders gefährdeten Gewässerschutzbereichen nach Art. 19 GSchG) — beide primärquellen-
+verifiziert (PDF direkt von sz.ch), enthalten aber selbst keine S1/S2/S3-Differenzierung nach
+Anlagetyp. **Status bleibt established (negativ, jetzt breiter abgestützt):** kein SZ-eigenes
+Merkblatt mit abweichender S1/S3-Regel existiert — Punkt gilt als abgeschlossen, kein weiterer
+pauschaler Rechercheaufwand nötig; ein allfälliges kommunales Schutzzonenreglement (Musterreglement
+unter sz.ch, objektspezifisch) könnte im Einzelfall präzisere Auflagen enthalten und wäre nur
+projektbezogen zu prüfen.
+
 ## «Grabenkollektor» — Negativbefund bestätigt (Run 90, 2026-07-25)
 Der Begriff kommt in der amtlichen CH-Referenzquelle (BAFU/FWS 2009, 57 S., per Volltext-Grep geprüft)
 **kein einziges Mal** vor, ebenso wenig bei geothermie-schweiz.ch. Die Schweizer Amtsterminologie kennt
@@ -117,7 +143,8 @@ geklärt, kein weiterer Rechercheaufwand nötig.
 
 ## Offene Punkte
 - ZH-BVV-5.5.1-Zuordnung für Erdsonden nur Snippet.
-- SZ-spezifische S1/S3-Aussage (nur Bundesregel bestätigt, kein kantonales Merkblatt gefunden).
+- SZ-spezifische S1/S3-Aussage: acht amtliche SZ-Dokumente geprüft (Run 91), kein eigenes Merkblatt
+  gefunden — Negativbefund gilt als abgeschlossen, kein weiterer pauschaler Rechercheaufwand nötig.
 - Keine eigenständige SIA-Norm für flächige Systeme gefunden → Skill `normen` (nicht als «keine Norm»
   behaupten).
 - Kostenangabe CHF 30'000–40'000 ohne erkennbare Referenzgrösse (EFH-Fläche, Jahr).

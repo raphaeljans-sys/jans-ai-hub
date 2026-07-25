@@ -1250,3 +1250,32 @@ mit echten Umlauten (bewährtes Run-86-Muster gegen den Umlaut-Bug).
   GUSTAVO-Kanton ohne Versicherungsmonopol (privat organisiert), Brandschutzbewilligung bleibt
   trotzdem kantonal. Offen: ziffern-genaue VKF-/GVZ-Primärtexte (PDFs technisch nicht auslesbar
   gewesen), Batteriespeicher-Brandabschnitts-Schwellen (100 kWh/EI30/EI60) nur sekundärquellenbelegt.
+
+## Run 91 (2026-07-25) — vier parallele Rechercheagenten, drei Run-90-Prioritäten abgearbeitet
+
+- [x] **VKF-Blitzschutz-Ziffer ziffern-genau verifiziert** ✓ 2026-07-25: VKF-Brandschutzmerkblatt
+  «Solaranlagen» 2001-15de (Ausg. 01.01.2022) war entgegen der bisherigen Annahme technisch sehr wohl
+  per curl+pdftotext auslesbar (kein Scan) — Ziff. 3.1 Abs. 3 wörtlich zitiert und über zwei
+  unabhängige Spiegel (VKG-REST-API, GVL Luzern) sowie gegen die 2015er-Vorgängerfassung bestätigt →
+  `[[pv-blitzschutz-gebaeudeversicherung-ch]]` auf established gehoben, FAQ F118 geschärft. Offen
+  bleibt die referenzierte Richtlinie 22-15 selbst (Blitzschutzpflicht-Kriterien unabhängig von PV).
+- [x] **VKF-Batteriespeicher-Brandabschnitte korrigiert, nicht nur bestätigt** ✓ 2026-07-25: die
+  bisherige «100 kWh EI30/EI60»-Faustregel gilt nur für LFP-Speicher (VKF-FAQ 2005-01, Beschluss
+  09.09.2025); Standard-Lithium-Ionen/NMC (VKF-Brandschutzmerkblatt 2005-15de, Ausg. 01.06.2021) hat
+  eine strengere DREI-stufige Hazard-Level-Systematik (15/100-kWh-Schwellen, EI30/EI60/Aussenaufstellung)
+  → `[[pv-blitzschutz-gebaeudeversicherung-ch]]`, FAQ F118 weiter geschärft. Wichtige Korrektur, nicht
+  nur Bestätigung — die KB hätte sonst eine für NMC-Heimspeicher zu laxe Schwelle weitergetragen.
+- [x] **SZ-eigenes Merkblatt Erdwärme-Flächenkollektor S1/S3 gezielt gesucht** ✓ 2026-07-25: acht
+  amtliche SZ-Dokumente (Gesetzestexte EGzGSchG/KWV/KWRG/KEnV, Schulungsunterlagen, eBau-Anleitung,
+  Regierungsratsantwort) per curl+pdftotext durchsucht, keines regelt S1/S3 spezifisch für
+  Flächenkollektoren/Erdwärmekörbe → `[[oberflaechennahe-erdwaerme-flaechenkollektor-erdwaermekorb-zh-sz]]`
+  bleibt established, Negativbefund jetzt breiter abgestützt und als abgeschlossen markiert, FAQ F110
+  geschärft.
+- [x] **Fernwärme-Anschlusskosten SZ vertieft** ✓ 2026-07-25: Energie-Einsiedeln-Preisblatt 2026
+  gefunden (Arbeitspreis 11.19 Rp./kWh, −3 % ggü. 2025) — schliesst den bisherigen «kein Preisblatt
+  2026»-Negativbefund; Energie-Ausserschwyz-Genossenschaftsrabatt (CHF 350/Anteil, max. CHF 7'000)
+  neu belegt, aktuelles Text-Tarifblatt Ausserschwyz bleibt trotz erneuter Suche nicht auffindbar
+  (nur 2019er-Schätzung) → `[[fernwaerme-anschlusskosten-zh]]`.
+- **B1-Konsolidierung (destillate/INDEX.md-Dubletten) und SIA-2024-Gesundheitsbau-Zwilling bleiben
+  bewusst nicht angegangen** — beide destruktiv (Merge/Löschen), Rückfrage bei Raphael nötig (Rule
+  `wissens-bibliothekar`).

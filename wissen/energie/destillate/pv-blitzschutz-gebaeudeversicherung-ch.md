@@ -1,10 +1,10 @@
 ---
-quelle: swissolar.ch «Blitzschutz» (Anlagenbetrieb/Schutz vor Schäden) + amperio.ch «Blitzschutz bei Photovoltaikanlagen in der Schweiz» + gvb-privatversicherungen.ch Ratgeber «Photovoltaikanlage versichern» + gvz.ch (Versicherungsumfang, Formular «Anmeldung kleine Wertvermehrung») + VKF-Brandschutzmerkblatt Solaranlagen (gvl.ch-Spiegel, PDF nicht textuell auslesbar) + Swissolar STP-Update-News 14.02.2023 + de.wikipedia.org/GUSTAVO-Kantone + besser-versichert.ch «GUSTAVO-Kantone» + sz.ch (Brandschutz und Feuerpolizei, Brandschutzbewilligung) + Regierungsratsbeschluss Nr. 101/2020 SZ (sekundärzitiert) + VKF-Merkblatt Lithium-Ionen-Batterien 2005-15 (Existenz identifiziert, Inhalt nicht extrahiert) + siworks.ch «Batteriespeicher & Brandschutz» + die-agv.ch (Kt. Aargau, nur Trendindikator)
-herausgeber: Swissolar; amperio.ch (Fachfirma); Gebäudeversicherung Bern Privatversicherungen (GVB); Gebäudeversicherung Kanton Zürich (GVZ); VKF; Kanton Schwyz (Amt für Militär, Feuer- und Zivilschutz)
-ausgabe: diverse Web-Ratgeber/Amtsseiten, Abruf 2026-07-25; VKF-Merkblatt Solaranlagen PDF-Metadaten Erstellung 2022-04-12/letzte Änderung 2025-10-27
-gelesen: Web-Recherche 2026-07-25 (Sonnet-Rechercheagent, WebSearch/WebFetch)
+quelle: swissolar.ch «Blitzschutz» (Anlagenbetrieb/Schutz vor Schäden) + amperio.ch «Blitzschutz bei Photovoltaikanlagen in der Schweiz» + gvb-privatversicherungen.ch Ratgeber «Photovoltaikanlage versichern» + gvz.ch (Versicherungsumfang, Formular «Anmeldung kleine Wertvermehrung») + de.wikipedia.org/GUSTAVO-Kantone + besser-versichert.ch «GUSTAVO-Kantone» + sz.ch (Brandschutz und Feuerpolizei, Brandschutzbewilligung) + Regierungsratsbeschluss Nr. 101/2020 SZ (sekundärzitiert) + siworks.ch «Batteriespeicher & Brandschutz» + die-agv.ch (Kt. Aargau, nur Trendindikator) + Run 91 (2026-07-25): VKF-Brandschutzmerkblatt «Solaranlagen» 2001-15de (Ausgabe 01.01.2022, curl+pdftotext via services.vkg.ch + gvl.ch, gegengeprüft gegen Vorgängerfassung 20001-15de/2015 via assekuranz.ch) + VKF-Brandschutzmerkblatt «Lithium-Ionen-Batterien» 2005-15de (Ausgabe 01.06.2021, curl+pdftotext via bsvonline.ch) + VKF-FAQ 2005-01 «Lithium-Eisenphosphat-Batterien» (Beschlussdatum 09.09.2025)
+herausgeber: Swissolar; amperio.ch (Fachfirma); Gebäudeversicherung Bern Privatversicherungen (GVB); Gebäudeversicherung Kanton Zürich (GVZ); Vereinigung Kantonaler Feuerversicherungen (VKF); Kanton Schwyz (Amt für Militär, Feuer- und Zivilschutz)
+ausgabe: diverse Web-Ratgeber/Amtsseiten, Abruf 2026-07-25; VKF-Brandschutzmerkblatt Solaranlagen 2001-15de Ausgabe 01.01.2022; VKF-Brandschutzmerkblatt Lithium-Ionen-Batterien 2005-15de Ausgabe 01.06.2021; VKF-FAQ 2005-01 Beschlussdatum 09.09.2025
+gelesen: Web-Recherche 2026-07-25 (Sonnet-Rechercheagent, WebSearch/WebFetch); Run 91 (2026-07-25): drei VKF-Primärdokumente vollständig per curl+pdftotext gelesen
 datenstand: 2026-07-25
-status: emerging (Grundsätze established über mehrere übereinstimmende Quellen; PDF-Primärquellen VKF-Merkblatt + GVZ-Meldepflichtseite technisch nicht auslesbar gewesen — Ziffern-genaue Nachweise offen)
+status: established (Blitzschutz-Kernaussage und Batteriespeicher-Brandabschnittsschwellen jetzt ziffern-genau am VKF-Original verifiziert; GVZ-Prämienmechanik und VKF-Richtlinie 22-15 selbst bleiben offen)
 last_updated: 2026-07-25
 ---
 
@@ -33,9 +33,21 @@ private Feuerversicherung, kein Monopol) grundsätzlich unterschiedliche Versich
 - **VKF-Fachgrundlage:** Brandschutzvorschriften der Kantone + VKF gelten auch für Solaranlagen
   (Schutzziele Brandschutznorm 1-15), konkretisiert im «VKF Brandschutzmerkblatt Solaranlagen» bzw.
   im Swissolar-STP (Update 14.02.2023) → `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`.
-- **Offen (PDF technisch nicht auslesbar):** ein ziffern-genaues VKF-Zitat, das eine explizite
-  PV-Blitzschutz-PFLICHT (über die Integrationspflicht bei Bestand hinaus) begründet, wurde nicht
-  gefunden — bleibt offen für einen Lauf mit OCR-fähigem PDF-Zugriff.
+- **Ziffern-genau am VKF-Original verifiziert (Run 91, 2026-07-25):** VKF-Brandschutzmerkblatt
+  «Solaranlagen», Dok.-Nr. 2001-15de, Ausgabe 01.01.2022 (genehmigt VKF-Fachkommission Brandschutz
+  08.12.2021), Kap. 3.1 «Elektrische Gefahren» Abs. 3, S. 5 von 15 — wörtlich: *«Solaranlagen führen
+  zu keiner Blitzschutzpflicht sofern dies gemäss der VKF-Brandschutzrichtlinie 22-15 „Blitzschutz-
+  systeme" für dieses Gebäude nicht gefordert wird. Sind Blitzschutzsysteme vorhanden, ist die
+  Solaranlage in das Blitzschutzsystem zu integrieren. PV-Anlagen sind zusätzlich in das
+  Überspannungsschutzsystem einzubeziehen.»* Über zwei unabhängige, textidentische Spiegel verifiziert
+  (VKG-REST-API `services.vkg.ch`, GVL Luzern `gvl.ch`) sowie gegen die Vorgängerfassung (Dok.-Nr.
+  20001-15de, Ausgabe 06.03.2015, via assekuranz.ch) inhaltlich stabil bestätigt (2015er-Fassung nennt
+  zusätzlich SNR 464022/NIN 7.12.4.4 im selben Absatz). **Damit gilt:** massgebend dafür, OB ein
+  Gebäude überhaupt blitzschutzpflichtig ist, bleibt einzig die separate VKF-Brandschutzrichtlinie
+  22-15 «Blitzschutzsysteme» — nicht die Solaranlage selbst; deren eigene Kriterien (Gebäudetyp/-höhe/
+  -nutzung) konnten in diesem Lauf nicht eingesehen werden (Downloadversuch traf ein anderes, älteres
+  Dokument «Blitzschutzanlagen» 23-03d von 2003) und bleiben offen. **Status Blitzschutz-Kernaussage
+  jetzt established** (bisher nur über Sekundärquellen belegt).
 
 ## Gebäudeversicherung Kt. Zürich (GVZ)
 - **Automatische Mitversicherung:** fest verbaute Solaranlagen zählen zu den «baulichen Einrichtungen,
@@ -66,15 +78,37 @@ private Feuerversicherung, kein Monopol) grundsätzlich unterschiedliche Versich
   Gebäudeversicherer klären (kein Standardprozess wie GVZ); Brandschutz materiell identisch zu ZH.
 
 ## Batteriespeicher — Brandschutz-/Versicherungseinordnung (ergänzt bestehendes RF1-Wissen)
-- **Zwei VKF-Regelwerke je Chemie:** Lithium-Ionen (NMC) → VKF-Merkblatt «Lithium-Ionen-Batterien»
-  (2005-15); Lithium-Eisenphosphat (LFP) → spezifischere, günstigere VKF-FAQ 2005-01 (beide
-  Primärdokumente identifiziert, Inhalt nicht extrahiert — `emerging`).
-- **Aufstellungsorte** (Sekundärquelle siworks.ch): geeignet Elektro-/Kellerräume/Autoabstellplätze;
-  ungeeignet Werkstätten/Chemielabors/Gefahrstofflager und Fluchtwege. LFP im Freien ohne Schutzabstand
-  möglich (falls Hersteller nichts anderes vorschreibt), auch in ISO-Containern/RF1-Nebenbauten.
-- **Brandabschnitt bei grösseren Anlagen** (`speculative`, nur Sekundärquelle, NICHT VKF-primärverifiziert):
-  bis 100 kWh je Brandabschnitt mind. EI 30, ab 100 kWh mind. EI 60 — vor Verwendung am VKF-Original
-  (2005-15) gegenprüfen.
+- **Zwei VKF-Regelwerke je Chemie, jetzt ziffern-genau am Original verifiziert (Run 91, 2026-07-25):**
+  Standard-Lithium-Ionen inkl. Lithium-Polymer → VKF-Brandschutzmerkblatt «Lithium-Ionen-Batterien»,
+  Dok.-Nr. 2005-15de, Ausgabe 01.06.2021 (Ziff. 1.3: gilt NICHT für Lithium-Metall-, Nickelmetallhydrid-,
+  Nickelcadmium- oder Bleibatterien); Lithium-Eisenphosphat (LFP/LiFePO4) → separate, neuere
+  VKF-FAQ 2005-01 (Beschlussdatum 09.09.2025).
+- **Korrektur der bisherigen 100-kWh-Faustregel — die 100-kWh-EI30/EI60-Grenze gilt NICHT generell,
+  sondern nur für LFP-Speicher.** Für Standard-Lithium-Ionen (BSM 2005-15, Ziff. 3.2/4.4–4.6) gilt eine
+  **dreistufige** Hazard-Level-Systematik je Brandabschnitt: **HL I, bis 15 kWh** → Aufstellen in Raum
+  mit mind. Feuerwiderstand **EI 30** (Elektroraum, Keller, Einstellraum, Dachboden; bei EFH/kleinen
+  Gebäuden nur empfohlen, nicht Pflicht); **HL II, 15–100 kWh** → separater Brandabschnitt mit mind.
+  **EI 60**, oder im Freien, oder eingeschossige RF1-Nebenbaute mit Schutzabstand; **HL III, ab 100 kWh**
+  → primär Aussenaufstellung/RF1-Nebenbaute mit Schutzabstand, alternativ Nachweisverfahren mit heisser
+  Bemessung + Blitzschutz/Druckentlastung/RWA — **keine pauschale «EI 60 genügt»-Aussage** für diese
+  grösste Stufe. Für **LFP-Speicher** gilt dagegen die vereinfachte **zweistufige** Regel aus der
+  FAQ 2005-01: **bis 100 kWh** → mind. **EI 30**; **ab 100 kWh** → mind. **EI 60** (jeweils gleicher
+  Feuerwiderstand wie die nutzungsbezogene Brandabschnittsbildung, mindestens aber die genannte Klasse);
+  in EFH/kleinen Gebäuden dürfen LFP-Speicher unabhängig von der Kapazität in praktisch allen Räumen
+  (ausser feuer-/explosionsgefährdet) aufgestellt werden. **Bauherren-Konsequenz: vor jeder Aussage die
+  Batteriechemie klären** — die bisher in dieser KB kolportierte «100 kWh/EI30/EI60»-Faustregel trifft
+  nur auf LFP zu, für den heute verbreiteteren Fall (NMC-Heimspeicher) gilt die dreistufige Regel mit
+  der deutlich strengeren 15-kWh-Schwelle. Weitere Regelwerke laut FAQ 2005-01: SN 411000 (NIN),
+  SNR 460712 «Stationäre elektrische Speichersysteme» (Electrosuisse), SIA 2061 «Batteriespeicher-
+  systeme in Gebäuden». **Status: established** (beide VKF-Dokumente primärquellenbelegt, Volltext
+  gelesen über bsvonline.ch/vkg.ch/vkf.ch-Spiegel).
+- **Aufstellungsorte** (Sekundärquelle siworks.ch, deckt sich mit obiger Primärquelle): geeignet
+  Elektro-/Kellerräume/Autoabstellplätze; ungeeignet Werkstätten/Chemielabors/Gefahrstofflager und
+  Fluchtwege.
+- **Kantonale Vollzugshilfen ZH/SZ:** keine eigene Konkretisierung mit abweichenden kWh-Schwellen
+  gefunden — GVZ verweist auf ihrer Website nur auf das VKF-Merkblatt 2005-15 ohne eigene Zahlenwerte;
+  für Kt. Schwyz (Amt für Militär, Feuer- und Zivilschutz) keine öffentlich indexierte eigene
+  Publikation gefunden (offen, nur direkte Anfrage bei brandschutz@sz.ch würde das klären).
 - **Trend (Kt. Aargau, nur Indikator, nicht ZH/SZ):** Energiespeicher rücken verstärkt in den Fokus der
   Brandschutzgesuchpflicht (AGV, 03.07.2025) — keine feste kWh-Schwelle genannt.
 
@@ -90,14 +124,16 @@ Militär, Feuer- und Zivilschutz, materiell gleiche VKF-Vorschriften wie ZH; (3)
 Überspannungsschutz-Logik identisch zu ZH (NIN-geregelt, kantonsunabhängig).
 
 **Beide Kantone:** Batteriespeicher-Standort früh mit Fachplaner/Feuerpolizei klären (kein Fluchtweg,
-kein Gefahrstofflager); bei MFH/Gewerbe-Grossanlagen Brandabschnitts-Anforderungen mit
-Gemeinde-Feuerpolizei bzw. GVZ-Fachstelle verifizieren, nicht aus der 100-kWh/EI-30/60-Faustregel
-ungeprüft übernehmen.
+kein Gefahrstofflager); **zuerst die Batteriechemie klären** (Standard-Li-Ionen/NMC vs. LFP) — nur bei
+LFP gilt die einfache 100-kWh/EI30/EI60-Regel, bei NMC greift bereits ab 15 kWh eine EI-60-Pflicht;
+bei MFH/Gewerbe-Grossanlagen (HL III, ab 100 kWh) Brandabschnitts-Anforderungen mit Gemeinde-
+Feuerpolizei bzw. GVZ-Fachstelle verifizieren, da dort keine pauschale EI-Klasse mehr genügt.
 
 ## Offene Punkte
-- Ziffern-genaues VKF-Zitat zum Blitzschutz bei Solaranlagen (Primär-PDF technisch nicht auslesbar).
+- VKF-Brandschutzrichtlinie 22-15 «Blitzschutzsysteme» selbst (welche Gebäude grundsätzlich
+  blitzschutzpflichtig sind, unabhängig von PV) noch nicht am Original eingesehen — Downloadversuch
+  traf ein falsches/veraltetes Dokument (23-03d statt 22-15).
 - GVZ-Originaltext zur Prämienmechanik bei PV/Speicher (nur Sekundärquellen verfügbar).
-- 100-kWh/EI-30/EI-60-Schwellenwerte am VKF-Primärdokument 2005-15 nicht verifiziert.
 - Kt. Schwyz: konkrete private Versicherer-Praxis (Mobiliar, Baloise u.a.) zur PV-Mitversicherung nicht
   recherchiert (ausserhalb amtlicher Quellenlage, projektspezifisch beim jeweiligen Versicherer klären).
 

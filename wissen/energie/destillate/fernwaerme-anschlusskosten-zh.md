@@ -3,9 +3,9 @@ quelle: ewz "Tarif Fernwärme im Wärmeverbund KVA und Holz" (Tarifsystem 2022, 
 herausgeber: ewz (vormals ERZ Fernwärme, Stadt Zürich) / Eidgenössischer Preisüberwacher / Stadtwerk Winterthur / Agro Energie Schwyz AG / Energie Einsiedeln AG / Energie Ausserschwyz AG
 ausgabe: Tarifsystem 2022, Ausgabe Juni 2026 (ewz); Preisüberwacher-Bericht Datenbasis 2022 (66 Anbieter); Agro Energie Schwyz "Tarife und Konditionen", publiziert 04.09.2025 (Anschlussgebühr gültig bis 31.12.2026, Grund-/Arbeitspreis gültig bis 30.09.2026); Agro Energie Schwyz Reglement, Ausgabe 31.07.2022; Energie Einsiedeln Preisblatt Fernwärme 2025; Energie Ausserschwyz AGB V5.0/April 2024
 gelesen: 2026-07-14/2026-07-15/2026-07-17/2026-07-18/2026-07-20/2026-07-21/2026-07-23 (Web via WebSearch/WebFetch; ewz-Tarifblatt, Preisüberwacher-PDF, Agro-Energie-Tarifblatt und Einsiedler Preisblatt vollständig gelesen — Agro-PDF seitenweise gerendert; 15.07. ergänzt um Energieverbund-Einsiedeln-Infoblatt 2017 (pdftotext), EBL Energie Rigi + ECOGEN Arth-Goldau Web; 17.07. Live-Richtpreisrechner Energie Ausserschwyz per curl/htmx-Endpunkt `/heating/?id=` für 17 weitere Adressen in Freienbach/Wollerau/Pfäffikon SZ/Altendorf/Siebnen/Galgenen/Lachen abgefragt, EASZ-AGB (15 Seiten) und Agro-Reglement (Art. 4+5, Vertragsdauer) vollständig per pdftotext gelesen; 18.07. erneuter Live-Rechner-Zugriff (Run T6): 1 neue Adresse Bäch SZ/Freienbach erfolgreich abgefragt (Fernwärme dort nicht verfügbar), danach durchgehend HTTP 500 auf dem Server bei jeder weiteren `/heating/?q=`-Suche — mit curl (mehrere frische Sessions) UND WebFetch bestätigt, also serverseitig und nicht clientseitig; EBL Energie Rigi FAQ-PDF + Fernwärme-Seite sowie ECOGEN-Arth-Goldau-Seite erneut per WebFetch geprüft, keine neuen CHF-Zahlen; 20.07. Run 82: HX-Request-Header-Fix identifiziert, 11 neue Adressen Lachen/Pfäffikon SZ; 21.07. Run 83: reale Strassenlisten von Galgenen + Freienbach via OpenStreetMap/Overpass-API bezogen (statt Rätselraten), gezielt 28 weitere Adressen getestet — Galgenen-Dorfkern (Schulstrasse/Untergasse/Obergasse/Altersheimstrasse, 17 Adressen) + Freienbach-Dorfzentrum (Postweg/Grützenstrasse, 6 Adressen) + Bäch SZ (Bächaustrasse, 5 Adressen, alle nicht verfügbar); zusätzlich WebSearch/WebFetch zu älteren EASZ-Factsheets (Aug 2023, Okt 2024) und EASZ-Newsartikeln zum Ausbauplan Freienbach; 23.07. Run 84: vollständige Strassenliste Galgenen (92 Strassen) via OpenStreetMap/Overpass bezogen, 14 weitere Strassenzüge gezielt per curl gegen `/heating/?q=`+`/heating/?id=` getestet (Dorfplatz, Kapellstrasse, Kirchweg, Kreuzstattstrasse, Zeughausstrasse, Buechlistrasse, Büelstrasse, Martinstrasse, Merkurstrasse, Kantonsstrasse, Höfli/Höfliweg, Fuchsronsstrasse, Rietliweg) sowie Spinnereistrasse in Siebnen; total 60 neue Preisabfragen, davon 14 mit bisher unbeobachtetem kW-Wert; zusätzlich Re-Verifikation der Stützpunkte Schulstrasse 1/3 Galgenen (290/162 kW, unverändert) und Churerstrasse 100/104 Pfäffikon SZ (neuer Befund: expliziter Verweigerungstext "Aufgrund der Objektgrösse...", siehe unten); 23.07. Run 85 (Fortsetzung desselben Tages): gezielte Eingrenzung des kW-Schwellenwerts der Objektgrössen-Verweigerung — neue CO2-Proxy-Methode kalibriert (t CO2/Jahr aus dem Rechner-Feld "Sie sparen ca. …t CO2 pro Jahr" korreliert linear mit kW, Faktor ≈ 0.405, an 12 real bepreisten Objekten 10–290 kW verifiziert), rund 90 weitere reale Adressabfragen in Pfäffikon SZ (Poststrasse, Unterdorfstrasse, Oberdorfstrasse, Gwattstrasse, Industriestrasse, Seedammstrasse, Churerstrasse-Ergänzungen), Freienbach (Weinbergstrasse, Wiesenstrasse, Schwerzistrasse, Kirchstrasse), Siebnen (Kreuzstrasse, Äussere Bahnhofstrasse, Rosenweg) und Lachen SZ (Bahnhofplatz, Feldstrasse, Alter Schulhausplatz, Seestrasse) per curl gegen `/heating/?q=`+`/heating/?id=` getestet, dazu ergänzende ID-Bereichs-Scans um bereits bekannte Cluster; zwei neue Verweigerungs-Fälle gefunden (Bahnhofplatz 3 Lachen, Gwattstrasse 11 Pfäffikon SZ); Versuch, über OpenStreetMap/Overpass-API gezielt nach grossen Gebäuden zu suchen, scheiterte an durchgehender Serverüberlastung der öffentlichen Overpass-Instanzen (HTTP 406/504))
-datenstand: 2026-06 (ewz-Formel), 2022/2023 (Preisüberwacher-Marktbeobachtung), 2025/2026 (Agro Energie Schwyz Tarife), 2022 (Agro Energie Schwyz Reglement/Vertragsdauer), 2025 (Energie Einsiedeln), 2017 (Energieverbund Einsiedeln, veraltet), 2026 (Küssnacht/Arth-Goldau, keine CHF-Zahlen, 2. Bestätigung 18.07.2026; Live-Richtpreisrechner-Abfragen 17.07.2026 + 18.07.2026 + 20.07.2026 Run 82 + 21.07.2026 Run 83 + 23.07.2026 Run 84 + 23.07.2026 Run 85, insgesamt rund 180 Adressabfragen; Objektgrössen-Schwelle jetzt auf den Bereich 290 kW (bepreist) bis rund 407 kW (verweigert, CO2-Proxy-Schätzung) eingegrenzt), 2024 (Energie Ausserschwyz AGB), 2023/2024 (ältere EASZ-Factsheets zum Ausbauplan, Sekundärbeleg via WebSearch, nicht als PDF primärgelesen), ⚠ "Herbst 2024"-Aktualisierung nur über Sekundärquelle, nicht PDF-primärverifiziert
-status: emerging
-last_updated: 2026-07-23
+datenstand: 2026-06 (ewz-Formel), 2022/2023 (Preisüberwacher-Marktbeobachtung), 2025/2026 (Agro Energie Schwyz Tarife), 2022 (Agro Energie Schwyz Reglement/Vertragsdauer), 2026 (Energie Einsiedeln Preisblatt, Run 91), 2017 (Energieverbund Einsiedeln, veraltet), 2026 (Küssnacht/Arth-Goldau, keine CHF-Zahlen, 2. Bestätigung 18.07.2026; Live-Richtpreisrechner-Abfragen 17.07.2026 + 18.07.2026 + 20.07.2026 Run 82 + 21.07.2026 Run 83 + 23.07.2026 Run 84 + 23.07.2026 Run 85, insgesamt rund 180 Adressabfragen; Objektgrössen-Schwelle jetzt auf den Bereich 290 kW (bepreist) bis rund 407 kW (verweigert, CO2-Proxy-Schätzung) eingegrenzt), 2024 (Energie Ausserschwyz AGB), 2026 (Energie Ausserschwyz Genossenschafts-Rabatt, Run 91), 2023/2024 (ältere EASZ-Factsheets zum Ausbauplan, Sekundärbeleg via WebSearch, nicht als PDF primärgelesen), ⚠ "Herbst 2024"-Aktualisierung nur über Sekundärquelle, nicht PDF-primärverifiziert
+status: emerging (Einsiedeln + Agro established über offizielle Preisblätter/Medienmitteilungen des Betreibers; Energie Ausserschwyz aktueller Tarif weiterhin speculative/veraltet — nur 2019er-Schätzung + Rabattmechanik)
+last_updated: 2026-07-25
 ---
 
 # Fernwärme-Anschlusskosten Kt. Zürich und Kt. Schwyz (ergänzt Anschlusspflicht-Destillate)
@@ -139,6 +139,18 @@ Quelle: "Preisblatt für Fernwärme 2025" (gültig 01.01.–31.12.2025), abgeruf
   CHF 9'900) + Arbeitskosten CHF 11'530 → rund **CHF 22'244/Jahr exkl. MWST**.
 - **Anschlussbeitrag:** nur qualitativ beschrieben (einmalig, inkl. Zuleitung ins Gebäude),
   keine CHF-Zahl publiziert.
+
+**Update Run 91 (2026-07-25) — Preisblatt 2026 gefunden, schliesst den bisherigen Negativbefund:**
+"Preisblatt für Fernwärme 2026", gültig 01.01.–31.12.2026 (energie-einsiedeln.ch), Arbeitspreis
+**11.19 Rp./kWh** (Basiswert APbasis unverändert 8.4 Rp./kWh exkl. MWST, über dieselbe Indexformel)
+— **leicht tiefer als 2025** (11.53 → 11.19 Rp./kWh, −3 %). Grundpreis-Rechenbeispiel im Preisblatt:
+GPbasis unverändert CHF 9'900/Jahr → GPaktuell **CHF 10'729.24/Jahr** (Multiplikator 1.08376 via
+LIK 105.45/97.3, minim höher als der 2025er-Faktor 1.08222). Gesamtbeispiel MFH 100'000 kWh/55 kW
+Anschlussleistung: Gesamtwärmekosten **23.7 Rp./kWh inkl. MWST**; gegenüber 2025 **Minderkosten
+CHF 351.–/Jahr (−1.5 %)** für dieses Beispielobjekt. Erneuerbarer Anteil 2025 laut Preisblatt: 92 %
+(kantonale Vorgabe min. 70 %). **Einmaliger Anschlussbeitrag weiterhin nicht als CHF-Zahl
+publiziert** — Negativbefund bleibt für den Anschlussbeitrag bestehen, ist aber für Arbeits-/
+Grundpreis jetzt auf Stand 2026.
 
 **Zusätzliche Prüfung 16.07.2026 (Run 74, Wayback Machine, Preisblätter 2023/2024 + Formular
 "Anfrage Wärmebezug"):** Grundpreis-/Arbeitspreisformel strukturell seit mind. 2023 stabil
@@ -658,11 +670,21 @@ Nutzungsdauer des Gebäudes abgleichen.
   nicht direkt verifiziert werden — nicht zitierfähig.
 - Energie 360° und EKZ Wärme nennen öffentlich keine konkreten CHF-Beträge (nur Struktur).
 - Agro-Energie-Grund-/Arbeitspreis nur bis 30.09.2026 gültig — ab Oktober 2026 neu prüfen.
-- Energie-Einsiedeln-Preisblatt ist der Jahrgang 2025; ein Preisblatt 2026 war am 14.07.2026 nicht
-  auffindbar. Aktueller Anschlussbeitrag Energie Einsiedeln AG (2025er-Rechtsträger) bleibt
-  unpubliziert — auch nach Wayback-Prüfung der Preisblätter 2023/2024/2025 (Run 74), bestätigter
-  Negativbefund (3. Bestätigung); nur eine 2017er-Formel eines mutmasslichen Vorläufer-
+- ~~Energie-Einsiedeln-Preisblatt ist der Jahrgang 2025; ein Preisblatt 2026 war am 14.07.2026 nicht
+  auffindbar.~~ **Geschlossen Run 91 (2026-07-25):** Preisblatt 2026 gefunden und ausgewertet
+  (Arbeitspreis 11.19 Rp./kWh, siehe oben). Aktueller Anschlussbeitrag Energie Einsiedeln AG bleibt
+  weiterhin unpubliziert — auch nach Wayback-Prüfung der Preisblätter 2023/2024/2025/2026, bestätigter
+  Negativbefund (4. Bestätigung); nur eine 2017er-Formel eines mutmasslichen Vorläufer-
   Rechtsträgers gefunden (siehe oben), nicht als aktuell verwendbar.
+- **Neu Run 91 (2026-07-25): Energie Ausserschwyz Genossenschafts-Rabattmechanik belegt** (energie-
+  ausserschwyz.ch/genossenschaft) — Genossenschaftsanteil CHF 1'000.– Nennwert, Mindestbeteiligung
+  5 Anteile = CHF 5'000.–; Rabatt CHF 350.– je Anteilschein auf den Investitionsbeitrag des
+  Anschlusses, maximal 20 Anteile je Wärmeliefervertrag = maximal **CHF 7'000.– Rabatt** auf den
+  Anschluss. Das ist ein Rabattmechanismus, **keine** absolute Anschlusskosten-Zahl — ergänzt, ersetzt
+  aber nicht den weiterhin fehlenden aktuellen Tarif. Ein 2019er-Projektleiter-Schätzwert (EFH 10 kW
+  ≈ CHF 18'000 Anschluss, ≈10 Rp./kWh Arbeitspreis) bleibt die einzige (explizit unverbindliche,
+  seit Bau des Holzheizkraftwerks 2022 und mehreren Teuerungsrunden veraltete) Grössenordnung — für
+  2026 nicht mehr belastbar.
 - Energie Ausserschwyz: kein offizielles Text-Tarifblatt, aber seit Run 74 + Run T5/T6 + Run 82
   + Run 83 + Run 84 + Run 85 (beide 23.07.2026) **rund 180 reale Adressabfragen** aus dem
   Live-Richtpreisrechner in 9 Gemeinden (Freienbach, Lachen SZ, Galgenen, Pfäffikon SZ, Siebnen,

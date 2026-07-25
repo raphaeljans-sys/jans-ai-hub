@@ -2,6 +2,25 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 91: drei Run-90-Prioritäten abgearbeitet, eine wichtige Korrektur
+- **VKF-Blitzschutz-Ziffer ziffern-genau verifiziert:** VKF-Brandschutzmerkblatt «Solaranlagen»
+  2001-15de (Ausg. 01.01.2022), Ziff. 3.1 Abs. 3, wörtlich zitiert und zweifach gegengeprüft (VKG-
+  REST-API, GVL Luzern) → `[[pv-blitzschutz-gebaeudeversicherung-ch]]` auf **established** gehoben.
+- **Korrektur (nicht nur Bestätigung): Batteriespeicher-Brandabschnitte.** Die bisherige
+  «100 kWh EI30/EI60»-Faustregel gilt nur für LFP-Speicher (VKF-FAQ 2005-01, 09.09.2025);
+  Standard-Lithium-Ionen/NMC-Speicher (VKF-Brandschutzmerkblatt 2005-15de, 01.06.2021) unterliegen
+  einer strengeren DREI-stufigen Systematik (bis 15 kWh EI30 / 15–100 kWh EI60 / ab 100 kWh primär
+  Aussenaufstellung) — FAQ F118 entsprechend präzisiert.
+- **SZ-Erdwärme-Flächenkollektor S1/S3:** acht amtliche SZ-Dokumente gezielt durchsucht, kein
+  SZ-eigenes Merkblatt gefunden — Negativbefund breiter abgestützt und abgeschlossen →
+  `[[oberflaechennahe-erdwaerme-flaechenkollektor-erdwaermekorb-zh-sz]]`, FAQ F110 geschärft.
+- **Fernwärme SZ:** Energie-Einsiedeln-Preisblatt 2026 gefunden (11.19 Rp./kWh, −3 % ggü. 2025),
+  Energie-Ausserschwyz-Genossenschaftsrabatt (CHF 350/Anteil, max. CHF 7'000) neu belegt →
+  `[[fernwaerme-anschlusskosten-zh]]`.
+- Vier parallele Sonnet-Rechercheagenten; alle Destillat-/Register-/FAQ-Edits mit echten Umlauten auf
+  dem Hauptmodell geschrieben (Run-84-Umlaut-Bug-Schutz). FAQ-Stand unverändert F1–F118 (Präzisierungen,
+  keine neue Frage). PDF-Inventar weiterhin erschöpft seit Run 65.
+
 ## 2026-07-25 — Run 90: vier Backlog-Vertiefungen + neues Thema PV-Blitzschutz/Versicherung
 - **Anergienetz CHF/m²-Kennzahl** erstmals grob belegt (BFE-Fallbeispiele-Bericht 2017/18):
   FGZ Friesenberg ≈230 CHF/m² EBF Netzinfrastruktur (n=1); bestätigter Negativbefund für einen

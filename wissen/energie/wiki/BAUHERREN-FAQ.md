@@ -4085,9 +4085,14 @@ bleiben ausgeschlossen) — bundesrechtliche Grundlage, die für alle Kantone al
 2009, Tab. 1). Ein eigenständiger «Grabenkollektor»-Begriff existiert in der Schweizer Fachsprache
 **nicht** — das ist eine deutsche Herstellerkategorie; hierzulande fällt jede flach verlegte Variante
 unter «Erdregister»/«Wärmekörbe» (endgültig geklärt, kein Rechercheversagen).
+**Ergänzt (Run 91, 2026-07-25):** Ein SZ-eigenes Merkblatt zur S1/S3-Zuordnung wurde trotz Prüfung
+von acht amtlichen SZ-Dokumenten (Gesetzestexte, Schulungsunterlagen, eBau-Anleitung) nicht gefunden
+— die SZ-Amtsseite bestätigt nur die S1/S2-Sperre, äussert sich zu S3 nicht eigenständig. Für den
+Bauherrn heisst das: in Schwyz gilt die bundesrechtliche Referenzregel (BAFU/FWS 2009) unverändert,
+ohne kantonale Verschärfung oder Erleichterung — Punkt gilt als abgeschlossen geprüft.
 Datenstand 2026-07-25. Status **established** (ZH+SZ-Verfahren amtlich belegt, Entzugsleistung
-CH-fachverbandlich belegt, S1-S3-Zuordnung bundesrechtlich belegt; CHF-Kosten bleiben offen,
-«Grabenkollektor»-Frage endgültig geklärt).
+CH-fachverbandlich belegt, S1-S3-Zuordnung bundesrechtlich belegt und SZ-Negativbefund breit
+abgestützt; CHF-Kosten bleiben offen, «Grabenkollektor»-Frage endgültig geklärt).
 
 ---
 
@@ -4208,22 +4213,30 @@ am Standort prüfen. → `[[solarpflicht-schweiz-kantone]]`,
 melden?
 
 **Kurz für den Bauherrn:** Nein, eine PV-Anlage macht ein Gebäude **nicht automatisch
-blitzschutzpflichtig** — ist aber bereits ein Blitzschutzsystem vorhanden, muss die Anlage fachgerecht
-eingebunden werden, und ein Überspannungsschutz (Typ 2, DC/AC) wird in der Praxis regelmässig empfohlen
-bzw. verlangt (Potenzialausgleich vom Modulfeld bis zum Hauptverteiler ist mit wenigen Ausnahmen
-Pflicht). **Versicherung:** Eine fest verbaute PV-Anlage ist als Gebäudebestandteil **automatisch
-mitversichert** — im **Kt. Zürich** sollte sie trotzdem nach Fertigstellung mit den Erstellungskosten
-aktiv bei der **GVZ** gemeldet werden (online, versicherung@gvz.ch), damit der Deckungsschutz eindeutig
-aktiviert ist. **Kt. Schwyz ist anders gelagert:** SZ gehört zu den **GUSTAVO-Kantonen** (Genf, Uri,
-Schwyz, Tessin, Appenzell Innerrhoden, Wallis, Obwalden) **ohne** kantonales Gebäudeversicherungs-
-Monopol — die Feuerversicherung läuft privat, PV-Mitversicherung ist direkt mit dem eigenen
-Versicherer zu klären. Die **Brandschutzbewilligung** bleibt in SZ trotzdem kantonal (Amt für Militär,
-Feuer- und Zivilschutz) und materiell identisch zu den VKF-Vorschriften wie in ZH. **Batteriespeicher:**
-Standort früh klären (Elektro-/Kellerraum ja, Fluchtweg/Gefahrstofflager nein); die kolportierten
-Brandabschnitts-Schwellen (bis 100 kWh EI 30, ab 100 kWh EI 60) stammen nur aus einer Sekundärquelle
-und sind am VKF-Original noch nicht gegengeprüft — bei grösseren Anlagen (MFH/Gewerbe) die
-Gemeinde-Feuerpolizei bzw. GVZ-Fachstelle konsultieren. → `[[pv-blitzschutz-gebaeudeversicherung-ch]]`,
-`[[swissolar-stp-vkf-brandschutz-solaranlagen]]`, `[[batteriespeicher-heimspeicher-pv-ch]]`.
-Datenstand 2026-07-25 (Run 90). Status **emerging** (Grundsätze über mehrere übereinstimmende Quellen
-belegt; ziffern-genaue VKF-/GVZ-Primärtexte technisch nicht auslesbar gewesen, Prämienmechanik und
-kWh-Schwellenwerte vor verbindlicher Bauherren-Zusage direkt bei GVZ/VKF verifizieren).
+blitzschutzpflichtig** — massgebend ist einzig, ob das Gebäude gemäss der separaten VKF-
+Brandschutzrichtlinie 22-15 «Blitzschutzsysteme» ohnehin blitzschutzpflichtig ist (Quelle: VKF-
+Brandschutzmerkblatt «Solaranlagen» 2001-15de, Ausgabe 01.01.2022, Ziff. 3.1 Abs. 3, wörtlich am
+Original verifiziert). Ist bereits ein Blitzschutzsystem vorhanden, muss die Anlage fachgerecht
+eingebunden werden, und ein Überspannungsschutz (Typ 2, DC/AC) wird zusätzlich verlangt. **Versicherung:**
+Eine fest verbaute PV-Anlage ist als Gebäudebestandteil **automatisch mitversichert** — im **Kt. Zürich**
+sollte sie trotzdem nach Fertigstellung mit den Erstellungskosten aktiv bei der **GVZ** gemeldet werden
+(online, versicherung@gvz.ch), damit der Deckungsschutz eindeutig aktiviert ist. **Kt. Schwyz ist anders
+gelagert:** SZ gehört zu den **GUSTAVO-Kantonen** (Genf, Uri, Schwyz, Tessin, Appenzell Innerrhoden,
+Wallis, Obwalden) **ohne** kantonales Gebäudeversicherungs-Monopol — die Feuerversicherung läuft privat,
+PV-Mitversicherung ist direkt mit dem eigenen Versicherer zu klären. Die **Brandschutzbewilligung**
+bleibt in SZ trotzdem kantonal (Amt für Militär, Feuer- und Zivilschutz) und materiell identisch zu den
+VKF-Vorschriften wie in ZH. **Batteriespeicher — Brandabschnitts-Schwellen jetzt am VKF-Original
+korrigiert (Run 91):** Die bisher kolportierte Faustregel «bis 100 kWh EI 30, ab 100 kWh EI 60» gilt
+**nur für Lithium-Eisenphosphat (LFP)-Speicher** (VKF-FAQ 2005-01, Beschluss 09.09.2025). Für den
+heute verbreiteteren **Standard-Lithium-Ionen-Speicher** (NMC, VKF-Brandschutzmerkblatt 2005-15de,
+Ausgabe 01.06.2021) gilt eine strengere **dreistufige** Regel: **bis 15 kWh** genügt ein Raum mit
+mind. **EI 30**; **15–100 kWh** braucht bereits einen Brandabschnitt mit mind. **EI 60** (oder
+Aussenaufstellung); **ab 100 kWh** ist primär Aussenaufstellung/RF1-Nebenbaute vorgesehen, keine
+pauschale EI-Klasse mehr. **Bauherren-Konsequenz: vor jeder Aussage die Batteriechemie klären** — bei
+NMC-Heimspeichern (der häufigste Fall) greift die EI-60-Pflicht schon ab 15 kWh, nicht erst ab 100 kWh.
+→ `[[pv-blitzschutz-gebaeudeversicherung-ch]]`, `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`,
+`[[batteriespeicher-heimspeicher-pv-ch]]`.
+Datenstand 2026-07-25 (Run 91). Status **established** (Blitzschutz-Kernaussage und Batteriespeicher-
+Brandabschnittsschwellen jetzt ziffern-genau am VKF-Original verifiziert; GVZ-Prämienmechanik und die
+VKF-Richtlinie 22-15 selbst — welche Gebäude grundsätzlich blitzschutzpflichtig sind — bleiben offen,
+vor verbindlicher Bauherren-Zusage direkt bei GVZ/VKF verifizieren).

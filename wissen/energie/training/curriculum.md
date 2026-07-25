@@ -981,3 +981,23 @@ Verfahrensstand unverändert. FAQ-Stand jetzt **F1–F105**. Details: `outputs/2
   (F117 stammt aus einem parallelen Solarpflicht-Strang desselben Tages). Zusätzlich B4 aus Run 89
   erledigt: `wiki/INDEX.md`-Kernprodukt-Zeile verdichtet statt additiv fortgeschrieben (Verweis auf
   CHANGELOG statt Einzelaufzählung).
+
+- **D61 (Run 91, 2026-07-25)** — PDF-Inventar weiterhin erschöpft; vier parallele Sonnet-
+  Rechercheagenten arbeiten gezielt die drei «Nächster Lauf»-Prioritäten aus Run 90 ab statt neuer
+  Themenexpansion. **VKF-Blitzschutz-Ziffer ziffern-genau verifiziert:** entgegen der bisherigen
+  Annahme war das VKF-Brandschutzmerkblatt «Solaranlagen» 2001-15de (Ausg. 01.01.2022) per
+  curl+pdftotext sehr wohl auslesbar — Ziff. 3.1 Abs. 3 wörtlich zitiert und zweifach gegengeprüft
+  → `[[pv-blitzschutz-gebaeudeversicherung-ch]]` auf established gehoben. **Batteriespeicher-
+  Brandabschnitte korrigiert, nicht nur bestätigt:** die «100 kWh EI30/EI60»-Faustregel gilt nur für
+  LFP-Speicher (VKF-FAQ 2005-01, 09.09.2025); Standard-Li-Ionen/NMC (VKF-BSM 2005-15de, 01.06.2021)
+  hat eine strengere DREI-stufige Systematik (15/100-kWh-Schwellen) — wichtige Korrektur, da die KB
+  sonst eine für den häufigeren NMC-Fall zu laxe Schwelle weitergetragen hätte. **SZ-Erdwärme-
+  Flächenkollektor S1/S3:** acht amtliche SZ-Dokumente (Gesetzestexte, Schulungen, eBau-Anleitung)
+  gezielt durchsucht, kein SZ-eigenes Merkblatt gefunden — Negativbefund jetzt breiter abgestützt und
+  als abgeschlossen markiert → `[[oberflaechennahe-erdwaerme-flaechenkollektor-erdwaermekorb-zh-sz]]`.
+  **Fernwärme SZ vertieft:** Energie-Einsiedeln-Preisblatt 2026 gefunden (11.19 Rp./kWh, −3 % ggü.
+  2025, schliesst den bisherigen Negativbefund), Energie-Ausserschwyz-Genossenschaftsrabatt
+  (CHF 350/Anteil, max. CHF 7'000) neu belegt, aktuelles Ausserschwyz-Tarifblatt bleibt trotz
+  erneuter Suche nicht auffindbar → `[[fernwaerme-anschlusskosten-zh]]`. FAQ F110 + F118 geschärft,
+  FAQ-Stand unverändert **F1–F118** (keine neue Frage, nur Präzisierungen bestehender Antworten).
+  B1-Konsolidierung und SIA-2024-Zwilling bewusst nicht angegangen (destruktiv, Rückfrage nötig).
