@@ -2,6 +2,25 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 103: Konsolidierung dreier paralleler Workstreams (WP-Lärm-Verfahren,
+## sommerlicher Wärmeschutz MuKEn-2025/Kt.-SZ, Legionellenschutz established), Register-Korrektur
+
+Dach-Eintrag zu den drei direkt darunter stehenden Einzel-Commits (80a379e1, 2503b5f8, c6a64511) — je
+ein `general-purpose`-Rechercheagent, alle drei prüften zuerst, ob ihr zugewiesenes Thema bereits in
+der KB steckt, bevor sie schrieben. Ergebnis: WP-Lärm und sommerlicher Wärmeschutz waren als
+Berechnungsmethodik bereits abgedeckt, beide Agenten schwenkten selbstständig auf die tatsächlich
+offene Lücke (Vollzugs-/Verfahrensfrage bzw. MuKEn-2025/Kt.-SZ-Ergänzung) statt zu duplizieren; der
+dritte Agent verifizierte Legionellenschutz gegen das BAG/BLV-Original und deckte dabei eine
+Halluzination eines eigenen WebFetch-Zwischenschritts auf (angebl. BAG/BLV-Update «2026», durch
+direkten Download widerlegt). Nach `git log`/`git status`-Verifikation ein Register-Fehler behoben:
+`wiki/INDEX.md` nannte nach den drei Commits fälschlich «144 Kernfragen» statt der tatsächlichen 145
+(F145 war im dritten Commit bereits vorhanden) — korrigiert. `wiki/QUESTIONS.md` mit dem
+konsolidierten Run-103-Stand und der fortgeschriebenen Prioritätenliste nachgeführt (die fünf
+gebündelten Kaufentscheide und Meta-Punkt M2 stehen jetzt seit fünf bzw. seit Run 45 unentschieden im
+Raum). Vollständiger Lauf-Report: `outputs/2026-07-25_energie-run103.md`.
+
+FAQ-Stand: **145 Kernfragen (F1-F145) belegt.**
+
 ## 2026-07-25 — Trinkwassererwärmung/Legionellenschutz: adversariale Nachverifikation, Destillat auf established gehoben
 
 Auftrag: das Destillat `[[trinkwassererwaermung-legionellenschutz-energieeffizienz]]` (Run 99,

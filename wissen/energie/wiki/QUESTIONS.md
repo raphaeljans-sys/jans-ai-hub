@@ -1760,14 +1760,46 @@ Zeilen geschärft/auf established, zwei neue Destillat-Direktverweise, FAQ-Zähl
 «Stand Run 102, 143 Kernfragen» aktualisiert), `wiki/BAUHERREN-FAQ.md` (F141 geschärft/established,
 F142+F143 neu), `training/curriculum.md` (D72), `raw/_INGESTED.md` (vier Zeilen neu), `CHANGELOG.md`.
 
-FAQ-Stand: **143 Kernfragen (F1-F143) belegt.**
+FAQ-Stand (nach Run 102): **143 Kernfragen (F1-F143) belegt.**
+
+## Run 103 (2026-07-25) — WP-Lärm-Verfahrensfrage, sommerlicher Wärmeschutz MuKEn-2025/Kt.-SZ,
+## Legionellenschutz auf established
+
+Drei parallele Rechercheagenten, alle drei haben zuerst geprüft ob ihr Thema schon abgedeckt ist:
+
+- [x] **Wärmepumpen-Aussenlärm** ✓ 2026-07-25: Berechnungsmethodik war bereits established (Run 56/57);
+  neu erschlossen die Vollzugsfrage (private Kontrolle ZH, Meldeverfahren seit 1.1.2023, Kt. SZ ohne
+  eigenes Merkblatt) → `[[waermepumpe-aussenlaerm-vollzugshilfe]]` (neu, emerging), FAQ **F144** neu.
+- [x] **Sommerlicher Wärmeschutz SIA 180** ✓ 2026-07-25: Thema war bereits umfassend established
+  (Run 74/88); kein Duplikat angelegt, stattdessen MuKEn-2025-Art.-1.9 (⚠ Empfehlung, noch kein
+  geltendes kant. Recht) und Kt.-SZ-Negativbefund ergänzt → bestehendes Destillat/Wiki-Artikel
+  erweitert, FAQ **F145** neu.
+- [x] **Trinkwassererwärmung/Legionellenschutz** ✓ 2026-07-25: BAG/BLV-Original + primärnahe
+  SIA-385/1-Quelle beschafft; Kernaussage präzisiert (52-55 °C = bedingte 3-K-Erleichterung, nicht
+  Pauschale; Grundordnung bleibt 60/55/50 °C + wöchentliche 60-°C-Stunde bei Risikozonen); dabei eine
+  WebFetch-Halluzination (angebl. BAG/BLV-Update «2026») entdeckt und widerlegt
+  → `[[trinkwassererwaermung-legionellenschutz-energieeffizienz]]` von emerging auf **established**
+  gehoben, FAQ F137 geschärft.
+
+**Register nachgeführt:** `destillate/INDEX.md`, `wiki/INDEX.md` (FAQ-Zählerzeile auf 145 korrigiert —
+war nach den drei Agenten-Commits fälschlich bei 144 stehen geblieben), `wiki/BAUHERREN-FAQ.md`
+(F144+F145 neu, F137 geschärft), `training/curriculum.md` (D73-D75), `raw/_INGESTED.md`, `CHANGELOG.md`
+(drei Einträge), `outputs/2026-07-25_energie-run103.md`.
+
+FAQ-Stand: **145 Kernfragen (F1-F145) belegt.**
 
 **Nächster Lauf: Priorität**
 1. Die fünf gebündelten Kaufentscheide (B1-Konsolidierung, SWKI-VA105-01, SIA-385/1, SIA-385/2,
-   SIA-384.354) sollten jetzt tatsächlich Raphael vorgelegt werden — die Liste wächst seit Run 98
-   unverändert, ohne dass eine Entscheidung eingeholt wurde.
-2. Massivbau-CHF/m² und WDVS-Brandriegel-Kosten: passive Beobachtung fortsetzen.
-3. Kt.-ZH-Kühlwerte-Diskrepanz vollständig geklärt (Run 102) — kein Folgepunkt mehr, ausser der
-   weiterhin ungeklärten US-Herkunft des hellen-Belag-Werts (0,6 °C).
-4. Neue Themen-Recherche nach freier Wahl (PDF-Inventar bleibt erschöpft, Web-Pfad) — z.B. Meta-Punkt
-   M2 (Skill-Entscheidung "energie" eigenständig?) endlich Raphael vorlegen statt weiter aufzuschieben.
+   SIA-384.354) wachsen seit Run 98 unverändert ohne Entscheidung — jetzt fünf Runs in Folge.
+   Empfehlung bleibt: beim nächsten Kontakt mit Raphael als kurze Bündel-Frage stellen statt weiter
+   automatisch mitzuführen.
+2. Meta-Punkt M2 (eigenständiger Skill "energie"?) ist seit Run 45 spruchreif und weiterhin nicht
+   entschieden — ebenfalls Raphael vorlegen.
+3. Massivbau-CHF/m² und WDVS-Brandriegel-Kosten: passive Beobachtung fortsetzen.
+4. Neue offene Punkte aus Run 103: SIA-180-Figur-13-Formel (Dachflächenfenster), Verhältnis
+   SIA 380/2:2022 zu SIA 382/1:2014 (Definition «Kühlung notwendig»), Kostenfolge einer
+   Lärm-Nachmessung bei WP-Reklamation, Kt.-SZ-Klassifikation Bewilligung/Meldung für
+   Luft/Wasser-Aussengeräte.
+5. Neue Themen-Recherche nach freier Wahl (PDF-Inventar bleibt erschöpft, Web-Pfad) — z.B. VDI 3807
+   Blatt 2 im Volltext beschaffen (Krankenhaus-Benchmark-Kennwerte, aus Run 102 offen) oder BVGer-
+   Urteil 20.06.2025 zum Smart-Meter-Einbau im Original lesen.
