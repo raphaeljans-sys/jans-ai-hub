@@ -2,6 +2,22 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 — Training Run 67 (Kartenportale + Energie, Token-Vollgas): Gestaltungsplan-Register Gemeinde Maur (geoglatt.ch)
+Rotation zurueck auf Kartenportale (PL-01) + Energie (PL-04) nach Run 66. Beide Domaenen gelten
+seit Run 63-65 als weitgehend ausgeschoepft (67 bzw. 45+ Curriculum-Lektionen); dieser Lauf
+wendet die in Run 65 empfohlene Lehre an — dateinamens-/groessenbasierter statt begriffsbasierter
+Scout (voller Ordnerdiff PL-01/PL-04 gegen `_INGESTED.md`). **K59:** deckt die bisher nie
+gelesene 37-MB-Rasterdatei `geoglatt.ch/Maur/Zonenplan.pdf` auf — amtlicher Zonenplan
+Gemeinde Maur, genehmigt 27.02.2012 (BDV Nr. 30/2012), mit eigener **Gestaltungsplan-Legende**
+(8 benannte, datierte Sondernutzungsplan-Perimeter Binz/Maur/Ebmatingen). Konkretisiert den
+offenen Hinweis «0156-Grundnutzung zeigt nur Rahmennutzung» in [[kartenportale-zonenplan-zh]]
+mit einem realen ZH-Beispiel, analog zum SZ-Fall Reckholdern; Format-Delta zu K8 (nur
+Raster-Poster-PDF, kein maschinenlesbares Format) → NEU Abschnitt [[kartenportale-zonenplan-zh]],
+emerging (⚠ Datenstand 2012). **Energie-Gegenprobe:** kein neuer Fund — ein vermeintlicher
+Kandidat (drei vormals EDEADLK-blockierte .docx) war bereits durch Run 61/E42 am selben Tag
+abgeschlossen, als Duplikat erkannt statt doppelt eingearbeitet. Details:
+`outputs/2026-07-25_training-run67.md`.
+
 ## 2026-07-25 — Training Run 66 (Recht & Norm, Token-Vollgas): SWKI-Backlog geschlossen, eco-bau-Cluster + SZ-Reckholdern-Genese neu
 Rotation zurueck auf Recht/Norm (PL-02) — Brandschutz (PL-03) zeigte keinen neuen Fund (Run 64
 bereits vollstaendig gescoutet). **R68:** SWKI VA103-01 Rest (S. 26-110/110, Backlog aus Run 64/65)

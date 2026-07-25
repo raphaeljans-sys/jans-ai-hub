@@ -3,6 +3,14 @@
 Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit ✓ + Datum.
 
 ## A — Kartenportale
+- [x] **K59 (Run 67, 2026-07-25, Token-Vollgas)** Dateinamens-/Groessen-basierter Scout (statt
+  begriffsbasiert, Lehre aus Run 65 E45) findet die bisher nie gelesene 37-MB-Rasterdatei
+  `geoglatt.ch/Maur/Zonenplan.pdf` — amtlicher Zonenplan Gemeinde Maur, genehmigt 27.02.2012,
+  mit Gestaltungsplan-Register (8 benannte Perimeter Binz/Maur/Ebmatingen). Konkretisiert den
+  offenen Hinweis «0156-Grundnutzung zeigt nur Rahmennutzung, Gestaltungsplaene separat» mit
+  einem realen Beispiel. Energie-Gegenprobe (derselbe Scout auf PL-04): kein neuer Fund, ein
+  vermeintlicher Fund erwies sich als Duplikat von Run 61/E42 (selber Tag). Details
+  `training/curriculum.md` K59, [[kartenportale-zonenplan-zh]].
 - [x] **K55-K58 (Run 65, 2026-07-25, Token-Vollgas)** Cloud-Only-Scout auf PL-01 (Rule 260725,
   Empfehlung aus Run 64) findet fuenf bisher unausgewertete LU-Fundstellen: Denkmalverzeichnis/
   Bauinventar (zweistufig BILU/KDV + ÖREB-Thema Kulturdenkmaeler, realer Beleg Haus Jans
