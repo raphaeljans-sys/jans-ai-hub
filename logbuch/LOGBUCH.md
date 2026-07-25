@@ -7,6 +7,22 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-25
 
+**Logbuch-Radar (~07:00, Samstag).** NAS zweimal per Tailscale nachgemountet (mobile Station,
+Mount fiel zwischenzeitlich weg). ERLEDIGT seit gestern: KISPI Auflagebereinigung 1171/26 —
+RJ hat 24.07. 17:30 den 33.1 Abaenderungsplan (Auflage II.1.a) ueber eBaugesuche + Mail an AFB
+eingereicht, nachdem AFB (Hottinger, 11:13) den Weg vorgab (II.1.a Abaenderungsplaene;
+II.1.b Feuerpolizei + II.1.c UGZ direkt an Fachstelle); TeKoSi-Besprechung Los 231.10
+durchgefuehrt (Hiltmann Termin 10:00 angenommen, Auftrag 22.07. erteilt); TeKoSi-Gastzugriff
+kontrolliert (bereits eingerichtet). OFFEN/beobachten: Debitoren KISPI CHF 32'280
+(RE-00087 100 Tage/Mahnung 2; RE-00098/99 5 Tage/Stufe 1, Frist 03.08.); AG-Gruendung UBS 29
+Tage ohne Antwort (Einzahlung Mitte August gefaehrdet, Anruf Jeckelmann empfohlen); Prinzippläne
+Jegen Los 274.01 (7 Entscheide offen, Vorbestellung 03.08.); Geschirrspueler Saumstrasse 21
+(nur reap-Offerte, NETTOSHOP-Frist abgelaufen); SwissSign Schritt 2/3 offen. KOMMT: 30.07.
+RE-00100 Nova; 31.07. RE-00101 Tschopp + Roethlisberger Bestellentscheid; 03.08. Bajrami-
+Vorbestellung. Kalender 7 Tage leer (naechste Koordinationssitzung ~06.08.). Token gestern
+(24.07.): 267.04 Mio. (~187 USD Aequiv.: MacBook 110.69 Mio./125 USD + Mini 156.35 Mio./62 USD).
+Briefing an rj@ versendet.
+
 **Nachtschicht Mac Mini (~02:30, Wissens-Health-Check grobkosten Re-Audit, Dispatch-Run
 20260725-023006).** Standard-Prioritaeten 1–4 heute Nacht bereits erschoepft (Sync-/Remote-
 Queues leer, Synobsis Lauf 13 bereits 02:18 gelaufen, planungsgrundlagen Training Run 59
