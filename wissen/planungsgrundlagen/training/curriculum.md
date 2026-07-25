@@ -691,6 +691,12 @@ das Ergebnis in den passenden Wiki-Artikel.
   B5/BSV-2026 per WebSearch erneut geprueft (analog E5/E9-Refresh Run 73): beide unveraendert
   bestaetigt, kein Delta seit Run 62. Sechste unabhaengige Erschoepfungs-Bestaetigung fuer
   Recht/Norm+Brandschutz → siehe `outputs/2026-07-25_training-run74.md`.
+- [x] R76-Freshness/B50-Freshness (Run 76, 2026-07-25, Token-Vollgas) Datei-Frischecheck
+  `PL - 02_Recht_Norm` + `PL - 03 Brandschutz` gegen den Zeitstempel von Run 74 (`find -newer`)
+  — **0 neue/veraenderte Dateien** in beiden Ordnerbaeumen. Kein erneuter WebSearch-Refresh von
+  R6/B5 (bereits Run 74 selben Tag geprueft, kein Delta erwartbar). Siebte unabhaengige
+  Erschoepfungs-Bestaetigung fuer Recht/Norm+Brandschutz → siehe
+  `outputs/2026-07-25_training-run76.md`.
 
 ## Meta / Querschnitt
 - [x] M1 Grundlagen-Checkliste «neue Parzelle» (was holt man IMMER zuerst) als Standard-Output. (2026-06-30 Run 12: 8 Pflicht-Grundlagen EGRID→OEREB→Zonenplan→Baulinien→Vermessung→DTM/Ortho→GWR→Behoerden je mit Connector-Befehl, SZ-Kurzvariante, End-to-End-Benchmark Giebelweg 12 EGRID CH879777718909 validiert → [[kartenportale-grundlagen-checkliste-neue-parzelle]])
