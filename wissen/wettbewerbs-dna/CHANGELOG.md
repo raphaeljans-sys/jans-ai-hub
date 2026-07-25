@@ -1,5 +1,29 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-25 — Baustein B4 Healthcare: Muster-Synthese «jury-argumente-healthcare.md» auf established gehoben (5-Shard-Refuter-Welle + Konsistenz-Refuter bestanden)
+- Der abschliessende Konsistenz-Refuter prüfte die aus 8 established Healthcare-Juryberichten
+  synthetisierte Muster-Datei `wiki/muster/jury-argumente-healthcare.md` auf Gesamtkonsistenz,
+  nachdem 5 parallele Quellen-Shard-Refuter ihre Shards gegen die Original-Destillate korrigiert
+  hatten. Alle 9 Wikilinks (8× `extern/jurybericht-*` + `delta-zum-ersten-rang`) zeigen auf
+  existierende Dateien.
+- **Korrigierte Inkonsistenzen:** (1) Zahl-Widerspruch Kennwert-Lücke — Verifikations-Hinweis
+  sagte «sechs», Offene Punkte «Fünf» Berichte ohne absolute Kennwerte; gegen die Bombach-Quelle
+  verifiziert (Bombach publiziert laut eigenem Destillat KEINE projektspezifischen Kosten-, nur den
+  Programm-Kostenrahmen Fr. 18.5 Mio) und beidseitig auf **sechs** (Sihlsana, ipw, LUKS, Tägermoos,
+  Bombach, Widnau) vereinheitlicht, mit «projektspezifisch»-Präzisierung und Bombach-Rahmen als
+  benannte Ausnahme. (2) Body-Narrative «draft / Refuter-Welle steht aus» (Verifikations-Hinweis +
+  Offene Punkte) auf den neuen `established`-Stand nachgezogen. (3) Psychiatrie-Einzelbeleg-Markierung
+  beim Lift-K.-o. von «EINZELBELEG» auf einheitlich «VORLÄUFIG/EINZELBELEG ipw» harmonisiert.
+  (4) Frontmatter-`sources` um alle 8 namentlichen Quellberichte ergänzt (vorher nur Sammel-Zeile).
+- **Frontmatter:** `status` draft → **established**, `last_updated` 2026-07-25. Einzelbeleg-Kennzeichnung
+  (Psychiatrie nur ipw-schlosstal, betreutes Alterswohnen nur Tägermoos) im gesamten Dokument
+  konsistent durchgehalten.
+- **Healthcare-Kernbefund (dokumentiert):** Im Healthcare-Wettbewerb gewinnt nicht das architektonisch
+  stärkste, sondern das betrieblich fehlerfreie, bei laufendem Betrieb etappierbare und
+  bewilligungsfähige (Brandschutz + Tageslicht versorgungskritischer Räume als harte K.-o.-Schwellen)
+  Projekt — architektonischer Ausdruck/Atmosphäre wird regelmässig sogar beim Sieger als Defizit
+  vermerkt (KSA, USB, im Pflegebereich Widnau gespiegelt). **Naechste Zelle: Healthcare B5 Parameter-Set.**
+
 ## 2026-07-25 — Extern Healthcare Tranche 3: Jurybericht «Alters- und Pflegezentrum Widnau» (Schlussbericht Studienauftrag, 2017) destilliert + Refuter-verifiziert (established) — Healthcare B3 damit 8/8
 - Neuer Artikel `wiki/extern/jurybericht-alters-pflegezentrum-widnau.md` aus dem Volltext-Extrakt
   `raw/extern-jurybericht-alters-pflegezentrum-widnau.txt` (pdftotext -layout, 63 S., espazium-S3).

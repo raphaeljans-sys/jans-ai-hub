@@ -1,9 +1,17 @@
 ---
 title: "Jury-DNA Healthcare (Alters-/Pflege-/Gesundheitsbau) — was in Schweizer Healthcare-Wettbewerben gewinnt (Synthese aus 8 ausgewerteten Juryberichten)"
-status: draft
+status: established
 last_updated: 2026-07-25
 sources:
   - "8 aktiv ausgewertete Referenz-Juryberichte in wiki/extern/ (2012–2025, Healthcare: Spital/Klinik, Pflegeheim/Alterszentrum, Psychiatrie, betreutes Alterswohnen), subtyp-gespreizt, aber pro Subtyp schmale Basis (siehe Verifikations-Hinweis)"
+  - "jurybericht-kantonsspital-aarau-ksa (Spital/Klinik)"
+  - "jurybericht-luks-sursee-schwyzermatt (Spital/Klinik)"
+  - "jurybericht-universitaetsspital-basel-klinikum-2 (Spital/Klinik)"
+  - "jurybericht-alterszentrum-sihlsana-adliswil (Pflegeheim/Alterszentrum)"
+  - "jurybericht-haus-der-demenz-bombach-zuerich (Pflegeheim/Demenz-Sondertyp)"
+  - "jurybericht-alters-pflegezentrum-widnau (Pflegeheim/Alterszentrum)"
+  - "jurybericht-ipw-klinik-schlosstal-winterthur (Psychiatrie, Einzelbeleg)"
+  - "jurybericht-alterswohnen-taegermoos-kuesnacht (betreutes Alterswohnen, Einzelbeleg)"
 links:
   - "[[delta-zum-ersten-rang]]"
   - "[[extern/jurybericht-kantonsspital-aarau-ksa]]"
@@ -47,16 +55,19 @@ im Ergebnis mit [[delta-zum-ersten-rang]], hat aber eine Healthcare-Eigenheit: d
 ist hier ein **bewilligungspflichtiger, gesundheitskritischer** Betrieb, weshalb Brandschutz
 und Tageslicht in Nebenräumen zu harten K.-o.-Schwellen werden, die es im Schulbau so nicht gibt.
 
-**Verifikations-Hinweis (25.07.2026):** Diese Fassung ist **`draft`** und noch NICHT durch eine
-Refuter-Welle gegen die Rohextrakte gegengeprüft (Statushebung auf `established` erst danach,
-Rule 260714). Anders als die Schulbau-Synthese (23 Quellen) beruht sie auf **nur 8** Quellen.
+**Verifikations-Hinweis (25.07.2026):** Diese Fassung ist **`established`** — sie durchlief eine
+Refuter-Welle aus fünf parallelen Quellen-Shard-Refutern plus einem abschliessenden Konsistenz-
+Refuter gegen die acht Rohextrakte (Rule 260714). Die Belastbarkeit bleibt dennoch durch die
+schmale Basis begrenzt: anders als die Schulbau-Synthese (23 Quellen) beruht sie auf **nur 8** Quellen.
 Die Basis ist zwar subtyp-gespreizt, pro Subtyp aber schmal: Spital/Klinik und Pflegeheim/
 Alterszentrum stützen sich je auf 3 Quellen (robuster), **Psychiatrie und betreutes Alterswohnen
 je auf nur EINE Quelle (Einzelbeleg)** — Muster, die ausschliesslich aus ipw Schlosstal bzw.
 Tägermoos stammen, sind unten ausdrücklich als «vorläufig/Einzelbeleg» markiert und dürfen nicht
 als robuste Subtyp-Regel gelesen werden. Zusätzlich publizieren sechs der acht Berichte (Sihlsana,
-ipw, LUKS, Tägermoos, Bombach, Widnau) **keine absoluten Kosten-/Flächenkennwerte** — die
-Wirtschaftlichkeit wird dort nur qualitativ-vergleichend gewürdigt.
+ipw, LUKS, Tägermoos, Bombach, Widnau) **keine absoluten projektspezifischen Kosten-/
+Flächenkennwerte** — die Wirtschaftlichkeit wird dort nur qualitativ-vergleichend gewürdigt
+(projektbezogene Kosten-/Flächenwerte liefern im Wesentlichen nur KSA und USB; Bombach nennt
+lediglich den Programm-Kostenrahmen von rund Fr. 18.5 Mio).
 
 ## 1. Die Rangordnung der Kriterien (empirisch, nicht die Ausschreibungs-Reihenfolge)
 
@@ -274,7 +285,7 @@ Zimmertyp und Aussenraum stärker als die Ortsanalyse.
   Schwachpunkt, auch bei rangierten Projekten (USB Kazwei «nicht funktionsfähig, da zu eng», S. 42;
   selbst der Sieger Arcadia «Fläche für die Rettungsfahrzeuge genügt jedoch nicht», S. 30).
 - **Ein einziger Lift für mehrere Stationen.** Als Programmverstoss gewertet (Psychiatrie,
-  EINZELBELEG ipw, S. 20).
+  VORLÄUFIG/EINZELBELEG ipw, S. 20).
 
 **Kein K.o., aber teuer (weiche Rangverlust-Gründe):** hoher Fensteranteil (LUKS 60 %, in
 Kombination mit Fixverschattung übermässiger winterlicher Tageslichtverlust, S. 23); nicht
@@ -356,9 +367,10 @@ kein Vorteil daraus erwächst (LUKS S. 10/63; Widnau S. 10).
 
 ## Offene Punkte
 
-- **Refuter-Welle steht aus.** Diese Synthese ist `draft`; Statushebung auf `established` erst nach
-  einem unabhängigen Refuter-Lauf gegen die 8 Rohextrakte (analog Schulbau-Synthese). Erst dann
-  denselben Verifikationsgrad beanspruchen.
+- **Refuter-Welle durchlaufen (25.07.2026).** Diese Synthese wurde durch fünf parallele Quellen-
+  Shard-Refuter (je ein Shard gegen die Original-Destillate) plus einen abschliessenden Konsistenz-
+  Refuter gegen die 8 Rohextrakte geprüft und auf `established` gehoben (analog Schulbau-Synthese).
+  Weitere Verdichtung folgt mit zusätzlichen Quellen (siehe dünnste Subtypen).
 - **Dünnste Subtypen (für die Refuter-Welle prioritär): Psychiatrie und betreutes Alterswohnen —
   je nur EINE Quelle.** Alle Psychiatrie-Muster (geschützter Isolier-Aussenraum, horizontale statt
   vertikale Erweiterung, Innenhof-Geschossgrenze, ein-Lift-Verstoss, healing environment) stammen
@@ -366,10 +378,12 @@ kein Vorteil daraus erwächst (LUKS S. 10/63; Widnau S. 10).
   Erschliessung, umnutzbares Wohnmodul) ausschliesslich aus Tägermoos. Beide sind im Text als
   «vorläufig/Einzelbeleg» markiert und dürfen nicht als robuste Regel verkauft werden, bis ein
   zweiter Bericht des jeweiligen Subtyps vorliegt.
-- **Kennwert-Lücke:** Fünf der acht Berichte publizieren keine absoluten Kosten-/Flächenkennwerte;
-  belastbar sind v. a. der Faktor GF/NF (LUKS 1.64) sowie Programm-/Mengengerüste (Betten,
-  Pflegeplätze, Perimeter). Der B6-Kennwert-Benchmark ist aus dieser Basis nur eingeschränkt
-  quantitativ speisbar.
+- **Kennwert-Lücke:** Sechs der acht Berichte (Sihlsana, ipw, LUKS, Tägermoos, Bombach, Widnau)
+  publizieren keine absoluten projektspezifischen Kosten-/Flächenkennwerte — die Wirtschaftlichkeit
+  wird nur qualitativ-vergleichend gewürdigt; belastbar sind sonst v. a. der Faktor GF/NF
+  (LUKS 1.64), der Bombach-Programm-Kostenrahmen (rund Fr. 18.5 Mio, BKP 1–9) sowie Programm-/
+  Mengengerüste (Betten, Pflegeplätze, Perimeter). Der B6-Kennwert-Benchmark ist aus dieser Basis
+  nur eingeschränkt quantitativ speisbar.
 - **Kein Reha-Subtyp vertreten** (Reha/Kur ist im Skill-Trigger genannt, aber unter den 8 Quellen
   nicht abgedeckt) — eigener Bericht bei Gelegenheit.
 - **Demenz sitzt als Sondertyp zwischen Pflegeheim und Psychiatrie:** Bombach liefert nur einen

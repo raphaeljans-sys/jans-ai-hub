@@ -1849,3 +1849,40 @@ geltendem `established`-Frontmatter — korrigiert. Damit ist die in Run 48-53 b
 kantonaler Erlasse (ABV/BBV I/BBV II/BVV/KNHV/StrG/EnerG/WsG/WsV/PPV) einmal vollständig
 durchlaufen. **0 Halluzinationen**, 1 echter Lückenschluss, 2 neue Drill-Karten. Report
 `outputs/2026-07-25_buch-run54.md`.
+
+## Zonenkonformität / BZO Stadt Zürich — Buch-Run 56 (2026-07-25, Modell D, Stichproben-Re-Verifikation Priorität c)
+
+- **F (Modell D):** Gibt es in der BZO Zürich (Stadt) einen «grossen» und einen «kleinen»
+  Grenzabstand wie im kantonalen Regelbauweise-System? — **A:** **Nein.** Die Stadt Zürich regelt
+  in Art. 13 BZO einen einheitlichen **Grundgrenzabstand von 5 m** (Wohnzonen) bzw. **3,5 m**
+  (Zentrumszonen Art. 18), der bei Fassadenlängen über 12 m nach Art. 14 BZO (Mehrlängenzuschlag)
+  bis zu einem zonenabhängigen Höchstmass (10-13 m) steigt. Die Unterscheidung «grosser/kleiner
+  Grenzabstand» gehört zur kantonalen PBG/ABV-Regelbauweise für Gemeinden ohne eigene
+  Grundmasse-Regelung, nicht zur Stadt-Zürich-BZO. `raw/260725_amtlich_zh_bzo-zurich-stadt-
+  grundmasse.md`. _[2026-07-25]_
+- **F (Modell D):** Wie hoch ist die maximale Ausnützungsziffer in der Wohnzone W4 der Stadt
+  Zürich? — **A:** **120 %** (Art. 13 BZO, Stand 29.05.2024) — nicht «0.65-0.85» wie ein früherer,
+  nie am Erlass geprüfter Platzhalter behauptete. Werte für alle Wohnzonen: W2 60 %, W3 90 %, W4b
+  105 %, W4 120 %, W5 165 %, W6 205 %. _[2026-07-25]_
+- **F (Modell D):** Welche maximale Gebäudehöhe gilt in der Wohnzone W3 der Stadt Zürich? — **A:**
+  **9,5 m** bei 3 Vollgeschossen (Art. 13 BZO) — nicht 10,5 m wie zuvor im Wiki-Artikel
+  [[zonenkonformitaet]] behauptet. Reihe W2-W6: 9 m/9,5 m/12,5 m (W4b und W4)/15,5 m/18,5 m.
+  _[2026-07-25]_
+- **F (Modell C):** Welche Zentrumszonen-Grundmasse gelten für Z5-Z7 in Zürich Stadt? — **A:** Art.
+  18 BZO: Z5 = 5 Vollgeschosse/19 m GH/200 % AZ, Z6 = 6/22 m/230 %, Z7 = 7/25 m/260 %, jeweils
+  Grundgrenzabstand 3,5 m. Diese Zeile fehlte im bisherigen Wiki-Artikel komplett (nur eine
+  falsche Z5-Zeile mit Werten von 1.20-1.80 AZ / 16,5 m GH). _[2026-07-25]_
+
+**Ergebnis Buch-Run 56 (Festigungsmodus, Priorität c, Stichproben-Re-Verifikation
+[[zonenkonformitaet]]):** die gesamte Grundmasse-Tabelle des Artikels erwies sich als
+unbelegter Platzhalter aus einer selbst verfassten «docs»-Quelldatei (dort explizit als TODO
+ausgewiesen), nie gegen den amtlichen Erlass geprüft. Amtliche Werte aus Art. 13/14/18 BZO
+Zürich (Stadt), Stand 29.05.2024, per frischer `pdftotext -layout`-Extraktion beschafft (die
+bestehende raw-Datei hatte die Tabelle linearisiert und dadurch unlesbar gemacht) und die
+komplette Tabelle ersetzt: Zonensystematik (W2bI-W6, Z5-Z7), Zahlenwerte (AZ in % statt
+Dezimalbruch, andere Gebäudehöhen, kein «grosser/kleiner GA») sowie Mehrlängenzuschlag Art. 14
+neu ergänzt. **0 Halluzinationen im Wiki-Text selbst** (das Wiki hatte den Platzhalter bereits
+korrekt als `needs-verification` geflaggt), aber der komplette Zahlenbestand war falsch — ein
+weiterer Beleg für die Leitplanke «ein Flag ist selten harmlos». Neue Quelldatei
+`raw/260725_amtlich_zh_bzo-zurich-stadt-grundmasse.md`, `verifiziert`-Feld im Wiki-Artikel
+ergänzt. 3 neue Drill-Karten (Modell D) + 1 (Modell C). Report `outputs/2026-07-25_buch-run56.md`.

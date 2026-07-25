@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-25
+last_updated: 2026-07-25 (Run 56)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -113,6 +113,33 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 56 (2026-07-25, Festigungsmodus, Priorität (c) Stichproben-Re-Verifikation, kein
+    Agent-Fan-out):** Run 55s Empfehlung gefolgt: [[zonenkonformitaet]] (last_updated 2026-06-02,
+    ältester `established`-Bestand ohne `verifiziert`-Feld, ausschliesslich Buch-/BZO-Quellen
+    ohne einen einzigen PBG-§-Beleg) geprüft. **Grosser Fund:** die komplette Grundmasse-Tabelle
+    (Zonen W2-W5, Z5) stammte aus `raw/260602_docs-baurecht-bzo-zh.md`, einer selbst verfassten
+    Platzhalterdatei, die die Werte explizit als unbelegte Schätzung auswies («TODO: Werte
+    ergänzen») — nie gegen den amtlichen Erlass geprüft, trotzdem seit Ersterfassung Teil eines
+    `established`-Artikels. Amtliche Quelle `raw/260607_amtlich_zh_bzo-zurich-stadt.md` (BZO
+    Zürich Stadt, Stand 29.05.2024) enthielt Art. 13/14/18 bereits, war aber beim Ersteinlesen
+    tabellarisch linearisiert (Spalten verschoben, unbrauchbar). Original-PDF
+    (`oerebdocs.zh.ch/getDoc?docid=6`) frisch mit `pdftotext -layout` extrahiert — Tabelle damit
+    sauber lesbar. **Alle Zahlenwerte waren falsch:** Systematik «grosser/kleiner Grenzabstand»
+    existiert in der Stadt-Zürich-BZO nicht (kantonale PBG/ABV-Regelbauweise-Terminologie,
+    fälschlich zugeordnet) — echte Systematik: einheitlicher Grundgrenzabstand 5 m (Wohnzonen)/
+    3,5 m (Zentrumszonen) + Mehrlängenzuschlag Art. 14; AZ in % statt Dezimalbruch (W2 60 %, W3
+    90 %, W4b 105 %, W4 120 %, W5 165 %, W6 205 %, Z5-Z7 200/230/260 %); Gebäudehöhen weichen
+    durchweg ab (W2 9 m statt 7,5 m, W3 9,5 m statt 10,5 m, W4 12,5 m statt 13,5 m, W5 15,5 m
+    statt 16,5 m); Zonen W2bI-III, W4b, W6, Z5-Z7 fehlten komplett. **Register-Sweep negativ**
+    (falsche Werte nur im Wiki-Artikel + seiner abgelösten Quelldatei, keine weiteren Fundorte in
+    `buecher/`, `wiki/INDEX.md`, `training/curriculum.md`). Neue Quelldatei `raw/260725_amtlich_
+    zh_bzo-zurich-stadt-grundmasse.md`. **0 Halluzinationen** (der Artikel hatte den Platzhalter
+    bereits korrekt als `needs-verification` geflaggt — ein weiterer Beleg der Leitplanke «ein
+    Flag ist selten harmlos»), 1 kompletter Tabellen-Fehlbestand korrigiert, 4 neue Drill-Karten.
+    Report `outputs/2026-07-25_buch-run56.md`. **Nächster Schritt:** `bauausfuehrung-und-
+    baukontrolle.md` / `widerrechtliche-bauten-und-sanktionen.md` (laut Run 55 in Run 30/31
+    bereits volltextverifiziert, nur `verifiziert`-Feld fehlt) oder `bestandsumbau-eingriffstiefe.md`
+    (Kt. SZ, noch nie geprüft) als nächster Priorität-(c)-Kandidat.
   - **Run 55 (2026-07-25, Festigungsmodus, Priorität (c) Stichproben-Re-Verifikation, kein
     Agent-Fan-out):** Nach Run 54s Empfehlung auf Priorität (c) umgeschwenkt: Kandidaten mit
     fehlendem/ältestem `verifiziert`-Feld ermittelt (sechs `established`-Artikel ganz ohne dieses

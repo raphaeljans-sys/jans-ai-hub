@@ -1,5 +1,53 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## 2026-07-25 (Buch-Run 56, Festigungsmodus, Priorität c: Stichproben-Re-Verifikation) — Grundmasse-Tabelle Zonenkonformität war ein unbelegter Platzhalter, jetzt amtlich korrigiert
+
+Run 55 empfahl [[zonenkonformitaet]] (last_updated 2026-06-02, ältester `established`-
+Bestand ohne `verifiziert`-Feld, ausschliesslich Buch-/BZO-Quellen ohne PBG-§-Beleg) als
+nächsten Priorität-(c)-Kandidaten. Der Artikel trug bereits einen eigenen
+`needs-verification`-Hinweis («Einzelwerte nicht gegen die aktuelle BZO einzeln
+verifiziert») — die Leitplanke aus Run 47/48 («ein Flag ist selten harmlos, er verdeckt
+oft einen Fehler») hat sich damit ein weiteres Mal bestätigt.
+
+- **Ursache gefunden:** die komplette Grundmasse-Tabelle (Zonen W2-W5, Z5) stammte aus
+  `raw/260602_docs-baurecht-bzo-zh.md` — einer selbst verfassten «docs»-Datei, die die
+  Werte explizit als unbelegte Schätzung auswies («TODO: Detaillierung mit Inhalten aus
+  Zürcher Planungs- und Baurecht Band 2 ergänzen»). Der Platzhalter wurde nie gegen den
+  amtlichen Erlass geprüft und lief seit der Ersterfassung als Teil eines
+  `status: established`-Artikels.
+- **Amtliche Quelle beschafft:** `raw/260607_amtlich_zh_bzo-zurich-stadt.md` (BZO Zürich
+  Stadt 2016, Stand 29.05.2024) enthält Art. 13/14/18 bereits im Rohbestand — die dortige
+  mehrspaltige Grundmasse-Tabelle war jedoch beim Ersteinlesen linearisiert und dadurch
+  spaltenverschoben unbrauchbar. Für diesen Lauf das Original-PDF
+  (`oerebdocs.zh.ch/getDoc?docid=6`) frisch mit `pdftotext -layout` extrahiert — damit
+  war die Tabelle sauber lesbar.
+- **Alle Zahlenwerte waren falsch, nicht nur ungenau:** die Systematik «grosser/kleiner
+  Grenzabstand» (KB) existiert in der Stadt-Zürich-BZO gar nicht — das ist Terminologie
+  der kantonalen PBG/ABV-Regelbauweise für Gemeinden ohne eigene Grundmasse-Regelung,
+  fälschlich der Stadt Zürich zugeschrieben. Die echte Systematik: ein einheitlicher
+  **Grundgrenzabstand von 5 m** (Wohnzonen) bzw. **3,5 m** (Zentrumszonen) plus
+  **Mehrlängenzuschlag** (Art. 14, bei Fassaden > 12 m). Die AZ-Werte sind in Prozent
+  (60 %/90 %/120 %/165 %/205 % für W2-W6) statt der KB-Dezimalwerte (0.25-1.00), und die
+  Gebäudehöhen weichen ebenfalls ab (amtlich W2 9 m statt 7,5 m; W3 9,5 m statt 10,5 m;
+  W4 12,5 m statt 13,5 m; W5 15,5 m statt 16,5 m). Zusätzlich amtlich erfasst: die
+  reduzierten Sub-Varianten W2bI/II/III, die Zone W4b/W6 (fehlten in der KB komplett) und
+  die Zentrumszonen Z5-Z7 (Art. 18: 19 m/22 m/25 m GH, 200 %/230 %/260 % AZ, 3,5 m GA —
+  die KB-Werte für Z5 waren ebenfalls durchweg falsch).
+- **Register-Sweep:** die falschen Werte kamen ausschliesslich in `wiki/zonenkonformitaet.md`
+  und ihrer Quelldatei vor (kein weiterer Fundort in `buecher/`, `wiki/INDEX.md`,
+  `training/curriculum.md`, `training/drills.md` — Grep-Kontrolle negativ). `raw/`-Dateien
+  werden laut Rule `wissens-bibliothekar` nie editiert; die veraltete Platzhaltertabelle
+  in `raw/260602_docs-baurecht-bzo-zh.md` bleibt dort stehen (Quell-Dump), ist aber durch
+  die neue `sources`-Angabe im Wiki-Artikel als abgelöst gekennzeichnet.
+- **Nächster Kandidat für Priorität (c):** `bauausfuehrung-und-baukontrolle.md` und
+  `widerrechtliche-bauten-und-sanktionen.md` (laut Run 55 bereits in Run 30/31
+  volltextverifiziert, nur das `verifiziert`-Frontmatter-Feld fehlt — geringere Priorität,
+  da inhaltlich vermutlich unauffällig) oder `bestandsumbau-eingriffstiefe.md` (Kt. SZ,
+  eigener Charakter, noch nie geprüft).
+- **0 Halluzinationen, 1 kompletter Tabellen-Fehlbestand korrigiert (nicht Halluzination,
+  sondern nie verifizierter Platzhalter), 2 neue Erlasse/Artikel amtlich erschlossen
+  (BZO Zürich Art. 13/14/18).** Report `outputs/2026-07-25_buch-run56.md`.
+
 ## 2026-07-25 (Buch-Run 55, Festigungsmodus, Priorität c: Stichproben-Re-Verifikation) — Fassungsstand-Umkehr in Kap. 14 (Nutzungsziffern) gefunden und korrigiert
 
 Run 54 empfahl den Wechsel von Priorität (b) (Fassungsstand-Check kantonaler Erlasse, jetzt einmal

@@ -4,6 +4,28 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-25 — Buch-Run 56 (Festigungsmodus, Prioritaet c: Stichproben-Re-Verifikation Zonenkonformitaet)
+- [korrektur] **Komplette Grundmasse-Tabelle in [[zonenkonformitaet]] war ein unbelegter
+  Platzhalter — jetzt amtlich ersetzt.** Quelle der bisherigen Werte war `raw/260602_docs-
+  baurecht-bzo-zh.md`, eine selbst verfasste Datei, die die Zahlen explizit als ungeprüfte
+  Schätzung auswies («TODO: Werte ergänzen»); nie gegen den Erlass geprüft, obwohl der Artikel
+  als `established` lief. Neue amtliche Werte aus Art. 13/14/18 BZO Zürich (Stadt), Stand
+  29.05.2024: einheitlicher Grundgrenzabstand 5 m (Wohnzonen)/3,5 m (Zentrumszonen) statt der
+  erfundenen «grosser/kleiner GA»-Systematik; AZ in Prozent (W2 60 %, W3 90 %, W4b 105 %, W4
+  120 %, W5 165 %, W6 205 %, Z5-Z7 200/230/260 %) statt Dezimalbruch; Gebäudehöhen durchweg
+  abweichend (W2 9 m, W3 9,5 m, W4/W4b 12,5 m, W5 15,5 m statt 7,5/10,5/13,5/16,5 m); Zonen
+  W2bI-III, W4b, W6, Z5-Z7 neu ergänzt (fehlten komplett). Mehrlängenzuschlag Art. 14 neu
+  aufgenommen.
+- [neu] **Amtliche Quelldatei** `raw/260725_amtlich_zh_bzo-zurich-stadt-grundmasse.md`
+  (Art. 13/14/15/18/19 BZO Zürich Stadt, per `pdftotext -layout` sauber extrahiert — die
+  bestehende `raw/260607_amtlich_zh_bzo-zurich-stadt.md` hatte die Tabelle linearisiert und
+  dadurch spaltenverschoben unbrauchbar gemacht).
+- [neu] `verifiziert`-Frontmatter-Feld in [[zonenkonformitaet]] ergänzt (erster Modell-D-Lauf
+  für diesen Artikel).
+- [drill] 4 neue Karten in `training/drills.md` (Sektion «Zonenkonformität / BZO Stadt Zürich —
+  Buch-Run 56»).
+- Report: `outputs/2026-07-25_buch-run56.md`.
+
 ## 2026-07-25 — Buch-Run 55 (Festigungsmodus, Prioritaet c: Stichproben-Re-Verifikation Kap. 14)
 - [korrektur] **Fassungsstand-Umkehr in [[nutzungsziffern]] gefunden und korrigiert** (Modell-D-
   Volltextabgleich gegen `raw/260607_amtlich_zh_pbg.md` + `raw/260607_amtlich_zh_abv.md`, Hauptteil

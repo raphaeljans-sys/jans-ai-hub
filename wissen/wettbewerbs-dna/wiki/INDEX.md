@@ -1,6 +1,17 @@
 # INDEX — KB wettbewerbs-dna
 
-Stand: 25.07.2026 (Etappe 3, **Baustein B2/B3 Healthcare Tranche 3 — Healthcare B3 nun 8/8,
+Stand: 25.07.2026 (Etappe 3, **Baustein B4 Healthcare — Muster-Synthese
+`muster/jury-argumente-healthcare.md` auf `established` gehoben:** 5 parallele Quellen-Shard-Refuter
++ 1 abschliessender Konsistenz-Refuter gegen die 8 Rohextrakte bestanden. Der Konsistenz-Refuter
+vereinheitlichte die Kennwert-Lücke-Zahl (Verifikations-Hinweis «sechs» vs. Offene Punkte «Fünf» →
+gegen die Bombach-Quelle verifiziert auf **sechs** Berichte ohne absolute projektspezifische
+Kennwerte, mit Bombach-Programm-Kostenrahmen als benannte Ausnahme), zog die «draft/Refuter steht
+aus»-Narrative im Body auf `established` nach, harmonisierte die Psychiatrie-Einzelbeleg-Markierung
+und ergänzte die Frontmatter-`sources` um alle 8 Quellberichte. **Healthcare-Kernbefund:** es gewinnt
+nicht das architektonisch stärkste, sondern das betrieblich fehlerfreie, bei laufendem Betrieb
+etappierbare und bewilligungsfähige (Brandschutz + Tageslicht) Projekt — architektonischer Ausdruck
+wird regelmässig sogar beim Sieger als Defizit vermerkt. **Naechste Zelle: Healthcare B5 Parameter-
+Set.**) — vorher 25.07.2026 (Etappe 3, **Baustein B2/B3 Healthcare Tranche 3 — Healthcare B3 nun 8/8,
 damit B3-Ziel erreicht:** 2 weitere externe Juryberichte destilliert + Refuter-verifiziert
 (established) — **universitaetsspital-basel-klinikum-2** (spital-klinik, Erneuerung Klinikum 2
 USB 2013, Sieger «Arcadia», giuliani.hönger/Caretta+Weidmann; Refuter fand ~20 systematisch
@@ -97,6 +108,7 @@ Teil 2 Rang-Klaerung UND Teil 3 Muster-Verdichtung, siehe `training/PROGRAMM.md`
   Status **established** (refuter-verifiziert, Lauf 3 13.07.2026, VERDIKT BESTANDEN; 2507
   Halden + Befund 11 «harte Vorgaben» am 24.07.2026 nachgetragen, noch nicht refuter-geprueft)
 - muster/jury-argumente-schulbauten.md — Jury-DNA Schul-/Bildungsbau: Kriterien-Rangordnung, Gewinner-Typologien je Aufgabe, 10 Siegargumente, K.-o.-Liste, Verfahrensmechanik; Basis erweitert von 11 auf **23** ausgewertete Fremd-Juryberichte + 3 eigene (Etappe-3-Schulbau-Sweep 14.07.2026, B4 abgeschlossen). Status **established** (Refuter-Erstlauf 13.07. «nicht bestanden», 10 Korrekturen eingearbeitet, fokussierter Zweitlauf 10/10 bestaetigt; Basis-Erweiterung 14.07. mit eigenem Verifikations-Hinweis im Artikel belegt)
+- muster/jury-argumente-healthcare.md — Jury-DNA Healthcare (Alters-/Pflege-/Gesundheitsbau): Kriterien-Rangordnung, Gewinner-Typologien je Subtyp (Spital/Klinik, Pflegeheim/Alterszentrum, Demenz-Sondertyp, Psychiatrie, betreutes Alterswohnen), 12 Siegargumente, K.-o.-Liste, Verfahrensmechanik, Skill-Massnahmen. Basis **8** ausgewertete Fremd-Juryberichte (subtyp-gespreizt: Spital 3×, Pflegeheim 3×, Psychiatrie/Alterswohnen je 1× = Einzelbeleg, im Text markiert). **Healthcare-Kernbefund:** betrieblich fehlerfrei + etappierbar-weiterbetreibbar + bewilligungsfähig (Brandschutz/Tageslicht) schlägt architektonischen Ausdruck. Status **established** (Etappe 3, Baustein B4, 25.07.2026: 5 Quellen-Shard-Refuter + 1 Konsistenz-Refuter bestanden; Kennwert-Zahl «Fünf»→«Sechs» harmonisiert, draft-Narrative nachgezogen)
 - muster/kennwerte-schulbauten.md — **Kennwert-Benchmark Schul-/Bildungsbau (Etappe 3, Baustein B6, 20.07.2026):** Flaecheneffizienz HNF/GF **0.52–0.54** (zwei unabhaengige Quellen: Kantonsschule Wattwil Soll 0.532, eigene SIA-416-Abgabe 2507 Halden Ist 0.528), Klassenzimmer **64–75 m2** (Planungswert 75), Verhaeltnis **2 Klassenzimmer je Gruppenraum**, Cluster **3–4 Klassen je Geschoss**, Regelklasse **19–21 Schueler**, **900-m2-GF-Schwelle je Geschoss** als brandschutzgetriebener Typologie-Treiber (Muttenz + Steffisburg), Kostendach-Tabelle 10 Faelle, Neubau **1.6–1.8 Mio. CHF je Klassenzimmer** (Sonderschule 2.5), Vorpruefungs-Toleranz **±20 %** bei Finalisten-Spreizung 16–24 %. **Strukturbefund: CHF/m3 GV ist aus Schul-Juryberichten NICHT belegbar** (absolute GV-Werte in 1 von 25 Quellen) — bleibt bei `wissen/grobkosten/`. Basis 25 Quellen, **436 Kennzahlen geprueft / 431 bestaetigt / 5 verworfen**. Status **established** (25 Extraktions- + 25 unabhaengige Refuter-Agenten)
 - muster/jans-board-dna.md — grafische Handschrift der Abgabe-Boards + Vorgaben-Liste fuer den Agenten plakat-setzer; Basis 9 Board-Analysen. Status **established** (9 unabhaengige Quellen-Refuter 14.07.2026, 4 Korrekturen eingearbeitet: Plan-first-Zuordnung 2205, Werkplan-Vorbehalt 2205, Massstabsbeleg 2206, Alt-Neu-Praezisierung 2408)
 

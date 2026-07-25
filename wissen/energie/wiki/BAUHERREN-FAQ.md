@@ -4812,24 +4812,58 @@ im Volltext; kleine Nuance bei der genauen PV-Einordnung bleibt offen).
 
 ### F140 — Was bringt eine Dachbegrünung oder ein Baum wirklich gegen die sommerliche Überhitzung — lohnt sich das neben der Klimaanlage?
 
-Ja, und meist zuerst statt einer Klimaanlage. Der Kanton Zürich beziffert den Kühleffekt eines
-grosskronigen Baums auf **über 7 °C** Reduktion der Aussenlufttemperatur und einer Dachbegrünung
-tagsüber auf bis zu **6,6 °C** — deutlich mehr als ein heller, reflektierender Bodenbelag (nur
-0,6 °C). Wasserelemente (Brunnen, Vernebelung) kühlen über Verdunstung sogar bis zu 8 °C.
-Hintergrund ist der urbane Hitzeinseleffekt: versiegelte, dunkle Flächen speichern Wärme und
-strahlen sie ab, was gerade in Städten die sommerliche Überhitzung verstärkt — ein Effekt, den der
-Klimawandel gemäss MeteoSchweiz (Climate CH2025) zusätzlich verschärft. Der Regierungsratsbeschluss
-ZH zur Klimaanlagen-Bewilligungspraxis verlangt deshalb ausdrücklich genau diese baulichen
-Massnahmen (Verschattung, Begrünung, Nachtauskühlung, interne Lastreduktion) **vor** einer aktiven
-Kühlung. Kostenseitig ist nur die extensive Dachbegrünung amtlich beziffert: rund CHF 32–50/m²
-Erstellung plus CHF 1.40/m² Unterhalt pro Jahr — für Fassadenbegrünung/Wasserelemente/
-Verschattungselemente liegen keine amtlichen Schweizer Kostenkennwerte vor. Wer in der Stadt
-Zürich baut, sollte vor der Baueingabe das städtische Stadtklimatool sowie die kostenlose
-Freiraumberatung von Grün Stadt Zürich konsultieren — die kommunale Fachplanung Hitzeminderung
-liefert standortspezifische statt nur generische Empfehlungen.
+Ja, und meist zuerst statt einer Klimaanlage. Am belastbarsten primärquellen-bestätigt (BAFU/ARE-
+Grundlagenbericht «Hitze in Städten», UW-1812-D, 2018, im Volltext ausgewertet) ist der
+grosskronige Baum: Temperaturreduktion der Aussenluft von **über 7 °C**, vor allem durch
+Beschattung und Verdunstung. Der Kanton Zürich nennt zusätzlich für eine Dachbegrünung tagsüber bis
+zu **6,6 °C** und für Wasserelemente (Brunnen, Vernebelung) bis zu **8 °C** — hier zur Einordnung
+zwei wichtige Präzisierungen aus dem Originalbericht: die 8 °C sind dort ein reiner
+**Oberflächentemperatur**-Effekt (nicht Luft), ein direkter Luftkühlungs-Wert liegt eher bei rund
+1 °C; und ein heller, reflektierender Bodenbelag bringt gemäss Bericht nur bis 0,6 °C — dies ist
+zudem ursprünglich eine US-amerikanische Schätzung (EPA/Los-Angeles-Pilotprojekt) für eine
+stadtweite Massnahme, kein Schweizer Einzelgrundstück-Wert. Hintergrund ist der urbane
+Hitzeinseleffekt: versiegelte, dunkle Flächen speichern Wärme und strahlen sie ab, was gerade in
+Städten die sommerliche Überhitzung verstärkt — ein Effekt, den der Klimawandel gemäss MeteoSchweiz
+(Climate CH2025, amtliche Medienmitteilung 04.11.2025) verschärft: für die Stadt Zürich werden in
+einer 3-Grad-Welt rund **fünfmal mehr Tropennächte** erwartet als in der Referenzperiode
+1991–2020. Der Regierungsratsbeschluss ZH zur Klimaanlagen-Bewilligungspraxis verlangt deshalb
+ausdrücklich genau diese baulichen Massnahmen (Verschattung, Begrünung, Nachtauskühlung, interne
+Lastreduktion) **vor** einer aktiven Kühlung. Kostenseitig ist nur die extensive Dachbegrünung
+amtlich beziffert: rund CHF 32–50/m² Erstellung plus CHF 1.40/m² Unterhalt pro Jahr. Wer in der
+Stadt Zürich baut, sollte vor der Baueingabe das städtische Stadtklimatool sowie die kostenlose
+Freiraumberatung von Grün Stadt Zürich konsultieren; im Kanton Schwyz gibt es seit April 2026 zwar
+eigene Klimakarten (WebGIS), aber ausdrücklich nur für Fachleute/Gemeinden, kein vergleichbares
+Beratungsangebot für private Bauherren.
 → `[[urbane-hitzeinseln-kuehlstrategien-aussenraum]]`, `[[sommerlicher-waermeschutz]]`,
 `[[fassadenbegruenung-hitzeschutz-pv-zielkonflikt]]`, `[[rrb-2025-1082-klimaanlagen-bewilligungspraxis-zh]]`.
-Datenstand 25.07.2026 (Run 100, neu). Status **emerging** (kantonale Kühlkennwerte (Kt. ZH)
-primärquellen-nah zitiert, BAFU/ARE-Grundlagenbericht 2018 nur in Auszügen ausgewertet, keine
-eigene SIA-Norm zum Aussenraumklima gefunden; Instrumente wie Stadtklimatool/Fachplanung sind
-kommunales Zürcher Recht, für andere Gemeinden und Kt. SZ nicht ungeprüft übertragbar).
+Datenstand 25.07.2026 (Run 101 geschärft). Status **established** (BAFU/ARE-Grundlagenbericht 2018
+jetzt im Volltext ausgewertet und die Kanton-ZH-Kühlkennwerte gegen das Original verifiziert bzw.
+präzisiert, Kt.-SZ-Lage recherchiert, Tropennächte-Zahl amtlich bei MeteoSchweiz bestätigt; einzelne
+Kanton-ZH-Werte — Dachbegrünung, Rasenfläche — bleiben ohne eigene Primärstudie hinter der
+Kanton-Website, siehe Destillat).
+
+### F141 — Warum verbraucht mein Neubau mehr Energie als im Energienachweis berechnet — und was kann ich dagegen tun?
+
+Der im Energienachweis (SIA 380/1) ausgewiesene Wert ist eine **Vergleichsgrösse fürs
+Baubewilligungsverfahren**, keine verlässliche Prognose des künftigen Betriebskostenverbrauchs.
+Ein Grundlagenbericht von EBP Schweiz im Auftrag von EnergieSchweiz/BFE und der Stadt Zürich
+(November 2019) zeigt: Schweizer Mehrfamilienhäuser verbrauchen im Schnitt **10 bis 44 % mehr**
+Heizwärme als der berechnete Standardbedarf — Hauptursache ist meist nicht die Bautechnik, sondern
+das reale Nutzerverhalten (im Schnitt rund 22,5 °C gemessene Raumtemperatur statt der 20 °C
+Normannahme, häufigeres Lüften). Bei zertifizierten Minergie-P/Minergie-A-Neubauten liegt der Gap
+gemäss einer zweiten Studie (GAPxPLORE) tendenziell in die andere Richtung: sie verbrauchen
+**12 bis 18 % weniger** als prognostiziert. Für die Projektierung heisst das konkret: ein
+Energie-Messkonzept (getrennte Zähler für Heizung, Warmwasser, ggf. Zirkulation) gehört schon in
+die Planung, nicht erst in den Betrieb — nur so lässt sich später unterscheiden, ob ein
+Mehrverbrauch an der Technik (schlecht eingestellte Wärmepumpe, fehlender hydraulischer Abgleich,
+zu hohe Vorlauftemperatur) oder am Nutzerverhalten liegt. Eine systematische Inbetriebsetzung
+(Commissioning) in den ersten ein bis zwei Betriebsjahren behebt die häufigsten technischen
+Fehlerquellen mit vergleichsweise geringem Aufwand. Wichtig: bei Wohnbauten/Mehrfamilienhäusern
+greift keine gesetzliche Betriebsoptimierungspflicht (die MuKEn-Pflicht gilt nur für Nichtwohnbauten
+ab 200'000 kWh/a Strom) — gerade dort, wo der grösste Mehrverbrauch gemessen wird, ist eine
+freiwillige Betriebsoptimierung damit eine lohnende, aber zusätzlich zu vereinbarende Leistung.
+→ `[[energie-performance-gap-monitoring-inbetriebnahme]]`, `[[muken-2025-modul-7-betriebsoptimierung-hlkkse]]`,
+`[[en-zh-nachweis-uebersicht]]`, `[[minergie-zertifizierung-workflow]]`.
+Datenstand 25.07.2026 (Run 101, neu). Status **emerging** (EBP-Grundlagenbericht 2019 im Volltext
+gelesen, GAPxPLORE-Zahlen bisher nur über Minergie-Sekundärdarstellung, keine Nachfolgestudie nach
+2019 identifiziert, Healthcare-/Pflegebau-spezifische Performance-Gap-Zahlen fehlen vollständig).
