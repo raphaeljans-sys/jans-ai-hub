@@ -160,6 +160,19 @@ Dokument vor → `[[vkf-richtlinie-gefaehrliche-stoffe]]`. Für Batteriespeicher
 die Richtlinie **22-15 Blitzschutzsysteme** sowie ein separates VKF-Lithium-Ionen-Infoblatt die
 vermutlich richtige, aber noch nicht im Volltext beschaffte Quelle (offener Punkt).
 
+**Ortsbildschutz/Kernzone ohne Denkmalschutz — der häufigere Alltagsfall (Run 114, 2026-07-25):**
+Nicht jedes Gebäude in einer kommunalen Kernzone oder einem Ortsbildschutzgebiet ist ein
+Baudenkmal oder steht im ISOS-Inventar (dafür siehe `[[denkmalschutz-energiesanierung-zh-sz]]`).
+Trotzdem löst allein die **Kernzonenlage** in Kt. ZH für JEDE Solaranlage das ordentliche
+Baubewilligungsverfahren aus (§ 2a Abs. 2 BVV — kein Meldeverfahren, auch nicht für kleine
+Plug-and-Play-Anlagen), während der Kanton den Gemeinden gleichzeitig ausdrücklich davon abrät,
+eigene, weiterreichende BZO-Gestaltungsvorschriften zu verankern — ältere restriktive
+Kernzonen-Klauseln («nur Indachanlagen», genereller Ausschluss) stuft er selbst als
+bundesrechtswidrig ein (§ 238 Abs. 4 PBG privilegiert die Solaranlage in der Interessenabwägung).
+In Kt. SZ fehlt ein vergleichbares Kernzonen-Sonderregime; dort gilt mangels eigener Norm das
+allgemeine Bundesrecht (Meldeverfahren bei genügender Anpassung, Art. 18a RPG/Art. 32a RPV).
+→ Bauherren-FAQ **F166**, Destillat `[[ortsbildschutz-kernzone-solaranlagen-zh-sz]]`.
+
 ## Quelle
 TEC21/TRACÉS-Dossier «Solares Bauen» 5/2012 (EPFL/LESO) → `[[tec21-solares-bauen-pv-typen-2012]]`.
 Wirkungsgrade Stand 2012 — vor Zitat aktuelle Datenblätter prüfen.

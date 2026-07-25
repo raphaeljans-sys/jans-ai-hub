@@ -3,10 +3,10 @@
 Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 
 ## Kernprodukt
-- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**Stand 2026-07-25 (Run 113): 163 Kernfragen F1–F163, 178 Destillate**, primärquellenbelegt, je Intensiv-Lauf mehrere parallele Rechercheagenten plus adversariale Gegenprüfung bestehender Antworten). Diese Zeile nennt bewusst nur den aktuellen Stand statt jede Lauf-Ergänzung einzeln aufzulisten (Verdichtung statt additivem Wachstum, Rule `wissens-bibliothekar`) — die vollständige Lauf-für-Lauf-Historie mit allen Einzelergänzungen steht in `CHANGELOG.md` (neueste zuoberst).
+- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**Stand 2026-07-25 (Run 114): 166 Kernfragen F1–F166, 181 Destillate**, primärquellenbelegt, je Intensiv-Lauf mehrere parallele Rechercheagenten plus adversariale Gegenprüfung bestehender Antworten). Diese Zeile nennt bewusst nur den aktuellen Stand statt jede Lauf-Ergänzung einzeln aufzulisten (Verdichtung statt additivem Wachstum, Rule `wissens-bibliothekar`) — die vollständige Lauf-für-Lauf-Historie mit allen Einzelergänzungen steht in `CHANGELOG.md` (neueste zuoberst).
 
 ## Themen-Artikel
-Echte eigenständige Wiki-Artikel (`wiki/*.md`), 26 Stück.
+Echte eigenständige Wiki-Artikel (`wiki/*.md`), 27 Stück.
 
 - [[u-werte-grenzwerte-ch]] — U-Wert- & Heizwaermebedarf-Grenzwerte + EBF + Waermebruecken (Balkonplatte Ψ durchbetoniert 0,6-1,05 vs. Stahlkorb/Dorne 0,06-0,26 W/(m·K), F48; Fensteranschluss Ψ 0,08-0,36, F49; Sockel/beheizter Keller Ψ 0,30-0,82 stark tiefendaemmungsabhaengig, F50; Flachdach-Vordach Ψ 0,40-0,53 ungedaemmt vs. praktisch null mit Dorn-Anschluss, F51; Flachdach-Bruestung — Material dominiert ueber Daemmung, Ψ 0,02-0,53, F52; Flachdach ohne Vordach Ψ 0,44-0,60 (durchgehende Daemmung macht Wert negativ), Steildach Traufe/Ort durchweg unkritisch, Auskragung Ψ 0,04-0,29 (Unterlagsbodendaemmung entscheidet), Rollladenkasten Ψ 0,18-0,26, Fensterleibung/-bruestung/-sturz Grenzwert 0,10 (ungedaemmte Fensterbank +0,20 groesster Einzelfehler), F53-F57; Stuetzen/Fassadenanker (Gruppe 6, X-Wert-Systematik statt Ψ) — Stahlstuetze 0,20-0,37 W/K teils ueber Grenzwert 0,30 W/K vs. Stahlbeton 0,05-0,12 W/K, Fassadenanker-ΔU-Zuschlag Holzlattung +0,02-0,03 vs. Alu +0,02-0,19 W/(m²·K), F58; Geschossdecke/Kellerdecke/Innenwandanschluss (Gruppe 2) — Innenwand-Auflager durchbetoniert Ψ 0,63-0,89 hoechster Einzelwert des Katalogs vs. Stahlkorb 0,07-0,15, Wandanschluss Kellerdecke 0,23-0,26/−0,02-0,14, Innenwandanschluss Aussenwand 0,11-0,24, F59 (Curriculum A4 vollstaendig) + **Ausblick MuKEn 2025 inkl. Graue-Energie-Formel GWObjekt**; Bauteilekatalog-Kap. 4 vollstaendig (Run 65): Daecher/Decken D-/Di-Serie (Umkehrdach mit amtlichem 20-%-Feuchtezuschlag), inhomogene Bauteile Bi-/Wi-Serie Holzbau, Fenster-Uw-Formel + amtliche Uf-Fallback-Tabelle (F69) · **established**
 - [[minergie-standards]] — Minergie/-P/-A/ECO + Eigenstromerzeugung (Stand 2023, mit THGE); ergänzt: **MKZ-Formel** + Minergie-2023-Neuerungen (90 % Q_h,li, Monitoring 1000 m², 60 % E-Parkplaetze) · **established**
@@ -32,6 +32,7 @@ Echte eigenständige Wiki-Artikel (`wiki/*.md`), 26 Stück.
 - [[solarpflicht-schweiz-kantone]] — **Solarpflicht Schweiz — Bund und alle 26 Kantone**: nationaler Mindeststandard Art. 45a EnG ab 300 m², kantonale Verschärfungen (Bern ohne Schwelle 10 % aGF ab 1.1.2026, Luzern 50 % Dachfläche auch EFH, SG 10 W/m² EBF), Gemeinde-Kompetenz-Delegation SG/AG/BL (F66); Aargau/Uri/Neuenburg beim/nahe Bundesminimum, Basel-Stadt «Solaroffensive» für Bestandsbauten in Vorbereitung, Graubünden Eigenstromerzeugungspflicht seit 2021; Waadt/Genf/Tessin/Solothurn/Wallis mit eigenen Pflichten seit 2023–2025; Schwyz (JANS-Fokuskanton) KEINE kantonale Solarpflicht (Motion 22.10.2025 abgelehnt), Zug/Glarus/Nidwalden/Appenzell AR ohne Flächenschwelle seit 2021–2023, Obwalden PBG 4.12.2025 (Referendum hängig), Basel-Landschaft/Schaffhausen Solarinitiativen 8.3.2026 abgelehnt, Jura MoPEC seit 2019 (Revision geplant), Appenzell IR unklare Quellenlage (F66) · **emerging** (Destillat `[[solarpflicht-national-mantelerlass-kantone]]`, ergänzt `[[zh-energiegesetz-revision-solarpflicht-2026]]`)
 - [[holzbau-bauphysik-clt]] — Massivholz/CLT: Waerme (λ 0,12), Luftdicht (folienfrei), Feuchte (s_d) + Bauteilkatalog (Wand/Dach REI·U·Rw) + Schallschutz (R_w 34-58, L'_n,w 60→46) · **established**
 - [[schallschutz-sia181]] — Schallschutz SIA 181:2020: Anforderungswerte Luft-/Tritt-/Haustechnik-/Aussenlaerm je Empfindlichkeit, erhoehte Anforderung Pflicht bei EFH/STWEG, Bauwert≠Laborwert (Flanken-Mechanik R_w↔R'_w / K_P+K_F / 12 Nebenwege EN 12354 / C-Werte, Lignum/BFH 2008); Aussenlaerm Strasse/Bahn (F68): LSV am offenen Fenster (Bewilligung) vs. SIA 181 am geschlossenen Fenster (Bauqualitaet), Massnahmen-Kaskade, Ampel gelbe/rote Raeume, ZH-Festverglasung ab 70/60 dB, R'w+Ctr statt Rw → `[[aussenlaerm-schallschutzfenster-strasse-bahn]]`; SZ-Vollzugspraxis amtlich belegt (Merkblatt AfU Kanton Schwyz 29.01.2021) — 10 % Fensterflaeche Grundvoraussetzung, 3-dB-Ausnahmehartgrenze, Festverglasungsverbot Wohn-/Arbeitsraeume → `[[cerclebruit-sz-merkblatt-laermbelastete-gebiete]]`; SIA 181 definiert keine Fensterklassen-Skala (SSK-1-6 stammt aus DIN 4109), De ≥ Lr,Tag−33dB/Lr,Nacht−25dB amtlich (Stadt Bern Okt. 2023) · **established** (FAQ F25, F68)
+- [[notstromversorgung-sicherheitsstromversorgung]] — **Notstromversorgung/Sicherheitsstromversorgung Spital & Pflegeheim** (neu, Run 114): geregelt primär brandschutzrechtlich (VKF-Merkblatt 2009-15de zu BSR 17-15) und elektroinstallationstechnisch (NIN Kap. 5.6/7.10, medizinische Gruppen 0/1/2), NICHT über ein eigenes Spitalliste-Kriterium; ab 70 kW Aggregatnennleistung eigener EI-60-Technikraum statt EI-30 — frühe Flächen-/Kostenfolge; keine CH-Primärquelle zur konkreten Autonomiezeit gefunden (F164) · **established** (Destillat `[[notstromversorgung-netzersatzanlage-spital-pflegeheim-ch]]`, hohe Healthcare-Relevanz für JANS)
 - [[gebaeudeschadstoffe]] — Gebäudeschadstoffe beim Umbau (Kt. ZH): 4-Fälle-Raster Baujahr **vor 1990**/Bausumme **≤ CHF 200'000** → Checkliste selbst ↔ Fachperson + private Kontrolle; Stichjahre Asbest 1990/PCB-Geräte 1987/PCB-Fugen 1976; Spezialobjekte (Schule/Kita/**Spital**) immer Fachperson; ohne Voruntersuchung gilt Bauteil als haltig → teuer (F23) · **established** (Destillat `[[gebaeudeschadstoffe-checkliste-zh]]`; Run 89, promoviert aus Destillat-Direktverweis)
 - [[fenster-uw-g-wert-zielkonflikt]] — **Fenster-Zielkonflikt Uw vs. g-Wert**: physikalisch am Glas nicht auflösbar, nur zeitlich über beweglichen Aussensonnenschutz auflösbar; SIA 180:2014 Ziff. 5.2.4.1 g_tot-Grenze orientierungsabhängig (Nord ≤0,20/fg grosszügig, NO/NW ≤0,13/fg, alle übrigen Fassaden inkl. Ost/West gleich streng wie Süd ≤0,07/fg); Sonnenschutzglas nur wo Storen baulich unmöglich (Systemnachweis-Schwelle g<0,3); innenliegender Sonnenschutz Faktor 4-5 schlechter als aussenliegend; CH-Norm zählt Überschreitungsstunden (100 h Neubau/400 h Bestand über 26,5 °C), keine deutsche Kelvinstunden-Methode (F121) + **Glas-g-Wert ist methodisch orientierungsunabhängig (Minergie-Anwendungshilfe 2025-2, Kap. 6.3.8) — primärquellenbestätigter Negativbefund zur gesuchten Himmelsrichtungs-Tabelle, g-Wert-Bandbreiten je Verglasungstyp 0,13-0,62 über vier CH-Quellen konsistent belegt (F125)** · **established** (schliesst Curriculum-Punkt A5; Destillat `[[glas-g-wert-verglasungstypen-ch]]`, Run 92/93)
 
@@ -236,3 +237,40 @@ Destillaten gestreift, nie selbst recherchiert — besonders relevant für JANS'
 (Pflegeheim/Spital erreicht die Schwelle oft schon ab 3'000-7'000 m² EBF) → neues Destillat
 `[[grossverbraucherartikel-zielvereinbarung-zh-sz]]`, FAQ F160. Destillate-Stand: **175** (davor
 173, zwei neue). FAQ-Stand: **160** (davor 157).
+
+**Run 113 (2026-07-25, Nachtrag):** drei parallele Rechercheagenten, Redundanz-Check per grep vor
+freier Themenwahl (PDF-Inventar seit Run 65 erschöpft). Kommunale Wärmeplanung ZH/SZ (Vorranggebiete
+nur behördenverbindlich, keine automatische Anschlusspflicht) → `[[waermeplanung-kommunal-zh-sz]]`,
+FAQ F161; Warmwasser-Wärmepumpe als eigenständiges Retrofit-Thema (COP-Median 2,84/2,6 primärbelegt,
+kantonal nicht gefördert ausser befristetem EKZ-Programm) → `[[warmwasser-waermepumpe-boiler-retrofit]]`,
+FAQ F162; Tiefengeothermie Schweiz (für Einzelbauprojekt in aller Regel nicht relevant, ehrlich als
+Nischenthema eingeordnet) → `[[tiefengeothermie-schweiz]]`, FAQ F163. Destillate-Stand: **178**
+(davor 175, drei neue). FAQ-Stand: **163** (davor 160).
+
+**Run 114 (2026-07-25):** drei parallele `general-purpose`-Rechercheagenten, Redundanz-Check per
+grep vor Themenwahl (PDF-Inventar weiterhin erschöpft seit Run 65, jeder Agent editierte
+ausschliesslich sein eigenes Destillat — Kollisionsschutz). **Notstromversorgung/Netzersatzanlage
+für Spital und Pflegeheim** (VKF-Brandschutzmerkblatt 2009-15de zu BSR 17-15, 21 S. vollständig +
+USZ-Merkblatt v2.0 + BFE Fact-Sheet 45 + Kt.-ZH-Spitallisten-Anforderungen als Negativbefund +
+BABS-Gefährdungsdossier): primär brandschutz- und elektroinstallationsrechtlich (NIN Kap. 5.6/7.10,
+medizinische Gruppen 0/1/2) geregelt statt über ein eigenes Gesundheitsrecht-Kriterium, ab 70 kW
+Aggregatnennleistung eigener EI-60-Technikraum — hohe Healthcare-Relevanz für JANS → neues Destillat
+`[[notstromversorgung-netzersatzanlage-spital-pflegeheim-ch]]`, established, FAQ **F164** neu,
+erster eigener Wiki-Artikel `[[notstromversorgung-sicherheitsstromversorgung]]`. **Rückkühlwerk/
+Kühlturm** (BAG/BLV-Empfehlungen Modul 14, 17 S. amtliches Original vollständig + zh.ch
+Grundwasserkühlungs-Konzession): Legionellen-/Hygiene-Kern und Grundwasserkühlungs-Konzession
+established, eigenständige Baubewilligungspflicht für Rückkühlwerke selbst nur per Analogieschluss
+(emerging), quantitativer COP-Vergleich Nass-/Trockenkühlung nur qualitativ (speculative) → neues
+Destillat `[[ruckkuehlwerk-kuehlturm-legionellen-bewilligung-ch]]`, FAQ **F165** neu, ergänzt
+`[[sommerlicher-waermeschutz]]`. **Ortsbildschutz/Kernzone ohne Denkmalschutz** (Kt.-ZH-Leitfaden
+Solaranlagen Baudirektion/ARE Dezember 2022 vollständig + § 2a/§ 238 PBG ZH + SZ-RRB 912/2022 +
+PBG SZ §§ 17-24/55-56/75a): bewusste Abgrenzung vom bereits etablierten ISOS-/Denkmalschutz-Destillat
+— Kernzonenlage macht in Kt. ZH ALLEIN jede Solaranlage bewilligungspflichtig (§ 2a Abs. 2 BVV),
+Kanton rät Gemeinden von eigenen restriktiven BZO-Klauseln ab, Kt. SZ ohne vergleichbares
+Sonderregime → neues Destillat `[[ortsbildschutz-kernzone-solaranlagen-zh-sz]]`, established, FAQ
+**F166** neu, ergänzt `[[pv-solar-technologien]]`. Alle drei Agenten-Destillate vor
+Registerkonsolidierung auf Disjunktheit geprüft (drei neue, unabhängige Dateien, kein
+Kollisionsrisiko). **Vierte Bestätigung in Folge, dass die Sättigungsdiagnose für neue
+Themenfelder nicht zutrifft** (Run 111-114: je mindestens zwei bis drei echte neue Themenfelder
+trotz 178+ bestehender Destillate) — Redundanz-Check-per-grep-vor-Themenwahl bleibt der
+belastbarste Weg. Destillate-Stand: **181** (davor 178, drei neue). FAQ-Stand: **166** (davor 163).

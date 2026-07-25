@@ -2,6 +2,75 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 114: Drei parallele Rechercheagenten, Healthcare-Schwerpunkt (Notstrom + Rückkühlwerk), plus Ortsbildschutz-Kernzone
+
+PDF-Inventar weiterhin erschöpft seit Run 65. Vor Auftragsvergabe neun Kandidatenthemen per grep
+geprüft (Notstromversorgung/Netzersatzanlage, Rückkühlwerk/Kühlturm, Ortsbildschutz-Kernzone,
+Contracting, PV-Recycling, Fernwärmetarif, Grundwasserschutzzone-Erdsonde, Nachtstromspeicherheizung,
+Wasserstoff-Heizung) — sechs davon bereits abgedeckt (Redundanz vermieden), drei echte Lücken
+identifiziert, drei `general-purpose`-Rechercheagenten parallel angesetzt (jeder schrieb
+ausschliesslich sein eigenes Destillat, keine Register-Edits — Kollisionsschutz mit zwei
+Schwester-Agenten).
+
+1. **Notstromversorgung/Netzersatzanlage für Spital und Pflegeheim** (VKF-Brandschutzmerkblatt
+   2009-15de zu BSR 17-15, Stand 09.12.2024, 21 S. vollständig gelesen; USZ-Merkblatt «Konzept
+   Versorgung elektrische Energie, med. Gruppe 1 und 2» v2.0 20.05.2021; BFE Fact-Sheet 45 zur
+   NIV 01.05.2020; Kt.-ZH-«Generelle Anforderungen an die Listenspitäler» 2023 per Volltextsuche
+   auf Notstrom/Netzersatz geprüft — Negativbefund; BABS-Gefährdungsdossier Nr. 25): die
+   Sicherheitsstromversorgung ist primär brandschutzrechtlich (VKF-Merkblatt) und
+   elektroinstallationstechnisch (NIN Kap. 5.6 «Einrichtungen für Sicherheitszwecke» und Kap. 7.10
+   «Elektrische Anlagen in medizinisch genutzten Räumen», Gruppen 0/1/2) geregelt, **nicht** über
+   ein eigenes Gesundheitsrecht-Kriterium der kantonalen Spitalliste. Zentrale Flächen-/
+   Kostenfolge: ab **70 kW Aggregatnennleistung** ist ein eigener **EI-60-Technikraum** statt nur
+   EI-30 im nutzungsbezogenen Brandabschnitt Pflicht (Ziff. 5.3.1) — eine frühe Projektentscheidung.
+   Besonders hohe Healthcare-Relevanz für JANS' Kerngeschäft → neues Destillat
+   `notstromversorgung-netzersatzanlage-spital-pflegeheim-ch`, established, FAQ **F164** neu,
+   erster eigenständiger Wiki-Artikel `notstromversorgung-sicherheitsstromversorgung.md`.
+2. **Rückkühlwerk/Kühlturm — Legionellen-Risiko, Bewilligung und energetische Abwägung** (BAG/BLV
+   «Legionellen und Legionellose»-Empfehlungen, Modul 14 «Kühlsysteme, Raumlufttechnik und
+   Befeuchtungsanlagen», amtliches Original 17 S. vollständig gelesen, plus Modul 0; Kt. ZH «Energie
+   aus Grundwasser», amtliche Verfahrensauskunft): Legionellen-/Hygiene-Kern (VDI 2047 Blatt 2 über
+   BAG/BLV referenziert, Tabelle 14A mit klarer Eingriffsschwelle >10⁴ KBE/l Legionellen) und die
+   Grundwasserkühlungs-Konzession (GSchG Art. 29f/GSchV Art. 32) **established**; eine
+   eigenständige Baubewilligungspflicht für Rückkühlwerke selbst ist bisher nur per Analogieschluss
+   zur Klimaanlagen-Bewilligungspraxis hergeleitet (**emerging**); der quantitative energetische
+   COP-Vorteil der Nasskühlung gegenüber Trocken-/Grundwasserkühlung bleibt nur qualitativ-
+   thermodynamisch begründet (**speculative**) → neues Destillat
+   `ruckkuehlwerk-kuehlturm-legionellen-bewilligung-ch`, FAQ **F165** neu, ergänzt
+   `sommerlicher-waermeschutz.md`.
+3. **Ortsbildschutz/Kernzone (ohne Denkmalschutz/ISOS) und Solaranlagen ZH/SZ** (Kt. ZH,
+   Baudirektion/Amt für Raumentwicklung, «Leitfaden für Solaranlagen — Verfahren und Gestaltung»,
+   Dezember 2022, 29 S. vollständig gelesen, inkl. § 2a/§ 2c/§ 2d BVV und § 238 PBG wörtlich
+   zitiert; Kt. Schwyz RRB Nr. 912/2022 vom 29.11.2022 vollständig gelesen; PBG SZ §§ 17-24/55-56/
+   75a, SRSZ 400.100, Stand 1.2.2025): bewusste Abgrenzung vom bereits etablierten Destillat
+   `denkmalschutz-energiesanierung-zh-sz` (dort nur ISOS/Baudenkmäler). Zentrale Klarstellung: die
+   **Kernzonenlage allein** macht in Kt. ZH **jede** Solaranlage bewilligungspflichtig (§ 2a Abs. 2
+   BVV, kein Meldeverfahren, auch für kleine Plug-and-Play-Anlagen), während der Kanton den
+   Gemeinden gleichzeitig ausdrücklich davon abrät, eigene, weiterreichende BZO-Gestaltungs-
+   vorschriften zu verankern — ältere restriktive Kernzonen-Klauseln («nur Indachanlagen»,
+   genereller Ausschluss) stuft er selbst als bundesrechtswidrig ein. Kt. SZ hat kein
+   vergleichbares Kernzonen-Sonderregime; dort gilt mangels eigener Norm das allgemeine
+   Bundesrecht → neues Destillat `ortsbildschutz-kernzone-solaranlagen-zh-sz`, established, FAQ
+   **F166** neu, ergänzt `pv-solar-technologien.md`.
+
+Alle drei Agenten-Destillate vor Registerkonsolidierung per `git status` verifiziert (drei neue,
+disjunkte Dateien, kein Kollisionsrisiko mit paralleler Aktivität). **Vierte Bestätigung in Folge,
+dass die Sättigungsdiagnose für neue Themenfelder nicht zutrifft** (Run 111-114: je mindestens zwei
+bis drei echte neue Themenfelder pro Lauf trotz 178+ bestehender Destillate) — die Methode
+Redundanz-Check-per-grep-vor-Themenwahl bleibt der belastbarste Weg für freie Themenwahl ohne
+offene Werkzeugliste. Register nachgeführt: `destillate/INDEX.md` (drei neue Zeilen),
+`wiki/INDEX.md` (Kopfzeile-Stand, neuer Themen-Artikel-Eintrag, Run-113/114-Nachtrag im Verlaufs-
+Teil), `wiki/BAUHERREN-FAQ.md` (F164-F166 neu + sources-Liste + Kopfzeile), `wiki/sommerlicher-
+waermeschutz.md` + `wiki/pv-solar-technologien.md` (neue Abschnitte), `wiki/notstromversorgung-
+sicherheitsstromversorgung.md` (neuer Wiki-Artikel), `training/curriculum.md` (D85),
+`wiki/QUESTIONS.md` (Run 114 + Nachtrag Run 113, der im Verlaufs-Teil gefehlt hatte). FAQ-Stand:
+**166 Kernfragen (F1–F166) belegt.** Destillate-Stand: **181** (drei neue).
+
+**Offene Punkte unverändert (aus Run 112/113 übernommen, weiterhin auf Raphaels Entscheid
+wartend):** die fünf gebündelten Kaufentscheide (seit Run 98, jetzt sechzehn Runs in Folge ohne
+Entscheidung), Meta-Punkt M2 (eigenständiger Skill "energie"?, seit Run 45 spruchreif),
+SIA-2024-Gesundheitsbau-Merge (ausführungsreif, wartet auf Zustimmung).
+
 ## 2026-07-25 — Run 113: Drei parallele Rechercheagenten, freie Themenwahl mit Redundanz-Check (kein offener Werkzeug-Kandidat mehr), drei neue Themenfelder
 
 PDF-Inventar weiterhin erschöpft seit Run 65. Da die Run-108-111-Werkzeugliste seit Run 112

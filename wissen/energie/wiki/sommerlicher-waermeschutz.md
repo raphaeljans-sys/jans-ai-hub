@@ -75,10 +75,26 @@ Kühlmaschine ins Spiel kommt, ändert sich das Nachweisregime komplett (Verfahr
 zusätzliches Formular).
 → Bauherren-FAQ **F11**, **F67**, **F88**, **F145**.
 
+## Rückkühlwerk/Kühlturm bei aktiver Kühlung (Run 114, 2026-07-25)
+
+Sobald eine Kältemaschine ins Spiel kommt (Healthcare: Spital/Pflegeheim, Kühllast oft
+unvermeidbar), stellt sich die Frage Nasskühlturm vs. Trockenkühler vs. Grundwasserkühlung. Ein
+offener Nasskühlturm bringt meist den besseren Wirkungsgrad, erzeugt aber ein dauerhaftes
+**Legionellen-Betriebsthema**: die BAG/BLV-Empfehlungen Modul 14 verlangen für Verdunstungskühl-
+anlagen ≤200 MW (praktisch immer der Fall) periodische Wasserkontrollen nach VDI 2047 Blatt 2,
+mit klarer Eingriffsschwelle (Tabelle 14A: ab >10⁴ KBE/l Legionellen droht die Stilllegung).
+Trockenkühler sind hygienisch unkritisch, aber im Sommer weniger effizient. Grundwasserkühlung
+kann sich energetisch lohnen, braucht in Kt. ZH aber eine AWEL-Konzession (GSchG Art. 29f/GSchV
+Art. 32), die die baurechtliche Bewilligung einschliesst. Eine eigenständige Baubewilligungspflicht
+für Rückkühlwerke selbst ist bisher nur per Analogieschluss zur Klimaanlagen-Bewilligungspraxis
+hergeleitet (offen), ebenso ein quantitativer CH-Beleg zum energetischen Vorteil der Nasskühlung.
+→ Bauherren-FAQ **F165**, Destillat `[[ruckkuehlwerk-kuehlturm-legionellen-bewilligung-ch]]`.
+
 ## Offen
 - SIA 180:2014 Figur 13 (Dachflächenfenster/Oberlichter, gtot je Orientierung) liegt nur als
   Grafik vor, nicht als Formel/Zahlentabelle extrahiert.
-- Zusammenspiel mit aktiver Kühlung/Erdsonden-Freecooling (Healthcare-Relevanz) vertiefen.
+- Rückkühlwerk-Baubewilligungspflicht selbst amtlich verifizieren (bisher nur Analogieschluss);
+  quantitativer COP-Vergleich Nass-/Trockenkühlung für CH-Klima offen (siehe Abschnitt oben).
 - Quantitativer Effekt der Fassadenbegrünung auf Kühllast/Heizwärmebedarf (kWh/m²) offen.
 - MuKEn-2025-Kommentar zu Art. 1.9 Abs. 2 zitiert SIA 380/2:2022 Ziff. 3.2 für «Kühlung notwendig/
   erwünscht», die Stadt-ZH-/HBA-Praxis zitiert SIA 382/1:2014 — Verhältnis der beiden Normzitate

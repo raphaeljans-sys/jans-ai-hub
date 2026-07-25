@@ -1616,3 +1616,55 @@ mindestens zwei echte neue Themenfelder pro Lauf trotz 175+ bestehender Destilla
 Redundanz-Check-per-grep-vor-Themenwahl bleibt fuer freie Themenwahl ohne offene Werkzeugliste der
 belastbarste Weg. FAQ-Stand: **163 Kernfragen (F1-F163) belegt.** Destillate-Stand: **178** (drei
 neue).
+
+## D85 (Run 114, 2026-07-25) — drei parallele Rechercheagenten, Redundanz-Check per grep, Healthcare-Schwerpunkt
+PDF-Inventar weiterhin erschoepft seit Run 65. Vor Auftragsvergabe per grep neun Kandidatenthemen
+geprueft (Notstromversorgung/Netzersatzanlage, Rueckkuehlwerk/Kuehlturm, Ortsbildschutz-Kernzone,
+Contracting, PV-Recycling, Fernwaermetarif, Grundwasserschutzzone-Erdsonde, Nachtstromspeicherheizung,
+Wasserstoff-Heizung) — drei echte Luecken identifiziert (null Treffer), drei `general-purpose`-
+Rechercheagenten parallel angesetzt (jeder schrieb ausschliesslich sein eigenes Destillat, kein
+Register-Edit — Kollisionsschutz). **Notstromversorgung/Netzersatzanlage fuer Spital und Pflegeheim**
+(VKF-Brandschutzmerkblatt 2009-15de zu BSR 17-15, 21 S. vollstaendig gelesen + USZ-Merkblatt v2.0 +
+BFE Fact-Sheet 45 + Kt.-ZH-Spitallisten-Anforderungen als Negativbefund + BABS-Gefaehrdungsdossier):
+geregelt primaer brandschutzrechtlich und elektroinstallationstechnisch (NIN Kap. 5.6/7.10, med.
+Gruppen 0/1/2), NICHT ueber ein eigenes Spitalliste-Kriterium; ab 70 kW Aggregatnennleistung eigener
+EI-60-Technikraum statt EI-30 — fruehe Flaechen-/Kostenfolge; besonders hohe Healthcare-Relevanz fuer
+JANS → neues Destillat `[[notstromversorgung-netzersatzanlage-spital-pflegeheim-ch]]`, established,
+FAQ **F164** neu, erster eigenstaendiger Wiki-Artikel `notstromversorgung-sicherheitsstromversorgung.md`.
+**Rueckkuehlwerk/Kuehlturm** (BAG/BLV-Empfehlungen Modul 14, 17 S. amtliches Original vollstaendig +
+zh.ch Grundwasserkuehlungs-Konzession): Legionellen-/Hygiene-Kern (Tabelle 14A, Eingriffsschwelle
+&gt;10⁴ KBE/l) und Grundwasserkuehlungs-Konzession established, eigenstaendige Baubewilligungspflicht
+fuer Rueckkuehlwerke selbst nur per Analogieschluss zur Klimaanlagen-RRB (emerging), quantitativer
+COP-Vergleich Nass-/Trockenkuehlung nur qualitativ-thermodynamisch (speculative) → neues Destillat
+`[[ruckkuehlwerk-kuehlturm-legionellen-bewilligung-ch]]`, FAQ **F165** neu, ergaenzt
+`[[sommerlicher-waermeschutz]]`. **Ortsbildschutz/Kernzone ohne Denkmalschutz** (Kt.-ZH-Leitfaden
+Solaranlagen Baudirektion/ARE Dezember 2022 vollstaendig gelesen + § 2a/§ 2c/§ 2d BVV + § 238 PBG ZH
++ SZ-RRB Nr. 912/2022 vollstaendig + PBG SZ §§ 17-24/55-56/75a): bewusste Abgrenzung vom bereits
+etablierten ISOS-/Denkmalschutz-Destillat `denkmalschutz-energiesanierung-zh-sz` — die Kernzonenlage
+macht in Kt. ZH ALLEIN jede Solaranlage bewilligungspflichtig (§ 2a Abs. 2 BVV, kein Meldeverfahren,
+auch Plug-and-Play), obwohl der Kanton den Gemeinden von eigenen restriktiven BZO-Gestaltungsvor-
+schriften ausdruecklich abrät und aeltere Klauseln als bundesrechtswidrig einstuft; Kt. SZ ohne
+vergleichbares Kernzonen-Sonderregime → neues Destillat `[[ortsbildschutz-kernzone-solaranlagen-zh-sz]]`,
+established, FAQ **F166** neu, ergaenzt `[[pv-solar-technologien]]`. Alle drei Agenten-Destillate vor
+Registerkonsolidierung auf Disjunktheit geprueft (drei neue, unabhaengige Dateien, kein
+Kollisionsrisiko). **Vierte Bestaetigung in Folge, dass die Saettigungsdiagnose fuer neue
+Themenfelder nicht zutrifft** (Run 111-114: je mindestens zwei bis drei echte neue Themenfelder
+trotz 178+ bestehender Destillate) — Redundanz-Check-per-grep-vor-Themenwahl bleibt der belastbarste
+Weg. FAQ-Stand: **166 Kernfragen (F1-F166) belegt.** Destillate-Stand: **181** (drei neue).
+
+**Naechster Lauf: Prioritaet**
+1. Die fuenf gebuendelten Kaufentscheide wachsen seit Run 98 unveraendert ohne Entscheidung — jetzt
+   **sechzehn Runs** in Folge. Dringende Empfehlung unveraendert: beim naechsten Kontakt mit Raphael
+   als kurze Buendel-Frage stellen.
+2. Meta-Punkt M2 (eigenstaendiger Skill "energie"?) seit Run 45 spruchreif, weiterhin unentschieden.
+3. SIA-2024-Gesundheitsbau-Merge weiterhin ausfuehrungsreif, wartet auf Raphaels Zustimmung.
+4. Offene Punkte aus den drei neuen Run-114-Destillaten fuer kuenftige Laeufe: NIN Kap. 5.6/7.10
+   im Electrosuisse-Originaltext beschaffen (kostenpflichtig, ggf. Sekundaerquellen genuegen);
+   VKF-Richtlinie 17-15 selbst im Volltext; Notstromversorgung + Rueckkuehlwerk fuer Kt. Schwyz noch
+   nicht recherchiert; eigenstaendige Baubewilligungspflicht fuer Rueckkuehlwerke amtlich verifizieren
+   (bisher nur Analogieschluss); ZH-Arbeitshilfe «Musterbestimmungen Kernzonen» (2/2024, 34 S.)
+   technisch nicht ladbar.
+5. Healthcare-Vertiefung als neuer Schwerpunkt-Kandidat: Run 114 hat mit Notstromversorgung und
+   Rueckkuehlwerk zwei Healthcare-spezifische Themenfelder erschlossen — weitere Kandidaten fuer
+   kuenftige Laeufe waeren Reinraum-/OP-Klimatisierung (Filterklassen H13/H14, Ueberdruckkaskaden)
+   und Sterilisationsenergie (Autoklaven-Prozessenergie), beide bisher nur am Rand erwaehnt.

@@ -2257,3 +2257,69 @@ gestrichen — kein weiterer Handlungsbedarf von dieser KB aus.
      (Run 111/112/113: je mindestens zwei echte neue Themenfelder trotz 175+ bestehender
      Destillate) — die Methode «Redundanz-Check per grep vor Themenwahl, dann gezielte Suche nach
      amtlicher Primärquelle» bleibt der belastbarste Weg für freie Themenwahl ohne Werkzeugliste.
+
+## Run 114 (2026-07-25) — drei parallele Rechercheagenten, Healthcare-Schwerpunkt (Notstrom + Rückkühlwerk), plus Ortsbildschutz-Kernzone
+
+PDF-Inventar weiterhin erschöpft seit Run 65. Vor Auftragsvergabe neun Kandidatenthemen per grep
+geprüft (Notstromversorgung/Netzersatzanlage, Rückkühlwerk/Kühlturm, Ortsbildschutz-Kernzone,
+Contracting, PV-Recycling, Fernwärmetarif, Grundwasserschutzzone-Erdsonde, Nachtstromspeicherheizung,
+Wasserstoff-Heizung) — sechs davon erwiesen sich als bereits abgedeckt (echte Redundanz vermieden),
+drei echte Lücken identifiziert (null Treffer), drei `general-purpose`-Rechercheagenten parallel
+angesetzt (jeder editierte ausschliesslich sein eigenes Destillat — Kollisionsschutz).
+
+1. **Notstromversorgung/Netzersatzanlage für Spital und Pflegeheim** (VKF-Brandschutzmerkblatt
+   2009-15de zu BSR 17-15, 21 S. vollständig gelesen + USZ-Merkblatt v2.0 20.05.2021 + BFE
+   Fact-Sheet 45 + Kt.-ZH-«Generelle Anforderungen an die Listenspitäler» 2023 als gezielter
+   Negativbefund + BABS-Gefährdungsdossier Nr. 25): geregelt primär brandschutzrechtlich und
+   elektroinstallationstechnisch (NIN Kap. 5.6/7.10, medizinische Gruppen 0/1/2), NICHT über ein
+   eigenes Spitalliste-Kriterium; ab 70 kW Aggregatnennleistung eigener EI-60-Technikraum statt
+   EI-30 (Ziff. 5.3.1) — frühe Flächen-/Kostenfolge. Besonders hohe Healthcare-Relevanz für JANS →
+   neues Destillat `[[notstromversorgung-netzersatzanlage-spital-pflegeheim-ch]]`, established,
+   FAQ **F164** neu, erster eigenständiger Wiki-Artikel
+   `[[notstromversorgung-sicherheitsstromversorgung]]`. Offen: keine CH-Primärquelle mit
+   konkreter Autonomiezeit (Diesel-Stunden) gefunden, NIN 5.6/7.10 nur sekundärquellig, VKF-
+   Richtlinie 17-15 selbst nicht im Volltext, Kt. Schwyz nicht recherchiert.
+2. **Rückkühlwerk/Kühlturm** (BAG/BLV-Empfehlungen Modul 14 «Kühlsysteme, Raumlufttechnik und
+   Befeuchtungsanlagen», 17 S. amtliches Original vollständig gelesen + Modul 0 + zh.ch «Energie
+   aus Grundwasser»): Legionellen-/Hygiene-Kern (Tabelle 14A, Eingriffsschwelle >10⁴ KBE/l
+   Legionellen) und Grundwasserkühlungs-Konzession (GSchG Art. 29f/GSchV Art. 32) established;
+   eigenständige Baubewilligungspflicht für Rückkühlwerke selbst nur per Analogieschluss zur
+   Klimaanlagen-RRB hergeleitet (emerging); quantitativer COP-Vergleich Nass-/Trockenkühlung nur
+   qualitativ-thermodynamisch (speculative) → neues Destillat
+   `[[ruckkuehlwerk-kuehlturm-legionellen-bewilligung-ch]]`, FAQ **F165** neu, ergänzt
+   `[[sommerlicher-waermeschutz]]`. Offen: VDI 2047 Bl. 2/3 nur sekundärzitiert (kostenpflichtig),
+   Kt. Schwyz ohne eigene Praxis gefunden, Lärmschutz-Systematik für Rückkühlwerk-Ventilatoren
+   nicht amtlich übertragen.
+3. **Ortsbildschutz/Kernzone ohne Denkmalschutz** (Kt.-ZH-Leitfaden «Solaranlagen — Verfahren und
+   Gestaltung», Baudirektion/ARE Dezember 2022, 29 S. vollständig gelesen + § 2a/§ 2c/§ 2d BVV +
+   § 238 PBG ZH + Kt.-SZ-RRB Nr. 912/2022 vollständig + PBG SZ §§ 17-24/55-56/75a): bewusste
+   Abgrenzung vom bereits etablierten ISOS-/Denkmalschutz-Destillat
+   `[[denkmalschutz-energiesanierung-zh-sz]]` — die Kernzonenlage macht in Kt. ZH ALLEIN jede
+   Solaranlage bewilligungspflichtig (§ 2a Abs. 2 BVV, kein Meldeverfahren, auch Plug-and-Play),
+   obwohl der Kanton den Gemeinden von eigenen restriktiven BZO-Gestaltungsvorschriften
+   ausdrücklich abrät und ältere Klauseln als bundesrechtswidrig einstuft; Kt. SZ ohne
+   vergleichbares Kernzonen-Sonderregime → neues Destillat
+   `[[ortsbildschutz-kernzone-solaranlagen-zh-sz]]`, established, FAQ **F166** neu, ergänzt
+   `[[pv-solar-technologien]]`. Offen: ZH-Arbeitshilfe «Musterbestimmungen Kernzonen» (2/2024,
+   34 S.) technisch nicht ladbar, keine Einzelfallprüfung realer Gemeinde-BZO.
+
+Alle drei Agenten-Destillate vor Registerkonsolidierung auf Disjunktheit geprüft (drei neue,
+unabhängige Dateien, kein Kollisionsrisiko). **Vierte Bestätigung in Folge, dass die
+Sättigungsdiagnose für neue Themenfelder nicht zutrifft** (Run 111-114: je mindestens zwei bis
+drei echte neue Themenfelder trotz 178+ bestehender Destillate). FAQ-Stand: **166 Kernfragen
+(F1-F166) belegt.** Destillate-Stand: **181** (drei neue).
+
+  **Nächster Lauf: Priorität**
+  1. Die fünf gebündelten Kaufentscheide wachsen seit Run 98 unverändert ohne Entscheidung — jetzt
+     **sechzehn Runs** in Folge. Dringende Empfehlung unverändert: beim nächsten Kontakt mit
+     Raphael als kurze Bündel-Frage stellen.
+  2. Meta-Punkt M2 (eigenständiger Skill "energie"?) seit Run 45 spruchreif, weiterhin unentschieden.
+  3. SIA-2024-Gesundheitsbau-Merge weiterhin ausführungsreif, wartet auf Raphaels Zustimmung.
+  4. Offene Punkte aus den drei neuen Run-114-Destillaten (siehe oben je Punkt 1-3) für künftige
+     Läufe; zusätzlich Healthcare-Vertiefung als neuer Schwerpunkt-Kandidat — Reinraum-/
+     OP-Klimatisierung (Filterklassen H13/H14, Überdruckkaskaden) und Sterilisationsenergie
+     (Autoklaven-Prozessenergie) bisher nur am Rand erwähnt, noch nicht eigenständig recherchiert.
+  5. Sättigungsdiagnose für neue Themenfelder ist mit Run 114 ein **viertes Mal in Folge widerlegt**
+     (Run 111-114: je mindestens zwei bis drei echte neue Themenfelder trotz 178+ bestehender
+     Destillate) — die Methode «Redundanz-Check per grep vor Themenwahl, dann gezielte Suche nach
+     amtlicher Primärquelle» bleibt der belastbarste Weg für freie Themenwahl ohne Werkzeugliste.
