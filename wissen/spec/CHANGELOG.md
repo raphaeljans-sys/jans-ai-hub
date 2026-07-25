@@ -2,22 +2,22 @@
 
 ## 2026-07-25 — Trainingslauf 31 (Verifikationslauf)
 - Output `outputs/2026-07-25_training-run31.md`. Keine neue reale Spec seit Lauf 24 (SYN-02).
-- **P1 (mail@-Blindfleck `ag-gruendung-monitor`) haelt weiter:** SKILL.md-mtime unveraendert
-  21.07.2026 07:49; `fristen.md` fuehrt die UBS-Strecke jetzt bei 29 Tagen ohne Antwort,
-  Einzahlungstermin Mitte August als gefaehrdet eingestuft.
-- **Neuer Fund:** das ueber drei CHANGELOG-Eintraege verfolgte `syn02-spec-anstoss`-Duplikat-
-  Problem (Task feuerte 25.07. dreimal erneut trotz bestaetigter Spec) ist am Artefakt
+- **P1 (mail@-Blindfleck `ag-gruendung-monitor`) hält weiter:** SKILL.md-mtime unverändert
+  21.07.2026 07:49; `fristen.md` führt die UBS-Strecke jetzt bei 29 Tagen ohne Antwort,
+  Einzahlungstermin Mitte August als gefährdet eingestuft.
+- **Neuer Fund:** das über drei CHANGELOG-Einträge verfolgte `syn02-spec-anstoss`-Duplikat-
+  Problem (Task feuerte 25.07. dreimal erneut trotz bestätigter Spec) ist am Artefakt
   verifiziert **geschlossen** — der `vollgas-chef-radar` hat den Task lokal auf
-  `enabled: false` gesetzt (mtime 25.07. 13:08), nicht ueber den angefragten manuellen
-  Loeschweg. Kausalitaet zur Eskalationsmail unbelegt, nur die Landung registriert.
-- Environment-Zaehlstand-Stichprobe (49 Skills, 22 Rules, 16 KBs) identisch zu Lauf 26/28/29/30
-  — kein voller Sweep faellig.
-- **Bewusst nicht getan:** kein erfundenes F1-Ueberdehnungsbeispiel; keine Rule-/Skill-/Wiki-
-  Aenderung ohne neuen methodischen Beleg; kein Eingriff in `SYNERGIE-REGISTER.md`; kein
+  `enabled: false` gesetzt (mtime 25.07. 13:08), nicht über den angefragten manuellen
+  Löschweg. Kausalität zur Eskalationsmail unbelegt, nur die Landung registriert.
+- Environment-Zählstand-Stichprobe (49 Skills, 22 Rules, 16 KBs) identisch zu Lauf 26/28/29/30
+  — kein voller Sweep fällig.
+- **Bewusst nicht getan:** kein erfundenes F1-Überdehnungsbeispiel; keine Rule-/Skill-/Wiki-
+  Änderung ohne neuen methodischen Beleg; kein Eingriff in `SYNERGIE-REGISTER.md`; kein
   Mailversand.
-- Offen: F1-Ueberdehnungs-Gegentest unbelegt; F3 Marketing/Text letzte offene Domaenenzeile;
-  SYN-02-MVP-Bau Block 1 ungebaut; naechster ergiebiger Lauf voraussichtlich nach neuer realer
-  Spec oder Bewegung in der AG-Gruendung-UBS-Strecke.
+- Offen: F1-Überdehnungs-Gegentest unbelegt; F3 Marketing/Text letzte offene Domänenzeile;
+  SYN-02-MVP-Bau Block 1 ungebaut; nächster ergiebiger Lauf voraussichtlich nach neuer realer
+  Spec oder Bewegung in der AG-Gründung-UBS-Strecke.
 
 ## 2026-07-25 — Trainingslauf 30 (Verifikationslauf)
 - Output `outputs/2026-07-25_training-run30.md`. Keine neue reale Spec seit Lauf 24 (SYN-02).
