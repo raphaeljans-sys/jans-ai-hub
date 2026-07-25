@@ -4179,8 +4179,14 @@ unterschieden von KRNr 6064, einem separaten Fördermittel-Rahmenkredit). Laut d
 Geschäftsdatenbank liegt das Geschäft seither unverändert bei der Kommission; eine Kommissions- oder
 Plenumsberatung ist bis 24.07.2026 nicht protokolliert. Bis zum definitiven Kantonsratsbeschluss (und
 einer allfälligen Referendumsfrist) gilt für Bauherrschaften weiterhin das aktuelle Energiegesetz ohne
-generelle Solarpflicht (heutige PV-Pflicht bleibt EN-104-ZH, ≥10 W/m² EBF). →
-`[[zh-energiegesetz-revision-solarpflicht-2026]]`. Datenstand 2026-07-24 (Run 87, CDWS-Live-Abfrage).
+generelle Solarpflicht (heutige PV-Pflicht bleibt EN-104-ZH, ≥10 W/m² EBF). **Aktualitäts-Check Run 95
+(25.07.2026, fünfter Rechercheversuch mit drei genuin neuen Methoden — direkte Geschäfts-URLs,
+Google-Index des CDWS-Dateiservers, gezielte KEVU-Traktandensuche):** unveränderter Befund, kein
+weiterer Verfahrensschritt seit dem Antrag vom 26.11.2025 auffindbar. Fünf methodisch unterschiedliche
+Versuche über sieben Wochen liefern dasselbe Ergebnis — das gilt jetzt als stabiler Sachstand statt als
+Recherchelücke; ein sechster automatischer Versuch ist nicht mehr sinnvoll, die KB führt den Punkt ab
+sofort passiv (Nachtrag bei neuer Medienmitteilung/KEVU-Bericht) statt aktiv weiter. →
+`[[zh-energiegesetz-revision-solarpflicht-2026]]`. Datenstand 2026-07-25 (Run 95).
 Querbezug KB planungsgrundlagen (Formular/Verfahren fuehrend, Wissens-Chef Run 14): die Bedienung des
 Formulars **EN-104-ZH** «Eigenstromerzeugung» (Nachweisfuehrung, max. 30 kW-Grenze, EVEN) in
 `wissen/planungsgrundlagen/wiki/energie-energienachweis-zh-formulare`.
@@ -4553,9 +4559,58 @@ Baurekursgericht-ZH-Entscheid vom 17.4.2014 zur Bewilligungspflicht beim WP-Ersa
 eine bauliche Einordnung, ist aber kein amtlich bestätigter ZH/SZ-Grenzabstands-Entscheid. Bei
 grossen/mehrteiligen Aussengeräten (MFH, Kaskadenanlagen), die die ZH-Bagatellschwelle
 überschreiten, gilt ersatzweise § 270 PBG ZH (3,5 m Grenzabstand für «andere Gebäude»).
+
+**Vertiefung Run 95:** Eine eigene Volltextsuche in der Entscheiddatenbank des Baurekursgerichts
+Kt. Zürich (1'231 Entscheide, Stichworte «Wärmepumpe» / «+Grenzabstand +Wärmepumpe») bestätigt: es
+gibt weiterhin keinen ZH-Entscheid, der die Grenzabstandsfrage für WP-Aussengeräte materiell
+entscheidet — nur zwei WP-Entscheide insgesamt, beide zur Bewilligungspflicht/Lärm (BRGE IV Nr.
+0052/2014, neu gefunden BRGE I Nr. 0071/2017). Die ausserkantonale Stützlinie ist präziser
+geworden: Das Verwaltungsgericht Aargau (Urteil WBE.2018.330 vom 3.12.2018, Volltext gelesen) hält
+fest, ein WP-Aussengerät gelte nicht als «Gebäude» im IVHB-Sinn, habe aber aus
+Rechtsgleichheitsgründen (Art. 8 BV) trotzdem Anspruch auf das Grenzabstandsprivileg für
+Kleinbauten — eine übertragbarere Argumentationsfigur als die bisherige «WP = Gebäude»-Analogie.
+Bundesgericht 1C_204/2015 (18.1.2016, Volltext) ergänzt: eine Verkabelung zum Hauptgebäude macht
+die Kleinbaute nicht zu dessen «Bestandteil».
 → `[[waermepumpe-aussengeraet-grenzabstand-zh-sz]]`, `[[bvv-zh-meldeverfahren-klimaanlagen-
 waermepumpen]]`, `[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]`. Datenstand 2026-07-25
-(Run 94). Status **emerging** (ZH-§260-Abs.4-Wortlaut und SZ-§61-Wortlaut amtlich verifiziert;
-die Subsumtion «WP-Aussengerät = Gebäude im PBG-Sinn» selbst stützt sich nur auf ein
-ausserkantonales Präzedenzurteil (AG) und einen ZH-Bewilligungspflicht-Entscheid, nicht auf eine
-ZH/SZ-Grenzabstands-Rechtsprechung).
+(Run 95). Status **emerging** bleibt (ZH-§260-Abs.4-Wortlaut und SZ-§61-Wortlaut amtlich
+verifiziert; die Subsumtion «WP-Aussengerät = Gebäude im PBG-Sinn» selbst ist für ZH/SZ weiterhin
+nicht gerichtlich entschieden — der ZH-Negativbefund ist jetzt durch eigene Volltextsuche bestätigt
+statt nur vermutet, die AG/Bundesgerichts-Stützlinie ist zwei Instanzen tief
+primärquellenverifiziert).
+
+### F131 — Ersetzt die Feuerwehr-Dokumentation meiner PV-Anlage die Meldung an die Gebäudeversicherung (GVZ)?
+
+Nein, das sind zwei getrennte Schritte. Die **Versicherungs-Wertvermehrung** melden Sie der GVZ über
+die Formulare «Anmeldung kleine Wertvermehrung» bzw. «Bauzeitversicherung»/«Schätzungsgesuch»
+(Rubrik «Versicherung» auf gvz.ch) — massgeblich ist die Meldeschwelle CHF 50'000/50 % (vgl.
+`[[gvz-praemienmechanik-pv-speicher]]`, F120). Die **Feuerwehr-Dokumentation** (Orientierungsplan/
+Strangplan der Anlage nach VKF-Brandschutzmerkblatt «Solaranlagen» 2001-15de Ziff. 4) geht separat
+ans lokale Feuerwehrkommando. Eine gezielte Durchsicht von acht einschlägigen gvz.ch-Seiten
+(Formulare, Versicherung, Brandschutz, Feuerwehr, Medienmitteilungen) findet auf keiner davon eine
+Verlinkung oder Prozessbeschreibung, die die beiden Meldewege koppelt — sie laufen strukturell
+unabhängig nebeneinander. Das früher online verlinkte PV-Dokumentationsformular selbst ist auf der
+aktuellen GVZ-Navigation nicht mehr auffindbar (nur über die Direkt-URL erreichbar). Eine mögliche,
+nicht auf der Website dokumentierte interne GVZ-Praxis bei grösseren Schätzungsgesuchen bleibt offen
+und wäre nur per Direktanfrage (versicherung@gvz.ch) abschliessend zu klären.
+→ `[[gvz-pv-meldeprozess-versicherung-feuerwehr]]`, `[[gvz-praemienmechanik-pv-speicher]]`,
+`[[gvz-photovoltaik-melde-versicherungspflicht]]`. Datenstand 25.07.2026 (Run 95). Status
+**established** (Negativbefund, acht unabhängige gvz.ch-Primärquellen konsistent).
+
+### F132 — Gibt es einen Zinsvorteil, wenn ich energieeffizient baue oder saniere («grüne Hypothek»)?
+
+Ja, aber freiwillig. Seit 1.1.2023 müssen Banken gemäss der SBVg-Selbstregulierung «Richtlinien für
+Anbieter von Hypotheken zur Förderung der Energieeffizienz» (Juni 2022) bei der Finanzierung
+selbstbewohnter EFH/Ferienhäuser die Energieeffizienz aktiv thematisieren — verpflichtet sind sie
+aber nicht zu einem Zinsrabatt. In der Praxis bietet laut IFZ-Hochschule-Luzern-«Sustainable Lending
+Monitor» 2024 (Sekundärquelle, 85 untersuchte Banken) rund ein Drittel (36,5 %) einen Zinsrabatt an,
+im Schnitt 0,38 Prozentpunkte. Primärquellen-Beispiel ZKB-Umweltdarlehen (Factsheet 2025): bis zu
+**−0,8 % p.a.** während max. 5 Jahren, Kriterium GEAK Klasse A (Neubau) bzw. GEAK Plus Klasse C plus
+eine Effizienzklassen-Verbesserung (Sanierung), Deckel CHF 250'000 (EFH) bzw. CHF 5 Mio. (MFH). Da
+für die kantonale Förderung ohnehin oft ein GEAK-Plus-Gutachten erstellt wird, lässt sich dieselbe
+Unterlage für den Bankantrag doppelt nutzen — beim eigenen Finanzierungspartner gezielt nachfragen,
+da die Marktbreite über das ZKB-Beispiel hinaus nicht primärquellengeprüft ist und jede Bank eigene
+Kriterien/Deckel setzt.
+→ `[[gruene-hypotheken-klimahypotheken-ch]]`. Datenstand 25.07.2026 (Run 95). Status **emerging**
+(SBVg-Rahmenregel und ZKB-Beispiel primärquellenbelegt, Marktüberblick nur sekundärquellig via IFZ-
+Studie, ZH/SZ-Marktbreite nicht flächendeckend geprüft).

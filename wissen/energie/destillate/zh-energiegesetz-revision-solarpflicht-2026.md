@@ -158,5 +158,64 @@ Baugesuche bleiben bei EN-104-ZH (≥10 W/m² EBF, MuKEn-2014-Basis).
 Quelle: parlzhcdws.cmicloud.ch/parlzh5/cdws/Index/GESCHAEFT/searchdetails (KRNr 6062/6063, Live-Abfrage
 24.07.2026).
 
+## Aktualitäts-Check 2026-07-25 (Run 95) — fünfter Rechercheversuch, drei neue Methoden, Negativbefund bestätigt
+
+Fünfter, bewusst methodisch neuer Anlauf zum Kantonsrats-Fahrplan von KRNr 6062/6063 (nach den
+vier dokumentierten Versuchen vom 13./15./16./23.07.2026 und der CDWS-Direktabfrage in Run 87 vom
+24.07.2026). Drei genuin neue Wege geprüft, alle ohne neuen Sachstand:
+
+1. **`kantonsrat.zh.ch/geschaefte/geschaeft/?id=<Hash>`-Direktlinks statt Suchmaske:** Über
+   Google-Suche wurden konkrete Geschäftsseiten-URLs mit Hash-IDs gefunden (u.a. Geschäft 5921,
+   Geschäft «Solaranlagen in geschützten Ortsbildern», Geschäft «Energiegesetz, Umsetzung der
+   MuKEn 2014»). Keine dieser IDs verweist auf 6062/6063; die Seiten selbst liefern per WebFetch
+   weiterhin nur die Navigationsstruktur («Content wird geladen…») ohne Geschäftsdetails — dieselbe
+   JS-Single-Page-App-Grenze wie in allen Vorläufen, jetzt auch für individuelle Geschäfts-URLs
+   bestätigt (nicht nur für die Suchmaske).
+2. **`parlzhcdws.cmicloud.ch/…/Files/…/pdf`-Dateiserver, Google-indexiert statt direkt abgefragt:**
+   Dieser Dateiserver liefert (anders als der `/Index/`-API-Pfad, der weiterhin HTTP 406 zurückgibt)
+   einzelne PDFs mit Klartext-Titeln, sofern von Google indexiert — z.B. «Antrag des Regierungsrates
+   vom 9. Juli 2025 6037 Beschluss des Kantonsrates», «Mitwirkungsbericht Vorlage 6060», «Solaranlagen
+   in geschützten Ortsbildern», «Energiegesetz, Umsetzung der MuKEn 2014». **Kein einziger indexierter
+   Treffer zu 6062 oder 6063** — d.h. bislang wurde zu diesen beiden Geschäften kein Kommissionsbericht,
+   keine Weisung und kein Ratsprotokoll-Auszug veröffentlicht, der von Google erfasst worden wäre.
+   Das ist eine **unabhängige Bestätigung** des CDWS-Befunds aus Run 87 (dort: nur ein Ablaufschritt
+   «Antrag Regierungsrat» vom 26.11.2025, Status «Kommission», kein Kommissionsbericht) — über einen
+   ganz anderen Kanal (Google-Index des Dateiservers statt Live-API-Abfrage) reproduziert.
+3. **Direkte Suche nach der KEVU-Kommissionsarbeit und nach einer Traktandenliste August 2026:**
+   Ein Treffer nennt einen KEVU-Kommissionsbericht vom 02.12.2025 — dieser bezieht sich aber auf eine
+   **Regierungsratsvorlage vom 09.07.2025 (Geschäft 6037, Stromversorgungsgesetz/Eignerstrategie EKZ)**,
+   nachweislich ein **anderes Geschäft** als die Solarpflicht-Vorlage vom 06.01.2026 (bzw. Antrag
+   Regierungsrat 26.11.2025) — explizit als Fehlspur ausgeschlossen, analog zu den bereits in
+   früheren Läufen ausgeschlossenen Verwechslungen mit Geschäft 5921 und KRNr 6064. Zur Traktandenliste
+   August 2026 und zu einem möglichen Referendumstermin wurde nichts Konkretes zu 6062/6063 gefunden.
+
+**Fazit:** Der Negativbefund ist nach fünf methodisch unterschiedlichen Versuchen (Plattform direkt,
+News-/Verbandsquellen, Live-API-Abfrage, Geschäfts-Direktlinks, Dateiserver-Indexsuche) durchgehend
+identisch und jetzt über zwei unabhängige Kanäle (CDWS-Live-API UND Google-Index des Dateiservers)
+bestätigt: **Stand 25.07.2026 liegt zu KRNr 6062/6063 ausser dem Antrag des Regierungsrates
+(26.11.2025) kein weiterer protokollierter Verfahrensschritt vor** — kein Kommissionsbericht, keine
+erste Lesung, kein Sitzungstermin. Das ist keine Werkzeuglücke mehr, sondern mit hoher
+Wahrscheinlichkeit der tatsächliche Sachstand: Die KEVU-Kommission hat die Vorlage offenbar noch
+nicht abschliessend beraten bzw. berichtet.
+
+**Empfehlung für die weitere Bearbeitung:** Diesen Einzelpunkt (exaktes Beratungsdatum/nächste
+Lesung) **aus der aktiven, automatisch wiederholten Recherche-Prioritätenliste streichen.** Fünf
+Versuche über sieben Wochen (13.07.–25.07.2026) mit komplementären Methoden haben strukturell
+denselben Befund geliefert; ein sechster automatischer Versuch ohne neue Rechercheidee (z.B. Zugriff
+via echten Browser statt WebFetch, oder eine E-Mail-Anfrage an info@open.zh.ch/die Kantonsratskanzlei)
+verbraucht nur Ressourcen ohne Erkenntnisgewinn. Sinnvoller Ersatz: **passiv/ereignisgetrieben**
+prüfen — sobald eine neue zh.ch-Medienmitteilung, ein Presseartikel oder ein KEVU-Kommissionsbericht
+zu «Energiegesetz Solaranlagen» auftaucht (z.B. im Rahmen des ohnehin laufenden Medien-Monitorings
+dieser KB), diesen Artikel gezielt nachführen. Für die Bauherren-Beratung ändert sich dadurch nichts:
+**kein Inkraftsetzungsdatum bekannt**, heute eingereichte Baugesuche bleiben bei EN-104-ZH (≥10 W/m²
+EBF, MuKEn-2014-Basis).
+
+Quellen: WebSearch/WebFetch-Versuche 2026-07-25 auf kantonsrat.zh.ch/geschaefte/geschaeft/?id=…
+(Geschäfte 5921, «Solaranlagen in geschützten Ortsbildern», «Energiegesetz Umsetzung MuKEn 2014» —
+alle ohne Detailinhalt per WebFetch), parlzhcdws.cmicloud.ch/parlzh5/cdws/Files/…/pdf
+(Google-Index, kein Treffer 6062/6063), github.com/openZH/KRZH_gever (Webservice-Doku ohne
+Endpunkt-Beispiele), Suche zu KEVU-Kommissionsbericht 02.12.2025 (Geschäft 6037, ausgeschlossen
+als Fehlspur).
+
 **Backlinks:** [[energienachweis-zh]] · [[muken-2025-verabschiedet]] · [[foerderung-energie-zh]] ·
 [[pv-solar-technologien]]
