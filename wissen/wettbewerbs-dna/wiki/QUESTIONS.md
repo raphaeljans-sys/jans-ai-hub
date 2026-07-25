@@ -3,6 +3,16 @@
 Stand: 14.07.2026 (Etappe-3-Start: Bauaufgaben-Blocker geschlossen)
 
 ## Offen
+- **NAS-SMB-Mount instabil im Nachtfenster (Befund B2/B3 Healthcare Tranche 2, 25.07.2026):**
+  Waehrend des Laufs brach der Mount `/Volumes/daten` mehrfach ab (LAN-IP 192.168.1.10 nicht
+  erreichbar, Tailscale 100.92.246.28 ok). Folgen fuer die Loops: (a) ein Extraktions-Agent
+  stalte auf abgebrochenem Mount und schrieb sein Destillat nie (Taegermoos — Refuter musste
+  aus der Grundwahrheit neu erstellen); (b) ein Remount landete auf `/Volumes/daten-1`, ein
+  Agent schrieb einen Zwischenstand auf den SSD-Spiegel (Sursee — NAS trug am Ende den korrekten
+  Refuter-Stand, SSD divergierte, im Bookkeeping bereinigt). **Merkregel fuer Folgelaeufe:**
+  bei Mount-Abbruch Remount via Tailscale-Hostname (`mount volume smb://diskstation918.tail8265aa.ts.net/daten`),
+  danach IMMER pruefen, ob die kanonische NAS-Datei den finalen Stand traegt (nicht /Volumes/daten-1
+  oder der SSD-Spiegel), bevor committet wird. Kein Wissens-Gap, sondern Infra-/Betriebshinweis.
 - **Waldhaus Chur Akutpsychiatrie (GR) ist als Jurybericht nicht text-extrahierbar (Befund B2/B3
   Healthcare, 24.07.2026):** Das empfohlene Batch-PDF `20170906_bericht_preisgericht.pdf` (espazium-S3,
   13.98 MB) ist ein reines Scan-/Bild-PDF (pdftotext liefert 3 Zeichen/Seite, Retry ohne -layout

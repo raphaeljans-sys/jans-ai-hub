@@ -1,5 +1,44 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-25 — Extern Healthcare Tranche 2: Jurybericht «Neubau Luzerner Kantonsspital Sursee (Schwyzermatt)» (2024/2025) destilliert + Refuter-verifiziert (established)
+- Neuer Artikel `wiki/extern/jurybericht-luks-sursee-schwyzermatt.md` aus dem Volltext-Extrakt
+  `raw/extern-jurybericht-luks-sursee-schwyzermatt.txt` (pdftotext -layout, 146 S., espazium-S3).
+  Subtyp **spital-klinik** (zweiter Akutspital-Fall der Healthcare-Tranche). Zweistufiges
+  Verfahren: 1. Stufe offener Projektwettbewerb (22 Projekte, 8 Preise CHF 250'000), 2. Stufe
+  Studienauftrag mit 5 Teams (je CHF 90'000, ohne Rangierung).
+- **Ergebnis:** Sieger «Feld und Flur», Fischer Architekten AG Zürich (mit Jaeger Coneco AG
+  Baumanagement); einstimmiger Antrag an die Auftraggeberin (S. 14-15). Finalisten HOSPES →
+  GRÜNACHSE/Vincent im 2.-Stufe-Wertungsrundgang ausgeschieden, engere Wahl Feld und Flur gegen
+  PROMENADE.
+- **Refuter (Hauptmodell) korrigierte einen substanziellen Fehler:** Das IPS-Zitat «nur über den
+  öffentlichen Bereich» war HOSPES-Text (S. 51), im Erst-Destillat fälschlich Vincent zugeschrieben
+  (mit erfundener Vincent-Kritik). K.-o.-Bullet neu gefasst (HOSPES doppelt gerügt, Vincent/PROMENADE
+  fassen IPS positiv zusammen). Zwei kleinere Fixes: Sieger-Zitat S. 22 → S. 23; Frontmatter-Titel
+  «(2021)» → «(2024/2025)» (belegt durch tabellierte Termine S. 7 + Unterschrift 15.05.2025 S. 17;
+  Datei-Name «2021» war ein stray-Datum der Titelseite).
+- **B6-relevante belegte Kennwerte** (selten projektbezogen in Juryberichten): Sieger
+  Flächeneffizienzwert 1.64 (beste im Quervergleich, S. 23), Geschossfläche rund 38'100 m² (S. 23),
+  Stützenraster 8 × 8 m (S. 23), Fensteranteil 60 % (zu hoch gerügt); HOSPES Stützenraster
+  8.40 × 8.40 m / Glasanteil 45 % / grösste GF+GV «unwirtschaftlich» (S. 50-51). KEINE absoluten
+  CHF/m²/m³ publiziert (nur «nicht alle Projekte halten das Kostendach ein», S. 14).
+- Verfahrenschronologie/Rangfolge/Preise/Verfasser vollständig quellentreu; Status **established**,
+  verdict Refuter KORRIGIERT_BESTANDEN.
+
+## 2026-07-25 — Extern Healthcare Tranche 2: Jurybericht «Haus der Demenz, Pflegezentrum Bombach, Zürich-Höngg» (2012) destilliert + Refuter-verifiziert (established)
+- Neuer Artikel `wiki/extern/jurybericht-haus-der-demenz-bombach-zuerich.md` aus dem Volltext-Extrakt
+  `raw/extern-jurybericht-haus-der-demenz-bombach-zuerich.txt` (pdftotext -layout, 65 S., Amt für
+  Hochbauten Stadt Zürich, Januar 2013). Subtyp **pflegeheim-alterszentrum / Demenz-Sondertyp**
+  (spezialisierte Kleingruppen-Pflege). Selektiver Wettbewerb: 50 Bewerbungen, 10 Teams, 4 Ränge.
+- **Ergebnis:** Sieger «ERIKA» (Projekt Nr. 9, 1. Rang, Fr. 40'000), ARGE Joos & Mathys Architekten
+  mit Schmid Schaerer Architekten Zürich; Landschaft August + Margrith Künzel. Refuter (Hauptmodell)
+  fand KEINE Seiten-Drifts / keine Preis-Verwechslung / keine erfundenen Zahlen — verdict BESTANDEN.
+- **B6-relevant (seltener projektbezogener Kostenwert):** Investitionskosten Gesamtprojekt rund
+  Fr. 18.5 Mio. (BKP 1-9 inkl. 8 % MWST, S. 5) für **40 Bewohnerplätze** in 3-4 Kleingruppen à 10-13
+  Personen → Grössenordnung ~460'000 CHF/Platz (eigene Ableitung, nicht im Bericht). Detailliertes
+  Raumprogramm belegt: 40 Zimmer à 18-20 m² (total 760 m²), Aufenthaltsräume 240 m² + 80 m², Areal
+  21'672 m². Programm-/Verfahrenswerte, keine projekt-durchgerechneten CHF/m³ oder CHF/m².
+- Status **established** (Frontmatter last_updated 2026-07-25).
+
 ## 2026-07-25 — Extern Healthcare Tranche 2: Jurybericht «Betreutes Alterswohnen Tägermoos, Küsnacht» (2023) destilliert + Refuter-verifiziert (established)
 - Neuer Artikel `wiki/extern/jurybericht-alterswohnen-taegermoos-kuesnacht.md` aus dem
   Volltext-Extrakt `raw/extern-jurybericht-alterswohnen-taegermoos-kuesnacht.txt` (pdftotext

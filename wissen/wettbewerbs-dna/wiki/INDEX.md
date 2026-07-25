@@ -1,7 +1,23 @@
 # INDEX — KB wettbewerbs-dna
 
-Stand: 24.07.2026 (Etappe 3, **Baustein B2/B3 Healthcare Tranche 1**: 3 externe Juryberichte
-destilliert + Refuter-verifiziert (established) — **kantonsspital-aarau-ksa** (spital-klinik,
+Stand: 25.07.2026 (Etappe 3, **Baustein B2/B3 Healthcare Tranche 2**: 3 weitere externe
+Juryberichte destilliert + Refuter-verifiziert (established) — **luks-sursee-schwyzermatt**
+(spital-klinik, Neubau Kantonsspital Sursee, zweistufig 2024/2025, Sieger «Feld und Flur»,
+Fischer Architekten), **alterswohnen-taegermoos-kuesnacht** (alterswohnen, Sieger
+«Kassiopeia», neff neumann), **haus-der-demenz-bombach-zuerich** (pflegeheim/Demenz-Sondertyp,
+Sieger «ERIKA», ARGE Joos & Mathys mit Schmid Schaerer). Workflow-Pipeline 1 Extraktion
+(Sonnet) → 1 Refuter (Hauptmodell) gegen Raw-Extrakt, 6 Agenten/0 Fehler. Refuter fand bei
+Sursee eine substanzielle Misattribution (HOSPES-IPS-Zitat faelschlich Vincent zugeschrieben,
+mit erfundener Vincent-Kritik) + Seiten-/Titel-Drift und korrigierte direkt; Taegermoos aus
+der Grundwahrheit neu erstellt (Erst-Destillat wegen NAS-Mount-Abbruch nie geschrieben);
+Bombach fehlerfrei. **Healthcare B3 nun 6/8**, Subtypen spital-klinik/pflegeheim/psychiatrie/
+alterswohnen abgedeckt. Strukturbefund wie Schulbau: Juryberichte publizieren kaum
+projektbezogene GF/GV/HNF/CHF-m3; Ausnahme Bombach (Fr. 18.5 Mio BKP 1-9 fuer 40 Demenzplaetze
++ detailliertes Raumprogramm) und Sursee (Flaecheneffizienz 1.64, Stuetzenraster 8x8 m).
+Naechste offene Zelle: **Healthcare B2/B3 Tranche 3** (Ziel B3 8/8, dann B4-B6). NAS-Mount
+war waehrend des Laufs mehrfach instabil (LAN weg, Tailscale ok) — als methodischer Hinweis in
+QUESTIONS.) — vorher 24.07.2026 (Etappe 3, **Baustein B2/B3 Healthcare Tranche 1**: 3 externe
+Juryberichte destilliert + Refuter-verifiziert (established) — **kantonsspital-aarau-ksa** (spital-klinik,
 Sieger «Dreiklang»), **alterszentrum-sihlsana-adliswil** (pflegeheim-alterszentrum, Sieger
 «SOPHIE»), **ipw-klinik-schlosstal-winterthur** (psychiatrie, Sieger «GrassGreen»). Workflow-
 Pipeline 1 Extraktion (Sonnet) → 1 Refuter (Hauptmodell) gegen Raw-Extrakt, 6 Agenten/0 Fehler;
@@ -82,13 +98,18 @@ Teil 2 Rang-Klaerung UND Teil 3 Muster-Verdichtung, siehe `training/PROGRAMM.md`
   `grobkosten-onepager` (JANS-Grobkosten-Vorlagen). **Erfuellt den letzten offenen
   Endbedingung-Punkt Etappe 2** (Bild-Katalog indexiert).
 
-## Externe Referenz-Juryberichte (wiki/extern/) — 23 von 23 established (Schulbau) + Healthcare-Tranche
+## Externe Referenz-Juryberichte (wiki/extern/) — 23/23 established (Schulbau) + 6/8 established (Healthcare)
 
-Healthcare (Alters-/Pflege-/Gesundheitsbau), alle established: kantonsspital-aarau-ksa (Sieger
-«Dreiklang»), alterszentrum-sihlsana-adliswil (Sieger «SOPHIE»), ipw-klinik-schlosstal-winterthur
-(Sieger «GrassGreen»), alterswohnen-taegermoos-kuesnacht (betreutes Alterswohnen, Sieger
-«Kassiopeia», neff neumann architekten; refuter-verifiziert 25.07.2026 direkt aus der
-Grundwahrheit, da das Erst-Destillat wegen NAS-Mount-Abbruch nie geschrieben worden war).
+Healthcare (Alters-/Pflege-/Gesundheitsbau), alle established: kantonsspital-aarau-ksa (spital-klinik,
+Sieger «Dreiklang»), alterszentrum-sihlsana-adliswil (pflegeheim, Sieger «SOPHIE»),
+ipw-klinik-schlosstal-winterthur (psychiatrie, Sieger «GrassGreen»), luks-sursee-schwyzermatt
+(spital-klinik, zweistufig 2024/2025, Sieger «Feld und Flur», Fischer Architekten; refuter
+korrigierte HOSPES/Vincent-Misattribution + Seiten-/Titel-Drift), alterswohnen-taegermoos-kuesnacht
+(betreutes Alterswohnen, Sieger «Kassiopeia», neff neumann architekten; refuter-verifiziert
+25.07.2026 direkt aus der Grundwahrheit, da das Erst-Destillat wegen NAS-Mount-Abbruch nie
+geschrieben worden war), haus-der-demenz-bombach-zuerich (pflegeheim/Demenz-Sondertyp, Sieger
+«ERIKA», ARGE Joos & Mathys mit Schmid Schaerer; refuter fehlerfrei bestanden). Offen fuer
+B3-Ziel 8/8: 2 weitere Kandidaten aus der B1-Reserveliste (Subtyp-Spreizung gemischt/reha-Luecke).
 
 Schul-/Bildungsbau 2012–2026: bruehl-solothurn, faellanden, froeschmatt-pratteln,
 heilpaedagogische-schule-bern, hinter-gaerten-riehen, kantonsschule-baden,
