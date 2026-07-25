@@ -5,6 +5,22 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-25d — twin-mail-training Batch 63 (Sent Items rj@ 2026-07-13 12:31 → 2026-07-14 15:16).**
+  Sequentieller Mail-Sweep fortgesetzt: 23 Mails gesichtet [Index 1-23, Index 0 als Batch-62-Duplikat
+  uebersprungen], 7 Volltexte via M365-CLI (`node_modules/.bin/m365`, Certificate-Auth; MCP-Tool-Pfad
+  `outlook_email_search` weiterhin nicht per ToolSearch auffindbar) gelesen und destilliert; keine neue
+  Echo-Falle, alle 7 Rahmen handgetippt (Slips „Dass heisst", „Wir sind am zeichen der", „Ihne"/
+  „Porjekt"). Ein bereits dokumentierter Marker (Dritt-Validierung Fidelity 260714h, Lüftungs-
+  Strangschema-Mail an Gruner) unabhängig über die systematische Sweep gegengelesen, deckungsgleich.
+  Neue belegte Marker: [[beziehungsregister]] (drei Register in EINER fliessenden Anredezeile
+  innerhalb desselben Planer-Teams, «Geschätzter Herr Duran, geschätzter Herr Kübler, hoi Jens»),
+  [[arbeitsweise]] (KW-nummerierte Terminfenster + expliziter Ziel-Satz + @-Delegation als gebündeltes
+  Übergabe-Paket bei Fachplaner-Koordinationsstart), [[haltung]] (kommerziell-verfahrenstechnische
+  Wissensgrenze offen an den Du-Unternehmer zurückgeben, Erweiterung der bisher nur software-/
+  KI-bezogenen Ehrlichkeits-Marker). Mikro-Metrik 646 W (nur eigener Fliesstext): Du-Gross-Quote 1.0,
+  Satzlänge ø 18.5 W, Apostroph 0, Ellipsen 0. Sweep-Endpunkt neu: 2026-07-14 15:16:49. Details:
+  `raw/_INGESTED.md`.
+
 - **2026-07-25c — twin-mail-training Batch 62 (Sent Items rj@ 2026-07-08 16:09 → 2026-07-13 11:16).**
   Sequentieller Mail-Sweep fortgesetzt (VOLLGAS-Endlos-Runner): 121 Treffer im Restfenster, 25 Mails
   gesichtet, 7 Volltexte via M365-CLI (`node_modules/.bin/m365`, Certificate-Auth, MCP-Tool-Pfad
