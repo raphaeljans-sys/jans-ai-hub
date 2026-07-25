@@ -1,19 +1,57 @@
 ---
-quelle: "bawos.ch — «Welche Fensterrahmen haben welche U-Werte?» (Ratgeberartikel)"
-herausgeber: "bawos.ch (privater Ratgeber «Bauen und Wohnen in der Schweiz»), zitiert DIN EN ISO 10077 / DIN EN 12412"
-ausgabe: "Web-Artikel, Abrufdatum 2026-07-13 (kein Ausgabedatum im Artikel ersichtlich)"
-gelesen: "2026-07-13 (WebFetch, vollstaendiger Artikeltext)"
-datenstand: "unbekannt/undatiert — Web-Sekundaerquelle, keine amtliche CH-Primaerquelle"
-status: speculative
-last_updated: "2026-07-13"
+quelle: "bawos.ch — «Welche Fensterrahmen haben welche U-Werte?» (Ratgeberartikel); Run 90 (2026-07-25): SZFF-Reglement 52.06 Minergie-Modul Fenster (Ausgabe 2017, szff.ch) + SZFF/BFE-Faktenblatt Energieetikette fuer Fenster (12/2014) + Minergie-Modul-Fensterliste (Stand 01.01.2021) + Hersteller-Datenblaetter EgoKiefer AG + 4B AG (via Gemeinde Baden AG EN-2a-Formularanhang)"
+herausgeber: "bawos.ch (privater Ratgeber); SZFF/FFF/BFH-AHB + BFE EnergieSchweiz (amtsnah); EgoKiefer AG, 4B AG (Hersteller, EMPA-geprueft)"
+ausgabe: "Web-Artikel, Abrufdatum 2026-07-13; SZFF-Reglement Ausgabe 2017; Faktenblatt 12/2014; Fensterliste Stand 01.01.2021; Hersteller-Prospekte Abruf 2026-07-25"
+gelesen: "2026-07-13 (WebFetch, vollstaendiger Artikeltext); Run 90 (2026-07-25): SZFF-PDFs + Hersteller-PDFs vollstaendig gelesen (Sonnet-Rechercheagent)"
+datenstand: "2026-07-25 — SZFF-Systematik (2017/2014) amtsnah, Hersteller-Werte aktuell online (2026-07-25 verifiziert)"
+status: established (negativ — Fehlen einer CH-Systemtabelle ist strukturell begruendet, kein Rechercheversagen) + Herstellerbeispiele emerging
+last_updated: 2026-07-25
 ---
 
-# Uf-Werte je Rahmenmaterial — grobe Groessenordnung (nur Sekundaerquelle)
+# Uf-Werte je Rahmenmaterial — CH-Systematik + Herstellerbeispiele
 
 ## Das Wichtigste in 1 Satz
-Eine einzelne, nicht-amtliche Web-Sekundaerquelle nennt grobe Uf-Wert-Bandbreiten (Rahmen-Waermedurchgang)
-je Material — **Holz ca. 1,3–1,8 W/(m²·K)**, moderne Aluminiumfenster als **Uw-Gesamtwert** (nicht Uf
-isoliert) **0,9–1,3 W/(m²·K)** — ohne belastbare Werte fuer Kunststoff/PVC oder Holz-Metall.
+Eine systematische amtliche oder verbandliche Schweizer Uf-Wert-Tabelle je Rahmenmaterial **existiert
+nicht und wird strukturell auch nicht kommen**: Das SZFF/Minergie-System verlangt für jedes
+Fenstersystem einen **individuellen, EMPA/BFH-geprüften oder rechnerisch nachgewiesenen Uf-Wert**
+(SN EN ISO 10077-1/-2) statt einer pauschalen Material-Tabelle wie in Deutschland (dortige RMG-1/2/3-
+Klassifikation); reale Hersteller-Einzelwerte (EgoKiefer, 4B) liegen deutlich unter dem konservativen
+BFE-Fallback und zeigen die Bandbreite moderner Systeme.
+
+## SZFF-Systematik — warum es keine Tabelle gibt (established, Run 90)
+Primärquelle: SZFF-Reglement 52.06 «Minergie-Modul Fenster» (Ausgabe 2017, Volltext gelesen) +
+SZFF/BFE-Faktenblatt «Energieetikette für Fenster» (12/2014). Für die Minergie-Zertifizierung ist
+**kein** tabellarischer Uf-Standardwert je Material vorgeschrieben, sondern ein produktspezifischer
+Nachweis: rechnerisch nach SN EN ISO 10077-1/-2 + SN EN 10211-1 + SN EN 12524 (Beilage 4.4) oder
+messtechnisch nach EN 12412-2 durch eine akkreditierte Prüfstelle (EMPA/BFH-AHB). Vorgegeben sind nur
+Systemanforderungen: Uw ≤ 1,0 W/(m²K) Minergie / ≤ 0,80 Minergie-P, Ug = 0,7 W/(m²K) als Rechenbasis,
+Psi-Randverbund 0,06 W/(mK) für Holz/Holz-Metall/Kunststoff. Die Minergie-Modul-Fensterliste (Stand
+01.01.2021, reale zertifizierte Systeme) führt **keine** Uf-Spalte. **Fazit: das Fehlen einer
+CH-Tabelle ist keine Recherchelücke, sondern Systemlogik — deshalb Status established (negativ), Punkt
+gilt als endgültig geklärt.**
+
+## Hersteller-Einzelbeispiele (emerging, klar als Einzelprodukt markiert — kein Branchendurchschnitt)
+**EgoKiefer AG** (CH, Prospekt «Das Fenstersortiment für jede Bausituation»):
+- Kunststoff: Ego®Allround (76 mm) Uf 1,0 · Ego®Prime (88 mm) Uf 0,92 W/(m²K)
+- Kunststoff/Aluminium: Allround (84 mm) Uf 1,0 · Prime (96 mm) Uf 0,94 W/(m²K)
+- Holz: Allstar (68 mm) Uf 1,2 · Selection (88 mm) Uf 1,1 W/(m²K)
+- Holz/Aluminium: Allstar (87 mm) Uf 1,2 · Selection (105 mm) Uf 1,1 · SelectionPlus (105 mm) Uf 1,1 W/(m²K)
+- Hebeschiebetüren: WS1® Uf 1,5 · XL®2020 Uf 1,6 W/(m²K)
+
+**4B AG** (CH, Fenstersystem NF1 Holz-Metall, EMPA-geprüft nach EN 12412-2, via Gemeinde-Baden-Formular
+EN-2a): **Uf 1,3 W/(m²K)**, Gesamtsystem Uw 0,70–0,87 W/(m²K) je nach Verglasung (Krypton/Argon).
+
+## Einordnung gegenüber dem BFE-Fallback
+Hersteller-Einzelwerte (Kunststoff ~0,92–1,0 · Holz ~1,1–1,2 · Holz-Metall ~1,1–1,3 W/(m²K)) liegen
+deutlich **unter** der amtlichen BFE-Bauteilekatalog-Fallback-Tabelle (Holz 1,9 / Kunststoff 2,5 /
+Verbundprofil 3,3 W/(m²K), FAQ F69). Beide Ebenen sind sinnvoll und ergänzen sich: der BFE-Fallback ist
+ein **konservativer Default ohne Produktnachweis**, moderne Minergie-taugliche Marktprodukte erreichen
+über grössere Bautiefen/thermische Trennung deutlich bessere Werte.
+
+## Frühere Sekundärquelle (bawos.ch, weiterhin speculative, nur zur Einordnung belassen)
+Holzrahmen 1,3–1,8 W/(m²K) laut nicht-amtlichem Ratgeber, undatiert, Einzelquelle — durch die neuen
+Hersteller-Einzelwerte (EgoKiefer Holz 1,1–1,2) eher am oberen Rand plausibilisiert, aber nicht durch
+eine zweite amtliche Quelle bestätigt. Aluminiumfenster: nur Uw-Gesamtwert 0,9–1,3, nicht isoliert Uf.
 
 ## Befund (mit Vorbehalt)
 - **Holzrahmen:** Uf typischerweise **1,3 bis 1,8 W/(m²·K)**, daraus resultierende Uw-Gesamtwerte

@@ -3,7 +3,7 @@ title: Arbeitsweise & Orchestrierung
 status: established
 last_updated: 2026-07-25
 gewichtung: authentisch
-sources: [260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -54,15 +54,29 @@ als fette Zwischentitel), sobald mehrere Auflagen aus verschiedenen Ämtern zusa
 die Orchestrierer-Dekomposition angewandt aufs Mail-Layout. Schwelle (ab wie vielen Punkten) →
 [[QUESTIONS]] 260718 #2.
 
+## Selbst gestellte Sequenz-Fragen an einen Sie-Erstkontakt: nummeriert, nicht «_ »-Bullet (belegt Fidelity 260725b, authentisch)
+Präzisiert das Bullet-System um eine Abgrenzung: bei einer privaten Konsumenten-Anfrage an einen unbekannten
+Händler (Finanzierungsanfrage MacBook Pro, 21.07.2026) stellt Raphael vier eigene, sequenzielle Fragen, die
+je einzeln beantwortet werden sollen, NICHT als offene «_ »-Aufzählung, sondern **durchnummeriert
+(1./2./3./4.)** — dieselbe Nummerierungslogik wie bei der Behörden-Vorabklärung («geschlossene, nummerierte
+Fragen», → [[denken]]). Die technische Spezifikation selbst (Konfiguration: Chip/RAM/SSD/Tastatur) bleibt
+dagegen eine offene «–»-Aufzählung. Unterscheidung: **«_ »/«–» für eine offene Eigenschaften-/Spezifikations-
+liste, nummeriert (1./2./3.) für eine Folge einzeln zu beantwortender Fragen** — unabhängig vom Register
+(gilt auch ausserhalb der Behörde, hier im Konsumenten-Sie). Der Zwilling nummeriert eigene Sequenzfragen,
+die einzeln beantwortet werden sollen, und hält Spezifikationslisten als offene Bullets getrennt davon.
+
 ## Do / Don't für den Zwilling
 - **Do:** Besprochenes schriftlich fixieren; Grundlage→Empfehlung→Ausblick; komplexe
   Aufträge zerlegen (Deliverable-Checkliste); Aufwände/Zuständigkeiten transparent machen;
   immer einen nächsten Schritt anbieten; bei laufenden Verfahren aktiv Nachmeldung zusagen
   («melde ich mich unverzüglich») statt passiver Verfügbarkeitsformel; die **mehrteilige
   Verfahrens-/Auflagen-Statusmail in thematische fette Blöcke nach Amt/Gegenstand gliedern**
-  (Behörden-Dekomposition), nicht flach auflisten (Fidelity 260718).
+  (Behörden-Dekomposition), nicht flach auflisten (Fidelity 260718); **eigene sequenzielle
+  Fragen an eine Sie-Person nummerieren (1./2./3.)**, offene Spezifikationslisten als «_ »/«–»
+  davon trennen (Fidelity 260725b).
 - **Don't:** Empfehlung ohne Grundlage; Auftrag ohne Zerlegung «im Block» abarbeiten;
-  offene Enden ohne nächsten Schritt.
+  offene Enden ohne nächsten Schritt; eine Folge einzeln zu beantwortender Fragen als offene
+  Bullet-Liste tarnen.
 
 ## Explizite Selbst-Rollenklaerung + numerierter Themenkatalog mit vorgezogenem Status (belegt Mailbatch 37, authentisch)
 Beim Projektstart mit einem neuen Fachplaner-Team (Gruner, KISPI, 24.03.2026) setzt Raphael zwei
@@ -1446,3 +1460,13 @@ Gewichtung: authentisch (handgetippte Rahmen). Quelle: KISPI-PPTS Lenggstrasse 3
 Gewichtung: authentisch. Quelle: Baumackerstrasse 43 (AfB Team 4), 07.07.2026.
 
 - **Zwei-Stufen-Eskalationsleiter beim Behörden-Nachfass:** Stufe 1 (Routine-Status, Batch 60) ist ein Ein-Zeiler ohne Begründung. Stufe 2 (hier, weil die gesetzliche Bearbeitungsfrist bereits überschritten ist) wird strukturiert: Fristzitat mit Datum → drei nummerierte Sachfragen → explizite Bitte um zeitnahen Kontakt. Die Eskalation zeigt sich NICHT im Ton (beide bleiben höflich-sachlich, kein Vorwurf), sondern in der **Beweisdichte** (Datum, Projekt-ID, Norm-Referenz) und der **Anzahl der offenen Fragen**. Reiht sich zur bereits belegten Anrede-Skalierung nach Gewicht des Anliegens (DNA-Regel) — hier dieselbe Logik auf den Nachfass-Baustein selbst angewendet.
+
+## Batch 62 (2026-07-08…07-13) — Thematische Zwischentitel auch in kurzen Lieferanten-Koordinationsmails
+
+Gewichtung: authentisch. Quelle: Albertstrasse 7 Nova (Elektro/Küche/Waschküche-Koordination), KISPI-PPTS (Lüftung Gruner), 08.–13.07.2026.
+
+- **Die Behörden-Dekomposition (thematische fette Blöcke, Fidelity 260718) tritt auch in einer knappen internen Lieferanten-Koordinationsmail auf:** an den Sanitärlieferanten schreibt er zwei eigene Absatz-Titel «Waschküche» / «Küche» als Zwischenüberschriften, obwohl die ganze Mail nur 3 Sätze lang ist. → Die Themenblock-Gliederung ist kein Spezialfall langer Verfahrensmails, sondern greift, sobald **mehr als ein Sachthema** in derselben Mail berührt wird, unabhängig von der Gesamtlänge.
+- **A)/B)/C)/D)-Buchstabenliste bei mehreren fehlenden Fachdokumenten bestätigt, mit Deadline und Direktadressierung pro Punkt:** vier offene Punkte gegenüber einem Fachplaner-Duo, jeder Buchstabe beginnt mit dem direkten Namen + «Bitte» («Herr Duran, Bitte …») und ist an eine harte Frist gekoppelt («bis heute Abend 17:00 Uhr»). Reiht sich zum etablierten A)/B)-Muster, hier auf vier Punkte skaliert.
+- **@Name-Delegation innerhalb einer Gruppen-Statusmail bestätigt:** «@Jens Ziegel: Darf ich Dich bitten …» — die konkrete Einzelaufgabe wird im Fliesstext einer mehrköpfigen Mail namentlich adressiert, während die übrige Mail an die ganze Gruppe geht.
+- **Abnahme-/Freigabe-Vorbehalt bei unvollständiger Informationslage:** «Ich kann die Korrektheit nur bestätigen, wenn ich umfassend im Bild bin.» — er verweigert explizit eine Kontroll-Bestätigung, solange Unterlagen fehlen, statt eine Freigabe unter Vorbehalt zu geben. Konkrete Ausprägung von «ehrlich vor Auftrag».
+- **Unsicher/nicht generalisierbar (ein Datenpunkt):** eine dringliche Fachplaner-Nachfrage («Können Sie mir bitte dringend die aktuellen Planunterlagen zusenden?») wurde ohne jeden eigenen Fliesstext beantwortet (nur Weiterleitung/Anhang, kein sichtbarer Kommentar im Mailkörper). Könnte ein «stiller Anhang-Reply bei selbsterklärender Bitte»-Muster sein, könnte aber auch ein Extraktionsartefakt der Mailbox-API sein → nicht als Marker übernommen, siehe [[QUESTIONS]].

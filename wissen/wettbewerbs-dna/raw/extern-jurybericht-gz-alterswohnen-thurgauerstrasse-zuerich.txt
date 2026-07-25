@@ -1,0 +1,3124 @@
+# Quelle: https://www.stadt-zuerich.ch/content/dam/web/de/aktuell/publikationen/2025/juryberichte/alterswohnen-thurgauerstrasse-jurybericht.pdf (Jurybericht Mai 2025, 186 Seiten, abgerufen 25.07.2026)
+# Extrakt: pdftotext -layout, 186 Seiten, erstellt 25.07.2026
+
+Gesundheitszentrum &
+Alterswohnungen
+Thurgauerstrasse
+Neubau
+Zürich-Seebach
+
+05/2025
+Projektwettbewerb im offenen Verfahren für Generalplanende
+Bericht des Preisgerichts
+Inhalt
+
+
+
+
+          1 Einleitung               5
+
+          2 Übersicht                6
+
+          3 Nutzer*innenportraits    8
+
+          4 Aufgabe                  10
+
+          5 Vorprüfung               16
+
+          6 Beurteilung              17
+
+          7 Rangierung               19
+
+          8 Schlussfolgerungen      20
+
+          9 Empfehlungen            24
+
+         10 Genehmigung             25
+
+         		 Rangierte Projekte      27
+
+         		 Weitere Projekte        136
+Übersichtsplan Stadt Zürich
+
+
+
+4
+1   Einleitung
+
+
+
+
+                 Auf dem Areal Thurgauerstrasse in See-
+                 bach entsteht ein neuer Quartierteil mit
+                 vielseitigen Nutzungen. Vorgesehen ist die
+                 Erstellung von gemeinnützigen Wohnun-
+                 gen, Gewerbeflächen und einem Quartier-
+                 park. Eine Schulanlage ist bereits bezogen
+                 worden.
+
+                 Im südlich gelegenen Teilgebiet A sollen
+                 jetzt ein Gesundheitszentrum für das Alter
+                 (GFA) sowie Wohnungen der Stiftung Alters-
+                 wohnungen der Stadt Zürich (SAW) entste-
+                 hen.
+
+                 Für die beiden Nutzungen ist gemäss
+                 öffentlichem Gestaltungsplan ein maximal
+                 70 Meter hohes Gebäude mit einem Sockel-
+                 bau von maximal 11 Meter Höhe geplant.
+                 Die Unterbringung der beiden Nutzungen
+                 in einem Gebäude ermöglicht es, Synergien
+                 zu schaffen. Das Projekt entspricht den
+                 Zielen der Altersstrategie 2035 der Stadt
+                 Zürich und bietet umfassende Angebote
+                 für ein selbstbestimmtes Leben im Alter.
+
+                 Weiter sind eine Trafostation und eine
+                 Photovoltaikanlage geplant, die beide von
+                 ewz betrieben werden. Gemäss öffentli-
+                 chem Gestaltungsplan sind mindestens
+                 10 Prozent der Fassadenfläche zu begrü-
+                 nen.
+
+
+                                                             5
+2 Übersicht
+
+
+Auf dem Areal Thurgauerstrasse in Seebach entsteht ein
+neuer Quartierteil. Das gesamte Areal Thurgauerstrasse –
+eine der grössten Baulandreserven Zürichs – wird künftig
+Wohnraum für etwa 1800 Menschen bieten und ist von gros-
+ser Bedeutung für die städtische Entwicklung. Zwei öffent-
+liche Gestaltungspläne sorgen für die Einbindung aller Areal-
+teile in eine gemeinsame Vision.
+
+Auf dem rund 4300 m² grossen Teilgebiet A – zwischen Thur-
+gauer-, Eisfeld- und Grubenackerstrasse gelegen – sollen
+ein Gesundheitszentrum für das Alter (GFA) und Wohnungen
+der Stiftung Alterswohnungen der Stadt Zürich (SAW) entste-
+hen. In den unteren Geschossen liegen gemeinsam genutzte
+Flächen, darüber das GFA für mindestens 96 Bewohner*innen
+und in den oberen Etagen rund 130 Alterswohnungen.
+
+
+
+
+Luftbild
+
+
+
+6
+Auftraggeberin           Bauherrschaft
+                         Stadt Zürich
+
+                         Eigentümervertretung
+                         Immobilien Stadt Zürich (IMMO)
+
+                         Eigentümerin
+                         Stiftung Alterswohnungen der Stadt Zürich (SAW)
+
+                         Bauherrenvertretung, Ausloberin
+                         Amt für Hochbauten (AHB)
+
+Verfahren                Projektwettbewerb nach SIA 142. Offenes Verfahren
+                         für Generalplanende, einstufig, anonym. Das Verfahren
+                         unterstand der IVöB (11/2019) sowie dem Beitrittsge-
+                         setz (03/2023) und der SVO (06/2023) des Kt. Zürich.
+
+Geforderte Disziplinen   Generalplanung, Architektur, Landschaftsarchitektur
+
+Zielkosten Erstellung    CHF 113 Mio. (inkl. MWST, BKP 1–9)
+
+Preisgeld                CHF 271 000 exkl. MWST
+
+Preisgericht             Sachpreisrichterinnen und Sachpreisrichter
+                         Andreas Hauri, Vorsteher GUD
+                         Andrea Martin-Fischer, SAW
+                         Jenny Dreyer, IMMO
+                         Renate Monego, GFA
+                         Regula Pfenninger, GFA
+                         Albert Frölich, Quartierverein (Ersatz)
+
+                         Fachpreisrichterinnen und Fachpreisrichter
+                         Ursula Müller, Vorsitz, AHB
+                         Martin Schneider, AFS
+                         Caspar Hoesch, Architekt, SAW
+                         Philipp Fischer, Architekt, Zürich
+                         Raphael Frei, Architekt, Zürich
+                         Sibylle Aubort Raderschall, Landschaftsarch., Meilen
+                         Daniel Hoffmann, Architekt, Zürich (Ersatz)
+
+Teilnehmende Teams       54
+
+
+
+                                                                                7
+3 Nutzer*innenportraits
+
+
+          Kurzportrait GFA
+          Mit rund 40 Standorten und über 3000 Plätzen verfügen die
+          Gesundheitszentren für das Alter (GFA) über das umfassendste
+          Angebot für Wohnen und Pflege im Alter in der Stadt Zürich.
+          Die GFA bündeln ihre Kompetenzen in den Bereichen Lang-
+          zeitpflege, Betreuung, Hotellerie, Medizin und Therapie. Die
+          langjährigen Erfahrungen in den Bereichen Demenz, Geriatrie,
+          Gerontopsychiatrie und Palliative Care sind in der Schweiz
+          einzigartig und für GFA von grossem Wert.
+          Die GFA bieten zeitgemässe Wohnmöglichkeiten, Unterstüt-
+          zung in der Alltagsbewältigung und gesundheitliche Betreu-
+          ung für Menschen im vierten Lebensabschnitt. Dies in der
+          Angebotsbreite vom gemeinschaftlichen und selbständigen
+          Wohnen über Ferienaufenthalte, Rehabilitation, Entlastung
+          von Angehörigen, ambulante Dienstleistungen bis hin zur
+          spezialisierten Langzeitpflege.
+          Als Institution der Stadt Zürich ist den GFA der Einbezug des
+          Quartiers wichtig. Sie engagieren sich für die Zusammenarbeit
+          mit den Quartierbewohner*innen über alle Altersstufen und
+          schaffen so die Voraussetzungen für einen lebendigen Aus-
+          tausch zwischen den Generationen.
+          Die GFA verstehen Gesundheit umfassend als Zustand des
+          körperlichen, seelischen und sozialen Wohlbefindens. Die indi-
+          viduelle Lebensqualität der Bewohnerschaft steht bei den GFA
+          immer im Vordergrund. Unabhängig von der wirtschaftlichen,
+          sozialen oder gesundheitlichen Situation wollen die GFA ihren
+          Bewohner*innen ein selbstbestimmtes Leben im Alter ermögli-
+          chen.
+          Mit dem Schulungszentrum Gesundheit Zürich, dem SGZ Cam-
+          pus, und eigener Forschung entwickeln die GFA die Qualität
+          ihrer Angebote stetig weiter.
+
+          Kurzportrait SAW
+          Die Stiftung Alterswohnungen der Stadt Zürich (SAW) betreibt
+          auf städtischem Gebiet mehr als 30 Siedlungen mit rund 2000
+          bezahlbaren Wohnungen für Menschen ab 60 Jahren. Sie un-
+          terstützt ihre Mieter*innen mit alltagsnahen, sozialen und pfle-
+          gerischen Dienstleistungen und ermöglicht ihnen dadurch den
+          Verbleib in den eigenen vier Wänden sowie eine hohe Lebens-
+          qualität bis ins hohe Alter. Bei gesundheitlichen Schwierigkei-
+          ten oder wenn Hilfe im Alltag nötig ist, stehen beispielsweise
+          eine eigene Spitex, Soziale Dienste oder eine Hauswartung mit
+          erweitertem Aufgabengebiet zur Verfügung. Auch ein 24-Stun-
+          den-Notrufdienst und ein Wäsche-Service gehören zum Ange-
+          bot. Vielfältige soziokulturelle Aktivitäten wie Vorträge, Bewe-
+
+8
+gungs- und Gedächtnistrainings, Siedlungsfeste oder Vor-
+lesenachmittage unterstützen den Aufbau nachbarschaftli-
+cher Kontakte und ein aktives Siedlungsleben.
+Die SAW richtet sich an Einwohner*innen der Stadt Zürich.
+Das Durchschnittsalter der Mieter*innen beträgt 77 Jahre,
+61 % von ihnen sind Frauen, 39 % Männer. Die SAW vermietet
+ihre Wohnungen nach dem Prinzip der Kostenmiete. Rund
+75 % der SAW-Wohnungen sind subventioniert; das heisst die
+Mieten werden durch Mittel der Wohnbauförderung von Kan-
+ton und Stadt Zürich zusätzlich vergünstigt. Für alle Wohnun-
+gen der SAW gelten Einkommens- und Vermögenslimiten.
+
+Die SAW wurde 1950 von der Stadt Zürich als Antwort auf die
+Wohnungsnot Mitte des letzten Jahrhunderts gegründet. Sie
+ist eine öffentlich-rechtliche Stiftung mit eigener Rechtsper-
+sönlichkeit, administrativ ist sie dem Gesundheits- und Um-
+weltdepartement der Stadt Zürich angegliedert. Die Stiftung
+beschäftigt rund 170 Mitarbeiter*innen in den Bereichen Infra-
+struktur und Unterhalt, Spitex und Sozialdienst, Soziokultur,
+Bau und Entwicklung, Finanzen und Vermietung sowie Admi-
+nistration. Ihr oberstes Organ ist der Stiftungsrat, der vom
+Stadtrat gewählt ist.
+
+
+
+
+                                                                9
+                   4 Aufgabe
+
+
+                   Kontext                                                                                                                                                                                                                                                                                                                                                                  Grubenacker, westlich der Thurgauerstrasse,
+                   Die Thurgauerstrasse als markanter Strassen-                                                                                                                                                                                                                                                                                                                             wird über die Schärenmoosstrasse bzw. über
+                   raum entlang des Areals ist Teil der Verkehrs-                                                                                                                                                                                                                                                                                                                           die Eisfeld-/Schaffhauserstrasse von Seebach
+                   und Dienstleistungsachse Oerlikon-Glattbrugg-                                                                                                                                                                                                                                                                                                                            her erschlossen. Das Entwicklungsgebiet
+                   Flughafen. Die Strasse übernimmt damit eine                                                                                                                                                                                                                                                                                                                              Thurgauerstrasse befindet sich an der Naht-
+                   wichtige Scharnierfunktion zu den Nachbar-                                                                                                                                                                                                                                                                                                                               stelle einer Zentrumszone mit hoher Ausnüt-
+                   quartieren und -gemeinden. Die Realisierung                                                                                                                                                                                                                                                                                                                              zung und einer kleinteiligen Wohnzone. Zur
+                   eines dichten und vielfältigen Stadtraumes                                                                                                                                                                                                                                                                                                                               Qualitätssicherung hat das Amt für Städte-
+                   auf dem bis jetzt weitgehend unbebauten                                                                                                                                                                                                                                                                                                                                  bau zwei öffentliche Gestaltungspläne (öGP)
+                   Areal bietet die Chance, gewerbliche, schuli-                                                                                                                                                                                                                                                                                                                            erarbeitet: Teilgebiet B für Schulnutzung und
+                   sche und andere sozialräumliche Beziehun-                                                                                                                                                                                                                                                                                                                                Quartierpark sowie Teilgebiete A, C– F für
+                   gen über die Thurgauerstrasse hinweg ent-                                                                                                                                                                                                                                                                                                                                Wohnnutzung.
+                   stehen zu lassen. Das bestehende Quartier
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Grundstücksdaten
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Kataster-Nr.: SE6833
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Fläche: 4324 m2
+Gewerbe»
+                                                                                                                                                                                                                                                                                                                                                                                                                             F2
+                                                                                                                                                                                                                                                                                                                                                                                                                                    F                                                                                                                                                             Zone (BZO 2016):
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  öffentlicher Gestaltungsplan
+                                                                                                                                                                                                                                                                                                                                                                                                                                       F1
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Thurgauerstrasse
+                                                                                                                                                                                                                                                                                                                                                                                                                            E5                                                                                                                                                                    Adresse:
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  Thurgauerstrasse 41/43,
+                                                                                                                                                                                                                                                                                                                                                                                                                       E                                                                                                                                                                          8052 Zürich-Seebach
+                                                                                                                                                                                                                                                                                                         E
+                                                                                                                                                                                                                                                                                                                                                                                                   E4
+                                                                                                                                                                                                                                                                                                                                                   E3
+                                                                                                                                                                                                                                                                                                                                                                                                                       E2
+ ……………..
+
+
+                                                                                                                                                                                                                                                    e                                                                                                                                              E1
+ ……………..
+                                                                                                                                                                                                                                               ss
+ ……………..
+                                                                                                                                                                                                                                          tra                             D                                                  D4
+                                                                                                                                                                                                                                      ns                                                                                                                                                                                          E
+……………...
+                                                                                                                                                                                                                                   ffe
+                                                                                                                                                                                                                                                  rst
+                                                                                                                                                                                                                                                                              se                   D3                D
+                                                                                                                                                                                                                               Ste                   ras
+……………...                                                                                                                                                                                                                                                                                                                                D2
+                                                                                                                                                                                                                                              ke                                                                                                                                                                                      us
+                                                                                                                                                                                                                                                                                                        D1
+……………..
+                                                                                                                                                                                                                                         ac                                                                                                                                                                                       erh
+                                                                                                                                                                                                                               C                                                                                                                                                                                        D
+                                                                                                                                                                                                                               Gr                                                                                                                                                                                                rlik
+                                                                                                                                                                                                                                  ub                                               C4
+                                                                                                                                                                                                                                                                                                                                                                                                                             Oe
+                                                                                                                                                                                                                                    en
+                                                                                                                                                                                                                                     C3
+                                                                                                                                                                                                                                                                                   C
+                                                                                                                                                                 mannstrasse
+                                                                                                                                                              All
+                                                                                                                                                                                                                                                                                   C2
+
+                                                                                                                                                                  Q                                                                                                                                                                                                      C
+                                                                                                                                                                 pa uarti
+                                                                                                                                                                                                                                               C1
+                                                                                                                                                                   rk er-
+
+
+                                                                                  Kle                                                                                                                                                                                        ss
+                                                                                                                                                                                                                                                                                     e
+ngefähre Lage)
+                                                                                              inb
+                                                                                                                 üh                                                                                                                          au
+one
+
+
+                                                                                                                                 lst                                                                                                           ers
+                                                                                                                                                                  ras                                                                             tra                                                                                                                                                                   se
+                                                                                                                                                                                          se                         S                                                                                                                                                                                                 as
+                                                                                                                                                                                                                    an chul-       Th                                                                                                                                                                                 str
+                                                                                                                                                                                                                      lag            urg                                                                                                                                                                   ch
+                                                                                                                                                                                                                          e                                                                                                                                                                        ba
+reich)
+                                                                                                                                                                                                                                                                                                                                                                                            en                                                                                                                                                                                                                A                  Teilgebiet A
+                                                                                                    A                                                                                                                                                                                                                                                                         ch
+                                                                                                                                                                                                                                                                                                                                                       uts                                                                                                                                                                                                                                                C                      Teilgebiet C
+                     Eis                                                                                                                                                                                                                                                                                                                Le
+                        fel
+                               ds
+                                        tra
+                                                                                                                 A2
+                                                                                                                                                                       A1
+                                                                                                                                                                                                 A                                                 ga
+                                                                                                                                                                                                                                                                          te                                                                                                                                                                                                                                                                                                                                  D                  Teilgebiet D
+
+                                                              ss                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          E                      Teilgebiet E
+ 200219_Plan.vwx
+
+                                                                                                                                                                                                                                             Air
+                                                                          e
+5)/ August 2016
+
+
+
+
+                                                                                                                                                                                                                               A                                                                                                                                                                                                                                                                                                                                                                              F                  Teilgebiet F
+
+                   Öffentlicher Gestaltungsplan «Teilgebiete A und C–F Wohnen/Gewerbe», nicht massstäblich (AFS)
+                        Schnitt C-C, 1:1000                                                                                                                                                                                        Schnitt D-D, 1:1000                                                                                                                                                                                Schnitt E-E, 1:1000
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     E1, 487,00 m.ü.M
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Wohnen                              17
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Wohnen                              16
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Wohnen                              15
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Wohnen                              14
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Wohnen                              13
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Wohnen                              12
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Wohnen                              11
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Wohnen                              10
+
+
+
+
+                   10
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Wohnen                             09
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Wohnen                             08
+
+                                                                                                  C2, 452,00 m.ü.M
+                                                                                                                                                                                                                                                                                                        D2, 452,00 m.ü.M                                                                                                                                                                Wohnen                              07
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Wohnen                             06
+                                                                                                  Wohnen    05
+                                                             C3, 445,00 m.ü.M                                                                                                                                                                                                                                                                                                                                                                                                           Wohnen                             05
+                                                                                                  Wohnen    04
+                                                                                                                                                                                                                                                                          D3, 445,00 m.ü.M
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Wohnen                             04
+                                                             Wohnen         04                    Wohnen    03                                                                                                                                                            Wohnen             04                                                                                                                                                                                         Wohnen                              03
+                                                             Wohnen         03                    Wohnen    02                                                                                                                                                            Wohnen             03                                                                                                                                                                                         Wohnen                             02
+                                                             Wohnen         02
+                                                                                                                                                                                                                                                                          Wohnen             02         Wohnen         02
+                                                                                                  Gewerbe         01
+                                                             Wohnen         01                                                                                                                                                                                                                                                                                                                                                                                                          Wohnen / Gewerbe                    01
+                                    +430,35 m.ü.M                                                                                                                                                                                                                         Wohnen             01         Gewerbe        01
+                                                               Gew. Terrain EG    +428,00 m.ü.M
+                                                                                                  Gewerbe         EG    +427,00 m.ü.M                                                                                                            +428,00 m.ü. M                              EG                                                                                                                                               +428,00 m.ü. M
+                                                                                                                                                                                                                                                                                                                               +427,00 m. ü. M                                                                                                                         +427,00 m.ü. M                      Gew. Terrain          +427,00 m.ü. M
+                                                                           UG 1                                                                                                                                                                                              Gew. Terrain               Gewerbe        EG                                                                                                                                                               Gewerbe                            EG
+                                                                                                                 UG 1                                                                                                                                                                       UG 1
+
+
+
+
+                                        Grubenackerstrasse                                                                                                                                                                                           Grubenackerstrasse                                                                                                                                                                           Grubenackerstrasse
+                                                                                                                                                                                                                                                                                                                      UG 1                                                                                                                                                                                                UG 1
+
+
+
+
+                                                                                                                                                                       Thurgauerstrasse          Thurgauerstrasse                                                                                                                                                        Thurgauerstrasse          Thurgauerstrasse                                                                                                                                                          Thurgauerstrasse                 Thurgauerstrasse
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          UG 2
+
+
+
+
+                                                                                                                           Trottoir   Vorzone   Zufahrt   Parkierung                      Tram                                                                                                                               Trottoir   Vorzone   Zufahrt   Parkierung                      Tram                                                                                                                                 Trottoir   Vorzone   Zufahrt   Parkierung                      Tram
+                                                                                                                                    ke
+                                                                                                                                       rst
+                                                                                                                                           r
+                                                                                                                                  ac
+                                                                                                                             ub
+                                                                                                                               en
+                                                                                                               C          Gr
+                                                                                                                                              C4
+
+
+           Öffentlicher Gestaltungsplan                   Aufgabe
+           Im Bericht des öGP sind als Erkenntnisse zur Auf dem Grundstück war eine stadträumlich,
+                                                                                                                                               C
+           Testplanung folgende Punkte aufgeführt:        architektonisch und betriebstechnisch quali-                C3
+           – Die Idee eines markanten und zusammen- tativ hochwertige Bebauung zu planen.
+             hängenden Stadtteils soll weiterverfolgt    Allmannstrasse
+                                                          Gemäss    Art. 21 öGP sind Bauten, Anlagen
+             werden.                                      und deren Umschwung für sich und in ihrem                                       C2
+           – Eine starke Freiraumfigur hält den Stadtteil Zusammenhang mit der baulichen und land-
+             zusammen und entspricht der Forderung        schaftlichen Umgebung im Ganzen und in
+             nach einem lebendigen und identitätsstif-    ihren einzelnen Teilen so zu gestalten, dass                         C1
+             tenden neuen Quartierteil von Leutschen-     eine besonders gute Gesamtwirkung erreicht
+             bach.                                        wird. In Bezug auf den architektonischen Aus-
+           – Die Spielwiese der Schule dient sowohl der druck sind die Bauten der Teilgebiete A und
+             Schule wie auch der Allgemeinheit und kann C– F sorgfältig aufeinander abzustimmen.
+             topografisch überzeugend angelegt wer-
+             den.                                         Es soll ein funktionales Gesundheitszentrum
+           – Eine gegenüber der Grundordnung erhöhte mit hohem Wohnwert für mindestens 96 Be-
+             bauliche Ausnützung des Areals wird als      wohner*innen entstehen. Zudem sollen rund
+             raumplanerisch richtig und städtebaulich     130 qualitätsvolle Alterswohnungen entstehen.
+             verträglich erachtet.                        Ergänzt werden die kompakten Kleinwohnun-
+                                    Kle
+                                        inb               gen durch kontaktfördernde Erschliessungs-,
+                                            üh
+                                               lst        Gemeinschafts- und Betriebsflächen.
+                                                   ra            ss
+                                                                   e
+
+
+
+
+                                                                                    se
+                                                                                rst
+                                                                                   ras
+                                                                              ke
+                                                                             ac          Schulanlage
+                                                                           en
+                                                                         ub
+                                                                        Gr
+
+
+                                                 A                                                            se
+                                                                                                             ras
+                                                                                                        au
+                                                                                                           ers
+                                                                                                               t
+                                                                                                       urg
+                                                                                                   Th
+
+
+                                                                        A1         A                                                 gate
+                                                         A2                                                                       Air
+                      Eis
+                         fel
+                            ds
+                               tra
+                                  ss
+                                     e
+
+                                                                                                              A
+
+           Öffentlicher Gestaltungsplan, Auszug Teilgebiet A, nicht massstäblich (AFS)
+
+
+
+Schnitt C-C, 1:1000                                                                                                Schnitt D-D, 1:1000   11
+                Anknüpfungspunktarealinterne ErschliessungFuss-/Veloverkehr(ungefähre Lage)
+
+                Bereich für Ein-/Ausfahrt motorisierter Individualverkehr in die Vorzone
+
+
+
+
+Informationsinhalte
+
+Wettbewerbsziele                                     Kostenknappheit ist eine gute innere Gestal-
+           Verkehrsbaulinie
+Im Sinne eines   umfassenden Nachhaltig-             tung umzusetzen.
+keitsgedankens waren Projekte mit folgen-
+           Abbruch bestehende Bauten und Anlagen
+den Eigenschaften gesucht:                           Wirtschaft
+           Uferstreifen Binzmühlebach                Wirtschaftlich vorbildliche Projekte, die auf
+Gesellschaft                                         sehr niedrige Erstellungskosten sowie einen
+           Strassenbaum
+Gesellschaftlich          Thurgauerstrasse
+                  vorbildliche             (innerhalb/ausserhalb
+                                Projekte, die        höchstmöglich Geltungsbereich)
+                                                                        kostengünstigen Betrieb und
+städtebaulich  angemessen auf
+           Städtebauliches        die bestehende
+                            Richtkonzept             Unterhalt
+                                         Thurgauerstrasse  West ausgerichtet sind. Effizientes Ver-
+Stadtstruktur reagieren. Projekte, die mit qua- hältnis zwischen Hauptnutzfläche (HNF) und
+litätsvollem architektonischen Ausdruck und Geschossfläche (GF). Die Planung soll gesamt-
+mit ihrer Materialisierung einen Beitrag zur         haft lebenszyklusorientiert erfolgen, damit die
+Quartieraufwertung leisten und die eine hoch- Betriebs- und Unterhaltskosten tief ausfallen.
+wertige Aussenraumgestaltung – insbeson-
+dere der Demenzgärten – vorweisen. Die               Ökologische Nachhaltigkeit
+Konzepte, Grundrisse und Schnitte sollen das Zur Umsetzung des Klimaschutzziels Netto-
+vorgeschriebene Raumprogramm und die                 Null werden ökologisch vorbildliche Projekte
+formulierten Anforderungen bestmöglich um- gesucht, deren Treibhausgasemissionen und
+setzen. Sie sollen einen hohen Gebrauchs-            Energiebedarf bei der Erstellung und im Be-
+wert mit guter Möblierbarkeit aufweisen und trieb auf           ein Minimum
+                                                            Dokument:              reduziert
+                                                                        10064_08_200219_Plan .vwx sind. Für die
+
+allen Menschen eine hindernisfreie, altersge- Solarstromerzeugung stehen möglichst
+                                                            Grundlage:  GeoZ (LV95)/ August 2016
+
+rechte, sichere und wohnliche Nutzung ermög- grosse Flächen auf den Dächern und an den
+lichen sowie attraktive Arbeitsplätze aufzei-        Fassaden zur Verfügung. Die thermische
+gen. Zudem sollen Schwellenräume differen- Behaglichkeit in den Innenräumen wird mit
+ziert gestaltet und auf eine gute Wegführung architektonischen Mitteln gewährleistet. Es
+zu den Wohnungen geachtet werden. Trotz              werden bauökologisch schlüssige Konstruk-
+
+                                               A1, 498 m.ü.M
+
+                                           Wohnen                      20
+                                           Wohnen                      19
+                                           Wohnen                      18
+                                           Wohnen                      17
+                                           Wohnen                      16
+                                           Wohnen                      15
+                                           Wohnen                      14
+                                           Wohnen                      13
+                                           Wohnen                      12
+                                           Wohnen                      11
+                                           Wohnen                      10
+                                           Wohnen                      09
+                                           Wohnen                      08
+                                           Wohnen                      07
+                                           Wohnen                      06
+                                           Wohnen                      05
+                                           Wohnen                      04
+                                           Wohnen                      03
+                           A2, 439 m.ü.M
+                                           Wohnen                      02
+                              Wohnen/                                  01
+               431 m.ü.M      Gewerbe
+                                                    gew. Terrain EG          428 m.ü.M
+                             Gewerbe
+                                                                       UG1
+
+          Grubenacker-                                                   Zufahrt         Thurgauer-
+             strasse                                                     Vorzone           strasse
+
+Schnitt AA aus öGP, Auszug Teilgebiet A, nicht massstäblich (AFS)
+
+                                                    A1, 498,00 m.ü.M
+
+
+12
+Ansicht Thurgauerstrasse, 1:1000
+tionssysteme und Materialien eingesetzt so-      mittlerem bis hohem Betreuungs- und Pflege-
+wie Konzepte der modularen Gebäudetech-          bedarf bieten. Es werden ausschliesslich
+nik angewandt. Die Freiraumgestaltung leis-      Einerzimmer mit Nasszelle angeboten. Auf-
+tet – im Rahmen der Möglichkeiten – einen        grund von Entwicklungsprognosen und der
+Beitrag zur Förderung der Stadtnatur und zur     aktuellen Nachfrage sind mehrere Abteilun-
+Hitzeminderung.                                  gen auf an Demenz erkrankte Menschen aus-
+                                                 gerichtet, was insbesondere dafür geeignete
+Synergien                                        Aussenräume (Demenzgärten) oder Freiflä-
+Die GFA und SAW streben ein Angebot mit          chen erfordert. Im GFA werden rund 200 Mit-
+hoher Durchlässigkeit für ältere Menschen an. arbeitende beschäftigt sein.
+Das Angebot soll es diesen ermöglichen, gut
+eingebettet in die Gesellschaft ein eigenständi- Die Infrastruktur – insbesondere der Mehr-
+ges, selbstbestimmtes Leben zu führen und        zwecksaal, das öffentliche Restaurant, Kü-
+bei Unterstützungsbedarf niederschwellig auf che, Lingerie sowie spezielle Dienstleistungs-
+ein breites soziales, betreuerisches, pflege-    bereiche wie Coiffeur oder Podologie – ist
+risches und therapeutisches Angebot zugrei- nicht nur für die Bedürfnisse des GFA konzi-
+fen zu können. Mit dieser breit abgestützten     piert. Das Restaurant mit Aussenterrasse
+Angebotspalette sollen eine hohe Lebens-         soll als zentraler Begegnungsort dienen und
+qualität und ein Verbleiben im Quartier bis zum allen Interessierten offenstehen. Dies gilt
+Lebensende ermöglicht werden – unabhängig auch für den Mehrzwecksaal mit Bühne und
+von Gesundheit, finanziellen Verhältnissen und weitere Räume im GFA, die auf Anfrage auch
+Lebensform. Die direkte Nachbarschaft von        der Öffentlichkeit zur Verfügung stehen.
+GFA und SAW ergibt einen grossen Mehr-
+wert im Bereich der Dienstleistungen für die     Mit der Arealverbindung zu den weiteren auf
+älteren Menschen, ermöglicht die Nutzung         dem Areal geplanten Nutzungen, insbeson-
+von gemeinsamer Infrastruktur und ergibt         dere zum Quartierpark und zu den Wohnüber-
+Synergien in diversen betrieblichen Belangen. bauungen sowie einem attraktiven Aussen-
+                                                 bereich soll die Einbindung in das Quartier
+Nutzung Gesundheitszentrum                       gefördert werden.
+Das GFA Thurgauerstrasse ist Bestandteil
+der stadtweiten Grundversorgung mit einem Nutzung Alterswohnungen
+entsprechenden Angebot von Dienstleistun- Die Nachfrage nach Wohnungen der SAW
+gen. Es unterstützt im Einzugsgebiet von Zü- übersteigt das heutige Angebot. Auf dem
+rich Nord die Umsetzung der Altersstrategie Areal Thurgauerstrasse sollen deshalb rund
+2035 der Stadt mit dem Ziel einer quartier-      130 Alterswohnungen erstellt werden, davon
+nahen Versorgung. Die Ausrichtung des An-        rund 80 % als 1,5–2,0-Zimmer-Wohnungen
+gebots orientiert sich an den Eckwerten der      und 20 % als 2,5-Zimmer-Wohnungen. Die
+Altersstrategie 2035 und beinhaltet neben        Berechnung der Mietzinse erfolgt nach den
+dem Wohn- und Pflegeangebot für betagte          Grundsätzen der Kostenmiete der kantonalen
+Menschen auch öffentliche Angebote für die Wohnbauförderung (WBFV). Die subventio-
+unmittelbare Nachbarschaft und das Quartier. nierten Wohnungen werden nach den Vor-
+                                                 gaben der WBFV vermietet. Die Alterswoh-
+Das GFA soll Platz für mindestens 96 Bewoh- nungen werden im Auftrag der SAW erstellt
+nerinnen und Bewohner im Angebotssegment und von dieser finanziert. Der SAW wird dazu
+der Spezialisierten Pflege für Personen mit      ein Baurecht gewährt.
+
+                                                                                          13
+		    Siedlungsportrait
+
+
+             Heute ist Montag und für Franz und Hildegard Giacometti ein
+             besonderer Tag. In der luftigen Eingangshalle begrüsst Meta
+             Xerxes vom Empfang das Ehepaar herzlich. Wie praktisch,
+             denkt Hildi, zu Bus und Tram sind es nur ein paar Schritte. Die
+             rüstige Hildegard (83) bezieht eine 2-Zimmerwohnung der SAW
+             im 15. Stock mit Blick auf den Sportplatz und dahinter den
+             Park. Ein Glücksfall, sie freut sich und ist doch auch traurig.
+             Nach 47 Ehejahren schläft sie erstmals nicht mehr am selben
+             Ort wie Franz. Schweren Herzens hat sie sich entschieden, ihn
+             der Demenzgruppe im Gesundheitszentrum für das Alter anzu-
+             vertrauen. Er wohnt in einem Einerzimmer im 2. OG direkt am
+             Dachgarten. Hildegard ist froh, nun Unterstützung in der Pflege
+             ihres Ehemanns zu erhalten und, wann immer möglich, Zeit mit
+             Franz verbringen zu können. Für die ersten Wochen hat sie mit
+             der Abteilungsleiterin vereinbart, dass sie gemeinsam im Wohn-
+             bereich der Demenzabteilung zu Mittag essen, abends aber in
+             der Wohnung, solange es geht. Froh ist Hildegard auch um die
+             Entlastung im Haushalt. Neu muss sie sich nicht mehr um die
+             Wäsche kümmern, denn auch in der SAW Alterswohnung ist das
+             Waschen der Wäsche in der Miete inbegriffen. Weiterhin trifft
+             sich Hildegard einmal in der Woche mit zwei Freundinnen aus
+             dem umliegenden Quartier zum Zmittag-Jass, neu im öffentli-
+             chen Selbstbedienungsrestaurant im EG. Es gibt verschiedene
+             Menus, Salate und einen Tagesteller, die man auch mitnehmen
+             kann. Viele Mieter*innen der SAW essen hier, es ist gut und
+             günstig – und es gibt viel zu sehen. Die eingemietete Tanzschule
+             «TripRap» begeistert mit MuKi-Turnen, Yoga und Kursen von
+             Swing bis Hiphop Jung und Alt aus den Neubauten hinter dem
+             Park ebenso wie das Büropersonal aus dem Airgate oder dem
+             nahegelegenen Andreasturm. Das lebendige Kommen und
+             Gehen ist ein Augenschmaus und liefert auch genügend Ge-
+             sprächsstoff für eine kleine Begegnung mit der Aussenwelt,
+             denn nach dem Training gönnt sich manch eine*r einen Kaffee
+             oder einen Apéro im Restaurant oder auf der Aussenterrasse.
+
+             Maria Matusic, die Wohnbereichsleiterin der einen Demenz-
+             gruppe, schätzt das übersichtliche Layout der Abteilung. Von
+             ihrem Büro hat sie einen guten Überblick über den Korridor, das
+             Stübli und den Wohn-/Essbereich. Sie findet es sehr gut, dass
+             sich die an Demenz erkrankten Bewohner*innen zwischen den
+             Wohnbereichen frei bewegen können, und von den Mitarbeiten-
+             den begleitet werden, wenn sie nicht selbstständig mit dem
+             Lift oder über das Treppenhaus z. B. in die Geschosse mit den
+             Demenzgärten gelangen können. Auch persönlich ist sie stolz.
+             Nach der Ausbildung zur Fachfrau Gesundheit hat sie sich an
+
+ 14
+der höheren Fachschule zur Pflegefachperson HF weitergebil-
+det und im Beruf auf Demenzbetreuung spezialisiert. Sie liebt
+den Austausch mit Bewohner*innen und Angehörigen, aber im
+speziellen freut sie sich über die enge Zusammenarbeit mit den
+Ärztinnen und Ärzten, Fachpersonen aus Therapie sowie Pflege,
+genauso wie mit dem Technischen Dienst oder mit dem Küchen-,
+Reinigungs- und Verwaltungspersonal, aus bis zu 40 Nationen.
+
+Ab dem 8. OG ist es sehr ruhig. Manchmal fast zu ruhig. Hier, in
+den SAW Wohnungen, leben viele Senior*innen oft zurückgezo-
+gen, der Grossteil allein. Nach Bedarf beziehen sie pflegerische
+und hauswirtschaftliche Dienstleistungen der SAW Spitex. Toll
+sind die Begegnungszonen mit Sitzgruppe. Hier treffen sie sich
+gerne auf einen Schwatz, oder suchen die Siedlungspräsenz der
+SAW Spitex, die zweimal pro Woche für alle Fragen ein Ohr hat.
+Heute hört man im Gemeinschaftsraum im Dachgeschoss Stim-
+men: agil&mobil heisst der Gedächtniskurs der Soziokultur. Die
+Aussicht ist grossartig, viele treffen sich auch für Familienfeste
+hier oben.
+Beim Rollator von Herrn Hubler klemmt mal wieder die eine
+Bremse. Daher entschliesst er sich spontan, diese in der Velo-
+werkstatt «Züri rollt» – möglicherweise im Teilgebiet D – über-
+prüfen zu lassen. Vielleicht nimmt er auch gleich sein Laptop
+mit, da er neuerdings Probleme mit seinem Email-Account hat.
+Bei «Compicheck» gleich neben dem Siedlungslokal kennen sie
+ihn bereits gut und haben immer gute Tipps und Tricks auf Lager.
+Mary Polder vom SAW Sozialdienst ist besorgt. Massimo Wernli
+weigert sich standhaft, Unterstützung anzunehmen. Wahr-
+scheinlich fürchtet er die Kosten, oder aber in die Pflegeabtei-
+lung umziehen zu müssen? Dabei wäre es hier so einfach, sich
+unterstützen zu lassen: Spitex in die Wohnung holen, tagsüber
+punktuell in die Tagespflege gehen oder im fürsorglichen Um-
+feld der Pflegeabteilung Pflege, Kontakt und Betreuung erhalten.
+
+Viele Wohnungsmietende nutzen den Nebeneingang bei den
+Liften und meiden die Lobby. Natürlich ist es nicht immer ange-
+nehm, das fragile Alter vor Augen zu haben und ab und an den
+Bestattungswagen vorfahren zu sehen. Verständlich ist es aber
+nicht ganz, denn die Eingangshalle wirkt architektonisch und
+dank der Farbgebung lebendig und einladend, eher wie eine
+Hotellobby, denn wie ein Spitaleingang. Neuerdings haben die
+Schulkinder die Kiosk-Ecke im Restaurant entdeckt. Nach Schul-
+schluss ist da immer was los. Genauso wie im Saal mit der Bühne
+und Veranstaltungsprogramm. Mary liebt den Donnerstag. Dann
+probt hier abends der bunt gemischte Airport-Chor.
+
+                                                                15
+5 Vorprüfung
+
+
+Die 54 eingereichten Projekte wurden nach den Grundsätzen
+der SIA-Ordnung 142, den Anforderungen des Wettbewerbs-
+programms und der Fragenbeantwortung auf folgende Punkte
+hin geprüft:
+
+
+Teil 1                                        Teil 2
+Zulassung zur Beurteilung:                    Die 7 Projekte der engeren Wahl wurden
+– Termingerechtigkeit der eingereichten       zusätzlich auf folgende Kriterien geprüft:
+  Unterlagen                                  – Ökologische Nachhaltigkeit
+– Vollständigkeit der eingereichten           – Wirtschaftlichkeit
+  Unterlagen                                  – Bauvorschriften
+                                              – Lärmschutz
+Die Vorprüfung beantragte dem Preisgericht,   – Eigentümervertretung, IMMO Betrieb
+alle Projekte zur Beurteilung zuzulassen.     – GFA Betrieb, Raumprogramm
+                                              – SAW Eigentümervertretung, Betrieb,
+Zulassung zur Preiserteilung:                   Raumprogramm
+– Projektierungsperimeter und Bauvorschrif-   – Tragwerk
+  ten                                         – Gebäudetechnik
+– Raumprogramm                                – Brandschutz
+                                              – Fassadenbegrünung
+Sofern angegeben, wurden die von den          – Freiraum, Dachbegrünung
+Teams deklarierten Mengenangaben für die      – Erschliessung, Parkierung
+Vorprüfung Teil 1 übernommen. Für die Bei-
+träge ohne Mengenangaben wurde ein grober Die Mengenangaben wurden überprüft und
+Massauszug vorgenommen.                      verifiziert. Die detaillierten Berichte der
+                                             Expertinnen und Experten sind in den Vor-
+Die Vorprüfung beantragte dem Preisgericht, prüfungsbericht Teil 2 eingeflossen.
+alle Projekte zur Preiserteilung zuzulassen.
+
+
+
+
+16
+6 Beurteilung
+
+
+Das Preisgericht trat am 3. und 4. Februar 2025   In drei Wertungsrundgängen und einem
+sowie am 25. März 2025 zur Beurteilung der        anschliessenden Kontrollrundgang sind
+Projekte zusammen. Nach einer gemeinsamen         die folgenden Projekte ausgeschieden:
+Besichtigung aller Projekte nahm das Preis-
+gericht am ersten Jurierungstag vom Ergeb-        1. Wertungsrundgang:
+nis der Vorpüfung (Teil 1) Kenntnis. Sämtliche
+Projekte wurden sowohl zur Beurteilung als        01   GOLDENTHUR
+auch zur Preiserteilung zugelassen. In Grup-      03   «DER GRÜNE TURM»
+pen eingeteilt hat das Preisgericht die Pro-      05   RENDEZ-VOUS
+jekte eingehend analysiert und dem Plenum         10   ZENO
+in einem ersten wertungsfreien Rundgang           11   THURM
+präsentiert. Am zweiten Jurytag wurde das         16   KLEID
+Grundstück besichtigt. Anschliessend fand         18   WILD STRAWBERRIES
+eine Gesamtbeurteilung nach den folgenden         21   APOLLON
+im Wettbewerbsprogramm aufgeführten Be-           24   THYMIAN
+urteilungskriterien statt (Reihenfolge ohne       26   MIGHTY APHRODITE
+Wertung):                                         34   HOCHHINAUS
+                                                  44   KRAFTWERK
+Gesellschaft                                      48   SILVER FOX
+– Volumetrische Gestaltung                        51   ARMADILLO
+– Qualitäten Architektur, Aussenraum              52   TETRIS
+– Erfüllung Raumprogramm                          53   VERTIKALE GENERATIONEN
+– Funktionalität, Gebrauchswert, Hindernis-
+  freiheit
+– Materialisierung                                2. Wertungsrundgang:
+
+Wirtschaft                                        02   LINIE 10
+– Erstellungskosten                               04   BORNEO
+– Flächeneffizienz                                06   ROSMARIN
+– Betriebs- und Unterhaltskosten                  07   FRANZ UND HILDEGARD
+                                                  08   UP TO YOU
+Ökologische Nachhaltigkeit                        09   HAUS IM GLÜCK
+– Ökologisch vorbildliches Projekt Miner-         12   HÖHENFLUG IM DSCHUNGEL
+  gie-P-Eco                                       17   NORDSTERN
+– Energie- und Treibhausgas-Bilanz für            19   GLIMMER
+  Erstellung und Betrieb der Gebäude              20   OERLY BIRD
+– Potenzial Solarstromproduktion                  22   SOLARPUNK
+– Thermische Behaglichkeit der Innenräume         25   AMOUR
+  und sommerlicher Wärmeschutz                    27   «IDYLLE»
+– Bauökologisch schlüssige Konstruktions-         30   REGNI
+  systeme und Materialien sowie modulare          32   BALANCE
+  Gebäudetechnik                                  33   «KOSMOS»
+– Klimatische Ausgleichs- und Entlastungs-        36   GOLDEN LANE
+  flächen sowie Kaltluftsystem                    37   SUNSET BOULEVARD
+– Ökol. wertvolle Freiraum- und Dachflächen       38   LIBELLE
+
+                                                                                          17
+39   INDIAN SUMMER                            Am dritten Jurierungstag wurden die Ergeb-
+41   VESTIBÜL                                 nisse der vertieften Vorprüfung (Teil 2) prä-
+42   VINTAGE                                  sentiert. Die Projektbeschriebe wurden bera-
+43   MOAI                                     ten und die Projekte der engeren Wahl disku-
+45   WABI-SABI                                tiert. Schliesslich zog das Preisgericht die
+46   GIULIETTA                                Schlussfolgerungen aus dem Verfahren, for-
+47   COPACABANA                               mulierte die Empfehlungen für die Weiterbe-
+49   GOJIRA                                   arbeitung, legte die Rangierung und Preiszu-
+50   MATCHA                                   teilung fest und erkor folgendes Projekt ein-
+54   HOME OF STORIES                          stimmig zum Sieger:
+
+                                              13   BINGO FLAMINGO
+Am Abend des zweiten Jurierungstags
+wurden folgende Projekte für einen Preis
+aber nicht für die engere Wahl bestimmt:      Zuletzt wurden die Verfassercouverts geöff-
+                                              net und die Verfasserteams bekannt gegeben.
+28   CITRUS
+40   FREIE SICHT AUFS MITTELMEER
+
+
+Folgende Projekte wurden für die engere
+Wahl bestimmt:
+
+13   BINGO FLAMINGO
+14   PRELUDIUM
+15   HÄNGENDE GÄRTEN
+23   BELVÉDÈRE
+29   GEN T
+31   PIANO VERDE
+35   SOL_
+
+
+Die rangierten Projekte wurden den Fach-
+preisrichterinnen und Fachpreisrichtern zum
+Verfassen der Projektbeschriebe zugeteilt.
+
+
+
+
+18
+7 Rangierung
+
+
+Für Preise, Ankäufe und Entschädigungen stand eine Summe
+von insgesamt 271 000 Franken (exkl. 8.1 % MWST) zur
+Verfügung. Das Preisgericht setzte folgende Rangierung und
+Preiszuteilung fest.
+
+
+
+
+1. Rang    1. Preis   13 BINGO FLAMINGO      mit Antrag zur Weiterbearbeitung   CHF 65 000
+
+
+2. Rang    2. Preis   14 PRELUDIUM                                              CHF 50 000
+
+
+3. Rang    3. Preis   35 SOL_                                                   CHF 45 000
+
+
+4. Rang    4. Preis   29 GEN T                                                  CHF 30 000
+
+
+5. Rang    5. Preis   31 PIANO VERDE                                            CHF 25 000
+
+
+6. Rang    6. Preis   15 HÄNGENDE GÄRTEN                                        CHF 20 000
+
+
+7. Rang    7. Preis   23 BELVÉDÈRE                                              CHF 15 000
+
+
+8. Rang    8. Preis   40 FREIE SICHT AUFS MITTELMEER                            CHF 11 000
+
+
+9. Rang    9. Preis   28 CITRUS                                                 CHF 10 000
+
+
+
+
+                                                                                        19
+8 Schlussfolgerungen
+
+
+         Auf der Basis des öffentlichen Gestaltungsplans (öGP) und der
+         Wettbewerbsziele haben 54 Teams in hoher Qualität Hochhäu-
+         ser für das Wohnen im Alter der GFA und SAW entwickelt und
+         boten der Jury eine grosse Projektauswahl für die anforderungs-
+         reiche Bauaufgabe.
+
+         Wie sich in der Jurydiskussion zeigte, bestand die zentrale
+         Herausforderung dieses Wettbewerbs darin, das nötige Raum-
+         programm in angemessener Massstäblichkeit innerhalb der
+         Mantellinien und in Rücksichtnahme zum Quartier möglichst
+         kostengünstig zu gestalten.
+
+         Die Modelle zeigten unterschiedlich mächtige Erscheinungen
+         der Hochhäuser mit teilweise grossen Sockelvolumen. Aus Sicht
+         der Jury dient eine Gliederung des Volumens – sei es mit hori-
+         zontalen oder vertikalen Vor- und Rücksprüngen – der schlan-
+         keren Silhouette und besseren Massstäblichkeit zum Quartier.
+         Die Jury bewertete in den ersten beiden Rundgängen – neben
+         der schlanken bzw. gegliederten Erscheinung – eine gute Funk-
+         tionalität sowie möglichst knappe Volumen mit guten HNF/GF-
+         Benchmarks stark, um günstige Projekte hinsichtlich Ökono-
+         mie- und Treibhausgasemissions-Werten in der engeren Wahl
+         zu erhalten. Dabei gewichtete sie auch den knappen Fussab-
+         druck bzw. eine reiche Gestaltung des Freiraums mit Bäumen
+         zur Hitzeminderung hoch. Die vermittelnde Sockelausbildung
+         zur Grubenackerstrasse mit inhaltlicher Ausstrahlung ist wich-
+         tig für eine bezugnehmende Massstäblichkeit zur Nachbarschaft
+         und einen lebendigen Austausch. Auch die Umsetzung der ge-
+         forderten Fassadenbepflanzung interessierte die Jury stark.
+
+         Eine räumlich besonders spürbare Verknüpfung von der Thur-
+         gauerstrasse zum Quartier an der Grubenackerstrasse wurde
+         von einigen Teams thematisiert: Entweder über ein innenlie-
+         gendes grosszügiges Foyer mit verbindender Treppe wie beim
+         Projekt GEN T oder mit aussenliegender Treppe durch das
+         Haus wie beim Projekt CITRUS. Beide Ansätze zeigen eine gute
+         Durchlässigkeit, reiche Gemeinschaftsthemen und lebendige
+         Aussenräume mit Restaurant bzw. ein Quartierplatz zur Gru-
+         benackerstrasse. Letztlich lässt sich diese vernetzende Mass-
+         nahme aus Jurysicht jedoch im Hausinneren ökonomisch und
+         auch betrieblich nicht bewältigen.
+
+         Auf die Vorgabe aus dem öGP einer angemessenen öffentlichen
+         Ausstrahlung zur Thurgauerstrasse und klaren Adressierung
+         des Haupteingangs waren eine übersichtliche, wohnliche und
+
+20
+direkt zur Strasse orientierte Lobby und ein etwas zurückge-
+zogenes Restaurant mit grünem Aussensitzplatz für die Jury
+die passendsten Antworten.
+
+Punkto Lärmschutz musste die Jury mit Überraschung fest-
+stellen, dass zwei Drittel der Projekte die Vorgabe des von der
+Thurgauerstrasse abgewandten Lüftens gemäss öGP nicht
+eingehalten haben, so auch einige Projekte der engeren Wahl.
+Die dafür nötigen Anpassungen wurden in der Jury intensiv
+besprochen. Mit dem Siegerprojekt wurde eine hinsichtlich des
+Lärmschutzes besonders vielversprechende Lösung gewählt.
+
+Die hohe Funktionalität des GFA wie die gute Orientierung im
+Erdgeschoss inkl. der betrieblichen Abläufe mit der Anlieferung
+sowie der Produktionsküche mit Tageslicht, das wohnlich or-
+ganisierte Pflegegeschoss und die direkte Anbindung an den
+Demenzgarten wurden hoch gewichtet.
+Für die SAW waren attraktive, nutzungsneutrale Grundrisse
+auf effizient organisierten Geschossen mit einer räumlichen
+Nachbarschaftsförderung wichtig. Unter den Bedingungen der
+grossen Gebäudetiefe, der Lärmschutzanforderungen und der
+Notwendigkeit, auch nach Norden attraktive und bewilligungs-
+fähige Wohnräume anzuordnen war es enorm herausfordernd,
+einen sehr guten Benchmark HNF/GF zu erzielen. Teilweise
+belasteten zu grosszügige Gemeinschaftsräumlichkeiten die
+Suffizienzwerte (Fläche pro Person).
+
+Das Projekt FREIE SICHT AUFS MITTELMEER mit seinem sehr
+eigenständigen architektonischen Ansatz und das Projekt
+CITRUS mit seiner sozialen Verknüpfung vom Quartier bis hin
+zur eigenen Wohnung faszinieren, stossen in Bezug auf die
+Umsetzbarkeit aber an Grenzen; sie erhalten einen Preis, wur-
+den aber nicht für die engere Wahl bestimmt.
+
+Die Projekte der engeren Wahl wurden vertieft betreffend Kenn-
+zahlen der ökologischen und ökonomischen Nachhaltigkeit
+gerechnet.
+Die Auswertung der Treibhausgasemissionen für Erstellung
+und Betrieb weist eine eher kleine Varianz von 9 % auf, die ge-
+ringsten Treibhausgasemissionen zeigen die Projekte BINGO
+FLAMINGO und HÄNGENDE GÄRTEN, die höchsten Werte
+haben GEN T und SOL_. Die Varianz der Kompaktheit ist mit
+0,62 – 0,83 gross wie auch der Fensteranteil mit 35 % – 58 %.
+Alle Projekte schlugen eine Holzständerfassade vor. Die Pro-
+jekte PRELUDIUM, HÄNGENDE GÄRTEN und BELVÉDÈRE ste-
+
+                                                               21
+     chen mit innovativen Deckensystemen hervor. Die geforderten
+     13 % Anteil Fassadenbegrünung konnte kein Projekt erreichen.
+     Hier wurde aber auch das Potenzial beurteilt, da die korrekte
+     Flächenberechnung noch Interpretationsspielraum aufweist.
+     Bei den Kosten zeigte sich ein grösserer Unterschied zwischen
+     den Projekten der engeren Wahl. PIANO VERDE landete mit
+     aufwändiger Materialisierung und Tragstruktur 17 % über den
+     Zielkosten. BELVÉDÈRE und GEN T zeigen eine Überschrei-
+     tung von 8 % der Zielkosten; beide mit recht grossen Geschoss-
+     flächen, wobei BELVÉDÈRE 148 Wohnungen aufweist. Die Pro-
+     jekte HÄNGENDE GÄRTEN und SOL_ befinden sich mit 5 – 7 %
+     über den Zielkosten im Mittelfeld. Die beiden Projekte PRELU-
+     DIUM und BINGO FLAMINGO unterschreiten die Zielkosten
+     leicht. PRELUDIUM schafft dies durch die Einführung eines
+     zusätzlichen Pflegegeschosses mit zusätzlichen 16 Zimmern,
+     was den Kostenbenchmark pro Platz deutlich senkt. Ein Mehr-
+     angebot von SAW-Wohnungen wie beim Projekt BELVÉDÈRE
+     hat nicht den gleichen Effekt, weil die Wohnungen über wenig
+     gemeinsam genutzte Infrastruktur verfügen.
+
+     In der Ausmarchung der besten drei Projekte konnte BINGO
+     FLAMINGO mit dem besten Kosten-Leistungsverhältnis, sehr
+     guten THGE-Werten, einer hohen Funktionalität sowie sehr
+     qualitätsvollen Wohnungen, die auch den Lärmschutz gemäss
+     öGP einhalten, faszinieren. Auch die beiden Projekte SOL_ und
+     PRELUDIUM überzeugen mit schlanken Hochhäusern und mit
+     guten Kostenwerten. Das elegante Hochhaus SOL_ weist aber
+     eine recht schematische Freiraumgestaltung mit wenig ausge-
+     spieltem Potenzial für Fassadenbepflanzung auf und hält bei
+     den SAW-Wohnungen die Lärmauflagen des öGP nicht ein.
+     Dies gilt auch für die SAW-Grundrisse des effizienten Projekts
+     PRELUDIUM. Das Projekt PRELUDIUM besticht auf städtebau-
+     licher Ebene durch die kompakte, abgestaffelte Hochhaussilhou-
+     ette mit grosszügiger, grüner Topografie zur Grubenacker-
+     strasse und durch das effizient und wohnlich organisierte GFA.
+     Die Fassade kann jedoch nicht mit einer besonders guten Ge-
+     samtwirkung punkten.
+
+     Das Projekt BINGO FLAMINGO beeindruckte die Jury mit sei-
+     ner ausserordentlichen städtebaulichen und freiräumlichen
+     Qualität. Es wurde einstimmig zum Siegerprojekt gekürt.
+     BINGO FLAMINGO führt die hohen Anforderungen der Aufga-
+     benstellung inklusive Erfüllung der öGP Lärmschutzvorgaben
+     schlüssig zusammen und verschmilzt – besonders auch mit
+     der differenzierten Begrünung und der integrierten Photovol-
+
+22
+taik an der Fassade – zu einer aussagekräftigen Architektur,
+die dem öffentlichen Charakter des Hauses gerecht wird. Dass
+kein Pflegegeschosse direkt an den Demenzgarten angebunden
+ist, steht diesen Qualitäten als Wermutstropfen gegenüber.
+BINGO FLAMINGO ist ein qualitätsvoller Beitrag zur Nachver-
+dichtung des schnell wachsenden Stadtquartiers Leutschen-
+bach mit einem überzeugenden Aussenraumkonzept, das dem
+nahen Umfeld einen überraschend grossen und reichhaltigen
+Gartenraum schenkt.
+
+
+
+
+                                                          23
+9 Empfehlungen
+
+
+Das Preisgericht empfiehlt der Bauherrschaft, das Projekt
+Nr. 13 BINGO FLAMINGO von boa architektur GmbH unter
+Berücksichtigung der Ergebnisse der Vorprüfung und der
+Projektkritik weiter zu bearbeiten. Im Rahmen der weiteren
+Projektierung sollen insbesondere die nachfolgenden Punkte
+geklärt und weiterentwickelt werden:
+
+
+
+Bauvorschriften, Brandschutz, Lärmschutz          der Kostenkennwerte (GFA) sind aber Opti-
+– Die Fassadenflucht auf der Pflichtbaulinie      mierungen notwendig.
+  soll gestärkt werden.
+– Der Anteil Fassadenbegrünung ist zu erhö-     Nachhaltigkeit
+  hen. Zudem ist die Begrünung gemäss den       – Generell sind der Fensteranteil zu verklei-
+  Brandschutzvorgaben zu überarbeiten.            nern und die PV-Anlagen bezüglich Wirt-
+– Einige Alterswohnungen müssen bezüglich         schaftlichkeit zu optimieren.
+  Lärmschutzvorschriften verbessert wer-
+  den.                                          Weiteres
+                                                – Die geringen Deckenstärken sind hinsicht-
+Betrieb GFA                                       lich Statik, Brand- und Schallschutz zu über-
+– Prüfung eines Transfers von Räumen im           prüfen.
+  2. UG in andere Geschosse mit dem Ziel,       – Die Ausfahrt über die Eisfeldstrasse ist zu
+  das 2. UG einzusparen und Logistikwege          vermeiden und mit der Einfahrt sowie der
+  zu verkürzen.                                   Parkierung zu überarbeiten.
+– Verbesserung Logistik, Raumverortung
+  und Flächeneffizienz; insbesondere im
+  Erdgeschoss und im 1. UG. Grundsätzlich
+  sind öffentlich zugängliche Bereiche von
+  betrieblichen Bereichen abzugrenzen.
+– Der Grundriss der Einerzimmer im Bereich
+  der Gebäudeecken ist zu optimieren.
+
+Betrieb SAW
+– Unter Wahrung ihrer hohen Qualität sind
+  die Alterswohnungen bezüglich Standards
+  der SAW und Vorgaben der Wohnbauför-
+  derung zu justieren.
+– Anzahl und Anordnung der gemeinschaft-
+  lich genutzten Räume sind kritisch zu hin-
+  terfragen.
+
+Kosten
+– Das Projekt gehört zu einem der kosten-
+  günstigsten. Zur Einhaltung der Limiten der
+  kantonalen Wohnbauförderung (SAW) und
+
+24
+10 Genehmigung
+
+
+Zürich, den 25. März 2025, das Preisgericht
+
+
+
+Andreas Hauri, Sachpreisrichter
+
+
+Andrea Martin-Fischer, Sachpreisrichterin
+
+
+Jenny Dreyer, Sachpreisrichterin
+
+
+Renate Monego, Sachpreisrichterin
+
+
+Regula Pfenninger, Sachpreisrichterin
+
+
+Albert Frölich, Sachpreisrichter
+
+
+Ursula Müller (Vorsitz), Fachpreisrichterin
+
+
+Martin Schneider, Fachpreisrichter
+
+
+Caspar Hoesch, Fachpreisrichter
+
+
+Philipp Fischer, Fachpreisrichter
+
+
+Raphael Frei, Fachpreisrichter
+
+
+Sibylle Aubort Raderschall, Fachpreisrichterin
+
+
+Daniel Hoffmann, Fachpreisrichter
+
+                                                 25
+26
+Rangierte Projekte
+
+
+13 BINGO FLAMINGO                boa architektur GmbH, Zürich
+                                 Studio MOFA gmbh bsla, Zürich
+
+
+14 PRELUDIUM                     Burckhardt Architektur AG, Zürich
+                                 Sabine Kaufmann Landschaftsarchitektin FH BSLA, Zürich
+
+
+35 SOL_                          ARGE oooffice – Soo Young Park, Martyna Michalik,
+                                 Pascal Flammer Architekten AG, Zürich
+                                 Simon Enemaerke, Copenhagen DK
+
+
+29 GEN T                         Clou Architekten AG, Zürich
+
+
+31 PIANO VERDE                   MAK architecture AG (ARGE mit TAKT Baumanagement), Zürich
+                                 USUS Landschaftsarchitektur, Zürich
+
+
+15 HÄNGENDE GÄRTEN               METHONE (Raphael Kadid – Cristina Rosa), Basel
+                                 SET Studio Emma Thomas, Basel
+
+
+23 BELVÉDÈRE                     Isler Gysel Architekten GmbH, Zürich
+                                 Heinrich Landschaftsarchitektur GmbH, Winterthur
+
+
+40 FREIE SICHT AUFS MITTELMEER   Zenklusen Pfeiffer Architekten AG, Brig
+                                 KollektiveLand, Graz AT
+
+
+28 CITRUS                        Parameter Architekten GmbH, Zürich
+                                 EDER Landschaftsarchitektur GmbH, Zürich
+
+
+
+
+                                                                                             27
+13                                                                                     1. Rang | 1. Preis
+BINGO FLAMINGO
+
+
+
+Generalplanung und Architektur                                  Gebäudetechnik
+boa architektur GmbH, Zürich                                    Böni Gebäudetechnik AG, Oberentfelden
+Verantwortlich                                                  Brandschutz
+Amadeo Linke                                                    B3 Kolb AG, Gossau
+Mitarbeit                                                       Text
+Ilja Maksimov, Benjamin Hadorn, Chiara Personeni,               architektur lesen, Christoph Ramisch
+Tobias Abegg, Martin Arnold, Ivo Hasler
+Landschaftsarchitektur
+Studio MOFA gmbh bsla, Zürich
+Verantwortlich
+Fujan Fahmi
+Mitarbeit
+Michael Mosch, Jan Gysel
+Bauingenieurwesen
+SEFORB s.à.r.l., Uster
+
+
+
+
+«Stadt gelingt, wenn der bauliche Massstab wächst und der       zweckraum wird über zwei grosszügige runde Oberlichter
+Zwischenraum dadurch an Qualität gewinnt», schreibt das         natürlich belichtet, sollte idealerweise aber einen horizon-
+verfassende Team zu seinem Projekt BINGO FLAMINGO.              talen Sichtbezug ins Freie und eine repräsentative Veror-
+                                                                tung aufweisen.
+Dank des reduzierten Fussabdrucks und des Verzichts auf
+ein Sockelbauwerk überrascht der Entwurf mit einem gross-       Auch die Geschosse der Verwaltung, der Pflege und der
+zügigen parkartigen Aussenraum auf Quartierebene, der           SAW sind kompakt und gut organisiert. Zur Hauptadresse
+mit unterschiedlichen Nutzungen der beiden Institutionen        an der Thurgauerstrasse wird auf den Wohngeschossen
+aus dem Hochhaus mit Leben gefüllt wird. Auch der De-           eine attraktive begrünte Stadtfassade vorgeschlagen,
+menzgarten wird Teil dieses vielfältig gestalteten Grün-        die mit rhythmisierten, zweigeschossigen, begrünten
+raumes: Eine Betreuung der an Demenz Erkrankten im ge-          Balkonen und dahinterliegenden Gemeinschaftsräumen
+sicherten Freiraum schliesst den sozialen Kontakt zu den        ausformuliert ist. Dadurch entstehen gut proportionierte
+Nachbarn nicht aus, sodass Inklusion statt Isolation gut        Gartenterrassen, die einerseits von den halböffentlichen
+umgesetzt werden kann. Im Freiraum werden mit einem             Räumen praktisch zu warten sind, und anderseits den
+Musikpavillon, naturnahen Spielgeräten, Sitzmauern, Pick-       Wohn- und Essbereichen der Pflege sowie den Gemein-
+nicknischen, einer Blumenwiese mit Obstbäumen und               schaftsräumen der SAW attraktive Aussenräume bieten.
+einem Brunnen unter einer grossen Eiche spezifische Orte        Dieser räumliche Reichtum setzt sich bei den Typologien
+definiert, die der Bewohnerschaft wie auch der Quartier-        der Wohnungen und Pflegezimmer in qualitätsvoller Art
+bevölkerung ein hohes Mass an Mehrwert und Kontakt-             fort. Die Pflegezimmer in den Gebäudeecken weisen da-
+möglichkeiten bieten. Die gute Modellierung des Geländes        bei nicht dieselbe Qualität auf wie die übrigen Zimmer.
+respektiert die bestehende Topografie und kann dadurch
+auch einige der bestehenden Bäume erhalten. Geschickt           Im Wissen, dass die Wohnung im Alter einen immer grös-
+wird der Zaun um die weglaufgeschützten Gärten in die           seren Stellenwert bekommt, wurden spezifische, äusserst
+Bepflanzung und Terrainmodellierung integriert und optisch      qualitätvolle Grundrisstypen entwickelt, welche die Prob-
+kaschiert, wodurch ein durchgängiges Landschaftsbild            lematik der Nordausrichtung und Lärmschutzanforderun-
+entsteht.                                                       gen gemäss Gestaltungsplan auf vorbildliche Weise lösen.
+                                                                Mit der innovativen Kombination von Balkon, Küche und
+Das öffentliche Erdgeschoss ist gut und übersichtlich           Essnische zu einem erkerartigen Fassadenteil entstehen
+organisiert, eine breite Eingangshalle mit einer attraktiven,   Wohnungen, die auf zwei Seiten zum Quartier orientiert
+geschwungenen Treppe verbindet die Niveaus Gruben-              sind und einen Panoramablick ermöglichen. Aus Sicht der
+acker- und Thurgauerstrasse. Alle Gewerbeeinheiten sind         Jury scheint der Glasanteil in den Wohnungen SAW zu
+von aussen wie auch von der Halle her erschlossen. Die          gross; er muss reduziert werden, was die Raumstimmung
+Nähe der Küche zu den Liften, dem Restaurationsbereich          innerhalb der Wohnungen noch zu steigern vermag.
+und dem Mehrzweckraum gewährleistet optimale betrieb-           Der Entwurf schneidet bei den Kennwerten zur Nachhal-
+liche Abläufe. Jedoch ungünstig ist die Anlieferung der         tigkeit wie auch bei den Baukosten im Vergleich zu den
+Küche, welche über die Eingangshalle erfolgt. Der Mehr-         anderen Projekten der engeren Wahl sehr gut ab.
+
+
+28
+Foto Situationsmodell 1: 500
+
+
+
+
+Insgesamt handelt es sich um ein Projekt von ausseror-
+dentlicher städtebaulicher, räumlicher und organisatori-
+scher Qualität, das die hohen Anforderungen der Aufga-
+benstellung schlüssig zusammenführt und – besonders
+auch mit der differenzierten Begrünung und der integrier-
+ten PV-Fassade – zu einer aussagekräftigen Architektur
+verschmilzt, die dem öffentlichen Charakter des Hauses
+gerecht wird.
+
+BINGO FLAMINGO ist ein gelungener Beitrag zur Nach-
+verdichtung des schnell wachsenden Stadtquartiers
+Leutschenbach mit einem überzeugenden Aussenraum-
+konzept, das dem nahen Umfeld einen überraschend
+grossen und reichhaltigen Gartenraum schenkt.
+
+
+
+
+                                                            29
+Visualisierungen
+
+
+
+30
+                 13 BINGO FLAMINGO
+
+
+
+
+Visualisierung
+
+
+
+                                31
+                                                                     A
+
+
+
+
+                                                                         C
+                           C
+
+
+
+
+                                                                         B
+                           B
+
+
+
+
+                                                                     A
+
+
+
+
+Grundriss Erdgeschoss und 1. Obergeschoss (zusammengesetzt) 1: 500
+
+
+
+34
+14                                                                                  2. Rang | 2. Preis
+PRELUDIUM
+
+
+
+Generalplanung und Architektur                                Nachhaltigkeit, Bauphysik
+Burckhardt Architektur AG, Zürich                             Durable Planung und Beratung GmbH, Zürich
+Verantwortlich                                                Brandschutz
+Andreas Mast                                                  Amstein + Walthert AG, Zürich
+Mitarbeit                                                     Visualisierungen
+Luigi Vivolo, Przemyslaw Szoltysek, Alina Celichowska,        Indievisual AG, Zürich
+Martyna Stanowska, Javier Rubio
+Landschaftsarchitektur
+Sabine Kaufmann Landschaftsarchitektin FH BSLA,
+Zürich
+Verantwortlich
+Sabine Kaufmann
+Bauingenieurwesen
+WaltGalmarini AG, Zürich
+HLKSE, Fachkoordination
+JUNGENERGIE AG, Zürich
+
+
+
+
+Das Hochhaus zeichnet sich durch eine kompakte Gebäu-         direkt mit den einladenden Gärten zur Grubenackerstrasse
+dekubatur aus. Es wirkt durch die Abstaffelung sowie den      verbunden.
+eingegrabenen, minimal in Erscheinung tretenden Sockel
+massstäblich vermittelnd und wohltuend in grosszügigem        Die Pflegegeschosse sind übersichtlich, mit einfachem
+Abstand zur Nachbarschaft an der Grubenackerstrasse.          Rundlauf organisiert und wirken wohnlich. Überraschend
+Der Sockel mit den darauf angeordneten Gärten wirkt dank      wird in der maximalen Gebäudemantellinie ein Pflegege-
+der ihn umgebenden Böschungen und dem dazugehörigen           schoss mehr als gefordert angeboten, was die Wirtschaft-
+Vegetationsgürtel als Teil der grünen Topografie und ver-     lichkeit des GFA gut verbessert. Die Fassaden der GFA-
+bindet grosszügig die beiden Quartierebenen. Allerdings       Geschosse werden durch die umlaufende, troggebundene
+macht der prägende, hohe Begrenzungszaun diese land-          Begrünung geprägt, die aus den darüberliegend positio-
+schaftliche Einbindung wieder etwas zunichte.                 nierten Wassertanks bewässert werden soll. Die gross-
+                                                              zügige, öffentliche Gemeinschaftsterrasse wird mit dem
+Das Hochhaus gliedert sich sichtbar in drei Teile, die sich   SAW-Gemeinschaftsraum auf dem 9. Geschoss angebo-
+aus dem Raumprogramm ableiten: Neben dem zur Thur-            ten, positioniert sich mit guter Sicht in verbindendem
+gauerstrasse hin öffentlich wirkenden Sockel nehmen die       Massstab zum Quartier und bildet mit üppiger Vegetation
+sieben mit Kletterpflanzen bewachsenen GFA-Geschosse          den Abschluss des grünen Schafts.
+den Massstab zum Quartier auf, und ab dem 9. Oberge-
+schoss wird für die Alterswohnungen eine wohltuende           Die Wohngeschosse der SAW kennzeichnen sich durch
+Reduktion der Silhouette gewählt. Die Fassadengestaltung      grosse doppelgeschossig verbundene Erschliessungs-
+übernimmt diese Dreiteilung jedoch allzu schematisch          hallen, von denen jeweils über vier Stichgänge die nut-
+und kann in ihrer Materialität und Durcharbeitung nicht als   zungsneutral organisierten Wohnungen mit gutem Wohn-
+«besonders gut» überzeugen.                                   wert erschlossen sind. Leider ist die Lärmschutzauflage
+                                                              aus dem Gestaltungsplan betreffend einem von der Thur-
+Die Organisation des Erdgeschosses ist schlüssig aufge-       gauerstrasse abgewandten Zimmer pro Wohnung nicht
+baut und orientiert die öffentlichen Funktionen sowie den     eingehalten. Zudem scheinen die Wohnungen mit Aus-
+Haupteingang mit ansprechendem Foyer zur Thurgauer-           richtung gegen Nordosten baurechtlich schwierig lösbar.
+strasse. Die publikumswirksamen Nutzungen wie das gut         Die Wohngeschosse der SAW zeigen nicht die gleich gu-
+belichtete Restaurant und der zweckmässig organisierte        ten ökonomischen Werte wie das GFA. Auch ist der Woh-
+Mehrzwecksaal gruppieren sich um einen attraktiv gestal-      nungsschlüssel mit deutlich zuviel 1,5-Zimmerwohnun-
+teten Aussenraum mit Wasserbecken, differenzierten            gen nicht wie gewünscht abgebildet.
+Belägen und vielfältiger Vegetationsschicht und werten
+den Auftakt zur Eisfeldstrasse glaubwürdig auf. Auch die      Betreffend ökologischer Nachhaltigkeit rangiert das Pro-
+Betriebszonen mit der tageslichtorientierten Küche und        jekt im Mittelfeld. Es zeichnet sich mit einem sinnvollen,
+die Logistik mit Anlieferung sind sinnvoll organisiert. Die   durchgehenden Tragwerkskonzept in Massivbauweise
+innere Erschliessung und Organisation des GFA-Bereichs        zugunsten niedriger Baukosten aus. Die aufgesetzten
+überzeugt mit effizienter Struktur, der Therapiebereich ist   PV-Elemente – leider allseitig und zusätzlich zur ökolo-
+
+
+40
+Foto Situationsmodell 1: 500
+
+
+
+
+gisch aufwändigen Metallfassade – wie auch die Fassa-
+denbegrünung im unteren Teil des Hochhauses nehmen
+die gesetzten Themen bewusst auf.
+
+Insgesamt überzeugt das Projekt auf städtebaulicher Ebene
+durch die kompakte, abgestaffelte Hochhaussilhouette mit
+grosszügiger, grüner Topografie zur Grubenackerstrasse.
+Das Freiraumband ist hier attraktiv und sorgfältig ausge-
+arbeitet, diese Qualität fehlt leider entlang der Thurgauer-
+strasse. Das öffentliche Erdgeschoss jedoch wirkt attraktiv
+als Auftakt des Entwicklungsgebiets an der Thurgauer-
+strasse, und das Projekt schafft mit seiner Massstäblich-
+keit eine Vermittlung ins Quartier. Das GFA ist effizient und
+wohnlich organisiert und bildet gute Synergien mit der SAW.
+Die höhere Bettenanzahl verbessert den Kostenbenchmark
+deutlich und kann damit die Zielkosten einhalten. Die an-
+sprechend entwickelten Wohngeschosse der SAW müssten
+zur Einhaltung des Wohnungsschlüssels und der Lärmauf-
+lagen umorganisiert werden. Die besonders gute Gesamt-
+wirkung der Fassade passt nicht zu der im Innern entwickel-
+ten Wohnlichkeit der oberen Geschosse und bräuchte eine
+spezifischere Gestaltung.
+
+
+
+
+                                                                41
+Visualisierungen
+
+
+
+42
+                 14 PRELUDIUM
+
+
+
+
+Visualisierung
+
+
+
+                           43
+                   14 PRELUDIUM
+
+
+
+
+Situation 1:1000
+
+
+
+                             45
+Grundriss Erdgeschoss 1: 500
+
+
+
+46
+                                   14 PRELUDIUM
+
+
+
+
+Grundriss 1. Obergeschoss 1: 500
+
+
+
+                                             47
+Ansicht Südost 1: 500
+
+
+
+
+Grundriss Untergeschoss 1: 500
+
+
+
+48
+                                           14 PRELUDIUM
+
+
+
+
+Schnitt 1: 500
+
+
+
+
+Grundriss 2.– 8. Obergeschoss GFA 1: 500
+
+
+
+                                                     49
+Ansicht Nordwest 1: 500
+
+
+
+
+Grundriss 9. Obergeschoss SAW 1: 500   Grundriss 10. Obergeschoss SAW 1: 500
+
+
+
+50
+                                                                   14 PRELUDIUM
+
+
+
+
+Ansicht Südwest 1: 500
+
+
+
+
+Grundriss Wohngeschoss SAW 1: 500   Grundriss Wohngeschoss SAW mit WM/TR-Raum 1: 500
+
+
+
+                                                                                   51
+35                                                                                   3. Rang | 3. Preis
+SOL_
+
+
+
+Generalplanung und Architektur                                 Brandschutz
+ARGE oooffice – Soo Young Park, Martyna Michalik,              SafeT Swiss AG, Winterthur
+Pascal Flammer Architekten AG, Zürich                          Klima, Nachhaltigkeit
+Verantwortlich                                                 Transsolar Energietechnik GmbH, Stuttgart DE
+Martyna Michalik                                               Visualisierungen
+Mitarbeit                                                      ethandeclerk, Buenos Aires AR
+Soo Young Park, Pascal Flammer
+Landschaftsarchitektur
+Simon Enemaerke, Copenhagen DK
+Verantwortlich
+Simon Enemaerke
+Bauingenieurwesen
+Neven Kostic GmbH, Zürich
+Gebäudetechnik
+Beag Engineering AG, Winterthur
+
+
+
+
+Mittels einer klaren städtebaulichen Setzung und differen-     Vermisst werden jedoch räumliche Elemente, welche die
+zierter Architektursprache wird bewusst zwischen der           Spitalatmosphäre in den Korridoren brechen, beispiels-
+urbanen Achse der Thurgauerstrasse und dem kleinmass-          weise über Vorzonen zu den Zimmern. Der gewünschte
+stäblichen Quartier entlang der Grubenackerstrasse ver-        Rundlauf ist wie vorgeschlagenen nicht möglich, wäre je-
+mittelt. Spannend sind in diesem Zusammenhang die fein-        doch mit einem leicht veränderten Layout korrigierbar.
+gliedrige Ausgestaltung des Sockelbaus, insbesondere
+die pavillonartige Anmutung zur Grubenackerstrasse hin,        Die Wohnungen der SAW sind solide geschnitten. Die zen-
+und die dadurch erreichte Anbindung zum Quartier. Über         tralen Wohnküchen sind vom Eingang durch das zwischen-
+das Zusammenspiel zwischen naturnaher Bepflanzung,             geschaltete Entrée nicht direkt einsehbar. Die Zimmer
+taktilen Oberflächen und Wasserelementen wird im Aus-          sind nutzungsneutral und gut möblierbar. Die Korridore
+senraum eine sinnlich erlebbare und schützende Atmo-           vom Kern zu den Wohnungseingängen sind hingegen eng
+sphäre versprochen, die allerdings auf den Plänen nur          und wenig einladend. Die nach Süden ausgerichteten,
+sehr konzeptionell nachgewiesen wird. Der nordseitige          zweigeschossigen Gemeinschaftsräume bringen Licht in
+Umschlagsplatz ist betriebsseitig funktional organisiert       den Kernbereich, nehmen aber relativ viel Geschossfläche
+und stört die Publikumsbereiche nicht.                         in Anspruch. Die beiden mittleren Wohnungen zur Thur-
+                                                               gauerstrasse hin erfüllen die Lärmschutzauflage des Ge-
+Vom Hauptzugang und Foyer an der Thurgauerstrasse              staltungsplans nicht – Wohnungen dürfen nicht ausschlies-
+führt ein offen gestalteter Gastrobereich entlang der Süd-     slich zur belasteten Strasse orientiert sein.
+fassade zum rückwärtigen Mehrzweckraum. Die grosszü-
+gige Freitreppe begleitet ins obere Sockelgeschoss zum         Insgesamt überzeugt das Projekt durch seine elegante
+separaten Quartierzugang. Hier sind als Zusatzangebote         äussere Erscheinung mit wenigen gestalterischen Diffe-
+fürs Quartier Behandlungszimmer, Coiffeur, Podologie           renzierungen und einer nuancierten Farbgebung. Die re-
+und ein Gewerberaum angeordnet. Die Jury moniert, ob           lativ kompakte innere Organisation der Regelgeschosse
+der Gewerberaum besser im Erdgeschoss zur Thurgauer-           lässt das Volumen schlank wirken, damit eingehandelt
+strasse angeordnet sein müsste.                                werden jedoch beengte Zirkulationsbereiche. Die vorge-
+                                                               schlagene hybride Bauweise weist innovative, aber noch
+Im 2. Obergeschoss über dem Sockelbau sind Technik-            nicht ganz schlüssige Ansätze auf: In eine reduzierte
+räume und Therapiebereiche organisiert. Von hier sind der      Betonstruktur sollen eingelegte Massivholzelemente eine
+Therapie- und der Demenzgarten erreichbar. Auch bei die-       Sprinkleranlage erübrigen, da die Struktur auch im Brand-
+sem Dachgarten bleibt das Vegetations- und Materialkon-        fall tragfähig bleibt.
+zept vage, und die technische Machbarkeit mit den erwähn-
+ten Substratstärken für Gartengehölze und Fassadenbe-          SOL_ weist im Quervergleich der Projekte der engeren
+grünung scheint nicht gegeben. Die Anbindung des Demenz-       Wahl eine mässige Suffizienz und erhöhte Treibhausgas-
+gartens zu den Pflegegeschossen ist über einen zentralen       emissionen auf. Das Potenzial der Fassadenbegrünung
+Korridor zum Lift gewährleistet, jedoch etwas weit entfernt.   wird nicht nachgewiesen. Die Zielkosten werden hinge-
+Die Organisation der Wohngeschosse der GFA ist rational.       gen beinahe eingehalten.
+
+
+52
+Foto Situationsmodell 1: 500
+
+
+
+
+                               53
+Visualisierungen
+
+
+
+54
+                 35 SOL_
+
+
+
+
+Visualisierung
+
+
+
+                      55
+29                                                                                   4. Rang | 4. Preis
+GEN T
+
+
+
+Generalplanung, Architektur und
+Landschaftsarchitektur
+Clou Architekten AG, Zürich
+Verantwortlich
+Andreas Feurer
+Mitarbeit
+Jonas Schmid, Manuel Nagel,
+Jana Bohnenblust, Lukas Erdin,
+Lukas Wolfensberger, Jens Gerber
+
+
+
+
+Der Projektvorschlag geht von einer starken Verankerung       wenig einladend und kann nicht vollends überzeugen. Der
+des Projekts im Kontext des umliegenden Quartiers aus.        gemeinsame Demenzgarten wird schlüssig auf dem Dach
+Im Geiste einer GEN T, der Generation Thurgauerstrasse,       des Sockelbaus organisiert. Die Funktionale Einbindung
+versteht sich der Neubau als Teil eines übergeordneten        und die Organisation des Therapiebereiches hat indes noch
+Mehrgenerationenprojekts auf dem Areal Thurgauerstrasse.      Optimierungsbedarf.
+Basierend auf dieser Ausgangsthese werden die beiden
+Hauptvolumen des Projektvorschlags so platziert, dass         Auf dem Weg zur Wohnung schaffen zweigeschossige
+sich zwei gefasste Vorplätze aufspannen, die sich selbst-     Waschräume Orientierung, Aussenbezug und vernetzen die
+verständlich mit dem bestehenden Kontext verknüpfen.          Wohngeschosse in der Vertikalen miteinander. Die Woh-
+Der Vorplatz im Süden ist die Adresse zur Thurgauerstrasse,   nungen selbst sind gut organisiert und weisen einen hohen
+während sich der «Generationenplatz» zur Grubenacker-         Nutzwert auf. Zudem scheinen die Wohnungen mit Aus-
+strasse als Bindeglied zum Quartier und als räumliche         richtung gegen Nordosten baurechtlich lösbar. Die Grund-
+Erweiterung des Vorplatzes der benachbarten Schule ver-       disposition des Wohngeschosses erfüllt die Lärmschutz-
+steht. Die Gestaltung der Aussenbereiche, deren Materia-      anforderung des Gestaltungsplans an der Thurgauerstrasse
+lisierung und das Vegetationskonzept sind auf der Stadt-      aber leider nicht.
+ebene sehr konzeptionell und lassen noch keine überzeu-
+gende Stimmung der wichtigen Orte erkennen. Die Fort-         Das Projekt ist als Stahlbeton-Skelettbau mit vorgehäng-
+führung der massiven Tribünenanlage beschneidet den           ter Holzelement-Fassade konzipiert. Die Materialwahl und
+wertvollen Aussenraum für die Bewohnerschaft ohne er-         das gewählte Stützenraster sind für die gegebenen Anfor-
+kennbaren Gegenwert.                                          derungen sinnvoll und nachvollziehbar, die vertikale Last-
+                                                              abtragung ist aber nicht durchgängig gewährleistet.
+Die innere Organisation des Sockelbaus folgt der Logik        Sowohl die Konzeption der Fassaden-PV-Anlage als auch
+der städtebaulichen Grunddisposition und versucht, die        die weitestgehend bodengebundene Begrünung der Fas-
+beiden Strassenniveaus und Vorplätze räumlich sowie           sade sind konzeptionell aufgezeigt. Die PV-Fassade ist
+programmatisch zu vernetzen. Das grosszügige Foyer im         vorbildlich nach den Regeln der Wirtschaftlichkeit entwi-
+Gelenk zwischen Hochhaus und Sockelbau ist hierbei das        ckelt worden und verspricht grosses Realisierungs-Poten-
+zentrale räumliche Element. Durch die aktive Verlagerung      zial. Die innere Organisation des Sockels und der Pflege-
+der Hauptnutzungen zum Quartiersplatz wird eine Akti-         geschosse führt zu teils langen Verkehrswegen und einem
+vierung des Grubenackerquartiers erreicht. Leider wird        grossen Gebäudevolumen. Dies führt insgesamt zu einer
+die Qualität des Vorplatzes Thurgauerstrasse dadurch          nur durchschnittlichen Wirtschaftlichkeit.
+geschwächt, und die Adressierung des Hochhauses über-
+zeugt nicht vollends.                                         Das Projekt GEN T bietet – vom Städtebau bis zur Woh-
+                                                              nung – auf allen Massstabsebenen der Architektur eine
+Die Wohngeschosse für die spezialisierte Pflege sind          solide und kontrollierte Antwort auf die vielschichtige Auf-
+windmühlenartig um einen zentralen Kern organisiert. Die      gabe. Die Grundabsicht einer Quartiersvernetzung ist der
+Aufenthaltsqualität des Pflegegeschosses wirkt jedoch         wichtigste Antrieb und führt zu einer anregenden räumli-
+
+
+64
+Foto Situationsmodell 1: 500
+
+
+
+
+chen und programmatischen Zuwendung des Projekts
+zur ruhigen Grubenackerstrasse. Mit dem Projekt GEN T
+wird den Bewohner*innen des neuen Hochhauses die
+Möglichkeit offeriert, aktiv an den Milieus beider Strassen
+zu partizipieren und damit ein wichtiger Teil des Quartiers
+zu werden. Leider wird im – für diese Lesart so wichtigen
+Aussenraum – auf Quartierebene die gestalterische und
+atmosphärische Qualität (noch) nicht erkennbar.
+
+
+
+
+                                                              65
+Ausschnitt Fassade und Konstruktionsschnitt 1: 200
+
+
+
+66
+29 GEN T
+
+
+
+
+      67
+Visualisierung
+
+
+
+68
+31                                                                                    5. Rang | 5. Preis
+PIANO VERDE
+
+
+
+Generalplanung und Architektur                                  Bauingenieurwesen und Brandschutz
+MAK architecture AG (ARGE mit TAKT Baumanagement),              B3 Gruppe AG, Winterthur
+Zürich                                                          HLKSE
+Verantwortlich                                                  Hochstrasser Glaus & Partner Consulting AG, Zürich
+Marcia Akermann                                                 Visualisierungen
+Mitarbeit                                                       Filippo Bolognese Images, Milano IT
+Mirko Akermann, Valentin Beaudoin, Lorenz Gujer
+Landschaftsarchitektur
+USUS Landschaftsarchitektur, Zürich
+Verantwortlich
+Roger Keller
+Mitarbeit
+Zora Zweifel
+Baumanagement
+TAKT Baumanagement, Zürich
+
+
+
+
+Das Volumen wird von aussen gut sichtbar in fünf gesta-         das Innere als grosse Wohnung zu konzipieren, ist weitge-
+pelte Teile gegliedert. Identitätsstiftende, begrünte Gestal-   hend gelungen. Die Gemeinschaftsflächen sind grosszü-
+tungselemente trennen die unterschiedlichen Programme:          gig, weisen unterschiedliche Qualitäten und Stimmungen
+Über dem Sockel ein Dachgarten, in der Mitte die Vermitt-       auf, die für betagte Menschen vielfältige Aufenthalts- und
+lungsebene mit Therapienutzungen (piano verde) zwischen         Zirkulationsmöglichkeiten bieten. Von der Terrassenloggia
+den Pflegegeschossen und den Wohnungen, und schlies-            blickt man auf den Eingangsbereich hinunter und in die
+slich die Krone mit Dachterrasse und Orangerie, die den         Baumkronen der Allee an der Thurgauerstrasse. Geschützte
+Abschluss des Turmes markiert. Grüne Loggien vor den            Nischen im Korridor führen in die Zimmer, die funktional
+Gemeinschaftsbereichen geben dem Gebäude zusätzlich             und gut proportioniert sind.
+einen menschlichen Massstab und verweisen auf die Wohn-
+nutzung.                                                        Die Wohngeschosse der SAW sind in zweigeschossige
+                                                                Hausgemeinschaften gegliedert, die jeweils einen Ge-
+Kolonnaden fassen den zweigeschossigen Sockel mit               meinschaftsbereich teilen. Dieser belichtet den zentralen
+öffentlichen Nutzungen ein. Der Hauptzugang erfolgt über        Ankunftsort, was als Orientierungshilfe begrüsst wird.
+einen einladenden Vorplatz von der Thurgauerstrasse her         Die Wohnungen sind im Allgemeinen gut organisiert. Bean-
+und führt in einen überhohen Quartierraum. Der seitlich         standet werden jedoch die teilweise direkt neben der
+anschliessende, langgezogene Gastronomiebereich und             Eingangstüre liegenden Küchenzeilen. Die mittigen, aus-
+der Mehrzwecksaal umschliessen den von einer Linde und          schliesslich zur Thurgauerstrasse hin orientierten 2-Zim-
+einem grossen Pflanzbeet geprägten und von der Strasse          merwohnungen sind gemäss der Lärmschutzanforderung
+dadurch etwas geschützten Hof. Die Organisation der bei-        im Gestaltungsplan nicht zulässig. Hier wäre eine Anord-
+den Sockelgeschosse ist funktional und übersichtlich –          nung zu suchen, bei der jede Wohnung einen Raum mit
+kritisch beurteilt die Jury die innenliegende Küche, die nur    seitlicher Ausrichtung erhält. Zudem scheinen die Eckwoh-
+über den Publikumsbereich belichtet wird, und die Anlie-        nungen gegen Nordosten baurechtlich schwierig lösbar.
+ferungsbucht auf der Nordseite, die etwas zu knapp be-
+messen scheint. Der zur Grubenackerstrasse orientierte          Die differenziert mit präzisen Elementen gestaltete Fas-
+Gewerberaum ist auf dieser publikumsabgewandten Seite           sade, die das Innere wohltuend nach aussen strahlen
+unglücklich platziert. Der rückwärtig verbleibende, um          lässt, wird vom Beurteilungsgremium gewürdigt. Die an-
+das Gebäude führende Gartensaum ist relativ eng und             spruchsvolle Aufgabenstellung wurde in vielen Teilen mit
+erscheint dadurch eher als Restfläche. Generell wirkt der       grosser Sorgfalt bewältigt. Die Begrünung vor den Fens-
+Freiraum etwas vage ausgearbeitet; das Vegetations- wie         tern (Pflanzkisten) wie auch die Dachterrasse und Oran-
+auch das Materialkonzept sind nicht schlüssig nachvoll-         gerie ist aufwändig in der Erstellung und im Betrieb. Im
+ziehbar.                                                        Quervergleich der prämierten Projekte weist PIANO VERDE
+                                                                eine kompakte Volumetrie, jedoch einen etwas zu grossen
+Das begrünte, als Demenzgarten gestaltete Dach über             Flächenverbrauch pro Person auf, was zu leicht schlech-
+dem Sockel ist direkt vom ersten Pflegegeschoss aus             teren Nachhaltigkeitswerten führt. Die angestrebten Ziel-
+erreichbar, was betrieblich begrüsst wird. Die Absicht,         kosten werden hingegen markant überschritten.
+
+
+76
+Foto Situationsmodell 1: 500
+
+
+
+
+                               77
+Visualisierungen
+
+
+
+78
+15                                                                                    6. Rang | 6. Preis
+HÄNGENDE GÄRTEN
+
+
+
+Generalplanung und Architektur
+METHONE (Raphael Kadid – Cristina Rosa), Basel
+Verantwortlich
+Raphael Kadid, Cristina Rosa
+Landschaftsarchitektur
+SET Studio Emma Thomas, Basel
+Verantwortlich
+Emma Thomas
+Bauingenieurwesen
+Schnetzer Puskas Ingenieure AG, Basel
+Brandschutz
+Quantum Brandschutz GmbH, Basel
+Gebäudetechnik
+RMB Engineering AG, Zürich
+Visualisierungen
+Vu Doppia, Basel
+
+
+
+
+Das Projekt HÄNGENDE GÄRTEN sieht ein klar geglieder-          Das Erdgeschoss ist grundsätzlich gut organisiert. Die Küche
+tes Hochhaus unmittelbar an der Thurgauerstrasse vor.          neben dem Restaurant wird mit Tageslicht versorgt und er-
+Westlich vom Hochhaus schliesst ein eingeschossiger            möglicht Einblicke von aussen. Schwächen zeigen sich bei
+Baukörper symmetrisch an. Durch das kompakte Volumen           der Anordnung des Gewerberaums, der zu weit weg von der
+entsteht im südlichen Bereich ein vergleichsweise gross-       Thurgauerstrasse ist, und bei der Lage des Nebeneingangs,
+zügiger, parkähnlicher Freiraum. Als verbindendes Ele-         bei dem es zu Konflikten mit der Anlieferung kommen kann.
+ment reicht dieser von der Thurgauerstrasse bis auf das        Die Pflegezimmer sind zweckmässig angeordnet, und es
+Niveau der höhergelegenen Grubenackerstrasse. Leider           besteht erfreulicherweise ein direkter Zugang vom ersten
+überzeugt die etwas banale Ausformulierung dieses              Pflegegeschoss zum Demenzgarten. Die Wohnungen in
+«Eckparks» noch nicht, und auch die Weiterführung im           den oberen Geschossen zeichnen sich insgesamt durch
+Vorbereich an der Grubenackerstrasse endet abrupt in           übersichtliche und klare Grundrisse aus, die in den Eck-
+Parkplatzangeboten. Dem Therapiegarten auf der Ein-            wohnungen dann jedoch genau diese Klarheit verlieren.
+gangsterrasse zum Therapiegeschoss fehlt in der darge-         Zudem verstösst die mittlere Wohnung zur Thurgauer-
+stellten Form die notwendige Qualität. Der Haupteingang        strasse gegen die Lärmschutzanforderungen des Gestal-
+und die publikumsorientierten Nutzungen, wie der Mehr-         tungsplans. Und die beiden mittleren Wohnungen gegen
+zwecksaal und das Restaurant, sind zur Thurgauerstrasse        Nordosten scheinen hinsichtlich Ausrichtung schwierig
+hin angeordnet, wodurch der öffentliche Charakter der          lösbar. Eine Lösung dieser Probleme verursacht bedeu-
+Überbauung gestärkt wird. Der Aussenbereich des Res-           tende Grundrissveränderungen. Die zweigeschossigen
+taurants ist südlich des Hochhauses auf die ruhigere Seite     Gemeinschaftsräume und die Waschräume in den Wohn-
+an der Eisfeldstrasse angeordnet. Eine lange, geschwun-        geschossen sorgen für einen vertikalen Austausch zwi-
+gene Sitzmauer fasst den Terrassenbereich und ein relativ      schen den Bewohnenden. Die kleine gemeinschaftliche
+schmales Pflanzbeet mit mittelgrossen Bäumen und wird          Dachterrasse unterstützt diesen Austausch zusätzlich.
+als räumliche Trennung zur Strasse eingesetzt.
+                                                               Das Projekt überzeugt insgesamt durch gute Nachhaltig-
+Der architektonische Ausdruck des Entwurfs überzeugt           keitswerte. Der aufwändige Unterhalt der Fassadenbe-
+durch die klare Gliederung in Sockel, Mittelteil und die       grünung durch die nicht gegebene Zugänglichkeit wirkt
+oberen Geschosse, was die unterschiedlichen Nutzungen          sich allerdings negativ aus.
+ablesbar macht. Mit Ausnahme des Sockels werden im-
+mer drei Geschosse durch die Unterteilung der Fassade          Das Projekt HÄNGENDE GÄRTEN zeigt das Potenzial
+mit PV-Bändern und Pflanztrögen zusammengefasst und            einer kompakten Komposition mit relativ kleinem Fussab-
+jeweils über drei Geschosse mit Kletterpflanzen begrünt.       druck an dieser Lage bezüglich Freiraummöglichkeiten
+Fraglich ist, inwiefern die dargestellte Begrünung so rea-     auf. Auch die Grundrissorganisation und die architektoni-
+listisch ist, bzw. wie aufwändig sich der Unterhalt gestal-    sche Gestaltung können grösstenteils überzeugen. Leider
+tet: Die Bepflanzung ist leider grösstenteils in den oberen,   wird das Potenzial dann aber in einigen Bereichen nicht
+schwieriger zugänglichen Geschossen angeordnet und             vollends ausgeschöpft bzw. bringt Nachteile mit sich, die
+ist nur über private Bereiche zugänglich.                      nicht ohne Weiteres zu lösen sind.
+
+
+88
+Foto Situationsmodell 1: 500
+
+
+
+
+                               89
+Visualisierungen
+
+
+
+90
+                 15 HÄNGENDE GÄRTEN
+
+
+
+
+Visualisierung
+
+
+
+                                 91
+23                                                                                 7. Rang | 7. Preis
+BELVÉDÈRE
+
+
+
+Generalplanung und Architektur
+Isler Gysel Architekten GmbH, Zürich
+Verantwortlich
+Dominik Isler
+Mitarbeit
+Manuel Gysel
+Landschaftsarchitektur
+Heinrich Landschaftsarchitektur GmbH, Winterthur
+Verantwortlich
+Alexander Heinrich
+Bauingenieurwesen
+Dr. Lüchinger+Meyer Bauingenieure AG, Zürich
+HLKKSE
+Amstein + Walthert AG, Frauenfeld
+
+
+
+
+Das Projekt BELVÉDÈRE kombiniert einen mächtigen,          reduzierter Zimmerzahl angeordnet. Die Therapie mit
+kraftvoll gegliederten Turm und einen umschliessenden,     Dachterrasse ist effizient, Coiffeur und Podologie sind für
+begrünten, niedrigen Sockel. Die lichte Höhe des Erdge-    das Quartier aber schlecht erreichbar.
+schosses ist knapp, und die ausladenden Vordächer beto-
+nen seinen geduckten Charakter. Der grosse Sockel lässt    Im 2. Obergeschoss wird der grosszügige und reichhaltig
+auf Quartierebene wenig Freiraum und keine Bestands-       gestaltete Demenz-Dachgarten via Aufenthaltsbereich
+bäume übrig, ein grüner Saum aus Pflanzinseln mit unter-   auf langem Weg erreicht. Die Normalgeschosse der GFA
+schiedlichen Gehölzen begleitet und verbindet die neuen    verfügen über knapp bemessene Zimmer in drei Himmels-
+Wege- und Platzflächen. Die Überlegungen zur Aufwer-       richtungen. Die knappe Erschliessung erhält hier via zent-
+tung des Vis-à-vis an der Eisfeldstrasse werden von der    ralem Stübli Tageslicht und Orientierung im Rundlauf. Die
+Jury gewürdigt. Das Freiraumangebot wird auf den bei-      Balkone sind aber, insbesondere für weglaufgefährdete
+den Sockelgeschossen mit dicht bepflanzten Dachterras-     Bewohner*innen, kein Mehrwert.
+sen ergänzt, so dass der intensiv begrünte Sockel zu den
+umlaufenden schmalen Freiräumen vermittelt.                Eine hohe Effizienz der Geschosse SAW mit total 148 Alters-
+                                                           wohnungen wird durch lange, innenliegende Korridore
+Die Anlieferung Thurgauerstrasse bietet dank der Über-     erkauft. Die gemeinschaftlichen Räume an der Thurgau-
+dachung und dem grünen Band einen Mehrwert zur be-         erstrasse schaffen mit hohen Loggien geschossübergrei-
+nachbarten Schule und dem angrenzenden Sportplatz.         fende Nachbarschaften. Der Gemeinschaftsraum im obers-
+Der Haupteingang liegt seitlich an der Eisfeldstrasse.     ten Geschoss ist dagegen schwer auffindbar und kann
+Durch die weitgehende Ausschöpfung der Mantellinie und     innerhalb eines Regelgeschosses keine besonderen Qua-
+das tiefe Vordach scheint dieser Platz zu knapp, die Zu-   litäten entwickeln. Die Alterswohnungen verfügen über
+gänglichkeit für Bewohner*innen und Besucher*innen und     eine klare Zonierung, die Qualität der Wohn-Essbereiche
+die Vorfahrt (Krankenwagen, Taxi) sind erschwert.          und Zimmer ist aber unterschiedlich, und die Grundrisse
+                                                           sind nicht nutzungsneutral. Zur Thurgauerstrasse hin
+Am zentralen Empfang liegt, räumlich exponiert, das Res-   müssten manche Zimmer – wegen Verstössen gegen die
+taurant. Die Lifte und via Lobby der Mehrzwecksaal sind    Lärmschutzvorschriften – optimiert werden.
+auf kurzen Wegen angebunden. Die niedrige Raumhöhe
+des Erdgeschosses scheint für den Mehrzwecksaal nicht      Hinsichtlich ökologischer Nachhaltigkeit und Wirtschaft-
+ausreichend. Die grosse Treppe nach Westen endet an        lichkeit liegt das Projekt wegen unterdurchschnittlicher
+Büros und führt unattraktiv und beengt zum Nebenein-       Kompaktheit im Mittelfeld. Die Rigorosität der Konstruk-
+gang an der Grubenackerstrasse. Die zur wenig frequen-     tion (spezielle Brandschutz- und Technikkonzepte) macht
+tierten Wohnstrasse hin orientierten Gewerbeflächen sind   das Projekt BELVÉDÈRE unflexibel und es ist unklar, ob
+nicht eingebunden.                                         die nötigen Anpassungen im engen Korsett von techni-
+                                                           scher und räumlicher Effizienz möglich sind.
+Neben Therapierangeboten ist im 1. Obergeschoss eine
+Pflegestation mit eigenem Demenzgarten, aber deutlich
+
+
+100
+Foto Situationsmodell 1: 500
+
+
+
+
+Im Ausdruck des Gebäudes ist das sorgfältig ausgearbei-
+tete Konzept der Geschoss-Bündelung direkt umgesetzt.
+Helle Gesimsbänder und Lisenen fassen die dunkleren
+Füllungen grosszügig ein. Der ausdrücklich beabsichtigte
+Ausdruck der «Stapelung von Mehrfamilienhäusern» wirkt
+aber sehr rigide.
+
+
+
+
+                                                           101
+Visualisierungen
+
+
+
+102
+                 23 BELVÉDÈRE
+
+
+
+
+Visualisierung
+
+
+
+                          103
+40                                                                                   8. Rang | 8. Preis
+FREIE SICHT AUFS MITTELMEER
+
+
+
+Generalplanung und Architektur                                 Gastroplanung
+Zenklusen Pfeiffer Architekten AG, Brig                        H PLUS S Gastronomiefachplanung GmbH,
+Verantwortlich                                                 Ittigen bei Bern
+Stephan Pfeiffer
+Mitarbeit
+Simon Bearse, Petra Kalbermatter, Aline Andenmatten,
+Pierre Wüthrich, Diana Zenklusen
+Landschaftsarchitektur
+KollektiveLand, Graz AT
+Verantwortlich
+Martin König
+Bauingenieurwesen
+co-struct AG, Zürich
+HLKS-Planung
+GTI Engineering AG, Zürich
+
+
+
+
+Ein elegantes Hochhaus ohne Sockelbau markiert den             Wohnens im Lärm und mit Nordostausrichtung wird durch
+städtebaulichen Auftakt des Quartiers und bildet mit einem     die gewählte Wohntypologie jedoch überzeugend bewältigt.
+kleinen Vorplatz eine schlüssige Adresse zur Thurgauer-
+strasse. Der kleine Fussabdruck des Gebäudes ermög-            Der Sockelbau des Hochhauses wird um die zentrale Lobby
+licht einen wohltuend grosszügigen und sorgfältig über-        organisiert, an der sich die Hauptfunktionen wie das Res-
+legten Aussenraum, der einen grossen Teil der bestehen-        taurant und der Saal angliedern und von der es auch direkt
+den Bäume erhält und sich in drei verschiedene Gärten          via Lift in die eigene Wohnung geht. Die kleine Grundfläche
+unterteilt. Über den Freiraum schafft der Projektvorschlag     des Erdgeschosses führt zu einer massgeblichen Auslage-
+eine sehr selbstverständliche Einbindung in den gewach-        rung von Nutzungen wie der Küche und der Wäscherei in
+senen Kontext und wertet diesen auch für das Quartier          das Untergeschoss. Die Tageslichtsituation des Unterge-
+auf – auch wenn der Bereich an der Grubenackerstrasse          schosses wird über grosse Lichthöfe vorgeschlagen, was
+nur für die Bewohnenden nutzbar ist. Die vielschichtige        kritisch beurteilt wird. Die GFA-Pflegegeschosse fangen
+Bepflanzung, Materialisierung und Wegeführung lassen           schon ab dem ersten Obergeschoss an und sind bezüglich
+einen grosszügigen und attraktiven Garten entstehen.           Organisation und Orientierung problematisch. Zwar sollen
+Dessen Grenze in Teilen als Hag auszubilden und in der         grosse zweigeschossige Loggien Licht in die Tiefe des
+Vegetation zu kaschieren lässt die Absicht erkennen, den       Grundrisses bringen, leider erfolgt hierdurch mehrheitlich
+Demenzgarten auch für das Quartier optisch erlebbar zu         auch eine räumliche Separierung und Trennung innerhalb
+machen.                                                        des Pflegegeschosses.
+
+Die gewählte Erschliessungsstruktur mit den prägnanten         Neben der eigenständigen vertikalen Erschliessungsidee
+lateralen Treppenhauskernen und den dezentralen Liften         schlagen die Entwurfsverfasser*innen auch eine sehr
+prägt das Gebäude durch alle Geschosse massgeblich             eigenständige Tragstruktur vor. Ein System aus Stützen,
+und findet ihren Ursprung in der gewählten Wohnungs-           Trägern und sehr dünnen Betongewölben verspricht einen
+typologie der Alterswohnungen. Die Entwurfsverfasser*-         ausgesprochen ressourceneffizienten Materialeinsatz und
+innen schlagen für die Generation der «Freigeister» Ate-       darüber hinaus eine prägnante räumliche Wirkung der
+lierwohnungen mit eigenen, den Gebäudeausdruck prä-            Struktur. Fassadenbegrünung und PV in der Fassade sind
+genden Wintergärten vor – eine Neuinterpretation der           konzeptionell angedacht.
+Schrebergärten des Quartiers, die jeweils über direkten
+Liftzugang erschlossen werden. Der vorgeschlagene              Die Entwurfsverfasser*innen schlagen ein Wohnen für
+Wohntypus und die Idee, so im Alter zu wohnen, regt an,        Freigeister vor. Von dieser These ausgehend entsteht ein
+jedoch fehlt es den Wohnungen an Flexibilität im Grund-        Wohnhochhaus, das die geltenden Konventionen hinter-
+riss und der Möglichkeit, ein weiteres abtrennbares Zim-       fragt und eine sehr eigenständige architektonische Ant-
+mer zu schaffen. Zudem wird die Belichtungssituation der       wort auf die komplexe Aufgabenstellung anbietet. Die
+sehr tiefen Grundrisse von der Jury kritisch beurteilt. Hier   gewählte Wohn- und Erschliessungstypologie ermöglicht
+sind die Potenziale der Wohn- und Erschliessungstypolo-        es, ein sehr schlankes und ökonomisches Hochhaus zu
+gie leider nicht ausgeschöpft. Die Herausforderung des         erstellen, das mit einem minimalen Fussabdruck einen
+
+
+112
+Foto Situationsmodell 1: 500
+
+
+
+
+grosszügigen und qualitätsvollen Freiraum generiert. Der
+bewusste und sorgsame Umgang mit den Ressourcen
+wird vom Städtebau bis zur Konstruktion untersucht und
+akribisch mit Lösungsvorschlägen hinterlegt. Das Projekt
+FREIE SICHT AUFS MITTELMEER fasziniert und wird als
+Beitrag gewürdigt. Leider scheint es in seinem selbst er-
+stellten Regelwerk an manchen Stellen zu starr und stösst
+in Bezug auf Wohnqualität und Flexibilität an seine konzep-
+tionellen Grenzen.
+
+
+
+
+                                                              113
+Visualisierungen
+
+
+
+114
+                 40 FREIE SICHT AUFS MITTELMEER
+
+
+
+
+Visualisierung
+
+
+
+                                            115
+28                                                                                  9. Rang | 9. Preis
+CITRUS
+
+
+
+Generalplanung und Architektur                               Visualisierungen
+Parameter Architekten GmbH, Zürich                           Studio Blomen, Meilen
+Verantwortlich
+Nicola Nett
+Mitarbeit
+Martin Kaschub, Samila Sydiq, Jonatan Francke
+Landschaftsarchitektur
+EDER Landschaftsarchitektur GmbH, Zürich
+Verantwortlich
+Felix Eder
+Bauingenieurwesen
+ZPF Consulting AG, Zürich
+HLKSEGA-Ingenieurwesen
+Kalt+Halbeisen Ingenieurbüro AG, Zürich
+Brandschutz
+B3 Kolb AG, Winterthur
+
+
+
+
+Analog der Vorlage des Gestaltungsplans bilden ein Hoch-     wohngruppen sind in der Grunddisposition logisch orga-
+haus und ein zweigeschossiger Sockelbau die Basis des        nisiert. Jeweils acht Pflegezimmer werden lärmabge-
+Projekts. Der Einbezug der Grubenackerstrasse und die        wandt in Serie geschaltet und über einen umlaufenden
+Verknüpfung der beiden Quartierebenen erhält jedoch          Korridor verbunden. Jeweils zwei Pflegezimmer sind über
+hohes Gewicht. Durch die volumetrische Setzung von Hoch-     einen gemeinsamen Vorbereich mit Bädern verbunden.
+haus und Sockelbau werden zwei gefasste Plätze geschaf-      Die Grundanlage der geteilten Vorzonen wird von der Jury
+fen. Der urbanere Platz Richtung Süden bildet die logische   jedoch in Frage gestellt und als nicht praktikabel angese-
+Adresse des Hochhauses und adressiert dieses klar an der     hen.
+Thurgauerstrasse. Zur Grubenackerstrasse hin entsteht
+ein grosszügiger Quartierplatz, der sich über die Grund-     Die allgemeine Organisation der Wohnungen ist nachvoll-
+stücksgrenzen hinweg mit dem Vorplatz des Schulhauses        ziehbar, jedoch fordern sehr grosse Entrées mit teils lan-
+verbindet und ein generöses Angebot für das ganze Quar-      gen Korridorflächen ihren Preis: Die meisten Wohnungen
+tier darstellt.                                              sind deutlich zu gross. Die Anordnung der Waschküchen
+                                                             zur lärmbelasteten Thurgauerstrasse ist sinnvoll und hilft
+Der Haupteingang des Hochhauses ist logisch über den         die Lärmschutzanforderung des Gestaltungsplans (mit
+Vorplatz zur Thurgauerstrasse adressiert. Neben dem          einen strassenabgewandten Zimmer pro Wohnung) zu
+Foyer befindet sich hier auch das Restaurant. Im Gelenk      lösen. Zudem erfüllen die nordöstlichen Wohnzimmer mit-
+der beiden Nutzungen verbindet eine Aussentreppe den         tels Belichtung über die Loggien die baurechtlichen Anfor-
+Quartierplatz an Grubenackerstrasse und den Vorplatz an      derungen bezüglich Ausrichtung.
+der Thurgauerstrasse. Obgleich die beiden Plätze dank
+dem Durchgang grosszügig verbunden werden, wirkt die         Das Projekt CITRUS offeriert eine sorgfältig durchdachte
+grosse Freitreppe für die innere Organisation des Sockel-    Architektur der Nachbarschaften und sozialen Verknüpfung
+baus teils wie eine Trennung und eine organisatorische       vom Quartier bis hin zu der eigenen Wohnung. Die wichtige
+Zäsur. Der Wunsch nach einer Verbindung im Aussenraum        Frage der Vernetzung innerhalb eines vertikal organisierten
+wird hier zum strukturellen Malus für die innere Organisa-   Hochhauses wird vom Vorplatz über die Rampe bis hin zu
+tion und führt zu teilweise nicht nachvollziehbaren Nut-     der gemeinsam genutzten Dachterrasse untersucht und
+zungsanordnungen zum Quartierplatz und zur Thurgauer-        mit differenzierten Lösungsvorschlägen hinterlegt. Die
+strasse.                                                     Auseinandersetzung und der Beitrag für die sozialräumli-
+                                                             chen Verbindungen auf allen Massstabsebenen werden
+Die gemeinsame aussenliegende Rampenanlage verbin-           gewürdigt. Der vollumfängliche Nutzwert und das Mass
+det als vertikaler «Garten» alle Pflegegeschosse mit dem     der vielen gemeinsam genutzten Flächen bleibt jedoch zu
+Demenzgarten. Der überraschende Ansatz einer durch-          hinterfragen und findet letztlich im Verhältnis zur gesamt-
+gängigen Verbindung über den Aussenraum wird von der         haften Organisation des Gebäudes keine ausgewogene
+Jury gewürdigt, jedoch wird der alltägliche Nutzwert einer   Balance.
+derart langen Rampenverbindung über sechs Geschosse
+schlussendlich in Frage gestellt. Die einzelnen Pflege-
+
+
+124
+Foto Situationsmodell 1: 500
+
+
+
+
+                               125
+Visualisierung
+
+
+
+126
+                 28 CITRUS
+
+
+
+
+Visualisierung
+
+
+
+                       127
+Weitere Projekte
+
+
+01 GOLDENTHUR               Atelier Thomas Pucher international ZT GmbH, Wien AT
+                            DI(FH) Andreas Boden, studio boden, Graz AT
+
+
+02 LINIE 10                 Wydler Architekten, Zürich
+                            Gartencenter Hoffmann AG, Unterengstringen
+
+
+03 DER GRÜNE TURM           ARGE Reto Liechti Dipl. Arch. ETH SIA, Zürich
+                            Patrick Roost Planung Architektur GmbH, Bern
+
+
+04 BORNEO                   NYX ARCHITECTES, Zürich
+                            Andreas Geser Landschaftsarchitekten AG, Zürich
+
+
+05 RENDEZ-VOUS              SQUADRAT Architekten ETH SIA GmbH, Zürich
+                            Karoline Kostka Landschaftsarchitektur, Zürich
+
+
+06 ROSMARIN                 Elmiger Architekten GmbH, Zürich
+                            BÖE studio, Zürich
+
+
+07 FRANZ UND HILDEGARD      Durisch + Nolli Architekten GmbH, Zürich
+                            De Molfetta & Strode, Lugano
+
+
+08 UP TO YOU                KKWSM3W GmbH, Zürich
+
+
+09 HAUS IM GLÜCK            Walser Zumbrunn Wäckerli Architektur GmbH, Winterthur
+                            ryffel + ryffel ag Landschaftsarchitekten BSLA SIA, Uster
+
+
+10 ZENO                     fritz cruz architektur, Zürich
+
+
+11 THURM                    Julian C. Fischer Architekten GmbH, Zürich
+                            Planstatt Senner GmbH, Überlingen DE
+
+
+12 HÖHENFLUG IM DSCHUNGEL   Liechti Graf Zumsteg Architekten ETH BSA SIA AG, Brugg
+                            Berchtold.Lenzin Landschaftsarchitekten Zürich.Basel, Zürich
+
+
+16 KLEID                    EXTUDIO, Madrid ES
+                            LANDLAB Laboratorio de Paisajes sl, Sant Cugat del Vallés, Barcelona ES
+
+
+17 NORDSTERN                von Ballmoos Partner Architekten AG, Zürich
+
+
+
+
+136
+18 WILD STRAWBERRIES   Darlington Meier Architekten AG, Zürich
+                       vetschpartner Landschaftsarchitekten AG, Zürich
+
+
+19 GLIMMER             Studio EH GmbH, Zürich
+
+
+20 OERLY BIRD          Gerber Architekten GmbH, Dortmund DE
+
+
+21 APOLLON             Architekt Haidacher + Piktogramm, Graz AT
+                       DI Karin Graf, Guntramsdorf AT
+
+
+22 SOLARPUNK           ARGE Atelier Anachron KLG und Gregor Honold Architekt, Zürich
+                       Atelier Anachron KLG, Zürich
+                       Studio Pappus, Zürich
+
+
+24 THYMIAN             wild bär heule ag, Zürich
+                       Nodium, Zürich
+
+
+25 AMOUR               Hobiger Feichtner Architekten GmbH, Zürich
+                       Flore Schärrer Landschaftsarchitektin, Genève
+
+
+26 MIGHTY APHRODITE    Ackermann Architekt BSA SIA AG, Basel
+                       aplantis AG, Bern
+
+
+27 IDYLLE              An Architecture Collaboration GmbH, Basel
+                       ARGE An Architecture Collaboration / Sala Hars
+
+
+30 REGNI               Goya Schröder & Associates, Basel
+                       Jan-Jakob Schröder Architekt, Basel
+
+
+32 BALANCE             BUR Architekten, Zürich
+
+
+33 KOSMOS              Berrel Kräutler Architekten AG, Zürich
+                       Haag Landschaftsarchitektur GmbH, Zürich
+
+
+34 HOCHHINAUS          Kyburz Architektur und Bauleitungen GmbH, Killwangen
+
+
+36 GOLDEN LANE         Hurst Song Architekten, Zürich
+                       Mettler Landschaftsarchitektur GmbH, Gossau
+
+
+
+
+                                                                                       137
+37 SUNSET BOULEVARD   Knorr & Pürckhauer Architekten AG, Zürich
+                      Gersbach Landschaftsarchitektur, Zürich
+
+
+38 LIBELLE            ARGE nuar + MMMR, Zürich
+
+
+39 INDIAN SUMMER      Baumschlager Eberle Vaduz AG, Vaduz LI
+                      JANS Landschaftsarchitektur, Zürich
+
+
+41 VESTIBÜL           mazzapokora gmbh, Zürich
+                      atelierLF, Zürich
+
+
+42 VINTAGE            Meyer Dudesek Architekten GmbH, Zürich
+
+
+43 MOAI               Allemann Bauer Eigenmann Architekten AG, Zürich
+                      PR Landschaftsarchitektur GmbH, Arbon
+
+
+44 KRAFTWERK          Schäublin Architekten AG, Zürich
+                      Fischer Landschaftsarchitekten bsla, Richterswil
+
+
+45 WABI-SABI          Graber Pulver Architekt:innen AG ETH BSA SIA, Zürich
+                      KOLB Landschaftsarchitektur GmbH, Zürich
+
+
+46 GIULIETTA          Gutschoep Architektur AG, Zürich
+                      Sima Breer GmbH, Winterthur
+
+
+47 COPACABANA         bauzeit architekten, Biel-Bienne
+                      Moeri & Partner AG, Bern
+
+
+48 SILVER FOX         Büro Krucker Architekten AG, Zürich
+                      Bischoff Landschaftsarchitektur, Baden
+
+
+49 GOJIRA             Bollhalder Walser Architektur AG, Zürich
+                      Pauli Stricker GmbH, St. Gallen
+
+
+50 MATCHA             ARGE Müller Mantel Architekten ETH SIA / Perita AG
+                      Müller Mantel Architekten AG, Zürich
+                      Parbat Landschaftsarchitektur GmbH, Appenzell
+
+
+51 ARMADILLO          OLBH GmbH, Zürich
+                      Cyclus GmbH, Zürich
+
+
+
+
+138
+52 TETRIS                   kimlim architekten eth/sia gmbh, St. Gallen
+                            Fässler Freiraumplanung AG, Will SG
+
+
+53 VERTIKALE GENERATIONEN   wulf architekten gmbh, Zweigniederlassung Basel
+                            JACOB PLANUNG GMBH, Basel
+
+
+54 HOME OF STORIES          Itten+Brechbühl AG, Zürich
+                            Uniola AG, Zürich
+
+
+
+
+                                                                              139
+04 BORNEO
+
+
+
+
+Generalplanung und Architektur
+NYX ARCHITECTES, Zürich
+Verantwortlich
+Yann Gramegna, Nathanaël Chollet
+Mitarbeit
+Karoline Endres, Christoph Holzinger,
+Gonçalo Duarte, Jackson Comben
+Landschaftsarchitektur
+Andreas Geser Landschafts-
+architekten AG, Zürich
+Verantwortlich
+Andreas Geser
+Mitarbeit
+Timo Beer
+Bauingenieurwesen
+WaltGalmarini AG, Zürich
+Gebäudetechnikplanung HLKK
+Müller.Bucher AG, Zürich                Foto Situationsmodell 1:  500
+Bauphysik, Nachhaltigkeit
+Gartenmann Engineering AG, Zürich
+Visualisierungen
+Luce Atelier, San Giovanni Valdarno
+Toscana IT
+
+
+
+
+Visualisierung                          Grundriss Erdgeschoss 1: 800
+
+
+
+                                                                        143
+05 RENDEZ-VOUS
+
+
+
+
+Generalplanung und Architektur
+SQUADRAT
+Architekten ETH SIA GmbH, Zürich
+Verantwortlich
+Fabian Willi, Michael Stünzi
+Mitarbeit
+Dilara Su Baysal, Corinne Späni,
+Alexander Stricker,
+Melissa Hannappel
+Landschaftsarchitektur
+Karoline Kostka Landschafts-
+architektur, Zürich
+Verantwortlich
+Karoline Kostka
+Bauingenieurwesen,
+Gebäudetechnik, Brandschutz
+EBP Schweiz AG, Zürich
+                                   Foto Situationsmodell 1:  500
+
+
+
+
+Visualisierung                     Grundriss Erdgeschoss 1: 800
+
+
+
+144
+09 HAUS IM GLÜCK
+
+
+
+
+Generalplanung und Architektur
+Walser Zumbrunn Wäckerli
+Architektur GmbH, Winterthur
+Verantwortlich
+Jann Wäckerli
+Mitarbeit
+Jana Sedláčková, Melanie Zumbrunn,
+Daniel Walser
+Landschaftsarchitektur
+ryffel + ryffel ag Landschafts-
+architekten BSLA SIA, Uster
+Verantwortlich
+Thomas Ryffel
+Bauingenieurwesen
+S+K Bauingenieure AG, Winterthur
+Holzbauingenieurwesen
+Krattiger Engineering AG, Happerswil
+HLSE-Planung, Brandschutz              Foto Situationsmodell 1:  500
+3-Plan AG, Winterthur
+Visualisierungen
+Nightnurse Images AG, Zürich
+
+
+
+
+                                                                             60
+
+
+
+
+                                                                       197
+
+
+
+
+Visualisierung                         Grundriss Erdgeschoss 1: 800
+
+
+
+148
+10 ZENO
+
+
+
+
+Generalplanung, Architektur und
+Landschaftsarchitektur
+fritz cruz architektur, Zürich
+Verantwortlich
+Marcel Fritz
+Mitarbeit
+Isabel Baquero Cruz
+Bauingenieurwesen
+Synaxis AG, Zürich
+Brandschutzplanung
+Zostera Brandschutzplanung GmbH,
+Zürich
+
+
+
+
+                                              Foto Situationsmodell 1:  500
+
+
+
+
+Visualisierung                                Grundriss Erdgeschoss 1: 800
+
+            GSPublisherVersion 0.90.100.100
+
+
+
+
+                                                                              149
+18 WILD STRAWBERRIES
+
+
+
+
+Generalplanung und Architektur
+Darlington Meier Architekten AG,
+Zürich
+Verantwortlich
+Stephan Meier, Adam Juhasz
+Mitarbeit
+Mark Darlington, Nele Tramp,
+Jakub Kender
+Landschaftsarchitektur
+vetschpartner Landschafts-
+architekten AG, Zürich
+Verantwortlich
+Stefanie Schaufelberger
+                                                                                   1:500, A1
+                                                                                         1:200    30.04.25
+
+Mitarbeit
+Colin Sutter
+Bauingenieurwesen
+Dr. Lüchinger+Meyer
+Bauingenieure AG, Zürich            Foto Situationsmodell 1:  500
+Bauphysik, Nachhaltigkeit
+Durable Planung und
+Beratung GmbH, Zürich
+Gebäudetechnik
+RMB Engineering AG, Zürich
+Brandschutzplanung
+Gruner AG, Zürich
+Baumanagement
+Drees & Sommer Schweiz AG, Zürich
+
+
+                                                                    A
+
+
+
+
+                                        A        B                      B
+                                                                        A
+
+
+
+
+                                                                    A
+
+
+
+
+Visualisierung                      Grundriss Erdgeschoss 1: 800
+
+
+
+154
+
+
+                                                                            rstrasse             kation
+20 OERLY BIRD
+
+
+
+
+Generalplanung, Architektur und
+Landschaftsarchitektur
+Gerber Architekten GmbH,
+Dortmund DE
+Verantwortlich
+Eckhard Gerber
+Mitarbeit
+Benjamin Sieber, Jascha Klusen,
+Julian Blönnigen, Melis Fan,
+Jürgen Kowald, Sina Abbassi,
+Philipp Boeddeker
+Tragwerksplanung
+Merz kley partner GmbH, Altenrhein
+Brandschutz
+Gruner AG, Zürich
+TGA
+Amstein + Walthert AG, Zürich
+                                     Foto Situationsmodell 1:  500
+
+
+
+
+                                                   P
+
+
+                                                   P
+
+
+
+
+                                               P
+
+                                               P
+
+
+
+
+                                               P
+
+
+                                            P
+
+
+
+
+                                           P
+
+
+                                           P
+
+
+
+
+                                                                                 P
+
+                                                                             P
+
+                                                                         P
+
+                                                                     P
+
+
+
+
+Visualisierung                       Grundriss Erdgeschoss 1: 800
+
+
+
+156
+22 SOLARPUNK
+
+
+
+
+Generalplanung
+ARGE Atelier Anachron KLG und
+Gregor Honold Architekt, Zürich
+Architektur
+Atelier Anachron KLG, Zürich
+Verantwortlich
+Gregor Bieri
+Mitarbeit
+Jonas Brun, Gregor Honold
+Landschaftsarchitektur
+Studio Pappus, Zürich
+Verantwortlich
+Jodok Imhof
+Mitarbeit
+Claudia Ernst
+Bauingenieurwesen
+SEFORB s.à.r.l., Uster
+Brandschutz                       Foto Situationsmodell 1:  500
+siQS GmbH, Schaffhausen
+
+
+
+
+Visualisierung                    Grundriss Erdgeschoss 1: 800
+
+
+
+158
+41 VESTIBÜL
+
+
+
+
+Generalplanung und Architektur
+mazzapokora gmbh, Zürich
+Verantwortlich
+Gabriela Mazza
+Mitarbeit
+Cyrill Schöpfer, Sarah Spirig,
+Lea Haxhismajli, Daniel Pokora
+Landschaftsarchitektur
+atelierLF, Zürich
+Verantwortlich
+Laura Francescato
+Gebäudestruktur, Fassaden-
+planung, Nachhaltigkeit
+Dr. Lüchinger+Meyer
+Bauingenieure AG, Zürich
+Gebäudetechnik
+Waldhauser + Hermann AG,
+Münchenstein                       Foto Situationsmodell 1:  500
+Brandschutz
+Quantum Brandschutz GmbH, Zürich
+
+
+
+
+                                                                                                                                                                                                                     Kletterpflanzen
+
+
+
+
+                                                                                                          428.00                   Asphalt
+
+
+
+
+                                                                                             Stützmauer
+
+
+                                                                   PP
+
+
+
+
+                                                                                         14 VelloPP
+                                                                                         gedeckt
+
+
+
+
+                                                                                                 431.00
+
+
+                                                                        Betonplatten
+
+
+
+
+                                                                                       UFC
+
+
+                                              Grubenackerstrasse
+
+
+
+
+                                                                                                                                                                                                                                                       e
+
+
+                                                                                                                                                                                                                                        Thurgauerstrass
+
+
+
+
+                                                                                                                                       Kletterpflanzen
+
+                                                                                                                                                                              428.85
+
+                                                                                                                                                                                                   428.70
+
+
+                                                                                                                                                          429.05
+
+                                                                                                                                                                                                            429.20
+
+
+                                                                                                                              Retensionsbecken
+                                                                                                                              Regenwasser                                              Carpinus betulus
+
+
+
+
+                                                                                                                                                         Stauden und Gräser
+
+
+
+
+                                                                                                                         ie
+                                                                                                                   Baulin
+
+
+
+
+Visualisierung                     Grundriss Erdgeschoss 1: 800
+
+
+
+                                                                                                                                                                                                                                       171
+47 COPACABANA
+
+
+
+
+Generalplanung und Architektur
+bauzeit architekten, Biel-Bienne
+Verantwortlich
+Yves Baumann
+Mitarbeit
+Roberto Pascual, Mariana
+Michalcikova, Julia Bergmann,      BAV 40302, GFA & SAW Thurgauerstrasse                                                                                                                                                         c
+
+Stephan Mezger
+Landschaftsarchitektur
+Moeri & Partner AG, Bern
+Verantwortlich
+Daniel Moeri
+Holzbauingenieurwesen
+Timbatec Holzbauingenieure
+Schweiz AG, Zürich
+Bauingenieurwesen
+baukonstrukt AG, Biel-Bienne
+Gebäudetechnik, Brandschutz,            Foto Situationsmodell 1:  500
+PV-Planung
+Amstein + Walthert Bern AG, Bern
+Bauphysik, Nachhaltigkeit
+prona AG, Biel-Bienne
+
+                                                              P-blau
+
+
+
+
+                                                                                                                                                                           A
+
+
+
+
+                                                      P-blau
+
+
+                                                                                                               +427.75                                                                   +427.75
+
+                                                    +430.65
+
+
+
+
+                                                P-blau
+                                                                                                                                             +428.00
+
+
+                                                                                 +430.60
+                                                                                                     +428.00
+
+
+
+
+                                                                                                                                                                                                   +428.00
+
+
+
+
+                                                B                                                                                                                                                            B
+
+
+
+                                                                       +430.60
+
+
+
+
+                                                                                                                                                                                                                 +428.00
+
+
+
+                                                                                                                                   +428.00
+                                                                                                                                                                               +428.00
+
+
+
+
+                                                                                                                                                                 +425.00
+
+
+
+
+                                                                                                                                                                           A
+                                                                                                                         +428.00
+
+
+
+
+                                                                                                                                                       +429.00
+
+
+
+
+                                                                                           +430.00
+
+
+
+
+Visualisierung                          Grundriss Erdgeschoss 1: 800
+                                   EG   1:200
+
+
+
+
+                                                                                                                                                                                                                           177
+48 SILVER FOX
+
+
+
+
+Generalplanung und Architektur
+Büro Krucker Architekten AG, Zürich
+Verantwortlich
+Benjamin Boehringer
+Mitarbeit
+Ralf Iberle, Lukas Reindl, Victoria
+Marcussen, Rafael Trindade,
+Bruno Krucker, Vanessa Mayer
+Landschaftsarchitektur
+Bischoff Landschaftsarchitektur,
+Baden
+Verantwortlich
+Florian Bischoff
+Tragwerksplanung
+Ferrari Gartmann AG, Chur
+Gebäudetechnik
+3-Plan Haustechnik AG, Winterthur
+Brandschutz                           Foto Situationsmodell 1:  500
+Brandschutzwerkstatt GmbH,
+Rorschach
+Visualisierungen
+OUT of RAM, Zürich
+
+
+
+
+Visualisierung                        Grundriss Erdgeschoss 1: 800
+
+
+
+178
+54 HOME OF STORIES
+
+
+
+
+Generalplanung, Architektur,
+Nachhaltigkeit
+Itten+Brechbühl AG, Zürich
+Verantwortlich
+André Passos
+Mitarbeit
+Lidor Gilad, Stefano Hu, Andrea
+Suardi, Carlo Federico Serra,
+Anita Amato, Mia Dorta,
+Laura Saputelli
+Landschaftsarchitektur
+Uniola AG, Zürich
+Verantwortlich
+Joanna Lerch
+Bauingenieurwesen,
+Fassadenplanung
+Dr. Lüchinger+Meyer
+Bauingenieure AG, Zürich             Foto Situationsmodell 1:  500
+Gebäudetechnik
+        1:200 - A1
+
+
+
+
+Eicher+Pauli AG, Zürich
+Visualisierungen
+Visualtonic, Zürich
+
+
+
+
+                          1:200-A2
+
+
+
+
+                                                            SAW Entsorgung Bioabfall
+
+                                       1:200-A3
+
+
+
+                                                                                                                                                       ANLIEFERUNG
+
+
+
+                                                                                                                                                                                                NNF 7.2
+                                                                                                                                                                                                H-Garderobe Küche
+                                                                                                                                                                                                29 m²
+                                                                                                     Pressmulde
+                                                  SAW UFC   SAW UFC Grünmulde
+                                                                                                                                          EG -01
+                                                                                                                                       +426,80m                                                                                  HNF2.1
+                                                                                                                                                                                                                                 Büro Leitung Küche
+                                                                                                                                                                                                                                 15 m²
+
+
+
+                                                                                                                                                                                                                                                                        HNF 3.8                    HNF 3.8                                       HNF 3.8
+                                                                                                                                                                                                                                                                        Warme Küche                Kalte Küche                                   Abwaschen
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                            Aussenraum Café
+                                                                                                                                                                                                                                                                        56 m²                      54 m²                                         46 m²
+
+
+
+                                                                                                                                                                                                NNF 7.2
+                                                                                       HNF2.1                                 HNF3.9                                                            D-Garderobe Küche
+                                                                                       Büro Ettiketieren                      Sortierraum                                                       25 m²
+                                                                                                                                                                                                                                          NNF 7.1                                                                                                                             HNF4.5
+                                                                                       27 m²                                  25 m²                                                                                                                                                                                                                          HNF 4.1          Gewerberaum
+                                                                                                                                                                                                                                          WC Küche
+                                                                                                                                                                                        VF 9.1                                                                                                                                                               Waschmittel.     40 m²
+                                                                                                                                                                                                                                          5 m²
+                                                                                                                                                                                        Anlieferung Produktionsküche                                                                                                                                         5 m²
+                                                                                                            NNF 7.2                                                                     15 m²
+                                                                                                            Berufskleider-ausgabe
+                                                                                                                                                                                                                                          NNF 7.1
+                                                                                                            15 m²
+                                                                                                                                                               EG 00                                                                      WC Küche
+                                                                                                                                                            +428,00m                                                                      5 m²
+                                                                                                                                                                                              VF 9.1                                                   HNF 4.3
+                                                                                                                                                           LOGISTIK                           Mitarbeiterzugang                                        Kühlraumblock
+                                                                                                                                                                                                                                                                                                                 NNF 4.1
+                                                                                                                                                                                                                                                                                                                 Getränkelager
+                                                                                                                                                                                                                                                                                                                                       NNF 4.1
+                                                                                                                                                                                                                                                                                                                                       Leergut
+                                                                                                                                                                                                                                                                                                                                                             NNF 7.1
+                                                                                                                                                                                                                                                                                                                                                             Putzraum Küche
+                                                                                                                                                                                              8 m²                                                     50 m²                                                     15 m²                 15 m²                 8 m²
+
+                                                                                                                                                             VF 9.1
+                                                                                                                                                             Anlieferung allgemein
+                                                                                                                                                             23 m²
+                                                                                             HNF 7.3
+                                                                                             Abstellraum Wäschewagen
+                                                                                             27 m²                                                                                                 HNF 4.1
+                                                                                                                                       NNF 7.3                                                     Economat
+                                                                                                                                       Disposition ZWZ                                             25 m²
+                                                                                                                                       14 m²
+
+
+                                                                                                                                                                                                                                                                                                                                 VF 9.1
+                                                                                                                                                                                                                                                                                                                                 Nebeneingang SAW
+                                                                                                                                                                                                                                                                                                                                 40 m²
+
+
+                                                                                                                                                                                                   HNF 4.1
+                                                                                                                                       HNF 4.1                                                     Lager Non-Food
+                                                                                                                                       Lager Flachwäsche                                           25 m²
+                                                                                                                                       26 m²
+
+
+                                                                                                                                                                    HNF 3.9
+                                                                                                                                                                    Schmutzwäsche-lager
+                                                                                                                                                                                                                                                                                                                                        NNF 7.1
+                                                                                                                                                                    31 m²                                                                                                                                                               WC Öffentliche
+                                                                                                                  NNF 7.3                                                                                                                                                                                                               170 m²
+                                                                                                                  Entsorgungsraum
+                                                                                                                  60 m²
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                   strasse
+                                                                                                                                                                                                                                                                                                             HNF 2.8            HNF 2.8
+                                                                                                                                                                                                                                                                                                             Backoffice Empfang Backoffice Empfang
+                                                                                                                                                                                                                                                                                                             5 m²               5 m²
+
+                                                                                                                                                                    HNF 4.1
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                      Parkplätze
+                                                                                                                                                                                                                                                                                                                                                                                                                                    Thurgauer
+                                                                                                                                NNF 7.2                             Wäsche Abholung                                                                                                VF 9.1
+                                                                                                                                Garderobe D                         30 m²                                                                                                          Empfang
+                                                                                                                                90 m²                                                                                                                                              12 m²
+                                                                                                                                                                                                                                                                                                          HNF 2.1                HNF 2.1
+                                                                                                                                                                                                                                                                                                          Büro Empfang           Sekretariat
+                                                                                                                                                                                                                                                                                                          20 m²                  20 m²
+
+                                                                                                                                                                                                                                                                                                                                                                                                              Velos
+
+                                                                                                                                NNF 7.2
+                                                                                                                                Garderobe H                                                                                                                                              VF 9.1
+                                                                                                                                50 m²                                                                                   VF 9.1                                                           Windfang                                                        HNF4.5
+                                                                                                                                                                                                                        Foyer GFA&SAW                                                    Haupteingang                                                    Gewerberaum
+                                                                                                                                                                       NNF 7.4                                          160 m²                                                           10 m²                                                           123 m²
+                                                                                                                                                                       GFA Velo-PP Ang.
+                                                                                                                                                                       25 m²
+
+
+
+
+                                                                                                                                                                                                                                                             HAUPTEINGANG
+
+                                                                                                                                                                                                                                                                           EG 00
+                                                                                                                                                                                                                                                                        +428,00m
+                                                                                                                                                                       NNF 7.4
+                                                                                            HNF4.1                                                                     SAW Velo-PP Bew.
+                                                                                            Lager Aussen-geräte, Fahrzeuge                                             77 m²
+                                                                                            46 m²
+
+                                                                                                                                                                                                                                                                                                                 Velos
+
+
+
+                                                                                                                                                                                                                                                                  tze
+                                                                                       HNF4.1                           HNF4.1                                          NNF 7.4
+                                                                                                                                                                                                                                                            rkplä
+                                                                                                                                                                                                                                                        -Pa
+                                                                                       Lager Geräte Reinigung           Lager Material Reinigung                        Gew. Velo-PP Ang.
+                                                                                                                                                                        2 m²
+                                                                                       24 m²                            31 m²
+                                                                                                                                                                                                                                                      IV
+
+
+                                                                                                                                                                         HNF3.3               HNF2.1
+                                                                                                                                                                         Werkstatt TD         Büro TD
+                                                                                                                                                                         38 m²                25 m²
+
+                                                                                        HNF4.1                                      HNF4.1
+                                                                                        Lager Aussen-geräte, Mobiliar               Lager Verwaltung
+                                                                                        28 m²                                       18 m²
+
+
+
+
+                                                                                       HNF4.1
+                                                                                       Lager TD
+                                                                                       22 m²
+
+
+
+
+                                                                                                                                                                                                                                      e
+                                                                                                                                                                                                                               ass
+                                                                                                                                                                                                                           str
+                                                                                                                                                                                                                       feld
+                                                                                                                                                                                                              Eis
+
+
+
+
+Visualisierung                       Grundriss Erdgeschoss 1: 800
+
+
+
+184
+                                                           Zürich, Mai 2025
+
+Projektleitung, Inhalt                                     Auflage
+Seraina Carl, Amt für Hochbauten                           180 Exemplare
+
+Expertinnen und Experten                                   Redaktion
+Thomas Bodenmann, Matthias Rach, Immobilien Stadt Zürich   Françoise Krattinger, Amt für Hochbauten
+Joël Heeb, Marco Würfel, GFA
+Nikolas Lill, Nina Schneider, SAW                          Layout
+Stefan Fleischhauer, PBK AG                                Lada Blazevic, Amt für Hochbauten
+René Bucher, Amt für Baubewilligungen
+Christoph Schoch, Umwelt und Gesundheitsschutz             Modellfotografie
+Michael Hagenauer, Sophie Wüst, Grün Stadt Zürich          Iris Stutz, Zürich
+Janet Fasciati, IBV Hüsler AG
+Cynthia Müller, Tiefbauamt Stadt Zürich                    Druck
+Rebekka Kuenzli, Dienstabteilung Verkehr                   Stadt Zürich, Geomatik + Vermessung, PrintShop
+Kurt Frauenfelder, Schutz & Rettung Zürich
+Gereon Schiffer, BIQS Brandschutzingenieure AG
+Sergio Taiana, ewz
+Armin Grieder, Jenny Grinfeld, Philipp Hubler,             Stadt Zürich
+Rainer Inderbitzin, Marcel Nufer, Amt für Hochbauten       Amt für Hochbauten
+                                                           Projektentwicklung
+Kommunikation                                              Walchestrasse 31/33
+Ursula Tschirren, Amt für Hochbauten                       Postfach, 8021 Zürich
+
+Administration und Organisation                            T +41 44 412 11 11
+Rahel Steiger, Amt für Hochbauten                          stadt-zuerich.ch/wettbewerbe
+Britta Walti, Amt für Hochbauten                           Instagram @zuerichbaut
+
+
+                                                                                                            185
+Stadt Zürich
+Amt für Hochbauten
+Walchestrasse 31/33
+Postfach, 8021 Zürich
+
+T +41 44 412 11 11
+stadt-zuerich.ch/wettbewerbe
+Instagram @zuerichbaut
+

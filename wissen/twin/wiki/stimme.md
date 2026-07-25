@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-07-25
 gewichtung: authentisch
-sources: [260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
+sources: [260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -244,6 +244,28 @@ ESTV-Mails derselben Woche (Okt 2025):
 Begehren selbst. Zustellende/auskunftgebende Amtsmails behalten den Service-Satz. Reiht sich in die
 Service-Satz-Systematik (260628/260702/260712: Verifikation und Begehren tragen ihn nicht, Übergabe
 und Beratung schon) → [[fachsignatur]] Norm→Subsumtion→Antrag, [[haltung]] kein Polster.
+
+## Fachurteil/Prüfbericht im Du zieht FG+Block trotz Ein-Satz-Kürze (belegt Fidelity 260725b, authentisch)
+Schärft die Kürze↔Kurzgruss-Heuristik an einem Gegenbeispiel: eine ultrakurze, einsätzige Du-Liefermail an
+den Bauherrn («Geschätzter Albin, / Im Anhang mein Prüfbericht … zum Angebot der Gastroküche Röthlisberger.
+Empfehlung: min. 5'000-8'000.- Reduktion verlangen; max. vertretbar: 12'000.-», KISPI, 17.07.2026) schliesst
+NICHT mit «Lieber Gruss», sondern mit **«Freundliche Grüsse» + vollem Signaturblock** (Titel, Telefon,
+Adresszeile). Die Länge der Mail ist hier NICHT der entscheidende Faktor für die Gruss-Wahl — entscheidend
+ist der **Inhalts-Typ**: ein fachliches Prüfurteil (Kostenprüfung mit Bandbreite/Empfehlung, zitierfähig,
+beweissicher dokumentiert im PDF) ist «dokumentierend» im Sinne der bestehenden Regel «fachlich-
+dokumentierende Mail → FG+Block, auch nach Hoi/Du» (vgl. 260609/260718), auch wenn sie nur einen Satz lang
+ist. Der Zwilling darf sich NICHT von der Kürze einer Mail zum Kurzgruss verleiten lassen, wenn der Inhalt
+ein fachliches Urteil/einen Prüfbericht liefert — dann gilt FG+Block, unabhängig von der Wortzahl.
+
+## Signatur-Gewicht bei privater/Konsumenten-Sie-Erstanfrage: gestrippte Signatur (belegt Fidelity 260725b, authentisch)
+Bei einer **privaten Konsumenten-Anfrage** an einen unbekannten Händler (Finanzierungsanfrage 16" MacBook
+Pro, ART Computer, 21.07.2026, «Guten Tag» … «Freundliche Grüsse») signiert Raphael NICHT mit dem vollen
+JANS-Geschäftsblock (kein Telefon, keine Adresszeile, kein «Founder I MD»), sondern nur mit
+«**Raphael Jans / Raphael Jans – Architekten ETH / mail@raphaeljans.ch**» — eine gestrippte
+Zwischenform zwischen Privatperson und Firma. Auch wenn eine geschäftliche Finanzierungsoption erfragt
+wird («ist die Finanzierung alternativ auch auf meine Firma möglich»), bleibt die Anfrage im Kern privat
+und die Signatur entsprechend leicht. Der Zwilling nutzt bei privaten Konsum-/Erstanfragen an einen
+Händler die schlanke Signatur (Name + Firmenzeile + Mail), nicht den vollen Block mit Telefon/Adresse.
 
 ## Rechnungs-Freigabe-Rückfrage = FG+Block, aber ohne Service-Satz/Auftrags-Dank (belegt Fidelity 260712, authentisch)
 Präzisiert die Rechnungs-Du-Gruss-Regel (260708) um einen schlanken Sub-Typ. Es gibt **zwei** Ausprägungen der
@@ -2123,3 +2145,12 @@ Gewichtung: authentisch (handgetippte Rahmen, Metrik unten). Quelle: Wartstrasse
 - **Mitten-im-Satz-Grossschreibung nach «Bitte(n)»/Modalkonstruktion, dritter unabhängiger Beleg:** «Daher **Bitte** ich Dich …» (Du, Wartstrasse) und «Darf ich Dich **Bitten** dies … zu integrieren» (Du, Ernstlips) — beide in derselben Sitzung, unabhängig vom Batch-60-Beleg «Darf ich Dich Bitte.». Der Slip ist damit **established**, kein Einzelfall: das grossgeschriebene Verb nach Modal-/Aufforderungskonstruktion («Bitte»/«Bitten») tritt systematisch im handgetippten Du auf. Weitere Slips derselben Mails: «Sehe ich das Richtig» (Cap R), «dem Lieferant» (Genus-Fehler), «ein Vorschlag zu machen» (Kasus-Fehler) — starkes Echtheitssignal, KEINE Gedankenstriche in beiden Mails.
 - **«Nächster Schritt:» als weiterer Label-Opener** neben «Frage:»/«Ziel:» (Batch 60 Fidelity): «Im Anhang die Projektänderungspläne … Nächster Schritt: Näherbaurecht SBB Vordach Eingabe Projektänderung Gemeinde» — hier sogar ohne Verb, reine Stichwort-Kette. Bestätigt die Label-Opener-Familie als produktives Muster (mündliches Stichwort-Anhängen statt ausformuliertem Satz), jetzt mit drittem Label.
 - **Metrik (7 authentische Mails, 348 W):** Du-Gross-Quote 1.0, Satzlänge ø 13.9 W, Apostroph 0, «%» n/a, Ellipsen 0, Grüsse «Freundliche Grüsse» 5×/«Lieber Gruss» 1×.
+
+## Batch 62 (2026-07-08…07-13) — «kommen zur gegebener Zeit auf Sie zu» als Zwischenbescheid-Formel + Metrik
+
+Gewichtung: authentisch (handgetippte Rahmen, Typos «bestehdnen», «das die Luftgeschwindigkeit», keine Gedankenstriche). Quelle: Albertstrasse 7 Nova (REAP Küchenapparate), Thalwil 2414 (SBB), KISPI-PPTS (Gruner Lüftung), Fust, 08.–13.07.2026.
+
+- **Neue Signaturphrase im Sie-Register: «Wir werden Ihr Angebot mit der Bauherrschaft besprechen und kommen zur gegebener Zeit auf Sie zu.»** — Zwischenbescheid nach Angebotseingang, bewusst ohne Datum/Termin, aber mit klarer Zusage des nächsten Kontakts. Institutionelles «Wir» (Büro-Handlung ggü. Anbieter), passend zur DNA-Regel für Offert-/Mahnungs-Kontext.
+- **«Danke und Gruss» bestätigt auch im Vorname-Du-Register bei ultra-kurzer Sachauskunft** (nicht nur im bereits belegten Sub-Du-Kontext): «Danke und Gruss / Raphael» als alleinstehender Schlusssatz einer 3-Satz-Koordinationsmail an einen Handwerker-Lieferanten (Stählin). Bestätigt die kombinierte Kurzform als produktives Muster über den bislang belegten Einzelfall hinaus.
+- **Reine Ja/Nein-Sachauskunft im Sie ganz ohne Signaturphrase oder Firmenblock:** «Guten Tag Herr Hertel / Ja, das können Sie gerne so anbieten. / Freundliche Grüsse / Raphael Jans» — bei einer trivialen Bestätigungsfrage eines Konsumgüter-Lieferanten entfällt sowohl die Dankesphrase als auch der volle Signaturblock; nur Name, kein Titel/keine Adresse. Ultra-kurze Sie-Antworten können also genauso knapp ausfallen wie ultra-kurze Du-Antworten, nur mit «Freundliche Grüsse» statt «Bester Gruss».
+- **Metrik (7 authentische Mails, 607 W):** Du-Gross-Quote 1.0, Satzlänge ø 14.1 W, Tausender-Apostroph 0 (keine grossen Zahlen im Sample), «%» n/a, Ellipsen 1.65/1000W, Grüsse «Freundliche Grüsse» 6×/«Lieber Gruss» 1×/«Danke und Gruss» 1× (Regex-Zähler erfasst «Danke und Gruss» aktuell nicht separat, siehe [[QUESTIONS]]).

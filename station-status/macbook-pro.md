@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.07.2026 14:05:47
+Stand: 25.07.2026 14:25:58
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:52)
+- Developer/jans/ai/hub  (letzte Aktivitaet 14:20)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 25.07.2026 14:05:47
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 3fe6585b sync: twin-mail-training: Batch 61 (2026-07-07 07:23...07-08 16:09)
+- afee3048 normen Run 22: «KOMPLETT» war Messfehler-Kette — 2 unsichtbare Normen, 2 ueberholte Fassungen, 11 QUESTIONS-Punkte geschlossen

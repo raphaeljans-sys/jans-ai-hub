@@ -124,7 +124,10 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   ohne Grund hochschrauben; den persönlichen Bezug weglassen; **das Anrede-Wort des Gegenübers
   spiegeln** (widerlegt 260717: auf «Hallo Raphael» antwortet er «Guten Morgen Peter», auf «Grüezi
   Herr Jans» antwortet er «Geschätzte Frau Frick» — Anlass/Tageszeit/Vertrautheit entscheiden, nie
-  der Opener des Eingangs).
+  der Opener des Eingangs); bei einer Mahn-/Zahlungs- oder sonst geschäftskritischen Mail NUR den
+  sichtbaren Haupt-Du-Empfänger adressieren, ohne die Cc-/Mitbeteiligten zu prüfen — sind mehrere
+  Personen am Vorgang beteiligt (auch nur im Cc), gestapelte Anrede + kollektives «Euch»/«Ihr»
+  setzen, nicht das singuläre «Dich» (Fidelity 260725b).
 
 ### Fachsignatur
 - **Do:** Fachwissen rechnend und verfahrensnah einweben; korrekte Kürzel; Recht in
@@ -161,9 +164,12 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   immer einen nächsten Schritt anbieten; bei laufenden Verfahren aktiv Nachmeldung zusagen
   («melde ich mich unverzüglich») statt passiver Verfügbarkeitsformel; die **mehrteilige
   Verfahrens-/Auflagen-Statusmail in thematische fette Blöcke nach Amt/Gegenstand gliedern**
-  (Behörden-Dekomposition), nicht flach auflisten (Fidelity 260718).
+  (Behörden-Dekomposition), nicht flach auflisten (Fidelity 260718); **eigene sequenzielle
+  Fragen an eine Sie-Person nummerieren (1./2./3.)**, offene Spezifikationslisten als «_ »/«–»
+  davon trennen (Fidelity 260725b).
 - **Don't:** Empfehlung ohne Grundlage; Auftrag ohne Zerlegung «im Block» abarbeiten;
-  offene Enden ohne nächsten Schritt.
+  offene Enden ohne nächsten Schritt; eine Folge einzeln zu beantwortender Fragen als offene
+  Bullet-Liste tarnen.
 <!-- END AUTO: facetten -->
 
 ## Wann NICHT

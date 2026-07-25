@@ -3,6 +3,42 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260725b (twin-fragesteller, aus Fidelity-Review 2026-07-25b)
+
+Quelle: Drift-Report `outputs/2026-07-25b_fidelity.md` (Gesamt-Fidelity 85; drei frische, bislang
+unbearbeitete authentische Golds 16.–23.07.2026 ausserhalb der KISPI-Baurechts-Achse — Konsumenten-
+Sie-Finanzierungsanfrage, Mahn-/Zahlungsmail mit gestapelter Anrede, ultrakurzes Fachurteil). Zwei
+Kernfunde: Gruss-Gewichtung nach Inhaltstyp statt Länge (3. Beleg), gestapelte Anrede auch im harten
+Mahnkontext. Je in 1–2 Sätzen beantwortbar.
+
+1. **Gilt die gestrippte Signatur (Name + Firmenzeile + Mail, ohne Block) bei JEDER privaten
+   Konsumenten-Sie-Anfrage, oder war das MacBook-Kauf-Beispiel ein Einzelfall?** Bei der ART-
+   Computer-Finanzierungsanfrage (21.07.2026) hast Du ohne Telefon/Adresse/Titel signiert, obwohl Du
+   eine geschäftliche Finanzierungsoption erwähnt hast. Signierst Du bei privaten Anschaffungen
+   (Geräte, Möbel, private Dienstleistungen) grundsätzlich schlank, auch wenn eine Firmenoption im
+   Text vorkommt, oder war es hier situativ (kein bestehender Geschäftskontakt)? *Warum: bisher nur
+   1 Beleg — ein zweiter würde die Signatur-Schwelle zwischen privat/geschäftlich fest verankern.*
+   → [[stimme]]
+2. **Wie hart darf der Einleitungssatz einer Zahlungserinnerung an einen Du-Bauherrn werden, bevor
+   Du eine Eskalationsstufe (Skill mahnwesen) ansetzt?** Die Ausstehende-Zahlungen-Mail an Albin
+   (21.07.2026) bleibt sachlich-knapp («muss ich Euch bitten Kontakt aufzunehmen»), trotz 96 Tagen
+   Verzug bei der ältesten Rechnung. Ist das für Dich die Obergrenze der 1. Stufe unabhängig von der
+   Verzugsdauer, oder hättest Du bei 96 Tagen normalerweise schon härter formuliert (Frist, Konsequenz
+   wie im Honorar-Eskalationsbeleg Mailbatch 40)? *Warum: klärt, ob Verzugsdauer den Härtegrad
+   automatisch hochschaltet oder ob der Bauherr-Status (KISPI, laufendes Mandat) die Härte dämpft.*
+   → [[haltung]], [[stimme]]
+3. **Nummerierst Du eigene Sequenzfragen IMMER, sobald sie einzeln beantwortet werden sollen — auch
+   im Du/an bekannte Kontakte, nicht nur im Sie-Erstkontakt?** Bei der MacBook-Finanzierungsanfrage
+   (Sie, unbekannt) hast Du 4 Fragen nummeriert. Gilt dieselbe Nummerierungslogik auch, wenn Du einem
+   Du-Kontakt mehrere einzeln zu beantwortende Fragen stellst, oder bleibt «_ » dort die Norm? *Warum:
+   der bisher nur im Sie-Kontext belegte Marker soll nicht fälschlich aufs Du übertragen werden, ohne
+   Beleg.* → [[arbeitsweise]]
+4. **Reicht ein blosser Cc-Eintrag, um jemanden in die Anrede zu stapeln, oder braucht es aktive
+   Beteiligung am Vorgang?** Bei der Zahlungserinnerung wird Herr Tobler als «werter Herr Tobler»
+   gestapelt adressiert. War er nur im Cc, oder war er aktiv ins Zahlungsthema involviert (z.B. als
+   Ansprechpartner Buchhaltung)? *Warum: klärt, ob der Zwilling jeden Cc-Namen in die Anrede stapelt
+   (Risiko: Übergriffigkeit) oder nur die tatsächlich am Thema Beteiligten.* → [[beziehungsregister]]
+
 ## Offen — Runde 260725 (twin-fragesteller, aus Fidelity-Review 2026-07-25)
 
 Quelle: Drift-Report `outputs/2026-07-25_fidelity.md` (Gesamt-Fidelity 90; drei authentische Vor-Claude-Golds
@@ -1432,3 +1468,17 @@ Daraus belegt beantwortet:
   Du-Terminbitte (Gerry Scherbl). Hypothese: «Danke und Gruss» ist sein terser Dank-plus-Gruss-
   Default bei JEDER kurzen operativen Bitte/Auskunft, registerübergreifend. Vom twin-chef bei
   nächster Fidelity-Runde entscheiden lassen, ob die Sub-Du-Einschränkung in der DNA fällt.
+
+- **Stiller Anhang-Reply ohne Fliesstext (Batch 62, 2026-07-25):** Auf eine dringliche
+  Fachplaner-Nachfrage («Können Sie mir bitte dringend die aktuellen Planunterlagen
+  zusenden?») enthielt die Antwort laut M365-API keinen eigenen Fliesstext (nur Weiterleitung/
+  Anhang). Unklar, ob das ein echtes Muster ist («bei selbsterklärender Bitte reicht der
+  Anhang, kein Kommentar nötig») oder ein Extraktionsartefakt (Text lag z.B. nur als separate
+  Anlage/Signaturzeile vor, die die API nicht mitliefert). Ein Datenpunkt, nicht übernommen.
+  Bei nächster Gelegenheit dieselbe Mail nochmals gegenlesen (Apple-Mail-Fallback) oder auf
+  einen zweiten Beleg warten. → [[arbeitsweise]]
+- **«Danke und Gruss»-Reichweite, weiterer Beleg (Batch 62, 2026-07-25):** ergänzt den
+  Batch-60-Beleg um einen dritten Fall (Vorname-Du, ultra-kurze Elektro/Waschküche-
+  Koordination). Stützt die Hypothese aus Batch 60 weiter (registerübergreifender Default bei
+  kurzen operativen Bitten/Auskünften). Weiterhin auf twin-chef-Entscheid wartend, ob die
+  Sub-Du-Einschränkung in der DNA (`rules/jans-dna.md`) fällt. → [[stimme]]

@@ -5,6 +5,37 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-25c — twin-mail-training Batch 62 (Sent Items rj@ 2026-07-08 16:09 → 2026-07-13 11:16).**
+  Sequentieller Mail-Sweep fortgesetzt (VOLLGAS-Endlos-Runner): 121 Treffer im Restfenster, 25 Mails
+  gesichtet, 7 Volltexte via M365-CLI (`node_modules/.bin/m365`, Certificate-Auth, MCP-Tool-Pfad
+  `outlook_email_search` weiterhin defekt) gelesen und destilliert; keine Echo-Falle, alle 7 Rahmen
+  handgetippt. Neue belegte Marker: [[beziehungsregister]] (Stapel-Anrede variiert je Mail nach
+  Fokusperson statt statisch pro Firma; Sie bleibt stabil bei Institutions-nahen Kontakten über
+  mehrere Kontaktrunden; 6 neue Kontakt-Mappings), [[stimme]] (neue Zwischenbescheid-Formel „kommen
+  zur gegebener Zeit auf Sie zu"; „Danke und Gruss" auch im Vorname-Du bei ultra-kurzer Sachauskunft;
+  reine Ja/Nein-Sie-Antwort ganz ohne Signaturblock; Metrik 607 W), [[arbeitsweise]] (thematische
+  Zwischentitel auch in kurzen Lieferanten-Koordinationsmails, nicht nur langen Behördenmails;
+  A)/B)/C)/D)-Fristsetzung mit Direktadressierung bestätigt; @-Delegation in Gruppenmail; Abnahme-
+  Vorbehalt bei unvollständiger Informationslage), [[fachsignatur]] (Schlüsselfertig-/Vollständig-
+  keits-Klausel auch bei Kleinstaufträgen; Referral-Kette offen ausgewiesen; Brandschutz-
+  Fachbegriff-Präzision bereits im Betreff). Ein unsicherer Datenpunkt (Reply ohne Fliesstext auf
+  dringliche Nachfrage) nicht als Marker übernommen, siehe [[QUESTIONS]].
+  Frontmatter der vier Artikel: `260725-mailbatch-62.md` in `sources` ergänzt, `last_updated`
+  unverändert 2026-07-25 (gleicher Kalendertag). Register `raw/_INGESTED.md`: Batch-62-Zeile +
+  Sweep-Footer auf 2026-07-13 11:16:38 nachgeführt.
+
+- **2026-07-25b — twin-fidelity-review (Selbsttest, Apple-Mail-Fallback).** M365-Connector in dieser
+  Session ohne funktionierendes CLI-Paket (`m365_search_commands` Fehler „npm package not found") —
+  Fallback auf Apple Mail/osascript, Konto Exchange, Mailbox „Gesendete Elemente". Drei frische,
+  bislang unbearbeitete authentische Golds 16.–23.07.2026 ausserhalb der KISPI-Baurechts-Achse
+  (Konsumenten-Sie-Finanzierungsanfrage ART Computer, Mahn-/Zahlungsmail mit gestapelter Anrede,
+  ultrakurzes Fachurteil Gastroküche). Gesamt-Fidelity 85/100. Neue Marker: [[stimme]] (Fachurteil/
+  Prüfbericht im Du zieht FG+Block trotz Ein-Satz-Kürze — 3. Beleg der Inhaltstyp-schlägt-Länge-Regel;
+  gestrippte Signatur bei privater Konsumenten-Sie-Erstanfrage), [[arbeitsweise]] (selbst gestellte
+  Sequenzfragen an Sie-Erstkontakt nummeriert, nicht «_ »-Bullet), [[beziehungsregister]] (gestapelte
+  Anrede + kollektives «Euch» auch im harten Mahn-/Zahlungskontext, Do/Don't ergänzt: Cc-Liste vor
+  Anrede-Wahl prüfen). QUESTIONS Runde 260725b (4 Fragen). DNA neu kompiliert (`build_dna.py`).
+  Report: `outputs/2026-07-25b_fidelity.md`.
 - **2026-07-25 — twin-mail-training Batch 61 (2026-07-07 07:23…07-08 16:09).** Sent Items rj@ via
   M365-CLI direkt (MCP-Tool `outlook_email_search` in dieser Session nicht verfügbar; Fallback
   `node_modules/.bin/m365 outlook message list --folderId sentitems`, Certificate-Auth — Ordnername

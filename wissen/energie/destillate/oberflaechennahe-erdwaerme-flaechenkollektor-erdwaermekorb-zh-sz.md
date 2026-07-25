@@ -87,11 +87,37 @@ Drittanbieter-Spiegelung erreichbar).
 - **Nicht die W/m²-Zahl raten:** kein CH-amtlicher Entzugsleistungs-Kennwert gefunden — jede konkrete
   Auslegung braucht einen FWS-Fachplaner/eine Bohrfirma (Skill `energie-berater`).
 
+## S1/S3-Zuordnung Grundwasserschutzzonen — bundesrechtliche Grundlage geklärt (Run 90, 2026-07-25)
+Primärquelle: BAFU/FWS «Wärmenutzung aus Boden und Untergrund — Vollzugshilfe für Behörden und
+Fachleute» (2009, Autor Eugster/FWS, Herausgeber BAFU), fws.ch-PDF (57 S.) per curl+pdftotext im
+Volltext gelesen. **Referenztabelle 1 «Zulässigkeiten» (S. 12), Kategorie «Erdregister und
+Wärmekörbe»:**
+- **S1: nicht zugelassen** («-», keine Ausnahmeklausel).
+- **S2: nicht zugelassen** («-», keine Ausnahmeklausel — deckt sich mit der bekannten SZ-/ZH-Praxis).
+- **S3: grundsätzlich nicht zugelassen, aber Einzelfallbewilligung nach Art. 32 GSchV möglich**, wenn
+  die Anlage **flach im Boden statt im Untergrund** liegt (Kap. 4.2, S. 19, Wortlaut: «In der Zone S3
+  braucht es eine Bewilligung nach Artikel 32 GSchV. Liegen Erdregister und Wärmekörbe nicht im
+  Untergrund, sondern im Boden, ist eine Bewilligung in der Zone S3 grundsätzlich möglich.»); zusätzlich
+  keine Direktverdampferanlagen, Flüssigkeitsverluste müssen leicht erkennbar sein, Mindestabstand 2 m
+  zum höchstmöglichen Grundwasserspiegel.
+
+Diese Bundesnorm dient als Referenz für den kantonalen Vollzug (auch SZ). **Nicht amtlich SZ-spezifisch
+bestätigt:** die AfU-SZ-Amtsseite selbst äussert sich weiterhin nur zu S2, ein eigenes SZ-Merkblatt mit
+expliziter S1/S3-Aussage wurde trotz gezielter Suche nicht gefunden — Status daher **established** für
+die Bundesregel, **offen**, ob Kt. SZ 1:1 übernimmt oder abweicht.
+
+## «Grabenkollektor» — Negativbefund bestätigt (Run 90, 2026-07-25)
+Der Begriff kommt in der amtlichen CH-Referenzquelle (BAFU/FWS 2009, 57 S., per Volltext-Grep geprüft)
+**kein einziges Mal** vor, ebenso wenig bei geothermie-schweiz.ch. Die Schweizer Amtsterminologie kennt
+nur «Erdregister» und «Wärmekörbe» als Sammelbegriffe unabhängig von horizontaler/vertikaler
+Rohranordnung. «Grabenkollektor» (bzw. «Ringgrabenkollektor», Slinky-Anordnung in schmalem, tiefem
+Graben) ist eine **deutsche Markt-/Herstellerkategorie** (Bundesverband Geothermie e.V., DE) ohne
+schweizerische Entsprechung als eigene Kategorie. **Status: established (negativ)** — endgültig
+geklärt, kein weiterer Rechercheaufwand nötig.
+
 ## Offene Punkte
-- «Grabenkollektor» als CH-Kategorie unbestätigt.
 - ZH-BVV-5.5.1-Zuordnung für Erdsonden nur Snippet.
-- SZ: Zuordnung S1/S3 (nur S2 explizit ausgeschlossen) sowie formelle Bewilligungsbehörde für diesen
-  Anlagetyp (nur beim Erdsonden-Abschnitt der Amtsseite ausdrücklich genannt) nicht wörtlich belegt.
+- SZ-spezifische S1/S3-Aussage (nur Bundesregel bestätigt, kein kantonales Merkblatt gefunden).
 - Keine eigenständige SIA-Norm für flächige Systeme gefunden → Skill `normen` (nicht als «keine Norm»
   behaupten).
 - Kostenangabe CHF 30'000–40'000 ohne erkennbare Referenzgrösse (EFH-Fläche, Jahr).
