@@ -164,6 +164,31 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   `[[lignum-schallschutz-holzbau-flankenuebertragung]]` (F25/F17 geschaerft). Offen: konkrete Lignum-
   Konstruktionsdetails + gemessene K_F-/Bauteilwerte (LIT-Doku).
 
+- **D76 (Run 104, 2026-07-25, vier parallele Rechercheagenten)** — Vier Punkte der Run-103-
+  Prioritätenliste abgearbeitet, PDF-Inventar weiterhin erschöpft (Web-Pfad). **D76a WP-Lärm SZ-
+  Verfahrensklassifikation** — amtliche AfU-Wegleitung (29.10.2025) im Volltext gefunden: SZ
+  unterscheidet Innen/Aussenaufstellung × Bauzone/Nichtbauzone (Meldeverfahren/vereinfachtes
+  Baubewilligungsverfahren/ordentliches Verfahren), Gemeinde prüft zweistufig (Einreichung +
+  Bauabnahme) — strenger als das rein private ZH-Modell; VGE III 2015 184 (lärmempfindlicher Raum
+  im eigenen Gebäude) → `[[waermepumpe-aussenlaerm-vollzugshilfe]]` auf established gehoben (SZ-Teil),
+  FAQ **F146** neu. **D76b Sommerlicher Wärmeschutz: SIA-380/2-vs-382/1-Normwechsel aufgelöst** —
+  kein Zitierfehler, sondern echte Neuordnung: Kühlungs-Bedarfsabklärung wanderte von SIA 382/1 in
+  die neue SIA 380/2:2022, SIA 382/1 selbst seit 1.2.2025 durch SIA 382/1:2025 ersetzt (Titelwechsel
+  Klima→Lüftung); Figur-13-Dachflächenfenster-Formel bleibt Negativbefund (Korrigenda C2:2020 geprüft,
+  betrifft sie nicht) → `[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]` ergänzt, FAQ **F147**
+  neu; ⚠ Nebenbefund an KB `normen`: SIA 382/1:2014 dort fälschlich noch als aktuell geführt.
+  **D76c VDI 3807 Blatt 2 — Krankenhaus-Energiekennwerte (neues Thema, Healthcare-Fokus)** — deutsche
+  VDI-Richtlinie (Datenbasis 2004/2005) über zwei sich bestätigende Sekundärquellen erschlossen:
+  5 Versorgungsstufen/Bettenzahl-Klassen, Wärme ~20'000-37'000+ kWh/Bett/a, Strom ~2'700-13'600
+  kWh/Bett/a; bestätigt bisherige KB-Näherung für kleine/mittlere Häuser, zeigt für Maximalversorger
+  &gt;1'000 Betten deutlich höhere Werte; DE-Herkunft, nicht 1:1 CH-übertragbar → neues Destillat
+  `[[vdi-3807-2-energiekennwerte-krankenhaus]]`, FAQ **F148** neu. **D76d BVGer-Urteil Smart-Meter
+  20.06.2025 im Original** — Urteil A-484/2024 (vereinigt A-503/2024) vollständig gelesen: kein
+  Wahlrecht/Opt-out gegen Smart-Meter-Einbau, Kostenfolge statt Wahlrecht bei Verweigerung,
+  15-Min-Lastgang + 5-Jahres-Speicherung verfassungskonform, Fernabschaltung nur bei akuter
+  Netzgefährdung erlaubt → `[[smart-meter-rollout-schweiz]]` auf established gehoben, FAQ **F149**
+  neu. FAQ-Stand: **149 Kernfragen (F1-F149) belegt.**
+
 - **D51 (Run 70, 2026-07-14, gedrosselt)** — Erster Lauf unter der neuen Rule **260714 (Tempo
   drosseln, Wochenlimit 81 %)**: Batch bewusst von 6-10 auf **drei** Themenkomplexe zurueckgenommen
   (Token-Vollgas 260712b ist fuer die Restwoche aufgehoben). PDF-Inventar weiterhin erschoepft, daher

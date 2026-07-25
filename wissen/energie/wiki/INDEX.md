@@ -3,7 +3,7 @@
 Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 
 ## Kernprodukt
-- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**Stand 2026-07-25: 145 Kernfragen F1–F145**, primärquellenbelegt, je Intensiv-Lauf mehrere parallele Rechercheagenten plus adversariale Gegenprüfung bestehender Antworten). Diese Zeile nennt bewusst nur den aktuellen Stand statt jede Lauf-Ergänzung einzeln aufzulisten (Verdichtung statt additivem Wachstum, Rule `wissens-bibliothekar`) — die vollständige Lauf-für-Lauf-Historie mit allen Einzelergänzungen steht in `CHANGELOG.md` (neueste zuoberst).
+- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**Stand 2026-07-25: 149 Kernfragen F1–F149**, primärquellenbelegt, je Intensiv-Lauf mehrere parallele Rechercheagenten plus adversariale Gegenprüfung bestehender Antworten). Diese Zeile nennt bewusst nur den aktuellen Stand statt jede Lauf-Ergänzung einzeln aufzulisten (Verdichtung statt additivem Wachstum, Rule `wissens-bibliothekar`) — die vollständige Lauf-für-Lauf-Historie mit allen Einzelergänzungen steht in `CHANGELOG.md` (neueste zuoberst).
 
 ## Themen-Artikel
 Echte eigenständige Wiki-Artikel (`wiki/*.md`), 26 Stück.
@@ -107,6 +107,16 @@ Blitzschutzklassen (ebenfalls bereits in Run 94 bearbeitet → `[[snr-464022-bli
 Geltungsbereich/Erder-Tabelle/PV-Integrationspflicht frei verfügbar, die eigentlichen Klassen I-IV
 bleiben bestätigter Negativbefund — nur käuflich bei Electrosuisse, auch in der 2024er-Nachfolgenorm
 SN 414022 kein freier Auszug gefunden).
+
+**Run 104 (25.07.2026):** WP-Lärm-Vollzugshilfe um SZ-Verfahrensmatrix ergänzt (AfU-Wegleitung
+29.10.2025, established), sommerlicher Wärmeschutz um SIA-380/2-vs-382/1-Normwechsel ergänzt
+(emerging, Figur-13-Dachflächenfenster bleibt Negativbefund), neues Destillat
+`[[vdi-3807-2-energiekennwerte-krankenhaus]]` (deutsche VDI-Richtlinie, emerging, ergänzt
+`[[energie-performance-gap-gesundheitsbau]]`), Smart-Meter-Destillat um BVGer-Urteil A-484/2024
+vom 20.06.2025 auf established gehoben. ⚠ Nebenbefund fuer den `normen`-Loop: KB `normen`
+(`wissen/normen/destillate/sia-382-1-2014.md`) fuehrt SIA 382/1:2014 noch als aktuell/established,
+obwohl seit 01.02.2025 durch SIA 382/1:2025 ersetzt — Korrektur dort ausserhalb des Scopes dieses
+Energie-Laufs.
 
 ## Verwandte KBs/Skills
 - Skill `planungsgrundlagen` (Domaene Energie) → Bruecke `wissen/planungsgrundlagen/wiki/energie-uebersicht`

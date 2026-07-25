@@ -2,6 +2,62 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 104: vier parallele Rechercheagenten (WP-Lärm SZ established, SIA-380/2-vs-382/1
+## Normwechsel aufgelöst, VDI 3807 Krankenhaus-Benchmark neu, BVGer Smart-Meter-Urteil established)
+
+PDF-Inventar bleibt seit Run 65 vollständig abgearbeitet, daher Web-Pfad. Vier Punkte der
+Run-103-Prioritätenliste (Punkt 4 «neue offene Punkte» + Punkt 5 «neue Themen-Recherche») abgearbeitet,
+je ein `general-purpose`-Rechercheagent, jeder auf eine eigene, nicht-überlappende Destillat-Datei
+beschränkt (Kollisionsschutz, keine geteilten Register-Edits durch die Agenten — diese wurden zentral
+konsolidiert).
+
+**1. WP-Lärm Kt. Schwyz — Verfahrensklassifikation (established):** Amtliche «Kantonale Wegleitung zur
+Planung von Luft/Wasser-Wärmepumpen (LWP)» des AfU Schwyz (Ivo Egger, 29.10.2025) im Volltext
+gefunden. Verfahrensmatrix: Innenaufstellung Bauzone = Meldeverfahren, Aussenaufstellung Bauzone =
+vereinfachtes Baubewilligungsverfahren (Anstösser-Einverständnis/20-Tage-Einsprachefrist), ausserhalb
+Bauzone = ordentliches Verfahren; die Gemeinde prüft zweistufig amtlich (Einreichung UND Bauabnahme) —
+strenger als das rein private ZH-Kontrollmodell. SZ-Besonderheit: VGE III 2015 184 bestimmt den
+lärmempfindlichen Raum primär im eigenen Gebäude als massgebend.
+→ `[[waermepumpe-aussenlaerm-vollzugshilfe]]` (SZ-Teil auf established gehoben), FAQ **F146** neu.
+
+**2. Sommerlicher Wärmeschutz — SIA-380/2-vs-382/1-Normwechsel aufgelöst (emerging):** Der scheinbare
+Widerspruch zwischen MuKEn-2025-Zitat (SIA 380/2:2022) und Stadt-ZH-Praxis (SIA 382/1:2014) ist kein
+Zitierfehler, sondern ein echter SIA-Normen-Systemwechsel: die Kühlungs-Bedarfsabklärung «notwendig
+vs. erwünscht» wanderte von SIA 382/1 in die neue SIA 380/2:2022, SIA 382/1 selbst wurde per 1.2.2025
+als SIA 382/1:2025 neu aufgelegt (Titelwechsel Klima→Lüftung bestätigt die Verschiebung) — dreifach
+über SIA-Shop-Metadaten, SIA-Normentwurf (svlw.ch) und espazium-Fachartikel belegt. SIA-180-Figur-13
+(Dachflächenfenster-g_tot-Formel) bleibt dagegen ein bestätigter Negativbefund (Korrigenda C2:2020
+geprüft, betrifft sie nicht; Empfehlung SIA 4001:2022 als Beschaffungsquelle).
+→ `[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]` ergänzt, FAQ **F147** neu. ⚠ Nebenbefund:
+KB `normen` führt SIA 382/1:2014 noch fälschlich als aktuell/established — an den normen-Loop zu
+übergeben (ausserhalb des Scopes von `energie`).
+
+**3. VDI 3807 Blatt 2 — Energiekennwerte Krankenhaus (neues Thema, emerging):** Deutsche VDI-
+Richtlinie (Datenbasis 2004/2005) über zwei sich bestätigende Sekundärquellen erschlossen (VDI-
+Primärtext kostenpflichtig, nicht beschafft): 5 Versorgungsstufen nach Bettenzahl, Wärme
+~20'000-37'000+ kWh/Bett/a, Strom ~2'700-13'600 kWh/Bett/a. Bestätigt die bisherige KB-Näherung
+(20'000-35'000 kWh/Bett/Jahr) für kleine/mittlere Häuser, zeigt für Maximalversorger >1'000 Betten
+deutlich höhere Werte (~50'600 kWh/Bett/a). DE-Herkunft ausdrücklich vermerkt, nicht 1:1 auf CH
+übertragbar.
+→ Neues Destillat `[[vdi-3807-2-energiekennwerte-krankenhaus]]`, ergänzt
+`[[energie-performance-gap-gesundheitsbau]]`, FAQ **F148** neu.
+
+**4. BVGer-Urteil Smart-Meter vom 20.06.2025 im Original (established):** Urteil A-484/2024
+(vereinigt mit A-503/2024), Abteilung I, vollständig gelesen (42 S., bvger.weblaw.ch). Gemeinde
+Rorschacherberg (SG) vs. privater Eigentümer, ElCom als Vorinstanz: kein Wahlrecht/Opt-out gegen
+Smart-Meter-Einbau, Kostenfolge statt Wahlrecht bei Verweigerung (Art. 8a ter Abs. 2 StromVV),
+15-Minuten-Lastgang und 5-Jahres-Speicherung verfassungskonform/kein Profiling, Fernabschaltung nur
+bei akuter Netzgefährdung erlaubt (enger, aber realer Schutz). Gemeinde-Beschwerde vollumfänglich
+abgewiesen, Eigentümer-Beschwerde nur beim Kostenpunkt teilweise gutgeheissen.
+→ `[[smart-meter-rollout-schweiz]]` auf established gehoben, FAQ **F149** neu.
+
+Register nachgeführt: `destillate/INDEX.md`, `wiki/INDEX.md` (FAQ-Zählerzeile auf 149 + Run-104-Notiz
+inkl. normen-Nebenbefund), `wiki/BAUHERREN-FAQ.md` (F146-F149 neu), `training/curriculum.md`
+(D76a-d), `wiki/QUESTIONS.md` (E91 + fortgeschriebene Prioritätenliste), `raw/_INGESTED.md`.
+Vollständiger Lauf-Report: `outputs/2026-07-25_energie-run104.md`.
+
+FAQ-Stand: **149 Kernfragen (F1-F149) belegt.**
+
 ## 2026-07-25 — Run 103: Konsolidierung dreier paralleler Workstreams (WP-Lärm-Verfahren,
 ## sommerlicher Wärmeschutz MuKEn-2025/Kt.-SZ, Legionellenschutz established), Register-Korrektur
 

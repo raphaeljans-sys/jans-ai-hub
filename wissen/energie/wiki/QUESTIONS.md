@@ -1803,3 +1803,42 @@ FAQ-Stand: **145 Kernfragen (F1-F145) belegt.**
 5. Neue Themen-Recherche nach freier Wahl (PDF-Inventar bleibt erschöpft, Web-Pfad) — z.B. VDI 3807
    Blatt 2 im Volltext beschaffen (Krankenhaus-Benchmark-Kennwerte, aus Run 102 offen) oder BVGer-
    Urteil 20.06.2025 zum Smart-Meter-Einbau im Original lesen.
+
+- [x] **E91** **Run-103-Prioritätenliste (Punkt 4+5) abgearbeitet — vier parallele Rechercheagenten
+  (Run 104, 2026-07-25):** (1) **Kt.-SZ-Klassifikation Bewilligung/Meldung WP-Aussengeräte**
+  geschlossen ✓ — amtliche AfU-Wegleitung (Ivo Egger, 29.10.2025) im Volltext gefunden:
+  Verfahrensmatrix Innen/Aussenaufstellung × Bauzone/Nichtbauzone, Gemeinde prüft zweistufig
+  (Einreichung + Bauabnahme) → `[[waermepumpe-aussenlaerm-vollzugshilfe]]` auf established (SZ-Teil),
+  FAQ **F146**. (2) **SIA 380/2:2022 vs. SIA 382/1:2014 «Kühlung notwendig»** aufgelöst ✓ — echter
+  Normen-Systemwechsel (SIA 382/1 seit 1.2.2025 als SIA 382/1:2025 neu aufgelegt, Kühlungs-
+  Bedarfsabklärung in SIA 380/2:2022 verschoben), dreifach sekundärquellenbelegt →
+  `[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]`, FAQ **F147**; ⚠ Nebenbefund: KB `normen`
+  führt SIA 382/1:2014 noch fälschlich als aktuell (an normen-Loop zu übergeben). **SIA-180-Figur-13**
+  (Dachflächenfenster-Formel) bleibt dagegen offen — bestätigter Negativbefund, Korrigenda C2:2020
+  geprüft und betrifft sie nicht; Empfehlung SIA 4001:2022 als Beschaffungsquelle für die
+  JANS-Normenbibliothek. **Kostenfolge Lärm-Nachmessung bei WP-Reklamation** bleibt ebenfalls offen
+  (in diesem Lauf nicht bearbeitet). (3) **VDI 3807 Blatt 2 Krankenhaus-Benchmark** neu erschlossen ✓
+  — deutsche Richtlinie über zwei sich bestätigende Sekundärquellen, Wärme ~20'000-37'000+ kWh/Bett/a,
+  Strom ~2'700-13'600 kWh/Bett/a nach 5 Versorgungsstufen; DE-Herkunft, nicht 1:1 CH-übertragbar →
+  neues Destillat `[[vdi-3807-2-energiekennwerte-krankenhaus]]`, FAQ **F148**. (4) **BVGer-Urteil
+  Smart-Meter 20.06.2025** im Original gelesen ✓ — Urteil A-484/2024 (vereinigt A-503/2024): kein
+  Wahlrecht/Opt-out gegen Einbau, Kostenfolge statt Wahlrecht, Fernabschaltung nur bei akuter
+  Netzgefährdung → `[[smart-meter-rollout-schweiz]]` auf established gehoben, FAQ **F149**.
+  FAQ-Stand: **149 Kernfragen (F1-F149) belegt.**
+
+**Register nachgeführt:** `destillate/INDEX.md`, `wiki/INDEX.md` (FAQ-Zählerzeile auf 149 + Run-104-
+Notiz inkl. normen-Nebenbefund), `wiki/BAUHERREN-FAQ.md` (F146-F149 neu), `training/curriculum.md`
+(D76a-d), `raw/_INGESTED.md`, `CHANGELOG.md`, `outputs/2026-07-25_energie-run104.md`.
+
+**Nächster Lauf: Priorität**
+1. Die fünf gebündelten Kaufentscheide (B1-Konsolidierung, SWKI-VA105-01, SIA-385/1, SIA-385/2,
+   SIA-384.354) wachsen seit Run 98 unverändert ohne Entscheidung — jetzt sechs Runs in Folge.
+   Empfehlung bleibt: beim nächsten Kontakt mit Raphael als kurze Bündel-Frage stellen statt weiter
+   automatisch mitzuführen.
+2. Meta-Punkt M2 (eigenständiger Skill "energie"?) ist seit Run 45 spruchreif und weiterhin nicht
+   entschieden — ebenfalls Raphael vorlegen.
+3. ⚠ Neu: KB `normen` pflegt SIA 382/1:2014 fälschlich als aktuell (seit 1.2.2025 durch SIA 382/1:2025
+   ersetzt) — dem normen-Loop/Wissens-Chef zur Korrektur übergeben (nicht Aufgabe von `energie`).
+4. Weiterhin offen aus Run 103: SIA-180-Figur-13-Formel (Dachflächenfenster, Beschaffung SIA 4001:2022
+   erwägen), Kostenfolge einer Lärm-Nachmessung bei WP-Reklamation ZH/SZ.
+5. Neue Themen-Recherche nach freier Wahl (PDF-Inventar bleibt erschöpft, Web-Pfad).

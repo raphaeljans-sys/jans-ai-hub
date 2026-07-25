@@ -1,9 +1,9 @@
 ---
-quelle: Stromversorgungsverordnung (StromVV, SR 734.71) Art. 8a-8a duodecies, 8b, 8d, 31e (Fedlex, konsolidierte Fassung); ElCom-Webseite «Messwesen»; BFE «Energiestrategie 2050 Monitoring-Bericht 2025»
-herausgeber: Bundesrat/UVEK (StromVV); Eidgenössische Elektrizitätskommission ElCom, Bern (Vollzug/Aufsicht); Bundesamt für Energie BFE, Ittigen (Monitoring)
-ausgabe: StromVV konsolidierter Stand 01.01.2026 (Fedlex Filestore, ELI eli/cc/2008/226); ElCom-Webseite Stand Juli 2026; BFE-Monitoringbericht 2025, korrigierte Fassung März 2026 (Datenstand Ende 2024)
-gelesen: 2026-07-25 (Fedlex-Volltext Art. 8a bis-duodecies, 8b, 8d, 31e vollständig gelesen; ElCom-Seite elcom.admin.ch/de/messwesen; BFE-Monitoringbericht 2025 PDF lokal per pdftotext ausgewertet, S. 41; BVGer-Urteil 20.06.2025 nur via Sekundärquellen ee-news.ch/Balthasar Legal/energieradar.ch)
-datenstand: StromVV-Fassung in Kraft seit 01.01.2026 (Mantelerlass/Stromgesetz-Revision vom 19.02.2025, AS 2025 139 — hat die Messwesen-Artikel komplett umnummeriert); Rollout-Zahlen Stand Ende 2024 (BFE); ⚠ Thema ändert sich schnell, Artikelnummern wurden 2025/2026 bereits zweimal verschoben (2024: 8a→8a quinquies ff.; 2025/2026: 8a→8a decies)
+quelle: Stromversorgungsverordnung (StromVV, SR 734.71) Art. 8a-8a duodecies, 8b, 8d, 31e (Fedlex, konsolidierte Fassung); ElCom-Webseite «Messwesen»; BFE «Energiestrategie 2050 Monitoring-Bericht 2025»; Bundesverwaltungsgericht, Urteil A-484/2024 (vereinigt mit A-503/2024) vom 20.06.2025, Abteilung I (Primärtext, bvger.weblaw.ch-Spiegel des amtlichen Urteils)
+herausgeber: Bundesrat/UVEK (StromVV); Eidgenössische Elektrizitätskommission ElCom, Bern (Vollzug/Aufsicht); Bundesamt für Energie BFE, Ittigen (Monitoring); Bundesverwaltungsgericht, St. Gallen (Rechtsprechung)
+ausgabe: StromVV konsolidierter Stand 01.01.2026 (Fedlex Filestore, ELI eli/cc/2008/226); ElCom-Webseite Stand Juli 2026; BFE-Monitoringbericht 2025, korrigierte Fassung März 2026 (Datenstand Ende 2024); BVGer-Urteil A-484/2024 vom 20.06.2025 (42 Seiten, rechtskräftig soweit ersichtlich nicht angefochten)
+gelesen: 2026-07-25 (Fedlex-Volltext Art. 8a bis-duodecies, 8b, 8d, 31e vollständig gelesen; ElCom-Seite elcom.admin.ch/de/messwesen; BFE-Monitoringbericht 2025 PDF lokal per pdftotext ausgewertet, S. 41); 2026-07-25 Run 104: BVGer-Urteil A-484/2024 vom 20.06.2025 VOLLSTÄNDIG im Original gelesen (PDF via https://bvger.weblaw.ch/pdf/A-484-2024_2025-06-20_f6e4ccf7-ef74-4758-ba93-8688e2682770.pdf per curl geladen, pdftotext ausgewertet, alle 42 Seiten/11 Erwägungs-Kapitel plus Dispositiv gelesen — vorher nur Sekundärquellen ee-news.ch/Balthasar Legal/energieradar.ch, jetzt Primärbeleg)
+datenstand: StromVV-Fassung in Kraft seit 01.01.2026 (Mantelerlass/Stromgesetz-Revision vom 19.02.2025, AS 2025 139 — hat die Messwesen-Artikel komplett umnummeriert); Rollout-Zahlen Stand Ende 2024 (BFE); ⚠ Thema ändert sich schnell, Artikelnummern wurden 2025/2026 bereits zweimal verschoben (2024: 8a→8a quinquies ff.; 2025/2026: 8a→8a decies); BVGer-Urteil 20.06.2025 zitiert noch die Zwischenstufe «Art. 8a sexies ff. StromVV» (Fassung ab 20.11.2024, AS 2024 706) — zum Urteilszeitpunkt war die Revision vom 19.02.2025 (heutige Nummerierung Art. 8a decies) noch nicht in Kraft
 status: established
 last_updated: 2026-07-25
 ---
@@ -91,9 +91,10 @@ für Metrologie (METAS) bestehen (Art. 8b StromVV).
 - **Verweigert ein Endverbraucher/Erzeuger/Speicherbetreiber die Installation**, kann der Netzbetreiber
   die dadurch entstehenden **Mehrkosten der Messung individuell** ab dem Zeitpunkt der Verweigerung in
   Rechnung stellen (Art. 8a ter Abs. 2 StromVV) — oder alternativ ein Verfahren bei der ElCom eröffnen,
-  die den Einbau verfügungsweise anordnen kann. Das Bundesverwaltungsgericht hat eine entsprechende
-  ElCom-Verfügung am 20.06.2025 bestätigt (Sekundärquellen ee-news.ch/Balthasar Legal, ⚠ Primärurteil
-  nicht selbst gelesen) — ein **generelles Verweigerungsrecht ohne Konsequenzen besteht faktisch nicht**.
+  die den Einbau verfügungsweise anordnen kann. Das Bundesverwaltungsgericht hat mit **Urteil A-484/2024
+  vom 20.06.2025** (Primärtext gelesen, siehe Vertiefung unten) explizit entschieden, dass die
+  Kostenfolge-Norm **kein Wahlrecht/Opt-out** des Endverbrauchers begründet — ein **generelles
+  Verweigerungsrecht ohne Konsequenzen besteht nicht**.
 - **Zusätzliche Zähler** (z.B. separater Speicherzähler, zweiter Messpunkt): Kostendeckel gemäss
   Art. 8a duodecies StromVV — max. **CHF 250** Installationskosten, max. **CHF 120/Jahr** während
   höchstens 10 Jahren Betriebskosten.
@@ -144,10 +145,11 @@ Smart Meter dagegen, sobald der Endverbraucher **von seinem Anspruch auf Netzzug
 ### Datenschutz / Widerspruchsrecht
 - **Kein generelles Opt-out von der Datenverarbeitung selbst:** Art. 8d StromVV regelt abschliessend,
   wofür Netzbetreiber die Mess-/Stammdaten bearbeiten dürfen (Messung/Steuerung, Tarifsysteme,
-  Netzbetrieb/-bilanzierung/-planung, Abrechnung). Das Bundesverwaltungsgericht hat am 20.06.2025 eine
-  Beschwerde gegen genau diese Datenbearbeitung abgewiesen und bestätigt, dass sie **nicht** gegen das
-  Recht auf informationelle Selbstbestimmung (Art. 13 Abs. 2 BV) verstösst — keine besonders schützenswerten
-  Personendaten, kein Profiling (⚠ Urteil selbst nicht gelesen, nur Sekundärquellen).
+  Netzbetrieb/-bilanzierung/-planung, Abrechnung). Das Bundesverwaltungsgericht hat mit **Urteil
+  A-484/2024 vom 20.06.2025** (Primärtext gelesen) eine Beschwerde gegen genau diese Datenbearbeitung
+  (15-Min-Lastgänge, 5-Jahres-Speicherung) abgewiesen und bestätigt, dass sie **nicht** gegen das Recht
+  auf informationelle Selbstbestimmung (Art. 13 Abs. 2 BV) verstösst — keine besonders schützenswerten
+  Personendaten, kein Profiling im Sinn von Art. 5 Bst. f DSG (Details siehe Vertiefung unten).
 - **Datenlöschung:** Personendaten müssen **nach 5 Jahren vernichtet** werden, sofern nicht
   abrechnungsrelevant oder anonymisiert (Art. 8d Abs. 3) — deckt sich mit der 5-Jahres-Abrufbarkeit für
   den Endverbraucher selbst (Art. 8a decies Abs. 4 lit. c, Art. 8a septies Abs. 2).
@@ -162,10 +164,116 @@ Smart Meter dagegen, sobald der Endverbraucher **von seinem Anspruch auf Netzzug
   «intelligente» Funktionen (wie z.B. in Österreich) deaktivieren zu lassen, ist in der Schweiz **nicht**
   ersichtlich (⚠ nicht abschliessend verifiziert, kein Fedlex-Fundstellenbeleg dafür gefunden).
 
+## Vertiefung Run 104: BVGer-Urteil 20.06.2025
+
+**Primärquelle vollständig gelesen** (Run 102 hatte dies als offenen Punkt vermerkt): Bundesverwaltungsgericht,
+Abteilung I, **Urteil A-484/2024** (vereinigt mit A-503/2024) **vom 20. Juni 2025**, 42 Seiten, geladen als
+PDF via `https://bvger.weblaw.ch/pdf/A-484-2024_2025-06-20_f6e4ccf7-ef74-4758-ba93-8688e2682770.pdf` (Spiegel
+des amtlichen Urteils), lokal per `pdftotext -layout` ausgewertet und Zeile für Zeile geprüft. Ergänzt/löst
+die beiden im Hauptteil oben ⚠-markierten Sekundärquellen-Stellen ab.
+
+### Verfahren und Parteien
+- **Beschwerdeführerin 1:** Politische Gemeinde Rorschacherberg (Kt. St. Gallen) — sie ist hier **selbst
+  Netzbetreiberin** (über ihre «Technischen Betriebe»), nicht ein privates EVU. Ficht nur den Kostenpunkt an.
+- **Beschwerdeführer 2:** A.________, privater Eigentümer eines Einfamilienhauses in Rorschacherberg,
+  vertreten durch Rechtsanwalt. Ficht die Sache selbst an (Entfernung Smart Meter, Datenbearbeitung).
+- **Vorinstanz:** ElCom, **Verfügung vom 5. Dezember 2023** — ein Rückweisungsentscheid nach einem
+  **ersten BVGer-Urteil A-2372/2021 vom 26. Juli 2022**, das eine frühere ElCom-Verfügung (6.4.2021) teilweise
+  aufgehoben und zur weiteren Sachverhaltsabklärung zurückgewiesen hatte. Vorgeschichte: Gemeinde installierte
+  den Smart Meter bereits am 30.10.2017 (rund 5 Jahre vor der ersten Beschwerde); A. ersuchte am 8.11.2017 um
+  Rückbau, was die Gemeinde am 3.7.2018 ablehnte — der Streit läuft damit seit **2017**.
+
+### Streitpunkt 1 — Muss der Netzbetreiber den Smart Meter auf Verlangen entfernen? NEIN
+- Rechtsgrundlage im Urteil: **Art. 17a–c StromVG** i.V.m. **Art. 8a sexies ff. StromVV** (Zwischenstufe der
+  Nummerierung ab 20.11.2024, AS 2024 706 — heute nach der Revision vom 19.02.2025 als Art. 8a decies
+  bezeichnet, siehe Frontmatter). Bestätigt wörtlich (E. 4.2.1): Endverbraucher sind **grundsätzlich
+  verpflichtet, den Einbau und Betrieb intelligenter Messsysteme zu dulden, ohne dass ihre Zustimmung dazu
+  erforderlich ist** — unter Verweis auf das eigene Vorurteil A-2372/2021 E. 5.1 sowie den Kommentar
+  Energierecht III (Blättler, Art. 17a Rz. 25; Spielmann, Art. 17c Rz. 12).
+- **Kernaussage E. 4.2.2** (löst den bisher offenen Punkt ab): Art. 8a sexies Abs. 7 StromVV (Kostenfolge bei
+  Verweigerung, vormals Art. 8a Abs. 3ter) **begründet KEIN Wahlrecht des Endverbrauchers**. Zweck der Norm
+  ist einzig, über einen finanziellen Anreiz die Bereitschaft zum Smart-Meter-Einbau zu erhöhen — nicht,
+  ein Verweigerungsrecht zu schaffen. Selbst wenn einzelne Netzbetreiber ihren Kunden den Verzicht gegen
+  Mehrkosten aktiv **zur Wahl stellen** (Beleg im Verfahren: ein entsprechendes Formular einer anderen
+  Netzbetreiberin), verpflichtet das andere Netzbetreiber **nicht**, gleich zu verfahren — reiner Spielraum-
+  Entscheid des jeweiligen Netzbetreibers während der Übergangsfrist bis 2027/2028 (Art. 31e Abs. 2 StromVV).
+  Auch bei Ausbau hätte der Beschwerdeführer keinen Anspruch auf einen **konventionellen** Zähler, sondern
+  müsste ohnehin (mindestens) ein neues intelligentes Messsystem dulden (E. 4.2/5.2.6).
+
+### Streitpunkt 2 — Abschaltfunktion (Fernabschaltung durch den Netzbetreiber)
+- Der konkrete Smart Meter verfügt über eine **Abschaltfunktion**, mit der die Gemeinde den Stromanschluss
+  fernsteuern/unterbrechen kann (Betrieb v.a. als «Ultima Ratio» im Forderungsmanagement bei Zahlungsverzug).
+  Offen gelassen (nicht abschliessend entschieden, E. 5.1.2): ob eine reine Abschaltfunktion überhaupt unter
+  die Definition eines **zustimmungspflichtigen «intelligenten Steuer- und Regelsystems»** (Art. 17b StromVG,
+  Opt-in-Modell) fällt — die Funktion beeinflusst laut Sachverhalt keine «Flexibilität» (Einspeisung/
+  Speicherung/Verbrauch aktiv steuern, z.B. Wärmepumpe/Boiler drosseln), sondern schaltet nur ganz ab/an.
+- **Selbst wenn ja** (Prämisse des Gerichts für die weitere Prüfung): Übergangsregel **Art. 31f StromVV**
+  erlaubt dem Netzbetreiber, ein **vor dem 1.1.2018 installiertes** Steuer-/Regelsystem weiter zu betreiben,
+  bis der Endverbraucher den Einsatz **ausdrücklich untersagt** — ausser zur **Abwendung einer unmittelbaren
+  erheblichen Gefährdung des sicheren Netzbetriebs** (Art. 8c Abs. 6 StromVV), das kann der Endverbraucher
+  **nicht** untersagen.
+- **Verhältnismässigkeits-Abwägung (E. 5.2.5–5.2.7):** Das Gericht bevorzugt ein **Nutzungsverbot** (Gemeinde
+  darf die Funktion nur bei akuter Netzgefährdung einsetzen, sonst nicht, unter Strafandrohung) gegenüber
+  einer **Entfernung/Auswechslung** des Geräts — weil eine flächendeckende Entfernung bei geschätzt **10–15 %
+  der schweizweit installierten Systeme mit Abschaltfunktion** (Schätzung Verein swissmig) erhebliche
+  volkswirtschaftliche Kosten und Verzögerungen beim Rollout verursachen würde, während das Nutzungsverbot
+  die Interessen des Betroffenen vergleichbar wahrt. **Relevanz:** Ein Bauherr/Eigentümer mit
+  Abschaltfunktions-Smart-Meter hat damit einen **gerichtlich bestätigten Schutz gegen willkürliche
+  Fernabschaltung**, aber **keinen Anspruch auf Ausbau** des Geräts deswegen.
+
+### Streitpunkt 3 — Datenbearbeitung (15-Min-Lastgänge, Speicherdauer) verfassungskonform
+- Geprüft unter Art. 13 Abs. 2 BV (informationelle Selbstbestimmung) i.V.m. DSG. Ergebnis (E. 6.6–6.9):
+  - **Kein Profiling** i.S.v. Art. 5 Bst. f DSG: Die Daten dienen nicht der automatisierten Bewertung
+    persönlicher Merkmale, sondern Abrechnung/Netzbetrieb/-planung; ein einziger Zähler misst den
+    **gesamten** Haushaltsverbrauch (keine geräte-/personenscharfe Zuordnung möglich).
+  - **Keine besonders schützenswerten Personendaten** (Art. 5 Bst. c DSG) — auch wenn 15-Min-Werte gewisse
+    Rückschlüsse auf den Tagesablauf zulassen (Kochen, Baden), reicht das laut Gericht nicht für einen
+    **schwerwiegenden** Grundrechtseingriff, der eine formell-gesetzliche statt verordnungsmässige
+    Grundlage verlangen würde (Art. 36 Abs. 1 Satz 2 BV).
+  - **Verhältnismässigkeit bejaht:** 15-Minuten-Takt und 5-Jahres-Speicherung (Art. 8d Abs. 3 StromVV)
+    sind **erforderlich** für Netzeffizienz/-planung, Tarifsysteme und den vorgeschriebenen Datenaustausch
+    unter Netzbetreibern — nicht bloss für die Rechnungsstellung (dafür genügten kumulierte Werte). Das
+    Gericht grenzt den Fall ausdrücklich vom Bundesgerichtsurteil **BGE 147 I 346** (Wasserzähler) ab, wo
+    die Datenerhebung **ohne** ersichtlichen Zweck über die Rechnungsstellung hinausging — beim Smart
+    Meter ist der Zusatzzweck (Netzbetrieb/-planung) hingegen gesetzlich verankert (Art. 17a Abs. 1 StromVG).
+  - **Kein Verstoss gegen Datensparsamkeit/Vorratsdatenspeicherungs-Verbot**, weil die Daten zweckgebunden
+    (nicht «auf Vorrat ohne Zweck») bearbeitet werden.
+  - Die Abrufhäufigkeit durch den Netzbetreiber bleibt auf **max. 1x täglich** begrenzt (Art. 8d Abs. 4
+    StromVV), auch wenn der Zähler selbst alle 15 Minuten misst.
+- **Datensicherheit:** Rüge des Beschwerdeführers zu Hacking-Risiken abgewiesen — keine konkreten
+  Anhaltspunkte für mangelhafte Datensicherheit im Einzelfall; ElCom hatte ohnehin Pseudonymisierungs-
+  Auflagen verfügt (Löschung Kundenportal-Daten ohne Zustimmung, pseudonymisierte Übertragung ins
+  Energiedatenmanagement-System, pseudonymisierte/aggregierte Weitergabe an Dritte — Dispositiv-Ziffern 1–3
+  der ElCom-Verfügung, vom Gericht nicht beanstandet).
+
+### Ergebnis (Dispositiv)
+- **Beschwerde der Gemeinde (Kostenpunkt): vollständig abgewiesen** — keine Gebührenbefreiung für
+  Gemeinwesen nach Art. 3 Abs. 2 AllgGebV, da GebV-En den Gebührenverzicht abschliessend regelt.
+- **Beschwerde von A. (Sache): in der Substanz vollständig abgewiesen** — kein Anspruch auf Entfernung des
+  Smart Meters, keine Verletzung von Datenschutz-/Persönlichkeitsrecht. **Teilweise gutgeheissen nur beim
+  Kostenpunkt:** Die ihm von der ElCom auferlegte Verfahrensgebühr wurde von CHF 17'942.50 auf **CHF 3'000.–**
+  reduziert (Zeitaufwand der Vorinstanz als überhöht beurteilt, E. 8.4).
+- Das Urteil ist, soweit ersichtlich (Datenstand Recherche 25.07.2026), **nicht** ans Bundesgericht
+  weitergezogen worden — ⚠ nicht mit einer eigenen BGer-Abfrage verifiziert, nur aus dem Fehlen weiterer
+  Sekundärquellen-Treffer geschlossen.
+
+### Relevanz für Bauherren/JANS-Projekte (Einordnung, eigene Schlussfolgerung)
+- **Bestätigt die bisherige Destillat-Aussage mit Primärbeleg:** Es gibt **kein** generelles Recht, den
+  Einbau eines intelligenten Messsystems abzulehnen — weder aus der Kostenfolge-Norm noch aus
+  Datenschutzgründen. Für Bauherren/Eigentümer, die im Bauprozess oder danach Widerstand gegen den
+  Smart-Meter-Einbau in Erwägung ziehen: aussichtslos, ausser über eine ElCom-Ausnahme nach Art. 8a
+  undecies StromVV (unverhältnismässiger Aufwand/technische Unzweckmässigkeit im Einzelfall).
+  Widerstand kostet nur zusätzliches Messentgelt (Art. 8a ter Abs. 2 StromVV), ändert aber nichts an der
+  Einbaupflicht.
+- **Neu/differenzierend gegenüber der bisherigen Kurzfassung:** Bei Geräten mit **Abschaltfunktion** (nicht
+  bei jedem Smart Meter vorhanden) besteht ein gerichtlich anerkannter, aber enger Schutz — Fernabschaltung
+  nur bei akuter Netzgefährdung, sonst untersagt. Für ein Bauprojekt mit eigenem Areal-Netz/Nahwärmeverbund
+  o.Ä. ist das ein Präzedenzfall, falls der Netzbetreiber eine ähnliche Funktion einsetzen will.
+- **Für die Terminplanung eines vZEV/LEG bleibt das im Hauptteil oben beschriebene Bild unverändert:** Das
+  Urteil ändert nichts an Art. 8a decies Abs. 6 StromVV (3-Monats-Anspruch bei ZEV/LEG-Ausstattungswunsch) —
+  es betrifft einen anderen Streitgegenstand (Einzelverweigerung/Datenschutz, nicht Beschleunigungsanspruch).
+
 ## Offene Punkte
-- **BVGer-Urteil vom 20.06.2025** (ElCom-Verfügung 233-00093 vom 05.12.2023) nur über Sekundärquellen
-  (ee-news.ch, Balthasar Legal, energieradar.ch) erschlossen — Primärurteil (bger.ch/bvger.ch) noch nicht
-  selbst gelesen und zitiert.
 - **VNB-Praxis Neubau-Default** (installieren grosse VNB wie EKZ/ewz bei jedem Neuanschluss automatisch
   einen Smart Meter?) ist Praxiswissen, nicht amtlich belegt — für ein konkretes Projekt beim
   Standort-VNB direkt abklären.

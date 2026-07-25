@@ -4995,3 +4995,128 @@ Umwelt und Energie) per WebFetch gelesen 25.07.2026.
 Datenstand 25.07.2026 (neu). Status **established** für den Kt.-ZH-Nachweisweg (vierfach
 primärquellenbelegt, deckungsgleich mit F88); **emerging** für den MuKEn-2025-Ausblick (Empfehlung,
 noch nicht geltendes Recht) und den Kt.-SZ-Teil (Negativbefund, nicht positiv verifiziert).
+
+### F146 — Braucht meine Wärmepumpe im Kanton Schwyz eine Baubewilligung oder reicht eine Meldung?
+
+**Kurz:** Das hängt von zwei Faktoren ab: Innen- oder Aussenaufstellung, und Lage innerhalb oder
+ausserhalb der Bauzone. Innerhalb der Bauzone läuft eine innen aufgestellte Wärmepumpe im einfachen
+Meldeverfahren, eine aussen aufgestellte im vereinfachten Baubewilligungsverfahren (dafür braucht es
+das schriftliche Einverständnis der direkten Nachbarn, sonst gilt eine 20-tägige Einsprachefrist).
+Ausserhalb der Bauzone gilt in jedem Fall das ordentliche Baubewilligungsverfahren. Geprüft wird
+nicht erst bei einer Reklamation: die Gemeinde als Baubewilligungsbehörde kontrolliert die
+Unterlagen bereits bei der Einreichung, und bei der Bauabnahme wird die Ausführung der
+Lärmschutzmassnahmen visuell geprüft.
+
+**Fachliche Begründung:** Grundlage ist die kantonale Wegleitung des Amts für Umwelt und Energie
+(AfU) vom 29.10.2025. Sie zeigt in Kapitel 2 und Abbildung 1 die vollständige Verfahrensmatrix und
+in Kapitel 13, dass die Baubewilligungsbehörde bei der Bauabnahme die Ausführung der im
+Lärmschutznachweis angegebenen Massnahmen prüft. Eine SZ-Besonderheit kommt dazu: Anders als in
+anderen Kantonen gilt gemäss Urteil des Schwyzer Verwaltungsgerichts (VGE III 2015 184 vom
+24.8.2016) der nächstgelegene lärmempfindliche Raum primär im eigenen Gebäude als massgebend, nicht
+erst beim Nachbargrundstück — das kann den zulässigen Standort strenger einschränken, als eine reine
+Nachbar-Betrachtung vermuten liesse. Bei einer späteren Lärmklage trägt der Anlagebesitzer die
+Beweispflicht für die Einhaltung der Grenzwerte (Kapitel 14).
+
+**Quelle + Datenstand:** Kanton Schwyz, Amt für Umwelt und Energie (AfU), «Kantonale Wegleitung zur
+Planung von Luft/Wasser-Wärmepumpen (LWP)», Autor Ivo Egger, Schwyz 29.10.2025 (WebFetch +
+Volltext-Read 25.07.2026); ergänzend Gemeinde Schwyz, Online-Schalter «Lärmschutznachweis für
+Luft/Wasser-Wärmepumpen» (gelesen 25.07.2026).
+→ `[[waermepumpe-aussenlaerm-vollzugshilfe]]`, `[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]`,
+`[[waermepumpe-aussengeraet-grenzabstand-zh-sz]]`, `[[waermepumpen-laermschutz]]`.
+Datenstand 25.07.2026 (neu). Status **established** für die SZ-Verfahrensmatrix (amtliche,
+datierte AfU-Wegleitung mit Ablaufdiagramm); der ZH-Teil des Destillats bleibt **emerging**
+(teils journalistische Sekundärquelle).
+
+### F147 — Warum verweist die neue MuKEn 2025 auf eine andere Norm als die bisherige Stadt-Zürich-Praxis, wenn es um die Frage geht, ob mein Gebäude gekühlt werden muss?
+
+**Kurz:** Das ist kein Fehler, sondern ein echter Normenwechsel. Der SIA hat 2022/2025 die
+Zuständigkeiten neu verteilt: Die Frage «ist Kühlung notwendig oder erwünscht» steht neu in der
+SIA 380/2:2022, nicht mehr in der SIA 382/1. Die aktuelle Vollzugspraxis in Zürich stützt sich noch
+auf die alte SIA 382/1:2014, weil die kantonale/städtische Wegleitung diesen Normenwechsel noch
+nicht nachvollzogen hat.
+
+**Fachliche Begründung:** Der SIA hat sein Normenwerk für Lüftung/Klima grundlegend neu geordnet.
+Die SIA 380/2:2022 «Energetische Berechnungen von Gebäuden — Dynamisches Verfahren für
+Bedarfsabklärungen, Leistungs- und Energiebedarf» (gültig ab 01.11.2022) ersetzt die frühere
+SIA 382/2:2011 und das Merkblatt SIA 2044:2019 und trägt bereits im Titel den Begriff
+«Bedarfsabklärungen» — also genau das Verfahren, mit dem beurteilt wird, ob eine aktive Kühlung
+notwendig oder erwünscht ist. Gleichzeitig wurde die SIA 382/1 selbst per 01.02.2025 revidiert und
+umbenannt: von «Lüftungs- und Klimaanlagen — Allgemeine Grundlagen und Anforderungen» (2014) zu
+«Mechanische Lüftung in Gebäuden — Grundlagen und Anforderungen» (2025). Der Titelwechsel zeigt es
+deutlich: Die Klima-/Kühlungsfragen wurden aus der 382/1 herausgelöst und in die 380/2 verschoben.
+Ein SIA-Normentwurf (prSIA 382/1:2022-11) bestätigt das wörtlich: «Die Beurteilung der Notwendigkeit
+einer aktiven Kühlung erfolgt mit einer Bedarfsabklärung gemäss SIA 380/2, Ziffer 3.2.» Für Dein
+Projekt heisst das konkret: Solange die Zürcher/Schwyzer Behördenpraxis nicht auf die neue
+Normgeneration revidiert ist, bleibt für die formelle Prüfung SIA 382/1:2014 massgebend. Planst Du
+freiwillig auf einem hohen Qualitätsniveau (Minergie, anspruchsvolle Bauherrschaft) oder mit
+Zielhorizont nach 2025, ist es sachgerecht, direkt die neue Normgeneration (SIA 380/2:2022 +
+SIA 382/1:2025) beizuziehen.
+
+**Quelle + Datenstand:** SIA-Shop-Produktmetadaten SIA 380/2:2022 und SIA 382/1:2025 (shop.sia.ch,
+abgerufen 25.07.2026); SIA-Normentwurf prSIA 382/1:2022-11 (svlw.ch, Vernehmlassungsentwurf ohne
+Rechtsgültigkeit, aber Textstand belegt); espazium-Fachartikel «Neue Normen SIA 380 und SIA 380/2».
+→ `[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]`, `[[sommerlicher-waermeschutz]]`.
+Datenstand 25.07.2026 (neu). Status **emerging** (Systemzuordnung dreifach sekundärquellenbelegt,
+exakter Zifferninhalt SIA 380/2 Ziff. 3.2 kostenpflichtig, nicht eingesehen). ⚠ Nebenbefund: die KB
+`normen` führt SIA 382/1:2014 noch als aktuell/established, obwohl seit 01.02.2025 durch
+SIA 382/1:2025 ersetzt — Korrektur dort ausserhalb des Scopes dieses Energie-Laufs, dem
+normen-Loop zur Nachführung zu übergeben.
+
+### F148 — Gibt es Vergleichskennwerte, wieviel Energie ein Spital überhaupt braucht?
+
+**Kurz:** Es gibt keine Schweizer Kennwerte-Datenbank für Spitäler, aber eine deutsche VDI-
+Richtlinie (VDI 3807 Blatt 2) liefert nach Bettenzahl gestaffelte Vergleichswerte: grob 20'000 bis
+über 37'000 kWh Wärme sowie 2'700 bis 13'600 kWh Strom je Bett und Jahr, steigend mit der
+Spitalgrösse. Diese Zahlen sind deutsche Bestandsdaten von rund 20 Jahren Alter und dienen nur der
+groben Einordnung, nicht als Schweizer Ziel- oder Normwert.
+
+**Fachliche Begründung:** VDI 3807 Bl. 2 teilt Krankenhäuser in fünf Versorgungsstufen
+(Grundversorgung bis 250 Betten, Regelversorgung 251-450, Zentralversorgung 451-650,
+Maximalversorgung 651-1'000, über 1'000 Betten) und weist je Stufe einen Mittelwert (typischer
+Praxisdurchschnitt) und einen Richtwert (Durchschnitt der besser performenden Gebäude,
+Ambitionsniveau) aus. Für ein konkretes Projekt lässt sich damit anhand der geplanten Bettenzahl
+grob abschätzen, in welcher Grössenordnung der Energiebedarf liegen dürfte, wobei der Stromanteil
+bei sehr grossen/hochspezialisierten Häusern (Nuklearmedizin, viele OP-Säle) überproportional zur
+Bettenzahl wächst. Für ein Schweizer Projekt sind die Werte wegen anderer Klimazone, anderer
+energetischer Bauvorschriften (Minergie/MuKEn statt EnEV/GEG) und des Datenalters ausdrücklich nur
+als grobe Ordnungsgrösse zu verwenden, nicht als Zielwert.
+
+**Quelle + Datenstand:** BUND Landesverband Berlin, «Kriterien für das BUND-Gütesiegel Energie
+sparendes Krankenhaus» (2018, Datenstand Mai 2015), zitiert VDI 3807 Bl. 2 Tabelle 10/11;
+coaching-klimaschutz.de, Abschnitt 3.11 (Sekundärquelle, gegenbestätigend). Recherche/Web-Abruf
+25.07.2026; zugrundeliegende VDI-Kennwerte selbst von 2004/2005.
+→ `[[vdi-3807-2-energiekennwerte-krankenhaus]]`, `[[energie-performance-gap-gesundheitsbau]]`,
+`[[sia-2024-nutzungsdaten-gesundheitsbau]]`.
+Datenstand 25.07.2026 (neu). Status **emerging** (zwei sich bestätigende deutsche Sekundärquellen,
+VDI-Primärtext kostenpflichtig, nicht beschafft; DE-Herkunft, nicht 1:1 auf CH übertragbar).
+
+### F149 — Kann ich den Einbau eines Smart Meters in meiner Liegenschaft ablehnen?
+
+**Kurz:** Nein. Das Bundesverwaltungsgericht hat mit Urteil A-484/2024 vom 20.06.2025 explizit
+bestätigt, dass Endverbraucher den Einbau und Betrieb eines intelligenten Messsystems dulden
+müssen, ohne dass ihre Zustimmung erforderlich ist. Eine Verweigerung ist möglich, führt aber nur
+dazu, dass der Netzbetreiber die dadurch entstehenden Mehrkosten der Messung individuell in
+Rechnung stellen darf (Art. 8a ter Abs. 2 StromVV) oder ein ElCom-Verfahren eröffnet, das den
+Einbau verfügungsweise anordnet. Ein «Recht auf Ablehnung ohne Konsequenzen» gibt es nicht.
+
+**Fachliche Begründung:** Das Gericht stellt klar (E. 4.2.2), dass die Kostenfolge-Norm
+(Art. 8a sexies Abs. 7 StromVV, heute nach Umnummerierung Art. 8a decies) kein Wahlrecht des
+Endverbrauchers begründet, sondern nur einen finanziellen Anreiz zur Erhöhung der
+Rollout-Bereitschaft schafft. Auch wenn einzelne Netzbetreiber ihren Kunden den Verzicht aktiv zur
+Wahl stellen, bindet das andere Netzbetreiber nicht. Selbst datenschutzrechtlich (Art. 13 Abs. 2 BV,
+DSG) hält das Gericht die Standard-Datenbearbeitung (15-Minuten-Lastgänge, 5 Jahre Speicherung) für
+verhältnismässig und nicht als Profiling — anders als beim vom Beschwerdeführer angeführten
+Präjudiz zum Wasserzähler (BGE 147 I 346), wo die Datenerhebung ohne erkennbaren Zusatzzweck
+erfolgte. Einzige differenzierte Ausnahme: Verfügt der Smart Meter über eine Fernabschaltfunktion,
+darf der Netzbetreiber sie nur bei akuter Gefährdung des sicheren Netzbetriebs einsetzen, sonst ist
+die Nutzung untersagt (E. 5.2.5 ff.) — das ist ein enger, aber real bestehender Schutz, kein
+Ausbau-Anspruch.
+
+**Quelle + Datenstand:** Bundesverwaltungsgericht, Urteil A-484/2024 (vereinigt mit A-503/2024) vom
+20.06.2025, Abteilung I, insb. E. 4.2.1 f., E. 5.2.5–5.2.7, E. 6.6–6.9 (Primärtext vollständig
+gelesen 25.07.2026, PDF-Spiegel bvger.weblaw.ch). Ergänzend StromVV Art. 8a decies/8a ter Abs. 2
+(Stand 01.01.2026).
+→ `[[smart-meter-rollout-schweiz]]`, `[[zev-eigenverbrauch-mfh-her-2025]]`,
+`[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`.
+Datenstand 25.07.2026 (neu). Status **established** (amtlicher, vollständig gelesener
+Gerichtsentscheid der Fachinstanz).
