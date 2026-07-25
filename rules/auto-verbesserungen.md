@@ -33,6 +33,16 @@ Konzept: `docs/konzepte/260719-Kontext-Diaet-Token-Reduktion/`).
   geladen (180 s) haelt den Runner ab jetzt am Leben, `vollgas-chef-radar`-Beschreibung auf Taktgeber
   zurueckgesetzt. Lehre: eine Vollgas-/Drossel-Umschaltung erst nach Sicht-Verifikation (STOP weg +
   Runner-PID + frische Log-Zeile) als vollzogen dokumentieren, nie allein aus dem geschriebenen Eintrag.
+- **Nachtrag 25.07.2026 12:50 (Loop-Takte entdrosselt):** Der 12:45-Nachtrag deckte nur Runner/STOP/
+  Radar; die sechs als eigene Scheduled Tasks laufenden Lern-Loops standen noch auf «GEDROSSELT 1x/Nacht».
+  Auf dieselbe Anweisung Raphaels auf Intensivtakt gehoben (`update_scheduled_task`, 2x taeglich Tag+Nacht
+  gestaffelt): `normen-training-nacht` (01:20/13:20), `twin-mail-training` (03:35/15:35), `twin-fidelity-review`
+  (05:40/17:40), `spec-training` (04:10/16:10), `wettbewerbs-dna-training` (02:20/14:20), `wissens-chef`
+  (11:10/23:10); `vollgas-chef-radar` von 4x auf **alle 3h** verdichtet (fuengt jeden 5h-Reset zuegiger auf).
+  BEWUSST NICHT hochgetaktet: `immobewertung-training` (KB saturiert, zehnter Delta-Null-Lauf in Folge —
+  Hochtakten waere Token-Verschwendung) und `baurecht-buch-training` (Festigungsmodus woechentlich, eigener
+  Entscheid Raphael 17.07.). Die sechs bleiben aus `EXCLUDE_RE` des Runners ausgeschlossen → kein
+  Doppellauf Runner↔Task (Run-33-Lektion). Wiederdrosselung am 10.08. via `token-drosselung-100810`.
 - **Gilt fuer:** beide Stationen, alle Lern-/Trainings-Loops; ergaenzt/ueberholt den Drossel-Bullet
   im Takt-Eintrag 260714.
 
