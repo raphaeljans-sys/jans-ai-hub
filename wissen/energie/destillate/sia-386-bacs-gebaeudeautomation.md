@@ -1,151 +1,217 @@
 ---
-quelle: "SIA 386.110 'Energieeffizienz von Gebäuden – Einfluss von Gebäudeautomation und Gebäudemanagement' (SIA-Übernahme von SN EN 15232 bzw. neu SN EN ISO 52120-1); MuKEn 2025 Art. 1.23 (Sekundärquellen); EN-ZH/EVEN Formular EN-141"
-herausgeber: "SIA (Norm, kostenpflichtig); SNV/SNV-Connect (SN EN ISO 52120-1:2022); EnDK (MuKEn 2025); Baudirektion Kt. ZH/AWEL (EN-141); Kieback&Peter, tga-fachplaner.de (Fachartikel Sekundärquellen)"
-ausgabe: "SIA 386.110 Ausgabe 2012 (gültig 2012–2017, seither ohne bestätigte SIA-Nachfolgeausgabe recherchiert) auf Basis SN EN 15232:2007/2012; internationale Nachfolgenorm SN EN ISO 52120-1:2022 'Energy efficiency of buildings — Influence of building automation and building management — Part 1'; MuKEn 2025 verabschiedet EnDK August 2025"
-gelesen: "shop.sia.ch (Produktseite 386.110, Metadaten/Preise/Gültigkeitsdaten), connect.snv.ch (SN EN ISO 52120-1:2022 Titelseite), tga-fachplaner.de EN-15232-Fachartikel, gebaeude-automation.com/Kieback&Peter Blogpost 07.11.2024, tab.de Artikel 1-2/2022 (EPBD-Pflicht), diverse Websuche-Snippets zu MuKEn-2025-Vernehmlassungsdokumenten (energiestiftung.ch, energie-wende-ja.com) — WICHTIG: PDF-Volltexte von SIA-Shop, SIA-Norm selbst, MuKEn-2025-Basismodul-PDF und Minergie-Anwendungshilfe 2025 liessen sich technisch NICHT im Volltext extrahieren (Fetch-Fehler/komprimierte PDFs); Aussagen zu Art. 1.23 MuKEn 2025 stammen aus Suchmaschinen-Snippets Dritter, nicht aus dem verifizierten Originaltext (2026-07-25)"
-datenstand: "2026-07-25; SIA-386.110-Ausgabe/Gültigkeit Stand SIA-Shop-Abfrage 2026-07-25; MuKEn-2025-Wortlaut NICHT am Original verifiziert"
-status: emerging
+quelle: "SIA 386.111:2022 'Energieeffizienz von Gebäuden – Teil 1: Einfluss von Gebäudeautomation und Gebäudemanagement' (SIA-Übernahme von SN EN ISO 52120-1:2021, korrigierte Fassung 2022-09; Nachfolgenorm der Reihe SIA 386.110 → SIA 386.111:2017 → SIA 386.111:2022); MuKEn 2025 Art. D.1.23 'Monitoring/Gebäudeautomation' (Basismodul, Teil D); Minergie-Vergleichstabelle 'Minergie im Kontext der MuKEn 2025' (Stand 01.01.2026); BAFU-gehostete TU-Dresden-Kurzstudie Felsmann 2017 zu EN-15232-Effizienzfaktoren; eu.bac-Kostenstudie 2024 (EU-Verband)"
+herausgeber: "SIA (Norm kostenpflichtig, Metadaten amtlich via shop.sia.ch); EnDK (MuKEn 2025); Verein Minergie (offizielle PDF-Vergleichstabelle minergie.ch); BAFU/TU Dresden Institut für Energietechnik, Prof. Clemens Felsmann (Kurzstudie, gehostet auf bafu.admin.ch); eu.bac European Building Automation and Controls Association (Kostenstudie 2024, EU-Durchschnitt, zitiert Fallstudie Albesiano et al.)"
+ausgabe: "SIA 386.111 Ausgabe 2022, gültig ab 01.09.2022 (Vorgänger SIA 386.111:2017 archiviert seit 31.08.2022, davor SIA 386.110:2012 archiviert seit 30.11.2017, SIA 386.110:2007 noch älter); Bezugsnorm SN EN ISO 52120-1:2021 (korr. 2022-09); MuKEn 2025 verabschiedet EnDK 29.08.2025; Minergie-Vergleichstabelle Stand 01.01.2026"
+gelesen: "shop.sia.ch Produktseiten SIA 386.110/2007, SIA 386.110/2012, SIA 386.111 (amtliche Normmetadaten, Ausgabejahre, Gültig-ab-/Archiviert-seit-Daten, Preise, Nachfolgeregelung – 2026-07-25); energiehub-gebaeude.ch (MuKEn-2025-Fachportal, Art.-1.23-Zusammenfassung); minergie.ch/media/minergie_im_kontext_der_muken_2025.pdf (offizielle Minergie-PDF-Vergleichstabelle Minergie V2026.1 vs. MuKEn 2025, Stand 01.01.2026, per curl+pdftotext im Volltext gelesen); bafu.admin.ch/dam/it/sd-web/yzkzzz7aRAt3/Bewertung-effizienter-Regelung-in-Gebaeuden.pdf (TU-Dresden-Kurzstudie Felsmann, 15.03.2017, per curl+pdftotext im Volltext gelesen, inkl. Tabelle 1 'Desaggregieren der Effizienzfaktoren gemäss EN 15232'); eubac.org 2024-eu.bac-Studie 'Building Automation and Control Systems Impact on EPC Classes in Europe' (per curl+pdftotext im Volltext gelesen); minergie.ch/media/reglement_modul_monitoring-v2025.1.pdf und modul_raumkomfort_v1.4.0.pdf (per WebFetch geprüft, keine Automations-/BACS-Treffer); mega-planer.ch/aktuelles/normierungen (CH-Fachverband Gebäudeautomationsplaner, Normliste); Minergie-Anwendungshilfe 2025-2 (per WebFetch geprüft, keine Automations-Treffer im extrahierbaren Text)"
+datenstand: "2026-07-25 (Run 106, energie-training); SIA-Normstatus per shop.sia.ch-Abfrage 2026-07-25 amtlich verifiziert; MuKEn-2025-Art.-D.1.23-Inhalt aus zwei unabhängig konvergierenden Quellen (offizielle Minergie-Vergleichstabelle + Fachportal energiehub-gebaeude.ch), NICHT am EnDK-Originaltext selbst verbatim verifiziert (EnDK-Basismodul-PDF technisch nicht auffindbar/zugänglich); EN-15232-Effizienzfaktoren primärquellennah für Wohngebäude belegt (BAFU-Studie), Nichtwohngebäude-Tabelle weiterhin nicht belegt; CH-spezifische Investitionskosten weiterhin nicht belegt (nur EU-Durchschnittszahl aus eu.bac-Studie)"
+status: established
 last_updated: "2026-07-25"
 ---
 
 # Destillat — SIA 386 / BACS-Effizienzklassen: Gebäudeautomation im Energienachweis
 
 ## Das Wichtigste in 1 Satz
-Die BACS-Effizienzklassen A–D (Building Automation and Control Systems, in der Schweiz über
-**SIA 386.110** bzw. neu **SN EN ISO 52120-1:2022** normiert) bewerten, wie stark Gebäudeautomation
-den Energiebedarf eines Gebäudes senkt — Klasse D steht für keine/manuelle Steuerung, Klasse A für
-hochintegrierte, vernetzte Systeme mit den grössten Einsparungen; in der Schweiz greift die Pflicht
-zu Automation heute vor allem **funktional über MuKEn/kantonale Formulare** (Monitoring-Pflicht ab
-Schwellenwert), **nicht** als explizit vorgeschriebene BACS-Klasse.
+Die BACS-Effizienzklassen A–D (Building Automation and Control Systems) bewerten, wie stark
+Gebäudeautomation den Energiebedarf eines Gebäudes senkt (Klasse C = Referenz, A = beste
+Einsparung, D = ineffizient); in der Schweiz normiert heute **SIA 386.111:2022** (Übernahme von
+**SN EN ISO 52120-1:2021**) dieses Verfahren, während die Pflicht zu Automation in der Praxis
+funktional über **MuKEn 2025 Art. D.1.23** (Monitoring-Pflicht ab 2'000 m² EBF bei
+Nichtwohn-Neubauten) und nicht über eine vorgeschriebene BACS-Klasse greift; **Minergie verlangt
+explizit keine Gebäudeautomation** (nur ein eigenes, tiefer schwellendes Monitoring-Modul).
+
+## Wichtige Korrektur gegenüber dem ersten Entwurf (Run 105)
+Der bisherige Arbeitstitel dieses Destillats («SIA 386.110») bezeichnet die **veraltete** Norm-
+Vorstufe. Amtlich verifiziert über die SIA-Shop-Produktseiten (shop.sia.ch, 2026-07-25):
+
+| Ausgabe | Status | Bezugsnorm | Preis |
+|---|---|---|---|
+| SIA 386.110:2007 | archiviert | SN EN 15232 | CHF 112.– |
+| SIA 386.110:2012 (gültig ab 01.04.2012) | **archiviert seit 30.11.2017**, abgelöst durch SIA 386.111 | SN EN 15232 | CHF 136.– |
+| SIA 386.111:2017 | **archiviert seit 31.08.2022** | SN EN 15232-1 (Module M10-4 bis M10-10) | – |
+| **SIA 386.111:2022 (gültig ab 01.09.2022, aktuell)** | **gültig** | **SN EN ISO 52120-1:2021, korr. 2022-09** | **CHF 144.–** |
+
+Vollständiger aktueller Titel: «Energieeffizienz von Gebäuden – Teil 1: Einfluss von
+Gebäudeautomation und Gebäudemanagement (ISO 52120-1:2021, korrigierte Fassung 2022-09)»,
+A4, broschiert, 118 Seiten (Quelle: shop.sia.ch, Produktseite SIA 386.111, D, 2026-07-25).
+**Für JANS-Erzeugnisse ab sofort SIA 386.111:2022 zitieren, nicht mehr SIA 386.110.**
 
 ## Einordnung: warum diese Norm existiert
-SIA 386.110 übernimmt die europäische Norm zur Gebäudeautomation (ursprünglich **SN EN 15232**,
-seit 2021/2022 abgelöst durch **SN EN ISO 52120-1**) ins Schweizer Normenwerk. Sie liefert zwei
-Berechnungsmethoden, um den Einfluss von Gebäudeautomation und Gebäudemanagement auf die
-Energieeffizienz eines Gebäudes abzuschätzen: eine **einfache Faktoren-Methode** (Multiplikator auf
-den Energiebedarf, abhängig von der BACS-Klasse) und ein **detailliertes Verfahren**, das die genau
-geplanten Automationsfunktionen einzeln bewertet (Quelle: tga-fachplaner.de, Fachartikel zu EN 15232,
-undatiert abgerufen 2026-07-25 — Sekundärquelle, Norm selbst kostenpflichtig/nicht im Volltext
-zugänglich).
+SIA 386.111 übernimmt die europäische Norm zur Gebäudeautomation ins Schweizer Normenwerk.
+Die heutige Fassung basiert auf der ISO-52120-Reihe (Nachfolgerin von EN 15232) und liefert wie
+ihre Vorgängerin zwei Berechnungsmethoden, um den Einfluss von Gebäudeautomation und
+Gebäudemanagement auf die Energieeffizienz abzuschätzen: eine **einfache Faktoren-Methode**
+(Multiplikator auf den Energiebedarf, abhängig von der BACS-Klasse) und ein **detailliertes
+Verfahren**, das die geplanten Automationsfunktionen einzeln bewertet.
 
-**Norm kostenpflichtig — hier nur Sekundärquelle/Metadaten.** Der volle Normtext von SIA 386.110
-liegt nicht frei zugänglich vor (SIA-Shop: CHF 112.– Ausgabe 2007, CHF 136.– Ausgabe 2012, beide als
-„archiviert" markiert — die 2012er-Ausgabe war laut Shop-Metadaten nur bis 30.11.2017 gültig). Ob SIA
-386.110 zwischenzeitlich auf Basis von SN EN ISO 52120-1:2022 neu aufgelegt wurde, liess sich in
-dieser Recherche **nicht abschliessend verifizieren** — offener Punkt unten.
+**Normtext weiterhin kostenpflichtig (CHF 144.–), hier nur Metadaten + externe Sekundärstudie
+zu den Vorgänger-Effizienzfaktoren.** Die exakten Faktorentabellen der aktuellen Ausgabe
+SIA 386.111:2022 / ISO 52120-1:2021 liegen weiterhin nicht frei zugänglich vor.
 
 ## Die vier BACS-Klassen A–D (Kernbegriffe)
 
-| Klasse | Charakterisierung | Typische Funktionen (Sekundärquellen-Konsens) | Einsparpotenzial ggü. Referenz |
-|---|---|---|---|
-| **D** | Nicht energieeffizient | Keine/minimale Automation, rein manuelle Steuerung, keine Zeitprogramme, keine Sensorik | Referenz „schlechtester Fall" — kein Effizienzgewinn |
-| **C** | Standard-Automation | Zeitgesteuerte Heizung/Lüftung/Beleuchtung nach starrem Zeitplan, keine Echtzeit-Anpassung; **dient in SIA 386.110 als Referenzklasse (Faktor = 1)** | ca. 10 % (unbelegte Grössenordnung aus Sekundärquelle, als Richtwert, nicht Normzahl) |
-| **B** | Fortgeschrittene Automation | Einzelraumregelung Heizung/Kühlung, bedarfsgeführte/präsenzabhängige Lüftung und Beleuchtung, zentrale Überwachung mit Trenderfassung | ca. 20 % (Richtwert, Sekundärquelle) |
-| **A** | Hocheffiziente/integrierte Automation | Vollintegrierte, vernetzte Systeme: automatische Bedarfserfassung je Raum, Vernetzung mit optimierten Erzeugeranlagen, technisches Gebäudemonitoring (Energie-Monitoring), teils wettervorhersagebasierte/cloudgestützte Optimierung, regelmässige Wartung/Betriebsoptimierung eingebunden | bis ca. 20–40 % (Bandbreite je nach Quelle stark schwankend — s. Offene Punkte) |
+| Klasse | Charakterisierung | Typische Funktionen (Sekundärquellen-Konsens) |
+|---|---|---|
+| **D** | Nicht energieeffizient | Keine/minimale Automation, rein manuelle Steuerung, keine Zeitprogramme, keine Sensorik |
+| **C** | Standard-Automation, **Referenzklasse (Faktor = 1)** | Zeitgesteuerte Heizung/Lüftung/Beleuchtung nach starrem Zeitplan, keine Echtzeit-Anpassung |
+| **B** | Fortgeschrittene Automation | Einzelraumregelung Heizung/Kühlung, bedarfsgeführte/präsenzabhängige Lüftung und Beleuchtung, zentrale Überwachung mit Trenderfassung |
+| **A** | Hocheffiziente/integrierte Automation | Vollintegrierte, vernetzte Systeme: automatische Bedarfserfassung je Raum, Vernetzung mit optimierten Erzeugeranlagen, technisches Gebäudemonitoring |
 
-**Wichtige Präzisierung zur Faktorlogik (SIA 386.110):** In der Norm haben die Faktoren für Klasse C
-den Wert **1** (Referenz), jene für Klasse D sind **grösser als 1** (verschlechtern den rechnerischen
-Bedarf), jene für die Klassen A und B sind **kleiner als 1** (verbessern ihn) — Klasse D entspricht
-also nicht-energieeffizienter Gebäudeautomation, nicht deren völligem Fehlen im Sinne „kein System
-vorhanden" (Quelle: bleikerpartner.ch-PDF-Metadaten/Sekundärhinweis, tga-fachplaner.de). Die konkreten
-Zahlenfaktoren je Gebäudekategorie und Klasse liessen sich aus den frei zugänglichen Quellen NICHT
-verifizieren (Normtext kostenpflichtig) — **keine Faktorzahlen erfunden, hier bewusst nicht gesetzt.**
+**Faktorlogik:** Klasse C = 1 (Referenz), Klasse D > 1 (verschlechtert den rechnerischen Bedarf),
+Klassen A und B < 1 (verbessern ihn) — Klasse D entspricht ineffizienter Automation, nicht deren
+völligem Fehlen.
 
-Die **Einsparprozentsätze in der Tabelle sind Richtwerte aus Sekundärquellen** (Fachartikel/Hersteller-
-Blogs), **keine Normzahlen** — sie schwanken je nach Quelle merklich (eine Quelle nennt für Klasse A
-„bis 40 %", eine andere „20–30 % ggü. Klasse C"). Für eine belastbare, projektspezifische Aussage ist
-die Normrechnung nach SIA 386.110/SN EN ISO 52120-1 nötig, keine pauschale Prozentzahl.
+### Erstmals primärquellennah belegte Effizienzfaktoren (Wohngebäude, EN 15232 Tabelle 10/12)
+Die BAFU-gehostete TU-Dresden-Kurzstudie (C. Felsmann, «Bewertung effizienter Regelung in
+Gebäuden – Kurzstudie zur Bestimmung desaggregierter Effizienzfaktoren in Anlehnung an EN
+15232», Dresden 15.03.2017, bafu.admin.ch) zitiert die **konkreten GA-Gesamteffizienzfaktoren
+der EN 15232** (Vorgängernorm der heutigen SIA 386.111/ISO 52120-1) — «Tabelle 1: Desaggregieren
+der Effizienzfaktoren gemäss EN 15232», hier für **Wohngebäude**:
+
+| Bereich | Klasse C | Klasse B | Klasse A | Einsparung C→A |
+|---|---|---|---|---|
+| Raumheizung (Funktionen 1.1–1.5, Tabelle 10 EN 15232) | 1,00 | 0,88 | 0,81 | 19 % |
+| Trinkwassererwärmung (Funktionen 2.2–2.4, Tabelle 12 EN 15232) | 1,00 | 0,90 | 0,80 | 20 % |
+
+Zusatzangaben aus derselben Studie: Der Wechsel von Klasse C auf B erreicht bei der Raumheizung
+**63,2 %** der maximal möglichen Einsparung (C→A), bei der Trinkwassererwärmung **50 %**.
+**Wichtige Einschränkung:** Diese Zahlen stammen aus der **EN 15232** (Vorgängernorm, Basis der
+archivierten SIA 386.110/386.111:2017) für den **Wohngebäude**-Fall Raumheizung/Warmwasser.
+Die entsprechende **Nichtwohngebäude-Tabelle** (Büro/Schule/Hotel je BACS-Klasse) konnte in
+dieser Recherche **nicht aus einer belastbaren Quelle verifiziert** werden — kursierende Zahlen
+aus Web-Suchsnippets (z.B. «Klasse A 0,70/0,80/0,68» für Büro/Schule/Hotel) sind **nicht
+primärquellennah belegt und werden hier bewusst nicht übernommen**. Ob die aktuelle
+ISO-52120-1:2021-Fassung dieselben Faktoren wie EN 15232 verwendet oder sie revidiert hat,
+ist ebenfalls offen (SIA 386.111:2022 selbst nicht im Volltext zugänglich).
 
 ## Schweizer Praxisbezug: wo BACS/Gebäudeautomation heute konkret verlangt wird
 
-1. **MuKEn 2025, Art. 1.23 „Gebäudeautomation" (Basismodul, Stufe Verordnung V) — NICHT am
-   Originaltext verifiziert, nur aus Sekundärquellen:** Neubauten der SIA-380/1-Gebäudekategorien
-   III–XII (Nichtwohnbauten) ab **2'000 m² Energiebezugsfläche (EBF)** sollen mit Gebäudeautomation
-   ausgerüstet werden, die mindestens **Monitoring-Funktionen** erbringt (u.a. Erfassung der
-   Energieverbrauchsdaten getrennt nach Hauptenergieträger, Ermittlung von Energieeffizienz-
-   Kennzahlen für Wärmepumpen/Kältemaschinen und für Wärmerückgewinnungs-/Abwärmenutzungsanlagen).
-   Diese Regel ist inhaltlich bereits aus **MuKEn 2014** bekannt und wird in MuKEn 2025 fortgeführt.
-   **Eine explizite BACS-Effizienzklasse (A/B/C/D) wird in den gefundenen Sekundärquellen NICHT
-   genannt** — die Pflicht ist funktional (bestimmte Monitoring-Funktionen), nicht klassenbasiert.
-2. **Kt. Zürich, Energienachweis EN-141 „Gebäudeautomation"** (Teil der „Speziellen Bauten" im
+1. **MuKEn 2025, Basismodul Teil D, Art. D.1.23 «Monitoring/Gebäudeautomation»** — aus zwei
+   unabhängigen, konvergierenden Quellen bestätigt (energiehub-gebaeude.ch-Fachportal UND die
+   offizielle Minergie-Vergleichstabelle «Minergie im Kontext der MuKEn 2025», Stand 01.01.2026,
+   minergie.ch, im Volltext gelesen): Neubauten der SIA-380/1-Gebäudekategorien **III–XII**
+   (Nichtwohnbauten) ab **2'000 m² Energiebezugsfläche (EBF)** sind mit Gebäudeautomation
+   auszurüsten, die mindestens **Monitoring-Funktionen** erbringt:
+   a) Erfassung der Energieverbrauchsdaten getrennt nach Hauptenergieträger,
+   b) Effizienzkennzahlen für Wärmepumpen/Kältemaschinen,
+   c) Erfassung der Betriebszeiten der Hauptkomponenten,
+   d) Monitoring von Vor-/Rücklauf- und Raumlufttemperaturen,
+   e) benutzerfreundliche Darstellung der Daten (Jahr/Monat/Tag),
+   f) Vergleichsmöglichkeiten mit Vorperioden.
+   Bei Erneuerungen macht MuKEn 2025 **keine Vorgaben** zu Art. D.1.23 (Quelle: Minergie-
+   Vergleichstabelle, Zeile «MuKEn 2025 Erneuerung: Keine Vorgaben»). **Weiterhin bestätigt:
+   keine explizite BACS-Effizienzklasse (A/B/C/D) wird in Art. D.1.23 genannt** — die Pflicht
+   ist funktional (bestimmte Monitoring-Funktionen «Stand der Technik»), nicht klassenbasiert.
+   **Einschränkung:** Der EnDK-Originaltext des Basismoduls selbst war technisch nicht
+   auffindbar/zugänglich; die Fundstelle beruht auf zwei unabhängigen Sekundärquellen, die im
+   Wortlaut übereinstimmen, nicht auf einer verbatim-Lektüre des amtlichen PDF.
+
+2. **Minergie: explizit KEINE Gebäudeautomations-Pflicht, kein Automations-«Bonus».** Die
+   offizielle Minergie-Vergleichstabelle (minergie.ch/media/minergie_im_kontext_der_muken_2025.pdf,
+   Stand 01.01.2026, Zeile «D 1.23 Monitoring/Gebäudeautomation») stellt Minergie V2026.1 der
+   MuKEn 2025 direkt gegenüber:
+   - **Minergie Neubau:** «Monitoring für Gebäudekategorien ab 1'000 m², bei Minergie-A für alle
+     Projekte, **keine GA**» — die Monitoring-Schwelle ist mit 1'000 m² **tiefer** als die
+     MuKEn-Schwelle (2'000 m²), bei Minergie-A gilt sie unabhängig von der Fläche für **alle**
+     Projekte; explizit **keine** Gebäudeautomations-(GA-)Pflicht und damit kein BACS-Klassen-
+     Bonus.
+   - **Minergie Erneuerung:** «Pflicht ab 1'000 m² bei wesentlichen Eingriffen in Gebäudetechnik
+     (**keine GA**)».
+   Damit ist die frühere offene Frage «gibt es einen Minergie-Automations-Bonus» primärquellen-
+   belegt **verneint**: Minergie regelt ein eigenständiges, strengeres Monitoring-Modul, aber
+   keinen Bonus über die BACS-Klassifizierung A–D. Ergänzend geprüft (keine Treffer im
+   extrahierbaren Text): Minergie-Anwendungshilfe 2025-2, Reglement Minergie-Modul Monitoring
+   v2025.1, Reglement Minergie-Modul Raumkomfort v1.4.0.
+
+3. **Kt. Zürich, Energienachweis EN-141 «Gebäudeautomation»** (Teil der «Speziellen Bauten» im
    EN-ZH-/EVEN-Formularkatalog, vgl. `[[en-zh-nachweis-uebersicht]]` und `[[private-kontrolle-zh]]`):
    ein eigenständiges Nachweisformular existiert — Inhalt/Schwelle des Formulars selbst wurde in
-   dieser Recherche nicht im Detail geöffnet (liegt als PDF im Projektordner `PL - 04 Energie`, nicht
-   web-recherchiert); vermutlich deckungsgleich mit der MuKEn-Monitoring-Pflicht.
-3. **Betriebsoptimierung HLKKSE (§ 13d EnerG ZH, MuKEn Modul 7)** — bereits vertieft in
-   `[[muken-2025-modul-7-betriebsoptimierung-hlkkse]]`: Gebäudeautomation ist dort explizit eines der
-   Gewerke (HLKKSE **+ Gebäudeautomation**), für die ab 200'000 kWh Stromverbrauch/Jahr die
-   dreijährliche Erstoptimierung + 10-jährige Dokumentationspflicht gilt. Funktionierende BACS ist
-   damit indirekt Voraussetzung, um die Betriebsoptimierung überhaupt nachweisbar zu erbringen.
-4. **EU-Kontext (nicht direkt CH-Recht, aber Vorbild-/Vergleichsdruck):** Die EU-Gebäuderichtlinie
-   EPBD verlangt für grosse Nichtwohnbauten ab einer bestimmten Anlagenleistung Gebäudeautomation
-   mindestens der **Klasse B** (Quelle: Websuche-Konsens mehrerer deutscher Fachportale, Stand
-   Artikel tab.de 1-2/2022 — dort selbst noch ohne Klassenangabe, spätere Umsetzungsvorschriften in
-   D/AT konkretisieren dies). Für die Schweiz gilt das nicht direkt, ist aber ein Hinweis auf die
-   europäische Zielrichtung, an der sich SIA/MuKEn perspektivisch orientieren dürften.
-5. **SIA 380/1 / Behaglichkeitsblatt (bereits in `[[behaglichkeit-raumklima-kbob-ipb]]` notiert):**
-   SIA 386.110 wird dort als eine der Grundlagen für den Heizwärmebedarfs-/Raumklima-Nachweis
-   aufgeführt — die Automationsklasse fliesst als Reduktionsfaktor in die rechnerische
-   Bedarfsermittlung ein (Mechanismus bestätigt, exakte Formel/Faktoren nicht verifiziert, s.o.).
-6. **Minergie:** In der öffentlich zugänglichen Minergie-Anwendungshilfe 2025 (Version 2025-2) liess
-   sich **kein expliziter BACS-Bonus/keine explizite BACS-Anforderung** im extrahierbaren Text finden
-   — offener Punkt, siehe unten. Es ist plausibel, dass Minergie über die SIA-380/1-Kopplung
-   automationsbedingte Reduktionsfaktoren indirekt mit übernimmt, aber ein eigenständiger,
-   ausgewiesener „Automations-Bonus" ist nicht belegt.
+   dieser Recherche weiterhin nicht im Detail geöffnet (liegt als PDF im Projektordner
+   `PL - 04 Energie`, nicht web-recherchiert); plausibel deckungsgleich mit der MuKEn-Art.-D.1.23-
+   Monitoring-Pflicht.
 
-## Investitionskosten — offen, keine belastbare CH-Zahl gefunden
-Es wurde **keine belastbare, quellenfeste CHF-Zahl** für die Mehrkosten einer besseren BACS-Klasse
-(z.B. Klasse B statt C) bei einem typischen MFH oder Gewerbebau in der Schweiz gefunden. Eine
-Nicht-Fachquelle nannte eine grobe Gesamt-Investitionsspanne für Gebäudeautomation von rund
-**CHF 80–250 pro m² beheizter Nutzfläche bei Zweckbauten** — diese Quelle ist **nicht normnah/nicht
-verifiziert** (kein SIA-/BFE-/Herstellerdokument, sondern ein allgemeiner Web-Beitrag) und wird hier
-**bewusst nicht als belastbarer Kennwert übernommen**, sondern nur als unbelegte Grössenordnung
-vermerkt. Für eine Bauherren-taugliche Aussage müsste ein HLK-/Elektroplaner oder ein
-GA-Fachplaner-Kostenkennwert (z.B. aus einem realen JANS-Projekt) herangezogen werden.
+4. **Betriebsoptimierung HLKKSE (§ 13d EnerG ZH, MuKEn Modul 7)** — bereits vertieft in
+   `[[muken-2025-modul-7-betriebsoptimierung-hlkkse]]`: Gebäudeautomation ist dort explizit eines
+   der Gewerke (HLKKSE **+ Gebäudeautomation**), für die ab 200'000 kWh Stromverbrauch/Jahr die
+   dreijährliche Erstoptimierung + 10-jährige Dokumentationspflicht gilt (auch von der Minergie-
+   Vergleichstabelle bestätigt: Zeile «M7 Betriebsoptimierung» identisch 200'000 kWh/a für MuKEn
+   und Minergie-Betrieb). Funktionierende BACS ist damit indirekt Voraussetzung, um die
+   Betriebsoptimierung überhaupt nachweisbar zu erbringen.
+
+5. **EU-Kontext (nicht direkt CH-Recht, Vergleichsdruck):** Die EU-Gebäuderichtlinie EPBD verlangt
+   für grosse Nichtwohnbauten ab einer bestimmten Anlagenleistung Gebäudeautomation mindestens
+   der Klasse B (Websuche-Konsens deutscher Fachportale, nicht amtlich verifiziert für die
+   Schweiz). Für die Schweiz gilt das nicht direkt.
+
+6. **SIA 380/1 / Behaglichkeitsblatt** (bereits in `[[behaglichkeit-raumklima-kbob-ipb]]` notiert):
+   SIA 386.111 wird dort als Grundlage für den Heizwärmebedarfs-/Raumklima-Nachweis aufgeführt
+   (Backlink-Artikel nennt noch die alte Norm-Bezeichnung 386.110:2012 — dort bei Gelegenheit auf
+   386.111:2022 nachführen).
+
+## Investitionskosten — weiterhin keine belastbare CH-Zahl, aber jetzt eine seriöse EU-Referenz
+Es wurde weiterhin **keine belastbare, quellenfeste CHF-Zahl** für die Mehrkosten einer besseren
+BACS-Klasse (z.B. Klasse B statt C) bei einem typischen Schweizer MFH oder Gewerbebau gefunden.
+Neu gefunden, aber **explizit nicht CH-spezifisch**: Die eu.bac-Studie 2024 («Building Automation
+and Control Systems Impact on EPC Classes in Europe», European Building Automation and Controls
+Association, eubac.org, im Volltext gelesen) zitiert für eine **110 m² grosse Wohnung** (Fallstudie
+Albesiano et al., italienischer Kontext, EU-Durchschnittswerte) folgende Grössenordnungen:
+- **BACS Klasse B:** rund **EUR 1'400** Investition (≈ 13 EUR/m²), 20 % Energieeinsparung,
+  Amortisation ≈ 3 Jahre (PBT 2,9 Jahre), ROI ≈ 376 % über 10 Jahre Lebensdauer.
+- **BACS Klasse A:** rund **EUR 2'850** Investition (≈ 26 EUR/m²), 26 % Energieeinsparung,
+  Amortisation ≈ 4 Jahre (PBT 3,9 Jahre), ROI ≈ 204 % über 10 Jahre.
+- Reine Heiz-/Kühl-Automation allein: rund **EUR 10/m²**; für die volle BACS-Klasse A (inkl.
+  Licht, Lüftung, BMS) macht Heiz-/Kühl-Automation nur rund **10 %** der Gesamtinvestition aus.
+
+**Diese Zahlen sind ein EU-Durchschnitt/eine Einzel-Fallstudie (Wohnung, Italien), keine
+Schweizer Marktzahl und kein Gewerbe-/Healthcare-Massstab (JANS-Fokus).** Für eine Bauherren-
+taugliche CH-Aussage müsste weiterhin ein HLK-/Elektroplaner oder ein GA-Fachplaner-Kostenkennwert
+aus einem realen JANS-Projekt herangezogen werden — **bewusst nicht als CH-Kennwert übernommen.**
 
 ## Bauherren-Transfer
-1. **„Muss ich für mein Projekt eine bestimmte BACS-Klasse nachweisen?"** — In der Schweiz gibt es
-   heute (Stand 2026-07-25, unverifizierter MuKEn-2025-Stand) **keine belegte Pflicht zu einer
-   bestimmten BACS-Klasse A/B/C/D**. Verlangt wird stattdessen ab **2'000 m² EBF bei
-   Nichtwohn-Neubauten** eine Gebäudeautomation mit bestimmten **Monitoring-Funktionen**
-   (Energieverbrauch je Hauptenergieträger, Effizienzkennzahlen Wärmepumpe/Kältemaschine,
-   Wärmerückgewinnung). Das ist funktional näher an „BACS-Klasse B/A-Fähigkeiten" als an Klasse C,
-   aber die Norm selbst benennt keine Klasse.
-2. **„Lohnt sich eine bessere BACS-Klasse finanziell?"** — Die Normlogik (SIA 386.110 / SN EN ISO
-   52120-1) ist darauf ausgelegt, genau diese Frage rechnerisch zu beantworten: Klasse C ist die
-   neutrale Referenz, A/B rechnen sich rechnerisch besser, D schlechter. Eine pauschale CHF-Antwort
-   kann JANS aktuell **nicht belegt** geben — das müsste projektspezifisch mit dem HLK-/Elektroplaner
-   durchgerechnet werden.
-3. **„Wo taucht Gebäudeautomation in meinem Energienachweis auf?"** — Im Kt. ZH über das eigene
+1. **«Muss ich für mein Projekt eine bestimmte BACS-Klasse nachweisen?»** — In der Schweiz gibt es
+   heute **keine belegte Pflicht zu einer bestimmten BACS-Klasse A/B/C/D**. Verlangt wird
+   stattdessen ab **2'000 m² EBF bei Nichtwohn-Neubauten** (MuKEn 2025 Art. D.1.23) eine
+   Gebäudeautomation mit bestimmten Monitoring-Funktionen (a–f, siehe oben). Bei Minergie-Zertifi-
+   zierung greift zusätzlich das eigene, tiefer schwellende Minergie-Monitoring-Modul (ab
+   1'000 m², bei Minergie-A immer) — auch dort **keine** BACS-Klassenpflicht.
+2. **«Lohnt sich eine bessere BACS-Klasse finanziell?»** — Die Normlogik (SIA 386.111 / SN EN ISO
+   52120-1, methodisch identisch zur Vorgängernorm EN 15232) ist darauf ausgelegt, genau diese
+   Frage rechnerisch zu beantworten: Klasse C ist die neutrale Referenz, A/B rechnen sich
+   rechnerisch besser, D schlechter. Für Wohngebäude zeigt die dokumentierte EN-15232-Rechnung
+   rund **19 % Heizenergie-Einsparung** und **20 % Warmwasser-Einsparung** beim Wechsel C→A (siehe
+   Tabelle oben) — als Grössenordnung, nicht als verbindliche SIA-386.111-Zahl. Eine belastbare
+   CHF-Antwort für die Schweiz kann JANS weiterhin **nicht** pauschal geben — projektspezifisch
+   mit dem HLK-/Elektroplaner durchzurechnen.
+3. **«Wo taucht Gebäudeautomation in meinem Energienachweis auf?»** — Im Kt. ZH über das eigene
    EN-141-Formular (Teil des EN-ZH-/EVEN-Formularsatzes) sowie indirekt über die
-   Betriebsoptimierungspflicht (HLKKSE + GA) ab 200'000 kWh Stromverbrauch/Jahr — relevant für die
-   meisten mittelgrossen/grossen Nichtwohnbauten (Pflegeheime, Kliniken, grössere Gewerbebauten).
+   Betriebsoptimierungspflicht (HLKKSE + GA) ab 200'000 kWh Stromverbrauch/Jahr.
 4. **Einordnung für Healthcare-/Gewerbeprojekte (JANS-Fokus):** Ein Pflegeheim/Spital ab rund
-   3'000–7'000 m² EBF überschreitet ohnehin regelmässig die 200'000-kWh-Schwelle für die
-   Betriebsoptimierung (vgl. `[[muken-2025-modul-7-betriebsoptimierung-hlkkse]]`) — damit ist eine
-   funktionierende Gebäudeautomation mit Monitoring faktisch Voraussetzung, unabhängig davon, ob eine
-   BACS-Klasse formal verlangt wird.
+   3'000–7'000 m² EBF überschreitet ohnehin regelmässig sowohl die 2'000-m²-MuKEn-Schwelle als
+   auch die 200'000-kWh-Schwelle für die Betriebsoptimierung (vgl.
+   `[[muken-2025-modul-7-betriebsoptimierung-hlkkse]]`) — eine funktionierende Gebäudeautomation
+   mit Monitoring ist damit faktisch Voraussetzung, unabhängig von einer formalen BACS-Klasse.
 
-## Offene Punkte
-- **MuKEn-2025-Art.-1.23-Wortlaut nicht am Original verifiziert** — nur aus Suchmaschinen-Snippets
-  Dritter rekonstruiert; sobald der Basismodul-Volltext zugänglich ist (PDF-Extraktion scheiterte
-  mehrfach technisch), gegen Original prüfen und Fundstelle exakt nachtragen.
-- **Aktuelle SIA-386.110-Ausgabe unklar:** SIA-Shop zeigt nur archivierte Ausgaben (2007/2012, letztere
-  gültig bis 2017); ob SIA 386.110 auf Basis von SN EN ISO 52120-1:2022 neu aufgelegt wurde oder ob
-  SN EN ISO 52120-1 direkt (ohne SIA-Präfix) als Schweizer Referenz gilt, ist offen — beim SIA
-  direkt zu klären.
-- **Exakte SIA-386.110-Klassenfaktoren** (die Multiplikatoren je Gebäudekategorie/Klasse) liegen
-  hinter der Kostenpflicht der Norm — nicht belegt, nicht erfunden.
-- **Minergie-Bonus/-Anforderung für Gebäudeautomation** nicht bestätigt (Anwendungshilfe 2025 im
-  extrahierbaren Text ohne Treffer) — evtl. an anderer Stelle im Minergie-Reglement geregelt,
-  nachzurecherchieren.
-- **Investitionskosten-Delta je BACS-Klasse** für MFH/Gewerbebau: keine belastbare CH-Quelle
-  gefunden — als Aufgabe für ein konkretes Projekt mit realem Planerangebot vorzumerken.
-- **EN-141-Formularinhalt (Kt. ZH)** nicht im Detail geöffnet (nur als Formularname bekannt).
+## Offene Punkte (weiterhin ungeklärt trotz neuem Recherchezugang)
+- **Literal-Wortlaut MuKEn 2025 Art. D.1.23** nicht am EnDK-Originaldokument selbst gelesen
+  (Basismodul-PDF auf endk.ch technisch nicht auffindbar) — Inhalt stützt sich auf zwei
+  unabhängige, im Wortlaut übereinstimmende Sekundärquellen (Minergie-offizielle Vergleichstabelle
+  + Fachportal); für eine zitierfähige Rechtsquelle sollte das amtliche PDF nachträglich
+  beschafft werden (z.B. über die EnDK direkt oder eine kantonale Baudirektion).
+- **Aktuelle SIA-386.111:2022-Effizienzfaktoren (Klassen A–D, differenziert nach Gebäudekategorie)**
+  liegen weiterhin hinter der Kostenpflicht der Norm (CHF 144.–) — nicht belegt. Die hier zitierten
+  Zahlen (0,88/0,81 Heizung, 0,90/0,80 Warmwasser) stammen aus der **Vorgängernorm EN 15232**
+  (Wohngebäude) und wurden aus einer BAFU-gehosteten Sekundärstudie übernommen, nicht aus der
+  aktuellen ISO-52120-1-Fassung selbst.
+- **Nichtwohngebäude-Effizienzfaktoren** (Büro/Schule/Hotel je Klasse) weiterhin nicht aus einer
+  belastbaren Quelle verifiziert.
+- **Investitionskosten-Delta je BACS-Klasse für die Schweiz** (MFH/Gewerbebau/Healthcare) weiterhin
+  keine CH-Quelle gefunden — die neue eu.bac-Zahl ist EU-Durchschnitt/Wohnungs-Fallstudie, kein
+  CH-Kennwert. Als Aufgabe für ein konkretes Projekt mit realem Planerangebot vorzumerken.
+- **EN-141-Formularinhalt (Kt. ZH)** weiterhin nicht im Detail geöffnet (nur als Formularname
+  bekannt).
 
 ## Backlinks
 - [[behaglichkeit-raumklima-kbob-ipb]] — nennt SIA 386.110:2012 bereits als Normbezug im
-  Raumklima-/Heizwärmebedarfs-Kontext.
+  Raumklima-/Heizwärmebedarfs-Kontext; bei Gelegenheit auf SIA 386.111:2022 nachführen.
 - [[en-zh-nachweis-uebersicht]] — listet EN-141 „Gebäudeautomation" im ZH-Formularkatalog.
 - [[private-kontrolle-zh]] — Formularübersicht mit Zeile 141 „Gebäudeautomation".
 - [[muken-2025-modul-7-betriebsoptimierung-hlkkse]] — Betriebsoptimierungspflicht HLKKSE + GA, an

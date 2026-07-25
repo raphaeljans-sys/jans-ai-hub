@@ -212,6 +212,31 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   `[[erdsonden-regeneration-sondenfeld-dimensionierung]]`, FAQ **F152** neu. FAQ-Stand: **152
   Kernfragen (F1-F152) belegt.**
 
+- **D78 (Run 106, 2026-07-25, drei parallele Rechercheagenten, gezielte Nachverifikation statt
+  neuer Themenwahl)** — Statt weiterer neuer Themen wurden gezielt die drei in Run 105 offen
+  gebliebenen Primärquellen-Lücken geschlossen plus ein neues Themenfeld ergänzt. **D78a SIA
+  386/BACS-Gebäudeautomation Primärquellen-Nachverifikation** — wichtigster Fund: die Bezeichnung
+  «SIA 386.110» war die 2017/2022 abgelöste Vorgängerausgabe, amtlich aktuell ist **SIA
+  386.111:2022** (shop.sia.ch-Metadaten); MuKEn-2025-Wortlaut (Art. D.1.23, Monitoring-Pflicht ab
+  2'000 m² EBF) über die offizielle Minergie-Vergleichstabelle primärnah bestätigt, **kein
+  Minergie-Automations-Bonus** (Negativbefund, gleiche Quelle); EN-15232-Effizienzfaktoren
+  Wohngebäude (BAFU/TU-Dresden-Kurzstudie Felsmann 2017: C=1,00/B=0,88/A=0,81) neu; EU-Kostenreferenz
+  eu.bac 2024 (nicht CH) → Destillat auf **established** gehoben, FAQ **F153** neu. **D78b
+  Erdsonden-Regeneration OCR-/Zugriffs-Nachlese** — beide zuvor blockierten Quellen erschlossen:
+  aeesuisse-Faktenblatt Feb. 2025 via Wayback-Machine-Archiv im Volltext (geothermischer Wärmestrom
+  CH ≈60 mW/m², COP Erdreich 4,6 vs. Aussenluft 3,5, durchgerechnetes MFH-Beispiel), AWEL-
+  Planungshilfe 2010 entgegen Ersteinschätzung **kein Bild-PDF** (direkt per pdftotext lesbar,
+  bestätigt Verweis auf SIA 384/6 ohne eigene Tabelle) → Destillat auf **established** gehoben,
+  FAQ F152 geschärft. **D78c Wärmepumpen-System-Modul (WPSM) und die Heizkörper-/Altbau-Frage**
+  (neues Themenfeld, freie Themenwahl nach Prüfung von acht bereits abgedeckten Kandidaten) —
+  WPSM-Anlagezertifikat ≤15 kW zwingende ZH/SZ-Förderbedingung (CHF 350 + MWST), prüft die ganze
+  Anlage inkl. Wärmeabgabesystem; schliesst die bislang unbeantwortete Bauherren-Kernfrage «reichen
+  meine alten Heizkörper für eine Wärmepumpe?» (EnergieSchweiz: Altbau grundsätzlich unproblematisch,
+  Inverter-WP mit Radiatoren gut geeignet) → neues Destillat
+  `[[waermepumpen-system-modul-wpsm-heizkoerper-altbau]]`, Wiki-Artikel
+  `[[heizleistung-und-waermeerzeuger]]` ergänzt, FAQ **F154** neu. FAQ-Stand: **154 Kernfragen
+  (F1-F154) belegt.**
+
 - **D51 (Run 70, 2026-07-14, gedrosselt)** — Erster Lauf unter der neuen Rule **260714 (Tempo
   drosseln, Wochenlimit 81 %)**: Batch bewusst von 6-10 auf **drei** Themenkomplexe zurueckgenommen
   (Token-Vollgas 260712b ist fuer die Restwoche aufgehoben). PDF-Inventar weiterhin erschoepft, daher

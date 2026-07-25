@@ -1,5 +1,53 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-25 — Refuter-Welle B6 Healthcare, Quellgruppe Pflegeheim/Alterszentrum (Adliswil, Bombach, Widnau)
+- Unabhängige Gegenprüfung aller Zahlen aus der Quellgruppe Pflegeheim/Alterszentrum im Artikel
+  `wiki/muster/kennwerte-healthcare.md` gegen die drei Rohtexte in `raw/`
+  (`extern-jurybericht-alterszentrum-sihlsana-adliswil.txt`,
+  `extern-jurybericht-haus-der-demenz-bombach-zuerich.txt`,
+  `extern-jurybericht-alters-pflegezentrum-widnau.txt`). Seitenbezug über die Seitenumbrüche des
+  pdftotext-Extrakts; Adliswil und Widnau gedruckte Seite = PDF-Seite, Bombach gedruckte Seite =
+  PDF-Seite minus 1. **74 Einzelaussagen geprüft, 66 bestätigt, 8 korrigiert.**
+- **Korrigiert (1):** Bombach S. 7 «3–4 Eingangsbereiche à 60 m²» → «total 60 m²». Die m²-Spalte des
+  Raumprogramms nennt durchgehend die Positionssumme (Beleg «40 Zimmer · Raumgrösse 18–20 m² ·
+  760 m²»). Lesehinweis dazu im Artikel ergänzt.
+- **Korrigiert (2):** Bombach S. 7–8 «Dienstleistungsbereich zusammen ca. 245 m²» → **260 m²**,
+  als abgeleitet markiert. Der Rohtext nennt keine Zwischensumme; die elf Einzelzeilen
+  (48+15+15+10+21+7+16+16+48+24+40) ergeben 260 m².
+- **Korrigiert (3):** Bombach S. 13 «zusätzlich je CHF 5'000 pro zugelassenes Projekt» → «daraus».
+  Rohtext: «Für jedes zur Beurteilung zugelassene Projekt wurde den Teilnehmenden **davon** je eine
+  Entschädigung von Fr. 5 000.- ausgerichtet.»
+- **Korrigiert (4):** Adliswil S. 16 «Preissumme von CHF 150'000 auf 200'000 angehoben» →
+  **Entschädigungs**summe; die Preise Rang 1–3 (40/35/25 Tausend, S. 17) kommen hinzu.
+  Gesamtausschüttung CHF 300'000 (10 × 20'000 + 100'000) ergänzt, als abgeleitet markiert.
+- **Verworfen (5):** Das Band «Referenzband selektiver Wettbewerb (Pflege): CHF 160'000 bis 200'000
+  — zwei Quellen» ist gestrichen. Es verglich Bombachs **Gesamtsumme** für Preise/Ankäufe/
+  Entschädigungen mit Adliswils blossem **Entschädigungsanteil**. Vergleichbar sind nur die
+  Gesamtausschüttungen: CHF 160'000 (Bombach, 10 Teams) gegen CHF 300'000 (Adliswil, 10 Teams),
+  also rund 16'000 gegen 30'000 je Team — eine Spreizung, kein Band.
+- **Korrigiert (6):** Bombach «Preisstand 2012» → «Preisstand Auslobung 2011/12» (beide Fundstellen,
+  Abschnitt 4a und Abschnitt 8). Aus dem Rohtext belegbar sind Präqualifikation 10. Januar 2011
+  (S. 9), Jurierung 26.11./11.12.2012 (S. 12) und Bericht Januar 2013 — nicht ein Preisstand 2012.
+- **Korrigiert (7)/(8):** Zwei Seitenbelege Widnau präzisiert — Tages-/Nachtstätte (10 Zimmer
+  Raumreserve) S. 8–9 → **S. 9**; Verfahrenszahlen S. 5–6/10 → **S. 6/10–11** (S. 5 enthält keine Zahl,
+  die sieben abgegebenen Projekte stehen auf S. 11).
+- **Bestätigt (Auswahl):** Adliswil 136 Pflegeplätze (36/60/40), 60 Alterswohnungen (10/40/10),
+  8 Ruheplätze, Perimeter 12'100 m² (alle S. 12), Kostenziel CHF 73 Mio. (S. 13), Leistungsauftrag
+  min. 125 Plätze (S. 4), Verfahren 60 Bewerbungen/11 Jungteams → 10 (+3 Ersatz) → 10 Eingaben
+  (S. 6/15), Ausschluss PAUL & PAULA mit 20 statt 40 Pflegestudios (S. 15–16); Bombach 40 Bewohnende
+  in 3–4 Gruppen à 10–13 (S. 3/5), Kontextwerte 1'600 Betten / 10 Pflegezentren / Ø 84 Jahre /
+  rund 2 Jahre Aufenthalt (S. 3), Raumprogramm-Positionen inkl. 40 Zimmer 18–20 m² / 760 m² (S. 7–8),
+  CHF 18.5 Mio. BKP 1–9 inkl. 8 % MWST exkl. Reserven (S. 5), Areal 21'672 m² (S. 4), Verfahren
+  50/2/48/10 (S. 9), Rangpreise 40/32/20/18 (S. 13), abgeleitete 462'500 CHF je Platz (Arithmetik
+  geprüft); Widnau 108 Pflegeplätze und 46 Bestandesbetten (S. 3), 66 Bewerbungen / 8 Teams / 1 Absage
+  (S. 6/10), 7 Projekte und Pauschale CHF 25'000 exkl. MWST ohne Rangfolge (S. 11), Vorprüfungs-
+  Sammelurteile Baurecht (S. 10) und GF/GV-Plausibilität (S. 11).
+- **Negativbefund verifiziert:** Keiner der drei Berichte publiziert je Beitrag eine absolute
+  Geschossfläche, ein Gebäudevolumen oder Kosten je Pflegeplatz; Widnau nennt ausser der
+  Teamentschädigung überhaupt keine CHF-Zahl. Abschnitt 0 des Artikels bleibt für diese
+  Quellgruppe unverändert gültig.
+- Keine Zahl einer anderen Quellgruppe angetastet.
+
 ## 2026-07-25 — Baustein B3 Healthcare: Extern-Destillat «jurybericht-gz-alterswohnen-thurgauerstrasse-zuerich.md» nach Refuter-Prüfung auf established
 - Unabhängiger Refuter prüfte das Destillat des Juryberichts Gesundheitszentrum & Alterswohnungen
   Thurgauerstrasse, Zürich-Seebach (Projektwettbewerb offen für Generalplanende, Mai 2025, 54 Beiträge)

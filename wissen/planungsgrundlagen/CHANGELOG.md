@@ -2,6 +2,13 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 — Run 81: Frischecheck Kartenportale+Energie, elfter Nullbefund
+Frischecheck `PL - 01 Kartenportale` + `PL - 04 Energie` gegen Run 79 (`find -newer`): 0 neue/
+veraenderte Dateien. Elfte unabhaengige Erschoepfungs-Bestaetigung fuer dieses Domaenenpaar,
+fuenfzehnte in Folge ueber alle vier Domaenen (Run 67-81). Keine kuenstlichen Zusatzfragen
+erzeugt. Empfehlung an Raphael (Umstellung auf reinen Frischecheck-Takt) zwoelfte Wiederholung,
+unveraendert nicht eigenmaechtig umgesetzt. → `outputs/2026-07-25_training-run81.md`.
+
 ## 2026-07-25 — Mac-Mini-Nachtschicht: M4-Teilbefund YAML-Frontmatter geschlossen
 Der Health-Check-Befund M4 (`wiki/QUESTIONS.md`) nannte 2 Artikel ohne YAML-Frontmatter. Geprueft:
 `kartenportale-naturgefahren-objektschutz.md` hatte bereits vollstaendige Frontmatter (reine

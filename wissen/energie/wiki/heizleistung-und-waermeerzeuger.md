@@ -1,8 +1,8 @@
 ---
 title: Heizleistung & Wärmeerzeuger-Dimensionierung
 status: established
-last_updated: 2026-07-14
-sources: [destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/waermepumpe-systemvergleich.md, destillate/fawa-jaz-feldanalyse-waermepumpen.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/cop-scop-jaz-waermepumpe-gruenenwald.md, destillate/sia-384-3-wpesti-jaz-methode.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/kaeltemittel-r290-waermepumpen-ch.md, destillate/erdwaermesonden-bewilligung-zh-sz.md]
+last_updated: 2026-07-25
+sources: [destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/waermepumpe-systemvergleich.md, destillate/fawa-jaz-feldanalyse-waermepumpen.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/cop-scop-jaz-waermepumpe-gruenenwald.md, destillate/sia-384-3-wpesti-jaz-methode.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/kaeltemittel-r290-waermepumpen-ch.md, destillate/erdwaermesonden-bewilligung-zh-sz.md, destillate/waermepumpen-system-modul-wpsm-heizkoerper-altbau.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[u-werte-grenzwerte-ch]], [[wta-formular-zh-waermetechnische-anlagen]]
 ---
 
@@ -114,6 +114,21 @@ keine Pauschale, reine **Aufwandgebühr** (§ 35/§ 69 KGSchV + GebV UR: Zeit-Mi
 20 %) mit gesetzlicher **Obergrenze CHF 25'000** pro Einzelfall — für ein EFH-Standardgesuch dürfte
 der effektive Betrag deutlich darunter liegen. Details → `[[erdwaermesonden-bewilligung-zh-sz]]`,
 FAQ **F71**.
+
+## WPSM-Zertifikat und die Heizkörper-/Altbau-Frage (F154)
+Wer im Kanton Zürich oder Schwyz eine Öl-, Gas- oder Elektroheizung durch eine Wärmepumpe bis
+ca. **15 kW** ersetzt und die kantonale Förderung beanspruchen will, braucht zwingend ein
+**WPSM-Anlagezertifikat** (Wärmepumpen-System-Modul, CHF 350 zzgl. MWST) — ein von suissetec, FWS,
+Gebäudeklima Schweiz, SWKI und EnergieSchweiz gemeinsam getragenes Qualitätssicherungsverfahren.
+Für Anlagen >15 kW gilt stattdessen das **FWS-Gütesiegel + Leistungsgarantie EnergieSchweiz**. Das
+WPSM prüft die **gesamte Anlage inklusive Wärmeabgabesystem** — also auch die Eignung der
+bestehenden Heizkörper im Sanierungsfall — und begleitet die Anlage bis zu einer Nachkontrolle im
+2./3. Betriebsjahr. Zur häufigsten Bauherren-Sorge («reichen meine alten Radiatoren?»): EnergieSchweiz
+stuft Wärmepumpen im Altbau «grundsätzlich als unproblematisch und lohnenswert» ein — moderne
+**Inverter-Wärmepumpen** erreichen auch mit Heizkörpern gute Effizienzwerte, ein pauschaler
+Heizkörpertausch ist nicht zwingend. Vor einem teuren Komplett-Heizkörperersatz lohnt sich zuerst ein
+**hydraulischer Abgleich** (Faustregel aus nicht-schweizerischen Fachportalen, keine CH-Primärquelle).
+Details → `[[waermepumpen-system-modul-wpsm-heizkoerper-altbau]]`, FAQ **F154**.
 
 ## Bezug
 - FAQ: `[[BAUHERREN-FAQ]]` F13 (Leistung) + F14 (Ersatzverfahren) + **F6 (Systemwahl ✓)**.

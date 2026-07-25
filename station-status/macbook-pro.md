@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.07.2026 20:50:53
+Stand: 25.07.2026 21:21:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 20:49)
+- Developer/jans/ai/hub  (letzte Aktivitaet 20:56)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 25.07.2026 20:50:53
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 18069787 nas-selfcommit: 18 Datei(en) 2026-07-25 20:45
+- d722f970 twin-fidelity-review 2026-07-25g: Retrieval-Fidelity-Selbsttest (86), Beziehungsregister schwaechste Facette

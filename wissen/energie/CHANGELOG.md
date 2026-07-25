@@ -2,6 +2,76 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 106: gezielte Primärquellen-Nachverifikation (SIA 386/BACS + Erdsonden-
+## Regeneration auf established gehoben) plus neues Themenfeld WPSM/Heizkörper-Altbau-Frage
+
+Statt eines vierten neuen Themenkandidaten wurden bewusst die drei in Run 105 selbst benannten
+offenen Primärquellen-Lücken geschlossen (Reaktion auf die dortige Sättigungs-Beobachtung), plus
+ein neues Themenfeld ergänzt. Drei parallele `general-purpose`-Rechercheagenten, jeder auf eine
+eigene Destillat-Datei beschränkt (Kollisionsschutz, zentrale Register-Konsolidierung in dieser
+Session; kein zweiter `energie-training`-Prozess lief parallel, Rule 260724 geprüft).
+
+**1. SIA 386/BACS-Gebäudeautomation (emerging → established):** Wichtigster Fund: die Bezeichnung
+«SIA 386.110» war die 2017 bzw. 2022 abgelöste Vorgängerausgabe — amtlich aktuell gültig ist
+**SIA 386.111:2022** (Übernahme SN EN ISO 52120-1:2021), amtlich verifiziert über die SIA-Shop-
+Produktmetadaten (shop.sia.ch: Ausgabejahre, Archiviert-seit-Daten, Preise, Nachfolgeregelung).
+MuKEn-2025-Wortlaut (Art. D.1.23, Monitoring-Pflicht ab 2'000 m² EBF für Nichtwohn-Neubauten, sechs
+konkrete Funktionen) über die offizielle Minergie-Vergleichstabelle «Minergie im Kontext der
+MuKEn 2025» (Stand 01.01.2026, im Volltext gelesen) primärnah bestätigt — dieselbe Quelle verneint
+explizit einen Minergie-Automations-Bonus (Minergie kennt nur ein eigenes, tiefer schwellendes
+Monitoring-Modul). EN-15232-Effizienzfaktoren für Wohngebäude neu über eine BAFU-gehostete
+TU-Dresden-Kurzstudie (Felsmann 2017, Volltext): Heizung C=1,00/B=0,88/A=0,81, Warmwasser
+C=1,00/B=0,90/A=0,80. Kostenseite weiterhin ohne CH-Primärzahl, neu aber eine EU-Referenz
+(eu.bac-Studie 2024: 110-m²-Wohnung, Klasse B ≈ EUR 1'400, Klasse A ≈ EUR 2'850, explizit als
+EU-Durchschnitt markiert). → Destillat `[[sia-386-bacs-gebaeudeautomation]]` auf established
+gehoben, FAQ **F153** neu.
+
+**2. Erdsonden-Regeneration/Sondenfeld-Dimensionierung (emerging → established):** Beide in Run 105
+technisch blockierten Quellen erschlossen. Das aeesuisse-Faktenblatt «Regeneration Erdsonden — der
+neue Standard» (Feb. 2025) blieb am Direktzugriff weiterhin durch Cloudflare-Bot-Schutz blockiert,
+liess sich aber über das Wayback-Machine-Archiv im Volltext lesen: geothermischer Wärmestrom
+Schweiz ≈60 mW/m², Temperaturtrichter bis ≈30 m (Rybach 2001), COP Erdreich 4,6 vs. Aussenluft 3,5
+(damit jetzt primärbelegt statt nur sekundärzitiert), wirtschaftliche Regenerations-Schwelle ab
+≈1'000 m² Geschossfläche bzw. 30–40 kW, ein durchgerechnetes MFH-Beispiel (2×300 m Sonden: ohne
+Regeneration −1,25 °C nach 50 Jahren, mit 40 % Regeneration 6 °C, mit 80 % nahezu 14 °C). Die
+AWEL-Planungshilfe 2010 erwies sich entgegen der Ersteinschätzung aus Run 105 als **kein Bild-PDF**
+— direkt per `pdftotext` lesbar, bestätigt den Negativbefund (keine eigene W/m-Tabelle, Verweis auf
+SIA 384/6). Zusatzfund: suissetec-Merkblatt 5|2020 mit einer konkreten EFH-Massnahmentabelle. →
+Destillat `[[erdsonden-regeneration-sondenfeld-dimensionierung]]` auf established gehoben, FAQ F152
+geschärft.
+
+**3. Wärmepumpen-System-Modul (WPSM) und die Heizkörper-/Altbau-Frage (neu, emerging):** Freie
+Themenwahl nach Prüfung von acht bereits abgedeckten Kandidaten (WP-Förderung, Ladeinfrastruktur,
+Brandriegel, Contracting, Denkmalschutz, Gebäudeprogramm, Grossverbraucher-Zielvereinbarung,
+Klimaanlagen-Bewilligung, Stromtarife) — die identifizierte Lücke: die häufigste praktische
+Bauherren-Frage beim Heizungsersatz («reichen meine bestehenden Heizkörper für eine Wärmepumpe?»)
+war bislang unbeantwortet, und das WPSM-Zertifikat stand in den bestehenden ZH/SZ-Förderdestillaten
+nur als unerklärtes Stichwort. WPSM ist ein branchengetragenes QS-Verfahren (suissetec, FWS,
+Gebäudeklima Schweiz, SWKI, EnergieSchweiz/BFE) für Wärmepumpen bis ≈15 kW, CHF 350 zzgl. MWST,
+zwingende Förderbedingung in ZH und SZ (laut FWS in 26 Kantonen), prüft die gesamte Anlage
+inklusive Wärmeabgabesystem. Zur Heizkörperfrage: EnergieSchweiz stuft WP im Altbau als
+«grundsätzlich unproblematisch und lohnenswert» ein, ein pauschaler Heizkörpertausch wird nicht als
+zwingend dargestellt; hydraulischer Abgleich als günstigerer Hebel vor einem Komplettersatz
+(Faustregel, nicht-schweizerische Quellen). → Neues Destillat
+`[[waermepumpen-system-modul-wpsm-heizkoerper-altbau]]` (emerging), Wiki-Artikel
+`[[heizleistung-und-waermeerzeuger]]` um eigenen Abschnitt ergänzt, FAQ **F154** neu.
+
+**Register nachgeführt:** `destillate/INDEX.md` (drei Zeilen aktualisiert), `wiki/INDEX.md`
+(FAQ-Zählerzeile auf 154, drei neue Destillat-Direktverweise-Bullets, Run-106-Notiz, Themenartikel-
+Zeile heizleistung-und-waermeerzeuger ergänzt), `wiki/BAUHERREN-FAQ.md` (F152 geschärft, F153-F154
+neu), `wiki/heizleistung-und-waermeerzeuger.md` (neuer WPSM-Abschnitt), `training/curriculum.md`
+(D78a-c), `wiki/QUESTIONS.md` (E93 + aktualisierte Prioritätenliste), `raw/_INGESTED.md`,
+`outputs/2026-07-25_energie-run106.md`.
+
+FAQ-Stand: **154 Kernfragen (F1-F154) belegt.** Destillate-Stand: **171** (170 + 1 neu).
+
+⚠ Beobachtung für Raphael (fortgeführt aus Run 105): Run 106 hat bewusst auf Nachverifikation statt
+neuer Themenwahl gesetzt, um die in Run 105 beobachtete Sättigung nicht durch erzwungene neue Themen
+zu kaschieren. Zusätzlich neu beobachtet: der gleiche Normidentitäts-Fehlertyp, der in der KB
+`normen` bei SIA 382/1 bereits bekannt ist (veraltete Ausgabe als aktuell geführt), trat in Run 105
+innerhalb dieser eigenen KB bei SIA 386 auf — Lehre für künftige Norm-Erstdestillate: SIA-Shop-
+Metadaten (shop.sia.ch) routinemässig vorab prüfen statt erst bei einer Nachverifikationsrunde.
+
 ## 2026-07-25 — Run 105: drei parallele Rechercheagenten (WP-Lärm-Nachmessung Kostenfolge,
 ## SIA 386/BACS-Gebäudeautomation neu, Erdsonden-Regeneration/Sondenfeld-Dimensionierung)
 

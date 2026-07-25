@@ -1218,15 +1218,38 @@ mit echten Umlauten (bewährtes Run-86-Muster gegen den Umlaut-Bug).
 - **PDF-Inventar:** weiterhin erschöpft seit Run 65 (bestätigt: keine neuen Fachdateien in
   `PL - 04 Energie` seit letztem Check); Run 87 daher reiner Primärquellen-/Web-Transferlauf (8
   amtliche/fachverbandliche Dokumente statt PDF-Ordner-Transfer).
-- [ ] **Naher Ueberschneidungs-Zwilling SIA-2024-Gesundheitsbau-Destillate (Run 88, 2026-07-25):**
-  `destillate/sia-2024-nutzungsdaten-gesundheitsbau.md` (registriert, Run 69, FAQ F78) und
-  `destillate/sia-2024-nutzungsrandbedingungen-gesundheitsbau.md` (bislang unregistriert, gleiches
-  Datum 2026-07-14, ueberlappende Quellenbasis SIA-Grundlagenbericht + Statusbericht) decken
-  denselben Themenkomplex ab, moeglicherweise aus zwei parallelen Rechercheagenten desselben Laufs.
-  Beide jetzt in `destillate/INDEX.md` gefuehrt (Register-Nachtrag, keine inhaltliche Pruefung).
-  Vor einer Zusammenfuehrung/Loeschung: inhaltlicher Abgleich, ob randbedingungen zusaetzliche
-  Fakten (SIA 382/1 Kaelte-Merkblatt) beitraegt, die in nutzungsdaten fehlen — falls ja, ergaenzen
-  statt loeschen; sonst mergen. Destruktive Aktion braucht Rueckfrage (Rule wissens-bibliothekar).
+- [~] **Naher Ueberschneidungs-Zwilling SIA-2024-Gesundheitsbau-Destillate — inhaltlicher Abgleich
+  ABGESCHLOSSEN, Merge-Entscheid weiterhin bei Raphael (Run 88 → Run 107, 2026-07-25):**
+  `destillate/sia-2024-nutzungsdaten-gesundheitsbau.md` (140 Zeilen, Run 69, FAQ F78) und
+  `destillate/sia-2024-nutzungsrandbedingungen-gesundheitsbau.md` (309 Zeilen, Run 88) wurden
+  Zeile fuer Zeile verglichen (kein Merge/Loeschen ausgefuehrt — destruktive Aktion braucht
+  Rueckfrage, Rule `wissens-bibliothekar`). Ergebnis: **echte inhaltliche Ueberschneidung**
+  (Gebaeudekategorie VIII/VIII.1/VIII.2, Raumnutzungen 8.01-8.03, Prozessanlagen-Abgrenzung, ZH/SZ-
+  Bezug), aber **beide Dateien tragen je eigene, nicht redundante Fakten bei**:
+  - **Nur in `nutzungsdaten` (Run 69):** Flaechenanteile-Tabelle VIII/VIII.1/VIII.2 (Statusbericht
+    Tab. 5); Seite-an-Seite-Vergleich «geltend SIA-380/1-Tab.-27 vs. Harmonisierungsvorschlag
+    SIA-2024:2019-Entwurf» inkl. EnFK-Anforderungsprofil-Grenzwerten (Q_H,li0/ΔQ_H,li); Luftmengen-
+    Zeitreihe 2015 vs. 2021-Entwurf (zeigt die Norm-Entwicklung, nicht nur den Endstand).
+  - **Nur in `randbedingungen` (Run 88):** SIA-382/1-Kaelte-Systematik (7/12 W/m²-Grenzwert,
+    Kaltwassertemperaturen); TEP-Energy-Vergleichstabelle Endenergiebedarf Spital/Pflege vs. Wohnbau
+    (2010-Gebaeudeparkmodell); Prozessanlagen-Tabelle mit Kuehlraum/Serverraum/Kueche (nicht nur
+    Behandlungsraum); zwei Raumtemperaturen je Nutzung (Auslegung vs. Jahresbilanz, Sommer/Winter);
+    EN-111/EN-112-ZH-Bezug; Ausgabenhistorie SIA 2024:2006→2015→2021.
+  - **Redundant (in beiden, gleiche Kernaussage):** Definition/Scharnierfunktion SIA 2024 ↔ SIA
+    380/1, Gebaeudekategorie-VIII-Aufteilung VIII.1/VIII.2 + GWR-Bauwerktypen, Raumnutzungen
+    8.01-8.03 Aussenluft-Volumenstrom-Kennwerte (2021-Endstand), OP-Saal/MRT-CT-Ausnahme,
+    Bauherren-Transfer-Kernaussage (Pflegeheim-Mehrbedarf ggue. Wohnbau).
+  **Empfehlung (nicht ausgefuehrt):** `randbedingungen` als Basis behalten (methodisch reicher,
+  spaeterer Stand), die drei nur in `nutzungsdaten` enthaltenen Tabellen/Abschnitte dort einfuegen,
+  dann `nutzungsdaten` loeschen und alle Backlinks (FAQ F78 Z. 2837/2939/4735/4789/5089,
+  `wiki/INDEX.md` Z. 43, `destillate/INDEX.md` Z. 126, plus die Cross-Links aus
+  `sia-380-1-aktualitaets-check-2026.md`, `muken-2025-modul-7-betriebsoptimierung-hlkkse.md`,
+  `sia-380-1-2016-aenderungen-gegenueber-2009.md`, `swki-lueftung-gesundheitsbau-hygiene-
+  energie.md`, `betonkernaktivierung-tabs-energieeffizienz.md`, `energie-performance-gap-
+  gesundheitsbau.md`, `vdi-3807-2-energiekennwerte-krankenhaus.md`) auf `randbedingungen`
+  umzubiegen. Aufwand ca. 30-45 Min gezielte Bearbeitung, kein Rechercheaufwand mehr noetig — bereit
+  zur Ausfuehrung, sobald Raphael zustimmt. Reiht sich ein bei den anderen seit Runs offenen
+  Raphael-Entscheiden (Kaufentscheide-Buendel, Meta M2, s.u.).
 
 ## Run 90 (2026-07-25) — vier parallele Rechercheagenten, PDF-Inventar weiterhin erschöpft
 
@@ -1893,3 +1916,48 @@ gewachsen, `training/curriculum.md` (D77a-c), `raw/_INGESTED.md`, `CHANGELOG.md`
    Nachtfenster VORSCHLAGEN») sollte Raphael in den kommenden Laeufen aktiv vorgelegt werden,
    spaetestens wenn zwei/drei weitere Laeufe in Folge denselben Aufwand fuer die Themenfindung
    brauchen.
+
+- [x] **E93** **Run 106 (2026-07-25) — bewusst KEINE neue Themenwahl, sondern gezielte
+  Primärquellen-Nachverifikation der Run-105-Lücken (Reaktion auf Beobachtung 7 oben):** Statt einen
+  vierten neuen Themenkandidaten zu suchen, wurden die drei in Run 105 selbst benannten offenen
+  Punkte geschlossen. (1) **SIA 386/BACS** von `emerging` auf **established** gehoben — Normidentität
+  korrigiert (aktuell SIA 386.111:2022, nicht «386.110»), MuKEn-2025-Monitoringpflicht und
+  Kein-Minergie-Bonus primärnah bestätigt, FAQ **F153**. (2) **Erdsonden-Regeneration** von
+  `emerging` auf **established** gehoben — beide zuvor blockierten Quellen (aeesuisse via
+  Wayback-Machine, AWEL-Planungshilfe 2010 entgegen Ersteinschätzung kein Bild-PDF) im Volltext
+  gelesen, FAQ F152 geschärft. (3) **Ein neues Themenfeld** dennoch ergänzt (WPSM-Zertifikat +
+  Heizkörper-/Altbau-Frage, nach Prüfung von acht bereits abgedeckten Kandidaten als Lücke
+  identifiziert) → neues Destillat `[[waermepumpen-system-modul-wpsm-heizkoerper-altbau]]`, FAQ
+  **F154**. FAQ-Stand: **154 Kernfragen (F1-F154) belegt.**
+
+**Register nachgeführt:** `destillate/INDEX.md` (drei Zeilen aktualisiert), `wiki/INDEX.md`
+(FAQ-Zählerzeile auf 154 + drei neue Destillat-Direktverweise-Bullets + Run-106-Notiz),
+`wiki/BAUHERREN-FAQ.md` (F152 geschärft, F153-F154 neu), `wiki/heizleistung-und-waermeerzeuger.md`
+(neuer Abschnitt WPSM), `training/curriculum.md` (D78a-c), `raw/_INGESTED.md`, `CHANGELOG.md`,
+`outputs/2026-07-25_energie-run106.md`.
+
+**Nächster Lauf: Priorität**
+1. Die fünf gebündelten Kaufentscheide (B1-Konsolidierung, SWKI-VA105-01, SIA-385/1, SIA-385/2,
+   SIA-384.354) wachsen seit Run 98 unverändert ohne Entscheidung — jetzt acht Runs in Folge.
+   Dringende Empfehlung: beim nächsten Kontakt mit Raphael als kurze Bündel-Frage stellen statt
+   weiter automatisch mitzuführen.
+2. Meta-Punkt M2 (eigenständiger Skill "energie"?) ist seit Run 45 spruchreif und weiterhin nicht
+   entschieden — ebenfalls Raphael vorlegen.
+3. ⚠ Weiterhin offen: KB `normen` pflegt SIA 382/1:2014 fälschlich als aktuell — dem normen-Loop/
+   Wissens-Chef zur Korrektur übergeben (nicht Aufgabe von `energie`). Zusätzlich neu beobachtet
+   (Run 106): dieselbe Art Normidentitäts-Fehler trat soeben bei SIA 386 innerhalb dieser eigenen
+   KB auf («386.110» statt «386.111:2022») — Empfehlung, bei künftigen Norm-Erstdestillaten die
+   SIA-Shop-Metadaten (shop.sia.ch, amtliche Ausgabejahre/Archiviert-seit-Daten) routinemässig
+   vorab zu prüfen, nicht erst bei einer Nachverifikationsrunde.
+4. Kostenfolge WP-Lärm-Nachmessung bleibt für den Regelfall unklar (kein ZH-Gebührenposten
+   gefunden) — Empfehlung: als vom Bauherren-Alltag her seltener Randfall zurückstellen statt
+   weiter zu vertiefen.
+5. WPSM-Pflichtenheft (Original, 25.05.2020) nicht im Volltext gelesen — der genaue Prüfschritt für
+   die Heizkörper-Eignung (Heizlastberechnung raumweise vs. einfacher Vorlauftemperatur-Check)
+   bleibt offen; ebenso CH-Primärquelle für Kosten hydraulischer Abgleich/Heizkörperersatz.
+6. ⚠ Beobachtung zur Reife der KB bleibt bestehen (171 Destillate, 154 FAQ nach Run 106) — Run 106
+   hat bewusst NICHT auf einen vierten neuen Themenkandidaten gesetzt, sondern auf Nachverifikation.
+   Das entlastet die Sättigungsfrage für diesen Lauf, löst sie aber nicht: sollte der nächste Lauf
+   wieder primär neue Themenwahl brauchen und erneut mehrere Kandidaten als bereits abgedeckt
+   verwerfen, ist der Punkt aus PROGRAMM.md («Ruecktaktung ins Nachtfenster VORSCHLAGEN») jetzt
+   wirklich reif für die aktive Vorlage bei Raphael.

@@ -5196,12 +5196,106 @@ die grobe Kommunikation gegenüber dem Bauherrn brauchbar, aber laut Fachpraxis 
 als Berechnungsgrundlage geeignet. Innerhalb eines Felds braucht es 6-10 m Sondenabstand, gegenüber
 einem fremden Nachbarfeld je nach Feldgrösse deutlich mehr (17-73 m).
 
-**Quelle + Datenstand:** effiziente-waermepumpe.ch Wiki, HETAG-Produktseite «EWS», aeesuisse/Forum
-Energiespeicher Schweiz (Feb. 2025, nur Sekundärzitat), energieinside.ch (27.02.2025) —
-Fachpraxis-Sekundärquellen; Simulationsschwelle SIA 384/6 primärquellennäher über
-`[[erdwaermesonden-mehrfachfelder-regeneration-zh-sz]]` (Stadt-Zürich-Studie 2017,
-Geothermie-Schweiz-Leitfaden 2018). Datenstand 25.07.2026.
+**Quelle + Datenstand:** aeesuisse-Faktenblatt «Regeneration Erdsonden — der neue Standard» (Feb.
+2025, jetzt im Volltext über Wayback-Machine-Archiv gelesen), AWEL Kt. ZH «Planungshilfe
+Energienutzung aus Untergrund und Grundwasser» (Juni 2010, jetzt direkt per pdftotext gelesen),
+suissetec-Merkblatt 5|2020, effiziente-waermepumpe.ch Wiki, HETAG-Produktseite «EWS»; Simulations­
+schwelle SIA 384/6 primärquellennäher über `[[erdwaermesonden-mehrfachfelder-regeneration-zh-sz]]`
+(Stadt-Zürich-Studie 2017, Geothermie-Schweiz-Leitfaden 2018). Datenstand 25.07.2026 (Run 106
+aktualisiert).
 → `[[erdsonden-regeneration-sondenfeld-dimensionierung]]`, `[[erdwaermesonden-mehrfachfelder-regeneration-zh-sz]]`,
 `[[erdwaermesonden-bewilligung-zh-sz]]`.
-Status **emerging** (Systematik passiv/aktiv branchenübergreifend konsistent bestätigt, quantitative
-Kennwerte nur fachpraxisbelegt, nicht amtlich/SIA-primärquellennah).
+Status **established** (Run 106: aeesuisse-Faktenblatt und AWEL-Planungshilfe 2010 — Letztere entgegen
+Ersteinschätzung KEIN Bild-PDF — beide jetzt im Volltext gelesen; geothermischer Wärmestrom Schweiz
+≈60 mW/m², Temperaturtrichter bis ≈30 m, COP Erdreich 4,6 vs. Aussenluft 3,5 jetzt primärbelegt statt
+nur sekundärzitiert, durchgerechnetes MFH-Beispiel [2×300 m Sonden, 40 % Regeneration → 6 °C statt
+−1,25 °C nach 50 Jahren] neu).
+
+### F153 — Muss ich bei Gebäudeautomation (Smart Building) eine bestimmte Effizienzklasse einhalten?
+
+**Kurz:** Es gibt keine generelle Schweizer Pflicht zu einer bestimmten BACS-Effizienzklasse (A-D).
+Für grössere Nichtwohn-Neubauten (ab 2'000 m² Energiebezugsfläche) gilt aber eine **Monitoring-Pflicht**
+nach MuKEn 2025, unabhängig von einer Automations-Klasse.
+
+**Fachliche Begründung:** Die vier BACS-Effizienzklassen A (beste Einsparung) bis D (ineffizient),
+Klasse C als Referenz, sind in **SIA 386.111:2022** genormt (Übernahme von SN EN ISO 52120-1:2021;
+Vorsicht: die früher kursierende Bezeichnung «SIA 386.110» ist die 2017 bzw. 2022 abgelöste
+Vorgängerausgabe). Die Schweizer Rechtspraxis verlangt jedoch keine bestimmte Klasse, sondern regelt
+Gebäudeautomation funktional: MuKEn 2025 Art. D.1.23 verpflichtet Nichtwohn-Neubauten ab 2'000 m² EBF
+zu sechs konkreten Monitoring-Funktionen (Formular EN-141 im Kt. ZH), und ab 200'000 kWh/Jahr
+Energieverbrauch greift zusätzlich eine Betriebsoptimierungspflicht. **Minergie verlangt explizit
+keine Gebäudeautomation** — das Label kennt nur ein eigenes, tiefer schwellendes Monitoring-Modul
+(ab 1'000 m², bei Minergie-A immer Pflicht), keinen BACS-Klassen-Bonus. Zur Grössenordnung des
+Effizienzgewinns: eine BAFU-gehostete TU-Dresden-Kurzstudie (Felsmann 2017, Wohngebäude, Basis
+EN 15232) beziffert den Heizenergie-Effizienzfaktor mit C=1,00/B=0,88/A=0,81 (rund 19 % Einsparung
+von Klasse C auf A), Warmwasser C=1,00/B=0,90/A=0,80 (20 %) — diese Zahlen stammen aus der
+EN-15232-Vorgängersystematik, nicht direkt aus der aktuellen SIA-386.111:2022-Tabelle (die ist
+kostenpflichtig). Für die Kostenseite gibt es keine Schweizer Primärzahl; eine EU-Studie (eu.bac 2024,
+110-m²-Wohnung) nennt für ein Klassen-Upgrade auf B rund EUR 1'400 (≈3 Jahre Amortisation) bzw. auf A
+rund EUR 2'850 (≈4 Jahre) — ausdrücklich als EU-Durchschnittsfallstudie, nicht als CH-Kennwert zu
+verstehen.
+
+**Quelle + Datenstand:** SIA-Shop-Produktmetadaten shop.sia.ch (Normstatus/Ausgabejahre amtlich
+verifiziert); MuKEn 2025 Art. D.1.23 über zwei konvergierende Quellen (offizielle Minergie-PDF
+«Minergie im Kontext der MuKEn 2025», Stand 01.01.2026 + Fachportal energiehub-gebaeude.ch) —
+NICHT am EnDK-Originaltext selbst verbatim gegengelesen; EN-15232-Effizienzfaktoren aus
+BAFU/TU-Dresden-Kurzstudie (Felsmann, 15.03.2017); Kostenzahl aus eu.bac-Studie 2024 (EU-Verband).
+Datenstand 25.07.2026 (Run 106).
+→ `[[sia-386-bacs-gebaeudeautomation]]`. Status **established** (Kernaussagen — Normidentität,
+MuKEn-Monitoringpflicht, kein Minergie-Bonus — über amtliche/primärnahe Quellen konvergent belegt;
+Nichtwohngebäude-Effizienzfaktoren und CH-Investitionskosten bleiben offen).
+
+### F154 — Reichen meine alten Heizkörper für eine Wärmepumpe, oder muss ich auf Fussbodenheizung umbauen?
+
+**Kurz:** In den meisten Altbauten ja — WPSM-zertifizierte Wärmepumpen sind laut Reglement
+ausdrücklich auf Vorlauftemperaturen bis 55–60 °C ausgelegt, also für den Radiatoren-Altbaufall
+gebaut. Verbindlich geprüft wird das im Rahmen des WPSM-Zertifizierungsverfahrens, das beim
+Heizungsersatz in ZH/SZ für die kantonale Förderung ohnehin zwingend ist — im Sanierungsfall über
+eine Verbrauchshistorie-Rückrechnung, nicht über eine raumweise Heizlastberechnung.
+
+**Fachliche Begründung:** EnergieSchweiz stuft den Einbau einer Wärmepumpe im Altbau «grundsätzlich
+als unproblematisch und lohnenswert» ein: Eine Fussbodenheizung ist zwar effizienter (tiefere
+Vorlauftemperatur), aber moderne **Inverter-Wärmepumpen** erreichen auch mit Radiatoren gute
+Effizienzwerte. Das **Original-Pflichtenheft der Trägerschaft WPSM (Vers. 25.05.2020)** wurde jetzt
+im Volltext gelesen und beantwortet den genauen Prüfschritt: Bei **Sanierungen** wird die nötige
+Heizleistung **nicht** raumweise nach SIA 384.201 oder EN 12831 berechnet, sondern **aufgrund der
+Verbrauchshistorie** (durchschnittlicher Öl-, Gas-, Holz- oder Stromverbrauch) mittels des
+FWS-Datenerfassungsblatts und -Berechnungstools ermittelt (nur bei **Neubauten** gilt die normierte
+Heizlastberechnung SIA 384/1 + SIA 384.201). Für das Wärmeabgabesystem schreibt das Pflichtenheft
+vor, dass die Normen zu maximalen Vorlauftemperaturen eingehalten werden, Einzelraum-Systeme über
+die Heizkurve statt über Thermostatventile geregelt werden, und dass **vor jeder Inbetriebnahme ein
+hydraulischer Abgleich nach SWKI-Richtlinie BT-102-01 Pflicht ist** — das ist kein optionaler Schritt
+vor einem allfälligen Heizkörperersatz, sondern fester Bestandteil jeder WPSM-Anlage. Zusätzlich
+müssen WPSM-zertifizierte Wärmepumpen bei –7 °C Aussentemperatur eine Vorlauftemperatur von 55 °C
+(Luft/Wasser) bzw. 60 °C (Sole/Wasser, Wasser/Wasser) erreichen können — das Label ist damit von
+Haus aus radiatorentauglich. Wer im Kanton Zürich oder Schwyz eine Wärmepumpe bis ca. 15 kW einbaut
+und die kantonale Förderung beziehen will, braucht ohnehin ein **WPSM-Anlagezertifikat**
+(Wärmepumpen-System-Modul, CHF 350 zzgl. MWST, Trägerschaft suissetec/FWS/Gebäudeklima Schweiz/
+SWKI/EnergieSchweiz; 2018 lag die Gebühr noch bei CHF 245). Passt ein Altbau-Sonderfall nicht in
+ein Standard-Modul, gibt es den formalen Weg der **Einzelfreigabe** (CHF 200–500 zzgl. MWST).
+Aus einer bereits in dieser KB etablierten Schweizer Feldmessung (WPZ Buchs/OST) lässt sich zudem
+eine Grössenordnung für den Effizienzverlust bei höherer Vorlauftemperatur herleiten: rund
+**1,0–1,2 % JAZ-Verlust pro °C** (grobe, selbst gerechnete Näherung über drei 10-°C-Klassen
+Neubau/Sanierung/Altbau) — deutlich weniger, als die zuvor hier verwendete, unbelegte deutsche
+Fachportal-Faustregel von 2–2,5 % pro °C suggerierte; jene Zahl wurde zurückgezogen. Für den
+hydraulischen Abgleich bzw. einen einzelnen Heizkörperersatz nennt eine einzelne Schweizer
+Heizungsfirma (axora.ch) als Marktbandbreite CHF 1'500–3'000 bzw. CHF 800–1'800 pro Stück
+(kommerzielle Einzelquelle, keine Verbandsstatistik). **Korrigiert:** Eine zuvor hier vermutete
+«FWS-Modul-7/10-Pflicht ab 1.1.2027» liess sich am direkt abgerufenen Rohtext von
+fws.ch/fws-kursangebot und fws.ch/pruefung-zum-zertifizierten-fachpartner-fws **nicht bestätigen**
+(aktuell gilt weiterhin nur Module 2–6 als Prüfungsvoraussetzung) und ist daher gestrichen.
+
+**Quelle + Datenstand:** WPSM-Pflichtenheft Trägerschaft, Vers. 25.05.2020 (Volltext gelesen);
+BFE-Schlussbericht «FAQ WPSM», 31.10.2018 (pubdb.bfe.admin.ch/9508, Volltext gelesen); WPSM-
+Richtlinien Einzelfreigaben, Vers. 18.01.2023 (Volltext gelesen); energieschweiz.ch «Heizen mit
+Wärmepumpe» (Grundsatzaussage Altbau); bereits primärquellig belegte Förderdestillate
+`[[foerderprogramm-energie-zh-2026]]` / `[[foerderprogramm-energie-sz-2026]]` (WPSM als
+Förderbedingung); `[[wpz-buchs-feldmessung-jaz-2016-2019]]` (JAZ-pro-Grad-Näherung daraus
+abgeleitet). CHF-Kosten hydraulischer Abgleich/Heizkörperersatz: einzelne kommerzielle Schweizer
+Quelle (axora.ch), nicht verbandsbelegt. Datenstand 25.07.2026 (Nachrecherche Run 106+).
+→ `[[waermepumpen-system-modul-wpsm-heizkoerper-altbau]]`, `[[waermepumpe-systemvergleich]]`,
+`[[sia-384-3-wpesti-jaz-methode]]`, `[[wpz-buchs-feldmessung-jaz-2016-2019]]`. Status
+**established** (Trägerschaft/Förderrelevanz UND der bisher offene interne WPSM-Prüfschritt für
+bestehende Heizkörper sind jetzt am Original-Pflichtenheft primärquellig belegt; die JAZ-pro-Grad-
+Näherung bleibt eine grobe Eigenherleitung, die CHF-Kosten für hydraulischen Abgleich/
+Heizkörperersatz bleiben einzelquellig).
