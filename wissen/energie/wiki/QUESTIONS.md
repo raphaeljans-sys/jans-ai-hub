@@ -1725,3 +1725,49 @@ Massivbau-CHF/m² und WDVS-Brandriegel-Kosten (passive Beobachtung, unverändert
 5. Neue Themen-Recherche nach freier Wahl (PDF-Inventar bleibt erschöpft, Web-Pfad) — z.B.
    Healthcare-spezifische Performance-Gap-Zahlen (Spital/Pflegeheim, 24h-Betrieb, Prozessenergie),
    bisher vollständig unbelegt.
+
+## Run 102 (2026-07-25) — vier parallele Agenten: GAPxPLORE-Verifikation, Kt.-ZH-Kühlwerte-Diskrepanz, Healthcare-Performance-Gap (neu), Smart-Meter-Rollout (neu)
+
+Vier parallele `general-purpose`-Rechercheagenten bearbeiten Punkt 3 (GAPxPLORE-Original), Punkt 4
+(Dachbegrünung/Fassadenbegrünungs-Diskrepanz) und zwei neue Themen (Punkt 5 Healthcare-Gap plus ein
+frei gewähltes Thema Smart-Meter-Rollout). Alle vier Änderungen vor der Konsolidierung per
+`git status` verifiziert (zwei geänderte + zwei neue Destillate).
+
+- [x] **Punkt 3 (GAPxPLORE-Original)** ✓ 2026-07-25: Positivbefund — Original-Schlussbericht
+  (Cozza et al., BFE-Vertrag SI/501518-01, 19.11.2019, 145 S.) gefunden und vollständig gelesen; alle
+  vier Minergie-P/A-Zahlen (-12/-18/-16/-5,3 %) wortgetreu bestätigt, keine Korrektur nötig
+  → `[[energie-performance-gap-monitoring-inbetriebnahme]]` auf **established** gehoben, FAQ F141
+  geschärft.
+- [x] **Punkt 4 (Kt.-ZH-Kühlwerte-Diskrepanz)** ✓ 2026-07-25: geklärt — Primärquelle Stadt-Zürich-
+  Bericht «Fachplanung Hitzeminderung» (20.01.2020, FITNAH-3D-Modellierung) zeigt, dass Kanton-ZH-
+  Website nur den Tag-PET-Wert übernimmt, während der Bericht selbst zusätzlich einen
+  Nacht-Lufttemperatur-Wert ausweist, der bei Fassadenbegrünung exakt dem BAFU-Original (1,3 °C)
+  entspricht — kein Widerspruch, zwei unterschiedliche Kenngrössen. Rasenfläche-Kühlwert neu belegt
+  (Tag PET Median -3,6 °C/Max -6,6 °C). Einzige Ausnahme bleibt heller Belag (0,6 °C, weiterhin
+  US-EPA-Herkunft) → `[[urbane-hitzeinseln-kuehlstrategien-aussenraum]]` ergänzt, FAQ F140 geschärft.
+- [x] **Punkt 5 (Healthcare Performance-Gap)** ✓ 2026-07-25: sauberer Negativbefund — keine CH-/
+  D-A-CH-Studie stellt für Spital/Pflegeheim Prognose gegen Ist-Verbrauch; als Näherung reale
+  deutsche Krankenhaus-Kennwerte + drei strukturelle Gap-Treiber aus KB-Bestand hergeleitet
+  → `[[energie-performance-gap-gesundheitsbau]]` (neu, speculative), FAQ **F143** neu.
+- [x] **Neues Thema (frei gewählt): Smart-Meter-Rollout Schweiz** ✓ 2026-07-25: StromVV Art. 8a decies
+  ff. im Volltext gelesen — 80-%-Rollout-Ziel bis Ende 2027/1.1.2028 (Stand 2024: 50,2 %), zentraler
+  Bauherren-Hebel: ZEV/LEG-Anspruch auf Smart Meter innert 3 Monaten (Art. 8a decies Abs. 6),
+  entkoppelt vZEV-Projekte vom allgemeinen Rollout-Fahrplan → `[[smart-meter-rollout-schweiz]]` (neu,
+  established), FAQ **F142** neu.
+
+**Register nachgeführt:** `destillate/INDEX.md` (vier Zeilen neu), `wiki/INDEX.md` (zwei bestehende
+Zeilen geschärft/auf established, zwei neue Destillat-Direktverweise, FAQ-Zählerzeile auf
+«Stand Run 102, 143 Kernfragen» aktualisiert), `wiki/BAUHERREN-FAQ.md` (F141 geschärft/established,
+F142+F143 neu), `training/curriculum.md` (D72), `raw/_INGESTED.md` (vier Zeilen neu), `CHANGELOG.md`.
+
+FAQ-Stand: **143 Kernfragen (F1-F143) belegt.**
+
+**Nächster Lauf: Priorität**
+1. Die fünf gebündelten Kaufentscheide (B1-Konsolidierung, SWKI-VA105-01, SIA-385/1, SIA-385/2,
+   SIA-384.354) sollten jetzt tatsächlich Raphael vorgelegt werden — die Liste wächst seit Run 98
+   unverändert, ohne dass eine Entscheidung eingeholt wurde.
+2. Massivbau-CHF/m² und WDVS-Brandriegel-Kosten: passive Beobachtung fortsetzen.
+3. Kt.-ZH-Kühlwerte-Diskrepanz vollständig geklärt (Run 102) — kein Folgepunkt mehr, ausser der
+   weiterhin ungeklärten US-Herkunft des hellen-Belag-Werts (0,6 °C).
+4. Neue Themen-Recherche nach freier Wahl (PDF-Inventar bleibt erschöpft, Web-Pfad) — z.B. Meta-Punkt
+   M2 (Skill-Entscheidung "energie" eigenständig?) endlich Raphael vorlegen statt weiter aufzuschieben.

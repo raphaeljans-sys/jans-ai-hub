@@ -4864,6 +4864,52 @@ ab 200'000 kWh/a Strom) — gerade dort, wo der grösste Mehrverbrauch gemessen 
 freiwillige Betriebsoptimierung damit eine lohnende, aber zusätzlich zu vereinbarende Leistung.
 → `[[energie-performance-gap-monitoring-inbetriebnahme]]`, `[[muken-2025-modul-7-betriebsoptimierung-hlkkse]]`,
 `[[en-zh-nachweis-uebersicht]]`, `[[minergie-zertifizierung-workflow]]`.
-Datenstand 25.07.2026 (Run 101, neu). Status **emerging** (EBP-Grundlagenbericht 2019 im Volltext
-gelesen, GAPxPLORE-Zahlen bisher nur über Minergie-Sekundärdarstellung, keine Nachfolgestudie nach
-2019 identifiziert, Healthcare-/Pflegebau-spezifische Performance-Gap-Zahlen fehlen vollständig).
+Datenstand 25.07.2026 (Run 102 geschärft). Status **established** (das GAPxPLORE-Original — BFE-
+Schlussbericht 19.11.2019, 145 S. — wurde in Run 102 gefunden und die vier Minergie-P/A-Zahlen
+-12/-18/-16/-5,3 % wortgetreu am Original bestätigt, damit war der einzige zuvor unverifizierte
+Kernclaim primärquellenbestätigt; Healthcare-/Pflegebau-spezifische Zahlen sind jetzt separat unter
+F143 behandelt — kein Negativpunkt mehr für diese Frage).
+
+### F142 — Brauche ich für unseren geplanten ZEV/vZEV überall schon Smart Meter, oder müssen wir bis 2027 warten?
+
+Nein, warten müsst Ihr nicht. Der gesetzliche Rollout (StromVV Art. 31e) verpflichtet die
+Netzbetreiber, bis Ende 2027/1.1.2028 landesweit 80 % aller Zähler auf intelligente Messsysteme
+umzurüsten (Stand Ende 2024: 50,2 %) — das ist aber nur der allgemeine Fahrplan, kein Hindernis für
+ein konkretes Projekt. Sobald Ihr einen ZEV, ein virtuelles ZEV (vZEV) oder eine LEG beim
+Netzbetreiber anmeldet, gibt Euch die StromVV einen erzwingbaren Anspruch: Der Netzbetreiber muss
+innert **3 Monaten** an allen beteiligten Messpunkten Smart Meter installieren (Art. 8a decies
+Abs. 6 StromVV) — unabhängig davon, wann der reguläre Rollout dort sonst geplant gewesen wäre. Ein
+vZEV funktioniert technisch überhaupt nur mit Smart Metern, weil er auf 15-Minuten-Lastgängen
+mehrerer Messpunkte beruht; bei einer LEG ist ein Smart Meter sogar Teilnahmevoraussetzung für alle
+Beteiligten. Die Kosten für den regulären Zähleraustausch trägt der Netzbetreiber über das
+Messentgelt, nicht der einzelne Bauherr. Praktisch heisst das: den ZEV-/vZEV-/LEG-Antrag so früh
+stellen, dass die 3-Monats-Frist für den Zähleraustausch in den Bauzeitplan passt — sonst hängt die
+Inbetriebnahme unnötig an fehlenden Zählern.
+→ `[[smart-meter-rollout-schweiz]]`, `[[zev-eigenverbrauch-mfh-her-2025]]`,
+`[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`.
+Datenstand 25.07.2026 (Run 102, neu). Status **established** (StromVV-Artikel im Volltext gelesen,
+Rollout-Zahlen amtlich BFE-Monitoringbericht 2025; offen bleibt die VNB-Neubau-Default-Praxis, nicht
+amtlich verifizierbar, und das BVGer-Urteil vom 20.06.2025 nur über Sekundärquellen erschlossen).
+
+### F143 — Gibt es Zahlen dazu, wie viel mehr Energie ein Spital oder Pflegeheim im Betrieb tatsächlich verbraucht, als der Energienachweis in der Planung prognostiziert?
+
+Nein — anders als bei Wohnbauten (dort belegt: 10 bis 44 % Mehrverbrauch gegenüber dem
+SIA-380/1-Standardbedarf, siehe F141) existiert für Spital/Pflegeheim weder in der Schweiz noch im
+D-A-CH-Raum eine Studie, die Prognose und gemessenen Betriebsverbrauch gegenüberstellt (vier
+Primärquellen im Volltext durchsucht, sauberer Negativbefund). Der wahrscheinlichste Grund liegt in
+der Gap-Mechanik selbst: Bei Wohnbauten entsteht der Mehrverbrauch vor allem durch abweichendes
+Nutzerverhalten (höhere Raumtemperatur, mehr Lüften) — im Gesundheitsbau ist der 24/7-Betrieb aber
+bereits Norm, kein Verhaltens-Gap möglich. Stattdessen dürfte ein allfälliger Gap vor allem am hohen
+Prozessenergieanteil liegen (Sterilisation/ZSVA, Medizintechnik-Kühlung, OP-Klimatisierung), der im
+behördlichen Energienachweis von vornherein nicht mitgerechnet wird — ein systematischer, kein
+zufälliger Effekt. Als grobe Ordnungsgrösse für die Betriebskostenschätzung dienen reale deutsche
+Krankenhaus-Kennwerte (150 bis über 300 kWh/m² und Jahr bzw. rund 20'000 bis 35'000 kWh je Bett und
+Jahr, davon 60-75 % Wärme) — ausdrücklich kein Schweizer Ziel- oder Normwert, nur eine
+Grössenordnung. Für ein konkretes Projekt empfiehlt sich deshalb ein Energie-Messkonzept mit
+getrennten Zählern für Wärme/Strom/Prozessenergie schon in der Projektierung, damit sich ein
+allfälliger Mehrverbrauch später überhaupt einer Ursache zuordnen lässt.
+→ `[[energie-performance-gap-gesundheitsbau]]`, `[[energie-performance-gap-monitoring-inbetriebnahme]]`,
+`[[sia-2024-nutzungsdaten-gesundheitsbau]]`, `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`.
+Datenstand 25.07.2026 (Run 102, neu). Status **speculative** (sauberer, mehrfach im Volltext
+belegter Negativbefund zur Kernfrage; die Näherungswerte stammen aus deutschen, nicht Schweizer
+Bestandsbauten und sind nicht auf CH-Klimazone/-Bauvorschriften validiert).

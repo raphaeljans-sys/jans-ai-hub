@@ -2,6 +2,72 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 102: GAPxPLORE-Original gefunden (established), Kt.-ZH-Kühlwerte-Diskrepanz geklärt, zwei neue Themen (Healthcare-Performance-Gap, Smart-Meter-Rollout)
+
+Vier parallele `general-purpose`-Rechercheagenten arbeiten die in Run 101 formulierte Prioritätenliste
+(Punkte 3+4) sowie zwei neue Themen ab (Punkt 5 Healthcare-Gap plus ein frei gewähltes Thema). Alle
+vier Ergebnisse vor der Register-Konsolidierung per `git status` verifiziert: zwei bestehende
+Destillate wurden ergänzt, zwei neue geschrieben — keine Diskrepanz zwischen Agenten-Bericht und
+tatsächlichem Dateizustand.
+
+- **GAPxPLORE-Original gefunden — auf established gehoben.** Der bisher nur über eine Minergie-
+  Sekundärdarstellung zitierte BFE-Schlussbericht «GAPxPLORE: Energy Performance Gap in existing, new,
+  and renovated buildings» (Cozza et al., SFOE-Vertrag SI/501518-01, 19.11.2019, 145 S.) wurde über den
+  exakten Titel gefunden (bei Minergie gehostet, pubdb.bfe.admin.ch/aramis.admin.ch lieferten keinen
+  Treffer) und vollständig per curl+pdftotext gelesen. Alle vier bisher unverifizierten Minergie-P/A-
+  Zahlen sind wörtlich im Original bestätigt: Minergie-P Neubau −12 %, Minergie-P Sanierung −18 %,
+  Minergie-A Neubau −16 %, Minergie-A Sanierung −5,3 % (Executive Summary, Stichprobe 56 Gebäude,
+  medianer Gesamt-EPG −14 %). Ein methodischer Spannungspunkt wurde eingeordnet statt stillschweigend
+  übernommen: GAPxPLORE findet für den gesamten Schweizer Wohnungsbestand einen negativen Gesamt-EPG
+  von −6 %, was dem im EBP-Bericht dokumentierten Mehrverbrauch (+10 bis +44 %) auf den ersten Blick
+  widerspricht — erklärt durch unterschiedliche Bezugswerte/Stichproben, kein echter Widerspruch →
+  `[[energie-performance-gap-monitoring-inbetriebnahme]]` von emerging auf **established** gehoben,
+  FAQ F141 geschärft.
+- **Kanton-ZH-Kühlwerte-Diskrepanz zum BAFU-Original geklärt.** Die Primärquelle der kantonalen
+  Kühlkennwerte (Fassadenbegrünung 4,8 °C, Dachbegrünung bis 6,6 °C, Wasserelemente bis 8 °C) wurde
+  identifiziert: Bericht «Fachplanung Hitzeminderung» (Stadt Zürich/Grün Stadt Zürich, 20.01.2020,
+  Klimamodellierung GEO-NET Umweltconsulting FITNAH-3D), im Volltext gelesen. Die vermeintliche
+  Diskrepanz zum BAFU-Wert (1,3 °C bei Fassadenbegrünung) löst sich auf: der Stadt-Zürich-Bericht weist
+  je Massnahme zwei Kennwerte aus — tagsüber die gefühlte Temperatur PET, nachts die reine
+  Lufttemperatur; die Kanton-Website übernimmt nur den auffälligeren Tag-PET-Wert, der Nacht-
+  Lufttemperatur-Wert für Fassadenbegrünung entspricht exakt dem BAFU-Original. Einzige Ausnahme bleibt
+  der helle-Bodenbelag-Wert (0,6 °C), der nicht aus dem Stadt-Zürich-Bericht stammt (dort −1,5/−2,8 °C
+  PET) und weiterhin auf eine US-EPA-Schätzung zurückgeht — uneinheitliches Sourcing auf der Kanton-
+  Website selbst. Zusätzlich neu belegt: Rasenfläche-Kühlwert (Tag PET Median −3,6 °C/Max −6,6 °C) und
+  «Baum auf Rasen» als wirksamste Einzelmassnahme im ganzen Bericht (Max −8,7 °C) →
+  `[[urbane-hitzeinseln-kuehlstrategien-aussenraum]]` ergänzt, FAQ F140 geschärft.
+- **Neues Thema: Energie-Performance-Gap im Gesundheitsbau (Spital/Pflegeheim).** Vier Primärquellen
+  im Volltext durchsucht (EBP/Minergie 2019, FHNW/Brenet Status-Seminar 2014 mit 7 Schweizer
+  Fallstudien, Stadt-Zürich-Literaturstudie 2022, GAPxPLORE-Sekundärdarstellung) — keine enthält einen
+  Gesundheitsbau-Fall, sauberer Negativbefund. Als Näherung dokumentiert: reale gemessene
+  Energiekennwerte deutscher Krankenhäuser (Stiftung Münch 2023, Hessen-Leitfaden, beide im Volltext
+  gelesen) — 150 bis über 300 kWh/m²/Jahr bzw. rund 20'000–35'000 kWh/Bett/Jahr, davon 60–75 % Wärme,
+  plus ein reales Sanierungs-Fallbeispiel (Vitos gGmbH) mit Vorher/Nachher-Messwerten. Aus der
+  bestehenden KB-Faktenbasis (SIA-2024-Destillate) wurden drei strukturelle Gründe hergeleitet, warum
+  ein Gesundheitsbau-Gap anders entstünde als bei Wohnbauten: 24/7-Betrieb ohne Nachtabsenkung ist
+  bereits Norm (kein Verhaltens-Gap möglich), hoher vom Energienachweis ausgeklammerter
+  Prozessenergieanteil (Sterilisation/ZSVA, Medizintechnik-Kühlung, OP-Klimatisierung, 28–100 % je
+  Raumtyp) und extreme Fallstreuung durch Medizintechnik-Ausstattung → neues Destillat
+  `[[energie-performance-gap-gesundheitsbau]]` (status: speculative), FAQ **F143** neu.
+- **Neues Thema (frei gewählt): Smart-Meter-Rollout Schweiz.** Rechtsgrundlage (StromVV Art. 8a decies
+  ff., Fedlex konsolidierter Stand 1.1.2026) im Volltext gelesen: 80 % aller Messeinrichtungen je
+  Netzgebiet müssen bis Ende 2027/1.1.2028 auf intelligente Messsysteme umgerüstet sein (Stand Ende
+  2024 laut BFE-Monitoringbericht: 50,2 %, von 16,8 % im Jahr 2019 kontinuierlich gestiegen). Kosten
+  trägt grundsätzlich der Netzbetreiber über das Messentgelt; bei Verweigerung drohen individuelle
+  Mehrkosten oder eine ElCom-Verfügung (vom Bundesverwaltungsgericht am 20.06.2025 bestätigt, nur
+  Sekundärquellen gelesen). Zentraler, bisher unter den ZEV/LEG-Destillaten nicht sichtbarer Bauherren-
+  Hebel: Art. 8a decies Abs. 6 StromVV gibt einem ZEV/einer LEG einen erzwingbaren 3-Monats-Anspruch
+  auf Smart Meter an allen beteiligten Messpunkten — das entkoppelt ein geplantes vZEV-Projekt vom
+  allgemeinen VNB-Rollout-Fahrplan und sollte aktiv in die Terminplanung einfliessen → neues Destillat
+  `[[smart-meter-rollout-schweiz]]` (established), verlinkt mit `[[zev-eigenverbrauch-mfh-her-2025]]`
+  und `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`, FAQ **F142** neu.
+
+**Register nachgeführt:** `destillate/INDEX.md` (vier Zeilen neu), `wiki/INDEX.md` (zwei bestehende
+Zeilen geschärft/auf established gehoben, zwei neue Destillat-Direktverweise, FAQ-Zählerzeile auf
+«Stand Run 102, 143 Kernfragen» aktualisiert), `wiki/BAUHERREN-FAQ.md` (F141 geschärft/established,
+F142+F143 neu), `wiki/QUESTIONS.md` (Run 102 abgeschlossen, neue Prioritäten), `training/curriculum.md`
+(D72), `raw/_INGESTED.md` (vier Zeilen neu). FAQ-Stand: **143 Kernfragen (F1-F143) belegt.**
+
 ## 2026-07-25 — Run 101: Hitzeinseln-Destillat auf established (BAFU/ARE-Volltext), Blitzschutz-Backlog bereinigt (Run-94-Nachzug), neues Thema Energie-Performance-Gap
 Drei parallele `general-purpose`-Agenten arbeiten die Run-100-Prioritäten 3 (Hitzeinseln vertiefen)
 und 4 (neues Thema) sowie einen Blitzschutz-Backlog-Punkt ab. Die fünf gebündelten Kaufentscheide

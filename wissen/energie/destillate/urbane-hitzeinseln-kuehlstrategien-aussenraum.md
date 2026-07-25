@@ -5,7 +5,7 @@ ausgabe: BAFU/ARE-Grundlagenbericht 2018 (Bern), Umwelt-Wissen Nr. 1812, 108 S.;
 gelesen: 2026-07-25 (Run 100, Erstanlage) + 2026-07-25 (Vertiefung Run 101: BAFU/ARE-PDF UW-1812-D **im Volltext** gelesen — Direkt-Download bafu.admin.ch/dam/.../hitze-in-staedten.pdf.download.pdf/uw-1812-d.pdf lieferte HTTP 502, funktionierender Spiegel nccs.admin.ch/dam/nccs/de/dokumente/website/sektoren/gesundheit/hitze_staedte_2018_bafu.pdf.download.pdf/2018_BAFU_ARE_Hitze%20in%20St%C3%A4dten.pdf (6.9 MB, PDF 1.7) via curl geladen, mit pdftotext -layout extrahiert und durchsucht; Kanton Schwyz via sz.ch/umweltdepartement/.../anpassung-an-den-klimawandel.html + bote.ch-Artikel 13.04.2026; MeteoSchweiz-Primärquelle via meteoswiss.admin.ch/about-us/media/press-releases/2025/climate-change-particularly-pronounced-in-switzerland.html + admin.ch-Spiegel)
 datenstand: BAFU/ARE-Bericht 2018 jetzt im Volltext ausgewertet (vorher nur Web-Auszug) — die eigene Systematik des Bundes ist präziser als die bisher im Destillat dargestellte vereinfachte 5er-Liste (siehe unten, Korrektur); Kühlungs-Kennwerte teils direkt im BAFU-Volltext verifiziert (Baum >7 °C, Fassadenbegrünung 1,3 °C, Albedo 0,6 °C je mit Originalquelle/-kontext), teils nur auf der Kanton-ZH-Seite gefunden und dort nicht weiter referenziert (Dachbegrünung 0,8–6,6 °C, Rasenfläche 6,6 °C, Wasserelemente 8 °C) — als solche gekennzeichnet; Kt. Schwyz jetzt recherchiert (Negativ-/Teilbefund, siehe unten); «rund 5x mehr Tropennächte Zürich» jetzt an der offiziellen MeteoSchweiz-Medienmitteilung vom 04.11.2025 verifiziert (3-Grad-Welt-Szenario, Referenzperiode 1991–2020) — vorheriger Verdacht einer ungenauen Sekundärquelle hat sich NICHT bestätigt, die Zahl ist korrekt und amtlich
 status: established (BAFU/ARE-Systematik jetzt am Volltext korrigiert, Baum->7 °C und Albedo-0,6 °C-Wert am BAFU-Original mit Kontext verifiziert, Kt.-SZ-Recherche abgeschlossen, Tropennächte-Zahl an der offiziellen MeteoSchweiz-Medienmitteilung verifiziert); einzelne Kanton-ZH-Werte (Dachbegrünung 6,6 °C, Rasenfläche 6,6 °C, Wasserelemente 8 °C) bleiben ohne eigene Primärquelle jenseits der Kanton-Website (siehe «Offene Punkte»)
-last_updated: 2026-07-25
+last_updated: 2026-07-25 (Run 102: Vertiefung Kanton-ZH-Kühlwerte + Rasenfläche)
 ---
 
 # Destillat — Urbane Hitzeinseln und sommerliche Aussenraum-Ueberhitzung: Kühlstrategien im Stadtraum/am Gebäude
@@ -322,3 +322,108 @@ Siehe auch: `[[sommerlicher-waermeschutz]]` (Innenraum-Nachweis SIA 180),
 Vertikalbegrünung), `[[rrb-2025-1082-klimaanlagen-bewilligungspraxis-zh]]` (bauliche Vorstufe vor
 der Klimaanlagen-Bewilligung), `[[behoerden-vorabklaerung]]` (Vorlage für standortspezifische
 Behördenabklärung vor Baueingabe).
+
+## Vertiefung Kanton-ZH-Kühlwerte + Rasenfläche (Run 102, 2026-07-25)
+
+**Primärquelle der Kanton-ZH-Kühlwerte gefunden — Diskrepanz zum BAFU-Original geklärt.** Die auf
+der Kanton-ZH-Seite «Massnahmen gegen Hitze» ohne Fussnote genannten Werte (Fassadenbegrünung
+4,8 °C, Dachbegrünung 0,8–6,6 °C, Rasenfläche bis 6,6 °C, Wasserelemente bis 8 °C, heller
+Bodenbelag bis 0,6 °C) stammen **nicht aus einer eigenen Kanton-Publikation**, sondern (mit einer
+Ausnahme, siehe unten) direkt aus dem städtischen Bericht **«Fachplanung Hitzeminderung»** (Stadt
+Zürich, Grün Stadt Zürich als Herausgeberin, Datum 20.01.2020; Zitiervorschlag im Dokument:
+«Fachplanung Hitzeminderung. Stadt Zürich (Hrsg.). Zürich, 2020.»; Redaktion/Klimamodellierung:
+GEO-NET Umweltconsulting GmbH und berchtoldkrass space&options). PDF-Fundstelle (28 MB, im
+Volltext gelesen via `pdftotext`, Datenstand dieser Recherche 25.07.2026):
+`https://www.stadt-zuerich.ch/content/dam/web/de/umwelt-energie/klima/dokumente/klimaanpassung/fachplanung-hitzeminderung/fp-hitzeminderung-bericht.pdf`.
+Die Kanton-ZH-Webseite («Massnahmen gegen Hitze», ohne Quellenverweis) übernimmt die Zahlen aus
+diesem Stadt-Zürich-Bericht, ohne dies kenntlich zu machen — ein Kanton/Stadt-Sourcing-Problem,
+nicht ein Rechenfehler.
+
+**Methodik (klärt die Diskrepanz zum BAFU-Original):** Der Bericht rechnet mit dem
+**Klimamodell FITNAH-3D** (GEO-NET Umweltconsulting) für eine «windschwache, austauscharme,
+sommerliche» Referenz-Wettersituation, kalibriert/abgeglichen an zwei realen Messstationen
+(Stampfenbachstrasse Zürich, Dietlikonerstrasse Wallisellen — «gute Übereinstimmung» laut Bericht).
+Simuliert werden **elf «Modellierungsgebiete»** (repräsentative Zürcher Stadt-/Freiraumstruktur-
+typen), je im Ist-Zustand und mit Massnahme; berichtet werden **Median- und Maximalwert über diese
+elf Gebiete** für zwei unterschiedliche Kenngrössen:
+- **Tag: PET («Physiologisch Äquivalente Temperatur»), 14 Uhr, 2 m über Grund** — eine
+  thermophysiologische Kenngrösse, die neben der Lufttemperatur auch Strahlung, Luftfeuchte und
+  Windgeschwindigkeit einbezieht und deshalb «deutlich höher ausfallen als die Lufttemperatur»
+  kann (Bericht, Kap. «Physiologisch Äquivalente Temperatur»). Das ist die vom Menschen tatsächlich
+  wahrgenommene Temperatur, kein Lufttemperatur-Messwert.
+- **Nacht: Lufttemperatur, 4 Uhr** — ein klassischer, direkt mit dem BAFU-Wert vergleichbarer
+  Kennwert.
+
+Die Kanton-ZH-Webseite zeigt jeweils **nur den Tag-PET-Median- bzw. -Maximalwert** (die auffälligste,
+grösste Zahl), ohne die im selben Bericht ausgewiesenen, deutlich kleineren Nacht-Lufttemperatur-
+Werte zu erwähnen und ohne zu kennzeichnen, dass es sich um eine **simulierte, gefühlte** Grösse
+handelt statt um eine gemessene Lufttemperatur. Das erklärt die Diskrepanz zum BAFU-Original
+methodisch vollständig:
+
+| Massnahme | Stadt-ZH-Bericht Tag (PET), Median/Max | Stadt-ZH-Bericht Nacht (Lufttemp.), Median/Max | Kanton-ZH-Website | BAFU-Original |
+|---|---|---|---|---|
+| Fassadenbegrünung (Tab. 10, 1 m Abstand) | −4,8 °C / −6,6 °C | **−1,3 °C / −1,7 °C** | 4,8 °C | **1,3 °C** (Lufttemperatur, ≤0,6 m Abstand) |
+| Dachbegrünung intensiv/Dachgarten, 2 m über Dach (Tab. 9) | −3,1 °C / −6,6 °C | −0,3 °C / −0,4 °C | 0,8–6,6 °C (Tag) | keine Zahl (nur qualitativ) |
+| Dachbegrünung extensiv, 2 m über Grund (Tab. 9) | −0,8 °C / −1,5 °C | −0,8 °C / −1,1 °C | 0,8–1,4 °C (Nacht) | keine Zahl |
+| Rasen statt Asphalt (Tab. 2) | −3,6 °C / **−6,6 °C** | −0,4 °C / −0,7 °C | bis 6,6 °C | Modellkurve, kein Einzelwert |
+| Wasserfläche statt Rasen (Tab. 6) | −5,6 °C / **−7,6 °C** | −0,3 °C / −1,2 °C | bis 8 °C | bis 1 °C (Fontänenfeld) bzw. 8 °C Oberflächentemperatur (Lyon) |
+| Oberfläche hohe Albedo statt Asphalt (Tab. 14, HA 06) | −1,5 °C / −2,8 °C | nicht ausgewiesen | **bis 0,6 °C** (weicht ab, siehe unten) | 0,6 °C (US-EPA-Schätzung LA) |
+
+**Bemerkenswerter Einzelbefund — die Diskrepanz löst sich fast vollständig auf, sobald man
+Gleiches mit Gleichem vergleicht:** Der Stadt-ZH-Bericht selbst weist für Fassadenbegrünung
+**nachts einen Lufttemperatur-Effekt von 1,3 °C (Median)** aus — exakt der Wert, den das
+BAFU-Original als alleinigen Kennwert nennt. Die vermeintlich «4x höhere» Kanton-ZH-Zahl (4,8 °C)
+ist keine widersprüchliche Messung, sondern **dieselbe Grössenordnung, nur für eine andere
+Kenngrösse (Tag-PET statt Nacht-Lufttemperatur) und einen anderen Zeitpunkt** ausgewiesen. Für die
+Bauherren-Kommunikation heisst das konkret: **1,3 °C ist der belastbare Lufttemperatur-Effekt**
+(Tag wie Nacht vergleichbar), **4,8 °C ist die gefühlte Verbesserung am heissen Nachmittag** (PET,
+die für den Aufenthaltskomfort relevantere, aber methodisch andere Grösse) — beide Zahlen sind
+korrekt, solange sie mit ihrer Einheit («PET»/«gefühlt» vs. «Lufttemperatur») benannt werden.
+
+**Heller Bodenbelag — Ausnahme, NICHT aus dem Stadt-ZH-Bericht:** Der Stadt-ZH-Bericht selbst
+weist für «Oberfläche mit hoher Albedo statt Asphalt» einen deutlich **höheren** Tag-PET-Wert aus
+(−1,5 °C Median / −2,8 °C Max) als die 0,6 °C auf der Kanton-ZH-Webseite. Der 0,6-°C-Wert passt
+stattdessen exakt zur bereits in Run 101 am BAFU-Volltext verifizierten **US-EPA-Schätzung** zum
+Pilotprojekt «Coole Pavement» in Los Angeles (stadtweite 35-%-Strassenflächen-Massnahme) — die
+Kanton-ZH-Seite hat für diese eine Massnahme offenbar nicht den städtischen FITNAH-3D-Wert,
+sondern den kleineren internationalen BAFU/EPA-Wert übernommen. Uneinheitliches Sourcing
+innerhalb derselben Kanton-ZH-Seite; für die Bauherren-Kommunikation ist der städtische
+FITNAH-3D-Wert (−1,5/−2,8 °C PET) die aktuellere, Zürich-spezifische Zahl, sofern eine PET-Aussage
+gewünscht ist.
+
+**Task 3 — fehlender Kühlwert Rasenfläche/Wiese: jetzt beleg- und quellenklar.** Der Stadt-ZH-
+Bericht «Fachplanung Hitzeminderung» (Tab. 2, Kap. «Grünflächen klimaökologisch gestalten», S. 102)
+liefert genau die Zahl, die die Kanton-ZH-Website unter «grosse Rasenfläche» ohne Herleitung zeigt:
+
+- **«Rasen statt Asphalt»**: Tag (PET, 14 Uhr) Median **−3,6 °C**, Maximum **−6,6 °C**, Wirkbereich
+  2–4 m; Nacht (Lufttemperatur, 4 Uhr) Median −0,4 °C, Maximum −0,7 °C, Wirkbereich 2–3 m.
+- Zusätzlich (nicht im bisherigen Destillat, aber Bauherren-relevant als Kombi-Massnahme):
+  **«Baum auf Rasen»** wirkt gemäss demselben Bericht am stärksten von allen elf verglichenen
+  Einzelmassnahmen: Tag (PET) Median **−4,2 °C**, Maximum **−8,7 °C**, Wirkbereich 7–20 m (deutlich
+  grösser als bei jeder anderen Massnahme); Nacht Median −0,6 °C, Maximum −1,2 °C. Begründung im
+  Bericht: «Das Änderungssignal ist hier besonders stark, da die Evapotranspiration des Rasens zu
+  einer stärkeren Abnahme führt, als dies bei einem Baum über Asphalt der Fall ist» (Baum auf
+  Asphalt allein: Median −2,3 °C / Max −4,5 °C).
+- Damit ist die reine Rasenfläche (ohne Baum) klar von der bereits dokumentierten Dachbegrünung
+  unterschieden (unterschiedliche Referenzflächen/Massnahmen, auch wenn beide zufällig densel­ben
+  Maximalwert 6,6 °C erreichen) und mit einer Zürich-eigenen, methodisch transparenten Quelle
+  belegt statt einer unbelegten Kanton-Website-Zahl.
+
+**Bauherren-Transfer (Ergänzung):** Für JANS-Projekte im Grossraum Zürich kann jetzt präzise
+kommuniziert werden, welche Zahl was bedeutet: Lufttemperatur-Effekte (1,3 °C Fassade, ca. 1 °C
+Wasser als Luft) sind die konservative, ganztägig/nachts gültige Grösse; die höheren PET-Werte
+(4,8 °C Fassade, 6,6 °C Rasen, 7,6–8 °C Wasser) beschreiben den **gefühlten** Komfortgewinn am
+Nachmittag unter Extrembedingungen in einem von elf simulierten Zürcher Stadtstrukturtypen
+(Median/Max-Spanne, keine Einzelmessung an einem realen Objekt). Beide Aussagen sind mit
+Quellenangabe («Stadt Zürich, Fachplanung Hitzeminderung 2020, Tab. X» bzw. «BAFU/ARE 2018»)
+weiterhin sauber trennbar zu verwenden; die bisherige Empfehlung, für eine **konservative**
+Bauherren-Aussage die kleineren, lufttemperaturbasierten Werte zu bevorzugen, bleibt unverändert
+gültig — sie ist jetzt aber nicht mehr nur eine Vorsichtsmassnahme gegen eine ungeklärte
+Diskrepanz, sondern eine bewusste Wahl zwischen zwei sauber definierten, beide korrekten
+Kenngrössen.
+
+**Offen bleibt:** ob/wie die Kanton-ZH-Website die Quelle (Stadt-ZH-Bericht 2020) und die
+verwendete Kenngrösse (PET vs. Lufttemperatur) künftig selbst kennzeichnet — das ist eine
+Lücke der Kanton-Website, keine des JANS-Wissens mehr. Nicht geprüft: ob die Kanton-ZH-Seite
+für weitere, hier nicht tabellierte Massnahmen ebenfalls durchgängig aus demselben Stadt-ZH-
+Bericht zitiert oder in Einzelfällen (wie beim hellen Bodenbelag) andere Quellen mischt.

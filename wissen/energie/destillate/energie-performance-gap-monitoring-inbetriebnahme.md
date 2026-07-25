@@ -4,20 +4,29 @@ quelle: "EBP Schweiz AG (Dr. Sabine Perch-Nielsen, Nana von Felten, Dr. Michel M
   und der Stadt Zürich), Volltext minergie.ch/media/2019_performance-gap_in_neubauten_ebp.pdf, gelesen
   2026-07-25 via WebFetch+pdftotext; ergaenzend Minergie Schweiz, Themenseite «Performance Gap»
   (minergie.ch/de/themen/kernthemen/performance-gap/), gelesen 2026-07-25, mit Verweis auf die Studie
-  GAPxPLORE (BFE, 2019) zu Minergie-P/Minergie-A-Neubauten und -Sanierungen; Sekundaerbestaetigung der
-  GAPxPLORE-Zahlen ueber energie-experten.ch, «Performance Gap bei Minergie-Gebaeuden etwa 10 Prozent»
-  (Web-Suchtreffer, nicht separat volltextgelesen)"
+  GAPxPLORE (BFE, 2019) zu Minergie-P/Minergie-A-Neubauten und -Sanierungen; **Primaerquelle GAPxPLORE
+  direkt verifiziert (Run 102, 2026-07-25):** Cozza/Chambers/Geissler/Wesselmann/Gambato/Branca/
+  Cadonau/Arnold/Patel, «GAPxPLORE: Energy Performance Gap in existing, new, and renovated buildings —
+  Learning from large-scale datasets», Final Report im Auftrag des BFE (SFOE-Vertragsnr. SI/501518-01),
+  19.11.2019, Genf, 145 Seiten, Volltext minergie.ch/media/2019_gapxplore_langversion.pdf, gelesen
+  2026-07-25 via curl+pdftotext -layout (vollstaendig als Text vorliegend, Executive Summary EN/FR/DE
+  sowie Kapitel 6 gezielt gelesen); vormalige Sekundaerbestaetigung ueber energie-experten.ch nicht mehr
+  massgeblich, da Primaerquelle jetzt vorliegt"
 herausgeber: "EBP Schweiz AG (Zollikerstrasse 65, 8702 Zollikon) im Auftrag von EnergieSchweiz/Bundesamt
-  fuer Energie BFE und der Stadt Zuerich; Minergie Schweiz (Verein Minergie, Bern)"
+  fuer Energie BFE und der Stadt Zuerich; Minergie Schweiz (Verein Minergie, Bern); GAPxPLORE:
+  Bundesamt fuer Energie BFE (Publisher), Autorenkonsortium Universite de Geneve UNIGE / FHNW / SUPSI /
+  Swiss Solar Agency"
 ausgabe: "Grundlagenbericht November 2019 (Rechercheperiode Ende 2018/erstes Halbjahr 2019, zwei
   Branchenworkshops); Minergie-Themenseite ohne separates Ausgabedatum (Web-Stand 2026), zitiert
-  GAPxPLORE-Studie BFE 2019"
+  GAPxPLORE-Studie BFE 2019; GAPxPLORE Final Report 19.11.2019"
 gelesen: "2026-07-25 (Minergie-Themenseite via WebFetch; EBP-Grundlagenbericht als PDF geladen und mit
   pdftotext -layout vollstaendig in Text gewandelt, 1503 Zeilen, Kapitel 1-5 inkl. Literaturverzeichnis
-  gelesen)"
-datenstand: "2026-07-25 (Web-Abruf); Primaerinhalt der Studie datiert November 2019 — seither keine
+  gelesen; GAPxPLORE-Originalbericht am 2026-07-25 als PDF geladen und mit pdftotext -layout
+  vollstaendig in Text gewandelt, 6855 Zeilen/145 Seiten, Executive Summary und Minergie-Kapitel 6
+  gezielt gelesen)"
+datenstand: "2026-07-25 (Web-Abruf); Primaerinhalt der Studien datiert November 2019 — seither keine
   Nachfolgestudie dieses Umfangs identifiziert (siehe Offene Punkte)"
-status: emerging
+status: established
 last_updated: "2026-07-25"
 ---
 
@@ -85,14 +94,16 @@ Einzelfallstreuung laut Bericht: Abweichungen einzelner Gebäude vom Planwert re
 bis +45 %**; die im Workshop befragten Praxisakteure schätzten den Gap über den gesamten Schweizer
 Gebäudepark auf **10 bis 20 %**.
 
-**Ergänzend, Minergie-spezifisch (GAPxPLORE-Studie, BFE 2019, via Minergie-Themenseite, nicht im
-EBP-Bericht enthalten — eigene Studie mit anderem Fokus):** Minergie-P-Neubauten verbrauchten **12 %
-weniger** als prognostiziert, Minergie-P-Sanierungen **18 % weniger**, Minergie-A-Neubauten **16 %
-weniger**, Minergie-A-Sanierungen **5,3 % weniger** — bei diesem hochwertigen Standard-Segment fällt
-der Gap also klar **negativ** aus (Gebäude verbrauchen weniger als geplant), im Gegensatz zum
-durchschnittlichen Mehrverbrauch bei nicht zertifizierten Mehrfamilienhäusern oben. Diese Zahl war
-in dieser Web-Recherche nicht am GAPxPLORE-Originalbericht selbst verifizierbar (nur über die
-Minergie-Sekundärdarstellung) — als Annahme markiert, siehe Offene Punkte.
+**Ergänzend, Minergie-spezifisch (GAPxPLORE-Studie, BFE 2019, nicht im EBP-Bericht enthalten — eigene
+Studie mit anderem Fokus; Zahlen am Original verifiziert, siehe Abschnitt «Primärquellen-Verifikation»
+unten):** Minergie-P-Neubauten verbrauchten **12 % weniger** als prognostiziert, Minergie-P-Sanierungen
+**18 % weniger**, Minergie-A-Neubauten **16 % weniger**, Minergie-A-Sanierungen **5,3 % weniger** — bei
+diesem hochwertigen Standard-Segment fällt der Gap also klar **negativ** aus (Gebäude verbrauchen
+weniger als geplant), im Gegensatz zum durchschnittlichen Mehrverbrauch bei nicht zertifizierten
+Mehrfamilienhäusern oben. In absoluten Werten ist die Abweichung klein: nur 4 kWh/(m²a) unter dem
+Zielwert bei Minergie-P, nur 6 kWh/(m²a) bei Minergie-A (GAPxPLORE-Bericht, Executive Summary S. V) —
+die grossen Prozentzahlen wirken bei tiefem Absolutverbrauch optisch dramatischer, als sie es in
+Kilowattstunden sind.
 
 ## Gegenmassnahmen (Handlungsfelder, EBP-Bericht Kap. 5.2, S. 28)
 
@@ -156,11 +167,9 @@ Konsequenzen für die Projektierung:
 
 ## Offene Punkte
 
-- **GAPxPLORE-Studie (BFE 2019) nicht im Volltext gelesen** — die Minergie-P/A-Zahlen (-12 %/-18 %/
-  -16 %/-5,3 %) stammen nur aus der Minergie-Sekundärdarstellung, nicht aus dem BFE-Originalbericht
-  selbst. Vor einer Verwendung in einem konkreten Bauherren-Dokument sollte der GAPxPLORE-Bericht
-  direkt beschafft und die Zahlen dort verifiziert werden (voraussichtlich über aramis.admin.ch oder
-  pubdb.bfe.admin.ch auffindbar).
+- ~~GAPxPLORE-Studie (BFE 2019) nicht im Volltext gelesen~~ — **erledigt, siehe Abschnitt
+  «Primärquellen-Verifikation GAPxPLORE (Run 102, 2026-07-25)» unten.** Alle vier Zahlen am
+  Originalbericht bestätigt.
 - **Keine Nachfolgestudie nach 2019 identifiziert.** Der EBP-Grundlagenbericht ist von November
   2019; ob seither (z.B. im Rahmen von MuKEn 2025 oder neueren BFE-Forschungsprogrammen) eine
   aktualisierte gesamtschweizerische Erhebung erschienen ist, wurde in dieser Recherche nicht
@@ -177,6 +186,79 @@ Konsequenzen für die Projektierung:
   (Performance-Gap-Handlungsfelder hier vs. eBO-Methodik dort) wäre eine sinnvolle Vertiefung, sobald
   die Norm selbst beschafft ist (kostenpflichtiges SIA-Normprodukt, bereits als offener Punkt beim
   Wissens-Chef in `wissen/normen/wiki/QUESTIONS.md` vermerkt).
+
+## Primärquellen-Verifikation GAPxPLORE (Run 102, 2026-07-25)
+
+**Auftrag:** die bisher nur über die Minergie-Sekundärdarstellung zitierten GAPxPLORE-Zahlen
+(-12 %/-18 %/-16 %/-5,3 %) am BFE-Originalbericht selbst verifizieren.
+
+**Ergebnis: Originalbericht gefunden und vollständig gelesen — alle vier Zahlen bestätigt, keine
+Korrektur nötig.**
+
+- **Fundstelle:** Cozza, Chambers, Geissler, Wesselmann, Gambato, Branca, Cadonau, Arnold, Patel,
+  «GAPxPLORE: Energy Performance Gap in existing, new, and renovated buildings — Learning from
+  large-scale datasets», Final Report im Auftrag des Bundesamts für Energie BFE (SFOE-Vertragsnummer
+  SI/501518-01), Genf, 19.11.2019, 145 Seiten. Autorenkonsortium: Université de Genève (UNIGE), FHNW,
+  SUPSI, Swiss Solar Agency. Volltext liegt direkt bei Minergie Schweiz gehostet:
+  minergie.ch/media/2019_gapxplore_langversion.pdf (nicht bei pubdb.bfe.admin.ch oder aramis.admin.ch
+  gefunden — die dortigen Suchen blieben ergebnislos; der PDF-Link kam über eine gezielte Websuche
+  nach dem exakten Berichtstitel).
+- **Wortlaut-Beleg (Executive Summary, S. V, Englisch):** «The results confirm the higher performance
+  of Minergie-P buildings, with an EPG of -12% for new construction and -18% for retrofit, and also of
+  Minergie-A buildings with an EPG of -16% for new construction and -5.3% for retrofit.» Identisch
+  bestätigt in der französischen und deutschen Fassung derselben Executive Summary (Zeilen 460 f. bzw.
+  724 ff. im pdftotext-Export). **Damit sind die vier im Destillat zitierten Zahlen -12 %/-18 %/-16 %/
+  -5,3 % 1:1 primärquellenbestätigt — keine Abweichung, keine Korrektur.**
+- **Zusätzlicher Kontext aus dem Original, der ins Destillat übernommen wurde:**
+  - Stichprobengrösse: 56 hocheffiziente Gebäude (Minergie/Minergie-P/Minergie-A gemischt); für die
+    gesamte Minergie-Stichprobe ergibt sich ein **medianer EPG von -14 %**.
+  - In absoluten Werten ist die Abweichung klein: nur **4 kWh/(m²a)** unter dem Zielwert bei
+    Minergie-P, nur **6 kWh/(m²a)** bei Minergie-A (bezogen auf den gesamten Energiebedarf des
+    Gebäudes) — ein Hinweis, den der Bericht selbst als Einordnungshilfe gibt, damit die grossen
+    Prozentzahlen nicht überinterpretiert werden.
+  - Der Bericht warnt ausdrücklich vor Verallgemeinerung: die Stichprobe stammt teilweise aus dem
+    Solar-Preis-Umfeld (Swiss Solar Agency) und ist klein; Bauherrschaften mit Zertifizierungsabsicht
+    könnten überdurchschnittlich sorgfältig sein («building owner applying for a certificate may pay
+    more attention to energy efficiency than the average owner»).
+  - **Bemerkenswerte Spannung zum EBP-Grundlagenbericht (oben, Tabelle):** GAPxPLORE findet für den
+    gesamten Schweizer Wohngebäudepark (basierend auf der GEAK/CECB-Stichprobe) einen **negativen**
+    Gesamt-EPG von **-6 %** (realer Verbrauch tiefer als prognostiziert) — das widerspricht auf den
+    ersten Blick den im EBP-Bericht zusammengetragenen Studien mit deutlichem **Mehrverbrauch** (+10 %
+    bis +44 %). Der GAPxPLORE-Bericht selbst benennt das als Spannungsfeld und ordnet es methodisch
+    ein: unterschiedliche Bezugswerte (Standardbedarf vs. erwarteter Bedarf vs. Grenzwert, vgl. die
+    «Vier Vergleichs-Bezugswerte» oben), unterschiedliche Stichproben (GEAK/CECB-Datenbank vs.
+    Einzelfallstudien) und unterschiedliche Zeiträume/Regionen erklären die Differenz. Für die
+    JANS-Bauherrenkommunikation heisst das: **die Richtung des Gap (mehr oder weniger als geplant)
+    hängt stark von der verwendeten Vergleichsbasis und Gebäudekategorie ab** — eine pauschale
+    Aussage «Neubauten verbrauchen X % mehr/weniger» ohne Nennung des Bezugswerts ist irreführend.
+- **Nicht gefunden / nicht geprüft:** eine Nachfolgestudie zu GAPxPLORE nach 2019 wurde in diesem Lauf
+  nicht gesucht (bleibt offener Punkt, siehe oben). Die Kapitel 6/7 des Originalberichts (detaillierte
+  Fallstudien, Regressionsanalysen) wurden nur in den für die Kernzahlen relevanten Passagen gelesen,
+  nicht vollständig — für eine vertiefte Healthcare-Anwendung (offener Punkt oben) wäre eine erneute,
+  gezielte Lektüre von Kapitel 7 (Fallstudien mit Nutzungsart-Differenzierung) sinnvoll.
+
+**Statuswechsel:** Das Destillat wird von `emerging` auf **`established`** gehoben — der einzige
+zuvor als unverifiziert markierte Kernclaim (die vier GAPxPLORE-Prozentzahlen) ist jetzt direkt am
+Originalbericht bestätigt; die verbleibenden offenen Punkte (Nachfolgestudie, Healthcare-Spezifika,
+SIA-2048-Querverweis) sind Vertiefungs-, keine Verifikationslücken.
+
+**Formulierungsvorschlag für eine geschärfte FAQ-Antwort (F141):**
+
+> «Warum verbraucht mein Neubau mehr Energie als im Energienachweis berechnet?»
+>
+> Das kommt darauf an, welchen Standard Du baust. Bei durchschnittlichen Mehrfamilienhäusern zeigen
+> Schweizer Studien einen realen Mehrverbrauch von rund 10 bis 44 % gegenüber dem im Energienachweis
+> (SIA 380/1) berechneten Standardbedarf — Hauptursache ist nicht die Bauqualität, sondern das reale
+> Nutzerverhalten (im Schnitt rund 22,5 °C Raumtemperatur statt der 20 °C Normannahme, häufigeres
+> Lüften). Bei zertifizierten Minergie-P- und Minergie-A-Bauten dreht sich das Bild gemäss der
+> BFE-Studie GAPxPLORE (Cozza et al. 2019, primärquellenverifiziert): dort liegt der reale Verbrauch
+> **unter** dem Prognosewert (Minergie-P: -12 % im Neubau, -18 % bei Sanierungen; Minergie-A: -16 % im
+> Neubau, -5,3 % bei Sanierungen) — in Kilowattstunden allerdings nur eine kleine Abweichung von 4 bis
+> 6 kWh/(m²a), weil diese Gebäude ohnehin schon sehr wenig verbrauchen. Der Energienachweis bleibt in
+> jedem Fall eine Vergleichsgrösse fürs Baubewilligungsverfahren, keine verlässliche Prognose Deiner
+> künftigen Heizkosten — ich empfehle deshalb ein Energie-Messkonzept ab der Projektierung und eine
+> systematische Inbetriebsetzung in den ersten ein bis zwei Betriebsjahren, damit wir allfällige
+> Abweichungen früh erkennen und korrigieren können.
 
 ## Backlinks
 

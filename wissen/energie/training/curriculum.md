@@ -1304,3 +1304,35 @@ Verfahrensstand unverändert. FAQ-Stand jetzt **F1–F105**. Details: `outputs/2
   Fassadenbegrünungs-Diskrepanz (4,8 vs. 1,3 °C) ungeklärt, fünf gebündelte Kaufentscheide (B1,
   SWKI-VA105-01, SIA-385/1, SIA-385/2, SIA-384.354) sollten Raphael jetzt tatsächlich vorgelegt
   werden statt weiter nur mitgeführt zu werden — wächst seit Run 98 unverändert im Backlog.
+
+- **D72 (Run 102, 2026-07-25, vier parallele Agenten)** — Vier `general-purpose`-Rechercheagenten
+  arbeiten die Run-101-Prioritäten 3+4 sowie zwei neue Themen ab. **GAPxPLORE-Original gefunden**
+  (Cozza et al., BFE-Schlussbericht SI/501518-01, 19.11.2019, 145 S., Volltext) — alle vier bisher
+  nur sekundär zitierten Minergie-P/A-Zahlen (-12/-18/-16/-5,3 %) wortgetreu bestätigt, methodischer
+  Spannungspunkt (gesamtschweizerischer EPG -6 % vs. Wohnbau-Mehrverbrauch +10 bis +44 %) eingeordnet
+  → `[[energie-performance-gap-monitoring-inbetriebnahme]]` auf **established** gehoben, FAQ F141
+  geschärft. **Kt.-ZH-Kühlwerte-Diskrepanz geklärt** (Primärquelle Stadt-Zürich-Bericht «Fachplanung
+  Hitzeminderung» 2020, FITNAH-3D-Modellierung im Volltext gelesen): Kanton-Website zeigt nur den
+  Tag-PET-Wert, der Bericht selbst weist zusätzlich einen Nacht-Lufttemperatur-Wert aus, der bei
+  Fassadenbegrünung exakt dem BAFU-Original (1,3 °C) entspricht — kein Widerspruch, zwei
+  unterschiedliche Kenngrössen; Rasenfläche-Kühlwert neu belegt (Tag PET Median -3,6 °C/Max -6,6 °C),
+  «Baum auf Rasen» als wirksamste Einzelmassnahme ergänzt (Max -8,7 °C); einzige weiterhin
+  US-EPA-basierte Zahl bleibt heller Belag (0,6 °C) → `[[urbane-hitzeinseln-kuehlstrategien-aussenraum]]`
+  ergänzt, FAQ F140 geschärft. **Neues Thema: Energie-Performance-Gap im Gesundheitsbau** (Spital/
+  Pflegeheim, JANS-Healthcare-Fokus): sauberer Negativbefund nach vier im Volltext durchsuchten
+  Primärquellen (EBP/Minergie 2019, FHNW/Brenet 2014, Stadt Zürich 2022, keine enthält einen
+  Gesundheitsbau-Fall) — als Näherung reale deutsche Krankenhaus-Kennwerte (150 bis >300 kWh/m²/a
+  bzw. 20'000-35'000 kWh/Bett·Jahr) plus drei strukturelle Gap-Treiber aus KB-Bestand hergeleitet
+  (24/7-Betrieb ohne Nachtabsenkung, vom Energienachweis ausgeklammerter Prozessenergieanteil,
+  extreme Fallstreuung Medizintechnik) → `[[energie-performance-gap-gesundheitsbau]]` (neu,
+  speculative), FAQ **F143** neu. **Neues Thema (frei gewählt): Smart-Meter-Rollout Schweiz**
+  (StromVV Art. 8a decies ff. im Volltext gelesen, bisher als Lücke unter ZEV/LEG identifiziert):
+  80-%-Rollout-Ziel bis Ende 2027/1.1.2028 (Stand Ende 2024: 50,2 %), Kosten grundsätzlich beim
+  Netzbetreiber via Messentgelt; zentraler Bauherren-Hebel — ZEV/LEG hat erzwingbaren 3-Monats-
+  Anspruch auf Smart Meter an allen Messpunkten (Art. 8a decies Abs. 6 StromVV), entkoppelt ein
+  geplantes vZEV vom allgemeinen VNB-Rollout-Fahrplan → `[[smart-meter-rollout-schweiz]]` (neu,
+  established), FAQ **F142** neu. FAQ-Stand: **143 Kernfragen (F1-F143) belegt.** Alle vier Agenten-
+  Ergebnisse vor Register-Konsolidierung per `git status` verifiziert (zwei geänderte + zwei neue
+  Destillate). Weiterhin offen: fünf gebündelte Kaufentscheide (unverändert seit Run 98, sollten
+  Raphael jetzt vorgelegt werden), Massivbau-CHF/m²/WDVS-Brandriegel-Kosten (passive Beobachtung),
+  Meta-Punkt M2 (Skill-Entscheidung "energie" eigenständig?) weiterhin unentschieden.
