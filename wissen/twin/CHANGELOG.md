@@ -5,6 +5,19 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-25h — twin-fidelity-review (Selbsttest 2026-07-25e, Apple-Mail-Fallback, M365-Connector
+  weiterhin ohne Mail-Tool in dieser Session).** Drei frische authentische Goldproben bewusst
+  ausserhalb der KISPI-/Baurechts-Achse gezogen (Costamagna/3D-Software.ch Sie-Vendor 14.11.2025,
+  Hleb/Website Englisch-Du 10.02.2026, Nesa/khgp Du-Status-Forward 02.02.2026). Gesamt-Fidelity 84
+  (Beziehung 76 schwaechste Facette). Neue Marker: `fachsignatur.md` (Vendor-Sie «Frage vor Dank» +
+  persoenliche Meinungsfrage), `beziehungsregister.md` (zweiter, unabhaengiger Beleg fuer nackten
+  Vorname-Opener ohne Anrede-Formel, generalisiert vom Einzelfall Besnik). Widerspruch geschlichtet:
+  «Danke und Gruss» Sub-Du-Einschraenkung faellt (drei Belege Batch 60/62), `stimme.md` Do-Block +
+  `QUESTIONS.md` aktualisiert. Zusatzmassnahme: `rules/anrede-kontakte.md` (bisher nur 1 Eintrag) um
+  13 im Wiki mehrfach belegte Kontakte ergaenzt (hoechste Hebelwirkung aus Review 2026-07-25d).
+  4 neue Fragen QUESTIONS Runde 260725e. DNA neu kompiliert (`skills/twin/tools/build_dna.py`).
+  Report: `outputs/2026-07-25e_fidelity.md`.
+
 - **2026-07-25g — twin-mail-training Batch 65 (2026-07-17 12:47 bis 2026-07-23 17:17, MCP-Tool
   `outlook message list` funktionierte direkt).** 8 Volltexte aus 34 relevanten Mails destilliert
   (26 weitere identifiziert, sofort im Folgelauf verfuegbar). Neue Marker in allen fuenf

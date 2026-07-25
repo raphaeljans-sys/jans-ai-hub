@@ -652,6 +652,15 @@ das Ergebnis in den passenden Wiki-Artikel.
   einer dritten, unabhaengigen Methode. **Lehre fuer kuenftige Scouts:** Dateinamen-Diff muss
   ae/oe/ue↔ä/ö/ü normalisieren, sonst hohe Falsch-Positiv-Quote (in diesem Lauf ca. 80 der ~90
   Kandidaten-Treffer).
+- [x] R73-Freshness/B48-Freshness (Run 72, 2026-07-25, Token-Vollgas) Datei-Frischecheck
+  `PL - 02_Recht_Norm` + `PL - 03 Brandschutz` gegen den Zeitstempel von Run 70 (`find -newer`,
+  analog K60-Freshness/E46-Freshness aus Run 69) — **0 neue/veraenderte Dateien** in beiden
+  Ordnerbaeumen (Run 70 selbst hatte den Frischecheck bereits mit 0 Treffern gegen Run 68
+  durchgefuehrt, aber keinen eigenen Curriculum-Eintrag angelegt — Registrierungs-Luecke analog
+  K46-Nachtrag, hier retroaktiv nachgezogen). Damit ist Recht/Norm+Brandschutz nach fuenf
+  unabhaengigen Scout-Methoden (Begriffs-Grep Run 63-65, Tiefenscan Run 66, Dateinamen-Diff
+  Run 68, Frischecheck Run 70+72) durchgehend ohne neuen Fund → siehe
+  `outputs/2026-07-25_training-run72.md`.
 
 ## Meta / Querschnitt
 - [x] M1 Grundlagen-Checkliste «neue Parzelle» (was holt man IMMER zuerst) als Standard-Output. (2026-06-30 Run 12: 8 Pflicht-Grundlagen EGRID→OEREB→Zonenplan→Baulinien→Vermessung→DTM/Ortho→GWR→Behoerden je mit Connector-Befehl, SZ-Kurzvariante, End-to-End-Benchmark Giebelweg 12 EGRID CH879777718909 validiert → [[kartenportale-grundlagen-checkliste-neue-parzelle]])

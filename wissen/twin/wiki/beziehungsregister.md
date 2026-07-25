@@ -936,6 +936,20 @@ und ergänzt:
   Offerten bis Ende KW16. Lgr». Derselbe Betrieb, zwei Personen, zwei Register — bestätigt, dass Raphael das
   Register konsequent an die individuelle Beziehung knüpft, nicht an die Firma als Ganzes.
   Quelle: ID 21931, 26.03.2026, authentisch.
+
+## Nackter Vorname-Opener ohne Anrede-Formel — zweiter, unabhängiger Beleg (belegt Fidelity 260725e, authentisch)
+Generalisiert den bisher einzigen Beleg (Besnik, oben): bei einer kurzen operativen Weiterleitung
+mit Status-Update an einen Team-/Koordinationskontakt («**Nesa,** im Anhang der Grobterminplan sowie
+die Grobkostenschätzung der Gebäudetechnik. Ich bin am finalisieren der Grobkostenschätzung inkl.
+Ausbau. Folgt in 3h. **Lgr**», an info@khgp.ch, 02.02.2026) eröffnet Raphael wieder mit dem **blossen
+Vornamen + Komma, ohne Anrede-Wort** («Hoi»/«Guten Tag»/etc.) und schliesst mit «Lgr» — ein zweiter,
+von Besnik unabhängiger Kontakt/Kontext (hier: Status-Weiterleitung mit Termin-Zusage, nicht «wie
+besprochen»-Quittierung). Der nackte Vorname-Opener ist damit kein Einzelfall eines Kontakts, sondern
+ein generalisierbares Minimal-Register für die schnelle, hochfrequente operative Team-Weiterleitung
+mit konkretem Status/Termin. Der Zwilling darf bei einer knappen internen Status-Weiterleitung an
+einen eingespielten Team-/Koordinationskontakt auf das Anrede-Wort verzichten (nur Vorname + Komma),
+sofern der Kontakt bereits als Du/vertraut etabliert ist.
+
 - **Dreifach gestaffelte Anrede in EINEM Mail-Kopf an eine gemischte Empfängergruppe:** an AfB Team 2 +
   AfB-Rechtsabteilung + Kreisarchitektin Angela Hottinger (alle im selben «An»-Feld) öffnet die Mail mit drei
   parallel gestaffelten Anreden — «Geschätztes Team 2, / Werte Rechtsabteilung, / Sehr geehrte Frau

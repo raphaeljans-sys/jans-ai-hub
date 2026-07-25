@@ -3,6 +3,39 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260725e (twin-fragesteller, aus Fidelity-Review 2026-07-25e)
+
+Quelle: Drift-Report `outputs/2026-07-25e_fidelity.md` (Gesamt-Fidelity ~86; drei frische authentische
+Goldproben via Apple-Mail-Fallback ausserhalb der bisher meistgenutzten KISPI-/Baurechts-Achse —
+Costamagna/3D-Software.ch Sie-Vendor-Technikfrage 14.11.2025, Hleb/Website English-Du-Äquivalent
+10.02.2026, Nesa/khgp Du-Status-Weiterleitung 02.02.2026). Zwei substanzielle Funde: die «Frage vor
+Dank»-Umkehr + Meinungsfrage an einen Vendor, und ein zweiter unabhängiger Beleg für den nackten
+Vorname-Opener (generalisiert in `beziehungsregister.md`). Je in 1–2 Sätzen beantwortbar.
+
+1. **«Frage vor Dank» + persönliche Meinungsfrage an den Vendor-Mitarbeiter — Regel oder Tagesform?**
+   Bei Costamagna (3D-Software.ch) stellst Du die Sachfrage VOR den Dank und fragst zusätzlich «Wie
+   finden Sie dieses Setting?» — eine echte Meinungsfrage an eine Verkäuferin, nicht nur Kaufabwicklung.
+   Ist das Dein bewusstes Muster bei technischen Vendor-Kontakten, mit denen Du eine gewisse fachliche
+   Neugier teilst, oder war das hier spontan? *Warum: würde die «Dank zuerst»-Norm um einen belegten
+   Gegenfall erweitern und die Fachsignatur um ein neugieriges Vendor-Sie-Register schärfen.*
+   → [[fachsignatur]], [[stimme]]
+2. **Nackter Vorname-Opener beim Sie-Kontakt — geht das auch, oder ausschliesslich Du?** Der zweite
+   Beleg (Nesa) bestätigt das Muster im Du. Würdest Du bei einer kurzen internen Status-Weiterleitung
+   an einen Sie-Kontakt ebenfalls auf ein Anrede-Wort verzichten (nur Name + Komma), oder bleibt das
+   strikt dem Du vorbehalten? *Warum: klärt, ob die generalisierte Regel in `beziehungsregister.md` auch
+   fürs Sie gilt oder eine reine Du-Ausnahme bleibt.* → [[beziehungsregister]]
+3. **Englisches Du-Äquivalent «Hi <Vorname>» — eskaliert es wie im Deutschen (Hallo→Hoi)?** Mit Hleb
+   bleibst Du über mehrere Monate (Feb 2026) durchgehend bei «Hi Hleb». Gibt es für Dich eine wärmere
+   englische Stufe (z.B. «Hey»/Vorname ohne Anrede), die mit wachsender Vertrautheit kommt, so wie im
+   Deutschen Hallo→Hoi→Lieber, oder bleibt Englisch bei «Hi» stabil? *Warum: die Peer-Du-Skala ist bisher
+   nur fürs Deutsche belegt — ein Nein/Ja würde sie aufs Englische übertragen oder bewusst abgrenzen.*
+   → [[stimme]], [[beziehungsregister]]
+4. **Reine technische Status-Zusage mit Zeitfenster («Folgt in 3h») — Dein genereller Ersatz für ein
+   Datum, wenn der Rest-Aufwand klein ist?** Bei Nesa sagst Du «Folgt in 3h» statt eines Datums/einer
+   Uhrzeit. Nutzt Du Stunden-Fenster («in 3h», «in 2 Tagen») bewusst, wenn der verbleibende Aufwand klein
+   und gut abschätzbar ist, und Datum/Uhrzeit erst bei grösseren Zeithorizonten? *Warum: schärft die
+   bereits belegte «Kurzbestätigung mit konkretem Termin» um die Stunden-Variante.* → [[arbeitsweise]]
+
 ## Offen — Runde 260725d (twin-fragesteller, aus Fidelity-Review 2026-07-25d)
 
 Quelle: Drift-Report `outputs/2026-07-25d_fidelity.md` (Gesamt-Fidelity ~85; Selbsttest gegen drei
@@ -1500,13 +1533,14 @@ Daraus belegt beantwortet:
 ## Beantwortet
 (weitere folgen)
 
-- **Widerspruch «Danke und Gruss»-Reichweite (Batch 60, 2026-07-25):** Die DNA/das Wiki
+- ~~**Widerspruch «Danke und Gruss»-Reichweite (Batch 60, 2026-07-25):**~~ **GESCHLICHTET
+  (twin-chef, Fidelity-Review 2026-07-25e)** — Die DNA/das Wiki
   verorten die kombinierte Kurzform «Danke und Gruss» bisher im ultrakurzen Sub-Du. Batch 60
   belegt sie zusätzlich (a) als menschliche Schlusszeile vor dem vollen «Freundliche Grüsse»-
   Block in einer Sie-Behörden-Mail (SRZ Sörensen) und (b) als ganzen Schluss einer operativen
   Du-Terminbitte (Gerry Scherbl). Hypothese: «Danke und Gruss» ist sein terser Dank-plus-Gruss-
-  Default bei JEDER kurzen operativen Bitte/Auskunft, registerübergreifend. Vom twin-chef bei
-  nächster Fidelity-Runde entscheiden lassen, ob die Sub-Du-Einschränkung in der DNA fällt.
+  Default bei JEDER kurzen operativen Bitte/Auskunft, registerübergreifend. **Entscheid:** Sub-Du-
+  Einschränkung gefallen, in `stimme.md` Do-Block generalisiert (siehe oben).
 
 - **Stiller Anhang-Reply ohne Fliesstext (Batch 62, 2026-07-25):** Auf eine dringliche
   Fachplaner-Nachfrage («Können Sie mir bitte dringend die aktuellen Planunterlagen

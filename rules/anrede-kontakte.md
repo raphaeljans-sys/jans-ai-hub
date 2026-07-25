@@ -17,7 +17,23 @@ Diese Liste pflegt alle bekannten Kontakte und ihre Anredeform. Sie wird laufend
 
 | Name | Funktion / Organisation | Projekt(e) | Anrede | Notiz |
 |---|---|---|---|---|
+| Thomas Angerer | Nova Property Fund Management AG, Senior Asset Manager | 2620 Albertstrasse 7 | **Du** | Reziprokes Investor-Du, warm; Register je Anlass Hoi/Lieber/Geschätzter |
+| Besnik | fsgbau, Bauunternehmer | 2620 Albertstrasse 7 | **Du** | Informell, nackter Vorname-Opener ohne Anrede-Formel |
+| Beson | fsgbau, Bauunternehmer | Wartstrasse 8 | Sie | Gleicher Betrieb wie Besnik, anderer Ansprechpartner → Sie |
+| Christoph Bopp | WOMA, Geschäftspartner | kunde-bopp | **Du** | «Geschätzter Christoph» bei Offerte/Gewicht, sonst Hoi/Lieber |
+| Guido Giacometti | Steinmann AG, Werkplaner Fenster | Wartstrasse 8 | Sie | Warm-Sie, eingespielte Zusammenarbeit |
+| Angela Hottinger | Stadt Zürich, Kreisarchitektin AfB | Wartstrasse 8 u.a. | Sie | Warm-formell «Geschätzte Frau Hottinger», seit Erstkontakt 2025 eingespielt |
+| Labinot Shabani | 38 Grad Gebäudetechnik GmbH, Geschäftsführer | KISPI u.a. | **Du** | «Hoi Labi»/«Guten Morgen Labinot» |
 | Albin Spahic | Universitäts-Kinderspital Zürich, Technischer Dienst | 2619 KISPI | **Du** | Per Du seit Projektstart KISPI |
+| Felix Stählin | Karl Wächter AG, Ausführender | 2620 Albertstrasse 7 | **Du** | «Hoi Felix» / «Lieber Gruss», trotz Unternehmer-Rolle |
+| Roman Steinmann | Nova Property Fund Management AG, Asset Manager | 2620 Albertstrasse 7 | **Du** | «Salut Roman» warm; faellt bei Mahn-/Geldkontext auf «Guten Tag» zurueck |
+| Stefan Tschopp | Bauherr-Partner | 2414 Thalwil | **Du** | «Hoi Stefan» routinemaessig; «Geschaetzter Stefan» bei gewichtigem/verbindlichem Ergebnis |
+| Yorck von Dietze | 3D-Freelancer | diverse Visualisierungen | **Du** | Skala Hey/Hoi/Hallo/Lieber je nach Anlass |
+| Peter Weisser | dasBaumanagement.ch, Baumanagement-Partner | diverse | **Du** | «Hoi Peter»/«Guten Morgen Peter» |
+
+Quelle der obigen Ergänzungen (25.07.2026): systematisch aus `wissen/twin/wiki/beziehungsregister.md`
+belegten Mappings uebernommen (mehrfach dokumentierte authentische Mails, nicht Einzelbeleg). Bei
+Widerspruch zur gelebten Praxis: Raphael korrigiert direkt hier, Twin-Wiki wird nachgezogen.
 
 ## Wie neuen Eintrag aufnehmen
 
