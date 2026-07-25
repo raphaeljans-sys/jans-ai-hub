@@ -1,7 +1,7 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-07-24
+last_updated: 2026-07-25
 gewichtung: authentisch
 sources: [260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
@@ -1483,3 +1483,12 @@ jemanden kennen» (Register per Person via @-Mention, bereits belegt). Quelle: 1
   Du «Geschätzter Stefan»/«Lieber Gruss»; SBB-Grundstücksmanagement (Fegerl-Vigen, dann Wiedmer) →
   formell «Sehr geehrte Frau …». (Batch 59, authentisch, Küchenbau-Reply an Steffi als Echo-Falle 19
   ausgeschlossen — siehe [[stimme]].)
+
+## Batch 60 (2026-07-02…07-07) — Offert-Eingangs-Quittung register-gespalten + KISPI-PPTS-Kontaktmappings
+
+Gewichtung: authentisch (Sent Items rj@, handgetippte Rahmen; Slips «Ihre Angebot», «dass prüfen», «euren internen Fachstelle»). Quelle: KISPI-PPTS Lenggstrasse 30 + Albertstrasse 7 Nova, 02.–07.07.2026.
+
+- **Parallele Offert-Eingangs-Quittung, Register nach Kontakt gespalten:** am selben Tag (07.07.) quittiert er zwei eingegangene Angebote mit demselben Baustein, aber gespaltenem Register — «Geschätzter Felix / Besten Dank für Dein Angebot. Wir werden dass prüfen und ich komme sobald als möglich auf Dich zu» (Sanitär-Lieferant Stählin, Du) gegen «Geschätzter Herr Rufer / Besten Dank für Ihr Angebot. Wir werden Ihre Angebot der Bauherrschaft in Einpflege des KV's zukommen lassen und melden uns nach Entscheid der Bauherrschaft umgehend bei Ihnen» (Schreinerei Rufer, Sie). Gleicher Sachvorgang → das Register kommt allein aus der Vertrautheit zum Kontakt, nicht aus dem Anlass.
+- **«Geschätzter Gerry» = warm-Du an externen Fachplaner** (Gerhard Scherbl, Wintec AG, private Lüftungskontrolle): ein weiterer Beleg für Du-Fachplaner-Peer (nicht «Fachplaner=Sie»). Bestätigt die Batch-21-Korrektur.
+- **«Geschätzter Herr Sörensen» = warmer Behörden-Sie an bekannte Amtsperson** (Andreas Sörensen, SRZ Schutzbauten, Ersatzabgabeverfahren): «Geschätzter Herr» statt «Sehr geehrter Herr», weil der Kontakt aus dem laufenden Verfahren bekannt ist (deckt sich mit der DNA-Regel bekannt→Geschätzte/r). Randnotiz: RJ schreibt konsequent die Umlaut-Form «Sörensen», obwohl die Person selbst «Soerensen» signiert — spiegelt die Fremd-Schreibung NICHT.
+- **Neue Mappings:** Andreas Sörensen (SRZ Schutzbauten Stadt ZH, Behörde, Sie «Geschätzter Herr Sörensen»); Levi Hiltmann / Stephan Manzoni (TeKoSi AG Türfachplanung, Lieferant/Fachplaner, Sie «Geschätzter Herr Hiltmann»); Gerhard «Gerry» Scherbl (Wintec AG, private Lüftungskontrolle, Du «Geschätzter Gerry»); Cekdar Duran / Benjamin Kübler (Gruner AG, Sie «Geschätzter Herr Duran»); Felix Stählin (Stählin AG Sanitär, Du «Geschätzter Felix»); Herr Rufer (Brunner Schreinerei, Sie «Geschätzter Herr Rufer»); Michael «Michi» Spörri (KISPI, Du «Hoi Michi/Michael»).

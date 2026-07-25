@@ -1,7 +1,7 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-07-23
+last_updated: 2026-07-25
 gewichtung: authentisch
 sources: [260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
@@ -1431,3 +1431,12 @@ sofort zur Frage an die zuständige Stelle, nicht zum stillen Zeitverlust. Quell
   Kontrolle vom KISPI zu machen? Ich muss die Baufreigabe beantragen [daher] benötige ich Deine
   Arbeit, danke.» — Delegation immer mit dem WARUM (Baufreigabe hängt daran) gekoppelt, «Darf ich Dich
   Bitten»-Formel (Gross-Slip) bestätigt.
+
+## Batch 60 (2026-07-02…07-07) — Offert-Eingang an Bauherrschaft durchstellen + Sitzung-mit-Ziel delegieren
+
+Gewichtung: authentisch (handgetippte Rahmen). Quelle: KISPI-PPTS Lenggstrasse 30 + Albertstrasse 7, 02.–07.07.2026.
+
+- **Standard-Quittung eingegangener Unternehmer-/Lieferantenangebote:** Angebot bestätigen → ankündigen, dass es «der Bauherrschaft in Einpflege des KV's zukommen» gelegt wird → «melden uns nach Entscheid der Bauherrschaft umgehend». Der Entscheid bleibt bei der Bauherrschaft; JANS quittiert, pflegt in den Kostenvoranschlag ein und meldet zurück. Fixe Ablauf-Choreografie.
+- **Angebot mit Kontroll-/Freigabe-Bitte an die Bauherrschaft weiterreichen:** «Im Anhang sende ich Dir das Angebot des Türfachplaners TeKoSi. Bitte um Kontrolle/Weiterreichung an Verkauf und ggf. Freigabe.» — Variante der Drei-Verb-Freigabe (Kontrolle / Weiterreichung / Freigabe), der Adressat entscheidet. Bestätigt das Muster.
+- **Sitzung delegieren, aber das Ziel selbst setzen:** er kündigt die nötige Koordinationssitzung an (PL Jegen + TeKoSi + interne Fachstelle Flächenmanagement&Sicherheit), delegiert die Terminlogistik an die Bauherrn-Seite («ein Termin nach Eurem Wünsch vor Ort zu organisieren») und nagelt den Zweck mit «Ziel: Türschliessmechanismus pro Türe in Türmatrix festlegen nach Wunsch/Pflicht Bauherrschaft» fest. Delegation der Logistik, Behalten der Zielhoheit.
+- **Jeder nächste Schritt an ein «Nach Rücksprache mit X» gekoppelt** (Fabian / Fabian Kübler Gruner) — er verankert Terminzusagen und Nachforderungen sichtbar in einem vorausgegangenen Gespräch. Bestätigt.
