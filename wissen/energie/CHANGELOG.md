@@ -2,6 +2,26 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Netto-Null-Klimaziele-Destillat: alle drei offenen Punkte primärquellig geschlossen, emerging → established
+
+`destillate/netto-null-klimaziele-zh-sz.md` hatte drei offene Punkte, alle über direkten
+curl+pdftotext-Zugriff auf Primärquellen geschlossen. **(1) Art. 102a KV-ZH:** amtlicher Wortlaut
+über zhlex.zh.ch/notes.zh.ch (LS 101, Stand 4/2023) beschafft und wörtlich zitiert; zusätzlich
+Kantonsratsbeschluss 25.10.2021, Inkrafttreten 1.11.2022, Bundesgewährleistung 6.3.2023 (BBl 2023,
+724) gefunden. **(2) Stadtzürcher Volksabstimmung 2022:** Datum 15.5.2022 (identisch mit dem
+KV-ZH-Termin, bestätigt über das amtliche Abstimmungsarchiv `app.statistik.zh.ch`), Ja-Anteil 74.9 %
+(Stimmbeteiligung 47.29 %, mehrfach sekundärquellenbelegt Tages-Anzeiger/NZZ/Limmattaler Zeitung);
+Rechtsgrundlage als Primärtext identifiziert und zitiert: Gemeindeordnung Stadt Zürich Art. 152/152a
+(Teilrevision vom 13.6.2021, genehmigt Regierungsrat 7.9.2022, in Kraft seit 1.1.2023), PDF via
+stadt-zuerich.ch amtliche Sammlung 101.100. **(3) kEnG/kEnV SZ:** Volltext beider Erlasse (SRSZ
+420.100 und 420.111, sz.ch) systematisch nach Jahreszahlen durchsucht — Negativbefund bestätigt:
+kein eigenes, vom Bundesziel abweichendes Netto-Null-Zieljahr; einziges explizites Zieljahr ist
+§ 1a kEnG «bis 2050 keine fossilen Brennstoffe mehr bei Wärmeerzeugungsanlagen» (eingefügt
+24.6.2021, in Kraft 1.5.2022), deckungsgleich mit dem Bundesziel. Frontmatter (quelle/gelesen/
+datenstand) ergänzt, Offene-Punkte-Liste um die drei erledigten Punkte bereinigt (zwei
+themenfremde Punkte — Fernwärme-Anschlusspflicht-Perimeter, MuKEn-2025-Verhältnis — bleiben offen),
+Status emerging → established.
+
 ## 2026-07-25 — GEAK-Kosten-Destillat: zweite/dritte unabhängige Quelle gefunden, emerging → established
 
 `destillate/geak-kosten-efh-mfh.md` hatte als offenen Punkt «zweite unabhängige Quelle zur
