@@ -1,5 +1,39 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## 2026-07-25 (Buch-Run 57, Festigungsmodus, Priorität c: Stichproben-Re-Verifikation) — PBG SZ erstmals amtlich in der KB, Besitzstandsgarantie-Lücke geschlossen, neue offene Frage SZ-Übernutzungspraxis
+
+Run 56 empfahl als nächsten Priorität-(c)-Kandidaten entweder `bauausfuehrung-und-
+baukontrolle.md`/`widerrechtliche-bauten-und-sanktionen.md` (laut Run 55 bereits in Run 30/31
+volltextverifiziert, nur `verifiziert`-Feld fehlt) oder `bestandsumbau-eingriffstiefe.md`
+(Kt. SZ, eigener Charakter, noch nie geprüft). Gewählt: **[[bestandsumbau-eingriffstiefe]]**,
+weil dort ein echter, nie geprüfter Bestand vorlag (höherer Erkenntniswert als ein reiner
+Feld-Nachtrag).
+
+- **Befund: das PBG SZ (Planungs- und Baugesetz Kanton Schwyz, SRSZ 400.100) war bislang
+  KEIN amtlicher Volltext in der KB** — `grep -rl "PBG SZ"` traf ausserhalb dieses einen
+  Wiki-Artikels nur einen Praxisfall-Output, nirgends einen `raw/`-Beleg. Der Artikel zitierte
+  «§ 60 PBG SZ» und flaggte die Besitzstandsgarantie explizit als «SZ analog — § verifizieren»
+  — beides seit dem Seed (07.06.2026) unbelegt stehen geblieben.
+- **Amtliches PDF beschafft** (sz.ch, SRSZ-Stand 1.2.2025, `pdftotext -layout` extrahiert,
+  `raw/260725_amtlich_sz_pbg.md`). **§ 60 PBG SZ** (Grenzabstand-Mass/-Ermittlung inkl. der im
+  Praxisfall Wangen verwendeten Attika-Rücksprungregel Abs. 3 lit. c) **CONFIRMED** — das
+  bestehende Zitat war korrekt, nur nie amtlich hinterlegt.
+- **Echte Lücke geschlossen:** **§ 72 Abs. 1 PBG SZ** («Bestehende, rechtmässig erstellte
+  Bauten und Anlagen, die den neuen Vorschriften widersprechen, sind in ihrem Bestande
+  garantiert») als amtliches SZ-Pendant zu § 357 PBG ZH identifiziert und referenziert; § 72
+  Abs. 3 PBG SZ (5-jähriges Wiederaufbaurecht) ergänzend erfasst.
+- **Neue offene Frage (nicht überstürzt gleichgesetzt):** § 72 PBG SZ ist eine knappe
+  Generalklausel ohne die ausformulierte ZH-Gerichtspraxis zu § 357 PBG («keine feste Quote»,
+  «neubauähnliche Umgestaltung/Gesetzesumgehung»). Ob und wie die Zürcher Übernutzungs-Kasuistik
+  sinngemäss auf SZ übertragbar ist, wurde in diesem Lauf **nicht** recherchiert (kein
+  Gesetzeswortlaut dazu) — im Wiki-Artikel als offene, nicht ungeprüft zu übernehmende Frage
+  markiert. Bei einem realen SZ-Übernutzungsfall vor der Beratung gezielt SZ-Rechtsprechung
+  (Verwaltungsgericht Schwyz) recherchieren.
+- **0 Halluzinationen, 0 Fehlzitate** — beide bestehenden Zitate im Artikel waren bereits
+  korrekt, die KB hatte sie nur nie amtlich belegt. 1 echte Lücke geschlossen, 1 neue amtliche
+  Quelldatei, 1 neue offene Frage sauber markiert statt verschwiegen. Report
+  `outputs/2026-07-25_buch-run57.md`.
+
 ## 2026-07-25 (Buch-Run 56, Festigungsmodus, Priorität c: Stichproben-Re-Verifikation) — Grundmasse-Tabelle Zonenkonformität war ein unbelegter Platzhalter, jetzt amtlich korrigiert
 
 Run 55 empfahl [[zonenkonformitaet]] (last_updated 2026-06-02, ältester `established`-

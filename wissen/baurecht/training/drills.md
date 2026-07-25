@@ -1886,3 +1886,39 @@ korrekt als `needs-verification` geflaggt), aber der komplette Zahlenbestand war
 weiterer Beleg für die Leitplanke «ein Flag ist selten harmlos». Neue Quelldatei
 `raw/260725_amtlich_zh_bzo-zurich-stadt-grundmasse.md`, `verifiziert`-Feld im Wiki-Artikel
 ergänzt. 3 neue Drill-Karten (Modell D) + 1 (Modell C). Report `outputs/2026-07-25_buch-run56.md`.
+
+- **F (Modell A/D):** Wo steht die Besitzstandsgarantie im kantonalen Recht Schwyz (Pendant zu
+  § 357 PBG ZH)? — **A:** **§ 72 Abs. 1 PBG SZ** (SRSZ 400.100): «Bestehende, rechtmässig
+  erstellte Bauten und Anlagen, die den neuen Vorschriften widersprechen, sind in ihrem
+  Bestande garantiert.» Vorher war dies im Wiki nur als «SZ analog — § verifizieren» geflaggt,
+  ohne amtlichen Beleg. `raw/260725_amtlich_sz_pbg.md`. _[2026-07-25]_
+- **F (Modell D):** Enthält das PBG SZ eine der ZH-Gerichtspraxis («keine feste Quote», «kein
+  Drittel», neubauähnliche Umgestaltung/Gesetzesumgehung) vergleichbare Kasuistik zur
+  Übernutzungsfrage? — **A:** **Nein, nicht im Gesetzeswortlaut.** § 72 PBG SZ ist eine knappe
+  Generalklausel (+ 5-Jahres-Wiederaufbaurecht Abs. 3); die ZH-Kasuistik zu § 357 PBG ist
+  eigenständige, kantonsspezifische Rechtsprechung und darf nicht ungeprüft auf SZ übertragen
+  werden — offene Frage für eine allfällige SZ-Praxisrecherche. _[2026-07-25]_
+- **F (Modell D):** Nach welcher Formel bemisst sich der Grenzabstand nach § 60 PBG SZ, und was
+  gilt für Attikageschosse? — **A:** **50 % der Gebäudehöhe, mindestens 3 m** (Bauten bis 30 m
+  Gebäudehöhe). Attikageschosse/Dachbrüstungen zählen nicht zur Gebäudehöhe, wenn sie auf der
+  Schmalseite innerhalb eines 45°-Giebeldreiecks liegen und auf der Längsseite (ausser max. 1/3
+  der Fassadenlänge) um ihr eigenes Höhenmass zurückversetzt sind (§ 60 Abs. 3 lit. c PBG SZ) —
+  die im Praxisfall Wangen SZ verwendete Firstprojektionslinien-Logik ist damit amtlich
+  bestätigt. _[2026-07-25]_
+
+**Ergebnis Buch-Run 57 (Festigungsmodus, Priorität c, Stichproben-Re-Verifikation
+[[bestandsumbau-eingriffstiefe]]):** erster Modell-D-Lauf dieses Artikels seit dem Seed vom
+07.06.2026. Der Artikel trug in den Quellen die ungeprüfte Notiz «Bestandesschutz/
+Besitzstandsgarantie … SZ analog — § verifizieren» — das PBG SZ (SRSZ 400.100) war bislang
+gar nie als amtlicher Volltext in der KB vorhanden (kein einziger `raw/`-Treffer für «PBG SZ»
+ausserhalb dieses einen Artikels und eines Praxisfall-Reports). Amtliches PDF von sz.ch
+(SRSZ-Stand 1.2.2025, `pdftotext -layout` extrahiert) beschafft: **§ 72 Abs. 1 PBG SZ**
+bestätigt als SZ-Pendant zu § 357 PBG ZH; zusätzlich **§ 60 PBG SZ** (Grenzabstand/
+Gebäudehöhen-Ermittlung inkl. Attika-Rücksprungregel Abs. 3 lit. c) volltextprüfend
+gegengecheckt — beide Zitate im Wiki-Artikel bereits **korrekt**, aber bislang unbelegt.
+**Echte Lücke geschlossen, 0 Fehlzitate, 0 Halluzinationen.** Wichtiger Nebenbefund: die
+SZ-Norm trägt keine mit ZH vergleichbare Übernutzungs-Kasuistik im Gesetzeswortlaut — im
+Artikel als offene, nicht ungeprüft zu übertragende Frage markiert statt stillschweigend
+gleichgesetzt. Neue Quelldatei `raw/260725_amtlich_sz_pbg.md`, `verifiziert`-Feld im
+Wiki-Artikel erstmals ergänzt. 3 neue Drill-Karten (2×D, 1×A). Report
+`outputs/2026-07-25_buch-run57.md`.

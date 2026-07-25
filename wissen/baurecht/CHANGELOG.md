@@ -4,6 +4,30 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-25 — Buch-Run 57 (Festigungsmodus, Priorität c: Stichproben-Re-Verifikation Bestandsumbau-Eingriffstiefe)
+- [neu] **Amtlicher Volltext des PBG SZ erstmals in der KB.** `raw/260725_amtlich_sz_pbg.md`
+  (Planungs- und Baugesetz Kanton Schwyz, SRSZ 400.100, Stand 1.2.2025) — §§ 59-64 (Grenz-/
+  Gebäudeabstand, Gebäudehöhen-Ermittlung) und § 72 (Bestandesgarantie) per `pdftotext -layout`
+  extrahiert. Vor diesem Lauf existierte für PBG SZ kein einziger `raw/`-Beleg in der KB, obwohl
+  der Wiki-Artikel [[bestandsumbau-eingriffstiefe]] bereits seit 07.06.2026 daraus zitierte.
+- [korrektur] **[[bestandsumbau-eingriffstiefe]]** — Lücke geschlossen statt Fehler korrigiert:
+  «§ 60 PBG SZ» (Grenzabstand/Gebäudehöhen-Ermittlung inkl. Attika-Rücksprung Abs. 3 lit. c) war
+  bereits korrekt zitiert, jetzt amtlich belegt; «Bestandesschutz/Besitzstandsgarantie … SZ
+  analog — § verifizieren» ersetzt durch den bestätigten Beleg **§ 72 Abs. 1 PBG SZ**. Neuer
+  Absatz in Abschnitt 3 markiert zusätzlich eine bisher unausgesprochene offene Frage: § 72
+  PBG SZ trägt keine mit § 357 PBG ZH vergleichbare Übernutzungs-Kasuistik im Gesetzeswortlaut,
+  eine Übertragung der ZH-Gerichtspraxis ist ungeprüft. Erstmaliges `verifiziert`-Frontmatter-
+  Feld ergänzt (Artikel lief seit dem Seed ohne Modell-D-Prüfung).
+- [ergänzt] `wiki/QUESTIONS.md` — neuer Eintrag mit Befund + offener Frage (SZ-
+  Übernutzungspraxis). `training/drills.md` — 3 neue Karten (2×D Grenzabstand/Bestandesgarantie,
+  1×A Quellenfrage) + Lauf-Zusammenfassung. `training/PROGRAMM.md` — Tracker Run 57.
+- **Register-Sweep:** `grep -rn "§ 60 PBG SZ\|SZ analog"` über wiki/, buecher/, training/ vor
+  der Korrektur — Treffer nur im Zielartikel selbst, keine weiteren Fundorte (kein Sweep-Bedarf
+  über die editierten Dateien hinaus).
+- **0 Halluzinationen, 0 Fehlzitate** — beide bestehenden Zitate im Artikel erwiesen sich bei
+  Volltextprüfung als korrekt; der Fund ist eine geschlossene Beleglücke, keine Korrektur eines
+  falschen Werts. Report `outputs/2026-07-25_buch-run57.md`.
+
 ## 2026-07-25 — Buch-Run 56 (Festigungsmodus, Prioritaet c: Stichproben-Re-Verifikation Zonenkonformitaet)
 - [korrektur] **Komplette Grundmasse-Tabelle in [[zonenkonformitaet]] war ein unbelegter
   Platzhalter — jetzt amtlich ersetzt.** Quelle der bisherigen Werte war `raw/260602_docs-

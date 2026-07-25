@@ -1,8 +1,9 @@
 ---
 title: Bestandsumbau — Eingriffstiefe, Baueingabe und Besitzstand (Grundprinzip)
 status: established
-last_updated: 2026-06-07
-sources: ["Praxisfall 2622 Bahnhofstrasse 27 Wangen SZ (Dachausbau Chaled)", "Art. 27/31/46/54 BauR Wangen SZ", "§ 60 PBG SZ", "SIA 181 (Schallschutz)", "VKF-Brandschutzvorschriften", "Bestandesschutz/Besitzstandsgarantie (kantonal: § 357 PBG ZH; SZ analog — § verifizieren)"]
+last_updated: 2026-07-25
+verifiziert: 2026-07-25 (Buch-Run 57, Modell D, Stichproben-Re-Verifikation Prioritaet c — erster Modell-D-Lauf dieses Artikels seit Seed 2026-06-07; § 72 Abs. 1 PBG SZ amtlich beschafft und als SZ-Pendant zu § 357 PBG ZH bestaetigt, § 60 PBG SZ (Grenzabstand/Gebaeudehoehen-Ermittlung inkl. Attika-Ruecksprung Abs. 3 lit. c) volltextgeprueft — beide CONFIRMED, 0 Fehlzitate, aber echte Luecke geschlossen (§ 72 war zuvor gar nicht amtlich belegt))
+sources: ["Praxisfall 2622 Bahnhofstrasse 27 Wangen SZ (Dachausbau Chaled)", "Art. 27/31/46/54 BauR Wangen SZ", "§§ 59-64 PBG SZ (SRSZ 400.100, Grenzabstand/Gebäudehöhen-Ermittlung)", "§ 72 Abs. 1 PBG SZ (SRSZ 400.100, Bestandesgarantie)", "SIA 181 (Schallschutz)", "VKF-Brandschutzvorschriften", "Bestandesschutz/Besitzstandsgarantie ZH: § 357 PBG ZH (siehe [[ausnahmebewilligung-und-bestandesschutz]])", "raw/260725_amtlich_sz_pbg.md"]
 links: [[nutzungsziffern]], [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[14-nutzungsdichte-ausnuetzung]], [[ausnahmebewilligung-und-bestandesschutz]]
 ---
 
@@ -62,6 +63,15 @@ der bestehenden Situation — nicht deren Ausweitung.** Daraus folgt:
   § 357 PBG kennt **keine feste Quote** («kein Drittel»); die Grenze ist die **neubauähnliche
   Umgestaltung / Gesetzesumgehung**, im Einzelfall nach Gesamtwürdigung — was den grossen
   Ermessensspielraum erklärt.
+- **SZ-Pendant amtlich bestätigt (Buch-Run 57):** die Bestandesgarantie steht im kantonalen
+  PBG SZ selbst, nicht bloss «analog» — **§ 72 Abs. 1 PBG SZ** (SRSZ 400.100): «Bestehende,
+  rechtmässig erstellte Bauten und Anlagen, die den neuen Vorschriften widersprechen, sind in
+  ihrem Bestande garantiert.» § 72 Abs. 3 PBG SZ ergänzt ein **5-jähriges Wiederaufbaurecht**
+  im ursprünglichen Umfang nach Abbruch/Zerstörung. Der Gesetzeswortlaut ist knapper als die
+  ZH-Norm und trägt **keine mit § 357 PBG ZH vergleichbare, ausformulierte «keine feste
+  Quote»/«neubauähnliche Umgestaltung»-Kasuistik** — eine solche SZ-spezifische Gerichtspraxis
+  zur Übernutzungsfrage wurde in diesem Lauf nicht recherchiert und ist **nicht ungeprüft aus
+  dem ZH-Massstab zu übernehmen** (offene Frage, siehe `wiki/QUESTIONS.md`).
 - Konsequenz: Die Übernutzungs-/Besitzstandsfrage **vor** einer Baueingabe **vertieft und
   frühzeitig** (Voranfrage, schriftlich, beweissicher) abklären — nicht erst im Verfahren.
 

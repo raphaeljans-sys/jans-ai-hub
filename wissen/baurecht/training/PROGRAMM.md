@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-25 (Run 56)
+last_updated: 2026-07-25 (Run 57)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -113,6 +113,29 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 57 (2026-07-25, Festigungsmodus, Priorität (c) Stichproben-Re-Verifikation, kein
+    Agent-Fan-out):** [[bestandsumbau-eingriffstiefe]] gewählt (Kt. SZ, seit Seed 07.06.2026 nie
+    durch den Modell-D-Loop gelaufen, gegenüber dem Run-56-Alternativkandidaten mit höherem
+    Erkenntniswert). **Befund: das PBG SZ (Planungs- und Baugesetz Kt. Schwyz, SRSZ 400.100) war
+    bislang KEIN amtlicher Volltext in der KB** — der Artikel zitierte «§ 60 PBG SZ» und flaggte
+    die Besitzstandsgarantie als «SZ analog — § verifizieren», beides seit dem Seed unbelegt.
+    Amtliches PDF (sz.ch, SRSZ-Stand 1.2.2025) mit `pdftotext -layout` beschafft
+    (`raw/260725_amtlich_sz_pbg.md`). **§ 60 PBG SZ CONFIRMED** (Grenzabstand 50 % Gebäudehöhe/
+    min. 3 m, Attika-Rücksprungregel Abs. 3 lit. c bestätigt die im Praxisfall Wangen verwendete
+    Firstprojektionslinien-Logik) — bestehendes Zitat war korrekt, nur nie amtlich belegt.
+    **Echte Lücke geschlossen: § 72 Abs. 1 PBG SZ** («Bestehende, rechtmässig erstellte Bauten
+    und Anlagen, die den neuen Vorschriften widersprechen, sind in ihrem Bestande garantiert»)
+    als amtliches SZ-Pendant zu § 357 PBG ZH identifiziert; § 72 Abs. 3 (5-J-Wiederaufbaurecht)
+    ergänzt. **Neue offene Frage bewusst markiert:** § 72 PBG SZ trägt keine mit § 357 PBG ZH
+    vergleichbare Übernutzungs-Kasuistik im Gesetzeswortlaut — Übertragung der ZH-Gerichtspraxis
+    auf SZ ungeprüft, im Artikel als offene Frage (nicht stillschweigend gleichgesetzt) markiert.
+    Register-Sweep negativ (Zitate nur im Zielartikel, keine weiteren Fundorte). **0
+    Halluzinationen, 0 Fehlzitate** (Beleglücke geschlossen, keine Korrektur eines falschen
+    Werts). Erstmaliges `verifiziert`-Feld ergänzt. 3 neue Drill-Karten (2×D, 1×A). Report
+    `outputs/2026-07-25_buch-run57.md`. **Nächster Schritt:** `bauausfuehrung-und-baukontrolle.md`/
+    `widerrechtliche-bauten-und-sanktionen.md` (laut Run 55 bereits in Run 30/31
+    volltextverifiziert, nur `verifiziert`-Feld fehlt) oder neue Kandidatensuche via
+    `grep -L "^verifiziert:" wiki/*.md`.
   - **Run 56 (2026-07-25, Festigungsmodus, Priorität (c) Stichproben-Re-Verifikation, kein
     Agent-Fan-out):** Run 55s Empfehlung gefolgt: [[zonenkonformitaet]] (last_updated 2026-06-02,
     ältester `established`-Bestand ohne `verifiziert`-Feld, ausschliesslich Buch-/BZO-Quellen
