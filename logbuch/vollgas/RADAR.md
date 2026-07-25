@@ -30,6 +30,86 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-07-25 16:00 — [FREI] Zwei Loops liefen den ganzen Tag leer im Kreis; Mini von 4 auf 2 echte Slots bereinigt, Blindgaenger-Retry im Runner
+
+**Fensterzustand:** FREI. Login-Probe mit der Runner-Anmeldung (`~/.jans-dispatch.env`) antwortet
+«OK» — kein Usage-/Rate-Limit, kein Login-Block, kein Mail-Anlass.
+
+**Lagebild:** Beide Runner leben und produzieren. Je Station genau EINE Instanz (MBP PID 17097 seit
+13:10, Lock `/tmp/jans-vollgas-runner.lock` gesetzt; der zweite `ps`-Treffer ist das Kind desselben
+Prozesses, kein Doppelstart). Keine STOP-Datei. Durchsatz gesund: 17 Commits in 90 Minuten, davon
+substanzielle Laeufe (energie Run 90/91/92, planungsgrundlagen 64/65, baurecht-buch 54, normen 22,
+spec 30, zwei twin-Batches). Der Supervisor hat heute zweimal korrekt gegriffen (12:45, 13:09).
+
+**Hauptbefund (P1, behoben):** Die Zaehlung aller Laeufe seit Mitternacht zeigt, dass ein erheblicher
+Teil der Slots an Laeufe ging, die **nach 5-13 Sekunden mit rc=0 und der Antwort «ich sehe keine
+konkrete Anfrage, nur Systemkontext»** endeten — der Prompt kam leer beim Modell an.
+
+| Station | Loop | blind | produktiv |
+|---|---|---|---|
+| Mac Mini | `normen-training-mini` | 6 | 0 |
+| Mac Mini | `synobsis-batch-nacht` | 4 | 1 |
+| MacBook Pro | `wettbewerbs-dna-training` | 3 | 0 (+1 Kollisions-Abbruch) |
+| MacBook Pro | baurecht-buch / normen-nacht | je 1 | 3 bzw. 2 |
+
+Auf dem Mac Mini waren damit **zwei von vier Loops reine Blindgaenger** — die Haelfte der Slots lief
+im Kreis, ohne je etwas zu produzieren.
+
+**Der Leerlauf-Guard vom 13:12 kann das NICHT abfangen.** Seine Annahme war, die SKILL.md werde
+waehrend des `cat` truncatet; er prueft deshalb die Laenge. Gegengeprueft: die Dateien sind
+vollstaendig (4067 bzw. 4721 Bytes), der Prompt wird korrekt gebaut, und derselbe Prompt manuell
+mit identischer Invocation abgefeuert **kommt an** (Antwort «EMPFANGEN»). Auch die YAML-Frontmatter
+ist unschuldig — synthetischer Formtest mit und ohne Frontmatter kam beide Male durch. Es ist also
+ein **transienter Drop auf CLI-Seite**, kein Datei-Problem; der Laengen-Guard laeuft daran vorbei.
+
+**Selbst ausgefuehrt:**
+- **`normen-training-mini` und `synobsis-batch-nacht` auf `enabled: false`** (Mac Mini, reversibel,
+  Backup `.bak-260725`, Begruendung im Kopf der jeweiligen SKILL.md). Beide sind nicht bloss blind,
+  sondern inhaltlich fertig: `normen-training-mini` traegt seit 17.07. selbst «STILLGELEGT — Inventar
+  DIN/VSS/RAL komplett» in der description, und `synobsis-batch-nacht` meldet in seinem einzigen
+  produktiven Lauf heute den **14. Leerlauf in Folge** und empfiehlt seit mehreren Laeufen die eigene
+  Pausierung, ohne sie auftragsgemaess selbst umzusetzen. Wirkt sofort, ohne Runner-Neustart (die
+  Task-Liste wird je Zyklus frisch gebaut). Der Mini zykliert damit nur noch die beiden produktiven
+  Loops `energie-training` und `planungsgrundlagen-training` — kuerzerer Zyklus, mehr echte Laeufe/Std.
+- **Blindgaenger-Retry in `scripts/vollgas-runner.sh` eingebaut:** endet ein Lauf mit rc=0, unter 60 s
+  UND mit dem Tell-Tale-Satz, wird derselbe Task **einmal sofort nachgefeuert** statt den Zyklus-Slot
+  zu verlieren. Erkennung bewusst eng (Laufzeit UND Textmuster), damit ein echt schneller Lauf nie
+  faelschlich wiederholt wird; gegen alle vier real aufgetretenen Blind-Antworten getestet, Gegenprobe
+  mit einer echten Ergebnis-Antwort schlaegt nicht an. `bash -n` sauber.
+- **Schonender Runner-Neustart armiert** statt Holzhammer: `normen-training-nacht` lief gerade
+  (30-Minuten-Loop), ein sofortiger Kill haette die Arbeit weggeworfen. Ein abgesetzter Waechter
+  wartet, bis der Runner zwischen zwei Laeufen steht, beendet ihn dann; der launchd-Supervisor startet
+  ihn binnen 180 s mit dem neuen Script neu (Abbruch nach 45 Min, dann laeuft alles unveraendert
+  weiter). Der Mac-Mini-Runner braucht keinen Neustart — dort wirkt die Bereinigung ohne Code.
+
+**Weitere Beobachtungen (nicht angetastet):**
+- `immobewertung-training` meldet heute den **13. Delta-Null-Lauf in Folge** (Run 45) und verbrennt je
+  Zyklus ~10 Min ohne Erkenntnis. Der Loop hat die Ruecktaktung selbst eskaliert, entscheidet sie aber
+  nicht — dieselbe Konstellation wie bei den beiden heute deaktivierten Loops, nur eine Stufe frueher.
+- `immobewertung-training` brach um 15:51 zusaetzlich mit **API Error 500** ab (330 s, serverseitig,
+  transient) — kein Handlungsbedarf, aber der neue Retry greift hier bewusst NICHT (rc=1, kein
+  Blind-Muster).
+- `twin-fidelity-review` meldet den **M365-Connector als defekt** (`@pnp/cli-microsoft365 npm package
+  not found` bei jedem Befehl). Damit faellt der Mail-Pull fuer die Twin-Goldprobe aus — der Loop
+  laeuft, aber seine Verifikationsstufe ist blind.
+
+**Vorschlaege:**
+- **P1 — erledigt.** Blindgaenger-Slots auf beiden Stationen bereinigt (Mini strukturell, MBP per Retry).
+- **P2 — `immobewertung-training` ruecktakten oder stilllegen.** 13 Delta-Null-Laeufe in Folge; die KB
+  ist saturiert. Entscheid liegt bei Raphael, weil hier — anders als bei den beiden deaktivierten
+  Loops — keine Selbst-Stilllegung dokumentiert ist. Frei werdende Kapazitaet auf die groesste offene
+  Luecke lenken (Kandidat: `wettbewerbs-dna` ETAPPE 3, heute faktisch ohne produktiven Lauf).
+- **P2 — M365-Connector reparieren** (`npm i -g @pnp/cli-microsoft365`), sonst bleibt die Twin-Goldprobe
+  dauerhaft ohne Signal.
+- **P3 — DIN/VSS/RAL einmalig re-auditieren statt dauerhaft stillzulegen.** Run 22 des Schwester-Loops
+  hat gezeigt, dass ein «Inventar komplett» eine Messfehler-Kette sein kann (2 unsichtbare Normen,
+  2 ueberholte Fassungen). Die Stilllegung von `normen-training-mini` stuetzt sich auf genau so eine
+  Komplett-Meldung — ein einmaliger Pruef-Lauf waere ehrlicher als die stille Annahme.
+
+**Mail:** keine. Kein P1-Blocker, der Raphael braucht; Fenster frei, Runner laufen.
+
+---
+
 ## 2026-07-25 13:12 — [FREI] Vollgas-Neustart war halb wirkungslos: Runner fuhr mit dem Drossel-Filter, MBP jetzt von 2 auf 8 echte Loops
 
 **Fensterzustand:** FREI. Login-Probe mit der Runner-Anmeldung (`~/.jans-dispatch.env`,

@@ -192,6 +192,33 @@ den Stationen und laesst jeden Lauf sauber mit rc=0 enden."
             -- "$PROMPT" < /dev/null 2>&1)"
         RC=$?
         DAUER=$(( $(date +%s) - START_TS ))
+
+        # Blindgaenger-Retry (25.07.2026, VOLLGAS-Chef-Radar): Der Prompt kommt
+        # gelegentlich LEER beim Modell an — die Antwort lautet dann sinngemaess
+        # «ich sehe keine konkrete Anfrage, nur Systemkontext» und der Lauf endet
+        # nach 5-13s mit rc=0. Der Leerlauf-Guard oben kann das NICHT abfangen:
+        # die SKILL.md ist vollstaendig, der Prompt wird korrekt gebaut (am
+        # 25.07. mit identischem Prompt manuell gegengeprueft — kam an). Es ist
+        # also ein transienter Drop auf CLI-Seite, kein Datei-Problem. Ohne Retry
+        # verliert der betroffene Loop seinen ganzen Zyklus-Slot (belegt 25.07.:
+        # wettbewerbs-dna-training 3 von 4 Laeufen blind). Darum: einmal sofort
+        # nachfeuern. Erkennung bewusst eng (kurze Laufzeit UND Tell-Tale-Satz),
+        # damit ein echter, schnell fertiger Lauf nie faelschlich wiederholt wird.
+        if [ "$RC" -eq 0 ] && [ "$DAUER" -lt 60 ] \
+           && printf '%s' "$OUT" | grep -qiE "keine (eigentliche |konkrete )?(Anfrage|Nachricht)|nur (System|Systemkontext)|don't see an actual request|no actual request"; then
+            log "BLIND $name (rc=0, ${DAUER}s — Prompt kam leer an) — einmaliger Retry."
+            sleep 5
+            START_TS=$(date +%s)
+            OUT="$("$CLAUDE_BIN" -p \
+                --permission-mode "$PERM_MODE" \
+                --max-budget-usd "$BUDGET" \
+                --fallback-model sonnet \
+                --output-format text \
+                -- "$PROMPT" < /dev/null 2>&1)"
+            RC=$?
+            DAUER=$(( $(date +%s) - START_TS ))
+        fi
+
         TAIL="$(printf '%s' "$OUT" | tail -c 400 | tr '\n' ' ')"
         log "ENDE  $name (rc=$RC, ${DAUER}s): $TAIL"
 
