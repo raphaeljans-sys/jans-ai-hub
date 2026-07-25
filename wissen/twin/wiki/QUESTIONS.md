@@ -3,6 +3,45 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260725d (twin-fragesteller, aus Fidelity-Review 2026-07-25d)
+
+Quelle: Drift-Report `outputs/2026-07-25d_fidelity.md` (Gesamt-Fidelity ~85; Selbsttest gegen drei
+authentische Vor-Claude-Golds via Apple-Mail-Fallback, da der M365-Connector in dieser Session nicht
+funktionsfähig war — Hottinger/Vorabklärung 24.02.2026, Lämmler/Konzeptbooklet 04.03.2026, Albin/
+Koordination Phase 32 18.03.2026). Hauptbefund war ein strukturelles Retrieval-Problem (siehe Report),
+keine neuen Stil-Marker — die KB ist für den 2026-Q1-Korpus bereits stark gesättigt. Die Fragen zielen
+auf die verbliebenen Detailkanten. Je in 1–2 Sätzen beantwortbar.
+
+1. **Einzelne offene Frage an eine Behörde: als Fliesstext-Frage am Satzende oder immer als
+   «_ »-Bullet?** In der Lämmler-Mail (04.03.2026) stellst Du nur EINE offene Frage («Wann hätten Sie
+   Zeit für ein Telefonat?») als normalen Fliesstext-Satz, nicht als «_ »-Bullet — obwohl die «_ »-Liste
+   sonst Dein Standard für offene Fragen ans Amt ist (vgl. Hottinger-Mail, zwei Fragen A/B als «_ »).
+   Bleibt eine EINZELNE Frage im Fliesstext, und «_ » ist erst ab zwei parallelen Fragen Dein Mittel?
+   *Warum: verhindert, dass der Zwilling reflexartig jede Einzelfrage in ein Bullet-Format presst.*
+   → [[arbeitsweise]], [[stimme]]
+2. **«Rufe mich kurz an bei Fragen.» als Pendant zum Service-Satz in der dokumentierenden Du-
+   Freigabemail — Standard bei mehrteiligen Koordinations-/Freigabe-Lieferungen?** Die Albin-Mail
+   (18.03.2026, dicht mit Fachplaner-Zuteilungen + Freigabe-Bitte, schliesst FG+Block) hängt vor dem
+   Gruss «Rufe mich kurz an bei Fragen.» an — im Du das, was die Sie-Version «stehe ich Ihnen gerne zur
+   Verfügung» wäre. Ist das Dein festes Pendant, sobald eine dokumentierende Du-Mail mehrere Entscheide/
+   Freigaben auf einmal verlangt, auch wenn der Gesamtabschluss FG+Block trägt? *Warum: schärft die noch
+   offene Service-Satz-Systematik aus Gate 260724 um den Du-Zweig.* → [[stimme]], [[arbeitsweise]]
+3. **«Salut <Vorname>» — inzwischen Dein bevorzugter Opener bei eingewärmten Kontakten, oder weiterhin
+   eine von mehreren gleichwertigen Varianten neben «Hoi»?** Du setzt «Salut» inzwischen bei mehreren
+   unterschiedlichen warmen Du-Kontakten (Roman, Esther, Albin). Wählst Du bewusst «Salut» sobald ein
+   Kontakt eine gewisse Vertrautheitsstufe erreicht hat (eine Art nächste Stufe nach «Hoi»), oder ist es
+   für Dich reine Tagesform/Abwechslung ohne Bedeutungsunterschied zu «Hoi»? *Warum: der Zwilling kennt
+   bisher nur «Hoi» als Standard-Opener und würde «Salut» sonst nie eigenständig setzen.* → [[stimme]],
+   [[beziehungsregister]]
+4. **Mehrteilige Fachplaner-Koordinationsmail: nummerierte Blöcke («1. 2. 3.») mit Klartext-
+   Fliessunterpunkten statt fetten Amt-Blöcken — bewusster Unterschied zur Behörden-Auflagenmail?** Die
+   Albin-Mail gliedert in nummerierte Abschnitte («1. Koordination Baueingabe», «2. Spezielle Vermerke»,
+   «3. Administration») mit einfachen Fliesstext-Unterpunkten je Disziplin — nicht in fette Themen-Blöcke
+   nach Amt wie die Hofer-Bauentscheid-Mail (260718). Ist die Nummerierung «1./2./3.» Dein Mittel für die
+   EIGENE, an Dich selbst delegierte Koordinationsaufgabe (an den Betreiber/Bauherrn gerichtet), während
+   fette Amt-Blöcke der WEITERGABE fremder Behörden-Auflagen vorbehalten bleiben? *Warum: trennt zwei bisher
+   vermischte Gliederungsmuster für mehrteilige Statusmails.* → [[arbeitsweise]]
+
 ## Offen — Runde 260725b (twin-fragesteller, aus Fidelity-Review 2026-07-25b)
 
 Quelle: Drift-Report `outputs/2026-07-25b_fidelity.md` (Gesamt-Fidelity 85; drei frische, bislang
@@ -1502,3 +1541,13 @@ Daraus belegt beantwortet:
   Rahmen als Stilquelle verwendet (Echo-Schutz). Frage an Raphael: hast Du diese Mail selbst
   formuliert oder auf einem Claude-Entwurf aufgebaut? Falls letzteres: liegt der Entwurf noch
   vor (dann Delta-Auswertung möglich)? → [[denken]], [[fachsignatur]]
+- **Private Finanzierungsanfrage an Elektronikhändler: Echo-Grenzfall (Batch 65, 2026-07-25):**
+  Die Mail vom 21.07. an einen MacBook-Pro-Haendler (En-dash-Bullets, fehlerfreie Grammatik,
+  glatte nummerierte 1.–4.-Fragenliste) haeuft mehrere Echo-Merkmale, waehrend die uebrigen
+  sieben Mails derselben Stichprobe klar handgetippt sind (Slips, kein Gedankenstrich). Anders
+  als bei den bisherigen Echo-Fallen handelt es sich um eine rein private/betriebliche
+  Beschaffungsmail ohne Projektbezug — moeglich, dass Raphael bei sachlich-technischen
+  Preisanfragen an Haendler bewusst sorgfaeltiger/strukturierter formuliert (kein KI-Text,
+  sondern Register-Ernsthaftigkeit gegenueber einem kommerziellen Sie-Erstkontakt mit hohem
+  Warenwert), ODER es ist tatsaechlich KI-assistiert. Nicht als Stilquelle verwendet. Frage an
+  Raphael: hast Du diese MacBook-Finanzierungsanfrage selbst so formuliert? → [[stimme]]

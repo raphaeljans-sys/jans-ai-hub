@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-07-25
 gewichtung: authentisch
-sources: [260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
+sources: [260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -2194,3 +2194,29 @@ Baumackerstrasse 43 (AfB), Thalwil 2414, 14.–17.07.2026.
   Satzlänge ø 15.7 W, Tausender-Apostroph 0 (Kurz-Notation «40K» statt Apostroph), «%» mit Leerschlag 1.0,
   Ellipsen 0, Anreden 2× «Geschätzter Herr» / je 1× «Hoi Albin»/«Hoi Felix»/«Hoi Stefan»/«Geschätzter Fabian»/
   «Guten Morgen Herr»/«Sehr geehrter Herr», Grüsse «Freundliche Grüsse» 3×/«Lieber Gruss» 1×/«Danke und Gruss» 1×/«lgr» 1×.
+
+## Batch 65 (2026-07-17 bis 07-23) — Genus-/Flexions-Tippfehler-Familie erweitert, ein neuer Echo-Grenzfall
+
+Gewichtung: authentisch (klar handgetippte Rahmen); ein Grenzfall unsicher (siehe unten und [[QUESTIONS]]).
+Quelle: 2620 Albertstrasse 7 (Nova/Steinmann), Baumackerstrasse 43 (AfB), 2414 Thalwil/SBB (Wiedmer/Tschopp),
+2619 KISPI (Zahlungsmahnung Albin/Tobler, Auftragserteilung TeKoSi/Hiltmann, SRZ-Behördenversand).
+
+- **Genus-/Flexionsfehler-Familie um fünf neue, unabhängige Belege verdichtet:** «die Angebot» (Genus-Slip,
+  Artikel), «einer effizienter Projektabwicklung» (Adjektivendung falsch), «das die Dokumente … retourniert
+  werden» (das/dass-Verwechslung), «Kontrakt aufzunehmen» statt «Kontakt» (Wortverwechslung), «Dadresse»
+  (verschluckter Wortteil aus «Gesuchadresse», mobil getippt). Alle fünf in kurzen, operativen Ein-Themen-
+  Mails — bestätigt die bestehende Erkenntnis, dass Flüchtigkeitsfehler in Kurzmails der verlässlichste
+  Echtheitsindikator sind (nie in KI-Prosa, siehe Echo-Fallen-Reihe).
+- **Zahlendreher zwischen Betreff und Fliesstext derselben Mail:** Betreff nennt «Bauentscheid 1171/**26**»,
+  der Fliesstext «Bauentscheid 1171/**27**» — ein weiterer Beleg für die Batch-64-Beobachtung «Slip INNERHALB
+  derselben Mail», hier zwischen Betreffzeile und Body statt innerhalb des Fliesstexts.
+- **Metrik (Batch 65, 370 W aus 8 destillierten Mails, reiner Fliesstext ohne Signatur/Zitatketten):**
+  Du-Gross-Quote 1.0, Satzlänge ø 14.8 W, Tausender-Apostroph 2× (CHF 32'280.-), Ellipsen 0, Anreden
+  3× «Geschätzter Herr» / je 1× «Geschätzter Roman»/«Geschätzter Stefan»/«Geschätzter Albin»/«Geschätzter
+  Levi»/«Sehr geehrter Herr», Grüsse «Freundliche Grüsse» 8×/«Lieber Gruss» 1×.
+- **Neuer Echo-Grenzfall (unsicher, NICHT als Stilquelle verwendet):** eine private Finanzierungsanfrage an
+  einen Elektronikhändler (21.07., MacBook Pro M5 Max) häuft mehrere Echo-Merkmale gleichzeitig (durchgehende
+  En-dash-Bullets, fehlerfreie Grammatik, glatte 1.–4.-Fragenstruktur) — anders als die übrigen sieben Mails
+  derselben Stichprobe, die alle klar handgetippt sind. Die Nummerierung selbst passt zur echten DNA (sequenzielle
+  Fragen an eine Sie-Person werden nummeriert), die Fehlerfreiheit + En-dash-Dichte aber nicht. Als offener
+  Verdachtsfall in [[QUESTIONS]] vermerkt statt stillschweigend gewertet.

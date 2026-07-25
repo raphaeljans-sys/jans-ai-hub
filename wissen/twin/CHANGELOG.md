@@ -5,6 +5,39 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-25g — twin-mail-training Batch 65 (2026-07-17 12:47 bis 2026-07-23 17:17, MCP-Tool
+  `outlook message list` funktionierte direkt).** 8 Volltexte aus 34 relevanten Mails destilliert
+  (26 weitere identifiziert, sofort im Folgelauf verfuegbar). Neue Marker in allen fuenf
+  betroffenen Facetten: `stimme.md` (5 neue Genus-/Flexionsfehler-Belege, Zahlendreher
+  Betreff↔Fliesstext, Metrik Batch 65, neuer Echo-Grenzfall private MacBook-Finanzierungsanfrage),
+  `beziehungsregister.md` (Register-Temperatur schwankt je Anlassgewicht INNERHALB desselben
+  Sie-Kontakts [Wiedmer], gestapelte Mahn-Anrede bestaetigt, Mappings Kovacs/Tobler/Hiltmann/
+  SRZ-Sammelverteiler), `arbeitsweise.md` (fehlende Auftragsgrundlage selbst benennen und zur
+  Bedingung machen, Einzeiler-Auftragserteilung, Behoerden-Doppelkanal eBaugesuche+SharePoint),
+  `fachsignatur.md` (Naeherbaurecht-Auflagebereinigungs-Kopplung ueber vierte Threadrunde
+  bestaetigt), `haltung.md` (fehlende Ordnung auch beim wichtigsten Auftraggeber KISPI
+  einfordern). `QUESTIONS.md`: neue offene Frage zum MacBook-Echo-Grenzfall (Register-Ernsthaftigkeit
+  vs. KI-Assistenz bei privater Beschaffungsmail). `raw/_INGESTED.md` Batch-65-Zeile + Sweep-Endpunkt
+  auf 2026-07-23 17:17:18 nachgefuehrt.
+
+- **2026-07-25f — twin-fidelity-review (Selbsttest, Gesamt-Fidelity 85, Report `outputs/2026-07-25d_fidelity.md`).**
+  M365-Connector weiterhin nicht funktionsfähig (wie 260725c-abgebrochen); diesmal erfolgreich über
+  Apple-Mail/osascript umgangen (Account Exchange, Mailbox «Gesendete Elemente»). Drei authentische
+  Golds Feb/März 2026 (Hottinger-Vorabklärung, Lämmler-Konzeptbooklet, Albin-Koordination Phase 32) —
+  alle drei bereits im Wiki destilliert (Mailbatch 32/33/35/36), Lauf daher primär Retrieval-Test.
+  Twin-Fassungen bewusst nur aus dem kompilierten `rules/jans-dna.md` erzeugt (realistische Session-
+  Situation). Hauptbefund: Beziehungsregister-Drift (72) ist strukturell, nicht markerseitig — die
+  Wärmestufen-Feindetails leben nur im 1'565-Zeilen-Wiki, nicht im schlanken DNA-Auto-Block und auch
+  nicht in der dafür vorgesehenen, aber fast leeren `rules/anrede-kontakte.md` (1 Eintrag). Empfehlung
+  für einen künftigen dedizierten Lauf: diese Datei mit den im Wiki bereits belegten Top-Kontakten
+  befüllen (heute bewusst nicht umgesetzt, Fokus lag auf Review/Selbsttest, kein Inventaraufbau).
+  Facetten-Schärfung: `beziehungsregister.md` — Schwelle «Behörde bleibt kalt-formell, Team-/
+  Kontrollpartner wärmt sofort» ergänzt (löst QUESTIONS 260714j #2, Kontrastpaar Lämmler↔Vanvelten/
+  Mans). `stimme.md` — Tausender-Apostroph-vs-Kilo-Kurzform-Widerspruch (Batch 64) registerabhängig
+  aufgelöst (Dokumente/dokumentierend → Apostroph, operativer Blitz-Reply → «40K» erlaubt). DNA-
+  Neukompilierung ohne Aenderung (Do-Block bereits ausreichend allgemein, bewusst nicht aufgeblaeht).
+  QUESTIONS Runde 260725d: 4 neue Fragen (Einzelfrage vs. «_ »-Bullet; Telefon-Angebot als Du-Pendant
+  zum Service-Satz; «Salut» als Eskalationsstufe; nummerierte Koordinationsblöcke vs. fette Amt-Blöcke).
 - **2026-07-25e — twin-mail-training Batch 64 (Sent Items rj@ 2026-07-14 15:16 → 2026-07-17 10:18).**
   Sequentieller Mail-Sweep fortgesetzt: 25 Mails gesichtet [Index 0 als Batch-63-Duplikat
   uebersprungen], 8 Volltexte gelesen; der MCP-Tool-Pfad `outlook_email_search` war diesmal

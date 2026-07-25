@@ -3,7 +3,7 @@ title: Arbeitsweise & Orchestrierung
 status: established
 last_updated: 2026-07-25
 gewichtung: authentisch
-sources: [260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
+sources: [260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -1522,3 +1522,23 @@ private Kontrolle Lüftung), Albertstrasse 7 Nova (Sanitär-Offerte), 15.–17.0
   weitergeleitet.»), danach leitet Raphael die richtige Mail selbst weiter und übergibt die Projektkoordination
   ausdrücklich («Ich habe Ihnen die Projektkoordination für das Projekt sowie für die beiden Formulare übergeben»).
   Muster: Koordinationsfehler nicht ausdiskutieren, sondern selbst richtigstellen und die Übergabe schriftlich fixieren.
+
+## Batch 65 (2026-07-17 bis 07-23) — Fehlende Auftragsgrundlage selbst benennen, Auftragserteilung ohne Fülltext
+
+Gewichtung: authentisch (handgetippte Rahmen). Quelle: 2619 KISPI (Zahlungseskalation, Auftragserteilung
+TeKoSi), Baumackerstrasse 43 (SRZ-Behördenversand).
+
+- **Fehlt die formale Auftragsgrundlage trotz laufendem Mandat, wird das selbst benannt statt stillschweigend
+  weitergearbeitet:** «Da zwischen KISPI und Raphael Jans - Architekten ETH keine Auftragsbestätigung vorliegt
+  muss ich Euch bitten mit mir diesbezüglich Kontakt aufzunehmen, um das weitere Vorgehen abzusprechen.» —
+  gekoppelt an eine tabellarische Zahlungsübersicht (Rechnungsnummer/Fälligkeit/Betrag/Tage überfällig) direkt
+  aus bexio. Muster: eine offene Verwaltungslücke wird nicht kommentarlos toleriert, sondern zur Bedingung für
+  die weitere Zusammenarbeit gemacht — mit Zahlenbeleg, nicht mit Vorwurf.
+- **Auftragserteilung so knapp wie möglich, ein Satz plus Zahl:** «Im Sinne einer effizienten Projektabwicklung
+  hiermit die Auftragserteilung in Rücksprache mit dem Bauherrn: Kostendach von 14'000.- inkl. MwSt. bis zum
+  Schluss.» Kein Leistungsbeschrieb, keine Bedingungen — die Kostendach-Zahl trägt die ganze Auftragserteilung,
+  die Rücksprache mit dem Bauherrn wird nur erwähnt, nicht ausgeführt.
+- **Behörden-Sammelversand mit parallelem Doppelkanal:** dieselben Auflagebereinigungs-Unterlagen gehen sowohl
+  über die eBaugesuche-Plattform (Upload) als auch als direkter SharePoint-Link an mehrere Amtsstellen gleichzeitig
+  («Folgend zusätzlich zum Upload auf der eBaugesuch Platform der Download Link …») — wichtige Verfahrensdokumente
+  werden redundant über zwei Kanäle gesichert, nicht auf einen Übertragungsweg verlassen.
