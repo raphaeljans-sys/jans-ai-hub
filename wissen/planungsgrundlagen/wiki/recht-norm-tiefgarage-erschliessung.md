@@ -1,7 +1,7 @@
 ---
 title: Tiefgarage/Parkierung — Erschliessungsgeometrie (VSS-Normen)
 status: established
-last_updated: 2026-07-25 (Run 64)
+last_updated: 2026-07-25 (Run 66)
 sources: [
   "VSS SN 640 050 «Grundstückzufahrten» (genehmigt Mai 1993, gültig, PL-02/Tiefgarage/1 VSS-Norm)",
   "VSS SN 640 291a «Parkieren — Anordnung und Geometrie der Parkierungsanlagen» (genehmigt Dez. 2005, gültig ab 1.2.2006, ersetzt SN 640 291+292 von 1982, PL-02/Tiefgarage/1 VSS-Norm)",
@@ -13,7 +13,7 @@ sources: [
   "Enz & Partner GmbH, Beispiele minimaler Wendehämmer für 12-m-Lastwagen (VRV Art. 64/65/65a, PL-02/Tiefgarage/2 Wendehammer)",
   "Meili, Peter & Partner Architekten AG / IBV, Aktennotiz Einschätzung Tiefgarage 246 Flurstrasse (17.04.2018, PL-02/Tiefgarage/3 Beispiele/Flurstrasse) — externe Referenz, kein JANS-Projekt",
   "Coop Genossenschaft, «Warenannahme in Verkaufsstellen — Vorgaben/Richtlinien für die Bauplanung» (Stand 10.02.2009, PL-02/Tiefgarage/2 Planungshilfen Anlieferung + 03_Arbeitshilfen/Speziale Bauteile planen) — Retail-interne Richtlinie, kein amtlicher Erlass",
-  "SWKI VA103-01:2017 «Lüftungsanlagen für Parkhäuser (Mittel- und Grossgaragen)», Erstausgabe 2017-04, ersetzt SWKI 96-1:1997 (PL-02/06_Richtlinien/SWKI, Run 64, S. 1-25 gelesen von 110)"
+  "SWKI VA103-01:2017 «Lüftungsanlagen für Parkhäuser (Mittel- und Grossgaragen)», genehmigt SWKI-Vorstand 25.11.2016, in Kraft 01.04.2017, ersetzt SWKI 96-1:1997 (PL-02/06_Richtlinien/SWKI, Run 64+66, vollständig 110 S. gelesen)"
 ]
 links: [[recht-norm-quellenlandkarte]], [[kartenportale-grundlagen-checkliste-neue-parzelle]], [[brandschutz-pl03-wegweiser]], [[machbarkeit]]
 ---
@@ -345,12 +345,103 @@ SN 640 291a/292a (bereits oben dokumentiert), VKF-Brandschutzrichtlinien 15-15de
 25-15de (Brandabschnitte/RWA/lufttechnische Anlagen → [[brandschutz-pl03-wegweiser]]), SN
 50545-1 (CO-/NO2-Gasmelder in Tiefgaragen/Tunneln), VDI 2053 Blatt 1 (deutsches Pendant).
 
+## 9. SWKI VA103-01 — vollständige Bemessungsmethodik (Run 66, Kap. 3-9 + Anhänge A-F)
+
+Schliesst den seit Run 64 offenen Rest der Richtlinie (S. 1-25/110 waren gelesen). Ganzer Text
+(110 S.) jetzt ausgewertet — direkt einsetzbar, sobald JANS mit einem Lüftungsplaner die
+Volumenstrom-Auslegung einer Tiefgarage koordiniert.
+
+### 9.1 Sonderanwendungen (Kap. 2.7) — Bauteile mit eigenem Lüftungsanspruch
+
+Direkt LV-relevant, weil sie eigene, von der Haupt-Garagenlüftung getrennte Zu-/Abluftanlagen
+verlangen: **Waschboxen** (100 % Aussenluft, 6-facher Luftwechsel bezogen auf das Boxenvolumen),
+**Motorrad-/Mofa-Räume** (freier Querschnitt ≥ 5 % der Bodenfläche, sonst 3-facher Luftwechsel),
+**Veloräume** (freier Querschnitt ≥ 3 % Bodenfläche, sonst ≥ 1 m³/(h·m²)), **Autoaufzüge**
+(5-facher Luftwechsel bezogen auf die Kabine, Aussenluft-Nachströmung an der höchsten Schachtstelle),
+**Elektrofahrzeuge** (Ladegase nur bei Blei-/NiCd-Batterien relevant, nicht bei Lithium; Wärmeeintrag
+≈ 10 % der Ladeleistung nach VDI 2166/2), **Gasfahrzeuge** (Gasmelder prüfen), **Anlieferungen**
+(1'000 m³/h Abluft pro Lastwagen).
+
+### 9.2 Steuerung/Überwachung (Kap. 2.8) — Schaltwerte
+
+Abgas-Überwachungsanlagen: Mindest-Messbereich CO 0-200 ppm / NO 0-10 ppm / NO₂ 0-5 ppm.
+**Schaltwerte CO-Momentanmessung:** Einschaltwert 50 ppm (1-stufig) bzw. 50/70 ppm (2-stufig),
+Alarmierung 200 ppm, Nachlaufzeit ≥ 5 Min., Alarm nach 180 s Überschreitung. Messstellendichte:
+1 Sondenpaar (CO+NO/NO₂) pro 20 Parkplätze oder 400 m² Bodenfläche, mind. 2 je Geschoss/Anlage.
+CO-Fühler 1.5-3.0 m über Boden; NO/NO₂-Fühler 0.2-1.5 m. Warnleuchte 600×120 mm pro 500 m².
+
+### 9.3 Bemessung (Kap. 3) — die eigentliche Berechnungsmethodik
+
+**Zoneneinteilung** zuerst (mind. je Geschoss), dann fünf **Benutzer-Kategorien** mit Faktor für
+Spitzenabdeckung fVM (Ausfahrten kalt/h·PP): Wohnen 1.0, Angestellte/Büro-Läden 2.0, Kunden 2.0,
+Kurzparking (max. 10 % der Parkfelder) 0, Veranstaltungen 6.0 (Räumung in 20 Min. angenommen).
+Vier Korrekturfaktoren werden multipliziert: **fODA** Aussenluft-Vorbelastung (0.90 Wohnquartier
+bis 1.00 Hauptverkehrsstrasse/Rampe), **fIDA** Raumlufttemperatur-Faktor (0.65-1.66, aus der
+SIA-2028-Klimastation, Anhang A), **fVG** Fahrzeuggruppe (1.0 Pkw, 1.0/1.5 Lieferwagen je nach
+Garagentyp), **fIH** Inhomogenität (1.00 Standardfall, 0.70-1.00 bei CFD-Simulationsnachweis).
+Basis-Emissionswerte (Fahrzeugmix 2015, +5 °C Standardfall): Kaltstart 22 m³/WB, Kaltfahrt
+linear 0.35 m³/m, Wartezeit an Schranke 10 m³/WB (10 s/Fahrzeug × 25 m Weg-Äquivalent).
+**Minimaler Abluftvolumenstrom:** 1 m³/(h·m²) Bodenfläche (unabhängig von der Berechnung).
+
+**Praxiszahl (Anhang D, Anwendungsbeispiel):** 100-Parkplätze-Grossgarage Zürich, 6'500 m³,
+Nutzung «Angestellte» (fVM 1.0) → 7'750 m³/h Abluft (Luftwechsel 1.08 h⁻¹); Nutzung «Wohnen»
+(fVM 0.5) → 3'875 m³/h (0.54 h⁻¹) — **rund die Hälfte**, weil Wohnnutzung deutlich weniger
+Kaltstarts/Stunde erzeugt als Büro-/Ladennutzung. Vergleich zur alten SWKI 96-1 (Vorgänger-
+Richtlinie): neue Werte ca. 30 % tiefer bei gleicher Aussenluft-Vorbelastung, weil das
+Referenzfahrzeug 2015 deutlich sauberer ist als der 1996er-Fahrzeugmix — **ältere Lüftungs-
+auslegungen aus den 1990er/2000er-Jahren sind bei einer Umnutzung tendenziell überdimensioniert**.
+
+### 9.4 Material/Hygiene/Brandschutz (Kap. 4) und Ausführung (Kap. 5)
+
+Leitungsnetz aus Materialien ohne Nährboden für Mikroorganismen, keine innenliegenden
+Wärmedämmungen; Fortluftleitungen Dichtheitsklasse C nach SIA 382/1. Brandschutzklappen nach
+VKF-Leistungserklärung einbauen (Zulassung beachten), öffnen/schliessen synchron mit dem
+Ventilator-Betrieb (VKF-BSR 25-15de) — Cross-Ref [[brandschutz-pl03-wegweiser]] §5v/§5ao.
+
+### 9.5 Abnahme (Kap. 6), Betrieb/Instandhaltung (Kap. 7), Sicherheit (Kap. 8), Rückbau (Kap. 9)
+
+Abnahme nach **SIA 118 Art. 157-164** (drei Teile: Lieferumfang/Montage, Funktionskontrolle,
+Kontrollmessungen nach SN EN 12599); Instandhaltungs-Pflichtenheft nach SIA 382/1, mind.
+jährliche Wartung/Inspektion der Abgas-Überwachung (Pflicht des Eigentümers/Betreibers).
+Sicherheit: Revisionsschalter vor Wartungsarbeiten (SWKI 92-2 B); Konformitätserklärung des
+Herstellers nach Maschinenrichtlinie 2006/42/EG. Rückbau: Wiederverwendbarkeit vor Recycling vor
+KVA-Entsorgung vor Inertstoffdeponie (Prioritätenkaskade) — Lebensdauer der TGA-Komponenten
+kürzer als das Gebäude, Ersatz muss ohne grössere bauliche Eingriffe möglich sein.
+
+### 9.6 Anhang A — Klimastations-Tabelle (SIA 2028, 40 Standorte)
+
+Massgebende Aussenlufttemperatur θODA = kälteste Monats-Mitteltemperatur (Januar) je SIA-2028-
+Station, daraus abgeleitet der Faktor fIDA (0.65 min. bei warmen Lagen wie Genève-Cointrin/Lugano
+bis 1.66 max. bei kalten inneralpinen Lagen wie Samedan/Ulrichen/Grand-St-Bernard). **Beispiele
+JANS-relevant:** Zürich-MeteoSchweiz θODA 0.4 °C/fIDA 1.00; Luzern 0.5 °C/1.00; Zürich-Kloten
+0.2 °C/1.00. Vollständige 40-Zeilen-Tabelle im Original — bei Projekten ausserhalb des
+Mittellandes (Bergregionen) den Standort-spezifischen Faktor nachschlagen, nicht pauschal 1.00
+annehmen.
+
+### 9.7 Anhang B — maximale Schneehöhe (für Lüftungsöffnungs-Unterkante)
+
+Schneelast-Basis 3.0 kN/m³ (SIA 261 Kap. 5) je Referenzhöhe der SIA-261-Schneekarte; Beispiele:
+Zürich-MeteoSchweiz 0.47 m, Luzern 0.63 m, Adelboden 2.03 m, Samedan 3.61 m, Grand-St-Bernard
+5.75 m. Lüftungsöffnungs-Unterkante muss mind. auf dieser Höhe liegen (ohne bauliche
+Schutzmassnahme).
+
+### 9.8 Anhänge C-F — Formulare, Beispiele, CFD-Simulation, Publikationsverzeichnis
+
+Anhang C liefert die editierbaren Excel-Berechnungsformulare (Download www.swki.ch) für
+Zusammenfassung/Zone; Anhang D drei vollständig durchgerechnete Anwendungsbeispiele (Eingeschossige
+Grossgarage, Mehrzonen-Garage, Vergleich VDI-2053-Methode); Anhang E beschreibt den
+**Simulationsnachweis-Weg** (CFD, Luftqualitätskriterium CO ≤ 100 ppm auf ≥ 99.5 % der Fläche,
+max. 0.5 % Fläche bis 130 ppm toleriert) als Alternative zur Standardauslegung — kann den
+Gesamt-Abluftvolumenstrom bis auf 70 % reduzieren, wenn die Kriterien nachgewiesen sind (reale
+Beispielrechnung: von 53'600 m³/h Standardfall auf 55'500 m³/h bei vereinfachter, aber ungenügender
+Führung, erst mit erhöhtem Volumenstrom auf 59'100 m³/h werden die Kriterien erfüllt — zeigt, dass
+ein vereinfachtes Konzept nicht automatisch weniger Luftvolumen bedeutet). Anhang F: Publikations-
+verzeichnis inkl. SWKI 96-1 (abgelöst), VDI 2053 (deutsches Pendant), BAFU-Bericht UW-1021-D
+(Emissionsgrundlagen). **Rechtskraft:** genehmigt SWKI-Vorstand 25.11.2016, in Kraft seit
+01.04.2017, ersetzt SWKI 96-1:1997 vollständig.
+
 ## Offene Punkte
 
-- SWKI VA103-01 nur S. 1-25 von 110 gelesen (Geltungsbereich, Grenzwerte, CO-Emissionsmodell)
-  — Kap. 3 «Berechnung und Bemessung» (Volumenstrom-Formel, Zonenaufteilung), Kap. 4/5
-  (Material/Ausführung, Brandschutzklappen) und die Anwendungsbeispiele (Anhang D) sind noch
-  offen; bei einem realen JANS-Tiefgaragenprojekt mit Lüftungsplaner-Koordination vertiefen.
 - Kommunale Parkplatzverordnungen (Stadt ZH, weitere Gemeinden) mit eigenen
   Grundanforderungen/Kennzahlen — bisher nicht kartiert; bei konkretem Projekt gegen
   kommunales Recht prüfen (Vorrang vor VSS 640 281).

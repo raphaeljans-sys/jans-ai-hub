@@ -496,6 +496,43 @@ das Ergebnis in den passenden Wiki-Artikel.
   exponiert/geschützt-Geschossbewertung (+5K/+10K); Kaltfahrt dominiert Emission (Faktor >40
   ggü. Warmfahrt) → NEU §8 [[recht-norm-tiefgarage-erschliessung]], TGA-Dimension bisher
   fehlend (2026-07-25 Run 64). Rest (Kap. 3-9, 85 S.) offen fuer Folgelauf.
+- [x] R68 (Run 66, 2026-07-25) SWKI VA103-01 Rest (S. 26-110/110, Kap. 3-9 + Anhaenge A-F) —
+  vollstaendige Bemessungsmethodik: Zoneneinteilung, 5 Benutzer-Kategorien (Wohnen/Angestellte/
+  Kunden/Kurzparking/Veranstaltungen), 4 Korrekturfaktoren fODA/fIDA/fVG/fIH, Praxisbeispiel
+  100-PP-Garage Zuerich (Wohnen 3'875 m³/h vs. Angestellte 7'750 m³/h — halbe Luftmenge bei
+  Wohnnutzung), Vergleich zur alten SWKI-96-1 (neue Werte ca. 30% tiefer, Fahrzeugmix 2015 sauberer
+  als 1996 → aeltere Auslegungen tendenziell ueberdimensioniert bei Umnutzung); Material/Ausfuehrung/
+  Brandschutzklappen (Kap. 4/5); Abnahme nach SIA 118 Art. 157-164 (Kap. 6); Betrieb/Instandhaltung/
+  Sicherheit/Rueckbau (Kap. 7-9); Anhang A 40-Stationen-SIA-2028-Klimatabelle (fIDA 0.65-1.66 je
+  Standort); Anhang B Schneehoehen-Tabelle; Anhang C Berechnungsformulare; Anhang D drei komplett
+  durchgerechnete Anwendungsbeispiele; Anhang E CFD-Simulationsnachweis-Methodik (Luftqualitaets-
+  kriterium CO ≤100 ppm auf ≥99.5% Flaeche, reduziert Abluftvolumenstrom bis auf 70%) → NEU §9
+  [[recht-norm-tiefgarage-erschliessung]]. **Backlog aus Run 64/65 damit vollstaendig geschlossen.**
+- [x] R69/R70 (Run 66, 2026-07-25, Scout-Abgleich) Neuer, bisher nie erschlossener Ordnercluster
+  `04_Merkblätter/eco/Nachhaltiges Bauen/` (Nummerierung 1.xx-6.xx, eigenstaendig vom bereits
+  dokumentierten AHB-Ordner `18-Nachhaltiges Bauen`) — liefert er echte Deltas zu §6? Cloud-only,
+  mit `cp` materialisiert. **R69:** «Allgemeine bauoekologische Submissionsbedingungen» (3.11.R,
+  AHB Sept. 2006) praezisiert §6.1 um harte, LV-taugliche Materialverbote (RC-Beton ≥60% rezykliert
+  als Hauptposition, Formaldehydklasse E1/Lignum CH 6.5, Tropenholz nur FSC, Fugendichtungsmassen
+  0% Loesemittel, Waermedaemmstoffe ohne HFKW/FKW, textile Bodenbelaege auf Reaktionsharz-Basis
+  verboten, Montageschaeume verboten, Baumaschinen ≥18kW Partikelfilter-Pflicht) — bestaetigt exakt
+  die bereits dokumentierten Formaldehyd/TVOC-Grenzwerte. **R70:** «Oekologisch Bauen — Merkblaetter
+  nach BKP» (3.12.R, Verein eco-bau, Ausgabe 09/2006) enthuellt **Verein eco-bau als nationale
+  Traegerschaft** (Bund/KBOB + 18 Kantone + 14 Staedte, nicht Stadt-ZH-spezifisch) + vollstaendiges
+  BKP-Register der Merkblaetter (112-285). Delta-Check «1.11.R Massstaebe» (Mai 2006): bestaetigter
+  Vorlaeufer des bereits dokumentierten 7-Meilenschritte-Flyers (2008), kein neuer Sachverhalt →
+  NEU §6.6 [[recht-norm-ahb-stadt-zuerich-projektstandards]].
+- [x] R71 (Run 66, 2026-07-25, Scout-Abgleich) Ordner `01_Gesetze/02_Schwyz/SZ_Einsiedeln/1
+  Gestaltungsplan Reckholderen/` + `2 Ausnützungsziffer/` (bisher nie erschlossen, eigener Pfad
+  neben dem bereits genutzten `08_Baurechtsanalysen`) — liefert er die Entstehungsgeschichte des
+  bereits als SZ-Hauptbenchmark gefuehrten Quartiergestaltungsplans Reckholdern (Parzelle 3301)?
+  JA: drei RRB-Genehmigungen in Serie (28.06.1976/24.09.1979/24.05.1983) zeigen Parzellenerhoehung
+  17→19→21, Klaeranlagen-Kapazitaet als Etappierungstreiber, und — **realer Praezedenzfall** — eine
+  **Waldabstand-Reduktion von 20 m auf 15/17 m via Gestaltungsplan-Aenderung selbst** (nicht separate
+  Ausnahmebewilligung). Historische AZ-Definition Art. 17 Baureglement Einsiedeln 1974 zeigt
+  methodische Kontinuitaet zum heutigen SZ-Recht. **Neuer Einzelfund:** Art. 16 verlangt bei MFH ab
+  6 Wohnungen einen Kinderspielplatz von i.d.R. 20% der Wohngeschossflaeche — bisher nirgends
+  dokumentierte SZ-Kinderspielplatzpflicht → Ergaenzung [[recht-norm-baurechtsanalysen-benchmarks]].
 
 ## Domaene 4 — Brandschutz (PL-03)
 - [x] B1 Verhaeltnis zu Skill `brandschutz` festlegen (Verweis vs. eigene Grundlagen-Notizen). (2026-06-22 Run 8: Entscheid schlanker Wegweiser — Planungsgrundlagen/Prozess/QSS hier, Fach-/Detailarbeit im Skill `brandschutz`; kein Doppel → [[brandschutz-pl03-wegweiser]])

@@ -2,6 +2,23 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 — Training Run 66 (Recht & Norm, Token-Vollgas): SWKI-Backlog geschlossen, eco-bau-Cluster + SZ-Reckholdern-Genese neu
+Rotation zurueck auf Recht/Norm (PL-02) — Brandschutz (PL-03) zeigte keinen neuen Fund (Run 64
+bereits vollstaendig gescoutet). **R68:** SWKI VA103-01 Rest (S. 26-110/110, Backlog aus Run 64/65)
+vollstaendig gelesen — komplette Bemessungsmethodik (Zonen/Benutzer-Kategorien/Korrekturfaktoren
+fODA/fIDA/fVG/fIH), Praxisbeispiel Wohnen 3'875 vs. Angestellte 7'750 m³/h, Abnahme SIA 118,
+Anhaenge A-F (40-Stationen-SIA-2028-Klimatabelle, Schneehoehen, Formulare, Anwendungsbeispiele,
+CFD-Simulationsnachweis) → NEU §9 [[recht-norm-tiefgarage-erschliessung]], Backlog geschlossen.
+Scout-Abgleich (maxdepth 4) findet zwei weitere, bisher nie erschlossene Ordnercluster: **R69/R70**
+zweiter eco-bau-Ordner — Verein eco-bau als nationale Traegerschaft (Bund+18 Kantone/Staedte, nicht
+Stadt-ZH-Spezifikum), vollstaendiges BKP-Register der Oekologie-Merkblaetter (112-285), konkrete
+LV-taugliche Materialverbote (RC-Beton ≥60%, Formaldehyd E1/Lignum 6.5, EMICODE EC1,
+Montageschaum-Verbot) → NEU §6.6 [[recht-norm-ahb-stadt-zuerich-projektstandards]]. **R71:**
+historische Genese (RRB 1976/1979/1983) des bereits als SZ-Hauptbenchmark gefuehrten
+Quartiergestaltungsplans Reckholdern — realer Praezedenzfall Waldabstand-Reduktion 20m→15/17m via
+Gestaltungsplan-Aenderung + neue SZ-Kinderspielplatzpflicht (Art. 16 BauR Einsiedeln 1974) →
+Ergaenzung [[recht-norm-baurechtsanalysen-benchmarks]]. Details: `outputs/2026-07-25_training-run66.md`.
+
 ## 2026-07-25 — Training Run 65 (Kartenportale + Energie, Token-Vollgas): Kt.-LU-Denkmalschutz (Haus Jans), Solararchitektur-Referenzkatalog erweitert
 Rotation zurueck auf Kartenportale (PL-01) + Energie (PL-04) (Run 64 hatte Recht/Norm+Brandschutz).
 Cloud-Only-Scout (Empfehlung Run 64) findet fuenf bisher unausgewertete Fundstellen, alle in

@@ -264,6 +264,23 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   → [[kartenportale-geoportale-uebersicht]] (Offen A5).
 
 ## B — Recht & Norm
+- [x] **R68-R71 (Run 66, 2026-07-25, Token-Vollgas)** SWKI VA103-01 Rest (S. 26-110/110, Backlog
+  aus Run 64/65) vollständig gelesen — komplette Bemessungsmethodik (Zonen/Benutzer-Kategorien/
+  Korrekturfaktoren, Praxisbeispiel Wohnen vs. Angestellte halbe/volle Luftmenge), Abnahme/Betrieb/
+  Sicherheit/Rückbau, Anhänge A-F (SIA-2028-Klimatabelle, Schneehöhen, Formulare, Anwendungs-
+  beispiele, CFD-Simulationsnachweis) → NEU §9 [[recht-norm-tiefgarage-erschliessung]], Backlog
+  geschlossen. Zwei weitere, bisher nie erschlossene Ordner gefunden (Scout-Abgleich, cloud-only,
+  mit `cp` materialisiert): **eco-bau-Cluster** (`04_Merkblätter/eco/Nachhaltiges Bauen/`) —
+  Verein eco-bau als nationale Trägerschaft (Bund+18 Kantone/Städte) statt Stadt-ZH-Spezifikum,
+  vollständiges BKP-Register der Ökologie-Merkblätter (112-285), konkrete LV-taugliche
+  Materialverbote (RC-Beton 60%, Formaldehyd E1, EMICODE EC1, Montageschaum-Verbot) → NEU §6.6
+  [[recht-norm-ahb-stadt-zuerich-projektstandards]]. **SZ_Einsiedeln-Cluster**
+  (`01_Gesetze/02_Schwyz/SZ_Einsiedeln/1 Gestaltungsplan Reckholderen/` + `2 Ausnützungsziffer/`)
+  — historische Genese (RRB 1976/1979/1983) des bereits als SZ-Hauptbenchmark geführten
+  Quartiergestaltungsplans Reckholdern, realer Präzedenzfall Waldabstand-Reduktion 20m→15/17m via
+  Gestaltungsplan-Änderung, neue SZ-Kinderspielplatzpflicht (Art. 16 BauR Einsiedeln 1974,
+  MFH ab 6 Wohnungen, 20% der Wohngeschossfläche) → Ergänzung
+  [[recht-norm-baurechtsanalysen-benchmarks]]. Details siehe `training/curriculum.md` R68-R71.
 - [x] **R64-R67 (Run 64, 2026-07-25, Scout-Abgleich)** Nach vollständigem `06_Richtlinien`-
   Unterordnerabgleich (Kartenportale/Energie hatten dieselbe Methodik bereits in Run 63 auf
   PL-01/PL-04 angewendet) vier bisher nie erschlossene Kleinst-Ordner gefunden (9 Dateien,

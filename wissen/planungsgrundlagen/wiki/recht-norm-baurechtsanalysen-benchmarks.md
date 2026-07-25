@@ -1,9 +1,9 @@
 ---
 title: Baurechtsanalysen — reale JANS-Faelle als Benchmark (PL-02/08)
 status: emerging
-last_updated: 2026-07-13
-sources: [PL - 02_Recht_Norm/01_Gesetze/08_Baurechtsanalysen (SharePoint), "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/131017 184 ZSG Abklärung Attika RA.pdf (Aktennotiz Meili Peter Architekten, 17.10.2013, Telefonat mit RA Michael Budliger, Gfeller Budliger Kunz)"]
-links: [[recht-norm-quellenlandkarte]], [[kartenportale-oereb-egrid-bezug]], [[recht-norm-dispensrecht]]
+last_updated: 2026-07-25 (Run 66)
+sources: [PL - 02_Recht_Norm/01_Gesetze/08_Baurechtsanalysen (SharePoint), "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/131017 184 ZSG Abklärung Attika RA.pdf (Aktennotiz Meili Peter Architekten, 17.10.2013, Telefonat mit RA Michael Budliger, Gfeller Budliger Kunz)", "PL - 02_Recht_Norm/01_Gesetze/02_Schwyz/SZ_Einsiedeln/1 Gestaltungsplan Reckholderen/ (RRB 1169 vom 28.06.1976, RRB 1723 vom 24.09.1979, RRB 889 vom 24.05.1983, Regierungsrat Kt. Schwyz)", "PL - 02_Recht_Norm/01_Gesetze/02_Schwyz/SZ_Einsiedeln/2 Ausnützungsziffer/Ausnützungsziffer berechnen anrech_BGF.pdf (Baureglement Einsiedeln 1974, Art. 16/17)"]
+links: [[recht-norm-quellenlandkarte]], [[kartenportale-oereb-egrid-bezug]], [[recht-norm-dispensrecht]], [[recht-norm-abstandsvorschriften-wald-gewaesser]], [[recht-norm-raumprogramm-referenzwerke]]
 ---
 
 # Baurechtsanalysen — reale JANS-Faelle als Benchmark (PL-02/08)
@@ -59,6 +59,49 @@ Hoehe ≥ 2.20 m; am **Hang** ist nur **1 Untergeschoss** zusaetzlich zulaessig.
 > die AZ abgeschafft hat (RRB 457/2014) — die kantonale GFZ/BMZ-Logik greift erst mit der kommunalen/
 > Bezirks-Revision. → [[recht-norm-quellenlandkarte]] (SZ-Messweisen, Planungs-Trap). Dieselbe Parzelle
 > Reckholdern ist OEREB-seitig ueber Skill `oereb-schwyz` / Connector `geo-sz.mjs` beziehbar.
+
+## SZ-Benchmark Reckholdern — historische Genese des Quartiergestaltungsplans (Run 66, NEU)
+
+**Neuer Fund:** Ordner `PL-02/01_Gesetze/02_Schwyz/SZ_Einsiedeln/1 Gestaltungsplan Reckholderen/`
+(bisher nie erschlossen, nicht in `08_Baurechtsanalysen`, sondern eine eigene, direkt primärquellen-
+gestützte Aktensammlung zur selben Parzelle 3301 wie oben) liefert die **amtliche Entstehungsgeschichte**
+des in §«SZ-Benchmark» bereits mit der Endfassung (24.03.1983) dokumentierten Quartiergestaltungsplans
+Reckholdern — drei Regierungsrats-Genehmigungsbeschlüsse in Serie:
+
+- **28.06.1976 (RRB 1169):** Bezirksrat Einsiedeln erlässt gestützt auf § 41 Baugesetz Kt. SZ (30.04.1970)
+  die **Bauvorschriften für das Gebiet Reckholdern in Egg** — nur Wohn-/Ferienhäuser zulässig,
+  **Flachdachbauten ausdrücklich untersagt**, Farbgestaltung mit Baubehörde abzusprechen, Landhauszone
+  0.2 gemäss Baureglement Einsiedeln vom 31.10.1974 (Art. 39/40 Abs. 2 lit. b), **keine Erhöhung der
+  Geschosszahl auch im Rahmen eines Gestaltungsplans zulässig**; Erschliessungskosten/Abwasserleitung
+  durch den Gesuchsteller (W. Kälin, Kantonsoberförster Rickenbach SZ) auf eigene Kosten.
+- **24.09.1979 (RRB 1723):** erste Änderung — Neuparzellierung erhöht die Parzellenzahl **17 → 19**;
+  die bestehende **Gruppenkläranlage ist auf max. 17 Häuser bemessen**, daher werden zwei Parzellen
+  erst nach Anschluss an die Bezirkskanalisation überbaubar — reales Beispiel einer
+  **infrastrukturkapazitätsgetriebenen Etappierung** im Sondernutzungsplan.
+- **24.05.1983 (RRB 889):** zweite Änderung — Parzellenzahl **19 → 21**, Kläranlagenerweiterung,
+  UND eine **Reduktion des Waldabstandes von 20 m auf 15 bzw. 17 m** durch die Gestaltungsplan-
+  Änderung selbst (nicht durch eine separate Ausnahmebewilligung); der Nachweis der Einhaltung der
+  Ausnützungsziffer wurde eigens rechnerisch beigebracht.
+
+**JANS-Praxiswert:** belegtes reales Beispiel, dass in Kt. SZ ein **Waldabstand über eine
+Quartiergestaltungsplan-Änderung reduziert** werden kann (hier 20 m → 15/17 m) — ergänzt
+[[recht-norm-abstandsvorschriften-wald-gewaesser]] um einen echten Präzedenzfall auf genau der
+Parzelle, die bereits als SZ-Hauptbenchmark dient. Zeigt zugleich, dass eine Sondernutzungsplanung
+schrittweise über Jahrzehnte nachgeführt wird (1976→1979→1983) und jede Änderung eine neue,
+eigenständige RRB-Genehmigung braucht.
+
+**Ausnützungsziffer-Definition 1974 (Baureglement Einsiedeln Art. 17, Quelle
+`2 Ausnützungsziffer/Ausnützungsziffer berechnen anrech_BGF.pdf`):** AZ = anrechenbare
+Bruttogeschossfläche / anrechenbare Landfläche; nicht angerechnet werden Keller-/Estrich-/
+Trockenräume, Wasch-/Heiz-/Kohlen-/Tankräume, Lift-/Ventilations-/Klimaanlagen-Maschinenräume,
+MFH-Gemeinschaftsbastelräume, nicht-gewerbliche Einstellräume, sowie Korridore/Treppen/Lifte, die
+ausschliesslich nicht anrechenbare Räume erschliessen — dieselbe Exemptions-Logik wie im heute
+gültigen SZ-Recht ([[recht-norm-quellenlandkarte]] SZ-Messweisen), zeigt also methodische
+Kontinuität über 50 Jahre. **Neuer Einzelfund, bisher nirgends dokumentiert:** Art. 16 desselben
+Baureglements verlangt bei MFH-Neubauten **ab 6 Wohnungen** einen gut besonnten, verkehrsfern
+gelegenen **Kinderspielplatz von i.d.R. 20 % der zu Wohnzwecken genutzten Geschossfläche** —
+eine Kt.-SZ-Kinderspielplatzpflicht, die bisher in keinem Wiki-Artikel erfasst war (Delta zur ZH-
+Fokussierung der bisherigen Raumprogramm-Recherche, vgl. [[recht-norm-raumprogramm-referenzwerke]]).
 
 ## Attika-/Dachaufbau-Praxisfall: «184 Zürichseegut», Stäfa (131017) — gelesen 2026-07-13 (Run 26)
 
