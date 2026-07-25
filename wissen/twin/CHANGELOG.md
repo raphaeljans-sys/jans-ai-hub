@@ -4,6 +4,27 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-25i — `twin-mail-training` Batch 69: dritter Leerlauf in Folge.** Frischer Pull ab
+  dem Batch-67-Endpunkt 2026-07-25T18:11:00Z liefert erneut 0 Treffer; Gegenprobe gegen den
+  bekannten Zeitpunkt 2026-07-24T15:30:13Z bestaetigt, dass der M365-Connector korrekt arbeitet
+  (dieselben 2 bekannten Treffer). Reine Wochenend-Mailstille, keine Wiki-Aenderung. Naechster
+  Lauf pullt weiterhin ab demselben Startzeitpunkt.
+
+- **2026-07-25h — `twin-fidelity-review` (achter Lauf des Tages, Gesamt-Fidelity ~84).** M365-CLI
+  direkt via Bash aufgerufen (Zertifikat-Login, `~/Developer/jans-ai-hub` SSD-Klon; MCP-Tool dem
+  Agenten-Contract nicht verfügbar), drei frische Sent-Items-Golds 05.–11.06.2026 gezogen (bisher
+  nirgends als Fidelity-Testgold verwendet): Carlo La Mendola (Sanitär-Unternehmer-Sie,
+  Terminbestätigung), Stefan Tschopp (Bauherr-Partner-Du, finale Plan-Freigabe), Capkin/Heinrich/
+  Hottinger (Stadt-ZH-Behörde-Sie gestapelt, Bauentscheid-Nachfass). Drei Grenzlinien-Funde:
+  (1) [[stimme]] neuer Marker «Finale Freigabe-Antrag (Meilenstein-Gate) im Du → Freundliche Grüsse
+  + voller Block», präzisiert die Grenze zur bestehenden «Plan-/Feedback-Korrektur ohne Geld →
+  Kurzgruss»-Regel; (2) [[stimme]] neuer Grenzfall-Marker «wir sind Ihnen dankbar» — auch der
+  persönliche Dank kann im Terminbestätigungs-Kontext «wir» statt «ich» tragen (Einzelbeleg, nicht
+  in Do-Block gehoben); (3) [[arbeitsweise]] Gegenbeleg zur Nummerierungsregel: drei Sequenzfragen
+  an eine Behörde in einem Fliesstext-Satz statt nummeriert, wenn es ein spontaner Ein-Satz-
+  Nachfass statt einer bewusst komponierten Liste ist. Keine Facetten-Widersprüche. QUESTIONS-Runde
+  260725h (4 Fragen). `build_dna.py` lief, Auto-Block unverändert (keine Do-Block-Änderung, da alle
+  drei Funde vorerst Einzelbelege bleiben). Report `outputs/2026-07-25h_fidelity.md`.
 - **2026-07-25n — Wissens-Health-Check (Phase 1, Skill `wissenscheck`, Mac Mini Nachtschicht).**
   Zweiter Check nach 260722. A1 (Gate-260724-Spannung weiterhin offen, kein neuer Widerspruch) ·
   B3 (Selbstlink `arbeitsweise.md`, raw-Backlink `[[260607-kispi-korpus]]` in QUESTIONS.md, beide

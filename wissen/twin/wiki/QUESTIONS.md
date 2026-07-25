@@ -3,6 +3,49 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260725h (twin-fragesteller, aus Fidelity-Review 2026-07-25h)
+
+Quelle: Drift-Report `outputs/2026-07-25h_fidelity.md` (Gesamt-Fidelity ~84; drei frische Sent-
+Items-Golds 05.–11.06.2026 via direktem m365-CLI-Aufruf, drei Register — Sanitär-Unternehmer-Sie
+La Mendola, Bauherr-Partner-Du Tschopp, Behörde-Sie gestapelt Capkin/Heinrich/Hottinger). Drei
+Grenzlinien-Funde: «wir» auch im Dank-Satz einer Terminbestätigung, finale Freigabe-Bitte als
+Vollblock-Auslöser im Du, Fliesstext-Fragen statt Nummerierung im spontanen Behörden-Nachfass. Je
+in 1–2 Sätzen beantwortbar.
+
+1. **«Wir sind Ihnen dankbar» statt «ich bin Ihnen dankbar» — gilt das für JEDE Terminbestätigung/
+   Logistik-Zusage, oder war das bei La Mendola situativ?** Du schreibst «Gerne erwarten wir Sie …
+   Für Ihre Terminbestätigung sind wir Ihnen dankbar» — beide Sätze «wir», obwohl der Dank-Satz nach
+   der bestehenden Regel («ich» für die persönliche Bitte/den Dank ans Gegenüber) eher «ich» tragen
+   müsste. Ist eine reine Besuchs-/Termin-Logistik-Bestätigung für Dich immer eine Büro-/
+   Projekthandlung («wir kommen vorbei», nicht «ich komme vorbei»), unabhängig vom Satzinhalt
+   (auch der Dank)? *Warum: würde die satzweise wir/ich-Regel um eine klare Ausnahme (Termin-
+   Logistik) ergänzen, statt sie als unerklärten Einzelfall stehen zu lassen.* → [[haltung]],
+   [[stimme]]
+2. **Finale Freigabe-Bitte im Du: zieht IMMER «Freundliche Grüsse» + Vollblock, sobald die Freigabe
+   nachfolgende Dokumente auslöst — auch bei einem vertrauten, alltäglichen Kontakt wie Stefan?**
+   Die Tschopp-Mail (Grundriss/Ansichten/Umgebungsplan, «sobald ich die Freigabe … habe werde ich
+   alle anderen nötigen Dokumente daraus ableitend erstellen») trägt trotz «Hoi Stefan» den vollen
+   Block. Ist «löst das die Erstellung weiterer Dokumente aus» für Dich der harte Auslöser für den
+   Wechsel von Kurzgruss auf Vollblock, unabhängig davon, wie oft Ihr sonst kurz und operativ
+   schreibt? *Warum: würde den neuen Marker vom Einzelbeleg zur verlässlichen Regel heben.*
+   → [[stimme]], [[arbeitsweise]]
+3. **Spontaner Fliesstext-Nachfass mit mehreren Fragen an eine Behörde — ab wann kippt das in eine
+   nummerierte Liste?** Bei Capkin/Heinrich/Hottinger reihst Du drei Fragen in einem Satz, ohne
+   Nummerierung — anders als bei der MacBook-Finanzierungsanfrage (vier nummerierte Fragen). Ist die
+   Grenze «kurzer spontaner Nachfass im laufenden, bereits vertrauten Verfahren» vs. «bewusst
+   komponierte Anfrage an einen unbekannten/neuen Kontakt», oder hängt es an der Anzahl der Fragen
+   (ab wie vielen nummerierst Du)? *Warum: verhindert, dass der Zwilling jede Mehrfachfrage
+   reflexartig durchnummeriert, wo Du tatsächlich einen knappen Fliesstext-Satz schreiben würdest.*
+   → [[arbeitsweise]], [[stimme]]
+4. **Gestapelte Anrede mit EINEM Honorativ für mehrere gleichgeschlechtliche Empfängerinnen
+   («Geschätzte Frau Capkin, Heinrich, Hottinger») — Dein Standard bei einer reinen Frauen-Gruppe,
+   oder nur Kürze/Tagesform?** An anderer Stelle (Batch 63) wiederholst Du das Honorativ pro Person
+   («Geschätzter Herr Duran, geschätzter Herr Kübler, hoi Jens»). Hängt die Kompression auf EIN
+   Honorativ am gleichen Geschlecht/gleichen Titel aller Empfängerinnen, während gemischte
+   Anreden (Herr/Du, verschiedene Titel) das Honorativ pro Person wiederholen? *Warum: würde zwei
+   bisher getrennt dokumentierte Kompressions-Varianten der gestapelten Anrede unter eine Regel
+   bringen.* → [[beziehungsregister]]
+
 ## Offen — Runde 260725g (twin-fragesteller, aus Fidelity-Review 2026-07-25g)
 
 Quelle: Drift-Report `outputs/2026-07-25g_fidelity.md` (Gesamt-Fidelity ~86; drei April-2026-Golds,

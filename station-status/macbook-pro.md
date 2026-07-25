@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.07.2026 22:52:34
+Stand: 25.07.2026 23:12:46
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:52)
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:57)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 25.07.2026 22:52:34
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 30a3d40d grobkosten-training Run 3: SharePoint AR-07 Archiv geprueft, zwei Faelle mit GV+BKP aber intern widerspruechlich, nicht verwertbar
+- 09db4fe2 energie-training Run 112: ISOS-Bewilligungskette + Koerperschall Waermepumpen + Grossverbraucherartikel ZH/SZ neu erschlossen

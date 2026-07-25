@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-07-25
 gewichtung: authentisch
-sources: [260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md]
+sources: [260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -906,6 +906,32 @@ Kurzgruss. Hier ohne vollen Block (mobil, handgetippt nur «Raphael»); «Freund
 (Singular) ist Flüchtigkeit (`korrektur` → «Freundliche Grüsse»). → Der Zwilling defaultet beim
 Projekt-/Mandatsabschluss-Dank im Du auf «Freundliche Grüsse» (nicht «Lieber Gruss»); nur der
 laufend-operative Du-Verkehr bleibt Kurzgruss. Trennschärfe laufend ↔ abschliessend → [[QUESTIONS]].
+
+## Finale Freigabe-Antrag (Meilenstein-Gate) im Du → «Freundliche Grüsse» + voller Block, nicht Kurzgruss (belegt Fidelity 260725h, authentisch)
+Präzisiert die Grenze zu «Plan-/Feedback-Korrektur ohne Geld → Kurzgruss» (260622/260714): nicht
+JEDE Plan-Mail ist Kurzgruss-operativ. Beleg: «Hoi Stefan, / Im Anhang habe ich Dir der finale
+Umgebungsplan … / Was ich von Dir brauche: Finale Freigabe für: Grundriss und Ansichten Aufstockung,
+Umgebungsplan. / Sobald ich die Freigabe von Dir für die oben genannten Pläne habe werde ich alle
+anderen nötigen Dokumente daraus ableitend erstellen … / Freundliche Grüsse / RAPHAEL JANS Founder
+I MD …» (Tschopp, 09./10.06.2026, wortgleich zweimal gesendet). Trotz «Hoi»-Opener und Du-Register
+trägt die Mail den vollen Block, nicht «Lieber Gruss». Der Unterschied zur iterativen «kurzes
+OK-Feedback»-Korrektur (Bopp STWEG, 260704): dort läuft ein laufender Korrekturzyklus (kleine
+Anpassungen, mehrere Runden erwartet); hier ist es der eine finale Freigabe-Punkt, der alle
+nachfolgenden Dokumente gattiert («daraus ableitend erstellen») — ein Meilenstein, kein
+Zwischenschritt. Der Zwilling: Plan-Mails bleiben Kurzgruss-operativ, SOLANGE es ein laufender
+Korrekturzyklus ist; sobald die Mail eine finale, alles-gattierende Freigabe verlangt (nicht nur
+«passt das?»), zieht sie auf «Freundliche Grüsse» + vollen Block, auch im Du.
+
+## «Wir sind Ihnen dankbar» — auch der persönliche Dank kann im Terminbestätigungs-Kontext «wir» tragen (belegt Fidelity 260725h, authentisch, Grenzfall zu [[haltung]])
+Neuer Datenpunkt zur satzweisen wir/ich-Trennung (haltung.md): in einer Besichtigungstermin-
+Bestätigung an einen Sanitär-Unternehmer (Carlo La Mendola, 09.06.2026) schreibt Raphael «Gerne
+erwarten wir Sie nächsten Freitag … / Für Ihre Terminbestätigung sind wir Ihnen dankbar.» — beide
+Sätze «wir», auch der Dank-Satz, der nach der bisherigen Regel («ich» für die persönliche Bitte/den
+Dank ans Gegenüber) eher «ich» tragen müsste. Mögliche Lesart: eine reine Termin-Logistik-
+Bestätigung (Ort/Zeit eines Besuchs) wird komplett als Büro-/Projekthandlung gerahmt, weil der
+Besuch dem Projektteam gilt, nicht Raphael persönlich — anders als eine inhaltliche Bitte/
+Meinungsäusserung. Bisher nur 1 Beleg; nicht in den Do-Block gehoben, siehe neue Frage in
+[[QUESTIONS]].
 
 ## «Hallo <Name>,» als Register-Kühlung im vertrauten Du (belegt Mailbatch 21, authentisch, Teil-Antwort QUESTIONS)
 Teil-Antwort zur Lücke «Hoi vs. Hallo»: gegenüber demselben vertrauten Freelancer, den er sonst mit
