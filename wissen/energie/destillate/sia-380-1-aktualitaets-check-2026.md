@@ -1,7 +1,7 @@
 ---
 title: "SIA 380/1 — Aktualitäts-Check 2026: gilt noch die Ausgabe 2016?"
-status: emerging
-last_updated: 2026-07-17
+status: established
+last_updated: 2026-07-25
 sources:
   - "Web: SIA-Shop-Produktseite SIA 380/1:2016 (shop.sia.ch/normenwerk/architekt/380-1_2016_d/D/Product)"
   - "Web: Espazium.ch, «Massvoll und wirtschaftlich: Was bringt die neue Norm zum Heizwärmebedarf?», publiziert 23.03.2017"
@@ -54,19 +54,19 @@ taucht kein Hinweis auf eine parallele SIA-380/1-Neuausgabe auf; MuKEn-2025-Bezu
 referenzieren gemäss Suchtreffern weiterhin SIA 380 (Ausgabe 2022) und SIA 380/2 (Ausgabe 2022)
 als Nachbar-Normen, nicht eine neue SIA 380/1.
 
-### 3. Laufendes Harmonisierungsprojekt (kein Norm-Ersatz, aber Vormerkung wert)
+### 3. Harmonisierungsprojekt — jetzt im Volltext verifiziert (Run 109, 25.07.2026)
 Der SIA führt ein Projekt **«Harmonisierung SIA-Standardwerte und Gebäudekategorien»**
-(Statusbericht, cms.sia.ch/de/api/getMedia/940), das die Standardnutzungswerte in **SIA 380/1
-Tabelle 27** (Eingangsgrössen für die Heizwärmebedarfsrechnung) an die Werte der Norm **SIA
-2024** angleichen will — u.a. wird laut Suchtreffern eine Anhebung der Raumtemperatur von
-20 °C auf 22 °C für die meisten Gebäudekategorien diskutiert, dazu Anpassungen bei
-Fläche/Person, Stromverbrauch, Aussenluft-Volumenstrom und Warmwasserbedarf. **Wichtig:** das
-per WebFetch abgerufene PDF selbst liess sich inhaltlich nicht auswerten (komprimiertes/
-schriftartlastiges Dokument, keine verlässlichen Fliesstext-Aussagen extrahierbar) — die obige
-Einordnung stützt sich auf die WebSearch-Zusammenfassung, **nicht** auf eine direkt gelesene
-Primärquelle. Ob und wann daraus eine formelle Revision von SIA 380/1 (mit neuen Grenzwerten
-Q_H,li) wird, ist **nicht bestätigt** — Status wirkt nach Statusbericht/Vorprojekt, nicht nach
-verabschiedeter Norm.
+(Statusbericht V1.7, 2019, cms.sia.ch/de/api/getMedia/940), das die Standardnutzungswerte in
+**SIA 380/1 Tabelle 27** an die Werte der Norm **SIA 2024** angleichen will — u.a. eine
+Anhebung der Raumtemperatur von 20 °C auf 22 °C für die meisten Gebäudekategorien. **Das PDF
+wurde jetzt vollständig im Volltext gelesen** (curl + Read-PDF-Tool statt WebFetch, das an der
+Kompression gescheitert war) → eigenes Destillat
+[[sia-harmonisierung-standardwerte-gebaeudekategorien-2019]]. Ergebnis: Der Bericht datiert von
+**2019** und nennt einen eigenen provisorischen Terminplan (Abschluss aller drei Umsetzungsphasen
+bis **31.12.2024**, danach erst Vernehmlassung). Dieser Terminplan ist **um mehr als ein Jahr
+verstrichen**, ohne dass eine neue SIA-380/1-Ausgabe erschienen ist (KB-Bestätigung: 2016/C1:2019
+bleibt aktuell). Der Vorschlag ist damit bestätigt **nicht in Kraft** — nicht mehr nur vermutet,
+sondern durch Terminplan-Abgleich am Original belegt.
 
 ## Bauherren-Transfer
 Für Bauherren-Antworten gilt weiterhin: der aktuelle Energienachweis (Systemnachweis wie
@@ -81,13 +81,12 @@ Heizwärmebedarf (und damit der Grenzwertvergleich) spürbar verändern — das 
 kein aktuell geltendes Recht.
 
 ## Offene Punkte
-- Das Statusbericht-PDF zum Harmonisierungsprojekt (cms.sia.ch/de/api/getMedia/940) wurde
-  **nicht inhaltlich verifiziert** (WebFetch lieferte keine auswertbaren Fliesstext-Inhalte);
-  eine spätere Session sollte das PDF direkt öffnen/lesen (ggf. via PDF-Tool statt WebFetch)
-  oder eine espazium.ch-Zusammenfassung dazu suchen, um Zeitplan und Verbindlichkeit zu klären.
-  Solange offen: **keine** Aussage treffen, ob/wann Tabelle 27 tatsächlich geändert wird.
-  → siehe auch bestehende Frage zu MuKEn-2025-Bezug in [[sia-380-1-2016-aenderungen-gegenueber-2009]].
+- **Erledigt 25.07.2026 (Run 109):** Das Statusbericht-PDF wurde vollständig gelesen, Zeitplan
+  und Verbindlichkeit sind geklärt (siehe Punkt 3 oben und
+  [[sia-harmonisierung-standardwerte-gebaeudekategorien-2019]]).
 - Korrigenda C1 (2019) zu SIA 380/1:2016 ist weiterhin inhaltlich nicht gelesen (offene Lücke
   bereits im bestehenden Destillat vermerkt, hier nur bestätigt).
 - Kein Norm-Volltext gekauft — diese Einschätzung stützt sich ausschliesslich auf öffentlich
   zugängliche SIA-Shop-Metadaten und Sekundärtreffer, nicht auf den kostenpflichtigen Volltext.
+- Keine Nachfolgeversion des Harmonisierungs-Statusberichts (V2/V3, nach 2019) im Web gefunden —
+  offen, ob das Projekt informell weiterläuft.

@@ -2183,11 +2183,22 @@ Berechnungsmodell bildet die Betriebsweise der Lüftungsanlage im projektspezifi
 U-Wert-Zuschlag für Umkehrdächer entfällt. Kt. ZH wickelt den Vollzug seit 1.1.2026 elektronisch
 über EVEN ab, das auf dem aktuell geltenden Normstand aufsetzt.
 
+**Ausblick (nachgeführt 25.07.2026):** Kursierende Hinweise auf eine künftige Anhebung der
+Raumtemperatur-Standardwerte (20→22 °C) stammen aus einem SIA-Harmonisierungsprojekt
+«Standardwerte und Gebäudekategorien», dessen Statusbericht jetzt im Volltext gelesen wurde
+(→ `[[sia-harmonisierung-standardwerte-gebaeudekategorien-2019]]`). Der Bericht datiert von
+**2019** und nannte einen eigenen Terminplan bis Ende 2024 — dieser ist inzwischen um mehr als
+ein Jahr verstrichen, ohne dass eine neue SIA-380/1-Ausgabe erschienen ist. Für die Beratung
+heisst das: **kein bevorstehendes, terminiertes Ereignis**, sondern ein offenbar ins Stocken
+geratener Vorschlag — keine Frist daraus ableiten.
+
 **Quelle:** Web-Sekundärquellen (SIA-Shop-Produktmetadaten SIA 380/1:2016 + espazium.ch-
 Fachartikel Mennel/Friedli, 23.03.2017) → `[[sia-380-1-2016-aenderungen-gegenueber-2009]]`,
-emerging. **Offen:** die konkreten neuen Q_H,li0/ΔQ_H,li-Zahlenwerte je Nutzungskategorie sind
-ohne gekauften Norm-Volltext nicht belegt — Näherung über die im Kanton verbindliche EnFK-
-Vollzugshilfe, nicht über diese Zusammenfassung, wenn eine bindende Zahl gebraucht wird.
+emerging; Harmonisierungs-Statusbericht im Volltext → `[[sia-harmonisierung-standardwerte-gebaeudekategorien-2019]]`,
+`[[sia-380-1-aktualitaets-check-2026]]` (established). **Offen:** die konkreten neuen
+Q_H,li0/ΔQ_H,li-Zahlenwerte je Nutzungskategorie sind ohne gekauften Norm-Volltext nicht belegt —
+Näherung über die im Kanton verbindliche EnFK-Vollzugshilfe, nicht über diese Zusammenfassung,
+wenn eine bindende Zahl gebraucht wird.
 
 ---
 

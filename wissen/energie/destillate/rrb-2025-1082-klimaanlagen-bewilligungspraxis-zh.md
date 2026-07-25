@@ -268,10 +268,16 @@ Gleichbehandlungsgruenden.
 - **Statistiken** (Fallzahlen Zuerich/Winterthur, 20 Arbeitstage, Fr. 100–23'000) sind laut RRB
   selbst kantonsweit nur lueckenhaft erhoben (Gemeindevollzug) — als grobe Groessenordnung
   brauchbar, nicht als belastbare Statistik in einem Devis zu zitieren.
-- **Genaue SIA-380/1-Definition der Gebaeudekategorien I, II, IV** nicht im Detail
-  nachgeschlagen — hier nur aus dem WDV-Kontext («Wohn- und Schulneubauten» gemaess RRB-Text
-  plus SIA-380/1-Systemwissen) plausibilisiert; bei Bedarf direkt an der SIA-380/1-Tabelle
-  gegenpruefen.
+- **Erledigt 25.07.2026 (Run 109):** Genaue SIA-380/1-Definition der Gebaeudekategorien I/II/IV
+  jetzt am Original verifiziert (SIA-Statusbericht «Harmonisierung SIA-Standardwerte», Tabelle 1,
+  reproduziert Wortlaut SIA 380/1 seit Ausgabe 2001 unveraendert) →
+  [[sia-harmonisierung-standardwerte-gebaeudekategorien-2019]]. **I Wohnen MFH:** Mehrfamilien-
+  haeuser, Alterssiedlungen/-wohnungen, Hotels, Mehrfamilien-Ferienhaeuser, Kinder-/Jugendheime,
+  Tagesheime, Behindertenheime, Drogenstationen, Kasernen, Strafanstalten. **II Wohnen EFH:**
+  Ein-/Zweifamilienhaeuser, Ein-/Zweifamilien-Ferienhaeuser, Reiheneinfamilienhaeuser. **IV
+  Schule:** Gebaeude fuer Schulen aller Stufen, Kindergaerten/-horte, Schulungsraeume, Ausbildungs-
+  zentren, Kongressgebaeude, Labors, Forschungsinstitute, Gemeinschaftsraeume, Freizeitanlagen —
+  bestaetigt damit die WDV-Plausibilisierung («Wohn- und Schulneubauten») direkt am Normwortlaut.
 
 ## Querverweise
 - Kuehlung/Lueftung Energienachweis (EN-105/EN-110-ZH, 12-W/m²- bzw. PV-Kriterium fuer den

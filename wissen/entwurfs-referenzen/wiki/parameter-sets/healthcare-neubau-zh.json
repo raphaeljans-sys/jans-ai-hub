@@ -1,76 +1,64 @@
 {
   "id": "healthcare-neubau-zh",
-  "name": "Healthcare Neubau — Langzeitpflege (Kt. ZH)",
-  "version": "1.0",
+  "name": "Healthcare Neubau — Pflegeheim / Alterszentrum / Betreutes Alterswohnen (CH)",
+  "version": "2.0",
   "quellen": [
-    "CURAVIVA Richtwerte Raumprogramm Pflegeheim 2020",
-    "Wüest Partner Baukostenindex 2024",
-    "JANS Projekt 2410-WALD (Nova Pflegezentrum)",
-    "JANS Projekt 2619-KISPI (Kinderspital Lenggstrasse)",
-    "SIA 416:2003 Flächen und Volumen"
+    "wissen/wettbewerbs-dna/wiki/muster/kennwerte-healthcare.md (B6, established, 12 Quellen / 11 externe Juryberichte + eigene Teilnahme 2101, vier unabhaengige Refuter-Wellen, 25.07.2026) — Programm-/Konstruktions-/Verfahrenskennwerte",
+    "wissen/wettbewerbs-dna/wiki/muster/jury-argumente-healthcare.md (B4, established, 8 Quellen, 5-Shard-Refuter-Welle + Konsistenz-Refuter, 25.07.2026) — Typologie-/Jury-Argumente/K.o.-Punkte",
+    "wissen/immobilienbewertung/wiki/realwert-sachwert.md (JANS 8-Objekt-Referenzvergleich Altersheime/Gesundheitszentren CH 2011-2025, Run 14; NUR fuer den CHF/m3-Kostenhinweis, nicht fuer die uebrigen Felder)"
   ],
+  "scope_hinweis": "Bewusst auf die Subtypen Pflegeheim/Alterszentrum, Demenz-Sondertyp und betreutes Alterswohnen begrenzt (JANS-Auftragsprofil, vgl. 2410-WALD). Akutspital, Psychiatrie und der gemischte Subtyp (Pflege+Alterswohnen) sind in B4/B6 mit eigenen, teils abweichenden Kennwerten belegt, aber NICHT in dieses Set uebernommen — Subtypen duerfen laut B6 nie quer uebertragen werden. Eigene Sets healthcare-akutspital.json / healthcare-psychiatrie.json sind in INDEX.md als geplant vermerkt.",
   "gebaeude": {
-    "geschosse_min": 3,
-    "geschosse_max": 5,
-    "geschosshoehe_m": 3.40,
-    "grundriss_tiefe_m": [14.0, 16.0],
-    "fassaden_raster_m": 1.35,
-    "erschliessung": "mittelkorridor",
-    "statik_system": "skelett",
-    "dachform": "flachdach",
     "orientierung_regeln": [
-      "Bewohnerzimmer Ost/Süd orientiert (Tageslicht Pflege)",
-      "Innenhof ab 4 Geschossen (Belichtung, Orientierung Demenzstation)",
-      "Erdgeschoss öffentlich (Cafeteria, Therapie, Empfang)",
-      "Dachgeschoss Personalräume oder Gebäudetechnik"
+      "Grundtypologie aus dem Betriebskonzept herleiten, nicht waehlen: Ensemble/Mehrkoerper mit getrennter Adresse je Wohnform (Sihlsana SOPHIE, drei Adressen ueber gemeinsames Zentrum) ODER kompakter Solitaer mit Sockel-Aufbau-Gliederung (Widnau Cukrowicz, eingeschossiger Sockel + z-foermiges Wohnvolumen) — B4 Abschnitt 2.2 (Herleitungsregel: B4 Abschnitt 2, Uebergreifende Regel)",
+      "Pflegegeschoss als kleinteilige Nachbarschaften/Wohngruppen mit fassadenbezogenen, tageslichtversorgten Gemeinschaftszonen gliedern (Sihlsana: vier Nachbarschaften à zwei Wohngruppen) — B4 Abschnitt 2.2",
+      "Tiefe Grundrisse ueber kleine, dezentrale Lichthoefe je Wohneinheit belichten, NICHT ueber ein grosses zentrales Atrium (Widnau, windmuehlenartig um innenliegende Lichthoefe) — B4 Abschnitt 2.2",
+      "Demenzgarten offen UND geschlossen als eigenstaendig geprueftes Pflichtelement vorsehen (Sihlsana, Taegermoos als Programm-Option) — B4 Abschnitt 2.3",
+      "Getrennte Adressen je Wohnform/Nutzung, verbunden ueber ein gemeinsames Zentrum (Sihlsana, Taegermoos) — B4 Abschnitt 3.4",
+      "Demenzbereich: klare, gradlinige Erschliessung, Flurenden als Umlenkstellen mit Aufenthaltsqualitaet; KEINE Rundwege/Endlosschleifen/Sackgassen (Widnau) — Verstoss ist K.o.-relevant, B4 Abschnitt 2.3/4"
     ]
   },
   "flaechen": {
-    "hnf_pro_einheit_m2": [42, 48],
-    "einheit_bezeichnung": "Pflegebett",
-    "vf_anteil": 0.28,
-    "agf_bgf_faktor": 0.82,
-    "nf_gf_faktor": 0.65
+    "hinweis": "Keine HNF/Pflegeplatz- oder NF/GF-Kennzahl aus B6 uebernommen: B6 Abschnitt 8 schliesst den Spital-Korridor 95-100 m2/Bett explizit aus (subtypfremd, doppelt abgeleitet) und weist NF/GF fuer Pflegeheim als nicht belegbar aus. Offener Punkt, siehe wissen/wettbewerbs-dna/wiki/QUESTIONS.md."
   },
   "materialien": {
-    "tragwerk": "stahlbeton",
-    "fassade": ["putz-wärmedämmung", "holz-metall-fenster"],
-    "dach": "flachdach-extensiv-begrünt",
-    "innenausbau_standard": "mittel"
+    "tragwerk": "Mischbauweise: Beton fuer Erschliessung/Gemeinschaft (Brand-/Schallschutz) + Holz fuer Zimmer (Wohnlichkeit) — Sihlsana S. 25-26, B4 Abschnitt 2.2",
+    "fassade": [
+      "Holz als Wohnlichkeits-/Identifikationsargument (Widnau: 'hohes Identifikationspotential', bei mehreren gewuerdigten, nicht siegreichen Projekten, nicht beim Sieger Cukrowicz Nachbaur selbst) — B4 Abschnitt 3.9 (vgl. auch 2.2)",
+      "Fensteranteil 35-60 % (zwei Quellen, subtypuebergreifend Akutspital+Pflege/Alterswohnen), Warnschwelle ab 60 % — B6 Abschnitt 5c/8",
+      "Demenz-Sondertyp: feuerpolizeiliche Kategorie Beherbergungsbetriebe verlangt unbrennbare Materialien fuer Konstruktion UND Fassade (Bombach) — B4 Abschnitt 4, K.o.-relevant"
+    ]
   },
   "kosten_referenz": {
-    "chf_m3_gv_band": [850, 1050],
-    "bkp_schwerpunkte": ["2 Gebäude", "23 Elektro", "25 Heizung", "27 Aufzüge"],
+    "bkp_schwerpunkte": ["2 Gebaeude", "23 Elektro", "25 Heizung", "27 Aufzuege"],
     "quelle_kb": "wissen/grobkosten/",
-    "status": "GESPERRT — nicht verwenden bis Entscheid Raphael",
-    "hinweis_wissens_chef": "⚠ Wissens-Chef Run 15 (25.07.2026), zwei unabhängig adversarial BESTÄTIGTE Befunde: (1) Das Band [850, 1050] ist das Wohnbau-MFH-Band der KB wissen/grobkosten. Ebendiese KB untersagt seine Verwendung für diese Bauaufgabe ausdrücklich (wissen/grobkosten/wiki/kennwerte.md:66-68: «Für Spital, Klinik, Alters-/Pflegeheim, Reha, Praxis NICHT diese m³-Werte verwenden — stattdessen die belegten m²-NF-Kennwerte (Wüest Partner) aus dem Skill kostenschaetzung»). Das Set beruft sich also auf eine Quelle, die genau diese Verwendung verbietet. (2) Das Band liegt zudem deutlich unter dem belegten Healthcare-Niveau: wissen/immobilienbewertung/wiki/realwert-sachwert.md (8-Objekt-Referenzvergleich, davon fünf im Kt. ZH) weist für Neubauten ab 2019 1'053–1'420 CHF/m³ GV (BKP 2, Median ~1'100) aus. Bis zum Entscheid Raphael dieses Band NICHT für Kostenaussagen verwenden; Healthcare-Kennwerte über skills/kostenschaetzung (m²-NF, Wüest) bzw. wissen/immobilienbewertung/wiki/realwert-sachwert ziehen. Vorlage: wissen/koordination/outputs/2026-07-25_wissens-chef-run15.md"
+    "hinweis": "B6 Abschnitt 0/8 (25.07.2026, established): kein einziger der 11 externen Healthcare-Juryberichte nennt einen projektspezifischen CHF/m2- oder CHF/m3-Kennwert; der einzige CHF/m3-Datenpunkt der Sammlung (eigene Teilnahme 2101, rund 916 CHF/m3) ist Soll-Kosten gegen Ist-Volumen einer ausgeschiedenen Abgabe und nicht benchmarkfaehig. Fuer CHF/m3 bzw. CHF/m2 fuehrend bleiben wissen/grobkosten/ und, spezifisch fuer Alters-/Pflegeheime, wissen/immobilienbewertung/wiki/realwert-sachwert.md (8-Objekt-Referenzvergleich CH 2011-2025: CHF/m3 GV 826-1'420, Median rund 1'100 BKP 2)."
   },
   "entwurfs_regeln": [
-    "Wohngruppen à 12–16 Betten mit eigenem Aufenthaltsraum",
-    "Pflegebad zentral je Wohngruppe (mind. 12 m²)",
-    "Stützpunkt mit Sichtbezug zum Korridor",
-    "Lichte Korridorbreite ≥ 1.80 m (Bettentransport)",
-    "Brandabschnitte = Wohngruppen (keine Querverbindung über Abschnitt)",
-    "Fluchtweg max. 35 m (VKF BSV 2015)",
-    "Erdgeschoss schwellenlos, Umgebung rollstuhlgängig",
-    "Untergeschoss: Logistik, Wäscherei, Technik, Lager"
+    "Pflegeplaetze je Neubau-Haus: Referenzband 96-136 — drei unabhaengige Quellen (Thurgauerstrasse min. 96, Widnau 108, Adliswil 136); Demenz-Spezialheim Bombach mit 40 Plaetzen bewusst ausserhalb dieses Bandes, eigener Subtyp (B6 Abschnitt 1c/8)",
+    "Wohngruppe/Pflegebereich: 10-22 Plaetze, Demenz am unteren Rand (10-13, Bombach), klassische Pflege am oberen Rand (22, Seeblick-Rahmenvorgabe) — zwei Quellen, schwache Basis, als Orientierung lesen, nicht als Norm (B6 Abschnitt 1c)",
+    "Wohnungsmix Alterswohnen: Kleinwohnungen 1.5-2.5-Zimmer dominierend — drei unabhaengige Quellen (Adliswil zwei Drittel als 2.5-Zi., Taegermoos mehrheitlich 2-2.5-Zi., Thurgauerstrasse 80 % im Segment 1.5-2.0-Zi.); die engere Fassung '2- bis 2.5-Zi.' ist NICHT von allen drei Quellen gedeckt (B6 Abschnitt 1d/8, korrigiert 25.07.2026)",
+    "Demenz-Sondertyp folgt einer doppelten Erfolgsbedingung: Wohnlichkeit/Aufenthaltsqualitaet UND Sicherheit/Orientierung gleichzeitig; Muster 'offenes aber sicheres Haus' ohne geschlossene Abteilungen, Vertikalerschliessung vom Empfang einsehbar (Widnau, Bombach) — B4 Abschnitt 2.3",
+    "Demenz-Bewohnerzimmer 18-20 m2 (Bombach, Einzelbeleg) gegenueber Akutspital-Normzimmer 21 m2 (subtypfremd, nur zur Einordnung) — Zimmerflaeche ist der schwaechste Subtyp-Differenzierer, der Unterschied steckt in Erschliessungs-/Gemeinschafts-/Betriebsflaechen (B6 Abschnitt 1e)",
+    "Brandschutz ist der schaerfste Healthcare-K.o.: im Pflege-/Demenzbau ueber die feuerpolizeiliche Kategorie Beherbergungsbetriebe (zwingend unbrennbare Materialien fuer Konstruktion UND Fassade) — Bombach 'massive Brandschutzverstoesse' kosteten auch dem Sieger eine Auflage (B4 Abschnitt 4)",
+    "Raumprogramm-Kapazitaet ist harter K.o., keine Qualitaetsfrage: eine Mengenunterschreitung fuehrt zum Ausschluss von der Preiserteilung, waehrend eine Flaechenueberschreitung von rund 4 % ohne Sanktion getragen wird (PAUL & PAULA 20 statt 40 Pflegestudios ausgeschlossen, Sihlsana; Gegenbeleg Kispi Luzern) — B4 Abschnitt 4, B6 Abschnitt 7c",
+    "Etappierbarkeit/Weiterbetrieb bei laufendem Betrieb, moeglichst ohne Provisorien — der schaerfste Healthcare-Siegargument ueberhaupt, auch bei Pflegeheim-Ersatzneubauten relevant (Sihlsana: Etappierbarkeit als staedtebauliche Qualitaet, S. 24) — B4 Abschnitt 3.1",
+    "Kompaktheit/Flaecheneffizienz inkl. Untergeschoss UND Fassade nachweisen, nicht nur Hauptbaukoerper: ein kompakter Hauptkoerper kann durch ausgreifendes UG oder aufwaendige Fassade wirtschaftlich 'aufgefressen' werden (Widnau; Sihlsana koppelt Wirtschaftlichkeit direkt an Huellflaechenzahl) — B4 Abschnitt 3.8",
+    "Kostenspreizung im Finalistenfeld rund 18-30 Prozentpunkte (zwei Quellen) bestaetigt typologieuebergreifend den Schulbau-Wert 16-24 % — Kosten wirken als Korridor/Tie-Breaker, nicht als Rangordnung; wer im Korridor liegt gewinnt nicht durch Sparen, wer deutlich darueber liegt verliert (B6 Abschnitt 7a/8, korrigiert 25.07.2026)",
+    "Mischbauweise Beton (Erschliessung/Gemeinschaft, Brand-/Schallschutz) + Holz (Zimmer, Wohnlichkeit) als kombiniertes Ausdrucks- und Wirtschaftlichkeitspaket (Sihlsana, Widnau) — B4 Abschnitt 3.9",
+    "Kurze, kreuzungsfreie Anlieferung/Kueche/Speisetransport, getrennt von Bewohner- und Besucherstroemen — wiederkehrender Schwachpunkt, den der Sieger loest (Widnau Anlieferung an der Nordfassade; Sihlsana ruegt Anlieferung/Kueche bei Rangierten als 'grosse Schwaeche') — B4 Abschnitt 3.7"
   ],
   "referenz_projekte": [
     {
       "name": "Pflegezentrum Wald (Nova)",
       "jans_nr": "2410",
-      "relevanz": "Raumprogramm + Wirtschaftlichkeit Healthcare"
-    },
-    {
-      "name": "KISPI Lenggstrasse 30",
-      "jans_nr": "2619",
-      "relevanz": "Auflagenbereinigung + Brandschutz Healthcare"
+      "relevanz": "Raumprogramm + Wirtschaftlichkeit Healthcare (Skill healthcare-wirtschaftlichkeit)"
     },
     {
       "name": "Alterszentrum Hottingen (Boltshauser Architekten)",
       "jans_nr": null,
       "architekt": "Boltshauser Architekten",
-      "relevanz": "Referenz Innenhof-Typologie Pflege, Materialität Sichtbeton + Holz"
+      "relevanz": "Referenz Innenhof-Typologie Pflege, Materialitaet Sichtbeton + Holz"
     }
   ],
   "rendering": {

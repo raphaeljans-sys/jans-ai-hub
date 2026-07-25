@@ -1,5 +1,34 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-07-25 — `healthcare-neubau-zh.json` komplett neu geschrieben (v1.0 → v2.0, Etappe-3-Baustein B5)
+- **Vollstaendige Neufassung, rein aus den beiden established Etappe-3-Mustern abgeleitet**
+  (Muster `wissen/wettbewerbs-dna/wiki/muster/kennwerte-healthcare.md` B6 +
+  `jury-argumente-healthcare.md` B4, beide an diesem Tag auf `established` gehoben — B6
+  Healthcare damit vollstaendig, vgl. CHANGELOG dortselbst). Bisherige v1.0-Quellen
+  (CURAVIVA-Richtwerte, pauschale Wueest-Kostenkennwerte) ersatzlos entfernt — sie liessen
+  sich nicht mehr gegen die jetzt established Quellen belegen und widersprachen der
+  Etappe-3-Vorgabe "nur belegte Werte aus B4/B6".
+- **Scope bewusst verengt** auf Pflegeheim/Alterszentrum, Demenz-Sondertyp und betreutes
+  Alterswohnen (JANS-Auftragsprofil, vgl. 2410-WALD) — Akutspital/Psychiatrie/gemischter
+  Subtyp sind in B4/B6 mit eigenen, teils klar abweichenden Kennwerten belegt und wegen
+  B6s Subtyp-Vermischungsverbot bewusst NICHT in dieses Set uebernommen (`healthcare-
+  akutspital.json`/`healthcare-psychiatrie.json` bleiben als eigene Sets geplant, INDEX.md).
+- **`kosten_referenz.chf_m3_gv_band` bleibt bewusst leer** (kein numerisches Feld) —
+  B6 Abschnitt 0/8 weist aus, dass kein einziger der 11 externen Healthcare-Juryberichte
+  einen projektspezifischen CHF/m2- oder CHF/m3-Kennwert nennt. Damit ist die GESPERRT-
+  Markierung aus Wissens-Chef Run 15 (Eintrag oben) gegenstandslos: das beanstandete Band
+  [850,1050] existiert in v2.0 nicht mehr. Der `kosten_referenz.hinweis`-Text nennt
+  `wissen/grobkosten/` sowie, spezifisch fuer Alters-/Pflegeheime, den 8-Objekt-
+  Referenzvergleich `wissen/immobilienbewertung/wiki/realwert-sachwert.md` (CHF/m3 GV
+  826-1'420, Median rund 1'100 BKP 2 — als dritte Quelle im `quellen`-Array deklariert,
+  nicht unbelegt vermengt).
+- **Refuter-Pruefung bestanden:** unabhaengiger Agent prüfte alle 28 Einzelaussagen des
+  neuen JSON gegen B4/B6 wortgenau; 2 kleine Abschnitts-Ungenauigkeiten und 1 unbelegter
+  Cross-KB-Verweis gefunden und direkt korrigiert (dritte Quelle sauber deklariert statt
+  unbelegt eingemischt). Schema-valide (`validate.py --all` → OK fuer alle drei Sets).
+- INDEX.md-Eintrag nachgezogen (Etappe-3-Herkunft + Scope-Praezisierung, analog zum
+  bestehenden Eintrag fuer `schule-volksschule-ch.json`).
+
 ## 2026-07-25 — Wissens-Chef Run 15 (Cross-KB): Healthcare-Kostenband GESPERRT + Erst-Verlinkung zu architekten-synobsis
 - **`wiki/parameter-sets/healthcare-neubau-zh.json`, Block `kosten_referenz`: `status: GESPERRT` + belegter Hinweis ergaenzt** (nichts geloescht — Loeschung braucht Rueckfrage). Zwei unabhaengig adversarial BESTAETIGTE Befunde: (1) Das gefuehrte Band **[850, 1050] CHF/m3 GV ist das Wohnbau-MFH-Band** der KB `grobkosten` — und beruft sich per `quelle_kb` ausgerechnet auf die KB, die diese Verwendung fuer «Spital, Klinik, Alters-/Pflegeheim, Reha, Praxis» **ausdruecklich untersagt** (`grobkosten/wiki/kennwerte.md:66-68`). (2) Das Band liegt deutlich unter dem belegten Healthcare-Niveau: **1053-1420 CHF/m3 GV** (BKP 2, Median ~1100) aus dem 8-Objekt-Referenzvergleich in `immobilienbewertung/wiki/realwert-sachwert` (fuenf der acht Objekte im Kt. ZH). Wertsetzung = Fachentscheid Raphael. Schema-Validator laeuft unveraendert durch (`validate.py --all` → OK fuer alle drei Sets).
 - **Erst-Verlinkung zur KB `architekten-synobsis`** (die beiden KBs kannten sich bis heute nicht, 0 Grep-Treffer in beiden Richtungen): `wiki/typologien/bildung.md` fuehrt neu die synobsis-Quellen (`wiki/THEMEN.md` §1.4 Bildungsbauten, `wiki/RAUMTYPOLOGIEN.md`) — der Artikel war ohne eine einzige Katalog-Quelle kompiliert worden, obwohl der Referenz-Katalog der deklarierte Arbeitsweg dieser KB ist.
