@@ -1224,3 +1224,29 @@ mit echten Umlauten (bewährtes Run-86-Muster gegen den Umlaut-Bug).
   Vor einer Zusammenfuehrung/Loeschung: inhaltlicher Abgleich, ob randbedingungen zusaetzliche
   Fakten (SIA 382/1 Kaelte-Merkblatt) beitraegt, die in nutzungsdaten fehlen — falls ja, ergaenzen
   statt loeschen; sonst mergen. Destruktive Aktion braucht Rueckfrage (Rule wissens-bibliothekar).
+
+## Run 90 (2026-07-25) — vier parallele Rechercheagenten, PDF-Inventar weiterhin erschöpft
+
+- [x] **Anergienetz CHF/m²-Kennzahl** ✓ 2026-07-25 → `[[anergienetz-kalte-fernwaerme-ch]]`, FAQ F109
+  geschärft. BFE-Fallbeispiele-Bericht (2017/18) liefert FGZ-Friesenberg-Wert ≈230 CHF/m² EBF
+  (Netzinfrastruktur, Endausbau, selbst gerechnet, n=1). Bestätigter Negativbefund: weder Faktenblatt
+  Thermische Netze (Städteverband) noch Planungshandbuch Thermische Netze 2.0 (Verenum, Jan. 2026)
+  führen eine eigene Kostenkategorie für Anergienetze — beide subsumieren unter «Thermisches Netz».
+- [x] **Erdwärme-Flächenkollektor SZ: S1/S3-Zuordnung** ✓ 2026-07-25 → established (bundesrechtliche
+  Grundlage BAFU/FWS 2009: S1/S2 nicht zugelassen, S3 einzelfallbewilligungsfähig bei flacher
+  Bodenlage). SZ-eigenes Merkblatt mit expliziter S1/S3-Aussage weiterhin nicht gefunden — nur
+  Bundesregel bestätigt, kantonale Abweichung/Übernahme offen.
+- [x] **«Grabenkollektor» als CH-Kategorie** ✓ 2026-07-25 endgültig geklärt (established, negativ):
+  deutsche Herstellerkategorie, in Schweizer Amtssprache nicht existent — kein weiterer
+  Rechercheaufwand nötig.
+- [x] **Uf-Werte CH-Systemtabelle** ✓ 2026-07-25 endgültig geklärt (established, negativ, strukturell
+  begründet): SZFF verlangt produktspezifischen Nachweis statt Pauschaltabelle (Reglement 52.06).
+  Herstellerbeispiele EgoKiefer/4B als Bandbreiten-Anker ergänzt (emerging) →
+  `[[uf-werte-rahmenmaterial-grobuebersicht]]`. Punkt gilt als abgeschlossen, nicht mehr erneut
+  aufrollen — nur bei konkreter Projektanfrage mit bestimmtem Fabrikat erneut Einzel-Datenblatt prüfen.
+- [x] **Neues Thema PV-Blitzschutz + Gebäudeversicherung (+ Batteriespeicher)** ✓ 2026-07-25 →
+  `[[pv-blitzschutz-gebaeudeversicherung-ch]]`, FAQ F118 neu. Keine automatische PV-Blitzschutzpflicht,
+  aber Integrationspflicht bei Bestand; GVZ verlangt aktive Meldung mit Erstellungskosten; Kt. SZ ist
+  GUSTAVO-Kanton ohne Versicherungsmonopol (privat organisiert), Brandschutzbewilligung bleibt
+  trotzdem kantonal. Offen: ziffern-genaue VKF-/GVZ-Primärtexte (PDFs technisch nicht auslesbar
+  gewesen), Batteriespeicher-Brandabschnitts-Schwellen (100 kWh/EI30/EI60) nur sekundärquellenbelegt.

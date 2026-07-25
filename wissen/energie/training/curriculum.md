@@ -961,3 +961,23 @@ Verfahrensstand unverändert. FAQ-Stand jetzt **F1–F105**. Details: `outputs/2
   → `[[pv-marktzahlen-kosten-ch-2025]]` (F18 geschärft). **Koordination (Rule 260720):** die drei von
   Run 85 offen gelassenen FAQ-Einträge (Heizöltank/Stromtarife/Erdsonden-Mehrfachfelder) als F106–F108
   treu nachgeholt; FAQ lückenlos F1–F110.
+
+- **D60 (Run 90, 2026-07-25)** — PDF-Inventar weiterhin erschöpft seit Run 65 (bestätigt); vier
+  parallele Sonnet-Rechercheagenten vertiefen offene Punkte aus dem Backlog statt neuer breiter
+  Themenexpansion (Meta-Lehre M5). **Anergienetz CHF/m²-Kennzahl** erstmals grob belegt: BFE-
+  Fallbeispiele-Bericht liefert FGZ-Friesenberg ≈230 CHF/m² EBF (Netzinfrastruktur, n=1, Preisbasis
+  2017/18), bestätigter Negativbefund für einen generellen Branchenrichtwert (Faktenblatt Städteverband
+  + Planungshandbuch Verenum subsumieren Anergienetze ohne eigene Kostenkategorie unter «Thermisches
+  Netz») → `[[anergienetz-kalte-fernwaerme-ch]]`, FAQ F109 geschärft. **Erdwärme-Flächenkollektor SZ:**
+  S1/S3-Zuordnung bundesrechtlich geklärt (BAFU/FWS 2009: S1/S2 nicht zugelassen, S3
+  einzelfallbewilligungsfähig bei flacher Lage), «Grabenkollektor» endgültig als deutsche
+  Herstellerkategorie ohne CH-Entsprechung widerlegt → `[[oberflaechennahe-erdwaerme-flaechenkollektor-erdwaermekorb-zh-sz]]`,
+  FAQ F110 geschärft. **Uf-Werte:** langjährige Lücke endgültig strukturell erklärt (SZFF verlangt
+  produktspezifischen Nachweis statt Pauschaltabelle) + zwei Hersteller-Bandbreiten (EgoKiefer, 4B)
+  als Orientierung ergänzt → `[[uf-werte-rahmenmaterial-grobuebersicht]]`, kein weiterer
+  Rechercheaufwand nötig. **Neues Thema PV-Blitzschutz/Gebäudeversicherung** (inkl. Batteriespeicher-
+  Brandschutzeinordnung, Kt. SZ als GUSTAVO-Kanton ohne Versicherungsmonopol identifiziert) →
+  `[[pv-blitzschutz-gebaeudeversicherung-ch]]` (neu), FAQ **F118** neu. FAQ-Stand jetzt **F1–F118**
+  (F117 stammt aus einem parallelen Solarpflicht-Strang desselben Tages). Zusätzlich B4 aus Run 89
+  erledigt: `wiki/INDEX.md`-Kernprodukt-Zeile verdichtet statt additiv fortgeschrieben (Verweis auf
+  CHANGELOG statt Einzelaufzählung).

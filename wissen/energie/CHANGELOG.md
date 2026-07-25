@@ -2,6 +2,26 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 90: vier Backlog-Vertiefungen + neues Thema PV-Blitzschutz/Versicherung
+- **Anergienetz CHF/m²-Kennzahl** erstmals grob belegt (BFE-Fallbeispiele-Bericht 2017/18):
+  FGZ Friesenberg ≈230 CHF/m² EBF Netzinfrastruktur (n=1); bestätigter Negativbefund für einen
+  generellen Branchenrichtwert → `[[anergienetz-kalte-fernwaerme-ch]]`, FAQ F109 geschärft.
+- **Erdwärme-Flächenkollektor SZ:** S1/S3-Zuordnung bundesrechtlich geklärt (BAFU/FWS 2009),
+  «Grabenkollektor» als CH-Kategorie endgültig widerlegt (deutsche Herstellerkategorie) →
+  `[[oberflaechennahe-erdwaerme-flaechenkollektor-erdwaermekorb-zh-sz]]`, FAQ F110 geschärft.
+- **Uf-Werte:** langjährige Lücke strukturell geklärt (SZFF verlangt produktspezifischen Nachweis
+  statt Pauschaltabelle) + Hersteller-Bandbreiten EgoKiefer/4B ergänzt →
+  `[[uf-werte-rahmenmaterial-grobuebersicht]]`, Punkt abgeschlossen.
+- **Neues Destillat** `wiki`-verlinkt `[[pv-blitzschutz-gebaeudeversicherung-ch]]`: keine
+  automatische PV-Blitzschutzpflicht, GVZ-Meldepflicht mit Erstellungskosten, Kt. SZ als
+  GUSTAVO-Kanton ohne Versicherungsmonopol identifiziert, Batteriespeicher-Brandschutzeinordnung.
+  FAQ **F118** neu.
+- **B4 aus Run 89 erledigt:** `wiki/INDEX.md`-Kernprodukt-Zeile verdichtet statt additiv
+  fortgeschrieben (verweist neu auf CHANGELOG statt jede Lauf-Ergänzung einzeln aufzulisten).
+- **Bewusst nicht angegangen:** B1-Dubletten-Konsolidierung + SIA-2024-Zwilling — beides
+  destruktive Restrukturierung, Rückfrage bei Raphael nötig (Rule `wissens-bibliothekar`).
+- Output: `outputs/2026-07-25_energie-run90.md`.
+
 ## 2026-07-25 — Run 89: Backlog-Bereinigung + neuer Themenartikel Gebäudeschadstoffe
 - Kollisionsschutz geprüft (kein Zweitprozess). Geprüft, ob Run-88-Prioritäten 1–3
   (INDEX-Entwirrung B3/B4, `foerderung-energie-zh.md` KRNr-Stand E1) noch offen sind — beide
