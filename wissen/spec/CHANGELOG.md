@@ -1,5 +1,22 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-25 — One-Time-Task `syn02-spec-anstoss` erneut gefeuert (Duplikat, keine Aktion)
+- Der einmalige Task `syn02-spec-anstoss` (Freigabe 15.07., geplanter Feuertermin Mo
+  20.07.2026 12:15) ist heute 25.07. erneut ausgeloest worden, obwohl er bereits am 20.07.
+  vollstaendig ausgefuehrt wurde: Interview-Vorbereitung (`outputs/2026-07-15_...-spec-interview/`),
+  Interview E1-E9 mit Raphael via `AskUserQuestion` bestaetigt, Spec verabschiedet
+  (`outputs/2026-07-20_syn-02-typologischer-entwurfsprozess_spec.md`, Commits `eac09b64`,
+  `e0ec7d4e`, `b262e60b`), Register nachgefuehrt (`SYNERGIE-REGISTER.md` SYN-02).
+- Geprueft, ob seither Umsetzungsfortschritt entstanden ist: nein, `volumen_generator.py`
+  liest weiterhin kein Parameter-Set (bestaetigt im Synergie-Lauf 02, 25.07.). Block 1 der
+  Spec wartet unveraendert auf die Freigabe zum MVP-Bau durch Raphael.
+- **Keine Aktion:** keine erneute Interview-Vorbereitung erstellt (waere Dublette), keine
+  Mail versendet (haette faelschlich "Interview steht noch aus" suggeriert, obwohl es laengst
+  bestaetigt ist). Vermutliche Ursache: der One-Time-Task wurde nach Erledigung am 20.07.
+  nicht aus der Task-Queue entfernt. Empfehlung an Raphael: Task-Eintrag `syn02-spec-anstoss`
+  in der Queue loeschen, damit er nicht ein drittes Mal feuert; naechster faelliger Schritt ist
+  die MVP-Bau-Freigabe fuer Block 1, nicht ein weiteres Spec-Interview.
+
 ## 2026-07-24 — Trainingslauf 27 (Verifikationslauf + Health-Check-Phase-2)
 - Output `outputs/2026-07-24_training-run27.md`. Keine neue reale Spec seit Lauf 24; statt
   redundanter P1-Wiederholung die groesste offene Phase-2-Aktion des 23.07.-Health-Checks

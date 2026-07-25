@@ -1168,15 +1168,9 @@ Planungsgrundlagen im engeren Sinn):
   kartiert. **04-Grafikvorlagen-Ordnerruecken bestätigt als reine Büro-/CI-Vorlagen** (drei
   `.dot`-Word-Vorlagen für Ordnerrücken hoch/schmal/quer + zwei `.dot`-Vorlagen CD-Cover/-Label,
   keine Word-Dokumente mit Fachinhalt) — Nicht-Fund verifiziert, kein weiterer Bearbeitungsbedarf.
-  **09-Projektdokumentation enthält dagegen potenziell substanziellen Inhalt**
-  (`09.1-Projektdokumentation/Projektdokumentation_Richtlinie.pdf`, 22 KB, + Musterdokumente
-  `Projektdokumentation_Muster.doc`/`_KV.xls`) und **10-Projektablauf/10.6-Projektabschluss**
-  ein `Abnahmeprotokoll-SIA.doc` — beide inhaltlich noch NICHT gelesen, da beim Zugriffsversuch
-  Run 52 (2026-07-18) durch einen OneDrive-File-Provider-Lock blockiert (`EDEADLK`/«Resource
-  deadlock avoided», auch nach Retry mit Wartezeit unverändert) — dasselbe Sync-Timing-Muster wie
-  beim Naturgefahren-/Lignum-Fall in der Kartenportale-Domäne (dort löste sich der Lock erst im
-  übernächsten Lauf). **Kandidat für den nächsten Recht/Norm-Lauf**, nicht als Nicht-Fund
-  abschliessen.
+  **09-Projektdokumentation/10-Projektablauf GELÖST Run 60 (2026-07-25):** der OneDrive-Lock aus
+  Run 52 hatte sich aufgelöst (Sync-Timing, analog Naturgefahren-/Lignum-Fall), alle vier Dateien
+  vollständig gelesen und ausgewertet → NEU §18.
 
 **Einordnung für den nächsten Zugriff:** Der Ordner ist erkennbar das **Pflichtenheft der Stadt
 Zürich für beauftragte Planer** (analog einem kantonalen Pflichtenheft, aber Stadt-ZH-spezifisch)

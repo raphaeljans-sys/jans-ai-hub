@@ -7,6 +7,24 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-25
 
+**Hub-Chef-Lauf regulaer nachgeholt (~12:40, NAS wieder gemountet) — ohne neuen Befund, keine
+zweite Mail.** Nach dem Abbruch am Vormittag (NAS nicht gemountet, Vermerk unten) auf Zuruf
+Raphaels («kannst du weiter machen») vollstaendig durchgefuehrt: Signale eingesammelt
+(mail-vorfilter 26h alle Konten, bexio `--verzug` + `--abgleich`, Konversations-Destillat
+25.07., Fristen-Register 7-Tage-Horizont, Whitelist). Ergebnis: **nichts materiell Neues seit
+dem Logbuch-Radar-Briefing 07:23** — alle Positionen dort bereits gemeldet (KISPI-Debitoren
+CHF 32'280: RE-00087 15'000/100 Tg/Mahnung 2, RE-00098+99 17'280/Stufe 1/Frist 03.08.;
+faellig 30.07. RE-00100 Nova 13'120, 31.07. RE-00101 Tschopp 6'000; KISPI-Auflagebereinigung
+II.1.a eingereicht, II.1.b Feuerpolizei + II.1.c UGZ bei Fachstellen [beide Kontakte OOO];
+Jegen Los 274.01 7 Entscheide offen/Vorbestellung 03.08.; Roethlisberger-Entscheid 31.07.;
+AG-Gruendung UBS 29 Tg ohne Antwort; SwissSign Schritt 2/3 offen). Einziger neuer Input seit
+07:23: privater Salzmann-Thread Geschirrspueler Saumstrasse 21 (Nachfrage Montagetermin 09:49)
+— Raphael bearbeitet live selbst (eigene Antwort 10:58), kein Hub-Befund. **Whitelist:** keine
+A1-Mahnaktion qualifiziert (RE-00087 auf Stufe 2 = nur Entwurf; RE-00098/99 bereits auf Stufe 1,
+Frist laeuft bis 03.08.), keine A2-Kalendereintraege (keine neu bestaetigten Termine, Kalender
+7 Tage leer). Keine autonome Aktion ausser diesem A4-Vermerk. Gemaess Contract-Nicht-Ziel
+(keine Doppelmeldung) + Task-Regel: **keine zweite Briefing-Mail versendet.**
+
 **Hub-Chef-Lauf ohne Befund (~08:40, geplanter Lauf).** NAS `/Volumes/daten` war beim Start
 NICHT gemountet (NAS-Waechter-Warnung). Skill-Definition, mail-vorfilter.sh, Connectoren und
 das kanonische Logbuch liegen alle auf dem NAS und waren unerreichbar. Gemaess Task-Vorbedingung

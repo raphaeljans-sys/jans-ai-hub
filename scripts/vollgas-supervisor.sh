@@ -18,7 +18,7 @@ set -euo pipefail
 
 NAS_DIR="/Volumes/daten/jans-ai-hub/logbuch/vollgas"
 RUNNER="/Volumes/daten/jans-ai-hub/scripts/vollgas-runner.sh"
-END_DATE="20260811"   # deckungsgleich mit dem Runner (Selbst-Ende / Drosselung)
+END_DATE="20991231"   # deckungsgleich mit dem Runner (Selbst-Ende / Drosselung)
 HOST="$(hostname -s)"
 LOG="$NAS_DIR/supervisor-$HOST.log"
 
