@@ -2,7 +2,7 @@
 title: Solarwärme, Warmwasser & die Entscheidung Solarthermie ↔ Photovoltaik
 status: established
 last_updated: 2026-07-12
-sources: [solarthermie-vs-pv-warmwasser-ch, wp-pv-eigenverbrauch-lastmanagement, pv-marktzahlen-kosten-ch-2025, foerderprogramm-energie-zh-2026, foerderprogramm-energie-sz-2026, solarthermie-investitionskosten-ch, pvt-hybridkollektoren]
+sources: [destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/solarthermie-investitionskosten-ch.md, destillate/pvt-hybridkollektoren.md]
 links: [[BAUHERREN-FAQ]], [[pv-eigenverbrauch-zev]], [[heizleistung-und-waermeerzeuger]], [[pv-solar-technologien]]
 ---
 

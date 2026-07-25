@@ -2,7 +2,7 @@
 title: Heizleistung & Wärmeerzeuger-Dimensionierung
 status: established
 last_updated: 2026-07-14
-sources: [destillate/bfe-wärmeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-heizwärmebedarf-berechnung.md, destillate/wta-formular-zh-wärmetechnische-anlagen.md, destillate/wärmepumpe-systemvergleich.md, destillate/fawa-jaz-feldanalyse-wärmepumpen.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/cop-scop-jaz-wärmepumpe-grünenwald.md, destillate/sia-384-3-wpesti-jaz-methode.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/kältemittel-r290-wärmepumpen-ch.md, destillate/erdwärmesonden-bewilligung-zh-sz.md]
+sources: [destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/waermepumpe-systemvergleich.md, destillate/fawa-jaz-feldanalyse-waermepumpen.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/cop-scop-jaz-waermepumpe-gruenenwald.md, destillate/sia-384-3-wpesti-jaz-methode.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/kaeltemittel-r290-waermepumpen-ch.md, destillate/erdwaermesonden-bewilligung-zh-sz.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[u-werte-grenzwerte-ch]], [[wta-formular-zh-waermetechnische-anlagen]]
 ---
 

@@ -3,7 +3,7 @@ title: Innendämmung im Altbau — wann, wie, welcher Nachweis, welche Förderun
 status: emerging
 last_updated: 2026-07-20
 sources: [destillate/innendaemmung-altbau-bauphysik-ch.md, destillate/bfe-waermebrueckenkatalog-innendaemmsysteme-bfh-2013.md, destillate/denkmalschutz-energiesanierung-zh-sz.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/foerderprogramm-energie-sz-2026.md]
-links: [[INDEX]] [[BAUHERREN-FAQ]] [[waermebrueckenkatalog-bfe-geschossdecke-kellerdecke]] [[denkmalschutz-energiesanierung-zh-sz]] [[enfk-en-102-waermeschutz-2018]] [[naturdaemmstoffe]] [[fenster-verglasung]] [[graue-energie]]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[waermebrueckenkatalog-bfe-geschossdecke-kellerdecke]], [[denkmalschutz-energiesanierung-zh-sz]], [[enfk-en-102-waermeschutz-2018]], [[naturdaemmstoffe]], [[fenster-verglasung]], [[graue-energie]]
 ---
 
 # Innendämmung im Altbau

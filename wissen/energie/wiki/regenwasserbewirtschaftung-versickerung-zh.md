@@ -1,7 +1,7 @@
 ---
 title: Regenwasserbewirtschaftung / Versickerung — Kanton Zürich
-status: emerging
-last_updated: 2026-06-23
+status: established
+last_updated: 2026-07-25
 datenstand: 2026-06-23 (AWEL-Formular + Hinweise; Normen VSA 2019 / SN 592 000:2012 / AWEL-Richtlinie 2022)
 sources: [destillate/regenwasserbewirtschaftung-versickerung-zh.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[greenpv-fassade-pv-begruenung-hslu]]
@@ -46,3 +46,9 @@ links: [[INDEX]], [[BAUHERREN-FAQ]], [[greenpv-fassade-pv-begruenung-hslu]]
 ## Offen
 - Bemessungsdetail (Mulden-/Rigolengrösse je l/s, k-Wert-Klassen) — AWEL-Regenwasserrechner/VSA.
 - Retentions-/Gründach-Anrechnung quantifizieren; andere Kantone (SZ) abweichend.
+
+**Status-Hebung 2026-07-25 (Run 88):** auf `established` gehoben — Kernaussagen (Bewilligungs-
+schwellen, Metallflächen-Adsorberpflicht, Filterschichttiefe) stammen direkt aus dem amtlichen
+AWEL-Gesuchsformular und sind mit zwei Fachnormen (VSA-Richtlinie, SN 592 000) hinterlegt; die
+verbleibenden Offen-Punkte sind Bemessungsverfeinerungen, keine Kernfakten-Unsicherheit. Dritte
+Health-Check-Empfehlung (01.07./21.07./25.07.) damit umgesetzt.

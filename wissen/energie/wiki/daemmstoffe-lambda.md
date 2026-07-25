@@ -2,8 +2,8 @@
 title: Dämmstoffe & λ-Werte — Schnellreferenz
 status: established
 last_updated: 2026-06-09
-sources: [destillate/sia-2001-wärmedämmstoffe-lambda.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md]
-links: [[INDEX]] [[u-werte-grenzwerte-ch]] [[BAUHERREN-FAQ]]
+sources: [destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md]
+links: [[INDEX]], [[u-werte-grenzwerte-ch]], [[BAUHERREN-FAQ]]
 ---
 
 # Dämmstoffe & λ-Werte

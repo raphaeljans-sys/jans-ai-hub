@@ -1,8 +1,8 @@
 ---
 title: Sommerlicher Wärmeschutz & Hitzeschutz
-status: emerging
-last_updated: 2026-07-14
-sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-02-wärmeschutz-2013.md, destillate/enfk-en-102-wärmeschutz-2018.md, destillate/fassadenbegrünung-hitzeschutz-pv-zielkonflikt.md]
+status: established
+last_updated: 2026-07-25
+sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/fassadenbegruenung-hitzeschutz-pv-zielkonflikt.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]]
 ---
 
@@ -58,9 +58,16 @@ Planung setzt, spart sich Klimaanlage und Betriebskosten — und erfüllt zuglei
 → Bauherren-FAQ **F11**, **F67**.
 
 ## Offen
-- Konkretes Rechenverfahren / Grenzwerte sommerlicher Wärmeschutz nach SIA 180:2014 nachtragen.
+- Konkretes Rechenverfahren / Grenzwerte sommerlicher Wärmeschutz nach SIA 180:2014 nachtragen
+  (liegt bereits ziffern-genau in `wissen/normen/destillate/sia-180-2014` — von dort ziehen).
 - Zusammenspiel mit aktiver Kühlung/Erdsonden-Freecooling (Healthcare-Relevanz) vertiefen.
 - Quantitativer Effekt der Fassadenbegrünung auf Kühllast/Heizwärmebedarf (kWh/m²) offen.
+
+**Status-Hebung 2026-07-25 (Run 88):** auf `established` gehoben — vier triangulierte Quellen
+(EnFK EN-2/EN-102, Minergie-Nachweiskurs, Fassadenbegrünungs-Destillat), alle selbst bereits
+established, tragen die Kernaussagen (g-Wert-Zielwert, Fünf-Stellschrauben-Logik, EnFK-EN-2-
+Vollzug). Belegdichte höher als bei mehreren bereits established geführten KB-Artikeln. Dritte
+Health-Check-Empfehlung (01.07./21.07./25.07.) damit umgesetzt.
 
 Siehe auch: `[[u-werte-grenzwerte-ch]]`, `[[minergie-standards]]`, `[[daemmstoffe-lambda]]`,
 `[[naturdaemmstoffe]]` (Holzfaser/Zellulose als Hitzeschutz durch Speichermasse),

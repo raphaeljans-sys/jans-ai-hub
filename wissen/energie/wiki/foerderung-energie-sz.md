@@ -3,7 +3,7 @@ title: Förderung Energie Kanton Schwyz (Förderprogramm 2026)
 status: established
 last_updated: 2026-06-29
 sources: [destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/pv-einmalverguetung-bund-bfe.md]
-links: [[INDEX]] [[foerderung-energie-zh]] [[gebaeudeprogramm-bund-hfm-2015]] [[pv-einmalverguetung-bund-bfe]] [[energiefranken-foerder-suchmaschine-ch]]
+links: [[INDEX]], [[foerderung-energie-zh]], [[gebaeudeprogramm-bund-hfm-2015]], [[pv-einmalverguetung-bund-bfe]], [[energiefranken-foerder-suchmaschine-ch]]
 ---
 
 # Förderung Energie — Kanton Schwyz

@@ -2,7 +2,7 @@
 title: Minergie-Standards & Eigenstromerzeugung
 status: established
 last_updated: 2026-07-21
-sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-wärmeschutz-2018.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md]
+sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-nachweiskurs-2023-mkz-thge]], [[graue-energie]]
 verifikation: "Adversarial Verify 2026-07-21 gegen Produktreglement MINERGIE/-P/-A Version 2026.1
   (gueltig ab 01.01.2026, minergie.ch). THGE-Zeile unten aktualisiert (Grenzwerte 2026.1 hoeher als

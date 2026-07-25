@@ -2,8 +2,8 @@
 title: Energienachweis Kanton Zürich (EN-ZH / EVEN)
 status: established
 last_updated: 2026-07-12
-sources: [destillate/en-zh-nachweis-übersicht.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-wärmeschutz-2018.md]
-links: [[INDEX]] [[BAUHERREN-FAQ]] [[u-werte-grenzwerte-ch]] [[minergie-standards]] [[muken-2025-verabschiedet]]
+sources: [destillate/en-zh-nachweis-uebersicht.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-waermeschutz-2018.md]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[u-werte-grenzwerte-ch]], [[minergie-standards]], [[muken-2025-verabschiedet]]
 ---
 
 # Energienachweis Kanton Zürich (EN-ZH / EVEN)

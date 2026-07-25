@@ -3,7 +3,7 @@ title: Naturdämmstoffe — ökologisch dämmen, Sommerhitze puffern
 status: established
 last_updated: 2026-07-21
 sources: [destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/strohdaemmung-bemessungswert-brandschutz.md, destillate/naturdaemmstoffe-bemessungswerte-brandverhalten.md]
-links: [[INDEX]] [[daemmstoffe-lambda]] [[sommerlicher-waermeschutz]] [[graue-energie]] [[BAUHERREN-FAQ]]
+links: [[INDEX]], [[daemmstoffe-lambda]], [[sommerlicher-waermeschutz]], [[graue-energie]], [[BAUHERREN-FAQ]]
 ---
 
 # Naturdämmstoffe

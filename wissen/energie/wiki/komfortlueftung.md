@@ -3,7 +3,7 @@ title: Komfortlüftung / kontrollierte Wohnungslüftung — frische Luft ohne W�
 status: established
 last_updated: 2026-07-13
 sources: [destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/en-lueftung-kuehlung-zh.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/bfe-komfortlueftung-dimensionierungshilfe-1.md]
-links: [[INDEX]] [[en-lueftung-kuehlung-zh]] [[minergie-standards]] [[pv-eigenverbrauch-zev]] [[gebaeudeprogramm-bund-hfm-2015]] [[sommerlicher-waermeschutz]] [[BAUHERREN-FAQ]]
+links: [[INDEX]], [[en-lueftung-kuehlung-zh]], [[minergie-standards]], [[pv-eigenverbrauch-zev]], [[gebaeudeprogramm-bund-hfm-2015]], [[sommerlicher-waermeschutz]], [[BAUHERREN-FAQ]]
 ---
 
 # Komfortlüftung / kontrollierte Wohnungslüftung

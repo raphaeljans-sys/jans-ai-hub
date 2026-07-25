@@ -2,8 +2,8 @@
 title: PV- & Solartechnologien — Typen, Eignung, Integration
 status: established
 last_updated: 2026-06-25
-sources: [destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begrünung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md]
-links: [[INDEX]] [[BAUHERREN-FAQ]] [[minergie-standards]] [[holzbau-bauphysik-clt]]
+sources: [destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-standards]], [[holzbau-bauphysik-clt]]
 ---
 
 # PV- & Solartechnologien

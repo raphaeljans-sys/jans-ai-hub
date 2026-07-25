@@ -3,7 +3,7 @@ title: Förderung Energie — Kanton Zürich (2026)
 status: established
 last_updated: 2026-06-28
 datenstand: 2026-06-26 (Förderprogramm Energie ZH, Version 01.01.2026, PDF S. 1-37 vollst.; 2026 unverändert bestätigt 24.10.2025); Bund-/HFM-Mechanik 2026-06-28
-sources: [destillate/förderprogramm-energie-zh-2026.md, destillate/gebäudeprogramm-bund-hfm-2015.md]
+sources: [destillate/foerderprogramm-energie-zh-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[energienachweis-zh]], [[gebaeudeprogramm-bund-hfm-2015]], [[pv-einmalverguetung-bund-bfe]], [[energiefranken-foerder-suchmaschine-ch]]
 ---
 

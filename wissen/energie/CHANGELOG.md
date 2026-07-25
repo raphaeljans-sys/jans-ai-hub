@@ -2,6 +2,49 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 88 (Verwaltungsschicht-Bereinigung nach Health-Check 2026-07-25)
+- [fix] **B5 vollstaendig behoben:** 82 kaputte `sources:`-Dateireferenzen in 11 Wiki-Artikeln
+  (inkl. `BAUHERREN-FAQ.md` mit 50) zurueck auf ASCII-Dateinamen (deterministisches Script, nur
+  `destillate/*.md`-Pfad-Tokens angefasst, Fliesstext unberuehrt). Alle Referenzen verifiziert
+  aufloesbar (0 fehlend).
+- [fix] **F1 vollstaendig behoben:** `schallschutz-sia181.md` (vom 21.07.-Umlaut-Fix uebersehen)
+  jetzt in echten Umlauten — wortbasierte Korrektur (41 spezifische Woerter), Frontmatter/
+  Wikilink-Slugs/Codepfade bewusst unangetastet gelassen (bleiben ASCII-korrekt).
+- [fix] **F2 vollstaendig behoben:** `links:`-Trennzeichen in 9 Wiki-Dateien (daemmstoffe-lambda,
+  energienachweis-zh, fenster-verglasung, foerderung-energie-sz, innendaemmung, komfortlueftung,
+  naturdaemmstoffe, pv-eigenverbrauch-zev, pv-solar-technologien) von Leerzeichen auf Komma
+  vereinheitlicht.
+- [fix] **F3 behoben:** `solarwaerme-warmwasser.md` `sources:` auf vollen `destillate/…md`-Pfad
+  gebracht (6 Eintraege).
+- [korrektur] **F4 als Fehlalarm identifiziert:** `sia-2024-nutzungsrandbedingungen-gesundheitsbau.md`
+  folgt korrekt dem fuer `destillate/` seit Tag 1 verwendeten Schema
+  (quelle/herausgeber/ausgabe/gelesen/datenstand/status/last_updated, siehe PROGRAMM.md) — der
+  Health-Check hatte faelschlich das allgemeine `wissen/WISSEN-CLAUDE.md`-Wiki-Schema
+  (title/status/last_updated/sources/links) als Massstab angelegt. Keine Aenderung noetig.
+- [register] **B2 behoben:** die zwei fehlenden Destillate (`bfe-waermebrueckenkatalog-
+  innendaemmsysteme-bfh-2013`, `sia-2024-nutzungsrandbedingungen-gesundheitsbau`) in
+  `destillate/INDEX.md` nachgetragen. Fuer Letzteres ein naher Ueberschneidungs-Zwilling zu
+  `sia-2024-nutzungsdaten-gesundheitsbau` in `wiki/QUESTIONS.md` vermerkt (Konsolidierung
+  braucht Rueckfrage, nicht destruktiv zusammengefuehrt).
+- [promotion] **G-Empfehlungen entschieden (3. Anlauf):** `regenwasserbewirtschaftung-
+  versickerung-zh` und `sommerlicher-waermeschutz` auf **established** gehoben (amtliche/
+  triangulierte Mehrfachquellen, Kernfakten belastbar; residuale Offen-Punkte sind Verfeinerungen,
+  keine Kernunsicherheit). `solarpflicht-schweiz-kantone` bewusst **nicht** promoviert —
+  echte, laufende Rechtsunsicherheit in mehreren Kantonen (ein Quellenwiderspruch AI,
+  zwei haengige Referenden, mehrere unbestaetigte Kennwerte); Verifikations-Stufe (Rule
+  260712) verlangt Widerlegungspruefung vor `established`, hier nicht bestanden.
+- [faq] F24 (Regenwasser) + F11 (sommerlicher Wärmeschutz) mit Status-Hebungs-Vermerk geschaerft
+  (Pflicht-Block VERDICHTUNG).
+- **Nicht angegangen** (Umfang zu gross fuer diesen Lauf, keine Rueckfrage-Gelegenheit fuer
+  destruktive Restrukturierung): B1 (`destillate/INDEX.md`-Dubletten, 24 Gruppen, `muken-2025-
+  verabschiedet` 7×), B3 (`wiki/INDEX.md` Themen-Artikel-Vermischung, 49 Destillat-only-Eintraege),
+  B4 (FAQ-INDEX-Mega-Absatz), E1/E2 (`foerderung-energie-zh` KRNr-Nachzug, `BAUHERREN-FAQ`-
+  Frontmatter-Datum) — Prioritaet naechster Lauf.
+- PDF-Inventar weiterhin erschoepft (unveraendert seit Run 65); dieser Lauf bewusst als reiner
+  Register-/Qualitaets-Lauf statt weiterer Themen-Neuerschliessung, um die seit mehreren Health-
+  Checks wachsende Verwaltungsschuld erstmals wieder zu senken statt sie weiter anwachsen zu lassen.
+  Output: `outputs/2026-07-25_energie-run88.md`.
+
 ## 2026-07-25 — Wissens-Health-Check (Phase 1, Mac Mini Nachtschicht): A0 · B5 (NEU: 82 kaputte `sources:`-Dateireferenzen in 11 Artikeln inkl. BAUHERREN-FAQ, Kollateralschaden des Umlaut-Fixes vom 21.07.; die vier Register-Befunde vom 21.07. sind seither gewachsen statt behoben, destillate/INDEX.md jetzt 179 Zeilen/138 Destillate, wiki/INDEX.md Themen-Artikel-Abschnitt 73 Eintraege fuer 24 echte Dateien) · C0 · D0 · E2 (foerderung-energie-zh weiterhin ohne KRNr-6062/6063-Stand, 2. Flag; BAUHERREN-FAQ-Frontmatter last_updated 8 Tage hinter dem eigenen Inhalt) · F4 (NEU: schallschutz-sia181.md komplett in ae/oe/ue-Ersatzschreibung, vom 21.07.-Fix nicht erfasst; 3 fortbestehende Befunde unveraendert) · G3 (regenwasserbewirtschaftung-versickerung-zh + sommerlicher-waermeschutz stehen zum dritten Mal in Folge unveraendert auf emerging trotz wiederholter Promotion-Empfehlung). Report: `outputs/2026-07-25_health-check.md`.
 
 ## 2026-07-24 — Wissens-Chef Run 14 (Cross-KB): EN-104-Formular-Querbezug F116 → planungsgrundlagen

@@ -1213,3 +1213,12 @@ mit echten Umlauten (bewährtes Run-86-Muster gegen den Umlaut-Bug).
 - **PDF-Inventar:** weiterhin erschöpft seit Run 65 (bestätigt: keine neuen Fachdateien in
   `PL - 04 Energie` seit letztem Check); Run 87 daher reiner Primärquellen-/Web-Transferlauf (8
   amtliche/fachverbandliche Dokumente statt PDF-Ordner-Transfer).
+- [ ] **Naher Ueberschneidungs-Zwilling SIA-2024-Gesundheitsbau-Destillate (Run 88, 2026-07-25):**
+  `destillate/sia-2024-nutzungsdaten-gesundheitsbau.md` (registriert, Run 69, FAQ F78) und
+  `destillate/sia-2024-nutzungsrandbedingungen-gesundheitsbau.md` (bislang unregistriert, gleiches
+  Datum 2026-07-14, ueberlappende Quellenbasis SIA-Grundlagenbericht + Statusbericht) decken
+  denselben Themenkomplex ab, moeglicherweise aus zwei parallelen Rechercheagenten desselben Laufs.
+  Beide jetzt in `destillate/INDEX.md` gefuehrt (Register-Nachtrag, keine inhaltliche Pruefung).
+  Vor einer Zusammenfuehrung/Loeschung: inhaltlicher Abgleich, ob randbedingungen zusaetzliche
+  Fakten (SIA 382/1 Kaelte-Merkblatt) beitraegt, die in nutzungsdaten fehlen — falls ja, ergaenzen
+  statt loeschen; sonst mergen. Destruktive Aktion braucht Rueckfrage (Rule wissens-bibliothekar).
