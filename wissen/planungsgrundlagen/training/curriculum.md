@@ -203,6 +203,11 @@ das Ergebnis in den passenden Wiki-Artikel.
   (Begriffs-Grep Run 9-59, Tiefenscan, Dateinamen-Diff Run 67, Frischecheck Run 69) ohne offenen
   Curriculum-Punkt und ohne neues Quellmaterial — echte Vertiefung braucht neues SharePoint-
   Material oder einen neuen realen Projektfall.
+- [x] K61-Freshness (Run 73, 2026-07-25, Token-Vollgas) Datei-Frischecheck PL-01 gegen den
+  Zeitstempel von Run 71 (`find -newer`) — **0 neue/veraenderte Dateien**. Fuenfte unabhaengige
+  Erschoepfungs-Bestaetigung fuer Kartenportale (Begriffs-Grep Run 9-59, Tiefenscan,
+  Dateinamen-Diff Run 67, Frischecheck Run 69, jetzt Frischecheck Run 73). Kein neuer
+  Curriculum-Punkt moeglich ohne neues SharePoint-Material.
 
 ## Domaene 2 — Energie (PL-04)  · Prioritaet
 - [x] E1 PV-Typenwahl: Entscheidungsbaum (Indach/Ziegel/transparent/Fassade/Aufdach)? (2026-06-06, → [[energie-pv-eignung-typenwahl]])
@@ -322,6 +327,14 @@ das Ergebnis in den passenden Wiki-Artikel.
   bestaetigt (weitere Refresh-Bestaetigung, kein neuer Datenstand). D9 (realer MFH-/ZEV-Fall)
   bleibt offen — kein neues Material, wartet weiterhin auf ein reales JANS-Projekt mit
   Verbrauchs-/Kostendaten.
+- [x] E47-Freshness (Run 73, 2026-07-25, Token-Vollgas) Datei-Frischecheck PL-04 gegen den
+  Zeitstempel von Run 71 — **0 neue/veraenderte Dateien**. E5/E9 erneut per WebSearch geprueft
+  (energiestiftung.ch/hev-zh.ch/energiehub-gebaeude.ch) — weiterhin keine ZH-spezifische PBG-
+  Vernehmlassung/kein Gesetzesentwurf/kein Termin fuer die MuKEn-2025-Ueberfuehrung auffindbar,
+  nur die allgemeine EnDK-Timeline "Umsetzung bis 2030"; Nebenfund bestaetigt (kein neuer Fakt):
+  Volksabstimmung UmV § 49b PBG fand am 14.06.2026 statt (bereits als M3 in QUESTIONS erfasst).
+  Unveraendert bestaetigt, n-te Refresh-Bestaetigung seit Run 14. D9 bleibt offen. Fuenfte
+  unabhaengige Erschoepfungs-Bestaetigung fuer Energie.
 - [x] E44 (Run 63, 2026-07-25, Token-Vollgas Scout-Fund) Bisher nie gezielt gelesene Datei
   `_Heizwaermebedarf/_Wärmebedarf Warmwasser SIA 380_1.pdf` — liefert sie eine eigene
   Warmwasserbedarf-Berechnungsmethodik ueber die bereits dokumentierte Tab.-25-Zeile 4.3 hinaus?

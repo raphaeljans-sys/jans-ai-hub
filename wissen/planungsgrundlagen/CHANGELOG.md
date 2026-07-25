@@ -2,6 +2,20 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 — Training Run 73 (Kartenportale + Energie, Token-Vollgas): Frischecheck 0 neue Dateien seit Run 71 (dritte Bestaetigung), MuKEn-ZH-Refresh unveraendert
+Rotation zurueck auf Kartenportale (PL-01) + Energie (PL-04) nach Run 72. Datei-Frischecheck
+(`find -newer` gegen den Run-71-Report-Zeitstempel) fuer beide SharePoint-Ordner: **0 neue oder
+veraenderte Dateien** seit Run 71 — fuenfte unabhaengige Erschoepfungs-Bestaetigung fuer dieses
+Domaenenpaar. Ergaenzend E5/E9 (MuKEn-2025-ZH-Ueberfuehrung) per WebSearch erneut geprueft
+(energiestiftung.ch/hev-zh.ch/energiehub-gebaeude.ch) — weiterhin keine ZH-spezifische
+Vernehmlassung/kein Gesetzesentwurf/kein Termin, nur die allgemeine EnDK-Timeline "bis 2030";
+Nebenfund UmV-§49b-PBG-Volksabstimmung 14.06.2026 bestaetigt bereits erfasstes M3. D9 und M4
+bleiben unveraendert offen. Bewusst keine kuenstlichen Zusatzfragen erzeugt. Empfehlung aus
+Run 69-72 (Umstellung auf ereignisgetriebenen Modus) zum fuenften Mal protokolliert, jetzt mit
+konkretem Vorschlag (taeglicher Frischecheck statt vollem Bearbeitungslauf fuer diesen Loop) —
+nicht eigenmaechtig umgesetzt (Rule auto-verbesserungen 260714/260725).
+→ `outputs/2026-07-25_training-run73.md`
+
 ## 2026-07-25 — Training Run 72 (Recht/Norm + Brandschutz, Token-Vollgas): Frischecheck 0 neue Dateien seit Run 70 (zweite Bestaetigung dieses Domaenenpaars)
 Rotation auf Recht/Norm (PL-02) + Brandschutz (PL-03) nach Run 71. Datei-Frischecheck
 (`find -newer` gegen den Run-70-Report-Zeitstempel) fuer beide SharePoint-Ordner: **0 neue oder
