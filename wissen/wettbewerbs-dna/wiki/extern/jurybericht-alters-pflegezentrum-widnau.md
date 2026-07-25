@@ -1,6 +1,6 @@
 ---
 title: "Extern-Jurybericht: Neubau Alters- und Pflegezentrum Widnau — Studienauftrag im Dialog mit Präqualifikation (2017)"
-status: draft
+status: established
 last_updated: 2026-07-25
 sources:
   - "https://espazium.s3.eu-central-1.amazonaws.com/files/2018-06/sb_170316_red.pdf (Schlussbericht Studienauftrag Neubau Alters- und Pflegezentrum, Gemeinde Widnau, Organisation/Vorprüfung Strittmatter Partner AG St. Gallen, genehmigt im Grundsatz 16.03.2017, 63 Seiten)"
@@ -63,7 +63,7 @@ als «Studienauftrag» bezeichnet, nicht als «Wettbewerb» umgedeutet.
   Fachexperten nach SIA 143 (3): Helmut Dietrich (Architekt Dipl. Ing., Bregenz), Lisa
   Ehrensperger (Architektin ETH SIA, Zürich), Dr. Ing. Gesine Marquardt (Architektin und
   Professorin TU Dresden), Hanspeter Woodtli (Ersatz); Mitglieder mit beratender Stimme: Dr.
-  Ruth Köppel (Orgavisit, Betriebsberatung), Werner Meier (Leiter Alters- und Pflegeheim
+  Ruth Köppel (Orgavisit, Rikon), Werner Meier (Leiter Alters- und Pflegeheim
   Hächleren, Thal), Yvonne Naef (Leiterin Zentrum Augiessen, Widnau), Judith Spirig
   (Ortsgemeinde Widnau), Miriam Stoffel (Liegenschaftsverwaltung Widnau); Begleitung/Moderation
   Christian Svec, Raumplaner, St. Gallen.
@@ -77,8 +77,8 @@ als «Studienauftrag» bezeichnet, nicht als «Wettbewerb» umgedeutet.
   mit Aufenthaltsqualität statt «Sackgassen» (S. 8); Vertikalerschliessung dementenfreundlich,
   mindestens ein Warenlift ohne zentrale Lage (Lärmvermeidung, diskrete Transporte inkl.
   Leichentransporte) (S. 8); Aussenräume unterschiedlichen Öffentlichkeitsgrads, geschützter
-  Bereich ohne «eingezäunten» Charakter, der «vom Verlassen des Geländes ablenkt» (S. 8–9);
-  Office/Tagescafé/Speisesaal mit kurzen, kreuzungsfreien Anlieferwegen (S. 9); Tages- und
+  Bereich ohne «eingezäunten» Charakter, der «vom Verlassen des Geländes ablenkt» (S. 8);
+  Office/Tagescafé/Speisesaal mit kurzen, kreuzungsfreien Anlieferwegen (S. 8–9); Tages- und
   Nachtstätte mit 10 Zimmern als potenzielle Raumreserve für eine spätere eigenständige Einheit
   (S. 9).
 - Beurteilungskriterien, nicht gewichtet, ohne Hierarchie (S. 12): Städtebauliche und
@@ -92,7 +92,7 @@ als «Studienauftrag» bezeichnet, nicht als «Wettbewerb» umgedeutet.
   vollständig. Baurechtlich: Grenz- und Strassenabstände geprüft, «ausser einigen kleineren
   Abweichungen erfüllen sämtliche Projekte die baurechtlichen Vorgaben» (S. 10). Materiell:
   Geschossflächen und Gebäudevolumen auf Plausibilität geprüft, «alle Projekte im engeren
-  Rahmen der Vorgabe» (S. 10). Die Vorprüfungsinstanz beantragte, alle 7 Projekte zur
+  Rahmen der Vorgabe» (S. 11). Die Vorprüfungsinstanz beantragte, alle 7 Projekte zur
   Beurteilung zuzulassen und die volle Entschädigung auszurichten; das Beurteilungsgremium
   folgte diesem Antrag (S. 11).
 - Entschädigung: **kein Preisgeld/Rangfolge** im klassischen Wettbewerbssinn. 7 von 8
@@ -283,7 +283,7 @@ Kernargumente der Jury:
    verlangt.
 4. **Aussenräume für Bewohnende müssen sicher, aber ausdrücklich NICHT «eingezäunt» wirken** —
    ein gebäudenaher, attraktiver Bereich, der «vom Verlassen des Geländes ablenkt», statt
-   einzusperren (S. 8–9); dieses Spannungsfeld Sicherheit/Nicht-Institutionalität ist eine
+   einzusperren (S. 8); dieses Spannungsfeld Sicherheit/Nicht-Institutionalität ist eine
    in der Bauherren-Vorgabe explizit benannte Entwurfsachse.
 5. **Anlieferungs- und Küchenlogistik ohne Kreuzung mit Bewohner-/Besucherströmen ist eine
    harte betriebliche Anforderung**, deren Verletzung bis zur eingeschränkten Beurteilbarkeit
@@ -334,7 +334,7 @@ Der Bericht publiziert folgende numerische Werte:
 Der Bericht publiziert dagegen **keine** projektbezogenen Erstellungskosten, Geschossflächen
 (GF), Gebäudevolumen (GV) oder HNF und keinen CHF/m3-Kennwert je Projekt. Die materielle
 Vorprüfung erwähnt ausdrücklich eine Plausibilitätsprüfung von Geschossflächen und
-Gebäudevolumen («alle Projekte im engeren Rahmen der Vorgabe», S. 10), ohne die zugehörigen
+Gebäudevolumen («alle Projekte im engeren Rahmen der Vorgabe», S. 11), ohne die zugehörigen
 Zahlenwerte im Text offenzulegen; ein Gesamtkostenziel für das Vorhaben wird im vorliegenden
 Extrakt an keiner Stelle genannt.
 
@@ -358,14 +358,26 @@ Extrakt an keiner Stelle genannt.
   («© Strittmatter Partner AG St. Gallen, 16. März 2017 Seite N») rekonstruiert; diese sind im
   gesamten Dokument konsistent und eindeutig einer Seite zuordenbar (kein Folio-Drift wie bei
   anderen Extrakten dieser Serie).
-- Die Projektreihenfolge im Bericht (Kapitel 7.1–7.7) folgt keiner Rangfolge, sondern der
-  alphabetischen Ordnung der Büronamen aus der Präqualifikationsliste (S. 6); Kapitel 7.1
-  (Cukrowicz Nachbaur Architekten) ist zufällig auch das empfohlene Siegerprojekt, nicht weil
-  es an erster Stelle steht, sondern weil «C» alphabetisch vorn liegt.
+- Die Projektreihenfolge im Bericht (Kapitel 7.1–7.7, Inhaltsverzeichnis S. 2) ist **nicht**
+  rein alphabetisch: Kapitel 7.1 (Cukrowicz Nachbaur Architekten) steht bewusst an erster
+  Stelle, weil es das empfohlene Siegerprojekt ist — nicht weil «C» alphabetisch vorn läge
+  (rein alphabetisch käme «blgp» vor «Cukrowicz»). Erst die restlichen sechs Kapitel 7.2–7.7
+  (blgp, Dorner﹨Matt, Fiechter & Salzmann, ARGE Hutter Nüesch/Hubert Bischoff, Schär Buri,
+  Sergison Bates) folgen untereinander der alphabetischen Ordnung nach Büronamen (b–D–F–H–S–S,
+  wobei die ARGE unter «Hutter» einsortiert ist). Die Präqualifikationsliste (S. 6) selbst ist
+  rein alphabetisch inkl. der krankheitsbedingt abgesagten Baumschlager Hutter Partners GmbH.
 - Die grafischen Situationspläne, Grundrisse, Ansichten und Visualisierungen (Abb. 2–56) sind
   im Text-Extrakt nur als Bildunterschriften ohne Massangaben erfasst; daraus lassen sich keine
   verifizierbaren Flächen- oder Volumenkennwerte gewinnen und wurden entsprechend nicht in den
   Kennwerte-Abschnitt übernommen.
-- Kein Refuter-Lauf bislang durchgeführt; Status **draft**, wird erst nach unabhängiger
-  Verifikation gegen den Raw-Extrakt auf **established** gehoben (Rule 260714,
-  Qualitätsleitplanke Status-Hebung nur nach Refuter).
+- Refuter-Lauf 25.07.2026 durchgeführt: vollständiger Abgleich jeder Seitenangabe, jedes
+  Zitats und jeder Zahl gegen den Raw-Extrakt. Korrigiert wurden sieben Stellen: (1) Rolle von
+  Dr. Ruth Köppel («Orgavisit, Rikon» statt erfundenem «Orgavisit, Betriebsberatung»);
+  (2) Seitenangabe der materiellen Vorprüfung (S. 11 statt S. 10, zweimal, auch im Abschnitt
+  „Publizierte Kennwerte"); (3) Seitenangabe der Aussenraum-Vorgabe aus der Zwischenbesprechung
+  (S. 8 statt S. 8–9, an zwei Stellen inkl. Lessons-Ziffer 4); (4) Seitenangabe zu Office/
+  Tagescafé/Speisesaal (S. 8–9 statt nur S. 9); (5) die fehlerhafte Behauptung, Kapitel 7.1
+  stehe «zufällig» wegen des Alphabets vorn — richtig: der Sieger wurde bewusst vorangestellt,
+  nur die restlichen sechs Kapitel folgen dem Alphabet. Alle übrigen ca. 50 geprüften Seiten-
+  und Zitatangaben (Verfahren, Gremium, Termine, alle 7 Projektwürdigungen inkl. Sieger)
+  stimmten mit dem Raw-Extrakt überein. Status auf **established** gehoben (Rule 260714).
