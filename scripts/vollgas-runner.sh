@@ -132,6 +132,17 @@ while :; do
 
     for name in "${TASKS[@]}"; do
         [ -f "$NAS_DIR/STOP" ] || [ -f "$NAS_DIR/STOP-$HOST" ] && break
+        # NAS-Guard (25.07.2026, Mount-Haerten Schicht 3): vor JEDEM Lauf
+        # sicherstellen, dass /Volumes/daten wirklich lesbar ist — sonst startet
+        # der Task ins Leere oder bricht mitten im NAS-Schreiben ab (belegt:
+        # immobewertung Run 43 / spec-training abgebrochen, Mount fiel mittendrin
+        # weg). ensure-nas-mounted heilt inline (bis 90 s); gelingt es nicht,
+        # diesen Task ueberspringen statt blind abfeuern.
+        if ! bash "$REPO/scripts/ensure-nas-mounted.sh" 90 >/dev/null 2>&1; then
+            log "SKIP  $name (NAS nach 90s nicht bereit — Lauf uebersprungen)"
+            sleep "$PAUSE_BETWEEN"
+            continue
+        fi
         # Doppellauf vermeiden: laeuft dieser Task bereits (z.B. via launchd-
         # Scheduled-Task zur Cron-Zeit oder ein ueberlanger Vorlauf), diesen
         # Zyklus ueberspringen — sonst editieren zwei Agenten dieselbe KB

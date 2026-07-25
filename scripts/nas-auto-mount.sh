@@ -49,6 +49,22 @@ if [ -f "$LOG_FILE" ] && [ "$(wc -l < "$LOG_FILE" 2>/dev/null)" -gt 500 ]; then
 fi
 
 # -------------------------------------------
+# 0. Gemeinsame Lock (verhindert Doppel-Remount)
+# -------------------------------------------
+# Dieser Waechter wird aus drei Quellen ausgeloest: 3-Min-Intervall, Netzwerk-
+# wechsel (WatchPaths) und der 60-s-Keepalive (nas-keepalive.sh) bei erkanntem
+# Stall. Eine atomare mkdir-Lock stellt sicher, dass immer nur EINE Remount-
+# Sequenz laeuft. Stale-Lock (Prozess tot, > 2 Min alt) wird uebernommen.
+LOCKDIR="/tmp/jans-nas-automount.lock"
+if [ -d "$LOCKDIR" ] && [ -n "$(find "$LOCKDIR" -maxdepth 0 -mmin +2 2>/dev/null)" ]; then
+    rmdir "$LOCKDIR" 2>/dev/null
+fi
+if ! mkdir "$LOCKDIR" 2>/dev/null; then
+    exit 0  # andere Instanz remountet gerade — still zuruecktreten
+fi
+trap 'rmdir "$LOCKDIR" 2>/dev/null' EXIT
+
+# -------------------------------------------
 # 1. Bereits gemountet und funktional?
 # -------------------------------------------
 if mount | grep -q " on ${NAS_MOUNT} "; then
