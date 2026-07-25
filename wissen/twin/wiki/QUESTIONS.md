@@ -3,6 +3,45 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260725 (twin-fragesteller, aus Fidelity-Review 2026-07-25)
+
+Quelle: Drift-Report `outputs/2026-07-25_fidelity.md` (Gesamt-Fidelity 90; drei authentische Vor-Claude-Golds
+03.–05.09.2025 in drei Registern — Yorck Design-Weisscollage-Du, Frick Honorar-Sie [bereits gesättigt], Gregori
+Service-Lieferanten-Sie mit Betreff «Anrufen: 0798461165»). Zwei substanzielle Funde: der Betreff-als-Rückruf
+register-übergreifend (2. Beleg zu 260723 #1) und die wiederkehrende Material-Dichte-Drift. Je in 1–2 Sätzen
+beantwortbar.
+
+1. **«Anrufen: <Handynummer>» als Betreff — nur bei Erstkontakt/Dringlichkeit oder generelles Mittel, sobald ein
+   Anruf besser ist als eine Mail?** In der Gregori-Sie-Mail (04.09.2025) setzt Du die eigene Nummer in den Betreff,
+   Body bleibt eine volle höfliche Sie-Mail; im Claudia-Peer-Du (19.12.2025) war die ganze Mail gestrippt. Nimmst Du
+   den Nummer-Betreff immer, wenn Du zeitnah einen Rückruf willst (auch im laufenden Faden zu einem bekannten
+   Kontakt), oder ist er auf die **erste, noch kanallose Kontaktaufnahme** beschränkt? *Warum: kalibriert den neuen
+   Marker — ohne Grenze setzt der Zwilling den Nummer-Betreff evtl. mitten in etablierte Fäden.* → [[stimme]],
+   [[beziehungsregister]]
+
+2. **Design-/Material-Feedback: dichte, ortsweise-fliessende Prosa mit sinnlichen Details — Dein Standard, oder war
+   das Tagesform?** In der Yorck-Materialisierungsmail führst Du die Weisscollage **Ort für Ort im Fliesstext** durch
+   (Eingang, Terrasse, Wendeltreppe, Backsteinverbund) mit sinnlich-gestalterischen Wendungen («beaurdeaux roter
+   Farbaktzent des quadratischen Zentrummosaikes», «Putzschlemme», «torvergraut»). Der Zwilling fasst so etwas
+   reflexartig in eine aufgeräumte «_ »-Liste und glättet die Sinnlichkeit weg. Soll er im Design-/Materialkontext
+   bewusst dichter und ortsweise-fliessend (statt gebulletet) schreiben? *Warum: wiederkehrende Drift (2. Ausprägung
+   nach 260724 #1 Bild-Rhetorik) — ein Ja würde die zweite Fachsäule um einen aktiven «dicht & fliessend
+   materialisieren»-Marker erweitern.* → [[fachsignatur]], [[stimme]]
+
+3. **«Hier meine Adresse wenn Sie in der Nähe sind:» + Block — feste Schlussgeste, wenn eine Bemusterung/Muster-
+   Sitzung das Ziel ist?** Gegenüber dem Material-Lieferanten (Gregori, Sie) lädst Du zur Vorbeikunft für ein paar
+   Muster ein und hängst die Bürobadresse an. Ist diese Vor-Ort-/Drop-by-Einladung Dein Standard, sobald es um eine
+   physische Bemusterung geht (Muster kommen am besten 1:1 vorbei), oder war es hier situativ? *Warum: bisher nur 1
+   Beleg — ein zweiter würde die Gastgeber-Geste (bisher Café/Büro im Peer-Du) fest ins Service-Sie erweitern.*
+   → [[stimme]], [[arbeitsweise]]
+
+4. **«Guten Tag Herr <Name>» als Default-Eröffnung beim erst-kontaktierten Material-/Service-Lieferanten — oder
+   bekäme ein unbekannter Lieferant eher «Sehr geehrter»?** Gregori (Erstkontakt, Holzbeize-Hersteller) bekommt
+   «Guten Tag Herr Gregori», nicht das kalte «Sehr geehrter». Ist «Guten Tag Herr X» Deine Default-Mittellage für den
+   sachlich-freundlichen Lieferanten-Erstkontakt (Produkt-/Material-Anfrage), und «Sehr geehrte/r» bleibt Behörde/
+   Submission vorbehalten? *Warum: schärft die Service-Sie-Anrede-Schwelle — der Twin traf «Guten Tag» richtig, die
+   Regel dahinter ist aber nur schwach belegt.* → [[beziehungsregister]]
+
 ## Offen — Gate 260724 (twin-chef, Fidelity-Gate Hub-Chef-Lauf)
 
 Aufgetretene Facetten-Spannung beim Gate zweier ausgehender Unternehmer-Sie-Mails (KISPI-Nachfass

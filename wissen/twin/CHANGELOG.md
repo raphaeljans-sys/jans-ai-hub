@@ -5,6 +5,16 @@ hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei l
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 Fidelity-Reports unter `outputs/`.
 
+- **2026-07-25 — twin-fidelity-review (Turnus, Gesamt-Fidelity 90).** Drei authentische Vor-Claude-Golds
+  03.–05.09.2025 in drei Registern gezogen (Yorck Design-Weisscollage-Du, Frick Honorar-Sie [bereits gesättigt],
+  Gregori Service-Lieferanten-Sie mit Betreff «Anrufen: 0798461165»), Twin-Fassungen blind gescort. Zwei Funde:
+  (1) **Betreff = Rückruf-Signal register-übergreifend** — «Anrufen: <Handynummer>» als Betreff-Payload tritt auch
+  im formellen Service-Sie auf (2. Beleg zu QUESTIONS 260723 #1, Body dort voll höflich statt gestrippt);
+  [[stimme]] Do-Block + Marker-Sektion geschärft, in die DNA kompiliert. (2) **Material-Dichte-Drift** (Gold A):
+  Twin bulletet + glättet, wo Raphael ortsweise-fliessend und sinnlich materialisiert (2. Ausprägung nach 260724 #1)
+  — nicht gehärtet, als QUESTIONS 260725 #2 offen gelassen. Kleiner Einzelbeleg «Vor-Ort-/Muster-Einladung im
+  Service-Sie» in [[stimme]] vermerkt (nicht generalisiert). 4 neue Fragen (Runde 260725) an [[QUESTIONS]].
+  Keine Facetten-Widersprüche. Report `outputs/2026-07-25_fidelity.md`. DNA neu kompiliert (build_dna.py).
 - **2026-07-24 — twin-chef Fidelity-Gate (Hub-Chef-Lauf, 2 ausgehende Sie-Mails).** Gate über zwei
   Unternehmer-Mails im laufenden KISPI-/Los-274.01-Mandat: Nachfass Installationspläne Therapieküche
   (Inniger, Röthlisberger AG) und geteilte Zehn-Punkte-Rückmeldung Prinzippläne (Bajrami, Jegen AG).

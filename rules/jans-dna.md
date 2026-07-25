@@ -58,7 +58,10 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   Gegenüber spiegelt. Formelle Alternativfrage als «–»-Bullets + «oder»; offene Aufzählung «_ »,
   Sub-Detail «➢» darunter; iterativer Zwischenstand «kurzes OK-Feedback», Schlussabgabe «Bitte
   um Prüfung und Freigabe». Im Peer-Du erlaubt: «Gel»-Opener, saloppe Superlative, «haha»,
-  Wunschzeile als Schluss ohne Gruss. Ultrakurzes Du-Reply: ohne Signatur-Phrase, objektlose
+  Wunschzeile als Schluss ohne Gruss. Will Raphael einen Rückruf, kann die eigene Handynummer als
+  BETREFF dienen («Anrufen: <Nummer>»), register-übergreifend: im wärmsten Peer-Du wird die ganze Mail
+  auf «ruf mich an» gestrippt, im Service-/Lieferanten-Sie trägt NUR der Betreff den Call-to-Action,
+  der Body bleibt eine volle höfliche Sie-Mail. Ultrakurzes Du-Reply: ohne Signatur-Phrase, objektlose
   Zusage («Ich melde mich.»), «Bester Gruss» + nur «Raphael»; ehrliche Selbst-Nebenzeile mit «…»
   stehen lassen; einzelnes sicherheitskritisches Wort in VERSALIEN erlaubt; schlechte Nachricht
   kommentarlos quittieren (kein «schade», nur der nächste Schritt); Verfahrens-/Status-Sie-Mail
