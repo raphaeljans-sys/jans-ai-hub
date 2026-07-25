@@ -130,10 +130,18 @@ bei MFH/Gewerbe-Grossanlagen (HL III, ab 100 kWh) Brandabschnitts-Anforderungen 
 Feuerpolizei bzw. GVZ-Fachstelle verifizieren, da dort keine pauschale EI-Klasse mehr genügt.
 
 ## Offene Punkte
-- VKF-Brandschutzrichtlinie 22-15 «Blitzschutzsysteme» selbst (welche Gebäude grundsätzlich
-  blitzschutzpflichtig sind, unabhängig von PV) noch nicht am Original eingesehen — Downloadversuch
-  traf ein falsches/veraltetes Dokument (23-03d statt 22-15).
-- GVZ-Originaltext zur Prämienmechanik bei PV/Speicher (nur Sekundärquellen verfügbar).
+- ~~VKF-Brandschutzrichtlinie 22-15 «Blitzschutzsysteme» selbst noch nicht am Original
+  eingesehen~~ — **geschlossen in Run 92**: eigenes Destillat `[[vkf-richtlinie-22-15-
+  blitzschutzsysteme]]` (VKF 22-15de, curl+pdftotext, established) mit der vollständigen
+  Kriterienliste a–g, wer grundsätzlich blitzschutzpflichtig ist (u.a. JANS-Healthcare-Doppel-
+  kriterium Spitäler/Pflegeheime ab 20 hilfsbedürftigen Personen). Ein am 2026-07-25 unabhängig
+  parallel gelaufener Nebenlauf kam ohne Kenntnis dieses bereits bestehenden Destillats zum
+  identischen Befund (services.vkg.ch, 22-15de, in Kraft seit 1.1.2015) — bestätigt den Stand
+  ein weiteres Mal, siehe `outputs/2026-07-25_energie-nebenlauf-vkf-22-15-gvz-pv-formular.md`.
+- ~~GVZ-Originaltext zur Prämienmechanik bei PV/Speicher (nur Sekundärquellen verfügbar)~~ —
+  **geschlossen in Run 92**: eigenes Destillat `[[gvz-praemienmechanik-pv-speicher]]`
+  (established; GVZ-Einheitsprämie 0,29 ‰, PV nur als Wertvermehrung, kein PV-/Speicher-
+  Zuschlag als eigene Grösse, Kt. SZ ohne öffentliche Formel).
 - **Bestätigt (Run 110, 2026-07-25, via Swissolar Batteriemonitor Schweiz 2026, Kap. 4.5,
   Primärquelle vollständig gelesen):** Swissolar hat mit der VKF ein Stand-der-Technik-Papier zum
   Brandschutzmerkblatt «Solaranlagen» erarbeitet — dritte unabhängige Bestätigung, dass das bereits

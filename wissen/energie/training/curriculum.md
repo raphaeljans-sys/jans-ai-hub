@@ -1530,3 +1530,34 @@ bewilligungspraxis-zh` Gebäudekategorien-Definition). **Werkzeug-Lehre:** bei k
 «WebFetch technisch gescheitert» dokumentierten PDF-Lücken zuerst curl+Read-PDF-Tool
 versuchen, bevor der Punkt als dauerhaft blockiert gilt. FAQ F60 geschärft. FAQ-Stand
 unverändert 154, Destillate-Stand neu 171 (ein neues Destillat, zwei Status-Upgrades).
+
+## D82 (Run 111, 2026-07-25) — vier parallele Agenten schliessen die Run-110-Werkzeugliste ab,
+## zwei komplett neue Themenfelder erschlossen (Haustechnik + Solaranlagen an Baudenkmälern)
+Hinweis: Run 110 hatte einen eigenen «D82»-Eintrag im Lauf-Report angekündigt, der hier nie
+angelegt wurde (Registerlücke, beim Nachlesen vor diesem Lauf festgestellt) — dieser Eintrag
+übernimmt die Nummer, Run 110 bleibt inhaltlich im CHANGELOG/in destillate/INDEX.md vollständig
+dokumentiert. PDF-Inventar weiterhin erschöpft seit Run 65. Vier `general-purpose`-Rechercheagenten
+parallel auf die vier in Run 110 benannten curl+Read-PDF-Kandidaten angesetzt (VKF 22-15 und
+GVZ-Prämienmechanik waren zwischenzeitlich bereits in Run 92 geschlossen worden — beim Nachlesen
+der aktuellen Registerlage vor Auftragsvergabe festgestellt, keine Doppelarbeit ausgelöst).
+**Vogelsang-Referat** (SIA-2060, Energieagentur SG, 19.02.2019) vollständig gelesen: keine dritte
+CHF-Kostenquelle gefunden (0 Frankenbeträge über 15 Folien), aber neue Ziel-Erschliessungsquoten
+in Prozent (Stufe B/D je Auto-/Veloparkplatz) → `sia-2060-kosten-ladeinfrastruktur-vertiefung`
+bleibt emerging. **«Energie und Baudenkmal» Teil 1+2** (Kt. Denkmalpflege BE/ZH, 104+49 S.)
+vollständig gelesen — die bisherige «Bild-/JPEG2000-Scan»-Notiz aus Run 67/87 war ein
+WebFetch-Artefakt, kein echtes Formathindernis (dritter Beleg dieser Werkzeug-Lehre nach
+Run 109/110). Kastenfenster-U-Wert (1,3 W/m²K durch Isolierglas im Innenflügel), acht
+Fenstervarianten mit U-Sprüngen, Innendämmung 4-8 cm primärbelegt → `denkmalschutz-
+energiesanierung-zh-sz` bleibt established, substanziell erweitert. **Teil 3 Haustechnik und
+Teil 4 Solarenergie waren bisher komplett unerschlossene Themenfelder** (echte neue Substanz,
+nicht nur Lückenschluss): zwei neue Destillate `energie-baudenkmal-haustechnik-zh`
+(Kompensationsprinzip SIA-380/1-Systemnachweis, Rangfolge nichtbaulich→Erzeuger→Verteilung→Hülle)
+und `energie-baudenkmal-solarenergie-zh` (Standort-Präferenzhierarchie Nebengebäude→Hauptdach,
+Gestaltungsregeln Steildach), beide direkt `established` (Modell D, amtliche Primärquelle
+vollständig gelesen). FAQ **F155-F157** neu. FAQ-Stand: **157** (davor 154). Destillate-Stand:
+**173** (davor 171, zwei neue). Alle vier Agenten-Ergebnisse vor Registerkonsolidierung per
+`git status` verifiziert (zwei geänderte + zwei neue Destillate, sauber getrennt, keine
+Dateikonflikte). Damit ist die Run-110-Werkzeugliste abgearbeitet bis auf den ISOS-Bild-/
+JPEG2000-Grenzfall (`denkmalschutz-energiesanierung-zh-sz`), der laut eigener Beschreibung ein
+echter Bild-/Auflösungs-Grenzfall sein könnte statt eines WebFetch-Artefakts — nächster
+Kandidat für einen künftigen Lauf.

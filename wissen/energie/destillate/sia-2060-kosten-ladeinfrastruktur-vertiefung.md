@@ -1,11 +1,11 @@
 ---
-quelle: Kanton Zürich, Baudirektion, Amt für Abfall, Wasser, Energie und Luft (AWEL) — «Infrastruktur für Elektrofahrzeuge in Gebäuden, Infoblatt zu Merkblatt SIA 2060» (PDF, zh.ch), diesmal per `pdftotext -layout` vollständig als Text gelesen (Primärquelle, nicht mehr nur Sekundärzitat); ergänzend erneut Härz AG/elektromobilitaet-schweiz.ch («SIA Normen», FAQ-Seite) zum Abgleich; zusätzlich geprüft und OHNE eigene Kostentabelle befunden: EnergieSchweiz/BFE-Leitfaden «laden-punkt.ch DrehPunkt» (Version 2.0, Dezember 2025), Energie 360° «Ausbaustufen Ladeinfrastruktur», Migrol-Blog «Merkblatt SIA 2060», Referat Vogelsang (Energieagentur SG, 19.02.2019, PDF bildbasiert nicht auslesbar)
+quelle: Kanton Zürich, Baudirektion, Amt für Abfall, Wasser, Energie und Luft (AWEL) — «Infrastruktur für Elektrofahrzeuge in Gebäuden, Infoblatt zu Merkblatt SIA 2060» (PDF, zh.ch), diesmal per `pdftotext -layout` vollständig als Text gelesen (Primärquelle, nicht mehr nur Sekundärzitat); ergänzend erneut Härz AG/elektromobilitaet-schweiz.ch («SIA Normen», FAQ-Seite) zum Abgleich; zusätzlich geprüft und OHNE eigene Kostentabelle befunden: EnergieSchweiz/BFE-Leitfaden «laden-punkt.ch DrehPunkt» (Version 2.0, Dezember 2025), Energie 360° «Ausbaustufen Ladeinfrastruktur», Migrol-Blog «Merkblatt SIA 2060»; Referat Matthias Vogelsang (HEFTI.HESS.MARTIGNONI, Mitglied SIA-Kommission 2060), «Elektromobilität und Schnittstellen zum Gebäude — SIA Merkblatt 2060», Energieagentur St. Gallen, 19.02.2019 — jetzt per curl-Download + multimodalem Read-Tool (Bild-Modus, 15 Folien vollständig) erstmals inhaltlich gelesen; enthält KEINE eigene CHF-Kostentabelle, bestätigt aber die Ausbaustufen-Systematik A/B/C1/C2/D und liefert separate Zielwert-Prozentsätze (Erschliessungsquote), siehe eigener Abschnitt unten
 herausgeber: Kanton Zürich Baudirektion AWEL, Abteilung Energie (Kontaktperson im Dokument: Silas Gerber, Energiefachmann); Infoblatt erstellt durch IBG Engineering AG Winterthur im Auftrag AWEL
 ausgabe: Infoblatt datiert 13. Oktober 2020 (Datum jetzt erstmals gesichert ablesbar — im vorangehenden Destillat noch als «ohne eigenes Datum gefunden» offen); SIA-Merkblatt 2060 selbst Ausgabe 01.05.2020 (Primärnorm weiterhin kostenpflichtig, nicht eingesehen)
-gelesen: 2026-07-13 (ZH-Infoblatt-PDF vollständig per pdftotext -layout extrahiert und im Volltext gelesen, S. 1-4 von 4; Härz-AG-Seite per WebFetch erneut gelesen; 5 weitere Quellen per WebFetch/WebSearch auf Kostenangaben geprüft, keine enthielt eine eigene A/B/C1/C2/D-Tabelle)
-datenstand: 13.10.2020 (Kostenschätzung Kanton ZH, Basis: Durchschnittswerte Wohn-/Gewerbeobjekte Region Zürich, Preisstand Netzbeitrag/Kabel Stand Juni 2019); Härz-AG-Seite ohne eigenes Aktualisierungsdatum
+gelesen: 2026-07-13 (ZH-Infoblatt-PDF vollständig per pdftotext -layout extrahiert und im Volltext gelesen, S. 1-4 von 4; Härz-AG-Seite per WebFetch erneut gelesen; 5 weitere Quellen per WebFetch/WebSearch auf Kostenangaben geprüft, keine enthielt eine eigene A/B/C1/C2/D-Tabelle); 2026-07-25 (Run 111: Referat Vogelsang PDF per curl heruntergeladen, `file` bestätigt echtes PDF/1.5, 15 Seiten via `Read`-Tool im Bild-Modus vollständig gelesen — die frühere Archivnotiz «bildbasiert, Textextraktion gescheitert» bezog sich nur auf `pdftotext`/WebFetch; multimodales Lesen der Folien-Screenshots funktionierte)
+datenstand: 13.10.2020 (Kostenschätzung Kanton ZH, Basis: Durchschnittswerte Wohn-/Gewerbeobjekte Region Zürich, Preisstand Netzbeitrag/Kabel Stand Juni 2019); Härz-AG-Seite ohne eigenes Aktualisierungsdatum; Referat Vogelsang datiert 19.02.2019 (rund 1,5 Jahre vor dem ZH-Infoblatt, laut Folie 11 während der laufenden SIA-2060-Vernehmlassung 2019, also noch vor der definitiven Ausgabe 01.05.2020)
 status: emerging
-last_updated: 2026-07-13 (Run 49: sia2060online.ch als interaktives JS-Tool bestätigt, kein Text extrahierbar)
+last_updated: 2026-07-25 (Run 111: Referat Vogelsang jetzt vollständig gelesen — keine eigene Kostentabelle enthalten, siehe neuer Abschnitt; Status bleibt emerging, da weiterhin keine dritte unabhängige CHF-Kostenquelle vorliegt)
 ---
 
 # SIA 2060 — Kosten je Ausbaustufe (A/B/C1/C2/D): Vertiefung und Quellenlage
@@ -13,8 +13,10 @@ last_updated: 2026-07-13 (Run 49: sia2060online.ch als interaktives JS-Tool best
 **Das Wichtigste in 1 Satz:** Die bisher nur als Sekundärzitat geführten SIA-2060-Kostensätze sind
 jetzt direkt aus der Primärquelle (Kanton-ZH-Baudirektion-Infoblatt, 13.10.2020) wortgetreu bestätigt
 — eine echte, unabhängig davon berechnete DRITTE Quelle mit eigener A/B/C1/C2/D-Kostentabelle konnte
-trotz breiter Recherche aber **nicht gefunden werden**; alle anderen geprüften Stellen verweisen nur
-auf den kostenpflichtigen SIA-Shop oder den SIA-2060-Online-Rechner, statt eigene Zahlen zu nennen.
+trotz breiter Recherche aber **nicht gefunden werden**; auch das jetzt vollständig gelesene Referat
+Vogelsang (Energieagentur SG, 19.02.2019) liefert keine CHF-Beträge, sondern nur separate
+Erschliessungs-Zielwerte in Prozent — alle anderen geprüften Stellen verweisen nur auf den
+kostenpflichtigen SIA-Shop oder den SIA-2060-Online-Rechner, statt eigene Zahlen zu nennen.
 
 ## Was neu ist gegenüber dem bisherigen Stand
 
@@ -66,9 +68,58 @@ eigene A/B/C1/C2/D-Kostentabelle in CHF:
 - **Migrol-Blog «Merkblatt SIA 2060»:** nur allgemeine Beschreibung, keine Zahlen.
 - **SIA-2060-Online-Rechner (sia2060online.ch) und EnergieSchweiz-Rechner-Seite:** interaktive
   Tools, keine publizierte statische Tabelle einsehbar ohne Rechner-Durchlauf.
-- **Referat Vogelsang, Energieagentur St. Gallen (19.02.2019):** PDF bildbasiert, Textextraktion
-  (auch per pdftotext) gescheitert — Inhalt nicht verifizierbar.
 - **SIA-Shop-Produktseite:** verweist auf das kostenpflichtige Original, keine Kostenzahlen öffentlich.
+
+## Referat Vogelsang (Energieagentur St. Gallen, 19.02.2019) — jetzt vollständig gelesen, Run 111
+
+Das Referat war seit mehreren Läufen als «PDF bildbasiert, Textextraktion (auch per pdftotext)
+gescheitert» archiviert. Am 25.07.2026 liess sich die Datei per `curl -sL -A "Mozilla/5.0"` sauber
+herunterladen (`file` bestätigt: echtes PDF, Version 1.5, zip deflate encoded, 15 Seiten) und
+anschliessend über das `Read`-Tool im multimodalen Bild-Modus vollständig lesen — die Folien sind
+Grafik-lastige PowerPoint-Exporte, für `pdftotext` daher tatsächlich leer, für die multimodale
+Bildlektüre aber kein Problem.
+
+**Referent:** Matthias Vogelsang, BSc Gebäude Elektroengineering SIA, HEFTI.HESS.MARTIGNONI,
+Mitglied SIA-Kommission 2060. **Kontext:** Vortrag der Energieagentur St. Gallen, 19.02.2019 — zu
+diesem Zeitpunkt befand sich das Merkblatt SIA 2060 laut Folie 11 noch in der **Vernehmlassung 2019**
+(«Vernehmlassung 2019 · Technischer Standard in der Schweiz · Wichtige Aspekte sind definiert»);
+das Referat liegt damit rund 1,5 Jahre vor dem Kanton-ZH-Infoblatt (13.10.2020) und noch vor der
+definitiven SIA-Ausgabe 01.05.2020.
+
+**Kernbefund: KEINE eigene CHF-Kostentabelle.** Über alle 15 Folien hinweg (Titel, Herausforderungen,
+Marktzahlen E-Auto-Neuzulassungen 2016/nach Kantonen, Ladestationen-Grundlagen, Versorgungsnetze,
+SIA-Merkblatt-Einordnung, Ausbaustufen-Schema, Hausanschluss-/Ladeplatz-Zielwerte, Lösungsansätze,
+Ausblick) taucht an keiner Stelle ein Frankenbetrag auf. Das Referat ist damit **keine** dritte,
+unabhängig berechnete Quelle für die A/B/C1/C2/D-Kostensätze der Kanton-ZH-Tabelle oben — der
+Kostenaspekt wird im Vortrag schlicht nicht behandelt.
+
+**Was das Referat stattdessen liefert (andere, aber ergänzende Information):**
+
+- **Folie 12 («Ausbaustufen»):** Bestätigt die fünfstufige SIA-2060-Systematik in derselben
+  Benennung wie beim Kanton-ZH-Infoblatt: A «Pipe for power», B «Power to building», C1 «Power to
+  garage», C2 «Power to parking», D «Ready to charge» — mit Schemazeichnung (Zuleitung ab Netz/PV
+  über Elektroverteilung bis zu den einzelnen Parkfeldern, zunehmender Ausbaugrad je Stufe).
+- **Folie 13 («power to building», Hausanschluss) — Zielwerte in %, nicht in CHF:**
+  Parkplatz PW EFH: «keine Empfehlung SIA» · Parkplatz PW MFH: **80 % Zielwert** · Parkplatz Fahrrad
+  MFH: **100 % Zielwert**. Gemeint ist der Anteil der Parkplätze, für die die Zuleitung bereits auf
+  Stufe B (dimensionierte Zuleitung) vorbereitet sein soll.
+- **Folie 14 («ready to charge», Anzahl Ladeplätze) — ebenfalls Zielwerte, nicht CHF:**
+  Parkplatz PW EFH: **1 Ladeplatz** · Parkplatz PW MFH: **Ausbau 20 %, min. 2 Ladeplätze** ·
+  Parkplatz Fahrrad MFH: **Ausbau 80 %**. Das ist der Anteil der Parkplätze, die auf der höchsten
+  Stufe D (funktionsfähige Ladestation) tatsächlich ausgerüstet sein sollen.
+- **Folie 16 («Lösung»):** Nennt als Planungsfaktoren Ladedauer (Nacht-/Tagladung), Fahrzeugtyp/
+  Ladeart, Gleichzeitigkeit (Lastmanagementsystem gegen Lastspitzen/Energiekosten), Abrechnung/Zugang
+  sowie «Fahrzeug als Stromspeicher» (Vehicle-to-Grid) — rein qualitativ, ohne Zahlen.
+
+**Einordnung für diese KB:** Diese Prozent-Zielwerte (Erschliessungsquote je Stufe) sind ein
+eigenständiger, bisher in dieser Vertiefung nicht dokumentierter Baustein der SIA-2060-Systematik —
+sie beantworten «wie viele Parkplätze müssen mindestens ausgerüstet sein», während die Kanton-ZH-
+Tabelle oben «was kostet die Ausrüstung pro Einheit» beantwortet. Beide Angaben ergänzen sich, sind
+aber nicht direkt vergleichbar und lösen die offene Frage nach einer dritten unabhängigen
+Kostenquelle **nicht**. Ob 80 %/100 %/20 % feste SIA-2060-Normwerte sind oder Vogelsangs eigene
+Projekterfahrungswerte (HEFTI.HESS.MARTIGNONI), lässt sich aus dem Referat allein nicht sicher
+unterscheiden — dafür müsste die kostenpflichtige Norm selbst eingesehen werden (weiterhin offen,
+siehe unten).
 
 ## Ehrliche Einordnung des Status
 
@@ -119,6 +170,12 @@ nicht durch eine zweite unabhängige Berechnung bestätigt» zu behandeln sind.
   nicht erneut per WebFetch versuchen.
 - Die Kostenbasis ist inzwischen über 5 Jahre alt (Preisstand 2019/2020); eine aktualisierte
   Kostenschätzung (Teuerung, Materialpreise E-Installation) liegt nicht vor.
+- **Neu (Run 111):** Die im Referat Vogelsang genannten Zielwerte (Stufe B: 80 %/100 % Parkplatz-
+  Zuleitung PW-MFH/Fahrrad-MFH; Stufe D: 20 % min. 2 Ladeplätze PW-MFH, 80 % Fahrrad-MFH) sind nicht
+  eindeutig als feste SIA-2060-Normvorgabe oder als büroeigene Erfahrungswerte von HEFTI.HESS.
+  MARTIGNONI erkennbar — Klärung nur über die kostenpflichtige Primärnorm SIA 2060:2020 möglich.
+  Bis dahin diese Prozentwerte nur mit Quellenangabe «Referat Vogelsang, nicht amtlich verifiziert»
+  weiterverwenden, nicht als gesicherte SIA-Vorgabe darstellen.
 
 **Backlinks:** [[e-mobilitaet-ladeinfrastruktur-gebaeude-ch]] (Basisartikel Ladeinfrastruktur/Grunderschliessung,
 enthält dieselbe Tabelle als Übersicht und verweist hierher für die Quellen-Tiefenprüfung).

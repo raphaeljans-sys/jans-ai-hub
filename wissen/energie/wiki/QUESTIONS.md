@@ -2125,3 +2125,52 @@ gestrichen — kein weiterer Handlungsbedarf von dieser KB aus.
    durch den zweiten Werkzeug-Erfolg in Folge weiter relativiert: solange die curl+Read-PDF-Liste
    (Punkt 4) nicht abgearbeitet ist, bleibt echter Primärquellen-Zugewinn möglich statt reiner
    Wiederholung.
+
+- [x] **Run 111 (2026-07-25) — Werkzeugliste aus Run 110 fast vollständig abgearbeitet, ZWEI
+  komplett neue Themenfelder erschlossen (durchbricht die Sättigungsdiagnose):** Vier
+  `general-purpose`-Rechercheagenten parallel auf die vier Run-110-Kandidaten angesetzt.
+  Vorab-Check ergab: VKF 22-15 und GVZ-Prämienmechanik waren bereits in Run 92 primärquellen-
+  verifiziert established (Registerlücke der eigenen Prioritätenliste — die Notiz war veraltet,
+  keine Doppelarbeit ausgelöst). **Referat Vogelsang** (SIA-2060, 19.02.2019) vollständig
+  gelesen: keine dritte CHF-Kostenquelle (0 Frankenbeträge über 15 Folien), aber neue
+  Ziel-Erschliessungsquoten in Prozent → `[[sia-2060-kosten-ladeinfrastruktur-vertiefung]]`
+  bleibt emerging. **«Energie und Baudenkmal» Teil 1+2** (Kt. Denkmalpflege BE/ZH) vollständig
+  gelesen — die «Bild-/JPEG2000-Scan»-Notiz aus Run 67/87 war wie schon zweimal zuvor (Run 109,
+  110) ein reines WebFetch-Artefakt: Kastenfenster-U-Wert 1,3 W/m²K primärbelegt, acht
+  Fenstervarianten, Innendämmung 4-8 cm → `[[denkmalschutz-energiesanierung-zh-sz]]` bleibt
+  established, substanziell erweitert (FAQ **F155** neu). **Teil 3 Haustechnik und Teil 4
+  Solarenergie** waren nicht Lückenschluss, sondern zwei bisher komplett unerschlossene
+  Themenfelder: `[[energie-baudenkmal-haustechnik-zh]]` (Kompensationsprinzip SIA-380/1-
+  Systemnachweis, Rangfolge nichtbaulich→Erzeuger→Verteilung→Hülle, FAQ **F156**) und
+  `[[energie-baudenkmal-solarenergie-zh]]` (Standort-Präferenzhierarchie Nebengebäude→
+  Hauptdach, Gestaltungsregeln Steildach, Indachmontage bei Voltaik, FAQ **F157**), beide direkt
+  `established` (Modell D). FAQ-Stand: **157** (davor 154). Destillate-Stand: **173**
+  (davor 171, zwei neue). Alle vier Agenten-Ergebnisse vor Registerkonsolidierung per
+  `git status` verifiziert (zwei geänderte + zwei neue Destillate, sauber getrennt, keine
+  Dateikonflikte, kein Kollisionsrisiko mit paralleler Loop-Aktivität festgestellt).
+
+  **Register nachgeführt:** `destillate/INDEX.md` (fünf Zeilen), `wiki/INDEX.md` (Kopfzeile-
+  Stand + drei Zeilen Themen-Direktverweise, Status-Korrektur denkmalschutz emerging→established
+  nachgezogen — war bereits inhaltlich established, die Wiki-Zeile war nur nicht nachgeführt),
+  `wiki/BAUHERREN-FAQ.md` (F155-F157 neu + sources-Liste), `training/curriculum.md` (D82; Hinweis
+  auf fehlenden D82-Eintrag aus Run 110 dokumentiert statt stillschweigend übersprungen),
+  `raw/_INGESTED.md`, `CHANGELOG.md`, `outputs/2026-07-25_energie-run111.md`.
+
+  **Nächster Lauf: Priorität**
+  1. Die fünf gebündelten Kaufentscheide wachsen seit Run 98 unverändert ohne Entscheidung —
+     jetzt **dreizehn Runs** in Folge. Dringende Empfehlung unverändert.
+  2. Meta-Punkt M2 (eigenständiger Skill "energie"?) seit Run 45 spruchreif, weiterhin unentschieden.
+  3. SIA-2024-Gesundheitsbau-Merge weiterhin ausführungsreif, wartet auf Raphaels Zustimmung.
+  4. Letzter offener curl+Read-PDF-Kandidat aus der Run-110-Liste: **ISOS-Bild-/JPEG2000-Scans**
+     wurden in diesem Lauf NICHT geprüft (Fokus lag auf den vier bereits URL-identifizierten
+     Kandidaten, von denen zwei bereits erledigt waren) — bei Gelegenheit dieselbe curl+Read-PDF-
+     Methode auf die dort referenzierten Fachpublikationen anwenden, falls noch nicht identisch
+     mit den jetzt gelesenen «Energie und Baudenkmal»-Teilen.
+  5. **Neue Registerdisziplin-Lehre:** die eigene Prioritätenliste (dieser Abschnitt) kann veraltet
+     sein, wenn zwischen zwei Läufen andere parallele Aktivität (Vollgas-Runner, andere Stationen)
+     bereits Punkte abgearbeitet hat, ohne dass die Liste selbst nachgezogen wurde (VKF 22-15/GVZ
+     waren so ein Fall). Vor Auftragsvergabe an Rechercheagenten künftig kurz per `grep`/`ls -la`
+     verifizieren, ob ein Destillat nicht doch schon aktuell ist — spart unnötige Agentenläufe.
+  6. Sättigungsdiagnose für neue Themenfelder ist mit Run 111 **widerlegt für den Bereich
+     Denkmalschutz-Vertiefung** (zwei echte neue Themenfelder in einem Lauf) — bleibt aber für
+     das breitere KB-Feld weiterhin eine begründete Beobachtung; keine pauschale Entwarnung.

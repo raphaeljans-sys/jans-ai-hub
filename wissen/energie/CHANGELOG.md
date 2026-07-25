@@ -2,6 +2,71 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 111: Vier parallele Rechercheagenten, Run-110-Werkzeugliste fast abgeschlossen, zwei komplett neue Themenfelder (Haustechnik + Solaranlagen an Baudenkmälern)
+
+PDF-Inventar weiterhin erschöpft seit Run 65. Vier `general-purpose`-Rechercheagenten parallel auf
+die vier in Run 110 benannten curl+Read-PDF-Kandidaten angesetzt (VKF-Richtlinie 22-15, GVZ-
+Prämienmechanik, Referat Vogelsang, ISOS-/Denkmalpflege-Baudenkmal-Publikationen). Vor
+Auftragsvergabe festgestellt: VKF 22-15 und GVZ-Prämienmechanik waren zwischenzeitlich bereits in
+Run 92 primärquellenverifiziert `established` — die eigene Prioritätenliste in `wiki/QUESTIONS.md`
+war veraltet, keine Doppelarbeit ausgelöst (neue Lehre: Register vor Auftragsvergabe kurz per
+`grep`/`ls -la` gegenchecken).
+
+1. **Referat Vogelsang** (Matthias Vogelsang, Energieagentur St. Gallen, 19.02.2019, «Elektro-
+   mobilität und Schnittstellen zum Gebäude — SIA Merkblatt 2060») vollständig per curl+Read-PDF
+   gelesen — löst die seit Run 49 als «bildbasiert nicht auslesbar» archivierte Sackgasse.
+   **Ergebnis:** keine eigene CHF-Kostentabelle (0 Frankenbeträge über 15 Folien) — nicht die
+   gesuchte dritte unabhängige Kostenquelle. Bestätigt aber die SIA-2060-Ausbaustufen-Systematik
+   und liefert neue Ziel-Erschliessungsquoten in Prozent (Stufe B: PW-MFH 80 %/Velo-MFH 100 %;
+   Stufe D: PW-MFH 20 % min. 2 Plätze/Velo-MFH 80 %). `sia-2060-kosten-ladeinfrastruktur-
+   vertiefung` bleibt `emerging`.
+2. **«Energie und Baudenkmal» Teil 1 Gebäudehülle (104 S.) + Teil 2 Fenster/Türen (49 S.)**
+   (Kantonale Denkmalpflege Bern/Zürich, V1/2014) vollständig per curl+Read-PDF gelesen — löst
+   die seit Run 67/87 als «Bild-/JPEG2000-Scan technisch nicht auslesbar» archivierte Sackgasse
+   (dritter Beleg in Folge, dass solche Vermerke überwiegend WebFetch-Artefakte sind, keine
+   echten Formatgrenzen). **Ergebnis:** Kastenfenster-Sanierung (Isolierglas im Innenflügel)
+   erreicht U 1,3 W/m²K ohne Erscheinungsbild-Änderung (ersetzt unbelegte Alt-Schätzung); acht
+   systematische Fenstervarianten mit präzisen U-Wert-Sprüngen; Innendämmung 4-8 cm als
+   Praxis-Default bestätigt; Dachboden- vor Aufsparrendämmung; Rollladen/Klappladen bis −79 %
+   Wärmeverlust. `denkmalschutz-energiesanierung-zh-sz` bleibt `established`, substanziell
+   erweitert. FAQ **F155** neu.
+3. **«Energie und Baudenkmal» Teil III Haustechnik (65 S.)** und **Teil IV Solarenergie (46 S.)**
+   (dieselbe Publikationsreihe) waren bisher komplett unerschlossene Themenfelder — kein
+   Lückenschluss, sondern echte neue Substanz. Zwei neue Destillate, beide direkt `established`
+   (Modell D, amtliche Primärquelle vollständig gelesen):
+   - `energie-baudenkmal-haustechnik-zh`: Rangfolge nichtbauliche Massnahmen vor Wärmeerzeuger
+     vor Wärmeverteilung vor Hülle; Kompensationsprinzip (SIA-380/1-Systemnachweis kompensiert
+     nicht erreichbare Hüllenwerte über Haustechnik); Fussbodenheizung nur ohne erhaltenswerte
+     Böden; Komfortlüftung an Baudenkmälern kritisch (Substanzeingriff Kanalführung);
+     Elektroleitungen als demontierbare Aufputz-Additive. FAQ **F156** neu.
+   - `energie-baudenkmal-solarenergie-zh`: zwei Leitfragen Substanzgefährdung vs. Erscheinungs-
+     bild; Standort-Präferenzhierarchie (Nebengebäude→Umgebungselemente→Solarschuppen→
+     untergeordnetes Bauteil→Hauptdach); Gestaltungsregeln Steildach (Traufbereich, Randabstand
+     2-4 Ziegelreihen, dunkle/matte Module); Indachmontage bei Voltaik meist einzige praktikable
+     Lösung; Rechtsstand-Diskrepanz Art. 18c RPG (Quelle, 2014) vs. primärquellenverifiziertem
+     Art. 18a Abs. 4 RPG (KB-Stand) bewusst als offener Punkt markiert, nicht geglättet. FAQ
+     **F157** neu.
+
+FAQ-Stand: **157** (davor 154, drei neue Fragen). Destillate-Stand: **173** (davor 171, zwei neue).
+Alle vier Agenten-Ergebnisse vor Registerkonsolidierung per `git status` verifiziert (zwei
+geänderte + zwei neue Destillate, sauber getrennt editiert, keine Dateikonflikte). Register
+nachgeführt: `destillate/INDEX.md`, `wiki/INDEX.md` (inkl. Status-Korrektur `denkmalschutz-
+energiesanierung-zh-sz` emerging→established, war bereits inhaltlich established, die Wiki-Zeile
+war nur nicht nachgezogen worden), `wiki/BAUHERREN-FAQ.md`, `training/curriculum.md`,
+`raw/_INGESTED.md`, `wiki/QUESTIONS.md`, `outputs/2026-07-25_energie-run111.md`.
+
+**Nachtrag (Kollisionsfund):** Während dieses Laufs feuerte um 22:37 zusätzlich der Scheduled
+Task `energie-training` auf demselben Host und erkannte die Kollision korrekt gemäss Rule
+`auto-verbesserungen` 260724 — er trat zurück und sicherte seine Funde (VKF 22-15 sowie GVZ-PDF,
+beide unabhängig bestätigend, aber ohne Kenntnis der bereits in Run 92 bestehenden eigenen
+Destillate) in `outputs/2026-07-25_energie-nebenlauf-vkf-22-15-gvz-pv-formular.md`, ohne Register
+zu editieren — Kollisionsschutz hat wie vorgesehen funktioniert. Dabei aufgefallen: die «Offene
+Punkte»-Liste in `destillate/pv-blitzschutz-gebaeudeversicherung-ch.md` verwies noch auf beide
+Punkte als offen, obwohl sie bereits in Run 92 durch eigene Destillate geschlossen worden waren
+(reine Cross-Link-Lücke) — direkt korrigiert (Verweis auf `[[vkf-richtlinie-22-15-
+blitzschutzsysteme]]` und `[[gvz-praemienmechanik-pv-speicher]]` ergänzt, Nebenlauf-Report als
+dritte Bestätigung verlinkt).
+
 ## 2026-07-25 — Run 110: Batteriemonitor Schweiz 2026 als Primärquelle gelesen, vier Rechtsänderungen seit 1.1.2026 erschlossen
 
 Werkzeug-Lehre aus Run 109 direkt angewendet: der seit Run 12 als «PDF bildbasiert, Textextraktion

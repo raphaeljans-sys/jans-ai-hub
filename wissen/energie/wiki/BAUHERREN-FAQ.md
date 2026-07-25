@@ -1,10 +1,13 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-07-25 (Run 94: F127 neu, VKF-Richtlinie 22-15 gezielt auf Batteriespeicher-
-  Mengenschwellen geprüft, Negativbefund; Run 93: F123-F126 neu, GVZ-PV-Feuerwehrmeldung, VKF
-  Gefährliche Stoffe Negativbefund, Glas-g-Wert Negativbefund, Massivbau-CO2-Gegenzahl)
-sources: [destillate/innendaemmung-altbau-bauphysik-ch.md, destillate/pv-rueckliefer-verguetung-mindestverguetung-2026.md, destillate/klimapraemie-heizungsersatz-klik.md, destillate/holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz.md, destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md, destillate/blockheizkraftwerk-bhkw-mfh-pflegeheim-ch.md, destillate/elektroheizungs-ersatzpflicht-zh-sz.md, destillate/erdwaermesonden-bewilligung-zh-sz.md, destillate/kaeltemittel-r290-waermepumpen-ch.md, destillate/fernwaerme-anschlusspflicht-sz.md, destillate/cerclebruit-sz-merkblatt-laermbelastete-gebiete.md, destillate/aussenlaerm-schallschutzfenster-strasse-bahn.md, destillate/fassadenbegruenung-hitzeschutz-pv-zielkonflikt.md, destillate/rilumi-minergie-luftdichtheit-n50.md, destillate/fernwaerme-anschlusspflicht-zh.md, destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md, destillate/waermebrueckenkatalog-bfe-geschossdecke-kellerdecke.md, destillate/waermebrueckenkatalog-bfe-stuetzen-fassadenanker.md, destillate/waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz.md, destillate/waermebrueckenkatalog-bfe-rollladenkasten.md, destillate/waermebrueckenkatalog-bfe-auskragung.md, destillate/waermebrueckenkatalog-bfe-steildach-traufe-ort.md, destillate/waermebrueckenkatalog-bfe-flachdach-ohne-vordach.md, destillate/waermebrueckenkatalog-bfe-flachdach-bruestung.md, destillate/waermebrueckenkatalog-bfe-flachdach-vordach.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/pvt-hybridkollektoren.md, destillate/solarthermie-investitionskosten-ch.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/cerclebruit-vollzugshilfe-waermepumpen-laermschutz.md, destillate/solarpflicht-national-mantelerlass-kantone.md, destillate/pv-blitzschutz-gebaeudeversicherung-ch.md, destillate/anergienetz-kalte-fernwaerme-ch.md, destillate/oberflaechennahe-erdwaerme-flaechenkollektor-erdwaermekorb-zh-sz.md, destillate/uf-werte-rahmenmaterial-grobuebersicht.md, destillate/vkf-richtlinie-22-15-blitzschutzsysteme.md]
+last_updated: 2026-07-25 (Run 111: F155-F157 neu, Handbuch «Energie und Baudenkmal» Teil 1-4
+  gelesen — Fenster-/Dämmpraxis an Schutzobjekten präzisiert, Haustechnik + Solaranlagen an
+  Baudenkmälern als neue Themenfelder erschlossen; Run 94: F127 neu, VKF-Richtlinie 22-15 gezielt
+  auf Batteriespeicher-Mengenschwellen geprüft, Negativbefund; Run 93: F123-F126 neu, GVZ-PV-
+  Feuerwehrmeldung, VKF Gefährliche Stoffe Negativbefund, Glas-g-Wert Negativbefund,
+  Massivbau-CO2-Gegenzahl)
+sources: [destillate/innendaemmung-altbau-bauphysik-ch.md, destillate/pv-rueckliefer-verguetung-mindestverguetung-2026.md, destillate/klimapraemie-heizungsersatz-klik.md, destillate/holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz.md, destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md, destillate/blockheizkraftwerk-bhkw-mfh-pflegeheim-ch.md, destillate/elektroheizungs-ersatzpflicht-zh-sz.md, destillate/erdwaermesonden-bewilligung-zh-sz.md, destillate/kaeltemittel-r290-waermepumpen-ch.md, destillate/fernwaerme-anschlusspflicht-sz.md, destillate/cerclebruit-sz-merkblatt-laermbelastete-gebiete.md, destillate/aussenlaerm-schallschutzfenster-strasse-bahn.md, destillate/fassadenbegruenung-hitzeschutz-pv-zielkonflikt.md, destillate/rilumi-minergie-luftdichtheit-n50.md, destillate/fernwaerme-anschlusspflicht-zh.md, destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md, destillate/waermebrueckenkatalog-bfe-geschossdecke-kellerdecke.md, destillate/waermebrueckenkatalog-bfe-stuetzen-fassadenanker.md, destillate/waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz.md, destillate/waermebrueckenkatalog-bfe-rollladenkasten.md, destillate/waermebrueckenkatalog-bfe-auskragung.md, destillate/waermebrueckenkatalog-bfe-steildach-traufe-ort.md, destillate/waermebrueckenkatalog-bfe-flachdach-ohne-vordach.md, destillate/waermebrueckenkatalog-bfe-flachdach-bruestung.md, destillate/waermebrueckenkatalog-bfe-flachdach-vordach.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/pvt-hybridkollektoren.md, destillate/solarthermie-investitionskosten-ch.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/cerclebruit-vollzugshilfe-waermepumpen-laermschutz.md, destillate/solarpflicht-national-mantelerlass-kantone.md, destillate/pv-blitzschutz-gebaeudeversicherung-ch.md, destillate/anergienetz-kalte-fernwaerme-ch.md, destillate/oberflaechennahe-erdwaerme-flaechenkollektor-erdwaermekorb-zh-sz.md, destillate/uf-werte-rahmenmaterial-grobuebersicht.md, destillate/vkf-richtlinie-22-15-blitzschutzsysteme.md, destillate/denkmalschutz-energiesanierung-zh-sz.md, destillate/energie-baudenkmal-haustechnik-zh.md, destillate/energie-baudenkmal-solarenergie-zh.md, destillate/sia-2060-kosten-ladeinfrastruktur-vertiefung.md]
 links: [[INDEX]]
 ---
 
@@ -5329,3 +5332,84 @@ Quelle (axora.ch), nicht verbandsbelegt. Datenstand 25.07.2026 (Nachrecherche Ru
 bestehende Heizkörper sind jetzt am Original-Pflichtenheft primärquellig belegt; die JAZ-pro-Grad-
 Näherung bleibt eine grobe Eigenherleitung, die CHF-Kosten für hydraulischen Abgleich/
 Heizkörperersatz bleiben einzelquellig).
+
+---
+
+## F155 — «Ich habe ein denkmalgeschütztes Haus — wie sinnvoll dämmen?»
+
+**Kurz:** Aussen dämmen scheidet fast immer aus, weil die Fassade selbst das Schützenswerte ist.
+Praxis-Standard ist die **Innendämmung** (4–8 cm, mehr bringt kaum mehr etwas), plus die
+Fensterleibungen mitdämmen. Bei den Fenstern lohnt sich **Kastenfenster-Sanierung statt Ersatz**.
+
+**Fachlich:** Das amtliche Handbuch «Energie und Baudenkmal» (Kantonale Denkmalpflege Bern/
+Zürich) empfiehlt für die Gebäudehülle eine klare Rangfolge: Dachboden- vor Aufsparrendämmung
+(Aufsparrendämmung ist an Baudenkmälern «sehr oft nicht möglich»), Innendämmung als Praxis-Default
+für Massivwände und Sichtfachwerk. Ein historisches Kastenfenster (zwei Einfachverglasungen)
+liegt bei rund U 2,5 W/m²K; wird nur der innere Flügel mit einem Isolierglas ersetzt, erreicht
+das Fenster **U 1,3 W/m²K** — den MuKEn-Zielwert — «problemlos», ganz ohne das Erscheinungsbild zu
+verändern. Bereits der blosse **Einbau von Dichtungen** senkt die Lüftungsverluste um bis zu 90 %
+und den gesamten Fensterwärmeverlust um bis zu einem Drittel. Acht systematische Sanierungs-
+varianten (Einfachverglasung/Doppelverglasung/Isolierverglasung-Kombinationen) sind mit genauen
+U-Wert-Sprüngen dokumentiert, z.B. Einfach+Isolierglas-Nachrüstung 5,8→2,0 W/m²K.
+
+**Quelle:** Kantonale Denkmalpflege Bern/Zürich, «Energie und Baudenkmal», Teil 1 Gebäudehülle +
+Teil 2 Fenster und Türen (V1, 2014, curl+Read-PDF vollständig gelesen, Run 111) →
+`[[denkmalschutz-energiesanierung-zh-sz]]`. Status **established**; ergänzt bestehende
+Destillate `[[innendaemmung-altbau-bauphysik-ch]]` und `[[fenster-verglasung-uw-g-wert]]`.
+
+---
+
+## F156 — «Kann ich in meinem denkmalgeschützten Haus überhaupt eine Wärmepumpe einbauen?»
+
+**Kurz:** Ja, grundsätzlich möglich — aber Standort/Eingriff früh mit der Denkmalpflege klären.
+Fussbodenheizung nur, wenn keine erhaltenswerten Böden bestehen; Komfortlüftung nur in
+Ausnahmefällen (grosser Substanzeingriff durch die Kanalführung); Elektroleitungen werden als
+demontierbare Aufputz-Additive geführt, nicht eingeschlitzt.
+
+**Fachlich:** Das Handbuch «Energie und Baudenkmal», Teil III Haustechnik, setzt bei
+Baudenkmälern eine klare Rangfolge vor jedem Hülleneingriff: zuerst **nichtbauliche Massnahmen**
+(Nutzerverhalten, Betriebsoptimierung — 10–20 % Einsparpotenzial ohne jeden Substanzeingriff),
+dann **Wärmeerzeuger-Ersatz**, dann **Wärmeverteilung/-abgabe**, erst danach die Hülle. Zentral
+ist das **Kompensationsprinzip**: ein an einem geschützten Bauteil (z.B. Fassade) nicht
+erreichbarer Normwert lässt sich über den SIA-380/1-Systemnachweis durch Haustechnik-Massnahmen
+kompensieren — ein starkes Argument in der Energienachweis-Praxis bei Schutzobjekten.
+Strahlungsheizungen werden gegenüber Konvektionsheizungen bevorzugt, weil sie weniger Staub
+aufwirbeln (Schutz von Wandmalereien/historischen Oberflächen). LED wird wegen fehlendem
+UV-/IR-Anteil ausdrücklich für Räume mit wertvollen Oberflächen empfohlen.
+
+**Quelle:** Kantonale Denkmalpflege Bern/Zürich, «Energie und Baudenkmal», Teil III Haustechnik
+(V1, 2014, 65 S. vollständig gelesen, Run 111) → `[[energie-baudenkmal-haustechnik-zh]]`. Status
+**established**; die dortige Wärmepumpen-Umweltbewertung datiert von 2014 und ist durch die
+aktuelleren KB-Destillate zu Kältemitteln/JAZ zu relativieren.
+
+---
+
+## F157 — «Darf ich auf meinem denkmalgeschützten Haus eine Solaranlage montieren?»
+
+**Kurz:** Ja, grundsätzlich möglich — aber die Denkmalpflege prüft zuerst, ob ein Nebengebäude
+oder ein untergeordneter Bauteil die Anlage tragen kann, bevor das Hauptdach zur Debatte steht.
+Ist das Hauptdach unvermeidlich, ist eine unauffällige **Indachlösung** mit dunklem, mattem,
+liegend-rechteckigem Modulfeld im Traufbereich (nicht in der Dachmitte) die von der Denkmalpflege
+bevorzugte Ausführung — mit entsprechenden Ertragsabstrichen gegenüber einer freien Standardmontage.
+
+**Fachlich:** Das Handbuch «Energie und Baudenkmal», Teil IV Solarenergie, misst jede Anlage an
+zwei Leitfragen: wird Bausubstanz geopfert (Substanzgefährdung), und wie stark wird das
+Erscheinungsbild des Denkmals/Ortsbilds beeinträchtigt. Daraus folgt eine **Standort-
+Präferenzhierarchie**: (1) Dächer/Fassaden von Nebengebäuden, (2) Elemente der
+Umgebungsgestaltung (Stützmauern, Zäune), (3) ein neuer, ggf. bewilligungsfreier Solarschuppen,
+(4) ein untergeordnetes Bauteil des Hauptgebäudes, (5) Freiflächenaufstellung (unerwünscht), und
+erst (6) das Hauptdach selbst. Für Steildächer gelten konkrete Gestaltungsregeln: Traufbereich
+statt Firstbereich, Randabstand 2–4 Ziegelreihen (3–5 bei Walmdach), Dachmitte meiden, liegende
+Rechteckfelder, dunkle/matte Module und Rahmen, mattes statt spiegelndes Solarglas. Voltaikmodule
+brauchen zwingend eine Hinterlüftung — deshalb ist an Baudenkmälern **meist nur die
+Indachmontage** praktikabel, eine sichtbar aufgeständerte Aufdachmontage «aus gestalterischen und
+denkmalpflegerischen Gründen selten möglich». Flachdächer sind unkritischer als Steildächer, weil
+sie von aussen kaum als Körper in Erscheinung treten.
+
+**Quelle:** Kantonale Denkmalpflege Bern/Zürich, «Energie und Baudenkmal», Teil IV Solarenergie
+(V1, 2014, 46 S. vollständig gelesen, Run 111) → `[[energie-baudenkmal-solarenergie-zh]]`. Status
+**established**; Technik-/Kostenzahlen im Handbuch selbst sind veraltet (Datenstand 2014) — dafür
+gelten die aktuellen Destillate `[[pv-marktzahlen-kosten-ch-2025]]` und `[[pv-solar-technologien]]`.
+⚠ Offener Punkt: das Handbuch zitiert 2014 Art. 18c RPG als Bewilligungserleichterung für
+Solaranlagen; die in dieser KB primärquellenverifizierte, heute einschlägige Norm ist Art. 18a
+Abs. 4 RPG — nicht stillschweigend geglättet, sondern als Rechtsstand-Differenz offen markiert.

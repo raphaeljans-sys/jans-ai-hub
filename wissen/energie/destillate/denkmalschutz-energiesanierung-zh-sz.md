@@ -1,11 +1,11 @@
 ---
-quelle: PBG-Revision Kt. ZH (Medienmitteilung 02.07.2026); DSG/DSV Kt. SZ (Teilrevision 1.10.2024); NHG Art. 2/5/6 (Bund); Art. 18a Abs. 4 RPG; Leitfaden Solaranlagen Kt. ZH (12/2022); Stadt Zürich Förderprogramm Denkmalschutz-Sanierung (06/2026)
-herausgeber: Kanton Zürich (Amt für Raumentwicklung ARE, Fachstelle Archäologie und Denkmalpflege) / Kanton Schwyz (Amt für Kultur, Denkmalpflege) / Bund (BAK) / Stadt Zürich
-ausgabe: Web-Recherche, amtliche Kantons-/Bundes-/Stadt-Webseiten und Medienmitteilungen
-gelesen: 2026-07-14 (Run 67)
-datenstand: 2026-07-14 (Web-Recherche; PBG-Revision ZH per 02.07.2026 noch nicht in Kraft, DSG/DSV SZ seit 1.10.2024 in Kraft)
-status: established (Grundstruktur amtlich belegt; SZ-Beitragswiderspruch, ZH-Erleichterungsklausel UND § 238 PBG-Wortlaut primärquellen-verifiziert)
-last_updated: 2026-07-24 (Run 87: § 238 PBG Wortlaut + SZ-Beitragsformel-Herleitung ergänzt)
+quelle: PBG-Revision Kt. ZH (Medienmitteilung 02.07.2026); DSG/DSV Kt. SZ (Teilrevision 1.10.2024); NHG Art. 2/5/6 (Bund); Art. 18a Abs. 4 RPG; Leitfaden Solaranlagen Kt. ZH (12/2022); Stadt Zürich Förderprogramm Denkmalschutz-Sanierung (06/2026); Kantonale Denkmalpflege Bern/Zürich, «Energie und Baudenkmal», Teil 1 Gebäudehülle (104 S., V1–2014) und Teil 2 Fenster und Türen (49 S., V1–2014), im Volltext gelesen
+herausgeber: Kanton Zürich (Amt für Raumentwicklung ARE, Fachstelle Archäologie und Denkmalpflege) / Kanton Schwyz (Amt für Kultur, Denkmalpflege) / Bund (BAK) / Stadt Zürich / Kantonale Denkmalpflege Bern und Zürich (Autoren: Dr. Marion Wohlleben, Siegfried Moeri)
+ausgabe: Web-Recherche, amtliche Kantons-/Bundes-/Stadt-Webseiten und Medienmitteilungen; «Energie und Baudenkmal» Version 1, 2014 (Handbuch, kein rechtsverbindliches Merkblatt)
+gelesen: 2026-07-14 (Run 67); 2026-07-25 (Run 111: beide Teile von «Energie und Baudenkmal» erstmals im Volltext gelesen, vorher als Bild-/JPEG2000-Scan archiviert)
+datenstand: 2026-07-14 (Web-Recherche; PBG-Revision ZH per 02.07.2026 noch nicht in Kraft, DSG/DSV SZ seit 1.10.2024 in Kraft); «Energie und Baudenkmal» selbst datiert V1–2014 (Fachprinzipien, nicht rechtlich bindend, seither nicht erneuert soweit bekannt)
+status: established (Grundstruktur amtlich belegt; SZ-Beitragswiderspruch, ZH-Erleichterungsklausel, § 238 PBG-Wortlaut UND die Dämm-/Fenstermassnahmen aus «Energie und Baudenkmal» primärquellen-verifiziert)
+last_updated: 2026-07-25 (Run 111: «Energie und Baudenkmal» Teil 1+2 im Volltext gelesen, neuer Abschnitt mit konkreten Dämm-/Fenstermassnahmen, Kastenfenster-U-Werte präzisiert)
 ---
 
 # Denkmalschutz/Ortsbildschutz (ISOS) und energetische Sanierung — Kt. ZH und Kt. SZ
@@ -74,9 +74,14 @@ unmittelbar bindend, sonst ist es ein gewichtiges, aber abwägungspflichtiges In
   Kernzone und im Inventar der Denkmalschutzobjekte» (2022) untermauert wirtschaftlich, dass eine
   Befreiung von der Solarpflicht möglich ist, wenn Denkmalschutz oder andere Vorschriften
   entgegenstehen.
-- **Fachpublikationen der kantonalen Denkmalpflege ZH:** Reihe «Energie und Baudenkmal», Teil 1
-  Gebäudehülle, Teil 2 Fenster und Türen (beide als Bild-/JPEG2000-Scans technisch nicht auslesbar —
-  Inhalt/Existenz belegt, Wortlaut nicht; guter Kandidat für manuelle OCR-Erschliessung).
+- **Fachpublikationen der kantonalen Denkmalpflege ZH (gemeinsam mit Kt. Bern):** Reihe «Energie und
+  Baudenkmal», Teil 1 Gebäudehülle (104 S.) und Teil 2 Fenster und Türen (49 S.), beide V1–2014 — Run
+  111 hat beide Teile per curl+Read-PDF-Tool erstmals vollständig im Volltext gelesen (die PDFs sind
+  technisch normaler, kopierbarer Text; die frühere «JPEG2000-Scan»-Einschätzung aus Run 67 war ein
+  WebFetch-Artefakt, kein tatsächliches Format-Problem). Konkrete Inhalte siehe eigener Abschnitt
+  unten «Energie und Baudenkmal Teil 1+2 — konkrete Dämm-/Fenstermassnahmen an Schutzobjekten».
+  Handbuch-Charakter: «kein allumfassendes Nachschlagewerk», «keine rechtsverbindliche Richtschnur»
+  (Vorwort), sondern Fachprinzipien und Vorschlagswerk der Denkmalpflege Bern/Zürich.
 - **Förderung:**
   - Kantonale **Denkmalpflegebeiträge** (Denkmalpflegefonds): Gesuch mit Bauplänen, detailliertem
     Kostenvoranschlag inkl. MwSt., Fotodokumentation; Bauarbeiten erst nach Genehmigung; Auszahlung
@@ -137,15 +142,43 @@ unmittelbar bindend, sonst ist es ein gewichtiges, aber abwägungspflichtiges In
 
 ## Praktische Lösungsansätze
 
-- **Innendämmung statt Aussendämmung:** Standardlösung, wo Aussendämmung ausscheidet. Zentrales
-  Risiko: Kondensat an Balkenköpfen (auskragende Holzbalken) — ohne Aussparung kühlen diese zu stark
-  ab. Empfohlene Methodik: hygrothermische Simulation vor Ausführung. Dämmstärken-Faustregel: selten
-  mehr als 10 cm, bei Fachwerk üblich 4–6 cm Obergrenze; sorptionsfähige (kapillaraktive) Dämmstoffe
-  bevorzugt; konstruktiv Innendämmung um Balkenköpfe aussparen.
+- **Innendämmung statt Aussendämmung:** Standardlösung, wo Aussendämmung ausscheidet — bei
+  Baudenkmälern mit massiven Aussenwänden UND bei Sichtfachwerk/Holzbauten ist Innendämmung faktisch
+  die Regel, weil die Aussenfassade selbst der schützenswerte Teil ist (primärquellen-verifiziert,
+  «Energie und Baudenkmal» Teil 1, Kap. 7.1.2/7.2). Aussendämmung kommt nur bei untergeordneten,
+  nicht denkmalprägenden Ansichten infrage (Brandmauern, Hofansichten, ungestaltete Wetterfassaden).
+  Zentrales Risiko: Kondensat an Balkenköpfen (auskragende Holzbalken) — ohne Aussparung/Belüftung
+  kühlen diese zu stark ab und können durchfeuchten. Dämmstärken-Faustregel gemäss Quelle: bei
+  Mauerwerk-Innendämmung «in der Regel zwischen 4 und 8 cm» (Kap. 5.3, Hohlraumdämmung), bei
+  Wärmedämmputzen auf Mauerwerk max. ca. 10 cm; bei Fachwerk/Holzständerbauten 4–8 cm aus
+  bauphysikalischen (Kondensatmengen-)Gründen (Kap. 7.2) — die im Buch Run-67 stehende «4–6 cm
+  Obergrenze bei Fachwerk» ist damit auf die etwas weitere Bandbreite 4–8 cm zu korrigieren.
+  Sorptionsfähige (kapillaraktive) Dämmstoffe bevorzugt (Mineralschaumplatten, Kalziumsilikatplatten,
+  Holzweichfaserplatten, Cellulose, Leichtlehm); konstruktiv Innendämmung um Balkenköpfe aussparen;
+  Fensterleibungen zwingend mitdämmen (mind. 1–2 cm), sonst Kondensat-/Schimmelrisiko an der neu
+  kältesten Stelle. Faustzahl Wirksamkeit: 1 cm Innendämmung senkt den Wärmeverlust bereits um über
+  20 %, 5 cm halbiert ihn; darüber hinaus sinkt der Grenznutzen pro zusätzlichem Zentimeter rasch
+  (Beispielrechnung EFH Baujahr 1953, Abb. 34). Übergeordnete Kennzahl (LowEx-Konzept ETHZ): ab
+  R = 1.5 m²K/W (U = 0.65 W/m²K) sind Komfort- und Bauphysik-Bedingungen erfüllt, keine Pilzbildung/
+  Bauschäden zu erwarten; ab R = 3 m²K/W (U = 0.33 W/m²K) wird der Grenznutzen einer weiteren
+  Dämmschicht sehr klein — eine brauchbare Faustregel dafür, wann eine Innendämmung an einem
+  Schutzobjekt «gut genug» ist, ohne das ungeschützte Neubau-Dämmniveau anzustreben.
 - **Kastenfenster-Sanierung statt Ersatz:** Grundsatz «Erhalt vor Ersatz». Umbau zu Kastenfenstern
-  (zusätzliches inneres Holzfenster luftdicht in der Laibung) ist die bewährteste Optimierung
-  historischer Holzfenster. U-Wert-Bandbreite: klassisches Kastenfenster ~U 2,3 W/m²K, nach
-  fachgerechter Sanierung bis ~U 0,9 W/m²K erreichbar.
+  (zusätzliches inneres Fenster mit eigenem U-Wert, verbunden über ein gemeinsames Futter in der
+  Laibung) ist die bewährteste Optimierung historischer Holzfenster. Präzisierte U-Werte
+  («Energie und Baudenkmal» Teil 2, Kap. 4.5, primärquellen-verifiziert): ein historisches
+  Kastenfenster mit zwei Einfachverglasungen (EV) liegt bei rund U 2.5 W/m²K; wird das innere Glas
+  durch ein Wärmeschutz- bzw. Isolierglas (IV) ersetzt, erreicht der U-Wert des gesamten Fensters
+  «problemlos» den MuKEn-Zielwert von 1.3 W/m²K. Die im Run-67-Destillat genannte Zielgrösse von
+  U 0.9 W/m²K war nicht sauber sourcebar und wird hiermit durch die primärquellen-belegte Zahl 1.3
+  W/m²K ersetzt (0.9 bliebe nur mit zusätzlichen Massnahmen wie Dreifachisolierverglasung/Vakuumglas
+  im Kasten erreichbar, dafür liefert die Quelle aber keinen eigenen Beleg). Weitere sourcebare
+  Verbesserungswerte (Tabellen S. 38): einfachverglastes (EV-)Fenster mit Wärmeschutzbeschichtung
+  U_g 5.8 → 3.7 W/m²K; Doppelverglasung (DV) mit Beschichtung U_g 2.8 → 1.8 W/m²K; EV-Fenster mit
+  IV-Nachrüstung 5.8 → 2.0 W/m²K; DV-Fenster mit IV-Nachrüstung 2.8 → 1.4 W/m²K; DV-Umbau zu IV
+  2.8 → 1.1 W/m²K. Dichtungseinbau allein (historische Fenster haben keine Dichtungen) reduziert die
+  Lüftungswärmeverluste um bis zu 90 % und den gesamten Energieverlust des Fensters um bis zu einem
+  Drittel — meist die kosteneffizienteste Einzelmassnahme, bevor über Glasersatz nachgedacht wird.
 - **PV auf nicht einsehbaren Dachflächen/unauffällige Module:** Positionierung auf strassenabgewandten,
   von öffentlichem Grund nicht einsehbaren Flächen erhöht die Bewilligungsfähigkeit deutlich; bei
   sichtbaren Flächen Indach-Systeme, Solarziegel oder farblich/textural angepasste Module als
@@ -155,6 +188,98 @@ unmittelbar bindend, sonst ist es ein gewichtiges, aber abwägungspflichtiges In
   Bauhöhe, geeignet für Laibungen/Sockel/Innendämmung, wo jeder Zentimeter zählt. Nachteile
   (Beschädigungsempfindlichkeit der Hülle, Kosten) fachlich plausibel, aber **nicht amtlich/CH-
   spezifisch belegt** — als Annahme markiert, bei Bedarf mit Fachfirma verifizieren.
+
+## Energie und Baudenkmal Teil 1+2 (Kt. Bern/ZH) — konkrete Dämm-/Fenstermassnahmen an Schutzobjekten
+
+Run 111 hat beide Teile des Handbuchs «Energie und Baudenkmal» (Kantonale Denkmalpflege Bern und
+Zürich, V1–2014) erstmals vollständig gelesen. Es handelt sich nicht um Gesetzestext, sondern um ein
+Fach- und Vorschlagswerk («kein rechtsverbindliche Richtschnur», Vorwort) — die Denkmalpfleger beider
+Kantone selbst mahnen zu «Besonnenheit» statt pauschaler Dämmpflicht. Für JANS als Bestandsbau-/
+Healthcare-Büro relevant sind vor allem die konkreten, technisch nachvollziehbaren Massnahmenkataloge.
+
+**Grundprinzip (Kap. 5.1–5.2, Teil 1):** Kein «Sanierungsrezept», jedes Baudenkmal individuell; die
+Aufgabe ist grundsätzlich interdisziplinär (Bauherrschaft, Planer, Denkmalpflege, Energie- und
+Bauphysikfachleute von Planungsbeginn an). Ein «Dämmumfang: gesamte Hülle» wie beim Neubau ist beim
+Baudenkmal die Ausnahme — Regelfall ist der **partielle** Dämmumfang (nur einzelne Bauteile), und die
+Dämmebene liegt praktisch immer innen (Innenwärmedämmung), selten in einer Kern-/Hohlraumdämmung
+(nur bei zweischaligem Mauerwerk der zweiten Hälfte des 20. Jh.), nur in Ausnahmefällen als
+Aussendämmung. Verzicht auf Wärmedämmung ist ausdrücklich vorgesehen, «wenn ein bauphysikalisches
+Risiko für das Baudenkmal besteht» oder gravierende optische Veränderungen drohen.
+
+**Wand-Dämmkonzepte im Detail (Kap. 7, Teil 1):**
+- Massive Aussenwände: praktisch immer innen gedämmt (reduziert, meist 4–8 cm); Aussendämmung nur
+  bei untergeordneten Ansichten. Kombinierte/hybride Konzepte möglich (Beispiel Schulhaus Kreuzfeld
+  Langenthal, Walter Schwaar 1951: Längsfassaden ungedämmt erhalten, eine Schmalseite innen, die
+  gegenüberliegende Schmalseite aussen gedämmt — feingliedrige, einzelbauteilbezogene Lösung).
+- Fachwerk-/Holzbauten: Sichtfachwerk kann fast nie aussen gedämmt werden, weil die sichtbare
+  Konstruktion die Fassade IST; Innendämmung mit diffusionsoffenen, kapillaraktiven Materialien
+  (Cellulose, Leichtlehm, Holzweichfaserplatten) ist der Standardweg. U-Werte unisolierter
+  historischer Wandfüllungen zur Einordnung: Brettfüllung 4 cm ca. U 2.1 W/m²K, Bohlenfüllung 8 cm
+  ca. 1.27, Fleckling 10 cm ca. 1.06, Fleckling 15 cm ca. 0.75 W/m²K; historische Fachwerkwände je
+  nach Ausfachung U 1.65 (Stroh-Lehm) bis 2.96 (Backstein) W/m²K.
+- Nur verschindelte/verputzte (nicht sichtbare) Fachwerkhäuser mit erneuerungsbedürftigem
+  Schindelschirm sind ein plausibler Kandidat für eine **reduzierte** Aussendämmung.
+
+**Dach (Kap. 8, Teil 1):** Dachbodendämmung (auf der obersten Geschossdecke, unbewohnter Dachraum
+bleibt kalt) gilt als «denkmalpflegerisch oft möglich» und energetisch/bauphysikalisch am
+unproblematischsten — wärmebrückenfrei realisierbar, keine Substanz-/Erscheinungsänderung, meist
+kostengünstig. Wird der Dachraum ausgebaut, stehen vier Systeme zur Wahl: autonome gedämmte Hülle
+(«Haus im Haus», eine gedämmte Kammer frei in den unveränderten Dachraum gestellt), Untersparren-,
+Zwischensparren- und (partielle) Aufsparrendämmung. Aufsparrendämmung ist bei Baudenkmälern «sehr
+oft nicht möglich», weil sie die Dachhaut anhebt und Trauf-/Ortgangbereich verändert — sie kommt
+höchstens bei zusammengebauten, traufständigen Altstadthäusern infrage, wo Nachbargebäude den
+Dachrand ohnehin verdecken.
+
+**Flachdach (Kap. 9, Teil 1):** Anders als beim Steildach ist beim Flachdach primär der **Dachrand**
+denkmalrelevant, nicht die Dachfläche selbst — eine Aufdachdämmung der Fläche ist deshalb «in vielen
+Fällen» auch aus denkmalpflegerischer Sicht realisierbar, solange der sichtbare Dachrand (Vordach,
+Attika) unverändert bleibt.
+
+**Keller:** Kellerdecken (von unten, Aussendämmungs-Logik) gelten als «kaum problematisch und
+effizient» — geringere Temperaturdifferenz Keller/EG (10–15 °C) als bei Aussenwänden, kaum
+Flächenkondensat-Risiko. Feuchte Keller müssen jedoch zuerst saniert werden, bevor gedämmt wird
+(«Wärmedämmmassnahmen können nur an trockenen Bauteilen vorgenommen werden»).
+
+**Fenster (Teil 2, Kap. 4):** Terminologie EV (Einfachverglasung) / DV (Doppelverglasung) / IV
+(Isolierverglasung, i.d.R. dreifach) durchgängig verwendet. Acht systematische Massnahmenvarianten
+(Abb. 20): Dichtungseinbau (EV/DV), Zusatzfenster aussen als Vorfenster, Erweiterung zum
+Kastenfenster, Flügelaufdoppelung mit pyrolytischem Glas, Ersatz EV-Glas durch pyrolytisches/IV-/
+Vakuumglas, DV-Fenster mit Ersatz des inneren Glases, DV zu EV+IV-Kombination, Umbau DV zu IV. Die
+präzisen U-Wert-Sprünge dazu stehen oben unter «Kastenfenster-Sanierung statt Ersatz». Ergänzend:
+Vakuumglas (asiatischer Markt, 6/8/10 mm) erreicht heute U 1.4 W/m²K (6-mm-Glas), Forschungsziel
+künftig U 0.2–0.5 W/m²K — Randverbund ist bei Vakuumglas verschweisst, daher NICHT nachträglich
+beschichtbar; Herausforderung ist der hohe atmosphärische Druck auf die Scheibe (ca. 10 t/m²).
+Temporäre Schutzvorrichtungen (Rollladen, Fensterläden) senken den nächtlichen Wärmedurchgang
+messbar: bei Isolierglas Vorhang −6 %, Rollladen −20 %, Vorhang+Rollladen −27 %, gedämmter
+Klappladen −79 % (bezogen auf U-Wert «nur Glas» = 100 %); rekonstruierte historische Brettjalousien
+senken den Wärmedurchgang um über 25 %, als hölzerne Sandwich-Konstruktion mit eingelegter
+Hochleistungsdämmung um mehr als die Hälfte.
+
+**Aussentüren (Teil 2, Kap. 4.7):** Hauptverlust ist die Lüftung, nicht die Transmission (Türfläche
+i.d.R. <2 m², kaum relevant gegenüber der übrigen Gebäudehüllfläche). Massnahmenkatalog:
+Türreparatur (Abdichtung, Rahmendoppel/-ersatz, Türglasoptimierung durch pyrolytisches/IV-Glas,
+Türblattaufdoppelung), zusätzliche Türebene/Windfang als Pufferzone bei geeigneten Grundrissen.
+Türersatz widerspricht «grundsätzlich den Zielen der Denkmalpflege» und ist nur bei extremem
+Verschleiss/irreparablem Schaden vorgesehen (dann analoge Rekonstruktion oder auf die historische
+Umgebung abgestimmte Neubildung).
+
+**Bezug zu bestehenden Destillaten:** Die hier beschriebene Innendämm-Praxis deckt sich mit dem
+kapillaraktiven Grundsatz aus `[[innendaemmung-altbau-bauphysik-ch]]` (sofern dieses Destillat
+existiert) und präzisiert dessen Dämmstärken-Bandbreite auf die primärquellen-belegten 4–8 cm bei
+Baudenkmälern. Die Fenster-U-Werte ergänzen `[[fenster-verglasung-uw-g-wert]]` um die
+denkmalspezifische Kastenfenster-Perspektive (Bestand ~U 2.5, mit IV-Innenglas MuKEn-konform ~U 1.3)
+und um die acht systematischen EV/DV/IV-Massnahmenvarianten, die im allgemeinen Fenster-Destillat
+vermutlich nicht denkmalspezifisch aufgeschlüsselt sind.
+
+**Leseumfang und -grenzen (Ehrlichkeit):** Teil 2 (Fenster und Türen, 49 S.) wurde zu ca. 90 %
+gelesen (S. 1–45 von 49; die letzten Seiten sind nur Bildnachweis/Literaturauswahl). Teil 1
+(Gebäudehülle, 104 S.) wurde zu ca. 75 % gelesen: vollständig S. 1–20 (Einführung, Grundlagen) und
+S. 41–99 (Kap. 5 Dämmung, Kap. 6 Boden, Kap. 7 Wände, Kap. 8 Steildach, Kap. 9 Flachdach) — bewusst
+NICHT gelesen wurden S. 21–40 (Kap. 3 Wärmedurchgang/SIA-380-Bilanzmodelle im Detail, Kap. 4
+nichtbauliche Massnahmen zur Betriebsoptimierung, inhaltlich weitgehend deckungsgleich mit dem
+bereits vorhandenen SIA-Wissen in dieser KB) sowie S. 100–104 (Bildnachweis/Literaturliste). Sollte
+später ein Bedarf an den SIA-380/1-Bilanzmodell-Details speziell im Denkmalkontext entstehen, sind
+diese 20 Seiten der nächste Lese-Kandidat.
 
 ## Bauherren-Transfer
 
@@ -192,8 +317,12 @@ Anforderungen via Energiefachstelle des Hochbauamts SZ.
 - Ob BBV I §§ 16/47a Kt. ZH zusätzliche, über die WDV hinausgehende Klauseln enthält, nicht geprüft.
 - Kein spezifischer kantonaler Energie-Zuschlag im ZH-Denkmalpflegefonds bestätigt (nur Stadt-Zürich-
   Programm belegt).
-- Kein ZH/SZ-amtliches Kastenfenster-Merkblatt mit auslesbarem Volltext gefunden (nur Existenz der
-  Publikationsreihe «Energie und Baudenkmal» ZH belegt).
+- **Run 111 geschlossen:** «Energie und Baudenkmal» Teil 1+2 ist jetzt im Volltext gelesen (siehe
+  eigener Abschnitt oben) — der vorherige Punkt «kein auslesbares Kastenfenster-Merkblatt gefunden»
+  ist damit erledigt. Offen bleibt nur: Kap. 3 (Wärmedurchgang/SIA-380-Bilanzmodelle) und Kap. 4
+  (nichtbauliche Massnahmen) von Teil 1 (S. 21–40) sowie die letzten 4 Seiten von Teil 2
+  (Bildnachweis/Literatur) wurden bewusst nicht gelesen (siehe Leseumfang-Hinweis oben) — bei Bedarf
+  nachholbar.
 - PBG-Revision ZH vom 02.07.2026 ist noch nicht in Kraft — RRB Nr. 678/2026 (2.7.2026) beim Kantonsrat,
   Fortschritt nachverfolgen.
 - Art. 18a RPG in der SZ-Praxis: keine SZ-spezifische Umsetzungsquelle gefunden.
@@ -202,6 +331,12 @@ Anforderungen via Energiefachstelle des Hochbauamts SZ.
 
 ## Quellen
 
+- Kantonale Denkmalpflege Bern und Kantonale Denkmalpflege Zürich, «Energie und Baudenkmal. Ein
+  Handbuch», Teil 1 Gebäudehülle (104 S.) und Teil 2 Fenster und Türen (49 S.), Version 1, 2014.
+  Autorinnen/Autoren: Dr. Marion Wohlleben (Kunsthistorikerin Zürich), Siegfried Moeri (dipl. Arch.
+  ETH, Architekturhistoriker Burgdorf); Fachexperten Ernst Baumann (Bauphysiker), Richard Widmer
+  (Haustechnikingenieur); URLs: zh.ch (.../energie-und-baudenkmal/Energie_Baudenkmal_1_Gebaeudehuelle.pdf
+  bzw. .../Energie_Baudenkmal_2_Fenster_Tueren.pdf), im Volltext gelesen Run 111 (25.07.2026).
 - Kanton Zürich, Medienmitteilung PBG-Revision Baudenkmäler, 02.07.2026.
 - Kanton Zürich, «Bauen & Denkmalpflege», «Denkmalpflegebeiträge beantragen», Leitfaden Solaranlagen
   (12/2022), PV-Kostenvergleichsstudie Kernzone/Denkmalschutz (2022).
