@@ -1,10 +1,10 @@
 ---
 quelle: "PL - 02_Recht_Norm/02_Normen/SIA_Norm/SIA_Merkblaetter/SIA271_Wegleitung_Abdichtung.pdf"
-herausgeber: "Gebäudehülle Schweiz (Verband Schweizer Gebäudehüllen-Unternehmungen), suissetec, PAVIDENSA (Abdichtungen Estriche Schweiz — Korrektur Retro-Verifikation Run 25, 25.07.2026: nicht «Belaege»), SFG (Schweizerische Fachvereinigung Gebäudebegrünung; Kürzel-Zusatz am Logo unsicher lesbar, moeglich «ASF» statt «ASE» — nicht am hochaufgeloesten Original nachverifiziert) — laut Deckblatt"
+herausgeber: "Gebäudehülle Schweiz (Verband Schweizer Gebäudehüllen-Unternehmungen), suissetec, PAVIDENSA (Abdichtungen Estriche Schweiz — Korrektur Retro-Verifikation Run 25, 25.07.2026: nicht «Belaege»), SFG — ASVE (Schweizerische Fachvereinigung Gebäudebegrünung / Association Suisse des Spécialistes du Verdissement des Edifices — Kürzel-Zusatz am Logo Run 26, 25.07.2026 hochaufgeloest gegengelesen: «ASVE», nicht «ASF»/«ASE» wie zuvor unsicher vermutet) — laut Deckblatt"
 ausgabe: "unbekannt (kein Ausgabevermerk im PDF — nur Deckblatt und eine Auszugsseite gescannt)"
 gelesen: "Beide im PDF vorhandenen Seiten: S. 1 = Deckblatt, S. 2 = Buchseite 64 (Kap. 5 'Elemente der Abdichtungssysteme', Ziff. 5.10.3-5.10.5 inkl. Abb. 75 und 76). Das PDF enthält NUR diese 2 Seiten."
 datenstand: "unbekannt"
-status: speculative
+status: established
 last_updated: 2026-07-25
 links: [[REGISTER]]
 ---
@@ -47,3 +47,4 @@ Die Wegleitung ist eine gemeinsame Auslegungshilfe der Branchenverbände Gebäud
 - **Nur S. 64 vorhanden** — Inhaltsverzeichnis, Geltungsbereich, Begriffe, Kapitel 1-4 und 6 ff. fehlen vollständig; ebenso die im Text referenzierte Berechnungssystematik über Abb. 75/76 hinaus.
 - **Beschaffungs-Pendenz:** Vollständige Wegleitung (Gebäudehülle Schweiz / suissetec / PAVIDENSA / SFG) nachbestellen und den Scan in der Normenbibliothek ersetzen; ebenso die zitierte **suissetec-Richtlinie** zur Dachentwässerung als eigene Quelle erfassen.
 - **Adversariale Prüfung 25.07.2026 (Run 25):** Verdikt BEANSTANDET, technischer Kerninhalt (Ziff. 5.10.3-5.10.5, alle Zahlenwerte, Tabelle Abb. 75) wortgetreu bestätigt, 0 Abweichungen dort. 3 Befunde ausschliesslich im Frontmatter/bei Bildunterschriften: PAVIDENSA-Verbandsname korrigiert («Estriche» statt «Beläge»), SFG-Kürzel-Zusatz als unsicher markiert, Abb.-75-Titel als Präzisierung ergänzt. Nicht auf established gehoben, da das SFG-Kürzel am Original noch visuell nachzuverifizieren ist.
+- **SFG-Kürzel visuell geklärt 25.07.2026 (Run 26):** Deckblatt S. 1 hochaufgeloest gelesen — das Logo zeigt eindeutig «SFG — ASVE» («Schweizerische Fachvereinigung Gebäudebegrünung» / «Association Suisse des Spécialistes du Verdissement des Edifices»), nicht «ASF»/«ASE». Frontmatter korrigiert. Damit sind alle 3 Run-25-Befunde geschlossen — **Status auf established gehoben.**

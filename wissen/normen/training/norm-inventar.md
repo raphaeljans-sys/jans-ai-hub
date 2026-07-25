@@ -1,5 +1,19 @@
 # Norm-Inventar — Arbeitsliste des Nacht-Loops `normen-training-nacht`
 
+- **Run 26 (MacBook Pro, 260725) — die beiden letzten Run-25-Folgeaufgaben abgeschlossen, speculative-
+  Bestandsliste jetzt bis auf den einen bewusst dauerhaften Fall leer.** Kein neues Destillat, 0 offene
+  `[ ]`-Positionen unverändert (Frischecheck: 458 SIA-PDF/58 VKF-Dateien, keine Änderung seit Run 21).
+  (1) `sia-112-tabelle-infrastruktur.md`: alle 4 Run-25-Korrekturen unabhängig direkt am Original (S.1+S.2
+  des PDF) gegengelesen — Kosten-Spaltengruppe inkl. Menge bestätigt, 312.0/312.1 als zwei separate
+  Zeilen bestätigt, Vorprojekt-2-Block (313.1/314.1) bestätigt, «Kosten und Finanzierung» als
+  vollständiger Zeilentext (413.1/513.1) bestätigt — 0 Abweichungen. **Status auf established gehoben.**
+  (2) `sia-271-wegleitung.md`: Deckblatt (S. 1) hochaufgelöst gelesen, SFG-Logo eindeutig als
+  «SFG — ASVE» identifiziert (nicht «ASF»/«ASE» wie vermutet). **Status auf established gehoben.**
+  Damit ist die speculative-Bestandsliste bis auf `sia-vertragsunterschiede-2023.md` (bewusst dauerhaft
+  speculative, kein Normtext) leer. Restliche offene Punkte in `wiki/QUESTIONS.md` sind ausschliesslich
+  Bring-Schulden (SIA-Abo-Beschaffung) und Strukturentscheide bei Raphael (PL-03-Aufnahme ins Inventar) —
+  beide nicht vom Loop selbst zu schliessen. Details Report `outputs/2026-07-25_normen-nacht-run26.md`.
+
 - **Run 25 (MacBook Pro, 260725) — SIA 266/1 auf established gehoben, VKF-BRL-Delta vollständig
   verifiziert, 3 weitere speculative Destillate erst-/tiefer geprüft.** Kein neues Destillat, 0 offene
   `[ ]`-Positionen unverändert. Die zwei von Run 24 offen gelassenen Folgeaufgaben (SIA 266/1 vierte
@@ -534,7 +548,7 @@ korrigiert. Pfade unten relativ zu `PL - 02_Recht_Norm/02_Normen/SIA_Norm/`.
 | [x] 260717 | P2 | `i385-1_2011_d.pdf` (Wurzel `SIA_Norm/`) | 385/1 | 2011 | Anlagen für Trinkwarmwasser (nicht «Trinkwasser»); ersetzt SIA 385/3:1991; im Bestand nur hier (in `alle/` nur f-Variante). **PDF ist Vorschau/Auszug: 6 von 28 Normseiten, normativer Teil S. 5-26 fehlt → keine Grenzwerte (Legionellen/Ausstosszeit/Speicher/Daemmung).** struktur-destillat (Auszug), verifiziert 260717 (Run 15); Bring-Schuld P1: Volltext beschaffen; sia-385-1-2011.md |
 | [x] 260719 | P2 | `SIA_Normen/SIA 112/Bereichs_Phasenmatrix.pdf` | 112 | 2007 | Run 16 260719: sia-112-bereichs-phasenmatrix.md (speculative); verifiziert beanstandet, 12 Aussagen, 3 Befund(e) korrigiert |
 | [x] 260719 | P2 | `SIA_Normen/SIA 112/SIA_Leistungsmodell.pdf` | 112 | — | Run 16 260719: sia-112-leistungsmodell.md (speculative); verifiziert beanstandet, 12 Aussagen, 2 Befund(e) korrigiert |
-| [x] 260719 | P3 | `SIA_Normen/SIA 112/tabelle_infrastruktur.xls.pdf` | 112 | — | Run 16 260719: sia-112-tabelle-infrastruktur.md (speculative); verifiziert bestanden, 12 Aussagen, 0 Befund(e) korrigiert |
+| [x] 260725 | P3 | `SIA_Normen/SIA 112/tabelle_infrastruktur.xls.pdf` | 112 | — | Run 16 260719: sia-112-tabelle-infrastruktur.md; Run 25 (260725) beanstandet-korrigiert (4 Befunde); Run 26 (260725) Bestaetigungsrunde aller 4 Korrekturen am Original, 0 Abweichungen — established |
 | — | — | `SIA_Normen/SIA 282/SIA282.pdf` | 282 | — | Duplikat zu `alle/564_282.pdf` (destilliert 260713, sia-564-282.md) — übersprungen |
 | — | — | `SIA_Normen/SIA 102/SIA_102_2020.pdf` | 102 | 2020 | Duplikat zu `alle/102.2020.pdf` (destilliert 260714) — übersprungen |
 | — | — | `SIA_Normen/SIA 102/SIA_102_2014.pdf` | 102 | 2014 | Duplikat zu `alle/102_2014.pdf` (destilliert 260714) — übersprungen |
@@ -565,7 +579,7 @@ korrigiert. Pfade unten relativ zu `PL - 02_Recht_Norm/02_Normen/SIA_Norm/`.
 | [x] 260719 | P2 | `SIA_Merkblaetter/MERKBLAETTER/2027_2006_d.pdf` | 2027 | 2006 | Run 16 260719: sia-mb-2027-2006.md (established); verifiziert beanstandet, 12 Aussagen, 3 Befund(e) korrigiert |
 | — | — | `SIA_Merkblaetter/MERKBLAETTER/2007_e.pdf` | 2007 | — | Sprachvariante (englisch) — nicht destillieren |
 | [x] 260719 | P3 | `SIA_Merkblaetter/SIA2023_Wohnungslüftung.pdf` | 2023 | 2023 | Run 16 260719: sia-2023-begleitdokument.md (established); verifiziert beanstandet, 12 Aussagen, 1 Befund(e) korrigiert |
-| [~] 260719 | P3 | `SIA_Merkblaetter/SIA271_Wegleitung_Abdichtung.pdf` | 271 | — | Run 16 260719: sia-271-wegleitung.md (speculative); verifiziert beanstandet, 12 Aussagen, 3 Befund(e) korrigiert |
+| [~] 260725 | P3 | `SIA_Merkblaetter/SIA271_Wegleitung_Abdichtung.pdf` | 271 | — | Run 16 260719: sia-271-wegleitung.md; Run 25 (260725) beanstandet-korrigiert (3 Befunde, SFG-Kuerzel unsicher); Run 26 (260725) SFG-Kuerzel am Deckblatt visuell geklaert (SFG—ASVE) — established. Bleibt Teil-Destillat (nur 2 von ~64+ Seiten im Bestand) |
 | [x] 260719 | P3 | `SIA_Merkblaetter/SIA358_Artikel Geländer.pdf` | 358 | 1999 | Run 16 260719: sia-358-fachartikel.md (established); verifiziert beanstandet, 12 Aussagen, 2 Befund(e) korrigiert |
 | [x] 260719 | P3 | `SIA_Merkblaetter/SIA500_Auslegung.pdf` | 500 | 2012 | Run 16 260719: sia-500-auslegung.md (established); verifiziert beanstandet, 12 Aussagen, 2 Befund(e) korrigiert |
 | [x] 260719 | P3 | `SIA_Merkblaetter/sia_142i-301d_Postversand_2015.pdf` | 142i | 2015 | Run 16 260719: sia-142i-301-postversand-2015.md (established); verifiziert beanstandet, 12 Aussagen, 3 Befund(e) korrigiert |

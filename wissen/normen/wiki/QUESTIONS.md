@@ -1,5 +1,35 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
+## Run 26 (MacBook Pro, 25.07.2026) — beide Run-25-Folgeaufgaben abgeschlossen, speculative-Bestand geleert
+
+**Ausgangslage.** Run 25 hatte zwei konkrete, eng begrenzte Folgeaufgaben hinterlassen (Bestätigungsrunde
+sia-112-tabelle-infrastruktur, SFG-Kürzel sia-271-wegleitung visuell klären) und festgehalten, dass danach
+nur noch `sia-vertragsunterschiede-2023.md` (bewusst dauerhaft speculative) offen bliebe. Frischecheck
+zuerst: 458 SIA-PDF / 58 VKF-Dateien (davon 9 Nicht-PDF, 8 PNG-Printscreens + 1), keine Änderung seit
+Run 21 — 0 offene `[ ]`-Positionen im Inventar unverändert bestätigt.
+
+- **[x] sia-112-tabelle-infrastruktur.md — Bestätigungsrunde (25.07.2026).** Alle 4 Run-25-Korrekturen
+  unabhängig direkt am Original-PDF (S. 1 Kopftabelle, S. 2 Phasenzeilen/Grafiken) gegengelesen:
+  Kosten-Spaltengruppe umfasst Menge/Einheits-Preis/Preis/% (bestätigt); 312.0 «Beschrieb und
+  Visualisierung» und 312.1 «Projektgrundlagen» sind zwei separate Zeilen (bestätigt); Vorprojekt (31.0)
+  hat tatsächlich einen zweiten Block «Vorprojekt 2» mit eigenen Zeilen 313.1 Kosten/314.1 Termine
+  (bestätigt); «Kosten und Finanzierung» ist bei 413.1 (Ausschreibung) und 513.1 (Realisierung
+  Ausführungsprojekt) ein vollständiger, nicht abgeschnittener Zeilentext (bestätigt). 0 Abweichungen.
+  **Status auf established gehoben.**
+- **[x] sia-271-wegleitung.md — SFG-Kürzel visuell geklärt (25.07.2026).** Deckblatt (S. 1) hochaufgelöst
+  gelesen: Logo zeigt eindeutig «SFG — ASVE» (deutsches Kürzel SFG, französisches Pendant ASVE =
+  Association Suisse des Spécialistes du Verdissement des Edifices) — nicht «ASF»/«ASE» wie zuvor unsicher
+  vermutet. Frontmatter korrigiert. Damit sind alle 3 Run-25-Befunde geschlossen. **Status auf established
+  gehoben.**
+
+**Ergebnis:** Die speculative-Bestandsliste der SIA/VKF-KB ist jetzt bis auf den einen bewusst dauerhaften
+Fall `sia-vertragsunterschiede-2023.md` (kein Normtext, reines Frage-Antwort-Blatt) leer. Verbleibende
+offene Punkte in dieser Datei sind ausschliesslich Bring-Schulden (SIA-Normtexte, die nur per Abo/Kauf zu
+beschaffen sind: SIA 380/1 Volltext, SIA 385/1 Volltext, SIA 118:2013, SIA 242, neuere SIA-266/1- bzw.
+SIA-410-Ausgabe klären) und Strukturentscheide bei Raphael (PL-03-Aufnahme ins Inventar, Bring-Schulden-
+Beschaffung) — beide nicht vom Loop selbst zu schliessen. Kein neues Destillat in diesem Lauf.
+Report `outputs/2026-07-25_normen-nacht-run26.md`.
+
 ## Run 25 (MacBook Pro, 25.07.2026) — 2 Folgeaufgaben aus Run 24 abgeschlossen + 3 weitere speculative Destillate erstverifiziert
 
 Run 24 hatte zwei konkrete Folgeaufgaben und eine allgemeine Empfehlung hinterlassen. Beide Folgeaufgaben

@@ -4,10 +4,10 @@ herausgeber: "unbekannt (kein Deckblatt, kein Herausgebervermerk im PDF; Kopfver
 ausgabe: "unbekannt (kein Ausgabevermerk, kein Jahrgang, keine Norm-Ausgabenummer im PDF)"
 gelesen: "vollständiges Dokument, S. 1-3 von 3 (mehr Seiten enthält das PDF nicht)"
 datenstand: "unbekannt (keine Jahresangabe im Dokument)"
-status: speculative
+status: established
 last_updated: 2026-07-25
 links: [[REGISTER]]
-verifikation: "adversarial geprueft 25.07.2026 (Run 25): Verdikt BEANSTANDET, 4 Befunde (1 substanziell: Spalte «Menge» faelschlich der Gruppe «Beschrieb» statt «Kosten» zugeordnet; 3 kleinere: 312.0/312.1 faelschlich zusammengezogen, Pauschalaussage «jede Phase gleich aufgebaut» durch Vorprojekt-Ausnahme widerlegt, «Kosten und Finanzierung» faelschlich als abgeschnittener Text gelistet). Alle 4 im Destillat korrigiert. Rest (12 Phasenzeilen, Grafiken, Vertragsbedingungen-Block) bestaetigt, 0 Abweichungen. Status bleibt speculative bis zu einer kurzen Bestaetigungsrunde der 4 Korrekturen; ausserdem strukturell weiterhin nicht zitierfaehig als SIA-112-Normbeleg (kein Ausgabevermerk)."
+verifikation: "adversarial geprueft 25.07.2026 (Run 25): Verdikt BEANSTANDET, 4 Befunde (1 substanziell: Spalte «Menge» faelschlich der Gruppe «Beschrieb» statt «Kosten» zugeordnet; 3 kleinere: 312.0/312.1 faelschlich zusammengezogen, Pauschalaussage «jede Phase gleich aufgebaut» durch Vorprojekt-Ausnahme widerlegt, «Kosten und Finanzierung» faelschlich als abgeschnittener Text gelistet). Alle 4 im Destillat korrigiert. Rest (12 Phasenzeilen, Grafiken, Vertragsbedingungen-Block) bestaetigt, 0 Abweichungen. Bestaetigungsrunde 25.07.2026 (Run 26): alle 4 Korrekturen unabhaengig direkt am Original (S.1/S.2) gegengelesen (Kosten-Spaltengruppe inkl. Menge, 312.0/312.1 als zwei separate Zeilen, Vorprojekt-2-Block mit 313.1/314.1, «Kosten und Finanzierung» als vollstaendiger Zeilentext bei 413.1/513.1) — 0 Abweichungen. Status auf established gehoben; strukturelle Einschraenkung bleibt: nicht zitierfaehig als SIA-112-Normbeleg (kein Ausgabevermerk, kein Deckblatt)."
 ---
 
 # SIA 112 Tabelle Infrastruktur — Excel-Ausdruck «tabelle_infrastruktur.xls» (kein Norm-Volltext)
@@ -52,3 +52,4 @@ Das PDF ist **kein SIA-112-Normtext**, sondern der dreiseitige Ausdruck einer Ex
 - **Rechte Spaltengruppen leer:** Menge, Einheitspreis, Preis, % und Termin-Datum sind im Ausdruck durchgehend unausgefüllt (S. 1-3); es sind also keine Kennwerte, Preise oder Termine enthalten. Das Dokument liefert keinerlei Kostenkennwerte.
 - **Grafiken nur in niedriger Auflösung** eingebettet; einzelne Beschriftungen der Schemata auf S. 2 und S. 3 sind teils schwer lesbar, die Zieltexte auf S. 3 wurden sinngemäss und nicht wörtlich erfasst.
 - **Abgeschnittene Zeilentexte:** Mehrere Zeilen enden ohne Fortsetzung (z.B. «Durchführung des», «Ausführungsvarianten und», «Erstellen eines Ablauf- und», «Erstellen des definitiven Ablaufund») — die Excel-Zellen sind im Ausdruck beschnitten; der volle Wortlaut ist nicht rekonstruierbar. («Kosten und Finanzierung» ist dagegen ein vollständiger Zeilentext in den Phasen Ausschreibung/Realisierung, 413.1/513.1, kein abgeschnittener — Korrektur Retro-Verifikation Run 25.)
+- **Bestätigungsrunde 25.07.2026 (Run 26):** Alle 4 Run-25-Korrekturen unabhängig am Original bestätigt (0 Abweichungen). Strukturelle Einschränkung (kein Ausgabevermerk, nicht als Normbeleg zitierfähig) bleibt unverändert bestehen.

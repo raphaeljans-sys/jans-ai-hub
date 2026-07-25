@@ -1,3 +1,16 @@
+## 2026-07-25 — Run 26 (MacBook Pro): letzte 2 speculative Destillate auf established gehoben, speculative-Bestand geleert
+- **Kein neues Destillat — 0 offene `[ ]`-Positionen unverändert** (Frischecheck 458 SIA-PDF/58 VKF-Dateien,
+  keine Änderung seit Run 21). Beide von Run 25 hinterlassenen Folgeaufgaben abgeschlossen:
+  (1) `sia-112-tabelle-infrastruktur.md`: Bestätigungsrunde aller 4 Run-25-Korrekturen direkt am Original
+  (Kosten-Spaltengruppe inkl. Menge, 312.0/312.1 als zwei Zeilen, Vorprojekt-2-Block 313.1/314.1,
+  «Kosten und Finanzierung» als vollständiger Text bei 413.1/513.1) — 0 Abweichungen. **Status established.**
+  (2) `sia-271-wegleitung.md`: SFG-Kürzel am Deckblatt hochaufgelöst gelesen, eindeutig «SFG — ASVE»
+  (nicht «ASF»/«ASE»). **Status established.**
+- **Speculative-Bestandsliste jetzt bis auf `sia-vertragsunterschiede-2023.md` (bewusst dauerhaft, kein
+  Normtext) leer.** Verbleibende QUESTIONS.md-Punkte sind ausschliesslich Bring-Schulden (SIA-Abo-
+  Beschaffung) und Strukturentscheide bei Raphael (PL-03-Aufnahme) — nicht vom Loop selbst schliessbar.
+  Details `wiki/QUESTIONS.md` Abschnitt "Run 26", Report `outputs/2026-07-25_normen-nacht-run26.md`.
+
 ## 2026-07-25 — Run 25 (MacBook Pro): SIA 266/1 auf established gehoben, VKF-BRL-Delta vollständig verifiziert, 3 weitere speculative Destillate erstmals/tiefer geprüft
 - **Kein neues Destillat — 0 offene `[ ]`-Positionen unverändert.** Zwei von Run 24 offen gelassene
   Folgeaufgaben abgeschlossen: (1) SIA 266/1 vierte Runde — Figur-1-Zeile (dreimal in Folge fehlerhaft)
