@@ -257,6 +257,25 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   → [[kartenportale-geoportale-uebersicht]] (Offen A5).
 
 ## B — Recht & Norm
+- [x] **R64-R67 (Run 64, 2026-07-25, Scout-Abgleich)** Nach vollständigem `06_Richtlinien`-
+  Unterordnerabgleich (Kartenportale/Energie hatten dieselbe Methodik bereits in Run 63 auf
+  PL-01/PL-04 angewendet) vier bisher nie erschlossene Kleinst-Ordner gefunden (9 Dateien,
+  1-4 je Ordner) — cloud-only/nicht materialisiert, daher von allen 63 Vorläufen übersehen.
+  **R64 Kt.-Basel-Landschaft Büroausstattung:** zweites vollständiges kantonales
+  Büroraum-Bemessungssystem (12 Flächenmodelle, CHF 7'500/AP) → NEU §7
+  [[recht-norm-raumprogramm-referenzwerke]]. **R65 VSA (Aufzugsverband):** komplettes
+  SIA-370/SN-EN-81-Normenregister + ESBA Kt. ZH (Bestandsaufzug-Nachrüstpflicht, 7
+  Gefahrenpunkte) + SNEL (74 Gefährdungspunkte, nur ZH/GE/GL gesetzlich verankert) → NEU §2b
+  [[recht-norm-hindernisfreies-bauen-zh]]. **R66 BKZ:** grosser Delta — Sehbehinderten-/
+  Hörbehinderten-Dimension bisher komplett gefehlt (taktile Orientierung, Reliefschrift,
+  Kontraststreifen, Höranlagen), plus Begriffsleiter (absolute Barriere/relative Hindernis/
+  anpassbar/behindertengerecht) und WC-/Küchen-Fixmasse → NEU §3b
+  [[recht-norm-hindernisfreies-bauen-zh]]. **R67 SWKI VA103-01:** Parkhaus-Lüftungsauslegung
+  (CO-Grenzwerte, Einschaltwerte, exponiert/geschützt-Geschossbewertung) — bisher fehlende
+  TGA-Dimension im Tiefgarage-Artikel → NEU §8 [[recht-norm-tiefgarage-erschliessung]].
+  Lehre: cloud-only-Dateien (0 Byte lokal, `mdls` liefert keine Seitenzahl) sind für frühere
+  Scout-Läufe unsichtbar geblieben — `cp` materialisiert sie zuverlässig (analog zu den
+  bekannten EDEADLK-Workarounds). Details `outputs/2026-07-25_training-run64.md`.
 - [x] **R61 (Run 60, 2026-07-25)** Letzter offener Backlog-Punkt aus R59/§9: OneDrive-Lock auf
   `09-Projektdokumentation/` + `10-Projektablauf/10.6-Projektabschluss/` (seit Run 52 blockiert)
   aufgeloest — alle vier Dateien gelesen. **PAB 2.16.R Richtlinie fuer Projektdokumentationen**

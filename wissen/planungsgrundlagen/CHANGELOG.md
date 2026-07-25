@@ -2,6 +2,27 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 — Training Run 64 (Recht & Norm + Brandschutz, Token-Vollgas): vier Cloud-Only-Ordner erstmals materialisiert, Sehbehinderten-Dimension neu
+Rotation zurueck auf Recht & Norm (PL-02) + Brandschutz (PL-03) (Run 63 hatte Kartenportale+
+Energie). Delta-Scan: keine neuen Dateien. Scout-Abgleich (Top-Level-Ordnerliste PL-02/PL-03
+gegen curriculum.md/_INGESTED.md) findet vier bisher nie erschlossene Kleinst-Ordner unter
+`06_Richtlinien/` (`_Kanton Basel`, `VSA`, `BKZ`, `SWKI`, 9 Dateien) — alle **cloud-only** (0
+Byte, `mdls` liefert keine Seitenzahl) und dadurch fuer alle 63 Vorlaeufe unsichtbar; `cp`
+materialisiert sie zuverlaessig (neue Lehre fuer kuenftige Scout-Laeufe, dokumentiert in
+QUESTIONS.md B). Vier Funde eingearbeitet: **R64** Richtlinie Bueroausstattung Kt.
+Basel-Landschaft (12 Flaechenmodelle, CHF 7'500/AP) → NEU §7
+[[recht-norm-raumprogramm-referenzwerke]]. **R65** VSA-Aufzugsnormenregister SIA-370/SN-EN-81 +
+ESBA Kt. ZH (Bestandsaufzug-Nachruestpflicht) + SNEL (74 Gefaehrdungspunkte, nur ZH/GE/GL
+gesetzlich) → NEU §2b [[recht-norm-hindernisfreies-bauen-zh]], schliesst offenen
+QUESTIONS-Punkt SN-EN-81-70. **R66** BKZ-Checkliste + Sehbehinderten-Merkblatt 13/05 +
+ZHB-Handbuch — komplett neue Sehbehinderten-/Hoerbehinderten-Dimension (bisher nur
+Mobilitaetsbehinderte dokumentiert) + vierstufige Begriffsleiter absolute Barriere/relative
+Hindernis/anpassbar/behindertengerecht → NEU §3b [[recht-norm-hindernisfreies-bauen-zh]].
+**R67** SWKI VA103-01:2017 Parkhaus-Lueftung (CO-Grenzwerte, Einschaltwerte,
+exponiert/geschuetzt-Geschossbewertung) → NEU §8 [[recht-norm-tiefgarage-erschliessung]],
+bisher fehlende TGA-Dimension. Brandschutz (PL-03): kein neuer Fund, alle Top-Level-Ordner
+bereits erfasst. Details: `outputs/2026-07-25_training-run64.md`.
+
 ## 2026-07-25 — Training Run 63 (Kartenportale + Energie, Token-Vollgas): Kt.-LU-Vertiefung, beide Domaenen vollstaendig ausgeschoepft
 Rotation zurueck auf Kartenportale (PL-01) + Energie (PL-04) (Run 62 hatte Recht/Norm+Brandschutz).
 Delta-Scan beider PL-Ordner: keine neuen Dateien. Da beide Domaenen laut Register ohne bekannten

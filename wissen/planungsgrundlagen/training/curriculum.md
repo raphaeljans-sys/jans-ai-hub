@@ -437,6 +437,34 @@ das Ergebnis in den passenden Wiki-Artikel.
   Fundstellen (Art. 37/47/48, Anhang 3.5.5/7.3.5) im Anhang bewusst nur als Beleg referenziert,
   nicht dupliziert (bleiben bei Skill `brandschutz`/Normen-KB) → NEU §4
   [[recht-norm-arbeitshilfen-planungsdetails]])
+- [x] R64 Ordner `06_Richtlinien/_Kanton Basel` (1 Datei, nie erschlossen, Scout-Abgleich
+  Run 64) — Richtlinie Büroausstattung Kanton Basel-Landschaft (HBA BL, Juli 2008): zweites
+  vollständiges kantonales Büroraum-Bemessungssystem neben Stadt-ZH-AHB (SIA 416/DIN 277),
+  12 durchgerechnete Flächenmodelle (Typ 1-3 Einzel-AP 7.04-7.92 m², Block-/Z-AP 2/4/6 Pers.
+  14-32 m², Sitzungszimmer 8/12 Pers.), Kennzahl CHF 7'500 Mobiliarkosten/AP → NEU §7
+  [[recht-norm-raumprogramm-referenzwerke]] (2026-07-25 Run 64)
+- [x] R65 Ordner `06_Richtlinien/VSA` (3 Dateien, nie erschlossen, Scout-Abgleich Run 64) —
+  Verband Schweizerischer Aufzugsunternehmen: vollständiges SIA-370/SN-EN-81-Normenregister
+  (370.070=EN-81-70 Zugänglichkeit, 370.072/073 Feuerwehraufzug/Brandfall, 370.080=EN-81-80=
+  SNEL), ESBA Kt. ZH (7 Gefahrenpunkte Bestandsaufzüge, 5-Jahres-Nachrüstfrist seit 2008), SNEL
+  (74 Gefährdungspunkte, kantonal nur ZH/GE/GL gesetzlich umgesetzt) → NEU §2b
+  [[recht-norm-hindernisfreies-bauen-zh]], schliesst QUESTIONS-Punkt „SN EN 81-70 nicht im
+  Ordner" (2026-07-25 Run 64)
+- [x] R66 Ordner `06_Richtlinien/BKZ` (4 Dateien, nie erschlossen, Scout-Abgleich Run 64) —
+  Delta zu R36 (hindernisfreies Bauen): BKZ-Checkliste 2005 (§ 239 PBG/§ 34 BBV I-Verankerung,
+  Sonderbauten-Verschärfung, Parkplatz/WC/Küchen-Fixmasse) + Merkblatt 13/05
+  Sehbehindertengerechtes Bauen (bisher komplett fehlende Dimension: taktile/akustische
+  Orientierung, Reliefschrift, Kontraststreifen) + ZHB-Handbuch «Hindernisfreies Bauen»
+  (Begriffsleiter absolute Barriere/relative Hindernis/anpassbar/behindertengerecht,
+  Behinderungsarten-Klassifikation, Küchen-Detailmasse) → NEU §3b
+  [[recht-norm-hindernisfreies-bauen-zh]] (2026-07-25 Run 64)
+- [x] R67 Ordner `06_Richtlinien/SWKI` (1 Datei, 110 S., nie erschlossen, Scout-Abgleich Run
+  64) — SWKI VA103-01:2017 Lüftungsanlagen für Parkhäuser (ersetzt SWKI 96-1), S. 1-25
+  gelesen: Geltungsbereich ab 100 m², CO-Bemessungswert 100 ppm, MAK-/KZGW-Tabelle (CO 30/60
+  ppm, NO2 3/3 ppm), Einschaltwert 50-70 ppm, Referenztemperatur +5°C,
+  exponiert/geschützt-Geschossbewertung (+5K/+10K); Kaltfahrt dominiert Emission (Faktor >40
+  ggü. Warmfahrt) → NEU §8 [[recht-norm-tiefgarage-erschliessung]], TGA-Dimension bisher
+  fehlend (2026-07-25 Run 64). Rest (Kap. 3-9, 85 S.) offen fuer Folgelauf.
 
 ## Domaene 4 — Brandschutz (PL-03)
 - [x] B1 Verhaeltnis zu Skill `brandschutz` festlegen (Verweis vs. eigene Grundlagen-Notizen). (2026-06-22 Run 8: Entscheid schlanker Wegweiser — Planungsgrundlagen/Prozess/QSS hier, Fach-/Detailarbeit im Skill `brandschutz`; kein Doppel → [[brandschutz-pl03-wegweiser]])
