@@ -735,6 +735,21 @@ das Ergebnis in den passenden Wiki-Artikel.
   — **0 neue/veraenderte Dateien** in beiden Ordnerbaeumen. Zehnte unabhaengige Erschoepfungs-
   Bestaetigung fuer Recht/Norm+Brandschutz (sechzehnte in Folge ueber alle vier Domaenen)
   → siehe `outputs/2026-07-25_training-run82.md`.
+- [x] K-Freshness/E-Freshness Run83 (Run 83, 2026-07-25, Token-Vollgas) Datei-Frischecheck
+  `PL - 01 Kartenportale` + `PL - 04 Energie` gegen den Zeitstempel von Run 81 (`find -newer`)
+  — **0 neue/veraenderte Dateien** in beiden Ordnerbaeumen. Zwoelfte unabhaengige Erschoepfungs-
+  Bestaetigung fuer Kartenportale+Energie (siebzehnte in Folge ueber alle vier Domaenen)
+  → siehe `outputs/2026-07-25_training-run83.md`.
+- [x] R84-Freshness/B54-Freshness (Run 84, 2026-07-25, Token-Vollgas) Datei-Frischecheck
+  `PL - 02_Recht_Norm` + `PL - 03 Brandschutz` gegen den Zeitstempel von Run 82 (`find -newer`)
+  — **0 neue/veraenderte Dateien** in beiden Ordnerbaeumen. Elfte unabhaengige Erschoepfungs-
+  Bestaetigung fuer Recht/Norm+Brandschutz (achtzehnte in Folge ueber alle vier Domaenen)
+  → siehe `outputs/2026-07-25_training-run84.md`.
+- [x] K-Freshness/E-Freshness Run85 (Run 85, 2026-07-25, Token-Vollgas) Datei-Frischecheck
+  `PL - 01 Kartenportale` + `PL - 04 Energie` gegen den Zeitstempel von Run 83 (`find -newer`)
+  — **0 neue/veraenderte Dateien** in beiden Ordnerbaeumen. Dreizehnte unabhaengige Erschoepfungs-
+  Bestaetigung fuer Kartenportale+Energie (neunzehnte in Folge ueber alle vier Domaenen)
+  → siehe `outputs/2026-07-25_training-run85.md`.
 
 ## Meta / Querschnitt
 - [x] M1 Grundlagen-Checkliste «neue Parzelle» (was holt man IMMER zuerst) als Standard-Output. (2026-06-30 Run 12: 8 Pflicht-Grundlagen EGRID→OEREB→Zonenplan→Baulinien→Vermessung→DTM/Ortho→GWR→Behoerden je mit Connector-Befehl, SZ-Kurzvariante, End-to-End-Benchmark Giebelweg 12 EGRID CH879777718909 validiert → [[kartenportale-grundlagen-checkliste-neue-parzelle]])
