@@ -1385,3 +1385,25 @@ Verfahrensstand unverändert. FAQ-Stand jetzt **F1–F105**. Details: `outputs/2
   (Dachflächenfenster) weiterhin nur als Grafik, nicht als Formel; Verhältnis SIA 380/2:2022 Ziff.
   3.2 (MuKEn-2025-Zitat) zu SIA 382/1:2014 (bisherige ZH-Praxis) für die Definition «Kühlung
   notwendig/erwünscht» nicht geklärt.
+
+- **D75 (2026-07-25, adversariale Nachverifikation Auftrag)** — `[[trinkwassererwaermung-legionellenschutz-energieeffizienz]]`
+  (Run 99, bisher `emerging`) gezielt auf die beiden im Destillat selbst benannten Lücken hin
+  nachverifiziert: Norm-Volltext SIA 385/1:2020 und BAG/BLV-Original waren bisher nur über
+  Sekundärquellen bzw. gar nicht (Server-Fehler) belegt. Diesmal **beide beschafft**: das
+  amtliche **BAG/BLV-Original** «Legionellen und Legionellose», Modul 11 (blv.admin.ch, per
+  curl+pdftotext vollständig gelesen, Ausgabe 22.08.2018 — eine WebFetch-Zusammenfassung hatte
+  zwischenzeitlich fälschlich ein Update «13.03.2026» behauptet, der direkte Download widerlegte
+  dies: unverändert seit 2018, Lehre für künftige Verifikationsläufe festgehalten) sowie eine
+  **primärnahe SIA-385/1-Quelle** (Kommissionspräsentation Dr. Michel Haller, 3.11.2020, fws.ch,
+  mit direkt reproduzierten Norm-Temperaturtabellen, Quelle J.M. Suter/SIA Komm. 385/1). Ergebnis:
+  Kernaussage bestätigt, aber **wesentlich präzisiert** — die 52-55 °C sind eine bedingte 3-K-
+  Erleichterung für nachweislich optimal geplante/betriebene Anlagen, nicht die neue Pauschale;
+  die Grundordnung (BAG/BLV unverändert seit 2018, SVGW W3/E3:2020 «im Einklang» damit lt.
+  aquaetgas.ch) bleibt bei 60/55/50 °C und verlangt für identifizierte Vorwärm-Risikozonen
+  weiterhin eine wöchentliche 60-°C-Stunde (keine Evidenz einer Aktualisierung seit der SIA-385/1-
+  Revision gefunden). Die vormals genannte Zahl «60 °C während 6 Stunden monatlich bei 150 %
+  Tagesbedarf» liess sich an keiner Primärquelle bestätigen und wurde durch die belegte «über
+  70 °C monatlich, laut Kommission in seltenen Fällen» ersetzt. Damit auch das offene Verhältnis
+  SIA 385/1 ↔ SVGW W3/E3 geklärt (keine konkurrierenden Systemklassen, sondern Grundordnung +
+  bedingte Ausnahme). → Destillat von `emerging` auf **established** gehoben, FAQ F137 geschärft,
+  INDEX (destillate + wiki) nachgeführt.

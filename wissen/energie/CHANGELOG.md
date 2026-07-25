@@ -2,6 +2,24 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Trinkwassererwärmung/Legionellenschutz: adversariale Nachverifikation, Destillat auf established gehoben
+
+Auftrag: das Destillat `[[trinkwassererwaermung-legionellenschutz-energieeffizienz]]` (Run 99,
+Status `emerging`) gezielt an den beiden dort selbst benannten Lücken nachverifizieren — Norm-
+Volltext SIA 385/1:2020 und das BAG/BLV-Original waren bisher nicht direkt gelesen. Diesmal beide
+Primärquellen beschafft: BAG/BLV-Empfehlungen «Legionellen und Legionellose», Modul 11 (amtliches
+Original, blv.admin.ch, per curl+pdftotext vollständig gelesen, Ausgabe 22.08.2018 unverändert —
+eine WebFetch-Zusammenfassung hatte fälschlich ein Update «13.03.2026» behauptet, der direkte
+Download widerlegte dies) sowie eine primärnahe SIA-385/1-Quelle (Kommissionspräsentation Dr.
+Michel Haller, 3.11.2020, fws.ch, mit direkt reproduzierten Norm-Temperaturtabellen). Kernaussage
+bestätigt, aber wesentlich präzisiert: die 52-55 °C sind eine bedingte 3-K-Erleichterung für
+nachweislich optimal geplante/betriebene Anlagen, nicht die neue Pauschale; die Grundordnung
+(BAG/BLV unverändert seit 2018, SVGW W3/E3:2020 «im Einklang» damit) bleibt bei 60/55/50 °C und
+verlangt für identifizierte Vorwärm-Risikozonen weiterhin eine wöchentliche 60-°C-Stunde. Die
+vormals genannte Zahl «60 °C während 6 Stunden monatlich» wurde widerlegt und durch die belegte
+«über 70 °C monatlich, in seltenen Fällen» ersetzt. Destillat auf **established** gehoben, FAQ
+F137 geschärft, destillate/INDEX.md + wiki/INDEX.md + training/curriculum.md (D75) nachgeführt.
+
 ## 2026-07-25 — Sommerlicher Wärmeschutz/Überhitzungsschutz: MuKEn-2025- und Kt.-SZ-Lücke geschlossen, keine Doppelarbeit am bestehenden SIA-180-Destillat
 
 Auftrag Raphael: neues Thema sommerlicher Wärmeschutz/Überhitzungsschutz im Wohnbau (SIA 180:2014)

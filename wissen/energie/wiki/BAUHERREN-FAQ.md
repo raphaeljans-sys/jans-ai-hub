@@ -4740,27 +4740,35 @@ DIN-1946-4-Werte sind ausdrücklich nur als Analogie markiert, nicht als Schweiz
 
 ### F137 — Widerspricht der vorgeschriebene Legionellenschutz beim Warmwasser meiner Wärmepumpe ihrem Effizienzziel?
 
-Teilweise ja, aber die aktuelle Schweizer Norm hat das eingepreist. **SIA 385/1:2020** verlangt
-keine pauschalen 60 °C mehr überall, sondern gestufte, tiefere Temperaturen (Entnahmestelle
-mindestens 50 °C, Zirkulationsrücklauf mindestens 55 °C, bei nachgewiesen optimaler Anlage schon
-ab 52 °C) und schafft die früher übliche wöchentliche «Legionellenschaltung» (Aufheizen auf
-60–70 °C) ausdrücklich ab, weil Feldstudien ihr keinen Hygienenutzen nachweisen konnten.
-Physikalisch liegt der Konflikt trotzdem vor: Legionellen wachsen optimal bei rund 37 °C, eine
+Teilweise ja, und die Schweizer Regelwerke lösen das in zwei Stufen, nicht mit einer einzigen
+neuen Pauschalzahl. Die **Grundordnung** (BAG/BLV-Empfehlungen, unverändert seit 2018, sowie die
+SVGW-Richtlinie W3/E3:2020 ausdrücklich «im Einklang» damit) verlangt weiterhin **60 °C am
+Speicheraustritt, 55 °C in der Zirkulation, 50 °C an der Entnahmestelle** und für identifizierte
+Vorwärm-Risikozonen (Wärmepumpen-/Solar-/Abwärme-/Fernwärme-Vorwärmung) weiterhin eine
+**wöchentliche, einstündige Aufheizung auf 60 °C**. **Darüber** legt die neuere **SIA 385/1:2020**
+eine bedingte Erleichterung: nur wer eine hygienisch nachweislich optimal geplante UND betriebene
+Anlage vorweist (keine Toträume, korrekt dimensionierte Zirkulation mit mindestens 52 °C Rücklauf
+je Strang statt 55 °C, Wärmesiphon statt Isolation bei nicht warmgehaltenen Leitungen, Kaltwasser
+konsequent unter 25 °C), darf im Betrieb um 3 K auf 55/52 °C absenken — und nur für diesen
+nachgewiesenen Optimalfall schafft die Norm die pauschale tägliche/wöchentliche
+«Legionellenschaltung» ab, weil Feldstudien ihr dort keinen Hygienenutzen nachweisen konnten.
+Physikalisch liegt der Konflikt so oder so vor: Legionellen wachsen optimal bei rund 37 °C, eine
 Wärmepumpe erreicht ihren besten COP dagegen bei möglichst kleiner Temperaturdifferenz, also bei
-tiefen Zieltemperaturen — genau im Legionellen-Wachstumsfenster. Der Hebel der aktuellen Norm ist
-nicht «immer heiss», sondern «richtig geplant»: keine Toträume, korrekt dimensionierte Zirkulation
-mit mindestens 55 °C Rücklauf je Strang, Wärmesiphon zur Trennung warmgehaltener und kalter
-Komponenten, Kaltwasser konsequent unter 25 °C. Wer den Konflikt zusätzlich entschärfen will,
-trennt Heizung und Warmwasser: Wärmepumpe für die Flächenheizung (tiefe Vorlauftemperatur, hoher
-COP), plus eine separate, kleinere Warmwasserlösung (dedizierter Wärmepumpenboiler). Der COP-
-Verlust durch die Warmwassertemperatur betrifft ohnehin nur den Warmwasser-Anteil des
+tiefen Zieltemperaturen — genau im Legionellen-Wachstumsfenster. Wer den Konflikt entschärfen
+will, trennt Heizung und Warmwasser: Wärmepumpe für die Flächenheizung (tiefe Vorlauftemperatur,
+hoher COP), plus eine separate, kleinere Warmwasserlösung (dedizierter Wärmepumpenboiler). Der
+COP-Verlust durch die Warmwassertemperatur betrifft ohnehin nur den Warmwasser-Anteil des
 Energiebedarfs, der im gut gedämmten Neubau deutlich kleiner ist als der Heizanteil — die
-Systementscheidung bei der Heizung selbst bleibt der grössere JAZ-Hebel.
+Systementscheidung bei der Heizung selbst bleibt der grössere JAZ-Hebel. Praktisch heisst das für
+die eigene Anlage: beim Sanitärplaner konkret nachfragen, nach welcher Grundlage ausgelegt und
+betrieben wird — «die Norm verlangt das nicht mehr» stimmt nur für den nachgewiesenen
+Optimalbetrieb, nicht pauschal für jede Anlage.
 → `[[trinkwassererwaermung-legionellenschutz-energieeffizienz]]`, `[[waermepumpe-systemvergleich]]`.
-Datenstand 25.07.2026 (Run 99). Status **emerging** (SIA 385/1:2020 und SVGW W3/E3:2020 über einen
-sehr belastbaren Sekundärbeleg — Fachartikel eines SIA-385-Kommissionsmitglieds mit direkt
-reproduzierten Normauszügen — dokumentiert; der Norm-Volltext selbst und das BAG/BLV-Original-PDF
-wurden noch nicht direkt eingesehen).
+Datenstand 25.07.2026 (adversariale Nachverifikation). Status **established** (BAG/BLV-Empfehlungen
+Modul 11 im Original-PDF direkt gelesen, ebenso eine primärnahe SIA-385/1-Quelle — die
+Kommissionspräsentation der Norm-Autoren mit direkt reproduzierten Normtabellen; die vormals
+genannte Zahl «60 °C während 6 Stunden monatlich» wurde dabei widerlegt und durch die belegte
+«über 70 °C monatlich, in seltenen Fällen» ersetzt).
 
 ### F138 — Lohnt sich Betonkernaktivierung (TABS) für unser Gebäude?
 
