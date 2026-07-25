@@ -2,6 +2,19 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 — Training Run 74 (Recht/Norm + Brandschutz, Token-Vollgas): Frischecheck 0 neue Dateien seit Run 72 (sechste Bestaetigung), RPG-2-ZH/BSV-2026-Refresh unveraendert
+Rotation zurueck auf Recht & Norm (PL-02) + Brandschutz (PL-03) nach Run 73. Datei-Frischecheck
+(`find -newer` gegen den Run-72-Report-Zeitstempel) fuer beide SharePoint-Ordner: **0 neue oder
+veraenderte Dateien** seit Run 72 — sechste unabhaengige Erschoepfungs-Bestaetigung fuer dieses
+Domaenenpaar. Ergaenzend R6 (RPG-2-ZH-Umsetzungsstand) und B5 (BSV-2026-Terminplan) per WebSearch
+erneut geprueft — beide unveraendert bestaetigt (ZH-PBG/Richtplan weiterhin ohne Fertigstellungs-
+datum; BSV-2026-Vernehmlassung 08/2026, IOTH-Genehmigung 03/2027, Inkrafttreten Fruehling 2027),
+kein Delta seit Run 62. D9 und M4 bleiben unveraendert offen. Bewusst keine kuenstlichen
+Zusatzfragen erzeugt. Empfehlung aus Run 69-73 (Umstellung dieses Loops auf ereignisgetriebenen
+Modus statt taeglichem Vollgas) zum sechsten Mal protokolliert, nicht eigenmaechtig umgesetzt
+(Taktentscheide bleiben Raphaels Entscheid) → `outputs/2026-07-25_training-run74.md`,
+`training/curriculum.md` R74-Freshness/B49-Freshness.
+
 ## 2026-07-25 — Training Run 73 (Kartenportale + Energie, Token-Vollgas): Frischecheck 0 neue Dateien seit Run 71 (dritte Bestaetigung), MuKEn-ZH-Refresh unveraendert
 Rotation zurueck auf Kartenportale (PL-01) + Energie (PL-04) nach Run 72. Datei-Frischecheck
 (`find -newer` gegen den Run-71-Report-Zeitstempel) fuer beide SharePoint-Ordner: **0 neue oder
