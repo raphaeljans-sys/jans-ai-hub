@@ -1,8 +1,8 @@
 ---
 title: "VKF-Beherbergungsbetriebe [a]/[b]/[c] — Definition, Zuordnung, Anforderungsunterschiede"
-status: speculative
+status: established
 last_updated: 2026-07-25
-verification: "Adversarial geprüft am 25.07.2026, Verdikt BEANSTANDET, 12 Korrekturen eingearbeitet (Seitenzahlen, Ausgaben-Disziplin, Türverschluss-Systeme, Betreutes Wohnen)."
+verification: "Adversarial geprüft am 25.07.2026 (Runde 1), Verdikt BEANSTANDET, 12 Korrekturen eingearbeitet (Seitenzahlen, Ausgaben-Disziplin, Türverschluss-Systeme, Betreutes Wohnen). ZWEITE, unabhängige Runde Run 23 (25.07.2026): alle 12 Korrekturen bestätigt korrekt und seitengenau (physische PDF-Seiten einzeln nachextrahiert); Ausgaben-Disziplin 2015 vs. 2017 zusätzlich unabhängig bestätigt. EIN neuer, lokal begrenzter Befund gefunden und korrigiert (unbelegte Fundstelle «BRL 16-15de Ziff. 3.2» bei der Betreutes-Wohnen-Aussage). Nach dieser Korrektur Status auf established gehoben."
 sources: [VKF Brandschutznorm 1-15de, Art. 13 Abs. 2 lit. a (S. 8, PDF-S. 8), VKF-Brandschutzrichtlinie «Begriffe und Definitionen» 10-15de, Stichwort «Beherbergungsbetriebe» (S. 12, PDF-S. 12) + Anhang «zu Beherbergungsbetriebe» (S. 40, PDF-S. 40) + Stichwort «Sicherer Ort im Gebäude» (S. 31) + Stichwort «Wohnbauten» (S. 35), VKF-Brandschutzrichtlinie «Flucht- und Rettungswege» 16-15de, Ausgabe 01.01.2015 (Datei «Flucht & Rettungswege.pdf»), Ziff. 2.4.2 Abs. 3 (S. 6, PDF-S. 6), Ziff. 3.6/3.6.1/3.6.2 (S. 12, PDF-S. 12), Anhang «zu Ziffer 3.6.1 Beherbergungsbetriebe [a]» (S. 31, PDF-S. 31), Anhang «zu Ziffer 2.5.5 Türen» (S. 19, PDF-S. 19); alle Original-PDFs unter BASIS = /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/PL - 02_Recht_Norm/02_Normen/VKF_Norm]
 links: [[REGISTER]], [[vkf-brandschutznorm-1-15de-bspub57]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brl-10-15-begriffe-definitionen]]
 ---
@@ -67,8 +67,14 @@ Nur was das Original tatsächlich nennt (keine Ergänzung):
 massgebend): Die Begriffs-Richtlinie 10-15de nennt unter Stichwort «Wohnbauten»
 (S. 35) ausdrücklich: «Als Wohnbauten gelten insbesondere Ein- und
 Mehrfamilienhäuser, Alterswohnungen und Appartementhäuser.» Alterswohnungen sind
-damit ausdrücklich der Nutzung «Wohnen» zugeordnet (BRL 16-15de Ziff. 3.2), nicht
-den Beherbergungsbetrieben. Für die Praxis: Betreutes Wohnen ohne
+damit ausdrücklich der Nutzung «Wohnbauten» zugeordnet (BRL 10-15de, Stichwort
+«Wohnbauten», S. 35), nicht den Beherbergungsbetrieben. Ob dies mit der
+Nutzungskategorie «Wohnen» in Ziff. 3.2 der BRL 16-15de (Flucht-/Rettungswege)
+deckungsgleich ist, wird im Quellenmaterial nicht ausdrücklich verknüpft
+(Alterswohnungen werden dort nicht genannt) — plausibel, aber nicht explizit
+belegt (Korrektur Retro-Verifikation Run 23, 25.07.2026: die vorherige Klammer
+«BRL 16-15de Ziff. 3.2» suggerierte einen Textbeleg, den es so nicht gibt). Für
+die Praxis: Betreutes Wohnen ohne
 Pflegeabhängigkeit ist nach dieser Fundstelle als Wohnbau zu behandeln; erst die
 Angewiesenheit auf fremde Hilfe bei 20 oder mehr Personen führt in Kategorie [a].
 Die Einzelfallwürdigung bleibt bestehen, aber neu mit dieser Fundstelle als

@@ -21,7 +21,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `sia-142-2009.md` | SIA 142 Ordnung Architektur-/Ingenieurwettbewerbe | 2009 | established (verifiziert 260714, 0 Fehler, Art. 29.2-29.3 + Genehmigung ergaenzt) |
 | `sia-143-2009.md` | SIA 143 Ordnung Architektur-/Ingenieurstudienaufträge | 2009 | established (verifiziert 260714, 0 Fehler, Genehmigung ergaenzt) |
 | `sia-400-2000.md` | SIA 400 Planbearbeitung im Hochbau (Linien/Schraffuren/Masse/CAD) | 2000/2001 | established (verifiziert 260714, 0 Fehler, Anhang C Normtext ergaenzt) |
-| `sia-410-1986.md` | SIA 410 Kennzeichnung von Installationen in Gebäuden – Sinnbilder für die Haustechnik (**Empfehlung**, nicht Norm; Kennzeichnung ist empfehlend) | 1978, Teilrevision 1986; Kap. 6 (MSR) 1993 | speculative — Run 22 (260725) neu destilliert, S. 1-36 vollständig; Verifikation offen. Bestandsfalle: dreisprachige Datei d/f/i im französischen Sprachordner (`alle/f/410_d_f_i.pdf`), war als «Sprachvariante» abgehakt und hatte keinen REGISTER-Eintrag |
+| `sia-410-1986.md` | SIA 410 Kennzeichnung von Installationen in Gebäuden – Sinnbilder für die Haustechnik (**Empfehlung**, nicht Norm; Kennzeichnung ist empfehlend) | 1978, Teilrevision 1986; Kap. 6 (MSR) 1993 | established — Run 23 (260725) adversarial geprüft, BEANSTANDET (systematischer Zitierfehler Positionsnummern 1.11ff. korrigiert + 4 kleinere Korrekturen), nach Korrektur gehoben. Bestandsfalle: dreisprachige Datei d/f/i im französischen Sprachordner (`alle/f/410_d_f_i.pdf`), war als «Sprachvariante» abgehakt und hatte keinen REGISTER-Eintrag |
 | `sia-416-2003.md` | SIA 416 Flächen und Volumen von Gebäuden | 2003 | established (verifiziert 260712) |
 | `sia-421-2006.md` | SIA 421 Raumplanung – Nutzungsziffern (GFZ/AZ/BMZ/ÜZ/GZ) | 2006 | established, verifiziert 260714 (Run 10) |
 | `sia-d0165-2000-kennzahlen-immobilienmanagement.md` | SIA D 0165 Kennzahlen im Immobilienmanagement (SIA/SVIT) | Juli 2000 | Teil-Destillat (nur 5-S.-Fragment S.14-17 gelesen; Vollversion 73 S. in xalt offen) |
@@ -29,7 +29,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `sia-723-2001.md` | SIA 723 Thermische Energie im Hochbau – NVB zur Norm SIA 380/1 | 2001 | established (verifiziert 260714, 24 Aussagen, bestanden) |
 | `vkf-brandschutznorm-2015.md` | VKF 1-15 Brandschutznorm | 2015 | established (verifiziert 260712) |
 | `vkf-brl-16-15-flucht-rettungswege.md` | VKF-BRL 16-15 Flucht- und Rettungswege | 2015 (rev. 2016) | established (verifiziert 260712) |
-| `vkf-brl-verwendung-baustoffe.md` | VKF-BRL 14-15 Verwendung von Baustoffen | 2015 | established (verifiziert 260712) |
+| `vkf-brl-verwendung-baustoffe.md` | VKF-BRL 14-15 Verwendung von Baustoffen | 2015 (Delta-Nachtrag Fassung 2017) | established (Basis verifiziert 260712); Delta-Abschnitt Fassung 2017 Run 23 (260725) adversarial geprüft BEANSTANDET, 5 lokale Korrekturen eingearbeitet, Delta-Sorgfaltsstufe speculative bis Re-Verifikation |
 | `vkf-brl-nachweisverfahren.md` | VKF-BRL 27-15 Nachweisverfahren im Brandschutz | 2015 | established (verifiziert 260712) |
 | `ral-gz638-2008.md` | RAL-GZ 638 Gitterroste | Sept. 2008 | established (verifiziert 260713 Mini-Run 15, 46 Aussagen, 6 Ergaenzungen; Q&A-Selbstbefragung Mini-Run 22 260714: 19/20 Fragen bestanden, 0 Fehler, 3 Ergaenzungen Treppenstufen-Lastanzahl/Einsteck-Durchsteckroste/Nachweisverfahren-Teilsicherheitsbeiwerte) |
 | `din-18041-2004.md` | DIN 18041 Hörsamkeit in kleinen bis mittelgrossen Räumen | Mai 2004 | established (verifiziert 260714, Tab.1 Zeile II + Anhang D Zuschlaege korrigiert, Anhang B/C ergaenzt, vollstaendig S.1-39/39; Q&A-Selbstbefragung Mini-Run 22: 21/21 Fragen bestanden, 0 neue Fehler, 2 Ergaenzungen Ziff. 4.2.1.1 + 4.5.3) |
@@ -75,7 +75,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `sia-264-2003.md` | SIA 264 Stahl-Beton-Verbundbau | 2003 | established (verifiziert 260712) |
 | `sia-265-2003.md` | SIA 265 Holzbau | 2003 | established (verifiziert 260712) |
 | `sia-266-2003.md` | SIA 266 Mauerwerk | 2003 | established (verifiziert 260712) |
-| `sia-266-1-2003.md` | SIA 266/1 Mauerwerk – Ergänzende Festlegungen (Prüf-/Deklarationsnorm) | 2003 | speculative — Run 22 (260725) neu destilliert, adversarial **BEANSTANDET**: 13 Befunde korrigiert + 9 Lücken nachgetragen; Re-Verifikation offen. Bestandsfalle: Datei liegt deutsch im italienischen Sprachordner (`alle/i/266_1_d.pdf`), war als «Sprachvariante» abgehakt |
+| `sia-266-1-2003.md` | SIA 266/1 Mauerwerk – Ergänzende Festlegungen (Prüf-/Deklarationsnorm) | 2003 | speculative — Run 22 (260725) neu destilliert, adversarial **BEANSTANDET**: 13 Befunde korrigiert + 9 Lücken nachgetragen. Run 23 (260725) ZWEITE Runde: alle Korrekturen bestätigt, EIN neuer Fehler (Figur-1 h/l vertauscht) gefunden + korrigiert; weiterhin BEANSTANDET, dritte Runde vor Statushebung noetig. Bestandsfalle: Datei liegt deutsch im italienischen Sprachordner (`alle/i/266_1_d.pdf`), war als «Sprachvariante» abgehakt |
 | `sia-267-2003.md` | SIA 267 Geotechnik | 2003 | established (verifiziert 260712) |
 | `sia-500-2009.md` | SIA 500 Hindernisfreie Bauten | 2009 | established (verifiziert 260712) |
 | `sia-358-2010.md` | SIA 358 Geländer und Brüstungen | 2010 | established (verifiziert 260712) |
@@ -119,7 +119,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vkf-brl-100-15-brandmauern.md` | VKF-Brandschutzerläuterung 100-15 Brandmauern | 2015 | established (verifiziert 260713; Duplikat `vkf-brl-brandmauern-100-15.md` gemerged und gelöscht 260713) |
 | `vkf-brl-11-15-qualitaetssicherung-brandschutz.md` | VKF-BRL 11-15 Qualitätssicherung im Brandschutz | 2015 | established (verifiziert) 260714 |
 | `vkf-brl-12-15-brandverhuetung-organisatorischer-brandschutz.md` | VKF-BRL 12-15 Brandverhütung und organisatorischer Brandschutz | 2015 | established (verifiziert) 260714 |
-| `vkf-brl-13-15-baustoffe-bauteile.md` | VKF-BRL 13-15 Baustoffe und Bauteile | 2015 | established |
+| `vkf-brl-13-15-baustoffe-bauteile.md` | VKF-BRL 13-15 Baustoffe und Bauteile | 2015 (Delta-Nachtrag Fassung 2017) | established (inkl. Delta-Abschnitt Fassung 2017, Run 23 260725 adversarial BESTANDEN, 0 Befunde) |
 | `vkf-brl-15-15-brandschutzabstaende-tragwerke.md` | VKF-BRL 15-15 Brandschutzabstände Tragwerke (deckt Ausgabe 2015 + Revision 2016 ab) | 2015, rev. 2016 | established (verifiziert) 260714 |
 | `vkf-brl-17-15-kennzeichnung-fluchtwege.md` | VKF-BRL 17-15 Kennzeichnung von Fluchtwegen | 2015 | established (verifiziert 260713) |
 | `vkf-brl-18-15-loescheinrichtungen.md` | VKF-BRL 18-15 Löscheinrichtungen | 2015 | established (verifiziert) 260714 |

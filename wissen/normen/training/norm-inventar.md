@@ -1,5 +1,14 @@
 # Norm-Inventar — Arbeitsliste des Nacht-Loops `normen-training-nacht`
 
+- **Run 23 (MacBook Pro, 260725) — Retro-Verifikation statt neuer Destillate.** Wie von Run 22
+  gefordert («Retro-Verifikation … das ist der nächste Lauf, bevor irgendeine neue Quelle angefasst
+  wird») hat dieser Lauf 5 Artefakte adversarial verifiziert (3x established gehoben: SIA 410,
+  VKF-BRL 13-15-Delta, VKF-Beherbergungskategorien; 2x speculative mit engerem Restaufwand: SIA
+  266/1, VKF-BRL 14-15-Delta) und die BRL-16-15-Diagnose zur S.15/16-Bildunterschrift korrigiert
+  (per `pdftotext`, nicht vertauscht zwischen Ziff. 2.4.3/2.4.4 wie zuvor angenommen). Keine neue
+  Datei destilliert — 0 offene `[ ]`-Positionen unverändert. Details `wiki/QUESTIONS.md` Abschnitt
+  "Run 23", Report `outputs/2026-07-25_normen-nacht-run23.md`.
+
 - **Quelle (bleibt SharePoint, nie kopieren):** `PL - 02_Recht_Norm/02_Normen/`
 - **Erstellt:** 11.07.2026 (automatischer Scan) · Status-Pflege durch den Loop
 - Status-Spalte: `[ ]` offen · `[x] JJMMTT` destilliert · `[~] JJMMTT` teil-destilliert (nur Auszug/Vorschau im Bestand, Volltext als Bring-Schuld offen) · `—` übersprungen (Grund in Bemerkung)

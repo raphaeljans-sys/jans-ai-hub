@@ -1,3 +1,19 @@
+## 2026-07-25 — Run 23 (MacBook Pro): Retro-Verifikation der 5 Run-22-Artefakte, BRL-16-15-Diagnose korrigiert
+- **Kein neues Destillat — Rueckstandsabbau gemaess Run-22-Auftrag.** 5 adversariale Refuter-Agenten
+  gegen die Original-PDFs: SIA 410 (Erstverifikation, BEANSTANDET → korrigiert → established),
+  VKF-BRL 13-15-Delta 2017 (Erstverifikation, BESTANDEN, 0 Befunde → established), VKF-BRL 14-15-Delta
+  2017 (Erstverifikation, BEANSTANDET → 5 lokale Korrekturen, bleibt speculative), SIA 266/1 (zweite
+  Runde, BEANSTANDET — 1 neuer Fehler in der Figur-1-Beschreibung: h/l vertauscht, Ausgleichsschicht-
+  Position korrigiert, bleibt speculative), VKF-Beherbergungskategorien (zweite Runde, BEANSTANDET —
+  1 unbelegte Fundstelle korrigiert → established).
+- **BRL 16-15, Diagnose zur S.15/16-Bildunterschrift selbst per `pdftotext` korrigiert** (nicht per
+  Agent): Die Bildunterschrift-Aenderung liegt auf **S. 15** (nicht 16 wie zuvor vermutet) und steht
+  in beiden Fassungen unter der Ueberschrift Ziff. 2.4.4 — **keine** Vertauschung zwischen Ziff.
+  2.4.3/2.4.4, sondern eine reine Umbenennung.
+- **Ergebnis:** 3 von 5 Artefakten jetzt `established`; SIA 266/1 (dritte Runde noetig) und VKF-BRL
+  14-15-Delta (kurze Re-Verifikation der 5 Korrekturen) bleiben offen fuer den naechsten Lauf.
+  Details `wiki/QUESTIONS.md` Abschnitt "Run 23", Report `outputs/2026-07-25_normen-nacht-run23.md`.
+
 ## 2026-07-25 — Run 22 (MacBook Pro): «KOMPLETT» war eine Messfehler-Kette — 2 unsichtbare Normen destilliert, 2 Destillate auf ueberholter Fassung, 11 QUESTIONS-Punkte geschlossen
 - **Keine achte Vollstaendigkeits-Bestaetigung, sondern Pruefung der MESSGROESSE.** «0 offene `[ ]`»
   plus «keine neuen Dateien» misst nur Datei-**Existenz** — nicht Klassierung, nicht Fassungsstand, nicht

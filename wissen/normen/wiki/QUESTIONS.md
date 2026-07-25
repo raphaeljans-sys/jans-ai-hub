@@ -1,5 +1,58 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
+## Run 23 (MacBook Pro, 25.07.2026) — Retro-Verifikation der 5 Run-22-Artefakte + BRL-16-15-Diagnosekorrektur
+
+**Ausgangslage.** Run 22 hatte fünf frische Artefakte hinterlassen, von denen nur drei eine erste
+Verifikationsrunde durchlaufen hatten (teils mit Korrekturbedarf), und einen offenen P1-Punkt zur
+BRL 16-15 (S. 16, «vertauschte Bildunterschrift»). Run 23 hat gemäss der PROGRAMM.md-Vorgabe
+(«Retro-Verifikation … das ist der nächste Lauf, bevor irgendeine neue Quelle angefasst wird») genau
+diesen Rückstand abgearbeitet — keine neue Quelle destilliert.
+
+**BRL 16-15, S. 15/16-Diagnose selbst korrigiert (per `pdftotext`, nicht per Agent).** Die bestehende
+Diagnose («vertauschte Bildunterschrift Ziff. 2.4.3 ↔ 2.4.4», S. 16) war doppelt falsch: Die
+Bildunterschrift liegt auf **S. 15**, und sie steht in **beiden** Fassungen unter der Überschrift
+Ziff. 2.4.4 — keine Vertauschung, sondern eine reine Umbenennung («Horizontaler Fluchtweg…» →
+«Gesamtlänge von Fluchtwegen…»). Korrigiert in `destillate/vkf-brl-16-15-flucht-rettungswege.md`.
+
+**5 adversariale Retro-Verify-Agenten (Hintergrund, gegen die Original-PDFs):**
+
+- [x] **SIA 410 (Erstverifikation):** BEANSTANDET → korrigiert → **established**. Systematischer
+  Zitierfehler: Positionsnummern der Grundsinnbild-Tabelle (S. 5) waren als Unterziffern «1.11.1» ff.
+  einer Ziffer 1.11 zitiert, tatsächlich sechs eigenständige Ziffern 1.11-1.16 (gleiches Muster bei
+  Ziff. 1.27/2.2/2.5/3.3/3.4 korrigiert). Kleinere Korrekturen: Seitenbereich, «Duschenwanne»,
+  «Abscheider» statt «Fettabscheider». Offen: Fussnoten-Marker «farbige*» (S. 5-6) ohne auffindbare
+  Erläuterung — in Offene Punkte vermerkt.
+- [x] **VKF-BRL 13-15 Delta 2017 (Erstverifikation):** BESTANDEN, 0 Befunde → **established**.
+- [x] **VKF-BRL 14-15 Delta 2017 (Erstverifikation):** BEANSTANDET → 5 lokale Korrekturen
+  eingearbeitet (Fussnote [2] Ziff. 3.3.2 Richtung war verdreht — Streichung statt Ergänzung;
+  Ziff. 3.3.1 Abs. 5/6 fälschlich «buchstabengleich»; Ziff. 2 Abs. 8 komplett übersehen; Ziff. 3.2.3
+  Abs. 1 übersehen; SN-EN-60065-Fassungsbezeichnung verkürzt zitiert; Ziff. 4.1 Abs. 7 mit
+  Fussnote [7] zu Ziff. 4.2 vermischt). Die drei praxisrelevantesten Kernbefunde (Ziff. 2 Abs. 3
+  cr-Ausnahmekatalog, Ziff. 5.1.2 Hochhaus-Wegfall, Ziff. 5.3 Normenwechsel) waren bereits korrekt.
+  Delta bleibt `speculative` bis kurzer Re-Verifikation der 5 Korrekturen.
+- [x] **SIA 266/1 (zweite Runde):** BEANSTANDET — alle 13+9 Korrekturen der ersten Runde bestätigt,
+  aber EIN neuer Fehler in der am 25.07. selbst nachgetragenen Figur-1-Beschreibung gefunden: h/l
+  war als «Prüfkörperhöhe/-länge» bezeichnet, tatsächlich gemäss Formel 1 (S. 9) h = Breite, l = Höhe
+  (Kraftrichtung) — vertauscht. Korrigiert; Ausgleichsschicht-Position präzisiert. Bleibt
+  `speculative`, dritte Runde erst nach dieser Korrektur sinnvoll (frisch nachgetragene Passagen
+  führen erfahrungsgemäss selbst neue Fehler ein).
+- [x] **VKF-Beherbergungskategorien (zweite Runde):** BEANSTANDET — alle 12 Korrekturen der ersten
+  Runde seitengenau bestätigt (physische PDF-Einzelseiten nachextrahiert). EIN neuer, lokal
+  begrenzter Befund: die Fundstelle «BRL 16-15de Ziff. 3.2» bei der Betreutes-Wohnen-Aussage war
+  unbelegt (Ziff. 3.2 nennt «Alterswohnungen» nirgends; die Aussage stützt sich korrekt nur auf
+  BRL 10-15de S. 35). Korrigiert, Verknüpfung als «plausibel, nicht explizit belegt» markiert.
+  Nach Korrektur auf **established** gehoben.
+
+**Ergebnis:** 3 von 5 Artefakten jetzt `established` (SIA 410, VKF-BRL 13-15-Delta,
+VKF-Beherbergungskategorien), 2 bleiben `speculative` mit engerem Restaufwand (SIA 266/1 dritte
+Runde; VKF-BRL 14-15-Delta kurze Re-Verifikation der 5 Korrekturen).
+
+**Neu offen für den nächsten Lauf:**
+1. VKF-BRL 14-15-Delta: kurze Re-Verifikation der 5 in Run 23 eingearbeiteten Korrekturen.
+2. SIA 266/1: dritte, unabhängige Verifikationsrunde nach der Figur-1-Korrektur.
+3. Entscheid PL-03 (aus Run 22 weiterhin offen, siehe unten) — nicht selbst entschieden.
+4. Bring-Schulden (aus Run 22 weiterhin offen, siehe unten) — nicht ohne Beschaffung schliessbar.
+
 ## Run 22 (MacBook Pro, 25.07.2026) — Rückstands-Abbau statt achter Vollständigkeits-Bestätigung
 
 **Ausgangslage.** Die Runs 15-21 haben SIA/VKF sieben Mal in Folge als «komplett» gemeldet, Run 21
