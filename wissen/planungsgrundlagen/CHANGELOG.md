@@ -2,6 +2,17 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 — Training Run 70 (Recht/Norm + Brandschutz, Token-Vollgas): Frischecheck 0 neue Dateien seit Run 68
+Rotation Recht & Norm (PL-02) + Brandschutz (PL-03) nach Run 69. Datei-Frischecheck (`find
+-newer` gegen den Run-68-Report-Zeitstempel, dem letzten vollstaendigen Dateinamens-Diff dieser
+beiden Domaenen): **0 neue oder veraenderte Dateien** in beiden SharePoint-Ordnern seit Run 68.
+Damit bestaetigt dieser Lauf den Nullbefund aus Run 69 (Kartenportale+Energie) jetzt auch fuer
+die zweite Domaenenhaelfte — alle vier Domaenen sind nach der Frischecheck-Methode deckungsgleich
+ausgeschoepft. Die zwei verbleibenden offenen QUESTIONS-Punkte (D9, M4) bleiben unveraendert,
+beide domaenenfremd fuer diesen Turnus. Bewusst keine kuenstlichen Zusatzfragen erzeugt. Empfehlung
+aus Run 69 (Umstellung auf ereignisgetriebenen Modus) wird wiederholt protokolliert, nicht
+eigenmaechtig umgesetzt. → `outputs/2026-07-25_training-run70.md`
+
 ## 2026-07-25 — Training Run 69 (Kartenportale + Energie, Token-Vollgas): Frischecheck 0 neue Dateien, MuKEn-ZH-Refresh unveraendert
 Rotation zurueck auf Kartenportale (PL-01) + Energie (PL-04) nach Run 68. Statt eines weiteren
 Dateinamens-Diffs (bereits Run 67 vollstaendig gelaufen) diesmal ein **Datei-Frischecheck**
