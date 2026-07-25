@@ -8,7 +8,7 @@ paragraphen: ["Art. 4 WEG", "Art. 5 WEG", "Art. 15 RPG", "Art. 19 RPG", "Art. 14
 status: emerging
 gelesen: 2026-07-02
 last_updated: 2026-07-13
-verifiziert: 2026-07-13 (Modell-D-Volltextabgleich §§ 90-95/96-101/106/111/114-122 PBG gegen raw/260607_amtlich_zh_pbg.md); § 62 StrG nachträglich volltextverifiziert 2026-07-14 (Buch-Run 40, Nachziehen Wiki→Destillat-Divergenz, gegen raw/260713_amtlich_zh_strg.md) — Buch-Angabe «kommunal ¼-½, kantonal max. ¼» im Gesetzeswortlaut NICHT bestätigt, siehe Korrektur unten
+verifiziert: 2026-07-13 (Modell-D-Volltextabgleich §§ 90-95/96-101/106/111/114-122 PBG gegen raw/260607_amtlich_zh_pbg.md); § 62 StrG nachträglich volltextverifiziert 2026-07-14 (Buch-Run 40, Nachziehen Wiki→Destillat-Divergenz, gegen raw/260713_amtlich_zh_strg.md) — Buch-Angabe «kommunal ¼-½, kantonal max. ¼» im Gesetzeswortlaut NICHT bestätigt, siehe Korrektur unten; Fassungsstand § 62 StrG erneut geprüft 2026-07-25 (Buch-Run 53, Festigungsmodus) gegen aktuellen Nachtrag 133 (Stand 1.7.2026) — §§ 59-64 wortgleich unverändert seit Nachtrag 109, keine Korrektur nötig
 ---
 
 # Kap. 3 — Erschliessung, Landsicherung und Landumlegung (Teil 1)

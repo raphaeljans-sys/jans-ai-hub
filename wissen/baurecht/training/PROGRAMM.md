@@ -113,6 +113,26 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 53 (2026-07-25, Festigungsmodus, MacBook Pro, Fassungsstand-Sammelcheck — kein Agent-
+    Fan-out):** Priorität (a) geprüft und bereits geschlossen vorgefunden (Anhang 6 LSV = Run 51,
+    WsG/WsV-Nachzug = Run 50) → direkt zu Priorität (b) übergegangen. **Sechs kantonale Erlasse
+    live gegen zhlex.zh.ch geprüft** (effiziente Methode: `curl -sIL` auf
+    `zhlex.zh.ch/Erlass.html?Open&Ordnr=<LS>` liest den aktuellen Nachtrag aus dem Location-Header,
+    ohne PDF-Download): **ABV (LS 700.2, Nachtrag 127), BBV I (700.21, 133), BBV II (700.22, 097),
+    BVV (700.6, 133), KNHV (702.11, 130) — alle fünf ohne Drift**, KB-Rohquellen-Nachtragsnummern
+    stimmen exakt. **StrG (LS 722.1): Drift gefunden** — die KB-Rohquelle `raw/260713_amtlich_zh_
+    strg.md` (13.07.2026) hatte eine bereits damals archivierte zhlex-Fassung (Nachtrag 109, Stand
+    1.7.2020) bezogen statt der zum Abrufzeitpunkt aktuellen; aktuell ist **Nachtrag 133** (Stand
+    1.7.2026). **Volltextvergleich §§ 59-64 StrG (PDF Nachtrag 133 vs. Nachtrag 109): wortgleich
+    unverändert** — die Zwischenrevisionen 113/117/133 betrafen andere Gesetzesteile, nicht Kapitel
+    VII (Schlussbestimmungen). **0 materielle Korrektur nötig**, die bestehende § 62-StrG-Analyse
+    (Run 36/40: kein kommunal/kantonal-Split, max. ½ Wertvermehrung/¾ Kosten, max. ½ Trottoir-
+    Kosten) bleibt gültig. Fassungsstand-Prüfvermerk ergänzt in `raw/260713_amtlich_zh_strg.md` +
+    `verifiziert`-Feld in `buecher/band-1/03-erschliessung-landsicherung-teil1.md`. **0
+    Halluzinationen**, 2 neue Drill-Karten (Modell D). Report `outputs/2026-07-25_buch-run53.md`.
+    **«Rückstand abgebaut» NICHT ausgerufen** (Leitplanke): weitere kantonale Erlasse (EnerG, WsG/
+    WsV, PPV Stadt Zürich als Gemeinderecht) sind noch nicht in diesem Zyklus (Run 52/53) auf
+    zhlex-Aktualität geprüft; der periodische Fassungsstand-Check bleibt eine Daueraufgabe.
   - **Run 52 (2026-07-25, Modell D, MacBook Pro, Fassungsstand-Check — kein Agent-Fan-out, VOLLGAS-
     Einzellauf):** Priorität (b) des Festigungsmodus: **LSV-Novelle 01.04.2026** (offener needs-
     verification-Flag Wissens-Chef Run 14, 24.07.2026) an der amtlichen Fedlex-Quelle geklärt.

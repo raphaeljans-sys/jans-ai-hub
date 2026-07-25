@@ -1768,3 +1768,31 @@ neu erfasst; neuer Wiki-Abschnitt «Industrie- und Gewerbelärm» in
 [[laermschutz-und-nichtionisierende-strahlung]]. **0 Korrekturen, 0 Halluzinationen** — reine
 Lückenschliessung, das bestehende Destillat (Fahrzeugabstellplätze) zitierte Anhang 6 bereits
 korrekt. QUESTIONS-Flag geschlossen. Report `outputs/2026-07-24_buch-run51.md`.
+
+- **H (Modell D · Fassungsstand-Gegenprobe Run 53):** Die Raw-Quelle für § 62 StrG
+  (Mehrwertbeiträge, `raw/260713_amtlich_zh_strg.md`) wurde am 13.07.2026 von einer bereits damals
+  **archivierten** zhlex-Fassung (Nachtrag 109, Stand 1.7.2020) abgeschrieben, nicht von der zum
+  Abrufzeitpunkt aktuellen Fassung. Ist die im Wiki zitierte Regel (§ 62 lit. c/d StrG: max. ½
+  Wertvermehrung/¾ Kosten bzw. max. ½ Trottoir-Kosten) deshalb überholt? — **A:** **Nein** — direkter
+  Volltextvergleich des aktuellen Nachtrags 133 (Stand 1.7.2026) gegen den Nachtrag-109-Text ergibt
+  §§ 59-64 StrG **wortgleich unverändert**. Die zwischenzeitlichen Nachträge 113/117/133 haben andere
+  Teile des Gesetzes revidiert, nicht Kapitel VII (Schlussbestimmungen). **Lehre:** ein archivierter
+  Fassungsstand ist nicht automatisch ein Fehler — er muss aber explizit gegen die aktuelle Fassung
+  geprüft und das Ergebnis dokumentiert werden, statt stillschweigend als aktuell zu gelten. Beleg:
+  `raw/260713_amtlich_zh_strg.md` (Abschnitt «Fassungsstand-Prüfung 2026-07-25»). _[2026-07-25]_
+- **I (Modell D · Fassungsstand-Sammelcheck Run 53):** Sind ABV (LS 700.2), BBV I (LS 700.21),
+  BBV II (LS 700.22), BVV (LS 700.6) und KNHV (LS 702.11) in der KB auf dem aktuellen zhlex-Stand
+  (Stand 25.07.2026)? — **A:** **Ja, alle fünf** — Nachtrag-Nummern der KB-Rohquellen (127/133/097/
+  133/130) stimmen exakt mit den über zhlex.zh.ch abgerufenen aktuellen Fassungen überein, kein
+  Drift gefunden. Effiziente Prüfmethode: `curl -sIL "https://www.zhlex.zh.ch/Erlass.html?Open&Ordnr=<LS-Nr>"`
+  liefert im Location-Header den aktuellen Nachtrag als Zahlenendung der Ziel-URL, ohne das PDF
+  laden zu müssen — geeignet für einen schnellen Fassungsstand-Sweep über mehrere Erlasse in einem
+  Lauf. _[2026-07-25]_
+
+**Ergebnis Buch-Run 53 (Festigungsmodus, Fassungsstand-Sammelcheck):** sechs kantonale Erlasse
+(ABV/BBV I/BBV II/BVV/KNHV/StrG) live gegen zhlex.zh.ch geprüft. **Fünf ohne Drift.** Bei **StrG**
+war die KB-Rohquelle (Nachtrag 109) gegenüber dem aktuellen Nachtrag 133 veraltet zitiert —
+Volltextvergleich §§ 59-64 zeigt **0 materielle Abweichungen** (Kapitel VII unverändert). Ergänzt:
+Fassungsstand-Prüfvermerk in `raw/260713_amtlich_zh_strg.md` + `verifiziert`-Feld in
+`buecher/band-1/03-erschliessung-landsicherung-teil1.md`. **0 Halluzinationen, 0 inhaltliche
+Korrekturen**, 2 neue Drill-Karten (Modell D). Report `outputs/2026-07-25_buch-run53.md`.

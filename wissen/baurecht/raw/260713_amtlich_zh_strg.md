@@ -200,3 +200,19 @@ Zahlenbild:
 Es findet sich **kein** eigener kommunal/kantonal-Split mit den Werten ¼-½/¼ im
 Gesetzeswortlaut selbst — diese Unterscheidung existiert so im § 62 StrG nicht. Die
 Buch-Angabe ist damit im amtlichen Wortlaut **nicht bestätigt** (KORRIGIERT).
+
+## Fassungsstand-Prüfung 2026-07-25 (Buch-Run 53, Festigungsmodus)
+
+Diese Datei bezog am 2026-07-13 eine **bereits damals veraltete** zhlex-Archivseite
+(`erlass-722_1-1981_09_27-1983_01_01-109.html`, PDF-Fussnote «1.7.20 - 109»). Der
+aktuelle Fassungsstand auf zhlex ist **Nachtrag 133** (Fussnote «1. 7. 26 - 133»,
+`https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-722_1-1981_09_27-1983_01_01-133.html`,
+PDF `722.1_27.9.81_133.pdf`). Direkter Volltextvergleich §§ 59-64 (PDF-Nachtrag 133
+gegen den oben abgeschriebenen Nachtrag-109-Text) durchgeführt: **§§ 59-64, insbesondere
+§ 62 lit. a-l, sind wortgleich unverändert** (½ Wertvermehrung / ¾ Kosten in lit. c,
+½ Trottoir-Kosten in lit. d, 15-Jahres-Frist in lit. g — alle Werte identisch). Die
+Zwischenrevisionen Nachtrag 113/117/133 haben andere Teile des StrG geändert, nicht
+Kapitel VII (Schlussbestimmungen). **Ergebnis: 0 materielle Korrekturen nötig** — die
+obige Einordnung für `baulinien-und-abstandslinien.md` bleibt gültig. Nur die
+Quellenangabe oben (Zeile 5/7) ist als historischer Abrufstand zu lesen; für künftige
+Zitate gilt Nachtrag 133 als aktueller Fassungsnachweis.

@@ -4,6 +4,18 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-25 — Buch-Run 53 (Festigungsmodus, Fassungsstand-Sammelcheck kantonaler Erlasse)
+- [pruefung] Sechs kantonale Erlasse live gegen zhlex.zh.ch geprueft (ABV LS 700.2, BBV I 700.21,
+  BBV II 700.22, BVV 700.6, KNHV 702.11, StrG 722.1). Fuenf ohne Drift bestaetigt.
+- [befund] `raw/260713_amtlich_zh_strg.md` zitierte eine bereits beim Abruf (13.07.2026)
+  archivierte zhlex-Fassung (Nachtrag 109, Stand 2020) statt der damals aktuellen; aktuell ist
+  Nachtrag 133 (Stand 1.7.2026). Volltextvergleich §§ 59-64 StrG: **wortgleich unveraendert** —
+  0 materielle Korrektur, die bestehende § 62-StrG-Analyse (Run 36/40) bleibt gueltig.
+- [ergaenzung] Fassungsstand-Pruefvermerk in `raw/260713_amtlich_zh_strg.md`; `verifiziert`-Feld
+  in `buecher/band-1/03-erschliessung-landsicherung-teil1.md` nachgezogen.
+- [drill] 2 neue Karten (Modell D) in `training/drills.md`; Tracker-Eintrag in
+  `training/PROGRAMM.md`. Report `outputs/2026-07-25_buch-run53.md`.
+
 ## 2026-07-25 — Wissens-Chef Run 15 (Cross-KB): SIA-181-Hinlink + IVHB-Teilantwort + PBG-Revisions-Luecke
 - **SIA-181-Fundstelle nachgezogen (Rule `normen-referenz`):** `wiki/laermschutz-und-nichtionisierende-strahlung.md` nannte SIA 181 dreimal materiell ohne Verweis auf das fuehrende Destillat → Verweis auf `wissen/normen/destillate/sia-181-2006.md` inkl. Fassungsvorbehalt SIA 181:2020 gesetzt.
 - **Teil-Antwort zum offenen Fassungs-Punkt (QUESTIONS §§ nABV/nPBG):** die KB `planungsgrundlagen` haelt das Destillat des amtlichen IVHB-Leitfadens der Baudirektion ZH (1.3.2017, 29 Begriffe) — in dieser KB `grep «ivhb-baubegriffe»`: 0 Treffer. Als Teil-Antwort im QUESTIONS-Punkt vermerkt, reziprok verlinkt (die Anwendungshilfe ersetzt den Abgleich am geltenden Erlass nicht).
