@@ -1,5 +1,26 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-25 — Trainingslauf 33 (Verifikationslauf)
+- Output `outputs/2026-07-25_training-run33.md`. Keine neue reale Spec seit Lauf 24 (SYN-02);
+  Lauf 32 war bereits Verifikation, dieselbe Lage besteht fort.
+- **P1 (mail@-Blindfleck `ag-gruendung-monitor`) hält weiter:** SKILL.md-mtime unverändert
+  21.07.2026 07:49; `fristen.md` (aktualisiert 19:00) bestätigt denselben Stand (UBS 29 Tage
+  ohne Antwort, Einzahlungstermin Mitte August gefährdet).
+- **Neuer Befund:** sechs Verifikationsläufe (28–33) allein am 25.07.2026 ohne neuen
+  methodischen Beleg — strukturell ähnlich dem bereits dokumentierten Fall
+  `immobewertung-training` (KB saturiert/Taktreduktion). Vorschlag (nicht autonom
+  umgesetzt): `spec-training` innerhalb der VOLLGAS-Rotation an ein Ereignis binden (neue
+  reale Spec ODER Bewegung in der UBS-Strecke) statt an reinen Zeittakt — Entscheid bei
+  Raphael.
+- Environment-Zählstand-Stichprobe (49 Skills, 22 Rules, 16 KBs) identisch zu Läufen
+  26–32 — kein voller Sweep fällig.
+- **Bewusst nicht getan:** kein erfundenes F1-Überdehnungsbeispiel; keine Rule-/Skill-/
+  Wiki-Änderung ohne neuen methodischen Beleg; keine eigenmächtige Taktreduktion; kein
+  Mailversand.
+- Offen: F1-Überdehnungs-Gegentest unbelegt; F3 Marketing/Text letzte offene
+  Domänenzeile; UBS-Strecke 29 Tage überfällig; Taktreduktionsvorschlag Raphael
+  vorzulegen.
+
 ## 2026-07-25 — Trainingslauf 32 (Verifikationslauf)
 - Output `outputs/2026-07-25_training-run32.md`. Keine neue reale Spec seit Lauf 24 (SYN-02);
   Lauf 31 war bereits Verifikation, dieselbe Lage besteht fort.
