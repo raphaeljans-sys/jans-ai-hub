@@ -1311,3 +1311,45 @@ mit echten Umlauten (bewährtes Run-86-Muster gegen den Umlaut-Bug).
   über GVZ-Weisung zitiert, nicht eigenständig verifiziert. SNR 464022 (Blitzschutz-Ausführungsdetails)
   weiterhin nicht volltextlich gelesen. Kt. Schwyz: keine eigene Vollzugsweisung zu Blitzschutzsystemen
   gefunden (materielle Pflicht gilt trotzdem identisch).
+
+## Run 93 (2026-07-25) — vier parallele Rechercheagenten, Run-92-Prioritätenliste abgearbeitet
+
+- [x] **GVZ-PDF `21photovoltaikanlagen-doku-pm.pdf` erfolgreich per curl+pdftotext gelesen** ✓
+  2026-07-25: kein Fliesstext-Merkblatt, sondern ein 1-seitiges Feuerwehr-Dokumentationsformular
+  (Stand April 2021, Legende inkl. Batterien); dahinterliegende Pflicht im VKF-BSM «Solaranlagen»
+  2001-15de Ziff. 4 gefunden (Orientierungsplan/Strangplan an Feuerwehr) + neue Ziff.-3.3-Anforderung
+  (Hagel-/Windwiderstand SIA 261/261-1) → `[[gvz-photovoltaik-melde-versicherungspflicht]]` (neu,
+  established), FAQ **F123** neu. Löst den Run-92-Auftrag «dedizierter PDF-Textextraktor».
+- [x] **VKF-Richtlinie «Gefährliche Stoffe» Ziff. 3.5.3 selbst beschafft** ✓ 2026-07-25:
+  Primärdokument (26-15de, Ausg. 01.04.2026) im Volltext gelesen (27 S., curl+pdftotext) —
+  **Sekundärzitat widerlegt**: Ziffer 3.5.3 «Blitzschutzsystem» regelt nur Mengenschwellen für
+  brennbare Gase/Flüssigkeiten/Reifenlager/Pyrotechnik (Buchstaben a-d), KEINE Buchstaben e/f,
+  KEINE Batteriespeicher-Erwähnung im ganzen Dokument → `[[vkf-richtlinie-gefaehrliche-stoffe]]`
+  (neu, established), FAQ **F124** neu. Vermutlich richtige Quelle für Batteriespeicher: Richtlinie
+  22-15 selbst (weiterhin nicht im Volltext geprüft) + VKF-Lithium-Ionen-Infoblatt (neu offen).
+- [x] **CH-amtliche Glas-g-Wert-Tabelle je Himmelsrichtung gefunden — als primärquellenbestätigter
+  Negativbefund** ✓ 2026-07-25: zwei Minergie-Primärquellen (Broschüre «Sommerlicher Wärmeschutz»
+  2022 + Anwendungshilfe Gebäudestandards 2025-2, beide curl+pdftotext) zeigen, dass der Glas-g-Wert
+  in der offiziellen CH-Nachweismethodik methodisch orientierungsunabhängig gerechnet wird (Kap.
+  6.3.8: gleicher g-Wert 50 % für Süd/West/Nord) — nur g_tot (SIA 180) ist orientierungsabhängig.
+  g-Wert-Bandbreiten je Verglasungstyp jetzt über vier CH-Quellen konsistent belegt (45-62 %
+  Wärmeschutz, 13-40 % Sonnenschutzglas) → `[[glas-g-wert-verglasungstypen-ch]]` (neu, established),
+  `[[fenster-uw-g-wert-zielkonflikt]]` auf established gehoben, FAQ **F125** neu. Schliesst den seit
+  Run 92/A5 offenen Punkt vollständig.
+- [x] **Massivbau-CO2-Gegenzahl zu Lignumdata-Holzbau gefunden** ✓ 2026-07-25: zwei Schweizer
+  Primärquellen (EPD «Backsteine SwissModul» Ziegelindustrie 2017 + treeze/Stadt-Zürich-Ökobilanz
+  Betonsorten 2016, beide curl+pdftotext vollständig gelesen) liefern reale absolute kg-CO2-eq/m²-
+  Werte: Backstein-Vollwand 35-52, unbewehrte Betonwand 46-69 — beide bereits ohne Dämmung/Putz/
+  Bewehrung über dem kompletten Holzbau-Wandaufbau (25-34) → `[[kbob-massivbau-bauteilaufbau-co2]]`
+  (neu, established), `[[graue-energie]]` ergänzt, FAQ **F126** neu. Werte sind eigene, offengelegte
+  Umrechnung (Dichte×Wanddicke aus Quelle), kein direktes Massivbau-Bauteildatenblatt gefunden
+  (bauteilkatalog.ch weiterhin PRO-paywalled, bestätigter Negativbefund).
+- **B1-Konsolidierung und SIA-2024-Gesundheitsbau-Zwilling weiterhin bewusst nicht angegangen** —
+  unverändert Rückfrage-würdig (destruktive Restrukturierung, Rule `wissens-bibliothekar`).
+- **Neu offen:** VKF-Richtlinie 22-15 «Blitzschutzsysteme» im Volltext beschaffen und speziell auf
+  Batteriespeicher-Mengenschwellen prüfen; VKF-Brandschutzinformationsblatt Lithium-Ionen-
+  Batteriespeicher + FAQ 2005-01 (LFP) im Volltext beschaffen; ob/wie das GVZ-PV-Formular formal an
+  die Versicherungsprämien-/Wertvermehrungsmeldung gekoppelt ist, direkt bei der GVZ nachfragen;
+  Massivbau-Bauteildatenblatt mit vollem Schichtplan (Dämmung+Putz in einem Dokument) bleibt offen
+  (eco-bau/KBOB direkt anfragen oder bauteilkatalog.ch-PRO-Zugang); SNR 464022
+  (Blitzschutz-Ausführungsdetails) weiterhin nicht volltextlich gelesen.

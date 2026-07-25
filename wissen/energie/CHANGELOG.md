@@ -2,6 +2,37 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 93: komplette Run-92-Prioritätenliste abgearbeitet, vier neue/geschärfte Themen
+- **GVZ-PDF `21photovoltaikanlagen-doku-pm.pdf` erfolgreich per curl+pdftotext gelesen** (löst den
+  Run-92-Auftrag): kein Fliesstext-Merkblatt, sondern Feuerwehr-Dokumentationsformular (Legende
+  inkl. Batterien); dahinterliegende Pflicht im VKF-BSM «Solaranlagen» 2001-15de Ziff. 4
+  (Orientierungsplan/Strangplan an Feuerwehrkommando) + neue Ziff.-3.3-Anforderung (Hagel-/
+  Windwiderstand SIA 261/261-1) → `[[gvz-photovoltaik-melde-versicherungspflicht]]` (neu,
+  established), FAQ F123 neu.
+- **VKF-Richtlinie «Gefährliche Stoffe» Ziff. 3.5.3 selbst beschafft und Sekundärzitat widerlegt:**
+  Ziffer 3.5.3 regelt nur Blitzschutz-Mengenschwellen für brennbare Gase/Flüssigkeiten/Reifenlager/
+  Pyrotechnik (Buchstaben a-d) — keine Buchstaben e/f, keine Batteriespeicher-Erwähnung im gesamten
+  Dokument → `[[vkf-richtlinie-gefaehrliche-stoffe]]` (neu, established), FAQ F124 neu.
+- **CH-amtliche Glas-g-Wert-Tabelle je Himmelsrichtung — primärquellenbestätigter Negativbefund:**
+  Minergie-Anwendungshilfe 2025-2 (Kap. 6.3.8) rechnet den Glas-g-Wert methodisch
+  orientierungsunabhängig, nur g_tot (SIA 180) ist orientierungsabhängig; g-Wert-Bandbreiten je
+  Verglasungstyp über vier CH-Quellen konsistent belegt (45-62 % Wärmeschutz, 13-40 %
+  Sonnenschutzglas) → `[[glas-g-wert-verglasungstypen-ch]]` (neu, established),
+  `[[fenster-uw-g-wert-zielkonflikt]]` auf established gehoben, FAQ F125 neu — schliesst
+  Curriculum-Punkt A5 vollständig ab.
+- **Massivbau-CO2-Gegenzahl zu Lignumdata-Holzbau:** zwei Schweizer Primärquellen (Ziegelindustrie-
+  EPD 2017, treeze/Stadt-Zürich-Betonökobilanz 2016) liefern reale absolute kg-CO2-eq/m²-Werte —
+  Backstein-Vollwand 35-52, unbewehrte Betonwand 46-69, beide bereits ohne Dämmung/Putz/Bewehrung
+  über dem kompletten Holzbau-Wandaufbau (25-34) → `[[kbob-massivbau-bauteilaufbau-co2]]` (neu,
+  established), `[[graue-energie]]` ergänzt, FAQ F126 neu.
+- FAQ-Stand: **F1–F126** (vier neue Fragen F123-F126). Register nachgeführt: `destillate/INDEX.md`
+  (vier neue Zeilen), `wiki/INDEX.md`, `wiki/QUESTIONS.md`, `wiki/BAUHERREN-FAQ.md`,
+  `training/curriculum.md` (D63, A5 final abgeschlossen), `raw/_INGESTED.md`.
+- Bewusst nicht angegangen: B1-Destillate-INDEX-Konsolidierung, SIA-2024-Gesundheitsbau-Zwilling
+  (beide destruktiv, Rückfrage bei Raphael nötig). Neu offen: VKF-Richtlinie 22-15 im Volltext +
+  Lithium-Ionen-Infoblatt (Batteriespeicher-Mengenschwellen), GVZ-Formular-Versicherungskopplung,
+  Massivbau-Bauteildatenblatt mit vollem Schichtplan, SNR 464022.
+
 ## 2026-07-25 — Run 92: VKF-Richtlinie 22-15 + GVZ-Prämienformel primärquellen-verifiziert, zwei neue Themen
 - **VKF-Richtlinie 22-15 «Blitzschutzsysteme» selbst beschafft** (frühere Fehltreffer-Richtlinie
   23-03d korrigiert): neunteilige Tabelle wer grundsätzlich blitzschutzpflichtig ist, JANS-Healthcare-

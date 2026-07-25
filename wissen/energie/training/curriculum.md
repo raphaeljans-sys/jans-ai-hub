@@ -133,8 +133,12 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   Artikel Uw/g-Wert belegt 2026-07-25 (Run 92)** — SIA-180-g_tot-Grenze orientierungsabhaengig (Nord
   ≤0,20/fg, alle uebrigen Fassaden inkl. Ost/West gleich streng wie Sued ≤0,07/fg), Sonnenschutzglas-
   vs-Storen-Tradeoff (Faktor 4-5 innen/aussen), CH-Stundenkriterium statt DE-Kelvinstunden-Methode
-  → `[[fenster-uw-g-wert-zielkonflikt]]`, FAQ F121 neu. **A5 damit vollstaendig** (offen bleibt nur:
-  CH-amtliche Tabelle fuer reinen Glas-g-Wert je Himmelsrichtung ohne Storen).
+  → `[[fenster-uw-g-wert-zielkonflikt]]`, FAQ F121 neu. **Glas-g-Wert-Frage geschlossen 2026-07-25
+  (Run 93)** — primärquellenbestätigter Negativbefund via Minergie-Anwendungshilfe 2025-2 Kap. 6.3.8:
+  Glas-g-Wert wird methodisch orientierungsunabhängig gerechnet, nur g_tot (SIA 180) ist
+  orientierungsabhängig; g-Wert-Bandbreiten je Verglasungstyp ueber vier CH-Quellen belegt
+  → `[[glas-g-wert-verglasungstypen-ch]]`, FAQ F125 neu, Artikel auf established gehoben. **A5
+  damit wirklich vollstaendig abgeschlossen — keine offenen Punkte mehr.**
 - [x] A6 CLT/Holzbau-Bauphysik — belegt 2026-06-11 via Stora-Enso-Doku Kap. 1-3 (Waerme λ 0,12 /
   Luftdicht folienfrei n₅₀ 0,6 / Feuchte s_d feuchtevariabel) → `[[holzbau-bauphysik-clt]]`,
   `[[clt-bauphysik-stora-enso]]` (FAQ F15). **Bauteilkatalog Kap. 4 belegt 2026-06-12** (Aussenwand
@@ -1027,3 +1031,32 @@ Verfahrensstand unverändert. FAQ-Stand jetzt **F1–F105**. Details: `outputs/2
   `[[kbob-bauteilkatalog-co2-je-aufbau]]` (neu, established), FAQ **F122** neu. FAQ-Stand: **122
   Kernfragen (F1-F122) belegt.** B1-Konsolidierung und SIA-2024-Zwilling weiterhin bewusst nicht
   angegangen (destruktiv, Rückfrage nötig).
+
+- **D63 (Run 93, 2026-07-25)** — PDF-Inventar weiterhin erschöpft seit Run 65 (bestätigt). Vier
+  parallele Sonnet-Rechercheagenten arbeiten die komplette «Nächster Lauf»-Prioritätenliste aus
+  Run 92 ab. **GVZ-PDF `21photovoltaikanlagen-doku-pm.pdf` erfolgreich per curl+pdftotext gelesen**
+  (löst den Run-92-Auftrag): kein Fliesstext-Merkblatt, sondern ein Feuerwehr-Dokumentationsformular
+  (Legende inkl. Batterien); dahinterliegende Pflicht im VKF-BSM «Solaranlagen» 2001-15de Ziff. 4
+  (Orientierungsplan/Strangplan an Feuerwehrkommando) + neue Ziff.-3.3-Anforderung (Hagel-/
+  Windwiderstand SIA 261/261-1) → `[[gvz-photovoltaik-melde-versicherungspflicht]]` (neu,
+  established), FAQ **F123** neu. **VKF-Richtlinie «Gefährliche Stoffe» Ziff. 3.5.3 selbst
+  beschafft:** Primärdokument (26-15de) im Volltext gelesen — **Sekundärzitat widerlegt**, Ziffer
+  3.5.3 regelt nur Blitzschutz-Mengenschwellen für Gase/Flüssigkeiten/Reifenlager/Pyrotechnik
+  (Buchstaben a-d), keine Buchstaben e/f, keine Batteriespeicher-Erwähnung im Dokument →
+  `[[vkf-richtlinie-gefaehrliche-stoffe]]` (neu, established), FAQ **F124** neu. **CH-amtliche
+  Glas-g-Wert-Tabelle je Himmelsrichtung — primärquellenbestätigter Negativbefund:** zwei
+  Minergie-Primärquellen zeigen, dass der Glas-g-Wert methodisch orientierungsunabhängig gerechnet
+  wird (Kap. 6.3.8 Anwendungshilfe 2025-2), nur g_tot (SIA 180) ist orientierungsabhängig; g-Wert-
+  Bandbreiten je Verglasungstyp über vier CH-Quellen konsistent belegt (45-62 % Wärmeschutz, 13-40 %
+  Sonnenschutzglas) → `[[glas-g-wert-verglasungstypen-ch]]` (neu, established),
+  `[[fenster-uw-g-wert-zielkonflikt]]` auf established gehoben, FAQ **F125** neu — **schliesst A5
+  vollständig**. **Massivbau-CO2-Gegenzahl zu Lignumdata-Holzbau:** zwei Schweizer Primärquellen
+  (Ziegelindustrie-EPD 2017, treeze/Stadt-Zürich-Betonökobilanz 2016) liefern reale absolute
+  kg-CO2-eq/m²-Werte — Backstein-Vollwand 35-52, unbewehrte Betonwand 46-69, beide bereits ohne
+  Dämmung/Putz/Bewehrung über dem kompletten Holzbau-Wandaufbau (25-34) →
+  `[[kbob-massivbau-bauteilaufbau-co2]]` (neu, established), `[[graue-energie]]` ergänzt, FAQ
+  **F126** neu. FAQ-Stand: **126 Kernfragen (F1-F126) belegt.** B1-Konsolidierung und
+  SIA-2024-Zwilling weiterhin bewusst nicht angegangen (destruktiv, Rückfrage nötig). Neu offen:
+  VKF-Richtlinie 22-15 im Volltext + Lithium-Ionen-Infoblatt (Batteriespeicher-Mengenschwellen),
+  GVZ-Formular-Versicherungskopplung, Massivbau-Bauteildatenblatt mit vollem Schichtplan,
+  SNR 464022.

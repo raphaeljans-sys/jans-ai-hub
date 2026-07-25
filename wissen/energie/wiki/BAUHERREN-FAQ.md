@@ -1,7 +1,7 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-07-25
+last_updated: 2026-07-25 (Run 93: F123-F126 neu, GVZ-PV-Feuerwehrmeldung, VKF Gefährliche Stoffe Negativbefund, Glas-g-Wert Negativbefund, Massivbau-CO2-Gegenzahl)
 sources: [destillate/innendaemmung-altbau-bauphysik-ch.md, destillate/pv-rueckliefer-verguetung-mindestverguetung-2026.md, destillate/klimapraemie-heizungsersatz-klik.md, destillate/holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz.md, destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md, destillate/blockheizkraftwerk-bhkw-mfh-pflegeheim-ch.md, destillate/elektroheizungs-ersatzpflicht-zh-sz.md, destillate/erdwaermesonden-bewilligung-zh-sz.md, destillate/kaeltemittel-r290-waermepumpen-ch.md, destillate/fernwaerme-anschlusspflicht-sz.md, destillate/cerclebruit-sz-merkblatt-laermbelastete-gebiete.md, destillate/aussenlaerm-schallschutzfenster-strasse-bahn.md, destillate/fassadenbegruenung-hitzeschutz-pv-zielkonflikt.md, destillate/rilumi-minergie-luftdichtheit-n50.md, destillate/fernwaerme-anschlusspflicht-zh.md, destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md, destillate/waermebrueckenkatalog-bfe-geschossdecke-kellerdecke.md, destillate/waermebrueckenkatalog-bfe-stuetzen-fassadenanker.md, destillate/waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz.md, destillate/waermebrueckenkatalog-bfe-rollladenkasten.md, destillate/waermebrueckenkatalog-bfe-auskragung.md, destillate/waermebrueckenkatalog-bfe-steildach-traufe-ort.md, destillate/waermebrueckenkatalog-bfe-flachdach-ohne-vordach.md, destillate/waermebrueckenkatalog-bfe-flachdach-bruestung.md, destillate/waermebrueckenkatalog-bfe-flachdach-vordach.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/pvt-hybridkollektoren.md, destillate/solarthermie-investitionskosten-ch.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/behaglichkeit-raumklima-kbob-ipb.md, destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/fenster-verglasung-uw-g-wert.md, destillate/naturdaemmstoffe-kennwerte-sommerhitzeschutz.md, destillate/zev-mieter-strompreis-eigenverbrauch.md, destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/zev-eigenverbrauch-mfh-her-2025.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/lignum-schallschutz-holzbau-flankenuebertragung.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-zertifizierung-workflow.md, destillate/waermepumpe-systemvergleich.md, destillate/minergie-fallstudie-maison-climat.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/minergie-besser-planen-bauen.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/en-zh-nachweis-uebersicht.md, destillate/sia-2001-waermedaemmstoffe-lambda.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-beispiel-monatsbilanz.md, destillate/grundsaetze-energieeffizientes-bauen.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/graue-energie-betriebsenergie.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/enerhaus-minergie-nachweis-efh-umbau.md, destillate/clt-bauphysik-stora-enso.md, destillate/clt-bauteilkatalog-stora-enso.md, destillate/clt-schallschutz-stora-enso.md, destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md, destillate/private-kontrolle-zh.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/energienutzungs-deklaration-geringfuegige-umbauten-zh.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-fassade-ertrag-pvsol.md, destillate/en-lueftung-kuehlung-zh.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/regenwasserbewirtschaftung-versickerung-zh.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/sia-181-schallschutz-anforderungswerte.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/cerclebruit-vollzugshilfe-waermepumpen-laermschutz.md, destillate/solarpflicht-national-mantelerlass-kantone.md, destillate/pv-blitzschutz-gebaeudeversicherung-ch.md, destillate/anergienetz-kalte-fernwaerme-ch.md, destillate/oberflaechennahe-erdwaerme-flaechenkollektor-erdwaermekorb-zh-sz.md, destillate/uf-werte-rahmenmaterial-grobuebersicht.md]
 links: [[INDEX]]
 ---
@@ -4349,3 +4349,88 @@ exakten Fundstellen; offen bleibt eine gleichwertig transparente Massivbau-Baute
 vollem Schichtplan — bauteilkatalog.ch führt die GWP-Spalte nur hinter einem kostenpflichtigen
 PRO-Abonnement, und die treeze-Studie liefert nur relative Prozentwerte im Text, die absoluten kg-
 Werte stecken in einem nicht textextrahierbaren Balkendiagramm).
+
+### F123 — Muss ich meine PV-Anlage bei der Feuerwehr melden?
+
+**Kurz für den Bauherrn:** Ja. Unabhängig von der versicherungstechnischen Meldung bei der
+Gebäudeversicherung gilt eine eigenständige **Informationspflicht gegenüber dem lokalen
+Feuerwehrkommando** (VKF-Brandschutzmerkblatt «Solaranlagen» 2001-15de, Ziffer 4, wörtlich: «Der
+Bauherr informiert das Feuerwehrkommando über die Installation einer Solaranlage»). Der
+Installateur erstellt dazu einen **Orientierungsplan/Strangplan** mit den Standorten von
+PV-Modulen, DC-Leitungen, Wechselrichter, Schalt-/Schutzeinrichtungen und **Batterien** — dieser
+Plan wird der Feuerwehr abgegeben und vor Ort an geeigneter Stelle hinterlegt; zusätzlich ist eine
+witterungsbeständige Kennzeichnung nach SN 411000 anzubringen. Die Gebäudeversicherung Kanton
+Zürich (GVZ) stellt dafür das praktische Formular «Dokumentation Photovoltaikanlage» bereit (Felder
+für Projekt-/GVZ-Nr., Strangplan-Beilage, Legende inkl. Batterien, Blitzschutzsystem ja/nein).
+**Separat davon** verlangt dieselbe Richtlinie (Ziffer 3.3) einen nachgewiesenen **Hagel- und
+Windwiderstand** der Module/Befestigung nach SIA 261/261-1 — bei Gebäuden unter 11 m Höhe und auf
+Dächern bestehen keine erhöhten Brandschutzanforderungen (Swissolar-Branchenlösung genügt);
+Fassaden-PV über 11 m Höhe braucht ein objektspezifisches Brandschutzkonzept.
+→ `[[gvz-photovoltaik-melde-versicherungspflicht]]`, `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`,
+`[[pv-solar-technologien]]`.
+Datenstand 2026-07-25 (Run 93). Status **established** (VKF-Primärdokument + GVZ-Formular
+ziffern-/wortgenau ausgelesen; offen bleibt, wie das GVZ-Formular formal mit der
+Versicherungsprämie/Wertvermehrungsmeldung verknüpft ist).
+
+### F124 — Regelt die VKF-Richtlinie «Gefährliche Stoffe» Mengenschwellen für Batteriespeicher?
+
+**Kurz für den Bauherrn:** Nein. Ein kursierendes Sekundärzitat behauptet, Ziffer 3.5.3 der
+VKF-Richtlinie «Gefährliche Stoffe» (Dok.-Nr. 26-15de) lege Mengenschwellen für
+Batteriespeicher fest («Buchstaben e/f») — das ist **widerlegt**: die Primärquelle wurde im
+Volltext gelesen (27 Seiten, curl+pdftotext), Ziffer 3.5.3 heisst «Blitzschutzsystem» und regelt
+ausschliesslich Mengenschwellen für **brennbare Gase** (ab netto 1'000 kg: Blitzschutzsystem
+Pflicht), **brennbare Flüssigkeiten** Flammpunkt ≤60 °C (ab 2'000 l), **Reifenlager** (>60 t/600 m²)
+und **Pyrotechnik-Grosslager** (>300 kg) — Buchstaben a bis **d**. Es gibt keine Buchstaben e/f, und
+im gesamten 27-seitigen Dokument kommt kein einziges Mal «Batterie», «Speicher» oder «Lithium» vor.
+Für eine belastbare Aussage zu Batteriespeicher-Brandschutzauflagen ist stattdessen die
+**VKF-Richtlinie 22-15 «Blitzschutzsysteme»** (bereits ansatzweise in der KB, für die
+Batteriespeicher-Schwelle aber noch nicht im Volltext geprüft) sowie ein separates
+VKF-Brandschutzinformationsblatt zu Lithium-Ionen-Batteriespeichern relevant — bis diese
+beschafft sind, sollte eine Bauherren-Aussage zu Batteriespeicher-Mengenschwellen als offen
+markiert werden, nicht mit einem Verweis auf «Gefährliche Stoffe 3.5.3» begründet werden.
+→ `[[vkf-richtlinie-gefaehrliche-stoffe]]`, `[[batteriespeicher]]`, `[[pv-solar-technologien]]`.
+Datenstand 2026-07-25 (Run 93). Status **established** (Ziffer-3.5.3-Wortlaut primärquellen-
+verifiziert; die Batteriespeicher-Fundstelle selbst bleibt offen).
+
+### F125 — Gibt es eine Schweizer Tabelle für den Glas-g-Wert je Himmelsrichtung?
+
+**Kurz für den Bauherrn:** Nein — und das ist keine Recherchelücke, sondern methodische Absicht.
+Die Minergie-Anwendungshilfe Gebäudestandards 2025-2 (Kap. 6.3.8, amtsnahe CH-Nachweismethodik)
+rechnet ihre offiziellen Einstrahlungsdiagramme für Süd/West/Nord **mit demselben Glas-g-Wert von
+50 % für alle drei Himmelsrichtungen** — nur der Gesamtwärmeeintrag unterscheidet sich
+orientierungsbedingt. Der **Glas-g-Wert** (Produktwahl) ist damit methodisch
+**orientierungsunabhängig**; orientierungsabhängig ist ausschliesslich der zulässige **g_tot-
+Grenzwert** (Glas + beweglicher Sonnenschutz) nach SIA 180:2014 Ziff. 5.2.4.1 (Nord grosszügig
+≤0,20/fg, alle übrigen Fassaden inkl. Ost/West gleich streng ≤0,07/fg, siehe
+`[[fenster-uw-g-wert-zielkonflikt]]`). Belegte g-Wert-Bandbreiten je Verglasungstyp (vier
+unabhängige CH-Quellen): normales Wärmeschutzglas **45–62 %**, Sonnenschutzglas **13–40 %** je nach
+Beschichtungsstärke (Minergie-Broschüre «Sommerlicher Wärmeschutz» 2022: High Performance 26 %,
+Referenzglas ohne Beschichtung 80 %). Eine Anfrage «welchen g-Wert für die Südfassade» hat deshalb
+keine einzelne Zahlen-Antwort — massgebend ist die Systemkombination Glas + Storen.
+→ `[[glas-g-wert-verglasungstypen-ch]]`, `[[fenster-uw-g-wert-zielkonflikt]]`, `[[fenster-verglasung]]`.
+Datenstand 2026-07-25 (Run 93). Status **established** (zwei Minergie-Primärquellen curl+pdftotext
+vollständig gelesen; EN 410 als Messnorm-Bezug bleibt Fachliteratur-Konvention, nicht direkt in
+den gelesenen Minergie-Dokumenten zitiert).
+
+### F126 — Wie viel graue Energie (CO2) verursacht eine Massivbauwand im Vergleich zu Holzbau — mit realen Zahlen statt nur Prozentwerten?
+
+**Kurz für den Bauherrn:** Eine Backstein-Vollwand (SwissModul, 17,5–25 cm, nur Ziegelmaterial ohne
+Mörtel/Putz/Dämmung) verursacht nach der Schweizer Ziegelindustrie-EPD (Oktober 2017) hochgerechnet
+rund **35–52 kg CO2-eq/m²**; eine unbewehrte Hochbaubeton-Wand gleicher Dicke (treeze/Stadt Zürich,
+2016) rund **46–69 kg CO2-eq/m²** (ohne Bewehrungsstahl). Beide Werte liegen damit bereits **über**
+dem gesamten Holzbau-Wandaufbau (25–34 kg CO2-eq/m², Lignumdata, inkl. Dämmung/Fassade/
+Innenbekleidung) — **obwohl** bei Backstein/Beton weder Dämmung noch Putz/Mörtel/Bewehrung
+mitgerechnet sind, die den realen Wert weiter erhöhen würden. Das liefert erstmals ein **reales
+absolutes Zahlenpaar** für die Materialwahl-Beratung (nicht nur den bereits bekannten Prozentwert
+«Holz −73 % ggü. Backstein+EPS» der treeze/ZZ-Wancor-Studie 2017): die Ziegel- bzw. Betonmasse
+allein kostet schon **1,3- bis 2-mal so viel** graue Treibhausgasemissionen wie die komplette
+Holzbauwand. **Wichtiger Vorbehalt:** kein öffentlich frei zugängliches Massivbau-Bauteildatenblatt
+mit vollem Schichtplan (Analogie zu den Lignumdata-Holzbau-Blättern) gefunden — bauteilkatalog.ch
+führt die GWP-Spalte weiterhin nur im kostenpflichtigen PRO-Abo; die hier gezeigten m²-Werte sind
+eine eigene, transparent offengelegte Umrechnung (Dichte × Wanddicke aus der Quelle selbst) und
+der **Boden**, nicht die vollständige Wand.
+→ `[[kbob-massivbau-bauteilaufbau-co2]]`, `[[kbob-bauteilkatalog-co2-je-aufbau]]`, `[[graue-energie]]`.
+Datenstand 2026-07-25 (Run 93). Status **established** (beide Primärquellen — EPD nach EN 15804,
+treeze/Stadt-Zürich-Ökobilanz — vollständig via curl+pdftotext gelesen; EPD SwissModul formal seit
+Oktober 2023 abgelaufen, kein Nachfolgedokument gefunden, Grössenordnung/Methodik bleiben
+übertragbar).
