@@ -1,3 +1,19 @@
+## 2026-07-25 — Run 27 (MacBook Pro): Q&A-Selbstbefragung (Vertiefungsstufe c) fuer die 5 neu established Destillate — alle 15 SIA/VKF-Kernnormen jetzt Q&A-geprueft
+- **5 parallele Verifikations-Agenten**, je einer pro Norm (sia-266-1-2003, sia-410-1986,
+  sia-112-leistungsmodell, sia-112-tabelle-infrastruktur, sia-271-wegleitung): 64 Fragen total, unabhängig
+  am Original beantwortet, danach gegen das Destillat abgeglichen (Refuter-Prinzip).
+- **Ergebnis: 0 Widersprüche gegen bestehende Kernaussagen.** 1 Destillat korrigiert: `sia-410-1986.md`
+  war als «dreisprachig d/f/i, teils Englisch in Kopfzeilen» unterschätzt — tatsächlich durchgehend
+  **vierprachig d/f/i/en**, vollständige vierte Spalte in praktisch jeder Tafel (Frontmatter + Hinweistext
+  korrigiert). Zusätzlich 2 kleine Ergänzungen unter Offene Punkte (kein Kap.-6-Eintrag im
+  Inhaltsverzeichnis, Positionsnummern-Lücke 9/10 in Ziff. 3.3). Alle 5 Destillate bleiben `established`.
+- **Neue Dateien**: `destillate/qa/sia-266-1-2003-fragen.md`, `sia-410-1986-fragen.md`,
+  `sia-112-leistungsmodell-fragen.md`, `sia-112-tabelle-infrastruktur-fragen.md`,
+  `sia-271-wegleitung-fragen.md`; `destillate/qa/INDEX.md` Abschnitt "Run 27" ergänzt.
+- Damit haben nun **alle 15 SIA/VKF-Kernnormen** die Q&A-Vertiefungsstufe (c) durchlaufen (10 aus Run 14 +
+  5 aus Run 27). Details `wiki/QUESTIONS.md` Abschnitt "Run 27", Report
+  `outputs/2026-07-25_normen-nacht-run27.md`.
+
 ## 2026-07-25 — Run 26 (MacBook Pro): letzte 2 speculative Destillate auf established gehoben, speculative-Bestand geleert
 - **Kein neues Destillat — 0 offene `[ ]`-Positionen unverändert** (Frischecheck 458 SIA-PDF/58 VKF-Dateien,
   keine Änderung seit Run 21). Beide von Run 25 hinterlassenen Folgeaufgaben abgeschlossen:

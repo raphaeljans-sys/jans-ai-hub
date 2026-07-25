@@ -1100,10 +1100,13 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   statt echter Umlaute ä/ö/ü (Rule `umlaute-konvention.md` verletzt), auch der am 25.07. neu
   verfasste `[[energie-pv-eignung-typenwahl]]`. Zu gross fuer einen Nachtschicht-Fix (Blind-`sed`
   riskiert echte Doppelvokale/Zitate/Dateinamen zu verfaelschen) — braucht einen dedizierten,
-  beaufsichtigten Korrektur-Lauf (Skill `korrektur`, Artikel fuer Artikel). Ausserdem 2 Artikel
-  ohne YAML-Frontmatter (`[[kartenportale-naturgefahren-objektschutz]]`,
-  `[[kartenportale-sharepoint-ablage]]`, inline `**Status:**` statt Meta-Schema) — **weiterhin
-  offen.** **Korrektur (Run 68, 2026-07-25):** die im Health-Check als "2 echte Coverage-Luecken"
+  beaufsichtigten Korrektur-Lauf (Skill `korrektur`, Artikel fuer Artikel). **YAML-Frontmatter-
+  Teilbefund GESCHLOSSEN (Mac Mini Nachtschicht, 2026-07-25):** die 2 gemeldeten Artikel geprueft
+  — `[[kartenportale-naturgefahren-objektschutz]]` hatte bereits vollstaendige YAML-Frontmatter
+  (Registerlücke, kein neuer Aufwand); `[[kartenportale-sharepoint-ablage]]` hatte tatsaechlich
+  noch inline `**Status:**` statt Meta-Schema — jetzt auf YAML-Frontmatter (title/status/
+  last_updated/sources/links) umgestellt, Inhalt unveraendert. Der Umlaut-Ersatzschreibungs-Befund
+  oben bleibt unveraendert offen, weiterhin zu gross fuer einen Nachtschicht-Fix. **Korrektur (Run 68, 2026-07-25):** die im Health-Check als "2 echte Coverage-Luecken"
   gefuehrten Links `[[muken-2025-anhang-4-5-daemmstaerken-leitungen]]` /
   `[[oelheizung-gasheizung-ersatzpflicht-zh-sz]]` sind **kein Fund** — der Health-Check hat nur
   `wissen/energie/wiki/` auf Cross-KB-Ziele geprueft, nicht `wissen/energie/destillate/`: beide

@@ -2,6 +2,17 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 — Mac-Mini-Nachtschicht: M4-Teilbefund YAML-Frontmatter geschlossen
+Der Health-Check-Befund M4 (`wiki/QUESTIONS.md`) nannte 2 Artikel ohne YAML-Frontmatter. Geprueft:
+`kartenportale-naturgefahren-objektschutz.md` hatte bereits vollstaendige Frontmatter (reine
+Registerlücke, kein neuer Aufwand); `kartenportale-sharepoint-ablage.md` hatte tatsaechlich noch
+inline `**Status:**` statt Meta-Schema — auf YAML (title/status/last_updated/sources/links)
+umgestellt, Inhalt unveraendert. Der groessere Umlaut-Ersatzschreibungs-Teilbefund von M4
+(~40 Artikel `ae/oe/ue` statt ä/ö/ü) bleibt unveraendert offen — braucht weiterhin einen
+dedizierten, beaufsichtigten `korrektur`-Lauf, Artikel fuer Artikel, zu gross fuer eine
+Nachtschicht. Kein Kollisionsrisiko: nur die eine Datei editiert, keine Ueberschneidung mit dem
+parallel laufenden Vollgas-Trainingsfenster (Kartenportale/Energie-Rotation, Run 79/80).
+
 ## 2026-07-25 — Training Run 80 (Recht/Norm + Brandschutz, Token-Vollgas): Frischecheck 0 neue Dateien seit Run 78 (neunte Bestaetigung)
 Rotation zurueck auf Recht & Norm (PL-02) + Brandschutz (PL-03) nach Run 79. Datei-Frischecheck
 (`find -newer` gegen den Run-78-Report-Zeitstempel) fuer beide SharePoint-Ordner: **0 neue oder

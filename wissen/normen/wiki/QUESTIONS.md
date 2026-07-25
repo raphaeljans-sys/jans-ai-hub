@@ -1,5 +1,41 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
+## Run 27 (MacBook Pro, 25.07.2026) — Q&A-Selbstbefragung (Vertiefungsstufe c) fuer die 5 neu established Destillate
+
+**Ausgangslage.** Run 26 hatte als naechsten sinnvollen Schritt vorgeschlagen: Q&A-Selbstbefragung fuer die
+seit Run 25/26 neu auf `established` gehobenen Destillate (sia-266/1, sia-410, sia-112-leistungsmodell,
+sia-112-tabelle-infrastruktur, sia-271-wegleitung), da ein reiner Frischecheck ohne Mehrwert waere. 5
+unabhaengige Verifikations-Agenten liefen parallel, je einer pro Norm — Original-PDF unabhaengig gelesen,
+Fragen formuliert und sofort daraus beantwortet, danach gegen das Destillat abgeglichen (echter
+Refuter-Versuch).
+
+- **[x] sia-266-1-2003 — 20 Fragen, bestaetigt, 0 Abweichungen.** Alle Kernpunkte (31 Verweisungen,
+  Modalitaeten, Formeln, Gummiplatten-Kennwerte, sechs Kategorien besonderer Eigenschaften) exakt bestaetigt.
+- **[x] sia-410-1986 — 18 Fragen, bestaetigt + 1 Klarstellung + 2 Ergaenzungen angewendet.** Substanz
+  vollstaendig bestaetigt. Korrektur: Das Dokument wurde bisher als «dreisprachig d/f/i, teils Englisch in
+  Kopfzeilen» unterschaetzt — tatsaechlich durchgehend **vierprachig d/f/i/en** mit vollstaendiger vierter
+  Spalte in praktisch jeder Tafel. Frontmatter + Hinweistext korrigiert. Ergaenzt unter Offene Punkte: Kap. 6
+  fehlt im urspruenglichen Inhaltsverzeichnis (S. 2-3, stuetzt die Nachtrags-These), Positionsnummern-Luecke
+  9/10 in Ziff. 3.3 (S. 21, unerklaert im Original).
+- **[x] sia-112-leistungsmodell — 8 Fragen (1-Seiten-Dokument), bestaetigt, 0 Abweichungen.**
+- **[x] sia-112-tabelle-infrastruktur — 10 Fragen, bestaetigt, 0 Abweichungen.** Dritte unabhaengige
+  Pruefrunde nach Run 25 (Erstpruefung) und Run 26 (erste Bestaetigung) — weiterhin 0 Befunde.
+- **[x] sia-271-wegleitung — 8 Fragen (nur 2 S. vorhanden), bestaetigt.** Ein kleiner, nicht korrigierter
+  Vervollstaendigungshinweis: Abb. 76 traegt im Original den engeren Titel «... bei Terrassen», waehrend der
+  Fliesstext die 25-mm-Freibord-Pflicht allgemein fuer den gesamten Flachdachbereich formuliert — kein
+  Widerspruch, keine Statusaenderung noetig.
+
+**Ergebnis:** 64 Fragen total, 0 Widersprueche gegen bestehende Kernaussagen, 1 Destillat mit einer echten
+Klarstellung korrigiert (sia-410 Sprachenangabe). Alle 5 Destillate bleiben `established`. Damit haben nun
+**alle 15 SIA/VKF-Kernnormen** die Q&A-Vertiefungsstufe (c) durchlaufen (10 aus Run 14/260715 + 5 aus Run 27).
+Neue QA-Dateien: `destillate/qa/sia-266-1-2003-fragen.md`, `sia-410-1986-fragen.md`,
+`sia-112-leistungsmodell-fragen.md`, `sia-112-tabelle-infrastruktur-fragen.md`, `sia-271-wegleitung-fragen.md`.
+Verbleibende offene Punkte unveraendert: Bring-Schulden (SIA-Normtexte nur per Abo/Kauf) und
+Strukturentscheide bei Raphael (PL-03-Aufnahme). Fuer den naechsten Lauf: Vertiefungsstufe (b) Retro-
+Verifikation mit 3 unabhaengigen Widerlegungs-Agenten fuer die P1-Kernnormen, oder Stufe (d)
+Querschnitts-Synthesen fuer die Fach-Skills (werkvertrag/honorarberechnung/brandschutz/flaechen-nachweis),
+da Stufe (c) fuer SIA/VKF jetzt vollstaendig ist. Report `outputs/2026-07-25_normen-nacht-run27.md`.
+
 ## Run 26 (MacBook Pro, 25.07.2026) — beide Run-25-Folgeaufgaben abgeschlossen, speculative-Bestand geleert
 
 **Ausgangslage.** Run 25 hatte zwei konkrete, eng begrenzte Folgeaufgaben hinterlassen (Bestätigungsrunde

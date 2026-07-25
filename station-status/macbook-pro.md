@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.07.2026 20:10:22
+Stand: 25.07.2026 20:40:45
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 19:55)
+- Developer/jans/ai/hub  (letzte Aktivitaet 20:40)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 25.07.2026 20:10:22
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- c6a64511 energie: Trinkwassererwaermung/Legionellenschutz adversarial nachverifiziert, Destillat auf established
+- be5afc71 planungsgrundlagen-training Run 80: Recht/Norm+Brandschutz Frischecheck, 0 neue Dateien seit Run 78 (neunte Bestaetigung)

@@ -25,6 +25,21 @@ Ergebnis Lauf 260715: **205 Fragen**, **0 sachliche Fehler** in den Destillaten
 gemeldet (Detail siehe jeweilige Q&A-Datei «Abgleich mit Destillat» + Report
 `outputs/2026-07-15_normen-nacht-run14.md`).
 
+### Run 27 (25.07.2026) — die 5 seit Run 25/26 neu established gehobenen Destillate
+
+| Datei | Norm | Fragen | Verdikt | Stand |
+|---|---|---|---|---|
+| `sia-266-1-2003-fragen.md` | SIA 266/1:2003 Mauerwerk, ergaenzende Festlegungen | 20 | bestaetigt (0 Abw.) | 260725 |
+| `sia-410-1986-fragen.md` | SIA 410 Kennzeichnung Installationen/Sinnbilder Haustechnik | 18 | bestaetigt, 1 Klarstellung (vierprachig statt dreisprachig) + 2 Ergaenzungen angewendet | 260725 |
+| `sia-112-leistungsmodell-fragen.md` | SIA 112 Leistungsmodell (Drittmerkblatt) | 8 | bestaetigt (0 Abw.) | 260725 |
+| `sia-112-tabelle-infrastruktur-fragen.md` | SIA 112 Tabelle Infrastruktur (Kursunterlage) | 10 | bestaetigt (0 Abw.) | 260725 |
+| `sia-271-wegleitung-fragen.md` | Wegleitung SIA 271 Abdichtungen (Teil-Destillat, nur 2 S.) | 8 | bestaetigt, 1 kleine Vervollstaendigungs-Chance notiert (Abb.-76-Titel «bei Terrassen») | 260725 |
+
+Ergebnis Run 27: **64 Fragen**, 0 Widersprueche, 1 Destillat korrigiert (sia-410-1986:
+Sprachenangabe dreisprachig→vierprachig + 2 offene-Punkte-Ergaenzungen). Alle 5 bleiben
+`established`. Damit haben nun alle 15 SIA/VKF-Kernnormen die Q&A-Vertiefungsstufe (c)
+durchlaufen. Detail: `outputs/2026-07-25_normen-nacht-run27.md`.
+
 ## DIN (Station Mac Mini)
 
 Siehe `din-*-fragen.md` in diesem Ordner (Q&A des DIN/VSS/RAL-Zweigs, gepflegt vom Mac Mini).

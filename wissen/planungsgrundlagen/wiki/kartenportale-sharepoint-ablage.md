@@ -1,6 +1,13 @@
-# Kartenportale — SharePoint-Ablage PL-01 (Soll-Struktur)
+---
+title: Kartenportale — SharePoint-Ablage PL-01 (Soll-Struktur)
+status: established
+last_updated: 2026-06-11
+sources: [OneDrive-Spiegel der JANS-Bibliothek (verifiziert 11.06.2026)]
+links: [[kartenportale-geoportale-uebersicht]] [[kartenportale-bund-geodaten]]
+  [[kartenportale-naturgefahren-objektschutz]] [[kartenportale-werkleitungskataster]]
+---
 
-**Status:** established · **Quelle:** OneDrive-Spiegel der JANS-Bibliothek (verifiziert 11.06.2026)
+# Kartenportale — SharePoint-Ablage PL-01 (Soll-Struktur)
 
 Die buerointerne Sammlung der Kartenportale/Geodaten liegt auf SharePoint und ist lokal
 gespiegelt. Diese Struktur ist **hinterlegt**, damit Claude Ablage-Orte kennt und neue Bezuege
