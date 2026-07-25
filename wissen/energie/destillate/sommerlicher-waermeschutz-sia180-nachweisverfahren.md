@@ -166,7 +166,9 @@ als das gesetzliche Minimum (siehe unten).
   verifiziert.
 
 **Backlinks:** [[behaglichkeit-raumklima-kbob-ipb]] · [[fenster-verglasung-uw-g-wert]] ·
-[[enfk-en-102-waermeschutz-2018]] (Uw-Anforderung ZH) · [[sommerlicher-waermeschutz]] (Wiki-Synthese)
+[[enfk-en-102-waermeschutz-2018]] (Uw-Anforderung ZH) · [[sommerlicher-waermeschutz]] (Wiki-Synthese) ·
+[[betonkernaktivierung-tabs-energieeffizienz]] (Bauteilkühlung/Nachtauskühlung als Massnahme, ersetzt
+den SIA-180-Nachweis nicht, ist aber ein möglicher Baustein darin, F138)
 
 **Cross-KB:** `wissen/normen/destillate/sia-180-2014` (Norm-Fundstellen, führend) ·
 `wissen/planungsgrundlagen/wiki/energie-energienachweis-zh-formulare` +

@@ -86,5 +86,9 @@ ZH am aktuellen Foerderprogramm/EVEN pruefen, nicht aus DE-Quellen uebernehmen.
 - **Abgrenzung:** Heizsystem-**Entscheid/Bewilligung** + fossiles Heizverbot → Skill `baurecht`;
   Foerderbeitraege → F7 / `[[foerderprogramm-energie-zh-2026]]`; Dimensionierung → F13 /
   `[[bfe-waermeerzeugerleistung-2015]]`; Verfahren/Beilagen Heizungsersatz → F14 /
-  `[[wta-formular-zh-waermetechnische-anlagen]]`.
+  `[[wta-formular-zh-waermetechnische-anlagen]]`; Betonkernaktivierung/TABS als eigenes
+  Flaechenheizsystem mit der tiefsten moeglichen Vorlauftemperatur (noch hoehere JAZ als
+  Fussbodenheizung, aber traege Regelung) → F138 / `[[betonkernaktivierung-tabs-energieeffizienz]]`;
+  Legionellenschutz vs. WP-Effizienz bei der Warmwasserbereitung → F137 /
+  `[[trinkwassererwaermung-legionellenschutz-energieeffizienz]]`.
 </content>

@@ -1558,3 +1558,65 @@ nötig, unverändert gegenüber Run 97).
 4. Duschwasser-WRG: SIA-385/2-Vollversion beschaffen (Kaufentscheid bei Raphael) — Punkt bleibt
    seit Run 96 unverändert offen.
 5. Neue Themen-Recherche nach freier Wahl (PDF-Inventar bleibt erschöpft, Web-Pfad).
+
+## Run 99 (2026-07-25) — drei parallele general-purpose-Agenten, drei neue Themen freier Wahl
+
+Punkte 1/2/4 der Run-98-Priorität bleiben Kaufentscheide/destruktive Rückfragen bei Raphael und
+wurden bewusst nicht automatisch angegangen; Punkt 3 (Massivbau/WDVS) ist bereits auf passive
+Beobachtung umgestellt. Alle drei Agenten bearbeiten Punkt 5 (neue Themen, Web-Pfad), jeweils mit
+17-23 echten Tool-Aufrufen, vor der Register-Konsolidierung per `git status` verifiziert.
+
+- [x] **Trinkwassererwärmung: Legionellenschutz vs. Wärmepumpen-Effizienz** ✓ 2026-07-25: neues
+  Themenfeld — SIA 385/1:2020 senkt die pauschale 60-°C-Vorgabe auf gestufte 50-55 °C
+  (Erleichterung bis 52 °C bei optimaler Anlage) und schafft die wöchentliche Legionellenschaltung
+  ab, weil Feldstudien ihr keinen Hygienenutzen nachwiesen; Zielkonflikt konkret erklärt
+  (Legionellen-Wachstumsoptimum ≈37 °C liegt im WP-Effizienzfenster 35-45 °C), Hebel = saubere
+  Anlagenplanung (Zirkulation ≥55 °C/Strang, Wärmesiphon, Kaltwasser <25 °C) statt pauschales
+  Hochheizen → `[[trinkwassererwaermung-legionellenschutz-energieeffizienz]]` (neu, emerging),
+  FAQ **F137** neu. Offen: SIA-385/1-Volltext, BAG/BLV-Original-PDF, Verhältnis SIA 385/1 ↔ SVGW
+  W3/E3 bei abweichenden Speicheraustritts-Werten.
+- [x] **Betonkernaktivierung/TABS** ✓ 2026-07-25: neues Themenfeld, Healthcare-relevant —
+  Rohrregister in der Rohbaudecke, Systemtemperaturen Heizen 22-32 °C/Kühlen 16-20 °C (tiefste
+  Vorlauftemperatur, ideal für WP-JAZ), aber Stunden- bis Tage-Trägheit erfordert Vorsteuerung
+  statt klassischer Raumtemperaturregelung; Entscheidung fällt im Rohbau (einbetoniert, nicht
+  korrigierbar); geeignet für grosse Gebäude mit stabiler Nutzung (Büro/Schule/Pflegebereich),
+  ungeeignet für lastvariable Räume wie OP-Säle (nur deutsche Sekundärquellen für die
+  Nicht-Eignungsaussage, keine CH-Primärquelle mit Spitalbezug) → `[[betonkernaktivierung-tabs-
+  energieeffizienz]]` (neu, emerging), Backlinks in `[[waermepumpe-systemvergleich]]`,
+  `[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]`,
+  `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]` ergänzt, FAQ **F138** neu. Offen:
+  SIA-384.354:2021-Volltext, TABS-Control-Primärforschung (Tödtli et al. 2009, Wiley-Paywall),
+  CHF/m²-Kostenkennwerte.
+- [x] **Sanierungsfahrplan/Etappierung Gebäudehülle** ✓ 2026-07-25: neues Themenfeld — Etappieren
+  ist erlaubt und in der Praxis meist der Regelfall, entscheidend ist ein vorab erarbeitetes
+  Gesamtkonzept (GEAK Plus, bis zu fünf Sanierungsvarianten); Faustregel «Hülle vor Heizung»
+  (EnergieSchweiz) vermeidet eine überdimensionierte, ineffiziente Heizung und (Sekundärquelle)
+  Wärmebrücken an nachträglich angeschlossenen Bauteilen; Förder-Fallstrick: die 90-%-Bonusschwelle
+  für die Gesamtsanierung (ZH und SZ) muss von der ersten Etappe an mitgeplant werden, eine bereits
+  ausbezahlte Einzelmassnahme lässt sich förderrechtlich nicht nachträglich «aufwerten» →
+  `[[sanierungsfahrplan-etappierung-gebaeudehuelle]]` (neu, emerging), FAQ **F139** neu. Offen:
+  konkrete Etappenfolge nur über zwei journalistische Sekundärquellen belegt, kein amtliches
+  CH-Dokument mit dem Titel «Sanierungsfahrplan» gefunden (Gebäudehülle Schweiz direkt noch nicht
+  verifiziert).
+
+**Register nachgeführt:** `destillate/INDEX.md` (drei Zeilen neu), `wiki/INDEX.md` (drei neue
+Destillat-Direktverweise, zwei bestehende Zeilen mit Backlinks ergänzt, FAQ-Zählerzeile auf F139
+aktualisiert), `wiki/BAUHERREN-FAQ.md` (F137-F139 neu), `training/curriculum.md` (D69),
+`CHANGELOG.md`.
+
+**Bewusst nicht weiterverfolgt:** B1-Konsolidierung, SWKI-VA105-01-Vollversion, Duschwasser-WRG
+SIA-385/2-Vollversion (alle drei Kaufentscheide/destruktive Rückfragen bei Raphael, unverändert
+gegenüber Run 98); Massivbau-CHF/m² und WDVS-Brandriegel-Kosten (auf passive Beobachtung
+umgestellt, Run 98).
+
+**Nächster Lauf: Priorität**
+1. B1-Konsolidierung weiterhin Raphael vorlegen (nicht automatisch lösen).
+2. SWKI-VA105-01-Vollversion, SIA-385/1-Volltext (Trinkwassererwärmung), SIA-385/2-Vollversion
+   (Duschwasser-WRG), SIA-384.354-Volltext (TABS): vier Kaufentscheide bei Raphael bündeln und
+   ihm zur Priorisierung vorlegen, statt einzeln nachzufragen.
+3. Massivbau-CHF/m² und WDVS-Brandriegel-Kosten: passive Beobachtung fortsetzen.
+4. TABS-Eignungsaussage OP-Säle gegen eine Schweizer Primärquelle mit Spitalbezug nachverifizieren
+   (aktuell nur deutsche Sekundärquellen), bevor sie in einer Bauherren-Antwort als gesichert gilt.
+5. Sanierungsfahrplan-Etappenfolge direkt bei Gebäudehülle Schweiz (gebaeudehuellenschweiz.ch)
+   verifizieren statt nur über Migrol-Blog-Zitat.
+6. Neue Themen-Recherche nach freier Wahl (PDF-Inventar bleibt erschöpft, Web-Pfad).

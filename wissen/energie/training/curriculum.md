@@ -1211,3 +1211,35 @@ Verfahrensstand unverändert. FAQ-Stand jetzt **F1–F105**. Details: `outputs/2
   klärbar, isolierter Massivbau-CHF/m²-Primärwert nach zwei Negativbefunden nur noch über
   lizenzierten CRB-/Schätzerhandbuch-Zugang erreichbar (Meta-Entscheid: weitere Suchversuche ohne
   neuen Ansatz sind Token-Verschwendung, Thema auf passive Beobachtung umstellen wie E84).
+
+- **D69 (Run 99, 2026-07-25)** — PDF-Inventar weiterhin erschöpft. Drei der vier Run-98-Prioritäten
+  (B1-Konsolidierung, SWKI-VA105-01-Vollversion, Duschwasser-WRG SIA-385/2-Vollversion) sind
+  Kaufentscheide/destruktive Rückfragen bei Raphael und bleiben bewusst unangetastet; Massivbau/
+  WDVS-Brandriegel sind auf passive Beobachtung umgestellt. Drei parallele general-purpose-Agenten
+  bearbeiten stattdessen Prioritätspunkt 5 (neue Themen freier Wahl, Web-Pfad), alle drei per
+  `git status` vor der Register-Konsolidierung als echt geschrieben verifiziert. **Trinkwasser-
+  erwärmung: Legionellenschutz vs. WP-Effizienz** (neues Themenfeld) — SIA 385/1:2020 senkt die
+  pauschale 60-°C-Vorgabe auf gestufte 50-55 °C und schafft die wöchentliche Legionellenschaltung
+  ab (kein belegter Hygienenutzen); Zielkonflikt konkret erklärt (Legionellen-Wachstumsoptimum
+  ≈37 °C im WP-Effizienzfenster 35-45 °C), Hebel = saubere Anlagenplanung statt pauschales
+  Hochheizen → `[[trinkwassererwaermung-legionellenschutz-energieeffizienz]]` (neu, emerging), FAQ
+  **F137** neu. **Betonkernaktivierung/TABS** (neues Themenfeld, Healthcare-relevant) — Rohrregister
+  in der Rohbaudecke, Systemtemperaturen Heizen 22-32 °C/Kühlen 16-20 °C (tiefste Vorlauftemperatur,
+  ideal für WP-JAZ), aber träge Regelung (Stunden-Tage-Verzug) erfordert Vorsteuerung statt
+  klassischer Raumregelung; geeignet für grosse Gebäude mit stabiler Nutzung (Büro/Schule/
+  Pflegebereich), ungeeignet für lastvariable Räume wie OP-Säle (nur D-Sekundärquellen für die
+  Nicht-Eignungsaussage) → `[[betonkernaktivierung-tabs-energieeffizienz]]` (neu, emerging),
+  Backlinks in `[[waermepumpe-systemvergleich]]`, `[[sommerlicher-waermeschutz-sia180-
+  nachweisverfahren]]`, `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]` ergänzt, FAQ **F138**
+  neu. **Sanierungsfahrplan/Etappierung Gebäudehülle** (neues Themenfeld) — Etappieren ist erlaubt,
+  entscheidend ist ein vorab erarbeitetes Gesamtkonzept (GEAK Plus); Faustregel «Hülle vor Heizung»
+  (EnergieSchweiz) vermeidet überdimensionierte Heizung + Wärmebrücken; Förder-Fallstrick:
+  90-%-Bonusschwelle ZH/SZ für die Gesamtsanierung muss von der ersten Etappe an mitgeplant werden
+  → `[[sanierungsfahrplan-etappierung-gebaeudehuelle]]` (neu, emerging), FAQ **F139** neu. FAQ-Stand:
+  **139 Kernfragen (F1-F139) belegt.** Alle drei neuen Themen bewusst ehrlich als `emerging`
+  eingestuft (Norm-Volltexte SIA 385/1, SIA 384.354, SIA 385/2 durchweg kostenpflichtig und nicht
+  gelesen; einzelne Eignungsaussagen nur über nicht-schweizerische Sekundärquellen). Neu offen:
+  SIA-385/1-Volltext (Verhältnis zu SVGW W3/E3 bei abweichenden Speicheraustritts-Werten klären),
+  SIA-384.354-Volltext + TABS-Control-Primärforschung (Tödtli et al. 2009, Wiley-Paywall), TABS-
+  CHF/m²-Kostenkennwerte (noch nicht recherchiert), Etappenfolge-Primärquelle direkt bei
+  Gebäudehülle Schweiz verifizieren (bisher nur Migrol-Blog-Zitat).

@@ -302,3 +302,8 @@ Für einen Bauherrn/Betreiber eines Pflegeheims oder Spitals in ZH/SZ heisst das
 - Bereits vorhandenes KB-Destillat [[en-zh-nachweis-uebersicht]] (EN-111-Beleuchtungspflicht
   Nichtwohnbau > 1'000 m² EBF).
 - Web-Recherche, abgerufen im Rahmen dieser Recherche (2026-07-14).
+
+**Backlink (Run 99):** [[betonkernaktivierung-tabs-energieeffizienz]] — genau diese Nutzungs-
+randbedingungen (interne Lasten, Betriebszeiten) je Raumtyp entscheiden, ob ein Raum TABS-tauglich
+ist (stabile Bettenstation) oder nicht (lastvariabler OP-/Eingriffsraum); Verknüpfung ist eine
+Ableitung des TABS-Destillats, hier noch nicht eigenständig verifiziert (F138).

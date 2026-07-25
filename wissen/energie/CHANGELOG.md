@@ -2,6 +2,45 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 99: drei neue Themen freier Wahl — Legionellenschutz/WP-Effizienz, Betonkernaktivierung/TABS, Sanierungsfahrplan-Etappierung
+PDF-Inventar weiterhin erschöpft. Punkte 1/2/4 der Run-98-Priorität (B1-Konsolidierung,
+SWKI-VA105-01-Vollversion, Duschwasser-WRG SIA-385/2-Vollversion) sind Kaufentscheide/destruktive
+Rückfragen bei Raphael und bleiben unangetastet; Massivbau/WDVS-Brandriegel bleiben auf passiver
+Beobachtung. Drei parallele `general-purpose`-Agenten (nach der Run-97-Lehre zum Hintergrund-Stall
+des `energie-berater`-Subtyps bewusst gewählt) bearbeiten Priorität 5 (neue Themen, Web-Pfad), alle
+drei per `git status` vor der Register-Konsolidierung als echt geschrieben verifiziert.
+- **Trinkwassererwärmung: Legionellenschutz vs. Wärmepumpen-Effizienz (neues Themenfeld):** SIA
+  385/1:2020 senkt die pauschale 60-°C-Vorgabe auf gestufte 50-55 °C (Erleichterung bis 52 °C bei
+  optimaler Anlage) und schafft die wöchentliche Legionellenschaltung ab, weil Feldstudien ihr
+  keinen Hygienenutzen nachwiesen. Zielkonflikt konkret: Legionellen-Wachstumsoptimum ≈37 °C liegt
+  im WP-Effizienzfenster 35-45 °C; Hebel = saubere Anlagenplanung (Zirkulation ≥55 °C/Strang,
+  Wärmesiphon, Kaltwasser <25 °C) statt pauschales Hochheizen, alternativ Systemtrennung Heizung/
+  Warmwasser → `[[trinkwassererwaermung-legionellenschutz-energieeffizienz]]` (neu, emerging), FAQ
+  **F137** neu.
+- **Betonkernaktivierung/TABS (neues Themenfeld, Healthcare-relevant):** Rohrregister in der
+  Rohbaudecke, Systemtemperaturen Heizen 22-32 °C/Kühlen 16-20 °C (tiefste Vorlauftemperatur,
+  ideal für WP-JAZ), aber Stunden- bis Tage-Trägheit erfordert Vorsteuerung statt klassischer
+  Raumtemperaturregelung; Entscheidung fällt im Rohbau (einbetoniert, nicht korrigierbar); geeignet
+  für grosse Gebäude mit stabiler Nutzung (Büro/Schule/Pflegebereich), ungeeignet für lastvariable
+  Räume wie OP-Säle (nur deutsche Sekundärquellen für die Nicht-Eignungsaussage) →
+  `[[betonkernaktivierung-tabs-energieeffizienz]]` (neu, emerging), Backlinks in
+  `[[waermepumpe-systemvergleich]]`, `[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]`,
+  `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]` ergänzt, FAQ **F138** neu.
+- **Sanierungsfahrplan/Etappierung Gebäudehülle (neues Themenfeld):** Etappieren ist erlaubt und in
+  der Praxis meist der Regelfall, entscheidend ist ein vorab erarbeitetes Gesamtkonzept (GEAK Plus,
+  bis zu fünf Sanierungsvarianten); Faustregel «Hülle vor Heizung» (EnergieSchweiz) vermeidet eine
+  überdimensionierte Heizung und Wärmebrücken an nachträglichen Anschlüssen; Förder-Fallstrick: die
+  90-%-Bonusschwelle für die Gesamtsanierung (ZH/SZ) muss von der ersten Etappe an mitgeplant
+  werden, eine ausbezahlte Einzelmassnahme lässt sich förderrechtlich nicht nachträglich
+  «aufwerten» → `[[sanierungsfahrplan-etappierung-gebaeudehuelle]]` (neu, emerging), FAQ **F139**
+  neu.
+
+**Register nachgeführt:** `destillate/INDEX.md` (drei Zeilen neu), `wiki/INDEX.md` (drei neue
+Destillat-Direktverweise, zwei bestehende Zeilen mit Backlinks ergänzt, FAQ-Zählerzeile auf F139),
+`wiki/BAUHERREN-FAQ.md` (F137-F139 neu), `training/curriculum.md` (D69), `wiki/QUESTIONS.md`.
+FAQ-Stand: **139 Kernfragen (F1-F139) belegt.** Alle drei neuen Themen bewusst als `emerging`
+eingestuft (Norm-Volltexte SIA 385/1, SIA 384.354, SIA 385/2 kostenpflichtig, nicht gelesen).
+
 ## 2026-07-25 — Run 98: WDVS-Brandriegel Kosten-Negativbefund + BSV-2026 Zieldatum Frühling 2027 + Massivbau-CHF/m² zweiter Negativbefund + SWKI-Lüftung Gesundheitsbau neu
 - **WDVS-Brandriegel — Kosten weiterhin Negativbefund, BSV-2026 mit Zieldatum:** systematische
   Suche bei Gebäudehülle Schweiz, FFF (Fenster- und Fassadenbauverband) und Sto AG Schweiz findet

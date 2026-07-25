@@ -4737,3 +4737,76 @@ Datenstand 25.07.2026 (Run 98). Status **emerging** (SWKI-VA105-01-Leseprobe mit
 Geltungsbereich primärquellenbelegt; die konkreten Zahlentabellen für Luftwechsel/Filterklassen/
 Druckwerte sind kostenpflichtig und in dieser Session nicht verifizierbar — zitierte deutsche
 DIN-1946-4-Werte sind ausdrücklich nur als Analogie markiert, nicht als Schweizer Norm-Zitat).
+
+### F137 — Widerspricht der vorgeschriebene Legionellenschutz beim Warmwasser meiner Wärmepumpe ihrem Effizienzziel?
+
+Teilweise ja, aber die aktuelle Schweizer Norm hat das eingepreist. **SIA 385/1:2020** verlangt
+keine pauschalen 60 °C mehr überall, sondern gestufte, tiefere Temperaturen (Entnahmestelle
+mindestens 50 °C, Zirkulationsrücklauf mindestens 55 °C, bei nachgewiesen optimaler Anlage schon
+ab 52 °C) und schafft die früher übliche wöchentliche «Legionellenschaltung» (Aufheizen auf
+60–70 °C) ausdrücklich ab, weil Feldstudien ihr keinen Hygienenutzen nachweisen konnten.
+Physikalisch liegt der Konflikt trotzdem vor: Legionellen wachsen optimal bei rund 37 °C, eine
+Wärmepumpe erreicht ihren besten COP dagegen bei möglichst kleiner Temperaturdifferenz, also bei
+tiefen Zieltemperaturen — genau im Legionellen-Wachstumsfenster. Der Hebel der aktuellen Norm ist
+nicht «immer heiss», sondern «richtig geplant»: keine Toträume, korrekt dimensionierte Zirkulation
+mit mindestens 55 °C Rücklauf je Strang, Wärmesiphon zur Trennung warmgehaltener und kalter
+Komponenten, Kaltwasser konsequent unter 25 °C. Wer den Konflikt zusätzlich entschärfen will,
+trennt Heizung und Warmwasser: Wärmepumpe für die Flächenheizung (tiefe Vorlauftemperatur, hoher
+COP), plus eine separate, kleinere Warmwasserlösung (dedizierter Wärmepumpenboiler). Der COP-
+Verlust durch die Warmwassertemperatur betrifft ohnehin nur den Warmwasser-Anteil des
+Energiebedarfs, der im gut gedämmten Neubau deutlich kleiner ist als der Heizanteil — die
+Systementscheidung bei der Heizung selbst bleibt der grössere JAZ-Hebel.
+→ `[[trinkwassererwaermung-legionellenschutz-energieeffizienz]]`, `[[waermepumpe-systemvergleich]]`.
+Datenstand 25.07.2026 (Run 99). Status **emerging** (SIA 385/1:2020 und SVGW W3/E3:2020 über einen
+sehr belastbaren Sekundärbeleg — Fachartikel eines SIA-385-Kommissionsmitglieds mit direkt
+reproduzierten Normauszügen — dokumentiert; der Norm-Volltext selbst und das BAG/BLV-Original-PDF
+wurden noch nicht direkt eingesehen).
+
+### F138 — Lohnt sich Betonkernaktivierung (TABS) für unser Gebäude?
+
+Betonkernaktivierung heizt und kühlt über Rohrregister, die in die Rohbaudecke einbetoniert
+werden, bei sehr tiefer Systemtemperatur (Heizen rund 22–32 °C Vorlauf, Kühlen rund 16–20 °C) —
+das ist ideal für die Effizienz einer Wärmepumpe, weil die Temperaturspreizung zwischen Quelle und
+Senke klein bleibt und die JAZ steigt. Das System passt zu grossen, kompakten Gebäuden mit
+gleichmässiger, planbarer Nutzung (Büro, Schule, Pflegestation), **nicht** zu Räumen mit rasch
+wechselnden Anforderungen wie einem Operationssaal, weil die grosse Speichermasse des Betons eine
+Phasenverschiebung von Stunden bis Tagen erzeugt: eine klassische, schnell reagierende
+Raumtemperaturregelung funktioniert nicht, stattdessen braucht es eine vorausschauende
+Vorsteuerung. Entscheidend für die Bauherrschaft: Die Entscheidung fällt im Rohbau, nicht später —
+die Rohrregister werden einbetoniert und sind danach praktisch nicht mehr korrigierbar. Bei
+gemischt genutzten Gebäuden (z.B. Bürogeschosse und ein Pflegetrakt im selben Haus) sollte TABS
+gezielt nur in den geeigneten Nutzungszonen vorgesehen werden, nicht pauschal im ganzen Baukörper.
+Im Sommer lässt sich dieselbe Speichermasse zusätzlich für Nachtauskühlung/Free Cooling nutzen.
+→ `[[betonkernaktivierung-tabs-energieeffizienz]]`, `[[waermepumpe-systemvergleich]]`,
+`[[sia-2024-nutzungsdaten-gesundheitsbau]]`.
+Datenstand 25.07.2026 (Run 99). Status **emerging** (Funktionsprinzip, Systemtemperaturen und
+WP-Kopplungslogik über mehrere unabhängige Quellen konvergent belegt; die massgebende Norm SIA
+384.354:2021 nur dem Titel nach verifiziert, nicht im Volltext gelesen; die Nicht-Eignungsaussage
+für OP-Säle stützt sich auf deutsche Sekundärquellen statt auf eine Schweizer Primärquelle mit
+Spitalbezug).
+
+### F139 — Muss ich alles auf einmal sanieren, oder kann ich etappieren, ohne später Fehlinvestitionen zu machen?
+
+Etappieren ist erlaubt und in der Praxis meist sogar der Regelfall, weil Bauteile nicht
+gleichzeitig das Lebensdauerende erreichen. Entscheidend ist nicht **ob**, sondern **dass** die
+Etappen einem vorab erarbeiteten Gesamtkonzept folgen, idealerweise gestützt auf einen GEAK Plus
+mit seinen bis zu fünf Sanierungsvarianten. Die Faustregel für die Reihenfolge lautet «Hülle vor
+Heizung»: Eine gut gedämmte Gebäudehülle senkt den Wärmebedarf gegenüber einem schlecht gedämmten
+Gebäude um mehr als die Hälfte; wird zuerst die Heizung ersetzt, wird sie auf den heutigen, zu
+hohen Wärmebedarf ausgelegt und läuft nach einer späteren Dämmung überdimensioniert und
+ineffizient. Innerhalb der Hülle empfiehlt sich zudem Fassade/Fenster vor Dach/Kellerdecke, damit
+sich Anschlussdetails wärmebrückenarm gestalten lassen, statt nachträglich an bereits fertige
+Details angeschlossen werden zu müssen. Wichtiger Förder-Fallstrick: Wer den Bonus für die
+Gesamtsanierung will (ZH und SZ setzen je mindestens 90 % gedämmte Bauteilflächen voraus), muss
+das von der ersten Etappe an mitplanen — eine bereits ausbezahlte Einzelmassnahme lässt sich
+förderrechtlich nicht nachträglich zur Gesamtsanierung «aufwerten». Reicht die Zeit bis zum
+Heizungsausfall nicht für die volle Fassadensanierung, ist der pragmatische Kompromiss, wenigstens
+die Fenster vorzuziehen, um den Wärmebedarf so weit zu senken, dass die neue Heizung sinnvoll
+dimensioniert werden kann.
+→ `[[sanierungsfahrplan-etappierung-gebaeudehuelle]]`, `[[geak-gebaeudeenergieausweis-kantone]]`,
+`[[foerderprogramm-energie-zh-2026]]`, `[[foerderprogramm-energie-sz-2026]]`.
+Datenstand 25.07.2026 (Run 99). Status **emerging** (Kernprinzip «Hülle vor Heizung» über
+EnergieSchweiz/HEV Schweiz solide belegt; die konkrete Etappen-Reihenfolge stammt nur aus zwei
+journalistischen Sekundärquellen; kein amtliches Schweizer Dokument mit dem Titel
+«Sanierungsfahrplan» gefunden, der GEAK Plus übernimmt diese Funktion, ist aber kein gleichnamiges
+eigenes Instrument).
