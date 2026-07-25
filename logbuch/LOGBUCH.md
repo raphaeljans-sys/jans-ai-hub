@@ -5,6 +5,26 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-26
+
+**Schwesterproblem geloest: kein `git` mehr ueber SMB aufs NAS-Repo (~00:15).** Auf Raphaels
+Zuruf «mach es genau so wie Du findest ist die beste Loesung» das tieferliegende Thema hinter
+den Mount-Haengern angegangen. Ist-Analyse: `git-auto-sync.sh` laeuft auf dem lokalen SSD-Klon
+(gesund, kein SMB), `nas-selfcommit.sh` nativ auf der Synology (ext4, commit+fetch+rebase+push,
+alle 15 Min, ueber Nacht bewiesen robust). Der EINZIGE Haenger-Verursacher war, dass Claude UND
+die vollgas-Loops zusaetzlich `git commit/push` direkt gegen das NAS-`.git` ueber den SMB-Mount
+laufen liessen — uninterruptibel haengend, index.lock fuer alle blockierend. Fix (nichts Neues
+gebaut, die native Strecke konsequent genutzt): (1) `nas-selfcommit.sh` nimmt neu ein optionales
+Message-Arg; (2) neuer Helper `scripts/nas-commit-now.sh "<Message>"` loest den nativen Committer
+per ssh sofort aus (commit+push, danach SSD-Klon-Pull) — getestet, Commit 65ffe40d trug die
+uebergebene Message, rc 0; (3) `vollgas-runner` Loop-Prompt ruft neu `nas-commit-now` statt selbst
+zu committen; (4) kodifiziert in Rules `sync-kanonische-quelle` (Schritt 3 + NIE-Liste umgeschrieben)
+und `git-auto-push` (NAS-Repo-Ausnahme vorangestellt) + auto-verbesserung 260726; die pathspec-
+Mitigation (Rule 260724) ist damit ueberholt. Alle Skripte `bash -n`-geprueft. Offen/Folgeschritt:
+einzelne Scheduled-Task-SKILL.md (`~/.claude/scheduled-tasks/*/`) tragen teils noch «committen und
+pushen» — bei Gelegenheit auf nas-commit-now migrieren (Rules gehen im Konflikt vor). Dieser
+Logbuch-Eintrag wurde bereits ueber den neuen Weg (nas-commit-now) gesichert.
+
 ## 2026-07-25
 
 **NAS-Mount gehaertet (mobile Station) — auf Auftrag Raphael «viel robuster aufsetzen»

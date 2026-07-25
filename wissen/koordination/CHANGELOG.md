@@ -3,6 +3,76 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-26 — Run 16 (Workflow-Fan-out: 5 Lese-Agenten + 10 adversariale Verifikatoren; 10 BESTAETIGT / 0 WIDERLEGT)
+- **Verfahren:** Workflow-Tool, 15 Agenten, ~2.06 Mio. Subagent-Token, 250 Tool-Calls, 10:45 Min.
+  Zuschnitt bewusst eng auf das **Delta seit Run 15** (25.07., 13:20): fuenf Paare, jedes dort angesetzt,
+  wo zwei KBs in den letzten Stunden unabhaengig zum selben Gegenstand geschrieben haben. Kollisionsschutz
+  (Rule 260724) vorab und vor den normen-Edits geprueft (Run 29 um 00:02 beendet), Commit pathspec-begrenzt.
+  Bericht: `outputs/2026-07-26_wissens-chef-run16.md`.
+- **Ergebnis: 15 Meldungen, 10 verifiziert, 10 BESTAETIGT, 0 WIDERLEGT** (Run 15: 5 von 14 kassiert).
+  Der Unterschied liegt am Zuschnitt, nicht an der Agentenzahl. **Drei von sechs materiellen Fehlern
+  betrafen Material, das keine elf Stunden alt war** — der Chef wirkt hier als unmittelbare zweite Instanz
+  ueber dem, was die Nacht-Loops gerade produziert haben.
+- **[korrektur, materiell] Falscher Befreiungskatalog im ZH-Energierecht (energie).** Das brandneue
+  Grossverbraucher-Destillat schrieb dem Kt. ZH an vier Stellen den **Schwyzer** Katalog zu
+  («§§ 6-8/§ 10 EnerG» = § 9 Abs. 4 kEnG SZ). Amtlich: § 13a Abs. 2 EnerG delegiert an die Verordnung,
+  **§ 48b Abs. 2 BBV I** nennt §§ 22a, 23, 26, 29 Abs. 2-4, 30a, 45, 45a. Verifier hat das amtliche
+  EnerG-PDF von notes.zh.ch gezogen. Analogie ZH/SZ auf die Schwellenwerte eingeschraenkt.
+- **[korrektur, materiell] Betriebsoptimierung ZH (planungsgrundlagen).** Fristbeginn stand auf
+  «Fertigstellung» statt **Inbetriebsetzung** (§ 13d Abs. 1 EnerG), und die beiden Befreiungstatbestaende
+  (Grossverbraucher-Zielvereinbarung, KMU-Modell, § 48c Abs. 1 lit. b/c BBV I) fehlten ganz. **Praxisfolge:**
+  Spital/Pflegeheim waere faelschlich in die BO-Pflicht gefallen.
+- **[korrektur, materiell] SIA 181 auf den falschen Fall angewandt (energie, 4 Stellen).** 28 dB(A)
+  (Tabelle 6, **zwischen** Nutzungseinheiten) war zum Zielmass «im eigenen Schlafzimmer» erklaert worden;
+  **innerhalb** der eigenen Einheit gibt Ziff. 0.1.2 nur Empfehlungen (Anhang G 30/25 dB(A)). Fallunterscheidung
+  eingesetzt, STWEG-Sonderfall (Ziff. 2.2.2) ergaenzt.
+- **[korrektur, materiell] «Wird von keiner Behoerde geprueft» (energie, 2 Stellen)** war eine Verallgemeinerung
+  der engeren Destillat-Aussage. SIA 181 Ziff. 0.1.7 unterstellt den abgestrahlten Koerperschall bis zur eidg.
+  Erschuetterungsverordnung **direkt dem USG** → praezisiert; die Korrektur macht das Bauherren-Argument staerker.
+- **[korrektur, materiell] Uebergabe fuer erledigt erklaert, ohne dass sie ankam (energie → normen).**
+  Die SIA-382/1-Schliessung war gegen `normen/wiki/REGISTER.md` verifiziert worden; das gemeldete **Destillat**
+  lief unveraendert als `established` mit Stand 2014 und ohne Fassungshinweis — genau das Artefakt, das die
+  Rule `normen-referenz` fuer LV/Werkvertrag zieht. Ausgaben-Vorbehalt gesetzt, Schliessung teilweise zurueckgenommen.
+- **[korrektur, materiell] Healthcare-Parameter-Set: Zahl bereinigt, Quellenzeiger nicht (entwurfs-referenzen).**
+  Die Neufassung v2.0 (25.07., 21:53) hat das beanstandete Band entfernt, aber `quelle_kb: "wissen/grobkosten/"`
+  uebernommen — die KB, die Healthcare ausdruecklich ausschliesst. Da `quelle_kb` das einzige maschinenlesbare
+  Quellenfeld ist, waeren konsumierende Werkzeuge auf die untersagte Quelle gelenkt worden. Umgestellt auf
+  `immobilienbewertung/realwert-sachwert`, m2-NF auf Skill `kostenschaetzung`, grobkosten explizit als
+  nicht anwendbar deklariert; JSON schema-valide.
+- **[E-2 geschlossen] Der offene Fachentscheid aus Run 15 hat sich erledigt** — nicht durch Raphael, sondern
+  durch die Neufassung: v2.0 fuehrt fuer Healthcare gar keine eigenen Kostenzahlen mehr (Muster B6 belegt, dass
+  kein externer Jurybericht einen projektspezifischen Kennwert nennt) und verweist deckungsgleich auf die
+  fuehrende Quelle. **Verfahrenshinweis:** faktisch wurde damit im KB-Loop die Loeschoption gezogen, die Run 15
+  als rueckfragepflichtig markiert hatte. Sachlich begruendet, aber ein Praezedenzfall — Vorschlag im Bericht,
+  Sperrvermerke kuenftig maschinenlesbar zu setzen.
+- **[struktur, neue Diagnose] Muster 1 «Uebergabe verpufft» zum 5. und 6. Mal — mit der Ursache.** Die vier
+  Bring-Schulden, die Run 15 in `normen/wiki/QUESTIONS.md` angemeldet hatte, waren nach Run 28 unberuehrt:
+  der Nacht-Loop waehlt seine Arbeit aus dem **Arbeitsregister** (`training/norm-inventar.md`), nicht aus der
+  **Fragenliste**. → vier Inventar-Zeilen gesetzt, Registerstatus von «behoben» zurueckgenommen.
+  **Verallgemeinerte Regel: eine Uebergabe gehoert in das Arbeitsregister der Empfaenger-KB, nicht nur in
+  deren Fragenliste** (praezisiert die Run-8-Regel). Zweiter Fall: energie hatte einen § 273-Korrekturhinweis
+  an `baurecht` nur bei sich notiert → in `baurecht/wiki/QUESTIONS.md` zugestellt.
+- **[struktur] Weitere Aktionen:** Querbezug-Block `normen` im Koerperschall-Destillat (Rule `normen-referenz`
+  greift beim Schreiben weiterhin nicht — 4. Fundort) · ⚠-Ausgaben-Flag SIA 181 2006/+3 dB gegen 2020/+4 dB
+  beidseitig · Bring-Schuld zur BBV-I-Verordnungsebene geschlossen · Abnehmer-Block in der fuehrenden
+  Healthcare-Kennwertquelle (`immobilienbewertung/realwert-sachwert` kannte seine Abnehmer nicht) ·
+  Haupt-INDEX entwurfs-referenzen von den entfallenen v1.0-Quellen befreit · **drei neue Matrix-Zeilen**
+  (Energie-Erlassstand ZH → baurecht; Grossverbraucher/Vollzug + SZ-Energierecht → energie;
+  Einzelfall-Beweiskette → projekt-lessons).
+- **[erst-pruefung] `projekt-lessons`** (nie zuvor im Register, Rotation): KB-eigene Tagging-Regel im einzigen
+  Artikel nicht umgesetzt (`links: []`, keine SIA-Phase) und vom Health-Check als «korrekt» abgenommen →
+  Frontmatter nachgezogen · Lesson und `auflagebereinigung` dokumentierten **denselben Vorgang** (Auflage II.19,
+  Projekt 2619), ohne voneinander zu wissen → bidirektional verlinkt mit Rollentrennung · generische VKF-Werte
+  als **abgeleitet** gekennzeichnet (fuehrend bleibt `normen`).
+- **[offen, keine Chef-Entscheide]** Fassungsbezeichnung «Nachtrag vom 19.4.2021» im energie-Frontmatter
+  (Befund bestaetigt, Verifier-Freigabe zurueckgehalten — Vorschlag im Bericht) · Re-Destillat SIA 181:2020
+  (normen) · Health-Check-Pruefliste projekt-lessons um die Tagging-Regel erweitern. **Weiter offen aus
+  frueheren Runs:** Private-Kontrolle-Trim energie↔pg (destruktiv, Entscheid Raphael, seit Run 11) ·
+  Umlaut-Config-Bug (getrackt).
+- **[bewertung] Fuer Raphael steht kein Entscheid an.** Der einzige offene Fachentscheid (E-2) ist erledigt.
+  Gemeinsame Lehre aus den zwei staerksten Befunden: **Uebergaben zwischen KBs muessen am Ort ihrer Wirkung
+  ueberprueft werden, nicht am Ort ihrer Ankuendigung.**
+
 ## 2026-07-25 — Run 15 (Workflow-Fan-out: 6 Lese-Agenten + 14 adversariale Verifikatoren; 9 BESTAETIGT / 5 WIDERLEGT)
 - **Verfahren:** erster Lauf nach Aufhebung der Drossel (Rule 260725) wieder mit dem **Workflow-Tool**
   statt inline — 6 parallele Lese-Agenten (baurecht↔pg · normen↔baurecht · energie↔pg · Kennwert-Feld ·
