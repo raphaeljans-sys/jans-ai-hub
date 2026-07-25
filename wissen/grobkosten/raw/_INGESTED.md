@@ -15,5 +15,5 @@ kalibriert".
 | 2414-thalwil.md | eingearbeitet | Volles BKP-1-6-Bild (526'300 CHF, kein GV) + 2 Teilvolumen-Kennwerte als Einzelfall n=1 in `kennwerte.md` |
 | 2515-wartstrasse.md | eingearbeitet | Kein GV, nicht verwertbar für CHF/m³-Kennwerte; in `kennwerte.md` als geprüft/verworfen vermerkt |
 | 2518-grubenackerstrasse.md | eingearbeitet | 950-1'050 CHF/m³ auf unverifiziertem Volumen, Einzelfall n=1 unverifiziert in `kennwerte.md` |
-| 2202-ackersteinstrasse.md | eingearbeitet | Run 3: vier widersprüchliche Kostenstände (613-850 m³, CHF 480k-1.22 Mio), nicht mal als Einzelfall in `kennwerte.md` geführt |
-| 2304-reckholdern.md | eingearbeitet | Run 3: GV 1'715 m³ + BKP-Gliederung vorhanden, aber Dokument intern widersprüchlich (CHF 2.96 Mio vs. 1.8 Mio im selben Dokument), nicht in `kennwerte.md` geführt |
+| 2202-ackersteinstrasse.md | eingearbeitet | Run 3: vier widersprüchliche Kostenstände (613-850 m³, CHF 480k-1.22 Mio), nicht mal als Einzelfall in `kennwerte.md` geführt. Run 4: Ursache geklärt (Mandat endete vor Ausführung, letzte Rechnung 09/2023) — Fall geschlossen, weiterhin nicht verwertbar |
+| 2304-reckholdern.md | eingearbeitet | Run 3: GV 1'715 m³ + BKP-Gliederung vorhanden, aber Dokument intern widersprüchlich (CHF 2.96 Mio vs. 1.8 Mio im selben Dokument), nicht in `kennwerte.md` geführt. Run 4: späteres Dokument (Marktwertanalyse 31.12.2023) löst Widerspruch auf — GV 1'986 m³ + BKP 1-5 CHF 3'446'500 = 1'735 CHF/m³, erster verwertbarer Einzelfall n=1 in `kennwerte.md` |

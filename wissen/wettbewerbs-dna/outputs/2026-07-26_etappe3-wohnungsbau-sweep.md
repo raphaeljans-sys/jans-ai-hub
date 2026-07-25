@@ -39,33 +39,36 @@ in aehnlicher Groessenordnung wie beim Healthcare-Sweep (48 → 42).
 Guggerbach Davos, 2207 Schliengerweg Basel, 2503 Glockenacker Zuerich-Witikon) sind von allen
 Scouts korrekt ausgeschlossen worden und erscheinen nicht in der Liste.
 
-## Subtypen-Abdeckung (54 eindeutige Kandidaten)
+## Subtypen-Abdeckung (55 eindeutige Kandidaten, Traeger-Typ-Spalte)
 
-- **Genossenschaftlich** (Wohnbaugenossenschaft als Auslober/Traeger): 20 — u.a. Neuwiesen,
+- **Genossenschaftlich** (Wohnbaugenossenschaft als Auslober/Traeger): 15 — u.a. Neuwiesen,
   Seebahn-Hoefe, Guet+Espenhof, Goldacker, Grossalbis, Kelchweg, Gesewo Wiesendangen (ZH);
-  Via Felsenau, Holliger U1/O3-U3 (BE); Walkeweg-Genossenschaften (BS); Graphis, Vogelsang (AG/ZH);
-  Industriestrasse-Kooperation, Hochhuesliweid (LU)
+  Via Felsenau, Holliger U1/O3-U3 (BE); Walkeweg-Genossenschaften 1./2. Stufe (BS); Graphis
+  Aarau-Rohr, Siedlung Vogelsang (AG/ZH); Hochhuesliweid (LU)
 - **Stadt/Gemeinde/Kanton** (oeffentliche Bauherrschaft): 15 — u.a. Schuetze-Areal, Imfeldsteig,
-  Salzweg (Stadt Zuerich); Viererfeld/Mittelfeld, Eymatt, Freiburgstrasse 121 (Stadt Bern);
-  Riehenring, Rankstrasse, Hochbergerstrasse, Burgfelderstrasse (Kanton BS); Promulins (Samedan),
-  Waetterweid (Arosa), Erlach, Waldacker/Stadtsaege (Ortsbuergergemeinde St. Gallen)
-- **Privat-institutionell** (Pensionskasse/Anlagestiftung/privater Investor): 12 — Dennlerstrasse
-  (Pensionskasse UBS), Guggach II (Pensionskasse UBS), Brugg-Umiken (Anlagestiftung Rimmobas),
-  Holliger U2 (npg AG), Brunnmatt-Ost/Baelliz Thun (unklar, private Investoren), ASGA
-  Stephanshornweg, Claire-Vue Lancy + Les Vernets/PAV Genf (Pensionskassen), NEST Aemet
-  (unklar), Korki-Areal Duerrenaesch, Kreuzlingen-Trias (Bernrain/Wolfacker/Bellevue 51)
-- **Gemischt-genossenschaftlich/staedtebaulich** (Wohnen dominant + Gewerbe/Park/Kultur):
-  7 — Koch-Areal, Stadtsaege St. Gallen, Industriestrasse Luzern, Gleis 11 Solothurn,
-  Unterfeld Sued Baar, Les Vernets/PAV Genf
+  Wohnsiedlung im Gut, Walkeweg C+D (Stadt/Kanton Zuerich/Basel); Viererfeld/Mittelfeld, Eymatt,
+  Freiburgstrasse 121, Reichenbachstrasse 118 (Stadt Bern); Riehenring, Rankstrasse,
+  Hochbergerstrasse, Burgfelderstrasse (Kanton BS); Promulins (Samedan), Waetterweid (Arosa),
+  Waldacker (Ortsbuergergemeinde St. Gallen)
+- **Privat-institutionell** (Pensionskasse/Anlagestiftung/privater Investor/Stiftung): 11 —
+  Dennlerstrasse (Pensionskasse UBS), Guggach II (Pensionskasse UBS), Brugg-Umiken (Anlagestiftung
+  Rimmobas), Holliger U2 (npg AG), Wohnhaus Letzi, Muertschen/Oberseestrasse (Gebaeudeversicherung
+  SG), Brisgi-Areal (Stiftung), ASGA Stephanshornweg, Claire-Vue Lancy (Pensionskasse UBS),
+  Brunnmatt-Ost/NEST Aemet (unklar, private Investoren)
+- **Gemischt** (Wohnen dominant + Gewerbe/Buero/Park/Kultur): 7 — Koch-Areal, Salzweg,
+  Stadtsaege St. Gallen, Industriestrasse Luzern, Erlach Stadtgraben, Les Vernets/PAV Genf,
+  Unterfeld Sued Baar
+- **Studienauftrag statt klassischer Wettbewerb** (inkl. 1x gemischt): 6 — Korki-Areal
+  Duerrenaesch, Gleis 11 Solothurn (gemischt), Wolfacker-Gaissbergpark Kreuzlingen, Bellevue 51
+  Kreuzlingen, Bernrain Kreuzlingen, Baelliz Thun (unklar) (Verfahrensart bei B3 im Frontmatter
+  kennzeichnen, analog Healthcare-Praezedenz Widnau)
 - **Grenzfall Alterswohnen ohne Pflege**: 1 — Felsenrain Zuerich (Stiftung Alterswohnungen der
   Stadt Zuerich; laut Scout-Recherche betreuungsfreies Wohnen ohne Pflegekomponente — bewusst
   NICHT der bereits abgeschlossenen Healthcare-Etappe zugeschlagen, bei B3 Programmtext
   gegenpruefen und Entscheid dokumentieren)
-- **Studienauftrag statt klassischer Wettbewerb**: 5 — Korki-Areal Duerrenaesch, Gleis 11
-  Solothurn, Wolfacker-Gaissbergpark Kreuzlingen, Bellevue 51 Kreuzlingen (Verfahrensart bei
-  B3 im Frontmatter kennzeichnen, analog Healthcare-Praezedenz Widnau)
-- **Zugang unklar** (nicht in frei-pdf-Zaehlung): 3 — bern-brunnmatt-ost (Login-Sperre
-  konkurado.ch), frutiger-baelliz-thun (HTTP 403), nest-aemet-birmensdorf (kein PDF auffindbar)
+- **Zugang unklar** (nicht in frei-pdf-Zaehlung, in obigen Kategorien bereits mitgezaehlt): 3 —
+  bern-brunnmatt-ost (Login-Sperre konkurado.ch), frutiger-baelliz-thun (HTTP 403),
+  nest-aemet-birmensdorf (kein PDF auffindbar)
 
 ## Empfohlener Batch fuer B2/B3 (naechste Folgelaeufe)
 

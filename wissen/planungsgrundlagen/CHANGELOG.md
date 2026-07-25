@@ -2,6 +2,29 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-26 — Run 91: Frischecheck Kartenportale+Energie (Null) + **M4 geschlossen** (KB-weite Umlaut-Sanierung, 51 Dateien)
+Frischecheck gegen Run 89: **0 neue/geänderte Dateien** in `PL - 01 Kartenportale` und
+`PL - 04 Energie` — 25. Nullbefund-Bestätigung in Folge. Statt eines 25. identischen Nullberichts
+den seit dem Health-Check 25.07. offenen Register-Punkt **M4** abgearbeitet (der einzige ohne
+neues Quellmaterial und ohne reales Projekt lösbare Punkt der KB). Die bisherige Begründung
+("zu gross für einen Nachtschicht-Fix") war eine Fehldiagnose: nicht der Umfang war das Problem,
+sondern der Lösungsansatz — eine Regex kann `Gebaeude`/`Zuerich` (ersetzt) nicht von
+`neue`/`bauen`/`Feuerwehr`/`Quelle`/`aktuell`/`Risikoermittlung` (legitim) trennen. Deshalb
+**kuratiertes Token-Mapping statt Regex**: 2'651 distinkte Tokens extrahiert, von acht parallelen
+Sonnet-Klassifikatoren beurteilt (Modell-Politik MVM), maschinell validiert (jede Ersetzung muss
+allein durch `ae→ä`/`oe→ö`/`ue→ü` aus dem Original ableitbar sein — 0 Beanstandungen bei 2'651
+Zeilen), die 13 riskanten Konvertierungen und alle 317 Nicht-Konvertierungen auf dem Hauptmodell
+gegengelesen. Ergebnis: **2'334 Tokens korrigiert, 317 bewusst unverändert, 4'769 Zeilen in 51
+Dateien**. Verifikation gegen Backup: Wikilinks, URLs und Zeilenzahl je Datei **bitgleich/
+identisch** — kein Fachwert, keine Quelle, keine Fundstelle verändert. Neues wiederverwendbares
+Werkzeug angelegt: `scripts/umlaut-restore.py` + `scripts/umlaut-restore-mapping.json` (mit
+Schutzzonen für Code, URLs, `[[Wikilinks]]`, Linkziele, Pfade, Dateinamen, Slugs — zwingend wegen
+`dateinamen-konvention.md`). Nebenbefund miterledigt: Tippfehler `frühren` → `früheren` (2x) in
+`wiki/recht-norm-ivhb-baubegriffe.md`. Bewusst nicht angefasst: `OEREB` (Akronym), `CHANGELOG`/
+`outputs` (historische Protokolle), Eigennamen `Troesch`/`Schaerer`/`Lueter` (nicht geraten).
+**Offen bleibt in der ganzen KB nur noch D9** (realer MFH-/ZEV-Fall, wartet auf reales Projekt).
+→ `outputs/2026-07-26_training-run91.md`.
+
 ## 2026-07-26 — Nachtrag Run 90 (Intensiv-Lauf auf Raphaels direkten Auftrag): WebSearch-Refresh nachgeholt
 Zusaetzlich zum automatischen Run 90 (00:34, reiner Frischecheck) auf Raphaels expliziten Auftrag
 einen weiteren Intensiv-Lauf zum selben Rotations-Turnus (Recht/Norm+Brandschutz) gefahren, statt

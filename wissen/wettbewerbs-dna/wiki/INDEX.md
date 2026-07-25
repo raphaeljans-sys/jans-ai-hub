@@ -1,6 +1,16 @@
 # INDEX — KB wettbewerbs-dna
 
-Stand: 25.07.2026 (Etappe 3, **Baustein B2/B3 Healthcare Tranche 3 (Vertiefung) — Healthcare B3 nun
+Stand: 26.07.2026 (Etappe 3, **Baustein B1 Wohnungsbau erledigt — Quellen-Sweep
+`outputs/2026-07-26_etappe3-wohnungsbau-sweep.md`:** 6 Scouts (espazium/zuerich/bern-basel/
+luzern-ostschweiz/weitere-kantone/genossenschaften-stiftungen, WebSearch+curl-Verifikation)
+meldeten 61 Rohkandidaten, nach Dedup (6 identische PDF-URLs von je 2 Scouts unabhaengig
+gefunden) **55 eindeutige Kandidaten, 52 frei-pdf HTTP-verifiziert** (Ziel >=15/>=8 deutlich
+uebertroffen). Traeger-Spreizung: 15 genossenschaftlich, 15 stadt-gemeinde, 11
+privat-institutionell (Pensionskassen/Anlagestiftungen), 7 gemischt (Wohnen+Gewerbe), 6
+Studienauftrag statt klassischer Wettbewerb, 1 Grenzfall Alterswohnen ohne Pflege (Felsenrain
+Zuerich). Dedup gegen die drei eigenen JANS-Wohnungsbau-Teilnahmen (2205/2207/2503) sauber.
+Naechste Zelle: Wohnungsbau B2/B3 (empfohlener 9er-Batch im Sweep-Report markiert). — vorher
+25.07.2026 (Etappe 3, **Baustein B2/B3 Healthcare Tranche 3 (Vertiefung) — Healthcare B3 nun
 11 established, damit ueber dem B3-Ziel 8:** 3 weitere externe Juryberichte destilliert +
 Refuter-verifiziert (established) — **luks-kinderspital-frauenklinik-luzern** (spital-klinik,
 Kinderspital + Frauenklinik + Perinatalzentrum, Studienauftrag im selektiven Verfahren 2019/2020,
