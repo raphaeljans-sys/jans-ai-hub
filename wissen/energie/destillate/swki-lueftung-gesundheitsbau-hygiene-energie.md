@@ -19,7 +19,7 @@ explizit (Kühllast bis 200 W/m² im OP, gleichzeitig Anspruch auf "möglichst o
 Beeinträchtigung der Behaglichkeit"); die konkreten Zahlentabellen sind allerdings
 Copyright-geschützt und in dieser Session nicht frei einsehbar.
 
-> **Querbezug:** Ergänzt [[sia-2024-nutzungsdaten-gesundheitsbau]] — dort wird ausdrücklich
+> **Querbezug:** Ergänzt [[sia-2024-nutzungsrandbedingungen-gesundheitsbau]] — dort wird ausdrücklich
 > festgehalten, dass SIA 2024 OP-Säle und CT/MRT-Diagnostikräume **nicht** abdeckt und auf
 > die "projektspezifische HLK-Auslegung durch Fachplaner" verweist. SWKI VA105-01 ist genau
 > diese fehlende Fachgrundlage für den lüftungstechnischen Teil.
@@ -35,7 +35,7 @@ Copyright-geschützt und in dieser Session nicht frei einsehbar.
 - **Geltungsbereich (Kapitel 0.1):** Spitalbauten allgemein, Tageskliniken, Arztpraxen mit
   Eingriffsräumen.
 - **Explizit NICHT Gegenstand** (deckt sich teilweise mit der Lücke, die
-  [[sia-2024-nutzungsdaten-gesundheitsbau]] für SIA 2024 benennt): Isolations-/
+  [[sia-2024-nutzungsrandbedingungen-gesundheitsbau]] für SIA 2024 benennt): Isolations-/
   Quarantänestationen für hochgefährliche Infektionen, hochspezialisierte Abteilungen
   (z.B. Verbrennungspatienten), Labore, Bereiche mit Medikamentenherstellung/Apotheken
   (dort gelten Swissmedic-Erlasse/PIC/S-Leitfaden separat).
@@ -157,7 +157,7 @@ Für eine Bauherrschaft (Spital, Pflegeheim, Klinikbetreiber) bedeutet dieser Be
 Die Lüftungsanlage für OP-Trakt, Isolierzimmer und Intensivstation folgt einer **eigenen,
 hygienisch begründeten Logik**, die sich nicht aus dem allgemeinen Energienachweis (SIA
 380/1, MuKEn, Minergie) ableiten lässt und auch von SIA 2024 nicht abgedeckt wird (vgl.
-[[sia-2024-nutzungsdaten-gesundheitsbau]]). Drei praktische Folgen für die frühe Kostenschätzung
+[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]). Drei praktische Folgen für die frühe Kostenschätzung
 und den Energienachweis:
 
 1. **Kühllast und Aussenluftmenge in OP-Sälen sind ein eigener Kostentreiber:** bis zu 200 W/m²
@@ -203,10 +203,16 @@ und den Energienachweis:
   ausdrücklich referenziert oder von SIA 380/1 abweichende Anforderungen für Spitalräume
   vorschreibt.
 - Ob und wie SWKI VA105-01 mit den 2019 harmonisierten SIA-2024-Gebäudekategorien VIII.1/VIII.2
-  (vgl. [[sia-2024-nutzungsdaten-gesundheitsbau]]) verzahnt ist, bleibt offen — beide
+  (vgl. [[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]) verzahnt ist, bleibt offen — beide
   Regelwerke scheinen bisher unabhängig voneinander fortentwickelt zu werden.
 - Für Isolierzimmer speziell (Über-/Unterdruck-Kaskaden, Schleusenkonzepte) fehlt eine
   Schweizer Fachquelle mit konkreten Pa-Werten; die zitierte Sekundärquelle nennt nur
   qualitativ "statische Druckregelung im Über- oder Unterdruck (aseptisch/septisch)".
 
-**Backlinks:** [[sia-2024-nutzungsdaten-gesundheitsbau]]
+**Nachtrag Run 115 (2026-07-26):** Das Destillat [[reinraum-op-klimatisierung-gesundheitsbau-ch]]
+vertieft dieses Thema unabhängig mit zusätzlichen Primärquellen (USZ-Baurichtlinie 244/245 mit
+realem H14-Filterfabrikat, SN-22500-Identifikation, vor allem die Swissnoso-Metaanalyse 2018, die
+den Infektionsschutz-Nutzen von TAV gegenüber Mischlüftung mit konkreten Zahlen anzweifelt) — beide
+Destillate ergänzen sich, ein formaler Merge ist eine spätere bewusste Bereinigung.
+
+**Backlinks:** [[sia-2024-nutzungsrandbedingungen-gesundheitsbau]], [[reinraum-op-klimatisierung-gesundheitsbau-ch]]

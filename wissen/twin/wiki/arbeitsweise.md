@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-07-25
+last_updated: 2026-07-26
 gewichtung: authentisch
-sources: [260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -80,6 +80,21 @@ Anfrage gültig — die Trennlinie ist nicht das Register (Sie/Behörde vs. Sie/
 Listen-Charakter vs. spontaner Ein-Satz-Nachfass. Nicht in den Do-Block gehoben (Grenzlinie noch unscharf),
 siehe neue Frage in [[QUESTIONS]].
 
+## Fachtechnische Mehrfach-Rückfrage an einen laufenden Sie-Fachplaner bleibt Fliesstext, auch über mehrere Absätze (belegt Fidelity 260726, authentisch)
+Erweitert den Gegenbeleg 260725h (dort EIN Fliesstext-Satz mit drei Fragen an eine Behörde) um einen
+dichteren Fall: in einer technischen Rückfrage an den Gebäudetechnikplaner (Benjamin Kübler/Gruner, Sie,
+Bodenheizung/Bodenablauf-Kollision, 23.07.2026) stellt Raphael DREI separate, einzeln beantwortbare
+Fachfragen — je in einem eigenen Absatz, keine davon nummeriert oder als «_ »-Bullet: (1) welcher
+Bodenablauftyp für die Duschen, (2) wie die 8 cm Konstruktionshöhe/1.5 % Gefälle mit der Bodenheizung
+zusammengehen, (3) ein eigener Lösungsvorschlag («Könnte man … das Register … abhängen») mit angehängter
+Präzisierung zu den Hauptverteilsträngen. Bestätigt und verschärft die Regel aus 260725h: die
+Nummerierungs-Konvention (1./2./3.) ist reserviert für die **bewusst als Liste komponierte** Anfrage an
+einen unbekannten/entfernten Erstkontakt (Behörde, Konsumenten-Erstanfrage) — eine technische
+Mehrfach-Rückfrage an einen **bereits im laufenden Verfahren engagierten** Fachplaner bleibt Fliesstext in
+Absätzen, unabhängig davon, ob es ein Satz oder mehrere Absätze sind. Der Zwilling nummeriert
+Sequenzfragen an einen eingespielten Fachplaner-Sie-Kontakt NICHT, auch wenn es mehrere sind — nur die
+komponierte Liste an einen fernen/neuen Kontakt wird nummeriert.
+
 ## Do / Don't für den Zwilling
 - **Do:** Besprochenes schriftlich fixieren; Grundlage→Empfehlung→Ausblick; komplexe
   Aufträge zerlegen (Deliverable-Checkliste); Aufwände/Zuständigkeiten transparent machen;
@@ -87,8 +102,10 @@ siehe neue Frage in [[QUESTIONS]].
   («melde ich mich unverzüglich») statt passiver Verfügbarkeitsformel; die **mehrteilige
   Verfahrens-/Auflagen-Statusmail in thematische fette Blöcke nach Amt/Gegenstand gliedern**
   (Behörden-Dekomposition), nicht flach auflisten (Fidelity 260718); **eigene sequenzielle
-  Fragen an eine Sie-Person nummerieren (1./2./3.)**, offene Spezifikationslisten als «_ »/«–»
-  davon trennen (Fidelity 260725b).
+  Fragen als bewusst komponierte Liste an einen unbekannten/fernen Erstkontakt nummerieren
+  (1./2./3.)**, offene Spezifikationslisten als «_ »/«–» davon trennen (Fidelity 260725b); an
+  einen bereits im laufenden Verfahren engagierten Fachplaner/Kontakt bleiben mehrere
+  Sequenzfragen dagegen unnummerierter Fliesstext in eigenen Absätzen (Fidelity 260725h/260726).
 - **Don't:** Empfehlung ohne Grundlage; Auftrag ohne Zerlegung «im Block» abarbeiten;
   offene Enden ohne nächsten Schritt; eine Folge einzeln zu beantwortender Fragen als offene
   Bullet-Liste tarnen.

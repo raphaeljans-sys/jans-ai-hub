@@ -46,10 +46,13 @@ Inventar 528 Dateien) in belegte, schnell verfügbare Destillate überführen �
 Die Runs 15-21 haben SIA/VKF sieben Mal als «komplett» gemeldet; Run 22 hat gezeigt, dass die
 Vollständigkeits-Metrik zu schmal war und reale Arbeit unsichtbar blieb. Vier Pflichten folgen daraus:
 
-1. **Zwei Ablagen prüfen, nicht eine.** Der Normen-Bestand liegt in `PL - 02_Recht_Norm/02_Normen/`
-   **und** in `PL - 03 Brandschutz/`. Die geltenden VKF-Fassungen 2017/2022 liegen in PL-03, das
-   `norm-inventar.md` scannt aber nur PL-02. Deshalb standen zwei Destillate unbemerkt auf der
-   überholten Fassung 01.01.2015. Jede VKF-Fundstelle ist vor Verwendung gegen PL-03 zu prüfen.
+1. **Zwei Ablagen scannen, nicht eine.** Der Normen-Bestand liegt in `PL - 02_Recht_Norm/02_Normen/`
+   **und** in `PL - 03 Brandschutz/`; die geltenden VKF-Fassungen 2017/2022 liegen in PL-03. Weil das
+   Inventar lange nur PL-02 scannte, standen zwei Destillate unbemerkt auf der überholten Fassung
+   01.01.2015. **Entscheid Raphael 26.07.2026: PL-03 ist als gleichrangige Quelle ins Inventar
+   aufgenommen** (Abschnitt «PL-03 Brandschutz» in `norm-inventar.md`, mit Fassungs-Spalte). Jeder
+   Lauf pflegt beide Ablagen; jede VKF-Fundstelle wird vor Verwendung gegen die jüngste im Haus
+   liegende Fassung geprüft.
 2. **«Sprachvariante» ist eine Behauptung, keine Feststellung.** Vor dem Überspringen einer Datei als
    f/i/e-Variante ist die Sprache am Dateiinhalt bzw. an den Titel-Metadaten zu prüfen. Belegte Fälle:
    `alle/i/266_1_d.pdf` ist deutsch (SIA 266/1), `alle/f/410_d_f_i.pdf` ist dreisprachig und enthält

@@ -48,7 +48,7 @@ last_updated: "2026-07-25"
 > «nur sekundär referenziert, nicht im Volltext beschafft» benannt und als offener Punkt
 > vermerkt — dieses Destillat schliesst die Lücke so weit, wie ohne Kauf der kostenpflichtigen
 > Richtlinie möglich, über zwei unabhängige, sich gegenseitig bestätigende Sekundärquellen) und
-> `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`/`[[sia-2024-nutzungsdaten-gesundheitsbau]]`
+> `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`
 > (Schweizer Norm-Prozessenergiekennwerte je Raumnutzung — andere Systematik: SIA 2024 rechnet
 > je m² Raumnutzung im Energienachweis, VDI 3807 Bl. 2 rechnet je Planbett über das ganze
 > Gebäude, ausserhalb jedes Energienachweis-Kontexts).
@@ -243,10 +243,8 @@ sich weiterhin um deutsche, rund 20 Jahre alte Bestandsdaten handelt (siehe unte
   41-verbrauchskennwerte-fuer-krankenhaeuser` (Web, 2026-07-25 per WebFetch gelesen —
   bestätigt nur die Datenherkunft/den VDI-3807-Bezug, keine eigenen Zahlenwerte).
 - Bereits vorhandene KB-Destillate: `[[energie-performance-gap-gesundheitsbau]]`,
-  `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`, `[[sia-2024-nutzungsdaten-
-  gesundheitsbau]]`.
+  `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`.
 
 ## Backlinks
 
-[[energie-performance-gap-gesundheitsbau]] · [[sia-2024-nutzungsrandbedingungen-gesundheitsbau]] ·
-[[sia-2024-nutzungsdaten-gesundheitsbau]]
+[[energie-performance-gap-gesundheitsbau]] · [[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]

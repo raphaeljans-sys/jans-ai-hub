@@ -1,7 +1,12 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-07-25 (Run 114: F164-F166 neu — drei parallele Rechercheagenten mit
+last_updated: 2026-07-26 (Run 115: F167 neu + F136 geschärft — zwei parallele Rechercheagenten,
+  Healthcare-Prozessenergie-Vertiefung: Reinraum-/OP-Klimatisierung [SWKI VA105-01/SN 22500,
+  Swissnoso-Metaanalyse 2018 zweifelt TAV-Nutzen an, ergänzt/vertieft Run-98-Destillat
+  swki-lueftung-gesundheitsbau-hygiene-energie] und Sterilisationsenergie/Medizintechnik-
+  Prozessenergie [USZ-Klimaklassifikation ZSVA, SGSV/Swissmedic-Prozessparameter, ehrlicher
+  Negativbefund zur kWh/Zyklus-Kennzahl]); Run 114: F164-F166 neu — drei parallele Rechercheagenten mit
   Redundanz-Check per grep vor Themenwahl (PDF-Inventar seit Run 65 erschöpft): Notstromversorgung/
   Netzersatzanlage für Spital/Pflegeheim (VKF-Merkblatt 2009-15de + NIN-Gruppen 0/1/2, hohe
   Healthcare-Relevanz für JANS), Rückkühlwerk/Kühlturm-Legionellenrisiko (BAG/BLV Modul 14) und
@@ -2880,7 +2885,7 @@ können.
 
 **Quelle:** SIA Grundlagenbericht SIA 2024:2021 (20.10.2024), SIA/EnFK-Statusbericht
 Harmonisierung (2019), EnFK-Anforderungsprofil SIA 380/1:2016 (Version 16.01a) →
-`[[sia-2024-nutzungsdaten-gesundheitsbau]]`. Status **emerging** (Gebäudekategorie- und
+`[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`. Status **emerging** (Gebäudekategorie- und
 Lüftungskennwerte primärquellennah belegt; vollständige Raumdatenblätter Anhang A nur
 kostenpflichtig zugänglich).
 
@@ -2983,7 +2988,7 @@ ursprünglich offenen Punkte am 2026-07-25 primärquellenverifiziert geschlossen
 > erschlossen: **F78 ‹Spital/Pflegeheim — reicht die Wohnbau-Logik?›** (SIA 2024:2021
 > Raumnutzungsdaten, Gebäudekategorie VIII.1 Spital/VIII.2 Pflege, Kennwerte Bettenzimmer/
 > Stationszimmer/Behandlungsraum, OP/CT/MRT explizit NICHT abgedeckt) →
-> `[[sia-2024-nutzungsdaten-gesundheitsbau]]`, JANS-Healthcare-Fokus; **F79 ‹Wer zahlt die
+> `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`, JANS-Healthcare-Fokus; **F79 ‹Wer zahlt die
 > Netzverstärkung bei grosser PV/vielen Ladestationen?›** (Art. 15b StromVG seit 1.1.2025,
 > CHF-59/CHF-50-Vergütung, 70%-Wechselrichter-Regel ab 1.1.2026, keine analoge Vergütung für
 > E-Mobilität) → `[[netzanschluss-netzverstaerkung-pv-emobilitaet-ch]]`; **F80 ‹Was kostet ein
@@ -4765,25 +4770,48 @@ Inhalt weiterhin offen; CHF-Mehrkosten bestätigter Negativbefund für Schweizer
 
 Nein. Massgebend ist für diese Räume nicht SIA 380/1 allein, sondern die spitalspezifische
 Richtlinie **SWKI VA105-01:2015** «Raumlufttechnische Anlagen in medizinisch genutzten Räumen»
-(Nachfolgerin von SWKI 99-3:2003), die für OP-Säle, Isolierzimmer und Intensivstationen eigene,
-hygienisch begründete Lüftungskonzepte verlangt (u.a. «Lüftungskonzept 1a/1b» für turbulenzarme
-Verdrängungsströmung TAV vs. Mischlüftung). Die Richtlinie hält im Vorwort selbst fest, dass
-moderne Operationen Wärmelasten bis 8'000 W bzw. rund 200 W/m² Kühlleistung erzeugen, die ohne
-Komforteinbusse abgeführt werden müssen, und dass der Infektionsschutz-Vorteil von TAV gegenüber
-Mischlüftung physikalisch plausibel, aber statistisch nicht ausreichend belegt ist.
+(Nachfolgerin von SWKI 99-3:2003) zusammen mit der Norm **SN 22500** (Strukturelle Anforderungen an
+Operationsabteilungen), die für OP-Säle, Isolierzimmer und Intensivstationen eigene, hygienisch
+begründete Lüftungskonzepte verlangen (**Konzept 1a** turbulenzarme Verdrängungsströmung TAV/
+Laminarflow vs. **Konzept 1b** turbulente Mischlüftung, Endfilterstufe H13/H14 nach EN 1822,
+Überdruckkaskade der ganzen OP-Abteilung gegenüber Nachbarbereichen). Die Richtlinie hält im
+Vorwort selbst fest, dass moderne Operationen Wärmelasten bis 8'000 W bzw. rund 200 W/m²
+Kühlleistung erzeugen, die ohne Komforteinbusse abgeführt werden müssen.
+
+**Überraschender Befund:** Die Schweizer Fachstelle für Spitalinfektions-Prävention **Swissnoso**
+zweifelt den medizinischen Nutzen der aufwändigeren TAV-Variante gegenüber der einfacheren
+Mischlüftung explizit an (Bulletin 2018, Metaanalyse Bischoff et al. 2017 über 330'146 Hüft- und
+134'368 Knieprothesen): bei Hüftprothesen zeigte TAV ein **ungünstigeres** Ergebnis (0.80 % vs.
+0.49 % Infektionsrate), bei Knieprothesen keinen signifikanten Unterschied — bei TAV-Mehrkosten von
+rund **7'000 EUR pro Jahr und Saal** (deutsche Referenzzahl). Das ist ein legitimer
+Verhandlungspunkt gegenüber dem Betreiber, bevor automatisch die teurere Variante verlangt wird.
+
 Wärmerückgewinnung wird im Gesundheitsbau nicht pauschal erlaubt, sondern in einem eigenen
 Anhang-Abschnitt (B3) differenziert behandelt, weil Zu-/Abluft aus hochhygienischen Zonen (OP,
 Isolierzimmer) laut dem allgemeinen VDI-6022-/SWKI-VA104-01-Prinzip nicht unbeschränkt in
-Wärmerückgewinnungssysteme mit Kontaminationsrisiko geführt werden darf. Für die Bauherrschaft
-heisst das konkret: die Kühllast/Aussenluftmenge des OP-Traktes ist ein eigener, früh zu
-beziffernder Kostentreiber, die WRG-Nutzungsgrad-Pauschale des SIA-380/1-Nachweises darf nicht
-unbesehen auf hochhygienische Raumzonen übertragen werden, und der TAV-vs-Mischlüftungs-Entscheid
-ist gemäss Richtlinie selbst eine projektbezogene Wirtschaftlichkeitsfrage, kein Automatismus.
-→ `[[swki-lueftung-gesundheitsbau-hygiene-energie]]`, `[[sia-2024-nutzungsdaten-gesundheitsbau]]`.
-Datenstand 25.07.2026 (Run 98). Status **emerging** (SWKI-VA105-01-Leseprobe mit Vorwort/
-Geltungsbereich primärquellenbelegt; die konkreten Zahlentabellen für Luftwechsel/Filterklassen/
-Druckwerte sind kostenpflichtig und in dieser Session nicht verifizierbar — zitierte deutsche
-DIN-1946-4-Werte sind ausdrücklich nur als Analogie markiert, nicht als Schweizer Norm-Zitat).
+Wärmerückgewinnungssysteme mit Kontaminationsrisiko geführt werden darf. Eine Nachtabsenkung bzw.
+vollständige Abschaltung der OP-Lüftung ausserhalb der Betriebszeiten (bei geschlossenen Türen,
+mit definierter Freispülzeit von ca. 30 Minuten vor Wiederaufnahme) ist laut der deutschen
+Parallelnorm hygienisch zulässig — ein bei reinem Elektiv-Betrieb oft ungenutztes
+Energiesparpotenzial.
+
+Für die Bauherrschaft heisst das konkret: die Kühllast/Aussenluftmenge des OP-Traktes ist ein
+eigener, früh zu beziffernder Kostentreiber, die WRG-Nutzungsgrad-Pauschale des
+SIA-380/1-Nachweises darf nicht unbesehen auf hochhygienische Raumzonen übertragen werden, und der
+TAV-vs-Mischlüftungs-Entscheid ist gemäss Richtlinie selbst eine projektbezogene
+Wirtschaftlichkeitsfrage, kein Automatismus — die Swissnoso-Stellungnahme ist dabei ein starkes
+Argument gegen eine reflexhafte TAV-Vorgabe.
+
+**Quelle:** SWKI VA105-01:2015 (Vorwort/Geltungsbereich, OCR-Reproduktion KSSG); USZ-Baurichtlinie
+244/245 «Lüftungsanlagen/Klimaanlagen» (68 S. vollständig); Swissnoso-Bulletin Bally F. et al.,
+22.11.2018; DGKH-LL-RLTA-2023 (28.08.2023, deutsche Parallelnorm DIN 1946-4:2018 als
+Vergleichsmassstab, NICHT Schweizer Zahlenwerk). Datenstand 26.07.2026 (Run 115, schärft Run-98-
+Antwort) → `[[swki-lueftung-gesundheitsbau-hygiene-energie]]`,
+`[[reinraum-op-klimatisierung-gesundheitsbau-ch]]`, Themenartikel `[[reinraum-op-klimatisierung]]`,
+`[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`. Status **emerging** (SWKI-VA105-01 nur als
+Leseprobe primärquellenbelegt; die konkreten Zahlentabellen für Luftwechsel/Filterklassen/
+Druckwerte inkl. Pa-Wert der Überdruckkaskade sind kostenpflichtig und weiterhin nicht
+verifizierbar — zitierte deutsche DIN-1946-4-Werte sind ausdrücklich nur als Analogie markiert).
 
 ### F137 — Widerspricht der vorgeschriebene Legionellenschutz beim Warmwasser meiner Wärmepumpe ihrem Effizienzziel?
 
@@ -4833,7 +4861,7 @@ gemischt genutzten Gebäuden (z.B. Bürogeschosse und ein Pflegetrakt im selben 
 gezielt nur in den geeigneten Nutzungszonen vorgesehen werden, nicht pauschal im ganzen Baukörper.
 Im Sommer lässt sich dieselbe Speichermasse zusätzlich für Nachtauskühlung/Free Cooling nutzen.
 → `[[betonkernaktivierung-tabs-energieeffizienz]]`, `[[waermepumpe-systemvergleich]]`,
-`[[sia-2024-nutzungsdaten-gesundheitsbau]]`.
+`[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`.
 Datenstand 25.07.2026 (Run 99). Status **emerging** (Funktionsprinzip, Systemtemperaturen und
 WP-Kopplungslogik über mehrere unabhängige Quellen konvergent belegt; die massgebende Norm SIA
 384.354:2021 nur dem Titel nach verifiziert, nicht im Volltext gelesen; die Nicht-Eignungsaussage
@@ -4964,7 +4992,7 @@ Grössenordnung. Für ein konkretes Projekt empfiehlt sich deshalb ein Energie-M
 getrennten Zählern für Wärme/Strom/Prozessenergie schon in der Projektierung, damit sich ein
 allfälliger Mehrverbrauch später überhaupt einer Ursache zuordnen lässt.
 → `[[energie-performance-gap-gesundheitsbau]]`, `[[energie-performance-gap-monitoring-inbetriebnahme]]`,
-`[[sia-2024-nutzungsdaten-gesundheitsbau]]`, `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`.
+`[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`, `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`.
 Datenstand 25.07.2026 (Run 102, neu). Status **speculative** (sauberer, mehrfach im Volltext
 belegter Negativbefund zur Kernfrage; die Näherungswerte stammen aus deutschen, nicht Schweizer
 Bestandsbauten und sind nicht auf CH-Klimazone/-Bauvorschriften validiert).
@@ -5133,7 +5161,7 @@ sparendes Krankenhaus» (2018, Datenstand Mai 2015), zitiert VDI 3807 Bl. 2 Tabe
 coaching-klimaschutz.de, Abschnitt 3.11 (Sekundärquelle, gegenbestätigend). Recherche/Web-Abruf
 25.07.2026; zugrundeliegende VDI-Kennwerte selbst von 2004/2005.
 → `[[vdi-3807-2-energiekennwerte-krankenhaus]]`, `[[energie-performance-gap-gesundheitsbau]]`,
-`[[sia-2024-nutzungsdaten-gesundheitsbau]]`.
+`[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`.
 Datenstand 25.07.2026 (neu). Status **emerging** (zwei sich bestätigende deutsche Sekundärquellen,
 VDI-Primärtext kostenpflichtig, nicht beschafft; DE-Herkunft, nicht 1:1 auf CH übertragbar).
 
@@ -5637,3 +5665,39 @@ Bundesrecht (Art. 18a RPG/Art. 32a RPV).
 RRB Nr. 912/2022 (Kt. SZ, 29.11.2022), PBG SZ § 75a (SRSZ 400.100, Stand 1.2.2025). Datenstand
 2026-07-25 (Run 114) → `[[ortsbildschutz-kernzone-solaranlagen-zh-sz]]`, ergänzt
 `[[denkmalschutz-energiesanierung-zh-sz]]`, Themenartikel `[[pv-solar-technologien]]`.
+
+## F167 — «Wie viel Energie braucht die Sterilisation (ZSVA) in unserem Spital-/Pflegeheimprojekt, und was heisst das fürs Raumprogramm?»
+
+**Kurzantwort:** Für den Energiebedarf der Sterilisation selbst (kWh pro Zyklus oder Anteil am
+Gesamtverbrauch) gibt es **keine belastbare Schweizer oder D-A-CH-Kennzahl** — eine seriöse
+Aussage braucht eine projektspezifische Berechnung mit dem Fachplaner Medizintechnik/HLK anhand
+konkreter Geräteofferten. Klar dokumentiert ist dagegen, dass die Zentralsterilisation (ZSVA)
+**zwei getrennte Klimazonen** mit unterschiedlicher Anforderung braucht: Produktionsräume (Kühlung
+nach Wärmelast der Geräte) und ein separates Sterillager mit voller Klimatisierung inkl.
+Feuchteregelung.
+
+**Fachliche Begründung:** Die «24 USZ-Richtlinien für die Raumklimatisierung» (Universitätsspital
+Zürich, 07.04.2014) führen die Zentralsterilisation als eigenen Raumtyp (Nr. 73): Produktionsräume
+(Reinigung/Desinfektion/Aufbereitung/Sterilisation) in Klasse 3 («Lüftung & Kühlung» im
+Regelfall), das Sterillager dagegen in der strengeren Klasse 4 (Klimatisierung inkl.
+Feuchteregelung) — strenger als die Produktionsräume, wegen der Feuchteempfindlichkeit der
+Sterilgut-Verpackung. Die amtliche SGSV/Swissmedic-Leitlinie 2023 (gestützt auf SN EN 285) liefert
+konkrete Prozessparameter für Spital-Dampfsterilisatoren (Referenztemperatur 134 °C, Haltezeit
+mindestens 18 Minuten, Ausgleichszeit ≤15 s bei Kammervolumen ≤800 l bzw. ≤30 s darüber), macht
+aber **keine Angabe zum Energie- oder Dampfverbrauch**. Die im Web kursierende Angabe
+«2-4 kWh/Zyklus» liess sich keiner zitierfähigen Primärquelle zuordnen und wird hier bewusst nicht
+übernommen. Für Medizintechnik-Prozesskühlung (MRI/CT/Labor, 24/7-Betrieb ohne Nachtabsenkung)
+zeigt ein reales Schweizer Beispiel (Radiologiezentrum Reinach, 2017) eine Kälteanlagen-
+Gesamtleistung von über 70 kW als grobe Ordnungsgrösse für ein Diagnostikzentrum vergleichbarer
+Grösse. Das Prinzip der Wärmerückgewinnung aus Autoklaven-Kühlkreisläufen (ca. 80 % Rückgewinnungs-
+grad) ist technisch erprobt, aber nur über ein branchenfremdes deutsches Fallbeispiel belegt
+(Pharma-/Biomaterial-Hersteller, kein Spital) — keine Schweizer Spital-Fallstudie gefunden.
+
+**Quelle:** SGSV/Swissmedic «Schweizerische Leitlinie für die Validierung und Routineüberwachung
+von Sterilisationsprozessen in Spitälern», Version 2023 (gestützt auf SN EN 285); USZ «24
+Richtlinien für die Raumklimatisierung», Version 07.04.2014; architektur-technik.ch,
+Radiologiezentrum Reinach, 04.07.2017. Datenstand 2026-07-26 (Run 115) →
+`[[sterilisationsenergie-medizintechnik-prozessenergie-ch]]`, ergänzt
+`[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`, `[[energie-performance-gap-gesundheitsbau]]`.
+Status **emerging** (Raumklima-/Prozessparameter primärquellenbelegt; die eigentliche
+Energiequantifizierung bleibt ein offener Punkt — ehrlicher Negativbefund statt geratener Zahl).

@@ -14,7 +14,6 @@ links:
   - "[[sia-380-1-standardnutzungswerte-tab24-25]]"
   - "[[sia-380-1-beispiel-monatsbilanz]]"
   - "[[muken-2025-verabschiedet]]"
-  - "[[sia-2024-nutzungsdaten-gesundheitsbau]]"
   - "[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]"
 ---
 

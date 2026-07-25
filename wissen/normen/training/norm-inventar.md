@@ -76,7 +76,11 @@
   Datei destilliert — 0 offene `[ ]`-Positionen unverändert. Details `wiki/QUESTIONS.md` Abschnitt
   "Run 23", Report `outputs/2026-07-25_normen-nacht-run23.md`.
 
-- **Quelle (bleibt SharePoint, nie kopieren):** `PL - 02_Recht_Norm/02_Normen/`
+- **Quelle (bleibt SharePoint, nie kopieren):** ZWEI Ablagen —
+  `PL - 02_Recht_Norm/02_Normen/` (SIA/DIN/VSS/RAL + VKF-Altbestand) UND
+  `PL - 03 Brandschutz/` (geltende VKF-Fassungen 2017/2022, Erlaeuterungen, Arbeitshilfen).
+  **Entscheid Raphael 26.07.2026: PL-03 ist Teil des Inventars** (mit Fassungs-Spalte), nicht
+  laenger eine bewusst getrennte Ablage. Siehe Abschnitt «PL-03 Brandschutz» unten.
 - **Erstellt:** 11.07.2026 (automatischer Scan) · Status-Pflege durch den Loop
 - Status-Spalte: `[ ]` offen · `[x] JJMMTT` destilliert · `[~] JJMMTT` teil-destilliert (nur Auszug/Vorschau im Bestand, Volltext als Bring-Schuld offen) · `—` übersprungen (Grund in Bemerkung)
 - Priorität: P1 = Skill-Kernnormen (zuerst), P2 = übrige SIA de, P3 = DIN/VSS/RAL, — = Sprachvariante/alt
@@ -822,3 +826,43 @@ korrigiert. Pfade unten relativ zu `PL - 02_Recht_Norm/02_Normen/SIA_Norm/`.
 |---|---|---|---|---|---|
 | [x] 260712 | P3 | `RAL-GZ_638_Gitterroste_09-2008_.pdf` |  | 2008 | destilliert vollstaendig (ral-gz638-2008.md, S.1-24), Reconcile 260712 Mini-Run2 ; retro-verifiziert Mini-Run 15 (260713). Q&A-Selbstbefragung Mini-Run 22 (260714): 19/20 bestanden, 0 Fehler, 3 Ergaenzungen. |
 
+
+---
+
+## PL-03 Brandschutz — aufgenommen 26.07.2026 (Entscheid Raphael)
+
+Die zweite Normen-Ablage. Bis zum 26.07.2026 scannte dieses Inventar nur PL-02; deshalb standen
+zwei Destillate unbemerkt auf der ueberholten VKF-Fassung 01.01.2015, waehrend die Fassung
+01.01.2017 im Haus lag (belegt: `outputs/2026-07-25_pl03-fassungs-mapping.md`). Mit dem Entscheid
+ist PL-03 gleichrangige Inventar-Quelle.
+
+**Pfad:** `~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/PL - 03 Brandschutz/`
+**Erst-Scan:** 26.07.2026 · **Umfang:** 116 PDF/DOCX
+
+| Unterordner | Dateien | Inventar-Relevanz | Status |
+|---|---|---|---|
+| `01 Brandschutznorm 2015` | 1 | hoch — VKF-Brandschutznorm 1-15de | [ ] |
+| `02 Brandschutzrichtlinien 2015-17-22` | 33 | **hoechste** — hier liegen die geltenden Fassungen 2017/2022 | [~] teilweise (4 BSPUB-Dateien identifiziert) |
+| `03 Verzeichnisse Brandschutz 2015` | 1 | mittel — 40-15 Weitere Bestimmungen | [ ] |
+| `04 Erlaeuterungen Brandschutz 2015` | 9 | mittel — VKF-Erlaeuterungen 100-15 bis 108-15 | [ ] |
+| `05 Arbeitshilfen Brandschutz 2015` | 5 | mittel — Arbeitshilfen 1000-15 ff. (Wohn-/Schulbauten, Parkhaeuser) | [ ] |
+| `06 Lignum Brandschutz` | 6 | mittel — Lignum-Dokumentation Holzbau | [ ] |
+| `00 Brandschutzplaene bsvonline.ch` | 35 | tief — Plan-/Symbolvorlagen, keine Normtexte | [-] nicht Normeninventar |
+| `00 Brandschutznachweis.ch` | 6 | tief — Nachweis-Formulare/Tools | [-] nicht Normeninventar |
+| `_Projekte Themen` | 16 | tief — projektbezogen | [-] nicht Normeninventar |
+| `08 QS` / `z_Administration` / Root | 4 | tief | [-] nicht Normeninventar |
+| `07 Blaues Buch` / `11 Projekte` | 0 | leer | [-] |
+
+### Fassungs-Befunde (aus dem Mapping-Report vom 25.07.2026)
+
+| Datei (PL-03) | VKF-Publikation | Fassung PL-03 | Destillat | Fassung des Destillats | Handlungsbedarf |
+|---|---|---|---|---|---|
+| `BSPUB-1394520214-71.pdf` | BRL 13-15de Baustoffe/Bauteile Klassifikation | **01.01.2017** | `vkf-brl-13-15-baustoffe-bauteile.md` | 01.01.2015 | **Re-Destillation** — IOTH-Aenderungen 22.09.2016 (Ziff. 2.4.1 Tab. S. 8; Anhang zu Ziff. 3.4 Tab. S. 24) fehlen |
+| `BSPUB-1394520214-77.pdf` | BRL 14-15de Verwendung von Baustoffen | **01.01.2017** | `vkf-brl-verwendung-baustoffe.md` | 01.01.2015 | **Re-Destillation, hoechste Prioritaet** — umfangreichste Aenderungsliste (~20 Ziffern/Tabellen in Haupttext und Anhang) |
+| `Brandschutzabstaende Tragwerke 17 BSPUB-…-81.pdf` | BRL 15-15de Brandschutzabstaende Tragwerke | 01.01.2017 | `vkf-brl-15-15-brandschutzabstaende-tragwerke.md` | beide Fassungen zitiert | keiner — bereits am 14.07.2026 gegen beide Fassungen verifiziert |
+| `BSPUB-1394520214-57.pdf` | Brandschutznorm 1-15de | 01.01.2015 (einzige Ausgabe) | `vkf-brandschutznorm-1-15de-bspub57.md` | 01.01.2015 | keiner — byte-identisch mit PL-02 |
+
+**Naechster normen-Lauf, Prioritaet 1:** die beiden Re-Destillationen (BRL 14-15de zuerst, dann
+13-15de) gegen die 2017er-Fassung. Beide Destillate tragen bis dahin einen Fassungs-Vorbehalt.
+**Prioritaet 2:** die noch nicht inventarisierten PL-03-Unterordner (01, 03, 04, 05, 06) erfassen
+und gegen den PL-02-Bestand auf Dubletten/juengere Fassungen abgleichen.

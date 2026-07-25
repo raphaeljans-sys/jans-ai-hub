@@ -38,7 +38,7 @@ last_updated: "2026-07-25"
 
 > Ergänzt `[[energie-performance-gap-monitoring-inbetriebnahme]]` (das allgemeine, Wohnbau-basierte
 > Performance-Gap-Destillat, dort in den Offenen Punkten die hier bearbeitete Lücke benannt: F141/Run
-> 101) sowie `[[sia-2024-nutzungsdaten-gesundheitsbau]]` und
+> 101) sowie `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]` und
 > `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]` (Prozessanlagen-Kennwerte je Raumnutzung, hier
 > als Erklärungsmodell für den Gap herangezogen) und `[[muken-2025-modul-7-betriebsoptimierung-hlkkse]]`
 > (gesetzliche Betriebsoptimierungspflicht als Gegenmassnahme, für Nichtwohnbauten inkl. Gesundheitsbau
@@ -244,11 +244,10 @@ Für ein JANS-Neubau- oder Sanierungsprojekt im Gesundheitsbau bedeutet dieser N
 - VDI 3807 Blatt 2 «Verbrauchskennwerte für Gebäude — Verbrauchskennwerte für Heizenergie, Strom und
   Wasser», nur sekundär referenziert (nicht im Volltext beschafft).
 - Bereits vorhandene KB-Destillate: [[energie-performance-gap-monitoring-inbetriebnahme]],
-  [[sia-2024-nutzungsdaten-gesundheitsbau]], [[sia-2024-nutzungsrandbedingungen-gesundheitsbau]],
+  [[sia-2024-nutzungsrandbedingungen-gesundheitsbau]],
   [[muken-2025-modul-7-betriebsoptimierung-hlkkse]].
 
 ## Backlinks
 
-[[energie-performance-gap-monitoring-inbetriebnahme]] · [[sia-2024-nutzungsdaten-gesundheitsbau]] ·
-[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]] ·
+[[energie-performance-gap-monitoring-inbetriebnahme]] · [[sia-2024-nutzungsrandbedingungen-gesundheitsbau]] ·
 [[muken-2025-modul-7-betriebsoptimierung-hlkkse]]

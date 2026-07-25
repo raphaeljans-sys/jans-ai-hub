@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-07-25
+last_updated: 2026-07-26
 gewichtung: authentisch
-sources: [260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -347,6 +347,25 @@ scheinbaren Widerspruch am SELBEN Postfach auf:
   generischen Postfach: triviale Service-/Koordinations-/Technik-Bitte → namenloses «Guten Tag»/
   «Grüezi» + knapp; gewichtiges/rechtsbegründetes Ersuchen → «Sehr geehrte Damen und Herren» + volle
   Form. QUESTIONS 260723 #4 damit beantwortet.
+
+## Gestapelte Sie-Anrede mit Rollen-Tag in Klammer + Register nach BEZIEHUNGS-REZENZ, nicht nur nach Formalitätsstufe (belegt Fidelity 260726, authentisch)
+Neuer Datenpunkt aus einer aktuellen KISPI-Auflagenbereinigungsmail (Eingabe Abänderungsplan, Bauentscheid
+1171/26, an zwei Behörden-Fachstellen gleichzeitig, 24.07.2026): «**Guten Tag Herr Furrer (AfB), sehr
+geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
+- **Rollen-Tag in Klammer direkt in der Anrede-Zeile** (nicht nur im Betreff, vgl. «z.H. <Name>, <Rolle>»,
+  Fidelity 260610): bei zwei Fachstellen im selben Verfahren macht Raphael in der Anrede selbst sichtbar,
+  wer für welches Amt spricht — «(AfB)» vs. «(SRZ)» — damit die gemeinsame Mail für beide Empfänger klar
+  zuordenbar bleibt.
+- **Gemischtes Sie-Register nach BEZIEHUNGS-REZENZ, nicht nach Formalitätsstufe:** beide Empfänger sind
+  Behörden-Sie-Kontakte im selben, laufenden Verfahren — trotzdem erhält Furrer (gemäss vorangehender Mail
+  von Hottinger an diesem Tag ERST NEU als zuständige Ansprechperson für Team 5 eingeführt) das neutralere
+  «Guten Tag», während Gantenbein (SRZ, seit Wochen im Auflagenbereinigungs-Thread aktiv) das distanziertere
+  «Sehr geehrter» bekommt — GENAU UMGEKEHRT zur bisher belegten Logik «länger bekannt → wärmer». Vorläufige
+  Lesart: Das Register hier folgt nicht der Vertrautheit, sondern der **Aktualität/Neuheit des Erstkontakts
+  am selben Tag** (Furrer wurde Stunden zuvor erst vorgestellt, daher der etwas offenere, weniger
+  routinierte «Guten Tag»-Ton) versus dem bereits eingespielten, aber unpersönlich-korrekten Verfahrens-Sie
+  (Gantenbein). Eine zweite, einfachere Lesart: reine Tagesform/keine bewusste Differenzierung. Nicht
+  gesichert genug für den Do-Block — Frage an Raphael in [[QUESTIONS]] 260726.
 
 ## Do / Don't für den Zwilling
 - **Do:** Register aus Kontakt UND Anlass wählen: operativ→Hoi/«Guten Morgen/Abend»,

@@ -330,7 +330,16 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   am SIA-Normenverzeichnis prüfen. **SIA 410/1** (der eigentliche Farbcode, in Ziff. 2.5.7 S. 17
   referenziert) ist nicht im Bestand. Ebenfalls ausserhalb des Geltungsbereichs und nicht recherchiert:
   die SEV-Sinnbilder für Elektro.
-- [ ] **Der Normen-Bestand umfasst ZWEI Ablagen — das Inventar deckt nur eine ab.** Die geltenden
+- [x] **ENTSCHIEDEN 26.07.2026 (Raphael): PL-03 wird ins Inventar aufgenommen.** Umgesetzt am
+  26.07.2026: `training/norm-inventar.md` fuehrt PL-03 als gleichrangige Quelle (Erst-Scan, 116
+  Dateien, Ordner-Tabelle mit Relevanz/Status, Fassungs-Befund-Tabelle aus dem Mapping-Report);
+  `training/PROGRAMM.md` Methodik-Pflicht 1 entsprechend umgestellt. **Daraus folgt konkrete Arbeit
+  fuer den naechsten Lauf:** Re-Destillation von `vkf-brl-verwendung-baustoffe` (BRL 14-15de,
+  hoechste Prioritaet — umfangreichste IOTH-Aenderungsliste) und `vkf-brl-13-15-baustoffe-bauteile`
+  gegen die 2017er-Fassung; danach die noch nicht inventarisierten PL-03-Unterordner (01, 03, 04,
+  05, 06) erfassen. Bis zur Re-Destillation tragen beide Destillate einen Fassungs-Vorbehalt.
+
+  *Urspruengliche Fassung des Punktes:* **Der Normen-Bestand umfasst ZWEI Ablagen — das Inventar deckt nur eine ab.** Die geltenden
   VKF-Fassungen 2017/2022 liegen in `PL - 03 Brandschutz/`, das `training/norm-inventar.md` scannt aber
   nur `PL - 02_Recht_Norm/02_Normen/`. Deshalb konnten zwei Destillate unbemerkt auf der Fassung 2015
   stehen, während die Fassung 2017 im Haus lag. **Zu entscheiden:** PL-03 in das Inventar aufnehmen (mit

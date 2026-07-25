@@ -4,6 +4,28 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-26 — `twin-mail-training` Batch 70: vierter Leerlauf in Folge.** Frischer Pull ab
+  dem Batch-67-Endpunkt 2026-07-25T18:11:00Z liefert erneut 0 Treffer; breite Gegenprobe ab
+  2026-07-20T00:00:00Z (37 Treffer) bestaetigt, dass der juengste rj@-Sent-Eintrag weiterhin die
+  Logbuch-Radar-Selbstmail vom 25.07. 05:16:25 ist — kein neuer authentischer Ausgang seit dem
+  Batch-66-Endpunkt (24.07. 15:30:13). Connector arbeitet nachweislich korrekt, die Mailstille ist
+  real (kein Wochenende mehr, Samstag/Sonntag durch). Keine Wiki-Aenderung. Beobachtung ohne
+  Aktion: bei einem fuenften Leerlauf waere die 2x-taegliche Kadenz dieses Loops analog zur
+  Stilllegung von `synobsis-batch` (Rule-Eintrag 25.07.2026) ein Kandidat fuer eine Drosselung —
+  Entscheid bleibt bei Raphael.
+- **2026-07-26 — `twin-fidelity-review` (Gesamt-Fidelity ~88).** Drei frische Sent-Items-Golds
+  22.–24.07.2026 via M365-CLI (direkter Tool-Aufruf, kein Bash-Fallback nötig): Benjamin Kübler/
+  Gruner (Sie-Fachfrage Bodenheizung/Bodenablauf), Furrer/Gantenbein (gestapelte Behörden-Sie-
+  Abänderungsplan-Eingabe KISPI), Albin Spahic (Du-Kurzfrage Fachplanersitzung). Zwei Funde:
+  (1) [[beziehungsregister]] neuer Marker «gemischtes Sie-Register nach Beziehungs-Rezenz statt
+  Formalität + Rollen-Tag in Klammer in der Anredezeile» («Guten Tag Herr Furrer (AfB), sehr
+  geehrter Herr Gantenbein (SRZ)») — gegenläufig zur bisherigen Vertrautheits-Logik, Einzelbeleg,
+  nicht in Do-Block gehoben; (2) [[arbeitsweise]] Bestätigung + Schärfung von 260725h: mehrere
+  Fachfragen an einen engagierten Sie-Fachplaner bleiben unnummerierter Fliesstext auch über
+  mehrere Absätze — Nummerierungsregel jetzt im Do-Block auf «bewusst komponierte Liste an
+  unbekannten/fernen Kontakt» präzisiert. Keine Facetten-Widersprüche. QUESTIONS-Runde 260726 (2
+  Fragen). `build_dna.py` gelaufen (arbeitsweise-Do-Block aktualisiert). Report
+  `outputs/2026-07-26_fidelity.md`.
 - **2026-07-25i — `twin-mail-training` Batch 69: dritter Leerlauf in Folge.** Frischer Pull ab
   dem Batch-67-Endpunkt 2026-07-25T18:11:00Z liefert erneut 0 Treffer; Gegenprobe gegen den
   bekannten Zeitpunkt 2026-07-24T15:30:13Z bestaetigt, dass der M365-Connector korrekt arbeitet

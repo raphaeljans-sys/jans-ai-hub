@@ -1,3 +1,20 @@
+## 2026-07-26 — PL-03 Brandschutz ins Inventar aufgenommen (Entscheid Raphael)
+
+- **Strukturentscheid getroffen** (seit Run 22 offen, in QUESTIONS viermal vorgelegt): `PL - 03
+  Brandschutz/` ist ab sofort gleichrangige Inventar-Quelle neben `PL - 02_Recht_Norm/02_Normen/`,
+  nicht laenger eine bewusst getrennte Ablage.
+- **`training/norm-inventar.md`:** Quellen-Zeile auf zwei Ablagen erweitert; neuer Abschnitt
+  «PL-03 Brandschutz» mit Erst-Scan vom 26.07.2026 (116 PDF/DOCX, 13 Unterordner mit
+  Relevanz-Einstufung und Status) sowie der Fassungs-Befund-Tabelle aus
+  `outputs/2026-07-25_pl03-fassungs-mapping.md`.
+- **`training/PROGRAMM.md`:** Methodik-Pflicht 1 von «PL-03 pruefen» auf «beide Ablagen scannen»
+  umgestellt.
+- **Konkreter Arbeitsvorrat daraus:** zwei Destillate stehen nachweislich auf der ueberholten
+  VKF-Fassung 01.01.2015, obwohl die Fassung 01.01.2017 im Haus liegt — `vkf-brl-verwendung-baustoffe`
+  (BRL 14-15de, hoechste Prioritaet, ~20 geaenderte Ziffern/Tabellen) und
+  `vkf-brl-13-15-baustoffe-bauteile` (BRL 13-15de). Re-Destillation ist Prioritaet 1 des naechsten
+  Laufs; bis dahin gilt fuer beide ein Fassungs-Vorbehalt.
+
 ## 2026-07-26 — Wissens-Chef Run 16 (Cross-KB): Ausgaben-Vorbehalt SIA 382/1, SIA-181-Flag, vier Bring-Schulden ins Inventar
 - **[korrektur] `destillate/sia-382-1-2014.md`** lief als `status: established` mit `datenstand: 2014` und ohne jeden Fassungshinweis, obwohl SIA 382/1:2025 die Ausgabe seit 1.2.2025 ersetzt (der ⚠-Vermerk stand nur in `wiki/REGISTER.md:472`). Genau dieses Destillat wird von der Rule `normen-referenz` fuer LV/Werkvertrag gezogen. → Feld `ausgabe_ueberholt` gesetzt, Status auf «established (Ausgabe 2014, durch SIA 382/1:2025 ueberholt)» praezisiert. Re-Destillat 2025 bleibt Bring-Schuld.
 - **[struktur, wichtig] Die vier Bring-Schulden aus `baurecht` (Run 15) sind nie angekommen.** Run 28 hat den QUESTIONS-Block nicht aufgegriffen und sein Thema ausdruecklich als «kein Bring-Schulden-Fall» gewaehlt; `training/norm-inventar.md` hatte 0 Treffer fuer alle vier Normen. Ursache: der Nacht-Loop waehlt aus dem **Inventar**, nicht aus der Fragenliste. → SIA 491, SN EN 12193:2008, SN 640 052, SN 641 400 als eigene Zeilen im neuen Inventar-Abschnitt «Bring-Schulden aus anderen KBs» (P2, je mit Fundstelle und Auftrag); Nachtrag in `wiki/QUESTIONS.md`. **Regel: Uebergaben an diese KB immer in beiden Dateien fuehren.**

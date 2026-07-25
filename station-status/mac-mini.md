@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 26.07.2026 00:16:26
+Stand: 26.07.2026 00:26:29
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:55)
+- Developer/jans/ai/hub  (letzte Aktivitaet 00:08)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 26.07.2026 00:16:26
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 65ffe40d git-haerten: nas-commit-now Sofort-Helper + nas-selfcommit Message-Support (kein git-ueber-SMB mehr)
+- c6c57cc7 git-ueber-SMB abgeschafft: nas-commit-now-Weg kodifiziert (Rules sync-kanonische-quelle/git-auto-push/auto-verbesserung 260726, vollgas-runner-Disziplin, Doku)

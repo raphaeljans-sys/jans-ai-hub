@@ -14,7 +14,6 @@ links:
   - "[[sia-380-1-2016-aenderungen-gegenueber-2009]]"
   - "[[sia-380-1-standardnutzungswerte-tab24-25]]"
   - "[[rrb-2025-1082-klimaanlagen-bewilligungspraxis-zh]]"
-  - "[[sia-2024-nutzungsdaten-gesundheitsbau]]"
   - "[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]"
   - "[[waermepumpen-system-modul-wpsm-heizkoerper-altbau]]"
 ---
@@ -65,7 +64,7 @@ Raumtemperatur ist der einzige standardnutzungsbedingte Haupttreiber der Anforde
 ### 3. Erweiterte Gebäudekategorien (Unterkategorien I.1/I.2 usw. — erklärt SIA-2024-Codes)
 Der Bericht schlägt acht neue **Gebäudenutzungen** (Unterkategorien) vor, die in mehreren
 bereits bestehenden KB-Destillaten unerklärt als Codes auftauchen (z.B. `VIII.1 Spital`/
-`VIII.2 Pflege` in [[sia-2024-nutzungsdaten-gesundheitsbau]]): **I.1 MFH / I.2 Hotel,Heim ·
+`VIII.2 Pflege` in [[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]): **I.1 MFH / I.2 Hotel,Heim ·
 IV.1 Schule(bis Maturstufe) / IV.2 Hochschule · V.1 Lebensmittelgeschäft / V.2 Fachgeschäft ·
 VIII.1 Spital / VIII.2 Pflege**. Begründung je Fall (Ziff. 2.3.4): I wegen deutlich höherem
 Aussenluft-Volumenstrom/Warmwasserbedarf bei Hotels/Heimen gegenüber privatem Wohnen; IV wegen
@@ -138,5 +137,4 @@ tendenziell realistischer/höher als heute normiert), sollte aber keine Fristen 
   erschöpfend übernommen.
 
 **Backlinks:** [[sia-380-1-aktualitaets-check-2026]] · [[sia-380-1-2016-aenderungen-gegenueber-2009]] ·
-[[rrb-2025-1082-klimaanlagen-bewilligungspraxis-zh]] · [[sia-2024-nutzungsdaten-gesundheitsbau]] ·
-[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]
+[[rrb-2025-1082-klimaanlagen-bewilligungspraxis-zh]] · [[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]

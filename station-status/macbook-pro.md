@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 26.07.2026 00:13:35
+Stand: 26.07.2026 00:23:43
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 00:10)
@@ -18,4 +18,4 @@ Stand: 26.07.2026 00:13:35
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 7020853f spec-training Run 36 (Verifikationslauf): P1 haelt, Scheduling-Diskrepanz spec-training 1x/2x-taeglich dritter Beleg
+- c6c57cc7 git-ueber-SMB abgeschafft: nas-commit-now-Weg kodifiziert (Rules sync-kanonische-quelle/git-auto-push/auto-verbesserung 260726, vollgas-runner-Disziplin, Doku)

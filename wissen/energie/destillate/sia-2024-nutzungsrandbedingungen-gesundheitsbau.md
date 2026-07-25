@@ -1,11 +1,12 @@
 ---
-quelle: SIA «Grundlagenbericht zu SIA 2024 — Revision 2021 inkl. Korrigenda SIA 2024-C1:2024» (cms.sia.ch/de/api/getMedia/941); SIA «Harmonisierung SIA-Standardwerte und Gebäudekategorien — Statusbericht» (cms.sia.ch/de/api/getMedia/940, bezieht sich auf Vernehmlassungsentwurf SIA 2024:2019); BFE/EnergieSchweiz «Kälte effizient erzeugen — Das Wichtigste zur Kälteerzeugung nach SIA 382/1» (pubdb.bfe.admin.ch/de/publication/download/8559)
+quelle: SIA «Grundlagenbericht zu SIA 2024 — Revision 2021 inkl. Korrigenda SIA 2024-C1:2024» (cms.sia.ch/de/api/getMedia/941); SIA «Harmonisierung SIA-Standardwerte und Gebäudekategorien — Statusbericht» (cms.sia.ch/de/api/getMedia/940, bezieht sich auf Vernehmlassungsentwurf SIA 2024:2019); BFE/EnergieSchweiz «Kälte effizient erzeugen — Das Wichtigste zur Kälteerzeugung nach SIA 382/1» (pubdb.bfe.admin.ch/de/publication/download/8559); EnFK-Anforderungsprofil SIA 380/1:2016 (Version 16.01a, 11.04.2017)
 herausgeber: SIA (Schweizerischer Ingenieur- und Architektenverein), Kommission 2024 / Kommission 382; Bundesamt für Energie (BFE) / EnergieSchweiz
 ausgabe: SIA 2024:2021 inkl. Korrigenda C1:2024 (aktuell gültige Fassung, ersetzt SIA 2024:2015); Statusbericht bezieht sich auf den Vernehmlassungsentwurf SIA 2024:2019 (Konsultationsstand, nicht deckungsgleich mit der schliesslich verabschiedeten 2021er-Fassung); SIA 382/1 in Kraft seit 1.7.2014 (BFE-Merkblatt bezieht sich auf diese Ausgabe; seit 1.2.2025 gilt SIA 382/1:2025 — im BFE-Merkblatt nicht mehr abgebildet, als offener Punkt vermerkt)
 gelesen: 2026-07-14, PDFs vollständig via pdftotext ausgewertet (Grundlagenbericht 43 S., Statusbericht ~40 relevante Seiten, BFE-Merkblatt 6 S.)
 datenstand: Grundlagenbericht datiert 20.10.2024; Statusbericht Copyright 2019 (Vernehmlassungsstand SIA 2024:2019, teilweise durch die verabschiedete Fassung SIA 2024:2021 überholt); BFE-Merkblatt undatiert im Extrakt, bezieht sich auf SIA 382/1:2014
 status: emerging (Kernaussagen aus dem offiziellen SIA-Grundlagenbericht — nicht normativ, aber von der SIA-Kommission 2024 selbst verfasst und autoritativ — sowie einem SIA-Statusbericht, dessen Zahlen teilweise Vernehmlassungsstand 2019 sind; die eigentliche Normtabelle SIA 2024:2021 Anhang A/F selbst liegt NICHT im Volltext vor, da kostenpflichtig im SIA-Shop; keine Sekundärquelle konnte das widerlegen, aber Volltextabgleich mit dem bezahlten Normtext steht aus)
-last_updated: 2026-07-14
+last_updated: 2026-07-26
+merge_historie: "2026-07-26 — Merge des Zwillings-Destillats `sia-2024-nutzungsdaten-gesundheitsbau` (140 Zeilen, Run 69) in diesen Artikel auf Freigabe Raphael. Uebernommen: Flaechenanteile-Tabelle (Statusbericht Tab. 5), Vergleich geltend SIA-380/1-Tab.-27 vs. Harmonisierungsvorschlag SIA-2024:2019 inkl. EnFK-Grenzwerte, Luftmengen-Zeitreihe 2015 vs. 2021-Entwurf, drei offene Punkte, Backlinks. Quelldatei geloescht, alle Backlinks umgebogen."
 ---
 
 # SIA 2024 Raumnutzungsdaten für Energie- und Gebäudetechnik — Fokus Gesundheitsbau (Spital/Pflegeheim) und Büro
@@ -79,6 +80,45 @@ Altersheime, Rehabilitationszentren»). Für JANS heisst das: ein Pflegeheim/Alt
 VIII.2, ein Akutspital/Klinik mit OP-Trakt unter VIII.1 — mit spürbar unterschiedlichem Energiebedarfsprofil
 (siehe Tabelle unten).
 
+### Typische Flächenanteile innerhalb der Kategorie (Statusbericht Tab. 5, Entwurfsstand 2019)
+
+| Raumnutzung | VIII undiff. | VIII.1 Spital | VIII.2 Pflege |
+|---|---|---|---|
+| Bettenzimmer | 40 % | 35 % | 50 % |
+| Stationszimmer | 5 % | 5 % | 5 % |
+| Behandlungsraum | 10 % | 15 % | 5 % |
+| Verkehrsfläche | 10 % | 10 % | 10 % |
+| Treppenhaus | 5 % | 5 % | 5 % |
+| Nebenraum | 10 % | 10 % | 10 % |
+| WC/Bad/Dusche | 5 % | 5 % | 5 % |
+| Garderobe/Dusche | 5 % | 5 % | 10 % |
+
+Das ist die quantitative Begründung der Unterteilung: der Bettenzimmer-Anteil steigt von 35 % (VIII.1) auf
+50 % (VIII.2), der Behandlungsraum-Anteil fällt von 15 % auf 5 %. Da Bettenzimmer und Behandlungsraum sich
+in Aussenluft-Volumenstrom und Prozessanlagen-Bedarf um ein Mehrfaches unterscheiden (Tabellen unten),
+verschiebt allein diese Flächenverteilung das Bedarfsprofil deutlich. ⚠ Entwurfsstand 2019 — nicht
+verifiziert, ob unverändert in SIA 2024:2021 übernommen.
+
+## Standardnutzungswerte Kategorie VIII — geltend (SIA 380/1 Tab. 27) vs. Harmonisierungsvorschlag (SIA 2024:2019-Entwurf)
+
+| Kennwert | SIA 380/1 Tab. 27 (geltend) | Harmonisierungsvorschlag SIA 2024:2019 |
+|---|---|---|
+| Raumtemperatur | 22 °C | 20 °C |
+| Personenfläche | 30 m²/Person | 20 m²/Person |
+| Wärmeabgabe/Person | 80 W/Person | 70 W/Person |
+| Präsenzzeit/Tag | 16 h | 12 h |
+| Elektrizitätsbedarf | 28 kWh/m² | 34 kWh/m² |
+| Reduktionsfaktor Elektrizität | 0.7 | 0.6 |
+| Aussenluft-Volumenstrom | 1.0 m³/(h·m²) | 0.6 m³/(h·m²) hygienisch / 0.9 Jahresdurchschnitt / 25 m³/(h·Person) |
+| Wärmebedarf Warmwasser | 28 kWh/m² | 33 kWh/m² inkl. 50 % Verluste (22 kWh/m² Nutzwarmwasser) |
+
+**Wichtiger Vorbehalt:** Für den *rechtlich massgebenden* Energienachweis (SIA 380/1, EnFK-
+Anforderungsprofil Version 16.01a/2017) gilt weiterhin die linke Spalte (22 °C, 30 m²/Person, 80 W/Person,
+1.0 m³/(h·m²)) — nicht die feineren SIA-2024-Werte. Grenzwert Heizwärmebedarf Neubau (Kt. ZH/SZ, 9.4 °C
+Jahresmitteltemperatur): Q_H,li0 = 18 kWh/m², ΔQ_H,li = 17 kWh/m²; Umbauten/Umnutzungen: 1.5 × Neubau-Wert.
+U-Wert-Grenzwerte gelten gebäudekategorie-unabhängig. Für Kategorie VIII besteht **keine** Anforderung an
+die spezifische Heizleistung p_h,li (anders als bei Wohnen/Verwaltung/Schulen).
+
 ## Raumnutzungs-Ebene (SIA 2024:2021): Bettenzimmer, Stationszimmer, Behandlungsraum
 
 Anders als SIA 380/1 (eine Kennzahl pro Gebäudekategorie) differenziert SIA 2024:2021 innerhalb des
@@ -97,6 +137,20 @@ nur 0.58–1.00 m³/(h·m²) Aussenluft-Volumenstrom insgesamt deutlich tiefer a
 Aussenluft-Volumenstrom pro m²; Stationszimmer und Behandlungsraum haben nochmals 5- bis 10-fach höhere
 Luftraten — der Lüftungsenergiebedarf pro m² liegt bei 8.01 bei 9.3 kWh/m² und bei 8.02 bei 16.7 kWh/m²
 (elektrische Energie Ventilator, Tab. 13/14).
+
+### Norm-Entwicklung SIA 2024:2015 → 2021-Entwurf (zeigt die Richtung, nicht nur den Endstand)
+
+| Raum | Aussenluft (2015) | Volllaststunden (2015) | Aussenluft (2021-Entwurf) | Volllaststunden (2021-Entwurf) |
+|---|---|---|---|---|
+| 8.01 Bettenzimmer | 2.40 m³/(h·m²) | 7'010 h | 1.93 m³/(h·m²) | 8'760 h |
+| 8.02 Stationszimmer | 12.00 m³/(h·m²) | 2'920 h | 9.67 m³/(h·m²) | 3'140 h |
+| 8.03 Behandlungsraum | 7.20 m³/(h·m²) | 1'960 h (2-stufig) | 5.80 m³/(h·m²) | ≈3'300 h |
+
+Der Auslegungswert je Person sinkt allgemein von 36 auf 29 m³/h/Person (Reduktion für Räume mit
+unterstützender Fensterlüftung). **Wichtig für die Bedarfsprognose:** bei Bettenzimmern und
+Behandlungsräumen führt das wegen zusätzlicher Vor-/Nachspülzeiten teils zu **höheren** Volllaststunden —
+der gesunkene spezifische Volumenstrom bedeutet also nicht automatisch weniger Energiebedarf. Beim
+Bettenzimmer steigen die Volllaststunden von 7'010 h auf den durchgehenden 24/7-Betrieb (8'760 h).
 
 ## Prozessanlagen: die zentrale Neuerung für Gesundheitsbauten
 
@@ -280,6 +334,16 @@ Für einen Bauherrn/Betreiber eines Pflegeheims oder Spitals in ZH/SZ heisst das
   2010 (TEP Energy/Lemon Consult 2016), zitiert im SIA-Statusbericht, nicht aus SIA 2024 selbst.
 - **Kt. Schwyz:** keine gesundheitsbau-spezifische Nachweispflicht identifiziert; ungeprüft, ob die
   SZ-Formulare EN-Nachweise analog zu ZH kategoriescharf differenzieren.
+- **EnFK-Anforderungsprofil noch undifferenziert:** nicht verifiziert, ob die Unterteilung VIII.1/VIII.2
+  bereits in den aktuell geltenden EnFK-Grenzwerttabellen nachvollzogen ist — die geprüfte Version 16.01a
+  (11.04.2017) kennt nur die undifferenzierte Kategorie VIII (übernommen aus dem gemergten Destillat
+  `sia-2024-nutzungsdaten-gesundheitsbau`, Run 69).
+- **Keine kantonale ZH/SZ-Vollzugshilfe gefunden**, die SIA 2024 (statt SIA 380/1) für Nichtwohnbauten
+  ausdrücklich vorschreibt; beide Kantone beziehen sich auf ihren Übersichtsseiten primär auf
+  SIA 380/1:2016. Vollzug seit 1.1.2026 in beiden Kantonen über die gemeinsame Plattform EVEN.
+- **energytools.ch** (SIA-2024-Excel-Raumdatenblätter, seit 2024 grösstenteils gratis) war technisch nicht
+  direkt abrufbar (Redirect ohne Zielinhalt) — in einer späteren Session direkt auf sia.ch zu prüfen; wäre
+  der günstigste Weg an die Raumdatenblätter 8.01–8.03, ohne den kostenpflichtigen Normtext.
 - **OP-Saal/Reinraumklima-Grenzwerte** (Luftwechselraten, Druckstufen, Feuchte) sind ausdrücklich NICHT
   Gegenstand von SIA 2024 (dort explizit ausgeklammert) — dafür wäre eine andere Fachnorm/-richtlinie
   (Spitalhygiene, SWKI-Richtlinien Reinraumtechnik) zu konsultieren; das liegt ausserhalb dieser Recherche
@@ -302,6 +366,10 @@ Für einen Bauherrn/Betreiber eines Pflegeheims oder Spitals in ZH/SZ heisst das
 - Bereits vorhandenes KB-Destillat [[en-zh-nachweis-uebersicht]] (EN-111-Beleuchtungspflicht
   Nichtwohnbau > 1'000 m² EBF).
 - Web-Recherche, abgerufen im Rahmen dieser Recherche (2026-07-14).
+
+**Backlinks:** [[u-werte-grenzwerte-ch]] · [[energienachweis-zh]] ·
+[[komfortlueftung-wrg-sia382-luftwechsel]] · [[sia-380-1-standardnutzungswerte-tab24-25]] ·
+[[en-zh-nachweis-uebersicht]]
 
 **Backlink (Run 99):** [[betonkernaktivierung-tabs-energieeffizienz]] — genau diese Nutzungs-
 randbedingungen (interne Lasten, Betriebszeiten) je Raumtyp entscheiden, ob ein Raum TABS-tauglich

@@ -124,7 +124,7 @@ genutztes Alters-/Pflegegebäude tatsächlich zoniert wird: die **Pflegestation 
 Pflegestation praxisbestätigt: Pflegebereich = Kategorie VIII (Q_H,li0 18 / Steigung 17 kWh/m²,
 22 °C Standard-Raumtemperatur, kein p_H,li-Grenzwert), Wohnbereich = Kategorie I. SIA 2024
 (Nutzungsdaten) unterscheidet zwar VIII.1 Spital/VIII.2 Pflegeheim für die Innenlast-Bemessung
-(vgl. `[[sia-2024-nutzungsdaten-gesundheitsbau]]`), für den Q_H,li-Grenzwert selbst bleibt es bei
+(vgl. `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`), für den Q_H,li-Grenzwert selbst bleibt es bei
 der einen Kategorie VIII der Norm SIA 380/1.
 
 ## Bauherren-Transfer

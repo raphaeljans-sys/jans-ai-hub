@@ -1218,8 +1218,18 @@ mit echten Umlauten (bewährtes Run-86-Muster gegen den Umlaut-Bug).
 - **PDF-Inventar:** weiterhin erschöpft seit Run 65 (bestätigt: keine neuen Fachdateien in
   `PL - 04 Energie` seit letztem Check); Run 87 daher reiner Primärquellen-/Web-Transferlauf (8
   amtliche/fachverbandliche Dokumente statt PDF-Ordner-Transfer).
-- [~] **Naher Ueberschneidungs-Zwilling SIA-2024-Gesundheitsbau-Destillate — inhaltlicher Abgleich
-  ABGESCHLOSSEN, Merge-Entscheid weiterhin bei Raphael (Run 88 → Run 107, 2026-07-25):**
+- [x] **Naher Ueberschneidungs-Zwilling SIA-2024-Gesundheitsbau-Destillate — MERGE AUSGEFUEHRT
+  2026-07-26 auf ausdrueckliche Freigabe Raphaels.** `randbedingungen` ist der Zielartikel; uebernommen
+  wurden die Flaechenanteile-Tabelle (Statusbericht Tab. 5), der Vergleich geltend SIA-380/1-Tab.-27 vs.
+  Harmonisierungsvorschlag SIA-2024:2019 inkl. EnFK-Grenzwerten (Q_H,li0 = 18 / ΔQ_H,li = 17 kWh/m²), die
+  Luftmengen-Zeitreihe 2015 vs. 2021-Entwurf sowie drei nur dort gefuehrte offene Punkte (EnFK-Profil noch
+  undifferenziert, keine kantonale SIA-2024-Vollzugshilfe, energytools.ch nicht abrufbar). Quelldatei
+  `destillate/sia-2024-nutzungsdaten-gesundheitsbau.md` geloescht; Backlinks in sieben Destillaten,
+  `destillate/INDEX.md`, `wiki/INDEX.md`, `wiki/BAUHERREN-FAQ.md` und `training/curriculum.md` umgebogen
+  und entstandene Doppelverweise bereinigt. Historische Belege (`outputs/`, `CHANGELOG.md`) bewusst
+  unveraendert gelassen — sie dokumentieren den damaligen Stand.
+
+  *Analyse-Protokoll (Run 88 → Run 107, 2026-07-25):*
   `destillate/sia-2024-nutzungsdaten-gesundheitsbau.md` (140 Zeilen, Run 69, FAQ F78) und
   `destillate/sia-2024-nutzungsrandbedingungen-gesundheitsbau.md` (309 Zeilen, Run 88) wurden
   Zeile fuer Zeile verglichen (kein Merge/Loeschen ausgefuehrt — destruktive Aktion braucht
@@ -1566,6 +1576,32 @@ vor der Register-Konsolidierung verifiziert (echte Dateiänderungen bestätigt).
 **Register nachgeführt:** `destillate/INDEX.md` (drei Zeilen neu/ergänzt), `wiki/INDEX.md` (zwei
 Zeilen geschärft, eine neu, FAQ-Zählerzeile auf F136 aktualisiert), `wiki/BAUHERREN-FAQ.md`
 (F134/F135 geschärft, F136 neu), `training/curriculum.md` (D68), `CHANGELOG.md`.
+
+- [x] **Healthcare-Prozessenergie-Vertiefung (Run 115, 2026-07-26)** ✓ 2026-07-26: zwei parallele
+  Rechercheagenten zum von Run 114 vorgeschlagenen Schwerpunkt Reinraum-/OP-Klimatisierung und
+  Sterilisationsenergie. **Prozesslücke entdeckt und dokumentiert:** Der Redundanz-Check-Grep vor
+  Auftragsvergabe fand `[[swki-lueftung-gesundheitsbau-hygiene-energie]]` (Run 98) korrekt als
+  Treffer, der Orchestrator hat den Dateiinhalt vor Auftragsvergabe aber nicht geprüft und den
+  Kandidaten fälschlich als offene Lücke behandelt — **Lehre für künftige Läufe: jeden
+  Grep-Treffer lesen, nicht nur zählen, bevor ein Thema als "echte Lücke" gilt.** Trotzdem echter
+  Mehrwert entstanden: das neue Destillat `[[reinraum-op-klimatisierung-gesundheitsbau-ch]]`
+  ergänzt Run 98 um SN-22500-Identifikation, USZ-Baurichtlinie 244/245 (reales H14-Filterfabrikat)
+  und vor allem die Swissnoso-Metaanalyse 2018 (TAV-Nutzen für Infektionsschutz statistisch
+  angezweifelt, 330'146 Hüft-/134'368 Knieprothesen) — beide Destillate bidirektional verlinkt,
+  formaler Merge als spätere bewusste Bereinigung zurückgestellt (Rule `wissens-bibliothekar`:
+  Merge = Rückfrage). FAQ **F136 geschärft**, erster eigenständiger Wiki-Artikel
+  `wiki/reinraum-op-klimatisierung.md`. **Sterilisationsenergie** (`[[sterilisationsenergie-
+  medizintechnik-prozessenergie-ch]]`) war dagegen eine echte, bestätigte Lücke: USZ-Klima-
+  klassifikation ZSVA (Raumtyp 73, Produktionsräume Klasse 3/Sterillager Klasse 4) und
+  SGSV/Swissmedic-Prozessparameter (134 °C/≥18 Min./800-l-Kammerschwelle) primärquellenbelegt,
+  aber ehrlicher Negativbefund zur Energiequantifizierung (kein kWh/Zyklus-Wert, kein
+  Prozentanteil-Kennwert in CH oder D-A-CH gefunden) — FAQ **F167** neu.
+  **Neue offene Punkte:** SN 22500 (Strukturelle Anforderungen OP-Abteilungen) nur bibliografisch
+  identifiziert, Volltext kostenpflichtig nicht beschafft; Fraunhofer-UMSICHT-Abschlussbericht
+  2010 zum Krankenhaus-Energieverbrauch war passwortgeschützt, nicht auswertbar; keine CH-Quelle
+  zur Systemgrenze Dampfversorgung ZSVA (zentral vs. lokal je Sterilisator) gefunden; SWKI 99-3
+  (2003) weiterhin nur bibliografisch identifiziert. FAQ-Stand: **167 Kernfragen (F1-F167)
+  belegt.** Destillate-Stand: **183** (zwei neue).
 
 **Bewusst nicht weiterverfolgt:** B1-Konsolidierung + SIA-2024-Zwilling (destruktiv, Rückfrage
 nötig, unverändert gegenüber Run 97).

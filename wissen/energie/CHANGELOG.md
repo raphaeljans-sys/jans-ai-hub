@@ -2,6 +2,26 @@
 
 Neueste zuoberst.
 
+## 2026-07-26 — SIA-2024-Gesundheitsbau-Zwilling gemergt (Freigabe Raphael)
+
+- **Merge ausgefuehrt** (destruktive Aktion, ausdruecklich freigegeben am 26.07.2026):
+  `destillate/sia-2024-nutzungsdaten-gesundheitsbau.md` (140 Zeilen, Run 69) in
+  `destillate/sia-2024-nutzungsrandbedingungen-gesundheitsbau.md` (309 Zeilen, Run 88) eingearbeitet,
+  Quelldatei geloescht. Der seit Run 88 gefuehrte Dubletten-Verdacht ist damit erledigt.
+- **Uebernommen** (die in Run 107 als nicht-redundant identifizierten Teile): Flaechenanteile-Tabelle
+  VIII/VIII.1/VIII.2 (Statusbericht Tab. 5); Vergleich geltend SIA-380/1-Tab.-27 vs.
+  Harmonisierungsvorschlag SIA-2024:2019 inkl. EnFK-Grenzwerten; Luftmengen-Zeitreihe
+  SIA 2024:2015 vs. 2021-Entwurf; drei offene Punkte; Backlinks.
+- **Backlinks umgebogen** in sieben Destillaten (`muken-2025-modul-7-betriebsoptimierung-hlkkse`,
+  `sia-380-1-2016-aenderungen-gegenueber-2009`, `swki-lueftung-gesundheitsbau-hygiene-energie`,
+  `sia-380-1-aktualitaets-check-2026`, `vdi-3807-2-energiekennwerte-krankenhaus`,
+  `energie-performance-gap-gesundheitsbau`, `sia-harmonisierung-standardwerte-gebaeudekategorien-2019`)
+  sowie in `destillate/INDEX.md` (Doppelzeile entfernt), `wiki/INDEX.md`, `wiki/BAUHERREN-FAQ.md`,
+  `training/curriculum.md`. Entstandene Doppelverweise bereinigt.
+- **Bewusst unveraendert:** `outputs/` und die aelteren CHANGELOG-Eintraege — sie dokumentieren den
+  damaligen Stand und werden nicht rueckwirkend umgeschrieben.
+- **Destillate-Stand:** 170 → 169 (ein Merge, kein Wissensverlust).
+
 ## 2026-07-26 — Wissens-Chef Run 16 (Cross-KB): vier Korrekturen an den beiden neuen Run-112-Themenfeldern
 - **[korrektur, materiell] Grossverbraucher ZH — falscher Befreiungskatalog.** `destillate/grossverbraucherartikel-zielvereinbarung-zh-sz.md` schrieb dem Kt. ZH an vier Stellen den **Schwyzer** Katalog zu («§§ 6-8/§ 10 EnerG»; das ist § 9 Abs. 4 kEnG SZ). Amtlich delegiert § 13a Abs. 2 EnerG an die Verordnung; **§ 48b Abs. 2 BBV I** nennt §§ 22a, 23, 26, 29 Abs. 2-4, 30a, 45, 45a (weitere Befreiungen moeglich), dazu § 13d EnerG / § 48c Abs. 1 lit. b (Betriebsoptimierung). Adversarial verifiziert am amtlichen ZH-Lex-PDF (EnerG LS 730.1, Nachtrag 129). Analogie ZH/SZ auf die Schwellenwerte eingeschraenkt. Fuehrend: `wissen/baurecht/raw/260607_amtlich_zh_bbv1.md` Z. 913-919.
 - **[korrektur, materiell] SIA 181 — Tabelle-6-Wert auf den falschen Fall angewandt.** Das Koerperschall-Destillat erklaerte 28 dB(A) zum Zielmass «im eigenen Schlafzimmer». Die Norm trennt: Tabelle 6 / Ziff. 3.2.3.3 gilt **zwischen** Nutzungseinheiten (28 dB(A) mittel, 25 dB(A) erhoeht nach Ziff. 3.2.3.4; STWEG nach Ziff. 2.2.2 zwingend erhoeht), **innerhalb** der eigenen Einheit gibt Ziff. 0.1.2 nur Empfehlungen (Anhang G: 30/25 dB(A)). Korrigiert an vier Stellen: Destillat, `wiki/waermepumpen-laermschutz`, `BAUHERREN-FAQ` F159, `wiki/INDEX`.

@@ -3,6 +3,31 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260726 (twin-fragesteller, aus Fidelity-Review 2026-07-26)
+
+Quelle: Drift-Report `outputs/2026-07-26_fidelity.md` (Gesamt-Fidelity ~88; drei frische, bislang
+unbearbeitete authentische Golds 22.–24.07.2026 via M365-CLI — Benjamin Kübler/Gruner Sie-Fachfrage
+Bodenheizung, Furrer/Gantenbein gestapelte Behörden-Sie-Abänderungsplan-Eingabe, Albin Du-Kurzfrage
+Fachplanersitzung). Ein substanzieller Neufund (gemischtes Sie-Register nach Beziehungs-Rezenz statt
+Formalität), ein Bestätigungsfund (Fliesstext-Fragen an engagierten Fachplaner, schärft 260725h). Je
+in 1–2 Sätzen beantwortbar.
+
+1. **«Guten Tag Herr Furrer (AfB), sehr geehrter Herr Gantenbein (SRZ)» — folgt das gemischte
+   Sie-Register wirklich der Aktualität des Kontakts (Furrer erst Stunden zuvor als neue
+   Ansprechperson eingeführt → wärmeres «Guten Tag»; Gantenbein seit Wochen im Verfahren → kälteres
+   «Sehr geehrter»), oder war das reine Tagesform/Zufall?** Das ist gegenläufig zur bisher belegten
+   Logik «länger bekannt → wärmer» — hier ist der NEUERE Kontakt der wärmere. Ist ein soeben frisch
+   vorgestellter Behörden-Kontakt für Dich bewusst zugänglicher/unverbrauchter im Ton, während ein
+   seit Wochen eingespielter Verfahrenskontakt ins routinierte, aber kühlere «Sehr geehrter»
+   einrastet? *Warum: ohne Bestätigung bleibt dieser Marker ein nicht verallgemeinerbarer
+   Einzelbeleg, der dem Zwilling die falsche Grundregel (Vertrautheit=Wärme) untergraben könnte.*
+   → [[beziehungsregister]]
+2. **Rollen-Tag in Klammer direkt in der Anrede-Zeile «Herr Furrer (AfB)» — Dein Standardmittel bei
+   JEDER gemeinsamen Mail an zwei Fachstellen unterschiedlicher Ämter im selben Verfahren, oder nur
+   hier, weil Furrer neu und die Zuordnung sonst unklar gewesen wäre?** *Warum: würde klären, ob der
+   Zwilling dieses Mittel bei jeder Mehrfach-Amts-Mail einsetzen soll oder nur zur Vermeidung von
+   Verwechslung bei einem frischen Kontakt.* → [[beziehungsregister]], [[arbeitsweise]]
+
 ## Offen — Runde 260725h (twin-fragesteller, aus Fidelity-Review 2026-07-25h)
 
 Quelle: Drift-Report `outputs/2026-07-25h_fidelity.md` (Gesamt-Fidelity ~84; drei frische Sent-

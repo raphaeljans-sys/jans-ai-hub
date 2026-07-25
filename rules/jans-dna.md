@@ -167,8 +167,10 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   («melde ich mich unverzüglich») statt passiver Verfügbarkeitsformel; die **mehrteilige
   Verfahrens-/Auflagen-Statusmail in thematische fette Blöcke nach Amt/Gegenstand gliedern**
   (Behörden-Dekomposition), nicht flach auflisten (Fidelity 260718); **eigene sequenzielle
-  Fragen an eine Sie-Person nummerieren (1./2./3.)**, offene Spezifikationslisten als «_ »/«–»
-  davon trennen (Fidelity 260725b).
+  Fragen als bewusst komponierte Liste an einen unbekannten/fernen Erstkontakt nummerieren
+  (1./2./3.)**, offene Spezifikationslisten als «_ »/«–» davon trennen (Fidelity 260725b); an
+  einen bereits im laufenden Verfahren engagierten Fachplaner/Kontakt bleiben mehrere
+  Sequenzfragen dagegen unnummerierter Fliesstext in eigenen Absätzen (Fidelity 260725h/260726).
 - **Don't:** Empfehlung ohne Grundlage; Auftrag ohne Zerlegung «im Block» abarbeiten;
   offene Enden ohne nächsten Schritt; eine Folge einzeln zu beantwortender Fragen als offene
   Bullet-Liste tarnen.

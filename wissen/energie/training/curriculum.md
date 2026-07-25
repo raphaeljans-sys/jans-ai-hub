@@ -81,7 +81,7 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
   bisher fehlender Nichtwohnbau-Bezug der KB — Gebäudekategorie VIII.1 Spital/VIII.2 Pflege,
   Flächenanteile + Lüftungskennwerte Bettenzimmer/Stationszimmer/Behandlungsraum, Prozessanlagen-
   Anteil 28-38 % des Behandlungsraum-Elektrizitätsbedarfs, OP-Säle/CT/MRT explizit nicht
-  abgedeckt, rechtlich massgebend bleibt SIA-380/1-Tab.-27) → `[[sia-2024-nutzungsdaten-gesundheitsbau]]`
+  abgedeckt, rechtlich massgebend bleibt SIA-380/1-Tab.-27) → `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`
   (neu), FAQ **F78** neu. **D50b Netzanschluss-/Netzverstärkungskosten PV-Grossanlagen +
   E-Mobilität ZH+SZ** (Art. 15b StromVG seit 1.1.2025 primärquellen-verifiziert: Pauschalabgeltung
   CHF 59/kW, Vergütung max. CHF 50/kW ab 50 kW Anschlussleistung; VSE-70%-Wechselrichter-Regel ab
@@ -1284,7 +1284,7 @@ Verfahrensstand unverändert. FAQ-Stand jetzt **F1–F105**. Details: `outputs/2
   Ausfüll-Muster ohne Datum → `[[massivbau-bauteildatenblatt-ksv-swisspor]]` bleibt bei
   CHF/m² emerging (AKTIVA-AG-Näherung unverändert einzige Hausnummer), FAQ F134 geschärft.
   **Neues Thema freie Wahl: SWKI-Lüftungsnormen Gesundheitsbau** (schliesst die in
-  `[[sia-2024-nutzungsdaten-gesundheitsbau]]`/F78 explizit offen gelassene Lüftungslücke OP/CT/MRT):
+  `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`/F78 explizit offen gelassene Lüftungslücke OP/CT/MRT):
   SWKI VA105-01:2015 (Nachfolgerin SWKI 99-3:2003) als Leseprobe primärquellig gelesen — eigene
   Lüftungskonzepte 1a/1b (TAV vs. Mischlüftung) für OP-Saal/Isolierzimmer/IPS, Kühllast bis
   200 W/m² im OP laut Vorwort, Wärmerückgewinnung in eigenem Anhang B3 differenziert statt

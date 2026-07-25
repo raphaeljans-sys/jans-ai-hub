@@ -281,7 +281,7 @@ MuKEn-2025-Betriebsoptimierungsmodul kantonal übernommen.
   Healthcare-EBF-Schwellen in diesem Destillat sind aus der **Elektrizitätskennzahl SIA 2024:2019**
   gerechnet — das ist ein Vernehmlassungs-/Entwurfsstand. Gültig ist nach beiden KBs
   **SIA 2024:2021 inkl. Korrigenda C1:2024** (`wissen/normen/wiki/REGISTER` und
-  `[[sia-2024-nutzungsdaten-gesundheitsbau]]`). Die Schwester-Destillate tragen dafür bereits einen
+  `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`). Die Schwester-Destillate tragen dafür bereits einen
   expliziten Diskrepanz-Block, dieses hier nicht. **Offen:** ob die Kennzahlen VIII.1 = 36 /
   VIII.2 = 29 kWh/m²EBF in der Ausgabe 2021 fortgeschrieben oder geändert wurden — am Volltext
   2021/C1:2024 nachrechnen, bevor die Schwellen zitiert werden.
