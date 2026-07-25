@@ -1,6 +1,15 @@
 # VOLLGAS-Chef-Radar
 
-> **REGIMEWECHSEL 14.07.2026 (Rule 260714 — DROSSELN):** Das Wochenlimit («Alle Modelle»)
+> **REGIMEWECHSEL 25.07.2026 12:45 (auf ausdrueckliche Anweisung Raphael — WIEDER VOLLGAS):**
+> Die Drossel vom 14.07. ist AUFGEHOBEN. STOP + STOP-Macmini entfernt, der Endlos-Runner laeuft
+> wieder auf BEIDEN Stationen (MacBook Pro PID-Neustart 12:45, Mac Mini via ssh 12:45, Budget
+> $50/Lauf). Der Radar ist wieder **TAKTGEBER, nicht mehr Schoner**: er haelt den Runner am Leben
+> und startet ihn nach jedem 5h-Reset/Login-Fix sofort neu. Ziel wieder: Wochenlimit ausschoepfen,
+> jedes 5h-Fenster maximal ausreizen (ein 5h-Fenster auf 100% ist ERFOLG, kein Fehler). Drosseln
+> nur auf erneute Anweisung Raphaels. Hinweis: die One-Time-Task token-drosselung-100810 (10.08.)
+> steht weiterhin und wuerde die Lern-Loops dann auf Sparbetrieb zuruecktakten — bei Bedarf anpassen.
+>
+> **REGIMEWECHSEL 14.07.2026 (Rule 260714 — DROSSELN) [HISTORISCH, aufgehoben 25.07.]:** Das Wochenlimit («Alle Modelle»)
 > ist bereits zu 81% ausgeschoepft, noch ~6 Tage bis Reset (Mo 11:59). Die maximale
 > VOLLGAS-Ausreizung (Rules 260712c ENDLOS + 260712e «jedes 5h-Fenster ans Limit») ist
 > AUFGEHOBEN. Der Endlos-Runner ist gestoppt (STOP + STOP-Macmini seit 12:53) und wird NICHT
@@ -18,6 +27,30 @@ Neueste Eintraege zuoberst.
 Legende: P1 = Blocker/groesster Hebel, P2 = starker Hebel, P3 = Feinschliff.
 Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beobachten (aktuell) ·
 [VOLL] Fenster ausgereizt (historisch) · [FREI] Kapazitaet offen (historisch) · [LOGIN] headless-Login-Block.
+
+---
+
+## 2026-07-25 13:05 — [VOLLGAS] Doppel-Feuerung `wettbewerbs-dna-reaktivierung`: kein Handlungsbedarf, nur vermerkt
+
+**Lagebild:** Der One-Time-Task `wettbewerbs-dna-reaktivierung` (urspruenglich fuer Mo 20.07. 12:30
+angesetzt) ist heute erneut gefeuert — ohne Zugriff auf `list_scheduled_tasks`/`update_scheduled_task`
+in dieser Session, daher keine eigene Verifikation des Task-Zustands moeglich. Der Eintrag vom
+20.07.2026 12:30 (oben, Zeile ~631) belegt bereits abschliessend: die Reaktivierung wurde damals
+durchgefuehrt und verifiziert (`wettbewerbs-dna-training` auf `enabled: true`, Cron `20 2 * * *`,
+Lauf 21.07. 02:26 bestaetigt). Es gibt nichts erneut zu reaktivieren.
+
+**Zusaetzlich ueberholt:** Der Kern-Streitpunkt des damaligen Auftrags (gedrosselter Nachttakt statt
+VOLLGAS) ist seit dem Regimewechsel 25.07. 12:45 (Banner oben) ohnehin hinfaellig — Raphael hat das
+gesamte Drossel-Regime ausdruecklich aufgehoben, der Endlos-Runner laeuft wieder auf beiden Stationen.
+
+**Keine Aktion ausgefuehrt:** keine Task-Aenderung, kein Runner-Eingriff, keine STOP-Datei angefasst.
+
+**Vorschlaege:**
+- P3: Der One-Time-Task `wettbewerbs-dna-reaktivierung` scheint erneut in der Warteschlange
+  aufgetaucht zu sein, obwohl er am 20.07. bereits als erledigt vermerkt wurde (dessen Ordner unter
+  `~/.claude/scheduled-tasks/` liegt laut damaligem Eintrag noch, bewusst nicht geloescht). Raphael
+  pruefen lassen, ob der Task versehentlich erneut eingereiht wurde oder aufgeraeumt werden soll —
+  keine Loeschung ohne Freigabe.
 
 ---
 
