@@ -21,6 +21,39 @@ Fensterzustand je Eintrag: [GEDROSSELT] Drossel-Regime, Runner gestoppt, nur beo
 
 ---
 
+## 2026-07-25 07:16 — [GEDROSSELT] Nachtfenster sauber abgeschlossen, Drossel intakt, SMB-Flatter aufgefangen
+
+**Fensterzustand:** Keine Login-Probe (Betriebsbeleg-Methode, token-schonend im Drossel-Sinn). Kein
+«Not logged in», kein Usage-/Rate-Limit-Signal. Kein Blocker, keine Mail. Der Token-Pfad ist ueber die
+abgeschlossenen Nacht-Laeufe belegt, nicht ueber eine Probe.
+
+**Durchsatz:** Das Nachtfenster (22:00–06:00) ist planmaessig ausgelaufen und hat Ertrag geliefert.
+Seit dem letzten Radar-Eintrag (00:49) sichtbar: `twin-mail-training` Batch 60 (2026-07-02 bis 07-07) mit
+Append auf vier Facetten-Wikis (arbeitsweise, beziehungsregister, fachsignatur, stimme), der
+`twin-fidelity-review` 2026-07-25 und `synobsis-batch-nacht` Lauf 13 (leer, 853/853 — KB saturiert wie im
+Register dokumentiert, kein Handlungsbedarf). CHANGELOGs der aktiven KBs frisch: normen 25.07. 01:47,
+energie 25.07. 00:46, planungsgrundlagen 25.07. 05:54, baurecht/koordination/auflagebereinigung 24.07.
+23:45, twin 25.07. 06:21. Kein KB abgehaengt, kein stockender Loop.
+
+**Runner/STOP:** unveraendert. `STOP` + `STOP-Macmini` vom 14.07. 12:53 stehen, kein `vollgas-runner`-
+Prozess (`pgrep` leer). Drossel-Guard intakt, nicht angetastet.
+
+**SMB-Flatter:** Der `/Volumes/daten`-Mount fiel waehrend des Laufs kurz ab (headless-SMB-Flatter,
+Rule 260725) und wurde per `osascript 'mount volume smb://diskstation918.tail8265aa.ts.net/daten'`
+(Tailscale) sofort remountet; dieser Eintrag wird in einem Prozess direkt nach dem Remount geschrieben.
+
+**Radar-Commit:** Wie seit dem 24.07. ueberlaesst der Radar die Sicherung dem nativen `nas-selfcommit`
+(SMB-Git-Schreibpfad flattert); der Eintrag wird beim naechsten 15-Min-Takt mitgenommen.
+
+**Vorschlaege:**
+- P1: keiner.
+- P2: Drossel-Entscheid Raphaels weiterhin offen (naechster Wochen-Reset Mo 11:59). Status quo halten;
+  der Radar startet nichts. Ab 10.08.2026 (token-drosselung-100810) nur noch melden und Reduktion des
+  Radars auf 1x taeglich vorschlagen.
+- P3: keiner.
+
+---
+
 ## 2026-07-25 00:49 — [GEDROSSELT] Nachtfenster produktiv, Token-Pfad belegt, Drossel intakt
 
 **Fensterzustand:** Keine Login-Probe (Betriebsbeleg-Methode, token-schonend im Drossel-Sinn). Kein
