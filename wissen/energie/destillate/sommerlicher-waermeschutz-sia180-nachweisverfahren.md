@@ -1,11 +1,11 @@
 ---
-quelle: Vollzugshilfe EN-102 «Wärmeschutz von Gebäuden» (EnFK/EnDK, Ausgabe Januar 2020, Basis SIA 380/1:2016), Kapitel 8; Kt. ZH Vollzugsordner Energie (Sept. 2022), Abschnitt 2.3a + 7.2; Kt. Zürich Hochbauamt «Richtlinie Sommerlicher Wärmeschutz bei Neubauten und Umbauten», 23.01.2023 (Version 5.1); Stadt Zürich AHB «Wegleitung Sommerlicher Wärmeschutz bei Bauvorhaben der Stadt Zürich»
-herausgeber: Konferenz Kantonaler Energiefachstellen (EnFK/EnDK); Kanton Zürich Baudirektion Hochbauamt; Stadt Zürich Amt für Hochbauten (AHB)
-ausgabe: EN-102 Ausgabe Januar 2020 (Basis SIA 380/1:2016) · HBA-Richtlinie 23.01.2023 · Stadt-ZH-Wegleitung (laufend, undatiert) · Vollzugsordner Sept. 2022
-gelesen: 2026-07-16 (curl+pdftotext, Volltext aller vier Dokumente)
-datenstand: 2026-07-16 — SIA-180:2014-Grenzwerte für Verfahren 1 direkt zitiert; Verfahren-2-gtot-Grenzwerte für Fassadenfenster (Fig. 12) über SIA 180 Ziff. 5.2.4.1 aus KB `normen` ergänzt (Wissens-Chef Run 6), Fig. 13 (Dachflächenfenster) weiterhin offen; V3-Kriterium auf Norm (Fig. 3, 0 h) vs. Vollzugs-Abweichung (Fig. 4, 100/400 h) präzisiert; EN-ZH-Formularstruktur amtlich bestätigt
+quelle: Vollzugshilfe EN-102 «Wärmeschutz von Gebäuden» (EnFK/EnDK, Ausgabe Januar 2020, Basis SIA 380/1:2016), Kapitel 8; Kt. ZH Vollzugsordner Energie (Sept. 2022), Abschnitt 2.3a + 7.2; Kt. Zürich Hochbauamt «Richtlinie Sommerlicher Wärmeschutz bei Neubauten und Umbauten», 23.01.2023 (Version 5.1); Stadt Zürich AHB «Wegleitung Sommerlicher Wärmeschutz bei Bauvorhaben der Stadt Zürich»; MuKEn 2025 Volltext Art. 1.8/1.9/1.10 (EnDK, verabschiedet 29.08.2025, amtl. PDF endk.ch/wp-content/uploads/2026/04/MuKEn2025_d-2025-08-29.pdf, hier Spiegel energiehub-gebaeude.ch/wp-content/uploads/2025/09/MuKEn2025_d-2025-08-29.pdf); Kt. Schwyz Vollzug (energie-zentralschweiz.ch/vollzug/vollzug-schwyz.html; sz.ch Amt für Umwelt und Energie, Seite «Energienachweis»)
+herausgeber: Konferenz Kantonaler Energiefachstellen (EnFK/EnDK); Kanton Zürich Baudirektion Hochbauamt; Stadt Zürich Amt für Hochbauten (AHB); Kanton Schwyz Amt für Umwelt und Energie
+ausgabe: EN-102 Ausgabe Januar 2020 (Basis SIA 380/1:2016) · HBA-Richtlinie 23.01.2023 · Stadt-ZH-Wegleitung (laufend, undatiert) · Vollzugsordner Sept. 2022 · MuKEn 2025 Art. 1.9, verabschiedet 29.08.2025 · Kt.-SZ-Vollzugsseiten (Stand Abruf 25.07.2026)
+gelesen: 2026-07-16 (curl+pdftotext, Volltext aller vier Dokumente); 2026-07-25 (MuKEn-2025-Originaltext Art. 1.7-1.11 + Erläuterungen per curl+pdftotext vollständig gelesen; Kt.-SZ-Vollzugsseiten via WebFetch gelesen)
+datenstand: 2026-07-16 — SIA-180:2014-Grenzwerte für Verfahren 1 direkt zitiert; Verfahren-2-gtot-Grenzwerte für Fassadenfenster (Fig. 12) über SIA 180 Ziff. 5.2.4.1 aus KB `normen` ergänzt (Wissens-Chef Run 6), Fig. 13 (Dachflächenfenster) weiterhin offen; V3-Kriterium auf Norm (Fig. 3, 0 h) vs. Vollzugs-Abweichung (Fig. 4, 100/400 h) präzisiert; EN-ZH-Formularstruktur amtlich bestätigt. **2026-07-25 ergänzt:** MuKEn 2025 Art. 1.9 (Basismodul-Ebene, ⚠ Empfehlung der EnDK, noch nicht automatisch geltendes kantonales Recht) sowie Kt.-SZ-Vollzug (EVEN seit 1.1.2026, keine eigene, von der nationalen EN-102-Vollzugshilfe abweichende Wegleitung auffindbar — Negativbefund, siehe unten)
 status: established
-last_updated: 2026-07-16
+last_updated: 2026-07-25
 ---
 
 # Sommerlicher Wärmeschutz — Nachweisverfahren nach SIA 180:2014 (Kt. ZH)
@@ -129,6 +129,62 @@ als das gesetzliche Minimum (siehe unten).
 - Aussenliegende bewegliche Systeme: **Windwiderstandsklasse 4** nach SN EN 13659+A1 als Minimum
   (ohne automatische Steuerung eine Klasse höher)
 
+## MuKEn 2025 Art. 1.9 — künftige Basismodul-Anforderung (Ausblick)
+
+Die MuKEn 2025 (EnDK, verabschiedet 29.08.2025) hebt den sommerlichen Wärmeschutz erstmals in
+einen eigenen, kurz gefassten **Basismodul-Artikel** (bisher war er in den meisten kantonalen
+Umsetzungen der MuKEn 2014 nur über die Vollzugshilfe EN-102 geregelt, nicht über einen eigenen
+Gesetzesartikel):
+
+- **Art. 1.9 Abs. 1:** «Der sommerliche Wärmeschutz von Gebäuden ist nachzuweisen» — unverändert
+  ein zwingender Nachweis für jeden Neubau.
+- **Art. 1.9 Abs. 2:** Bei gekühlten Räumen oder Räumen, bei denen eine Kühlung «notwendig oder
+  erwünscht» ist, müssen g-Wert, Windfestigkeit UND automatische Steuerung des Sonnenschutzes
+  «nach dem Stand der Technik» erfüllt sein. Die Begriffe «notwendig»/«erwünscht» definiert die
+  MuKEn 2025 über **SIA 380/2, Ausgabe 2022, Ziffer 3.2** (Kommentar zu Art. 1.9 Abs. 2) — eine
+  Norm-Referenz, die von der oben zitierten Stadt-ZH-/HBA-Praxis (dort SIA 382/1:2014) abweicht;
+  **ob dies eine echte Verschiebung der Referenznorm oder nur eine andere Zitierweise derselben
+  Systematik ist, bleibt an dieser Stelle offen** (siehe «Offene Punkte»).
+  **Ausnahme:** reversibel betriebene Wärmepumpen für Wohnbauten OHNE zusätzliche aktive
+  Kühlabgabeelemente (Kühldecken, Fancoils) sind von der Steuerungspflicht befreit — normale
+  Heizkörper-/Flächenheizungssysteme zählen ausdrücklich NICHT als aktive Kühlabgabe.
+- **Art. 1.9 Abs. 3:** Bei allen anderen Räumen (inkl. **allen** Wohnbauten, auch ohne Kühlabsicht)
+  ist zumindest der **g-Wert-Anforderung an den Sonnenschutz nach Stand der Technik** einzuhalten
+  — der sommerliche Wärmeschutz ist damit nicht optional, auch wenn keine Kühlung geplant ist.
+- **Art. 1.10 Abs. 3 (Befreiungen):** ausdrücklich befreit sind u.a. provisorische Bauten (Bewilligung
+  ≤ 3 Jahre), Umnutzungen ohne neu unter Art. 1.8 fallende Räume, Nachweis eines anerkannten
+  Rechenverfahrens ohne erhöhten Energiebedarf bei gewährleisteter Behaglichkeit, Gebäudekategorie
+  XII sowie Räume mit Personenaufenthalt unter einer Stunde pro Tag, und Bauteile, die aus
+  betrieblichen Gründen nicht ausrüstbar sind (Beispiel im Kommentar: verglaste Tore/Türen aus
+  Arbeitssicherheitsgründen).
+
+⚠ **Rechtsstatus:** MuKEn 2025 ist eine **Empfehlung der EnDK an die Kantone**, noch **kein
+automatisch geltendes kantonales Recht** — die Umsetzung erfolgt erst über eine kantonale
+Gesetzesrevision (Kt. ZH: EnerG basiert aktuell noch auf MuKEn 2014, siehe Destillat
+`[[muken-2025-verabschiedet]]`). Der oben dokumentierte EN-102-/Vollzugsordner-Weg bleibt bis zu
+einer kantonalen Revision der geltende Massstab.
+
+## Kt. Schwyz — Vollzug
+
+Der Kanton Schwyz hat die Mustervorschriften **MuKEn 2014** per 1. Mai 2022 (Übergangsfrist bis
+1. August 2022) in kantonales Recht überführt (kEnG/KEnV, energie-zentralschweiz.ch/vollzug/
+vollzug-schwyz.html). Für den sommerlichen Wärmeschutz konnte auf den geprüften amtlichen
+Kt.-SZ-Seiten (Amt für Umwelt und Energie, Stand Abruf 25.07.2026) **keine eigene, von den ZH-
+Dokumenten abweichende Wegleitung oder ein SZ-spezifisches Formular** gefunden werden —
+insbesondere keine dem Stadt-ZH-«Freiwillige-Zielwerte»-Dokument entsprechende, strengere
+Vollzugspraxis. Das spricht dafür, dass Kt. SZ den sommerlichen Wärmeschutz wie die übrigen
+Kantone über die **nationale EnFK-Vollzugshilfe EN-102** (dieselbe Grundlage wie oben für Kt. ZH
+dokumentiert) abwickelt, ohne eigene Verschärfung. **Dies ist ein Negativbefund** (nichts gefunden,
+nicht «nichts existiert») — bei einem konkreten SZ-Projekt beim Amt für Umwelt und Energie
+(energie@sz.ch, +41 41 819 19 90) das aktuell gültige Formular bestätigen lassen.
+
+- **Einreichweg:** Seit **1.1.2026** laufen auch in Kt. SZ Energienachweise über die
+  **EVEN-Plattform** (energievollzug.ch) — derselbe Systemwechsel wie in Kt. ZH, zeitgleich.
+  Vor dem 1.1.2026 eingereichte PDF-Nachweise werden im bisherigen Verfahren fertig bearbeitet.
+- **Private Kontrolle:** Kt. SZ kennt wie Kt. ZH die Möglichkeit, den Energienachweis inkl.
+  Wärmedämmung/Klima-/Lüftungsanlagen durch **befugte externe Fachpersonen** prüfen zu lassen
+  (Private Kontrolle) statt durch das Amt selbst.
+
 ## Bauherren-Transfer
 
 - **Bei grossen Glasflächen zuerst den aussenliegenden, automatisch gesteuerten Sonnenschutz
@@ -164,11 +220,20 @@ als das gesetzliche Minimum (siehe unten).
   SIA-180-Verfahren-3-äquivalent) im Detail nicht eigenständig geprüft, nur referenziert.
 - SIA 2028:2010 Klimaszenarien-Datensätze (DRY 2035/2060, RCP 2.6/8.5) als Open Data nicht selbst
   verifiziert.
+- **Neu (2026-07-25):** MuKEn-2025-Kommentar zu Art. 1.9 Abs. 2 zitiert **SIA 380/2:2022 Ziff. 3.2**
+  für die Definition «Kühlung notwendig/erwünscht», während die Stadt-ZH-/HBA-Praxis oben **SIA
+  382/1:2014** zitiert. Ob es sich um eine Normen-Ablösung, zwei parallel zitierfähige Normen oder
+  einen Kommentierungs-Ungenauigkeit handelt, ist nicht verifiziert — für den ZH-Vollzug bleibt SIA
+  382/1:2014 massgebend, solange EnerG ZH nicht auf MuKEn 2025 revidiert ist.
+- **Kt. SZ:** nur Negativbefund («keine eigene Wegleitung gefunden») dokumentiert, kein positiver
+  Beleg für ein SZ-spezifisches Formular/Merkblatt zum sommerlichen Wärmeschutz — bei realem
+  SZ-Projekt beim Amt für Umwelt und Energie verifizieren.
 
 **Backlinks:** [[behaglichkeit-raumklima-kbob-ipb]] · [[fenster-verglasung-uw-g-wert]] ·
 [[enfk-en-102-waermeschutz-2018]] (Uw-Anforderung ZH) · [[sommerlicher-waermeschutz]] (Wiki-Synthese) ·
 [[betonkernaktivierung-tabs-energieeffizienz]] (Bauteilkühlung/Nachtauskühlung als Massnahme, ersetzt
-den SIA-180-Nachweis nicht, ist aber ein möglicher Baustein darin, F138)
+den SIA-180-Nachweis nicht, ist aber ein möglicher Baustein darin, F138) · [[muken-2025-verabschiedet]]
+(Basismodul-Kontext, Rechtsstatus Empfehlung)
 
 **Cross-KB:** `wissen/normen/destillate/sia-180-2014` (Norm-Fundstellen, führend) ·
 `wissen/planungsgrundlagen/wiki/energie-energienachweis-zh-formulare` +

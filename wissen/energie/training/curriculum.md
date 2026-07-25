@@ -1362,3 +1362,26 @@ Verfahrensstand unverändert. FAQ-Stand jetzt **F1–F105**. Details: `outputs/2
   `[[waermepumpe-aussengeraet-grenzabstand-zh-sz]]` ergänzt (neuer Backlink auf das neue
   Verfahrens-Destillat, gegenseitige Verlinkung). FAQ-Stand: **144 Kernfragen (F1-F144)
   belegt.**
+
+- **D74 (2026-07-25, Auftrag Raphael: sommerlicher Wärmeschutz/Überhitzungsschutz Wohnbau)** —
+  Vor Recherchebeginn geprüft: das angefragte Thema (SIA 180:2014 Nachweisverfahren, Grenzwerte,
+  Zielkonflikt Dämmung/Fensterflächen, Massnahmen) war bereits seit Run 74 vollständig destilliert
+  und **established** (`[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]`, Wiki-Artikel
+  `[[sommerlicher-waermeschutz]]`, FAQ F11/F88/F121/F125/F140) — kein neues Destillat unter
+  identischem Zuschnitt angelegt (Verlinken statt doppeln, Rule `wissens-bibliothekar`), stattdessen
+  gezielt die vom Auftrag genannten und in der KB tatsächlich offenen Punkte geschlossen: **MuKEn-
+  Bezug** und **Kt.-SZ-Vorgaben** fehlten bisher komplett (bestehende Coverage war reine
+  Kt.-ZH-Vollzugspraxis). MuKEn-2025-Originaltext Art. 1.7–1.11 + Erläuterungen per curl+pdftotext
+  im Volltext gelesen (Art. 1.9: sommerlicher Wärmeschutz erstmals eigener Basismodul-Artikel,
+  Abs. 2 Kühlfall/Abs. 3 alle übrigen Räume inkl. Wohnbauten, Ausnahme reversible WP ohne aktive
+  Kühlabgabe, Befreiungstatbestände Art. 1.10 Abs. 3). Kt.-SZ-Vollzugsseiten (energie-
+  zentralschweiz.ch, sz.ch Amt für Umwelt und Energie) per WebFetch gelesen: MuKEn 2014 seit
+  1.5.2022, EVEN seit 1.1.2026 wie Kt. ZH, **keine eigene SZ-Wegleitung zum sommerlichen
+  Wärmeschutz auffindbar** (ehrlicher Negativbefund, kein positiver Beleg). Beide Funde in
+  `[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]` (neue Abschnitte «MuKEn 2025 Art. 1.9»
+  und «Kt. Schwyz — Vollzug») und im Wiki-Artikel ergänzt, FAQ **F145** neu (Frage: schützt gute
+  Dämmung + grosse Fenster nicht ohnehin vor Überhitzung — Antwort: nein, eigener Nachweis
+  zwingend). FAQ-Stand: **145 Kernfragen (F1-F145) belegt.** Offen bleibt: SIA 180 Figur 13
+  (Dachflächenfenster) weiterhin nur als Grafik, nicht als Formel; Verhältnis SIA 380/2:2022 Ziff.
+  3.2 (MuKEn-2025-Zitat) zu SIA 382/1:2014 (bisherige ZH-Praxis) für die Definition «Kühlung
+  notwendig/erwünscht» nicht geklärt.

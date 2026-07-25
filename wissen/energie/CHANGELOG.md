@@ -2,6 +2,38 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Sommerlicher Wärmeschutz/Überhitzungsschutz: MuKEn-2025- und Kt.-SZ-Lücke geschlossen, keine Doppelarbeit am bestehenden SIA-180-Destillat
+
+Auftrag Raphael: neues Thema sommerlicher Wärmeschutz/Überhitzungsschutz im Wohnbau (SIA 180:2014)
+erschliessen. Vor Recherchestart geprüft, ob das Thema bereits in der KB steckt — Ergebnis: **ja,
+sehr umfassend**. Das Destillat `[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]` (seit Run
+74, established) führt bereits die drei SIA-180-Nachweisverfahren mit Grenzwerten, den ZH-
+Formularbezug (EN-102a/b, EN-110-ZH, EVEN) und die freiwilligen Zielwerte der Stadt-ZH-Wegleitung;
+der Wiki-Artikel `[[sommerlicher-waermeschutz]]` (established seit Run 88) führt die fünf
+Stellschrauben (Sonnenschutz/g-Wert/Speichermasse/Nachtauskühlung/Fassadenbegrünung); mehrere
+FAQ-Einträge (F11, F67, F88, F121, F125, F140) decken das Thema aus verschiedenen Winkeln ab.
+**Kein neues Duplikat-Destillat unter dem im Auftrag vorgeschlagenen Dateinamen angelegt**
+(widerspräche der Schreibregel «Verlinken statt doppeln»), stattdessen die vom Auftrag explizit
+genannten und tatsächlich noch offenen Punkte geschlossen:
+- **MuKEn 2025 Art. 1.9** («Anforderungen und Nachweis sommerlicher Wärmeschutz») im Volltext
+  gelesen (curl+pdftotext, amtl. EnDK-PDF, verabschiedet 29.08.2025) — hebt den Nachweis erstmals
+  in einen eigenen Basismodul-Artikel; Kernaussage: bei Kühlabsicht g-Wert+Windfestigkeit+Steuerung
+  «nach Stand der Technik» (Ausnahme reversible WP ohne aktive Kühlabgabe), bei allen übrigen
+  Räumen inkl. Wohnbauten ohne Kühlung bleibt mindestens der g-Wert-Nachweis Pflicht. ⚠ Empfehlung
+  der EnDK, noch nicht automatisch geltendes kantonales Recht.
+- **Kt. Schwyz** war in der bestehenden Coverage komplett unbelegt (reine ZH-Perspektive). Zwei
+  amtliche Kt.-SZ-Seiten per WebFetch gelesen: MuKEn 2014 seit 1.5.2022, EVEN seit 1.1.2026 wie
+  Kt. ZH, **keine eigene, strengere Wegleitung zum sommerlichen Wärmeschutz auffindbar**
+  (dokumentierter Negativbefund, kein positiver Beleg).
+- Destillat, Wiki-Artikel, beide INDEX-Register, `raw/_INGESTED.md`, `training/curriculum.md`
+  (D74) ergänzt; FAQ **F145** neu (Frage: schützt eine gut gedämmte Hülle mit grossen Fenstern
+  nicht ohnehin vor sommerlicher Überhitzung — Antwort: nein, eigener zwingender Nachweis).
+  FAQ-Stand: **145 Kernfragen (F1-F145) belegt.**
+- Offen: SIA 180 Figur 13 (Dachflächenfenster-gtot) weiterhin nur als Grafik nicht als Formel;
+  Verhältnis SIA 380/2:2022 Ziff. 3.2 (MuKEn-2025-Zitat) zu SIA 382/1:2014 (bisherige ZH-Praxis)
+  für die Definition «Kühlung notwendig/erwünscht» nicht geklärt; Kt.-SZ-Befund bei realem Projekt
+  amtlich verifizieren.
+
 ## 2026-07-25 — Lärmschutz bei Wärmepumpen-Aussengeräten: Verfahrensfrage neu, keine Doppelarbeit an der Berechnungsmethodik
 
 Auftrag Raphael: neues Thema Lärmschutz bei Luft/Wasser-Wärmepumpen-Aussengeräten erschliessen.

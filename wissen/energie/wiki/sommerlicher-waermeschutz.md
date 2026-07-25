@@ -2,7 +2,7 @@
 title: Sommerlicher Wärmeschutz & Hitzeschutz
 status: established
 last_updated: 2026-07-25
-sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/fassadenbegruenung-hitzeschutz-pv-zielkonflikt.md]
+sources: [destillate/minergie-besser-planen-bauen.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/fassadenbegruenung-hitzeschutz-pv-zielkonflikt.md, destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md, destillate/muken-2025-verabschiedet.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]]
 ---
 
@@ -50,18 +50,41 @@ Wetterdaten 2035**.
   Räumen + Steuerung/Windfestigkeit. Befreit: provisorische Bauten, Umnutzungen ohne neue betroffene
   Räume, Nachweis «kein erhöhter Verbrauch».
 - **Minergie (2023):** erhöhte Anforderung auf Basis **Wetterdaten 2035** (klimaangepasst).
+- **Nachweisverfahren SIA 180:2014 (Kt. ZH, ziffern-genau):** drei gestufte Verfahren — V1 einfache
+  Kennwerte (Dach-U ≤ 0,20, g-Wert Sonnenschutz+Verglasung ≤ 0,10, Raumtiefe ≥ 3,5/7 m,
+  Nachtauskühlung ≥ 10 m³/h·m² EBF), V2 Berechnung (g_tot je Orientierung, Ziff. 5.2.4.1: N ≤ 0,20/f_g,
+  NO/NW ≤ 0,13/f_g, übrige inkl. O/W ≤ 0,07/f_g), V3 dynamische Simulation (zwingend bei
+  Kältemaschine/Ventilatoren) → volle Herleitung, Formularbezug EN-102a/b/EN-110-ZH und Beispielwerte
+  in `[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]`.
+- **MuKEn 2025 Art. 1.9 (Ausblick, Basismodul):** hebt den sommerlichen Wärmeschutz erstmals in
+  einen eigenen Gesetzesartikel (bisher nur über Vollzugshilfe EN-102 geregelt); Kernaussage: bei
+  Kühlabsicht g-Wert + Windfestigkeit + Steuerung «nach Stand der Technik» (Ausnahme reversible
+  Wärmepumpe ohne aktive Kühlabgabe), bei **allen übrigen Räumen inkl. Wohnbauten ohne Kühlung**
+  bleibt zumindest der g-Wert-Nachweis Pflicht. ⚠ Empfehlung der EnDK, noch nicht automatisch
+  geltendes kantonales Recht (`[[muken-2025-verabschiedet]]`).
+- **Kt. Schwyz:** seit 1.5.2022 auf Basis MuKEn 2014, seit 1.1.2026 Einreichung über **EVEN** wie
+  Kt. ZH; keine eigene, von der nationalen EN-102-Vollzugshilfe abweichende Wegleitung zum
+  sommerlichen Wärmeschutz auffindbar (Negativbefund, Stand Recherche 25.07.2026).
 
 ## Bauherren-Take
 «Gegen Hitze hilft kein dickeres Glas, sondern **aussen** beschatten, **Masse** speichern, **nachts**
 auskühlen — und wo sinnvoll die Fassade begrünen statt/neben PV zu belegen.» Wer das in der
-Planung setzt, spart sich Klimaanlage und Betriebskosten — und erfüllt zugleich Minergie.
-→ Bauherren-FAQ **F11**, **F67**.
+Planung setzt, spart sich Klimaanlage und Betriebskosten — und erfüllt zugleich Minergie. Wer
+grosse Glasflächen plant, führt den SIA-180-Nachweis früh (spätestens Vorprojekt) — sobald eine
+Kühlmaschine ins Spiel kommt, ändert sich das Nachweisregime komplett (Verfahren 3, Simulation,
+zusätzliches Formular).
+→ Bauherren-FAQ **F11**, **F67**, **F88**, **F145**.
 
 ## Offen
-- Konkretes Rechenverfahren / Grenzwerte sommerlicher Wärmeschutz nach SIA 180:2014 nachtragen
-  (liegt bereits ziffern-genau in `wissen/normen/destillate/sia-180-2014` — von dort ziehen).
+- SIA 180:2014 Figur 13 (Dachflächenfenster/Oberlichter, gtot je Orientierung) liegt nur als
+  Grafik vor, nicht als Formel/Zahlentabelle extrahiert.
 - Zusammenspiel mit aktiver Kühlung/Erdsonden-Freecooling (Healthcare-Relevanz) vertiefen.
 - Quantitativer Effekt der Fassadenbegrünung auf Kühllast/Heizwärmebedarf (kWh/m²) offen.
+- MuKEn-2025-Kommentar zu Art. 1.9 Abs. 2 zitiert SIA 380/2:2022 Ziff. 3.2 für «Kühlung notwendig/
+  erwünscht», die Stadt-ZH-/HBA-Praxis zitiert SIA 382/1:2014 — Verhältnis der beiden Normzitate
+  zueinander nicht verifiziert.
+- Kt.-SZ-Befund ist ein Negativbefund («nichts Eigenes gefunden»), kein positiver Beleg — bei
+  realem SZ-Projekt beim Amt für Umwelt und Energie verifizieren.
 
 **Status-Hebung 2026-07-25 (Run 88):** auf `established` gehoben — vier triangulierte Quellen
 (EnFK EN-2/EN-102, Minergie-Nachweiskurs, Fassadenbegrünungs-Destillat), alle selbst bereits
