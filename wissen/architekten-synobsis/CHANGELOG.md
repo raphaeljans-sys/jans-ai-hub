@@ -4,6 +4,15 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-07-25 — Wissens-Health-Check (Phase 1, Skill wissenscheck, Mac Mini Nachtschicht)
+Scan unveraendert 853/853 (13. ergebnisloser Nachtlauf in Folge, Empfehlung Task
+`synobsis-batch-nacht` zu pausieren zum 13. Mal wiederholt). Umlaut-Ersatzschreibung aus dem
+21.07.-Befund weiterhin unkorrigiert (INDEX.md 180 / QUESTIONS.md 56 / THEMEN.md 9 Treffer,
+Wortgrenzen-Suche) — Root-Cause-Fix vom 21.07. verhindert nur neue Faelle, Bestand bleibt
+Phase-2-Aufgabe. Positiv: der 24.07. direkt vom Hauptmodell verfasste `wiki/RAUMTYPOLOGIEN.md`
+ist umlautsauber (0 Treffer), Backlink `[[RAUMTYPOLOGIEN]]` verifiziert. Nichts selbst
+korrigiert (Phase 1). Report: `outputs/2026-07-25_health-check.md`.
+
 ## 2026-07-25 — Batch-Lauf (leer, 13. Mal in Folge) + Vektorindex neu (Mac Mini)
 Batch 25, 02:18–02:19. Stufe 1 ohne neuen Stoff (853/853, offen 0, Stand unveraendert
 2026-07-02). Stufe 2 hat `catalog/vectors.npz` deterministisch neu gebaut (853 × 768,
