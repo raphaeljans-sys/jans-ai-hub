@@ -996,3 +996,13 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   "§ 49b PBG" in [[recht-norm-quellenlandkarte]]. Kein eigener Artikel noetig (Umfang reicht fuer
   Abschnitt in der Quellenlandkarte); bei realem Verdichtungs-/Aufzonungsprojekt Primaertext der
   UmV (Einkommenslimite-Zahlenwert) nachziehen.
+- [ ] **M4 (neu, Health-Check 2026-07-25)** KB-weiter Umlaut-Ersatzschreibungs-Befund: praktisch
+  alle 40 Wiki-Artikel verwenden `ae/oe/ue` statt echter Umlaute ä/ö/ü (Rule `umlaute-konvention.md`
+  verletzt), auch der am 25.07. neu verfasste `[[energie-pv-eignung-typenwahl]]`. Zu gross fuer
+  einen Nachtschicht-Fix (Blind-`sed` riskiert echte Doppelvokale/Zitate/Dateinamen zu verfaelschen)
+  — braucht einen dedizierten, beaufsichtigten Korrektur-Lauf (Skill `korrektur`, Artikel fuer
+  Artikel). Ausserdem 2 Artikel ohne YAML-Frontmatter (`[[kartenportale-naturgefahren-objektschutz]]`,
+  `[[kartenportale-sharepoint-ablage]]`, inline `**Status:**` statt Meta-Schema) sowie 2 echte
+  Coverage-Luecken `[[muken-2025-anhang-4-5-daemmstaerken-leitungen]]` /
+  `[[oelheizung-gasheizung-ersatzpflicht-zh-sz]]` (referenziert, aber nie geschrieben). Details:
+  `outputs/2026-07-25_health-check.md`.

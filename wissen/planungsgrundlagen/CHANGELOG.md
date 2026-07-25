@@ -2,6 +2,23 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 (05:30) — Nachtschicht Mac Mini: Wissens-Health-Check (Phase 1)
+Dispatch-Prioritaeten 1-4 heute Nacht bereits erschoepft (Sync-Queues leer, Synobsis idle,
+energie+planungsgrundlagen-Training + normen DIN/VSS/RAL bereits gelaufen). Deterministischer
+Health-Check per grep/Skript (Kontext-Diaet) statt Volltext-Lektuere aller 40 Artikel, da diese
+KB (aeltestes Audit-Datum unter den Mac-Mini-Scope-KBs, 21.07.) faellig war.
+- **Top-Fund:** KB-weiter Umlaut-Ersatzschreibungs-Befund (ae/oe/ue statt ä/ö/ü) in praktisch
+  allen 40 Wiki-Artikeln, auch im heute neu verfassten `[[energie-pv-eignung-typenwahl]]` —
+  deutlich groesser als der punktuelle Befund bei `architekten-synobsis`. Als `QUESTIONS.md` M4
+  festgehalten, NICHT selbst gefixt (Blind-Ersetzung riskant, braucht beaufsichtigten
+  `korrektur`-Lauf).
+- Weitere Funde: 2 Artikel ohne YAML-Frontmatter (inline `**Status:**`-Stil), 2 echte
+  Coverage-Luecken (`[[muken-2025-anhang-4-5-daemmstaerken-leitungen]]`,
+  `[[oelheizung-gasheizung-ersatzpflicht-zh-sz]]`), 0 Orphans, 0 Widersprueche in der Stichprobe,
+  QUESTIONS.md-Backlog fast leer (91/92 Punkte geschlossen).
+- Report `outputs/2026-07-25_health-check.md`, `wiki/QUESTIONS.md` (M4 neu). Kein Versand, keine
+  Publikation, keine Buchung, keine destruktive Aenderung.
+
 ## 2026-07-25 — Training Run 59 (Kartenportale + Energie, Token-Vollgas, OneDrive-Blocker-Lauf)
 - **NEU [[kartenportale-geoportale-uebersicht]]:** `geoportal.ch`-Betreiber identifiziert als
   **GEOINFO Applications AG** (Herisau AR) — vierter White-Label-GIS-Anbieter neben
