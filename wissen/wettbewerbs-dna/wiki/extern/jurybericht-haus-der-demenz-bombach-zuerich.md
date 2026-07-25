@@ -1,6 +1,6 @@
 ---
 title: "Extern-Jurybericht: Neubau Haus der Demenz, Pflegezentrum Bombach, Zürich-Höngg — Projektwettbewerb im selektiven Verfahren (2012)"
-status: draft
+status: established
 last_updated: "2026-07-25"
 sources:
   - "https://espazium.s3.eu-central-1.amazonaws.com/files/2021-02/Jurybericht-Neubau-Haus-der-Demenz-Pflegezentrum-Bombach-Zuerich-Hoengg-Januar-2013.pdf (Bericht des Preisgerichts, Herausgeberin Stadt Zürich Hochbaudepartement/Amt für Hochbauten, Zürich, Januar 2013; Beurteilung durch das Preisgericht am 26.11. und 11.12.2012; 65 Seiten Gesamtumfang, davon Text-Fliessteil S. 3–21, Projektpläne/Steckbriefe S. 23–65)"
