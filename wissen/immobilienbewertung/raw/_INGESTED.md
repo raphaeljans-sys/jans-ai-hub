@@ -8,6 +8,13 @@ Ingest-Stand fest. Basis-Pfad:
 Legende Status: `offen` (noch nicht gelesen) · `teilweise` (angelesen/quergelesen) ·
 `eingearbeitet` (in Wiki-Artikel verdichtet).
 
+**Run 48 (2026-07-25):** kein neuer Ingest — KB saturiert, Bewertungsordner direkt gelistet und
+unveraendert (juengster Wangen 8855), Marktpuls-Stichtag erst 01.09.2026. Delta-Null-Lauf
+(sechzehnter in Folge, sechster Trigger am selben Tag), kein Eskalations-Delta;
+Kollisionsschutz (Rule 260724) geprueft — gefundener `claude -p`-Prozess mit identischem
+Prompt war der eigene Elternprozess, keine Zweitinstanz. Alle vier offenen Pendenzen
+(Ruecktaktung, Oberrieden, T-Regelgeschoss, T-Umlaut) unveraendert, bereits eskaliert.
+
 **Run 47 (2026-07-25):** kein neuer Ingest — KB saturiert, Bewertungsordner direkt gelistet und
 unveraendert (juengster Wangen 8855), Marktpuls-Stichtag erst 01.09.2026. Delta-Null-Lauf
 (fuenfzehnter in Folge, fuenfter Trigger am selben Tag), kein Eskalations-Delta;
