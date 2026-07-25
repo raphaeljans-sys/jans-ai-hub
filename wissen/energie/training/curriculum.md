@@ -1060,3 +1060,35 @@ Verfahrensstand unverändert. FAQ-Stand jetzt **F1–F105**. Details: `outputs/2
   VKF-Richtlinie 22-15 im Volltext + Lithium-Ionen-Infoblatt (Batteriespeicher-Mengenschwellen),
   GVZ-Formular-Versicherungskopplung, Massivbau-Bauteildatenblatt mit vollem Schichtplan,
   SNR 464022.
+
+- **D64 (Run 94, 2026-07-25)** — PDF-Inventar weiterhin erschöpft. Vier parallele Rechercheagenten
+  arbeiten die komplette «Nächster Lauf»-Prioritätenliste aus Run 93 ab. **VKF 22-15 gezielt auf
+  Batteriespeicher geprüft — zweiter Negativbefund:** Volltextsuche «Batterie/Speicher/Lithium/Akku»
+  in der Richtlinie 22-15de selbst plus den zwei zitierten Vollzugsdokumenten (GVZ-Weisung 20.06,
+  GVB-Merkblatt 09/2024) ergibt keinen Treffer → `[[vkf-richtlinie-22-15-blitzschutzsysteme]]`
+  ergänzt, FAQ **F127** neu. **Die tatsächliche Quelle gefunden — löst den seit Run 93 offenen
+  Rechercheauftrag:** VKF-Brandschutzmerkblatt «Lithium-Ionen-Batterien» (2005-15de, gültig ab
+  01.06.2021) + VKF-FAQ 2005-01 «Lithium-Eisenphosphat-Batterien» (Beschluss ABSV 09.09.2025), beide
+  vollständig via curl+pdftotext gelesen: Hazard-Level-Schwellen HL I < 15 / HL II 15-100 / HL III
+  > 100 kWh pro Brandabschnitt, Standard-Li-Ionen ab 15 kWh EI 60, für die marktführende LFP-Chemie
+  (~80 % CH-Markt) senkt FAQ 2005-01 das auf EI 30 bis 100 kWh, plus EFH-Sonderregel →
+  `[[vkf-lithium-batteriespeicher-brandschutz]]` (neu, established), FAQ **F128** neu. **SNR 464022 —
+  kein reiner Negativbefund:** über eine frei abrufbare Electrosuisse-Korrigenda-Datei waren 5 von 56
+  Normseiten wortgetreu lesbar (Blitzschutzpflicht-Tabelle bestätigt wortgleich das VKF-22-15-
+  Destillat, Erder-Werkstofftabelle, harte Norm-Pflicht PV-Integration ins bestehende LPS); Ausgabe
+  2015+COR:2016 ist seit 20.02.2024 durch Nachfolgenorm SN 414022:2024 ersetzt (CHF 169.-, kein
+  freier Auszug), übrige ~51 Seiten bleiben kostenpflichtig → `[[snr-464022-blitzschutz-ausfuehrung]]`
+  (neu, established für die gelesenen Seiten), FAQ **F129** neu. **Neues Thema freie Wahl (Lücken-
+  Check bestätigt unabgedeckt):** baurechtlicher Grenzabstand für das Wärmepumpen-Aussengerät als
+  Bauteil (nicht Lärmschutz) — neue ZH-Bagatellschwelle § 260 Abs. 4 PBG (seit PBG-Revision
+  2.7.2026): Gebäude ≤ 1,5 m Höhe UND ≤ 2 m² Grundfläche brauchen gar keinen Grenz-/Gebäudeabstand,
+  die meisten WP-Aussengeräte fallen darunter; SZ kennt keine solche Schwelle, dort 2,50 m
+  Grenzabstand (§ 61 PBG SZ), reduzierbar auf null nur mit Nachbarzustimmung →
+  `[[waermepumpe-aussengeraet-grenzabstand-zh-sz]]` (neu, emerging), FAQ **F130** neu; Nebenbefund:
+  KB `baurecht` zitiert im Artikel `abstaende-und-hoehen` noch die veraltete 2017er-Fassung von
+  § 273 PBG ZH (Aktualisierungshinweis hinterlegt, Umsetzung bei KB baurecht). FAQ-Stand: **130
+  Kernfragen (F1-F130) belegt.** B1-Konsolidierung und SIA-2024-Zwilling weiterhin bewusst nicht
+  angegangen (destruktiv, Rückfrage nötig). Neu offen: GVZ-Formular-Versicherungskopplung (direkte
+  GVZ-Anfrage nötig), Massivbau-Bauteildatenblatt mit vollem Schichtplan, SNR 464022 Rest-51-Seiten
+  (bzw. Nachfolgenorm SN 414022:2024 kostenpflichtig), WP-Grenzabstand-Subsumtion amtlich unbestätigt
+  (nur Präzedenzfälle).

@@ -2,6 +2,33 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 94: Batteriespeicher-Brandschutzquelle gefunden + SNR 464022 teilweise erschlossen
+- **VKF 22-15 gezielt auf Batteriespeicher geprüft — zweiter Negativbefund:** Volltextsuche
+  «Batterie/Speicher/Lithium/Akku» in der Richtlinie 22-15de selbst sowie in den zwei zitierten
+  Vollzugsdokumenten (GVZ-Weisung 20.06, GVB-Merkblatt 09/2024) ergibt keinen Treffer — nach der in
+  Run 93 widerlegten Richtlinie «Gefährliche Stoffe» ist damit auch diese zweite naheliegende
+  VKF-Quelle für Batteriespeicher-Mengenschwellen ausgeschlossen → `[[vkf-richtlinie-22-15-blitzschutzsysteme]]`
+  ergänzt, FAQ **F127** neu.
+- **Die tatsächliche Quelle gefunden — löst den seit Run 93 offenen Rechercheauftrag:** VKF-
+  Brandschutzmerkblatt «Lithium-Ionen-Batterien» (2005-15de, gültig ab 01.06.2021) + VKF-FAQ 2005-01
+  «Lithium-Eisenphosphat-Batterien» (Beschluss ABSV 09.09.2025), beide vollständig via curl+pdftotext
+  gelesen. Hazard-Level-Schwellen HL I < 15 / HL II 15-100 / HL III > 100 kWh pro Brandabschnitt;
+  Standard-Lithium-Ionen ab 15 kWh braucht EI 60, die FAQ 2005-01 senkt das für die marktführende
+  LFP-Chemie (~80 % CH-Markt) auf EI 30 bis 100 kWh, plus EFH-Sonderregel (alle Räume ausser
+  Fluchtweg/Gefahrenzone, unabhängig von der Kapazität) → `[[vkf-lithium-batteriespeicher-brandschutz]]`
+  (neu, established), FAQ **F128** neu.
+- **SNR 464022 (Blitzschutz-Ausführungsdetails) — kein reiner Negativbefund, teilweise erschlossen:**
+  über eine frei abrufbare Electrosuisse-Korrigenda-Datei waren 5 von 56 Normseiten wortgetreu lesbar
+  (Blitzschutzpflicht-Tabelle bestätigt wortgleich das bestehende VKF-22-15-Destillat, Erder-
+  Werkstofftabelle, harte Norm-Pflicht: PV-Anlagen auf Gebäuden mit bestehendem Blitzschutzsystem
+  müssen ins LPS integriert werden). Wichtiger Statusbefund: die gelesene Ausgabe 2015+COR:2016 ist
+  seit 20.02.2024 durch die Nachfolgenorm SN 414022:2024 ersetzt (CHF 169.-, kein freier Auszug
+  gefunden) — die übrigen ~51 Seiten mit den eigentlichen Ausführungsdetails bleiben kostenpflichtig
+  → `[[snr-464022-blitzschutz-ausfuehrung]]` (neu, established für die gelesenen Seiten), FAQ **F129** neu.
+- Register nachgeführt: `destillate/INDEX.md` (3 Zeilen neu/ergänzt), `wiki/BAUHERREN-FAQ.md`
+  (F127-F129 neu), `wiki/QUESTIONS.md` (Run-93-Punkt VKF-22-15 als [x] geklärt, Batteriespeicher-
+  Brandschutzquelle als [x] geklärt, SNR 464022 als [~] teilweise gelöst markiert).
+
 ## 2026-07-25 — Run 94: neue Themen-Recherche nach freier Wahl (parallele Rechercheagenten)
 - **WP-Aussengerät Grenzabstand als Bauteil (nicht Lärmschutz) — bisher unabgedeckte Lücke
   geschlossen:** ZH-Rechtstext PBG § 260 Abs. 4 (Nachtrag 133, seit PBG-Revision 2.7.2026)
