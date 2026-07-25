@@ -1,9 +1,9 @@
 ---
 title: PV- & Solartechnologien — Typen, Eignung, Integration
 status: established
-last_updated: 2026-06-25
-sources: [destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md]
-links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-standards]], [[holzbau-bauphysik-clt]]
+last_updated: 2026-07-25
+sources: [destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/gvz-photovoltaik-melde-versicherungspflicht.md, destillate/vkf-richtlinie-gefaehrliche-stoffe.md]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-standards]], [[holzbau-bauphysik-clt]], [[gvz-photovoltaik-melde-versicherungspflicht]], [[vkf-richtlinie-gefaehrliche-stoffe]], [[vkf-richtlinie-22-15-blitzschutzsysteme]], [[batteriespeicher]]
 ---
 
 # PV- & Solartechnologien
@@ -138,6 +138,27 @@ oder Fluchtwegen; EFH-Heizraum erlaubt), **Kennzeichnung** für die Feuerwehr. H
 DC-Führung → [[holzbau-bauphysik-clt]]. Details → [[BAUHERREN-FAQ]] F16,
 `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`. Brandschutz-**Bewertung** → Skill `brandschutz`;
 Energierecht → Skill `baurecht`.
+
+**Feuerwehr-Meldepflicht (Run 93, 2026-07-25):** Bei jeder PV-Installation gilt zusätzlich zur
+Kennzeichnungspflicht eine eigenständige **Informationspflicht gegenüber dem Feuerwehrkommando**
+(VKF-BSM 2001-15 Ziff. 4): der Bauherr informiert die Feuerwehr, der Installateur erstellt einen
+**Orientierungsplan/Strangplan** mit den Standorten von PV-Modulen, DC-Leitungen, Wechselrichter,
+Schalt-/Schutzeinrichtungen und **Batterien** — dieser Plan wird der Feuerwehr abgegeben und vor Ort
+hinterlegt. Die GVZ (Kt. ZH) stellt dafür das praktische Formular «Dokumentation Photovoltaikanlage»
+bereit → `[[gvz-photovoltaik-melde-versicherungspflicht]]`. **Zusätzliche, von der Blitzschlagfrage
+unabhängige Anforderung:** nachgewiesener **Hagel- und Windwiderstand** der Module/Befestigung nach
+SIA 261/261-1 (VKF-BSM Ziff. 3.3) — gehört als Anforderungspunkt in Ausschreibung/Devis der
+PV-Anlage. Fassaden-PV an Gebäuden über 11 m Höhe braucht ein objektspezifisches Brandschutzkonzept;
+auf Dächern und bei EFH/Gebäuden unter 11 m gilt die Swissolar-Branchenlösung ohne Zusatzauflagen.
+
+**Batteriespeicher-Brandschutz — Negativbefund zur Mengenschwelle (Run 93):** Die VKF-
+Brandschutzrichtlinie «Gefährliche Stoffe» (26-15de) wird in einer kursierenden Sekundärquelle als
+Fundstelle für Batteriespeicher-Mengenschwellen zitiert (Ziffer 3.5.3, «Buchstaben e/f») — das ist
+**widerlegt**: Ziffer 3.5.3 regelt nur Blitzschutz-Mengenschwellen für brennbare Gase/Flüssigkeiten/
+Reifenlager/Pyrotechnik (Buchstaben a–d), keine Batterien/Lithium-Ionen-Speicher kommen im gesamten
+Dokument vor → `[[vkf-richtlinie-gefaehrliche-stoffe]]`. Für Batteriespeicher-Mengenschwellen bleibt
+die Richtlinie **22-15 Blitzschutzsysteme** sowie ein separates VKF-Lithium-Ionen-Infoblatt die
+vermutlich richtige, aber noch nicht im Volltext beschaffte Quelle (offener Punkt).
 
 ## Quelle
 TEC21/TRACÉS-Dossier «Solares Bauen» 5/2012 (EPFL/LESO) → `[[tec21-solares-bauen-pv-typen-2012]]`.

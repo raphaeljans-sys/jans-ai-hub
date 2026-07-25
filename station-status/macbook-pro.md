@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.07.2026 16:07:23
+Stand: 25.07.2026 16:37:48
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 16:04)
+- Developer/jans/ai/hub  (letzte Aktivitaet 16:34)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 25.07.2026 16:07:23
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- abe85007 planungsgrundlagen-training Run 67: Gestaltungsplan-Register Gemeinde Maur (geoglatt.ch) neu erschlossen, Energie-Gegenprobe ohne Delta (Token-Vollgas)
+- 40d30068 spec-training: Lauf 31 (Verifikationslauf), 25.07.2026 16:14

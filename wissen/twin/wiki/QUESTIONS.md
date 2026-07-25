@@ -402,14 +402,14 @@ Sie-Transmittal). Je in 1–2 Saetzen beantwortbar.
    Gespraechs-Einstieg, wenn Du eine Mail wie ein spontanes Gespraech beginnst (vgl. Text-Lacher «haha»,
    Batch 06), oder ist es reine Tippgewohnheit ohne eigene Bedeutung? *Warum: bisher nur 1 Beleg — ein
    zweiter wuerde ein neues, muendlich anmutendes Eroeffnungsmittel fest verankern.* → [[stimme]]
-2. **Projektvertrautheit schlaegt Personen-Erstkontakt bei der Sie-Anrede — generell oder Einzelfall?**
-   An zwei externe Kontrolleure, die Du zum ERSTEN Mal anschreibst (private Lueftungskontrolle KISPI),
-   waehlst Du sofort «Geschätzter Herr Vanvelten, werter Herr Mans» statt des kaltformellen «Sehr
-   geehrte». Reicht Dir die Einbettung ins bereits laufende, vertraute Projektumfeld (KISPI, Gruner-
-   Team, eigene Bauherrschaft) aus, um bei JEDER neuen externen Sie-Person in diesem Projekt sofort
-   warm zu starten — unabhaengig vom Kontakt zur Person selbst — oder war hier ein anderer Faktor
-   (Empfehlung/Vorstellung durch das Team) ausschlaggebend? *Warum: praezisiert, ob «Sehr geehrte» bei
-   echten Erstkontakten in einem WARMEN Projektumfeld ueberhaupt noch vorkommt.* → [[beziehungsregister]]
+2. ~~**Projektvertrautheit schlaegt Personen-Erstkontakt bei der Sie-Anrede — generell oder Einzelfall?**~~
+   **BEANTWORTET (Fidelity 260725, authentisch, Apple-Mail-Fallback):** NICHT generell — die Schwelle
+   liegt an der ROLLE, nicht am Projektumfeld allein. Kontrastbeleg: Rahel Lämmler (Stadt-ZH-Fachstelle,
+   selbe warme KISPI-Vorabklärung wie Vanvelten/Mans) bekommt beim Personen-Erstkontakt weiterhin das
+   kalte «Sehr geehrte Frau Lämmler» (04.03.2026) — Behörde/Aufsicht bleibt auch im warmen Projekt kalt-
+   formell, während technische Team-/Kontrollpartner (Vanvelten/Mans, Riesen Ingenieure/Estermann) sofort
+   warm werden. In `beziehungsregister.md` verankert («Schwelle geklärt: Behörde bleibt kalt-formell,
+   Team-/Kontrollpartner wärmt sofort»).
 3. **Doppelte, fast identische Mail binnen 13 Minuten (Betreff-Varianten «PPTS KISPI» / «KISPI») —
    bewusste Korrektur/Praezisierung oder Versehen?** Du sendest zwei fast gleiche Mails an denselben
    externen Kontrolleur kurz hintereinander, nur der Betreff unterscheidet sich («… Projekt PPTS KISPI

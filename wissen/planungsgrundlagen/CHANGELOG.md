@@ -2,6 +2,25 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 — Training Run 68 (Recht/Norm + Brandschutz, Token-Vollgas): Erschoepfung dreifach bestaetigt + Health-Check-Falschmeldung korrigiert
+Rotation zurueck auf Recht/Norm (PL-02) + Brandschutz (PL-03) nach Run 67. Dritte, unabhaengige
+Scout-Methode (voller Dateinamen-Diff PL-02/PL-03 bis maxdepth 4, ~966 Ordnereintraege) neben
+Begriffs-Grep (Run 63-65) und Tiefenscan (Run 66) — **R72/B47: kein neuer Fund** in beiden
+Domaenen; alle ~92 Kandidaten erwiesen sich als bereits erfasst, ueberwiegend Schreibweisen-
+Mismatch (echtes ä/ö/ü im Dateinamen vs. KB-interne Ersatzschreibung ae/oe/ue). `10 Lärmschutz`
+(bauen-im-laerm.ch, 13-Kantone-Traegerschaft inkl. ZH, verifiziert) und `DIN_Norm`/`VSS_Norm`/
+`RAL_Norm` bewusst kein Claim (bereits [[recht-norm-quellenlandkarte]] bzw. Schwester-KB
+`wissen/normen`). **Werthaltige Korrektur:** die zwei vom Wissens-Health-Check (25.07., Audit B)
+als "echte Coverage-Luecken" gemeldeten Links `[[muken-2025-anhang-4-5-daemmstaerken-leitungen]]`
+/ `[[oelheizung-gasheizung-ersatzpflicht-zh-sz]]` sind Falsch-Positive — beide Artikel existieren
+bereits `established` in `wissen/energie/destillate/`, der Health-Check hatte nur
+`wissen/energie/wiki/` geprueft. Register korrigiert (`wiki/QUESTIONS.md` M4,
+`training/curriculum.md` M4), kein neuer Artikel, keine Aenderung an
+[[energie-energienachweis-zh-formulare]] noetig. Methodische Lehre: kuenftige Dateinamen-Diff-
+Scouts sollten ä/ö/ü↔ae/oe/ue normalisieren, um die Falsch-Positiv-Rate zu senken — verschwindet
+automatisch, sobald der offene M4-Umlaut-Punkt per `korrektur`-Lauf behoben ist. Details:
+`outputs/2026-07-25_training-run68.md`.
+
 ## 2026-07-25 — Training Run 67 (Kartenportale + Energie, Token-Vollgas): Gestaltungsplan-Register Gemeinde Maur (geoglatt.ch)
 Rotation zurueck auf Kartenportale (PL-01) + Energie (PL-04) nach Run 66. Beide Domaenen gelten
 seit Run 63-65 als weitgehend ausgeschoepft (67 bzw. 45+ Curriculum-Lektionen); dieser Lauf

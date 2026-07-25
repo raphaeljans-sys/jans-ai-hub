@@ -551,6 +551,23 @@ das Ergebnis in den passenden Wiki-Artikel.
   methodische Kontinuitaet zum heutigen SZ-Recht. **Neuer Einzelfund:** Art. 16 verlangt bei MFH ab
   6 Wohnungen einen Kinderspielplatz von i.d.R. 20% der Wohngeschossflaeche — bisher nirgends
   dokumentierte SZ-Kinderspielplatzpflicht → Ergaenzung [[recht-norm-baurechtsanalysen-benchmarks]].
+- [x] R72 (Run 68, 2026-07-25) Erschoepfungs-Verifikation Recht/Norm mit neuer Scout-Methode
+  (Dateinamen-Diff gegen Volltext-Korpus statt Begriffs-Grep) — gibt es doch noch unentdeckte
+  Ordner/Dateien? Gepruefte Kandidaten: Top-/Zweitebene-Ordnerdiff `PL - 02_Recht_Norm` (775
+  Eintraege bis maxdepth 4), Datei `10 Lärmschutz/Link Arbeitshilfen.docx`, Ordner `DIN_Norm`
+  (72 Dateien)/`VSS_Norm`/`RAL_Norm`/`SIA_Norm`, sowie Dateien mit Aenderungsdatum < 20 Tage.
+  **Ergebnis: kein echter neuer Fund.** (1) `10 Lärmschutz` (mit echtem Umlaut) ist derselbe
+  Ordner wie das bereits unter R55/§Laermschutz dokumentierte `bauen-im-laerm.ch` (nur
+  Schreibweisen-Mismatch ä vs. ae im Korpus-Grep) — per WebFetch verifiziert: 13-Kantone-Traeger-
+  schaft (inkl. ZH), Rechner/Grundriss-Tools zu Art. 31 LSV, bereits vollstaendig in
+  [[recht-norm-quellenlandkarte]] §Laermschutz erfasst, keine Ergaenzung noetig. (2) `DIN_Norm`/
+  `VSS_Norm`/`RAL_Norm`/`SIA_Norm` sind bewusst **nicht** unser Claim-Gebiet — die Schwester-KB
+  `wissen/normen/` hat denselben Ordner bereits inventarisiert (72 DIN-Dateien bestaetigt in
+  `wissen/normen/wiki/REGISTER.md`), unsere KB verlinkt nur (Rule "Kein Doppel"). (3) Faktisch
+  keine PL-02-Datei mit Aenderungsdatum < 20 Tagen ausser bereits bekannten Arbeitsdateien
+  (Zivilschutz/Arbeitsgesetz-Volltexte aus Run 26, BSV-2026-Normkonzept aus Run 48/52). **Fazit:**
+  bestaetigt die Erschoepfungs-Diagnose aus Run 66/67 mit einer methodisch anderen Probe (Datei-
+  statt Begriffs-basiert) — Domaene bleibt ohne bekannten Backlog-Punkt.
 
 ## Domaene 4 — Brandschutz (PL-03)
 - [x] B1 Verhaeltnis zu Skill `brandschutz` festlegen (Verweis vs. eigene Grundlagen-Notizen). (2026-06-22 Run 8: Entscheid schlanker Wegweiser — Planungsgrundlagen/Prozess/QSS hier, Fach-/Detailarbeit im Skill `brandschutz`; kein Doppel → [[brandschutz-pl03-wegweiser]])
@@ -609,7 +626,29 @@ das Ergebnis in den passenden Wiki-Artikel.
 - [x] R58 (Run 58, 2026-07-24, Token-Vollgas) Ordner `04_Merkblätter/Fugenlose Bodenbeläge/` (9 PAVIDENSA-Einzelempfehlungen, bisher nie erschlossen) — welche Planungs-/Ausfuehrungsregeln gelten fuer Estriche, insbesondere Heizestriche, und wo liegt die haeufigste Schadensursache? (2026-07-24 Run 58: zwei Kernquellen vollstaendig gelesen — PAV-E 16:2012 Checkliste (5-Phasen-Ablauf Planung→Ausfuehrungsplanung→vor/waehrend/nach Einbau, mit Quervervweisen auf 12 weitere PAV-Einzelnormen) + PAV-E 01:2008 Heizestrich-Spezialregeln (Fugenplan-Pflicht des BESTELLERS nach SIA 251:2008 Art. 2.4.9, Feldgroessen CT 6m/CA+CAF 8m, drei Verlegearten der Heizregister, Belastungsprobe-Temperaturregime, Calciumsulfat-Estrich max. 50°C Vorlauftemperatur, Praxis-Fehlerliste) → NEU §5 [[recht-norm-arbeitshilfen-planungsdetails]]. Direkt LV-relevant BKP 281.1. Sieben weitere PAV-A/PAV-E-Dokumente im selben Ordner als Backlog (Betonoberflaechenbearbeitung, Schutzschichten, Mineralfaserdaemmplatten, Fugen in Calciumsulfatestrichen, Verschleisswiderstand, Schwimmende Estriche oberflaechenfertig))
 - [x] R59 (Run 58, 2026-07-24, Token-Vollgas) Ordner `04_Merkblätter/Merkblatt Unterlagsboden/` (irrefuehrender Ordnername, bisher nie erschlossen) — welche Abdichtungsanforderungen gelten fuer Balkone/Laubengaenge nach SIA 271/273, und welche Ausfuehrungsfehler fuehren typischerweise zu Schaeden? (2026-07-24 Run 58: LPM AG/Richard Graf, KBS-Fachtagung 2010, 36 Folien vollstaendig gelesen — realer Schadenskatalog (Durchfeuchtung/Ausbluehungen, Risse bis 4mm, fehlende Fugen bei Pfeiler-Anschluessen, nicht entwaesserte «Wannen») + normative Anforderungen (Schichtaufbau Unterkonstruktion→Dampfbremse→Waermedaemmung→Abdichtung→Entwaesserung→Nutzschicht, Untergrund-Tabelle, Mindestgefaelle 1,5% OHNE Unterschreitungsmoeglichkeit bei Balkonen/Terrassen/Daechern ohne Schutzschicht, Fugenbreite min. 20mm) + SIA 273 als eigene Norm fuer befahrene Flaechen (Parkdecks/Rampen/Innenhoefe, Systemaufbau-Zuordnung nach Flaechentyp) → NEU §6 [[recht-norm-arbeitshilfen-planungsdetails]]. Ergaenzt [[recht-norm-tiefgarage-erschliessung]] um die Abdichtungs-Ebene; JANS-Nutzen v.a. Ankaufspruefung/Sanierung (Schadensbild-Wiedererkennung))
 - [x] R61 (Run 60, 2026-07-25) Ordner `04_Merkblätter/Projektadmin AHB/09-Projektdokumentation/` + `10-Projektablauf/10.6-Projektabschluss/` (letzter offener R59-Backlog-Punkt, seit Run 52 durch OneDrive-Lock blockiert) — sind die vier Dateien inzwischen lesbar, und was liefern sie? (2026-07-25 Run 60: JA, Lock aufgeloest (Sync-Timing, analog Naturgefahren-/Lignum-Praezedenzfall). **PAB 2.16.R «Richtlinie für Projektdokumentationen»** (Stand 01.06.2008) liefert die verbindliche 7-Kapitel-Gliederung fuer die Vorprojekt-/Bauprojekt-Dokumentation bei Stadt-ZH-Mandaten inkl. spezieller Kennzahlen (**CHF/Kranken- oder Altersheimbett** als Beispielkennzahl, Healthcare-relevant); **Muster-DOC** ist eine reale, vollstaendig ausgefuellte Fallstudie (Instandsetzung Schulanlage Doeltschi, Leutwyler Partner Architekten 2008, Gesamtanlagekosten 20.68 Mio. CHF, methodischer Grundsatz "Minergie-Umbaustandard-Verzicht bei unverhaeltnismaessiger Eingriffstiefe"); **Muster-KV.xls** liefert eine vollstaendige reale BKP-1-9-Kostengliederung als Zahlenbeispiel; **Abnahmeprotokoll-SIA.doc** ist ein amtliches Stadt-ZH-Formular fuer die Werkabnahme nach Art. 157-161 SIA 118 (Maengel-Kategorien, Fristen, Unterschriftenfelder) → NEU §18 [[recht-norm-ahb-stadt-zuerich-projektstandards]]. Damit ist der zehnteilige «Projektadmin AHB»-Ordner vollstaendig ausgewertet, §9-Backlog auf den bewusst niedrigprioritaeren Rest reduziert.)
+- [x] B47 (Run 68, 2026-07-25) Erschoepfungs-Verifikation Brandschutz mit derselben Dateinamen-
+  Diff-Methode wie R72 — `PL - 03 Brandschutz` komplett bis maxdepth 4 (191 Eintraege) gegen den
+  Wiki-/Curriculum-/Changelog-Korpus gespiegelt. **Ergebnis: kein echter neuer Fund**, alle
+  scheinbaren Treffer (u.a. Musterplansatz-Unterordner `Brandschutzplaene BSPUB-1394520214-207`,
+  Projektordner Regensdorf/Thalwil-Bohlweg/Grassen-Biwak/Treppen-Nutzungseinheit, Lignum-
+  Bauteilblaetter, VKF-Einzelrichtlinien-PDFs mit Umlaut-Dateinamen) sind reine Schreibweisen-
+  Mismatches (echtes ö/ä/ü im Dateinamen vs. ae/oe/ue im KB-Korpus, z.B. «Löscheinrichtungen.pdf»
+  ↔ bereits dokumentierte «BSR 18-15 Loescheinrichtungen»/§5p) — bei Einzelpruefung durchgaengig
+  bereits unter B1-B46 erfasst. Bestaetigt Run 66/67s Erschoepfungs-Diagnose fuer Brandschutz mit
+  einer dritten, unabhaengigen Methode. **Lehre fuer kuenftige Scouts:** Dateinamen-Diff muss
+  ae/oe/ue↔ä/ö/ü normalisieren, sonst hohe Falsch-Positiv-Quote (in diesem Lauf ca. 80 der ~90
+  Kandidaten-Treffer).
 
 ## Meta / Querschnitt
 - [x] M1 Grundlagen-Checkliste «neue Parzelle» (was holt man IMMER zuerst) als Standard-Output. (2026-06-30 Run 12: 8 Pflicht-Grundlagen EGRID→OEREB→Zonenplan→Baulinien→Vermessung→DTM/Ortho→GWR→Behoerden je mit Connector-Befehl, SZ-Kurzvariante, End-to-End-Benchmark Giebelweg 12 EGRID CH879777718909 validiert → [[kartenportale-grundlagen-checkliste-neue-parzelle]])
 - [x] M2 Anbindung an `machbarkeit`/`ankaufspruefung`/`behoerden-vorabklaerung` schaerfen. (2026-07-13 Run 22: Luecke war einseitig — `planungsgrundlagen`/SKILL.md kannte die drei Skills bereits, aber keiner der drei referenzierte `planungsgrundlagen` zurueck. Ergaenzt: machbarkeit §Datenquellen Punkt 4 (GIS/amtliche Geodaten → bevorzugt Connector statt manuellem GIS-Browser), ankaufspruefung §Datenquellen (+ Naturgefahren/Objektschutz als eigene Pruefdimension bei Hanglagen), behoerden-vorabklaerung (planungsgrundlagen liefert Teile der "gummigen" Masse bereits belegt vorab + Werkleitungen-Praezisierung Tiefbauamt≠Werke))
+- [x] M4 (Health-Check 2026-07-25; Coverage-Teil korrigiert Run 68) Zwei vom Health-Check als
+  "echte Coverage-Luecken" gefuehrte Links `[[muken-2025-anhang-4-5-daemmstaerken-leitungen]]` /
+  `[[oelheizung-gasheizung-ersatzpflicht-zh-sz]]` — echt fehlend, oder Cross-KB-Link-Pruefluecke?
+  (2026-07-25 Run 68: **Falsch-Positiv bestaetigt.** Beide Artikel existieren bereits vollstaendig
+  (`status: established`) in `wissen/energie/destillate/` — der Health-Check hatte nur
+  `wissen/energie/wiki/` auf gueltige Cross-KB-Ziele geprueft, nicht den Schwesterordner
+  `destillate/`. Kein neuer Artikel noetig, keine Aenderung an
+  [[energie-energienachweis-zh-formulare]] noetig (Referenz war immer korrekt). Verbleibende
+  M4-Punkte (Umlaut-Ersatzschreibung KB-weit, 2 Artikel ohne YAML-Frontmatter) bleiben offen fuer
+  einen dedizierten `korrektur`-Lauf → siehe [[wiki/QUESTIONS.md]] M4.)

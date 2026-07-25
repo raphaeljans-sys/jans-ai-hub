@@ -1095,13 +1095,22 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   "§ 49b PBG" in [[recht-norm-quellenlandkarte]]. Kein eigener Artikel noetig (Umfang reicht fuer
   Abschnitt in der Quellenlandkarte); bei realem Verdichtungs-/Aufzonungsprojekt Primaertext der
   UmV (Einkommenslimite-Zahlenwert) nachziehen.
-- [ ] **M4 (neu, Health-Check 2026-07-25)** KB-weiter Umlaut-Ersatzschreibungs-Befund: praktisch
-  alle 40 Wiki-Artikel verwenden `ae/oe/ue` statt echter Umlaute ä/ö/ü (Rule `umlaute-konvention.md`
-  verletzt), auch der am 25.07. neu verfasste `[[energie-pv-eignung-typenwahl]]`. Zu gross fuer
-  einen Nachtschicht-Fix (Blind-`sed` riskiert echte Doppelvokale/Zitate/Dateinamen zu verfaelschen)
-  — braucht einen dedizierten, beaufsichtigten Korrektur-Lauf (Skill `korrektur`, Artikel fuer
-  Artikel). Ausserdem 2 Artikel ohne YAML-Frontmatter (`[[kartenportale-naturgefahren-objektschutz]]`,
-  `[[kartenportale-sharepoint-ablage]]`, inline `**Status:**` statt Meta-Schema) sowie 2 echte
-  Coverage-Luecken `[[muken-2025-anhang-4-5-daemmstaerken-leitungen]]` /
-  `[[oelheizung-gasheizung-ersatzpflicht-zh-sz]]` (referenziert, aber nie geschrieben). Details:
-  `outputs/2026-07-25_health-check.md`.
+- [ ] **M4 (neu, Health-Check 2026-07-25; Coverage-Teil korrigiert Run 68, 2026-07-25)**
+  KB-weiter Umlaut-Ersatzschreibungs-Befund: praktisch alle 40 Wiki-Artikel verwenden `ae/oe/ue`
+  statt echter Umlaute ä/ö/ü (Rule `umlaute-konvention.md` verletzt), auch der am 25.07. neu
+  verfasste `[[energie-pv-eignung-typenwahl]]`. Zu gross fuer einen Nachtschicht-Fix (Blind-`sed`
+  riskiert echte Doppelvokale/Zitate/Dateinamen zu verfaelschen) — braucht einen dedizierten,
+  beaufsichtigten Korrektur-Lauf (Skill `korrektur`, Artikel fuer Artikel). Ausserdem 2 Artikel
+  ohne YAML-Frontmatter (`[[kartenportale-naturgefahren-objektschutz]]`,
+  `[[kartenportale-sharepoint-ablage]]`, inline `**Status:**` statt Meta-Schema) — **weiterhin
+  offen.** **Korrektur (Run 68, 2026-07-25):** die im Health-Check als "2 echte Coverage-Luecken"
+  gefuehrten Links `[[muken-2025-anhang-4-5-daemmstaerken-leitungen]]` /
+  `[[oelheizung-gasheizung-ersatzpflicht-zh-sz]]` sind **kein Fund** — der Health-Check hat nur
+  `wissen/energie/wiki/` auf Cross-KB-Ziele geprueft, nicht `wissen/energie/destillate/`: beide
+  Artikel existieren dort bereits vollstaendig und `established`
+  (`wissen/energie/destillate/muken-2025-anhang-4-5-daemmstaerken-leitungen.md`,
+  `wissen/energie/destillate/oelheizung-gasheizung-ersatzpflicht-zh-sz.md`) — gleiches Muster wie
+  die bereits korrekt als gueltig erkannten Cross-KB-Links `[[u-werte-grenzwerte-ch]]` etc. Kein
+  neuer Artikel noetig, kein KB-Dopplungsrisiko (Rule "Kein Doppel"); Referenz in
+  `[[energie-energienachweis-zh-formulare]]` bleibt unveraendert korrekt. Details Ursprungsfund:
+  `outputs/2026-07-25_health-check.md`; Korrektur-Beleg: `outputs/2026-07-25_training-run68.md`.

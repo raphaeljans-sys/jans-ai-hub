@@ -1,8 +1,8 @@
 ---
 title: Brandschutz PL-03 — Wegweiser (VKF-Struktur, Brandschutznachweis, QSS, Brandschutzabstaende, Tragwerke)
 status: established
-last_updated: 2026-07-25 (Run 60)
-sources: [VKF-Brandschutzerläuterung 103-15de «Cheminées» (Stand 01.01.2015, genehmigt 23.09.2014, 14 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerläuterung 104-15de «Spänefeuerungen» (Stand 01.01.2015, genehmigt 23.09.2014, 17 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerläuterung 105-15de «Schnitzelfeuerungen» (Stand 01.01.2015, genehmigt 23.09.2014, 12 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerläuterung 106-15de «Pelletsfeuerungen» (Stand 01.01.2015, genehmigt 23.09.2014, 14 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1002-15de «Schulbauten» (Stand 01.01.2015, genehmigt 23.09.2014, 30 S. vollstaendig gelesen, PL-03/05 Arbeitshilfen Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1000-15de «Gebaeude mit geringen Abmessungen» (Stand 01.01.2015, 21 S. vollstaendig gelesen, PL-03/05 Arbeitshilfen Brandschutz 2015), VKF-Brandschutzerlaeuterung 108-15de «Gewaehrleistung der Betriebsbereitschaft von Brandfallsteuerungen (BFS)» (Stand 01.01.2015, Kernteil 11 S. gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerlaeuterung 107-15de «Temporaere Aufstellung von Fluessiggasanlagen» (Stand 01.01.2015, 13 S. vollstaendig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-BSR 26-15de «Gefaehrliche Stoffe» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Run 37), DIN EN 12101-2 (Produktnorm NRWG-Ausloesevorrichtungen, PL-03/02 Brandschutzrichtlinien, Run 37), VKF-Brandschutzerlaeuterung 100-15de «Brandmauern» (Stand 01.01.2015, PL-03/02+04, Dateien vormals 0-Byte, Run 37 synchronisiert+ausgewertet), Normen-KB-Destillate `wissen/normen/destillate/vkf-brl-*` (Run 37 Doppelspur-Bereinigung §5o-§5y auf Destillat-Verweis gekuerzt), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», VKF-BSR 15-15de «Brandschutzabstaende Tragwerke Brandabschnitte» (Stand 01.01.2015/2017, PL-03/02_Brandschutzrichtlinien), VKF-BSR 16-15de «Flucht- und Rettungswege» (PL-03/_Projekte Themen/KISPI Fotos Ziff. 3.3.2-3.3.4/3.6), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» (Stand 17.05.2018) inkl. Ziff. 5/6/7 (Brandschutzabstaende/Tragwerke/Fluchtwege-Treppen), VKF-Brandschutzarbeitshilfe 1002-03d «Parkhaeuser und Einstellraeume fuer Motorfahrzeuge» (genehmigt 06.08.2003, PL-03/05 Arbeitshilfen Brandschutz 2015, ⚠ Datenstand vor bsvonline.ch pruefen), «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22) inkl. realer Muster-Plansatz BSPUB-1394520214-207 (PL-03/00 Brandschutzplaene bsvonline.ch), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30, refresh 2026-07-13: unveraendert, politische Vernehmlassung startet 08/2026), reale JANS-Faelle PL-03/_Projekte Themen: «Brandschutzabstand Regensdorf» (EFP AG Anfrage 16.02.2024 + JANS-Antwort 17.02.2024), «Tragwerk Brandschutzanforderung Thalwil Bohlweg 3» (Factsheet 05.03.2025, Aufstockung EFH), «Gaststaetenbetriebe Alpin Grassen Biwak» (Brandschutzkonzept Schmitter Brandschutz GmbH/Yves Schmitter, 16.–18.01.2025), «Pflegeheim Wald» (Foto Feuerwehrzufahrten-Bewegungsflaechen IMG_0546 + Foto Fluchtwegplan Tertianum Gruenegg IMG_0412) und «KISPI» (Fotos BSR 16-15 Ziff. 3.3.2-3.3.4/3.6 Beherbergungsbetriebe), VKF-Brandschutzerlaeuterung 101-15de «Bauten mit Atrien und Innenhoefen» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), VKF-Brandschutzerlaeuterung 102-15de «Bauten mit Doppelfassaden» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), Lignum-Dokumentation Brandschutz Themenblock 4 «Bauteile in Holz — Decken, Waende und Bekleidungen mit Feuerwiderstand» (Ausgabe Mai 2015, geprueft/anerkannt als Stand der Technik Papier 06.09.2017, PL-03/06 Lignum Brandschutz), Fritzsche/Boesch/Wipf/Kunz «Zuercher Planungs- und Baurecht» Band 2, Kap. 18 «Brandschutz» S. 1331/1343 (PL-03/07 Blaues Buch), VKF-Verzeichnis «Weitere Bestimmungen» 40-15de (PL-03/03 Verzeichnisse Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» Ziff. 2.4/12.1/12.2 «Parkings» (PL-03/05 Arbeitshilfen Brandschutz 2015/1001-15_Wohnbauten.pdf, vollstaendig gelesen 29 S.), VKF-Brandschutzrichtlinie 21-15 «Rauch- und Waermeabzugsanlagen» (PL-03/02 Brandschutzrichtlinien 2015-17-22/Rauch & Waermeabzugsanlagen.pdf, Ziff. 3.1 Tabelle), brandschutznachweis.ch «BS-Symbole» 01.01.2017 (vollstaendiger Grundsymbole+Ergaenzende-Symbole-Katalog, PL-03/00 Brandschutznachweis.ch/03_Symbole), «Erdbebengerechte mehrgeschossige Holzbauten» (Technische Dokumentation Lignum/SIA/SGEB/usic/HEV Schweiz, 2010, PL-03/06 Lignum Brandschutz/Lignum Erdbeben), Lignatec «Bauten in Holz — Brandschutz-Anforderungen» (Lignum, materielle Uebereinstimmung VKF-Vorschriften seit 1.1.2005 anerkannt, PL-03/06 Lignum Brandschutz/Lignum Bauten in Holz - Brandschutzanforderungen), VKF-BSR 12-15de «Brandverhuetung und organisatorischer Brandschutz» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Volltext gelesen Run 36), VKF-BSR 22-15de «Blitzschutzsysteme» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Volltext gelesen Run 36), VKF-BSR 24-15de «Waermetechnische Anlagen» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Ziff. 1-4 gelesen Run 36), VKF-BSR 25-15de «Lufttechnische Anlagen» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Ziff. 1-4 gelesen Run 36), «Erlaeuternder Bericht fuer die Vernehmlassung — Gesamtrevision Schweizerische Brandschutzvorschriften VKF» (VKF, 01.11.2013, V-3-0de, PL-03/02 Brandschutzrichtlinien 2015-17-22/BSV2015-Bericht und Aenderungen.pdf, Run 39 erstmals ausgewertet), «Teilrevision VKF-Brandschutzvorschriften 2017 — Aenderungen Brandschutzrichtlinien 2017 vs 2015» (AFC Basel/Lisa Hugenschmidt, PL-03/02 Brandschutzrichtlinien 2015-17-22/Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf, 34 S. Volltext-Delta, Run 39 erstmals ausgewertet), SZS steeldoc 03/15 «Brandschutz im Stahlbau» tec 02:2015 (Stahlbau Zentrum Schweiz, PL-03/02 Brandschutzrichtlinien 2015-17-22/SService Nr19091815480.pdf, Run 39 identifiziert), VKF-BSR 14-15de «Verwendung von Baustoffen» (28 S., PL-03/02 Brandschutzrichtlinien 2015-17-22/BSPUB-1394520214-77.pdf, Ausgabestempel 01.01.2017 IOTH-Beschluss 22.09.2016, Run 41 volltext-gelesen S.1-14+Anhang-Stichprobe S.15-20, konsistent mit bereits vorhandenem Normen-KB-Destillat `wissen/normen/destillate/vkf-brl-verwendung-baustoffe.md`; Run-39-Fehlidentifikation korrigiert — `Baustoff & Bauteile.pdf` ist BSR 13-15, nicht 14-15), Web bsvonline.ch/de/aktuell/information-bsv-2026 (WebFetch Run 39, 2026-07-14) + VKG-Medienmitteilung «Neue schweizerische Brandschutzvorschriften: Marschhalt bei Liberalisierungsbestrebungen und Ueberpruefung» (vkg.ch, WebSearch Run 39) + presseportal.ch/baublatt.ch (Bestaetigung technische Vernehmlassung 15.09.2025-11.01.2026 + ca. 11'000 Rueckmeldungen, Run 39 Refresh), «Normkonzept BSV 2026» (VKF/Keel & Raster Planungs- und Baurecht GmbH, Stand 06.10.2022, 170 S., PL-02/02_Normen/VKF_Norm/07_BSV 2026 Projekt (noch nicht in Kraft)/260711 VKF Normkonzept BSV 2026 Stand 2022-10-06.pdf, neu abgelegt 11.07.2026, Run 48 Kap. 1-2 (S.1-15) + Kap. 5 "Eckpunkte der Totalrevision" (S.90-129) volltext gelesen, 38 Eckpunkte), VKF-BSR 16-15de «Flucht- und Rettungswege» Stand 01.12.2022 (PL-03/02 Brandschutzrichtlinien 2015-17-22/BSPUB-1394520214-85.pdf, 35 S., Run 52 volltext-diff gegen 2015/2017-Fassungen), VKF-Brandschutznorm 1-15 Zweitkopie BSPUB-1394520214-57.pdf + VKF-BSR 13-15de Rev.2017 BSPUB-1394520214-71.pdf (Run 52, Register-Vervollstaendigung, redaktionelle Deltas), Web bsvonline.ch/de/aktuell/information-bsv-2026 (WebFetch Run 52, 2026-07-18) + vkg.ch-Medienmitteilungsseite (WebSearch Run 52, BSV-2026-Stand unveraendert bestaetigt), VKF-Publikation «Allgemein anerkannte Bauprodukte» Version 12.0 (TKB-Beschluss 31.03.2017, PL-03/00 Brandschutzplaene bsvonline.ch/BSPUB-1394520214-251.pdf, 12 S. vollstaendig gelesen, Run 58), VKF-Brandschutzrichtlinie 28-15de «Anerkennungsverfahren» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien 2015-17-22/Anerkennungsverfahren.pdf, 9 S. vollstaendig gelesen, Run 58, Delta-Check bestaetigt fruehere Einordnung), Merkblatt «Brandschutz-Klassifikation von haeufig verwendeten Bauteilen» V.2 Zweitkopie (PL-03/02 Brandschutzrichtlinien 2015-17-22/Brandschutz-Praevention.pdf, Run 58, bestaetigter Nicht-Fund/Duplikat), gege-panikprogramm-1.pdf (Herstellerkatalog GEGE/Kaba Notausgangs-/Paniktuerbeschlaege, PL-03/02 Brandschutzrichtlinien, Run 58, Nicht-Fund), VST-Merkblatt Nr. 012 «Tueren in Fluchtwegen» (Erstausgabe 2009, PL-03/02 Brandschutzrichtlinien 2015-17-22/Merkblatt_012_d.pdf, S.1-3 gelesen, Run 58, Delta-Check gegen bereits dokumentiertes SMU/VST-Merkblatt 004 in [[recht-norm-arbeitshilfen-planungsdetails]]), BSPUB-1394520214-185.pdf (Run 58, bestaetigter Nicht-Fund/Duplikat von 1001-15de Wohnbauten), Brandschutznachweis_MFH-5g-RF1_V.2_-_ohne_Logo.docx (Stand 06.12.2018, PL-03/00 Brandschutznachweis.ch/01_Brandschutznachweise, Run 60 vollstaendig gelesen), Web bsvonline.ch/de/aktuell/information-bsv-2026 (WebFetch Run 60, 2026-07-25, Terminplan unveraendert bestaetigt)]
+last_updated: 2026-07-25 (Run 68)
+sources: [Lignum-Dokumentation Brandschutz Themenblock 4.1 «Bauteile in Holz — Decken, Waende und Bekleidungen mit Feuerwiderstand», Volltext 80 S. (Erschienen Mai 2015, Nachdruck/Aktualisierung Oktober 2017, PL-03/06 Lignum Brandschutz, Run 68 vollstaendig gelesen — ergaenzt die bisher nur auszugsweise in Run 24 erfasste Einleitung), Lignum-Dokumentation Brandschutz Themenblock 4.2 «Anschluesse bei Bauteilen mit Feuerwiderstand», 33 S. (Erschienen April 2018, STP anerkannt 15.12.2017, PL-03/06 Lignum Brandschutz, Run 68 Kap. 1-4/S.1-25 gelesen, bisher nie katalogisiert), FW-Loeschwasserrueckhalt_UG_Stoerfall-ABC-Objekt-Spezialplan (Musterbetrieb «Muster Spezialfarben AG», Stand 04.09.2017/16.05.2018, PL-03/00 Brandschutzplaene bsvonline.ch/…/St_oerfall ABC-Objekt/, Run 68, Ordner mit Encoding-Fehler bisher uebersehen), VKF-Brandschutzerläuterung 103-15de «Cheminées» (Stand 01.01.2015, genehmigt 23.09.2014, 14 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerläuterung 104-15de «Spänefeuerungen» (Stand 01.01.2015, genehmigt 23.09.2014, 17 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerläuterung 105-15de «Schnitzelfeuerungen» (Stand 01.01.2015, genehmigt 23.09.2014, 12 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerläuterung 106-15de «Pelletsfeuerungen» (Stand 01.01.2015, genehmigt 23.09.2014, 14 S. vollständig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1002-15de «Schulbauten» (Stand 01.01.2015, genehmigt 23.09.2014, 30 S. vollstaendig gelesen, PL-03/05 Arbeitshilfen Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1000-15de «Gebaeude mit geringen Abmessungen» (Stand 01.01.2015, 21 S. vollstaendig gelesen, PL-03/05 Arbeitshilfen Brandschutz 2015), VKF-Brandschutzerlaeuterung 108-15de «Gewaehrleistung der Betriebsbereitschaft von Brandfallsteuerungen (BFS)» (Stand 01.01.2015, Kernteil 11 S. gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), VKF-Brandschutzerlaeuterung 107-15de «Temporaere Aufstellung von Fluessiggasanlagen» (Stand 01.01.2015, 13 S. vollstaendig gelesen, PL-03/04 Erlaeuterungen Brandschutz 2015), PL - 03 Brandschutz/ (SharePoint OneDrive-JANS), VKF-BSR 26-15de «Gefaehrliche Stoffe» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Run 37), DIN EN 12101-2 (Produktnorm NRWG-Ausloesevorrichtungen, PL-03/02 Brandschutzrichtlinien, Run 37), VKF-Brandschutzerlaeuterung 100-15de «Brandmauern» (Stand 01.01.2015, PL-03/02+04, Dateien vormals 0-Byte, Run 37 synchronisiert+ausgewertet), Normen-KB-Destillate `wissen/normen/destillate/vkf-brl-*` (Run 37 Doppelspur-Bereinigung §5o-§5y auf Destillat-Verweis gekuerzt), VKF-Brandschutznorm 1-15 (Stand 01.01.2015), VKF-BSR 11-15 «Qualitaetssicherung im Brandschutz» (Stand 01.01.2015), VKF-BSR 13-15 «Baustoffe und Bauteile», VKF-BSR 15-15de «Brandschutzabstaende Tragwerke Brandabschnitte» (Stand 01.01.2015/2017, PL-03/02_Brandschutzrichtlinien), VKF-BSR 16-15de «Flucht- und Rettungswege» (PL-03/_Projekte Themen/KISPI Fotos Ziff. 3.3.2-3.3.4/3.6), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» (Stand 17.05.2018) inkl. Ziff. 5/6/7 (Brandschutzabstaende/Tragwerke/Fluchtwege-Treppen), VKF-Brandschutzarbeitshilfe 1002-03d «Parkhaeuser und Einstellraeume fuer Motorfahrzeuge» (genehmigt 06.08.2003, PL-03/05 Arbeitshilfen Brandschutz 2015, ⚠ Datenstand vor bsvonline.ch pruefen), «Anleitung zum Brandschutznachweis» V.3 (Brandschutzfachstellen NSV/GVL/GVZ/Kt. SZ/OW/UR), Merkblatt «Brandschutz-Klassifikation von Baustoffen» V.2, VKF-Merkblatt 2003-15 «Brandschutzplaene», bsvonline.ch (BSV 2015/17/22) inkl. realer Muster-Plansatz BSPUB-1394520214-207 (PL-03/00 Brandschutzplaene bsvonline.ch), brandschutznachweis.ch, Web bsvonline.ch «Information BSV 2026» + VKG-Medienmitteilung «Marschhalt bei Liberalisierungsbestrebungen» 06.01.2026 (BSV-2026-Stand, verifiziert 2026-06-30, refresh 2026-07-13: unveraendert, politische Vernehmlassung startet 08/2026), reale JANS-Faelle PL-03/_Projekte Themen: «Brandschutzabstand Regensdorf» (EFP AG Anfrage 16.02.2024 + JANS-Antwort 17.02.2024), «Tragwerk Brandschutzanforderung Thalwil Bohlweg 3» (Factsheet 05.03.2025, Aufstockung EFH), «Gaststaetenbetriebe Alpin Grassen Biwak» (Brandschutzkonzept Schmitter Brandschutz GmbH/Yves Schmitter, 16.–18.01.2025), «Pflegeheim Wald» (Foto Feuerwehrzufahrten-Bewegungsflaechen IMG_0546 + Foto Fluchtwegplan Tertianum Gruenegg IMG_0412) und «KISPI» (Fotos BSR 16-15 Ziff. 3.3.2-3.3.4/3.6 Beherbergungsbetriebe), VKF-Brandschutzerlaeuterung 101-15de «Bauten mit Atrien und Innenhoefen» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), VKF-Brandschutzerlaeuterung 102-15de «Bauten mit Doppelfassaden» (Stand 01.01.2015, PL-03/04 Erlaeuterungen), Lignum-Dokumentation Brandschutz Themenblock 4 «Bauteile in Holz — Decken, Waende und Bekleidungen mit Feuerwiderstand» (Ausgabe Mai 2015, geprueft/anerkannt als Stand der Technik Papier 06.09.2017, PL-03/06 Lignum Brandschutz), Fritzsche/Boesch/Wipf/Kunz «Zuercher Planungs- und Baurecht» Band 2, Kap. 18 «Brandschutz» S. 1331/1343 (PL-03/07 Blaues Buch), VKF-Verzeichnis «Weitere Bestimmungen» 40-15de (PL-03/03 Verzeichnisse Brandschutz 2015), VKF-Brandschutzarbeitshilfe 1001-15de «Wohnbauten» Ziff. 2.4/12.1/12.2 «Parkings» (PL-03/05 Arbeitshilfen Brandschutz 2015/1001-15_Wohnbauten.pdf, vollstaendig gelesen 29 S.), VKF-Brandschutzrichtlinie 21-15 «Rauch- und Waermeabzugsanlagen» (PL-03/02 Brandschutzrichtlinien 2015-17-22/Rauch & Waermeabzugsanlagen.pdf, Ziff. 3.1 Tabelle), brandschutznachweis.ch «BS-Symbole» 01.01.2017 (vollstaendiger Grundsymbole+Ergaenzende-Symbole-Katalog, PL-03/00 Brandschutznachweis.ch/03_Symbole), «Erdbebengerechte mehrgeschossige Holzbauten» (Technische Dokumentation Lignum/SIA/SGEB/usic/HEV Schweiz, 2010, PL-03/06 Lignum Brandschutz/Lignum Erdbeben), Lignatec «Bauten in Holz — Brandschutz-Anforderungen» (Lignum, materielle Uebereinstimmung VKF-Vorschriften seit 1.1.2005 anerkannt, PL-03/06 Lignum Brandschutz/Lignum Bauten in Holz - Brandschutzanforderungen), VKF-BSR 12-15de «Brandverhuetung und organisatorischer Brandschutz» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Volltext gelesen Run 36), VKF-BSR 22-15de «Blitzschutzsysteme» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Volltext gelesen Run 36), VKF-BSR 24-15de «Waermetechnische Anlagen» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Ziff. 1-4 gelesen Run 36), VKF-BSR 25-15de «Lufttechnische Anlagen» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien, Ziff. 1-4 gelesen Run 36), «Erlaeuternder Bericht fuer die Vernehmlassung — Gesamtrevision Schweizerische Brandschutzvorschriften VKF» (VKF, 01.11.2013, V-3-0de, PL-03/02 Brandschutzrichtlinien 2015-17-22/BSV2015-Bericht und Aenderungen.pdf, Run 39 erstmals ausgewertet), «Teilrevision VKF-Brandschutzvorschriften 2017 — Aenderungen Brandschutzrichtlinien 2017 vs 2015» (AFC Basel/Lisa Hugenschmidt, PL-03/02 Brandschutzrichtlinien 2015-17-22/Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf, 34 S. Volltext-Delta, Run 39 erstmals ausgewertet), SZS steeldoc 03/15 «Brandschutz im Stahlbau» tec 02:2015 (Stahlbau Zentrum Schweiz, PL-03/02 Brandschutzrichtlinien 2015-17-22/SService Nr19091815480.pdf, Run 39 identifiziert), VKF-BSR 14-15de «Verwendung von Baustoffen» (28 S., PL-03/02 Brandschutzrichtlinien 2015-17-22/BSPUB-1394520214-77.pdf, Ausgabestempel 01.01.2017 IOTH-Beschluss 22.09.2016, Run 41 volltext-gelesen S.1-14+Anhang-Stichprobe S.15-20, konsistent mit bereits vorhandenem Normen-KB-Destillat `wissen/normen/destillate/vkf-brl-verwendung-baustoffe.md`; Run-39-Fehlidentifikation korrigiert — `Baustoff & Bauteile.pdf` ist BSR 13-15, nicht 14-15), Web bsvonline.ch/de/aktuell/information-bsv-2026 (WebFetch Run 39, 2026-07-14) + VKG-Medienmitteilung «Neue schweizerische Brandschutzvorschriften: Marschhalt bei Liberalisierungsbestrebungen und Ueberpruefung» (vkg.ch, WebSearch Run 39) + presseportal.ch/baublatt.ch (Bestaetigung technische Vernehmlassung 15.09.2025-11.01.2026 + ca. 11'000 Rueckmeldungen, Run 39 Refresh), «Normkonzept BSV 2026» (VKF/Keel & Raster Planungs- und Baurecht GmbH, Stand 06.10.2022, 170 S., PL-02/02_Normen/VKF_Norm/07_BSV 2026 Projekt (noch nicht in Kraft)/260711 VKF Normkonzept BSV 2026 Stand 2022-10-06.pdf, neu abgelegt 11.07.2026, Run 48 Kap. 1-2 (S.1-15) + Kap. 5 "Eckpunkte der Totalrevision" (S.90-129) volltext gelesen, 38 Eckpunkte), VKF-BSR 16-15de «Flucht- und Rettungswege» Stand 01.12.2022 (PL-03/02 Brandschutzrichtlinien 2015-17-22/BSPUB-1394520214-85.pdf, 35 S., Run 52 volltext-diff gegen 2015/2017-Fassungen), VKF-Brandschutznorm 1-15 Zweitkopie BSPUB-1394520214-57.pdf + VKF-BSR 13-15de Rev.2017 BSPUB-1394520214-71.pdf (Run 52, Register-Vervollstaendigung, redaktionelle Deltas), Web bsvonline.ch/de/aktuell/information-bsv-2026 (WebFetch Run 52, 2026-07-18) + vkg.ch-Medienmitteilungsseite (WebSearch Run 52, BSV-2026-Stand unveraendert bestaetigt), VKF-Publikation «Allgemein anerkannte Bauprodukte» Version 12.0 (TKB-Beschluss 31.03.2017, PL-03/00 Brandschutzplaene bsvonline.ch/BSPUB-1394520214-251.pdf, 12 S. vollstaendig gelesen, Run 58), VKF-Brandschutzrichtlinie 28-15de «Anerkennungsverfahren» (Stand 01.01.2015, PL-03/02 Brandschutzrichtlinien 2015-17-22/Anerkennungsverfahren.pdf, 9 S. vollstaendig gelesen, Run 58, Delta-Check bestaetigt fruehere Einordnung), Merkblatt «Brandschutz-Klassifikation von haeufig verwendeten Bauteilen» V.2 Zweitkopie (PL-03/02 Brandschutzrichtlinien 2015-17-22/Brandschutz-Praevention.pdf, Run 58, bestaetigter Nicht-Fund/Duplikat), gege-panikprogramm-1.pdf (Herstellerkatalog GEGE/Kaba Notausgangs-/Paniktuerbeschlaege, PL-03/02 Brandschutzrichtlinien, Run 58, Nicht-Fund), VST-Merkblatt Nr. 012 «Tueren in Fluchtwegen» (Erstausgabe 2009, PL-03/02 Brandschutzrichtlinien 2015-17-22/Merkblatt_012_d.pdf, S.1-3 gelesen, Run 58, Delta-Check gegen bereits dokumentiertes SMU/VST-Merkblatt 004 in [[recht-norm-arbeitshilfen-planungsdetails]]), BSPUB-1394520214-185.pdf (Run 58, bestaetigter Nicht-Fund/Duplikat von 1001-15de Wohnbauten), Brandschutznachweis_MFH-5g-RF1_V.2_-_ohne_Logo.docx (Stand 06.12.2018, PL-03/00 Brandschutznachweis.ch/01_Brandschutznachweise, Run 60 vollstaendig gelesen), Web bsvonline.ch/de/aktuell/information-bsv-2026 (WebFetch Run 60, 2026-07-25, Terminplan unveraendert bestaetigt)]
 links: [[recht-norm-quellenlandkarte]], [[energie-pv-brandschutz]], [[kartenportale-sharepoint-ablage]], [[recht-norm-tiefgarage-erschliessung]], [[kartenportale-naturgefahren-objektschutz]]
 querbezug_kb_normen: "Norm-Fundstellen (Ziffer/Ausgabe/Kennwert) der VKF-Richtlinien sind gemaess Fuehrungs-Matrix in der KB `normen` fuehrend: `wissen/normen/destillate/vkf-brl-*` + `wissen/normen/wiki/REGISTER`. Dieser Artikel liefert den PLANERISCHEN Kontext (Beschaffung, Verfahren, Anwendung), nicht die Fundstelle. Uebergaben an normen laufen ueber `wissen/normen/wiki/QUESTIONS.md` — nicht nur als Notiz hier ablegen (Lehre aus Run 8: der Fassungs-Flag aus Run 52 stand vier Wochen lang nur hier und kam in normen nie an)."
 ---
@@ -2166,6 +2166,23 @@ Betrieb unter die Stoerfallverordnung?» deshalb in die Grundlagenphase.
 werte. Die materielle StFV-Pflicht (Kurzbericht, Risikoermittlung) ist **nicht** Gegenstand dieses
 Plansatzes und bleibt Sache der kantonalen Fachstelle / des Stoerfall-Fachplaners.
 
+**Nachtrag Run 68 (2026-07-25) — dediziertes Loeschwasserrueckhalt-Detailblatt gefunden:** ein
+zusaetzlicher, bisher unerschlossener Ordner `Feuerwehrplaene pdf/St_oerfall ABC-Objekt/` (mit
+Encoding-Fehler im Ordnernamen — Unicode-Umlaut zu Unterstrich verstuemmelt, offenbar ein
+separater OneDrive-Sync-Artefakt vom 21.07.2026, NICHT identisch mit dem oben ausgewerteten
+`Stoerfall ABC-Objekt/`-Ordner) enthaelt genau eine Datei: den eigenstaendigen **Spezialplan
+«Loeschwasserrueckhalt UG»** (1:200), der im Inhaltsverzeichnis des Feuerwehrplansatzes zwar
+erwaehnt, aber bisher nie separat gepruft war (Punkt 6 oben stammte aus dem UG-Detailplan). Der
+dedizierte Plan liefert die **konkreten Beckenvolumina je Lagerraum**: Fertigwarenlager Lacke
+110 m³, Rohstofflager Harze 110 m³, Lager Biozide 15 m³, Geraeteraum/Leergebindelager 180 m³,
+Sumpf unter Gitterrost 8 m³ — sowie den **zentralen Rueckhalteraum «Loeschwasserrueckhalt 408 m³,
+max. Hoehe 0.5 m»** als grossflaechige Sammelzone zwischen den Lagerraeumen. Zusaetzlich zeigt der
+Plan erstmals die **Automatisierungslogik der Rueckhalte-Absperrorgane**: an den
+Treppenhaus-Ausgaengen (TH West/Sued/Nord/Nord II/Ost) sind vier von fuenf Absperrklappen
+**«Autom.» (brandfallgesteuert automatisch)**, eine einzige (Lager Biozide) **«Manuell»** — eine
+JANS-praxisrelevante Detailinformation fuer die Steuerungs-/BFS-Planung (vgl. §5ag), die im
+Standard-Feuerwehrplansatz nicht enthalten ist. → ergaenzt Punkt 6 oben, kein neuer Artikel.
+
 ---
 
 ## 5ap · `z_Administration/` — geklaert, ohne Fachinhalt (Run 54, 2026-07-20)
@@ -2246,6 +2263,131 @@ der Wahl der sichtbaren Holzart in Fluchtwegen/Bereichen mit RF-Einschraenkung.
 ⚠ Diese Publikation ersetzt **nicht** den formellen Produktnachweis (DoP/VKF-Anerkennung) und gilt
 nur fuer die hier gelisteten Standardprodukte — Sonderprodukte/-konstruktionen bleiben
 nachweispflichtig nach Skill `brandschutz`.
+
+---
+
+## 5ar · Lignum 4.1 «Bauteile in Holz — Decken, Waende und Bekleidungen mit Feuerwiderstand» —
+Volltext-Vertiefung mit konkreten Konstruktionstabellen (Run 68, 2026-07-25)
+
+Quelle: **vollstaendiges 80-seitiges Stammdokument** der Lignum-Dokumentation Brandschutz,
+Themenblock 4.1 (Erschienen Mai 2015, Nachdruck/Aktualisierung Oktober 2017, `06 Lignum
+Brandschutz/Lignum 4.1 Bauteile in Holz - Decken Waende und Bekleidungen mit Feuerwiederstand/`,
+drei PDF-Teile A+B+C, alle cloud-only, mit `cp` materialisiert). §5 (Run 24) hatte bisher nur die
+**Einleitungssystematik** (R/EI/REI, RF1-Klassenbegrenzung, K30-RF1, Bekleidungstypen K/F/BSP)
+erfasst — dieser Lauf hat das **gesamte Dokument inkl. aller Konstruktionstabellen** gelesen und
+schliesst damit die seit Run 24 bestehende Vertiefungsluecke.
+
+**Was das Dokument zusaetzlich zu §5 liefert — konkrete, tabellierte Schichtaufbauten fuer
+JANS-Vorprojekte:**
+
+- **Baustoff-Definitionen (Kap. 3.2, Tab. 320-1):** Mindest-Festigkeitsklassen/-Rohdichten fuer
+  Vollholz (C24), Brettschichtholz (GL24k), Massivholzplatten (≥350 kg/m³), Furniersperrholz
+  (≥400 kg/m³), OSB (≥550 kg/m³), Mineralwolle (RF1, Schmelzpunkt ≥1000°C) — die Referenztabelle
+  fuer jede Ausschreibungsklausel zu Holzwerkstoffen im Brandschutzkontext.
+- **Fugentypen 1-4** (hinterlegt/Doppel-Nut-Kamm/Nut-Kamm-Feder/stumpf) mit exakten
+  Mindestmassen — direkt LV-relevant fuer Brettstapel-/Massivholzplatten-Systeme.
+- **Deckensysteme mit vollstaendigen Schichtdicken-Tabellen fuer REI 30/60/90** (Kap. 4.3): sieben
+  Systeme — Balkendecken, Rippendecken, Hohlkastendecken, Brettstapeldecken, Massivholzdecken,
+  Decken aus mehrlagigen Massivholzplatten, Holz-Beton-Verbunddecken. **Praxisbeispiel
+  Balkendecke REI 60** (Tab. 431-3): je nach gewaehlter Deckenbekleidung (Massivholzplatte vs.
+  Gipsplatte vs. unbekleidet) variiert der erforderliche Balkenquerschnitt von **60×160 mm** (mit
+  Bekleidung + Hohlraumdaemmung) bis **140×240 mm** (ohne Unterbekleidung, "nackter" Abbrandquer-
+  schnitt) — ein direkter Kosten-/Momentum-Hebel: eine zusaetzliche Gipsplattenschicht kann den
+  Balkenquerschnitt um bis zu 50 % reduzieren.
+- **Wandsysteme mit vollstaendigen Schichtdicken-Tabellen fuer R/EI/REI 30/60/90** (Kap. 4.4):
+  sieben Systeme — einseitig/beidseitig beplankte Staenderkonstruktionen (mit/ohne Daemmung),
+  Fachwerkwaende (Riegelwaende, Ausfachung Mauerwerk oder Holzwolle-Leichtbauplatten),
+  Brettstapelwaende, Blockbauwaende, Waende aus mehrlagigen Massivholzplatten, Waende aus
+  Holzwerkstoffplatten. Tragende Lastannahme durchgehend **q'd = 20 kN/m' (30 Min.) bzw.
+  50 kN/m' (60/90 Min.)** je lfm Wand.
+- **Abbrandbemessung (Kap. 4.5):** drei Nachweiswege — waehrend der gesamten Branddauer
+  ungeschuetzte Holzbauteile (Abbrandrate nach SIA 265), anfaenglich geschuetzte Bauteile
+  (hoehere Abbrandrate NACH Versagen der Bekleidung/Brandschutzplatte), Stahlbauteile mit
+  Brandschutzplatten-Bekleidung (BSP30/60 → R30/R60, ausser Klebebewehrungen CFK/Stahllamellen).
+- **Brandschutzplatten (BSP, Kap. 4.6):** Systematik allseitig (Stuetze) vs. beidseitig (Decke) —
+  Schichtdicken-Tabelle bis 60 Min. Feuerwiderstand fuer diverse Materialien (Gipsplatte,
+  Kalziumsilikatfaserzementplatte, Blaehglimmerplatten, Leichtbeton, Verputze).
+- **Bauteile RF1 (Kap. 5):** vollstaendige Konstruktions- und Schichtdicken-Tabellen fuer alle
+  sieben Decken- und zwei Wandsysteme in der RF1-Variante (Brandschutzbekleidung K30-RF1/K60-RF1
+  aus VKF-Register 230, Estrich/Beton als Alternative zur Beplankung). **Anschluesse
+  brandabschnittsbildender RF1-Bauteile (Kap. 5.2.3):** vier Grundregeln — durchgehende
+  Brandschutzbekleidung bei RF1-Bauteil-Anschluessen an homogene Bauteile, feuerwiderstandsfaehige
+  Fugenausbildung bei artgleichem Feuerwiderstand, Hohlraeume im Anschlussbereich mit Mineralwolle
+  (Schmelzpunkt ≥1000°C) zu fuellen.
+- **Glossar (Kap. 7):** amtliche Begriffsdefinitionen Auflage/Baustoff/Beplankung/Brandabschnitt/
+  Feuerwiderstand/Hohlraum/Tragfaehigkeit — Querverweis zu den bereits dokumentierten BSR-10-15-
+  Begriffen (§5t), keine Widersprueche gefunden.
+- **Lignum-Dokumentation-Uebersicht (S. 79):** die Publikation ist Teil eines **10-Themenblock-
+  Systems** (1 Planung, 2 Qualitaetssicherung, 3 Feuerwiderstandsbemessung, **4 Bauteile in Holz**
+  [Decken/Waende + **4.2 Anschluesse**, s. §5as], 5 Flucht-/Rettungswege, 6 Haustechnik, 7 Aussen-
+  waende, 8 Abschluesse, 9 Brandmauern, 10 Grundlagen) — bisher war JANS nur Themenblock 4 bekannt;
+  die Themenbloecke 5-9 (insbesondere «6 Haustechnik — Installationen und Abschottungen» und
+  «7 Aussenwaende — Konstruktion und Bekleidungen») sind potenzielle Backlog-Kandidaten fuer einen
+  kuenftigen Brandschutz-Turnus, sofern die zugehoerigen PDF im PL-03-Ordner vorliegen (bisher nicht
+  gefunden — nur Themenblock 4.1 + 4.2 sind im Hub abgelegt).
+
+**JANS-Praxiswert:** Diese Publikation ist die belegte Referenz fuer die **Vorprojekt-
+Dimensionierung** von Holzbauteilen mit Brandschutzanforderung — Balkenquerschnitt, Wandaufbau-
+Dicke und Bekleidungswahl lassen sich direkt aus den Tabellen ablesen, ohne vorab einen
+Holzbauingenieur beizuziehen. Ergaenzt/vertieft §5 (dort nur die Einordnungssystematik).
+
+⚠ Alle Schichtdicken/Querschnitte sind **Mindestmasse gemaess dieser genormten Publikation** —
+sie ersetzen keinen rechnerischen Nachweis bei abweichenden Randbedingungen (Balkenabstand,
+Nutzlast, Bauteilbreite) und gelten nur fuer die dort explizit benannten Voraussetzungen
+(Balkenabstand max. 700 mm, Nutzlast Kat. B q_k = 3.0 kN/m² bei Decken).
+
+---
+
+## 5as · Lignum 4.2 «Anschluesse bei Bauteilen mit Feuerwiderstand» — bisher unbekannter zweiter
+Themenblock-Teil (Run 68, 2026-07-25)
+
+Quelle: **vollstaendig neu erschlossenes Dokument**, 33 Seiten, `06 Lignum Brandschutz/Lignum 4.2
+Bauteile in Holz - Anschluesse bei Bauteilen mit Feuerwiederstand/` (Erschienen April 2018, als
+Stand-der-Technik-Papier am 15.12.2017 von der TKB-VKF anerkannt), bisher **nirgends im Hub
+katalogisiert** — weder in §5 (Run 24) noch in einem anderen Curriculum-Punkt erwaehnt, obwohl §5
+selbst am Ende bereits auf «Themenblock 4.2 Anschluesse» als Fachplaner-Tiefe verwies, ohne dass
+das Dokument je gelesen worden war. Kapitel 1-4 (Einleitung bis Anschluesse Holzbauteile, S. 1-25)
+vollstaendig gelesen; Kapitel 5 (Anschluesse Bauteile RF1) + Anhaenge (Leitfaden, Beispiel-
+konstruktionen) als Backlog fuer einen kuenftigen Vertiefungslauf vorgemerkt (Rest ~9 Seiten
+konkrete Detailkonstruktionen, methodisch analog zu Kap. 4).
+
+**Kernsystematik (Kap. 2-3) — vier Grundregeln fuer jeden Bauteilanschluss:**
+
+1. **Anschlussbereiche muessen dieselbe Feuerwiderstandsdauer aufweisen** wie die angrenzenden
+   Bauteile — Tragkonstruktion und Beplankungen duerfen durch Schwachstellen im Anschlussbereich
+   nicht von innen geschwaecht werden (Abbrand durch Fugen).
+2. **Vier Risikosituationen** (Abb. 320-1): (1) Bauteilstirn ohne Abschluss, (2) Beplankungsfuge
+   an der Stirnseite, (3) Abbrand durch Schwachstellen im Anschlussbereich schwaecht die
+   Tragkonstruktion, (4) durchlaufende Laengsfugen (typisch bei Kasten-/Massivholzsystemen und
+   Brettstapeln) — jede Situation braucht eine spezifische Massnahme (Daemmstreifen Mineralwolle
+   ≥1000°C, Abdeckbrett, oder Fugendichtung).
+3. **Vorsatzkonstruktionen** (brandschutztechnisch NICHT wirksame Vorwandbekleidungen, Bodenauf-
+   bauten, Lattenroste): die Leitungs-/Installationsfuehrung muss ausserhalb des brandschutz-
+   technisch wirksamen Anschlusses liegen; wird eine solche Konstruktion Bestandteil des
+   Anschlusses, muss ihre Wirksamkeit nach Umbau/Konstruktionsaenderung sichergestellt werden.
+4. **Baustoff-/Fugenmaterial-Definitionen** (Tab. 340-1) identisch zu Lignum 4.1 (§5ar), ergaenzt
+   um **Fugenabdichtungssysteme** (VKF-Register-Gruppe 224 «Fugenabdichtungen»).
+
+**Anschlusskonstruktionen Holzbauteile (Kap. 4) — zehn Situationstypen mit Loesungsskizzen:**
+Bauteilabschluesse durchgehend/an Bauteile ohne Feuerwiderstand (Fuellholz-Mindestmasse
+b≥40/60/80 mm je EI30/60/90) · Bauteilabschluesse an Bauteile MIT Feuerwiderstand (Feuerwider-
+standsdifferenz max. 30 Min. zulaessig, sonst voller Abschluss noetig) · Elementstoesse ·
+Unterbrueche brandschutztechnisch wirksamer Beplankungen (unterbrochene Beplankung ist
+gleichwertig zu ersetzen) · Hohlraeume (durchlaufende Hohlraeume muessen unterbrochen werden) ·
+Laengsfugen gefuellt (max. 10 mm Fugenbreite, Abdichtung mit Klebeband/Fugenband/Dichtungsmasse
+bei Fugenquerschnittsflaeche ≤150 mm²) · weiterfuehrend Auflager, Lagesicherung, Verbindungsmittel,
+Bauteildurchbrueche (nicht mehr im Detail gelesen, s. Backlog oben).
+
+**JANS-Praxiswert:** ergaenzt Lignum 4.1 (§5ar) um die **Fugen-/Anschlussebene** — genau die
+Stelle, an der reale Holzbau-Brandschaeden typischerweise entstehen (Schwachstellen an
+Bauteilstoessen, nicht in der Flaeche). Fuer die Werkplanung/Ausfuehrungskontrolle bei
+Holzbau-Projekten mit Brandschutzanforderung ist dieses Dokument die noch fehlende dritte Saeule
+neben Skill `brandschutz` (Fachbemessung) und Lignum 4.1 (Flaechen-Konstruktion).
+
+⚠ Kapitel 5 (Anschluesse RF1-Bauteile) und die drei Anhaenge (Leitfaden Anwendung, Anschluss-
+situationen-Uebersichtstabellen, konkrete Beispielkonstruktionen Geschossdecke/Aussenwand/
+Innenwand/Dach/Unterzug/Treppenhaus) sind noch nicht im Detail ausgewertet — Backlog fuer den
+naechsten Recht/Norm+Brandschutz-Turnus.
 
 ---
 

@@ -2,8 +2,8 @@
 title: Graue Energie & THGE — das CO₂ im Bauteil
 status: established
 last_updated: 2026-07-21
-sources: [destillate/graue-energie-betriebsenergie.md, destillate/minergie-besser-planen-bauen.md, destillate/clt-bauphysik-stora-enso.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/muken-2025-verabschiedet.md]
-links: [[INDEX]], [[minergie-standards]], [[minergie-nachweiskurs-2023-mkz-thge]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[holzbau-bauphysik-clt]], [[kbob-graue-treibhausgasemissionen-2025]], [[muken-2025-verabschiedet]]
+sources: [destillate/graue-energie-betriebsenergie.md, destillate/minergie-besser-planen-bauen.md, destillate/clt-bauphysik-stora-enso.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/muken-2025-verabschiedet.md, destillate/kbob-bauteilkatalog-co2-je-aufbau.md, destillate/kbob-massivbau-bauteilaufbau-co2.md]
+links: [[INDEX]], [[minergie-standards]], [[minergie-nachweiskurs-2023-mkz-thge]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[holzbau-bauphysik-clt]], [[kbob-graue-treibhausgasemissionen-2025]], [[muken-2025-verabschiedet]], [[kbob-bauteilkatalog-co2-je-aufbau]], [[kbob-massivbau-bauteilaufbau-co2]]
 ---
 
 # Graue Energie & THGE
@@ -121,6 +121,21 @@ Gesamtgebäude **Holz 7.5 vs. Mineralisch 9.8 kg CO₂-equ./m²EBF·a** (≈23 %
 **Dachkonstruktion** («38 % Einsparung auf Bauteilebene möglich») — deckt sich mit dem oben belegten
 Tragstruktur-Hebel (Klingler/Kasser 2012, 49 % / 40 % Anteil am Gesamt-GTHGE), zwei unabhängige Quellen
 13 Jahre auseinander mit derselben Struktur-Aussage.
+
+**Konkrete Bauteilaufbau-Zahlen Holzbau vs. Massivbau, absolute kg CO₂-eq/m² (Run 92/93,
+2026-07-25):** Ein reales Lignumdata-Holzbau-Ständerwandelement (U ≈ 0,17–0,20 W/m²K) verursacht
+**25–34 kg CO₂-eq/m²** (Herstellung+Entsorgung, `[[kbob-bauteilkatalog-co2-je-aufbau]]`). Die reine
+Ziegel- bzw. Betonmasse einer vergleichbar dicken Massivwand liegt **bereits ohne Dämmung/Putz/
+Bewehrung darüber**: Backstein-Vollwand SwissModul (Schweizer Ziegelindustrie-EPD 2017)
+**35–52 kg CO₂-eq/m²** (17,5–25 cm), unbewehrte Hochbaubeton-Wand (treeze/Stadt Zürich 2016)
+**46–69 kg CO₂-eq/m²** (20–30 cm) — `[[kbob-massivbau-bauteilaufbau-co2]]`. Das liefert erstmals ein
+reales absolutes Zahlenpaar (nicht nur den bereits bekannten Prozentwert «Holz −73 % ggü.
+Backstein+EPS» der treeze/ZZ-Wancor-Studie 2017) für die Materialwahl-Beratung: die Ziegel-/
+Betonmasse allein kostet schon 1,3- bis 2-mal so viel graue Treibhausgasemissionen wie die
+komplette Holzbauwand inkl. Dämmung — bevor Mörtel/Putz/Bewehrung der Massivwand überhaupt
+mitgerechnet sind. Kein öffentlich frei zugängliches Massivbau-Bauteildatenblatt mit vollem
+Schichtplan (Pendant zu den Lignumdata-Blättern) gefunden — bauteilkatalog.ch führt die GWP-Spalte
+weiterhin nur im PRO-Abo (bestätigter Negativbefund).
 
 ## Offen
 - Für eine **projektgenaue** Berechnung bleiben die kostenpflichtigen KBOB-Ökobilanzdaten v8.0 /

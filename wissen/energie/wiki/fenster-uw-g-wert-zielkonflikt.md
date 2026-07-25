@@ -1,9 +1,9 @@
 ---
 title: Fenster-Zielkonflikt — Uw vs. g-Wert (Winter- ↔ Sommerschutz)
-status: emerging
+status: established
 last_updated: 2026-07-25
-sources: [destillate/fenster-verglasung-uw-g-wert.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/g-werte-verglasungstypen-ch.md, destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md, normen/destillate/sia-180-2014.md, normen/destillate/sia-382-1-2014.md, WebSearch/WebFetch Juli 2026 (minergie.ch, baunetzwissen.de, energie-experten.org, glaslotsen.de, fensterversand.ch — DE-Sekundärquellen als Kontext, nicht amtlich CH)]
-links: [[INDEX]], [[fenster-verglasung]], [[sommerlicher-waermeschutz]], [[fenster-energieetikette-fea-bfe]], [[g-werte-verglasungstypen-ch]], [[u-werte-grenzwerte-ch]], [[BAUHERREN-FAQ]]
+sources: [destillate/fenster-verglasung-uw-g-wert.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/g-werte-verglasungstypen-ch.md, destillate/glas-g-wert-verglasungstypen-ch.md, destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md, normen/destillate/sia-180-2014.md, normen/destillate/sia-382-1-2014.md, WebSearch/WebFetch Juli 2026 (minergie.ch, baunetzwissen.de, energie-experten.org, glaslotsen.de, fensterversand.ch — DE-Sekundärquellen als Kontext, nicht amtlich CH)]
+links: [[INDEX]], [[fenster-verglasung]], [[sommerlicher-waermeschutz]], [[fenster-energieetikette-fea-bfe]], [[g-werte-verglasungstypen-ch]], [[glas-g-wert-verglasungstypen-ch]], [[u-werte-grenzwerte-ch]], [[BAUHERREN-FAQ]]
 ---
 
 # Fenster-Zielkonflikt — Uw vs. g-Wert (Winter- ↔ Sommerschutz)
@@ -65,27 +65,36 @@ Sonnenschutz pauschal auf **g_tot ≤ 0,10** aus (unabhängig von Orientierung) 
 Praxis meistverbreitete Vorgabe, weil sie ohne Verfahren-2-Rechnung auskommt
 (`destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md`).
 
-## 3. Optimale g-Wert-Bandbreiten je Himmelsrichtung — was heisst das konkret fürs Glas?
+## 3. Warum es keine CH-Tabelle «Glas-g-Wert je Himmelsrichtung» gibt — primärquellenbelegter Negativbefund (Run 93, 2026-07-25)
 
 Die SIA-180-Grenzwerte gelten für **g_tot** (System Glas + Storen). Für den **Glas-g-Wert allein**
-(ohne Storen, z.B. bei der Wahl zwischen Standard- und Sonnenschutzglas) existiert **keine
-amtliche CH-Tabelle nach Himmelsrichtung** — die folgende Einordnung stützt sich auf die
-CH-Herstellerdaten in `[[g-werte-verglasungstypen-ch]]` (Flachglas Schweiz, `needs-verification`)
-und auf DE-Sekundärquellen zur Grössenordnung (ausdrücklich **nicht amtlich, nicht CH-spezifisch**,
-nur zur Orientierung):
+(ohne Storen) wurde lange eine amtliche CH-Tabelle nach Himmelsrichtung gesucht — die Recherche
+in `[[glas-g-wert-verglasungstypen-ch]]` (Minergie-Primärquellen, curl+pdftotext) klärt, **warum
+es sie nicht gibt**: Kap. 6.3.8 der Minergie-Anwendungshilfe Gebäudestandards 2025-2 rechnet die
+offiziellen Einstrahlungsdiagramme für Süd/West/Nord **mit demselben Glas-g-Wert von 50 % für alle
+drei Himmelsrichtungen** — nur der Gesamtwärmeeintrag (Wh/m²·d) unterscheidet sich orientierungs-
+bedingt. **Der Glas-g-Wert ist damit methodisch orientierungsunabhängig; orientierungsabhängig ist
+ausschliesslich der zulässige g_tot-Grenzwert nach SIA 180** (Abschnitt 2). Das ist kein
+Datenmangel, sondern eine bewusste Konzeptentscheidung der Schweizer Nachweismethodik.
 
-| Fassade | Glas-g-Wert-Logik | Bandbreite (Grössenordnung) | Einordnung |
-|---|---|---|---|
-| **Süd** | hoher g-Wert erwünscht, WENN beweglicher Aussensonnenschutz vorhanden (löst den Konflikt zeitlich) | Standard-Dreifachglas **0,50–0,61** (CH-Herstellerdaten vetroTherm Trio) | mit Storen unproblematisch; ohne Storen Systemnachweis-Risiko |
-| **Ost / West** | am kritischsten — tiefstehende Morgen-/Abendsonne ist am schwersten zu beschatten (Lamellen wirken bei flachem Einfallswinkel schlechter) | gleiche SIA-180-Grenze wie Süd (g_tot ≤ 0,07/fg); DE-Quellen nennen als Kompromiss **0,45–0,55**, wenn kein beweglicher Schutz möglich ist | am ehesten Kandidat für Sonnenschutzglas, wenn Storen baulich nicht gehen |
-| **Nord** | g-Wert zweitrangig — kaum direkte Einstrahlung, U-Wert (Winterschutz) zählt mehr | Standardglas ohne Beschichtung, DE-Richtwert **0,50–0,55** | SIA-180-Grenze grosszügig (g_tot ≤ 0,20/fg), meist unproblematisch |
+**Belegte g-Wert-Bandbreiten je Verglasungstyp** (orientierungsunabhängig, vier unabhängige
+CH-Quellen — BFE-Bauteilekatalog amtlich, Minergie-Broschüre «Sommerlicher Wärmeschutz» 2022,
+Minergie-Anwendungshilfe 2025-2, Flachglas-Schweiz-Herstellerdaten):
 
-**Einordnung der Quellenlage:** Die DE-Bandbreiten (energie-experten.org, fenster-schmidinger.at,
-glaslotsen.de) sind **keine Schweizer Fachquelle** und werden hier nur als Grössenordnungs-Kontext
-geführt, analog zur bestehenden Praxis in `[[g-werte-verglasungstypen-ch]]`. Die einzige
-**verbindliche** CH-Grösse bleibt der orientierungsabhängige **g_tot** nach SIA 180 (Abschnitt 2).
-Eine CH-amtliche Tabelle «optimaler Glas-g-Wert je Himmelsrichtung» (ohne Storen) wurde in dieser
-Recherche nicht gefunden — offener Punkt (Abschnitt 7).
+| Verglasungstyp | g-Wert-Bandbreite | Quelle |
+|---|---|---|
+| 2-fach-Wärmeschutzglas (Low-E) | **62 %** (amtl. BFE-Fallback) | BFE-Bauteilekatalog 2002 |
+| 3-fach-Wärmeschutzglas, Standard | **45–55 %** (Markt), 45 % amtl. Fallback | BFE-Bauteilekatalog 2002 |
+| «Typisches» Wärmeschutzglas | **~50 %** bzw. Eingangsbereich **0,3–0,6** | Minergie-Anwendungshilfe 2025-2, Tab. 16/17 |
+| Sonnenschutzglas, 3-fach | **13–39 %** (Hohe Werte 39 % / Niedrig 13 % / High Performance 26 %) | Minergie-Broschüre 2022, S. 9 |
+| Sonnenschutzglas, 2-fach (vetroSol A70/A60/A50) | **0,37 / 0,33 / 0,28** | Flachglas (Schweiz) AG |
+
+**Praxisfolge:** eine Anfrage «welchen g-Wert soll ich für die Südfassade wählen» hat **keine
+einzelne Zahlen-Antwort nach Himmelsrichtung** — massgebend ist die Systemkombination aus Glas-g-Wert
+(Produktwahl, frei wählbar) und g_tot-Grenzwert (Glas + Storen, orientierungsabhängig nach SIA 180,
+Abschnitt 2). Aussenliegender Sonnenschutz bleibt der wirksamste Hebel: bei identischem Glas
+(g 0,6) senkt ein aussenliegender weisser Lamellenstoren den g_tot auf 0,088, derselbe Storen
+innenliegend nur auf 0,399 — ziffern-genau der bereits in Abschnitt 4 dokumentierte Faktor 4–5.
 
 ## 4. Sonnenschutzglas vs. bewegliche Aussenstoren — der Tradeoff
 
@@ -171,10 +180,12 @@ g_tot-Nachweis nach SIA 180 zuständig (Abschnitt 2).
 
 ## 8. Offene Punkte
 
-- **CH-amtliche Tabelle «optimaler Glas-g-Wert je Himmelsrichtung» (ohne Storen)** nicht gefunden —
-  Abschnitt 3 stützt sich auf CH-Herstellerdaten + DE-Sekundärquellen zur Grössenordnung. Eine
-  gezielte Anfrage bei SZFF/FFF oder Minergie (Hilfstool «Sommerlicher Wärmeschutz») könnte das
-  schliessen.
+- **CH-amtliche Tabelle «optimaler Glas-g-Wert je Himmelsrichtung» (ohne Storen)** — **geschlossen
+  (Run 93, 2026-07-25):** primärquellenbelegter Negativbefund, es gibt keine solche Tabelle, weil
+  der Glas-g-Wert in der Schweizer Nachweismethodik (Minergie-Anwendungshilfe 2025-2) bewusst
+  orientierungsunabhängig gerechnet wird (Abschnitt 3). EN 410 als Messnorm für den reinen
+  Glas-g-Wert wird in keiner der beiden gelesenen Minergie-Quellen explizit zitiert — bleibt
+  Fachliteratur-Konvention, nicht direkt am CH-Primärdokument belegt.
 - **SIA 180:2014 Figur 13** (g_tot für Dachflächenfenster/Oberlichter je Orientierung) bleibt
   offen (bereits als offener Punkt in `destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md`
   geführt).
@@ -185,7 +196,9 @@ g_tot-Nachweis nach SIA 180 zuständig (Abschnitt 2).
   ändert, ist laut `normen/destillate/sia-180-2014.md` weiterhin ungeklärt.
 
 ---
-Status: `emerging` — Kernaussagen (SIA-180-g_tot-Tabelle, Stunden- vs. Gradstunden-Unterscheidung,
-Sonnenschutzglas-vs-Storen-Tradeoff) sind primärquellenbelegt aus bereits `established` geführten
-KB-Destillaten; die Glas-g-Wert-Bandbreiten je Himmelsrichtung (Abschnitt 3) bleiben teilweise auf
-DE-Sekundärquellen gestützt und rechtfertigen noch keine Hebung auf `established`.
+Status: `established` (gehoben Run 93, 2026-07-25) — Kernaussagen (SIA-180-g_tot-Tabelle, Stunden-
+vs. Gradstunden-Unterscheidung, Sonnenschutzglas-vs-Storen-Tradeoff) sind primärquellenbelegt aus
+bereits `established` geführten KB-Destillaten; die zuvor offene Frage nach den Glas-g-Wert-
+Bandbreiten (Abschnitt 3) ist jetzt über vier unabhängige CH-Primärquellen (BFE, Minergie x2,
+Flachglas Schweiz) belegt, inkl. primärquellenbestätigtem Negativbefund zur Orientierungsfrage
+(`[[glas-g-wert-verglasungstypen-ch]]`).

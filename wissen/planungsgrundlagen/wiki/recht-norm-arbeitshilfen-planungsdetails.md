@@ -1,8 +1,8 @@
 ---
 title: Recht & Norm — Arbeitshilfen Planungsdetails (2h-Schatten, Briefkastenanlage, Absturzsicherungen, Türen in Fluchtwegen, Estriche, Balkonabdichtung)
 status: established
-last_updated: 2026-07-24 (Run 58)
-sources: [PL - 02_Recht_Norm/03_Arbeitshilfen/2h Schatten/2h-Schatten_AFB.pdf (Amt für Baubewilligungen/Amt für Regionalplanung Kt. ZH, "Die 2-Stunden-Schattenkurve", 1967/09.12.03 DEC), PL - 02_Recht_Norm/03_Arbeitshilfen/Post Briefkastenanlage/Post_Briefkastenanlage.pdf (Die Schweizerische Post, PostMail, Faktenblatt "Der Hausbriefkasten", 09.2010, gestützt auf Verordnung des UVEK zur Postverordnung vom 18.03.1998), PL - 02_Recht_Norm/04_Merkblätter/Absturzsicherungen Richtlinie.pdf (Stadt Zürich Amt für Baubewilligungen, Richtlinie "Absturzsicherungen im Hochbau", 1. Juni 2019), PL - 02_Recht_Norm/04_Merkblätter/Merkblatt-TK004_Fluchtwege_DE.pdf (Schweizerische Metall-Union SMU/Verband Schweizerischer Türenproduzenten VST, Merkblatt 004 "Türen in Fluchtwegen", 11 S.), PL - 02_Recht_Norm/04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_16-2012_Checkliste (PAVIDENSA, "Checkliste Planung und Ausführung von Estrichen", März 2012, vollständig gelesen, Run 58), PL - 02_Recht_Norm/04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_01-2008_Spez_Bedingungen_Fussbodenheizung (PAVIDENSA, "Spezielle Bedingungen für Heizestriche", Oktober 2008, vollständig gelesen, Run 58; 7 weitere PAV-A/PAV-E-Empfehlungen im selben Ordner als Backlog), PL - 02_Recht_Norm/04_Merkblätter/Merkblatt Unterlagsboden/Balkone_Laubengänge_Anforderungen_nach_SIA_281_2007_273_WZ230211.pdf (LPM AG/Richard Graf dipl. Bauingenieur HTL, KBS-Fachtagung 2010 "Balkone und Laubengänge — Anforderungen nach SIA-Norm 271:2007+ (273)", 36 Folien vollständig gelesen, Run 58)]
+last_updated: 2026-07-25 (Run 68)
+sources: [AUVA «Planungsgrundlagen von Anschlageinrichtungen auf Daechern» (Allgemeine Unfallversicherungsanstalt Oesterreich, D-A-C-H-S-Arbeitskreis, 10/2010, 20 S. vollstaendig gelesen, PL-02/04_Merkblätter/AUVA Planungshilfe Anschlagsvorrichtung V101025-klein.pdf, Run 68 — oesterreichische Quelle, keine Schweizer Rechtsgrundlage, dient als D-A-CH-uebergreifende Planungshilfe), PL - 02_Recht_Norm/03_Arbeitshilfen/2h Schatten/2h-Schatten_AFB.pdf (Amt für Baubewilligungen/Amt für Regionalplanung Kt. ZH, "Die 2-Stunden-Schattenkurve", 1967/09.12.03 DEC), PL - 02_Recht_Norm/03_Arbeitshilfen/Post Briefkastenanlage/Post_Briefkastenanlage.pdf (Die Schweizerische Post, PostMail, Faktenblatt "Der Hausbriefkasten", 09.2010, gestützt auf Verordnung des UVEK zur Postverordnung vom 18.03.1998), PL - 02_Recht_Norm/04_Merkblätter/Absturzsicherungen Richtlinie.pdf (Stadt Zürich Amt für Baubewilligungen, Richtlinie "Absturzsicherungen im Hochbau", 1. Juni 2019), PL - 02_Recht_Norm/04_Merkblätter/Merkblatt-TK004_Fluchtwege_DE.pdf (Schweizerische Metall-Union SMU/Verband Schweizerischer Türenproduzenten VST, Merkblatt 004 "Türen in Fluchtwegen", 11 S.), PL - 02_Recht_Norm/04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_16-2012_Checkliste (PAVIDENSA, "Checkliste Planung und Ausführung von Estrichen", März 2012, vollständig gelesen, Run 58), PL - 02_Recht_Norm/04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_01-2008_Spez_Bedingungen_Fussbodenheizung (PAVIDENSA, "Spezielle Bedingungen für Heizestriche", Oktober 2008, vollständig gelesen, Run 58; 7 weitere PAV-A/PAV-E-Empfehlungen im selben Ordner als Backlog), PL - 02_Recht_Norm/04_Merkblätter/Merkblatt Unterlagsboden/Balkone_Laubengänge_Anforderungen_nach_SIA_281_2007_273_WZ230211.pdf (LPM AG/Richard Graf dipl. Bauingenieur HTL, KBS-Fachtagung 2010 "Balkone und Laubengänge — Anforderungen nach SIA-Norm 271:2007+ (273)", 36 Folien vollständig gelesen, Run 58)]
 links: [[recht-norm-quellenlandkarte]], [[recht-norm-baueingabe-verfahren-zh]], [[recht-norm-raumprogramm-referenzwerke]], [[recht-norm-tiefgarage-erschliessung]], [[machbarkeit]], [[brandschutz-pl03-wegweiser]]
 ---
 
@@ -357,3 +357,55 @@ Drainageschicht zwischen Abdichtung und Belag, ungleichmässige Dicke des «schw
 planung (BKP 281.1 in Kombination mit Abdichtung BKP 224/226) die konkrete Fehlerquellen-Checkliste
 — besonders wertvoll für Bestandsbauten-/Sanierungsprojekte (Ankaufsprüfung), wo genau dieses
 Schadensbild (Durchfeuchtung, Risse, Ausblühungen) ein typischer Befund ist.
+
+---
+
+## 7. Dach-Anschlageinrichtungen fuer Absturzsicherung — AUVA-Planungsgrundlage (Run 68, 2026-07-25)
+
+Quelle: **AUVA «Planungsgrundlagen von Anschlageinrichtungen auf Daechern»** (Allgemeine Unfall-
+versicherungsanstalt Oesterreich, 10/2010, 20 S. vollstaendig gelesen, im D-A-C-H-S-Arbeitskreis
+— Deutschland/Oesterreich/Schweiz/Suedtirol — abgestimmt, `04_Merkblätter/AUVA Planungshilfe
+Anschlagsvorrichtung V101025-klein.pdf`, bisher nie erschlossen). ⚠ **Oesterreichische Quelle,
+keine Schweizer Rechtsgrundlage** — die Publikation selbst haelt fest: «Nationale Bestimmungen
+bleiben von diesen Empfehlungen unberuehrt. Soweit diese Vorschlaege gegenueber nationalem Recht
+abweichen, geht der Anwender dieser Empfehlung im Umfang der Abweichung das volle rechtliche
+Risiko ein.» Fuer die Schweiz gelten SUVA-Vorgaben/EKAS-Richtlinien parallel — dieser Artikel
+dient als **belegte D-A-CH-uebergreifende Planungshilfe**, nicht als Schweizer Norm-Ersatz.
+
+**Abgrenzung zu §3 (Absturzsicherungen Stadt Zuerich):** §3 regelt Gelaender/Bruestungen fuer
+**normale Gebaeudenutzer** (Balkone, Treppen, Dachterrassen im taeglichen Gebrauch). **Dieser
+Artikel** regelt einen anderen Personenkreis und Zweck: **permanente Anschlagpunkte fuer
+Wartungs-/Instandhaltungspersonal** (Dachdecker, Spengler, Lueftungstechniker, Reinigungspersonal),
+die sich mit **persoenlicher Schutzausruestung (PSA) gegen Absturz** (Rueckhalte-/Auffangsysteme,
+Karabinerhaken, Falldaempfer) an baulich verankerten Anschlagpunkten sichern — eine fruehzeitige
+Dach-Planungsfrage, KEIN Doppel zu §3.
+
+**Kernsystematik:**
+
+- **Gefahrenbereich = gesamte Dachflaeche**, «besonderer Gefahrenbereich» = 2 m Abstand zur
+  Absturzkante — dort verstaerkte Massnahmen.
+- **Prinzip Kollektiv vor Individuell:** Geländer/Attika/Brüstung/Durchsturzgitter haben
+  **absoluten Vorrang** vor Anseilschutz; PSA nur wo bauliche Loesung fehlt.
+- **Vier Ausstattungsklassen 1-4** je Kombination aus Nutzerkategorie (Dachberufe → atypische
+  Dachberufe → private Nutzer → Jedermann/oeffentlicher Personenverkehr) und Wartungsintervall
+  (A >5 Jahre selten bis D mehrmals jaehrlich): Klasse 1 (Einzelanschlagpunkte genuegen) bis
+  Klasse 4 (volle bauliche Absturzsicherung nach Bauvorschriften, kein PSA-Ersatz zulaessig).
+  **JANS-Praxisrelevanz:** ein Flachdach mit Solaranlage (mehrmals jaehrliche Wartung) landet
+  automatisch in Klasse 3, unabhaengig vom Nutzerkreis — frueh im Vorprojekt zu beruecksichtigen.
+- **Geometrische Planungsregeln:** Anschlagpunkt-Abstand zur Absturzkante **2,5 m** (ermoeglicht
+  sichere Schneeraeumung); Flachdach-Rastermass **max. 17 m Dachbreite bzw. max. 7,5 m Punktabstand**
+  fuer die «orange Zone» (Rueckhaltesystem, bevorzugt) statt «rote Zone» (Auffangsystem, moeglichst
+  klein zu halten — hoeheres Risiko); Steildach-Sicherheitsdachhaken im **Rastermass horizontal
+  3,5 m / vertikal 5,0 m** (EN 517).
+- **Zugang zur Anschlageinrichtung** selbst muss gesichert sein (Dachaufstieg/-ausstieg mit
+  eigenem Anschlagpunkt in Reichweite, Rueckenschutz bei Leitern).
+- **Anforderungen an Anschlageinrichtungen:** Baumusterpruefung nach **EN 795** (Seilsysteme
+  Klasse C, Dachhaken nach EN 517), **Montagedokumentation** (Objekt/Firma/Monteur/Produkt/
+  Befestigungsmittel/Dach-Schemaplan) als Nachweis fuer den Auftraggeber, **periodische
+  Sachkundigenpruefung** (Sicht-/Funktionspruefung, Korrosion/Verformung/lose Teile).
+
+**JANS-Praxiswert:** direkte Vorprojekt-Checkliste fuer Flachdaecher mit PV-Anlagen, Lueftungs-
+zentralen oder sonstigen wartungsintensiven Dachaufbauten — die Ausstattungsklasse (und damit der
+Aufwand fuer Anschlagpunkte/Geländer) ergibt sich schon aus der geplanten Nutzung, nicht erst aus
+der Ausfuehrungsplanung. Ergaenzt [[energie-pv-eignung-typenwahl]] (PV-Wartungszugang) und
+[[kartenportale-naturgefahren-objektschutz]] (Dachsicherheit allgemein).

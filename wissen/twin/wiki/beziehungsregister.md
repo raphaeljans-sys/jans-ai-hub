@@ -131,6 +131,26 @@ Zwei neue Datenpunkte aus frischen KISPI-/Ausführungs-Mails (14.07.2026):
   mit «Geschätzter/werter» statt «Sehr geehrte/r» anschreiben, wenn das Projektumfeld selbst schon
   vertraut ist — Schwelle (Projektvertrautheit schlägt Personen-Erstkontakt) → [[QUESTIONS]].
 
+## Schwelle geklärt: Behörde bleibt kalt-formell, Team-/Kontrollpartner wärmt sofort (belegt Fidelity 260725, authentisch, Apple-Mail-Fallback)
+Löst die in 260714j #2 offen gelassene Schwelle «Projektvertrautheit schlägt Personen-
+Erstkontakt» mit einem sauberen Kontrastpaar aus demselben warmen KISPI-Projektumfeld:
+- **Behörde/Amt bleibt kalt, auch bei Personen-Erstkontakt im eingespielten Projekt:**
+  Rahel Lämmler (Stadt-ZH-Fachstelle, Kontaktstellenliste der Kreisarchitektin Hottinger)
+  erhält bei ihrem ersten persönlichen Kontakt «**Sehr geehrte Frau Lämmler**» — trotz
+  laufendem, warmem KISPI-Vorabklärungsverfahren mit der übergeordneten Kreisarchitektin
+  Hottinger (die selbst längst «Geschätzte Frau Hottinger» ist). Quelle: 04.03.2026.
+- **Technischer Team-/Kontrollpartner wärmt sofort:** dieselbe Projekteinbettung wärmt
+  dagegen sofort externe private Kontroll-/Fachplanerstellen (Vanvelten/Mans 260714j; Riesen
+  Ingenieure/Estermann Batch 45) auf «Geschätzter Herr …».
+- **Unterscheidungskriterium:** nicht «Projektvertrautheit generell», sondern die **Rolle**
+  der neuen Person — **Amt/Aufsichtsbehörde** (regulatorisch, ausserhalb des eigenen
+  Auftragsverhältnisses) bleibt beim Personen-Erstkontakt IMMER kalt-formell, unabhängig vom
+  Projektumfeld; **technischer Fachpartner/Kontrollstelle im eigenen Projektteam** (Gewerk,
+  Kontrollstelle im Auftrag der Bauherrschaft, Planungsteam) wärmt durch die Einbettung sofort
+  auf «Geschätzter/werter». Der Zwilling prüft daher zuerst die Rolle (Behörde vs. Team-
+  Partner), bevor er Projektwärme auf die Anrede überträgt. Beantwortet [[QUESTIONS]] Runde
+  260714j #2.
+
 ## Betreff-Adressierung «z.H. <Person>, <Rolle>» (belegt Fidelity 260610)
 Schreibt an ein generisches Amts-/Kanzlei-Postfach, adressiert aber im **Betreff** die
 konkrete Sachbearbeiterin: «z.H. Vera Schmid, Paralegal: …» (Handelsregisteramt,

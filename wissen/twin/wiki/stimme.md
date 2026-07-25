@@ -28,7 +28,11 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
 
 ## Mikro-Stil (orthografische DNA)
 - **Du/Dich/Dir/Deine/Euch grossgeschrieben** (konsequent).
-- **Tausender-Apostroph** Schweizer Art: 1'824, 8'417.
+- **Tausender-Apostroph** Schweizer Art: 1'824, 8'417 — Norm in Dokumenten, Offerten und
+  dokumentierenden Mails. Im schnellen operativen Du-Reply rechnet Raphael dagegen mündlich
+  in Kilo-/Kurzform ohne Apostroph («CHF 40K», «von 120 auf 160»; belegt Batch 64,
+  14.–17.07.2026). Kein Fehler, sondern registerabhängig: dokumentierend/formell →
+  Apostroph-Zahl; operativer Blitz-Reply → gesprochene Kurzform (K/Mio) erlaubt.
 - **«%» mit Leerschlag**: «30 %».
 - **Nachgestelltes «…» / «..»** als Gedanken-Ausklang (besonders im Du-Register).
 - **Kein Gedankenstrich (— / –) als Stilmittel** — explizite Vorgabe Raphael (10.06.2026,
