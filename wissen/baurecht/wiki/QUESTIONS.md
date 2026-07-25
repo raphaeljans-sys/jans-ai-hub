@@ -5,6 +5,43 @@ geplante Artikel. Der Health-Check (`wissenscheck`) prüft, ob bereits geflaggte
 Lücken erneut auftauchen (Doppel-Flag vermeiden) und ob sie inzwischen geschlossen
 wurden.
 
+## 2026-07-25 (Buch-Run 52, Modell D Fassungsstand-Check) — LSV-Novelle 01.04.2026 geklärt: Art. 31a LSV AUFGEHOBEN → ✅ ERLEDIGT
+
+~~**needs-verification — LSV-Novelle 01.04.2026 vs. Anhang 3/4/6 (Wissens-Chef Run 14,
+24.07.2026):** Die KB planungsgrundlagen führte einen Vorbehalt, dass USG und LSV per 01.04.2026
+geändert wurden (Sekundärquelle bauen-im-laerm.ch). Zu klären an der amtlichen Quelle: existiert
+eine Fedlex-Konsolidierung mit Inkrafttreten 20260401, und berührt ihr Änderungsanhang die
+Anhänge 3/4/6 (Belastungsgrenzwerte) oder nur Art. 31 ff.?~~
+
+**Geklärt (Buch-Run 52, 2026-07-25):** Fedlex-Konsolidierung Stand 1.4.2026 existiert für USG
+(SR 814.01) und LSV (SR 814.41), Filestore-URLs getestet und per curl+grep gegenverifiziert (nicht
+nur WebFetch-Zusammenfassung) — raw/260725_amtlich_ch_usg-lsv-novelle-20260401.md.
+
+- **Anhang 3/4/5/6 LSV materiell UNVERÄNDERT** (Grenzwerte identisch zu Fedlex-Stand 1.11.2023,
+  Stichprobe Anhang 3 Ziff. 2 ES II nachgerechnet). Der Wissens-Chef-Vorbehalt («Entlastungstendenz»)
+  war korrekt.
+- **Neuer, bisher nicht geflaggter Fund — Art. 31a LSV ist per 1.4.2026 AUFGEHOBEN** (V vom
+  25.2.2026, AS 2026 114). Die frühere Fluglärm-Sonderregel (automatisch schliessendes
+  Schlafraumfenster 22-24 Uhr) existiert im Gesetzeswortlaut nicht mehr, sondern ist in die
+  generalisierte Ausnahme **Art. 31 Abs. 2 LSV** (Fluglärm ODER ≤10 % der Wohneinheiten grosser
+  Wohnüberbauungen, kantonale Zustimmung + überwiegendes Interesse) integriert. Die KB zitierte
+  Art. 31a an mehreren Fundorten als weiterhin geltendes Recht — korrigiert in
+  [[laermschutz-und-nichtionisierende-strahlung]] (Wiki), `buecher/band-2/19-baulicher-
+  umweltschutz-teil2-laerm-nisv.md` (Destillat, mit Fassungsstand-Vermerk statt Umschreibung des
+  Buchstands), `buecher/INDEX.md`, `wiki/INDEX.md`, `training/drills.md` (2 Karten).
+- **Art. 22 USG neu gefasst** (BG vom 27.9.2024, in Kraft seit 1.4.2026): drei alternative
+  KWL-/Fenster-Wege je Wohneinheit (Abs. 2 lit. a Ziff. 1-3) + verschärfter Mindestschutz Art. 21
+  USG (lit. b); Art. 31 Abs. 1bis LSV neu (KWL/Kühlsysteme Stand der Technik).
+- **Nebenfund — Art. 24 USG neuer Abs. 3** (gleiche Inkraftsetzung): Innenentwicklungs-Ausnahme bei
+  Einzonung/Nutzungsplanänderung trotz Planungswert-/IGW-Überschreitung (überwiegendes Interesse
+  Siedlungsentwicklung nach innen + Freiraum + akustische Massnahmen). In
+  [[laermschutz-und-nichtionisierende-strahlung]] ergänzt.
+- **Nebenbefund — Register-Divergenz:** `wiki/INDEX.md` führte den Artikel als `emerging`, obwohl
+  die Artikel-Frontmatter seit Buch-Run 33 `established` zeigt — korrigiert (Run 52).
+- **0 Halluzinationen**, 1 strukturelle Korrektur (Art. 31a-Ablösung an ~6 Fundorten), 2
+  Ergänzungen (Art. 22/24 USG), 2 neue Drill-Karten (Modell A + D). Report
+  `outputs/2026-07-25_buch-run52.md`.
+
 ## 2026-07-22 (Wissens-Health-Check, Mac Mini Nachtschicht) — Umlaut-Bereinigung, Locale-Fix-Frage GEKLAERT (Mechanismus), Promotion-Kandidaten
 - **Flaechendeckende ae/oe/ue-statt-Umlaut-Verstoesse** (Audit F) quer durch praktisch alle
   24 Wiki-Artikel (z.B. `abstaende-und-hoehen.md`: "gebaeuden", "Gewaesserraum",
@@ -505,6 +542,12 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   kant. Erlass spiegeln (nPBG/nABV bzw. dem heute geltenden PBG/ABV) — die Harmonisierungsvorlage war 2019
   noch nicht in allen Teilen umgesetzt. Betrifft insb. die 1/2-Vorsprungregel (§ 6c) und die UIB/UNB-
   Verschärfung (§ 269 nPBG), die für Volumen-/Machbarkeitsstudien direkt relevant sind.
+  > **Teil-Antwort verfügbar (Wissens-Chef Run 15, 25.07.2026):** Die KB `planungsgrundlagen`
+  > hält seit Run 28/33 das Destillat des **amtlichen IVHB-Leitfadens der Baudirektion ZH**
+  > (Generalsekretariat/Stab Recht, 1.3.2017, 49 S.) mit dem vollständigen 29-Begriffe-Inventar
+  > §§ 2/2a/2b/2c/5/6/6a ABV: `planungsgrundlagen/wiki/recht-norm-ivhb-baubegriffe.md`. Diese
+  > amtliche Anwendungshilfe liegt in `baurecht` nicht vor und kann den Fassungsabgleich stützen
+  > (sie ist keine Erlass-Fassung — der Abgleich am geltenden PBG/ABV bleibt nötig).
 
 ## Offene Wissenslücken / needs-verification — neu (2026-07-11, aus Buch-Run 27: Kap. 17 T3 Haustechnik / Kap. 19 T2 Lärm+NIS)
 - ~~**Kap. 17 Ausrüstungen-Teil offen (Heizungs-/Klima-/Elektroanlagen, Beförderungsanlagen, Briefkästen § 4 ABV, §§ 295-298 PBG, Garagen §§ 37-39 BBV I)**~~ → **erledigt 2026-07-11** (Run 27): Kap. 17 Teil 3 (S. 1304-1319) distilliert [[17-haustechnische-anlagen-teil3]] — **17.9 Haustechnische Anlagen** (Abwärme/WRG/WKK § 30a BBV I, Feuerungen Öl/Gas/Holz § 24 BBV I/LRV/Feuerungskontrolle alle 2 J. Art. 13 LRV, Kaminhöhen 0,5/1,5/2 m, **Elektroheizungsverbot § 10b EnerG**, Warmwasser max. 60 °C § 26 BBV I / Vorlauf ≤ 50 °C-Boden ≤ 35 °C § 23 BBV I, **VHKA ab 5 Nutzeinheiten § 9 EnerG**, besondere Heizungen, Klima/Lüftung § 29 BBV I, **Garagenlüftung § 37 Abs. 1 BBV I**, Elektro NIV Art. 37 ff., **Aufzugspflicht > 5 anrechenb. Geschosse** Kabine 2,10 × 1,10 m/§ 40 Abs. 2 BBV I, Liftanbau Altbau § 19a BBV II, Beförderungsanlagen § 296 PBG/§ 31/32 BBV I, Briefkästen Art. 73 ff. VPG). **Kap. 17 substanziell komplett** (nur 17.10-Rest nPBG offen). Speist [[wohnhygiene-und-raumanforderungen]].
@@ -857,18 +900,11 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   referiert, Zahlenwerk nicht erfasst — bei konkretem Parkplatz-Mandat am kommunalen Erlass/PPV verifizieren.
 - **needs-verification — Rampenneigungen SN 640 291a (15/18 % bzw. 12/15 %):** aus dem Reader-Fliesstext
   gelesen — vor Ausschreibung an der VSS-Norm gegenprüfen.
-- **needs-verification — LSV-Novelle 01.04.2026 vs. Anhang 3/4/6 (Wissens-Chef Run 14, 24.07.2026):**
-  Die KB planungsgrundlagen (`wiki/energie-baueingabe-zusatzformulare.md`) fuehrt einen Vorbehalt, dass
-  **USG und LSV per 01.04.2026 geaendert** wurden (Sekundaerquelle bauen-im-laerm.ch). Unsere ES-Belastungs-
-  grenzwerte (Anhang 3/4/6) sind **Fedlex-Konsolidierung Stand 1.11.2023** volltextverifiziert (Buch-Runs
-  46-51, raw 260715/260717/260724). Der adversariale Verifier (Run 14) verdiktete **UNBESTIMMT mit
-  Entlastungstendenz**: planungsgrundlagen behauptet NICHT, dass die ES-Grenzwerttabellen geaendert wurden
-  (bestaetigt im Gegenteil deren Fortbestand); die Novelle koennte nur den Verfahrensteil (Art. 31 ff.)
-  betreffen. Zu klaeren an der amtlichen Quelle: die Fedlex-Versionszeitleiste zu **SR 814.41 (LSV)** —
-  existiert eine Konsolidierung mit Inkrafttreten **20260401**, und beruehrt ihr Aenderungsanhang die
-  **Anhaenge 3/4/6 (Belastungsgrenzwerte)** oder nur Art. 31 ff.? Praktisch: Filestore-URL mit Segment
-  `20260401` testen (Rule 260721) und Anhang 3/4/6 gegen die 1.11.2023-Werte diffen. Bis dahin bleiben die
-  established-Werte gueltig (keine unbelegte Korrektur).
+- ~~**needs-verification — LSV-Novelle 01.04.2026 vs. Anhang 3/4/6 (Wissens-Chef Run 14, 24.07.2026)**~~
+  → **✅ ERLEDIGT (Buch-Run 52, 2026-07-25):** siehe geschlossener Eintrag oben (Kopf des Dokuments,
+  2026-07-25). Kurzfassung: Anhang 3/4/6 unveraendert; **Art. 31a LSV per 1.4.2026 aufgehoben**
+  (Nachfolge Art. 31 Abs. 2 LSV), Art. 22/24 USG neu gefasst. Beleg
+  `raw/260725_amtlich_ch_usg-lsv-novelle-20260401.md`.
 
 ## Beantwortete Fragen / Korrekturen (Archiv)
 - **2026-06-11 (Gegenprobe, Modell D):** [[abstaende-und-hoehen]] nannte für den
@@ -884,3 +920,18 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   Ebenso behauptete der Artikel, die **Geschossflächenziffer (GFZ)** werde «in neueren
   Planungen anstelle der AZ verwendet» — falsch für ZH: die **IVHB-GFZ steht im Kanton
   Zürich NICHT zur Verfügung** (Buch Bd 2 S. 988). Beides korrigiert.
+
+## Cross-KB-Befund Wissens-Chef Run 15 (2026-07-25) — Revisionsstrang «Erleichtertes Bauen im Bestand»
+
+- [ ] **Die KB kennt die laufende Revision ihrer eigenen Leitnormen nicht.** `grep «220a»` und
+  `grep «Erleichtertes Bauen»` über den gesamten Ordner `wissen/baurecht/`: **0 Treffer**. Die KB
+  `planungsgrundlagen` führt dagegen seit Run 53 einen vollständigen Artikel zum ZH-Rechtsetzungs-
+  strang: `wiki/recht-norm-pbg-revision-bauen-im-bestand.md` (Run 58 am 24.07. aktualisiert).
+  Betroffen sind Normen, die hier als geltendes Recht materiell geführt werden:
+  - **§ 220a E-PBG** — Anspruch (nicht blosse Ermessens-Ausnahmebewilligung wie § 220 PBG) auf
+    Erweiterung von Bestandesbauten; ergänzend **§ 357 E-PBG** (Besitzstandsgarantie).
+  - **§§ 23/24 ABV Mehrlängenzuschlag** — im Vorentwurf **aufgehoben**; hier geführt in
+    `wiki/abstaende-und-hoehen.md:37/:39` als geltendes Recht.
+  **Kein Widerspruch** (Vorentwurf, keine Rechtswirkung) — aber die führende Recht-KB muss den
+  Strang kennen, sobald er in die Vernehmlassung/Inkraftsetzung geht. Beim nächsten Buch-/Amts-Run
+  aufnehmen; Querbezug ist in `planungsgrundlagen` bereits gesetzt (Run 15).

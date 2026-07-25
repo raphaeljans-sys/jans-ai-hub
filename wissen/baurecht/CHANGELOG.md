@@ -4,6 +4,39 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-25 — Wissens-Chef Run 15 (Cross-KB): SIA-181-Hinlink + IVHB-Teilantwort + PBG-Revisions-Luecke
+- **SIA-181-Fundstelle nachgezogen (Rule `normen-referenz`):** `wiki/laermschutz-und-nichtionisierende-strahlung.md` nannte SIA 181 dreimal materiell ohne Verweis auf das fuehrende Destillat → Verweis auf `wissen/normen/destillate/sia-181-2006.md` inkl. Fassungsvorbehalt SIA 181:2020 gesetzt.
+- **Teil-Antwort zum offenen Fassungs-Punkt (QUESTIONS §§ nABV/nPBG):** die KB `planungsgrundlagen` haelt das Destillat des amtlichen IVHB-Leitfadens der Baudirektion ZH (1.3.2017, 29 Begriffe) — in dieser KB `grep «ivhb-baubegriffe»`: 0 Treffer. Als Teil-Antwort im QUESTIONS-Punkt vermerkt, reziprok verlinkt (die Anwendungshilfe ersetzt den Abgleich am geltenden Erlass nicht).
+- **Neue Luecke angemeldet:** Revisionsstrang «Erleichtertes Bauen im Bestand» (§ 220a/§ 357 E-PBG, Aufhebung Mehrlaengenzuschlag §§ 23/24 ABV) — `grep «220a»` ueber die ganze KB: 0 Treffer, obwohl genau diese Normen hier als geltendes Recht gefuehrt werden. Kein Widerspruch (Vorentwurf), aber in `wiki/QUESTIONS.md` aufgenommen.
+- **Verdacht widerlegt:** «Genehmigungsfiktion nur im Meldeverfahren» — argumentum e silentio; die Beleg-Schicht (Buch Bd. 1 S. 415/416) fuehrt «Verfahrensabschluss durch Stillschweigen» sehr wohl. Keine Korrektur.
+- Bericht: `wissen/koordination/outputs/2026-07-25_wissens-chef-run15.md`.
+
+## 2026-07-25 — Buch-Run 52 (Modell D, Fassungsstand-Check): LSV-Novelle 01.04.2026 geklärt — Art. 31a LSV aufgehoben, Art. 22/24 USG neu
+- [distill] `raw/260725_amtlich_ch_usg-lsv-novelle-20260401.md`: neuer amtlicher Volltext
+  (Fedlex-Filestore, Stand 1.4.2026, USG Art. 22/24 + LSV Art. 31/31a + Kontrollbefund
+  Anhang 3/4/5/6) — schliesst den needs-verification-Flag aus Wissens-Chef Run 14 (24.07.2026).
+- [korrektur] `wiki/laermschutz-und-nichtionisierende-strahlung.md`: Abschnitt «Fluglärm
+  (Art. 31a LSV)» ersetzt durch «Bauen bei Grenzwertüberschreitung (Art. 22 USG / Art. 31 LSV) —
+  reformiert per 1.4.2026» — **Art. 31a LSV ist per 1.4.2026 aufgehoben**, Nachfolgeregel
+  Art. 31 Abs. 2 LSV; Art. 22 USG neu mit 3 KWL-/Fenster-Wegen; Art. 31 Abs. 1bis LSV neu;
+  Art. 24 Abs. 3 USG (Innenentwicklungs-Ausnahme) ergänzt. «Bezug zum JANS-Alltag» + Frontmatter
+  (`paragraphen`, `verifiziert`) nachgeführt.
+- [korrektur] `buecher/band-2/19-baulicher-umweltschutz-teil2-laerm-nisv.md`: Fassungsstand-
+  Vermerke bei den Art.-31a-Stellen ergänzt (Buchstand 2019 bleibt unverändert stehen, mit
+  Verweis auf die aktuelle Rechtslage im Wiki); needs-verification-Abschnitt geschlossen.
+- [korrektur] `buecher/INDEX.md`, `wiki/INDEX.md`: Fluglärm-Kurzfassung auf Art. 31 Abs. 2 LSV
+  (Nachfolge Art. 31a) aktualisiert; `wiki/INDEX.md` zusätzlich stale `emerging`→`established`-
+  Statuskorrektur (Nebenbefund, Artikel-Frontmatter zeigt `established` seit Run 33).
+  [drill] `training/drills.md`: 1 Karte korrigiert (Fluglärm/Anhang 5 Ziff. 222) + 1 neue
+  Modell-D-Karte (Fassungsstand-Falle Art. 31a).
+- [questions] `wiki/QUESTIONS.md`: LSV-Novelle-Flag (Wissens-Chef Run 14) geschlossen, an Kopf
+  und Archiv-Fundstelle (Z. 903).
+- **Befund: Anhang 3/4/5/6 LSV materiell unverändert** (Stichprobe Anhang 3 Ziff. 2 ES II
+  nachgerechnet). **1 strukturelle Korrektur (Art. 31a-Ablösung), 2 Ergänzungen (Art. 22/24 USG),
+  0 Halluzinationen.** Primärquelle direkt per curl+grep aus dem HTML-Quelltext extrahiert (nicht
+  nur WebFetch-Zusammenfassung) — Wortlaut Art. 22/24 USG und Art. 31/31a LSV wörtlich im raw
+  hinterlegt. Report `outputs/2026-07-25_buch-run52.md`.
+
 ## 2026-07-24 — Wissens-Chef Run 14 (Cross-KB): Laerm/ES-Rollen-Link zu planungsgrundlagen + LSV-2026-needs-verification
 - [link] `wiki/laermschutz-und-nichtionisierende-strahlung.md`: Querbezug-Block zur KB planungsgrundlagen
   gesetzt (Beschaffung/GIS-Layer 0154 fuehrend dort; Recht/ES-Grenzwerte hier fuehrend). Reziprok zum

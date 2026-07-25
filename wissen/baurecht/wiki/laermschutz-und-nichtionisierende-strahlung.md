@@ -1,11 +1,11 @@
 ---
 name: laermschutz-und-nichtionisierende-strahlung
-beschreibung: Baulicher Umweltschutz im Kt. ZH — Laermschutz (LSV, Empfindlichkeitsstufen, Aufhebung Lueftungsfensterpraxis, Baubewilligung trotz IGW-Ueberschreitung Art. 31 Abs. 2 LSV, Fluglaerm) und Schutz vor nicht ionisierender Strahlung (NISV, IGW/AGW, OMEN, Mobilfunkantennen).
+beschreibung: Baulicher Umweltschutz im Kt. ZH — Laermschutz (LSV, Empfindlichkeitsstufen, Aufhebung Lueftungsfensterpraxis, Baubewilligung trotz IGW-Ueberschreitung Art. 22 USG/Art. 31 LSV seit 1.4.2026, KWL-Weg statt Art. 31a) und Schutz vor nicht ionisierender Strahlung (NISV, IGW/AGW, OMEN, Mobilfunkantennen).
 status: established
 kanton: ZH
-paragraphen: ["Art. 11-25 USG", "Art. 24 USG", "Art. 43 LSV", "Art. 31 LSV", "Art. 31a LSV", "Art. 32 LSV", "Art. 35 LSV", "Art. 31 Abs. 3 LSV", "Art. 31a Abs. 2 LSV", "Art. 32 Abs. 3 LSV", "Art. 39 Abs. 1/2/3 LSV", "Art. 40 Abs. 1/2/3 LSV", "Art. 42 LSV", "Anhang 3 LSV", "Anhang 4 LSV", "Anhang 5 Ziff. 222 LSV", "Anhang 6 LSV", "Art. 2 NISV", "Art. 3 Abs. 6 NISV", "Art. 5 NISV", "Art. 11 NISV", "Art. 12 NISV", "Anhang 1 Ziff. 61/62/64 NISV", "Anhang 2 NISV", "§ 302 PBG", "§ 320 PBG", "Art. 22 RPG", "Art. 24 RPG", "SIA 181"]
+paragraphen: ["Art. 11-25 USG", "Art. 21 USG", "Art. 22 USG", "Art. 22 Abs. 2/3/4 USG", "Art. 24 USG", "Art. 24 Abs. 3 USG", "Art. 43 LSV", "Art. 31 LSV", "Art. 31 Abs. 1bis/2/3 LSV", "Art. 31a LSV (aufgehoben 1.4.2026)", "Art. 32 LSV", "Art. 35 LSV", "Art. 32 Abs. 3 LSV", "Art. 39 Abs. 1/2/3 LSV", "Art. 40 Abs. 1/2/3 LSV", "Art. 42 LSV", "Anhang 3 LSV", "Anhang 4 LSV", "Anhang 5 Ziff. 222 LSV", "Anhang 6 LSV", "Art. 2 NISV", "Art. 3 Abs. 6 NISV", "Art. 5 NISV", "Art. 11 NISV", "Art. 12 NISV", "Anhang 1 Ziff. 61/62/64 NISV", "Anhang 2 NISV", "§ 302 PBG", "§ 320 PBG", "Art. 22 RPG", "Art. 24 RPG", "SIA 181"]
 quellen: ["[[19-baulicher-umweltschutz]]", "[[19-baulicher-umweltschutz-teil2-laerm-nisv]]"]
-verifiziert: 2026-07-13 (Modell-D LSV/NISV, Buch-Run 33 — Restklaerung Anhang 5 Ziff. 222 LSV geschlossen: gegen raw/260712_amtlich_ch_lsv-nisv.md volltextverifiziert Art. 31/31a/32/39/40 LSV + Anhang 5 Ziff. 222 (Fluglaerm-Belastungsgrenzwerte Lrn, via Art. 31a fuer die Nachtstunden) sowie NISV Art. 3 Abs. 6/Abs. 3, Art. 11, Anhang 1 Ziff. 64. Nicht raw-verifiziert und daher weiterhin destillat-/rechtsprechungsgestuetzt: die zitierten Gerichtsentscheide (BGE 142 II 100, BGer 1C_40/2009 / 1C_329/2013, URP/VB/BEZ/BRGE) — Rechtsprechung ist per se nicht am Gesetzeswortlaut belegbar.); 2026-07-15 (Buch-Run 46, Modell-D): **Art. 43/44 LSV (Empfindlichkeitsstufen ES I-IV) beschafft und volltextverifiziert** gegen raw/260715_amtlich_ch_lsv-es.md (Fedlex, Stand 1.11.2023) — ES I erhöhtes Lärmschutzbedürfnis/Erholungszonen, ES II keine störenden Betriebe/Wohnzonen + Zonen für öff. Bauten, ES III mässig störende Betriebe/Wohn-Gewerbe-Mischzonen + Landwirtschaftszonen, ES IV stark störende Betriebe/Industriezonen; Aufstufung um eine Stufe nur ES I/II bei Vorbelastung (Art. 43 Abs. 2); Zuordnung durch Kantone in Baureglementen/Nutzungsplänen (Art. 44), bis dahin Einzelfall (Art. 44 Abs. 3). CONFIRMED, keine Korrektur — needs-verification-Flag «Art. 43 LSV kein raw-Volltext» geschlossen.; 2026-07-17 (Buch-Run 47, Modell-D): **LSV Art. 31/31a/32/35/39 Absatz fuer Absatz** gegen raw/260712_amtlich_ch_lsv-nisv.md — 6 Praezisierungen (Art. 31 Abs. 1 «wesentlich» nur fuer Aenderungen; Art. 31 Abs. 2 kantonale Zustimmung kumulativ; Art. 31a Abs. 1 **Planungs- UND** IGW; Art. 31a lit. c Ziff. 1+2 unvollstaendig; Art. 32 Abs. 1 Mindest- vs. erhoehte Anforderung SIA 181 + Bauherr als Adressat; Art. 35 Stichprobe = Regelfall) und 4 Luecken geschlossen (Art. 31 Abs. 3 Kosten Grundeigentuemer; Art. 31a Abs. 2 grundeigentuemerverbindlich; **Art. 32 Abs. 3 Umbau/Ersatz + Erleichterung auf Gesuch**; Art. 39 Abs. 2/3). Nicht raw-verifiziert: Art. 40 Abs. 2 LSV + Anhang 3/4 LSV (nicht im raw), SIA 181 (kostenpflichtig, via Skill `normen`).; 2026-07-17 (Buch-Run 48, Modell-D): **Art. 40 Abs. 1-3 + Anhang 3/4 LSV beschafft und verifiziert** (raw/260717_amtlich_ch_lsv-anhang34.md, Fedlex Stand 1.11.2023) — **1 Korrektur:** das Additionsprinzip (Art. 40 Abs. 2) gilt **NICHT fuer die Planungswerte bei neuen ortsfesten Anlagen** (Satz 2 i.V.m. Art. 7 Abs. 1 LSV); **1 Luecke geschlossen:** Art. 40 Abs. 3 (fehlen Belastungsgrenzwerte → Beurteilung nach **Art. 15 USG**, nicht Art. 14, unter Beruecksichtigung Art. 19/23 USG); Grenzwerttabellen ES I-IV Anhang 3/4 belegt (wertidentisch, ES II Tag PW 55 / IGW 60 / AW 70), Systematik PW < IGW < AW CONFIRMED. Der frueher hier vermerkte Vorbehalt «Anhang 3/4 nicht raw-verifiziert» ist damit **hinfaellig**.; 2026-07-24 (Buch-Run 51, Modell-E, Nachtschicht Mac Mini): **Anhang 6 LSV (Industrie-/Gewerbelaerm) beschafft und volltextverifiziert** (raw/260724_amtlich_ch_lsv-anhang6.md, Fedlex-HTML Stand 1.11.2023, ueber das Filestore-Muster Rule 260721) — Geltungsbereich Ziff. 1 (inkl. Parkhaeuser/groessere Parkplaetze, HLK-Anlagen), Grenzwerttabelle ES I-IV Ziff. 2 (**wertidentisch zu Anhang 3/4**, PW < IGW < AW CONFIRMED), Beurteilungspegel-Formel + Pegelkorrekturen K1/K2/K3 Ziff. 3 neu erfasst. **0 Korrekturen, 0 Halluzinationen** — reine Luecke geschlossen, kein Widerspruch zu bestehendem Destillat gefunden. Damit ist die in Run 48 (2026-07-17) offen gelassene Anhang-6-Luecke **erledigt**; needs-verification-Flag in `wiki/QUESTIONS.md` geschlossen.
+verifiziert: 2026-07-25 (Buch-Run 52, Modell D Fassungsstand-Check — Wissens-Chef-Flag Run 14 geschlossen): **Art. 22/24 USG + Art. 31/31a LSV Fassungsstand 1.4.2026 volltextverifiziert** (Fedlex-Filestore, ELI 1984/1122_1122_1122 bzw. 1987/338_338_338, Segment 20260401, raw/260725_amtlich_ch_usg-lsv-novelle-20260401.md) — **Art. 31a LSV ist per 1.4.2026 aufgehoben** (Nachfolgeregel Art. 31 Abs. 2 LSV, generalisiert auf Fluglaerm UND ≤10 % Wohneinheiten grosser Ueberbauungen; kantonale Zustimmung + ueberwiegendes Interesse). Art. 22 USG neu mit 3 alternativen KWL-/Fenster-Wegen (Abs. 2 lit. a Ziff. 1-3) + verschaerftem Mindestschutz Art. 21 USG (lit. b). Art. 31 Abs. 1bis LSV neu (KWL/Kuehlsysteme Stand der Technik). **Art. 24 USG neuer Abs. 3** (Innenentwicklungs-Ausnahme bei Einzonung trotz Planungswert-/IGW-Ueberschreitung) als Zusatzfund. **Anhang 3/4/5/6 LSV unveraendert** (Grenzwerte identisch zu Stand 1.11.2023, Art. 1 Abs. 2 LSV nur redaktionell geaendert). 1 strukturelle Korrektur (Art. 31a-Abloesung), 2 Ergaenzungen. 0 Halluzinationen (Wortlaut direkt aus HTML-Quelltext per grep extrahiert, nicht nur WebFetch-Zusammenfassung). Vorher 2026-07-13 (Modell-D LSV/NISV, Buch-Run 33 — Restklaerung Anhang 5 Ziff. 222 LSV geschlossen: gegen raw/260712_amtlich_ch_lsv-nisv.md volltextverifiziert Art. 31/31a/32/39/40 LSV + Anhang 5 Ziff. 222 (Fluglaerm-Belastungsgrenzwerte Lrn, via Art. 31a fuer die Nachtstunden) sowie NISV Art. 3 Abs. 6/Abs. 3, Art. 11, Anhang 1 Ziff. 64. Nicht raw-verifiziert und daher weiterhin destillat-/rechtsprechungsgestuetzt: die zitierten Gerichtsentscheide (BGE 142 II 100, BGer 1C_40/2009 / 1C_329/2013, URP/VB/BEZ/BRGE) — Rechtsprechung ist per se nicht am Gesetzeswortlaut belegbar.); 2026-07-15 (Buch-Run 46, Modell-D): **Art. 43/44 LSV (Empfindlichkeitsstufen ES I-IV) beschafft und volltextverifiziert** gegen raw/260715_amtlich_ch_lsv-es.md (Fedlex, Stand 1.11.2023) — ES I erhöhtes Lärmschutzbedürfnis/Erholungszonen, ES II keine störenden Betriebe/Wohnzonen + Zonen für öff. Bauten, ES III mässig störende Betriebe/Wohn-Gewerbe-Mischzonen + Landwirtschaftszonen, ES IV stark störende Betriebe/Industriezonen; Aufstufung um eine Stufe nur ES I/II bei Vorbelastung (Art. 43 Abs. 2); Zuordnung durch Kantone in Baureglementen/Nutzungsplänen (Art. 44), bis dahin Einzelfall (Art. 44 Abs. 3). CONFIRMED, keine Korrektur — needs-verification-Flag «Art. 43 LSV kein raw-Volltext» geschlossen.; 2026-07-17 (Buch-Run 47, Modell-D): **LSV Art. 31/31a/32/35/39 Absatz fuer Absatz** gegen raw/260712_amtlich_ch_lsv-nisv.md — 6 Praezisierungen (Art. 31 Abs. 1 «wesentlich» nur fuer Aenderungen; Art. 31 Abs. 2 kantonale Zustimmung kumulativ; Art. 31a Abs. 1 **Planungs- UND** IGW; Art. 31a lit. c Ziff. 1+2 unvollstaendig; Art. 32 Abs. 1 Mindest- vs. erhoehte Anforderung SIA 181 + Bauherr als Adressat; Art. 35 Stichprobe = Regelfall) und 4 Luecken geschlossen (Art. 31 Abs. 3 Kosten Grundeigentuemer; Art. 31a Abs. 2 grundeigentuemerverbindlich; **Art. 32 Abs. 3 Umbau/Ersatz + Erleichterung auf Gesuch**; Art. 39 Abs. 2/3). Nicht raw-verifiziert: Art. 40 Abs. 2 LSV + Anhang 3/4 LSV (nicht im raw), SIA 181 (kostenpflichtig, via Skill `normen`).; 2026-07-17 (Buch-Run 48, Modell-D): **Art. 40 Abs. 1-3 + Anhang 3/4 LSV beschafft und verifiziert** (raw/260717_amtlich_ch_lsv-anhang34.md, Fedlex Stand 1.11.2023) — **1 Korrektur:** das Additionsprinzip (Art. 40 Abs. 2) gilt **NICHT fuer die Planungswerte bei neuen ortsfesten Anlagen** (Satz 2 i.V.m. Art. 7 Abs. 1 LSV); **1 Luecke geschlossen:** Art. 40 Abs. 3 (fehlen Belastungsgrenzwerte → Beurteilung nach **Art. 15 USG**, nicht Art. 14, unter Beruecksichtigung Art. 19/23 USG); Grenzwerttabellen ES I-IV Anhang 3/4 belegt (wertidentisch, ES II Tag PW 55 / IGW 60 / AW 70), Systematik PW < IGW < AW CONFIRMED. Der frueher hier vermerkte Vorbehalt «Anhang 3/4 nicht raw-verifiziert» ist damit **hinfaellig**.; 2026-07-24 (Buch-Run 51, Modell-E, Nachtschicht Mac Mini): **Anhang 6 LSV (Industrie-/Gewerbelaerm) beschafft und volltextverifiziert** (raw/260724_amtlich_ch_lsv-anhang6.md, Fedlex-HTML Stand 1.11.2023, ueber das Filestore-Muster Rule 260721) — Geltungsbereich Ziff. 1 (inkl. Parkhaeuser/groessere Parkplaetze, HLK-Anlagen), Grenzwerttabelle ES I-IV Ziff. 2 (**wertidentisch zu Anhang 3/4**, PW < IGW < AW CONFIRMED), Beurteilungspegel-Formel + Pegelkorrekturen K1/K2/K3 Ziff. 3 neu erfasst. **0 Korrekturen, 0 Halluzinationen** — reine Luecke geschlossen, kein Widerspruch zu bestehendem Destillat gefunden. Damit ist die in Run 48 (2026-07-17) offen gelassene Anhang-6-Luecke **erledigt**; needs-verification-Flag in `wiki/QUESTIONS.md` geschlossen.
 last_updated: 2026-07-24
 ---
 
@@ -57,7 +57,10 @@ eine kantonale Zuständigkeitsordnung; volltextverifiziert 2026-07-17):
   die Schalldämmung der Aussenbauteile «angemessen» (Art. 32 Abs. 2 LSV)**. Der Verordnungstext
   nennt in Abs. 2 kein Mass; die Konkretisierung über **SIA 181** «Erhöhte Anforderungen an den
   Schutz gegen Aussenlärm» ist **Vollzugspraxis** (SIA 181 wird in Art. 32 Abs. 1 als anerkannte
-  Regel der Baukunde genannt).
+  Regel der Baukunde genannt). *Norm-Fundstelle führend in KB `wissen/normen`:
+  `destillate/sia-181-2006.md` — dort auch der Fassungsvorbehalt SIA 181:2020 (nicht im Bestand,
+  kostenpflichtige Bring-Schuld). Vor Zitat in Kundenberatung die dort geführte Ausgabe prüfen
+  (Rule `normen-referenz`; Querverweis gesetzt Wissens-Chef Run 15, 25.07.2026).*
 - Zuständigkeit: **kantonale Bewilligung** (Baudirektion, Ziff. 3.2 Anhang BVV), Baugesuch mit
   **Lärmgutachten** + Formular «Lärmschutz».
 
@@ -78,27 +81,57 @@ eine kantonale Zuständigkeitsordnung; volltextverifiziert 2026-07-17):
   nach Bau- und Planungsrecht Gebäude mit lärmempfindlichen Räumen erstellt werden dürfen**
   (Abs. 3) — der massgebende Absatz für Einzonungs- und Machbarkeitsfragen.
 
-### Fluglärm (Art. 31a LSV) — relevant Flughafenregion ZH
-- Grossflugzeug-Umgebung: erhöhte Anforderungen SIA 181 (Art. 32 Abs. 1 LSV). Planungswerte =
-  Voraussetzung für Neueinzonung von Wohngebäuden (Art. 24 USG).
-- **Art. 31a LSV (seit 2.2.2015):** Bauen trotz nächtlicher Grenzwertüberschreitung möglich, wenn
-  Nachtruhe 24-06 h flugfrei, lärmempfindliche Räume mit erhöhtem Schallschutz und **Schlafräume
-  ein Fenster haben, das sich 22-24 Uhr automatisch schliesst und in den übrigen Zeiten
-  automatisch öffnen lässt** (Art. 31a Abs. 1 lit. c Ziff. 1), **und so erstellt sind, dass ein
-  angemessenes Raumklima gewährleistet ist** (Ziff. 2 — eigenständige Bauvoraussetzung, praktisch
-  kontrollierte Lüftung/Kühlung, ein eigener Kostentreiber). Massgebend sind die **Planungs- und
-  Immissionsgrenzwerte nach Anhang 5 Ziffer 222 LSV** (Belastungsgrenzwerte in Lrn für die
-  Nachtstunden ziviler Flugplätze, Art. 40 Abs. 1 LSV); bei erfüllten Voraussetzungen des Art. 31a
-  gelten **beide** für die Nachtstunden als eingehalten — dass auch die **Planungswerte** als
-  eingehalten gelten, ist der Grund, weshalb unter Art. 31a die Neueinzonung von Wohnbauzonen
-  (Art. 24 USG) überhaupt möglich bleibt (volltextverifiziert, raw/260712_amtlich_ch_lsv-nisv.md
-  Z. 38-58 / Anhang 5 Z. 104-116).
-- **Art. 31a Abs. 2:** Bei Ausscheidung oder Erschliessung von Bauzonen sorgt die zuständige
-  Behörde dafür, dass die Anforderungen nach Abs. 1 lit. b und c **grundeigentümerverbindlich**
-  festgehalten werden (Verankerung via Sonderbauvorschriften/Gestaltungsplan; bindet auch
-  Rechtsnachfolger).
+### Bauen bei Grenzwertüberschreitung (Art. 22 USG / Art. 31 LSV) — reformiert per 1.4.2026, ersetzt das alte Art.-31a-Regime
+
+**Rechtsänderung volltextverifiziert (Fedlex-Konsolidierung Stand 1.4.2026, raw/260725_amtlich_ch_usg-lsv-novelle-20260401.md):**
+Art. 22 USG (Fassung BG vom 27.9.2024) und Art. 31 LSV (Fassung V vom 25.2.2026) traten am
+**1. April 2026** in Kraft (AS 2025 178 / AS 2026 113/114). **Art. 31a LSV (Fluglärm-Sonderregel,
+seit 2.2.2015) ist damit aufgehoben** und materiell in die neue, generalisierte Ausnahmeregel des
+Art. 31 Abs. 2 LSV überführt — die KB zitierte diesen Artikel bislang als eigenständiges,
+weiterhin geltendes Fluglärm-Regime.
+
+- **Art. 22 Abs. 1 USG (Grundsatz):** Baubewilligungen für Neubau/wesentliche Änderung von
+  Gebäuden mit längerem Personenaufenthalt nur, wenn die IGW eingehalten werden können, soweit
+  verhältnismässig.
+- **Art. 22 Abs. 2 USG (Ausnahme bei IGW-Überschreitung) — drei alternative Wege je Wohneinheit:**
+  1. **kontrollierte Wohnraumlüftung (KWL)** für die lärmempfindlichen Räume **und** entweder ein
+     Kühlsystem **oder** mind. 1 Raum mit IGW-konformem Fenster; **oder**
+  2. **mindestens die Hälfte** der lärmempfindlichen Räume mit IGW-konformem Fenster; **oder**
+  3. **mindestens 1** lärmempfindlicher Raum mit IGW-konformem Fenster **plus** ein privater
+     Aussenraum mit IGW-Einhaltung;
+  **und zusätzlich (lit. b):** verschärfter baulicher Mindestschutz nach **Art. 21 USG** (Aussen-/
+  Innenlärm), angemessen und verhältnismässig.
+- **Art. 22 Abs. 3 USG:** Ausnahmen von Abs. 2 lit. a bei **Fluglärm** oder für einen kleinen
+  Anteil der Wohneinheiten grosser Wohnüberbauungen.
+- **Art. 22 Abs. 4 USG:** die Emissionsbegrenzungspflicht der Anlageinhaber bleibt trotz
+  Bewilligung nach Abs. 2/3 bestehen.
+- **Art. 31 Abs. 1bis LSV (neu):** kontrollierte Wohnraumlüftungen und Kühlsysteme müssen **dem
+  Stand der Technik entsprechen**.
+- **Art. 31 Abs. 2 LSV (Nachfolgeregel zu Art. 31a):** bei **Fluglärm** oder bei **höchstens 10 %
+  der Wohneinheiten** von grossen Wohnüberbauungen darf die Baubewilligung **ausnahmsweise**
+  erteilt werden, wenn ein **überwiegendes Interesse** an der Errichtung des Gebäudes besteht
+  **und die kantonale Behörde zustimmt** — die alte Fluglärm-Detailvoraussetzung («Schlafraum-
+  fenster schliesst 22-24 Uhr automatisch») existiert im Gesetzeswortlaut **nicht mehr**; sie ist
+  durch den generellen KWL-Weg nach Art. 22 Abs. 2 lit. a Ziff. 1 USG ersetzt.
+- **Art. 31 Abs. 3 LSV (unverändert):** die Kosten der Massnahmen tragen die Grundeigentümer.
+- **Anhang 5 Ziffer 222 LSV (Belastungsgrenzwerte Lrn Nachtstunden ziviler Flugplätze) bleibt
+  unverändert** (Fedlex Stand 1.4.2026 volltextverifiziert, keine Wertänderung) — weiterhin die
+  materielle Grenzwert-Grundlage, unabhängig vom Wegfall der Verfahrensnorm Art. 31a.
+- **Art. 24 Abs. 3 USG (neu, Einzonungsseite):** in Abweichung von Abs. 1/2 dürfen Bauzonen für
+  Wohnen ausgeschieden bzw. Nutzungspläne mit zusätzlichem Wohnraum trotz Planungswert-/IGW-
+  Überschreitung beschlossen werden, wenn (a) ein überwiegendes Interesse an der Siedlungs-
+  entwicklung nach innen besteht, (b) ein der Zone entsprechender, zugänglicher Erholungs-
+  Freiraum in der Nähe vorhanden ist und (c) akustisch wirksame Massnahmen (insb. Strassen-
+  verkehrsanlagen/Gebäude/Umfeld) festgelegt werden — ergänzt die bisherige Aussage «Planungswerte
+  = Voraussetzung für Neueinzonung» um eine ausdrückliche Innenentwicklungs-Ausnahme.
+- **Praxisfolge JANS:** für laufende/ältere Baugesuche (Einreichung vor 1.4.2026) kann altrechtlich
+  noch Art. 31a massgebend sein (Übergangsrecht nicht recherchiert — im Einzelfall prüfen, nicht
+  unterstellt). Bei neuen Fluglärm-/Verdichtungsprojekten ab 1.4.2026 ist die KWL-Lösung
+  (Art. 22 Abs. 2 lit. a Ziff. 1 USG) regelmässig der pragmatischste Weg, weil sie ohne die alte
+  Nachtstunden-Fenster-Automatik auskommt.
 - **Abgrenzungslinie** (kant. Richtplan Kap. 4.7.1, seit 24.3.2014): innerhalb keine Neu-/
-  Aufzonungen mit IGW-Überschreitung am Tag; massgebend Lärmkurven vBR 2012 / SIL.
+  Aufzonungen mit IGW-Überschreitung am Tag; massgebend Lärmkurven vBR 2012 / SIL. *(Kantonales
+  Recht, unberührt von der Bundesrevision.)*
 
 ### Industrie- und Gewerbelärm (Art. 40 Abs. 1 / Anhang 6 LSV) — JANS-relevant bei Mischnutzung/Parking
 - **Geltungsbereich (Anhang 6 Ziff. 1):** Lärm von Industrie-/Gewerbe-/Landwirtschaftsanlagen,
@@ -169,10 +202,11 @@ Normen **SN EN 12193:2008** und **SIA 491** (Vermeidung von Lichtemissionen im A
 - **Verdichtung nach innen / Machbarkeit an Lärmlagen:** Seit BGE 142 II 100 muss an
   verkehrs-/fluglaermbelasteten Lagen bei **jedem** Fenster lärmempfindlicher Räume der IGW
   eingehalten werden. Hebel: **Grundrissorganisation** (lärmempfindliche Räume abgewandt, § 302
-  Abs. 2 PBG erlaubt vorgelagerte Loggien/Wintergärten) + Nachweis des **überwiegenden Interesses
-  (Art. 31 Abs. 2 LSV)**. In der Flughafenregion ist **Art. 31a LSV** (automatisch schliessendes
-  Schlafraumfenster) das Werkzeug für Wohnbau. Lärmgutachten früh einplanen — speist
-  [[baubewilligungsverfahren]] und die Machbarkeitsbeurteilung.
+  Abs. 2 PBG erlaubt vorgelagerte Loggien/Wintergärten) + der **KWL-Weg nach Art. 22 Abs. 2 lit. a
+  USG** (seit 1.4.2026 der Regelfall statt Fensterautomatik) + Nachweis des **überwiegenden
+  Interesses (Art. 31 Abs. 2 LSV — seit 1.4.2026 auch der Weg für Fluglärm, Nachfolge von
+  Art. 31a)**. Lärmgutachten früh einplanen — speist [[baubewilligungsverfahren]] und die
+  Machbarkeitsbeurteilung.
 - **Healthcare (Kernkompetenz):** Patientenzimmer/Schulräume/Arbeitsplätze sind zugleich
   lärmempfindliche Räume UND **OMEN** — an Standorten nahe Bahn/Hochspannung/Mobilfunk die
   AGW-Einhaltung (Standortdatenblatt) mitprüfen.

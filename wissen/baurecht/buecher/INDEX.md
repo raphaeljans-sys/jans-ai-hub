@@ -79,7 +79,8 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Lüftungsfensterpraxis BGE 142 II 100** (IGW an ALLEN Fenstern lärmempfindl. Räume, Mitte offenes Fenster
   Art. 39 Abs. 1 LSV), **Baubewilligung trotz IGW-Überschreitung Art. 31 Abs. 2 LSV** (überwiegendes Interesse;
   > 6 dB(A) nie leicht), verschärfte Schalldämmung Art. 32 Abs. 2 LSV/SIA 181, Lärmgutachten/Formular
-  «Lärmschutz», **Fluglärm** (Art. 31a LSV Nachtstunden, vBR 2012/SIL/Abgrenzungslinie); **NISV** zweistufig
+  «Lärmschutz», **Fluglärm** (Art. 31 Abs. 2 LSV seit 1.4.2026, Nachfolge des per 1.4.2026
+  aufgehobenen Art. 31a LSV; vBR 2012/SIL/Abgrenzungslinie); **NISV** zweistufig
   **IGW (überall, Anhang 2) + AGW (nur OMEN, Faktor 10, Art. 3 Abs. 6 NISV)**, Lichtimmissionen (SIA 491, Blendung
   Solar), **OMEN Art. 3 Abs. 3 NISV** (Wohn-/Schlaf-/Schulräume, Patientenzimmer, Arbeitsplätze SECO; Balkone/
   Terrassen NICHT OMEN), **Mobilfunk** (Systeme GSM/UMTS/LTE/5G, **AGW 4-6 V/m** Ziff. 64 Anhang 1 NISV, Abstand

@@ -1203,10 +1203,25 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   raw/260607_amtlich_zh_bbv2.md Z. 81-84 / 97-103. _[2026-07-13]_
 - **F (LSV, Anhang 5 Ziff. 222):** Was regelt Anhang 5 Ziffer 222 LSV, und ueber welchen Artikel
   greift er beim Bauen? — **A:** **Belastungsgrenzwerte in Lrn fuer den Laerm ziviler Flugplaetze**
-  (Nacht) — **nicht** Strassen-/anderer Laerm. In der Baubewilligung greift er ueber **Art. 31a LSV**:
-  bei erfuellten Voraussetzungen (Nachtruhe flugfrei, erhoehter Schallschutz, Schlafraumfenster mit
-  automatischem Schliessmechanismus 22-24 Uhr) gelten die IGW nach Anhang 5 Ziff. 222 fuer die
-  Nachtstunden als eingehalten. Beleg: raw/260712_amtlich_ch_lsv-nisv.md Z. 38-58 / 104-109. _[2026-07-13]_
+  (Nacht) — **nicht** Strassen-/anderer Laerm. In der Baubewilligung griff er bis 31.3.2026 ueber
+  **Art. 31a LSV** (Nachtruhe flugfrei, erhoehter Schallschutz, Schlafraumfenster mit automatischem
+  Schliessmechanismus 22-24 Uhr → IGW nach Anhang 5 Ziff. 222 fuer die Nachtstunden gelten als
+  eingehalten). **Seit 1.4.2026 ist Art. 31a aufgehoben**, die Ausnahme laeuft ueber **Art. 31
+  Abs. 2 LSV** (Fluglaerm ODER ≤10 % Wohneinheiten grosser Wohnueberbauungen, kantonale Zustimmung
+  + ueberwiegendes Interesse); Anhang 5 Ziff. 222 selbst bleibt unveraendert die materielle
+  Grenzwertgrundlage. Beleg: raw/260712_amtlich_ch_lsv-nisv.md Z. 38-58/104-109 (Buchstand);
+  raw/260725_amtlich_ch_usg-lsv-novelle-20260401.md (Fassungsstand 1.4.2026). _[2026-07-13,
+  Fassungsstand-Korrektur 2026-07-25 Run 52]_
+- **F (Modell D, Fassungsstand-Falle Run 52):** Ein Baugesuch an einer Fluglaermlage verlangt nach
+  «Art. 31a LSV» ein automatisch schliessendes Schlafraumfenster. Stimmt das noch (Stand 2026-07-25)?
+  — **A:** **Nein.** Art. 31a LSV ist **seit 1.4.2026 aufgehoben** (V vom 25.2.2026, AS 2026 114).
+  Die Fensterautomatik-Detailvoraussetzung existiert im Gesetzeswortlaut nicht mehr. Der Weg
+  fuehrt heute primaer ueber **Art. 22 Abs. 2 lit. a Ziff. 1 USG** (kontrollierte Wohnraumlueftung
+  + Kuehlsystem-oder-1-IGW-Fenster je Wohneinheit) plus verschaerften Mindestschutz Art. 21 USG, mit
+  **Art. 31 Abs. 2 LSV** als kantonal zustimmungspflichtige Ausnahme bei Fluglaerm/≤10 % der
+  Wohneinheiten. Lehre: Buch-Destillate (Stand 2019) und selbst 2023er-Fedlex-Stichtage koennen von
+  neueren Novellen ueberholt sein — Bundeserlasse ebenso wie kantonale pruefen (Leitplanke
+  `training/PROGRAMM.md`). Beleg: raw/260725_amtlich_ch_usg-lsv-novelle-20260401.md. _[2026-07-25]_
 
 ### Modell A — Frage→Beleg-Drill
 

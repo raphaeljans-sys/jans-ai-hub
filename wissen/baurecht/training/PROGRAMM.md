@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-24
+last_updated: 2026-07-25
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -113,6 +113,34 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 52 (2026-07-25, Modell D, MacBook Pro, Fassungsstand-Check — kein Agent-Fan-out, VOLLGAS-
+    Einzellauf):** Priorität (b) des Festigungsmodus: **LSV-Novelle 01.04.2026** (offener needs-
+    verification-Flag Wissens-Chef Run 14, 24.07.2026) an der amtlichen Fedlex-Quelle geklärt.
+    Fedlex-Filestore-URLs für USG (ELI 1984/1122_1122_1122) und LSV (ELI 1987/338_338_338) mit
+    Datumssegment 20260401 getestet, per `curl`+`grep` direkt aus dem HTML-Quelltext extrahiert
+    (nicht nur WebFetch-Zusammenfassung) — Titelblatt bestätigt Stand 1. April 2026 für beide
+    Erlasse. **Anhang 3/4/5/6 LSV materiell unverändert** (Stichprobe Anhang 3 Ziff. 2 ES II
+    nachgerechnet, identisch zu Stand 1.11.2023) — der Wissens-Chef-Vorbehalt («Entlastungstendenz»)
+    war korrekt. **Neuer Fund, bisher nicht geflaggt: Art. 31a LSV ist per 1.4.2026 AUFGEHOBEN**
+    (V vom 25.2.2026, AS 2026 114) — die alte Fluglärm-Sonderregel (automatisch schliessendes
+    Schlafraumfenster) existiert im Gesetzeswortlaut nicht mehr, aufgegangen in der generalisierten
+    Ausnahme **Art. 31 Abs. 2 LSV** (Fluglärm ODER ≤10 % Wohneinheiten grosser Wohnüberbauungen,
+    kantonale Zustimmung + überwiegendes Interesse). Korrigiert an **6 Fundorten**: Wiki
+    [[laermschutz-und-nichtionisierende-strahlung]] (Hauptkorrektur, neuer Abschnitt «Bauen bei
+    Grenzwertüberschreitung»), Destillat `buecher/band-2/19-baulicher-umweltschutz-teil2-laerm-
+    nisv.md` (Fassungsstand-Vermerke, Buchstand 2019 bleibt als solcher erkennbar stehen),
+    `buecher/INDEX.md`, `wiki/INDEX.md` (dabei stale `emerging`→`established`-Statuskorrektur als
+    Nebenbefund), `training/drills.md` (1 Karte korrigiert + 1 neue Modell-D-Karte). Zusätzlich
+    **Art. 22 USG neu gefasst** (3 KWL-/Fenster-Wege je Wohneinheit + verschärfter Mindestschutz
+    Art. 21 USG, Art. 31 Abs. 1bis LSV KWL/Kühlsysteme Stand der Technik) und **Nebenfund Art. 24
+    Abs. 3 USG** (neue Innenentwicklungs-Ausnahme bei Einzonung trotz Planungswert-/IGW-
+    Überschreitung) ins Wiki integriert. Neuer amtlicher Volltext
+    `raw/260725_amtlich_ch_usg-lsv-novelle-20260401.md`. **0 Halluzinationen**, 1 strukturelle
+    Korrektur, 2 Ergänzungen, 2 Drill-Karten (1×A, 1×D). QUESTIONS-Flag geschlossen (Kopf + Archiv-
+    Fundstelle Z. 903). Report `outputs/2026-07-25_buch-run52.md`. **«Rückstand abgebaut» NICHT
+    ausgerufen** (Leitplanke): der Fassungsstand-Check ist eine dauerhafte Pflicht, kein
+    abschliessbarer Bestand — weitere kantonale Erlasse (ABV, StrG, PPV, BBV II) sind noch nicht in
+    diesem Zyklus geprüft.
   - **Run 51 (2026-07-24, Modell E, Nachtschicht Mac Mini, gezielte Luecke, kein Agent-Fan-out —
     Budget-Disziplin Nachtschicht):** **Anhang 6 LSV** (Industrie-/Gewerbelaerm, seit Run 48 als
     offen geflaggt) via Fedlex-Filestore-HTML (Rule 260721) beschafft (`raw/260724_amtlich_ch_lsv-
