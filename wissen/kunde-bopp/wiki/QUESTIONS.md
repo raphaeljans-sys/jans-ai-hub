@@ -15,6 +15,12 @@
 
 ## Offene Faktenfragen
 - Standard-Rechnungsadresse / Korrespondenzweg je Rolle (woma vs. nova vs. privat vs. Feag).
+- **Hinweis (25.07.2026, Nachtschicht Mac Mini):** Versuch, Ebmatingen/Romanshorn/Rechnungsadresse
+  ueber den M365-Connector zu klaeren, an der API-Grenze gescheitert, bevor recherchiert wurde —
+  `m365 outlook message list` liefert nur Ordner+Zeitraum, **keinen Volltext-/Betreff-Suchfilter**.
+  Fuer diese Fragen braucht es entweder Apple-Mail-Volltextsuche (osascript, wie beim urspruenglichen
+  25-Mail-Archiv-Seed) oder einen gezielten Graph-`$search`-Aufruf ausserhalb der Connector-Kommandos
+  — kein Nachtschicht-Standardfall, sondern ein dedizierter Lauf mit mehr Recherche-Budget.
 
 ## Prozess
 - Sobald ein Bopp-Auftrag erledigt ist: Output nach `outputs/`, Profil/Projektartikel

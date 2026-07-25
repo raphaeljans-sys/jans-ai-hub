@@ -29,5 +29,5 @@ Siehe [[QUESTIONS]]:
 - Geplante Artikel: 5
 - Outputs: 5 (Health-Check 01.07.; Firmenrollen-Verifikation 20.07.; viertes Mandat 21.07.;
   Health-Check 2 21.07.; Projektstand Giebelweg 12 24.07.)
-- Letzter Health-Check: 21.07.2026 (Phase 1, zweiter Lauf, Ampel B/G gelb, A/C/D/E/F gruen —
-  C und F seit dem 01.07.-Check geschlossen, siehe CHANGELOG)
+- Letzter Health-Check: 25.07.2026 (Phase 1, dritter Lauf, Ampel B/E/G gelb, A/C/D/F gruen —
+  E neu wegen ueberholtem Profil-Abschnitt, siehe CHANGELOG)

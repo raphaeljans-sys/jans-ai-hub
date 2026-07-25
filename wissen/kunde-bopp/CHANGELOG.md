@@ -2,6 +2,16 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 — Dritter Wissens-Health-Check (Phase 1, Mac Mini Nachtschicht)
+- Re-Audit nach 21.07.: A0 gruen · B2 gelb (dieselben 2 toten Backlinks, unveraendert seit
+  01.07.) · C0 gruen (neuer Artikel `projekt-giebelweg12` sauber belegt) · D0 gruen (Sonderfall)
+  · **E1 gelb, NEU:** Abschnitt «Aktuell offen (Stand 2026-06-03)» in `profil-christoph-bopp.md`
+  durch den neuen Detailartikel `projekt-giebelweg12` (24.07.) inhaltlich ueberholt, nicht
+  nachgezogen — Vorschlag: Abschnitt auf Verweis `[[projekt-giebelweg12]]` kuerzen · F0 gruen
+  (kein ae/oe/ue, kein ß, Frontmatter vollstaendig) · G3 gelb (unveraendert: Status-Promotion
+  `profil-christoph-bopp`, 2 geplante Cluster-Artikel). Reine Audit-Phase, keine Wiki-Datei
+  inhaltlich veraendert. Report `outputs/2026-07-25_health-check.md`.
+
 ## 2026-07-24 — Projekt-Detailartikel Giebelweg 12 (Mac Mini Nachtschicht)
 - Offene Frage aus `QUESTIONS.md` recherchiert (Priorität 5 der Nachtschicht: offene KB-Frage
   bearbeiten): Projektordner `AR - 03 Studien/2621 Giebelweg 12/` gelesen (PROJEKT-STAND.md +
