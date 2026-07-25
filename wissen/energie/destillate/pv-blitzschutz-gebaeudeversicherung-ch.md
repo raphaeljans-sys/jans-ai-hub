@@ -134,6 +134,15 @@ Feuerpolizei bzw. GVZ-Fachstelle verifizieren, da dort keine pauschale EI-Klasse
   blitzschutzpflichtig sind, unabhängig von PV) noch nicht am Original eingesehen — Downloadversuch
   traf ein falsches/veraltetes Dokument (23-03d statt 22-15).
 - GVZ-Originaltext zur Prämienmechanik bei PV/Speicher (nur Sekundärquellen verfügbar).
+- **Bestätigt (Run 110, 2026-07-25, via Swissolar Batteriemonitor Schweiz 2026, Kap. 4.5,
+  Primärquelle vollständig gelesen):** Swissolar hat mit der VKF ein Stand-der-Technik-Papier zum
+  Brandschutzmerkblatt «Solaranlagen» erarbeitet — dritte unabhängige Bestätigung, dass das bereits
+  in diesem Destillat primärquellenbelegte VKF-FAQ 2005-01 (09.09.2025) das massgebliche
+  LFP-Dokument ist, keine neue Quelle. **Neu:** Parallel läuft eine **Totalrevision der
+  Brandschutzvorschriften (BSV 2026)**, die voraussichtlich einen eigenen Teil zu Batteriespeichern
+  erhält — Vernehmlassung **August 2026**, Inkraftsetzung geplant **Herbst 2027**; ⚠ für laufende/
+  geplante Projekte mit Batteriespeicher-Grossanlagen relevant, Vernehmlassungsstand ab August 2026
+  beobachten.
 - Kt. Schwyz: konkrete private Versicherer-Praxis (Mobiliar, Baloise u.a.) zur PV-Mitversicherung nicht
   recherchiert (ausserhalb amtlicher Quellenlage, projektspezifisch beim jeweiligen Versicherer klären).
 

@@ -4,6 +4,21 @@ Themenfahrplan fuer den taeglichen Loop. Jede Lektion = beantwortbares Bauherren
 Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge = Prioritaet.
 
 ## Block A — Fachgrundlagen Gebaeudehuelle
+
+- **D82 (Run 110, 2026-07-25) — Werkzeug-Lehre aus Run 109 direkt angewendet, kein neues
+  Themenfeld:** Swissolar «Batteriemonitor Schweiz 2026» (seit Run 12 als «PDF bildbasiert nicht
+  auslesbar» archiviert) per curl -A Mozilla + Read-PDF-Tool vollständig gelesen (44 S.). Preiskurve
+  `[[batteriespeicher-heimspeicher-pv-ch]]` primärquellenbestätigt (2022-2025, 827→586 CHF/kWh),
+  vier neue Rechtsänderungen seit 1.1.2026 ergänzt (Netznutzungsentgelt-Rückerstattung
+  Art. 18d-i StromVV, Einspeiselimitierung max. 3 %/Jahr StromVG Art. 17c, RPG-Bewilligungspflicht
+  freistehender Speicher, Speicher-in-LEG-Messkonzept → auch `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`
+  ergänzt), Förderlücke geschlossen (keine nationale Förderung, TG/SH/NE kantonal), Brandschutz-
+  Zeitplan BSV 2026 ergänzt (`[[pv-blitzschutz-gebaeudeversicherung-ch]]`). Kein neues Destillat
+  (171 unverändert), FAQ F38 geschärft (154 unverändert), drei Destillate aktualisiert, alle bleiben
+  established. Zusätzlich geprüft: der wiederholt vorgetragene Punkt «KB normen führt SIA 382/1:2014
+  fälschlich als aktuell» ist dort bereits seit 14.07.2026 mit eigener ⚠-Korrekturnotiz im
+  REGISTER.md dokumentiert — von der energie-Prioritätenliste gestrichen, kein weiterer
+  Handlungsbedarf von hier aus.
 - [x] A1 U-Wert verstehen & bestimmen (BFE-Bauteilekatalog) — Grundlagen destilliert 2026-06-05;
   λ-Bandbreiten Daemmstoffe belegt 2026-06-07 via SIA 2001 → `[[daemmstoffe-lambda]]`;
   **Bauteilekatalog Kap. 4 (Standardaufbauten Boeden B1-B21 / Waende W1-W26) belegt 2026-06-10**

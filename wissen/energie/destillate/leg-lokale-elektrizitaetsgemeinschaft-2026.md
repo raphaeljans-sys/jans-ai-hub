@@ -139,7 +139,24 @@ solange der Speicherbetreiber die Bilanz-Bedingung einhält:
   (i.d.R. «erneuerbar/lokal»), was für Bauherren/Marketing ein Argument ist («garantiert eigener
   Solarstrom im Quartier», nicht nur buchhalterisch grüner Strommix).
 
+## Batteriespeicher in der LEG (ergänzt Run 110, 2026-07-25, via Swissolar Batteriemonitor 2026)
+- Speicher dürfen innerhalb der LEG eingesetzt werden, um lokal erzeugten Strom zwischenzuspeichern
+  und später an LEG-Teilnehmende (oder ins Netz) abzugeben.
+- Der Netznutzungsrabatt (40 %/20 %) gilt nur für Strom, der **nachweislich lokal in der LEG
+  erzeugt** wurde — ein Speicher darf pro Abrechnungsperiode maximal so viel gespeicherten Strom
+  verkaufen, wie zuvor von LEG-Solaranlagen eingespeichert wurde (verhindert, dass Netzstrom
+  fälschlich als rabattierter LEG-Strom deklariert wird).
+- Wird ein Speicher sowohl mit Netzstrom als auch mit lokalem LEG-Strom geladen, braucht es ein
+  **eigenes Messkonzept** (Zähler am Speicher), um beide Ströme sauber zu trennen — Details laut
+  Batteriemonitor 2026 im VSE-Branchendokument zu LEG, Kapitel 8 (noch nicht seitengenau gegen die
+  BD-LEG-Primärquelle selbst verifiziert, nur über Sekundärzitat des Batteriemonitors bekannt).
+  → [[batteriespeicher-heimspeicher-pv-ch]]
+
 ## Offene Punkte
+- **Neu:** die im BD-LEG-Dokument (Kapitel 8) beschriebenen erlaubten Messkonzepte für Speicher in
+  der LEG sind noch nicht direkt am Primärtext verifiziert, nur über den Batteriemonitor 2026
+  bekannt — nächster Schritt: BD-LEG-PDF (bereits als established gelesen) gezielt auf Kapitel 8
+  erneut prüfen.
 - ~~VSE-Branchenempfehlung LEG (BD-LEG) als Primärquelle noch nicht seitengenau destilliert~~ ✓ erledigt
   (13.07.2026, Run 52) — die amtliche Primärquelle (BD LEG – CH 2025 V2, 35 Seiten) wurde vollständig
   lokal per Read-Tool gelesen; alle Kernaussagen (40 %/20 %-Rabatt, 5 %-Mindestverhältnis, keine

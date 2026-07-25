@@ -2,6 +2,34 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 110: Batteriemonitor Schweiz 2026 als Primärquelle gelesen, vier Rechtsänderungen seit 1.1.2026 erschlossen
+
+Werkzeug-Lehre aus Run 109 direkt angewendet: der seit Run 12 als «PDF bildbasiert, Textextraktion
+zweimal gescheitert» archivierte Swissolar «Batteriemonitor Schweiz 2026» (44 Seiten, publiziert
+März 2026) wurde per `curl -A Mozilla` + Read-PDF-Tool vollständig gelesen. Ergebnis:
+
+1. **Preiskurve primärquellenbestätigt** — 15-kWh-Heimspeicher 2022 CHF 827/kWh → 2025 CHF 586/kWh
+   (CHF 8'850 installiert), vorher nur Sekundärzitat. FTM-Grossspeicher ~300-313 CHF/kWh neu.
+2. **Vier bisher unbekannte Rechtsänderungen seit 1.1.2026** erschlossen und in
+   `batteriespeicher-heimspeicher-pv-ch` ergänzt: Netznutzungsentgelt-Rückerstattung für Speicher
+   mit Endverbrauch (Art. 18d-i StromVV/Art. 14a Abs. 4 StromVG), Einspeiselimitierung max. 3 % der
+   Jahresproduktion + VSE-70-%-DC-Praxis (StromVG Art. 17c/StromVV Art. 19c — macht die Batterie
+   wirtschaftlich attraktiver), RPG-Bewilligungspflicht für freistehende Speicher ausserhalb von
+   Gebäuden (Art. 22/24 RPG), Speicher-in-LEG-Messkonzept (ergänzt `leg-lokale-elektrizitaetsgemeinschaft-2026`).
+3. **Förderlücke geschlossen:** keine nationale Förderung für Wohn-/Gewerbe-Batteriespeicher;
+   Landwirtschaftsförderung läuft Ende 2026 aus; Kt. Thurgau seit 1/2026, Schaffhausen, Neuenburg.
+4. **Brandschutz-Zeitplan ergänzt** in `pv-blitzschutz-gebaeudeversicherung-ch`: Totalrevision
+   Brandschutzvorschriften (BSV 2026) erhält voraussichtlich einen Teil zu Batteriespeichern,
+   Vernehmlassung August 2026, Inkraftsetzung Herbst 2027.
+
+Drei bestehende Destillate aktualisiert (`batteriespeicher-heimspeicher-pv-ch`,
+`leg-lokale-elektrizitaetsgemeinschaft-2026`, `pv-blitzschutz-gebaeudeversicherung-ch`), alle bleiben
+`established`. Kein neues Destillat (Destillate-Stand unverändert 171), FAQ F38 geschärft (FAQ-Stand
+unverändert 154). Zusätzlich geprüft: KB `normen` führt den seit Run-Serie beanstandeten Punkt
+«SIA 382/1:2014 fälschlich als aktuell» bereits seit 14.07.2026 mit einer eigenen ⚠-Korrekturnotiz
+im `REGISTER.md` (Zeile 472) — der Punkt ist damit bereits an den normen-Loop übergeben und wird ab
+diesem Run aus der energie-Prioritätenliste gestrichen (kein weiterer Handlungsbedarf von hier aus).
+
 ## 2026-07-25 — Run 109: WebFetch-Blockade durchbrochen (curl+Read-PDF-Tool), SIA-Harmonisierungsbericht
 ## erstmals im Volltext gelesen, zwei Destillate geschlossen
 

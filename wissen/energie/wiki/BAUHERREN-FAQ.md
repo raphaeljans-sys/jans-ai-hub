@@ -1570,11 +1570,27 @@ nicht der erste.
 tiefe Einspeisevergütung. **Wann eher nein:** tagsüber ohnehin hoher, steuerbarer Verbrauch (WP +
 E-Auto), enges Budget, Fokus reine Rendite.
 
-- **Update Batteriemonitor Schweiz 2025 (Swissolar, Mai 2025):** Ein typischer 15-kWh-Heimspeicher
-  kostete 2025 im Schnitt **rund CHF 8'800 installiert** (≈ CHF 586/kWh) — am unteren Rand der
-  600–900-CHF-Spanne, der Preisrückgang setzt sich also fort. Der Markt wächst rasant: Ende 2025
-  waren rund **1,5 GWh** Speicherkapazität hinter dem Verteilnetz installiert, für Ende 2026 wird
-  ein Wachstum auf **~2,5 GWh** erwartet (Neuinstallationen verdoppeln sich nahezu jährlich).
+- **Update Batteriemonitor Schweiz 2026 (Swissolar, Primärquelle vollständig gelesen 2026-07-25):**
+  Ein typischer 15-kWh-Heimspeicher kostete 2025 im Schnitt **CHF 8'850 installiert** (**CHF 586/kWh**,
+  jetzt primärquellenbestätigt) — Preiskurve **2022: 827 → 2023: 846 → 2024: 708 → 2025: 586 CHF/kWh**.
+  Der Markt wächst rasant: Gesamtbestand Ende 2025 **2'461 MWh** (2024: 1'451 MWh), für 2026 wird ein
+  weiterer Zuwachs von **+90 %** erwartet.
+- **Neu seit 1.1.2026 — Einspeiselimitierung und was das für Deine Batterie bedeutet:**
+  Netzbetreiber dürfen die Einspeisung am Netzanschlusspunkt begrenzen (max. 3 % Jahresverlust,
+  VSE-Praxis: 70 % der PV-Modulleistung bei neuen Anlagen <1'200 m ü.M.). Das betrifft **nur** die
+  Einspeisung ins Netz — Strom, den Du selbst verbrauchst oder **in der Batterie speicherst**, ist
+  nicht betroffen. Eine Batterie wird dadurch **wirtschaftlich sinnvoller**, weil sie den sonst
+  abgeregelten Überschuss auffängt.
+- **Neu seit 1.1.2026 — Netznutzungsentgelt zurückfordern:** Wer einen Speicher mit Endverbrauch
+  betreibt, kann beim Netzbetreiber die Rückerstattung des Netznutzungsentgelts für Strom
+  beantragen, der geladen und später wieder ins Netz eingespeist wird (braucht ein geeignetes
+  Messsystem — bei der Systemwahl mitdenken).
+- **Bewilligung:** Ein Speicher im/am Gebäude braucht keine gesonderte Bewilligung; ein
+  freistehender Speicher ausserhalb des Gebäudes ist grundsätzlich baubewilligungspflichtig wie
+  jede andere Baute.
+- **Keine nationale Förderung** für Batteriespeicher in Wohngebäuden/Gewerbe (Stand 2026); nur
+  Landwirtschaftsbetriebe (bis CHF 200/kWh, läuft Ende 2026 aus) und einzelne Kantone (Thurgau seit
+  Januar 2026, Schaffhausen, Neuenburg) fördern gezielt — ZH/SZ ohne eigene Batteriespeicher-Förderung.
 
 - **Amortisation als Marktangabe (ergänzt 2026-07-13):** Mehrere kommerzielle CH-Solarratgeber
   (nicht Swissolar/EnergieSchweiz selbst) beziffern die Amortisation des Speicher-Mehrpreises für

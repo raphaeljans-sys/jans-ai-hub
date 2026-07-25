@@ -2080,3 +2080,48 @@ geschärft), `training/curriculum.md` (D81), `raw/_INGESTED.md`, `CHANGELOG.md`,
    nächsten Rücktaktungs-Entscheidung geprüft werden, da er einen dritten, bisher übersehenen
    Ergiebigkeitspfad eröffnet. Die PROGRAMM.md-Rücktaktungsempfehlung an Raphael bleibt trotzdem
    unverändert bestehen und wird hier nicht zurückgenommen, nur ergänzt.
+
+## Run 110 (2026-07-25) — Werkzeug-Lehre aus Run 109 bestätigt, Batteriemonitor 2026 gelesen,
+## kein neues Themenfeld
+
+PDF-Inventar weiterhin erschöpft. Statt neuer Themenwahl wurde gezielt Punkt 5 aus Run 109
+verfolgt: ein weiteres, seit Run 12 als «PDF bildbasiert, Textextraktion zweimal gescheitert»
+archiviertes Primärdokument (Swissolar «Batteriemonitor Schweiz 2026», 44 S., publiziert März 2026)
+wurde per `curl -A Mozilla` + Read-PDF-Tool vollständig gelesen. Das bestätigt die Run-109-These
+ein zweites Mal: die «bildbasiert nicht auslesbar»-Vermerke in der KB sind überwiegend
+WebFetch-Werkzeuggrenzen, nicht echte Sackgassen — das Read-Tool liest auch reine Bildseiten
+visuell (multimodal), nicht nur Textebenen.
+
+**Ergebnis:** `[[batteriespeicher-heimspeicher-pv-ch]]` primärquellenverifiziert (Preiskurve
+2022-2025, bleibt established) und um vier bisher unbekannte Rechtsänderungen seit 1.1.2026
+ergänzt (Netznutzungsentgelt-Rückerstattung, Einspeiselimitierung max. 3 %/Jahr, RPG-
+Bewilligungspflicht freistehender Speicher, Speicher-in-LEG-Messkonzept), Förderlücke geschlossen
+(keine nationale Förderung), Brandschutz-Zeitplan (BSV 2026) ergänzt. `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`
+und `[[pv-blitzschutz-gebaeudeversicherung-ch]]` mit kleineren Ergänzungen, beide bleiben
+established. Kein neues Destillat (171 unverändert), FAQ F38 geschärft (154 unverändert).
+
+**Cross-KB-Punkt geprüft und geschlossen:** der seit mehreren Runs wiederholte Hinweis «KB `normen`
+führt SIA 382/1:2014 fälschlich als aktuell» wurde verifiziert — `wissen/normen/wiki/REGISTER.md`
+Zeile 472 trägt bereits seit 14.07.2026 (Wissens-Chef Run 4) eine eigene ⚠-Korrekturnotiz («neuere
+Ausgabe SIA 382/1:2025 ... Register-Stand 2014 überholt, Re-Destillat 2025 ausstehend»). Der Punkt
+ist damit bereits im Zielsystem angekommen und wird ab hier aus der energie-Prioritätenliste
+gestrichen — kein weiterer Handlungsbedarf von dieser KB aus.
+
+**Nächster Lauf: Priorität**
+1. Die fünf gebündelten Kaufentscheide (B1-Konsolidierung, SWKI-VA105-01, SIA-385/1, SIA-385/2,
+   SIA-384.354) wachsen seit Run 98 unverändert ohne Entscheidung — jetzt **zwölf Runs** in Folge.
+   Dringende Empfehlung unverändert: beim nächsten Kontakt mit Raphael als kurze Bündel-Frage stellen.
+2. Meta-Punkt M2 (eigenständiger Skill "energie"?) seit Run 45 spruchreif, weiterhin unentschieden.
+3. SIA-2024-Gesundheitsbau-Merge weiterhin ausführungsreif, wartet auf Raphaels Zustimmung.
+4. **Weitere «WebFetch/bildbasiert gescheitert»-Kandidaten für die curl+Read-PDF-Methode** (aus
+   Run-110-Bestandsaufnahme, noch nicht abgearbeitet): VKF-Brandschutzrichtlinie 22-15
+   («Blitzschutzsysteme», falsches Dokument beim ersten Versuch geladen), GVZ-PDF
+   `21photovoltaikanlagen-doku-pm.pdf` (Prämienmechanik Batteriespeicher), Referat Vogelsang
+   (Energieagentur SG, SIA-2060-Kosten-Vertiefung), ISOS-Bild-/JPEG2000-Scans
+   (`denkmalschutz-energiesanierung-zh-sz`) — Letztere sind laut eigener Beschreibung JPEG2000-
+   Scans, bei denen auch das Read-Tool an der Bildqualität scheitern könnte; als Nächstes prüfen.
+5. Sättigungsdiagnose für **neue Themenfelder** bleibt gültig (jetzt sechs Läufe Run 105-110 ohne
+   neue Themenwahl) — die PROGRAMM.md-Rücktaktungsempfehlung an Raphael bleibt offen, wird aber
+   durch den zweiten Werkzeug-Erfolg in Folge weiter relativiert: solange die curl+Read-PDF-Liste
+   (Punkt 4) nicht abgearbeitet ist, bleibt echter Primärquellen-Zugewinn möglich statt reiner
+   Wiederholung.
