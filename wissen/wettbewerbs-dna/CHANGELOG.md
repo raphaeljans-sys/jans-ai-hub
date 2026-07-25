@@ -1,5 +1,24 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-25 — Extern Healthcare Tranche: Jurybericht «Erneuerung Klinikum 2, Universitätsspital Basel» (2013) Refuter-verifiziert, ~20 Seitenzitate korrigiert (established)
+- Artikel `wiki/extern/jurybericht-universitaetsspital-basel-klinikum-2.md` gegen den Volltext-
+  Extrakt `raw/extern-jurybericht-universitaetsspital-basel-klinikum-2.txt` (pdftotext -layout,
+  188 S.) zeilengenau geprüft. Sieger **Arcadia** (giuliani.hönger/Caretta+Weidmann), Subtyp
+  Randbebauung/Perimeterblock mit zwei Hochpunkten; Inhalte, Rangfolge, Preisgelder, Kennwerte
+  und Zitate stimmten durchweg mit dem Quelltext überein.
+- **Systematischer Seitenzahl-Fehler gefunden und korrigiert:** Bei den Projektwürdigungen
+  Kazwei, The Edge und Wallace hatte das Erst-Destillat rund 20 Einzelzitate der jeweils
+  vorangehenden, nahezu textleeren Bild-/Renderingseite statt der tatsächlichen Fliesstext-
+  seite zugeschrieben (z.B. Kazwei «S. 41» statt «S. 42», «S. 43» statt «S. 44»; The Edge «S. 53»
+  statt «S. 54»; Wallace «S. 67» statt «S. 68»). Per Grep gegen die Footer-Marker im Extrakt
+  verifiziert: jedes Stufe-2-Projekt folgt einem festen Rhythmus Fliesstext-Bildseite-Fliesstext
+  (Arcadia 30/32, Kazwei 42/44, The Edge 54/56, Wallace 66/68, Margino 78/80, Basilea 90/92,
+  Anna Blume 102/104, dazwischen je eine Bildseite 29/31, 41/43, 53/55, 65/67, 77/79, 89/91,
+  101/103). Arcadia, Margino, Basilea, Anna Blume waren bereits korrekt zitiert. Auch die
+  Quell-Anmerkung «Projektwürdigungen einspaltig gesetzt» war falsch (sind ebenfalls zweispaltig)
+  und wurde präzisiert.
+- Status auf `established` gehoben, `last_updated` auf 2026-07-25 gesetzt.
+
 ## 2026-07-25 — Extern Healthcare Tranche 2: Jurybericht «Neubau Luzerner Kantonsspital Sursee (Schwyzermatt)» (2024/2025) destilliert + Refuter-verifiziert (established)
 - Neuer Artikel `wiki/extern/jurybericht-luks-sursee-schwyzermatt.md` aus dem Volltext-Extrakt
   `raw/extern-jurybericht-luks-sursee-schwyzermatt.txt` (pdftotext -layout, 146 S., espazium-S3).
