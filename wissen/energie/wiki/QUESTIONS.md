@@ -1363,3 +1363,31 @@ mit echten Umlauten (bewährtes Run-86-Muster gegen den Umlaut-Bug).
   nachfragen; Massivbau-Bauteildatenblatt mit vollem Schichtplan (Dämmung+Putz in einem Dokument)
   bleibt offen (eco-bau/KBOB direkt anfragen oder bauteilkatalog.ch-PRO-Zugang); SNR 464022
   (Blitzschutz-Ausführungsdetails) weiterhin nicht volltextlich gelesen.
+- [x] **VKF-Brandschutzmerkblatt 2005-15 «Lithium-Ionen-Batterien» + FAQ 2005-01 (LFP) im Volltext
+  beschafft — löst den oben offen geführten Punkt** ✓ 2026-07-25 (Run 94): beide VKF-Primärquellen
+  vollständig per curl+pdftotext gelesen (Merkblatt 15 S., gültig ab 01.06.2021; FAQ 2 S., Beschluss
+  ABSV 09.09.2025). Gefundene Mengenschwellen (Kap. 4.4-4.6, Hazard Level nach kWh/Brandabschnitt):
+  HL I < 15 kWh (EI 30, 2,5 m Abstand zu Brennbarem), HL II 15-100 kWh (EI 60 bei Standard-
+  Lithium-Ionen), HL III > 100 kWh (Freiaufstellung/RF1). **FAQ 2005-01 lockert das für die
+  marktführende LFP-Chemie (~80 % CH-Markt laut Swissolar) deutlich**: bis 100 kWh genügt EI 30
+  statt EI 60, in EFH/kleinen Gebäuden dürfen LFP-Speicher unabhängig von der Kapazität in allen
+  Räumen ausser Fluchtweg/Gefahrenzone stehen → `[[vkf-lithium-batteriespeicher-brandschutz]]` (neu,
+  established), FAQ **F128** neu. Damit sind nach den in Run 93/94 widerlegten Richtlinien
+  «Gefährliche Stoffe» und «Blitzschutzsysteme» jetzt die tatsächlich einschlägigen VKF-Dokumente
+  identifiziert und ausgewertet — der Batteriespeicher-Mengenschwellen-Strang ist geschlossen.
+- [~] **SNR 464022 (Blitzschutz-Ausführungsdetails) — teilweise gelöst** ✓ 2026-07-25 (Run 94):
+  eine kostenlose Electrosuisse-Korrigenda-Datei (SNR464022_2015_corr_2016_D.pdf, curl HTTP 200)
+  liefert 5 von 56 Normseiten wortgetreu (Kap. 1 Allgemeine Anforderungen, Kap. 2 Geltungsbereich/
+  Blitzschutzpflicht-Tabelle — bestätigt wortgleich die bereits im VKF-22-15-Destillat übernommene
+  Spalte B, Kap. 5.2.2 Erder-Werkstofftabelle, Kap. 10.5-10.8 Spezielle Anlagen inkl. **PV-
+  Integrationspflicht ins bestehende LPS nach SN 411000/NIN 7.12** als harte Norm-Vorgabe, Kap. 13
+  Literaturverzeichnis mit Bezug zu SN EN 62305-1..4). **Wichtiger Statusbefund:** die gelesene
+  Ausgabe (2015+COR:2016) ist seit 20.02.2024 durch die Nachfolgenorm **SN 414022:2024** (66 S.,
+  CHF 169.-/143.65 Mitglieder, shop.electrosuisse.ch DV-48384/1, «Ersetzte Normnummer: SNR
+  464022:2015») ersetzt — für die 2024-Ausgabe wurde kein freier Auszug gefunden →
+  `[[snr-464022-blitzschutz-ausfuehrung]]` (neu, established für die 5 gelesenen Seiten), FAQ
+  **F129** neu. **Weiterhin offen:** die übrigen ~51 Seiten (Fangeinrichtungen/Ableitungen/
+  Trennungsabstände/Maschenweiten je Blitzschutzklasse I-IV) sind kostenpflichtig; ob sich die
+  zitierten Inhalte in SN 414022:2024 geändert haben, ist unbekannt (Norm selbst nicht beschafft).
+  Electrosuisse-Broschüre «Photovoltaikanlagen — Erläuterungen zu SNR 464022» als möglicher
+  weiterer Fund identifiziert, aber nicht beschafft.

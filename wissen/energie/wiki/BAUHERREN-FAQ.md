@@ -4464,3 +4464,64 @@ zu Lithium-Ionen-Batteriespeichern — dessen Existenz und Fundstelle bleiben of
 Datenstand 2026-07-25 (Run 94). Status **established** (Negativbefund; alle drei einschlägigen
 Blitzschutz-Dokumente — VKF-Primärquelle + zwei kantonale Vollzugsdokumente — vollständig per
 curl+pdftotext durchsucht, keines enthält eine Batteriespeicher-Bestimmung).
+
+### F128 — Wo stehen die tatsächlichen VKF-Mengenschwellen für Batteriespeicher (Heimspeicher zur PV-Anlage), und was gilt konkret für einen 5–15-kWh-Speicher?
+
+**Kurz für den Bauherrn:** Gefunden — im **VKF-Brandschutzmerkblatt 2005-15 «Lithium-Ionen-
+Batterien»** (gültig ab 01.06.2021), Kapitel 4.4–4.6, ergänzt durch die neuere **FAQ 2005-01**
+(Beschluss 09.09.2025) speziell für die heute marktführende **Lithium-Eisenphosphat-Chemie (LFP,
+~80 % der CH-Installationen laut Swissolar)**. Die Einteilung erfolgt nach Energieinhalt pro
+Brandabschnitt: **HL I (gering) < 15 kWh**, **HL II (mittel) 15–100 kWh**, **HL III (hoch) >
+100 kWh** — ein typischer Hausspeicher (5–15 kWh) liegt meist gerade an der oberen HL-I-Grenze.
+
+**Für HL I (< 15 kWh, Standardfall Heimspeicher):** Aufstellung in einem geeigneten Raum
+(Elektroraum, Keller, Garage, Estrich) mit mindestens **EI 30**, kein Fluchtweg/keine
+Lüftungszentrale/kein feuer- oder explosionsgefährdeter Raum, **Mindestabstand 2,5 m zu
+brennbaren Materialien**. Bei Einfamilienhäusern ist ein eigener Brandabschnitt nur *empfohlen* —
+für **LFP-Speicher gilt dank FAQ 2005-01 sogar eine weitergehende Lockerung**: dort dürfen
+LFP-Systeme in EFH/kleinen Gebäuden **unabhängig von der Kapazität in allen Räumen** stehen
+(ausser Fluchtweg/Gefahrenzone).
+
+**Ab 15 kWh im selben Brandabschnitt (HL II):** Das allgemeine Merkblatt 2005-15 verlangt dann
+**EI 60**; die FAQ 2005-01 senkt das für **LFP-Systeme bis 100 kWh auf EI 30** — bei der
+marktführenden Chemie ist also der gelockerte Massstab praktisch der massgebende. Ab 100 kWh
+(HL III) braucht es in beiden Regelwerken mindestens EI 60 bzw. eine Aufstellung im Freien/in
+einer RF1-Nebenbaute.
+
+**Praxis-Konsequenz für die Ausschreibung:** Die Batteriechemie (LFP vs. andere Lithium-Ionen-
+Typen wie NMC) gehört explizit abgefragt — sie entscheidet, welcher der beiden Massstäbe (EI 30
+vs. EI 60) für einen Speicher zwischen 15 und 100 kWh gilt. Second-Life-Fahrzeugbatterien als
+Hausspeicher gelten laut Merkblatt als eigenständig erhöhtes Brandrisiko.
+→ `[[vkf-lithium-batteriespeicher-brandschutz]]`, `[[batteriespeicher-heimspeicher-pv-ch]]`,
+`[[pv-blitzschutz-gebaeudeversicherung-ch]]`, `[[vkf-richtlinie-22-15-blitzschutzsysteme]]`.
+Datenstand 2026-07-25 (Run 94). Status **established** (beide VKF-Primärquellen — Brandschutz-
+merkblatt 2005-15de + FAQ 2005-01 — vollständig via curl+pdftotext gelesen und wörtlich zitiert;
+löst den in Run 93/94 offen geführten Rechercheauftrag ab).
+
+### F129 — Kann ich die Norm SNR 464022 (Blitzschutz-Ausführungsdetails) selbst nachlesen, um zu prüfen, ob mein Blitzschutzsystem normkonform geplant wurde?
+
+**Kurz für den Bauherrn:** Teilweise, aber nur in kleinen Ausschnitten — und die Norm, die frei
+einsehbar war, ist inzwischen ohnehin nicht mehr die aktuelle. SNR 464022 «Blitzschutzsysteme»
+regelt (anders als die VKF-Richtlinie 22-15, die nur das Ob festlegt) die technische
+**Ausführung**: Werkstoffe, Erdungskonzept, Maschenweiten, Trennungsabstände je Blitzschutz-
+klasse. Über eine kostenlose Electrosuisse-Korrigenda-Datei liessen sich fünf echte Normseiten
+(von 56) wortgetreu lesen: die Grundprinzipien, die Erder-Werkstofftabelle sowie das Kapitel
+«Spezielle Anlagen» — dort steht unter anderem eine harte Pflicht, die für JANS-Projekte direkt
+relevant ist: **Wird eine PV-Anlage auf einem Gebäude mit bestehendem Blitzschutzsystem
+installiert, MUSS sie ins bestehende System integriert werden** (nach SN 411000/NIN Teil 7.12,
+keine Kann-Bestimmung). Die übrigen gut 50 Seiten mit den eigentlichen Ausführungsdetails
+(Fangeinrichtungen, Ableitungsführung, Abstände je Klasse I–IV) sind **kostenpflichtig** bei
+Electrosuisse. Zudem wurde die gelesene Ausgabe (2015, Korrigenda 2016) per 20.02.2024 durch die
+Nachfolgenorm **SN 414022:2024** ersetzt (66 Seiten, CHF 169.– / Mitglieder CHF 143.65,
+shop.electrosuisse.ch, Art.-Nr. DV-48384/1) — für die neue Ausgabe liegt kein freier Auszug vor.
+**Praktisch heisst das:** die Ausführungsplanung und -kontrolle des Blitzschutzsystems gehört in
+die Hände des Elektroplaners bzw. einer VKF-anerkannten Blitzschutz-Fachfirma, die im Besitz der
+aktuellen, kostenpflichtigen Norm ist — eine Bauherren-Eigenprüfung gegen den Normtext ist weder
+vorgesehen noch nötig. Die Bauleitung verlangt stattdessen den normkonformen Ausführungsnachweis
+der Fachfirma als Abnahmevoraussetzung.
+→ `[[snr-464022-blitzschutz-ausfuehrung]]`, `[[vkf-richtlinie-22-15-blitzschutzsysteme]]`,
+`[[pv-blitzschutz-gebaeudeversicherung-ch]]`, `[[gvz-photovoltaik-melde-versicherungspflicht]]`.
+Datenstand 2026-07-25 (Run 94). Status **established** für die fünf gelesenen Normseiten
+(primärquellenbestätigt, curl+pdftotext); der Rest der Norm sowie die aktuelle Ausgabe SN
+414022:2024 bleiben als offener Punkt (kostenpflichtig, kein freier Auszug gefunden) —
+schliesst den seit Run 91/93 offen geführten Punkt teilweise.
