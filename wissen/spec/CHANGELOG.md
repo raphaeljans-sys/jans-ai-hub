@@ -1,5 +1,26 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-25 — Trainingslauf 28 (Verifikationslauf)
+- Output `outputs/2026-07-25_training-run28.md`. Keine neue reale Spec seit Lauf 27. **P1
+  (mail@-Blindstelle `ag-gruendung-monitor`) hält** — Artefakt-mtime unverändert 21.07.2026
+  07:49, Monitor schreibt täglich bis 25.07., inhaltlich weiter nichts Neues.
+- **Neuer Fund (vierter Alterungsmodus einer bestätigten Spec):** SYN-02 wartet seit 20.07. auf
+  MVP-Freigabe (Codeseite `volumen_generator.py` unverändert offen), während die Faktenbasis
+  weitergewachsen ist — `RAUMTYPOLOGIEN.md`/`typology-map.json` (24.07., established) ist eine
+  dritte, gleichrangige Entwurfsdimension, die die Spec vom 20.07. nicht kennt (Fund
+  `SYNERGIE-REGISTER` SYN-15, Synergie-Orchestrator Lauf 02, 25.07.). Bisher kannte die KB nur
+  kippende Entscheide und externes Warten als Alterungsmodi einer lebenden Spec — Faktenbasis-
+  Drift durch KB-Wachstum während eines wartenden MVP-Blocks ist neu.
+- **Umgesetzt:** `wiki/anwendung-jans.md` Schritt 2 (neuer Absatz, `last_updated` → 07-25);
+  `wiki/QUESTIONS.md` F2 (Hält-Check P1 + Faktenbasis-Drift-Fund).
+- **Bewusst nicht getan:** kein Eingriff in `SYNERGIE-REGISTER.md`/die SYN-02-Spec selbst (Mandat
+  liegt beim Synergie-Orchestrator, Doppelbuchung vermieden); kein Environment-Sweep (Zählstände
+  unverändert seit Lauf 26); kein erfundenes F1-Überdehnungsbeispiel; Rule `spec-methode.md`
+  unverändert; kein Mailversand.
+- Offen: SYN-02-MVP-Bau Block 1 (jetzt mit Faktenbasis-Refresh-Hinweis); F1-Überdehnungs-Gegentest
+  unbelegt; F3 Marketing/Text letzte offene Domänenzeile; `syn02-spec-anstoss`-Task-Duplikat-
+  Löschung liegt bei Raphael.
+
 ## 2026-07-25 (dritte Instanz) — `syn02-spec-anstoss` erneut gefeuert; Loeschversuch + Mail an Raphael
 - Dieselbe Situation wie im Eintrag direkt darunter (25.07., erste Duplikat-Instanz): kein neues
   Interview vorbereitet, keine Dublette angelegt — SYN-02-Spec ist seit 20.07.2026 bestaetigt

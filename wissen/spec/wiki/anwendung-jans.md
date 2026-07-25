@@ -1,7 +1,7 @@
 ---
 title: Anwendung der Spec-Methode im JANS AI Hub
 status: established
-last_updated: 2026-07-24
+last_updated: 2026-07-25
 sources: [260616_marchese_the-spec_karpathy-method_transkript.md]
 links: [[the-spec]], [[3-schritte-spec]], [[verifier]], [[environment-jans-hub]]
 ---
@@ -118,6 +118,18 @@ Ziel, Abgrenzung, Kriterien — bevor ich baue?"), statt blind loszulegen.
    Nudge/Pendenz, nicht unter «nichts Neues» — sonst altert eine erledigbare Aufgabe still (belegt
    AG-Gründung: «Antwort ans Notariat raus» blieb 17 Tage in der «nichts Neues»-Zeile; siehe
    [[verifier]] «Zwei Blocker-Typen»).
+   **Vierter Alterungsmodus (neu, belegt 25.07.2026, SYN-02):** eine bestätigte Spec kann auch
+   altern, ohne dass ein Entscheid kippt oder eine Instanz aussteht — indem die **Faktenbasis
+   selbst weiterwächst**, während der Bau auf Freigabe wartet. Die SYN-02-Spec (bestätigt
+   20.07.2026) listet als Quellen `entwurfs-referenzen`, `wettbewerbs-dna`, `grobkosten`; vier
+   Tage später entstand `wissen/architekten-synobsis/wiki/RAUMTYPOLOGIEN.md` (24.07., established,
+   9 Raumtypologien/105 Projekte, maschinenlesbar in `catalog/typology-map.json`) — eine dritte,
+   gleichrangige Entwurfsdimension (Parti-/Raumfigur-Ebene neben Zonen-Maxima und typologischem
+   Parameter-Set), die die Spec nicht kennt (Fund SYNERGIE-REGISTER SYN-15, Lauf 02, 25.07.2026).
+   Konsequenz: bei jedem MVP-Freigabe-Gespräch einer wartenden Spec kurz prüfen, ob die
+   Faktenbasis seit Bestätigung neue, gleichrangige Quellen bekommen hat — sonst baut das MVP auf
+   einem veralteten Quellenstand. Diese Prüfung ist Sache des ausführenden Skills/Teams (hier
+   `synergie-orchestrator`), nicht des `spec-training`-Loops selbst; die KB hält die Lehre fest.
 3. **Präzise + Verifier** — Bewertungskriterien vorab; Goldstandard als Format-Vorlage;
    zweite Prüfinstanz (`korrektur`/`twin`/`/code-review`); externes Signal via Connector.
    Wo eine **autoritative Instanz** entscheidet (Behörde/Notar/Bank), gilt deren Befund vor

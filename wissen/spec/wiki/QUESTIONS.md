@@ -222,6 +222,22 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klären sollen.
     quittiert: einen Tag später geprüft, hält es. Kein weiterer P1-Sweep nötig, solange der tägliche
     Monitor-Eintrag läuft (Faden bleibt geschlossen). Dies ist der einzige substanzielle Fund des Laufs
     (kein neuer Spec, Gate ohne Drift) — legitimes Verifikationslauf-Ergebnis.
+  - Hält-Check 25.07. (Lauf 28, Verifikationslauf): P1 hält weiterhin (mtime `ag-gruendung-monitor/
+    SKILL.md` unverändert 21.07.2026 07:49, Monitor schreibt täglich bis 25.07. inkl., `fristen.md`
+    zeigt durchgehende Einträge 22.–25.07., inhaltlich weiter «nichts Neues», UBS-Antwort jetzt 29 Tage
+    überfällig). Kein neuer Sweep nötig. Neuer Fund dieses Laufs liegt bei F2 unten (Faktenbasis-Drift
+    einer wartenden Spec), nicht bei P1.
+  - Faktenbasis-Drift 25.07. (Lauf 28, neuer Alterungsmodus, belegt SYN-02): eine bestätigte Spec kann
+    altern, ohne dass ein Entscheid kippt oder eine externe Instanz aussteht — indem die **Faktenbasis
+    selbst weiterwächst**, während das MVP auf Freigabe wartet. Die SYN-02-Spec (bestätigt 20.07.) kennt
+    `entwurfs-referenzen`/`wettbewerbs-dna`/`grobkosten` als Quellen; vier Tage später entstand
+    `RAUMTYPOLOGIEN.md` (24.07., established) als dritte, gleichrangige Entwurfsdimension, die die Spec
+    nicht referenziert (Fund: `SYNERGIE-REGISTER` SYN-15, Lauf 02 des Synergie-Orchestrators, 25.07.).
+    Der Codeseiten-Fortschritt bleibt derweil bei null (`volumen_generator.py` liest weiterhin kein
+    Parameter-Set, `SYNERGIE-REGISTER` SYN-02 Lauf 02). Konsequenz für F2: die Interview-Vorbereitung
+    prüft die Faktenlage nur **einmalig vor** dem Interview — bei länger wartenden MVP-Blocks braucht es
+    zusätzlich einen **Faktenbasis-Refresh-Check bei Baustart**, nicht nur einen Freigabe-Trigger. →
+    `wiki/anwendung-jans.md` Schritt 2 (neuer vierter Alterungsmodus, dort ausformuliert).
 - F3: Welcher zweite Kritiker ist je Domäne der beste Verifier (korrektur vs. twin vs.
   /code-review vs. Connector)? Zuordnungstabelle aufbauen.
   - Erster Eintrag (Recht/Behörde, belegt AG-Gründung): die **autoritative Instanz**
