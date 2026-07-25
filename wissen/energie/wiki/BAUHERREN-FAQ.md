@@ -911,8 +911,9 @@ Fachperson**, unabhängig von der Bausumme. Praktisch gehört die Schadstoff-/R�
 im Sanieren-vs.-Neubau-Entscheid (Bauteilerhalt spart Rückbau + graue Energie, vgl. F9).
 
 **Quelle:** Kt. ZH / AWEL «Entsorgungskonzept – Checkliste Gebäudeschadstoffe» (02.2023, Rechtsbasis
-Art. 16–20 VVEA) → `[[gebaeudeschadstoffe-checkliste-zh]]`; Bezug private Kontrolle →
-`[[private-kontrolle-zh]]`; Kreislauf/Re-use → `[[werkhof29-zirkulaeres-bauen-stroh-lehm]]`. ⚠
+Art. 16–20 VVEA) → `[[gebaeudeschadstoffe-checkliste-zh]]`, Themenartikel `[[gebaeudeschadstoffe]]`
+(neu, Run 89); Bezug private Kontrolle → `[[private-kontrolle-zh]]`; Kreislauf/Re-use →
+`[[werkhof29-zirkulaeres-bauen-stroh-lehm]]`. ⚠
 **Datenstand 2026-06-22:** Schwellen Kt.-ZH-spezifisch; andere Kantone abweichend — am aktuellen
 AWEL-Stand / `polludoc.ch` prüfen. Schadstoff-/Abfallrecht ist ein **eigenes Verfahren** neben dem
 Energienachweis (EVEN). Detailfragen Asbestsanierung → Suva-Vorgaben.
@@ -4162,3 +4163,29 @@ generelle Solarpflicht (heutige PV-Pflicht bleibt EN-104-ZH, ≥10 W/m² EBF). �
 Querbezug KB planungsgrundlagen (Formular/Verfahren fuehrend, Wissens-Chef Run 14): die Bedienung des
 Formulars **EN-104-ZH** «Eigenstromerzeugung» (Nachweisfuehrung, max. 30 kW-Grenze, EVEN) in
 `wissen/planungsgrundlagen/wiki/energie-energienachweis-zh-formulare`.
+
+### F117 — Gilt eine Solarpflicht auch ausserhalb von Zürich/Schwyz?
+
+Ja, in den meisten Kantonen — und oft deutlich strenger als das Bundesminimum (Art. 45a EnG: erst
+ab 300 m² Gebäudefläche). Sechs Kantone verlangen unabhängig von der Gebäudegrösse eine
+**Eigenstromerzeugungspflicht** nach demselben Bemessungsmuster: **10 W/m² Energiebezugsfläche
+(EBF), gedeckelt auf max. 30 kW** — amtlich bestätigt für Zug (§8 V EnG-ZG), Graubünden (EN-104 GR),
+Glarus (Art. 14b Energiegesetz) und Appenzell Ausserrhoden (Art. 19a bis kEnV; bei Beteiligung an
+einer Gemeinschaftsanlage sogar 30 W/m² ohne Deckel), analog dokumentiert für Nidwalden und
+vermutlich Freiburg. Auch **Appenzell Innerrhoden** gehört dazu: die Eigenstromerzeugungspflicht
+gilt dort bereits seit 1.4.2020 (Art. 7a EnerG) — eine ältere Lesart, AI habe nur eine
+Melde-/Bewilligungspflicht für die Solaranlage selbst, bezog sich auf die falsche Rechtsgrundlage
+(das Bewilligungsverfahren, nicht die Installationspflicht). Bei Abweichung/Befreiung verlangen
+Zug, Glarus und Obwalden eine **Ersatzabgabe** (CHF 1'000–1'500 pro nicht realisiertem kW),
+Graubünden und Appenzell Innerrhoden lassen dagegen **keine** Ersatzabgabe zu — dort geht es nur
+über die Befreiungstatbestände (z.B. Globalstrahlung <1'250 kWh/m²a oder Minergie in GR).
+**Regelmässig strenger** sind Bern (10 % aGF, keine Schwelle), Luzern (alle Neubauten, 50 % Dachfläche),
+Genf (alle geeigneten Dachflächen), Wallis (auch Bestandsbauten binnen 25 Jahren) und Basel-Stadt
+(geplante Pflicht auch für Bestandsbauten). **Kein Zusatz zum Bund** gilt dagegen in Aargau,
+Schaffhausen, Uri, Basel-Landschaft und Schwyz — dort wurde eine eigene Solarpflicht an der Urne
+oder im Parlament klar verworfen. In Obwalden ist die neue Solarpflicht (PBG, Art. 98/100) zwar
+bereits geltendes Recht, eine SVP-Volksinitiative dagegen wurde aber Anfang Juli 2026 eingereicht
+(Ausgang offen) — hier lohnt sich vor der Baueingabe eine Rückfrage beim Bauamt. **Faustregel:**
+nie vom Bundesminimum ausgehen, sondern immer zuerst die kantonale (und ggf. kommunale) Regelung
+am Standort prüfen. → `[[solarpflicht-schweiz-kantone]]`,
+`[[solarpflicht-national-mantelerlass-kantone]]`. Datenstand 2026-07-25 (Run 61).

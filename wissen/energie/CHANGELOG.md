@@ -2,6 +2,54 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — Run 89: Backlog-Bereinigung + neuer Themenartikel Gebäudeschadstoffe
+- Kollisionsschutz geprüft (kein Zweitprozess). Geprüft, ob Run-88-Prioritäten 1–3
+  (INDEX-Entwirrung B3/B4, `foerderung-energie-zh.md` KRNr-Stand E1) noch offen sind — beide
+  bereits im/kurz nach Commit `94786f91` erledigt, daher keine Doppelarbeit.
+- **Neuer Wiki-Themenartikel** `wiki/gebaeudeschadstoffe.md`: promoviert den seit Run 87 im
+  INDEX-Backlog stehenden Kandidaten aus dem bestehenden Destillat
+  `[[gebaeudeschadstoffe-checkliste-zh]]` (FAQ F23) — 4-Fälle-Raster, Schadstoff-Stichjahre,
+  Bauherren-Transfer, Bezug graue Energie/Naturbaustoffe.
+- `wiki/INDEX.md`: Themen-Artikel 24 → 25; Backlog-Liste bereinigt (4 bereits in Run 87 gelöste
+  Punkte entfernt: Blower-Door-Kosten, Fenster-Etikette-Klassengrenzen, GEAK-Klassengrenzen,
+  SZ-Denkmalpflegebeitrag).
+- `wiki/QUESTIONS.md` E13, `wiki/BAUHERREN-FAQ.md` F23: Backlinks zum neuen Themenartikel ergänzt.
+- Output: `outputs/2026-07-25_energie-run89.md`.
+
+## 2026-07-25 — Solarpflicht-Kantone Run 61 (Nachrecherche offene Punkte aus Run 60/Health-Check)
+- **Appenzell Innerrhoden — Quellenwiderspruch aufgeloest:** Eigenstromerzeugungspflicht besteht
+  seit 1.4.2020 (Art. 7a EnerG/Art. 16a EnerV), primaerquellennah belegt ueber das Amt fuer Hochbau
+  und Energie AI («Hinweise zur Vollzugspraxis EnerG AI», Kapitel EN-104) + egonline.ch (25.2.2020).
+  Die fruehere «nur Melde-/Bewilligungspflicht»-Lesart (ai.ch/Solaranlagen) bezog sich auf das
+  Bewilligungsverfahren der Anlage selbst, nicht auf die materielle Installationspflicht — zwei
+  verschiedene Rechtsfragen, die Sekundaerquellen und der bisherige Destillat-Stand vermischt hatten.
+- **W/m²-Bemessung primaerquellen-verifiziert (Volltext-Fetch via curl/pdftotext bzw. r.jina.ai-Proxy
+  fuer JS-gerenderte Erlass-Sammlungen):** Zug (§8 V EnG-ZG: 10 W/m² EBF, max. 30 kW, Ersatzabgabe
+  CHF 1'000/kW), Graubuenden (EN-104 GR amtlich: 10 W/m² EBF, max. 30 kW, keine Ersatzabgabe),
+  Glarus (Art. 14b Energiegesetz, Landsgemeinde-Memorial: 10 W/m² EBF, max. 30 kW), Appenzell
+  Ausserrhoden (Art. 19a bis kEnV: 10 W/m² EBF, max. 30 kW, bei Gemeinschaftsanlage 30 W/m² ohne
+  Deckel). Sechster Kanton mit derselben Bemessungslogik (Nidwalden) bleibt durch Analogie
+  plausibilisiert, aber nicht erneut im Volltext geprueft.
+- **Obwalden aktualisiert:** SVP-Volksinitiative «Keine Solarpflicht» (seit 22.1.2026 in
+  Unterschriftensammlung, Quorum 500 Unterschriften) gemaess uebereinstimmender Web-Recherche
+  Anfang Juli 2026 eingereicht, Regierungsrat-Kenntnisnahme 6.7.2026 (keine direkt einsehbare
+  ow.ch-Primaerquelle, JS-gerendert) — Formalpruefung/Abstimmungstermin weiterhin offen, als ⚠
+  politisch volatil markiert.
+- **Neuenburg praezisiert:** zwei zu unterscheidende Regelungsebenen identifiziert — (a) bereits
+  seit 2021 in Kraft eine engere, warmwasserfokussierte Solarpflicht (Art. 27 RELCEn, Volltext
+  verifiziert), (b) separat fuer 2026/2027 geplant eine umfassendere MuKEn-Modul-E-Revision (15 W/m²
+  SRE, 20 W/m² bei WW-Kombination) — weiterhin nicht in Kraft. Der bisherige Destillat-Stand hatte
+  nur (b) erwaehnt und dabei implizit unterschlagen, dass NE bereits eine (schwaechere) Solarpflicht
+  kennt.
+- Geaenderte Dateien: `destillate/solarpflicht-national-mantelerlass-kantone.md` (Frontmatter +
+  Kantonstabelle + Offene-Punkte-Sektion), `wiki/solarpflicht-schweiz-kantone.md` (Kantonstabelle +
+  Bauherren-Transfer + Offen-Sektion), `wiki/BAUHERREN-FAQ.md` (neuer Eintrag F117).
+- **Status bewusst weiterhin `emerging`, nicht auf `established` gehoben:** trotz vier neu
+  primaerquellen-belegten Kantonen bleiben echte offene Punkte (Obwalden-Referendum politisch
+  volatil, Neuenburg-Revisionsdatum unbestaetigt, Nidwalden-Wert nur analog, einzelne Kantone wie
+  Basel-Stadt/Jura/Freiburg weiterhin mit Luecken) — die Promotion-Schwelle aus der Run-88-
+  Entscheidung («keine Kernunsicherheit mehr») ist damit noch nicht erreicht.
+
 ## 2026-07-25 — Wissens-Chef Run 15 (Cross-KB): Regenwasser-Rueckverweis zu planungsgrundlagen
 - `wiki/regenwasserbewirtschaftung-versickerung-zh.md` (links) → `[[recht-norm-regenwasser-gewaesserraum-zh]]` (KB planungsgrundlagen, Recht/Verfahren GSchG-Kaskade + Gewaesserraum-Festlegung). Beide KBs fuehrten einen materiellen Regenwasser-Artikel, ohne aufeinander zu zeigen — genau in dieser Blindstelle stand der jetzt korrigierte Versickerungs-Rechtsfehler auf der pg-Seite.
 - Diese KB war in beiden Cross-Befunden (EN-102-Normbasis SIA 380/1:2016, Versickerung als Regelfall) **die richtige Seite** — keine Korrektur hier.

@@ -213,9 +213,11 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   solare Deckungsgrade in % (projektgenau Polysun), Praxisbeispiel-Endzahlen (EnergieSchweiz-Doku S. 59-75), SIA 2063.
 - [x] **E13** **Gebaeudeschadstoffe/Rueckbau beim Umbau** (Asbest/PCB/CP) belegt ✓ 2026-06-22 →
   `[[gebaeudeschadstoffe-checkliste-zh]]`, FAQ **F23** (Kt.-ZH-Vierfaelle-Raster vor 1990 / ≤ CHF
-  200'000 → Checkliste, darueber Fachperson + private Kontrolle; Stichjahre 1990/1987/1976). Offen:
-  Schwellen anderer Kantone (SZ), Verknuepfung Rueckbaukosten ↔ fruehe Kostenschaetzung/CapEx-Fahrplan
-  (`ankaufspruefung`/`kostenschaetzung`), Sanieren-vs.-Neubau mit Schadstoff-Altlast quantifizieren.
+  200'000 → Checkliste, darueber Fachperson + private Kontrolle; Stichjahre 1990/1987/1976). **Eigener
+  Wiki-Themenartikel ✓ 2026-07-25 (Run 89)** → `[[gebaeudeschadstoffe]]` (loest den seit Run 87 im
+  INDEX-Backlog gefuehrten Kandidaten). Offen: Schwellen anderer Kantone (SZ), Verknuepfung
+  Rueckbaukosten ↔ fruehe Kostenschaetzung/CapEx-Fahrplan (`ankaufspruefung`/`kostenschaetzung`),
+  Sanieren-vs.-Neubau mit Schadstoff-Altlast quantifizieren.
 
 - [x] **E14** **Regenwasserbewirtschaftung / Versickerung Kt. ZH** belegt ✓ 2026-06-23 →
   `[[regenwasserbewirtschaftung-versickerung-zh]]` (Destillat + Themenartikel), FAQ **F24** (Bewilligung
