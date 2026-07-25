@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.07.2026 16:37:48
+Stand: 25.07.2026 16:58:05
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 16:34)
+- Developer/jans/ai/hub  (letzte Aktivitaet 16:57)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 25.07.2026 16:37:48
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 40d30068 spec-training: Lauf 31 (Verifikationslauf), 25.07.2026 16:14
+- 443b26b5 energie-training Run 93: GVZ-PV-Feuerwehrmeldung, VKF Gefährliche-Stoffe-Negativbefund, Glas-g-Wert-Negativbefund, Massivbau-CO2-Gegenzahl (F123-F126)

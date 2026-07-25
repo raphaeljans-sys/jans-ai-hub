@@ -19,7 +19,7 @@ datenstand: 2026-07-25
 status: established (VKF-Primärdokument 22-15de vollständig gelesen und ziffern-genau zitiert;
   keine neuere Ausgabe als 01.01.2017 gefunden — Aktualität zum Abrufzeitpunkt nicht
   hundertprozentig ausschliessbar, siehe Offene Punkte)
-last_updated: 2026-07-25
+last_updated: 2026-07-25 (Run 94: gezielte Batteriespeicher-Prüfung ergänzt, Negativbefund)
 ---
 
 # Destillat — VKF-Brandschutzrichtlinie 22-15 «Blitzschutzsysteme»: wer ist grundsätzlich blitzschutzpflichtig
@@ -170,5 +170,49 @@ Lebenszykluskosten-/FM-Planung einkalkulieren.
   technischen Ausführungsanforderungen je Klasse (Fangleiter-Maschenweite, Trennungsabstände
   etc.) bleiben offen für ein separates Destillat.
 
+## Batteriespeicher-Prüfung (Run 94)
+
+**Auftrag aus Run 93:** die VKF-Richtlinie 22-15de selbst gezielt auf Mengenschwellen/
+Vorschriften für Batteriespeicher (Heimspeicher, PV-Speicher, Lithium-Ionen-Akkus) prüfen —
+das war die eigentlich gesuchte Quelle für FAQ F124, nachdem sich das kursierende
+Sekundärzitat zu Ziffer 3.5.3 der Richtlinie «Gefährliche Stoffe» als falsch erwiesen hatte.
+
+**Vorgehen:** alle drei bereits für dieses Destillat verifizierten Primär-/Vollzugsdokumente
+erneut per curl+pdftotext -layout geladen und gezielt mit Volltextsuche (Groß-/Kleinschreibung
+ignorierend) nach den Stichworten «Batter», «Speicher», «Lithium», «Akku» durchsucht:
+- VKF-Richtlinie 22-15de selbst (8 Seiten, `https://services2.vkf.ch/rest/public/georg/bs/
+  publikation/documents/BSPUB-1394520214-107.pdf/content`)
+- GVZ-Weisung 20.06 (20 Seiten, `https://www.gvz.ch/_file/270/weisung-20-06-blitzschutzsysteme.pdf`)
+- GVB-Merkblatt Ausgabe 09/2024 (6 Seiten, `https://gvb.ch/.../bsm-blitzschutzsysteme-gvb-bern.pdf`)
+
+**Ergebnis: Negativbefund, ziffern-genau bestätigt.**
+- Im **VKF-Primärdokument 22-15de** kommt **keines** der vier Suchwörter («Batter», «Speicher»,
+  «Lithium», «Akku») auch nur ein einziges Mal vor — weder in der neunteiligen Tabelle zu
+  Ziffer 2 noch im Fliesstext.
+- In der **GVZ-Weisung 20.06** ebenfalls kein einziger Treffer.
+- Im **GVB-Merkblatt** genau ein Treffer auf «Speicher» — und der bezieht sich auf
+  **«Gasspeichern» im Kontext von Fermentern/Biogasanlagen (Tragluftfolie, Wahl der
+  Fangeinrichtung)**, nicht auf elektrische Batteriespeicher.
+- Die Richtlinie 22-15 kennt Batteriespeicher/Lithium-Ionen-Akkus als eigenständige Anlagenart
+  **nicht**. Sie regelt ausschliesslich, WELCHE Gebäude/Nutzungen grundsätzlich
+  blitzschutzpflichtig sind (Tabelle oben), nicht Mengenschwellen für spezifische
+  Speichertechnologien.
+
+**Einzige indirekte Berührung im bereits gelesenen Text:** Kriterium **i)** der Tabelle
+(«Betriebe mit lebenserhaltenden technischen Anlagen … Betriebssicherheit mittels
+Überspannungsschutzkonzept») könnte im Einzelfall einen Batteriespeicher als Teil der
+elektrischen Anlage eines Spitals/Pflegeheims betreffen — das ist aber ein allgemeines
+Überspannungsschutz-Erfordernis für die gesamte Elektroanlage, **keine spezifische
+Batteriespeicher-Mengenschwelle**.
+
+**Schlussfolgerung für FAQ F124/Bauherren-Transfer:** Für Batteriespeicher-Mengenschwellen
+(z.B. ab welcher Speicherkapazität/Zellenzahl besondere Brandschutzauflagen gelten) ist
+**weder** die Richtlinie «Gefährliche Stoffe» **noch** die Richtlinie 22-15 «Blitzschutzsysteme»
+die richtige Fundstelle. Die zutreffende Quelle wäre ein eigenständiges VKF-Brandschutz-
+informationsblatt zu Lithium-Ionen-Batteriespeichern (falls existent) — dieses wurde in Run 94
+weiterhin **nicht gefunden/beschafft** und bleibt offen (siehe `wiki/QUESTIONS.md`).
+
 Querbezug: `[[pv-blitzschutz-gebaeudeversicherung-ch]]` (PV löst keine eigene Blitzschutzpflicht
-aus, verweist auf diese Richtlinie), `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`.
+aus, verweist auf diese Richtlinie), `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`,
+`[[vkf-richtlinie-gefaehrliche-stoffe]]` (dort ebenfalls Negativbefund zu Batteriespeicher),
+`[[batteriespeicher-heimspeicher-pv-ch]]`.
