@@ -4,6 +4,34 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-25 — Buch-Run 55 (Festigungsmodus, Prioritaet c: Stichproben-Re-Verifikation Kap. 14)
+- [korrektur] **Fassungsstand-Umkehr in [[nutzungsziffern]] gefunden und korrigiert** (Modell-D-
+  Volltextabgleich gegen `raw/260607_amtlich_zh_pbg.md` + `raw/260607_amtlich_zh_abv.md`, Hauptteil
+  UND Anhang je gegengelesen): die harmonisierten §§ 255/256/257/258 PBG + §§ 9-13 ABV sind bereits
+  seit der PBG-Änderung vom 14.9.2015 / ABV-Änderung vom 11.5.2016 (in Kraft 1.3.2017) geltender
+  **Hauptteil**, nicht eine künftige „nPBG"-Harmonisierungsvorlage. Die Anhang-Fassung (Stand
+  28.2.2017) gilt nur, bis die jeweilige Gemeinde ihre BZO angepasst hat. Analog zu den bereits in
+  [[abstaende-und-hoehen]] (Run 31) und [[geschosse-und-kniestock]] (Run 33/34) behobenen Fällen.
+  Grünflächenziffer (§ 257 PBG) ist die heute geltende Bezeichnung, Freiflächenziffer nur Anhang-Recht.
+- [korrektur] **§ 9 ABV**: die «UG mehrheitlich über gewachsenem Boden = Vollgeschoss»-Regel steht
+  nur in der alten Anhang-Fassung; im seit 1.3.2017 geltenden Hauptteil ist dieser Halbsatz
+  gestrichen (nicht bloss «kommunale Praxis uneinheitlich», wie zuvor vermerkt).
+- [korrektur] **§ 10 lit. c ABV**: aktuell **20 %** der anrechenbaren Geschossfläche für
+  energiesparende verglaste Balkone/Loggien/Wintergärten (nicht 10 % — das ist der Anhang-Wert).
+- [korrektur] **§ 17 Abs. 2 ABV existiert nicht**: § 17 ABV ist seit 1.2.1992 aufgehoben (RRB
+  25.9.1991) und enthält keinen Abs. 2. Die als Rechtsgrundlage der Nutzweisen-Übertragung
+  zitierte Fundstelle (Buch S. 987) liess sich am amtlichen Volltext nicht bestätigen — die
+  Übertragung beruht nach geltendem Recht ausschliesslich auf kommunalem Recht. Korrigiert in
+  [[nutzungsziffern]], [[ausnuetzungsuebertragung]] und Destillat [[14-nutzungsdichte-ausnuetzung]].
+- [register-sweep] Korrekturen nachgezogen in `wiki/INDEX.md`, `buecher/INDEX.md`,
+  `training/curriculum.md`, `training/drills.md` (3 Karten korrigiert, 2 neue Karten).
+- [verifiziert-Feld ergänzt] `nutzungsziffern.md`, `ausnuetzungsuebertragung.md`,
+  `14-nutzungsdichte-ausnuetzung.md` (waren zuvor established ohne verifiziert-Stempel).
+- [needs-verification neu] ÜZ-Neuregelung «Unterniveaubauten anzurechnen» (Buch S. 990 f.) liess
+  sich am gelesenen Wortlaut von § 256 PBG nicht wörtlich bestätigen — evtl. Buchkommentar statt
+  Gesetzestext, in `wiki/QUESTIONS.md` vorgemerkt.
+- Report `outputs/2026-07-25_buch-run55.md`.
+
 ## 2026-07-25 — Buch-Run 54 (Festigungsmodus, Fortsetzung Fassungsstand-Check + PPV-Primärquelle)
 - [pruefung] EnerG (LS 730.1) und WsG/WsV (LS 724.1/724.11) live gegen zhlex.zh.ch geprueft —
   beide ohne Drift (EnerG weiterhin Nachtrag 129; WsG/WsV Nachtrag 133, identisch zum

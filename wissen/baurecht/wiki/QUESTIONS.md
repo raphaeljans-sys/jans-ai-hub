@@ -1,5 +1,56 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## 2026-07-25 (Buch-Run 55, Festigungsmodus, Priorität c: Stichproben-Re-Verifikation) — Fassungsstand-Umkehr in Kap. 14 (Nutzungsziffern) gefunden und korrigiert
+
+Run 54 empfahl den Wechsel von Priorität (b) (Fassungsstand-Check kantonaler Erlasse, jetzt einmal
+vollständig durchlaufen) zu **Priorität (c) Stichproben-Re-Verifikation** eines `established`-
+Bestands mit ältestem `verifiziert`-Datum. Sechs `established`-Wiki-Artikel trugen **gar kein**
+`verifiziert`-Feld (nie durch den Modell-D-Loop gelaufen); der älteste (`zonenkonformitaet.md`,
+last_updated 2026-06-02, reine Buch-/BZO-Quellen ohne einen einzigen PBG-§) bleibt der nächste
+Kandidat. Für diesen Lauf gewählt: [[nutzungsziffern]] + [[ausnuetzungsuebertragung]] (Kap. 14,
+last_updated je 2026-07-10 — vor der Entdeckung der Fassungsstand-Umkehr-Falle in Run 31).
+
+- **Fassungsstand-Umkehr bestätigt (dritter Fall nach [[abstaende-und-hoehen]] Run 31 und
+  [[geschosse-und-kniestock]] Run 33/34):** der amtliche PBG-Volltext (`raw/260607_amtlich_zh_pbg.md`)
+  enthält §§ 254-259 zweimal — als harmonisierten **Hauptteil** (Nachtrag-Superskripte, aktuell
+  Nachtrag 133) und als **Anhang** («vom 7. September 1975; Stand 28. Februar 2017»). Die
+  Übergangsbestimmung zur Änderung vom 14.9.2015 (Zeile ~3906-3908 im raw) nennt §§ 251, 253a,
+  254-260, 262, 269, 270, 273, 275, 276, 278-282, 292, 304 explizit als Bestimmungen, die «bis zur
+  Anpassung der Bau- und Zonenordnung … in der vor Inkrafttreten der Änderung vom 14. September
+  2015 gültigen Fassung anwendbar» bleiben — d.h. die harmonisierte Fassung ist der **geltende
+  Hauptteil**, die Anhang-Fassung nur Übergangsrecht nicht angepasster Gemeinden. [[nutzungsziffern]]
+  hatte beide Fassungen vertauscht zitiert (Anhang als «geltendes PBG», Hauptteil als
+  «Harmonisierungsvorlage/nPBG» im Futur) — analog bei der ABV (§§ 9-13, Änderung RRB 11.5.2016,
+  in Kraft 1.3.2017).
+- **§ 9 ABV korrigiert:** «UG mehrheitlich über gewachsenem Boden = Vollgeschoss» ist nur
+  Anhang-Recht; im Hauptteil (geltend) gestrichen. Das Buch-Destillat [[14-nutzungsdichte-
+  ausnuetzung]] hatte dies bereits 2026-07-08 als needs-verification vermutet («in der IVHB-
+  angepassten neuen Fassung ist der Passus gestrichen») — jetzt am amtlichen Volltext bestätigt.
+- **§ 10 lit. c ABV korrigiert:** aktuell **20 %** (nicht 10 %) der anrechenbaren Geschossfläche für
+  energiesparende verglaste Balkone/Loggien/Wintergärten; 10 % + Begriff «Vorbauten» ist die
+  Anhang-Fassung.
+- **§ 17 Abs. 2 ABV existiert nicht:** § 17 ABV wurde durch RRB vom 25.9.1991 aufgehoben (in Kraft
+  seit 1.2.1992) und enthält seither keinen eigenen Absatz. Die von Buch (S. 987) und beiden
+  Wiki-Artikeln als Rechtsgrundlage der Nutzweisen-Übertragung zitierte Fundstelle «§ 17 Abs. 2
+  ABV» liess sich am amtlichen ABV-Volltext **nicht bestätigen** — Herkunft ungeklärt (evtl. Bezug
+  auf eine vor 1992 geltende ABV-Fassung, evtl. Verwechslung). Praktisch ändert sich nichts an der
+  Kernaussage: die Übertragung beruht bereits nach den Buch-Beispielen (BO Zürich Art. 6) auf
+  kommunalem Recht, nicht auf einer kantonalen ABV-Norm.
+- **needs-verification (neu):** ÜZ-Neuregelung «neu sind Unterniveaubauten anzurechnen» (Buch
+  S. 990 f., zitiert in [[nutzungsziffern]] und `training/drills.md`) liess sich am gelesenen
+  Wortlaut von § 256 PBG (Hauptteil, nur 2 Absätze: Definition + 35-cm-Kappung) nicht wörtlich
+  bestätigen. Der Begriff «Unterniveaubauten» kommt im Volltext nur als ABV-Definition (§ 2c ABV)
+  vor, nicht erkennbar mit § 256 PBG verknüpft. Könnte Buchkommentar statt Gesetzeswortlaut sein —
+  nicht als Fehler behandelt, sondern offen ausgewiesen.
+- **Nächster Kandidat für Priorität (c):** [[zonenkonformitaet]] (last_updated 2026-06-02, älteste
+  noch offene Stichprobe, ausschliesslich Buch-/BZO-Quellen ohne einen einzigen PBG-§-Beleg —
+  nächststehender Kandidat für einen vollständigen Modell-D-Durchlauf). Weitere Kandidaten ohne
+  `verifiziert`-Feld: `bestandsumbau-eingriffstiefe.md` (Kt. SZ, eigener Charakter),
+  `bauausfuehrung-und-baukontrolle.md`/`widerrechtliche-bauten-und-sanktionen.md` (bereits in
+  Run 30/31 volltextverifiziert, nur das `verifiziert`-Frontmatter-Feld fehlt — geringere Priorität).
+- **0 Halluzinationen, 1 Fassungsstand-Umkehr korrigiert, 3 Einzelkorrekturen, 1 neuer
+  needs-verification-Flag.** Report `outputs/2026-07-25_buch-run55.md`.
+
 ## 2026-07-25 (Buch-Run 54, Festigungsmodus) — Fassungsstand-Check EnerG/WsG/WsV/PPV fortgesetzt, PPV-Primärquelle gefunden
 
 Fortsetzung von Priorität (b) aus Run 53 (kantonale Erlasse, die dort noch offen waren: EnerG,

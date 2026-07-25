@@ -113,6 +113,29 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 55 (2026-07-25, Festigungsmodus, Priorität (c) Stichproben-Re-Verifikation, kein
+    Agent-Fan-out):** Nach Run 54s Empfehlung auf Priorität (c) umgeschwenkt: Kandidaten mit
+    fehlendem/ältestem `verifiziert`-Feld ermittelt (sechs `established`-Artikel ganz ohne dieses
+    Feld; [[nutzungsziffern]] + [[ausnuetzungsuebertragung]], last_updated 2026-07-10, als
+    erreichbarster Kandidat vor der Fassungsstand-Umkehr-Erkennung Run 31 gewählt). **Grosser
+    Fund — dritte Fassungsstand-Umkehr** (nach [[abstaende-und-hoehen]] Run 31,
+    [[geschosse-und-kniestock]] Run 33/34): [[nutzungsziffern]] zitierte die harmonisierten
+    §§ 255/256/257/258 PBG + §§ 9-13 ABV als künftige «Harmonisierungsvorlage/nPBG», obwohl sie
+    seit der PBG-Änderung 14.9.2015 / ABV-Änderung 11.5.2016 (in Kraft 1.3.2017) **bereits
+    geltender Hauptteil** sind; die Anhang-Fassung (Stand 28.2.2017) gilt nur bis zur BZO-Anpassung
+    der jeweiligen Gemeinde. **3 Einzelkorrekturen:** § 9 ABV «UG mehrheitlich über gewachsenem
+    Boden» ist im Hauptteil gestrichen (nur Anhang-Recht) — das Buch-Destillat hatte dies bereits
+    Run 24 (2026-07-08) als needs-verification vermutet, jetzt am amtlichen Volltext bestätigt;
+    § 10 lit. c ABV aktuell **20 %** statt 10 %; **§ 17 Abs. 2 ABV existiert nicht** (aufgehoben
+    seit 1.2.1992) — Nutzweisen-Übertragung beruht ausschliesslich auf kommunalem Recht. Korrigiert
+    in [[nutzungsziffern]], [[ausnuetzungsuebertragung]], Destillat [[14-nutzungsdichte-
+    ausnuetzung]] + vollständiger Register-Sweep (`wiki/INDEX.md`, `buecher/INDEX.md`,
+    `training/curriculum.md`, `training/drills.md` — 3 Karten korrigiert, 2 neu). Beide Wiki-Artikel
+    + Destillat erhielten erstmals ein `verifiziert`-Frontmatter-Feld. 1 neuer needs-verification-
+    Flag (ÜZ-«Unterniveaubauten»-Neuregelung am § 256-PBG-Wortlaut nicht wörtlich bestätigt — evtl.
+    Buchkommentar). **0 Halluzinationen.** Report `outputs/2026-07-25_buch-run55.md`. **Nächster
+    Schritt:** [[zonenkonformitaet]] (last_updated 2026-06-02, ausschliesslich Buch-/BZO-Quellen
+    ohne PBG-§-Beleg, ältester ungeprüfter Bestand) als nächster Priorität-(c)-Kandidat.
   - **Run 54 (2026-07-25, Festigungsmodus, Fortsetzung Fassungsstand-Check + PPV-Primärquelle
     gefunden — kein Agent-Fan-out):** Fortsetzung Priorität (b) aus Run 53: **EnerG (LS 730.1)
     und WsG/WsV (LS 724.1/724.11) live gegen zhlex geprüft — beide ohne Drift** (EnerG weiterhin
