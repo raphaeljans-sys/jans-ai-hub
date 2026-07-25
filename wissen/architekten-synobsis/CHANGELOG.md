@@ -4,6 +4,16 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-07-25 — Batch-Lauf (leer, 13. Mal in Folge) + Vektorindex neu (Mac Mini)
+Batch 25, 02:18–02:19. Stufe 1 ohne neuen Stoff (853/853, offen 0, Stand unveraendert
+2026-07-02). Stufe 2 hat `catalog/vectors.npz` deterministisch neu gebaut (853 × 768,
+`intfloat/multilingual-e5-base`); Semantiksuche per Stichprobe intakt ("introvertierter
+Hof Beton Kapelle", Top-Treffer ~0.85, u.a. Sauerbruch Hutton). Kollisionsschutz (260724):
+keine Zweitinstanz (`ps` = 0). Quelle gegengeprueft: 854 Top-Level (853 + 00_Organisation),
+juengste Aenderung `HdM` 2026-04-07, kein neues Rohmaterial. Dreizehnter ergebnisloser
+Nachtlauf in Folge — Empfehlung zum 13. Mal: Task `synobsis-batch-nacht` pausieren/
+herabtakten (Endbedingung erreicht). Protokoll: `outputs/2026-07-25_batch-lauf.md`.
+
 ## 2026-07-24 — Nachtschicht Mac Mini 08:30: Wiki-Artikel RAUMTYPOLOGIEN + QUESTIONS-Punkt geschlossen
 Dispatch-Prioritaet 5 (offene QUESTIONS.md recherchieren/kompilieren): Stufe-2-Embeddings
 bereits vollstaendig (853/853 seit 02:18, siehe Eintrag darunter — Status-Check hier hat nur
