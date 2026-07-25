@@ -169,9 +169,13 @@ Plausibilitaetstest, ob ein Ingenieur-Resultat "in der richtigen Groessenordnung
 Ordner `PL - 04 Energie/U Wert berechnung/` — bisher nur teilweise erschlossen (nur CLT-Waermeschutz-
 Kapitel, E13). Vier weitere Dateien ausgewertet:
 
-**EN-102-d «Waermeschutz von Gebaeuden», Vollzugshilfe Dez. 2018 (Basis SIA 380/1:2009), EnFK/
+**EN-102-d «Waermeschutz von Gebaeuden», Vollzugshilfe Dez. 2018 (Basis SIA 380/1:2016), EnFK/
 AG MuKEn** — konkretisiert SIA 380/1 fuer den behoerdlichen Vollzug (interkantonal harmonisiert,
-nicht ZH-spezifisch). Delta zur bestehenden Grenzwerttabelle: (a) **separate Umbau/Umnutzung-
+nicht ZH-spezifisch). *(Korrektur Wissens-Chef Run 15, 25.07.2026: hier stand bis dahin «Basis
+SIA 380/1:2009». Der SharePoint-Dateiname `EN-102-d_Waermeschutz_3801_2009_2018Dez.pdf` ist
+irrefuehrend — die Kopfzeile jeder Seite des PDF nennt «Ausgabe Dezember 2018 (Basis: Norm
+SIA 380/1, Ausgabe 2016)». Fuehrend fuer diese Vollzugshilfe ist die KB `wissen/energie`:
+`destillate/enfk-en-102-waermeschutz-2018.md`.)* Delta zur bestehenden Grenzwerttabelle: (a) **separate Umbau/Umnutzung-
 Grenzwerte** (opake Bauteile 0.25 statt 0.17 W/m²K Neubau; Systemnachweis 1.5-facher Neubau-
 Grenzwert), bisher nicht erfasst; (b) **Waermebruecken-Grenzwerte** Typ 1/2/3/5/6 (Ψ-/χ-Werte);
 (c) **Kapitel 8 Sommerlicher Waermeschutz** (g-Wert-Diagramme nach Orientierung, Windwiderstands-

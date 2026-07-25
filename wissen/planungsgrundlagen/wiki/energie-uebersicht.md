@@ -30,7 +30,8 @@ Feuerwehr ≥30 kW, Hagel/Schnee SIA 261); Bauteil-Klassen → Skill `brandschut
 Grenzwerte, Q_H und Bauteilkatalog liegen **belegt in der KB `wissen/energie/`** — nicht hier
 duplizieren:
 - U-Wert-Grenzwerte je Bauteil (Einzelbauteil- vs. Systemnachweis) → `[[u-werte-grenzwerte-ch]]`
-  (Neubau opak 0,17 · Fenster 1,0 W/m²K usw., EnFK EN-102 2018 / SIA 380/1:2009).
+  (Neubau opak 0,17 · Fenster 1,0 W/m²K usw., EnFK EN-102 2018 / SIA 380/1:2016 — Werte
+  unveraendert; Ausgabe korrigiert, Wissens-Chef Run 15 25.07.2026, PDF-Kopfzeile).
 - Minergie-Standards → `[[minergie-standards]]`. Bauteilkatalog/Daemmstoffwahl, CLT/Holz
   (Stora Enso) → PL-04/`U Wert berechnung`. Reales Minergie-A-Referenzprojekt (Holzbau,
   Geschosswohnungsbau, PV-integriert + Erdwaermesonde, kompakte Grundrisse) → eigener Artikel

@@ -1,7 +1,7 @@
 ---
 title: Werkleitungskataster — Strom/Kommunikation-Planauskunft (EKZ, Swisscom, Sunrise-UPC) + Wasser/Gas/Kanalisation SZ (EW Lachen AG)
 status: emerging
-last_updated: 2026-07-14
+last_updated: 2026-07-25
 sources:
   - EKZ Einsiedeln AG — Merkblatt zur einmaligen Datenabgabe (Planauskunft 1428968, 27.11.2023,
     reale JANS-Bestellung Reckholdernstrasse 20 Willerzell)
@@ -158,4 +158,17 @@ Sinn), wird aber hier dokumentiert, weil er im selben SharePoint-Ordner und Best
 Querbezug zu [[recht-norm-abstandsvorschriften-wald-gewaesser]] (Gewaesserraum-Einleitung) und
 zu einer kuenftigen SIA-Normen-Sammelstelle fuer Entwaesserung. Status `emerging`: ein einzelner,
 aber vollstaendig dokumentierter realer Fall (Bezirk Einsiedeln), nicht auf andere SZ-Gemeinden
+
+**Ergaenzung Run 61 (2026-07-25):** neben dem E-Mail-Bezugsweg EW Lachen AG fuehrt das
+**Bezirks-GIS `gis.bezirkeinsiedeln.ch`** (siehe [[kartenportale-geoportale-uebersicht]]
+§Bezirk-Ebene) unter dem Druckprodukt «Infrastruktur» einen eigenen, sofort als PDF ausdruckbaren
+**«Leitungskataster Gde»** mit 7-Sparten-Legende (Abwasser/Kabelkommunikation/Wasser/Gas/
+Elektrizitaet/Oeffentliche Beleuchtung/Fernwaerme) — ein schneller, unverbindlicher Erstueberblick
+ohne Bestellung/Wartezeit («Fuer die Richtigkeit und Aktualitaet der Daten wird keine Garantie
+uebernommen»). **Ausdruecklich getrennt davon:** das kommunale White-Label-Portal `geoportal.ch`
+(Betreiber GEOINFO Applications AG, Service Desk 058 580 40 60) fuehrt **keinen** Leitungskataster
+fuer Einsiedeln und verweist bei Anfragen direkt auf EW Lachen AG — beide Portale liegen zwar im
+selben SharePoint-Projektordner, sind aber technisch unabhaengige Systeme. Fuer die Baueingabe
+bleibt die betreiberspezifische Auskunft (EKZ/Swisscom/EW Lachen) massgebend; das Bezirks-GIS-
+Druckprodukt eignet sich nur fuer eine erste Groborientierung.
 verifiziert.

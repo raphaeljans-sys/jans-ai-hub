@@ -20,14 +20,38 @@ dokumentiert sind — dieser Artikel liefert das dazugehoerige **Verfahren**
 
 ## A) Richtlinie Regenwasserentsorgung (AWEL, VSA-basiert)
 
+> ⚠ **Ausgaben-Vorbehalt (Wissens-Chef Run 15, 25.07.2026).** Teil A ist aus der Ausgabe
+> 2005 / V2.2 Maerz 2006 destilliert («Richtlinie und Praxishilfe **Regenwasserentsorgung**»).
+> Die Richtlinie wurde umbenannt und neu aufgelegt: AWEL «**Regenwasserbewirtschaftung** —
+> Richtlinie und Praxishilfe»; die konsolidierte **BBV I (LS 700.21)** fuehrt im Anhang der
+> anerkannten Regeln der Baukunde, Abschnitt Abwasserentsorgung, die **Ausgabe 2025**.
+> Die Grundsaetze (Art. 7 GSchG, Zonen S1/S2/S3, verschmutzt/nicht verschmutzt, Zustaendigkeit)
+> sind unveraendert; die **aktuellen Bewilligungs-Schwellen** (Flaechenverhaeltnis > 5:1,
+> Bagatell 20 m², Adsorberpflicht unbeschichtete Metalle) stehen in
+> [[energie-baueingabe-zusatzformulare]] bzw. in KB `wissen/energie`
+> → `wiki/regenwasserbewirtschaftung-versickerung-zh.md` (Datenstand 2026-06-23).
+> Vor Zitat in Kundenberatung die Ausgabe 2025 beiziehen.
+
 ### Grundsatz und Zustaendigkeit
-Nach **Art. 7 GSchG** muss nicht verschmutztes Regenwasser **nicht**
-versickert werden — aber: **Versickerung ueber bewachsenen Boden ist der
-Versickerung in einer unterirdischen Anlage grundsaetzlich vorzuziehen**. Ist
-Versickerung nicht moeglich, kann Regenwasser — wo noetig mit
-Rueckhaltemassnahmen (Retention) — in ein Gewaesser eingeleitet werden. Ist
-weder Versickerung noch Einleitung moeglich/zweckmaessig, kann eine Ableitung
-zur ARA (Abwasserreinigungsanlage) erforderlich werden.
+Nach **Art. 7 Abs. 2 GSchG** ist nicht verschmutztes Abwasser (und damit
+Regenwasser von Daechern, Wegen und Plaetzen) **nach den Anordnungen der
+kantonalen Behoerde versickern zu lassen**; dabei ist die **Versickerung ueber
+bewachsenen Boden der Versickerung in einer unterirdischen Anlage
+grundsaetzlich vorzuziehen**. Erlauben die oertlichen Verhaeltnisse die
+Versickerung nicht, kann das Wasser — nach Moeglichkeit mit
+Rueckhaltemassnahmen (Retention) — in ein oberirdisches Gewaesser eingeleitet
+werden. Ist weder Versickerung noch Einleitung moeglich/zweckmaessig, kann eine
+Ableitung zur ARA (Abwasserreinigungsanlage) erforderlich werden.
+
+> *Korrektur Wissens-Chef Run 15 (25.07.2026):* hier stand bis dahin, nicht
+> verschmutztes Regenwasser muesse **nicht** versickert werden. Das kehrt die
+> gesetzliche Regel um. Amtlich verifiziert an Art. 7 Abs. 2 GSchG (SR 814.20,
+> Fedlex-Konsolidierung 01.02.2023, Fassung seit 01.06.2008) — Versickerung ist
+> der gesetzliche Regelfall, Einleitung und ARA-Ableitung sind die Ausnahmen der
+> Kaskade. Deckungsgleich mit KB `wissen/energie`
+> → [[regenwasserbewirtschaftung-versickerung-zh]] («Regenwasser von Dach und
+> befestigten Flaechen versickert auf der Parzelle»), die dort auch die
+> aktuellen Bewilligungs-Schwellen fuehrt.
 
 - In **Grundwasserschutzzonen S1/S2** sowie **Grundwasserschutzarealen** ist
   Versickerung von Abwasser **grundsaetzlich verboten**.
@@ -208,7 +232,8 @@ angrenzende Grünfläche).
 3. Machbarkeitsprüfung: Zustandsplan/Versickerungsfähigkeit des Bodens beim Gemeindebauamt oder
    bei Geologen konsultieren.
 4. Grünflächen ausscheiden, die für die Versickerung genutzt werden können.
-5. Entwässerungsprojekt erarbeiten gemäss **VSA-Richtlinie Regenwasserentsorgung** (= Teil A).
+5. Entwässerungsprojekt erarbeiten gemäss **VSA-Richtlinie «Abwasserbewirtschaftung bei
+   Regenwetter» (2019, Nachfolge der VSA-Richtlinie Regenwasserentsorgung 2002)** (= Teil A).
 
 **Hinweis auch für Wohn-/Bürobauten:** die Broschüre betont ausdrücklich, dass die Versickerung
 durch die belebte Bodenschicht **auch bei Wohn- und Bürobauten** die günstigste, effizienteste

@@ -47,9 +47,14 @@ skriptorientiertes Entwerfen durchsuchbar.
 ## Drei Zugangs-Achsen
 
 1. **By Architect** — klassisch: `catalog/<slug>.json` pro Architekt.
-2. **By Raumtypologie** — `catalog/typology-map.json`, 9 Typen aus "1 Selection":
-   Atomisierter / Fliessender / Grosser / Hybrider / Modularer / Narrativer /
-   Skulpturaler / Struktureller / Zentraler Raum.
+2. **By Raumtypologie** — `catalog/typology-map.json`, 9 Typen aus "1 Selection"
+   (Schluessel exakt wie im Quellordner, Teilstring-Filter in `--raumtyp`):
+   "Atomisierter Raum", "Fliessender Raum", "Grosse Halle", "Hybrider Raum",
+   "Modularer Raum", "Narrativer Raum", "Skulptularer Raum", "Struktureller Raum",
+   "Zentraler Raum". Achtung: "Skulptularer" ist ein Schreibfehler im read-only
+   Quellordner "1 Selection" und wird bewusst unveraendert uebernommen — die
+   orthografisch richtige Form "Skulpturaler" trifft den Filter NICHT; ebenso
+   heisst der Typ "Grosse Halle" (nicht "Grosser Raum").
 3. **By CAD** — `catalog/cad-index.json` + `catalog/cad-metadata.jsonl`:
    22'000+ DWG/DXF, 2'600 PLN, 180 3DM, 170 IFC.
 
