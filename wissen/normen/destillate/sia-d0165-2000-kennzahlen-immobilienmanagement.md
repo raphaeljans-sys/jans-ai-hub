@@ -1,126 +1,467 @@
 ---
-quelle: "PL - 02_Recht_Norm/02_Normen/SIA_Norm/SIA_Normen/alle/d 0165.pdf (Fragment, 5 S.; Vollversion 73 S. in xalt/SIA D0165_2000 Kennzahlen im Immobilienmanagement.pdf)"
-herausgeber: "SIA (Schweizerischer Ingenieur- und Architektenverein) gemeinsam mit SVIT (Schweizerischer Verband der Immobilien-Treuhänder); Mitträgerschaft USPI, KBOB, ETH-Rat, IPB, VIV, VZI, SHEV, BWO"
-ausgabe: "SIA D 0165, Juli 2000"
-gelesen: "Titelblatt + S. 14–17 der Publikation (5-seitiges Scan-Fragment; Vollversion 73 S. liegt in xalt vor, noch nicht destilliert)"
-datenstand: "Juli 2000"
-status: "Teil-Destillat (nur Fragment S. 14–17 gelesen, Rest der 73 Seiten offen)"
-last_updated: 2026-07-13
+quelle: "PL - 02_Recht_Norm/02_Normen/SIA_Norm/SIA_Normen/alle/xalt/SIA D0165_2000 Kennzahlen im Immobilienmanagement.pdf (Vollversion, 73 S., identisch mit xalt/neu/-Kopie, MD5 6bd3c2c6e10a92aec8f94278b3de3a77); Kurzfassung d 0165.pdf (5-S.-Fragment S.14-17) im Hauptordner ist dieselbe Ausgabe, nur Auszug"
+herausgeber: "SIA (Schweizerischer Ingenieur- und Architektenverein) unter Federführung der IPB (Interessengemeinschaft privater und professioneller Bauherren), gemeinsam mit SVIT (Schweizerischer Verband der Immobilien-Treuhänder); Mitträgerschaft VIV, USPI, SHEV, BWO, VZI, KBOB, ETH-Rat"
+ausgabe: "SIA D 0165, Juli 2000 (Copyright 2000 SIA Zürich, ISBN 3-908483-29-8); Druck Schwabe & Co. AG Muttenz, 2. Auflage 2000 Exemplare, 2002-06"
+gelesen: "Vollversion vollständig gelesen 260725 (Run 29, 4 parallele Lese-Agenten, PDF-Seiten 1-73 lückenlos); löst das bisherige 5-Seiten-Teil-Destillat (nur S.14-17) ab"
+datenstand: "Juli 2000 (einzige Ausgabe, kein Nachfolgestand im Bestand oder im Gesamtverzeichnis SIA bekannt)"
+status: "destilliert VOLLSTAENDIG (Verifikation ausstehend, siehe Run-29-Report)"
+last_updated: 2026-07-25
 links: [[sia-416-2003]], [[din-277-1-2005]], [[din-277-2-2005]], [[REGISTER]]
 ---
 
 # SIA D 0165:2000 — Kennzahlen im Immobilienmanagement
 
 ## Das Wichtigste in 3 Sätzen
-Gemeinsame SIA/SVIT-Dokumentation (Juli 2000), die ein einheitliches Begriffs- und
-Kennzahlensystem für das Immobilienmanagement definiert — von der Konstruktionsfläche
-über die Netto-Geschossfläche bis zu den vermietbaren/vermieteten Flächen. Das gelesene
-Fragment (S. 14–17 der 73-seitigen Publikation) deckt Abschnitt 3.1 "Flächen" und den
-Beginn von 3.1.2 "Mietflächen" ab; die Flächenhierarchie lehnt sich an DIN 277 an, ist
-aber um immobilienwirtschaftliche Vermietungs-Kennzahlen (VMF/VTF/LF) erweitert, die
-SIA 416 und DIN 277 nicht kennen. Es handelt sich um ein **Teil-Destillat**: nur 5 von
-73 Seiten des Originaldokuments liegen als Scan-Fragment vor und wurden gelesen.
+Gemeinsame Dokumentation von SIA und SVIT/USPI (Juli 2000, unter Federführung der IPB), die
+ein einheitliches, verbandsübergreifendes Kennzahlensystem für das Immobilienmanagement
+definiert: Flächen- und Volumenkennzahlen (Basis SIA 416 + DIN 277) sowie Kosten- und
+Mietkennzahlen (Basis Baukostenplan/EKG des CRB + DIN 18960 + GEFMA 200). Kernleistung ist
+ein durchgängiger Parameterbaum von der Grundstücksfläche bis zur vermietbaren
+Wohn-, Arbeits- und Gewerbefläche (VWAGF) sowie ein paralleler Kostenbaum von den
+Investitionskosten bis zu den Nettomietkosten, ergänzt um sechs explizit dokumentierte
+Abweichungen gegenüber SIA 416/DIN 277 (Anhang 3) und operative Bemessungsregeln für
+Grenzfälle wie Brüstungen, Dachschrägen und Treppenläufe (Anhang 5). Als "erste Version"
+(1) liegt der Schwerpunkt bewusst auf Flächen-/Kostenkennzahlen; Kauf-/Verkaufs- und
+Ertragskennzahlen waren für eine Folgeversion vorgesehen (nicht im Bestand nachweisbar).
 
 ## Geltungsbereich
-Immobilienmanagement/Facility-/Portfolio-Bewirtschaftung: einheitliche Definitionen für
-Flächen- und Vermietungs-Kennzahlen als Grundlage für Benchmarking, Reporting und
-Mietverträge. Kein bauordnungsrechtlicher Nachweis (dafür SIA 416).
+Immobilienmanagement/Facility- und Portfolio-Bewirtschaftung: einheitliche Definitionen für
+Flächen-, Volumen-, Kosten- und Mietkennzahlen als Grundlage für Benchmarking, internes/
+externes Controlling und Mietverträge. Adressiert die Funktionsträger-Rollen Planer, Bauherr,
+Portfolio-Manager, Vermieter, Projekt-Manager, Eigentümer, Bewirtschafter, Benutzer,
+Lieferant, Verwalter, Dienstleister, Betreiber, Kunde, Mieter (Abb. 1, S. 5, vollständige
+14-Knoten-Liste). Kein bauordnungsrechtlicher Nachweis (dafür SIA 416 direkt); SIA D 0165 baut
+auf SIA 416 auf, ergänzt sie aber um eine Vermietungs- und Kostenschicht, die SIA 416 selbst
+nicht kennt.
 
-## Kernziffern mit Fundstellen
+## 1 Einleitung (S. 4)
+Kennzahlen sind Informationsbasis für Führungsprozesse (Controlling, strategische Planung)
+und Grundlage für Benchmarking zwischen Organisationen — Voraussetzung dafür ist einheitliche
+Definition und Erhebungsgrundlage. Träger: IPB (Federführung), VIV, SIA, SVIT, USPI, SHEV,
+BWO, VZI, KBOB, ETH-Rat. Zweck: methodische/technische Grundlage für nachhaltiges Controlling
+von Gebäuden, Anlagen und Dienstleistungen im Rahmen eines Facility Managements. Anwender
+sollen aus dem Kennzahlen-Set gezielt selektieren (Aufwandsminimierung), nicht alles erheben.
+**Erste Version** mit Schwergewicht Kosten-/Flächenkennzahlen; geplante Erweiterung um
+Kauf-/Verkaufs-/Bewertungs- und Ertragskennzahlen.
 
-**Flächen-Hierarchie (S. 14, Abschnitt "Konstruktionsfläche KF" / "Nettogeschossfläche NGF"):**
-- **Konstruktionsfläche KF** (S. 14): Grundrissfläche der innerhalb der Geschossfläche GF
-  liegenden, umschliessenden und innenliegenden Konstruktionsbauteile (Aussen-/Innenwände,
-  Stützen, Brüstungen). Berechnung aus Fertigmassen in Fussbodenhöhe inkl. Putz/Bekleidung.
-  Einzuschliessen: lichte Querschnitte von Schächten/Kaminen/Installationskanälen
-  < 0.25 m², Tür-/Fensternischen, versetzbare raumabschliessende Trennwände. Auszuschliessen:
-  konstruktive/gestalterische Vor-/Rücksprünge an Aussenflächen (sofern NGF unbeeinflusst),
-  Fuss-/Sockelleisten, Schrammborde, vorstehende Fenster-/Türbekleidungsteile, Schrankwände
-  (letztere der jeweiligen Hauptnutzfläche zugeordnet). Formel: **KF = GF − NGF**;
-  KF = KFT (tragend) + KFN (nicht tragend).
-- **Nettogeschossfläche NGF** (S. 14): Teil der Geschossfläche GF zwischen den
-  umschliessenden/innenliegenden Konstruktionsbauteilen; lichte Masse der Räume in
-  Fussbodenhöhe ohne Fuss-/Sockelleisten/Schrammborde. Formel: **NGF = NF + FF + VF**
-  (Nutzfläche + Funktionsfläche + Verkehrsfläche).
-- **Funktionsfläche FF** (S. 15): Teil der NGF für die Unterbringung zentraler
-  betriebstechnischer Anlagen (Haustechnik). Dient die Anlage der Ver-/Entsorgung ANDERER
-  Bauwerke (z.B. Heizhaus), wird die Fläche stattdessen der Nutzfläche NF zugeordnet.
-- **Verkehrsfläche VF** (S. 15): Teil der NGF für Zugang zu Räumen, internen Verkehr und
-  Verlassen im Notfall. Einzuschliessen: Bewegungsflächen innerhalb von Räumen, die als
-  Fluchtwege gekennzeichnet sind. Auszuschliessen: interne Bewegungsflächen zwischen
-  Einrichtungsgegenständen. Flächen für Durchfahrt/Manövrieren von Fahrzeugen = eigene
-  Kategorie **Fahrzeugverkehrsfläche VF 9.4**.
-- **Nutzfläche NF** (S. 15): Teil der NGF, der der Nutzung des Bauwerks gemäss
-  Zweckbestimmung dient. Formel: **NF = HNF + NNF** (Hauptnutzfläche + Nebennutzfläche).
-- **Hauptnutzfläche HNF** (S. 16): dient der Zweckbestimmung/Nutzung des Gebäudes im
-  engeren Sinn. Gliederung nach DIN 277 in 6 Kategorien: HNF 1 Wohnen/Aufenthalt,
-  HNF 2 Büroarbeit, HNF 3 Produktion/Hand-/Maschinenarbeit/Experimente, HNF 4
-  Lagern/Verteilen/Verkaufen, HNF 5 Bildung/Unterricht/Kultur, HNF 6 Heilen/Pflegen.
-  Zuordnung von Mischgebäuden nach dem grössten Flächenanteil. HNF 2 "Büroarbeit" umfasst
-  auch Besprechungsräume, Konstruktionsräume (Zeichenräume), Schalterräume, Bedien-/
-  Aufsichtsräume, Bürotechnikräume, Rechenzentren.
-- **Nebennutzfläche NNF** (S. 16): ergänzt die HNF zur Nutzfläche NF. Flächen zum Parkieren
-  von Fahrzeugen = eigene Kategorie **Fahrzeugabstellfläche NNF 7.4**.
+## 2 Kennzahlen (S. 5-11)
+Zwei Kategorien: (1) Flächen- und Volumenkennzahlen — geometrische Grössenverhältnisse/
+Nutzungsgrad; (2) Kostenkennzahlen — Prozesskosten/finanzielle Führung. Fokus liegt auf der
+**Ist-Situation** (messbar, Basis für Benchmarks und Zielgrössen-Planung).
 
-**Mietflächen, Abschnitt 3.1.2 (S. 16–17):**
-- **Vermietbare Fläche VMF** (S. 16): die effektiv vermietbare Fläche. Formel:
-  **VMF = GF + AGF − KFT − NNF_allg − FF_allg − VF_allg − AGF_allg** (AGF =
-  Aussengeschossfläche). Allgemeine Nebennutz-/Funktions-/Verkehrs-/Aussengeschossflächen
-  sind für die Gebäudenutzung unabdingbar und nicht vermietbar; Beispiele allg.
-  Nebennutzflächen: Luftschutzräume (sofern nicht als Keller genutzt), Hausdienst-/
-  Abwartsräume, Fahrrad-/Müllsammelräume. Beispiele allg. Funktionsflächen: allgemeine
-  technische Räume, Schächte für zentrale Haustechnik, Heiz-/Tankräume, Ver-/
-  Entsorgungsschächte/Kamine. Beispiele allg. Verkehrsflächen (S. 17): Eingangsbereiche,
-  Fluchtwege, Treppen/Lifte der allgemeinen Gebäudeerschliessung. Beispiele allg.
-  Aussennutzflächen: Laubengänge, äussere Nottreppen.
-- **VMF = VWAGF + ZF** (S. 17): vermietbare Fläche = vermietbare Wohn-/Arbeits-/
-  Gewerbefläche + Zuschlagsfläche.
-- **Vermietbare Fläche\* VMF\*** (S. 17): VMF abzüglich Anteil Fahrzeugverkehrsfläche
-  VF 9.4 und Anteil Fahrzeugabstellfläche NNF 7.4 (Sternchen-Varianten klammern
-  Fahrzeugflächen konsequent aus).
-- **Vermietete Fläche VTF** (S. 17): Teil der vermietbaren Fläche, der effektiv vermietet
-  ist (vermieteter Teil VWAGF + zugehöriger anteiliger Zuschlagsfläche ZF). Sternchen-
-  Variante VTF\* analog ohne Fahrzeugflächen.
-- **Leerstandsfläche LF** (S. 17): Teil der vermietbaren Fläche, der NICHT vermietet ist
-  bzw. für den kein Mietvertrag vorliegt (nicht vermieteter Teil VWAGF + anteilige ZF).
-  Sternchen-Variante LF\* analog ohne Fahrzeugflächen.
-- **Vermietbare Wohn-, Arbeits- und Gewerbefläche VWAGF** (S. 17): Teil der VMF, der von
-  einer Mieteinheit für einen bestimmten Zweck genutzt wird — die Fläche, die von den
-  "Vermietern" ausgeschrieben wird. Einzuschliessen: belegte Flächen für mieterseitige
-  Einbauten (Klimageräte, eigene Treppenhäuser, Aktenlifte) inkl. zugehöriger
-  Konstruktionsfläche. Gliedert sich in:
-  - **Eigenmietfläche EMF**: vom Eigentümer selbst genutzter Teil der VWAGF.
-  - **Drittmietfläche DMF**: vom Eigentümer an Dritte weitervermieteter Teil der VWAGF.
+### 2.1 Flächen- und Volumenkennzahlen (S. 6-7)
+**Gebäudeflächen** (Kennzahl = Zähler/Nenner, Einheit %, ausser vermerkt):
+NF/GF · NF/(FF+VF) · HNF/GF · HNF2/GF · HNF2/API(HNF2) [m²/Stk.] · HNF2/VZÄ [m²/VZÄ] ·
+NNF/GF · FF/GF · VF/GF · NGF/GF · GF¹/GSF (Ausnützungsziffer) · BM²/GSF [m³/m²]
+(Baumassenziffer). ¹/² Für Ausnützungs-/Baumassenziffer gilt kantonales/kommunales Recht,
+nicht diese Dokumentation — **wichtige Abgrenzung**: SIA D 0165 definiert die Kennzahl-Formel,
+nicht deren Grenzwert.
 
-## Begriffe (Kurzglossar aus dem Fragment)
-- GF = Geschossfläche (Bezugsgrösse, im Fragment selbst nicht definiert — vermutlich in
-  vorangehenden, nicht gelesenen Seiten des Originals)
-- AGF = Aussengeschossfläche
-- KFT / KFN = Konstruktionsfläche tragend / nicht tragend
-- ZF = Zuschlagsfläche (im Fragment nicht näher definiert, nur in Formel VMF = VWAGF + ZF
-  verwendet — offene Frage)
+**Mietflächen**: VMF/GF · VMF\*/GF\* · VTF/VMF · VTF\*/VMF\* · VWAGF/GF · VWAGF/VMF ·
+VWAGF\*/GF\* · VWAGF\*/VMF\* · ZF\*/GF\* · ZF\*/VMF\* · LF\*/VMF\* (alle %; `*` = ohne Anteil
+Fahrzeugabstellflächen NNF 7.4 und Fahrzeugverkehrsflächen VF 9.4).
+
+### 2.2 Kostenkennzahlen (S. 8-11)
+**Investitionskosten**: IK/APG [CHF/Stk.] · IK/HNF, IK/GF [CHF/m²].
+**Bau-/Honorarkosten**: BauK/APG [CHF/Stk.] · BauK/GF [CHF/m²] · BKP2/GV [CHF/m³] ·
+HK3/BauK [%].
+**Mietkosten**: Brutto BMK(v.A.)/VWAGF, BMK(v.A.)/GF [CHF/m²], BMK(v.A.)/APG [CHF/Stk.];
+Netto NMK/BMK(v.A.) [%]; Nebenkosten NK/BMK(v.A.+R.) [%], NK/VMF\*, NK/VMF [CHF/m²].
+**Betriebskosten**: BK/API [CHF/Stk.] · BK/NGF, BK/HNF [CHF/m²].
+**Ver-/Entsorgung**: EV/EBF [MJ/m²] (Energiekennzahl gem. SIA 380/1) · EK/VZÄ [CHF/VZÄ] ·
+AM/VZÄ [kg/VZÄ].
+**Reinigung/Pflege**: GRK/HNF, GRK/VTF [CHF/m²].
+**Erhaltungskosten** (BK = Baukonstruktion, TA = techn. Anlagen, getrennt auszuweisen):
+ÜUK/AW, ÜUK/VW, ÜUK/NW [%] · ÜUK/GF, ÜUK/VTF [CHF/m²] · ÜUKF/ÜUKE [%] · UHK/GF [CHF/m²] ·
+UHK(BK)/NW, UHK(TA)/NW [%] · ÜK/GF [CHF/m²] · ÜK(BK)/ÜUK(BK), ÜK(TA)/ÜUK(TA) [%] ·
+IHK/GF [CHF/m²] · IHK(BK)/ÜUK(BK), IHK(TA)/ÜUK(TA) [%] · ISK(BK)/ÜUK(BK), ISK(TA)/ÜUK(TA) [%].
+**Sicherheit**: SK/GF, SK/VMF [CHF/m²]. **Umzug**: UZK/API [CHF/Stk.] · AZU/API [Anz./Stk.].
+**Folgekosten**: FK/BauK [%].
+
+## 3 Parameter (Definitionen, S. 12-28)
+
+Grundregeln (S. 12): Flächenberechnung je Bauwerk getrennt (auch bei mehreren Bauwerken auf
+einem Grundstück); waagrechte Flächen nach tatsächlichem Mass, schräge nach senkrechter
+Projektion (Ausnahme Treppenläufe, Anhang 5); Aufzugsschächte und begehbare Installationsschächte in jeder
+durchquerten Grundrissebene berechnet; mehrfach genutzte Flächen der überwiegenden
+Nutzungsart zugeordnet (Bsp. Eingangshalle trotz Ausstellungsnutzung = Verkehrsfläche);
+gesondert ausgewiesene Teilflächen eines Raumes ihrer eigenen Nutzungsart zugeordnet (Bsp.
+Garderobe in Eingangshalle = Nebennutzfläche).
+
+### 3.1 Flächen- und Volumenparameter
+
+**3.1.1 Flächen nach SIA 416 und DIN 416/DIN 277** (Gliederung stützt sich auf SIA 416,
+Nutzungsarten-Zuordnung auf DIN 277; Begriff "Geschossfläche" gem. SIA 416 statt "Grundfläche"
+gem. DIN 277):
+
+- **Grundstücksfläche GSF** (Art. 655 ZGB): `GSF = GGF + UF`
+- **Gebäudegrundfläche GGF**: von Gebäuden/Gebäudeteilen durchdrungener Teil der GSF.
+- **Umgebungsfläche UF**: nicht durchdrungener Teil; `UF = BUF + UUF` (bearbeitet/unbearbeitet).
+  Flächen über ganz/teilweise im Erdreich liegenden Bauten gelten als UF, sofern bepflanzt/
+  begangen/befahren und mit Terrain verbunden.
+- **Aussengeschossfläche AGF**: genutzte Grundrissfläche ausserhalb der allseitig
+  umschlossenen/überdeckten GF — Balkone, Terrassen, offene Parkgaragen, Dachzinnen/-gärten,
+  Aussentreppen (sofern nicht in direkter Verbindung zur Umgebungsfläche, sonst → UF).
+- **Geschossfläche GF**: allseitig umschlossene/überdeckte Grundrissfläche der zugänglichen
+  Geschosse inkl. Konstruktionsflächen; äussere Masse inkl. Bekleidung/Aussenputz in
+  Fussbodenhöhe; Vor-/Rücksprünge unberücksichtigt. Ausgeschlossen: Hohlräume unter dem
+  untersten zugänglichen Geschoss, nicht zugängliche Hohlräume von Konstruktionen,
+  Installationsgeschosse < 1.0 m lichte Höhe. `GF = NGF + KF`.
+- **Geschossfläche\* GF\***: `GF* = GF − VF 9.4 − NNF 7.4`.
+- **Konstruktionsfläche KF** (= Konstruktions-Grundfläche DIN 277): Grundrissfläche
+  umschliessender/innenliegender Bauteile (Aussen-/Innenwände, Stützen, Brüstungen); Fertigmasse
+  in Fussbodenhöhe inkl. Putz/Bekleidung. Einzuschliessen: lichte Schacht-/Kamin-/
+  Installationskanal-Querschnitte < 0.25 m², Tür-/Fensternischen, raumabschliessende versetzbare
+  Trennwände. Auszuschliessen: gestalterische Vor-/Rücksprünge (sofern NGF unbeeinflusst),
+  Fuss-/Sockelleisten, Schrammborde, vorstehende Fenster-/Türbekleidungen, Schrankwände
+  (→ jeweilige HNF). `KF = GF − NGF = KFT + KFN` (tragend/nicht tragend).
+- **Nettogeschossfläche NGF**: lichte Raummasse in Fussbodenhöhe ohne Fuss-/Sockelleisten.
+  `NGF = NF + FF + VF`.
+- **Funktionsfläche FF**: Teil der NGF für zentrale betriebstechnische Anlagen (Haustechnik);
+  dient die Anlage der Ver-/Entsorgung ANDERER Bauwerke (z.B. Heizhaus), zählt die Fläche zur NF.
+- **Verkehrsfläche VF**: Teil der NGF für Zugang/internen Verkehr/Notfall-Verlassen. Ein:
+  als Fluchtweg gekennzeichnete Bewegungsflächen. Aus: interne Gänge zwischen Einrichtungen.
+  Durchfahrt/Manövrieren von Fahrzeugen = eigene Kategorie **VF 9.4**.
+- **Nutzfläche NF**: `NF = HNF + NNF`.
+- **Hauptnutzfläche HNF**: dient der Zweckbestimmung im engeren Sinn; 6 Kategorien nach DIN 277
+  (HNF1 Wohnen/Aufenthalt, HNF2 Büroarbeit, HNF3 Produktion/Hand-/Maschinenarbeit/Experimente,
+  HNF4 Lagern/Verteilen/Verkaufen, HNF5 Bildung/Unterricht/Kultur, HNF6 Heilen/Pflegen);
+  Mischgebäude nach grösstem Flächenanteil zugeordnet. HNF2 umfasst auch Besprechungs-,
+  Konstruktions-/Zeichen-, Schalter-, Bedienungs-, Aufsichts-, Bürotechnikräume, Rechenzentren.
+- **Nebennutzfläche NNF**: ergänzt HNF zur NF; Fahrzeugparkieren = **NNF 7.4**.
+
+**Mietflächen (3.1.2)**:
+- **Vermietbare Fläche VMF**: `VMF = GF + AGF − KFT − NNFallg − FFallg − VFallg − AGFallg`
+  = `VWAGF + ZF`. Allg. Nebennutz-/Funktions-/Verkehrs-/Aussenflächen sind für die Gebäude-
+  nutzung unabdingbar, nicht vermietbar (Bsp. NNF: Luftschutzräume sofern nicht Keller genutzt,
+  Hausdienst-/Abwartsräume, Fahrrad-/Müllsammelräume; Bsp. FF: allg. technische Räume, Schächte
+  zentrale Haustechnik, Heiz-/Tankräume, Ver-/Entsorgungsschächte/Kamine; Bsp. VF: Eingangs-
+  bereiche, Fluchtwege, Treppen/Lifte der allg. Gebäudeerschliessung; Bsp. AGF: Laubengänge,
+  äussere Nottreppen).
+- **VMF\***: `VMF* = VMF − Anteil VF 9.4 − Anteil NNF 7.4`.
+- **Vermietete Fläche VTF**: effektiv vermieteter Teil der VMF (vermieteter VWAGF-Teil + anteil.
+  ZF); **VTF\*** analog ohne Fahrzeugflächen.
+- **Leerstandsfläche LF**: nicht vermieteter/vertragsloser Teil der VMF; **LF\*** analog.
+- **Vermietbare Wohn-, Arbeits- und Gewerbefläche VWAGF**: von einer Mieteinheit für einen
+  Zweck genutzter VMF-Teil (die ausgeschriebene Fläche); ein: mieterseitige Einbauten
+  (Klimageräte, eigene Treppenhäuser, Aktenlifte) inkl. zugehöriger KF. Gliedert sich in
+  **Eigenmietfläche EMF** (Eigennutzung) und **Drittmietfläche DMF** (an Dritte vermietet).
+- **Zuschlagsfläche ZF**: gemeinschaftlich genutzter, anteilig verrechneter Teil der
+  vermietbaren NNF/FF/VF/AGF (Bsp.: von mehreren Mietern genutzte Flure/Sanitärräume/
+  Balkone/Terrassen). Exklusiv genutzte Flächen → VWAGF statt ZF. **ZF\*** analog ohne
+  Fahrzeugflächen.
+
+**3.1.3 Spezielle Flächenparameter**:
+- **Energiebezugsfläche EBF** (Quelle SIA 180/4): Summe aller ober- und unterirdischen
+  Geschossflächen, für deren Nutzung ein Beheizen oder Klimatisieren notwendig ist; äussere
+  Abmessungen inkl. Wänden/Brüstungen. Ein: Treppenhäuser/Korridore
+  (falls gegen Aussenluft abgeschlossen), Schlafzimmer, übrige Wohnräume. Aus: Wasch-/
+  Trockenräume, Heiz-/Maschinenräume (Lift/Lüftung/Klima), Brennstofflager, Einstellräume/
+  Garagen, Dach-/UG-Abstellräume, Laubengänge/Durchgänge, Terrassen/Balkone.
+
+**3.1.4 Volumen**:
+- **Gebäudevolumen GV**: aus den Flächen dieser Dokumentation + Höhen, OHNE Zu-/Abschläge
+  (im Unterschied zur kubischen Berechnung nach **SIA 116**). Bezugsfläche stets angeben,
+  z.B. `GV(GF)`.
+
+### 3.2 Kostenparameter (Basis: Baukostenplan BKP/EKG des CRB + DIN 18960; Vollkosten inkl.
+MWST; Erhaltungskosten für Baukonstruktion/Haustechnik getrennt zu ermitteln)
+
+**3.2.1 Kosten von Baumassnahmen**:
+- **Investitionskosten IK**: Baukosten + Grundstückskosten, gegliedert nach BKP 0-9 (CRB,
+  SN 506 500) oder EKG A-Z (CRB, SN 506 502). **Hinweis**: diese BKP-Struktur (Stand 2000, BKP 0-9 mit BKP 6-8 als "Reserve", Honorare
+  pauschal auf BKP 1-9 bzw. EKG-Element W ohne W0 ausgewiesen, keine weitere Subgliederung im
+  Original sichtbar) ist die **historische CRB-Fassung Jahr 2000** — für aktuelle
+  JANS-Outputs bleibt die **BKP-2017-Liste** massgeblich (Rule `bkp-2017-referenz.md`);
+  nicht unbesehen übernehmen.
+- **Baukosten BauK**: Realisierungskosten inkl. Honorare, BKP 1-9 bzw. EKG B-Z (ohne W0).
+- **Honorarkosten HK**: Planungsleistungen in direktem Baubezug, pauschal BKP 1-9/EKG W (ohne
+  W0). **HK3** = Honorare Phase 3-5 des **SIA-Leistungsmodells (Entwurf Juni 2000)** mit den
+  6 Phasen: 1 Strategische Planung, 2 Vorstudien, 3 Projektierung, 4 Ausschreibung,
+  5 Realisierung, 6 Bewirtschaftung.
+
+**3.2.2 Kosten der Nutzungsphase**:
+- **Bruttomietkosten BMK** (OR Art. 253 ff.): gesamtes Mieter-Entgelt. Nach DIN 18960:
+  `Kapitalkosten + Verwaltungskosten + Betriebskosten + Instandsetzungskosten = BMK_VA
+  (vor Abschreibung/Rückstellung) + Abschreibungen + Rückstellungen = BMK_NA`.
+  BMK_VA entspricht den "Nutzungskosten für Hochbauten" nach DIN 18960.
+- **Betriebskosten BK** (DIN 18960): Ver-/Entsorgung; Reinigung/Pflege; Bedienung techn.
+  Anlagen; Inspektion/Wartung; Kontroll-/Sicherheitsdienste; Abgaben/Beiträge (inkl. Steuern);
+  Sonstiges (Hausmeister, Verkehrs-/Grünflächenpflege).
+  - **Entsorgungskosten EK** (DIN 18960 Nr. 318): Personal/Geräteamortisation/Verarbeitung/
+    externe Anlieferung der Abfallmenge AM.
+  - **Gebäudereinigungskosten GRK** (DIN 18960 Nr. 321-324+327): Innen-/Fenster-/
+    Fassadenreinigung allg. Verkehrs-/Funktions-/Nebennutzflächen. Aus: Reinigung
+    VWAGF/ZF innerhalb Mieteinheiten, techn. Reinigung Haustechnik (Nr. 325+326),
+    Umgebungsreinigung (Nr. 328).
+  - **Sicherheitskosten SK** (Sicherheitsjahrbuch 97/98): Security (Schutz vor böswilligen
+    Personen-Handlungen) + Safety (Schutz vor unbeabsichtigten menschl./techn. Ereignissen).
+  - **Überwachungskosten ÜK** (Basis SIA 469): Ist-Zustands-Feststellung (= Inspektion
+    DIN 18960), getrennt ÜK_BK/ÜK_TA.
+  - **Instandhaltungskosten IHK** (Basis SIA 469): Sollzustands-Bewahrung (= Wartung
+    DIN 18960), getrennt IHK_BK/IHK_TA.
+  - **ÜIHK** = `ÜK + IHK` (entspricht Inspektion+Wartung DIN 18960), getrennt BK/TA.
+  - **Instandsetzungskosten ISK** (DIN 18960 + SIA 469): Soll-Wiederherstellung; bei
+    neubau-vergleichbarem Zustand = Erneuerungskosten. Getrennt ISK_BK/ISK_TA.
+  - **Unterhaltskosten UHK** (SIA 469 + DIN 18960): `UHK = IHK + ISK`, getrennt BK/TA.
+  - **Überwachungs- und Unterhaltskosten ÜUK**: `ÜUK = ÜK + IHK + ISK`; **ÜUKF**
+    (Fremdleistung externer Fachleute) / **ÜUKE** (Eigenleistung firmenintern).
+  - **Umzugskosten UZK**: Planung (Belegung, Büro-/Einrichtungsplanung, Termine, Budget,
+    Umzugsliste) + Ausführung (Material, Transport, IT/Telefon, QS, Adresskorrektur,
+    Umzugsreinigung) + Dokumenten-Aktualisierung (Revisionspläne, Inventare, Belegung IST).
+  - **Folgekosten FK**: künftige Kosten aufgrund einer Baumassnahme = geplante BMK.
+  - **Nettomietkosten NMK**: `NMK = BMK − NK`; Grundkosten (nicht kostenstellen-umlegbar) vs.
+    Gebäudekosten (bauwerksgebunden, verrechenbar).
+  - **Nebenkosten NK** (Art. 257a OR): Vermieter-/Dritt-Leistungen im Gebrauchszusammenhang
+    (Nebenkostenfähig laut SVIT-Kommentar Mietrecht II: Heizung/Warmwasser, Treppenhaus-
+    reinigung/Hauswartung/Kehricht, Kabel-TV, Wasser/Abwasser, Garten/Schneeräumung,
+    Lift-/Waschmaschinen-Kontrolle, Lift-/Klima-Betriebskosten, Beleuchtung Gemeinschaftsräume;
+    NICHT nebenkostenfähig: Grundsteuern, Grundpfandzinsen, Gebäudeversicherung,
+    Anschlussgebühren, Trottoir-/Strassenbeiträge, Reparaturen/Ersatz). Gliedert sich in
+    Gebäudenebenkosten (Betrieb/Unterhalt, nach Kostenträger verteilbar) und Medienkosten
+    (verbrauchsabhängig).
+
+### 3.3 Spezielle Parameter (S. 27-28)
+- **Vollzeitäquivalent VZÄ**: Durchschnitt Mitarbeiterzahl Jahresanfang/-ende, Teilzeit
+  anteilig auf 100 % umgerechnet. Beispiel: 10×100%+4×80%+2×60% = VZÄ 14.4 (Anfang);
+  6×100%+4×80%+2×60% = VZÄ 10.4 (Ende) → Durchschnitt VZÄ 12.4.
+- **Arbeitsplatz AP**: genutzte Ausstattung, ggf. Mehrfachbelegung. **APT** (theoretisch
+  möglich), **API** (effektiv eingerichtet), **APG** (für einen Termin geplant).
+- **Anzahl Umzüge AZU**: Summe aller Umzüge einer Periode.
+- **Abfallmenge AM** (Quelle: Umweltberichterstattung von Finanzdienstleistern, VfU 1997):
+  Jahresmenge Wertstoffe (Glas/Papier/Karton/Holz unbehandelt, Biomüll/Kompost, Alu/Altmetall,
+  Styropor/Kunststoffe/Codekarten) + Problemmüll (Elektronikschrott, Leuchtstoffröhren/
+  Batterien, Altöl/Ölabscheider/Lösemittel, Schlämme/Farben/Lacke) + Restmüll (ohne Bauschutt).
+- **Endenergieverbrauch EV** (SIA 180/4): `EV = Σ B_i · H_u,i` (B_i = Jahresverbrauch
+  Energieträger i, H_u,i = unterer Heizwert). Heizwerte-Konstanten (Kap. 4.3, Tabelle 2 SIA
+  180/4 Anhang A1): Heizöl EL 42.7 MJ/kg; Heizöl schwer 40.2 MJ/kg; Flüssiggas 46 MJ/kg;
+  Elektrizität 3.6 MJ/kWh; Steinkohle/Koks 29.3 MJ/kg; Braunkohlebriketts 20 MJ/kg; Holz
+  lufttrocken (15% Feuchte) 15.5 MJ/kg; Holzschnitzel (30% Feuchte) 12.1 MJ/kg; Fernwärme
+  4.19 MJ/m³ je K Abkühlung.
+
+## 4 Berechnung der Parameter (S. 29-36)
+Reine **Berechnungsformulare** (Kaskaden-/Kontenschemata mit %-Eingabefeldern, keine
+zusätzlichen Definitionen gegenüber Kapitel 3): 4.1 Flächen-/Volumenparameter (Formular
+GF→KF→NGF→FF/VF→NF→HNF/NNF mit allen SIA-416-Subcodes FF8.x/VF9.x/NNF7.x/HNF1-6, sowie
+separates Mietflächen-Formular mit/ohne Sternchen bis LF/VTF/EMF/DMF); 4.2 Kostenparameter
+(Formular BKP/EKG → BauK/IK/HK/HK3; Formular Kapitalkosten→Verwaltungskosten→Betriebskosten→
+Instandsetzungskosten→BMK_VA→Abschreibungen/Rückstellungen→BMK_NA→Nebenkosten→NMK; separates
+ÜIHK/ÜUK-Formular); 4.3 Spezielle Parameter (EBF/EV-Formular mit den Heizwert-Faktoren aus
+3.3, exakt wie oben zitiert).
+
+## 5 Berechnungsbeispiele (S. 37-47)
+Zwei durchgerechnete **Illustrationsbeispiele aus dem Jahr 2000** — als reine Rechenmethodik-
+Demonstration zu lesen, NICHT als aktuelle Kostenbenchmark zu verwenden (24+ Jahre alt).
+
+**5.1 Büro- und Verwaltungsgebäude** (4-geschossig, Eigentümer=Bewirtschafter=Benutzer,
+17 Arbeitsplätze, Garage+Dachgeschoss+2 Büros an Dritte vermietet): GF 366.00 m², NGF
+288.45 m², HNF 222.30 m² (HNF2 Büro 170.59 m² = 76.7%), NF/GF 66.8%, HNF/GF 60.7%,
+HNF2/API 10.0 m²/Stk.; VMF\*/GF\* 66.4%, VWAGF/VMF\* 96.9%; BMK_VA/VWAGF 271 CHF/m²,
+BMK_VA/API 3'575 CHF/Stk., BMK_VA/GF\* 175 CHF/m².
+
+**5.2 Wohn- und Verwaltungsgebäude** (Schweizer Kleinstadt, EG+1.OG Dienstleistungsbetrieb,
+2./3.OG je 3-Zi-Wohnung, 3.OG-Wohnung leerstehend): GF 560.60 m², NGF 400.13 m², HNF
+246.98 m² (HNF1 Wohnen 57.9%/HNF2 Büro 42.1%); NGF/GF 71.3%, HNF/GF 44.1%; VMF/GF 54.8%,
+VWAGF/GF 52.2%; EBF 327.28 m², EV 92'460 MJ/a (nur Heizöl schwer), Energiekennzahl E
+282.51 MJ/(m²·a); BMK_VA/VWAGF 66 CHF/m², BMK_NA/VWAGF 199 CHF/m², BMK_NA/GF 104 CHF/m²;
+NK/BMK_VA 36.6%, NK/VMF 23 CHF/m²; BK/NGF 33 CHF/m², BK/HNF 53 CHF/m², BK/BMK_VA 67.8%;
+ÜIHK/BK 11.8%, ÜIHK/GF 3 CHF/m².
+
+## 6 Begriffe (Glossar, S. 48-49)
+- **Anlagewert AW**: Summe der ausgegebenen Franken für Erstellung zzgl. aktivierbarer
+  Aufwendungen, ohne Abschreibungen.
+- **Benchmark**: Referenzpunkt (Zielgrösse) zur Leistungsmessung/-beurteilung.
+- **Benchmarking**: Suche nach besten Praktiken zur Erzielung überlegener Leistung im
+  Konkurrenzvergleich; legt Zielgrössen UND den Weg dorthin fest.
+- **Benchmarkingprozess**: 3 Phasen — Definieren (Identifikation Untersuchungsgebiet/
+  Kriterien/Kennzahlen), Analyse (Ist-Erhebung, Zielableitung/Massnahmenplan), Umsetzung
+  und Controlling (Implementierung, laufendes Massnahmen-/Benchmark-Controlling).
+- **Bruttorendite** (Quelle: Handbuch der Liegenschaftsverwaltung SHEV): Verhältnis
+  Nettomietzinseinnahmen (Soll-Mietzinse ohne NK, ohne Zahlungsausfall-Korrektur) zu Anlagewert.
+- **Ertragswert EW** (Quelle: Schätzerhandbuch SVKG/SEK/SVIT): Kapitalisierung der
+  Mieterträge abzüglich üblicher Grundstückslasten.
+- **Immobilienmanagement**: Führung der Wertschöpfungsprozesse im Bau- und Immobilienwesen.
+- **Kennzahl**: elementarer Wert (z.B. BMK) oder Funktion von Werten (z.B. BMK/GF).
+- **Kennwert**: effektiver Wert der Kennzahl; bester Kennwert = Benchmark (Bsp. 25%).
+- **Neuwert NW**: Reproduktionskosten am gleichen Ort/Nutzung/Nutzfläche nach heutigen
+  Vorschriften (Energie) und Standards (Ausbau/Installation/Material).
+- **Parameter**: eindeutig definierte Masseinheit (z.B. HNF, Versorgungskosten); Bestandteil
+  oder eigenständige Kennzahl, liefert Anhaltspunkte zu Verteilung/Grössenordnung.
+- **Nettorendite** (Quelle: Handbuch Liegenschaftsverwaltung SHEV): prozentuales Verhältnis
+  zwischen Nettoertrag (**vor Steuern**) und investiertem Eigenkapital. Der Nettoertrag wird
+  aus dem Bruttoertrag (= Nettomietzinseinnahmen vermindert um allfällige Zahlungsausfälle)
+  abzüglich Zins-, Unterhalts-, Betriebs- und Verwaltungsaufwand berechnet, üblicherweise vor
+  Abschreibungen/Rückstellungen/Risikoprämie.
+- **Realwert RW** (Schätzerhandbuch SVKG/SEK/SVIT): Zeitwert aller baulichen Anlagen +
+  Vorbereitungs-/Umgebungsarbeiten/Baunebenkosten + Landwert.
+- **Verkehrswert VW** (Schätzerhandbuch SVKG/SEK/SVIT): marktvertretbarer Preis ohne
+  Rücksicht auf ungewöhnliche/persönliche Verhältnisse; wird unter Würdigung der
+  Wirtschaftlichkeit einer Liegenschaft im Verhältnis zu deren Anlagewert ermittelt und ist
+  daher abhängig von Ertrags- UND Realwert.
+
+## Anhang 1 — Flächenbaum (S. 49-50)
+Vollständiger Baum SIA 416 (links) ↔ DIN 277 (rechts), Kopfebene:
+`GSF → GGF (→ AGF*, GF (→ KF, NGF[→ NF(→HNF+NNF), FF, VF])); GSF → UF (→ BUF, UUF)`.
+(Der Split KF → KFT+KFN erscheint im Original NICHT in diesem Baum, sondern erst im
+Flächenbaum "Vermietbare Fläche" — siehe Anhang 4.) DIN-277-Hauptkategorien mit erster
+Subcode-Zeile: HNF1-6, NNF7, FF8, VF9, BUF10 (Letztere nicht Teil der DIN 277,
+SIA-D-0165-eigene Ergänzung, S. 56 Fussnote 44). Vollständige Subcode-Liste siehe Anhang 2
+unten (identisch, hier nur Baumstruktur).
+
+## Anhang 2 — Zuordnung der Flächen SIA 416 → Nutzungsarten DIN 277 (S. 51-56)
+Vollständiges Kürzel-Register (Basis DIN 277-2:1987-06 Tab. 2, ergänzt Raumzuordnungskatalog
+ARGE-BAU-Hochbauausschuss LAG):
+
+**HNF1 Wohnen/Aufenthalt**: 1.1 Wohnräume (Fn.42: Balkone/Terrassen hier abweichend als AGF,
+nicht wie DIN 277 als HNF1.1) · 1.2 Gemeinschaftsräume · 1.3 Pausenräume · 1.4 Warteräume ·
+1.5 Speiseräume · 1.6 Hafträume.
+**HNF2 Büroarbeit**: 2.1 Büroräume · 2.2 Grossraumbüros (inkl. Pausen-/Besprechungszonen,
+Garderoben, Verkehrswege im Grossraum) · 2.3 Besprechungsräume · 2.4 Konstruktionsräume
+(Zeichenräume) · 2.5 Schalterräume · 2.6 Bedienungsräume (Schaltwarten, Regieräume,
+Leitstellen) · 2.7 Aufsichtsräume (Pförtner/Wache) · 2.8 Bürotechnikräume (Rechenzentren,
+EDV-Räume).
+**HNF3 Produktion/Experimente**: 3.1 Werkhallen · 3.2 Werkstätten · 3.3 Technologische Labors ·
+3.4 Physikalische/elektrotechnische Labors · 3.5 Chemische/bakteriologische Labors ·
+3.6 Tierhaltung · 3.7 Pflanzenzucht · 3.8 Küchen · 3.9 Sonderarbeitsräume.
+**HNF4 Lagern/Verteilen/Verkaufen**: 4.1 Lagerräume · 4.2 Archive/Sammlungsräume ·
+4.3 Kühlräume · 4.4 Annahme-/Ausgaberäume · 4.5 Verkaufsräume · 4.6 Ausstellungsräume.
+**HNF5 Bildung/Unterricht/Kultur**: 5.1 Unterrichtsräume mit festem Gestühl ·
+5.2 Allg. Unterrichtsräume ohne Gestühl · 5.3 Bes. Unterrichtsräume ohne Gestühl ·
+5.4 Bibliotheksräume · 5.5 Sporträume · 5.6 Versammlungsräume · 5.7 Bühnen-/Studioräume ·
+5.8 Schauräume · 5.9 Sakralräume.
+**HNF6 Heilen/Pflegen**: 6.1 Allgemeine medizinische Räume · 6.2 Besondere medizinische
+Räume · 6.3 Operationen/Endoskopie/Entbindung · 6.4 Strahlendiagnostik ·
+6.5 Strahlentherapie · 6.6 Physiotherapie/Reha · 6.7 Bettenräume allgemein ·
+6.8 Bettenräume besonders (Intensiv/Dialyse/Nuklearmedizin).
+**NNF7 Sonstige Nutzungen**: 7.1 Sanitärräume · 7.2 Garderoben · 7.3 Abstellräume
+(inkl. Keller, Fahrrad-/Kinderwagen-/Müllräume) · 7.4 Fahrzeugabstellflächen ·
+7.5 Fahrgastflächen (Bahnsteige/Flugsteige) · 7.6 Räume für zentrale Technik (Ver-/Entsorgung
+ANDERER Bauwerke) · 7.7 Schutzräume (Zivilschutz).
+**FF8 Betriebstechnische Anlagen** (jeweils für Ver-/Entsorgung DES BAUWERKS SELBST):
+8.1 Abwasseraufbereitung/-beseitigung · 8.2 Wasserversorgung · 8.3 Heizung/
+Brauchwassererwärmung · 8.4 Gase (ausser Heizzweck)/Flüssigkeiten · 8.5 Elektr.
+Stromversorgung · 8.6 Fernmeldetechnik · 8.7 Raumlufttechnische Anlagen · 8.8 Aufzugs-/
+Förderanlagen · 8.9 Sonstige betriebstechnische Anlagen (Hausanschluss-/Installationsräume).
+**VF9 Verkehrserschliessung/-sicherung**: 9.1 Flure/Hallen (inkl. Eingangshallen, Windfänge,
+Fluchtbalkone) · 9.2 Treppen/Fahrtreppen/Rampen · 9.3 Schächte für Förderanlagen ·
+9.4 Fahrzeugverkehrsflächen (Durchfahrten, befahrbare Rampen, Gleisflächen).
+**BUF10 Verschiedene Nutzungen** (SIA-D-0165-eigene Ergänzung, nicht Teil DIN 277):
+10.1 Aussenliegende Fahrzeugabstellflächen.
+
+## Anhang 3 — Abweichungen zu SIA 416/DIN 277 (S. 57, sechs Punkte, zentrale Fundstelle)
+1. Allg. WC/Sanitärräume → NNF 7.1 (wie DIN 277); Sanitärräume INNERHALB von Wohnungen →
+   HNF 1.1 (SIA 416 S.28 definiert WC/Bad generell als HNF).
+2. **Balkone/Terrassen** → **Aussengeschossfläche AGF gem. SIA 416** (abweichend von DIN 277,
+   die sie als HNF 1.1 führt).
+3. **Bearbeitete Umgebungsfläche BUF** (gem. SIA 416) neu eingeführt, um Umgebungsflächen
+   einzubeziehen — kein DIN-277-Pendant (→ BUF 10.1).
+4. **Versetzbare (raumabschliessende) Trennwände** → Konstruktionsfläche **KFN** (SIA 416 S.12
+   zählt sie nicht zur KF, lässt Zuordnung offen).
+5. **Einbauschränke** → jeweilige Hauptnutzfläche.
+6. **Hausdiensträume** → Nebennutzfläche **NNF 7.3** (Abstellräume).
+
+## Anhang 4 — Vermietbare Fläche, Flächenbaum (S. 58, Abb. 16)
+Zweigeteiltes Diagramm "Vermieter" (GF+AGF → KF[KFT/KFN]+NGF[NF(HNF/NNF)+FF+VF]) vs.
+"Mieter" (KFN+HNF+NNF-vermietbar+FF-vermietbar+VF-vermietbar+AGF-vermietbar → VMF →
+VWAGF + ZF) mit Zuordnungslinien Vermieter-Element → Mieter-Element.
+
+## Anhang 5 — Spezialfälle Vermietbare Fläche, Bemessungsregeln (S. 60-62)
+Grundsatz: Flächen werden bis zur begrenzenden Konstruktionsfläche gemessen, auch bei
+bodentiefen Brüstungsverkleidungen; bei Verkaufsflächen bis Innenkante Schaufenster
+(nicht nur Innenkante Wand).
+- **Brüstungen** (Fall A1/A2/A2 — drittes Panel im Original selbst ein zweites Mal als "A2"
+  beschriftet, kein "A3" im Original): Bodenbelag bis Aussenwand ohne Installationen/mit
+  Installationen+Heizkörper/mit Installationen ohne Heizkörper → jeweils bis Innenkante
+  Aussenwand gemessen.
+- **Heizkörper in Nische** (Fall B1/B2): Nischenfläche NICHT zur vermietbaren Fläche (B1);
+  Heizkörper ohne Nische wie Fall A behandelt (B2).
+- **Brüstungsverkleidung** (Fall C): bis Innenkante Aussenwand gemessen.
+- **Abschrägungen**: **explizite Abweichung zu SIA 416** — Flächen unter Dachschrägen werden
+  bis zur begrenzenden Konstruktionsfläche (Innenkante Aussenwand/Kniestockwand) gemessen,
+  nicht wie in SIA 416 sonst üblich reduziert.
+- **Treppenläufe**: Geschossfläche von Treppen/Rampen als Projektion auf die darüberliegende
+  Ebene, soweit nicht mit anderen Geschossflächen überschneidend; Fläche unter der jeweils
+  ersten Treppe/Rampe wird der Ebene zugerechnet, auf der die Treppe/Rampe beginnt, und ihrer
+  Nutzung entsprechend zugeordnet.
+- **Nichttragende Zwischenwände zwischen zwei Mieterzonen**: bis Mitte gemessen, hälftig
+  aufgeteilt.
+
+## Anhang 6 — Kostengliederung DIN 18960 (1999) ↔ (1976) ↔ GEFMA 200 (S. 63-66)
+Kreuzreferenz-Tabelle (mit Erlaubnis DIN wiedergegeben, hier nur strukturiert statt
+Volltext-Tabelle zusammengefasst — Details bei Bedarf im Original S.63-66 nachschlagen):
+DIN 18960(1999) gliedert in Hauptgruppen **100** Kapitalkosten, **200** Verwaltungskosten,
+**300** Betriebskosten (310 Ver-/Entsorgung, 320 Reinigung/Pflege, 330 Bedienung techn.
+Anlagen, 340/350 Inspektion+Wartung Baukonstruktion/techn. Anlagen, 360 Kontroll-/
+Sicherheitsdienste, 370 Abgaben/Beiträge, 390 Sonstiges), **400** Instandsetzungskosten
+(410/420 Baukonstruktion/techn. Anlagen, 430 Aussenanlagen, 440 Ausstattung). Jede
+Hauptgruppe in Bauteilklassen untergliedert (z.B. 41x/42x: Gründung, Aussenwände,
+Innenwände, Decken, Dächer, Anlagenklassen Abwasser/Wärme/Luft/Strom/Fernmelde/
+Förderanlagen/Gebäudeautomation). Parallel-Spalten: DIN 18960(1976) mit grober 6-Punkte-
+Gliederung (Kapital/Abschreibung/Verwaltung/Betrieb/Steuern/Bauunterhalt); GEFMA 200 mit
+eigener 3-stelliger Kontenlogik (2xx Betrieb, 4xx Dienste/Instandsetzung, 6xx
+Objektbuchhaltung/Finanzierung).
+
+## Anhang 7 — Literaturverzeichnis (S. 67, vollständig, 17 Positionen)
+1. SIA-Empfehlung 380/1 (1988) · 2. SIA-Norm 416 (1993) · 3. DIN 277 (1987) ·
+4. SIA-Empfehlung 180/4 (1982) · 5. SIA-Norm 116 (1952) · 6. SN 506500 Baukostenplan BKP
+(1997) · 7. SN 506502 Elementkostengliederung EKG (1995) · 8. DIN 18960 (1999) ·
+9. DIN 18960 (1976) · 10. GEFMA 200 (1996) · 11. Sicherheitshandbuch 97/98 (SECURIMEDIA,
+1997) · 12. SIA-Norm 469 Erhaltung von Bauwerken (1997) · 13. SVIT-Kommentar Mietrecht II
+(2. Aufl. 1998) · 14. Umweltberichterstattung von Finanzdienstleistern (VfU, 1997) ·
+15. Schätzerhandbuch — Bewertung von Immobilien (SVKG/SEK/SVIT, 1998) · 16. Handbuch der
+Liegenschaftsverwaltung (Blöchliger/Gratz/Kummerer, 3. Aufl., SHEV, 1994) ·
+17. Raumordnungskatalog (ARGE-BAU, Ergänzung zu DIN 277).
+
+**Wichtig für Fundstellen-Disziplin**: SIA D 0165 zitiert SIA 416 in der Ausgabe **1993**
+und DIN 277 in der Ausgabe **1987** — beide älter als die im Hub-Bestand geführten
+Referenz-Ausgaben (SIA 416:2003, DIN 277:2005). Bei Kreuzverweisen aus dieser Dokumentation
+auf SIA 416/DIN 277 daher die Ausgaben-Differenz beachten (Definitionen können in den
+späteren Ausgaben präzisiert/geändert worden sein).
+
+## Anhang 8 — Stichwortverzeichnis (S. 68-70)
+Vollständiges Kürzel-Register mit Seitenangaben (bezogen auf gedruckte Originalseiten) —
+dient als Cross-Referenz für alle im Dokument definierten Kürzel; bei Bedarf im Original
+konsultierbar, hier nicht als Volltextliste dupliziert (reine Fundstellen-Navigation ohne
+eigenen fachlichen Zusatzwert).
 
 ## JANS-Praxis-Transfer
-Relevant für Skills mit Ertragswert-/Vermietungsbezug (`immobilienbewertung`, Agent
-`ertragswert-rechner`) sowie für Flächennachweise, wenn ein Bauherr/Investor explizit mit
-VMF/VTF/LF-Kennzahlen (statt SIA-416-Begriffen) rechnet — üblich bei institutionellen
-Investoren/Immobilien-Treuhändern (SVIT-Mitgliedschaft). Bei Reporting/Benchmarking mit
-SVIT-nahen Auftraggebern (z.B. Nova Property Fund, Projekt 2620 Albertstrasse) diese
-Begriffe statt der SIA-416-/DIN-277-Terminologie verwenden, wenn der Investor sie so
-verlangt. Begriffe NICHT unbesehen mit SIA 416 (GF/HNF/NNF) gleichsetzen — SIA D 0165
-lehnt sich an DIN 277 an, hat aber die eigene VMF/VTF/LF-Vermietungsschicht obendrauf.
+- Relevant für Skills mit Ertragswert-/Vermietungsbezug (`immobilienbewertung`, Agent
+  `ertragswert-rechner`) sowie für Flächennachweise, wenn ein Bauherr/Investor explizit mit
+  VMF/VTF/LF/VWAGF-Kennzahlen statt SIA-416-Begriffen rechnet — üblich bei institutionellen
+  Investoren/Immobilien-Treuhändern (SVIT-Mitgliedschaft), z.B. Projekt 2620 Albertstrasse
+  (Nova Property Fund, SVIT-nah).
+- **Anhang 3 (6 Abweichungen) ist die wichtigste Einzelfundstelle**: Balkone/Terrassen als
+  AGF statt HNF, Abschrägungen bis Konstruktionsfläche (nicht wie sonst in SIA 416 reduziert),
+  versetzbare Trennwände als KFN — diese drei Punkte weichen am ehesten von einer naiven
+  SIA-416-Anwendung ab und sind bei institutionellen Flächenaufnahmen (VMF-Reporting)
+  gezielt zu prüfen.
+- Begriffe NICHT unbesehen mit SIA 416 (GF/HNF/NNF) gleichsetzen — SIA D 0165 lehnt sich an
+  DIN 277 an, hat aber die eigene VMF/VTF/LF-Vermietungsschicht + die 6 dokumentierten
+  Abweichungen obendrauf.
+- Die BKP-Struktur in Kapitel 3.2.1/4.2 (CRB-Stand 2000) NICHT für aktuelle Kostenschätzungen
+  verwenden — dafür gilt die BKP-2017-Liste (Rule `bkp-2017-referenz.md`).
+- Glossar (Kap. 6) liefert griffige, quellenbelegte Kurzdefinitionen für Bruttorendite/
+  Nettorendite/Ertragswert/Realwert/Verkehrswert — nützlich als Schnellreferenz für
+  `immobilienbewertung`, sofern die dortigen Skill-eigenen Definitionen (Wüest-Kurs) Vorrang
+  behalten bei Widerspruch.
 
 ## Offene Punkte
-- **Nur 5 von 73 Seiten gelesen** (Scan-Fragment, S. 14–17 + Titelblatt). Die Vollversion
-  liegt unter `SIA_Norm/SIA_Normen/alle/xalt/SIA D0165_2000 Kennzahlen im
-  Immobilienmanagement.pdf` (73 S.) und in `xalt/neu/` (gleicher Titel) bereits im Bestand,
-  ist aber noch NICHT destilliert — nächster Normen-Trainingslauf sollte die Vollversion
-  vollständig lesen und dieses Destillat ergänzen/ersetzen.
-  Insbesondere fehlen: Definition der Basisgrösse GF (Geschossfläche), Definition der
-  Zuschlagsfläche ZF, Anhang 1 (Flächenbaum), Anhang 2 (Nutzungsarten), Anhang 5
-  (Spezialfälle: Brüstungen, Abschrägungen, nichttragende Trennwände, Treppenläufe) sowie
-  vermutlich weitere Kennzahlenkapitel (Kosten-/Ertrags-Kennzahlen, da Titel
-  "Kennzahlen im Immobilienmanagement" über reine Flächendefinitionen hinausgeht).
-- Verhältnis zu SIA 416:2003 (Flächen und Volumen von Gebäuden) nicht abschliessend
-  geklärt — ob D 0165 auf SIA 416 aufbaut/verweist, ist im gelesenen Fragment nicht
-  ersichtlich (fehlende Kapitel 1–2 der Publikation).
+- **Kein Genehmigungsvermerk gefunden** (Delegiertenversammlung/Datum/Ort/Kommission) — in
+  den gelesenen 73 Seiten nicht vorhanden (anders als bei manchen anderen SIA-Normen dieser
+  KB). Möglicherweise entfällt er bei SIA-Dokumentationen (Kategorie "D", nicht Norm) generell;
+  nicht abschliessend geklärt.
+- Seite 41 (Berechnungsbeispiel 5.1): unstarred Werte VMF=249.01 m² und DMF=112.90 m²
+  weichen von den auf S.40 hergeleiteten VMF\*/DMF\*-Werten ab — Bezug vermutlich auf eine
+  im Beispiel VOR S.39 liegende, nicht Teil dieses Leseauftrags gewesene Basistabelle ohne
+  Sternchen. Für die Kennzahlen-Definitionen selbst ohne Belang (nur das Zahlenbeispiel
+  betreffend); bei Bedarf am Original S.39 (vor dem gelesenen Bereich) nachprüfbar.
+  Nicht sicherheitsrelevant, da beide Rechenwege (mit/ohne Sternchen) korrekt dokumentiert sind.
+- Seite 38 (Grundriss 1.OG, Berechnungsbeispiel 5.1): VF-Subcode einer Treppenfläche (9.18 m²)
+  im Scan nicht zweifelsfrei lesbar (vermutlich VF 9.2 analog zu allen anderen Treppen im
+  selben Beispiel, aber nicht visuell verifiziert).
+- Anhang 6 (DIN-18960/GEFMA-200-Kreuztabelle) hier bewusst strukturiert zusammengefasst statt
+  vollständig transkribiert (Umfang + Urheberrechts-Vorsicht bei DIN-Fremdinhalt); bei
+  konkretem Bedarf einer einzelnen Kostenstelle das Original S.64-67 konsultieren.
+- Verhältnis zu SIA 416 in der heute gültigen Ausgabe 2003 (statt der hier zitierten
+  Ausgabe 1993) nicht Gegenstand dieser Destillation — bei Detailwidersprüchen SIA 416:2003
+  als das massgebliche, aktuellere Original behandeln.
