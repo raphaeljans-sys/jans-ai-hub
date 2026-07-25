@@ -2,6 +2,31 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 — Training Run 60 (Recht/Norm + Brandschutz, Token-Vollgas)
+Rotation turnusgemaess auf Recht/Norm (PL-02) + Brandschutz (PL-03) — Kartenportale/Energie
+hatten Run 59 bereits. Direkt in der Hauptsession (OneDrive-Lehre Run 56).
+- **R61 (Recht/Norm, groesster Fund):** letzter offener R59-Backlog-Punkt geloest — der seit
+  Run 52 (18.07.) bestehende OneDrive-Lock auf `09-Projektdokumentation/` +
+  `10-Projektablauf/10.6-Projektabschluss/` hatte sich aufgeloest (Sync-Timing, analog
+  Naturgefahren-/Lignum-Praezedenzfall). Vier Dateien vollstaendig gelesen: PAB 2.16.R
+  Gliederungsrichtlinie fuer Projektdokumentationen (7 Kapitel, Kennzahl CHF/Kranken- oder
+  Altersheimbett), reale Muster-Fallstudie Instandsetzung Schulanlage Doeltschi (Leutwyler
+  Partner Architekten 2008, Gesamtanlagekosten 20.68 Mio. CHF, Minergie-Umbaustandard-Verzicht-
+  Grundsatz), reale BKP-1-9-Kostengliederung als Zahlenbeispiel (KV.xls), amtliches Stadt-ZH-
+  SIA-118-Abnahmeprotokoll-Formular → NEU §18 [[recht-norm-ahb-stadt-zuerich-projektstandards]].
+  Der zehnteilige «Projektadmin AHB»-Ordner ist damit **vollstaendig ausgewertet**.
+- **B46/C38 (Brandschutz):** `Brandschutznachweis_MFH-5g-RF1_V.2_-_ohne_Logo.docx` erstmals
+  vollstaendig gelesen (bisher nur als Existenz-Verweis gefuehrt) — reales ausformuliertes
+  MFH-Beispiel mit Feuerwiderstands-Matrix (R60/REI60/EI60/EI30, REI60-RF1 Fluchtweg vertikal)
+  und WDVS-Brandriegel-Ausfuehrungsdetail, bestaetigt die bereits dokumentierte BSR-14-15-Pflicht
+  (§5ad) am realen Beispiel → Ergaenzung §2 [[brandschutz-pl03-wegweiser]].
+- **Refresh (kein Delta):** BSV-2026-Terminplan erneut per WebSearch+WebFetch geprueft — Stand
+  unveraendert seit Run 58 (24.07.).
+- **Delta-Scan ohne Fund:** PL-01/PL-03 auf kuerzlich geaenderte Dateien geprueft (`find
+  -newermt`) — keine neuen Dateien seit dem letzten Lauf.
+- Register nachgefuehrt: `curriculum.md` (R61 + B46 neu), `wiki/QUESTIONS.md` (B/C-Sektion),
+  `raw/_INGESTED.md` (4 neue Zeilen), `wiki/INDEX.md` (beide Eintraege ergaenzt).
+
 ## 2026-07-25 (05:30) — Nachtschicht Mac Mini: Wissens-Health-Check (Phase 1)
 Dispatch-Prioritaeten 1-4 heute Nacht bereits erschoepft (Sync-Queues leer, Synobsis idle,
 energie+planungsgrundlagen-Training + normen DIN/VSS/RAL bereits gelaufen). Deterministischer

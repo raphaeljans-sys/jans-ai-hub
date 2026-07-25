@@ -237,6 +237,14 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   → [[kartenportale-geoportale-uebersicht]] (Offen A5).
 
 ## B — Recht & Norm
+- [x] **R61 (Run 60, 2026-07-25)** Letzter offener Backlog-Punkt aus R59/§9: OneDrive-Lock auf
+  `09-Projektdokumentation/` + `10-Projektablauf/10.6-Projektabschluss/` (seit Run 52 blockiert)
+  aufgeloest — alle vier Dateien gelesen. **PAB 2.16.R Richtlinie fuer Projektdokumentationen**
+  (7-Kapitel-Gliederung, Kennzahl CHF/Kranken- oder Altersheimbett), **reale Muster-Fallstudie**
+  (Schulanlage Doeltschi, 20.68 Mio. CHF Gesamtanlagekosten) + **Muster-BKP-Kostengliederung**
+  (KV.xls) + **Abnahmeprotokoll SIA 118** (amtliches Stadt-ZH-Formular Art. 157-161) → NEU §18
+  [[recht-norm-ahb-stadt-zuerich-projektstandards]]. Damit ist der zehnteilige «Projektadmin AHB»-
+  Ordner vollstaendig ausgewertet.
 - [x] **R58-R59 (Run 58, 2026-07-24, Token-Vollgas)** Zwei bisher nie erschlossene
   `04_Merkblätter/`-Unterordner ausgewertet. **R58 — Fugenlose Bodenbeläge/Estriche
   (PAVIDENSA):** Checkliste PAV-E 16:2012 (5-Phasen-Planungs-/Ausführungsablauf mit Quer-
@@ -527,6 +535,14 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   AWEL/Minergie/GVZ/2000-Watt/Lignum/SWKI…) → [[recht-norm-quellenlandkarte]]. Vertiefung je Bedarf.
 
 ## C — Brandschutz
+- [x] **C38 (B46) (Run 60, 2026-07-25)** `Brandschutznachweis_MFH-5g-RF1_V.2_-_ohne_Logo.docx`
+  (bisher nur als Existenz-Verweis in §2 gefuehrt) vollstaendig gelesen — liefert ein reales,
+  ausformuliertes MFH-Beispiel mit konkreter Feuerwiderstands-Matrix (R60/REI60/EI60/EI30,
+  REI60-RF1 Fluchtweg vertikal) und WDVS-Brandriegel-Ausfuehrungsdetail (Mineralwolle RF1
+  ≥1'000°C, 20 cm), bestaetigt die bereits dokumentierte BSR-14-15-Pflicht (§5ad) am realen
+  Beispiel → Ergaenzung §2 [[brandschutz-pl03-wegweiser]]. **B44-Folgerefresh:** BSV-2026-
+  Terminplan erneut per WebSearch+WebFetch geprueft, unveraendert bestaetigt (kein neuer
+  Erkenntnisgewinn seit Run 58).
 - [x] **C37 (B45) (Run 58, 2026-07-24, Token-Vollgas)** Zwei bisher nie erschlossene Top-Level-
   Dateien unter `00 Brandschutzplaene bsvonline.ch/` (ausserhalb des bereits kartierten
   Musterplansatz-Unterordners) identifiziert und gelesen. **BSPUB-251.pdf = VKF-Publikation
