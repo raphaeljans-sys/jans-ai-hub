@@ -216,6 +216,10 @@ das Ergebnis in den passenden Wiki-Artikel.
   Zeitstempel von Run 75 (`find -newer`) — **0 neue/veraenderte Dateien**. Siebte unabhaengige
   Erschoepfungs-Bestaetigung fuer Kartenportale. Kein neuer Curriculum-Punkt moeglich ohne neues
   SharePoint-Material.
+- [x] K64-Freshness (Run 79, 2026-07-25, Token-Vollgas) Datei-Frischecheck PL-01 gegen den
+  Zeitstempel von Run 77 (`find -newer`) — **0 neue/veraenderte Dateien**. Achte unabhaengige
+  Erschoepfungs-Bestaetigung fuer Kartenportale. Kein neuer Curriculum-Punkt moeglich ohne neues
+  SharePoint-Material.
 
 ## Domaene 2 — Energie (PL-04)  · Prioritaet
 - [x] E1 PV-Typenwahl: Entscheidungsbaum (Indach/Ziegel/transparent/Fassade/Aufdach)? (2026-06-06, → [[energie-pv-eignung-typenwahl]])
@@ -354,6 +358,10 @@ das Ergebnis in den passenden Wiki-Artikel.
   Zeitstempel von Run 75 — **0 neue/veraenderte Dateien**. Kein WebSearch-Refresh (kein neuer
   Trigger seit Run 75, derselbe Domaenenturnus ohne zwischenzeitliches Ereignis). D9 bleibt offen.
   Siebte unabhaengige Erschoepfungs-Bestaetigung fuer Energie.
+- [x] E50-Freshness (Run 79, 2026-07-25, Token-Vollgas) Datei-Frischecheck PL-04 gegen den
+  Zeitstempel von Run 77 — **0 neue/veraenderte Dateien**. Kein WebSearch-Refresh (kein neuer
+  Trigger seit Run 77, derselbe Domaenenturnus ohne zwischenzeitliches Ereignis). D9 bleibt offen.
+  Achte unabhaengige Erschoepfungs-Bestaetigung fuer Energie.
 - [x] E44 (Run 63, 2026-07-25, Token-Vollgas Scout-Fund) Bisher nie gezielt gelesene Datei
   `_Heizwaermebedarf/_Wärmebedarf Warmwasser SIA 380_1.pdf` — liefert sie eine eigene
   Warmwasserbedarf-Berechnungsmethodik ueber die bereits dokumentierte Tab.-25-Zeile 4.3 hinaus?
