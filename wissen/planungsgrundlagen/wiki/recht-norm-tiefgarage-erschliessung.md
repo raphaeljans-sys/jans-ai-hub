@@ -1,7 +1,7 @@
 ---
 title: Tiefgarage/Parkierung — Erschliessungsgeometrie (VSS-Normen)
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-07-25 (Run 64)
 sources: [
   "VSS SN 640 050 «Grundstückzufahrten» (genehmigt Mai 1993, gültig, PL-02/Tiefgarage/1 VSS-Norm)",
   "VSS SN 640 291a «Parkieren — Anordnung und Geometrie der Parkierungsanlagen» (genehmigt Dez. 2005, gültig ab 1.2.2006, ersetzt SN 640 291+292 von 1982, PL-02/Tiefgarage/1 VSS-Norm)",
@@ -12,7 +12,8 @@ sources: [
   "IBV Hüsler AG, Normschnitt Anschluss Tiefgarage Ausfahrtstyp A (Kt. ZH, 23.01.2017, PL-02/Tiefgarage/2 Rampeneinfahrten)",
   "Enz & Partner GmbH, Beispiele minimaler Wendehämmer für 12-m-Lastwagen (VRV Art. 64/65/65a, PL-02/Tiefgarage/2 Wendehammer)",
   "Meili, Peter & Partner Architekten AG / IBV, Aktennotiz Einschätzung Tiefgarage 246 Flurstrasse (17.04.2018, PL-02/Tiefgarage/3 Beispiele/Flurstrasse) — externe Referenz, kein JANS-Projekt",
-  "Coop Genossenschaft, «Warenannahme in Verkaufsstellen — Vorgaben/Richtlinien für die Bauplanung» (Stand 10.02.2009, PL-02/Tiefgarage/2 Planungshilfen Anlieferung + 03_Arbeitshilfen/Speziale Bauteile planen) — Retail-interne Richtlinie, kein amtlicher Erlass"
+  "Coop Genossenschaft, «Warenannahme in Verkaufsstellen — Vorgaben/Richtlinien für die Bauplanung» (Stand 10.02.2009, PL-02/Tiefgarage/2 Planungshilfen Anlieferung + 03_Arbeitshilfen/Speziale Bauteile planen) — Retail-interne Richtlinie, kein amtlicher Erlass",
+  "SWKI VA103-01:2017 «Lüftungsanlagen für Parkhäuser (Mittel- und Grossgaragen)», Erstausgabe 2017-04, ersetzt SWKI 96-1:1997 (PL-02/06_Richtlinien/SWKI, Run 64, S. 1-25 gelesen von 110)"
 ]
 links: [[recht-norm-quellenlandkarte]], [[kartenportale-grundlagen-checkliste-neue-parzelle]], [[brandschutz-pl03-wegweiser]], [[machbarkeit]]
 ---
@@ -298,8 +299,58 @@ Retail-/Gewerbeprojekt vollständig nachlesen):
 bei einem gemischt genutzten Erdgeschoss (Wohn-/Geschäftshaus mit Ladenfläche) als Referenzwert
 dienen.
 
+## 8. Lüftungsauslegung Parkhaus — SWKI VA103-01:2017 (Run 64, NEU — TGA-Dimension)
+
+Bisher deckte dieser Artikel nur die **Geometrie** der Tiefgarage ab (VSS); der bisher nie
+erschlossene Ordner `06_Richtlinien/SWKI` liefert die **lüftungstechnische Auslegung** —
+direkt anschlussfähig an die Fahrgassen-/Parkfeld-Geometrie aus Abschnitt 2 und die
+GT-Richtlinien in [[recht-norm-ahb-stadt-zuerich-projektstandards]] §12-14.
+
+**Geltungsbereich:** Mittel-/Grossgaragen ab **100 m²** mit innenliegenden Fahrgassen (gleich
+behandelt); Kleingaragen < 100 m² werden **empfohlen natürlich zu lüften** (manuell bedienbare
+Fenster, SIA 180 thermische Hülle zwingend, Verantwortung beim Eigentümer/Fachplaner). Ersetzt
+die Vorgänger-Richtlinie SWKI 96-1:1997. Grundlagen/Berechnungen selbst in **SIA 382/1**
+geregelt.
+
+**Bemessungsgrösse CO (Leitgas):** CO-Bemessungswert **100 ppm** (unverändert seit SWKI 96-1,
+kein Reduktionsbedarf laut aktueller Forschung); Dieselfahrzeuge zusätzlich über NO/NO₂
+erfasst, da CO-Bemessung die Verdünnung von NOx implizit abdeckt.
+
+**Grenzwerte-Tabelle (Quelle Suva 1903.d):**
+
+| Stoff | MAK-Wert (VME) | Kurzzeitgrenzwert (KZGW) |
+|---|---|---|
+| CO₂ | 5'000 ppm | — |
+| CO | 30 ppm | 60 ppm |
+| NO₂ | 3 ppm | 3 ppm |
+| NO | 25 ppm | — |
+
+**Steuerung:** Lüftungs-Einschaltwert **50–70 ppm** CO (Momentanwertmethode, tiefer als der
+deutsche VDI-2053-Mittelwert von 60 ppm über 15 Min. — Schweizer Praxis schaltet dadurch
+früher ein). Referenz-Aussenlufttemperatur **+5 °C** (typischer Auslegungsfall
+Schweizer Mittelland); Geschosse werden einzeln als **«exponiert»** (mit eigener Ein-/Ausfahrt,
+Raumlufttemperatur = Aussenlufttemperatur + 5 K) oder **«geschützt»** (nur intern verbunden,
++ 10 K) bewertet — bei offener Wendelrampe gelten alle angeschlossenen Geschosse als
+exponiert.
+
+**JANS-Praxiskonsequenz:** die CO-Bemessung (nicht NO2) bestimmt den Ventilator-Volumenstrom;
+bei einer Fahrstrecke von 400 m ergibt sich für den Fahrzeugmix 2015 bei +5 °C eine
+Gesamtemission von **12.85 g CO** je Kaltstart-Fahrt (Tab. 4) — die Kaltfahrt dominiert die
+Emission klar gegenüber der Warmfahrt (Faktor > 40). Kurze Ausfahrtstrecken (Abschnitt 2.1
+oben, Anordnung der Parkfelder) reduzieren damit **direkt** den notwendigen Lüftungs-Volumenstrom
+und sind nicht nur ein geometrischer, sondern auch ein energetischer Auslegungsparameter.
+
+**Verweisnormen (Auszug aus dem Quellenregister der Richtlinie):** SIA 382/1 (Grundlagen),
+SN 640 291a/292a (bereits oben dokumentiert), VKF-Brandschutzrichtlinien 15-15de/21-15de/
+25-15de (Brandabschnitte/RWA/lufttechnische Anlagen → [[brandschutz-pl03-wegweiser]]), SN
+50545-1 (CO-/NO2-Gasmelder in Tiefgaragen/Tunneln), VDI 2053 Blatt 1 (deutsches Pendant).
+
 ## Offene Punkte
 
+- SWKI VA103-01 nur S. 1-25 von 110 gelesen (Geltungsbereich, Grenzwerte, CO-Emissionsmodell)
+  — Kap. 3 «Berechnung und Bemessung» (Volumenstrom-Formel, Zonenaufteilung), Kap. 4/5
+  (Material/Ausführung, Brandschutzklappen) und die Anwendungsbeispiele (Anhang D) sind noch
+  offen; bei einem realen JANS-Tiefgaragenprojekt mit Lüftungsplaner-Koordination vertiefen.
 - Kommunale Parkplatzverordnungen (Stadt ZH, weitere Gemeinden) mit eigenen
   Grundanforderungen/Kennzahlen — bisher nicht kartiert; bei konkretem Projekt gegen
   kommunales Recht prüfen (Vorrang vor VSS 640 281).

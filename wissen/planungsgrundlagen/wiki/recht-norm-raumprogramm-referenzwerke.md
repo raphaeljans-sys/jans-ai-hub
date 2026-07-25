@@ -1,8 +1,8 @@
 ---
 title: Recht & Norm — Raumprogramm-Referenzwerke (Raumpilot, WBS 2015, Sanitärbemessung)
 status: established
-last_updated: 2026-07-18 (Run 52)
-sources: [PL - 02_Recht_Norm/04_Merkblätter/Flaechen_Wettbewerb.pdf (handschriftliche Technikraum-Flächenskizze, Provenienz ungeklärt, speculative), PL - 02_Recht_Norm/05_Raumpilot (Raumpilot-Grundlagen, Jocher/Loch, Wüstenrot Stiftung, 2012), PL - 02_Recht_Norm/01_Gesetze/06_Wohnbauförderung (BWO, Wohnungs-Bewertungs-System WBS, Ausgabe 2015; Kt. ZH Wohnbauförderungsreglement Merkblatt 15, Mai 2017, "Zimmerzählung Wohnungen.pdf"), PL - 02_Recht_Norm/09_Sanitaereinrichtung (Stadt Zürich UGZ, Merkblatt "Toilettenanlagen für Personal und Publikum", Version Mai 2012 UND Merkblatt Dezember 2020), PL - 02_Recht_Norm/07_Neuffert (Neuffert_3_edition.pdf, Bauentwurfslehre, bestätigt vorhanden, nicht destilliert), "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/041216 Bewilligungspraxis Trockenräume.pdf (Mailwechsel Meili Peter Architekten, 16.12.2004, Auskunft AfB Stadt Zürich zu § 297 PBG / § 39 BBV I)", "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/110523 TN BBV Art 40 Siegrist Wipfli RA.pdf (Mailwechsel haratori Architekten ↔ Sigrist Wipfli Meisser RA ↔ AfB Stadt Zürich, Mai 2011, § 40 BBV I Betten-Aufzüge + BRKE I Nr. 0117 v. 4.6.99)"]
+last_updated: 2026-07-25 (Run 64)
+sources: [PL - 02_Recht_Norm/04_Merkblätter/Flaechen_Wettbewerb.pdf (handschriftliche Technikraum-Flächenskizze, Provenienz ungeklärt, speculative), PL - 02_Recht_Norm/05_Raumpilot (Raumpilot-Grundlagen, Jocher/Loch, Wüstenrot Stiftung, 2012), PL - 02_Recht_Norm/01_Gesetze/06_Wohnbauförderung (BWO, Wohnungs-Bewertungs-System WBS, Ausgabe 2015; Kt. ZH Wohnbauförderungsreglement Merkblatt 15, Mai 2017, "Zimmerzählung Wohnungen.pdf"), PL - 02_Recht_Norm/09_Sanitaereinrichtung (Stadt Zürich UGZ, Merkblatt "Toilettenanlagen für Personal und Publikum", Version Mai 2012 UND Merkblatt Dezember 2020), PL - 02_Recht_Norm/07_Neuffert (Neuffert_3_edition.pdf, Bauentwurfslehre, bestätigt vorhanden, nicht destilliert), "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/041216 Bewilligungspraxis Trockenräume.pdf (Mailwechsel Meili Peter Architekten, 16.12.2004, Auskunft AfB Stadt Zürich zu § 297 PBG / § 39 BBV I)", "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/MPP/110523 TN BBV Art 40 Siegrist Wipfli RA.pdf (Mailwechsel haratori Architekten ↔ Sigrist Wipfli Meisser RA ↔ AfB Stadt Zürich, Mai 2011, § 40 BBV I Betten-Aufzüge + BRKE I Nr. 0117 v. 4.6.99)", "PL - 02_Recht_Norm/06_Richtlinien/_Kanton Basel/Richtlinie_Bueroausst_BL.pdf (Hochbauamt Kanton Basel-Landschaft, Richtlinie Büroausstattung Kanton Basel-Landschaft, Planerversion, Ausgabe Juli 2008 Version 1.0, Run 64)"]
 links: [[recht-norm-quellenlandkarte]], [[machbarkeit]], [[studien-generator]], [[stockwerkeigentum]], [[recht-norm-arbeitsplatz-bauvorschriften]], [[healthcare-wirtschaftlichkeit]], [[recht-norm-sanitaerraeume-planungsgrundlagen]], [[recht-norm-ahb-stadt-zuerich-projektstandards]]
 ---
 
@@ -300,6 +300,70 @@ Flächen dokumentiert); Querverweis zu den AHB-GT-Richtlinien
 [[recht-norm-ahb-stadt-zuerich-projektstandards]] §12-14 (dort die *regulatorischen* Vorgaben zur
 Gebäudetechnik, hier reine Flächenrichtwerte) sowie zur Medgas-/Drucklufttechnik in
 [[recht-norm-ahb-stadt-zuerich-projektstandards]] §13.3 (Sanitär-/Lüftungsrichtlinie).
+
+## 7. Büroausstattung Kanton Basel-Landschaft — Flächenmodelle Arbeitsplatz (Run 64, NEU)
+
+Bisher nie erschlossener Ordner `06_Richtlinien/_Kanton Basel` (1 Datei) liefert ein
+**zweites, vollständiges kantonales Büroraum-Bemessungssystem** neben dem bereits
+dokumentierten Stadt-ZH-AHB-Vollzug (SIA-416-Flächenformelkette,
+[[recht-norm-ahb-stadt-zuerich-projektstandards]] §2) — direkt vergleichbar und als
+Zweitquelle für Verwaltungsbau-/Bürobau-Raumprogramme nutzbar. **Richtlinie Büroausstattung
+Kanton Basel-Landschaft** (Hochbauamt BL, Planerversion, Ausgabe Juli 2008 Version 1.0):
+verbindliche Richtwerte/Spezifikationen für Einrichtungsentscheide und Flächenberechnungen in
+Büroräumlichkeiten der kantonalen Verwaltung; grössere Abweichungen bedürfen einer
+Hochbauamts-Bewilligung.
+
+**Flächensystematik:** SIA 416 kombiniert mit **DIN 277** (verfeinerte Form); für den
+Gesamt-m²-Bedarf pro Arbeitsplatz ist die **HNF 2 «Büro»** massgebend (Büros, Sitzungs-/
+Besprechungsräume, Empfangsanlagen, Bürotechnikräume) — Verkehrsflächen (VF) und
+Nebennutzflächen (NNF) werden separat erfasst und fliessen NICHT in die
+Arbeitsplatz-Flächenberechnung ein.
+
+**Kennzahlen/Richtwerte je Standard-Büro-Arbeitsplatz:**
+
+| Kennzahl | Wert | Bemerkung |
+|---|---|---|
+| Mobiliarkosten pro Büro-AP | **CHF 7'500.–** | inkl. Anteil Infrastruktur/Sitzungsanteil, objekt-/projektspezifisch mit Bereich Mobiliar zu verifizieren; exkl. Aufenthalt/Archive/Warteräume/Empfang/Garderoben |
+| Besprechungsanteil pro AP | **1.5 m²** | für Sitzungszimmer/Besprechungen am Arbeitsplatz |
+| Büronebennutzfläche-Anteil pro AP | **3.0–5.5 m²** | Aufenthalt/Gruppenablagen/technische Servicezone/Empfang |
+| Verkehrsfläche (VF) pro AP | **2.0–3.5 m²** | |
+| Abstand Arbeitstisch/Besprechungstisch – Wand/Stauraum | **100 cm** | |
+| Abstand Mobiliarrücken – Wand | **5 cm** | Empfehlung Bereich Mobiliar |
+| Minimales Arbeitsplatz-Volumen | **12 m³** | Art. 12 Wegleitung Verordnung 3 Arbeitsgesetz — Cross-Ref [[recht-norm-arbeitsplatz-bauvorschriften]] |
+
+**Flächenmodelle (Fertigmasse, direkt planungsrelevant):**
+
+| Arbeitsplatz-Typ | Gesamtfläche | Bemerkung |
+|---|---|---|
+| Typ 1: Unterstellkorpus (Einzel-AP) | **7.04 m²** | Tisch 180×80/90, 2 Stauraummodule 80×40 3 HE |
+| Typ 2: Beistellkorpus (Einzel-AP) | **7.92 m²** | |
+| Typ 3: Sideboard (Einzel-AP) | **7.92 m²** | optional fensterseitiges Anbauelement 40×80/90 |
+| Block-AP 2 Personen | **14.08–15.84 m²** | (Unterstell-/Beistellkorpus-Variante) |
+| Block-AP 4 Personen | **21.84 m²** | |
+| Block-AP 6 Personen | **31.20 m²** | |
+| Z-AP 2 Personen | **17.28 m²** | basiert auf Typ 3 (Sideboard) |
+| Z-AP 4 Personen | **27.60 m²** | |
+| Z-AP 6 Personen | **32.40 m²** | |
+| E1–E3: Grundtyp 1-3 erweitert mit Besprechung 2–4/6 Pers. | **15.00–16.00 m²** | Besprechungstisch freistehend/rund Ø 100–120 cm/6-Pers.-Tisch |
+| Sitzungszimmer 8 Personen | **13.60–17.64 m²** | 2 Besprechungstische 120/160×80 |
+| Sitzungszimmer 12 Personen | **24.36 m²** | |
+
+**Teambüro/Open-Space-Definition:** offener Raum mit **≥ 6 Arbeitsplätzen**; unterstützt durch
+Fokusraum (Zellenarbeitsplatz für konzentrierte Einzelarbeit), Relaxraum, abgeschirmte
+Steharbeits-/Besprechungsnischen. **Teilzeit/Job-Sharing < 50 %-Pensum:** primär Desk-Sharing
+oder Teambüro, erst nachrangig festes 2er-/4er-Büro.
+
+**Mobiliar-Kürzel-System (Anhang HBA BL):** ST Schreibtisch 180×80/90, AE Anbauelement
+40×80/90, KT Konferenztisch 160×80/Ø100/120, BD Bürodrehstuhl, BS Besucherstuhl, KO Korpus
+40×80×65, LS Lateralschrank 80×40 (2–3 HE), HR Hängeregisterschrank, OG Ordnerregal offen, RB
+Rollboy 60×40, DB Druckerboy 50×40×37, WT Magnetwandtafel 120×90/90×60.
+
+**Einordnung/Delta zu Stadt-ZH-AHB (§2):** kein Widerspruch, sondern zwei unabhängige,
+strukturell ähnliche kantonale Systeme (beide SIA 416/DIN 277 basiert) — Kt. BL liefert
+**deutlich granularere Möbel-/Flächentypologien** (12 durchgerechnete Flächenmodelle inkl.
+Fensterraster-Bezug 1.25/1.30/1.35 m) als das Stadt-ZH-AHB-Merkblatt; nützlich als
+Zweitreferenz/Benchmark bei Verwaltungsbau-/Bürobau-Raumprogrammen ausserhalb Zürichs oder
+zur Plausibilisierung der ZH-Kennzahlen.
 
 ## Offen
 - Raumpilot-Kapitel "Wohnen" (S. 155–348) noch nicht im Detail ausgewertet — bei konkretem

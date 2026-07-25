@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 25.07.2026 14:25:58
+Stand: 25.07.2026 14:36:10
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 14:20)
@@ -18,4 +18,4 @@ Stand: 25.07.2026 14:25:58
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- afee3048 normen Run 22: «KOMPLETT» war Messfehler-Kette — 2 unsichtbare Normen, 2 ueberholte Fassungen, 11 QUESTIONS-Punkte geschlossen
+- 1919e7b3 sync: twin-fidelity-review: 2026-07-25b (Fidelity 85, gestapelte Anrede/Gruss-Inhaltstyp/Signatur-Gewicht neu belegt);twin-mail-training: Batch 62 (2026-07-08 16:09...07-13 11:16)
