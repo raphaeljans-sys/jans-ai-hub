@@ -2,6 +2,20 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-25 — Training-Run 49: Delta-Null-Bestaetigungslauf (siebzehnter in Folge)
+
+- **Kein neuer Ingest, keine eigene Artikelaenderung.** KB unveraendert saturiert; kein
+  neuer JANS-Bewertungsfall (Bewertungsordner direkt gelistet, juengster weiterhin Wangen
+  8855), Marktpuls bewusst nicht geprueft (Drossel-Rule 260714, naechster Wert 01.09.2026),
+  kein Verifier-Lauf. Kollisionsschutz (Rule 260724) geprueft — der gefundene `claude -p`-
+  Prozess mit identischem Prompt war der eigene Elternprozess dieser Session, keine
+  Zweitinstanz.
+- **Alle vier offenen Pendenzen gegengeprueft, unveraendert und bereits eskaliert** (nicht
+  erneut im Report gemeldet, Meldekanal-Lektion Run 36/38): Loop-Ruecktaktung
+  (`logbuch/fristen.md` 19.07.), Oberrieden-Hoehenkorrektur (`logbuch/fristen.md` 17.07.),
+  T-Regelgeschoss und T-Umlaut (`wiki/wissensluecken.md`).
+- Details: `outputs/2026-07-25_training-run49.md`.
+
 ## 2026-07-25 — Training-Run 48: Delta-Null-Bestaetigungslauf (sechzehnter in Folge)
 
 - **Kein neuer Ingest, keine eigene Artikelaenderung.** KB unveraendert saturiert; kein
