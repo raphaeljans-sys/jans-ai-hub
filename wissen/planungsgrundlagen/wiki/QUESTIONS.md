@@ -272,6 +272,10 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   → [[kartenportale-geoportale-uebersicht]] (Offen A5).
 
 ## B — Recht & Norm
+- [x] **R72 (Run 84, 2026-07-25, Token-Vollgas)** Frischecheck `PL - 02_Recht_Norm` +
+  `PL - 03 Brandschutz` gegen Run 82 (`find -newer`): 0 neue/veraenderte Dateien. Elfte
+  unabhaengige Erschoepfungs-Bestaetigung fuer dieses Domaenenpaar, achtzehnte in Folge ueber
+  alle vier Domaenen (Run 67-84). Details `outputs/2026-07-25_training-run84.md`.
 - [x] **R68-R71 (Run 66, 2026-07-25, Token-Vollgas)** SWKI VA103-01 Rest (S. 26-110/110, Backlog
   aus Run 64/65) vollständig gelesen — komplette Bemessungsmethodik (Zonen/Benutzer-Kategorien/
   Korrekturfaktoren, Praxisbeispiel Wohnen vs. Angestellte halbe/volle Luftmenge), Abnahme/Betrieb/
