@@ -2,6 +2,10 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-26 — Wissens-Chef Run 16 (Cross-KB): Erst-Verlinkung zu `projekt-lessons`
+- **[verlinkung] `wiki/brandschutz-auflagen-qss.md`** fuehrt fuer Projekt 2619 KISPI die Auflagen-Zeile «Detailplaene brandschutzrel. Innenwaende (Material/Aufbau), II.19» — die inhaltliche Substanz genau dieses Deliverables ist in `wissen/projekt-lessons/wiki/kispi-lbw-rohdichte-800.md` belegt (Rohdichte 800 kg/m3, Beweiskette Bestands-LV → EN-520-Typ-D-Spezifikation → QS-Korrektur Ziegel), ohne dass sich die beiden Artikel kannten. → bidirektional verlinkt mit klarer Rollentrennung: diese KB fuehrt Auflagen-Ziffer, Amt und Frist; `projekt-lessons` die Beweiskette der Material-Substanz; `normen` die Norm-/VKF-Kennwerte.
+- Bericht: `wissen/koordination/outputs/2026-07-26_wissens-chef-run16.md`.
+
 ## 2026-07-24 — Wissens-Health-Check Phase 1 (Nachtschicht Mac Mini, unbeaufsichtigt)
 Dispatch-Priorität 6 (älteste Audit-Datei, 21.07., alle anderen Mac-Mini-Prioritäten heute
 Nacht bereits erschöpft). 7-Audits-Katalog auf alle 7 Wiki-Artikel: A0 · B1 (Orphan

@@ -4,6 +4,14 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-26 — Wissens-Chef Run 16 (Cross-KB, ERST-PRUEFUNG dieser KB)
+- **[korrektur] KB-eigene Schreibregel war im einzigen Artikel nicht umgesetzt.** `CLAUDE.md` verlangt, jede Lesson mit Gewerk/BKP, SIA-Phase und den betroffenen Skills zu taggen — genau der Mechanismus, ueber den Erkenntnisse in die Skills zurueckfliessen. `wiki/kispi-lbw-rohdichte-800.md` fuehrte `links: []`, keine SIA-Phase, keinen Skill-Tag; der Health-Check vom 25.07. hat das Frontmatter dennoch als «korrekt» abgenommen. → Frontmatter nachgezogen (Gewerk BRA/ARC, BKP 271.10/271.13, SIA-Phase 5, Skills brandschutz/unternehmerkontrolle/ausschreibung, links auf beide Cross-KB-Ziele).
+- **[verlinkung, Erst-Verlinkung] Lesson und `auflagebereinigung` dokumentierten denselben Vorgang, ohne voneinander zu wissen** — die Auflage **II.19** «Detailplaene brandschutzrel. Innenwaende (Material/Aufbau)» am selben Projekt 2619 KISPI. → bidirektional verlinkt mit Rollentrennung: `auflagebereinigung` fuehrt Auflagen-Ziffer/Amt/Frist, `projekt-lessons` die Beweiskette der Material-Substanz.
+- **[kennzeichnung] Generische VKF-/Produktwerte im Fazit** (Typ-A-GKB 776 kg/m3 / VKF 18151, Duraline Vario 1'003 / VKF 22636) stehen identisch im fuehrenden `wissen/normen/wiki/en-520-gipsplattentypen.md`. Nicht geloescht (sie tragen die Fallargumentation), aber als **abgeleitet** gekennzeichnet, damit eine spaetere Korrektur in `normen` nicht an dieser Lesson vorbeilaeuft.
+- **[matrix]** Neue Zeile im Koordinations-Register: `projekt-lessons` fuehrt die **Beweiskette des Einzelfalls**, nie generische Kennwerte oder Normfundstellen.
+- **[offen]** Pruefung F des Health-Checks um die Tagging-Regel erweitern (`links: []` bei belegten Cross-KB-Bezuegen ist kein korrektes Frontmatter) — Aenderung am Pruefprogramm, gehoert nicht in einen Cross-Lauf.
+- Bericht: `wissen/koordination/outputs/2026-07-26_wissens-chef-run16.md`.
+
 ## 2026-07-25
 - [health-check] Wissens-Health-Check Phase 1 (Nachtschicht Mac Mini): A0·B0·C0·D0·E0·F1·G1
   — erster Inhalt seit Anlage (kispi-lbw-rohdichte-800, established), sauber belegt.

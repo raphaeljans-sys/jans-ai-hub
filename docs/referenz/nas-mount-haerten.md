@@ -63,3 +63,19 @@ jede Heilung oeffnete das Fenster, in dem ein headless-Task abbrach.
 Der Mac Mini haengt im Buero-LAN direkt am NAS (stabil) und braucht diese Haertung nicht.
 Weitergehende Option (nicht umgesetzt, Entscheid Raphael 25.07.2026: vorerst nein):
 NAS-abhaengige Loops ganz auf den Mac Mini verlagern (Rule 260611).
+
+## Schwesterproblem geloest: kein `git` mehr ueber SMB (26.07.2026)
+
+Dieselbe SMB-Instabilitaet traf auch `git`: `commit`/`push`/`pull` direkt gegen das
+NAS-`.git` ueber den Mount hingen uninterruptibel und blockierten die `index.lock` fuer alle
+(Loops UND interaktives Claude). Loesung: NIEMAND committet mehr git-ueber-SMB. Der einzige
+NAS-Committer ist der **native** `nas-selfcommit.sh` (Synology, ext4, kein SMB, 15-Min-Cron).
+Auf Zuruf sofort ausloesbar via **`scripts/nas-commit-now.sh "<Message>"`** (ssh → nativer
+Commit+Push mit sprechender Message, danach SSD-Klon-Pull). `nas-selfcommit.sh` nimmt jetzt
+eine optionale Commit-Message (Arg 1) entgegen. Der `vollgas-runner`-Loop-Prompt ruft neu
+`nas-commit-now` statt selbst zu committen. Kodifiziert in den Rules `sync-kanonische-quelle`
+und `git-auto-push` (26.07.2026); die alte pathspec-Mitigation (Rule 260724) ist ueberholt.
+
+Offen/Folgeschritt: die einzelnen Scheduled-Task-`SKILL.md` (`~/.claude/scheduled-tasks/*/`)
+enthalten teils noch die alte Anweisung «NAS-Repo committen und pushen» — bei Gelegenheit auf
+`nas-commit-now` migrieren (die Rules gehen im Konflikt vor).

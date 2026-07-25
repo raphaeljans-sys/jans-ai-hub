@@ -1,5 +1,12 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-07-26 — Wissens-Chef Run 16 (Cross-KB): Quellenzuweisung v2.0 korrigiert, INDEX nachgezogen
+- **[korrektur, materiell] `parameter-sets/healthcare-neubau-zh.json`** hat mit der Neufassung v2.0 (25.07., 21:53) zwar das beanstandete Wohnbau-Band entfernt, die **Quellenzuweisung aber unveraendert uebernommen**: `quelle_kb: "wissen/grobkosten/"` plus Hinweistext «fuer CHF/m3 bzw. CHF/m2 fuehrend bleiben wissen/grobkosten/…». Genau diese Verwendung untersagt `grobkosten` ausdruecklich (Abschnitt «Healthcare / Spezialnutzung»; die KB erklaert sich fuer Healthcare in `CLAUDE.md` insgesamt fuer unzustaendig). Da `quelle_kb` das einzige maschinenlesbare Quellenfeld ist, waeren konsumierende Werkzeuge auf die untersagte Quelle gelenkt worden. → `quelle_kb` auf `wissen/immobilienbewertung/wiki/realwert-sachwert.md` umgestellt, neues Feld `quelle_kb_m2_nf` (Skill `kostenschaetzung`, Wueest) und `quelle_kb_nicht_anwendbar` (grobkosten, mit Begruendung); Zahlenwerte unveraendert, JSON schema-valide geprueft.
+- **[korrektur] `wiki/INDEX.md`** beschrieb das Set noch mit den v1.0-Quellen «CURAVIVA/Wueest/JANS 2410+2619/SIA 416», die die Neufassung ersatzlos entfernt hat (der Sub-Index `parameter-sets/INDEX.md` war bereits korrekt). → an den Ist-Zustand angeglichen (v2.0, Herkunft B4/B6, Scope Pflegeheim/Alterszentrum/betreutes Alterswohnen).
+- **[hinweis] Verfahren:** Der Sperrvermerk, den Wissens-Chef Run 15 im alten Block gesetzt hatte (Loeschung = rueckfragepflichtig), ist mit der Neufassung gegenstandslos geworden — faktisch wurde damit im KB-Loop die Loeschoption gezogen. Sachlich gut begruendet (B6 Abschnitt 0/8: kein externer Jurybericht nennt einen projektspezifischen Kennwert), verfahrensmaessig im Bericht benannt.
+- **[praezisierung]** Das oft zitierte Band **1'053-1'420 CHF/m3 GV** gilt nur fuer die sechs Neubauten ab 2019; das Gesamtband der acht Objekte ist **826-1'420**, der Median ~1'100 gehoert zum Gesamtband. v2.0 zitiert korrekt.
+- Bericht: `wissen/koordination/outputs/2026-07-26_wissens-chef-run16.md`.
+
 ## 2026-07-25 — `healthcare-neubau-zh.json` komplett neu geschrieben (v1.0 → v2.0, Etappe-3-Baustein B5)
 - **Vollstaendige Neufassung, rein aus den beiden established Etappe-3-Mustern abgeleitet**
   (Muster `wissen/wettbewerbs-dna/wiki/muster/kennwerte-healthcare.md` B6 +

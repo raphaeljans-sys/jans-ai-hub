@@ -9,6 +9,20 @@ und Historie) liegen in `rules/auto-verbesserungen-archiv.md` (nicht importiert)
 steht nur der aktive, imperative Kern. Konsolidiert am 19.07.2026 (Kontext-Diaet,
 Konzept: `docs/konzepte/260719-Kontext-Diaet-Token-Reduktion/`).
 
+## 260726 — Kein `git` ueber SMB aufs NAS-Repo: nativer Committer via nas-commit-now
+- **Regel:** NIEMALS `git commit`/`push`/`pull`/`rebase` direkt gegen `/Volumes/daten/jans-ai-hub/.git`
+  ueber den SMB-Mount ausfuehren — nicht Claude, nicht die Loops. Solche Befehle haengen unter
+  Last uninterruptibel (SMB-I/O) und blockieren die `.git/index.lock` fuer alle (belegt 25.07.
+  mehrfach: fremde Loop-Commits wedged minutenlang, mein Commit kam nicht durch). Stattdessen den
+  **nativen** Committer der Synology ausloesen: `bash scripts/nas-commit-now.sh "<Message>"`
+  (ssh → `nas-selfcommit.sh` auf ext4, commit+push, zieht danach den SSD-Klon nach). Ohne
+  Sofort-Bedarf reicht der 15-Min-Cron. Datei-Edits (Write/Edit) ueber SMB bleiben erlaubt; nur
+  `git` gehoert nativ auf die Synology. Damit ueberholt: die pathspec-Commit-Mitigation (Rule
+  260724) und der direkte Commit+Push-Schritt in `sync-kanonische-quelle`/`git-auto-push` (beide
+  Rules am 26.07. entsprechend umgeschrieben). Der Loop-Prompt im `vollgas-runner.sh` ruft neu
+  ebenfalls `nas-commit-now` statt selbst zu committen.
+- **Gilt fuer:** alle Stationen, alle Loops, jede Session — jeder Schreib-git-Zugriff aufs NAS-Repo.
+
 ## 260725 — Vollgas wieder aktiv: Drossel aufgehoben, Endlos-Runner beidseitig neu gestartet
 - **Regel:** Auf ausdrueckliche Anweisung Raphaels (25.07.2026) ist der Drosselzustand vom
   14.07. aufgehoben. Umgesetzt: STOP + STOP-Macmini in `logbuch/vollgas/` entfernt, der launchd-

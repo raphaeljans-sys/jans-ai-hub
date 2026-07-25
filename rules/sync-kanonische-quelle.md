@@ -8,9 +8,13 @@ Inhalte: `skills/`, `rules/`, `agents/`, `commands/`, `scripts/`, `templates/`, 
    (`~/Developer/jans-ai-hub/`) und nie in Worktrees. Die SSD-Ordner sind Lese-Spiegel
    (gleichen sich per `git pull` an).
 2. **Claude liest** ueber die Symlinks `.claude/{skills,agents,commands} → NAS`.
-3. **Nach jeder Aenderung**: NAS-Repo committen und nach GitHub pushen
-   (`cd /Volumes/daten/jans-ai-hub && git add … && git commit && git push github main`).
-   So erreicht der Inhalt Backup und zweite Station.
+3. **Nach jeder Aenderung**: NIE selbst `git` im NAS-Repo ueber den SMB-Mount ausfuehren
+   (haengt uninterruptibel, kollidiert auf `.git/index.lock`). Stattdessen den **nativen
+   Committer** ausloesen:
+   `bash /Volumes/daten/jans-ai-hub/scripts/nas-commit-now.sh "<sprechende Message>"`
+   — das committet+pusht auf der Synology (ext4, kein SMB) und zieht den SSD-Klon nach.
+   Ohne Sofort-Bedarf reicht der 15-Min-Cron `nas-selfcommit.sh` (er sichert liegen
+   gebliebene NAS-Edits von allein). So erreicht der Inhalt Backup und zweite Station.
 
 ## Warum
 
@@ -20,10 +24,13 @@ Frueher existierten drei divergente Kopien; der Auto-Sync sicherte die falsche. 
 ## NIE
 
 - Geteilte Inhalte im SSD-top-level oder Worktree editieren.
-- Einen automatischen Git-Job **ueber den SMB-Mount** auf das NAS-`.git` laufen lassen
-  (index.lock-Kollisionen). Praezisierung: der DSM-Cron `scripts/nas-selfcommit.sh` laeuft
-  seit 07/2026 **nativ auf der Synology** (ext4, alle 15 Min) und ist erlaubt — er sichert
-  liegen gebliebene NAS-Edits automatisch und ergaenzt Claudes direkten Commit+Push.
+- **IRGENDEIN `git`-Schreibbefehl (commit/push/pull/rebase) ueber den SMB-Mount auf das
+  NAS-`.git`** — nicht durch Claude, nicht durch die Loops, nicht als Cron. Solche Befehle
+  haengen unter Last uninterruptibel und blockieren die `.git/index.lock` fuer alle (belegt
+  25.07.2026 mehrfach). Der EINZIGE erlaubte NAS-Committer ist der **native** `nas-selfcommit.sh`
+  (laeuft auf der Synology, ext4, alle 15 Min) — auf Zuruf via `nas-commit-now.sh` (ssh).
+  Datei-Edits (Write/Edit) ueber SMB sind erlaubt; nur `git` gehoert nativ auf die Synology.
+  (Die fruehere pathspec-Commit-Mitigation aus Rule 260724 ist damit ueberholt.)
 - `git push --force` gegen GitHub `main`.
 
 ## Geltungsbereich

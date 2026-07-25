@@ -1,10 +1,21 @@
 # Regel: Git Auto-Push nach Commit
 
+## WICHTIG — NAS-Repo NIE ueber SMB committen/pushen (26.07.2026)
+
+Fuer das **NAS-Repo `/Volumes/daten/jans-ai-hub`** gilt diese Regel NICHT direkt: dort
+NIE selbst `git commit`/`push`/`pull` ausfuehren (git ueber den SMB-Mount haengt
+uninterruptibel und blockiert die `index.lock` fuer alle). Stattdessen den nativen
+Committer ausloesen:
+`bash /Volumes/daten/jans-ai-hub/scripts/nas-commit-now.sh "<sprechende Message>"`
+(commit+push nativ auf der Synology, zieht den SSD-Klon nach). Details:
+Rule `sync-kanonische-quelle.md`. Die Schritte unten gelten fuer **andere** Repos
+(lokaler SSD-Klon, Projekt-Repos), nicht fuer das NAS-Repo ueber den Mount.
+
 ## Geltungsbereich
 
 Gilt für alle Git-Repositories im JANS AI Hub-Kontext, insbesondere:
-- `~/Developer/jans-ai-hub` (lokales Repo)
-- `/Volumes/daten/jans-ai-hub` (NAS-Repo)
+- `~/Developer/jans-ai-hub` (lokales SSD-Repo — hier gilt der Workflow unten)
+- `/Volumes/daten/jans-ai-hub` (NAS-Repo — NUR via `nas-commit-now.sh`, siehe oben)
 
 ## Regel
 

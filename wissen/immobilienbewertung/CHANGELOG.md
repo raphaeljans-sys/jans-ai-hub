@@ -2,6 +2,10 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-26 — Wissens-Chef Run 16 (Cross-KB): Abnehmer-Block in `realwert-sachwert` gesetzt
+- **[verlinkung] Die fuehrende Healthcare-Kennwertquelle kannte ihre Abnehmer nicht.** `wiki/realwert-sachwert.md` ist laut Rollen-Matrix fuehrend fuer CHF/m3 GV und CHF je Pflegeplatz, hatte aber null Treffer fuer «entwurfs-referenzen», «parameter-set» oder «wettbewerbs-dna» — eine kuenftige Aenderung des Bands waere bei den Abnehmern unbemerkt geblieben. → Abnehmer-Block gesetzt (Parameter-Set `healthcare-neubau-zh.json` v2.0, Skills `healthcare-wirtschaftlichkeit` und `machbarkeit`), mit dem ausdruecklichen Hinweis, dass das Teilband 1'053-1'420 nur die sechs Neubauten ab 2019 betrifft, waehrend das Gesamtband 826-1'420 (Median ~1'100) gilt. Werte unveraendert.
+- Bericht: `wissen/koordination/outputs/2026-07-26_wissens-chef-run16.md`.
+
 ## 2026-07-25 — Training-Run 50: Delta-Null-Bestaetigungslauf (achtzehnter in Folge)
 
 - **Kein neuer Ingest, keine eigene Artikelaenderung.** KB unveraendert saturiert; kein
