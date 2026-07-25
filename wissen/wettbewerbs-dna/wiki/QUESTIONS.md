@@ -3,6 +3,24 @@
 Stand: 14.07.2026 (Etappe-3-Start: Bauaufgaben-Blocker geschlossen)
 
 ## Offen
+- **Kispi Luzern: sind die vier Bettenzahlen des Raumprogramms additiv? (Refuter Spital/Klinik,
+  25.07.2026):** Der Jurybericht listet unter «rund 17'300 m² Nutzfläche ... darin enthalten sind»
+  die Positionen 32 Betten Neonatologie, 15 Betten Kinder-Intensivmedizin, 72 Betten Kinderspital,
+  60 Betten Frauenklinik (S. 2), ohne zu sagen, ob sich die Positionen überschneiden. Die additive
+  Lesart ergibt 179 Betten und rund 96.6 m² NF je Bett (Stütze des Korridors 95–100 m²), die
+  nicht-additive Lesart 132 Betten und rund 131 m² — der Korridor bräche zusammen. **Klärungsweg:**
+  Wettbewerbsprogramm oder Raumprogramm-Anhang des Studienauftrags beschaffen (im `raw/` nicht
+  vorhanden) oder die Bettenzahl des realisierten Neubaus über die LUKS-Publikationen gegenprüfen.
+  Bis dahin gilt die Zahl als Annahme, und `flaechen.hnf_je_bett_m2` bleibt in B5 leer.
+- **Flächeneffizienz-Kennzahlen der Healthcare-Juryberichte sind undefiniert (Refuter
+  Spital/Klinik, 25.07.2026):** Belegt sind bisher drei Werte aus zwei Berichten — LUKS Sursee
+  «Feld und Flur» 1.64 (S. 23) und «Vier Jahreszeiten» 1.88 (S. 109), Tägermoos «Atlas» HNF/GFoi
+  0.76 (S. 46/47). **Keiner** der Berichte nennt die Berechnungsformel; die LUKS-Werte über 1
+  und der Tägermoos-Wert unter 1 sind offensichtlich verschiedene Grössen (vermutlich GF/NF
+  gegen HNF/GF). **Klärungsweg:** Vorprüfungsbericht LUKS Sursee oder die Beurteilungskriterien
+  («Flächeneffizienz, Kompaktheit (z.B. Faktor GF/NF)», S. 9) auswerten — der Hinweis GF/NF
+  stützt die Lesart, dass 1.64/1.88 = GF/NF sind, ist aber als «z.B.» formuliert und damit kein
+  Beleg. Solange offen, kein Parameter `flaechen.nf_gf_faktor` in B5.
 - **NAS-SMB-Mount instabil im Nachtfenster (Befund B2/B3 Healthcare Tranche 2, 25.07.2026):**
   Waehrend des Laufs brach der Mount `/Volumes/daten` mehrfach ab (LAN-IP 192.168.1.10 nicht
   erreichbar, Tailscale 100.92.246.28 ok). Folgen fuer die Loops: (a) ein Extraktions-Agent

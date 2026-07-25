@@ -130,6 +130,22 @@ Audit-Phase (Phase 1, unbeaufsichtigt), keine Wiki-Datei inhaltlich veraendert. 
 Versand/Publikation/Buchung. Korrekturen sind Phase-2-Kandidaten fuer eine interaktive
 Session (insbesondere die 82 kaputten sources-Referenzen und schallschutz-sia181.md).
 
+- 2026-07-25 21:30 (Nachtschicht Mac Mini): Richtigstellung eines zweimal (19:30, 20:30)
+  als "Scheduling-Problem"/"doppelte Prozesse" geflaggten Befunds. Per Prozessbaum-Check
+  (`pgrep -P`, `ps -o pid,ppid`) verifiziert: die vermeintlichen Duplikate sind KEINE
+  Kollision, sondern legitime Eltern-Kind-Prozesse derselben Lauf-Kette — `vollgas-runner.sh`
+  PID 86736 (Vollgas-Fenster seit 12:45) ist Kind von PID 68866 (seit 18:52), der Lock
+  `/tmp/jans-vollgas-runner.lock/pid` zeigt korrekt auf den Eltern-PID 68866; ebenso ist
+  `dispatch-run.sh` PID 88142 Kind von PID 88132 (mein eigener Lauf), keine zweite
+  Dispatch-Instanz. Kein Scheduling-Bug, keine Budget-Verdoppelung durch Doppelstart — das
+  war eine Fehllesung von `ps aux | grep` ohne Eltern-Kind-Zuordnung. Bedarf keine
+  Aenderung an Lock-Mechanik/Supervisor. Alle uebrigen Prioritaeten (Sync-Queues leer,
+  Synobsis idle, alle Trainings-KBs inkl. immobilienbewertung/spec/twin/baurecht/
+  wettbewerbs-dna in den letzten 1-3h vom laufenden Vollgas-Fenster aktiv beschrieben,
+  Wissenscheck-Kandidaten koordination/auflagebereinigung/immobilienbewertung entweder
+  heute schon geprueft oder ohne aktionsfaehigen offenen Punkt) blieben ohne Kollisions-
+  freien Ansatzpunkt. Kein Versand/Publikation/Buchung. Zyklus schlank beendet (~2 von 5 USD).
+
 ## 2026-07-24
 
 **Nachtschicht Mac Mini (~23:30, Wissens-Health-Check auflagebereinigung, Dispatch-Run

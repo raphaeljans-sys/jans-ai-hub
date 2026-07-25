@@ -1,5 +1,78 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-25 — Refuter-Welle B6 Healthcare, Quellgruppe Spital/Klinik (KSA Aarau, LUKS Sursee, USB Basel, Kispi Luzern)
+- Unabhängige Gegenprüfung aller Zahlen der Quellgruppe Spital/Klinik im Artikel
+  `wiki/muster/kennwerte-healthcare.md` gegen die vier Rohtexte in `raw/`
+  (`extern-jurybericht-kantonsspital-aarau-ksa.txt`,
+  `extern-jurybericht-luks-sursee-schwyzermatt.txt`,
+  `extern-jurybericht-universitaetsspital-basel-klinikum-2.txt`,
+  `extern-jurybericht-luks-kinderspital-frauenklinik-luzern.txt`). Seitenbezug über die
+  Seitenumbrüche des pdftotext-Extrakts; KSA gedruckte Seite = PDF-Seite, LUKS Sursee, USB und
+  Kispi Luzern gedruckte Seite = PDF-Seite minus 2. **71 Einzelaussagen geprüft, 56 bestätigt,
+  15 korrigiert oder verworfen.**
+- **Verworfen (1):** Das Band «Akutspital-Tragwerksraster 7.5–8.4 m, zwei Quellen, vier Projekte»
+  und die Aussage «der einzige subtypreine Band-Kennwert dieses Benchmarks». Dieselben zwei
+  Berichte enthalten **neun** Rasterangaben mit einer Spanne von **7.1 bis 10.8 m**: neu belegt
+  KSA «Merlin» Achsmasswechsel 8.1 → 7.1 m (S. 57), KSA «MOMENTUM» 7.5 × 7.5 m (S. 67),
+  Sursee «Tournesol» 10.8 × 10.8 m (S. 104), «Vier Jahreszeiten» 8.10 × 8.10 m (S. 108),
+  «lumière du lac» 8.10 × 8.10 m (S. 112). 7.5–8.4 bleibt als Schwerpunkt (7 von 9 Werten,
+  beide Siegerprojekte), Parameter `raster.tragwerk_m` auf 7.1–10.8 mit Schwerpunkt geändert.
+  Bemerkenswert: die Jury kritisiert nur den unteren Rand (7.1 m verunmöglicht Zweitbett),
+  10.8 m nennt sie «für das Sockelgeschoss angemessen».
+- **Verworfen (2):** «1.64 (LUKS Sursee) ist die einzige Flächeneffizienz-Zahl der ganzen
+  Sammlung». Derselbe Bericht nennt 1.88 für «Vier Jahreszeiten» (S. 109), dazu die zweite
+  absolute Geschossfläche 37'500 m². Abschnitt 0 und 2a/2b entsprechend nachgeführt.
+- **Verworfen (3):** Das Band «selektives Verfahren / Studienauftrag 7 bis 10 Beiträge». Die
+  beiden Spital-Studienaufträge arbeiten mit je fünf Teams (Kispi Luzern S. 4, LUKS Sursee
+  Stufe 2 S. 11). Band und Parameter `verfahren.beitraege_selektiv` auf **5–10** korrigiert;
+  Subtyp-Effekt ergänzt (Pflege 7–10, Spital 5).
+- **Verworfen (4):** «Fensteranteil-Band bei LUKS Sursee über vier Finalisten» (elf Projekte).
+  Beziffert sind nur drei Werte (60 % S. 23, 45 % S. 50, 41 % S. 36); PROMENADE und Vincent
+  tragen keinen. Band auf «zehn Projekte / drei Werte» korrigiert, Begriffsmischung
+  Fensteranteil ↔ Glasanteil offengelegt.
+- **Verworfen (5):** «GRÜNACHSE und PROMENADE im mittleren Bereich». PROMENADE hat mittlere
+  Kompaktheit, aber ausdrücklich **geringe Flächeneffizienz** (S. 65).
+- **Korrigiert (6)–(10):** KSA-Seitenbelege. Fünf Fundstellen «S. 6/8» auf **S. 8** korrigiert
+  (500 Betten, 50'000 m² HNF, CHF 600 Mio. — S. 6 ist die Ausgangslage ohne jede dieser Zahlen);
+  verbindliches Kostendach auf **S. 9–11**; Ausbauraster 1.25 m auf **S. 60** statt S. 32–36;
+  Zimmerachse 4.20 m auf **S. 43**; Tragwerksraster 7.5 / 7.5 m auf S. 36 und S. 60.
+- **Korrigiert (11):** KSA «Erweiterung um 2 Bettenstationen (Total 72 Betten)» ist eine
+  **Soll-Vorgabe der Auslobung** («die gewünschte Erweiterung»), nicht das Ist eines Beitrags;
+  wortgleich auf S. 24/34/46. Der abgeleitete Wert 36 Betten je Station erbt diesen Charakter.
+- **Korrigiert (12):** KSA «keine Preissumme» ist ein Fehlen im Bericht (null Treffer für
+  Preissumme/Preisgeld/Entschädigung), keine ausdrückliche Feststellung — gekennzeichnet.
+  Ebenso vermerkt: der Bericht druckt «Budget von CHF 600 für den Neubau», die Einheit «Mio.»
+  fehlt im Original.
+- **Korrigiert (13):** Kispi Luzern — die Bettensumme **179 ist eine Annahme**, keine
+  Berichtsangabe; der Bericht listet 32/15/72/60 als Raumprogramm-Positionen ohne
+  Additivitätsaussage. Bei nicht-additiver Lesart (132 Betten) ergäben sich rund 131 m² NF je
+  Bett und der Korridor 95–100 m² fiele weg. Vorbehalt in Abschnitt 1a und 8 eingetragen;
+  Parameter `flaechen.hnf_je_bett_m2` von «nur als Plausibilitätsfeld» auf «nicht setzen» verschärft.
+- **Korrigiert (14):** LUKS Sursee «max. 6 Geschosse Seeblick» ist eine **Empfehlung des
+  Beurteilungsgremiums an den Bebauungsplan** (S. 16), keine Rahmenvorgabe der Auslobung;
+  auf S. 5 steht dazu nichts.
+- **Korrigiert (15):** Vier Seitenbelege LUKS Sursee — GRÜNACHSE **S. 36**, HOSPES **S. 50/51**,
+  PROMENADE **S. 65**, Wirtschaftlichkeitszeile **S. 36/50–51/65/79**.
+- **Bestätigt (Auswahl):** KSA ca. 500 Betten / 50'000 m² HNF / CHF 600 Mio. (500 + 100) auf S. 8,
+  BKP-2-Referenzschwelle CHF 50 Mio. auf S. 9, Verfahren 11 → 6 → 3 auf S. 4–5/54, Normzimmer
+  21 m² auf S. 32/34, Merlin 112 × 135 m und ca. 34 m auf S. 23, Dreiklang ca. 45 m und
+  75 × 80 m auf S. 33, Fünftausendeins 182/160 m, ca. 35 m auf S. 45 und Grundraster 8.40 m auf
+  S. 43/44/47; LUKS Sursee 38'100 m² und 1.64 auf S. 23, 8 × 8 m auf S. 23, 8.40 m auf S. 50,
+  Seeblick 100 Betten = 4 × 22 + 12 auf S. 5, Verfahren 22 → 5 auf S. 10–11, Preise Stufe 1
+  CHF 250'000 / acht Preise 50'000–14'000 auf S. 12, Stufe 2 CHF 90'000 ohne Rangierung auf
+  S. 15; USB Parzellen 68'193 / 3'146 m², Mantellinien 70/60/29 m auf S. 14, NF + 12 % auf S. 15,
+  100 Motorrad-/1'200 Veloplätze auf S. 16, Verfahren 31/2/1/19 und 17/9/7 auf S. 17–20, Preise
+  900'000 / 20'000 / 40'000 auf S. 9 und 85/75/50/40/30 auf S. 22, Anna Blume rund 30 % auf
+  S. 104, Margino rund 80 % auf S. 80; Kispi Luzern 17'300 m² NF, 5 OP, 7 Gebärsäle, Betten
+  32/15/72/60 und Notfall 8+8+8 auf S. 2, Verfahren 19 → 5 und CHF 130'000 inkl. MWST auf S. 4,
+  LES TERRASSES ca. 4 % auf S. 26.
+- **Negativbefund Abschnitt 0 für diese vier Quellen verifiziert:** kein CHF/m²- oder
+  CHF/m³-Kennwert, kein Gebäudevolumen in m³, keine projektspezifischen Erstellungskosten;
+  LUKS Sursee, USB und Kispi Luzern nennen überhaupt keine CHF-Millionenzahl. Die Bettenzahl
+  des Spitalgebäudes Schwyzermatt bleibt unbelegt (die 886 Akutbetten auf S. 4 sind die
+  Gruppenzahl der LUKS).
+- Artikel bleibt `draft`.
+
 ## 2026-07-25 — Refuter-Welle B6 Healthcare, Quellgruppe Pflegeheim/Alterszentrum (Adliswil, Bombach, Widnau)
 - Unabhängige Gegenprüfung aller Zahlen aus der Quellgruppe Pflegeheim/Alterszentrum im Artikel
   `wiki/muster/kennwerte-healthcare.md` gegen die drei Rohtexte in `raw/`
