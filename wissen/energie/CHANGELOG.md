@@ -2,6 +2,22 @@
 
 Neueste zuoberst.
 
+## 2026-07-25 — GEAK-Kosten-Destillat: zweite/dritte unabhängige Quelle gefunden, emerging → established
+
+`destillate/geak-kosten-efh-mfh.md` hatte als offenen Punkt «zweite unabhängige Quelle zur
+Triangulierung» (bislang nur die Sekundärquelle immoverkauf24.ch). Recherche via WebSearch/WebFetch
+fand drei unabhängige Marktquellen: **Göldi Energie** (Kt. Bern, eigene fixe Preisliste eines am
+Markt tätigen GEAK-Anbieters — echte Primärquelle: GEAK EFH CHF 750 / MFH 3–10 WE CHF 1'000, GEAK
+Plus EFH CHF 2'000 / MFH 3–10 WE CHF 2'800, Förderung Kt. Bern EFH −1'000/MFH −1'500), sowie zwei
+zertifizierte GEAK-Experten mit eigenen Preisangaben (energielukas.ch: GEAK Plus EFH ab CHF 1'150
+netto, MFH ab CHF 1'450 netto; rundumenergie.ch: GEAK Plus EFH ab CHF 2'700 brutto). Alle drei
+bestätigen dieselbe Grössenordnung wie immoverkauf24.ch (leicht am oberen Rand, besonders beim
+Basis-GEAK), liefern erstmals eine konkrete MFH-GEAK-Plus-Zahl und schliessen damit den bisher
+offenen Triangulierungs-Punkt. Kernzahlen-Tabelle verbreitert (EFH GEAK CHF 450–750, GEAK Plus
+CHF 1'400–2'700; MFH GEAK CHF 500–1'000, GEAK Plus 3–10 WE CHF 2'800), Belegstärke-Abschnitt und
+Offene-Punkte-Liste aktualisiert, Frontmatter mit quelle_2/quelle_3 ergänzt, Status auf
+`established` gehoben (ab 10 WE MFH GEAK Plus bleibt offen — keine Quelle nennt hier eine Zahl).
+
 ## 2026-07-25 — Run 107: WPSM-Pflichtenheft primärquellig geschlossen (established), Duplikat-
 ## Analyse SIA-2024-Gesundheitsbau abgeschlossen (Merge-Empfehlung an Raphael)
 
