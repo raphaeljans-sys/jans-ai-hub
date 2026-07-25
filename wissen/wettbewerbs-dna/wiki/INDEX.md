@@ -1,6 +1,21 @@
 # INDEX — KB wettbewerbs-dna
 
-Stand: 25.07.2026 (Etappe 3, **Baustein B4 Healthcare — Muster-Synthese
+Stand: 25.07.2026 (Etappe 3, **Baustein B2/B3 Healthcare Tranche 3 (Vertiefung) — Healthcare B3 nun
+11 established, damit ueber dem B3-Ziel 8:** 3 weitere externe Juryberichte destilliert +
+Refuter-verifiziert (established) — **luks-kinderspital-frauenklinik-luzern** (spital-klinik,
+Kinderspital + Frauenklinik + Perinatalzentrum, Studienauftrag im selektiven Verfahren 2019/2020,
+Siegerprojekt «SCHMETTERLING» Burkard Meyer / Bollhalder Eberle; bewusst OHNE Rangierung wegen fester
+Entschaedigung von je CHF 130'000 fuer alle 5 Teams; Refuter korrigierte 9 Stellen, darunter eine
+Zitat-Konflation zwischen Projektwuerdigung und Empfehlungsliste sowie eine unbelegte Sockel-Typologie),
+**gz-alterswohnen-thurgauerstrasse-zuerich** (gemischt: Gesundheitszentrum fuer das Alter + Alterswohnungen
+SAW, Zuerich-Seebach 2025, Sieger «BINGO FLAMINGO»; Refuter korrigierte 23 Stellen, darunter mehrere
+ueberdehnte Exklusivitaets-Behauptungen «einziges Projekt, das …»), **kjpk-upk-basel** (psychiatrie,
+Kinder- und Jugendpsychiatrische Klinik Basel 2012, 43 Beitraege; Refuter korrigierte 17 Stellen,
+darunter eine systematische Seiten-Drift von −1 bei ALLEN sieben Team-Steckbriefen). Damit sind die
+Subtypen Kinderspital, Kinder-/Jugendpsychiatrie und gemischt-Hochhaus neu abgedeckt. Workflow-Pipeline
+1 Extraktion (Sonnet) → 1 Refuter (Hauptmodell), 6 Agenten / 0 Fehler; 287 Einzelaussagen geprueft,
+49 Korrekturen, 64 belegte Kennwerte fuer B6 eingesammelt. **Naechste Zelle: Healthcare B6
+Kennwert-Benchmark.**) — vorher 25.07.2026 (Etappe 3, **Baustein B4 Healthcare — Muster-Synthese
 `muster/jury-argumente-healthcare.md` auf `established` gehoben:** 5 parallele Quellen-Shard-Refuter
 + 1 abschliessender Konsistenz-Refuter gegen die 8 Rohextrakte bestanden. Der Konsistenz-Refuter
 vereinheitlichte die Kennwert-Lücke-Zahl (Verifikations-Hinweis «sechs» vs. Offene Punkte «Fünf» →
@@ -123,7 +138,7 @@ Teil 2 Rang-Klaerung UND Teil 3 Muster-Verdichtung, siehe `training/PROGRAMM.md`
   `grobkosten-onepager` (JANS-Grobkosten-Vorlagen). **Erfuellt den letzten offenen
   Endbedingung-Punkt Etappe 2** (Bild-Katalog indexiert).
 
-## Externe Referenz-Juryberichte (wiki/extern/) — 23/23 established (Schulbau) + 8/8 established (Healthcare, B3-Ziel erreicht)
+## Externe Referenz-Juryberichte (wiki/extern/) — 23/23 established (Schulbau) + 11 established (Healthcare, B3-Ziel 8 uebertroffen)
 
 Healthcare (Alters-/Pflege-/Gesundheitsbau), alle established: kantonsspital-aarau-ksa (spital-klinik,
 Sieger «Dreiklang»), alterszentrum-sihlsana-adliswil (pflegeheim, Sieger «SOPHIE»),
@@ -138,9 +153,17 @@ universitaetsspital-basel-klinikum-2 (spital-klinik, Erneuerung Klinikum 2 USB 2
 «Arcadia», giuliani.hönger/Caretta+Weidmann; refuter korrigierte ~20 systematisch verschobene
 Seitenzitate bei drei Projektwuerdigungen), alters-pflegezentrum-widnau (pflegeheim-alterszentrum,
 Schlussbericht Studienauftrag 2017, empfohlenes Projekt Cukrowicz Nachbaur Architekten Bregenz,
-kein Rangsystem sondern einstimmige Empfehlung; refuter korrigierte 7 Stellen). **B3-Ziel 8/8
-erreicht — naechste Zelle Healthcare B4 (Muster-Synthese jury-argumente-healthcare, neu
-anzulegen).**
+kein Rangsystem sondern einstimmige Empfehlung; refuter korrigierte 7 Stellen),
+luks-kinderspital-frauenklinik-luzern (spital-klinik/Kinderspital + Frauenklinik + Perinatalzentrum,
+LUKS Luzern, Studienauftrag im selektiven Verfahren 2019/2020, Siegerprojekt «SCHMETTERLING»,
+Burkard Meyer mit Bollhalder Eberle; ohne Rangierung wegen fester Entschaedigung je CHF 130'000;
+refuter korrigierte 9 Stellen), gz-alterswohnen-thurgauerstrasse-zuerich (gemischt: Gesundheits-
+zentrum fuer das Alter + Alterswohnungen SAW, Zuerich-Seebach 2025, Sieger «BINGO FLAMINGO»;
+Hochhaus-Typologie im Alterswohnen; refuter korrigierte 23 Stellen, v.a. ueberdehnte
+Exklusivitaets-Behauptungen), kjpk-upk-basel (psychiatrie/Kinder- und Jugendpsychiatrie Basel 2012,
+43 Beitraege; refuter korrigierte 17 Stellen inkl. systematischer Seiten-Drift −1 bei allen sieben
+Team-Steckbriefen). **B3-Ziel 8 uebertroffen (11 established) — naechste Zelle Healthcare B6
+(Kennwert-Benchmark kennwerte-healthcare).**
 
 Schul-/Bildungsbau 2012–2026: bruehl-solothurn, faellanden, froeschmatt-pratteln,
 heilpaedagogische-schule-bern, hinter-gaerten-riehen, kantonsschule-baden,
