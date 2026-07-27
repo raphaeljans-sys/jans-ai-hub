@@ -374,11 +374,14 @@ Tabelle regeln u. a. Mindest-Rohdichten (Mineralwolle ≥ 26 bzw. 50 kg/m³, Sch
 Repräsentative Grössenordnungen (keine vollständige Wiedergabe der Varianten-Matrix —
 siehe «Offene Punkte»):
 - Balkendecken REI30 (mit wirksamem Unterbau, Tab. 431-2, S. 23): Balkenquerschnitte
-  b×h von 60×100 bis 100×220 mm, im Einzelfall 60×230 mm (Variante D), Alternativen
-  u. a. 120×140 / 80×120 / 80×100 mm; Hohlraumdämmung Mineralwolle 100–120 mm, untere
-  Beplankung je nach Variante und Material 9,5–20 mm (Gipsplatte 9,5/12,5 mm,
-  Gipsfaserplatte 10/12,5 mm, Massivholzplatte/OSB 15–20 mm); eine separate Zeile
-  «Deckenbekleidung» führt erst Tab. 431-3/431-4.
+  b×h von 60×100 bis 100×220 mm, im Einzelfall 60×230 mm (Variante D); Hohlraumdämmung
+  Mineralwolle 100–120 mm, untere Beplankung je nach Variante und Material 9,5–20 mm
+  (Gipsplatte 9,5/12,5 mm, Gipsfaserplatte 10/12,5 mm, Massivholzplatte/OSB 15–20 mm);
+  eine separate Zeile «Deckenbekleidung» führt erst Tab. 431-3/431-4. (Korrektur
+  27.07.2026, fünfte Runde: die Erstfassung nannte zusätzlich «Alternativen u. a.
+  120×140/80×120/80×100 mm» — diese drei Werte kommen in Tab. 431-2 nicht vor; die
+  Balkenlage-Zeile enthält über alle zehn Varianten A–K ausschliesslich die fünf
+  Kombinationen 100×220, 60×160, 60×100, 60×230 und 80×170 mm. Entfernt.)
 - Balkendecken REI90 (Tab. 431-4, S. 25): Balken bis 120×250/140×200/160×180 mm bzw.
   schlanker 100×210/120×200 bzw. 60×240/60×180 mm mit dickerer Hohlraumdämmung
   (180–240 mm) und z. T. Brandschutzplatte BSP60 in der unteren Beplankung/
@@ -867,3 +870,76 @@ weiterer Befund.
 
 Da diese Runde einen Befund (wenn auch eine Regression statt eines neuen Fehlers) ergab,
 bleibt der Status **speculative**.
+
+### 27.07.2026, fünfte Runde (Run 34, unabhängiger Refuter-Agent)
+
+**Verdikt: BEANSTANDET, 2 Befunde — beide im Destillat korrigiert.**
+
+Vorgehen: komplette Neulektüre aller drei Original-PDFs (Teil A 5 Seiten, Teil B 15 Seiten,
+Teil C 20 Seiten, total 40 Seiten inkl. Titelblatt/Impressum/Buchrücken) gegen das komplette
+Destillat (alle 870 Zeilen), mit explizitem Refuter-Auftrag (aktiv widerlegen statt
+bestätigen). Schwerpunkt: alle bisherigen Korrekturen aus Runde 1–4 als Regressionscheck,
+plus zeilenweise Neuprüfung jeder weiteren Aussage, Tabelle, Kennzahl und Fussnote.
+
+**Regressionscheck — alle bisherigen Korrekturen bestätigt, eine davon war zu Beginn dieser
+Runde bereits (separat) korrigiert worden:**
+- **Abb. 310-2 (Massgebende Dicke bei profilierten/gefasten Querschnitten, S. 12):** Diese
+  Runde begann mit einem bereits im Fliesstext eingearbeiteten Fund (Kap. 3.2): Die dritte
+  Runde hatte «Massivholzplatten» fälschlich aus der Sechser-Aufzählung entfernt, die vierte
+  Runde hatte diese Entfernung fälschlich als korrekt bestätigt. Beim direkten Bildvergleich
+  (Teil B, S. 12) steht im Original unter Ziffer 1 wörtlich: «Bei Querschnitten aus Vollholz,
+  Brettstapeln, Massivholzschalung, Massivholzplatten, Furniersperrholz und
+  Furnierschichtholz müssen Fasen bis 2 mm Tiefe nicht berücksichtigt werden.» — sechs
+  Baustoffe. Die vorliegende Runde hat diesen Fund unabhängig anhand des Original-Scans
+  nachvollzogen und bestätigt: die im Fliesstext bereits stehende Korrektur ist zutreffend.
+  Ebenso bestätigt: Ziffer 2 (OSB-/Span-/Faserplatten) erlaubt Fasen bis 2 mm, aber keine
+  anderen Profilierungen («Andere Profilierungen sind nicht erlaubt» — Originalwortlaut).
+- Kap. 2.2 c) / Kap. 3.2 (SIA-265/1-Zitat): bestätigt korrekt (c)-Liste im Original nur
+  [6]/[14]/[16]; SIA-265/1-Zitat mit Fundstelle korrekt in Kap. 3.2, S. 13).
+- Kap. 4.5.2.1 (mehrseitige Brandeinwirkung): bestätigt korrekt (Original S. 55 exakt wie im
+  Destillat wiedergegeben: «bei mehrseitiger Brandeinwirkung auf lineare, vollflächige
+  Rechteckquerschnitte»).
+- Kap. 5.2.2 / Tab. 522-1 (K/EI-Alternative): bestätigt korrekt. Der Original-Spaltenkopf
+  lautet wörtlich «Bauteil RF1» mit den Zellwerten «Estrich 30 mm»/«Beton 60 mm» (30 Min.)
+  bzw. «Estrich 50 mm»/«Beton 80 mm» (60 Min.); der Fliesstext S. 59 nennt explizit «Bauteil
+  EI30-RF1 anstelle Bekleidung K30-RF1». Die in Runde 4 wiederhergestellte Fassung ist exakt
+  zutreffend.
+- Fugentyp Wand/Decke (Abb. 330-2, S. 15): bestätigt korrekt (Wand über freiem Feld nur
+  Typ 1; Decke über freiem Feld Typ 1–3; direkt auf Ständer/Balken/Latte je alle vier Typen).
+- VSSM-Schreibweise (Projektpartner-Verzeichnis, S. 79): bestätigt korrekt («VSSM Verband
+  Schweizerischer Schreinermeister und Möbelfabrikanten»).
+- Tab. 431-3/431-4, Tab. 437-1/437-2, Tab. 441-1, Tab. 436-1, Tab. 442-5, Tab. 541-2,
+  Tab. 445-1/445-2, Tab. 446-1/446-2/446-3, Tab. 447-1, Tab. 462-1/462-2: sämtliche im
+  Destillat genannten Zahlenwerte (Balkenquerschnitte, Ständerquerschnitte, Plattendicken,
+  Betonplattendicken, Traglasten, BSP-Schichtdicken) einzeln gegen die Original-Tabellen
+  nachgerechnet und bestätigt — keine weitere Regression gefunden.
+
+**Neuer Befund (Runde 5):**
+1. **Kap. 4.3.1.2, Tab. 431-2 (Balkendecken REI30 mit brandschutztechnisch wirksamem
+   Unterbau, S. 23):** Das Destillat behauptete zusätzlich zur Bandbreite «60×100 bis
+   100×220 mm, im Einzelfall 60×230 mm» noch «Alternativen u. a. 120×140/80×120/80×100 mm».
+   Beim zellenweisen Durchgehen der Zeile «4 Balkenlage» über alle zehn Varianten A–K zeigt
+   sich: Es kommen ausschliesslich die fünf Kombinationen 100×220, 60×160, 60×100, 60×230
+   und 80×170 mm vor — keine der drei zusätzlich genannten Kombinationen ist in dieser
+   Tabelle belegt (auch nicht in einer benachbarten Tabelle wie Tab. 432-1, Rippendecken,
+   wo andere Balken-/Rippenquerschnitte gelten). Vermutlich eine nicht quellengestützte
+   Ergänzung aus einer früheren Fassung. Korrigiert: Satzteil entfernt.
+2. Abb. 310-2 (siehe Regressionscheck oben) — separat vor Beginn dieser Runde bereits im
+   Fliesstext korrigiert, hier als Teil dieser Runde unabhängig verifiziert und bestätigt.
+
+**Weitere zeilenweise Prüfung:** Titelblatt/Impressum/Herausgeber-/Autoren-/STP-Angaben,
+Inhaltsverzeichnis, Kap. 2 (Grundlagen, Tab. 210-1/231-1/232-1/232-2/240-1), Kap. 3
+(Ausführungsbestimmungen, Tab. 320-1 vollständig, Tab. 330-1), Kap. 4.1–4.2 (Bauteile mit
+Mindestkantenabmessung, Abb. 420-1/420-2), sämtliche Katalogtabellen Kap. 4.3–4.4 (inkl.
+Rippendecken-, Hohlkastendecken-, Brettstapeldecken-, Massivholzdecken-, Fachwerkwand-,
+Brettstapelwand-Werte, die in den vorigen Runden nicht im Detail nachgerechnet worden waren),
+Kap. 4.5–4.6 (Abbrandbemessung, Brandschutzplatten, Tab. 462-1/462-2), Kap. 5 vollständig
+(Systematik, Ausführungsbestimmungen 5.2.1–5.2.5, Deckensysteme RF1 Kap. 5.3, Wände RF1
+Kap. 5.4 inkl. Tab. 541-1), Glossar (Kap. 6/7, alle Einträge einzeln gegenlesen), Literatur-
+verzeichnis (Kap. 8, alle 20 Einträge), Anhänge/Gesamtstruktur/Projektpartner (S. 78 f.),
+Impressum (S. 80) — durchgehend fehlerfrei gegen die Original-Scans bestätigt.
+
+Da diese Runde einen neuen, quellenbelegten Befund ergab (Tab. 431-2), bleibt der Status
+**speculative**. Es handelt sich um die fünfte Runde in Folge mit mindestens einem Befund;
+ein sauberer Nulldurchgang (Voraussetzung für die Hebung auf `established`) steht weiterhin
+aus.

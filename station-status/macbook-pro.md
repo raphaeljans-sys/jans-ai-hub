@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 27.07.2026 19:18:57
+Stand: 27.07.2026 19:29:06
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 19:13)
+- Developer/jans/ai/hub  (letzte Aktivitaet 19:23)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 27.07.2026 19:18:57
 - 4 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 4761724c nas-selfcommit: 3 Datei(en) 2026-07-27 19:15
+- 944d25ee sync: twin-mail-training: Batch 77 Bookkeeping-Korrektur (Kollision mit Fidelity 260727g), mail@-Endpunkt auf 2026-07-17 vorgezogen
