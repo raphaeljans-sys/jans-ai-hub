@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-25 (Run 58)
+last_updated: 2026-07-27 (Run 59)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -113,6 +113,28 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 59 (2026-07-27, Festigungsmodus, Priorität (a) Cross-KB-Flag + Priorität (c)
+    Stichproben-Re-Verifikation, kein Agent-Fan-out):** Cross-KB-Flag der KB `energie`
+    (Wissens-Chef Run 16, 26.07.2026) zu § 273/§ 260 Abs. 4 PBG bearbeitet. Zwei der drei
+    gemeldeten Fundorte (`wiki/gebaeudearten-und-abstandssystem.md:31`, `wiki/INDEX.md:17`)
+    waren bereits korrekt (Minibau § 260 Abs. 4 und Besonderes Gebäude § 273 schon als zwei
+    getrennte Kategorien geführt). **Echte Lücke** in `wiki/abstaende-und-hoehen.md`
+    geschlossen: § 260 Abs. 4 PBG (Minibau, 1,5 m/2 m², vollständige Grenz-/Gebäudeabstands-
+    befreiung) fehlte im Hauptabschnitt «Grenzabstand» komplett, jetzt ergänzt und klar von
+    § 273 (nur reduzierter Gebäudeabstand 3,5 m) abgegrenzt. **Echter Fund, in der Meldung
+    nicht benannt:** `buecher/band-2/15-lage-von-gebaeuden-teil3-harmonisierung.md:72`
+    zitierte Minibauten fälschlich als «§ 273 nPBG» statt § 260 Abs. 4 PBG — korrigiert;
+    Register-Sweep über `training/curriculum.md` negativ (dort bereits korrekt). Beide
+    Wiki-Zielartikel wortlautverifiziert gegen `raw/260607_amtlich_zh_pbg.md` +
+    `raw/260607_amtlich_zh_abv.md`. **Priorität (c):** [[geschosse-und-kniestock]] (ältestes
+    `verifiziert`-Datum, zuletzt Run 34/13.07.2026) — §§ 275/276 PBG **beide Fassungen**
+    (harmonisiert + alt/Anhang) wortlautgeprüft, **CONFIRMED, 0 Korrekturen.** **0
+    Halluzinationen, 1 echte Lücke geschlossen, 1 Fehlzitat korrigiert, 0 neue Fehler bei der
+    Re-Verifikation.** 3 neue Drill-Karten (1×A, 1×D, 1×C). Report
+    `outputs/2026-07-27_buch-run59.md`. **Nächster Schritt:** zweitältestes
+    `verifiziert`-Datum als Priorität-(c)-Kandidat (`baulinien-und-abstandslinien`/
+    `naturschutz-und-denkmalschutz`/`raumplanung-und-gestaltung`/
+    `wohnhygiene-und-raumanforderungen`, alle zuletzt 2026-07-14 geprüft).
   - **Run 58 (2026-07-25, Festigungsmodus, Priorität (c) Stichproben-Re-Verifikation, kein
     Agent-Fan-out):** Run 57s Empfehlung gefolgt — die zwei zurückgestellten Kandidaten
     [[bauausfuehrung-und-baukontrolle]] und [[widerrechtliche-bauten-und-sanktionen]] (beide

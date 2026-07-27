@@ -4,6 +4,27 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-27 — Buch-Run 59 (Festigungsmodus, Priorität a: Cross-KB-Flag § 273/§ 260 Abs. 4 geschlossen + Priorität c: Geschosse/Kniestock re-verifiziert)
+- [korrektur] **`wiki/abstaende-und-hoehen.md`** — echte Lücke aus dem Cross-KB-Flag (Wissens-Chef
+  Run 16) geschlossen: § 260 Abs. 4 PBG (Minibau, 1,5 m/2 m², vollständige Grenz- **und**
+  Gebäudeabstandsbefreiung, bereits geltender Hauptteil) fehlte im Hauptabschnitt «Grenzabstand»
+  komplett und war nur in der Harmonisierungs-Sektion erwähnt. Neuer Absatz ergänzt, klar
+  abgegrenzt von der «Besonderes Gebäude»/§ 273-Erleichterung (≤4 m/5 m, nur reduzierter
+  **Gebäudeabstand** 3,5 m). Wortlautverifiziert gegen `raw/260607_amtlich_zh_pbg.md`
+  Z. 2747-2748 + `raw/260607_amtlich_zh_abv.md` Z. 1272-1274. `verifiziert`-Feld nachgeführt.
+- [korrektur] **`buecher/band-2/15-lage-von-gebaeuden-teil3-harmonisierung.md:72`** — echter Fund,
+  nicht in der ursprünglichen Cross-KB-Meldung benannt: zitierte Minibauten fälschlich als
+  «§ 273 nPBG; § 2a nABV» statt **§ 260 Abs. 4 nPBG / § 2 Abs. 2 ABV**. Korrigiert; Register-Sweep
+  über `training/curriculum.md` negativ (dort bereits korrekt).
+- [bestätigt] **`wiki/gebaeudearten-und-abstandssystem.md:31`** und **`wiki/INDEX.md:17`** — beide
+  bereits korrekt (Minibau/§ 260 Abs. 4 und Besonderes Gebäude/§ 273 schon als zwei getrennte
+  Kategorien geführt), kein Korrekturbedarf.
+- [verifiziert] **[[geschosse-und-kniestock]]** (Priorität c, ältestes `verifiziert`-Datum
+  2026-07-13) — §§ 275/276 PBG **beide Fassungen** (harmonisiert + alt/Anhang) wortlautgeprüft
+  gegen `raw/260607_amtlich_zh_pbg.md`, CONFIRMED, 0 Korrekturen.
+- 3 neue Drill-Karten (1×A, 1×D, 1×C). QUESTIONS-Cross-KB-Eintrag geschlossen (Archiv-Vermerk).
+- Bericht: `outputs/2026-07-27_buch-run59.md`.
+
 ## 2026-07-26 — Wissens-Chef Run 16 (Cross-KB): § 273-Eingang aus der KB `energie` zugestellt
 - **[eingang] Struktur-Muster 1 «Uebergabe verpufft im abgebenden KB».** Die KB `energie` hat am 25.07. (Run 94) einen Korrekturhinweis zu **§ 273 PBG** formuliert und ausschliesslich bei sich selbst notiert; hier war davon nichts angekommen (0 Treffer in `wiki/QUESTIONS.md`, `abstaende-und-hoehen.md`, `gebaeudearten-und-abstandssystem.md`). Kern der Meldung: die zitierte Regel «Besondere Gebaeude § 273/§ 49 Abs. 3 (≤4/5 m, 3,5 m)» entspricht dem Stand 2017 und war eine **Gebaeudeabstands**-Erleichterung, keine Grenzabstands-Bagatellregel; die geltende Freistellung fuer Kleinbauten/-geraete (1,5 m / 2 m², Revision 2025/2026) steht in **§ 260 Abs. 4 PBG**. → als offener Punkt in `wiki/QUESTIONS.md` eingetragen (neuer Abschnitt «Cross-KB-Eingang aus der KB energie»), zu pruefen sind `wiki/abstaende-und-hoehen.md`, `wiki/INDEX.md:17`, `wiki/gebaeudearten-und-abstandssystem.md:31`. Gegenpruefung am eigenen `raw/`-Volltext, nicht am energie-Destillat — fuer den PBG-Wortlaut ist diese KB fuehrend.
 - **[hinweis]** Die KB ist in Run 16 zusaetzlich als **fuehrende Quelle fuer den kantonalen Energie-Erlassstand ZH** (EnerG LS 730.1, BBV I §§ 47-48c) in die Rollen-Matrix aufgenommen worden; `energie` und `planungsgrundlagen` zitieren ab jetzt die hiesigen `raw/`-Dateien, statt den Wortlaut fortzuschreiben. Zwei materielle Rechtsfehler in jenen KBs wurden genau daran aufgedeckt und korrigiert.

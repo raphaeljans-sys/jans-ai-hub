@@ -69,9 +69,12 @@ Grundflaeche, zulaessige Nutzung **und** die Bewilligungspflicht.
   Kellerraeume, Abstellraeume, Fahrzeugeinstellraeume, Schutzraeume, Kehrichtraeume). **Nicht**
   zulaessig: Hobbyraeume, Fitnessraeume, Erschliessungsflaechen fuer anrechenbare Raeume.
   Grundflaeche **max. 50 m²**, Gesamthoehe **max. 4 m / Schraegdach 5 m** (§ 2a Abs. 1 nABV).
-- **Minibauten (§ 273 nPBG; § 2a nABV):** Klein-/Anbauten mit Gesamthoehe **max. 1.5 m** und
-  Bodenflaeche **max. 2 m²**; von Grenz-/Gebaeudeabstaenden befreit (**§ 260 Abs. 4 nPBG**).
-  Typisch Kleintierstaelle, Hundehuetten, Geraetekisten, **Technikschraenke**.
+- **Minibauten (§ 260 Abs. 4 nPBG; § 2 Abs. 2 ABV Anhang/uebergangsrechtlich):** eigene,
+  kleinere Kategorie **unterhalb** der Klein-/Anbaute — Gesamthoehe **max. 1.5 m** und
+  Bodenflaeche **max. 2 m²**; von Grenz-/Gebaeudeabstaenden befreit (**§ 260 Abs. 4 nPBG**,
+  nicht § 273 nPBG — dieser regelt nur die groessere Klein-/Anbaute-Kategorie).
+  Typisch Kleintierstaelle, Hundehuetten, Geraetekisten, **Technikschraenke** (u.a.
+  Waermepumpen-Aussengeraete, sofern sie diese Masse einhalten).
 - **Unterirdische Bauten und Unterniveaubauten (§ 269 nPBG; § 2b und c nABV):** die
   abstandsfreien Gebaeude nach § 269 nPBG werden **neu** in zwei Typen unterteilt:
   - **Unterirdische Baute (UIB, § 2b nABV):** liegt — ausser Erschliessung, Gelaender,

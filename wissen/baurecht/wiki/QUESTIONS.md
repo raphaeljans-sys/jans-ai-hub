@@ -1,13 +1,42 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
-## Cross-KB-Eingang aus der KB `energie` (gesetzt Wissens-Chef Run 16, 26.07.2026)
+## 2026-07-27 (Buch-Run 59, Festigungsmodus, Priorität a) — Cross-KB-Flag § 273/§ 260 Abs. 4 PBG geklärt und geschlossen
+
+Bearbeitung des Cross-KB-Eintrags vom 26.07.2026 (Wissens-Chef Run 16, siehe Archiv-Abschnitt
+unten). Ergebnis der Prüfung am eigenen `raw/260607_amtlich_zh_pbg.md` (Z. 2741-2886) und
+`raw/260607_amtlich_zh_abv.md` (Z. 1269-1274):
+
+- **`wiki/gebaeudearten-und-abstandssystem.md:31` (Tabelle) und `wiki/INDEX.md:17`:** bereits
+  korrekt — Minibau (§ 260 Abs. 4 PBG) und Besonderes Gebäude/Klein-/Anbaute (§ 49 Abs. 3/§ 273
+  PBG) waren dort schon als zwei getrennte Kategorien mit unterschiedlichen Schwellen geführt.
+  Kein Korrekturbedarf.
+- **`wiki/abstaende-und-hoehen.md`:** echte Lücke bestätigt — § 260 Abs. 4 PBG (Minibau, 1,5 m/
+  2 m², vollständige Abstandsbefreiung) fehlte im Hauptabschnitt «Grenzabstand» komplett (dort
+  stand nur § 269 PBG, 0,5 m/keine Öffnungen); die Harmonisierungs-Sektion weiter unten (Zeile
+  349 vor der Korrektur) erwähnte ihn zwar, aber unter einer Überschrift, die den Eindruck von
+  Zukunftsrecht statt bereits geltendem Hauptteil erweckte. **Ergänzt:** eigener Absatz im
+  Hauptabschnitt mit expliziter Abgrenzung Minibau (§ 260 Abs. 4, Vollbefreiung) vs. Besonderes
+  Gebäude/§ 273 (nur reduzierter **Gebäudeabstand** 3,5 m, kein Grenzabstands-Privileg) —
+  inklusive Praxishinweis Kleingeräte/Wärmepumpen-Aussengeräte.
+- **Echter Fund (nicht in der ursprünglichen Meldung benannt):** `buecher/band-2/15-lage-von-
+  gebaeuden-teil3-harmonisierung.md:72` zitierte Minibauten fälschlich mit **«§ 273 nPBG; § 2a
+  nABV»** — genau die Verwechslung, vor der die energie-KB warnte, nur nicht im Wiki, sondern im
+  Buch-Destillat. Korrigiert auf **§ 260 Abs. 4 nPBG / § 2 Abs. 2 ABV** (Anhang/übergangsrechtlich);
+  Register-Sweep über `training/curriculum.md` negativ (dort bereits korrekt: «Minibaute §260
+  Abs.4 nPBG»).
+- **0 Halluzinationen im energie-Befund** — die energie-KB hatte den Unterschied Grenz- vs.
+  Gebäudeabstand richtig erkannt; der konkrete Fehlerort lag nur woanders als vermutet (Destillat
+  statt Wiki-Hauptartikel). Beide Wiki-Zielartikel + der Destillat-Fund korrigiert/ergänzt,
+  `verifiziert`-Felder nachgeführt. Report `outputs/2026-07-27_buch-run59.md`.
+
+## Cross-KB-Eingang aus der KB `energie` (gesetzt Wissens-Chef Run 16, 26.07.2026) — ARCHIV, erledigt 2026-07-27
 
 Struktur-Muster 1 «Übergabe verpufft im abgebenden KB»: `energie` hat den folgenden Korrekturhinweis
 am 25.07.2026 (Run 94) ausschliesslich bei sich selbst notiert; in dieser KB war davon nichts
 angekommen (grep über `wiki/QUESTIONS.md`, `abstaende-und-hoehen.md`,
 `gebaeudearten-und-abstandssystem.md`: 0 Treffer).
 
-- [ ] **§ 273 PBG ZH — Fassungsstand in Index und Gebäudearten-Tabelle nachziehen.** Die KB `energie`
+- [x] **§ 273 PBG ZH — Fassungsstand in Index und Gebäudearten-Tabelle nachziehen.** Die KB `energie`
   meldet (Destillat `wissen/energie/destillate/waermepumpe-aussengeraet-grenzabstand-zh-sz.md:127-130`,
   Quelle PBG ZH LS 700.1 Nachtrag 133, Stand 1.7.2026, curl+pdftotext von zhlex.zh.ch), dass das
   Kriterium «Besondere Gebäude § 273/§ 49 Abs. 3 (≤4/5 m, 3,5 m)» in unseren Artikeln dem Stand 2017
@@ -16,7 +45,8 @@ angekommen (grep über `wiki/QUESTIONS.md`, `abstaende-und-hoehen.md`,
   Freistellung für Kleinbauten/-geräte (1,5 m / 2 m², Revision 2025/2026) steht in **§ 260 Abs. 4 PBG**.
   Zu prüfen und ggf. zu korrigieren sind `wiki/abstaende-und-hoehen.md`, `wiki/INDEX.md:17` und
   `wiki/gebaeudearten-und-abstandssystem.md:31`. Gegenprüfung am eigenen `raw/`-Volltext, nicht am
-  energie-Destillat — für den PBG-Wortlaut ist diese KB führend.
+  energie-Destillat — für den PBG-Wortlaut ist diese KB führend. **Erledigt 2026-07-27 (Buch-Run
+  59): siehe Abschnitt oben.**
 
 ## 2026-07-25 (Buch-Run 58, Festigungsmodus, Priorität c: Stichproben-Re-Verifikation) — Bauausführung + Widerrechtliche Bauten bestätigt, Register-Sweep-Rückstand aus Run 47 geschlossen
 

@@ -1966,3 +1966,44 @@ gegengeprüft — nach Run 58 verbleiben (ausser Registerdateien) keine `establi
 ohne `verifiziert`-Feld mehr; nächster Priorität-(c)-Kandidat könnte das älteste
 `verifiziert`-Datum unter den bereits geprüften Artikeln sein (`grep -h "^verifiziert:"
 wiki/*.md | sort` zur Auswahl).
+
+- **G (Modell A, Frage→Beleg):** Ein Wärmepumpen-Aussengerät ist 1,2 m hoch und steht auf
+  einer Fläche von 1,8 m². Braucht es einen Grenzabstand? — **A:** **Nein.** Es erfüllt die
+  Minibau-Schwelle **§ 260 Abs. 4 PBG** (Gesamthöhe ≤ 1,5 m UND Bodenfläche ≤ 2 m²) und ist
+  damit **vollständig** von Grenz- **und** Gebäudeabstand befreit — unabhängig von Öffnungen
+  oder Lage. **Nicht verwechseln** mit der «Besonderes Gebäude»/§ 273-PBG-Erleichterung
+  (≤ 4 m/5 m Höhe): diese befreit nicht, sondern reduziert nur den **Gebäudeabstand** auf
+  3,5 m — zwei verschiedene Schwellen für zwei verschiedene Rechtsfolgen. _[2026-07-27]_
+- **H (Modell D, Gegenprobe):** Ein Buch-Destillat zitiert «Minibauten (§ 273 nPBG)». Stimmt
+  das? — **A:** **Nein — Fehlzitat.** § 273 PBG (harmonisiert: «Kleinbauten und Anbauten»)
+  regelt die grössere Kategorie (≤ 4 m/5 m Höhe, ≤ 50 m², nur reduzierter Gebäudeabstand
+  3,5 m). Der Minibau (≤ 1,5 m/≤ 2 m², vollständige Abstandsbefreiung) sitzt in **§ 260
+  Abs. 4 PBG**, einer eigenen, kleineren Kategorie. Gefunden und korrigiert in
+  `buecher/band-2/15-lage-von-gebaeuden-teil3-harmonisierung.md:72` (Buch-Run 59) — exakt die
+  Verwechslungsgefahr, vor der ein Cross-KB-Hinweis der KB `energie` warnte. _[2026-07-27]_
+- **I (Modell C, Selbsttest):** Geschosse — worin unterscheidet sich die harmonisierte
+  Untergeschoss-Definition (§ 275 Abs. 3 PBG) von der alten (Anhang)? — **A:** Die
+  harmonisierte Fassung liefert eine **Zahlenformel** (Oberkante fertiger Boden darüber
+  liegendes Geschoss im Mittel ≤ 2,5 m über Fassadenlinie, an keiner Stelle > 3 m); die alte
+  Fassung ist rein **qualitativ** («ganz oder teilweise in den gewachsenen Boden
+  hineinragend»), ohne Zahlenwerk. Wortlautgeprüft Buch-Run 59, beide Fassungen CONFIRMED
+  gegen `raw/260607_amtlich_zh_pbg.md` (Z. 2865-2868 harmonisiert / Z. 4395-4396 alt).
+  _[2026-07-27]_
+
+**Ergebnis Buch-Run 59 (2026-07-27, Festigungsmodus, Priorität a + c, kein Agent-Fan-out):**
+**Priorität (a):** Cross-KB-Flag der KB `energie` (Wissens-Chef Run 16, 26.07.2026) zu § 273/
+§ 260 Abs. 4 PBG bearbeitet und geschlossen. `wiki/gebaeudearten-und-abstandssystem.md` und
+`wiki/INDEX.md` waren bereits korrekt; echte Lücke in `wiki/abstaende-und-hoehen.md` (§ 260
+Abs. 4 fehlte im Hauptabschnitt) geschlossen und klar von § 273 abgegrenzt. **Echter Fund**
+(nicht in der ursprünglichen Meldung benannt): `buecher/band-2/15-lage-von-gebaeuden-teil3-
+harmonisierung.md:72` zitierte Minibauten fälschlich mit «§ 273 nPBG» statt § 260 Abs. 4 PBG —
+korrigiert. **Priorität (c):** [[geschosse-und-kniestock]] (ältestes `verifiziert`-Datum,
+2026-07-13, seit Run 34 nicht mehr geprüft) Stichproben-re-verifiziert — §§ 275/276 PBG **beide
+Fassungen** (harmonisiert Z. 2861-2885 + alt/Anhang Z. 4389-4400) wortlautgeprüft, **CONFIRMED,
+0 Korrekturen**. **0 Halluzinationen, 1 echte Lücke geschlossen (Priorität a), 1 Fehlzitat
+korrigiert (Priorität a, Destillat), 0 neue Fehler (Priorität c).** 3 neue Drill-Karten (1×A,
+1×D, 1×C). Report `outputs/2026-07-27_buch-run59.md`. **Nächster Schritt:** nächstältestes
+`verifiziert`-Datum als Priorität-(c)-Kandidat (`baulinien-und-abstandslinien`/
+`naturschutz-und-denkmalschutz`/`raumplanung-und-gestaltung`/`wohnhygiene-und-raumanforderungen`,
+alle zuletzt 2026-07-14 geprüft), oder Fassungsstand-Sammelcheck auf kantonale Erlasse
+ausserhalb der Run-52-54-Liste ausweiten.
