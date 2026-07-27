@@ -1,9 +1,16 @@
 # QUESTIONS — KB wettbewerbs-dna
 
-Stand: 27.07.2026 (Wohnungsbau B4 Muster-Synthese abgeschlossen; Verfahrens-Sonderfaelle-Frage
-geklaert, Extrakt-Grenze Koch-Areal und fehlende 1. Stufe Walkeweg bleiben offen, Entscheid vor B6)
+Stand: 27.07.2026 (Wohnungsbau B4+B6 abgeschlossen; Verfahrens-Sonderfaelle-Frage und
+Extrakt-Grenze Koch-Areal geklaert, fehlende 1. Stufe Walkeweg bleibt offen)
 
 ## Geklaert
+- **Wohnungsbau B6: Extrakt-Grenze Koch-Areal — lohnt Nachbeschaffung der Vollpublikation?
+  (27.07.2026, geklaert beim Anlegen von `kennwerte-wohnungsbau.md`)** Nein, keine Nachbeschaffung
+  noetig: die fuer B6 benoetigten Kosten-/Flaechen-Zielwerte (Kosten-Benchmarks, HNF-Zielwerte,
+  Arealflaechen) stehen vollstaendig in den zusammenfassenden Kapiteln 1-10, die bereits im Extrakt
+  vorliegen. Die fehlenden Einzelprojekt-Doppelseiten haetten nur Ist-Werte der vier Siegerprojekte
+  geliefert, die fuer den Kennwert-Benchmark (Auslobungs-Zielwerte, nicht Projekt-Ist) nicht
+  zwingend waren. Bleibt fuer eine allfaellige B4-Vertiefung (Grundrisstyp-Details) vorgemerkt.
 - **Wohnungsbau B4: wie mit den zwei Verfahrens-Sonderfaellen der Tranche 2 umgehen?
   (27.07.2026, geklaert beim Anlegen von `jury-argumente-wohnungsbau.md`)**
   (1) **Koch-Areal Zuerich** (vier parallele Verfahren) wird als EINE Quelle gefuehrt, aber in
@@ -17,13 +24,19 @@ geklaert, Extrakt-Grenze Koch-Areal und fehlende 1. Stufe Walkeweg bleiben offen
   taktischer Befund («kein Gesamtsieger») gefuehrt, nicht in die Kriterien-Rangordnung gemischt.
 
 ## Offen
-- **Wohnungsbau: Extrakt-Grenze Koch-Areal (27.07.2026).** Das frei zugaengliche PDF
-  (49 Seiten) enthaelt nur die zusammenfassenden Kapitel 1-10 der Gesamtpublikation; die
-  Einzelprojekt-Doppelseiten (laut Inhaltsverzeichnis ab S. 49/81/141/209/275) fehlen. Dadurch
-  fehlen fuer alle vier Siegerprojekte die effektiven Wohnungszahlen, GF/HNF-Ist-Werte und
-  Grundrisstyp-Details. Refuter hat bestaetigt, dass keine Aussage des Destillats aus den
-  fehlenden Seiten stammt. Offen: lohnt sich die Nachbeschaffung der Vollpublikation fuer B6
-  (Kennwert-Benchmark)? Entscheid bei B6.
+- **Wohnungsbau B6: CHF/m²-HNF-Referenzband beruht auf einer einzigen Auslobung (27.07.2026).**
+  Der einzige mehrfach gestuetzte Kosten-Kennwert des Wohnungsbau-Benchmarks
+  (`wiki/muster/kennwerte-wohnungsbau.md`, 3'500–3'900 CHF/m² HNF BKP 1–9) stammt aus zwei
+  Baufeldern (B+C) derselben Auslobung Koch-Areal Zuerich, nicht aus zwei unabhaengigen
+  Wettbewerben. Offen: bei kuenftigen B2/B3-Nachtranchen gezielt nach einem zweiten,
+  unabhaengigen Wohnungsbau-Wettbewerb mit publiziertem CHF/m²-HNF-Wert suchen, um die Basis zu
+  haerten. Kein Blocker fuer B6-established, aber Prioritaet fuer allfaellige weitere Wohnungsbau-
+  Tranchen.
+- **Wohnungsbau B6: kein GV in m³ in der gesamten 8-Quellen-Sammlung belegt (27.07.2026).**
+  Wie bei Schulbau (B6, 20.07.2026) und Healthcare (B6, 25.07.2026) strukturell dieselbe Lücke:
+  keiner der acht Wohnungsbau-Juryberichte nennt ein Gebäudevolumen als Absolutwert. CHF/m³
+  bleibt bei `wissen/grobkosten/` fuehrend; kein Aktionsbedarf, nur dokumentiert als
+  Struktur-Konstante ueber alle drei Bauaufgaben-Benchmarks.
 - **Wohnungsbau: 1. Stufe Walkeweg Basel nicht im Bestand (27.07.2026).** Destilliert ist nur
   die 2. Stufe; der Bericht der 1. Stufe liegt als eigenes PDF vor
   (`https://espazium.s3.eu-central-1.amazonaws.com/files/2023-08/basel-walkeweg-jurybericht-1-stufe.pdf`,

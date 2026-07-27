@@ -1,6 +1,6 @@
 ---
 title: "Kennwert-Benchmark Wohnungsbau (stadt-gemeindlich, genossenschaftlich, privat-institutionell, gemischt) — was aus 8 Juryberichten belegbar ist und was nicht"
-status: draft
+status: established
 last_updated: "2026-07-27"
 sources:
   - "8 externe Juryberichte in wiki/extern/ (Wohnungsbau CH 2014–2023), trägertyp-gespreizt"
@@ -61,7 +61,7 @@ Schweizer Wohnungsbau-Juryberichten **nicht belegbar**:
   publiziert eine projektbezogene GF-Zahl.
 - **HNF als Projekt-Ist** erscheint in keinem der acht Berichte. Die einzige HNF-Zahl mit
   Bezug zu einem konkreten Projekt ist die HNF/GF-**Quote** bei Edward (Seebahn-Höfe, 66 %,
-  S. 67) — kein Absolutwert.
+  S. 66) — kein Absolutwert.
 - **Kosten je Wohnung** publiziert keiner der acht Berichte.
 
 **Konsequenz:** Für CHF/m³ bleibt die KB `wissen/grobkosten/` die führende Quelle. Anders als
@@ -121,9 +121,9 @@ Brisgi-Areal publizieren keine Ausnützungs-/Überbauungsziffer.
 | Baufeld | Nutzung | Kosten-Benchmark | BKP-Scope | Quelle + Seite |
 |---|---|---|---|---|
 | A (SENN) | Gewerbehaus, kein Wohnen | max. 2'600 CHF/m² HNF | BKP 2, Edelrohbau, inkl. MwSt., exkl. Parkierung | Koch-Areal, S. 11 |
-| B (ABZ) | Wohnen im Hochhaus | 3'900 CHF/m² HNF | BKP 1–9, inkl. MwSt., exkl. Parkierung | Koch-Areal, S. 11–12 |
-| B (ABZ) | übrige Wohnbauten | 3'500 CHF/m² HNF | BKP 1–9, inkl. MwSt., exkl. Parkierung | Koch-Areal, S. 11–12 |
-| B (ABZ) | Nichtwohnen | 3'000–3'400 CHF/m² HNF | BKP 1–9, inkl. MwSt., exkl. Parkierung | Koch-Areal, S. 11–12 |
+| B (ABZ) | Wohnen im Hochhaus | 3'900 CHF/m² HNF | BKP 1–9, inkl. MwSt., exkl. Parkierung | Koch-Areal, S. 12 |
+| B (ABZ) | übrige Wohnbauten | 3'500 CHF/m² HNF | BKP 1–9, inkl. MwSt., exkl. Parkierung | Koch-Areal, S. 12 |
+| B (ABZ) | Nichtwohnen | 3'000–3'400 CHF/m² HNF | BKP 1–9, inkl. MwSt., exkl. Parkierung | Koch-Areal, S. 12 |
 | C (KW1) | Wohnen, Durchschnitt | 3'900 CHF/m² HNF | BKP 1–9, inkl. MwSt., exkl. Parkierung | Koch-Areal, S. 13 |
 | C (KW1) | Nichtwohnen | 3'300 CHF/m² HNF | BKP 1–9, inkl. MwSt., exkl. Parkierung | Koch-Areal, S. 13 |
 
@@ -162,7 +162,7 @@ aber nur eine Quelle, kein Band.
 ### 3c. Sondermengen Koch-Areal (Kontext, kein Wohnungsbau-Kennwert)
 
 Quartierpark: 7.1 Mio. CHF Gesamtbudget (BKP 1–9), davon 1.5 Mio. CHF allein für die
-Instandsetzung der denkmalgeschützten Kohlelagerhalle (Koch-Areal, S. 14–15) — kein CHF/m²,
+Instandsetzung der denkmalgeschützten Kohlelagerhalle (Koch-Areal, S. 15) — kein CHF/m²,
 da Parkanlage statt Hochbau; als Grössenordnung für Bestandes-Instandsetzung in
 Arealentwicklungen dokumentiert.
 
@@ -187,7 +187,7 @@ offengelegt) publizieren **keinen** projektbezogenen CHF/m²- oder CHF/m³-Wert.
 | Walkeweg Basel (Gesamtprojekt Walke, nicht nur Wettbewerbsperimeter) | etwa 150 Wohnungen | Walkeweg, S. 7 |
 | Industriestrasse Luzern (Areal-Gesamtziel bei ÜZ 0.46) | ca. 160 Wohnungen + Raum für 150 Arbeitsplätze | Industriestrasse, S. 4 |
 | Koch-Areal Zürich, Baufeld B | 175 Wohnungen | Koch-Areal, S. 11 |
-| Koch-Areal Zürich, Baufeld C | 160 Wohnungen (davon 2 Wohnungen à 10 Einzelzimmer betreutes Wohnen) | Koch-Areal, S. 12–13 |
+| Koch-Areal Zürich, Baufeld C | 160 Wohnungen (davon 2 Wohnungen à 10 Einzelzimmer betreutes Wohnen) | Koch-Areal, S. 12 |
 | Koch-Areal Zürich, gesamt | rund 350 Wohnungen bis 2023/2024 | Koch-Areal, S. 3 |
 
 **Nicht direkt vergleichbar:** unterschiedliche Bezugsebene (Areal-Gesamtziel vs. bereits
@@ -253,9 +253,9 @@ m²-Vorgabe), Reichenbachstrasse, Walkeweg, Industriestrasse und Wätterweid pub
 
 | Fall | Wert | Quelle + Seite | Charakter |
 |---|---|---|---|
-| Seebahn-Höfe, «Edward» | HNF/GF-Verhältnis 66 % | Seebahn, S. 67 | Ist eines Beitrags — einziger HNF/GF-Wert der Sammlung |
+| Seebahn-Höfe, «Edward» | HNF/GF-Verhältnis 66 % | Seebahn, S. 66 | Ist eines Beitrags — einziger HNF/GF-Wert der Sammlung |
 | Koch-Areal, Baufeld A (SENN) | rund 10'000 m² HNF (Zielwert Neubau) | Koch-Areal, S. 10 | Soll aus Auslobung |
-| Koch-Areal, Baufeld B (ABZ) | 17'000 m² HNF (Zielwert) | Koch-Areal, S. 11 | Soll aus Auslobung |
+| Koch-Areal, Baufeld B (ABZ) | 17'000 m² HNF (Zielwert) | Koch-Areal, S. 12 | Soll aus Auslobung |
 | Brisgi-Areal Baden | rund 15'000 m² HNF gesamt, davon mind. 90 % kostengünstiger Wohnungsbau + 10 % HNF als Gewerbe EG | Brisgi, S. 12–13 | Soll aus Auslobung |
 | Brisgi-Areal Baden | **abgeleitet:** 15'000 m² HNF / 65'000 m² Areal = rund 0.23 m² HNF je m² Areal | Brisgi, S. 4/12–13 | abgeleitet, nicht im Bericht so ausgewiesen |
 
@@ -270,7 +270,7 @@ als Regelwert verwenden.
 |---|---|---|
 | Seebahn-Höfe, «Pinarello» (Sieger) | 7-geschossig entlang Seebahnstrasse, 5-geschossig zum Quartierinneren | Seebahn, S. 22 |
 | Guggach II, «Santorin» (Sieger) | bis zu 8 Geschosse | Guggach II, S. 21 |
-| Reichenbachstrasse, «Triangle Cercle Carré» (2. Rang) | 6- bis 7-geschossig | Reichenbachstrasse, S. 38–39 |
+| Reichenbachstrasse, «Triangle Cercle Carré» (2. Rang) | 6- bis 7-geschossig | Reichenbachstrasse, S. 36–37 |
 | Brisgi-Areal, «Gärtnerkonstruktion» (4. Rang) | 4 Vollgeschosse innert Regelbauweise | Brisgi, S. 30 |
 | Koch-Areal, übergeordnete Vorgabe (Hochhausgebiet III) | max. 40 m | Koch-Areal, S. 5 |
 | Koch-Areal, Diskussion Flurstrasse (Baukollegium 6.4.2018) | «60 Meter plus» | Koch-Areal, S. 5 |
@@ -290,9 +290,10 @@ sondern ein städtebaulicher Sonderfall Hochhausgebiet.
   3.20-m-Holzbauraster, S. 52). Kein Vergleichswert.
 - **Absolute Erstellungskosten je Einzelprojekt (CHF):** bei Reichenbachstrasse und Seebahn
   nur als Prozentabweichung vom Kostendach offengelegt; beim Koch-Areal nur als
-  Zielerstellungskosten je Baufeld (Baufeld A rund 29 Mio. CHF, Baufeld B rund 67 Mio. CHF,
-  Baufeld C rund 72 Mio. CHF, alle BKP 1–9 inkl. MwSt.) — Programmwert, nicht Ist-Kosten der
-  prämierten Beiträge.
+  Zielerstellungskosten je Baufeld — Baufeld A rund 29 Mio. CHF (BKP 2, Edelrohbau), Baufeld B
+  rund 67 Mio. CHF (BKP 1–9), Baufeld C rund 72 Mio. CHF (BKP 1–9), je inkl. MwSt.; die drei
+  Zahlen sind wegen unterschiedlichem BKP-Scope **nicht** direkt gegeneinander vergleichbar —
+  Programmwert, nicht Ist-Kosten der prämierten Beiträge.
 - **Stiftungskapital/Investitionssumme:** nur Brisgi (CHF 10 Mio. Eigenkapital der
   Wohnbaustiftung Baden, S. 5).
 - **Preisgeld-/Entschädigungsstrukturen:** über alle acht Quellen strukturell ähnlich (feste
@@ -311,6 +312,17 @@ einer einzigen Auslobung, nicht aus mehreren unabhängigen Wettbewerben. Die
 Vorprüfungs-Toleranz ist bei Reichenbachstrasse mit −4 % bis +7 % deutlich enger als die
 Schulbau-Toleranz ±20 % — nur ein Einzelbeleg, aber ein auffälliger Unterschied, der bei
 künftigen Wohnungsbau-Quellen gezielt nachgeprüft werden sollte (QUESTIONS).
+
+## Verifikations-Hinweis
+
+Zwei unabhängige Refuter-Agenten (Hauptmodell) haben je vier Quellen gegen die Rohtexte
+geprüft — insgesamt 75 Einzelaussagen (26 Reichenbachstrasse/Seebahn/Guggach II/Koch-Areal-
+Shard plus 49 Walkeweg/Industriestrasse/Wätterweid/Brisgi-Shard, teils überlappend gezählt),
+davon 65 sofort bestätigt und 10 korrigiert (überwiegend Seitenzahl-Präzisierungen; ein
+Begriffsfehler Überbauungsziffer/Ausnützungsziffer bei Industriestrasse; eine
+BKP-Scope-Überverallgemeinerung bei den Koch-Areal-Zielerstellungskosten). Alle Korrekturen
+sind eingearbeitet. Bei Wätterweid Arosa wurde die besondere Fussmarker-Pagination (Marker N
+steht vor dem Text von Seite N) vom Refuter unabhängig bestätigt und korrekt angewendet.
 
 ## Offene Punkte
 

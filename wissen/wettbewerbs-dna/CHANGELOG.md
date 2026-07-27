@@ -1,5 +1,37 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-27 — Etappe 3, B6 Wohnungsbau Kennwert-Benchmark: `kennwerte-wohnungsbau.md` established
+- Neuer Artikel `wiki/muster/kennwerte-wohnungsbau.md` aus den 8 established Wohnungsbau-
+  Juryberichten (dieselbe Basis wie B4). Zwei parallele Extraktions-Shards (je 4 Quellen,
+  Sonnet) haben alle belegten quantitativen Kennwerte (Flaeche, Kosten, Wohnungsspiegel,
+  Dichte, Raster) mit Seitenbeleg gezogen; direkt per Agent-Tool orchestriert (Workflow-Tool
+  wie in den Vorlaeufen nicht verwendet, bekannte headless-Review-Blockade).
+- **Kernbefund:** einziger ueber mehrere unabhaengige Teilverfahren gestuetzter CHF/m²-
+  Kennwert der drei Bauaufgaben-Benchmarks: **3'500–3'900 CHF/m² HNF (BKP 1–9)**, aus den
+  zwei Baufeldern B und C der Auslobung Koch-Areal Zuerich (gleicher Auslober, gemeinsame
+  Vorpruefung — Einschraenkung ausdruecklich im Artikel vermerkt, kein Beleg aus zwei
+  unabhaengigen Wettbewerben). Areal-Referenzband 3'139–65'000 m² (5 Quellen). Wohnungsspiegel-
+  Befund: 4.5-Zimmer-Wohnung 95–105 m² HNF aus zwei unabhaengigen Programm-Wohnungsspiegeln
+  (Seebahn-Hoefe, Brisgi-Areal) praktisch deckungsgleich. Vier verschiedene, nicht
+  gleichzusetzende Ausnuetzungs-/Ueberbauungsziffer-Systeme identifiziert und getrennt
+  gehalten (Guggach II/Koch-Areal AZ vs. Industriestrasse ÜZ vs. Wätterweid Ueberbauungsziffer).
+  **Strukturbefund wie Schulbau/Healthcare bestaetigt: kein GV in m3 in irgendeiner der 8
+  Quellen belegt** — CHF/m3 bleibt bei `wissen/grobkosten/`.
+- **Verifikation:** zwei unabhaengige Refuter-Agenten (Hauptmodell) je vier Quellen gegen
+  die Rohtexte, 75 Aussagen geprueft, 65 sofort bestaetigt, 10 korrigiert — 3 echte
+  Seitenzahl-Drifts (Reichenbachstrasse Geschosszahl S.38–39→S.36–37, Seebahn Edward-HNF/GF-
+  Quote S.67→S.66 zweifach im Dokument, Koch-Areal Baufeld-B-HNF-Zielwert S.11→S.12), 3 weiche
+  Seitenbereich-Praezisierungen, 1 Begriffsfehler (Industriestrasse: Ueberbauungsziffer statt
+  faelschlich Ausnuetzungsziffer genannt — widersprach der eigenen Begriffsklaerung im selben
+  Absatz), 1 BKP-Scope-Ueberverallgemeinerung (Koch-Areal-Zielerstellungskosten je Baufeld
+  faelschlich pauschal als "alle BKP 1–9" bezeichnet, obwohl Baufeld A nur BKP 2 Edelrohbau
+  ausweist). Bei Wätterweid Arosa wurde die besondere vorangestellte Fussmarker-Pagination vom
+  Refuter unabhaengig anhand des Inhaltsverzeichnisses verifiziert und korrekt angewendet.
+  Alle Korrekturen eingearbeitet, Status draft→established.
+- INDEX.md (Stand-Zelle + Muster-Eintrag) nachgefuehrt. Naechste Zelle: Wohnungsbau B5
+  Revision `entwurfs-referenzen/wiki/parameter-sets/wohnen-mfh-urban.json` gegen den nun
+  established B6-Benchmark.
+
 ## 2026-07-27 — Etappe 3, B4 Wohnungsbau Muster-Synthese: `jury-argumente-wohnungsbau.md` established
 - Neuer Artikel `wiki/muster/jury-argumente-wohnungsbau.md` aus den 8 established Wohnungsbau-
   Juryberichten synthetisiert (Reichenbachstrasse Bern, Seebahn-Höfe Zürich, Guggach II Zürich,
