@@ -108,7 +108,7 @@ Walkeweg und Industriestrasse publizieren **keine** Arealfläche.
 Koch-Areal verwenden die klassische Ausnützungsziffer (AZ, urbanes Zürcher Baurecht) —
 zwischen 130 % und rund 300–320 % (Koch-Areal-Baufelder), selbst untereinander nur bedingt
 vergleichbar wegen unterschiedlicher Zonentypen (W3 Arealüberbauung vs. Industriegebiet III
-Hochhausgebiet). Industriestrasse Luzern verwendet die Ausnützungsziffer der dortigen BZO
+Hochhausgebiet). Industriestrasse Luzern verwendet die Überbauungsziffer der dortigen BZO
 (0.40/0.46, dezimal statt Prozent). Wätterweid Arosa verwendet die **Überbauungsziffer** — ein
 Grundflächenverhältnis der alpinen Bauordnung, kein Geschossflächenmass, trotz ähnlichem Namen
 **nicht** mit den übrigen drei gleichzusetzen. Reichenbachstrasse, Seebahn-Höfe, Walkeweg und
