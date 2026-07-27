@@ -112,9 +112,9 @@ gem. DIN 277):
   umschliessender/innenliegender Bauteile (Aussen-/Innenwände, Stützen, Brüstungen); Fertigmasse
   in Fussbodenhöhe inkl. Putz/Bekleidung. Einzuschliessen: lichte Schacht-/Kamin-/
   Installationskanal-Querschnitte < 0.25 m², Tür-/Fensternischen, raumabschliessende versetzbare
-  Trennwände. Auszuschliessen: gestalterische Vor-/Rücksprünge (sofern NGF unbeeinflusst),
-  Fuss-/Sockelleisten, Schrammborde, vorstehende Fenster-/Türbekleidungen, Schrankwände
-  (→ jeweilige HNF). `KF = GF − NGF = KFT + KFN` (tragend/nicht tragend).
+  Trennwände. Auszuschliessen: **konstruktive** und gestalterische Vor-/Rücksprünge (sofern
+  NGF unbeeinflusst), Fuss-/Sockelleisten, Schrammborde, vorstehende Fenster-/Türbekleidungen,
+  Schrankwände (→ jeweilige HNF). `KF = GF − NGF = KFT + KFN` (tragend/nicht tragend).
 - **Nettogeschossfläche NGF**: lichte Raummasse in Fussbodenhöhe ohne Berücksichtigung von
   Fuss-, Sockelleisten oder Schrammborden. `NGF = NF + FF + VF`.
 - **Funktionsfläche FF**: Teil der NGF für zentrale betriebstechnische Anlagen (Haustechnik);
@@ -338,7 +338,8 @@ Garderoben, Verkehrswege im Grossraum) · 2.3 Besprechungsräume · 2.4 Konstruk
 (Zeichenräume) · 2.5 Schalterräume · 2.6 Bedienungsräume (Schaltwarten, Regieräume,
 Leitstellen) · 2.7 Aufsichtsräume (Pförtner/Wache) · 2.8 Bürotechnikräume (Rechenzentren,
 EDV-Räume).
-**HNF3 Produktion/Experimente**: 3.1 Werkhallen · 3.2 Werkstätten · 3.3 Technologische Labors ·
+**HNF3 Produktion/Hand-/Maschinenarbeit/Experimente**: 3.1 Werkhallen · 3.2 Werkstätten ·
+3.3 Technologische Labors ·
 3.4 Physikalische/physikalisch-technische/elektrotechnische Labors ·
 3.5 Chemische/bakteriologische/morphologische Labors ·
 3.6 Tierhaltung · 3.7 Pflanzenzucht · 3.8 Küchen · 3.9 Sonderarbeitsräume.
@@ -419,7 +420,10 @@ Sicherheitsdienste, 370 Abgaben/Beiträge, 390 Sonstiges), **400** Instandsetzun
 Hauptgruppe in Bauteilklassen untergliedert (z.B. 41x/42x: Gründung, Aussenwände,
 Innenwände, Decken, Dächer, Anlagenklassen Abwasser/Wärme/Luft/Strom/Fernmelde/
 Förderanlagen/Gebäudeautomation). Parallel-Spalten: DIN 18960(1976) mit grober 6-Punkte-
-Gliederung (Kapital/Abschreibung/Verwaltung/Betrieb/Steuern/Bauunterhalt); GEFMA 200 mit
+Gliederung (1. Kapital, 2. Abschreibung, 3. Verwaltung, 4. Steuern, 5. Betrieb,
+6. Bauunterhalt — Reihenfolge nach der Originalnummerierung, nicht nach der visuellen
+Tabellenposition, wo "4. Steuern" wegen der Kreuzreferenz auf DIN-1999-370 unterhalb von
+"5. Betriebskosten" erscheint); GEFMA 200 mit
 eigener 3-stelliger Kontenlogik (2xx Betrieb [u.a. 221/222/229 Bedienung, 223/224/225
 Inspizieren/Warten/kleine Instandsetzung, 226 Entsorgen], 4xx Dienste [u.a. 420
 Reinigungsdienste, 430 Sicherheitsdienste, 440 Hausmeisterdienste, 450 Dienste in

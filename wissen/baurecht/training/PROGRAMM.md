@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-27 (Run 63)
+last_updated: 2026-07-27 (Run 64)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -113,6 +113,26 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 64 (2026-07-27, Festigungsmodus, Priorität (a) Negativsweep + Priorität (b)
+    Fassungsstand-Check + Priorität (c) Re-Verifikation, kein Agent-Fan-out):** **Priorität (a):**
+    vollständiger KB-weiter Sweep nach HWSchV/Hochwasserschutz/Gewässerabstand — 0 neue stale
+    Fundorte seit Run 50, WsG/WsV-Nachzug bleibt geschlossen. **Priorität (b):** VRG (LS 175.2)
+    als Fassungsstand-Kandidat gewählt (nie seit Beschaffung 12.07.2026 live gegen zhlex
+    geprüft). Fund: Basisquelle war auf **Nachtrag 129** eingefroren, aktuell **Nachtrag 133**
+    (zhlex `history-entry-0`). Frisches PDF Wort für Wort gegen alle 7 zitierten VRG-Paragraphen
+    (§§ 8/9/10c/15/29a/30/31) geprüft — **CONFIRMED, 0 materielle Änderung**. **Priorität (c):**
+    [[rechtsschutz-und-rechtsmittelverfahren]] (letzter Check Run 46, 2026-07-15) adversarial
+    re-verifiziert — Run-44-Korrektur zur Nicht-Erstreckbarkeit der 30-Tage-Vernehmlassungsfrist
+    (§ 26b/§ 12 VRG) bestätigt unverändert bei Nachtrag 133. Register-Sweep: Fassungsstand-Vermerk
+    in [[widerrechtliche-bauten-und-sanktionen]] und [[bauausfuehrung-und-baukontrolle]] (beide
+    zitieren dieselbe VRG-Rohquelle) nachgezogen. **0 Halluzinationen, 1 Fassungsstand-Drift
+    entdeckt und als materiell folgenlos dokumentiert, 0 neue inhaltliche Fehler.** 2 neue
+    Drill-Karten (2×D). Report `outputs/2026-07-27_buch-run64.md`. **«Rückstand abgebaut» NICHT
+    ausgerufen:** der Fassungsstand-Check ist eine Daueraufgabe (Leitplanke Run 48) — weitere,
+    bisher nie live geprüfte kantonale/kommunale Erlasse können noch existieren, und die
+    Priorität-(c)-Liste ist nicht vollständig durchlaufen ([[ausnahmebewilligung-und-
+    bestandesschutz]], zuletzt 2026-07-15, steht als nächster Kandidat aus). **Nächster
+    Schritt:** [[ausnahmebewilligung-und-bestandesschutz]] als Priorität-(c)-Kandidat.
   - **Run 63 (2026-07-27, Festigungsmodus, Priorität (c) Stichproben-Re-Verifikation, kein
     Agent-Fan-out):** [[raumplanung-und-gestaltung]] gewählt (letzter verbleibender Kandidat mit
     `verifiziert`-Datum 2026-07-14, empfohlen von Run 62). Vollständiger Modell-D-Wortlautabgleich

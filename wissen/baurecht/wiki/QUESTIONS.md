@@ -1,5 +1,41 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## 2026-07-27 (Buch-Run 64, Festigungsmodus, Priorität b Fassungsstand-Check + Priorität c Re-Verifikation) — VRG-Nachtrag-Drift 129→133 gefunden und geschlossen; Priorität-a-Negativsweep HWSchV/WsG bestätigt sauber
+
+**Priorität (a) — vorab geprüft, kein neuer Fund:** vollständiger KB-weiter Sweep
+(`grep -rniE` über `wiki/`, `buecher/`, `training/`) nach `HWSchV`/`Hochwasserschutz`/
+`Gewässerabstand`. Alle Treffer sind entweder historisch korrekt gekennzeichnet
+(«aufgehoben 01.06.2026», «heute § 20 WsG» usw.) oder betreffen unverwandte Themen
+(Baulinien-Systematik, Entschädigungsrecht). **0 neue stale Fundorte** seit dem
+KB-weiten Sweep in Buch-Run 50 (2026-07-20) — der WsG/WsV-Nachzug bleibt vollständig
+geschlossen.
+
+**Priorität (b) — Fassungsstand-Check VRG (LS 175.2):** Die Basisquelle
+`raw/260712_amtlich_zh_vrg.md` (beschafft 12.07.2026, Stand-Fussnote «1. 7. 25 - 129»)
+war auf **Nachtrag 129** eingefroren. Live-Check gegen die zhlex-Erlassseite
+(`history-entry-0`) zeigt: aktuell **Nachtrag 133**. Frisches PDF (Nachtrag 133,
+`175.2_24.5.59_133.pdf`) Wort für Wort gegen alle sieben in der KB zitierten
+VRG-Paragraphen geprüft (§§ 8, 9, 10c, 15, 29a, 30, 31) — **CONFIRMED, 0 materielle
+Änderung**. Die Nachträge 130-133 betrafen andere Teile des Gesetzes. Fassungsstand-
+Vermerk in `raw/260712_amtlich_zh_vrg.md` ergänzt.
+
+**Priorität (c) — Re-Verifikation [[rechtsschutz-und-rechtsmittelverfahren]]** (letzter
+Check Buch-Run 46, 2026-07-15 — ältester tatsächlicher Prüfstand unter den VRG-
+schwerpunktigen `established`-Artikeln): adversarial gegengeprüft, ob die Run-44-Korrektur
+zur **Nicht-Erstreckbarkeit der 30-Tage-Vernehmlassungsfrist** (§ 26b Abs. 2 i.V.m.
+§ 12 Abs. 1 VRG) bei Nachtrag 133 noch hält — **bestätigt, unverändert**. Register-Sweep:
+zwei weitere Artikel, die dieselbe VRG-Rohquelle zitieren
+([[widerrechtliche-bauten-und-sanktionen]], [[bauausfuehrung-und-baukontrolle]]), mit
+demselben Fassungsstand-Vermerk nachgezogen.
+
+**0 Halluzinationen, 1 Fassungsstand-Drift entdeckt und als materiell folgenlos
+dokumentiert (Lehre analog StrG-Fund Run 53: Nachtragsnummer-Drift ist kein
+automatischer Fehlerbeleg, muss aber Paragraph für Paragraph gegengeprüft werden),
+0 neue inhaltliche Fehler.** 2 neue Drill-Karten (2×D). Details:
+`outputs/2026-07-27_buch-run64.md`. **Nächster Schritt:**
+[[ausnahmebewilligung-und-bestandesschutz]] (letzter Check 2026-07-15) als nächster
+Priorität-(c)-Kandidat.
+
 ## 2026-07-27 (Buch-Run 62, Festigungsmodus, Priorität c) — baulinien-und-abstandslinien: § 33a ABV-Register-Sweep-Nachzug, Haupt-/Anhang-Klärung § 260 Abs. 3
 
 [[baulinien-und-abstandslinien]] (letzter verbleibender Priorität-(c)-Kandidat mit

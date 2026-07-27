@@ -2183,3 +2183,42 @@ durchlaufen (`baulinien-und-abstandslinien`/`naturschutz-und-denkmalschutz`/
 erneuter Fassungsstand-Sammelcheck der kantonalen Erlasse (Daueraufgabe, Leitplanke Run 48,
 zuletzt vollständig Run 52-54) oder ein neuer Umlauf über die inzwischen ältesten
 `verifiziert`-Daten (`grep -h "^verifiziert:" wiki/*.md | sort`).
+
+- **D (Modell D, Fassungsstand-Check):** Ist die VRG-Basisquelle (`raw/260712_amtlich_zh_vrg.md`,
+  beschafft 12.07.2026, Stand-Fussnote «1. 7. 25 - 129») noch aktuell? — **A:** Nein, formal:
+  zhlex zeigt aktuell **Nachtrag 133**. Materiell aber unveraendert: alle sieben dort abgeschriebenen
+  Paragraphen (§§ 8, 9, 10c, 15, 29a, 30, 31 VRG) sind bei Nachtrag 133 **wortidentisch** zur
+  Nachtrag-129-Fassung — die Zwischenrevisionen betrafen andere Teile des Gesetzes. Lehre: eine
+  Nachtragsnummer-Drift ist kein automatischer Fehlerbeleg, muss aber Paragraph fuer Paragraph
+  gegengeprueft werden (analog StrG-Fund Run 53). Beleg: `raw/260712_amtlich_zh_vrg.md`
+  (Fassungsstand-Vermerk 2026-07-27). _[2026-07-27]_
+- **E (Modell D, Adversarial/Gegenprobe):** Kann die 30-taegige Vernehmlassungsfrist nach § 26b
+  Abs. 2 VRG im Rekursverfahren auf Gesuch hin verlaengert werden? — **A:** Grundsaetzlich **nein**.
+  § 26b Abs. 2 VRG legt die Frist gesetzlich auf 30 Tage (bzw. 5 Tage in Stimmrechtssachen) fest;
+  § 12 Abs. 1 VRG erlaubt eine Erstreckung **gesetzlicher** Fristen nur, wenn die betroffene
+  Person waehrend der Frist stirbt oder handlungsunfaehig wird — ein blosses Gesuch mit
+  «ausreichenden Gruenden» reicht nur bei nicht-gesetzlichen (behoerdlich angesetzten) Fristen.
+  Bestaetigt bei Nachtrag 133 identisch zur Run-44-Korrektur. Beleg: §§ 26b/12 VRG,
+  `raw/260712_amtlich_zh_vrg.md`. _[2026-07-27]_
+
+**Ergebnis Buch-Run 64 (2026-07-27, Festigungsmodus, Prioritaet b Fassungsstand-Check +
+Prioritaet c Re-Verifikation, kein Agent-Fan-out):** Nach vollständigem KB-weiten Negativ-Sweep
+zu Prioritaet (a) (HWSchV/Gewaesserabstand — alle verbleibenden Fundorte bereits korrekt als
+historisch/aufgehoben markiert, 0 neue Stellen seit Run 50) auf **VRG (LS 175.2)** als naechsten
+Fassungsstand-Kandidaten gewechselt: die Basisquelle war seit der Beschaffung (12.07.2026) auf
+Nachtrag 129 datiert, aktuell ist **Nachtrag 133** (zhlex `history-entry-0`). Frisches PDF
+(Nachtrag 133) Wort fuer Wort gegen alle sieben in der KB zitierten VRG-Paragraphen (§§ 8, 9,
+10c, 15, 29a, 30, 31) geprueft — **CONFIRMED, 0 materielle Aenderung**. Zugleich als
+Prioritaet-(c)-Stichprobe [[rechtsschutz-und-rechtsmittelverfahren]] gewaehlt (letzter Check
+Buch-Run 46, 2026-07-15 — aeltester tatsaechlicher Pruefstand unter den `established`-Artikeln
+mit VRG-Schwerpunkt): adversarial gegengeprueft, ob die Run-44-Korrektur (Nicht-Erstreckbarkeit
+der Vernehmlassungsfrist § 26b/§ 12 VRG) bei Nachtrag 133 noch haelt — **bestaetigt,
+unveraendert**. Register-Sweep: zwei weitere Artikel, die dieselbe VRG-Rohquelle zitieren
+([[widerrechtliche-bauten-und-sanktionen]], [[bauausfuehrung-und-baukontrolle]]), mit demselben
+Fassungsstand-Vermerk nachgezogen. **0 Halluzinationen, 1 Fassungsstand-Drift entdeckt und als
+materiell folgenlos dokumentiert, 0 neue inhaltliche Fehler.** 2 neue Drill-Karten (2×D). Report
+`outputs/2026-07-27_buch-run64.md`. **Naechster Schritt:** [[ausnahmebewilligung-und-bestandesschutz]]
+(letzter Check Buch-Run 45/46, 2026-07-15 — aeltestes verbleibendes echtes Pruefdatum unter den
+`established`-Artikeln) als naechster Prioritaet-(c)-Kandidat; parallel weitere kantonale Erlasse,
+die noch nie live gegen zhlex geprueft wurden, identifizieren (PPV Stadt Zuerich bleibt kommunal
+ohne eigenen zhlex-Eintrag, nur Sekundaerquelle datiert — dauerhafte Luecke, kein Fehler).

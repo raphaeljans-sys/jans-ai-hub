@@ -4,6 +4,25 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-27 — Buch-Run 64 (Festigungsmodus, Priorität a Negativsweep + Priorität b Fassungsstand-Check VRG + Priorität c Re-Verifikation Rechtsschutz)
+- [verifikation] KB-weiter Sweep (`wiki/`, `buecher/`, `training/`) nach HWSchV/Hochwasserschutz/
+  Gewässerabstand: **0 neue stale Fundorte** seit Buch-Run 50 — Priorität (a) bleibt geschlossen.
+- [fund] **`raw/260712_amtlich_zh_vrg.md`** — Fassungsstand-Drift entdeckt: Basisquelle stand auf
+  Nachtrag 129 (Stand 12.07.2026), zhlex aktuell auf **Nachtrag 133**. Frisches PDF Wort für Wort
+  gegen §§ 8, 9, 10c, 15, 29a, 30, 31 VRG geprüft — **CONFIRMED, 0 materielle Änderung**.
+  Fassungsstand-Vermerk ergänzt.
+- [verifikation] **`wiki/rechtsschutz-und-rechtsmittelverfahren.md`** — adversarial re-verifiziert:
+  Nicht-Erstreckbarkeit der 30-Tage-Vernehmlassungsfrist (§ 26b Abs. 2 i.V.m. § 12 Abs. 1 VRG,
+  Run-44-Korrektur) bei Nachtrag 133 bestätigt unverändert. `verifiziert`/`last_updated` nachgeführt.
+- [register-sweep] **`wiki/widerrechtliche-bauten-und-sanktionen.md`**,
+  **`wiki/bauausfuehrung-und-baukontrolle.md`** — VRG-Fassungsstand-Vermerk nachgezogen (beide
+  zitieren dieselbe VRG-Rohquelle).
+- [drill] 2 neue Karten in `training/drills.md` (Modell D Fassungsstand-Check, Modell D
+  Adversarial-Gegenprobe Fristerstreckung).
+- [register] `training/PROGRAMM.md` Tracker-Eintrag Run 64 ergänzt; `wiki/QUESTIONS.md`
+  Kopfeintrag ergänzt.
+- Report: `outputs/2026-07-27_buch-run64.md`.
+
 ## 2026-07-27 — Buch-Run 63 (Festigungsmodus, Priorität c: Raumplanung und Gestaltung re-verifiziert, § 253→§ 320 PBG-Fehlzuordnung korrigiert)
 - [verifikation] **`wiki/raumplanung-und-gestaltung.md`** — vollständiger Modell-D-
   Wortlautabgleich §§ 7/18/19/39/46 Abs. 3/48/49-65/69-73/346 PBG gegen
