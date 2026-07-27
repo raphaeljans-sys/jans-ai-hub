@@ -546,6 +546,12 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   2006 (2013-Benchmark), KB energie arbeitet bereits mit **SIA 181:2020**. Aktuelle Ausgabe am
   Original erfassen, dann REGISTER Zeile 109 auf 2020 heben. Ausgabe kostenpflichtig (SIA-Shop,
   Bring-Schuld Raphael — Claude tätigt keine Käufe).
+  → **Nachgetragen ins Arbeitsregister** `training/norm-inventar.md`, Abschnitt «Bring-Schulden aus
+  anderen KBs» (Wissens-Chef Run 17, 27.07.2026, Priorität P1). Der Punkt stand 14 Tage
+  ausschliesslich hier — also an dem Ort, den der Nacht-Loop nicht abarbeitet; das ist derselbe
+  Mechanismus, den Run 16 für die vier `baurecht`-Bring-Schulden diagnostiziert hat. Seit Run 16
+  tragen beide Destillate (`sia-181-2006.md` hier, das Körperschall-Destillat in `energie`) ein
+  ⚠-Ausgaben-Flag +3 dB (2006) gegen +4 dB (2020), das den Zustand sichtbar hält, aber nicht auflöst.
 - [x] **GEKLÄRT Run 22 (260725), soweit ohne Beschaffung möglich: die 2022er-Fassung ist NICHT im
   Bestand.** Die Dateien in PL-02 und PL-03 sind byte-identisch (MD5 `56fb4bab…`, 11 S.) — trotz
   Ordnername «2015-17-22» liegt dort nur eine Kopie der 2015er. Belegt: Ausgabe/Fassung **06.03.2015**

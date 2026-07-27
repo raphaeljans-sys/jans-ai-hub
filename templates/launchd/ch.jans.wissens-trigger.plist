@@ -28,9 +28,11 @@
     <key>RunAtLoad</key>
     <false/>
 
-    <key>StandardOutPath</key>
-    <string>/Volumes/daten/jans-ai-hub/logbuch/wissens-trigger/launchd.log</string>
-    <key>StandardErrorPath</key>
-    <string>/Volumes/daten/jans-ai-hub/logbuch/wissens-trigger/launchd.log</string>
+    <!-- BEWUSST KEINE StandardOutPath/StandardErrorPath auf /Volumes/daten:
+         launchd legt diese Dateien selbst an, bevor der Job startet, und scheitert am
+         SMB-Mount mit EX_CONFIG (78) — der Job laeuft dann NIE an (belegt 27.07.2026,
+         beide Stationen; gleiche Falle wie Memory `project_launchd_tcc_smb`). Der
+         funktionierende `ch.jans.vollgas-supervisor` fuehrt aus demselben Grund keine
+         Log-Pfade. Das Script loggt selbst nach logbuch/wissens-trigger/trigger.log. -->
 </dict>
 </plist>
