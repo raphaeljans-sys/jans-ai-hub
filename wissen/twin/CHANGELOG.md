@@ -4,6 +4,17 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-27 — `twin-fidelity-review` (vierter Lauf des Tages, Report `outputs/2026-07-27e_fidelity.md`).**
+  Sättigungs-Check zuerst: drei Kandidaten-Mails aus einem frischen rj@-Fenster (06.–13.04.2026,
+  KISPI) stellten sich als bereits destilliert heraus — bestaetigt die Saettigung des KISPI-/rj@-
+  Korpus aus dem Vorlauf 260727d. Umgestiegen auf `mail@raphaeljans.ch` (bisher kaum genutzt):
+  zwei neue Golds (Baurekursgericht-Gesuchsruecknahme Sie 22.01.2026; Herzog-de-Meuron-Website-
+  Brief an Hleb Englisch 04.02.2026). Gesamt-Fidelity ~74 (niedriger als die drei Vorlaeufe, weil
+  bewusst unerschlossenes Terrain gezielt). Neue Marker: [[haltung]] aktive Gesuchsruecknahme bei
+  ueberfluessig gewordener Behoerden-Anfrage + Fixpreis-Disziplin/Scope-Grenze bei Beauftragung
+  Dritter in eigener Sache; [[fachsignatur]] Design-Referenz-Reflex (zweite Saeule) reicht bis in
+  ein fachfremdes Digitalprojekt (eigene Website, Referenz Herzog & de Meuron). QUESTIONS-Runde
+  260727e angehaengt (3 Fragen). DNA neu kompiliert.
 - **2026-07-27e — `twin-mail-training` (Batch 72, 27.07. 09:14–11:00 Uhr).** Frischer M365-Pull
   ab dem Batch-71-Endpunkt, Fenster luecklos bis 11:00 Uhr abgedeckt (Gegenprobe 0 Treffer). Ein
   relevanter Treffer: Preisrüge Küchenbau LOS_273.35 (KISPI PPTS) an Schreiner/Unternehmer Stephan
