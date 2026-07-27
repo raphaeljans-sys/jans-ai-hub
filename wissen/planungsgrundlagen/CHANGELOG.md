@@ -2,6 +2,39 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-27 — Wissens-Chef Run 18 (Cross-KB): aufgehobenes Recht in der OEREB-Tabelle, EnerGIS-Uebergabe, PV-Flaechenkonkurrenz
+- **[korrektur, materiell] Aufgehobener Erlass als geltende OEREB-Rechtsgrundlage.**
+  `wiki/kartenportale-oereb-kataster-system-zh.md` fuehrte die Themen **130 Gewaesserschutzbereiche**,
+  **131 Grundwasserschutzzonen** und **132 Grundwasserschutzareale** auf **LS 711.1 (EG GSchG)** —
+  ohne Aufhebungsvermerk, bei `status: established`. Das EG GSchG ist per **01.06.2026 aufgehoben**
+  (§ 126 lit. a WsG). Verschaerfend: in **derselben Tabelle** ist Thema 190 vorbildlich geflaggt
+  (durchgestrichene Altnorm → Nachfolge-§ + Warnkasten), was die ungeflaggten Zeilen als
+  geprueft-aktuell lesen laesst. Dieser Artikel ist die Nachschlagequelle jeder PL-01-Auskunft; von
+  dort wandert die Rechtsgrundlage in Baugesuche und Vorabklaerungen — gegenueber dem AWEL, das den
+  Nachfolgeerlass laengst anwendet. Nachfolge vom Chef **am amtlichen Volltext** verifiziert (und
+  damit schaerfer als der Pruefvorschlag, der Thema 132 offenlassen wollte): **§ 45 Abs. 1 WsG** setzt
+  Gewaesserschutzbereiche **und** Grundwasserschutzareale fest (130 **und** 132), **§ 46 WsG** die
+  Grundwasserschutzzonen (131). → Zeilen 32/34 analog Zeile 39 umgeschrieben, Warnkasten um das
+  EG GSchG erweitert.
+- **[korrektur] Dritter Fundort in derselben KB.** `wiki/recht-norm-regenwasser-gewaesserraum-zh.md:108`
+  fuehrte das EG GSchG ungeflaggt als geltendes kantonales Recht und flaggt in denselben Saetzen WWG
+  und HWSchV korrekt als aufgehoben. → Aufhebungsvermerk mit Nachfolge-Abschnitten gesetzt.
+- **[verlinkung, Zustaendigkeit] Kartenportal-Wissen lag komplett in `energie`.** grep ueber alle 51
+  Wiki-Artikel: «EnerGIS» **0**, «WVV»/«Waermeversorgungsverordnung» **0**, «Waermenutzungsatlas»
+  **0** — waehrend das neue energie-Destillat vollstaendiges Beschaffungswissen fuehrt (URL,
+  HTTP-200-Test ohne Login, Angular-SPA-Grenze, tote Downloadpfade). Nach Matrix ist das hiesige
+  Zustaendigkeit. → Zwei Zeilen in `wiki/kartenportale-geoportale-uebersicht.md`: **EnerGIS Stadt
+  Zuerich** und **Waermenutzungsatlas Kt. ZH (GIS-ZH P8)**, letzterer mit der in diesem Lauf
+  gefundenen gesetzlichen Verankerung **§ 48 Abs. 2 WsG**. Die materielle Rechts-/Fachaussage (WVV,
+  Gasverbot, Verbindlichkeit) bleibt bei `energie`.
+- **[verlinkung, materiell relevant] Flaechenkonkurrenz Haustechnik ↔ PV-Pflichtflaeche.**
+  `wiki/energie-pv-eignung-typenwahl.md` rechnete die Dachbelegung ohne den Vorbehalt, dass die
+  kantonalen Vollzugshilfen die **Bruttodachflaeche inklusive** technischer Aufbauten bemessen und ein
+  Abzug ein begruendetes Einzelfallgesuch braucht (im Kt. AG ist «technisch nicht moeglich»
+  ausdruecklich **kein** Befreiungsgrund). → Zweizeiler am Dimensionierungs-Anker gesetzt, mit
+  Warnung, dass aGF / Bruttodachflaeche / W je m2 EBF nicht ineinander umrechenbar sind.
+- Bericht: `wissen/koordination/outputs/2026-07-27_wissens-chef-run18.md`.
+
 ## 2026-07-27 — Wissens-Chef Run 17 (Cross-KB): drei Korrekturen im PL-03-Brandschutz-Wegweiser, zwei davon sicherheitsrelevant
 - **[korrektur, materiell] Kapselungsregel K umgekehrt gefuehrt.** `wiki/brandschutz-pl03-wegweiser.md` schrieb «K betraegt 30 Minuten, mindestens jedoch K30-RF1 und mindestens 30 Minuten weniger als der Feuerwiderstand des Gesamtbauteils». K ist aber ein **Rechenwert nach unten** (Gesamtbauteil minus 30 Min., Untergrenze K30-RF1), kein fixer Wert mit Obergrenze. Folge: bei **REI 90-RF1** sah eine Bekleidung **K30-RF1** zulaessig aus, wo Tab. 232-2 zwingend **K60-RF1** verlangt — eine unterdimensionierte Brandschutzbekleidung, die aus dem Vorprojekt-Grobcheck in eine Ausschreibungsklausel oder ein Brandschutzkonzept wandern kann. Fuehrend ist `wissen/normen/destillate/lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md` (sechsfach refuter-verifiziert gegen den 300-dpi-Originalscan); die hiesige Fassung stammte aus Run 24 (13.07.) und war nie am Original gegengelesen. → an den Normwortlaut angeglichen, Korrekturvermerk + Fundstellenverweis gesetzt.
 - **[korrektur, materiell] Wandtraglast q'd,fi auf den falschen Systemtyp verallgemeinert.** «Tragende Lastannahme durchgehend 20 kN/m' (30 Min.) bzw. 50 kN/m' (60/90 Min.)» gilt nur fuer **einen** der sieben Lignum-Wandsystemtypen. Fehler in beide Richtungen: Blockbauwaende 50 statt der zulaessigen 20 kN/m' (**unsichere Ueberschaetzung**), Brettstapelwaende 20 statt 70 kN/m' (unnoetig konservativ, verteuert den Vorentwurf). Der Absatz ist ausdruecklich als Grundlage fuer die Vorprojekt-Dimensionierung ohne Beizug eines Holzbauingenieurs deklariert. `normen` hatte denselben Fehler in Refuter-Runde 31 bei sich bereits korrigiert. → Werte je Systemtyp eingesetzt, dazu der zweite uebersehene Punkt: 90-Minuten-Tabellen bestehen nur fuer zwei der sieben Systeme. Bildpruefung am Original S. 46-51.

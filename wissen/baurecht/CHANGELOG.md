@@ -3,6 +3,43 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-27 — Wissens-Chef Run 18 (Cross-KB): Nachkontrolle des EG-GSchG-Sweeps — ein NEUER Fehler, ein offener Drittkanal, eine P1-Bringschuld
+- **[korrektur, materiell] Der Sweep hat sich selbst einen Fehler eingebaut.** Das **Frontmatter** von
+  `buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md:7` ordnete die Abwasser-/Kanalisations-
+  paragraphen des aufgehobenen EG GSchG dem WsG-Abschnitt **§§ 45-48** zu — das ist der *planerische
+  Gewaesserschutz*. Der **Fliesstext derselben Datei** sagt zweifach das Richtige (Z. 17/55: «Abschnitt
+  C WsG, §§ 49 ff.»), Band 1 (`03-erschliessung-landsicherung-teil1.md:97`) ebenso. Der Chef hat das
+  amtliche PDF `724.1_12.12.24_133.pdf` selbst gezogen und gelesen: «B. Planerischer Gewaesserschutz»
+  = §§ 45-48, «**C. Siedlungsentwaesserung**» beginnt bei **§ 49**. Zusaetzlich ist «§ 13 ff.» ein
+  Uebertragungsfehler — § 13 regelt die Sicherheitsleistung, der Abwasser-Abschnitt beginnt bei
+  **§ 14**. → Frontmatter korrigiert auf «§§ 14 ff./§ 16 … Nachfolge §§ 49 ff. WsG, Abschnitt C».
+  **Regel daraus: nach einem Erlass-Sweep prueft eine zweite Instanz die ERSETZUNG, nicht das
+  Verschwinden** — eine Falschzitierung, die durch eine andere ersetzt wird, besteht jede
+  grep-basierte Erfolgskontrolle.
+- **[korrektur] Selbstwiderspruch im Arbeitsregister bereinigt.** `training/PROGRAMM.md` fuehrte die
+  ueberholte Pauschalzuordnung «§§ 35/36 → §§ 45/46 WsG» unveraendert neben ihrer eigenen Korrektur
+  («§ 35 → **§ 46** WsG, nicht § 45»). → Pauschalzuordnung gestrichen; zugleich **§§ 14 ff. → §§ 49 ff.
+  WsG** und **§ 45 (Anschlussgebuehren) → §§ 61/62 WsG** am Volltext bestaetigt eingetragen (§ 61
+  Abs. 1 lit. b «Gebuehren fuer den Anschluss … an die oeffentliche Kanalisation», § 62 Abs. 1
+  «kostendeckend und verursachergerecht»). Die drei Register-Fundorte in `wiki/INDEX.md:41`,
+  `buecher/INDEX.md:242` und `training/curriculum.md:44` hat die Nachtschicht bereits nachgezogen —
+  bestaetigt.
+- **[gemeldet, P1] Der geltende Erlass WsG (LS 724.1) liegt nirgends im Hub.** `find` ueber den
+  ganzen Hub nach `*724.1*` / `*wassergesetz*` = **0 Treffer**, obwohl diese KB das WsG inzwischen an
+  rund vierzehn Stellen zitiert und fuer PBG, EnerG, BBV I, HWSchV, AbtrG, EG ZGB je einen amtlichen
+  Volltext fuehrt (zuletzt `raw/260727_amtlich_zh_abtrg.md`, am selben Tag). In `wiki/QUESTIONS.md`
+  angemeldet — **mit funktionierender Bezugs-URL** (`notes.zh.ch/appl/zhlex_r.nsf/...`; die generische
+  `zh.ch/content/dam/...`-URL liefert **HTML statt PDF**, diese Falle ist dort dokumentiert) und mit
+  Mindestumfang §§ 44-48, 49 ff., 61/62, 119, 122, 126 + Fn. 2. Zusaetzlich **P2**: §§ 4-7 EnerG
+  fehlen in `raw/260712_amtlich_zh_energ.md`, weshalb `energie` diesen Wortlaut selbst pflegt.
+  Beschaffung/Ablage bleibt beim Loop — Inventaraufbau ist nicht Sache der Meta-Aufsicht.
+- **[Drittkanal, in der anderen KB korrigiert]** Der in `training/PROGRAMM.md:154` selbst angemeldete
+  Drittkanal war offen geblieben: `planungsgrundlagen` fuehrte die OEREB-Themen 130/131/132 weiter auf
+  LS 711.1. Zuordnung am Volltext verifiziert und dort gesetzt: **§ 45 WsG** = Gewaesserschutzbereiche
+  UND Grundwasserschutzareale, **§ 46 WsG** = Grundwasserschutzzonen, **§ 48 Abs. 2 WsG** =
+  Waermenutzungsatlas.
+- Bericht: `wissen/koordination/outputs/2026-07-27_wissens-chef-run18.md`.
+
 ## 2026-07-27 — EG-GSchG-Nachzug ABGESCHLOSSEN (Nachtschicht Mac Mini): letzte 3 von 17 Fundorten
 Die vom vorangehenden Nachtschicht-Lauf offen gelassenen 3 reinen Verweis-Stellen (kein materieller
 Fehler, aber Konsistenz zum korrigierten Buchtext) nachgezogen: `buecher/INDEX.md` und `wiki/INDEX.md`

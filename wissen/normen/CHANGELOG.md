@@ -1,3 +1,30 @@
+## 2026-07-27 — Wissens-Chef Run 18 (Cross-KB): drei Bring-Schulden angemeldet, davon eine mit Klassen-Charakter
+- **[register, P1] SIA 385/9 — Fassungsstand pruefen, und dahinter eine strukturelle Grenze.** Der
+  Cross-KB-Lauf hat die hier in Run 22 geleistete Aufloesung der Nummern-Wiederverwendung (385/1:2000
+  → **385/9**:2011; 385/1 ab 2011 Trinkwarmwasser) in `energie` nachgezogen — beim Gegenlesen fiel auf,
+  dass der SIA-Shop eine **Ausgabe 385/9:2023** fuehrt («Wasser und Wasseraufbereitungsanlagen in
+  oeffentlich zugaenglichen Schwimmbaedern und aehnlichen Einrichtungen», ersetzt 385/9:2011), waehrend
+  `wiki/REGISTER.md:219` «2011 ✓» ausweist. Ursache ist keine Nachlaessigkeit, sondern eine
+  **Bestandsgrenze**: das Register speist sich laut eigenem Kopf aus `ersetzte_normen.pdf` mit Stand
+  **25.02.2013** und bildet spaetere Revisionen strukturell nicht ab. → als P1-Pruefauftrag in
+  `wiki/QUESTIONS.md`; solange offen, darf 385/9 nicht mit Ausgabejahr zitiert werden.
+  **Der Einzelfall ist geflaggt, die Klasse nicht:** dieselbe 2013er-Grenze betrifft potenziell jede
+  nach 2013 revidierte Norm im Register — eine Stichprobe waere ergiebiger als der Einzelfall.
+  *Nebenbei ein Beleg fuer den Wert der adversarialen Stufe:* haette der Chef den urspruenglichen
+  Korrekturvorschlag woertlich uebernommen, haette er «385/9:2011» als geltende Fassung nach `energie`
+  geschrieben — eine Korrektur, die einen neuen Fassungsfehler erzeugt.
+- **[register, P2] EN 13487 und EN 12102-1 fehlen ganz.** `grep "13487"` und `grep "12102"` ueber die
+  ganze KB: je **0 Treffer**. Beide werden von `energie` zitiert — EN 13487 als Herstellernorm fuer
+  Rueckkuehler-Schalldruckpegel (`destillate/rueckkuehler-flaechenkonkurrenz-pv-laermschutz.md:273-275`,
+  **ohne Ausgabejahr**, von dort ins Wiki `waermepumpen-laermschutz.md:110` uebernommen), EN 12102-1 als
+  Messnorm. → in `wiki/QUESTIONS.md` angemeldet: Ausgabe verifizieren (nicht raten), ins REGISTER
+  aufnehmen, Rueckverweis setzen.
+- **[abgrenzung festgehalten] Cercle-Bruit-Vollzugshilfen 6.20/6.21 sind KEINE Normen** (amtsnahe
+  Vollzugshilfen der kantonalen Laermschutzfachstellen) und bleiben bei `energie` — ein Verweis genuegt,
+  keine Umlagerung ins REGISTER. Damit ist der wiederkehrenden Frage vorgebeugt, warum die im
+  Laerm-Kontext meistzitierte Quelle hier nicht auftaucht.
+- Bericht: `wissen/koordination/outputs/2026-07-27_wissens-chef-run18.md`.
+
 ## 2026-07-27 — Wissens-Chef Run 17 (Cross-KB): Querbezug-Block im Lignum-4.1-Destillat + SIA 181:2020 ins Arbeitsregister
 - **[verlinkung] Das fuehrende Lignum-4.1-Destillat kannte seinen Abnehmer nicht** — `wissen/planungsgrundlagen/wiki/brandschutz-pl03-wegweiser` fasst dieselbe Publikation fuer den Vorprojekt-Grobcheck zusammen, ohne dass sich die beiden Artikel kannten (Verweiszaehler in beide Richtungen: 0). Genau daraus sind **zwei materielle Fehler** im Wegweiser entstanden, die dieser Lauf korrigiert hat: (1) die Kapselungsregel war umgekehrt gefuehrt (K als fixe 30 Min. statt als Rechenwert nach unten → **K30-RF1 statt K60-RF1 bei REI 90-RF1**), (2) die Traglast q'd,fi war «durchgehend» je Feuerwiderstandsklasse angegeben statt je Systemtyp — **derselbe Fehler, den die Refuter-Runde 31 hier bereits korrigiert hatte**, der in der Abnehmer-KB aber unbemerkt weiterlief. → Querbezug-Block mit Rollentrennung gesetzt (dieses Destillat fuehrt Wortlaut/Ziffern/Tabellenwerte, der Wegweiser zieht sie nur), der beide Faelle ausdruecklich benennt, damit eine kuenftige Aenderung an Tab. 232-2 oder den Traglasttabellen des Kap. 4.4 nachgezogen wird.
 - **[register, 7. Fundort des Musters «Uebergabe verpufft»] SIA 181:2020 ins ARBEITSREGISTER nachgetragen.** Die Bring-Schuld stand seit **Wissens-Chef Run 3 (13.07.2026)** — vierzehn Tage — ausschliesslich in `wiki/QUESTIONS.md:545` und war nie in `training/norm-inventar.md`; entsprechend ist nichts geschehen, waehrend `energie` (Ausgabe 2020, +4 dB) und diese KB (Ausgabe 2006, +3 dB) unveraendert nebeneinander laufen. → als Inventar-Zeile mit **Prioritaet P1** eingetragen (hoeher als die vier baurecht-Schulden, weil die Rule `normen-referenz` fuer LV/Werkvertrag die 2006er Fundstelle zieht), Ruecklink in QUESTIONS.md. Beschaffung bleibt Bring-Schuld Raphael (SIA-Shop, kostenpflichtig).

@@ -3,6 +3,81 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-27 — Run 18 (Workflow-Fan-out: 5 Lese-Agenten + 10 adversariale Verifikatoren; 7 BESTAETIGT / 3 WIDERLEGT)
+- **Verfahren:** Workflow-Tool, 15 Agenten, ~2.19 Mio. Subagent-Token, 260 Tool-Calls, 13:21 Min.
+  Delta seit Run 17 nur **knapp eine Stunde** — trotzdem ergiebig, weil in diesem Fenster genau das
+  entstand, was Run 17 angestossen hatte: der **EG-GSchG-Nachzug der Nachtschicht** (12/15 Fundorte)
+  und **energie Run 117** (5 Destillate + 3 Wiki-Artikel). Bericht:
+  `outputs/2026-07-27_wissens-chef-run18.md`. 13 Stellen in 12 Dateien korrigiert.
+- **[korrektur, materiell, WICHTIGSTER BEFUND] Der eigene Sweep hat einen neuen Fehler eingebaut.**
+  `baurecht/buecher/band-2/12-baureife-teil3` ordnete im **Frontmatter** die Abwasser-/Kanalisations-
+  paragraphen dem WsG-Abschnitt **§§ 45-48** zu — das ist der planerische Gewässerschutz. Der
+  **Fliesstext derselben Datei** sagt zweifach das Richtige (§§ 49 ff., Abschnitt C). Chef hat das
+  amtliche PDF selbst gezogen: «C. Siedlungsentwaesserung» beginnt bei § 49; «§ 13 ff.» ist zudem ein
+  Uebertragungsfehler fuer «§§ 14 ff.». **Regel: nach einem Erlass-Sweep prueft eine zweite Instanz
+  die ERSETZUNG, nicht das Verschwinden** — ein Sweep, der eine Falschzitierung durch eine andere
+  ersetzt, besteht jede grep-Erfolgskontrolle.
+- **[korrektur, materiell] Der Drittkanal des Sweeps blieb offen.** `planungsgrundlagen` fuehrte die
+  OEREB-Themen 130/131/132 weiter auf **LS 711.1 (EG GSchG)**, `status: established`, ungeflaggt — in
+  DERSELBEN Tabelle, in der Thema 190 vorbildlich geflaggt ist. Dritter Fundort:
+  `recht-norm-regenwasser-gewaesserraum-zh.md:108`. Nachfolge am Volltext verifiziert und damit
+  schaerfer als der Agenten-Vorschlag (der Thema 132 offenlassen wollte): **§ 45 WsG** = Gewaesser-
+  schutzbereiche UND Grundwasserschutzareale, **§ 46 WsG** = Grundwasserschutzzonen. Nebenfund mit
+  Eigenwert: **§ 48 Abs. 2 WsG** verankert den **Waermenutzungsatlas** gesetzlich.
+- **[korrektur, materiell] 70-%-Kurzschluss in zwei energie-Destillaten.** Die 70 % der staedtischen
+  WVV wurden als Voraussetzung der Anschlussverfuegung nach § 295 Abs. 2 PBG ausgegeben — der
+  amtliche Wortlaut kennt **keine Prozentschwelle**, sondern zwei kumulative Voraussetzungen; der
+  **Gleichwertigkeits-Vorbehalt** (der Hebel jeder Einsprache) fehlte ganz. Drei verschiedene
+  70-%-Regeln getrennt (WVV Art. 8 lit. a / § 47 g BBV I / AfB-Merkblatt). Lehrreich: das
+  Schwesterdestillat **warnt auf Z. 42-43 selbst davor** und zieht den Kurzschluss auf Z. 61-63.
+- **[korrektur, materiell] Rueckfall hinter die eigene Chef-Korrektur vom Vortag (7. Fundort des
+  Musters).** Das neue Submetering-Destillat verneinte die Befreiung der Zwischenzone
+  200'000-500'000 kWh; **§ 48c Abs. 1 lit. c BBV I** befreit schwellenunabhaengig bei freiwilliger
+  Zielvereinbarung (KMU-Modell). Genau diese Korrektur hatte der Chef in **Run 16** in
+  `planungsgrundlagen` gesetzt und dort markiert. **Eine Korrektur in KB A immunisiert KB B nicht.**
+- **[korrektur, materiell] Falscher Kantonskatalog Solarpflicht (2. Auftreten der Fehlerklasse).**
+  «60 % der geeigneten Bruttodachflaeche» pauschal fuer BE/BL/AG — AG bleibt bei **20 % aGF**, BE
+  kennt gar keine Flaechenschwelle. Der Verifikator fand an der Primaerquelle einen gewichtigeren
+  zweiten Fehler: AG schliesst die Befreiung wegen technischer Unmoeglichkeit **ausdruecklich aus** —
+  womit die Kernantwort des Destillats fuer AG nicht traegt.
+- **[korrektur, materiell] SIA 385/1: die KB hatte die Antwort zwei Tage vor der Frage.** `normen`
+  hatte die Nummern-Wiederverwendung (385/1:2000 → **385/9**:2011; 385/1 ab 2011 Trinkwarmwasser) in
+  Run 22 aufgeloest, das Therapiebad-Destillat erklaerte sie fuer ungeklaert. **Der Verifikator
+  verschaerfte den Befund:** geltend ist laut SIA-Shop **385/9:2023** — das normen-REGISTER speist
+  sich aus einem Bestand mit **Stand 25.02.2013** und bildet spaetere Revisionen strukturell nicht ab.
+  Waere der Agenten-Vorschlag woertlich uebernommen worden, haette er einen neuen Fassungsfehler
+  erzeugt. **Neue Variante der Run-8-Regel «Fassungspflege ist der blinde Fleck».**
+- **[korrektur, materiell] § 30a BBV I aus zweiter Hand zitiert.** Das neue SZ-Destillat zog den
+  ZH-Wortlaut aus einem energie-Schwesterartikel statt aus `baurecht/raw`: «zumutbar» statt amtlich
+  «**tragbar**» (traegt die Behauptung «nahezu wortgleich» zu SZ § 21 kEnV), und der **Ausloese-
+  tatbestand** von Abs. 2 fiel weg — ohne ihn erzeugt die ZH↔SZ-Tabelle eine Pflicht, die es fuer
+  Bestandsbauten ohne Erneuerung der Kaelteerzeugung nicht gibt. Chef am Original gegengelesen.
+- **[WIDERLEGT, wertvollster Nicht-Befund] «Amt fuer Gewaesser SZ existiert nicht»** — gestuetzt auf
+  einen hub-internen grep-Negativbefund. Das AfG existiert; SZ **teilt** die Gewaesserschutzfachstelle
+  (AfG Abwasser § 17 EGzGSchG / AfU Grundwasser § 29 EGzGSchG). **Die Umsetzung haette die Falsch-
+  angabe erst erzeugt.** Regel: «steht nicht in unserer KB» ist nie «gibt es nicht».
+- **[WIDERLEGT mit Restbefund] BL-Solarpflicht** — verwechselte Regelungsstufen (Bundespflicht
+  Art. 45a EnG gilt; gekippt wurde die kantonale Ausdehnung darunter, das Volks-Nein 8.3.2026 betraf
+  eine Verschaerfung). Echter Restbefund bestaetigt: BL steht in Wiki und Quell-Destillat **doppelt**
+  → beide ueberholten Zeilen entwertet.
+- **[WIDERLEGT] Therapiebad/SIA 380/1 Kat. XII** — nicht derselbe Gegenstand (Gebaeudekategorie vs.
+  Raumnutzung SIA 2024). 3 von 10 kassiert (Run 17: 2/10, Run 15: 5/14) — gesunde Quote.
+- **[gemeldet, NICHT ausgefuehrt] P1: der WsG-Volltext liegt nirgends im Hub.** Die fuer den
+  ZH-Erlassstand fuehrende KB zitiert das WsG an ~14 Stellen und hat es nicht (`find *724.1*` = 0),
+  waehrend sie fuer PBG/EnerG/BBV I/HWSchV/AbtrG/EG ZGB je einen amtlichen Volltext fuehrt. In
+  `baurecht/wiki/QUESTIONS.md` mit **funktionierender Bezugs-URL** angemeldet (die generische
+  zh.ch-`dam`-URL liefert HTML statt PDF — Falle dokumentiert) plus Mindestumfang. Ebenso P2:
+  §§ 4-7 EnerG fehlen in `raw/260712_amtlich_zh_energ.md`, weshalb `energie` den Wortlaut selbst
+  pflegt. Inventaraufbau gehoert dem Loop, nicht der Meta-Aufsicht.
+- **[ESKALATION AN RAPHAEL, unabhaengig verifiziert] Zwei Taktgeber je Loop auf dem Mac Mini.** Der
+  energie-Loop traf um 22:37 auf eine laufende Zweitinstanz und trat regelkonform zurueck. Ursache:
+  App Scheduled Task **und** launchd-Agent (`ch.jans.training-energie`, `ch.jans.training-plg`)
+  feuern 7 Min. versetzt. **Chef-Gegenprobe per ssh: beide Agenten geladen**, plists im Ordner
+  (normen unscharf daneben). Genau der von Rule 260727 verbotene Zustand; folgenlos war er nur, weil
+  die Dispatches am leeren Kontingent scheiterten. Konfigurationsaenderung → Entscheid Raphael.
+- **[ENTSCHEID RAPHAEL, unveraendert offen aus Run 17]** zwei Rule-Aenderungen an `anrede-kontakte.md`
+  (generelle Gewichts-Klausel; Felix Staehlin — Karl Waechter AG oder Staehlin AG Sanitaer?).
+
 ## 2026-07-27 — Run 17 (Workflow-Fan-out: 5 Lese-Agenten + 10 adversariale Verifikatoren; 8 BESTAETIGT / 2 WIDERLEGT)
 - **Verfahren:** Workflow-Tool, 15 Agenten, ~2.17 Mio. Subagent-Token, 256 Tool-Calls, 14:08 Min.
   Zuschnitt auf das **Delta seit Run 16** (26.07., 00:45) — praktisch jede KB hat am 27.07. geschrieben.

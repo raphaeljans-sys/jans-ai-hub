@@ -2,6 +2,69 @@
 
 Neueste zuoberst.
 
+## 2026-07-27 — Wissens-Chef Run 18 (Cross-KB): fuenf materielle Korrekturen am Run-117-Material, eine Stunde nach dessen Entstehung
+- **[korrektur, materiell] 70-%-Kurzschluss in zwei Destillaten.** `energis-kartenwerk-stadt-zuerich.md:172-175`
+  gab die 70-%-Schwelle der staedtischen WVV als «dieselbe Schwelle, die materiell auch die
+  Anschlussverfuegung nach § 295 Abs. 2 PBG rechtfertigt» aus. **§ 295 Abs. 2 PBG kennt keine
+  Prozentschwelle** (amtlicher Wortlaut `wissen/baurecht/raw/260607_amtlich_zh_pbg.md:3035-3040`),
+  sondern zwei **kumulative** Voraussetzungen: Nutzung lokaler Abwaerme/erneuerbarer Energien **und**
+  Angebot zu technisch-wirtschaftlich gleichwertigen Bedingungen. Der **Gleichwertigkeits-Vorbehalt**
+  — praktisch der Hebel jeder Einsprache — fehlte ganz. Drei verschiedene 70-%-Regeln sind zu trennen:
+  WVV Art. 8 lit. a (staedtisch) / § 47 g BBV I (kantonal) / AfB-Merkblatt (Vollzug). Bemerkenswert:
+  `fernwaerme-anschlusspflicht-zh.md` **warnt auf Z. 42-43 selbst davor** und zieht den Kurzschluss auf
+  Z. 61-63 trotzdem. → beide Stellen korrigiert.
+- **[korrektur, materiell] Rueckfall hinter die Chef-Korrektur vom Vortag.**
+  `energiemonitoring-submetering-grossverbraucher-zh-sz.md` verneinte an drei Stellen die Befreiung von
+  der Betriebsoptimierung fuer die Zwischenzone 200'000-500'000 kWh. **§ 48c Abs. 1 lit. c BBV I**
+  (raw Z. 937) befreit Betriebsstaetten, «fuer die eine freiwillige Zielvereinbarung abgeschlossen
+  wurde (KMU-Modell)» — **schwellenunabhaengig**; die Zwischenzone ist sein Hauptanwendungsfall, nicht
+  sein Ausschluss. Dieselbe Korrektur steht seit **Run 16** in `planungsgrundlagen` (dort ausdruecklich
+  markiert) und im eigenen Schwesterdestillat `muken-2025-modul-7-…`. → Tabelle, Befreiungsliste und
+  «Praktische Konsequenz» korrigiert, mit zwei Vorbehalten: die Befreiung tritt **nicht automatisch**
+  ein (abgeschlossener Vertrag), und die Aufnahmekriterien des KMU-Modells sind im Hub nicht belegt.
+  Ausserdem als Einordnung gekennzeichnet: die «auf Verlangen»-Vorlagepflicht steht so nicht im
+  Erlasstext (§ 48c Abs. 4 sagt nur «bewahren … zehn Jahre auf»).
+- **[korrektur, materiell] Falscher Kantonskatalog Solarpflicht.**
+  `rueckkuehler-flaechenkonkurrenz-pv-laermschutz.md:121-126` schrieb «i.d.R. 60 % der geeigneten
+  Bruttodachflaeche» pauschal BE/BL/AG zu — die eigene KB weiss es besser: **AG** bleibt beim
+  Bundesminimum **20 % aGF**, **BE** kennt keine Flaechenschwelle (10 % aGF, ≥ 60 % geeignete
+  Dachflaeche) und ist kein Bundesminimum-Kanton. Uebereinstimmend ist nur die Abzugs-Systematik.
+  **An der Primaerquelle kam ein gewichtigerer zweiter Fehler dazu:** Z. 152-153 behauptete, «alle drei
+  Vollzugshilfen» kennten eine Ausnahme bei technischer Unmoeglichkeit — das AG-Merkblatt schliesst das
+  ausdruecklich aus («wird … bewusst nicht eingegangen»), womit die Kernantwort des Destillats fuer
+  ein AG-Projekt nicht traegt. → beide Stellen korrigiert, je Kanton aufgeschluesselt.
+- **[korrektur, materiell] § 30a BBV I aus zweiter Hand.** `abwaerme-bereitstellungspflicht-sz.md`
+  zitierte den ZH-Wortlaut aus einem energie-Schwesterartikel statt aus der fuehrenden `baurecht/raw`:
+  «wirtschaftlich **zumutbar**» statt amtlich «**tragbar**» (genau diese angeglichene Formulierung
+  traegt die Behauptung, SZ § 21 kEnV sei «nahezu wortgleich»), und bei Abs. 2 fiel der
+  **Ausloesetatbestand** weg — die Drittabgabepflicht greift nur «bei Neubauten oder bei bestehenden
+  Bauten nach Erneuerungen und Umbauten der Kaelteerzeugung». Ohne ihn erzeugt die ZH↔SZ-Tabelle in
+  einer Standortabwaegung eine Pflicht, die es nicht gibt. Chef am Original gegengelesen (raw Z. 444-446).
+- **[korrektur] SIA 385/1 aufgeloest — die Antwort lag zwei Tage vor der Frage.**
+  `therapiebad-hallenbad-energie-pflegeheim.md` erklaerte die «Bezeichnungskollision» fuer ungeklaert;
+  `normen/wiki/REGISTER.md` hatte sie in Run 22 (25.07.) abschliessend geklaert: **reine
+  Nummern-Wiederverwendung** — Badewasser 385/1:2000 ging **2011 in SIA 385/9** auf, die Nummer 385/1
+  wurde 2011 fuer Trinkwarmwasser neu vergeben. Mit **Fassungsvorbehalt** uebernommen: laut SIA-Shop
+  gilt **385/9:2023**, das Normen-Register fuehrt 2011 aus einem Bestand mit Stand 2013 → dort als
+  Pruefauftrag angemeldet. Offener Punkt 4 geschlossen.
+- **[korrektur] Alters- und Bezugsgroessen-Vorbehalt an die BFE-Zahlen gezogen.** Die Kennwerte von
+  **1993** standen ohne Vorbehalt am Zahlenort (er stand nur im Frontmatter) und wurden ueber
+  `destillate/INDEX.md:269` als KB-Kennwert weiterpropagiert; die Bezugsgroessen SIA 116:1952 und
+  SIA 180/4:1982 sind zurueckgezogen (Nachfolge SIA 416:2003 / 416/1:2007). → Vorbehalt an die
+  Wertetabelle **und** in die INDEX-Zeile, damit er die Abfrage ueberlebt.
+- **[verlinkung] Vorlaeufer entwertet, offener Punkt geschlossen.** `abwasserwaermenutzung-kanalisation-zh-sz.md`
+  lief unmarkiert mit der nur websuchgestuetzten SZ-Fassung weiter (grep auf die Vertiefung: 0 Treffer)
+  → Ueberholt-Vermerk + Backlink auf `[[abwasserwaerme-bewilligung-sz-vertiefung]]`, inkl. der
+  Unterscheidung **AfG** (Abwasser, § 17 EGzGSchG) ↔ **AfU** (Grundwasser, § 29 EGzGSchG) — beide
+  Angaben der KB sind richtig, sachbereichsabhaengig. In `waermeplanung-kommunal-zh-sz.md` den offenen
+  WVV-Punkt als **erledigt** geschlossen (Run 117 hat alle 23 Artikel im Volltext gelesen).
+- **[korrektur] BL-Doppelzeile bereinigt.** Basel-Landschaft stand in `wiki/solarpflicht-schweiz-kantone.md`
+  und im Quell-Destillat **doppelt** — der ueberholte Run-56/57-Stand «ab 1.10.2024» neben dem
+  geklaerten Stand. → beide alten Zeilen entwertet. Praezisierung dazu: gekippt wurde die **kantonale
+  Ausdehnung** unter die Bundesschwelle; die Bundespflicht Art. 45a EnG gilt in BL, und das Volks-Nein
+  vom 8.3.2026 betraf eine **Verschaerfung** (Nachruestpflicht Bestand).
+- Bericht: `wissen/koordination/outputs/2026-07-27_wissens-chef-run18.md`.
+
 ## 2026-07-27 — Run 117: Sechs parallele Rechercheagenten, gezielter SZ-Volltextabgleich + drei neue Themenfelder
 
 Intensiv-Lauf auf Auftrag Raphaels (Token-Vollgas/Workflow-Parallelisierung gemäss

@@ -52,6 +52,74 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### baurecht ↔ planungsgrundlagen (Nachkontrolle EG-GSchG-Sweep) — geprueft 2026-07-27 (Run 18)
+- **Anlass:** Die Nachtschicht zog den in Run 17 angeordneten Sweep nach (12/15 Fundorte). Dieser
+  Lauf prueft nicht das Verschwinden des Strings, sondern die **Ersetzung**.
+- **Befund 1 (WIDERSPRUCH, BESTAETIGT, korrigiert — materiell):** Der Sweep baute einen NEUEN Fehler
+  ein. Frontmatter `baurecht/buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md:7` ordnete die
+  Abwasserparagraphen **§§ 45-48 WsG** (planerischer Gewaesserschutz) zu; richtig ist **§§ 49 ff.,
+  Abschnitt C Siedlungsentwaesserung** — so auch der Fliesstext derselben Datei (Z. 17/55) und Band 1
+  (03-erschliessung Z. 97). Chef am amtlichen PDF gegengelesen. Zusatz: «§ 13 ff.» ist ein
+  Uebertragungsfehler fuer «§§ 14 ff.» (§ 13 regelt die Sicherheitsleistung).
+- **Befund 2 (VERALTET, BESTAETIGT, korrigiert — materiell):** Der in `baurecht/training/PROGRAMM.md`
+  selbst angemeldete **Drittkanal** blieb offen: `planungsgrundlagen/wiki/kartenportale-oereb-kataster-
+  system-zh.md` fuehrte OEREB 130/131/132 weiter auf LS 711.1, `established`, ungeflaggt; dritter
+  Fundort `recht-norm-regenwasser-gewaesserraum-zh.md:108`. Zuordnung am Volltext verifiziert:
+  **§ 45 WsG** (130 + 132), **§ 46 WsG** (131), **§ 48 Abs. 2 WsG** = Waermenutzungsatlas.
+- **Befund 3 (VERALTET, gemeldet, NICHT ausgefuehrt — P1):** Der **WsG-Volltext fehlt im ganzen Hub**
+  (`find *724.1*` = 0), obwohl `baurecht` ihn an ~14 Stellen zitiert. In `baurecht/wiki/QUESTIONS.md`
+  mit funktionierender notes.zh.ch-URL + Mindestumfang angemeldet (die zh.ch-`dam`-URL liefert HTML).
+- **Status:** korrigiert; P1-Bring-Schuld offen beim baurecht-Loop.
+- **Regel daraus:** **nach einem Erlass-Sweep prueft eine zweite Instanz die ERSETZUNG.** Fehlerarten
+  (a) neue Falschzuordnung, (b) nicht erreichter Drittkanal, (c) Register-Selbstwiderspruch sind fuer
+  eine grep-Erfolgskontrolle unsichtbar, weil der gesuchte String weg ist.
+
+### energie ↔ planungsgrundlagen ↔ baurecht (EnerGIS/Waermeversorgung Stadt ZH) — geprueft 2026-07-27 (Run 18)
+- **Befund 1 (WIDERSPRUCH, BESTAETIGT, korrigiert — materiell):** 70-%-Kurzschluss in
+  `energis-kartenwerk-stadt-zuerich.md:172-175` UND `fernwaerme-anschlusspflicht-zh.md:61-63`:
+  § 295 Abs. 2 PBG kennt **keine Prozentschwelle**, sondern zwei kumulative Voraussetzungen
+  (lokale Abwaerme/erneuerbar UND technisch-wirtschaftliche Gleichwertigkeit). Drei 70-%-Regeln
+  getrennt: WVV Art. 8 lit. a (staedtisch) / § 47 g BBV I (kantonal) / AfB-Merkblatt (Vollzug).
+- **Befund 2 (FEHLENDE QUERVERLINKUNG, BESTAETIGT, gesetzt):** planungsgrundlagen hatte **0 Treffer**
+  fuer EnerGIS/WVV/Waermenutzungsatlas ueber alle 51 Wiki-Artikel → beide Portale in die
+  Portaluebersicht aufgenommen, Flaechenkonkurrenz-Warnung in den PV-Artikel, Rueckverweise gesetzt.
+- **Fuehrung neu festgehalten:** Kartenportal/Zugriffsweg → **planungsgrundlagen**; materielle
+  Rechts-/Fachaussage (WVV, Gasverbot, Verbindlichkeit) → **energie**; Erlasswortlaut → **baurecht**.
+- **Offen (P2):** §§ 4-7 EnerG fehlen in `baurecht/raw/260712_amtlich_zh_energ.md` (auf §§ 9-14
+  begrenzt), weshalb `energie` den Wortlaut selbst pflegt — in baurecht/QUESTIONS angemeldet.
+
+### energie ↔ normen (Baeder-/Rueckkuehler-Normen) — geprueft 2026-07-27 (Run 18)
+- **Befund 1 (VERALTET, BESTAETIGT, korrigiert):** «Bezeichnungskollision SIA 385/1» stand als
+  ungeklaert, obwohl `normen` sie zwei Tage zuvor (Run 22) aufgeloest hatte: Nummern-Wiederverwendung,
+  Badewasser laeuft ueber **SIA 385/9**. **Verifikator verschaerfte:** geltende Ausgabe laut SIA-Shop
+  **385/9:2023**; das normen-REGISTER speist sich aus einem Bestand mit **Stand 25.02.2013** und
+  bildet spaetere Revisionen strukturell nicht ab → Fassungs-Pruefauftrag in normen/QUESTIONS (P1).
+  **Klasse offen:** dieselbe 2013er-Grenze betrifft potenziell jede nach 2013 revidierte Norm.
+- **Befund 2 (FEHLENDE QUERVERLINKUNG, gesetzt):** **EN 13487** und **EN 12102-1** fehlen in der
+  fuehrenden KB ganz (grep je 0), werden von energie aber zitiert — in normen/QUESTIONS angemeldet.
+  Abgrenzung festgehalten: Cercle-Bruit-Vollzugshilfen 6.20/6.21 sind **keine** Normen und bleiben
+  bei `energie`.
+- **Befund 3 (VERALTET, korrigiert):** BFE-Kennwerte 1993 standen ohne Alters-Vorbehalt am Zahlenort
+  und wurden ueber `destillate/INDEX.md` weiterpropagiert; Bezugsgroessen SIA 116:1952 / SIA 180/4:1982
+  sind zurueckgezogen (Nachfolge SIA 416:2003 / 416/1:2007) → Vorbehalt an die Zahlen UND in den INDEX.
+
+### energie ↔ baurecht (SZ-Abwaerme, Submetering) + energie-intern — geprueft 2026-07-27 (Run 18)
+- **Befund 1 (WIDERSPRUCH, BESTAETIGT, korrigiert — materiell):** Submetering-Destillat verneinte die
+  Befreiung der Zwischenzone 200'000-500'000 kWh; **§ 48c Abs. 1 lit. c BBV I** befreit
+  schwellenunabhaengig (freiwillige Zielvereinbarung/KMU-Modell). **7. Fundort des Musters
+  «Korrekturen sind nicht ansteckend»** — dieselbe Korrektur stand seit Run 16 in
+  `planungsgrundlagen` und war dort markiert.
+- **Befund 2 (DOPPELSPURIGKEIT, korrigiert):** § 30a BBV I aus einem Schwesterdestillat statt aus
+  `baurecht/raw` zitiert → «zumutbar» statt amtlich «**tragbar**», Ausloesetatbestand von Abs. 2
+  weggefallen. Chef am Original gegengelesen (raw Z. 444-446).
+- **Befund 3 (FEHLENDE QUERVERLINKUNG, gesetzt):** Der Vorlaeufer aus Run 116 lief unmarkiert mit der
+  nur websuchgestuetzten SZ-Fassung weiter → Ueberholt-Vermerk + Backlink auf die Volltext-Vertiefung.
+- **Befund 4 (WIDERLEGT — wertvollster Nicht-Befund des Laufs):** «Amt fuer Gewaesser SZ existiert
+  nicht» beruhte auf einem hub-internen grep-Negativbefund. Das **AfG existiert**; SZ teilt die
+  Gewaesserschutzfachstelle: **AfG** fuer Abwasser (§ 17 EGzGSchG), **AfU** fuer Grundwasser
+  (§ 29 EGzGSchG). Die Umsetzung haette die Falschangabe erst erzeugt. Unterscheidung im
+  Ueberholt-Vermerk festgehalten. **Regel: «steht nicht in unserer KB» ist nie «gibt es nicht».**
+
 ### energie ↔ baurecht (Abwaerme/Prozessenergie, EG GSchG → WsG) — geprueft 2026-07-27 (Run 17)
 - **Anlass:** energie Run 116 (27.07.) legte vier neue Abwaerme-Destillate + einen Wiki-Artikel an
   (Abwasserwaerme Kanalisation ZH/SZ, Grosskuechen-Lueftung, Serverraum-Kuehlung, Waescherei
