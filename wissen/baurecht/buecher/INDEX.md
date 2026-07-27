@@ -239,7 +239,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
   offen). Speist [[baureife-und-erschliessung]].
 - [[12-baureife-teil4-gebuehren-abfall-altlasten]] — Kap. 12 Teil 4 / **Schluss** (S. 770-807):
   **Anschlussgebuehren + Abfall/Kehricht + belastete Standorte/Altlasten** — Anschlussgebuehr
-  verursachergerecht (**Art. 60a GSchG / § 45 EG GSchG**), Abfallbeseitigung/Kehricht (**Art. 30-32b
+  verursachergerecht (**Art. 60a GSchG / § 45 EG GSchG**, aufgehoben 1.6.2026 → §§ 61/62 WsG), Abfallbeseitigung/Kehricht (**Art. 30-32b
   USG**, VVEA/VeVA, AbfG ZH, § 249 PBG, Verursacherprinzip), **Altlasten** (**Art. 32c USG** Sanierung
   + Kataster belasteter Standorte KbS, **Art. 32d USG** Kostentragung/Verursacher, **Art. 32bbis / 32dbis
   USG** Bauherren-Altlast + Veraeusserungsbewilligung AWEL, **AltlV** Vor-/Detailuntersuchung/Realleistung

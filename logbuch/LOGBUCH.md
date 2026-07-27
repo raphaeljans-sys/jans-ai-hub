@@ -7,6 +7,13 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-27
 
+**Nachtschicht Mac Mini (~23:30-23:50) — EG-GSchG-Nachzug baurecht abgeschlossen.** Die vom
+vorherigen Lauf (22:30-22:40) offen gelassenen letzten 3 von 17 Fundorten (`buecher/INDEX.md`,
+`wiki/INDEX.md`, `training/curriculum.md` — reiner Verweistext, kein materieller Fehler) mit
+Aufhebungsvermerk (EG GSchG per 1.6.2026 aufgehoben → §§ 61/62 WsG) nachgezogen. Erledigt-
+Kriterium via grep verifiziert. CHANGELOG + `training/PROGRAMM.md` (Fortschritts-Tracker auf
+ABGESCHLOSSEN) nachgefuehrt. Kein Versand/keine Buchung/keine Publikation.
+
 **Hub-Chef-Lauf (~21:35, verspaetet nachgeholt) — MIT Befund, Briefing versendet.** Der
 geplante 08:35-Lauf hat heute nicht stattgefunden. Signale vollstaendig eingesammelt
 (Fristen-Register + Logbuch 7-Tage-Horizont, `mail-vorfilter.sh 26` ueber alle Apple-Mail-Konten

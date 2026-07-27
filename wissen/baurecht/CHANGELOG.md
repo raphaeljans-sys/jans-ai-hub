@@ -3,6 +3,17 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-27 — EG-GSchG-Nachzug ABGESCHLOSSEN (Nachtschicht Mac Mini): letzte 3 von 17 Fundorten
+Die vom vorangehenden Nachtschicht-Lauf offen gelassenen 3 reinen Verweis-Stellen (kein materieller
+Fehler, aber Konsistenz zum korrigierten Buchtext) nachgezogen: `buecher/INDEX.md` und `wiki/INDEX.md`
+(je Eintrag [[12-baureife-teil4-gebuehren-abfall-altlasten]], § 45 EG GSchG jetzt mit Aufhebungsvermerk
+„aufgehoben 1.6.2026 → §§ 61/62 WsG") sowie `training/curriculum.md` (Kap.-12-Zeile, dito). Damit sind
+**alle 17 Fundorte** des von Wissens-Chef Run 17 eröffneten Nachzugs korrigiert; Erledigt-Kriterium
+(`grep -rniI "EG GSchG\|EGSchG\|711\.1"` über `wiki/`, `buecher/`, `training/`) liefert nur noch
+Stellen mit Aufhebungsvermerk bzw. historische CHANGELOG-/QUESTIONS-Einträge, die den Fund selbst
+dokumentieren (bewusst unangetastet). `training/PROGRAMM.md` Fortschritts-Tracker auf ABGESCHLOSSEN
+gesetzt.
+
 ## 2026-07-27 — EG-GSchG-Nachzug fortgesetzt (Nachtschicht Mac Mini): 12 von 15 Fundorten korrigiert
 Auftrag aus Wissens-Chef Run 17 (Prioritaet a) uebernommen. Amtlichen WsG-Volltext selbst gezogen
 (`724.1_12.12.24_133.pdf`, zhlex) und alle verbleibenden Fundorte in 5 Buch-Destillaten (band-2/12

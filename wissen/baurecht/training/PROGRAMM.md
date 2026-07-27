@@ -125,10 +125,15 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
     dabei quellentreu stehen lassen — genau das Muster des HWSchV-Nachzugs aus Run 48/50.
     **Erledigt-Kriterium:** `grep -rniI "EG GSchG\|EGSchG\|711\.1"` über `wiki/`, `buecher/` und
     `training/` liefert nur noch Stellen mit Aufhebungsvermerk.
-    **Offene Fundorte (Stand 27.07.2026 22:55, Nachtschicht Mac Mini): nur noch 3 von 17** —
-    `buecher/INDEX.md` (§ 45 EG GSchG) · `wiki/INDEX.md` (§ 45 EG GSchG) · `training/curriculum.md`
-    (dieser Eintrag selbst). **In diesem Lauf erledigt (12 Fundorte, alle mit Aufhebungsvermerk +
-    Nachfolgenorm, amtlicher WsG-Volltext `724.1_12.12.24_133.pdf` selbst gezogen und gegengelesen):**
+    **ABGESCHLOSSEN (Stand 27.07.2026 23:45, Nachtschicht Mac Mini): alle 17 von 17 Fundorte
+    korrigiert.** Die letzten 3 (reiner Verweis-Text, kein materieller Fehler) in diesem Lauf
+    nachgezogen: `buecher/INDEX.md` (§ 45 EG GSchG → Aufhebungsvermerk + §§ 61/62 WsG ergänzt) ·
+    `wiki/INDEX.md` (dito) · `training/curriculum.md` Zeile Kap. 12 Teil 4 (dito). Erledigt-Kriterium
+    verifiziert: `grep -rniI "EG GSchG\|EGSchG\|711\.1"` über `wiki/`, `buecher/`, `training/` liefert
+    nur noch Stellen mit Aufhebungsvermerk (Buchtext-Zitate, CHANGELOG/QUESTIONS-Historie und
+    `raw/` unangetastet, wie vorgesehen). **In den vorangehenden Laeufen erledigt (12 Fundorte, alle
+    mit Aufhebungsvermerk + Nachfolgenorm, amtlicher WsG-Volltext `724.1_12.12.24_133.pdf` selbst
+    gezogen und gegengelesen):**
     `buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md` (7×, inkl. Frontmatter) ·
     `buecher/band-2/12-baureife-teil4-gebuehren-abfall-altlasten.md` (3×, inkl. Frontmatter) ·
     `buecher/band-1/02-nutzungsplanung-zonenarten-teil2.md` (2×) ·
