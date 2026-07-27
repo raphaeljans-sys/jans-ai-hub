@@ -1,3 +1,29 @@
+## 2026-07-27 — Reconcile: kein Kollisionsfall, alle drei Lignum-Destillate gehoeren zu Run 30
+
+Die beiden folgenden Eintraege (Lignum 4.1, Lignum 4.2) sowie das separat destillierte
+`lignum-lignatec-brandschutz.md` (neuer Eintrag unten) wurden von den beiden Agenten selbst als
+moeglicher Kollisionsfall mit einem "parallelen Nacht-Loop" geflaggt, weil `training/norm-inventar.md`
+bereits einen Run-30-Kopfeintrag mit diesen drei Dateien enthielt, bevor ihre eigenen Writes
+abgeschlossen waren. **Klarstellung:** kein Kollisionsfall — der Run-30-Kopfeintrag wurde von derselben
+Session (dem Nacht-Loop-Lauf selbst) VORAB geschrieben, waehrend die drei Destillier-Agenten noch im
+Hintergrund liefen; es lief zu keinem Zeitpunkt eine zweite unabhaengige Instanz auf denselben Dateien.
+Alle drei Destillate sind Teil von Run 30 (Nacht-Loop, nicht ein davon losgeloester Direktauftrag).
+
+## 2026-07-27 — Neues Destillat: Lignum Lignatec 17/2005 Bauten in Holz Brandschutz-Anforderungen
+- **Neu:** `destillate/lignum-lignatec-brandschutz.md` — Lignum-Publikationsreihe Lignatec, Heft
+  17/2005, Uebersichts-Auszug "Bauten in Holz - Brandschutz-Anforderungen". Bild-Scan ohne Textlayer,
+  12 PDF-Seiten (gedruckte Seiten 2-24 + Ruckumschlag) komplett visuell gelesen. Erfasst: Ziff. 1
+  Grundlagen (R/E/I-Klassierung, Bezeichnungssystematik Tab. 2 inkl. nbb-Suffix, Standard-/
+  objektbezogenes Konzept), Ziff. 2 Tragwerke/Brandabschnitte inkl. Tab. 3, Schutzabstaende, Ziff. 3
+  Flucht-/Rettungswege inkl. Tab. 4, Ziff. 4 Verwendung brennbarer Baustoffe inkl. Tab. 5, Ziff. 5 acht
+  Uebersichtsaxonometrien 2-6-Geschosser, Glossar, Literatur/Impressum.
+- **Wichtigster Befund:** Basis-Fassung VKF 2003/2005 — explizit als gegenueber der heute gueltigen
+  VKF-Vorschriftengeneration 2015 potenziell ueberholt markiert (Datenstand-Feld + Fliesstext-Vorbehalt);
+  vor produktivem Gebrauch zwingend gegen die 2015er BRL "Tragwerke" und "Verwendung brennbarer
+  Baustoffe" abzugleichen. Deshalb `speculative`, kein established-Kandidat vor diesem Abgleich.
+- **INDEX ergaenzt:** `destillate/INDEX.md` neue Zeile bei den Lignum-Eintraegen.
+- **Teil von Run 30** (Nacht-Loop, siehe Reconcile-Eintrag oben und `training/norm-inventar.md`).
+
 ## 2026-07-27 — Neues Destillat: Lignum 4.1 Decken, Wände und Bekleidungen mit Feuerwiderstand
 - **Neu:** `destillate/lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md` — Lignum-
   Dokumentation Brandschutz, Themenblock 4 «Bauteile in Holz», Publikation 4.1 (Stamm-
