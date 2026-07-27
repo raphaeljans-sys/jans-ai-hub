@@ -3,7 +3,7 @@ title: Beziehungsregister
 status: established
 last_updated: 2026-07-27
 gewichtung: authentisch
-sources: [260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -1798,3 +1798,32 @@ Shyam Zala (Stadt ZH, AfB/Team 5), Sie, 27.07.2026.
   als die persönliche Erstbegegnung.
 - **Neues Mapping:** Shyam Zala, Stadt Zürich (Stellvertretung für Lars Hansen im Verfahren KISPI
   PPTS, seit 27.07.2026), Sie, «Geschätzter Herr Zala».
+
+## Batch 76 (2026-07-27) — Familien-/Geschwister-Register als eigene Achse, Tech-Peer ultraterse ohne jede Formel
+
+Gewichtung: authentisch (mail@raphaeljans.ch, Postfach-Registerwechsel fortgesetzt aus Batch 74;
+keine Echo-Falle — alle Belege handgetippt: Flexionsfehler «Ihm» statt «ihm», «lost» statt «los»,
+kleingeschriebener Betreffanschluss, keine Signatur in mehreren Fällen).
+
+- **Neue Register-Achse Geschwister-Du:** Mailwechsel mit Maria Jans Bickel (Schwester, Bern,
+  17./18.02.2026) zeigt eine noch waermere/laessigere Stufe als der bisher waermste dokumentierte
+  Peer-Du-Kontakt (Weisser): «Hoi Maria» als Opener, **kein** Signaturblock, Antwort «Stark, sehr
+  toller Preis.» ohne jede Anrede, Gruss nur im ersten Mail «Lieber Gruss Raphael» (Vorname ohne
+  Nachname), im Reply-Mail komplett ohne Gruss. Sachlich-persoenliche Mischung: Geraeteverleih-
+  Absprache trifft auf private Anteilnahme an einer Zwangsversteigerung. Bestaetigt: **Familie
+  bricht die Signatur-/Anrede-Formel staerker auf als jeder Geschaefts- oder Sozial-Kontakt.**
+- **Tech-Peer-Du ganz ohne Anrede/Gruss/Signatur:** Antwort an Dan Krusi (Nerves, Multi-Agent-
+  Thema) «Wieviel K kostet ein AI Agentensystemimplementierung?» — ein einzelner Satz, keine
+  Anrede, keine Signatur, direkt in der Sache. Gleiches Muster bei der Antwort an Rafael Biolley
+  (HUB12-Event) auf dessen «Was isch das?»: «was es isch» — klein geschrieben, kein Punkt, reines
+  Echo der Frage. **Ergaenzt die Ultrakurz-Reply-Regel (bisher nur objektlose Zusagen wie „Ich
+  melde mich.“) um den noch knapperen Fall: eine Frage wird durch woertliche/fast-woertliche
+  Spiegelung beantwortet, ganz ohne Rahmen.**
+- **Lieferanten-/Shop-Sie bleibt voll foermlich auch bei trivialer Bestellung:** Bestellung eines
+  Merkblatts beim SVIT/Verband («Sehr geehrte Damen und Herren», volle Lieferadresse ausgeschrieben,
+  «Besten Dank fuer die Ausfuehrung der Bestellung», voller Geschaeftsblock) — bestaetigt die
+  bereits belegte Regel, dass ein generisches Anbieter-/Shop-Postfach IMMER die foermliche Stufe
+  bekommt, unabhaengig vom Bagatell-Charakter des Anliegens (CHF 13.00 Broschuere).
+- **Neue Mappings:** Maria Jans Bickel, Schwester (Bern) — Geschwister-Du, keine Signatur, waermste
+  bisher belegte Registerstufe; Dan Krusi, Nerves (Technology Lead/Partner) — Tech-Peer-Du, formlos;
+  Rafael Biolley, HUB12-Mitglied — Peer-Du, formlos.

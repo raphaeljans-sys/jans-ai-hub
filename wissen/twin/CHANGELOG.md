@@ -4,6 +4,26 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-27 — `twin-mail-training` (Batch 76).** rj@-Strang: 1 neuer Treffer (14:10–15:11 Uhr,
+  KISPI Bauentscheid-Folgemail an Gantenbein/SRZ) — Fenster danach leer. Deshalb zusaetzlich den
+  mail@-Zweitstrang (ab 2026-01-01, empfohlen seit Batch 74) sequenziell abgearbeitet: 33 Sent
+  Items per Betreff-Liste gesichtet (Fenster 2026-01-02 bis 2026-06-11), 7 Volltexte repraesentativ
+  gelesen, 6 destilliert (Amtsanfrage Gebaeudeschadstoffe Sie, Geschwister-Mailwechsel mit Maria
+  Jans Bickel Du, Tech-Peer-Kurzfrage an Dan Krusi, Echo-Antwort an Rafael Biolley/HUB12,
+  SVIT-Bestellung Sie); uebrige ueberwiegend Fwd/WG-Weiterleitungen ohne Eigentext, Newsletter/
+  System-Rauschen (Website-Relaunch-Thread, TextFuse, HUB12-Einladungen, Checkliste Laternengasse
+  als reine Weiterleitung ohne eigenen Text) nicht volltextgelesen.
+  Mikro-Metrik ueber 225 W (stilmetrik.py): Du-Gross-Quote 1.0, Tausender-Apostroph 1, Ellipsen 0,
+  Satzlaenge ø 16.1 W. Keine Echo-Falle. Neue Marker: `beziehungsregister.md` (Geschwister-Du als
+  waermste bisher belegte Register-Achse, ultraterse Tech-/Peer-Du-Antworten ganz ohne Rahmen,
+  Lieferanten-Sie bleibt foermlich auch bei Bagatell-Bestellung), `stimme.md` (Flexionsfehler
+  „Ihm“/„lost“ als Authentizitaetssignal im Familien-Du, Antwort als woertliche Spiegelung der
+  Frage als neue Ultrakurz-Stufe, Sie-Kurzfrage ohne Softener), `arbeitsweise.md`
+  (Praeferenz-plus-Fallback-Formel bei einer Bestellung, redundante Lieferadresse trotz Signatur).
+  `_INGESTED.md` fortgeschrieben: rj@-Sweep-Endpunkt 2026-07-27T15:10:53Z, naechster rj@-Lauf ab
+  15:10:54Z; mail@-Sweep-Endpunkt 2026-06-11 (Request enable bypass permissions, technisch/Meta,
+  ignoriert), naechster mail@-Lauf ab 2026-06-11 fortlaufend.
+
 - **2026-07-27 — `twin-fidelity-review` (Runde 260727g, sechster Lauf des Tages).** Frisches
   Fenster `mail@raphaeljans.ch` Juni 2026 (via CLI for Microsoft 365, `npx --no-install m365`,
   kein MCP-Tool im Sub-Agenten verfuegbar). Drei neue Golds: HEV-Schweiz-Kaltbestellung (Sie,

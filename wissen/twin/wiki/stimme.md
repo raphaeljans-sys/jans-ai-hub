@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-07-27
 gewichtung: authentisch
-sources: [../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -2461,3 +2461,26 @@ ausgewertetes Postfach mail@raphaeljans.ch, drei vor-Claude-Mails 25.09.2025 / 1
 Metrik (289 W über die drei Mails): Du-Gross-Quote 0.75, Tausender-Apostroph 0, «%» 0
 (ausgeschrieben), Ellipsen 0, Satzlänge ø 16.1 W, Grüsse «Freundliche Grüsse» 2× + einmal
 gruss-los, Anrede «Hoi Martina» 1×.
+
+## Batch 76 (2026-07-27) — Flüchtigkeits-Slips im Familien-/Tech-Register, Antwort als Echo der Frage
+
+Gewichtung: authentisch (mail@raphaeljans.ch, sieben Mails handgetippt gelesen, davon sechs
+destilliert — Amtskorrespondenz Sie-Register plus Familien-/Tech-Peer-Du; keine Echo-Falle:
+kein Gedankenstrich, keine Listicle-Struktur, keine generischen KI-Floskeln).
+
+- **Neue Flüchtigkeits-Slips (Echtheit-, kein Vorbild-Signal):** «Ihm» grossgeschrieben statt
+  «ihm» («ich kann Ihm das Gerät zusenden») und «lost» statt «los» («Die Eigentümerin ist jetzt
+  wenigstens Ihre Schulden lost») — beide im selben Geschwister-Mailwechsel, bestätigen die bereits
+  belegte Familie der Gross-/Flexionsfehler als Authentizitätssignal, diesmal im wärmsten bisher
+  dokumentierten Register.
+- **Antwort als wörtliche/fast-wörtliche Spiegelung der Frage statt eigener Formulierung:** auf
+  «Was isch das?» antwortet Raphael «was es isch» — kleingeschrieben, kein Punkt, kein Ausbau.
+  Neue, noch knappere Stufe der Ultrakurz-Reply-Familie (bisher: objektlose Zusage «Ich melde
+  mich.»); hier wird nicht einmal ein neuer Gedanke formuliert, sondern die Frage selbst als
+  Antwort zurückgegeben.
+- **Tausender-Apostroph im Familien-Du weiterhin gesetzt:** «CHF 910'000.-» — bestätigt, dass die
+  Apostroph-Notation registerübergreifend gilt und nicht auf Geschäfts-/Fachtexte beschränkt ist.
+- **Sie-Register-Kurzfrage ohne jede Ausschmückung:** «Ich wollte mich bei Ihnen kurz erkundigen
+  ob es möglich ist …» als weitere Belegstelle der knappen, direkten Sie-Erkundigungsformel
+  (Ergänzung zu «Gerne erkundige ich mich bei Ihnen, ob …», hier ohne «Gerne»-Softener, an eine
+  Amtsstelle statt an einen Dienstleister).
