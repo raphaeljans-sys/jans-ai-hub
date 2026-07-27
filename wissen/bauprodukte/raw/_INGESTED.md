@@ -10,5 +10,5 @@ Der Einarbeitungsstand wird nicht hier, sondern im Inventar des Destillat-Skills
     skills/wissens-destillat/training/bauprodukte-inventar.md    (Status je Datei)
     skills/wissens-destillat/training/bauprodukte-sektionen.md   (Fortschritt je Gewerk)
 
-Grund: das Archiv ist die kanonische Ablage des Bueros. Eine Kopie nach `raw/` wuerde
+Grund: das Archiv ist die kanonische Ablage des Büros. Eine Kopie nach `raw/` wuerde
 eine zweite Wahrheit erzeugen (Rule `sync-kanonische-quelle`).

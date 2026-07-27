@@ -5,4 +5,4 @@ Archiv `/Volumes/daten/03 Bauprodukte_BKP` aufgebaut.
 
 ## Nach BKP
 
-_(wird mit dem ersten Destillat-Lauf gefuellt)_
+_(wird mit dem ersten Destillat-Lauf gefüllt)_
