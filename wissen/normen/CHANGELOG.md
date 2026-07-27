@@ -1,3 +1,60 @@
+## 2026-07-27 — Run 35: sechste Refuter-Runde (3 Destillate) — erster Nulldurchgang (sia-d0165 → established), 2 weitere Befunde bei den Lignum-Destillaten vom Hauptprozess selbst gegen das Original verifiziert
+
+**Anlass.** Run 34 empfahl als naechsten Batch eine sechste unabhaengige Verifikationsrunde fuer
+die drei verbleibenden speculativen Lignum-/SIA-Destillate. Drei parallele Refuter-Agenten
+(general-purpose, Hauptmodell) gefahren, je einer pro Destillat, mit vollstaendiger Neulektuere
+des Originals (nicht nur der zuletzt korrigierten Stellen).
+
+**sia-d0165-2000-kennzahlen-immobilienmanagement.md: ERSTER SAUBERER NULLDURCHGANG → established.**
+Vollstaendiger Volltext-/Bildabgleich aller 73 Seiten (4 Lesedurchgaenge), gezielt kritisch
+geprueft: Impressum, ISBN (zwei Fundstellen), Anhang-Zaehlung, Tabellen-Spaltenbeschriftungen,
+DIN-18960-Referenz. Beide Berechnungsbeispiele S. 37-47 erneut Zahl fuer Zahl nachgerechnet,
+GEFMA-Doppelcodierung 226/490 und GEFMA-230-Fix (Runden 32/33) sowie der PDF/Folio-Seitenversatz
+vollstaendig bestaetigt. Konvergenz ueber sechs Runden: 17→4→1→3→3→**0**. Ein Nebenbefund ohne
+Korrekturbedarf notiert: das Original selbst nennt fuer die Kennzahl EV/EBF an zwei Stellen
+unterschiedliche Bezugsnormen (SIA 380/1 Fussnote S. 9 vs. SIA 180/4 Kap. 3.1.3/3.3) — eine
+Original-Inkonsistenz, das Destillat gibt beide Stellen korrekt wieder.
+
+**lignum-lignatec-brandschutz.md: bleibt speculative, 1 Befund.** Ziff. 1.2 (S. 3): Destillat
+schrieb "Decken sind i.d.R. tragend UND brandabschnittbildend"; Original schreibt "meistens"
+statt der Absolutformulierung — ein Nuance-Verlust, keine Kernwert-Verfaelschung. Korrigiert.
+Alle drei Kreuztabellen (Tab. 3/4/5) inkl. saemtlicher Vorrunden-Korrekturen per
+Hochaufloesungs-Crop erneut pixelgenau bestaetigt, keine Regression. Fehlerdichte in den drei
+Kern-Tabellen seit Run 32 praktisch null; verbleibende Einzelbefunde betreffen nur noch
+Rand-/Nuance-Praezision im Fliesstext.
+
+**lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md: bleibt speculative, 2 Befunde —
+BEIDE vom Hauptprozess selbst nachgeprueft, bevor sie uebernommen wurden.** Weil einer der beiden
+Befunde einer frueheren, ausdruecklich als korrekt bestaetigten Stelle widersprach (Tab. 446-1,
+"Untergrenze 50 mm war korrekt" aus Run 30/31), wurde die Original-Quelle (Teil C, S. 51/53) vom
+Hauptprozess selbst mit `pdftoppm -r 300` gerendert und zellenweise nachgezaehlt, bevor die
+Korrektur uebernommen wurde:
+- **Tab. 446-1 (S. 51, REI30):** Zeile "Mehrlagige Massivholzplatte (d)" ueber alle sieben
+  Spalten A-G nachgezaehlt (A=105/110, B=80/85, C=60, D=60, E=115, F=100, G=95) — kleinster Wert
+  ist 60 mm (Spalten C/D, EI30), nicht 50 mm. Die fruehere "50 mm war korrekt"-Bestaetigung
+  (Run 30/31) war selbst die fehlerhafte Stelle, nicht die jetzige Korrektur. Gesamtbandbreite
+  korrigiert von 50-115 auf **60-115 mm**.
+  - **Tab. 446-3 (S. 53, REI90):** Die "auf die R-Spalten allein bezogen"-Aussage nannte
+  155-205 mm; die R90-Gruppe der Kopfzeile umfasst tatsaechlich VIER Spalten (A-D: 200/205,
+  175/180, 155/160, 120/125), nicht drei — kleinster Wert 120 mm (Spalte D). Korrigiert auf
+  **120-205 mm (R90)**. Die Gesamttabellen-Bandbreite 60-205 mm (alle R/EI/REI-Spalten) war
+  bereits korrekt und bleibt unveraendert.
+- Regressionscheck aller Runde-1-5-Korrekturen (Tab. 431-2 inkl. der bereits im Fliesstext
+  stehenden Wiederherstellung, Abb. 310-2, Tab. 320-1, 436-1, 442-1 bis 462-2 etc.): keine
+  Regression. Sechste Runde in Folge mit mindestens einem Befund.
+
+**Lehre.** Der Fall zeigt exemplarisch, warum eine widersprechende Feststellung gegen eine
+frueher "bestaetigt korrekt" gefuehrte Stelle NICHT automatisch als Regression des neuen Befunds
+gewertet werden darf — hier war die aeltere Bestaetigung die falsche Stelle. Massgeblich ist in
+solchen Faellen immer eine dritte, unabhaengige Pruefung direkt am Original (hier durch den
+Hauptprozess selbst), nicht die Reihenfolge oder Mehrheit der Aussagen.
+
+**Nachgefuehrt:** `training/norm-inventar.md` (Run-35-Eintrag), `destillate/INDEX.md` (3 Zeilen),
+`destillate/sia-d0165-2000-kennzahlen-immobilienmanagement.md` (Status established),
+`destillate/lignum-lignatec-brandschutz.md` (Ziff.-1.2-Fix + Status), `destillate/lignum-4-1-...md`
+(Tab.-446-1/446-3-Fix + Status), dieses CHANGELOG, `outputs/2026-07-27_normen-nacht-run35.md`.
+`wiki/QUESTIONS.md` unveraendert (keine neuen externen Recherche-Auftraege).
+
 ## 2026-07-27 — Run 34: fuenfte Refuter-Runde (3 Destillate), kein Nulldurchgang, Registrierung nachgeholt
 
 **Anlass.** Run 33 empfahl als naechsten Batch eine fuenfte unabhaengige Verifikationsrunde fuer
