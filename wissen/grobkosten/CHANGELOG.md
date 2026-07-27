@@ -1,5 +1,26 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-27 — Trainings-Run 14 (Frage-1-Formelbefund an der projekteigenen Wald-Exceldatei bestätigt)
+
+- Kollisionscheck via `ps`/`PPID`: einziger Treffer die eigene Prozessinstanz (Lauf begann
+  ca. 13:06 Uhr, Minuten nach dem Run-13-Commit).
+- Keinen Bibliotheks-Sweep und keinen Ereignis-Trigger-Re-Check wiederholt (Empfehlung Run 13).
+  Stattdessen Option (b) aus Run 13 umgesetzt, aber gezielter: statt des fachlich unverbundenen
+  "Cover Pre-Check"-Sensitivitätsblatts wurden die beiden **projekteigenen** Exceldateien des
+  Wald-Haselstudstrasse-Falls (`8636 Wald Haselstudstrasse Desktopstudie/…xlsx`,
+  `…Volumenstudie STWE/…xlsx`) im Formel-Modus geöffnet (`openpyxl`, venv
+  `/tmp/venv-xlsx-grobkosten`) — bisher hatte Run 13 nur das generische Master-Template geprüft.
+- Ergebnis: identische Formelinkonsistenz wie am Master-Template (Faktor `G48=1.13`, beschriftet
+  "BKP 2 zu BKP 1-5", fliesst in die als "Total BKP 1-9" beschriftete Summe `I56` ein, kein
+  BKP-6-9-Rechenschritt). Zusätzlich: Live-Formelwerte (1'537/1'766 CHF/m³) bestätigen die
+  bereits aus dem PDF extrahierten Werte (1'539/1'765) — keine Übertragungsfehler.
+- Kein neuer Kennwert, keine Promotion (Frage 1 bleibt strukturell nur durch Raphael lösbar).
+  `raw/2411-wald-haselstudstrasse.md` um Abschnitt "Nachtrag Run 14" ergänzt (nicht neu
+  angelegt). Register nachgeführt: `wiki/QUESTIONS.md` (neuer Run-14-Eintrag), dieses
+  CHANGELOG. Keine Änderung an `training/quellen-inventar.md` (kein neuer Projekteintrag,
+  Wald war bereits erfasst) oder `wiki/kennwerte.md`. Lauf-Report:
+  `outputs/2026-07-27_grobkosten-run14.md`.
+
 ## 2026-07-27 — Trainings-Run 13 (Frage 1 auf Formel-Ebene verifiziert, keine Duplikat-Prüfung)
 
 - Kollisionscheck via `ps`: einziger Treffer war die eigene Prozessinstanz, keine echte

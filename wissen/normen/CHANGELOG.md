@@ -1,3 +1,34 @@
+## 2026-07-27 — Neues Destillat: Lignum 4.1 Decken, Wände und Bekleidungen mit Feuerwiderstand
+- **Neu:** `destillate/lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md` — Lignum-
+  Dokumentation Brandschutz, Themenblock 4 «Bauteile in Holz», Publikation 4.1 (Stamm-
+  dokument, auf das Publikation 4.2 «Anschlüsse» verweist). Bild-Scan ohne Textlayer, 3
+  PDF-Teile A/B/C (5+15+20 Seiten = 40 PDF-Seiten, entsprechen den 80 gedruckten Seiten
+  laut Titelblatt-Inhaltsverzeichnis), vollständig visuell gelesen. Erfasst: Feuerwider-
+  standskriterien R/E/I (Tab. 210-1), vier Nachweisarten (geprüft/genormt/rechnerisch/
+  objektbezogen), RF1-Systematik (Tab. 232-1/232-2, Kapselungslogik «tt−30 Min., mind.
+  K30-RF1»), Baustoffdefinitionen (Tab. 320-1), Ausführungsbestimmungen (Fugentypen
+  330-1 bis 330-3, Anschluss-/Haustechnik-Grundregeln), kompletter Bauteilkatalog
+  Holzbauteile (Kap. 4: 7 Deckensysteme Tab. 431-437, 7 Wandsysteme Tab. 441-447,
+  Abbrandbemessung, Brandschutzplatten Tab. 462-2) und Bauteile RF1 (Kap. 5: Decken RF1
+  Tab. 531-537, Wände RF1 Tab. 541-542), Glossar, Literaturverzeichnis (20 Referenzen),
+  Gesamtstruktur der Lignum-Dokumentation Brandschutz (10 Themenblöcke).
+- **Bewusste Vereinfachung:** die über 30 dichten Mehrspalten-Katalogtabellen (Varianten
+  A–M je Feuerwiderstandsklasse/Systemtyp) wurden strukturiert zusammengefasst (Aufbau-
+  Logik, Randbedingungen, repräsentative Grössenordnungen je Tabelle mit Seiten-/
+  Tabellennummer) statt zellengenau reproduziert — für den exakten Einzelwert bleibt das
+  Quell-PDF massgebend (in «Offene Punkte» vermerkt).
+- **Status:** `speculative` — noch nicht adversarial verifiziert (analog `lignum-4-2-
+  anschluesse-feuerwiderstand.md`, nächster Schritt: Q&A-Selbstbefragung oder
+  Volltextabgleich).
+- **INDEX ergänzt:** `destillate/INDEX.md` neue Zeile direkt bei der 4.2-Zeile.
+- **Auslöser:** Direkter Auftrag Raphael zur Destillation dieses konkreten Dokuments
+  (Ablage `PL - 03 Brandschutz/06 Lignum Brandschutz/`), nicht aus dem Nacht-Loop-
+  Inventar gezogen. Hinweis: `training/norm-inventar.md` (Run 30) referenziert dieselben
+  drei Lignum-Dokumente bereits im Rahmen eines separaten Nacht-Loop-Laufs inkl.
+  Refuter-Verifikation — dieser Eintrag hier dokumentiert den unabhängig in dieser
+  Session entstandenen Destillat-Inhalt; ein Abgleich/Merge beider Stränge steht noch
+  aus (möglicher Kollisionsfall gemäss Rule `auto-verbesserungen.md` Eintrag 260724).
+
 ## 2026-07-27 — Neues Destillat: Lignum 4.2 Anschlüsse bei Bauteilen mit Feuerwiderstand
 - **Neu:** `destillate/lignum-4-2-anschluesse-feuerwiderstand.md` — Lignum-Dokumentation
   Brandschutz, Themenblock 4 'Bauteile in Holz', Publikation 4.2. Bild-Scan ohne Textlayer

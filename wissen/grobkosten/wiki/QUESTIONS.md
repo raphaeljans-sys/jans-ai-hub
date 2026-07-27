@@ -2,6 +2,37 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-07-27 — Trainings-Run 14: Frage-1-Formelbefund auch an der projekteigenen Wald-Exceldatei bestätigt (kein neuer Blocker, aber schärfere Beweislage)
+
+- **Kein Bibliotheks-Sweep, kein Ereignis-Trigger-Re-Check** (Empfehlung Run 13 befolgt).
+  Kollisionscheck via `ps`/`PPID`-Abgleich: einziger Treffer die eigene Prozessinstanz (dieser
+  Lauf begann ca. 13:06 Uhr, nur Minuten nach dem Run-13-Commit 13:05:46).
+- **Umgesetzt (Option b aus Run 13):** Statt eines fachlich unverbundenen Blatts
+  ("Sensitivitätsanalyse Cover Pre-Check") wurde ein direkterer, bisher nicht geprüfter Weg
+  gewählt: die **projekteigenen** Exceldateien des Wald-Falls selbst (`8636 Wald
+  Haselstudstrasse Desktopstudie/…xlsx` und `…Volumenstudie STWE/…xlsx`, SharePoint
+  `IMMO - 01 Projekte`) im Formel-Modus geöffnet — bisher hatte nur Run 13 das generische
+  Master-Template geprüft, nicht die tatsächlich für `raw/2411-wald-haselstudstrasse.md`
+  verwendeten Live-Dateien.
+- **Ergebnis:** identische Formelstruktur wie am Master-Template (`G48=1.13` als "Faktor BKP 2
+  zu BKP 1-5" beschriftet, fliesst ausschliesslich in die als "Total BKP 1-9" beschriftete
+  Summe `I56` ein, kein Rechenschritt für BKP 6-9). Zusätzlich bestätigt: die aus dem PDF
+  extrahierten CHF/m³-Werte (1'539/1'765) stimmen mit den Live-Formelwerten (1'537/1'766)
+  überein — keine Übertragungsfehler in `raw/2411-wald-haselstudstrasse.md`. Details:
+  `raw/2411-wald-haselstudstrasse.md`, Abschnitt "Nachtrag Run 14".
+- **Einordnung:** Frage 1 bleibt strukturell ungelöst (weiterhin nur durch Raphaels Antwort auf
+  die in Run 13 zugespitzte Ja/Nein-Frage lösbar) — dieser Lauf liefert keine neue offene Frage,
+  sondern schliesst eine Lücke in der Beweiskette (Master-Template UND die konkret betroffene
+  Projektdatei zeigen dieselbe Inkonsistenz, kein Einzelfall einer veralteten Kopie).
+- **Empfehlung für Run 15:** Kein weiterer Formel-Sweep zu Frage 1 — die Beweislage ist jetzt
+  vollständig (Master-Template + betroffene Projektdatei). Ein weiterer reiner
+  Bibliotheks-Sweep oder Ereignis-Trigger-Check in unmittelbarer zeitlicher Nähe zu diesem Lauf
+  bleibt weiterhin ohne Erkenntnisgewinn (Materialmangel ist strukturell erschöpft, siehe Run
+  11/12). Sinnvoll ist ein Ereignis-Trigger-Re-Check erst wieder nach einem echten zeitlichen
+  Abstand (z.B. beim nächsten regulären 09/21-Uhr-Takt) oder nach neuem, tatsächlich abgelegtem
+  Material. Bis dahin bleibt (a) die Rückfrage an Raphael Jans (Frage 1/2, nicht autonom lösbar)
+  der einzige verbleibende Weg zu einer ersten "belegt (n=…)"-Promotion.
+
 ## 2026-07-27 — Trainings-Run 13: Frage 1 auf Formel-Ebene verifiziert und zu einer präzisen Ja/Nein-Rückfrage zugespitzt
 
 - **Kein erneuter Ereignis-Trigger-Check:** Run 12 (12:56 Uhr) hatte den Ereignis-Trigger

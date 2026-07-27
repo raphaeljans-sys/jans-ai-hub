@@ -53,6 +53,13 @@ SharePoint-Bibliothek + die drei aktiven Mandate mit Kosten-Historie) — **null
 Kosten-Dateien seit 26.07.2026**. Damit ist die Sättigung formal erklärt (Endbedingung
 `training/PROGRAMM.md`): kein Materialmangel mehr, sondern ein rein struktureller Blocker
 (Frage 1/2). Empfehlung an Raphael: Loop auf Ereignis-Trigger-Taktung zurückfahren statt
-weiter mehrfach täglich zu zyklieren (Details `outputs/2026-07-27_grobkosten-run12.md`).
+weiter mehrfach täglich zu zyklieren (Details `outputs/2026-07-27_grobkosten-run12.md`). Run 13
+öffnet die generische Master-Exceldatei des Pre-Check-Tools im Formel-Modus (`openpyxl`,
+`data_only=False`) und verifiziert dort erstmals direkt (nicht nur aus PDF-Indizien), dass der
+Faktor 1.13 ausschliesslich BKP 2 skaliert, ohne Rechenschritt für BKP 6-9 — Frage 1 bleibt
+ungelöst, ist aber zu einer präzisen Ja/Nein-Rückfrage an Raphael zugespitzt. Run 14 bestätigt
+denselben Formelbefund unabhängig an den beiden **projekteigenen** Wald-Haselstudstrasse-
+Exceldateien (nicht nur am Master-Template) — schliesst die Beweiskette, löst Frage 1 aber
+weiterhin nicht autonom. Kein neuer Kennwert seit Run 11.
 
 Offene Fragen / Lücken: siehe [QUESTIONS.md](QUESTIONS.md).
