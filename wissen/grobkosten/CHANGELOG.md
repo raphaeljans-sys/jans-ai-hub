@@ -1,5 +1,14 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-27 — Trainings-Run 26 (kein neuer Kennwert, fünfzehnter Sättigungsbeleg in Folge, Empfehlung verschärft)
+
+Kein neuer Sweep (16. Nullbefund inkl. Run 12), keine Registeränderung. PID 68866 läuft
+unverändert (~1 Tag 19h). Neustart bleibt bewusst unterlassen (ausserhalb des Mandats dieses
+Loops, betrifft alle unter PID 68866 laufenden Loops, kein Einverständnis Raphaels einholbar
+in diesem autonomen Lauf). Empfehlung verschärft: ab Run 27 keinen vollen `outputs/`-Report
+mehr schreiben, solange der stale Prozess unverändert läuft — ein Einzeiler genügt. Details:
+`outputs/2026-07-27_grobkosten-run26.md`.
+
 ## 2026-07-27 — Trainings-Run 19–25 (kein neuer Kennwert, Sättigungsbeleg 8.–14. in Folge, Taktungsfehler-Root-Cause identifiziert und belegt)
 
 Sieben weitere Läufe ohne Registeränderung an `kennwerte.md`/`quellen-inventar.md`. Run 21
