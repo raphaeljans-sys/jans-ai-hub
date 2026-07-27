@@ -2,6 +2,16 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-27 — Registrierungs-Nachtrag Run 91 + Ruecktaktungs-Empfehlung (Mac Mini Nachtschicht)
+Run 91 (26.07., M4 geschlossen) war im CHANGELOG bereits dokumentiert, fehlte aber in
+`training/curriculum.md` — Registrierungsluecke analog K45/Run 56 nachgetragen. Freshness-Retest
+`PL - 01 Kartenportale`/`PL - 04 Energie` gegen den Run-90-Marker: weiterhin **0 neue Dateien**.
+Kein neuer Trainingslauf (Run 92) gefahren: die KB ist seit Run 91 auf einen einzigen offenen
+Punkt reduziert (D9, braucht ein reales Projekt) — ein weiterer Lauf haette nur den 25. identischen
+Nullbefund wiederholt. **Empfehlung an Raphael:** Cadence dieses Loops von Token-Vollgas auf den
+urspruenglichen 2-Tages-Turnus bzw. einen Ereignis-Trigger (neue Datei in einem PL-Ordner)
+zuruecktakten, analog zur bereits gestellten Empfehlung fuer `grobkosten-training`.
+
 ## 2026-07-26 — Run 91: Frischecheck Kartenportale+Energie (Null) + **M4 geschlossen** (KB-weite Umlaut-Sanierung, 51 Dateien)
 Frischecheck gegen Run 89: **0 neue/geänderte Dateien** in `PL - 01 Kartenportale` und
 `PL - 04 Energie` — 25. Nullbefund-Bestätigung in Folge. Statt eines 25. identischen Nullberichts

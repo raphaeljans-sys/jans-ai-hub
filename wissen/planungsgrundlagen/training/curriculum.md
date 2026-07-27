@@ -759,6 +759,24 @@ das Ergebnis in den passenden Wiki-Artikel.
   Run 88 (`find -newer`): 0 neue/veraenderte Dateien. Vierzehnte unabhaengige Erschoepfungs-
   Bestaetigung fuer dieses Domaenenpaar, vierundzwanzigste in Folge ueber alle vier Domaenen
   (Run 67-90). Details `outputs/2026-07-26_training-run90.md`.
+- [x] K-Freshness/E-Freshness Run91 + **M4 geschlossen** (Run 91, 2026-07-26) Frischecheck
+  `PL - 01 Kartenportale` + `PL - 04 Energie` gegen Run 89 (`find -newer`): 0 neue/veraenderte
+  Dateien, 25. Erschoepfungsbestaetigung in Folge. Statt eines weiteren identischen Nullberichts
+  den einzigen noch offenen, dedizierten Register-Punkt (M4, KB-weite Umlaut-Ersatzschreibung
+  ae/oe/ue in 51 Dateien) mit kuratiertem Token-Mapping (statt Regex) geloest und verifiziert
+  (2'334 Tokens korrigiert, Wikilinks/URLs/Zeilenzahl bitgleich zum Backup). **Damit bleibt in
+  der gesamten KB nur noch D9 offen** (realer MFH-/ZEV-Betriebskostenfall, wartet auf ein reales
+  Projekt — nicht lernloop-loesbar). Details `outputs/2026-07-26_training-run91.md`.
+- [x] Registrierungs-Nachtrag (Mac Mini Nachtschicht, 2026-07-27 21:31): dieser Eintrag war seit
+  Run 91 im CHANGELOG bereits dokumentiert, fehlte hier in curriculum.md (Registrierungsluecke
+  analog K45/Run 56). Freshness-Retest bestaetigt: `find "PL - 01 Kartenportale"`/`"PL - 04
+  Energie" -newer outputs/2026-07-26_training-run90.md` → weiterhin 0 Treffer. Kein neuer
+  Trainingslauf noetig, da die KB mit Run 91 bereits vollstaendig auf D9 reduziert ist — ein
+  Run 92 wuerde nur denselben Nullbefund wiederholen. **Empfehlung an Raphael:** Cadence dieses
+  Loops (aktuell Token-Vollgas, mehrfach taeglich) auf den urspruenglichen 2-Tages-Turnus bzw.
+  einen Ereignis-Trigger (neue Datei in einem der vier PL-Ordner) zuruecktakten — die KB hat
+  seit Run 67 (25 Laeufe) keinen einzigen inhaltlichen Fund mehr geliefert ausser dem bereits
+  erledigten M4.
 
 ## Meta / Querschnitt
 - [x] M1 Grundlagen-Checkliste «neue Parzelle» (was holt man IMMER zuerst) als Standard-Output. (2026-06-30 Run 12: 8 Pflicht-Grundlagen EGRID→OEREB→Zonenplan→Baulinien→Vermessung→DTM/Ortho→GWR→Behoerden je mit Connector-Befehl, SZ-Kurzvariante, End-to-End-Benchmark Giebelweg 12 EGRID CH879777718909 validiert → [[kartenportale-grundlagen-checkliste-neue-parzelle]])
