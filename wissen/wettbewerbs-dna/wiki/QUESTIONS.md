@@ -4,6 +4,20 @@ Stand: 27.07.2026 (Wohnungsbau B4+B6 abgeschlossen; Verfahrens-Sonderfaelle-Frag
 Extrakt-Grenze Koch-Areal geklaert, fehlende 1. Stufe Walkeweg bleibt offen)
 
 ## Geklaert
+- **Betriebsbefund: Vollgas-Runner schloss `wettbewerbs-dna-training` NICHT aus — behoben
+  (27.07.2026, Nachtschicht Mac Mini).** Der am 25.07.2026 gemeldete Doppellauf-Fall (Runner
+  startete `wettbewerbs-dna-training` parallel zum gleichnamigen Scheduled Task, `index.lock`-
+  Konflikt + Doppel-Refuter-Welle) ist an der Wurzel behoben: `scripts/vollgas-runner.sh` —
+  `EXCLUDE_RE` fehlten vier der sechs in Rule 260725 zugesicherten Ausschluesse (nur `chef` fuer
+  `wissens-chef` griff bisher; `twin`, `spec-training`, `wettbewerbs-dna`, `normen-training-nacht`
+  waren nicht enthalten). Ergaenzt und gegen alle sechs Task-Namen sowie die regulaeren Vollgas-
+  Tasks (energie/planungsgrundlagen/grobkosten/baurecht-buch/synobsis-batch) verifiziert (`grep -qiE`
+  Testlauf) — keine ungewollte Kollateral-Exklusion. Der frueher gefundene Analogfall bei
+  `grobkosten-training` (fehlendes `grobkosten` in EXCLUDE_RE, neun identische Sweeps in Folge)
+  war bereits im Lauf zuvor (Run 20, 27.07. 13:38) behoben worden; dieser Fund schliesst die
+  Luecke fuer die restlichen fuenf Loops. Damit stimmt Rule 260725 («kein Doppellauf Runner↔Task»)
+  jetzt wieder mit der Realitaet ueberein. Kein Git ueber SMB ausgefuehrt (NAS-Selfcommit
+  uebernimmt).
 - **Wohnungsbau B6: Extrakt-Grenze Koch-Areal — lohnt Nachbeschaffung der Vollpublikation?
   (27.07.2026, geklaert beim Anlegen von `kennwerte-wohnungsbau.md`)** Nein, keine Nachbeschaffung
   noetig: die fuer B6 benoetigten Kosten-/Flaechen-Zielwerte (Kosten-Benchmarks, HNF-Zielwerte,
@@ -63,20 +77,6 @@ Extrakt-Grenze Koch-Areal geklaert, fehlende 1. Stufe Walkeweg bleibt offen)
   publizieren kleinere Kantone Wettbewerbe seltener als PDF). Kein Blocker fuer B2/B3 (Ziel
   bereits deutlich uebertroffen: 55 Kandidaten/52 frei-pdf gegen Ziel 15/8), aber Wissensluecke
   fuer die spaetere Muster-Synthese — bei Gelegenheit erneut pruefen, kein aktiver Suchauftrag.
-- **Betriebsbefund: der Vollgas-Runner schliesst `wettbewerbs-dna-training` NICHT aus (25.07.2026,
-  Abendlauf):** Rule 260725 haelt fest, die sechs hochgetakteten Lern-Loops blieben ueber `EXCLUDE_RE`
-  aus dem Endlos-Runner ausgeschlossen, «kein Doppellauf Runner↔Task». Tatsaechlich startete der
-  Runner auf dem MacBook Pro heute mehrfach `wettbewerbs-dna-training` (Log `logbuch/vollgas/
-  Macbookpro.log`: 20:13, 21:22), waehrend der gleichnamige Scheduled Task lief — beide Instanzen
-  arbeiteten gleichzeitig an B6/2101 und schrieben in `wiki/muster/kennwerte-healthcare.md`, was
-  einen `index.lock`-Konflikt und eine Doppel-Refuter-Welle ausloeste. Immerhin hat die Doppelung
-  hier genutzt (die zweite Welle fand vier Fundstellen, welche die erste durchgewinkt hatte) — als
-  Betriebsmuster ist sie aber Token-Verschwendung und riskiert widersprechende Register-Edits.
-  **Klaerungsweg / Entscheid Raphael:** entweder `EXCLUDE_RE` im `vollgas-runner.sh` tatsaechlich um
-  die sechs Loop-Namen ergaenzen (dann stimmt die Rule wieder), oder Rule 260725 an die Realitaet
-  anpassen und den Loops einen verbindlichen Lockfile-Check verpassen. Verwandt: Rule 260724
-  (Zweitinstanz-Check, pathspec-begrenzte Commits) — der Check greift nur, wenn er VOR Beginn und
-  nicht nur beim Commit erfolgt.
 - **Kispi Luzern: sind die vier Bettenzahlen des Raumprogramms additiv? (Refuter Spital/Klinik,
   25.07.2026):** Der Jurybericht listet unter «rund 17'300 m² Nutzfläche ... darin enthalten sind»
   die Positionen 32 Betten Neonatologie, 15 Betten Kinder-Intensivmedizin, 72 Betten Kinderspital,

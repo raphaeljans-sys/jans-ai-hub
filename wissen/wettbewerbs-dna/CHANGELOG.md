@@ -1,5 +1,14 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-27 (Nachtschicht-Zyklus Mac Mini, 19:30) — Infra-Fix: Vollgas-Runner-Doppellauf behoben
+- Root-Cause-Fix fuer den am 25.07. gemeldeten Doppellauf (`wettbewerbs-dna-training` lief
+  gleichzeitig ueber den Endlos-Runner UND den eigenen Scheduled Task, `index.lock`-Konflikt).
+  `scripts/vollgas-runner.sh` `EXCLUDE_RE` fehlten vier der sechs von Rule 260725 zugesicherten
+  Loop-Ausschluesse (`twin`, `spec-training`, `wettbewerbs-dna`, `normen-training-nacht`; nur
+  `wissens-chef` griff bisher ueber `chef`). Ergaenzt und gegen alle sechs Namen + die regulaeren
+  Vollgas-Tasks verifiziert. Details/Verifikation in `wiki/QUESTIONS.md` Abschnitt «Geklaert».
+  Betrifft/entlastet auch die KBs normen, twin, spec (gleicher Bug, gleicher Fix).
+
 ## 2026-07-27 (Vollgas-Zyklus, abends) — Etappe 3, B5 Wohnungsbau Parameter-Set-Revision: ETAPPE 3 VOLLSTAENDIG (alle drei Bauaufgaben)
 - `wissen/entwurfs-referenzen/wiki/parameter-sets/wohnen-mfh-urban.json` von v1.0 (generisch,
   vor-Etappe-3) auf v2.0 komplett neu geschrieben, rein aus den established B4

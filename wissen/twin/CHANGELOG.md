@@ -4,6 +4,15 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-27 — `twin-mail-training` (Batch 78, Dry Run).** rj@ seit Sweep-Endpunkt
+  15:10:54 Uhr weiterhin leer; mail@ seit dem vorgezogenen Endpunkt 2026-07-17T06:10:17Z
+  ebenfalls leer (Tagesproben 18.–27.07. je 0 Treffer). Zusaetzlich den bisher ungenutzten
+  Ordner "Archive" (rj@) geprueft: enthaelt insgesamt nur 1 Mail, inhaltlich eine externe
+  Antwort (Gruner/Buechler) mit zitierter eigener Mail vom 19.03.2026, die bereits ueber Sent
+  Items erfasst ist — kein neues Material, kein Duplikat angelegt. Archive (mail@) ist leer.
+  Keine Wiki-Edits. Bestaetigt unabhaengig den Erschoepfungszustand aus
+  `outputs/2026-07-27i_fidelity_material-erschoepft.md`.
+
 - **2026-07-27 — `twin-fidelity-review` (Runde 260727i, neunter Lauf des Tages, Material
   erschoepft).** Vor dem Goldproben-Schritt empirisch geprueft: `rj@raphaeljans.ch` Sent Items
   seit Sweep-Endpunkt 15:10:53Z leer, `mail@raphaeljans.ch` seit 2026-07-17T06:10:17Z nur die

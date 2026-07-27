@@ -227,4 +227,26 @@ naechste mail@-Lauf pullt frisch ab dort.
 
 **Sequenzieller Sweep-Endpunkt rj@:** 2026-07-27 15:10:53 (Nachreichung unterzeichneter Brandschutzplan an Gantenbein/SRZ). **Naechster rj@-Lauf pullt frisch ab 2026-07-27T15:10:54Z** (bereits leer bestaetigt).
 
-**Sweep-Endpunkt mail@:** 2026-06-11 (Request enable bypass permissions Claude Desktop, technisch/Meta, keine Stilquelle). **Naechster mail@-Lauf pullt fortlaufend ab dieser Mail** (nicht destilliert, aber gesichtet — pruefen ob weitere Treffer nach 2026-06-11 vorliegen).
+**Sweep-Endpunkt mail@ (veraltet, siehe Korrektur oben Zeile ~217):** war 2026-06-11, durch die
+Bookkeeping-Korrektur (Lauf 77) auf **2026-07-17T06:10:17Z** vorgezogen. Diese Zeile bewusst stehen
+gelassen als Historie, massgeblich ist der vorgezogene Stand.
+
+| `260727-mailbatch-78.md` | **Dry Run — beide Straenge bestaetigt leer, kein neues Material.**
+rj@-Sweep ab 2026-07-27T15:10:54Z (letzter Sweep-Endpunkt Batch 76): CLI-Fallback
+`node_modules/.bin/m365 outlook message list --folderId sentitems --userName rj@raphaeljans.ch
+--startTime 2026-07-27T15:10:54Z --output json` = 0 Treffer (MCP-Pfad
+`mcp__microsoft-365__m365_run_command` scheiterte erneut mit „outlook: command not found").
+Mail@-Sweep ab 2026-07-17T06:10:17Z (vorgezogener Endpunkt Bookkeeping-Korrektur Lauf 77):
+`--startTime 2026-07-17T06:10:18Z` liefert weiterhin nur die bereits destillierte Kovacs-Mail
+(API rundet/inklusive Sekunde), `--startTime 2026-07-17T06:11:00Z` sowie Tagesproben fuer
+18./20./22./24./25./26./27.07. = je 0 Treffer — Fenster bis heute lueckenlos leer bestaetigt.
+Zusaetzlich EINE bisher ungenutzte Quelle geprueft: Ordner **"Archive"** von rj@raphaeljans.ch
+(bisher nie gesweept, in KB-CLAUDE.md als moegliche Sent-Items-Alternative genannt) — enthaelt
+insgesamt nur 1 Mail (24.03.2026, AW: Kontakt HLKS Elektro/Baueingabe), inhaltlich eine externe
+Antwort von Daniel Buechler/Gruner (keine Raphael-eigene Stilquelle) mit zitierter eigener Mail
+vom 19.03.2026 — diese liegt bereits unveraendert in Sent Items rj@ (08:49:55 Uhr, "AW: Kontakt
+HLKS Elektro...") und wurde damit zwingend schon in einem frueheren sequenziellen Batch erfasst
+(Zeitraum lange vor dem aktuellen Sweep-Endpunkt) — kein Duplikat angelegt. Archive-Ordner von
+mail@raphaeljans.ch: 0 Mails ueberhaupt. **Fazit: kein destillierbares Material in diesem Lauf.**
+Keine Wiki-Edits, keine neue Metrik. Bestaetigt unabhaengig den bereits im Fidelity-Review
+`outputs/2026-07-27i_fidelity_material-erschoepft.md` dokumentierten Erschoepfungszustand. |

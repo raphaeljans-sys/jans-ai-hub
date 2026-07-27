@@ -7,6 +7,20 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-27
 
+**Nachtschicht-Zyklus Mac Mini (19:30-Lauf): Vollgas-Runner-Doppellauf-Bug behoben
+(betrifft normen/twin/spec/wettbewerbs-dna).** Vorlauf-Check (keine offenen Sync-/Remote-Tasks,
+Synobsis weiter gesaettigt) fuehrte zum noch offenen Betriebsbefund in
+`wissen/wettbewerbs-dna/wiki/QUESTIONS.md`: Rule 260725 sichert zu, dass sechs hochgetaktete
+Lern-Loops ueber `EXCLUDE_RE` im Endlos-Runner (`scripts/vollgas-runner.sh`) ausgeschlossen
+bleiben — tatsaechlich fehlten vier davon (`twin`, `spec-training`, `wettbewerbs-dna`,
+`normen-training-nacht`; nur `wissens-chef` griff). Das hatte am 25.07. einen echten
+Doppellauf mit `index.lock`-Konflikt verursacht (analoger, bereits im 18:30-Vorlauf durch
+Run 20 behobener Fall bei `grobkosten-training`). `EXCLUDE_RE` ergaenzt und gegen alle sechs
+Loop-Namen sowie die regulaeren Vollgas-Tasks (energie/planungsgrundlagen/grobkosten/
+baurecht-buch/synobsis) verifiziert — keine Kollateral-Exklusion. Dokumentiert in
+`wissen/wettbewerbs-dna/wiki/QUESTIONS.md` (Geklaert) + `CHANGELOG.md`. Kein Git ueber SMB
+ausgefuehrt (NAS-Selfcommit uebernimmt).
+
 **Nachtschicht-Zyklus Mac Mini (18:30-Lauf): QUESTIONS-Punkt `wissen/firmengruendung-ch` geschlossen.**
 Vorlauf-Check (Synobsis Stufe 2 gesaettigt seit 03.07. 853/853, Fristen-Radar tagesaktuell,
 Trainings-CHANGELOGs aller KBs 25.-27.07., wissenscheck aeltestes Audit `baurecht` 22.07.)
