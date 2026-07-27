@@ -1,69 +1,75 @@
 {
   "id": "wohnen-mfh-urban",
-  "name": "Mehrfamilienhaus urban — Geschosswohnungsbau (3–6 OG)",
-  "version": "1.0",
+  "name": "Mehrfamilienhaus urban — Geschosswohnungsbau (gemeinnützig/genossenschaftlich/institutionell, CH)",
+  "version": "2.0",
   "quellen": [
-    "BWO Wohnungsmarktbericht 2024",
-    "SIA 416:2003 Flächen und Volumen",
-    "Wüest Partner Baukostenindex 2024",
-    "BFS Gebäudestatistik Kt. ZH"
+    "wissen/wettbewerbs-dna/wiki/muster/kennwerte-wohnungsbau.md (B6, established, 8 Quellen trägertyp-gespreizt, 2 unabhängige Refuter-Agenten über 75 Aussagen, 27.07.2026) — Areal-/Kosten-/Wohnungsspiegel-/Ausnützungskennwerte",
+    "wissen/wettbewerbs-dna/wiki/muster/jury-argumente-wohnungsbau.md (B4, established, 8 Quellen, 5-Shard-Refuter-Welle + Konsistenz-Refuter, 27.07.2026) — Typologie-/Jury-Kriterien-Rangordnung/K.o.-Punkte"
   ],
+  "scope_hinweis": "Basis trägertyp-gespreizt (stadt-gemeindlich 2, genossenschaftlich 3, privat-institutionell 2, gemischt/Mehr-Bauherren-Areal 1 Quelle), pro Typ aber schmal — B4 kennzeichnet genossenschaftlich als robuster, die übrigen drei Typen als kontextgebunden/Einzelbeleg-nah. Muster für den Trägertyp gemischt/Mehr-Bauherren-Areal (Koch-Areal) und den alpinen Kontext (Wätterweid) sind laut B4 Einzelbeleg und nicht ohne zweiten vergleichbaren Bericht verallgemeinerbar. Dieses Set bildet den städtischen/agglomerationsnahen Geschosswohnungsbau ab (Regelbauweise bis Blockrand/Zeilenbau); der Zürcher Hochhaus-Sonderfall (Koch-Areal Baufeld B, rund 70 m) ist als städtebaulicher Einzelfall in kennwerte-wohnungsbau.md Abschnitt 6 dokumentiert, aber bewusst kein eigenes Set (kein zweiter Hochhaus-Beleg). Ersetzt v1.0 (generische, nicht aus Etappe-3-Quellen abgeleitete Werte aus BWO/Wüest/BFS) vollständig.",
   "gebaeude": {
-    "geschosse_min": 3,
-    "geschosse_max": 6,
-    "geschosshoehe_m": 2.80,
-    "grundriss_tiefe_m": [12.0, 14.5],
-    "erschliessung": "spänner",
-    "statik_system": "massivbau",
-    "dachform": "flachdach",
     "orientierung_regeln": [
-      "Wohnräume Süd/West (Abendsonne)",
-      "Schlafräume Ost (Morgensonne, kühl im Sommer)",
-      "Nasszellen + Küchen nordseitig oder innenliegend",
-      "Durchgesteckte Wohnungen bevorzugt (Querlüftung)"
+      "Grundtypologie NICHT wählen, sondern aus Trägertyp/Betriebslogik UND Kontext (Weiterbauen am Bestand ODER Topografie-Reaktion) herleiten — B4 Abschnitt 2, Übergreifende Regel",
+      "stadt-gemeindlich: Solitär-Cluster um gemeinsamen Hof (Flachland) ODER terrassiertes Ensemble entlang Höhenlinien (Hanglage) — B4 Abschnitt 2.1",
+      "genossenschaftlich: Blockrand mit Hofdurchbrüchen (Flachland-Ersatzneubau) ODER Zeilenbauten mit übergeordneter Erschliessungsfigur (Laubengang/Atrien) — B4 Abschnitt 2.2",
+      "privat-institutionell: zwei bis drei abgewinkelte Baukörper um gemeinsamen Hofraum ODER geclusterte Hofbebauung in Terrassenstufen — B4 Abschnitt 2.3",
+      "Geschosszahl/Gebäudehöhe nicht pauschal setzbar: belegte Spanne von 4 Vollgeschossen (Regelbauweise, Brisgi) bis Hochhaus rund 70 m (Zürcher Hochhausgebiet, Koch-Areal Baufeld B) — aus Zone/Kontext herleiten, kein durchgängiges Wohnungsbau-Band — B6 Abschnitt 6"
     ]
   },
   "flaechen": {
-    "hnf_pro_einheit_m2": [75, 110],
-    "einheit_bezeichnung": "Wohnung (3.5–4.5 Zi)",
-    "vf_anteil": 0.18,
-    "agf_bgf_faktor": 0.85,
-    "nf_gf_faktor": 0.72
+    "hnf_pro_einheit_m2": [95, 105],
+    "einheit_bezeichnung": "Wohnung (4.5-Zimmer, HNF gemäss SIA 416)",
+    "hinweis": "Referenzband aus zwei unabhängigen, praktisch deckungsgleichen Programm-Wohnungsspiegeln (Seebahn-Höfe Zürich, Brisgi-Areal Baden) — B6 Abschnitt 4c, der einzige über mehrere Quellen gestützte Absolut-Flächenwert des Bestandes. NF/GF-Faktor bewusst NICHT gesetzt: der einzige Beleg der Sammlung ist ein Einzelwert (Projekt Edward, Seebahn-Höfe, HNF/GF 66 %, kein Siegerprojekt) — B6 Abschnitt 5 schliesst ausdrücklich aus, ihn als Regelwert zu verwenden. Offener Punkt, siehe wissen/wettbewerbs-dna/wiki/QUESTIONS.md."
   },
   "materialien": {
-    "tragwerk": "massivbau",
-    "fassade": ["verputz-kompakt", "holz-metall-fenster"],
-    "dach": "flachdach-extensiv-begrünt",
-    "innenausbau_standard": "mittel"
+    "tragwerk": "Kein einheitliches Tragwerk-Muster belegt, trägertyp-abhängig: der stadt-gemeindliche Sieger milet (Reichenbachstrasse) ist reine Massivbauweise mit Betonelement-Fassade; die genossenschaftlichen Sieger (Industriestrasse, Walkeweg) setzen auf einen durchgehenden, wirtschaftlich vorfabrizierbaren Holzbau als eigenständiges Wirtschaftlichkeits-/Nachhaltigkeitskriterium; Brisgi (privat-institutionell/Stiftung) ist Hybridbau — Mischbauweise ist verbreitet, aber KEIN Sieg-Kriterium — B4 Abschnitt 3 (Siegargumente 9/12), Abschnitt 2.2"
   },
   "kosten_referenz": {
-    "chf_m3_gv_band": [700, 900],
-    "bkp_schwerpunkte": ["2 Gebäude", "21 Rohbau", "25 Heizung"],
-    "quelle_kb": "wissen/grobkosten/"
+    "chf_m2_hnf_band": [3500, 3900],
+    "chf_m2_hnf_bkp_scope": "BKP 1–9, inkl. MwSt., exkl. Parkierung",
+    "bkp_schwerpunkte": ["1–9 Gesamterstellung (Koch-Areal-Kostenbenchmark CHF/m² HNF)", "1–5 Baukosten (Reichenbachstrasse-Kostenziel CHF/m² GF, andere Bezugsgrösse)"],
+    "quelle_kb": "wissen/grobkosten/",
+    "hinweis": "B6 Abschnitt 0/3a (27.07.2026, established): kein einziger der 8 Wohnungsbau-Juryberichte nennt ein Gebäudevolumen (GV) in m³ — CHF/m³ GV bleibt strukturell unbelegt (gleicher Befund wie Schulbau/Healthcare), führend dafür bleibt wissen/grobkosten/. Das CHF/m²-HNF-Band 3'500–3'900 (BKP 1–9, inkl. MwSt., exkl. Parkierung) stammt aus zwei unabhängigen Baufeldern (B und C) DERSELBEN Auslobung Koch-Areal Zürich 2018/2019 mit gemeinsamer Vorprüfung — als städtischer Zürcher Referenzwert 2018/2019 verwendbar, NICHT als schweizweiter Median; ein zweiter unabhängiger Wettbewerb mit publiziertem CHF/m²-HNF-Wert würde die Basis härten (offener Punkt in kennwerte-wohnungsbau.md). Alternativ dokumentiert Reichenbachstrasse Bern ein Kostenziel 3'800 CHF/m² GF (BKP 1–5, andere Bezugsgrösse, nicht direkt vergleichbar) mit enger Vorprüfungs-Toleranz −4 % bis +7 %."
   },
   "entwurfs_regeln": [
-    "Mindestens 2 Wohnungen pro Geschoss (Spänner-Erschliessung wirtschaftlich)",
-    "Privater Aussenraum je Wohnung (Balkon/Loggia ≥ 6 m²)",
-    "Veloabstellplätze EG/UG (1.5 pro Wohnung, Kt. ZH)",
-    "Waschküche zentral UG oder eigener Tumbler/Waschmaschine",
-    "Kinderspielplatz ab 6 Wohnungen (PBG ZH §243)",
-    "Grenzabstand nach BZO (Kernzone kleiner, Wohnzone normal/gross)"
+    "Grundtypologie aus Trägertyp/Betriebslogik UND Kontext herleiten, nicht wählen — B4 Abschnitt 2, Übergreifende Regel",
+    "Kontextbezug als Eintrittsfilter: Bezug zur Nachbarstruktur bzw. Topografie-Reaktion wird bei praktisch jedem Ersatzneubau geprüft; wer die Setzung nicht löst, scheidet im 1. Rundgang aus — B4 Abschnitt 1 (Kriterium 1) + Abschnitt 3 (Siegargument 1)",
+    "Wohnungsspiegel-/Mix-Konformität als harte, formal prüfbare Grösse führen: eine deutliche Unterschreitung der Wohnungszahl kostet selbst ein architektonisch gelobtes Projekt den 1. Rang — B4 Abschnitt 1 (Kriterium 2), K.o.-Liste Abschnitt 4 (Wätterweid Quartett)",
+    "4.5-Zimmer-Wohnung als Referenzband 95–105 m² HNF führen (zwei unabhängige, praktisch deckungsgleiche Programm-Wohnungsspiegel) — B6 Abschnitt 4c",
+    "Lärmschutz-Ausnahmeregelung bei lärmbelasteten Lagen als nutzbare Entwurfsressource UND harten Bewilligungsfilter führen: Grundrisse ohne funktionierende Lösung sind nicht bewilligungsfähig — B4 K.o.-Liste Abschnitt 4 (Seebahn-Höfe, Emilie-Lieberherr-Hof)",
+    "Hindernisfreiheit ab JEDEM Hauptzugang als eigene Prüfzeile, nicht nur am Hoftor: systemischer Schwachpunkt, betrifft auch Siegerprojekte (Pinarello: interne Korridor-/Nasszellenbreiten statt Hauptzugang) — B4 Abschnitt 3 (Siegargument 11)",
+    "Gemeinschaft als räumlich verifizierbares, mehrschichtiges, klar zugeordnetes Angebot (Lobbys/Waschsalon/Bagnia) entwerfen, nicht behaupten — erzwungene Gemeinschaft ohne Rückzugsmöglichkeit ist K.o.-relevant — B4 Abschnitt 2.2, K.o.-Liste Abschnitt 4",
+    "Vielfältiges, verwandtes Wohnungsangebot einer durchoptimierten Einheitstypologie vorziehen — Mietbarkeits-/Marktkriterium, nicht nur gestalterisch — B4 Abschnitt 3 (Siegargument 4)",
+    "Wirtschaftlichkeit primär an einem vorab definierten CHF/m²-Kostenziel messen, sekundär an der HNF/GF-Relation wo kein CHF-Wert publiziert wird — Architektur/Fassade entscheidet den Sieg praktisch nie allein — B4 Abschnitt 1 (Kriterien 4–5)",
+    "Kostenbenchmark-Auflagen führen bei Nichteinhaltung im Siegerprojekt nicht zum Ausscheiden, sondern zu einer priorisierten Nachbesserungsauflage vor Vertrag/Ausführung (belegt in 7 von 8 Berichten) — B4 Abschnitt 5, B6 Abschnitt 3a (Koch-Areal MOERAKI)",
+    "Areal-Grössenordnung reicht von rund 3'100 m² (einzelne Baulücke) bis 65'000 m² (grossflächige Arealentwicklung) — kein verallgemeinerbarer Einzelwert, Typologie/Erschliessungsfigur auf die tatsächliche Arealgrösse reagieren lassen — B6 Abschnitt 1",
+    "Vier verschiedene, nicht untereinander gleichzusetzende Ausnützungs-/Überbauungsziffer-Systeme angetroffen (klassische AZ Zürich, Überbauungsziffer Luzerner BZO, Überbauungsziffer alpine Bauordnung) — geltende kommunale/kantonale Definition immer explizit prüfen, nie Werte quer übertragen — B6 Abschnitt 2",
+    "Mischbauweise (mineralischer Kern/UG + Holz Obergeschosse) ist verbreitet, aber KEIN Sieg-Kriterium: der reine Massivbau-Sieger milet widerlegt eine zwingende Holzbau-Regel; Holzbau als durchgehendes vorfabrizierbares Konstruktionsraster ist bei genossenschaftlichen Trägern dagegen ein eigenständiges Wirtschaftlichkeits-/Nachhaltigkeitskriterium — B4 Abschnitt 3 (Siegargumente 9/12)",
+    "Nachhaltigkeitszertifizierung (Minergie-P/2000-Watt) wird bei praktisch jedem Projekt individuell auf Erreichbarkeit geprüft, ohne vollständige Erfüllung zwingend zu verlangen — B4 Abschnitt 3 (Siegargument 8)",
+    "Vorprüfungs-Toleranz Wohnungsbau (Einzelbeleg Reichenbachstrasse) −4 % bis +7 % vom Kostenziel — deutlich enger als die Schulbau-Toleranz ±20 %, nur eine Quelle, kein Band — B6 Abschnitt 3b",
+    "Feinfühliger, gestaffelter Umgang mit erhaltenswertem Bestand (Etappierbarkeit ODER blosser Teilerhalt/Integration) wird quer durch die Rangliste goutiert, unabhängig vom architektonischen Rang — B4 Abschnitt 3 (Siegargument 10)"
   ],
   "referenz_projekte": [
     {
       "name": "Wohnüberbauung Giebelweg",
       "jans_nr": "2621",
-      "relevanz": "MFH Hanglage, Stufendach, massgebendes Terrain"
+      "relevanz": "eigenes MFH-Projekt Hanglage, Stufendach, massgebendes Terrain"
     },
     {
-      "name": "Siedlung Klee (pool Architekten)",
+      "name": "PINARELLO / Seebahn-Höfe Zürich",
       "jans_nr": null,
-      "architekt": "pool Architekten",
-      "relevanz": "Referenz kompakte Grundrisse, Erschliessung Laubengang"
+      "architekt": "Harder Spreyermann Architekten",
+      "relevanz": "Sieger genossenschaftlich: geschlossener Blockrand mit vier Hofdurchbrüchen, Referenz-Typologie B4 Abschnitt 2.2"
+    },
+    {
+      "name": "KANDALAMA / Brisgi-Areal Baden",
+      "jans_nr": null,
+      "architekt": "Müller Sigrist Architekten / Meier Leder Architekten",
+      "relevanz": "Sieger privat-institutionell/Stiftung: drei Gebäudegruppen in Terrassenstufen, kennwertreichste Wohnungsbau-Quelle des Bestandes (Wohnungsspiegel, Areal, HNF-Ziel)"
     }
   ],
   "rendering": {
-    "farbpalette": ["#FFFFFF", "#F0EDE8", "#D4CFC7"],
+    "farbpalette": ["#FFFFFF", "#F5F5F0", "#C8C0B8"],
     "stil": "weissmodell"
   }
 }
