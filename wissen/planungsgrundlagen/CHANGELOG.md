@@ -2,6 +2,25 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-28 — Run 92 (Intensiv-Lauf auf Raphaels Auftrag): Recht/Norm+Brandschutz Frischecheck, 2 Refresh-Checks unveraendert, neuer OneDrive-Blocker
+Vollstaendiger Frischecheck ueber alle vier PL-Domaenen: `PL - 02_Recht_Norm` + `PL - 01
+Kartenportale` + `PL - 04 Energie` weiterhin **0 neue Dateien**; `PL - 03 Brandschutz` liefert
+erstmals seit Run 67 einen Treffer — eine neue 201-Byte-Datei im Lignum-4.1-Ordner, die aber nach
+drei Leseversuchen (`cat`/`cp`/`cat`) durchgehend mit OneDrive-`EDEADLK` blockiert bleibt (Analogie
+K46/R52-56, hier persistent statt Sync-Timing) → als **C39** in `wiki/QUESTIONS.md` vorgemerkt.
+Zwei belegte Refresh-Checks der einzigen laufenden Beobachtungspunkte im Recht/Norm+Brandschutz-
+Paar, beide **unveraendert bestaetigt**: **B5 BSV-2026** (WebSearch bsvonline.ch/vkg.ch, fuenfte
+Refresh-Bestaetigung in Folge → [[brandschutz-pl03-wegweiser]] §1) und **R6 RPG-2 ZH-Umsetzung**
+(WebFetch **Primaerquelle** zh.ch, alle materiellen Eckwerte bereits vollstaendig dokumentiert seit
+Run 11 → [[recht-norm-quellenlandkarte]]). Bewusst **keine kuenstlichen 10-16 Fragen** erzeugt, um
+den Token-Vollgas-Zielkorridor formal zu fuellen (Grundsatz "nichts erfinden" aus Run 91). **27.
+Erschoepfungsbestaetigung in Folge (Run 67-92)** ohne genuinen inhaltlichen Fund; einziger neuer
+Datenpunkt ist der technisch nicht auswertbare Blocker C39. **Empfehlung an Raphael (dritte
+Wiederholung):** Cadence auf 2-Tages-Turnus/Ereignis-Trigger zuruecktakten — Rule
+`auto-verbesserungen` 260727 (Leerlauf-Waechter) sieht Deaktivierung ab 5x Delta-Null vor, dieser
+Loop steht bei 27x. Entscheid bleibt bei Raphael (Rule 260714/260725). → `outputs/
+2026-07-28_training-run92.md`.
+
 ## 2026-07-27 — Wissens-Chef Run 18 (Cross-KB): aufgehobenes Recht in der OEREB-Tabelle, EnerGIS-Uebergabe, PV-Flaechenkonkurrenz
 - **[korrektur, materiell] Aufgehobener Erlass als geltende OEREB-Rechtsgrundlage.**
   `wiki/kartenportale-oereb-kataster-system-zh.md` fuehrte die Themen **130 Gewaesserschutzbereiche**,
