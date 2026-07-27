@@ -1,5 +1,12 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-27 — Trainings-Run 28 (Einzeiler, siebzehnter Sättigungsbeleg in Folge)
+
+Kein neuer Sweep, keine Registeränderung, kein voller Report: PID 68866 läuft unverändert
+(~1 Tag 19h16), nur wenige Minuten seit Run-27-Commit (14:04:06 Uhr) vergangen, kein neues
+Quellmaterial seit Run 27 (`find -newermt "2026-07-27 12:00"` Nulltreffer). Inventar-Stand
+unverändert (5 offene Zeilen, 52 `[-]`, 18 `[x]`). Siebzehnter Sättigungsbeleg in Folge.
+
 ## 2026-07-27 — Trainings-Run 27 (Einzeiler gemäss Run-26-Empfehlung)
 
 Kein neuer Sweep, keine Registeränderung, kein voller Report: PID 68866 läuft unverändert

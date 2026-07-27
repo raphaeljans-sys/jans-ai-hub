@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 27.07.2026 13:54:11
+Stand: 27.07.2026 14:04:21
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:53)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:57)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 27.07.2026 13:54:11
 - 3 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 3d034b5b normen-training: Lignatec-Brandschutz Run 31, 17 Refuter-Befunde eingearbeitet (Tab. 3/4 Korrekturen, Treppenanlagen/Korridore-Zuordnung, ISSN, Frontmatter, Verifikationsstand)
+- ac10675e grobkosten-training Run 27: Einzeiler gemaess Run-26-Empfehlung, sechzehnter Saettigungsbeleg in Folge (stale Runner-PID 68866 unveraendert)
