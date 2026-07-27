@@ -1,10 +1,10 @@
 ---
 quelle: "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/PL - 03 Brandschutz/06 Lignum Brandschutz/Lignum Bauten in Holz -  Brandschutzanforderungen/Lignatec_brandschutz.pdf"
 herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direktor); verantwortlich Roland Brunner, Dipl. Ing. HTL, Lignum; technische Bearbeitung Makiol + Wiederkehr, Dipl. Holzbauingenieure HTL/SISH, Beinwil am See"
-ausgabe: "Lignatec 17/2005 «Bauten in Holz – Brandschutz-Anforderungen», erschienen Juni 2005, ISSN 1421-0520; geprüft durch die Technische Kommission der Vereinigung Kantonaler Feuerversicherungen (TKB-VKF) auf materielle Übereinstimmung mit den Schweizerischen Brandschutzvorschriften VKF (Ausgabe 2003, gültig seit 1.1.2005) und als «Stand der Technik» anerkannt"
-gelesen: "alle 12 PDF-Seiten (= gedruckte Seiten 2-24 plus Rückumschlag) komplett, Bild-Scan ohne Textlayer, visuell gelesen"
+ausgabe: "Lignatec 17/2005 «Bauten in Holz – Brandschutz-Anforderungen», erschienen Juni 2005, ISSN 1421-0320; geprüft durch die Technische Kommission der Vereinigung Kantonaler Feuerversicherungen (TKB-VKF) auf materielle Übereinstimmung mit den Schweizerischen Brandschutzvorschriften VKF (Ausgabe 2003, gültig seit 1.1.2005) und als «Stand der Technik» anerkannt"
+gelesen: "alle 12 PDF-Seiten (= gedruckte Seiten 2-24 plus Titelblatt) komplett, Bild-Scan ohne Textlayer, visuell gelesen"
 datenstand: "2005 (Bezug: VKF-Brandschutzvorschriften Ausgabe 2003/gültig ab 1.1.2005) — VERALTET gegenüber der aktuellen VKF-Vorschriftengeneration 2015 (vgl. Destillat vkf-ah-1001-15-wohnbauten.md)"
-status: "speculative (beanstandet-korrigiert, 2 Befunde, Refuter-Verifikation 260727 gegen Original-Scan; Aktualitaets-Vorbehalt gegen VKF 2015 bleibt Sachverhalt, nicht Mangel)"
+status: "speculative (zweite unabhaengige Refuter-Runde 260727, Run 31: BEANSTANDET mit 17 Befunden, alle eingearbeitet. Davon 5 schwer: Tab. 3 Brandabschnitt 4 Geschosse ist EI60 baulich (nicht EI30), Tab. 3 hat sieben statt acht Geschoss-Spalten (bb/nbb sind Varianten derselben Spalte), der Geschoss-Katalog Bauliches Konzept/Sprinklerkonzept gehoert zu den Korridoren Ziff. 3.1.2 (nicht zu den Treppenanlagen 3.1.1), Tab. 4 Korridor 5-6 Geschosse laesst verkleidete Holzbauteile zu (nicht EI60(nbb)), REI60(nbb) beim Treppenhaus erst ab 4 Geschossen. BEIDE Korrekturen der ersten Runde enthielten neue Fehler — das Muster frisch nachgetragener Text ist die hoechste Fehlerquelle hat sich hier vollstaendig bestaetigt. Bleibt speculative bis zu einer Runde mit sauberem Nulldurchgang.)"
 last_updated: 2026-07-27
 links: [[REGISTER]], [[vkf-ah-1001-15-wohnbauten]]
 ---
@@ -22,7 +22,8 @@ Kernstück sind drei tabellarische Anforderungskataloge nach Geschosszahl und Nu
 «Fluchtwege: Treppenhaus und Korridor» S. 12-13, Tabelle 5 «Sichtbare Oberflächen und
 Dämmschichten» S. 15) sowie acht Übersichtsaxonometrien für 2-, 3-, 4- und 5-6-geschossige
 Bauten, die die Feuerwiderstandsanforderung je Bauteil grafisch verorten (S. 16-23). Die
-Publikation ist selbst nur ein «kurzer Zusammenzug»/Auszug (S. 3); verbindlich bleiben die
+Publikation ist selbst nur «eine kurze Zusammenfassung» der Brandschutznorm und der
+einschlägigen Brandschutzrichtlinien (S. 3); verbindlich bleiben die
 Brandschutznorm und die Brandschutzrichtlinien VKF im Volltext, insbesondere für die
 detaillierte Brandschutzplanung (S. 3, Ziff. 1.1) — und **der Dokumentstand 2005 ist gegenüber
 der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (siehe Offene Punkte).
@@ -40,9 +41,10 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
 - Abgedeckte Themen: Brandschutzkonzepte, Tragwerke, Schutzabstände, Brandabschnitte,
   Flucht- und Rettungswege sowie die Verwendung brennbarer Baustoffe (S. 3).
 - Adressaten: Planer, Ingenieure, Architekten sowie Ver- und Bearbeiter von Holz; Einsatz in
-  der Ausbildung auf Stufe TS, FH und ETH (Impressum, Rückumschlag).
-- Herkunft: Teilprojekt A1 «Brandschutzvorschriften, Grundlagen und Gesetzgebung» des
-  Gesamtprojekts «Brandsicherheit und Holzbau» der schweizerischen Wald- und Holzwirtschaft
+  der Ausbildung auf Stufe TS, FH und ETH (Impressum, S. 24).
+- Herkunft: Projekt A1 «Brandschutzvorschriften» des Projektsegments A «Grundlagen und
+  Gesetzgebung» des Gesamtprojekts «Brandsicherheit und Holzbau» der schweizerischen Wald- und
+  Holzwirtschaft
   (2001-2007, Förderprogramm holz21 des BUWAL), begleitet vom Fachausschuss «Brandschutz im
   Holzbau, Lignum, VKF, SIA» (Impressum S. 24).
 - Nicht erfasst: Mobiliar, Dekorationsmaterialien, Materialien für technische Einrichtungen
@@ -76,8 +78,8 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
   zusätzlichen Anforderungen an Verbindungen; nur bei tragenden, nicht brandabschnittbildenden
   Bauteilen (S. 4).
 - «nicht brennbar»: Bauteil muss vollständig aus nicht brennbaren Materialien bestehen
-  (Brandkennziffer BKZ 6q.3); keine Feuerwiderstandsanforderung; kann tragend, nicht aber
-  brandabschnittbildend sein (S. 4).
+  (Brandkennziffer BKZ mindestens 6q.3); keine Feuerwiderstandsanforderung; kann tragend, nicht
+  aber brandabschnittbildend sein (S. 4).
 - R30/EI30/REI30 bzw. R60/EI60/REI60: Feuerwiderstand 30 bzw. 60 Minuten unter
   Brandeinwirkung; minimale Anforderung an brandabschnittbildende Bauteile ist EI30 (S. 4-5).
   Bei brennbaren Dämmungen im Innern von Bauteilen R60/EI60/REI60 sind diese mit einer
@@ -123,15 +125,16 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
 - Standardkonzept (Ziff. 1.5.1): Schutzziel wird mit vorgeschriebenen Standardmassnahmen
   erreicht; zwei Varianten — Bauliches Brandschutzkonzept (Anforderungen an Feuerwiderstand/
   Brennbarkeit richten sich nach Lage, Geschosszahl, Nutzung, Ausdehnung) und Sprinklerkonzept
-  (Sprinkleranlagen werden bei der Festlegung des Feuerwiderstands berücksichtigt und
-  ermöglichen erhöhte Gebäudenutzungen bis zur Hochhausgrenze ohne rechnerischen Nachweis;
-  Reduktion des Feuerwiderstands höchstens 30 Minuten). Die Anforderungen nach Tabelle 3
+  (soweit Sprinkleranlagen nicht ohnehin vorgeschrieben sind, können sie bei bestimmten
+  Gebäudenutzungen bis zur Hochhausgrenze ohne rechnerischen Nachweis bei der Festlegung des
+  Feuerwiderstands von Tragwerken sowie brandabschnittbildender Wände/Decken berücksichtigt
+  werden; Reduktion des Feuerwiderstands höchstens 30 Minuten). Die Anforderungen nach Tabelle 3
   gelten als Standardlösungen.
 - Objektbezogenes Konzept (Ziff. 1.5.2): Schutzziele werden für das Einzelobjekt erfüllt;
   Rahmenbedingungen in Art. 11 der Brandschutznorm; weitere Reduktionen nur gestützt auf
   Art. 11 mit entsprechendem Nachweis, Gleichwertigkeit entscheidet die Brandschutzbehörde.
 
-### 2. Tragwerke und Brandabschnitte (Ziff. 2, S. 7-13)
+### 2. Tragwerke und Brandabschnitte (Ziff. 2, S. 7-11)
 
 **Tragwerke (Ziff. 2.1, S. 7)**
 - Als Tragwerk gilt die Gesamtheit aller zur Lastaufnahme und -ableitung sowie Stabilisierung
@@ -168,8 +171,8 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
   Parkhäuser/Einstellräume, Verkaufsgeschäfte ≤1200 m²/≤100 P, Landwirtschaftliche Bauten,
   Wohnbauten EFH/REFH), je Konzept Baulich/Sprinkler, mit Feuerwiderstand für Tragwerk und
   Brandabschnitt. Repräsentative Eckwerte:
-  - Wohnbauten MFH bis 2 Geschossen/600 m²: keine Anforderung (baulich, 1 und oberstes
-    Geschoss) bzw. Mindestkantenabmessung (2 Geschosse bis 600 m² bb) bzw. R30 mit
+  - Wohnbauten MFH bis 2 Geschossen/600 m²: keine Anforderung (1 und oberstes Geschoss, für
+    beide Konzepte) bzw. Mindestkantenabmessung (2 Geschosse bis 600 m² bb) bzw. R30 mit
     Mindestkantenabmessung (2 Geschosse über 600 m² bb); Brandabschnitt EI30.
   - Wohnbauten MFH 3 Geschosse: Tragwerk R30 (baulich)/Mindestkantenabmessung (Sprinkler),
     Brandabschnitt EI30. Wohnbauten MFH 4 Geschosse: Tragwerk R60 (baulich)/R30 (Sprinkler);
@@ -347,7 +350,7 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
     Einbau zusätzlicher Brandschutzmassnahmen vorbehalten.
   - Fussnote ⑥ Holz-Aussenwandverkleidungen sind nur zulässig, wenn sie die Brandausbreitung
     über mehrere Geschosse nicht begünstigen; im Einvernehmen mit der Brandschutzbehörde
-    entsprechende Massnahmen (z.B. öffnungslose Fassade, feuerwiderstandsfähige Abdeckung,
+    entsprechende Massnahmen (z.B. öffnungslose Fassade, feuerwiderstandsfähige Aussenwand,
     Hintermauerung, Begrenzung der Holzflächen, Sprinklervollschutz, Massnahmen im
     Hinterlüftungsbereich, Schürzen usw.).
 
@@ -474,5 +477,18 @@ aktuellere Lignum-Publikation zum Holzbau-Brandschutz abzugleichen.
   2005; «Fassaden in Holz – Brandschutztechnische Konstruktionen», Frühjahr 2006) — ob diese in
   der SharePoint-Ablage `PL - 03 Brandschutz/06 Lignum Brandschutz/` vorhanden sind, wurde hier
   nicht geprüft.
-- **Titelblatt/Rückseite**: Enthält keinen separaten Fliesstext (nur Titel, Illustration,
-  Impressum) — vollständig unter Frontmatter/Geltungsbereich erfasst.
+- **Titelblatt/Rückseite**: Enthält keinen separaten Fliesstext (nur Titel und Illustration;
+  das Impressum steht auf S. 24, nicht auf dem Titelblatt) — vollständig unter
+  Frontmatter/Geltungsbereich erfasst.
+
+## Verifikationsstand
+
+- **27.07.2026, Run 31**: zweite unabhängige Refuter-Runde. Ein unabhängiger Refuter hat alle
+  12 PDF-Seiten visuell gelesen und die drei Kreuztabellen (Tabelle 3, Tabelle 4, Tabelle 5)
+  zusätzlich in 400-600 dpi nachgeprüft; keine unlesbaren Stellen. Ergebnis: 17 Befunde, alle
+  in diesem Destillat eingearbeitet.
+- Beide in der ersten Runde korrigierten Stellen enthielten neue Fehler (Tab. 3
+  Brandabschnitt-Wert und Tab. 3 Spaltenstruktur). Das in dieser Wissensbasis dokumentierte
+  Muster — frisch nachgetragener Text ist die höchste Fehlerquelle — hat sich hier vollständig
+  bestätigt.
+- Die Axonometrien Ziff. 5.1 bis 5.4 (S. 16-23) wurden vollständig bestätigt (0 Befunde).

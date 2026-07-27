@@ -2,9 +2,9 @@
 quelle: "PL - 03 Brandschutz/06 Lignum Brandschutz/Lignum 4.2 Bauteile in Holz - Anschlüsse bei Bauteilen mit Feuerwiederstand/4.2 BTH Anschlusse bei Bauteilen mit Feuerwiederstand .pdf"
 herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direktor)"
 ausgabe: "Lignum-Dokumentation Brandschutz, Themenblock 4 'Bauteile in Holz', Publikation 4.2; von der Technischen Kommission Brandschutz der Vereinigung Kantonaler Feuerversicherungen (TKB-VKF) auf Übereinstimmung mit den Mindestanforderungen der Schweizerischen Brandschutzvorschriften VKF, Ausgabe 2015 (BSV 2015), Stand am 01.01.2017 geprüft und am 15.12.2017 als 'Stand der Technik Papier (STP)' anerkannt; erschienen im April 2018 (Impressum S. 64)"
-gelesen: "alle 33 PDF-Seiten (= gedruckte Seiten 2-64 plus Umschlag) komplett, Bild-Scan ohne Textlayer, visuell gelesen in 2 Schritten (PDF-S. 1-17, PDF-S. 18-33)"
+gelesen: "alle 33 PDF-Seiten gelesen, davon 32 verschiedene Scans (PDF-S. 33 zeigt denselben Scan wie PDF-S. 1: Impressum gedruckte S. 64 plus Umschlag) = gedruckte Seiten 2-64 plus Umschlag inhaltlich vollstaendig erfasst, Bild-Scan ohne Textlayer, visuell gelesen in 2 Schritten (PDF-S. 1-17, PDF-S. 18-33)"
 datenstand: "VKF-Brandschutzvorschriften 2015; STP-Anerkennung 15.12.2017; Druck April 2018"
-status: "speculative (beanstandet-korrigiert, 2 Befunde: Abb. 320-1 Risikosituationen-Zuordnung Kap. 3.2 S.8 korrigiert; Literaturverzeichnis-Zaehlfehler 8→9 Lignum-Publikationen [4]-[12] korrigiert. Refuter-Verifikation 27.07.2026 gegen 33-seitigen Original-Scan, alle uebrigen Kernziffern/Tabellen/Fundstellen/Anhang-3-Beispiele bestaetigt.)"
+status: "speculative (zweite unabhaengige Refuter-Runde 260727, Run 31: BEANSTANDET mit 18 Befunden plus 10 fehlenden Kernziffern, alle eingearbeitet. Davon 7 schwer: Brettstapel/Brettschichtholz-Festigkeitsklassen vertauscht (C24 statt GL24k), drei Faelle mit EI90-Werten faelschlich als EI60 und fehlender EI60-Zeile (Kap. 4.2.4, 4.2.7.1, 4.2.7.2), Mindestauflager dem falschen Beplankungsfall zugeordnet (Kap. 4.2.8.2), Temperaturkriterien 250/270 und 140/180 vertauscht (Kap. 5.2.2), Mineralwolle-Wert EI60 aus einem anderen Kapitel eingeschleust. Zudem drei unvollstaendige Anhang-3-Bauteilaufbauten und zwei verfaelschte Modalitaeten (Kap. 4.4.3 Aussagerichtung umgekehrt, Kap. 5.3.4 kumulative Anforderung zur Alternative erweicht). Die beiden Korrekturen der Runde 1 haben dagegen standgehalten. Bleibt speculative bis zu einer Runde mit sauberem Nulldurchgang.)"
 last_updated: 2026-07-27
 links: [[REGISTER]]
 ---
@@ -114,8 +114,9 @@ Anschlusslösungen dieser Publikation (Kap. 2.2.3, S. 7; Kap. 4.4/5.5).
 
 Definitionen/Mindestanforderungen (Auszug):
 - Vollholz: keilgezinktes/schichtverleimtes Vollholz, Festigkeitsklasse mind. C24.
-- Brettstapel: Festigkeitsklasse mind. GL24k.
-- Brettschichtholz: nach SIA 265.
+- Brettstapel: Festigkeitsklasse mind. C24.
+- Brettschichtholz: Festigkeitsklasse mind. GL24k. Holz und Holzwerkstoffe generell nach
+  SIA 265 [17] und SIA 265/1 [18] (Kap. 3.4 Einleitungstext).
 - Massivholzschalung: Nut+Kamm/Nut+Feder; Fichte/Tanne/Föhre/Lärche/Douglasie/Buche/Eiche,
   keine Ausfallaeste; charakteristische Rohdichte ρk ≥ 350 kg/m³ bei 12 % Holzfeuchte.
 - Ein-/mehrlagige Massivholzplatten: nach EN 13353/EN 13986/EN 16351; ρk ≥ 350 kg/m³.
@@ -124,7 +125,7 @@ Definitionen/Mindestanforderungen (Auszug):
 - OSB-Platte: Typ OSB/3 und OSB/4 nach EN 300/EN 13986; ρk ≥ 550 kg/m³.
 - Spanplatte: kunstharzgebunden EN 312/EN 13986 ρk ≥ 500 kg/m³; zementgebunden EN 634-1/-2/
   EN 13986 ρk ≥ 1'000 kg/m³.
-- Faserplatte: EN 622-1/-2/-2,3/-2,5/EN 13986; ρk ≥ 500 kg/m³.
+- Faserplatte: EN 622-1, EN 622-2, EN 622-3, EN 622-5, EN 13986; ρk ≥ 500 kg/m³.
 - Gipsplatte: Typ A, D, E, F, H, I, R nach EN 520. Gipsfaserplatte: EN 15283-2.
 - Estrich: Zementmörtel, Kalziumsulfat-Mörtel (Anhydrit-Mörtel), Kalziumsulfat-Fliessmörtel,
   Gipsmörtel, Asphalt.
@@ -132,9 +133,12 @@ Definitionen/Mindestanforderungen (Auszug):
   Schmelzpunkt nach DIN 4102-17 (Kriterium ≥ 1'000 °C).
 - Fugenmaterialien: Mörtel/Fugenspachtel (Zementmörtel, Kalziumsulfat-Mörtel, Gipsmörtel,
   Magnesit-Mörtel, lehmgebundener Mörtel, Mörtel mit organischen Bindemitteln), Brand-
-  verhaltensgruppe RF1; Fugenabdichtungssysteme (Klebebänder, Fugenbänder, Dichtungsmassen)
-  nach Herstellerangaben; VKF-anerkanntes Fugenabdichtungssystem gemäss Schweizerischem
-  Brandschutzregister VKF, Registergruppe 224 'Fugenabdichtungen'.
+  verhaltensgruppe RF1.
+- Fugenabdichtungssystem (ohne brandschutztechnische Anforderungen): Klebebänder, Fugenbänder,
+  Dichtungsmassen; Einbau für den jeweiligen Verwendungszweck (z.B. Luftdichtigkeit) gemäss
+  Stand der Technik bzw. Herstellerangaben.
+- VKF-anerkanntes Fugenabdichtungssystem: gemäss Schweizerischem Brandschutzregister VKF,
+  Registergruppe 224 'Fugenabdichtungen' [2].
 
 ### Befestigung und Fugenausbildung von Beplankungen (Kap. 3.5, S. 11)
 
@@ -156,28 +160,33 @@ Anschlusssituationen in Abb. 421-1, S. 13.
 Massnahme: Abschluss am Bauteil erforderlich (Brand kann sich sonst in Hohlräume ausbreiten).
 Füllholz-Mindestbreiten b nach Feuerwiderstandsdauer des Bauteils: EI30 → b ≥ 40 mm,
 EI60 → b ≥ 60 mm, EI90 → b ≥ 80 mm. Alternativ Mineralwolle (Schmelzpunkt ≥ 1'000 °C,
-Rohdichte ≥ 26 kg/m³): EI30 → b ≥ 100 mm, EI60 → b ≥ 200 mm, EI90 → b ≥ 200 mm (Bild 1e).
+Rohdichte ≥ 26 kg/m³): EI30 → b ≥ 100 mm, EI60 → b ≥ 100 mm, EI90 → b ≥ 200 mm (Legende 6);
+separat Legende 5: Mineralwolle b ≥ 100 mm (Bild 1e).
 Bauteile aus Vollquerschnitten benötigen keine Massnahmen (Bild 2).
 
 **4.2.3 Bauteilabschlüsse — an Bauteile mit Feuerwiderstand (S. 15):** Bauteilstirn ist durch
 das durchgehende Bauteil teilweise geschützt; die Feuerwiderstandsdauer des durchgehenden
-Bauteils darf max. 30 Minuten kleiner sein als die des abzuschliessenden Bauteils, sonst
-Abschluss gemäss Kap. 4.2.2. Füllholz b ≥ 40 mm; BSP30 möglich; Mineralwolle
+Bauteils darf bei den vorgeschlagenen Lösungen max. 30 Minuten kleiner sein als die des
+abzuschliessenden Bauteils (ausgenommen Bilder 1d und 2); bei grösserer Differenz Abschluss
+gemäss Kap. 4.2.2. Füllholz b ≥ 40 mm; BSP30 möglich; Mineralwolle
 (Schmelzpunkt ≥ 1'000 °C, ρ ≥ 26 kg/m³) b ≥ 100 mm; Brandschutzplatte (bei identischer
 Feuerwiderstandsdauer beider Bauteile): EI30 → BSP30, EI60 → BSP60.
 
 **4.2.4 Elementstösse (S. 16):** gleichwertig dem flächigen Bauteilaufbau auszubilden, können
 auch als Bauteilfuge nach Kap. 4.3 ausgeführt werden. Abdeckung nach Feuerwiderstandsdauer:
 beidseitig ≥ 0.5 × Feuerwiderstandsdauer Bauteil (EI30: Holzwerkstoffplatte 15 mm oder
-Gips-/Gipsfaserplatte 10 mm; EI60: Holzwerkstoffplatte 40 mm oder Gips-/Gipsfaserplatte
-25 mm bzw. 2×15 mm); einseitig ≥ Feuerwiderstandsdauer Bauteil (EI30: BSP30, EI60: BSP60).
-Verbleibende Bauteildicke e: EI30 ≥ 50 mm, EI60 ≥ 80 mm, EI90 ≥ 110 mm.
+Gips-/Gipsfaserplatte 10 mm; EI60: BSP30; EI90: Holzwerkstoffplatte 40 mm oder
+Gips-/Gipsfaserplatte 25 mm bzw. 2×15 mm); einseitig ≥ Feuerwiderstandsdauer Bauteil (EI30:
+BSP30, EI60: BSP60). Abdeckholz b: EI30 ≥ 40 mm, EI60 ≥ 60 mm, EI90 ≥ 80 mm; Überlappung c:
+EI30 ≥ 40 mm, EI60 ≥ 60 mm, EI90 ≥ 80 mm. Verbleibende Bauteildicke e: EI30 ≥ 50 mm, EI60 ≥ 80 mm,
+EI90 ≥ 110 mm.
 
 **4.2.5 Unterbrüche brandschutztechnisch wirksamer Beplankungen (S. 17):** unterbrochene
 Beplankungen sind gleichwertig zu ersetzen. Füllholz bei Fugenbreite f ≤ 2 mm: unterbrochene
 Beplankung ≤ BSP30 → b ≥ 20 mm, ≤ BSP60 → b ≥ 30 mm; bei f > 2 mm: ≤ BSP30 → b ≥ 40 mm,
-≤ BSP60 → b ≥ 60 mm. Geschlossene Bauteilfugen: unterbrochene Beplankung ≤ BSP30 → b ≥ 40 mm,
-≤ BSP60 → b ≥ 60 mm. Mineralwolle (Schmelzpunkt ≥ 1'000 °C, ρ ≥ 26 kg/m³): b ≥ 100 mm.
+≤ BSP60 → b ≥ 60 mm. Geschlossene Bauteilfugen (gilt auch für Estrich mit Stellstreifen RF1):
+unterbrochene Beplankung ≤ BSP30 → b ≥ 40 mm, ≤ BSP60 → b ≥ 60 mm. Mineralwolle
+(Schmelzpunkt ≥ 1'000 °C, ρ ≥ 26 kg/m³): b ≥ 100 mm.
 
 **4.2.6 Hohlräume (S. 18):** durchlaufende Hohlräume im Bereich brandabschnittsbildender
 Bauteile sind zu unterbrechen. Füllholz: EI30 → b ≥ 40 mm, EI60 → b ≥ 60 mm, EI90 → b ≥ 80 mm;
@@ -185,16 +194,19 @@ Mineralwolle (Schmelzpunkt ≥ 1'000 °C, ρ ≥ 26 kg/m³): EI30 → b ≥ 100 
 Brandschutzplatte EI30 → BSP30, EI60 → BSP60. Vollquerschnitte: keine Massnahmen.
 
 **4.2.7 Längsfugen (S. 19-20):** Lösungen gelten für Fugen bis maximal 10 mm.
-- Gefüllt (4.2.7.1, S. 19): Abdichtung mit Klebeband/Fugenband/Dichtungsmasse bei
-  Fugenquerschnittsfläche ≤ 150 mm² (f ≤ 5 mm) im Abstand b (EI30 ≥ 40 mm, EI60 ≥ 60 mm,
-  EI90 ≥ 80 mm); bei Fugenquerschnittsfläche > 150 mm² Massnahme gemäss Kap. 4.3.4.
-  Beplankung: beidseitig FW-Dauer ≥ 0.5 × Bauteil-FW (EI30: 15 mm Holzwerkstoff/10 mm Gips;
-  EI60: 40 mm Holzwerkstoff/25 mm bzw. 2×15 mm Gips), einseitig FW-Dauer ≥ Bauteil-FW
-  (EI30: BSP30, EI60: BSP60).
+- Gefüllt (4.2.7.1, S. 19): zwei Abdichtungskriterien getrennt — Legende 1 (Bilder 1a/1b):
+  Fugenquerschnittsfläche ≤ 150 mm² → Abdichtung mit Klebeband/Fugenband/Dichtungsmasse im
+  Abstand b, bei Abdichtung an zwei Stellen im Abstand ≥ b entfällt der Abstand; > 150 mm² →
+  Massnahme gemäss Kap. 4.3.4. Legende 3 (Bilder 2a/2b): Fugenbreite f ≤ 5 mm → gleiche
+  Abdichtung im Abstand b; f > 5 mm → Massnahme gemäss Kap. 4.3.4. Abstand b: EI30 ≥ 40 mm,
+  EI60 ≥ 60 mm, EI90 ≥ 80 mm. Legende 2, Beplankung: beidseitig FW-Dauer ≥ 0.5 × Bauteil-FW
+  (EI30: Holzwerkstoffplatte 15 mm oder Gips-/Gipsfaserplatte 10 mm; EI60: BSP30; EI90:
+  Holzwerkstoffplatte 40 mm oder Gips-/Gipsfaserplatte 25 mm bzw. 2×15 mm), einseitig
+  FW-Dauer ≥ Bauteil-FW (EI30: BSP30, EI60: BSP60).
 - Unterbrochen (4.2.7.2, S. 20): Bauteilabschluss gemäss Kap. 4.2.3; Füllholz EI30 ≥ 20 mm,
-  EI60 ≥ 40 mm, EI90 ≥ 60 mm; Brandschutzplatte EI30/EI60: BSP30, EI60: BSP60 (b ≥ 150 mm);
-  Mineralwolle Schmelzpunkt ≥ 1'000 °C, ρ ≥ 40 kg/m³: EI30 ≥ 60 mm, EI60 ≥ 80 mm; bzw.
-  ρ ≥ 26 kg/m³: EI30 ≥ 100 mm, EI60 ≥ 150 mm.
+  EI60 ≥ 40 mm, EI90 ≥ 60 mm; Brandschutzplatte: EI30 → BSP30, EI60 → BSP30, EI90 → BSP60;
+  Mineralwolle Schmelzpunkt ≥ 1'000 °C, ρ ≥ 40 kg/m³: EI30 ≥ 60 mm, EI60 ≥ 80 mm; ρ ≥ 26 kg/m³:
+  EI30 ≥ 100 mm, EI60 ≥ 150 mm.
 
 **4.2.8 Auflager (S. 21-23):**
 - Auflager Holz (4.2.8.1, S. 21): Tragsicherheit unter Berücksichtigung von Abbrand und
@@ -202,12 +214,16 @@ Brandschutzplatte EI30 → BSP30, EI60 → BSP60. Vollquerschnitte: keine Massna
   minimale Auflagerbreite nach Abbrand y ≥ 5 mm. Vollständig geschütztes Auflager: Beplankung
   FW-Dauer ≥ Bauteil-FW (R30: BSP30, R60: BSP60); teilweise geschütztes Auflager: rechnerischer
   Nachweis gemäss Lignum-Publikation 'Feuerwiderstandsbemessung – Bauteile und Verbindungen' [6].
-- Auflager Stahl (4.2.8.2, S. 22): Wärmeeintrag in Stahlbauteile begrenzen. Mindestauflager auf
-  Holz: R30 ≥ 100 mm, R60 ≥ 120 mm, R90 ≥ 140 mm; Beplankung beidseitig überlappt/einseitig
-  oben FW-Dauer ≥ Bauteil-FW (R30: BSP30, R60: BSP60), bei mehrlagiger Beplankung jede Lage
-  unabhängig zu befestigen. Bemessung Stahlauflager für Lastfall Brand gemäss Norm SIA 263
-  Stahlbau [16] bzw. Steeldoc, Brandschutz im Stahlbau [20]. Maximale Distanz Verbindungsmittel
-  d: ≤ 150 mm einseitig befestigt, ≤ 500 mm beidseitig befestigt.
+- Längsfugen in Bauteilebene (4.2.8.1/4.2.8.2): Längsfugenbreite ≤ 5 mm im Abstand von mind.
+  200 mm sowie Brettstapelfugen: keine Massnahmen; > 5 mm: Fugenausbildung gemäss Kap. 4.2.7.
+- Auflager Stahl (4.2.8.2, S. 22): Wärmeeintrag in Stahlbauteile begrenzen. Beplankung beidseitig
+  überlappt oder einseitig oben (FW-Dauer ≥ Bauteil-FW: R30 BSP30, R60 BSP60): Mindestauflager
+  auf Holz R30 c ≥ 40 mm, R60 c ≥ 60 mm, R90 c ≥ 80 mm. Beplankung einseitig unten (FW-Dauer ≥
+  Bauteil-FW: R30 BSP30, R60 BSP60): Mindestauflager auf Holz R30 c ≥ 100 mm, R60 c ≥ 120 mm,
+  R90 c ≥ 140 mm. Bei mehrlagiger Beplankung jede Lage unabhängig befestigen. Bemessung
+  Stahlauflager für Lastfall Brand gemäss Norm SIA 263 Stahlbau [16] bzw. Steeldoc, Brandschutz
+  im Stahlbau [20]. Maximale Distanz Verbindungsmittel d: ≤ 150 mm einseitig befestigt, ≤ 500 mm
+  beidseitig befestigt.
 - Auflager Stahlbeton und Mauerwerk (4.2.8.3, S. 23): Auflagerbreiten genügend gross wählen;
   Mindestüberdeckung Armierung im Auflagerbereich gemäss Norm SIA 262 Betonbau [15]; Auflager
   hinter Armierungsachse x ≥ 15 mm zzgl. Bautoleranzen; Auflager Mauerwerk x ≥ 100 mm.
@@ -230,13 +246,16 @@ Beplankung beidseitig mind. 9 mm, 60 Min. → beidseitig mind. BSP30.
 **4.3 Bauteilfugen (S. 26-29):** Einteilung nach Fugenbreite in geschlossene Bauteilfugen
 (f = 0 mm), Bauteilfugen bis 2 mm und Bauteilfugen bis 80 mm (Abb. 431-1). Mindestmasse der
 Kontaktfläche b je Feuerwiderstandsdauer (Abb. 431-2, Fuge einteilig): EI30 ≥ 60 mm,
-EI60 ≥ 100 mm, EI90 ≥ 140 mm; Fuge zweiteilig: EI30 ≥ 40 mm, EI60 ≥ 60 mm, EI90 ≥ 80 mm.
-Bauteilfugen mit Fugenbreite > 80 mm gelten als Bauteilöffnungen und sind brandschutztechnisch
-wie Bauteile zu behandeln.
+EI60 ≥ 100 mm, EI90 ≥ 140 mm; Fuge zweiteilig: EI30 ≥ 40 mm, EI60 ≥ 60 mm, EI90 ≥ 80 mm. Bei
+VKF-anerkannten Bauteilen kann die Kontaktfläche b gemäss VKF-Anerkennung reduziert werden
+(Kap. 4.3.1, S. 26). Bauteilfugen mit Fugenbreite > 80 mm gelten als Bauteilöffnungen und sind
+brandschutztechnisch wie Bauteile zu behandeln.
 - 4.3.2 Geschlossene Bauteilfugen (S. 27, f = 0 mm): bei Einhaltung Kontaktfläche/dauerhafter
   Gewährleistung keine weiteren Massnahmen erforderlich.
 - 4.3.3 Bauteilfugen bis 2 mm (S. 27): Abdichtung mit Klebeband/Fugenband/Dichtungsmasse;
   Abdeckung mit geschlossener Fuge, Mindestdicke 9 mm; Estrich EI30 → BSP30, EI60 → BSP60.
+  Weitere Legenden: Mineralwolle ρ ≥ 40 kg/m³ Höhe 60 mm bzw. ρ ≥ 26 kg/m³, Brandschutzplatte
+  (BSP) EI30/EI60, Stellstreifen b ≥ 100 mm.
 - 4.3.4 Bauteilfugen bis 80 mm (S. 28): Abdichtung mit Klebeband/Fugenband/Dichtungsmasse,
   Mineralwolle (Schmelzpunkt ≥ 1'000 °C, ρ ≥ 40 kg/m³) ganzen Hohlraum ausfüllt; VKF-
   anerkanntes Fugenabdichtungssystem gemäss Registergruppe 224, Randabstand bei direkt auf
@@ -259,9 +278,13 @@ Ummauerungen (→ Publikation 6.1), 501/504/505 Lüftungskanäle/Brandschutzklap
 Absperrvorrichtungen, 802 Entrauchungsklappen, 803 Rauchschürzen.
 - 4.4.2 Wand- und Deckenkonstruktionen (S. 32): Holzunterkonstruktion muss Standfestigkeit
   des VKF-anerkannten Bauteils gewährleisten, ergänzend Anforderungen Kap. 4.2 umsetzen.
-- 4.4.3 Abschlüsse (S. 33): bei Einbau von Abschlüssen in Holzkonstruktionen ist als
-  Unterkonstruktion eine Leichtbauwand 'LBW' zu verwenden, sofern in VKF-Anerkennung
-  vorgegeben; Vorholzdicke x: Abschluss EI30 ≥ 30 mm, EI60 ≥ 50 mm.
+  Beplankungsdicken: Abschluss EI30 → Holzwerkstoffplatte 22 mm oder Gips-/Gipsfaserplatte
+  12,5 mm; EI60 → 46 mm bzw. 2×12,5 mm. Randbedingungen: Leichtbauwand max. Höhe 3 m,
+  Balken/Rippe max. 800 mm, Holzwerkstoffplatte 27 mm mit Balken-/Rippenabstand max. 700 mm.
+- 4.4.3 Abschlüsse (S. 33): beim Einbau von Abschlüssen in Holzkonstruktionen sind Abschlüsse
+  zu verwenden, für die als Unterkonstruktion eine Leichtbauwand 'LBW' definiert ist (die in
+  Frage kommende Unterkonstruktion ist in der VKF-Anerkennung/VKF-Technischen Auskunft unter
+  'Anwendung' aufgeführt); Vorholzdicke x: Abschluss EI30 ≥ 30 mm, EI60 ≥ 50 mm.
 
 ### Kapitel 5 — Anschlüsse Bauteile RF1 (S. 34-45)
 
@@ -273,10 +296,16 @@ K30-RF1; Zwischenräume mit Baustoffen der RF1 hohlraumfrei auszufüllen.
 Feuerwiderstandsdauer: Bekleidung K30-RF1 (VKF-Anerkennung Registergruppe 230
 'Brandschutzbekleidungen', EN 13501-2 klassifiziert) bzw. Bauteil EI30-RF1, Estrich 30 mm
 (zement-/kalziumsulfatgebundene Estriche) bzw. Beton 60 mm (Normalbeton). Für 60 Minuten:
-Bekleidung K60-RF1 bzw. Bauteil EI60-RF1, Estrich 50 mm bzw. Beton 80 mm. Alternative zu K
-möglich: Bekleidungen mit Kriterium Ktt-RF1 (Temperaturanstieg brandabgewandte Seite
-ΔTMW = 250 °C, ΔTmax = 270 °C) statt K (brandabschnittsbildende Bauteile ΔTMW = 140 °C,
-ΔTmax = 180 °C). Mindestbewehrungsüberdeckungen gemäss Norm SIA 262 [15] einzuhalten.
+Bekleidung K60-RF1 bzw. Bauteil EI60-RF1, Estrich 50 mm bzw. Beton 80 mm. Anstelle einer
+Bekleidung K können Bauteile eingesetzt werden, welche mindestens die Kriterien Ktt-RF1
+erfüllen; bei Bauteilen EItt-RF1 ist dieser Nachweis wegen des strengeren Temperaturkriteriums
+erfüllt, sofern ihre Feuerwiderstandsdauer mindestens der erforderlichen Brandschutzbekleidung
+entspricht (z.B. Bauteil EI30-RF1 anstelle Bekleidung K30-RF1). Temperaturanstieg brandab-
+gewandte Seite: bei Bekleidungen K auf ΔTMW = 250 °C / ΔTmax = 270 °C begrenzt, bei brand-
+abschnittsbildenden Bauteilen auf ΔTMW = 140 °C / ΔTmax = 180 °C. Ergänzend Kap. 5.2.2, S. 35:
+Brandschutzbekleidung mind. K30-RF1 für Bauteile RF1 mit 30 und 60 Min. FW-Dauer, mind.
+K60-RF1 für solche mit 90 Min. Mindestbewehrungsüberdeckungen gemäss Norm SIA 262 [15]
+einzuhalten.
 
 **5.2.3 Fugenausbildung von Brandschutzbekleidungen (S. 36):** Unterkonstruktion/Befestigung/
 Fugenausbildung gemäss VKF-Anerkennung; dahinter liegende brennbare Schichten während der

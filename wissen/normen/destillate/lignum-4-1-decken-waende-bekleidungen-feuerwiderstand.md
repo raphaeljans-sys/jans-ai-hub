@@ -206,8 +206,9 @@ verbindlichen Punkte:
   kein Einsatz brennbarer Dämmung möglich**; Einsatz zementgebundener statt
   Kunstharz-Spanplatten (angegebene Mindestdicken −10 %); Einsatz Holzwerkstoffe RF2
   statt RF3 (Mindestdicken −10 %); zwei-/mehrschichtige Ausführung statt einschichtig
-  bei Massivholzschalung und flächigen Holzwerkstoffen unter Berücksichtigung Abb. 310-1
-  und Fugenrichtung; in Wand-/Deckenkonstruktionen (ausgenommen Tragschichten) und bei
+  bei Massivholzschalung und flächigen Holzwerkstoffen unter Berücksichtigung der
+  Voraussetzungen in Abb. 310-1 und der Tragrichtung unter statischer Beanspruchung; in
+  Wand-/Deckenkonstruktionen (ausgenommen Tragschichten) und bei
   Brandschutzplatten ist die erforderliche Schichtdicke um 30 % zu erhöhen.
 
 ### 3.2 Baustoffe (Tab. 320-1, S. 13)
@@ -235,16 +236,16 @@ Abweichende Baustoffe (andere Festigkeitsklasse/Rohdichte) sind in Bauteilen mit
 Feuerwiderstandsanforderungen möglich, sofern ihre brandschutztechnische
 Leistungsfähigkeit erwiesen ist (S. 13). Massgebende Dicke bei profilierten/gefasten
 Querschnitten (Abb. 310-2, S. 12): bei Querschnitten aus Vollholz, Brettstapel,
-Massivholzschalung, Massivholzplatten, Furniersperrholz und Furnierschichtholz werden
-Fasen bis 2 mm Tiefe nicht berücksichtigt (massgebend bleibt die Nenndicke); bei
+Massivholzschalung, Massivholzplatten, Furniersperrholz und Furnierschichtholz müssen
+Fasen bis 2 mm Tiefe nicht berücksichtigt werden (massgebend bleibt die Nenndicke); bei
 staerkeren Profilierungen wird die verbleibende Dicke massgebend. Bei Querschnitten aus
-Holzwerkstoffen (OSB-, Span- und Faserplatten) werden Fasen bis 2 mm Tiefe ebenfalls
-nicht berücksichtigt, **andere Profilierungen sind dort jedoch generell nicht erlaubt**
+Holzwerkstoffen (OSB-, Span- und Faserplatten) müssen Fasen bis 2 mm Tiefe ebenfalls
+nicht berücksichtigt werden, **andere Profilierungen sind dort jedoch generell nicht erlaubt**
 (Korrektur 260727: die Erstfassung hatte dies dahingehend verkürzt, dass bei OSB/Span/
 Faserplatten Fasen selbst nicht erlaubt seien — das Original erlaubt auch dort 2-mm-Fasen,
 verbietet nur weitergehende Profilierungen).
 
-### 3.3 Unterkonstruktion, Befestigung, Fugenausbildung (Tab. 330-1 bis 330-3, S. 14–16)
+### 3.3 Unterkonstruktion, Befestigung, Fugenausbildung (Tab. 330-1, Abb. 330-2/330-3, S. 14–16)
 
 - Tab. 330-1: Unterkonstruktion/Befestigung/Fugenausbildung je Baustoff (Achsmass
   Unterkonstruktion max. 700 mm für Massivholzschalung und Massivholzplatten/
@@ -255,7 +256,7 @@ verbietet nur weitergehende Profilierungen).
   Schraubenabstand max. 150 mm; in Wandkonstruktionen für «fliegende» Stösse über
   freiem Feld zwingend), **Typ 2 «Doppel-Nut und Kamm/Doppelfeder»**, **Typ 3 «Nut und
   Kamm/Feder»**, **Typ 4 «stumpf»** (nur direkt auf Ständern/Balken zulässig, nicht über
-  freiem Feld). Laut Tab. 330-2 gilt differenziert: **in Wandkonstruktionen** sind über
+  freiem Feld). Laut Abb. 330-2 gilt differenziert: **in Wandkonstruktionen** sind über
   freiem Feld **nur Typ 1 (hinterlegt)** zulässig, direkt auf Ständer/Latte alle vier Typen;
   **in Deckenkonstruktionen** sind über freiem Feld Typ 1–3 zulässig (direkt auf Balken/
   Latte ebenfalls alle vier). Korrektur 260727: die Erstfassung hatte die Deckenregel
@@ -286,12 +287,17 @@ und Abschottungen» [8].
 
 ## Bauteilkatalog — Holzbauteile (Kapitel 4, S. 18–57)
 
-Allgemeine Rahmenbedingungen aller Katalogtabellen in Kap. 4 (S. 18–21, sofern nicht
-anders vermerkt): Balken-/Rippen-/Ständerabstand (Achsmass) max. 700 mm; maximale
-Nutzlast gemäss SIA 261 «Einwirkungen auf Tragwerke» [12], Gebäudenutzung Kat. B,
-qk = 3,0 kN/m² (Decken); Wandhöhe max. 3 m; Wandtraglasten je nach Feuerwiderstandsklasse
-(30 Min. q'd = 20 kN/m', 60 Min. q'd = 50 kN/m', beidseitig beplankt teils bis 70 kN/m').
-Für Tabellen der Kap. 4/5 gelten die Ausführungsbestimmungen des Kap. 3.
+Allgemeine Rahmenbedingungen, im Original jeweils im Voraussetzungs-Kasten der
+Einzeltabelle (Decken ab S. 22, Wände ab S. 39): Balken-/Rippen-/Ständerabstand
+(Achsmass) max. 700 mm; maximale Nutzlast gemäss SIA 261 «Einwirkungen auf Tragwerke»
+[12], Gebäudenutzung Kat. B, qk = 3,0 kN/m² (Decken); Wandhöhe max. 3 m (massgebend für
+die Tragfähigkeit der Ständer); Wandtraglast je Systemtyp, nicht je
+Feuerwiderstandsklasse: beidseitig beplankte Ständerkonstruktionen q'd,fi = 20 kN/m'
+(30 Min., Tab. 442-1/442-3) bzw. 50 kN/m' (60 und 90 Min., Tab. 442-2/442-4/442-5);
+Blockbauwände durchgehend 20 kN/m' (Tab. 445-1/445-2); Wände aus mehrlagigen
+Massivholzplatten durchgehend 50 kN/m' (Tab. 446-1/2/3); Brettstapelwände 70 kN/m'
+(Tab. 444-1, S. 48). Für Tabellen der Kap. 4/5 gelten die Ausführungsbestimmungen des
+Kap. 3.
 
 Alternativ zu den Katalogtabellen kann der Feuerwiderstand rechnerisch nachgewiesen
 werden (Nachweisart c, Kap. 2.2). Weitere, insbesondere produktbezogene Deckensysteme:
@@ -299,26 +305,36 @@ Anhänge werkstoffoptimierter Bauteile (Kap. 9).
 
 ### 4.2 Bauteile mit Mindestkantenabmessung (S. 19–20)
 
-Konzept: eine nach den Regeln der Holzbaukunde erstellte Holztragkonstruktion mit
-minimalen Kantenabmessungen von 100 mm (bzw. Verbundquerschnitten mit Einzelabmessungen
-≤ 40 mm) weist praxiserfahrungsgemäss einen «gutmütigen» Feuerwiderstand von rund
-12–15 Minuten auf, vergleichbar mit nicht brandschutzbemessenen Stahlkonstruktionen
-(zwischen «keine Anforderung» und Feuerwiderstandsklasse R30 einzuordnen). Sie übernehmen
-tragende, aber keine brandabschnittsbildende Funktion; keine Bemessung für die
-aussergewöhnliche Einwirkung Brand erforderlich, keine Anforderungen an Verbindungen und
-Anschlüsse. Abb. 420-1 (S. 19): Träger-Einzelquerschnitt b,h ≥ 100 mm; Balkenlage mit
+Konzept: Eine nach den Regeln der Baukunde erstellte Holztragkonstruktion ohne
+brandschutztechnische Bemessung und Massnahmen («keine Anforderung») weist
+praxiserfahrungsgemäss einen nicht genau definierten Feuerwiderstand von etwa
+12–15 Minuten auf und ist damit mit nicht brennbaren Stahlkonstruktionen ohne
+Brandschutzmassnahmen vergleichbar. Bei Holzkonstruktionen mit minimalen
+Kantenabmessungen von 100 mm oder bei ausreichend dimensionierten Verbundquerschnitten
+kann von einem höheren Feuerwiderstand ausgegangen werden; bezüglich Feuerwiderstand
+liegen Bauteile mit Mindestkantenabmessung damit zwischen «keine Anforderung» und der
+Feuerwiderstandsklasse R30 (S. 19). Ausdrücklich abgegrenzt wird gegenüber Tragwerken,
+deren Konstruktionsteile Abmessungen von lediglich 40 mm oder weniger aufweisen (S. 19).
+Sie übernehmen tragende, aber keine brandabschnittsbildende Funktion; keine Bemessung für
+die aussergewöhnliche Einwirkung Brand erforderlich, keine Anforderungen an Verbindungen
+und Anschlüsse. Abb. 420-1 (S. 19): Träger-Einzelquerschnitt b,h ≥ 100 mm; Balkenlage mit
 Bodenbelag Träger b,h ≥ 100 mm, Tragschicht d ≥ 20 mm; Rippendecke mit statisch wirksamem
 Verbund Rippe b ≥ 80 mm h ≥ 100 mm, Tragschicht d ≥ 20 mm; Hohlkastendecke Rippe b ≥ 60 mm
-h ≥ 100 mm, Beplankungen d ≥ 20 mm; Massivholzdecke/Deckensystem mit Hohlräumen d ≥ 20 mm.
-Abb. 422-2 (S. 20): Stützen/Wände mit Mindestkantenabmessung, u. a. Wandkonstruktion
+h ≥ 100 mm, Beplankungen d ≥ 20 mm; Massivholzdecke: h der Bemessung bei
+Normaltemperatur entsprechend (keine Mindestdicke d gefordert); Deckensystem mit
+Hohlräumen (Decklagen mit Stegteilen verleimt): h der Bemessung bei Normaltemperatur
+entsprechend, d ≥ 20 mm.
+Abb. 420-2 (S. 20): Stützen/Wände mit Mindestkantenabmessung, u. a. Wandkonstruktion
 einseitig beplankt b ≥ 80 mm h ≥ 100 mm d ≥ 15 mm, beidseitig beplankt b ≥ 60 mm h ≥ 100 mm
 d ≥ 10 mm, ein-/mehrschichtiges Wandsystem aus Massivholz/Holzwerkstoffen d ≥ 70 mm,
-Wandsystem mit Hohlräumen (Deckung mit Stegteilen verleimt) d ≥ 15 mm h ≥ 50 mm.
+Wandsystem mit Hohlräumen (Deckung mit Stegteilen verleimt) d ≥ 15 mm h ≥ 50 mm. Fussnote
+1: Wände mit einer Breite ≤ 500 mm müssen als Stützen betrachtet werden; b und h ≥ 100 mm.
 
 ### 4.3 Decken mit Feuerwiderstandsdauer 30/60/90 Minuten (Übersicht Abb. 430-1, S. 21)
 
-Sieben Systemtypen; je System eine oder mehrere Katalogtabellen mit Varianten A–M
-(unterschiedliche Materialkombinationen bei gleicher Feuerwiderstandsklasse):
+Sieben Systemtypen, hier nach Unterkapiteln aufgeschlüsselt; je System eine oder
+mehrere Katalogtabellen mit Varianten A–M (unterschiedliche Materialkombinationen bei
+gleicher Feuerwiderstandsklasse):
 
 | System | Kapitel/Seite | Tabellen (Kennung/Klasse) |
 |---|---|---|
@@ -345,8 +361,11 @@ Tabelle regeln u. a. Mindest-Rohdichten (Mineralwolle ≥ 26 bzw. 50 kg/m³, Sch
 Repräsentative Grössenordnungen (keine vollständige Wiedergabe der Varianten-Matrix —
 siehe «Offene Punkte»):
 - Balkendecken REI30 (mit wirksamem Unterbau, Tab. 431-2, S. 23): Balkenquerschnitte
-  b×h von 60×100 bis 100×220 mm (bzw. 120×140 mm), Hohlraumdämmung Mineralwolle bis
-  120 mm, untere Beplankung/Deckenbekleidung je nach Variante 12–20 mm.
+  b×h von 60×100 bis 100×220 mm, im Einzelfall 60×230 mm (Variante D), Alternativen
+  u. a. 120×140 / 80×120 / 80×100 mm; Hohlraumdämmung Mineralwolle 100–120 mm, untere
+  Beplankung je nach Variante und Material 9,5–20 mm (Gipsplatte 9,5/12,5 mm,
+  Gipsfaserplatte 10/12,5 mm, Massivholzplatte/OSB 15–20 mm); eine separate Zeile
+  «Deckenbekleidung» führt erst Tab. 431-3/431-4.
 - Balkendecken REI90 (Tab. 431-4, S. 25): Balken bis 120×250/140×200/160×180 mm bzw.
   schlanker 100×210/120×200 bzw. 60×240/60×180 mm mit dickerer Hohlraumdämmung
   (180–240 mm) und z. T. Brandschutzplatte BSP60 in der unteren Beplankung/
@@ -375,7 +394,7 @@ siehe «Offene Punkte»):
 
 ### 4.4 Wände mit Feuerwiderstandsdauer 30/60/90 Minuten (Übersicht Abb. 440-1, S. 38)
 
-Sieben Systemtypen:
+Sieben Systemtypen, hier nach Unterkapiteln aufgeschlüsselt:
 
 | System | Kapitel/Seite | Tabellen |
 |---|---|---|
@@ -387,39 +406,48 @@ Sieben Systemtypen:
 | Brettstapelwände | 4.4.4, S. 48 | Tab. 444-1 (30/60 Min.) |
 | Blockbauwände | 4.4.5, S. 49 f. | Tab. 445-1 (30 Min.), 445-2 (60 Min.) |
 | Wände aus mehrlagigen Massivholzplatten | 4.4.6, S. 51–53 | Tab. 446-1 (30 Min.), 446-2 (60 Min.), 446-3 (90 Min.) |
-| Wände aus Holzwerkstoffplatten | 4.4.7, S. 54 | Tab. 447-1 (EI30/EI60, via Brandschutzplatten) |
+| Wände aus Holzwerkstoffplatten | 4.4.7, S. 54 | Tab. 447-1 (EI30/EI60; Varianten mit oder ohne Brandschutzplatte) |
 
 Aufbau-Logik je Tabelle («1 Beplankung 1», «2 Beplankung 2», «3 Ständer/Tragkonstruktion»,
-«4 Hohlraumdämmung» — je Systemtyp): analog zu Kap. 4.3, mit denselben Materialgruppen.
-Fussnoten regeln u. a., dass die Bauteile bei asymmetrischem Aufbau nicht symmetrisch
-sein müssen (z. B. eine Seite einfach, die andere doppelt beplankt), Bemessung für ein-/
-zwei-/dreiseitigen Abbrand und Knicken um beide Achsen (Verweis Kap. 4.5.2.2).
+«4 Hohlraumdämmung», in Tab. 441-2/441-3 «Dämmung» genannt — je Systemtyp): analog zu
+Kap. 4.3, mit denselben Materialgruppen. Fussnoten regeln u. a., dass die Bauteile in
+ihrem Aufbau nicht symmetrisch sein müssen (Schichten 1 und 2 dürfen innerhalb einer
+Variante kombiniert werden, z. B. eine Seite einfach, die andere doppelt beplankt), die
+Bemessung für ein-, zwei-, drei- oder vierseitigen Abbrand nach Kap. 4.5.2.2 sowie die
+Knickannahme (Knicken um beide Achsen bzw. Ständer gegen Knicken in der Wandebene
+gesichert).
 
 Repräsentative Grössenordnungen (keine vollständige Wiedergabe der Varianten-Matrix):
 - Einseitig beplankte Ständer ohne Dämmung R30 (Tab. 441-1, S. 39): Ständer
-  120×120 bis 220×80 mm (Traglast q'd = 20 kN/m'); R60: Ständer 180×190/200×140 mm
-  (Traglast q'd = 50 kN/m'). Korrektur 260727: die Erstfassung nannte für R60 „140×100
+  120×120 bis 220×80 mm (Traglast q'd,fi = 20 kN/m'); R60: Ständer 180×190/200×140 mm
+  (Traglast q'd,fi = 50 kN/m'). Korrektur 260727: die Erstfassung nannte für R60 „140×100
   bis 170×170/190×140mm" — das sind tatsaechlich die EI60- resp. REI60-Werte derselben
   Tabelle; der eigentliche R60-Wert (Spalten E/F) ist 180×190/200×140mm.
-- Beidseitig beplankte Ständer mit Dämmung R90 (Tab. 442-5, S. 46): Ständer
-  80×215 bis 40×180 mm, Hohlraumdämmung 120–180 mm.
+- Beidseitig beplankte Ständer mit Dämmung, 90 Minuten (Tab. 442-5, S. 46): tragende
+  R90-Ständer 80×200 bis 350×160 mm, nicht tragende EI90-Ständer 40×180/40×140 mm,
+  REI90-Ständer 60×155 bis 120×120 mm; Hohlraumdämmung Mineralwolle 120–180 mm.
 - Fachwerkwände/Riegelwände R30/EI30/REI30 (Tab. 443-1, S. 47): Riegelkonstruktion
   120×120 mm (R) bzw. 100×100 mm (EI/REI); Ausfachung Mauerwerk oder
   Holzwolle-Leichtbauplatten (SN EN 13168) vollständig ausgefüllt.
-- Brettstapelwände (Tab. 444-1, S. 48): Wandhöhe max. 3 m, Traglast q'd = 70 kN/m';
+- Brettstapelwände (Tab. 444-1, S. 48): Wandhöhe max. 3 m, Traglast q'd,fi = 70 kN/m';
   Brettstapeldicke 60–100 mm je nach Klasse.
-- Blockbauwände (Tab. 445-1/445-2, S. 49 f.): Traglast q'd = 20 kN/m'; aussteifende
-  Zwischenwände max. 6 m Abstand; Balken horizontal, Fugen ≤ 2 mm; Dicke R30 50–100 mm,
-  R60 90–160 mm.
-- Wände aus mehrlagigen Massivholzplatten (Tab. 446-1/2/3, S. 51–53): Decklagen
-  vertikal (im Unterschied zu Decken: dort parallel zur Tragrichtung); Dicke R30
-  60–115 mm, R60 70–155 mm, R90 60–205 mm; Traglast q'd = 50 kN/m' (Korrektur 260727:
-  R30/R60-Untergrenzen der Erstfassung, 50mm bzw. 75mm, waren gegenüber der Bild-
-  Neulektüre der Tab. 446-1/446-2 leicht zu niedrig bzw. zu hoch angesetzt; R90 60–205mm
-  bestätigt).
-- Wände aus Holzwerkstoffplatten (Tab. 447-1, S. 54): Tragkonstruktion (Span-/Faser-/
-  OSB-Platte) 80 mm (EI30) bzw. 140 mm (EI60), kombiniert mit Brandschutzplatte BSP30
-  bzw. BSP60.
+- Blockbauwände (Tab. 445-1/445-2, S. 49 f.): Traglast q'd,fi = 20 kN/m'; aussteifende
+  Zwischenwände max. 6 m Abstand; Balken horizontal, Fugen ≤ 2 mm; Dicke im
+  30-Minuten-Bauteil 50–100 mm (R30 selbst 80–100 mm, Tab. 445-1), im 60-Minuten-Bauteil
+  90–160 mm (R60 selbst 120–160 mm, Tab. 445-2).
+- Wände aus mehrlagigen Massivholzplatten (Tab. 446-1/2/3, S. 51–53): bei EI- und
+  REI-Bauteilen Decklagen vertikal (bei Decken dagegen parallel zur Tragrichtung, vgl.
+  Tab. 536-1, S. 70); Lagendicke 20–40 mm, keine Doppellagen, Längsfugen der Decklagen
+  verleimt, Bretterabstand in Innenlagen ≤ 6 mm. Plattendicke über die ganze Tabelle:
+  30-Min.-Bauteile 50–115 mm (Tab. 446-1), 60-Min.-Bauteile 70–155 mm (Tab. 446-2),
+  90-Min.-Bauteile 60–205 mm (Tab. 446-3); auf die tragenden R-Spalten allein bezogen
+  80–110 mm (R30), 110–155 mm (R60), 155–205 mm (R90). Traglast q'd,fi = 50 kN/m'.
+- Wände aus Holzwerkstoffplatten (Tab. 447-1, S. 54): EI30 entweder Tragkonstruktion
+  Span-/Faser-/OSB-Platte 80 mm ohne Brandschutzplatte oder beidseitig BSP30 (Platte dann
+  nur für Normaltemperatur bemessen); EI60 entweder 140 mm ohne Brandschutzplatte, oder
+  80 mm + beidseitig BSP30, oder beidseitig BSP60 (Platte für Normaltemperatur bemessen).
+  Bei Fugenbreite > 5 mm zwischen den Elementen sind nur die BSP-Varianten oder ein
+  rechnerischer Nachweis nach Kap. 2.2 c) zulässig (S. 54).
 
 ### 4.5 Abbrandbemessung von Holzbauteilen (S. 55)
 
@@ -445,6 +473,8 @@ Repräsentative Grössenordnungen (keine vollständige Wiedergabe der Varianten-
 
 ### 4.6 Brandschutzplatten (S. 56 f.)
 
+- Tab. 462-1 (S. 56, Übersicht): Ftt (F30/F60/F90, Registergruppe 231), BSPtt (30 und
+  60 Min.), Ktt (K30/K60, Registergruppe 230).
 - Brandschutzplatten (BSP) schützen Bauteile für eine bestimmte Dauer vor der
   Brandeinwirkung und können die tragende und/oder brandabschnittsbildende Funktion
   verbessern. Anzuordnen allseitig bei linearen Elementen, beidseitig bei flächigen
@@ -455,14 +485,20 @@ Repräsentative Grössenordnungen (keine vollständige Wiedergabe der Varianten-
 - Beim Einsatz als Bodenaufbauten müssen Brandschutzplatten auf einer vollflächigen,
   tragfähigen Unterlage aufgelegt sein (verlieren nach der Brandeinwirkung ihre tragende
   Funktion).
-- Tab. 462-2 «Brandschutzplatten (BSP)» (S. 57): vier Varianten BSP30, BSP30-RF1, BSP60,
-  BSP60-RF1, je mit «Schicht 1» und «Schicht 2» aus verschiedenen Materialkombinationen
-  (Massivholzplatte, Span-/Faserplatte, OSB/Furnierwerkstoffe, zementgebundene Spanplatte,
-  Gipsplatte, Gipsfaser-/Gipsplatte, Gips-Wandbauplatte, Estrich, Kalziumsilikatfaser-
-  zementplatte, Blähglimmerplatten, Leichtbeton/Porenbeton/Gasbeton/Bähton, diverse
-  Verputze). Beispielwerte: BSP30 z. B. Gipsplatte 9,5 mm (einschichtig) oder Massivholz-
-  platte 26 mm (zweischichtig); BSP60 z. B. Massivholzplatte 40 mm + 48 mm oder Gipsplatte
-  18 mm + 18 mm.
+- Tab. 462-2 «Brandschutzplatten (BSP)» (S. 57): vier BSP-Typen (BSP30, BSP30-RF1,
+  BSP60, BSP60-RF1) mit insgesamt sieben Varianten A–G. Schicht 1 ist auf Massivholzplatte,
+  Span-/Faserplatte, OSB/Furnierwerkstoffe, Gipsplatte und Gipsfaser-/Gipsplatte Typ F
+  beschränkt; Schicht 2 zusätzlich zementgebundene Spanplatte (Rohdichte ≥ 1'200 kg/m³,
+  Zementgehalt ≥ 75 %), Gips-Wandbauplatte, Estrich, Kalziumsilikatfaserzementplatte
+  (Rohdichte ≥ 450 kg/m³), Blähglimmerplatten (Rohdichte ≥ 700 kg/m³),
+  Leichtbeton/Porenbeton/Gasbeton/Blähton sowie Verputze (Kalk-/Zement-/Gipsmörtel,
+  Mineralfaser-/Spritzputz, Perlite-/Vermiculitemörtel). Die Schichtreihenfolge darf
+  umgekehrt werden (Fussnote 1); der Estrich bei BSP30-RF1 gilt nur für Baustoffe der
+  Brandverhaltensgruppe RF1 (Fussnote 2). Beispielwerte: BSP30 einschichtig (Variante A)
+  z. B. Massivholzplatte 26 mm oder Gipsplatte 18 mm; BSP30 zweischichtig (Variante B)
+  z. B. Gipsplatte 9,5 + 12,5 mm oder Massivholzplatte 15 + 19 mm. BSP60 einschichtig
+  (Variante D) z. B. Massivholzplatte 48 mm oder Gipsplatte 18 + 18 mm; BSP60
+  zweischichtig (Variante E) Massivholzplatte 40 + 35 mm, (Variante F) 35 + 35 mm.
 
 ## Bauteilkatalog — Bauteile RF1 (Kapitel 5, S. 58–76)
 
@@ -471,7 +507,7 @@ Repräsentative Grössenordnungen (keine vollständige Wiedergabe der Varianten-
 - Bauteile RF1 umfassen homogene oder mehrschichtige Konstruktionen aus Baustoffen der
   RF1 sowie mehrschichtige, feuerwiderstandsfähige Konstruktionen mit brennbaren
   Anteilen, wenn das Bauteil allseitig mit Baustoffen der RF1 bekleidet ist. Anwendung
-  beschränkt auf REI30-RF1, REI60-RF1, REI90-RF1 (Tab. 510-1, S. 58): Mindestanforderung
+  beschränkt auf REI30-RF1, REI60-RF1, REI90-RF1 (Abb. 510-1, S. 58): Mindestanforderung
   an die Brandschutzbekleidung K30-RF1 (30/60 Min.) bzw. K60-RF1 (90 Min.).
 - **5.2.2 Brandschutzbekleidung mit Baustoffen der RF1** (S. 59): VKF-anerkannte
   Bekleidungen K gemäss Schweizerischem Brandschutzregister, Registergruppe 230,
@@ -483,22 +519,28 @@ Repräsentative Grössenordnungen (keine vollständige Wiedergabe der Varianten-
 - **5.2.3 Anschlüsse brandabschnittsbildender Bauteile RF1** (S. 60 f.): Anschluss
   Holzbauteil an Bauteil RF1 — Brandschutzbekleidung durchgehend ohne Unterbruch;
   Anschluss zweier Bauteile RF1 — feuerwiderstandsfähige Fugenausbildung wenn beide
-  Bauteile umlaufend durch Brandschutzbekleidungen abgeschlossen sind; Durchdringungen
-  mit Verbindungsmitteln (Schraube/Nagel Durchmesser ≤ 10 mm) sind für Wandanschlüsse,
-  Deckenauflager, Krafteinleitungen usw. erlaubt, Durchmesser > 10 mm sind
-  feuerwiderstandsfähig abzudecken.
+  Bauteile umlaufend durch Brandschutzbekleidungen abgeschlossen sind; lokale, punktuelle
+  Durchdringungen der Brandschutzbekleidung mit Nägeln oder Schrauben (maximaler
+  Schaftdurchmesser 10 mm) sind für Wandanschlüsse, Deckenauflager, Krafteinleitungen usw.
+  erlaubt (Abb. 523-2, Bild 1). Durchgehende Verbindungsmittel durch das Bauteil RF1 sowie
+  Verbindungsmittel mit Durchmesser > 10 mm sind feuerwiderstandsfähig abzudecken; die
+  Abdeckung muss mindestens die Feuerwiderstandsdauer der Brandschutzbekleidung erreichen
+  (S. 61).
 - **5.2.4 Bauteildurchbrüche** (S. 62): Bauteilleibungen bei Durchbrüchen für Fenster/
   Türen/Leitungsdurchführungen mit Brandschutzbekleidung Ktt-RF1 auszukleiden (gleiche
-  Feuerwiderstandsdauer wie in der Bauteilfläche); umlaufendes Füllholz Breite ≥ 40 mm,
-  Verbindungsmittelabstand max. 100 mm.
+  Feuerwiderstandsdauer wie in der Bauteilfläche). Bei Konstruktionen aus zusammengesetzten
+  Querschnitten (beplankte Wände, Balken-, Kasten-, Rippendecken) sind die Durchbrüche
+  zusätzlich mit umlaufenden Füllhölzern von mindestens 40 mm Breite zu umrahmen;
+  Befestigung gemäss Herstellervorgaben, Verbindungsmittelabstand max. 100 mm,
+  Zwischen- und Randabstände des Herstellers beachten.
 - **5.2.5 Haustechnische Installationen** (S. 63): grundsätzlich ausserhalb der
   brandschutztechnisch wirksamen Bauteilquerschnitte zu führen; sind Installationen in
   dieser Ebene erforderlich, ist die Brandschutzbekleidung dahinter durchzuführen und der
   Feuerwiderstand des verbleibenden Restquerschnitts zu gewährleisten. Bauteile RF1 sind
-  nicht dauerwärmebeständig — Sicherheitsabstände zu Feuerungs-/Abgasanlagen ab
-  Aussenkante der Brandschutzbekleidung einhalten.
+  nicht ohne weiteres dauerwärmebeständig: Sicherheitsabstände zu Feuerungs-/Abgasanlagen
+  ab Aussenkante der Brandschutzbekleidung einhalten.
 
-### 5.3 Decken RF1 mit Feuerwiderstandsdauer 30/60/90 Minuten (Übersicht Tab. 530-1, S. 64)
+### 5.3 Decken RF1 mit Feuerwiderstandsdauer 30/60/90 Minuten (Übersicht Abb. 530-1, S. 64)
 
 | System | Seite | Tabelle |
 |---|---|---|
@@ -517,7 +559,7 @@ durch die Brandschutzbekleidung geschützt. Bei Holz-Beton-Verbunddecken RF1 (Ta
 537-1/537-2, S. 71 f.) entspricht die Betonplatten-Dimensionierung derjenigen der
 gewöhnlichen Holz-Beton-Verbunddecken (Kap. 4.3.7).
 
-### 5.4 Wände RF1 mit Feuerwiderstandsdauer 30/60/90 Minuten (Übersicht Tab. 540-1, S. 73)
+### 5.4 Wände RF1 mit Feuerwiderstandsdauer 30/60/90 Minuten (Übersicht Abb. 540-1, S. 73)
 
 | System | Seite | Tabelle |
 |---|---|---|
@@ -525,9 +567,12 @@ gewöhnlichen Holz-Beton-Verbunddecken (Kap. 4.3.7).
 | Wände RF1 aus mehrlagigen Massivholzplatten | S. 76 | Tab. 542-1 |
 
 Aufbau analog zu Kap. 4.4, mit Brandschutzbekleidung K30-RF1/K60-RF1 als äusserer
-Schicht anstelle freier Beplankungswahl. Beispiel Ständerkonstruktion R90-RF1
-(Tab. 541-2, S. 75): Ständer 100×180 bis 40×120 mm, Hohlraumdämmung Mineralwolle
-90–140 mm (Schmelzpunkt < 1'000 °C bzw. ≥ 1'000 °C je nach Variante).
+Schicht anstelle freier Beplankungswahl. Beispiel Ständerkonstruktionen RF1, 90 Minuten
+(Tab. 541-2, S. 75): tragende R90-RF1-Ständer 100×180 bis 250×140 mm, nicht tragende
+EI90-RF1-Ständer 40×120/110×80/40×95 mm, REI90-RF1-Ständer 100×140 bis 160×120 mm;
+Brandschutzbekleidung durchgehend K60-RF1; Hohlraumdämmung Mineralwolle 90–140 mm
+(Rohdichte ≥ 26 kg/m³, Schmelzpunkt ≥ 1'000 °C; alternativ Mineralwolle mit SP
+< 1'000 °C und Rohdichte ≥ 15 kg/m³ bei einzelnen Varianten).
 
 ## Begriffe (Kapitel 6–7, S. 77)
 
@@ -689,3 +734,19 @@ ETH Zürich.
   im Projektpartner-Verzeichnis. Keine Befunde in den qualitativen/strukturellen Aussagen
   (Definitionen, Verfahren, Systemzuordnungen) — die Fehler betreffen ausschliesslich
   Einzelzahlen in den als «nicht zellengenau» deklarierten Kurzfassungen der Katalogtabellen.
+
+## Verifikationsstand
+
+- **27.07.2026, Run 31**: Zweite unabhängige Refuter-Prüfung, zwei scope-getrennte Agenten
+  (Teil A/B = gedruckte S. 2–41, Teil C = gedruckte S. 42–80). Beide BEANSTANDET, total
+  26 Befunde (12 aus Teil A/B, 14 aus Teil C) — alle im Destillat eingearbeitet.
+- **Methodik-Befund**: «In Teil A/B haben alle sechs Erstrunden-Korrekturen vom
+  27.07.2026 der zweiten Prüfung standgehalten (0 Befunde); die neuen Fehler lagen
+  ausschliesslich in den bis dahin unangetasteten Passagen. In Teil C dagegen erwies
+  sich eine Erstrunden-Korrektur als Regression (Tab. 446-1). Das seit Run 23/24
+  dokumentierte Muster «frisch nachgetragener Text ist die höchste Fehlerquelle» gilt
+  damit nicht pauschal, sondern beschreibt ein Risiko, das je Textabschnitt
+  unterschiedlich eintritt.»
+- **Seitenzuordnung Teil C**: PDF-Seite n = gedruckte Doppelseite (40+2n)/(41+2n).
+- **Nicht lesbarer Rest**: Tab. 447-1 (S. 54) — Bezeichnung der letzten Variantenspalte
+  im Scan nicht eindeutig.

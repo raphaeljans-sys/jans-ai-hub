@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 27.07.2026 13:40:07
+Stand: 27.07.2026 13:50:13
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 13:40)
@@ -12,4 +12,4 @@ Stand: 27.07.2026 13:40:07
 - 9 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 27f7a17d grobkosten-training Run 20: Taktungsfehler behoben (grobkosten in vollgas-runner EXCLUDE_RE ergaenzt, laeuft ab jetzt nur ueber eigenen Scheduled Task statt Endlos-Zyklus), neunter Saettigungsbeleg ohne Register-Duplikation
+- 63460516 normen: VKF-AH 1001-15 Wohnbauten — Fassungs-Delta 2017/2018 eingearbeitet, '0-Abweichungen'-Befund widerlegt, Status auf speculative

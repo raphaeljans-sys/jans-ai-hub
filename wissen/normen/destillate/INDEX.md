@@ -123,7 +123,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vkf-brl-11-15-qualitaetssicherung-brandschutz.md` | VKF-BRL 11-15 Qualitätssicherung im Brandschutz | 2015 | established (verifiziert) 260714 |
 | `vkf-brl-12-15-brandverhuetung-organisatorischer-brandschutz.md` | VKF-BRL 12-15 Brandverhütung und organisatorischer Brandschutz | 2015 | established (verifiziert) 260714 |
 | `vkf-brl-13-15-baustoffe-bauteile.md` | VKF-BRL 13-15 Baustoffe und Bauteile | 2015 (Delta-Nachtrag Fassung 2017) | established (inkl. Delta-Abschnitt Fassung 2017, Run 23 260725 adversarial BESTANDEN, 0 Befunde) |
-| `vkf-brl-15-15-brandschutzabstaende-tragwerke.md` | VKF-BRL 15-15 Brandschutzabstände Tragwerke (deckt Ausgabe 2015 + Revision 2016 ab) | 2015, rev. 2016 | established (verifiziert) 260714 |
+| `vkf-brl-15-15-brandschutzabstaende-tragwerke.md` | VKF-BRL 15-15 Brandschutzabstände Tragwerke (deckt beide Druckausgaben ab) | Titelblatt 01.01.2015 und 01.01.2017 (revidiert per IOTH-Beschluss 22.09.2016) | established (verifiziert) 260714; Fassungsangabe im INDEX 260727 Run 31 präzisiert — die 2017er-Druckausgabe ist massgebend |
 | `vkf-brl-17-15-kennzeichnung-fluchtwege.md` | VKF-BRL 17-15 Kennzeichnung von Fluchtwegen | 2015 | established (verifiziert 260713) |
 | `vkf-brl-18-15-loescheinrichtungen.md` | VKF-BRL 18-15 Löscheinrichtungen | 2015 | established (verifiziert) 260714 |
 | `vkf-brl-19-15-sprinkleranlagen.md` | VKF-BRL 19-15 Sprinkleranlagen | 2015 | established (verifiziert) 260714 |
@@ -141,6 +141,9 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vkf-bsv2015-vernehmlassungsbericht.md` | VKF Erläuternder Bericht für die Vernehmlassung BSV 2015 (gleiche Quelle wie oben, Fokus prüfen) | Vernehmlassung 01.11.2013 | established (verifiziert 260713) |
 | `vkf-brandschutznorm-1-15de-bspub57.md` | VKF-Brandschutznorm 1-15 (BSPUB-Fassung) | 2015 | established |
 | `vkf-merkblatt-brandschutzklassifikation-bauteile.md` | Merkblatt Brandschutz-Klassifikation häufig verwendeter Bauteile (Quelle: „Brandschutz-Praevention.pdf" — Dateiname/Inhalt-Mismatch, Rename offen) | V.1, erstellt 11.12.2014 (PDF-Metadaten), Auszug BSV 2015 | established (verifiziert 260713) |
+| `vkf-allgemein-anerkannte-bauprodukte-2017.md` | VKF «Allgemein anerkannte Bauprodukte» — Freistellungsliste (ohne Prüfnachweis/VKF-Anerkennung verwendbar) | Version 12.0, TK Brandschutz 31.03.2017 | speculative (destilliert + Selbst-Gegenprobe 260727 Run 31, 5 Fehler korrigiert; unabhängige Verifikation ausstehend) |
+| `brandschutzfachstellen-anleitung-brandschutznachweis-v3.md` | Arbeitshilfe «Anleitung Brandschutznachweis» der Brandschutzfachstellen Zentralschweiz (Pflichtinhalte Textteil + Brandschutzplan) | V.3, Bezug BSV 2015 / BSR 11-15 | emerging (destilliert 260727 Run 31, regionale Arbeitshilfe ohne eigenständige Rechtsverbindlichkeit) |
+| `brandschutzplan-legende-symbole-2017.md` | Legendenblatt Brandschutzplan — Symbol- und Farbsystematik (Grund- und Ergänzungssymbole) | Blattdatum 16.12.2016, Geltung ab 01.01.2017 | speculative (destilliert 260727 Run 31; Herausgeber auf dem Blatt nicht ausgewiesen, amtlicher Status unbestätigt bis VKF-Merkblatt 2003-15 vorliegt) |
 | `vst-merkblatt-012-tueren-fluchtwegen.md` | VST Technisches Merkblatt Nr. 012 Türen in Fluchtwegen | Erstausgabe 2009 | established (verifiziert 260713) |
 | `szs-steeldoc-brandschutz-stahlbau-2015.md` | SZS steeldoc 03/15 Brandschutz im Stahlbau | 2015 (Erstausgabe 2006) | established (verifiziert 260713) |
 | `en-179-1125-2009-panikbeschlaege-gege.md` | EN 179/1125 Panikbeschläge (gege-Kurzfassung) | 2009 | established (verifiziert 260713) |

@@ -1,9 +1,9 @@
 ---
 title: Haltung & Werte
 status: established
-last_updated: 2026-07-25
+last_updated: 2026-07-27
 gewichtung: authentisch
-sources: [260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -666,3 +666,16 @@ Gewichtung: authentisch (handgetippte Rahmen). Quelle: 2619 KISPI (Zahlungseskal
   Haltung «Verfahrensrechte/Ordnung durchsetzen ohne Tonhebung» (Batch 64) — hier nicht gegenüber einer
   Behörde, sondern gegenüber der eigenen wichtigsten Bauherrschaft: Sorgfalt in eigener Sache gilt
   unabhängig von der Grösse/Wichtigkeit des Kunden.
+
+## Batch 72 (2026-07-27) — harte Streichungsbitte emotional gerahmt, aber ungeschwächt
+
+Gewichtung: authentisch (handgetippt). Quelle: KISPI PPTS Küchenbau LOS_273.35 (Preisrüge an
+Schreiner/Unternehmer Lanz, Sie), 27.07.2026.
+
+- **Die härteste Bitte in der Mail (eine ganze Position ersatzlos streichen) wird emotional weich
+  gerahmt, aber nicht inhaltlich zurückgenommen:** «**Schweren Herzens** bitte ich Sie die
+  Hochschränke aus dem Angebot zu streichen.» Die Formulierung erkennt den Verlust für den
+  Unternehmer an (Auftragsvolumen sinkt), ändert aber nichts am Entscheid — bestätigt und schärft die
+  bereits belegte Linie «Preis-Rüge direkt aber gerahmt» (Batch 64): hier erstmals mit einer
+  ausdrücklich emotionalen statt nur höflichen Rahmung, im Sie-Register gegenüber einem Unternehmer
+  (nicht dem vertrauten Du-Kontext von Batch 64).

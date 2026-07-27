@@ -4,6 +4,18 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-27e — `twin-mail-training` (Batch 72, 27.07. 09:14–11:00 Uhr).** Frischer M365-Pull
+  ab dem Batch-71-Endpunkt, Fenster luecklos bis 11:00 Uhr abgedeckt (Gegenprobe 0 Treffer). Ein
+  relevanter Treffer: Preisrüge Küchenbau LOS_273.35 (KISPI PPTS) an Schreiner/Unternehmer Stephan
+  Lanz (Sie), cc Betreiber-Team Spahic/Spörri/Würsch — vollstaendig durchgerechnete Positions-
+  Preisrüge (Positionswechsel→Differenz→Fehlbetrag-Abzug→Netto-Differenz→eigene Gegenrechnung mit
+  3 Geraetepreisen→Budgetgrenze an "Ruecksprache mit der Bauherrschaft" delegiert→Streichungsbitte
+  "Schweren Herzens"), klar handgetippt, keine Echo-Falle. Neue Marker in [[fachsignatur]]
+  (Positions-Preisrüge vollstaendig durchgerechnet statt behauptet + delegierte Budgetgrenze),
+  [[stimme]] ("Schweren Herzens"-Softener + inkonsistente Tausender-Apostroph-Notation als
+  Tipp-Tell), [[haltung]] (harte Streichungsbitte emotional gerahmt aber ungeschwaecht, Sie-
+  Pendant zu Batch 64). `raw/_INGESTED.md` Batch-72-Zeile + Sweep-Endpunkt 2026-07-27T11:00:00Z
+  nachgefuehrt.
 - **2026-07-27d — `twin-fidelity-review` dritter Lauf (Gesamt-Fidelity ~78).** Frische Session
   ohne Vorwissen. Bewusst neue, bislang ungenutzte Goldquellen: `mail@raphaeljans.ch` (erstmals
   als Fidelity-Testgold gezogen) + ein frisches rj@-Fenster Januar 2026. Drei Golds: CNCEST-
