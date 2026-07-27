@@ -60,9 +60,41 @@ genügt nicht.
 
 Entscheid liegt bei Raphael; dieser Lauf nimmt ihn nicht vorweg.
 
-## Was der laufende Lauf liefert
+### Nachtrag 00:37 — der Doppel-Takt trifft auf einen längst leerlaufenden Loop
 
-Der Report des Dispatch-Runs erscheint regulär als
-`outputs/2026-07-28_training-run<N>.md`; Register und CHANGELOG führt er selbst nach.
+Der Parallellauf ist um 00:35:28 beendet und hat `outputs/2026-07-28_training-run92.md`
+abgelegt (Rotation Recht/Norm + Brandschutz — genau die Rotation, die dieser Lauf
+ebenfalls genommen hätte; der Rücktritt hat also eine echte Dublette verhindert).
+
+Sein Ergebnis verschärft die Empfehlung oben erheblich: Run 92 meldet die **27.
+Erschöpfungsbestätigung in Folge** (Run 67–92) ohne einen einzigen genuinen inhaltlichen
+Fund über alle vier Domänen. Offen ist einzig D9 (wartet auf ein reales Projekt) plus der
+neue, extern bedingte Blocker C39. Dieselbe Rücktaktungs-Empfehlung steht damit zum
+**dritten** Mal im Register (Run 91, Registrierungs-Nachtrag 27.07., Run 92).
+
+Damit greift Rule 260727 («Leerlauf-Wächter») doppelt:
+
+1. **Delta-Null:** ab 5 Meldungen in Folge ist der Loop zu deaktivieren, mit
+   dokumentierter Reaktivierungsbedingung. Erreicht sind 27 — die Schwelle ist um mehr
+   als das Fünffache überschritten.
+2. **Bring-Schuld:** der einzige verbliebene Sachpunkt D9 wartet auf Material aus einem
+   realen Projekt. Solche Punkte laufen nach derselben Rule ausdrücklich **nie** im
+   Vollgas-Takt, sondern ereignisgetriggert.
+
+Der hier gefundene Doppel-Taktgeber ist das unabhängige vierte Argument: er ist den
+Läufen 91/92 nicht bekannt, weil eine Instanz die andere nicht sieht. Er verdoppelt den
+Aufwand eines Loops, der ohnehin seit 27 Läufen nichts mehr findet.
+
+**Vorschlag als Paket:** Scheduled Task `planungsgrundlagen-training` deaktivieren und den
+Dispatch-Aufruf entfernen; Reaktivierung ereignisgetriggert bei neuer Datei in einem der
+vier PL-Ordner oder sobald D9 durch ein reales Projekt bedienbar wird. Nach Rule 260727
+ist beides erst vollzogen, wenn Registry-Eintrag UND auslösender Script-/Cron-Aufruf
+nachgezogen sind. Umsetzung bleibt Raphaels Entscheid (Rules 260714/260725: nicht
+eigenmächtig), hier nur vorgelegt.
+
+## Was der laufende Lauf geliefert hat
+
+Der Report des Dispatch-Runs liegt als `outputs/2026-07-28_training-run92.md`;
+Register und CHANGELOG hat er selbst nachgeführt.
 Diese Notiz ist bewusst abweichend benannt, damit sie mit keiner Run-Nummer kollidiert.
 Persistierung übernimmt der native `nas-selfcommit` (15-Min-Cron) additiv.
