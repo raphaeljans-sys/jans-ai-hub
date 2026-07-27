@@ -1,5 +1,5 @@
 ---
-title: Fidelity-Review 2026-07-27c
+title: Fidelity-Review 2026-07-27d
 status: final
 last_updated: 2026-07-27
 gewichtung: authentisch
@@ -7,7 +7,7 @@ sources: [rj@raphaeljans.ch Sent Items 2026-01-05/2026-01-09, mail@raphaeljans.c
 links: [[stimme]], [[haltung]], [[fachsignatur]], [[arbeitsweise]], [[beziehungsregister]], [[QUESTIONS]]
 ---
 
-# Fidelity-Review 2026-07-27c (dritter Lauf des Tages)
+# Fidelity-Review 2026-07-27d (dritter Lauf des Tages)
 
 Frische Session ohne Vorwissen (Kontext aus vorherigen Runs nicht mitgenommen). M365-MCP-Tool
 direkt verfügbar (`m365 outlook message ...` via `m365_run_command`). Bewusst NICHT dieselben
@@ -113,7 +113,7 @@ da alle drei Funde Einzelbelege sind — Echo-/Overfitting-Schutz).
 
 ## Empfehlungen
 
-1. QUESTIONS-Runde 260727c anhängen (siehe unten), Fokus auf die drei neuen Einzelbelege.
+1. QUESTIONS-Runde 260727d anhängen (siehe unten), Fokus auf die drei neuen Einzelbelege.
 2. Beim nächsten Review wieder in noch unerprobtes Terrain gehen (z.B. `mail@raphaeljans.ch`
    weiter ausschöpfen — bisher nur 2 von vielen möglichen Golds gezogen) statt denselben
    KISPI-/Baurechts-Fäden zu wiederholen; die Sättigung dort ist bereits sehr hoch (Gesamt-

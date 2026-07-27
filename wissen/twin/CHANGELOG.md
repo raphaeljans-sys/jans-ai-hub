@@ -1,5 +1,25 @@
 # CHANGELOG — KB twin
 
+- **2026-07-27c — `twin-fidelity-review` dritter Lauf (Gesamt-Fidelity ~78).** Frische Session
+  ohne Vorwissen. Bewusst neue, bislang ungenutzte Goldquellen: `mail@raphaeljans.ch` (erstmals
+  als Fidelity-Testgold gezogen) + ein frisches rj@-Fenster Januar 2026. Drei Golds: CNCEST-
+  Konsumentenreklamation (Sie, Vertragsverletzung/Rückabwicklung), Peter-Weisser-Neujahrs-
+  Mehrprojekt-Update (Du, drei parallele Projekte), nackter Sie-Gruss im Transaktions-Nachfass
+  desselben CNCEST-Fadens. Drei Funde: (1) [[fachsignatur]] fünfte rechtliche Einwebung —
+  allgemeines Vertragsrecht/Konsumentenschutz in eigener Sache, plus Spannung zur Service-Satz-
+  Regel (Service-Satz bleibt hier trotz hartem Rechtsbegehren, widerspricht 260719 für Amt/B2B);
+  (2) [[arbeitsweise]] neuer Dekompositions-Fall — Ortsnamen statt Amt/Gegenstand als Block-
+  Header bei einem Mehrprojekt-Update an denselben Kontakt, plus Default-Pfad ohne Rückmeldung
+  auf Projektebene; (3) [[stimme]] zweiter, registerübergreifender Beleg zum nackten Gruss
+  (bisher nur Du bekannt, jetzt auch Sie im ultrakurzen Transaktions-Nachfass) — schärft die
+  offene Frage 260727b #3. Keine Facetten-Widersprüche (nur die bereits bekannte Service-Satz-
+  Spannung erneut angestossen). Keine Do/Don't-Blöcke verändert (alle drei Funde Einzelbelege,
+  Echo-/Overfitting-Schutz). QUESTIONS-Runde 260727d (4 Fragen). `build_dna.py` gelaufen
+  (Auto-Block bereits aktuell, keine Änderung). Report `outputs/2026-07-27d_fidelity.md`.
+  Empfehlung im Report: künftige Reviews sollen weiter unerprobtes Terrain suchen (z.B.
+  `mail@raphaeljans.ch` weiter ausschöpfen) statt die bereits stark gesättigten KISPI-/
+  Baurechts-Fäden zu wiederholen.
+
 Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktion wird
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den

@@ -3,9 +3,9 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
-## Offen — Runde 260727c (twin-fragesteller, aus Fidelity-Review 2026-07-27c)
+## Offen — Runde 260727d (twin-fragesteller, aus Fidelity-Review 2026-07-27d)
 
-Quelle: Drift-Report `outputs/2026-07-27c_fidelity.md` (Gesamt-Fidelity ~78; drei frische Golds aus
+Quelle: Drift-Report `outputs/2026-07-27d_fidelity.md` (Gesamt-Fidelity ~78; drei frische Golds aus
 bislang ungenutzten Quellen — `mail@raphaeljans.ch` und ein frisches Januar-2026-Fenster auf rj@ —
 CNCEST-Konsumentenreklamation Sie, Peter-Weisser-Neujahrs-Mehrprojekt-Update Du, nackter Sie-Gruss
 im Transaktions-Nachfass). Drei neue Einzelbelege, alle mit spürbarer Facetten-Relevanz. Je in 1–2
