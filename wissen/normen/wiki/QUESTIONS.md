@@ -1224,12 +1224,11 @@ sinkender Fehlerzahl je Runde (26→5, 18→3, 17→1, 17→4, 4→4 grob stabil
   `05 Arbeitshilfen Brandschutz 2015`, `03 Verzeichnisse`, `04 Erläuterungen`, `00 Brandschutzplaene
   bsvonline.ch`): **nicht im Bestand**. Bleibt externe Bring-Schuld (VKF-Shop/-Portal). Damit
   bleibt der amtliche Status von `brandschutzplan-legende-symbole-2017.md` unbestätigt.
-- [ ] **Regionale Geltung der beiden neuen Arbeitshilfen** (`brandschutzfachstellen-anleitung-…`,
-  `brandschutzplan-legende-symbole-2017.md`): Herausgeber sind sechs Zentralschweizer
-  Fachstellen (NSV, GVL, Kt. Schwyz/Obwalden/Uri, GVZG Zug). Für ZH-Projekte (JANS-Kerngeschäft)
-  ungeprüft, ob die Gebäudeversicherung Kanton Zürich (GVZ) abweichende formelle Vorgaben zu
-  Brandschutznachweis-Verfahren oder Plansymbolik kennt. Vor Verwendung in einem ZH-Projekt
-  gegenprüfen.
+- [x] 260727 **Regionale Geltung der beiden neuen Arbeitshilfen** — GEKLÄRT Run 33 (Web-Recherche):
+  Symbolik direkt anwendbar für ZH (Stadt Zürich referenziert dasselbe VKF-Merkblatt 2003-15);
+  Verfahren nicht 1:1 übertragbar (Stadt Zürich nutzt eigenes «Zusatzformular 3»); GVZ kantonal
+  ohne eigenes Merkblatt. Details siehe Abschnitt «Regionale Geltung Brandschutznachweis-
+  Arbeitshilfen für ZH (Run 33, recherchiert)» unten.
 - [ ] **Offen aus Run 31, unverändert (Strukturentscheide bei Raphael, nicht vom Loop lösbar):**
   (1) Soll die Reichweite des Inventars auf die ~680 bisher nie gescannten PL-02-Ordner
   ausgeweitet werden (normrelevanter Kern: BfU, GVZ, Suva, SWKI, Suissetec, VSA, PAVIDENSA,
@@ -1237,9 +1236,21 @@ sinkender Fehlerzahl je Runde (26→5, 18→3, 17→1, 17→4, 4→4 grob stabil
   künftig einen sauberen Nulldurchgang statt einer bestandenen Korrekturrunde verlangen? Dieser
   Lauf hat die bestehende Konvention (eine bestandene Runde → established) unverändert
   angewendet, um dem Entscheid nicht vorzugreifen.
-- [ ] **Vierte Runde** für die fünf weiterhin speculativen Destillate ist angesichts der
-  sinkenden, aber nicht auf null gelaufenen Fehlerzahlen (insbesondere `lignum-lignatec-…`
-  mit nur noch 1 Befund) naheliegend — voraussichtlich nächster Batch für diese Vertiefungsstufe.
+- [x] 260727 **Vierte Runde** durchgeführt (Run 33): 1x established (`lignum-4-2-…`), 3x weiterhin
+  speculative mit je 1 Befund (`lignum-lignatec-…`, `sia-d0165-…`, `lignum-4-1-…` [Regression der
+  dritten Runde]). Fünfte Runde für die drei verbleibenden Destillate ist der naheliegende
+  nächste Batch — Details Abschnitt «Run 33» unten.
+
+### Run 33 (MacBook Pro, 27.07.2026) — vierte Refuter-Runde, 1x established, 3x je 1 Befund
+
+Vierte unabhängige Refuter-Runde für die vier Run-32-Punkt-2-Destillate: `lignum-4-2-…` erreicht
+den ersten sauberen Nulldurchgang (0 Befunde) und wird `established`. Die übrigen drei bleiben
+`speculative`, jeweils mit genau 1 neuem Befund: `lignum-lignatec-…` (Tab. 5 EFH/REFH-Ausnahme),
+`sia-d0165-…` (GEFMA-200-Bucket 4xx/2xx-Verwechslung), `lignum-4-1-…` (eine **Regression** der
+dritten Runde — Runde 3 hatte eine tatsächlich im Original belegte Aussage fälschlich gestrichen,
+Runde 4 hat das korrigiert). Details `training/norm-inventar.md` (Run-33-Eintrag),
+`outputs/2026-07-27_normen-nacht-run33.md`. Fünfte Runde für die drei verbleibenden Destillate
+ist naheliegender nächster Batch (alle drei nahe am Nulldurchgang).
 
 ### Regionale Geltung Brandschutznachweis-Arbeitshilfen fuer ZH (Run 33, recherchiert)
 

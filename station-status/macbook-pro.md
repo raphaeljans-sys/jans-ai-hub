@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 27.07.2026 16:06:06
+Stand: 27.07.2026 16:16:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 15:47)
@@ -12,4 +12,4 @@ Stand: 27.07.2026 16:06:06
 - 3 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- ce447534 wissen/baurecht: Buch-Run 62 — Baulinien/Abstandslinien re-verifiziert, § 33a ABV Register-Sweep-Nachzug (-> § 253a PBG), Haupt-/Anhang-Klaerung § 260 Abs. 3 PBG
+- 42b0a7b1 logbuch: Abo-Auslastungs-Check 27.07. — Messung blockiert (invalid_grant), Re-Login-Pendenz nachgefuehrt

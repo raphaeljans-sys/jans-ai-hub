@@ -1,3 +1,44 @@
+## 2026-07-27 — Run 33: vierte Refuter-Runde (4 Destillate), 1x established, regionale ZH-Geltung geklaert
+
+**Anlass.** Run 32 empfahl als naechsten Batch eine vierte unabhaengige Verifikationsrunde fuer
+die vier verbleibenden speculativen Lignum-/SIA-Destillate sowie die Recherche zur regionalen
+Geltung der Zentralschweizer Brandschutz-Arbeitshilfen fuer Kanton Zuerich (offener Punkt 3).
+Fuenf parallele Agenten gefahren (vier Refuter + ein Web-Recherche-Agent); Workflow-Tool nicht
+erneut getestet, direkter Parallel-Agenten-Fallback gemaess `training/PROGRAMM.md`.
+
+**Ein Destillat erreicht den ersten sauberen Nulldurchgang -> `established`:**
+- `lignum-4-2-anschluesse-feuerwiderstand.md` — 0 Befunde in der vierten Runde (18→3→0), alle
+  Anhang-3-Bauteilaufbauten, Tab. 522-1 und die Literaturliste zellenweise gegen das Original
+  bestaetigt.
+
+**Drei Destillate bleiben `speculative`, je genau 1 Befund:**
+- `lignum-lignatec-brandschutz.md` — Tab. 5: blau markierte Fluchtweg-Verkleidungsfelder gelten
+  NICHT fuer die Nutzungszeile Wohnbauten EFH/REFH (Destillat behauptete faelschlich "alle
+  Nutzungszeilen"), korrigiert.
+- `sia-d0165-2000-kennzahlen-immobilienmanagement.md` — Anhang-6-GEFMA-200-Bucket "4xx" faelschlich
+  als "Dienste/Instandsetzung" bezeichnet; Instandsetzung (DIN-400er-Gruppe) mappt im Original
+  durchgehend auf GEFMA-Code 230 (Klasse 2xx), korrigiert zu "4xx Dienste".
+- `lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md` — **Regression der dritten Runde**:
+  Kap. 5.2.2/Tab. 522-1 Gleichsetzung Bekleidung K30/K60-RF1 ↔ Bauteil EI30/EI60-RF1 war im
+  Original tatsaechlich explizit belegt (Fliesstext S. 59) und wurde in Runde 3 faelschlich als
+  unbelegt entfernt; wiederhergestellt und praezisiert als zwei gleichwertige Alternativen.
+
+**Regionale Geltung fuer ZH geklaert** (per WebSearch/WebFetch, Quellen mit URL in
+`wiki/QUESTIONS.md`): Symbolik (`brandschutzplan-legende-symbole-2017.md`) direkt anwendbar — die
+Stadt Zuerich referenziert in ihrem eigenen Feuerwehrplaene-Merkblatt (Stand 04.10.2024) dasselbe
+VKF-Merkblatt 2003-15. Verfahren (`brandschutzfachstellen-anleitung-brandschutznachweis-v3.md`)
+NICHT 1:1 uebertragbar — Stadt Zuerich nutzt ihr eigenes "Zusatzformular 3 Brandschutznachweis"
+statt der freitextlichen Zentralschweizer Anleitung V.3. GVZ selbst fuehrt kein eigenes
+Symbolik-/Nachweis-Merkblatt, verweist auf die gesamtschweizerisch verbindlichen VKF-Vorschriften.
+
+**Lehre:** Der Lignum-4.1-Befund zeigt, dass auch eine Refuter-Runde selbst einen Fehler einbauen
+kann (Regression durch fehlerhafte "Korrektur" einer tatsaechlich korrekten Aussage) — die vierte,
+unabhaengige Runde hat genau das aufgedeckt. Bestaetigt den Wert wiederholter unabhaengiger
+Verifikation ueber eine einzelne bestandene Runde hinaus.
+
+Details `training/norm-inventar.md` (Run-33-Eintrag), `destillate/INDEX.md`, Report
+`outputs/2026-07-27_normen-nacht-run33.md`.
+
 ## 2026-07-27 — Run 32: 8 parallele Refuter-Agenten — dritte Runde (5 Destillate) + erste unabhaengige Runde (3 neue Destillate), 2x established
 
 **Anlass.** Run 31 hinterliess acht offene Verifikations-Auftraege: fuenf am selben Tag zweimal

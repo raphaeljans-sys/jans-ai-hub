@@ -815,3 +815,51 @@ Alle vier inhaltlichen Befunde sind kleinere Zitat-/Formulierungs-Ungenauigkeite
 geprüften Aussagen (Grundlagen Kap. 2, Ausführungsbestimmungen Kap. 3, alle Katalogtabellen
 Kap. 4.3/4.4/4.6, Bauteile RF1 Kap. 5, Glossar, Literaturverzeichnis, Anhänge) war
 fehlerfrei. Da diese Runde nicht ohne Befund blieb, bleibt der Status **speculative**.
+
+### 27.07.2026, vierte Runde (Run 33, Einzelagent, vollständige Neulektüre aller 40 Seiten A+B+C)
+
+**Verdikt: BEANSTANDET, 1 Befund — eine Regression der dritten Runde identifiziert und korrigiert.**
+
+Vorgehen: komplette Neulektüre aller drei Original-PDFs (Teil A 5 Seiten, Teil B 15 Seiten,
+Teil C 20 Seiten) gegen das komplette Destillat, mit Schwerpunkt auf (a) den vier Befunden
+der dritten Runde, (b) allen Run-31/Run-1-Korrekturen als Regressionscheck, (c) zeilenweiser
+Gegenprüfung jeder weiteren Aussage.
+
+**Regressionscheck (a+b) — alle bestätigt, bis auf einen Fall:**
+- Kap. 2.2 c) / Kap. 3.2 (SIA 265/1-Zitat): bestätigt korrekt (Original S. 13 exakt wie
+  im Destillat zitiert; c)-Liste im Original nur [6]/[14]/[16]).
+- Abb. 310-2 (Massivholzplatten-Ausschluss): bestätigt korrekt (Original nennt nur fünf
+  Baustoffe, Massivholzplatten fehlen tatsächlich).
+- Kap. 4.5.2.1 (mehrseitige Brandeinwirkung): bestätigt korrekt (Original S. 55 exakt wie
+  im Destillat wiedergegeben).
+- **Kap. 5.2.2 / Tab. 522-1: REGRESSION GEFUNDEN.** Die dritte Runde hatte die Aussage
+  «K30-RF1 entspricht Bauteil EI30-RF1» als angeblich unbelegt entfernt. Beim direkten
+  Bildvergleich (S. 59) zeigt sich: Tab. 522-1 trägt im Original die Spaltenüberschrift
+  **«Bauteil RF1»** mit den Zellwerten **«Bauteil EI30-RF1»** (Zeile 30 Minuten) und
+  **«Bauteil EI60-RF1»** (Zeile 60 Minuten), jeweils gefolgt von den Estrich-/Beton-Massen.
+  Der Fliesstext direkt darüber nennt zudem wörtlich das Beispiel «Bauteil EI30-RF1
+  anstelle Bekleidung K30-RF1». Die dritte Runde hat diesen Beleg übersehen bzw.
+  fehlinterpretiert — ihre eigene Korrektur war die falsche. Wiederhergestellt und
+  präzisiert: Tab. 522-1 stellt zwei gleichwertige **Alternativen** zur Erfüllung derselben
+  Brandschutzbekleidungsdauer gegenüber (zertifizierte K-Bekleidung ODER dimensioniertes
+  EI-Bauteil aus Estrich/Beton), keine pauschale Bauteilklassen-Gleichsetzung über alle
+  K30-RF1-Anwendungen hinweg.
+- Run-31/Run-1-Korrekturen (Tab. 431-3/431-4, Tab. 437-1/437-2, Tab. 441-1, Tab. 436-1,
+  Tab. 442-5, Tab. 541-2, Tab. 445-1/445-2, Tab. 446-1/446-2/446-3, Tab. 447-1, Fugentyp
+  Wand/Decke Abb. 330-2, VSSM-Tippfehler S. 79, Tab. 462-1/462-2): **alle einzeln gegen die
+  Original-Tabellenwerte nachgerechnet und bestätigt**, keine weitere Regression. Besonders
+  geprüft: Tab. 446-1 R30-Spalten (80–110 mm, bestätigt), Tab. 445-1/445-2 R30/R60-Spalten
+  (80–100 mm bzw. 120–160 mm, bestätigt durch Spalten-Neuzuordnung A/B), Tab. 522-1-Nachbar
+  Tab. 232-2 (K30-RF1-Minimum für 30/60-Minuten-Klassen, weiterhin korrekt referenziert).
+
+**Weitere zeilenweise Prüfung (c):** Struktur, Seitenzahlen, Herausgeber-/Autoren-/STP-
+Angaben, Baustofftabelle 320-1, alle Katalogtabellen Kap. 4.3/4.4/4.6 (inkl. Balkendecken-,
+Rippendecken-, Hohlkastendecken-, Brettstapeldecken-, Massivholzdecken-, Holz-Beton-
+Verbunddecken-Werte), Kap. 5 (Bauteile RF1, Kap. 5.2.1/5.2.3/5.2.4/5.2.5, Deckensysteme
+RF1, Wände RF1 inkl. Tab. 541-2), Glossar (Kap. 6/7), Literaturverzeichnis (Kap. 8, inkl.
+[15] Ausgabejahr 2018 und [20] Dissertationsnummer 18156), Anhänge/Projektpartner (S. 79),
+Impressum (S. 80) — durchgehend fehlerfrei gegen die Original-Scans bestätigt. Kein
+weiterer Befund.
+
+Da diese Runde einen Befund (wenn auch eine Regression statt eines neuen Fehlers) ergab,
+bleibt der Status **speculative**.

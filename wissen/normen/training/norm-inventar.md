@@ -1,5 +1,34 @@
 # Norm-Inventar — Arbeitsliste des Nacht-Loops `normen-training-nacht`
 
+- **Run 33 (MacBook Pro, 260727) — vierte Refuter-Runde fuer die 4 verbleibenden speculativen
+  Lignum-/SIA-Destillate (Run-32-Empfehlung), plus Recherche zur regionalen ZH-Geltung.
+  1x established (Lignum 4.2), 3x weiterhin speculative mit je genau 1 Befund.**
+  Kein neues Grunddestillat (PL-02 weiterhin 0 offene `[ ]`). Ergebnis je Destillat:
+  - `lignum-4-2-anschluesse-feuerwiderstand.md`: **established** — vierte Runde 0 Befunde, sauberer
+    Nulldurchgang (alle drei Run-32-Fixe sowie Anhang-3-Bauteilaufbauten, Tab. 522-1, Literaturliste
+    zellenweise bestätigt).
+  - `lignum-lignatec-brandschutz.md`: bleibt `speculative` — vierte Runde 1 Befund (Tab. 5: blau
+    markierte Fluchtweg-Verkleidungsfelder gelten NICHT fuer Wohnbauten EFH/REFH-Zeile, Destillat
+    behauptete faelschlich "alle Nutzungszeilen"), korrigiert; Run-32-Fix (Tab. 4 Schraegstrich)
+    unabhaengig erneut bestaetigt.
+  - `sia-d0165-2000-kennzahlen-immobilienmanagement.md`: bleibt `speculative` — vierte Runde 1
+    Befund (Anhang-6-GEFMA-200-Bucket "4xx" faelschlich als "Dienste/Instandsetzung" bezeichnet,
+    Instandsetzung mappt im Original auf GEFMA-Code 230/2xx statt 4xx), korrigiert; GEFMA-450-Fix
+    und BKP-19-99/EKG-W1-W6 erneut bestaetigt, keine Regression.
+  - `lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md`: bleibt `speculative` — vierte Runde
+    1 Befund, und zwar eine **Regression der dritten Runde**: Kap. 5.2.2/Tab. 522-1 Gleichsetzung
+    Bekleidung K30/K60-RF1 ↔ Bauteil EI30/EI60-RF1 war im Original tatsaechlich explizit belegt und
+    wurde in Runde 3 faelschlich als unbelegt entfernt; wiederhergestellt und praezisiert (zwei
+    gleichwertige Alternativen statt pauschaler Klassen-Gleichsetzung). Alle uebrigen ~780
+    Seiteninhalte bestaetigt, keine weitere Regression.
+  **Regionale Geltung der Zentralschweizer Brandschutz-Arbeitshilfen fuer ZH geklaert** (Run-32-
+  Punkt 3, per WebSearch/WebFetch): Symbolik direkt anwendbar (Stadt Zuerich referenziert dasselbe
+  VKF-Merkblatt 2003-15), Verfahren NICHT 1:1 uebertragbar (Stadt Zuerich nutzt eigenes
+  "Zusatzformular 3 Brandschutznachweis" statt der freitextlichen Zentralschweizer Anleitung V.3);
+  GVZ selbst fuehrt kein eigenes Symbolik-/Nachweis-Merkblatt. Details `wiki/QUESTIONS.md`
+  Abschnitt "Regionale Geltung Brandschutznachweis-Arbeitshilfen fuer ZH (Run 33, recherchiert)",
+  Report `outputs/2026-07-27_normen-nacht-run33.md`.
+
 - **Run 32 (MacBook Pro, 260727) — 8 parallele Refuter-Agenten: dritte Runde fuer die 5 Run-31-Korrekturen, erste unabhaengige Runde fuer die 3 neuen Run-31-Destillate. 2x established, 1x unveraendert emerging, 5x weiterhin speculative (aber klar konvergierend).**
   Kein neues Grunddestillat (PL-02 weiterhin 0 offene `[ ]`). Ergebnis je Destillat:
   - `vkf-allgemein-anerkannte-bauprodukte-2017.md`: **established** — unabhaengige Refuter-Runde 0 Befunde (alle 12 Seiten/9 Tabellen zellenweise per Bild geprueft, MD5 bestaetigt).
