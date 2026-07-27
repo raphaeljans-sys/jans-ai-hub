@@ -254,7 +254,9 @@ Aktuelle KBs (Details in der jeweiligen `<kb>/CLAUDE.md`): `baurecht` (Pilot + B
 `projekt-lessons`, `firmengruendung-ch`, `kunde-bopp` (Prototyp pro-Kunde-KB), `immobilienbewertung`,
 `auflagebereinigung`, `planungsgrundlagen`, `energie` (Destillate + BAUHERREN-FAQ), `grobkosten`
 (Kennwerte-Lernmodell), `spec` (Methodik), `architekten-synobsis` (Katalog/Suche, 853 Architekten),
-`entwurfs-referenzen` (JSON-Parameter-Sets), `wettbewerbs-dna`, `twin`, `normen`, `koordination`.
+`entwurfs-referenzen` (JSON-Parameter-Sets), `wettbewerbs-dna`, `twin`, `normen`, `koordination`,
+`bauprodukte` (neu 28.07.2026, wird aus `/Volumes/daten/03 Bauprodukte_BKP` destilliert — Skill
+`wissens-destillat`, Reihenfolge in dessen `KORPUS-QUEUE.md`).
 
 Lern-Loops: als Scheduled Tasks im Nachtfenster (Takt-Zustand siehe Rule auto-verbesserungen
 260714); Programme unter `wissen/<kb>/training/PROGRAMM.md`. Monatlicher Health-Check:
