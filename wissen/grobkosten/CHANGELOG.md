@@ -1,5 +1,13 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-27 — Trainings-Run 27 (Einzeiler gemäss Run-26-Empfehlung)
+
+Kein neuer Sweep, keine Registeränderung, kein voller Report: PID 68866 läuft unverändert
+(~1 Tag 19h), nur 1 Min. seit Run-26-Commit vergangen, kein neues Quellmaterial (`find`
+Nulltreffer), die 5 verbleibenden offenen Inventarzeilen sind unverändert dieselben bereits
+dokumentierten Fälle (Excel-Vertiefung nötig bzw. Kapazitätsgründe). Sechzehnter
+Sättigungsbeleg in Folge.
+
 ## 2026-07-27 — Trainings-Run 26 (kein neuer Kennwert, fünfzehnter Sättigungsbeleg in Folge, Empfehlung verschärft)
 
 Kein neuer Sweep (16. Nullbefund inkl. Run 12), keine Registeränderung. PID 68866 läuft
