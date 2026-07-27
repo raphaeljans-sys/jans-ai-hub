@@ -13,7 +13,13 @@
   separates 4-seitiges "Auszug"-Dokument (Stand 17.05.2018, TK-VKF-Beschluss 29.09.2016) Zeile-fuer-
   Zeile gegen das established-Destillat `vkf-ah-1001-15-wohnbauten.md` verglichen: **0 Abweichungen**
   in Ziff. 3/5/6 (Fluchtwege, Brandschutzabstaende, Tragwerke) — Destillat zusaetzlich cross-
-  verifiziert. (4) Unterordner `06 Lignum Brandschutz` hat KEIN PL-02-Gegenstueck (genuin neue
+  verifiziert. **>>> WIDERLEGT am 27.07.2026 (Fassungs-Delta-Lauf): Die "0 Abweichungen"-Aussage
+  ist falsch. Am Volltext der Fassung 01.01.2017 / Stand 17.05.2018 (`PL - 03 Brandschutz/
+  00 Brandschutzplaene bsvonline.ch/BSPUB-1394520214-185.pdf`, 29 S.) zeigen sich in Ziff. 5.1
+  Abs. 2/3 und Ziff. 3.3.2 redaktionelle und in Ziff. 6.3.1 (Fussnote [2] der Standardloesungs-
+  Tabelle) eine MATERIELLE Aenderung. Das 4-Seiten-Auszugsdokument ist als Verifikationsquelle
+  unbrauchbar. Insgesamt 28 materielle + 12 redaktionelle Aenderungen; Destillat auf `speculative`
+  gesenkt. Siehe CHANGELOG-Kopfeintrag 2026-07-27. <<<** (4) Unterordner `06 Lignum Brandschutz` hat KEIN PL-02-Gegenstueck (genuin neue
   Quelle): 3 Bild-Scan-Dokumente ohne Textlayer visuell destilliert (`lignum-4-1-decken-waende-
   bekleidungen-feuerwiderstand.md` 40 S., `lignum-4-2-anschluesse-feuerwiderstand.md` 33 S.,
   `lignum-lignatec-brandschutz.md` 12 S.), anschliessend je 1 unabhaengiger Refuter-Agent pro
@@ -872,9 +878,9 @@ ist PL-03 gleichrangige Inventar-Quelle.
 | `02 Brandschutzrichtlinien 2015-17-22` | 33 | **hoechste** — hier liegen die geltenden Fassungen 2017/2022 | [x] 260727 BRL 13-15/14-15 bereits am 25.07. gegen 2017 re-destilliert (Run 23/24, stale Handlungsbedarf-Zeile korrigiert); BRL 15-15/1-15 bereits verifiziert |
 | `03 Verzeichnisse Brandschutz 2015` | 1 | mittel — 40-15 Weitere Bestimmungen | [x] 260727 MD5-identisch mit PL-02 (bereits destilliert) |
 | `04 Erlaeuterungen Brandschutz 2015` | 9 | mittel — VKF-Erlaeuterungen 100-15 bis 108-15 | [x] 260727 alle 9 MD5-identisch mit PL-02 (bereits destilliert) |
-| `05 Arbeitshilfen Brandschutz 2015` | 5 | mittel — Arbeitshilfen 1000-15 ff. (Wohn-/Schulbauten, Parkhaeuser) | [x] 260727 4/4 MD5-identisch mit PL-02 (bereits destilliert); 1001-15-Varianz (29 vs. 27 S.) + separates Auszug-Dokument (Stand 2018) aufgeklaert, 0 Abweichung |
+| `05 Arbeitshilfen Brandschutz 2015` | 5 | mittel — Arbeitshilfen 1000-15 ff. (Wohn-/Schulbauten, Parkhaeuser) | [x] 260727 4/4 MD5-identisch mit PL-02 (bereits destilliert); 1001-15-Varianz (29 vs. 27 S.) aufgeklaert (2 eingeschobene BRL-16-15-Seiten). **Der am selben Tag aus dem 4-Seiten-Auszug gezogene Befund "0 Abweichung" ist widerlegt** — die volle Fassung 2017/2018 liegt in `00 Brandschutzplaene bsvonline.ch/BSPUB-1394520214-185.pdf`, Delta 28 materiell / 12 redaktionell, siehe Zeile in den Fassungs-Befunden |
 | `06 Lignum Brandschutz` | 6 | mittel — Lignum-Dokumentation Holzbau | [x] 260727 3 neue Destillate (4.1/4.2/Lignatec, speculative bis Verifikation); Erdbebendokument out-of-scope |
-| `00 Brandschutzplaene bsvonline.ch` | 35 | tief — Plan-/Symbolvorlagen, keine Normtexte | [-] nicht Normeninventar |
+| `00 Brandschutzplaene bsvonline.ch` | 35 | **hoch — Fehleinstufung korrigiert 27.07.2026** | [ ] OFFEN — die Einstufung "Plan-/Symbolvorlagen, keine Normtexte" ist falsch: `BSPUB-1394520214-185.pdf` ist die volle VKF-Arbeitshilfe 1001-15de **Fassung 01.01.2017 / Stand 17.05.2018** (29 S.), also die geltende Fassung einer Publikation, die der Hub bisher nur als 2015er fuehrte. Die uebrigen 34 Dateien sind noch nicht gesichtet — dort koennen weitere Publikationen in aktuelleren Fassungen liegen. **Vollinventar dieses Ordners ist der naechste Schritt.** |
 | `00 Brandschutznachweis.ch` | 6 | tief — Nachweis-Formulare/Tools | [-] nicht Normeninventar |
 | `_Projekte Themen` | 16 | tief — projektbezogen | [-] nicht Normeninventar |
 | `08 QS` / `z_Administration` / Root | 4 | tief | [-] nicht Normeninventar |
@@ -884,6 +890,7 @@ ist PL-03 gleichrangige Inventar-Quelle.
 
 | Datei (PL-03) | VKF-Publikation | Fassung PL-03 | Destillat | Fassung des Destillats | Handlungsbedarf |
 |---|---|---|---|---|---|
+| `00 Brandschutzplaene bsvonline.ch/BSPUB-1394520214-185.pdf` | **AH 1001-15de Wohnbauten** | **01.01.2017 / Stand 17.05.2018** (29 S., voll) | `vkf-ah-1001-15-wohnbauten.md` | beide Fassungen dokumentiert, Delta-Abschnitt eingearbeitet 27.07.2026 | **teil-erledigt** — Delta erarbeitet (28 materiell / 12 redaktionell), Destillat auf `speculative` gesenkt; OFFEN: unabhaengige Verifikation + Vollinventar des Ordners `00 Brandschutzplaene bsvonline.ch` |
 | `BSPUB-1394520214-71.pdf` | BRL 13-15de Baustoffe/Bauteile Klassifikation | **01.01.2017** | `vkf-brl-13-15-baustoffe-bauteile.md` | 01.01.2017 (Nachtrag Run 23/24) | **erledigt** — bereits am 25.07.2026 (Run 23) gegen die 2017-Fassung re-destilliert und established gehoben |
 | `BSPUB-1394520214-77.pdf` | BRL 14-15de Verwendung von Baustoffen | **01.01.2017** | `vkf-brl-verwendung-baustoffe.md` | 01.01.2017 (Nachtrag Run 23/24) | **erledigt** — bereits am 25.07.2026 (Run 23, re-verifiziert Run 24) gegen die 2017-Fassung re-destilliert, established, Delta-Abschnitt im Destillat dokumentiert (Ziff. 2 Abs. 3/8/12, Ziff. 3.2.1/3.2.3) |
 | `Brandschutzabstaende Tragwerke 17 BSPUB-…-81.pdf` | BRL 15-15de Brandschutzabstaende Tragwerke | 01.01.2017 | `vkf-brl-15-15-brandschutzabstaende-tragwerke.md` | beide Fassungen zitiert | keiner — bereits am 14.07.2026 gegen beide Fassungen verifiziert |
@@ -912,6 +919,22 @@ Wohnen/Buero), 5 (Brandschutzabstaende) und 6 (Tragwerke/Brandabschnitte) — **
 das established-Destillat `vkf-ah-1001-15-wohnbauten.md` verglichen: 0 Abweichungen** (alle Abstandswerte
 4/5/6/7.5/10 m und alle Tragwerk-Tabellenwerte R30/R60/REI30/REI60/EI30 identisch). Destillat somit
 zusaetzlich cross-verifiziert gegen die 2017/2018-Fassung, Frontmatter ergaenzt.
+
+**>>> KORREKTUR 27.07.2026 (Fassungs-Delta-Lauf) zum vorstehenden Absatz <<<**
+Die "0 Abweichungen"-Aussage ist **widerlegt**. Im Ordner `PL - 03 Brandschutz/00 Brandschutzplaene
+bsvonline.ch/` liegt unter `BSPUB-1394520214-185.pdf` die **volle** Fassung 01.01.2017 / Stand
+17.05.2018 (29 S.) — nicht nur ein Auszug. Ihre amtliche Aenderungsliste (S. 2) nennt 23 geaenderte
+Ziffern plus die Fehlerkorrektur vom 17.05.2018 zu Ziff. 4.4.1.2. Volltextvergleich beider Fassungen:
+**35 Pruefstellen, 28 materiell, 7 redaktionell**, dazu 5 redaktionelle Befunde ausserhalb der Liste.
+Zu den drei angeblich abweichungsfreien Kapiteln: Ziff. 5.1 Abs. 2 und 3 sind amtlich neu gefasst
+(redaktionell — die Abstandswerte stimmen tatsaechlich), Ziff. 3.3.2 aendert "Brandschutzkonzeptplaene"
+zu "Brandschutzplaene", und Ziff. 6.3.1 ist **materiell** geaendert (Fussnote [2] der Standardloesungs-
+Tabelle: Bezugsflaeche neu "ueber Terrain", REI-30-Geschossdecken nur noch auf EI 30 reduzierbar,
+Fussnote neu auch bei der Spalte Geschossdecken). Das 4-seitige Auszugsdokument ist als
+Verifikationsquelle unbrauchbar. Destillat auf `speculative` gesenkt, Delta-Abschnitt eingearbeitet.
+**Offen: der Ordner `00 Brandschutzplaene bsvonline.ch/` ist bisher gar nicht inventarisiert** — dort
+koennen weitere Arbeitshilfen in aktuelleren Fassungen liegen, die der Hub nur als 2015er fuehrt.
+Details: CHANGELOG-Kopfeintrag 2026-07-27.
 
 **PL-03-Unterordner 06 Lignum Brandschutz (6 Nutzdateien, davon 4 Normen-relevant) — Run 30, 27.07.2026:**
 Kein PL-02-Gegenstueck (`VKF_Norm/Lignum` in PL-02 ist leer). Genuin neue Quelle, 3 Dokumente destilliert

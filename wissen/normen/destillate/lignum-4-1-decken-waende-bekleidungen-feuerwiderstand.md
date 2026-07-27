@@ -7,7 +7,7 @@ herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direkto
 ausgabe: "Lignum-Dokumentation Brandschutz, Themenblock 4 «Bauteile in Holz», Publikation 4.1 «Decken, Wände und Bekleidungen mit Feuerwiderstand». Erschienen Mai 2015, Nachdruck/Aktualisierung Oktober 2017. Von der TKB-VKF in Bezug auf Übereinstimmung mit den Mindestanforderungen der Schweizerischen Brandschutzvorschriften VKF, Ausgabe 2015 (BSV 2015), Stand 01.01.2017 geprüft und am 06.09.2017 als «Stand der Technik Papier (STP)» anerkannt. Laut Einleitung (S. 4) weist die vorliegende Publikation gegenüber der Erstausgabe von Mai 2015 in technischer Hinsicht keine relevanten Unterschiede auf; die Erstausgabe kann weiterhin angewendet werden."
 gelesen: "alle 40 Seiten (Teile A+B+C) komplett, Titelblatt/Impressum/Buchrücken eingeschlossen — Bild-Scan ohne Textlayer, visuell erfasst"
 datenstand: "Mai 2015 / STP-Anerkennung 06.09.2017"
-status: "speculative (beanstandet-korrigiert, 9 Befunde bei unabhaengiger Refuter-Pruefung 260727: 2 Zahlen-/Bezeichnungs-Tippfehler, 1 Regel-Vertauschung Wand/Decke bei Fugentypen, 1 unpraezise Fasen-Beschreibung, 3 falsch zugeordnete Repraesentativwerte aus Nachbartabellen, 2 Bandbreiten-Ungenauigkeiten — alle direkt im Destillat korrigiert; Status bleibt speculative bis zweite unabhaengige Pruefinstanz oder Projektabgleich)"
+status: "speculative (zweite unabhaengige Refuter-Runde 260727, Run 31: BEANSTANDET mit 26 Befunden aus zwei scope-getrennten Agenten [Teil A/B 12, Teil C 14], alle eingearbeitet. Davon 10 substanziell: invertierte 40-mm-Abgrenzung, falsch zugeordnete 12-15-Minuten-Aussage, vertauschtes Bezugsobjekt Decken/lineare Bauteile, falsche K/F/BSP-Gruppenzuordnung, Traglast je Systemtyp statt je Klasse, Tab. 447-1 Alternativen statt Kombination, drei Faelle mit Werten aus der falschen Spalte (Tab. 442-5, 541-2, 445-1/2), Tab. 462-2 einschichtig/zweischichtig vertauscht. EINE Regression der Erstrunde zurueckgenommen (Tab. 446-1 Untergrenze 50 mm war korrekt, die Korrektur 260727 hatte sie faelschlich auf 60 mm gehoben). Bleibt speculative bis zu einer Runde mit sauberem Nulldurchgang.)"
 last_updated: 2026-07-27
 links: [[REGISTER]]
 ---
@@ -24,11 +24,12 @@ können — als Katalog rechnerisch bemessener, genormter Bauteile (S. 4, 18). S
 unterscheidet durchgehend zwei Bauteilfamilien: gewöhnliche Holzbauteile (Kapitel 4,
 S. 18–57) und Bauteile der Brandverhaltensgruppe RF1 mit Holzanteilen, die allseitig mit
 RF1-Baustoffen bekleidet sind und dadurch als Gesamtkonstruktion RF1 gelten (Kapitel 5,
-S. 58–76; beschränkt auf REI30-RF1, REI60-RF1, REI90-RF1). Rechtlich verbindlich bleibt
-der volle Wortlaut der Schweizerischen Brandschutzvorschriften VKF 2015 und des
-Brandschutzregisters VKF; die dargestellten Aufbauten haben den Stellenwert genormter
-Bauteile und ersetzen keine anderen Nachweise (Tragsicherheit Normaltemperatur,
-Gebrauchstauglichkeit, Schall-/Wärme-/Feuchteschutz) (S. 4, 11).
+S. 58–76; beschränkt auf REI30-RF1, REI60-RF1, REI90-RF1). Die dargestellten Aufbauten
+haben den Stellenwert genormter Bauteile (Nachweisart b, Kap. 2.2) und ersetzen keine
+anderen Nachweise (Tragsicherheit bei Normaltemperatur, Gebrauchstauglichkeit, Schall-,
+Wärme- und Feuchteschutz) (S. 4, 11). Massgebend für die Anforderungen selbst sind die
+Schweizerischen Brandschutzvorschriften VKF 2015 [1] und das Schweizerische
+Brandschutzregister VKF [2].
 
 ## Geltungsbereich und Zweck
 
@@ -47,12 +48,16 @@ Gebrauchstauglichkeit, Schall-/Wärme-/Feuchteschutz) (S. 4, 11).
 - Produktneutral gehalten; durch den Einsatz geprüfter, qualitätsgesicherter Produkte
   können Firmen werkstoffoptimierte Lösungen anbieten, die im Schichtaufbau gegenüber den
   hier gezeigten Bauteilen Verbesserungen bringen (eigene «Anhänge: Kataloge
-  werkstoffoptimierter Bauteile», nach TKB-VKF-Anerkennung in Verkehr gebracht, S. 4, 78).
-- Gilt bis zur Hochhausgrenze für die üblichen Bauteiltypen; **nicht** Gegenstand: der
-  volle Wortlaut der Brandschutzvorschriften/des Brandschutzregisters selbst, Anschluss-
-  Detaillösungen (eigene Publikation 4.2 «Anschlüsse bei Bauteilen mit Feuerwiderstand»,
-  [7]), Haustechnik-Detailausführung (Publikation 6.1, [8]), Brandmauern (Publikation
-  9.1, [10]).
+  werkstoffoptimierter Bauteile», nach Kenntnisnahme durch die TKB-VKF in Verkehr
+  gebracht, S. 4, 78).
+- Die anwendungsseitigen Anforderungen (Feuerwiderstandsklasse, RF1-Pflicht) ergeben
+  sich aus Gebäudenutzung und Gebäudegeometrie gemäss den Brandschutzvorschriften VKF und
+  der Lignum-Publikation 1.1 [4]; die vorliegende Publikation regelt nur den
+  Bauteilaufbau (S. 4). **Nicht** Gegenstand: der volle Wortlaut der
+  Brandschutzvorschriften/des Brandschutzregisters selbst, Anschluss-Detaillösungen
+  (eigene Publikation 4.2 «Anschlüsse bei Bauteilen mit Feuerwiderstand», [7]),
+  Haustechnik-Detailausführung (Publikation 6.1, [8]), Brandmauern (Publikation 9.1,
+  [10]).
 
 ## Aufbau der Publikation (Inhaltsverzeichnis-Übersicht)
 
@@ -81,9 +86,14 @@ Gebrauchstauglichkeit, Schall-/Wärme-/Feuchteschutz) (S. 4, 11).
   Funktionen: **R** tragend, nicht brandabschnittsbildend (Brandeinwirkung von mehreren
   Seiten, z. B. freistehende Stütze); **EI** nicht tragend, aber brandabschnittsbildend
   (Brandeinwirkung von einer Seite); **REI** tragend und brandabschnittsbildend
-  (Brandeinwirkung von einer Seite). Lineare Bauteile sind in der Regel R, in Einzelfällen
-  auch REI. Flächige Bauteile sind in der Regel tragend und meistens brandabschnitts-
-  bildend (REI); Wände können auch R, EI oder REI sein. Bei unterschiedlichen Anforderungen
+  (Brandeinwirkung von einer Seite). Lineare Bauteile sind in der Regel tragend (R) und
+  nicht brandabschnittsbildend. Decken sind in der Regel tragend und meistens
+  brandabschnittsbildend (REI), in einzelnen Fällen auch nur tragend und nicht
+  brandabschnittsbildend (R). Wände können tragend (R), nicht tragend und
+  brandabschnittsbildend (EI) oder tragend und brandabschnittsbildend (REI) sein.
+  R-Bauteile haben deutlich andere Rahmenbedingungen als EI-/REI-Bauteile, weil der Brand
+  bei R-Bauteilen gleichzeitig von mehreren Seiten einwirken kann, auf EI-/REI-Bauteile
+  dagegen nur von einer Seite (S. 5). Bei unterschiedlichen Anforderungen
   innerhalb eines Bauteils (z. B. Tragwerk R60 + Brandabschnittsbildung EI30) sind die
   Nachweise gesondert zu führen, oder das Gesamtbauteil ist mit dem höherwertigen
   Feuerwiderstand auszuführen (Tab. 210-1, S. 5).
@@ -151,13 +161,18 @@ zeit schützen. Drei Bekleidungsarten:
   Brandschutzregister VKF, Registergruppe 230 «Brandschutzbekleidungen».
 - **Bekleidungen F**: VKF-klassifiziert F30/F60/F90, Registergruppe 231
   «Brandschutzplatten».
-- **Brandschutzplatten (BSP)**: von der VKF allgemein anerkannte Bekleidungen mit
-  Feuerwiderstandsdauer 30, 60 und 90 Minuten, im Dokument «Allgemein anerkannte
-  Bauprodukte» [3].
-- Einteilung in Anwendung: «Brandschutzbekleidungen» (K, F) und «Brandschutzplatten»
-  (BSP); für Bauteile RF1 (Kap. 5) dürfen **nur Brandschutzbekleidungen** eingesetzt
-  werden, für feuerwiderstandsfähige Holzbauteile (Kap. 4) können Brandschutzplatten zur
-  Anwendung kommen.
+- **Brandschutzplatten (BSP)**: von der VKF allgemein anerkannte Bekleidungen; die
+  Schichtdicken-Tabelle 462-2 der Publikation deckt Feuerwiderstandsdauern von 30 und 60
+  Minuten ab (Tab. 462-1 und Kap. 4.6.2, S. 56). Für BSP aus dem VKF-Dokument «Allgemein
+  anerkannte Bauprodukte» [3] ist die Anwendung bei Holzbauteilen beschränkt auf
+  Bauteile, für welche keine Zuordnung zum Feuerwiderstand möglich ist (z. B.
+  Sanierungsmassnahmen in bestehenden Bauten).
+- Einteilung in der Anwendung gemäss Tab. 240-1 (S. 10): Der Gruppe
+  «Brandschutzbekleidungen» sind nur die Bekleidungen K (K30, K60) zugeordnet; der Gruppe
+  «Brandschutzplatten» sind die Bekleidungen F (F30/F60/F90), die Brandschutzplatten BSP
+  (30/60/90 Min.) und ebenfalls die Bekleidungen K zugeordnet. Für Bauteile RF1 (Kap. 5)
+  dürfen nur Brandschutzbekleidungen eingesetzt werden, für feuerwiderstandsfähige
+  Holzbauteile (Kap. 4) können Brandschutzplatten zur Anwendung kommen.
 
 ## Ausführungsbestimmungen (Kapitel 3, S. 11–17)
 
@@ -183,7 +198,10 @@ verbindlichen Punkte:
 - Angaben der Produkthersteller sind zu berücksichtigen.
 - **Erlaubte Modifikationen** an den Bauteilen der Tabellen Kap. 4/5: stärker
   dimensionieren; Schichten hinzufügen (Bekleidungen, Lattenroste, Trennschichten —
-  mind. RF3, bei Folien mind. RF3(cr)); zusätzlicher Einbau nicht brennbarer Dämmung
+  mind. RF3, bei Folien mind. RF3(cr); Fugen in Beplankungs- und Bekleidungsschichten
+  müssen hinterlegt werden [sinngemäss Fugentyp 1 gemäss Abb. 330-3], bei Bauteilen RF1
+  sind Zwischenräume hohlraumfrei auszufüllen [S. 11]); zusätzlicher Einbau nicht
+  brennbarer Dämmung
   (RF1); zusätzlicher Einbau brennbarer Dämmung (mind. RF3) — **bei Bauteilen RF1 ist
   kein Einsatz brennbarer Dämmung möglich**; Einsatz zementgebundener statt
   Kunstharz-Spanplatten (angegebene Mindestdicken −10 %); Einsatz Holzwerkstoffe RF2

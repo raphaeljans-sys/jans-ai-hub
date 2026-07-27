@@ -159,8 +159,10 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
   mindestens 30 Minuten; Durchgänge/Öffnungen mit Brandschutzabschlüssen (min. 30 Min.)
   abzuschliessen.
 - **Tabelle 3 «Tragwerke, brandabschnittbildende Wände und Decken» (S. 8-9)**: Matrix nach
-  Geschosszahl über Terrain (1/oberstes Geschoss, 2 bis 600 m² bb, 2 über 600 m² bb bzw. bis
-  1200 m² nbb, 2 über 1200 m² nbb, 3, 4, 5-6, 7-8 ohne Hochhäuser) und Nutzung (Wohnbauten
+  Geschosszahl über Terrain in sieben Spalten (1 und oberstes Geschoss · 2 «bis 600 m² bb / bis
+  1200 m² nbb»⑤ · 2 «über 600 m² bb / über 1200 m² nbb»⑤ · 3 · 4 · 5-6 · 7-8 ohne Hochhäuser;
+  die m²-Grenze richtet sich je Spalte danach, ob das Tragwerk brennbar (bb) oder nicht
+  brennbar (nbb) ist, Fussnote ⑤) und Nutzung (Wohnbauten
   MFH/Büro/Schulbauten, Industrie-/Gewerbebauten q≤1000 bzw. >1000 MJ/m², Beherbergungsbetriebe
   Typ a/Krankenhäuser und Typ b/Hotels, Bauten mit grosser Personenbelegung/Verkaufsgeschäfte,
   Parkhäuser/Einstellräume, Verkaufsgeschäfte ≤1200 m²/≤100 P, Landwirtschaftliche Bauten,
@@ -170,11 +172,8 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
     Geschoss) bzw. Mindestkantenabmessung (2 Geschosse bis 600 m² bb) bzw. R30 mit
     Mindestkantenabmessung (2 Geschosse über 600 m² bb); Brandabschnitt EI30.
   - Wohnbauten MFH 3 Geschosse: Tragwerk R30 (baulich)/Mindestkantenabmessung (Sprinkler),
-    Brandabschnitt EI30. Wohnbauten MFH 4 Geschosse: Tragwerk R60 (baulich)/R30 (Sprinkler)
-    — NICHT R30, wie eine Vorfassung dieses Destillats für 4 Geschosse fälschlich behauptete
-    (Refuter-Korrektur 260727, verifiziert gegen Tabelle 3 S. 8-9 UND die Axonometrie
-    Ziff. 5.3 S. 20-21, die konsistent R60/R30 für 4 Geschosse zeigt); Brandabschnitt EI30②
-    (baulich).
+    Brandabschnitt EI30. Wohnbauten MFH 4 Geschosse: Tragwerk R60 (baulich)/R30 (Sprinkler);
+    Brandabschnitt EI60② (baulich)/EI30② (Sprinkler).
   - Wohnbauten MFH 5-6 Geschosse: Tragwerk R60/EI30(nbb)③ (baulich), Brandabschnitt
     EI60/EI30(nbb)③. Wohnbauten MFH 7-8 Geschosse: Tragwerk R60(nbb), Brandabschnitt
     EI60(nbb).
@@ -210,12 +209,13 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
   brennbaren Bauten/Anlagen Höchstmass 1200 m².
 - Schulbauten: Klassenzimmer sowie Spezialräume (Werk-, Labor-, Bibliotheksräume) als
   Brandabschnitte.
-- Landwirtschaftliche Bauten: Wohn- und Wirtschaftsteil mit Brandmauer REI180 voneinander
+- Landwirtschaftliche Bauten: Wohn- und Wirtschaftsteil mit Brandmauer REI180(nbb) voneinander
   abzutrennen; ohne rechnerischen Nachweis zusammenhängende Brandabschnittsfläche
   landwirtschaftlich genutzter Bauten max. 2400 m², bei mehrgeschossigen brennbaren Bauten
   max. 1200 m². Räume mit Motorfahrzeugen, die von angrenzenden landwirtschaftlich genutzten
   Räumen abzutrennen sind: Feuerwiderstand EI60(nbb). Tierställe gegen darüberliegende
-  nutzbare Scheunenteile: Decken EI30.
+  nutzbare Scheunenteile: Decken EI30 — oder so auszuführen, dass im Brandfall eine
+  ausreichende Evakuierungszeit gewährleistet ist.
 - Beherbergungsbetriebe: Gäste-, Insassen-, Patienten- und Personalzimmer, betriebstechnische
   Räume, Untersuchungs-, Behandlungs- und Laborräume sowie technische Räume sind als
   Brandabschnitte zu erstellen.
@@ -265,18 +265,22 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
 - Bei Bauten mit ≤ 3 Geschossen und zulässiger brennbarer Bauweise genügt Feuerwiderstand
   REI60 mit nicht brennbarer Wärmedämmung und beidseitiger Verkleidung EI30(nbb). Treppen und
   Podeste sind sicher begehbar, nicht brennbar und geradläufig auszuführen.
-- Bauliches Brandschutzkonzept: bis 3 Geschosse Feuerwiderstand EI30 mit fluchtwegseitiger,
-  nicht brennbarer Verkleidung; 4 Geschosse EI60 mit fluchtwegseitiger Verkleidung EI30(nbb);
-  5-6 Geschosse EI60 mit nicht brennbarer Wärmedämmung und beidseitiger Verkleidung EI30(nbb).
-- Sprinklerkonzept: bis 4 Geschosse EI30 mit fluchtwegseitiger, nicht brennbarer Verkleidung;
-  5-6 Geschosse EI60 mit fluchtwegseitiger Verkleidung EI30(nbb).
 
 **Korridore (Ziff. 3.1.2, S. 11)**
 - Korridore, die als Fluchtweg dienen, sind als Brandabschnitte mit dem für das Tragwerk
   erforderlichen Feuerwiderstand, mindestens aber EI30(nbb), zu erstellen und von den
-  angrenzenden Räumen durch Brandschutzabschlüsse abzutrennen; erforderlicher Feuerwiderstand
-  richtet sich nach Art/Nutzung der Bauten/Anlagen, mindestens EI30 bzw. in Bereichen mit sehr
-  kleiner Brandbelastung E30.
+  angrenzenden Räumen durch Brandschutzabschlüsse abzutrennen. Der erforderliche
+  Feuerwiderstand der Brandschutzabschlüsse richtet sich nach Art/Nutzung der Bauten/Anlagen,
+  beträgt aber mindestens EI30 bzw. in Bereichen mit sehr kleiner Brandbelastung E30 (gleicher
+  Satz auch für die Treppenhaus-Abschlüsse, Ziff. 3.1.1). Der Korridor selbst: mindestens
+  EI30(nbb).
+- In Bauten/Anlagen mit zulässiger brennbarer Bauweise richtet sich der erforderliche
+  Feuerwiderstand des Korridors nach Brandschutzkonzept und Geschosszahl (S. 11, Ziff. 3.1.2):
+  - Bauliches Brandschutzkonzept: bis 3 Geschosse EI30 mit fluchtwegseitiger, nicht brennbarer
+    Verkleidung; 4 Geschosse EI60 mit fluchtwegseitiger Verkleidung EI30(nbb); 5-6 Geschosse
+    EI60 mit nicht brennbarer Wärmedämmung und beidseitiger Verkleidung EI30(nbb).
+  - Sprinklerkonzept: bis 4 Geschosse EI30 mit fluchtwegseitiger, nicht brennbarer Verkleidung;
+    5-6 Geschosse EI60 mit fluchtwegseitiger Verkleidung EI30(nbb).
 
 **Ausbau (Ziff. 3.1.3, S. 11)**
 - Wand- und Deckenverkleidungen von Treppenanlagen, Korridoren und Vorplätzen, die als
@@ -287,9 +291,13 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
 - **Tabelle 4 «Fluchtwege: Treppenhaus und Korridor» (S. 12-13)**: Matrix analog Tabelle 3
   (gleiche Geschossstufen/Nutzungen), je Konzept Baulich/Sprinkler mit Feuerwiderstand
   Treppenhaus und Korridor. Repräsentative Eckwerte:
-  - Wohnbauten MFH bis 3 Geschosse: Korridor EI30-nbb; Treppenhaus REI60/EI30(nbb) bzw.
-    REI60(nbb) je nach Geschosszahl.
-  - Wohnbauten MFH 5-8 Geschosse: Treppenhaus REI60(nbb), Korridor EI60(nbb).
+  - Wohnbauten MFH bis 3 Geschosse: Treppenhaus durchgehend REI60/EI30(nbb) (Spalte «1 und
+    oberstes Geschoss» trägt nur den Fussnotenverweis ⑥), Korridor durchgehend EI30-nbb.
+    REI60(nbb) beim Treppenhaus erst ab 4 Geschossen.
+  - Wohnbauten MFH 5-6 Geschosse: Treppenhaus REI60(nbb); Korridor EI60-EI30(nbb)③ (baulich,
+    Holzbauteile beidseitig nicht brennbar verkleidet) bzw. EI60-EI30(nbb)②③ (Sprinkler). Erst
+    bei 7-8 Geschossen: Treppenhaus REI60(nbb), Korridor EI60(nbb) (blau, keine Holzbauteile
+    als Standardkonzept).
   - Beherbergungsbetriebe (Krankenhäuser): durchgehend EI60(nbb)/REI60(nbb) (Standardkonzept
     ohne Holzbauweise, blau hinterlegt).
   - Wohnbauten EFH/REFH: «Keine Anforderung» durchgehend (Fussnote ①: bei Einfamilienhäusern
@@ -323,8 +331,11 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
   (Fluchtwege) und Flachdach/Steildach/Aussenwand/Innenwand/Decke (Dämmschicht/Zwischenschicht),
   unterteilt nach Tragwerk bb (brennbar) oder nbb (nicht brennbar).
   - Blau markierte Felder = «Keine Anwendung von Holz (bzw. brennbaren Baustoffen) im Rahmen
-    eines Standardkonzeptes» (Legende S. 15) — betrifft v.a. Beherbergungsbetriebe
-    (Krankenhäuser/Hotels) bei Aussenwandverkleidung, teils Wandverkleidung.
+    eines Standardkonzeptes» (Legende S. 15) — betrifft in ALLEN Nutzungszeilen die Wand- und
+    Deckenverkleidung der Fluchtwege (Korridor/Treppenhaus), bei 4-8 Geschossen zusätzlich die
+    Dämmschichten Aussenwand/Innenwand/Decke bei brennbarem Tragwerk (bb); die
+    Aussenwandverkleidung ist nur bei Beherbergungsbetrieben [a] (Krankenhäuser) blau, bei
+    Beherbergungsbetrieben [b] (Hotels) nicht.
   - Fussnote ① Bei Einfamilienhäusern werden keine speziellen Anforderungen an die Verwendung
     brennbarer Baustoffe mit BKZ ≥ 4.2 gestellt; in Abhängigkeit der Haustechnikanlagen können
     dennoch nicht brennbare Materialien verlangt werden.

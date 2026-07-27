@@ -1,3 +1,62 @@
+## 2026-07-27 — Fassungs-Delta VKF-AH 1001-15 Wohnbauten: Fassung 2017/2018 entdeckt, Destillat korrigiert, frueherer Run-30-Befund widerlegt
+
+**Ausloeser:** Im bisher nicht inventarisierten Ordner `PL - 03 Brandschutz/00 Brandschutzplaene
+bsvonline.ch/` liegt unter `BSPUB-1394520214-185.pdf` die **volle Fassung 01.01.2017 / Stand
+17.05.2018** der VKF-Brandschutzarbeitshilfe 1001-15de (29 S.). Das Destillat
+`destillate/vkf-ah-1001-15-wohnbauten.md` stand auf `established` und beruhte allein auf der
+Fassung 01.01.2015.
+
+**Was gemacht wurde:** Volltextvergleich beider Fassungen (pdftotext -layout; die farbcodierten
+Tabellen 4.2.2.4, 4.2.3.2, 4.3.2, 4.4.1.2 und 6.3.1 zusaetzlich als 300-dpi-Bild geprueft, weil die
+Zellfarben RF1/RF2/RF3 im Textlayer nicht enthalten sind). Die amtliche Aenderungsliste (2017 S. 2,
+TK VKF 29.09.2016 + Fehlerkorrektur 17.05.2018 zu Ziff. 4.4.1.2) nennt 23 Ziffern; aufgeloest in
+Einzelabsaetze/Tabellen ergeben sich **35 Pruefstellen: 28 materiell, 7 redaktionell**, dazu 5
+redaktionelle Befunde ausserhalb der Liste.
+
+**WIDERLEGT:** Der Run-30-Eintrag vom selben Tag hielt fest, ein separates 4-seitiges
+Auszug-Dokument zeige «0 Abweichungen» in Ziff. 3, 5 und 6. Das ist falsch. Ziff. 5.1 Abs. 2 und 3
+sind amtlich geaendert (redaktionell, Abstandswerte 5/7.5/10 m bzw. 4/5/6 m identisch), Ziff. 3.3.2
+aendert «Brandschutzkonzeptplaene» zu «Brandschutzplaene», und Ziff. 6.3.1 ist **materiell**
+geaendert (Fussnote [2] der Standardloesungs-Tabelle: Bezugsflaeche neu «ueber Terrain»,
+REI-30-Geschossdecken nur noch auf EI 30 reduzierbar, Fussnote neu auch bei der Spalte
+Geschossdecken). Das 4-Seiten-Auszugsdokument ist als Verifikationsquelle unbrauchbar und wurde in
+den offenen Punkten des Destillats als solches markiert. Lehre: eine «keine Aenderung»-Aussage ist
+nur zulaessig, wenn beide Volltexte inkl. Tabellenzellen und Fussnoten vorlagen.
+
+**Die fuenf praxisrelevantesten materiellen Deltas:** (1) Ziff. 6.3.1 Fussnote [2] wie oben;
+(2) Ziff. 4.1 Abs. 2-4 komplett neu aufgebaut (vollflaechige Abdeckung statt Anwendungsverbot,
+neue cr-Positivliste a-i inkl. Bodenbelaegen ausserhalb der Fluchtwege); (3) Tabelle 4.3.2 neue
+Fussnote [7]: einzelne lineare tragende Bauteile in vertikalen Fluchtwegen duerfen RF3 und
+**sichtbar** sein (Holzbau-Lockerung), dazu neue Fussnote [6] Beherbergungsbetriebe;
+(4) systematische Lockerung RF2/RF3 auf RF3 (cr) an Fassade (punktuelle Befestigungen), Bedachung
+(Deckung Varianten 6-9), Lueftung und Kuechenabluft; (5) Ziff. 7.3.2 neu geschossbezogen mit
+Vorbehalt ebenerdiger Fluchtwege (Schwelle 900 m2 unveraendert).
+
+**Neue Begriffe:** Ziff. 2.3 «Einliegerwohnung» und Ziff. 2.4 «Galerie» (Luftraum > 50 % der
+Raumgrundflaeche) eingefuegt; dadurch Kapitel 2 umnummeriert (Geschosszahl 2.3 -> 2.5,
+Parkings 2.4 -> 2.6). Im Destillat als Konkordanztabelle festgehalten, damit Altzitate nicht ins
+Leere laufen. Weitere Titelaenderungen: «Bedachungen» -> «Dachkonstruktionen», «Rohrleitungen und
+-isolationen» -> «Rohrleitungen und -daemmungen».
+
+**Aenderungen am Destillat:** Frontmatter (quelle um beide 2017-Datei und die
+PL-03-Vergleichsdatei ergaenzt, ausgabe/datenstand auf beide Fassungen umgestellt, gelesen
+nachgefuehrt, `established` -> **`speculative`** mit Begruendung «Fassungs-Delta 2017/2018 neu
+eingearbeitet, noch nicht unabhaengig verifiziert», last_updated 2026-07-27); neuer Fassungshinweis
+am Kopf; neuer Abschnitt «Fassung 01.01.2017 / Stand 17.05.2018 — Delta zur Fassung 01.01.2015»
+(gegliedert nach Kapiteln, jede Aussage mit Ziffer/Absatz/Seite beider Fassungen); neuer Abschnitt
+«Praxis-Konsequenz fuer JANS» mit sieben ueberholten Aussagen; Kernziffern mit **[2017 geaendert]**
+markiert; Begriffs-Glossar und JANS-Praxis-Transfer nachgefuehrt; offene Punkte um Verifikations-
+bedarf, Ausgaben-Check auf praever.ch und den nicht inventarisierten PL-03-Ordner ergaenzt.
+
+**Registerpflege:** `destillate/INDEX.md` Zeile 1001-15 auf Fassung 2017/2018 und Status
+`speculative` gesetzt.
+
+**Handlungsbedarf:** (a) Ordner `PL - 03 Brandschutz/00 Brandschutzplaene bsvonline.ch/` als Ganzes
+inventarisieren — dort koennen weitere Arbeitshilfen in aktuelleren Fassungen liegen, die im Hub nur
+2015 gefuehrt werden; (b) unabhaengige Verifikation des Fassungs-Deltas fuer die Rueckhebung auf
+`established`; (c) klaeren, ob die VKF seit 2018 eine neuere Ausgabe/Vorschriftengeneration
+publiziert hat.
+
 ## 2026-07-27 — Run 30: PL-03-Bookkeeping korrigiert, Lignum-Unterordner destilliert+verifiziert
 - **Stale Handlungsbedarf behoben:** BRL 13-15/14-15-Re-Destillation in `norm-inventar.md` war
   bereits seit Run 23/24 (25.07.) erledigt, aber im PL-03-Abschnitt (aufgenommen 26.07.) nicht

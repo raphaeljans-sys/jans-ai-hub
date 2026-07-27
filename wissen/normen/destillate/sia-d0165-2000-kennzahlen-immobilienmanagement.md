@@ -28,9 +28,9 @@ Ertragskennzahlen waren für eine Folgeversion vorgesehen (nicht im Bestand nach
 Immobilienmanagement/Facility- und Portfolio-Bewirtschaftung: einheitliche Definitionen für
 Flächen-, Volumen-, Kosten- und Mietkennzahlen als Grundlage für Benchmarking, internes/
 externes Controlling und Mietverträge. Adressiert die Funktionsträger-Rollen Planer, Bauherr,
-Portfolio-Manager, Vermieter, Projekt-Manager, Eigentümer, Bewirtschafter, Benutzer,
-Lieferant, Verwalter, Dienstleister, Betreiber, Kunde, Mieter (Abb. 1, S. 5, vollständige
-14-Knoten-Liste). Kein bauordnungsrechtlicher Nachweis (dafür SIA 416 direkt); SIA D 0165 baut
+Portfolio Manager (Schreibweise Original ohne Bindestrich), Vermieter, Projekt-Manager,
+Eigentümer, Bewirtschafter, Benutzer, Lieferant, Verwalter, Dienstleister, Betreiber, Kunde,
+Mieter (Abb. 1, S. 5, vollständige 14-Knoten-Liste; Reihenfolge hier nicht diagrammtreu). Kein bauordnungsrechtlicher Nachweis (dafür SIA 416 direkt); SIA D 0165 baut
 auf SIA 416 auf, ergänzt sie aber um eine Vermietungs- und Kostenschicht, die SIA 416 selbst
 nicht kennt.
 
@@ -197,7 +197,9 @@ getrennt zu ermitteln, S. 19)
     Fassadenreinigung allg. Verkehrs-/Funktions-/Nebennutzflächen. Aus: Reinigung
     VWAGF/ZF innerhalb Mieteinheiten, techn. Reinigung Haustechnik (Nr. 325+326),
     Umgebungsreinigung (Nr. 328).
-  - **Sicherheitskosten SK** (Sicherheitsjahrbuch 97/98): Security (Schutz vor böswilligen
+  - **Sicherheitskosten SK** (Fn. 25: «Sicherheitsjahrbuch 97/98» [11]; das Original ist hier
+    in sich uneinheitlich, Literaturposition [11] nennt dieselbe Quelle als «Sicherheitshandbuch
+    für Deutschland, Österreich und die Schweiz 97/98»): Security (Schutz vor böswilligen
     Personen-Handlungen) + Safety (Schutz vor unbeabsichtigten menschl./techn. Ereignissen).
   - **Überwachungskosten ÜK** (Basis SIA 469): Ist-Zustands-Feststellung (= Inspektion
     DIN 18960), getrennt ÜK_BK/ÜK_TA.
@@ -240,7 +242,8 @@ getrennt zu ermitteln, S. 19)
   180/4 Anhang A1): Heizöl EL 42.7 MJ/kg; Heizöl schwer 40.2 MJ/kg; Flüssiggas 46 MJ/kg;
   Elektrizität 3.6 MJ/kWh; Steinkohle/Koks 29.3 MJ/kg; Braunkohlebriketts 20 MJ/kg; Holz
   lufttrocken (15% Feuchte) 15.5 MJ/kg; Holzschnitzel (30% Feuchte) 12.1 MJ/kg; Fernwärme
-  4.19 MJ/m³ je K Abkühlung.
+  4.19 MJ/m³ je K Abkühlung; Erdgas: kein fester Tabellenwert, oberer Heizwert pro m³ beim
+  Gaswerk zu erfragen, Hu = 0.9·Ho.
 
 ## 4 Berechnung der Parameter (S. 29-36)
 **Weitgehend Berechnungsformulare** (Kaskaden-/Kontenschemata mit %-Eingabefeldern); ergänzt
@@ -263,7 +266,11 @@ Demonstration zu lesen, NICHT als aktuelle Kostenbenchmark zu verwenden (24+ Jah
 17 Arbeitsplätze, Garage+Dachgeschoss+2 Büros an Dritte vermietet): GF 366.00 m², NGF
 288.45 m², HNF 222.30 m² (HNF2 Büro 170.59 m² = 76.7%), NF/GF 66.8%, HNF/GF 60.7%,
 HNF2/API 10.0 m²/Stk.; VMF\*/GF\* 66.4%, VWAGF/VMF\* 96.9%; BMK_VA/VWAGF 271 CHF/m²,
-BMK_VA/API 3'575 CHF/Stk., BMK_VA/GF\* 175 CHF/m².
+BMK_VA/API 3'575 CHF/Stk., BMK_VA/GF\* 175 CHF/m². Die unsternierten Werte auf S. 41
+(VMF 249.01 m², DMF 112.90 m²) ergeben sich durch Rückaddition der Fahrzeugabstellfläche
+NNF 7.4 (18.14 m²) auf die Sternwerte von S. 40. Die Plan-Beschriftung S. 38 nennt die
+1.OG-Treppe (9.18 m²) VF 9.1; die Flächenberechnung S. 39 rechnet sie zwingend unter VF 9.2
+(Summe 29.50 m²) — Beschriftungsfehler des Originals.
 
 **5.2 Wohn- und Verwaltungsgebäude** (Schweizer Kleinstadt, EG+1.OG Dienstleistungsbetrieb,
 2./3.OG je 3-Zi-Wohnung, 3.OG-Wohnung leerstehend): GF 560.60 m², NGF 400.13 m², HNF
@@ -284,8 +291,9 @@ NK/BMK_VA 36.6%, NK/VMF 23 CHF/m²; BK/NGF 33 CHF/m², BK/HNF 53 CHF/m², BK/BMK
   und Controlling (Implementierung, laufendes Massnahmen-/Benchmark-Controlling).
 - **Bruttorendite** (Quelle: Handbuch der Liegenschaftsverwaltung SHEV): Verhältnis
   Nettomietzinseinnahmen (Soll-Mietzinse ohne NK, ohne Zahlungsausfall-Korrektur) zu Anlagewert.
-- **Ertragswert EW** (Quelle: Schätzerhandbuch SVKG/SEK/SVIT): Kapitalisierung der
-  Mieterträge abzüglich üblicher Grundstückslasten.
+- **Ertragswert EW** (Quelle: Schätzerhandbuch SVGK/SEK/SVIT): die Kapitalsumme, die aus den
+  möglichen Erträgen eines Grundstücks nebst Deckung der üblichen Grundstückslasten verzinst
+  werden kann; ermittelt aus der Kapitalisierung der Mieterträge (S. 48).
 - **Immobilienmanagement**: Führung der Wertschöpfungsprozesse im Bau- und Immobilienwesen.
 - **Kennzahl**: elementarer Wert (z.B. BMK) oder Funktion von Werten (z.B. BMK/GF).
 - **Kennwert**: effektiver Wert der Kennzahl; bester Kennwert = Benchmark (Bsp. 25%).
@@ -298,18 +306,20 @@ NK/BMK_VA 36.6%, NK/VMF 23 CHF/m²; BK/NGF 33 CHF/m², BK/HNF 53 CHF/m², BK/BMK
   aus dem Bruttoertrag (= Nettomietzinseinnahmen vermindert um allfällige Zahlungsausfälle)
   abzüglich Zins-, Unterhalts-, Betriebs- und Verwaltungsaufwand berechnet, üblicherweise vor
   Abschreibungen/Rückstellungen/Risikoprämie.
-- **Realwert RW** (Schätzerhandbuch SVKG/SEK/SVIT): Zeitwert aller baulichen Anlagen +
+- **Realwert RW** (Schätzerhandbuch SVGK/SEK/SVIT): Zeitwert aller baulichen Anlagen +
   Vorbereitungs-/Umgebungsarbeiten/Baunebenkosten + Landwert.
-- **Verkehrswert VW** (Schätzerhandbuch SVKG/SEK/SVIT): marktvertretbarer Preis ohne
-  Rücksicht auf ungewöhnliche/persönliche Verhältnisse; wird unter Würdigung der
+- **Verkehrswert VW** (Schätzerhandbuch SVGK/SEK/SVIT): marktvertretbarer Preis bei
+  gleichbleibenden Marktverhältnissen, ohne Rücksicht auf ungewöhnliche/persönliche
+  Verhältnisse; wird unter Würdigung der
   Wirtschaftlichkeit einer Liegenschaft im Verhältnis zu deren Anlagewert ermittelt und ist
   daher abhängig von Ertrags- UND Realwert.
 
-## Anhang 1 — Flächenbaum (S. 49-50)
+## Anhang 1 — Flächenbaum (S. 50; Doppelseiten-Darstellung, PDF 50-51, die linke Blatthälfte trägt keine gedruckte Foliozahl)
 Vollständiger Baum SIA 416 (links) ↔ DIN 277 (rechts), Kopfebene:
 `GSF → GGF (→ AGF*, GF (→ KF, NGF[→ NF(→HNF+NNF), FF, VF])); GSF → UF (→ BUF, UUF)`.
-(Der Split KF → KFT+KFN erscheint im Original NICHT in diesem Baum, sondern erst im
-Flächenbaum "Vermietbare Fläche" — siehe Anhang 4.) DIN-277-Hauptkategorien mit erster
+(Der Split KF → KFT+KFN erscheint im Original NICHT in diesem Baum, sondern erst in den
+beiden Baumdiagrammen in Anhang 4; der Split steht ausserdem im Fliesstext S. 14 und in den
+Formularen S. 29-31.) DIN-277-Hauptkategorien mit erster
 Subcode-Zeile: HNF1-6, NNF7, FF8, VF9, BUF10 (Letztere nicht Teil der DIN 277,
 SIA-D-0165-eigene Ergänzung, S. 56 Fussnote 44). Vollständige Subcode-Liste siehe Anhang 2
 unten (identisch, hier nur Baumstruktur).
@@ -366,10 +376,13 @@ Fluchtbalkone) · 9.2 Treppen/Fahrtreppen/Rampen · 9.3 Schächte für Förderan
 5. **Einbauschränke** → jeweilige Hauptnutzfläche.
 6. **Hausdiensträume** → Nebennutzfläche **NNF 7.3** (Abstellräume).
 
-## Anhang 4 — Vermietbare Fläche, Flächenbaum (S. 58, Abb. 16)
+## Anhang 4 — Vermietbare Fläche, Flächenbaum (S. 58-59, Abb. 16 und Abb. 17)
 Zweigeteiltes Diagramm "Vermieter" (GF+AGF → KF[KFT/KFN]+NGF[NF(HNF/NNF)+FF+VF]) vs.
 "Mieter" (KFN+HNF+NNF-vermietbar+FF-vermietbar+VF-vermietbar+AGF-vermietbar → VMF →
-VWAGF + ZF) mit Zuordnungslinien Vermieter-Element → Mieter-Element.
+VWAGF + ZF) mit Zuordnungslinien Vermieter-Element → Mieter-Element (Abb. 16, S. 58).
+Abb. 17 "Bestimmung der Mietflächen" (S. 59): kolorierter Musterschnitt mit den Legenden
+vermietbar/nicht vermietbar, Aktenlift, nichttragende Trennwände, «Abschrägungen haben
+keinen Einfluss auf die VMF».
 
 ## Anhang 5 — Spezialfälle Vermietbare Fläche, Bemessungsregeln (S. 60-62)
 Grundsatz: Flächen werden bis zur begrenzenden Konstruktionsfläche gemessen, auch bei
@@ -392,7 +405,7 @@ bodentiefen Brüstungsverkleidungen; bei Verkaufsflächen bis Innenkante Schaufe
 - **Nichttragende Zwischenwände zwischen zwei Mieterzonen**: bis Mitte gemessen, hälftig
   aufgeteilt.
 
-## Anhang 6 — Kostengliederung DIN 18960 (1999) ↔ (1976) ↔ GEFMA 200 (S. 63-66)
+## Anhang 6 — Kostengliederung DIN 18960 (1999, Ausgabe 1999-08, Tabelle 1) ↔ (1976) ↔ GEFMA 200 (S. 63-66)
 Kreuzreferenz-Tabelle (mit Erlaubnis DIN wiedergegeben, hier nur strukturiert statt
 Volltext-Tabelle zusammengefasst — Details bei Bedarf im Original S.63-66 nachschlagen):
 DIN 18960(1999) gliedert in Hauptgruppen **100** Kapitalkosten, **200** Verwaltungskosten,
@@ -404,8 +417,8 @@ Hauptgruppe in Bauteilklassen untergliedert (z.B. 41x/42x: Gründung, Aussenwän
 Innenwände, Decken, Dächer, Anlagenklassen Abwasser/Wärme/Luft/Strom/Fernmelde/
 Förderanlagen/Gebäudeautomation). Parallel-Spalten: DIN 18960(1976) mit grober 6-Punkte-
 Gliederung (Kapital/Abschreibung/Verwaltung/Betrieb/Steuern/Bauunterhalt); GEFMA 200 mit
-eigener 3-stelliger Kontenlogik (2xx Betrieb, 4xx Dienste/Instandsetzung, 6xx
-Objektbuchhaltung/Finanzierung).
+eigener 3-stelliger Kontenlogik (2xx Betrieb, 4xx Dienste/Instandsetzung, 5xx Dienste [450
+Dienste in Aussenanlagen, 590 Sonstige Dienste], 6xx Objektbuchhaltung/Finanzierung).
 
 ## Anhang 7 — Literaturverzeichnis (S. 67, vollständig, 17 Positionen)
 1. SIA-Empfehlung 380/1 (1988) · 2. SIA-Norm 416 (1993) · 3. DIN 277 (1987) ·
@@ -414,9 +427,12 @@ Objektbuchhaltung/Finanzierung).
 9. DIN 18960 (1976) · 10. GEFMA 200 (1996) · 11. Sicherheitshandbuch 97/98 (SECURIMEDIA,
 1997) · 12. SIA-Norm 469 Erhaltung von Bauwerken (1997) · 13. SVIT-Kommentar Mietrecht II
 (2. Aufl. 1998) · 14. Umweltberichterstattung von Finanzdienstleistern (VfU, 1997) ·
-15. Schätzerhandbuch — Bewertung von Immobilien (SVKG/SEK/SVIT, 1998) · 16. Handbuch der
+15. Schätzerhandbuch — Bewertung von Immobilien (SVGK/SEK/SVIT, 1998; Anmerkung: die korrekte
+Verbandsbezeichnung lautet SVKG, das Original schreibt an allen drei belegten Stellen [Anhang 7
+Pos. 15, Fn. 36, Fn. 39] durchgehend SVGK, ein Schreibfehler des Originals) · 16. Handbuch der
 Liegenschaftsverwaltung (Blöchliger/Gratz/Kummerer, 3. Aufl., SHEV, 1994) ·
-17. Raumordnungskatalog (ARGE-BAU, Ergänzung zu DIN 277).
+17. Raumzordnungskatalog [Schreibweise des Originals; Fn. 40 S. 51 schreibt
+«Raumzuordnungskatalog»] (ARGE-BAU, Ergänzung zu DIN 277).
 
 **Wichtig für Fundstellen-Disziplin**: SIA D 0165 zitiert SIA 416 in der Ausgabe **1993**
 und DIN 277 in der Ausgabe **1987** — beide älter als die im Hub-Bestand geführten
@@ -456,28 +472,28 @@ eigenen fachlichen Zusatzwert).
   den gelesenen 73 Seiten nicht vorhanden (anders als bei manchen anderen SIA-Normen dieser
   KB). Möglicherweise entfällt er bei SIA-Dokumentationen (Kategorie "D", nicht Norm) generell;
   nicht abschliessend geklärt.
-- Seite 41 (Berechnungsbeispiel 5.1): unstarred Werte VMF=249.01 m² und DMF=112.90 m²
-  weichen von den auf S.40 hergeleiteten VMF\*/DMF\*-Werten ab — Bezug vermutlich auf eine
-  im Beispiel VOR S.39 liegende, nicht Teil dieses Leseauftrags gewesene Basistabelle ohne
-  Sternchen. Für die Kennzahlen-Definitionen selbst ohne Belang (nur das Zahlenbeispiel
-  betreffend); bei Bedarf am Original S.39 (vor dem gelesenen Bereich) nachprüfbar.
-  Nicht sicherheitsrelevant, da beide Rechenwege (mit/ohne Sternchen) korrekt dokumentiert sind.
-- Seite 38 (Grundriss 1.OG, Berechnungsbeispiel 5.1): VF-Subcode einer Treppenfläche (9.18 m²)
-  im Scan nicht zweifelsfrei lesbar (vermutlich VF 9.2 analog zu allen anderen Treppen im
-  selben Beispiel, aber nicht visuell verifiziert).
 - Anhang 6 (DIN-18960/GEFMA-200-Kreuztabelle) hier bewusst strukturiert zusammengefasst statt
   vollständig transkribiert (Umfang + Urheberrechts-Vorsicht bei DIN-Fremdinhalt); bei
   konkretem Bedarf einer einzelnen Kostenstelle das Original S.63-66 konsultieren.
 - Verhältnis zu SIA 416 in der heute gültigen Ausgabe 2003 (statt der hier zitierten
   Ausgabe 1993) nicht Gegenstand dieser Destillation — bei Detailwidersprüchen SIA 416:2003
   als das massgebliche, aktuellere Original behandeln.
-- Literaturverzeichnis Position 15 (S. 67): Abkürzung im Scan nicht zweifelsfrei lesbar
-  ("SVKG" vs. möglich "SVGK") — hier gemäss der in anderen JANS-KBs (`immobilienbewertung`)
-  etablierten Schreibweise "SVKG/SEK/SVIT" belassen; bei Bedarf am Original visuell
-  nachprüfen.
 - Anhang-Seitenangaben (Anhang 1-8): Verifikations-Run 29 hat einen systematischen Versatz
   zwischen PDF-Tool-Seitenindex und gedruckter Originalfolio aufgedeckt und alle
-  "S. XX"-Fundstellen in diesem Destillat entsprechend korrigiert (Anhang 1 S.49-50,
-  Anhang 2 S.51-56, Anhang 3 S.57, Anhang 4 S.58, Anhang 5 S.60-62, Anhang 6 S.63-66,
+  "S. XX"-Fundstellen in diesem Destillat entsprechend korrigiert (Anhang 1 S.50,
+  Anhang 2 S.51-56, Anhang 3 S.57, Anhang 4 S.58-59, Anhang 5 S.60-62, Anhang 6 S.63-66,
   Anhang 7 S.67, Anhang 8 S.68-70). Kapitel 1-6 (S.4-49) waren von diesem Versatz nicht
   betroffen (dort deckungsgleich).
+
+## Verifikationsstand
+- **27.07.2026, Run 31**: eine unabhängige Refuter-Runde über die 13 Korrekturen der Runde 1
+  (Run 29, 26.07.2026) plus 23 Stichproben. Ergebnis: 17 Befunde, alle eingearbeitet; 9 von 11
+  Prioritäts-1-Punkten der Runde 1 bestätigt.
+- **Verifizierte Seitenzählung** (Wortlaut): «PDF-Seite = gedruckte Seite für gedruckt 1-49.
+  PDF-Seite 50 trägt keine Foliozahl (linke Hälfte der Anhang-1-Doppelseite); ab PDF-Seite 51
+  gilt gedruckte Seite = PDF-Seite minus 1, bestätigt bis PDF 71 = gedruckt 70. PDF 72 und 73
+  sind unnummeriert.»
+- **Methodik-Befund** (Wortlaut): «Fünf der neun substanziellen Befunde lagen genau in
+  Passagen, die Runde 1 korrigiert oder neu hinzugefügt hatte. Das in dieser Wissensbasis seit
+  Run 23/24 dokumentierte Muster — frisch nachgetragener Text ist die höchste Fehlerquelle —
+  bestätigt sich hier deutlich.»
