@@ -7,6 +7,34 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-27
 
+**Logbuch-Radar (Nachhol-Lauf 21:45, Fenster 65 h).** Der Morgenlauf 04:55 und der Lauf vom
+26.07. sind am erschoepften Wochenlimit gescheitert; dieser Lauf deckt darum 25.07. frueh bis
+27.07. abend ab. **Erledigt:** Geschirrspueler Saumstrasse 21 ist beschafft (MERX AG,
+Bestellung 16611, Rechnung 74623 vom 27.07., Vorkasse bezahlt, ELECTROLUX GA55LISW +
+Tuerfront + Montage) — die Submission reap/NETTOSHOP ist damit gegenstandslos; Roethlisberger-
+Nachfass ist raus (RJ 27.07. 12:44, Budgetrahmen CHF 70'000 exkl. MwSt, Hochschraenke streichen,
+Geraetepreise gesondert, neue Frist 03.08.); die drei bereits vom Hub-Chef korrigierten
+Altzeilen (Ziegel-Korrekturfassung, TeKoSi-Termin, Jegen «definitive Offerte») sind ins Archiv
+verschoben. **Neu offen:** Rueckmeldung der KISPI-Fachstellen zu Tuerbuch + Sicherheitskonzept
+bis **31.07. 17:00** (RJ-Frist an Spahic/Kuebler; Schaefer bis 03.08. abwesend, Kuebler OOO —
+Fristrisiko); Montagetermin Geschirrspueler an Vermieter Salzmann melden; Dropbox-Kreditkarte
+laeuft Ende Monat ab. **Verfahrensstand KISPI 1171/26:** Feuerpolizei/SRZ bittet um Geduld und
+um Zustellung an `markus.gantenbein2@zuerich.ch`; UGZ-Zustaendigkeit liegt bei Hr. Hansen
+(Ferien), Stellvertreter **Shyam Zala**, Eingaben ueber EVEN, Lueftungsnachweis nach EN-105 —
+RJ hat 16:07 um Freischaltung von II.1.c) gebeten; **AFB-Zustaendigkeit fuer das Gebiet Weinegg
+neu Team 5, Ansprechperson Linus Furrer statt A. Hottinger** (Projekt-Stammdatum). **Termine
+neu:** 28.07. 11:30 Koordination LBW/Innere Verglasung Brandschutz (Stadelmann/Estermann,
+Auflagen Ziff. 17–20) und 31.07. 10:00 «UBS Termin bestaetigt: Finanzierungen» (Privatkalender,
+ohne Agenda; Gelegenheit fuer das seit 27.06. unbeantwortete AG-Kapitaleinzahlungskonto).
+Debitoren unveraendert: RE-00087 CHF 15'000 (102 Tage, Mahnung 2), RE-00098/99 CHF 17'280
+(7 Tage, Stufe 1, Frist 03.08.); RE-00100 Nova CHF 13'120 faellig 30.07., RE-00101 Tschopp
+CHF 6'000 faellig 31.07. Der Wochenlimit-Ausfall (26.07. 00:53 bis 27.07. 12:00, ~1'988 von
+2'186 MacBook- und ~3'942 von 4'093 Mini-Sessions abgebrochen) wurde vom Vollgas-Fruehwarner
+um 21:45 separat gemeldet — hier nur als Lagezeile, kein Doppelalarm; beide Runner laufen
+weiter, Wiederdrosselung ist Raphaels Entscheid. Sync-/Remote-Queues leer, outlook.com ohne
+Neueingang. Token 26.07.: MacBook 99.35 Mio. (~60 USD) + Mac Mini 75.67 Mio. (~33 USD).
+Briefing an rj@ versendet.
+
 **Nachtschicht-Zyklus Mac Mini (20:30-Lauf): sechs Identitaets-Fragen in `wissen/architekten-synobsis`
 recherchiert.** Vorlauf-Check ohne offene Sync-/Remote-Tasks, Synobsis-Scan weiter gesaettigt
 (853/853), Trainings-Loops frisch (letzte Laeufe alle < 1h alt). Stattdessen einen kleinen,

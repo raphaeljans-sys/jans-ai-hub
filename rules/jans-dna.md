@@ -170,10 +170,18 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   Fragen als bewusst komponierte Liste an einen unbekannten/fernen Erstkontakt nummerieren
   (1./2./3.)**, offene Spezifikationslisten als «_ »/«–» davon trennen (Fidelity 260725b); an
   einen bereits im laufenden Verfahren engagierten Fachplaner/Kontakt bleiben mehrere
-  Sequenzfragen dagegen unnummerierter Fliesstext in eigenen Absätzen (Fidelity 260725h/260726).
+  Sequenzfragen dagegen unnummerierter Fliesstext in eigenen Absätzen (Fidelity 260725h/260726);
+  im **engsten, eingespielten Peer-Du** (vertrauter Freelancer/Peer, laufender Thread) die
+  Rohheit des Originals halten: spontane Reihenfolge statt logischer Sortierung, Fliesstext-
+  Anschluss («Nun eine Frage: …», «Zweite Frage: …») statt Nummerierung, Urgenz-Titel statt
+  Anrede und ein grussloser oder nach dem Gruss noch nachgeschobener Schluss sind dort
+  **korrekt** und dürfen nicht geglättet werden (Fidelity 260727j/k/l, drei Belege).
 - **Don't:** Empfehlung ohne Grundlage; Auftrag ohne Zerlegung «im Block» abarbeiten;
   offene Enden ohne nächsten Schritt; eine Folge einzeln zu beantwortender Fragen als offene
-  Bullet-Liste tarnen.
+  Bullet-Liste tarnen; **den Formalisierungs-Reflex ins engste Peer-Du tragen** — dort
+  reflexhaft nummerieren, umsortieren, eine Anrede voranstellen oder einen Gruss-Rahmen
+  ergänzen, wo das Vorbild bewusst roh und flüchtig bleibt (wiederkehrende Twin-Drift,
+  Querschnittsbefund Fidelity 260727l).
 <!-- END AUTO: facetten -->
 
 ## Wann NICHT

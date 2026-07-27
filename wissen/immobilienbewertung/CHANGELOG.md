@@ -2,6 +2,40 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-27 — Training-Run 51: Delta-Serie durchbrochen — Marktpuls nach Drossel-Aufhebung reaktiviert
+
+- **[befund/prozess] Die Begruendung fuer 12 aufeinanderfolgende Delta-Null-Laeufe war seit dem
+  25.07.2026 hinfaellig.** Die Laeufe 39–50 haben den Marktpuls-Check jeweils mit «Drossel-Rule
+  260714» uebersprungen und daraus «kein neuer Befund» geschlossen. Die Drossel wurde am
+  25.07.2026 auf Anweisung Raphaels aufgehoben (Rule `auto-verbesserungen` 260725, «Vollgas wieder
+  aktiv») — die uebernommene Begruendung wurde danach ungeprueft weitergereicht. Erster Check nach
+  Aufhebung liefert sofort **zwei neue belegte Datenpunkte**. Kernlektion: eine aus dem Vorlauf
+  uebernommene Auslassungs-Begruendung ist bei jedem Lauf gegen die geltende Rule-Lage zu pruefen,
+  nicht zu kopieren.
+- **[artikel] `wiki/investorenmarkt-makro.md`** (`last_updated` 2026-07-12 → 2026-07-27, Status
+  bleibt `established`), zwei belegte Ergaenzungen, beide an der Primaerquelle gegengelesen:
+  - **SMG/Homegate-Mietindex Juni 2026 = 134.0** (+0.3 Pkt / +0.2 % MoM, **+2.5 % YoY**; publ.
+    13.07.2026) loest den Mai-Anker 133.7 ab **und bestaetigt ihn implizit** (134.0 − 0.3). Vierter
+    Monat in Folge bei +2.5 % YoY. Regionale YoY-Spitzen Nidwalden +8.3 % / Graubuenden +6.7 % /
+    Genf +5.3 %; JANS-Kernmarkt Zuerich +3.3 %; groesster Monatssprung **Schwyz +2.3 % MoM**.
+  - **⚠ Wuest Partner Immo-Monitoring Q2-2026** (publ. 16.07.2026): **EFH +1.5 % QoQ / +4.3 % YoY**,
+    **ETW +1.0 % QoQ / +4.3 % YoY** — erste **Ist-Werte** gegen die Prognose. Die realisierte
+    Jahresrate liegt **~1.2–1.5 Pp ueber der Sommerprognose** (EFH +3.1 % / ETW +2.8 %), die
+    Prognose wurde nicht revidiert → Prognose und Ist sind auseinandergelaufen. Fuer
+    Vergleichswert-/Marktwertansaetze ist die **Ist-Reihe der belastbarere Anker**, die Prognose
+    die konservative Untergrenze.
+- **[leitplanke] Bewusst NICHT uebernommen:** die Rendite 10-j Eidgenossen. Die Recherche lieferte
+  nur undatierte Live-Snapshots (~0.42–0.51 %) ohne Stichtag; der KB-Wert ~0.32–0.40 % (Juni 2026)
+  bleibt stehen, die moegliche Aufwaertsabweichung ist als offener Punkt vermerkt statt geraten.
+- **[bestaetigt unveraendert]** SNB-Leitzins 0.00 % (Lagebeurteilung 18.06.2026, naechster Entscheid
+  24.09.2026), Referenzzins 1.25 % (bestaetigt 02.06.2026, naechste Publ. 01.09.2026),
+  Durchschnittszinssatz 1.31 % per 31.03.2026, BFS-Baupreisindex April 2026 = 100.6 (naechste
+  Publ. Okt-2026), SREBI Q2-2026 weiterhin nicht publiziert (Q1 = 0.69 bleibt Anker). Kein neuer
+  JANS-Bewertungsfall (Bewertungsordner inkl. Aenderungsdaten gelistet, juengster weiterhin
+  Wangen 8855 vom 09.06.2026). Kollisionsschutz (Rule 260724) geprueft, keine Zweitinstanz.
+  Keine Anpassung der Diskont-/Kapitalisierungssaetze.
+- Bericht: `outputs/2026-07-27_training-run51.md`.
+
 ## 2026-07-26 — Wissens-Chef Run 16 (Cross-KB): Abnehmer-Block in `realwert-sachwert` gesetzt
 - **[verlinkung] Die fuehrende Healthcare-Kennwertquelle kannte ihre Abnehmer nicht.** `wiki/realwert-sachwert.md` ist laut Rollen-Matrix fuehrend fuer CHF/m3 GV und CHF je Pflegeplatz, hatte aber null Treffer fuer «entwurfs-referenzen», «parameter-set» oder «wettbewerbs-dna» — eine kuenftige Aenderung des Bands waere bei den Abnehmern unbemerkt geblieben. → Abnehmer-Block gesetzt (Parameter-Set `healthcare-neubau-zh.json` v2.0, Skills `healthcare-wirtschaftlichkeit` und `machbarkeit`), mit dem ausdruecklichen Hinweis, dass das Teilband 1'053-1'420 nur die sechs Neubauten ab 2019 betrifft, waehrend das Gesamtband 826-1'420 (Median ~1'100) gilt. Werte unveraendert.
 - Bericht: `wissen/koordination/outputs/2026-07-26_wissens-chef-run16.md`.

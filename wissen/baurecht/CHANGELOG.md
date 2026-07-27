@@ -4,6 +4,38 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-27 — Buch-Run 68 (Festigungsmodus, Priorität c Erst-Verifikation Enteignung/Entschädigung)
+- [verifikation] **`wiki/enteignung-und-entschaedigung.md`** — erster Modell-D-Lauf seit
+  Erstellung (2026-07-04): alle 14 PBG-Fundstellen (§§ 41-43a/62/64/65/102/103/119/122/165/
+  202/212/214/235/346) gegen `raw/260607_amtlich_zh_pbg.md` (Nachtrag 133) — alle CONFIRMED,
+  0 Korrekturen. Status **emerging → established**, erstmaliges `verifiziert`-Feld ergänzt.
+- [neu] **`raw/260727_amtlich_zh_abtrg.md`** — vollständiger amtlicher Volltext des AbtrG
+  (LS 781, Nachtrag 099) erstmals in die KB aufgenommen; bisher nur aus dem Buchzitat
+  übernommen, nie live geprüft.
+- [erweitert] **`raw/260725_amtlich_zh_egzgb.md`** — um §§ 180-183quater EG ZGB
+  («Enteignungsähnliche Beschränkungen») ergänzt (bisher nur §§ 168-179 im Bestand).
+- [fund] **§ 28 AbtrG → § 29 AbtrG:** «gütliche Einigung» im Enteignungsverfahren steht in
+  § 29 AbtrG (§ 32 AbtrG verweist explizit auf «die in § 29 vorgesehene gütliche
+  Verständigung»), nicht § 28 (regelt nur die Bekanntmachungspflicht der §§ 26/27). Korrigiert
+  in `wiki/enteignung-und-entschaedigung.md`, `buecher/band-1/05-planung-und-entschaedigung.md`
+  UND (Register-Sweep-Fund) `buecher/band-1/09-rechtsschutz-teil2-ablauf-kosten-revision.md`
+  (unabhängige zweite Fundstelle desselben Fehlers).
+- [fund] **§§ 40/41 AbtrG → §§ 33/34 AbtrG:** die vier Schätzungskommissionen/-kreise stehen
+  in §§ 33/34 AbtrG (Organisationsnorm), nicht §§ 40/41 (regeln Vorladung/Auskunftsrechte im
+  laufenden Verfahren). Korrigiert in Wiki + Destillat.
+- [fund] **§ 183 Abs. 3 EG ZGB → § 183bis Abs. 3 EG ZGB:** die Verzinsungsregel für die
+  materielle Enteignungsentschädigung steht in § 183bis Abs. 3 — § 183 EG ZGB selbst ist seit
+  24.10.2011 (Kantonales Geoinformationsgesetz) aufgehoben und im Gesetzestext nur noch als
+  leere Nummer vorhanden. § 183ter (10-J-Anmeldefrist) und § 183quater (5-J-Rückerstattung)
+  CONFIRMED unverändert. Korrigiert in Wiki + Destillat.
+- [fassungsstand] **AbtrG (LS 781) erstmals live gegen zhlex.zh.ch geprüft:** aktuelle Fassung
+  Nachtrag 099 (in Kraft seit 1.1.2018), keine neuere Revision — die vom Buch genannte
+  Revisionsbedürftigkeit (RRB 58/2005) bleibt bis heute unumgesetzt. EG ZGB weiterhin
+  Nachtrag 133, kein Drift.
+- [register-sweep] `wiki/INDEX.md` Statusmarker (emerging → established) nachgezogen.
+- [drills] 3 neue Karten (2×A, 1×D) in `training/drills.md`.
+- Report `outputs/2026-07-27_buch-run68.md`.
+
 ## 2026-07-27 — Buch-Run 67 (Festigungsmodus, Priorität c Erst-Verifikation Nebenbestimmungen/Revers)
 - [verifikation] **`wiki/nebenbestimmungen-und-reverse.md`** — erster Modell-D-Lauf seit
   Erstellung (2026-06-19): §§ 320/321/326/73/100/101/244/360 PBG gegen

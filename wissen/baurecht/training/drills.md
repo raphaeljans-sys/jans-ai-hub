@@ -2325,6 +2325,60 @@ Priorität-(c)-Kandidaten, oder Fortsetzung des Fassungsstand-Sammelchecks kanto
   gegen den amtlichen Text gegenzuprüfen ist, wenn die Aussage inhaltlich unplausibel wirkt.
   _[2026-07-27]_
 
+- **A (Frage→Beleg-Drill):** Wo steht die «gütliche Einigung» im Enteignungsverfahren nach
+  AbtrG (LS 781) — § 28 oder § 29? — **A: § 29 AbtrG.** § 29 Abs. 1 AbtrG verpflichtet den
+  Expropriant, «vorerst den Versuch zu machen, sich mit denjenigen... über... das Mass der
+  Entschädigung zu verständigen». § 28 AbtrG regelt nur, dass die §§ 26/27 (Bauverbot ab
+  Planauflage) in die Bekanntmachung nach § 23 aufzunehmen sind. Zweifelsfrei bestätigt durch
+  § 32 AbtrG, der ausdrücklich auf «die in § 29 vorgesehene gütliche Verständigung»
+  zurückverweist. Die KB zitierte seit Ersterfassung (Buch-Run 21, 2026-07-04) durchgängig
+  § 28 — Korrektur in [[enteignung-und-entschaedigung]] + zwei Destillaten. _[2026-07-27]_
+- **D (Gegenprobe/Adversarial):** Die KB nannte «§§ 40/41 AbtrG» als Fundstelle für die vier
+  Schätzungskommissionen (Spezialverwaltungsgerichte). Stimmt das? — **A: Nein.** § 40 AbtrG
+  regelt die Vorladung der Parteien acht Tage vor der Verhandlung, § 41 die Auskunftsrechte
+  der Schätzer während der Schätzung — beides Verfahrensschritte, keine Organisationsnorm.
+  Die vier Schätzungskreise mit ihrer Zusammensetzung stehen in **§§ 33/34 AbtrG**. Lehre:
+  eine Zahl («vier») im Fliesstext lässt sich nicht automatisch der zuletzt genannten
+  Paragraphenreihe zuordnen — jede Fundstelle einzeln am Wortlaut verifizieren.
+  _[2026-07-27]_
+- **A (Frage→Beleg-Drill):** In welchem Paragraphen des EG ZGB steht die Verzinsungsregel
+  für die materielle Enteignungsentschädigung («Zinsenlauf ab Geltendmachung»)? — **A: § 183bis
+  Abs. 3 EG ZGB**, nicht § 183. § 183 EG ZGB ist seit dem Kantonalen Geoinformationsgesetz vom
+  24.10.2011 aufgehoben und steht nur noch als leere Nummer im Gesetzestext (Fussnote 71 im
+  amtlichen PDF). Die materiellen Bestimmungen zur enteignungsähnlichen Beschränkung folgen
+  erst ab § 183bis (Entschädigungspflicht + Verzinsung), § 183ter (10-Jahres-Anmeldefrist,
+  CONFIRMED) und § 183quater (5-Jahres-Rückerstattung bei Milderung, CONFIRMED). Muster: eine
+  «glatte» Paragraphennummer ohne Buchstabenzusatz kann trotzdem aufgehoben sein, wenn sich
+  das Gesetz seither um sie herum entwickelt hat (Bst.-Anhängsel wie «bis/ter/quater» sind oft
+  das Indiz für eine spätere Einfügung, deren Basisnorm selbst leer wurde). _[2026-07-27]_
+
+**Ergebnis Buch-Run 68 (2026-07-27, Festigungsmodus, Priorität c Erst-Verifikation,
+kein Agent-Fan-out):** [[enteignung-und-entschaedigung]] gewählt (letzter der beiden nie
+durch den Modell-D-Loop gelaufenen `emerging`-Artikel, von Run 67 empfohlen). Vollständiger
+Wortlautabgleich aller 14 PBG-Fundstellen (§§ 41-43a/62/64/65/102/103/119/122/165/202/212/
+214/235/346) gegen `raw/260607_amtlich_zh_pbg.md` (Fassungsstand weiterhin Nachtrag 133) —
+**alle CONFIRMED, 0 Korrekturen.** AbtrG (LS 781) und EG ZGB (LS 230, §§ 183ff.) waren in
+der KB bislang **nur aus dem Buchzitat übernommen, nie live am amtlichen Volltext geprüft**
+— beide erstmals frisch von zhlex.zh.ch geladen (neue Primärquellen `raw/260727_amtlich_zh_
+abtrg.md` + Erweiterung `raw/260725_amtlich_zh_egzgb.md` um §§ 180-183quater). **2 echte
+Zitierfehler gefunden und korrigiert:** (1) «gütliche Einigung» steht in **§ 29 AbtrG**, nicht
+§ 28 (§ 32 AbtrG verweist explizit auf «die in § 29 vorgesehene gütliche Verständigung»); (2)
+die vier Schätzungskommissionen/-kreise stehen in **§§ 33/34 AbtrG**, nicht §§ 40/41 (diese
+regeln Vorladung/Auskunftsrechte). (3) Der Zinsenlauf-Satz steht in **§ 183bis Abs. 3 EG ZGB**,
+nicht § 183 (dieser ist seit 2011 aufgehoben). §§ 39/46/54/56 AbtrG sowie § 183ter/§ 183quater
+EG ZGB CONFIRMED ohne Korrektur. AbtrG-Fassungsstand erstmals geprüft: Nachtrag 099 (aktuell,
+in Kraft seit 1.1.2018), keine neuere Revision — die im Buch vermerkte Revisionsbedürftigkeit
+(RRB 58/2005) ist bis heute nicht umgesetzt. Register-Sweep: derselbe § 28-Fehler auch in
+`buecher/band-1/09-rechtsschutz-teil2-ablauf-kosten-revision.md` (eigene, unabhängige
+Paragraphenliste) gefunden und korrigiert. Status **emerging → established** angehoben,
+erstmaliges `verifiziert`-Feld ergänzt, `wiki/INDEX.md` Statusmarker nachgezogen. **0
+Halluzinationen, 3 echte Zitierfehler gefunden und korrigiert, 1 Fassungsstand erstmals
+bestätigt, 0 Fehler im PBG-Kernbestand.** 3 neue Drill-Karten (2×A, 1×D). Report
+`outputs/2026-07-27_buch-run68.md`. **«Rückstand abgebaut» weiterhin NICHT ausgerufen**
+(Leitplanke Run 48: Daueraufgabe) — **nächster Schritt:** [[grundlagen-planungs-baurecht]]
+als letzter verbleibender nie verifizierter `emerging`-Artikel, danach beginnt ein neuer
+Umlauf über die inzwischen ältesten `verifiziert`-Daten unter den `established`-Artikeln.
+
 **Ergebnis Buch-Run 67 (2026-07-27, Festigungsmodus, Priorität c, kein Agent-Fan-out):**
 [[nebenbestimmungen-und-reverse]] gewählt (von Run 66 empfohlen, eines von drei nie durch den
 Modell-D-Loop gelaufenen `emerging`-Artikeln). Vollständiger Wortlautabgleich §§ 320/321/326/

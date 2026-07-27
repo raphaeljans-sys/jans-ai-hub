@@ -2022,3 +2022,40 @@ Daraus belegt beantwortet:
   Sie-Tabelle. Zeichnet sich ein Muster ab: der Leerschlag-Marker gilt zuverlässig in
   Fliesstext-Prosa, bricht aber bei kurzen technischen Kennwerten/Formeln im Satz. Braucht
   weitere Beobachtung, bevor die DNA-Regel präzisiert wird. → [[stimme]]
+
+## Runde 260727l — Fidelity-Review (Korpus-Abschluss, Formalisierungs-Reflex)
+
+- **Dritter Gruss-Typ fehlt in der Typologie — Facetten-Spannung [[stimme]] ↔ [[arbeitsweise]]:**
+  Die DNA-Gruss-Regel kennt genau zwei Fälle («operativ → Kurzgruss Lieber Gruss/Lgr»,
+  «dokumentierend → Freundliche Grüsse + voller Block»). Die belegte **Nullform** (gar kein Gruss,
+  Bildregie-Korrektur an den Freelancer 01.09.2025) und der **nach dem Gruss nachgeschobene
+  Nachsatz** (15.10.2025) passen in keinen der beiden Töpfe — die Typologie ist unvollständig,
+  nicht falsch. Frage an Raphael: Wann lässt Du den Gruss ganz weg? Ist das (a) eine Funktion der
+  Vertrautheit (ab einem bestimmten Peer nie mehr Gruss), (b) der Eile, oder (c) des Thread-Standes
+  (im laufenden Ping-Pong entfällt er, in der ersten Mail des Tages nicht)? *Warum: der Zwilling
+  setzt derzeit im Zweifel immer einen Gruss und wird dadurch im engsten Register systematisch zu
+  höflich.* → [[stimme]], [[arbeitsweise]]
+
+- **Nachsatz hinter der Grussformel — Absicht oder Nachtrag?:** «Lieber Gruss Raphael / Und danke
+  das Du da so durchgehalten hast.» (an den 3D-Freelancer, 15.10.2025). Der wärmste Satz der Mail
+  steht **hinter** dem Gruss. Frage: Schiebst Du solche persönlichen Sätze bewusst nach (damit sie
+  nicht wie eine eingerahmte Höflichkeitsformel wirken), oder fällt Dir das schlicht erst nach dem
+  Tippen des Grusses ein? *Warum: entscheidet, ob der Zwilling diese Position aktiv nachbauen soll
+  oder ob sie ein Artefakt ist, das er nicht imitieren muss.* → [[stimme]]
+
+- **«Gel» als Opener und Umgangsmarker:** «Zweite Frage: **Gel** zeitlich bist du konmplett
+  absorbiert mit Studium?» Frage: Ist «Gel» für Dich auf den engsten Peer-Kreis beschränkt, oder
+  benutzt Du es auch gegenüber vertrauten Handwerkern/Unternehmern im Du? *Warum: die DNA erlaubt
+  den «Gel»-Opener bisher nur im Peer-Du; falls er weiter reicht, fehlt dem Zwilling ein warmer
+  Registerton gegenüber Handwerkern.* → [[stimme]], [[beziehungsregister]]
+
+- **Korpus-Grenze erreicht — Frage nach neuen Quellen:** Beide Geschäftspostfächer sind jetzt
+  nachweislich **lückenlos** destilliert (`rj@` ab der allerersten Mail 04.07.2025, `mail@` ab
+  09.07.2025, beide bis heute). Neues authentisches Stil-Material kann nur noch aus (a) neu
+  eintreffenden Mails, (b) **Korrektur-Deltas** (Claude-Entwurf → Deine Fassung) oder (c) bisher
+  ungenutzten Kanälen entstehen. Frage an Raphael: Gibt es einen weiteren authentischen Vor-Claude-
+  Fundus, den wir noch nicht erschlossen haben — z.B. exportierte Mails aus der Zeit **vor** dem
+  M365-Tenant (vor 07/2025, etwa aus dem alten Konto/Archiv-PST), WhatsApp-/SMS-Geschäftsverkehr,
+  handschriftliche Protokolle oder ältere Word-Briefe im NAS-Archiv? *Warum: das ist ab jetzt der
+  einzige Weg, den Zwilling substanziell weiterzubringen — ohne neue Quelle sind die Läufe auf
+  Korrektur-Deltas beschränkt.* → alle Facetten

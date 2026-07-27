@@ -1,5 +1,56 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## 2026-07-27 (Buch-Run 68, Festigungsmodus, Priorität c Erst-Verifikation) — enteignung-und-entschaedigung: 2× AbtrG-Zitierfehler + 1× EG-ZGB-Zitierfehler korrigiert, AbtrG erstmals live geprüft
+
+[[enteignung-und-entschaedigung]] (letzter der beiden nie durch den Modell-D-Loop
+gelaufenen `emerging`-Artikel, von Run 67 empfohlen) einem vollständigen Wortlautabgleich
+unterzogen. **PBG-Teil** (14 Fundstellen §§ 41-43a/62/64/65/102/103/119/122/165/202/212/
+214/235/346) gegen `raw/260607_amtlich_zh_pbg.md` — alle CONFIRMED, 0 Korrekturen.
+
+**AbtrG (LS 781) und EG ZGB §§ 183ff. waren bislang nur aus dem Buchzitat übernommen, nie
+live am amtlichen Volltext geprüft** — beide erstmals frisch von zhlex.zh.ch geladen
+(`raw/260727_amtlich_zh_abtrg.md` neu, `raw/260725_amtlich_zh_egzgb.md` um §§ 180-183quater
+erweitert).
+
+**Fund 1 — § 28 AbtrG → § 29 AbtrG:** die «gütliche Einigung» im Enteignungsverfahren steht
+in § 29 AbtrG («... über das Mass der Entschädigung zu verständigen»), nicht § 28 (regelt
+nur die Aufnahme der §§ 26/27-Bauverbote in die Bekanntmachung nach § 23). Zweifelsfrei
+bestätigt durch § 32 AbtrG, der ausdrücklich auf «die in § 29 vorgesehene gütliche
+Verständigung» zurückverweist. Derselbe Fehler stand unabhängig auch in
+`buecher/band-1/09-rechtsschutz-teil2-ablauf-kosten-revision.md` (eigene Paragraphenliste,
+Register-Sweep-Fund) — beide korrigiert.
+
+**Fund 2 — §§ 40/41 AbtrG → §§ 33/34 AbtrG:** die vier Schätzungskommissionen (Milizsystem,
+Spezialverwaltungsgerichte) stehen in §§ 33/34 AbtrG (Schätzungskreise + Wahl der Schätzer),
+nicht §§ 40/41 (regeln Vorladung acht Tage vor der Verhandlung bzw. Auskunftsrechte der
+Schätzer im laufenden Verfahren — reine Verfahrensnormen, keine Organisationsnorm).
+
+**Fund 3 — § 183 Abs. 3 EG ZGB → § 183bis Abs. 3 EG ZGB:** der Zinsenlauf-Satz («Die
+Entschädigung wird... verzinst, in dem der Berechtigte sie geltend macht») steht in § 183bis
+Abs. 3 EG ZGB. § 183 EG ZGB selbst ist seit 24.10.2011 (Kantonales Geoinformationsgesetz)
+aufgehoben und im amtlichen Gesetzestext nur noch als leere Nummer vorhanden (Fussnote 71).
+
+**Bestätigt ohne Korrektur:** §§ 39/46/54/56 AbtrG (Gesuch Statthalter, 20-Tage-Rekursfrist,
+vorzeitige Besitzeinweisung, Rechtsübergang mit Zahlung), § 183ter Abs. 1 EG ZGB
+(10-Jahres-Anmeldefrist) und § 183quater EG ZGB (5-Jahres-Rückerstattung bei Milderung).
+
+**Fassungsstand:** AbtrG (LS 781) erstmals live geprüft — aktuelle Fassung Nachtrag 099
+(in Kraft seit 1.1.2018), keine neuere Revision seither. Die vom Buch (Stand 2019) genannte
+Revisionsbedürftigkeit (Auftrag RRB 58/2005) ist bis heute (27.07.2026) nicht umgesetzt —
+kein Fassungsstand-Drift, sondern zwei eigenständige Zitierfehler unabhängig von einer
+Gesetzesrevision. EG ZGB weiterhin Nachtrag 133, kein Drift gegenüber der letzten Prüfung
+(2026-07-25).
+
+Status **emerging → established** angehoben, erstmaliges `verifiziert`-Feld ergänzt.
+Weiterhin offen (unverändert seit Erstellung, nicht Gegenstand dieses Laufs): **ZH-
+Mehrwertausgleich (MAG)** — Buchstand 2019 = Entwurf/Einzonungsstopp, am heutigen kant.
+Recht gegenprüfen, bevor Prozentsätze extern zitiert werden.
+
+**Nächster Schritt:** [[grundlagen-planungs-baurecht]] als letzter verbleibender nie
+verifizierter `emerging`-Artikel.
+
+---
+
 ## 2026-07-27 (Buch-Run 67, Festigungsmodus, Priorität c Erst-Verifikation) — nebenbestimmungen-und-reverse: Fassungsstand-Drift § 10a→§10b VRG + invertierte Polarität Art. 164 GBV korrigiert
 
 [[nebenbestimmungen-und-reverse]] (von Run 66 als einer von drei nie verifizierten

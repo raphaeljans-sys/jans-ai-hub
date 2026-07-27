@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-27 (Run 67)
+last_updated: 2026-07-27 (Run 68)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -113,6 +113,31 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 68 (2026-07-27, Festigungsmodus, Priorität (c) Erst-Verifikation, kein Agent-Fan-out):**
+    [[enteignung-und-entschaedigung]] gewählt (letzter der beiden nie durch den Modell-D-Loop
+    gelaufenen `emerging`-Artikel, von Run 67 empfohlen). Vollständiger Wortlautabgleich aller
+    14 PBG-Fundstellen (§§ 41-43a/62/64/65/102/103/119/122/165/202/212/214/235/346) gegen
+    `raw/260607_amtlich_zh_pbg.md` (Nachtrag 133) — **alle CONFIRMED, 0 Korrekturen.** AbtrG
+    (LS 781) und EG ZGB §§ 183ff. waren bislang nur aus dem Buchzitat übernommen, nie live
+    geprüft — beide erstmals frisch von zhlex.zh.ch geladen (neue Primärquelle
+    `raw/260727_amtlich_zh_abtrg.md`, Erweiterung `raw/260725_amtlich_zh_egzgb.md` um
+    §§ 180-183quater). **3 echte Zitierfehler gefunden und korrigiert:** (1) «gütliche
+    Einigung» steht in § 29 AbtrG, nicht § 28 (§ 32 AbtrG verweist explizit auf «die in § 29
+    vorgesehene gütliche Verständigung»); (2) die vier Schätzungskommissionen/-kreise stehen
+    in §§ 33/34 AbtrG, nicht §§ 40/41; (3) der Zinsenlauf-Satz steht in § 183bis Abs. 3 EG ZGB,
+    nicht § 183 (dieser ist seit 2011 aufgehoben). §§ 39/46/54/56 AbtrG sowie § 183ter/
+    § 183quater EG ZGB CONFIRMED. AbtrG-Fassungsstand erstmals geprüft: Nachtrag 099 (aktuell,
+    1.1.2018), keine neuere Revision trotz vom Buch (Stand 2019) vermerkter
+    Revisionsbedürftigkeit (RRB 58/2005) — bis heute unumgesetzt. Register-Sweep: derselbe
+    § 28-Fehler unabhängig auch in `buecher/band-1/09-rechtsschutz-teil2-ablauf-kosten-
+    revision.md` gefunden und korrigiert. Status **emerging → established** angehoben,
+    erstmaliges `verifiziert`-Feld ergänzt, `wiki/INDEX.md` Statusmarker nachgezogen. **0
+    Halluzinationen, 3 echte Zitierfehler korrigiert, 1 Fassungsstand erstmals bestätigt.**
+    3 neue Drill-Karten (2×A, 1×D). Report `outputs/2026-07-27_buch-run68.md`.
+    **«Rückstand abgebaut» weiterhin NICHT ausgerufen** (Leitplanke Run 48). **Nächster
+    Schritt:** [[grundlagen-planungs-baurecht]] als letzter verbleibender nie verifizierter
+    `emerging`-Artikel — danach beginnt ein neuer Umlauf über die inzwischen ältesten
+    `verifiziert`-Daten unter den `established`-Artikeln.
   - **Run 67 (2026-07-27, Festigungsmodus, Priorität (c) Erst-Verifikation, kein Agent-Fan-out):**
     [[nebenbestimmungen-und-reverse]] gewählt (von Run 66 empfohlen, eines von drei nie durch den
     Modell-D-Loop gelaufenen `emerging`-Artikeln). Vollständiger Wortlautabgleich §§ 320/321/326/

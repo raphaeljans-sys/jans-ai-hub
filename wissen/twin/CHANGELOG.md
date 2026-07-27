@@ -4,6 +4,33 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-27 — `twin-fidelity-review` (Runde 260727l, zwoelfter Lauf des Tages, KORPUS-ABSCHLUSS
+  + erste umgesetzte Arbeitsweise-Korrektur).** Kollisionsfrei (ps/PPID-Check). **Harter
+  Korpus-Abschlussbeweis:** `rj@` Sent Items enthaelt keine Mail vor dem 04.07.2025 (Postfach-
+  Ursprung; Abfrage Maerz/April 2025 = 0 Treffer), und Batch 01 setzt exakt dort an — die
+  Batch-Kette laeuft von der allerersten Mail lueckenlos bis 2026-07, `mail@` parallel ab
+  09.07.2025. Damit existiert auf beiden Geschaeftspostfaechern **kein unerschlossenes Fenster
+  mehr, weder vorwaerts noch rueckwaerts** (haerter als die Tagesdiagnose 260727i; widerlegt die
+  Rueckwaerts-Sweep-Empfehlung aus 260727j/k, deren Fenster Sept/Okt 2025 bereits via Batch 15/17/18
+  destilliert waren). **Unbeabsichtigter Recall-Test:** die vor Lektuere fixierten Blindfassungen
+  rekonstruierten die ESTV-MWST-Abmeldung (03.10.2025) nahezu woertlich (Anrede, «ersuche ich Sie»,
+  Art. 10 Abs. 2 lit. a MWSTG, Subsumtionsformel, Antrag+Bestaetigung, FG+Block ohne Service-Satz);
+  zwei echte Abweichungen: Norm**inhalt** ungenau (Ein- statt Zweijahresregel) und Abmeldung als
+  Bitte statt als Gestaltungserklaerung. Ergebnis bewusst als **Recall-Fidelity ~88** ausgewiesen,
+  NICHT als Generalisierungs-Fidelity (mangels unerschlossenem Material derzeit nicht messbar).
+  **Umgesetzt (Ertrag des Laufs):** die seit 260727k offene, dort nur empfohlene Arbeitsweise-
+  Korrektur — mit dem dritten unabhaengigen Beleg (Yorck-Zahlungsfrage 15.10.2025: spontane
+  Doppelfrage ohne Nummerierung, «Gel»-Opener, Dank NACH dem Gruss) ist die Einzelbeleg-Schwelle
+  ueberschritten. `arbeitsweise.md` Do-Block ergaenzt (im engsten Peer-Du Rohheit halten: spontane
+  Reihenfolge, Fliesstext, Urgenz-Titel statt Anrede, gruss-loser/nachgeschobener Schluss sind
+  KORREKT), Don't-Block ergaenzt (Formalisierungs-Reflex nicht ins engste Peer-Du tragen), neuer
+  Beleg-Abschnitt «Gegenbeleg-Sammlung» mit allen drei Datenpunkten. **Gehirn neu kompiliert**
+  (`build_dna.py`, Regel in `rules/jans-dna.md` Z. 175/181 verifiziert). Neue Facetten-Spannung
+  vermerkt: die Gruss-Typologie in `stimme` kennt nur zwei Faelle, die belegte Nullform und der
+  Nachsatz-hinter-dem-Gruss passen in keinen — nicht geglaettet, sondern vorgelegt. Vier neue
+  Fragen in `QUESTIONS.md` (Runde 260727l), darunter die Kernfrage nach einer bisher unerschlossenen
+  Vor-Claude-Quelle. Report: `outputs/2026-07-27l_fidelity.md`.
+
 - **2026-07-27 — `twin-mail-training` (Batch 80, Luecken-Sweep `rj@` September 2025).**
   Fortsetzung der Empfehlung 260727j/260727k: statt eines weiteren Vorwaerts- oder blinden
   Rueckwaerts-Sweeps das Fenster 2025-09-01..12 (92 Sent Items) gezielt gegen den bereits im
