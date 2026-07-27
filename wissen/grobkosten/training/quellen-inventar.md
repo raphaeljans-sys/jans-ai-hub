@@ -107,6 +107,66 @@ Details siehe `raw/`, Verdichtung siehe `wiki/kennwerte.md`.
 Nicht geprüft in Run 2: SharePoint-Ordner ausserhalb `AR - 01 Projekte` (z.B. `AR - 07 Archiv`
 für abgeschlossene Mandate mit Schlussabrechnung) — Kandidat für Run 3.
 
+## Run 6 (27.07.2026) — Fünfte bis achte Quelle: `AR - 03 Studien`, `IMMO - 01 Projekte`, `IMMO - 02/03/05`, zweite SharePoint-Bibliothek
+
+Vier weitere, bisher ungeprüfte SharePoint-Bereiche parallel durch vier Subagenten gesichtet
+(Vorschlag aus `wiki/QUESTIONS.md`, Run 5).
+
+**`AR - 03 Studien`** (18 Projektordner geprüft, 2410 WALD als Healthcare a priori
+ausgeschlossen): 1 klar verwertbarer Fund (2001 Haus Deuber, `[x]` → `raw/2001-haus-deuber-
+thalwil.md`), 1 teilweise verwertbarer, aber nicht extrahierter Kandidat (2304 Waedenswil
+Residualwert-Tool: CHF/m³-Kennwert 1'566 vorhanden, aber GV selbst nicht explizit ausgewiesen
+und BKP-1-5-Aufschlüsselung fehlt — `[ ]` offen für einen künftigen Lauf mit Excel-Einsicht),
+Rest `[-]` nicht verwertbar (u.a. acht Projektordner mit identischem, nie ausgefülltem
+GKS-Copy-Paste-Template — siehe Nebenbefund unten).
+
+**`IMMO - 01 Projekte`** (14 Projektordner/-unterordner geprüft): 3 verwertbare Funde
+(Niederhasli Seestrasse 64 `[x]` → `raw/8155-niederhasli-seestrasse64.md`; Wald
+Haselstudstrasse `[x]` extrahiert, aber wegen BKP-1-9-vs-1-5-Vorbehalt nicht in `kennwerte.md`
+promoviert → `raw/2411-wald-haselstudstrasse.md`; Ebmatingen Im Grossacher 2 zweites Dokument
+`[x]` extrahiert, aber ohne GV nicht verwertbar → Addendum in `raw/2412-ebmatingen-
+grossacher.md`), 1 mit Einschränkung (Langnau Giebelweg 12: GV 1'152 m³ explizit, aber Kosten
+nur als "Annahme" innerhalb einer Residualwertberechnung, nicht aus eigener Kostenschätzung —
+`[ ]` offen, zu schwach für Übernahme in diesem Lauf), Rest `[-]` (u.a. TDD Baar ohne
+Objektbezug, Dubletten zu bekannten Projekten, reine Marktwert-/Rendite-Dokumente ohne
+Erstellungskosten-Bezug).
+
+**`IMMO - 02 UBSFS`**: `[-]` vollständig geprüft, komplett out of scope (reine Gemeinde-
+Marktstatistik, keine Gebäude-Erstellungskosten).
+
+**`IMMO - 03 KNOW-HOW`**: 1 verwertbarer, aber nicht extrahierter Kandidat (Pre-Check-Tool
+Jans, Projekt 2305 Wädenswil: GV 11'724 m³ oi explizit, Erstellungskosten BKP1-9 16.18-18.12
+Mio CHF — `[ ]` offen für einen künftigen Lauf, in diesem Lauf aus Kapazitätsgründen
+zurückgestellt), 1 generische Referenztabelle ohne Projektbezug (Schätzungsanleitung Kap. 5:
+Zürcher Baukostenindex 1939-2004, CHF/m³-Bandbreiten nach Bauklasse I-VI — potenziell wertvoll
+für die in `training/PROGRAMM.md` Stufe 4 geforderte Teuerungs-Normalisierung, `[ ]` offen,
+nicht als Projekt-Einzelfall zu behandeln), Rest `[-]` (Healthcare-Verweis bewusst
+ausgeklammert, Kurs-/Übungs-Excel ohne Realbezug, reine Marktwert-/Methodik-Dokumente).
+
+**`IMMO - 05 Bodenpreise`**: `[-]` vollständig geprüft, komplett out of scope (reine
+Landpreis-Referenzen, keine Erstellungskosten).
+
+**Zweite SharePoint-Bibliothek `OneDrive-FreigegebeneBibliotheken–RaphaelJans-ArchitektenETH`**:
+`[-]` vollständig geprüft — enthält insgesamt nur 4 Dateien (2 bereits bekannte Projekte als
+Dubletten, 2 neue aber reine Architektur-Plan-PDFs ohne Kostenbezug). Auffällig dünn besetzt
+(letzte lokale Änderung September 2025) — möglicherweise nicht vollständig synchronisiert,
+technisch von dieser Station aus nicht klärbar.
+
+**Nebenbefund (Datenqualität, nicht grobkosten-spezifisch, aber vermerkt):** Acht
+Projektordner unter `AR - 03 Studien` (2304 Waedenswil selbst betroffen, plus 2305/2408/2409/
+2412/2513/2514/2515) teilen sich ein identisches, offenbar nie projektspezifisch ausgefülltes
+GKS-Dokument (GV 1'668 m³, CHF 950-1'050/m³ — ein liegen gebliebenes Copy-Paste-Template ohne
+reale Projektwerte). Kein Handlungsbedarf für diese KB (Template wird korrekt als `[-]`
+geführt), aber als Beobachtung für Raphael festgehalten (keine Rückfrage/Mail in diesem
+autonomen Lauf).
+
+**Ergebnis Run 6:** 2 neue Einzelfälle in `kennwerte.md` aufgenommen (Niederhasli, Haus
+Deuber), 2 weitere Rohbelege dokumentiert, aber nicht promoviert (Wald, Ebmatingen #2), 3
+identifizierte, aber noch nicht extrahierte Kandidaten für künftige Läufe (2304 Waedenswil
+Residualwert-Tool, 2305 Wädenswil Pre-Check-Tool, Langnau Giebelweg 12), 1 potenzieller
+Baustein für Stufe 4 (Zürcher Baukostenindex-Referenztabelle). Details/offene Fragen:
+`wiki/QUESTIONS.md`.
+
 ## Run 5 (26.07.2026) — Vierte Quelle: SharePoint `IMMO - 06 Kennwerte` (kuratierte Kennwerte-Bibliothek, nicht projektgebunden)
 
 Gemäss Empfehlung aus Run 4 (`wiki/QUESTIONS.md`: "neue Quelle identifizieren") systematisch

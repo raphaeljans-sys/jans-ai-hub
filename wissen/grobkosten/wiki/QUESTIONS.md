@@ -2,6 +2,62 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-07-27 — Trainings-Run 6 (vier neue Quellen parallel gesichtet): zwei neue Einzelfälle, drei neue offene Punkte
+
+- **Befund:** `AR - 03 Studien`, `IMMO - 01 Projekte`, `IMMO - 02/03/05` und die zweite
+  SharePoint-Bibliothek `...-RaphaelJans-ArchitektenETH` parallel durch vier Subagenten
+  geprüft. Zwei neue, gut belegte Einzelfälle in `wiki/kennwerte.md` aufgenommen: 8155
+  Niederhasli Seestrasse 64 (1'032 CHF/m³, explizite BKP-1-5-Gliederung + explizites GV im
+  selben Dokument — stärkster bisheriger Beleg dieser KB) und 2001 Haus Deuber Thalwil
+  (1'086 CHF/m³, eBKP-H-Basis). Details: `raw/8155-niederhasli-seestrasse64.md`,
+  `raw/2001-haus-deuber-thalwil.md`.
+- **Offene Frage 1 — BKP-1-9-vs-BKP-1-5-Bezeichnung uneinheitlich (neu, betrifft mehrere
+  JANS-eigene Pre-Check-/Residualwert-Tools):** Sowohl im Wald-Haselstudstrasse-Dokument
+  (`raw/2411-wald-haselstudstrasse.md`) als auch im Pre-Check-Tool 2305 Wädenswil
+  (`IMMO - 03 KNOW-HOW`) wird ein Umrechnungsfaktor "BKP 2 → Gesamt = 1.13" verwendet, aber im
+  einen Dokument als "BKP 2 → BKP 1-9", im anderen (uneinheitlich) auch als "BKP 2 → BKP 1-5"
+  bezeichnet. Da BKP 6-8 laut `references/bkp-2017/` reine Reserve-Kategorien sind (i.d.R.
+  null), macht das nur dann keinen Unterschied, wenn BKP 9 (Ausstattung) im Total NICHT
+  enthalten ist — das ist aus den vorliegenden PDF-Auszügen nicht abschliessend zu klären. Bis
+  geklärt (Einsicht in die Original-Exceldatei "Pre-Check_Tool_Jans.xlsx" nötig, dort ist der
+  Faktor als Formel hinterlegt), bleiben alle mit diesem Faktor gebildeten Werte als **obere
+  Näherung** markiert und werden NICHT in die Haupttabelle promoviert.
+- **Offene Frage 2 — Standard-Klassifikation im JANS-eigenen GKB-Tool ist ein Vorlagentext,
+  nicht projektspezifisch:** Sowohl bei 2001 Haus Deuber als auch bei 2304 Reckholdern
+  (bereits in Run 4 verwertet) trägt die Grobkostenberechnung das identische Label "norm,
+  eloquent" — mutmasslich ein fixes Dropdown-Feld im JANS-eigenen GKB-Tool, keine bewusste
+  Standard-Einschätzung je Projekt. Für künftige Läufe: dieses Label NICHT als verlässliche
+  Standard-Angabe werten, sondern separat verifizieren (z.B. über Materialbeschrieb/
+  Ausbaustandard-Text im selben Dokument), bevor ein Fall einer Standardstufe (einfach/mittel/
+  gehoben) zugeordnet wird.
+- **Offene Frage 3 — noch keine Median-Bildung trotz n≥2 für "MFH":** Mit inzwischen vier
+  MFH-Datenpunkten (Grubenackerstrasse 950-1050 unverifiziert, Haus Deuber 1'086, Niederhasli
+  1'032, Wald 1'539-1'765 als obere Näherung) läge rein zahlenmässig n≥2 vor. Bewusst NICHT
+  verdichtet, weil die Standard-Einordnung uneinheitlich/unklar ist (siehe Frage 2) und die
+  Wald-Werte durch Frage 1 mit Vorbehalt behaftet sind. Vorschlag für einen künftigen Lauf:
+  zuerst Fragen 1+2 klären (ggf. durch Excel-Einsicht bzw. Materialbeschrieb-Vertiefung), dann
+  erst eine MFH-Median-Bildung erwägen.
+- **Drei identifizierte, aber in diesem Lauf aus Kapazitätsgründen nicht extrahierte
+  Kandidaten für einen künftigen Lauf:** (a) Pre-Check-Tool 2305 Wädenswil (`IMMO - 03
+  KNOW-HOW/05 Residualwert/Exel Tabelle/jans/Immo-02-P23D-Pre-Check_Tool_Jans.xlsx`, GV 11'724 m³
+  oi explizit, Erstellungskosten 16.18-18.12 Mio BKP1-9) — echtes JANS-Projekt, lohnt volle
+  Extraktion inkl. Klärung von Frage 1 direkt an der Exceldatei. (b) 2304 Waedenswil
+  Residualwert-Tool (`AR - 03 Studien`, CHF/m³-Kennwert 1'566 vorhanden, GV nicht explizit). (c)
+  Langnau Giebelweg 12 (`IMMO - 01 Projekte`, GV 1'152 m³ explizit, Kosten aber nur als
+  "Annahme" in einer Bewertung, keine eigene Kostenschätzung).
+- **Möglicher Baustein für Stufe 4 (Teuerungs-Normalisierung), noch nicht bewertet:**
+  `IMMO - 03 KNOW-HOW/06 Schaetzungen/schaetzungsanleitung_kap5.pdf` enthält eine "Zürcher
+  Index der Wohnbaukosten"-Zeitreihe 1939-2004 sowie CHF/m³-Bandbreiten nach Bauklasse I-VI
+  (Stand 2003). Das ist potenziell der in `training/PROGRAMM.md` Stufe 4 geforderte "belegte
+  Baupreisindex" — aber die Zeitreihe endet 2004, eine Fortschreibung auf 2026 (z.B. via BFS-
+  Baupreisindex, bereits als Quelle im Frontmatter-Kaveat von `kennwerte.md` referenziert) wäre
+  nötig. Für einen künftigen Lauf: prüfen, ob sich die beiden Indexreihen (Zürcher Index bis
+  2004, BFS-Index ab dort) verketten lassen.
+- **Nebenbefund, kein grobkosten-Thema, aber vermerkt:** Acht Projektordner unter `AR - 03
+  Studien` teilen sich ein identisches, nie ausgefülltes GKS-Copy-Paste-Template (GV 1'668 m³,
+  950-1'050 CHF/m³) — ein liegen gebliebener Platzhalter, kein Dokumentationsfehler dieser KB.
+  Nur zur Kenntnis, keine Aktion in diesem autonomen Lauf (keine Rückfrage/Mail).
+
 ## 2026-07-26 — Trainings-Run 5 (neue Quelle SharePoint `IMMO - 06 Kennwerte`): m²-GF-Benchmark gefunden, zwei neue offene Fragen
 
 - **Befund:** Erste Quelle ausserhalb der Projektordner erschlossen. `_Kennwerte Jans.docx`

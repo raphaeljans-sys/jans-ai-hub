@@ -1,8 +1,8 @@
 ---
 title: Grobkosten-Kennwerte (CHF/m³ GV, BKP 1–5)
 status: emerging
-last_updated: 2026-07-26
-sources: [skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md, wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro, raw/2414-thalwil.md, raw/2518-grubenackerstrasse.md, raw/2515-wartstrasse.md, raw/2202-ackersteinstrasse.md, raw/2304-reckholdern.md, raw/kennwerte-jans-referenzdokument.md]
+last_updated: 2026-07-27
+sources: [skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md, wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro, raw/2414-thalwil.md, raw/2518-grubenackerstrasse.md, raw/2515-wartstrasse.md, raw/2202-ackersteinstrasse.md, raw/2304-reckholdern.md, raw/kennwerte-jans-referenzdokument.md, raw/8155-niederhasli-seestrasse64.md, raw/2001-haus-deuber-thalwil.md, raw/2411-wald-haselstudstrasse.md, raw/2412-ebmatingen-grossacher.md]
 links: []
 ---
 
@@ -148,6 +148,35 @@ Weitere in derselben Quelle geprüfte Dokumente (Link-Sammlung, Drittsoftware-Ha
 Grobkosten 2012, Büro-Marktmietanalyse hbre) liefern keine verwertbaren JANS-Kostendaten —
 Details und Begründung in `raw/kennwerte-jans-referenzdokument.md`.
 
+## Run 6 (27.07.2026) — zwei neue, stärker belegte Einzelfälle (BKP-Einzelgliederung + explizites GV im selben Dokument)
+
+Vier bisher ungeprüfte SharePoint-Bibliotheken parallel gesichtet (`AR - 03 Studien`,
+`IMMO - 01 Projekte`, `IMMO - 02 UBSFS`/`IMMO - 03 KNOW-HOW`/`IMMO - 05 Bodenpreise`, zweite
+Bibliothek `...-RaphaelJans-ArchitektenETH`). Ergebnis: mehrere neue Kandidaten, aber nur zwei
+mit sauber im selben Dokument ausgewiesenem GV UND nachvollziehbarer BKP-1-5-Basis — die übrigen
+scheitern an offenen Scope-/Bezeichnungsfragen (siehe `wiki/QUESTIONS.md`) und werden bewusst
+NICHT hier geführt.
+
+| Projekt | Bezug | Kennwert | Kaveat | Reife |
+|---|---|---|---|---|
+| 8155 Niederhasli, Seestrasse 64 (MFH Eigentum, Neubau) | GV 3'843.8 m³ SIA 416 (ober+unter, je Geschoss ausgewiesen), BKP 1–5 einzeln aufgeschlüsselt (408'400 + 2'813'573 + 0 + 150'930 + 593'503) | 1'032 CHF/m³ | Machbarkeitsstudie/WKB (kein Ausführungsbeleg), Standard-Einordnung unklar (Kostenniveau liegt über beiden im Dokument genannten Referenzstufen "Standard"/"Edel"), Preisstand 07/2025 | Einzelfall n=1, aber stärkster bisheriger Beleg (explizite BKP-1-5-Einzelgliederung + explizites GV im selben Dokument) |
+| 2001 Haus Deuber, Seehaldenstrasse 22/24, Thalwil (MFH, sistierte Baueingabe) | GV 2'725 m³ SIA 416, Anlagekosten B–Z (eBKP-H, funktional ≈ BKP 1-5) inkl. 7.7 % MwSt. CHF 2'960'000 | 1'086 CHF/m³ | eBKP-H- statt BKP-2017-Klassifikation (Näherung, keine 1:1-Übersetzung verifiziert), "norm, eloquent"-Standard-Label mutmasslich Vorlagentext (nicht projektspezifisch bewertet), Projekt nie zur Ausführung gekommen, Preisstand 10/2020 | Einzelfall n=1 |
+
+**Bewusst NICHT hier geführt (Scope-/Bezeichnungsfragen offen):** 2411 Wald Haselstudstrasse
+(GV explizit 5'921 m³, aber Kostentotal als uneinheitlich bezeichnetes "BKP 1-9" geführt —
+Vorbehalt zu BKP9-Anteil und Faktor-Bezeichnung ungeklärt, `raw/2411-wald-haselstudstrasse.md`);
+8123 Ebmatingen Im Grossacher 2, zweites Dokument (kein explizites GV, keine Rückrechnung
+gemäss Leitplanke, `raw/2412-ebmatingen-grossacher.md`).
+
+**Noch keine Median-Bildung ausgelöst:** Mit nun vier MFH-Einzelfällen (Grubenackerstrasse
+950-1050 unverifiziert, Haus Deuber 1'086, Niederhasli 1'032, dazu der ausgeklammerte Wald-Wert
+1'539-1'765 als obere Näherung) läge grundsätzlich n≥2 für "MFH" vor — die Standards sind aber
+uneinheitlich benannt/unklar (siehe Kaveats) und die Datenqualität pro Fall unterschiedlich, ein
+gemeinsamer Median würde Ungleiches vermischen. Bewusst konservativ: keine Stufe-3-Promotion in
+diesem Lauf, stattdessen als offener Klärungsbedarf in `wiki/QUESTIONS.md` vermerkt (Standard-
+Klassifikation vereinheitlichen, BKP-1-9-vs-1-5-Frage auflösen), bevor eine Median-Bildung
+seriös möglich ist.
+
 ## Zuschläge (multiplikativ)
 
 | Treiber | Zuschlag | Hinweis |
@@ -220,3 +249,11 @@ kennwerte bleibt diese KB; energie liefert nur die Detail-/Betriebskosten (Wisse
   eigenständigen m²-GF-Benchmark aus JANS' eigenem Referenzblatt (4'485 CHF/m² GF BKP1-5,
   Wohnen Individuell EFH/ZFH, Index 2020→2025), bewusst NICHT in die m³-GV-Tabelle
   umgerechnet (ungeklärter GV/GF-Faktor). Details `raw/kennwerte-jans-referenzdokument.md`.
+- Run 6 (27.07.2026): vier weitere SharePoint-Bibliotheken parallel gesichtet (`AR - 03
+  Studien`, `IMMO - 01 Projekte`, `IMMO - 02/03/05`, zweite Bibliothek `...-RaphaelJans-
+  ArchitektenETH`). Zwei neue Einzelfälle mit explizitem GV + nachvollziehbarer BKP-1-5-Basis
+  im selben Dokument aufgenommen (Niederhasli 1'032 CHF/m³, Haus Deuber Thalwil 1'086 CHF/m³);
+  zwei weitere Kandidaten (Wald Haselstudstrasse, zweites Ebmatingen-Dokument) wegen offener
+  Scope-/Bezeichnungsfragen bewusst nicht promoviert. Details `raw/8155-niederhasli-
+  seestrasse64.md`, `raw/2001-haus-deuber-thalwil.md`, `raw/2411-wald-haselstudstrasse.md`,
+  `raw/2412-ebmatingen-grossacher.md`.

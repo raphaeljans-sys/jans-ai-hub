@@ -3,6 +3,47 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260727 (twin-fragesteller, aus Fidelity-Review 2026-07-27)
+
+Quelle: Drift-Report `outputs/2026-07-27_fidelity.md` (Gesamt-Fidelity ~86; drei frische, bislang
+unbearbeitete authentische Golds 17.–24.07.2026 via M365-CLI — Levi Hiltmann/TeKoSi Du-Ultrakurz-
+Terminbestätigung, Thomas Wiedmer/SBB Sie-Vollzugszusage, Roman Steinmann/Nova Investor-Du-Rechnungs-
+übergabe). Zwei substanzielle Funde (Ferien-Kontextbezug statt Verifikationsfrage, reflexives
+«veranlassen»), ein Bestätigungsfund (dritter Beleg «Geschätzter» als Inhalts-Spike). Je in 1–2 Sätzen
+beantwortbar.
+
+1. **Persönlicher Ferien-/Abwesenheitsbezug als Schluss einer Rechnungs-/Beleg-Übergabemail — Dein
+   generelles Mittel, sobald Du die Abwesenheit des Empfängers kennst, oder war das bei Roman situativ?**
+   Bei der KV-Zusammenstellung + Rechnung an Roman Steinmann (17.07.2026) schliesst Du nicht mit der
+   sonst belegten Verifikationsfrage («Kann ich die so rauslassen?»), sondern mit «Ich denke es macht
+   Sinn die Angebot nach Deiner Rückkehr aus den Ferien zu besprechen und einzuordnen.» Baust Du eine
+   Dir bekannte Abwesenheit (Ferien, Reise, Termin) bewusst als warme, terminlich sinnvolle Brücke in
+   eine sonst prozedurale Übergabemail ein, wann immer Du davon weisst? *Warum: der Zwilling griff im
+   Selbsttest reflexartig zur bekannten Verifikationsformel und verfehlte diesen persönlichen Bezug —
+   ohne Bestätigung bleibt der Marker ein nicht generalisierbarer Einzelbeleg.* → [[stimme]]
+2. **«Ich werde veranlassen, dass …» als eigene Vollzugszusage — Dein Standardausdruck im formellen
+   Sie, oder Tagesform?** Gegenüber der SBB (20.07.2026) sagst Du die Weiterleitung unterzeichneter
+   Dokumente mit «Ich werde veranlassen, dass …» zu — bisher kanntest Du «veranlassen» nur als Bitte AN
+   eine Behörde («Bitte veranlassen Sie …»). Nutzt Du «veranlassen» bewusst auch reflexiv für die eigene
+   Zusage im administrativ-formellen Sie-Register, oder wäre «Ich werde dafür sorgen, dass …» genauso
+   naheliegend für Dich? *Warum: würde einen zweiten, bisher unbekannten Anwendungsfall des Wortes
+   verankern statt ihn nur einseitig (als Bitte) zu kennen.* → [[stimme]], [[fachsignatur]]
+3. **«Geschätzter Levi» bei der Auftragserteilung an einen ganz neuen Kontakt (Erstmandat, keine
+   Vorgeschichte) — reicht ein einziges gewichtiges Ergebnis (Kostendach-Zusage), damit «Geschätzter»
+   greift, auch OHNE jede vorherige Beziehung?** Bei Levi Hiltmann (TeKoSi) war die Auftragserteilung
+   (22.07.2026) bereits die zweite oder dritte Mail des Kontakts überhaupt. Reicht Dir ein einziges
+   gewichtiges Ergebnis, um sofort auf «Geschätzter» zu wechseln, oder briefst Du bei einem taufrischen
+   Kontakt zuerst etwas vorsichtiger («Sehr geehrter Herr Hiltmann»)? *Warum: würde die «Geschätzter
+   als Inhalts-Spike»-Regel von der Beziehungsdauer vollständig entkoppeln — bisher waren alle Belege
+   (Tschopp, Besnik) längst eingespielte Kontakte.* → [[beziehungsregister]]
+4. **Ultrakurzer Du-Reply ohne jeden Signaturblock («Bis später. / Lieber Gruss / Raphael») bei einem
+   noch jungen, aber bereits mandatierten Geschäftskontakt — ab wann fällt die Signatur weg?** Bei
+   Levi (TeKoSi, Mandat erst 2 Tage alt) verzichtest Du in der Terminbestätigung bereits vollständig auf
+   Titel/Telefon/Adresse. Ist das reine Mobile-Artefakt oder fällt die volle Signatur bei Dir grundsätzlich
+   weg, sobald ein Faden schon einmal einen vollen Block getragen hat (das gilt dann als «bekannt»)?
+   *Warum: schärft die bestehende «Gruss-Block folgt Länge/Mobile»-Regel um die Schwelle bei ganz
+   jungen Mandaten.* → [[stimme]], [[arbeitsweise]]
+
 ## Offen — Runde 260726 (twin-fragesteller, aus Fidelity-Review 2026-07-26)
 
 Quelle: Drift-Report `outputs/2026-07-26_fidelity.md` (Gesamt-Fidelity ~88; drei frische, bislang

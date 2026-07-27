@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-07-25
+last_updated: 2026-07-27
 gewichtung: authentisch
-sources: [260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -430,6 +430,30 @@ Methodik-Konsequenz für künftige Korpus-Analysen: wo ein Rohmail-Beleg «X sch
 Freundliche Grüsse + Block» als eigenständiges Stilsignal notiert, zuerst prüfen, ob nicht
 einfach nur die Automatik lief und das eigentliche Signal im Wort DAVOR liegt (Echo-/Artefakt-
 Schutz, analog zur AI-Paste-Falle in `wissen/twin/CLAUDE.md`).
+
+## Ferien-/Abwesenheitsbezug als warme Schluss-Brücke statt Verifikations-Frage (belegt Fidelity 260727, authentisch, Einzelbeleg)
+Neuer Datenpunkt zur Rechnungs-/Beleg-Übergabemail im Investor-/Geschäftspartner-Du (vgl. «Rechnungs-
+Freigabe-Rückfrage», 260712): bei der KV-Zusammenstellung + Rechnung an Roman Steinmann (Nova,
+«Geschätzter Roman», 17.07.2026) schliesst Raphael NICHT mit der bisher belegten knappen
+Verifikationsfrage («Kann ich die so rauslassen? Stimmen die Angaben?»), sondern mit einem persönlich-
+situativen Schluss: «**Ich denke es macht Sinn die Angebot nach Deiner Rückkehr aus den Ferien zu
+besprechen und einzuordnen.**» Er kennt die Abwesenheit des Empfängers und baut sie aktiv als warme,
+terminlich sinnvolle Brücke in eine sonst rein transaktionale Übergabe ein — FG+Block bleibt (Beleg
+liegt bei), aber der Schlusssatz ist persönlich-kontextbezogen statt prozedural-verifizierend. Ein aus
+dem Wiki blind gebauter Zwilling (Fidelity-Selbsttest 260727) griff reflexartig zur bekannten
+Verifikationsformel und verfehlte diesen warmen, wissens-getriebenen Bezug — echte, noch unbestätigte
+Drift (Einzelbeleg, nicht in den Do-Block gehoben, Echo-/Overfitting-Schutz). Der Zwilling darf diesen
+Marker noch nicht generalisieren; Frage an Raphael → [[QUESTIONS]] 260727.
+
+## «Ich werde veranlassen, dass …» als reflexive Vollzugs-Zusage im formellen Sie (belegt Fidelity 260727, authentisch, Einzelbeleg)
+Bisher war «veranlassen» nur als Imperativ AN eine Behörde belegt («Bitte veranlassen Sie …», Fidelity
+260724). Neuer Gegenpol: gegenüber der SBB (Sie, «Sehr geehrter Herr Wiedmer», Näherbaurecht-
+Vereinbarung, 20.07.2026) nutzt Raphael denselben Verwaltungs-Begriff **reflexiv für die eigene
+Zusage** — «Besten Dank für Ihre E-Mail. **Ich werde veranlassen, dass** die Dokumente so bald als
+möglich unterzeichnet retourniert werden.» — statt des naheliegenderen «Ich werde dafür sorgen, dass
+…» oder «Ich sorge dafür …». Der Zwilling darf «veranlassen» auch für die eigene administrative
+Vollzugszusage im formellen Sie setzen, nicht nur als Bitte an die Behörde — Einzelbeleg,
+Generalisierung offen → [[QUESTIONS]] 260727.
 
 ## Du-Gross ist Ideal, rutscht im reziproken Schnell-Du (belegt Mailbatch 03, Echtheit)
 Im entspannten, gegenseitigen Investor-Du (Thomas Angerer, Nova) sinkt die Du-Gross-Quote auf

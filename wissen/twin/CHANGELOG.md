@@ -4,6 +4,21 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-27 — `twin-fidelity-review` (Gesamt-Fidelity ~86).** Frische Session ohne Vorwissen.
+  M365-MCP-Tool in dieser Session nicht verfügbar, direkter Zugriff über die **M365-CLI via Bash**
+  (`m365 request` gegen Microsoft Graph, Certificate-Auth war bereits aktiv) statt des sonst genutzten
+  MCP-Aufrufs — funktionierte reibungslos, kein Apple-Mail-Fallback nötig. Drei frische Sent-Items-
+  Golds 17.–24.07.2026: Levi Hiltmann/TeKoSi (Du, ultrakurze Terminbestätigung), Thomas Wiedmer/SBB
+  (Sie, administrative Vollzugszusage), Roman Steinmann/Nova (Du-Investor, Rechnungsübergabe). Drei
+  Funde: (1) [[stimme]] neuer Marker «Ferien-/Abwesenheitsbezug als warme Schluss-Brücke statt
+  Verifikationsfrage» — stärkste Drift des Laufs, Einzelbeleg, zeigt eine strukturelle Grenze
+  (Zwilling kennt kein situatives Empfänger-Kontextwissen); (2) [[stimme]] reflexives «veranlassen»
+  für die eigene Vollzugszusage (bisher nur als Bitte an Behörden belegt); (3) [[beziehungsregister]]
+  dritter Beleg «Geschätzter als Inhalts-Spike» jetzt an einem taufrischen, erst wenige Tage alten
+  Kontakt (bisher nur an eingespielten Kontakten gezeigt). Keine Facetten-Widersprüche, keine
+  Do/Don't-Blöcke verändert (alle drei Funde Einzelbelege, Echo-/Overfitting-Schutz). QUESTIONS-Runde
+  260727 (4 Fragen). `build_dna.py` gelaufen (Auto-Block bereits aktuell, keine Änderung). Report
+  `outputs/2026-07-27_fidelity.md`.
 - **2026-07-26 — `twin-mail-training` Batch 70: vierter Leerlauf in Folge.** Frischer Pull ab
   dem Batch-67-Endpunkt 2026-07-25T18:11:00Z liefert erneut 0 Treffer; breite Gegenprobe ab
   2026-07-20T00:00:00Z (37 Treffer) bestaetigt, dass der juengste rj@-Sent-Eintrag weiterhin die

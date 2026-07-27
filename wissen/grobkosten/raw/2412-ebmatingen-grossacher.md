@@ -48,3 +48,28 @@ Beleg. Als eigener Datenpunkt mit CHF/m²-GF-Einheit dokumentiert für eine mög
 nicht weiter verdichtet (ausserhalb des in `training/PROGRAMM.md` definierten Scopes).
 
 Abrufdatum: 2026-07-25.
+
+## Run 6 (27.07.2026) — zweites Dokument zum selben Objekt gefunden: Residualwert-Tool, GV nur rückrechenbar, nicht promotionsfähig
+
+Zusätzliche Quelle zum selben physischen Projekt (Im Grossacher 2, Ebmatingen), diesmal aus
+SharePoint `IMMO - 01 Projekte/01 BEWERTUNG PROJEKTE/8123 Ebmatingen 3932 Im Grossacher 2 RW
+Residualwert/` — zwei Varianten `hoch 2415 Immo-02-P23D-Residualwert_Projektbewertung.pdf` und
+`tief 2415 Immo-02-P23D-Residualwert_Projektbewertung.pdf`.
+
+- Nutzung: Wohnen 100 % (Neubau MFH, 7 Whg., Mix 2-/3-/5-Zi.), HNF 504 m², GF 579 m², GSF 888 m²,
+  AZ 0.65.
+- Erstellungskosten Total (BKP 1-9, Gesamtsumme ohne Einzelcodes): Variante "hoch"
+  **2'867'000 CHF** (5'690 CHF/m² HNF), Variante "tief" **2'419'000 CHF** (4'800 CHF/m² HNF).
+- **Gebäudevolumen (GV) wird im Dokument NICHT explizit ausgewiesen** — ein CHF/m³-GV-Kennwert
+  wäre nur durch Rückrechnung aus einem sekundär genannten Wert erhältlich. Gemäss
+  `training/PROGRAMM.md` ("Fehlende Bezugsgrössen als fehlend markieren, NIE rechnerisch
+  ergänzen oder schätzen") wird hier **kein** CHF/m³-Wert gebildet — dieser Fund bleibt ohne
+  GV-Kennwert dokumentiert.
+- Preisstand: Kostenbasis "Stand Sommer 2023", Dateidatum November 2024.
+- Auch dieses Dokument rechnet primär in BKP 1-9 (nicht einzeln nach BKP 1-5 aufgeschlüsselt) —
+  derselbe Scope-Vorbehalt wie bei `raw/2411-wald-haselstudstrasse.md`.
+
+**Einordnung:** Bestätigt den bereits oben dokumentierten Befund — für dieses Projekt liegt
+weiterhin kein verwertbarer CHF/m³-GV-Kennwert vor (weder aus der Grobkostenschätzung m²-GF
+noch aus diesem Residualwert-Tool). Nicht in `wiki/kennwerte.md` geführt, auch nicht als
+Einzelfall (GV fehlt vollständig, kein Rückrechnen). Abrufdatum: 2026-07-27.
