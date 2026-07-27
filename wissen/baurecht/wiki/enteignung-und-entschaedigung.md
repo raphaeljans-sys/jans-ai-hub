@@ -1,10 +1,11 @@
 ---
 name: enteignung-und-entschaedigung
 titel: Enteignung & Entschaedigung (formell / materiell)
-status: emerging
+status: established
 letzte_quelle: "Buch Band 1, Kap. 5, S. 311-334 (Run 21, 2026-07-04)"
-last_updated: 2026-07-04
-backlinks: ["[[05-planung-und-entschaedigung]]", "[[raumplanung-und-gestaltung]]", "[[baulinien-und-abstandslinien]]", "[[widerrechtliche-bauten-und-sanktionen]]", "[[03-quartierplan-landumlegung-teil2]]"]
+last_updated: 2026-07-27
+verifiziert: "2026-07-27 (Buch-Run 68, erster Modell-D-Wortlautabgleich seit Erstellung 2026-07-04): vollstaendiger Abgleich aller PBG-Fundstellen (§§ 41-43a/62/64/65/102/103/119/122/165/202/212/214/235/346) gegen raw/260607_amtlich_zh_pbg.md (Fassungsstand Nachtrag 133) — alle CONFIRMED, 0 Korrekturen. AbtrG (LS 781) UND EG ZGB (LS 230) live von zhlex.zh.ch geladen (beide erstmals in dieser KB direkt am aktuellen Volltext statt nur am Buchzitat geprueft): AbtrG-Fassungsstand Nachtrag 099 (aktuell), EG ZGB Nachtrag 133 (kein Drift). 2 echte Zitierfehler gefunden und korrigiert: guetliche Einigung steht in § 29 AbtrG (nicht § 28), die vier Schaetzungskommissionen/-kreise in §§ 33/34 AbtrG (nicht §§ 40/41); Zinsenlauf-Satz in § 183bis Abs. 3 EG ZGB (§ 183 EG ZGB selbst seit 2011 aufgehoben). §§ 39/46/54/56 AbtrG sowie § 183ter/§ 183quater EG ZGB CONFIRMED. Register-Sweep: Fehler war auch in buecher/band-1/09-rechtsschutz-teil2-ablauf-kosten-revision.md (eigene Paragraphenliste) propagiert, dort mitkorrigiert."
+backlinks: ["[[05-planung-und-entschaedigung]]", "[[raumplanung-und-gestaltung]]", "[[baulinien-und-abstandslinien]]", "[[widerrechtliche-bauten-und-sanktionen]]", "[[03-quartierplan-landumlegung-teil2]]", "[[09-rechtsschutz-teil2-ablauf-kosten-revision]]"]
 ---
 
 # Enteignung & Entschaedigung (formell / materiell)
@@ -70,8 +71,10 @@ aber die **Intensitaet + Sonderopfer**, nicht die blosse Prozentzahl.
 
 ## 5. Verfahren & Hoehe (Kt. ZH)
 - **Schaetzungsverfahren:** Anmeldung mat. Enteignung innert **10 Jahren** (§ 183ter EG ZGB, sonst verwirkt);
-  Einigung (§ 28 AbtrG) → Gesuch Statthalter (§ 39) → eine der 4 **Schaetzungskommissionen** → Rekurs
-  Verwaltungsgericht **20 Tage** (§ 46 AbtrG) → BGer (Art. 82 ff. BGG).
+  Zinsenlauf ab Geltendmachung (§ 183bis Abs. 3 EG ZGB — § 183 EG ZGB selbst ist seit 2011 aufgehoben).
+  Guetliche Einigung (**§ 29 AbtrG**) → Gesuch Statthalter (§ 39 AbtrG) → eine der 4 **Schaetzungskommissionen**
+  (vier Schaetzungskreise, §§ 33/34 AbtrG) → Rekurs Verwaltungsgericht **20 Tage** (§ 46 AbtrG) →
+  BGer (Art. 82 ff. BGG).
 - **Hoehe = Verkehrswert** im Zeitpunkt des Inkrafttretens der Beschraenkung. Methoden: **Vergleichsmethode**
   primaer; Wohnen → Realwert, Gewerbe → Ertragswert/DCF, gemischt → Mischwert (speist [[immobilienbewertung]]).
   **Vorgartenland** in Zonen ohne Nutzungsziffer: praxisgemaess **~1/3-Abzug**.
@@ -89,6 +92,12 @@ aber die **Intensitaet + Sonderopfer**, nicht die blosse Prozentzahl.
 ## Offen / needs-verification
 - ZH-**Mehrwertausgleich (MAG)**: Buchstand 2019 = Entwurf/Einzonungsstopp → am **heutigen** kant. Recht
   gegenpruefen, bevor Prozentsaetze extern zitiert werden.
-- §-Wortlaut **§§ 41-43a / 62 / 102 / 165 / 202 / 212 / 214 PBG** und **§§ 28/39/46/54/56 AbtrG /
-  §§ 183 ff. EG ZGB** am amtlichen Volltext bestaetigen (teils zusammengezogen zitiert, vgl. QUESTIONS
-  §§ 102/103/104 PBG).
+- ~~§-Wortlaut §§ 41-43a/62/102/165/202/212/214 PBG und §§ 28/39/46/54/56 AbtrG/§§ 183 ff. EG ZGB
+  am amtlichen Volltext bestaetigen~~ **erledigt Buch-Run 68 (2026-07-27):** vollstaendiger Modell-D-
+  Wortlautabgleich aller PBG-Fundstellen gegen `raw/260607_amtlich_zh_pbg.md` (Fassungsstand Nachtrag 133)
+  — alle CONFIRMED. AbtrG (LS 781) und EG ZGB (LS 230) live von zhlex.zh.ch geladen (AbtrG Fassungsstand
+  erstmals geprueft: Nachtrag 099, aktuell; EG ZGB weiterhin Nachtrag 133, kein Drift) — dabei **2 echte
+  Zitierfehler gefunden und korrigiert:** «guetliche Einigung» steht in § 29 AbtrG (nicht § 28, s. § 32
+  AbtrG-Rueckverweis), die vier Schaetzungskommissionen/-kreise in §§ 33/34 AbtrG (nicht §§ 40/41); und
+  der Zinsenlauf-Satz in § 183bis Abs. 3 EG ZGB (§ 183 EG ZGB ist seit 2011 aufgehoben). §§ 39/46/54/56
+  AbtrG sowie alle 7 PBG-Heimschlag-/Zugrecht-Fundstellen CONFIRMED ohne Korrektur.

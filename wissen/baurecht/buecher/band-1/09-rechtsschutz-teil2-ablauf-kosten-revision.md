@@ -4,7 +4,7 @@ kapitel: 9 — Rechtsschutz (Teil 2)
 band: 1
 seiten: 576-606 (schliesst das Kapitel; Teil 1 = S.537-575)
 shots: 290-306 (Bildschirmfoto 2026-06-07 um 11.49.23 – 11.49.53)
-paragraphen: ["§ 8 VRG", "§ 9 VRG", "§ 10c VRG", "§ 11 VRG", "§ 12 VRG", "§ 13 VRG", "§ 14 VRG", "§ 15 VRG", "§ 16 VRG", "§ 17 VRG", "§ 22 VRG", "§ 23 VRG", "§ 25 VRG", "§ 26b VRG", "§ 26c VRG", "§ 28 VRG", "§ 29 VRG", "§ 38 VRG", "§ 53 VRG", "§ 58 VRG", "§ 59 VRG", "§ 61 VRG", "§ 64 VRG", "§ 65 VRG", "§ 70 VRG", "§ 71 VRG", "§ 86a VRG", "§ 86b VRG", "§ 86c VRG", "§ 86d VRG", "§ 87 VRG", "§ 89 VRG", "§ 335 PBG", "§ 338 PBG", "§ 339 PBG", "§ 211 PBG", "§ 315 PBG", "§ 317 PBG", "§ 339b PBG", "§ 7 PBG", "§ 44 PBG", "§ 84 PBG", "§ 13 StrG", "§ 28 AbtrG", "Art. 4 RPG", "Art. 46 BGG", "Art. 47 BGG", "Art. 50 BGG", "Art. 62 BGG", "Art. 63 BGG", "Art. 65 BGG", "Art. 68 BGG", "Art. 69 BGG", "Art. 70 BGG", "Art. 100 BGG", "Art. 103 BGG", "Art. 112 BGG", "Art. 145 ZPO", "Art. 197 ZPO", "Art. 213 ZPO", "Art. 214 ZPO", "Art. 235 ZPO", "Art. 6 EMRK", "Art. 29 BV", "Art. 30 BV", "Art. 33b VwVG", "Art. 55c USG", "Art. 12d NHG"]
+paragraphen: ["§ 8 VRG", "§ 9 VRG", "§ 10c VRG", "§ 11 VRG", "§ 12 VRG", "§ 13 VRG", "§ 14 VRG", "§ 15 VRG", "§ 16 VRG", "§ 17 VRG", "§ 22 VRG", "§ 23 VRG", "§ 25 VRG", "§ 26b VRG", "§ 26c VRG", "§ 28 VRG", "§ 29 VRG", "§ 38 VRG", "§ 53 VRG", "§ 58 VRG", "§ 59 VRG", "§ 61 VRG", "§ 64 VRG", "§ 65 VRG", "§ 70 VRG", "§ 71 VRG", "§ 86a VRG", "§ 86b VRG", "§ 86c VRG", "§ 86d VRG", "§ 87 VRG", "§ 89 VRG", "§ 335 PBG", "§ 338 PBG", "§ 339 PBG", "§ 211 PBG", "§ 315 PBG", "§ 317 PBG", "§ 339b PBG", "§ 7 PBG", "§ 44 PBG", "§ 84 PBG", "§ 13 StrG", "§ 29 AbtrG", "Art. 4 RPG", "Art. 46 BGG", "Art. 47 BGG", "Art. 50 BGG", "Art. 62 BGG", "Art. 63 BGG", "Art. 65 BGG", "Art. 68 BGG", "Art. 69 BGG", "Art. 70 BGG", "Art. 100 BGG", "Art. 103 BGG", "Art. 112 BGG", "Art. 145 ZPO", "Art. 197 ZPO", "Art. 213 ZPO", "Art. 214 ZPO", "Art. 235 ZPO", "Art. 6 EMRK", "Art. 29 BV", "Art. 30 BV", "Art. 33b VwVG", "Art. 55c USG", "Art. 12d NHG"]
 status: emerging
 gelesen: 2026-07-06
 last_updated: 2026-07-14
@@ -278,7 +278,8 @@ VRG; Art. 112 Abs. 1 lit. d BGG). (S. 591)
 - **Schlichtung/Ombudsperson (§ 9.9.5):** Schlichtung ist im **Zivilprozess** i.d.R. vorgeschaltet
   (Art. 197 ff. ZPO, >50 % Einigung); im Verwaltungsrecht fehlt sie weitgehend, vereinzelt sind
   Einigungsverhandlungen vorgeschrieben (vor Festsetzung eines ueberkommunalen Gestaltungsplans
-  Gemeindevorstaende beiladen, § 44 Abs. 4 / § 84 Abs. 2 PBG; bei Enteignung guetliche Einigung § 28 AbtrG).
+  Gemeindevorstaende beiladen, § 44 Abs. 4 / § 84 Abs. 2 PBG; bei Enteignung guetliche Einigung **§ 29 AbtrG**,
+  nicht § 28 — amtlich korrigiert Buch-Run 68, 2026-07-27, s. [[05-planung-und-entschaedigung]]).
   **Ombudsperson Kt. ZH** prueft nach «Recht und Billigkeit» (§ 89 Abs. 1 VRG, amtlich bestaetigt
   2026-07-14 — nicht mehr «§§ 87 ff.» zitieren, da § 87 VRG heute «Wahl und Stellung» regelt, s.
   Abschnitt 4a); Staedte Zuerich/Winterthur eigene; Gemeinden koennen die kantonale Ombudsperson
