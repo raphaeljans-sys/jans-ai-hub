@@ -1,0 +1,28 @@
+STOP fuer den Endlos-Runner auf dem MacBook Pro — gesetzt 27.07.2026 22:20
+(Freigabe Raphael, Leerlauf-Bereinigung nach dem 35-Stunden-Totalausfall).
+
+GRUND: Nach der Filter-Bereinigung hat der Runner auf dieser Station keine Aufgabe
+mehr. Verifiziert um 22:14:45 nach Supervisor-Neustart (PID 77522):
+«Keine Trainings-Tasks gefunden unter /Users/raphaeljans/.claude/scheduled-tasks».
+
+Grund dafuer ist gewollt: saemtliche verbleibenden Lern-Loops haben einen EIGENEN
+Scheduled Task mit bewusst gewaehltem Takt und sind darum aus dem Endlos-Zyklus
+ausgeschlossen (EXCLUDE_RE) — twin-mail 2x taeglich, twin-fidelity 1x taeglich,
+normen 1x taeglich (27.07. von 2x zurueckgenommen), baurecht-buch woechentlich,
+wettbewerbs-dna stillgelegt, immobewertung/spec ereignisgetriggert. Der Runner haette
+sie alle zusaetzlich rund stuendlich gefeuert und jede dieser Taktentscheidungen
+unterlaufen — genau das hat am 25.07. 53 Mio teure Tokens verbraucht und das
+Wochenkontingent leergefahren.
+
+WICHTIG — das ist KEINE Drosselung des Hubs: die Lern-Loops laufen ueber ihre
+Scheduled Tasks unveraendert weiter. Stillgelegt ist nur der zweite, ungetaktete
+Feuermechanismus.
+
+DIESE DATEI ENTFERNEN, sobald es wieder einen Lern-Loop OHNE eigenen Scheduled Task
+gibt, den der Runner im Dauerzyklus fahren soll. Danach:
+  nohup bash /Volumes/daten/jans-ai-hub/scripts/vollgas-runner.sh >/dev/null 2>&1 &
+
+OFFENE GRUNDSATZFRAGE AN RAPHAEL (vorgelegt 27.07.2026): Soll der Endlos-Runner
+kuenftig neue, eigene Lern-Aufgaben bekommen (dann Aufgaben definieren und diese Datei
+entfernen), oder bleibt die Lern-Arbeit dauerhaft bei den getakteten Scheduled Tasks
+(dann Runner + Supervisor ganz ausbauen)?

@@ -30,6 +30,101 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-07-27 22:15 — [FREI] Der Endlos-Runner hat auf BEIDEN Stationen keine Arbeit mehr — VOLLGAS ist faktisch zu Ende; veralteter MacBook-Runner (2 Tage alte Konfiguration) beendet, der jede Taktentscheidung Raphaels unterlief
+
+**Selbstkontrolle — die Aufsicht war 48 h blind.** Letzter Eintrag hier: 25.07. 21:55. Der Radar
+ist alle 3 h getaktet, hat also rund 15 Laeufe verpasst und deshalb den 35-h-Totalausfall vom
+26./27.07. nirgends gemeldet. Aufgefangen hat das die `vollgas-fruehwarnung` (Eintrag + Mail an
+rj@ heute 21:45). Ursache des Radar-Ausfalls: das erschoepfte Wochenkontingent selbst — die Task
+konnte in dieser Zeit nicht durchlaufen. Die Aufsicht faellt also genau dann aus, wenn sie
+gebraucht wird; das ist ein Konstruktionsfehler, kein Betriebsunfall (P2 unten).
+
+**Fensterzustand:** FREI. Probe mit der Runner-Anmeldung antwortet «OK». Das Wochenlimit ist am
+27.07. 12:00 zurueckgesetzt; seither 104 Commits, in den letzten 90 Minuten 12. Kein Login-Block,
+kein Mail-Anlass (die Frühwarnung hat den Vorfall heute 21:45 bereits gemeldet — keine
+Wiederholungsmail fuer denselben Befund).
+
+**Lagebild:** Der MacBook Pro lief seit dem Reset produktiv (49 Laeufe, baurecht-buch Run 61–67,
+normen Run 32–35, twin-mail und twin-fidelity mit echten neuen Markern). Der Mac Mini dagegen hat
+seit **14:27 keinen einzigen produktiven Lauf** mehr: 47 Leerlauf-Meldungen «Keine Trainings-Tasks
+gefunden» im Zehn-Minuten-Takt, also rund 7,8 Stunden eines freien Fensters ohne jede Arbeit.
+
+**P1 — der eigentliche Befund: der Endlos-Runner ist arbeitslos, auf beiden Stationen.**
+Nachgemessen mit dem Filter des Runners gegen die Task-Verzeichnisse beider Stationen:
+
+- **Mac Mini: 0 Loops.** Alle Trainings-Tasks tragen `enabled: false` (energie und
+  planungsgrundlagen seit 26.07. 00:33 — beide saturiert, 4 bzw. 17 Nullbefunde in Folge;
+  synobsis und normen-mini seit 25.07.), `grobkosten` ist seit 27.07. ausgeschlossen. Der um
+  14:33 neu gestartete Runner nahm die aktuelle Konfiguration auf und fand nichts mehr vor.
+- **MacBook Pro: 0 Loops.** Nach der heutigen Bereinigung sind alle fuenf bisher zyklierten
+  Loops ausgeschlossen.
+
+Das ist **kein Defekt, sondern die Konsequenz lauter richtiger Einzelentscheide**: jeder Loop hat
+inzwischen entweder einen eigenen Registry-Takt (twin-mail 2x/Tag, normen 2x/Tag, twin-fidelity
+1x/Tag, baurecht-buch woechentlich), ist ereignisgetriggert (immobewertung, spec) oder saturiert
+(energie, planungsgrundlagen, synobsis, grobkosten, wettbewerbs-dna). Der Runner war fuer Loops
+**ohne** eigenen Takt gedacht — solche gibt es nicht mehr.
+
+**Damit ist VOLLGAS faktisch beendet, ohne dass es je jemand entschieden haette.** Die naechtliche
+Last kommt ab sofort nur noch aus den Registry-Tasks. Das deckt sich mit dem Auftrag vom 27.07.
+(«Leerlaeufe abschalten»), widerspricht aber der stehenden Anweisung vom 25.07. («Wochenkontingent
+ausschoepfen, Wiederdrosselung nur auf meine Anweisung»). **Diesen Widerspruch kann nur Raphael
+aufloesen** — bewusst nicht selbst entschieden. Die drei Optionen:
+(a) so belassen — Registry-Takt als Normalbetrieb, Wochenkontingent wird kuenftig nicht mehr
+ausgeschoepft; (b) dem Runner neue, materialgetriebene Arbeit geben (nicht: einen Loop erfinden,
+der auf Rueckfragen an Raphael wartet — genau daran ist `grobkosten` binnen zwei Tagen erstickt);
+(c) einzelne saturierte Loops wieder scharf schalten, wenn neues Rohmaterial vorliegt.
+Beide Runner laufen weiter im Schlafmodus (kosten dabei keine Token) und wuerden jeden wieder
+aktivierten Loop sofort aufnehmen.
+
+**P2 (selbst ausgefuehrt) — der MacBook-Runner lief seit zwei Tagen mit veralteter Konfiguration
+und unterlief damit jede Taktentscheidung.** PID 66891 war seit 25.07. 19:22 in Betrieb. Der
+Runner liest die Task-Liste zwar bei jedem Zyklus neu, seine Ausschlussliste aber nur beim Start
+— alle seither eingetragenen Ausschluesse waren wirkungslos. Folge: er feuerte fuenf Loops rund
+alle 40 Minuten, obwohl `baurecht-buch` seit dem 17.07. auf **woechentlich** zurueckgetaktet ist
+und die uebrigen vier auf 1–2x taeglich. Ausgefuehrt:
+
+- **PID 66891 beendet** (SIGTERM; griff sauber nach dem laufenden normen-Durchgang, der noch
+  fertig schreiben konnte), Runner neu gestartet — PID 77522, aktuelle Konfiguration.
+- **Vor dem Neustart eine Falle abgefangen:** eine Simulation des Filters zeigte, dass der
+  Neustart `immobewertung-training` (von Raphael am 26.07. auf Ereignis-Trigger gestellt) und
+  `immobewertung-marktpuls-260901` (Einmal-Task fuer den 01.09.2026) **wiederbelebt und im
+  Minutentakt gefeuert** haette: beide SKILL.md tragen kein `enabled: false` in der Frontmatter,
+  und der Runner prueft nur die Frontmatter, nie die Registry. `immob` deshalb in die
+  Ausschlussliste aufgenommen. Wer kuenftig einen Loop ueber die Registry stilllegt, muss das
+  im Runner separat nachziehen — die beiden Wahrheiten laufen auseinander.
+- **`wettbewerbs-dna-training` auf Bestaetigungstakt woechentlich** (Mo 02:20, war 2x taeglich).
+  Begruendung: 10 Laeufe seit dem Reset, davon **7 Blindgaenger** und danach **4 Delta-Null-Laeufe
+  in Folge**; Etappe 3 ist vollstaendig abgeschlossen (Schulbau/Healthcare/Wohnungsbau je B1–B6
+  `established`). Der Loop meldet selbst, dass er ohne Raphaels Entscheid ueber die naechste
+  Ziel-Bauaufgabe nichts mehr tun kann — also ein Loop, der auf eine Bring-Schuld wartet, und
+  der gehoert nach dem Auftrag vom 27.07. nicht in den Vollgas-Takt.
+
+**Parallel-Befund, nicht von mir:** waehrend dieses Laufs hat eine zweite Instanz dieselbe Datei
+bearbeitet und `baurecht-buch` mit dem Grundsatz ergaenzt, ein Loop mit eigenem Scheduled Task
+gehoere nicht zusaetzlich in den Endlos-Zyklus (Vermerk dort «Freigabe Raphael» — von mir nicht
+verifiziert). Inhaltlich deckt sich das mit dem Befund oben; es ist der Schritt, der die
+MacBook-Zyklusliste endgueltig auf null gebracht hat.
+
+**P2 — die Aufsicht braucht einen Ausfall-Melder.** Der Radar kann seinen eigenen Ausfall
+konstruktionsbedingt nicht melden: erschoepft sich das Kontingent, faellt er mit aus. Die
+`vollgas-fruehwarnung` (06:25) hat es heute gefangen, aber erst nach 35 Stunden. Vorschlag zum
+Entscheid: den Frühwarnungs-Task zusaetzlich pruefen lassen, ob `RADAR.md` aelter als 6 Stunden
+ist, und das in seine Meldung aufnehmen — billig, und es schliesst genau die Luecke, die diesen
+Ausfall unsichtbar gemacht hat.
+
+**P3 — offene Taktfrage, die der Loop selbst stellt.** `normen-training-nacht` meldet den Bestand
+als «inhaltlich komplett»; es drehen sich nur noch zwei Lignum-Dokumente mit sinkender, aber nicht
+auf null konvergierender Fehlerdichte im Verifikationskreis. Der Loop fragt ausdruecklich, ob er
+das weiter alle zwei Stunden verifizieren oder die beiden Reste als «speculative, stabil»
+akzeptieren soll. Nicht selbst entschieden (kein Leerlauf im Sinne des Auftrags — die Laeufe
+liefern echte Korrekturen), aber entscheidungsreif.
+
+**Unveraendert:** kein STOP, keine Drossel-Datei; twin-mail und twin-fidelity liefern weiter echte
+Marker und bleiben unangetastet; operative Briefings/Monitore nicht beruehrt.
+
+---
+
 ## 2026-07-25 21:55 — [FREI] Flotte gesund, Blindgaenger-Fix nachweislich scharf — ein einzelner Loop (wettbewerbs-dna) frisst 75 % seiner Laeufe; Mac-Mini-Kapazitaet auf die groesste offene Wissensluecke umgelenkt (neuer Loop `grobkosten-training`)
 
 **Fensterzustand:** FREI. Login-Probe mit der Runner-Anmeldung (`~/.jans-dispatch.env`) antwortet
