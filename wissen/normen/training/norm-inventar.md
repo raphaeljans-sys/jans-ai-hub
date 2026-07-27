@@ -841,28 +841,56 @@ ist PL-03 gleichrangige Inventar-Quelle.
 
 | Unterordner | Dateien | Inventar-Relevanz | Status |
 |---|---|---|---|
-| `01 Brandschutznorm 2015` | 1 | hoch — VKF-Brandschutznorm 1-15de | [ ] |
-| `02 Brandschutzrichtlinien 2015-17-22` | 33 | **hoechste** — hier liegen die geltenden Fassungen 2017/2022 | [~] teilweise (4 BSPUB-Dateien identifiziert) |
-| `03 Verzeichnisse Brandschutz 2015` | 1 | mittel — 40-15 Weitere Bestimmungen | [ ] |
-| `04 Erlaeuterungen Brandschutz 2015` | 9 | mittel — VKF-Erlaeuterungen 100-15 bis 108-15 | [ ] |
-| `05 Arbeitshilfen Brandschutz 2015` | 5 | mittel — Arbeitshilfen 1000-15 ff. (Wohn-/Schulbauten, Parkhaeuser) | [ ] |
-| `06 Lignum Brandschutz` | 6 | mittel — Lignum-Dokumentation Holzbau | [ ] |
+| `01 Brandschutznorm 2015` | 1 | hoch — VKF-Brandschutznorm 1-15de | [x] 260727 MD5-identisch mit PL-02 `BSPUB-1394520214-57.pdf` (bereits destilliert) |
+| `02 Brandschutzrichtlinien 2015-17-22` | 33 | **hoechste** — hier liegen die geltenden Fassungen 2017/2022 | [x] 260727 BRL 13-15/14-15 bereits am 25.07. gegen 2017 re-destilliert (Run 23/24, stale Handlungsbedarf-Zeile korrigiert); BRL 15-15/1-15 bereits verifiziert |
+| `03 Verzeichnisse Brandschutz 2015` | 1 | mittel — 40-15 Weitere Bestimmungen | [x] 260727 MD5-identisch mit PL-02 (bereits destilliert) |
+| `04 Erlaeuterungen Brandschutz 2015` | 9 | mittel — VKF-Erlaeuterungen 100-15 bis 108-15 | [x] 260727 alle 9 MD5-identisch mit PL-02 (bereits destilliert) |
+| `05 Arbeitshilfen Brandschutz 2015` | 5 | mittel — Arbeitshilfen 1000-15 ff. (Wohn-/Schulbauten, Parkhaeuser) | [x] 260727 4/4 MD5-identisch mit PL-02 (bereits destilliert); 1001-15-Varianz (29 vs. 27 S.) + separates Auszug-Dokument (Stand 2018) aufgeklaert, 0 Abweichung |
+| `06 Lignum Brandschutz` | 6 | mittel — Lignum-Dokumentation Holzbau | [x] 260727 3 neue Destillate (4.1/4.2/Lignatec, speculative bis Verifikation); Erdbebendokument out-of-scope |
 | `00 Brandschutzplaene bsvonline.ch` | 35 | tief — Plan-/Symbolvorlagen, keine Normtexte | [-] nicht Normeninventar |
 | `00 Brandschutznachweis.ch` | 6 | tief — Nachweis-Formulare/Tools | [-] nicht Normeninventar |
 | `_Projekte Themen` | 16 | tief — projektbezogen | [-] nicht Normeninventar |
 | `08 QS` / `z_Administration` / Root | 4 | tief | [-] nicht Normeninventar |
 | `07 Blaues Buch` / `11 Projekte` | 0 | leer | [-] |
 
-### Fassungs-Befunde (aus dem Mapping-Report vom 25.07.2026)
+### Fassungs-Befunde (aus dem Mapping-Report vom 25.07.2026) — STATUS 26./27.07.2026 nachgefuehrt
 
 | Datei (PL-03) | VKF-Publikation | Fassung PL-03 | Destillat | Fassung des Destillats | Handlungsbedarf |
 |---|---|---|---|---|---|
-| `BSPUB-1394520214-71.pdf` | BRL 13-15de Baustoffe/Bauteile Klassifikation | **01.01.2017** | `vkf-brl-13-15-baustoffe-bauteile.md` | 01.01.2015 | **Re-Destillation** — IOTH-Aenderungen 22.09.2016 (Ziff. 2.4.1 Tab. S. 8; Anhang zu Ziff. 3.4 Tab. S. 24) fehlen |
-| `BSPUB-1394520214-77.pdf` | BRL 14-15de Verwendung von Baustoffen | **01.01.2017** | `vkf-brl-verwendung-baustoffe.md` | 01.01.2015 | **Re-Destillation, hoechste Prioritaet** — umfangreichste Aenderungsliste (~20 Ziffern/Tabellen in Haupttext und Anhang) |
+| `BSPUB-1394520214-71.pdf` | BRL 13-15de Baustoffe/Bauteile Klassifikation | **01.01.2017** | `vkf-brl-13-15-baustoffe-bauteile.md` | 01.01.2017 (Nachtrag Run 23/24) | **erledigt** — bereits am 25.07.2026 (Run 23) gegen die 2017-Fassung re-destilliert und established gehoben |
+| `BSPUB-1394520214-77.pdf` | BRL 14-15de Verwendung von Baustoffen | **01.01.2017** | `vkf-brl-verwendung-baustoffe.md` | 01.01.2017 (Nachtrag Run 23/24) | **erledigt** — bereits am 25.07.2026 (Run 23, re-verifiziert Run 24) gegen die 2017-Fassung re-destilliert, established, Delta-Abschnitt im Destillat dokumentiert (Ziff. 2 Abs. 3/8/12, Ziff. 3.2.1/3.2.3) |
 | `Brandschutzabstaende Tragwerke 17 BSPUB-…-81.pdf` | BRL 15-15de Brandschutzabstaende Tragwerke | 01.01.2017 | `vkf-brl-15-15-brandschutzabstaende-tragwerke.md` | beide Fassungen zitiert | keiner — bereits am 14.07.2026 gegen beide Fassungen verifiziert |
 | `BSPUB-1394520214-57.pdf` | Brandschutznorm 1-15de | 01.01.2015 (einzige Ausgabe) | `vkf-brandschutznorm-1-15de-bspub57.md` | 01.01.2015 | keiner — byte-identisch mit PL-02 |
 
-**Naechster normen-Lauf, Prioritaet 1:** die beiden Re-Destillationen (BRL 14-15de zuerst, dann
-13-15de) gegen die 2017er-Fassung. Beide Destillate tragen bis dahin einen Fassungs-Vorbehalt.
-**Prioritaet 2:** die noch nicht inventarisierten PL-03-Unterordner (01, 03, 04, 05, 06) erfassen
-und gegen den PL-02-Bestand auf Dubletten/juengere Fassungen abgleichen.
+**Korrektur 27.07.2026 (Run 30):** Die oben bis 26.07. gefuehrte "Re-Destillation noetig"-Zeile war
+**stale bookkeeping** — die Re-Destillation war zum Zeitpunkt der PL-03-Aufnahme (26.07.) bereits seit
+Run 23/24 (25.07.) erledigt, wurde aber in dieser Tabelle nicht nachgetragen. Lehre: eine Status-Tabelle,
+die auf einem aelteren Mapping-Report basiert, muss vor jeder "Handlungsbedarf"-Aussage gegen den
+aktuellen Destillat-Stand (Frontmatter `ausgabe:`/`datenstand:`) geprueft werden, nicht nur gegen den
+Report-Zeitpunkt.
+
+**PL-03-Unterordner 01/03/04/05 (26 Dateien) — Datei-fuer-Datei-MD5-Abgleich gegen PL-02 (Run 30,
+27.07.2026): ALLE 26 Dateien byte-identisch mit bereits destillierten PL-02-Kopien.** PL-02 enthaelt
+unter `VKF_Norm/01_Brandschutznorm 2015/`, `03_Verzeichnisse Brandschutz 2015/`,
+`04_Erlaeuterungen Brandschutz 2015/`, `05_Arbeitshilfen Brandschutz 2015/` exakte Duplikate der
+PL-03-Unterordner-Struktur — PL-03 fuegt hier keine neue Quelle hinzu (12 BSE-Erlaeuterungen 100-15
+bis 108-15, 40-15 Verzeichnis, 4 Arbeitshilfen 1000/1001/1002-03/1002-15: alle bereits am 260714
+destilliert+established, MD5-Beleg statt Neudestillation). **Einzige Abweichung:** PL-03s
+`1001-15_Wohnbauten.pdf` hat 29 statt 27 Seiten (2 zusaetzliche Seiten mit Ziff. 3.2/3.3 aus
+BRL 16-15 Flucht-/Rettungswege, bereits eigenstaendig destilliert in `vkf-brl-16-15-flucht-rettungswege.md`
+— keine neue Information). Zusaetzlich liegt in PL-03 ein separates 4-seitiges "Auszug"-Dokument
+(`1001-15_Wohnbauten Auszug Brandschutz_Arbeitshilfe_Wohnbauten.pdf`, Kopfzeile "01.01.2017 / 1001-15de,
+Stand 17.05.2018", Fassung gemaess TK-VKF-Beschluss 29.09.2016) mit den Ziffern 3 (Fluchtwege
+Wohnen/Buero), 5 (Brandschutzabstaende) und 6 (Tragwerke/Brandabschnitte) — **Zeile-fuer-Zeile gegen
+das established-Destillat `vkf-ah-1001-15-wohnbauten.md` verglichen: 0 Abweichungen** (alle Abstandswerte
+4/5/6/7.5/10 m und alle Tragwerk-Tabellenwerte R30/R60/REI30/REI60/EI30 identisch). Destillat somit
+zusaetzlich cross-verifiziert gegen die 2017/2018-Fassung, Frontmatter ergaenzt.
+
+**PL-03-Unterordner 06 Lignum Brandschutz (6 Nutzdateien, davon 4 Normen-relevant) — Run 30, 27.07.2026:**
+Kein PL-02-Gegenstueck (`VKF_Norm/Lignum` in PL-02 ist leer). Genuin neue Quelle, 3 Dokumente destilliert
+(`lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md`, `lignum-4-2-anschluesse-feuerwiderstand.md`,
+`lignum-lignatec-brandschutz.md`); `Erdbebengerechte_Holzbauten_d.pdf` (25 S.) NICHT destilliert — Thema
+Erdbeben, kein Brandschutz-/Normeninhalt dieser KB, siehe `wiki/QUESTIONS.md`.
+
+**Damit sind alle PL-03-Unterordner (01-06) erfasst — die Ergebnis-Spalte in der Kopftabelle oben ist
+mit Run 30 nachzufuehren.**
