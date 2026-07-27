@@ -4,26 +4,32 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
-- **2026-07-27 — `twin-chef`/Beziehungsregister Batch 74 (mail@, erstmals ausgewertetes Postfach).**
-  Dieselben drei vor-Claude-Mails (25.09.2025/13.11.2025/19.12.2025) zusaetzlich in
-  `wissen/twin/wiki/beziehungsregister.md` ausgewertet. Neue Marker: privat-konsumentischer
-  Dienstleister-Kanal (Hotel, Abo-Lieferdienst) als eigene Register-Achse; generisches
-  Firmenpostfach bei trivialer privater Service-Anfrage → namenloses „Guten Tag," + Sie
-  (verallgemeinert die bisher behoerdenspezifische Regel); Erwaermungs-Sequenz „Guten Tag
-  <Vorname>" → „Hoi <Vorname>" + Du innert fuenf Wochen bei einer Kundendienst-Mitarbeiterin
-  (Du-Kippen nicht auf Geschaeft/Projekt beschraenkt); Person-Du + Firmen-Ihr in derselben Mail
-  sauber getrennt; Register-Signatur-Kopplung (Geschaeftsblock bei Sie, Privatblock bei Du).
-  Neues Mapping Martina/Bio Mio. `sources` im Frontmatter um `260727-mailbatch-74.md` ergaenzt.
-- **2026-07-27 — `twin-mail-training` Batch 74 (mail@, erstmals ausgewertetes Postfach).**
-  Drei vor-Claude-Mails (25.09.2025/13.11.2025/19.12.2025, Hotelbuchung + Gemuese-Abo-
-  Dienstleisterin) in `wissen/twin/wiki/stimme.md` ergaenzt. Neue Marker: Signaturblock kippt
-  mit dem Beziehungsregister (Geschaeftsblock bei Sie/kuehl, Privatblock bei warmem eingespieltem
-  Du) statt starr am Absender-Postfach mail@; „50 Prozent" im Alltagsfliesstext ausgeschrieben
-  statt „%" (Register-Differenzierung Fachzahlenwerk vs. Alltagsprosa); „Grund:" als eigenes
-  Wort-Label vor der Begruendung; Emoji 😊 erstmals mitten in einer berechtigten Reklamation im
-  warmen Dienstleister-Du belegt (erweitert die Emoji-Regel um diesen Kontext); Du-Grossschreibung
-  innerhalb derselben Mail inkonsistent (Authentizitaets-, kein Echo-Signal). `sources` im
-  Frontmatter um `260727-mailbatch-74.md` ergaenzt.
+- **2026-07-27 — `twin-mail-training` Batch 74 (mail@raphaeljans.ch, erstmals ausgewertetes Postfach).**
+  Der sequenzielle rj@-Sweep lief in diesem Fenster leer (0 Treffer nach dem Batch-73-Endpunkt
+  12:38:14 Uhr, Kontrollprobe ueber den ganzen Tag bestaetigt nur die vier bereits bekannten
+  Eintraege). Deshalb auf das noch unerschlossene Postfach `mail@raphaeljans.ch` ausgewichen
+  (45 Sent Items, davon erst 2 via Fidelity-Review 260727e destilliert): drei authentische
+  vor-Claude-Mails ausgewertet (25.09.2025 Hotelbuchung Deutschland/Sie, 13.11.2025 und
+  19.12.2025 Gemuese-Abo-Dienstleisterin). Alle drei klar handgetippt (Tipp-/Kasus-Slips
+  «Mecano», «das» statt «dass», «Dankbar» gross), keine Echo-Falle. Erstmals belegtes Terrain:
+  der **privat-konsumentische Dienstleister-Kanal**.
+  Neue Marker: [[stimme]] Signaturblock kippt mit dem Register (Geschaeftsblock bei Sie/neutral,
+  Privatblock mit Wohnadresse bei warmem Du — und dort faellt das Gruss-Wort ganz weg), «50 Prozent»
+  im Alltagsfliesstext ausgeschrieben statt «%» (kontextabhaengige Differenzierung zur Fachnorm),
+  «Grund:» als eigenes Wort-Label, Emoji 😊 mitten in einer Reklamation, inkonsistente
+  Du-Grossschreibung als Authentizitaets-/kein Echo-Signal; [[beziehungsregister]] neuer Kanal als
+  eigene Register-Achse, generisches Firmenpostfach bei trivialer privater Service-Anfrage →
+  namenloses «Guten Tag,» + Sie (verallgemeinert die bisher behoerdenspezifische Regel),
+  Erwaermung «Guten Tag <Vorname>» → «Hoi <Vorname>» + Du innert fuenf Wochen (Du-Kippen nicht auf
+  Geschaeft/Projekt beschraenkt), Person-Du + Firmen-Ihr sauber getrennt in derselben Mail, neues
+  Mapping Martina/Bio Mio; [[arbeitsweise]] Kernbefund «Alltagsanliegen mit Projektmethodik»
+  (Struktur skaliert nicht mit dem Anlass), Betreff-Umwidmung im gekaperten Newsletter-Thread,
+  Negativ-/Abgrenzungszeile was unveraendert bleibt, zwei Bitten nach Haerte gestaffelt, datierte
+  Chronologie vor der Bitte, selbst recherchieren und nur bestaetigen lassen.
+  Mikro-Metrik (289 W): Du-Gross 0.75, Apostroph 0, «%» 0, Ellipsen 0, Satzlaenge ø 16.1 W.
+  `sources` in allen drei Artikeln um `260727-mailbatch-74.md` ergaenzt, `_INGESTED.md`
+  fortgeschrieben (rj@-Sweep-Endpunkt unveraendert 2026-07-27T12:38:14Z; mail@ neu bis 19.12.2025).
+
 - **2026-07-27 — `twin-mail-training` Batch 73 (rj@, 11:00–12:38 Uhr).** Nach dem Sweep-Endpunkt
   von Batch 72 frisch gepullt: genau 1 neuer Treffer, eine Teams-Meeting-Einladung „Koordination
   LBW/Innerer Verglasung - Brandschutz" an Othmar Stadelmann (Estermann AG), klar handgetippt,
