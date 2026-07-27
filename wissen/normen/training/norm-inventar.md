@@ -1,5 +1,23 @@
 # Norm-Inventar — Arbeitsliste des Nacht-Loops `normen-training-nacht`
 
+- **Run 34 (MacBook Pro, 260727) — fuenfte Refuter-Runde fuer die 3 verbleibenden speculativen
+  Lignum-/SIA-Destillate (Run-33-Empfehlung). Kein Nulldurchgang; Registrierung nachgeholt
+  (Destillat-Edits waren bereits vor dieser Instanz fertig, aber ungetrackt).**
+  Kein neues Grunddestillat (PL-02 weiterhin 0 offene `[ ]`). Ergebnis je Destillat:
+  - `lignum-lignatec-brandschutz.md`: bleibt `speculative` — fuenfte Runde 1 Befund (Figur 1
+    zweimal mit Fundstelle "S. 3" statt korrekt "S. 2" zitiert, reine Fundstellen-Ungenauigkeit,
+    keine inhaltliche Abweichung), korrigiert. Konvergenz 17→1→1→1→1.
+  - `sia-d0165-2000-kennzahlen-immobilienmanagement.md`: bleibt `speculative` — fuenfte Runde
+    3 Befunde (Kap. 3.1.1 KF-Auszuschliessen-Liste verkuerzt, Anhang-2-HNF3-Titel verkuerzt,
+    Anhang-6-DIN-18960(1976)-Reihenfolge Steuern/Betrieb vertauscht), alle eingearbeitet, keine
+    Regression; GEFMA-450/GEFMA-4xx-230/BKP-19-99-EKG-W1-W6 erneut bestaetigt.
+  - `lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md`: bleibt `speculative` — fuenfte
+    Runde 2 Befunde (Tab. 431-2 drei nicht belegte Alternativ-Querschnitte entfernt; Abb. 310-2
+    Massivholzplatten-**Doppel-Regression** aus Runde 3+4 vor Rundenbeginn separat korrigiert
+    und hier unabhaengig bestaetigt). Fuenfte Runde in Folge mit mindestens einem Befund.
+  Details `wiki` unveraendert (keine neuen offenen Fragen), Report
+  `outputs/2026-07-27_normen-nacht-run34.md`.
+
 - **Run 33 (MacBook Pro, 260727) — vierte Refuter-Runde fuer die 4 verbleibenden speculativen
   Lignum-/SIA-Destillate (Run-32-Empfehlung), plus Recherche zur regionalen ZH-Geltung.
   1x established (Lignum 4.2), 3x weiterhin speculative mit je genau 1 Befund.**
