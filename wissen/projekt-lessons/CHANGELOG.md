@@ -4,6 +4,29 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-28 — Bootstrap fortgesetzt: zwei neue Lesson-Artikel (Nachtschicht Mac Mini)
+- **[neu] `wiki/roethlisberger-geraetepreis-pruefung-273-35.md`** (status established).
+  KISPI Los 273.35 Therapieküche: Geräte-Nachtrag verdoppelt die Offertsumme
+  (36'461 → 82'378 CHF exkl. MwSt); Lesson: Mehrumfang und Preisaufschlag pro Gerät
+  getrennt gegen echte Marktpreise (mindestens zwei Quellen) prüfen, nie den ganzen
+  Sprung pauschal als Mehrumfang akzeptieren. Quelle: Konversations-Destillat 260718
+  (Abschnitt Roethlisberger Therapieküche) + Logbuch-Journal 09./17./21.07.2026.
+- **[neu] `wiki/sbb-naeherbaurecht-thalwil-2414-vordach.md`** (status established).
+  Projekt 2414 Thalwil: ein 12.76 m² Vordach im SBB-Näherbaurechtsperimeter löst eine
+  eigene, erweiternde Vereinbarung mit der SBB aus, die zur JANS-Bringschuld in der
+  Auflagebereinigung wird; Lesson: bei jeder Projektänderung im Näherbaurechtsperimeter
+  frühzeitig aktiv die SBB-Vereinbarung erweitern lassen. Quelle: Logbuch-Journal
+  03./09./10./20.07.2026 (Abschnitte Thalwil 2414 Näherbaurecht).
+- **[INDEX]** Beide Artikel unter «Bauleitung / Ausführung» bzw. «Behörden & Bewilligungen»
+  registriert; Statistik auf 3 Artikel aktualisiert.
+- **[QUESTIONS]** Bootstrap-Pendenz als teilweise erledigt vermerkt (3 von 3-5
+  Ziel-Faellen); «Kosten & Termine» und «Koordination & Kommunikation» bleiben leere
+  Fokus-Bereiche, naechster Kandidat offen.
+- Damit sind die beiden im Logbuch (Eintraege 22.07./25.07.) namentlich vorgeschlagenen
+  Bootstrap-Kandidaten (Roethlisberger-Preischeck Los 273.35, SBB-Naeherbaurecht Thalwil
+  2414) abgearbeitet — keine Doppelarbeit mit anderen Loops (dieser Lauf ist der erste
+  echte Bootstrap-Beitrag, vorherige Health-Checks haben die Pendenz nur wiederholt).
+
 ## 2026-07-26 — Wissens-Chef Run 16 (Cross-KB, ERST-PRUEFUNG dieser KB)
 - **[korrektur] KB-eigene Schreibregel war im einzigen Artikel nicht umgesetzt.** `CLAUDE.md` verlangt, jede Lesson mit Gewerk/BKP, SIA-Phase und den betroffenen Skills zu taggen — genau der Mechanismus, ueber den Erkenntnisse in die Skills zurueckfliessen. `wiki/kispi-lbw-rohdichte-800.md` fuehrte `links: []`, keine SIA-Phase, keinen Skill-Tag; der Health-Check vom 25.07. hat das Frontmatter dennoch als «korrekt» abgenommen. → Frontmatter nachgezogen (Gewerk BRA/ARC, BKP 271.10/271.13, SIA-Phase 5, Skills brandschutz/unternehmerkontrolle/ausschreibung, links auf beide Cross-KB-Ziele).
 - **[verlinkung, Erst-Verlinkung] Lesson und `auflagebereinigung` dokumentierten denselben Vorgang, ohne voneinander zu wissen** — die Auflage **II.19** «Detailplaene brandschutzrel. Innenwaende (Material/Aufbau)» am selben Projekt 2619 KISPI. → bidirektional verlinkt mit Rollentrennung: `auflagebereinigung` fuehrt Auflagen-Ziffer/Amt/Frist, `projekt-lessons` die Beweiskette der Material-Substanz.

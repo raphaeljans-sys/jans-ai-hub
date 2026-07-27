@@ -614,6 +614,12 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   AWEL/Minergie/GVZ/2000-Watt/Lignum/SWKI…) → [[recht-norm-quellenlandkarte]]. Vertiefung je Bedarf.
 
 ## C — Brandschutz
+- [ ] **C39 (Run 92, 2026-07-28)** Neue 201-Byte-Datei im Lignum-4.1-Ordner (gleicher Dateiname
+  wie der Elternordner, minus einem Buchstaben `Feuerwiederstand`→`Feuerwiderstand`, mtime
+  27.07.2026 18:23) — Inhalt bisher **nicht auslesbar**: drei Versuche (`cat`, `cp` zweifach,
+  `cat` nach 5s Wartezeit) scheitern alle mit "Resource deadlock avoided" (OneDrive-EDEADLK,
+  analog K46/R52-56, hier aber persistent statt reines Sync-Timing). Für den nächsten
+  Brandschutz-Turnus vorgemerkt — bei Persistenz ggf. `mdls`/Finder-Neustart/Retry am Folgetag.
 - [x] **C38 (B46) (Run 60, 2026-07-25)** `Brandschutznachweis_MFH-5g-RF1_V.2_-_ohne_Logo.docx`
   (bisher nur als Existenz-Verweis in §2 geführt) vollständig gelesen — liefert ein reales,
   ausformuliertes MFH-Beispiel mit konkreter Feuerwiderstands-Matrix (R60/REI60/EI60/EI30,

@@ -777,6 +777,26 @@ das Ergebnis in den passenden Wiki-Artikel.
   einen Ereignis-Trigger (neue Datei in einem der vier PL-Ordner) zuruecktakten — die KB hat
   seit Run 67 (25 Laeufe) keinen einzigen inhaltlichen Fund mehr geliefert ausser dem bereits
   erledigten M4.
+- [x] Run 92 (2026-07-28, Token-Vollgas, Intensiv-Lauf auf Raphaels direkten Auftrag) Frischecheck
+  aller vier PL-Ordner gegen Run 90/91: `PL - 02_Recht_Norm` + `PL - 01 Kartenportale` +
+  `PL - 04 Energie` weiterhin **0 neue/geaenderte Dateien**. `PL - 03 Brandschutz` liefert erstmals
+  seit Run 67 einen echten Treffer: eine neue 201-Byte-Datei im Lignum-4.1-Ordner
+  (`.../Lignum 4.1 Bauteile in Holz - Decken Waende und Bekleidungen mit Feuerwiederstand/Lignum
+  4.1 ... Feuerwiderstand`, mtime 27.07.2026 18:23) — **inhaltlich nicht lesbar**, drei Leseversuche
+  (`cat`, `cp` in zwei Anlaeufen, erneuter `cat` nach 5s Wartezeit) scheitern alle mit "Resource
+  deadlock avoided" (derselbe OneDrive-EDEADLK wie K46/R52-56, hier aber persistent statt
+  Sync-Timing). Fuer den naechsten Brandschutz-Turnus vorgemerkt statt erzwungen. Zwei belegte
+  Refresh-Checks WebSearch+WebFetch amtliche Quelle: **B5 BSV-2026** (bsvonline.ch) unveraendert
+  (politische Vernehmlassung weiterhin 08/2026, IOTH 03/2027) — fuenfte Refresh-Bestaetigung in
+  Folge → [[brandschutz-pl03-wegweiser]] §1. **R6 RPG-2 ZH-Umsetzung** (zh.ch WebFetch Primaerquelle)
+  unveraendert — PBG-/Richtplan-Fertigstellungsdatum weiterhin offen, alle materiellen Eckwerte
+  (Referenzwerte 40'807/2'594 ha, Abbruchpraemie-Bedingungen inkl. Zonenausschluss, Zweitphase
+  "Verfahrensregelungen fuer illegales Bauen") bereits vollstaendig dokumentiert → keine Ergaenzung
+  noetig, nur Refresh-Vermerk [[recht-norm-quellenlandkarte]]. **Fazit:** 27. Erschoepfungs-
+  bestaetigung in Folge (Run 67-92) ohne genuinen inhaltlichen Fund; der einzige neue Datenpunkt
+  ist ein technisch nicht auswertbarer Blocker. Bestaetigt die Ruecktaktungs-Empfehlung aus dem
+  Registrierungs-Nachtrag oben — wird hier ein drittes Mal wiederholt, siehe QUESTIONS.md und
+  `outputs/2026-07-28_training-run92.md`.
 
 ## Meta / Querschnitt
 - [x] M1 Grundlagen-Checkliste «neue Parzelle» (was holt man IMMER zuerst) als Standard-Output. (2026-06-30 Run 12: 8 Pflicht-Grundlagen EGRID→OEREB→Zonenplan→Baulinien→Vermessung→DTM/Ortho→GWR→Behoerden je mit Connector-Befehl, SZ-Kurzvariante, End-to-End-Benchmark Giebelweg 12 EGRID CH879777718909 validiert → [[kartenportale-grundlagen-checkliste-neue-parzelle]])
