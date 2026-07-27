@@ -515,6 +515,36 @@ eigenen fachlichen Zusatzwert).
   betroffen (dort deckungsgleich).
 
 ## Verifikationsstand
+- **27.07.2026, fünfte Runde (Run 34, unabhängiger Refuter-Agent)**: vollständiger
+  Volltextabgleich aller 73 Originalseiten (3 Lesedurchgänge à 20/20/14 Seiten) gegen jede
+  Aussage, Formel, Kennzahl, beide Berechnungsbeispiele (S. 37-47, Zahl für Zahl
+  nachgerechnet), den Flächenbaum (Anhang 1-2), die sechs Abweichungen (Anhang 3), die
+  Spezialfälle (Anhang 5) und die Kostengliederungs-Kreuztabelle (Anhang 6) im Destillat.
+  Gezielt geprüft: (1) GEFMA-450-Fix (Run 32) und GEFMA-4xx/230-Instandsetzung-Fix (Run 33) —
+  **beide bestätigt korrekt**, keine Regression. (2) BKP-19-99/EKG-W1-W6-Sammelposition —
+  **weiterhin korrekt und vollständig vorhanden** (Original S. 32 f.). (3) Die S.-41-Werte
+  (VMF 249.01 m², DMF 112.90 m²) und die VF-9.1-Beschriftung der 1.OG-Treppe auf S. 38 —
+  **beide erneut arithmetisch/visuell bestätigt** (Rückaddition NNF 7.4 = 18.14 m² stimmt
+  exakt; Summe VF 9.2 über alle vier Geschosse ergibt nur mit der 1.OG-Treppe 29.50 m²).
+  Verdikt: **BEANSTANDET**, 3 Befunde, alle eingearbeitet (keine Regression, alle vom Typ
+  unvollständige Wiedergabe). Befunde: (1) Kapitel 3.1.1 (S. 14, Konstruktionsfläche KF,
+  Auszuschliessen-Liste): "gestalterische Vor-/Rücksprünge" verkürzt zitiert, Original sagt
+  "Konstruktive und gestalterische Vor- und Rücksprünge an den Aussenflächen" — das Wort
+  "konstruktive" fehlte; ergänzt. (2) Anhang 2 (S. 52): Kategorietitel "HNF3
+  Produktion/Experimente" verkürzt, Original-Titel lautet "Produktion, Hand- und
+  Maschinenarbeit, Experimente" (Kapitel 3.1.1 hatte den vollen Titel bereits korrekt, Anhang
+  2 nicht — interne Inkonsistenz im Destillat); zu "HNF3 Produktion/Hand-/Maschinenarbeit/
+  Experimente" korrigiert. (3) Anhang 6 (S. 63-66): die DIN-18960(1976)-"6-Punkte-Gliederung"
+  war in der Reihenfolge "Kapital/Abschreibung/Verwaltung/**Betrieb/Steuern**/Bauunterhalt"
+  wiedergegeben; nach der Originalnummerierung ist "4. Steuern" (bei 371, Original S. 65)
+  jedoch VOR "5. Betriebskosten" (Original S. 63) einzuordnen — die visuelle Tabellenposition
+  (Steuern erscheint wegen der Kreuzreferenz auf DIN-1999-370 unterhalb von Betriebskosten)
+  hatte die Runde vorher offenbar zur falschen Zählreihenfolge verleitet; zu "Steuern/Betrieb"
+  korrigiert und die Ursache der Verwechslung im Fliesstext dokumentiert. Keiner der drei
+  Befunde betrifft eine ehemals korrekt gelöschte oder neu falsch eingefügte Sammelposition;
+  die Fehlerquelle ist durchgehend Verkürzung/Kompression bei der Destillation bzw. eine
+  Verwechslung von Tabellen-Layout und Original-Nummerierung, nicht Fehlinterpretation des
+  fachlichen Inhalts. Bleibt speculative bis zu einer Runde mit sauberem Nulldurchgang.
 - **27.07.2026, vierte Runde (Run 33, unabhängiger Refuter-Agent)**: vollständiger
   Volltextabgleich aller 73 Originalseiten (3 Lesedurchgänge à 20/20/13 Seiten) gegen jede
   Aussage, Formel, Kennzahl, jedes Berechnungsbeispiel, den Flächenbaum, alle sechs
