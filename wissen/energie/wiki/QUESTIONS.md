@@ -2446,3 +2446,42 @@ und in CLAUDE.md steht nur der Einzeiler in der Skill-Tabelle. Aufwand: eine SKI
 kein neuer Agent, keine Migration der KB.
 
 **Offen bleibt Raphaels Entscheid.** Kein Skill wurde angelegt.
+
+## Run 117 (2026-07-27) — sechs parallele Rechercheagenten, gezielter SZ-Volltextabgleich
+
+PDF-Inventar erneut geprüft (find -newermt gegen PL-04 Energie auf OneDrive/SharePoint): keine
+neuen PDFs seit 01.07.2026, Web-Pfad bestätigt. Der Prioritäts-Empfehlung aus Run 116 gefolgt
+(gezielter SZ-Lauf mit kEnG/kEnV-Volltext) plus drei neue Themenfelder.
+
+**Verifikationsprotokoll:**
+
+| Prüfgegenstand | Ergebnis |
+|---|---|
+| kEnG/kEnV SZ auf Abwärme-Drittabgabepflicht | **bestanden** — Negativbefund am Volltext beider Erlasse bestätigt (vorher nur Websuche) |
+| kEnG/kEnV/EGzGSchG/WRG SZ auf Abwasserwärme-Bewilligung | **bestanden** — vier Erlasse vollständig gelesen, kein Regime gefunden |
+| § 41a BBV I ZH / MuKEn 2025 Art. 1.23 Automationsschwelle | **bestanden** — 5'000 m² (heute) vs. 2'000 m² (MuKEn 2025, noch nicht ZH-Recht) primärquellen-verifiziert |
+| WVV Stadt Zürich 16.3.2022 (Gasverbot/Anschlusszwang) | **bestanden** — amtlicher Volltext gelesen |
+| ETA-3-/Rückkühler-Flächenkennwert | **nicht CH-amtlich belegbar** — nur deutsche Herstellerquelle, ehrlich als Negativbefund markiert |
+
+**Neue FAQ:** F172 (SZ-Abwärme-Negativbefund) · F173 (SZ-Abwasserwärme-Negativbefund, established)
+· F174 (Energiemonitoring-Schwellen ZH+SZ, established) · F175 (Therapiebad-Energie, emerging) ·
+F176 (EnerGIS Stadt Zürich, established) · F177 (Rückkühler-Fläche/Lärm, emerging).
+
+**Verdichtung:** Drei bestehende Wiki-Artikel gezielt erweitert statt neuer Artikel angelegt
+(`abwaermenutzung-gebaeude`, `solarpflicht-schweiz-kantone`, `waermepumpen-laermschutz`) —
+schliesst zwei dort explizit benannte offene Punkte (Rückkühler-Flächenkonkurrenz, SZ-Negativbefunde).
+
+FAQ-Stand: **177 Kernfragen (F1-F177)**. Destillate-Stand: **192** (sechs neue). **Sechste
+Bestätigung in Folge (Run 111-117), dass die Sättigungsdiagnose für neue Themenfelder nicht
+zutrifft.**
+
+**Offen / Priorität nächster Lauf:**
+1. Cross-KB-Nachzug: `sia-386-bacs-gebaeudeautomation.md` um den fehlenden Geltungsstatus der
+   MuKEn-2025-2'000-m²-Schwelle ergänzen (in Run 117 entdeckt, nicht behoben — Kollisionsschutz).
+2. Die fünf gebündelten Kaufentscheide warten jetzt **19 Runs in Folge** auf eine Entscheidung
+   Raphaels (B1-Konsolidierung, SWKI VA105-01, SIA 385/1, SIA 385/2, SIA 384.354).
+3. SZ-Vollzugspraxis (AfU-SZ-Wegleitungen, kommunale Sonderregeln Rechenzentrums-Gemeinden) für
+   die beiden neuen SZ-Negativbefunde ungeprüft.
+4. Bezeichnungskollision SIA 385/1 (alte Norm Badewasseraufbereitung vs. aktuelle SIA 385/1:2020
+   Trinkwarmwasser) aus dem Therapiebad-Destillat ungeklärt.
+5. Meta-Punkt M2 (eigenständiger Skill «energie»?) seit Run 45 spruchreif, weiterhin unentschieden.

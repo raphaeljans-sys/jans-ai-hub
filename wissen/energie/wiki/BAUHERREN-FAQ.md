@@ -5852,3 +5852,159 @@ Datenstand 2026-07-27 (Run 116) → `[[waescherei-prozessenergie-pflegeheim-spit
 `[[blockheizkraftwerk-bhkw-mfh-pflegeheim-ch]]`. Status **emerging** — die «zwei Drittel»-Aussage
 stützt sich auf einen einzigen, 2012 datierten Sekundärbericht (Original-Studie nicht auffindbar);
 kg/Bett/Tag und CHF/kg-Benchmark für CH-Spitäler bleiben unbelegt.
+
+## F172 — «Muss ich im Kanton Schwyz überschüssige Abwärme meines Gebäudes Dritten anbieten, so wie das in Zürich vorgeschrieben ist?»
+
+**Kurzantwort:** Nein. Im Kanton Schwyz gilt nur eine allgemeine Pflicht, anfallende Abwärme
+selbst zu nutzen, soweit technisch/betrieblich möglich und wirtschaftlich zumutbar (§ 21 kEnV) —
+anders als in Zürich gibt es keine Pflicht, ungenutzte Abwärme ab einer bestimmten Menge Dritten
+zu Gestehungskosten anzubieten.
+
+**Fachliche Begründung:** In Kt. Zürich müssen Betreiber von Anlagen, die im Jahr mehr als
+2 GWh Abwärme an Dritte abgeben könnten, diese seit 1.9.2022 zu Gestehungskosten anbieten
+(§ 30a Abs. 2 BBV I, RRB Nr. 840) — die MuKEn 2025 übernimmt diese Klausel national fast
+wortgleich (Art. 1.18 Abs. 2). Der amtliche Volltext des Schwyzer Energiegesetzes (kEnG,
+SRSZ 420.100) und der Energieverordnung (kEnV, SRSZ 420.111) wurde gezielt nach «Abgabepflicht»,
+«Gestehungskosten» und «Rechenzentrum» durchsucht: **null Treffer** in beiden Erlassen. Das
+gilt auch für Rechenzentren oder grosse Kälteanlagen. Grossverbraucher (>5 GWh/Jahr Wärme oder
+>0,5 GWh/Jahr Strom) müssen dagegen mit einer Verbrauchsanalyse-Pflicht nach § 9 kEnG rechnen —
+das misst aber die Nachfrage-, nicht die Angebotsseite.
+
+**Quelle:** kEnG SZ (SRSZ 420.100) und kEnV SZ (SRSZ 420.111), amtlicher Volltext, Datenstand
+1.2.2025/1.5.2022. Datenstand Recherche 2026-07-27 (Run 117) → `[[abwaerme-bereitstellungspflicht-sz]]`,
+ergänzt `[[abwaermenutzung-gebaeude]]`. Status **emerging** — der Negativbefund selbst ist
+primärquellenfest, der MuKEn-2025-Umsetzungsstand im Kt. Schwyz ist unbestätigt.
+
+## F173 — «Gibt es im Kanton Schwyz ein Bewilligungsregime für Abwasserwärmenutzung aus der Kanalisation, analog zu Zürich?»
+
+**Kurzantwort:** Nein. Am amtlichen Volltext von vier einschlägigen Erlassen verifiziert
+existiert keine ausdrückliche gesetzliche Grundlage für ein Bewilligungsregime der
+Abwasserwärmenutzung im Kt. Schwyz.
+
+**Fachliche Begründung:** Geprüft wurden kEnG (SRSZ 420.100), kEnV (SRSZ 420.111, § 21 regelt
+nur gebäudeinterne Abwärme), das Einführungsgesetz zum Gewässerschutzgesetz (EGzGSchG,
+SRSZ 712.110, § 17 Abs. 2 listet abschliessend fünf bewilligungspflichtige
+Abwasser-Tatbestände — Energiegewinnung ist keiner davon) und das Wasserrechtsgesetz
+(WRG, SRSZ 451.100). Der einzige verwandte Tatbestand — § 11 Abs. 2 lit. b WRG,
+Konzessionspflicht «Betrieb von Wärmepumpen» — gilt nur für öffentliche Gewässer (Seen, Flüsse,
+Grundwasser gemäss der Definition in § 2 WRG) und erfasst die Kanalisation ausdrücklich nicht.
+Ein SZ-Bauprojekt muss den Weg zur Wärmeentnahme aus der Kanalisation deshalb individuell mit
+dem Amt für Gewässer klären. Ein Anschluss an ein bereits bestehendes, ARA-gespeistes Wärmenetz
+ist dagegen schon heute über die kEnV-Standardlösung (Anhang 5/6) direkt im Energienachweis
+anrechenbar.
+
+**Quelle:** kEnG, kEnV, EGzGSchG (SRSZ 712.110, Stand 1.2.2019) und WRG (SRSZ 451.100) SZ,
+amtlicher Volltext. Datenstand Recherche 2026-07-27 (Run 117) →
+`[[abwasserwaerme-bewilligung-sz-vertiefung]]`, ergänzt `[[abwaermenutzung-gebaeude]]`. Status
+**established** — alle vier Kern-Erlasse vollständig im Volltext gelesen und gezielt durchsucht.
+
+## F174 — «Ab welcher Gebäudegrösse muss ich im Kt. Zürich eine Gebäudeautomation mit Energiemonitoring einbauen?»
+
+**Kurzantwort:** Heute (Stand 2026) ab 5'000 m² Energiebezugsfläche bei Neubauten von
+Nichtwohnbauten (§ 41a BBV I). Die künftige MuKEn 2025 würde diese Schwelle auf 2'000 m² senken.
+
+**Fachliche Begründung:** Das ZH-Formular EN-141 «Gebäudeautomation» (EnFK-Vollzugshilfe Juni
+2017, amtlich in § 41a BBV I, LS 700.21, kodifiziert) verlangt bei Nichtwohnbau-Neubauten ab
+5'000 m² EBF eine fest eingebaute Gebäudeautomation mit sieben Monitoring-Funktionen — eine
+dauerhafte bauliche Ausrüstungspflicht, kein wiederkehrender Bericht. Die MuKEn 2025
+(Originalvolltext, verabschiedet 29.08.2025) senkt diese Schwelle im verbindlichen Basismodul
+(Art. 1.23, Teil D) auf 2'000 m² EBF und macht sie damit erstmals schweizweit zwingend — ist
+aber Stand Juli 2026 noch **nicht** ins ZH-Recht überführt. Für Projekte mit mehrjährigem
+Planungshorizont lohnt sich deshalb schon heute eine vorsorgliche Auslegung des Zählerkonzepts
+auf das 2'000-m²-Niveau. Unabhängig davon greift ab 200'000 kWh Stromverbrauch/Jahr zusätzlich
+eine **einmalige** Betriebsoptimierungspflicht (§ 13d EnerG/§ 48c BBV I), drei Jahre nach
+Inbetriebnahme fällig — rechtlich eigenständig von der freiwilligen Grossverbraucher-
+Zielvereinbarung (§ 13a EnerG, EnAW/act, Schwelle 0,5 GWh Strom/5 GWh Wärme); wer eine
+Zielvereinbarung hat, ist automatisch befreit. Kanton Schwyz kennt (kEnG/kEnV, amtlicher
+Volltext geprüft) weder eine EN-141-Analogie noch eine Betriebsoptimierungspflicht.
+
+**Quelle:** § 41a BBV I ZH (LS 700.21), EN-141-Vollzugshilfe EnFK 2017, § 13d EnerG/§ 48c BBV I
+ZH, MuKEn 2025 Art. 1.23 (Originalvolltext), kEnG/kEnV SZ. Datenstand Recherche 2026-07-27
+(Run 117) → `[[energiemonitoring-submetering-grossverbraucher-zh-sz]]`. Status **established**
+— zentrale Schwellenwerte an amtlichen Primärtexten verifiziert; Sanktion, EVEN-Detailablauf und
+ZH-Umsetzungstermin der MuKEn-2025-Schwelle bleiben offen.
+
+## F175 — «Was kostet ein Therapiebad im Pflegeheim energetisch, verglichen mit einem öffentlichen Hallenbad?»
+
+**Kurzantwort:** Belastbare Schweizer Kennzahlen existieren nur für öffentliche Hallenbäder
+(28-30 °C Wassertemperatur, 47-67 kWh/m³ und Jahr). Für Therapiebäder (12-24 m², ≥32 °C) gibt es
+weder in Schweizer noch in deutschen Quellen einen eigenen Energiekennwert.
+
+**Fachliche Begründung:** Das BFE-Grundlagenwerk «Rationelle Energienutzung in Hallenbädern»
+(1993, amtlich, vollständig gelesen) beziffert für öffentliche Hallenbäder den Sollwert nach
+Sanierung mit 56-67 kWh/m³·a und den Zielwert für Neubauten mit 47-58 kWh/m³·a bei
+28-30 °C Wassertemperatur; ein Fallbeispiel (Muttenz, BFE/EnergieSchweiz 2002) bestätigt mit
+190 MJ/m³·a nach Sanierung dieselbe Grössenordnung. Therapiebecken in Spitälern/Pflegeheimen
+laufen deutlich wärmer (≥32 °C, oft nur 12-24 m² Wasserfläche) — dazu liegt nur eine deutsche
+Sekundärquelle vor, kein eigener Energiekennwert. Physikalisch (Verdunstung als Hauptlastfaktor,
+Dalton-Formel) ist wegen der höheren Wassertemperatur ein spürbar höherer spezifischer Bedarf
+pro m² plausibel (eigene Herleitung: ca. 40 % höherer Sättigungsdampfdruck bei 33 °C vs. 27 °C
+nach der Magnus-Formel), aber **nicht mit einer Primärquelle beziffert** — dieser Wert ist
+bewusst als eigene Einordnung markiert, nicht als belegte Zahl. Im Energienachweis (SIA 380/1)
+ist ein Therapiebad mit hoher Wahrscheinlichkeit als Sondernutzung ausserhalb der
+SIA-2024-Standardkennwerte zu behandeln.
+
+**Quelle:** BFE «Rationelle Energienutzung in Hallenbädern», 1993; BFE/EnergieSchweiz
+«Halbierter Energieverbrauch», 2002 (Fallbeispiel Muttenz); sicheres-krankenhaus.de (DE,
+Therapiebecken-Kennwerte); VDI-2089-Sekundärzitate (DE). Datenstand Recherche 2026-07-27
+(Run 117) → `[[therapiebad-hallenbad-energie-pflegeheim]]`. Status **emerging** — Hallenbad-
+Basiswerte primärquellenfest, Therapiebad-Kernfrage bleibt ehrlicher Negativbefund.
+
+## F176 — «Zeigt EnerGIS auch, ob ich mein Grundstück mit Erdwärmesonden erschliessen darf?»
+
+**Kurzantwort:** Nein. EnerGIS, die städtische Energieplankarte von Zürich, zeigt nur eine
+planerische Eignungsklasse — nicht, ob eine Bohrung am konkreten Standort tatsächlich zulässig ist.
+
+**Fachliche Begründung:** EnerGIS ist laut Energieplanungsbericht der Stadt Zürich 2025
+(Kap. 7.3.4, wörtlich) «eine zentrale Rolle als Informationsplattform gegenüber der
+Bevölkerung» — ein reines Informationsinstrument, kein Rechtsakt. Es zeigt parzellenscharf vier
+Teilkarten: Wärme-/Kälteverbunde (mit Status in Betrieb/Planung/Prüfung), Gasgebiete und
+Eignungsgebiete (E11 Erdwärmesonden + Luft-Wasser-Wärmepumpen, E12 nur Luft-Wasser-Wärmepumpen,
+E13 Abwärmenutzung). Die **geologische Bohreignung** für Erdwärmesonden zeigt EnerGIS
+ausdrücklich **nicht** — das leistet der separate kantonale Wärmenutzungsatlas (GIS-ZH Nr. P8,
+maps.zh.ch). Eine generelle Anschlusspflicht an Wärmeverbunde besteht nicht, aber die
+Wärmeversorgungsverordnung der Stadt Zürich (WVV vom 16.3.2022, amtlicher Volltext) erzeugt über
+das Gasverbot ab 2040 (Art. 16/18) und die gebietsweise Gasnetz-Stilllegung (Art. 19-20,
+Ankündigungsfrist 5-10 Jahre) einen faktischen Umstellungsdruck. Zugang öffentlich und ohne
+Login unter stadt-zuerich.ch/energis/frontend/ — technisch eine Angular-Single-Page-App, die
+Legende selbst liess sich nur über den Energieplanungsbericht rekonstruieren, nicht direkt aus
+dem HTML.
+
+**Quelle:** Energieplanungsbericht Stadt Zürich 2025 (amtlich, vollständig gelesen);
+Wärmeversorgungsverordnung (WVV) Stadt Zürich vom 16.3.2022 (amtlicher Volltext). Datenstand
+Recherche 2026-07-27 (Run 117) → `[[energis-kartenwerk-stadt-zuerich]]`. Status **established**
+— beide Primärquellen vollständig als amtliche PDFs gelesen; die UI-Ebene von EnerGIS selbst
+(Angular-SPA) bleibt mit ⚠ markiert.
+
+## F177 — «Kann ich die vom Rückkühlwerk belegte Dachfläche von der PV-Pflicht abziehen?»
+
+**Kurzantwort:** Nein, nach der belegten Vollzugspraxis mehrerer Kantone zählt diese Fläche
+grundsätzlich zur pflichtigen Bruttodachfläche. Ein Abzug ist nur über ein begründetes
+Ausnahmegesuch möglich, kein Freibrief.
+
+**Fachliche Begründung:** Drei Kantone (Bern seit Januar 2026, Basel-Landschaft seit März 2025,
+Aargau 2025) regeln amtlich, was von der pflichtigen PV-Bruttodachfläche abgezogen werden darf.
+Die Bern-Vollzugshilfe hält wörtlich fest: «Nicht von der Bruttofläche abzugsfähig sind z.B.
+begrünte Flächen auf einem Flachdach oder Flächen unter technischen Aufbauten wie z.B.
+Lüftungskanälen oder Kühlanlagen, sowie Liftaufbauten.» Ein Abzug ist nur über ein
+begründungspflichtiges Einzelfall-Ausnahmegesuch möglich (Basel-Landschaft, Kap. 4.2.2: die
+betriebsnotwendige Nutzung ist im Gesuch plausibel darzulegen). Für die künftige
+ZH-Solarpflicht-Vorlage (>300 m² Dachfläche) ist dieser Mechanismus mangels in Kraft stehendem
+Gesetzestext nicht verifiziert. Für den Lärmschutz von Rückkühlern gilt eine eigene, aktuelle
+Vollzugshilfe (Cercle Bruit 6.20, 23.09.2025) mit einem direkt einschlägigen Rechenbeispiel: ein
+Rechenzentrum mit 4-6 Rückkühlern (100-400 kW je Gerät, EN 13487) überschreitet bei Volllast den
+nächtlichen Planungswert der Empfindlichkeitsstufe III (50 dB(A)) auf 54,4 dB(A); durch
+Drehzahlreduktion bei mehr parallel laufenden Geräten sinkt der Pegel auf 47,4 dB(A). Ein
+Schweizer amtlicher Flächenkennwert (m²/kW) für die Dimensionierung des Rückkühlers selbst
+bleibt unbelegt (nur eine deutsche Herstellerquelle: ca. 0,05 m²/kW trocken, ca. 0,03 m²/kW mit
+adiabatischer Vorkühlung).
+
+**Quelle:** Solarpflicht-Vollzugshilfen Kt. Bern (Jan. 2026), Basel-Landschaft (März 2025),
+Aargau (2025); Cercle-Bruit-Vollzugshilfe 6.20 (23.09.2025); Güntner/IKZ-PRAXIS (DE,
+01.10.2020). Datenstand Recherche 2026-07-27 (Run 117) →
+`[[rueckkuehler-flaechenkonkurrenz-pv-laermschutz]]`, ergänzt `[[abwaermenutzung-gebaeude]]`,
+`[[solarpflicht-schweiz-kantone]]`, `[[waermepumpen-laermschutz]]`. Status **emerging** — der
+Lärmschutzteil ist an einer sehr aktuellen, einschlägigen Primärquelle mit passendem
+Fallbeispiel belegt, der Flächenkennwert-Teil bleibt grösstenteils Negativbefund, und der
+Solarpflicht-Abzugsmechanismus ist zwar dreifach kantonal belegt, aber nicht für Zürich selbst
+verifiziert.

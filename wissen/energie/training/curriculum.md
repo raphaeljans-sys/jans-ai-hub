@@ -1796,3 +1796,77 @@ Datei; Register-Konsolidierung und Verifikation im Hauptmodell.
   Raumprogramm). `[[heizleistung-und-waermeerzeuger]]` um die Waermequelle Abwasser ergaenzt.
   **Fuenfte Bestaetigung in Folge, dass die Saettigungsdiagnose nicht zutrifft** (Run 111-116).
   FAQ-Stand: **171 Kernfragen (F1-F171)**, Destillate: **186** (in Run 116 nachgezaehlt und um eins nach unten korrigiert — die Serie hatte `destillate/INDEX.md` mitgezaehlt; Zuwachs Run 115→116 korrekt +4).
+
+## D88 (Run 117, 2026-07-27) — sechs parallele Rechercheagenten, gezielter SZ-Volltextabgleich + drei neue Themenfelder
+
+PDF-Inventar erneut geprueft: keine neuen PDFs in `PL - 04 Energie` seit 01.07.2026 (find
+-newermt-Kontrolle), Web-Pfad bleibt der einzige Weg. Der Run folgt der von Run 116 explizit
+vorgeschlagenen Prioritaet 4 (gezielter SZ-Lauf mit kEnG/kEnV-Volltext) sowie zwei Punkten aus
+Prioritaet 6 (ungeprüfte Kandidaten) plus dem offenen Rueckkuehler-Punkt aus dem neuen
+Wiki-Artikel `abwaermenutzung-gebaeude`. Sechs `general-purpose`-Agenten parallel, jeder
+ausschliesslich mit eigener neuer Datei (Kollisionsschutz, Konsolidierung im Hauptmodell).
+
+- **D88a SZ-Abwaerme-Bereitstellungspflicht.** Der in Run 116 nur websuchbasierte Negativbefund
+  ist jetzt am amtlichen Volltext von kEnG (SRSZ 420.100) und kEnV (SRSZ 420.111) primaerquellen-
+  verifiziert: SZ kennt nur die allgemeine Eigennutzungspflicht (§ 21 kEnV), **keine** zu
+  § 30a Abs. 2 BBV I / Art. 1.18 Abs. 2 MuKEn 2025 analoge Drittabgabepflicht ab 2 GWh/Jahr →
+  `[[abwaerme-bereitstellungspflicht-sz]]`, FAQ **F172**.
+- **D88b SZ-Abwasserwaerme-Bewilligung.** Vier Erlasse (kEnG, kEnV, EGzGSchG SRSZ 712.110, WRG
+  SRSZ 451.100) vollstaendig im Volltext durchsucht: kein Bewilligungsregime; der einzige
+  verwandte Tatbestand (WRG § 11 Abs. 2 lit. b, Konzessionspflicht «Betrieb von Waermepumpen»)
+  erfasst nur oeffentliche Gewaesser, nicht die Kanalisation → `[[abwasserwaerme-bewilligung-sz-vertiefung]]`,
+  FAQ **F173**, Status established.
+- **D88c Energiemonitoring/Submetering Grossverbraucher ZH+SZ** (neues Themenfeld). EN-141/
+  § 41a BBV I ZH (Primaertext): Gebaeudeautomationspflicht heute ab 5'000 m² EBF Nichtwohnbau-
+  Neubau; **wichtigster Neufund:** MuKEn 2025 Art. 1.23 senkt diese Schwelle im verbindlichen
+  Basismodul auf 2'000 m² EBF (noch nicht ins ZH-Recht ueberfuehrt) — Cross-Check deckt zugleich
+  auf, dass `sia-386-bacs-gebaeudeautomation.md` diesen fehlenden Geltungsstatus bisher nicht
+  ausweist (offener Punkt an den naechsten Lauf). Betriebsoptimierungspflicht ab 200'000 kWh
+  Strom/Jahr (§ 13d EnerG) rechtlich eigenstaendig von der freiwilligen EnAW/act-Zielvereinbarung.
+  SZ ohne Analogie (Negativbefund, Primaertext) → `[[energiemonitoring-submetering-grossverbraucher-zh-sz]]`,
+  FAQ **F174**, established.
+- **D88d Therapiebad/Hallenbad-Energie im Pflegeheim** (neues Themenfeld, vorher null KB-Treffer,
+  hohe Healthcare-Relevanz). BFE «Rationelle Energienutzung in Hallenbaedern» 1993 (amtlich):
+  oeffentliches Hallenbad 47-67 kWh/m³·a bei 28-30°C. Therapiebecken (≥32°C, 12-24 m²) nur ueber
+  DE-Sekundaerquelle beschrieben; **ehrlicher Negativbefund** zur eigentlichen Auftragsfrage —
+  kein CH-/DE-Kennwert speziell fuer Therapiebaeder, plausibler physikalischer Mehrbedarf nur als
+  eigene, explizit als speculative markierte Herleitung (Magnus-Formel) → `[[therapiebad-hallenbad-energie-pflegeheim]]`,
+  FAQ **F175**, emerging.
+- **D88e EnerGIS-Kartenwerk Stadt Zuerich** (neues Themenfeld, aus Run 116 als ungeprueft
+  vorgemerkt). Energieplanungsbericht Stadt Zuerich 2025 + Waermeversorgungsverordnung WVV
+  16.3.2022, beide amtlich vollstaendig gelesen: reine Informationsplattform (vier Teilkarten
+  Waerme/Kaelte/Gas/Eignungsgebiete), zeigt NICHT die geologische Bohreignung (das leistet der
+  separate kantonale Waermenutzungsatlas GIS-ZH P8); kein Anschlusszwang, aber faktischer Druck
+  ueber das Gasverbot ab 2040 → `[[energis-kartenwerk-stadt-zuerich]]`, FAQ **F176**, established.
+- **D88f Rueckkuehler-Flaechenkonkurrenz PV + Laermschutz** (schliesst zwei explizit in
+  `abwaermenutzung-gebaeude` benannte offene Punkte). Solarpflicht-Vollzugshilfen dreier Kantone
+  (Bern Jan. 2026, Basel-Landschaft Maerz 2025, Aargau 2025, alle amtlich): Ruecckuehler-
+  Dachflaeche zaehlt grundsaetzlich zur pflichtigen PV-Bruttodachflaeche, Abzug nur ueber
+  begruendungspflichtiges Einzelfallgesuch (fuer ZH selbst mangels Gesetzestext nicht
+  verifiziert). Cercle-Bruit-Vollzugshilfe 6.20 (23.09.2025, eigene, aktuellere Vollzugshilfe als
+  6.21 fuer kleine Waermepumpen) mit direkt einschlaegigem Rechenbeispiel: Rechenzentrum-
+  Rueckkuehler 54,4→47,4 dB(A) via Drehzahlreduktion → `[[rueckkuehler-flaechenkonkurrenz-pv-laermschutz]]`,
+  FAQ **F177**, emerging; ergaenzt `[[abwaermenutzung-gebaeude]]`, `[[solarpflicht-schweiz-kantone]]`,
+  `[[waermepumpen-laermschutz]]`.
+- **Verdichtung:** Kein neuer Wiki-Themenartikel — bewusst drei bestehende Artikel
+  (`abwaermenutzung-gebaeude`, `solarpflicht-schweiz-kantone`, `waermepumpen-laermschutz`) gezielt
+  erweitert statt neu angelegt (Budget-/Zeit-bewusste Verdichtung dieses Laufs). **Sechste
+  Bestaetigung in Folge, dass die Saettigungsdiagnose nicht zutrifft** (Run 111-117).
+  FAQ-Stand: **177 Kernfragen (F1-F177)**, Destillate: **192** (sechs neue).
+
+### Prioritaet naechster Lauf (aus Run 117)
+1. Cross-KB-Nachzug: `sia-386-bacs-gebaeudeautomation.md` um den fehlenden Geltungsstatus der
+   MuKEn-2025-2'000-m²-Schwelle ergaenzen (in Run 117 entdeckt, nicht behoben — nur die neue Datei
+   durfte editiert werden).
+2. Die fuenf gebuendelten Kaufentscheide warten jetzt **19 Runs in Folge** auf eine Entscheidung
+   (B1-Konsolidierung, SWKI VA105-01, SIA 385/1, SIA 385/2, SIA 384.354) — dringende Empfehlung
+   an Raphael unveraendert: als kurze Buendel-Frage entscheiden.
+3. SZ-Vollzugspraxis (Wegleitungen AfU SZ, kommunale Sonderregeln Rechenzentrums-Gemeinden wie
+   Freienbach/Wollerau) fuer die beiden neuen SZ-Negativbefunde noch nicht geprueft.
+4. Bezeichnungskollision SIA 385/1 (alte Norm Badewasseraufbereitung vs. aktuelle SIA 385/1:2020
+   Trinkwarmwasser) aus D88d ungeklaert — pruefen, welche Norm heute fuer Baeder gilt.
+5. Meta-Punkt M2 (eigenstaendiger Skill "energie"?) seit Run 45 spruchreif, weiterhin unentschieden.
+6. Weitere offene Punkte: SWKI VA106-01 (vermutlich ergiebigste noch ungehobene CH-Quelle fuer
+   Baederenergie) nur dem Titel nach identifiziert; kein CH-amtlicher m²/kW-Flaechenkennwert fuer
+   Rueckkuehler; ZH-spezifischer PV-Abzugsgrund fuer technische Dachaufbauten mangels
+   Solarpflicht-Gesetzestext offen.

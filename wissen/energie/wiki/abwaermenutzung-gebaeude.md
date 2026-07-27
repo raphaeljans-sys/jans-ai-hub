@@ -118,12 +118,45 @@ Warmwasseranschluss aus einem Abwärmenetz dort am meisten bringt. Details:
   adiabatischer Kühlung mit zusätzlichen Ventilatoren. Auch hier: keine CH-spezifische dB-Kennzahl
   gefunden, Systematik über [[waermepumpen-laermschutz]].
 
+## Run 117 (2026-07-27) — Schwyz-Negativbefunde am Volltext bestätigt, Flächen-/Lärmfrage teilweise beantwortet
+
+**Kt. Schwyz kennt keine Drittabgabepflicht für Abwärme.** Der in Run 116 nur websuchbasierte
+Negativbefund ist jetzt am **amtlichen Volltext** von kEnG (SRSZ 420.100) und kEnV (SRSZ 420.111)
+primärquellen-verifiziert: SZ kennt nur die allgemeine Eigennutzungspflicht (§ 21 kEnV, analog
+§ 30a Abs. 1 BBV I ZH), aber **keine** zu § 30a Abs. 2 BBV I / Art. 1.18 Abs. 2 MuKEn 2025 analoge
+Pflicht, ungenutzte Abwärme ab 2 GWh/Jahr Dritten zu Gestehungskosten anzubieten. Der SZ-
+Grossverbraucherartikel (§ 9 kEnG, Schwelle 5 GWh Wärme/0,5 GWh Strom) misst nur die Nachfrage-,
+nicht die Angebotsseite → [[abwaerme-bereitstellungspflicht-sz]] (FAQ F172).
+
+**Auch für Abwasserwärme gibt es in SZ kein eigenes Bewilligungsregime.** Vier Erlasse im Volltext
+geprüft (kEnG, kEnV, EGzGSchG SRSZ 712.110, WRG SRSZ 451.100): Der einzige verwandte Tatbestand
+(WRG § 11 Abs. 2 lit. b, Konzessionspflicht «Betrieb von Wärmepumpen») gilt nur für öffentliche
+Gewässer (Seen/Flüsse/Grundwasser, § 2 WRG) und erfasst die Kanalisation nicht. Ein ARA-
+gespeistes Wärmenetz ist dagegen bereits heute über die kEnV-Standardlösung (Anhang 5/6) im
+Energienachweis anrechenbar → [[abwasserwaerme-bewilligung-sz-vertiefung]] (FAQ F173).
+
+**Rückkühler ↔ PV-Flächenkonkurrenz und Rückkühler-Lärmschutz teilweise geklärt.** Für Zürich
+selbst bleibt die Abzugsfrage offen (Solarpflicht-Gesetzestext noch nicht in Kraft), aber drei
+andere Kantone (Bern, Basel-Landschaft, Aargau) regeln die Vollzugspraxis bereits amtlich: Die vom
+Rückkühler belegte Dachfläche zählt **grundsätzlich zur pflichtigen Bruttodachfläche**; ein Abzug
+ist nur über ein begründungspflichtiges Ausnahmegesuch «technische Machbarkeit» möglich, kein
+Automatismus (Bern-Vollzugshilfe wörtlich: Flächen unter «Kühlanlagen» sind nicht automatisch
+abzugsfähig). Für den Lärmschutz gilt eine eigene, sehr aktuelle Vollzugshilfe (Cercle Bruit 6.20,
+23.09.2025) mit einem direkt einschlägigen Rechenbeispiel: ein Rechenzentrum mit 4-6 Rückkühlern
+(100-400 kW je Gerät) überschreitet bei Volllast den nächtlichen Planungswert ES III (50 dB(A))
+auf 54,4 dB(A); Drehzahlreduktion bei mehr parallel laufenden Geräten senkt den Pegel auf
+47,4 dB(A) → [[rueckkuehler-flaechenkonkurrenz-pv-laermschutz]] (FAQ F177), ergänzt
+[[solarpflicht-schweiz-kantone]] und [[waermepumpen-laermschutz]]. Ein Schweizer amtlicher
+m²/kW-Flächenkennwert für Rückkühler selbst bleibt weiterhin unbelegt (nur deutsche
+Herstellerquelle).
+
 ## Offene Punkte
 
-- Kein CH-Kennwert zur Flächenkonkurrenz Rückkühlung ↔ PV und zum Lärmschutz von Rückkühlern.
-- Kt. Schwyz: weder eine zu § 30a Abs. 2 BBV I analoge Abwärme-Bestimmung noch eine eigene
-  Abwasserwärme-Regelung gefunden — beides **nicht abschliessende** Negativbefunde, vor
-  verbindlicher Aussage beim AfU SZ zu verifizieren.
+- Kein CH-amtlicher Flächenkennwert (m²/kW) für Rückkühler selbst; ZH-spezifischer PV-Abzugsgrund
+  für technische Dachaufbauten mangels Solarpflicht-Gesetzestext weiterhin ungeklärt.
+- SZ-Negativbefunde (Abwärme-Drittabgabe, Abwasserwärme) sind primärquellen-verifiziert, aber die
+  Vollzugspraxis des AfU SZ (Wegleitungen, kommunale Sonderregeln in Rechenzentrums-Gemeinden wie
+  Freienbach/Wollerau) ist nicht geprüft.
 - SIA 2068 «Energieeffizienz in Rechenzentren»: Projektstart 8.6.2023 beschlossen,
   Publikationsstatus per Juli 2026 unverifiziert.
 - Die ETA-3-/Rotoren-Aussage stammt aus dem suissetec-Merkblatt, nicht aus dem kostenpflichtigen

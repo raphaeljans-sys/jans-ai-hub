@@ -280,3 +280,50 @@ Kollisionsrisiko). **Vierte Bestätigung in Folge, dass die Sättigungsdiagnose 
 Themenfelder nicht zutrifft** (Run 111-114: je mindestens zwei bis drei echte neue Themenfelder
 trotz 178+ bestehender Destillate) — Redundanz-Check-per-grep-vor-Themenwahl bleibt der
 belastbarste Weg. Destillate-Stand: **181** (davor 178, drei neue). FAQ-Stand: **166** (davor 163).
+
+**Run 115 (2026-07-26):** zwei parallele Rechercheagenten, Healthcare-Prozessenergie-Vertiefung.
+Reinraum-/OP-Klimatisierung (SWKI VA105-01, USZ-Baurichtlinie 244/245, Swissnoso-Metaanalyse 2018
+zweifelt TAV-Lüftungsnutzen an) vertieft das Run-98-Destillat, bidirektional verlinkt statt Merge
+→ `[[reinraum-op-klimatisierung-gesundheitsbau-ch]]`, FAQ F136 geschärft, erster eigener
+Wiki-Artikel `[[reinraum-op-klimatisierung]]`. Sterilisationsenergie/Medizintechnik-Prozessenergie
+(SGSV/Swissmedic-Leitlinie 2023, USZ-Klimaklassifikation) — echte Lücke, ehrlicher Negativbefund
+zur Energiequantifizierung → `[[sterilisationsenergie-medizintechnik-prozessenergie-ch]]`, FAQ
+**F167** neu. Destillate-Stand: **183** (zwei neue). FAQ-Stand: **167**.
+
+**Run 116 (2026-07-27):** vier parallele Rechercheagenten, Schwerpunkt Abwärme/Prozessenergie.
+Serverraum/Rechenzentrum-Kühlung (§ 30a BBV I ZH + MuKEn 2025 Art. 1.18, adversarial korrigierter
+Agenten-Negativbefund — ZH war Pionier drei Jahre vor der MuKEn) → established für den Rechtsteil,
+`[[serverraum-rechenzentrum-kuehlung-abwaermenutzung-ch]]`, FAQ F168. Abwasserwärmenutzung
+Kanalisation ZH+SZ (vorher null KB-Treffer, AWEL-Planungshilfe 2025 vollständig) →
+`[[abwasserwaermenutzung-kanalisation-zh-sz]]`, FAQ F169. Grossküchen-Lüftung/Abluft-WRG
+(Kochstellenabluft ETA 3 → Rotoren ausgeschlossen) → `[[grosskuechen-lueftung-abluft-wrg-ch]]`,
+FAQ F170. Wäscherei-Prozessenergie Pflegeheim/Spital (zwei Drittel im Trocknen, nicht im Waschen)
+→ `[[waescherei-prozessenergie-pflegeheim-spital-ch]]`, FAQ F171. Neuer Wiki-Themenartikel
+(29.) `[[abwaermenutzung-gebaeude]]` fasst alle vier zusammen. Destillate-Stand: **186** (vier
+neue, in diesem Lauf nachgezählt/korrigiert). FAQ-Stand: **171**.
+
+**Run 117 (2026-07-27):** sechs parallele Rechercheagenten, Fokus gezielter SZ-Volltextabgleich
+(Priorität aus Run 116) + drei neue Themenfelder. **SZ-Abwärme-Bereitstellungspflicht** (kEnG/kEnV
+SZ im Volltext durchsucht) — Negativbefund jetzt primärquellenfest bestätigt, kein Pendant zu
+§ 30a Abs. 2 BBV I → `[[abwaerme-bereitstellungspflicht-sz]]`, FAQ F172. **SZ-Abwasserwärme-
+Bewilligung** (vier Erlasse kEnG/kEnV/EGzGSchG/WRG im Volltext) — established, kein
+Bewilligungsregime, einziger verwandter Tatbestand (WRG-Konzessionspflicht) erfasst nur
+öffentliche Gewässer, nicht Kanalisation → `[[abwasserwaerme-bewilligung-sz-vertiefung]]`,
+FAQ F173. **Energiemonitoring/Submetering Grossverbraucher** (neues Themenfeld, EN-141/§ 41a BBV I
+ZH + MuKEn-2025-Verschärfung 5'000→2'000 m² EBF primärquellenbelegt) → established,
+`[[energiemonitoring-submetering-grossverbraucher-zh-sz]]`, FAQ F174. **Therapiebad/Hallenbad-
+Energie im Pflegeheim** (neues Themenfeld, vorher null KB-Treffer; BFE-Hallenbad-Kennwerte
+47-67 kWh/m³·a primärquellenfest, Therapiebad-Kernfrage ehrlicher Negativbefund) →
+`[[therapiebad-hallenbad-energie-pflegeheim]]`, FAQ F175. **EnerGIS-Kartenwerk Stadt Zürich**
+(Energieplanungsbericht 2025 + WVV 2022 im Volltext) — established, reine Informationsplattform,
+zeigt NICHT die geologische Bohreignung (das leistet der separate Wärmenutzungsatlas GIS-ZH P8)
+→ `[[energis-kartenwerk-stadt-zuerich]]`, FAQ F176. **Rückkühler-Flächenkonkurrenz PV +
+Lärmschutz** (schliesst zwei in Run 116 offen benannte Punkte; Solarpflicht-Vollzugshilfen
+BE/BL/AG + Cercle-Bruit-6.20-Rechenbeispiel) → `[[rueckkuehler-flaechenkonkurrenz-pv-laermschutz]]`,
+FAQ F177, ergänzt `[[abwaermenutzung-gebaeude]]`, `[[solarpflicht-schweiz-kantone]]`,
+`[[waermepumpen-laermschutz]]`. Kein neuer Wiki-Themenartikel (drei bestehende Artikel gezielt
+erweitert statt neu angelegt — Budget-/Zeit-bewusste Verdichtung). PDF-Inventar weiterhin
+erschöpft seit Run 65 (bestätigt, keine neuen PDFs in PL-04 Energie seit 01.07.2026). Sechste
+Bestätigung in Folge (Run 111-117), dass die Sättigungsdiagnose für neue Themenfelder nicht
+zutrifft. Destillate-Stand: **192** (sechs neue). FAQ-Stand: **177**. Wiki-Themenartikel:
+**29** (unverändert).

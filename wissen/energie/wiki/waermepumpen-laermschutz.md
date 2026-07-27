@@ -98,4 +98,20 @@ Wärmepumpen im MFH-/STWEG-Keller (Aufstellung auf der Fundamentplatte statt auf
 **Destillate:** `[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]` (Formel/Grenzwerte, FAQ F65)
 · `[[waermepumpe-aussenlaerm-vollzugshilfe]]` (Verfahren/Zuständigkeit, FAQ F144/F146) ·
 `[[waermepumpe-laerm-nachmessung-kostenfolge]]` (Kostenfolge, FAQ F150) ·
-`[[waermepumpe-koerperschallisolation-empa]]` (Körperschall im eigenen Gebäude, FAQ F159).
+`[[waermepumpe-koerperschallisolation-empa]]` (Körperschall im eigenen Gebäude, FAQ F159) ·
+`[[rueckkuehler-flaechenkonkurrenz-pv-laermschutz]]` (Grossanlagen/Rückkühler, FAQ F177).
+
+## Rückkühler und Kälteanlagen im Grossmassstab (Run 117, 2026-07-27)
+
+Für Rückkühlwerke von Kälte-/Serverraumanlagen gilt **dieselbe Rechtsgrundlage** (Anhang 6 LSV),
+aber eine eigene, sehr aktuelle Vollzugshilfe: **Cercle Bruit 6.20 (Ausgabe 23.09.2025)**, nicht
+6.21 (das ist die Vollzugshilfe für kleine Wärmepumpen). Sie nennt Rückkühlanlagen explizit und
+rechnet in Anhang 2 Ziff. 4 ein direkt einschlägiges Fallbeispiel durch: ein Rechenzentrum mit
+4-6 Rückkühlern à 100-400 kW (Normreferenz EN 13487) überschreitet bei Volllast den nächtlichen
+Planungswert der Empfindlichkeitsstufe III (50 dB(A)) auf 54,4 dB(A); durch **Drehzahlreduktion**
+bei gleichzeitig mehr parallel laufenden Geräten sinkt der Pegel auf 47,4 dB(A) — ein konkretes,
+übertragbares Betriebsmuster für die Nachtabsenkung grosser Kälteanlagen. Ein Schweizer amtlicher
+Flächenkennwert (m²/kW) für die Dimensionierung des Rückkühlers selbst ist dagegen **nicht
+belegt** (nur eine deutsche Herstellerquelle: ca. 0,05 m²/kW trocken, ca. 0,03 m²/kW mit
+adiabatischer Vorkühlung) — Details und Zusammenhang mit der PV-Flächenkonkurrenz:
+[[abwaermenutzung-gebaeude]], `[[rueckkuehler-flaechenkonkurrenz-pv-laermschutz]]`, FAQ F177.

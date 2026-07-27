@@ -2,6 +2,57 @@
 
 Neueste zuoberst.
 
+## 2026-07-27 — Run 117: Sechs parallele Rechercheagenten, gezielter SZ-Volltextabgleich + drei neue Themenfelder
+
+Intensiv-Lauf auf Auftrag Raphaels (Token-Vollgas/Workflow-Parallelisierung gemäss
+`training/PROGRAMM.md`). PDF-Inventar erneut geprüft (`find -newermt` gegen `PL - 04 Energie` auf
+SharePoint/OneDrive): keine neuen PDFs seit 01.07.2026 — Web-Pfad bestätigt, seit Run 65
+erschöpft. Sechs `general-purpose`-Rechercheagenten parallel dispatcht, jeder ausschliesslich mit
+eigener neuer Datei (Kollisionsschutz); Konsolidierung der Register im Hauptmodell.
+
+**Gezielter SZ-Volltextabgleich (Priorität aus Run 116):**
+- `[[abwaerme-bereitstellungspflicht-sz]]` (FAQ **F172**) — kEnG/kEnV SZ im Volltext durchsucht:
+  Negativbefund jetzt primärquellenfest bestätigt, keine zu § 30a Abs. 2 BBV I / Art. 1.18 Abs. 2
+  MuKEn 2025 analoge Abwärme-Drittabgabepflicht in SZ. Status emerging.
+- `[[abwasserwaerme-bewilligung-sz-vertiefung]]` (FAQ **F173**) — vier Erlasse (kEnG, kEnV,
+  EGzGSchG, WRG) vollständig gelesen: kein SZ-Bewilligungsregime für Abwasserwärme aus der
+  Kanalisation; einziger verwandter Tatbestand (WRG-Konzessionspflicht «Betrieb von
+  Wärmepumpen») erfasst nur öffentliche Gewässer, nicht die Kanalisation. Status **established**.
+
+**Drei neue Themenfelder:**
+- `[[energiemonitoring-submetering-grossverbraucher-zh-sz]]` (FAQ **F174**) — EN-141/§ 41a BBV I
+  ZH: Gebäudeautomationspflicht heute ab 5'000 m² EBF Nichtwohnbau-Neubau; **MuKEn 2025 Art. 1.23
+  senkt sie im verbindlichen Basismodul auf 2'000 m² EBF** (noch nicht ZH-Recht). Deckt zugleich
+  auf, dass `sia-386-bacs-gebaeudeautomation.md` diesen fehlenden Geltungsstatus nicht ausweist
+  (offener Punkt, nicht behoben — Kollisionsschutz). Betriebsoptimierungspflicht ab 200'000 kWh
+  Strom/Jahr eigenständig von der freiwilligen EnAW/act-Zielvereinbarung. Status established.
+- `[[therapiebad-hallenbad-energie-pflegeheim]]` (FAQ **F175**) — vorher null KB-Treffer, hohe
+  Healthcare-Relevanz. BFE-Hallenbad-Kennwerte 47-67 kWh/m³·a primärquellenfest; Therapiebad-
+  Kernfrage bleibt ehrlicher Negativbefund, plausibler Mehrbedarf nur als eigene, explizit als
+  speculative markierte physikalische Herleitung (Magnus-Formel). Status emerging.
+- `[[energis-kartenwerk-stadt-zuerich]]` (FAQ **F176**) — Energieplanungsbericht Stadt Zürich
+  2025 + WVV 16.3.2022, beide amtlich im Volltext: reine Informationsplattform (vier Teilkarten),
+  zeigt NICHT die geologische Bohreignung (das leistet der separate kantonale Wärmenutzungsatlas
+  GIS-ZH P8); kein Anschlusszwang, aber faktischer Druck über das Gasverbot ab 2040. Status
+  established.
+
+**Schliesst zwei offene Punkte aus Run 116:**
+- `[[rueckkuehler-flaechenkonkurrenz-pv-laermschutz]]` (FAQ **F177**) — Solarpflicht-
+  Vollzugshilfen dreier Kantone (Bern, Basel-Landschaft, Aargau, alle amtlich): Rückkühler-
+  Dachfläche zählt grundsätzlich zur pflichtigen PV-Bruttodachfläche, Abzug nur über
+  begründungspflichtiges Ausnahmegesuch (für ZH selbst mangels Gesetzestext nicht verifiziert).
+  Cercle-Bruit-Vollzugshilfe 6.20 (23.09.2025) mit direkt einschlägigem Rechenbeispiel:
+  Rechenzentrum-Rückkühler 54,4→47,4 dB(A) via Drehzahlreduktion. Kein CH-amtlicher
+  Flächenkennwert (m²/kW) für Rückkühler gefunden. Status emerging; ergänzt
+  `[[abwaermenutzung-gebaeude]]`, `[[solarpflicht-schweiz-kantone]]`, `[[waermepumpen-laermschutz]]`.
+
+**Verdichtung:** Kein neuer Wiki-Themenartikel — bewusst drei bestehende Artikel gezielt erweitert
+statt neu angelegt. Register (destillate/INDEX, wiki/INDEX, BAUHERREN-FAQ, QUESTIONS, curriculum
+D88, raw/_INGESTED) nachgeführt; Report `outputs/2026-07-27_energie-run117.md`.
+
+FAQ-Stand: **177 Kernfragen (F1-F177)**. Destillate: **192** (sechs neue). **Sechste Bestätigung
+in Folge (Run 111-117), dass die Sättigungsdiagnose für neue Themenfelder nicht zutrifft.**
+
 ## 2026-07-27 — Wissens-Chef Run 17 (Cross-KB): Abwasser-Destillat auf geltendes Recht umgestellt, Fassungsbezeichnung bereinigt
 - **[korrektur, materiell] § 8 EG GSchG → § 44 Abs. 1 lit. a WsG.** `destillate/abwasserwaermenutzung-kanalisation-zh-sz.md` fuehrte § 8 EG GSchG als Bewilligungsgrundlage und uebernahm aus dem Glossar der AWEL-Planungshilfe 2025 **ungeprueft**, das WsG habe diesen Erlass abgeloest — mit dem ausdruecklichen Vermerk, ob das WsG ueberhaupt in Kraft sei, sei «nicht separat verifiziert». **Die Glossar-Aussage ist bestaetigt:** der Wissens-Chef hat das amtliche PDF `724.1_12.12.24_133.pdf` (zhlex, Nachtrag 133) gezogen — § 126 lit. a hebt das Einfuehrungsgesetz zum Gewaesserschutzgesetz vom 8.12.1974 auf, Fn. 2 nennt das Inkrafttreten **1. Juni 2026** (OS 81, 145), und § 44 Abs. 1 lit. a Ziff. 3 erfasst die Nutzung «von Boden, Untergrund oder **Abwasser** zur Gewinnung von **Energie**» neu ausdruecklich (im alten Recht war sie das nicht). → Normzitat auf geltendes Recht umgestellt, historischer Vermerk gesetzt, offener Punkt geschlossen, Setzfehler «§ EGSchG» ohne Nummer bereinigt. **Diese KB lag richtig, die laut Matrix fuehrende KB `baurecht` zitierte aufgehobenes Recht** — dort laeuft der KB-weite Nachzug (15 Fundorte, Prioritaet (a) im Arbeitsregister).
 - **[neuer, engerer offener Punkt]** Ob die **KGSchV (LS 711.11)** ebenfalls aufgehoben ist, ist nicht belegt — § 126 WsG hebt nur *Gesetze* auf; die Materie von § 35 KGSchV steht heute in § 92 WsV, was die Aufhebung indiziert, aber nicht beweist.

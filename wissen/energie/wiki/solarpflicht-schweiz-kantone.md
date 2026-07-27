@@ -80,3 +80,16 @@ Referendum eingereicht, aber Formalprüfung/Abstimmungstermin noch offen (⚠ po
 Neuenburg — die bereits seit 2021 geltende (engere, warmwasserfokussierte) Regel und die separat
 für 2026/2027 geplante (umfassendere) Revision sind zwei verschiedene Dinge, das
 Inkrafttretensdatum der Revision bleibt unbestätigt.
+
+**Technische Dachaufbauten (Rückkühler, Lüftungskanäle) als Flächenabzug (Run 117, 2026-07-27):**
+Drei Kantone (Bern seit Jan. 2026, Basel-Landschaft seit März 2025, Aargau 2025) regeln amtlich,
+was von der pflichtigen Bruttodachfläche abgezogen werden darf. Kernsatz der Bern-Vollzugshilfe:
+«Nicht von der Bruttofläche abzugsfähig sind z.B. begrünte Flächen auf einem Flachdach oder
+Flächen unter technischen Aufbauten wie z.B. Lüftungskanälen oder Kühlanlagen, sowie
+Liftaufbauten.» Ein Abzug ist nur über ein **begründungspflichtiges Einzelfall-Ausnahmegesuch**
+möglich (Basel-Landschaft Kap. 4.2.2: die betriebsnotwendige Nutzung ist im Gesuch plausibel
+darzulegen), kein Automatismus. Für die künftige ZH-Solarpflicht-Vorlage (>300 m² Dachfläche) ist
+dieser Mechanismus mangels in Kraft stehendem Gesetzestext **nicht verifiziert** — bei einem
+Grossprojekt mit Kälte-/Serverraumtechnik ist die Dachflächen-Aufteilung deshalb frühzeitig mit
+der Bewilligungsbehörde zu klären. Details, inkl. Lärmschutz-Anschlussfrage:
+[[abwaermenutzung-gebaeude]], `[[rueckkuehler-flaechenkonkurrenz-pv-laermschutz]]`, FAQ F177.
