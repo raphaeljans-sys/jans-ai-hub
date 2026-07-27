@@ -1,5 +1,22 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-27 — Trainings-Run 19–24 (kein neuer Kennwert, Sättigungsbeleg 8.–13. in Folge, Taktungsfehler-Root-Cause identifiziert und belegt)
+
+Sechs weitere Läufe ohne Registeränderung an `kennwerte.md`/`quellen-inventar.md`. Run 21
+identifiziert den Root Cause des seit Run 15 gemeldeten Taktungsfehlers: ein stale
+Runner-Prozess (`vollgas-runner.sh`, PID 68866, gestartet 25.07.2026 18:52:59) hält die
+`EXCLUDE_RE`-Variable ohne `grobkosten` im Speicher und spawnt diesen Loop dadurch weiterhin
+im Minutentakt, obwohl der Fix (Ausschluss von `grobkosten` aus dem Endlos-Runner, analog zu
+den sechs bereits ausgeschlossenen Loops) korrekt auf der Platte liegt. Run 22 verschärft den
+Beweis mit der direkten Prozesskette (68866 → Runner-Kind → `claude -p`) und meldet die
+Endbedingung aus `training/PROGRAMM.md` formell erreicht (Inventar strukturell ausgeschöpft,
+verbleibende offene Punkte sind zwei an Raphael delegierte Fachentscheide, kein
+Materialmangel mehr). Runs 19, 20, 23, 24 bestätigen denselben Befund minimal, ohne erneuten
+Sweep. Details: `outputs/2026-07-27_grobkosten-run19.md` bis `-run24.md`. Notwendiger
+nächster Schritt (ausserhalb des Mandats dieses Loops): Neustart von PID 68866 durch Raphael
+oder einen übergeordneten Lauf (`hub-chef`/`vollgas-chef-radar`), danach Rücktaktung dieses
+Loops auf einen Ereignis-Trigger.
+
 ## 2026-07-27 — Trainings-Run 18 (kein neuer Kennwert, siebter Sättigungsbeleg in Folge, bewusst kein erneuter Sweep)
 
 - Kollisionscheck (`ps`) sauber, kein Zweitlauf. Bewusst KEIN Bibliotheks-/Ereignis-Trigger-

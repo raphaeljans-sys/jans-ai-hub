@@ -880,11 +880,12 @@ ist PL-03 gleichrangige Inventar-Quelle.
 | `04 Erlaeuterungen Brandschutz 2015` | 9 | mittel — VKF-Erlaeuterungen 100-15 bis 108-15 | [x] 260727 alle 9 MD5-identisch mit PL-02 (bereits destilliert) |
 | `05 Arbeitshilfen Brandschutz 2015` | 5 | mittel — Arbeitshilfen 1000-15 ff. (Wohn-/Schulbauten, Parkhaeuser) | [x] 260727 4/4 MD5-identisch mit PL-02 (bereits destilliert); 1001-15-Varianz (29 vs. 27 S.) aufgeklaert (2 eingeschobene BRL-16-15-Seiten). **Der am selben Tag aus dem 4-Seiten-Auszug gezogene Befund "0 Abweichung" ist widerlegt** — die volle Fassung 2017/2018 liegt in `00 Brandschutzplaene bsvonline.ch/BSPUB-1394520214-185.pdf`, Delta 28 materiell / 12 redaktionell, siehe Zeile in den Fassungs-Befunden |
 | `06 Lignum Brandschutz` | 6 | mittel — Lignum-Dokumentation Holzbau | [x] 260727 3 neue Destillate (4.1/4.2/Lignatec, speculative bis Verifikation); Erdbebendokument out-of-scope |
-| `00 Brandschutzplaene bsvonline.ch` | 35 | **hoch — Fehleinstufung korrigiert 27.07.2026** | [ ] OFFEN — die Einstufung "Plan-/Symbolvorlagen, keine Normtexte" ist falsch: `BSPUB-1394520214-185.pdf` ist die volle VKF-Arbeitshilfe 1001-15de **Fassung 01.01.2017 / Stand 17.05.2018** (29 S.), also die geltende Fassung einer Publikation, die der Hub bisher nur als 2015er fuehrte. Die uebrigen 34 Dateien sind noch nicht gesichtet — dort koennen weitere Publikationen in aktuelleren Fassungen liegen. **Vollinventar dieses Ordners ist der naechste Schritt.** |
-| `00 Brandschutznachweis.ch` | 6 | tief — Nachweis-Formulare/Tools | [-] nicht Normeninventar |
+| `00 Brandschutzplaene bsvonline.ch` | 35 | **hoch — Fehleinstufung korrigiert 27.07.2026** | [x] 260727 Run 31 VOLLINVENTAR. Die Einstufung "Plan-/Symbolvorlagen, keine Normtexte" war falsch. Der Ordner enthaelt genau **drei** normrelevante PDFs, alle jetzt erledigt: `BSPUB-…-185.pdf` = volle VKF-AH 1001-15de **Fassung 01.01.2017 / Stand 17.05.2018** (29 S.) → Delta erarbeitet (28 materiell / 12 redaktionell); `BSPUB-…-251.pdf` = VKF **«Allgemein anerkannte Bauprodukte»** V. 12.0 (TK Brandschutz 31.03.2017, 12 S.) → **neu destilliert**, lag in KEINER anderen Ablage; `BSPUB-…-81.pdf` = BRL 15-15de Fassung 01.01.2017, MD5-identisch mit den bereits destillierten PL-02-/PL-03-Kopien → kein Handlungsbedarf. Die uebrigen 32 Eintraege sind das bsvonline-**Musterplan-Set** (Unterordner `Brandschutzplaene BSPUB-…-207` + gleichnamiges ZIP: Flucht-/Rettungswegplan, Feuerwehrplaene, BS-Plaene einfach/detailliert, Stoerfall ABC-Objekt) plus 1 Screenshot — Beispielplaene ohne eigene Norm-Aussage, [-] nicht Normeninventar. |
+| `00 Brandschutznachweis.ch` | 6 | **mittel — Fehleinstufung korrigiert 27.07.2026** | [x] 260727 Run 31 gesichtet. 4 PDFs klassiert: `Anleitung_Brandschutznachweis_V.3.pdf` (Pflichtinhalte Textteil/Plan, Verfahren) → **neu destilliert** `brandschutzfachstellen-anleitung-brandschutznachweis-v3.md`; `BS-Symbole_01.01.2017.pdf` (Symbol-/Farbsystematik Plandarstellung) → **neu destilliert** `brandschutzplan-legende-symbole-2017.md`; `Merkblatt_Brandschutz-Klassifikation_V.2.pdf` → begruendet ausgesondert (Auszug aus BSR 13-15, inhaltlich vollstaendig durch `vkf-brl-13-15-baustoffe-bauteile.md` gedeckt); `Brandschutznachweis_MFH-5g-RF1_V.3.pdf` → begruendet ausgesondert (durchgerechnetes Musterbeispiel, das selbst festhaelt, dass daraus keine Anforderungen abgeleitet werden koennen). Herausgeber beider Arbeitshilfen: Brandschutzfachstellen Zentralschweiz — fuer ZH-Projekte ist ungeprueft, ob die GVZ abweichende formelle Vorgaben kennt. |
 | `_Projekte Themen` | 16 | tief — projektbezogen | [-] nicht Normeninventar |
-| `08 QS` / `z_Administration` / Root | 4 | tief | [-] nicht Normeninventar |
-| `07 Blaues Buch` / `11 Projekte` | 0 | leer | [-] |
+| `08 QS` / `z_Administration` / Root | 4 | tief | [x] 260727 Run 31 geprueft. `08 QS/Die feuerpolizeilichen Bedingungen.docx` ist eine **KI-generierte Erlaeuterung** zu einer QSS-1-Auflage, kein Normtext — nicht destilliert (Echo-Schutz: der Hub lernt nicht aus KI-Ausgaben). Der Sachgehalt (QSS-Stufen 1-4, Rolle des QS-Verantwortlichen Brandschutz) ist durch `vkf-brl-11-15-qualitaetssicherung-brandschutz.md` belegt abgedeckt. `z_Administration` = Bestell-/Lieferschein VKF-Norm 2015. [-] nicht Normeninventar |
+| `07 Blaues Buch` / `11 Projekte` | 2 / 0 | tief / leer | [x] 260727 Run 31: `07 Blaues Buch` enthaelt 2 Screenshots (keine PDFs) und gehoert thematisch zur KB `baurecht` (Standardwerk Zuercher Planungs- und Baurecht), nicht in die Normen-KB. `11 Projekte` leer. [-] |
+| `_LINK.docx` (Root) | 1 | tief | [-] Verweisdatei |
 
 ### Fassungs-Befunde (aus dem Mapping-Report vom 25.07.2026) — STATUS 26./27.07.2026 nachgefuehrt
 
@@ -944,3 +945,41 @@ Erdbeben, kein Brandschutz-/Normeninhalt dieser KB, siehe `wiki/QUESTIONS.md`.
 
 **Damit sind alle PL-03-Unterordner (01-06) erfasst — die Ergebnis-Spalte in der Kopftabelle oben ist
 mit Run 30 nachzufuehren.**
+
+---
+
+## PL-02 Reichweite — Befund Run 31 (27.07.2026), Strukturentscheid bei Raphael
+
+**Kernbefund:** Dieses Inventar scannt aus PL-02 ausschliesslich den Unterordner `02_Normen/`.
+`PL - 02_Recht_Norm/` hat aber **elf** Ordner auf oberster Ebene. In den nie inventarisierten
+liegen rund **680 weitere PDFs**, darunter echte Normen. Das ist derselbe Fehlertyp wie bei
+PL-03 (Rule-Methodik-Pflicht 1), nur eine Ebene hoeher: die Vollstaendigkeits-Metrik misst
+den gescannten Ordner, nicht den Bestand.
+
+**Belegt am 27.07.2026 (Datei-/Ordnerzaehlung, keine Lektuere):**
+
+| PL-02-Ordner (nie inventarisiert) | PDFs | Einschaetzung |
+|---|---|---|
+| `06_Richtlinien` | 322 | gemischt. Normrelevanter Kern klein: BfU (9, Gelaender/Bruestungen/Glas/Bodenbelaege), Lignum Brandschutz (6 — **MD5-identisch mit PL-03**, siehe unten), GVZ (3), Suva (4), SWKI (1), Suissetec (2), VSA (3). Der Rest ist **Minergie (79)** → gehoert zur KB `energie`, plus Kantons-/Stadt-Richtlinien → KB `baurecht`. |
+| `04_Merkblätter` | 205 | ueberwiegend NICHT Normen: `Projektadmin AHB` (79, Stadt ZH Projektadministration), `eco` (55, eco-bau/Oekologie → KB `energie`). Normnah: `Fugenlose Bodenbeläge` (9, PAVIDENSA) und ~20 lose Merkblaetter im Wurzelordner (u.a. Merkblatt-TK004 Fluchtwege, Absturzsicherungen). |
+| `03_Arbeitshilfen` | 87 | ueberwiegend `Teilungsplan Stockwerkeigentum` (71) → gehoert zum Skill `stockwerkeigentum`, nicht in die Normen-KB. Rest 5 Einzelstuecke. |
+| `Tiefgarage` | 48 | **enthaelt einen Unterordner `1 VSS-Norm/` mit echten VSS-640-Normen** (640 050 Grundstueckzufahrten, 640 060/065/066 Leichter Zweiradverkehr, 640 281 Parkfelder, 640 291a Parkieren Geometrie, 640 578 Immissionen). **VSS ist Mac-Mini-Scope** (Stations-Split) — hier NICHT destillieren, nur melden. |
+| `09_Sanitaereinrichtung` | 15 | Merkblaetter Toilettenanlagen (UGZ, MB_BAU), Arbeitshilfen Sanitaerapparate — normnah, kleiner Umfang. |
+| `10 Lärmschutz` | 0 PDF | leer bis auf Nicht-PDF. |
+| `01_Gesetze` / `05_Raumpilot` / `07_Neuffert` / `08_Richtplan` | — | bewusst ausserhalb der Normen-KB (Gesetze → KB `baurecht`, Raumpilot/Neufert → Entwurfsliteratur). |
+
+**Widerlegt eine Run-30-Aussage:** «Unterordner `06 Lignum Brandschutz` hat KEIN PL-02-Gegenstueck
+(genuin neue Quelle)» ist falsch. Alle sechs Lignum-Dateien liegen MD5-identisch auch unter
+`PL - 02_Recht_Norm/06_Richtlinien/Lignum Brandschutz/` (verifiziert 27.07.2026). Sie waren nur
+ausserhalb von `02_Normen/` abgelegt — der Ordner `02_Normen/Lignum/` ist leer. Die drei Lignum-
+Destillate bleiben richtig und noetig; nur die Herkunftsaussage war es nicht.
+
+**Entscheid noetig (nicht vom Loop zu treffen):** Werden die normrelevanten Teilmengen
+(BfU, GVZ, SWKI, Suissetec, VSA, PAVIDENSA, die losen Merkblaetter, `09_Sanitaereinrichtung`)
+ins Normen-Inventar aufgenommen — oder bleibt die KB bewusst auf SIA/VKF/DIN/VSS/RAL begrenzt
+und diese Dokumente werden den Fach-Skills bzw. den KBs `energie`/`baurecht`/`stockwerkeigentum`
+zugewiesen? Eine pauschale Aufnahme aller 680 PDFs waere falsch — der Grossteil sind
+Herstellermerkblaetter, Projektadministration und Entwurfsliteratur.
+
+**Sofort-Meldung an den Mac Mini:** Der Ordner `PL - 02_Recht_Norm/Tiefgarage/1 VSS-Norm/`
+enthaelt VSS-Normen ausserhalb von `02_Normen/VSS_Norm/` und ist im Mini-Inventar zu pruefen.

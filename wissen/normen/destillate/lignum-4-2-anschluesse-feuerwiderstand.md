@@ -99,11 +99,13 @@ Anschlusslösungen dieser Publikation (Kap. 2.2.3, S. 7; Kap. 4.4/5.5).
   Referenz-Bauteil mit voller Feuerwiderstandsdauer, Kap. 3.2, S. 8); Ziel der Massnahmen ist,
   Hohlräume in Anschlussbereichen einzuschränken und die Brandweiterleitung zu begrenzen. Der
   Text benennt explizit nur Situation 3 (Schwachstellen im Anschlussbereich, Abbrand von innen)
-  und Situation 4 (Längsfugen, insbesondere bei Elementbauten/Kasten-/Massivholzsystemen);
-  Situation 2 bleibt im Fliesstext unbenannt (im Bild vermutlich der Anschlussbereich/
-  Elementstoss selbst, aber nicht mit Legende ausgeschrieben). [Korrektur 27.07.2026: die
-  Vorversion hatte "Situation 1" fälschlich als "durchlaufende Hohlräume" bezeichnet; laut Text
-  ist Situation 1 das angrenzende Referenzbauteil, nicht ein Hohlraum-Risiko.]
+  und Situation 4 (Längsfugen, insbesondere bei Elementbauten/Kasten-/Massivholzsystemen sowie
+  bei Brettstapeln); Situation 2 bleibt im Fliesstext unbenannt (im Bild vermutlich der
+  Anschlussbereich/Elementstoss selbst, aber nicht mit Legende ausgeschrieben). Massnahmen zu
+  Situation 4: Dämmstreifen aus Mineralwolle (Schmelzpunkt ≥ 1'000 °C, Rohdichte ≥ 26 kg/m³) und
+  Abdeckbrett o.ä. an der Stirnseite, oder Dichtungen in den Fugen selbst. [Korrektur 27.07.2026:
+  die Vorversion hatte "Situation 1" fälschlich als "durchlaufende Hohlräume" bezeichnet; laut
+  Text ist Situation 1 das angrenzende Referenzbauteil, nicht ein Hohlraum-Risiko.]
 - Vorsatzkonstruktionen (Kap. 3.3, S. 9): brandschutztechnisch nicht wirksame Wand-/Decken-
   bekleidungen, Lattenroste, Bodenaufbauten, Dämmebenen und Schichten für haustechnische
   Installationen; Leitungs-/Installationsführung grundsätzlich ausserhalb des brandschutz-
@@ -148,7 +150,8 @@ Definitionen/Mindestanforderungen (Auszug):
   der Beplankung zu berücksichtigen; Auflagerbreite c ≥ 1.3 × d (d = Dicke der Beplankung).
 - Beplankungsfugen f > 5 mm (Abb. 352-2): Abbrand an Unterkonstruktion sowie seitlich an der
   Beplankung IST zu berücksichtigen; Nachweis des Feuerwiderstands sowohl in der Fläche als
-  auch in der Fuge; Auflagerbreite ebenfalls c ≥ 1.3 × d (Kap. 3.5.2, S. 11).
+  auch in der Fuge; Auflagerbreite ebenfalls c ≥ 1.3 × d (Kap. 3.5.2, S. 11). Die Randabstände
+  der Verbindungsmittel im Brandfall sind zu überprüfen (Kap. 3.5.2.2, S. 11).
 
 ### Kapitel 4 — Anschlüsse Holzbauteile (S. 12-33)
 
@@ -318,16 +321,23 @@ Plattenränder.
   Bekleidung Ktt-RF1 mit FW-Dauer ≥ FW-Dauer Bekleidung in Bauteilfläche, Verbindungsmittel-
   abstand gemäss Herstellerangaben bzw. max. 100 mm; Füllholz b ≥ 40 mm.
 - 5.3.3 Flächige Bauteilabschlüsse (S. 39): Bekleidung durchgehend, keine weiteren Massnahmen;
-  Abschluss des Holzbauteils gemäss Kap. 4.2.3.
+  Abschluss des Holzbauteils gemäss Kap. 4.2.3. Der Feuerwiderstand des verbleibenden
+  Restquerschnittes ist zu gewährleisten; Füllholz b ≥ 40 mm.
 - 5.3.4 Elementstösse (S. 40): gleichwertig zum flächigen Bauteilaufbau, Bekleidungen
-  durchgehend; bis Fugenbreite f ≤ 5 mm muss Hohlraum nicht ausgefüllt sein, bei f > 5 mm
-  vollständig mit RF1-Baustoffen auszufüllen oder separater Nachweis/Fugenausbildung Kap. 5.4.
+  durchgehend; bis Fugenbreite f ≤ 5 mm muss der Hohlraum nicht ausgefüllt sein; ab f > 5 mm ist
+  der Hohlraum vollständig mit Baustoffen der RF1 auszufüllen und zusätzlich eine der Lösungen
+  umzusetzen (Bauteilaufbau wie in der Bauteilfläche bzw. separater Fugennachweis gemäss [6],
+  oder Fugenausbildung gemäss Kap. 5.4). Legende 5: Brandschutzbekleidung Ktt-RF1, Überlappung
+  mit Bauteil K30-RF1 c ≥ 50 mm, K60-RF1 c ≥ 80 mm.
 - 5.3.5 Zusammenschlüsse (S. 41): bei identischer FW-Dauer der Bekleidungen feuerwiderstands-
   fähige Zusammenführung möglich; bei unterschiedlicher FW-Dauer gilt jeweils die höhere
   Anforderung auch im Anschlussbereich; an homogenen Bauteilen RF1 Anschliessen der
   Bekleidungen möglich, sofern Feuerwiderstand des homogenen Bauteils ≥ FW-Dauer der Bekleidung.
 - 5.3.6 Auflager (S. 42): Tragsicherheit gewährleisten, Bekleidungen ohne Unterbruch zusammen-
-  zuführen; Zusammenschluss sinngemäss nach Kap. 5.3.5.
+  zuführen; Zusammenschluss sinngemäss nach Kap. 5.3.5. Auflagerwerte: REI30-RF1 mit K30-RF1 →
+  kein Abbrand an Holz, Nachweis für Normaltemperatur; REI60-RF1 mit K30-RF1 → x ≥ 40 mm;
+  REI60-RF1 mit K60-RF1 → kein Abbrand an Holz; REI90-RF1 mit K60-RF1 → x ≥ 40 mm; alternativ
+  Auflager auf Abbrand bemessen gemäss Kap. 4.2.8.
 - 5.3.7 Lagesicherung (S. 43): sinngemäss nach Kap. 4.2.9.
 - 5.3.8 Verbindungsmittel (S. 43): ergänzend zu Kap. 4.2.10; lokale punktuelle Durchdringungen
   einer Bekleidung (Nägel/Schrauben Schaftdurchmesser ≤ 10 mm) für Wandanschlüsse/
@@ -353,7 +363,10 @@ Plattenränder.
   [20], DIN 4102-4 [21], Holz Brandschutz Handbuch [22].
 - Anhänge Kataloge werkstoffoptimierter Anschlusslösungen (Kap. 9, S. 48): Firmen können nach
   Kenntnisnahme durch die TKB-VKF eigene, gegenüber der Publikation optimierte
-  Anschlusslösungen als Anhänge in Verkehr bringen (nicht Teil dieses Stammdokuments).
+  Anschlusslösungen als Anhänge in Verkehr bringen (nicht Teil dieses Stammdokuments). Hinweis:
+  das Original-Inhaltsverzeichnis (S. 3) gibt für Kap. 9 fälschlich Seite 49 an; tatsächlich
+  steht Kap. 9 auf der gedruckten S. 48 (Zählfehler im Original-Inhaltsverzeichnis, nicht im
+  Destillat).
 - Anhang 1 Leitfaden Anwendung (S. 49): 7-Schritt-Ablauf zur brandschutztechnischen
   Überprüfung eines Anschlusses (1 Konstruktion des Anschlusses → 2 Nachweis Feuerwiderstand
   der Bauteile → 3 Zuordnung Anschluss Kap. 4/5 → 4 Bestimmung der massgebenden
@@ -371,8 +384,9 @@ Plattenränder.
   Fundstellen) + Anschlusskonstruktionen-Tabelle mit Kapitelverweisen; ausdrücklich KEINE
   Musterlösungen zur Nachweisführung, dienen nur dem besseren Verständnis (Kap. A.3.1, S. 55):
   - A.3.2 Geschossdecke an Wohnungstrennwand (S. 56): Wand R60+EI30 (Gipsfaserplatte 2×15 mm,
-    Ständer 80×140 mm, Mineralwolle SP≥1'000°C ρ≥26 kg/m³ 140 mm); Decke REI60
-    (Trittschalldämmung Mineralwolle 30 mm, Splittschüttung 60 mm, Brettstapeldecke 200 mm).
+    Ständer 80×140 mm, Mineralwolle SP≥1'000°C ρ≥26 kg/m³ 140 mm, Mineralwolle SP≥1'000°C
+    ρ≥26 kg/m³ 40 mm, Gegenseite identisch); Decke REI60 (Estrich 60 mm, Trittschalldämmung
+    Mineralwolle 30 mm, Splittschüttung 60 mm, Brettstapeldecke 200 mm).
   - A.3.3 Geschossdecke an Aussenwand (S. 57): Wand R60+EI30 (Gipsfaserplatte 15 mm, Ständer
     240 mm, Mineralwolle SP≥1'000°C ρ≥26 kg/m³ 240 mm, OSB-Platte 15 mm); Decke REI60
     (Gipsfaserplatte 2×15 mm, Massivholzplatte 27 mm starrer Verbund mit Rippen, Rippe
@@ -383,18 +397,19 @@ Plattenränder.
   - A.3.5 Innenwand an Dach (S. 59): Wand EI30 (Gipsfaserplatte 15 mm, Ständer 80×140 mm,
     Mineralwolle SP≥1'000°C ρ≥26 kg/m³ 140 mm, Gipsfaserplatte 15 mm); Dach ohne
     Feuerwiderstandsanforderung (OSB-Platte 15 mm, Brettstapel 240 mm).
-  - A.3.6 Geschossdecke an Unterzug in Holz (S. 60): Decke REI60 (Trittschalldämmung
-    Mineralwolle 30 mm, Splittschüttung 80 mm, Deckenelement gemäss Systemanbieter 200 mm);
-    Unterzug REI60 (Brettschichtholz, Mineralwolle SP≥1'000°C ρ≥40 kg/m³).
+  - A.3.6 Geschossdecke an Unterzug in Holz (S. 60): Decke REI60 (Estrich 60 mm,
+    Trittschalldämmung Mineralwolle 30 mm, Splittschüttung 80 mm, Hohlkastenelement gemäss
+    Systemanbieter 200 mm); Unterzug REI60 (Brettschichtholz, Mineralwolle SP≥1'000°C
+    ρ≥40 kg/m³, Brettschichtholz).
   - A.3.7 Geschossdecke an Unterzug in Stahl (S. 61): Decke REI60 (Gipsfaserplatte 2×15 mm,
     Massivholzplatte 27 mm starrer Verbund mit Rippen, Rippe 80×240 mm, Mineralwolle
     SP≥1'000°C ρ≥26 kg/m³ 100 mm, Massivholzplatte 27 mm, Gipsfaserplatte 18 mm); Unterzug
     REI60 (Stahlträger).
   - A.3.8 Treppenhauswand an Innenwand (S. 62): Treppenhauswand REI60-RF1 (Brandschutz-
-    bekleidung K30-RF1 gemäss VKF-Anerkennung, Ständer 80×140 mm, Mineralwolle SP≥1'000°C
-    ρ≥26 kg/m³ 140 mm, Brandschutzbekleidung K30-RF1); Innenwand EI30 (Massivholzplatte
-    27 mm, Ständer 80×140 mm, Mineralwolle SP≥1'000°C ρ≥26 kg/m³ 140 mm, Gipsfaserplatte
-    15 mm).
+    bekleidung K30-RF1 Dicke gemäss VKF-Anerkennung, Ständer 80×140 mm, Mineralwolle SP≥1'000°C
+    ρ≥26 kg/m³ 140 mm, Gipsfaserplatte 15 mm, Brandschutzbekleidung K30-RF1 Dicke gemäss
+    VKF-Anerkennung); Innenwand EI30 (Massivholzplatte 27 mm, Ständer 80×140 mm, Mineralwolle
+    SP≥1'000°C ρ≥26 kg/m³ 140 mm, Gipsfaserplatte 15 mm).
 
 ## Begriffe (Kap. 7 Glossar, S. 47)
 
@@ -432,13 +447,13 @@ Plattenränder.
 - **Tragfähigkeit (R, Résistance)**: Kriterium für die Standsicherheit von Tragwerken/Bauteilen
   gegenüber bestimmten Einwirkungen.
 - **Vollquerschnitte**: flächige Bauteile aus massiven Querschnitten wie Brettstapelwände,
-  Blockbauwände, Wände aus ein-/mehrlagigen Massivholzplatten, Brettstapeldecken, Decken mit
-  ein-/mehrlagigen Massivholzplatten, Holz-Beton-Verbunddecken.
+  Blockbauwände, Wände aus ein-/mehrlagigen Massivholzplatten, Wände aus Holzwerkstoffplatten,
+  Brettstapeldecken, Decken mit ein-/mehrlagigen Massivholzplatten, Holz-Beton-Verbunddecken.
 - **Wärmedämmung (I, Isolation)**: Kriterium für die Fähigkeit einer raumabschliessenden
   Konstruktion, den Wärmedurchgang zu begrenzen.
 - **Zusammengesetzte Querschnitte**: Bauteile aus Ständern, Trägern, Rippen, Platten,
-  Ständerplankungen wie ein-/beidseitig beplankte Holzrahmenbauwände, Fachwerkwände,
-  Balkendecken, Rippendecken, Hohlkastendecken.
+  Beplankungen usw. wie ein- oder beidseitig beplankte Ständerwände, Holzrahmenbauwände,
+  Fachwerkwände (Riegelwände), Balkendecken, Rippendecken, Hohlkastendecken.
 - **Zwischenraum**: siehe 'Hohlraum'.
 - Abkürzungen (Kap. 6, S. 46): BSP = Brandschutzplatte, OSB = Grobspanplatte (Oriented Strand
   Board), ρk = charakteristische Rohdichte, RF1-4 = Brandverhaltensgruppen, SP = Schmelzpunkt.
@@ -500,3 +515,14 @@ Plattenränder.
   aber die feine Zuordnung Ziffer-zu-Bildelement bei sehr kleinteiligen Mehrfachvarianten
   (z.B. Bild 2e/2f Kap. 4.2.9) ist an der Grenze der Lesbarkeit — bei kritischer Anwendung im
   Original nachschlagen statt aus diesem Destillat übernehmen.
+
+## Verifikationsstand
+
+- 27.07.2026, Run 31: zweite unabhängige Refuter-Prüfung eines einzelnen Refuters über alle
+  33 PDF-Seiten. Ergebnis: BEANSTANDET, 18 Befunde plus 10 fehlende Kernziffern, alle in dieses
+  Destillat eingearbeitet.
+- «Die beiden Korrekturen der ersten Runde (Abb. 320-1 Situationszuordnung, Literaturzählung
+  [4]-[12] und [13]-[18]) haben der zweiten Prüfung standgehalten. Die neuen Fehler lagen
+  flächig in den Legenden der Kapitel 4.2.x sowie in Kap. 5.2.2 und Anhang 3 — also in Passagen,
+  die die erste Runde nicht angefasst hatte.»
+- Status bleibt `speculative`, bis eine Refuter-Runde ohne Befund abschliesst.

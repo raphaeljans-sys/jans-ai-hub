@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 27.07.2026 13:44:01
+Stand: 27.07.2026 13:54:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:42)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:53)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 27.07.2026 13:44:01
 - 3 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 27f7a17d grobkosten-training Run 20: Taktungsfehler behoben (grobkosten in vollgas-runner EXCLUDE_RE ergaenzt, laeuft ab jetzt nur ueber eigenen Scheduled Task statt Endlos-Zyklus), neunter Saettigungsbeleg ohne Register-Duplikation
+- 3d034b5b normen-training: Lignatec-Brandschutz Run 31, 17 Refuter-Befunde eingearbeitet (Tab. 3/4 Korrekturen, Treppenanlagen/Korridore-Zuordnung, ISSN, Frontmatter, Verifikationsstand)
