@@ -38,6 +38,12 @@ zwischen **Fassade** und **massgebender Grenzlinie** (§ 260 Abs. 1 PBG). Detail
   definiertes Mass hinaus, beschränkbar; fällt über dem Grundabstand ausser Ansatz
   (§ 28 Abs. 2 ABV). Bei gestaffelter Fassade: Rücksprung **> 2G** (G = Grundabstand) =
   selbständige Fassadenteile, **< 2G** = unbeachtlich (§ 24 Abs. 2 ABV; BEZ 2002 Nr. 6).
+  **Vorentwurf (noch KEINE Rechtswirkung):** die Revision «Erleichtertes Bauen im Bestand»
+  sieht die **ersatzlose Aufhebung** von §§ 21 Abs. 2/23/24 ABV vor (Mehrlängenzuschlag
+  entfaellt); Verfahrensstand 24.07.2026 noch ohne Kantonsratsvorlage — geltendes Recht wie
+  oben bleibt bis Inkrafttreten massgebend. Details: KB `planungsgrundlagen`,
+  `wiki/recht-norm-pbg-revision-bauen-im-bestand.md`; Cross-KB-Befund Wissens-Chef Run 15
+  (25.07.2026) damit geschlossen.
 - **Abstandsfrei** (§ 269 PBG): unterirdische Bauten und solche, die den gewachsenen Boden um
   ≤ **0,5 m** überragen und **keine Öffnungen** zum Nachbarn haben (TG/UG bis an die Grenze) —
   *aber* eine Baulinie darf trotzdem nicht überschritten werden ([[baulinien-und-abstandslinien]]).

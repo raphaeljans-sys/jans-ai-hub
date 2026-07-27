@@ -75,6 +75,21 @@ ist im Entscheid **ausdruecklich** zu nennen und zu begruenden (§ 320 PBG).
   das Instrument, nicht § 220).
 - **Provisorien** laufen ueber **§ 321 PBG** (befristete Bewilligung), nicht ueber § 220.
 
+**Vorentwurf «Erleichtertes Bauen im Bestand» (§ 220a E-PBG) — noch KEINE Rechtswirkung:**
+der Kanton ZH bereitet eine PBG-Revision vor, die Grundeigentuemern fuer die **Erweiterung von
+Bestandesbauten** (Anbau/Aufstockung/Dachausbau) einen **Anspruch** (statt der Ermessens-
+Einzelfallabwaegung nach § 220) auf begrenzte Abweichung von Grenzabstand/Fassadenhoehe/
+Fassadenlaenge/Vollgeschosszahl einraeumen soll, sofern die **bestehende Ausnuetzung nicht
+ueberschritten** wird; parallel wird § 357 E-PBG ergaenzt (Erleichterung auch fuer bereits
+vorschriftswidrige Bestandesbauten) und der Mehrlaengenzuschlag (§§ 21 Abs. 2/23/24 ABV, vgl.
+[[abstaende-und-hoehen]]) ersatzlos aufgehoben. **Verfahrensstand (Stand 24.07.2026, laut
+KB `planungsgrundlagen`):** Vernehmlassung 26.09.2025-16.01.2026 abgeschlossen, noch **keine
+Kantonsratsvorlage/kein Schlussabstimmungsdatum** publiziert — reiner Vorentwurf ohne
+Rechtswirkung, geltendes Recht (§ 220/§ 357 wie oben) bleibt bis zum Inkrafttreten unveraendert
+massgebend. Vollstaendige Herleitung/Quellen: KB `planungsgrundlagen`,
+`wiki/recht-norm-pbg-revision-bauen-im-bestand.md` (dort fuehrend; dieser Artikel bleibt fuer
+geltendes Recht massgebend). Schliesst den Cross-KB-Befund Wissens-Chef Run 15 (25.07.2026).
+
 ## § 357 PBG — Besitzstandsgarantie / erweiterte Bestandesgarantie
 
 **Anwendungsvoraussetzungen** (kumulativ):
