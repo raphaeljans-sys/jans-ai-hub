@@ -4,6 +4,17 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-27 — `twin-fidelity-review` (Fidelity 260727f, fuenfter Lauf des Tages, Gesamt-Fidelity
+  ~68).** Zwei frische authentische Golds auf `mail@raphaeljans.ch` April 2026 (bisher unerschlossenes
+  Fenster) — Hub12-Event-Weiterleitung an Peter Weisser (Mundart-Du, kein Fachinhalt) + Ultrakurz-
+  Chat-Faden mit Rafael Biolley (neutral trotz Mundart-Ansatz der Gegenseite). Kernbefund: die
+  bestehende Mundart-Schwelle «Gegenüber spiegelt» wird im selben Tagesfaden doppelt widerlegt (Gold A
+  Mundart ohne Spiegelung, Gold B keine Mundart trotz Spiegelung) — Treiber ist kontaktspezifische
+  Vertrautheit, nicht ein genereller Spiegel-Mechanismus. `stimme.md` + `beziehungsregister.md`
+  praezisiert, `rules/anrede-kontakte.md` Zeile Peter Weisser ergaenzt. QUESTIONS-Runde 260727f (4
+  Fragen: kontaktspezifische Mundart-Liste, neuer Opener «Hey», Generalisierung rahmenlose
+  Faden-Antwort, Networking-Reflex in Privatchat). Report `outputs/2026-07-27f_fidelity.md`. Gehirn
+  `rules/jans-dna.md` neu kompiliert.
 - **2026-07-27 — `twin-mail-training` Batch 74 (mail@raphaeljans.ch, erstmals ausgewertetes Postfach).**
   Der sequenzielle rj@-Sweep lief in diesem Fenster leer (0 Treffer nach dem Batch-73-Endpunkt
   12:38:14 Uhr, Kontrollprobe ueber den ganzen Tag bestaetigt nur die vier bereits bekannten

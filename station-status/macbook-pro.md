@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 27.07.2026 16:16:15
+Stand: 27.07.2026 16:26:24
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 15:47)
+- Developer/jans/ai/hub  (letzte Aktivitaet 16:26)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 27.07.2026 16:16:15
 - 3 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 42b0a7b1 logbuch: Abo-Auslastungs-Check 27.07. — Messung blockiert (invalid_grant), Re-Login-Pendenz nachgefuehrt
+- 1d11095d normen: Run 33 SIA/VKF - vierte Refuter-Runde (1x established, 3x je 1 Befund), regionale ZH-Geltung Brandschutz-Arbeitshilfen geklaert

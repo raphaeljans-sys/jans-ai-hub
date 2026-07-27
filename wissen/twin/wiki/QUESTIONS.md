@@ -3,6 +3,44 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260727f (twin-fragesteller, aus Fidelity-Review 2026-07-27f)
+
+Quelle: Drift-Report `outputs/2026-07-27f_fidelity.md` (Gesamt-Fidelity ~68; erstmals ein rein
+privat-soziales Register auf `mail@raphaeljans.ch` erschlossen, April 2026, ausserhalb der bisher
+genutzten Fenster Jan/Feb — Hub12-Event-Weiterleitung an Peter Weisser Mundart-Du, Ultrakurz-Chat-
+Faden mit Rafael Biolley). Kernbefund: die bisherige «Gegenüber spiegelt Mundart»-Regel ist weder
+notwendig noch hinreichend; Kontakt-spezifische Vertrautheit sticht. Je in 1–2 Sätzen beantwortbar.
+
+1. **Welche konkreten Kontakte sind für Dich «Mundart-Normalfall», unabhängig vom Anlass oder davon,
+   ob die Gegenseite selbst Dialekt schreibt?** Peter Weisser bekam vollen Mundart-Ton («Hey Peter,
+   weich wie cool wenn Du au chiemsch? Wör mi freie, lgr»), obwohl er in diesem Faden nicht selbst
+   gespiegelt hatte; mit Rafael Biolley (der selbst «Was isch das?» schrieb) bliebst Du neutral-
+   hochdeutsch. Ist es die Länge/Wärme der Beziehung (Peter: langjähriger Baumanagement-Partner),
+   die den Ausschlag gibt, unabhängig vom Sprechakt der Gegenseite? *Warum: würde die bisherige
+   generische Spiegel-Regel durch eine kontaktspezifische Liste ersetzen (ähnlich der
+   Du/Sie-Kontaktliste in `anrede-kontakte.md`), statt sie situativ falsch anzuwenden.*
+   → [[stimme]], [[beziehungsregister]]
+2. **«Hey <Vorname>» als weitere, bisher unbekannte Peer-Du-Eröffnungsstufe — wo reiht sie sich zu
+   Hoi/Hallo/Salut/Lieber ein?** Der Zwilling kennt bereits vier Stufen (Fidelity 260610/260725d);
+   «Hey Peter» ist ein fünfter, bisher unbelegter Opener. Ist «Hey» eine spontane, besonders lockere
+   Variante (eher Mundart-/Chat-Kontext als E-Mail-Förmlichkeit), oder austauschbar mit «Hoi»? *Warum:
+   schliesst die in `stimme.md` offen vermerkte Lücke «Hoi/Hallo/Lieber/Hey» erstmals mit einem
+   echten Beleg für «Hey».* → [[stimme]]
+3. **Ultrakurzer Chat-Faden ohne jede Anrede/Gruss/Signatur bei einem lockeren, aber noch jungen
+   Networking-Kontakt (nicht Freelancer/Produktion) — generalisiert das die «rahmenlose
+   Faden-Antwort»?** Bisher war dieses Muster nur im hochfrequenten 3D-/Kreativ-Freelancer-Faden
+   belegt (Fidelity 260724 #2, offene Frage). Der Biolley-Faden («was es ist», «ja wenn du
+   mitkommst und du deine Firma präsentierst») bestätigt es in einem dritten Kontext: privates
+   Event-Networking. Reicht «mehrfach am selben Tag im selben Faden» als genereller Auslöser,
+   unabhängig vom Kontakttyp? *Warum: würde die bisher nur vermutete Verallgemeinerung
+   bestätigen.* → [[arbeitsweise]], [[stimme]]
+4. **Beiläufiger Selbstmarketing-Halbsatz in einer privaten Chat-Antwort («…und du deine Firma
+   präsentierst») — bewusstes Networking-Reflex auch in der lockersten Alltagskommunikation?** Du
+   knüpfst die Zusage zur Teilnahme an Biolleys Firmenpräsentation, obwohl die Mail rein privat-sozial
+   und einzeilig ist. Ist das ein genereller Reflex (Gelegenheiten für Sichtbarkeit/Vernetzung auch
+   in Privatmails anzusprechen), oder war das hier situativ? *Warum: würde die Haltung-Facette um
+   einen Networking-Instinkt jenseits klassischer Akquise-Mails erweitern.* → [[haltung]]
+
 ## Offen — Runde 260727e (twin-fragesteller, aus Fidelity-Review 2026-07-27e)
 
 Quelle: Drift-Report `outputs/2026-07-27e_fidelity.md` (Gesamt-Fidelity ~74; erstmals gezielt in

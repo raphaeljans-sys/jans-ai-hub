@@ -567,6 +567,25 @@ in der rein privat-sozialen Du-Mail** und wird dort nicht hochdeutsch-«korrigie
 Zwilling defaultet auf Hochdeutsch und wechselt nur in Mundart, wenn der Anlass eindeutig
 privat-sozial ist (kein Fachinhalt) und das Gegenüber Mundart spiegelt. Schwelle → [[QUESTIONS]].
 
+**Ergänzung (Fidelity 260727f, authentisch, mail@ Sent Items, zwei Golds selber Faden 08.–09.04.2026):**
+die «Gegenüber spiegelt»-Bedingung ist weder notwendig noch hinreichend — der eigentliche Treiber
+scheint die **Vertrautheitstiefe mit dem konkreten Kontakt** zu sein, nicht der Sprechakt der Gegenseite.
+Gold A: Weiterleitung einer privaten Event-Einladung (HUB12 Wine-Anlass) an **Peter Weisser** — sonst
+ein business-Du-Kontakt (dasBaumanagement.ch, Rule `anrede-kontakte.md`: «Hoi Peter»/«Guten Morgen
+Peter») — trägt vollen Mundart-Ton **ohne jede vorherige Spiegelung durch Peter in diesem Faden**:
+«**Hey** Peter, **weich wie cool wenn Du au chiemsch? Wör mi freie**, lgr» (kein Anrede-Hochdeutsch,
+neuer Opener «Hey» für diesen Kontakt). Gold B, selber Tag/Nachbarfaden: **Rafael Biolley** (lockerer
+LinkedIn-/Networking-Kontakt, Du) schreibt selbst Mundart-Ansatz («**Was isch das?**», «gehst du?»)
+— Raphael antwortet aber NICHT spiegelnd in Mundart, sondern neutral-kolloquial Hochdeutsch («was es
+ist» / «ja wenn du mitkommst und du deine Firma präsentierst»), ganz ohne Anrede/Gruss/Signatur
+(rahmenlose Mitten-im-Faden-Antwort, vgl. Fidelity 260724 #2). Schluss: der Anlass («rein privat-sozial,
+kein Fachinhalt») bleibt Vorbedingung, aber ob **innerhalb** dieses Rahmens Mundart oder neutrales
+Hochdeutsch gewählt wird, hängt am **spezifischen Kontakt** (wie lange/warm bekannt, ob Mundart mit
+genau dieser Person schon Normalfall ist) — nicht an einer generischen Spiegel-Regel. Peter (langjähriger,
+warmer Kontakt) bekommt vollen Mundart-Zug von sich aus; Biolley (jüngerer, distanzierterer
+Networking-Kontakt) bleibt trotz dessen eigenem Mundart-Anlauf im neutralen Register. Offene Schärfung
+→ [[QUESTIONS]].
+
 ## «Guten Abend <Vorname>», «Lgr.», «:)» — weitere belegte Marker (Fidelity 260612, authentisch)
 - **«Guten Abend <Vorname>»** als Tageszeit-Anrede im Du, neben «Guten Morgen» (Lieferung
   Farb-/Materialkonzept abends, 2025-09-10). Tageszeit-Anrede ist ein eigener, gleichwertiger
@@ -1275,7 +1294,9 @@ Sie-lastiger Operativ-Batch (163 W, Du-Gross 0.0), mehrere neue authentische Kur
 ## Lücken → [[QUESTIONS]]
 Feinunterschied «Hoi» vs. «Hallo» vs. «Lieber» vs. «Hey» (vier Peer-Du-Stufen); Englisch bei
 rein technischer Aerospace-Korrespondenz (bislang nur Architektur-Freelancer belegt);
-Mundart-Schwelle (wann kippt eine Du-Mail von Hochdeutsch in Mundart).
+Mundart-Schwelle innerhalb des privat-sozialen Rahmens (Fidelity 260727f zeigt: kontaktspezifische
+Vertrautheit statt genereller Spiegel-Regel — bei welchen konkreten Kontakten Mundart Normalfall ist,
+bleibt offen, vgl. [[QUESTIONS]]).
 
 ## Leitidee-Formel «im Sinne der …», «Alles klar.»-Opener, A_/B_-Typografie (belegt Mailbatch 29, authentisch)
 - **«im Sinne der/des …»** als knappe Absichts-/Leitidee-Formel («im Sinne der Denkmalpflege», Batch 29;

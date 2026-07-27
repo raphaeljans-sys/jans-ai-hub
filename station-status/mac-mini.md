@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 27.07.2026 16:11:23
+Stand: 27.07.2026 16:21:29
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 16:18)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 27.07.2026 16:11:23
 - 14 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- ce447534 wissen/baurecht: Buch-Run 62 — Baulinien/Abstandslinien re-verifiziert, § 33a ABV Register-Sweep-Nachzug (-> § 253a PBG), Haupt-/Anhang-Klaerung § 260 Abs. 3 PBG
+- 1d11095d normen: Run 33 SIA/VKF - vierte Refuter-Runde (1x established, 3x je 1 Befund), regionale ZH-Geltung Brandschutz-Arbeitshilfen geklaert

@@ -29,7 +29,7 @@ Diese Liste pflegt alle bekannten Kontakte und ihre Anredeform. Sie wird laufend
 | Roman Steinmann | Nova Property Fund Management AG, Asset Manager | 2620 Albertstrasse 7 | **Du** | «Salut Roman» warm; faellt bei Mahn-/Geldkontext auf «Guten Tag» zurueck |
 | Stefan Tschopp | Bauherr-Partner | 2414 Thalwil | **Du** | «Hoi Stefan» routinemaessig; «Geschaetzter Stefan» bei gewichtigem/verbindlichem Ergebnis |
 | Yorck von Dietze | 3D-Freelancer | diverse Visualisierungen | **Du** | Skala Hey/Hoi/Hallo/Lieber je nach Anlass |
-| Peter Weisser | dasBaumanagement.ch, Baumanagement-Partner | diverse | **Du** | «Hoi Peter»/«Guten Morgen Peter» |
+| Peter Weisser | dasBaumanagement.ch, Baumanagement-Partner | diverse | **Du** | «Hoi Peter»/«Guten Morgen Peter» operativ; bei rein privatem Anlass (Event-Einladung) voller Mundart-Ton, z.B. «Hey Peter, weich wie cool wenn Du au chiemsch?» (belegt 08.04.2026) |
 
 Quelle der obigen Ergänzungen (25.07.2026): systematisch aus `wissen/twin/wiki/beziehungsregister.md`
 belegten Mappings uebernommen (mehrfach dokumentierte authentische Mails, nicht Einzelbeleg). Bei

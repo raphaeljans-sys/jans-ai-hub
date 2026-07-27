@@ -86,6 +86,12 @@ auf, wenn KEIN Fachinhalt im Spiel ist und das Gegenüber selbst Mundart/Dialekt
 Klang-Details (Mundart-Marker, «:)», kleines «raphael») → [[stimme]]. Norm-Auflösung:
 Hochdeutsch bleibt Default, Mundart ist authentisch nur hier; nie in Geschäft/Behörde/Fachmail.
 
+**Präzisierung (Fidelity 260727f):** die «Gegenüber spiegelt»-Bedingung reicht allein nicht — auch ein
+sonst business-Du-Kontakt (Peter Weisser) bekommt bei rein privatem Anlass (Event-Einladung) vollen
+Mundart-Ton, ohne dass er zuvor gespiegelt hätte; umgekehrt bleibt Raphael gegenüber einem lockereren,
+weniger vertrauten Du-Kontakt (Rafael Biolley) neutral-hochdeutsch, obwohl dieser selbst Mundart
+anstösst. Die Kontakt-spezifische Vertrautheit sticht die generische Spiegel-Regel → [[QUESTIONS]].
+
 ## Warm-soziales Du, branchenfern (belegt Fidelity 260610)
 Ein eigenes, leichteres Register für **persönlich-warme, nicht-baufachliche Kontakte**
 (z.B. Tourismus/Kultur/Design, oft beim Aufbau einer Beziehung): «**Liebe/r <Vorname>**»,
