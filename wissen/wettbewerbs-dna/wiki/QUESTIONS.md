@@ -1,8 +1,36 @@
 # QUESTIONS — KB wettbewerbs-dna
 
-Stand: 14.07.2026 (Etappe-3-Start: Bauaufgaben-Blocker geschlossen)
+Stand: 27.07.2026 (Wohnungsbau B3-Ziel 8/8 erreicht; drei neue Fragen zu Verfahrens-Sonderfaellen,
+Extrakt-Grenze Koch-Areal und der fehlenden 1. Stufe Walkeweg — je vor B4/B6 zu entscheiden)
 
 ## Offen
+- **Wohnungsbau B4: wie mit den zwei Verfahrens-Sonderfaellen der Tranche 2 umgehen? (27.07.2026)**
+  Zwei der acht established Wohnungsbau-Quellen brechen das uebliche Rangschema und lassen sich
+  nicht ohne Entscheid in eine gemeinsame Kriterien-Rangordnung mitteln:
+  (1) **Koch-Areal Zuerich** buendelt VIER parallele Verfahren (drei Baufelder + Quartierpark)
+  mit je eigenem Preisgericht-Teilgremium, eigenen Beurteilungskriterien (Baufeld A weicht
+  nachweislich ab) und je eigenem Sieger in EINEM Bericht — zaehlt das als eine Quelle oder als
+  vier? Vorschlag: als eine Quelle fuehren, die Argumente aber je Baufeld getrennt in die
+  Synthese geben, damit die Gewichtung nicht vervierfacht wird.
+  (2) **Industriestrasse Luzern** juriert Staedtebau/Aussenraum und Gebaeudetypologie GETRENNT
+  und bewusst ohne gemeinsames Ranking (drei gleichrangige Typologie-Auswahlen statt Rangfolge).
+  Ein «Delta zum ersten Rang» im Sinne des Musters `delta-zum-ersten-rang` existiert hier nicht.
+  Vorschlag: die staedtebauliche Rangfolge fuer das Delta-Muster verwenden, die Typologie-Auswahl
+  separat als Argumente-Quelle. Entscheid faellt beim Anlegen von `jury-argumente-wohnungsbau`.
+- **Wohnungsbau: Extrakt-Grenze Koch-Areal (27.07.2026).** Das frei zugaengliche PDF
+  (49 Seiten) enthaelt nur die zusammenfassenden Kapitel 1-10 der Gesamtpublikation; die
+  Einzelprojekt-Doppelseiten (laut Inhaltsverzeichnis ab S. 49/81/141/209/275) fehlen. Dadurch
+  fehlen fuer alle vier Siegerprojekte die effektiven Wohnungszahlen, GF/HNF-Ist-Werte und
+  Grundrisstyp-Details. Refuter hat bestaetigt, dass keine Aussage des Destillats aus den
+  fehlenden Seiten stammt. Offen: lohnt sich die Nachbeschaffung der Vollpublikation fuer B6
+  (Kennwert-Benchmark)? Entscheid bei B6.
+- **Wohnungsbau: 1. Stufe Walkeweg Basel nicht im Bestand (27.07.2026).** Destilliert ist nur
+  die 2. Stufe; der Bericht der 1. Stufe liegt als eigenes PDF vor
+  (`https://espazium.s3.eu-central-1.amazonaws.com/files/2023-08/basel-walkeweg-jurybericht-1-stufe.pdf`,
+  im B1-Sweep als frei-pdf verifiziert). Der 2.-Stufe-Bericht traegt die Auswahlgruende der
+  ersten Stufe nur indirekt. Offen: als neunte Quelle nachziehen (waere die erste dokumentierte
+  Stufen-Paarung des Bestandes und damit fuer die K.o.-Liste besonders aussagekraeftig) oder
+  bewusst weglassen, da das B3-Ziel bereits erreicht ist?
 - **Wohnungsbau B1-Sweep (26.07.2026): drei offene Einordnungsfragen fuer B3/B4.**
   (1) **Felsenrain Zuerich** (Stiftung Alterswohnungen der Stadt Zuerich) ist ein Grenzfall
   zwischen Wohnungsbau und der bereits abgeschlossenen Healthcare-Etappe (dort war Alterswohnen

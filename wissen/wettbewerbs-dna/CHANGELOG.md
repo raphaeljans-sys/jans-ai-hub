@@ -1,5 +1,32 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-27 — Etappe 3, B2/B3 Wohnungsbau Tranche 2: B3-Ziel Wohnungsbau 8/8 ERREICHT
+- Fuenf externe Juryberichte in einem Vollgas-Lauf beschafft, destilliert und je unabhaengig
+  refuter-verifiziert (10 Agenten: 5 Destillation Sonnet parallel, 5 Refuter Hauptmodell
+  parallel; 0 Fehler): `koch-areal-albisrieden-altstetten`, `walkeweg-basel-genossenschaft-2`,
+  `industriestrasse-luzern`, `waetterweid-arosa`, `brisgi-areal-baden` — alle `established`.
+- Neue Raw-Extrakte (`raw/extern-jurybericht-<slug>.txt`, pdftotext -layout): alle PDFs vorab
+  per curl auf HTTP 200 + %PDF-Signatur geprueft, alle deutlich ueber der OCR-Schwelle
+  (1'045-1'918 Zeichen/Seite). Die PDFs selbst werden konventionsgemaess nicht versioniert.
+- Damit deckt der Wohnungsbau-Bestand alle Traegertypen des B1-Sweeps ab (genossenschaftlich,
+  stadt-gemeinde, privat-institutionell, Stiftung, gemischt Wohnen+Gewerbe) und erstmals einen
+  alpinen Kontext (Arosa GR) sowie zwei Verfahrens-Sonderfaelle: vier parallele Baufeld-Verfahren
+  in einem Bericht (Koch-Areal) und eine getrennte Jurierung von Staedtebau und Gebaeudetypologie
+  ohne gemeinsames Ranking (Industriestrasse Luzern).
+- Fehlerbilanz: rund 640 gepruefte Aussagen, 102 Korrekturen. Dominante Fehlerklassen unveraendert
+  Seiten-Drift und ueberdehnte Exklusivitaets-Behauptungen. **Neu und schwerer wiegend: zwei
+  Sinnverkehrungen** (Koch-Areal — A8 «LA CUISINE» wurde wegen des baurechtlichen Verstosses
+  gerade NICHT zur Preiserteilung zugelassen, das Destillat behauptete das Gegenteil und leitete
+  daraus eine falsche verallgemeinerbare Regel ab; Arosa — Statik/Tragstruktur bei «ZAI»
+  vertauscht) **und eine erfundene Fachangabe** (Luzern — dem Sieger «mon oncle» wurde ein
+  Erschliessungstyp zugeschrieben, den der Bericht fuer dieses Projekt gar nicht nennt; die
+  Formulierung stammt aus der Wuerdigung eines anderen Projekts). Alle drei nur durch den
+  unabhaengigen Volltextabgleich gefunden.
+- Bookkeeping: `wiki/INDEX.md` (Kopf-Stand + Sektion Externe Referenz-Juryberichte),
+  `training/ETAPPE-3.md` (Stand-Tabelle + Lauf-Log) nachgefuehrt.
+- Naechste Zelle: **Wohnungsbau B4 Muster-Synthese** (`wiki/muster/jury-argumente-wohnungsbau.md`,
+  neu anzulegen), danach B6 Kennwert-Benchmark und B5 Revision `wohnen-mfh-urban.json`.
+
 ## 2026-07-27 — Refuter-Verifikation Brisgi-Areal Baden (draft → established)
 - `wiki/extern/jurybericht-brisgi-areal-baden.md` unabhaengig gegen den Volltext-Extrakt
   geprueft (Abgleich aller laufenden Seitenmarker 4 bis 46). 21 Korrekturen, davon 5 gewichtig:

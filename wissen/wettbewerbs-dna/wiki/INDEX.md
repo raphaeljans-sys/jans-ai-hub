@@ -1,6 +1,16 @@
 # INDEX — KB wettbewerbs-dna
 
-Stand: 26.07.2026 (Etappe 3, **Baustein B1 Wohnungsbau erledigt — Quellen-Sweep
+Stand: 27.07.2026 (Etappe 3, **Baustein B2/B3 Wohnungsbau Tranche 2 — B3-Ziel Wohnungsbau
+ERREICHT, 8/8 established:** fuenf weitere externe Juryberichte in einem Lauf beschafft,
+destilliert und je unabhaengig refuter-verifiziert — koch-areal-albisrieden-altstetten,
+walkeweg-basel-genossenschaft-2, industriestrasse-luzern, waetterweid-arosa,
+brisgi-areal-baden. Damit sind fuer den Wohnungsbau alle Traegertypen des Sweeps abgedeckt
+(genossenschaftlich, stadt-gemeinde, privat-institutionell, Stiftung, gemischt Wohnen+Gewerbe)
+sowie erstmals ein alpiner Kontext (Arosa, GR) und ein Mehrfach-Baufeld-Verfahren (Koch-Areal,
+vier parallele Verfahren in einem Bericht). **Naechste Zelle: Wohnungsbau B4 Muster-Synthese**
+(`wiki/muster/jury-argumente-wohnungsbau.md`, neu anzulegen), danach B6 Kennwert-Benchmark
+und B5 Parameter-Set-Revision. — vorher 26.07.2026 (Etappe 3, **Baustein B1 Wohnungsbau
+erledigt — Quellen-Sweep
 `outputs/2026-07-26_etappe3-wohnungsbau-sweep.md`:** 6 Scouts (espazium/zuerich/bern-basel/
 luzern-ostschweiz/weitere-kantone/genossenschaften-stiftungen, WebSearch+curl-Verifikation)
 meldeten 61 Rohkandidaten, nach Dedup (6 identische PDF-URLs von je 2 Scouts unabhaengig
@@ -163,7 +173,7 @@ Teil 2 Rang-Klaerung UND Teil 3 Muster-Verdichtung, siehe `training/PROGRAMM.md`
   `grobkosten-onepager` (JANS-Grobkosten-Vorlagen). **Erfuellt den letzten offenen
   Endbedingung-Punkt Etappe 2** (Bild-Katalog indexiert).
 
-## Externe Referenz-Juryberichte (wiki/extern/) — 23/23 established (Schulbau) + 11 established (Healthcare, B3-Ziel 8 uebertroffen) + 3 established (Wohnungsbau, B3 3/8)
+## Externe Referenz-Juryberichte (wiki/extern/) — 23/23 established (Schulbau) + 11 established (Healthcare, B3-Ziel 8 uebertroffen) + 8 established (Wohnungsbau, B3-Ziel 8/8 erreicht)
 
 Healthcare (Alters-/Pflege-/Gesundheitsbau), alle established: kantonsspital-aarau-ksa (spital-klinik,
 Sieger «Dreiklang»), alterszentrum-sihlsana-adliswil (pflegeheim, Sieger «SOPHIE»),
@@ -203,10 +213,43 @@ Zuordnungsfehler in den Verallgemeinerbaren Regeln), guggach-ii-unterstrass
 (privat-institutionell, Wohnueberbauung Guggach II Zuerich-Unterstrass, Pensionskasse der
 UBS, Sieger «Santorin» Knapkiewicz & Fickert, Preisgerichtsdatum praezisiert auf
 09.05./02.06.2014; refuter korrigierte 3 Fehler an 8 Textstellen, v.a. Ersatzmitglied-
-Status Sachjury und Seitenzahl-Drift). **Naechste Zelle: Wohnungsbau B2/B3 Tranche 2**
-(Ziel B3 8/8; empfohlener Batch in `outputs/2026-07-26_etappe3-wohnungsbau-sweep.md`:
-koch-areal-albisrieden-altstetten, walkeweg-basel-genossenschaft-2, industriestrasse-luzern,
-waetterweid-arosa, brisgi-areal-baden).
+Status Sachjury und Seitenzahl-Drift).
+
+Wohnungsbau Tranche 2 (B2/B3, 27.07.2026), alle established: koch-areal-albisrieden-altstetten
+(gemischt, Koch-Areal Zuerich-Albisrieden/Altstetten 2019 — Sonderfall mit VIER parallelen
+Verfahren in einem Bericht: Baufeld A/SENN Gewerbehaus Sieger «BLAUREGEN», Baufeld B/ABZ
+Wohnhochhaus+Gewerbe Sieger «MOERAKI», Baufeld C/Kraftwerk1 Genossenschaftswohnen Sieger
+«SALE CON FRITAS», Quartierpark/Gruen Stadt Zuerich Sieger «WILD AT HEART»; der vorliegende
+Extrakt deckt nur die zusammenfassenden Kapitel 1-10 bis S. 47 ab, die Einzelprojektseiten der
+Gesamtpublikation fehlen — im Artikel als Grenze ausgewiesen und vom Refuter bestaetigt; refuter
+korrigierte 13 Stellen, u.a. eine sinnverkehrte Aussage zur Preiszulassung von A8 «LA CUISINE»
+und eine falsche Teilverfahrens-Zuordnung von QP7 «#SYNANTHROP»), walkeweg-basel-genossenschaft-2
+(genossenschaftlich, Genossenschaftliches Wohnen am Walkeweg Basel 2. Stufe 2022/2023,
+Zimmerfrei/Gewona Nord-West, Sieger «Werden & Wandeln» Stereo Architektur/BRYUM einstimmig;
+feste Entschaedigung CHF 35'000 je Projekt ohne Rangstaffelung; refuter korrigierte 14 Fehler
+an 17 Stellen, v.a. Seiten-Drift und eine falsche Zuordnung der Grauen-Energie-Zielwerte zu
+SIA 2040 statt zu den Bauherren-Zielvorgaben), industriestrasse-luzern (gemischt, Areal
+Industriestrasse Luzern, zweistufig 2017/2018, Kooperation aus fuenf Genossenschaften, Wohnen +
+Gewerbe/Ateliers/Kultur — Sonderfall der Verfahrensstruktur: Staedtebau/Aussenraum und
+Gebaeudetypologie werden getrennt und ohne gemeinsames Ranking juriert, Sieger Staedtebau
+«mon oncle» Rolf Muehlethaler mit gleichrangiger Typologie-Auswahl neben «Indu» und
+«Ludoville»; UEZ 0.40 Basis + Boni = 0.46), waetterweid-arosa (stadt-gemeinde, Wohnueberbauung
+Waetterweid Arosa 2022/2023 — einziger ALPINER Kontext des Bestandes, Sieger «DREI ROESLI»
+ARGE Gross Loewensberg; Areal 3'139 m2, UEZ 0.3; refuter korrigierte 16 Stellen, u.a. eine
+Sinnverkehrung zur Tragstruktur bei «ZAI» und die ueberdehnte Behauptung, die alpine Spezifik
+zeige sich «ausschliesslich» ueber Topografie/Fassadenhoehe/Materialisierung — belegt bleibt
+dagegen, dass der Bericht Schnee- und Lawinenlasten gar nicht thematisiert),
+brisgi-areal-baden (privat-institutionell/Stiftung, Projektwettbewerb Brisgi-Areal Baden 2016,
+Wohnbaustiftung Baden mit Logis Suisse/Graphis, PREISGUENSTIGER Wohnungsbau, Sieger «KANDALAMA»
+Mueller Sigrist/Meier Leder — kennwertreichste Wohnungsbau-Quelle des Bestandes: Areal 6.5 ha,
+HNF-Ziel 15'000 m2, Wohnungsspiegel mit HNF je Typ; refuter korrigierte 29 Stellen und
+bestaetigte die Kennwerte Zahl fuer Zahl sowie die Entscheidung, den laufenden Seitenmarkern
+statt dem um zwei Seiten versetzten Inhaltsverzeichnis zu folgen).
+
+**B3-Ziel Wohnungsbau 8/8 ERREICHT. Naechste Zelle: Wohnungsbau B4 Muster-Synthese**
+(`wiki/muster/jury-argumente-wohnungsbau.md`, neu anzulegen, 5 Quellen-Shard-Refuter +
+Konsistenz-Refuter), danach B6 Kennwert-Benchmark (`wiki/muster/kennwerte-wohnungsbau.md`)
+und B5 Revision von `entwurfs-referenzen/wiki/parameter-sets/wohnen-mfh-urban.json`.
 
 Schul-/Bildungsbau 2012–2026: bruehl-solothurn, faellanden, froeschmatt-pratteln,
 heilpaedagogische-schule-bern, hinter-gaerten-riehen, kantonsschule-baden,
