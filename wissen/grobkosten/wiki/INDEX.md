@@ -15,6 +15,12 @@ ist geklärt. Beide bekannten SharePoint-Quellen damit vollständig geprüft UND
 Projekte in `raw/` dokumentiert, 1 davon promotionsfähig als Einzelfall n=1. Run 5 erschliesst
 eine vierte Quelle (SharePoint `IMMO - 06 Kennwerte`, kuratierte Kennwerte-Bibliothek statt
 Projektordner) und liefert einen eigenständigen m²-GF-Benchmark (JANS-Referenzblatt, Wohnen
-Individuell EFH/ZFH), der bewusst NICHT in die m³-GV-Tabelle konvertiert wurde.
+Individuell EFH/ZFH), der bewusst NICHT in die m³-GV-Tabelle konvertiert wurde. Run 6 sichtet
+vier weitere Bibliotheken (`AR - 03 Studien`, `IMMO - 01/02/03/05`, zweite Bibliothek
+`...-RaphaelJans-ArchitektenETH`) und liefert zwei neue, gut belegte Einzelfälle (Niederhasli
+Seestrasse 64 1'032 CHF/m³ — stärkster bisheriger Beleg mit BKP-1-5-Einzelgliederung UND GV im
+selben Dokument; Haus Deuber Thalwil 1'086 CHF/m³, eBKP-H-Basis) sowie mehrere identifizierte,
+aber bewusst zurückgestellte Kandidaten (offene Fragen zu BKP-1-9-vs-1-5-Bezeichnung und
+Standard-Klassifikation, siehe `QUESTIONS.md`).
 
 Offene Fragen / Lücken: siehe [QUESTIONS.md](QUESTIONS.md).

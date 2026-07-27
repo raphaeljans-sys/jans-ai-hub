@@ -1,5 +1,61 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-27 — Trainings-Run 6 (vier neue Quellen parallel: `AR - 03 Studien`, `IMMO - 01/02/03/05`, zweite SharePoint-Bibliothek)
+
+- Kollisionscheck via `ps` durchgeführt: einziger Treffer war die eigene Parent-Instanz dieses
+  Laufs (PPID-Abgleich bestätigt), keine echte Zweitinstanz auf diesem Host.
+- Gemäss Vorschlag aus `wiki/QUESTIONS.md` (Run 5) vier bisher ungeprüfte SharePoint-Bereiche
+  durch vier parallele Subagenten (sonnet) gesichtet: `AR - 03 Studien` (18 Projektordner),
+  `IMMO - 01 Projekte` (14 Ordner), `IMMO - 02 UBSFS`/`IMMO - 03 KNOW-HOW`/`IMMO - 05
+  Bodenpreise`, sowie die komplett ungesichtete zweite Bibliothek `OneDrive-
+  FreigegebeneBibliotheken–RaphaelJans-ArchitektenETH`.
+- **Zwei neue Einzelfälle in `wiki/kennwerte.md` aufgenommen** (beide mit explizitem
+  SIA-416-GV UND nachvollziehbarer BKP-1-5-Kostenbasis im selben Dokument):
+  - **8155 Niederhasli, Seestrasse 64**: GV 3'843.8 m³ (ober+unter, je Geschoss ausgewiesen),
+    BKP 1-5 einzeln aufgeschlüsselt (408'400 + 2'813'573 + 0 + 150'930 + 593'503 = 3'966'406
+    CHF) → **1'032 CHF/m³ GV**. Stärkster bisheriger Beleg dieser KB (echte BKP-Einzelgliederung
+    statt Summenbucket). Standard-Einordnung bleibt unklar (Kostenniveau liegt über beiden im
+    Dokument genannten Referenzstufen). Machbarkeitsstudie, kein Ausführungsbeleg, Preisstand
+    07/2025. Details: `raw/8155-niederhasli-seestrasse64.md`.
+  - **2001 Haus Deuber, Thalwil**: GV 2'725 m³, Anlagekosten B-Z (eBKP-H, näherungsweise
+    BKP-1-5-äquivalent) inkl. MwSt. CHF 2'960'000 → **1'086 CHF/m³ GV**. eBKP-H- statt
+    BKP-2017-Klassifikation (Näherung, keine 1:1-Übersetzung verifiziert); Projekt nie zur
+    Ausführung gekommen (sistierte Baueingabe), Preisstand 10/2020. Details: `raw/2001-haus-
+    deuber-thalwil.md`.
+- **Zwei weitere Rohbelege dokumentiert, aber bewusst NICHT promoviert:** 2411 Wald
+  Haselstudstrasse (GV 5'921 m³ explizit, aber Kostentotal uneinheitlich als "BKP 1-9"
+  bezeichnet — Vorbehalt zu BKP9-Anteil ungeklärt, `raw/2411-wald-haselstudstrasse.md`); 8123
+  Ebmatingen Im Grossacher 2, zweites Dokument (Residualwert-Tool, GV nicht explizit
+  ausgewiesen, keine Rückrechnung gemäss Leitplanke — Addendum in `raw/2412-ebmatingen-
+  grossacher.md`).
+- **Neue offene Fragen** (Details `wiki/QUESTIONS.md`): (1) Bezeichnung "BKP 1-9" vs. "BKP 1-5"
+  für denselben Umrechnungsfaktor (1.13) in zwei JANS-eigenen Tools uneinheitlich verwendet —
+  ungeklärt, ob BKP 9 (Ausstattung) im Total enthalten ist. (2) Standard-Label "norm, eloquent"
+  taucht wortgleich in zwei unabhängigen Projekten (Haus Deuber, Reckholdern) auf — mutmasslich
+  ein Vorlagentext des JANS-GKB-Tools, keine projektspezifische Einschätzung. (3) Trotz
+  rechnerisch n≥2 für "MFH" bewusst KEINE Median-Bildung ausgelöst, da Standards uneinheitlich
+  und ein Teil der Werte (Wald) mit Vorbehalt behaftet ist — Konservativ bis Fragen 1+2 geklärt.
+- **Drei identifizierte, aber aus Kapazitätsgründen nicht extrahierte Kandidaten** für einen
+  künftigen Lauf: Pre-Check-Tool 2305 Wädenswil (`IMMO - 03 KNOW-HOW`, GV 11'724 m³ oi
+  explizit), 2304 Waedenswil Residualwert-Tool (`AR - 03 Studien`, GV nicht explizit), Langnau
+  Giebelweg 12 (`IMMO - 01 Projekte`, GV explizit, Kosten nur als Annahme).
+- **Möglicher Baustein für Stufe 4 (Teuerungs-Normalisierung) identifiziert, nicht bewertet:**
+  `IMMO - 03 KNOW-HOW/06 Schaetzungen/schaetzungsanleitung_kap5.pdf` — Zürcher Index der
+  Wohnbaukosten 1939-2004 + CHF/m³-Bandbreiten nach Bauklasse I-VI (Stand 2003).
+- **`IMMO - 02 UBSFS` und `IMMO - 05 Bodenpreise` vollständig geprüft**: beide komplett out of
+  scope (reine Markt-/Landpreis-Statistik, keine Gebäude-Erstellungskosten).
+- **Zweite SharePoint-Bibliothek vollständig geprüft**: nur 4 Dateien insgesamt, keine
+  verwertbaren Kostendaten (2 Dubletten bekannter Projekte, 2 reine Architektur-Pläne).
+- Nebenbefund (kein grobkosten-Thema, nur vermerkt): acht Projektordner unter `AR - 03 Studien`
+  teilen ein identisches, nie ausgefülltes GKS-Copy-Paste-Template — Datenqualitäts-Beobachtung
+  für Raphael, keine Aktion in diesem autonomen Lauf.
+- Nachgeführt: `training/quellen-inventar.md` (Run-6-Abschnitt), `wiki/kennwerte.md` (neue
+  Sektion + Frontmatter-Quellen + Provenienz-Historie), `wiki/INDEX.md`, `wiki/QUESTIONS.md`,
+  `raw/_INGESTED.md`. Lauf-Report: `outputs/2026-07-27_grobkosten-run6.md`.
+- Vorschlag für Run 7: die drei zurückgestellten Kandidaten extrahieren (insbesondere
+  Pre-Check-Tool 2305 Wädenswil direkt aus der Exceldatei, um Frage 1 aufzulösen), danach
+  MFH-Median-Bildung neu prüfen.
+
 ## 2026-07-26 — Trainings-Run 5 (neue Quelle: SharePoint `IMMO - 06 Kennwerte`)
 
 - Kollisionscheck via `ps` durchgeführt (der einzige gefundene Prozess war die eigene
