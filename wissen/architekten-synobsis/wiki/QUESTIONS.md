@@ -100,7 +100,7 @@ Stand: 2026-07-03, Erstausgabe plus Chargen 1/6 bis 6/6 — Erstkuratierung komp
 - **Althammer_Hochueli_Architekten** — das Buero schreibt sich Althammer Hochuli (ohne e). Umbenennung pruefen.
 - **Aillaud** — ohne Vorname. Ist Emile Aillaud gemeint? Slug praezisieren.
 - **Alexander_Christoph** — der Theoretiker heisst Christopher Alexander. Slug auf Alexander_Christopher normieren?
-- **AASZ** — Kuerzel ungeklaert. Fuer welches Buero steht AASZ (Wettbewerbe Gockhausen und Hittnau liegen drin)?
+- **AASZ** — Kuerzel ungeklaert. Fuer welches Buero steht AASZ (Wettbewerbe Gockhausen und Hittnau liegen drin)? **RECHERCHIERT 27.07.2026 (Nachtschicht Mac Mini):** Websuche zu den Wettbewerben Erweiterung Schulanlage Gockhausen und Neubau Gemeindehaus Hittnau (konkurado.ch) lieferte keinen Treffer auf «AASZ» als Buero-Kuerzel. Bleibt ungeklaert — braucht Direktzugriff auf die Wettbewerbsunterlagen im Ordner selbst (Impressum/Planverfasser-Stempel), nicht websuchbar.
 - **Abril_Garcia_Anton** — Namensreihenfolge uneinheitlich (korrekt Garcia-Abril, Anton; Buero Ensamble Studio). Slug so belassen oder auf das Buero umschreiben?
 - **Christ Gantenbein / Christ_Gantenbein** — im Quellbestand existieren ZWEI Ordner-Schreibweisen (mit Leerzeichen und mit Unterstrich), der Katalog fuehrt aber nur EINE Datei Christ_Gantenbein.json. Pruefen, ob der Scan einen der beiden Ordner ueberschrieben/uebersprungen hat; Ordner zusammenfuehren (nach Freigabe).
 - **Conen_Sigel vs Conen_Sigl** — Doppelordner desselben Zuercher Bueros (korrekt Conen Sigl). Zusammenfuehren?
@@ -153,7 +153,7 @@ Stand: 2026-07-03, Erstausgabe plus Chargen 1/6 bis 6/6 — Erstkuratierung komp
 - **HdM / Herzog_de_Meuron** — Doppelordner desselben Bueros; HdM enthaelt mit 1117 Dateien das Projektmaterial Helsinki Dreispitz, Zuerich KISPI (Kinderspital) und UZH. Zusammenfuehren (nach Freigabe)? Das KISPI-Material ist fuer Projekt 2619 pruefenswert.
 - **Hasegawa_Go / Go_Hasegawa** — Doppelordner desselben Japaners (Chargen 2 und 3); Hasegawa_Go enthaelt zudem den Fremdordner «Cohen Preston Scott». Zusammenfuehren?
 - **Hetzberger_Hermann** — korrekt Herman Hertzberger. Umbenennung?
-- **Herter_Hermann_Meilard_Robert** — Zusatz «Meilard_Robert» ungeklaert (vermutlich Ingenieur Robert Maillart); Slug praezisieren?
+- **Herter_Hermann_Meilard_Robert** — Zusatz «Meilard_Robert» ungeklaert (vermutlich Ingenieur Robert Maillart); Slug praezisieren? **RECHERCHIERT 27.07.2026 (Nachtschicht Mac Mini):** bestaetigt. Hermann Herter (Zuercher Stadtbaumeister, 1877-1945) und Robert Maillart (Bauingenieur, 1872-1940) haben mehrfach zusammengearbeitet: Hallenbad City Zuerich (1939-41), Musikpavillon Sihlhoelzli (1932), Regierungsgebaeude Herisau (mit Bildhauer Otto Muench, Maillart lieferte das Stahlbeton-Skelett). Der Zusatz ist also der (leicht falsch geschriebene) Ingenieur-Partner Maillart, kein Fehlordner. Slug-Praezisierung auf Herter_Hermann_Maillart_Robert moeglich (Umbenennung nach Freigabe). Quelle: de.wikipedia.org/wiki/Hermann_Herter.
 - **Hiestand_Chrisoph** — korrekt Christoph. Umbenennung?
 - **Hoesli_Bernhar** — korrekt Bernhard Hoesli (ETH). Umbenennung?
 - **Hofmann_Joseph** — gemeint ist Josef Hoffmann (Wien, zwei f, Palais Stoclet). Umbenennung?
@@ -229,7 +229,7 @@ Stand: 2026-07-03, Erstausgabe plus Chargen 1/6 bis 6/6 — Erstkuratierung komp
 - **Sebrowitz_Jurkovic_Dusan_Sebrowitz** — Dusan Jurkovic; «Sebrowitz» doppelt und ungeklaert. Slug bereinigen?
 - **Seilerlinhard_Architekten** — korrekt Seiler Linhart (Luzern), CamelCase ohne t. Umbenennung?
 - **Semadenin Armon Architekten** — korrekt Armon Semadeni Architekten (Zuerich). Umbenennung?
-- **Sergison_Bates_Dublin** — Zusatz «Dublin» ungeklaert (Buero sitzt in London und Zuerich). Praezisieren?
+- **Sergison_Bates_Dublin** — Zusatz «Dublin» ungeklaert (Buero sitzt in London und Zuerich). Praezisieren? **RECHERCHIERT 27.07.2026 (Nachtschicht Mac Mini):** aktuelle offizielle Quellen (sergisonbates.com, Wikipedia) fuehren nur London und Zuerich als Buerostandorte (Brussels moeglicherweise frueher); ein Dublin-Standort ist nicht belegt. Zusatz «Dublin» bezieht sich damit vermutlich auf ein konkretes Projekt im Ordnerinhalt, nicht auf einen Buerositz — Ordnerinhalt sichten, bevor umbenannt wird.
 - **ShOP** — korrekt SHoP Architects. Normierung?
 - **Siza_Vieira_Àlavaro_Leite** — Akzent-Schreibfehler («Àlavaro»); Inhalt Casa Tolo stammt vom Sohn Alvaro Leite Siza Vieira, also KEIN reiner Doppelordner zu Siza_Alvaro_Vieira. Kennzeichnen und Slug normieren?
 
@@ -243,8 +243,8 @@ Stand: 2026-07-03, Erstausgabe plus Chargen 1/6 bis 6/6 — Erstkuratierung komp
 - **Vinci_Leonardo_da / Da_Vinci_Leonardo** — Doppelordner (Chargen 6 und 1). Zusammenfuehren?
 - **Van_Gerkan_Meinrad / Gerkan** — korrekt Meinhard von Gerkan (gmp); Doppel zum Merkposten Gerkan (Charge 2). Zusammenfuehren und normieren?
 - **Yorke_Breuer / Yorke_Francis_Reginald_Stevens_1906_1962 / Breuer_Marcel** — drei Ordner zum Umfeld F. R. S. Yorke; Verhaeltnis kennzeichnen (Partnerschaft 1935 bis 37 vs Einzelwerke).
-- **Studio_Mumbai_Betoi** — Zusatz «Betoi» ungeklaert (Gruender heisst Bijoy Jain). Slug bereinigen?
-- **Sofaloung_Pinar_Goeunuel** — korrekt sofalounge AG Hochdorf; Personenname im Slug (Pinar Goenuel?) klaeren.
+- **Studio_Mumbai_Betoi** — Zusatz «Betoi» ungeklaert (Gruender heisst Bijoy Jain). Slug bereinigen? **RECHERCHIERT 27.07.2026 (Nachtschicht Mac Mini):** keine Quelle zu einem Projekt/Begriff «Betoi» bei Studio Mumbai/Bijoy Jain gefunden. Bleibt ungeklaert; vermutlich ordnerinhalt-spezifisch (Projekt- oder Ortsname) — Ordnerinhalt sichten noetig, nicht websuchbar.
+- **Sofaloung_Pinar_Goeunuel** — korrekt sofalounge AG Hochdorf; Personenname im Slug (Pinar Goenuel?) klaeren. **RECHERCHIERT 27.07.2026 (Nachtschicht Mac Mini):** bestaetigt. Sofalounge AG Hochdorf ist die Vorgaengerfirma von blgp architekten AG (Hochdorf/Luzern), gegruendet 2007 von Pinar Goenuel (korrekte Schreibweise Pinar Gönül) und Lukas Bucher. Slug-Praezisierung moeglich: Sofalounge_Pinar_Goenuel, Verweis dass das Buero heute unter blgp architekten AG firmiert. Quelle: moneyhouse.ch/de/list/person/goenuel-pinar, blgp-architekten.ch/buero.
 - **Speer_Alfred** — korrekt Albert Speer. Umbenennung?
 - **Spielmann_Echsel** — vermutlich Spillmann Echsle (Zuerich). Umbenennung?
 - **Stauffer_Hasler** — das Buero schreibt sich Staufer & Hasler (ein f). Umbenennung?
@@ -277,7 +277,7 @@ Stand: 2026-07-03, Erstausgabe plus Chargen 1/6 bis 6/6 — Erstkuratierung komp
 - **Boli** — kein Architekt: Artikel zum Velux-Studentenpreis von Bo Li und Ge Men. Umwidmen oder loeschen?
 - **Caruso** — Inhalt ist der Reader/das Lehrmaterial der ETH-Professur Adam Caruso plus Bremen Landesbank; gehoert wohl in den Ordner Caruso_St_John. Zusammenfuehren?
 - **Caminada_Marco** — ETH-Studienarbeiten (HS14/FS15, Professur Maerkli); wirkt wie persoenliche Studiensammlung analog Back_Lukas. Wer ist Marco Caminada im JANS-Kontext?
-- **Don_Fabio** — 39 Bilder in generischer Struktur ohne Dokumente; Zuordnung ungeklaert (Tessiner Architekt Fabio Don?).
+- **Don_Fabio** — 39 Bilder in generischer Struktur ohne Dokumente; Zuordnung ungeklaert (Tessiner Architekt Fabio Don?). **RECHERCHIERT 27.07.2026 (Nachtschicht Mac Mini):** es existiert ein realer Architekt Fabio Don (*1982 Udine, ETH-Abschluss 2009, eigenes Buero seit 2009 in ZUERICH statt Tessin) — Fokus Schnittstelle Entwurf/Fotografie, Lehre/Forschung, mehrere Ausstellungsbeteiligungen (Rotterdam-Biennale 2005, Milan Design Week 2011-15 u.a.). Die urspruengliche Vermutung «Tessiner Architekt» ist damit widerlegt: gemeint ist der Zuercher Fabio Don. Quelle: fabiodon.com, architectuul.com/architect/fabio-don.
 - **Deplazes_Andrea** — 501 Dokumente, ueberwiegend ETH-Vorlesungs-/Uebungsunterlagen Architektur und Konstruktion; als Lehre-Archiv fuehren, Bauten stehen teils doppelt zu Bearth_Deplazes.
 - **Celsing_Peter** — enthaelt Ordner «00 unklar» und das Fremdprojekt «BENGT LINDROOS church»; bei Gelegenheit sichten und trennen.
 - **Bofill_Ricardo** — Unterordner «showarch» und «Nicaragua Calle» unklar; sichten.

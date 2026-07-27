@@ -4,6 +4,21 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-07-27 — Sechs offene Identitaets-Fragen aus QUESTIONS.md recherchiert (Mac Mini Nachtschicht)
+Kleiner, budgetdisziplinierter Recherche-Block (kein Fan-out, sechs WebSearches) zu
+Sektion 1/2 der QUESTIONS.md: **AASZ** (Kuerzel bleibt ungeklaert, Wettbewerbe Gockhausen/
+Hittnau lieferten keinen Treffer), **Herter_Hermann_Meilard_Robert** (bestaetigt: Stadtbaumeister
+Hermann Herter + Ingenieur Robert Maillart, mehrfache Zusammenarbeit Hallenbad Zuerich/
+Musikpavillon Sihlhoelzli/Regierungsgebaeude Herisau), **Sergison_Bates_Dublin** (kein Dublin-
+Buero belegt, nur London+Zuerich — Zusatz vermutlich Projektbezug, nicht Buerositz),
+**Studio_Mumbai_Betoi** (kein Treffer zu «Betoi», bleibt ungeklaert), **Don_Fabio** (realer
+Architekt Fabio Don identifiziert, Buero aber in Zuerich statt Tessin — urspruengliche Vermutung
+widerlegt), **Sofaloung_Pinar_Goeunuel** (bestaetigt: Vorgaengerfirma von blgp architekten AG,
+Gruenderin Pinar Gönül). Alle sechs Funde direkt in `wiki/QUESTIONS.md` mit Quellenangabe
+ergaenzt (drei Vollklaerungen, zwei dokumentierte Negativ-Befunde, eine Teilklaerung/Korrektur).
+Keine Ordnerumbenennung vorgenommen (braucht Freigabe gemaess KB-Kopfzeile). Kein Git ueber
+SMB, kein Fan-out, sechs WebSearches — Budget ca. 1.10 USD von 5 USD.
+
 ## 2026-07-25 — Batch-Lauf Nr. 2 (leer, 14. Mal in Folge, ausserhalb Zeitfenster) + Vektorindex neu (Mac Mini)
 Batch 25, 13:26 — zweiter Lauf desselben Tages, ausserhalb des Nachtfensters 22:00–06:00.
 Faellt zeitlich mit der Wiederaufnahme des VOLLGAS-Runners nach Drosselaufhebung zusammen

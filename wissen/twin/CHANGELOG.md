@@ -4,6 +4,21 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-27 — `twin-mail-training` (Batch 79, Rueckwaerts-Sweep mail@raphaeljans.ch).**
+  Vorwaerts-Sweep-Zeiger auf rj@ (ab 15:10:54Z) und mail@ (ab 17.07.) erneut bestaetigt leer
+  (CLI-Check aktuell 18:25 UTC). Gemaess Methodik-Empfehlung aus Fidelity-Runde 260727j stattdessen
+  historisches mail@-Konto systematisch rueckwaerts gesichtet (nur 45 Sent-Items insgesamt, seit
+  2025-07-09) — nahezu vollstaendig gesichtet. Zwei neue Golds destilliert: Sie-Mail an UBS-Banker
+  Jeckelmann (27.06., Firmengruendung; NEUER FUND: definitiver Name **"Raphael Jans AG"** statt
+  "JANS AG") und Fuenf-Mail-Englisch-Thread mit Webfreelancer Hleb (04.–09.02., Website-Neuaufbau,
+  Referenz herzogdemeuron.com). **Echo-Falle, 9. Beleg** (erstmals rein inhaltlich/strukturell
+  statt formatbasiert: durchkomponierter Englisch-Essay mit Frage-Antwort-Kapstonen im selben
+  Thread) von Stilquelle ausgeschlossen. Vier neue Marker-Bloecke in stimme.md/beziehungsregister.md/
+  fachsignatur.md/arbeitsweise.md (alle Batch 79). Zwei Trivialfunde geprueft und verworfen (reiner
+  2-Wort-Reply, reiner Forward ohne Eigentext). Register: `raw/_INGESTED.md`. Memory
+  `project_jans_ag_gruendung` sollte den neuen Firmennamen nachziehen (ausserhalb dieses KB-Batches).
+  Naechste Rueckwaerts-Fenster gemaess Empfehlung: rj@ Luecken Sept–Dez 2025 und Feb–Jun 2026.
+
 - **2026-07-27 — `twin-fidelity-review` (Runde 260727j, zehnter Lauf des Tages, Rueckwaerts-
   Sweep widerlegt „Material erschoepft").** Lauf i (19:35) hatte die Erschoepfung nur fuer den
   inkrementellen Vorwaerts-Sweep (neues Material seit dem letzten Sweep-Endpunkt) empirisch

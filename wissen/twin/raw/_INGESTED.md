@@ -250,3 +250,39 @@ HLKS Elektro...") und wurde damit zwingend schon in einem frueheren sequenzielle
 mail@raphaeljans.ch: 0 Mails ueberhaupt. **Fazit: kein destillierbares Material in diesem Lauf.**
 Keine Wiki-Edits, keine neue Metrik. Bestaetigt unabhaengig den bereits im Fidelity-Review
 `outputs/2026-07-27i_fidelity_material-erschoepft.md` dokumentierten Erschoepfungszustand. |
+
+| `260727-mailbatch-79.md` | **Rueckwaerts-Sweep mail@raphaeljans.ch** (Methodik-Korrektur aus
+`../outputs/2026-07-27j_fidelity.md`: Vorwaerts-Sweep-Zeiger auf beiden Konten bestaetigt leer,
+das historische mail@-Konto aber nur punktuell gezogen). mail@ hat insgesamt nur 45 Sent-Items
+je (2025-07-09 bis 2026-07-17), fast vollstaendig chronologisch gesichtet: Grossteil Unsubscribe/
+System-/Forward-Rauschen ohne Eigentext (u.a. Taxi-Fwd, Wiesenmuehle-Hotelanfrage, Save-the-Date-
+Fwds, TextFuse/HUB12-Threads) sowie zwei geprueft-und-verworfene Trivial-Funde («Super! Thx» an
+Peter Weisser 09.07.2025 = reiner 2-Wort-Reply, kein neuer Marker; Fwd Wartstrasse-8-Auflagen-
+bereinigung 22.12.2025 = reiner Forward ohne Eigentext). Zwei ergiebige, bisher unbearbeitete
+Fenster destilliert: (1) Sie-Mail an UBS-Banker Bruno Jeckelmann (27.06.2026, Kapitaleinzahlungs-
+konto Firmengruendung) — NEUER FUND: definitiver Firmenname ist **"Raphael Jans AG"** (nicht "JANS
+AG", vgl. Memory `project_jans_ag_gruendung`), Vollliberierung CHF 100'000, Einzahlung Mitte
+August 2026 geplant. (2) Fuenf-Mail-Englisch-Thread mit Webfreelancer Hleb P. (04.–09.02.2026,
+Website-Neuaufbau nach Malware-Vorfall, Referenz herzogdemeuron.com, Fixpreis USD/EUR 500,
+Zugangsdaten-Uebergabe Hostpoint). **Echo-Falle, 9. Beleg (neu: rein inhaltlich/strukturell statt
+formatbasiert erkannt):** eine Antwortmail im Hleb-Thread (05.02.2026, langer Englisch-Essay mit
+Frage-Antwort-Kapstonen "Why this is expensive/not complex", Architektur-Analogie, Merksatz-
+Zweizeiler) trägt alle Merkmale von Claude-Grundtext, faellt zeitlich in dasselbe Fenster wie der
+erste bestaetigte Claude-Fund in rj@ (Batch 26, Anfang Februar 2026) — von Stilquelle
+ausgeschlossen, umrahmende Mails (Erstanfrage, Credentials-Mails, Ultrakurz-Frage "Hlep"/"reseave")
+bleiben authentisch. Mikro-Metrik ueber die UBS-Mail (170 W, stilmetrik.py): Tausender-Apostroph
+2×, Satzlaenge ø 13.1 W, Anrede "Sehr geehrter Herr" 1×, Gruss "Freundliche Gruesse" 1× (Englisch-
+Thread nicht metrisierbar, deutsches Tool). | authentisch (UBS-Mail + 4 von 5 Hleb-Mails; 1
+Hleb-Antwortmail = `claude-aera`-aequivalent) | ja (stimme **neu** Batch 79 Englisch-
+Flüchtigkeitstipfehler + Echo-Falle 9; beziehungsregister **neu** Mappings Hleb P./Bruno
+Jeckelmann + Firmennamen-Korrektur; fachsignatur **neu** Firmengruendungs-Fachvokabular
+Vollliberierung/Kapitaleinzahlungsbescheinigung + Design-Referenz-Vorbild ausserhalb Architektur;
+arbeitsweise **neu** proaktives Konto-Anstossen vor Termin + Referenz-Benchmark statt Lastenheft +
+wiederverwendete Credentials-Uebergabe-Formel) |
+
+**Methodischer Hinweis fuer Folgelaeufe:** mail@raphaeljans.ch ist mit diesem Batch nun nahezu
+vollstaendig gesichtet (nur noch reines System-/Unsubscribe-Rauschen unbearbeitet, kein weiteres
+destillierbares Material erwartet). Naechste Rueckwaerts-Fenster gemaess Empfehlung 260727j:
+`rj@` Sept–Dez 2025 in Luecken pruefen, `rj@` Feb–Jun 2026 in Luecken pruefen (trotz durchgehender
+Batch-Nummerierung moeglich, dass einzelne Tage/Threads beim sequenziellen Sweep uebersprungen
+wurden, vgl. den Fidelity-Fund vom 11.08./14.08.2025).
