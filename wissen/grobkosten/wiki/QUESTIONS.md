@@ -2,6 +2,34 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-07-27 — Trainings-Run 11: letzte offene `AR`-Bibliothek geprüft (leer), Brassel-Nebenfund als Fremdmandat geschlossen — autonome Exploration erschöpft
+
+- **`AR - 06 Referenzen` (letzte aus Run 5 als noch offen benannte `AR`-Bibliothek):** auf dieser
+  Station komplett leer (nur `.DS_Store` + OneDrive-interne Marker-Datei, keine Projektordner).
+  Kein Fund möglich.
+- **Brassel-Archiv-Nebenfund aus Run 10 abschliessend geklärt:** Die Kontaktliste zu
+  `201210_HARDSTRASSE_7` (`Kontakte/Kontakliste Hardstrasse 7.pdf`) weist Brassel Architekten
+  (nicht JANS) als Funktion "Architektur" aus. Das gesamte `_Archiv/Brassel_Architekten/`-Verzeichnis
+  ist damit als **Fremdmandat** eingeordnet (JANS lieferte mutmasslich stundenbasierte Zuarbeit,
+  siehe Stundenabrechnungs-Korrespondenz in anderen Unterordnern) — keine JANS-eigenen
+  Gebäude-Kostendaten. Die dortigen BKP-Dokumente sind zudem ein Fitout-Modul (Bakery/Café),
+  kein Gesamtgebäude-GV. Doppelt ausserhalb des Scopes dieser KB.
+- **Damit sind alle in Run 5/6 identifizierten SharePoint-Bibliotheken vollständig gesichtet**
+  (`AR - 01` bis `AR - 07`, `IMMO - 01/02/03/05/06`, zweite SharePoint-Bibliothek
+  `...-RaphaelJans-ArchitektenETH`). Die autonome Exploration der bekannten Struktur ist damit
+  absehbar erschöpft — ein weiterer reiner Bibliotheks-Sweep verspricht keinen neuen Ertrag mehr.
+- **Empfehlung für Run 12 (geändert gegenüber bisherigem Muster):** NICHT erneut dieselben
+  Bibliotheken durchsuchen. Stattdessen: (a) Frage 1 (BKP-1-9-vs-1-5-Bezeichnung, betrifft Wald
+  Haselstudstrasse + Pre-Check-Tool-Familie) und Frage 2 (Standard-Klassifikation "norm,
+  eloquent" mutmasslich Vorlagentext, betrifft Haus Deuber + Reckholdern) als konkrete,
+  beantwortbare Rückfragen an Raphael Jans vorbereitet halten für den nächsten interaktiven
+  Kontakt (nicht autonom in diesem Loop stellbar); (b) alternativ auf einen Ereignis-Trigger
+  warten (neuer Kostenstand aus `kostenkontrolle` bei einem laufenden Mandat, z.B. KISPI/
+  Albertstrasse/Thalwil, sobald dort Ist-Kosten mit GV-Bezug vorliegen) statt weiter zu zyklieren.
+  Dies deckt sich mit der in `training/PROGRAMM.md` beschriebenen Endbedingung: das Inventar ist
+  faktisch ausgeschöpft, auch wenn `wiki/kennwerte.md` noch keine "belegt (n=…)"-Reife erreicht
+  hat — die Blocker sind jetzt strukturell (Frage 1/2), nicht mehr Materialmangel.
+
 ## 2026-07-27 — Trainings-Run 10: `AR - 02/04/05` gesichtet, Frage 1 + 2 weiterhin ungelöst — neuer Fund, aber anderer Blocker
 
 - **Befund:** Die drei letzten aus Run 5 benannten SharePoint-Bibliotheken (`AR - 02

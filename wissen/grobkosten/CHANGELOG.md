@@ -1,5 +1,31 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-27 — Trainings-Run 11 (letzte offene `AR`-Bibliothek geprüft, Brassel-Nebenfund geschlossen — autonome Exploration erschöpft)
+
+- Kollisionscheck via `ps`/`PPID`-Abgleich: einziger Treffer war die eigene Parent-Instanz,
+  keine echte Zweitinstanz auf diesem Host.
+- Gemäss Empfehlung aus Run 10: (1) `AR - 06 Referenzen` (letzte noch ungeprüfte
+  `AR`-Bibliothek) gesichtet — auf dieser Station komplett leer (nur `.DS_Store`/OneDrive-
+  Marker, keine Projektordner/Dateien synchronisiert). (2) Der in Run 10 zurückgestellte
+  Brassel-Archiv-Nebenfund (`AR - 04 Honorarauftraege/_Archiv/Brassel_Architekten/
+  201210_HARDSTRASSE_7`) geprüft: die Kontaktliste weist Brassel Architekten (nicht JANS) als
+  Architekt des Projekts aus — Fremdmandat, JANS lieferte mutmasslich nur stundenbasierte
+  Zuarbeit. Die BKP-Dokumente sind zudem ein Fitout-Modul (Bakery/Café), kein Gesamtgebäude-GV.
+  Doppelt nicht verwertbar; keine weitere Prüfung der übrigen Brassel-Unterordner nötig.
+- Kein neuer Rohbeleg, kein neuer Kennwert in diesem Lauf.
+- **Strukturelle Einordnung:** Damit sind alle in Run 5/6 identifizierten SharePoint-
+  Bibliotheken (`AR - 01` bis `AR - 07`, `IMMO - 01/02/03/05/06`, zweite Bibliothek
+  `...-RaphaelJans-ArchitektenETH`) vollständig gesichtet. Die autonome Exploration der
+  bekannten Struktur ist erschöpft — Frage 1 (BKP-1-9-vs-1-5) und Frage 2 (Standard-
+  Klassifikation) bleiben die einzigen verbleibenden Blocker für eine MFH-Median-Bildung,
+  nicht mehr Materialmangel.
+- Register nachgeführt: `training/quellen-inventar.md` (Run-11-Abschnitt), `wiki/QUESTIONS.md`
+  (neuer Eintrag, geänderte Empfehlung: keine weitere Bibliotheks-Suche mehr), `wiki/kennwerte.md`
+  (Provenienz-Bullet), `wiki/INDEX.md`. Lauf-Report: `outputs/2026-07-27_grobkosten-run11.md`.
+- **Empfehlung für Run 12:** kein weiterer Bibliotheks-Sweep. Stattdessen Frage 1/2 als
+  konkrete Rückfrage an Raphael Jans vorbereitet halten (nicht autonom stellbar) oder auf einen
+  Ereignis-Trigger warten (neue `kostenkontrolle`-Ist-Kosten eines laufenden Mandats).
+
 ## 2026-07-27 — Trainings-Run 10 (fünfte/sechste/siebte Quelle: `AR - 02/04/05` gesichtet)
 
 - Kollisionscheck via `ps`/`PPID`-Abgleich: einziger Treffer war die eigene Parent-Instanz,

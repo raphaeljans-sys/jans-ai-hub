@@ -41,6 +41,13 @@ Steinkogler, Haus «Le Mélèze» Davos) — aber mit grundsätzlich anderer Met
 (Eingriffstiefen-Bandbreiten S/M/L/XL statt GV x Kennwert, kein m³-Bezug im Dokument), daher
 nicht in die Haupttabelle promoviert. Löst weder Frage 1 noch Frage 2. Damit sind alle fünf
 in Run 5 benannten Bibliotheken gesichtet; einzige noch offene `AR`-Bibliothek ist
-`AR - 06 Referenzen`.
+`AR - 06 Referenzen`. Run 11 prüft diese letzte Bibliothek (auf dieser Station leer) und
+klärt den Run-10-Nebenfund abschliessend als Fremdmandat (Brassel Architekten, nicht JANS)
+ab — kein neuer Kennwert. Damit sind alle bekannten SharePoint-Bibliotheken (`AR - 01` bis
+`AR - 07`, `IMMO - 01/02/03/05/06`, zweite Bibliothek) vollständig gesichtet; die autonome
+Exploration ist erschöpft. Frage 1 (BKP-1-9-vs-1-5) und Frage 2 (Standard-Klassifikation)
+bleiben der alleinige Blocker für eine MFH-Median-Bildung — Klärung nur noch durch Rückfrage
+an Raphael Jans oder einen neuen Ereignis-Trigger (`kostenkontrolle`-Ist-Kosten laufender
+Mandate) möglich.
 
 Offene Fragen / Lücken: siehe [QUESTIONS.md](QUESTIONS.md).

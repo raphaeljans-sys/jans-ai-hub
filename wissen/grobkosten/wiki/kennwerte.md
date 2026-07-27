@@ -1,7 +1,7 @@
 ---
 title: Grobkosten-Kennwerte (CHF/m³ GV, BKP 1–5)
 status: emerging
-last_updated: 2026-07-27 (Run 9)
+last_updated: 2026-07-27 (Run 11)
 sources: [skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md, wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro, raw/2414-thalwil.md, raw/2518-grubenackerstrasse.md, raw/2515-wartstrasse.md, raw/2202-ackersteinstrasse.md, raw/2304-reckholdern.md, raw/kennwerte-jans-referenzdokument.md, raw/8155-niederhasli-seestrasse64.md, raw/2001-haus-deuber-thalwil.md, raw/2411-wald-haselstudstrasse.md, raw/2412-ebmatingen-grossacher.md, raw/2305-waedenswil-precheck.md, raw/2620-albertstrasse.md, raw/zuercher-index-wohnbaukosten-1939-2025.md]
 links: []
 ---
@@ -366,3 +366,10 @@ kennwerte bleibt diese KB; energie liefert nur die Detail-/Betriebskosten (Wisse
   Frage 1 (BKP-1-9-vs-1-5) und Frage 2 (Standard-Klassifikation) bleiben der Blocker für eine
   MFH-Median-Bildung. Details: Abschnitt "Run 9" oben, kein neuer `raw/`-Beleg (reine
   Ableitung aus bereits vorliegenden Quellen).
+- Run 11 (27.07.2026): letzte offene `AR`-Bibliothek (`AR - 06 Referenzen`) geprüft — auf
+  dieser Station leer. Brassel-Archiv-Nebenfund aus Run 10 abschliessend als Fremdmandat
+  geklärt (Brassel Architekten ist Architekt des Projekts, nicht JANS) und zusätzlich als
+  Fitout-Modul ausserhalb des GV-Scopes. Kein neuer Kennwert. Damit sind alle bekannten
+  SharePoint-Bibliotheken gesichtet — Frage 1 und Frage 2 (`wiki/QUESTIONS.md`) bleiben die
+  einzigen verbleibenden Blocker für eine MFH-Median-Bildung, nicht mehr Materialmangel.
+  Details: `training/quellen-inventar.md` Abschnitt "Run 11", kein neuer `raw/`-Beleg.
