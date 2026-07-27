@@ -2,6 +2,31 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-07-27 — Trainings-Run 18: siebter Sättigungsbeleg in Folge, bewusst KEIN erneuter Sweep
+
+- Kollisionscheck (`ps`, Rule 260724): einziger Treffer die eigene Prozessinstanz. Lauf
+  begann ~1 Min. nach dem Run-17-Commit (13:26:11).
+- **Bewusst kein erneuter Bibliotheks-/Ereignis-Trigger-Sweep:** Run 17 hat sowohl den
+  kanonischen Quellpfad (`04_Buero/02_Projekte`) als auch den `kostenkontrolle`-Ereignis-
+  Trigger bereits geprüft (null Treffer, Freshness-Filter `-newermt "2026-07-25"`). Ein
+  identischer Re-Check eine Minute später würde garantiert dasselbe Nullergebnis liefern —
+  das widerspricht der eigenen Leitplanke «Kein Leerlauf-Zwang», die auch für wiederholte
+  Prüfungen ohne Erkenntnisgewinn gilt, nicht nur für erfundene Kennwerte.
+- **Registerpflege statt Sweep:** `wiki/INDEX.md` war seit Run 14 nicht mehr nachgeführt
+  (Zusammenfassung endete bei Run 14, Run 15-17 fehlten) — nachgetragen.
+- Keine neue Inhaltsfrage. Frage 1 (BKP-1-9-vs-1-5) und Frage 2 (Standard-Klassifikation
+  "norm, eloquent") bleiben ausschliesslich durch Raphael Jans direkt oder neues, real
+  abgelegtes Material lösbar — beide sind auf Formel-Ebene (Run 13/14) bereits maximal
+  zugespitzt, eine weitere Vertiefung ohne neue Quelle bringt nichts.
+- **Sieben aufeinanderfolgende Läufe (12-18) ohne neuen Kennwert** in weniger als 40 Minuten
+  Realzeit (12:57-13:27 Uhr) bestätigen den in Run 15/16 gemeldeten Taktungsfehler
+  (VOLLGAS-Runner feuert diesen Loop im Minutenabstand statt gemäss `cron_target: "0 9,21
+  * * *"`). Diese Empfehlung liegt jetzt viermal identisch vor (Run 15, 16, 17, 18) und
+  wiederholt sie hier ein letztes Mal explizit: **kein weiterer grobkosten-Run vor entweder
+  (a) einer Antwort von Raphael zu Frage 1/2, oder (b) einem neuen, tatsächlich abgelegten
+  Kostenstand mit GV-Bezug** — bis dahin liefert jeder weitere Zyklus nur identische
+  Nullbefunde bei realem Budget-/Zeitverbrauch. Details: `outputs/2026-07-27_grobkosten-run18.md`.
+
 ## 2026-07-27 — Trainings-Run 17: sechster Sättigungsbeleg in Folge (Run 12–17), Freshness-Check jetzt auf kanonischem Quellpfad
 
 - Lauf begann ~4 Min. nach dem Run-16-Commit. Kein Bibliotheks-/Formel-Sweep wiederholt.

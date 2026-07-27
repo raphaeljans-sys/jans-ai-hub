@@ -1,3 +1,21 @@
+## 2026-07-27 — Run 30: PL-03-Bookkeeping korrigiert, Lignum-Unterordner destilliert+verifiziert
+- **Stale Handlungsbedarf behoben:** BRL 13-15/14-15-Re-Destillation in `norm-inventar.md` war
+  bereits seit Run 23/24 (25.07.) erledigt, aber im PL-03-Abschnitt (aufgenommen 26.07.) nicht
+  nachgetragen — korrigiert.
+- **PL-03-Unterordner 01/03/04/05 (26 Dateien):** MD5-Abgleich bestaetigt vollstaendige Identitaet
+  mit bereits destillierten PL-02-Kopien; 0 neue Destillate noetig. Einzige Abweichung
+  `1001-15_Wohnbauten.pdf` (29 vs. 27 S.) aufgeklaert (bereits destillierter BRL-16-15-Inhalt);
+  separates "Auszug"-Dokument (Stand 2018) Zeile-fuer-Zeile gegen `vkf-ah-1001-15-wohnbauten.md`
+  verglichen: 0 Abweichungen, Destillat-Frontmatter cross-verifiziert ergaenzt.
+- **PL-03-Unterordner 06 Lignum Brandschutz:** genuin neue Quelle (kein PL-02-Gegenstueck), 3
+  Dokumente destilliert (siehe Eintraege unten) + je 1 unabhaengiger Refuter-Agent: 13 Befunde
+  total, alle korrigiert, alle 3 bleiben `speculative`. `Erdbebengerechte_Holzbauten_d.pdf`
+  bewusst nicht destilliert (kein Brandschutzinhalt).
+- **Bring-Schulden SIA 491 / SN EN 12193:** erneut in PL-02+PL-03 gesucht, weiterhin nicht
+  vorhanden — bleibt externe Bring-Schuld.
+- Details: `training/norm-inventar.md` (Run-30-Kopfeintrag), `wiki/QUESTIONS.md` (Run-30-Abschnitt),
+  Report `outputs/2026-07-27_normen-nacht-run30.md`.
+
 ## 2026-07-27 — Reconcile: kein Kollisionsfall, alle drei Lignum-Destillate gehoeren zu Run 30
 
 Die beiden folgenden Eintraege (Lignum 4.1, Lignum 4.2) sowie das separat destillierte

@@ -1,5 +1,15 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-27 — Trainings-Run 18 (kein neuer Kennwert, siebter Sättigungsbeleg in Folge, bewusst kein erneuter Sweep)
+
+- Kollisionscheck (`ps`) sauber, kein Zweitlauf. Bewusst KEIN Bibliotheks-/Ereignis-Trigger-
+  Sweep wiederholt (Run 17 hatte kanonischen Quellpfad + `kostenkontrolle`-Trigger bereits
+  eine Minute zuvor mit Nullbefund geprüft — Wiederholung widerspricht «Kein Leerlauf-Zwang»).
+- `wiki/INDEX.md` nachgeführt (Zusammenfassung fehlte für Run 15-17).
+- Neue `QUESTIONS.md`-Eintrag verdichtet die vier identischen Taktungs-Empfehlungen (Run
+  15-18) zu einer letzten, expliziten Schlussfolgerung: kein weiterer Run vor Antwort
+  Raphaels zu Frage 1/2 oder neuem Ereignis-Trigger. Details: `outputs/2026-07-27_grobkosten-run18.md`.
+
 ## 2026-07-27 — Trainings-Run 17 (kein neuer Kennwert, sechster Sättigungsbeleg in Folge, jetzt auf kanonischem Quellpfad bestätigt)
 
 - Kollisionscheck via `ps`: einziger Treffer die eigene Prozessinstanz. Lauf begann ~4 Min.

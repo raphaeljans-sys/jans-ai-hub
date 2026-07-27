@@ -60,6 +60,13 @@ Faktor 1.13 ausschliesslich BKP 2 skaliert, ohne Rechenschritt für BKP 6-9 — 
 ungelöst, ist aber zu einer präzisen Ja/Nein-Rückfrage an Raphael zugespitzt. Run 14 bestätigt
 denselben Formelbefund unabhängig an den beiden **projekteigenen** Wald-Haselstudstrasse-
 Exceldateien (nicht nur am Master-Template) — schliesst die Beweiskette, löst Frage 1 aber
-weiterhin nicht autonom. Kein neuer Kennwert seit Run 11.
+weiterhin nicht autonom. Kein neuer Kennwert seit Run 11. Run 15-17 bestätigen die Sättigung
+ein zweites, drittes und viertes Mal (Taktungshinweis: der VOLLGAS-Runner feuert diesen Loop
+im Minutenabstand statt gemäss `cron_target`; Run 17 prüft zusätzlich den kanonischen
+Quellpfad `04_Buero/02_Projekte` selbst sowie den `kostenkontrolle`-Ereignis-Trigger, beide
+null Treffer). Run 18 wiederholt bewusst KEINEN der bereits mehrfach negativ geprüften Sweeps
+(Rule «Kein Leerlauf-Zwang» gilt auch für Wiederholungsprüfungen ohne Erkenntnisgewinn) und
+erklärt die formale Sättigung ein siebtes Mal in Folge (Run 12-18) — Frage 1/2 bleiben der
+einzige verbleibende Blocker.
 
 Offene Fragen / Lücken: siehe [QUESTIONS.md](QUESTIONS.md).

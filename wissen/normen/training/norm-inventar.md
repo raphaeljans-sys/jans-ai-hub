@@ -16,7 +16,13 @@
   verifiziert. (4) Unterordner `06 Lignum Brandschutz` hat KEIN PL-02-Gegenstueck (genuin neue
   Quelle): 3 Bild-Scan-Dokumente ohne Textlayer visuell destilliert (`lignum-4-1-decken-waende-
   bekleidungen-feuerwiderstand.md` 40 S., `lignum-4-2-anschluesse-feuerwiderstand.md` 33 S.,
-  `lignum-lignatec-brandschutz.md` 12 S.), anschliessend 3 unabhaengige Refuter-Agenten verifiziert.
+  `lignum-lignatec-brandschutz.md` 12 S.), anschliessend je 1 unabhaengiger Refuter-Agent pro
+  Dokument verifiziert: **13 Befunde total** (9 bei Lignum 4.1 — u.a. Fugentyp Wand/Decke
+  vertauscht, REI60↔REI90-Tabellenverwechslung, R60/EI60-Vertauschung; 2 bei Lignum 4.2 —
+  Situation-1-Zuordnung Abb.320-1, Literaturzaehlfehler 8→9; 2 bei Lignatec — nbb-Suffix
+  faelschlich auch auf R30 angewendet, R30/R60-Geschosszahl-Verwechslung Tab.3), alle direkt
+  korrigiert; alle drei bleiben bewusst `speculative` (kein sauberer Nulldurchgang trotz
+  Vollstaendigkeit, analog SIA D 0165 in Run 29).
   (5) Bring-Schulden SIA 491 / SN EN 12193 (KB `baurecht`) erneut geprueft: in PL-02 UND PL-03
   weiterhin nicht vorhanden — bleibt externe Bring-Schuld (SIA-Shop-Kauf noetig), keine PL-03-
   Fehlklassierung wie bei den Brandschutz-Dokumenten. Details `CHANGELOG.md`, Verifikations-

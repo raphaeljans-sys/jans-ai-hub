@@ -7,7 +7,7 @@ herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direkto
 ausgabe: "Lignum-Dokumentation Brandschutz, Themenblock 4 «Bauteile in Holz», Publikation 4.1 «Decken, Wände und Bekleidungen mit Feuerwiderstand». Erschienen Mai 2015, Nachdruck/Aktualisierung Oktober 2017. Von der TKB-VKF in Bezug auf Übereinstimmung mit den Mindestanforderungen der Schweizerischen Brandschutzvorschriften VKF, Ausgabe 2015 (BSV 2015), Stand 01.01.2017 geprüft und am 06.09.2017 als «Stand der Technik Papier (STP)» anerkannt. Laut Einleitung (S. 4) weist die vorliegende Publikation gegenüber der Erstausgabe von Mai 2015 in technischer Hinsicht keine relevanten Unterschiede auf; die Erstausgabe kann weiterhin angewendet werden."
 gelesen: "alle 40 Seiten (Teile A+B+C) komplett, Titelblatt/Impressum/Buchrücken eingeschlossen — Bild-Scan ohne Textlayer, visuell erfasst"
 datenstand: "Mai 2015 / STP-Anerkennung 06.09.2017"
-status: "speculative (noch nicht verifiziert)"
+status: "speculative (beanstandet-korrigiert, 9 Befunde bei unabhaengiger Refuter-Pruefung 260727: 2 Zahlen-/Bezeichnungs-Tippfehler, 1 Regel-Vertauschung Wand/Decke bei Fugentypen, 1 unpraezise Fasen-Beschreibung, 3 falsch zugeordnete Repraesentativwerte aus Nachbartabellen, 2 Bandbreiten-Ungenauigkeiten — alle direkt im Destillat korrigiert; Status bleibt speculative bis zweite unabhaengige Pruefinstanz oder Projektabgleich)"
 last_updated: 2026-07-27
 links: [[REGISTER]]
 ---
@@ -657,3 +657,17 @@ ETH Zürich.
   Bild-Scan (keine zweite unabhängige Prüfinstanz); Hebung auf `established` erst nach
   Gegenprüfung einzelner Kennwerte gegen ein konkretes Projekt oder eine zweite Quelle
   (z. B. VKF-Brandschutzregister-Eintrag eines verwendeten Produkts).
+- **Unabhängige Refuter-Pruefung 260727** (gegen die drei Original-Bild-Scans A/B/C, alle
+  40 Seiten erneut gesichtet): Struktur, Seitenzahlen, Kapitelgliederung, Herausgeber-/
+  Autoren-/STP-Angaben, Baustoff-Definitionstabelle 320-1, Glossar und Literaturverzeichnis
+  wurden vollstaendig bestaetigt (0 Abweichungen). In den «repräsentativen
+  Grössenordnungen» (Kap. 4.3/4.4-Bulletpunkte) wurden 9 Befunde gefunden und direkt im
+  Text korrigiert: EI-tt-Bezeichnung (Tab. 232-1), Fasen-Regel Abb. 310-2, Fugentyp-
+  Vertauschung Wand/Decke (Tab. 330-2), ein aus Tab. 431-3 (REI60) statt 431-4 (REI90)
+  eingemischter Balkenquerschnitt, eine Vermischung der Tab. 437-1/437-2-Dimensionen bei
+  Holz-Beton-Verbunddecken, ein vertauschter R60/EI60/REI60-Wert bei einseitig beplankten
+  Ständern (Tab. 441-1), zwei leichte Bandbreiten-Ungenauigkeiten bei mehrlagigen
+  Massivholzplatten (Decken Tab. 436-1, Wände Tab. 446-1/2) und ein Tippfehler VSSM/BSSM
+  im Projektpartner-Verzeichnis. Keine Befunde in den qualitativen/strukturellen Aussagen
+  (Definitionen, Verfahren, Systemzuordnungen) — die Fehler betreffen ausschliesslich
+  Einzelzahlen in den als «nicht zellengenau» deklarierten Kurzfassungen der Katalogtabellen.
