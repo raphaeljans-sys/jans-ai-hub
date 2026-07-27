@@ -9,12 +9,19 @@
   Offerten.
 - Revidiertes Aktienrecht ab 01.01.2023 (Kapitalband, Fremdwährungskapital) —
   [[statuten-ag]], [[kapital-und-liberierung]].
-- Schwellenwerte ordentliche Revision Art. 727 OR — [[revision-und-opting-out]].
 
 ## Cross-Article-Spannungen (worth resolving)
 - Noch keine erfasst.
 
 ## Beantwortete Fragen (Archiv)
+- **Schwellenwerte ordentliche Revision Art. 727 OR (27.07.2026, Nachtschicht-Zyklus Mac
+  Mini):** [[revision-und-opting-out]] direkt am Fedlex-Volltext verifiziert (Filestore-
+  Methode, Stand 01.01.2026). Bestätigt: ordentliche Revisionspflicht ab Überschreiten von
+  zwei der drei Grössen Bilanzsumme CHF 20 Mio. / Umsatzerlös CHF 40 Mio. / 250
+  Vollzeitstellen im Jahresdurchschnitt in zwei aufeinanderfolgenden Geschäftsjahren
+  (Art. 727 Abs. 1 Ziff. 2 OR, unverändert seit Aktienrechtsrevision 2023). Artikel um die
+  konkreten Zahlen ergänzt (vorher nur pauschal referenziert), needs-verification-Flag
+  entfernt.
 - **Verwaltungsrat: Pflichten/Haftung/Konstituierung (25.07.2026, Nachtschicht-Zyklus Mac
   Mini):** Neuer Artikel [[verwaltungsrat]], letzte verbliebene Backlog-Lücke aus dem
   INDEX geschlossen. Kernbefunde primärquellen-belegt (Fedlex-Volltext-Filestore, Methode

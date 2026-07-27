@@ -4,7 +4,11 @@ herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direkto
 ausgabe: "Lignatec 17/2005 «Bauten in Holz – Brandschutz-Anforderungen», erschienen Juni 2005, ISSN 1421-0320; geprüft durch die Technische Kommission der Vereinigung Kantonaler Feuerversicherungen (TKB-VKF) auf materielle Übereinstimmung mit den Schweizerischen Brandschutzvorschriften VKF (Ausgabe 2003, gültig seit 1.1.2005) und als «Stand der Technik» anerkannt"
 gelesen: "alle 12 PDF-Seiten (= gedruckte Seiten 2-24 plus Titelblatt) komplett, Bild-Scan ohne Textlayer, visuell gelesen"
 datenstand: "2005 (Bezug: VKF-Brandschutzvorschriften Ausgabe 2003/gültig ab 1.1.2005) — VERALTET gegenüber der aktuellen VKF-Vorschriftengeneration 2015 (vgl. Destillat vkf-ah-1001-15-wohnbauten.md)"
-status: "speculative (vierte unabhaengige Refuter-Runde 260727, Run 33: BEANSTANDET mit 1 Befund
+status: "speculative (fuenfte unabhaengige Refuter-Runde 260727, Run 34: BEANSTANDET mit 1 Befund
+  — Figur 1 (R/EI/REI-Uebersichtstabelle) ist physisch auf S. 2 platziert, nicht auf S. 3 wie an
+  zwei Stellen des Destillats zitiert (die zugehoerige Textdefinition Ziff. 1.2 steht auf S. 3,
+  daher die urspruengliche Fehlzuordnung); beide Fundstellen korrigiert. Kein Nulldurchgang;
+  Historie davor (vierte unabhaengige Refuter-Runde 260727, Run 33: BEANSTANDET mit 1 Befund
   — Tab. 5 (S. 15), Beschreibung der blau markierten Felder behauptete Geltung 'in ALLEN
   Nutzungszeilen'; tatsaechlich hat die Zeile Wohnbauten EFH/REFH durchgehend KEINE farbig
   markierten Felder (per Pixel-Crop verifiziert), korrigiert auf 'in ALLEN Nutzungszeilen AUSSER
@@ -16,7 +20,7 @@ status: "speculative (vierte unabhaengige Refuter-Runde 260727, Run 33: BEANSTAN
   inkl. ISSN) bei dieser Runde CONFIRMED gegen 400-dpi-Rendering (pdftoppm, eigene Crops). Bleibt
   speculative: (a) noch kein Nulldurchgang erreicht, (b) unabhaengig davon bleibt der
   Aktualitaets-Vorbehalt gegen VKF 2015 bestehen, da die Quelle von 2005 ist. Historie: Run 30/31/32
-  (alle 260727) BEANSTANDET mit vielen/17/1 Befunden, Details Rules-Archiv bzw. vorherige Commits.)"
+  (alle 260727) BEANSTANDET mit vielen/17/1 Befunden, Details Rules-Archiv bzw. vorherige Commits.))"
 last_updated: 2026-07-27
 links: [[REGISTER]], [[vkf-ah-1001-15-wohnbauten]]
 ---
@@ -74,7 +78,8 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
   bestimmtes Mass beschränkt (Isolation/Wärmedämmung).
 - R = tragend, nicht brandabschnittbildend (Brandeinwirkung von mehreren Seiten gleichzeitig);
   EI = nicht tragend, brandabschnittbildend (Brandeinwirkung von einer Seite); REI = tragend
-  und brandabschnittbildend (Brandeinwirkung von einer Seite) (S. 3, Figur 1).
+  und brandabschnittbildend (Brandeinwirkung von einer Seite) (Figur 1, S. 2; Text/Definition
+  dazu auf S. 3, Ziff. 1.2, Refuter-Korrektur 260727 Run 34).
 - Lineare Bauteile (Stützen/Träger) sind i.d.R. tragend und nicht brandabschnittbildend;
   Decken sind i.d.R. tragend UND brandabschnittbildend. R-Bauteile haben andere
   Rahmenbedingungen als EI-/REI-Bauteile, weil der Brand gleichzeitig von mehreren Seiten
@@ -485,9 +490,11 @@ aktuellere Lignum-Publikation zum Holzbau-Brandschutz abzugleichen.
   einzelne Zellen (v.a. Spalten 5-6 und 7-8 Geschosse) klein und teils kontrastarm gedruckt.
   Für ein konkretes Projekt sind die exakten Zellwerte am Original (S. 8-9, 12-13, 15)
   zu verifizieren, nicht allein aus diesem Destillat zu übernehmen.
-- **Grafische Elemente**: Figur 1 (S. 3, Übersicht R/EI/REI) sowie die acht
-  Übersichtsaxonometrien (S. 16-23) sind urheberrechtlich geschützte Zeichnungen (Makiol +
-  Wiederkehr) und werden hier nur textlich beschrieben, nicht reproduziert.
+- **Grafische Elemente**: Figur 1 (S. 2, Übersicht R/EI/REI; physisch auf der Inhaltsseite S. 2
+  unten platziert, die zugehörige Textdefinition in Ziff. 1.2 steht auf S. 3, Refuter-Korrektur
+  260727 Run 34) sowie die acht Übersichtsaxonometrien (S. 16-23) sind urheberrechtlich
+  geschützte Zeichnungen (Makiol + Wiederkehr) und werden hier nur textlich beschrieben, nicht
+  reproduziert.
 - **Verweis auf weitere Lignatec-Ausgaben**: Das Dokument verweist auf drei zum Zeitpunkt der
   Publikation noch ausstehende Lignatec-Hefte («Bauteile in Holz – Brandmauern REI90», Herbst
   2005; «Fassaden in Holz – Brandschutztechnische Konstruktionen», Frühjahr 2006) — ob diese in
@@ -572,3 +579,47 @@ aktuellere Lignum-Publikation zum Holzbau-Brandschutz abzugleichen.
     Runden am selben Tag deutlich gesunken (viele/17/1/1), die verbleibenden Befunde sind
     zunehmend randständig (Legenden-/Vollständigkeits-Präzisierungen statt Zahlendreher in den
     Kern-Feuerwiderstandswerten).
+
+- **27.07.2026, Run 34 (fünfte Runde)**: unabhängiger Refuter, PDF komplett neu mit `pdftoppm`
+  gerendert (200 dpi für den Volltext-Durchgang, 400-600 dpi für Tabelle 3/4/5 und die
+  Axonometrien), pro A3-Doppelseite in Links-/Rechts-Hälfte gesplittet (PIL) und Seite für Seite
+  gegen jede Aussage des Destillats gegengelesen (Frontmatter, alle Kernziffern 1-6, alle drei
+  Kreuztabellen komplett inkl. sämtlicher Fussnoten, alle vier Axonometrie-Doppelseiten,
+  Literatur/Impressum, Titelblatt). Besonderes Augenmerk auf die in Run 32/33 korrigierten
+  Stellen (Tab.-4-Schrägstrich-Wert Wohnbauten MFH 5-6 Geschosse, Tab.-5-Zeile Wohnbauten
+  EFH/REFH) — beide bei 600-dpi-Pixel-Crops erneut unabhängig verifiziert und bestätigt korrekt
+  (keine Regression). Verdikt: **BEANSTANDET, 1 Befund**.
+  - **Befund (leicht, Fundstellen-Ungenauigkeit)**: Figur 1 (die R/EI/REI-Übersichtstabelle mit
+    Illustrationen, Ziff. 1.2) wurde an zwei Stellen des Destillats mit „S. 3" zitiert (Kernziffern-
+    Abschnitt „R/E/I"-Definition und „Offene Punkte"-Abschnitt zu urheberrechtlich geschützten
+    Grafiken). Per Seitenkopf-Kontrolle (400-dpi-Crop des Seitenkopfs „2 Lignatec
+    Brandschutz-Anforderungen" direkt über der Tabelle) verifiziert: Figur 1 ist physisch am
+    unteren Rand von **S. 2** platziert (unterhalb des Inhaltsverzeichnisses), nicht auf S. 3. Die
+    zugehörige Textdefinition/Erläuterung von R/EI/REI in Ziff. 1.2 („siehe Figur 1") steht
+    tatsächlich auf S. 3 — vermutlich Ursache der ursprünglichen Fehlzuordnung in allen vier
+    vorangehenden Runden, die den Verweis „siehe Figur 1" im S.-3-Text als Beleg für den
+    Grafik-Standort nahmen, statt den physischen Ort der Tabelle selbst zu prüfen. In beiden
+    Fundstellen korrigiert auf „S. 2" mit Klarstellung, dass der erläuternde Text auf S. 3 steht.
+  - Gezielt gegengeprüft und bestätigt (0 weitere Befunde): Tab. 3 komplett (beide Doppelseiten-
+    Hälften S. 8-9, alle zehn Nutzungszeilen inkl. Wohnbauten MFH/Beherbergungsbetriebe[a]/
+    EFH-REFH, alle Fussnoten ①-⑤ und [a]-[c]), Tab. 4 komplett (S. 12-13, inkl. der Run-32-
+    Korrekturstelle Wohnbauten MFH 5-6 Geschosse Korridor mit Schrägstrich vs. Sprinkler mit
+    Bindestrich, per 600-dpi-Crop erneut bestätigt, sowie Fussnote ⑥), Tab. 5 komplett (S. 15,
+    inkl. der Run-33-Korrekturstelle Zeile Wohnbauten EFH/REFH komplett farblos, per 600-dpi-Crop
+    von der vollen Zeilenbreite bestätigt, sowie Legende und Aussenwandverkleidung [a] blau/[b]
+    weiss), Ziff. 1.1-1.5 (Tabelle 2 Bezeichnungsfamilien inkl. 30-/60-Minuten-nbb-Abgrenzung und
+    Schrägstrich-/Bindestrich-Kombinationsbezeichnungen, Geschosse/Nutzungen, Standard-/
+    Objektbezogenes Konzept), Ziff. 2.1-2.3 (Tragwerke, Brandabschnittsbegriffe, Anforderungen für
+    bestimmte Nutzungen, Schutzabstände 10/7.5/5 m bzw. EFH 7/6/4 m, Nebenbauten 20 m²), Ziff.
+    3.1.1-3.1.3 (inkl. Verifikation, dass der Brandschutzabschluss-Satz „EI30 bzw. E30" tatsächlich
+    zweimal im Original steht, einmal für Treppenanlagen und einmal für Korridore — keine
+    destillat-seitige Dublette), Ziff. 4.1 (Fussnoten ①-⑥ Wortlaut), alle vier Axonometrie-
+    Doppelseiten 5.1-5.4 (S. 16-23) Zeile für Zeile inkl. Fussnoten */**/*** und des Fachingenieur-
+    Passus mit Literaturverweis [4] auf S. 23, Literatur [1]-[4] und Impressum/ISSN (S. 24),
+    Titelblatt (S. 1, kein Fliesstext, nur Titel/Illustration/SIA-Lignum-Logo, physisch als letzte
+    der 24 gescannten Halbseiten abgelegt).
+  - Kein Nulldurchgang: das Destillat bleibt `status: speculative`. Fünf Runden am selben Tag:
+    viele/17/1/1/1 Befunde — die Fehlerdichte bei den Kern-Feuerwiderstandswerten ist seit Run 32
+    bei null, die verbleibenden Einzelbefunde betreffen ausschliesslich Rand-/Fundstellenpräzision
+    (Legenden-Vollständigkeit, jetzt Seitenzahl-Zuordnung einer Grafik), nicht mehr die technischen
+    Kernaussagen der drei Tabellen oder der acht Axonometrien.

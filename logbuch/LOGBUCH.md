@@ -7,6 +7,15 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-27
 
+**Nachtschicht-Zyklus Mac Mini (18:30-Lauf): QUESTIONS-Punkt `wissen/firmengruendung-ch` geschlossen.**
+Vorlauf-Check (Synobsis Stufe 2 gesaettigt seit 03.07. 853/853, Fristen-Radar tagesaktuell,
+Trainings-CHANGELOGs aller KBs 25.-27.07., wissenscheck aeltestes Audit `baurecht` 22.07.)
+ergab keine groessere faellige Aufgabe im Nachtschicht-Budget; stattdessen den kleinsten
+offenen, klar recherchierbaren Punkt aus einer QUESTIONS.md genommen: Schwellenwerte
+ordentliche Revision Art. 727 OR direkt am Fedlex-Volltext (Filestore-Methode) verifiziert,
+[[revision-und-opting-out]] mit den konkreten Zahlen ergaenzt, needs-verification-Flag
+entfernt, CHANGELOG/QUESTIONS nachgefuehrt.
+
 **Woechentlicher Abo-Auslastungs-Check (Mac Mini) — KEINE MESSUNG MOEGLICH, Ampel ROT
 (Messfehler, nicht Verbrauch); der seit 20.07. offene `/login` ist weiterhin nicht erfolgt.**
 `node connectors/claude-usage.mjs` bricht beim Token-Refresh ab: HTTP 400,

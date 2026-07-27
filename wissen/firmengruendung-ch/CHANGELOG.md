@@ -3,6 +3,20 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-27 — QUESTIONS-Punkt geschlossen: Schwellenwerte Art. 727 OR (Mac Mini Nachtschicht, 18:30-Lauf)
+- [[revision-und-opting-out]] am Fedlex-Volltext (Filestore-Methode, OR-Stand 01.01.2026)
+  verifiziert: Art. 727 OR nennt konkrete Schwellen fuer die ordentliche Revisionspflicht
+  (Bilanzsumme CHF 20 Mio., Umsatzerlös CHF 40 Mio., 250 Vollzeitstellen im
+  Jahresdurchschnitt, zwei von drei in zwei Folgejahren ueberschritten), unveraendert seit
+  der Aktienrechtsrevision 2023. Artikel war zuvor pauschal ("Schwellen ... nicht
+  ueberschritten") ohne Zahlen — jetzt mit den konkreten Werten und der Fundstelle
+  Art. 727 Abs. 1 Ziff. 2 OR ergaenzt, Opting-out-Abschnitt (Art. 727a OR) um die
+  10-Tage-Widerspruchsfrist-Fundstelle (Abs. 4) praezisiert. needs-verification-Punkt in
+  `wiki/QUESTIONS.md` ins Archiv verschoben. Verbleibende needs-verification-Punkte der
+  KB: Gruendungskosten-Richtwerte, revidiertes Aktienrecht 2023 Kapitalband/
+  Fremdwaehrungskapital ([[statuten-ag]]/[[kapital-und-liberierung]]) — beide fuer einen
+  eigenen, groesseren Lauf vorgemerkt.
+
 ## 2026-07-25 — Neuer Artikel `verwaltungsrat` (Mac Mini Nachtschicht, 08:30-Lauf)
 - Letzte verbliebene Backlog-Coverage-Lücke aus dem INDEX geschlossen (auch im
   Health-Check desselben Tages unten als «Backlog stabil bei 2 Punkten: VR-Artikel, …»
