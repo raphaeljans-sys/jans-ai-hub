@@ -1,5 +1,35 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-27 — Trainings-Run 8 (Registerpflege + Stufe-4-Baustein extern gelöst, kein neuer Projektordner)
+
+- Kollisionscheck via `ps`/`PPID`-Abgleich: einziger Treffer war die eigene Parent-Instanz,
+  keine echte Zweitinstanz auf diesem Host.
+- **Registerlücke geschlossen:** `raw/2620-albertstrasse.md` war bereits in Run 4 (25.07.2026)
+  im Hauptkontext extrahiert worden, aber nie in `wiki/kennwerte.md`, `training/quellen-
+  inventar.md` oder diesem CHANGELOG nachgeführt (widersprach der eigenen Notiz in
+  `raw/_INGESTED.md`, die "eingearbeitet" bereits behauptete). Nachgetragen: Dachausbau-
+  Variante 2620 Albertstrasse 7 (350 m³ Umbauvolumen, CHF 2'500/m³, Nova Property Fund
+  Management AG) ist jetzt der **erste reale Umbau-Einzelfall** dieser KB
+  (`wiki/kennwerte.md`, Abschnitt "Umbau/Sanierung"). `training/quellen-inventar.md`-Zeile
+  2620_KELLER korrigiert (Run 2 fand nichts unter `AR - 01 Projekte`, der reale Fund lag unter
+  `AR - 03 Studien/2620 ALBERTSTRASSE 7/`).
+- **Stufe-4-Baustein (Teuerungs-Normalisierung) extern gelöst:** Der in Run 6 identifizierte,
+  aber unbewertete Zürcher Baukostenindex (JANS-eigene Quelle bricht 01.04.2004 ab) wurde per
+  WebSearch/WebFetch im Hauptkontext (kein OneDrive-Zugriff nötig, daher keine Delegation an
+  Background-Subagenten gemäss Memory `feedback_background_agent_onedrive_stall`) mit einer bis
+  01.04.2025 fortgeführten Fassung derselben amtlichen Reihe (Stadt Zürich, Publisher HEV Kt.
+  Schwyz) verkettet — Werte bis 2004 identisch, danach nahtlos weitergeführt. Neuer Roh-Beleg
+  `raw/zuercher-index-wohnbaukosten-1939-2025.md` mit fertigen Umrechnungsfaktoren (z.B.
+  Preisstand 2004→2025: +33.4 %, 2022→2025: +7.2 %); in `wiki/kennwerte.md` als eigener
+  Abschnitt "Baupreisindex ZH (Teuerungs-Normalisierung, Stufe 4)" dokumentiert. Damit ist die
+  in `training/PROGRAMM.md` für Stufe 4 verlangte Voraussetzung ("belegter Baupreisindex ...
+  in der KB hinterlegt") erstmals erfüllt — Anwendung auf die bestehenden Einzelfälle steht
+  noch aus (Vorschlag für Run 9).
+- Register durchgehend nachgeführt: `training/quellen-inventar.md` (Run-8-Abschnitt +
+  2620-Korrektur), `raw/_INGESTED.md` (zwei neue Zeilen), `wiki/QUESTIONS.md` (neuer
+  Run-8-Eintrag, Empfehlung für Run 9), `wiki/kennwerte.md` (sources-Frontmatter, zwei neue
+  Abschnitte).
+
 ## 2026-07-27 — Trainings-Run 7 (Vertiefung der drei Run-6-Kandidaten, keine neue Quelle)
 
 - Kollisionscheck via `ps`/`PPID`-Abgleich durchgeführt: einziger Treffer war die eigene

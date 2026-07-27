@@ -2,6 +2,25 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-07-27 — Trainings-Run 8: Stufe-4-Baustein gelöst (Baupreisindex verkettet), Registerlücke geschlossen — neue Empfehlung für Run 9
+
+- **Gelöst:** Der in Run 6 als "möglicher, aber unbewerteter Baustein für Stufe 4" geführte
+  Zürcher Baukostenindex (JANS-eigene Quelle bricht 2004 ab) ist jetzt bis 01.04.2025 verkettet
+  belegt (`raw/zuercher-index-wohnbaukosten-1939-2025.md`, fertige Umrechnungsfaktoren in
+  `wiki/kennwerte.md`). Kein offener Punkt mehr — Stufe 4 kann ab sofort angewendet werden,
+  sobald eine Median-Bildung ansteht.
+- **Registerlücke behoben:** `raw/2620-albertstrasse.md` (Run 4 extrahiert, nie registriert)
+  ist nachgetragen — erster realer Umbau-Kennwert (2'500 CHF/m³) in `kennwerte.md`.
+- **Neue Empfehlung für Run 9 — zwei Optionen, beide sinnvoll:** (a) Die jetzt verfügbaren
+  Teuerungsfaktoren auf die bestehenden Einzelfälle anwenden (Preisstand-Normalisierung), damit
+  ein künftiger Median nicht unterschiedliche Preisstände vermischt. (b) Weiterhin ungeprüfte
+  SharePoint-Bibliotheken sichten: `AR - 02 Wettbewerbe`, `AR - 04 Honorarauftraege`, `AR - 05
+  Transfer` (aus Run 5 als Kandidaten benannt, bisher keine geprüft). Empfehlung: zuerst (a),
+  da risikolos und mit vorhandenem Material machbar, dann (b) für neuen Rohstoff.
+- **Weiterhin unverändert offen (aus Run 6/7):** Frage 1 (BKP-1-9-vs-1-5-Bezeichnung, nur durch
+  Rückfrage an Raphael lösbar) und Frage 2 (Standard-Label "norm, eloquent" im GKB-Tool ist
+  mutmasslich Vorlagentext) — siehe Einträge unten.
+
 ## 2026-07-27 — Trainings-Run 7 (Vertiefung Run-6-Kandidaten): Frage 1 bleibt offen, aber mit direktem Tool-Beleg verstärkt
 
 - **Befund:** Die drei in Run 6 identifizierten, aber nicht extrahierten Kandidaten geprüft.

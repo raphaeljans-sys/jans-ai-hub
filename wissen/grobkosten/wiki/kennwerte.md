@@ -317,3 +317,14 @@ kennwerte bleibt diese KB; energie liefert nur die Detail-/Betriebskosten (Wisse
   Waedenswil-Tool-Variante ohne Projektbezug, Langnau Giebelweg 12 nur Annahme-Kosten)
   abschliessend als nicht verwertbar geschlossen. Kein neuer Kennwert in dieser Tabelle.
   Details `raw/2305-waedenswil-precheck.md`, offene Klärung in `wiki/QUESTIONS.md`.
+- Run 8 (27.07.2026): zwei Funde ohne neuen Projektordner. (1) Ein in Run 4 bereits
+  extrahierter, aber nie registrierter Roh-Beleg (`raw/2620-albertstrasse.md`, SharePoint
+  `AR - 03 Studien/2620 ALBERTSTRASSE 7/04 KT/Kosten/`) nachträglich vollständig integriert:
+  erster realer Umbau-Einzelfall der KB (2'500 CHF/m³, Dachausbau-Umnutzung). (2) Der in Run 6
+  als "möglicher Baustein für Stufe 4" identifizierte Zürcher Baukostenindex (der in der
+  JANS-eigenen Quelle 2004 abbricht) wurde extern bis 01.04.2025 verkettet gefunden
+  (`raw/zuercher-index-wohnbaukosten-1939-2025.md`) — die Stufe-4-Blockfrage aus
+  `training/PROGRAMM.md` ("wenn ein belegter Baupreisindex … in der KB hinterlegt ist") ist
+  damit erstmals mit fertig nutzbaren Umrechnungsfaktoren beantwortet, aber noch nicht auf
+  die bestehenden Einzelfälle angewendet (Median-Bildung hängt weiterhin an anderen offenen
+  Fragen). Details/Faktoren: Abschnitt "Baupreisindex ZH" oben.

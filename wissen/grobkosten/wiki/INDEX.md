@@ -25,6 +25,10 @@ Standard-Klassifikation, siehe `QUESTIONS.md`). Run 7 vertieft die drei Run-6-Ka
 Excel-Einsicht (`openpyxl`): das Pre-Check-Tool 2305 Wädenswil liefert einen direkten
 Tool-internen Beleg für die ungelöste BKP-1-9-vs-1-5-Frage (derselbe Faktor doppeldeutig
 beschriftet), zwei weitere Kandidaten werden als nicht verwertbar geschlossen. Kein neuer
-Kennwert in dieser Runde.
+Kennwert in dieser Runde. Run 8 (Registerpflege, kein neuer Projektordner): eine liegen
+gebliebene Extraktion (2620 Albertstrasse 7, erster realer Umbau-Einzelfall 2'500 CHF/m³)
+nachträglich registriert; extern (WebSearch/WebFetch) ein bis 2025 verketteter Zürcher
+Baukostenindex gefunden, der die Stufe-4-Teuerungs-Normalisierungsfrage aus Run 6 löst
+(fertige Umrechnungsfaktoren in `kennwerte.md`).
 
 Offene Fragen / Lücken: siehe [QUESTIONS.md](QUESTIONS.md).

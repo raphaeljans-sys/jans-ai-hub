@@ -98,7 +98,7 @@ Sichtprüfung der Dateiebene):
 | 2201 Laternengasse | `04_KTV/01_Kosten/` (KV Sanitär-Ausmass, Modul3 BakeryCafé-Kosten, alte Kostenschätzung) | `[-]` untauglich für GV-Scope: reine Fitout-/Mieterausbau-Einzelpositionen (Sanitär, Café-Modul), kein Gesamtgebäude-GV; analog zu `1318_Lorraine_Kueche` potenziell für eine künftige BKP-Einzelposition-KB, hier nicht verwertet |
 | 2516 WINTERBERG | `04_KostenTermine/1_Kosten/` | `[-]` Ordner leer |
 | 2517 MOW | kein Treffer | `[-]` keine Kostenordner |
-| 2620_KELLER (Albertstrasse 7) | kein Treffer (Tiefe 2) | `[-]` keine Kostenordner — frühe Bauleitungsphase, Kostendokumente evtl. noch nicht angelegt oder unter anderem Namen; bei Gelegenheit erneut prüfen |
+| 2620_KELLER (Albertstrasse 7) | Run 2: kein Treffer unter `AR - 01 Projekte` (Tiefe 2). Run 4/Run 8: Fund unter anderem Pfad — `AR - 03 Studien/2620 ALBERTSTRASSE 7/04 KT/Kosten/` (GKS-Varianten + KV Direktvermietung light) | `[x]` extrahiert Run 4 (Hauptkontext), Register-Nachtrag Run 8 → `raw/2620-albertstrasse.md`: Dachausbau-Variante 2'500 CHF/m³ (350 m³, Einzelfall n=1) in `kennwerte.md` aufgenommen |
 
 Ergebnis: **3 auswertbare Gesamtgebäude-Kostendokumente** gefunden und extrahiert (Thalwil,
 Wartstrasse 8, Grubenackerstrasse 7) — die ersten realen JANS-Kostendaten in dieser KB.
@@ -106,6 +106,29 @@ Details siehe `raw/`, Verdichtung siehe `wiki/kennwerte.md`.
 
 Nicht geprüft in Run 2: SharePoint-Ordner ausserhalb `AR - 01 Projekte` (z.B. `AR - 07 Archiv`
 für abgeschlossene Mandate mit Schlussabrechnung) — Kandidat für Run 3.
+
+## Run 8 (27.07.2026) — Registerpflege statt neuer Projektordner: orphaned Extraktion nachgetragen + Stufe-4-Baustein extern gelöst
+
+Kein neuer Projektordner geprüft. Zwei Befunde:
+
+1. **Registerlücke geschlossen:** `raw/2620-albertstrasse.md` existierte bereits (Run 4,
+   25.07.2026, Hauptkontext-Extraktion), war aber weder in `kennwerte.md` noch in
+   `quellen-inventar.md` noch im `CHANGELOG.md` nachgeführt — eine liegen gebliebene
+   Registrierung (vermutlich ein Lauf, der vor dem letzten Schritt endete). Nachgetragen: die
+   Dachausbau-Variante (350 m³, 2'500 CHF/m³) ist jetzt der erste reale Umbau-Einzelfall dieser
+   KB (Abschnitt "Umbau/Sanierung" in `kennwerte.md`, vorher nur Faustregel-Verweis ohne
+   Zahlenwert).
+2. **Stufe-4-Baustein (Zürcher Baukostenindex, aus Run 6 als "noch nicht bewertet" offen
+   gelassen) im Hauptkontext (WebSearch/WebFetch, kein OneDrive-Zugriff nötig) gelöst:** die bei
+   2004 abbrechende JANS-eigene Fassung lässt sich mit einer bis 01.04.2025 fortgeführten
+   Fassung derselben amtlichen Reihe verketten (identische Werte bis 2004, dann nahtlos
+   weitergeführt) → `raw/zuercher-index-wohnbaukosten-1939-2025.md`, fertige
+   Umrechnungsfaktoren in `kennwerte.md`.
+
+Empfehlung für Run 9: die jetzt verfügbaren Teuerungsfaktoren auf die bestehenden Einzelfälle
+anwenden (Preisstand-Normalisierung), sobald die MFH-Standard-Klassifikationsfrage
+(`wiki/QUESTIONS.md`, Frage 2) geklärt ist — sonst neue SharePoint-Bereiche `AR - 02
+Wettbewerbe`, `AR - 04 Honorarauftraege`, `AR - 05 Transfer` (bisher ungeprüft) sichten.
 
 ## Run 7 (27.07.2026) — Vertiefung der drei Run-6-Kandidaten (kein neuer Projektordner)
 
