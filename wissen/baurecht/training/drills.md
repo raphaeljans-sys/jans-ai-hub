@@ -409,9 +409,10 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   (BEZ 1992 Nr. 8). Max. 5 Jahre; Waermedaemm-Erleichterung nur bis 3 Jahre (§ 16 Abs. 2 BBV I;
   Bd 1, S. 441). _[2026-06-19]_
 - **F:** Welche Entscheide muessen begruendet werden? — **A:** **Ausnahmebewilligungen** (§ 320 PBG),
-  **Bauverweigerungen/Auflagen/Bedingungen** bei nicht voller Gutheissung (§ 10a Abs. 1 VRG;
-  RB 1998 Nr. 16) und **Abweichungen von Richtlinien/Normalien** (§ 360 Abs. 3 PBG). Die reine
-  Baubewilligung i. d. R. nicht (Bd 1, S. 434). _[2026-06-19]_
+  **Bauverweigerungen/Auflagen/Bedingungen** bei nicht voller Gutheissung (**§ 10b Abs. 1 VRG**
+  [bis 31.12.2025: § 10a VRG, umnummeriert per 1.1.2026]; RB 1998 Nr. 16) und **Abweichungen von
+  Richtlinien/Normalien** (§ 360 Abs. 3 PBG). Die reine Baubewilligung i. d. R. nicht (Bd 1,
+  S. 434). _[2026-06-19, Fassungsstand korrigiert Buch-Run 67]_
 
 ### Modell A — Frage→Beleg-Drill (typische Buerofrage, 2026-06-19)
 - **F (Bauleitung):** «Im Bauentscheid steht: Bedingung — vor Baubeginn ist im Grundbuch ein

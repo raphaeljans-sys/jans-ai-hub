@@ -176,8 +176,15 @@ der massgebenden Baugesuchsunterlagen, durchgefuehrte Verfahrensart.
     Verhaeltnismaessigkeit**, nicht nach dem Wortlaut (Haefelin/Mueller/Uhlmann Rz. 921 ff.).
 - **Anmerkung im Grundbuch / Sicherstellung (S. 439-440):** Nebenbestimmungen mit laengerer
   zeitlicher Wirkung sind im Grundbuch **anzumerken** (§ 321 Abs. 2 PBG; Art. 962 Abs. 1 ZGB).
-  Art. 164 GBV: «Oeffentlich-rechtliche Eigentumsbeschraenkungen, die vor dem 1. Januar 2012
-  rechtskraeftig angeordnet wurden, muessen im Grundbuch nur angemerkt werden.» Die Anmerkung
+  Art. 164 GBV (Buch-Zitat wie 2026-06-19 erfasst, S. 439-440): «Oeffentlich-rechtliche
+  Eigentumsbeschraenkungen, die vor dem 1. Januar 2012 rechtskraeftig angeordnet wurden,
+  muessen im Grundbuch nur angemerkt werden.» **Korrektur Buch-Run 67 (2026-07-27):** dieses
+  Zitat widerspricht dem amtlichen Wortlaut — Art. 164 GBV lautet «... muessen im Grundbuch
+  **nicht** angemerkt werden» (Fedlex `eli/cc/2011/667`, Konsolidierung 20230101; als
+  Uebergangsbestimmung zu Art. 962 ZGB logisch zwingend: Alt-Bestand ist von der 2012 neu
+  eingefuehrten Anmerkungspflicht ausgenommen, nicht ihr unterstellt). Vermutlich
+  Transkriptionsfehler bei Ersterfassung (Buch-Run 11) — Buchseite S. 439/440 bei Gelegenheit
+  am Original-Screenshot gegenkontrollieren; bis dahin gilt der amtliche Wortlaut. Die Anmerkung
   ist **deklaratorisch** (nicht konstitutiv); eine fehlende Anmerkung schuetzt den gutglaeubigen
   Erwerber grundsaetzlich **nicht** (BGE 111 Ia 183); die Anmerkung kann von Amtes wegen
   beantragt werden (Boesch 1993 S. 495). Bei Sachzusammenhang mit der Bauausfuehrung kann
@@ -252,5 +259,19 @@ der massgebenden Baugesuchsunterlagen, durchgefuehrte Verfahrensart.
 - **needs-verification (ueberbelichtete Seiten):** Ausstand-Details S. 430/431 (Shot 217) +
   Kostenentscheid-Bemessung S. 444/445 (Shot 224) + Kostenauflage Solidarhaftung/Amtsstellen
   S. 447 (Shot 225) am amtlichen VRG-/PBG-Volltext (`raw/`) gegenpruefen (Modell D).
-- **§ 326 PBG** (Erzwingung von Auflagen) genauer Wortlaut am amtlichen PBG-Volltext sichern.
-- **GBV Art. 164 / Art. 962 ZGB** (Anmerkungspflicht) am Fedlex-Volltext gegenpruefen.
+- ~~**§ 326 PBG** (Erzwingung von Auflagen) genauer Wortlaut am amtlichen PBG-Volltext sichern.~~
+  → **erledigt (Buch-Run 67):** § 326 PBG (`raw/260607_amtlich_zh_pbg.md` Z. 3367-3373) regelt
+  nicht die Erzwingung, sondern die **Baubeginn-Sperre**, bis auf den Baubeginn gestellte
+  Nebenbestimmungen erfuellt sind; die eigentlichen Zwangsmittel liefern §§ 30/31 VRG
+  (Schuldbetreibung/Ersatzvornahme/unmittelbarer Zwang). Buch-Zitat oben bleibt unangetastet
+  (Quelle treu) — Praezisierung in [[nebenbestimmungen-und-reverse]].
+- ~~**GBV Art. 164 / Art. 962 ZGB** (Anmerkungspflicht) am Fedlex-Volltext gegenpruefen.~~ →
+  **erledigt (Buch-Run 67), echter Fund:** Art. 164 GBV bedeutet das **Gegenteil** der bisher
+  im Wiki gefuehrten Fassung — Alt-Bestand (rechtskraeftig vor 1.1.2012 angeordnete
+  oeffentlich-rechtliche Eigentumsbeschraenkungen) **muss nicht** im Grundbuch angemerkt
+  werden (Fedlex `eli/cc/2011/667`, Konsolidierung 20230101); Art. 962 Abs. 1 ZGB begruendet
+  die Pflicht nur fuer **neu** angeordnete Beschraenkungen. Korrigiert in
+  [[nebenbestimmungen-und-reverse]] + `buecher/INDEX.md`. Zusaetzlich: Begruendungspflicht-
+  Zitat § 10a Abs. 1 VRG (Zeile 120 oben, Buchstand 2019) ist per 1.1.2026 auf **§ 10b VRG**
+  umnummeriert (Aenderung vom 30.10.2023, OS Band 79) — die Buchzeile bleibt als Zitat stehen,
+  aktueller Stand + Quelle in [[nebenbestimmungen-und-reverse]].

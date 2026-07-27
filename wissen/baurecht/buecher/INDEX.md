@@ -353,11 +353,15 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Gemeindeangestellte § 45 GG/Anzeigeverfahren), **kein gemeindeinternes Einspracheverfahren**
   (§ 315 Abs. 3 PBG vor § 170 GG; direkt-Rekurs § 329 PBG; BRGE II Nr. 0153/2018), **Ausstand**
   (Art. 29/30 BV; Aufhebung/Nichtigkeit BGE 136 II 383), **Inhalt** Rubrum/Begruendung/Dispositiv
-  (Plaene = integrierter Bestandteil; Begruendungspflicht § 10a VRG/§ 320 PBG), **Nebenbestimmungen
-  § 321 PBG** (Auflage erzwingbar § 326 PBG vs. Bedingung; Befristung/Provisorium = kein Bestandes-
-  schutz, max. 5 J., BEZ 1992 Nr. 8; **Revers**-Typen; Grundbuch-Anmerkung deklaratorisch BGE 111 Ia 183,
-  Art. 164 GBV), Kostenentscheid-Beginn (§ 13 VRG/§ 340f PBG). 11 Doppelseiten (213-225; 1 Dup, 2 ueberbel.).
-  Status: `emerging`. Speist [[nebenbestimmungen-und-reverse]] + [[baubewilligungsverfahren]].
+  (Plaene = integrierter Bestandteil; Begruendungspflicht **§ 10b VRG** [bis 31.12.2025: § 10a,
+  Umnummerierung per 1.1.2026]/§ 320 PBG), **Nebenbestimmungen § 321 PBG** (Auflage: Verfuegung
+  bleibt gueltig, Zwangsmittel §§ 30/31 VRG, § 326 PBG sperrt zusaetzlich den Baubeginn; vs.
+  Bedingung; Befristung/Provisorium = kein Bestandesschutz, max. 5 J., BEZ 1992 Nr. 8; **Revers**-
+  Typen; Grundbuch-Anmerkung deklaratorisch BGE 111 Ia 183, Art. 962 Abs. 1 ZGB, Alt-Bestand vor
+  1.1.2012 gemaess Art. 164 GBV **nicht** anmerkungspflichtig), Kostenentscheid-Beginn
+  (§ 13 VRG/§ 340f PBG). 11 Doppelseiten (213-225; 1 Dup, 2 ueberbel.).
+  Status: `established` (Buch-Run 67, [[nebenbestimmungen-und-reverse]] volltextverifiziert).
+  Speist [[nebenbestimmungen-und-reverse]] + [[baubewilligungsverfahren]].
 - [[07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]] — Kap. 7 Teil 2 (S. 448-484): **Abschluss
   7.1** (Kosten/Verzugszins 5 % § 29a VRG, Rechtsmittelbelehrung § 10 VRG, **Zustellung** + Zustellfiktion
   7. Tag Art. 138 ZPO, Zustelladressaten § 315/§ 316 PBG), **7.1.5 Gueltigkeit** (Baubewilligung **3 Jahre**

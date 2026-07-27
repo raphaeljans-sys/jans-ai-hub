@@ -7,6 +7,18 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-27
 
+**Nachtschicht-Zyklus Mac Mini (20:30-Lauf): sechs Identitaets-Fragen in `wissen/architekten-synobsis`
+recherchiert.** Vorlauf-Check ohne offene Sync-/Remote-Tasks, Synobsis-Scan weiter gesaettigt
+(853/853), Trainings-Loops frisch (letzte Laeufe alle < 1h alt). Stattdessen einen kleinen,
+budgetdisziplinierten Recherche-Block aus `wiki/QUESTIONS.md` (Sektion 1/2, ungeklaerte
+Buero-/Personennamen) abgearbeitet: AASZ (Kuerzel bleibt ungeklaert, dokumentierter
+Negativ-Befund), Herter_Hermann_Meilard_Robert (bestaetigt: Hermann Herter + Robert Maillart,
+mehrfache Zusammenarbeit), Sergison_Bates_Dublin (kein Dublin-Buero belegt), Studio_Mumbai_Betoi
+(bleibt ungeklaert, dokumentiert), Don_Fabio (realer Architekt identifiziert, Buero Zuerich
+statt vermutetem Tessin), Sofaloung_Pinar_Goeunuel (bestaetigt: Vorgaengerfirma blgp architekten
+AG). Alle Funde mit Quelle in QUESTIONS.md ergaenzt, CHANGELOG nachgefuehrt, keine
+Ordnerumbenennung (braucht Freigabe). Budget rund 1.55 USD von 5 USD.
+
 **Nachtschicht-Zyklus Mac Mini (19:30-Lauf): Vollgas-Runner-Doppellauf-Bug behoben
 (betrifft normen/twin/spec/wettbewerbs-dna).** Vorlauf-Check (keine offenen Sync-/Remote-Tasks,
 Synobsis weiter gesaettigt) fuehrte zum noch offenen Betriebsbefund in
