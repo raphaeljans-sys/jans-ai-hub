@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 27.07.2026 17:01:53
+Stand: 27.07.2026 17:11:59
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 16:54)
@@ -9,7 +9,7 @@ Stand: 27.07.2026 17:01:53
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 16 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 17 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 77f7e96b nas-selfcommit: 3 Datei(en) 2026-07-27 17:00
+- 2d2585e8 wettbewerbs-dna: Etappe 3 B6 Wohnungsbau Kennwert-Benchmark established (kennwerte-wohnungsbau.md, 2 Extraktions- + 2 Refuter-Shards, CHF/m2-HNF-Band 3500-3900)

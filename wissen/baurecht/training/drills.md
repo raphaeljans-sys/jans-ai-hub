@@ -2132,3 +2132,54 @@ Herkunftsklärung (Priorität a), 0 neue Fehler (Priorität c).** 3 neue Drill-K
 `verifiziert`-Datum als Priorität-(c)-Kandidat (`baulinien-und-abstandslinien`/
 `naturschutz-und-denkmalschutz`/`raumplanung-und-gestaltung`, alle zuletzt 2026-07-14 geprüft),
 oder Fassungsstand-Sammelcheck auf kantonale Erlasse ausserhalb der Run-52-54-Liste ausweiten.
+
+## Raumplanung und Gestaltung — Buch-Run 63 (2026-07-27, Modell D, Stichproben-Re-Verifikation Priorität c)
+
+- **A (Modell D, Gegenprobe):** [[raumplanung-und-gestaltung]] zitierte «Wo ein Vorhaben
+  zonenkonform ist, verleiht die Eigentumsgarantie einen Anspruch auf Bewilligung (Art. 26 BV;
+  § 253 PBG)». Stimmt § 253 PBG als Beleg für den Bewilligungsanspruch? — **A:** **Nein.**
+  § 253 PBG lautet «Die Vorschriften über die Nutzweise bestimmen, welchem Zweck Bauten dienen
+  dürfen oder müssen» — das ist die Nutzweise-/Zonenkonformitätsprüfung, nicht die
+  Anspruchsnorm. Die tatsächliche Anspruchsnorm ist **§ 320 PBG**: «Die Bewilligung ist zu
+  erteilen, wenn das Bauvorhaben den Vorschriften dieses Gesetzes und der ausführenden
+  Verfügungen entspricht» — im übrigen Wiki-Bestand ([[nebenbestimmungen-und-reverse]],
+  [[ausnahmebewilligung-und-bestandesschutz]], [[laermschutz-und-nichtionisierende-strahlung]])
+  bereits korrekt als Anspruchsnorm geführt, nur in diesem Artikel fehlte der Bezug.
+  _[2026-07-27]_
+- **B (Modell A, Frage→Beleg):** Welche Bauzonentypen listet § 48 Abs. 2 PBG abschliessend auf
+  (numerus clausus), und wo stehen ihre Einzelregelungen? — **A:** Kernzonen (§ 50), Quartier­
+  erhaltungszonen (§ 50 a., mit Leerschlag im amtlichen Text), Zentrumszonen (§ 51), Wohnzonen
+  (§ 52), Industrie- und Gewerbezonen (§ 56), Zonen für öffentliche Bauten (§ 60) — dazu
+  ausserhalb § 48 Abs. 2 die Freihalte-/Erholungszonen (§§ 61/62, kantonale Freihaltezone § 39),
+  die Landwirtschaftszone (§ 46 Abs. 3) und die Reservezone (§ 65). Alle sieben Fundstellen
+  Wort für Wort gegen `raw/260607_amtlich_zh_pbg.md` geprüft, **CONFIRMED**. _[2026-07-27]_
+- **C (Modell D, Fristen-Check):** Wie lange dauert die öffentliche Auflage bei der
+  Nutzungsplanung, und wie lange darf eine Planungszone höchstens gelten? — **A:** Auflage
+  **60 Tage** (§ 7 Abs. 2 PBG), Planungszone **längstens 3 Jahre, verlängerbar um längstens
+  2 Jahre** (§ 346 Abs. 3 PBG) — beide CONFIRMED gegen den amtlichen Volltext, keine
+  Abweichung vom Wiki-Bestand. _[2026-07-27]_
+
+**Ergebnis Buch-Run 63 (2026-07-27, Festigungsmodus, Priorität c, kein Agent-Fan-out):**
+[[raumplanung-und-gestaltung]] gewählt (letzter verbleibender Priorität-(c)-Kandidat mit
+`verifiziert`-Datum 2026-07-14, empfohlen von Run 62). Vollständiger Modell-D-Wortlautabgleich
+der im Artikel zitierten §§ 7/18/19/39/46 Abs. 3/48/49-65/69-73/253/320/346 PBG gegen
+`raw/260607_amtlich_zh_pbg.md` (§§ 83-89/44a PBG waren bereits in Buch-Run 43 CONFIRMED, hier
+nicht erneut geprüft). **1 echte Korrektur:** § 253 PBG war als alleinige Anspruchsnorm für
+«Anspruch auf Bewilligung bei Zonenkonformität» zitiert — regelt tatsächlich nur die
+Nutzweise/Zonenkonformität; die statutarische Anspruchsnorm ist § 320 PBG, im übrigen
+Wiki-Bestand (`grep -rn "§ 320 PBG"` über wiki/, buecher/, training/) bereits durchgängig
+korrekt geführt — Register-Sweep bestätigt: **isolierte Wiki-Kompressions-Abweichung, keine
+Propagation** in wiki/INDEX.md, buecher/INDEX.md oder training/curriculum.md (die dortigen
+Kurzeinträge nennen § 253 PBG nicht im Bewilligungsanspruch-Kontext). Zonentypen-Enumeration
+§ 48 Abs. 2 PBG (7 Zonentypen inkl. Quartiererhaltungszone § 50 a. mit Leerschlag-Schreibweise,
+Grep-Toleranz-Leitplanke erneut bestätigt) sowie Fristen § 7/§ 346 PBG **alle CONFIRMED, 0
+weitere Korrekturen**. Fassungsstand PBG weiterhin Nachtrag 133 (Marker «1. 7. 26 - 133»
+mehrfach im geprüften Textbereich bestätigt), keine Drift gegenüber Run 44/58/59/60/61/62.
+**0 Halluzinationen, 1 echte Korrektur, 0 neue Fehler im übrigen geprüften Bestand.** 3 neue
+Drill-Karten (2×D, 1×A). Report `outputs/2026-07-27_buch-run63.md`. **Nächster Schritt:** die
+von Run 55 begonnene Liste der ältesten `verifiziert`-Daten ist damit einmal vollständig
+durchlaufen (`baulinien-und-abstandslinien`/`naturschutz-und-denkmalschutz`/
+`raumplanung-und-gestaltung` alle Run 61-63 re-verifiziert) — nächster sinnvoller Schwerpunkt:
+erneuter Fassungsstand-Sammelcheck der kantonalen Erlasse (Daueraufgabe, Leitplanke Run 48,
+zuletzt vollständig Run 52-54) oder ein neuer Umlauf über die inzwischen ältesten
+`verifiziert`-Daten (`grep -h "^verifiziert:" wiki/*.md | sort`).

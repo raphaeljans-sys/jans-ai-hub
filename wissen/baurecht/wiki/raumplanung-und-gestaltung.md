@@ -1,9 +1,9 @@
 ---
 title: Raumplanung & Gestaltungsvorschriften — Kanton Zürich
 status: established
-last_updated: 2026-07-14
-verifiziert: 2026-07-14 (Buch-Run 43, Modell-D Volltextabgleich §§ 83-89 PBG (Gestaltungsplan: Inhalt/oeffentlich/privat/Zustimmung/Aufhebung/Vorpruefung-Festsetzung-Genehmigung) + § 44a PBG (Gestaltungsplan Materialgewinnung/-ablagerung) gegen raw/260607_amtlich_zh_pbg.md Z. 483-493/909-972 — alle Absaetze CONFIRMED, 0 Fehler, keine Korrektur noetig)
-sources: [260602_docs-baurecht-pbg-zh.md, "260607_amtlich_zh_pbg.md", "§ 238 PBG", "§§ 238 ff. PBG", "RPG (SR 700)", "Art. 1 RPG", "Art. 4 RPG", "Art. 9 RPG", "Art. 15 RPG", "Art. 21 RPG", "Art. 25a RPG", "Art. 26 RPG", "Art. 33 RPV", "Art. 75 BV", "§ 7 PBG", "§ 18 PBG", "§ 19 PBG", "§ 44a PBG", "§ 48 PBG", "§ 48 Abs. 3 PBG", "§ 49b PBG", "§§ 50-65 PBG", "§§ 69-73 PBG", "§§ 82-89 PBG", "§ 87a PBG", "§ 346 PBG", "§§ 4/10 VDNP", 01-grundlagen.md, 02-raumplanung-richtplanung-nutzungsplanung.md, 02-nutzungsplanung-zonenarten-teil2.md, 02-nutzungsplanung-sondernutzung-verfahren-teil3.md]
+last_updated: 2026-07-27
+verifiziert: 2026-07-27 (Buch-Run 63, Modell-D Volltextabgleich §§ 7/18/19/39/46 Abs. 3/48/49-65/69-73/253/320/346 PBG gegen raw/260607_amtlich_zh_pbg.md — Zonentypen-Enumeration, Fristen (60-Tage-Auflage § 7, Planungszone 3+2 Jahre § 346), numerus clausus § 48 Abs. 2/3 alle CONFIRMED; §§ 83-89/44a PBG bereits in Buch-Run 43 CONFIRMED. 1 echte Korrektur: § 253 PBG war faelschlich als alleinige Anspruchsnorm fuer "Anspruch auf Bewilligung" zitiert — regelt tatsaechlich nur die Nutzweise/Zonenkonformitaet; die Anspruchsnorm ist § 320 PBG (im uebrigen Wiki-Bestand bereits korrekt gefuehrt, hier nachgezogen))
+sources: [260602_docs-baurecht-pbg-zh.md, "260607_amtlich_zh_pbg.md", "§ 238 PBG", "§§ 238 ff. PBG", "RPG (SR 700)", "Art. 1 RPG", "Art. 4 RPG", "Art. 9 RPG", "Art. 15 RPG", "Art. 21 RPG", "Art. 25a RPG", "Art. 26 RPG", "Art. 33 RPV", "Art. 75 BV", "§ 7 PBG", "§ 18 PBG", "§ 19 PBG", "§ 44a PBG", "§ 48 PBG", "§ 48 Abs. 3 PBG", "§ 49b PBG", "§§ 50-65 PBG", "§§ 69-73 PBG", "§§ 82-89 PBG", "§ 87a PBG", "§ 253 PBG", "§ 320 PBG", "§ 346 PBG", "§§ 4/10 VDNP", 01-grundlagen.md, 02-raumplanung-richtplanung-nutzungsplanung.md, 02-nutzungsplanung-zonenarten-teil2.md, 02-nutzungsplanung-sondernutzung-verfahren-teil3.md]
 links: [[zonenkonformitaet]], [[baubewilligungsverfahren]], [[nutzungsziffern]], [[grundlagen-planungs-baurecht]], [[baureife-und-erschliessung]]
 ---
 
@@ -36,8 +36,15 @@ Verkehr/Versorgung).
 ### Kommunale Nutzungsplanung
 **Grundeigentümerverbindlich** (Art. 21 Abs. 1 RPG): die Festlegungen gelten nicht nur
 für Behörden, sondern für jedermann und wirken direkt aufs Eigentum ein (Bd 1, Kap. 2,
-S. 144 f.). Wo ein Vorhaben zonenkonform ist, verleiht die Eigentumsgarantie einen
-**Anspruch auf Bewilligung** (Art. 26 BV; § 253 PBG, S. 145).
+S. 144 f.). **§ 253 PBG** definiert die Nutzweise-/Zonenkonformitätsprüfung («Die
+Vorschriften über die Nutzweise bestimmen, welchem Zweck Bauten dienen dürfen oder
+müssen», Art. 22 Abs. 2 lit. a RPG). Ist ein Vorhaben danach zonenkonform, verleiht die
+Eigentumsgarantie (Art. 26 BV) einen **Anspruch auf Bewilligung** — die eigentliche
+Anspruchsnorm ist **§ 320 PBG**: «Die Bewilligung ist zu erteilen, wenn das Bauvorhaben
+den Vorschriften dieses Gesetzes und der ausführenden Verfügungen entspricht»
+(S. 145; Modell-D-Korrektur Buch-Run 63: § 253 PBG war fälschlich allein als
+Anspruchsnorm zitiert, regelt aber nur die Nutzweise/Zonenkonformität — § 320 PBG ist
+im übrigen Wiki-Bestand bereits korrekt als Anspruchsnorm geführt).
 - **Grundzonenplan** (Massstab **1:5000**, § 4a VDNP): parzellenscharfe Einteilung in
   Bau-, Nichtbau- und Landwirtschaftszonen. **Ergänzungspläne** tragen weitere
   Festlegungen als Informationsinhalte in den ÖREB-Kataster nach (§§ 4/10 VDNP, S. 152 f.).

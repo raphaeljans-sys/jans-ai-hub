@@ -4,6 +4,21 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-27 — Buch-Run 63 (Festigungsmodus, Priorität c: Raumplanung und Gestaltung re-verifiziert, § 253→§ 320 PBG-Fehlzuordnung korrigiert)
+- [verifikation] **`wiki/raumplanung-und-gestaltung.md`** — vollständiger Modell-D-
+  Wortlautabgleich §§ 7/18/19/39/46 Abs. 3/48/49-65/69-73/346 PBG gegen
+  `raw/260607_amtlich_zh_pbg.md` (Zonentypen-Enumeration § 48 Abs. 2, Fristen § 7/§ 346).
+  **CONFIRMED, 0 Korrekturen** an diesem Bestand. §§ 83-89/44a PBG bereits in Buch-Run 43
+  CONFIRMED, nicht erneut geprüft.
+- [korrektur] **`wiki/raumplanung-und-gestaltung.md`** — «Anspruch auf Bewilligung … § 253 PBG»
+  korrigiert: § 253 PBG regelt nur die Nutzweise/Zonenkonformität, die Anspruchsnorm ist
+  **§ 320 PBG** (im übrigen Wiki-Bestand bereits durchgängig korrekt geführt, hier nachgezogen).
+  Isolierte Wiki-Kompressionsabweichung, Register-Sweep negativ (keine Propagation in
+  `wiki/INDEX.md`/`buecher/INDEX.md`/`training/curriculum.md`). `verifiziert`-Feld + `sources`
+  aktualisiert.
+- [drill] 3 neue Karten in `training/drills.md` (2×D, 1×A).
+- Report `outputs/2026-07-27_buch-run63.md`.
+
 ## 2026-07-27 — Buch-Run 62 (Festigungsmodus, Priorität c: Baulinien und Abstandslinien re-verifiziert, 2 Register-Sweep-Korrekturen)
 - [verifikation] **`wiki/baulinien-und-abstandslinien.md`** — vollständiger Modell-D-
   Wortlautabgleich §§ 90-122 PBG (Erschliessungsplan/Baulinien/Niveau-/Ski-Schlittellinien/
