@@ -77,7 +77,14 @@ des OEREB-Katasters nach (§§ 4/10 VDNP) (S. 152 f.).
   **S1** (Fassungsbereich), **S2** (Engere Schutzzone), **S3** (Weitere Schutzzone) mit je
   zunehmenden Nutzungsbeschraenkungen (Art. 20 Abs. 1 GSchG). Zustaendig fuer die Festsetzung ist
   die jeweilige Gemeinde (§ 7 Abs. 2 lit. b und § 35 EG GSchG); Genehmigung durch die Baudirektion
-  (§ 35 Abs. 2 EG GSchG) (S. 148).
+  (§ 35 Abs. 2 EG GSchG) (S. 148). **Achtung Fassungsstand, Nachtschicht Mac Mini 27.07.2026,
+  Fortsetzung Wissens-Chef Run 17: das EG GSchG (LS 711.1) ist per 01.06.2026 aufgehoben, § 126
+  lit. a WsG (LS 724.1, amtliches PDF `724.1_12.12.24_133.pdf` gegengelesen). Nachfolge fuer diese
+  Stelle ist **§ 46 WsG** — Wortlaut deckungsgleich: «Der Gemeindevorstand setzt auf Antrag der
+  Inhaberinnen und Inhaber von Grundwasserfassungen und -anreicherungsanlagen
+  Grundwasserschutzzonen fest» (Abs. 1), «Die Direktion genehmigt die Grundwasserschutzzonen»
+  (Abs. 2) — praeziser als die bisher im Arbeitsregister gefuehrte pauschale Zuordnung §§ 35/36 →
+  §§ 45/46 WsG.**
 
 ### Eisenbahnareale, Hochleistungsstrassen, Flughaefen (2.3.5)
 - Eisenbahnareale und Hochleistungsstrassen im Siedlungsgebiet koennen eine Bauzone zugewiesen

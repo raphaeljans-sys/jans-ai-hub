@@ -125,13 +125,24 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
     dabei quellentreu stehen lassen — genau das Muster des HWSchV-Nachzugs aus Run 48/50.
     **Erledigt-Kriterium:** `grep -rniI "EG GSchG\|EGSchG\|711\.1"` über `wiki/`, `buecher/` und
     `training/` liefert nur noch Stellen mit Aufhebungsvermerk.
-    **Offene Fundorte (Stand 27.07.2026, 15 von 17 — zwei sind bereits erledigt):**
-    `buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md` (7×) ·
-    `buecher/band-2/12-baureife-teil4-gebuehren-abfall-altlasten.md` (3×) ·
+    **Offene Fundorte (Stand 27.07.2026 22:55, Nachtschicht Mac Mini): nur noch 3 von 17** —
+    `buecher/INDEX.md` (§ 45 EG GSchG) · `wiki/INDEX.md` (§ 45 EG GSchG) · `training/curriculum.md`
+    (dieser Eintrag selbst). **In diesem Lauf erledigt (12 Fundorte, alle mit Aufhebungsvermerk +
+    Nachfolgenorm, amtlicher WsG-Volltext `724.1_12.12.24_133.pdf` selbst gezogen und gegengelesen):**
+    `buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md` (7×, inkl. Frontmatter) ·
+    `buecher/band-2/12-baureife-teil4-gebuehren-abfall-altlasten.md` (3×, inkl. Frontmatter) ·
     `buecher/band-1/02-nutzungsplanung-zonenarten-teil2.md` (2×) ·
     `buecher/band-1/03-erschliessung-landsicherung-teil1.md` (1×) ·
-    `buecher/band-1/07-vorentscheid-auskuenfte-besondere-zustaendigkeiten.md` (1×) ·
-    `buecher/INDEX.md` · `wiki/INDEX.md` · `training/curriculum.md`.
+    `buecher/band-1/07-vorentscheid-auskuenfte-besondere-zustaendigkeiten.md` (1×).
+    **Zuordnungen praezisiert (Wortlaut-Abgleich, nicht mehr nur "bekannt"):** § 8 → § 44 Abs. 1
+    lit. a WsG (bestaetigt) · § 15 Abs. 2 → § 52 lit. a WsG (30-Einwohnerwerte-Kriterium wortgleich
+    bestaetigt) · § 15 Abs. 3 (40-m-Nebenanlagen) → keine wortwoertliche WsG-Entsprechung gefunden,
+    als offen markiert (nicht geraten) · § 35 → **§ 46 WsG** (nicht § 45 — Wortlaut "Gemeindevorstand
+    setzt fest / Direktion genehmigt Grundwasserschutzzonen" ist deckungsgleich; praezisiert
+    gegenueber der bisherigen Pauschalzuordnung §§35/36→§§45/46) · § 36 Abs. 2 (Grundbuch-Anmerkung)
+    → keine exakte Entsprechung gefunden, offen markiert · § 45 (Anschlussgebuehren) → §§ 61/62 WsG
+    · § 52 Abs. 1 (Rekurs) → § 122 Abs. 1 WsG (wortgleich bestaetigt) · §§ 13 ff./14 ff./16 →
+    generisch §§ 45-48 bzw. §§ 49 ff. WsG zugeordnet (Abschnitts-Ebene, nicht Einzelparagraph-genau).
     **Bereits vom Chef erledigt:** `buecher/band-2/17-haustechnische-anlagen-teil3.md` (§ 8 → § 44
     Abs. 1 lit. a WsG) und `wiki/baureife-und-erschliessung.md` (Fassungs-Warnung gesetzt).
     **Bekannte §-Zuordnungen** (im Einzelnen noch zu verifizieren): § 8 → **§ 44 Abs. 1 lit. a WsG**

@@ -2,6 +2,18 @@
 
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
+
+## 2026-07-27 — EG-GSchG-Nachzug fortgesetzt (Nachtschicht Mac Mini): 12 von 15 Fundorten korrigiert
+Auftrag aus Wissens-Chef Run 17 (Prioritaet a) uebernommen. Amtlichen WsG-Volltext selbst gezogen
+(`724.1_12.12.24_133.pdf`, zhlex) und alle verbleibenden Fundorte in 5 Buch-Destillaten (band-2/12
+Teil3+4, band-1/02, band-1/03, band-1/07 — 12 Stellen inkl. 2 Frontmatter-Arrays) mit Aufhebungsvermerk
++ Nachfolgenorm versehen. Zwei Zuordnungen praezisiert gegenueber der bisherigen Pauschalannahme:
+§ 35 EG GSchG → **§ 46 WsG** (nicht § 45 — Wortlaut Gemeinde-Festsetzung/Direktions-Genehmigung
+Grundwasserschutzzonen deckungsgleich), § 15 Abs. 2 → § 52 lit. a WsG (30-Einwohnerwerte-Kriterium
+wortgleich). Zwei Stellen (§ 15 Abs. 3 40-m-Regel, § 36 Abs. 2 Grundbuch-Anmerkung) mangels
+wortwoertlicher WsG-Entsprechung offen markiert statt geraten. Verbleibend: `buecher/INDEX.md`,
+`wiki/INDEX.md`, `training/curriculum.md`-Nachtrag — reiner Verweis-Text, kein materieller Fehler.
+Register `training/PROGRAMM.md` nachgefuehrt. Bericht: dieser CHANGELOG-Eintrag.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
 ## 2026-07-27 — Wissens-Chef Run 17 (Cross-KB): EG GSchG ist aufgehobenes Recht — KB-weiter Nachzug eroeffnet

@@ -136,7 +136,7 @@ Glauben bindend) und der formlosen **Verhandlungsloesung**.
   (§§ 96/234/240/265 PBG; S. 461) · **ausserhalb Bauzonen** → kant. Behoerde, Art. 25 Abs. 2 RPG
   (§ 40 Abs. 1 PBG; S. 462) · **Wald / Waldabstand 15 m** → **ALN**, forstpolizeiliche Bewilligung
   (§ 262/§ 220 PBG; S. 463) · **Natur-/Heimat-/Ortsbild-/Denkmalschutz** → ALN/ARE (§ 205 lit. b,
-  § 50 Abs. 3 PBG; S. 464) · **Gewaesser/Grundwasser/Abwasser** → **AWEL** (§ 8 EG GSchG;
+  § 50 Abs. 3 PBG; S. 464) · **Gewaesser/Grundwasser/Abwasser** → **AWEL** (§ 8 EG GSchG **— Achtung Fassungsstand: per 01.06.2026 aufgehoben, § 126 lit. a WsG; Nachfolge § 44 Abs. 1 lit. a WsG**;
   S. 464-467) · **belastete Standorte** → AWEL-Kataster (S. 467) · **Laerm** → Baudirektion
   (Art. 31 LSV; S. 467) · **Laerm/Luft Gewerbe** Art. 2 LRV, **Arbeitnehmerschutz** Art. 7 ArG,
   **Deponien/Stoerfall** (S. 468-470) · **technische Anlagen** (Grossfeuerung § 48 BBV I,
