@@ -70,7 +70,13 @@ INCLUDE_RE='training|normen|twin|wettbewerb|spec|immob|synobsis|energie|planungs
 # synobsis-batch-nacht 25.07.2026 stillgelegt (KB architekten-synobsis saturiert:
 # Katalog 853/853, Stufe-2-Vektorindex live, 18x ergebnislos; Entscheid Raphael) —
 # aus dem Endlos-Zyklus genommen; Mini-launchd ch.jans.synobsis-batch ausgehaengt.
-EXCLUDE_RE='radar|chef|heartbeat|mahnwesen|zahlungsabgleich|hygiene|monitor|check|drosselung|messung|masterclass|woche|synobsis'
+# grobkosten-training 27.07.2026 aus dem Endlos-Zyklus genommen (KB-eigene Runs 12-19:
+# acht identische Saettigungsbelege in Folge, autonome Exploration erschoepft, Blocker
+# sind zwei offene Rueckfragen an Raphael, nicht Materialmangel — der Runner ignoriert
+# `cron_target` in der SKILL.md-Frontmatter komplett und feuerte den Loop im
+# Minutenabstand statt 2x/Tag). Laeuft ab jetzt nur noch ueber den eigenen Scheduled
+# Task (cron_target "0 9,21 * * *"), analog den sechs bereits ausgeschlossenen Loops.
+EXCLUDE_RE='radar|chef|heartbeat|mahnwesen|zahlungsabgleich|hygiene|monitor|check|drosselung|messung|masterclass|woche|synobsis|grobkosten'
 
 mkdir -p "$NAS_DIR" 2>/dev/null || NAS_DIR="$HOME/.jans-vollgas-log"
 mkdir -p "$NAS_DIR"
