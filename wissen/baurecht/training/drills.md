@@ -2258,3 +2258,42 @@ Report `outputs/2026-07-27_buch-run65.md`. **Naechster Schritt:** Fassungsstand-
 verbleibenden, noch nie live gegen zhlex geprueften kantonalen Erlasse fortsetzen (PPV Stadt
 Zuerich bleibt kommunal ohne eigenen zhlex-Eintrag — dauerhafte Luecke, kein Fehler) oder naechster
 Priorität-(c)-Kandidat nach `verifiziert`-Datum (`grep -h "^verifiziert:" wiki/*.md | sort`).
+
+## Baurechtlicher Vorentscheid und Voranfrage — Buch-Run 66 (2026-07-27, Modell D, Erst-Verifikation Priorität c)
+
+- **A (Frage→Beleg-Drill):** Ein Kaufinteressent (noch nicht Eigentümer) will vor dem Parzellenkauf
+  wissen, ob ein Ersatzneubau zulässig ist. Muss er seine Baubefugnis nachweisen, um einen
+  Vorentscheid einzuholen? — **A:** **Nein.** `raw/260607_amtlich_zh_pbg.md` Z. 3199-3206 (§ 310
+  Abs. 3 PBG): «Wer nicht Grundeigentümer ist, hat seine Berechtigung zur Einreichung des
+  Baugesuchs nachzuweisen» — diese Nachweispflicht gilt für das **Baugesuch**, nicht für das
+  Vorentscheidsverfahren (VB.2013.00271); der Kreis der Fragesteller ist beim Vorentscheid bewusst
+  weiter. _[2026-07-27]_
+- **D (Gegenprobe/Adversarial):** Der Artikel behauptet, die 3-Jahres-Bindung des Vorentscheids
+  stütze sich auf «§ 322 Abs. 1, § 324 PBG». Steht die Dreijahresfrist wirklich in § 324 PBG selbst?
+  — **A:** **Nein, nur analog über § 322.** `raw/260607_amtlich_zh_pbg.md` Z. 3340-3343 (§ 324 PBG):
+  Vorentscheide sind «in gleicher Weise verbindlich wie baurechtliche Bewilligungen» — die
+  Dreijahresfrist selbst steht in **§ 322 Abs. 1 PBG** (Z. 3313-3315: «Baurechtliche Bewilligungen
+  erlöschen nach drei Jahren…») und gilt für den Vorentscheid nur, weil § 324 ihn den Bewilligungen
+  gleichstellt. Kein Fehlzitat, aber wichtige Präzisierung: die Frist ist nicht im Vorentscheids-
+  Paragraphen selbst geregelt. _[2026-07-27]_
+
+**Ergebnis Buch-Run 66 (2026-07-27, Festigungsmodus, Priorität c, kein Agent-Fan-out):**
+[[baurechtlicher-vorentscheid-und-voranfrage]] gewählt (einer von vier Wiki-Artikeln ganz ohne
+`verifiziert`-Feld, `emerging` seit Erstellung 2026-06-21, nie durch den Modell-D-Loop gelaufen).
+Vollständiger Wortlautabgleich §§ 322/323/324 PBG (Vorentscheid-Kernnormen), § 310 Abs. 3 PBG
+(Baubefugnis-Nachweis), § 315 PBG (Zustellungsbegehren, kein Einspracheverfahren), § 213 PBG
+(Anspruch auf Entscheid über Schutzwürdigkeit, Provokationsverfahren) gegen
+`raw/260607_amtlich_zh_pbg.md` — **alle CONFIRMED, 0 Korrekturen, 0 Halluzinationen**.
+Fassungsstand PBG weiterhin Nachtrag 133, keine Drift. Status **emerging → established**
+angehoben, erstmaliges `verifiziert`-Feld ergänzt; Register-Sweep-Nachzug in `wiki/INDEX.md`
+(Status-Marker `*emerging*` → `*established*`). **Zusätzlich Priorität (a):** der seit
+Wissens-Chef Run 15 (25.07.2026) offene Cross-KB-Befund zum PBG-Revisionsstrang «Erleichtertes
+Bauen im Bestand» (§ 220a E-PBG, Mehrlängenzuschlag-Aufhebung §§ 21/23/24 ABV) bearbeitet:
+Vorentwurfsstatus (noch keine Rechtswirkung, keine Kantonsratsvorlage per 24.07.2026 laut KB
+`planungsgrundlagen`) als forward-looking Hinweis in [[ausnahmebewilligung-und-bestandesschutz]]
+und [[abstaende-und-hoehen]] ergänzt, mit Querverweis auf die führende KB `planungsgrundlagen`.
+2 neue Drill-Karten (1×A, 1×D). Report `outputs/2026-07-27_buch-run66.md`. **«Rückstand
+abgebaut» weiterhin NICHT ausgerufen** (Leitplanke Run 48: Daueraufgabe) — **nächster Schritt:**
+verbleibende drei nie verifizierte `emerging`-Artikel ([[enteignung-und-entschaedigung]],
+[[nebenbestimmungen-und-reverse]], [[grundlagen-planungs-baurecht]]) als nächste
+Priorität-(c)-Kandidaten, oder Fortsetzung des Fassungsstand-Sammelchecks kantonaler Erlasse.

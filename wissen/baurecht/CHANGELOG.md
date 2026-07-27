@@ -4,6 +4,22 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-27 — Buch-Run 66 (Festigungsmodus, Priorität a Cross-KB-Nachtrag PBG-Revision + Priorität c Erst-Verifikation Vorentscheid)
+- [verifikation] **`wiki/baurechtlicher-vorentscheid-und-voranfrage.md`** — erster Modell-D-Lauf
+  seit Erstellung (2026-06-21): §§ 322/323/324 PBG, § 310 Abs. 3 PBG, § 315 PBG, § 213 PBG gegen
+  `raw/260607_amtlich_zh_pbg.md` wortlautgeprüft — **alle CONFIRMED, 0 Korrekturen**. Status
+  **emerging → established**, erstmaliges `verifiziert`-Feld ergänzt.
+- [register-sweep] `wiki/INDEX.md` Status-Marker `*emerging*` → `*established*` für diesen Artikel
+  korrigiert.
+- [cross-kb] **`wiki/ausnahmebewilligung-und-bestandesschutz.md`** + **`wiki/abstaende-und-hoehen.md`**
+  — Cross-KB-Befund Wissens-Chef Run 15 (25.07.2026) bearbeitet: forward-looking Hinweis auf den
+  PBG-Revisionsstrang «Erleichtertes Bauen im Bestand» (§ 220a E-PBG, Aufhebung Mehrlängenzuschlag
+  §§ 21/23/24 ABV) ergänzt — Vorentwurfsstatus, keine Rechtswirkung, Verfahrensstand per 24.07.2026
+  ohne Kantonsratsvorlage (Quelle: KB `planungsgrundlagen`, `wiki/recht-norm-pbg-revision-bauen-im-bestand.md`,
+  dort führend).
+- [drill] 2 neue Karten (1×A, 1×D) in `training/drills.md`.
+- [report] `outputs/2026-07-27_buch-run66.md`.
+
 ## 2026-07-27 — Buch-Run 65 (Festigungsmodus, Priorität c Re-Verifikation Ausnahmebewilligung/Bestandesschutz)
 - [verifikation] **`wiki/ausnahmebewilligung-und-bestandesschutz.md`** — vollständiger Modell-D-
   Wortlautabgleich §§ 218/219/220 (Abs. 1-3), § 357 (Abs. 1/4/5), § 307 (Abs. 1/2), § 321, § 101,

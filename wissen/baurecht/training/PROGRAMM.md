@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-27 (Run 65)
+last_updated: 2026-07-27 (Run 66)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -113,6 +113,27 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 66 (2026-07-27, Festigungsmodus, Priorität (a) Cross-KB-Nachtrag + Priorität (c)
+    Erst-Verifikation, kein Agent-Fan-out):** **Priorität (c):**
+    [[baurechtlicher-vorentscheid-und-voranfrage]] gewählt — einer von vier Wiki-Artikeln, die
+    seit ihrer Erstellung **nie** durch den Modell-D-Loop gelaufen waren (kein `verifiziert`-Feld,
+    `emerging` seit 2026-06-21). Vollständiger Wortlautabgleich §§ 322/323/324 PBG (Vorentscheid-
+    Kernnormen, Gültigkeit/Rechtswirkung), § 310 Abs. 3 PBG (Baubefugnis-Nachweis-Ausnahme),
+    § 315 PBG (Zustellungsbegehren) und § 213 PBG (Provokationsverfahren Schutzwürdigkeit) gegen
+    `raw/260607_amtlich_zh_pbg.md` — **alle CONFIRMED, 0 Korrekturen, 0 Halluzinationen**,
+    Fassungsstand weiterhin Nachtrag 133. Status **emerging → established** angehoben,
+    erstmaliges `verifiziert`-Feld ergänzt, Register-Sweep in `wiki/INDEX.md` (Status-Marker
+    korrigiert). **Priorität (a):** der seit Wissens-Chef Run 15 (25.07.2026) offene Cross-KB-
+    Befund zum PBG-Revisionsstrang «Erleichtertes Bauen im Bestand» (§ 220a E-PBG,
+    Mehrlängenzuschlag-Aufhebung §§ 21/23/24 ABV) bearbeitet: als Vorentwurfsstatus (keine
+    Rechtswirkung, keine Kantonsratsvorlage per 24.07.2026) in [[ausnahmebewilligung-und-
+    bestandesschutz]] und [[abstaende-und-hoehen]] nachgetragen, mit Querverweis auf die
+    führende KB `planungsgrundlagen`. **0 Halluzinationen, 1 Statuserhöhung, 1 Cross-KB-Befund
+    geschlossen.** 2 neue Drill-Karten (1×A, 1×D). Report `outputs/2026-07-27_buch-run66.md`.
+    **«Rückstand abgebaut» weiterhin NICHT ausgerufen** (Leitplanke Run 48). **Nächster
+    Schritt:** die verbleibenden drei nie verifizierten `emerging`-Artikel
+    ([[enteignung-und-entschaedigung]], [[nebenbestimmungen-und-reverse]],
+    [[grundlagen-planungs-baurecht]]) als nächste Priorität-(c)-Kandidaten.
   - **Run 65 (2026-07-27, Festigungsmodus, Priorität (c) Stichproben-Re-Verifikation, kein
     Agent-Fan-out):** [[ausnahmebewilligung-und-bestandesschutz]] gewählt (letzter Check Buch-Run
     45/46, 2026-07-15 — von Run 64 empfohlen). Vollständiger Modell-D-Wortlautabgleich §§ 218/219/
