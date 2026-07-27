@@ -242,17 +242,21 @@ Abweichende Baustoffe (andere Festigkeitsklasse/Rohdichte) sind in Bauteilen mit
 Feuerwiderstandsanforderungen möglich, sofern ihre brandschutztechnische
 Leistungsfähigkeit erwiesen ist (S. 13). Massgebende Dicke bei profilierten/gefasten
 Querschnitten (Abb. 310-2, S. 12): bei Querschnitten aus Vollholz, Brettstapel,
-Massivholzschalung, Furniersperrholz und Furnierschichtholz müssen Fasen bis 2 mm Tiefe
-nicht berücksichtigt werden (massgebend bleibt die Nenndicke); bei staerkeren
-Profilierungen wird die verbleibende Dicke massgebend. Bei Querschnitten aus
+Massivholzschalung, Massivholzplatten, Furniersperrholz und Furnierschichtholz müssen
+Fasen bis 2 mm Tiefe nicht berücksichtigt werden (massgebend bleibt die Nenndicke); bei
+staerkeren Profilierungen wird die verbleibende Dicke massgebend. Bei Querschnitten aus
 Holzwerkstoffen (OSB-, Span- und Faserplatten) müssen Fasen bis 2 mm Tiefe ebenfalls
 nicht berücksichtigt werden, **andere Profilierungen sind dort jedoch generell nicht erlaubt**
 (Korrektur 260727: die Erstfassung hatte dies dahingehend verkürzt, dass bei OSB/Span/
 Faserplatten Fasen selbst nicht erlaubt seien — das Original erlaubt auch dort 2-mm-Fasen,
-verbietet nur weitergehende Profilierungen). Korrektur 27.07.2026, dritte Runde: die erste
-Aufzählung (Vollholz/Brettstapel/Massivholzschalung/Furniersperrholz/Furnierschichtholz)
-hatte fälschlich «Massivholzplatten» ergänzt — Abb. 310-2 nennt dort im Original nur die
-fünf genannten Baustoffe, Massivholzplatten sind an dieser Stelle nicht erwähnt.
+verbietet nur weitergehende Profilierungen).
+(Korrektur 27.07.2026, fünfte Runde: die dritte Runde hatte «Massivholzplatten» fälschlich
+aus der ersten Aufzählung entfernt, und die vierte Runde hatte diese Entfernung faelschlich
+als korrekt bestaetigt — beide lagen falsch. Beim direkten Bildvergleich (S. 12, Abb. 310-2,
+Text unter Ziffer 1) steht im Original woertlich: «Bei Querschnitten aus Vollholz,
+Brettstapeln, Massivholzschalung, Massivholzplatten, Furniersperrholz und
+Furnierschichtholz müssen Fasen bis 2 mm Tiefe nicht berücksichtigt werden.» — sechs
+Baustoffe, nicht fünf. Hier wiederhergestellt.)
 
 ### 3.3 Unterkonstruktion, Befestigung, Fugenausbildung (Tab. 330-1, Abb. 330-2/330-3, S. 14–16)
 

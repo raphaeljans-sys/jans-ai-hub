@@ -207,6 +207,18 @@ anonymisierte Schnipsel ab.
 
 **NEU — zweiter Sweep-Strang `mail@raphaeljans.ch`:** abgedeckt 2025-07-09 bis 2025-12-22. **Naechster mail@-Lauf beginnt ab 2026-01-01** (die beiden bereits via Fidelity 260727e destillierten Golds — Baurekursgericht-Gesuchsruecknahme 22.01.2026, Herzog-de-Meuron-Website-Brief an Hleb 04.02.2026 — dort ueberspringen). Empfehlung: solange der rj@-Strang leer laeuft, diesen zweiten Strang sequenziell abarbeiten statt Leerlaeufe zu protokollieren.
 
+**Bookkeeping-Korrektur (260727, Lauf 77, Kollision mit parallelem Fidelity-Review):** Sweep ueber mail@
+ab 2026-06-11T00:00:00Z gepullt (CLI-Fallback), 4 Treffer bis heute: 11.06. Claude-Desktop-Bypass-Mail
+(bereits als Nicht-Stilquelle vermerkt), 12.06. Gruner/Duran-Statusfrage, 27.06. UBS/Jeckelmann-
+Kapitaleinzahlung, 17.07. Stadt-ZH/Kovacs-Adressantwort. Alle drei fachlichen Treffer stellten sich
+bei der Belegpruefung als **bereits destilliert** heraus — der parallel gelaufene Fidelity-Review
+`../outputs/2026-07-27g_fidelity.md` hatte dieselben drei Mails bereits ins Wiki eingearbeitet
+(stimme.md Abschnitt „Nackte Statusfrage an eingespielten Fachplaner" Zeile ~1922, beziehungsregister.md
+Mapping Kovacs Zeile ~1686, UBS-Beleg Gold C im Fidelity-Report). Kein Duplikat angelegt (Rule
+`auto-verbesserungen` 260724, Kollisionsschutz). **Mail@-Sweep-Endpunkt wird daher auf 2026-07-17T06:10:17Z
+vorgezogen** (Kovacs-Mail, Fenster 2026-06-12 bis 2026-07-17 damit bestaetigt abgedeckt) — der
+naechste mail@-Lauf pullt frisch ab dort.
+
 | `260727-mailbatch-75.md` | Sent Items rj@ systematisch, **frischer M365-Pull ab 2026-07-27T12:38:15Z bis 2026-07-27T14:10:00Z** (CLI-Fallback `node_modules/.bin/m365`, MCP-Pfad `mcp__microsoft-365__m365_run_command` scheiterte erneut mit „outlook: command not found"; CLI lokal nur im SSD-Klon `~/Developer/jans-ai-hub/node_modules/.bin/m365` vorhanden, nicht auf dem NAS-Repo. 1 Treffer relevant [27.07. 14:07: Bauentscheid 1171/26 Lenggstrasse 30 KISPI, Auflagebereinigung/Baufreigabe-Anfrage an Shyam Zala, Stadt ZH, Sie, Stellvertretung fuer Lars Hansen], 1 Treffer bereits bekannt [12:38 Brandschutz-Koordination Stadelmann, Sweep-Endpunkt Batch 73]. Gegenprobe mit `--startTime 2026-07-27T14:10:00Z` bestaetigte 0 weitere Treffer — Fenster luecklos abgedeckt. Volltext gelesen und destilliert: keine Echo-Falle [klar handgetippt], keine Metrik [Einzelmail, kein Korpus fuer Mikro-Metrik-Script]) | authentisch (klar handgetippt) | ja (arbeitsweise **neu** verwaltungsinterne Zustaendigkeitswechsel-Info direkt in den eigenen Sachtext eingewoben statt zitiert + naechster Verfahrensschritt konditional vordelegiert [Wenn-dann-Freischaltung Kreisarchitekt] + liegen gebliebener Dateiname als Kopfzeile vor der Anrede [Authentizitaetssignal]; beziehungsregister **neu** Waermestufe einer Behoerden-Stellvertretung wird vom laufenden Fall/Amt geerbt statt neu erarbeitet + Mapping Shyam Zala/Stadt ZH) |
 
 **Sequenzieller Sweep-Endpunkt rj@:** 2026-07-27 14:07:25 (Bauentscheid-Auflagenbereinigung Lenggstrasse 30 an Shyam Zala). **Naechster rj@-Lauf pullt frisch ab 2026-07-27T14:10:01Z** (Fenster bis 14:10:00Z bereits leer bestaetigt).

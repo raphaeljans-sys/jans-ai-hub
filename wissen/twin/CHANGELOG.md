@@ -4,6 +4,16 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-27 — `twin-mail-training` (Batch 77, Bookkeeping-Korrektur).** rj@-Strang seit
+  15:10:54 Uhr leer bestaetigt. Mail@-Zweitstrang ab 2026-06-11 gepullt: 3 fachliche Treffer
+  (Gruner/Duran-Statusfrage 12.06., UBS/Jeckelmann-Kapitaleinzahlung 27.06., Stadt-ZH/Kovacs-
+  Adressantwort 17.07.) stellten sich bei der Belegpruefung als bereits destilliert heraus — der
+  parallel gelaufene Fidelity-Review `outputs/2026-07-27g_fidelity.md` hatte dieselben drei Mails
+  bereits ins Wiki eingearbeitet (stimme.md „Nackte Statusfrage…", beziehungsregister.md Mapping
+  Kovacs). Kein Duplikat angelegt (Kollisionsschutz, Rule `auto-verbesserungen` 260724). Einzige
+  Aktion: `raw/_INGESTED.md`-Bookkeeping korrigiert, Mail@-Sweep-Endpunkt auf 2026-07-17T06:10:17Z
+  vorgezogen, damit kuenftige Laeufe das Fenster nicht nochmals als offen fuehren.
+
 - **2026-07-27 — `twin-mail-training` (Batch 76).** rj@-Strang: 1 neuer Treffer (14:10–15:11 Uhr,
   KISPI Bauentscheid-Folgemail an Gantenbein/SRZ) — Fenster danach leer. Deshalb zusaetzlich den
   mail@-Zweitstrang (ab 2026-01-01, empfohlen seit Batch 74) sequenziell abgearbeitet: 33 Sent

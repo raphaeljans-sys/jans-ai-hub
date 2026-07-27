@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 27.07.2026 18:42:41
+Stand: 27.07.2026 18:52:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 18:34)
@@ -12,4 +12,4 @@ Stand: 27.07.2026 18:42:41
 - 17 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- dff47e69 normen-training: fuenfte Refuter-Runde (Run 34) SIA D0165 Kennzahlen Immobilienmanagement, 3 Befunde eingearbeitet
+- 6b42db91 nas-selfcommit: 7 Datei(en) 2026-07-27 18:45
