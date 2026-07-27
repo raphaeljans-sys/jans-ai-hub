@@ -2032,6 +2032,41 @@ ausserhalb der Run-52-54-Liste ausweiten.
   (Fassungsstand-Korrektur bereits Buch-Run 32, live bestätigt Run 53/54, Nachtrag 129 ohne
   weitere Drift). _[2026-07-27]_
 
+- **M (Modell C, Selbsttest):** Welche Absätze von § 209 PBG (vorsorgliches
+  Veränderungsverbot bei Inventareröffnung) sind noch in Kraft, welche aufgehoben? — **A:**
+  Nur **Abs. 2** (das Veränderungsverbot selbst, ausgelöst durch die schriftliche
+  Mitteilung) und **Abs. 3** (Jahresfrist, «fällt dahin, wenn nicht innert Jahresfrist … eine
+  dauernde Anordnung getroffen wird», ohne eigene Verlängerungsklausel) sind in Kraft. Abs.
+  1, 4 und 5 sind aufgehoben («. . .25»). Bestätigt Buch-Run 61 erneut gegen
+  `raw/260607_amtlich_zh_pbg.md`. _[2026-07-27]_
+- **N (Modell C, Selbsttest):** Wo im Gesetzeswortlaut steht die «+1 Jahr»-
+  Fristerstreckungsmöglichkeit, und für welches Verfahren gilt sie? — **A:** **§ 213 Abs. 3
+  PBG**, und zwar nur für den **Provokationsentscheid** («Jeder Grundeigentümer ist jederzeit
+  berechtigt, … einen Entscheid über die Schutzwürdigkeit … zu verlangen»): die Behörde kann
+  «in Ausnahmefällen vor Fristablauf … anzeigen, die Behandlungsdauer erstrecke sich um
+  höchstens ein weiteres Jahr». Für das **vorsorgliche Veränderungsverbot nach § 209** gibt es
+  **keine** eigene gesetzliche Verlängerungsklausel — eine analoge Anwendung ist nur Praxis
+  (BEZ 2017 Nr. 2), kein Gesetzeswortlaut. _[2026-07-27]_
+- **O (Modell D, Gegenprobe):** Gilt die KNHV-Fristenregelung § 12 KNHV (1 Monat/2 Monate je
+  nach Inventarstatus) unverändert, oder hat sich seit der Klärung 2026-07-14 (Nachtrag 130)
+  etwas geändert? — **A:** **Unverändert CONFIRMED** (Buch-Run 61, erneuter Wortlautabgleich
+  gegen `raw/260714_amtlich_zh_knhv.md`) — die einzige Revision (RRB 15.01.2025) betraf nur
+  § 3/§ 3a KNHV (Bundesinventar-Zuständigkeit), nicht § 10/§ 12. _[2026-07-27]_
+
+**Ergebnis Buch-Run 61 (2026-07-27, Festigungsmodus, Priorität c, kein Agent-Fan-out):**
+[[naturschutz-und-denkmalschutz]] (eines von drei Artikeln mit ältestem `verifiziert`-Datum
+2026-07-14, gewählt wegen des breitesten Paragraphen-Fächers: 14 PBG-§§ + 2 KNHV-§§)
+vollständig Modell-D-re-verifiziert. Alle 16 geprüften Fundstellen (§§ 203/204/205/207/208/
+209/210/211/213/216/217/238a/50/76/338b PBG + § 10/§ 12 KNHV) **CONFIRMED, 0 Korrekturen, 0
+Halluzinationen.** Bemerkenswert bestätigt: § 209 Abs. 1/4/5 PBG sind im Volltext tatsächlich
+aufgehoben (nur Abs. 2/3 in Kraft), § 213 Abs. 3 PBG trägt wortgleich die «+1 Jahr»-Klausel
+für den Provokationsentscheid (nicht für § 209 anwendbar), § 238 Abs. 3 PBG ist aufgehoben
+zugunsten § 238a (Begrünung im Besonderen). Fassungsstand PBG weiterhin Nachtrag 133, keine
+Drift gegenüber Run 58/59/60. Kein Register-Sweep nötig (keine Korrektur). 3 neue Drill-Karten
+(2×C, 1×D). Report `outputs/2026-07-27_buch-run61.md`. **Nächster Schritt:** verbleibende
+Priorität-(c)-Kandidaten mit `verifiziert`-Datum 2026-07-14 (`baulinien-und-abstandslinien`/
+`raumplanung-und-gestaltung`).
+
 **Ergebnis Buch-Run 60 (2026-07-27, Festigungsmodus, Priorität a + c, kein Agent-Fan-out):**
 **Priorität (a):** offene Cross-KB-Frage aus Wissens-Chef Run 11 (25.07.2026) zum
 Behindertenparkplatz-Kennwert in [[fahrzeugabstellplaetze-und-parkierung]] geklärt — die

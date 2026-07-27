@@ -1,0 +1,1567 @@
+# Quelle: https://www.wohnbaustiftung-baden.ch/media/pages/dokumente/9035d97ef3-1746170647/jurybericht_projektwettbewerb-brisgi-areal.pdf (Jurybericht Projektwettbewerb Brisgi-Areal, Baden, 2016, 48 Seiten, abgerufen 2026-07-27)
+# Extrakt: pdftotext -layout, 48 Seiten, erstellt 2026-07-27
+
+Projektwettbewerb
+Brisgi-Areal
+Baden, Quartier Kappelerhof
+
+Bericht des Preisgerichts
+
+7. November 2016
+Impressum
+
+Herausgeberin
+Wohnbaustiftung Baden
+    c/o Ambassador Immobilien und Verwaltungs AG
+    Mellingerstrasse 1
+    5401 Baden
+
+Redaktion und Layout
+Metron Raumentwicklung AG
+     Stahlrain 2
+     Postfach
+     5201 Brugg
+
+Modellfotografie
+Atelier Fotografie
+       René Rötheli
+       Bruggerstrasse 37
+       5400 Baden
+
+
+
+
+F:\daten\M4\15-020-00\04_BER\12_Schlussbericht\ber_Preisgericht_Brisgi_161107.indd
+Inhalt
+Einleitung                      4
+
+Verfahren                       6
+Auftraggeberin                  6
+Wettbewerbsart und Verfahren    6
+Präqualifikation                7
+Preisgericht                    8
+Weiterbearbeitung               9
+Termine                         9
+
+Aufgabenstellung               10
+Entwicklungsziele              10
+Grundlagen                     10
+Perimeter und Baufelder         11
+Bestehende Bauten               11
+Erschliessung und Parkierung    11
+Aussenraum                     12
+Baurechtliche Bestimmungen     12
+Nutzungen                      12
+Ökologische Nachhaltigkeit     13
+Wirtschaftlichkeit             13
+
+Beurteilung                    14
+
+Empfehlungen                   16
+
+Dank und Würdigung             17
+
+Projekte
+KANDALAMA                      18
+LUCUS		                        22
+UNA CITTADINA VERA             26
+GÄRTNERKONSTRUKTION            30
+TREFIORI                       34
+ALLMEND                        36
+GOOD MORNING SUNSHINE          38
+I SUOI FRATELLI                40
+LINDGREN & JACOBSEN            42
+NEIGHBOURHOOD                  44
+
+Genehmigung                    46
+Projektwettbewerb Brisgi-Areal | Einleitung                                               4
+
+
+
+
+Einleitung
+Ausgangslage − eine der letzten grossen Baulandreserven der Stadt
+Das Brisgi-Areal ist Teil des Badener Quartiers Kappelerhof. Mit einer Fläche von 6.5
+ha bildet das Areal eine der letzten grossen Baulandreserven der Stadt. Angestrebt wer-
+den die Entwicklung des Areals selbst sowie die damit einhergehende Aufwertung des
+gesamten Quartiers Kappelerhof.
+       Um Bebauungsideen für das Areal zu generieren, hat die Eigentümerin, die Ein-
+wohnergemeinde Baden, 2012 ein Testplanungsverfahren durchgeführt. Auf Basis der
+Testplanungsergebnisse entstand Anfang 2014 ein Entwicklungskonzept. Für die Ent-
+wicklung des Areals ist die Wohnbaustiftung Baden verantwortlich, die eigens dafür im
+November 2012 gegründet wurde. Um ein qualitativ hochstehendes, massgeschneider-
+tes Projekt und kompetente Partnerinnen und Partner für diese anspruchsvolle Aufgabe
+zu evaluieren, wurde ein einstufiger Projektwettbewerb nach SIA 142, Ausgabe 2009,
+durchgeführt.
+
+Der Kappelerhof − zentrumsnahes Quartier zwischen Fluss und Wald
+Das Quartier Kappelerhof liegt nordwestlich der Badener Innenstadt und umfasst rund
+3‘000 Einwohner. Die Entfernung zum Badener Zentrum beträgt 2.5 km. Das Quar-
+tier liegt bandförmig zwischen der Limmat im Norden und dem steil zum Quartier hin
+abfallenden Waldgebiet im Süden. Charakteristisch sind die Verkehrsadern, die das
+Quartier durchziehen und teilweise eine starke Trennwirkung entfalten: zum einen die
+Kantonsstrasse (Bruggerstrasse), die das Quartier mit Baden und Brugg verbindet, zum
+anderen die zweigleisige Bahnstrecke. Im Kappelerhof dominiert die Wohnnutzung. Das
+Quartier profitiert von der Nähe zur Badener Innenstadt, weshalb die Quartierversor-
+gung nur schwach ausgeprägt ist.
+
+
+
+
+                                               Abbildung 1: Barackensiedlung im Brisgi,
+                                               1964 (Quelle: Stadt Baden)
+
+
+Das Brisgi-Areal − vom Barackendorf zum attraktiven Stadtquartier
+Ab 1947 errichtete der Schweizer Elektrotechnikkonzern Brown, Boveri & Cie. (BBC) auf
+dem Brisgi-Areal Baracken für die Unterbringung von Gastarbeitern. In der Folge lebten
+ca. 1‘500 Männer auf dem Areal. Anfang der 1960er Jahre wollte die BBC die Situation
+durch Neubauten verbessern. Der 1962 durchgeführte Wettbewerb sah ein völlig neues
+Quartier mit Hochhausbauten vor. Realisiert wurden aber nur die heute bestehenden
+Gebäude: ein 20-geschossiges Hochhaus im Zentrum nahe der Limmat und zwei 9-ge-
+Projektwettbewerb Brisgi-Areal | Einleitung                                               5
+
+
+
+schossige Gebäude im Westen des Areals. In der Folge ging das Areal an die städtischen
+Werke Baden über. Diese führten 1995 einen Ideenwettbewerb durch, der zur Ergän-
+zung des Areals um Wohnbauten führen sollte − ein Vorhaben, das jedoch unrealisiert
+blieb. Im Jahr 2004 wurde für das Quartier Kappelerhof eine umfassende Quartierana-
+lyse mit partizipativer Beteiligung der Bevölkerung durchgeführt. Dabei kristallisierte
+sich die Entwicklung des Brisgi-Areals als eines der Schlüsselprojekte zur dauerhaften
+und nachhaltigen Aufwertung des gesamten Quartiers heraus.
+       In der Folge wurde die Entwicklung des Areals wieder aufgenommen, und 2012
+führte die Stadt Baden als heutige Eigentümerin die eingangs erwähnte Testplanung
+durch, um die städtebaulichen Möglichkeiten auszuloten und die Grundlage für ein Ent-
+wicklungskonzept zu schaffen.
+
+
+
+
+                                                  Abbildung 2: Luftbild Brisgi-Areal
+                                                  (Quelle: google maps 2016)
+
+
+Wohnbaustiftung Baden − Wohnungen, die gut und günstig sind
+Die Gründung der Wohnbaustiftung ist eine von vier Massnahmen der Wohnbaustra-
+tegie 2010 der Stadt Baden und erfolgte im November 2012. Die Wohnbaustiftung ver-
+fügt über ein Eigenkapital von 10 Mio. CHF. Der Stiftungsrat ist seit Anfang 2014 mit
+Fachleuten aus den Bereichen Architektur, Immobilien, Finanzen und Recht besetzt.
+Präsidiert wird der Stiftungsrat durch den Stadtammann.
+       Die Stiftung investiert ihr Kapital in die Schaffung von qualitativ gutem und preis-
+günstigem Wohnraum, insbesondere für Familien mit Kindern. Der Familienbegriff
+wird dabei weit gefasst. Gefördert werden soll das generationenübergreifende Zusam-
+menleben von Menschen aller Altersgruppen (vor- und nachfamiliäre Lebensphasen).
+An geeigneten Orten ist auch die Erstellung von Arbeits- und Gewerberäumen möglich,
+wenn sich damit eine Belebung des Quartiers und eine bessere Nutzungsdurchmischung
+erreichen lassen.
+       Mit dem Stiftungskapital soll in erster Linie das Brisgi-Areal bis zur Baureife ent-
+wickelt und dort ein Wohnprojekt realisiert werden. Grundsätzlich gilt für die Mietzins-
+gestaltung das Prinzip der Kostenmiete (Selbstkosten). Die Stiftung beabsichtigt darü-
+ber hinaus, einen Teil ihres Kapitals in andere Projekte zu investieren, um längerfristig
+auf dem Wohnungsmarkt aktiv sein zu können
+Projektwettbewerb Brisgi-Areal | Einleitung                                            6
+
+
+
+
+Verfahren
+Auftraggeberin
+
+Auftraggeberin ist die Wohnbaustiftung Baden. Die Wohnbaustiftung untersteht den
+Bestimmungen des öffentlichen Beschaffungswesens.
+
+Ziel des Verfahrens
+
+Ziel des Verfahrens war die Erlangung eines ortsbaulich, architektonisch und betrieblich
+herausragenden Projektvorschlages, der die hohen Anforderungen der Auftraggeberin
+an eine qualitätvolle, preisgünstige und zukunftsgerichtete Überbauung erfüllt. Dabei
+sollten die Vorgaben aus dem Entwicklungskonzept weiterentwickelt und mit den Ziel-
+setzungen der Wohnbaustiftung in Einklang gebracht werden.
+
+Wettbewerbsart und Verfahren
+
+Das Verfahren wurde als einstufiger, anonymer Projektwettbewerb im selektiven Ver-
+fahren durchgeführt. Die Beurteilung der Projektvorschläge war öffentlich.
+       Das Wettbewerbsverfahren untersteht dem GATT/WTO-Übereinkommen über
+das öffentliche Beschaffungswesen und dem Binnenmarktgesetz.
+       Die Auftragsvergabe für die Planerleistungen richtet sich nach der Interkantona-
+len Vereinbarung über das öffentliche Beschaffungswesen vom 15. März 2001 (IVöB,
+Art. 12, Abs. 1 Bst. B und Abs. 3) zum Planungswettbewerb im selektiven Verfahren – ge-
+stützt auf das Submissionsdekret des Kantons Aargau (SubmD § 8, Abs. 1). Die Ordnung
+SIA 142, 2009, gilt.
+
+Verfahrensbegleitung
+
+Regula Schneider
+      dipl. Architektin ETH/SIA
+Philipp Hegnauer
+      dipl. Architekt ETH
+Dajana Bässler
+      Dipl.-Ing. Stadt- und Regionalplanung
+Bruna Rohling
+      Praktikantin
+
+Metron Raumentwicklung AG
+     Stahlrain 2
+     Postfach
+     5201 Brugg
+     T 056 460 91 11
+     info@metron.ch
+     www.metron.ch
+Projektwettbewerb Brisgi-Areal | Verfahren                                           7
+
+
+
+Präqualifikation
+
+Im Rahmen einer öffentlich ausgeschriebenen Präqualifikation konnten sich interessier-
+te Planungsteams aus den Fachbereichen Architektur (Federführung) und Landschafts-
+architektur für die Teilnahme am Projektwettbewerb bewerben. Die Zusammensetzung
+des Planungsteams hatte zwingend aus Fachleuten der Bereiche Architektur / Städte-
+bau (Federführung) und Landschaftsarchitektur zu erfolgen. Fakultativ konnten weitere
+Fachplaner zugezogen werden.
+       Im Rahmen des Präqualifikationsverfahrens wählte das Preisgericht aus den 85
+eingegangenen Bewerbungen 10 Bearbeitungsteams für die Teilnahme am Projektwett-
+bewerb aus.
+
+
+
+Teilnehmende Teams
+
+Folgende Teams haben sich im Präaqualifikationsverfahren für die Teilnahme am Pro-
+jektwettbewerb qualifiziert:
+
+    −− ARGE Hosoya Schaefer Architects / hssp, Zürich
+       Vogt Landschaftsarchitekten, Zürich
+
+    −− ARGE Müller Sigrist / Meier Leder Architekten, Zürich / Baden
+       DGJ Arch. & Landscapes / Daniel Jauslin Arch. & Landscapes, Den Haag / Zürich
+
+    −− BHSF Architekten, Zürich
+       Haag Landschaftsarchitektur GmbH, Zürich
+
+    −− Bosshard Vaquer Architekten AG, Zürich
+       manoa Landschaftsarchitekten, Meilen
+
+    −− Edelaar Mosayebi Inderbitzin Architekten, Zürich
+       Hoffmann & Müller Landschaftsarchitektur, Zürich
+
+    −− Galli Rudolf Architekten AG ETH BSA, Zürich
+       Rotzler Krebs Partner Landschaftsarchitekten, Winterthur
+
+    −− Oester Pfenninger Architekten AG, Zürich,
+       Nipkow Landschaftsarchitektur AG, Zürich
+
+    −− PARK Dipl. Architekten ETH SIA BSA, Zürich
+       Fontana Landschaftsarchitektur, Basel
+
+    −− Scheibler & Villard, Basel
+       Bryum, Basel
+
+    −− Schneider Studer Primas GmbH, Zürich
+       Lorenz Eugster Landschaftsarchitektur und Städtebau GmbH, Zürich
+Projektwettbewerb Brisgi-Areal | Verfahren                                          8
+
+
+
+Preisgericht
+
+Zur Beurteilung des Projektwettbewerbes setzte die Auftraggeberin folgendes Preisge-
+richt ein:
+
+Sachpreisgericht (stimmberechtigt)
+   −− Geri Müller (Vorsitz)
+      Stiftungsrat Wohnbaustiftung Baden, Stadtammann Baden (Vorsitz)
+   −− Andreas Hofer
+      Stiftungsrat Wohnbaustiftung Baden, archipel Planung und Innovation, Zürich
+   −− Pascal Roth
+      Stiftungsrat Wohnbaustiftung Baden, André Roth AG, Baden (Ersatz)
+
+Fachpreisgericht (stimmberechtigt)
+   −− Ursina Fausch
+      dipl. Architektin ETH SIA, Aarau / Zürich
+   −− Ingo Golz
+      Master of Landscape Architecture MLA BSLA, SIA, REG A, Wettingen
+   −− Jakob Steib
+      dipl. Architekt ETH BSA, Zürich
+   −− Barbara Neff
+      dipl. Architektin ETH SIA BSA (Ersatz), Zürich
+
+Expertinnen / Experten und weitere Mitglieder (nicht stimmberechtigt)
+   −− Béatrice Ducrocq Maag
+      Stiftungsrätin Wohnbaustiftung Baden, Ennetbaden
+   −− Adrian Rehmann
+      Stiftungsrat Wohnbaustiftung Baden, Rehmann Immobilien, Ennetbaden
+   −− Kurt Hartmann
+      Vertreter Stockwerkeigentümerschaft Im Brisgi 20
+   −− Cornelia Haller
+      Vertreterin Quartierverein Kappelerhof
+   −− Markus Bill
+      Vertreter Verein Casarta
+   −− Michael Heiserholt
+      Vertreter Stadt Baden Entwicklungsplanung
+   −− Manfred Schätti
+      Vertreter Stadt Baden Liegenschaften
+   −− Andreas Edelmann
+      Experte Nachhaltigkeit, edelmann energie, Zürich
+   −− Dario Zallot
+      Experte Verkehr, Metron Verkehrsplanung AG, Brugg
+   −− Konrad Kissling
+      Experte Kostenplanung, Metron Architektur AG, Brugg
+Projektwettbewerb Brisgi-Areal | Verfahren                                               9
+
+
+
+Entschädigung
+
+Für den Projektwettbewerb standen dem Preisgericht insgesamt CHF 260‘000.- (exkl.
+MwSt.) zur Verfügung. Jedes Planungsteam erhält für die vollständige und fristgerechte
+Abgabe des Projekts eine feste Entschädigung von CHF 8‘500.- (exkl. MwSt.). Der üb-
+rige Betrag der Gesamtpreissumme stand dem Preisgericht für 3–6 Preise und Ankäufe
+zur Verfügung.
+
+Weiterbearbeitung
+
+Die Veranstalterin beabsichtigt, das Planungsteam (federführendes Architekturbüro
+und Landschaftsarchitekt) des vom Preisgericht zur Ausführung empfohlenen Projekts
+mit der Weiterbearbeitung der Aufgabe für die Projektierung und Realisierung zu be-
+auftragen. Zudem ist vorgesehen, dieses Planungsteam in die Ausarbeitung des Gestal-
+tungsplans einzubeziehen.
+      Fakultativ beigezogene Fachplaner werden, sofern sie einen wesentlichen Beitrag
+am Wettbewerbsprojekt leisten oder als Miturheber des Wettbewerbsprojekts auftreten,
+nach Abschluss des Wettbewerbsverfahrens zur Offertstellung eingeladen.
+      Vorbehalten bleiben die Kreditgenehmigung und Bewilligung übergeordneter In-
+stanzen sowie die etappenweise Realisierung des Gesamtprojekts.
+
+Termine
+
+10. Mai 2016			                        Wettbewerbsstart
+
+ab 17. Mai			                          Bezug Modell
+
+24. Mai 2016			                        Eingabe Fragen
+
+7. Juni 2016			                        Fragenbeantwortung
+
+23. August 2016			                     Abgabe Pläne Projektwettbewerb
+
+30. August 2016		                      Abgabe Modell
+
+13. / 22. September 2016               Öffentliche Beurteilung der Wettbewerbsbeiträge
+
+Oktober 2016			                        Bekanntgabe des Wettbewerbsergebnisses
+
+November 2016			Ausstellung
+Projektwettbewerb Brisgi-Areal | Aufgabenstellung                                           10
+
+
+
+
+Aufgabenstellung
+Entwicklungsziele
+
+Ein Schwerpunkt der Arealentwicklung Brisgi bildete die Aufwertung des Quartiers. Al-
+tes und Neues sollen sich weiterentwickeln können, wobei es gilt, bestehende Strukturen
+und Angebote wenn möglich zu integrieren und zu ergänzen. Ziel ist ein attraktives, le-
+bendiges Quartierleben.
+       Das gewünschte Wohnungsangebot orientiert sich an den Zielsetzungen der Stif-
+tung. Dabei werden Familienwohnen mit Kindern durch kleinere Wohnungen und flexi-
+ble Angebote ergänzt. Das Wohnungsangebot sich nach den Bedürfnissen verschiedener
+Alters- und Einkommensstufen richten. Gefordert sind eine hohe Flächen- und Energie-
+effizienz.
+
+Grundlagen
+
+Testplanung
+In den Jahren 2011−2012 führte die Stadt Baden eine Testplanung mit drei Teams durch.
+Das Projekt von Hosoya Schaefer Architekten und Vogt Landschaftsarchitekten bestach
+dabei durch einen vielversprechenden Ansatz zur Bebauung des Areals. Die Qualitäten
+des Projekts wurden insbesondere in den folgenden Elementen gesehen:
+    −− Das Projekt basiert mit der Konzeption, das Areal in Bebauungscluster zu glie-
+       dern, auf einer klaren und eigenständigen städtebaulichen Idee, die zu einer star-
+       ken und selbsttragenden Identität für das ganze Areal führen kann.
+    −− Es entsteht ein räumlicher Reichtum (Begegnungsräume auf den Wohnplateaus,
+       Landschaftsraum zwischen den Clustern) mit einer guten Abgrenzung und Les-
+       barkeit der verschiedenen Einheiten. Die Vernetzung mit dem Landschaftsraum
+       ist gelungen.
+    −− Die vorgeschlagene Baustruktur ermöglicht einen vielfältigen und nach Zielgrup-
+       pen differenzierten Wohnungsmix (verschiedene Wohnungstypen und -grössen
+       möglich).
+
+
+
+
+                                                    Abbildung 3: Masterplan Richtprojekt,
+                                                    Hosoya Schäfer, 2012
+Projektwettbewerb Brisgi-Areal | Aufgabenstellung                                              11
+
+
+
+Aufgrund dieser Planung konnten wichtige Entwicklungsvorgaben für das Areal defi-
+niert und das Entwicklungskonzept für das Areal durch die Stadt Baden erstellt werden.
+
+Entwicklungskonzept
+Aufgrund des Richtprojekts erarbeitete die Stadt Baden ein Entwicklungskonzept für
+das Areal. Dieses enthält die wesentlichen Erkenntnisse zu den Themen Städtebau,
+Landschaft und Verkehr und definiert die Leitlinien für die Entwicklung des Areals. Mit
+wenigen Abweichungen diente das Entwicklungskonzept als Grundlage für den Pro-
+jektwettbewerb.
+
+Konkret wurden auf der Grundlage des Entwicklungskonzepts folgende Vorgaben für
+den Wettbewerb formuliert:
+   −− Perimeterabgrenzung / 3 Baufelder und 2 Korridore
+   −− Dichte
+   −− Nutzungen
+   −− Aussenraum / zentraler Platz als Bindeglied zum Hochhaus
+
+
+
+
+                                                    Abbildung 4: Aussenraumplan Brisgi-Areal
+
+
+Perimeter und Baufelder
+
+Für den Wettbewerb wurden ein Betrachtungs- und ein Projektperimeter festgelegt. Der
+Betrachtungsperimeter soll eine gesamtheitliche Gestaltung des Areals sicherstellen – er
+entspricht grösstenteils der Parzelle 2340. Hochbauten sind ausschliesslich im Projekt-
+perimeter zulässig. Seine Abgrenzung und die aufgeführten Baufelder 1−3 leiten sich aus
+dem Entwicklungskonzept ab und geben die massgebliche städtebauliche Idee vor.
+
+Bestehende Bauten
+
+Das bestehende Hochhaus sowie die Punkthäuser bleiben unverändert und sind nicht
+Bestanteil des Wettbewerbs. Der Baurechtsnehmer der Parzelle 2340.3 beabsichtigte
+zum Zeitpunkt des Wettbewerbs, seine Bestandsparzelle zu verdichten und auf der Par-
+zelle ein weiteres Punkthaus zu errichten. Die Kapelle im Nordosten des Areals aus dem
+Jahr 1959 wurde mit der Aufnahme in den Gestaltungsplan als einziger Zeuge aus der
+Zeit der Barackensiedlung geschützt.
+Projektwettbewerb Brisgi-Areal | Aufgabenstellung                                       12
+
+
+
+Erschliessung und Parkierung
+
+Das Areal soll auch zukünftig durch die bestehenden Strassen erschlossen und der mo-
+torisierte Verkehr über die bestehende Brisgistrasse geführt werden. Ziel ist, die Zufahrt
+der Tiefgarage im Bereich nördlich der Punkthäuser (Baufeld 1) anzuordnen, damit das
+restliche Areal soweit wie möglich vom oberirdischen Verkehr frei bleibt.
+       Der Langsamverkehr soll das Areal über die Alte Brisgistrasse erschliessen. Damit
+bietet sich dem Langsamverkehr ein qualitativ hochwertiger Auftritt in das Areal. Die
+Gebäude der Siedlung sowie die Begegnungsräume der drei Baufelder sind sorgfältig
+untereinander mit Fusswegen zu verbinden. Ein besonderes Augenmerk gilt der fussläu-
+figen Anbindung der Brisgistrasse über den Böschungsbereich. Das arealinterne Fuss-
+wegnetz musste auf die übergeordnete Erschliessung eingehen.
+
+Aussenraum
+
+Die Bebauung der einzelnen Baufelder soll nach Süden die urbane Situation zur Bahn
+aufnehmen und diese weiterführen. Auf der nördlichen Seite ist durch die Bebauung
+eine «grüne» und offene Situation zur Landschaft herzustellen. Jedes Baufeld soll ein
+Zentrum besitzen, das als Erschliessungs- und Gemeinschaftsbereich fungiert und eine
+quartierbildende Wirkung entfaltet.
+        Für die Umgebung ist eine robuste Struktur gefordert, die es den zu erwartenden
+Nutzergruppen ermöglicht, sich die Aussenräume differenziert anzueignen. Gewünscht
+ist ein zusammenhängender, gut organisierter Freiraum, der vielseitige Spiel- und Auf-
+enthaltsangebote für alle Altersklassen aufweist. Das Projekt soll den Prinzipien einer
+naturnahen Siedlungsumgebung folgen.
+
+Baurechtliche Bestimmungen
+
+Das Brisgi-Areal war gemäss der zum Zeitpunkt des Wettbewerbs geltenden Bau- und
+Zonenordnung der Stadt Baden (Stand: Dez. 2013) der Wohnzone 4 zugeordnet. Das
+Areal zur Bahnlinie ist als lärmvorbelastetes Gebiet gekennzeichnet. Auf den anderen
+Seiten grenzte das Areal an Grünzonen und Wald. Ein Teil des Areals war als hochwas-
+sergefährdetes Gebiet ausgeschieden.
+       Im Hinblick auf die spätere Ausarbeitung eines Gestaltungsplans für das Areal
+kann gemäss § 8 BauV Kt. Aargau bezüglich Nutzungsart, Anzahl Parkfelder, Lärmemp-
+findlichkeitsstufen, Bauweise, Baumasse und Gebäudeabstände auf einen erhöhten
+Spielraum zurückgegriffen werden. Insbesondere war gemäss §4 BNO Baden im Rah-
+men eines Gestaltungsplans ein zusätzliches Geschoss zulässig, wenn sich dadurch eine
+städtebaulich einwandfreie Lösung erreichen lässt und die Nachbargrundstücke nicht
+übermässig beeinträchtigt werden.
+
+Nutzungen
+
+Insgesamt sollen auf dem Areal rund 15‘000 m² HNF umgesetzt werden. Mindestens
+90% sind für kostengünstigen Wohnungsbau vorzusehen. Davon sind 10% der Wohn-
+flächen so flexibel zu planen, dass diese zu einem späteren Zeitpunkt zu Gewerbeflächen
+umgenutzt werden könnten. Zusätzlich sollen gewerblich nutzbare Einheiten (Gastro-
+nomie, Kleingewerbe, Ateliers, Quartierversorger, etc.) im Erdgeschoss untergebracht
+werden, die 10% der gesamten HNF einnehmen.
+
+Wohnkonzept
+Die Wohnbaustiftung Baden wünscht sich möglichst vielseitige Wohnkonzepte, um ei-
+ner in Alter und Lebensweise differenzierten Bewohnerschaft Raum zu bieten. Auf dem
+Projektwettbewerb Brisgi-Areal | Aufgabenstellung                                       13
+
+
+
+durch Wohnnutzung geprägten Areal sollen neben Familienwohnungen auch Mehrper-
+sonenhaushalte wie Wohngemeinschaften, Senioren-WGs oder Mehrgenerationenwoh-
+nen etabliert werden.
+
+Einerseits sind Familienwohnungen mit konventionellen Grundrissen und 3.5 bis 4.5
+Zimmern anzubieten. Anderseits ist gewünscht, dass sich die Wohnsituation durch
+Wohnjoker und zumietbare Zimmer verschiedenen Lebensphasen anpassen kann.
+       Grosswohnungen für Wohngemeinschaften mit bis zu 14 Personen oder Senio-
+ren-WGs sollen durch das Zusammenschalten von 4.5- bis 5.5-Zimmer-Wohnungen ge-
+bildet werden können.
+
+Wohnungsmix / Wohnungsgrössen
+Um kostengünstigen Wohnungsbau zu erstellen, waren folgende Angaben zu Woh-
+nungsmix und Wohnungsgrössen zu berücksichtigen:
+
+Wohnungstyp		                          Wohnungsspiegel		             HNF m²
+Zumietbare Zimmer		                    projektabhängig
+1.5-Zimmer (Wohnjoker)                 12 Stk.				30
+2.5-Zimmer			10%				55
+2.5-Zimmer			10%				60
+3.5-Zimmer			20%				70
+3.5-Zimmer			20%				80
+4.5-Zimmer			15%				95
+4.5-Zimmer			15%				105
+5.5-Zimmer 			10% 				115
+Grosswohnungen		                       6 Stk., aus 4.5- und 5.5-Zimmer-Wohnungen gebildet
+
+Ökologische Nachhaltigkeit
+
+Die Bauherrschaft suchte Projekte, die in allen Dimensionen nachhaltig sind. Damit sind
+auch Umwelt- und Klimaperspektive wichtig. Die Bauten sollen insbesondere energie-
+und ressourceneffizient geplant und erstellt werden sowie im laufenden Betrieb mög-
+lichst geringe Emissionen erzeugen.
+       Der Standard Minergie ist im Rahmen des Gestaltungsplans vorgeschrieben. Um
+jedoch die Ziele betreffend ökologischer Nachhaltigkeit auch in der weiteren Planung
+einfliessen, begleiten und überprüfen zu lassen, strebte die Bauherrschaft das aktuell
+gebräuchlichste der anspruchsvollen Labels an, den Standard Minergie-P-Eco.
+
+Wirtschaftlichkeit
+
+Der Wirtschaftlichkeit des Projekts bezüglich Investitions-, Unterhalts- und Betriebskos-
+ten kam grosse Bedeutung zu. Die Entwürfe sollten mit kompakten Volumen, einfachen
+Konstruktionen und wertigen Materialien ein Projekt gewährleisten, das in Erstellung,
+Betrieb und Unterhalt sowohl günstig als auch robust ist. Um ihren Auftrag zu erfüllen,
+musste sich die Wohnbaustiftung Baden am unteren Rand möglicher Erstellungskosten
+für Neubauten bewegen. Deshalb waren einerseits die Wohnungsgrössen gemäss Raum-
+programm einzuhalten und andererseits kostentreibende Elemente (komplizierte Kons-
+truktionen, teure Materialien, aufwändige Gebäudeformen) zu vermeiden.
+Projektwettbewerb Brisgi-Areal | Beurteilung                                          14
+
+
+
+
+Beurteilung
+Die öffentlichen Beurteilungen des Projektwettbewerbs fanden am 13. und 22. Septem-
+ber im Badener Amtshimmel statt. Die Sach- und Fachpreisrichter waren während der
+beiden Beurteilungstage vollzählig anwesend. Am ersten Beurteilungstag nahmen neun,
+am zweiten Beurteilungstag sechs Gäste teil.
+       Die Eingabefrist für die Projekte war im Wettbewerbsprogramm definiert. Für
+Pläne und Unterlagen galt der 23. August, für das Modell der 30. August 2016, 16 Uhr.
+
+Vorprüfung
+Die Vorprüfung erfolgte vom 24. August bis 9. September unter Federführung der Me-
+tron Raumentwicklung AG. Die Ergebnisse wurden in einem nicht wertenden Bericht
+festgehalten, der dem Preisgericht zu Beginn des 1. Jurytages abgegeben wurde.
+
+Ergebnisse formelle Vorprüfung
+Alle zehn im Rahmen der Präqualifikation zur Teilnahme am Projektwettbewerb ausge-
+wählten Teams reichten ihre Projektbeiträge termingerecht und unter Einhaltung der
+Anonymität bei der Abgabestelle ein. Sämtliche Wettbewerbsprojekte wurden mit Aus-
+nahme geringfügiger Teilleistungen vollständig eingereicht.
+
+Ergebnisse materielle Vorprüfung
+Die Projekte wurden im Hinblick auf die im Wettbewerbsprogramm sowie in der Fra-
+genbeantwortung formulierten Anforderungen geprüft: Einhaltung von Perimeter,
+Entwicklungskonzept und baurechtlicher Bestimmungen sowie Vorgaben zu Nutzung,
+Wohnungsmix und -grössen, Erschliessung und Parkierung, Wirtschaftlichkeit und
+Nachhaltigkeit. Dabei zeigten sich diverse Abweichungen von Vorgaben des Wettbe-
+werbsprogramms. Zudem wurden Kennwerte für die Beurteilung der Nachhaltigkeit
+und Wirtschaftlichkeit der Projekte ermittelt.
+
+Zulassung zur Beurteilung
+Das Preisgericht beschloss einstimmig, sämtliche zehn eingereichten Projekte zur Beur-
+teilung zuzulassen, da sich kein Team gegenüber den anderen einen wesentlichen Vor-
+teil verschaffen konnte und alle Projekte prüf- und beurteilbar waren.
+
+Individuelles Einlesen
+Zu Beginn des ersten Jurytages hatten die Mitglieder des Preisgerichts Zeit, sich in ei-
+nem individuellen Rundgang in die Projekte einzulesen. Jedes Projekt wurde je einer
+Fachperson Städtebau, Architektur und Landschaftsarchitektur zur vertieften Betrach-
+tung zugeteilt.
+
+Beurteilungskriterien
+Die Beurteilung der Projekte erfolgte anhand folgender, im Programm formulierter Be-
+urteilungskriterien (Reihenfolge ohne Gewichtung):
+    −− Städtebauliches Konzept und architektonische Qualität
+    −− Funktionalität / Betrieb
+    −− Konzept Gestaltung Aussen- und Freiräume
+    −− Wirtschaftlichkeit / Nachhaltigkeit
+
+Informationsrundgang
+Der Informationsrundgang wurde im Plenum durchgeführt. Dabei präsentierten Fach-
+personen die ihnen zugeteilten Projektvorschläge nacheinander wertungsfrei, und an-
+schliessend erfolgte eine Diskussion im Plenum.
+Projektwettbewerb Brisgi-Areal | Beurteilung                                            15
+
+
+
+1. Wertungsrundgang
+In einem ersten Wertungsrundgang wurden alle Projekte intensiv diskutiert und hin-
+sichtlich der Beurteilungskriterien bewertet. Zudem erläuterten Fachexperten die Er-
+gebnisse der Vorprüfung in Bezug auf Baurecht, Raumprogramm, Erschliessung und
+Nachhaltigkeit. Im Fokus der inhaltlichen Diskussion des ersten Rundgangs standen
+Städtebau, Architektur, Aussenraum und Nutzeranforderungen. Aufgrund der festge-
+stellten Schwächen – insbesondere hinsichtlich der städtebaulichen und architektoni-
+schen Konzepte sowie der Nutzeranforderungen – beschloss das Preisgericht einstim-
+mig, die fünf Projekte ALLMEND, GOOD MORNING SUNSHINE, I SUOI FRATELLI,
+LINDGREN & JACOBSEN und NEIGHBOURHOOD im ersten Wertungsrundgang aus-
+zuscheiden.
+
+Kontrollrundgang
+Während des anschliessenden Kontrollrundgangs wurden die vorgenommenen Bewer-
+tungen überprüft und die Ausscheidungen im 1. Rundgang bestätigt.
+
+2. Wertungsrundgang
+Zu Beginn des zweiten Jurytages wurden die zwischenzeitlich angefertigten provisori-
+schen Projektbeschriebe im Plenum vorgelesen und besprochen. Zudem erläuterten Fa-
+chexperten die Ergebnisse der Vorprüfungen bezüglich Brandschutz, Hindernisfreiheit
+sowie Wirtschaftlichkeit. In einem anschliessenden zweiten Wertungsrundgang wurden
+die verbleibenden Projekte noch einmal einer vertieften Diskussion unterzogen und die
+bisherigen Bewertungen überprüft. Im Lauf dieser Diskussionen bestätigte sich die Er-
+kenntnis, dass die Projekte GÄRTNERKONSTRUKTION und TREFIORI im Vergleich
+zu den übrigen Projektvorschlägen hinsichtlich wichtiger Kriterien weniger zu überzeu-
+gen vermochten. Das Preisgericht beschloss deshalb einstimmig, diese beiden Projekte
+im zweiten Wertungsrundgang auszuscheiden.
+
+Kontrollrundgang
+Im Anschluss an eine Arealbegehung wurden im Rahmen eines erneuten Kontrollrund-
+gangs die vorgenommenen Bewertungen und die bisherigen Ausscheidungen erneut
+überprüft. Dabei zeigte sich, dass das Projekt GÄRTNERKONSTRUKTION aufgrund
+einzigartiger Qualitäten trotz vergleichsweise schlechter Wirtschaftlichkeit einen wert-
+vollen Beitrag darstellt. Das Preisgericht entschied deshalb einstimmig, dieses Projekt in
+die engere Wahl zurückzuholen.
+
+Festlegung Rangierung / Preiserteilung
+Im Verlauf der Diskussion zeichnete sich ab, dass die beiden Projekte KANDALAMA
+und LUCUS innerhalb der verbleibenden Projekte die höchsten Qualitäten versprechen.
+Obwohl dem Projektvorschlag UNA CITTADINA VERA eine hochwertige Architektur
+und gute Wohnqualitäten attestiert werden, vermochte er das Preisgericht insbesondere
+hinsichtlich der städtebaulichen Gesamtkonzeption nicht hinreichend zu befriedigen.
+Nach weiteren intensiven Diskussionen, bei denen insbesondere nochmals die beiden
+bestbewerteten Projekte KANDALAMA und LUCUS hinsichtlich der Erfüllung der Beur-
+teilungskriterien miteinander verglichen wurden, beschloss das Preisgericht einstimmig
+folgende Rangierung und Preiserteilung:
+
+1. Rang / 1. Preis           KANDALAMA			                 CHF 65‘000
+2. Rang / 2. Preis           LUCUS 				                   CHF 55‘000
+3. Rang / 3. Preis           UNA CITTADINA VERA           CHF 30‘000
+4. Rang / 4. Preis           GÄRTNERKONSTRUKTION          CHF 25‘000
+Projektwettbewerb Brisgi-Areal | Empfehlungen                                        16
+
+
+
+
+Empfehlungen
+Das Preisgericht empfiehlt einstimmig das Projekt KANDALAMA zur weiteren Bearbei-
+tung und zur Ausführung. Dabei wird empfohlen, im Rahmen der weiteren Überarbei-
+tung des Projektes insbesondere die nachfolgend aufgeführten Punkte zu überprüfen
+bzw. anzupassen:
+   −− Die Zugangssituationen von der neuen Brisgistrasse zu den jeweiligen Clusterhö-
+      fen erscheinen zu wuchtig und sind insbesondere auch bezüglich Hindernisfrei-
+      heit noch nicht optimal gelöst.
+   −− Im Gegensatz dazu ist die Erschliessung des Quartierplatzes zu Fuss und mit dem
+      Velo eher unklar und steht im Konflikt mit derjenigen der einzelnen Cluster. Eine
+      klare, eigenständige Erschliessungslösung wäre wünschenswert.
+   −− Im Sockel-/Platzbereich der Cluster sollen flexibel nutzbare Räume in Abhängig-
+      keit ihrer Lage für Wohn- oder Gewerbenutzung priorisiert werden.
+   −− Die Zugänge von den Laubengängen zu den Wohnungen erfolgen teilweise sehr
+      unvermittelt und exponiert und sollen zugunsten der Privatsphäre verbessert
+      werden. Beim den östlichen Baukörpern ist der Laubengang auf der Westseite zu
+      hinterfragen.
+   −− Holzkonstruktionen und -fassaden sind aus ökonomischer und feuerpolizeilicher
+      Sicht zu optimieren.
+   −− Die Parkierung für Autos als auch für Velos ist weiterzuentwickeln.
+Projektwettbewerb Brisgi-Areal | Dank und Würdigung                                  17
+
+
+
+
+Dank und Würdigung
+Der Wettbewerb stellte die Teilnehmenden vor eine komplexe Aufgabe. So soll im Bris-
+gi-Areal eine Siedlung mit hoher Wohnqualität entstehen, die den Bedürfnissen und
+Lebensformen verschiedener Generationen entspricht und das Quartier Kappelerhof
+spürbar aufwertet. Gleichzeitig hatten die Teilnehmenden die städtebaulichen und ar-
+chitektonischen Anforderungen, die speziellen Gegebenheiten der Topografie, die damit
+verbundenen Fragen der Erschliessung und den sensiblen Einbezug der Bestandsbauten
+zu berücksichtigen
+
+Die Veranstalterin und das Preisgericht sind beeindruckt vom kreativen Umgang mit
+diesen Vorgaben. Zwar vermochte in allen Projekten die Gestaltung des Aussenraums
+wenig zu überzeugen. Hier hätte sich das Preisgericht eine vertieftere Auseinanderset-
+zung mit dem Kontext und den Nutzungsvorstellungen gewünscht. Städtebaulich und
+architektonisch bieten die eingereichten Projekte aber ein breites Spektrum an quali-
+tativ hochstehenden und bereits vertieft bearbeiteten Beiträgen. Die grosse Vielfalt an
+aufgezeigten Lösungen ermöglichte eine umfassende Auslegeordnung und Diskussion.
+Die Veranstalterin und das Preisgericht danken allen Teilnehmenden herzlich für ihr
+grosses Engagement.
+
+Mit KANDALAMA schlägt das Preisgericht ein Projekt zur Weiterbearbeitung vor, das
+bestechende Qualitäten aufweist − sowohl aus städtebaulicher und architektonischer
+Sicht als auch aus der Perspektive der zukünftigen Nutzung. Das Siegerprojekt formu-
+liert eine überzeugende Antwort auf die gestellten Anforderungen und verspricht die
+Entstehung eines identitätsstiftenden Quartierteils mit hoher Lebensqualität.
+Projektwettbewerb Brisgi-Areal | KANDALAMA                                             18
+
+
+
+
+KANDALAMA
+1. RANG / 1. PREIS - Empfehlung zur Weiterbearbeitung
+
+                                                                                            Städtebau/Architektur
+                                                                                            Müller Sigrist AG, Zürich
+                                                                                            Meier Leder Architekten
+                                                                                            AG, Baden
+                                                                                            Pascal Müller
+                                                                                            Rolf Meier
+                                                                                            Roger Casagrande
+                                                                                            Blaz Hartmann
+                                                                                            Sandra Stutz
+                                                                                            Foteini Adrimi
+                                                                                            Oliver Schelker
+
+                                                                                            Landschaftsarchitektur
+                                                                                            DGJ Daniel Jauslin Arch.
+                                                                                            & Landscapes,
+                                                                                            Den Haag/Zürich
+                                                                                            Daniel Jauslin
+                                                                                            Daphne Keegstra
+                                                                                            Ward Maaswinkel
+                                                                                            Andreea Armeanu
+
+                                                                                            Holzbauingenieur
+Die Verfassenden haben aufgrund ihrer Analyse einen überzeugenden Entwurfsgrund-            Makiol Wiederkehr AG
+satz gefällt. Nämlich, dass sie den Hang im Schnitt von der Brisgistrasse bis zur Ebene     Ingenieure Holzbau
+des Flussraumes in drei Stufen gliedern, um damit einen räumlichen Bezug vom Kap-           Brandschutz, Beinwil am
+                                                                                            See
+pelerquartier bis zur Ebene am Flussraum zu schaffen. Der vorgeschlagenen Bebauung
+                                                                                            Peter Makiol
+liegt diese Gliederung zu Grunde. Dem gemäss werden drei Gebäudegruppen mit jeweils
+drei gut gegliederten Baukörpern um eine platzartige Fläche angeordnet. Die Gebäude-        Bauakustik
+gruppen sind als Nachbarschaften aus einem Gebäude an der Brisgistrasse, einem Ge-
+                                                                                            Steigmeier Akustik und
+bäude im Hang und einem Gebäude auf der Platzebene gebildet. Das Gebäude an der             Bauphysik GmbH, Baden
+Brisgistrasse gibt der Nachbarschaft eine klare Adresse, wertet die Brisgistrasse auf und
+                                                                                            Jürg Steigmeier
+ermöglicht den barrierefreien Zugang. Diese Setzung nimmt Bezug zum Siedlungsge-
+füge auf der gegenüberliegenden Bahnseite und es wird gleichzeitig eine starke Einbin-
+dung in den Landschaftsraum geschaffen.
+       Die Erschliessung von der Brisgistrasse über einen gemeinsamen Vorplatz und
+die Treppenanlage in Hangrichtung betont die Grundidee des Entwurfes. Es wird eine
+unaufgeregte räumliche Dramaturgie von Nähe - zu den mit den gewerblichen Nutzun-
+gen aktivierten Vorplätzen - und Weite - den Blicken in die Landschaft geschaffen. Die
+gestalterische Ausformulierung der Brisgistrasse, ist jedoch nur schematisch dargestellt
+und genügt dem Anspruch als Hauptadresse und Zugangsweg in das Areal nicht. Auch
+der Durchgang zur platzartigen Ebene mit der sehr steilen Treppenanlage wird kritisch
+beurteilt, da unklar bleibt ob er als Element der Topografie oder als Teil der Bebauung
+verstanden werden will. Die Gestaltung des als Teil des Landschaftsraumes interpretier-
+ten Aussenraumes ist auf gut überlegte Elemente mit Aktivitäten konzentriert, welche
+die Qualitäten des Ortes bespielen und somit wahrnehmbar machen.
+        Konsequent aus der Grundidee entwickelt ist die Grundrisstypologie mit der nach
+Innen orientierten Erschliessung über Lauben. Diese sind als Begegnungszonen und mit
+Aufenthaltsbereichen konzipiert, bieten Raum für das gemeinschaftliche Leben und be-
+leben den nachbarschaftlichen Binnenraum im Erdgeschoss zusätzlich.
+       Die Wohnungsgrundrisse sind als Abfolge von Einzelräumen ohne Korridorzo-
+nen konzipiert. Die Wohn-Essräume und Küchen sind teilweise als Grossraum, teilweise
+Projektwettbewerb Brisgi-Areal | KANDALAMA                                             19
+
+
+
+
+als separate Raumzonen ausgebildet, wodurch Wohnungen von sehr unterschiedlichem
+Charakter entstehen. Über eine Vielzahl von Öffnungen zu Zimmern und Nassräumen
+werden vielfältige Raum- und Sichtbeziehungen erzeugt. Diese sind räumlich span-
+nungsvoll haben aber den Nachteil der „Ringhörigkeit“ zur Folge.
+        Alle Wohnungen sind gut besonnt und mehrseitig ausgerichtet. Ein Mangel ist
+das Fehlen eines Wohnungseingangs mit Windfang oder Entrée, der als Übergang zwi-
+schen Gemeinschaft und Wohnung, zwischen Aussen- und Innenklima notwendig wäre.
+Insgesamt wird innerhalb einer einfachen Grundstruktur ein vielfältiges Wohnungsan-
+gebot mit differenzierten Qualitäten geschaffen, welches erlaubt, dass in direkter Nach-
+barschaft unterschiedliche Lebensweisen gelebt werden können.
+        Die Einstellhalle ist auf zwei Gebäudegruppen konzentriert und zu knapp dimen-
+sioniert. Dies zeigt sich in den zu engen Fahrgassen und den Parkplatzbreiten ohne Zu-
+schlag für die Stützenbreite.
+        Die Materialität der Fassadengestaltung ist stimmig und fügt sich angenehm in
+den baumbestandenen Landschaftsraum ein. Das hybride Konstruktionssystem aus
+Massivbau und Holzelementbau ist plausibel dargelegt und bringt die notwendigen Vor-
+teile, die zur Erreichung der ökologischen Zielsetzungen benötigt werden. Es handelt
+sich um ein wirtschaftlich optimiertes Projekt. Dies zeigt sich an den optimierten Steig-
+zonen und Untergeschossen und insgesamt der guten Flächeneffizienz des Projektes.
+Die aufwändige Fassadenkonstruktion schmälert diesen Eindruck.
+        Das Projekt zeichnet sich durch eine gesamtheitliche Haltung gegenüber der
+Aufgabenstellung aus, welche stadträumliche, soziale und technische Aspekte in einen
+schlüssigen Zusammenhang bringt. Dies zeigt sich auch an den Vorschlägen zur Vernet-
+zung und der städtebaulichen Einbindung über den Projektperimeter hinaus, wie auch
+im detaillierten Blick auf die qualitätsvollen Elemente des Freiraums.
+        Das Projekt überzeugt mit dem Statement des gemeinschaftlichen Wohnens, wel-
+ches überzeugend ausgearbeitet ist und als Versprechen für die Aufwertung des gesam-
+ten Brisgiareals verstanden wird.
+Projektwettbewerb Brisgi-Areal | KANDALAMA                                            20
+
+
+
+
+                                             Grundriss Platzgeschoss, Cluster West
+
+
+
+
+                                             Grundriss 1.Obergeschoss, Cluster West
+           Projektwettbewerb Brisgi-Areal | KANDALAMA                                     21
+
+
+
+
+Grundriss 3,5 Zimmer-W0hnung mit Jokerzimmer            Konstruktive Vertiefung Fassade
+
+
+
+
+                                                        Schnitt A, Cluster West
+
+
+
+
+                                                        Schnitt B, Cluster West
+Projektwettbewerb Brisgi-Areal | LUCUS                                                       22
+
+
+
+
+LUCUS
+2. RANG / 2. PREIS
+
+                                                                                                   Städtebau/Architektur
+                                                                                                   Edelaar Mosayebi
+                                                                                                   Inderbitzin Architekten,
+                                                                                                   Zürich
+                                                                                                   Ron Edelaar
+                                                                                                   Elli Mosayebi
+                                                                                                   Christian Inderbitzin
+                                                                                                   Simon Cheung
+                                                                                                   Thomas Toffel
+                                                                                                   Lukas Burkhart
+                                                                                                   Jenna Buttermann
+
+                                                                                                   Landschaftsarchitektur
+                                                                                                   Hoffmann & Müller
+                                                                                                   Landschaftsarchitektur
+                                                                                                   AG, Zürich
+                                                                                                   Andreas Hoffmann
+                                                                                                   Ana Navarro
+
+
+
+
+Die Verfassenden von LUCUS orientieren sich nicht an den städtebaulichen Defiziten des Or-
+tes, wünschen sich keine neue, erzwungene Urbanität, sondern generieren ihre Entwurfsidee
+aus den vorhandenen, ortspezifischen Qualitäten. Auf Grund einer sorgfältigen Analyse orten
+sie das Potenzial im Landschaftsraum mit seinem dicht bewaldeten Flussraum im Norden, der
+markanten Böschungskante im Süden und der Homogenität des Bodens, welche in dem Fall
+aus Wiesland besteht. Gleichzeitig ist die Insellage, durch die topographischen Verhältnisse und
+die trennenden Infrastrukturbauten von Bahn und Strasse bedingt herausragendes Merkmal.
+Diese ‚Isoliertheit’ wird konsequent verstärkt, indem mit zusätzlichen Bäumen entlang der Bö-
+schung ein zentraler Raum freigespielt wird, welcher zur Waldlichtung wird. In diesen ausge-
+sparten Raum wird ein zusammenhängender, grossmässstäblicher Gebäudekomplex gesetzt,
+welcher aus drei raumgreifenden Baukörpern gebildet wird. Mit nur vier Geschossen duckt er
+sich unter die raumwirksame Böschungskante und bildet mit seiner flächigen Haltung einen
+kompositorischen Kontrapunkt zu den markanten Hochbauten aus den Sechzigerjahren.
+       Die Erschliessung des Areals knüpft an der bestehenden, alten Brisgistrasse an und
+führt selbstverständlich auf die mittige Platzfigur, welche zentraler Ausgangspunkt für
+sämtliche Erschliessungsstränge wird. Folgerichtig werden auch hier die gewerblichen und
+gemeinschaftlichen Nutzungen angeordnet. Die Radikalität des Erschliessungssystems hat
+seinen Preis: Beim nördlichsten Gebäude sind die Hauszugänge nicht an den zentralen
+Raum angeschlossen und wirken auf Grund der Länge des Gebäudes abgehängt und im
+Innern resultieren teilweise unattraktive Korridorlängen.
+       Dank den Zuordnungen der Quartierplätze mit Lindenhain, dem Baumhain als Spiel-
+ort, den Allmendflächen und den wiesenartigen Hofräumen entsteht ein klar verständliches
+Freiraumkonzept mit abgestuften Raumöffentlichkeiten. Nach Süden greifende Gebäudear-
+me bilden wohlproportionierte hofartige Freiräume, welche von den jeweiligen Bewohnern
+Projektwettbewerb Brisgi-Areal | LUCUS                                                    23
+
+
+
+
+angeeignet werden können. Eine grosse Mehrheit der Wohnungen ist nach Süden orientiert
+und weist eindrückliche Qualitäten auf: Analog zum ortsbaulichen Konzept, welches mit we-
+nigen, präzise gesetzten Massnahmen auskommt, basieren auch die Wohnungen auf einem
+klaren, einfachen Raumkonzept, welches gleichzeitig eine Vielfalt an Nutzungsmöglichkeiten
+und Raumbezügen zulässt. Eine vorgesetzte Verandaschicht macht den Bezug zum Land-
+schaftsraum deutlich und bildet einen attraktiven reichhaltig nutzbaren Aussenraum.
+       Die Nutzung des Daches für gemeinschaftliche, informelle Aktivitäten über die Wasch-
+küchen wird begrüsst, die gemeinschaftlichen Gärten allerdings sind gebäudetypologisch
+schwer vorstellbar. Die Klarheit des Freiraumkonzepts würde eine Aufnahme dieser Nutzung
+auf gewachsenem Boden selbstverständlich zulassen und den von der Stiftung vermissten klein-
+räumlichen Gemeinschaftsarealen im Freiraum könnte somit gleichzeitig entsprochen werden.
+       Der architektonische Ausdruck oszilliert mit seinen überdimensionierten, schweren
+Betonpfeilern und der fragilen Holzverkleidung zwischen einer brutalistischen Architek-
+tursprache, welche sich eher an den Bestandesbauten der Sechzigerjahre orientiert und ei-
+ner Architektur, welche Assoziationen mit Holzbauten aus Nordeuropa weckt und mit der
+Situation des Landschaftsraums in Verbindung gebracht werden kann.
+       Mit einer sehr präzise gesetzten Grossform schaffen es die Verfasser auf faszinieren-
+de Art das Grundstück als landschaftsräumliche Einheit zu verstehen, in der die Bauten
+nicht eine Neuinterpretation des Areals bewirken, sondern eine Lesart des Bestands vor
+Augen führen, welche sämtlichen Wohnungen eine attraktive Lage im Landschaftsraum
+der Waldlichtung ermöglicht und gleichzeitig dem Hochhaus seinen adäquaten Aussen-
+raum zuführt. Dieser überzeugende, freiräumliche Entscheid impliziert leider das Manko
+des Projektes, in dem das von der Stiftung so sehr gewünschte kleinräumliche und vielfälti-
+ge, gemeinschaftliche Aussenraumangebot fehlt.
+Projektwettbewerb Brisgi-Areal | LUCUS                    24
+
+
+
+
+                                         Grundriss Erdgeschoss. Cluster mittig
+
+
+
+
+                                         Grundriss Regelgeschoss, Cluster mittig
+Projektwettbewerb Brisgi-Areal | LUCUS                                     25
+
+
+
+
+Exemplarischer Wohnungsgrundriss         Konstruktive Vertiefung Fassade
+
+
+
+
+                                         Schnitt A
+
+
+
+
+                                         Schnitt B
+Projektwettbewerb Brisgi-Areal | UNA CITTADINA VERA                                      26
+
+
+
+
+UNA CITTADINA VERA
+3. RANG / 3. PREIS
+
+                                                                                              Städtebau/Architektur
+                                                                                              Oester Pfenninger
+                                                                                              Architekten AG, Zürich
+                                                                                              Hanspeter Oester
+                                                                                              Reto Pfenninger
+                                                                                              Denise Ulrich
+                                                                                              Marlen Lanz
+                                                                                              Andreas Weiz
+                                                                                              Maxime Zaugg
+
+                                                                                              Landschaftsarchitektur
+                                                                                              Nipkow
+                                                                                              Landschaftsarchitektur
+                                                                                              BSLA SIA, Zürich
+                                                                                              Beat Nipkow
+                                                                                              Patrick Matter
+
+
+
+
+Drei beinahe identische Gebäudegruppen, linear am Fusse des Hangs aufgereiht, bilden
+zusammen mit den beiden Bestandesbauten im Westen ein ruhiges Feld punktartiger
+Bauten, welches dem Brisgi-Hochhaus einen adäquaten Vordergrund verleiht. Die To-
+pographie bleibt dabei weitgehend unangetastet und wo sie es gleichwohl ist, lässt sie
+ihren ursprünglichen Verlauf noch immer gut erahnen. Der Eintritt in die Anlage führt
+über die alte Brisgistrasse, welche sich linear mitten durch die neuen Gebäudecluster
+bis ans Westende des Perimeters fortsetzt. Die äusserst einfache Konzeption vermag
+eine solide Ausgangslage für guten und erschwinglichen Wohnungsbau zu schaffen. Mit
+einem ruhigen, aus der Gebäudestruktur abgeleiteten Gestaltungsprinzip wird ein ver-
+trauter Ausdruck erzielt, der sich mit dem des Bestandes zu einem beinahe zeitlosen
+Gesamtbild paart. So sehr die Konzeption auch faszinieren mag, kommen gleichzeitig
+auch Zweifel auf. Es stellt sich vor allem die Frage, ob eine derartige geglückte räumliche
+Situation, die sich durch ein sorgsames Zusammenrücken dreier Häuser zur einem star-
+ken Ensemble mit Solitärcharakter entwickelt, sich ohne Weiteres dreimal wiederholen
+lässt und in der Folge diesem linearen Wegabschnitt dreimal das gleiche Raumerlebnis
+vermitteln soll. Im Weiteren ist das Hochhaus nur schlecht in die Wegführung einge-
+bunden.
+       Der zentrale Platz des jeweiligen Gebäudeclusters verspricht mit den vielfältigen
+Gewerbenutzungen und den dort direkt abgehenden Hauszugängen reges Leben. Seine
+Dimension ist städtischen Verhältnissen entlehnt und in der Folge sind auch verwand-
+te Raumwirkungen zu erwarten. Interessant ist auch der Umgang mit den jeweiligen
+Sockelgeschossen. Sie sind in den unteren Geschossen überhöht und gegenüber dem
+Hauptkörper gezielt andersartig ausgebildet. Auf diese Weise wird nicht nur das Ge-
+werbe gegenüber dem Wohnen sichtbar abgegrenzt, es gelingt auch, dem ersten Wohn-
+Projektwettbewerb Brisgi-Areal | UNA CITTADINA VERA                                  27
+
+
+
+
+geschoss über dem Gewerbe einen wirksamen Sichtschutz wie auch einen Mehrwert in
+Form eines vergrösserten Aussenraumes zu entwickeln.
+       Die Wohnungen sind ausnahmslos von hoher Qualität. Sie sind effizient erschlos-
+sen und kompakt ausgebildet. Ein breites Angebot an Wohnungstypen vermag gezielt
+auf die unterschiedlichsten Lagequalitäten in Bezug zu Besonnung und Ausrichtung in
+schöne Raum- Landschaftskammern antworten. Wenn immer möglich, sind die Wohn-
+zimmer durchwohnend organisiert und in allen übrigen Fällen sind sie es längsseitig zur
+Fassade. Mögen die Wohnungen noch so klein sein, immer bleibt Raum für kleine Ereig-
+nisse, wie beispielsweise eine mehrfache Zirkulation durch die Wohnung, unerwartete
+Abkürzungen oder eine Inselküche mit gleichzeitigem Blick ins Entree wie ins Wohnen.
+Sämtliche Zimmer sind gut proportioniert - namentlich die Schlafzimmer. Diese kön-
+nen, dank ihrem nutzungsneutralen Zuschnitt, immer sowohl Eltern- wie auch Kinder-
+zimmer sein.
+       Der sorgsame Umgang mit Bestehendem und den daraus entwickelten Qualitäten
+des Aussenraums ist eines der tragenden Elemente der Konzeption. Mit der geschickten
+Wegeführung durch die Gebäudeensembles entstehen begehbare Raumfolgen mit un-
+erwarteten Ausblicken in die Landschaftskammer. Das Aussenraumkonzept überzeugt
+durch seine präzisen Aussagen im Bestand und seiner Einfachheit.
+       Mit dem Projekt UNA CITTADINA VERA wird eine Konzeption geboten, die pro-
+grammatisch das Einfache sucht; die Terrainbewegungen bleiben moderat und die pris-
+matischen Baukörper ohne Attikageschosse sind konstruktiv einfach zu bewältigen. Die
+Häusergruppen sind sehr schön und strahlen einzeln betrachtet etwas Einmaliges aus.
+Als lineare Sequenz mit Einbezug des Hochhauses überzeugen sie weniger.
+Projektwettbewerb Brisgi-Areal | UNA CITTADINA VERA                                             28
+
+
+
+
+                                                      Grundriss Erdgeschoss, Cluster West
+
+
+
+
+                                                      Grundriss 1. Obergeschoss, Cluster West
+Projektwettbewerb Brisgi-Areal | UNA CITTADINA VERA                                     29
+
+
+
+
+Grundriss 3.5 Zimmer-Wohnung 2 ( 75 m2 )              Konstruktive Vertiefung Fassade
+
+
+
+
+                                                      Querschnitt, Cluster West
+
+
+
+
+                                                      Längsschnitt (Auszug)
+Projektwettbewerb Brisgi-Areal | GÄRTNERKONSTRUKTION                                    30
+
+
+
+
+GÄRTNERKONSTRUKTION
+4. RANG / 4. PREIS
+
+                                                                                             Städtebau/Architektur
+                                                                                             Schneider Studer Primas
+                                                                                             GmbH, Zürich
+                                                                                             Franziska Schneider
+                                                                                             Jens Studer
+                                                                                             Urs Primas
+                                                                                             Aline Brun
+                                                                                             Zach Kimberling
+                                                                                             Nicola Rothenbühler
+
+                                                                                             Landschaftsarchitektur
+                                                                                             Lorenz Eugster
+                                                                                             Landschaftsarchitektur
+                                                                                             und Städtebau GmbH,
+                                                                                             Zürich
+                                                                                             Lorenz Eugster
+                                                                                             Alexander Schuech
+                                                                                             Susanne Büttner
+                                                                                             Svenja Oehlerking
+
+                                                                                             Bauingenieur
+                                                                                             Schnetzer Puskas
+                                                                                             Ingenieure AG, Zürich
+                                                                                             Stefan Bärziger
+
+                                                                                             HLKSE - Planung
+                                                                                             Waldhauser + Hermann
+Es sind nicht die umliegenden klein- und grossmassstäblichen Siedlungsmuster, die die-       AG Ingenieurbüro USIC
+ses Projekt zu einer Konzeption inspirieren. Es ist vielmehr der Landschaftsraum, der        SIA
+dank seiner Einmaligkeit Stoff genug bietet, um daraus eine architektonische Idee ab-        Marco Waldhauser
+zuleiten. Der Ansatz ist einfach und fasziniert sehr. Die gefasste Raumkammer wandelt
+                                                                                             Visualisierungen
+sich zum durchwegten Landschaftsgarten, wo sich beinahe unmerklich Erdschollen zu
+Gebäuden erheben. So entstehen unter dem starken Diktat der Wegführung neun Bau-             space communication
+                                                                                             GmbH, Zürich
+körper, die die Schnittmenge dreier ovaler Eingriffsfelder mit dem Wegenetz darstellen.
+                                                                                             Giulio Kofi Armin Wagner
+Alle neun Gebäude bewegen sich mit vier Vollgeschossen noch innerhalb der Regelbau-
+weise.
+       Auf den ersten Blick vermag diese Projektidee zu begeistern und macht an diesem
+Standort auch durchaus Sinn. Aber schon bald drängt sich die Frage auf, ob diese Kon-
+zeption auch wirklich für gute Wohnungen taugen kann und ob sie auch den strengen
+Kriterien des Wohnungsbaus standzuhalten vermag. Gleiches gilt auch für den Umgang
+mit der Dichte und dort verbunden mit der Frage, wie weit sich Baumasse zu einem
+derartigen Konzentrat kumulieren soll, um umliegende Flächen sinnvoll davon zu ent-
+lasten.
+       Die Zugänge zu den Treppenhäusern erfolgen über das Zentrum der jeweiligen Clus-
+ter. Mit einer weiteren Ovalform wird diese Mitte auseinandergespreizt, um dort einen
+übersichtlichen Vorraum zu den Hauseingängen zu schaffen. Da bereits – wohl dem Nut-
+zungsdruck beugend - in vielen Situationen diese Innenzonen des Erdgeschosses mit Woh-
+nen belegt sind, gelingt es in der Folge nicht, diese sensiblen Bereiche mit Gewerbe oder
+Nutzungen mit mehr öffentlichem Charakter überzeugend zu beleben. Auch eine grössere
+Einsicht via Glasflächen in das Innere der Gebäude wäre dort wünschbar. Es könnte mehr
+das Gefühl von Sicherheit vermitteln und damit die Aufenthaltsqualität deutlich aufwerten.
+Projektwettbewerb Brisgi-Areal | GÄRTNERKONSTRUKTION                                 31
+
+
+
+
+Die Wohnungen sind von einer beeindruckend hohen räumlichen Qualität. Als Raum-
+konglomerat, orthogonal entwickelt, sind sie in die übergeordnete Linsenform gekonnt
+eingeschrieben. Dabei entsteht eine dritte Figur: Ein sägezahnförmiger Terrassen-
+bereich, welcher sich zum Mittelgrund zwischen Innen und Aussen entwickelt. Diese
+Raumabfolge von Innen nach Aussen ist derart stark, dass sie in manchen Fällen, ins-
+besondere im Nordsektor eine eingeschränkte Ausrichtung mancher Wohnung zu kom-
+pensieren vermag. Auch die Wegführung in den einzelnen Wohnungen, eine direkte
+Konsequenz der aufgelösten Raumstrukturen, ist sehr spannend, beansprucht aber not-
+gedrungen viel Fläche. Ein weiterer Mangel zeigt sich bei der Auftrennung von Wohn-
+und Koch/Esszonen in separate Räume, um zumindest mit einer von beiden eine bes-
+sere Orientierung zu ermöglichen. All diese Massnahmen bedeuten auch immer einen
+unumgänglichen Flächenzuwachs. Daher bewegen sich die Wohnungsgrössen oft am
+obersten Limit, was wiederum die Wirtschaftlichkeit empfindlich trifft.
+       Auf spielerische Art gelingt es im Aussenraum, ein auf den ersten Blick spannen-
+des, zellenartiges Ordnungssystem mit einer elliptischen Wegegeometrie zu erzeugen.
+Das beschriebene Nachzeichnen der Topografie gelingt beim genauen Hinsehen leider
+nicht. Es entstehen durch diesen letztlich formalen Gestaltungsansatz viele Schwierig-
+keiten der Geländeüberwindung zur Brisgistrasse.
+       Das Projekt überrascht mit einem sehr unkonventionellen Ansatz und schafft da-
+mit einen unmittelbaren Bezug zum Freiraum. Es bricht in vielen Teilen mit den gängi-
+gen Konventionen des Wohnungsbaus und schafft dabei auch Erstaunliches. Dennoch
+gelingt es ihm nicht eine Mehrheit zu überzeugen. Die Gründe liegen in den teilweise zu
+geringen Gebäudeabständen und letztlich auch in den hohen Erstellungskosten.
+Projektwettbewerb Brisgi-Areal | GÄRTNERKONSTRUKTION                      32
+
+
+
+
+                 Grundriss Erdgeschoss, Cluster mittig     Typengrundriss, Cluster West
+
+
+
+
+                 Grundriss Regelgeschoss, Cluster mittig   Konstruktive Vertiefung Fassade
+Projektwettbewerb Brisgi-Areal | GÄRTNERKONSTRUKTION         33
+
+
+
+
+                                                   Schnitt
+
+
+
+
+                                                   Ansicht
+Projektwettbewerb Brisgi-Areal | Allmend                                              34
+
+
+
+
+ALLMEND
+
+                                                                                           Städtebau/Architektur
+                                                                                           Bosshard Vaquer
+                                                                                           Architekten GmbH,
+                                                                                           Zürich
+                                                                                           Meritxell Vaquer
+                                                                                           Daniel Bosshard
+                                                                                           Valentin Lang
+                                                                                           Camilla Moresi
+
+                                                                                           Landschaftsarchitektur
+                                                                                           manoa
+                                                                                           Landschaftsarchitekten
+                                                                                           GmbH, Meilen
+                                                                                           Marie-Noelle Adolph
+                                                                                           Lars Wolfer
+                                                                                           Agata Janowska
+
+                                                                                           Bauingenieur
+                                                                                           Conzett Bronzini Partner
+                                                                                           AG, Chur
+                                                                                           Jürg Conzett
+
+                                                                                           Bauphysik
+                                                                                           bakus Bauphysik &
+                                                                                           Akustik GmbH, Zürich
+                                                                                           Michael Herrmann
+Das Projekt interpretiert die landschaftlich geprägte Situation mit vier Höfen, die sich   Ruth Armbruster
+als kraftvolle Ergänzung der bestehenden Bebauung kontrastreich vom landschaftlich
+geprägten Flussraum absetzen. Die Komposition der am Hangfuss fünf- und in Rich-           HLKS
+tung Süden zweigeschossigen, L-förmigen Gebäudekörper ergänzen die Silhouette des          Kalt + Halbeisen
+Brisgiareals überraschend selbstverständlich. Die in den Kategorien in Innen und Aus-      Ingenieurbüro AG, Zürich
+sen hierarchisierten Räume werden mit dem Konzept für die Aussenräume konsequent           Daniel Raidt
+weitergedacht. Die Binnenräume sind den Nachbarschaften der Höfe zugeordnet und
+von privatem Charakter, der grosszügige die Hofbauten umfliessende Aussenraum wird         Brandschutz
+
+als Teil des Landschaftsraumes verstanden. Dieser wird von einem neuen Wegsystem           Basler & Hofmann AG,
+                                                                                           Zürich
+durchzogen, das zur Erschliessung der Wohnbauten und zu deren Vernetzung dienen
+soll.                                                                                      Felix Bönecke
+                                                                                           Jakob Sudhalter
+       Dieser Lösungsansatz kann nur teilweise überzeugen. Die Hanglage mit der
+schräg verlaufenden Brisgistrasse wurde nicht erkannt, was sich auch an den teilweise
+wenig aussagekräftigen Schnittenzeichnungen verdeutlicht. Der neue Höhenweg kon-
+kurriert die Brisgistrasse und degradiert sie zur Zufahrt für die Einstellhalle. Um die
+Zugänglichkeit der Gebäude zu gewährleisten muss dennoch ein aufwändiges System
+von Passerellen eingeführt werden, welches die an sich grosszügigen und gut belichteten
+Höfe verstellt und dadurch nahezu torpediert.
+       Die Gebäudeformen sind mit jeweils drei Treppenanlagen zwei- bis dreibündig
+organisiert. Dies ergibt im Vergleich der Projekte einen relativ hohen Anteil an Treppen
+und Liftanlagen. Die grundsätzlich sparsam konzipierten und gut belichteten Wohnun-
+gen sind zweckmässig und entsprechen dem vorgegebenen Wohnungsmix. Ein Miss-
+verhältnis besteht bei den teilweise relativ grossen Wohn- und Essräumen, die eher zu
+knappen Individualräumen gegenüber stehen. In den meisten Wohnungen fehlt beim
+Eingang Platz für eine Garderobe.
+Projektwettbewerb Brisgi-Areal | Allmend                                             35
+
+
+
+
+Die gestalterische und konstruktive Ausbildung der Gebäude ist sorgfältig ausgearbeitet
+und hat einen für die Lage im Landschaftsraum stimmigen Ausdruck.
+
+Die Gebäude- und Freiraumtypologie zusammen mit der unklaren Erschliessung erge-
+ben kein schlüssiges Projekt, so dass die Tauglichkeit des städtebaulichen Ansatzes in
+grundlegenden Punkten nicht aufgezeigt werden konnte.
+Projektwettbewerb Brisgi-Areal | good morning sunshine                                 36
+
+
+
+
+GOOD MORNING SUNSHINE
+
+                                                                                            Städtebau/Architektur
+                                                                                            SCHEIBLER & VILLARD
+                                                                                            Architekten MA FH SIA
+                                                                                            GmbH, Basel
+                                                                                            Maya Scheibler
+                                                                                            Sylvain Villard
+                                                                                            Roberto Roncoroni
+                                                                                            Dano Gloor
+
+                                                                                            Landschaftsarchitektur
+                                                                                            Bryum GmbH
+                                                                                            Büro für urbane
+                                                                                            Interventionen und
+                                                                                            Landschaftsarchitektur
+                                                                                            GmbH, Basel
+                                                                                            Michael Oser
+                                                                                            Sebastian Weinsberg
+                                                                                            Hannah Voskors
+
+                                                                                            Bauingenieur
+                                                                                            Synaxis AG Zürich
+                                                                                            Bauingenieure SIA/usic,
+                                                                                            Zürich
+                                                                                            Carlo Bianchi
+                                                                                            Lilian Frischknecht
+
+Die Verfassenden des Projektes ‚good morning sunshine’ entwickeln ihre Entwurfs-            Gebäudetechnikt &
+idee aus der bestehenden Bebauungsstruktur der 60-er Jahre und den das Grundstück           Energie
+charakterisierenden Merkmalen des Landschaftsraums. Drei unterschiedliche Gebäu-            Waldhauser + Hermann
+detypologien werden lose in der Ebene der Flusskrümmung entlang eines inneren Er-           AG Ingenieure USIC SIA,
+schliessungsstranges platziert. Dabei werden die jeweiligen Einzelhäuser so positioniert,   Münchenstein
+dass die südliche Böschungskante als wertvolles, landschaftsprägendes Element lesbar        Roman Hermann
+und räumlich wirksam bleibt und jegliche topographischen Konflikte vermieden wer-
+                                                                                            Brandschutz
+den können. Gleichzeitig entsteht eine lineare Abfolge von räumlichen Strukturen, wel-
+che über den Bebauungsgürtel und den Freiraum der Allmend im Böschungssaum des              Holliger Consult GmbH,
+                                                                                            Espach
+Flussufers endet.
+       Im Gegensatz zum selbstverständlichen und klaren Umgang der Verfassenden             Daniela Di Paolantonio
+
+mit den topographischen Gegebenheiten, erschliesst sich dem Betrachter das eigentliche
+Thema der Bebauungsstruktur nicht. Langhäuser, Querhäuser und Punkthäuser bilden
+clusterartige Gruppierungen, ohne benennbare räumliche Konstellationen oder Quali-
+täten zu generieren. Auf Grund des starken Objektcharakters der als Einzelobjekte agie-
+renden Gebäude, vermögen sie nicht zueinander in einen Dialog zu treten. Augenfällige
+‚Beziehungslosigkeit’ herrscht ebenfalls auf Erdgeschossniveau.
+       Die Idee eines sich an seinen Rändern auflösenden Belagsmusters wirkt zu formal
+und dem Ort nicht angemessen. Die Stärke des freiräumlichen Beitrags liegt im subtilen
+Umgang und der Aufwertung der angrenzenden Landschaftsräume.
+       Die spezifische Entwicklung verschiedener Wohnungstypen je nach Gebäudedi-
+mensionen ist plausibel und für eine Variabilität des Wohnungsangebots willkommen.
+Insbesondere die Wohnungen der Langhäuser mit ihren spannenden Raumkonstellatio-
+nen und der charmanten Verandaschicht sind überzeugend.
+Projektwettbewerb Brisgi-Areal | good morning sunshine                               37
+
+
+
+
+Die schmalen, tiefen Grundrisse des Querhauses vermögen angesichts der ungenügen-
+den Belichtungssituation im Innern des Baukörpers nicht zu gefallen.
+        Der Vorteil des Entscheids, Einzelvolumen selbstverständlich in die topographi-
+schen Gegebenheiten zu setzen, wird durch die selbstbezogenen Baukörper zum Nach-
+teil, in dem sie ihren Solitärstatus nicht überwinden können und eine übergeordnete,
+städtebaulich überzeugende Lösung verhindern.
+Projektwettbewerb Brisgi-Areal | I SUOI FRATELLI                                      38
+
+
+
+
+I SUOI FRATELLI
+
+                                                                                           Städtebau/Architektur
+                                                                                           BHSF Architekten GmbH,
+                                                                                           Zürich
+                                                                                           Benedikt Boucsein
+                                                                                           Axel Humpert
+                                                                                           Tim Seidel
+                                                                                           Elitsa Lcaze
+                                                                                           Udo Thönnissen
+                                                                                           Matthias Schneider
+
+                                                                                           Landschaftsarchitektur
+                                                                                           Haag
+                                                                                           Landschafsarchitektur
+                                                                                           GmbH, Zürich
+                                                                                           Fabian Haag
+                                                                                           Anna Müllenbach
+                                                                                           Lorenzo Figna
+
+                                                                                           Bauingenieur
+                                                                                           Bänziger Partner AG,
+                                                                                           St. Gallen
+                                                                                           Stefan Köppel
+
+
+
+
+Das Projekt bricht die 3 Cluster auf und besetzt das ganze Baugebiet mit 9 Baukörpern.
+Dabei kommen 3 unterschiedliche Haustypen zum Einsatz. Die größten beiden bilden
+zusammen mit dem Hochhaus ein verdichtetes Zentrum, wobei das östliche Gebäude
+eine Brückenfunktion zwischen Brisgistraße und Allmendniveau übernimmt. Im drit-
+ten Obergeschoss befinden sich Dienstleistungsflächen. Über einen Laubengang ist eine
+Freitreppe erschlossen, die auf das untere Niveau führt. Weitere Dienstleistungs- und
+Gewerbeflächen und Abstellräume befinden sich in den Erdgeschossen aller Häuser.
+       Die unterschiedlich großen Häuser halten an einem Organisationsprinzip fest.
+Erschließung, Sanitärräume und häufig auch die Küchen liegen im Zentrum, die Wohn-
+und Schlafräume an der Fassade. Schmale umlaufende Balkone schützen die mit Poly-
+carbonat verkleideten Holzfassaden. Sie erweitern sich loggienartig zum Wohnraum. In
+der Verlängerung der alten Brisgistraße entsteht eine Ost-West-Achse mit einem Quar-
+tierplatz im Zentrum und drei kleineren Höfen, an denen die Hauszugänge liegen. Unter
+der zentralen Achse befindet sich auch die effiziente Tiefgarage.
+       Die sehr großen allseitig gleichwertig orientierten Häuser stehen in einem gewis-
+sen Widerspruch mit der gewählten Anlage. Dies zeigt sich bei den teilweise beliebig
+wirkenden Hauszugängen, den Häusern im Hang und der exzentrischen Quartierser-
+schließung über den Liftturm, die mit der inneren Welt des Hofhauses nichts zu tun hat.
+Der Zugang über einen umlaufenden Balkon wirkt eng.
+       Überdies haben viele Wohnungen eine problematische Ausrichtung nach Osten
+und Norden und die Höfe in den «Gemeinschaftshäusern» wirken zu eng.
+       Das Außenraumkonzept ist mit Dichte und Offenheit, mit Bestimmtheit und Un-
+bestimmtheit zur Aneignung gut durchkomponiert und bietet eine Vielfalt an Raum-
+abfolgen mit Plätzen und Grünflächen. Leider fehlt die Auseinandersetzung mit den
+pflanzlichen Themen.
+Projektwettbewerb Brisgi-Areal | I SUOI FRATELLI   39
+Projektwettbewerb Brisgi-Areal | LINDGREN & JACOBSEN                                     40
+
+
+
+
+LINDGREN & JACOBSEN
+
+
+                                                                                              Städtebau/Architektur
+                                                                                              Hosoya Schäfer
+                                                                                              Architects AG, Zürich
+                                                                                              Markus Schaefer
+                                                                                              Hiromi Hosoya
+                                                                                              Alexander Kneer
+                                                                                              Max Michels
+                                                                                              Dai Tomioka
+                                                                                              Daniel Ostrowski
+                                                                                              Toru Shimizu
+                                                                                              Akihiro Yamamoto
+                                                                                              Ziyue Ding
+
+                                                                                              Landschaftsarchitektur
+                                                                                              Vogt
+                                                                                              Landschaftsarchitekten
+                                                                                              AG, Zürich
+                                                                                              Günther Vogt
+                                                                                              Ralf Voss
+                                                                                              Sebastian Rossius
+
+                                                                                              Bauingenieur
+Das Projekt LINDGREN & JACOBSEN orientiert sich am Konzept der Testplanung und                Büro Thomas Boyle +
+entwickelt dieses weiter. Aus drei Häusergruppen werden drei Häuserpaare, die paral-          Partner Bauingenieure
+                                                                                              SIA usic AG, Zürich
+lel nebeneinander aufgereiht allesamt zum Limmatraum ausgerichtet sind. Die Räume
+dazwischen sind alternierend entweder als Platz- oder Grünraum entwickelt und bieten          Thomas Boyle
+
+schöne Durchblicke in Nord-Südrichtung. Die fussläufige Erschliessung, die sämtliche
+                                                                                              Kostenplanung
+Treppenhäuser bedient, erfolgt über eine dem Hang folgende mittlere Achse, die sich
+                                                                                              HSSP AG, Zürich
+jeweils über Durchgänge unter den Häusern von Zwischenraum zu Zwischenraum vor-
+treibt. Parallel dazu verläuft die Quartierstrasse entlang dem Bahntrassee als weitere        Rolf Schläfli
+                                                                                              Christian Brawand
+Erschliessungsachse. Eine dritte Zufahrt bildet die Alte Brisgistrasse, die nebst der un-
+tersten Ebene der neuen Häuser auch zum bestehenden Hochhaus führt. Diese mehrfa-             Haustechnik
+che Erschliessung der Anlage rückt die drei oberen Häuser in eine ambivalente Stellung.       Waldhauser + Hermann
+Dort ist auf einmal unklar, wie diese adressiert sind. Sind sie es zum Hof oder sind sie es   Ingenieurbüro usic/SIA
+zur Strasse?                                                                                  AG, Basel
+       Der äussere Auftritt verspricht auf den ersten Blick vieles. Die vorgelagerten Bal-    Marco Waldhauser
+kone mögen über ihre freie Setzung wohl Fassaden beleben, finden aber im Innern kei-
+ne echte räumliche Übereinstimmung mit dem Grundriss. Des Weiteren fällt auf, dass            Akustik
+
+bei den durchwohnenden Wohnungstypen oft die Gebrauchstauglichkeit etwas einge-               Kuster + Partner AG,
+                                                                                              Lachen
+schränkt ist. Zum Beispiel sind es ein ungünstig platzierter Nasszellenblock oder die zu
+knapp geratenen Platzverhältnisse im Wohnzimmer. Ansonsten sind die Wohnungen                 Marco Kuster
+
+mehrheitlich korrekt organisiert.
+       Die Idee des Aussenraums mit wohnungsnahen, gemeinschaftlichen Platzflächen
+auf drei Ebenen ist konsequent und detailliert durchgearbeitet. Die dazu im Kontrast lie-
+gende Allmendebene mit ihren ökologischen und räumlichen Themen der Verzahnung
+im Kontext der Umgebung überzeugt.
+       In seinen Grundzügen vermag dieser Konzeptansatz seine Stärken haben, nur in
+seiner Umsetzung kann es diese nicht ausspielen. Es ist vor allem die Kumulation un-
+terschiedlichster Themen und Ideen, die isoliert betrachtet durchaus Sinn machen, im
+Verbund jedoch sich gegenseitig nur schwächen.
+Projektwettbewerb Brisgi-Areal | LINDGREN & JACOBSEN   41
+Projektwettbewerb Brisgi-Areal | neighbourhood                                       42
+
+
+
+
+NEIGHBOURHOOD
+
+
+                                                                                          Städtebau/Architektur
+                                                                                          PARK Dipl. Architekten
+                                                                                          ETH SIA BSA AG, Zürich
+                                                                                          Markus Lüscher
+                                                                                          Luc Kummer
+                                                                                          Martin Schiess
+                                                                                          Lukas Hoffmann
+                                                                                          Anja Widmer
+                                                                                          Daniel Forster
+
+                                                                                          Landschaftsarchitektur
+                                                                                          Fontana
+                                                                                          Landschaftsarchitektur
+                                                                                          GmbH, Basel
+                                                                                          Massimo Fontana
+                                                                                          Frieder Kaiser
+                                                                                          Garcia Yago
+
+
+
+
+3 Gruppen mit 3 unterschiedlichen Häusern liegen in einem gestalteten Landschafts-
+raum. Geschwungene Wege verbinden das Ensemble und verknüpfen es mit dem über-
+geordneten Straßennetz. Quadratische Höfe markieren das Zentrum jedes Clusters. In
+ihrer Mitte befindet sich eine runde Öffnung, in der eine Treppe das Sockelgeschoss mit
+jeweils einer großen Velohalle erschließt. Ein starkes Zeichen für die Orientierung der
+Siedlung auf den Langsamverkehr. Im Sockel befinden sich die Gewerberäume und eini-
+ge Wohnungen, auf dem Hofniveau wird abgesehen von großzügigen Hauszugängen und
+Waschsalons bereits gewohnt.
+       Die Häuser variieren in Größe, Form und Wohnungstypologie, sind aber alle mit
+zentralen Treppenhäusern und einer umliegenden Infrastrukturschicht organisiert. Die
+Häuser sind, bis auf die Erschließungskerne in Beton, aus Holz. Die Holzfassade führt
+zusammen mit den berankten, leichten Balkontürmen zu einer angenehmen Anmutung
+einer Siedlung im Landschaftspark.
+       Das mittlere Cluster, das gleichzeitig die Verbindung zum Quartierplatz mit dem
+Hochhaus leisten muss, kann dieser besonderen Bedeutung nicht gerecht werden. Die
+stark auf sich zentrierten Gebäude mit ihren markanten, vorgestellten Balkontürmen
+fügen sich nur sperrig zu Siedlungseinheiten. Sie schwimmen im Grün, das bis an die
+Häuser reicht und das als Vorzone der Gewerbeflächen unverständlich wirkt.
+       Das Landschaftsparkkonzept mit der geschwungenen Wegeführung und den sich
+verdichtenden und auflösenden Baumstellungen ist dennoch ein adäquater Ansatz, die
+Kraft des Grünraums als vereinendes Thema zu nutzen. Die Hofräume in den Clustern
+wirken im Gegensatz dazu überinstrumentiert.
+Projektwettbewerb Brisgi-Areal | neighbourhood   43
+Projektwettbewerb Brisgi-Areal | TREFIORI                                          44
+
+
+
+
+TREFIORI
+
+                                                                                        Städtebau/Architektur
+                                                                                        Galli Rudolf Architekten
+                                                                                        ETH BSA AG, Zürich
+                                                                                        Yvonne Rudolf
+                                                                                        Davy Funk
+                                                                                        Sabrina Maniglio
+                                                                                        Mauricio Martins
+                                                                                        Susi Krummenacher
+                                                                                        Giacomo Gendotti
+                                                                                        Sara Rossi
+
+                                                                                        Landschaftsarchitektur
+                                                                                        Rotzler Krebs Partner
+                                                                                        Landschaftsarchitekten
+                                                                                        BSLA GmbH, Winterthur
+                                                                                        Sigrid Pichler
+                                                                                        Eva Schilling
+
+
+
+
+Eine überzeugende Erschliessungsidee löst die Situation des Brisgiareals selbstver-
+ständlich und klar. Drei um einen Vorplatz gruppierte u-förmige Gebäudecluster sind
+entlang der Fortsetzung der alten Brisgistrasse angeordnet. Diese bildet zusammen mit
+den wechselseitigen Vorplätzen einen zentralen Begegnungsraum, bildet die Adressen
+der Gebäudecluster und gleichzeitig wird die Zugangssituation des bestehenden Hoch-
+hauses aufgewertet. Mit der Verbindung zur neuen Brisgistrasse und einem untergeord-
+neten über Durchgänge organisierten feinmaschiges Wegnetz für Fussgänger wird ein
+Wegnetz geschaffen, dass den funktionalen Anforderungen gerecht wird, die Orientie-
+rung im Areal begünstigt und die einzelnen Fragmente der Bebauung zu einem stimmi-
+gen Ganzen fügt. Unterstützt wird das Konzept durch die Anordnung der gemeinschaft-
+lichen und gewerblichen Nutzungen und den mit Spielinseln attraktivierten Vorplätzen,
+welche den Begegnungsraum zusätzlich beleben.
+       Die Höhenlage der Volumen zusammen mit der Erschliessung ordnen die Bebau-
+ung klar dem Flussplateau zu. Entsprechend ist der Aussenraum in Anlehnung an den
+Landschaftsraumes zurückhaltend gestaltet und wird nur mit einzelnen Aktivitätsberei-
+chen akzentuiert.
+       Die 4-bündig mit jeweils drei Treppenhäusern vorgesehenen Gebäudecluster sind
+ökonomisch organisiert. Die Wohnungen sind sorgfältig bearbeitet, sind grösstenteils
+gut möblierbar und eignen sich für unterschiedliche Wohnbedürfnisse. Durch die mehr-
+seitige Ausrichtung, die Aussicht in den Landschaftsraum und die geschickte Anord-
+nung der Öffnungen wirken die Grundrisse grosszügig. Geschmälert wird diese Wirkung
+da, wo der Eingang in die Wohnung direkt in die Korridorzone erfolgt. Diese Situation
+widerspricht der inneren Dramaturgie der Raumfolgen und ist zu eng.
+       Ein schwerwiegender Mangel sind die vielen kaum besonnten Wohn- und Indi-
+vidualräume und insgesamt die vielen mehrheitlich von der Sonne abgewendeten Woh-
+Projektwettbewerb Brisgi-Areal | TREFIORI                                              45
+
+
+
+
+nungen, der durch den Bezug zum Limmatraum nur bedingt kompensiert werden kann.
+       Die gestalterische und volumetrische Ausbildung der Gebäudecluster ist architek-
+tonisch nicht bewältigt. Die Modulation der Baukörper schwächt deren Gesamtwirkung.
+Die Ausbildung des Erdgeschosses mit einem durchlaufenden Sockelbereich in Beton
+steht im Widerspruch zur sanften Einbettung im Terrain. Die Ausstrahlung der horizon-
+tal gegliederten Fassaden wirkt elegant hinterlässt aber keine identitätsstiftende Wir-
+kung für den Genossenschaftsgedanken der Wohnbaustiftung.
+       Die Vorzüge des Projektes liegen in der Ausbildung des Wegraumes als Fortset-
+zung der alten Brisgistrasse und deren Einbindung und Ergänzung in das bestehende
+Wegnetz.
+       Die Zweiseitigkeit dieser Konzeptidee wird jedoch zu wenig erkannt. Die Spiege-
+lung der drei gleichen Gebäudecluster reagiert zu wenig auf die spezifischen Orte im Are-
+al. Der architektonische Gesamteindruck, die teilweise ungenügende Ausrichtung der
+Wohnungen nach Nordosten und Nordwesten werden als problematisch erachtet.
+Projektwettbewerb Brisgi-Areal | Genehmigung                                  46
+
+
+
+
+Genehmigung
+Der vorliegende Bericht wurde durch das Preisgericht am 04. November 2016 geneh-
+migt.
+

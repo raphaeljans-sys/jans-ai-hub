@@ -1,0 +1,1800 @@
+# Quelle: https://espazium.s3.eu-central-1.amazonaws.com/files/2023-09/arosa-wa%CC%88tterweid-jurybericht.pdf (Jurybericht Wohnueberbauung Waetterweid, Arosa, 2023, 50 Seiten, abgerufen 2026-07-27)
+# Extrakt: pdftotext -layout, 50 Seiten, erstellt 2026-07-27
+
+Kanton Graubünden
+Gemeinde Arosa
+
+
+Projektwettbewerb
+Wohnüberbauung Wätterweid
+
+
+Jurybericht
+Impressum
+
+
+
+
+Projekt:
+Projektwettbewerb Wohnüberbauung Wätterweid
+Gemeinde Arosa
+Projektnummer:
+S2022-313
+
+Dokument:
+Jurybericht
+
+Quelle Titelbild:
+Gemeinde Arosa
+
+Auftraggeberin:
+Gemeinde Arosa
+
+Bearbeitungsstand:
+Stand: Jurierung
+
+Bearbeitungsdatum:
+09. März 2023
+
+Bearbeitung:
+STW AG für Raumplanung, Chur
+Benjamin Aebli
+
+z:\4_arosa\s2022-
+313_projektwettbewerb_waetterweid\01_rap\07_verfahren\06_jurierung\jurybericht\20230322_arosa_pw_wätterweid_jurybericht.docx
+
+
+
+
+                                                                                                           Gäuggelistrasse 7   7000 Chur
+                                                                                                           www.stw.swiss       info@stw.swiss
+                                                                                                           T: 081 254 38 20
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht    3
+
+
+
+
+                        Inhaltsverzeichnis
+
+                        1.         Ausgangslage                                                        5
+                        1.1        Einleitung                                                          5
+                        1.2        Wettbewerbsverfahren                                                5
+                        1.3        Wettbewerbsperimeter                                                5
+                        1.4        Aufgabenstellung                                                    6
+                        2.         Organisation und Jury                                               6
+                        2.1        Auftraggeberin / Ausloberin                                         6
+                        2.2        Jury                                                                6
+                        2.3        Organisation / Wettbewerbssekretariat                               7
+                        3.         Präqualifikation                                                    7
+                        3.1        Bewerbungen                                                         7
+                        3.2        Qualifizierung Teilnehmende                                         7
+                        3.3        Genehmigung                                                         8
+                        3.4        Rekursfrist                                                         8
+                        3.5        Rückzug und Ersatz                                                  8
+                        4.         Projektwettbewerb                                                   9
+                        4.1        Teilnahmeberechtigung                                               9
+                        4.2        Begehung                                                            9
+                        4.3        Fragenstellung / Fragenbeantwortung                                 9
+                        4.4        Einreichung Wettbewerbsbeiträge                                     9
+                        4.5        Vorprüfung                                                          9
+                        4.6        Vorbemerkungen Jurierung                                           10
+                        4.7        Vorstellung Vorprüfungsergebnisse                                  10
+                        4.8        Beurteilungskriterien Jurierung                                    10
+                        4.9        Sichtung und Vorstellung Wettbewerbsbeiträge                       11
+                        4.10       Jurierung – 1. Beurteilungsrundgang                                11
+                        4.11       Jurierung – 2. Beurteilungsrundgang                                12
+                        4.12       Jurierung – Kontrollrundgang                                       12
+                        4.13       Jurierung – Vorstellung weitere Überprüfungen / Erkenntnisse       13
+                        4.14       Jurierung – 3. Beurteilungsrundgang                                13
+                        4.15       Jurierung – Kontrollrundgang                                       13
+                        4.16       Rangfolge und Preisfestsetzung                                     13
+                        5.         Würdigung / Dank                                                   14
+                        6.         Empfehlungen                                                       14
+                        7.         Genehmigung                                                        15
+                        8.         Projektverfassende                                                 16
+                        9.         Projektbeschriebe                                                  17
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht    4
+
+
+
+
+                        9.1        DREI RÖSLI                                                         17
+                        9.2        Quartett                                                           23
+                        9.3        Abusitz                                                            28
+                        9.4        ZAI                                                                32
+                        9.5        JELEN                                                              36
+                        9.6        SCROTTA DA NAIV                                                    39
+                        9.7        TIC TAC TOE                                                        42
+                        9.8        z‘Hengert gan                                                      45
+                        9.9        TRIO                                                               48
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                       5
+
+
+
+
+                            1.           Ausgangslage
+                            1.1          Einleitung
+                            Die touristische Nutzung gehört für die Gemeinde Arosa zu den wichtigsten Wirtschaftszweigen.
+                            Allerdings nimmt der Druck auf das Wohnungsangebot in der Ortschaft Arosa im Vergleich mit
+                            den Talortschaften noch viel stärker zu. Wichtige Fachkräfte, welche in Arosa arbeiten und sich
+                            das ganze Jahr in Arosa aufhalten, finden immer weniger preisgünstigen Wohnraum vor Ort.
+
+                            Die Gemeinde Arosa will dem steigenden Druck auf preisgünstige Wohnungen entgegenwirken
+                            und zusätzliche Kapazitäten schaffen. Mit der Parzelle Nr. 1941 befindet sich noch eine grössere
+                            Bauzonenreserve im Grundeigentum der Bürgergemeinde Chur an bester Wohnlage. Die Par-
+                            zelle Nr. 1941 befindet sich im Zentrum von Arosa, unweit vom Kongresszentrum und dem Un-
+                            tersee entfernt. Die Bürgergemeinde Chur und die Gemeinde Arosa haben einen Baurechtsver-
+                            trag unterzeichnet. Darin wird festgehalten, dass die Gemeinde Arosa die Parzelle Nr. 1941 im
+                            Baurecht einer Wohnüberbauung zuführen soll.
+
+                            Die Qualitätssicherung für die Wohnüberbauung auf der Parzelle Nr. 1941 wird mittels Durch-
+                            führung eines Projektwettbewerbs erreicht. Die Wohnungen sollen als preisgünstige Mietwoh-
+                            nungen für Erstwohnungsnutzer auf dem Markt angeboten werden.
+
+
+                            1.2          Wettbewerbsverfahren
+                            Für die Wohnüberbauung an der Erschliessungsstrasse «Wätterweid B» wird ein anonymer Pro-
+                            jektwettbewerb nach SIA Ordnung 142 für Architektur- und Ingenieurwettbewerbe mit Präquali-
+                            fikation (Selektion) durchgeführt.
+
+
+                            1.3          Wettbewerbsperimeter
+                            Der Wettbewerbsperimeter umfasst die Parzelle Nr. 1941 und misst eine Grundfläche von
+                            3’139 m².
+
+
+
+
+                            Abb. 1 Übersicht Wettbewerbsperimeter (Mst. 1:2'000)
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                        6
+
+
+
+
+                            1.4          Aufgabenstellung
+                            Gesucht wird ein funktional überzeugender Überbauungsvorschlag mit Wohnbauten, Nebennut-
+                            zungen und einer unterirdischen Parkierungsanlage, welcher sich ins Ortsbild von Arosa und die
+                            bestehende Bausubstanz in der unmittelbaren Umgebung einfügt. Die Wohnüberbauung soll aus
+                            sozialer, ökologischer und ökonomischer Sicht möglichst effizient und nachhaltig erstellt werden
+                            können. Die Gemeinde Arosa tritt dabei als Bauherrschaft auf und nimmt sowohl bei der Durch-
+                            führung des Projektwettbewerbs als auch im Umgang mit erneuerbaren Energien für die ge-
+                            plante Überbauung eine Vorbildfunktion ein. Die Gemeinde Arosa verfolgt die Stossrichtungen
+                            einer haushälterischen Nutzung des Bodens, sowie der inneren Verdichtung. Die Wohnüberbau-
+                            ung darf einen eigenständigen Charakter aufweisen. Die Aussenräume sollen nicht nur Mittel
+                            zum Zweck sein, sondern ebenfalls eine hohe Aufenthaltsqualität bieten. Für die Wohnbevölke-
+                            rung innerhalb des Wettbewerbsperimeters aber auch in der unmittelbaren Nachbarschaft soll
+                            mindestens ein zentraler Begegnungsbereich vorgesehen werden.
+
+
+
+
+                            2.           Organisation und Jury
+                            2.1          Auftraggeberin / Ausloberin
+                            Gemeinde Arosa
+                            Rathaus
+                            Poststrasse 168
+                            Postfach 85
+                            7050 Arosa
+
+                            Tel.: +41 81 378 67 57
+                            kanzlei@gemeindearosa.ch
+
+
+                            2.2          Jury
+                            Sachjury (stimmberechtigt):
+
+                            − Yvonne Altmann, Gemeindepräsidentin Arosa
+                            − Patric Iten, Gemeindevorstand, Departement Tourismus, öffentliche Sicherheit
+
+                            Fachjury (stimmberechtigt):
+
+                            − Conradin Clavuot, Architekt, Chur (Jurypräsident)
+                            − Annette Spiro, Architektin, Zürich
+                            − Robert Albertin, Architekt und Gestaltungsberater der Gemeinde Arosa
+
+                            Beratende (nicht stimmberechtigt):
+
+                            − Paul Schwendener, Gemeindevorstand, Departement Hochbau, Planung
+                            − Roman Kühne, Liegenschaftsverwaltung Gemeinde Arosa
+                            − Renato Weilenmann, Architekt / Betriebsingenieur, Arosa
+                            − Marc Gisler, Parlament Gemeinde Arosa
+                            − Hans Keel, Vertretung Nachbarschaft
+                            − Beat Hotz-Hart, Vertretung Nachbarschaft
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                      7
+
+
+
+
+                            Ersatz / Erweiterung Berater / Experten (nicht stimmberechtigt):
+
+                            − Rüst Bernhard, (bauökonomische Überprüfung)
+
+
+                            2.3           Organisation / Wettbewerbssekretariat
+                            STW AG für Raumplanung
+                            Gäuggelistrasse 7
+                            7000 Chur
+                            vertreten durch
+
+                            Benjamin Aebli, benjamin.aebli@stw.swiss, Tel. +41 81 254 38 24
+
+
+
+
+                            3.            Präqualifikation
+                            3.1           Bewerbungen
+                            Insgesamt wurden 20 Bewerbungen fristgerecht bis Freitag, 19. August 2022 beim Wettbewerbs-
+                            sekretariat digital und analog eingereicht. Davon haben sich 4 Teams als «Nachwuchsbüro» be-
+                            worben.
+
+
+                            3.2           Qualifizierung Teilnehmende
+                            Am Mittwoch, 31. August 2022 traf sich die beschlussfähige Jury des Projektwettbewerbs im Kon-
+                            gresssaal / Kongresszentrum von Arosa zur Präqualifikation.
+
+                            Die beschlussfähige Jury hat die eingegangenen Bewerbungen in mehreren Durchgängen nach
+                            den Kriterien im Wettbewerbsprogramm beurteilt. Die Bewerbenden wurden mit dem Ziel aus-
+                            gewählt, dass der Projektwettbewerb ein genügend breites Spektrum von Lösungsmöglichkeiten
+                            hervorbringt.
+
+
+
+
+                            Abb. 2: Foto Präqualifikation
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                                8
+
+
+
+
+                            Es wurden die folgenden 10 Teams zur Teilnahme am Projektwettbewerb qualifiziert (Reihen-
+                            folge nach Eingang der Bewerbungen):
+
+                              Federführendes Architekturbüro                                          Firmensitz   Nachwuchsbüro
+
+                              Atelier Sik AG                                                              Zürich
+
+                              Atelier Arpagaus Sommer Zarn                                                Zürich        x
+
+                              ARGE Gross Loewensberg                                                      Zürich
+
+                              hhplus AG                                                                   Zürich
+
+                              Garbizu Collar Architecture KLG                                             Basel         x
+
+                              Grigo Pajarola Architekten                                                   Chur
+
+                              Blaas Architekten GmbH                                                      Zürich
+
+                              Schmidlin Architekten ETH SIA                                               Zürich
+
+                              Schwander & Sutter Architekten                                               Chur
+
+                              Gredig Walser Architekten                                                    Chur
+
+
+
+                            3.3          Genehmigung
+                            In der Folge spricht die Jury allen Bewerbenden seinen Dank aus für deren Bereitschaft zur Teil-
+                            nahme am Projektwettbewerb sowie das dadurch bezeugte Interesse an dieser Aufgabenstel-
+                            lung. Mit der Unterzeichnung des definitiven Wettbewerbsprogramms wird die Phase der
+                            Präqualifikation als abgeschlossen erklärt.
+
+
+                            3.4          Rekursfrist
+                            Die Ergebnisse aus der Präqualifikation wurden den bewerbenden Teams mit einem anfechtba-
+                            ren Entscheid mitgeteilt. Die anschliessende Rekursfrist von zehn Tagen verstrich ungenutzt.
+
+
+                            3.5          Rückzug und Ersatz
+                            Zum Bedauern der Wettbewerbsausloberin und der Jury musste sich das federführende Archi-
+                            tekturbüro Atelier Arpagaus Sommer Zarn (Nachwuchsbüro), Zürich, aus Kapazitätsgründen aus
+                            dem Wettbewerbsverfahren zurückziehen. Die Mitteilung erfolgte am Mittwoch, 14. September
+                            2022 mit E-Mail-Schreiben an die Gemeindekanzlei von Arosa.
+
+                            Anstelle dieses Büros wurde das an der Präqualifikation vom Mittwoch, 31. August 2022 defi-
+                            nierte Ersatz-Team mit Federführung durch das Büro Patriarche Architekten AG aus Basel
+                            nachnominiert. Mit E-Mail-Schreiben vom Donnerstag, 15. September 2022 an das Wettbewerbs-
+                            sekretariat hat das Büro Patriarche Architekten AG ihre Teilnahme am Projektwettbewerb be-
+                            stätigt.
+
+                              Patriarche Architekten AG                                                   Basel
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                         9
+
+
+
+
+                            4.           Projektwettbewerb
+                            4.1          Teilnahmeberechtigung
+                            Teilnahmeberechtigt sind die federführenden Architekturbüros, welche im Rahmen der Präqua-
+                            lifikation durch die stimmberechtigten der Jury selektioniert wurden (vgl. Kap.3).
+
+
+                            4.2          Begehung
+                            Am Donnerstag, 22. September 2022 wurde die obligatorische Begehung durchgeführt. An der
+                            Begehung hatte mindestens eine Person des Bewerberteams anwesend zu sein. Das Modell
+                            wurde den Teilnehmenden am Tag der Begehung gegen Unterschrift übergeben.
+
+                            An der Begehung fehlte eine Vertretung des Büros Garbizu Collar Architecture KLG (Nachwuchs-
+                            büro) aus Basel. Demnach hätte das bewerbende Büro aufgrund nicht-Einhaltung einer obliga-
+                            torischen, formellen Vorgabe aus dem Wettbewerbsprogramm vom Verfahren ausgeschlossen
+                            werden müssen. Auf telefonische Nachfrage durch das Wettbewerbssekretariat wurde mitge-
+                            teilt, dass die zuständige Person während der Zeit der Mitteilung und auch noch während dem
+                            Termin, an welchem die obligatorische Begehung durchgeführt wurde, nicht in der Schweiz
+                            weilte. Gleichzeitig wurde dem Wettbewerbssekretariat auch mitgeteilt, dass sich das Büro oh-
+                            nehin aus Ressourcen-Gründen aus dem Verfahren zurückziehen möchte.
+
+                            Somit verbleiben neun (9) Wettbewerbsteilnehmende.
+
+
+                            4.3          Fragenstellung / Fragenbeantwortung
+                            Nach der obligatorischen Begehung hatten die Bewerbenden die Möglichkeit, bis zum 21. Okto-
+                            ber 2022 Fragen zum Projektwettbewerb beim Wettbewerbssekretariat einzureichen. Die Fra-
+                            genbeantwortung erfolgte innert Frist am Donnerstag, 20. Oktober 2022.
+
+
+                            4.4          Einreichung Wettbewerbsbeiträge
+                            Sämtliche Wettbewerbsbeiträge der Teilnehmerteams sind fristgerecht bis spätestens Freitag,
+                            27. Januar 2023 beim Wettbewerbssekretariat eingereicht worden.
+
+                            Sämtliche Modelle der Teilnehmerteams sind fristgerecht bis spätestens Freitag, 10. Februar
+                            2023 beim Wettbewerbssekretariat eingereicht worden.
+
+
+                            4.5          Vorprüfung
+                            Vom 30. Januar 2023 bis zum 02. März 2023 wurde die Vorprüfung der Wettbewerbsbeiträge
+                            durchgeführt.
+
+                            Die bauökonomische Überprüfung hat zwischen dem 03. März und dem 09. März 2023 stattge-
+                            funden.
+
+                            Die Vorprüfung wurde in eine formelle sowie in eine materielle Prüfung unterteilt. Die Ergebnisse
+                            wurden in einem Vorprüfungsbericht und in Tabellen festgehalten.
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                    10
+
+
+
+
+                            4.6          Vorbemerkungen Jurierung
+                            An der Jurierung vom 03. März 2023 und dem 09. März 2023 wurde daran erinnert, dass es die
+                            Anonymität des Verfahrens unbedingt zu respektieren gilt und dass aufgrund der gebotenen Ver-
+                            traulichkeit eine Schweigepflicht besteht und demnach selbst Einzelheiten der Beurteilung bis
+                            zur offiziellen Bekanntgabe der Resultate Dritten nicht zugänglich gemacht werden dürfen. Zu-
+                            dem wurden Mitglieder der Jury in Bezug auf eine mögliche Befangenheit nochmals sensibili-
+                            siert. Abhängigkeits- oder Zusammengehörigkeitsverhältnisse gemäss Ordnung SIA Art. 12.2 lit.
+                            b wurden keine festgestellt.
+
+                            Zudem hat die Jury vom Umstand, dass anstelle des Büros Atelier Arpagaus Sommer Zarn (Nach-
+                            wuchsbüro), Zürich, das Büro Patriarche Architekten AG aus Basel nachnominiert wurde und sich
+                            das Büro Garbizu Collar Architecture KLG (Nachwuchsbüro) aus Basel ebenfalls vom Verfahren
+                            zurückziehen musste, Kenntnis genommen.
+
+                            Die Wettbewerbsausloberin und die Jury bedauern den Wegfall der beiden an der Präqualifika-
+                            tion ausgewählten zwei Nachwuchsbüros vom Projektwettbewerb, nehmen aber gleichzeitig mit
+                            Genugtuung zur Kenntnis, dass dagegen das Team um das Büro Patriarche Architekten AG aus
+                            Basel gewonnen werden konnte.
+
+                            Nach erfolgter Erörterung des Ablaufs des Verfahrens werden der Jury die Ergebnisse aus der
+                            Vorprüfung unterbreitet.
+
+
+                            4.7          Vorstellung Vorprüfungsergebnisse
+                            Im Rahmen der Vorprüfung zeigte sich, dass einige der Teilnehmenden Mühe bekundeten, die
+                            maximalen Höhen (insbesondere die maximale traufseitige Fassadenhöhe) einzuhalten. Auf-
+                            grund des Drucks, möglichst preisgünstige Wohnungen anbieten zu können, wurde die maximale
+                            Überbauungsziffer von 0.3 teilweise nur knapp eingehalten oder sogar überschritten. Zudem
+                            wurde teilweise die maximale Gebäudelänge – gemessen an der längeren Seite des flächen-
+                            kleinsten Rechtecks – überschritten. Vereinzelt wurden einengende Verhältnisse in der Parkie-
+                            rungsgarage oder in den Wohnräumen festgestellt.
+
+                            Das Wettbewerbssekretariat hat die Überschreitungen der baurechtlichen Vorgaben im weiteren
+                            Konkretisierungsprozess als «korrigierbar» beurteilt und gegenüber der Jury den Antrag ge-
+                            stellt, sämtliche eingereichten Wettbewerbsbeiträge zur Beurteilung zuzulassen.
+
+                            Im Rahmen der Jurierung folgte die Jury dem Antrag des Wettbewerbssekretariats und ent-
+                            schied, sämtliche Wettbewerbsbeiträge zur Beurteilung zuzulassen. Die Überschreitungen der
+                            baurechtlichen Aspekte wurden als «korrigierbar» taxiert, ohne dass eine Redimensionierung
+                            der Wettbewerbsbeiträge zur Einhaltung der baurechtlichen Vorgaben die Qualität dieser we-
+                            sentlich geschmälert hätte.
+
+
+                            4.8          Beurteilungskriterien Jurierung
+                            Für die Beurteilung der Wettbewerbsbeiträge kamen die untenstehenden Beurteilungskriterien
+                            gemäss Wettbewerbsprogramm zur Anwendung. Von den eingereichten Projektentwürfen sollte
+                            derjenige Wettbewerbsbeitrag den Zuschlag erhalten, welcher die Kriterien gesamthaft am bes-
+                            ten erfüllt (Reihenfolge der Aufzählung ohne Gewichtung).
+
+                            Ortsbild und Freiraum
+
+                            − Gesamtidee
+                            − Städtebauliche Integration
+                            − Aufenthalts- und Freiraumqualitäten (Wahrnehmung)
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                       11
+
+
+
+
+                            Architektur
+
+                            − Architektonische Qualität hinsichtlich Gestaltung und Ausdruck
+                            − Innere Raumwirkung und Qualität der Wohnungen (Materialisierung und Konstruktion)
+                            − Nachhaltigkeit (Materialisierung)
+
+                            Funktionalität
+
+                            − Flexibilität der Raumstruktur
+                            − Funktionalität des Raumkonzeptes und der Abläufe
+                            − Qualität, Klarheit und Übersichtlichkeit der Erschliessung (Adressfindung)
+
+                            Nachhaltigkeit
+
+                            − Energiekonzept
+                            − Energie / Ökologie und Architektur im Zusammenspiel
+                            − Ökologische Aspekte
+
+                            Wirtschaftlichkeit, Bauökonomie und Nachhaltigkeit
+
+                            − Wirtschaftlichkeit und Flexibilität der Gebäudestruktur, Flächeneffizienz
+                            − Erstellungs- und Betriebskosten
+                            − Betriebs- und Unterhaltskosten (Materialisierung)
+
+
+                            4.9          Sichtung und Vorstellung Wettbewerbsbeiträge
+                            Im Rahmen der Jurierung wurde in einem ersten Schritt eine individuelle Besichtigung durchge-
+                            führt. Dabei konnten sich alle Mitglieder der Jury einen Überblick über die eingereichten Wett-
+                            bewerbsbeiträge verschaffen.
+
+                            Anschliessend an die freie Besichtigung wurden drei Gruppen erstellt und die eingereichten
+                            Wettbewerbsbeiträge auf die drei Gruppen aufgeteilt. Dabei hatten die Mitglieder der Jury die
+                            Möglichkeit, sich in die Projekte einzulesen. Zudem wurden die Wettbewerbsbeiträge in den
+                            Gruppen besprochen.
+
+                            Anschliessend fand eine gemeinsame wertungsfreie Vorstellung der eingereichten Wettbe-
+                            werbsbeiträge in den Gruppen statt.
+
+                            Die generelle Sorgfalt, mit welcher die Wettbewerbsbeiträge ausgearbeitet wurden und die über-
+                            raschende Variation derselben wurde mit grosser Genugtuung zur Kenntnis genommen.
+
+
+                            4.10         Jurierung – 1. Beurteilungsrundgang
+                            Nach dem Vorstellungsrundgang wurde ein erster Vorstellungsrundgang durchgeführt. Dabei
+                            wurden gestützt auf die Beurteilungskriterien (gemäss Kap. 4.8) die Vor- und Nachteile der Wett-
+                            bewerbsbeiträge im Plenum besprochen.
+
+                            Zum Abschluss des ersten Rundgangs wurde eine erste Einstufung der Projekte vorgenommen.
+                            Dabei wurden Wettbewerbsbeiträge, welche gestützt auf die besprochenen Vor- und Nachteile
+                            zu überzeugen vermochten, für einen nächsten Rundgang ausgewählt.
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                    12
+
+
+
+
+                            Nach dem 1. Beurteilungsrundgang werden folgende Wettbewerbsbeiträge definitiv aus dem
+                            Projektwettbewerb ausgeschieden und kommen somit nicht mehr für eine Preiserteilung/Ran-
+                            gierung in Frage:
+
+                            Nr. 02       TIC TAC TOE
+
+                            Nr. 06       z’Hengert gan
+
+                            Nr. 07       TRIO
+
+
+                            4.11         Jurierung – 2. Beurteilungsrundgang
+                            In einem zweiten Beurteilungsrundgang wurden die ausgewählten Wettbewerbsbeiträge weiter
+                            vertieft überprüft und diskutiert. Die Jury kam zum Schluss, folgenden Wettbewerbsbeitrag aus
+                            dem weiteren Verfahren auszuscheiden:
+
+                            Nr. 01       SCROTTA DA NAIV
+
+                            Dieser Wettbewerbsbeitrag kommt somit nicht mehr für eine Preiserteilung/Rangierung in
+                            Frage.
+
+
+                            4.12         Jurierung – Kontrollrundgang
+                            Nach einem abschliessenden Kontrollrundgang werden folgende Wettbewerbsbeiträge in der
+                            engeren Auswahl bestätigt:
+
+                            Nr. 03       DREI RÖSLI
+
+                            Nr. 04       Quartett
+
+                            Nr. 05       Zai
+
+                            Nr. 08       Abusitz
+
+                            Nr. 09       JELEN
+
+                            Die verbleibenden fünf Wettbewerbsbeiträge wurden den Fachpersonen in der Jury zum Verfas-
+                            sen eines Projektbeschriebs und zur erneuten Überprüfung zugeteilt. Zudem wurden die ausge-
+                            wählten Wettbewerbsbeiträge der Fachperson für die Kostenüberprüfung übergeben, damit eine
+                            bauökonomische Überprüfung durchgeführt werden konnte. Damit endet der erste Tag der Ju-
+                            rierung erfolgreich.
+
+
+
+
+                            Abb. 3: Foto Jurierung vom 03. März 2023
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                            13
+
+
+
+
+                            4.13         Jurierung – Vorstellung weitere Überprüfungen / Erkenntnisse
+                            Am zweiten Tag der Jurierung vom 09. März 2023 wurden zunächst die inzwischen gewonnenen
+                            Erkenntnisse aus der vertieften Überprüfung der Fachpersonen aus der Jury und der Kosten-
+                            überprüfung vorgestellt.
+
+
+                            4.14         Jurierung – 3. Beurteilungsrundgang
+                            Anschliessend wurde der dritte Beurteilungsrundgang durchgeführt. Dabei wurden die in der en-
+                            geren Auswahl stehenden Wettbewerbsbeiträge noch einmal eingehend überprüft und diskutiert.
+                            Die nachfolgenden Wettbewerbsbeiträge wurden aufgrund der geführten Diskussionen vom Ver-
+                            fahren ausgeschieden:
+
+                            Nr. 04       Quartett
+
+                            Nr. 05       Zai
+
+                            Nr. 08       Abusitz
+
+                            Nr. 09       JELEN
+
+
+                            4.15         Jurierung – Kontrollrundgang
+                            In einem letzten Kontrollrundgang wurden die besprochenen Aspekte bestätigt.
+
+
+                            4.16         Rangfolge und Preisfestsetzung
+                            Einstimmig legte die Jury die Rangfolge fest. Für Entschädigungen und Preise im Rahmen des
+                            Projektwettbewerbs standen dem Preisgericht CHF 130’000.- (exkl. MwSt.) zur Verfügung.
+
+                            Nach Abzug des gemäss Wettbewerbsprogramm zugesicherten Sockelbeitrags von CHF 8'000.-
+                            für die vollständig eingereichten 9 Wettbewerbsbeiträge verbleibt eine Preissumme in der Höhe
+                            von CHF 58'000.-. Diese wird wie folgt zugewiesen:
+
+                              Rangfolge                            Beitrag Nr. / Kennwort                        Preisgeld
+                                                                                                      (CHF 58'000.- exkl. MwSt.)
+
+
+                              1. Rang / 1. Preis                   Nr. 03    DREI RÖSLI                      CHF 20’000.-
+
+                              2. Rang / 2. Preis                   Nr. 04    Quartett                        CHF 13’000.-
+
+                              3. Rang / 3. Preis                   Nr. 08    Abusitz                         CHF 11’000.-
+
+                              4. Rang / 4. Preis                   Nr. 05    ZAI                               CHF 9'000.-
+
+                              5. Rang / 5. Preis                   Nr. 09    JELEN                             CHF 5'000.-
+
+                              nicht rangiert                       Nr. 01 SCROTTA DA NAIV                                     -
+
+                              nicht rangiert                       Nr. 02 TIC TAC TOE                                         -
+
+                              nicht rangiert                       Nr. 06 z’Hengert gan                                       -
+
+                              nicht rangiert                       Nr. 07 TRIO                                                -
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                        14
+
+
+
+
+                            5.           Würdigung / Dank
+                            Die gestellte Wettbewerbsaufgabe mit den umfassenden Anforderungen an die Wohnbauten und
+                            die Umgebung erwies sich als schwierig. Die Herausforderung, möglichst preisgünstige Woh-
+                            nungen anbieten zu können, ist an einigen Wettbewerbsbeiträgen ablesbar. Diese zielen teilweise
+                            auf eine Maximierung der Überbauungsmöglichkeiten und überschreiten dadurch teilweise die
+                            maximal zulässigen Masse gemäss Baugesetz. Bei einigen Wettbewerbsbeiträgen wird die ma-
+                            ximal mögliche Überbauungsziffer eingehalten, bei einigen Wettbewerbsbeiträgen genau er-
+                            reicht und bei einigen Wettbewerbsbeiträgen überschritten. Auch bei der Einhaltung der maximal
+                            möglichen traufseitigen Fassadenhöhe und der Gesamthöhe bekundeten einige Wettbewerbs-
+                            teilnehmende Mühe.
+
+                            Die Jury war sich bewusst, dass im Rahmen des Wettbewerbsverfahrens nicht alle Anforderun-
+                            gen abschliessend gelöst werden können und noch bei allen Wettbewerbsbeiträgen Fragen of-
+                            fenbleiben werden, welche im Folgeverfahren konkretisiert werden müssen. Die Jury hat sich
+                            darauf konzentriert, die Grundhaltung der Projektvorschläge in architektonisch / städtebauli-
+                            cher, funktionaler / betrieblicher sowie wirtschaftlicher / nachhaltiger Hinsicht zu würdigen so-
+                            wie die Attraktivität der Gesamtanlage für die künftigen Bewohnenden herauszuarbeiten.
+                            Schwachpunkte in den Wettbewerbsbeiträgen wurden dahingehend überprüft, ob sie im Rahmen
+                            des vorgelegten Projektes behoben werden können.
+
+                            Die Verfassenden des Wettbewerbsbeitrags Nr. 03 DREI RÖSLI haben die Aufgabenstellung ge-
+                            samthaft am besten erfüllt.
+
+                            Die Jury bedankt sich bei den Teilnehmerinnen und Teilnehmern für die geleistete Arbeit und die
+                            eingereichten Wettbewerbsbeiträge. Die grosse Vielfalt der aufgezeigten Lösungsmöglichkeiten
+                            hat der Jury bei ihrer Entscheidung geholfen.
+
+
+
+
+                            6.           Empfehlungen
+                            Das Preisgericht empfiehlt der Bauherrschaft einstimmig das Projekt Nr. 03 DREI RÖSLI unter
+                            Berücksichtigung der Hinweise im Projektbeschrieb und der nachfolgenden Empfehlungen zur
+                            Weiterbearbeitung und Ausführung.
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht   15
+
+
+
+
+                            7.           Genehmigung
+                            Die Jury hat den vorliegenden Bericht genehmigt:
+
+
+
+
+                            (Jurypräsident)
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                                       16
+
+
+
+
+                            8.           Projektverfassende
+                            Nach der Formulierung der Empfehlungen an die Ausloberin sowie nach der Unterzeichnung des
+                            Juryberichts hat die Jury die Anonymität der 9 eingereichten Wettbewerbsbeiträge aufgehoben.
+
+
+
+                              Rangfolge                Beitrag Nr. / Kennwort                                      Projektverfassende
+                                                                                                           (federführendes Architekturbüro)
+
+                              1. Rang / 1. Preis       Nr. 03    DREI RÖSLI                           ARGE Gross Loewensberg, Zürich
+
+                              2. Rang / 2. Preis       Nr. 04    Quartett                             Grigo Pajarola Architekten, Chur
+
+                              3. Rang / 3. Preis       Nr. 08    Abusitz                               Blaas Architekten GmbH, Zürich
+
+                              4. Rang / 4. Preis       Nr. 05    ZAI                              Architekturbüro hhplus AG, Zürich
+
+                              5. Rang / 5. Preis       Nr. 09    JELEN                        Schmidlin Architekten ETH SIA, Zürich
+
+                              nicht rangiert           Nr. 01 SCROTTA DA NAIV                           Architekturbüro Sik AG, Zürich
+
+                              nicht rangiert           Nr. 02 TIC TAC TOE                             Patriarche Architekten AG, Basel
+
+                              nicht rangiert           Nr. 06 z’Hengert gan              GREDIG WALSER ARCHITEKTEN AG, Chur
+
+                              nicht rangiert           Nr. 07 TRIO                            Schwander & Sutter Architekten, Chur
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                     17
+
+
+
+
+                            9.           Projektbeschriebe
+                            9.1          DREI RÖSLI
+
+  Projekt Nr. 03
+  DREI RÖSLI
+
+
+  1. Rang / 1. Preis
+  CHF 20'000.-
+
+
+  Architektur
+  ARGE Gross Loe-
+  wensberg
+  Clea Gross Architek-
+  ten GmbH, Zürich
+  Gret Loewensberg
+  Architekten GmbH,
+  Zürich
+
+
+  weitere
+  Fachplaner
+  Dr. Lüchniger +
+  Meyer Bauingenieur
+                            Abb. 4: Situationsplan DREI RÖSLI (massstabslos)
+  AG, Zürich
+  3-Plan Haustechnik
+  AG, Winterthur
+
+
+
+
+                            Abb. 5: Modellfoto DREI RÖSLI
+
+
+
+
+                            Ortsbauliche Gesamtsituation, Freiraum und Ausganslage
+
+                            Drei gleichartige, rhythmisch abgetreppte Häuser fügen sich in den Steilhang entlang der «Wät-
+                            terweidstrasse» ein. Der Autolift an der Kreuzung zur «Neubachstrasse» erlaubt eine nahezu
+                            autofreie Quartierstrasse. Die Vorzonen der Hauszugänge weiten sich zwischen den Häusern aus
+                            und bieten Nutzungsflächen im Aussenraum. Ergänzt wird dieser Bereich mit Veloabstellplätzen
+                            und drei Aussenparkplätzen entlang der Strasse.
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                          18
+
+
+
+
+                            Die fast identischen Häuser sind auch im Grundriss ähnlich konzipiert und weisen die notwendige
+                            Flexibilität der Wohnungsgrössen auf. Durch die Gliederung der Volumina in den zwei oberen
+                            Geschossen ergeben sich andere Grundrisstypen. Mit dem Autolift wird eine einfache und funk-
+                            tionale Tiefgarage erschlossen. Im erdüberdeckten Bereich liegen die Nebenräume wie Keller,
+                            Technik, Ski - und Kinderwagenräume.
+
+                            Durch die orthogonale Setzung der drei Volumen bilden sich gleiche und fast parallele Zwischen-
+                            räume. Die Häuser stimmen im Schnitt konsequent bis in die Tiefgarage überein. Die abgetrepp-
+                            ten Volumen wirken fein und nehmen sich in der Wahrnehmung zurück. Sie betonen den Stras-
+                            senraum und übernehmen in der Schnittfigur das abfallende Gelände. Eine schöne Idee, welche
+                            aber etwas wenig räumliche Spannungen aufbaut. Die drei Gebäude können dafür auch als Gan-
+                            zes gelesen werden, was in diesem Kontext denkbar ist. Die Aussenräume gewähren einen schö-
+                            nen Blick in die Ferne und laden zum Aufenthalt ein. Die geschwungene Angrenzung zu den un-
+                            teren Geschossen, wie auch die Möblierungen der Freiflächen haben noch Potenzial für spieleri-
+                            schere und gemütlichere Aufenthaltsbereiche. Die Idee des Autoliftes frequentiert die Quar-
+                            tierstrasse tatsächlich weniger. Der Preis für die notwendigen Hangsicherungen und die höheren
+                            Unterhaltskosten hinterfragen den Aufwand bei der Erstellung. Der Vorraum zur Strasse wird
+                            wahrscheinlich bei starker Frequenz so nicht funktionieren. Die Kombination als Aufenthaltsort
+                            und in Verbindung zur Bushaltestelle ist jedoch ein interessanter Ansatz und definiert die Schnitt-
+                            stelle an der Kreuzung.
+
+
+
+
+                            Abb. 6: Visualisierung DREI RÖSLI von der «Wätterweidstrasse»
+
+
+
+
+                            Architektur und Funktionalität
+
+                            Die drei Volumen sind in der Grundrissstruktur ähnlich aufgebaut. Ein Treppenhaus direkt von
+                            der Quartierstrasse erschlossen ist so platziert, dass die Brandschutzauflagen gelöst sind und
+                            im Erdgeschoss Tageslicht in den Treppenkern scheint. Ein Treppenhaus mit Tageslicht wird be-
+                            grüsst und gleichzeitig bedauert, dass es in den oberen Geschossen keine Fortsetzung findet.
+                            Ganz grob werden die Geschosse in eine Ostsüd- und in eine Südwestwohnung eingeteilt. Dies
+                            bietet den Vorteil, dass alle Wohnung von der schönen Aussicht und der Besonnung profitieren.
+                            In diesem Kontext weniger verständlich sind die Balkonanordnungen und deren Grösse. Um das
+                            Gerüst der Grundrisstypologie ergeben sich verschiedene Lösungen für den gewünschten Woh-
+                            nungsmix. Bei der 4.5-Zimmerwohnung fällt das grosse Eckzimmer auf, das im Verhältnis zur
+                            übrigen Wohnung eine zu grosse Fläche aufweist. Die Jury erkennt, dass sich das Elternzimmer
+                            in der Wohnung anders zuteilen lässt, trotzdem ist die Anordnung dieses Zimmers ungünstig und
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                      19
+
+
+
+
+                            scheint eine Konzeptübernahme des Studiogrundrisses zu sein. Zum Teil entstehen durch die
+                            Grundrissvariationen unproportionierte Räume. So ist z.B. das Entrée einmal zu gross, dann wie-
+                            der zu klein. Der Wohnraum liegt im EG und 1.OG im Sandwich zwischen Eingang und Küche/Es-
+                            sen. Spannend ist jedoch der Vorschlag für die Küche und den Essbereich an der Südfront. Ein
+                            schöner Gedanke, der den Tagesablauf anders gewichtet. Durch die ebenfalls im Süden gelege-
+                            nen Zimmer verbleibt aber zu wenig Platz für die Küche und der Essbereich ist räumlich nicht
+                            gefasst. Die aufgezeigten Variationen zeigen noch Schwächen bei den funktionalen und räumli-
+                            chen Qualitäten auf. Auch sind die Fenster teilweise nicht im Einklang mit dem Grundriss.
+
+                            Die Gliederung des Volumens generiert in den obersten zwei Geschossen eine andere Grundriss-
+                            typologie. Obschon diese Geschosse eine Ostwest-Orientierung suggerieren, wird hier die ganze
+                            Südfassade für den Wohn- und Essbereich genutzt. Die Aufteilung der Funktionen im Grundriss
+                            offenbart räumliche Mängel. So tritt man vom Treppenhaus unvermittelt ins Wohnzimmer, Ess-
+                            raum mit Küche verlieren sich zwischen Grosszügigkeit und Enge. Die grosse Terrasse ist eine
+                            spannende Idee, von der aber nur das 2. Obergeschoss profitiert. Zudem sollte diese gemäss den
+                            Bestimmungen im Baugesetz entsprechend verkleinert werden. Das Dachgeschoss weist keinen
+                            Südbalkon auf. Dieser muss behelfsmässig an die Seitenfassaden verlegt werden. Die Fenster
+                            und Grundrisse sind hier ebenfalls noch nicht im Einklang.
+
+
+
+
+                            Abb. 7: Grundriss Regelgeschosse (1. OG) DREI RÖSLI (massstabslos)
+
+
+
+
+                            Die Organisation und die Anordnung der Nebenräume in den Untergeschossen wirken teilweise
+                            etwas zufällig verteilt. Der Veloraum im 2. Untergeschoss und der Abstellraum für die Kinder-
+                            wagen im 1. Untergeschoss sind unpraktisch positioniert.
+
+                            Konstruktion und Ausdruck
+
+                            Auf einem massiven Betonsockel sitzt eine Holzkonstruktion, die so denkbar ist. Sie erfüllt die
+                            Ansprüche an eine zeitgemässe Materialisierung und den bauphysikalischen Auflagen, wie z.B.
+                            Schall und Brandschutz. Die Details erlauben in Zukunft auf die verschiedenen Bauzyklen zu re-
+                            agieren und versprechen eine kostengünstige Umsetzung. Optimierungsbedarf ergeben sich bei
+                            den Steigzonen und den tragenden Innenwänden. Die Aussenwände führen statisch sinnvoll bis
+                            auf ein Haus konsequent ins unterste Geschoss. Gesamthaft wirken die Fassaden jedoch zu be-
+                            scheiden. Der spürbare Wille einer orthogonalen Anordnung der Fenster unterstützt weder den
+                            Grundriss noch den äussern Eindruck.
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                          20
+
+
+
+
+                            Abb. 8: Visualisierung DREI RÖSLI von aussen Richtung Osten
+
+
+
+
+                            Gesamtwürdigung
+
+                            Die abgetreppten Volumina sind eine adäquate Antwort auf die Topografie und den Kontext. Die
+                            drei Häuser wirken feingliedrig und weisen genügend Freiraum auf. Sie sind klar adressiert und
+                            alle Wohnungen profitieren von der Südorientierung. Die grosszügigen Aussenbereiche können
+                            gut möbliert werden. Der gewünschte Wohnungsmix ist umsetzbar und lässt eine gewisse Flexi-
+                            bilität zu. Das Konzept der Tiefgarage ist funktional und übersichtlich. Der Autolift bringt einige
+                            Vorteile, generiert aber gleichzeitig hohe Kosten bei der Erstellung und im Unterhalt. Die Anord-
+                            nungen der Fenster im Zusammenspiel mit dem Grundriss stimmen teilweise noch nicht überein,
+                            und der äussere Eindruck ist noch zu wenig auf den Ort abgestimmt und wirkt etwas zurückhal-
+                            tend.
+
+
+
+
+                            Abb. 9: Ansicht Südwest DREI RÖSLI (massstabslos)
+
+
+
+
+                            Abb. 10: Längsschnitt DREI RÖSLI (massstabslos)
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht   21
+
+
+
+
+                            Abb. 11: Querschnitt DREI RÖSLI (massstabslos)
+
+
+
+
+                            Abb. 12: Fassadenschnitt DREI RÖSLI (massstabslos)
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht   22
+
+
+
+
+                            Abb. 13: Grundriss Erdgeschoss DREI RÖSLI (massstabslos)
+
+
+
+
+                            Abb. 14: Ansicht / Querschnitt DREI RÖSLI (massstabslos)
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht   23
+
+
+
+
+                            9.2          Quartett
+
+  Projekt Nr. 04
+  Quartett
+
+
+  2. Rang / 2. Preis
+  CHF 13'000.-
+
+
+  Architektur
+  Grigo Pajarola Ar-
+  chitekten, Chur
+
+
+  weitere
+  Fachplaner
+  Peter Vogt Land-
+  schaftsarchitekten,
+  Vaduz
+  Emch+Berger Grau-
+  bünden AG, Chur
+  Enerpeak AG,
+  Dübendorf
+  Balzer Ingenieure
+  AG, Chur
+
+
+
+
+                            Abb. 15: Situationsplan Quartett (massstabslos)
+
+
+
+
+                            Abb. 16: Modellfoto Quartett
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                        24
+
+
+
+
+                            Ortsbauliche Gesamtsituation, Freiraum und Ausganslage
+
+                            Das Projekt Quartett setzt vier unterschiedlich grosse Baukörper längs zum Hang und nimmt
+                            damit Bezug zur vorgefundenen Quartierstruktur mit unterschiedlich grossen Einzelbauten. Die
+                            Bauten fächern sich zur Strasse hin auf, lassen Durchblicke von der Strasse zur Talseite frei und
+                            öffnen die Aussenräume zwischen den Häusern zur Eingangsseite. Diese wird als Ort der Begeg-
+                            nung verstanden, mit gedeckten Vorzonen vor den Hauseingängen, einem Spielplatz und einem
+                            öffentlichen Platz mit Bushaltestelle an der Strassenkreuzung. Der Grünraum zwischen den
+                            Häusern beherbergt Pflanzgärten und hat einen privateren Charakter.
+
+                            Der gesamte Aussenraum weist verschiedene Nutzungen auf und ist differenziert und sorgfältig
+                            gestaltet. Die Einfahrt zur Tiefgarage ist kurz und führt direkt ins dritte Haus in der Reihe.
+                            Dadurch wird Nutzfläche im Erdgeschoss hergegeben, dafür bleibt der Garten zwischen den Häu-
+                            sern intakt. Die Terrainbewegungen sind gering und die Positionierung der Tiefgarage erlaubt
+                            zudem eine einfache Etappierung.
+
+
+
+
+                            Abb. 17: Visualisierung Quartett von aussen
+
+
+
+
+                            Architektur und Funktionalität
+
+                            Die vier Baukörper sind kompakt, auf jedem Geschoss sind zwei Wohnungen angeordnet. Dies
+                            erlaubt, dass jede einzelne Wohnung einen Anteil an der Talseite mit Aussicht hat. Alle Wohnun-
+                            gen sind längs ausgerichtet und haben eine Loggia nach Süden. Der Grundriss ist ökonomisch
+                            und effizient, für die Erschliessung wird kaum Platz verbraucht, jeder Quadratmeter wird optimal
+                            genutzt. Dadurch entsteht trotz knappem Zuschnitt ein Eindruck von Grosszügigkeit, unterstützt
+                            noch durch die langen Achsen, welche Durchblicke von der Strassenseite bis zur Loggia auf der
+                            Talseite erlauben. Die Räume sind gut proportioniert und sehr gut möblierbar. Eine Raumfolge
+                            verbindet die strassenseitigen Zimmer, Küche, Essen und Wohnen bis zum Südzimmer. Die Kü-
+                            che ist direkt mit dem Entrée verbunden. Dies ist ein praktisches, platzsparendes und zugleich
+                            räumlich schönes Detail. Die halbabgetrennte Küche bleibt offen zum Wohnen, ohne dabei den
+                            gesamten Wohnraum zu dominieren. Die Platzierung eines Zimmers anstelle des Wohnraums
+                            auf der «kostbaren» Südseite unterläuft die gängigen Erwartungen, schafft dafür aber Raum für
+                            vielfältige Nutzungen.
+
+                            Der Preis für die vorteilhafte Anordnung und die durchgehend hohe Qualität der Wohnungen ist
+                            eine vergleichsweise sehr knappe Wohnungszahl.
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                      25
+
+
+
+
+                            Abb. 18: Regelgeschoss (1. OG) Quartett (massstabslos)
+
+
+
+
+                            Konstruktion und Ausdruck
+
+                            Die vier Häuser bestehen aus einem Holzskelettbau mit einem massiven Kern. Die einfache und
+                            effiziente Bau- und Raumstruktur bietet gute Voraussetzungen für den Holzbau. Die Konstruktion
+                            bleibt auch im Innern sichtbar, die Holzbalkendecken sind nicht verkleidet und geben den Räu-
+                            men zusätzlich Struktur. Die Fügung der Holzelemente ist so gedacht, dass möglichst viele Teile
+                            wiederverwendet werden können. Die Fassaden sind mit unterschiedlich grossen Faserzement-
+                            platten verkleidet. Die Materialisierung und das durchgehende Raster verleihen den Häusern ei-
+                            nen unaufgeregten und dem Ort angemessenen Ausdruck.
+
+
+
+
+                            Abb. 19: Visualisierung Quartett von aussen Richtung Osten
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                   26
+
+
+
+
+                            Gesamtwürdigung
+
+                            Das Projekt hat grosse Qualitäten, schöne Wohnungsgrundrisse und eine effiziente und auf den
+                            Holzbau abgestimmte Struktur. Auch das Erscheinungsbild und die Einbettung ins Quartier wird
+                            von der Jury gelobt. Leider bleibt die Anzahl Wohnungen aber so weit unter den Anforderungen
+                            der Ausloberin, dass die daraus erwachsenden Vorteile und die gute Gestaltung nicht wettge-
+                            macht werden können.
+
+
+
+
+                            Abb. 20: Visualisierung Quartett von innen
+
+
+
+
+                            Abb. 21: Längsschnitt Südwest Quartett (massstabslos)
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht   27
+
+
+
+
+                            Abb. 22: Grundriss Obergeschosse Quartett (massstabslos)
+
+
+
+
+                            Abb. 23: Querschnitt Quartett (massstabslos)
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                    28
+
+
+
+
+                            9.3          Abusitz
+
+  Projekt Nr. 08
+  Abusitz
+
+
+  3. Rang / 3. Preis
+  CHF 9'000.-
+
+
+  Architektur
+  Blaas Architekten
+  GmbH, Zürich
+
+
+  weitere
+  Fachplaner
+  BÖE GmbH Land-
+  schaftsarchitektur,
+  Zürich
+  Egeter & Partner AG
+  Bauingenieure / Pla-
+  nung, Haag
+                            Abb. 24: Situationsplan Abusitz (massstabslos)
+  s3-engineering
+  GmbH, Dübendorf
+
+
+
+
+                            Abb. 25: Modellfoto Abusitz
+
+
+
+
+                            Ortsbauliche Gesamtsituation, Freiraum und Ausganslage
+
+                            Das Projekt «Abusitz» spielt mit der Auslotung der Grenzen des Baugesetzes. Wir erkennen 3
+                            Einzelbauten, die so nahe beieinanderstehen, dass sich keine eigentlichen Bautentrennungen,
+                            sondern nur noch Zwischenspalten erkennen lassen. Die Bauten stehen übereck in so knappen
+                            Abständen, dass schon von leichter Schrägeinsicht der Eindruck eines einzigen, grossen Hauses
+                            entsteht. Die Südfassade besteht aus lauter Erkern, aus auskragenden Zimmern. Diese stehen
+                            nun bisweilen so nahe zueinander, dass kaum mehr Distanz besteht.
+
+                            Die 3 einander nahestehenden Bauten bilden im Grundsatz einen Strassen– und einen Waldraum.
+                            Diese Aussenräume sind sinnvoll vorgeschlagen: der nicht als Nutzbereich geplante Waldboden
+                            wird nur sporadisch durch die Hauszugänge unterbrochen und es entsteht eine Grosszügigkeit,
+                            die sich mit Wald und Nachbarbauten vereint.
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                       29
+
+
+
+
+                            Gebäudeabwinklungen und Versätze der Bauten zueinander generieren aber einen nicht klar de-
+                            finierten Distanzraum in Form von schattigem und durch die Auskragungen überbautem und
+                            nicht begrünbarem Waldboden. Es entstehen so zu viele Aussenräume, die nicht wirklich zur Be-
+                            trachtung einladen. Die 2 Aussenbilder zeigen die schönen Bereiche des Projektes. Die schwie-
+                            rigeren Bereiche liegen ausserhalb derselben.
+
+
+
+
+                            Abb. 26: Visualisierung Abusitz von aussen Richtung Osten
+
+
+
+
+                            Architektur und Funktionalität
+
+                            Die Häuser sind identisch aufgebaut: eine seitliche Eingangszone erschliesst den mittig liegen-
+                            den Treppenkern. Die Wohnungen sind – die Vorteile von langen und schmalen Bauten ausnüt-
+                            zend – mit allen Wohnbereichen gegen die Aussicht und Sonne gerichtet. Schlafzimmer und Ne-
+                            benräume erhalten weniger grosse Fenster und finden sich in den seitlichen und bergseitigen
+                            Gebäudebereichen. Die Grundrisse sind klar und logisch strukturiert.
+
+                            Die Wohnungen sind interessant, ideenreich präsentiert und sie bieten unterschiedlichste Nut-
+                            zungsoptionen und Variabilitäten. Man muss aber auch anmerken, dass gewisse Bereiche und
+                            Ecken noch unklar in ihrer Benutzbarkeit sind und dass die auskragenden Schlafzimmer – und
+                            als solche werden sie zumeist möbliert – in ihrer dargestellten Offenheit kaum nutzbar sind, je-
+                            doch einfach dazu umformbar. Sie sind aber auch als Arbeitsbereiche oder als Lounge gezeigt.
+                            Dies wiederum wäre eine zur Architektur adäquate Nutzung. Die grossen Schlafzimmer gegen
+                            Süden bieten manchmal zu viel Raum (29 m²) und dabei zu tiefe, dunkle Raumzonen. Es wäre
+                            besser gewesen, wenn die Raumflächen ausgewogener angeboten worden wären. Dann hätte z.B
+                            der offene Raumbereich zur Strasse hin als richtiger Essbereich gelten können oder als Zimmer
+                            abgetrennt (Schiebewände) oder mit dem daneben liegenden Raum zu einem grosszügigeren
+                            Zimmer verbunden werden können. Solche Projektoptimierungen erscheinen aber durchaus als
+                            möglich.
+
+                            Die Grundrisse würden erlauben, dass die meisten Nassräume Fenster erhalten könnten.
+
+                            Alle Wohnungen erhalten einen Balkon, der gut ausgerichtet und windgeschützt ist und eine pas-
+                            sende Grösse bietet. Das Innenbild zeigt die interessante Raumkonstellation sehr schön.
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                       30
+
+
+
+
+                            Abb. 27: Visualisierung Abusitz von innen
+
+
+
+
+                            Konstruktion und Ausdruck
+
+                            Die Bauten erscheinen in ihrem Äusseren mit ihren ungleich grossen, naturbelassenen Holz-
+                            schindeln als beinahe romantisch und erinnern an Holzarchitektur des Tourismuszeitalters zu
+                            Beginn des 20. Jahrhunderts. Eine solche Ausbildung würde in Arosa bestimmt angenehm und
+                            gewohnt wirken. Im Inneren werden die Holzflächen in verschiedener Art bearbeitet, belassen
+                            und aber auch abgedeckt. Die innere Ausgestaltung erscheint unnötigerweise als zu aufwändig.
+
+                            Gesamtwürdigung
+
+                            Das Projekt zeigt ideenreiche und qualitätsvolle Wohnungen und nutzt für deren Ausbildung die
+                            versteckten Möglichkeiten der neuen Gesetzgebung. Da die auskragenden Gebäudeteile – und
+                            hier sind es alle Eckzimmer – nicht in den Fussabdruck eingerechnet werden, sind sie so gewon-
+                            nene Zusatzflächen. Die Erschliessungsflächen werden minimiert und die Wohnungsgrössen
+                            sind am unteren Limit. Resultat daraus ist eine Wohnungszahl, die weit über diejenige der ande-
+                            ren Projektvorschläge herausgeht (39 Wohnungen statt deren 26 - 32). Bedingung einer solchen
+                            Maximierung und Verdichtung ist aber, dass überall qualitätsvolle Räume generiert werden. Und
+                            dies gilt nicht nur für die eigenen Bedürfnisse, sondern auch für diejenigen der Nachbarschaft
+                            oder für die Öffentlichkeit. Gerade was die engen Räume zwischen den Bauten betrifft, wird diese
+                            Forderung nicht eingelöst.
+
+
+
+
+                            Abb. 28: Längsschnitt Abusitz (massstabslos)
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht   31
+
+
+
+
+                            Abb. 29: Regelgeschoss (EG) Abusitz (massstabslos)
+
+
+
+
+                            Abb. 30: Ansicht Nord Abusitz (massstabslos)
+
+
+
+
+                            Abb. 31: Fassadenschnitt Abusitz (massstabslos)
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                      32
+
+
+
+
+                            9.4          ZAI
+
+  Projekt Nr. 05
+  ZAI
+
+
+  4. Rang / 4. Preis
+  CHF 9'000.-
+
+
+  Architektur
+  Architekturbüro
+  hhplus AG, Zürich
+
+
+  weitere
+  Fachplaner
+  Steven Della Betta
+  (Brandschutz)
+  Ingenieurbüro
+  Zobrist und Räbsa-
+  men, Zürich
+
+                            Abb. 32: Situationsplan ZAI (massstabslos)
+
+
+
+
+                            Abb. 33: Modellfoto ZAI
+
+
+
+
+                            Ortsbauliche Gesamtsituation, Freiraum und Ausganslage
+
+                            Die Setzung der drei Gebäude im Beitrag «ZAI» orientiert sich an der Erschliessungsstrasse und
+                            an den Höhenlinien. Die dadurch entstehenden leichten Verdrehungen der Baukörper verhin-
+                            dern, dass sich die Fassaden frontal gegenüberstehen. Dies verbessert die Aussicht aus den
+                            West- und Ostfassaden und reduziert die gegenseitige Einsicht. Die Giebelfassaden sind Richtung
+                            Berge und Hauptbesonnungsseite (Süd-West) ausgerichtet.
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                     33
+
+
+
+
+                            Die Hauszugänge sind direkt von der Erschliessungsstrasse aus erreichbar. Die Zufahrt zur Ein-
+                            stellhalle ist dem Terrain entsprechend naheliegend im unteren Bereich der Stichstrasse vorge-
+                            sehen. Die ausholende Einfahrt ermöglicht eine direkte Zufahrt ohne Benutzung des Wendeham-
+                            mers. Die halböffentlichen Freiräume sind talseits der Gebäude vorgesehen.
+
+                            Die vertikale Erschliessung der Häuser ist mit einem an der Nordfassade gelegenen Treppen-
+                            haus und einer einläufigen Treppe organisiert. Durch das tiefe Treppenhaus mit der einläufigen
+                            Treppe gelangt man ins Zentrum des Baukörpers. Pro Geschoss werden zwei oder drei Wohnun-
+                            gen erschlossen. Die Tag- und Nachtzonen der Wohnungen sind direkt über den Eingangsbereich
+                            erschlossen. Reine Erschliessungskorridore sind auf ein Minimum reduziert.
+
+
+
+
+                            Abb. 34: Regelgeschoss (1. OG) ZAI (massstabslos)
+
+
+
+
+                            Architektur und Funktionalität
+
+                            Die drei Baukörper sind in einen Süd-West Teil mit den Tagesräumen und Nord-Ost Teil mit den
+                            Nachträumen aufgeteilt. Diese Gliederung wird durch eine horizontale Verschiebung der Gebäu-
+                            deteile akzentuiert. Diese Massnahme lockert das Gebäudevolumen auf, ermöglicht von den hin-
+                            ten liegenden Räumen «Guckfenster» in die Berge und schafft Flexibilität in der Höhe im berg-
+                            seits liegenden Nord-Ost Teil. Im Haus 3 kann dadurch eine Wohnung in einem zusätzlichen Ge-
+                            schoss gewonnen werden. Der Übergang der unterschiedlichen Dachneigungen ist grundsätzlich
+                            an der Grenze der Tag- und Nachträume.
+
+                            Mit dieser einfachen horizontalen Verschiebung der beiden Gebäudeteile entstehen spannende
+                            Raumbezüge im Innern und zusätzliche Sichtbezüge nach aussen.
+
+
+
+
+                            Abb. 35: Visualisierungen ZAI
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                      34
+
+
+
+
+                            Die Raumhöhen in den Dachwohnungen sind an der Traufseite teilweise unangenehm tief.
+
+                            Küche, Essen und Aufenthalt sind in einem eher schmalen Rechteck ohne Gliederung und mit
+                            wenig Spannung organisiert. Diese Einfachheit wird durch die grosszügige Verglasung und den
+                            Weitblick in die Berge nur begrenzt verbessert. Die privaten Aussenräume sind wenig attraktiv
+                            und dem Wetter zu stark ausgesetzt. Einige Schlafzimmer und die Wohnzimmer wirken gedrun-
+                            gen und schmal. Der Eingangsbereich in den Häusern ist zu klein und die Veloräume und Kinder-
+                            wagenräume sind nicht auf dem Eingangsgeschoss vorgesehen.
+
+                            Die Einstellhalle ist vom Haus 3 nur über eine Treppe in einem Verbindungskorridor erreichbar.
+                            Allgemein sind viele Zugänge nicht behindertengerecht. Die Kellerräume des Haus 2 sind im
+                            Haus 1 integriert. Diese können vom Haus 2 nur über die Einstellhalle erreicht werden.
+
+                            Die tiefe Setzung der Einstellhalle ergibt am Westende der Parzelle eine hohe und unwirtschaft-
+                            liche Überdeckung. Die Statik der Häuser korrespondiert nicht mit der Tragstruktur der Tiefga-
+                            rage.
+
+
+
+
+                            Abb. 36: Längsschnitt ZAI (massstabslos)
+
+
+
+
+                            Abb. 37: Ansicht Ost ZAI (massstabslos)
+
+
+
+
+                            Konstruktion und Ausdruck
+
+                            Die Konstruktion besteht aus einem Sockel in Ortsbeton und einer darüberliegenden Holzbau-
+                            konstruktion. Die Fassade wird spartanisch mit horizontalen Holzbrettern ohne weitere Gliede-
+                            rungen verkleidet. Die Pragmatik wird mit einer technisch einfachen Behandlung des Holzes (ge-
+                            brannt und gebürstet) betont. Die grossen Verglasungen in der Giebelfassade Richtung Südwest
+                            ergibt einen willkommenen Beitrag zur passiven Energiegewinnung durch die Sonne.
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                        35
+
+
+
+
+                            Abb. 38: Fassadenschnitt ZAI (massstabslos
+
+
+
+
+                            Gesamtwürdigung
+
+                            Der Ansatz mit den verschobenen Baukörpern ergibt spannende Raumbeziehungen und die tal-
+                            seits orientierten Giebelfassaden ermöglichen gute Aussicht und Besonnung.
+
+                            Die gewählte Typologie mit den talseits orientierten Giebelfassaden ergibt jedoch Nachteile, wel-
+                            che in diesem Projekt kaum korrigierbar sind. Die teils kritisch schmalen Räume, die tiefen Knie-
+                            stöcke mit tiefen Fensterstürzen im Dachgeschoss und Erdgeschosswohnungen mit bergseits
+                            ungenügendem Tageslicht können mit den baurechtlichen Rahmenbedingungen nicht befriedi-
+                            gend korrigiert werden. Das mit dem Projekt vorgeschlagene Näherbaurecht für das Haus 1 ent-
+                            spricht nicht den Planungsvorgaben und wird von der Jury skeptisch beurteilt.
+
+
+
+
+                            Abb. 39: Ansicht Südwest ZAI (massstabslos)
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                      36
+
+
+
+
+                            9.5          JELEN
+
+  Projekt Nr. 09
+  JELEN
+
+
+  5. Rang / 5. Preis
+  CHF 5'000.-
+
+
+  Architektur
+  Schmidlin Architek-
+  ten ETH SIA, Zürich
+
+
+  weitere
+  Fachplaner
+  -
+
+
+
+
+                            Abb. 40: Situationsplan JELEN (massstabslos)
+
+
+
+
+                            Abb. 41: Modellfoto JELEN
+
+
+
+
+                            Beginnen wir mit der Setzung der drei Bauten: die Bauten sind so in die Topografie gelegt, dass
+                            sie damit möglichst konfliktfrei umgehen können. Folge daraus ist, dass die Bauten in zu sich
+                            selbst abgewinkelten Stellungen stehen und daraus auch Vorteile für die Wohnungen generieren.
+
+                            Diese Abwinklungen zueinander und auch zur Zufahrtstrasse hin ergeben jedoch kaum einen be-
+                            stimmten und bewussten Bezug innerhalb der Bauten selbst oder eine Raumbildung gegen aus-
+                            sen. Dies wiederspiegelt sich auch in den Plänen, wo kaum eine klare Aussage zu Nutzungen und
+                            Bepflanzungen der Aussenräume gemacht wird.
+
+                            Die Projektverfasser schreiben, dass sie in Form eines «aufgelockerten Haufendorfes» eine Ein-
+                            bettung in das Ortsbild und die Nähe zum Wald anstreben. Beides ist schwerlich in den Plänen
+                            nachvollziehbar umgesetzt.
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                      37
+
+
+
+
+                            Wald ist klar von Bau abgetrennt, Ortsbild ist mehrheitlich Volumenresultat. Der vorgeschlagene
+                            Städtebau und die Materialisierung führen das bestehende, auch beliebige und durch Einzelin-
+                            terventionen hervorrührende Bebauungsmuster weiter. Die Chance einer klareren Bestimmung
+                            wurde kaum angepackt.
+
+
+
+
+                            Abb. 42: Eingangsgeschoss JELEN (massstabslos)
+
+
+
+
+                            Um die gesetzlichen Gebäudehöhen einzuhalten erhalten die 3 Bauten einen bergseitig gelegten
+                            Längsfirst. Dies ist eine schöne Geste, um die Häuser mit der Topografie zu vereinen, um die
+                            Geländestufen mit dem Haus nachzuformen. Diese Giebellage ergibt Wohnungen im obersten
+                            Dachbereich, die sich vorab – und damit eher ungünstig - nach Nordosten orientieren.
+
+                            Die Bauten sind auch zur Strasse hin mit Loggien ausgestattet. Dies verhindert die Ausbildung
+                            von Rückseiten und lockert die Gebäudeecken auf.
+
+                            Die Bauten sind im Grundsatz als Holzkonstruktionen vorgeschlagen. Die Fassade erhält eine
+                            weiss getünchte Vertikalschalung, welche Naturholzfenster und Loggien einfasst. Diese Ausge-
+                            staltung der Häuser erscheint als angenehm, als möglich, als im positiven Sinn akzeptabel.
+
+
+
+
+                            Abb. 43: Visualisierung JELEN von aussen Richtung Nordosten
+
+
+
+
+                            Die Häuser zeigen noch keinen Bezug zur Umgebung. Sie enden an ihrem Übergangsbereich zur
+                            Erde. Die Sockelbereiche sind zumeist fensterlos. Verbindungen von Innen- zu Aussenraum sind
+                            nicht wirklich zu finden. Die im Wettbewerbsprogramm gewünschten Bereiche, wo sich
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                        38
+
+
+
+
+                            Bewohner treffen können oder wo Bau sich mit Umgebung zusammentut (z.B. Gärten für die
+                            Erdgeschosswohnungen), sind nicht nachgewiesen.
+
+                            Die Ausgestaltungen der Innenräume darf als sehr angenehm, als dem Bauen in den Bergen
+                            adäquat beurteilt werden: alle Flächen zeigen Massivholz und leben von genügend Tageslicht.
+
+                            Die Konstruktion und die Materialisierung erscheinen als nachhaltig und rationell angedacht.
+
+                            Die Baukörper sind rationell und straff strukturiert aufgebaut. Daraus ergeben sich durchgehend
+                            identische Typen gerade bei den grösseren Wohnungen. Diese können einfach um 1 Zimmer ver-
+                            grössert oder aber z.T. auch verkleinert werden. Die Restflächen im Unter- und im Dachgeschoss
+                            sind dann für die kleineren Wohnungen gedacht. Fazit daraus ist, dass es etwas zu wenige der
+                            kleinen Wohnungen gibt. Die Grundrisse zeigen typische, gewohnte und wenig neuartige Auftei-
+                            lungen. Die Abwinklungen der 3 Bauten zueinander bringen hier Vorteile für die Aussicht und
+                            Besonnung der jeweiligen Wohnungen. Die Loggien sind intelligent angedacht, jedoch noch etwas
+                            zu klein. Die Treppenhäuser – auch diese wären eine Chance als Kleintreffpunkt in der Siedlung
+                            – sind eher dunkel und unattraktiv.
+
+                            Die Nachhaltigkeit wird durch die Materialwahl, durch die serielle Rationalität der Struktur,
+                            durch die eher unterhaltsarmen Oberflächen nachgewiesen. Es fragt sich aber, ob Holzwerk-
+                            stoffplatten im Mietwohnungsbau bei allfälligen Reparaturen eine gute Wahl darstellen.
+
+                            Die kompakten Baukörper mit den vielfach geschlossenen Gebäudeteilen nach Norden und den
+                            grösseren Öffnungen vorab gegen Süden versprechen gute Energiewerte und wenig Verluste.
+
+                            Betrachtet man das Projekt, dann erscheint alles möglich. Aber es sind viele relevante Aussagen
+                            noch nicht gemacht. Vieles ist zu interpretieren. Das Projekt zeigt sich in entscheidenden Berei-
+                            chen in einem noch modellartigen Planungsstand.
+
+
+
+
+                            Abb. 44: Ansicht Südwest JELEN
+
+
+
+
+                            Abb. 45: Querschnitt «Unterhaus» JELEN
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                    39
+
+
+
+
+                            9.6          SCROTTA DA NAIV
+
+  Projekt Nr. 01
+  SCROTTA DA NAIV
+
+
+  nicht rangiert
+
+
+  Architektur
+  Architekturbüro Sik
+  AG, Zürich
+
+
+  weitere
+  Fachplaner
+  -
+
+
+
+
+                            Abb. 46: Situationsplan SCROTTA DA NAIV (massstabslos)
+
+
+
+
+                            Abb. 47: Modellfoto SCROTTA DA NAIV
+
+
+
+
+                            Das Projekt «SCROTTA DA NAIV» setzt zwei grosse vieleckige Baukörper in den Hang. Die beiden
+                            Grossformen setzen sich aus drei ineinander geschobenen Hausfragmenten zusammen. Dies er-
+                            möglicht eine allseitige Ausrichtung und für jede Wohnung einen angemessenen Fassadenanteil
+                            mit einer Überecksituation. Der Aussenraum erscheint im Vergleich zur Erläuterung im Projekt-
+                            beschrieb schematisch und die Garagenzufahrt dominiert und zerschneidet durch ihre gekurvte
+                            Form den gesamten Aussenraum zwischen den beiden Häusern.
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                        40
+
+
+
+
+                            Die Vierbünder sind effizient und benötigen insgesamt nur zwei Treppenhäuser und Lifte. Aller-
+                            dings ergeben sich durch diese Anordnung qualitativ sehr unterschiedliche Wohnungen was den
+                            Ausblick und die Besonnung betrifft. Die hangseitigen Wohnungen erhalten im Winter teilweise
+                            kaum Sonne und können durch ihre Ausrichtung mit den Loggien auf die Strassenseite mit den
+                            auf Süden und das Tal ausgerichteten Wohnungen nicht konkurrieren.
+
+
+
+
+                            Abb. 48: Eingangsgeschoss SCROTTA DA NAIV (massstabslos)
+
+
+
+
+                            Die Wohnungsgrundrisse in sich sind jedoch von hoher Qualität. Das jeweilige Dreigespann von
+                            Wohnraum, grosszügiger Wohnküche und Loggia verspricht eine schöne Wohnatmosphäre, inte-
+                            ressante Durchblicke und grosse räumliche Qualitäten.
+
+                            Etwas weniger überzeugt ist die Jury von den Schnittstellen der drei Hausteile im Dachbereich.
+                            Die Dächer übergreifen sich unschön und wirken dadurch etwas zusammengeschustert. Im
+                            Grundriss mit der vielgestaltigen Geometrie sind die drei Häuser nicht ablesbar und würden eher
+                            auf ein Flachdach schliessen lassen. Ähnliches gilt für die allseitige Ausrichtung der Wohnungen,
+                            welche der Hanglage nicht gerecht zu werden vermag.
+
+                            Die insgesamt sorgfältige Gestaltung und die grossen innenräumlichen Qualitäten der Wohnun-
+                            gen können die erwähnten Nachteile, insbesondere die teilweise nachteiligen Wohnungsausrich-
+                            tungen leider nicht wettmachen.
+
+
+
+
+                            Abb. 49: Ansicht Südwest SCROTTA DA NAIV
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht   41
+
+
+
+
+                            Abb. 50: Längsschnitt SCROTTA DA NAIV (massstabslos)
+
+
+
+
+                            Abb. 51: Visualisierung von aussen Richtung Norden SCROTTA DA NAIV
+
+
+
+
+                            Abb. 52: Visualisierung von innen SCROTTA DA NAIV
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                      42
+
+
+
+
+                            9.7          TIC TAC TOE
+
+  Projekt Nr. 02
+  TIC TAC TOE
+
+
+  nicht rangiert
+
+
+  Architektur
+  Patriarche Architek-
+  ten AG, Basel
+
+
+  weitere
+  Fachplaner
+  -
+
+
+
+
+                            Abb. 53: Situationsplan TIC TAC TOE (massstabslos)
+
+
+
+
+                            Abb. 54: Modellfoto TIC TAC TOE
+
+
+
+
+                            Die Verfasser assoziieren ihre Entwurfsgedanken mit drei Felsen, die in ihrer unterschiedlichen
+                            Form aus dem Grünen ragen. Zwei der drei Volumen orientieren sich nach Süden, resp. deren
+                            Grenze. Das dritte Haus liegt leicht abgedreht und sucht die Nähe zum Wald. Die Volumina wirken
+                            mächtig und sprengen die Körnigkeit des Quartiers. Die Abschrägung der Firste wirkt ortsfremd
+                            und bringt keine Vorteile für die Dachwohnungen. Das Kleid aus Holz ist denkbar und eine mög-
+                            liche Materialisierung am Ort. Durch das fehlende Vordach und die Übergänge zum Terrain im
+                            Spiel mit den versetzten Fenstern wirkt es dennoch zu städtisch. Die Garagenzufahrt ist am Ende
+                            der Strasse platziert was gut funktioniert. Hingegen mit einer zu schmalen Zufahrtsrampe, die
+                            zudem den Aussenbereich einengt.
+
+                            Die Grundrisse sind mit dem Treppenhauskern im Zentrum gut bespielbar und erlauben Nutz-
+                            flächen entlang der Fassaden. Der Preis wird aber im Erdgeschoss bezahlt, wo die Eingänge nicht
+                            einladend, eng und dunkel sind. In den oberen Geschossen wird das Potenzial der freigespielten
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                     43
+
+
+
+
+                            Fassaden nicht genutzt, und einige Wohnungen liegen ungünstig bezüglich Besonnung und Aus-
+                            sicht. Durch die verschiedenen Wohnungsanordnungen, entsteht ein Grundrisskonzept, dass
+                            nicht für Holzbau geeignet ist und eher für einem Massivbau sprechen, obschon Nasszellen rich-
+                            tigerweise übereinander angeordnet sind.
+
+                            Die drei Volumina entsprechen in ihrer Setzung und auch in ihrem Ausdruck nicht den gewünsch-
+                            ten Anforderungen einer ortstypischen Integration. Teile der Wohnung sind ungünstig im Grund-
+                            riss verortet und scheinen sich dem Gestaltungswillen einer spielerischen Fassade unterzuord-
+                            nen. Konstruktiv ergibt sich durch das Grundrissspiel keine optimale Ausgangslage für einen
+                            Holzbau.
+
+
+
+
+                            Abb. 55: Erdgeschoss TIC TAC TOE (massstabslos)
+
+
+
+
+                            Abb. 56: Ansicht von Südwesten und Längsschnitt TIC TAC TOE (massstabslos)
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht   44
+
+
+
+
+                            Abb. 57: Visualisierung TIC TAC TOE von aussen
+
+
+
+
+                            Abb. 58: Visualisierung TIC TAC TOE von aussen
+
+
+
+
+                            Abb. 59: Visualisierung TIC TAC TOE von innen
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht   45
+
+
+
+
+                            9.8          z‘Hengert gan
+
+  Projekt Nr. 06
+  z‘Hengert gan
+
+
+  nicht rangiert
+
+
+  Architektur
+  GREDIG WALSER
+  ARCHITEKTEN AG,
+  Chur
+
+
+  weitere
+  Fachplaner
+  Casutt Wyrsch
+  Zwicky AG, Chur
+  Kalberer + Partner
+  AG, Chur
+
+
+
+
+                            Abb. 60: Situationsplan z’Hengert gan (massstabslos)
+
+
+
+
+                            Abb. 61: Modellfoto z’Hengert gan
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                         46
+
+
+
+
+                            Was sich im Modell, auf dem Situationsplan und im Referenzbild der Abgabe zeigt, ist eine gute
+                            Ausgangslage für ein gelungenes Projekt: 4 unterschiedlich grosse Chalets bilden klar zuteilbare
+                            und grosszügige Aussenräume. Die Bauten in ihren Verschiebungen zueinander selbst haben das
+                            Potential für Wohnungen mit guter Aussicht und Besonnung. Die Vorplätze verbinden die Haus-
+                            eingänge und kreieren gemeinschaftlich gut nutzbare Zonen.
+
+                            Die 4 unterschiedlichen Baugeometrien generieren unterschiedliche Möglichkeiten für die
+                            Grundrisse der Wohnungen. Hier finden sich unerklärlicherweise neben guten auch viele sehr
+                            unökonomische und schwerlich nutzbare Angebote. Lange Korridore, zu tiefe und somit dunkle
+                            Räume, im Verhältnis zur Wohnungsgrösse zu kleine Essbereiche, unnötigerweise innenliegende
+                            Nasszellen etc. zeigen sich zu oft.
+
+                            Das Haus D ist nicht direkt an die Tiefgarage angeschlossen und bietet so Nachteile betreffend
+                            die Erreichbarkeit (im Plan nur via Vorplatz), nicht zuletzt in Bezug auf die Behinderten-Gängig-
+                            keit. Im Haus D fehlen die Kellerräume. Der Garagenbereich im Haus A ist kaum benutzbar.
+
+                            Die Etappierung ist nicht ideal vorgeschlagen, da sich für die erste Etappe (Häuser B, C, D) so zu
+                            wenige Parkplätze ergeben.
+
+
+
+
+                            Abb. 62: Grundriss Eingangsgeschosse z’Hengert gan (massstabslos)
+
+
+
+
+                            Abb. 63: Ansicht Südwest z’Hengert gan
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht   47
+
+
+
+
+                            Abb. 64: Längsschnitt z’Hengert gan (massstabslos)
+
+
+
+
+                            Abb. 65: Ansichten z’Hengert gan
+
+
+
+
+                            Abb. 66: Visualisierter z’Hengert gan von innen
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                     48
+
+
+
+
+                            9.9          TRIO
+
+  Projekt Nr. 07
+  TRIO
+
+
+  nicht rangiert
+
+
+  Architektur
+  Schwander & Sutter
+  Architekten, Chur
+
+
+  weitere
+  Fachplaner
+  Pirmin Jung Ingeni-
+  eure, Sargans
+  Tobler Landschafts-
+  architekten, Halden-
+  stein
+
+
+
+
+                            Abb. 67: Situationsplan TRIO (massstabslos)
+
+
+
+
+                            Abb. 68: Modellfoto TRIO
+
+
+
+
+                            Drei grosse Baukörper liegen leicht abgewinkelt zueinander längs zum Hang. Mit einer halbge-
+                            schossigen Versetzung reagieren sie auf die abfallende Topografie. Im Projektbeschrieb werden
+                            die Qualitäten des Aussenraums detailliert geschildert, lassen sich in der schematischen Plan-
+                            darstellung aber kaum nachvollziehen.
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht                      49
+
+
+
+
+                            Die Struktur der Grundrisse mit dem innenliegenden Treppenkern ermöglicht den Geschossver-
+                            satz und zugleich eine effiziente Anordnung der Infrastruktur. Allerdings ist das Treppenhaus
+                            ohne Licht und mit dem mittigen Lift relativ gross, ohne davon räumlich zu profitieren.
+
+                            Die Wohnungsgrundrisse sind funktional ausgelegt und in einen Schlaf- und Wohnbereich geteilt.
+                            Die Entrées in den Schlafzonen liegen teilweise weit weg von Wohnraum und Küche und in den
+                            Grosswohnungen weisen die Erschliessungen trotz Fenster zur Fassade keine besonderen
+                            räumlichen Qualitäten auf. Dennoch funktionieren die Grundrisse gut und die Räume sind gut
+                            möblierbar. Die abgewinkelte Fassade ist für den Innenraum zwar kein besonderer Gewinn, ver-
+                            hindert aber eine direkte Konfrontation mit dem Gegenüber.
+
+                            Die drei Häuser bestehen aus einem Holzelementbau mit einem massiven Kern. Die effiziente
+                            Grundrissstruktur ermöglicht einen guten und teilweise sogar flexiblen Wohnungsschlüssel.
+
+                            Gegenüber den erwähnten Qualitäten in Struktur und Anordnung der Wohnungen fällt hingegen
+                            das Erscheinungsbild ab. Die Baukörper wirken trotz abgewinkelter Geometrie im Verhältnis zu
+                            den umliegenden Häusern massiv, dazu kommt eine für den Ort untypische Ausrichtung der
+                            Dachfirste auf die Breitseite der Häuser die wohl ungewollt an übergrosse Chalets erinnert. Die
+                            Gestaltung der Fassaden erscheint insgesamt unspezifisch und die Überdachung des Dachver-
+                            satzes fremd. Diese Nachteile können die insgesamt effiziente Struktur und die gut funktionie-
+                            renden Wohnungsgrundrisse leider nicht aufwiegen.
+
+
+
+
+                            Abb. 69: Grundriss TRIO Niveau 0 (massstabslos)
+
+
+
+
+                            Abb. 70: Ansicht Südwest TRIO
+STW AG für Raumplanung | Gemeinde Arosa – Projektwettbewerb Wohnüberbauung Wätterweid - Jurybericht   50
+
+
+
+
+                            Abb. 71: Längsschnitt TRIO (massstabslos)
+
+
+
+
+                            Abb. 72: Visualisierung TRIO von aussen
+
+
+
+
+                            Abb. 73: Visualisierung TRIO von innen
+

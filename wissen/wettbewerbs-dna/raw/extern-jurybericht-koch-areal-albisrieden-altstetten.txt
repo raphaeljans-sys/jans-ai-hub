@@ -1,0 +1,1979 @@
+# Quelle: https://espazium.s3.eu-central-1.amazonaws.com/files/2019-05/jurybericht_0.pdf (Jurybericht Koch-Areal Neubauten und Quartierpark, Zuerich-Albisrieden/Altstetten, 2019, 49 Seiten, abgerufen 2026-07-27)
+# Extrakt: pdftotext -layout, 49 Seiten, erstellt 2026-07-27
+
+                                                                      05 | 2019
+
+
+
+
+N E U B A U T E N U N D Q U A R T I E R PA R K
+KO C H - A R E A L
+
+Z ü r i c h - A l b i s r i e d e n / A l t s te t te n
+V i e r We t t b e we r b e i m s e l e k t i ve n Ve r f a h r e n
+Bericht des Preisgerichts
+INH A LT
+
+
+
+
+1     Einleitung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+
+2     Aufgabe . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+
+3     Teilnehmende . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .18
+
+4     Preisgericht . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .20
+
+5     Vorprüfung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .21
+
+6     Beurteilung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .25
+
+7     Rangierung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .31
+
+8     Schlussfolgerungen. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .32
+
+9     Empfehlungen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .40
+
+10    Genehmigung . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .44
+
+      Wettbewerbssieger . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .49
+
+      Projekte Baufeld A . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .81
+
+      Projekte Baufeld B . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 141
+
+      Projekte Baufeld C . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 209
+
+      Konzepte Baufeld Quartierpark . . . . . . . . . . . . . . . . . . . . . . . . 275
+Herausgeberin
+Stadt Zürich
+Amt für Hochbauten
+Postfach, 8021 Zürich
+
+
+Tel. 044 412 11 11
+www.stadt-zuerich.ch/wettbewerbe
+
+
+Mai 2019
+
+
+Auflage
+600 Exemplare
+
+
+Inhalt / Redaktion
+Felipe Rodriguez
+Marion Engeler
+Ursula Tschirren
+Britta Walti
+
+
+Layout
+Lada Blazevic
+Gabriella Cristaldi
+Fabian Unold
+
+
+Modellfotografie
+Susan Pop, Zürich
+
+
+Druck
+Print-Shop, Zürich
+
+
+Gestaltungskonzept
+blink design, Zürich
+1     EINLEITUNG
+
+
+
+Das Koch-Areal liegt im Entwicklungsgebiet Letzi, das sich in den letzten
+120 Jahren von einem durch Landwirtschaft geprägten Randgebiet zu einem
+dicht besiedelten, vielfältig genutzten Stadtteil gewandelt hat. Nicht zuletzt
+waren grosse Industrie- und Gewerbebetriebe wie die Motorenwagenfabrik
+Arbenz an der Flüelastrasse, das Zollfreilager an der Flurstrasse oder der
+städtische Schlachthof nördlich des Stadions Letzigrund prägend für die
+bauliche Entwicklung. Nach und nach kamen weitere Industrie-, Gewerbe-
+und Bürobauten, Wohnsiedlungen sowie auch Sport- und Freizeitanlagen
+hinzu. Heute präsentiert sich das Letzigebiet als urbanes Mischgebiet, das
+durch das enge Nebeneinander von alt und neu, niedrig und hoch geprägt
+ist. Diese Identitäten sollen in der weiteren Gebietsentwicklung gestärkt
+und weiterentwickelt werden. Zusammenhängende Grünräume gibt es im
+Letziquartier jedoch nicht viele. In den kommenden Jahren sollen daher
+vielfältige, öffentlich zugängliche Grünräume entstehen und ein engmaschi-
+geres Wegnetz geschaffen werden.
+
+Die Stadt Zürich will auf dem Koch-Areal zu einer qualitätsvollen städte-
+baulichen und architektonischen Entwicklung mit vielfältigen Nutzungen
+beitragen und gleichzeitig den «Werkplatz Zürich» fördern. Im Jahr 2013 hat
+sie daher das Koch-Areal von der UBS AG erworben. Bis 2023 / 2024 sollen
+dort nach den Zielsetzungen der 2000-Watt-Gesellschaft rund 350 preis-
+günstige neue Wohnungen, Gewerbeflächen und ein öffentlich zugänglicher
+Quartierpark entstehen.
+
+Um geeignete Bauträgerinnen für die Überbauung auf dem Koch-Areal zu
+finden, hat die Stadt Zürich gemeinsam mit «wohnbaugenossenschaften
+zürich» (wbg) und Wüest Partner eine entsprechende Ausschreibung vorbe-
+reitet. Im Juni 2017 haben die Allgemeine Baugenossenschaft Zürich (ABZ)
+sowie die Bau- und Wohngenossenschaft Kraftwerk1 (K W1) den Zuschlag
+für die Realisierung der gemeinnützigen Wohnungen und die Immobilienent-
+wicklerin Senn Resources AG (SENN) den Zuschlag für den Bau des Gewer-
+behauses erhalten. Der öffentliche Quartierpark soll durch Grün Stadt Zürich
+(GSZ) realisiert werden. Die Zürcher Stimmbevölkerung hat im Juni 2018 der
+städtischen Vorlage «Gemeinnütziger Wohnungsbau auf dem Koch-Areal»
+mit deutlicher Mehrheit zugestimmt. Die nun vorliegenden drei Siegerpro-
+jekte für die Hochbauten und das Siegerkonzept für den Park werden in
+einem nächsten Schritt weiterentwickelt und zusammenwachsen. Nach
+Abschluss der Vorprojektphase im Jahr 2020 werden die Baurechtsverträge
+mit den drei Bauträgerinnen dem Gemeinderat zur Genehmigung vorgelegt.
+Die vier Bauträgerinnen spannen in Entwicklung, Verwaltung, Betrieb und
+Unterhalt des Areals eng zusammen. Die gemeinsame Vision für das «Koch-
+quartier» als Prototyp und Labor für neue Formen der Kooperation, der
+Organisation und des Austauschs ist unter Mitwirkung von Interessierten aus
+dem Quartier und dem weiteren Umfeld entstanden.
+
+
+
+
+                         Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten   3
+    2       AUFG ABE
+
+
+
+    Das Amt für Hochbauten wurde von den drei Bauträgerinnen Allgemeine
+    Baugenossenschaft Zürich (ABZ), Kraftwerk1 (K W1) und Senn Resources AG
+    (SENN) sowie von Grün Stadt Zürich (GSZ) beauftragt, parallel vier einstufige
+    anonyme Projekt- / Konzeptwettbewerbe im selektiven Verfahren für die neue
+    Nutzung auf dem Koch-Areal, in Zürich-Albisrieden / Altstetten, durchzuführen.
+    Zu den drei Projektwettbewerben für die Hochbauten auf den drei Teilperi-
+    metern A – C waren je 10 Architekturteams und zum Konzeptwettbewerb für
+    den Teilperimeter Quartierpark (QP) waren 15 Landschaftsarchitekturteams
+    zum Verfahren zugelassen. Eine Teambildung mit Partnerinnen und Partnern
+    aus der jeweiligen anderen Disziplin war empfohlen und allfällig ausgewählte
+    Teilnehmende bei diesen Teams zugelassen.
+
+
+
+
+    Grundlage und Rechtsweg
+
+    Die drei Projektwettbewerbe zu den Hochbauten auf den Teilperimetern
+    A – C unterstanden weder der Vereinbarung über das öffentliche
+    Beschaffungswesen (IVöB) noch der Submissionsverordnung (SVO) des
+    Kantons Zürich. Die Auftraggeberinnen (ABZ, K W1, SENN) erklärten die
+    Ordnung SIA 142 für Architektur- und Ingenieurwettbewerbe (Ausgabe 2009)
+    als verbindlich für ihre drei Verfahren.
+
+    Der Konzeptwettbewerb für den Quartierpark unterstand der Interkantonalen
+    Vereinbarung über das öffentliche Beschaffungswesen (IVöB) und der
+    Submissionsverordnung (SVO) des Kantons Zürich. Subsidiär dazu galt die
+    Ordnung SIA 142 für Architektur- und Ingenieurwettbewerbe (Ausgabe 2009).
+
+    Die SIA-Kommission für Wettbewerbe und Studienaufträge hat das Pro-
+    gramm geprüft. Es ist konform zur Ordnung SIA 142 für Architektur- und
+    Ingenieurwettbewerbe (Ausgabe 2009).
+
+
+
+
+4   Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten
+Wettbewerbsperimeter
+
+Das Koch-Areal liegt an der Quartiersgrenze von Altstetten und Albisrieden
+und wird von Flur-, Flüela- und Rautistrasse begrenzt. In direkter Nachbar-
+schaft im Norden befindet sich das Technik- und Dienstleistungszentrum
+«Flur Süd» der UBS AG. Das 29 521 m 2 grosse Wettbewerbsareal setzt sich
+aus den vier Parzellen AL2414, AL5093, AL8663 und AR5422 zusammen. Mit
+Ausnahme der ehemaligen Kohlelagerhalle (Rautistrasse 26), die im kommu-
+nalen Inventar der schützenswerten Bauten aufgelistet ist, können alle beste-
+henden Bauten durch Neubauten ersetzt werden. Gemäss Teilrevision der
+Bau- und Zonenordnung (BZO) 2016 sind die vier Parzellen der Industrie- und
+Gewerbezone IG III zugeteilt. Die durchschnittliche Ausnützungsziffer der
+drei Baufelder A – C liegt bei 3.0 und ist innerhalb der Baufelder unter-
+schiedlich hoch (Baufeld A: 2.47; Baufeld B: 3.23 und Baufeld C: 3.12).
+Übergeordnet liegt das Koch-Areal im Hochhausgebiet III, das eine maximale
+Gebäudehöhe von 40 Metern zulässt. Im nahen Umfeld des Koch-Areals sind
+in den letzten Jahren bereits verschiedene 40 Meter hohe Häuser entstanden;
+Hochhäuser mit einer Höhe von «60 Metern plus» sind zudem im weiteren
+Umfeld in der Projektierung. Das städtische Baukollegium befand am 6. April
+2018, dass ein Hochhaus an der Flurstrasse ( Teilperimeter B) mit einer
+Gebäudehöhe von «60 Metern plus» die Bildung eines Hochhaus-Clusters im
+Gebiet stärken und ihm – zusammen mit dem Quartierpark – eine neue Mitte
+verleihen würde. Um die künftige Arealnutzung zu ermöglichen, wird nach
+Abschluss der Wettbewerbsphase unter der Leitung des Amts für Städtebau
+eine Sondernutzungsplanung mit einem geeigneten planungsrechtlichen
+Instrument (Zonenänderung und Gestaltungsplan) erarbeitet.
+
+Der Wettbewerbsperimeter umfasst die vier oben genannten Parzellen
+und ist in vier Teilperimeter bzw. Baufelder aufgeteilt.
+
+
+
+
+                                      Gewerbe
+                                      Teilperimeter A (SENN): 4750 m 2
+
+
+                                      Wohnen und Gewerbe
+                                      Teilperimeter B (ABZ): 4700 m 2 (Hochhaus)
+                                      Teilperimeter C (KW1): 6850 m 2
+
+
+                                      Quar tierpark
+                                      Teilperimeter Quartierpark (GSZ): 13 200 m 2
+                                      (inkl. Kohlelagerhalle). Der Teilperimeter
+                                      Quartierpark umfasst zudem auch die park-
+                                      seitigen Umgebungsflächen innerhalb der
+                                      drei Teilperimeter A – C (weisse Fläche).
+
+
+
+                        Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten   5
+    Gemeinsame Vision der Bauträgerinnen
+
+    Auf dem Koch-Areal soll es weiterbrodeln und zwar im allerbesten Sinne:
+    Weil hier aus grösseren und kleineren Familien, progressiveren und
+    beschaulicheren Lebensgemeinschaften sowie grösseren und kleineren
+    Betrieben ein Eintopf nach original Zürcher Rezept aufkochen wird.
+    Und weil schon bald eine diverse Aussengastronomie ihre Düfte über den
+    neuen Stadtpark wehen lässt.
+
+    Wir sehen im «Kochquartier» – belebt durch seine Vergangenheit, beliebt
+    durch seine Offenheit, Freiräume und bunte Nutzungsdurchmischung – ein
+    neues Quartierzentrum für alle. Die Vision für das zukünftige Zusammenle-
+    ben, Wohnen und Arbeiten sowie die Kultur auf dem Koch-Areal erarbeiten
+    die Bauträgerinnen in einem partizipativen Prozess gemeinsam mit dem
+    Quartier und der interessierten Bevölkerung.
+
+
+
+
+    Bildquelle: ABZSENNKW1 (2017)
+
+
+
+6   Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten
+Aus der bedarfsbasierten Projektentwicklung entsteht ein für den Ort
+angepasstes, massgeschneidertes und zukunftsfähiges Konzept, das
+breit verankert und in das weitere Quartier eingebettet ist.
+
+Wohnen
+So gross der Mix an Wohnungstypen ist, so gross ist auch die Vielfalt
+der hier lebenden Menschen. Das breite Wohnangebot entsteht aus den
+unterschiedlichen Erfahrungen der beiden Wohnbauträgerinnen ABZ und
+Kraftwerk1 und ihren jeweiligen für das «Kochquartier» gesetzten Schwer-
+punkten. Die Gebäude und ihre zentralen Dienste schaffen die Vorausset-
+zungen, hier jung zu sein und alt zu werden: Einziehen und die Möglichkeit
+haben, ein Leben lang zu bleiben.
+
+
+
+
+                                                       L ANG
+
+
+
+
+«S’Läbe lang» – am selben Ort Wohnen, Arbeiten und Leben
+Bildquelle: ABZSENNKW1 (2017)
+
+
+
+                          Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten   7
+    Gewerbe
+    Das Angebot im «Kochquartier» ist vielfältig und heterogen. Die Körnung
+    orientiert sich an der Umgebung: kleine, mittlere und grosse Einheiten liegen
+    durchmischt neben, über- und untereinander, gemeinsam kuratiert von allen
+    Bauträgerinnen. Ein Quartierteil mit kurzen Wegen nutzt Synergien in allen
+    Bereichen: es geht um kooperative Produktion, den Austausch von Waren,
+    Ideen und Dienstleistungen.
+
+    Zirkusquar tier
+    Der Zirkus Chnopf ist seit 2013 auf dem Koch-Areal beheimatet und schreibt
+    eine Erfolgsgeschichte. Mit der Transformation wird das Koch-Areal zum
+    Zirkusquartier, das im Quartier verankert Wellen schlägt. Lokale und interna-
+    tionale Artistinnen und Artisten trainieren ihre Programme, Jugendliche üben
+    für Aufführungen. Kostümschneiderei, Werk- und Reparaturhalle, Akrobatik-
+    kurse und Kiosk nutzen Gewerbe-, Wohn- und Aussenräume auf dem Areal.
+    Im Zentrum steht das Theater: die «Zirkus- und Kulturhalle» auf dem Baufeld
+    C bietet das perfekte Trainingsquartier. Im Sommer ist der Zirkus auch im
+    Park sichtbar. Das «Kochquartier» als Zürichs Stätte für neuen Zirkus und
+    artistische Produktionen, das ist die Vision der Baurechtsnehmerinnen. In
+    Absprache mit Grün Stadt Zürich werden die Baurechtsnehmerinnen daher
+    prüfen, ob ein Teil des Parks und der Kohlelagerhalle zeitweise durch den
+    Zirkus Chnopf bespielt werden kann.
+
+    Erholung
+    Das Freiraumangebot auf dem Koch-Areal ist vielfältig und lebendig. Die
+    Hauptzutaten sind der Quartierpark und die Dachterrassen / Innenhöfe der
+    Gebäude. Sie sind attraktiv für jung und alt, für Menschen mit und ohne
+    Beeinträchtigungen und für wildlebende Pflanzen und Tiere. Der Quartier-
+    park sorgt für frischen Wind; er ist Ort der Begegnung und des Austauschs.
+
+    Betriebssystem und Zentrale Dienste
+    Ein intelligentes Betriebssystem steuert zentrale Schnittstellen auf dem
+    Areal. Eine gemeinsame Logistik vereint die drei für den reibungslosen
+    Betrieb zentrale Elemente «Zentrum für Quartierlogistik», «Facility Management»
+    sowie «Zentrale Dienste» und bietet seine Dienste für das gesamte zukünf-
+    tige «Kochquartier» an, ist baufeldübergreifend organisiert und zentrale
+    Anlaufstelle für Mietende und Nutzende.
+
+    Nachhaltigkeit
+    Nachhaltigkeit ist kein Lippenbekenntnis, sondern gelebter Alltag:
+    ökologisch, ökonomisch und sozial. Die Bauberechtigten berücksichtigen bei
+    der geplanten Überbauung die Zielsetzungen der «2000-Watt-Gesellschaft»
+    und befolgen die aktuellen Richtlinien des Hochbaudepartements gemäss
+    den «Vorgaben für nachhaltiges Bauen». Diese «Vorgaben für nachhaltiges
+    Bauen» sind einzuhalten und die Bauvorhaben gemäss der Richtlinie
+
+
+8   Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten
+«7-Meilenschritte für umwelt- und energiegerechtes Bauen» zu planen
+und auszuführen. Die Bauten haben dabei den Zielwerten für 2000-Watt-
+kompatible Gebäude zu entsprechen.
+
+Mobilität
+Das zukünftige «Kochquartier» ist autoarm. Ein intelligentes Mobilitätskon-
+zept unterstützt und fördert den Fuss- und Veloverkehr. Es berücksichtigt
+die betrieblichen Anforderungen der Gewerbetreibenden. Eine effiziente
+Transportlogistik unterstützt und fördert das Gewerbe beim nachhaltigen
+Wirtschaften. Die Parkierung wird arealübergreifend gelöst.
+
+
+
+
+                         Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten   9
+     Baufeld A – SENN
+
+     Als Familienunternehmen ist SENN seit 1965 in der Entwicklung, Planung
+     und Realisierung von Immobilien tätig. Die Kernkompetenz ist es, Grund-
+     stücke, Immobilien und Areale über eine konsequente Nutzerausrichtung
+     qualitätsvoll zu entwickeln und mit hochwertiger Architektur wirtschaftlich
+     zu realisieren. Als Gesamtdienstleister führt SENN seine Projekte mit hoher
+     Prozesssicherheit über den gesamten Erstellungsprozess von der Landein-
+     bringung über die Vermarktung bis zur schlüsselfertigen Übergabe. SENN
+     ist zertifiziert nach ISO-Norm 9001. Gemeinsam mit den jeweiligen Projekt-
+     partnerinnen und -partnern optimiert SENN sowohl den materiellen wie auch
+     den immateriellen Wert einer Immobilie nachhaltig. SENN bündelt in einem
+     kleinen Team von der Entwicklung über die Finanzierung, Realisation und
+     Vermarktung Kompetenzen und kann so hochwertige Leistungen vom
+     Entwurf bis zur Inbetriebnahme einer Immobilie garantieren. Referenzen
+     wie das Gewerbehaus Noerd in Oerlikon, Zwicky Süd in Dübendorf oder
+     Helsinki Dreispitz in Basel zeugen von dieser Haltung.
+
+     Wettbewerbsaufgabe
+     Das innerstädtische Gewerbe ist seit längerem unter Druck: Hohe Mieten,
+     ungeeignete Objekte und boomender Wohnungsbau lassen produzierende
+     Betriebe im Stadtgebiet zu «Relikten» werden. Der Strukturwandel hat
+     jedoch auch zur Folge, dass Retail- und Büroflächen erschwinglicher werden.
+     Mit der Digitalisierung / Roboterisierung einerseits und der Regionalisierung /
+     Artisanalisierung gewisser Produktsegmente andererseits steigt der Anteil
+     der Produktion an der Wertschöpfung bei gleichzeitiger Reduktion des
+     Raumbedarfs. Damit kann sich Produktion an innerstädtischer Lage in
+     Zukunft wieder «rechnen». Besonders, wenn sie wieder zur Synergienutzung
+     in den verschiedenen Prozessphasen – Design / Prototyping, Herstellung,
+     Service, Logistik / Versand und Verkauf – beiträgt. Diese Chance bietet sich
+     in einem Neubau, der auf die Rahmenbedingungen urbaner Produktion
+     im 21. Jahrhundert massgeschneidert wird.
+
+     Das Bestandsgebäude Flüelastrasse 30 ist nicht geschützt, verfügt jedoch
+     über das Potenzial, dem Ort zusätzliche Identität zu verleihen. Den Wettbe-
+     werbsteilnehmenden wurde daher freigestellt, eine städtebaulich wie auch
+     betrieblich überzeugende Lösung unter Erhalt des Backsteingebäudes zu
+     finden oder sich für eine reine Neubaulösung zu entscheiden.
+
+     Im Gewerbehaus waren ca. 10 000 m 2 Hauptnutzfläche (HNF) bei einer
+     Raumhöhe von 5.5 Metern im Licht auszuweisen. Mit dem «rohen», hoch-
+     effizienten und extrem günstigen Gewerbehaus, das als äusserst flexible,
+     vertikale Fabrik grosse (> 2000 m 2 ) und kleine (> 100 m 2 ) Zellen anbietet,
+     soll ein innerstädtischer Ort zur integrierten Wertschöpfung entstehen. Gut
+     mit dem Quartier vernetzt und die Wohnnutzung im Umfeld respektierend,
+
+
+10   Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten
+soll es eine verträgliche Anlieferung, «shared» Logistik, erlebbare Produktion
+und Schaufenster zum Park bzw. zur flankierenden fussläufigen Erschlies-
+sung bieten.
+
+Zielerstellungskosten
+Die geschätzten Zielerstellungskosten betragen rund 29 Millionen Franken
+(BKP 2, Edelrohbau, inkl. MwSt., exkl. Parkierung). Der maximale Gesamt-
+kosten-Benchmark für Planung und Erstellung von 2600 CHF / m 2 HNF
+(BKP 2, Edelrohbau, inkl. MwSt., exkl. Parkierung), der an klar definierte
+Standards, Vorgaben und Kennzahlen geknüpft ist, war zwingend einzu-
+halten. Die nachzuweisende Hauptnutzfläche von 10 000 m 2 bezieht sich
+ausschliesslich auf den Neubau.
+
+
+
+
+Baufeld B – ABZ
+
+Die ABZ ist mit bald 5000 Wohnungen die grösste Baugenossenschaft der
+Schweiz. Sie bietet 11 000 Menschen attraktiven und bezahlbaren Wohn-
+und Lebensraum. Die ABZ baut und handelt sozial, ökonomisch und ökolo-
+gisch nachhaltig. Seit 1916 prägt sie mit vielfältigen und wegweisenden
+Wohnbauten das Zürcher Stadtbild mit. Ihre vom Solidargedanken getra-
+genen Siedlungen tragen zu einer qualitätsvollen Entwicklung der Quartiere
+bei. Zu den bekanntesten Siedlungen zählen dabei die Ottostrasse, Sihlfeld,
+Regina-Kägi-Hof und die Siedlung Ruggächern in Zürich-Affoltern. Der
+Jahresumsatz der ABZ beträgt rund 60 Millionen Franken. Sie beschäftigt
+rund 70 Mitarbeitende, davon 6 Auszubildende. Dazu kommen 80 Neben-
+amtliche und 200 Ehrenamtliche. Die ABZ versteht sich als lebendige und
+vielfältige Gemeinschaft, in der man sich mit Respekt, Toleranz und Wert-
+schätzung begegnet. Sie verfügt seit jeher über eine starke Mitwirkungs-
+kultur: Die Bewohnenden und Ehrenamtlichen gestalten ihren Wohn- und
+Lebensraum aktiv mit und tragen mit ihrem Stimmrecht die Entscheidungen
+über die Genossenschaft gemeinsam.
+
+Wettbewerbsaufgabe
+Im Wohnhochhaus der ABZ sollen 175 Wohnungen für ein breites Zielpubli-
+kum mit hoher Wohnqualität entstehen. Das konventionelle Wohnungsangebot
+soll eine Bandbreite von 2- bis 5.5-Zimmer-Wohnungen umfassen, davon
+rund 2 / 3 kleinere 2- bis 3.5-Zimmer-Wohnungen. Innerhalb der Regelge-
+schossstruktur waren für einen Teil der Wohnungen auch andere Wohn-
+formen denkbar. Im Erdgeschoss soll zudem rund 2100 m 2 Gewerbenutz-
+fläche angeboten werden, wovon ein grosser Teil der Fläche voraussichtlich
+von einem Grossverteiler genutzt werden wird. Die Dachflächen des Hoch-
+hauses und des Zeilenbaus waren mit einheimischer Wildflora zu begrünen
+und mit einer Photovoltaik-Anlage zu versehen.
+
+
+                         Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten   11
+     Zielerstellungskosten
+     Die geschätzten Zielerstellungskosten betragen rund 67 Millionen Franken
+     (BKP 1 – 9, inkl. MwSt. bei 17 000 m 2 HNF und 110 Parkplätzen). Die maximalen
+     Gesamtkosten-Benchmarks für Planung und Erstellung von Wohnen Hoch-
+     haus 3900 CHF / m 2 HNF, übrige Wohnbauten 3500 CHF / m 2 HNF, Nicht-
+     wohnen 3000 – 3400 CHF / m 2 HNF (BKP 1 – 9, inkl. MwSt., exkl. Parkierung),
+     die an klar definierte Standards, Vorgaben und Kennzahlen geknüpft sind,
+     waren daher zwingend einzuhalten. Der darin enthaltene Anteil Bauherren-
+     leistungen, Abbruch und Parkbeitrag beträgt jeweils 200 CHF / m 2 HNF.
+
+
+
+
+     Baufeld C – KW1
+
+     Kraftwerk1 bewies 2001 mit der ersten Siedlung, dass Wohnen in einem
+     Industriequartier im Umbruch möglich und attraktiv ist: Die Siedlung Hard-
+     turm vereint eine weitreichende Beteiligung der Bewohnenden mit konzeptio-
+     neller Dichte, vielfältigen Wohnungstypen, ökologischer Bauweise und
+     Flächen für Büros, Läden und Restaurant. Kraftwerk1 setzte damit Standards,
+     die den Siedlungsbau in der Schweiz bis heute beeinflussen. Seitdem sind
+     zwei weitere Überbauungen entstanden: Das Mehrgenerationenhaus Heizen-
+     holz löste 2012 mit zwei Cluster-Wohngemeinschaften einen neuen Trend
+     aus. Zwicky Süd im Zürcher Norden ist ein «weitsichtiges und integratives
+     Projekt, das seinen Anspruch an soziale Innovation mit einer qualitativ
+     hochstehenden Architektur unterstreicht – in räumlicher, gesellschaftlicher,
+     technologischer und ökologischer Hinsicht» (Zitat SIA, Preis Umsicht 2017).
+     Kraftwerk1 ist bekannt für gemeinschaftliche Wohnformen, die Kombination
+     von Wohnen und Arbeiten, qualitätsvolle und gemeinschaftsfördernde
+     Architektur, gelebte Vielfalt und Mitwirkung. Kraftwerk1 betreibt in den
+     drei Siedlungen 232 Wohnungen und 6500 m 2 Gewerbeflächen. Die
+     Bau- und Wohngenossenschaft Kraftwerk1 zählt gegen 1400 Mitglieder.
+
+     Wettbewerbsaufgabe
+     Im identitätsstiftendenden Wohnungsbau von Kraftwerk1 wird die Förderung
+     von Gemeinschaft und die Nutzung von Synergien grossgeschrieben, ein
+     gewisses Mass an Gestaltungsfreiheit für die künftig dort Wohnenden soll
+     möglich sein. Attraktive Gemeinschaftsräume und eine «Salle commune», die
+     den Wohnbau und das gemeinschaftliche Leben prägen, sollen das Angebot
+     ergänzen. Das Wohnungsangebot der 160 neuen Wohnungen soll Spielraum
+     bieten für innovative Grosswohnformen oder Wohngemeinschaften. Ferner
+     waren Clusterwohnungen, zumietbare Zimmer und Räume für individuelle
+     Aneignung wie «Einraumwohnen mit Selbstausbau» in verschiedenen Grös-
+     sen vorzusehen. Zwei Wohnungen inkl. je 10 Einzelzimmern, Küche, Essbe-
+     reich, Pflegebad und WC waren für betreutes Wohnen anzubieten. Geplant
+     ist, rund 1 / 4 der Wohnungen in Kooperation mit der Stiftung Wohnen für
+
+
+12   Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten
+kinderreiche Familien (SWfkF) zu erstellen. Für den Zirkus Chnopf, der seit
+2013 auf dem Koch-Areal beheimatet ist, war eine grosse Kulturhalle mit
+Gastronomiebetrieb vorzusehen. Ein Gästehaus mit ca. 12 einfachen Zimmern
+sowie ein Kindergarten mit Betreuung ergänzen das Angebot. Grundsätzlich
+war – wo lärmtechnisch nicht unbedingt nötig – auf private Aussenräume
+zu verzichten. Als gemeinschaftliche Aussenräume dienen die Dachterrassen
+mit verschiedenen nutzbaren Flächen (inkl. Dachbegrünung mit einheimi-
+scher Flora und Photovoltaikelementen). Im Erdgeschoss sollen rund 4000 m 2
+für Gewerbe und Dienstleistung angeboten werden. Die Gewerberäume
+waren flexibel unterteil- und anpassbar für unterschiedliche Nutzungen
+zu gestalten. Ebenso war im Erdgeschoss eine Fläche von rund 950 m 2 für
+den städtischen Kindergarten auszuweisen. Die Oberflächen des Gebäudes
+sollen ausserdem einen Beitrag leisten zur Verbesserung des Stadtklimas
+sowie zur Steigerung der Biodiversität von Flora und Fauna.
+
+Zielerstellungskosten
+Die geschätzten Zielerstellungskosten betragen rund 72 Millionen Franken
+(BKP 1 – 9, inkl. MwSt., exkl. Parkierung). Die maximalen Gesamtkosten-
+Benchmarks für Planung und Erstellung von Wohnen durchschnittlich
+3900 CHF / m 2 HNF, Nichtwohnen 3300 CHF / m 2 HNF (BKP 1 – 9, inkl. MwSt.,
+exkl. Parkierung), die an klar definierte Standards, Vorgaben und Kennzahlen
+geknüpft sind, waren daher zwingend einzuhalten. Der darin enthaltene
+Anteil Bauherrenleistungen, Abbruch und Parkbeitrag beträgt jeweils
+200 CHF / m 2 HNF.
+
+
+
+
+Baufeld Quartierpark – Grün Stadt Zürich
+
+«Wo wir arbeiten, blüht Zürich» ist das Motto von Grün Stadt Zürich. Grün
+Stadt Zürich plant, baut, pflegt und bewirtschaftet die öffentlichen Grünräume
+der Stadt Zürich: Strassen- und Parkbäume, den Stadtwald, Parkanlagen
+und Villengärten, Sport- und Spielplätze, Bauernhöfe, Biotope und Bachufer,
+Friedhöfe und Familiengärten. Grün Stadt Zürich setzt sich dafür ein, wert-
+volle Lebensräume für Tiere und Pflanzen zu erhalten und aktiv zu fördern,
+Freude an der Natur zu wecken und den Wert einer vielfältigen Stadtnatur
+im Rahmen verschiedener attraktiver Angebote zu vermitteln. Viele öffent-
+liche Grünanlagen stehen während ihrer gesamten Lebensdauer in der
+Verantwortung von Grün Stadt Zürich – von der zukunftsorientierten Planung
+und konzeptionellen Entwicklung über den Bau bis zur Instandhaltung und
+Pflege. Rund 500 Mitarbeitende – darunter 50 Praktikantinnen und Prakti-
+kanten sowie Lernende – setzen sich täglich dafür ein, dass die Vielfalt
+der Grünräume in Zürich erhalten bleibt und sich weiterentwickelt.
+
+
+
+
+                         Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten   13
+     Wettbewerbsaufgabe
+     Gesucht war ein Quartierpark, der sowohl die Nutzungs- und Erholungs-
+     ansprüche der Wohn- und Arbeitsbevölkerung aus der Umgebung als auch
+     die Bedürfnisse der unmittelbar an den Park anstossenden zukünftigen
+     Bewohnerinnen und Bewohner auf überzeugende Art und Weise integriert.
+     Der rund 13 200 m 2 grosse Quartierpark soll zum wichtigen Bestandteil
+     des Freiraumsystems im Quartier werden, wohin sich Leute aus dem ganzen
+     Quartier gerne begeben.
+
+     Erwartet wurde ein übergeordnetes Gestaltungs- und Nutzungskonzept, das
+     sowohl die gewerblich-industrielle und abwechslungsreiche Vergangenheit
+     des Koch-Areals als auch die räumlichen Qualitäten mittels Transformation
+     an die neuen Nutzungsansprüche überführt. Besonders zu beachten waren
+     dabei die Beziehung unter den gewerblich oder gemeinschaftlich genutzten
+     Flächen im Erdgeschoss und die Raumabfolge von Park, Kohlelagerhalle und
+     Teilperimeter C. Die Schnittstellen zwischen Park und angrenzenden Freiräumen
+     bis hin zu den Gebäudefassaden auf den Teilperimetern A – C waren sorg-
+     fältig auszugestalten. Ziel war es, fliessende Übergänge unter den drei
+     Baufeldern und dem Quartierpark zu schaffen. Das neue «Kochquartier»
+     soll als kohärentes Ganzes wahrgenommen werden mit dem Quartierpark
+     inklusive der denkmalgeschützten ehemaligen Kohlelagerhalle als identitäts-
+     stiftendem und öffentlichem Mittelpunkt.
+
+     Generell war auf eine gute Anbindung und Durchlässigkeit für den Fuss-
+     und Veloverkehr zu achten. Zufahrten für den motorisierten Verkehr waren
+     ausserhalb des Teilperimeters Quartierpark vorzusehen.
+
+     Denkmalpflegerische Würdigung – Kohlelagerhalle (Rautistrasse 26)
+     Der langgezogene, schmale Ständerbau mit offenen Traufseiten und grossen
+     Dachreitern wurde 1926 / 1928 nach Plänen von Ingenieur Johann Matthäus
+     Scheifele aus Oerlikon beziehungsweise Ingenieur Gustav Thurnherr aus
+     Zollikon erstellt und in der Folge (1957, 1978 – 1981) mehrfach in der Länge
+     modifiziert. Die Holzhalle wurde als reiner Nutzbau auf die Bedürfnisse der
+     Kohlelagerung der Firma H. Koch Kohle ausgerichtet. Die enge, rasterartige
+     Abfolge der Rund- und Kantholzkonstruktion führt im Innern der über
+     hundert Meter langen Halle zu einer eindrücklichen Raumwirkung, die es
+     zu erhalten galt. In der Gattung der einfachen Holznutzbauten sind in dieser
+     Grösse in Zürich und in der ganzen Schweiz kaum mehr Vergleichsobjekte
+     erhalten, weshalb der Holzhalle als Zeitzeugin der Holzbaukonstruktions-
+     geschichte grosse Bedeutung zukommt, zumal hier mit zimmermannsmäs-
+     sigen Mitteln eine ingenieursmässige Konzeption realisiert wurde. Wichtige
+     Bestandteile der Anlage sind auch die integrierten Schienen und Drehscheiben,
+     die den engen Bezug zwischen Industrie und Eisenbahn veranschaulichen
+     und das Areal via Flurstrasse mit dem Gleisfeld verbinden. Als erster Bau
+     der Firma Koch am neuen Standort und als eines der wenigen erhaltenen
+
+
+14   Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten
+Gebäude aus dem ersten Drittel des 20. Jahrhunderts erinnert der Bau
+an das Industriegebiet zwischen Altstetten und Albisrieden.
+
+Zielerstellungskosten
+Die Zielerstellungskosten für den Quartierpark einschliesslich der Instand-
+setzung der denkmalgeschützten Kohlelagerhalle betragen 7.1 Millionen
+Franken (BKP 1 – 9, inkl. MwSt., exkl. Kreditreser ven). Allein für die Instand-
+setzung der Kohlelagerhalle stehen 1.5 Millionen Franken (BKP 1 – 9, inkl.
+MwSt., exkl. Kreditreser ven) zur Verfügung.
+
+Ergebnisse aus dem Mitwirkungsprozess
+Die Ergebnisse aus dem öffentlichen Mitwirkungsprozess sind in Form der
+folgenden vier Prinzipien ins Wettbewerbsprogramm aufgenommen worden.
+
+«Ein Park für alle»
+Der geplante Quartierpark soll die «grüne Lunge» des Quartiers werden
+und primär der Wohn- und Arbeitsbevölkerung im Quartier Letzi dienen.
+Er soll vielseitig und flexibel nutzbar sein und zu allen Tages- und Jahres-
+zeiten einladend wirken. Die unter Denkmalschutz stehende ehemalige
+Kohlelagerhalle an der Rautistrasse 26 ist als integraler Bestandteil des
+Parks zu betrachten und als historische Zeugin zu erhalten.
+
+«Viel Grün; wild, verspielt, neugierig machend – wie ein Zirkus halt»
+Das Erscheinungsbild und die Identität des Parks sollen am Bestand
+anknüpfen und dabei die ökologischen Qualitäten sowie die identitäts-
+stiftenden «Zeitzeugen» der Baukultur (Bahninfrastrukturen bzw. ehemalige
+Kohlelagerhalle) gebührend berücksichtigen. Der Charakter mit raumwirk-
+samem Grossbaumbestand und unversiegelten Oberflächen ist zu erhalten.
+
+«Nicht alles verplanen, der Park soll wandelbar sein»
+Das räumliche Grundgerüst der Parkanlage ist so zu legen, dass zukünftige
+Veränderungen aufgrund veränderter Nutzungsansprüche ohne Verlust der
+gestalterischen Grundidee möglich sind.
+
+«Einheimische Pflanzen sind wichtig,
+der Park soll um die Bäume herumgebaut werden»
+Der Park und die Aussenräume bieten Lebensraum für eine vielfältige
+Wildflora und -fauna. Der Versiegelungsgrad ist gering zu halten.
+Gewünscht wird ein klimawirksamer Baumbestand. Dieser ist aufgrund
+einer wahrscheinlichen Altlastensanierung mit Neupflanzungen vorzusehen.
+
+
+
+
+                          Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten   15
+Übersichtsplan Stadt Zürich
+
+
+
+     16            Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten
+                                                   e
+                                               ss
+                                             ra
+                                         st
+                                    ur
+                                    Fl                                      e
+                                                                        ss
+                                                                      tra
+                                                                  las
+                                                                 üe
+                                                                 Fl
+
+
+
+
+                                   Ra
+                                        ut
+                                             ist
+                                                   ra
+                                                        ss
+                                                             e
+
+
+
+
+Situationsplan 1:7000
+
+
+
+                        Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten   17
+     3       TEILNEHMENDE
+
+
+
+     Insgesamt haben sich 108 Teams um eine Teilnahme an den Projektwettbe-
+     werben für die Hochbauten auf den Baufeldern A – C beworben, dabei waren
+     Bewerbungen um eine Teilnahme an den Verfahren von maximal zwei Bau-
+     feldern möglich. Um eine Teilnahme am Konzeptwettbewerb für den Quar-
+     tierpark haben sich 49 Teams beworben. Die Teams waren entsprechend
+     den jeweiligen Bauaufgaben aus Fachleuten der Bereiche Architektur oder
+     Landschaftsarchitektur zusammengesetzt. Die rechtzeitig und vollständig
+     eingereichten Bewerbungen aus der Schweiz und dem europäischen Raum
+     wurden auf die in den Ausschreibungsunterlagen aufgeführten Kriterien hin
+     geprüft. Im Rahmen der Präqualifikation (11. Juni 2018 – Baufelder A – C,
+     25. Juni 2018 – Baufeld Quartierpark) hat das Preisgericht in mehreren
+     Rundgängen die folgenden Teams zur Teilnahme ausgewählt:
+
+
+
+
+     Baufeld A                                                          Baufeld B
+
+     ARGE Burkard Meyer Architekten AG,                                 Michael Meier und Marius Hug Architekten AG, Zürich
+     Baden + Büro Krucker Architekten AG, Zürich
+     Giuliani Hönger Architekten AG, Zürich                             Gmür & Geschwentner Architekten und Stadtplaner AG,
+                                                                        Zürich
+     Armon Semadeni Architekten GmbH, Zürich                            Šik WTP GmbH, Zürich
+     jessenvollenweider architektur ag, Basel                           Müller Sigrist Architekten AG, Zürich
+     Holzhausen Zweifel Architekten GmbH, Zürich                        Clou Architekten AG, Zürich
+     Karamuk Kuo Architekten GmbH, Zürich                               Enzmann Fischer Partner AG, Zürich
+     ARGE Käferstein & Meister AG +                                     Gut & Schoep Architekten GmbH, Zürich
+     Murat Ekinci Architekten, Zürich
+     EM2N Architekten AG, Zürich                                        Annette Gigon / Mike Guyer AG, Zürich
+     Dürig AG, Zürich                                                   Galli Rudolf Architekten AG, Zürich
+     BS + EMI Architektenpartner AG, Zürich                             Meili, Peter & Partner AG, Zürich
+
+
+
+
+18   Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten
+Baufeld C                                                     Baufeld Quartierpark
+
+Darlington Meier Architekten AG, Zürich                       Hager Partner AG, Zürich
+pool Architekten, Zürich                                      ARGE BCA & DGJ Landscapes Liverpool & Zürich GmbH
+ARGE Futurafrosch – Architektur und Raumentwicklung           Mettler Landschaftsarchitektur AG, Zürich
+GmbH + Marcel Baumgartner Architekten, Zürich
+Baumann Roserens Architekten AG, Zürich                       Lorenz Eugster Landschaftsarchitektur
+                                                              und Städtebau GmbH, Zürich
+Fiederling Habersang Architekten GmbH, Zürich                 Raymond Vogel Landschaften AG, Zürich
+:mlzd, Biel                                                   ARGE Chaves Biedermann + Battle i Roig
+                                                              Landschaftsarchitekten, Frauenfeld
+ARGE toblergmür architekten +                                 Müller Wildbolz Partner, Bern
+Stücheli Pestalozzi Schiratzki, Zürich
+ARGE LACATON & VASSAL ARCHITECTES,                            Atelier LOIDL Landschaftsarchitekten GmbH, Berlin
+Paris + Schneider Eigensatz Architekten, Zürich
+Studio Trachsler Hoffmann, Zürich                             Krebs und Herde Landschaftsarchitekten BSL A,
+                                                              Winterthur
+Lütjens Padmanabhan Architekten, Zürich                       Schmid Landschaftsarchitekten GmbH, Zürich
+                                                              planikum GmbH, Zürich
+                                                              rajek barosch landschaftsarchitektur, Wien
+                                                              LINEA landscape architecture, Zürich
+                                                              DUO Architectes paysagistes /
+                                                              Landschaftsarchitekten, Lausanne
+                                                              META Landschaftsarchitektur, Basel
+
+
+
+
+                              Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten     19
+     4       PREISG ERICHT
+
+
+
+     Sachpreisrichterinnen und -richter
+
+
+     Baufeld A                        Baufeld B                         Baufeld C                Baufeld Quartierpark
+
+     Johannes Senn, SENN              Dominik Osterwalder, ABZ          Dimphie Slooters, KW1    Martin Schriener, SENN
+     Johannes Eisenhut, SENN          Hans Rupp, ABZ                    Rahel Nüssli, KW1        Nathanea Elte, ABZ
+     Martin Schriener, SENN           Martin Grüninger, ABZ             Andreas Engweiler, KW1   Dimphie Slooters, KW1
+
+
+     Christine Bräm, Grün Stadt Zürich
+     Tian Hartmann, Projektstab Stadtrat
+     Christian Tobler, Quartiervertretung (Ersatz)
+
+
+
+
+     Fachpreisrichterinnen und -richter
+
+
+     Baufeld A                        Baufeld B                         Baufeld C                Baufeld Quartierpark
+
+     Ursula Müller, Amt für Hochbauten (Vorsitz)
+     Pascal Hunkeler, Amt für Städtebau
+     Sabina Hubacher, Architektin, Zürich
+     Stefan Rotzler, Landschaftsarchitekt, Zürich
+
+
+     Adrian Streich, Architekt, Zürich                                                           Beatrice Friedli,
+                                                                                                 Landschaftsarchitektin,
+                                                                                                 Bern
+
+     Maria Conen, Architektin, Zürich (Ersatz)                                                   Jan Stadelmann,
+                                                                                                 Landschaftsarchitekt,
+                                                                                                 Zürich
+
+
+     Hanspeter Stacher,               Nathanea Elte,                    Ursina Fausch,           David Hügli,
+     Architekt SENN                   Architektin ABZ                   Architektin KW1          GSZ (Ersatz)
+
+
+
+
+     Wettbewerbsorganisation und Kommunikation
+     – Felipe Rodriguez, Architekt, Projektentwicklung, Amt für Hochbauten
+     – Ursula Tschirren, Kommunikation, Amt für Hochbauten
+     – Marion Engeler, Bereichsassistentin, Amt für Hochbauten
+     – Britta Walti, Projektassistentin, Amt für Hochbauten
+
+
+
+
+20   Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten
+5     VORPRÜFUNG
+
+
+Baufeld A
+
+Die neun eingereichten Projekte wurden nach den Grundsätzen der
+SIA-Ordnung 142, den Anforderungen des Wettbewerbsprogramms
+und der Fragenbeantwortung vorgeprüft:
+
+Teil 1: 1. Jurierungstag
+Zulassung zur Beurteilung:
+Termingerechtigkeit und Vollständigkeit der eingereichten Unterlagen
+
+Für die Zulassung zur Preiserteilung:
+Projektierungsperimeter und Baurecht, Raumprogramm
+
+Antrag der Vorprüfung:
+Die Vorprüfung beantragte dem Preisgericht, alle Projekte zu beurteilen und
+trotz kleinerer Verstösse alle Projekte mit Ausnahme von A7 «BIG FRIENDLY
+GIANT», A8 «LA CUISINE» und A9 «BLAUREGEN» zur Preiserteilung zuzulassen.
+
+Im Teil 1 der Vorprüfung wurden die Mengenangaben den eingereichten
+Datenblättern entnommen. Die Berichte der Expertinnen und Experten in
+den Fachgebieten Betriebskonzept, Tragstruktur, Brandschutz, Lärmschutz,
+Wirtschaftlichkeit und ökologische Nachhaltigkeit sind in den Vorprüfungs-
+bericht Teil 1 eingeflossen.
+
+Teil 2: 2. Jurierungstag
+Die drei Projekte der engeren Wahl wurden zusätzlich auf folgende
+Kriterien hin geprüft:
+
+–   Baurecht und Projektierungsperimeter
+–   Raumprogramme und Konzepte (Flexibilität Gebäudestruktur,
+    Waren- und Personenfluss, Anlieferung und Logistik)
+–   Tragstruktur
+–   Gebäudetechnik
+–   Aussenraum A (inkl. Anschluss Quartierpark)
+–   Verkehr, Erschliessung, Parkierung
+–   Brandschutz
+–   Lärmschutz
+–   Projektökonomie
+–   Ökologische Nachhaltigkeit
+
+
+
+Die Mengenangaben in den eingereichten Datenblättern wurden vertieft
+überprüft und verifiziert. Die detaillierten Berichte der Expertinnen und
+Experten sind in den Vorprüfungsbericht Teil 2 eingeflossen.
+
+
+
+
+                         Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten   21
+     Baufeld B
+
+     Die zehn eingereichten Projekte wurden nach den Grundsätzen der
+     SIA-Ordnung 142, den Anforderungen des Wettbewerbsprogramms
+     und der Fragenbeantwortung vorgeprüft:
+
+     Teil 1: 1. Jurierungstag
+     Zulassung zur Beurteilung:
+     Termingerechtigkeit und Vollständigkeit der eingereichten Unterlagen
+
+     Für die Zulassung zur Preiserteilung:
+     Projektierungsperimeter und Baurecht, Raumprogramm
+
+     Antrag der Vorprüfung:
+     Die Vorprüfung beantragte dem Preisgericht, trotz kleinerer Verstösse
+     alle Projekte zur Beurteilung und Preiserteilung zuzulassen.
+
+     Im Teil 1 der Vorprüfung wurden die Mengenangaben den eingereichten
+     Datenblättern entnommen. Die Berichte der Expertinnen und Experten in
+     den Fachgebieten Betriebskonzept / Soziale Nachhaltigkeit, Tragstruktur,
+     Brandschutz, Lärmschutz, Wirtschaftlichkeit und ökologische Nachhaltigkeit
+     sind in den Vorprüfungsbericht Teil 1 eingeflossen.
+
+     Teil 2: 2. Jurierungstag
+     Die vier Projekte der engeren Wahl wurden zusätzlich auf folgende
+     Kriterien hin geprüft:
+
+     –   Baurecht und Projektierungsperimeter
+     –   Raumprogramme und Konzepte (Wohnwert, soziale Nachhaltigkeit,
+         Gemeinschaft, alternative Wohnformen, Vermietbarkeit Gewerbe)
+     –   Tragstruktur
+     –   Gebäudetechnik
+     –   Aussenraum B (Dachgarten, vertikale Begrünung)
+     –   Verkehr, Erschliessung, Parkierung
+     –   Brandschutz
+     –   Lärmschutz
+     –   Projektökonomie
+     –   Ökologische Nachhaltigkeit
+
+     Die Mengenangaben in den eingereichten Datenblättern wurden vertieft
+     überprüft und verifiziert. Die detaillierten Berichte der Expertinnen und
+     Experten sind in den Vorprüfungsbericht Teil 2 eingeflossen.
+
+
+
+
+22   Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten
+Baufeld C
+
+Die zehn eingereichten Projekte wurden nach den Grundsätzen der
+SIA-Ordnung 142, den Anforderungen des Wettbewerbsprogramms
+und der Fragenbeantwortung vorgeprüft:
+
+Teil 1: 1. Jurierungstag
+Zulassung zur Beurteilung:
+Termingerechtigkeit und Vollständigkeit der eingereichten Unterlagen
+
+Zulassung zur Preiserteilung:
+Projektierungsperimeter und Baurecht, Raumprogramm
+
+Antrag der Vorprüfung:
+Die Vorprüfung beantragte dem Preisgericht, trotz kleinerer Verstösse
+alle Projekte zur Beurteilung und Preiserteilung zuzulassen.
+
+Im Teil 1 der Vorprüfung wurden die Mengenangaben den eingereichten
+Datenblättern entnommen. Die Berichte der Expertinnen und Experten in
+den Fachgebieten Betriebskonzept, Lärmschutz, Denkmalpflege, Barriere-
+freiheit, Wirtschaftlichkeit und ökologische Nachhaltigkeit sind in den
+Vorprüfungsbericht Teil 1 eingeflossen.
+
+
+
+Teil 2: 2. Jurierungstag
+Die vier Projekte der engeren Wahl wurden zusätzlich auf folgende
+Kriterien hin geprüft:
+
+–   Baurecht und Projektierungsperimeter
+–   Raumprogramme und Konzepte (Wohnwert, Gemeinschaft,
+    Gewerbe und Kultur)
+–   Tragstruktur
+–   Gebäudetechnik
+–   Aussenraum C (inkl. Anschluss Quartierpark)
+–   Verkehr, Erschliessung, Parkierung
+–   Brandschutz
+–   Lärmschutz
+–   Projektökonomie
+–   Ökologische Nachhaltigkeit
+
+Die Mengenangaben in den eingereichten Datenblättern wurden vertieft
+überprüft und verifiziert. Die detaillierten Berichte der Expertinnen und
+Experten sind in den Vorprüfungsbericht Teil 2 eingeflossen.
+
+
+
+
+                         Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten   23
+     Baufeld Quartierpark
+
+     Die 15 eingereichten Konzepte wurden nach den Grundsätzen der
+     SIA-Ordnung 142, den Anforderungen des Wettbewerbsprogramms
+     und der Fragenbeantwortung vorgeprüft:
+
+     Zulassung zur Beurteilung:
+     Termingerechtigkeit und Vollständigkeit der eingereichten Unterlagen
+
+     Zulassung zur Preiserteilung:
+     Projektierungsperimeter, Parkprofil und Konzept
+
+     Antrag der Vorprüfung:
+     Die Vorprüfung beantragte dem Preisgericht, trotz kleinerer Verstösse
+     alle Konzepte zur Beurteilung und Preiserteilung zuzulassen.
+
+     Sämtliche Konzepte wurden zudem auf die folgenden Kriterien hin geprüft:
+     – Zusammenspiel Park, Halle und Übergangszone / Hochbauten
+     – Denkmalpflege
+     – Zielgruppen, Nutzungsbedürfnisse, Nutzungsmanagement
+       (Barrierefreiheit, Veränderbarkeit / Aneignungsmöglichkeit)
+     – Gestaltung / Charakter «grüne Lunge»
+     – Ausstattung
+     – Materialisierung
+     – Quartieranbindung und Erschliessung
+     – Ökologischer Ausgleich, Vernetzung
+     – Wirtschaftlichkeit / Zielerstellungskosten
+       (Quartierpark inkl. Instandsetzung Kohlelagerhalle)
+     – Betrieb und Unterhalt / Lebenszyklus
+
+     Die detaillierten Berichte der Expertinnen und Experten sind in den
+     Vorprüfungsbericht eingeflossen.
+
+
+
+
+24   Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten
+6     BEURTEILUNG
+
+
+Allgemein
+
+Die Wahl der Siegerprojekte erfolgte in drei Schritten. An den jeweils pro
+Teilperimeter / Baufeld durchgeführten ersten Jurierungstagen zur Beurteilung
+der Projekt- / Konzepteingaben (Baufeld Quartierpark: 3. Dezember 2018,
+Baufeld A: 10. Dezember 2018, Baufeld B: 11. Januar 2019, Baufeld C:
+25. Januar 2019) setzte sich das Sach- und Fachpreisgericht nebst ständigen
+Mitgliedern über alle Baufelder aus Vertretenden der jeweiligen Bauherrschaften
+zusammen. Am Ende der vier ersten Jurierungstage lagen sämtliche
+Projekte / Konzepte für die engere Wahl der jeweiligen Teilperimeter A – C
+und Quartierpark vor.
+
+Um sich einen Gesamtüberblick über alle eingereichten Projekte zu ver-
+schaffen und eine vertiefte Beurteilung aller Projekte / Konzepte der engeren
+Wahl für die Teilperimeter A – C und Quartierpark vorzunehmen, kamen am
+zweiten Jurierungstag (25. Februar 2019) sämtliche Preisrichterinnen und
+Preisrichter aller Baufelder (A – C und QP) zusammen. Dabei wurden die
+Zielsetzungen für das «Kochquartier» nochmals geschärft und eine vertiefte
+Beurteilung der Teilperimeter A und B vorgenommen. Schliesslich trafen sich
+am dritten Jurierungstag (26. Februar 2019) sämtliche Preisrichterinnen und
+Preisrichter erneut, um die Teilperimeter C und Quartierpark vertieft zu
+beurteilen und die jeweilige finale Rangierung und Preiserteilung pro
+Teilperimeter festzusetzen.
+
+
+
+
+                         Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten   25
+     1. Jurierungstag – Baufeld A
+
+     Nach einer freien Besichtigung der neun rechtzeitig und vollständig einge-
+     reichten Projekte nahm das Preisgericht am ersten Jurierungstag vom
+     Ergebnis der Vorprüfung ( Teil 1) Kenntnis. Dem Antrag der Vorprüfung,
+     die drei Projekte A7 «BIG FRIENDLY GIANT», A8 «L A CUISINE» und
+     A9 «BL AUREGEN» von der Preiserteilung auszuschliessen wurde nicht
+     stattgegeben. Das Preisgericht erachtete lediglich den baurechtlichen
+     Verstoss des Projekts A8 «L A CUISINE» als nicht korrigierbar. Alle anderen
+     Projekte wurden sowohl zur Beurteilung als auch zur Preiserteilung zugelassen.
+     In Gruppen eingeteilt, hat das Preisgericht die Projekte anschliessend
+     eingehend analysiert und im Plenum in einem ersten wertungsfreien Rund-
+     gang präsentiert. Die anschliessende Beurteilung fand nach den folgenden
+     im Wettbewerbsprogramm aufgeführten Kriterien statt:
+
+     Gesellschaft
+     – Städtebau, Architektur, Freiraum (Identität fürs Quartier,
+       Beitrag zu sozialer Durchmischung, Beziehung Gebäude – Quartier)
+     – Raumprogramm
+     – Funktionalität / Gebrauchswert (Erschliessung, Nutzungsflexibilität),
+       Hindernisfreiheit
+
+     Wirtschaft
+     – Erstellungskosten (Ermöglichung günstiger Gewerbeflächen)
+     – Flächeneffizienz
+     – Betriebs- und Unterhaltskosten, Lebenszykluskosten
+
+     Umwelt
+     – Energiebilanz
+     – Bauökologie
+     – Beitrag zu Biodiversität und Verbesserung des Stadtklimas
+
+     In zwei Wertungsrundgängen sind am ersten Jurierungstag die folgenden
+     Projekte ausgeschieden:
+
+     1. Wertungsrundgang
+     Projekte A1 «HEAV Y DUT Y», A4 «USINE»
+
+     2. Wertungsrundgang
+     Projekte A3 «HENRY», A5 «FLÜEL A», A6 «CEDRIC», A8 «L A CUISINE»
+
+     Am Abend des ersten Jurierungstags wurden die folgenden drei Projekte
+     A2 «ELVIS», A7 «BIG FRIENDLY GIANT», A9 «BL AUREGEN» für die engere
+     Wahl bestimmt und alle neun Projekte den Fachpreisrichterinnen und
+     Fachpreisrichtern zum Verfassen der jeweiligen Projektkritiken zugeteilt.
+
+
+26   Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten
+1. Jurierungstag – Baufeld B
+
+Nach einer freien Besichtigung der zehn rechtzeitig und vollständig einge-
+reichten Projekte nahm das Preisgericht am ersten Jurierungstag vom
+Ergebnis der Vorprüfung ( Teil 1) Kenntnis. Dem Antrag der Vorprüfung,
+alle Projekte zur Beurteilung und Preiserteilung zuzulassen wurde stattge-
+geben. In Gruppen eingeteilt, hat das Preisgericht die Projekte anschlies-
+send eingehend analysiert und im Plenum in einem ersten wertungsfreien
+Rundgang präsentiert. Die anschliessende Beurteilung fand nach den
+folgenden im Wettbewerbsprogramm aufgeführten Kriterien statt:
+
+Gesellschaft
+– Städtebau, Einordnung ins Quartier, Architektur, Freiraum
+– Erschliessung und Adressbildung
+– Wohn- und Freiraumqualität, Funktionalität, Gebrauchswert,
+  Hindernisfreiheit
+– Soziale Innovation
+
+Wirtschaft
+– Erstellungskosten
+– Betriebs- und Unterhaltskosten
+
+Umwelt
+– Energiebilanz (inkl. Graue Energie), 2000-Watt-Areal-Kompatibilität
+– Bauökologie
+– Beitrag zu Biodiversität und Verbesserung des Stadtklimas
+
+In zwei Wertungsrundgängen sind am ersten Jurierungstag die folgenden
+Projekte ausgeschieden:
+
+1. Wertungsrundgang
+Projekte B4 «TOURNESOL», B9 «ASA», B10 «RESPIRO»
+
+2. Wertungsrundgang
+Projekte B1 «ALPHA SECHS», B5 «LURRA», B8 «TURBO»
+
+Am Abend des ersten Jurierungstags wurden die folgenden vier Projekte
+B2 «CUCULU E RANA», B3 «MOERAKI», B6 «PLEIN SOLEIL», B7 «FAMILIE
+KOCH UND IHRE NACHBARN» für die engere Wahl bestimmt und alle zehn
+Projekte den Fachpreisrichterinnen und Fachpreisrichtern zum Verfassen der
+jeweiligen Projektkritiken zugeteilt.
+
+
+
+
+                        Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten   27
+     1. Jurierungstag – Baufeld C
+
+     Nach einer freien Besichtigung der zehn rechtzeitig und vollständig einge-
+     reichten Projekte nahm das Preisgericht am ersten Jurierungstag vom
+     Ergebnis der Vorprüfung ( Teil 1) Kenntnis. Dem Antrag der Vorprüfung,
+     alle Projekte zur Beurteilung und Preiserteilung zuzulassen wurde stattge-
+     geben. In Gruppen eingeteilt, hat das Preisgericht die Projekte anschlies-
+     send eingehend analysiert und im Plenum in einem ersten wertungsfreien
+     Rundgang präsentiert. Die anschliessende Beurteilung fand nach den
+     folgenden im Wettbewerbsprogramm aufgeführten Kriterien statt:
+
+     Gesellschaft
+     – Städtebau, Einordnung ins Quartier, Architektur, Freiraum
+     – Erschliessung und Adressbildung
+     – Wohn- und Freiraumqualität, Funktionalität, Gebrauchswert,
+       Hindernisfreiheit
+     – Soziale Innovation
+
+     Wirtschaft
+     – Erstellungskosten
+     – Betriebs- und Unterhaltskosten
+
+     Umwelt
+     – Energiebilanz (inkl. Graue Energie), 2000-Watt-Areal-Kompatibilität
+     – Bauökologie
+     – Beitrag zu Biodiversität und Verbesserung des Stadtklimas
+
+     In zwei Wertungsrundgängen sind am ersten Jurierungstag die folgenden
+     Projekte ausgeschieden:
+
+     1. Wertungsrundgang
+     Projekte C1 «FEDERWOLKE», C6 «RINGELTANZ», C7 «THE FIRST BIG
+     WEEKEND»
+
+     2. Wertungsrundgang
+     Projekte C3 «ULYSSES», C5 «UHU», C8 «VERTIGO»
+
+     Am Abend des ersten Jurierungstags wurden die folgenden vier Projekte
+     C2 «K A ZIMIR», C4 «SALE CON FRITAS», C9 «COMING SOON...»,
+     C10 «JAMES COOK» für die engere Wahl bestimmt und alle zehn Projekte
+     den Fachpreisrichterinnen und Fachpreisrichtern zum Verfassen der
+     jeweiligen Projektkritiken zugeteilt.
+
+
+
+
+28   Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten
+1. Jurierungstag – Baufeld Quartierpark
+inklusive parkseitige Freiräume Baufelder A – C
+
+Nach einer freien Besichtigung der 15 rechtzeitig und vollständig eingereichten
+Konzepte nahm das Preisgericht am ersten Jurierungstag vom Ergebnis der
+Vorprüfung Kenntnis. Dem Antrag der Vorprüfung, alle Konzepte zur Beurtei-
+lung und Preiserteilung zuzulassen wurde stattgegeben. In Gruppen eingeteilt,
+hat das Preisgericht die Konzepte anschliessend eingehend analysiert und
+im Plenum in einem ersten wertungsfreien Rundgang präsentiert. Die an-
+schliessende Beurteilung fand nach den folgenden im Wettbewerbsprogramm
+aufgeführten Kriterien statt:
+
+Gesellschaft
+– Freiraumplanerisches Gesamtkonzept
+– Identität, Umgang mit «Zeitzeugen»
+– Nutzbarkeit, Ausstattung
+– Flexibilität, Veränderbarkeit
+– Übergänge zu den Teilperimetern Hochbauten
+– Quartieranbindung und Erschliessung
+– Gestaltung / Charakter, Materialität
+– Identität, denkmalpflegerisch-fachlicher Umgang mit Schutzobjekt
+  Kohlelagerhalle
+
+Wirtschaft
+– Gutes Preis- / Leistungsverhältnis
+– kostengünstiger Betrieb und Unterhalt
+
+Umwelt
+– Ökologisch wertvolle Flächen
+– Beitrag zur Verbesserung des Stadtklimas ( Versiegelung, Baumbestand)
+
+In zwei Wertungsrundgängen sind am ersten Jurierungstag die folgenden
+Konzepte ausgeschieden:
+
+1. Wertungsrundgang
+Konzepte QP1 «KOCH MIT!», QP4 «CAPTAIN COOK», QP6 «MISE EN
+PL ACE», QP9 «TEK TON», QP12 «HERRREINSPA ZIERT»
+
+2. Wertungsrundgang
+Konzepte QP2 «RATATOUILLE», QP5 «FORMIDABLE», QP8 «DER MOND
+ÜBER SOHO», QP10 «KOCH K ARUSSELL», QP14 «KIMONO»
+
+Am Abend des ersten Jurierungstags wurden die folgenden fünf Konzepte
+QP3 «WILD AT HEART», QP7 «#SYNANTHROP», QP11 «OPPORTUNIST»,
+
+
+                         Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten   29
+     QP13 «GRENZEN ÜBERWINDEN», QP15 «PARK» für die engere Wahl be-
+     stimmt und alle fünfzehn Konzepte den Fachpreisrichterinnen und Fachpreis-
+     richtern zum Verfassen der jeweiligen Konzeptkritiken zugeteilt.
+
+
+
+
+     2. Jurierungstag – alle Baufelder
+
+     Der zweite Jurierungstag über alle Baufelder diente dem Preisgericht dazu,
+     sich einen Gesamtüberblick über alle Projekte / Konzepte der engeren Wahl
+     zu verschaffen und diese in allen möglichen Kombinationen in Bezug auf ihre
+     städtebaulichen Qualitäten im Gesamtkontext zu beurteilen. Hierzu wurden
+     die verschiedenen Kombinationen der Hochbauten mit Einsätzen im Gesamt-
+     modell beurteilt. Nach einer freien Besichtigung sämtlicher Projekte / Konzepte
+     der engeren Wahl und einer Diskussion sämtlicher Modellkombinationen
+     stieg das Preisgericht in die Schlussbeurteilung der Projekte der engeren
+     Wahl für die Teilperimeter A (3 Projekte) und Teilperimeter B (4 Projekte)
+     nach den genannten Beurteilungskriterien ein. Dabei wurden die Ergebnisse
+     der vertieften Vorprüfung ( Teil 2) präsentiert und die Projektkritiken der
+     engeren Wahl im Plenum diskutiert und konsolidiert sowie eine provisorische
+     Rangfolge für die beiden Teilperimeter A und B bestimmt.
+
+
+
+
+     3. Jurierungstag – alle Baufelder
+
+     Am dritten Jurierungstag fand nach einer freien Besichtigung sämtlicher Pro-
+     jekte / Konzepte der engeren Wahl die Schlussbeurteilung für den Teilperimeter C
+     (4 Projekte) nach den genannten Beurteilungskriterien statt. Dabei wurden die
+     Ergebnisse der vertieften Vorprüfung (Teil 2) präsentiert und die Projektkritiken
+     der engeren Wahl im Plenum diskutiert und konsolidiert sowie eine provisorische
+     Rangfolge festgelegt. Nach einer Prüfung der vorläufig erstrangierten Projekte
+     für die Hochbauten auf den Teilperimetern A – C im Gesamtmodell fand die
+     Schlussbeurteilung der Konzepte der engeren Wahl für den Teilperimeter Quar-
+     tierpark (5 Konzepte) nach den genannten Beurteilungskriterien statt. Dabei
+     wurden die Konzeptkritiken der engeren Wahl im Plenum vorgestellt und disku-
+     tiert sowie eine provisorische Rangfolge bestimmt. Zum Ende des Jurierungs-
+     tags wurde für alle Teilperimeter die finale Rangfolge festgelegt, Preise und
+     Ankäufe vergeben, die Schlussfolgerungen aus dem Verfahren gezogen sowie
+     die Empfehlungen für die Entwicklung des Gesamtareals und die Weiterbearbei-
+     tung der drei Siegerprojekte für die Hochbauten sowie das Siegerkonzept für
+     den Quartierpark in der Dialogphase formuliert. Mit der Unterzeichnung der
+     Genehmigung wurden die Wettbewerbsergebnisse gutgeheissen. Anschliessend
+     wurden die verschlossenen und anonymisierten Umschläge geöffnet und die
+     Verfasserinnen und Verfasser der Projektvorschläge und Konzepte ermittelt.
+
+
+30   Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten
+7       R A NGIERUNG
+
+
+
+Für Preise und Ankäufe standen die folgenden Summen (alle exkl. 7.7 % MwSt.)
+zur Verfügung. Die Teilnehmenden an den drei Verfahren für die Hochbauten
+auf den Teilperimetern A – C erhielten zudem eine feste Entschädigung von
+je 7500 Franken (exkl. MwSt.) für jedes zur Beurteilung zugelassene Projekt:
+
+
+
+
+Baufeld A                                                              Fr. 185 000 (exkl. MwSt.)
+
+1. Rang | 1. Preis   Projekt A9     BL AUREGEN                                        Fr.   45 000
+2. Rang | 2. Preis   Projekt A2     ELVIS                                             Fr.   40 000
+3. Rang | 3. Preis   Projekt A7     BIG FRIENDLY GIANT                                Fr.   20 000
+4. Rang | Ankauf     Projekt 8      L A CUISINE                                       Fr.   12 500
+
+
+
+
+Baufeld B                                                              Fr. 230 000 (exkl. MwSt.)
+
+1. Rang | 1. Preis   Projekt B3     MOERAKI                                           Fr.   50 000
+2. Rang | 2. Preis   Projekt B6     PLEIN SOLEIL                                      Fr.   45 000
+3. Rang | 3. Preis   Projekt B7     FAMILIE KOCH UND IHRE NACHBARN                    Fr.   30 000
+4. Rang | 4. Preis   Projekt B2     CUCULU E RANA                                     Fr.   20 000
+5. Rang | Ankauf     Projekt B8     TURBO                                             Fr.   10 000
+
+
+
+
+Baufeld C                                                              Fr. 235 000 (exkl. MwSt.)
+
+1. Rang | 1. Preis   Projekt C4     SALE CON FRITAS                                   Fr.   60 000
+2. Rang | 2. Preis   Projekt C2     K AZIMIR                                          Fr.   50 000
+3. Rang | 3. Preis   Projekt C10    JAMES COOK                                        Fr.   30 000
+4. Rang | 4. Preis   Projekt C9     COMING SOON...                                    Fr.   20 000
+
+
+
+
+Baufeld Quartierpark                                                    Fr. 110 000 (exkl. MwSt.)
+
+1. Rang | 1. Preis   Projekt QP3    WILD AT HEART                                     Fr.   35 000
+2. Rang | 2. Preis   Projekt QP15 PARK                                                Fr.   30 000
+3. Rang | 3. Preis   Projekt QP11 OPPORTUNIST                                         Fr.   20 000
+4. Rang | 4. Preis   Projekt QP7    #SYNANTHROP                                       Fr.   15 000
+5. Rang | 5. Preis   Projekt QP13 GRENZEN ÜBERWINDEN                                  Fr.   10 000
+
+
+
+
+                            Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten   31
+     8       SCHLUS SFOLGERUNGEN
+
+
+
+     Die Wettbewerbsergebnisse legen eine robuste Basis für die gemischte
+     Gesamtüberbauung. Sie stellt ein zukunftsfähiges Modell für eine qualitativ
+     hochwertige Quartierentwicklung in urbaner Dichte dar und bildet ein leben-
+     diges Zentrum mit vielseitigen Erholungsmöglichkeiten im Quartier. Ziel war
+     und ist es, dass die Überbauung der drei Baufelder mit dem Quartierpark als
+     kohärentes Ganzes wahrgenommen wird, das die Geschichte und den Spirit
+     des Koch-Areals weiterschreibt. Die Wettbewerbsergebnisse schaffen eine
+     sehr gute Grundlage für diese Vision. Der Charakter des Koch-Areals wird
+     spürbar in den Siegerprojekten, was aus Jur ysicht einerseits im Zusammen-
+     treffen verschiedenster Massstäbe sowie eher einfachen, unprätentiösen
+     Volumen und Materialien zum Ausdruck kommt.
+
+     Das Schlussbild der siegreichen Projekte – mit dem Quartierpark als grüne
+     und lebendige Mitte – setzt sich subtil zusammen. Mit kleinen Gesten treten
+     die Volumen in Dialog miteinander, wie wenn es ein Gesamtentwurf aus
+     einem Wettbewerb gewesen wäre. In ihrer volumetrischen Ausbildung wie
+     beispielsweise den Staffelungen beim Hochhaus, in der Platzbildung zwischen
+     dem Gewerbehaus und der Überbauung «James» oder im grosszügigen
+     Abrücken des «Kraftwerk1»-Volumens und dem damit einhergehenden
+     wohltuenden Freispielen der Kohlelagerhalle nehmen die Gebäude Bezug
+     zum bestehenden Kontext, verankern sich in ihm und schreiben damit die
+     Geschichte der Umnutzung des Koch-Areals weiter. Jede Bauherrschaft
+     erhält einen Projektentwurf, der sehr gut auf die gewünschten Eigenheiten
+     eingeht und gleichzeitig auf den umgebenden Kontext reagiert.
+
+
+
+
+     Baufeld A
+
+     Die neun sehr unterschiedlichen Projektideen ermöglichten der Jur y eine
+     gute Auslegeordnung für die Wahl des zum Koch-Areal passenden vertikalen
+     Gewerbehauses. Es zeigte sich, dass maximale, allseitig gleiche Quader
+     undifferent wirken, hingegen Projekte mit einfachen städtebaulichen Reaktionen
+     im Volumen sich im Kontext verankern und einen willkommenen Auftakt zum
+     Park bilden. Die Grundstruktur und Gebäudehierarchie soll der einfachen
+     Orientierung dienen und mit dem Erschliessungssystem einfach lesbar sein.
+
+     Einzig das Projekt «USINE» unternahm den von der Jur y respektierten
+     Versuch, den identitätsstiftenden Altbau in die neue Konzeption zu integrieren.
+     Die resultierende Dichte des Neubaus schnürt aber dem Ensemble die Luft
+     ab und wirkt leider eher kraftlos und wenig überzeugend. Konzepte mit
+     Innenhöfen erscheinen introvertiert, treten zu wenig in Bezug zum Umfeld
+     und verlieren wertvolle Nutzfläche im Erdgeschoss (Projekte «HENRY»,
+     «HEAV Y DUT Y», «CEDRIC»). Aus der engeren Wahl zeigt das Projekt
+
+
+
+
+32   Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten
+«BIG FRIENDLY GIANT» gutes Potenzial. Mit der einfachen Grundstruktur –
+als grünes Gerüst über ein verglastes Volumen gestülpt – wirkt es aber zu
+wenig spezifisch ausgearbeitet und kann neben den beiden starken, wenn
+auch sehr verschiedenen Projekten «ELVIS» und «BL AUREGEN» nicht gleich
+überzeugen. «ELVIS» ist ein prototypisches Gewerbehaus mit rohem Charakter,
+das die ganze Aufmerksamkeit auf sich zieht. Das neue Haus ist stark aus
+der Geschichte des Orts heraus entwickelt und verblüfft mit seiner Einfach-
+heit im inneren Aufbau wie auch in der äusseren Erscheinung. Eine zentrale,
+klare Erschliessungsfigur sowie attraktive Arbeitsräume mit unterschied-
+lichen Raumtypen und Lichtqualitäten prägen den Bau und das charak-
+teristische Sägezahnmuster der Sheddachfläche gibt dem Bau eine
+polarisierende Identifikation.
+
+«BL AUREGEN» hingegen reagiert volumetrisch verschieden auf den Kontext,
+zeigt einen vermittelnden Ansatz und wirkt als Integrationsmaschine. Das
+Projekt spiegelt das Zusammengewürfelte des Areals und zieht seine Kraft
+aus diesem Arealcharakter. Die Fassaden sind je nach Seite unterschiedlich
+artikuliert, zum Park bezugnehmend mit ansprechend begrünter Veranda –
+schön porös und durchlässig. Eine innere Gasse führt durch das ganze
+Erdgeschoss und verbindet die drei Treppenhäuser. Die unterschiedlich
+proportionierten Gebäudeteile ermöglichen eine willkommene Vielfalt in der
+Flächenvermietung. Die Jur y entschied sich für das Projekt «BL AUREGEN»,
+das sich besser mit den weiteren Gebäuden des Koch-Areals zu einem
+Ganzen verbindet, indem es die Mehrteiligkeit schon in seinem Ansatz
+aufweist, städtebaulich sehr schöne Raumsequenzen akzentuiert, grün
+besetzt ist und funktional viele Nutzungsmöglichkeiten bietet.
+
+
+
+
+Baufeld B
+
+Die ABZ hat eine klare Absicht: sie möchte ein innovatives Projekt für genos-
+senschaftliches Wohnen im Hochhaus realisieren! Dies meint mehr als nur
+preisgünstig und innerhalb der kantonalen Wohnbauförderung, sondern mit
+gemeinschaftsfördernder Architektur. Die konkrete Umsetzung der vertikalen
+Gemeinschaft war der ABZ denn auch während der ganzen Jurierung eine
+Herzensangelegenheit. Alle Projekte stellten sich diesem Thema und gene-
+rierten unterschiedlich spannende Lösungen. Das Siegerprojekt «MOERAKI»
+hat dazu den reichsten Bogen gespannt und Gemeinschaft auf drei Ebenen
+mit zunehmender Privatheit reichhaltig inszeniert. Der 2. Preis, «PLEIN
+SOLEIL», hat dagegen alles auf eine Karte gesetzt und die ganzen Gemein-
+schaftseinrichtungen und Treffpunkte auf die Sockelterrasse und identitäts-
+stiftende Mitte konzentriert.
+
+
+
+
+                        Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten   33
+     Obwohl die städtebauliche Grunddisposition klar vorgegeben war, konnte
+     die Jur y auf Basis einer breiten Varianz diskutieren, wie auf dem Koch-Areal
+     dem Massstab des Hochhauses architektonisch und funktional am besten
+     entsprochen werden kann. Da die meisten Teams Hochhäuser um die
+     70 Meter vorschlugen, war die Höhe kein Thema für die Jur y. Dafür wurde
+     die Erscheinung und Wirkung im Kontext intensiv diskutiert. Dazu konnte
+     das Projekt «ALPHA SECHS» mit seinem prägnant gegliederten Hochhaus
+     die Diskussion bereichern. Projekte mit spezieller volumetrischer Ausprä-
+     gung wie der Vorschlag «TOURNESOL» oder das winkelförmige Hochhaus
+     «LURRA» konnten jedoch weniger nachvollzogen werden, letzteres bot aber
+     räumlich interessante Cluster verbindungen an. Das etwas monoton wirkende
+     Projekt «ASA» wie auch das eher starr durchrepetierte Äussere des Hoch-
+     hauses «RESPIRO» vermochten die Jur y nicht von einem gestalterischen
+     oder wohnungstypologischen Mehrwert überzeugen. Diesbezüglich punktete
+     das Projekt «TURBO» mit sehr schönen Wohnungen sowie einem sorgfältig
+     wohnlich wirkenden Äusseren.
+
+     Von den Projekten der engeren Wahl interessierte die Jur y beim Projekt
+     «FAMILIE KOCH UND IHRE NACHBARN» der gewöhnliche und normale
+     Habitus dieses dichten Wohnkomplexes und das Durchdeklinieren dieser
+     auch der Genossenschaft sympathischen Haltung auf verschiedenen Ebenen.
+     Das Projekt «CUCULU E RANA» setzte mit seiner Effizienz und Suffizienz
+     aufgrund der vielen Wohnungen die Messlatte des besten Kostenbench-
+     marks. Leider konnten aber die Wohnungsgrundrisse zu wenig überzeugen
+     und die Ideen für die Gemeinschaft waren sehr spärlich.
+
+     Somit diskutierte die Jur y die beiden starken, in ihrer Haltung sehr verschie-
+     denen Projekte «MOERAKI» und «PLEIN SOLEIL» sehr intensiv. «PLEIN
+     SOLEIL» spielt das Hochhaus vom Zeilenbau frei, die städtebauliche Grund-
+     konzeption ist offener, die gemeinschaftsfördernden Orte werden konzen-
+     triert auf die sonnige Gemeinschaftsterrasse als Zentrum der Überbauung
+     mit Anteil am weiten Park. «MOERAKI» punktet mit einem sehr reich durch-
+     deklinierten Projekt, das Gemeinschaft auf vielen Ebenen – so auch in der
+     Vertikalen – inszeniert, subtil auf den Kontext eingeht und städtebaulich eine
+     klar getaktete Kante mit dem Gewerbehaus bildet. Nach einer intensiven
+     Abwägung entschied sich die Jur y einstimmig für «MOERAKI», das der
+     Vision der vertikalen Gemeinschaft näherkommt und äusserst qualitätsvolle
+     Wohnungen bietet.
+
+
+
+
+34   Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten
+Baufeld C
+
+Die Suche nach einer Gebäudekonzeption, die das Zusammenleben in
+der neuen Kraftwerk1-Siedlung als Austausch zwischen Öffentlichkeit
+und Gemeinschaft definiert und das gemeinsame Leben unter einem Dach
+symbolisiert, prägte das Wettbewerbsprogramm und demzufolge auch die
+Jurierung. Die Palette an möglichen austauschfördernden Konzeptionen war
+auf diesem Baufeld am grössten und befruchtete die Jur ydiskussion positiv.
+Die meisten Projektvorschläge wählten das Prinzip des Gesamtkonzepts
+aus einem Guss mit gemeinsamem Sockel oder den Blockrandtyp mit
+verbindenden Hofeinbauten. Die drei Projekte «VERTIGO», «THE FIRST BIG
+WEEKEND» und «K A ZIMIR» wählten den Ansatz mit einzelnen Häusern,
+zwischen denen der öffentliche Raum diffundieren kann. Die starke Vorstel-
+lung der Genossenschaft von einer vernetzten Welt der Gemeinschaft und
+ihrer Integrationsleistung wurde als Ganzes erlebbar und am besten erfüllt
+mit einem verbindenden Sockel oder einem stark ausgebildeten Weg durch
+das Ensemble. Die «Salle commune» als Zentrale sollte für alle trockenen
+Fusses erreichbar sein. Wichtig war aber auch eine klare Adressbildung und
+Orientierung innerhalb des Systems sowie die Ausrichtung der Erdgeschoss-
+nutzungen zum Park mit Kohlelagerhalle und der Bezug zu den Nachbarge-
+bäuden am Park.
+
+In die engere Wahl kamen die jeweils besten Projekte dieser Ansätze.
+«COMING SOON…» besetzt das ganze Areal mit einer imposanten, räumlich
+reichen Grossform um eine starke Mitte. Jedoch ist die innere Orientierung
+durch eine genügend stringente Grundstruktur zu wenig ausgeprägt.
+«JAMES COOK» zeigt einen verblüffend einfachen und kraftvollen Blockrand
+mit beeindruckend durchdeklinierten Wohnungen. Der ruhige Innenhof kann
+aber die Umsetzung von erlebbarer, vernetzter Gemeinschaft nicht gleich
+überzeugend einlösen.
+
+Auch auf diesem Baufeld liegen zwei starke Projekte vorne, die beide dem
+Park und der Kohlelagerhalle mehr Platz machen als sie müssten. Bei beiden
+Projekten beeindruckt diese städtebauliche Setzung durch mehr Freiraum
+und Kraft für den Park. «K AZIMIR» generierte intensive Diskussionen zum
+Verhältnis der öffentlichen Durchwegung gegenüber der Halbprivatheit der
+Genossenschaftsgemeinschaft und wie der Ort gleichzeitig offen einladend
+sein kann und doch auch etwas Privatheit / Rückzug ermöglichen könnte. Das
+Siegerprojekt «SALE CON FRITAS» zeigt das vorbildlich – im Erdgeschoss
+sind die öffentlichen Nutzungen als Kulturcluster situiert, auf die Terrasse
+im 1. Obergeschoss mit den genossenschaftsbezogenen und halböffentlichen
+Nutzungen führt eine grosse Freitreppe. Dieses Projekt besticht durch eine
+konzentrierte Wohn- / Arbeitstypologie, alles ist vernetzt unter einem Dach
+
+
+
+
+                        Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten   35
+     – das neue Kraftwerk1 als soziale Plattform mit grosser Ausstrahlung im
+     Quartier. Das kräftige Längsvolumen spielt die Kohlelagerhalle als Mitte des
+     Areals frei und stärkt durch diese neuen Raumverhältnisse die städtebauliche
+     Grundidee des Areals.
+
+
+
+
+     Baufeld Quartierpark
+
+     Der neue Quartierpark soll als vernetzendes Element die drei Gebäudevolumen
+     und ihre vielseitig ausstrahlenden Erdgeschoss-Nutzungen zu einem Ganzen
+     verweben und als öffentlicher Freiraum für das Quartier erkennbar sein. Dabei war
+     die Transformation der gewerblich-industriellen Vergangenheit hin zu den neuen
+     Nutzungsansprüchen, die im Vorfeld in Workshops mit dem Quartier erhoben
+     wurden, in respektvollem Umgang mit der identitätsstiftenden Kohlelagerhalle zu
+     bewerkstelligen. Lockere Konzeptionen, die durch eine weite Wiese viele Sichtbe-
+     züge unter den Gebäuden zulassen und mit wenigen prägnanten Vegetationsräu-
+     men den Park räumlich und funktional gliedern, konnten hierbei mehr überzeugen
+     (Konzepte «WILD AT HEART,» «OPPORTUNIST», «GRENZEN ÜBERWINDEN» und
+     «PARK»). Zu intensiv gestaltete Konzepte wie bei «FORMIDABLE», «#SYNANTHROP»
+     oder «KOCH KARUSSELL» gaben dem Ort einen zu determinierenden Charakter
+     bzw. die Jury konnte die gestalterischen Bilder nicht genügend nachvollziehen.
+     Der Konzeptvorschlag «RATATOUILLE» war mit seinem dichten Baumkonzept
+     zu vollbepackt, um arealvernetzend wirken zu können.
+
+     In der engeren Wahl wirkte das Konzept «OPPORTUNIST» schliesslich doch zu
+     diffus und bot zu wenig Orientierung für die weitergehende Dialogphase. Genau
+     dies boten die beiden Konzepte «WILD AT HEART» und «PARK», die in verwandter
+     Zonierung unterschiedliche Schwerpunkte und Rezepte für das weitere Verwe-
+     ben andachten. «PARK» konnte mit zwei Plätzen die jeweiligen Übergänge von
+     den Strassen zur grossen Rasenfläche im Kontext mit den Bebauungen über-
+     zeugend lösen und zeigte auch einen räumlich und konstruktiv im denkmalpfle-
+     gerischen Sinne sehr gelungenen Hallenumbau. Das siegreiche Konzept «WILD
+     AT HEART» überzeugte neben der grosszügigen Rasenmitte mit einer reichhal-
+     tigen Biodiversitätszone, dem «jardin sauvage», sowie zwei Toolboxen für die
+     kommenden Prozesse zu den Themen «Gestalten der Übergänge» und «Nach-
+     haltige Transformation». Mit diesem anleitenden Konzept kann sich in der
+     Dialogphase mit genügend Spielraum das neue «Kochquartier» entwickeln.
+
+     Die Jury dankt allen 44 Teams für die reichen Konzepte und das hohe
+     Engagement und gratuliert den vier Siegerteams zu ihren sehr überzeugenden
+     Lösungsvorschlägen, die schon jetzt gut zueinander und zum Koch-Areal
+     passen und in der Dialogphase zu einem Ganzen verwoben werden.
+
+
+
+
+36   Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten
+38   Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten
+Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten   39
+     9       EMPFEHLUNGEN
+
+
+
+     Das Preisgericht empfiehlt den Bauherrschaften SENN, ABZ, KW1 und Grün
+     Stadt Zürich die folgenden Projekte bzw. das folgende Konzept zur Weiterbe-
+     arbeitung: Baufeld A – Projekt A9 «BLAUREGEN», Baufeld B – Projekt B3
+     «MOERAKI», Baufeld C – Projekt C4 «SALE CON FRITAS», Baufeld Quartier-
+     park – Konzept QP3 «WILD AT HEART». Dabei sind die Ergebnisse der Vorprü-
+     fung sowie die Projekt- / Konzeptkritiken zu berücksichtigen. Insbesondere
+     müssen die nachfolgenden Punkte geklärt und weiterentwickelt werden.
+
+
+
+
+     Baufelder A– C
+
+     Allgemein erwartet das Preisgericht von den siegreichen Planungsteams
+     eine grosse Bereitschaft und aktive Unterstützung der jeweiligen Bauherr-
+     schaft bei der Suche und Umsetzung von Optimierungs- und Sparpotenzialen,
+     damit das gemeinsame Ziel der Bauträgerinnen und der Stadt Zürich –
+     günstige Mieten auf dem Koch-Areal anzubieten – erreicht werden kann.
+
+
+
+
+     Baufeld A
+
+     Die Attika (8. + 9. Obergeschoss) ist gemäss den baurechtlichen Anforderungen
+     anzupassen. Zusätzlich soll der Übergang der Attika zum Baufeld B städte-
+     baulich überzeugender ausgestaltet werden.
+
+     Die Brandschutzanforderungen an das zentrale Treppenhaus (Atrium) und
+     an die aussenliegenden Fluchttreppenhäuser sind zu überprüfen und gege-
+     benenfalls zu optimieren.
+
+     Die Bewilligungsfähigkeit der Anlieferung an der Flüelastrasse ist zu
+     erbringen. Dabei ist zu beachten, dass der Vorplatz mit den Bäumen und
+     den Retentions- und Versickerungsflächen weit möglichst erhalten bleibt.
+     Die erdgeschossige Erschliessung von Flächen des südöstlichen Gebäudeteils
+     gilt es in der weiteren Projektbearbeitung auch parkseitig zu ermöglichen.
+
+
+
+
+     Baufeld B
+
+     Das Projekt «MOERAKI» ist hinsichtlich ökonomischer Effizienz und ökolo-
+     gischer Suffizienz deutlich zu verbessern. Das Erreichen der vorgegebenen
+     Kosten-Benchmarks (insbesondere die 3900 CHF / m 2 HNF für das Hochhaus)
+     sowie der Energie-Kennwerte hat hohe Priorität.
+
+
+
+
+40   Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten
+Im Zuge der erforderlichen Optimierungen ist die Anmut und Feingliederung
+der vorgeschlagenen Fassade jedoch zwingend zu erhalten.
+
+Die Begegnungs- und Projekträume sind zu Gunsten von vermietbaren
+Räumen deutlich zu redimensionieren. Die dreigeschossigen Clusters
+(inkl. ihrer vertikalen Verbindungen) sind sowohl in ihrer Funktionalität
+als auch in ihrer Flächeneffizienz massgeblich zu verbessern.
+
+Die Veloparkierung (inkl. Zufahrt) ist bezüglich ihres Gebrauchswerts
+und ihrer Wirtschaftlichkeit ebenfalls zu überprüfen.
+
+An der Ostseite ist im Erdgeschoss die Attraktivität und Belebung des
+Raums zu Baufeld A zu verbessern, beispielweise mit einer alternativen
+Nutzungsanordnung im Gebäude.
+
+
+
+
+Baufeld C
+
+Beim Projekt «SALE CON FRITAS» ist der geforderte Gewerbeanteil von
+mindestens 20 Prozent zwingend einzuhalten. Hierzu sollen die Optimierung
+der nutzbaren HNF in Bezug auf Vergrösserung und Verdichtung in den drei
+Sockelgeschossen sowie eine konsequentere Anordnung der Gewerbe-
+flächen in diesen drei Geschossen geprüft werden. Zusätzlich soll in den
+Wohngeschossen das Verhältnis der HNF zu den Baukosten konsequent
+optimiert werden.
+
+An der Gebäudestirnseite zur Rautistrasse sind die Wohnungen einschliess-
+lich der Erschliessung zu überarbeiten, um den Lärmschutz einzuhalten.
+
+Die Fassade ist hinsichtlich des architektonischen Ausdrucks und der
+ökonomischen und ökologischen Zielsetzungen komplett zu überarbeiten.
+
+
+
+
+Baufeld Quartierpark
+
+Die Zugangsräume von Flur- und Flüelastrasse müssen an die Gebäude A, B
+und C angepasst werden. Sie sollen deren spezifische Gegebenheiten
+aufnehmen. Die kleine Platzzone an der Flüelastrasse soll ausgearbeitet
+und an der Flurstrasse eine Zugangszone zum Park entwickelt werden,
+die auf dem vorgeschlagenen Parkkonzept aufbauend auf das Hochhaus
+und den Eingang des Grossverteilers reagiert.
+
+
+
+
+                         Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten   41
+     Der Zwischenraum zwischen der Kohlelagerhalle und dem Gebäude auf dem
+     Baufeld C muss auf Basis des Parkkonzepts auf den grösser gewordenen
+     Parkraum angepasst werden. Die Gelegenheit kann dabei allenfalls genutzt
+     werden, den «jardin sauvage» ein wenig von seiner Erholungsnutzung
+     zu entlasten. Jedoch nicht vollständig, da die Überlagerung von Stadtnatur
+     und Erholung im «jardin sauvage» ein sehr reizvoller und die Auftrag-
+     gebenden interessierender Bestandteil des Konzepts ist.
+
+     Wichtig im grösser gewordenen Freiraum zwischen Gebäude C und Kohle-
+     lagerhalle ist es, den Grad der Öffentlichkeit zu thematisieren. Ein Fazit kann
+     dabei sein, dass sich der öffentliche Park Richtung Gebäude C ausdehnt
+     und sich das Grundstück des Gebäudes C reduziert. Der Grad der Öffent-
+     lichkeit sollte durch eine subtile Gestaltung ablesbar sein.
+
+     Der Anschluss zur Schule F + F soll in seiner Durchlässigkeit überprüft
+     werden. Eine Verbindung des Parks zu dieser Institution ist beidseitig
+     erwünscht.
+
+     Das Konzept schlägt zwei Werkzeugkästen vor – einen zur Gestaltung des
+     Übergangs zwischen Gebäuden und Park sowie einen zweiten zur Gestal-
+     tung des «jardin sauvage». Diese bestechende Idee gilt es nun zu konkreti-
+     sieren. Dabei ist in beiden Fällen eine Reduktion der Anzahl und der Verwen-
+     dung der Elemente im Sinn von «weniger ist mehr» zu überprüfen.
+
+     Die Vorzonen zu den Gebäuden müssen auf ihre Funktionalität überprüft
+     werden (Flächenbedarf, Hauszugänge, Vorzonen für Erdgeschoss-
+     Nutzungen, Feuerwehr, Veloweg, etc.).
+
+     Es ist zu prüfen, ob der Kopfbau der Kohlelagerhalle zur Wiese hin tatsäch-
+     lich abgebrochen und neu gebaut werden muss, um die gewünschte und
+     von der Jur y als sehr sinnvoll erachtete Nutzung aufnehmen zu können.
+     Eventuell liesse sich dies mit einem statischen Umbau lösen. Die vollstän-
+     dige Bedeckung der Halle mit Glasziegeln ist unter Berücksichtigung der
+     zukünftigen Nutzung, des Unterhalts und im Diskurs mit der Denkmalpflege
+     noch einmal kritisch zu prüfen.
+
+     Grösse und Position des Einbaus für die notwendigen Nutzungen muss
+     nochmals grundsätzlich überdacht werden. Die Weiterentwicklung der Halle
+     erfolgt unter Einbezug der Denkmalpflege.
+
+     Über den ganzen Park sind die Menge und die Anordnung der Bäume
+     zu überprüfen. Der Wechsel von lichtem zu dichtem Baumbestand wird
+     begrüsst. Mit den nun bekannten Gebäudeprojekten kann dieser Ansatz
+     präzisiert werden, ebenso kann nun der bestehende Baumbestand genau
+     erfasst und eingearbeitet werden.
+
+
+42   Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten
+In der Überarbeitung soll aus klimatischen Gründen der Anteil der nicht
+begrünten Bodenbedeckung zu Gunsten von grüner Bodenbedeckung
+reduziert werden.
+
+
+
+
+Dialogphase
+
+Die Dialogphase dient dazu, das siegreiche Parkkonzept und die drei sieg-
+reichen Projekte für die Hochbauten zu einem Ganzen zu verweben. Schlüssel-
+element ist dabei eine arealübergreifende Freiraumgestaltung basierend auf
+einem übergeordneten Gestaltungskonzept. Ziel ist es, die Überbauung und
+den Quartierpark als kohärentes Ganzes wahrzunehmen. Dabei ist ein
+grosses Augenmerk auf die Qualität und Gebrauchstauglichkeit der Über-
+gänge zwischen den Baufeldern, zum Park, zur Kohlelagerhalle und zu den
+angrenzenden Strassen (insbesondere Vorzonengestaltung) zu legen. Inte-
+graler Bestandteil der Freiraumgestaltung ist auch der Nachweis der ökolo-
+gischen Ausgleichsfläche gemäss Programm. Ebenso ist das gesamte
+Arealerschliessungskonzept zu vertiefen.
+
+
+
+
+                        Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten   43
+     10 GENEHMIGUNG
+
+
+     Baufeld A
+
+     Zürich, 26. Februar 2019, das Preisgericht
+
+
+
+
+     Johannes Senn                                                              ..................................
+
+
+
+     Johannes Eisenhut                                                          ..................................
+
+
+
+     Martin Schriener                                                           .................................
+
+
+
+     Christine Bräm                                                             ..................................
+
+
+
+     Tian Hartmann                                                              .................................
+
+
+
+     Christian Tobler (Ersatz)                                                  ..................................
+
+
+
+     Ursula Müller ( Vorsitz)                                                   ..................................
+
+
+
+     Pascal Hunkeler                                                            ..................................
+
+
+
+     Stefan Rotzler                                                             ..................................
+
+
+
+     Sabina Hubacher                                                            ..................................
+
+
+
+     Adrian Streich                                                             ..................................
+
+
+
+     Hanspeter Stacher                                                          ..................................
+
+
+
+     Maria Conen (Ersatz)                                                       ..................................
+
+
+
+
+44   Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten
+Baufeld B
+
+Zürich, 26. Februar 2019, das Preisgericht
+
+
+
+
+Dominik Osterwalder                                                    ..................................
+
+
+
+Hans Rupp                                                              ..................................
+
+
+
+Martin Grüninger                                                       .................................
+
+
+
+Christine Bräm                                                         ..................................
+
+
+
+Tian Hartmann                                                          .................................
+
+
+
+Christian Tobler (Ersatz)                                              ..................................
+
+
+
+Ursula Müller ( Vorsitz)                                               ..................................
+
+
+
+Pascal Hunkeler                                                        ..................................
+
+
+
+Stefan Rotzler                                                         ..................................
+
+
+
+Sabina Hubacher                                                        ..................................
+
+
+
+Adrian Streich                                                         ..................................
+
+
+
+Nathanea Elte                                                          ..................................
+
+
+
+Maria Conen (Ersatz)                                                   ..................................
+
+
+
+
+                            Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten        45
+     Baufeld C
+
+     Zürich, 26. Februar 2019, das Preisgericht
+
+
+
+
+     Andreas Engweiler                                                          ..................................
+
+
+
+     Dimphie Slooters                                                           ..................................
+
+
+
+     Rahel Nüssli                                                               .................................
+
+
+
+     Christine Bräm                                                             ..................................
+
+
+
+     Tian Hartmann                                                              .................................
+
+
+
+     Christian Tobler (Ersatz)                                                  ..................................
+
+
+
+     Ursula Müller ( Vorsitz)                                                   ..................................
+
+
+
+     Pascal Hunkeler                                                            ..................................
+
+
+
+     Stefan Rotzler                                                             ..................................
+
+
+
+     Sabina Hubacher                                                            ..................................
+
+
+
+     Adrian Streich                                                             ..................................
+
+
+
+     Ursina Fausch                                                              ..................................
+
+
+
+     Maria Conen (Ersatz)                                                       ..................................
+
+
+
+
+46   Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten
+Baufeld Quartierpark
+
+Zürich, 26. Februar 2019, das Preisgericht
+
+
+
+
+Nathanea Elte                                                          ..................................
+
+
+
+Dimphie Slooters                                                       ..................................
+
+
+
+Martin Schriener                                                       .................................
+
+
+
+Christine Bräm                                                         ..................................
+
+
+
+Tian Hartmann                                                          .................................
+
+
+
+Christian Tobler (Ersatz)                                              ..................................
+
+
+
+Ursula Müller ( Vorsitz)                                               ..................................
+
+
+
+Pascal Hunkeler                                                        ..................................
+
+
+
+Stefan Rotzler                                                         ..................................
+
+
+
+Sabina Hubacher                                                        ..................................
+
+
+
+Beatrice Friedli                                                       ..................................
+
+
+
+Jan Stadelmann                                                         ..................................
+
+
+
+David Hügli (Ersatz)                                                   ..................................
+
+
+
+
+                            Neubauten und Quartierpark | Koch-Areal | Zürich-Albisrieden /Altstetten        47
+

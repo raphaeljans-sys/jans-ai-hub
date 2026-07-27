@@ -1,0 +1,1988 @@
+# Quelle: https://espazium.s3.eu-central-1.amazonaws.com/files/2018-06/180614_jurybericht_industriestrasse_medien.pdf (Jurybericht Entwicklung Areal Industriestrasse Luzern, zweistufig, 2018, 130 Seiten, abgerufen 2026-07-27)
+# Extrakt: pdftotext -layout, 130 Seiten, erstellt 2026-07-27
+
+Projektwettbewerb
+Entwicklung
+Areal Industriestrasse
+Luzern
+
+
+
+
+Bericht des Preisgerichts
+Juni 2018
+2   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+    EINLEITUNG
+    Ursprünglich ein Industrie- und Gewerbeareal, besitzt das Areal Indust-     Projektwettbewerb
+    riestrasse seit Ende der 1970er-Jahre den Charakter einer Zwischennut-      Der Projektwettbewerb wurde von der Kooperation mit dem Ziel ausge-
+    zung. Aktuell nutzen Kleingewerbler*innen, Kunst- und Kulturschaffen-       schrieben, Projektvorschläge für eine innovative, exemplarische, koste-
+    de, WGs und kulturelle Einrichtungen die kostengünstigen Wohn- und          neffiziente und gemeinschaftsfördernde Überbauung in Holzbauweise
+    Arbeitsräume.                                                               nach den Vorgaben der 2000-Watt-Gesellschaft zu erhalten. Der Wett-
+                                                                                bewerb erfolgte zweistufig und auf Einladung.
+    Über die Jahrzehnte hinweg wurden unterschiedliche Nutzungen und
+    Planungen für dieses Gebiet initiiert und wieder verworfen. 2011 schrieb    Dialogphase
+    die Stadt Luzern einen Investorenwettbewerb aus und beabsichtigte,          Das Siegerteam «Städtebau- und Aussenraumkonzept» erarbeitet im
+    das Areal an eine Immobilien- und Generalunternehmung zu verkaufen.         Dialog mit den Gewinnerteams «Gebäudetypologie» ein Regelwerk für
+    Gegenüber diesem Begehren bildete sich Widerstand. Die Interessen-          die Arealbebauung. Dies unter Begleitung einer Delegation des Preisge-
+    gemeinschaft Industriestrasse IGI, gebildet aus Bewohnenden und Ar-         richts und der Auftraggeberin.
+    beitenden der Industriestrasse, reichte eine Initiative mit der Forderung
+    ein, das städtische Areal an einen gemeinnützigen Bauträger im Bau-         Veranstalterin
+    recht abzugeben. Am 23. September 2012 stimmte die Stadtbevölke-            Kooperation Industriestrasse Luzern
+    rung der Initiative zu und lehnte einen Verkauf des Areals ab. Daraufhin    Genossenschaftsverband
+    schrieb die Stadt Luzern das Baurecht über das Areal schweizweit aus.       Neuweg 23
+    Am 21. April 2016 nahm das Parlament der Stadt Luzern den Baurechts-        6003 Luzern
+    vertrag für die Abgabe des städtischen Grundstücks an die Kooperation
+    Industriestrasse Luzern einstimmig an.
+
+
+
+
+                                                                                Impressum
+                                                                                Herausgeberin Kooperation Industriestrasse Luzern
+                                                                                		Genossenschaftsverband
+                                                                                		            Neuweg 23, 6003 Luzern
+                                                                                Redaktion     Cla Büchi, Walter Graf, Nora Haupt, Edina Kurjakovic
+                                                                                Lektorat		    Urs Arnold
+                                                                                Fotos		       Stefano Schröter, stefano-schroeter.com
+    Anwendung geschlechtergerechter Sprache                                     		Redaktion
+    Der Jurybericht wendet die Gender Gap-Schreibweise mit dem * an,            Auflage		     200 Ex.
+    um neben dem männlichen und dem weiblichen Geschlecht weitere
+    Geschlechter sichtbar zu machen. Beispiel: Nutzer*innen.                    Luzern, Juni 2018
+Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern        3
+
+
+
+
+INHALTSVERZEICHNIS							
+A | AUSGANGSLAGE UND VERFAHREN								                             4
+
+01      Ausgangslage												 4
+02      Genossenschaftsverband										 5
+03      Verfahren und Aufgabe											 7
+04      Preisgericht												 9
+05      Termine													 10
+
+
+B | TEAMS UND WÜRDIGUNG										 11
+
+06      Teams 1. und 2. Stufe											 11
+07      Würdigung 1. Stufe											 11
+08      Vorprüfung 2. Stufe											 14
+09      Kennwörter Projekte 2. Stufe										 14
+10      Beurteilung der Projekte 2. Stufe										 14
+11      Genehmigung des Preisgerichts										 17
+12      Projektverfassende										                18
+
+
+C | SOZIALE NACHHALTIGKEIT									                               19
+
+13      IG Industriestrasse											 19
+14      KinderPlanenStadt											 20
+15      Halböffentliche Jurierung											 21
+16      Kunst baut mit												 25
+
+
+D | DOKUMENTATION PROJEKTWETTBEWERB						                         26
+4   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+    A | AUSGANGSLAGE UND VERFAHREN
+    01      Ausgangslage                                                          weitere Arealentwicklungen in Luzern setzen. Innovative Bebauungs-,
+                                                                                  Gebäude- und Nutzungsstrukturen sowie ein partizipativer Prozess und
+    Die Überbauung an der Industriestrasse bildet den Auftakt für ein neues       die Organisationsform, in der sich mehrere Genossenschaften zusam-
+    Stück Luzern, das jenseits der Geleise des Bahnhofs und der Neustadt          menschliessen, sind dabei bedeutende Elemente.
+    entsteht. Das Areal ist eines von mehreren Arealen (ewl, Rösslimatt,
+    Steghof) in einem engeren Umkreis, die sich im Umbruch befinden. Den-         Die Stadt offeriert der Kooperation die Option zur Erhöhung der auf
+    noch spielt es eine besondere Rolle: Es zeichnet sich durch ein belebtes,     dem Areal zulässigen Überbauungsziffer (ÜZ). Dies ermöglicht die Prü-
+    vielfältiges und kreatives Neben- und Miteinander an Gewerbe, Gastro-         fung einer innovativen Bebauungsstruktur und einen Beitrag zur inner-
+    nomie, Wohnen und Kultur aus. Die gut dreissigjährige Zwischennutzung         städtischen Verdichtung. Die Realisierung einer höheren ÜZ hätte eine
+    auf dem Areal hat eine eigene Identität und Kultur hervorgebracht, die        Teilrevision der Bau- und Zonenordnung mit entsprechend längerer
+    sich auf vielerlei Art manifestiert und auf das Quartier und die Stadt aus-   Planungszeit zur Folge. Die Kooperation liess diese Option im Wettbe-
+    strahlt.                                                                      werbsverfahren von den teilnehmenden Teams über eine Variante mit
+                                                                                  höherer ÜZ prüfen.
+    Die Überbauung soll in verschiedener Hinsicht innovativ sein und
+    eine Vorreiterrolle in Luzern einnehmen. Dies wird durch das Engage-          Die Kooperation möchte an der Industriestrasse so unterschiedliche
+    ment der Genossenschaften der Kooperation möglich, deren Zusam-               Angebote wie traditionelle Familienwohnungen, innovative Wohnfor-
+    menschluss für ein gemeinsames Ziel die Entwicklung auszeichnet.              men, altersgerechte Wohnungen, eine Beiz mit angrenzendem Gemein-
+    Konkret lassen sich die Erwartungen in zwei zentrale Qualitäten zusam-        schaftsraum, ein Konzertlokal, Ateliers für Kunstschaffende sowie Raum
+    menfassen: Einerseits soll das Projekt die Vielfalt, die Heterogenität, die   für Gewerbe und Dienstleistungen erstellen. Machbarkeitsstudien ha-
+    Individualität und die Lebendigkeit, welche die Industriestrasse heute        ben ergeben, dass sich auf dem Areal ca. 160 Wohnungen und Raum für
+    schon prägen, aufnehmen und weiterentwickeln. Dazu tragen die un-             150 Arbeitsplätze realisieren lassen (bei einer ÜZ von 0.46).
+    terschiedlichen Akzente bei, welche die fünf Genossenschaften in das
+    Projekt einbringen. Die Vielfalt soll sowohl in der angesprochenen Mie-       Die Kooperation bietet Raum für Menschen und Projekte, die
+    terschaft wie auch gestalterisch zum Ausdruck kommen.                         durch die pionierhaften Elemente der Siedlung angezogen werden.
+                                                                                  Voraussetzung dafür ist, dass sie sich für genossenschaftliches Zusam-
+    Andererseits ist die Arealentwicklung in zwei Etappen wichtig. Neben          menleben engagieren, Lust auf die Mitgestaltung des Quartierlebens
+    dem ehemaligen Käselager sollen Bestandsbauten an der Ecke Industrie-         haben und nach den Prinzipien der Nachhaltigkeit leben.
+    strasse/Geissensteinring als günstige Arbeits- und Kulturräume weiter-                 Die Überbauung wird als 2000-Watt-Areal die Zertifizierung in
+    genutzt werden können, bis sie anschliessend in einer zweiten Bauetappe       Entwicklung und Betrieb zu erreichen haben. Die innerstädtische Lage
+    durch Neubauten ersetzt werden. Durch den behutsamen Transforma-              mit optimalen Anbindungen an den Langsamverkehr und der Anschluss
+    tionsprozess wird die heutige Identität und Lebendigkeit der Industrie-       an das Busnetz vor der Tür begünstigen zudem die autoarme Umset-
+    strasse bewahrt und als Basis für ein langfristig attraktives Wohnumfeld      zung der Arealbebauung. Ein zentraler Punkt wird auch die Vorgabe
+    genutzt. Darüber hinaus soll die Überbauung auch positive Impulse für         sein, die Arealbebauung im Holzbau zu realisieren.
+A | AUSGANGSLAGE UND VERFAHREN                                                 5
+
+
+
+
+Im Aussenraum sollen mit verschiedenartigen Platz- und Hofsituatio-
+nen, Gassen und Strassenräumen attraktive Aufenthaltsorte geschaf-
+fen werden, die das Gemeinschaftsgefühl und die Nachbarschaftspfle-
+ge fördern. Die Aussenräume sind miteinander verknüpft und über das
+Areal hinaus für das gesamte Quartier durchlässig.
+
+
+
+02      Genossenschaftsverband
+Im Sommer 2014 hat das G-Net, ein Zusammenschluss gemeinnütziger
+Wohnbauträger Luzerns, die Planungsaufgabe an der Industriestrasse
+diskutiert und das Interesse an einer Realisierung unter seinen Mitglie-
+dern evaluiert. In der Folge haben sich fünf Mitglieder zur Kooperation
+Industriestrasse zusammengeschlossen, mit der Absicht, am Bewer-
+bungsverfahren um das Baurecht teilzunehmen.
+          Es sind dies die allgemeine baugenossenschaft luzern abl, die
+Baugenossenschaft Wohnwerk Luzern, die Gemeinnützige Wohnbau-
+genossenschaft Industriestrasse Luzern GWI, die Liberale Baugenos-
+senschaft Stermatt-Tribschen Luzern LBG sowie die WOGENO Luzern
+Genossenschaft.
+          Jede der fünf Genossenschaften weist eine Verbindung zum
+Areal Industriestrasse auf. Die GWI ging aus der Initiative «Ja zu einer le-
+bendigen Industriestrasse» hervor. Die Wohnwerk präsentierte bereits
+2006 zusammen mit der abl dem Stadtrat von Luzern ein erstes Konzept
+für die nachhaltige Entwicklung des Industriestrassenareals. Die abl be-
+teiligte sich mit dem Wohnwerk 2011 auch am Investorenwettbewerb zur
+Überbauung der Industriestrasse. Die WOGENO und die LBG besitzen in
+unmittelbarer Nähe zum Areal mehrere Liegenschaften, die durch die
+Neubauten auf dem Areal Industriestrasse ideal ergänzt werden.
+6
+
+
+
+
+    Situation Areal mit Bestandsbauten, Parzellengrenze, Baulinie und Abbruchlinie, erste Bauetappe
+A | AUSGANGSLAGE UND VERFAHREN                                                                                                                      7
+
+
+
+
+03      Verfahren und Aufgabe                                             Nach der Jurierung der 1. Stufe entschied das Preisgericht, die
+                                                                          2. Stufe als anonymen Projektwettbewerb durchzuführen.
+Ausgangslage und Aufgabenstellung waren speziell. Dies zeigte sich in
+der Auftraggeberin, bestehend aus fünf Genossenschaften, der Prüfung      Grundlagen und Verbindlichkeit
+der städtebaulich verträglichen Dichte sowie der Beurteilung zweier
+Disziplinen (Städtebau/Aussenraum und Gebäudetypologien).                 Als Grundlage für das Wettbewerbsverfahren galt das Programm, wel-
+                                                                          ches sich an die SIA-Ordnung 142 anlehnte. Mit der Einreichung der Pro-
+Die Kooperation ist zum Schluss gekommen, dass eine Präqualifikation      jektbeiträge erklärten die eingeladenen Architekt*innen das Programm
+über Bürodaten und Referenzobjekte der komplexen Ausgangslage und         und die Fragebeantwortung für sich als verbindlich. In gleicher Weise
+Aufgabenstellung nicht gerecht wird, weshalb sie ein spezielles, zwei-    war es für die Auftraggeberin bindend.
+stufiges Verfahren durchgeführt hat.
+
+
+1. Stufe: Idee für den Ort                                                Vorgaben
+
+In einem internen Auswahlverfahren wurden für die 1. Stufe 21 Teams       In der 2. Stufe des Wettbewerbs wurden Lösungen in zwei Disziplinen
+eingeladen, eine Idee zum Ort zu erarbeiten und dem Preisgericht in ei-   gesucht. Die Bebauung sollte sich durch folgende Komponenten aus-
+ner kurzen Präsentation darzulegen.                                       zeichnen:
+
+
+Die 1. Stufe ermöglichte den angefragten Planerbüros, ihr Interesse an    •   Breiter Mix an Nutzungen wie Wohnen, Gewerbe, Ateliers
+der anspruchsvollen Aufgabe und ihre Intuition zur Aufgabenlösung             und Kulturangeboten
+mit der Darstellung oder Formulierung von einer Idee zum Ort Indust-      •   Raumangebot für Personen verschiedenen Alters,
+riestrasse darzulegen. Auch Planerbüros, welche keine Referenzen zu           verschiedener Nationalitäten und verschiedener Lebensentwürfe
+ähnlich gelagerten Projekten vorweisen konnten, erhielten so die Mög-         der Mitglieder der fünf Kooperationsgenossenschaften
+lichkeit, ihre Befähigung unter Beweis zu stellen.                        •   Breites Angebot an Begegnungs- und Betätigungsmöglichkeiten
+                                                                              zur Nachbarschaftspflege und Förderung des Austauschs
+2. Stufe: Städtebau / Gebäudetypologie                                    •   Öffentlicher Charakter des Aussenraums, auch zugänglich
+                                                                              für Personen ausserhalb des Areals
+Das Preisgericht hat nach der Jurierung der 1. Stufe 13 Teams zur Teil-   •   Die Unterschiedlichkeit der Kooperationsgenossenschaften
+nahme an der 2. Stufe eingeladen. In der 2. Stufe haben die ausgewähl-        soll sich in der Bebauung ausdrücken:
+ten Teams einerseits Vorschläge für ein städtebauliches Bebauungs-            • im Charakter und in der Erscheinung der Bauten
+konzept und anderseits Gebäudetypologien in Holzbauweise für die              • im Angebot der Wohnformen und hinsichtlich der
+einzelnen Genossenschaften erarbeitet. Zusätzlich zum Städtebauent-                Auswirkungen auf die Gebäudetypologien
+wurf auf der Basis einer ÜZ von 0.46 wurden die Team beauftragt, eine         • im Angebot und in der Ausprägung des Gewerbes
+Variante im Situationsplan und Modell mit einer höheren, frei wählbaren
+ÜZ im Mst. 1:500 aufzuzeigen.
+8   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+    Städtebau und Aussenraumkonzept                                           Überbauugsziffer ist die absolute Dichte dem Bedürfnis nach einer gu-
+                                                                              ten Wohnqualität unterzuordnen.
+    in zwei Bauetappen
+    •   Städtebau- und Aussenraumkonzept auf der Basis der                    Städtebau und Aussenraum
+        geltenden Bau- und Zonenordnung (Wohn- und Geschäftszone,
+        ÜZ von 0.40 + Boni = 0.46) im Mst. 1:200                              •   Voraussetzungen zum Identitätserhalt
+    •   Variante Städtebau- und Aussenraumkonzept im Modell mit einer         •   Auswirkungen auf Qualität und Nutzung der vermietbaren Räume
+        höheren, frei wählbaren ÜZ im Mst. 1:500, basierend auf dem               und des Aussenraums (Belichtung, Beschattung, Freiraum)
+        Städtebau- und Aussenraumkonzept mit ÜZ 0.46                          •   Auslotung einer hohen städtischen Dichte unter gleichzeitiger
+                                                                                  Berücksichtigung qualitätsvoller Aussenräume
+                                                                              •   Einhaltung der Vorgaben und Zielwerte gemäss 2000-Watt-Areal
+    Gebäudetypologie                                                              (Zertifizierung in Entwicklung und Betrieb)
+    •   Für die einzelnen Genossenschaften sind die Gebäude nach den          •   Etappierung in zwei Bauetappen
+        definierten Flächenangaben und Standortangaben im Mst. 1:200 zu       •   Differenzierung und Qualität der Aussenräume, die den unter-
+        konzipieren                                                               schiedlichen Nutzungen und im Besonderen den Erdgeschoss-
+    •   Zu berücksichtigen sind die nach Genossenschaften unterschied-            nutzungen Rechnung tragen
+        lichen Vorgaben bezüglich Wohnformen, Wohnungsgrössen, Arten          •   Vielfältige Wegverbindungen innerhalb des Areals und Anschluss
+        des Gewerbes und des Ausbaustandards                                      an übergeordnetes Wegnetz
+                                                                              •   Differenzierung in der Ausgestaltung des Übergangs von der
+                                                                                  Arealüberbauung zu den angrenzenden Strassen
+    Weitere Anforderungen
+    •   Durchwegbarkeit des Areals
+                                                                              Städtebau-Variante höhere ÜZ
+    •   Autoarme Überbauung
+    •   Erhalt Bestandsbauten                                                 •   Auslotung einer hohen städtischen Dichte unter gleichzeitiger
+    •   Holzbau (Hybridbau möglich)                                               Berücksichtigung qualitätsvoller Aussenräume
+    •   2000-Watt-Areal                                                       •   Auswirkungen auf Qualität und Nutzung der vermietbaren Räume
+                                                                                  und des Aussenraums (Belichtung, Beschattung, Freiraum)
+
+
+    Beurteilungskriterien                                                     Gebäude und Holzbau
+                                                                              •   Layout und Wohnqualität
+    Die Kooperation sucht für das Areal Industriestrasse eine urbane Be-
+                                                                              •   Nutzwert Gewerbe, Büro, Dienstleistung und Kultur
+    bauung, die über das Areal hinaus strahlt und auf sein Umfeld einwirkt.
+                                                                              •   Innovative und pionierhafte Elemente in der Gebäudetypologie
+    Grundsätzlich wird eine hohe Dichte angestrebt, sie muss aber für die
+                                                                              •   Funktionale, kosteneffiziente Bauweise unter Berücksichtigung
+    Wohnnutzung optimale und ausreichende Belichtung für alle Wohnräu-
+                                                                                  von ökologischen Gesichtspunkten, auch hinsichtlich Betrieb und
+    me und Zimmer gewährleisten. Auch bei der höheren, frei wählbaren
+                                                                                  Unterhalt
+A | AUSGANGSLAGE UND VERFAHREN                                                                                                              9
+
+
+
+
+•   Umsetzung des Nutzungsprofils der fünf Genossenschaften           04      Preisgericht
+•   Hohe Flächeneffizienz zum einen, gezielte Gemeinschaftsbereiche
+    für Nachbarschaftspflege zum anderen
+•   Adaptionsfähigkeit an geänderte Marktbedürfnisse
+                                                                      Fachpreisgericht mit Stimmrecht
+•   Einheitliche und holzbautaugliche Spannweiten in Kombination      Gion A. Caminada, Architekt, Vrin
+    mit kostenbewusster und funktionaler Tragwerkkonstruktion und     Lorenzo Giuliani, Architekt, Zürich
+    übereinanderliegender Situierung von Medienschächten              Ilinca Manaila, Architektin, Zürich
+                                                                      Toni Weber, Landschaftsarchitekt, Solothurn (1. Stufe)
+                                                                      Christoph von Arx, Landschaftsarchitekt, Solothurn (2. Stufe)
+Allgemein                                                             Anja Kloth, Vertretung Stadt Luzern, Luzern
+Einhaltung gesetzlicher Grundlagen                                    Cla Büchi, Projektleiter Kooperation, Architekt, Luzern
+(Perimeter, Baulinien, Grenzabstände, Gebäudehöhen etc.)              Ersatz: Alex Willener, Soziale Nachhaltigkeit, Quartier-,
+                                                                      Gemeinde- und Stadtentwicklung, Luzern
+
+
+                                                                      Sachpreisgericht mit Stimmrecht
+                                                                      abl: Peter Bucher, Leiter Bau & Entwicklung abl, Luzern
+                                                                      GWI: Pascal Hofer, Präsident GWI, Luzern
+                                                                      LBG: Daniel Burri, Präsident LBG, Luzern
+                                                                      WOGENO: Roland Heller, Vorstandsmitglied WOGENO, Luzern
+                                                                      Wohnwerk: Harry van der Meijs, Präsident Wohnwerk, Luzern (Vorsitz)
+                                                                      Stadt Luzern: Beat Züsli, Stadtrat und Stadtpräsident, Luzern
+                                                                      (mit beratender Stimme)
+
+                                                                      Ersatz Sachpreisgericht (1 Ersatz pro Genossenschaft)
+                                                                      abl: Priska Jenni Jurt, Vorstandsmitglied, Luzern
+                                                                      GWI: Amelie Mayer, Vorstandsmitglied, Luzern
+                                                                      LBG: Markus Mühlebach, Vorstandsmitglied, Ebikon
+                                                                      WOGENO: Reto Stocker, Vorstandsmitglied, Neudorf
+                                                                      Wohnwerk: Angelika Juppien, Vorstandsmitglied, Ebikon
+10   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+     Experten mit beratender Stimme
+     Orpheo Carcano, IGI Luzern, Kulturveranstalter, Luzern
+     Patrick Ernst, 2000-Watt-Areal-Berater, Luzern
+     Walter Graf, Bauökonom, Luzern (Moderation)
+     Res Keller, Genossenschaftsbau, Projektentwicklung Kalkbreite, Zürich
+     Pirmin Jung, Holzbau, Holzbauingenieur, Rain
+     Alex Willener, Soziale Nachhaltigkeit, Quartier-, Gemeinde- und Stadt-
+     entwicklung, Hochschule Luzern – Soziale Arbeit, Luzern
+     Oscar Merlo, Verkehrsplanung, Verkehrsingenieur, Cham
+
+
+     Verfahrensbegleitung
+     Walter Graf, Bauökonom, Luzern (Moderation)
+
+
+
+     05      Termine
+     Ausgabe Wettbewerbsunterlagen 1. Stufe		      Mitte Juli 2017
+     Begehung Areal mit Inputreferaten		           17. August 2017
+     Präsentation 1. Stufe und Jurierung 		        2/3 Oktober 2017
+     Einladung ausgewählter Teams für die 2. Stufe 13. Oktober 2017
+     Fragestellung 2. Stufe				                    05. November 2017
+     Fragebeantwortung 2. Stufe			                 21. November 2017
+     Eingabe 2. Stufe					                         16. März 2018
+     Eingabe Modell 2. Stufe				                   30. März 2018
+     Vorprüfung					April 2018
+     Halböffentliche Jurierung				                 24. April /8. Mai 2018
+     Bekanntmachung des Ergebnisses		              17. Mai 2018
+     Ausstellung					                              22. Juni – 1. Juli 2018
+B | TEAMS UND WÜRDIGUNG                                                                                                                            11
+
+
+
+
+B | TEAMS UND WÜRDIGUNG
+Das Preisgericht hat 21 Büros zur Teilnahme an der 1. Stufe eingeladen.   07      Würdigung 1. Stufe
+Nach den Präsentationen der 1. Stufe am 2. Oktober 2017 wurden 13
+Teams für die Bearbeitung der 2. Stufe eingeladen.                        Die 21 eingeladenen Architekturbüros präsentierten am 2. Oktober 2017
+                                                                          ihre Ideen und Intuitionen zum Ort Industriestrasse dem Preisgericht
+                                                                          und den Experten. Die Präsentationen fanden im grossen Pool der Zwi-
+06      Teams 1. Stufe und 2. Stufe                                       schennutzung Netzwerk Neubad in Luzern statt.
+
+Abraha Achermann AG, Zürich                                               Empfangen wurden die Teams vor dem Neubad von drei Luzerner
+Adrian Streich Architekten AG, Zürich                                     Kunstschaffenden mit Bezug zum Areal Industriestrasse, die sich un-
+ahaa GmbH, Andreas Heierle, Luzern                                        abhängig von der Kooperation dazu entschlossen hatten, einen künst-
+Elia Malevez GmbH, Luzern                                                 lerischen Beitrag zum Verfahren zu leisten. Sie suchten das Gespräch
+Armon Semadeni Architekten GmbH, Zürich                                   mit den eintreffenden Architekt*innen, hobelten Weisskohl, um ihn in
+Büro Konstrukt, Luzern                                                    einem Steinguttopf zu Sauerkraut gären zu lassen und hauten aus ei-
+Deon AG, Luzern                                                           nem Sandsteinblock einen Grundstein.
+Duplex Architekten AG, Zürich
+EMI, EDELAAR MOSAYEBI INDERBITZIN | Architekten AG, Zürich                Das Preisgericht sowie die Fachexperten soziale Nachhaltigkeit, Ge-
+En Route Architects, Athen                                                nossenschaftsbau und die Vertretung der Interessengemeinschaft
+FF Partner AG, Oberentfelden                                              Industriestrasse waren am Präsentationstag vollzählig anwesend. Or-
+Futurafrosch, Zürich                                                      ganisatorisch wurde der Tag von der Geschäftsstelle und Walter Graf
+Hummburkart Architekten, Luzern                                           unterstützt.
+Lacaton & Vassal Architects, Paris
+Manetsch Meyer Architekten AG, Zürich                                     Die Büros hatten zehn Minuten Zeit, ihre Idee zu präsentieren, darauf
+:mlzd, Biel                                                               folgten zehn Minuten für Fragen und den Diskurs. Der zeitliche Ablauf
+ro.ma. architekten roeoesli & maeder GmbH, Luzern                         konnte eingehalten werden und es zeigte sich, dass das Zeitfenster
+Rolf Mühlethaler Architekt BSA SIA, Bern                                  von zwanzig Minuten für die einzelnen Präsentationen genügend Raum
+Schneider Studer Primas GmbH, Zürich                                      für Vorstellung, Fragen und Diskurs bot. Die lockere Atmosphäre und
+Sergison Bates architekten GmbH, Zürich                                   Vielfältigkeit der präsentierten Beiträge trugen dazu bei, dass bis am
+toblergmür Architekten GmbH, Zürich/Luzern                                Schluss beim Preisgericht und den Experten keine Ermüdungserschei-
+                                                                          nungen eintraten.
+12   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+     Die präsentierten Beiträge zeugten von Inspiration, Engagement und           gewöhnlichen Präqualifikation über Referenzobjekte und Bürodaten
+     Begeisterung für den Ort und die Aufgabe. Es wurden Ideen, aber zum          anders ausgefallen wäre.
+     Teil auch bereits Ansätze für Bebauungskonzepte präsentiert. Insge-
+     samt waren die Qualität, die Vielfalt und der Aufwand der präsentierten
+     Beiträge überwältigend. Die Ansätze der Beiträge zeigten sich vielge-
+     staltig. Letztlich kristallisierten sich unter anderen drei wiederkehrende
+     Themen heraus:
+
+     •   Genossenschaftsbau als Chance für ein anderes Bauen mit
+         öffentlichem Anspruch
+     •   Auseinandersetzung mit dem Bestand im engeren wie
+         erweiterten Sinn
+     •   Soziale Nachhaltigkeit, die weit über den Bauprozess hinausgeht
+
+     Am folgenden Tag, dem 3. Oktober, entschieden sich das Preisgericht
+     sowie die Experten nach einer intensiven Auseinandersetzung mit den
+     Beiträgen und den abgegebenen Requisiten dazu, dreizehn Büros zur 2.
+     Stufe einzuladen.
+
+     In einer ersten Phase rekapitulierte man die Beurteilungskriterien und
+     reflektierte sie anhand der präsentierten Beiträge. In einer zweiten
+     Phase wurden die Beiträge eruiert, bei denen Einstimmigkeit für eine
+     Einladung zur zweiten Stufe herrschte. In der dritten Phase bestimm-
+     te das Preisgericht unter Diskussion von Qualitäten und Defiziten der
+     verbliebenen Beiträge die weiteren Teams für die zweite Wettbewerbs-
+     stufe. Dabei wurden mehrmals Wiedererwägungen debattiert und zum
+     Teil gutgeheissen. Weil die Qualität der Beiträge mehrheitlich hoch war,
+     entschied man sich für die Einladung von 13 Büros anstatt den vorgese-
+     henen 10 – 12.
+
+     In einem Resümee über das spezielle Verfahren zur Präqualifikation für
+     die 2. Stufe befand das Preisgericht, dass sich der Aufwand sowie die
+     Aufgabenstellung bewährt haben. Es bot dem Preisgericht und den Ex-
+     perten die Möglichkeit zu einem differenzierten Diskurs über die Iden-
+     tität und den Umgang mit dem Ort anhand der präsentierten Beiträge.
+     Man war mehrheitlich der Meinung, dass die Auswahl der Büros bei einer
+                                                       13
+
+
+
+
+21 Erinnerungsstücke der Präsentationen der 1. Stufe
+«Idee für den Ort Industriestrasse»
+14   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+     08      Vorprüfung 2. Stufe                                              09      mon oncle
+                                                                              10      PHOENIX
+     Am 16. bzw. 30. März reichten alle Teams fristgerecht die geforderten    11      ROSA UND KARL
+     Unterlagen und Modelle ein.                                              12      WO IST WALTER
+                                                                              13      Zweiter Frühling
+     Im April 2018 erfolgte die formelle Prüfung und inhaltliche Vorprüfung
+     der 13 Projekte, welch für die 2. Stufe ausgewählt worden waren. Die
+     Projekte wurden nach den Grundsätzen der SIA Ordnung 142 und den im      10      Beurteilung der Projekte 2. Stufe
+     Wettbewerbsprogramm und der Fragebeantwortung aufgeführten An-
+     forderungen und planungsrechtlichen Vorhaben durch Nora Haupt von        Am 23. April 2018 kamen die Juror*innen sowie die Experten zusammen,
+     der Kooperation Industriestrasse Luzern sowie durch Karin Portmann       um sich in den anspruchsvollen Beurteilungsprozess einzustimmen. Die
+     von der Walter Graf GmbH vorgeprüft. Die baurechtlichen Vorgaben         Jurierung fand im schützenswerten «Roten Haus» auf dem ewl-Areal
+     wurden mit Thilo Kurzemann, Stadtplanung Stadt Luzern, begutachtet.      statt.
+     Die Bereiche Holzbau, Energie und Verkehr sind durch folgende Fachex-
+     perten separat geprüft worden:                                           Nach einer freien Sichtung der Entwürfe begrüsste der Vorsitzende
+                                                                              Harry van der Meijs die vollzählig anwesende Jury und leitete über zum
+     Patrick Ernst, Energieingenieur, 2000-Watt-Arealberater                  Vorprüfungsbericht, welcher von Nora Haupt und Karin Portmann ver-
+     brücker+ernst gmbh sia, Luzern                                           fasst worden war. Alle 13 eingeladenen Teams hatten zeitgerecht ihre
+                                                                              Planunterlagen und die Modelle eingereicht. Die Projekte wurden ihren
+     Oscar Merlo, Verkehrsingenieur                                           Kennwörtern gemäss alphabetisch sortiert, von Nr. 1 – 13 aufsteigend
+     TEAMverkehr.zug ag, verkehrsingenieure, Cham                             nummeriert und so im Juryraum aufgehängt. Die Einrichtung des Jury-
+                                                                              lokals, das Cla Büchi konzipiert hatte, wurde vom Preisgericht gelobt.
+     Pirmin Jung, Holzbauingenieur
+     Pirmin Jung Ingenieure AG, Rain                                          Die Vorprüfung befasste sich
+                                                                              • mit den verlangten Entwurfs-Bestandteilen
+                                                                              • mit der Einhaltung des Perimeters und der baugesetzlichen
+     09      Kennwörter Projekte 2. Stufe                                         Vorgaben
+                                                                              • mit der Respektierung der Planungshinweise
+     01      AMALIE                                                           • mit der erlangten Überbauungsziffer und
+     02      BUNTES AREAL                                                     • mit den dargestellten Verdichtungen (ÜZ > 0,46)
+     03      COLLAGE VILLAGE                                                  Dabei wurden keine gravierenden Abweichungen festgestellt.
+     04      DIE INDUSTRIESTRASSEN
+     05      INDU                                                             Patrick Ernst präsentierte seine Vorprüfungs-Ergebnisse im Lichte der
+     06      KABINETT MIT SECHS HÄUSERN                                       2000-Watt-Gesellschaft. Pirmin Jung überprüfte alle Entwürfe auf ihre
+     07      La Bussola                                                       Kompatibilität mit den Gesetzmässigkeiten für Holzbau-Konstruktion
+     08      LUDOVILLE                                                        und Oscar Merlo kommentierte seine projektspezifischen Erkenntnis-
+B | TEAMS UND WÜRDIGUNG                                                                                                                                       15
+
+
+
+
+se zum Erschliessungskonzept, zur Parkierung für PWs und Velos. Die        In den nachfolgenden, engagiert geführten Diskussionen wurden alle
+vorprüfenden Stellen empfohlen dem Preisgericht abschliessend, alle        Entwürfe im Detail verglichen. Vorzüge wurden gewürdigt und mit parti-
+Entwürfe sowohl zur Beurteilung als auch zur Preiserteilung zuzulassen.    ellen Unzulänglichkeiten abgewogen.
+Dieser Empfehlung wurde einstimmig stattgegeben.
+                                                                           In einem ersten Rundgang beschloss die Jury einstimmig, die Projekte
+Am 24. April 2018, zum Auftakt des 2. Jurytages, präsentierten die Schü-   Nr. 02, Nr. 10, Nr. 11 und Nr. 12 in städtebaulicher Hinsicht nicht mehr wei-
+ler*innen der 5. Primarklasse Wartegg ihre Vorstellungen zum neuen         ter zu verfolgen. Dazwischen wurden immer wieder die bebauungsspe-
+Quartier. Mit ihren interessanten Modellen und Zeichnungen zur gesam-      zifischen Ergebnisse der Vorprüfung rekapituliert.
+ten Bebauung und zu Spielbereichen, welche sie im Rahmen des Mitwir-                 Im anschliessenden zweiten Rundgang schieden die Projekte
+kungsprojekts «KinderPlanenStadt» erarbeitet hatten, stellten sie dar,     Nr. 01, Nr. 04, Nr. 07, Nr. 08 und Nr. 13 aus, weil diese im Vergleich die städ-
+was ihnen für ein intaktes Quartierleben wichtig erschien. Das Preisge-    tebaulichen Kriterien der Jury nicht vollumfänglich zu erfüllen vermoch-
+richt verfolgte die Präsentation der Kinder mit grossem Interesse.         ten. Somit verblieben im Städtebau nach dem 2. Jurierungstag noch die
+                                                                           Projekte Nr. 03, Nr. 05, Nr. 06 und Nr. 09 zur Auswahl. Gegen Ende des
+Nach dieser Präsentation wurden über 20 Gäste begrüsst, welche sich        zweiten Jurytages widmete sich das Preisgericht den vorgeschlagenen
+für die halböffentliche Jurierung angemeldet haben. Edina Kurjakovic       Gebäudetypologien. Auch hier wurden die Vorprüfungsergebnisse, im
+wies die Besucher*innen darauf hin, dass sich alle im Raum frei bewe-      speziellen jene bezüglich des Holzbaus, laufend in die Debatte einbezo-
+gen und die Verhandlungen der Jury vor den Projekten ohne Einschrän-       gen.
+kungen verfolgen dürfen, dass aber eine Einmischung in die Gespräche                 Wiederum gruppenweise erfolgte die Begutachtung aller 13
+nicht möglich sei.                                                         Entwürfe, und erneut stellte man diese – absolut losgelöst vom Ergeb-
+                                                                           nis aus der städtebaulichen Runde – dem Plenum vor. Bis zum 3. Jurytag
+Anschliessend wurden fünf Gruppen, bestehend aus Fach- und Sach-           wurden von den Juror*innen die Projektbeschriebe zur städtebaulichen
+juror*innen und Experten, gebildet, welche sich in die ihnen zugewie-      Würdigung verfasst.
+senen Projekte vertieften. Der Schwerpunkt lag dabei auf den städte-
+baulichen Kriterien. Danach stellten die Gruppensprecher*innen die         Am 3. Jurytag – dem 8. Mai 2018 – durften wiederum über 20 angemel-
+von ihnen begutachteten Projekte dem gesamten Preisgericht vor, ohne       dete Gäste begrüsst werden. Insgesamt schrieben sich für die vier
+dabei bereits Wertungen vorzunehmen. Nach Abschluss dieser detail-         Juryhalbtage (24. April und 8. Mai) über 80 Gäste zur halböffentlichen
+lierten Vorstellungsrunde verfügten alle Juror*innen und Experten zu       Jurierung ein, was vom Preisgericht und den veranstaltenden Genos-
+allen Entwürfen über den gleichen Wissensstand.                            senschaften sehr geschätzt wurde.
+                                                                           Im Verlaufe des Nachmittags musste der Fachjuror Lorenzo Giuliani die
+Nach der Mittagspause wurde anhand der Modelle und der Modellein-          Jurierung wegen einer Auslandreise verlassen. Seinen Platz nahm Er-
+sätze eine eingehende Debatte über die Verdichtung geführt. Dabei          satzjuror und Experte Alex Willener für den Rest der Jurierung ein.
+stellte sich heraus, dass die Erhöhung der Überbauungsziffer (> 0,46)
+zu keinem adäquaten Mehrwert führt, weshalb die Vorschläge mit den         Nach dem Vorlesen der dreizehn Projektbeschriebe wurden die Ge-
+ÜZ-Erhöhungen in den weiteren Beurteilungen nur marginales Gewicht         bäudetypologien gewürdigt und der vergleichenden Kritik unterzogen.
+haben sollten.                                                             Begleitend dazu wurden die Vorstellungen und Ansprüche der fünf Ge-
+                                                                           nossenschaften an die Bebauung und an die Wohnungen erörtert und
+16   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+     auf deren Umsetzbarkeit in den einzelnen Projekten untersucht. Ebenso         1. Preis Projekt Nr. 09   mon oncle			                    CHF 14‘000
+     erläuterte man die Kriterien der sozialen Nachhaltigkeit in vielfältiger      2. Preis Projekt Nr. 06   KABINETT MIT SECHS HÄUSERN      CHF 13‘000
+     Weise und wandte sie auf die Projekte an. Ausserdem wurde beurteilt,          3. Preis Projekt Nr. 08   LUDOVILLE			                    CHF 11‘000
+     welche Typologien das Potential zum «Implementieren» in ein noch              4. Preis Projekt Nr. 05   INDU				                        CHF 8‘000
+     auszuwählendes, übergeordnetes Bebauungskonzept gewährleisten.                5. Preis Projekt Nr. 13   Zweiter Frühling			             CHF 7‘000
+     Anhand dieser recht anspruchsvollen Gesamtbewertung und nach drei
+     Rundgängen (1. Rundgang: Nr. 02, 04, 11, 12 / 2. Rundgang: Nr. 01, 07, 10 /   Schülerprojekt «KinderPlanenStadt»			 CHF 1‘000
+     3. Rundgang: Nr. 03, 06, 13) gelangten die Typologien der Projekte Nr. 05,    (zweckgebunden)					inkl. MwSt
+     Nr. 08 und Nr. 09 in die engere Wahl.
+                                                                                   Danach wurde eine einlässliche Diskussion über die Preise für den Be-
+     Danach wurde ein kombinierter Kontrollrundgang durchgeführt, in wel-          reich «Gebäudetypologie» geführt. Walter Graf, welcher das gesamte
+     chem sowohl die städtebaulichen als auch die gebäudetypologischen             Verfahren moderierte, schlug vor, hierfür keine eigentliche Rangfolge
+     Aspekte nochmals besprochen wurden. Dabei diskutierte man im Städ-            festzulegen, sondern die drei Projekte mit den Gebäudetypologien in
+     tebau im Sinne einer Wiedererwägung nochmals Konzepte durch, die              der engeren Wahl als «ausgewählt» zu bezeichnen und jedem der drei
+     nicht mit einzelnen Häusern operierten und kam zum Schluss, die Pro-          Projekte die gleiche Preissumme zuzuerkennen. Diesem Antrag wurde
+     jekte Nr. 08 und 13 wegen ihrem qualitätsvollen Beitrag zum genossen-         einstimmig stattgegeben, was zu folgendem Resultat führte:
+     schaftlichem Wohnungsbau in die engere Wahl miteinzubeziehen.
+              In einer abschliessenden Runde unter direktem Vergleich der          Projekt Nr. 05		INDU				CHF 12‘000
+     verbliebenen Projekte entschied man sich dafür, im Städtebau fünf anstatt     Projekt Nr. 08		 LUDOVILLE			 CHF 12‘000
+     die im Wettbewerbsprogramm in Aussicht gestellten vier Preise zu ver-         Projekt Nr. 09		 mon oncle			 CHF 12‘000
+     geben. Somit verblieben zur Preisverteilung die Projekte Nr. 05, 06, 08, 09   							inkl. MwSt
+     und 13.
+              Nach der Schlussrunde beschloss das Preisgericht einstimmig,         Alle drei Projekte wurden somit für die Weiterbearbeitung ausgewählt,
+     vom verfügbaren Preisgeld von CHF 220‘000 (inkl. MwSt) allen 13 Teil-         wobei ca. 2/6 des Volumens dem Projekt Nr. 05, ca. 2/6 des Volumens
+     nehmern je CHF 10‘000 (inkl. MwSt) als Entschädigung auszurichten, so-        dem Projekt Nr. 09 und ca. 1/6 des Volumens dem Projekt Nr. 08 zuge-
+     wie CHF 36‘000 für die Gebäudetypologie und CHF 54‘000 für die Preis-         schlagen wurden. Ca. 1/6 des Volumens verblieb so für die Arrondierung
+     erteilung im Städtebau zu reservieren.                                        der zugewiesenen Volumen.
+              Anschliessend wurden die Rangfolge und die Preise für den Be-
+     reich Städtebau wie folgt bestimmt:
+B | TEAMS UND WÜRDIGUNG                                                                                        17
+
+
+
+
+Nach der Preiszuteilung wurden die Unterschriften der stimmberech-        11   Genehmigung des Preisgerichts
+tigten Juror*innen geleistet. Ebenso bedankte man sich bei den Gästen
+der halböffentlichen Jurierung für deren Interesse.
+
+Abschliessend schritt die Jury zur Öffnung der Verfasser-Couverts.
+Nach Abschluss des Jurytages bedankten sich Harry van der Meijs und
+Walter Graf herzlich
+
+•   bei den Mitgliedern des Preisgerichtes,
+•   bei den Experten,
+•   bei Cla Büchi, Edina Kurjakovic, Nora Haupt und Karin Portmann,
+•   bei den fünf Vorständen der Genossenschaften,
+•   bei den Damen und Herren der Vorprüfung,
+•   und vor allem auch bei den Verfasser*innen der 13 Entwürfe, die
+    mit ihrem grossen Einsatz und ihrer professionellen Arbeit die Aus-
+    einandersetzung mit den vielfältigen Ansprüchen an den genos-
+    senschaftlichen Wohnungsbau erst möglich gemacht hatten.
+18   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+     12      Projektverfassende
+
+     01      AMALIE					                             Sergison Bates Architekten GmbH, Zürich
+
+     02      BUNTES AREAL				                        Lacaton & Vassal Architectes, Paris
+
+     03      COLLAGE VILLAGE			                      Armon Semadeni Architekten GmbH, Zürich
+
+     04      DIE INDUSTRIESTRASSEN		                 DEON AG, Luzern
+
+     05 INDU					 ro.ma. architekten röösli-maeder GmbH, Luzern
+     						4. Preis Städtebau / Aussenraum sowie Auswahl Gebäudetypologie
+
+     06 KABINETT MIT SECHS HÄUSERN		 EDELAAR MOSAYEBI INDERBITZIN | Architekten AG, Zürich
+     						2. Preis Städtebau / Aussenraum
+
+     07      La Bussola				                          Adrian Streich Architekten AG, Zürich
+
+     08 LUDOVILLE				 toblergmür Architekten GmbH, Zürich/Luzern
+     						3. Preis Städtebau / Aussenraum sowie Auswahl Gebäudetypologie
+
+     09 mon oncle				 Rolf Mühlethaler Architekt BSA SIA, Bern mit Christoph mit Schläppi, Architekturhistoriker, Bern
+     						1. Preis Städtebau / Aussenraum (mit einstimmiger Empfehlung zur Weiterbearbeitung)
+     						sowie Auswahl Gebäudetypologie
+
+     10      PHOENIX				                             Schneider Studer Primas GmbH, Zürich
+
+     11      ROSA UND KARL				                       Manetsch Meyer Architekten AG, Zürich
+
+     12      WO IST WALTER				                       :mlzd, Biel
+
+     13 Zweiter Frühling				 ahaa GmbH, Luzern
+     						5. Preis Städtebau / Aussenraum
+C | SOZIALE NACHHALTIGKEIT                                                                                                                                19
+
+
+
+
+C | SOZIALE NACHHALTIGKEIT
+Mitwirkung ist ein wichtiger Bestandteil des nachhaltigen Bauens, wes-        weise, durch eine glaubhafte Wertschätzung der Partizipation der jet-
+halb sich die Kooperation für verschiedene Partizipationskanäle in der        zigen und künftigen Mieter*innen und durch ausführliche politisch und
+Planung wie auch im Betrieb ausspricht.                                       soziale Überlegungen zum Wohnen und Arbeiten in der heutigen Gesell-
+                                                                              schaft. Bereits im Modell lässt sich ein stimmiges Miteinander von Ge-
+                                                                              bäuden und Nutzungen erkennen.
+13      IG Industriestrasse                                                            Mühletalers Projekt «mon oncle» lässt im Vergleich mit fast al-
+                                                                              len Projekten überdurschnittlich viele Altbauten bestehen, was als wirk-
+Die IG Industriestrasse (IGI) hat 2012 die Initiative «Ja zu einer lebendi-   liches Bedürfnis zu erkennen ist, und nicht bloss als die Erfüllung einer
+gen Industriestrasse» gewonnen und damit überhaupt erst die Grund-            Aufgabe. Es ist ein mutiges Projekt, welches hoffen lässt, dass ein Mit-
+lage für den laufenden Projektwettbewerb geschaffen. Seitdem sieht            einander von alt und neu wirklich realisierbar ist – als ein heterogenes
+sie sich als Hüterin der in der Initiative aufgeführten Forderungen, etwa     Ganzes, und nicht bloss in zwei verschiedenen Parallelwelten.
+dem bezahlbaren Wohn-, Gewerbe- und Kulturraum, der Beibehaltung                       In diesem Sinne freut sich die IG Industrietrasse auf den wei-
+der jetztigen Nutzer*innen, dem Identitätserhalt und Diversität. In den       teren Prozess und ist überzeugt, dass die bestmöglichen Grundvor-
+vergangenen 6 Jahren hat sich die IGI gegen Verwässerung dieser For-          aussetzungen geschaffen wurden, um die Versprechen gegenüber der
+derungen eingesetzt und dabei oft genug gefürchtet, ihre Anliegen wür-        Stimmbevölkerung erhalten.
+den im weiteren Verlauf des Prozesses untergehen.
+
+Um so mehr freut sich die IGI nun über die Wahl des Preisgerichts, und
+ist überzeugt, dass im Sinne der Initiative das richtige Projekt gewonnen
+hat. Die Zusammenarbeit im Preisgericht war sehr konstruktiv. Nach
+ausführlichen Diskussionen fiel die Auswahl einstimmig auf das Sieger-
+projekte «mon oncle».
+         Die 13 eingereichten Projekte bieten eine grosse Vielfalt an Ide-
+en, wie die Zukunft der Industriestrasse aussehen könnte. Viele davon
+lassen eine sehr differenzierte Auseinandersetzung mit der jetzigen
+Situation erkennen und zeigen äusserst spannende Möglichkeit einer
+Weiterentwicklung des Areals auf.
+
+Ein Projekt ist dabei herausgestochen, auch weil es die Grenzen zwi-
+schen Neubauten und Bestandsbauten richtiggehend zu verwischen
+weiss. Das ausgewählte Projekt von Rolf Mühletaler überzeugt durch
+eine grosse Feinfühligkeit im Umgang mit der bestehenden Situation,
+durch eine überzeugende Umsetzung der geforderten etappierten Bau-
+20   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+     14      KinderPlanenStadt
+
+     Die Kooperation Industriestrasse Luzern hat parallel zum Architektur-
+     wettbewerb eine Schulklasse eingeladen, ihre Sicht auf die Entwicklung
+     des Areals Industriestrasse Luzern darzulegen. Achtzehn Schüler*in-
+     nen befassten sich von Januar bis April intensiv mit dem Thema Städ-
+     tebau/Architektur und setzten ihre Ideen in Zeichnungen und Modellen
+     um. Die Teilnahme der Schulklasse am Planungswettbewerb ermöglich-
+     te den Kindern, ihre Sichtweise auf die Gestaltung der Stadt Luzern und
+     im Speziellen auf das Areal Industriestrasse darzulegen und Kompeten-
+     zen in der Architektur sowie in der Stadtplanung zu erlangen. Gleichzei-
+     tig wurden die Bedürfnisse der Kinder bereits im Planungsprozess des
+     Projekts aufgenommen. Das Projekt «KinderPlanenStadt» war Initial-
+     projekt für eine Reihe von verschiedenen Prozessschritten.
+
+     Kindergerechte Planung und Umsetzung
+     Die Planung und die Umsetzung des Projekts «KinderPlanenStadt»
+     konnte die Kooperation in Zusammenarbeit mit der Quartierarbeit der
+     Stadt Luzern realisieren. Gemeinsam wurden ca. 50 Schullektionen ge-
+     plant und durchgeführt. In fünf Phasen wurden die Schüler*innen an
+     das Thema und die Wettbewerbsaufgabe herangeführt:
+     — Phase 1: Wahrnehmung sensibilisieren
+     — Phase 2: Quartier und Areal Industriestrasse erfahren
+     — Phase 3: Einstieg in die Aufgabe und Erarbeitung erster Ideen
+     — Phase 4: Projektarbeit
+     — Phase 5: Rück- und Ausblick sowie Analyse
+
+     Vorstellung und Würdigung Preisgericht
+     Das Preisgericht hat die Schulklasse während der Jurierung empfan-
+     gen und sich ihre Lösungsansätze angesehen und erläutern lassen. Das
+     Preisgericht hat den Einsatz und die Auseinandersetzung mit der The-
+     matik sehr geschätzt. Die Vorstellung der Idee war sehr überzeugend.
+     Mit ihrem Projekt haben die Schüler*innen einen städtebaulichen Bei-
+     trag geleistet, weswegen das Projekt von dem Preisgericht einen Spe-
+     zialpreis erhalten hat.
+C | SOZIALE NACHHALTIGKEIT                                                  21
+
+
+
+
+15      Halböffentliche Jurierung
+Die Jurierung der 2. Stufe des Projektwettbewerbs wurde halböffentlich
+durchgeführt. Damit eröffnete sich Interessierten die Gelegenheit, die
+Entscheidungsfindung des Preisgerichts mitvollziehen zu können. Um
+die Qualitäten eines ausgewählten städtebaulichen Konzepts und von
+Gebäudetypologien erfassen zu können, hilft es, die Argumente zu ken-
+nen, die zur Auswahl bestimmter Lösungsvorschläge geführt haben.
+
+Aussagen der Teilnehmenden
+M.Ch., Horw: «Der stumme Zuschauer war beeindruckt von der atmo-
+sphärisch dichten Auseinandersetzung mit Ort, Projekt und Wünschen -
+«mon oncle» transferiert diese Stimmung bestens. Eine sehr gute Art, In-
+teressierten bei dieser Art von Aufgabestellungen Einblick zu gewähren.»
+
+Ch.K., Zürich: «Bei dieser Jurierung dabei gewesen zu sein, war ein Er-
+lebnis. Mir hat besonders die geradezu demonstrative Sorgfalt und Dis-
+ziplin im Prüfen der Eingaben grossen Eindruck gemacht. Die Jury bilde-
+te die verschiedensten, sich ergänzenden Kompetenzen ab, man erwog
+mit Bedacht die Argumente und hörte einander zu. Ich bin der Meinung,
+dass solche öffentlichen Jurierungen eine wertvolle Möglichkeit sind,
+um Einblick zu bekommen in diese Prozesse, die uns als gebaute Umge-
+bung letztlich alle betreffen.(...)»
+
+D.S., Luzern: «Ich empfand die Jurierung als sehr angenehm. Es wurde
+gut informiert, wie wir uns zu verhalten hatten. Es war interessant, dass
+wir auf die Rundgänge mit konnten. Teilweise hat man die Juroren nicht
+ganz verstanden. Ich fühlte mich wie ein Teil von der ganzen Jury.»
+
+P.H., Ruswil: «Die Jury hat eine höchst intensive, herausfordernde und
+aufwendige Arbeit zu erfüllen. Auch Projekte die nicht mehr zu den Fa-
+voriten zählten, sind bei beiden Jurierungsthemen ebenso eingehend
+und kritisch behandelt worden. Als Aussenstehender unter Jurymitglie-
+dern eine kompetente Juryarbeit mitverfolgen zu können, habe ich nicht
+erwartet.»
+22   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+C | SOZIALE NACHHALTIGKEIT   23
+24
+
+
+
+
+     Der Grundstein, initiert von der Bauhütte Industriestrasse 2017.
+     Weiter in Bearbeitung während der öffentlichen Ausstellung des Architekturwettbewerbs, und danach öffentlich zugänglich auf dem Eisenplatz bis Baubeginn.
+C | SOZIALE NACHHALTIGKEIT                                                 25
+
+
+
+
+16         Kunst baut mit
+Ein Beitrag des Kollektivs
+Bauhütte Industriestrasse.
+
+
+
+Das Gefäss «Industriestrasse» hat während den vergangenen sieben
+Jahren das Ergebnis des 2011 stattgefundenen «Investorenwettbewerbs
+Entwicklungsschwerpunkt Industriestrasse» zu den drei Siegerprojek-
+ten vergärt. Uns scheint diese Verstoffwechslung sehr gelungen. Das
+autopoetische1 Potential dieses Gefässes hat seine Wirkung eindrück-
+lich entfaltet.
+
+Was wird nun mit den Siegerprojekten innerhalb dieses Gefässes ge-
+schehen? Mehr Zutaten und Akteur*innen mischen sich dazu und das
+Ganze wird weiter wachsen.
+
+Wir von der «Bauhütte Industriestrasse / Kunst baut mit» werden uns
+weiter in diesen Prozess einmischen – mit Fragen, mit Freude, mit Kunst
+— und mit dem Wunsch, dass am Schluss eine Siedlung entsteht, wel-
+che als Gefäss selber eine soziale Fermentation ermöglicht.
+
+
+
+
+1
+    Autopoesis: Prozess der Selbsterschaffung & Erhaltung eines Systems.
+26   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+     D | DOKUMENTATION PROJEKTWETTBEWERB
+     RANGIERTE PROJEKTE						
+
+
+     09      mon oncle						 27
+
+     06      KABINETT MIT SECHS HÄUSERN				                            37
+
+     08      LUDOVILLE						 47
+
+     05      INDU							 57
+
+     13      ZWEITER FRÜHLING					 67
+
+
+
+     NICHT RANGIERTE PROJEKTE					
+     				
+     01      AMALIE							 77
+
+     02      BUNTES AREAL						 83
+
+     03      COLLAGE VILLAGE					 89
+
+     04      DIE INDUSTRIESTRASSEN				 97
+
+     07      La Bussola						 103
+
+     10      PHOENIX						109
+
+     11      ROSA UND KARL						 117
+
+     12      WO IST WALTER						125
+D | DOKUMENTATION PROJEKTWETTBEWERB                                                                27
+
+
+
+
+09 | mon oncle                                   Rolf Mühlethaler Architekt BSA SIA, Bern
+                                                 Christoph Schläppi, Architekturhistoriker, Bern
+
+
+
+1. Preis Städtebau / Aussenraum (mit einstimmiger Empfehlung zur Weiterbearbeitung)
+sowie Auswahl Gebäudetypologie
+
+
+
+
+Modell Grundkonzept                              Modell Variante höhere ÜZ
+28   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+     Mitarbeiter*innen
+     Florian Baumgartner
+     Linus Ernst
+     Maria Freimann
+     Alex Ramseier
+     Sandra Stein
+     Julie Studer
+     Selin Trachsler
+
+     Bauingenieur:
+     Schnetzer Puskas Ingenieure AG, Basel
+D | DOKUMENTATION PROJEKTWETTBEWERB                                         09 | mon oncle                                                            29
+
+
+
+
+Würdigung
+
+Diverse kleinere und grössere Neubauten bilden zusammen mit den             Das mit Gassen und Plätzen durchwobene Erdgeschoss wird mit öffent-
+Bestandesbauten des ganzen strassenumfriedeten Schildes ein fein-           lichen und halböffentlichen Nutzungen bespielt. Neben diversem Klein-
+gliedriges und kleinkörniges Gesamtbild, welches die industrielle Ver-      gewerbe, Gastrobereich, Kita und Kindergarten finden sich auch Kol-
+gangenheit des Areals mit einbezieht und dadurch eine hohe Identität        lektivräume für die Bewohner*innen (wie z. B. Waschräume) und eine
+im Quartier erzeugt. Die schachbrettartige Anordnung, kombiniert mit        Vielzahl von Flächen, welche in der Nutzung und Bespielung noch durch
+leichten Versätzen und Rücksprüngen, generiert eine abwechslungsrei-        die Bewohner*innen anzueignen sind.
+che Freiraumstruktur aus Gassen, Plätzen und Gartenhöfen. Durch das
+Spiel mit unterschiedlichen Geschossigkeiten und Dachformen wirkt die       Innerhalb der Baustruktur mit ihren Konstanten aus Stützen, aussteifen-
+Freiraumstruktur sehr offen, hell und durchlässig. Die Durchlässigkeit in   den Kernen und Schächten offenbart sich eine Vielfalt von Wohnungs-
+Ost-West und in Nord-Süd-Richtung ist über mehrere Zu- und Ausgänge         grundrissen. Sie zeichnen sich durch die Möglichkeit aus, verschie-
+auf die öffentlichen Strassenräume gewährleistet. Es entsteht ein dich-     denen Wohnformen und Wohnungsgrössen – von der Molekular- und
+tes öffentliches und halb-öffentliches Wegnetz durch den neuen Quar-        Familienwohnung zur Klein- oder Clusterwohnung – zu ermöglichen.
+tierteil. Alle Aussenräume, inklusive den Dachgärten, sind öffentlich       Diese räumliche Flexibilität ist eine grosse Stärke des Projektes und
+zugänglich und stehen als aneignungsbare Räume zur Verfügung. Dies          geht es auf die vielfältigen Bedürfnisse der künftigen Bewohner*innen
+gilt auch für die breiten Vorzonenbereiche entlang den Strassenräumen:      ein.
+Sie dienen gleichermassen zur Parkierung, als Entsorgungseinrichtung,
+Veloabstellplätzen und Gewerbevorzonen.                                     Die Raumdiversität ist eingebettet in eine klare Tragkonstruktion aus
+                                                                            Rahmenholzbau resp. Holz-Skeletbau und Holz-Beton-Verbunddecken,
+Der Vorschlag besticht durch die erzeugte öffentliche Freiraumqualität      welche sich sichtbar und logisch abzeichnet. Das Raster zieht sich sau-
+mit hoher Identität; ein Patchwork aus Bestehendem und Neuem, aus           ber durch die Geschosse; Balkone und Loggien liegen übereinander.
+verschiedenen Nutzungen und abwechslungsreichen Raumabfolgen.               Dadurch ist ein vorfabrizierter Holzbau möglich, wenn auch die Planung
+Die Kleinräumigkeit bietet hier die Chance, die Nachbarbauten gekonnt       mit regelmässigeren Spannweiten zu prüfen ist. Die Gebäudeabstände
+einzubinden und wirkt stimmig in der umliegenden Quartierstruktur.          sind für brennbare Fassaden in diversen Bereichen zu klein und müssen
+         Bewusst werden diverse Bestandesbauten wie das Käselager,          überarbeitet werden.
+der Rossstall und die Industriestrasse 15 langfristig und die Porzel-
+lanfabrik Industriestrasse 17 mittelfristig erhalten. Damit geschieht die   Die Projektverfasser schlagen eine dreistufige Etappierbarkeit vor. Da-
+Transformation des Areals schrittweise und integriert die Neubaustruk-      bei kann mit der Etappe 0 geprüft werden, ob die Porzellanmanufaktur
+tur feinfühlig. Die Überbauung schafft damit eine grosse Identifizierung    mit seiner Zwischennutzung noch erhalten bleiben kann. In der Etappe
+mit dem Ort und der Nachbarschaft.                                          1 werden die Unterstände der Industriestrasse 15 und beide ostseitige
+         An diversen Ecken gibt es jedoch Unterabstände zu den Nach-        Hallen an der Geissensteinring und in der Etappe 2 das Eckgebäude mit
+bargrundstücken. Diese müssen bereinigt werden. Das Preisgericht            der Porzellanfabrik an der Industriestrasse 17 zurückgebaut und durch
+erachtet diese Verstösse aber als korrigierbar, ohne die städtebauliche     Neubauten ersetzt. Zu jeder Bauzeit wirkt das Ensemble stimmig.
+Stärke des Projektes zu mindern.
+30   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+     Bezüglich Nachhaltigkeit, Grauer Energie, innovativem Energieerzeu-       Soziale Nachhaltigkeit
+     gungssystem und Stadtklima wird das Projekt als gut eingestuft. Jedoch
+     weist es einen hohen Flächenverbrauch pro Person und eine mässige
+     Flächeneffizienz aus. Grundsätzlich hat das Projekt Entwicklungspo-       Das Projekt erfüllt in hohem Mass die Anforderungen bezüglich sozialer
+     tential in den vorhandenen Low-Tech Ansätzen eingestuft.                  Nachhaltigkeit. Punkto Identität und Atmosphäre kommt das Projekt mit
+                                                                               eigenständigen Ideen der Weiterentwicklung der heutigen Situation sehr
+     Bereits bei der städtebaulichen Grundvariante streben die Projektver-     nahe – die Wertschätzung des Bestehenden ist spürbar. Das Rauman-
+     fasser auf Erdgeschossniveau eine höhere Dichte als 0.46 an, allerdings   gebot ist sehr differenziert und ermöglicht Wohnen für unterschiedliche
+     ohne die effektive Ausnützung über das baurechtliche Mass hinaus zu       Haushaltsformen und Lebensstile. Durchlässigkeit und Durchwegung
+     überschreiten. Dies ermöglicht eine mehrstufige Staffelung der Gebäu-     zum Quartier sind sehr gut gelöst und für das Nachbarschaftsleben
+     de und die angemessene Wertschätzung des Vorhandenen. Die zwei-           steht ein breites Angebot an Betätigungs- und Begegnungsmöglichkei-
+     te städtebauliche Variante erreicht die höhere Dichte ausschliesslich     ten zur Verfügung. Zwangsläufig sind die einzelnen Räume und Plätze
+     durch Erhöhung der Neubauten. Diese Variante erkundigt die Grenzen        eher klein – deren Gestaltung lässt jedoch bewusst Raum für Partizi-
+     der Verdichtung, geschieht jedoch auf Kosten der Belichtung, Bestan-      pation und Aneignung. Verschiedenartige Gemeinschaftsräume wie
+     desbauten und Qualität der Aussenräume. Das Preisgericht empfiehlt,       Waschküchen oder Gewächshäuser ermöglichen nachbarschaftliche
+     diese Variante nicht weiter zu verfolgen.                                 Aktivitäten. Die Raumabfolge im Erdgeschoss ist ausserordentlich dy-
+                                                                               namisch und für die unterschiedlichsten Nutzungen attraktiv. Sowohl
+     Den Architekten Mühlethaler und Schläppi ist ein mutiges und gleich-      im Gewerbe- als auch im Wohnbereich wird räumliche Flexibilität gross
+     zeitig poetisches Meisterstück gelungen. Das Projekt zeugt von einer      geschrieben, was Veränderungen jederzeit zulässt. Das Projekt be-
+     intensiven Auseinandersetzung mit der anspruchsvollen Aufgabenstel-       sticht darüber hinaus durch eigenständige Planungsinstrumente, die
+     lung. Dies zieht sich als roter Faden von der stimmigen städtebaulichen   für die geplante Dialogphase von Bedeutung sein können. Alles in allem
+     Setzung bis in die Grundrissplanung der einzelnen Bauvolumen durch.       fällt das Projekt aus sozialer Sicht sehr überzeugend aus.
+     Überzeugend wirken der feinfühlige Umgang mit Aussenräumen und
+     Bestandessubstanzen. Die gut gewählte Massstäblichkeit der Über-
+     bauung, der rücksichtsvolle Umgang mit dem Bestand, die gekonnte
+     Durchwegung des Areals in alle Richtungen sowie die vielfältig gestal-
+     teten Aussenräume erfüllen in hohem Masse die Anforderungen an die
+     künftige Arealüberbauung. Es wird ein stimmungsvolles, neues Ganzes
+     geschaffen. Der Gedanke der Gemeinschaftlichkeit scheint hier reali-
+     sierbar zu sein, ohne dem/der einzelnen Bewohner*in diesen Gedanken
+     aufzwingen zu wollen.
+31
+32
+33
+34
+35
+36
+D | DOKUMENTATION PROJEKTWETTBEWERB                                             37
+
+
+
+
+06 | KABINETT MIT SECHS HÄUSERN                  EDELAAR MOSAYEBI INDERBITZIN
+			                                              Architekten AG, Zürich
+			                                              Ron Edelaar
+			                                              Elli Mosayebi
+			                                              Christian Inderbitzin
+
+2. Preis Städtebau / Aussenraum
+
+
+
+
+Modell Grundkonzept                   Modell Variante höhere ÜZ
+38   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+     Mitarbeiter*innen
+     Ron Edelaar
+     Elli Mosayebi
+     Christian Inderbitzin
+     Lukas Burkhart
+     Philippe Buchs
+     Sven Fawer
+     Flavio Nef
+
+     Landschaftsarchitekten:
+     Ganz Landschaftsarchitekten GmbH, Zürich
+     Daniel Ganz
+     Christian Bärlocher
+
+     Holzbauingenieur:
+     Walter Bieler AG
+     Walter Bieler
+
+     Bauphysiker:
+     BWS Labor AG
+     Christoph Keller
+
+     Statik + HLS:
+     EBP Schweiz AG
+     Thomas Espinosa
+D | DOKUMENTATION PROJEKTWETTBEWERB                                          06 | Kabinett mit sechs Häusern                                            39
+
+
+
+
+Würdigung
+Das Projekt sieht auf diesem Platz eine «Versammlung» von sechs indi-        Jede Genossenschaft erhält ihr eigenes Haus. Dieses «Andere» wird
+viduellen Häusern vor, die eine zusammengehörige, informell verbunde-        zelebriert, auch im Innern. Die Palette reicht von allseitig aneinander-
+ne Gruppe bilden.                                                            gereihten, zellenartigen Raumstrukturen bis zur dreischiffigen, längs-
+         Die Solitäre haben differenzierte Körnungen: breit und schmal,      gerichteten Grundrissform. Durch diese Prinzipien ergeben sich unter-
+kurz und lang und von unterschiedlichen Höhen. Die Dachformen betei-         schiedliche Wohngrundrisse. Das Verbindende dieser Typologien ist die
+ligen sich an diesem Spiel, sie stärken es. Die Individualität wirkt nicht   Stapelung. Konsequent wird die konstruktive Logik aus Stäben, Platten
+beliebig, im Gegenteil: jedes Haus hat eine eigene Autonomie und bringt      oder Raumkörper umgesetzt. Die Konstruktion bestimmt die Raumfol-
+seine Identität zum Ausdruck. Eine alte Weisheit sagt: Nur ein eigen-        gen. Oftmals sind diese etwas kleinteilig und sperrig. Das Wechselspiel
+ständiges Gegenüber ermöglicht Beziehungen. Durch das Vokabular              zwischen konstruktiver Logik und Raumform wäre noch auszuloten.
+der Körpersprachen werden die bestehenden Häuser – die ebenfalls in-
+dividuell geformt sind – in ein Ganzes integriert. Das Quartier überzeugt.   Vorbehalte gibt es bei den Brettstapel- und den Balkenkonstruktionen.
+                                                                             Die sich auf dieser Höhe ergebenden Setzmasse sind nicht zu unter-
+Die Baukörper sind so gesetzt, dass eine durchlässige Freiraumstruktur       schätzen. Der Holzbau prägt die Innenräume und schafft eine ausser-
+sowohl in Nord-Süd- wie auch in Nord-West-Richtung entsteht. Die un-         gewöhnliche Atmosphäre. Der Ausdruck der gewählten Konstruktionen
+terschiedlichen Volumen sind fein zueinander abgestimmt. Grosszügige         und die Haptik des Materials lassen eine für städtische Verhältnisse
+Öffnungen oder gar vorplatzartige Rücksprünge verweben die innenlie-         verlorene Welt wieder aufleben.
+genden Aussenräume mit dem öffentlichen Strassenraum. Das Areal ist                  Das Kabinett mit sechs Häusern bildet ein starkes Quartier in
+durchlässig und durch die zahlreichen Wegverbindungen in die Stadt           der Stadt. Eine Reduktion der reichen Palette an unterschiedlichen Kon-
+eingebettet. Diese Differenzierung von Aussenräumen bietet eine Viel-        struktionen hätte ein Mehr sein können.
+zahl von unterschiedlichen urbanen Aufenthaltsorten und ermöglicht
+besondere Anlässe. Das abwechslungsreiche Spiel aus Hartflächen und
+Grünflächen unterstützt diese Absichten. Auch die Aussenräume auf            Soziale Nachhaltigkeit
+den Dachflächen sind attraktiv.
+        Die Anlage erinnert an einen Campus und erscheint zugleich           Das Projekt erfüllt aus sozialer Sicht zahlreiche Anforderungen. Der
+als Ensemble. Im Ensemble gibt es mehrere Entitäten, die zueinander          Aussenraum umfasst verschiedenartige Platz- und Hofsituationen mit
+in Beziehung stehen. Solche Entitäten sind nicht von stummer Art. Im         unterschiedlichen Qualitäten und Interaktionsmöglichkeiten. Die Zu-
+Kabinett sind es die bespielbaren Aussenräume, aber auch die Pflanzen,       ordnung dreier zentraler Hofräume als Quartierhof, Spielhof und Bei-
+die Bäume und die dort lebenden Kleintiere. Ensembles sind in sich ab-       zenhof erscheinen zweckmässig für halböffentliche und öffentliche
+geschlossen, ohne sich von anderen Ensembles abzugrenzen.                    Nutzungen. Die Aussenräume sind gut miteinander vernetzt und für das
+        Das Kabinett mit den sechs Häusern überzeugt. Eine weitere           Quartier durchlässig. Die einzelnen Baukörper unterscheiden sich von-
+Staffelung der Geschossigkeit zum ehemaligen Käselager würde die             einander und sind durchdacht auf die einzelnen Genossenschaften zu-
+Gesamtanlage noch homogener machen.                                          geschnitten. Begegnungsfördernde Elemtente sind auch im Hausinnern
+                                                                             enthalten, so etwa das Atrium als gemeinschaftlicher Erschliessungs-
+                                                                             und Begegnungsraum im abl-Haus.
+40   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+     Die Wohnungsgrundrisse sind vielfältig und bieten Raum für unter-
+     schiedliche Lebensstile und Wohnformen. Zur Nutzungsflexibilität – eine
+     Gemeinsamkeit aller Häuser – sind interessante Überlegungen ange-
+     stellt worden.
+
+     Der Erhalt und die Würdigung des Käselagers sind gut gelöst, auch wenn
+     einzelne Baukörper im Verhältnis zu wuchtig erscheinen. Die Erdge-
+     schosssituation ist wenig überzeugend gelöst – dass ausgerechnet an
+     der urbansten und lärmigsten Ecke des Areals Abstandsgrün gepflanzt
+     und bis ins Erdgeschoss gewohnt werden soll, ist nicht verständlich.
+41
+42
+43
+44
+45
+46
+D | DOKUMENTATION PROJEKTWETTBEWERB                                                  47
+
+
+
+
+08 | LUDOVILLE                        toblergmür Architekten GmbH, Zürich / Luzern
+                                      Gabriel Gmür
+                                      Samuel Tobler
+
+
+3. Preis Städtebau / Aussenraum
+sowie Auswahl Gebäudetypologie
+
+
+
+
+Modell Grundkonzept                   Modell Variante höhere ÜZ
+48   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+     Mitarbeiter*innen
+     Gabriel Gmür
+     Samuel Tobler
+
+     Landschaftsarchitekten:
+     LINEA landscape architecture, Zürich
+
+     Bauingenieur:
+     Büro Thomas Boyle + Partner AG, Zürich
+
+     Nachhaltigkeit / Energie:
+     Preisig Pfäffli, Zürich
+D | DOKUMENTATION PROJEKTWETTBEWERB                                      08 | LUDOVILLE                                                              49
+
+
+
+
+Würdigung
+
+In gebührendem Abstand zu den Bestandesbauten umschliessen vier          Die im Innenhof liegende Erschliessung mit den hofseitigen Laubengän-
+Zeilenbauten windmühleartig einen zentralen Innenhof. Die Erschlies-     gen ist eine komplett vom Wohnbau getrennte Stahlbetonkonstruktion.
+sung aller Wohnungen erfolgt über einen zentral im Innenhof gelegenen    Befreit von sämtlichen Erschliessungen und Entfluchtungen ermöglicht
+Treppenturm, der durch gemeinsame Nutzungen auf allen Geschossen         dies eine reine Holzkonstruktion für die vier Wohnbauten. Lediglich Erd-
+in Form von Laubengängen und zentral gelegenen Gemeinschaftsräu-         und Untergeschosse sind in Stahlbeton geplant. Diese vorgeschlage-
+men belebt wird.                                                         ne Konstruktionsart ist sauber durchdacht und ermöglicht einen wirt-
+         Im Übergang zu den Wohnungszugängen weiten sich die Lau-        schaftlichen und gut vorfabrizierbaren Holzbau.
+bengänge zu privaten Vorplätzen aus. Im Erdgeschoss wird folgerichtig
+eine grosszügige Veloparkieranlage angeordnet. Diese Hoffigur mag mit    Das Projekt «Ludoville» schafft mit seiner Hoffigur und der zentralen Er-
+dem gemeinschaftlichen Grundgedanken, der den Innenhof prägt, zu         schliessung und klaren Tragkonstruktionen einen Ort mit grosser Identi-
+überzeugen. Leider wirkt der Gemeinschaftsgedanke durch mangeln-         tät. Die entstehenden Aussen- und Zwischenräume wirken wohl propor-
+des Alternativangebot ein wenig als Zwang. Aufgrund der zentralen Er-    tioniert und die Neubauten gehen rücksichtsvoll mit dem Bestand um.
+schliessungsstruktur können sich Bewohner*innen, die mal keine Lust
+auf Begegnungen haben, sich solchen kaum entziehen.                      Individualflächen einsparen und Kollektivfläche maximieren – dieser
+         Trotzdem erzeugt die introvertierte Wohnmaschine einen ho-      Grundsatz wird konsequent umgesetzt. Ob dieser Gedanke der Ge-
+hen Grad an Identität und Unverwechselbarkeit. Im Übergang zum alten     meinschaftlichkeit in Form einer Maschine für genossenschaftliches
+Käselager wird glaubwürdig ein öffentlicher Raum mit gemeinsamen         Wohnen an der heterogenen Industriestrasse der richtige Ansatz für die
+Nutzungen bespielt. Städtebaulich wirkt die geschlossene Hofform im      Kooperation Industriestrasse ist, wird jedoch bezweifelt.
+Quartier etwas fremd. Die dazugehörige öffentliche Nutzung um das
+Herzstück der Anlage, dem ehemaligen Käselager, bleibt ein Schauplatz
+am Rande.                                                                Soziale Nachhaltigkeit
+Im Erdgeschoss sind zwei, an den Gebäudeecken dreiseitig orientier-      Die Grossstruktur dieses Projekts wirkt insgesamt wenig ins Quartier
+te Gewerbe- und Kulturnutzungen vorgesehen. Das leicht abschüssige       und in die Nachbarschaft integriert. Die Aussenräume sind denn auch
+Gelände wird gekonnt mit einem Niveauversatz in den Erdgeschoss-         nur gering mit ihr verknüpft und durchlässig. Käselager und Rossstall
+räumen aufgenommen. Gemeinsam mit den grosszügigen Raum-                 werden grundsätzlich gut freigelegt und bespielt, wirken aber als von
+dimensionierungen werden spannende Innenräume erzeugt.                   der Siedlung unabhängige und ausgeschlossene Objekte. Mit dem
+        Sämtliche Wohnungen haben eine zweiseitige Ausrichtung zum       zentralen Gemeinschafts- und Erschliessungsbau bietet das Projekt
+Innenhof und Strassenraum. Öffentlichere Räume der Wohnungen - wie       einen innovativen, gemeinschaftsfördernden und identitätsstiftenden
+die Küche oder Terrassen – liegen am Laubengang, während intimere        Ansatz. Das Fehlen alternativer Erschliessungen verlängert jedoch die
+Bereiche in der Tiefe des Volumens oder stadtseitig ausgerichtet sind.   Wege und bringt einen aufgesetzten Zwang zur Gemeinschaft mit sich.
+Die umfangreiche und detaillierte Ausarbeitung verschiedener Woh-        Die Abgrenzung der privaten Aussenräume von den Laubengängen ist
+nungsgrössen und -typologien zeugen von einer vertieften Auseinan-       gut gelöst; demgegenüber bietet der Innenhof wenig Anreize und Mög-
+dersetzung mit den Bedürfnissen und Anforderungen der einzelnen Ge-      lichkeiten, sich darin aufzuhalten. Für Gewerbe und Kultur sind sowohl
+nossenschaften und künftigen Bewohner*innen.                             die flexible Gebäudestruktur als auch die Aussenräume interessant.
+50
+51
+52
+53
+54
+55
+56   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+D | DOKUMENTATION PROJEKTWETTBEWERB                                                   57
+
+
+
+
+05 | INDU                             ro.ma. architekten röösli-maeder GmbH, Luzern
+                                      Philipp Röösli
+                                      Christian Maeder
+
+
+4. Preis Städtebau / Aussenraum
+sowie Auswahl Gebäudetypologie
+
+
+
+
+Modell Grundkonzept                   Modell Variante höhere ÜZ
+58   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+     Mitarbeiter*innen
+     Philipp Röösli
+     Christian Maeder
+     Adrian Rogger
+     Lorna Fuchs
+     Ana Perucha
+     Matthias Thaler
+     Jörg Schumacher
+
+     Landschaftsarchitekten:
+     atelier tp - tijssen preller landschaftsarchitekten, Rapperswil
+     Iris Tijssen
+     Dorothee Braitmayer
+D | DOKUMENTATION PROJEKTWETTBEWERB                                        05 | INDU                                                                  59
+
+
+
+
+Würdigung
+Robust und selbstverständlich besetzen sechs Bauten unterschiedli-         Beim mittig gelegenen Atelierhaus bieten die Laubengänge durch eine
+cher Volumetrie und Typologie das Areal und bilden zusammen mit dem        Auffächerung der Fassade wertvolle Bereiche für Begegnung und indi-
+bestehenden Käselager ein Ensemble. Das schachbrettartige Verset-          viduelle Aneignung des Aussenraums an. Obschon bei den hofseitigen
+zen der Baukörper zueinander bewirkt eine gute Durchlässigkeit des         Laubengängen eine solche Differenzierung vermisst wird, sind die Kü-
+Areals und eine Abfolge sorgfältig formulierter Aussenräume.               chen und Essbereiche so zum Hof hin orientiert, dass Interaktion und
+                                                                           Kommunikation gewährleistet bleiben. Die verschiedenartigen, mehr-
+Die stimmige Komposition aus sechs Häusern bildet einen luftigen und       seitig orientierten Grundrisse der Familienwohnungen zeichnen sich
+lichtdurchfluteten Freiraum, der in Ost–West–Richtung wie auch in          durch eine hohe Wohnqualität, durch eine sorgfältige Trennung von
+Nord–Süd–Richtung überzeugend mit den öffentlichen Strassenräumen          Tages– und Nachtzonen sowie durch räumlich gegliederte, zusammen-
+verbunden ist. Es entsteht ein vielfältiges Angebot an unterschiedlichen   hängende Wohn– und Essbereiche aus. Das nördlich gelegene Haus
+Plätzen und durchgrünten Höfen. Die Neubauten bilden zusammen mit          reagiert mittels seiner Grundrisslayouts und Nutzungsanordnungen ge-
+den bestehenden Bauten auf dem strassenumfriedeten Schild eine Ein-        schickt auf die räumliche Nähe des Käselagers respektive auf die Tief-
+heit. Einzig im Bereich des ehemaligen Käselagers wirkt der östlich ge-    garagenzufahrt. Beim mittig an der Industriestrasse platzierten Haus
+legene Neubau etwas erdrückend. Die Idee eines «file rouge» in Form        werden die doppelte vertikale Erschliessung, der direkte Zugang vom
+eines schlangenförmigen Sitzelements wirkt etwas künstlich und wi-         Essbereich in die Nasszellen sowie die einzelnen Balkongrössen be-
+derspricht der Unterschiedlichkeit der Freiräume. Die vorgeschlagene       mängelt. Die Clusterwohnungen im östlichen Haus am Geissensteinring
+Begrünung der Innenhöfe wird wegen Lichtmangels nicht umsetzbar            werden hinsichtlich der Durchmischung von Tages– und Nachtberei-
+sein. Gesamthaft wird jedoch ein hochwertiges Gefüge aus schmalen,         chen kontrovers diskutiert. Die gemeinschaftlich nutzbaren Dach-
+aber kurzen Gassen und gut gefassten kleinen Plätzen und grünen Gar-       terrassen mit Aussenküchen schaffen ein stimmiges, den kollektiven
+tenhöfen geschaffen. Attraktive, gemeinsam genutzte Dachgartenland-        Gedanken tragendes Ensemble.
+schaften runden das breite Angebot an vielfältigen Aussenräumen ab.
+                                                                           Die entsprechend den einzelnen Häusern unterschiedlich formulierten
+Angeboten wird eine stimmige Vielfalt grossformatiger, siebengeschos-      Holzbausysteme (Skelett–, Rahmen–, Brettsperrholz– sowie Hybridbau)
+siger Gebäudetypen, von Hofhäusern bis zu kompakten Baukörpern             werden als wirtschaftlich aufwändig eingestuft. Ein durchgehender So-
+hin reichend, welche die einzelnen Genossenschaften widerspiegeln.         ckel aus Betonelementen sowie vertikal gegliederte Fassaden aus Holz
+Im überhohen Sockelgeschoss sind öffentliche, flexibel unterteilbare       fügen die Bauten in ihrem architektonischen Ausdruck zu einem Ganzen
+Nutzungen mit Zugängen vom Strassenraum her vorgesehen. Gewür-             zusammen.
+digt werden unter anderem die Aussenräume des Kindergartens und
+der Kindertagesstätte, die sowohl einzeln als auch gemeinsam bespielt      Die vorgeschlagene Etappierung, die in der ersten Etappe die Bauten an
+werden können.                                                             der Industriestrasse glaubwürdig integriert, erlaubt eine zeitlich unab-
+         Die Adressierung der Wohnungen in den Obergeschossen er-          hängige Erstellung mit wenigen unterirdischen Anschlussstellen.
+folgt folgerichtig über die zu den Binnenräumen hin ausgerichteten
+Hauszugänge. Die entsprechenden Erschliessungen – Laubengänge um           Hingegen wird die angestrebte Verdichtung über Verglasungen der In-
+einen Hof herum respektive in einer peripheren Schicht sowie innenlie-     nenhöfe – respektive deren typologischer und klimatischer Uminterpre-
+gende Treppenhäuser – unterstützen die verschiedenen Typologien und        tation hinterfragt.
+fördern die Gemeinschaft.
+60   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+     Gesamthaft handelt es sich um eine äusserst sorgfältige Arbeit, die eine
+     städtebaulich klare Haltung aufweist. Auch wenn ein ausgewogenes
+     Ensemble geschaffen wird, vermögen die Freiräume durch ihren etwas
+     undifferenzierten Ausdruck und ihre Uniformität nicht vollends zu über-
+     zeugen. Die einzelnen Wohnungen hingegen weisen strukturell, räum-
+     lich und konstruktiv eine typologische Vielfalt sowie atmosphärische
+     Qualitäten auf und gehen differenziert auf die einzelnen Bedürfnisse
+     ein. In der vertieften Diskussion mit der spezifischen Aufgabe und dem
+     genossenschaftlichen Gedankengut stellt der Lösungsansatz einen be-
+     deutsamen und nachhaltigen Beitrag dar.
+
+
+
+     Soziale Nachhaltigkeit
+
+     Das Projekt «Indu» verfügt aus Sicht der sozialen Aspekte über ver-
+     schiedene Qualitäten, aber auch über einige Mankos. Die differenziert
+     ausgestalteten und unterschiedlich dimensionierten Aussen- und Grün-
+     räume sind gut miteinander verknüpft und für das gesamte Quartier
+     durchlässig. Diese ermöglichen unterschiedliche öffentliche und z.T.
+     auch rückzugsorientierte Aufenthaltsmöglichkeiten. Die konzeptionelle
+     Unterteilung in eine «grüne» und «städtische» Seite der Aussenräume
+     ist plausibel. Die Integration des Käselagers mit einem relativ grosszügi-
+     gen Vorplatz ist gut gelöst. Atelier-, Gewerbe- und Dienstleistungsräume
+     sind flexibel unterteilbar und profitieren von einer externen Publikumso-
+     rientierung. Weniger gut schneidet die eher gleichförmige architektoni-
+     sche Typologie ab, die kaum Identitätserhalt zulässt. Ausserdem ermög-
+     lichen die Wohnungsgrundrisse Flexibilität.
+61
+62
+63
+64
+65
+66
+D | DOKUMENTATION PROJEKTWETTBEWERB                               67
+
+
+
+
+13 | Zweiter Frühling                 ahaa GmbH, Luzern
+                                      Cristina Trofin
+
+
+
+
+5. Preis Städtebau / Aussenraum
+
+
+
+
+Modell Grundkonzept                   Modell Variante höhere ÜZ
+68   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+     Mitarbeiter*innen
+     Andreas Heierle
+     Cristina Trofin
+     Melanie Bareither
+     Yasmin Gassmann
+     Carol Egger
+
+     Landschaftsarchitekten:
+     Studio Vulkan
+     Robin Winogrond
+     Raphael Kleindienst
+
+     Holzbauingenieur:
+     Lauber Ingenieure AG
+     Beat Lauber
+D | DOKUMENTATION PROJEKTWETTBEWERB                                        13 | Zweiter Frühling                                                      69
+
+
+
+
+Würdigung
+Die Verfasser*innen schlagen eine Reihung von kleineren, typenähn-         Die Wohnungsgrundrisse sind den Anforderungen des Programms ent-
+lichen Bauten vor, die mit den bestehenden Gebäuden durch einen im         sprechend gut entwickelt. Durch ihren zellulären Aufbau und ihre mehr-
+Grundriss ähnlichen Massstab eine Verzahnung herzustellen versuchen        seitige Belichtung ermöglichen sie unterschiedliche Anordnungen von
+und zugleich differenzierte und klare Freiräume mit verschiedenen          Wohn- und Individualräumen und berücksichtigen sehr gut die Anforde-
+Identitäten schaffen. Die entstehende Vielfalt an Freiräumen wird mit      rungen an Flexibilität. Besonders reizvoll sind auch die auf jedem zwei-
+Bedeutungen wie Marktplatz, Kulturplatz, Werkhof und Garten plausi-        ten Gebäude kollektiv zu nutzenden und grosszügigen Dachterrassen,
+bel bespielt und entsprechend differenziert gestaltet. Die angestreb-      kombiniert mit ebenso grosszügigen Waschküchen in jedem zweiten
+te Ensemble-Wirkung vor allem zwischen den Neubauten ist sehr klar         Gebäude. Nicht genau ersichtlich ist die Verwendung der grossen Flä-
+erkennbar. Die räumlichen Verbindungen zwischen den Freiräumen er-         chen an Nebenräumen auf der Ebene des ersten Dachgeschosses.
+folgen jeweils im Erdgeschoss unter offenen Treppenanlagen und die
+Erdgeschosse sind folgerichtig mit Gewerberäumen bespielt, die diffe-      Die Tragstruktur ist als gerichtete und modulare Konstruktion mit an-
+renziert auf die Platzräume antworten.                                     gemessenen Spannweiten folgerichtig aus dem Holzbau erarbeitet.
+                                                                           Der architektonische Ausdruck ist geprägt durch zwei- oder dreiflü-
+Aufgrund der geforderten Dichte werden die Gebäude sechs- bis sie-         gelige, raumhohe Balkonfenster, die vorgelagerten Fensterläden und
+bengeschossig und erzeugen dadurch eine hohe räumliche Nähe. All-          Pflanztröge sowie opake Verkleidungselemente, die nach Bedarf pro
+gemein erscheinen die Proportionen dieser Freiräume vor allem für ein      Gebäude und Genossenschaft differenziert ausgebildet sein können.
+gutes Verhältnis zu den bestehenden Bauten als zu eng. Auch im Innern      Dieser Vorschlag für eine Verbindung von gestalterischer Einheit und
+der Anlage wäre mit einer knappen Besonnung zu rechnen. Als logische       Differenzierung ist als Ausgangslage anregend und entspricht durch-
+Folge davon erlaubt die gewählte Anordnung der Bauten, wie von den         aus den Wünschen der vielfältigen Bauherrschaft.
+Verfassenden selbst erkannt, keine noch höhere Verdichtung des Are-
+als. Nicht zuletzt könnte zudem durch das gewählte, städtebauliche         Allgemein weisen die Neubauten eine gute Kompaktheit, gute Flächen-
+Konzept eine gewisse Homogenität der Neubauten entstehen, welche           koeffizienten, ein angemessenes Verhältnis von verglasten zu opaken
+die Vielfalt des Areals mit der vielschichtigen Bauherrschaft etwas ein-   Wandteilen und eine logische Tragstruktur in Holzbauweise auf. In Ver-
+schränken würde.                                                           bindung mit der hohen Flexibilität würden sich eine optimale Nachhal-
+                                                                           tigkeit und Wirtschaftlichkeit ergeben.
+Die Anlage ist architektonisch durch die zwischen den Baukörpern an-
+geordneten Treppenanlagen geprägt, welche jeweils zwei Gebäude             Das Projekt kann auf mehreren Ebenen interessante Ansätze zur ge-
+erschliessen und verbinden. Diese klimatisch offenen und durchlässi-       stellten Aufgabe aufzeigen. Insbesondere die Anordnung der Freiräume,
+gen Erschliessungs-Scharniere erinnern an Bautypen südeuropäischer         die Gestaltung der Grundrisse und die Konzeption der Fassaden sind
+Baukulturen und können durchaus Raum für soziale Begegnungen und           überzeugend und anregend. Hingegen kann die durch die Anordnung
+gute Nachbarschaften bilden. Sie stellen ein gestalterisch interessan-     der Gebäude in Teilbereichen entstehende, stadträumliche Enge leider
+tes Element dar und verleihen der Anlage ihren Reiz und ihre besondere     nicht überzeugen. Eine Variation von Gebäuden unterschiedlicher Ge-
+Charakteristik.                                                            schossigkeit hätte der hohen Dichte entgegengewirkt und mehr Licht
+                                                                           und Luft in die arealinternen Plätze und Gassen gebracht.
+70   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+     Soziale Nachhaltigkeit
+     Das vielgliedrige und komplexe, aus mehreren mittels Lauben verbun-
+     denen Baukörpern bestehende Projekt hat interessante Eigenschaften.
+     Es versucht die Heterogenität des Kontextes aufzunehmen, besteht
+     aber letztlich doch aus relativ homogenen Haustypen. Es gelingt nicht,
+     das Käselager in Wert zu setzen und als Teil der Neubebauung zu in-
+     tegrieren. Die Durchlässigkeit zum Quartier ist in beiden Himmelsrich-
+     tungen grundsätzlich gegeben und es werden verschiedenartige Plätze
+     und Räume für unterschiedliche Aktivitäten geboten. Für die Gemein-
+     schaftsbildung interessant sind die Dachlandschaften und die zwischen
+     die Gebäude gespannten grosszügigen Treppenhäuser. Die gegliederte
+     Fassade bietet vielfältige Raumbildwechsel und fördert das Wechsel-
+     spiel zwischen Rückzug und Austausch der Bewohnerschaft.
+71
+72
+73
+74
+75
+76
+D | DOKUMENTATION PROJEKTWETTBEWERB                                             77
+
+
+
+
+01 | AMALIE                           Sergison Bates architekten GmbH, Zürich
+                                      Jonathan Sergison
+
+
+
+
+Modell Grundkonzept                   Modell Variante höhere ÜZ
+78   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+     Mitarbeiter*innen
+     Jonathan Sergison
+     Michael Stettler
+     Jonas von Wartburg
+     Marie Seline Brenni
+     Flavia Saggese
+     Sibe Duijsters
+     Jack Dalla Santa
+     Agnes Paljak
+D | DOKUMENTATION PROJEKTWETTBEWERB                                        01 | AMALIE                                                               79
+
+
+
+
+Würdigung
+
+Die Projektverfassenden beziehen sich in der städtebaulichen Setzung       Zimmer nach Aussen öffnen, vermehrt Tageslicht herein lassen und eine
+auf das umliegende, durch lineare Bauten geprägte Quartier und schla-      nachhaltig kompakte Bauweise ermöglichen, vermögen sie das Fehlen
+gen kompakte Zeilenbauten vor, die mittels eines volumetrischen Ver-       privater Aussenräume nicht gänzlich aufzuheben. Die etwas versteckt
+satzes die fünf Baugenossenschaften widerspiegeln. Die pragmatische        liegenden Gemeinschaftsräume sowie die Waschküchen im Dachge-
+Anordnung der Riegelgebäude schafft eine einheitliche, ausgewogene         schoss tragen zwar als informelle Begegnungsorte zur Gemeinschaft
+Gebäudekonstellation, die einerseits auf selbstverständliche Art das       bei, die ausgeschiedenen Terrassen auf dem Dach besitzen jedoch kei-
+bestehende Käselager über einen grosszügigen Platz einbindet sowie         ne eindeutige Zuordnung und könnten auch privatisiert werden.
+das Areal vom Lärm des Geissensteinrings abschirmt, andererseits je-
+doch den Bezug zur Vielfalt und Identität des heutigen Areals missen       Die sich auf die industrielle Vergangenheit beziehenden Backsteinfas-
+lässt.                                                                     saden besitzen zwar einen differenzierten und dennoch einheitlichen
+                                                                           Ausdruck, lassen jedoch den Bezug zur Industriestrasse fehlen und
+Die vier Neubauzeilen gliedern den Freiraum in drei gleichförmige gas-     überzeugen durch ihre städtisch wirkende Atmosphäre an diesem Ort
+senartige Längsräume. Zusätzlich werden im Übergang zu den nördli-         weniger. Der Lösungsansatz besticht vor allem durch die innere Quali-
+chen Bestandesbauten zwei platzartige Zwischenräume aufgespannt.           tät und sorgfältige Ausformulierung der Wohnungsgrundrisse, die einen
+Die inneren Freiräume sind über schmale Lücken mit dem öffentlichen        äusserst wertvollen Beitrag zur Nachhaltigkeit sowie zum genossen-
+Strassenraum verbunden. Dadurch wirken die inneren Längsräume              schaftlichen Wohnungsbau leisten.
+halböffentlich. Lediglich der aufgespannte Platz vor der Liegenschaft
+Industriestrasse 9 wird als öffentlicher Ort wahrgenommen. Der grüne
+Zwischenraum zu den östlichen Nachbargebäuden wirkt zu schmal. Die         Soziale Nachhaltigkeit
+vorgeschlagene Neubaustruktur schliesst das Areal nach aussen zu
+stark ab und es mangelt an einer gewissen Feingliedrigkeit, spannender     Aus Sicht der Sozialen Nachhaltigkeit zeigen sich im Projekt Vor- und
+Hierarchie und Differenzierung der Aussenräume.                            Nachteile. Die Volumen fügen sich zu wenig in den kleinteiligen und he-
+                                                                           terogenen Kontext ein und werden als überdimensioniert und gleich-
+Erdgeschossig sind gewerbliche und kulturelle Nutzungen vorgese-           förmig wahrgenommen; der geforderte Erhalt der Identität ist ausge-
+hen – die gewählte Hybridbauweise mit Beton im Sockelgeschoss lässt        schlossen. Das Raumangebot für Kultur, Gewerbe sowie eine vielfältige
+grosse Spannweiten und eine hohe Flexibilität zu. Die meist zweiseitigen   Bewohnerschaft mit unterschiedlichen Lebensentwürfen ist grundsätz-
+Hauszugänge zu den Wohnungen in Holzbau in den oberen Geschos-             lich gegeben, erscheint aber wenig innovativ. Der direkte Zugang zu den
+sen fördern Aneignung und Wahlmöglichkeit, wobei die Treppenhäuser         gemeinschaftlichen Dachflächen aus den angrenzenden Wohnungen
+selbst wenig Raum für Begegnung und Interaktion zulassen. Die Grund-       birgt die Gefahr, dass diese durch die DG-Bewohner*innen privatisiert
+risse nehmen Bezug auf die Tradition der ländlichen Holzbauweise, in-      und der Gemeinschaft entzogen werden. Die Aussenräume sind mitein-
+dem durch eine wohldurchdachte räumliche Anordnung und Abfolge             ander verknüpft, sie bilden aber eine einförmige Raumabfolge und sind
+einzelner Kammern suffiziente und nutzungsflexible Wohnungslayouts         insbesondere Ost-West nur über Umwege durchlässig. Der Bau an der
+generiert werden. Das Vorsehen grossformatiger Fensteröffnungen an-        Industriestrasse hält einen respektvollen Abstand zum Käselager ein;
+stelle von Balkonen wird kontrovers diskutiert: Auch wenn Erstere die      der dazwischen entstehende neue Quartierplatz hat Potenzial.
+80
+81
+82
+D | DOKUMENTATION PROJEKTWETTBEWERB                               83
+
+
+
+
+02 | BUNTES AREAL		 Lacaton & Vassal Architectes, Paris
+		 Anne Lacaton
+		 Jean-Philippe Vassal
+
+
+
+
+Modell Grundkonzept                   Modell Variante höhere ÜZ
+84   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+     Mitarbeiter*innen
+
+     Lila Assef
+     Julien Callot
+     Rachanon Kamoljitravee
+     Carina Sacher
+     Lea Schymura
+D | DOKUMENTATION PROJEKTWETTBEWERB		 02 | BUNTES AREAL                                                                                             85
+
+
+
+
+Würdigung
+Die Projektidee möchte das Quartier in einer Kontinuität weiterdenken;     Bei den verglasten Laubengängen sind zusätzliche Stützen notwendig,
+was besteht, soll weiter bestehen. Der schon jetzt lebhafte Ort soll mit   um Verformungen zu reduzieren.
+«tausend Möglichkeiten» ergänzt werden. Entlang der Industriestrasse
+und am Geissensteinring wird eine Grossform gesetzt. Schmale Lücken        Die kräftige und konsequente Art der Bebauungsstruktur und der anth-
+verbinden den Strassenraum mit den inneren Freiräumen. Die einzel-         ropologische Ansatz für das Weiterbauen am Stadtrand werden gewür-
+nen Blöcke werden von hohen Stützen getragen und sollen Porosität,         digt. Die Gesamterscheinung ist jedoch zu stereotypisch.
+Transparenz und grosszügige Räume garantieren. Mit einem Abstand
+zu den bestehenden Bauten wird die lineare Bebauung fortgesetzt. Die
+mäandrierende Grossform bildet zwei Innenhöfe, die durch schmale           Soziale Nachhaltigkeit
+Öffnungen mit dem Strassenraum verbunden sind. Zwischen dem Be-
+stand und der neuen Form sind diese Räume offener und durchlässiger.       Das Projekt verfügt über eine gute Nutzungsmischung mit unterschied-
+                                                                           lichen Wohngrössen, Gewerbe-, Kultur- und Atelierwohnungen. Den-
+Die respektvolle Geste gegenüber dem Existierenden – wie die Verfas-       noch können die gesellschaftlichen Anforderungen nicht als erreicht
+ser ihre Idee bezeichnen – ist programmatisch nachvollziehbar, städte-     betrachtet werden. Gründe dafür sind u.a.: Der Aussenraum erscheint
+baulich vermag der Entwurf jedoch nicht zu überzeugen. Dafür wirken        eher als Restfläche und bildet kaum einladende und attraktive Aufent-
+die Bauten zu hermetisch und die Zwischenräume sind zu eng gefasst.        haltsorte für das Nachbarschaftsleben. Dem Erhalt der gewachsenen
+Die Übergangsräume zu den Bestandsbauten erscheinen wie Resträu-           Struktur und der Identität wird wenig Aufmerksamkeit gewidmet, das
+me. Die angestrebte Gelassenheit im Sinne der Nutzung ist durch die        Käselager wird an den Rand gedrängt. Privatheit wird teilweise verun-
+Verhältnisse von Gebäudehöhen zu den dazwischenliegenden Freiräu-          möglicht – so z.B. im Fall der Schlafzimmerfenster entlang der Lauben-
+men nicht vorhanden. Trotz der sehr hohen Stützen wird die angestreb-      gänge.
+te Durchlässigkeit zu den umliegenden Strassen nicht erreicht. Es bleibt
+eine abgeschottete Innenwelt. Eine gute Nachbarschaft zum Käselager
+ist durch den Massstab nicht gegeben.
+
+Die Wohnungstypen sind konsequent gedacht. Sie sind zweiseitig ori-
+entiert und alle Räume haben Türen ins Freie. Durch die gewählte Er-
+schliessung entstehen kaum verlorene Flächen. Die Räume sind zu
+wenig privat. Südseitig sind die Wohnungen verglast und mit Winter-
+gärten erweitert. Gewürdigt wird die Idee, die Etagenwohnungen mittels
+zweckfreien Flächen als Häuser erscheinen zu lassen.
+
+Die Hybridkonstruktion aus Holz und Beton ist effizient gedacht. Längs-
+und Querachsen überlagern sich. Die auskragenden Balkone sind auf-
+wendig, in Holz jedoch machbar.
+86
+87
+88
+D | DOKUMENTATION PROJEKTWETTBEWERB                                             89
+
+
+
+
+03 | Collage Village                  Armon Semadeni Architekten GmbH, Zürich
+                                      Armon Semadeni
+
+
+
+
+Modell Grundkonzept                   Modell Variante höhere ÜZ
+90   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+     Mitarbeiter*innen
+     Simone Bänziger
+     Masa Mori
+     Luca Sergi
+     Paulina Malag
+D | DOKUMENTATION PROJEKTWETTBEWERB		 03 | Collage Village                                                                                          91
+
+
+
+
+Würdigung
+
+Ausgehend von einer sorgfältigen Analyse des Ortes interpretiert der        kompensiert. Eine unterirdische, die einzelnen Häuser verbindende Ga-
+Lösungsansatz «collage village» das Thema der gestellten Aufga-            rage kann, im Sinne der Nachhaltigkeit, bedarfsweise für andere Akti-
+be überzeugend: Ein präzises und robustes städtebauliches Konzept          vitäten – Konzerte, Bankette etc. – genutzt werden. Auch wenn diese
+ermöglicht ein spezifisches Eingehen auf die Bedürfnisse der einzel-       Idee besticht, werden sowohl die Raumhöhe als auch die gemeinsam
+nen Genossenschaften und Bewohner*innen. Der über verschiedene             vorgesehene Rampe für Velos und Autos bemängelt.
+Massstäbe und Eingriffstiefen reichende Katalog im Sinne eines klug
+formulierten Werkzeugkastens erlaubt eine gemeinsame und dennoch           Das hohe und das lange Haus, in zwei Obergeschossen zusammen- ge-
+individuelle Weiter– und Ausarbeitung des Areals Industriestrasse. Das     baut, weisen durch eine gleiche Bautiefe und ähnliche Höfe eine typo-
+bestehende Käselager wird selbstverständlich in die ortsbauliche Set-      logische Verwandtschaft auf und grenzen vom lärmintensiven Geis-
+zung integriert. Die unterschiedlichen, räumlich miteinander verbunde-     sensteinring ab. Im hohen Haus gruppieren sich um einen relativ engen
+nen Aussenräume schaffen eine stimmige Durchlässigkeit des Areals          Erschliessungshof mehrseitig orientierte Wohnungen. Durch eine kla-
+und bieten qualitätsvollen, aneignungsbaren Raum sowohl für quartier-      re Trennung von Wohnraum und einzelnen Zimmern zeichnen sich die
+übergreifende als auch für siedlungsinterne Veranstaltungen und infor-     Grundrisse vor allem in der Planungsphase durch eine «molekulare»
+melle Begegnungen.                                                         Anpassbarkeit aus. Die im langen Haus vierspännig erschlossenen
+                                                                           Wohnungen besitzen ein schlüssiges Layout, wobei der gleiche Grund-
+Die vorgeschlagene Gebäudecollage bildet eine spannende offene Frei-       risstyp sowohl für Nord– als auch für Südwohnungen zu hinterfragen
+raumfigur aus öffentlichen Plätzen, schmalen Gassen und grünen Höfen.      bleibt.
+Die grosszügigen Öffnungen zur Industriestrasse verbinden das Innen-
+leben mit dem öffentlichen Raum. Feinfühlige Interaktionen mit den Be-     Das Hofhaus weist eine differenzierte Ausgestaltung der hofseitigen
+standesbauten schaffen abwechslungsreiche grüne Zwischenräume.             Laubengänge mit verschiedenen Öffentlichkeitsabstufungen auf. Die
+Die engen schmalen Lichthöfe in den Neubauten entlang dem Geissen-         Grundrisslayouts überzeugen mittels durchgehenden, Ost–West aus-
+steinring überzeugen einzig als Lichtfänger, andere Qualitäten fehlen.     gerichteten Ess– und Wohnräumen sowie mittels dem Konstruktions-
+Dem öffentlichen Platz fehlen belebende gemeinschaftliche Nutzungen,       prinzip folgenden Tages– und Nachtzonen mit privaten Aussenräumen.
+um als öffentlicher Ort wahrgenommen zu werden. Spannend ist die ge-       Die sich u–förmig um die offene Erschliessung des Hallenhauses grup-
+meinsame «urban gardening» Nutzung auf den Dachflächen.                    pierenden Wohnungen bieten unter anderem spezifische Grundris-
+                                                                           stypologien an, die eine individuelle Aneignung und Nutzbarkeit des
+Die einzelnen Häuser unterscheiden sich durch situativ formulierte,        Raumes, beispielsweise durch einen Grosshaushalt oder durch ein
+verschiedenartige Volumen mit entsprechenden Erschliessungstypo-           «Hallenwohnen», ermöglichen. Auch wenn in den Gassen die Grund-
+logien. Die Zugänge zu den erdgeschossigen öffentlichen und halböf-        risstypologien der die Familienwohnungen aufnehmenden Häuser der
+fentlichen Nutzungen sind folgerichtig strassen– respektive platzseitig,   räumlichen Nähe gekonnt Rechnung tragen, werden die Verdichtung im
+die zu den Wohnungen führenden Hauszugänge meist etwas privater            Binnenbereich sowie das partielle Fehlen privater Aussenräume als pro-
+angeordnet. Grosszügige, teilweise zweiseitig erschlossene Eingangs-       blematisch eingestuft.
+hallen, «Vestibules» genannt, bieten wertvollen Raum für Aneignung.
+Die eher kleinen Balkone werden durch gemeinschaftliche Dachgärten
+92   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+     Zwei Konstruktionssysteme werden ausgelotet – Skelettstrukturen in
+     Holz–Beton–Verbundtechnik für klassische, gestapelte Raummodule
+     aus Holz für innovative Wohnformen –, deren Wirtschaftlichkeit aus ver-
+     schiedenen Gründen hinterfragt wird.
+
+     Die Qualität des Lösungsansatzes liegt in der Vielfältigkeit und Robust-
+     heit des Konzeptes sowie in der sorgsamen Ausarbeitung auf verschie-
+     denen Ebenen: Sowohl in der genauen Setzung der einzelnen Baukörper
+     und den daraus resultierenden Aussenräumen als auch in der Ausfor-
+     mulierung der einzelnen Wohnungstypen und Konstruktionsweisen. Das
+     überzeugende Baukastensystem in verschiedenen Eingriffstiefen ver-
+     mag, auch durch mehrere Projektverfassende, das Potenzial des Ortes
+     in sämtlichen Etappen zu bewahren, zu stärken und als «collage villa-
+     ge» dem Areal eine gesamthafte Identität zu verleihen. Die über diverse
+     Erweiterungen und einer Aufstockung des hohen Hauses vorgesehene
+     Verdichtung wird zwar aus städtebaulicher Sicht gewürdigt, jedoch wird
+     die Beschattung des angrenzenden Platzes hinterfragt.
+
+
+
+     Soziale Nachhaltigkeit
+
+     Das Projekt verfügt aus Sicht der Sozialen Nachhaltigkeit über zahlrei-
+     che Qualitäten. So weisen die Wohnungen gute und flexible Grundris-
+     se auf. Kultur- und Gewerberäume sowie Ateliers sind vorhanden und
+     erscheinen relativ flexibel. Als gemeinschaftsfördernd können die Ein-
+     gangshallen und die Erschliessung via Vestibüle betrachtet werden. Der
+     Aussenraum mit verschiedenen miteinander verknüpften, mal städ-
+     tischen, mal ruhig-ländlichen Plätzen, Gärten, Spielräumen inklusive
+     Dachterrassen ermöglicht unterschiedliche Öffentlichkeitsgrade und
+     informelle Begegnungsmöglichkeiten und bietet dem Gewerbe ein dif-
+     ferenziertes Umfeld. Die Durchlässigkeit gegenüber dem Quartier ist in
+     beiden Hauptrichtungen gewährleistet. Als identitätsfördernd kann die
+     vorgeschlagene Nutzung von Käselager samt vorgelagerter Piazzetta
+     und der Ersatz des Rossstall durch ein Atelier- und Gästehaus angese-
+     hen werden.
+93
+94
+95
+96   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+D | DOKUMENTATION PROJEKTWETTBEWERB                               97
+
+
+
+
+04 | DIE INDUSTRIESTRASSEN            DEON AG, Luzern
+                                      Prof. Luca Deon
+
+
+
+
+Modell Grundkonzept                   Modell Variante höhere ÜZ
+98   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+     Mitarbeiter*innen
+
+     DEON AG
+     Prof. Luca Deon
+     Beda Faessler
+     Michael Kneubühler
+     Bingyi Li
+     Lukas Wermelinger
+     Mathias Stettler
+     Luisa Auletta
+
+     Landschaftsarchitekten:
+     BRYUM GmbH, Basel
+     Michael Oser
+     Theresa Friedrich
+
+     Urban Solutions:
+     INTOSENS AG, Zürich
+     Maria Luise Hilber
+
+     Holzbau Konzept:
+     Creation Holz AG
+     Hermann Blumer
+
+     Holzbautechnik, Tragstatik, Brandschutz:
+     SJB Kempter Fitze AG, Eschenbach und Frauenfeld
+     Christoph Meier
+     Daniel Koller
+
+     Gebäudetechnik:
+     BS2 AG, Schlieren
+     Prof. Adrian Altenburger
+
+     Visuelle Kommunikation:
+     Prof. Jimmy Schmid, Luzern
+D | DOKUMENTATION PROJEKTWETTBEWERB		 04 | DIE INDUSTRIESTRASSEN                                                                                    99
+
+
+
+
+Würdigung
+Eine Kultur des Miteinanders verlangt Aufmerksamkeit und Zurückhal-       Das gewählte Bebauungsstruktur und der starke Ausdruck der Fas-
+tung. Damit das Bauliche in dieser Vorstellung einen entsprechenden       saden bilden eine vielversprechende Möglichkeit für ein neues Stück
+Beitrag zu leisten vermag, sehen die Verfasser des Entwurfes «Die         Stadt. Die Idee der gedachten Beziehungen ist jedoch überreizt – ein
+Industriestrassen» differenzierte Hierarchien von öffentlichen, halböf-   Zuviel an Angeboten. Lebensgemeinschaften lassen sich nicht erzwin-
+fentlichen, halbprivaten und privaten Zonen vor. Es sollen freiwillige    gen, sie müssen sich ergeben. Dafür können wir einzig Bedingungen
+Begegnungen zwischen den Bewohner*innen des Quartiers und den             schaffen. Ein ausgewogenes Verhältnis zwischen Räumen, die Begeg-
+Besuchern stattfinden – auf allen Ebenen.                                 nungen zulassen, aber auch vermeiden lassen, ist bei diesem Entwurf
+                                                                          nur teilweise gegeben.
+Sieben Einzelbauten werden längs und quer zueinander gesetzt. Dif-
+ferenzierte Zwischenräume, geschlossene und offene Höfe wechseln
+sich ab und werden zu einer winkelförmigen Grossform verwebt. Zu den      Soziale Nachhaltigkeit
+öffentlichen Strassenräumen schliesst die Form ab, zu den Bestands-
+bauten bilden sich spezifische Aussenräume mit unterschiedlichen          Das Projekt verfügt über viele der im Bereich des Sozialen erwarteten
+Nutzungen: der Kulturplatz, der Werkhof und der Spielhof. Zwischenräu-    Qualitäten. Besonders interessant und identitätsbildend ist der Aus-
+me befinden sich nicht nur auf Bodenniveau; eine Plattform im zweiten     senraum, der mit Zwischenebenen grundsätzliche vielfältige Betäti-
+Obergeschoss sowie Dachterrassen tragen die Idee weiter.                  gungs- und Begegnungsmöglichkeiten mit verschiedenen Öffentlich-
+                                                                          keitsgraden erlaubt. Die Aussenräume sind spannungsreich gegliedert
+Die gewählte Nutzungsform von Wiederholungen auf unterschiedlichen        und für das Quartier in allen Richtungen durchlässig. Allerdings verfü-
+Niveaus ist vielversprechend. Ob die zweite Ebene Qualitäten aufweist,    gen einzelne davon über zu wenig Licht und es fragt sich, ob die gros-
+um Gemeinschaften zu bilden, ist jedoch fraglich. Die vorgesehene sozi-   szügigen Aussenflächen im 2.OG in diesem Mass benötigt und genutzt
+ale Interaktion scheint erzwungen. Die Nutzer stehen ständig im Fokus     werden. Der Umstand, dass Autos auf dem Spielhof erscheinen können,
+der Bewohner*innen der umliegenden Häuserzeilen. Ein Sich-Zurück-         ist noch zu wenig durchdacht. Durch die Modularität der Bebauung ist
+ziehen ist erst durch das Verlassen der Bühne möglich. Diese Plattform    die Nutzungsflexibilität für künftige Bedürfnisse gegeben. Der Höhen-
+beeinflusst zudem massiv die Qualität der Flächen im Eingangsge-          sprung vom Käselager zum angrenzenden Bau erscheint als zu gross
+schoss. Durch das Hochdeck entstehen viele dunkle Räume. Die ange-        und müsste abgemindert werden.
+strebte Gelassenheit des Wegnetzes geht verloren.
+
+Die einzelnen Häuser werden jeweils von einem oder mehreren Trep-
+penkernen erschlossen. Familienwohnungen, Atelierwohnungen und
+Clusterwohnungen wechseln sich ab und sind von hoher Wohnqualität.
+
+Die Holzhäuser haben einen eigenwilligen, jedoch vertrauten Charakter.
+Die Grösse und die Masse vermitteln eine starke Atmosphäre. In einer
+Holzelementbauweise werden modulare Fassadenelemente eingefügt.
+Der Holzbau wurde äusserst fachgerecht entwickelt. Der Detailierungs-
+grad ist hoch.
+100
+101
+102
+D | DOKUMENTATION PROJEKTWETTBEWERB                                           103
+
+
+
+
+07 | La Bussola                       Adrian Streich Architekten AG, Zürich
+                                      Adrian Streich
+
+
+
+
+Modell Grundkonzept                   Modell Variante höhere ÜZ
+104   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+      Mitarbeiter*innen
+
+      Tobias Lindenmann
+      Adrian Streich
+      Roman Ziegler
+      Sybille Nussbaum
+      Andreas Zahn
+      Milena Kuster
+      Cristina Albert
+
+      Landschaftsarchitektin:
+      Laura Francescato, Zürich
+D | DOKUMENTATION PROJEKTWETTBEWERB                                      07 | La Bussola                                                            105
+
+
+
+
+Würdigung
+Im städtebaulich heterogenen Industriestrassenquartier schlagen die      Das Projekt weist mit seiner Hybridbauweise aus Ortbetonflachdecken-
+Projektverfasser eine siebengeschossige, nach allen Seiten geschlos-     und tragenden Holzfassaden eine klare, sichtbare und logische Trag-
+sene Hoffigur vor, welche über eine markante Öffnung im Erdgeschoss      struktur auf. Die hofseitigen äusseren Erschliessungstreppen und die
+von der Unterlachenstrasse und über schmale Durchgänge mit der In-       Balkontürme sind als vorgestellte Stahlkonstruktion konzipiert und gut
+dustriestrasse und dem Geissensteinring erschlossen ist. Nordseitig      lösbar. Grundsätzlich stellte sich die Frage, wieso die Tragkonstruktion
+gegen die Unterlachenstrasse verbindet ein langes Volumen den Hof-       nicht konsequenter mit Holz geplant ist, was durchaus machbar gewe-
+bau mit dem bestehenden Käselager. Die dadurch entstehenden Aus-         sen wäre.
+senräume wirken etwas klein dimensioniert und bedrängen den Bestan-
+desbau.                                                                  Der Projektvorschlag arbeitet mit einer städtebaulich markanten Hof-
+                                                                         figur. Diese wirkt im Kontext des Quartiers eher fremd und wird dem
+Der öffentliche Aussenraum beschränkt sich auf die Räume entlang den     Gemeinschaftsgedanken der Kooperation und der Durchwegung des
+Strassen und den platzartigen Zwischenraum zum alten Käselager. Die      Areals nur bedingt gerecht. Die dadurch entstehenden Aussenräume
+Durchwegung des Areals ist nur teilweise gewährleistet. Der Hofraum      wirken wenig vielfältig und scheinen schwierig zu beleben. Der Umgang
+wirkt etwas unbelebt, da er einzig durch die inliegende Erschliessung    mit dem baulichen Bestand nicht sehr feinfühlig und drängt das Käsela-
+der darüberliegenden Wohnungen belebt wird. Der schmale Übergangs-       ger an den Rand der Überbauung.
+raum zu den östlich angrenzenden Bestandesbauten wirkt spannungs-                 Die klare und logische Konstruktionsweise hätte man sich kon-
+los und bietet keinen Mehrwert für die Freiräume der Nachbarschaft.      sequenter in Holz- als Hybridbau gewünscht.
+Die Dachterrassen werden den Bewohner*innen zur Verfügung gestellt.
+
+Die abgeschlossene Grossform wirkt im Quartier generell fremd und re-    Soziale Nachhaltigkeit
+agiert wenig auf den Gemeinschaftsgedanken der Genossenschaften.
+                                                                         Die Blockrandtypologie wird aus gesellschaftlicher Sicht im Allgemei-
+Im Bereich der Hoffigur sind auf Strassenniveau Gewerbenutzungen         nen gut bewertet, doch hier steht sie am falschen Ort, verunmöglicht
+vorgesehen. Um den Aussenraum beim Käselager ordnen sich Gemein-         die erwünschte Durchlässigkeit zum Quartier und stellt das Käselager
+schafts-, Kultur- und Gastroräumlichkeiten an. Die Wohnungen wer-        an den Rand. Das Projekt wirkt introvertiert und in sich abgeschlossen
+den durch zum Innenhof liegende Treppentürme erschlossen. Dadurch        und in der Hofsituation sind wenig Aufenthaltsqualitäten auszumachen.
+sind die gewerblichen Erdgeschossnutzungen fast ausschliesslich zum      Die unterschiedlichen Aussenräume auf den gemeinschaftlichen
+Strassenraum hin orientiert. Das Preisgericht bezweifelt, dass durch     Dachterrassen wirken dagegen einladend und gemeinschaftsfördernd.
+diese Raumanordnung die gewünschte Belebung des Areals gewähr-           Die geforderten Voraussetzungen zum Identitätserhalt sind in der repe-
+leistet ist. Alle Wohnungen orientieren sich sowohl zum Hof wie zum      titiven Grossform jedoch nicht gegeben. Die Grundrisse sind sowohl im
+Strassenraum hin. Diverse Wohnungstypen werden durchgespielt. Fa-        Gewerbe- als auch in den Wohngeschossen determiniert und kaum an
+milien-, Modular-, Klein- und Atelierwohnungen wechseln sich ab. Diese   veränderte Bedürfnisse anpassbar.
+sind sauber durchgeplant.
+106
+107
+108
+D | DOKUMENTATION PROJEKTWETTBEWERB                                          109
+
+
+
+
+10 | PHOENIX                          Schneider Studer Primas GmbH, Zürich
+                                      Jens Studer
+
+
+
+
+Modell Grundkonzept                   Modell Variante höhere ÜZ
+110   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+      Mitarbeiter*innen
+      Samuel Aebersold
+      Yannick Dvorak
+      Roy Gehrig
+      Ivo Hasler
+      Sarah Infanger
+      Jessica Martins
+      Nicolas Rothenbühler
+D | DOKUMENTATION PROJEKTWETTBEWERB                                        10 | PHOENIX                                                             111
+
+
+
+
+Würdigung
+
+Der Projektentwurf zeichnet sich durch die Integration von Bestands-       Die hohe Dichte und kleinmassstäblichen Aussenräume führen zu einer
+bauten in die neue Überbauung aus. Die Setzung der Neubauten wird          Beengtheit und das Fehlen von grösseren Plätzen und Grünräumen wird
+mittels fünf Baufelder um die Bestandsbauten herum organisiert. Zwei       hinsichtlich einer Belebung als hinderlich angesehen. Zudem kann die
+quer zur Industriestrasse gestellte Neubauten öffnen das Areal zur In-     Abschottung des Käselagers mit dem Rossstall vom restlichen Areal
+dustriestrasse. Die Gebäudetypologien entlehnen sich den vorhande-         nicht nachvollzogen werden, insbesondere weil hier die publikumsin-
+nen Strukturen im Quartier und werden neu interpretiert. Ein Netz von      tensiven Nutzungen wie Restaurant, Gemeinschaftsraum, Konzertlokal,
+Gassen, Durchgängen und räumlichen Ausweitungen machen das Areal           Laden und eine Gassenküche untergebracht sind. Es wird verpasst,
+attraktiv durchwegbar. Das Baufeld mit Käselager, erweitertem Ross-        beim Käselager einen gemeinschaftsfördernden Ort mit öffentlichem
+stall und Garten bildet eine nahezu abgeschlossene Einheit. In ihm sind    Charakter zu bilden.
+das Restaurant, der Gemeinschaftsraum, ein Laden mit Gassenküche
+sowie das Konzertlokal untergebracht.                                      Die Nord-Süd gestellten Zeilenbauten des Baufelds 2 trennen das Areal
+                                                                           in zwei Teile und lösen sich in ihrer Eigenständigkeit aus dem Gesamt-
+Durch die Kleinmassstäblichkeit der Aussenräume und den Erhalt der         gefüge heraus. Der Zwischenraum der beiden Zeilenbauten wird mit
+Bestandsbauten ergibt sich eine heterogene Überbauung mit verwin-          einer gemeinsamen Erschliessungsstruktur aus Plattformen und Brü-
+kelten Gassenräumen, teilweise sehr engen Passagen und vielfältigen        cken bespielt. Durch den geringen Abstand der Zeilenbauten und die
+Sichtbezügen, was dem Areal einen introvertierten, altstadtartigen Cha-    Erschliessungsbrücken entstehen enge Zwischenräume mit ungünsti-
+rakter verleiht. Der Grünraum beschränkt sich auf zwei Aussenbereiche      gen Lichtverhältnissen. Zudem vermögen die grünen Aussenräume vor
+zur Seite der östlichen Nachbarparzelle an der Kellerstrasse und ist dem   dem Kindergarten und der Kita keine Qualitäten zu entwickeln. In Anbe-
+Kindergarten und der Kita zugeordnet. Einzelne Bäume findet man in         tracht dessen, dass beim Baufeld 2 der Anteil an Familienwohnungen
+den Gassenräumen.                                                          und somit an Kindern am höchsten ist, vermisst man den Aussenraum
+                                                                           für dieses Bewohnersegment gänzlich. Die Aussenräume des gesamten
+Die Idee des Weiterbauens im Bestand vermag in den differenten, klein-     Areals haben etwas Beliebiges und scheinen als Resträume der Bebau-
+massstäblichen Aussenräumen durchaus Qualitäten zu entwickeln. In          ungsstruktur entstanden zu sein.
+der Umsetzung der Idee stellen sich aber einige Fragen. Unter anderem
+die, wie mit der Bedeutung des Erhalts von Bestandsbauten umgegan-         Zu überzeugen vermögen die Grundrisse der Zeilenbauten und des Hof-
+gen werden soll, wenn davon auszugehen ist, dass diese sorgfältig ab-      gebäudes der Baufelder 2 und 3, sowie des Erweiterungsbaus über dem
+gebaut und nach der Erstellung der direkt angrenzenden Neubauten           Rossstall. Geschickte Zonierungen ergeben interessante Tagesberei-
+wieder erstellt oder rekonstruiert werden müssen. Wie rechtfertigt sich    che mit vielfältigen Sicht- und Raumbezügen. An die umlaufenden oder
+dadurch ihr Erhalt und der beträchtliche Aufwand dazu? Trotz der Ein-      brückenartigen Laubengangerschliessungen mit erweiterten Flächen
+bindung von Bestandsbauten bleibt der Ansatz zum Identitätserhalt          für gemeinschaftliche Nutzungen stossen weitgehend Tagesräume
+oberflächlich und vermag keine tragende Kraft zur Bildung einer erwei-     an, was die Nachbarschaftspflege begünstigt. Die Nachtbereiche sind
+terten Identität zu entwickeln.                                            entweder an den Aussenseiten der Gebäude angeordnet oder werden
+                                                                           durch die laubengangartige Erschliessung nicht tangiert. Weniger über-
+                                                                           zeugen vermögen die Grundrisse der Neubauten auf den Baufeldern 4
+112   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+      und 5, die um die Bestandsbauten herum organisiert sind. Enge Treppen-
+      häuser erschliessen Wohnungen mit schmalen, langen Korridoren und
+      mit schwierigen Lichtverhältnissen. Gebäude wie Grundrisse vermögen
+      nicht mehr dieselben Qualitäten zu generieren, wie bei den Baufeldern
+      2 und 3. Zum Teil scheint dies der Integration der Bestandsbauten ge-
+      schuldet zu sein. Hingegen sind gemeinsam genutzte Dachterrassen
+      mit Sommerküchen bei mehreren Baufeldern positiv zu würdigen.
+
+      Die Projektverfasser schlagen zur höheren Dichte eine ÜZ von 0.54 vor,
+      was zu einem grösseren Fussabdruck der Gebäude und den Verzicht auf
+      Erhalt von Bestandsbauten führt. Dies würde eine Einbusse an aussen-
+      räumlichen Qualitäten und Verschlechterung der Belichtung bedeuten.
+      Aus diesen Gründen sehen die Projektverfasser keine Vorteile in einer
+      Erhöhung der ÜZ. Diese Einschätzung teilt auch das Preisgericht.
+
+
+
+      Soziale Nachhaltigkeit
+
+      Dieses Projekt versucht die Identität durch Stehenlassen und Zitieren
+      des Bestehenden zu bewahren. Die Aussenräume sind grundsätzlich
+      durchlässig, wirken insgesamt aber eher abgeschlossen. Es handelt
+      sich hierbei vor allem um Gassenräume und weniger um Plätze mit Auf-
+      enthaltsqualitäten – entsprechend rar sind auch Grünräume für Begeg-
+      nung und Nachbarschaftsleben.
+113
+114
+115
+116   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+D | DOKUMENTATION PROJEKTWETTBEWERB                                        117
+
+
+
+
+11 | ROSA UND KARL                    Manetsch Meyer Architekten, Zürich
+                                      Lukas Meyer
+                                      Franziska Manetsch
+
+
+
+
+Modell Grundkonzept                   Modell Variante höhere ÜZ
+118   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+      Mitarbeiter*innen
+      Paulina Bonowicz
+      Elisavet Papadopoulou
+      Stamatina Lamprou
+      Costanza Quentin
+      Laura Bertschi
+
+      Holzbau:
+      Indermühle Bauingenieur, Thun
+      Mathieu Collioud
+
+      Bauphysik:
+      Gartenmann Engineering AG, Zürich
+      Ueli Berger
+D | DOKUMENTATION PROJEKTWETTBEWERB                                        11 | ROSA UND KARL                                                        119
+
+
+
+
+Würdigung
+
+Zwei Zeilenbauten aus je drei zueinander versetzten Gebäudekörpern         Wohnungen. Bedeutend bessere Qualitäten weisen die Grundrisse der
+gliedern das Areal in zwei Nord-Süd ausgerichtete Freiräume. Der eine      vorstehenden Kopfbauten auf. Gemeinschaftlich nutzbare Räume be-
+ist als urbaner Platzraum mit harter Oberfläche ausgebildet. Der andere    schränken sich auf Dachterrassen und angrenzende Gemeinschafts-
+entsteht im Dialog mit den östlichen Nachbarsbauten und ist als durch-     räume, die aber meist auch an Wohnungen angrenzen und daher Kon-
+grünte Gartenzone ausgebildet.                                             fliktpotential beinhalten.
+          Die Durchwegung in Querrichtung zwischen Industriestrasse und
+Kellerstrasse ist beim Käselager und zwei Erdgeschoss-Durchstichen bei     Die priorisierende Nord-Südausrichtung der Bauten und Freiräume mit
+den Zeilenbauten möglich und wird zu Gunsten der starken Gewichtung        gleichzeitiger Unterdrückung der West-Ost-Beziehung wird in Frage ge-
+der beiden Längsräume von Norden nach Süden vernachlässigt.                stellt. Insbesondere deshalb, weil von der Industriestrasse zur Keller-
+          Eine grosszügige und vielseitig nutzbare Pergola mit Bezug zum   strasse im Bereich der Zeilenbauten nur zwei beengende, unattraktive
+Restaurant bespielt den nördlichen Platzraum. Ein langes Wasserbecken      Querungsmöglichkeiten angeboten werden. Der Zeilenbau entlang der
+in der Mitte und eine sogenannte Dorflinde gegen Ende des Platzes lädt     Industriestrasse schottet das Areal gegen die Industriestrasse und das
+zum Verweilen ein. Im Süden schafft der L-förmige Zeilenbau eine Veren-    ewl-Areal ab und erschwert eine arealübergreifende Bezugnahme. Mit
+gung zum Geissensteinring und umfasst den Platz. Der Zeilenbau bildet      der Platzierung von Auto- und Veloabstellplätzen entlang der Industrie-
+auf die Industriestrasse mit Rücksprüngen Platz für Auto- und Veloab-      strasse und der Zufahrt zur Einstellhalle reagiert man eher abweisend
+stellplätze und schliesst den Platzraum zur Industriestrasse ab.           auf diese und negiert die Bemühungen, die Industriestrasse künftig als
+                                                                           Wohnstrasse zu gestalten. Damit schafft man mit dem neuen Platzraum
+Der grüne Freiraum ist als verwunschener Garten mit fliessendem Über-      gegenüber der Industriestrasse ohne Notwendigkeit eine Konkurrenz-
+gang zu den Gärten der Nachbarn ausgebildet. Kindergarten und Kita         situation. Es ist fraglich, ob der neue Platzraum den öffentlichen An-
+sind auf diesen ausgerichtet.                                              spruch und die entsprechende Belebung einzulösen vermag. Allenfalls
+         Von den Bestandsbauten wird einzig das Käselager erhalten, an     gelingt das im nördlichen Teil mit Restaurant und Pergola.
+dem bis auf die Unterbringung des Gemeinschaftsraums wenig verän-
+dert wird. Vor grösseren Eingriffen wird das Haus durch die Auslagerung    Der Projektvorschlag weist Qualitäten in grosszügigen Aussenräumen
+des Konzertlokals und des Restaurants in den benachbarten Neubau           und kompakten Gebäuden mit einer hohen Effizienzkennziffer auf. Zu-
+verschont.                                                                 dem lässt sich die Zuteilung der aneinandergereihten Baukörper an die
+                                                                           einzelnen Baugenossenschaften einfach und zweckmässig bewerk-
+Bis auf ein Gebäude mit Laubengangerschliessung weisen die Bau-            stelligen. Im städtebaulichen Grundmuster, im Anspruch an Durchläs-
+ten innenliegende Treppenhäuser auf. Der Laubengangtyp erschliesst         sigkeit und in der Befähigung, auf die Entwicklung der Industriestrasse
+West-Ost-orientierte Wohnungen über die ganze Gebäudetiefe mit             und des ewl-Areals reagieren zu können, vermag der Entwurf aber nicht
+schmalen Raumstrukturen. Durch die beträchtliche Gebäudetiefe erge-        zu überzeugen. Ausserdem fehlt dem Projektvorschlag eine gewisse
+ben sich ungünstig belichtete Mittelzonen, lange Erschliessungswege        Feingliedrigkeit und Differenziertheit in der Freiraumstruktur.
+und schwierig zu möblierende Räume. Auch bei den Bauten mit innenlie-                Die Projektverfasser schlagen schlagen zur möglichen Ver-
+genden Treppenhäusern trifft man auf ähnliche Situationen, sowohl bei      dichtung ein Hochhaus an der Ecke Industriestrasse/Geissensteinring
+den Durchschusswohnungen als auch bei den nur einseitig orientierten       vor. Die vorgeschlagene Höhe lässt allerdings Fragen zur Bedeutung ei-
+                                                                           nes derartigen Zeichens an diesem Ort aufkommen.
+120   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+      Soziale Nachhaltigkeit
+
+      Die zwei Grossstrukturen dieses Projekts sind wenig geeignet, Identität
+      zu schaffen und Nachbarschaft zu fördern. Das Käselager steht abge-
+      drängt am Rande, die Beiz selber ist im Neubau untergebracht. Die Aus-
+      senräume sind nur teilweise miteinander verknüpft und die Durchlässig-
+      keit funktioniert nur in nord-südlicher Richtung, nicht aber ost-westlich.
+      Die Zweiteilung der grossen Aussenräume lässt eine Hierarchie entste-
+      hen, deren Nutzbarkeit nicht ersichtlich ist.
+121
+122
+123
+124   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+D | DOKUMENTATION PROJEKTWETTBEWERB                               125
+
+
+
+
+12 | Wo ist Walter?                   :mlzd, Biel
+
+
+
+
+Modell Grundkonzept                   Modell Variante höhere ÜZ
+126   Projektwettbewerb | Entwicklung Areal Industriestrasse | Luzern
+
+
+
+
+      Mitarbeiter*innen
+
+      Marlis Rosenberger
+      Delphine Kohler
+      Magdalena Hasliner
+      Loubaba Al Rais
+      Sophie Lorenz
+      Claude Marbach
+      Daniele Di Giacinto
+      Pat Tanner
+      David Locher
+      Andreas Frank
+      Alexander Unsin
+      Marc Nussbaum
+      Pablo Grünig
+      Jonatan Anders
+D | DOKUMENTATION PROJEKTWETTBEWERB                                         12 | Wo ist Walter?                                                        127
+
+
+
+
+Würdigung
+
+Als städtebaulichen Ansatz schlägt das Projekt vor, mit vier Neubauten      Die Fassaden werden geprägt durch eine freie Anordnung von Loch-,
+einen länglichen Hof auszubilden, welcher parallel zur Industriestrasse     Band- und französischen Balkonfenstern und einer ergänzenden opa-
+in Nord-Süd-Richtung verläuft und im Süden zum Geissensteinring hin         ken Verkleidung mit nichttragenden, vorgefertigten Holzelementen. Das
+offen ist. Im Erdgeschoss wird diese Raumbildung durch querliegende         Verkleidungsmaterial wird jeweils von Gebäude zu Gebäude oder auch
+ein- bis zweigeschossige Sockelbauten überlagert und ergänzt, die in        innerhalb eines Gebäudes unterschieden, was im Grundsatz denkbar
+Ost-West-Richtung verlaufende Quergassen bilden. Dadurch entsteht           ist. Aufgrund der vorgeschlagenen Darstellungen vermisst man aber
+ein feingliedriges Netz aus Gassenräumen, welches mit den öffentli-         gestalterische Prinzipien, welche einen räumlichen Dialog zwischen
+chen Strassen verwoben ist und quer und parallel zur Industriestrasse       den Neubauten und eine klare Identität innerhalb des Areals herstellen
+eine starke, öffentliche Durchwegung durch das Areal erzeugt. Folge-        könnten.
+richtig sind alle Sockelbauten mit Gewerbenutzungen besetzt, welche
+die Freiräume beleben.                                                      Die Gebäude sind grundsätzlich kompakt ausgebildet. Sie weisen ein
+                                                                            gutes Verhältnis von verglasten zu opaken Wandteilen und sinnvolle
+Die Gassenräume wie der Längshof erscheinen aber in erster Linie als        Spannweiten für die Holzbauweise auf. Gesamthaft wäre daher für das
+Bewegungsräume und lassen beruhigte und attraktive Aufenthaltsorte          Projekt eine angemessene Wirtschaftlichkeit und eine gute Nachhaltig-
+vermissen. Die Quergassen dienen zudem als Vorräume zu Eingängen,           keit zu erwarten.
+als Einfahrt zur Einstellhalle oder als Parkplatz für Fahrräder und wei-
+sen kaum Aufenthaltsqualitäten auf. Ein für den Aufenthalt attraktiver      Mit der Anordnung der Gebäude und den daraus gebildeten Freiräumen
+Ort ist vor allem der grün gestaltete Hofbereich im Osten, welcher an       gelingt es nicht, einen Dialog zu den bestehenden Bauten oder eine in-
+die Grundstücke der Nachbarsbauten angrenzt. Sehr zu bedauern ist           nere Welt mit plausiblen und differenzierten Aufenthaltsorten zu schaf-
+auch, dass das bestehende, öffentlich bedeutende Gebäude des Käse-          fen, welche die sozialräumlichen Erwartungen erfüllen würden. Auch
+lagers zur neuen Anlage kaum in Beziehung treten kann und nur an de-        die Verdichtungsvorschläge für eine höhere Überbauungsziffer können
+ren Rande positioniert ist. Das nördliche, auf den Rossstall aufgestockte   diese räumlichen Defizite nicht aufwerten. Leider können die vorge-
+Wohngebäude rückt diesem zudem sehr nahe, was ortsbaulich proble-           schlagenen Wohnungsgrundrisse oder die Gestaltung der Fassaden
+matisch ist.                                                                auch keine charakteristische Identität erzeugen, wie sie für die Aufgabe
+                                                                            erwünscht gewesen wäre.
+Die Wohnbauten sind in den Obergeschossen als Mehrspänner oder
+über Laubengänge so organisiert, dass die Wohnungen mehrheitlich in
+Ost-West-Richtung und mindestens zweiseitig orientiert sind. Bei den
+tieferen Gebäudetypen entstehen aber Mittelzonen, die mit Tageslicht
+kaum zu versorgen sind. Auch das Vorlagern des Laubengangs vor pri-
+vate Balkonbereiche ist für die Belichtung der dahinterliegenden Räume
+sowie für die Privatheit eher ungünstig. Eine interessante Eigenheit bil-
+den allerdings die vier etwas knapp bemessenen Dachterrassen, von
+denen zwei über eine Hängebrücke verbunden sind.
+128
+129
+130
+

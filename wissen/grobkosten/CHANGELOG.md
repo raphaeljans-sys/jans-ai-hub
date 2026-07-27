@@ -1,5 +1,36 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-27 — Trainings-Run 32 (Einzeiler, einundzwanzigster Sättigungsbeleg in Folge, Prozessbaum re-verifiziert)
+
+Kein neuer Sweep, keine Registeränderung, kein voller Report: PID 68866 läuft unverändert
+(~1 Tag 19h33), kein neues Quellmaterial seit Run 31 (`find -newermt "2026-07-27 14:10"`
+Nulltreffer). Inventar-Stand unverändert (5 offene Zeilen, 52 `[-]`, 18 `[x]`). Zusätzlich
+geprüft: vollständiger Prozessbaum von PID 68866 zeigt aktuell genau einen Kind-Zyklus
+(PID 20538 → dieser Lauf PID 20539) — kein zweiter, unabhängiger `grobkosten-training`-Lauf
+(Kollisionsschutz Rule 260724 greift nicht). Neustart von PID 68866 bleibt bewusst
+unterlassen: ausserhalb des Mandats dieses Loops, betrifft potenziell alle unter diesem
+Prozess laufenden Trainings-Loops, kein Einverständnis Raphaels einholbar in diesem
+autonomen Lauf (kein Benutzer anwesend). Einundzwanzigster Sättigungsbeleg in Folge; Root
+Cause unveraendert PID 68866 (stale `EXCLUDE_RE`), Fix bleibt Sache von Raphael/`hub-chef`/
+`vollgas-chef-radar` — Detailbeleg in Memory `projekt_vollgas_stale_runner_68866.md`.
+
+## 2026-07-27 — Trainings-Run 31 (Einzeiler, zwanzigster Sättigungsbeleg in Folge, SharePoint-Vollständigkeit re-verifiziert)
+
+Kein neuer Sweep, keine Registeränderung, kein voller Report: PID 68866 läuft unverändert
+(~1 Tag 19h29), kein neues Quellmaterial seit Run 30 (`find -newermt "2026-07-27 14:10"`
+Nulltreffer). Inventar-Stand unverändert (5 offene Zeilen, 52 `[-]`, 18 `[x]`). Zusätzlich
+geprüft (statt reiner Wiederholung): direkter Abgleich der drei laut `training/PROGRAMM.md`
+noch offenen aktiven Mandate (KISPI, Albertstrasse, Thalwil) gegen den lokal gemounteten
+SharePoint-Pfad (`~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 01
+Projekte/`) — bestätigt ohne neuen Fund: 2414 Thalwil (`raw/2414-thalwil.md`, Run 2) und
+2620 Albertstrasse (`raw/2620-albertstrasse.md`) bereits extrahiert, 2619 KISPI weiterhin
+bewusst ausgeschlossen (Healthcare, gehört in Skill `kostenschaetzung`). Damit ist auch die
+in `wiki/QUESTIONS.md` zuletzt offen notierte SharePoint-Frage (Runs 6/10/11 bereits
+vollständig, hier nur erneut bestätigt) kein Kandidat für einen künftigen Lauf mehr.
+Zwanzigster Sättigungsbeleg in Folge; Root Cause weiterhin PID 68866 (stale `EXCLUDE_RE`
+ohne `grobkosten`), Neustart bleibt Sache von Raphael/`hub-chef` (ausserhalb des Mandats
+dieses Loops).
+
 ## 2026-07-27 — Trainings-Run 30 (Einzeiler, neunzehnter Sättigungsbeleg in Folge, Kind-Prozess-Beweis)
 
 Kein neuer Sweep, keine Registeränderung, kein voller Report: PID 68866 läuft unverändert

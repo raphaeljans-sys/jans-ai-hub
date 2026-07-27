@@ -4,6 +4,17 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-27 — Buch-Run 61 (Festigungsmodus, Priorität c: Natur- und Denkmalschutz vollständig re-verifiziert)
+- [verifikation] **`wiki/naturschutz-und-denkmalschutz.md`** — vollständiger Modell-D-
+  Wortlautabgleich aller 14 zitierten PBG-§§ (203/204/205/207/208/209/210/211/213/216/217/
+  238a/50/76/338b) gegen `raw/260607_amtlich_zh_pbg.md` sowie beider KNHV-§§ (10/12) gegen
+  `raw/260714_amtlich_zh_knhv.md`. **Alle 16 Fundstellen CONFIRMED, 0 Korrekturen, 0
+  Halluzinationen.** `verifiziert`-Feld um Prüfeintrag ergänzt. Report
+  `outputs/2026-07-27_buch-run61.md`.
+- [ergänzung] **`training/drills.md`** — 3 neue Drill-Karten (2×C, 1×D) zu § 209/§ 213 PBG
+  und KNHV § 12.
+- [register] `wiki/QUESTIONS.md`, `training/PROGRAMM.md` (Tracker Run 61) nachgeführt.
+
 ## 2026-07-27 — Buch-Run 60 (Festigungsmodus, Priorität a: Behindertenparkplatz-Kennwert-Herkunft geklärt + Priorität c: Wohnhygiene/Raumanforderungen re-verifiziert)
 - [korrektur] **`wiki/fahrzeugabstellplaetze-und-parkierung.md`** — Cross-KB-Frage (Wissens-Chef
   Run 11, 21.07.2026) zur Herkunft des Behindertenparkplatz-Kennwerts («1 je 25 Wohnungen +

@@ -1,5 +1,18 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## 2026-07-27 (Buch-Run 61, Festigungsmodus, Priorität c) — naturschutz-und-denkmalschutz vollständig re-verifiziert
+
+[[naturschutz-und-denkmalschutz]] (eines von drei Artikeln mit ältestem `verifiziert`-Datum
+2026-07-14) einem vollständigen Modell-D-Wortlautabgleich unterzogen: alle 14 zitierten
+PBG-Paragraphen (§§ 203/204/205/207/208/209/210/211/213/216/217/238a/50/76/338b) gegen
+`raw/260607_amtlich_zh_pbg.md` sowie beide zitierten KNHV-Paragraphen (§ 10/§ 12) gegen
+`raw/260714_amtlich_zh_knhv.md` geprüft. **Alle 16 Fundstellen CONFIRMED, 0 Korrekturen.**
+Insbesondere bestätigt: § 209 Abs. 1/4/5 PBG tatsächlich aufgehoben (nur Abs. 2/3 in Kraft),
+§ 213 Abs. 3 PBG trägt die im Artikel zitierte «+1 Jahr»-Erstreckungsklausel wortgleich
+(gilt für den Provokationsentscheid, nicht für § 209), § 238 Abs. 3 PBG aufgehoben zugunsten
+§ 238a. Fassungsstand PBG weiterhin Nachtrag 133, keine Drift. Details:
+`outputs/2026-07-27_buch-run61.md`.
+
 ## 2026-07-27 (Buch-Run 60, Festigungsmodus, Priorität a) — Behindertenparkplatz-Kennwert-Herkunft geklärt; Priorität c: wohnhygiene-und-raumanforderungen re-verifiziert
 
 **Priorität (a):** Die seit 2026-07-21 (Cross-KB Wissens-Chef Run 11) offene Frage zur

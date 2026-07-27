@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-27 (Run 60)
+last_updated: 2026-07-27 (Run 61)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -113,6 +113,20 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 61 (2026-07-27, Festigungsmodus, Priorität (c) Stichproben-Re-Verifikation, kein
+    Agent-Fan-out):** [[naturschutz-und-denkmalschutz]] gewählt (eines von drei Artikeln mit
+    ältestem `verifiziert`-Datum 2026-07-14, breitester Paragraphen-Fächer). Vollständiger
+    Modell-D-Wortlautabgleich aller 14 zitierten PBG-§§ (203/204/205/207/208/209/210/211/213/
+    216/217/238a/50/76/338b) gegen `raw/260607_amtlich_zh_pbg.md` sowie beider KNHV-§§
+    (10/12) gegen `raw/260714_amtlich_zh_knhv.md`. **Alle 16 Fundstellen CONFIRMED, 0
+    Korrekturen, 0 Halluzinationen.** Bemerkenswert bestätigt: § 209 Abs. 1/4/5 PBG
+    tatsächlich aufgehoben (nur Abs. 2/3 in Kraft), § 213 Abs. 3 PBG trägt die «+1 Jahr»-
+    Erstreckungsklausel wortgleich (gilt nur für den Provokationsentscheid, nicht analog
+    zwingend für § 209), § 238 Abs. 3 PBG aufgehoben zugunsten § 238a. Fassungsstand PBG
+    weiterhin Nachtrag 133, keine Drift gegenüber Run 58/59/60. Kein Register-Sweep nötig (0
+    Fehler). 3 neue Drill-Karten (2×C, 1×D). Report `outputs/2026-07-27_buch-run61.md`.
+    **Nächster Schritt:** verbleibende Priorität-(c)-Kandidaten mit `verifiziert`-Datum
+    2026-07-14 (`baulinien-und-abstandslinien`/`raumplanung-und-gestaltung`).
   - **Run 60 (2026-07-27, Festigungsmodus, Priorität (a) Cross-KB-Frage SIA-500-Kennwert +
     Priorität (c) Stichproben-Re-Verifikation, kein Agent-Fan-out):** Die seit 2026-07-21
     (Wissens-Chef Run 11) offene Cross-KB-Frage zur Herkunft des Behindertenparkplatz-
