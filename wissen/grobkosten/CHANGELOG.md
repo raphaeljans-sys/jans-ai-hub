@@ -1,5 +1,15 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-27 — Trainings-Run 30 (Einzeiler, neunzehnter Sättigungsbeleg in Folge, Kind-Prozess-Beweis)
+
+Kein neuer Sweep, keine Registeränderung, kein voller Report: PID 68866 läuft unverändert
+(~1 Tag 19h23), kein neues Quellmaterial seit Run 29 (`find -newermt "2026-07-27 14:10"`
+Nulltreffer). Inventar-Stand unverändert (5 offene Zeilen, 52 `[-]`, 18 `[x]`). Neu belegt:
+der vermeintliche Zweitprozess (PID 19219, gestartet 14:14:31) ist per `ps -o ppid` explizit
+als **Kind-Prozess von PID 68866** verifiziert (PPID 68866) — kein unabhängiger Zweitlauf,
+sondern derselbe stale Runner, der weiterhin im Minutentakt neue Zyklen spawnt. Neunzehnter
+Sättigungsbeleg in Folge.
+
 ## 2026-07-27 — Trainings-Run 29 (Einzeiler, achtzehnter Sättigungsbeleg in Folge)
 
 Kein neuer Sweep, keine Registeränderung, kein voller Report: PID 68866 läuft unverändert
