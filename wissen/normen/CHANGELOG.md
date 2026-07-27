@@ -1,3 +1,51 @@
+## 2026-07-27 — Run 32: 8 parallele Refuter-Agenten — dritte Runde (5 Destillate) + erste unabhaengige Runde (3 neue Destillate), 2x established
+
+**Anlass.** Run 31 hinterliess acht offene Verifikations-Auftraege: fuenf am selben Tag zweimal
+beanstandete Destillate brauchten eine dritte Runde, drei neu erstellte Destillate hatten bisher
+nur eine Selbst-Gegenprobe des Erstellers. Alle acht wurden als parallele, unabhaengige
+Refuter-Agenten gefahren (Workflow-Tool im Scheduled-Task-Kontext weiterhin nicht verfuegbar,
+Fallback direkte Parallel-Agenten gemaess PROGRAMM.md bestaetigt).
+
+**Zwei Destillate erreichen einen sauberen Nulldurchgang -> `established`:**
+- `vkf-allgemein-anerkannte-bauprodukte-2017.md` — 0 Befunde (alle 12 Seiten/9 Tabellen zellenweise
+  per Seitenbild geprueft, MD5 des Quell-PDF bitweise bestaetigt; die 5 Selbst-Gegenprobe-Korrekturen
+  vom selben Tag hielten allesamt stand).
+- `vkf-ah-1001-15-wohnbauten.md` — 0 Befunde in der ersten unabhaengigen Pruefung des am selben Tag
+  eingearbeiteten Fassungs-Deltas 2015->2017/2018 (~40 Aenderungen inkl. 5 farbcodierter Tabellen,
+  pixelgenau nachgerendert).
+
+**Ein Destillat mit geringfuegigen Befunden, Status unveraendert:**
+- `brandschutzfachstellen-anleitung-brandschutznachweis-v3.md` — 3 Befunde (schwerster: die
+  Frontmatter-Herausgeberzeile nannte die volle Bezeichnung "NSV Nidwaldner Sachversicherung",
+  obwohl die Logoleiste S.1 nur die Bildmarke "NSV" zeigt), korrigiert; bleibt `emerging`.
+
+**Fuenf Destillate bleiben `speculative`, aber mit klar sinkender Fehlerzahl je Runde:**
+- `brandschutzplan-legende-symbole-2017.md` — 4 Befunde (schwerster: die Behauptung, Handfeuerloescher-
+  Symbole zeigten den Brandklassenbuchstaben nicht direkt, ist am Bild widerlegt).
+- `sia-d0165-2000-kennzahlen-immobilienmanagement.md` — dritte Runde, 4 weitere Befunde (schwerster:
+  GEFMA-Code 450 "Dienste in Aussenanlagen" falscher Kontenklasse 5xx statt 4xx zugeordnet), KEINE
+  Regression — insbesondere die Runde-2-korrigierte BKP-19-99/EKG-W1-W6-Stelle erneut bestaetigt.
+- `lignum-4-2-anschluesse-feuerwiderstand.md` — dritte Runde, 3 weitere Befunde (schwerster: EI30/EI60-
+  Beplankungsdicken Kap. 4.4.2/4.4.3 vertauscht), Runden 1+2 hielten vollstaendig stand.
+- `lignum-lignatec-brandschutz.md` — dritte Runde, nur noch **1 Befund** (Tab. 4 Korridor-Eckwert MFH
+  5-6 Geschosse: Bindestrich statt Schraegstrich, per 600-dpi-Nachrender bestaetigt) — nach 17 Befunden
+  in Runde 2 eine deutliche Konvergenz.
+- `lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md` — dritte Runde, 5 weitere Befunde
+  (schwerster: Brandschutzbekleidungsklassen K30/K60-RF1 unbelegt mit Bauteil-Feuerwiderstandsklassen
+  EI30/EI60-RF1 gleichgesetzt), keine Regression der 26 Run-31-Korrekturen.
+
+**VKF-Merkblatt 2003-15 bestaetigt nicht im Bestand.** Gezielte Suche (`find`) ueber PL-02 UND PL-03,
+alle Unterordner: die von Run 31 als Bring-Schuld gefuehrte Primaerquelle fuer Brandschutzplan-Symbolik
+existiert im Haus nicht. Bleibt externe Beschaffung; der amtliche Status von
+`brandschutzplan-legende-symbole-2017.md` bleibt deshalb unbestaetigt.
+
+**Zwei Strukturentscheide aus Run 31 unveraendert offen bei Raphael** (nicht vom Loop loesbar):
+Reichweite des Inventars auf ~680 bisher nie gescannte PL-02-Ordner ausweiten? `established`
+kuenftig an einen sauberen Nulldurchgang statt an eine bestandene Korrekturrunde binden? Dieser Lauf
+wendet die bestehende Konvention (eine bestandene Runde -> established) unveraendert an, um dem
+Entscheid nicht vorzugreifen. Details `wiki/QUESTIONS.md` Abschnitt "Run 32",
+Report `outputs/2026-07-27_normen-nacht-run32.md`.
+
 ## 2026-07-27 — Run 31: Retro-Verifikation (5 Destillate, 78 Befunde, 2 Regressionen), Fassungs-Delta VKF-AH 1001-15, 3 neue Destillate, zwei Reichweiten-Luecken geschlossen
 
 **Vertiefungsstufe (b) — Retro-Verifikation.** Fuenf unabhaengige Widerlegungs-Agenten gegen die

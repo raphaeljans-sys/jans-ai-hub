@@ -1,5 +1,52 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-27 — Refuter-Verifikation Brisgi-Areal Baden (draft → established)
+- `wiki/extern/jurybericht-brisgi-areal-baden.md` unabhaengig gegen den Volltext-Extrakt
+  geprueft (Abgleich aller laufenden Seitenmarker 4 bis 46). 21 Korrekturen, davon 5 gewichtig:
+  (1) Ueberdehnung «dies verhinderte laut Jury den 1. Rang» bei UNA CITTADINA VERA — der
+  Bericht sagt nur, das Projekt habe hinsichtlich der staedtebaulichen Gesamtkonzeption nicht
+  hinreichend zu befriedigen vermocht (S. 15). (2) Ueberdehnung «Aussenraum bei KEINEM der
+  zehn Projekte als ueberzeugend geloest attestiert» — widerlegt durch die Einzelwuerdigungen
+  LUCUS (S. 22) und UNA CITTADINA VERA (S. 27); der Sammelbefund S. 17 steht dazu unaufgeloest
+  im Bericht. (3) Der Guggach-II-Direktvergleich in Regel 1 verglich Ungleiches (Programm-
+  Anforderung vs. Jury-Feststellung) und wurde als Hypothese gekennzeichnet. (4) Vier
+  Seiten-Drifts: KANDALAMA Lauben S. 19 → S. 18, Grundrisstypologie S. 19 → S. 18-19,
+  UNA CITTADINA VERA «reges Leben» S. 27 → S. 26, TREFIORI-Besonnungsmangel S. 45 → S. 44-45.
+  (5) LINDGREN & JACOBSEN S. 41 → S. 40 und NEIGHBOURHOOD S. 43 → S. 42 (Folgeseiten tragen
+  nur Abbildungen; gleiches gilt fuer I SUOI FRATELLI S. 39).
+- Kennwerte Zahl fuer Zahl bestaetigt: Areal 6.5 ha (S. 4), HNF-Ziel 15'000 m² (S. 12),
+  Wohnungsspiegel je Typ (S. 13, Prozentsumme 100 %), Entschaedigung CHF 260'000 / CHF 8'500
+  (S. 9), Preisgelder 65/55/30/25 Tsd. (S. 15), Stiftungskapital CHF 10 Mio. (S. 5). Praezisiert:
+  «exkl. MwSt.» ist nur fuer Gesamtbetrag und feste Entschaedigung belegt, nicht an der
+  Preistabelle; Entschaedigungsrest war fuer 3 bis 6 Preise und Ankaeufe bestimmt.
+- Die Entscheidung des Destillations-Agenten, den laufenden Seitenmarkern statt dem
+  Inhaltsverzeichnis zu folgen, wurde unabhaengig nachgeprueft und BESTAETIGT (Marker
+  lueckenlos 4 bis 46; TOC nur bei den sechs nicht rangierten Projekten um zwei Seiten
+  versetzt, zusaetzlich «Erschliessung und Parkierung» S. 11 statt S. 12).
+- Status `draft` → `established`.
+
+## 2026-07-27 — Refuter-Verifikation Koch-Areal Albisrieden/Altstetten (draft → established)
+- `wiki/extern/jurybericht-koch-areal-albisrieden-altstetten.md` unabhaengig gegen den
+  Volltext-Extrakt geprueft (Seiten-Fussmarker-Abgleich ueber alle 47 extrahierten Seiten).
+  13 Korrekturen, davon 3 gewichtig: (1) Sachfehler zu A8 «LA CUISINE» — das Preisgericht
+  nahm dieses Projekt wegen des nicht korrigierbaren baurechtlichen Verstosses von der
+  Preiserteilung AUS (S. 26) und vergab folgerichtig einen Ankauf statt eines Preises; das
+  Destillat behauptete die Zulassung zur Preiserteilung und leitete daraus eine falsche Regel
+  ab (Regel 8 neu gefasst, Regel 9 ergaenzt). (2) QP7 «#SYNANTHROP» faelschlich als im
+  2. Wertungsrundgang ausgeschieden gefuehrt — es war in der engeren Wahl und erhielt den
+  4. Rang/4. Preis. (3) Ueberdehnte Behauptung, das «Freispielen» sei baufeldueber-
+  greifendes Qualitaetsmerkmal der Siegerprojekte (belegt nur fuer Baufeld C und die
+  Schlussfolgerungen zum Gesamtareal).
+- Weiter: Seiten-Drift korrigiert (Vorpruefungs-Entscheid Baufeld A S. 25 → S. 21/26;
+  Raumprogramm C S. 11-13 → S. 12-13; 70-Meter-Aussage S. 33-34 → S. 34; BIG FRIENDLY GIANT
+  S. 32 → S. 32-33; A8/B8-Ankaufsnotiz S. 25-27 → S. 26-27); Vorpruefung Quartierpark ist
+  nicht zweiteilig; Beurteilungskriterien sind je Baufeld unterschiedlich besetzt (nicht
+  «einheitlich»); unbelegte Zonen-Schlussfolgerung als Inferenz markiert; Preisgericht je
+  Teilverfahren neu belegt aus S. 20 + Unterschriftenseiten S. 44-47 ergaenzt.
+- Die im Destillat dokumentierte Extrakt-Grenze (nur Kapitel 1-10, S. 1-47; Einzelprojekt-
+  seiten ab S. 49/81/141/209/275 fehlen) wurde verifiziert; es stehen keine Aussagen im
+  Text, die aus nicht vorhandenen Seiten stammen muessten.
+
 ## 2026-07-27 — Etappe 3 Wohnungsbau B2/B3 Tranche 1 (3 Destillate, alle established)
 - Aus der B1-Reserveliste (`outputs/2026-07-26_etappe3-wohnungsbau-sweep.md`, empfohlener
   9er-Batch) traeger-gespreizt beschafft: **reichenbachstrasse-118-bern** (stadt-gemeinde,

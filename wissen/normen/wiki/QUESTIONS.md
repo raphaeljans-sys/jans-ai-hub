@@ -1207,3 +1207,36 @@ aus der Recht-KB hier angekommen.
 **Gegenrichtung, ebenfalls Run 15:** die hier geführte Bring-Schuld «Volltext SIA 380/1:2016
 beschaffen» (QUESTIONS `:558`) nennt als Adressaten nur `energie-berater`/`planungsgrundlagen` —
 `baurecht` führt SIA 380/1 jedoch ebenfalls und ist mit-adressiert.
+
+## Run 32 (MacBook Pro, 27.07.2026) — Verifikations-Vertiefung statt neuer Destillate
+
+Acht parallele Refuter-Agenten haben die Run-31-Folgeaufgaben abgearbeitet: dritte
+Verifikationsrunde für die fünf am 27.07. korrigierten Destillate, erste unabhängige Runde für
+die drei neu erstellten. Ergebnis: zwei established (`vkf-allgemein-anerkannte-bauprodukte-2017.md`,
+`vkf-ah-1001-15-wohnbauten.md`, beide 0 Befunde), ein `brandschutzfachstellen-anleitung-…-v3.md`
+mit 3 geringfügigen Befunden (bleibt emerging), fünf weiterhin `speculative` — aber mit klar
+sinkender Fehlerzahl je Runde (26→5, 18→3, 17→1, 17→4, 4→4 grob stabil). Details je Destillat in
+`training/norm-inventar.md` (Run-32-Eintrag) und in den einzelnen Destillaten selbst (Abschnitt
+„Verifikationsstand"/Frontmatter `status:`).
+
+- [x] 260727 **VKF-Merkblatt 2003-15** «Brandschutzpläne, Flucht- und Rettungswegpläne,
+  Feuerwehrpläne» gezielt gesucht (`find` über PL-02 UND PL-03, alle Unterordner inkl.
+  `05 Arbeitshilfen Brandschutz 2015`, `03 Verzeichnisse`, `04 Erläuterungen`, `00 Brandschutzplaene
+  bsvonline.ch`): **nicht im Bestand**. Bleibt externe Bring-Schuld (VKF-Shop/-Portal). Damit
+  bleibt der amtliche Status von `brandschutzplan-legende-symbole-2017.md` unbestätigt.
+- [ ] **Regionale Geltung der beiden neuen Arbeitshilfen** (`brandschutzfachstellen-anleitung-…`,
+  `brandschutzplan-legende-symbole-2017.md`): Herausgeber sind sechs Zentralschweizer
+  Fachstellen (NSV, GVL, Kt. Schwyz/Obwalden/Uri, GVZG Zug). Für ZH-Projekte (JANS-Kerngeschäft)
+  ungeprüft, ob die Gebäudeversicherung Kanton Zürich (GVZ) abweichende formelle Vorgaben zu
+  Brandschutznachweis-Verfahren oder Plansymbolik kennt. Vor Verwendung in einem ZH-Projekt
+  gegenprüfen.
+- [ ] **Offen aus Run 31, unverändert (Strukturentscheide bei Raphael, nicht vom Loop lösbar):**
+  (1) Soll die Reichweite des Inventars auf die ~680 bisher nie gescannten PL-02-Ordner
+  ausgeweitet werden (normrelevanter Kern: BfU, GVZ, Suva, SWKI, Suissetec, VSA, PAVIDENSA,
+  Sanitäreinrichtung — grösstenteils aber Fremd-KB-Zuständigkeit)? (2) Soll `established`
+  künftig einen sauberen Nulldurchgang statt einer bestandenen Korrekturrunde verlangen? Dieser
+  Lauf hat die bestehende Konvention (eine bestandene Runde → established) unverändert
+  angewendet, um dem Entscheid nicht vorzugreifen.
+- [ ] **Vierte Runde** für die fünf weiterhin speculativen Destillate ist angesichts der
+  sinkenden, aber nicht auf null gelaufenen Fehlerzahlen (insbesondere `lignum-lignatec-…`
+  mit nur noch 1 Befund) naheliegend — voraussichtlich nächster Batch für diese Vertiefungsstufe.

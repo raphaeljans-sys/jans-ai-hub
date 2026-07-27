@@ -1,10 +1,11 @@
 ---
 title: "Extern-Jurybericht: Genossenschaftliches Wohnen am Walkeweg, Basel — offenes, zweistufiges Varianzverfahren, 2. Stufe Studienauftrag (2022/2023)"
-status: draft
+status: established
 last_updated: 2026-07-27
+verified: "Refuter-Prüfung 27.07.2026 gegen den vollständigen Text-Extrakt (1767 Zeilen): 14 Korrekturen, davon 9 Seiten-Drift (Vorprüfung/Jurierung S. 10-11 → S. 11; Die Libellen S. 69 → S. 68 bzw. S. 68 → S. 69; über den walken Nachhaltigkeit S. 44 → S. 45; POLYKATOIKIA HNF/GF und Wohnungsspiegel S. 28-29 → S. 29), 3 sachliche Zuschreibungen (Graue Energie = Zielvorgaben der Bauherrschaft statt SIA 2040 bei Werden & Wandeln/WALKIE TALKIE/Flickwerk; «etwa 150 Wohnungen» nicht dem Bebauungsplan zugeschrieben; Würdigungen sind Text des Gremiums, nicht der Projektverfassenden), 2 Überdehnungen entschärft («stimmberechtigt», «einziges Projekt» als Eigenauswertung markiert). Eigenrechnung 8 × CHF 35'000.- = CHF 280'000.- rechnerisch bestätigt und als nicht im Bericht ausgewiesen gekennzeichnet."
 sources:
   - "https://espazium.s3.eu-central-1.amazonaws.com/files/2023-08/basel-walkeweg-jurybericht-2-stufe.pdf (Jurybericht Genossenschaftliches Wohnen am Walkeweg, Basel, offenes zweistufiges Varianzverfahren, 2. Stufe Studienauftrag; Herausgeberin ARGE Walke [Genossenschaft GEWONA Nord-West, Basel + Genossenschaft zimmerfrei, Basel]; Redaktion Lelia Bollinger/Isabel Cruz, planzeit GmbH; Beurteilungsgremium tagte 25.11.2022, Bericht datiert Basel, den 03.01.2023, 84 Seiten, abgerufen 2026-07-27)"
-  - "Text-Extrakt: /Volumes/daten/jans-ai-hub/wissen/wettbewerbs-dna/raw/extern-jurybericht-walkeweg-basel-genossenschaft-2.txt (pdftotext -layout, vollständig gelesen, 1767 Zeilen. Seiten-Fussmarker 'N/84' systematisch ausgewertet: jeder Marker markiert das ENDE der Seite N, der unmittelbar danach folgende Fliesstext gehört zu Seite N+1 — nach dieser Regel wurden alle Zitate in diesem Artikel den Fliesstextseiten zugeordnet, nicht den vorangehenden Bild-/Plan- oder Credits-Seiten)"
+  - "Text-Extrakt: /Volumes/daten/jans-ai-hub/wissen/wettbewerbs-dna/raw/extern-jurybericht-walkeweg-basel-genossenschaft-2.txt (pdftotext -layout, vollständig gelesen, 1767 Zeilen. Seiten-Fussmarker 'N/84' systematisch ausgewertet: jeder Marker markiert das ENDE der Seite N, der unmittelbar danach folgende Fliesstext gehört zu Seite N+1 — nach dieser Regel wurden alle Zitate in diesem Artikel den Fliesstextseiten zugeordnet, nicht den vorangehenden Bild-/Plan- oder Credits-Seiten. Korrektur 27.07.2026: die Regel war im ersten Destillat nicht durchgehend angewandt — neun Seitenangaben wurden in der Refuter-Prüfung berichtigt, siehe Feld 'verified')"
 links:
   - "[[muster/jury-argumente-wohnungsbau]]"
   - "[[muster/delta-zum-ersten-rang]]"
@@ -17,15 +18,18 @@ links:
 Dieser Bericht dokumentiert **ausschliesslich die zweite Stufe (Studienauftrag)**. Die erste,
 anonyme Stufe wurde laut Einleitung «bereits mittels Jurybericht dokumentiert» (S. 5) — dieser
 erste Bericht liegt der vorliegenden KB nicht vor und ist nicht Teil dieses Destillats. Aus der
-ersten Stufe gingen 8 Teams in die zweite Stufe über (S. 5, S. 9). Die zweite Stufe ist, anders
-als die erste, **nicht anonym**: jedes Projekt trägt im Bericht den vollen Team-Verfassernamen
-(Architektur/Landschaft/Holzbau, teils Brandschutz/Nachhaltigkeit/Gebäudetechnik/Soziologie,
-S. 14-16). Mehrere Projektverfasser verweisen im eigenen Fliesstext explizit auf ihre
-Weiterentwicklung gegenüber der ersten Stufe (Begriffe im Bericht: «Skizzenwettbewerb»,
-«Skizzenpräqualifikation», «Zwischenkritik», «erste Stufe») — diese Stellen sind unten je Projekt
-eigens ausgewiesen. Das Siegerprojekt «Werden & Wandeln» dagegen erwähnt in seiner eigenen
-Fliesstext-Würdigung keine Bezugnahme auf die erste Stufe; ob und wie es sich seit Stufe 1
-veränderte, ist aus diesem Bericht allein nicht ersichtlich (siehe «Offene Punkte»).
+ersten Stufe gingen 8 Teams in die zweite Stufe über (S. 5, S. 9). Ausdrücklich als **anonym**
+bezeichnet der Bericht nur die **erste** Stufe (S. 5, S. 9); für die zweite Stufe weist er jedes
+Projekt mit vollem Team-Verfassernamen aus (Architektur/Landschaft/Holzbau, teils Brandschutz/
+Nachhaltigkeit/Gebäudetechnik/Soziologie, S. 14-16). *Korrektur 27.07.2026: die frühere Formulierung
+«die zweite Stufe ist nicht anonym» war eine Ableitung, der Bericht sagt das nicht wörtlich.*
+Mehrere **Projektwürdigungen des Gremiums** nehmen explizit Bezug auf die Weiterentwicklung
+gegenüber der ersten Stufe (Begriffe im Bericht: «Skizzenwettbewerb», «Skizzenpräqualifikation»,
+«Zwischenkritik», «erste Stufe») — diese Stellen sind unten je Projekt eigens ausgewiesen
+(*Korrektur 27.07.2026: die Würdigungen sind Text des Beurteilungsgremiums, nicht der
+Projektverfassenden*). Die Würdigung des Siegerprojekts «Werden & Wandeln» enthält dagegen keine
+Bezugnahme auf die erste Stufe; ob und wie es sich seit Stufe 1 veränderte, ist aus diesem Bericht
+allein nicht ersichtlich (siehe «Offene Punkte»).
 
 ## Verfahren / Auslober / Jahr / Bauaufgabe
 
@@ -47,8 +51,11 @@ veränderte, ist aus diesem Bericht allein nicht ersichtlich (siehe «Offene Pun
   schliesst dafür mit der Einwohnergemeinde (Finanzvermögen) einen «partnerschaftlichen
   Baurechtsvertrag PLUS» ab (S. 6). Ziel: ein nach Alter, Herkunft und Einkommen durchmischter
   Lebensraum mit Mehrgenerationen-Gedanke, vielfältigem Wohnungsangebot, gemeinschaftlich
-  genutzten Innen-/Aussenflächen und quartierbezogenen Gewerbeflächen (S. 5-6). Zielgrösse laut
-  Bebauungsplan: rund 150 Wohnungen für das gesamte Baufeld (S. 7). Leitmotiv der Stadt Basel
+  genutzten Innen-/Aussenflächen und quartierbezogenen Gewerbeflächen (S. 5-6). Zielgrösse: «etwa
+  150 Wohnungen», die im Projekt Walke geplant und realisiert werden sollen (S. 7). *Korrektur
+  27.07.2026: die Zahl ist im Bericht nicht dem Bebauungsplan zugeschrieben — im Bebauungsplan
+  verankert ist laut Text die Zielsetzung «Low-Cost – Low Energy», nicht die Wohnungszahl.*
+  Leitmotiv der Stadt Basel
   bereits im städtebaulichen Studienauftrag verankert: «Low-Cost – Low Energy», umzusetzen über
   moderaten Ausbaustandard, flächenoptimierte Grundrisse und geringen privaten Flächenverbrauch
   (Suffizienz); die Überbauung ist als Holzbau vorgesehen, Sharingangebote und lokale
@@ -63,7 +70,8 @@ veränderte, ist aus diesem Bericht allein nicht ersichtlich (siehe «Offene Pun
   im Bericht genannt (anders als beim Referenzfall Guggach II) — die einzige konkret genannte
   baurechtliche Kennzahl ist der «gesetzlich vorgegebene Lichteinfallswinkel von 45 Grad»
   (POLYKATOIKIA-Würdigung, S. 28; als Anforderung bestätigt auch in der Würdigung von Die Libellen,
-  S. 69, dort als nicht eingehalten kritisiert).
+  S. 68, dort als nicht eingehalten kritisiert). *Korrektur 27.07.2026: Seitenangabe Libellen von
+  S. 69 auf S. 68 berichtigt (Abschnitt «Funktionalität/Betrieb» steht vor dem Fussmarker 68/84).*
 - Beurteilungskriterien, ohne Gewichtung («Reihenfolge entspricht keiner Gewichtung», Gesamtwertung
   vorgenommen, S. 9): Städtebau, Architektur, Freiraum, Holzbau (Einbindung in städtebaulichen/
   baulichen Kontext; architektonische Qualität/Ausdruck; Qualität/Nutzbarkeit der Freiräume;
@@ -81,30 +89,35 @@ veränderte, ist aus diesem Bericht allein nicht ersichtlich (siehe «Offene Pun
   Nord-West), Vedrana Žalac (Vorstandsmitglied Zimmerfrei); Experten — Jürg Degen (Leiter Abteilung
   Städtebau, Städtebau & Architektur, Bau- und Verkehrsdepartement Kt. Basel-Stadt), Remo Thalmann
   (Nachhaltigkeit, ZPF Structure AG); Vorprüfung/Organisation — Lelia Bollinger, Isabel Cruz, Tiago
-  Matthes (alle planzeit GmbH) (S. 10). Nur die stimmberechtigten Fach- und Sachgremiumsmitglieder
-  samt ihren Ersatzleuten unterzeichnen die Genehmigung; Experten und Vorprüfung/Organisation
-  unterzeichnen nicht (S. 17, Abgleich mit S. 10).
+  Matthes (alle planzeit GmbH) (S. 10). Die Genehmigung tragen die 13 Namen von Fachgremium,
+  Sachgremium und Ersatz; Experten und Vorprüfung/Organisation unterzeichnen nicht (S. 17,
+  Abgleich mit S. 10). *Korrektur 27.07.2026: die frühere Zuschreibung «stimmberechtigt» ist im
+  Bericht nicht belegt und wurde entfernt.*
 - Teilnehmerinnen und Teilnehmer: 8 Teams aus der ersten (anonymen) Stufe für die 2. Stufe
-  ausgewählt (S. 5, S. 9); alle 8 reichten ihre Beiträge fristgerecht und vollständig ein (S. 10).
-- Vorprüfung (S. 10-11): geprüft wurden Termingerechtigkeit, Vollständigkeit, Einhaltung
-  baurechtlicher Vorgaben inkl. brandschutztechnischer Vorschriften und Behindertengerechtigkeit,
-  Erfüllung Raumprogramm/Funktionalität, betriebliche/funktionelle Qualitäten, energetisch-
-  ökologische Vorprüfung, Erstabschätzung Tageslicht/Lichteinfallswinkel, Erschliessung/
-  Aussenräume, Prüfung der Kennwerte; die Vorprüfung beantragte, alle 8 Projekte zur Beurteilung
-  und Preiserteilung zuzulassen — das Gremium gab dem Antrag statt (S. 10-11).
+  ausgewählt (S. 5, S. 9); alle 8 reichten ihre Beiträge fristgerecht und vollständig ein (S. 11).
+- Vorprüfung (S. 11): geprüft wurden Termingerechtigkeit, Vollständigkeit, Einhaltung Perimeter,
+  Einhaltung baurechtlicher Vorgaben inkl. brandschutztechnischer Vorschriften und
+  Behindertengerechtigkeit, Erfüllung Raumprogramm/Funktionalität, betriebliche/funktionelle
+  Qualitäten, energetisch-ökologische Vorprüfung, Erstabschätzung Tageslicht/Lichteinfallswinkel,
+  Erschliessung/Aussenräume, Prüfung der Kennwerte; die Vorprüfung beantragte, alle 8 Projekte zur
+  Beurteilung und Preiserteilung zuzulassen — das Gremium gab dem Antrag statt (S. 11).
+  *Korrektur 27.07.2026: Seitenangaben von S. 10-11 auf S. 11 berichtigt (S. 10 trägt die
+  Gremiumsliste, der Vorprüfungs-Abschnitt beginnt erst nach dem Fussmarker 10/84).*
 - Jurierung/Rangierung (S. 11): Beurteilungsgremium tagte am 25. November 2022, nach freier
   Besichtigung der Projekte und einer ersten wertungsfreien Vorstellungsrunde im Plenum. Erster
   Wertungsrundgang: «über den walken», «viva la vida», «Flickwerk», «Die Libellen» und
   «da'zwischen» schieden aus. In der engeren Wahl: «Werden & Wandeln», «POLYKATOIKIA» und «WALKIE
-  TALKIE» — eingehend besprochen und gegeneinander abgewogen. Nach einem abschliessenden
-  Kontrollrundgang durch alle acht eingereichten Projekte wählte das Gremium «Werden & Wandeln»
+  TALKIE» — eingehend besprochen und gegeneinander abgewogen. Nach intensiven Diskussionen und
+  einem abschliessenden Kontrollrundgang durch alle eingereichten Projekte wählte das Gremium
+  «Werden & Wandeln»
   **einstimmig** zum Siegerprojekt und empfiehlt es der Bauherrschaft zur Weiterbearbeitung und
   Ausführung (S. 11). Anders als beim Referenzfall Guggach II gab es keinen dokumentierten
   Tausch/Nachrücken innerhalb der Rangierung.
 - Entschädigung: jedes zur Beurteilung zugelassene Projekt erhält eine fixe Entschädigung von
   CHF 35'000.- exkl. MwSt. (S. 11) — anders als beim Referenzfall Guggach II gibt es **keine** nach
   Rang gestaffelten Preisgelder; die Rangierung 1.-3. dient laut Bericht nur dazu, «den
-  Diskussionsverlauf und die Projektvorschläge dementsprechend zu würdigen» (S. 11), nicht der
+  Diskussionsverlauf und die Projektvorschläge dementsprechend zu würdigen» (S. 11-12, Satz über
+  den Seitenwechsel), nicht der
   Zuteilung unterschiedlicher Preissummen.
 
 Rangfolge (S. 11-12):
@@ -116,7 +129,7 @@ Rangfolge (S. 11-12):
 3. Rang — **WALKIE TALKIE** (Projekt 07, ARGE Studio Burkhardt Zürich + Lucas Michael Architektur
    Zürich / Umland GmbH Zürich / Pirmin Jung Schweiz AG Frauenfeld).
 
-Im ersten Wertungsrundgang ausgeschieden, ohne separate Rangfolge unter sich (S. 10-11):
+Im ersten Wertungsrundgang ausgeschieden, ohne separate Rangfolge unter sich (S. 11):
 **über den walken** (Projekt 02, Kollektiv Takt Biel), **viva la vida** (Projekt 03, Zumstein
 Architekten ETH SIA Zürich), **Flickwerk** (Projekt 04, Atelier Nu AG Zürich), **Die Libellen**
 (Projekt 06, Milla Koivulehto TKP/TKP workshop ZT GmbH Biel), **da'zwischen** (Projekt 08,
@@ -147,7 +160,7 @@ und Ausführung (S. 12):
 
 ## Siegerprojekt WERDEN & WANDELN (1. Rang, Würdigung S. 19-21)
 
-Typologie nach KB-Taxonomie: **vier gleichgerichtete Zeilenbauten mit stirnseitigen
+Typologie nach KB-Taxonomie: **vier Zeilenbauten (Häuser 1-4) mit stirnseitigen
 Treppenhäusern**, übergeordnet verbunden durch eine «starke Erschliessungsfigur» aus
 Laubengängen, Loggien und Atrien (S. 19). Erschliessung: **Laubengang mit mittigem
 Seitenwechsel** — ein «simpler, aber wirkungsvoller Kniff», der eine starke räumliche Mitte je
@@ -186,9 +199,11 @@ Kernargumente der Jury:
    «trockene Fügung, schneller Bauprozess und Rückbaubarkeit» lässt sich wegen notwendiger
    Ortbeton-Randgurte im Wand-Deckenknoten «nur schwer erfüllen» — als offener Entwicklungspunkt
    benannt.
-7. **Nachhaltigkeitszielwerte grösstenteils erreicht**: Graue Energie und Treibhausgasemissionen
-   nach SIA 2040 «komfortabel» erreicht, Gesamtumweltbelastung «lediglich leicht verfehlt»
-   (S. 20).
+7. **Nachhaltigkeitszielwerte grösstenteils erreicht**: Graue Energie erreicht die **Zielvorgaben
+   der Bauherrschaft**, die Treibhausgasemissionen den **Zielwert nach SIA 2040** «komfortabel»;
+   die mittleren Anforderungen der Gesamtumweltbelastung werden «lediglich leicht verfehlt»
+   (S. 20). *Korrektur 27.07.2026: die Graue Energie ist im Bericht bei diesem Projekt an die
+   Zielvorgaben der Bauherrschaft geknüpft, nicht an SIA 2040.*
 8. **Freiraum: klare Adressbildung an zwei Toren, aber nur teilweise nachvollziehbare
    Drei-Höfe-Thematisierung** (S. 20): «Aussenwohnzimmer» (Zimmerfrei-Hof), «Wäldchen»
    (mittlerer Hof) und «Obsthof» (extensive Wiese, «eher ungeeignet, um dem zu erwartenden
@@ -232,7 +247,8 @@ vergleichsweise schlecht ab (S. 29).
 
 Typologie: konsequente Weiterentwicklung aus Stufe 1, Wohneinheiten zwischen engen Wohngassen und
 Grünräumen, mit «Laubenbrücken» (bereits in Stufe 1 «intensiv diskutiert») als gemeinschaftlichem
-Kernelement, in Stufe 2 über neue Treppen dreigeschossig und zweigeschossig ausgebildet (S. 36).
+Kernelement, in Stufe 2 mit neuen Treppen über alle drei Geschosse verbunden und zweigeschossig
+ausgebildet (S. 36).
 Tragende Argumente: die Transformation im Norden überzeugt städtebaulich, orthogonale Abwicklung
 schafft attraktive Pocket-Places, Kindergarten-Situierung und Durchgänge zum Gemeinschaftsgarten
 wurden gegenüber Stufe 1 optimiert (S. 36); Tragwerksentwurf (Holz-Skelettkonstruktion,
@@ -240,9 +256,9 @@ Brettschichtholz-Primärkonstruktion, vorgefertigte Brettstapeldecken, Diagonals
 geklebter Holzwerkstoffe) ist «sehr gut nachvollziehbar» und lässt «eine wirtschaftliche Umsetzung
 erwarten» (S. 36). Kritikpunkte: bei den Fassaden wird eine der Grundrissqualität vergleichbare
 sorgfältige Ausarbeitung vermisst (S. 36); die durch Wohngassen und Freiraumbrücken erzeugte
-«sehr hohe Nutzungsdichte» wird kritisch beurteilt (S. 37). Nachhaltigkeit: Graue Energie und
-Treibhausgasemissionen nach SIA 2040 «komfortabel» erreicht, Gesamtumweltbelastung «lediglich
-leicht verfehlt» (S. 36-37). Gesamturteil: die «Stringenz des Entwurfs» beeindruckt auch am Ende
+«sehr hohe Nutzungsdichte» wird kritisch beurteilt (S. 37). Nachhaltigkeit: Graue Energie erreicht
+die Zielvorgaben der Bauherrschaft, die Treibhausgasemissionen den Zielwert nach SIA 2040
+«komfortabel», die Gesamtumweltbelastung wird «lediglich leicht verfehlt» (S. 36-37). Gesamturteil: die «Stringenz des Entwurfs» beeindruckt auch am Ende
 des Verfahrens, aber «das Unbehagen betreffend Nähe und vorgeschriebenen Nachbarschaften» (durch
 die Laubenbrücken erzwungene soziale Nähe) konnte «letztendlich nicht ausgeräumt werden» (S. 37).
 
@@ -273,19 +289,22 @@ die Laubenbrücken erzwungene soziale Nähe) konnte «letztendlich nicht ausger�
   getrennter Erschliessungs-/Verandaschicht umgedacht werden, was «nicht mehr ganz so zu
   begeistern» vermag (S. 60). Bereits in der «Zwischenkritik» war auf die unerwünschte
   Privatisierung des Hofraums hingewiesen worden, die trotz Überarbeitung fortbesteht (S. 60).
-  Konstruktion erreicht Graue Energie und Treibhausgasemissionen komfortabel nach SIA 2040 und
-  erfüllt auch die mittleren Gesamtumweltbelastungs-Anforderungen — das einzige der acht Projekte
-  mit voller Zielerreichung in allen drei Nachhaltigkeitsdimensionen (S. 60-61). Gesamturteil:
+  Konstruktion erreicht die Zielvorgaben der Bauherrschaft bei der Grauen Energie, den SIA-2040-
+  Zielwert der Treibhausgasemissionen «komfortabel» und zusätzlich die mittleren Anforderungen der
+  Gesamtumweltbelastung (S. 60) — nach **eigenem Quervergleich aller acht Würdigungen** das einzige
+  Projekt mit voller Zielerreichung in allen drei Nachhaltigkeitsdimensionen (der Bericht selbst
+  sagt «einziges» nicht; *Korrektur 27.07.2026: als Eigenauswertung gekennzeichnet*). Gesamturteil:
   «wertvoller Beitrag in der Diskussion», vermag aber «bei der tieferen Betrachtung nicht in allen
   Belangen zu überzeugen» (S. 61).
 - **Die Libellen** (Projekt 06, Würdigung S. 68-69): vier Baukörper als drei Wohngemeinschaften um
   Höfe, erschlossen über drei fünfgeschossige «Tours de Rendez-Vous» als «eigentliche Erfindung
-  des Projektes» — offene, im Selbstausbau durch Bewohnende aneigenbare Gerüste (S. 68-69). Kritik:
+  des Projektes» — offene, im Selbstausbau durch Bewohnende aneigenbare Gerüste (S. 68). Kritik:
   der Zugang zu den Türmen liegt unverständlicherweise im Innenhof, obwohl der Turm als Zentrum
   der Hausgemeinschaft konzipiert ist; die Türme sind mit geforderten Räumen zu voll belegt und
-  bieten zu wenig freie Aneignungsfläche (S. 69); der geforderte 45°-Lichteinfallswinkel wird bei
-  den neben die Höfe geschobenen Türmen bei den danebenliegenden Wohnräumen «nicht eingehalten»
-  (S. 69). Gesamturteil: «sehr spannender Ansatz» mit grosser Ideenvielfalt, aber «die Erscheinung
+  bieten zu wenig freie Aneignungsfläche (S. 68); der geforderte 45°-Lichteinfallswinkel wird bei
+  den in die Höfe geschobenen Türmen bei den danebenliegenden Wohnräumen «nicht eingehalten»
+  (S. 68). *Korrektur 27.07.2026: diese drei Belege standen auf S. 69 — Städtebau- und
+  Funktionalitäts-Abschnitt stehen vor dem Fussmarker 68/84, also auf S. 68.* Gesamturteil: «sehr spannender Ansatz» mit grosser Ideenvielfalt, aber «die Erscheinung
   der Wohnanlage» stellt «nicht das mögliche Potential dar, welches in den innovativen
   Überlegungen des Projektes steckt» (S. 69) — Konzept/Ausführungs-Lücke wie bei «über den
   walken».
@@ -314,8 +333,8 @@ die Laubenbrücken erzwungene soziale Nähe) konnte «letztendlich nicht ausger�
   wird als Wirtschaftlichkeits- und Nachhaltigkeitsargument gewürdigt**: viva la vida, 3.20-m-
   Raster «überzeugt durch ihre Einfachheit» und lässt «durch den zu erwartenden Skaleneffekt eine
   hohe Wirtschaftlichkeit erwarten» (S. 52); Die Libellen, «durch den hohen Wiederholungsgrad ist
-  eine wirtschaftliche Ausführung zu erwarten» (S. 68); WALKIE TALKIE und Flickwerk, «lässt eine
-  wirtschaftliche Umsetzung erwarten» (S. 36, S. 60).
+  eine wirtschaftliche Ausführung zu erwarten» (S. 69; *Korrektur 27.07.2026: zuvor S. 68*);
+  WALKIE TALKIE und Flickwerk, «lässt eine wirtschaftliche Umsetzung erwarten» (S. 36, S. 60).
 - **Intelligenter, kreativer Umgang mit einer baurechtlichen Vorgabe wird als städtebauliche
   Qualität gewertet, nicht nur als Pflichterfüllung**: POLYKATOIKIA, «bewusste Auseinandersetzung
   mit dem Lichteinfallswinkel zeugt von einem geschickten Umgang mit dem Baurecht – und schafft
@@ -349,12 +368,13 @@ die Laubenbrücken erzwungene soziale Nähe) konnte «letztendlich nicht ausger�
   ökonomische Nachhaltigkeit benannt und mit dem «Low cost»-Leitmotiv des Bebauungsplans
   kontrastiert**: POLYKATOIKIA, «Verhältnis von Hauptnutzfläche zu Geschossfläche im Quervergleich
   im unteren Bereich ... die übermässige Abwicklung in Gebäudehülle und Wohnungstrennwänden steht
-  dem übergeordneten Gebot von «Low cost» und «Low energy» entgegen» (S. 28-29).
+  dem übergeordneten Gebot von «Low cost» und «Low energy» entgegen» (S. 29).
 - **Nichteinhaltung des angestrebten Wohnungsspiegels (zu viele kleine Wohnungen zulasten
-  grösserer Familienwohnungen) wird als eigener Minuspunkt geführt**: POLYKATOIKIA, S. 28-29.
+  grösserer Familienwohnungen) wird als eigener Minuspunkt geführt**: POLYKATOIKIA, S. 29.
+  *Korrektur 27.07.2026: beide Belege zuvor S. 28-29; der Absatz steht vollständig auf S. 29.*
 - **Verletzung des gesetzlich vorgegebenen 45°-Lichteinfallswinkels bei Wohnräumen wird als
   konkreter technischer Mangel benannt**: Die Libellen, «der geforderte 45° Lichteinfallswinkel
-  bei den danebenliegenden Wohnräumen nicht eingehalten» (S. 69).
+  bei den danebenliegenden Wohnräumen nicht eingehalten» (S. 68).
 - **Sozialbauliche Passung zum Genossenschafts-Leitbild ist ein eigenständiges Kriterium, unab-
   hängig von gestalterischer Qualität**: da'zwischen, die stark introvertierte, von der Gemein-
   schaft zurückgezogene Wohnküchen-Platzierung «kann aus der Sicht der Genossenschaften nicht
@@ -370,25 +390,25 @@ die Laubenbrücken erzwungene soziale Nähe) konnte «letztendlich nicht ausger�
 
 Der Bericht publiziert die folgenden numerischen Werte:
 
-- **Zielgrösse Wohnungen**: rund 150 Wohnungen für das gesamte Baufeld B, gemäss Bebauungsplan
-  (S. 7) — kein projektbezogener Wert je der acht eingereichten Beiträge.
+- **Zielgrösse Wohnungen**: «etwa 150 Wohnungen» für das Projekt Walke auf Baufeld B (S. 7) —
+  kein projektbezogener Wert je der acht eingereichten Beiträge.
 - **Teilnehmerzahl 2. Stufe**: 8 Teams, ausgewählt aus der ersten (anonymen) Stufe (S. 5, S. 9);
   alle 8 fristgerecht und vollständig eingereicht und zur Beurteilung/Preiserteilung zugelassen
-  (S. 10-11).
+  (S. 11).
 - **Entschädigung**: CHF 35'000.- exkl. MwSt. je zur Beurteilung zugelassenem Projekt, ohne
   Differenzierung nach Rang (S. 11).
 - **Eigene Rechnung (Konsistenzcheck, nicht wörtlich im Bericht so ausgewiesen)**: 8 Projekte
   × CHF 35'000.- ergibt eine Gesamtsumme von CHF 280'000.- exkl. MwSt. — der Bericht selbst weist
   diese Gesamtsumme nicht explizit aus.
 - **Lichteinfallswinkel**: 45 Grad als gesetzlich vorgegebener Grenzwert, mehrfach als
-  Entwurfs-/Prüfkriterium genannt (S. 28, S. 69).
-- **Jurierungsdatum**: 25. November 2022 (S. 10-11); Genehmigung/Unterzeichnung «Basel, 25.11.2022»
+  Entwurfs-/Prüfkriterium genannt (S. 28, S. 68).
+- **Jurierungsdatum**: 25. November 2022 (S. 11); Genehmigung/Unterzeichnung «Basel, 25.11.2022»
   (S. 17); Bericht/Redaktion laut Impressum datiert «Basel, den 03.01.2023» (unpaginierte
   Impressumseite).
 
 Der Bericht publiziert dagegen **keine** Parzellenfläche/Arealfläche in m2, **keine**
 Ausnützungsziffer oder Zonenbezeichnung, **keine** absoluten Wohnungszahlen je Projekt (nur die
-Gesamtzielgrösse «rund 150» fürs Baufeld sowie qualitative Aussagen wie «die Anzahl Wohnungen
+Gesamtzielgrösse «etwa 150» fürs Projekt Walke sowie qualitative Aussagen wie «die Anzahl Wohnungen
 werden gut erreicht»), **keine** absoluten Geschossflächen (GF) oder Hauptnutzflächen (HNF) — die
 HNF/GF-Relation wird nur bei zwei Projekten (Werden & Wandeln, POLYKATOIKIA) und nur qualitativ
 («sehr gut»/«im unteren Bereich») benannt, **keine** CHF/m2- oder CHF/m3-Kennwerte, und **keine**
@@ -405,16 +425,18 @@ der Referenzfall Guggach II (dort waren zumindest Arealfläche und Ausnützungsz
    Qualitätsmerkmal, sondern hängt vom individuellen Bearbeitungsverlauf ab (S. 19-21).
 2. **Wirtschaftlichkeit wird bei Holzbau-Studienaufträgen primär über zwei technische Indikatoren
    verhandelt, nicht über CHF-Werte**: (a) die HNF/GF-Relation im Quervergleich («sehr gut» ↔ «im
-   unteren Bereich», S. 19 vs. S. 28-29) und (b) Konstruktionsraster-Konsequenz/Repetitionsgrad als
-   Wirtschaftlichkeits-Erwartung («Skaleneffekt», «Wiederholungsgrad», S. 52, S. 68) — ähnlich dem
+   unteren Bereich», S. 19 vs. S. 29) und (b) Konstruktionsraster-Konsequenz/Repetitionsgrad als
+   Wirtschaftlichkeits-Erwartung («Skaleneffekt», «Wiederholungsgrad», S. 52, S. 69) — ähnlich dem
    Muster beim Referenzfall Guggach II (dort ebenfalls keine absoluten CHF-Werte je Projekt), hier
    aber mit HNF/GF statt reiner «unwirtschaftlich»/«durchschnittlich»-Einordnung.
 3. **Nachhaltigkeitszielwerte (hier: Graue Energie, Treibhausgasemissionen, Gesamtumweltbelastung
-   je SIA 2040) werden bei jedem Projekt individuell und einzeln benotet** — ein durchgängiges,
-   vom städtebaulichen Rang unabhängiges technisches Prüfkriterium (S. 20, 29, 36-37, 44, 52, 60-
-   61, 68-69, 76); auffällig: das einzige Projekt mit voller Zielerreichung in allen drei
-   Dimensionen (Flickwerk) schied dennoch im ersten Rundgang aus (S. 60-61) — Nachhaltigkeit allein
-   entscheidet nicht über die Rangierung.
+   je SIA 2040 bzw. Zielvorgaben der Bauherrschaft) werden bei jedem Projekt individuell und
+   einzeln benotet** — ein durchgängiges, vom städtebaulichen Rang unabhängiges technisches
+   Prüfkriterium (S. 20, 29, 36-37, 45, 52, 60, 69, 76; *Korrektur 27.07.2026: «über den walken»
+   von S. 44 auf S. 45, Flickwerk auf S. 60, Libellen auf S. 69 berichtigt*); auffällig: das nach
+   eigenem Quervergleich einzige Projekt mit voller Zielerreichung in allen drei Dimensionen
+   (Flickwerk) schied dennoch im ersten Rundgang aus (S. 60) — Nachhaltigkeit allein entscheidet
+   nicht über die Rangierung.
 4. **Konzeptionelle Innovationskraft ohne überzeugende bauliche Einlösung ist ein eigenständiger
    Ausscheidungsgrund**, auch ohne formalen Programm- oder Baurechtsverstoss: mehrfach belegtes
    Muster «Konzept überzeugt, Erscheinung/Ausführung bleibt dahinter zurück» (über den walken
@@ -429,7 +451,7 @@ der Referenzfall Guggach II (dort waren zumindest Arealfläche und Ausnützungsz
 6. **Eine gesetzliche Bauvorschrift (hier: 45°-Lichteinfallswinkel) kann sowohl entwurfsgenerierend
    als auch entwurfsgefährdend wirken** — POLYKATOIKIA macht sie zum gestalterischen Ausgangspunkt
    und wird dafür gelobt (S. 28), Die Libellen verletzt sie bei benachbarten Wohnräumen und wird
-   dafür kritisiert (S. 69): dieselbe Norm wirkt je nach Entwurfsstrategie als Chance oder Risiko.
+   dafür kritisiert (S. 68): dieselbe Norm wirkt je nach Entwurfsstrategie als Chance oder Risiko.
 7. **Auch die einstimmige Empfehlung des Siegerprojekts bleibt an konkrete, teils substanzielle
    Weiterbearbeitungs-Auflagen gebunden** (Adressierung zweier von vier Häusern, Aussenraum-
    Gesamtkonzept, Nutzungsdruck-Prüfung des Obsthofs, Schwammstadt/Strassenentwässerung,

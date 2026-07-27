@@ -7,7 +7,7 @@ herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direkto
 ausgabe: "Lignum-Dokumentation Brandschutz, Themenblock 4 «Bauteile in Holz», Publikation 4.1 «Decken, Wände und Bekleidungen mit Feuerwiderstand». Erschienen Mai 2015, Nachdruck/Aktualisierung Oktober 2017. Von der TKB-VKF in Bezug auf Übereinstimmung mit den Mindestanforderungen der Schweizerischen Brandschutzvorschriften VKF, Ausgabe 2015 (BSV 2015), Stand 01.01.2017 geprüft und am 06.09.2017 als «Stand der Technik Papier (STP)» anerkannt. Laut Einleitung (S. 4) weist die vorliegende Publikation gegenüber der Erstausgabe von Mai 2015 in technischer Hinsicht keine relevanten Unterschiede auf; die Erstausgabe kann weiterhin angewendet werden."
 gelesen: "alle 40 Seiten (Teile A+B+C) komplett, Titelblatt/Impressum/Buchrücken eingeschlossen — Bild-Scan ohne Textlayer, visuell erfasst"
 datenstand: "Mai 2015 / STP-Anerkennung 06.09.2017"
-status: "speculative (zweite unabhaengige Refuter-Runde 260727, Run 31: BEANSTANDET mit 26 Befunden aus zwei scope-getrennten Agenten [Teil A/B 12, Teil C 14], alle eingearbeitet. Davon 10 substanziell: invertierte 40-mm-Abgrenzung, falsch zugeordnete 12-15-Minuten-Aussage, vertauschtes Bezugsobjekt Decken/lineare Bauteile, falsche K/F/BSP-Gruppenzuordnung, Traglast je Systemtyp statt je Klasse, Tab. 447-1 Alternativen statt Kombination, drei Faelle mit Werten aus der falschen Spalte (Tab. 442-5, 541-2, 445-1/2), Tab. 462-2 einschichtig/zweischichtig vertauscht. EINE Regression der Erstrunde zurueckgenommen (Tab. 446-1 Untergrenze 50 mm war korrekt, die Korrektur 260727 hatte sie faelschlich auf 60 mm gehoben). Bleibt speculative bis zu einer Runde mit sauberem Nulldurchgang.)"
+status: "speculative (dritte unabhaengige Refuter-Runde 27.07.2026: BEANSTANDET mit 5 Befunden, alle eingearbeitet, keine Regression der Run-31-Korrekturen. Befunde: [15] SIA 265/1 faelschlich in Kap. 2.2 c) statt Kap. 3.2 zitiert; Abb. 310-2 nannte faelschlich 'Massivholzplatten' in einer Baustoffliste, die diese im Original nicht enthaelt; Kap. 4.5.2.1 verzerrte 'mehrseitige Brandeinwirkung auf Querschnitte' zu 'lineare/vollflaechige Brandeinwirkung'; Kap. 5.2.2 setzte K30-RF1/K60-RF1 unbelegt mit 'Bauteil EI30-RF1'/'EI60-RF1' gleich, obwohl Tab. 522-1 nur die Bekleidungsdauer nennt. Vorherige Runde (Run 31, 260727): BEANSTANDET mit 26 Befunden aus zwei scope-getrennten Agenten [Teil A/B 12, Teil C 14], alle eingearbeitet, davon 10 substanziell (invertierte 40-mm-Abgrenzung, falsch zugeordnete 12-15-Minuten-Aussage, vertauschtes Bezugsobjekt Decken/lineare Bauteile, falsche K/F/BSP-Gruppenzuordnung, Traglast je Systemtyp statt je Klasse, Tab. 447-1 Alternativen statt Kombination, drei Faelle mit Werten aus der falschen Spalte [Tab. 442-5, 541-2, 445-1/2], Tab. 462-2 einschichtig/zweischichtig vertauscht) sowie einer zurueckgenommenen Regression (Tab. 446-1 Untergrenze 50 mm war korrekt). Bleibt speculative bis zu einer Runde mit sauberem Nulldurchgang.)"
 last_updated: 2026-07-27
 links: [[REGISTER]]
 ---
@@ -110,10 +110,11 @@ Vier Nachweisarten:
   Handbuch [19].
 - **c) Rechnerischer Nachweis**: anhand anerkannter Berechnungsverfahren — Lignum-
   Dokumentation Brandschutz, Publikation «Feuerwiderstandsbemessung – Bauteile und
-  Verbindungen» [6]; Norm SIA 265 Holzbau [14]; SIA 265/1 Holzbau – Ergänzende
-  Festlegungen [15]; SN EN 1995-1-2, Eurocode 5, Tragwerksbemessung für den Brandfall
-  [16]; und in Absprache mit der Brandschutzbehörde gemäss DIN 4102 Teil 4 [18], Holz
-  Brandschutz Handbuch [19].
+  Verbindungen» [6]; Norm SIA 265 Holzbau [14]; SN EN 1995-1-2, Eurocode 5,
+  Tragwerksbemessung für den Brandfall [16]; und in Absprache mit der Brandschutzbehörde
+  gemäss DIN 4102 Teil 4 [18], Holz Brandschutz Handbuch [19]. (Korrektur 27.07.2026,
+  dritte Runde: die Liste dieser Nachweisart nennt im Original nur [6]/[14]/[16] — [15]
+  SIA 265/1 gehört nicht hierhin, sondern zu Kap. 3.2, Baustoffe, siehe dort.)
 - **d) Objektbezogene Konzepte**: Beurteilung im Rahmen objektbezogener Konzepte mit
   Zustimmung der Brandschutzbehörde auf Grundlage parametrisierter Temperaturverläufe
   (Naturbrände); Beurteilungskriterium ist das Erfüllen der Schutzziele (z. B.
@@ -213,6 +214,11 @@ verbindlichen Punkte:
 
 ### 3.2 Baustoffe (Tab. 320-1, S. 13)
 
+Holz und Holzwerkstoffe müssen der Norm SIA 265, Holzbau [14], und SIA 265/1, Holzbau –
+Ergänzende Festlegungen [15], entsprechen; zusätzlich gelten die Definitionen und
+Anforderungen gemäss Tab. 320-1 (Korrektur 27.07.2026, dritte Runde: dieser Einleitungssatz
+mit der Fundstelle für [15] fehlte, [15] war fälschlich stattdessen in Kap. 2.2 c) genannt).
+
 Definitionen und Mindestanforderungen (Auszug):
 
 | Baustoff | Anforderung |
@@ -236,14 +242,17 @@ Abweichende Baustoffe (andere Festigkeitsklasse/Rohdichte) sind in Bauteilen mit
 Feuerwiderstandsanforderungen möglich, sofern ihre brandschutztechnische
 Leistungsfähigkeit erwiesen ist (S. 13). Massgebende Dicke bei profilierten/gefasten
 Querschnitten (Abb. 310-2, S. 12): bei Querschnitten aus Vollholz, Brettstapel,
-Massivholzschalung, Massivholzplatten, Furniersperrholz und Furnierschichtholz müssen
-Fasen bis 2 mm Tiefe nicht berücksichtigt werden (massgebend bleibt die Nenndicke); bei
-staerkeren Profilierungen wird die verbleibende Dicke massgebend. Bei Querschnitten aus
+Massivholzschalung, Furniersperrholz und Furnierschichtholz müssen Fasen bis 2 mm Tiefe
+nicht berücksichtigt werden (massgebend bleibt die Nenndicke); bei staerkeren
+Profilierungen wird die verbleibende Dicke massgebend. Bei Querschnitten aus
 Holzwerkstoffen (OSB-, Span- und Faserplatten) müssen Fasen bis 2 mm Tiefe ebenfalls
 nicht berücksichtigt werden, **andere Profilierungen sind dort jedoch generell nicht erlaubt**
 (Korrektur 260727: die Erstfassung hatte dies dahingehend verkürzt, dass bei OSB/Span/
 Faserplatten Fasen selbst nicht erlaubt seien — das Original erlaubt auch dort 2-mm-Fasen,
-verbietet nur weitergehende Profilierungen).
+verbietet nur weitergehende Profilierungen). Korrektur 27.07.2026, dritte Runde: die erste
+Aufzählung (Vollholz/Brettstapel/Massivholzschalung/Furniersperrholz/Furnierschichtholz)
+hatte fälschlich «Massivholzplatten» ergänzt — Abb. 310-2 nennt dort im Original nur die
+fünf genannten Baustoffe, Massivholzplatten sind an dieser Stelle nicht erwähnt.
 
 ### 3.3 Unterkonstruktion, Befestigung, Fugenausbildung (Tab. 330-1, Abb. 330-2/330-3, S. 14–16)
 
@@ -457,9 +466,12 @@ Repräsentative Grössenordnungen (keine vollständige Wiedergabe der Varianten-
   feuerwiderstandsfähigem Bodenaufbau: dreiseitig usw.). Detailliertes Verfahren: Lignum-
   Doku «Feuerwiderstandsbemessung – Bauteile und Verbindungen» [6].
 - **4.5.2.1 Während der gesamten Branddauer ungeschützte Holzbauteile**: Feuerwiderstands-
-  nachweis gemäss [6]; bei linearer, vollflächiger Brandeinwirkung sind gewisse
-  Mindestabmessungen erforderlich, bei kleineren Querschnitten sind die Abbrandraten zu
-  erhöhen.
+  nachweis gemäss [6]; bei mehrseitiger Brandeinwirkung auf lineare, vollflächige
+  Rechteckquerschnitte können gewisse Mindestabmessungen erforderlich werden, bei
+  kleineren Querschnitten sind die Abbrandraten zu erhöhen. (Korrektur 27.07.2026, dritte
+  Runde: die Erstfassung hatte «bei linearer, vollflächiger Brandeinwirkung» geschrieben —
+  im Original ist die Brandeinwirkung «mehrseitig», linear/vollflächig/rechteckig sind die
+  Querschnitte, nicht die Brandeinwirkung.)
 - **4.5.2.2 Anfänglich vor der Brandeinwirkung geschützte Holzbauteile**: zu beachten ist,
   dass die Abbrandrate nach dem Versagen der Beplankung/Brandschutzplatte höher ist als
   die in SIA 265 [14] angegebenen Werte; dies gilt auch für Bauteile, bei denen
@@ -511,10 +523,16 @@ Repräsentative Grössenordnungen (keine vollständige Wiedergabe der Varianten-
   an die Brandschutzbekleidung K30-RF1 (30/60 Min.) bzw. K60-RF1 (90 Min.).
 - **5.2.2 Brandschutzbekleidung mit Baustoffen der RF1** (S. 59): VKF-anerkannte
   Bekleidungen K gemäss Schweizerischem Brandschutzregister, Registergruppe 230,
-  klassifiziert nach EN 13501-2. Tab. 522-1 (S. 59): **K30-RF1** entspricht Bauteil
-  EI30-RF1 — fugenlose Estriche (zement-/kalziumsulfatgebunden) 30 mm bzw. Beton
-  (Normalbeton) 60 mm; **K60-RF1** entspricht Bauteil EI60-RF1 — Estrich 50 mm bzw.
+  klassifiziert nach EN 13501-2. Tab. 522-1 (S. 59) gibt die Mindestanforderungen an die
+  Brandschutzbekleidung selbst für 30 bzw. 60 Minuten Feuerwiderstandsdauer der
+  Bekleidung: **K30-RF1** (30 Min.) — fugenlose Estriche (zement-/kalziumsulfatgebunden)
+  30 mm bzw. Beton (Normalbeton) 60 mm; **K60-RF1** (60 Min.) — Estrich 50 mm bzw.
   Beton 80 mm. Mindest-Bewehrungsüberdeckungen gemäss SIA 262 [13] einzuhalten.
+  (Korrektur 27.07.2026, dritte Runde: die Erstfassung hatte K30-RF1/K60-RF1 pauschal
+  «Bauteil EI30-RF1»/«Bauteil EI60-RF1» gleichgesetzt — Tab. 522-1 selbst benennt nur die
+  Feuerwiderstandsdauer der Bekleidung, nicht eine konkrete Bauteil-FW-Klasse; nach
+  Tab. 232-2 gilt K30-RF1 als Minimum sowohl für die 30- als auch für die 60-Minuten-
+  Bauteilklassen, K60-RF1 erst für die 90-Minuten-Klasse.)
   Installationen (z. B. Heizungsrohre) dürfen nicht in diesen Schichten geführt werden.
 - **5.2.3 Anschlüsse brandabschnittsbildender Bauteile RF1** (S. 60 f.): Anschluss
   Holzbauteil an Bauteil RF1 — Brandschutzbekleidung durchgehend ohne Unterbruch;
@@ -750,3 +768,41 @@ ETH Zürich.
 - **Seitenzuordnung Teil C**: PDF-Seite n = gedruckte Doppelseite (40+2n)/(41+2n).
 - **Nicht lesbarer Rest**: Tab. 447-1 (S. 54) — Bezeichnung der letzten Variantenspalte
   im Scan nicht eindeutig.
+
+### 27.07.2026, dritte Runde (Einzelagent, vollständige Neulektüre aller 40 Seiten A+B+C)
+
+**Verdikt: BEANSTANDET, 5 Befunde — alle im Destillat korrigiert.**
+
+Vorgehen: komplette Neulektüre aller drei Original-PDFs (Teil A 5 Seiten, Teil B 15 Seiten,
+Teil C 20 Seiten, total 40 Seiten inkl. Titelblatt/Impressum) gegen das komplette Destillat,
+mit besonderem Fokus auf die in Run 31 neu korrigierten und regressionsgefährdeten Stellen.
+Struktur, Herausgeber-/Autoren-/STP-Angaben, Baustofftabelle 320-1, Glossar (Kap. 6/7),
+Literaturverzeichnis (Kap. 8), Projektpartner-Liste (S. 79) sowie sämtliche in Run 31
+korrigierten Einzelwerte (Tab. 431-3/431-4, Tab. 437-1/437-2, Tab. 441-1, Tab. 446-1/2,
+Tab. 447-1, Fugentyp Wand/Decke, VSSM) wurden erneut geprüft und bestätigt — **keine
+Regression** in dieser Runde. Fünf neue Befunde, alle in bislang unangetasteten Passagen:
+
+1. **Kap. 2.2 c) Rechnerischer Nachweis**: Destillat nannte in der Verfahrensliste zusätzlich
+   «SIA 265/1 Holzbau – Ergänzende Festlegungen [15]» — im Original umfasst diese Liste nur
+   [6]/[14]/[16]. [15] ist im Original an anderer Stelle zitiert (Kap. 3.2, Baustoffe, S. 13:
+   «Holz und Holzwerkstoffe müssen der Norm SIA 265 [14] und SIA 265/1 [15] entsprechen»).
+   Korrigiert: [15] aus Kap. 2.2 c) entfernt, korrekter Satz mit Fundstelle in Kap. 3.2 ergänzt.
+2. **Abb. 310-2 (Massgebende Dicke bei profilierten/gefasten Querschnitten, S. 12)**: Destillat
+   hatte «Massivholzplatten» in die Aufzählung der Baustoffe mit zulässiger 2-mm-Fase
+   eingefügt (Vollholz, Brettstapel, Massivholzschalung, Massivholzplatten, Furniersperrholz,
+   Furnierschichtholz) — im Original stehen dort nur fünf Baustoffe, Massivholzplatten fehlen.
+   Korrigiert: «Massivholzplatten» aus der Aufzählung entfernt.
+3. **Kap. 4.5.2.1**: Paraphrase «bei linearer, vollflächiger Brandeinwirkung» verzerrte die
+   Aussage — im Original ist die Brandeinwirkung «mehrseitig», linear/vollflächig/rechteckig
+   sind die betroffenen Querschnitte. Korrigiert.
+4. **Kap. 5.2.2, Tab. 522-1 (S. 59)**: Destillat setzte «K30-RF1 entspricht Bauteil EI30-RF1»
+   bzw. «K60-RF1 entspricht Bauteil EI60-RF1» gleich — die Tabelle selbst benennt nur die
+   Feuerwiderstandsdauer der Bekleidung (30/60 Minuten), keine konkrete Bauteil-FW-Klasse;
+   nach Tab. 232-2 ist K30-RF1 das Minimum sowohl für die 30- als auch für die 60-Minuten-
+   Bauteilklassen. Korrigiert: pauschale Bauteil-Gleichsetzung entfernt.
+
+Alle vier inhaltlichen Befunde sind kleinere Zitat-/Formulierungs-Ungenauigkeiten
+(keine falschen Millimeter-/Klassenwerte in den Katalogtabellen); die grosse Mehrheit der
+geprüften Aussagen (Grundlagen Kap. 2, Ausführungsbestimmungen Kap. 3, alle Katalogtabellen
+Kap. 4.3/4.4/4.6, Bauteile RF1 Kap. 5, Glossar, Literaturverzeichnis, Anhänge) war
+fehlerfrei. Da diese Runde nicht ohne Befund blieb, bleibt der Status **speculative**.

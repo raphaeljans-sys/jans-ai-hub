@@ -1,5 +1,17 @@
 # Norm-Inventar — Arbeitsliste des Nacht-Loops `normen-training-nacht`
 
+- **Run 32 (MacBook Pro, 260727) — 8 parallele Refuter-Agenten: dritte Runde fuer die 5 Run-31-Korrekturen, erste unabhaengige Runde fuer die 3 neuen Run-31-Destillate. 2x established, 1x unveraendert emerging, 5x weiterhin speculative (aber klar konvergierend).**
+  Kein neues Grunddestillat (PL-02 weiterhin 0 offene `[ ]`). Ergebnis je Destillat:
+  - `vkf-allgemein-anerkannte-bauprodukte-2017.md`: **established** — unabhaengige Refuter-Runde 0 Befunde (alle 12 Seiten/9 Tabellen zellenweise per Bild geprueft, MD5 bestaetigt).
+  - `vkf-ah-1001-15-wohnbauten.md`: **established** — dritte Runde 0 Befunde; alle ~40 Fassungs-Deltas 2015→2017/2018 inkl. 5 farbcodierter Tabellen pixelgenau bestaetigt.
+  - `brandschutzfachstellen-anleitung-brandschutznachweis-v3.md`: bleibt `emerging` — 3 geringfuegige Befunde korrigiert (u.a. NSV-Vollbezeichnung nicht belegt), beide Pflichtinhalts-Listen bestaetigt.
+  - `brandschutzplan-legende-symbole-2017.md`: bleibt `speculative` — 4 Befunde korrigiert (u.a. Brandklassenbuchstaben-Zuordnung bei Handfeuerloescher-Symbolen widerlegt); amtlicher Status weiterhin unbestaetigt (VKF-Merkblatt 2003-15 fehlt im Bestand, siehe unten).
+  - `sia-d0165-2000-kennzahlen-immobilienmanagement.md`: bleibt `speculative` — dritte Runde 4 weitere Befunde (u.a. GEFMA-Code 450 falscher Kontenklasse zugeordnet), KEINE Regression, BKP-19-99/EKG-W1-W6-Stelle erneut bestaetigt korrekt.
+  - `lignum-4-2-anschluesse-feuerwiderstand.md`: bleibt `speculative` — dritte Runde 3 weitere Befunde (Kap. 4.4.2/4.4.3 Beplankungsdicken vertauscht u.a.), Runden 1+2 hielten stand.
+  - `lignum-lignatec-brandschutz.md`: bleibt `speculative` — dritte Runde nur noch **1 Befund** (nach 17 in Runde 2) — deutliche Konvergenz, per 600-dpi-Nachrender verifiziert.
+  - `lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md`: bleibt `speculative` — dritte Runde 5 weitere Befunde (u.a. K30/K60-RF1-Bekleidungsklassen unbelegt mit Bauteil-EI-Klassen gleichgesetzt), keine Regression der Run-31-Korrekturen.
+  **VKF-Merkblatt 2003-15** «Brandschutzplaene, Flucht- und Rettungswegplaene, Feuerwehrplaene» (Run-31-Bring-Schuld) gezielt in PL-02 UND PL-03 gesucht (`find -iname "*2003*15*"` sowie Ordner-Vollsicht `05 Arbeitshilfen Brandschutz 2015`, `03 Verzeichnisse`, `04 Erlaeuterungen`): **nicht im Bestand**, bleibt externe Bring-Schuld. Die beiden Run-31-Strukturentscheide (Reichweite PL-02/PL-03-Erweiterung; `established`-Kriterium sauberer Nulldurchgang vs. bestandene Korrekturrunde) bleiben **offen bei Raphael** — dieser Lauf hat die bestehende Konvention (eine bestandene Runde -> established) unveraendert angewendet, ohne den Strukturentscheid vorwegzunehmen. Details `wiki/QUESTIONS.md` Abschnitt "Run 32", Report `outputs/2026-07-27_normen-nacht-run32.md`.
+
 - **Run 30 (MacBook Pro, 260727) — PL-03-Tracker war stale, alle 6 Unterordner jetzt erfasst,
   3 neue Lignum-Destillate.** Kein neues SIA/VKF-Hauptdestillat (PL-02: weiterhin 0 offene `[ ]`).
   Stattdessen den PL-03-Abschnitt (aufgenommen 26.07., aber nicht gegen den tatsaechlichen

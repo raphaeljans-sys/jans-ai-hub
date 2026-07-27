@@ -4,7 +4,14 @@ herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direkto
 ausgabe: "Lignatec 17/2005 «Bauten in Holz – Brandschutz-Anforderungen», erschienen Juni 2005, ISSN 1421-0320; geprüft durch die Technische Kommission der Vereinigung Kantonaler Feuerversicherungen (TKB-VKF) auf materielle Übereinstimmung mit den Schweizerischen Brandschutzvorschriften VKF (Ausgabe 2003, gültig seit 1.1.2005) und als «Stand der Technik» anerkannt"
 gelesen: "alle 12 PDF-Seiten (= gedruckte Seiten 2-24 plus Titelblatt) komplett, Bild-Scan ohne Textlayer, visuell gelesen"
 datenstand: "2005 (Bezug: VKF-Brandschutzvorschriften Ausgabe 2003/gültig ab 1.1.2005) — VERALTET gegenüber der aktuellen VKF-Vorschriftengeneration 2015 (vgl. Destillat vkf-ah-1001-15-wohnbauten.md)"
-status: "speculative (zweite unabhaengige Refuter-Runde 260727, Run 31: BEANSTANDET mit 17 Befunden, alle eingearbeitet. Davon 5 schwer: Tab. 3 Brandabschnitt 4 Geschosse ist EI60 baulich (nicht EI30), Tab. 3 hat sieben statt acht Geschoss-Spalten (bb/nbb sind Varianten derselben Spalte), der Geschoss-Katalog Bauliches Konzept/Sprinklerkonzept gehoert zu den Korridoren Ziff. 3.1.2 (nicht zu den Treppenanlagen 3.1.1), Tab. 4 Korridor 5-6 Geschosse laesst verkleidete Holzbauteile zu (nicht EI60(nbb)), REI60(nbb) beim Treppenhaus erst ab 4 Geschossen. BEIDE Korrekturen der ersten Runde enthielten neue Fehler — das Muster frisch nachgetragener Text ist die hoechste Fehlerquelle hat sich hier vollstaendig bestaetigt. Bleibt speculative bis zu einer Runde mit sauberem Nulldurchgang.)"
+status: "speculative (dritte unabhaengige Refuter-Runde 260727, Run 32: BEANSTANDET mit 1 Befund
+  — Tab. 4 Eckwerte Wohnbauten MFH 5-6 Geschosse hatte fuer den baulichen Korridor-Wert die
+  falsche Notation (Bindestrich statt Schraegstrich), korrigiert. Alle uebrigen Stellen (Tab. 3,
+  Tab. 4 Restwerte, Tab. 5, alle vier Axonometrie-Doppelseiten, Ziff. 1-4, Literatur/Impressum
+  inkl. ISSN) bei dieser Runde CONFIRMED gegen 600-dpi-Crops. Bleibt speculative: (a) noch kein
+  Nulldurchgang erreicht, (b) unabhaengig davon bleibt der Aktualitaets-Vorbehalt gegen VKF 2015
+  bestehen, da die Quelle von 2005 ist. Historie: Run 30/31 (beide 260727) je BEANSTANDET mit
+  vielen/17 Befunden, Details Rules-Archiv bzw. vorherige Commits.)"
 last_updated: 2026-07-27
 links: [[REGISTER]], [[vkf-ah-1001-15-wohnbauten]]
 ---
@@ -297,8 +304,11 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
   - Wohnbauten MFH bis 3 Geschosse: Treppenhaus durchgehend REI60/EI30(nbb) (Spalte «1 und
     oberstes Geschoss» trägt nur den Fussnotenverweis ⑥), Korridor durchgehend EI30-nbb.
     REI60(nbb) beim Treppenhaus erst ab 4 Geschossen.
-  - Wohnbauten MFH 5-6 Geschosse: Treppenhaus REI60(nbb); Korridor EI60-EI30(nbb)③ (baulich,
-    Holzbauteile beidseitig nicht brennbar verkleidet) bzw. EI60-EI30(nbb)②③ (Sprinkler). Erst
+  - Wohnbauten MFH 5-6 Geschosse: Treppenhaus REI60(nbb); Korridor EI60/EI30(nbb)③ (baulich,
+    Schrägstrich-Notation = Holzbauteile beidseitig nicht brennbar verkleidet, Refuter-Korrektur
+    260727 Runde 3: im Original steht ein Schrägstrich, nicht der Bindestrich der korridorseitigen
+    Notation) bzw. EI60-EI30(nbb)②③ (Sprinkler, hier korrekt mit Bindestrich = nur fluchtwegseitig
+    verkleidet). Erst
     bei 7-8 Geschossen: Treppenhaus REI60(nbb), Korridor EI60(nbb) (blau, keine Holzbauteile
     als Standardkonzept).
   - Beherbergungsbetriebe (Krankenhäuser): durchgehend EI60(nbb)/REI60(nbb) (Standardkonzept
@@ -492,3 +502,35 @@ aktuellere Lignum-Publikation zum Holzbau-Brandschutz abzugleichen.
   Muster — frisch nachgetragener Text ist die höchste Fehlerquelle — hat sich hier vollständig
   bestätigt.
 - Die Axonometrien Ziff. 5.1 bis 5.4 (S. 16-23) wurden vollständig bestätigt (0 Befunde).
+
+- **27.07.2026, Run 32 (dritte Runde)**: unabhängiger Refuter, gegenrecherchiert mit 600-dpi-
+  Renderings (pdftoppm) der PDF-Seiten und pixelgenauen Crops von Tabelle 3, Tabelle 4, Tabelle 5
+  sowie allen vier Axonometrie-Doppelseiten (Ziff. 5.1-5.4), zusätzlich Ziff. 1-4 Fliesstext,
+  Literatur (Ziff. 6) und Impressum/ISSN Wort für Wort gegengelesen. Verdikt: **BEANSTANDET, 1
+  Befund**.
+  - **Befund (mittelschwer)**: Tab. 4 «Fluchtwege: Treppenhaus und Korridor» (S. 13), Eckwerte-
+    Text Wohnbauten MFH 5-6 Geschosse — der bauliche Korridor-Wert war als «EI60-EI30(nbb)③»
+    (Bindestrich) angegeben; im Original (S. 13, Zelle Spalte «5-6» × Zeile Wohnbauten MFH,
+    Baulich-Zeile) steht «EI60/EI30(nbb)③» mit **Schrägstrich**. Die beiden Notationen sind nach
+    Tab. 4-Legende (S. 13) nicht austauschbar: Schrägstrich = Bauteil beidseitig mit
+    EI30(nbb)-Verkleidung und nicht brennbarer Dämmung; Bindestrich = nur korridorseitige
+    (fluchtwegseitige) EI30(nbb)-Verkleidung. Gegengeprüft und bestätigt über die axonometrische
+    Parallelstelle Ziff. 5.4 (S. 23, «Korridorwand und -decke»), die für dieselbe Konstellation
+    (Baulich, 5-6 Geschosse, ohne oberstes Geschoss) korrekt den Schrägstrich zeigt. Im Destillat
+    korrigiert; die interpretierende Klammer «Holzbauteile beidseitig nicht brennbar verkleidet»
+    war inhaltlich bereits richtig und musste nur der Symbolik nach präzisiert werden.
+  - Alle übrigen geprüften Stellen bestätigt (0 weitere Befunde): Tab. 3 komplett (alle
+    Eckwerte-Zeilen inkl. Wohnbauten MFH, Beherbergungsbetriebe, EFH/REFH, alle Fussnoten
+    ①-⑤), Tab. 4 Rest (Spaltenstruktur, Treppenhaus-Werte, übrige Korridor-Eckwerte, Fussnote ⑥),
+    Tab. 5 (Kopfstruktur, Legende, Aussenwandverkleidung blau nur bei Beherbergungsbetrieben[a]
+    nicht [b]), Ziff. 1.1-1.5 (Klassierung R/E/I, Tabelle 2 Bezeichnungen, Geschosse/Nutzungen,
+    Standard-/Objektbezogenes Konzept), Ziff. 2.1-2.3 (Tragwerke, Brandabschnitte,
+    Schutzabstände), Ziff. 3.1.1-3.1.3 (Treppenanlagen/Korridore/Ausbau, inkl. der in Runde 2
+    korrigierten Zuordnung des Geschoss-Katalogs zu Ziff. 3.1.2), Ziff. 4.1, alle vier
+    Axonometrie-Doppelseiten (5.1-5.4), Ziff. 6 Literatur [1]-[4], Impressum (Herausgeber
+    Christoph Starck Direktor, Verantwortlicher Roland Brunner, ISSN 1421-0320, Lignatec 17/2005,
+    erschienen Juni 2005) und die Titelblatt/Rückseite-Feststellung (kein Fliesstext dort,
+    Impressum korrekt auf S. 24 verortet).
+  - Kein Nulldurchgang: das Destillat bleibt entsprechend Auftrag `status: speculative`, auch
+    wenn nur noch 1 (statt 17) Befund auftrat — deutliches Zeichen der Konvergenz nach zwei
+    vorangehenden Beanstandungsrunden am selben Tag.
