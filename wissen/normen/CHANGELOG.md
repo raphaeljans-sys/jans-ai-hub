@@ -1,3 +1,79 @@
+## 2026-07-27 — Run 31: Retro-Verifikation (5 Destillate, 78 Befunde, 2 Regressionen), Fassungs-Delta VKF-AH 1001-15, 3 neue Destillate, zwei Reichweiten-Luecken geschlossen
+
+**Vertiefungsstufe (b) — Retro-Verifikation.** Fuenf unabhaengige Widerlegungs-Agenten gegen die
+Original-PDFs, alle Verdikte BEANSTANDET, alle Befunde eingearbeitet, alle fuenf Destillate bleiben
+bewusst `speculative` (kein Nulldurchgang):
+- `lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md` — **26 Befunde** (zwei scope-getrennte
+  Refuter: Teil A/B 12, Teil C 14), 10 substanziell. U.a. 40-mm-Abgrenzung ins Gegenteil verkehrt,
+  12-15-Minuten-Aussage der falschen Kategorie zugeordnet, K/F/BSP-Gruppenzuordnung falsch,
+  Wandtraglast je Systemtyp statt je Klasse. **Eine Regression der Erstrunde zurueckgenommen**
+  (Tab. 446-1 Untergrenze 50 mm war korrekt, die Korrektur vom selben Tag hatte sie auf 60 mm gehoben).
+- `lignum-4-2-anschluesse-feuerwiderstand.md` — **18 Befunde plus 10 fehlende Kernziffern**. U.a.
+  Brettstapel/Brettschichtholz C24 ↔ GL24k vertauscht; dreimal dasselbe Muster (EI90-Werte als EI60
+  ausgegeben, echte EI60-Zeile BSP30 fehlte); Mindestauflager dem falschen Beplankungsfall zugeordnet;
+  Temperaturkriterien 250/270 °C und 140/180 °C vertauscht; kumulative Anforderung zur Alternative
+  erweicht. Die Frontmatter-Behauptung «alle uebrigen Kernziffern bestaetigt» war widerlegt und ist ersetzt.
+- `lignum-lignatec-brandschutz.md` — **17 Befunde**, 5 schwer. Tab. 3 Brandabschnitt 4 Geschosse ist
+  EI60 baulich (der Sprinkler-Wert war als Baulich-Wert ausgewiesen); Tab. 3 hat sieben statt acht
+  Geschoss-Spalten; der Geschoss-Katalog Baulich/Sprinkler gehoert zu Ziff. 3.1.2 Korridore statt
+  3.1.1 Treppenanlagen; Tab. 4 Korridor 5-6 Geschosse laesst verkleidete Holzbauteile zu; ISSN
+  1421-0320 statt 1421-0520. **Beide Erstrunden-Korrekturen enthielten neue Fehler.**
+- `sia-d0165-2000-kennzahlen-immobilienmanagement.md` — **17 Befunde**. **Regression:** die Erstrunde
+  hatte die Honorar-Sammelcodes BKP 19-99 / EKG W1-W6 als «im Original nicht auffindbar» geloescht,
+  beides steht auf S. 32 f. Zwei in der Erstrunde nachgetragene «Offene Punkte» waren sachlich falsch.
+  Ausgabedatum «Juli 2000» nirgends belegt (Impressum: «Ausgabe 2000»); Schaetzerhandbuch-Kuerzel im
+  Original SVGK; nicht existierende «DIN 416» in einer Kapitelueberschrift.
+
+**Methodik-Befund (differenziert das bisherige Bild).** Der Satz «frisch nachgetragener Text ist die
+hoechste Fehlerquelle» (seit Run 23/24) gilt NICHT pauschal: bestaetigt bei Lignatec, SIA D 0165 und
+Lignum 4.1 Teil C — widerlegt bei Lignum 4.1 Teil A/B und Lignum 4.2, wo alle Erstrunden-Korrekturen
+hielten und die neuen Fehler in den unangetasteten Passagen lagen. Neu und wichtiger: **zwei echte
+Regressionen** zeigen, dass eine Verifikationsrunde ein Destillat auch verschlechtern kann. Konsequenz
+zur Entscheidung vorgelegt: `established` an einen sauberen Nulldurchgang binden statt an eine
+bestandene Korrekturrunde.
+
+**Fassungs-Luecke `vkf-ah-1001-15-wohnbauten.md` (schwerster Sachbefund).** Die volle Fassung
+01.01.2017 / Stand 17.05.2018 lag in einem als «keine Normtexte» eingestuften PL-03-Ordner; das
+Destillat stand auf `established` mit Fassung 2015. Delta: **28 materielle, 12 redaktionelle**
+Aenderungen (amtliche Liste: 23 Ziffern plus Fehlerkorrektur 17.05.2018). **Die Run-30-Aussage
+«0 Abweichungen in Ziff. 3/5/6» ist widerlegt** — bei Ziff. 6 inhaltlich (6.3.1 Fussnote [2]). Ursache:
+Abgleich gegen ein 4-seitiges Auszug-Dokument ohne Tabellenfussnoten und ohne farbcodierte Zellen; der
+Auszug ist als Verifikationsquelle fuer unbrauchbar erklaert. **Zwei der wichtigsten Deltas steckten
+ausschliesslich in Zellfarben** — ohne 300-dpi-Renderings unsichtbar (praktische Bestaetigung der
+Methodik-Pflicht 4). Praxisrelevant u.a.: 2'400-m²-Schwelle neu ueber Terrain, REI-30-Reduktion fuehrt
+neu nur auf EI 30; systematische Lockerung RF2/RF3 → RF3 (cr) an sechs Stellen; zwei neue Begriffe
+(Einliegerwohnung, Galerie) und Umnummerierung von Kapitel 2 (Konkordanztabelle ergaenzt). Status auf
+`speculative` gesenkt.
+
+**Drei neue Destillate.**
+- `vkf-allgemein-anerkannte-bauprodukte-2017.md` — VKF «Allgemein anerkannte Bauprodukte» V. 12.0
+  (TK Brandschutz 31.03.2017, 12 S.), die **Freistellungsliste** des Schweizer Brandschutzes und
+  praktische Kehrseite von BRL 13-15 und BRL 28-15. Lag in **keiner anderen Ablage**. Wichtige Grenze:
+  fuer Stahl, Stahl-Beton-Verbund und Holz enthaelt das Dokument keinerlei Tabellenwerte.
+  `speculative` (Selbst-Gegenprobe, 5 Fehler korrigiert).
+- `brandschutzfachstellen-anleitung-brandschutznachweis-v3.md` — Pflichtinhalte Textteil (9 Positionen)
+  und Brandschutzplan (11 Positionen), Verfahren. `emerging` (regionale Arbeitshilfe).
+- `brandschutzplan-legende-symbole-2017.md` — Symbol- und Farbsystematik der Plandarstellung.
+  `speculative` (Herausgeber auf dem Blatt nicht ausgewiesen).
+
+**Zwei Reichweiten-Luecken geschlossen bzw. belegt.**
+- **PL-03 war nur zu 5 von 13 Ordnern erfasst** (Run 30 meldete «alle 6 erfasst»). Alle sieben offenen
+  Eintraege aufgearbeitet; `00 Brandschutzplaene bsvonline.ch` vollinventarisiert (3 normrelevante PDFs,
+  32 Eintraege Musterplan-Set); `08 QS` enthaelt eine KI-generierte Erlaeuterung, nicht destilliert
+  (Echo-Schutz).
+- **PL-02 wird nur zu einem Elftel gescannt:** das Inventar erfasst nur `02_Normen/`, PL-02 hat elf
+  Ordner mit rund 680 weiteren PDFs. Normrelevanter Kern benannt (BfU, GVZ, Suva, SWKI, Suissetec, VSA,
+  PAVIDENSA, Sanitaereinrichtung); Minergie/eco → KB `energie`, Teilungsplan STWEG → Skill
+  `stockwerkeigentum`. **Strukturentscheid bei Raphael.** An den Mac Mini gemeldet:
+  `Tiefgarage/1 VSS-Norm/` enthaelt VSS-640-Normen ausserhalb von `02_Normen/VSS_Norm/`.
+- **Run-30-Aussage widerlegt:** «`06 Lignum Brandschutz` hat kein PL-02-Gegenstueck» — alle sechs
+  Dateien liegen MD5-identisch unter `PL - 02_Recht_Norm/06_Richtlinien/Lignum Brandschutz/`.
+
+**Nachgefuehrt:** `destillate/INDEX.md` (3 neue Zeilen, 5 Statuszeilen, Fassungsangabe BRL 15-15
+praezisiert), `training/norm-inventar.md` (PL-03-Tabelle vervollstaendigt, neuer Abschnitt «PL-02
+Reichweite»), `wiki/QUESTIONS.md`, Report `outputs/2026-07-27_normen-nacht-run31.md`.
+**Keine «SIA/VKF KOMPLETT»-Meldung** — die Endbedingung ist nicht erreicht.
+
 ## 2026-07-27 — Fassungs-Delta VKF-AH 1001-15 Wohnbauten: Fassung 2017/2018 entdeckt, Destillat korrigiert, frueherer Run-30-Befund widerlegt
 
 **Ausloeser:** Im bisher nicht inventarisierten Ordner `PL - 03 Brandschutz/00 Brandschutzplaene

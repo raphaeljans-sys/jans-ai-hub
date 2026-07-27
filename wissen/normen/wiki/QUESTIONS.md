@@ -1,5 +1,69 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
+## Run 31 (MacBook Pro, 27.07.2026) — Retro-Verifikation mit 78 Befunden, zwei Regressionen, zwei Reichweiten-Luecken
+
+**Befund 1 (methodisch, wichtigster des Laufs):** Alle fuenf Destillate, die nach ihrer ersten Pruefrunde
+als korrigiert galten, wurden in der zweiten Runde erneut beanstandet — zusammen 78 Befunde. Darunter
+**zwei echte Regressionen**: bei `lignum-4-1` hob die Erstrunde die korrekte Untergrenze der Tab. 446-1
+von 50 mm faelschlich auf 60 mm; bei `sia-d0165` loeschte die Erstrunde die belegten Honorar-Sammelcodes
+BKP 19-99 / EKG W1-W6 als angeblich «im Original nicht auffindbar». Eine Verifikationsrunde kann ein
+Destillat also auch **verschlechtern**.
+**Zur Entscheidung vorgelegt:** `established` an einen sauberen Nulldurchgang binden statt an eine
+bestandene Korrekturrunde. Das kostet je Destillat systematisch eine Runde mehr, verhindert aber, dass
+Korrekturartefakte als geprueftes Wissen gelten.
+
+**Befund 2 (Methodik-Praezisierung):** Der Satz «frisch nachgetragener Text ist die hoechste Fehlerquelle»
+(seit Run 23/24) gilt NICHT pauschal. Bestaetigt bei Lignatec (beide Erstrunden-Korrekturen fehlerhaft),
+SIA D 0165 (5 von 9 schweren Befunden in Erstrunden-Passagen) und Lignum 4.1 Teil C. Widerlegt bei
+Lignum 4.1 Teil A/B und Lignum 4.2, wo alle Erstrunden-Korrekturen hielten und die Fehler in den
+unangetasteten Passagen lagen. Der Satz beschreibt ein Risiko, das je Textabschnitt unterschiedlich
+eintritt — kein Gesetz.
+
+**Befund 3 (offen, Strukturentscheid bei Raphael): das Inventar scannt aus PL-02 nur einen von elf
+Ordnern.** In den nie erfassten liegen rund 680 weitere PDFs. Der normrelevante Kern ist klein und
+benannt (BfU 9, GVZ 3, Suva 4, SWKI 1, Suissetec 2, VSA 3, PAVIDENSA 9, `09_Sanitaereinrichtung` 15,
+~20 lose Merkblaetter); der Grossteil gehoert anderswohin (Minergie 79 und eco 55 → KB `energie`;
+Teilungsplan STWEG 71 → Skill `stockwerkeigentum`; Projektadmin AHB 79 → keine Norm; Raumpilot/Neufert
+→ Entwurfsliteratur). Eine pauschale Aufnahme waere falsch, ein pauschales Ignorieren auch. Details in
+`training/norm-inventar.md`, Abschnitt «PL-02 Reichweite». **Nicht vom Loop zu entscheiden.**
+
+**Befund 4 (an den Mac Mini gemeldet):** `PL - 02_Recht_Norm/Tiefgarage/1 VSS-Norm/` enthaelt echte
+VSS-640-Normen (640 050 Grundstueckzufahrten, 640 060/065/066 Leichter Zweiradverkehr, 640 281 Parkfelder,
+640 291a Parkieren Geometrie, 640 578 Immissionen) ausserhalb von `02_Normen/VSS_Norm/`. VSS ist
+Mini-Scope (Stations-Split) — hier bewusst nicht angefasst, im Mini-Inventar zu pruefen.
+
+**Befund 5 (geschlossen): PL-03 war nur zu 5 von 13 Ordnern erfasst.** Run 30 meldete «alle 6
+Unterordner erfasst»; `PL - 03 Brandschutz/` hat 13 Eintraege auf oberster Ebene. Alle sieben offenen
+sind jetzt aufgearbeitet. Der Ordner `00 Brandschutzplaene bsvonline.ch` enthielt die geltende Fassung
+der VKF-Arbeitshilfe 1001-15 (Delta 28 materiell / 12 redaktionell) und die bis dahin nirgends
+erfasste VKF-Freistellungsliste «Allgemein anerkannte Bauprodukte».
+
+**Befund 6 (Run-30-Aussage widerlegt):** «Unterordner `06 Lignum Brandschutz` hat KEIN PL-02-Gegenstueck
+(genuin neue Quelle)» ist falsch — alle sechs Dateien liegen MD5-identisch unter
+`PL - 02_Recht_Norm/06_Richtlinien/Lignum Brandschutz/`. Sie lagen nur ausserhalb von `02_Normen/`
+(dessen Unterordner `Lignum/` leer ist). Die drei Lignum-Destillate bleiben richtig und noetig.
+
+**Neu offen fuer den naechsten Lauf:**
+1. **Dritte Verifikationsrunde** fuer alle fuenf heute korrigierten Destillate, fokussiert auf die heute
+   geaenderten Stellen — bei zwei nachgewiesenen Regressionen keine Formalie.
+2. **Unabhaengige Verifikation** der drei neuen Destillate (bisher nur Selbst-Gegenprobe):
+   `vkf-allgemein-anerkannte-bauprodukte-2017`, `brandschutzfachstellen-anleitung-brandschutznachweis-v3`,
+   `brandschutzplan-legende-symbole-2017`.
+3. **VKF-Merkblatt 2003-15** «Brandschutzplaene, Flucht- und Rettungswegplaene, Feuerwehrplaene» fehlt als
+   Destillat. Es ist die Primaerquelle fuer Planpflicht und Symbolik; bis dahin bleibt der amtliche Status
+   des neuen Symbolblatt-Destillats unbestaetigt. Beschaffung aus `PL - 02_Recht_Norm/02_Normen/VKF_Norm/`
+   pruefen. Ebenfalls nicht destilliert: das Merkblatt «Feuerwehrzufahrten».
+4. **Regionale Geltung** der beiden neuen Arbeitshilfen: Herausgeber sind sechs Zentralschweizer
+   Fachstellen. Fuer ZH-Projekte ist ungeprueft, ob die GVZ abweichende formelle Vorgaben kennt.
+5. **VKF-Bauprodukteliste:** Version 12.0 traegt keine Aenderungsliste; ob seit 2017 eine juengere Version
+   publiziert wurde, ist ueber praever.ch/de/bs nachzuziehen. BSV 2026 wird die Bezugsrichtlinien abloesen.
+
+**Unveraendert offen:** Bring-Schulden SIA 491 und SN EN 12193 (KB `baurecht`) — in PL-02 UND PL-03 am
+27.07.2026 erneut nicht gefunden, externe Beschaffung ueber den SIA-Shop noetig. Uebrige SIA-Bring-Schulden
+(SIA 380/1 Volltext, SIA 385/1 Volltext, SIA 118:2013, SIA 242) unveraendert.
+
+Report `outputs/2026-07-27_normen-nacht-run31.md`.
+
 ## Run 30 (MacBook Pro, 27.07.2026) — PL-03-Bookkeeping korrigiert, Lignum destilliert, Erdbeben-Dokument ausgegrenzt
 
 **Befund 1 (Bookkeeping-Fehler behoben):** Der PL-03-Abschnitt in `training/norm-inventar.md` (aufgenommen
