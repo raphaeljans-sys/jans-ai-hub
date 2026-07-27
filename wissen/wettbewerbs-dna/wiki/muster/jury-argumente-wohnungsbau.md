@@ -28,8 +28,10 @@ links:
 
 Verdichtung aus **8 aktiv ausgewerteten** Juryberichten (2014–2023, Kt. BE/ZH/BS/LU/GR/AG;
 einstufig offen, einstufig selektiv, zweistufig Einladung, zweistufiger Studienauftrag sowie ein
-Sonderfall mit vier parallelen, aber gemeinsam abgestimmten Verfahren, 8 bis 108 Beiträge,
-6.5 ha bis 3'139 m² Areal). Die Basis ist bewusst über die Trägertypen gespreizt:
+Sonderfall mit vier parallelen, aber gemeinsam abgestimmten Verfahren, 8 bis 50 tatsächlich
+eingereichte/beurteilte Beiträge (Koch-Areal zählte zusätzlich 108 Präqualifikations-Bewerbungen,
+davon 44 tatsächlich eingereichte Beiträge über alle vier Teilverfahren), 6.5 ha bis 3'139 m²
+Areal). Die Basis ist bewusst über die Trägertypen gespreizt:
 **stadt-gemeindlich** (2x: [[extern/jurybericht-reichenbachstrasse-118-bern]],
 [[extern/jurybericht-waetterweid-arosa]] als einziger alpiner Kontext), **genossenschaftlich**
 (3x: [[extern/jurybericht-seebahn-hoefe-aussersihl]],
@@ -47,7 +49,7 @@ und Fassadenausdruck werden zwar gewürdigt, kosten aber praktisch nie allein de
 werden selbst beim Sieger regelmässig als «noch zu schärfen»/«zurückhaltend» kritisiert (milet:
 «eher geringe Wohnungsvielfalt», [[extern/jurybericht-reichenbachstrasse-118-bern]], S. 29;
 DREI RÖSLI: «Fassaden … wirken zu bescheiden», [[extern/jurybericht-waetterweid-arosa]], S. 20;
-mon oncle: Grenzabstands-/Brandschutzverstösse als «korrigierbar» toleriert,
+mon oncle: die Grenzabstandsunterschreitung explizit als «korrigierbar» toleriert,
 [[extern/jurybericht-industriestrasse-luzern]], S. 29). Wirtschaftlichkeit wird dagegen in den
 meisten Berichten **nicht** über absolute CHF/m²- oder CHF/m³-Kennwerte, sondern über die
 Einhaltung eines vorab definierten Kostenziels (verbal oder als %-Abweichung) bzw. über die
@@ -81,20 +83,21 @@ zusätzlich je Baufeld unterschiedlich besetzte Kriterienkataloge, vgl.
    [[extern/jurybericht-reichenbachstrasse-118-bern]], S. 28/38/48/58/68/78/88; Industriestrasse:
    gestaffelter Bestandeserhalt goutiert bei mon oncle UND beim 2.-Rang-Projekt, vgl.
    [[extern/jurybericht-industriestrasse-luzern]], S. 29-30/40). Im alpinen Kontext übernimmt die
-   Topografie-Reaktion (Terrassierung entlang Höhenlinien) diese Funktion (Wätterweid, vgl.
-   [[extern/jurybericht-waetterweid-arosa]], S. 20/24/32). Wer die Setzung nicht löst, scheidet im
-   1. Rundgang aus (Guggach II: substanzielle baurechtliche Verstösse UND schwache Setzung führen
-   bei fünf Projekten zum Ausscheiden, vgl. [[extern/jurybericht-guggach-ii-unterstrass]], S. 11).
+   Topografie-Reaktion (Terrassierung entlang der Höhenlinien) diese Funktion (Wätterweid DREI
+   RÖSLI, vgl. [[extern/jurybericht-waetterweid-arosa]], S. 18/21). Wer die Setzung nicht löst,
+   scheidet im 1. Rundgang aus (Guggach II: fünf Projekte scheiden im 1. Rundgang wegen
+   städtebaulicher/architektonischer Schwächen bzw. baurechtlicher Verstösse aus — nur Chocolate
+   vereint beide Mängel gleichzeitig, vgl. [[extern/jurybericht-guggach-ii-unterstrass]], S. 11/60).
 2. **Funktionale Organisation: Wohnungsspiegel-/Mix-Konformität + Gemeinschaftskonzept** — der
    eigentliche Siegentscheid. Der geforderte Wohnungsmix wird bei fast jedem Projekt einzeln
    geprüft, auch beim Sieger als Defizit vermerkt (Reichenbachstrasse S. 29/49/69/79/89; Seebahn-
    Höfe: Wohnungszahl-Zielwert unabhängig vom Rang gewürdigt, selbst beim Sieger als Rüge
    festgehalten, vgl. [[extern/jurybericht-seebahn-hoefe-aussersihl]], S. 15). Eine deutliche
    Unterschreitung der Wohnungszahl kann selbst ein architektonisch gelobtes Projekt vom 1. Rang
-   fernhalten (Wätterweid Quartett, vgl. [[extern/jurybericht-waetterweid-arosa]], S. 26).
+   fernhalten (Wätterweid Quartett, vgl. [[extern/jurybericht-waetterweid-arosa]], S. 27).
    Gemeinschaft wird dort, wo sie Bauherrenauftrag ist (Genossenschaften), als eigenständiges,
-   mehrschichtig zu inszenierendes Kriterium gewertet (Koch-Areal Baufeld B: MOERAKI «spannt den
-   reichsten Bogen» gegen die auf eine Zone konzentrierte Lösung PLEIN SOLEIL, vgl.
+   mehrschichtig zu inszenierendes Kriterium gewertet (Koch-Areal Baufeld B: MOERAKI hat «den
+   reichsten Bogen gespannt» gegen die auf eine Zone konzentrierte Lösung PLEIN SOLEIL, vgl.
    [[extern/jurybericht-koch-areal-albisrieden-altstetten]], S. 33-34).
 3. **Bewilligungsfähigkeit als harte Schwelle: Lärmschutz, Hindernisfreiheit, kumulierte
    baurechtliche Verstösse** — ein wiederkehrender K.-o.-Korridor. Ein Grundriss, der ohne
@@ -106,7 +109,11 @@ zusätzlich je Baufeld unterschiedlich besetzte Kriterienkataloge, vgl.
    kostet dagegen nur den Preis, nicht die Beurteilung (Koch-Areal LA CUISINE, vgl.
    [[extern/jurybericht-koch-areal-albisrieden-altstetten]], S. 26/31). Kleinere Verstösse werden
    bei sonst überzeugendem Konzept regelmässig als «korrigierbar» toleriert (Industriestrasse mon
-   oncle S. 29; Wätterweid, generelle Nachsicht bei knapper Bauparzelle, S. 10).
+   oncle: die Grenzabstandsunterschreitung wird explizit als «korrigierbar, ohne die
+   städtebauliche Stärke zu mindern» eingestuft, die separat benannte brandschutzrelevante
+   Fassadenabstands-Kritik dagegen ohne diese ausdrückliche Milderung, S. 29; Wätterweid:
+   Nachsicht bei mehreren Überschreitungen, begründet mit dem Druck, trotz knapper Parzelle
+   preisgünstige Wohnungen anzubieten, S. 11).
 4. **Wirtschaftlichkeit über Kostenziel-Einhaltung/HNF-GF-Effizienz** — der Korrektor der
    Endrunde, in den meisten Berichten nur relativ/qualitativ ausgewiesen. Ein absolutes,
    vorab definiertes Kostenziel (CHF/m² GF nach BKP) wird bei jedem Projekt einzeln verbal
@@ -133,13 +140,16 @@ Architektur und Materialisierung entscheiden fast nie den Sieg allein, entscheid
 | Element | Prämiertes Muster | Belege |
 |---|---|---|
 | Grundtypologie | **Weiterbauen am Bestandsensemble** (Solitär-Cluster um gemeinsamen Hof, Höhenstaffelung aus dem Bestand abgeleitet) ODER bei alpinem Steilhang **terrassiertes Ensemble entlang der Höhenlinien** | Reichenbachstrasse milet (vier Solitäre um zentralen Hof, Weiterbauen-Strategie, [[extern/jurybericht-reichenbachstrasse-118-bern]], S. 28); Wätterweid DREI RÖSLI (drei rhythmisch abgetreppte Häuser in den Steilhang, [[extern/jurybericht-waetterweid-arosa]], S. 17-18) |
-| Erschliessung | **Zentraler, gefasster Hofraum** als Zugang (Flachland) bzw. **Treppenhaus je Haus direkt von der Quartierstrasse** (Hanglage) | milet, mittige Vertikalerschliessungskerne je Gebäude (S. 28-29); DREI RÖSLI, Treppenhaus je Haus, Autolift entlastet die Quartierstrasse (S. 17-18) |
+| Erschliessung | **Zentraler, gefasster Hofraum** als Zugang (Flachland) bzw. **Treppenhaus je Haus direkt von der Quartierstrasse** (Hanglage) | milet, mittige Vertikalerschliessungskerne je Gebäude (S. 28-29); DREI RÖSLI, Autolift entlastet die Quartierstrasse (S. 18), Treppenhaus je Haus direkt von der Quartierstrasse (S. 19) |
 | Wirtschaftlichkeit | An einem **absoluten, vorab definierten Kostenziel** gemessen und projektweise verbal eingeordnet | Reichenbachstrasse: CHF 3'800.-/m² GF BKP 1-5, unabhängige externe Kostenprüfung (S. 17) |
 
-Regel stadt-gemeindlich: Der Sieger löst den Kontextbezug (Bestand oder Topografie) konsequent,
-wird aber fast immer für **zu geringe Wohnungsvielfalt innerhalb der gewählten Typologie**
-gerügt — ein Nachteil, der den 1. Rang nicht verhindert, aber als Weiterbearbeitungspunkt
-festgehalten wird (Reichenbachstrasse S. 29; Wätterweid Grundrissdetails S. 18-19).
+Regel stadt-gemeindlich: Der Sieger löst den Kontextbezug (Bestand oder Topografie) konsequent.
+Bei Reichenbachstrasse wird der Sieger zusätzlich fast durchgehend für **zu geringe
+Wohnungsvielfalt innerhalb der gewählten Typologie** gerügt — ein Nachteil, der den 1. Rang nicht
+verhindert, aber als Weiterbearbeitungspunkt festgehalten wird (S. 29). Bei Wätterweid betreffen
+die Kritikpunkte am Sieger dagegen Grundriss-/Raumproportionsdetails (zu grosses Eckzimmer,
+unproportionierte Räume, S. 18-19), während der Wohnungsmix selbst als «umsetzbar» gilt (S. 21) —
+die beiden Berichte zeigen hier unterschiedliche, nicht identische Kritikmuster.
 
 ### 2.2 Genossenschaftlich (3 Quellen)
 
@@ -147,7 +157,7 @@ festgehalten wird (Reichenbachstrasse S. 29; Wätterweid Grundrissdetails S. 18-
 |---|---|---|
 | Grundtypologie | **Blockrand mit Hofdurchbrüchen** (Flachland-Ersatzneubau) ODER **Zeilenbauten mit übergeordneter Erschliessungsfigur** (Laubengang/Atrien) | Seebahn-Höfe PINARELLO (geschlossener Blockrand, vier Hofdurchbrüche, [[extern/jurybericht-seebahn-hoefe-aussersihl]], S. 22); Walkeweg Werden & Wandeln (vier Zeilenbauten mit Laubengang-Erschliessungsfigur, [[extern/jurybericht-walkeweg-basel-genossenschaft-2]], S. 19); Industriestrasse mon oncle (kleinteiliges Baukörper-Patchwork mit Bestandsintegration, [[extern/jurybericht-industriestrasse-luzern]], S. 29) |
 | Gemeinschaft | **Klar zugeordnete, mehrschichtige Gemeinschaftsräume** (Lobbys/Waschsalon/Bagnia) mit hoher Auffindbarkeit, wird aktiv als eigenständiges Kriterium bewertet | Werden & Wandeln, Lobbys/Waschsalon in den mittleren Zeilen «überzeugt» (S. 19); periphere Zeilen ohne solches Angebot ausdrücklich als Manko benannt (S. 19, Auflage S. 12) |
-| Konstruktion | **Holzbau mit durchgehendem, wirtschaftlich vorfabrizierbarem Konstruktionsraster** als Wirtschaftlichkeits- und Nachhaltigkeitsargument | Industriestrasse: durchgehend geprüftes Kriterium bei allen 13 Projekten (S. 29/49/59-60/69); Walkeweg: 3.20-m-Holzbauraster «überzeugt durch Einfachheit» (S. 52) |
+| Konstruktion | **Holzbau mit durchgehendem, wirtschaftlich vorfabrizierbarem Konstruktionsraster** als Wirtschaftlichkeits- und Nachhaltigkeitsargument | Industriestrasse: durchgehend geprüftes Kriterium bei allen 13 Projekten (S. 29/49/59-60/69); Walkeweg WALKIE TALKIE (3. Rang): Tragwerksentwurf «sehr gut nachvollziehbar», «lässt eine wirtschaftliche Umsetzung erwarten» (S. 36) |
 | Lärmschutz | **Lärmschutz-Ausnahmeregelung** (Aussenraum zur lärmabgewandten Seite) als zentrale, planungsrechtlich nutzbare Entwurfsressource | Seebahn-Höfe: bei mehreren Projekten tragend für die Grundrissqualität, ihr Fehlen ist harter K.-o. (S. 13/42) |
 
 Regel genossenschaftlich: Gemeinschaft wird nicht als Behauptung, sondern als **räumlich
@@ -163,7 +173,7 @@ Industriestrasse LUDOVILLE «aufgesetzter Zwang zur Gemeinschaft», S. 49).
 |---|---|---|
 | Grundtypologie | **Zwei bis drei abgewinkelte, komplexe Baukörper um gemeinsamen Hofraum** ODER **geclusterte Hofbebauung in Terrassenstufen** | Guggach II Santorin (zwei abgewinkelte Baukörper, Hofraum als «Narzissenwiese», [[extern/jurybericht-guggach-ii-unterstrass]], S. 20); Brisgi KANDALAMA (drei Gebäudegruppen, Hangschnitt in drei Stufen, [[extern/jurybericht-brisgi-areal-baden]], S. 18) |
 | Wohnungsvielfalt | **Vielfältiges, verwandtes Wohnungsangebot** wird als Mietbarkeits-/Marktkriterium bewertet, nicht nur gestalterisch | Guggach II: «Projekte mit grosser Vielfalt … erschliessen ein grösseres Mieterpotenzial», explizit gegen homogene Typologien abgewogen (S. 13) |
-| Wirtschaftlichkeit | Bei **Kostenmiete-Auslobern (Stiftungen)** schärfer/verbindlicher formuliert als bei anderen privaten Trägern; bei Pensionskassen primär über Ausnützung/Kompaktheit, ohne CHF-Werte | Brisgi: Programm verlangt ausdrücklich Bewegung «am unteren Rand möglicher Erstellungskosten» (S. 13); Guggach II: «alle Projekte in einem engen Bereich», nur qualitativ (S. 12-13) |
+| Wirtschaftlichkeit | Bei **Kostenmiete-Auslobern (Stiftungen)** schärfer/verbindlicher formuliert als bei anderen privaten Trägern; bei Pensionskassen primär über Ausnützung/Kompaktheit, ohne CHF-Werte | Brisgi: Programm verlangt ausdrücklich Bewegung «am unteren Rand möglicher Erstellungskosten» (S. 13); Guggach II: «alle Projekte in einem engen Bereich», nur qualitativ (S. 13) |
 
 Regel privat-institutionell: Anders als bei öffentlichen Auslobern kann die Verfahrensordnung
 (SIA 142) selektiv mit Ausnahmeklauseln übernommen werden, ohne IVöB/SVO-Bindung (Guggach II
@@ -201,7 +211,8 @@ stark Gemeinschaft/Mitbestimmung als eigenständiges Kriterium gewichtet wird.
    Bei praktisch jedem gewürdigten Projekt eines Ersatzneubaus wird die neue Setzung gegen
    Struktur/Körnung/Geometrie des unmittelbaren Bestands gemessen (Reichenbachstrasse, alle
    sieben Ränge, S. 28-88); im alpinen Kontext übernimmt die Topografie-Reaktion diese Rolle
-   (Wätterweid, S. 20/24/32/48).
+   (Wätterweid DREI RÖSLI S. 18/21, Quartett S. 24, ZAI S. 33 — nicht bei allen 9 Projekten belegt,
+   siehe Offene Punkte).
 2. **Wirtschaftlichkeit an einem vorab definierten Kostenziel messen und projektweise verbal
    einordnen — wo kein CHF-Wert publiziert wird, an der HNF/GF-Relation.** Reichenbachstrasse
    CHF 3'800.-/m² GF (S. 17); Walkeweg HNF/GF «sehr gut» vs. «unterer Bereich» (S. 19/29); Koch-
@@ -209,7 +220,7 @@ stark Gemeinschaft/Mitbestimmung als eigenständiges Kriterium gewichtet wird.
 3. **Wohnungsspiegel/-mix als hartes, bei fast jedem Projekt explizit geprüftes
    Konformitätskriterium — auch beim Sieger als Defizit benannt.** Reichenbachstrasse S. 29/49-89;
    Seebahn-Höfe Wohnungszahl-Zielwert S. 15; Wätterweid Quartett trotz Qualität wegen zu tiefer
-   Wohnungszahl nicht auf Rang 1 (S. 26).
+   Wohnungszahl nicht auf Rang 1 (S. 27).
 4. **Vielfältiges, verwandtes Wohnungsangebot wird einer konsequent durchoptimierten
    Einheitstypologie vorgezogen — als Mietbarkeits-/Marktkriterium, nicht nur gestalterisch.**
    Guggach II S. 13; Industriestrasse mon oncle «Molekular- bis Clusterwohnung» als «grosse
@@ -219,10 +230,10 @@ stark Gemeinschaft/Mitbestimmung als eigenständiges Kriterium gewichtet wird.
    Werden & Wandeln Lobbys/Waschsalon (S. 19).
 6. **Klare, eindeutige Adressbildung (torartig, Vorzone, Erschliessungsfigur) wird bei praktisch
    jedem Projekt eigens gewürdigt, unabhängig vom sonstigen Rang.** Guggach II S. 20/28/36/44-45/
-   52/92/100; Wätterweid S. 17/20/24; Brisgi S. 18/26/44.
+   52/92/100; Wätterweid DREI RÖSLI «klar adressiert» S. 21; Brisgi S. 18/26/44.
 7. **Mehrseitige Orientierung/Ausblick UND Besonnung gemeinsam als Wohnqualität — die klassische
    Südausrichtungs-Doktrin wird bei ungünstiger Kontextlage (Verschattung, Waldrand, Hanglage)
-   explizit relativiert.** Guggach II S. 12-13/36-37; Wätterweid S. 18/32.
+   explizit relativiert.** Guggach II S. 13/36-37; Wätterweid DREI RÖSLI S. 19, Abusitz S. 30.
 8. **Nachhaltigkeitszertifizierung (Minergie-P/2000-Watt) wird bei jedem Projekt individuell auf
    Erreichbarkeit geprüft — «erreichbar, aber noch nicht vollumfänglich erfüllt» genügt meist.**
    Reichenbachstrasse S. 29/39/79; Seebahn-Höfe S. 4-5; Guggach II S. 21/29/36-37/45/53/61/68-69/
@@ -230,18 +241,23 @@ stark Gemeinschaft/Mitbestimmung als eigenständiges Kriterium gewichtet wird.
 9. **Klare, durchgehend vorfabrizierbare Holzbau-Tragstruktur (regelmässiges Raster, konstruktiv
    getrennte Erschliessung) ist ein eigenständiges, vom städtebaulichen Konzept unabhängiges
    Kriterium.** Industriestrasse S. 29/49/59-60/69; Walkeweg S. 52/60/69.
-10. **Feinfühliger, gestaffelter Umgang mit erhaltenswertem Bestand (Etappierbarkeit, Teilerhalt)
-    wird quer durch die Rangliste goutiert, unabhängig vom architektonischen Rang.**
-    Industriestrasse mon oncle/Kabinett mit sechs Häusern S. 29-30/40; Koch-Areal Kohlelagerhalle
-    S. 32/35-36.
-11. **Hindernisfreie/rechtmässige Erschliessung ab JEDEM Hauptzugang — ein systemischer,
-    wiederkehrender Schwachpunkt, der auch das mit Bestnoten gewürdigte Siegerprojekt selbst
-    trifft.** Seebahn-Höfe Pinarello S. 15; Walkeweg Auflage «in allen Wohnungen nachweisen»
-    S. 12.
-12. **Mischbauweise (mineralischer Kern/Untergeschoss + Holz in den Obergeschossen) ist die von
-    der Jury durchweg akzeptierte, dominante Konstruktionslogik im mehrgeschossigen
-    gemeinnützigen Wohnungsbau.** Reichenbachstrasse, sechs von sieben Rängen S. 29-89; Brisgi
-    KANDALAMA Hybridbau S. 19.
+10. **Feinfühliger, gestaffelter Umgang mit erhaltenswertem Bestand wird quer durch die
+    Rangliste goutiert, unabhängig vom architektonischen Rang — die konkrete Form variiert:
+    Etappierbarkeit (mon oncle) oder blosser Teilerhalt/Integration (Kabinett mit sechs
+    Häusern).** Industriestrasse mon oncle, dreistufige Etappierbarkeit, S. 29-30; Kabinett mit
+    sechs Häusern, Erhalt/Würdigung des Käselagers ohne eigene Etappierungsangabe, S. 40; Koch-
+    Areal Kohlelagerhalle S. 32/35-36.
+11. **Hindernisfreiheit ist ein wiederkehrender, teils gravierender Mangel — auch beim
+    Siegerprojekt selbst, wenn auch in unterschiedlicher Form.** Seebahn-Höfe: bei Back to the
+    Future/Sinus fehlt der hindernisfreie Zugang am Hauptzugang ganz (S. 34/50), beim Sieger
+    Pinarello betrifft der verwandte Mangel dagegen zu schmale interne Korridor-/Nasszellenbreiten,
+    nicht den Hauptzugang selbst (S. 15); Walkeweg Auflage «Behindertengerechtigkeit in allen
+    Wohnungen nachweisen» S. 12.
+12. **Mischbauweise (mineralischer Kern/Untergeschoss + Holz in den Obergeschossen) ist ein
+    verbreitetes, aber kein zwingendes Muster im mehrgeschossigen gemeinnützigen Wohnungsbau.**
+    Reichenbachstrasse: bei vier der sieben Ränge (2./4./5./6. Rang, S. 39/59/69/79) — der Sieger
+    milet selbst ist dagegen in reiner Massivbauweise mit Betonelement-Fassade ausgeführt (S. 29),
+    Mischbauweise ist also kein Sieg-Kriterium; Brisgi KANDALAMA Hybridbau S. 19.
 
 ## 4. Die K.-o.-Punkte (Verbotsliste — jeder einzelne kann den Sieg kosten)
 
@@ -253,23 +269,26 @@ stark Gemeinschaft/Mitbestimmung als eigenständiges Kriterium gewichtet wird.
 - **Lärmschutz nicht bewilligungsfähig.** Emilie-Lieberherr-Hof: «sind die Zimmer in dieser
   Grundriss-Konfiguration nicht für den dauerhaften Aufenthalt bewilligungsfähig»,
   [[extern/jurybericht-seebahn-hoefe-aussersihl]], S. 42.
-- **Hindernisfreie Erschliessung fehlt an mindestens einem Hauptzugang.** Wiederkehrend, auch
-  beim Sieger: Pinarello S. 15; Back to the Future «nur von der Hofseite invalidengerecht … nicht
-  tolerierbar» S. 34; Sinus «Invalide können den Lift nur über den Hofraum erreichen … nicht
-  rechtmässig» S. 50.
+- **Hindernisfreie Erschliessung fehlt am Hauptzugang.** Back to the Future «nur von der Hofseite
+  invalidengerecht … nicht tolerierbar» S. 34; Sinus «Invalide können den Lift nur über den
+  Hofraum erreichen … nicht rechtmässig» S. 50 — beim Sieger Pinarello betrifft der verwandte
+  Mangel dagegen die internen Korridor-/Nasszellenbreiten, nicht den Hauptzugang selbst (S. 15).
 - **Wohnungszahl deutlich unter der programmatischen Zielgrösse — wiegt selbst hohe
   Grundrissqualität nicht auf.** Wätterweid Quartett: «bleibt die Anzahl Wohnungen … so weit
   unter den Anforderungen … dass die Vorteile … nicht wettgemacht werden können»,
-  [[extern/jurybericht-waetterweid-arosa]], S. 26.
+  [[extern/jurybericht-waetterweid-arosa]], S. 27.
 - **Introvertierte, nach aussen abgeschottete Grossform ohne Quartierbezug.** Koch-Areal Henry/
   Heavy Duty/Cedric «zu wenig in Bezug zum Umfeld» S. 32; Industriestrasse La Bussola «wirkt im
   Quartier generell fremd» S. 105.
 - **Erzwungene Gemeinschaftlichkeit ohne Rückzugsmöglichkeit.** Industriestrasse LUDOVILLE
   «aufgesetzter Zwang zur Gemeinschaft» S. 49; Walkeweg da'zwischen introvertierte Wohnküche
-  «kann aus Sicht der Genossenschaften nicht nachvollzogen werden» S. 76-77.
+  «kann aus der Sicht der Genossenschaften nicht nachvollzogen werden» S. 76-77.
 - **Konzeptionelle Innovationskraft ohne überzeugende bauliche Einlösung.** Walkeweg «über den
-  walken» und «Die Libellen»: «Konzept überzeugt, Erscheinung/Ausführung bleibt dahinter zurück»,
-  S. 44-45/68-69.
+  walken» (S. 44-45: «nur bedingt gelungen, einen zeitgemässen Ausdruck … zu finden, welcher die
+  Ausarbeitung der innovativen Wohnformen spiegeln würde») und «Die Libellen» (S. 68-69: «die
+  Erscheinung der Wohnanlage stellt nicht das mögliche Potential dar, welches in den innovativen
+  Überlegungen des Projektes steckt») — ein wiederkehrendes Muster «Konzept überzeugt, Ausführung
+  bleibt dahinter zurück» (eigene Verdichtung, kein direktes Zitat).
 - **Mangelhafte Besonnung als eigenständiger, nicht kompensierbarer K.-o., selbst bei gelobter
   Erschliessungsidee.** Brisgi TREFIORI: Erschliessungsidee gelobt, scheitert aber wegen «vieler
   kaum besonnter Wohn- und Individualräume», [[extern/jurybericht-brisgi-areal-baden]], S. 44-45.
@@ -279,7 +298,7 @@ stark Gemeinschaft/Mitbestimmung als eigenständiges Kriterium gewichtet wird.
 - **Uneindeutige Adressierung eines Gebäudeteils.** Walkeweg «über den walken»: Haus am
   Gleisbogen «uneindeutige Adressierung» über vier separate Treppenhäuser S. 44.
 - **Ausschliesslich einheitliche Typologie ohne Wohnungsvielfalt.** Guggach II Chocolate «ein
-  einziger Wohnungstypus … unerwünscht homogenes Angebot» S. 60-61 (schied bereits wegen
+  einziger Wohnungstypus … unerwünscht homogenes Angebot» S. 60 (schied bereits wegen
   baurechtlicher Verstösse aus, dieser Zusatzmangel bestätigt das Muster).
 
 **Kein K.o., aber teuer (weiche Rangverlust-Gründe):** rudimentär dargestellte Gebäudetechnik
@@ -287,7 +306,7 @@ stark Gemeinschaft/Mitbestimmung als eigenständiges Kriterium gewichtet wird.
 Dachraum im Dämmperimeter als Kostentreiber (Seebahn-Höfe, S. 15/47); zu kleine
 Begegnungszonen/Restflächen-Charakter des Hofs (Guggach II Santorin trotz 1. Rang, S. 20); teure
 Sondererschliessung (Autolift, Hangsicherung) auch beim Sieger gegen Kosten abgewogen (Wätterweid
-DREI RÖSLI, S. 18/20).
+DREI RÖSLI, Hangsicherung S. 19, Autolift S. 21).
 
 ## 5. Verfahrens-Mechanik (taktisch)
 
@@ -296,7 +315,9 @@ DREI RÖSLI, S. 18/20).
   (Seebahn-Höfe, Guggach II, Brisgi, Wätterweid); vier parallele, aber gemeinsam abgestimmte
   Verfahren an einem Areal (Koch-Areal); zweistufig auf Einladung mit **zwei getrennt jurierten
   Disziplinen** (Städtebau vs. Gebäudetypologie, Industriestrasse); zweistufiger Studienauftrag,
-  2. Stufe nicht mehr anonym (Walkeweg).
+  dessen 2. Stufe anders als die ausdrücklich als anonym bezeichnete 1. Stufe mit vollem
+  Teamverfassernamen arbeitet (Walkeweg — der Bericht selbst nennt die 2. Stufe nicht wörtlich
+  «nicht-anonym», das ist eine naheliegende, aber nicht direkt belegte Ableitung).
 - **Bei getrennt gejurierten Disziplinen kann dasselbe Projekt in der einen den 1. Rang belegen
   und in der anderen nur eine von mehreren gleichrangigen Auswahlen sein — es wird kein
   «Gesamtsieger» gekürt.** Industriestrasse mon oncle (1. Rang Städtebau, gleichrangige Auswahl
@@ -317,11 +338,13 @@ DREI RÖSLI, S. 18/20).
   verworfen, sofern kein «adäquater Mehrwert» nachweisbar ist.** Industriestrasse:
   Grundsatzentscheid bereits vor der Einzelprojektbeurteilung gefällt, S. 15/30/111-112/127.
 - **Selbst der Sieger erhält im Wohnungsbau regelmässig eine mehrpunktige, teils substanzielle
-  Weiterbearbeitungsauflage vor Vertrag/Ausführung** — durchgehend belegt in allen 8 Berichten
-  (Reichenbachstrasse S. 17; Seebahn-Höfe S. 15; Guggach II S. 13; Koch-Areal S. 40-43; Walkeweg
-  S. 12; Industriestrasse S. 16 [sechs Punkte]; Wätterweid S. 14/20; Brisgi S. 16 [sechs Punkte]).
-  Ein «perfekter» Beitrag ist die Ausnahme; erwartet wird ein tragfähiges Konzept mit benannten,
-  lösbaren Restpunkten.
+  Weiterbearbeitungsauflage vor Vertrag/Ausführung** — belegt in 7 der 8 Berichte (Reichenbachstrasse
+  S. 17; Seebahn-Höfe S. 15; Guggach II S. 13; Koch-Areal S. 40-43; Walkeweg S. 12; Industriestrasse
+  S. 16 [sechs Punkte]; Brisgi S. 16 [sechs Punkte]). Einzige Ausnahme: Wätterweid, dort besteht
+  Kapitel 6 «Empfehlungen» nur aus einem einzigen generischen Satz ohne itemisierte Auflagenliste
+  (S. 15) — die impliziten Auflagen ergeben sich nur aus den Kritikpunkten der Gesamtwürdigung
+  (S. 18-20). Ein «perfekter» Beitrag ist die Ausnahme; erwartet wird ein tragfähiges Konzept mit
+  benannten, lösbaren Restpunkten.
 - **Kostenbenchmarks im Programm (CHF/m² HNF, differenziert nach Nutzungsart) führen bei
   Nichteinhaltung im Siegerprojekt nicht zum Ausscheiden, sondern zu einer priorisierten
   Nachbesserungsauflage.** Koch-Areal MOERAKI, S. 40.
