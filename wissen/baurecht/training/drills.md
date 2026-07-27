@@ -2053,6 +2053,52 @@ ausserhalb der Run-52-54-Liste ausweiten.
   gegen `raw/260714_amtlich_zh_knhv.md`) — die einzige Revision (RRB 15.01.2025) betraf nur
   § 3/§ 3a KNHV (Bundesinventar-Zuständigkeit), nicht § 10/§ 12. _[2026-07-27]_
 
+## Baulinien und Abstandslinien — Buch-Run 62 (2026-07-27, Modell D, Stichproben-Re-Verifikation Priorität c)
+
+- **A (Modell D, Gegenprobe):** In [[baulinien-und-abstandslinien]] stand «Aussendämmung bis
+  35 cm ohne Massanrechnung, auch an der Linie — § 33a ABV». Stimmt diese Fundstelle noch? —
+  **A:** **Nein.** § 33a ABV ist seit **RRB vom 11. Mai 2016 (OS 72, 60)** aufgehoben (amtlich
+  bestätigt gegen `raw/260607_amtlich_zh_abv.md` Z. 336/387: nur noch die Kopfzeile ohne
+  Normtext). Die aktuell geltende Fundstelle ist **§ 253a PBG** (Haupt- und Anhang-Fassung
+  wortgleich) — die Korrektur war im Komplex [[ausnahmebewilligung-und-bestandesschutz]] bereits
+  dokumentiert, aber nie in diesen Artikel gesweept worden (Register-Sweep-Nachzug). _[2026-07-27]_
+- **B (Modell D, Fassungsvergleich):** Enthält die harmonisierte Hauptteil-Fassung von § 260
+  Abs. 3 PBG dieselbe «höchstens ein Drittel der Fassadenlänge»-Regel für Erker/Balkone wie die
+  Anhang-Fassung? — **A:** **Nein.** Die harmonisierte Fassung (`raw/260607_amtlich_zh_pbg.md`
+  Z. 2744-2746) regelt die Getrenntmessung bei seitlich gegliederten Gebäuden und den
+  Mehrhöhenzuschlag — die Drittelsregel für Vorsprünge steht nur in der Anhang-Fassung (Z.
+  4342-4343: «Erker, Balkone und dergleichen … höchstens auf einem Drittel der betreffenden
+  Fassadenlänge»). Für den Grenzabstand hat [[abstaende-und-hoehen]] bereits belegt, dass die
+  harmonisierte ABV diese Regel durch **§ 6c ABV (2 m/½ Fassadenlänge)** ersetzt. _[2026-07-27]_
+- **C (Modell A, Frage→Beleg):** Sind §§ 90-122 PBG (Erschliessungsplan, Baulinien, Niveau-,
+  Ski-/Schlittellinien, Werkplan, vorsorgliches Bauverbot) weiterhin vollständig deckungsgleich
+  mit dem amtlichen Volltext, Fassungsstand Nachtrag 133? — **A:** **Ja, CONFIRMED, 0
+  Korrekturen** — vollständiger Wortlautabgleich Buch-Run 62 gegen `raw/260607_amtlich_zh_pbg.md`
+  Z. 978-1237 (Fassungsstand-Marker «1. 7. 26 - 133» an drei Stellen bestätigt, keine Drift
+  gegenüber Run 44/58/59/60/61). _[2026-07-27]_
+
+**Ergebnis Buch-Run 62 (2026-07-27, Festigungsmodus, Priorität c, kein Agent-Fan-out):**
+[[baulinien-und-abstandslinien]] gewählt (eines der beiden verbleibenden Priorität-(c)-
+Kandidaten mit ältestem `verifiziert`-Datum 2026-07-14, empfohlen von Run 61). Vollständiger
+Modell-D-Wortlautabgleich §§ 90-122 PBG (Erschliessungsplan/Baulinien/Niveaulinien/Ski-
+Schlittellinien/Werkplan/vorsorgliches Bauverbot) gegen `raw/260607_amtlich_zh_pbg.md` —
+**CONFIRMED, 0 Korrekturen an diesem Kernbestand**, Fassungsstand PBG weiterhin Nachtrag 133.
+**2 echte Korrekturen bei den Nebenfundstellen:** (1) § 33a ABV (Aussendämmung 35 cm) ist seit
+11.5.2016 aufgehoben, korrekte Fundstelle § 253a PBG — Register-Sweep-Nachzug (Fehler war im
+Komplex [[ausnahmebewilligung-und-bestandesschutz]] bereits behoben, aber nie hierher gesweept,
+analog Run 47/53/58); korrigiert im Wiki-Artikel + im JANS-Anwendungs-Transfer des Destillats
+`buecher/band-2/15-lage-von-gebaeuden-teil2b.md` (Buch-Zitat selbst unangetastet gelassen,
+Leitplanke «Quelle treu»). (2) Klarstellung Haupt- vs. Anhang-Fassung § 260 Abs. 3 PBG für die
+per Gerichtspraxis analog herangezogene 1/3-Fassadenlänge-Regel bei Baulinien-Vorsprüngen —
+harmonisierte Fassung hat einen anderen Regelungsgegenstand; als offene Praxisfrage markiert
+statt stillschweigend übernommen (keine Volltextgrundlage zur Klärung, ob VGr die harmonisierte
+½-Regel der ABV analog auf Baulinien überträgt). **Zusätzlich:** StrG-Fassungsstand-Vermerk aus
+Run 53 (Nachtrag 133 statt 109, Inhalt unverändert) in diesen Artikel nachgezogen. **0
+Halluzinationen, 2 Register-Sweep-Korrekturen, 0 neue Fehler im Kernbestand §§ 90-122.** 3 neue
+Drill-Karten (2×D, 1×A). Report `outputs/2026-07-27_buch-run62.md`. **Nächster Schritt:**
+[[raumplanung-und-gestaltung]] (letzter verbleibender Priorität-(c)-Kandidat mit
+`verifiziert`-Datum 2026-07-14) als nächster Lauf.
+
 **Ergebnis Buch-Run 61 (2026-07-27, Festigungsmodus, Priorität c, kein Agent-Fan-out):**
 [[naturschutz-und-denkmalschutz]] (eines von drei Artikeln mit ältestem `verifiziert`-Datum
 2026-07-14, gewählt wegen des breitesten Paragraphen-Fächers: 14 PBG-§§ + 2 KNHV-§§)

@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-27 (Run 61)
+last_updated: 2026-07-27 (Run 62)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -113,6 +113,22 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 62 (2026-07-27, Festigungsmodus, Priorität (c) Stichproben-Re-Verifikation, kein
+    Agent-Fan-out):** [[baulinien-und-abstandslinien]] gewählt (letzter verbleibender Kandidat
+    mit `verifiziert`-Datum 2026-07-14 vor [[raumplanung-und-gestaltung]], empfohlen von Run 61).
+    Vollständiger Wortlautabgleich §§ 90-122 PBG (Erschliessungsplan, Baulinien, Niveau-/Ski-
+    Schlittellinien, Werkplan, vorsorgliches Bauverbot) gegen `raw/260607_amtlich_zh_pbg.md` —
+    **CONFIRMED, 0 Korrekturen am Kernbestand**, Fassungsstand weiterhin Nachtrag 133. **2 echte
+    Register-Sweep-Korrekturen gefunden:** § 33a ABV (Aussendämmung 35 cm) ist seit RRB 11.5.2016
+    aufgehoben — korrekte, an anderer Stelle der KB ([[ausnahmebewilligung-und-bestandesschutz]])
+    bereits verwendete Fundstelle ist § 253a PBG, war aber nie in diesen Artikel gesweept worden;
+    zusätzlich Klarstellung Haupt- vs. Anhang-Fassung § 260 Abs. 3 PBG für die per Gerichtspraxis
+    analog herangezogene 1/3-Fassadenlänge-Vorsprungsregel (harmonisierte Fassung hat anderen
+    Regelungsgegenstand, offene Praxisfrage markiert statt übernommen). StrG-Fassungsstand-
+    Vermerk aus Run 53 (Nachtrag 133) nachgezogen. **0 Halluzinationen, 2 Register-Sweep-
+    Korrekturen, 0 neue Fehler im Kernbestand.** 3 neue Drill-Karten (2×D, 1×A). Report
+    `outputs/2026-07-27_buch-run62.md`. **Nächster Schritt:** [[raumplanung-und-gestaltung]]
+    (letzter verbleibender Priorität-(c)-Kandidat mit `verifiziert`-Datum 2026-07-14).
   - **Run 61 (2026-07-27, Festigungsmodus, Priorität (c) Stichproben-Re-Verifikation, kein
     Agent-Fan-out):** [[naturschutz-und-denkmalschutz]] gewählt (eines von drei Artikeln mit
     ältestem `verifiziert`-Datum 2026-07-14, breitester Paragraphen-Fächer). Vollständiger

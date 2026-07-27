@@ -1,5 +1,47 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## 2026-07-27 (Buch-Run 62, Festigungsmodus, Priorität c) — baulinien-und-abstandslinien: § 33a ABV-Register-Sweep-Nachzug, Haupt-/Anhang-Klärung § 260 Abs. 3
+
+[[baulinien-und-abstandslinien]] (letzter verbleibender Priorität-(c)-Kandidat mit
+`verifiziert`-Datum 2026-07-14 vor [[raumplanung-und-gestaltung]]) vollständigem Modell-D-
+Wortlautabgleich unterzogen: §§ 90-122 PBG (Erschliessungsplan, Baulinien, Niveau-/Ski-
+Schlittellinien, Werkplan, vorsorgliches Bauverbot) gegen `raw/260607_amtlich_zh_pbg.md`
+Z. 978-1237 — **alle CONFIRMED, 0 Korrekturen am Kernbestand**, Fassungsstand weiterhin
+Nachtrag 133.
+
+Bei den Nebenfundstellen (Rechtswirkungen-Tabelle) zwei echte Korrekturen:
+
+- **§ 33a ABV ist seit RRB vom 11. Mai 2016 (OS 72, 60) aufgehoben** (nur noch Kopfzeile ohne
+  Normtext, `raw/260607_amtlich_zh_abv.md` Z. 336/387). Der Artikel zitierte diese Norm für die
+  35-cm-Aussendämmungsprivilegierung «auch an der Linie» — korrekte, aktuell geltende Fundstelle
+  ist **§ 253a PBG** (Haupt- und Anhang-Fassung wortgleich). Diese Korrektur war im Komplex
+  [[ausnahmebewilligung-und-bestandesschutz]]/`buecher/band-2/20-ausnahmen-teil2-milderung-
+  missstaende-brandstatt.md`/`buecher/INDEX.md` bereits dokumentiert (frühere Läufe), aber nie
+  in diesen Artikel gesweept worden — klassisches Register-Sweep-Muster (analog Run 47/53/58).
+  Korrigiert im Wiki-Artikel (Tabelle + sources) und im JANS-Anwendungs-Transfer-Abschnitt des
+  Destillats `buecher/band-2/15-lage-von-gebaeuden-teil2b.md` (die Buch-Zitat-Passagen selbst
+  bleiben unangetastet, Leitplanke «Quelle treu»).
+- **Klarstellung Haupt- vs. Anhang-Fassung § 260 Abs. 3 PBG:** Die per Gerichtspraxis
+  (VB.2016.00333/VB.2014.00245/BEZ 2006 Nr. 65) analog herangezogene «höchstens 1/3
+  Fassadenlänge»-Regel für Baulinien-Vorsprünge stammt aus der **Anhang-Fassung** von § 260
+  Abs. 3 PBG (`raw/260607_amtlich_zh_pbg.md` Z. 4342-4343). Die **harmonisierte Hauptteil-
+  Fassung** von § 260 Abs. 3 (Z. 2744-2746) hat einen anderen Regelungsgegenstand (Getrennt-
+  messung bei seitlich gegliederten Gebäuden). [[abstaende-und-hoehen]] hat für den analogen
+  Grenzabstands-Fall bereits belegt, dass die harmonisierte ABV diese Regel durch § 6c ABV
+  (2 m/½ Fassadenlänge, grosszügiger als 1/3) ersetzt hat. Ob die Rechtsprechung diese neuere
+  ½-Regel auch analog auf den Baulinienbereich überträgt, ist am Gesetzeswortlaut **nicht**
+  prüfbar (reine Praxisfrage, offen markiert statt die ältere 1/3-Regel stillschweigend
+  fortzuschreiben — die zitierten VB-Entscheide 2013-2016 liegen an der Harmonisierungs-
+  Zeitschwelle).
+
+Zusätzlich: StrG-Fassungsstand-Vermerk aus Run 53 (2026-07-25, aktuell Nachtrag 133 statt der
+ursprünglich abgerufenen 109, §§ 59-64 StrG inhaltlich unverändert) in diesen Artikel
+nachgezogen, war zuvor nur in `raw/260713_amtlich_zh_strg.md` + `buecher/band-1/03-
+erschliessung-landsicherung-teil1.md` vermerkt.
+
+**0 Halluzinationen, 2 Register-Sweep-Korrekturen, 0 neue Fehler im §§ 90-122-Kernbestand.**
+Details: `outputs/2026-07-27_buch-run62.md`.
+
 ## 2026-07-27 (Buch-Run 61, Festigungsmodus, Priorität c) — naturschutz-und-denkmalschutz vollständig re-verifiziert
 
 [[naturschutz-und-denkmalschutz]] (eines von drei Artikeln mit ältestem `verifiziert`-Datum

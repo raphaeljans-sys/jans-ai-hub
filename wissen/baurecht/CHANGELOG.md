@@ -4,6 +4,24 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-27 — Buch-Run 62 (Festigungsmodus, Priorität c: Baulinien und Abstandslinien re-verifiziert, 2 Register-Sweep-Korrekturen)
+- [verifikation] **`wiki/baulinien-und-abstandslinien.md`** — vollständiger Modell-D-
+  Wortlautabgleich §§ 90-122 PBG (Erschliessungsplan/Baulinien/Niveau-/Ski-Schlittellinien/
+  Werkplan/vorsorgliches Bauverbot) gegen `raw/260607_amtlich_zh_pbg.md`. **CONFIRMED, 0
+  Korrekturen am Kernbestand**, Fassungsstand Nachtrag 133.
+- [korrektur] **`wiki/baulinien-und-abstandslinien.md`** — § 33a ABV (aufgehoben seit RRB
+  11.5.2016) → **§ 253a PBG** korrigiert (Register-Sweep-Nachzug, Fehler war im Komplex
+  [[ausnahmebewilligung-und-bestandesschutz]] bereits behoben, nie hierher gesweept);
+  Klarstellung Haupt-/Anhang-Fassung § 260 Abs. 3 PBG für die 1/3-Fassadenlänge-Vorsprungsregel
+  ergänzt (offene Praxisfrage statt stillschweigender Übernahme); StrG-Fassungsstand-Vermerk aus
+  Run 53 (Nachtrag 133) nachgezogen. `verifiziert`-Feld ergänzt.
+- [korrektur] **`buecher/band-2/15-lage-von-gebaeuden-teil2b.md`** — JANS-Anwendungs-Transfer-
+  Abschnitt («Dämmung 35 cm gratis») auf § 253a PBG korrigiert, Buch-Zitat selbst unangetastet
+  (Leitplanke «Quelle treu»); `paragraphen`-Frontmatter ergänzt.
+- [ergänzung] **`training/drills.md`** — 3 neue Drill-Karten (2×D, 1×A) zu § 33a ABV/§ 253a PBG
+  und der Haupt-/Anhang-Fassung § 260 Abs. 3 PBG.
+- Report `outputs/2026-07-27_buch-run62.md`.
+
 ## 2026-07-27 — Buch-Run 61 (Festigungsmodus, Priorität c: Natur- und Denkmalschutz vollständig re-verifiziert)
 - [verifikation] **`wiki/naturschutz-und-denkmalschutz.md`** — vollständiger Modell-D-
   Wortlautabgleich aller 14 zitierten PBG-§§ (203/204/205/207/208/209/210/211/213/216/217/

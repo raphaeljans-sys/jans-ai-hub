@@ -4,10 +4,10 @@ kapitel: 15 — Lage von Gebaeuden (Teil 2b: Baulinienabstand-Rechtswirkungen, S
 band: 2
 seiten: 1034-1061
 shots: 521-534 (Bildschirmfoto 2026-06-07 um 12.03.29 – 12.03.47)
-paragraphen: ["§ 96 PBG", "§ 99 PBG", "§ 100 PBG", "§ 101 PBG", "§ 102 PBG", "§ 103 PBG", "§ 104 PBG", "§ 105 PBG", "§ 110a PBG", "§ 234 PBG", "§ 238a PBG", "§ 260 Abs. 3 PBG", "§ 264 PBG", "§ 265 PBG", "§ 266 PBG", "§ 267 PBG", "§ 272 PBG", "§ 357 PBG", "§ 49 Abs. 2 PBG", "§ 51 Abs. 2 PBG", "§ 33a ABV", "§ 3 StrG", "§ 1 StrAV", "§ 7 StrAV", "§ 14 StrAV", "§ 16 StrAV", "§ 108 LG", "§ 110 LG", "§ 174bis EG ZGB", "Art. 96 SSV"]
+paragraphen: ["§ 96 PBG", "§ 99 PBG", "§ 100 PBG", "§ 101 PBG", "§ 102 PBG", "§ 103 PBG", "§ 104 PBG", "§ 105 PBG", "§ 110a PBG", "§ 234 PBG", "§ 238a PBG", "§ 253a PBG", "§ 260 Abs. 3 PBG", "§ 264 PBG", "§ 265 PBG", "§ 266 PBG", "§ 267 PBG", "§ 272 PBG", "§ 357 PBG", "§ 49 Abs. 2 PBG", "§ 51 Abs. 2 PBG", "§ 33a ABV (aufgehoben 11.5.2016, Buch-Zitat)", "§ 3 StrG", "§ 1 StrAV", "§ 7 StrAV", "§ 14 StrAV", "§ 16 StrAV", "§ 108 LG", "§ 110 LG", "§ 174bis EG ZGB", "Art. 96 SSV"]
 status: emerging
 gelesen: 2026-06-14
-last_updated: 2026-06-14
+last_updated: 2026-07-27 (Buch-Run 62, JANS-Anwendungs-Transfer-Korrektur § 33a ABV aufgehoben → § 253a PBG)
 ---
 
 # Kap. 15 — Lage von Gebaeuden (Teil 2b: Baulinien-Rechtswirkungen + Strassen-/Wegabstand)
@@ -254,9 +254,14 @@ PBG), weitergehende Vorkehren nur mit Mehrwertrevers (§ 101 Abs. 2 PBG).
 - **Garagenvorplatz 5,5 m schlaegt die Baulinie.** Der Vorplatz vor einer Garage muss ohne
   Ruecksicht auf die Verkehrsbaulinie mind. 5,5 m messen (§ 266 PBG) — bei Erschliessungs-/
   Stellplatzkonzepten an der Strasse als harte Geometrie-Vorgabe setzen.
-- **Daemmung 35 cm gratis.** Aussenwaermedaemmungen an Bestandsbauten bis 35 cm zaehlen weder
-  beim Abstand noch an der Baulinie (§ 33a ABV) — relevant fuer energetische Sanierungen
-  knapp an Linie/Grenze (Bruecke zu Skill `planungsgrundlagen`/`energie-berater`).
+- **Daemmung 35 cm gratis — aktuelle Fundstelle § 253a PBG, nicht § 33a ABV.** Aussenwaermedaemmungen
+  an Bestandsbauten bis 35 cm zaehlen weder beim Abstand noch an der Baulinie. Das Buch (S. 1043 f.)
+  zitiert dafuer § 33a ABV; diese Norm ist seit **RRB vom 11. Mai 2016 (OS 72, 60)** aufgehoben
+  (amtlich bestaetigt gegen `raw/260607_amtlich_zh_abv.md` Z. 336/387, Korrektur Buch-Run 62,
+  2026-07-27) — die inhaltsgleiche, aktuell geltende Norm ist **§ 253a PBG** (bereits so in
+  [[ausnahmebewilligung-und-bestandesschutz]] und `buecher/band-2/20-ausnahmen-teil2-milderung-
+  missstaende-brandstatt.md` dokumentiert). Relevant fuer energetische Sanierungen knapp an
+  Linie/Grenze (Bruecke zu Skill `planungsgrundlagen`/`energie-berater`).
 - **Aufstockung baulinienwidrig? § 101 Abs. 2 statt Abriss.** Ein baulinienwidriges EFH darf nicht
   nur unterhalten (§ 101 Abs. 1), sondern unter Beschraenkung und Mehrwertrevers sogar aufgestockt
   werden (§ 101 Abs. 2 PBG; BEZ 2013 Nr. 21) — bei Bestandsliegenschaften an der Baulinie ein
