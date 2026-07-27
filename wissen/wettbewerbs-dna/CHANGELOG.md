@@ -1,5 +1,20 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-27 (Vollgas-Zyklus, abends) — Etappe 3, B5 Wohnungsbau Parameter-Set-Revision: ETAPPE 3 VOLLSTAENDIG (alle drei Bauaufgaben)
+- `wissen/entwurfs-referenzen/wiki/parameter-sets/wohnen-mfh-urban.json` von v1.0 (generisch,
+  vor-Etappe-3) auf v2.0 komplett neu geschrieben, rein aus den established B4
+  (`jury-argumente-wohnungsbau.md`) + B6 (`kennwerte-wohnungsbau.md`) abgeleitet — analoges
+  Vorgehen wie Healthcare v2.0 (25.07.). Details im CHANGELOG der Ziel-KB
+  `wissen/entwurfs-referenzen/CHANGELOG.md` (2026-07-27-Eintrag). Zwei unabhaengige
+  Refuter-Durchgaenge (Agent-Tool direkt, kein Workflow-Tool wegen bekannter headless-Review-
+  Blockade): 1. Durchgang 6 Fehler gefunden und korrigiert, 2. Durchgang bestaetigte alle
+  Korrekturen fehlerfrei — VERDIKT BESTANDEN.
+- **Damit ist Etappe 3 (typologische Wettbewerbs-DNA je Ziel-Bauaufgabe) fuer alle drei
+  priorisierten Bauaufgaben (Schulbau, Healthcare, Wohnungsbau) vollstaendig: B1-B6 je
+  established.** Stand-Tabelle in `training/ETAPPE-3.md` entsprechend nachgefuehrt.
+  Naechster Schritt: Raphael im Tagesbriefing die Fortsetzung vorschlagen (weitere
+  Bauaufgaben wie Gewerbe/Buero oder Vertiefung der bestehenden drei, Entscheid Raphael).
+
 ## 2026-07-27 — Etappe 3, B6 Wohnungsbau Kennwert-Benchmark: `kennwerte-wohnungsbau.md` established
 - Neuer Artikel `wiki/muster/kennwerte-wohnungsbau.md` aus den 8 established Wohnungsbau-
   Juryberichten (dieselbe Basis wie B4). Zwei parallele Extraktions-Shards (je 4 Quellen,

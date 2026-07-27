@@ -5,7 +5,7 @@ Schema: `../../parameter-schema/entwurfs-parameter.schema.json`
 
 ## Vorhandene Parameter-Sets
 - [healthcare-neubau-zh.json](healthcare-neubau-zh.json) — Pflegeheim/Alterszentrum/betreutes Alterswohnen CH (Etappe-3-Baustein B5, v2.0, abgeleitet aus wettbewerbs-dna kennwerte-healthcare + jury-argumente-healthcare, refuter-BESTANDEN 25.07.2026). Akutspital/Psychiatrie/gemischt bewusst nicht abgedeckt (eigene Sets geplant).
-- [wohnen-mfh-urban.json](wohnen-mfh-urban.json) — Mehrfamilienhaus urban (3–6 OG)
+- [wohnen-mfh-urban.json](wohnen-mfh-urban.json) — Mehrfamilienhaus urban, gemeinnützig/genossenschaftlich/institutionell CH (Etappe-3-Baustein B5, v2.0, abgeleitet aus wettbewerbs-dna kennwerte-wohnungsbau + jury-argumente-wohnungsbau, refuter-BESTANDEN 27.07.2026, 2 Refuter-Durchgänge). Ersetzt v1.0 (generische, nicht Etappe-3-abgeleitete Werte).
 - [schule-volksschule-ch.json](schule-volksschule-ch.json) — Volksschule/Bildungsbau CH (Etappe-3-Baustein B5, abgeleitet aus wettbewerbs-dna kennwerte-schulbauten + jury-argumente-schulbauten, refuter-BESTANDEN 21.07.2026). Ersetzt das geplante bildung-schulhaus.json (Namens-Abstimmung gemäss CHANGELOG 2026-07-20).
 
 ## Geplante Parameter-Sets

@@ -1,6 +1,21 @@
 # INDEX — KB wettbewerbs-dna
 
-Stand: 27.07.2026 (Etappe 3, **Baustein B4 Wohnungsbau Muster-Synthese abgeschlossen —
+Stand: 27.07.2026 abends (Etappe 3, **Baustein B5 Wohnungsbau Parameter-Set-Revision
+abgeschlossen — `entwurfs-referenzen/wiki/parameter-sets/wohnen-mfh-urban.json` v2.0
+established, damit ETAPPE 3 FUER ALLE DREI ZIEL-BAUAUFGABEN VOLLSTAENDIG (Schulbau,
+Healthcare, Wohnungsbau, je B1-B6):** Parameter-Set komplett neu geschrieben, rein aus B4
+(`jury-argumente-wohnungsbau.md`) + B6 (`kennwerte-wohnungsbau.md`) abgeleitet, analog
+Healthcare v2.0. Kein `chf_m3_gv_band` (Strukturbefund: kein GV in m3 in 8 Quellen belegt),
+neu `chf_m2_hnf_band` [3500,3900] BKP 1-9 (Koch-Areal) sowie `hnf_pro_einheit_m2` [95,105]
+fuer die 4.5-Zimmer-Wohnung. Zwei unabhaengige Refuter-Durchgaenge (Agent-Tool direkt, kein
+Workflow-Tool wegen bekannter headless-Review-Blockade): 1. Durchgang 6 Fehler gefunden
+(u.a. Holzbau faelschlich dem Sieger statt dem 3.-Rang-Projekt Walkeweg zugeschrieben,
+scope_hinweis ueberdehnte "Einzelbeleg" auf privat-institutionell, fehlender K.o.-Punkt
+baurechtliche Verstoesse) und korrigiert, 2. Durchgang bestaetigte alle Korrekturen
+fehlerfrei. Details CHANGELOG dieser KB + `entwurfs-referenzen/CHANGELOG.md`. **Naechster
+Schritt: Etappe 3 als Ganzes ist abgeschlossen — Raphael im Tagesbriefing die Fortsetzung
+vorschlagen (weitere Bauaufgabe oder Vertiefung, Entscheid Raphael).** — vorher 27.07.2026
+(Etappe 3, **Baustein B4 Wohnungsbau Muster-Synthese abgeschlossen —
 `wiki/muster/jury-argumente-wohnungsbau.md` established:** Synthese aus den 8 established
 Wohnungsbau-Juryberichten (Kriterien-Rangordnung, Gewinner-Typologien je Traegertyp,
 12 Siegargumente, K.-o.-Liste, Verfahrensmechanik, Skill-Massnahmen); 5 parallele Quellen-

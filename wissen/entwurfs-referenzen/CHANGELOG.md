@@ -1,5 +1,36 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-07-27 — `wohnen-mfh-urban.json` komplett neu geschrieben (v1.0 → v2.0, Etappe-3-Baustein B5) — damit ALLE DREI Etappe-3-Bauaufgaben vollständig
+- **Vollständige Neufassung, rein aus den beiden established Etappe-3-Mustern abgeleitet**
+  (`wissen/wettbewerbs-dna/wiki/muster/kennwerte-wohnungsbau.md` B6 + `jury-argumente-
+  wohnungsbau.md` B4, beide established 27.07.2026, 8 Quellen trägertyp-gespreizt). Bisherige
+  v1.0-Quellen (BWO Wohnungsmarktbericht 2024, SIA 416, Wüest Baukostenindex 2024, BFS
+  Gebäudestatistik) ersatzlos entfernt — generisch, nicht aus Etappe-3-Quellen ableitbar.
+  Unbelegte externe Referenz "Siedlung Klee (pool Architekten)" aus v1.0 entfernt (nicht
+  verifizierbar), ersetzt durch zwei aus B3/B4 belegte Referenzprojekte (Pinarello/Seebahn-
+  Höfe, Kandalama/Brisgi-Areal, Architekten-Namen gegen `wiki/extern/`-Artikel verifiziert).
+- **Kein `chf_m3_gv_band` gesetzt** (Strukturbefund wie Schulbau/Healthcare: kein einziger
+  der 8 Wohnungsbau-Juryberichte nennt ein Gebäudevolumen in m³) — stattdessen neues Feld
+  `kosten_referenz.chf_m2_hnf_band` [3500, 3900] (BKP 1–9, Koch-Areal, zwei unabhängige
+  Baufelder derselben Auslobung) mit Hinweis auf die eingeschränkte Basis (eine Auslobung,
+  Zürich 2018/2019, nicht schweizweiter Median).
+  `flaechen.hnf_pro_einheit_m2` [95, 105] für die Nutzeinheit "Wohnung (4.5-Zimmer)" — aus
+  zwei unabhängigen, deckungsgleichen Programm-Wohnungsspiegeln (Seebahn-Höfe, Brisgi).
+  `gebaeude`-Geometriefelder (Geschosszahl/Erschliessung/Statik/Dachform) bewusst NICHT
+  gesetzt (wie bei Healthcare v2.0) — B4/B6 belegen trägertyp-abhängig genuin verschiedene
+  Typologien, ein einzelner Enum-Wert wäre erfunden; stattdessen `orientierung_regeln` mit
+  der Herleitungsregel je Trägertyp.
+- **Zwei-Runden-Refuter-Verifikation:** 1. Durchgang fand 6 Fehler (u.a. Holzbau-Beleg
+  fälschlich dem Sieger statt dem 3.-Rang-Projekt Walkeweg zugeschrieben; "belegt in 7 von
+  8 Berichten"-Statistik an die falsche Aussage gehängt; Vier-Systeme-Aufzählung nur 3
+  Items; scope_hinweis überdehnte "Einzelbeleg" auf privat-institutionell obwohl B4 das
+  nicht so kennzeichnet; ein K.o.-Punkt zu kumulierten baurechtlichen Verstössen fehlte
+  ganz), alle korrigiert; 2. Durchgang bestätigte alle 6 Korrekturen fehlerfrei. Beide
+  Refuter-Agenten liefen direkt über das Agent-Tool (kein Workflow-Tool, konsistent mit der
+  in dieser KB wiederholt dokumentierten headless-Review-Blockade des Workflow-Tools).
+- **Damit sind alle drei Etappe-3-Ziel-Bauaufgaben (Schulbau, Healthcare, Wohnungsbau)
+  vollständig: B1–B6 je established.** Siehe `wissen/wettbewerbs-dna/training/ETAPPE-3.md`.
+
 ## 2026-07-26 — Wissens-Chef Run 16 (Cross-KB): Quellenzuweisung v2.0 korrigiert, INDEX nachgezogen
 - **[korrektur, materiell] `parameter-sets/healthcare-neubau-zh.json`** hat mit der Neufassung v2.0 (25.07., 21:53) zwar das beanstandete Wohnbau-Band entfernt, die **Quellenzuweisung aber unveraendert uebernommen**: `quelle_kb: "wissen/grobkosten/"` plus Hinweistext «fuer CHF/m3 bzw. CHF/m2 fuehrend bleiben wissen/grobkosten/…». Genau diese Verwendung untersagt `grobkosten` ausdruecklich (Abschnitt «Healthcare / Spezialnutzung»; die KB erklaert sich fuer Healthcare in `CLAUDE.md` insgesamt fuer unzustaendig). Da `quelle_kb` das einzige maschinenlesbare Quellenfeld ist, waeren konsumierende Werkzeuge auf die untersagte Quelle gelenkt worden. → `quelle_kb` auf `wissen/immobilienbewertung/wiki/realwert-sachwert.md` umgestellt, neues Feld `quelle_kb_m2_nf` (Skill `kostenschaetzung`, Wueest) und `quelle_kb_nicht_anwendbar` (grobkosten, mit Begruendung); Zahlenwerte unveraendert, JSON schema-valide geprueft.
 - **[korrektur] `wiki/INDEX.md`** beschrieb das Set noch mit den v1.0-Quellen «CURAVIVA/Wueest/JANS 2410+2619/SIA 416», die die Neufassung ersatzlos entfernt hat (der Sub-Index `parameter-sets/INDEX.md` war bereits korrekt). → an den Ist-Zustand angeglichen (v2.0, Herkunft B4/B6, Scope Pflegeheim/Alterszentrum/betreutes Alterswohnen).
