@@ -4,6 +4,17 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-27 — `twin-mail-training` Batch 73 (rj@, 11:00–12:38 Uhr).** Nach dem Sweep-Endpunkt
+  von Batch 72 frisch gepullt: genau 1 neuer Treffer, eine Teams-Meeting-Einladung „Koordination
+  LBW/Innerer Verglasung - Brandschutz" an Othmar Stadelmann (Estermann AG), klar handgetippt,
+  keine Echo-Falle. Neue Marker: [[fachsignatur]] Bauentscheid-Auflagenziffern 17–20 verbatim als
+  Koordinationsgrundlage in die Einladung kopiert (amtlicher Wortlaut bleibt zitierfaehig statt
+  paraphrasiert); [[arbeitsweise]] Teams-Einladung als eigenstaendiger Sachmail-Traeger statt
+  reiner Terminlogistik, inkl. Signaturphrase „Besten Dank fuer..."; [[beziehungsregister]]
+  Plural-Anrede „Geschaetzte Herren" an einen einzelnen, firmenvertretenden Sie-Kontakt + neues
+  Mapping Othmar Stadelmann/Estermann AG. `_INGESTED.md` fortgeschrieben, naechster Pull ab
+  2026-07-27T12:38:14Z.
+
 - **2026-07-27 — `twin-fidelity-review` (vierter Lauf des Tages, Report `outputs/2026-07-27e_fidelity.md`).**
   Sättigungs-Check zuerst: drei Kandidaten-Mails aus einem frischen rj@-Fenster (06.–13.04.2026,
   KISPI) stellten sich als bereits destilliert heraus — bestaetigt die Saettigung des KISPI-/rj@-

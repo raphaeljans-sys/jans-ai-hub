@@ -3,7 +3,7 @@ title: Fachsignatur
 status: established
 last_updated: 2026-07-27
 gewichtung: authentisch
-sources: [260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -1481,3 +1481,21 @@ Schreiner/Unternehmer Lanz, Sie, cc Betreiber-Team Spahic/Spörri/Würsch), 27.0
   «Nach Rücksprache mit der Bauherrschaft beträgt das Rahmenbudget … CHF 70'000.- exkl. MwSt.» —
   macht die Zahl unverhandelbar, ohne den Unternehmer persönlich zu brüskieren (→ [[haltung]]
   Batch 72, → [[arbeitsweise]] Freigabe-/Delegationsketten).
+
+## Batch 73 (2026-07-27) — Bauentscheid-Auflagenziffern verbatim als Koordinationsgrundlage in die Meeting-Einladung
+
+Gewichtung: authentisch (handgetippt, ein Gross-Slip «Brandschutzrelevante» im Fliesstext). Quelle:
+Teams-Meeting-Einladung «Koordination LBW/Innerer Verglasung - Brandschutz» an Othmar Stadelmann
+(Estermann AG), 27.07.2026.
+
+- **Die numerierten Auflagenpunkte 17–20 werden wortgleich aus dem Bauentscheid übernommen und in die
+  Einladung kopiert,** samt Original-Ziffer: «17. Flucht- und Rettungswege sind jederzeit frei und sicher
+  benutzbar zu halten …», «18. Für automatische Schiebetüren, welche gleichzeitig die Funktion als
+  Fluchttüre und als Brandabschluss erfüllen müssen, sind nur Konstruktionen mit eingebauter Flügeltüre
+  zulässig …» usw. — keine Paraphrase, keine Zusammenfassung; die Behördenformulierung bleibt bindend
+  zitierfähig erhalten, damit am Termin gegen den amtlichen Wortlaut, nicht gegen eine eigene Interpretation
+  verhandelt wird. Reiht sich zum bereits belegten Muster «Plannummer + Klasse + Ein-Wort-Begründung»
+  (Batch 64/71): auch hier bleibt die amtliche Ziffer die Referenzeinheit, nicht ein eigener Titel.
+- **Fachvokabular exakt und ohne Verwässerung:** VKF-Anerkennung, Leistungserklärung, Brandverhaltensgruppe
+  RF 1, Feuerwiderstand EI 30, Brandabschluss — jeder Begriff bleibt an seiner normativen Bedeutung, keine
+  umgangssprachliche Annäherung.
