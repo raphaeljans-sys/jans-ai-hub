@@ -2522,3 +2522,45 @@ kein Gedankenstrich, keine Listicle-Struktur, keine generischen KI-Floskeln).
   ob es möglich ist …» als weitere Belegstelle der knappen, direkten Sie-Erkundigungsformel
   (Ergänzung zu «Gerne erkundige ich mich bei Ihnen, ob …», hier ohne «Gerne»-Softener, an eine
   Amtsstelle statt an einen Dienstleister).
+
+## Batch 79 (2026-07-27) — Rückwärts-Sweep mail@ (bislang kaum gezogenes Konto), Echo-Falle 9 in Englisch
+
+Gewichtung: authentisch (mail@raphaeljans.ch, gezielter Rückwärts-Sweep statt Vorwärts-Sweep, siehe
+Methodik-Empfehlung `../outputs/2026-07-27j_fidelity.md`: der Vorwärts-Sweep-Zeiger ist leer, das
+historische Konto ist es nicht). Zwei neue Quellen: Sie-Mail an UBS-Banker Jeckelmann (27.06.2026,
+Firmengründung) und ein Fünf-Mail-Englisch-Thread mit dem Webfreelancer Hleb (04.–09.02.2026,
+Website-Neuaufbau).
+
+- **«Besten Dank für Ihre Nachricht und die Vorbereitung des …» als Sie-Öffner, gefolgt von einer
+  sofortigen Sachkorrektur** (Firmenname geändert) ohne Umweg: erst der warme Dank, direkt danach
+  die präzise, unentschuldigte Korrektur («In der Zwischenzeit hat sich der definitive Firmenname
+  geändert»). Bestätigt den DNA-Kern «warm rahmen, präzise im Kern» auch für eine reine
+  Bank-/Verwaltungskorrespondenz ohne jeden Projektbezug.
+- **Englisches Geschäfts-Du-Äquivalent mit Flüchtigkeits-Tippfehlern als Authentizitätssignal:**
+  im Thread mit Hleb (informeller, aber professioneller Ton, kein deutsches Du/Sie-System)
+  erscheinen «Hlep» statt «Hleb» (Namensverschreiber, zweimal in zwei verschiedenen Mails) und
+  «reseave» statt «receive» sowie die Signatur «Kind regards Raphael Jan» (fehlendes «s»). Reiht
+  sich in die bereits belegte Flüchtigkeits-Slip-Familie (Gross-/Flexionsfehler als Echtheits-,
+  nicht Vorbildsignal) — hier erstmals im Englischen und ausgerechnet im eigenen Namen/im Namen
+  des Empfängers.
+- **Ultrakurze Statusfrage ohne Anrede-Komma, ohne Gruss-Formel:** «Hello Hlep Did you reseave the
+  login for hostpoint? Do you have access to the wp-Backend on hostpoint? Kind regards Raphael» —
+  kein Komma nach «Hello Hlep», zwei direkte Fragen, knapper Sign-off ohne Signaturblock. Englisches
+  Pendant zur bereits belegten Ultrakurz-Reply-Familie.
+- **Echo-Falle, 9. Beleg — erstmals rein inhaltlich/strukturell statt formatbasiert erkannt:** eine
+  Antwortmail im selben Thread («Thank you for your detailed reply. Below are my clarifications and
+  confirmations, consolidated. […] Why this is expensive […] Why this is not complex […]
+  Architectural analogy […] Core statement») ist ein durchkomponierter Englisch-Essay mit
+  Frage-Antwort-Kapstonen, durchgehender Kurzsatz-Bullet-Kaskade und einem abschliessenden
+  Merksatz-Zweizeiler («Technology scales through tools. Quality scales only through attention.») —
+  ein Muster, das in keiner bisher als authentisch gesicherten Mail vorkommt (bisherige Echo-Tells
+  waren Times-New-Roman/Aptos-Formatierung oder der Gedankenstrich in CHF-Bandbreiten; dies ist der
+  erste rein inhaltlich/strukturell erkannte Fall, unabhängig von Sprache und Schriftart). Zeitlich
+  fällt der Fund in dasselbe Fenster (Anfang Februar 2026), in dem Batch 26 den ersten Claude-
+  Grundtext in rj@ datierte — bestätigt diesen Zeitpunkt unabhängig auf dem zweiten Konto. Von
+  Stilquelle ausgeschlossen; die umrahmenden Mails (Erstanfrage, Credentials-Mails, Ultrakurz-Frage)
+  bleiben authentische Stilquelle.
+
+Metrik (UBS-Mail, 170 W, stilmetrik.py): Du-Gross-Quote entfällt (Sie-Mail), Tausender-Apostroph 2×
+(CHF 100'000), «%» 0 Treffer, Ellipsen 0, Satzlänge ø 13.1 W, Anrede «Sehr geehrter Herr» 1×, Gruss
+«Freundliche Grüsse» 1×.

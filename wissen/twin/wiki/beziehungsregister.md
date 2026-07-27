@@ -1827,3 +1827,26 @@ kleingeschriebener Betreffanschluss, keine Signatur in mehreren Fällen).
 - **Neue Mappings:** Maria Jans Bickel, Schwester (Bern) — Geschwister-Du, keine Signatur, waermste
   bisher belegte Registerstufe; Dan Krusi, Nerves (Technology Lead/Partner) — Tech-Peer-Du, formlos;
   Rafael Biolley, HUB12-Mitglied — Peer-Du, formlos.
+
+## Batch 79 (2026-07-27) — Webfreelancer Hleb (Englisch-Register) + Bank-Sie Jeckelmann/UBS
+
+Gewichtung: authentisch (mail@raphaeljans.ch, Rückwärts-Sweep, siehe [[stimme]] Batch 79).
+
+- **Neues Mapping Hleb P. (paltanovich.hleb@gmail.com), Webprogrammierer/Freelancer** (vgl.
+  `project_website_team` Memory: Hleb baut/pflegt raphaeljans.ch) — Register **informell-
+  professionelles Englisch ohne Anrede-Formel**, kein Du/Sie-Analogon nötig: «Dear Hleb» (Erstmail,
+  formeller Einstieg) kühlt im Thread auf «Hi Hleb» / «Hello Hleb» / knapp «Hello Hlep» (Tippfehler)
+  ab, keine Gruss-Eskalation nötig, durchgehend «Kind regards Raphael». Kredenzialien/Zugangsdaten
+  werden ihm ohne Zögern anvertraut («Please store these credentials securely»#) — Vertrauensstufe
+  vergleichbar mit einem eingespielten Sub-Fachplaner, nicht mit einem kalten Erstkontakt, obwohl
+  es sich um einen internationalen Freelancer ohne persönliche Begegnung handelt.
+- **Neues Mapping Bruno Jeckelmann, UBS (Kapitaleinzahlungskonto Firmengründung)** — Sie, formell,
+  «Sehr geehrter Herr Jeckelmann» / «Freundliche Grüsse Raphael Jans». Reiht sich in die bereits
+  belegte Regel «Bank-/Amtskorrespondenz bleibt foermlich unabhaengig vom Sachgewicht» ein, hier
+  bei einer für Raphael persönlich sehr gewichtigen Sache (eigene AG-Gründung) — das Gewicht des
+  Anliegens erhöht NICHT das Register, anders als bei Behörden-Sammelpostfächern (vgl. Skala in
+  [[stimme]]).
+- **Sachliche Neuigkeit mit Registerwirkung:** die eigene Firmengründung heisst nicht mehr «JANS AG»
+  (Namensblocker durch bestehende «JANS GmbH», vgl. Memory `project_jans_ag_gruendung`), sondern
+  **«Raphael Jans AG» (Sitz Zürich)** — Vollliberierung CHF 100'000, Einzahlung geplant Mitte August
+  2026. Sollte in der entsprechenden Memory nachgezogen werden (ausserhalb dieses Wiki-Batches).
