@@ -1,3 +1,23 @@
+## 2026-07-27 — Neues Destillat: Lignum 4.2 Anschlüsse bei Bauteilen mit Feuerwiderstand
+- **Neu:** `destillate/lignum-4-2-anschluesse-feuerwiderstand.md` — Lignum-Dokumentation
+  Brandschutz, Themenblock 4 'Bauteile in Holz', Publikation 4.2. Bild-Scan ohne Textlayer
+  (33 PDF-Seiten = 64 gedruckte Seiten inkl. Umschlag), vollständig visuell gelesen (2
+  Leseschritte). Erfasst: Feuerwiderstandskriterien R/E/I, Ausführungsbestimmungen (Baustoffe
+  Tabelle 340-1, Fugenausbildung Beplankungen), Anschlusskonstruktionen für Holzbauteile
+  (Bauteilabschlüsse, Elementstösse, Hohlräume, Längsfugen, Auflager Holz/Stahl/Stahlbeton,
+  Lagesicherung, Verbindungsmittel — je mit Füllholz-/Mineralwolle-/BSP-Mindestmassen nach
+  EI30/60/90), Bauteilfugen-Klassifizierung (geschlossen/bis 2mm/bis 80mm/Bauteilöffnung),
+  Anschlüsse VKF-anerkannter Bauteile (Registergruppen-Tabelle 441-1), analoges Kapitel 5 für
+  Bauteile RF1 (Brandschutzbekleidung K30/K60-RF1, Tabelle 522-1), Glossar, Literaturverzeichnis
+  (22 Referenzen inkl. 6 SIA-Normen), Anhang 2 (Übersichtstabellen massgebende
+  Anschlusssituationen je Anschlussgeometrie) und Anhang 3 (8 durchgerechnete
+  Beispielkonstruktionen S. 55-62).
+- **Status:** `speculative` — noch nicht adversarial verifiziert (nächster Schritt gemäss
+  KB-Standard: Q&A-Selbstbefragung oder Volltextabgleich, analog anderen Lignum-/VKF-Destillaten).
+- **INDEX ergänzt:** `destillate/INDEX.md` neue Zeile bei den Holzbau-/SIA-265-Normen.
+- **Auslöser:** Direkter Auftrag Raphael zur Destillation dieses konkreten Dokuments (Ablage
+  `PL - 03 Brandschutz/06 Lignum Brandschutz/`), nicht aus dem Nacht-Loop-Inventar gezogen.
+
 ## 2026-07-26 — PL-03 Brandschutz ins Inventar aufgenommen (Entscheid Raphael)
 
 - **Strukturentscheid getroffen** (seit Run 22 offen, in QUESTIONS viermal vorgelegt): `PL - 03

@@ -1,5 +1,26 @@
 # Norm-Inventar — Arbeitsliste des Nacht-Loops `normen-training-nacht`
 
+- **Run 30 (MacBook Pro, 260727) — PL-03-Tracker war stale, alle 6 Unterordner jetzt erfasst,
+  3 neue Lignum-Destillate.** Kein neues SIA/VKF-Hauptdestillat (PL-02: weiterhin 0 offene `[ ]`).
+  Stattdessen den PL-03-Abschnitt (aufgenommen 26.07., aber nicht gegen den tatsaechlichen
+  Destillat-Stand geprueft) korrigiert: (1) die als "Handlungsbedarf: Re-Destillation" gefuehrten
+  BRL 13-15/14-15-Zeilen waren **stale** — beide waren bereits seit Run 23/24 (25.07.) gegen die
+  2017-Fassung re-destilliert und established; (2) Datei-fuer-Datei-MD5-Abgleich der PL-03-
+  Unterordner 01/03/04/05 (26 Dateien) gegen PL-02 bestaetigt: **alle byte-identisch** mit bereits
+  destillierten PL-02-Kopien (PL-02 spiegelt dieselbe Unterordnerstruktur unter `VKF_Norm/`) — 0
+  neue Destillate noetig; (3) einzige Abweichung `1001-15_Wohnbauten.pdf` (29 vs. 27 Seiten PL-02)
+  aufgeklaert: 2 Zusatzseiten sind bereits eigenstaendig destillierter BRL-16-15-Inhalt, plus ein
+  separates 4-seitiges "Auszug"-Dokument (Stand 17.05.2018, TK-VKF-Beschluss 29.09.2016) Zeile-fuer-
+  Zeile gegen das established-Destillat `vkf-ah-1001-15-wohnbauten.md` verglichen: **0 Abweichungen**
+  in Ziff. 3/5/6 (Fluchtwege, Brandschutzabstaende, Tragwerke) — Destillat zusaetzlich cross-
+  verifiziert. (4) Unterordner `06 Lignum Brandschutz` hat KEIN PL-02-Gegenstueck (genuin neue
+  Quelle): 3 Bild-Scan-Dokumente ohne Textlayer visuell destilliert (`lignum-4-1-decken-waende-
+  bekleidungen-feuerwiderstand.md` 40 S., `lignum-4-2-anschluesse-feuerwiderstand.md` 33 S.,
+  `lignum-lignatec-brandschutz.md` 12 S.), anschliessend 3 unabhaengige Refuter-Agenten verifiziert.
+  (5) Bring-Schulden SIA 491 / SN EN 12193 (KB `baurecht`) erneut geprueft: in PL-02 UND PL-03
+  weiterhin nicht vorhanden — bleibt externe Bring-Schuld (SIA-Shop-Kauf noetig), keine PL-03-
+  Fehlklassierung wie bei den Brandschutz-Dokumenten. Details `CHANGELOG.md`, Verifikations-
+  Verdikte + Report `outputs/2026-07-27_normen-nacht-run30.md`.
 - **Run 29 (MacBook Pro, 260725/260726) — SIA D 0165 von 5-S.-Fragment auf 73-S.-Vollversion
   gehoben (Run-28-Empfehlung umgesetzt), Bestandsfalle wie Run 22 bestaetigt, 13 Verifikations-
   Befunde korrigiert.** `d 0165.pdf` (Hauptordner) war nur ein 5-Seiten-Scan-Fragment;
@@ -171,8 +192,8 @@ aus der KB `baurecht`».
 
 | Status | Prio | Norm | Norm-Nr | Jahr | Bemerkung |
 |---|---|---|---|---|---|
-| [ ] | P2 | SIA 491 — Vermeidung unnötiger Lichtemissionen im Aussenraum | 491 | 2013 | Bring-Schuld KB `baurecht` (Fundstelle `baurecht/wiki/laermschutz-und-nichtionisierende-strahlung.md:165`), angemeldet Wissens-Chef Run 15. Bestand PL-02 prüfen, Ausgabe verifizieren, Destillat anlegen. |
-| [ ] | P2 | SN EN 12193 — Licht und Beleuchtung, Sportstättenbeleuchtung | EN 12193 | 2008 | Bring-Schuld KB `baurecht` (selbe Fundstelle). Bestand prüfen; **Nachfolgeausgabe abklären** (EN 12193 nach 2008 revidiert). |
+| [ ] | P2 | SIA 491 — Vermeidung unnötiger Lichtemissionen im Aussenraum | 491 | 2013 | Bring-Schuld KB `baurecht` (Fundstelle `baurecht/wiki/laermschutz-und-nichtionisierende-strahlung.md:165`), angemeldet Wissens-Chef Run 15. Bestand geprüft 260727 (Run 30): weder in PL-02 noch in PL-03 vorhanden — bleibt externe Bring-Schuld (SIA-Shop-Kauf), keine PL-03-Fehlklassierung. |
+| [ ] | P2 | SN EN 12193 — Licht und Beleuchtung, Sportstättenbeleuchtung | EN 12193 | 2008 | Bring-Schuld KB `baurecht` (selbe Fundstelle). Bestand geprüft 260727 (Run 30): weder in PL-02 noch in PL-03 vorhanden; **Nachfolgeausgabe weiterhin abzuklären** (EN 12193 nach 2008 revidiert). |
 | [ ] | P2 | SN 640 052 (VSS) — Kehrplatz/Kehrmöglichkeit bei Stichstrassen | 640 052 | — | Bring-Schuld KB `baurecht` (`baurecht/wiki/baureife-und-erschliessung.md:76`). Gehört in den VSS-Erschliessungsblock, der in Run 11/12/13 dreimal korrigiert werden musste. |
 | [ ] | P2 | SN 641 400 (VSS) — Grundlage der ZH-Parkplatzberechnung | 641 400 | — | Bring-Schuld KB `baurecht` (`baurecht/wiki/fahrzeugabstellplaetze-und-parkierung.md:43`). Bezug zum bestehenden Parkierungs-Block (VSS 40 291 / 640 281). |
 

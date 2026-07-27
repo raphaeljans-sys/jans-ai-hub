@@ -2,10 +2,10 @@
 quelle: "PL - 02_Recht_Norm/02_Normen/VKF_Norm/05_Arbeitshilfen Brandschutz 2015/1001-15_Wohnbauten.pdf"
 herausgeber: "VKF (Vereinigung Kantonaler Feuerversicherungen)"
 ausgabe: "01.01.2015 / 1001-15de, genehmigt durch die Technische Kommission VKF am 23.09.2014"
-gelesen: "S. 1-27 komplett (Titelblatt, Impressum, Inhaltsverzeichnis, Ziffer 1-13, Anhang)"
-datenstand: "2015"
-status: "established (verifiziert 260714)"
-last_updated: 2026-07-14
+gelesen: "S. 1-27 komplett (Titelblatt, Impressum, Inhaltsverzeichnis, Ziffer 1-13, Anhang) | NACHTRAG 27.07.2026 (Run 30): separates 4-seitiges Auszug-Dokument PL-03 (`1001-15_Wohnbauten Auszug Brandschutz_Arbeitshilfe_Wohnbauten.pdf`, Kopf 01.01.2017/1001-15de, Stand 17.05.2018, Fassung gemaess TK-VKF-Beschluss 29.09.2016) Zeile-fuer-Zeile gegen Ziff. 3 (Fluchtwege Wohnen/Buero), Ziff. 5 (Brandschutzabstaende), Ziff. 6 (Tragwerke/Brandabschnitte) dieses Destillats verglichen: 0 Abweichungen, alle Zahlenwerte identisch"
+datenstand: "2015 (Ziff. 3/5/6 zusaetzlich gegen Stand 17.05.2018 cross-verifiziert 27.07.2026, 0 Delta)"
+status: "established (verifiziert 260714; Ziff.3/5/6 cross-verifiziert gegen 2017/2018-Fassung 260727)"
+last_updated: 2026-07-27
 links: [[REGISTER]]
 ---
 

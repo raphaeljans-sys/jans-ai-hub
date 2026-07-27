@@ -1,5 +1,26 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-27 — Trainings-Run 13 (Frage 1 auf Formel-Ebene verifiziert, keine Duplikat-Prüfung)
+
+- Kollisionscheck via `ps`: einziger Treffer war die eigene Prozessinstanz, keine echte
+  Zweitinstanz auf diesem Host.
+- Run 12 (12:56 Uhr) hatte den Ereignis-Trigger-Check (neuer Kostenstand seit 26.07.) bereits
+  durchgeführt und negativ beschieden; dieser Lauf begann nur Minuten später. Ein identischer
+  Re-Check wurde bewusst NICHT wiederholt (garantiertes Nullergebnis, kein Erkenntnisgewinn).
+- Stattdessen den in Run 6/7 offen gelassenen Vorschlag umgesetzt: die Original-Exceldatei des
+  Pre-Check-Tools (2305 Wädenswil) im Formel-Modus geöffnet (`openpyxl`, `data_only=False`,
+  neue venv `/tmp/venv-xlsx-grobkosten`), statt nur die zwischengespeicherten Werte wie in Run 7.
+  Ergebnis: Die Summenformeln, die in die als «Total BKP 1-9» beschriftete Zelle münden, wenden
+  nachweislich AUSSCHLIESSLICH den Faktor 1.13 an — denselben Faktor, den das Tool in derselben
+  Zeile als «Faktor BKP 2 zu BKP 1-5» beschriftet. Kein zusätzlicher Rechenschritt für BKP 6-9
+  existiert in der Formelkette. Frage 1 damit nicht gelöst, aber auf eine präzise, in einem Satz
+  beantwortbare Ja/Nein-Rückfrage an Raphael Jans zugespitzt (siehe `wiki/QUESTIONS.md`).
+- Kein neuer Rohbeleg-Datensatz, kein neuer Kennwert. `raw/2305-waedenswil-precheck.md` um den
+  Formel-Nachtrag ergänzt (nicht neu angelegt). Register nachgeführt: `wiki/QUESTIONS.md`
+  (neuer Run-13-Eintrag), dieses CHANGELOG. Keine Änderung an `training/quellen-inventar.md`
+  (keine neue Projektzeile) oder `wiki/kennwerte.md` (kein neuer Wert). Lauf-Report:
+  `outputs/2026-07-27_grobkosten-run13.md`.
+
 ## 2026-07-27 — Trainings-Run 12 (Ereignis-Trigger-Check negativ, formale Sättigung erklärt)
 
 - Kollisionscheck via `ps`: einziger Treffer war die eigene Prozessinstanz (`claude -p` mit

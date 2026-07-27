@@ -2,6 +2,42 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-07-27 — Trainings-Run 13: Frage 1 auf Formel-Ebene verifiziert und zu einer präzisen Ja/Nein-Rückfrage zugespitzt
+
+- **Kein erneuter Ereignis-Trigger-Check:** Run 12 (12:56 Uhr) hatte den Ereignis-Trigger
+  (neuer Kostenstand seit 26.07.) bereits geprüft und negativ beschieden; dieser Lauf begann nur
+  wenige Minuten später (Kollisionscheck via `ps`: einziger Treffer die eigene Prozessinstanz).
+  Ein identischer Re-Check hätte in dieser Zeitspanne garantiert dasselbe Nullergebnis geliefert
+  — bewusst NICHT wiederholt (Rule «Kein Leerlauf-Zwang»: keine Duplikat-Prüfung ohne
+  Erkenntnisgewinn). Stattdessen ein bisher nicht begangener Weg geprüft: Auflösung von Frage 1
+  direkt an der Formel-Ebene des Pre-Check-Tools (2305 Wädenswil), wie in Run 6/7 als offener
+  Punkt vorgeschlagen ("Klärung von Frage 1 direkt an der Exceldatei").
+- **Befund:** Die Originaldatei `Immo-02-P23D-Pre-Check_Tool_Jans.xlsx` war auf dieser Station
+  (MacBook Pro) nicht über den bisher verwendeten Pfad-Alias erreichbar (leerer Ordner, analog
+  zum in Run 11 dokumentierten Stations-Sync-Muster), aber unter dem direkten SharePoint-Mount
+  `OneDrive-FreigegebeneBibliotheken–JANS/IMMO - 03 KNOW-HOW/…` vorhanden. Mit `openpyxl` im
+  Formel-Modus (`data_only=False`, neue venv `/tmp/venv-xlsx-grobkosten`) statt nur im
+  Werte-Modus (wie Run 7) geöffnet: Die Summenformeln `AF69:AF73`, die in `I56` («Total BKP 1-9»)
+  münden, wenden **ausschliesslich** den Faktor `G48 = 1.13` auf die BKP-2-Einheitskosten an —
+  denselben Faktor, den das Tool in derselben Zeile als «Faktor BKP 2 zu BKP 1-5» beschriftet
+  (`G47`). Es existiert an keiner Stelle der Formelkette ein zusätzlicher Rechenschritt für
+  BKP 6-8 (Reserven) oder BKP 9 (Ausstattung). Details: `raw/2305-waedenswil-precheck.md`,
+  Abschnitt "Nachtrag Run 13".
+- **Ergebnis:** Frage 1 bleibt strukturell ungelöst (keine autonome Auflösung möglich — beide
+  Deutungen sind rechnerisch in sich schlüssig), aber jetzt maximal scharf für eine schnelle
+  Rückfrage an Raphael Jans vorbereitet: *Ist die vom Tool als «Total BKP 1-9» ausgewiesene
+  Summe in Wahrheit ein BKP-1-5-Total (weil nur der 1.13-Faktor «BKP2→BKP1-5» je angewendet
+  wird), oder ist der Faktor 1.13 tatsächlich als «BKP2→BKP1-9» gemeint und nur die
+  Feldbeschriftung `G47` falsch?* Eine einzige Antwort löst nicht nur diesen Fall, sondern auch
+  den strukturgleichen Wald-Haselstudstrasse-Fall (`raw/2411-wald-haselstudstrasse.md`, gleicher
+  Tool-Faktor 1.13) und potenziell weitere künftige Pre-Check-Tool-Fälle in einem Schritt.
+- **Empfehlung für Run 14:** Kein weiterer Bibliotheks-Sweep und kein weiterer Ereignis-Trigger-
+  Check in derselben Sitzungsnähe. Entweder (a) die oben zugespitzte Frage bei Gelegenheit direkt
+  an Raphael stellen (nicht autonom in diesem Loop), oder (b) falls ein Lauf ohne neues Material
+  auskommen muss: prüfen, ob sich dieselbe Formel-Ebenen-Methode auf ein bisher nur wert- statt
+  formelseitig geprüftes JANS-Tool anwenden lässt (z.B. die Sensitivitätsanalyse-Formeln auf
+  Blatt «Cover Pre-Check», in diesem Lauf mitgesichtet, aber ohne BKP-1-9-vs-1-5-Bezug).
+
 ## 2026-07-27 — Trainings-Run 12: Ereignis-Trigger-Check negativ — formale Sättigung erklärt, Rücktaktung empfohlen
 
 - **Geprüft (Option b aus Run 11):** Ob seit dem letzten Check ein neuer Kostenstand aus einem

@@ -78,3 +78,39 @@ nicht explizit ausgewiesen (typisch für diese Planungsphase ±25-30 %, vgl. eig
 Sensitivitätsanalyse im Tool mit ±30 % Diskontierungsspreizung).
 
 Abrufdatum: 2026-07-27.
+
+## Nachtrag Run 13 (27.07.2026) — Formel-Ebene ausgewertet, Frage 1 auf eine präzise Ja/Nein-Frage zugespitzt
+
+Run 7 stützte sich auf `data_only=True` (nur die zwischengespeicherten Werte). In diesem Lauf
+wurde dieselbe Datei zusätzlich mit `data_only=False` geöffnet (`openpyxl`, venv
+`/tmp/venv-xlsx-grobkosten`), um die tatsächliche Formelkette hinter dem Faktor `G48 = 1.13`
+zu verfolgen (Blatt «AZ-HNF Tool»):
+
+- `AF69:AF73` (die fünf Zeilen, deren Summe `I56` = «Total BKP 1-9» ergibt) sind alle nach
+  demselben Muster gebaut: `=ROUND((AC·*G· + C57·*F·) * $G$48, -3)` — also
+  **BKP-2-Einheitskosten (Spalte AC, explizit «Summe BKP 2 pro Whg») × Faktor 1.13**, aggregiert
+  über die Wohnungstypen. Der Standort-/Ausbau-Kostenniveau-Zuschlag (günstig 0.9 … luxuriös 2.1,
+  Tabelle `X57:Y61`) ist bereits VOR diesem Schritt in die BKP-2-Einheitskosten eingerechnet
+  (`AB69`-Formel) — ein separates, eigenständiges Konto für BKP 6-8 (Reserven) oder BKP 9
+  (Ausstattung) existiert an keiner Stelle der Formelkette.
+- **Damit ist rechnerisch belegt:** Der einzige Umrechnungsschritt zwischen der BKP-2-Basis und
+  der Summe, die das Tool als «Total BKP 1-9» ausweist (`I48`/`I56`), ist genau der Faktor, den
+  das Tool selbst in derselben Zeile als «Faktor BKP 2 zu BKP 1-5» beschriftet (`G47`). Es gibt
+  keinen zusätzlichen, dokumentierten Rechenschritt, der BKP 1-5 auf BKP 1-9 erweitern würde.
+- **Schärfere Formulierung von Frage 1 für die Rückfrage an Raphael:** Nicht mehr nur «zwei
+  Beschriftungen widersprechen sich», sondern konkret: *Ist `I56`/`J56` in Wahrheit ein
+  BKP-1-5-Total (weil nur der 1.13-Faktor «BKP2→BKP1-5» angewendet wird) und die Feldbeschriftung
+  «Total BKP 1-9» ein Beschriftungsfehler — oder ist umgekehrt der Faktor 1.13 als «BKP2→BKP1-9»
+  gemeint und die Beschriftung `G47` («…zu BKP 1-5») die falsche?* Eine der beiden Beschriftungen
+  im Tool ist mit Sicherheit falsch; welche, lässt sich ohne Rücksprache mit dem Tool-Ersteller
+  (Raphael Jans) nicht entscheiden — beide Deutungen sind rechnerisch in sich schlüssig.
+- **Weiterhin NICHT autonom aufgelöst und NICHT promoviert:** Diese Vertiefung bestätigt und
+  präzisiert den Run-6/7-Befund, löst ihn aber nicht auf. Der abgeleitete Kennwert (1'380-1'546
+  CHF/m³, s.o.) bleibt aus `wiki/kennwerte.md` ausgeschlossen.
+
+Methodik-Hinweis: `data_only=False` erfordert eine lokal installierte `openpyxl`-Umgebung
+(hier neu unter `/tmp/venv-xlsx-grobkosten` angelegt, da `/tmp` sessionflüchtig ist und die
+Run-7-Umgebung nicht mehr vorhanden war) — für künftige Läufe ggf. dauerhaft ablegen, falls
+weitere Formel-Audits an JANS-eigenen Excel-Tools anfallen.
+
+Abrufdatum Nachtrag: 2026-07-27 (Run 13).

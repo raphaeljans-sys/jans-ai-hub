@@ -1,5 +1,31 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
+## Run 30 (MacBook Pro, 27.07.2026) — PL-03-Bookkeeping korrigiert, Lignum destilliert, Erdbeben-Dokument ausgegrenzt
+
+**Befund 1 (Bookkeeping-Fehler behoben):** Der PL-03-Abschnitt in `training/norm-inventar.md` (aufgenommen
+26.07.2026) listete die BRL-13-15/14-15-Re-Destillation als offenen Handlungsbedarf, obwohl diese bereits
+am 25.07.2026 (Run 23, re-verifiziert Run 24) erledigt worden war — der Abschnitt wurde nach der
+Aufnahme-Entscheidung nicht gegen den tatsaechlichen Destillat-Stand geprueft, nur gegen den aelteren
+Mapping-Report vom 25.07. Korrigiert, siehe `norm-inventar.md` Abschnitt "PL-03 Brandschutz".
+
+**Befund 2:** PL-03-Unterordner 01/03/04/05 (26 Dateien) sind vollstaendig MD5-identisch mit bereits
+destillierten PL-02-Kopien (PL-02 spiegelt dieselbe Struktur unter `VKF_Norm/`). Keine neue Destillation
+noetig. Einzige untersuchte Abweichung (`1001-15_Wohnbauten.pdf`, 29 vs. 27 Seiten) stellte sich als
+bereits anderweitig destillierter BRL-16-15-Inhalt plus ein separates, inhaltlich deckungsgleiches
+"Auszug"-Dokument (Stand 17.05.2018) heraus — 0 Abweichungen bei Ziff. 3/5/6 gegen das established-
+Destillat `vkf-ah-1001-15-wohnbauten.md`, dessen Frontmatter entsprechend cross-verifiziert ergaenzt wurde.
+
+**Befund 3 (offen, ausserhalb Scope):** `PL - 03 Brandschutz/06 Lignum Brandschutz/Lignum Erdbeben/
+Erdbebengerechte_Holzbauten_d.pdf` (25 S.) behandelt Erdbebenertuechtigung im Holzbau, kein Brandschutz-
+/Normeninhalt. Nicht in dieser Normen-KB destilliert. Falls fachlich relevant, gehoert das Dokument eher
+in eine statik-/erdbeben-bezogene Wissensbasis (aktuell keine vorhanden) — als Hinweis fuer den
+Wissens-Chef vermerkt, nicht selbststaendig loesbar aus dem Normen-Scope heraus.
+
+**Befund 4 (weiterhin offen):** SIA 491:2013 und SN EN 12193:2008 (Bring-Schulden KB `baurecht`) erneut
+gegen PL-02 UND PL-03 geprueft (27.07.2026) — in keiner der beiden Ablagen vorhanden. Bleibt echte externe
+Bring-Schuld (SIA-Shop-Kauf durch Raphael noetig), kein Fall einer PL-03-Fehlklassierung wie bei den
+Brandschutz-Dokumenten in Run 22.
+
 ## Run 27 (MacBook Pro, 25.07.2026) — Q&A-Selbstbefragung (Vertiefungsstufe c) fuer die 5 neu established Destillate
 
 **Ausgangslage.** Run 26 hatte als naechsten sinnvollen Schritt vorgeschlagen: Q&A-Selbstbefragung fuer die
