@@ -6,6 +6,15 @@
 PDF-Volltext (Stand-Fussnote «1. 7. 25 - 129»): zhlex, Ordnr. 175.2
 **Beschafft/Stand:** 2026-07-12
 **Umfang:** nur §§ 8, 9, 10c, 15, 30 (und flankierend 29a/31 zum Verständnis) — treu abgeschrieben.
+**Fassungsstand geprueft:** 2026-07-27 (Buch-Run 64) — zhlex-Erlassseite (`history-entry-0`) zeigt
+aktuell **Nachtrag 133** («1. 7. 26 - 133»), gegenueber Nachtrag 129 zum Zeitpunkt der Beschaffung
+also **Drift in der Nachtragsnummer**. Frisches PDF (`175.2_24.5.59_133.pdf`) Wort fuer Wort gegen
+die hier abgeschriebenen §§ 8, 9, 10c, 15, 29a, 30, 31 VRG geprueft: **alle sieben Paragraphen
+wortidentisch, 0 materielle Aenderung** — die Nachtraege 130-133 betrafen andere Teile des Gesetzes,
+nicht diese Bestimmungen. Zusaetzlich adversarial gegengeprueft: § 26b Abs. 2 VRG (Vernehmlassungsfrist
+30 Tage) i.V.m. § 12 Abs. 1 VRG (gesetzliche Fristen nur erstreckbar bei Tod/Handlungsunfaehigkeit)
+bestaetigt die in [[rechtsschutz-und-rechtsmittelverfahren]] (Buch-Run 44) festgehaltene
+Nicht-Erstreckbarkeit der Vernehmlassungsfrist — unveraendert bei Nachtrag 133.
 
 ---
 

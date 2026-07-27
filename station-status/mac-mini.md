@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 27.07.2026 18:02:27
+Stand: 27.07.2026 18:12:30
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 27.07.2026 18:02:27
 - 17 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 54a764f3 nas-selfcommit: 3 Datei(en) 2026-07-27 18:00
+- 1345e339 wettbewerbs-dna: Etappe 3 B5 Wohnungsbau-Revision abgeschlossen — wohnen-mfh-urban.json v2.0 established, damit alle drei Ziel-Bauaufgaben (Schulbau/Healthcare/Wohnungsbau) vollstaendig B1-B6
