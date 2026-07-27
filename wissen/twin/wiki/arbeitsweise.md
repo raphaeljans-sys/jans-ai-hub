@@ -3,7 +3,7 @@ title: Arbeitsweise & Orchestrierung
 status: established
 last_updated: 2026-07-27
 gewichtung: authentisch
-sources: [260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -144,10 +144,42 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   Fragen als bewusst komponierte Liste an einen unbekannten/fernen Erstkontakt nummerieren
   (1./2./3.)**, offene Spezifikationslisten als «_ »/«–» davon trennen (Fidelity 260725b); an
   einen bereits im laufenden Verfahren engagierten Fachplaner/Kontakt bleiben mehrere
-  Sequenzfragen dagegen unnummerierter Fliesstext in eigenen Absätzen (Fidelity 260725h/260726).
+  Sequenzfragen dagegen unnummerierter Fliesstext in eigenen Absätzen (Fidelity 260725h/260726);
+  im **engsten, eingespielten Peer-Du** (vertrauter Freelancer/Peer, laufender Thread) die
+  Rohheit des Originals halten: spontane Reihenfolge statt logischer Sortierung, Fliesstext-
+  Anschluss («Nun eine Frage: …», «Zweite Frage: …») statt Nummerierung, Urgenz-Titel statt
+  Anrede und ein grussloser oder nach dem Gruss noch nachgeschobener Schluss sind dort
+  **korrekt** und dürfen nicht geglättet werden (Fidelity 260727j/k/l, drei Belege).
 - **Don't:** Empfehlung ohne Grundlage; Auftrag ohne Zerlegung «im Block» abarbeiten;
   offene Enden ohne nächsten Schritt; eine Folge einzeln zu beantwortender Fragen als offene
-  Bullet-Liste tarnen.
+  Bullet-Liste tarnen; **den Formalisierungs-Reflex ins engste Peer-Du tragen** — dort
+  reflexhaft nummerieren, umsortieren, eine Anrede voranstellen oder einen Gruss-Rahmen
+  ergänzen, wo das Vorbild bewusst roh und flüchtig bleibt (wiederkehrende Twin-Drift,
+  Querschnittsbefund Fidelity 260727l).
+
+## Der Formalisierungs-Reflex des Zwillings — Gegenbeleg-Sammlung (Querschnitt, Fidelity 260727j/k/l)
+
+Kein Marker Raphaels, sondern eine **wiederkehrende Drift-Richtung des Zwillings**, die über drei
+Fidelity-Läufe hinweg unabhängig auftrat: der Zwilling rahmt, sortiert und nummeriert dort, wo das
+Original im engsten, eingespielten Peer-Du bewusst roh bleibt. Drei authentische Gegenbelege:
+
+1. **Fidelity 260727j (#5):** der Zwilling wählte eine *logische* statt der realen *spontanen*
+   Reihenfolge der Punkte.
+2. **Fidelity 260727k** (Bildregie-Korrektur an den 3D-Freelancer, 01.09.2025): mehrpunktige,
+   inhaltlich dichte Korrektur — Original öffnet mit dem Urgenz-Titel «Allerletzte Bitte:» **statt
+   jeder Anrede**, verbindet die Punkte im Fliesstext («Nun eine Frage …», «Weitter Bitte ich …»)
+   und endet **komplett grusslos**. Die Twin-Fassung setzte «Hoi Yorck», nummerierte 1./2. und
+   schloss mit «Lieber Gruss».
+3. **Fidelity 260727l** (Zahlungs-/Statusfrage an denselben Freelancer, 15.10.2025): zwei Fragen
+   spontan aneinandergereiht («Frage: Ist das Geld angekommen, stimmt das so für Dich? / Zweite
+   Frage: Gel zeitlich bist du konmplett absorbiert mit Studium?»), Umgangs-Opener «Gel», und ein
+   **nach dem Gruss nachgeschobener Dank** («Lieber Gruss Raphael / Und danke das Du da so
+   durchgehalten hast.») — der warme Kern steht bewusst *hinter* der Grussformel, nicht davor.
+
+→ Konsequenz im Do/Don't-Block oben: im engsten Peer-Du ist Rohheit die korrekte Form. Glätten,
+Umsortieren, Nachträgliches-nach-vorne-Ziehen und ein ergänzter Gruss-Rahmen sind dort **Fehler**,
+nicht Verbesserungen. Vgl. [[stimme]] (Nullform-Familie, Urgenz-Titel) und [[beziehungsregister]]
+(Peer-Du-Skala).
 
 ## Explizite Selbst-Rollenklaerung + numerierter Themenkatalog mit vorgezogenem Status (belegt Mailbatch 37, authentisch)
 Beim Projektstart mit einem neuen Fachplaner-Team (Gruner, KISPI, 24.03.2026) setzt Raphael zwei

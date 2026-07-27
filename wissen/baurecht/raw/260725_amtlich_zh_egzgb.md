@@ -1,4 +1,4 @@
-# EG ZGB (Kt. ZH) — amtlicher Wortlaut (Auszug §§ 168-179)
+# EG ZGB (Kt. ZH) — amtlicher Wortlaut (Auszug §§ 168-179, 180-183quater)
 
 **Erlass:** Einführungsgesetz zum Schweizerischen Zivilgesetzbuch (EG ZGB), LS 230
 (vom 2. April 1911, in Kraft seit 1. Januar 1912)
@@ -14,6 +14,9 @@ Einfriedigung) — treu abgeschrieben. Gesetzliche Delegationsgrundlage: **Art. 
 («Die Kantone sind befugt, für Anpflanzungen je nach der Art des Grundstückes und der
 Pflanzen bestimmte Abstände vom nachbarlichen Grundstück vorzuschreiben …»), Wortlaut per
 Fedlex konsolidierte Fassung Stand 1.1.2025 gegengeprüft (unverändert seit Erlass).
+**Erweitert Buch-Run 68 (2026-07-27)** um §§ 180-183quater («Enteignungsähnliche
+Beschränkungen» — materielle Enteignung, Anmeldefrist, Verzinsung, Rückerstattung),
+gleiche PDF-Quelle, s. Nachtrag am Dateiende.
 
 ---
 
@@ -131,5 +134,57 @@ Die Kantone sind befugt, für Anpflanzungen je nach der Art des Grundstückes un
 Pflanzen bestimmte Abstände vom nachbarlichen Grundstück vorzuschreiben oder den
 Grundeigentümer zu verpflichten, das Übergreifen von Ästen oder Wurzeln fruchttragender
 Bäume zu gestatten und für diese Fälle das Anries zu regeln oder aufzuheben.
+
+---
+
+## Nachtrag (Buch-Run 68, 27.07.2026): §§ 180–183quater EG ZGB — Enteignungsähnliche Beschränkungen
+
+Ergänzt im Zuge des Modell-D-Wortlautabgleichs von [[enteignung-und-entschaedigung]] —
+gleiche Quelle/Fassung wie oben (LS 230, Nachtrag 133, Stand 1.7.2026, Fusszeile
+«1. 7. 26 - 133»), voller PDF-Volltext erneut geladen und §§ 180–183quater ergänzt (das
+Original-Ingest deckte nur §§ 168–179 ab).
+
+§ 180. Es bleiben vorbehalten die Bestimmungen über die Flur- und Feldwege, das Planungs-
+und Baugesetz, das Strassengesetz, das Wassergesetz, das Forstgesetz und die
+Bestimmungen zur Förderung der Landwirtschaft.
+
+§§ 181–182. (aufgehoben)
+
+§ 183. (aufgehoben durch Kantonales Geoinformationsgesetz vom 24. Oktober 2011 — als
+Nummer ohne materiellen Inhalt im Gesetzestext stehen geblieben. **Wichtig für Zitate:**
+§ 183 EG ZGB selbst regelt nichts mehr; die Zinsenlauf-Bestimmung, die in der KB
+teils fälschlich hier verortet war, steht in § 183bis Abs. 3, s.u.)
+
+### VII. Enteignungsähnliche Beschränkungen
+
+§ 183bis. 1 Wirkt eine auf dem Grundeigentum lastende öffentlich-rechtliche
+Eigentumsbeschränkung ähnlich einer Enteignung, so ist der Betroffene berechtigt, vom
+Gemeinwesen, das die Eigentumsbeschränkung erlassen hat, angemessene Entschädigung zu
+verlangen. 2 Hat das entschädigungspflichtige Gemeinwesen die Eigentumsbeschränkung im
+Interesse einer anderen öffentlichrechtlichen Körperschaft angeordnet, so bleibt ihm das
+Rückgriffsrecht gewahrt. 3 **Für die Entschädigungspflicht und die Bemessung der
+Entschädigung sind die Verhältnisse bei Inkrafttreten der Eigentumsbeschränkung
+massgebend. Die Entschädigung wird zum jeweiligen Zinsfuss der Zürcher Kantonalbank für
+bestehende erste Hypotheken auf Wohnliegenschaften von dem Zeitpunkt an verzinst, in dem
+der Berechtigte sie geltend macht.**
+
+§ 183ter. 1 **Der Betroffene hat seine Ansprüche innert zehn Jahren seit dem
+Inkrafttreten der Eigentumsbeschränkung dem Gemeinwesen schriftlich anzumelden.** 2
+Werden die Ansprüche ganz oder teilweise bestritten, so hat das Gemeinwesen das in den
+§§ 32 ff. des Gesetzes über die Abtretung von Privatrechten vorgesehene Verfahren
+einzuleiten. 3 Das Gemeinwesen ist jederzeit berechtigt, das Nichtbestehen einer
+Entschädigungspflicht oder die Höhe der Entschädigung von sich aus feststellen zu lassen.
+
+§ 183quater. 1 **Entschädigungen können vom Gemeinwesen innert fünf Jahren nach ihrer
+Ausrichtung ganz oder teilweise zurückverlangt werden**, wenn die Eigentumsbeschränkung
+nachträglich wesentlich gemildert oder beseitigt wird. Bei Handänderungen geht die
+Rückerstattungspflicht auf den neuen Eigentümer über. 2 Bei der Festsetzung des
+Zeitpunktes der Rückerstattung ist auf die Verhältnisse des Betroffenen Rücksicht zu
+nehmen. Wo Gründe der Billigkeit es rechtfertigen, ist die Rückerstattung bis
+spätestens auf den Zeitpunkt der Realisierung des erwirkten Vorteils durch Veräusserung
+oder Überbauung zu verschieben. 3 Das Gemeinwesen hat die Pflicht zur Rückerstattung der
+Entschädigung im Grundbuch anmerken zu lassen. 4 Bei Streitigkeiten über die
+Rückerstattung oder die Herabsetzung finden ebenfalls die §§ 32 ff. des Gesetzes über
+die Abtretung von Privatrechten Anwendung.
 
 Quelle: `https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/24/233_245_233/20250101/de/html/fedlex-data-admin-ch-eli-cc-24-233_245_233-20250101-de-html.html`

@@ -1,5 +1,40 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-27 — Trainingslauf 37 (Verifikationslauf, mit Auflösung)
+- Output `outputs/2026-07-27_training-run37.md`. Keine neue reale Spec seit Lauf 24 (SYN-02);
+  elfter Verifikationslauf in Folge.
+- **AUFGELÖST: die Scheduling-Diskrepanz der Läufe 34/35/36.** In dieser Session war die
+  Task-Registry auslesbar (frühere Läufe: HTTP 401). Registry-Wahrheit: `spec-training`,
+  cron `10 4 * * *` = **1x täglich**, lastRunAt 27.07. 04:17. Damit ist die 2x-täglich-
+  Behauptung in Rule `auto-verbesserungen.md` 260725 **falsch**, und die neun Läufe am 25.07.
+  stammten vom **Vollgas-Endlos-Runner** (Log «START spec-training» 25.07. 22:50 / 26.07.
+  00:10), nicht vom Cron. Seit Aufnahme in `EXCLUDE_RE` (`vollgas-runner.sh:79`) startet der
+  Runner den Loop nicht mehr. Punkt geschlossen, kein vierter Weitertrag.
+- **NEU: der Ereignis-Trigger-Entscheid (Raphael, 26.07.2026) ist nur zur Hälfte wirksam.**
+  (a) Das `enabled: false` in `~/.claude/scheduled-tasks/spec-training/SKILL.md` wird nur vom
+  Vollgas-Runner ausgewertet (`vollgas-runner.sh:131`), **nicht vom Scheduler** — die Registry
+  führt die Task weiter als enabled mit nextRunAt 28.07. 04:16. Fix: `update_scheduled_task`
+  (taskId `spec-training`, enabled false) bzw. löschen. (b) Der Ersatzweg selbst läuft nicht:
+  `ch.jans.wissens-trigger` hat **Exit-Status 78**, `trigger.log` zeigt nur die Interaktiv-
+  Zeilen vom 26.07., die geplante `launchd.log` existiert nicht — bekanntes Muster
+  launchd-bash ohne Zugriff auf `/Volumes/daten` (Memory `project_launchd_tcc_smb`). Fix:
+  `/bin/bash` Festplattenvollzugriff, dann `launchctl kickstart -k`. Lehrsatz: **eine nur ins
+  Dokument geschriebene Entscheidung ist keine umgesetzte Entscheidung** (Variante der
+  Lauf-19-Lehre).
+- **P1 (mail@-Blindfleck `ag-gruendung-monitor`): Vorhersage aus Lauf 36 bestätigt.** Der
+  Monitor lief am Werktag Montag 27.07. um 07:46 (Registry `lastRunAt`); Task-Definition
+  unverändert (mtime 21.07., mail@ primär via Apple Mail). Kein `fristen.md`-Eintrag vom
+  27.07. — deckt sich mit «meldet nur bei Neuem», keine Regression.
+- Environment: Zählstand 49 Skills / 22 Rules (19 importiert) / 16 KBs unverändert seit Lauf
+  26. Neu im Hub: Ereignis-Trigger-Schicht (Befund oben) und der native Committer
+  `nas-commit-now.sh` samt umgeschriebenen Rules `git-auto-push` / `sync-kanonische-quelle`.
+- **Bewusst nicht getan:** kein Eingriff in Task-Registry oder `spec-training/SKILL.md`; keine
+  Korrektur der Rule `auto-verbesserungen.md`; kein erfundenes F1-Überdehnungsbeispiel; keine
+  Methodik-/Status-Änderung ohne Beleg; kein Mailversand.
+- Offen: zwei Betriebs-Aktionen bei Raphael (Registry scharf schalten, `/bin/bash` FDA);
+  F1-Überdehnungs-Gegentest unbelegt; F3 Marketing/Text letzte offene Domänenzeile;
+  SYN-02-MVP Block 1 ungebaut; Sättigungsbefund der KB steht.
+
 ## 2026-07-26 — Trainingslauf 36 (Verifikationslauf)
 - Output `outputs/2026-07-26_training-run36.md`. Erster Lauf am neuen Kalendertag; keine
   neue reale Spec seit Lauf 24 (SYN-02); zehnter Verifikationslauf in Folge.

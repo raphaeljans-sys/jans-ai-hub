@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 27.07.2026 21:30:54
+Stand: 27.07.2026 21:41:03
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 21:16)
+- Developer/jans/ai/hub  (letzte Aktivitaet 21:40)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 27.07.2026 21:30:54
 - 4 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- b784415c nas-selfcommit: 5 Datei(en) 2026-07-27 21:30
+- bbe49833 ag-gruendung-monitor 27.07.: nichts Neues (UBS 30 Tage stumm, Mitte-August-Termin gefallen)
