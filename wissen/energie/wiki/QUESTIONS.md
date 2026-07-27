@@ -2416,3 +2416,33 @@ Datumsfehler im Frontmatter des Serverraum-Destillats (31.08.2026 statt 2023) ko
   5. Weitere Kandidaten (noch nicht geprüft): Energie-Monitoring/Submetering für Grossverbraucher,
      EnerGIS-Kartenwerk Stadt Zürich im Detail, Therapiebad/Hallenbad-Energie im Pflegeheim
      (`Therapiebad` hatte im Redundanz-Check null Treffer).
+
+---
+
+## Meta-Punkt M2 — Empfehlung des vollgas-chef-radar (27.07.2026)
+
+Raphael hat am 26.07.2026 nach einem Vorschlag gefragt, statt selbst zu entscheiden. Empfehlung:
+**Ja — aber als Bauherren-Beratungs-Skill zugeschnitten, nicht als zweites Nachweis-Werkzeug.**
+
+**Warum ja:**
+1. **Die KB ist ihrem Zugangsweg entwachsen.** 170 Destillate und 154 FAQ-Kernfragen sind heute nur
+   ueber den Fan-out-Agenten `energie-berater` innerhalb des Skills `planungsgrundlagen` erreichbar —
+   also nur, wenn ohnehin gerade Planungsgrundlagen beschafft werden. Eine Bauherrenfrage wie «lohnt
+   sich die Waermepumpe» hat schlicht keine Route in diesen Bestand.
+2. **Das Muster ist im Hub etabliert.** `baurecht` und `normen` haben denselben Weg gegangen: KB +
+   eigener Skill + Fundstellen-/Quellenpflicht. `energie` ist inzwischen in derselben Groessenklasse.
+3. **Das Unterscheidungsmerkmal ist die BAUHERREN-FAQ.** 154 belegte Antworten in Bauherrensprache
+   sind eine Akquisitions- und Beratungsfaehigkeit, kein Planerwerkzeug — genau das strategische Ziel
+   («JANS energetisch fuehrend»), das im Trainings-Prompt steht. Ohne eigenen Skill bleibt dieser
+   Wert im Regal.
+
+**Zuschnitt (wichtig):** Der Skill beantwortet Bauherren-/Investorenfragen zu Energie, Foerderung,
+Wirtschaftlichkeit und Recht. Der Energienachweis selbst (EN-Formulare, SIA 380/1) bleibt beim Agenten
+`energie-berater` und beim Skill `planungsgrundlagen` — sonst entstehen zwei konkurrierende Zustaendigkeiten.
+
+**Ehrliches Gegenargument:** Jeder weitere Skill belastet den Grundkontext (Kontext-Diaet 19.07.2026).
+Deshalb: **keine neue Rule** — die Datenstand-/Belegpflicht wird in die SKILL.md selbst geschrieben,
+und in CLAUDE.md steht nur der Einzeiler in der Skill-Tabelle. Aufwand: eine SKILL.md mit Triggerliste,
+kein neuer Agent, keine Migration der KB.
+
+**Offen bleibt Raphaels Entscheid.** Kein Skill wurde angelegt.
