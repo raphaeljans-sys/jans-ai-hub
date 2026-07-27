@@ -2,6 +2,60 @@
 
 Neueste zuoberst.
 
+## 2026-07-27 — Run 116: Vier parallele Rechercheagenten, Schwerpunkt «Abwärme und Prozessenergie»; adversariale Korrektur eines Agenten-Negativbefunds
+
+PDF-Inventar weiterhin erschöpft seit Run 65 (Web-Pfad). Die von Run 115 vorgeschlagene Priorität 6
+vollständig abgearbeitet und um zwei Themen erweitert. Redundanz-Check nach der Run-115-Lehre
+durchgeführt — 29 Kandidatenbegriffe gegrept **und die Treffer inhaltlich gelesen statt nur
+gezählt**; vier echte Lücken bestätigt (`Fettabscheider`, `Abwärmepflicht`, `Abwasserwärme`,
+`Therapiebad` je null Treffer). Vier `general-purpose`-Agenten auf Sonnet parallel, jeder
+ausschliesslich mit eigener neuer Datei (Kollisionsschutz); Konsolidierung und Verifikation im
+Hauptmodell.
+
+**Vier neue Destillate, alle `emerging`:**
+
+- `serverraum-rechenzentrum-kuehlung-abwaermenutzung-ch` (FAQ **F168**) — § 30a Abs. 1 BBV I
+  (allgemeine Abwärme-Nutzungspflicht) und § 30a Abs. 2 BBV I (RRB Nr. 840, seit 1.9.2022:
+  Bereitstellung von >2 GWh/a an Dritte zu Gestehungskosten); kein Wärmenetz-Bauzwang (RRB
+  1324/2022); CH-Rechenzentrums-Stromverbrauch 2024 2,1 TWh (3,6 %), PUE CH ~1,5 / Colocation
+  1,0-1,2. Rechtsteil **primärquellen-verifiziert auf established-Niveau**.
+- `abwasserwaermenutzung-kanalisation-zh-sz` (FAQ **F169**) — Thema hatte **null KB-Treffer**,
+  vollständige Lücke geschlossen. Abwasser ganzjährig 10-20 °C; gebäudeintern bewilligungsfrei ab
+  ~8'000-10'000 l/Tag bzw. ~150 kW, ab Kanalisation AWEL-Bewilligung + Nutzungsvereinbarung;
+  ZH-Potenzial 674 GWh/a erst 11 % genutzt; **Duschwasser-WRG pauschal 10 % des Warmwasserbedarfs
+  anrechenbar (EnFK EN-101)**.
+- `grosskuechen-lueftung-abluft-wrg-ch` (FAQ **F170**) — Kochstellenabluft ist ETA 3 → **Rotoren
+  ausgeschlossen**, Kreislaufverbundsystem als robusteste WRG; VKF 25-15de (EI 30/RF1 bzw. EI 60,
+  ab 12'000 m³/h eigene Anlage, nur nicht brennbare Wärmeträgerflüssigkeiten); luftseitiger
+  Fettfilter ≠ abwasserseitiger Fettabscheider.
+- `waescherei-prozessenergie-pflegeheim-spital-ch` (FAQ **F171**) — **zwei Drittel des Verbrauchs
+  im Trocknen, nur ~15 % im Waschen**; VTS/EnAW «RessEff» 2021 mit kWh/kg- und l/kg-Bandbreiten;
+  Restfeuchte 45 statt 55 % spart ~18 % Trocknungsenergie; ehrlicher Negativbefund kg Wäsche/Bett/Tag.
+
+**Wichtigster Einzelbefund (Verifikationsstufe, Hauptmodell):** Der Serverraum-Agent hatte die
+Sekundärbehauptung, die MuKEn 2025 enthalte eine mit ZH identische 2-GWh-Klausel, methodisch sauber
+**zurückgewiesen** — der von ihm gelesene MuKEn-Text enthielt sie nicht. Die Gegenprüfung am
+**EnDK-Originalvolltext der MuKEn 2025** (117 S., Stand 29.08.2025) zeigte: er hatte die **Ausgabe
+2014/Nachführung 2018** gelesen; **Art. 1.18 Abs. 2 MuKEn 2025 enthält die Klausel sehr wohl und
+nahezu wortgleich**. Damit dreht sich die Einordnung — Zürich war rund drei Jahre **Pionier** vor
+dem nationalen Modell. Zusätzlich aus den amtlichen Erläuterungen (S. 109) die praktisch wertvollste
+Zahl gehoben: **2 GWh ≈ ab 230 kW elektrischer Dauerleistung** eines Rechenzentrums (bzw. 1000 kW
+Abwärmeleistung × >2000 h/a) — macht die abstrakte GWh-Schwelle am Anschlussleistungs-Datenblatt
+prüfbar. **Lehre: Ein Negativbefund ist nur so gut wie die Ausgabe, an der er erhoben wurde.**
+
+**Verdichtung:** Neuer Wiki-Themenartikel `abwaermenutzung-gebaeude` (29. Themenartikel) fasst alle
+vier Destillate unter dem gemeinsamen roten Faden zusammen (Rechtspflicht, vier Quellenprofile,
+Planungsfolgen); `heizleistung-und-waermeerzeuger` um die Wärmequelle Abwasser ergänzt.
+
+**Weitere Korrekturen:** Datumsfehler im Frontmatter des Serverraum-Destillats (31.08.2026 →
+31.08.2023). Die ETA-3-/Rotoren-Aussage blieb nicht abschliessend verifizierbar (Verbands-Merkblatt
+statt kostenpflichtiger Normtext) — Destillat bleibt deshalb bewusst `emerging`.
+
+FAQ-Stand: **171 Kernfragen (F1-F171)**. Destillate: **186** (in Run 116 nachgezählt und um eins nach unten korrigiert — die bisherige Serie hatte `destillate/INDEX.md` als Destillat mitgezählt; der Zuwachs Run 115→116 beträgt korrekt +4). Register (destillate/INDEX,
+wiki/INDEX, BAUHERREN-FAQ, QUESTIONS, curriculum D87, raw/_INGESTED) nachgeführt; Report
+`outputs/2026-07-27_energie-run116.md`. **Fünfte Bestätigung in Folge, dass die Sättigungsdiagnose
+für neue Themenfelder nicht zutrifft** (Run 111-116).
+
 ## 2026-07-26 — Run 115: Zwei parallele Rechercheagenten, Healthcare-Prozessenergie-Vertiefung; Prozesslehre zum Redundanz-Check
 
 PDF-Inventar weiterhin erschöpft seit Run 65. Dem von Run 114 vorgeschlagenen Schwerpunkt gefolgt:

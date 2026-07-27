@@ -165,3 +165,15 @@ relevante Technologie die Erdwärmesonde bis 500 m oder der Flächenkollektor/Er
   ✓ 2026-07-03** (EnergieSchweiz EFH/20 J: WP günstigstes System) → `[[heizsysteme-vollkostenvergleich-energieschweiz]]` / FAQ F30.
 - Offen nur noch: **noch aktuellere Feldstatistik** (Anlagen nach 2019), WPesti-Standardwerte,
   WP + PV-Eigenverbrauch (Lastmanagement) — vgl. `[[waermepumpe-systemvergleich]]`.
+
+## Wärmequelle Abwasser (ergänzt Run 116, 2026-07-27)
+Neben Erdreich, Grundwasser, Aussenluft und Seewasser kommt **Abwasser** als Wärmequelle in
+Frage — mit dem konstantesten Temperaturniveau aller Quellen (ganzjährig 10–20 °C in der
+Kanalisation, im Liegenschaftsabwasser ø 23 °C). Entscheidend ist der Entnahmeort: gebäudeintern
+vor der Einleitung grundsätzlich **bewilligungsfrei** (wirtschaftlich ab ~8'000–10'000 l/Tag bzw.
+~150 kW), ab der öffentlichen Kanalisation gewässerschutzrechtliche AWEL-Bewilligung plus
+Nutzungsvereinbarung. Für jeden Neubau relevant ist die kleine Variante, die **Duschwasser-WRG**
+(pauschal 10 % des Warmwasserbedarfs im Energienachweis anrechenbar, EnFK EN-101). ⚠ Ein
+amtlicher JAZ-/COP-Vergleichswert Abwasser gegenüber Erdsonde/Aussenluft wurde **nicht** gefunden
+(offener Punkt) → `[[abwasserwaermenutzung-kanalisation-zh-sz]]`, Themenartikel
+`[[abwaermenutzung-gebaeude]]`, FAQ F169.

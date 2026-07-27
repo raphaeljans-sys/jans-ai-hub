@@ -1733,3 +1733,66 @@ durch den Orchestrator). FAQ-Stand: **167 Kernfragen (F1-F167) belegt.** Destill
    Waescherei-Abluft-Waermerueckgewinnung im Gesundheitsbau, Rechenzentrum/Serverraum-Kuehlung als
    eigenstaendiges Thema (bisher nur in `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]` als
    SIA-2024-Kennwert 1'052 kWh/m²/Jahr erwaehnt).
+
+## D87 (Run 116, 2026-07-27) — vier parallele Rechercheagenten, Schwerpunkt «Abwärme und Prozessenergie»; adversariale Korrektur eines Agenten-Negativbefunds
+
+Die von Run 115 vorgeschlagene Prioritaet 6 vollstaendig abgearbeitet und um zwei Themen erweitert.
+Redundanz-Check nach der Run-115-Lehre durchgefuehrt: 29 Kandidatenbegriffe gegrept, **und die
+Treffer inhaltlich gelesen statt nur gezaehlt** — vier Themen als echte Luecken bestaetigt
+(`Fettabscheider`, `Abwaermepflicht`, `Abwasserwaerme`, `Therapiebad` je null Treffer;
+`Kuechenabluft`/`Serverraum`/`Waescherei` nur Randerwaehnungen in bestehenden Destillaten). Vier
+`general-purpose`-Agenten (Sonnet, Modell-Politik) parallel, jeder ausschliesslich mit eigener neuer
+Datei; Register-Konsolidierung und Verifikation im Hauptmodell.
+
+- **D87a Serverraum/Rechenzentrum — Kuehlung und Abwaermenutzung.** § 30a Abs. 1 BBV I (allgemeine
+  Abwaerme-Nutzungspflicht jeder Baute) und § 30a Abs. 2 BBV I (RRB Nr. 840, seit 1.9.2022:
+  Bereitstellung von mehr als **2 GWh/a** nicht selbst nutzbarer Abwaerme an Dritte **zu
+  Gestehungskosten**), am amtlichen AWEL-Bericht «Rechenzentren» (V1, 31.08.2023, 50 S. inkl.
+  Rechtsgutachten) belegt. **Kein Waermenetz-Bauzwang** (RRB 1324/2022; § 295 Abs. 2 PBG bindet nur
+  Waermeabnehmer). CH-Stromverbrauch der Rechenzentren 2024 2,1 TWh (3,6 %), PUE CH ~1,5 bzw.
+  Colocation 1,0-1,2. → `[[serverraum-rechenzentrum-kuehlung-abwaermenutzung-ch]]`, FAQ **F168**.
+- **ADVERSARIALE KORREKTUR (Hauptmodell, wichtigster Einzelbefund des Laufs):** Der Agent hatte
+  eine Sekundaerbehauptung, wonach die **MuKEn 2025** eine mit ZH identische 2-GWh-Klausel enthalte,
+  **zurueckgewiesen** — korrekt begruendet, weil der von ihm gelesene MuKEn-Volltext die Klausel nicht
+  enthielt. Die Gegenpruefung am **EnDK-Originalvolltext der MuKEn 2025** (117 S., Stand 29.08.2025 —
+  dieselbe amtliche Fassung, die `[[muken-2025-verabschiedet]]` seit Run 81 nutzt) zeigt: der Agent
+  hatte die **falsche Ausgabe** (2014/Nachfuehrung 2018) gelesen; **Art. 1.18 Abs. 2 MuKEn 2025
+  enthaelt die Klausel sehr wohl und nahezu wortgleich**. Zuerich war damit rund drei Jahre **Pionier**
+  vor dem nationalen Modell. Zusaetzlich aus den amtlichen Erlaeuterungen (S. 109) die fuer die
+  Projektierung wertvollste Zahl gehoben: **2 GWh ≈ ab 230 kW elektrischer Dauerleistung** eines
+  Rechenzentrums (bzw. 1000 kW Abwaermeleistung x >2000 h/a) — macht die abstrakte GWh-Schwelle am
+  Anschlussleistungs-Datenblatt pruefbar. **Lehre: ein Negativbefund ist nur so gut wie die Ausgabe,
+  an der er erhoben wurde — bei Normen/Mustervorschriften immer die Ausgabe explizit mitpruefen.**
+- **D87b Abwasserwaermenutzung ZH/SZ** (Thema hatte null KB-Treffer). AWEL-Planungshilfe «Heizen und
+  Kuehlen mit Abwasser und Oberflaechenwasser» (2025) im Volltext: Abwasser ganzjaehrig 10-20 °C
+  (Liegenschaft ø 23 °C); **gebaeudeintern vor Einleitung bewilligungsfrei** (wirtschaftlich ab
+  8'000-10'000 l/Tag bzw. ~150 kW), ab Kanalisation/ARA gewaesserschutzrechtliche AWEL-Bewilligung +
+  Nutzungsvereinbarung («first come, first serve»); Grenze ist die ARA-Dimensionierungstemperatur
+  (i.d.R. 10 °C), Bagatellgrenze >0,1 °C Zulaufaenderung; ZH-Potenzial 674 GWh/a ueber 60 ARA, erst
+  11 % genutzt; Referenz Altstetten-Hoengg (172 GWh Waerme + 35 GWh Kaelte). **Duschwasser-WRG
+  pauschal 10 % des Warmwasserbedarfs im Energienachweis anrechenbar (EnFK EN-101, Dez. 2018)** —
+  real 18-28 %. → `[[abwasserwaermenutzung-kanalisation-zh-sz]]`, FAQ **F169**.
+- **D87c Grosskuechen-Lueftung und Abluft-WRG.** Kochstellenabluft ist nach SIA 382/1:2025 **ETA 3**
+  (hoechste Verunreinigungsklasse, max. EATR 0,1 %) → **Rotoren ausgeschlossen**, Plattentauscher nur
+  mit Dichtheitsnachweis → **Kreislaufverbundsystem** als robusteste Wahl, was sich mit der
+  VKF-Anforderung «nur nicht brennbare Waermetraegerfluessigkeiten» deckt (Richtlinie 25-15de,
+  Ziff. 4.2.3: separate Aggregate, ausserhalb Kueche EI 30/RF1, Ventilatorraum EI 60, ab 12'000 m³/h
+  eigene Anlage). Luftmengen 80-120 m³/h je m² Frittier-/Grillbereich bzw. 50 m³/h je kW
+  (GSLI-Planungshilfe 2023). Sauber getrennt: **luftseitiger Fettfilter ≠ abwasserseitiger
+  Fettabscheider** (SN 592'000 / VSA-Merkblatt Feb. 2025). →
+  `[[grosskuechen-lueftung-abluft-wrg-ch]]`, FAQ **F170**.
+- **D87d Waescherei-Prozessenergie Pflegeheim/Spital.** Kontraintuitiver Kernbefund: **zwei Drittel
+  des Energieverbrauchs stecken im Trocknen, nur ~15 % im Waschen** (S.A.F.E./Nipkow im Auftrag
+  Hochbauamt Stadt Zuerich, 2012); innerhalb des Waschens 60-85 % Wassererwaermung. VTS/EnAW-Handbuch
+  «RessEff» (2. Aufl. 2021, Watt d'Or 2014): Waschstrasse gesamt 7,0-19,0 l/kg Wasser, 0,90-3,60 kWh/kg
+  Waerme, 0,10-0,35 kWh/kg Strom; Mangeln 0,5-0,7 vs. bis 1,25 kWh/kg; **Restfeuchte 45 statt 55 %
+  spart ~18 % Trocknungsenergie**. **Ehrlicher Negativbefund: keine CH-/D-A-CH-Primaerquelle fuer
+  kg Waesche/Bett/Tag** — kursierende Webwerte bewusst verworfen. →
+  `[[waescherei-prozessenergie-pflegeheim-spital-ch]]`, FAQ **F171**.
+- **Verdichtung:** Neuer Wiki-Themenartikel `[[abwaermenutzung-gebaeude]]` (29. Themenartikel) fasst
+  alle vier Destillate unter dem gemeinsamen roten Faden zusammen — Rechtspflicht (zweistufig),
+  vier Quellenprofile, Planungsfolgen (Anschlussstelle unten am Gebaeude, Dachflaechen-Konkurrenz
+  Rueckkuehler↔PV, Healthcare-Nebenraeume als Prozessanlagen ausserhalb SIA 2024, Make-or-buy vor
+  Raumprogramm). `[[heizleistung-und-waermeerzeuger]]` um die Waermequelle Abwasser ergaenzt.
+  **Fuenfte Bestaetigung in Folge, dass die Saettigungsdiagnose nicht zutrifft** (Run 111-116).
+  FAQ-Stand: **171 Kernfragen (F1-F171)**, Destillate: **186** (in Run 116 nachgezaehlt und um eins nach unten korrigiert — die Serie hatte `destillate/INDEX.md` mitgezaehlt; Zuwachs Run 115→116 korrekt +4).

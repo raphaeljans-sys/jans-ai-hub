@@ -4,6 +4,20 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-27 — `twin-mail-training` (Batch 75, rj@-Sweep fortgesetzt).** M365-CLI-Fallback
+  (`~/Developer/jans-ai-hub/node_modules/.bin/m365`, SSD-Klon — der MCP-Pfad
+  `mcp__microsoft-365__m365_run_command` scheiterte erneut mit „outlook: command not found";
+  auf dem NAS-Repo selbst existiert kein `node_modules`). Fenster 2026-07-27T12:38:15Z bis
+  14:10:00Z, 1 neuer relevanter Fund: Bauentscheid-Auflagenbereinigung KISPI PPTS Lenggstrasse 30
+  an Shyam Zala (Stadt ZH, Stellvertretung fuer Lars Hansen), Sie. `arbeitsweise.md` ergaenzt
+  (verwaltungsinterne Zustaendigkeitswechsel-Info ins Fliesstext eingewoben statt zitiert +
+  naechster Verfahrensschritt konditional vordelegiert + liegen gebliebener Dateiname als
+  Kopfzeile-Authentizitaetssignal), `beziehungsregister.md` ergaenzt (Waermestufe einer
+  Behoerden-Stellvertretung wird vom laufenden Fall geerbt, nicht neu erarbeitet + Mapping Zala).
+  `raw/_INGESTED.md` Batch-75-Zeile + Sweep-Endpunkt (14:07:25, naechster Pull ab 14:10:01Z)
+  nachgefuehrt. Kein Raw-Dumpfile angelegt (Praxis seit Batch 54: nur Marker + anonymisierte
+  Schnipsel in _INGESTED, keine Volltext-Hortung).
+
 - **2026-07-27 — `twin-fidelity-review` (Fidelity 260727f, fuenfter Lauf des Tages, Gesamt-Fidelity
   ~68).** Zwei frische authentische Golds auf `mail@raphaeljans.ch` April 2026 (bisher unerschlossenes
   Fenster) — Hub12-Event-Weiterleitung an Peter Weisser (Mundart-Du, kein Fachinhalt) + Ultrakurz-

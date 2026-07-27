@@ -1,7 +1,14 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-07-26 (Run 115: F167 neu + F136 geschärft — zwei parallele Rechercheagenten,
+last_updated: 2026-07-27 (Run 116: F168-F171 neu — vier parallele Rechercheagenten, Schwerpunkt
+  «Abwärme und Prozessenergie»: Serverraum-/Rechenzentrums-Abwärme [§ 30a Abs. 2 BBV I, 2-GWh-
+  Schwelle ≈ ab 230 kW elektrischer Dauerleistung, ZH als Pionier vor MuKEn 2025 Art. 1.18],
+  Abwasserwärmenutzung [AWEL-Planungshilfe 2025, gebäudeintern bewilligungsfrei, Duschwasser-WRG
+  10 % pauschal nach EN-101], Grossküchen-Abluft-WRG [ETA 3 schliesst Rotoren aus, VKF 25-15de],
+  Wäscherei-Prozessenergie [zwei Drittel im Trocknen, VTS «RessEff» 2021]; im Hauptlauf adversarial
+  gegengeprüft: eine vom Agenten als unbelegt zurückgewiesene MuKEn-2025-Klausel wurde am
+  EnDK-Originalvolltext als DOCH vorhanden korrigiert); Run 115: F167 neu + F136 geschärft — zwei parallele Rechercheagenten,
   Healthcare-Prozessenergie-Vertiefung: Reinraum-/OP-Klimatisierung [SWKI VA105-01/SN 22500,
   Swissnoso-Metaanalyse 2018 zweifelt TAV-Nutzen an, ergänzt/vertieft Run-98-Destillat
   swki-lueftung-gesundheitsbau-hygiene-energie] und Sterilisationsenergie/Medizintechnik-
@@ -5701,3 +5708,147 @@ Radiologiezentrum Reinach, 04.07.2017. Datenstand 2026-07-26 (Run 115) →
 `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`, `[[energie-performance-gap-gesundheitsbau]]`.
 Status **emerging** (Raumklima-/Prozessparameter primärquellenbelegt; die eigentliche
 Energiequantifizierung bleibt ein offener Punkt — ehrlicher Negativbefund statt geratener Zahl).
+
+## F168 — «Muss ich die Abwärme unseres Serverraums/Rechenzentrums nutzen oder sogar abgeben?»
+
+**Kurzantwort:** Im Kanton Zürich gilt zweistufig: Abwärme im Gebäude ist **immer** zu nutzen,
+soweit technisch/betrieblich möglich und wirtschaftlich tragbar. Fallen zusätzlich **mehr als
+2 GWh pro Jahr** an, die Sie nicht selbst nutzen können, müssen Sie diese Dritten **zu den
+Gestehungskosten anschlussfertig bereitstellen** — in der Regel über eine vorbereitete
+Anschlussstelle unten am Gebäude. Was Sie **nicht** müssen: selbst ein Wärmenetz bauen oder
+Abnehmer suchen. Als Faustregel für die Vorprojektphase: die 2-GWh-Schwelle wird ab etwa
+**230 kW elektrischer Dauerleistung** eines Rechenzentrums erreicht — darunter greift nur die
+allgemeine, unbezifferte Nutzungspflicht.
+
+**Fachliche Begründung:** § 30a Abs. 1 BBV I (LS 700.21) begründet die allgemeine Nutzungspflicht
+für jede Baute; § 30a Abs. 2 BBV I — eingefügt mit RRB Nr. 840 vom 8.6.2022, **in Kraft seit
+1.9.2022** — die Bereitstellungspflicht ab 2 GWh bei Neubauten sowie bei Erneuerung/Umbau der
+Kälteerzeugung. Der Kanton Zürich war damit **Pionier**: Die MuKEn 2025 (verabschiedet 29.8.2025)
+übernimmt die Regel in Art. 1.18 Abs. 2 nahezu wortgleich und hebt sie damit zum nationalen
+Modell — sie ist aber eine Empfehlung an die Kantone, noch nicht überall geltendes Recht. Die
+230-kW-Umrechnung stammt wörtlich aus den amtlichen MuKEn-Erläuterungen (alternativ: Anlagen mit
+mindestens 1000 kW Abwärmeleistung während mehr als 2000 Stunden pro Jahr). Wichtig für die
+Erwartungssteuerung beim Bauherrn: Der Aufbau eines Fernwärmenetzes kann **nicht** mit der
+Baubewilligung verfügt werden (bestätigt in RRB Nr. 1324/2022), und § 295 Abs. 2 PBG verpflichtet
+nur Wärme**abnehmer**, nicht Abwärme**erzeuger**. Bei Bestandesbauten greift Abs. 2 nur bei
+Erneuerung/Umbau der **zentralen** Kälteerzeugung — geräteseitige Kühlung ist nach der im
+AWEL-Bericht vertretenen Rechtsauffassung nicht erfasst. Separat davon läuft das
+Grossverbraucher-Regime (§ 13a EnerG, Schwelle 0,5 GWh/Jahr Strom): Es löst eine Analyse-/
+Effizienzpflicht aus, von der eine freiwillige Zielvereinbarung befreit. Planerisch heisst das:
+Anschlussstelle und Rückkühler-Standort früh festlegen — die Rückkühlung konkurrenziert auf dem
+Dach direkt mit der PV-Fläche.
+
+**Quelle:** Kt. ZH, Baudirektion/AWEL, Bericht «Rechenzentren» Version 1, 31.08.2023 (50 S., inkl.
+Rechtsgutachten Kap. 4); § 30a BBV I, Fassung seit 1.9.2022; EnDK, MuKEn 2025 Art. 1.18 +
+Erläuterungen S. 109 (Originalvolltext 117 S., Stand 29.08.2025). Datenstand 2026-07-27 (Run 116)
+→ `[[serverraum-rechenzentrum-kuehlung-abwaermenutzung-ch]]`, ergänzt
+`[[muken-2025-verabschiedet]]`, `[[anergienetz-kalte-fernwaerme-ch]]`,
+`[[grossverbraucherartikel-zielvereinbarung-zh-sz]]`. Rechtsteil **primärquellen-verifiziert**
+(zwei unabhängige amtliche Quellen); für Kt. SZ wurde **keine** analoge Bestimmung gefunden
+(nicht abschliessender Negativbefund — bei SZ-Projekten beim AfU verifizieren).
+
+## F169 — «Kann man Wärme aus dem Abwasser nutzen — und lohnt sich das für mein Gebäude?»
+
+**Kurzantwort:** Ja, Abwasser ist eine ernstzunehmende Wärmequelle (ganzjährig 10–20 °C in der
+Kanalisation), aber sie lohnt sich erst ab einer gewissen Grösse. Nutzen Sie das Abwasser **auf
+dem eigenen Grundstück, bevor es in die Kanalisation fliesst**, ist das grundsätzlich
+**bewilligungsfrei**; wirtschaftlich wird es ab rund **8'000–10'000 Litern pro Tag** (etwa
+30 Wohneinheiten) bzw. ab etwa **150 kW Wärmeleistungsbedarf**. Sobald Sie Wärme aus der
+**öffentlichen Kanalisation oder dem ARA-Ablauf** ziehen, brauchen Sie eine gewässerschutz-
+rechtliche AWEL-Bewilligung **und** eine Nutzungsvereinbarung mit dem Kanalisationsinhaber —
+dort gilt «first come, first serve». Für Einfamilienhäuser und kleine Mehrfamilienhäuser ist die
+grosse Lösung nichts; die **Duschwasser-Wärmerückgewinnung** dagegen schon.
+
+**Fachliche Begründung:** Die AWEL-Planungshilfe «Heizen und Kühlen mit Abwasser und
+Oberflächenwasser» (2025) nennt für die Nutzung am Ursprung die genannten Schwellen und hält fest,
+dass diese Stufe nicht bewilligungspflichtig ist. Für die Kanalisationsnutzung gelten zusätzliche
+technische Randbedingungen: rund **10 l/s steter Fluss** (entspricht etwa 5'000 Einwohnern im
+Nachtminimum) und ein Kanaldurchmesser ab **800 mm** für den nachträglichen Wärmetauscher-Einbau.
+Die zentrale Grenze setzt die Abwasserreinigung selbst: Der ARA-Zulauf darf nicht unter die
+Dimensionierungstemperatur (in der Regel 10 °C) fallen, weil sonst die Nitrifikation leidet —
+bewilligungspflichtig wird es rechnerisch ab einer ARA-Zulauf-Temperaturänderung von mehr als
+0,1 °C. Das kantonale Potenzial ist erheblich (674 GWh/Jahr über 60 ARA, Stand 2024), aber erst zu
+rund 11 % genutzt; grösstes Referenzprojekt ist der Energieverbund Altstetten-Höngg der ewz (ARA
+Werdhölzli, im Endausbau 172 GWh Wärme + 35 GWh Kälte für rund 30'000 Haushalte, gestaffelt
+2023–2033). Für die **Duschwasser-WRG** — dem kleinen, für jeden Neubau relevanten Pendant —
+erlaubt die gesamtschweizerische EnFK-Vollzugshilfe **EN-101** (Dezember 2018) eine pauschale
+Anrechnung von **10 % des Warmwasserbedarfs** im Energienachweis; reale Herstellerangaben liegen
+mit 18–28 % Wirkungsgrad höher, bei Mehrkosten in der Grössenordnung einiger hundert Franken pro
+Duschplatz.
+
+**Quelle:** AWEL Kt. ZH, «Heizen und Kühlen mit Abwasser und Oberflächenwasser», Planungshilfe
+2025 (S. 6–7); Konferenz Kantonaler Energiefachstellen, Vollzugshilfe EN-101, Ausgabe Dezember
+2018 (S. 14); § 8 EG GSchG bzw. neu § 44 WsG ZH. Datenstand 2026-07-27 (Run 116) →
+`[[abwasserwaermenutzung-kanalisation-zh-sz]]`, ergänzt `[[waermeplanung-kommunal-zh-sz]]`,
+`[[anergienetz-kalte-fernwaerme-ch]]`, `[[heizleistung-und-waermeerzeuger]]`. Status **emerging**
+(kein aktueller ZH-Fördersatz und kein amtlicher JAZ-Vergleichswert Abwasser vs. Erdsonde/Luft
+verifiziert; für Kt. SZ keine eigene Abwasserwärme-Regelung gefunden — Negativbefund).
+
+## F170 — «Kann die Abwärme aus der Grossküchenabluft zurückgewonnen werden, obwohl sie fetthaltig ist?»
+
+**Kurzantwort:** Ja — aber **nicht mit jedem System**. Weil Kochstellenabluft in die höchste
+Verunreinigungsklasse fällt, scheiden **rotierende Wärmetauscher aus**; infrage kommen ein
+**Kreislaufverbundsystem** (getrennte Register, kein Fett-/Geruchsübertragungsrisiko) oder ein
+Plattenwärmetauscher mit nachgewiesener Dichtheit. Das Kreislaufverbundsystem ist
+brandschutztechnisch die robustere Wahl, hat aber die tiefere normative Mindesteffizienz — das
+gehört von Anfang an ehrlich in die Wirtschaftlichkeitsrechnung. Voraussetzung für jede
+Rückgewinnung ist eine funktionierende **Fettabscheidung nahe der Absaugstelle**.
+
+**Fachliche Begründung:** SIA 382/1:2025 stuft Kochstellenabluft als **ETA 3** ein (höchste
+Verunreinigungsklasse, maximales Abluftübertragungsverhältnis 0,1 %); bei dieser Klasse kommen
+Rotoren nicht mehr infrage, Plattenwärmerückgewinner brauchen eine Dichtheitsprüfung. Die
+VKF-Brandschutzrichtlinie **25-15de «Lufttechnische Anlagen»** (01.01.2017, Ziff. 4.2.3) verlangt
+für gewerbliche Küchen separate Aggregate und Leitungen, Abluftleitungen ausserhalb der Küche
+mindestens EI 30/RF1 und einen Ventilatorraum mindestens EI 60; ab 12'000 m³/h ist eine eigene
+Anlage nötig, und darüber darf nur der WRG-Wärmetauscher im Ventilatorraum stehen — zudem sind
+**nur nicht brennbare Wärmeträgerflüssigkeiten** zulässig, was das Kreislaufverbundsystem
+zusätzlich begünstigt. Zur Dimensionierung nennt die GSLI-Planungshilfe für Verpflegungsbetriebe
+(2023) Luftmengen von 80–120 m³/h je m² Frittier-/Grillbereich bzw. 50 m³/h je kW Geräteleistung
+und eine WRG-Pflicht ab mehr als 1'000 m³/h und mehr als 500 Betriebsstunden pro Jahr. Klar zu
+trennen ist die **luftseitige** Fettabscheidung (VKF Ziff. 4.2.1) von der **abwasserseitigen**
+(VSA-Merkblatt Februar 2025 / SN 592'000: Schwelle 150 warme Mahlzeiten pro Tag, vierwöchiges
+Reinigungsintervall, Inspektion alle 5 Jahre) — beides ist zu planen, es ist aber nicht dasselbe
+Bauteil. Brandschutz-Detailfragen laufen über den Skill `brandschutz`.
+
+**Quelle:** VKF-Richtlinie 25-15de «Lufttechnische Anlagen», Ausgabe 01.01.2017, Ziff. 4.2.1/4.2.3;
+suissetec-Merkblatt zu SIA 382/1:2025 (September 2025), Ziff. 5.13.2; GSLI-Planungshilfe
+Verpflegungsbetriebe 2023; VSA-Merkblatt Fettabscheider, Februar 2025. Datenstand 2026-07-27
+(Run 116) → `[[grosskuechen-lueftung-abluft-wrg-ch]]`, ergänzt
+`[[komfortlueftung-wrg-sia382-luftwechsel]]`, `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`.
+Status **emerging** — die ETA-3-/Rotoren-Aussage stammt aus dem Verbands-Merkblatt, nicht aus dem
+(kostenpflichtigen) Normtext selbst; die einzigen gefundenen CH-Energiekennwerte je Mahlzeit sind
+veraltet (2011 bzw. 1992) und taugen nur als Grössenordnung.
+
+## F171 — «Wo steckt die Energie in der Wäscherei unseres Pflegeheims — und soll ich überhaupt selbst waschen?»
+
+**Kurzantwort:** Nicht im Waschen, sondern im **Trocknen**: Rund **zwei Drittel** des
+Wäscherei-Energieverbrauchs entfallen auf die Trockner, nur etwa 15 % aufs Waschen. Der wirksamste
+bauliche Hebel ist deshalb die Trocknungstechnik — Wärmepumpentrockner und Wärmerückgewinnung aus
+Trockner-/Mangelabluft sowie aus dem Waschwasser-Abwasser. Zur Grundsatzfrage: Immer mehr
+Schweizer Spitäler lagern die Wäscherei aus; der Entscheid ist aber ein betriebswirtschaftlicher,
+kein energetischer, und sollte **vor** der Raumprogrammfixierung fallen — eine Inhouse-Wäscherei
+bindet Fläche, Anschlussleistung und Personal auf Jahrzehnte.
+
+**Fachliche Begründung:** Eine im Auftrag des Hochbauamts der Stadt Zürich erstellte Untersuchung
+(S.A.F.E./Nipkow, 2012) weist für einen typischen Wäschereibetrieb bei 45'000 kWh Jahresverbrauch
+und 50 t Trockenwäsche rund 15 % aufs Waschen und zwei Drittel aufs Trocknen aus; innerhalb des
+Waschens entfallen wiederum 60–85 % auf die **Wassererwärmung** — weshalb ein Warmwasseranschluss
+aus Abwärme/Verbund dort der grösste Einzelhebel ist. Das Handbuch «RessEff» des Verbands
+Textilpflege Schweiz (2. Auflage 2021, mit dem Watt d'Or des BFE ausgezeichnet) nennt für den
+Gesamtbetrieb einer Waschstrasse 7,0–19,0 l Wasser, 0,90–3,60 kWh Wärme und 0,10–0,35 kWh Strom je
+kg Wäsche; für Mangeln 0,5–0,7 kWh/kg bei modernen gegenüber bis 1,25 kWh/kg bei alten Anlagen.
+Eine Reduktion der Restfeuchte von 55 auf 45 % spart rund 18 % Trocknungsenergie — das
+Entwässerungsergebnis der Waschschleuder entscheidet also über den Verbrauch des nachgelagerten
+Trockners. Für die Abwasser-Wärmerückgewinnung rechnet der Verband ein Beispiel mit 500 kg/h
+Durchsatz vor (rund 837 kWh Einsparung pro Tag). **Ehrlicher Negativbefund:** Für die naheliegende
+Planungskennzahl «kg Wäsche je Bett und Tag» liess sich **keine** Schweizer oder D-A-CH-Primärquelle
+finden; die im Web kursierenden Werte sind nicht zitierfähig und wurden bewusst nicht übernommen —
+diese Menge ist projektspezifisch beim Betreiber zu erheben.
+
+**Quelle:** Verband Textilpflege Schweiz (VTS)/EnAW, Handbuch «RessEff», 2. Auflage 2021;
+S.A.F.E. (J. Nipkow) im Auftrag Hochbauamt Stadt Zürich, referiert auf ee-news.ch, 10.12.2012.
+Datenstand 2026-07-27 (Run 116) → `[[waescherei-prozessenergie-pflegeheim-spital-ch]]`, ergänzt
+`[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`,
+`[[blockheizkraftwerk-bhkw-mfh-pflegeheim-ch]]`. Status **emerging** — die «zwei Drittel»-Aussage
+stützt sich auf einen einzigen, 2012 datierten Sekundärbericht (Original-Studie nicht auffindbar);
+kg/Bett/Tag und CHF/kg-Benchmark für CH-Spitäler bleiben unbelegt.

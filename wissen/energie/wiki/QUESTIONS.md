@@ -2370,3 +2370,49 @@ drei echte neue Themenfelder trotz 178+ bestehender Destillate). FAQ-Stand: **16
      (Run 111-114: je mindestens zwei bis drei echte neue Themenfelder trotz 178+ bestehender
      Destillate) — die Methode «Redundanz-Check per grep vor Themenwahl, dann gezielte Suche nach
      amtlicher Primärquelle» bleibt der belastbarste Weg für freie Themenwahl ohne Werkzeugliste.
+
+## Run 116 (2026-07-27) — vier parallele Rechercheagenten, Schwerpunkt «Abwärme und Prozessenergie»
+
+Die von Run 115 vorgeschlagene Priorität 6 abgearbeitet und um zwei Themen erweitert. Redundanz-Check
+nach der Run-115-Lehre durchgeführt (29 Kandidatenbegriffe gegrept **und die Treffer inhaltlich
+gelesen**, nicht nur gezählt) — vier echte Lücken bestätigt, vier Agenten parallel angesetzt, jeder
+ausschliesslich mit eigener neuer Datei; Konsolidierung und Verifikation im Hauptmodell.
+
+Neu: **F168** Serverraum-/Rechenzentrums-Abwärme · **F169** Abwasserwärmenutzung · **F170**
+Grossküchen-Abluft-WRG · **F171** Wäscherei-Prozessenergie. Neuer Wiki-Themenartikel
+`[[abwaermenutzung-gebaeude]]` als Verdichtung aller vier. FAQ-Stand **171 (F1-F171)**,
+Destillate **186** (in Run 116 nachgezählt und um eins nach unten korrigiert — die bisherige Serie hatte `destillate/INDEX.md` als Destillat mitgezählt; Zuwachs Run 115→116 korrekt +4).
+
+**Wichtigster Einzelbefund — adversariale Korrektur eines Agenten-Negativbefunds:** Der
+Serverraum-Agent hatte die Sekundärbehauptung, die MuKEn 2025 enthalte eine mit ZH identische
+2-GWh-Abwärmeklausel, methodisch sauber zurückgewiesen (der von ihm gelesene MuKEn-Text enthielt
+sie nicht). Die Gegenprüfung am EnDK-Originalvolltext zeigte: er hatte die **Ausgabe 2014/2018**
+statt der Ausgabe 2025 gelesen — **Art. 1.18 Abs. 2 MuKEn 2025 enthält die Klausel sehr wohl**.
+Zusätzlich liess sich aus den amtlichen Erläuterungen die praktisch wertvollste Zahl heben:
+**2 GWh ≈ ab 230 kW elektrischer Dauerleistung**. **Lehre: Ein Negativbefund ist nur so gut wie
+die Ausgabe, an der er erhoben wurde — bei Normen und Mustervorschriften ist die Ausgabe explizit
+mitzuprüfen, bevor eine Aussage als widerlegt gilt.** Der Reflex des Agenten war richtig, nur die
+Quellenbasis falsch.
+
+**Verifikationsstufe (Protokoll):** § 30a Abs. 1+2 BBV I unabhängig am AWEL-Bericht
+«Rechenzentren» (50 S.) gegengelesen — **bestanden**; Art. 1.18 MuKEn 2025 am EnDK-Original —
+**bestanden, Agentenbefund korrigiert**; ETA-3-/Rotoren-Aussage (F170) — **nicht abschliessend
+verifizierbar**, suissetec-Merkblatt statt Normtext, Destillat bleibt deshalb `emerging`;
+Datumsfehler im Frontmatter des Serverraum-Destillats (31.08.2026 statt 2023) korrigiert.
+
+  **Nächster Lauf: Priorität**
+  1. Die fünf gebündelten Kaufentscheide (B1-Konsolidierung, SWKI-VA105-01, SIA-385/1, **SIA-385/2
+     — neu zusätzlich relevant, weil sie die Duschwasser-WRG normiert (F169)**, SIA-384.354) warten
+     jetzt **achtzehn Runs** in Folge auf eine Entscheidung. Raphael vorlegen, nicht selbst lösen.
+  2. Meta-Punkt M2 (eigenständiger Skill «energie»?) seit Run 45 spruchreif, weiterhin unentschieden.
+  3. SIA-2024-Gesundheitsbau-Merge weiterhin ausführungsreif, wartet auf Raphaels Zustimmung.
+  4. Offene Punkte aus den vier neuen Destillaten: kein CH-Kennwert zur Flächenkonkurrenz
+     Rückkühler↔PV und zum Rückkühler-Lärmschutz; SIA 2068 «Energieeffizienz in Rechenzentren»
+     Publikationsstatus; aktueller ZH-Fördersatz Abwasserwärme + JAZ-Vergleichswert Abwasser vs.
+     Erdsonde; kg Wäsche/Bett/Tag; aktuelle CH-Studie kWh/Mahlzeit (die gefundenen sind von
+     2011/1992). **Kt. SZ ist in gleich zwei neuen Themen ein nicht abschliessender Negativbefund**
+     (Abwärme-Bereitstellungspflicht, Abwasserwärme) — ein gezielter SZ-Lauf mit kEnG/kEnV-Volltext
+     wäre hier wertvoller als zwei weitere Einzelrecherchen.
+  5. Weitere Kandidaten (noch nicht geprüft): Energie-Monitoring/Submetering für Grossverbraucher,
+     EnerGIS-Kartenwerk Stadt Zürich im Detail, Therapiebad/Hallenbad-Energie im Pflegeheim
+     (`Therapiebad` hatte im Redundanz-Check null Treffer).

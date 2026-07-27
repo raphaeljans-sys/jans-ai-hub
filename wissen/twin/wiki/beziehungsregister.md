@@ -1781,3 +1781,20 @@ Postfach mail@raphaeljans.ch, drei vor-Claude-Mails 25.09.2025 / 13.11.2025 / 19
 - **Neue Mappings:** Martina, Kundendienst Bio Mio (Gemüse-Abo, privat) — startet «Guten Tag Martina», kippt
   binnen fünf Wochen auf «Hoi Martina» + Du; Firma dahinter kollektiv «Ihr/Euch». Generische Reservations-
   postfächer (Hotellerie, Taxi) — namenloses «Guten Tag,» + Sie + volle Geschäfts-Signatur.
+
+## Batch 75 (2026-07-27) — Wärmestufe einer Stellvertretung wird vom Amt geerbt, nicht neu erarbeitet
+
+Gewichtung: authentisch (handgetippt). Quelle: KISPI PPTS Bauentscheid-Auflagenbereinigung an
+Shyam Zala (Stadt ZH, AfB/Team 5), Sie, 27.07.2026.
+
+- **Ein neuer, bisher unbekannter Behörden-Sachbearbeiter, der als Stellvertretung für einen
+  bekannten Kontakt einspringt, bekommt sofort die warme Stufe «Geschätzter Herr <Nachname>»** —
+  nicht das kühlere Erst-Sie («Sehr geehrte/r»), obwohl es die erste dokumentierte Mail an genau
+  diese Person ist. Die bereits mit dem Amt/Verfahren aufgebaute Vertrautheit (frühere Kontakte:
+  Hansen, Stubbe, Hottinger) wird auf den neuen Ansprechpartner **vererbt**, weil er in dieselbe
+  laufende Fallakte einsteigt — Vertrautheit hängt hier also nicht nur an der Einzelperson, sondern
+  am eingespielten Verfahren/Fall. Ergänzt die bestehende Regel «Behörde nach Vertrautheit UND
+  Gewicht des Anliegens» um die Stellvertretungs-Variante: die Rolle im laufenden Fall zählt mehr
+  als die persönliche Erstbegegnung.
+- **Neues Mapping:** Shyam Zala, Stadt Zürich (Stellvertretung für Lars Hansen im Verfahren KISPI
+  PPTS, seit 27.07.2026), Sie, «Geschätzter Herr Zala».

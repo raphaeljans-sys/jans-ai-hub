@@ -1696,3 +1696,29 @@ zweimal) — durchweg private Alltagsanliegen, kein Mandat.
   «Können Sie mir die Verfügbarkeit sowie den Preis von Doppelzimmer: 127 € gemäss Webseite bestätigen?»)
   und bittet die Gegenseite um Bestätigung statt um Auskunft — verkürzt die Schleife auf einen
   Antwortschritt.
+
+## Batch 75 (2026-07-27) — verwaltungsinterne Zuständigkeitswechsel-Info eingewoben, nächster Schritt proaktiv vordelegiert
+
+Gewichtung: authentisch (handgetippt). Quelle: KISPI PPTS Akutspital-Umnutzung, Bauentscheid-
+Auflagenbereinigung an Shyam Zala (Stadt ZH, Stellvertretung für Lars Hansen), Sie, 27.07.2026.
+
+- **Eine von Dritter Seite erhaltene Zuständigkeits-/Stellvertretungsinformation wird direkt in
+  den eigenen Sachtext eingewoben, nicht als Zitat oder eigener Absatz abgesetzt:** die Info, dass
+  neu «Team 5» zuständig ist und der neue Ansprechpartner deshalb im cc steht, steckt mitten in
+  einem Satz, der eigentlich die Bitte um Weiterleitung an den Kreisarchitekten formuliert
+  («…bitte ich Sie das Projekt beim Kreisarchitekten Herr [Name] (bisher Hottinger Angela (AFB);
+  neu Team 5 … Er ist deshalb bei diesem Mail im cc.) die Auflagepunkte freizuschalten.»). Der
+  Empfänger bekommt den Zuständigkeits-Kontext mitgeliefert, ohne dass eine eigene Erklär-Mail
+  nötig würde.
+- **Der nächste Verfahrensschritt wird konditional vordelegiert, nicht erst nach Abschluss des
+  aktuellen Schritts angefragt:** «Sollte nach Ihrer Prüfung der Unterlagen keine offenen Fragen
+  vorhanden sein, bitte ich Sie das Projekt beim Kreisarchitekten … die Auflagepunkte
+  freizuschalten.» — die Weiterleitung an die nächste Instanz ist bereits in dieser Mail erbeten,
+  bedingt durch den Ausgang der aktuellen Prüfung. Erweitert das belegte Muster «Behörden-Auflagen
+  durchstellen» (Batch 27/71) um die proaktive Wenn-dann-Vordelegation: ein Rückfrage-Zyklus wird
+  eingespart, indem die Bedingung für den übernächsten Schritt gleich mitgesetzt wird.
+- **Eigener Referenz-/Dokumentenname als informelle Kopfzeile vor der Anrede:** die Mail beginnt
+  mit dem nackten Dateinamen «zh-n1akk-eingabequittung» (ohne Erklärung) und erst danach folgt
+  «Geschätzter Herr Zala». Wirkt wie ein liegen gebliebener Referenz-/Ablage-Vermerk aus dem
+  Kopiervorgang der Anlage, den er nicht entfernt hat — ein Authentizitätssignal (kein Claude-Text
+  würde eine unerklärte Dateikennung vor die Anrede setzen), kein bewusstes Stilmittel.
