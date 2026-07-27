@@ -3,6 +3,45 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260727b (twin-fragesteller, aus Fidelity-Review 2026-07-27b)
+
+Quelle: Drift-Report `outputs/2026-07-27b_fidelity.md` (Gesamt-Fidelity ~87; drei frische,
+unmittelbar aufeinanderfolgende Golds desselben Tages/Fadens 23.–24.10.2025, Christoph Bopp/WOMA,
+STWEG Ebmatingen — Auftragsbestätigung/Geschätzter, Vorabskizze-Lieferung/Lieber, Referenzplan-
+Feedback+Telefonat-Vorschlag/Hallo). Fünf Funde, alle Einzelbelege. Je in 1–2 Sätzen beantwortbar.
+
+1. **«Hallo Christoph» für die knappste, sachlichste Mail des Tages — ist «Hallo» bei Dir generell
+   die neutralste/am wenigsten gerahmte Du-Stufe, sobald eine Nachricht rein transaktional ist (Feedback
+   quittieren + Vorschlag), unabhängig davon, ob der Kontakt ein Freelancer oder ein längst
+   eingespielter Geschäftspartner ist?** Bisher kannte der Zwilling «Hallo» nur beim deutschsprachigen
+   Freelancer (Yorck). Am selben Tag schriebst Du demselben Kontakt (Bopp) auch «Geschätzter» und
+   «Lieber» — «Hallo» kam exakt bei der Mail ohne jede Eröffnungs-Wärme (reines Feedback + Call-
+   Vorschlag). Ist der Auslöser die **Sachlichkeit/Kürze der konkreten Mail**, nicht die Kontaktart?
+   *Warum: würde «Hallo» vom Freelancer-Spezialfall zur allgemeinen «neutralste Du-Stufe»-Regel
+   erweitern, unabhängig vom Kontakttyp.* → [[beziehungsregister]]
+2. **Wechselst Du «Hoi»/«Hallo» am selben Tag/Kontakt je nach Tagesordnung, oder war das hier
+   Zufall?** Falls Frage 1 mit Ja beantwortet wird: gibt es einen Unterschied zwischen «Hoi» und
+   «Hallo» als operative Stufen, oder sind sie für Dich austauschbare Varianten ohne Bedeutungsdelta
+   (wie «Bester»/«Lieber Gruss»)? *Warum: würde klären, ob der Zwilling «Hoi» und «Hallo» als echte
+   Stufen unterscheiden soll oder als Synonyme behandeln darf.* → [[beziehungsregister]], [[stimme]]
+3. **«Gruss Raphael» ohne Adjektiv — Dein Signal für besondere Eile/Kürze, oder reiner Zufall/
+   Tagesform?** Bei einer knappen Termin-Bestätigung (Bopp, 23.10.2025) schliesst Du mit dem nackten
+   «Gruss Raphael» statt «Lieber Gruss». Ist das eine bewusst noch knappere Stufe unterhalb von
+   «Lieber/Bester Gruss» für besonders eilige, rein sachliche Kurzmails? *Warum: bisher nur 1 Beleg —
+   eine Bestätigung würde eine weitere Minimalstufe der Gruss-Skala verankern.* → [[stimme]]
+4. **YYMMDD-Zahlen für Termine auch in Mails an Dritte (nicht nur Dateinamen) — Dein generelles
+   Kurzformat, wenn Du mehrere Termine knapp auflistest?** Bei der Bopp-Auftragsbestätigung listest Du
+   Termine als «251024 1200 Zwischenabgabe / 251029 - - - - Beendung» statt ausgeschriebenem Datum.
+   Nutzt Du dieses Format bewusst auch im Mail-Fliesstext (nicht nur in Dateinamen), sobald mehrere
+   Termine kompakt aufgelistet werden? *Warum: würde die Dateinamen-Konvention als aktives
+   Kommunikationsmittel im Fliesstext verankern, nicht nur als Ablage-Regel.* → [[stimme]],
+   [[fachsignatur]]
+5. **Ab wie vielen Themenblöcken clusterst Du eine «_ »-Liste mit Leerzeilen?** Bei der Referenzplan-
+   Feedback-Mail gliederst Du sechs Punkte in drei Zweiergruppen mit Leerzeilen dazwischen. Würdest
+   Du das bei nur zwei Themenblöcken (vier Punkten) auch schon so machen, oder erst ab drei
+   Themenblöcken/mehr als vier Punkten? *Warum: würde die neue Cluster-Regel mit einer konkreten
+   Schwelle versehen, statt sie unbegrenzt auf jede Mehrfach-Liste anzuwenden.* → [[arbeitsweise]]
+
 ## Offen — Runde 260727 (twin-fragesteller, aus Fidelity-Review 2026-07-27)
 
 Quelle: Drift-Report `outputs/2026-07-27_fidelity.md` (Gesamt-Fidelity ~86; drei frische, bislang

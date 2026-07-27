@@ -4,6 +4,19 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-27b — `twin-fidelity-review` zweiter Lauf (Gesamt-Fidelity ~87).** Frische Session ohne
+  Vorwissen, M365-MCP-Tool direkt verfügbar. Drei frische, unmittelbar aufeinanderfolgende Golds
+  desselben Fadens 23.–24.10.2025 (Christoph Bopp/WOMA, STWEG Ebmatingen) — Auftragsbestätigung
+  («Geschätzter»), Vorabskizze-Lieferung («Lieber»), Referenzplan-Feedback+Telefonat-Vorschlag
+  («Hallo») — dichtester bisheriger Beleg für drei Register an denselben Kontakt am selben Tag. Fünf
+  Funde: (1) [[beziehungsregister]] «Hallo» auch bei einem eingespielten warmen Geschäftspartner,
+  nicht nur bei Freelancern; (2) [[stimme]] YYMMDD-Termine im Fliesstext + `- - - -`-Platzhalter für
+  offene Zeit; (3) [[stimme]] nackter Gruss «Gruss Raphael» ohne Adjektiv als Minimalstufe; (4)
+  [[arbeitsweise]] thematische Leerzeilen-Clusterung innerhalb einer «_ »-Liste; (5) [[arbeitsweise]]
+  vorgezogene eigene Unerreichbarkeit als Zeitpunkt-Begründung. Methodische Bestätigung: ein Fall ganz
+  ohne handgetippten Gruss bleibt gemäss Automatik-Vorsicht kein FG-Signal. Keine Facetten-
+  Widersprüche, keine Do/Don't-Blöcke verändert (alle Funde Einzelbelege). QUESTIONS-Runde 260727b
+  (5 Fragen). `build_dna.py` gelaufen. Report `outputs/2026-07-27b_fidelity.md`.
 - **2026-07-27 — `twin-fidelity-review` (Gesamt-Fidelity ~86).** Frische Session ohne Vorwissen.
   M365-MCP-Tool in dieser Session nicht verfügbar, direkter Zugriff über die **M365-CLI via Bash**
   (`m365 request` gegen Microsoft Graph, Certificate-Auth war bereits aktiv) statt des sonst genutzten

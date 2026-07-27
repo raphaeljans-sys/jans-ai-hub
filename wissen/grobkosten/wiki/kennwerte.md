@@ -2,7 +2,7 @@
 title: Grobkosten-Kennwerte (CHF/m³ GV, BKP 1–5)
 status: emerging
 last_updated: 2026-07-27
-sources: [skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md, wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro, raw/2414-thalwil.md, raw/2518-grubenackerstrasse.md, raw/2515-wartstrasse.md, raw/2202-ackersteinstrasse.md, raw/2304-reckholdern.md, raw/kennwerte-jans-referenzdokument.md, raw/8155-niederhasli-seestrasse64.md, raw/2001-haus-deuber-thalwil.md, raw/2411-wald-haselstudstrasse.md, raw/2412-ebmatingen-grossacher.md, raw/2305-waedenswil-precheck.md]
+sources: [skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md, wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro, raw/2414-thalwil.md, raw/2518-grubenackerstrasse.md, raw/2515-wartstrasse.md, raw/2202-ackersteinstrasse.md, raw/2304-reckholdern.md, raw/kennwerte-jans-referenzdokument.md, raw/8155-niederhasli-seestrasse64.md, raw/2001-haus-deuber-thalwil.md, raw/2411-wald-haselstudstrasse.md, raw/2412-ebmatingen-grossacher.md, raw/2305-waedenswil-precheck.md, raw/2620-albertstrasse.md, raw/zuercher-index-wohnbaukosten-1939-2025.md]
 links: []
 ---
 
@@ -196,6 +196,58 @@ stattdessen die belegten **m²-NF-Kennwerte (Wüest Partner)** aus dem Skill `ko
 
 Grobe Faustregel über Reduktionsfaktoren des Neubau-m³-Werts (Eingriffstiefe). Für belastbare
 Umbau-Schätzungen den Skill `kostenschaetzung` (Reduktionsfaktoren) heranziehen.
+
+**Erster realer Umbau-Einzelfall (Run 8, 27.07.2026):**
+
+| Projekt | Bezug | Kennwert | Kaveat | Reife |
+|---|---|---|---|---|
+| 2620 Albertstrasse 7 (Umnutzung Bestand, Dachausbau-Variante) | Umbauvolumen 350 m³ (Maisonette-Umwandlung, gehobener Wohnstandard) | 2'500 CHF/m³ | GKS-Budget-Annahme Projektpflichtenheft (±25 %, keine Unternehmerofferten), GV-Herkunft nicht dokumentiert (nicht SIA-416-verifiziert), Preisstand 07.03.2026, Bauherrschaft Nova Property Fund Management AG | Einzelfall n=1 |
+
+Deutlich über dem Neubau-Seed-Band, plausibel für eine Umbau-/Umnutzungsvariante (Dachausbau
+mit Bestandes-Erschwernissen statt Neubau auf freiem Baufeld) — kein Widerspruch, sondern
+erster Beleg dafür, dass Umbau/Sanierung eigene, höhere Kennwerte braucht statt eines simplen
+Reduktionsfaktors auf den Neubau-Wert. Details: `raw/2620-albertstrasse.md` (Dokument 1,
+Variante 3). Aus demselben Projekt zusätzlich eine reale, unternehmerofferten-gestützte
+BKP-Einzelposition-Referenz (KV Direktvermietung light, CHF 386'021 exkl. MwSt., ohne
+Bezugsgrösse) — nicht in Kennwerte-Tabelle übernommen, siehe `raw/2620-albertstrasse.md`
+Dokument 2.
+
+## Baupreisindex ZH (Teuerungs-Normalisierung, Stufe 4)
+
+**Belegter, verketteter Index gefunden (Run 8, 27.07.2026):** Der «Zürcher Index der
+Wohnbaukosten» (Stadt Zürich, Erhebung seit 1939) wird von mehreren Verbänden mit den
+jeweiligen Rebasierungspunkten weitergeführt und publiziert. Die von `IMMO - 03 KNOW-HOW/06
+Schaetzungen/schaetzungsanleitung_kap5.pdf` (Stand 2003, bricht bei 01.04.2004 ab) offen
+gelassene Frage — lässt sich die Reihe auf einen aktuellen Stichtag verketten — ist damit
+**gelöst**: eine bis 01.04.2025 fortgeführte Fassung derselben Quelle (Publisher HEV Kt.
+Schwyz, Stand 01.01.2026, `raw/zuercher-index-wohnbaukosten-1939-2025.md`) schliesst nahtlos
+an (identische Werte bis 2004: 907.6 auf Basis 1939=100) und führt die Reihe bis 01.04.2025
+weiter, mit Rebasierungspunkten 1939/1966/1977/1988/1998/2005/2010/2017/2020/2021/2022/2023/2024.
+
+**Kumulierte Bauteuerung (Zürcher Index Wohnbaukosten), fertig nutzbare Faktoren:**
+
+| Von (Preisstand) | Bis 01.04.2025 | Faktor | Zuschlag |
+|---|---|---|---|
+| 01.04.2004 | 01.04.2025 | 1210.4 / 907.6 | +33.4 % |
+| 01.04.2020 | 01.04.2025 | 115.8 / 100.0 | +15.8 % |
+| 01.04.2022 | 01.04.2025 | 107.2 / 100.0 | +7.2 % |
+| 01.04.2023 | 01.04.2025 | 101.6 / 100.0 | +1.6 % |
+| 01.04.2024 | 01.04.2025 | 101.1 / 100.0 | +1.1 % |
+
+Neuster in dieser Quelle enthaltener Stand ist 01.04.2025 (Publikation Juni/Juli, ein
+01.04.2026-Wert lag zum Abrufzeitpunkt 27.07.2026 in dieser Quelle noch nicht vor). Für einen
+Wert mit Preisstand X: Faktor = Index(01.04.2025) / Index(Preisstand X) auf derselben
+Rebasierungs-Spalte ablesen (Details/volle Tabelle: `raw/zuercher-index-wohnbaukosten-1939-2025.md`).
+Deckt sich grössenordnungsmässig mit dem bereits geführten BFS-Baupreisindex-Cross-Check
+(12.07.2026, ~1 %/Jahr, moderat) — zwei unabhängige Quellen, kein Widerspruch.
+
+**Anwendung (ab sofort möglich, in diesem Lauf noch nicht auf alle Einzelfälle angewendet):**
+Die in dieser KB geführten Einzelfälle mit Preisstand vor 2025 (z.B. Reckholdern 12/2023,
+Haus Deuber 10/2020, Wald/Niederhasli 07/2025) können mit obiger Tabelle auf einen
+gemeinsamen Stichtag (z.B. 01.04.2025 oder laufender Preisstand) normalisiert werden, sobald
+eine Median-Bildung ansteht — bisher unterbleibt die Normalisierung, weil die Median-Bildung
+selbst noch an anderen offenen Fragen hängt (Standard-Klassifikation, BKP-1-9-vs-1-5, siehe
+`wiki/QUESTIONS.md`).
 
 ## Umrechnung Baumasse → Gebäudevolumen
 
