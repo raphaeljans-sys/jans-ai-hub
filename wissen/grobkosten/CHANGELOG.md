@@ -1,5 +1,33 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-27 — Trainings-Run 10 (fünfte/sechste/siebte Quelle: `AR - 02/04/05` gesichtet)
+
+- Kollisionscheck via `ps`/`PPID`-Abgleich: einziger Treffer war die eigene Parent-Instanz,
+  keine echte Zweitinstanz auf diesem Host.
+- Gemäss Empfehlung aus Run 9 (`wiki/QUESTIONS.md`) die drei letzten aus Run 5 benannten,
+  bisher ungeprüften SharePoint-Bibliotheken gesichtet: `AR - 02 Wettbewerbe`,
+  `AR - 04 Honorarauftraege`, `AR - 05 Transfer` (`find -iname "*kosten*"` direkt in der
+  Hauptsession, keine Delegation an Background-Subagents — Memory-Feedback aus früheren
+  Läufen: Background-Subagents stallen auf OneDrive-Pfaden).
+- **Neuer Rohbeleg:** 2105 Steinkogler, Haus «Le Mélèze» Davos (`AR - 04 Honorarauftraege`)
+  → `raw/2105-steinkogler-davos.md`. Reale, in sich konsistente Grobkostenschätzung (Stand
+  11.06.2021) mit Korrespondenz, aber Eingriffstiefen-Bandbreiten S/M/L/XL statt GV x
+  Kennwert — kein einziger m³/GV-Bezug im Dokument. Nicht in `wiki/kennwerte.md` promoviert
+  (fehlende Bezugsgrösse, nicht rechnerisch ergänzt). Nebenbefund: drittes Beispiel für das
+  Muster "Fliesstext-Vergleichswert weicht vom tatsächlich gerechneten Wert ab"
+  (CHF 2'000.-/m² GF im Text vs. CHF 2'600.-/m² GF in der Rechnung).
+- `AR - 02 Wettbewerbe`: nur bereits bekanntes totes GKS-Template (2408 WB BIWAK, Dublette
+  der Run-6-Nebenbefund-Familie) und externe Wettbewerbsabgabe-Formulare ohne eigene Zahlen.
+  `AR - 05 Transfer`: einziger Treffer ist ein generischer Webseiten-Ausdruck zur
+  eBKP-H-Methodik ohne Projektbezug. Beide `[-]` nicht verwertbar.
+- Register nachgeführt: `training/quellen-inventar.md` (Run-10-Abschnitt),
+  `wiki/QUESTIONS.md` (neuer Eintrag, Frage 1/2 weiterhin offen), `raw/_INGESTED.md`,
+  `wiki/INDEX.md`. Lauf-Report: `outputs/2026-07-27_grobkosten-run10.md`.
+- Damit sind alle fünf in Run 5 benannten Bibliotheken (`AR - 02/03/04/05`, `IMMO -
+  01/02/03/05/06`) gesichtet. Empfehlung für Run 11: letzte offene `AR`-Bibliothek
+  (`AR - 06 Referenzen`) kurz prüfen; danach ist eine Rückfrage an Raphael zu Frage 1/2
+  sinnvoller als ein weiterer Bibliotheks-Sweep.
+
 ## 2026-07-27 — Trainings-Run 9 (Teuerungs-Normalisierung angewendet, kein neuer Projektordner)
 
 - Kollisionscheck via `ps`/`PPID`-Abgleich: einziger Treffer war die eigene Parent-Instanz,
