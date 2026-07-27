@@ -30,6 +30,80 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-07-28 01:07 — [FREI] Ein DRITTER Taktgeber gefunden: zwei launchd-Jobs auf dem Mac Mini feuern Trainings-Loops an Registry UND Runner vorbei — `training-plg` (27x Delta Null in Folge) abgeschaltet
+
+**Selbstkontrolle:** letzter Eintrag 27.07. 22:15/22:25, dieser Lauf 01:07 — rund 2,7 h Abstand
+bei 3-h-Takt. Keine verpassten Laeufe, die Aufsicht hat wieder Herzschlag.
+
+**Fensterzustand: FREI.** Wichtig zur Methode: die Probe `claude -p` schlaegt **ohne** die
+Runner-Anmeldung mit «OAuth session expired» fehl, **mit** ihr (`. ~/.jans-dispatch.env`) antwortet
+sie «OK». Der Runner-Pfad ist also intakt — der Ablauf betrifft nur die interaktive Sitzung. **Kein
+P1-Login-Blocker, keine Mail.** Wer kuenftig hier probt, muss die Env laden, sonst meldet der Radar
+einen Blocker, den es nicht gibt.
+
+**Durchsatz: hoch.** 52 Commits in 6 h, 12 in den letzten 90 Minuten. Produktiv in dieser Nacht:
+baurecht Run 69 (drei Zitierfehler gefunden), wissens-chef Run 17+18, energie Run 117, normen
+Run 35, twin-mail Batch 79, twin-fidelity 27l, planungsgrundlagen Run 92 + Nachaudit. Das
+Registry-/Nachtschicht-Regime traegt die Last also durchaus — der Wegfall des Endlos-Runners hat
+den Hub nicht lahmgelegt.
+
+**P1 — der eigentliche Befund: es gibt einen DRITTEN Feuermechanismus, und niemand hatte ihn auf
+dem Radar.** Der Eintrag von gestern 22:25 haelt fest, auf dem Mac Mini laufe kein Training mehr
+(alle Registry-Tasks `enabled: false`, Runner via `STOP-Macmini` gestoppt). **Das ist faktisch
+falsch.** Auf dem Mini stehen zwei geladene launchd-Jobs:
+
+- `ch.jans.training-plg` — taeglich 00:30
+- `ch.jans.training-energie` — taeglich 22:30
+
+Beide rufen `scripts/cron-training-mini.sh` → `dispatch-run.sh` → `claude -p` mit **25 USD** Budget
+(Standard-Deckel ist 5). Sie lesen weder die Registry noch das SKILL.md-Frontmatter noch die
+STOP-Dateien. Genau deshalb sind energie Run 117 (22:30) und planungsgrundlagen Run 92 (00:30)
+heute Nacht gelaufen, obwohl beide Loops seit dem 26.07. als stillgelegt gelten. Rule 260727 spricht
+von zwei auseinanderlaufenden Wahrheiten (Registry ↔ Runner-Frontmatter) — es sind **drei**.
+Erschwerend: der Kopf von `cron-training-mini.sh` nennt sich selbst eine Uebergangsloesung
+(«bis die App-Tasks interaktiv umgetaktet sind», Entfernung vorgesehen ab 11.08.). Die App-Tasks
+**sind** seit dem 26.07. umgetaktet — die eigene Endbedingung der Bruecke ist erfuellt, nur hat sie
+niemand vollzogen.
+
+**Ausgefuehrt (Leerlauf-Waechter, Auftrag Raphael 27.07.):** `ch.jans.training-plg` abgeschaltet —
+`launchctl bootout` plus Umbenennung der plist nach `ch.jans.training-plg.plist.disabled-260728`.
+Begruendung: der Loop meldet **27 Erschoepfungsbestaetigungen in Folge (Run 67–92)** ohne genuinen
+Fund und empfiehlt seit drei Laeufen selbst die Ruecktaktung; die Schwelle des Auftrags liegt bei 5.
+**Reaktivierung:** plist zurueckbenennen und `launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/ch.jans.training-plg.plist`
+— sobald neues Rohmaterial in den PL-Ordnern liegt oder ein Vollinventar-Lauf ansteht (siehe P2).
+**`ch.jans.training-energie` bewusst NICHT angetastet:** Run 117 hat vier neue Themenfelder und
+F172–F177 geliefert, das ist kein Leerlauf.
+
+**P2 — der Loop hat seine eigene Methodenkritik geliefert, und sie ist richtig.** Der Frischecheck
+arbeitet mit `find -newer` und kann damit **strukturell keine Datei finden, die von Anfang an nie
+gelesen wurde**. Genau das hat der Nachaudit derselben Nacht bewiesen: ein Vollinventar ueber alle
+153 Dateien in `PL - 03 Brandschutz` foerderte drei nie gelesene Bohlweg-Dokumente vom Maerz 2025
+zutage und daraus die neue offene Fachfrage C40 (muessen bei einer Transformation EFH → MFH alle
+Bauteile die Brandschutzanforderungen erfuellen oder nur die neuen?). Der taegliche Delta-Check war
+also 27x blind, ein quartalsweiser Vollinventar-Abgleich findet sofort etwas. **Empfehlung:** den
+abgeschalteten Tageslauf durch einen quartalsweisen Vollinventar-Lauf ersetzen (naechster faellig
+Ende Oktober 2026). Nicht selbst als Task angelegt — ein Termin drei Monate voraus gehoert in
+Raphaels Entscheid ueber die kuenftige Loop-Landschaft, nicht in eine Nacht-Massnahme.
+
+**P3 — Qualitaetssignal, kein Leerlaufsignal.** Der `wissens-chef` hat in Run 18 **fuenf materielle
+Fehler** im energie-Material von Run 117 gefunden, eine Stunde nach dessen Entstehung (u.a.
+70-%-Kurzschluss auf § 295 Abs. 2 PBG, falscher Kantonskatalog Solarpflicht, § 30a BBV I aus zweiter
+Hand). Das spricht fuer die Cross-KB-Aufsicht und gegen das Tempo der Intensiv-Laeufe: der
+25-USD-Lauf produziert schneller, als die Verifikation nachkommt. Beobachten, noch keine Massnahme.
+
+**Unveraendert:** beide Endlos-Runner bleiben gestoppt (Grund dokumentiert und sachlich richtig,
+STOP-Dateien nicht angetastet); twin-mail, twin-fidelity, normen und baurecht-buch laufen ueber
+ihre Registry-Takte produktiv; operative Briefings/Monitore nicht beruehrt. Der offene Entscheid
+vom 27.07. (bekommt die frei gewordene Kapazitaet neue, materialgetriebene Arbeit?) liegt weiter
+bei Raphael — dieser Eintrag liefert mit dem Vollinventar-Befund ein erstes konkretes Beispiel
+dafuer, wie solche Arbeit aussieht.
+
+**Kein Mail-Versand:** kein P1-Blocker, den nur Raphael loesen kann (der Runner-Login ist intakt),
+kein erschoepftes Wochenkontingent. Die abgeschaltete plg-Bruecke ist eine Massnahme im Mandat, kein
+Meldefall.
+
+---
+
 ## 2026-07-27 22:15 — [FREI] Der Endlos-Runner hat auf BEIDEN Stationen keine Arbeit mehr — VOLLGAS ist faktisch zu Ende; veralteter MacBook-Runner (2 Tage alte Konfiguration) beendet, der jede Taktentscheidung Raphaels unterlief
 
 **Selbstkontrolle — die Aufsicht war 48 h blind.** Letzter Eintrag hier: 25.07. 21:55. Der Radar

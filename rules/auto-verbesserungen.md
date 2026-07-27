@@ -26,8 +26,27 @@ Konzept: `docs/konzepte/260719-Kontext-Diaet-Token-Reduktion/`).
   Wochenkontingent leer (26.07. 00:53 bis 27.07. 12:00 Totalausfall auf beiden Stationen,
   ~4'700 Fehlversuche, Morgenbriefing 27.07. ausgefallen). Zusatz: ein laufender Runner-Prozess
   haelt `EXCLUDE_RE` **im Speicher** — Filteraenderungen wirken erst nach Prozess-Neustart.
+- **Nachtrag 28.07.2026 — es sind DREI Orte, nicht zwei.** Auf dem Mac Mini existiert ein dritter,
+  bis dahin unbemerkter Feuermechanismus: geladene **launchd-Jobs** in `~/Library/LaunchAgents`
+  (`ch.jans.training-plg` taeglich 00:30, `ch.jans.training-energie` taeglich 22:30), die ueber
+  `scripts/cron-training-mini.sh` → `dispatch-run.sh` → `claude -p` mit **25 USD** Budget feuern
+  (Standard-Deckel 5). Sie lesen weder Registry noch SKILL.md-Frontmatter noch die STOP-Dateien.
+  Deshalb liefen `planungsgrundlagen` (Run 92) und `energie` (Run 117) in der Nacht auf den 28.07.,
+  obwohl beide seit 26.07. als stillgelegt galten und `STOP-Macmini` das Gegenteil behauptete.
+  **Jede Deaktivierung/Ruecktaktung ist erst vollzogen, wenn alle DREI Orte nachgezogen sind:
+  Registry · Runner (`EXCLUDE_RE`/Frontmatter) · launchd-Jobs.** Vollzug 28.07.: `training-plg`
+  per `launchctl bootout` + plist-Umbenennung abgeschaltet (27 Delta-Null-Laeufe in Folge, Run
+  67–92); `training-energie` bewusst aktiv gelassen (produktiv). `cron-training-mini.sh` nennt sich
+  im Kopf selbst eine Uebergangsbruecke, deren Endbedingung («bis die App-Tasks umgetaktet sind»)
+  seit dem 26.07. erfuellt ist — solche selbstgesetzten Endbedingungen muessen aktiv vollzogen
+  werden, sie verfallen nicht von allein.
+- **Nachtrag 28.07.2026 — Kontingent-Probe immer MIT der Runner-Anmeldung.** Eine Probe
+  `claude -p … --model haiku` ohne geladene `~/.jans-dispatch.env` schlaegt mit «OAuth session
+  expired» fehl, obwohl der Runner-Pfad intakt ist (interaktive Sitzung ≠ Runner-Token). Vor jeder
+  Blocker-Diagnose zuerst `set -a; . "$HOME/.jans-dispatch.env"; set +a` — sonst meldet die Aufsicht
+  einen P1-Login-Blocker, den es nicht gibt.
 - **Gilt fuer:** beide Stationen, jede Aenderung an Loop-Takt oder Loop-Status, `vollgas-runner.sh`,
-  `vollgas-chef-radar` (Leerlauf-Waechter), `vollgas-fruehwarnung`.
+  `vollgas-chef-radar` (Leerlauf-Waechter), `vollgas-fruehwarnung`, launchd-Jobs `ch.jans.training-*`.
 
 ## 260727 — Leerlauf-Waechter: Delta-Null-Loops werden abgeschaltet, nicht weitergefahren
 - **Regel:** Meldet ein Lern-Loop **3x in Folge** sinngemaess «nichts Neues / keine Datei

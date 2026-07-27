@@ -58,7 +58,15 @@ PAUSE_BETWEEN="${VOLLGAS_PAUSE:-30}"        # Sekunden zwischen zwei Laeufen
 LIMIT_BACKOFF="${VOLLGAS_LIMIT_BACKOFF:-900}" # Sekunden Warten bei Limit/Ueberlast
 
 # Whitelist: nur Lern-/Trainings-Loops (nie operative Briefings/Checks)
-INCLUDE_RE='training|normen|twin|wettbewerb|spec|immob|synobsis|energie|planungsgrundlagen|batch'
+INCLUDE_RE='training|normen|twin|wettbewerb|spec|immob|synobsis|energie|planungsgrundlagen|batch|destillat'
+# `destillat` 28.07.2026 aufgenommen (Entscheid Raphael): der Runner bekommt mit
+# `wissens-destillat` seine erste EIGENE Lern-Aufgabe. Das beantwortet die offene
+# Grundsatzfrage aus logbuch/vollgas/FRUEHWARNUNG.md vom 27.07.2026 — der Runner wird
+# nicht ausgebaut, sondern bekommt die Arbeit, fuer die er gedacht ist: einen Loop OHNE
+# eigenen Takt. Der Task `wissens-destillat` ist bewusst AD-HOC angelegt (kein
+# cronExpression) — damit gibt es keinen zweiten Taktgeber (Rule 260727) und der Runner
+# bleibt der einzige Feuermechanismus. Der Loop endet von selbst, wenn die Korpus-Queue
+# abgearbeitet ist (er meldet dann «KORPUS-QUEUE KOMPLETT» und bittet um Stilllegung).
 # VOLLGAS reaktiviert 25.07.2026 (ausdrueckliche Anweisung Raphaels, hebt die
 # Drossel-Regimes 260713/260714 auf): alle Lern-/Trainings-Loops zyklieren
 # wieder im Endlos-Zyklus. Nur operative Briefings/Monitore bleiben aussen vor.

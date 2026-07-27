@@ -24,3 +24,33 @@ aktiv geschaltet ist (Frontmatter `enabled: true`). Danach:
 
 Der Mac Mini traegt weiterhin ueber seine App-Scheduled-Tasks bei; nur der
 Endlos-Runner ruht.
+
+--------------------------------------------------------------------------
+KORREKTUR 28.07.2026 01:07 (vollgas-chef-radar): Der Satz oben, der Mac Mini
+trage "weiterhin ueber seine App-Scheduled-Tasks bei", ist unvollstaendig und
+in der Sache irrefuehrend. Neben Registry und Endlos-Runner existiert ein
+DRITTER Feuermechanismus, den weder die Registry noch die STOP-Dateien
+erreichen: zwei geladene launchd-Jobs, die ueber cron-training-mini.sh ->
+dispatch-run.sh -> claude -p mit 25 USD Budget feuern.
+
+  ch.jans.training-plg       taeglich 00:30   -> ABGESCHALTET 28.07.2026
+  ch.jans.training-energie   taeglich 22:30   -> laeuft weiter (produktiv)
+
+Sie sind der Grund, weshalb planungsgrundlagen (Run 92) und energie (Run 117)
+in der Nacht auf den 28.07. gelaufen sind, obwohl beide Loops seit dem 26.07.
+als stillgelegt galten.
+
+ABGESCHALTET wurde nur ch.jans.training-plg: 27 Erschoepfungsbestaetigungen in
+Folge (Run 67-92), Schwelle des Leerlauf-Auftrags liegt bei 5. Vollzug per
+launchctl bootout, plist umbenannt nach
+  ~/Library/LaunchAgents/ch.jans.training-plg.plist.disabled-260728
+Reaktivierung: zurueckbenennen und
+  launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/ch.jans.training-plg.plist
+
+ch.jans.training-energie bleibt bewusst aktiv (Run 117 lieferte vier neue
+Themenfelder, kein Leerlauf).
+
+MERKE fuer jede kuenftige Takt- oder Stilllegungsentscheidung auf dem Mini:
+es sind DREI Orte nachzuziehen, nicht zwei -- Registry, Runner-Frontmatter/
+EXCLUDE_RE UND die launchd-Jobs in ~/Library/LaunchAgents.
+--------------------------------------------------------------------------
