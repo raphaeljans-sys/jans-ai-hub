@@ -234,7 +234,8 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Schlauch / einmaschig 60 m** § 16 FeuerwehrV; Grundwasserschutzzonen S1/S2/S3), **Energieversorgung**
   (zwingende Erschliessungsvoraussetzung Art. 19 RPG; Energieplanung §§ 8a/9-13 EnerG), **12.5
   Abwasserbeseitigung** (Trenn-/Mischsystem § 232 PBG/Art. 11 GSchG, **Kanalisationsanschluss-
-  bewilligung** Art. 17 GSchG, GEP § 8 KGSchV, Anschlussgebuehren). 14 Doppelseiten. Status:
+  bewilligung** Art. 17 GSchG, GEP § 8 KGSchV **[KGSchV LS 711.11 per 01.01.2022 aufgehoben,
+  Nachfolgeerlass noch nicht belegt — Buch-Run 69]**, Anschlussgebuehren). 14 Doppelseiten. Status:
   `emerging` (Rest 12.5 Gebuehren + Abfall/Kehricht + Altlasten Art. 32c USG, S. 770-809 → Teil 4
   offen). Speist [[baureife-und-erschliessung]].
 - [[12-baureife-teil4-gebuehren-abfall-altlasten]] — Kap. 12 Teil 4 / **Schluss** (S. 770-807):
@@ -252,7 +253,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Baurechts** — oeffentliches vs. privates Baurecht (§ 317 PBG: Privatrecht im ZH-Bewilligungs-
   verfahren grds. unbeachtlich), Kompetenzausscheidung Bund/Kantone (Art. 3/42/75 BV; RPG =
   Grundsatzgesetzgebung/Mindestanforderungen), Rechtsquellen (Verfassung/Konkordat/Gesetz/VO),
-  **SIA-Normen** (verbindlich nur wo verwiesen § 3 Abs. 12 BBV I, sonst «beachtlich» § 360 Abs. 3
+  **SIA-Normen** (verbindlich nur wo verwiesen — **§ 3 Abs. 1/2 BBV I i.V.m. Anhang Ziff. 1**, NICHT «§ 3 Abs. 12 BBV I», Fundstelle korrigiert Run 69; Anhang Ziff. 1.2/1.21 aufgehoben per 1.9.2022, SIA 181 heute Art. 32 Abs. 1 LSV; sonst «beachtlich» § 360 Abs. 3
   PBG), Auslegungs-/Verfassungsgrundsaetze (Gesetzmaessigkeit/**Verhaeltnismaessigkeit** geeignet-
   erforderlich-zumutbar Art. 5 Abs. 2/36 Abs. 3 BV/Treu+Glauben Art. 9 BV), Aufbau PBG (VII Titel;
   Titel IV «Oeffentliches Baurecht» §§ 218-328), Genehmigung/Publikation (§ 5 PBG, Art. 26 Abs. 3
@@ -473,7 +474,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
 | 23 | Glossar Architektur | 🟡 teilweise (Begriffe mit §-Belegen, S.1537-1549) |
 | 12 | Baureife | 🟢 vollstaendig (12.1-12.3 Baureife/planungsrechtl. Baureife §234/Zugaenglichkeit §§234-237 inkl. Anhang-ZN-Tabelle/Kehrplatz/Erleichterungen/OEV §237 Abs.1 Satz 2 + 12.3.6 Rechtl. Sicherung §237 Abs.4 + 12.4 Wasser/Energie §236/Loeschwasser §16 FeuerwehrV + 12.5 Abwasser GSchG/Kanalisationsanschluss + 12.6 Abfall/Kehricht Art.30-32b USG/VVEA + 12.7 Altlasten Art.32c/32d USG/AltlV/KbS + Anschlussgebuehren Art.60a GSchG, S.707-807) |
 | 18 | Brandschutz | ⬜ offen — nur Querverweis auf Skill `brandschutz` (kein Doppelaufbau) |
-| 1 | Grundlagen des Planungs- und Baurechts | 🟢 vollstaendig (oeff./privates Baurecht §317, Kompetenz Bund/Kantone Art.3/42/75 BV, Rechtsquellen, SIA-Normen §3 Abs.12 BBV I/§360 Abs.3 PBG, Verhaeltnismaessigkeit/Treu+Glauben, Aufbau PBG VII Titel, S.80-110) |
+| 1 | Grundlagen des Planungs- und Baurechts | 🟢 vollstaendig (oeff./privates Baurecht §317, Kompetenz Bund/Kantone Art.3/42/75 BV, Rechtsquellen, SIA-Normen **§3 Abs.1/2 BBV I + Anhang Ziff.1**/§360 Abs.3 PBG, Verhaeltnismaessigkeit/Treu+Glauben, Aufbau PBG VII Titel, S.80-110; Modell D Run 69: 3 Zitierfehler korrigiert) |
 | 2 | Raumplanung, Richt- und Nutzungsplanung | 🟢 weitgehend (Teil 1 Raum-/Richtplanung S.112-143 + Teil 2 Zonenarten/numerus clausus §48 Abs.2 S.144-169 + Teil 3 Sondernutzung/Gestaltungsplan §§83-89/§48 Abs.3/§49b + Verfahren Nutzungsplanung S.170-204; nur BZO-Grundlagen/Arealueberbauung-Anfang S.152-169 nicht im Screenshot-Set) |
 | 3 | Erschliessung, Landsicherung, Landumlegung | 🟢 vollstaendig (Teil 1: Begriff/Arten Erschliessung, 15-J-Erschliessungspflicht Art.19 RPG, Erschliessungsplan §§90-95/§93, Baulinien §§96 ff./Niveaulinien §106, Werkplan §§114-119, vorsorgl. Bauverbot §§120-122, StrG-Mehrwertbeitraege §62, S.208-239 + Teil 2: Quartierplan §§123 ff./amtlich §158 vs. privat §160a/Verfahren §§147-159/Umlegung §§137-145/Vollzug §§161-176/Heimschlag §165/Grenzbereinigung §§178-183/Gueterzusammenlegung §§76-94 LG, S.240-265) |
 | 10 | Widerrechtliche Bauten und deren Sanktionierung | 🟢 vollstaendig (formelle/materielle Widrigkeit, Wiederherstellung §341 PBG, 30-J-Verwirkung, vorsorgl. Massnahmen §339 Abs.2/§6 VRG, Vollstreckung §30 VRG, Strafe §340 PBG Busse bis 50'000, S.609-636 = letzte Sektion Band 1) |

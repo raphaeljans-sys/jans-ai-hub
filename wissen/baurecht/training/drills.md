@@ -593,12 +593,16 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
 - **F:** Bindet ein privatrechtliches Wegrecht/Bauverbotsservitut die Baubehoerde im Kanton Zuerich? —
   **A:** **Nein.** Privates Recht bleibt im baurechtlichen Bewilligungsverfahren grundsaetzlich
   **unberuecksichtigt** (§ 317 PBG); es ist auf dem **Zivilweg** (Bezirksgericht) durchzusetzen.
-  Umgekehrt entbindet die Baubewilligung nicht vom Nachbarrecht (Art. 679 Abs. 2 ZGB). (Bd 1, S. 82 f.) _[2026-06-30]_
+  Umgekehrt entbindet die Baubewilligung nicht vom Nachbarrecht (**Art. 679 Abs. 1** i.V.m.
+  Art. 684 ZGB — **korrigiert Run 69**: frueher stand hier Abs. 2, der genau umgekehrt eine
+  Anspruchs*beschraenkung* ist). (Bd 1, S. 82 f.) _[2026-06-30, korr. 2026-07-28]_
 - **F:** Sind SIA-Normen verbindliches oeffentliches Recht? — **A:** Als Ganzes **nein**. Drei Stufen:
-  **verbindlich**, wo ausdruecklich erklaert (§ 3 Abs. 12 BBV I, z.B. SIA 181 Schallschutz);
+  **verbindlich**, wo ausdruecklich erklaert — Mechanismus **§ 3 Abs. 1/2 BBV I i.V.m. Anhang
+  Ziff. 1** (**korrigiert Run 69**: «§ 3 Abs. 12 BBV I» existiert nicht; und Anhang Ziff. 1.2/1.21
+  sind per 1.9.2022 aufgehoben, SIA 181 wirkt heute ueber **Art. 32 Abs. 1 LSV**);
   **beachtlich**, vom RR fuer massgeblich erklaert — Abweichung nur «aus **wichtigen Gruenden**»
-  (§ 360 Abs. 3 PBG); **weitere** Normen = Ausdruck der gebotenen Sorgfalt (SIA 358, VSS SN 640 291a).
-  (Bd 1, S. 84-86) _[2026-06-30]_
+  (§ 360 Abs. 3 PBG); **weitere** Normen = Ausdruck der gebotenen Sorgfalt (SIA 358, VSS 40 291).
+  (Bd 1, S. 84-86) _[2026-06-30, korr. 2026-07-28]_
 - **F:** Wie weit darf sich eine Bauzone erstrecken? — **A:** Hoechstens ueber den **voraussichtlichen
   Bedarf von 15 Jahren** (Art. 15 Abs. 1 RPG; § 18 lit. b PBG; Art. 75 Abs. 1 BV). (Bd 1, S. 114) _[2026-06-30]_
 - **F:** Ist der kantonale Richtplan grundeigentuemerverbindlich? — **A:** **Nein** — nur
@@ -2402,3 +2406,53 @@ durchgeführt und korrigiert. Status **emerging → established** angehoben, ers
 ausgerufen** (Leitplanke Run 48: Daueraufgabe) — **nächster Schritt:** verbleibende zwei nie
 verifizierte `emerging`-Artikel ([[enteignung-und-entschaedigung]],
 [[grundlagen-planungs-baurecht]]) als nächste Priorität-(c)-Kandidaten.
+
+---
+
+## Buch-Run 69 (2026-07-28) — Modell-D-Erstverifikation [[grundlagen-planungs-baurecht]] + Fassungsstand BBV-I-Anhang / KGSchV
+
+- **F (Modell D):** Ein Nachbar sagt: «Eure Baubewilligung nützt nichts, ich habe
+  privatrechtliche Ansprüche — Art. 679 Abs. 2 ZGB.» Stimmt die Norm? — **A:** **Nein, er
+  zitiert gegen sich selbst.** Art. 679 **Abs. 1** ZGB gibt den Anspruch auf Beseitigung/Schutz/
+  Schadenersatz, wenn ein Grundeigentümer sein Eigentumsrecht überschreitet — das ist die
+  Grundlage dafür, dass eine Baubewilligung nicht vom Nachbarrecht entbindet. **Abs. 2** ist
+  umgekehrt eine **Beschränkung**: «Entzieht eine Baute oder eine Einrichtung einem
+  Nachbargrundstück bestimmte Eigenschaften, so bestehen die vorstehend genannten Ansprüche
+  **nur**, wenn bei der Erstellung der Baute oder Einrichtung die damals geltenden Vorschriften
+  **nicht** eingehalten wurden» (Fedlex SR 210, Stand 01.01.2026; eingefügt per 1.1.2012,
+  AS 2011 4637). Für den Entzug von Aussicht/Licht/Besonnung gilt also: **regelkonform gebaut =
+  kein Anspruch**. Merksatz: Abs. 1 öffnet, Abs. 2 schliesst. Diese KB führte die Norm bis
+  Run 69 mit invertierter Polarität. _[2026-07-28]_
+
+- **F (Modell D / Fassungsstand):** «SIA 181 ist im Kanton Zürich verbindlich erklärt — § 3
+  Abs. 12 BBV I.» Zwei Fehler. Welche? — **A:** (1) **Formal:** § 3 BBV I hat **vier** Absätze;
+  einen Abs. 12 gibt es nicht. Der Mechanismus steht in § 3 **Abs. 1/2** BBV I: verbindlich ist,
+  was der **Anhang Ziff. 1** («Als Verordnungsbestimmungen gelten») nennt — die Ziffer 1.2 wurde
+  zu «Abs. 12» verlesen. (2) **Materiell:** Anhang Ziff. 1.2/1.21 sind **aufgehoben** (RRB vom
+  8. Juni 2022, OS 77, 378, in Kraft seit **1.9.2022**, Fn. 84); im geltenden Anhang Ziff. 1 steht
+  nur noch Ziff. 1.11 «Wärmedämmvorschriften der Baudirektion», **SIA 181 kommt dort nicht mehr
+  vor**. Geltende Grundlage ist heute Bundesrecht: **Art. 32 Abs. 1 LSV** (Mindestanforderungen
+  nach SIA 181 als «anerkannte Regeln der Baukunde»), kantonal verweist § 13 BBV I pauschal aufs
+  USG. Lehre: eine Verbindlicherklärung ist immer **zweiteilig** (Verweisnorm + Anhangsziffer) —
+  beide Teile altern getrennt. _[2026-07-28]_
+
+- **F (Modell A):** Verhältnismässigkeit im PBG — in welchem Paragraphen steht das Musterbeispiel,
+  und wo stehen die Nebenbestimmungen? — **A:** Musterbeispiel ist **§ 220 Abs. 1 PBG**
+  (Randtitel «C. Ausnahmebewilligungen»): «Von Bauvorschriften ist im Einzelfall zu befreien,
+  wenn besondere Verhältnisse vorliegen, bei denen die Durchsetzung der Vorschriften
+  **unverhältnismässig** erscheint.» **Nebenbestimmungen** (Auflagen/Bedingungen/Befristungen)
+  stehen dagegen in **§ 321 PBG**. Diese KB hatte § 220 bis Run 69 als «Nebenbestimmungen»
+  etikettiert und falsch verlinkt — der Paragraph war als Verhältnismässigkeits-Beispiel richtig,
+  nur die Beschriftung falsch. Weitere Anwendungsfälle: § 205 PBG (Natur-/Heimatschutz), § 238
+  Abs. 1 PBG (Ästhetik, kein schöpferischer Spielraum, RB 1989 Nr. 36), § 328 PBG
+  (Fertigstellungsbefehl/Vollstreckung, BGer 1C_567/2014). _[2026-07-28]_
+
+- **F (Modell D / Fassungsstand):** Darf man den GEP heute noch mit «§ 8 KGSchV» belegen? —
+  **A:** **Nein.** Die Verordnung über den Gewässerschutz (KGSchV, **LS 711.11**) ist per
+  **01.01.2022 aufgehoben** (zhlex-Erlassseite der Staatskanzlei: Erlassdatum 22.01.1975,
+  Inkraftsetzung 01.07.1975, Aufhebungsdatum 01.01.2022; letzte Fassung Nachtrag 099). Sie fiel
+  damit über vier Jahre **vor** dem EG GSchG (aufgehoben per 01.06.2026 durch § 126 lit. a WsG).
+  Welcher Erlass sie 2022 ablöste, ist noch nicht belegt — die WsV (LS 724.11) enthält keine
+  Aufhebungsklausel zur KGSchV. Lehre: die Aufhebung eines Erlasses und die Aufhebung des
+  zugehörigen Ausführungserlasses passieren **nicht** zwingend gleichzeitig; beide Ebenen
+  einzeln prüfen. _[2026-07-28]_

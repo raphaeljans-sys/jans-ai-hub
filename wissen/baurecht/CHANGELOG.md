@@ -3,6 +3,55 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-28 — Buch-Run 69 (Festigungsmodus): [[grundlagen-planungs-baurecht]] erstverifiziert — 3 echte Zitierfehler, 1 Fassungsstand-Drift eine Ebene unter dem Erlass
+- **[korrektur, materiell] Art. 679 Abs. 2 ZGB war mit invertierter Polarität zitiert.** Der Artikel
+  begründete «eine Baubewilligung entbindet nicht von privatem Nachbarrecht» mit Abs. 2 und der
+  Aussage «Ansprüche können bestehen, auch wenn alle öffentlich-rechtlichen Vorschriften eingehalten
+  sind». Amtlich (Fedlex SR 210, ELI `24/233_245_233`, Stand 01.01.2026) ist Abs. 2 das Gegenteil, eine
+  **Anspruchs-Beschränkung**: beim Entzug von Eigenschaften bestehen die Ansprüche «**nur**, wenn …
+  die damals geltenden Vorschriften **nicht** eingehalten wurden» (eingefügt per 1.1.2012, AS 2011
+  4637). Die Regel trägt **Abs. 1** i.V.m. Art. 684 ZGB. Korrigiert in Wiki, Quell-Destillat
+  `buecher/band-1/01-grundlagen.md` und `training/drills.md`. Gleiches Kompressionsmuster wie
+  Art. 164 GBV in Run 67.
+- **[korrektur + fassungsstand, materiell] «§ 3 Abs. 12 BBV I» existiert nicht — und die gemeinte
+  Anhangsziffer ist seit 1.9.2022 aufgehoben.** § 3 BBV I hat vier Absätze; verbindlich erklärt wird
+  über **§ 3 Abs. 1/2 i.V.m. Anhang Ziff. 1**, die gemeinte **Ziff. 1.2** wurde bei der Ersterfassung
+  (Run 16) zu «Abs. 12» verlesen. **Anhang Ziff. 1.2/1.21 sind aufgehoben** (RRB vom 8.6.2022,
+  OS 77, 378, in Kraft seit 1.9.2022, Fn. 84); im geltenden Anhang Ziff. 1 steht nur noch Ziff. 1.11
+  «Wärmedämmvorschriften der Baudirektion», **SIA 181 fehlt dort ganz**. Geltende Grundlage ist heute
+  **Art. 32 Abs. 1 LSV** (Bundesrecht). Nachgezogen in Wiki, Destillat, `buecher/INDEX.md` (2 Stellen),
+  `wiki/INDEX.md`, `training/curriculum.md`, `training/drills.md`.
+- **[korrektur] § 220 PBG war als «Nebenbestimmungen» etikettiert.** Amtlich Randtitel «C.
+  Ausnahmebewilligungen»; Nebenbestimmungen regelt **§ 321 PBG**. Als Verhältnismässigkeits-Beispiel
+  war der Paragraph richtig, nur falsch beschriftet und falsch verlinkt. Auch im Destillat korrigiert
+  (samt Tippfehler «Ferdigstellungsbescheid» → «Fertigstellungsbefehl»).
+- **[praezisierung] § 318 PBG trägt die intertemporale Regel nicht.** Die Norm bezeichnet nur die
+  erstinstanzliche Entscheidbehörde («Die örtliche Baubehörde entscheidet über Baugesuche…»); der
+  Grundsatz ist Rechtsprechung (VB.2012.00734). Gleiches Kompressionsmuster wie § 253/§ 320 PBG in
+  Run 63; übrige Wiki-Fundorte führen § 318 korrekt (Sweep negativ).
+- **[praezisierung] Unangemessenheit instanzenscharf gefasst:** im Rekurs voller Rügegrund
+  (§ 20 Abs. 1 lit. c VRG), vor Verwaltungsgericht keine Angemessenheitskontrolle (§ 50 Abs. 2 i.V.m.
+  § 41 VRG), vor BGer nur Rechtsverletzung (Art. 95 BGG).
+- **[status] [[grundlagen-planungs-baurecht]] `emerging` → `established`**, erstmaliges
+  `verifiziert`-Feld. Damit trägt kein Wiki-Artikel dieser KB mehr ein fehlendes `verifiziert`-Feld.
+- **[beleg] KGSchV-Bring-Schuld beantwortet:** die **KGSchV (LS 711.11) ist per 01.01.2022 aufgehoben**
+  (zhlex-Erlassseite der Staatskanzlei: Erlassdatum 22.01.1975, Inkraftsetzung 01.07.1975,
+  Aufhebungsdatum 01.01.2022, letzte Fassung Nachtrag 099) — über vier Jahre vor dem EG GSchG.
+  Aufhebungsvermerke an 6 Fundorten gesetzt. **Offen:** welcher Erlass sie 2022 ablöste (die WsV
+  enthält keine Aufhebungsklausel zur KGSchV); § 92 WsV trägt die Erdwärme-Materie des § 35 KGSchV,
+  ist aber Indiz, nicht Aufhebungsbeleg.
+- **[beschaffung] P1 aus Wissens-Chef Run 18 geschlossen:** `raw/260728_amtlich_zh_wsg.md` (WsG,
+  LS 724.1, Nachtrag 133) und `raw/260728_amtlich_zh_wsv.md` (WsV, LS 724.11, Nachtrag 133) angelegt.
+  **§ 126 WsG am eigenen Volltext gegengelesen** — Aufhebung von EG GSchG und WWG jetzt KB-intern
+  belegt. Die zwei offenen §-Zuordnungen (§ 15 Abs. 3 / § 36 Abs. 2 EG GSchG) bleiben an beiden
+  Volltexten unauffindbar und ausdrücklich offen.
+- **[frage] Neu aufgeworfen:** ist SIA 380/1 noch «teilverbindlich»? Am geltenden BBV-I-Anhang nicht
+  mehr belegbar — Cross-KB-Frage an `energie`/`normen`.
+- **[drills]** 4 neue Karten. **[report]** `outputs/2026-07-28_buch-run69.md`.
+- **[leitplanke, neu]** Fassungsstand-Prüfung bei **Verweisnormen zweiteilig** führen: Erlass **und**
+  verwiesene Anhangsziffer altern getrennt. Ein Check auf Erlassebene hätte die BBV-I-Drift nicht
+  gefunden (BBV I selbst ist unverändert Nachtrag 133 in Kraft).
+
 ## 2026-07-27 — Wissens-Chef Run 18 (Cross-KB): Nachkontrolle des EG-GSchG-Sweeps — ein NEUER Fehler, ein offener Drittkanal, eine P1-Bringschuld
 - **[korrektur, materiell] Der Sweep hat sich selbst einen Fehler eingebaut.** Das **Frontmatter** von
   `buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md:7` ordnete die Abwasser-/Kanalisations-

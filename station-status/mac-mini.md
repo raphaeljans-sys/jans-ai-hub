@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 27.07.2026 23:44:41
+Stand: 27.07.2026 23:54:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 23:32)
@@ -12,4 +12,4 @@ Stand: 27.07.2026 23:44:41
 - 10 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 7e73835d baurecht: EG-GSchG-Nachzug abgeschlossen (letzte 3 von 17 Fundorten, Nachtschicht Mac Mini)
+- 8046d917 wissens-chef Run 18: Nachkontrolle EG-GSchG-Sweep (neuer Frontmatter-Fehler + offener Drittkanal), 70%-Kurzschluss PBG 295, 48c lit. c, Solarpflicht-Kantonskatalog, SIA 385/9, 30a BBV I — 7 bestaetigt / 3 widerlegt

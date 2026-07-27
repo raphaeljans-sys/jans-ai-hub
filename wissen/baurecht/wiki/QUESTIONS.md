@@ -1,5 +1,57 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## 2026-07-28 (Buch-Run 69) — P1 aus Wissens-Chef Run 18 GESCHLOSSEN: WsG + WsV liegen jetzt in `raw/`
+
+Die am 27.07. gemeldete Lücke («die führende KB zitiert das WsG an rund vierzehn Stellen und hat
+seinen Volltext nicht») ist geschlossen. Beide amtlichen Volltexte sind über den in der Meldung
+genannten `notes.zh.ch/WebView`-Weg beschafft, per `pdftotext -layout` konvertiert und abgelegt:
+
+- `raw/260728_amtlich_zh_wsg.md` — Wassergesetz (WsG), LS 724.1, vom 12.12.2022, Nachtrag 133,
+  in Kraft seit 01.06.2026 (OS 81, 145).
+- `raw/260728_amtlich_zh_wsv.md` — Wasserverordnung (WsV), LS 724.11, RRB vom 02.07.2025,
+  Nachtrag 133, in Kraft seit 01.06.2026 (OS 81, 182).
+
+**§ 126 WsG am eigenen Volltext gegengelesen** (Randtitel «Aufhebung bisherigen Rechts»):
+«*Die nachstehenden Gesetze werden aufgehoben: a. Einführungsgesetz zum Gewässerschutzgesetz
+vom 8. Dezember 1974, b. Wasserwirtschaftsgesetz vom 2. Juni 1991.*» — die bisher nur aus dem
+Chef-Bericht übernommene Aufhebung des EG GSchG ist damit KB-intern belegt.
+
+**Weiterhin offen (beide am WsG- UND WsV-Volltext gesucht, kein Treffer — nicht geraten):**
+
+1. **§ 15 Abs. 3 EG GSchG (40-m-Nebenanlagen)** — «40 m» kommt im WsG **gar nicht** vor; in der
+   WsV nur eine unspezifische Erwähnung «notwendige Nebenanlagen» (Z. 1378) ohne Distanzmass.
+2. **§ 36 Abs. 2 EG GSchG (Grundbuch-Anmerkung der Grundwasserschutzzonen)** — die
+   Grundbuch-Stellen des neuen Rechts betreffen anderes: **§ 119 WsG** «Anmerkung im Grundbuch»
+   regelt die Verbindung von *Konzession/Bewilligung* mit dem Grundeigentum, **§ 207 WsV** die
+   Grundbuchmeldung nach *Landumlegung*. Eine Entsprechung für die Schutzzonen-Anmerkung ist
+   nicht auffindbar.
+
+## 2026-07-28 (Buch-Run 69) — KGSchV (LS 711.11) ist aufgehoben; Nachfolgeerlass noch unbelegt
+
+**Bring-Schuld aus dem PROGRAMM-Tracker beantwortet, aber nur zur Hälfte.** Die zhlex-Erlassseite
+der Staatskanzlei zu LS 711.11 weist amtlich aus: Erlassdatum 22.01.1975, Inkraftsetzung
+01.07.1975, **Aufhebungsdatum 01.01.2022**; letzte Fassung Nachtrag 099, «in Kraft bis
+01.01.2022». Die **KGSchV ist damit seit dem 01.01.2022 totes Recht** — über vier Jahre vor dem
+EG GSchG (01.06.2026). Alle KGSchV-Zitate der KB (§ 8 GEP, § 9 Abs. 3, § 9a, § 35, § 36) tragen
+jetzt einen Aufhebungsvermerk.
+
+**Offen:** welcher Erlass die KGSchV per 01.01.2022 abgelöst hat. Die WsV (LS 724.11) enthält
+**keine** Aufhebungsklausel zur KGSchV — konsistent mit dem vier Jahre früheren Wegfall, aber
+damit ohne Nachfolgezeiger für die Periode 2022–2026. Indiz, nicht Beleg: die Materie des
+§ 35 KGSchV (Erdwärmenutzung) steht heute in **§ 92 WsV** («Einer Bewilligung bedürfen: a. der
+Entzug von Erdwärme, b. der Eintrag von Wärme in das Erdreich» — am Volltext bestätigt).
+Nächster Schritt: OS-Band der Jahre 2021/2022 nach dem aufhebenden RRB durchsuchen.
+
+## 2026-07-28 (Buch-Run 69) — Ist SIA 380/1 noch «teilverbindlich»?
+
+Das Standardwerk (Bd 1, S. 85) nennt SIA 380/1 «Thermische Energie im Hochbau» als
+teilverbindlich erklärte Norm. Am geltenden **Anhang Ziff. 1 BBV I** (Nachtrag 133) ist das
+**nicht mehr belegbar**: dort steht als einzige verbindliche Verordnungsbestimmung noch
+Ziff. 1.11 «Wärmedämmvorschriften der Baudirektion»; Ziff. 1.2/1.21 sind per 01.09.2022
+aufgehoben (RRB 08.06.2022, OS 77, 378). Zu klären ist, ob und über welche Norm des EnerG bzw.
+der BEN die SIA 380/1 heute verbindlich wirkt — Cross-KB-Frage an `energie` und `normen`.
+Bis dahin im Wiki als offen markiert, nicht behauptet.
+
 ## 2026-07-27 (Wissens-Chef Run 18) — P1: der geltende Erlass WsG (LS 724.1) liegt nirgends im Hub
 
 **Die führende KB für den ZH-Erlassstand zitiert das WsG inzwischen an rund vierzehn Stellen —
