@@ -34,6 +34,13 @@ belastbarsten Einzelfälle an (lineare Interpolation, keine Extrapolation über 
 hinaus) — Haus Deuber und Reckholdern normalisiert, Niederhasli/Albertstrasse unverändert
 (bereits aktuell). Zeigt: die Streuung zwischen den MFH-Fällen bleibt auch nach Preisstand-
 Korrektur bestehen — Frage 1 (BKP-1-9-vs-1-5) und Frage 2 (Standard-Klassifikation) sind der
-eigentliche Blocker für eine Median-Bildung, nicht der Preisstand.
+eigentliche Blocker für eine Median-Bildung, nicht der Preisstand. Run 10 sichtet die drei
+letzten aus Run 5 benannten Bibliotheken (`AR - 02 Wettbewerbe`, `AR - 04 Honorarauftraege`,
+`AR - 05 Transfer`) und findet einen weiteren realen, in sich konsistenten Fall (2105
+Steinkogler, Haus «Le Mélèze» Davos) — aber mit grundsätzlich anderer Methodik
+(Eingriffstiefen-Bandbreiten S/M/L/XL statt GV x Kennwert, kein m³-Bezug im Dokument), daher
+nicht in die Haupttabelle promoviert. Löst weder Frage 1 noch Frage 2. Damit sind alle fünf
+in Run 5 benannten Bibliotheken gesichtet; einzige noch offene `AR`-Bibliothek ist
+`AR - 06 Referenzen`.
 
 Offene Fragen / Lücken: siehe [QUESTIONS.md](QUESTIONS.md).

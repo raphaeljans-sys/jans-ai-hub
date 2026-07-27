@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 27.07.2026 12:32:58
+Stand: 27.07.2026 12:43:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 12:22)
@@ -12,4 +12,4 @@ Stand: 27.07.2026 12:32:58
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 50a1f942 grobkosten-training Run 8: Registerlücke 2620 Albertstrasse geschlossen (erster Umbau-Kennwert), Stufe-4-Baupreisindex extern bis 2025 verkettet
+- 67514f4a grobkosten-training Run 9: Teuerungs-Normalisierung auf vier Einzelfaelle angewendet (Option a aus Run 8), Frage 1/2 bleiben Median-Blocker

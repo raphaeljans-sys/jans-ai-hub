@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 27.07.2026 12:29:27
+Stand: 27.07.2026 12:39:31
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 12:29)
+- Developer/jans/ai/hub  (letzte Aktivitaet 12:39)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 27.07.2026 12:29:27
 - 7 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 52d48af4 grobkosten-training Run 7: Pre-Check-Tool 2305 Waedenswil extrahiert (BKP-1-9-vs-1-5-Inkonsistenz vertieft), zwei Run-6-Kandidaten geschlossen
+- 67514f4a grobkosten-training Run 9: Teuerungs-Normalisierung auf vier Einzelfaelle angewendet (Option a aus Run 8), Frage 1/2 bleiben Median-Blocker

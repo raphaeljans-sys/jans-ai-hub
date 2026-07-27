@@ -2,6 +2,36 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-07-27 — Trainings-Run 10: `AR - 02/04/05` gesichtet, Frage 1 + 2 weiterhin ungelöst — neuer Fund, aber anderer Blocker
+
+- **Befund:** Die drei letzten aus Run 5 benannten SharePoint-Bibliotheken (`AR - 02
+  Wettbewerbe`, `AR - 04 Honorarauftraege`, `AR - 05 Transfer`) gesichtet. Ein neuer,
+  in sich konsistenter Rohbeleg (2105 Steinkogler, Haus «Le Mélèze» Davos,
+  `raw/2105-steinkogler-davos.md`), aber NICHT promotionsfähig — anders als bisher: kein
+  interner Widerspruch, sondern eine grundsätzlich andere Methodik (Eingriffstiefen-Bandbreiten
+  S/M/L/XL statt GV x Kennwert, keine einzige m³/GV-Angabe im ganzen Dokument). Löst damit
+  weder Frage 1 noch Frage 2.
+  Dieser Lauf zeigt: die drei zurückgestellten Bibliotheken haben KEINEN Fall geliefert, der
+  eine Standard-Klassifikation textlich eindeutig belegt.
+- **Damit sind alle fünf in Run 5 benannten `AR`/`IMMO`-Bibliotheken gesichtet.** Einzige noch
+  ungeprüfte `AR`-Bibliothek: `AR - 06 Referenzen` (Name legt reine Referenzsammlung nahe, wie
+  bereits mehrfach beobachtet bei anderen `_Admin`/`Referenz`-Unterordnern — geringe
+  Erwartungshaltung, aber nicht ausgeschlossen).
+- **Neue Beobachtung (nicht Frage 1/2, aber ein wiederkehrendes Muster):** JANS-eigene
+  Grobkosten-Dokumente enthalten wiederholt einen im Fliesstext genannten Vergleichswert, der
+  von der tatsächlich angewandten Rechengrösse abweicht (hier: «CHF 2'000.-/m² GF» im Text vs.
+  tatsächlich gerechnete «CHF 2'600.-/m² GF», 30 % Differenz, im Dokument nicht aufgelöst) —
+  bereits bei Ackersteinstrasse/Reckholdern (Run 3/4) beobachtet, jetzt ein drittes Mal
+  bestätigt. Für künftige Läufe: bei jedem Fund explizit prüfen, ob ein im Fliesstext genannter
+  Richtwert mit dem tatsächlich verwendeten Rechenwert übereinstimmt, bevor irgendeine Zahl aus
+  einem JANS-Dokument übernommen wird.
+- **Empfehlung für Run 11:** `AR - 06 Referenzen` kurz sichten (letzte offene `AR`-Bibliothek);
+  danach ist die autonome Exploration der bekannten SharePoint-Struktur absehbar erschöpft.
+  Frage 1 (BKP-1-9-vs-1-5) und Frage 2 (Standard-Klassifikation «norm, eloquent») bleiben ohne
+  Rückfrage an Raphael Jans bzw. ohne einen neu abgelegten Fall (laufende Mandate über
+  `kostenkontrolle`) nicht lösbar — sollte Run 11 ebenfalls nichts Neues liefern, ist eine
+  Rückfrage an Raphael der nächste sinnvolle Schritt statt eines weiteren Bibliotheks-Sweeps.
+
 ## 2026-07-27 — Trainings-Run 9: Option (a) aus Run 8 umgesetzt (Teuerungs-Normalisierung), Frage 1 + 2 bleiben der Blocker
 
 - **Erledigt:** Die Run-8-Baupreisindex-Faktoren wurden auf die vier belastbarsten Einzelfälle

@@ -5,8 +5,8 @@ status: established
 kanton: ZH
 paragraphen: ["§ 242 PBG", "§ 243 PBG", "§ 244 PBG", "§ 245 PBG", "§ 246 PBG", "§ 247 PBG", "§ 248 PBG", "§ 309 Abs. 1 lit. i PBG", "Art. 44a USG", "Art. 12 Abs. 1 lit. c USG", "Art. 31 LRV"]
 quellen: ["[[13-fahrzeugabstellplaetze-spielflaechen-teil3]]", "raw/260607_amtlich_zh_pbg.md (§§ 242-249)", "raw/260713_amtlich_zh_ppv-stadt-zuerich.md (PPV Stadt Zuerich Art. 8 Abs. 5-8, amtliche Primaerquelle Fassung GRB 16.12.2015 + Leitfaden Tiefbauamt 09.07.2024)"]
-last_updated: 2026-07-25
-verifiziert: 2026-07-12 (Modell-D §§ 242-249 PBG gegen amtl. Volltext; 2 Fassungsstand-Korrekturen); 2026-07-13 (Buch-Run 33, Modell-D: PPV Stadt Zuerich Art. 8 Abs. 5-8 wortlautbelegt/Fassungsstand korrigiert; Wegleitung 1997 als weiterhin geltend bestaetigt; VSS-Veloabstellplatz-Normbezug SN 640 065 statt SN 640 060/066 korrigiert; VSS-Rampenneigungsnorm auf aktuelle Nomenklatur VSS 40 291 [2021] praezisiert); 2026-07-25 (Buch-Run 54, Fassungsstand-Check: amtliche Primaerquelle der PPV-Fassung 16.12.2015 lokalisiert und Art. 8 Abs. 5-8 direkt am Gesetzeswortlaut CONFIRMED, ersetzt die bisherige Sekundaerquellen-Absicherung ueber den Leitfaden)
+last_updated: 2026-07-27
+verifiziert: 2026-07-12 (Modell-D §§ 242-249 PBG gegen amtl. Volltext; 2 Fassungsstand-Korrekturen); 2026-07-13 (Buch-Run 33, Modell-D: PPV Stadt Zuerich Art. 8 Abs. 5-8 wortlautbelegt/Fassungsstand korrigiert; Wegleitung 1997 als weiterhin geltend bestaetigt; VSS-Veloabstellplatz-Normbezug SN 640 065 statt SN 640 060/066 korrigiert; VSS-Rampenneigungsnorm auf aktuelle Nomenklatur VSS 40 291 [2021] praezisiert); 2026-07-25 (Buch-Run 54, Fassungsstand-Check: amtliche Primaerquelle der PPV-Fassung 16.12.2015 lokalisiert und Art. 8 Abs. 5-8 direkt am Gesetzeswortlaut CONFIRMED, ersetzt die bisherige Sekundaerquellen-Absicherung ueber den Leitfaden); 2026-07-27 (Buch-Run 60, Festigungsmodus Prioritaet a: Cross-KB-Frage Run 11 zum Behindertenparkplatz-Kennwert geklaert — Wert stammt woertlich aus dem Buch-Destillat [S. 900], das SN 521 500 Korrigendum C3 [1.10.2013] Ziff. 9.7.2/9.7.3 zitiert, nicht die SIA-500:2009-Basisausgabe; Norm-Wortlaut selbst kostenpflichtig/nicht frei verifizierbar, keine Korrektur noetig)
 ---
 
 # Fahrzeugabstellplaetze und Parkierung (Pflichtparkplaetze ZH)
@@ -168,11 +168,20 @@ als Abs. 2; die aktuelle §-Zaehlung fuer Reverse/Bewilligungen ist Abs. 3.)*
 - **Behinderte**: keine PBG-Regel, massgebend **SIA 500:2009 «Hindernisfreie Bauten»** (vormals
   SN 521 500:1988 «Behindertengerechtes Bauen» — die SN-Nummer 521 500 bleibt gueltig, abgeloest ist
   nur die Ausgabe 1988), Ziff. 9.7; Norm-Destillat `wissen/normen/destillate/sia-500-2009`.
-  Bisheriger Wiki-Wert: **1 Platz je 25 Wohnungen** (min. 1) + **1 je Besucher-Standort**, Gehdistanz
-  Richtwert **max. 100 m**. ⚠ **Kennwert zu verifizieren (Cross-KB Run 11):** SIA 500:2009 Ziff. 9.7.2/9.7.3
-  regelt «mind. 1 fuer Bewohner + 1 je weitere 25 **Parkplaetze** + mind. 1 fuer Besucher» (nicht «25
-  Wohnungen»), **ohne** 100-m-Gehdistanz; die Herkunft des hier genannten Werts (Ausgabe 1988 oder eine
-  ZH-Parkierungs-Wegleitung) ist offen und vor Anwendung zu belegen, nicht aus dieser Zeile zu uebernehmen.
+  Wiki-Wert: **1 Platz je 25 Wohnungen** (min. 1) + **1 je Besucher-Standort**, Gehdistanz Richtwert
+  **max. 100 m**. **Herkunft geklaert (Buch-Run 60, 2026-07-27, Fortsetzung Cross-KB Run 11):**
+  der Wert stammt nicht aus der SIA-500:2009-Basisausgabe, sondern ist woertlich aus dem
+  Standardwerk uebernommen (Bd. 2, S. 900, § 13.5.1.5), das dort **SN 521 500, Korrigendum C3
+  (1.10.2013), Ziff. 9.7.2/9.7.3** zitiert: «je 25 Wohnungen mind. 1 Behindertenparkplatz» + «pro
+  Besucher-Standort mind. 1» + Gehdistanz-Richtwert «max. 100 m» — mit im Buch-Destillat
+  `buecher/band-2/13-fahrzeugabstellplaetze-spielflaechen-teil3.md:28` identischem Wortlaut. Die
+  vom normen-Destillat `sia-500-2009` zitierte Formulierung «1 je weitere 25 **Parkplaetze**, ohne
+  Gehdistanz» stammt aus der **Basisausgabe 2009**, die von Korrigendum C3 (2013) offenbar in
+  diesem Punkt materiell ergaenzt/geaendert wurde. **Der Norm-Wortlaut des Korrigendums selbst
+  bleibt unverifiziert** (SIA-Normen sind kostenpflichtig, nicht frei zugaenglich — wie VSS
+  SN 640; dauerhaft offener Punkt, keine Halluzination). Cross-KB-Hinweis an `normen`: das
+  Destillat `sia-500-2009` deckt nur die Basisausgabe ab, nicht das Korrigendum C3 (1.10.2013),
+  das fuer Ziff. 9.7.2/9.7.3 offenbar abweichenden Wortlaut traegt.
 
 ## Spiel- und Ruheflaechen (§ 248 PBG)
 

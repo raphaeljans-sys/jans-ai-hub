@@ -1,3 +1,29 @@
+## Run 10 (27.07.2026) — Fünftquelle-Nachschlag: `AR - 02 Wettbewerbe`, `AR - 04 Honorarauftraege`, `AR - 05 Transfer` gesichtet
+
+Gemäss Empfehlung aus Run 9 (`wiki/QUESTIONS.md`): die drei letzten aus Run 5 benannten,
+bisher ungeprüften SharePoint-Bibliotheken systematisch nach `*kosten*`-Treffern durchsucht
+(`find -iname`, direkt in der Hauptsession — Background-Subagents stallen erfahrungsgemäss auf
+OneDrive-Pfaden, daher keine Delegation für diesen Lauf).
+
+| Bibliothek | Befund | Verwertbarkeit |
+|---|---|---|
+| `AR - 02 Wettbewerbe` | Alle Kosten-Treffer sind entweder Wettbewerbsabgabe-Formulare ohne eigene Zahlen (KSSG H14 `B16_formular_kostentool`, extern vorgegebenes Formular), das bereits aus Run 6 bekannte tote GKS-Copy-Paste-Template (2408 WB BIWAK, identisch zu den 8 Waedenswil-Dubletten), oder reine Referenzliteratur (`_Admin/03_Referenzen_WB_Abgaben/Grobkostenberechnung`, generische SIA-116/416-Anleitung ohne Projektbezug) | `[-]` kein neues JANS-Eigenprojekt mit GV/BKP-Bezug |
+| `AR - 04 Honorarauftraege` | 2105 Steinkogler (Haus «Le Mélèze», Davos): reale, in sich konsistente Grobkostenschätzung mit Korrespondenz — aber Eingriffstiefen-Bandbreiten (S/M/L/XL), kein GV-Bezug im ganzen Dokument | `[x]` extrahiert Run 10 → `raw/2105-steinkogler-davos.md`: nicht promotionsfähig für die m³-GV-Haupttabelle (fehlende Bezugsgrösse, nicht rechnerisch ergänzt), aber strukturell neuer, sauber dokumentierter Fund (Eingriffstiefen-Logik statt GV-Kennwert) |
+| `AR - 04 Honorarauftraege` (Nebenfund) | `_Archiv/Brassel_Architekten/201210_HARDSTRASSE_7/BKP/*Kosten_Modul3_BakeryCafé*.pdf` | `[-]` ungeprüft zurückgestellt: Fremdmandat (Brassel_Architekten-Unterordner, nicht JANS-eigenes Projekt erkennbar), Modul3-Fitout ähnlich `1318_Lorraine_Kueche`/`2201 Laternengasse` (Einzelposition, kein Gesamtgebäude-GV) — aus Kapazitätsgründen in diesem Lauf nicht extrahiert |
+| `AR - 05 Transfer` | Einziger Treffer: `rh/Elementbasierter Kostenvoranschlag.pdf` — generischer Webseiten-Ausdruck zur eBKP-H-Methodik (Bauherrenberatungs-Website), kein Projektbezug | `[-]` keine Projektdaten |
+
+**Ergebnis Run 10:** 1 neuer Rohbeleg dokumentiert (Steinkogler), bewusst nicht in
+`kennwerte.md` promoviert (keine GV-Bezugsgrösse in einer sonst sauberen, in sich
+konsistenten Sanierungsschätzung — anderer Blocker als Frage 1/2). Damit sind alle fünf in
+Run 5 benannten SharePoint-Bibliotheken (`AR - 02`, `AR - 03`, `AR - 04`, `AR - 05` sowie
+`IMMO - 01/02/03/05/06`) jetzt gesichtet. Frage 1 (BKP-1-9-vs-1-5) und Frage 2
+(Standard-Klassifikation) bleiben ungelöst — dieser Lauf hat keinen Fall gefunden, der sie
+textlich eindeutig auflöst. Empfehlung für Run 11: `AR - 06 Referenzen` (letzte noch
+ungeprüfte `AR`-Bibliothek) sichten, sowie den in diesem Lauf zurückgestellten
+Brassel-Archiv-Nebenfund kurz einordnen (JANS-eigen oder Fremdmandat?), bevor eine neue
+Bibliothek erschlossen wird. Alternativ: Rückfrage an Raphael zu Frage 1/2 vorschlagen, da
+die autonome Exploration der bekannten SharePoint-Bibliotheken absehbar erschöpft ist.
+
 # Quellen-Inventar: grobkosten (04_Buero/02_Projekte)
 
 Stufe 1 des Trainings-Loops (Run 1, 25.07.2026). Systematische Durchsicht aller Projektordner
