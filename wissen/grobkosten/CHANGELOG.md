@@ -1,5 +1,17 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-27 — Trainings-Run 16 (kein neuer Kennwert, fünfter Sättigungsbeleg in Folge)
+
+- Kollisionscheck via `ps`/`PPID`: einziger Treffer die eigene Prozessinstanz. Lauf begann
+  ~2 Min. nach dem Run-15-Commit (d5556fa1).
+- Kein Bibliotheks-/Formel-Sweep wiederholt (bereits ausgeschöpft, Run 11/14). Einziger
+  neuer Check: `find` nach Kosten-Dateien mit Änderungsdatum nach 27.07.2026 09:00 Uhr in
+  `OneDrive-FreigegebeneBibliotheken–JANS` — null Treffer, kein Ereignis-Trigger.
+- Keine Registeränderung an `wiki/kennwerte.md`, `training/quellen-inventar.md` oder `raw/`.
+  `wiki/QUESTIONS.md` um Run-16-Eintrag ergänzt (Wiederholung der Taktungsempfehlung aus
+  Run 15, jetzt mit fünf Läufen in Folge belegt). Lauf-Report:
+  `outputs/2026-07-27_grobkosten-run16.md`.
+
 ## 2026-07-27 — Trainings-Run 15 (kein neuer Kennwert, vierter Sättigungsbeleg in Folge — Taktungshinweis)
 
 - Kollisionscheck via `ps`/`PPID`: einziger Treffer die eigene Prozessinstanz. Lauf begann

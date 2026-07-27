@@ -2,6 +2,20 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-07-27 — Trainings-Run 16: fünfter Sättigungsbeleg in Folge (Run 12–16), keine neue Frage
+
+- Lauf begann ~2 Min. nach dem Run-15-Commit. Kein Bibliotheks-/Formel-Sweep wiederholt
+  (beide bereits ausgeschöpft/abschliessend belegt, Run 11/14). Einziger neuer, günstiger
+  Check: `find` nach Kosten-Dateien mit Änderungsdatum nach 27.07.2026 09:00 Uhr in der
+  SharePoint-Bibliothek `OneDrive-FreigegebeneBibliotheken–JANS` — null Treffer.
+- Keine neue Inhaltsfrage. Frage 1 (BKP-1-9-vs-1-5) und Frage 2 (Standard-Klassifikation
+  "norm, eloquent") bleiben wie in Run 11–15 beschrieben nur durch Raphael Jans direkt oder
+  neues Material lösbar.
+- Fünf aufeinanderfolgende Läufe (12–16) ohne neuen Kennwert bestätigen die Taktungs-
+  Beobachtung aus Run 15: der VOLLGAS-Runner feuert diesen Loop im Minutenabstand statt
+  gemäss `cron_target` 2x täglich. Empfehlung unverändert: auf Ereignis-Trigger zurücktakten
+  (liegt ausserhalb der Befugnis dieses Loops). Details: `outputs/2026-07-27_grobkosten-run16.md`.
+
 ## 2026-07-27 — Trainings-Run 15: kein neuer Kennwert, vierter Sättigungsbeleg in Folge (Run 12–15) — Taktungshinweis statt Inhaltsfrage
 
 - Lauf begann ~2 Min. nach dem Run-14-Commit; Empfehlung aus Run 14 (kein Sweep in
