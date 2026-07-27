@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 27.07.2026 13:23:44
+Stand: 27.07.2026 13:33:52
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:06)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:33)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 27.07.2026 13:23:44
 - 3 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- b76d3bb9 grobkosten-training Run 16: fuenfter Saettigungsbeleg in Folge, kein neuer Kennwert, kein Ereignis-Trigger
+- a1e69da2 normen-training-nacht Run 30: PL-03-Bookkeeping korrigiert (BRL 13/14-15 stale Handlungsbedarf behoben, PL-03-Unterordner 01/03/04/05 als PL-02-Duplikate belegt), 3 Lignum-Destillate (4.1/4.2/Lignatec) destilliert und adversarial verifiziert (13 Befunde korrigiert)
