@@ -401,14 +401,25 @@ Tabelle regeln u. a. Mindest-Rohdichten (Mineralwolle ≥ 26 bzw. 50 kg/m³, Sch
 Repräsentative Grössenordnungen (keine vollständige Wiedergabe der Varianten-Matrix —
 siehe «Offene Punkte»):
 - Balkendecken REI30 (mit wirksamem Unterbau, Tab. 431-2, S. 23): Balkenquerschnitte
-  b×h von 60×100 bis 100×220 mm, im Einzelfall 60×230 mm (Variante D); Hohlraumdämmung
-  Mineralwolle 100–120 mm, untere Beplankung je nach Variante und Material 9,5–20 mm
-  (Gipsplatte 9,5/12,5 mm, Gipsfaserplatte 10/12,5 mm, Massivholzplatte/OSB 15–20 mm);
-  eine separate Zeile «Deckenbekleidung» führt erst Tab. 431-3/431-4. (Korrektur
-  27.07.2026, fünfte Runde: die Erstfassung nannte zusätzlich «Alternativen u. a.
-  120×140/80×120/80×100 mm» — diese drei Werte kommen in Tab. 431-2 nicht vor; die
-  Balkenlage-Zeile enthält über alle zehn Varianten A–K ausschliesslich die fünf
-  Kombinationen 100×220, 60×160, 60×100, 60×230 und 80×170 mm. Entfernt.)
+  b×h von 60×100 bis 100×220 mm, im Einzelfall 60×230 mm (Variante D); je Variante ist
+  zusätzlich ein zweiter, fussnotierter Querschnitt mit reduziertem Abbrand-Nachweis
+  (Kap. 4.5.2.1/4.5.2.2) angegeben: 120×140 mm (Varianten A/G, Fussnote 4, 14 Min.
+  dreiseitiger Abbrand), 80×120 mm (Varianten B/E/J, Fussnote 5, 30 Min. einseitiger
+  Abbrand) und 80×100 mm (Variante D, Fussnote 7, 7 Min. dreiseitiger Abbrand); bei den
+  Varianten C/F/K und H bleibt es beim einzigen Querschnitt (60×100 bzw. 80×170 mm) mit
+  alternativer Abbrand-Bemessung (Fussnoten 6 bzw. 8), ohne zweiten, kleineren Wert.
+  Hohlraumdämmung Mineralwolle 100–120 mm, untere Beplankung je nach Variante und
+  Material 9,5–20 mm (Gipsplatte 9,5/12,5 mm, Gipsfaserplatte 10/12,5 mm,
+  Massivholzplatte/OSB 15–20 mm); eine separate Zeile «Deckenbekleidung» führt erst
+  Tab. 431-3/431-4. (Korrektur 27.07.2026, sechste Runde: die fünfte Runde hatte hier
+  fälschlich alle drei in einer früheren Fassung genannten Alternativwerte
+  «120×140/80×120/80×100 mm» pauschal als unbelegt entfernt. Beim erneuten, besonders
+  sorgfältigen zellenweisen Bildvergleich [zwei unabhängige Lesungen derselben Seite]
+  zeigt sich: alle drei Werte stehen tatsächlich in der Balkenlage-Zeile, als
+  fussnotierte Alternativquerschnitte unterhalb des jeweiligen Hauptquerschnitts der
+  Spalten A/G, B/E/J und D. Die fünfte Runde lag mit der Pauschalentfernung falsch
+  [Regression]; hier wiederhergestellt und um die genaue Spalten-/Fussnotenzuordnung
+  präzisiert.)
 - Balkendecken REI90 (Tab. 431-4, S. 25): Balken bis 120×250/140×200/160×180 mm bzw.
   schlanker 100×210/120×200 bzw. 60×240/60×180 mm mit dickerer Hohlraumdämmung
   (180–240 mm) und z. T. Brandschutzplatte BSP60 in der unteren Beplankung/

@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 27.07.2026 19:53:14
+Stand: 27.07.2026 20:13:25
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 19:38)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 27.07.2026 19:53:14
 - 15 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 089c3ba5 twin-mail-training: Batch 78 Dry Run (beide Straenge leer, Archive-Ordner geprueft, kein neues Material)
+- 3bcfdb1a normen-training-nacht: Run 34 registriert (fuenfte Refuter-Runde, 3 Destillate, kein Nulldurchgang)

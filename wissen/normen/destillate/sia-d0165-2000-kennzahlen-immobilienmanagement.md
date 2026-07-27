@@ -342,11 +342,12 @@ EDV-Räume).
 3.3 Technologische Labors ·
 3.4 Physikalische/physikalisch-technische/elektrotechnische Labors ·
 3.5 Chemische/bakteriologische/morphologische Labors ·
-3.6 Tierhaltung · 3.7 Pflanzenzucht · 3.8 Küchen · 3.9 Sonderarbeitsräume.
+3.6 Räume für Tierhaltung · 3.7 Räume für Pflanzenzucht · 3.8 Küchen · 3.9 Sonderarbeitsräume.
 **HNF4 Lagern/Verteilen/Verkaufen**: 4.1 Lagerräume · 4.2 Archive/Sammlungsräume ·
 4.3 Kühlräume · 4.4 Annahme-/Ausgaberäume · 4.5 Verkaufsräume · 4.6 Ausstellungsräume.
 **HNF5 Bildung/Unterricht/Kultur**: 5.1 Unterrichtsräume mit festem Gestühl ·
-5.2 Allg. Unterrichtsräume ohne Gestühl · 5.3 Bes. Unterrichtsräume ohne Gestühl ·
+5.2 Allg. Unterrichts-/Übungsräume ohne festes Gestühl · 5.3 Bes. Unterrichts-/Übungsräume
+ohne festes Gestühl ·
 5.4 Bibliotheksräume · 5.5 Sporträume · 5.6 Versammlungsräume · 5.7 Bühnen-/Studioräume ·
 5.8 Schauräume · 5.9 Sakralräume.
 **HNF6 Heilen/Pflegen**: 6.1 Allgemeine medizinische Räume · 6.2 Besondere medizinische
