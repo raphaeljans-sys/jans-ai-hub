@@ -2222,3 +2222,39 @@ materiell folgenlos dokumentiert, 0 neue inhaltliche Fehler.** 2 neue Drill-Kart
 `established`-Artikeln) als naechster Prioritaet-(c)-Kandidat; parallel weitere kantonale Erlasse,
 die noch nie live gegen zhlex geprueft wurden, identifizieren (PPV Stadt Zuerich bleibt kommunal
 ohne eigenen zhlex-Eintrag, nur Sekundaerquelle datiert — dauerhafte Luecke, kein Fehler).
+
+## Ausnahmebewilligung und Bestandesschutz — Buch-Run 65 (2026-07-27, Modell D, Stichproben-Re-Verifikation Priorität c)
+
+- **A (Modell D, Gegenprobe):** [[ausnahmebewilligung-und-bestandesschutz]] behauptet, § 220
+  Abs. 2 PBG enthalte eine «Gemeinwesen-Ausnahme» — oeffentliche Interessen duerften ausnahmsweise
+  doch beeintraechtigt werden, ausser die Erfuellung einer gesetzlichen Gemeinwesen-Aufgabe wuerde
+  dadurch verunmoeglicht/uebermaessig erschwert. Stimmt das wortgleich? — **A:** **Ja, CONFIRMED.**
+  `raw/260607_amtlich_zh_pbg.md` Z. 2188-2191: «Ausnahmebewilligungen duerfen nicht gegen den Sinn
+  und Zweck der Vorschrift verstossen, von der sie befreien, und auch sonst keine oeffentlichen
+  Interessen verletzen, es sei denn, es wuerde die Erfuellung einer dem Gemeinwesen gesetzlich
+  obliegenden Aufgabe verunmoeglicht oder uebermaessig erschwert» — wortgleich zum Wiki-Zitat.
+  Fassungsstand weiterhin Nachtrag 133 (Kopfzeile Z. 2206 «1. 7. 26 - 133»). _[2026-07-27]_
+- **B (Modell D, Sekundaerpruefung):** Der Artikel zitiert die Hoehe «4 m / 5 m» des «Besonderen
+  Gebaeudes» als Definitionsmerkmal aus § 49 Abs. 3 PBG. Steht diese Hoehe wirklich in § 49 Abs. 3?
+  — **A:** **Nur in der Anhang-Fassung.** `raw/260607_amtlich_zh_pbg.md` Z. 4136-4137 (Anhang,
+  Stand 28.2.2017): «Fuer Gebaeude oder Gebaeudeteile, die nicht fuer den dauernden Aufenthalt von
+  Menschen bestimmt sind und deren groesste Hoehe 4 m, bei Schraegdaechern 5 m, nicht uebersteigt,
+  kann von den kantonalen Mindestabstaenden abgewichen … werden.» Die harmonisierte Hauptteil-
+  Fassung (Z. 549-568) nennt dagegen nur generisch «Kleinbauten oder Anbauten» ohne Hoehenangabe.
+  Kein Fehlzitat (die Anhang-Fassung gilt fort, bis die Gemeinde-BZO harmonisiert ist) — die
+  Haupt-/Anhang-Nuance ist bereits korrekt in [[abstaende-und-hoehen]] dokumentiert, keine
+  Korrektur in diesem Artikel noetig. _[2026-07-27]_
+
+**Ergebnis Buch-Run 65 (2026-07-27, Festigungsmodus, Priorität c, kein Agent-Fan-out):**
+[[ausnahmebewilligung-und-bestandesschutz]] gewaehlt (letzter Check Buch-Run 45/46, 2026-07-15 —
+aeltestes verbleibendes echtes Pruefdatum, empfohlen von Run 64). Vollstaendiger Modell-D-
+Wortlautabgleich §§ 218/219/220 (Abs. 1-3), § 357 (Abs. 1/4/5), § 307 (Abs. 1/2), § 321, § 101,
+§§ 318/320 PBG gegen `raw/260607_amtlich_zh_pbg.md` — **alle CONFIRMED, 0 Korrekturen**,
+Fassungsstand weiterhin Nachtrag 133, keine Drift gegenueber Run 45/46/58/64. Sekundaerpruefung
+§ 49 Abs. 3 PBG (Hoehe 4 m/5 m «Besonderes Gebaeude»): Zitat trifft nur auf die Anhang-Fassung zu,
+Nuance bereits an anderer Stelle der KB ([[abstaende-und-hoehen]]) korrekt gefuehrt — kein
+Register-Sweep-Nachzug noetig. **0 Halluzinationen, 0 Korrekturen.** 2 neue Drill-Karten (2×D).
+Report `outputs/2026-07-27_buch-run65.md`. **Naechster Schritt:** Fassungsstand-Sammelcheck der
+verbleibenden, noch nie live gegen zhlex geprueften kantonalen Erlasse fortsetzen (PPV Stadt
+Zuerich bleibt kommunal ohne eigenen zhlex-Eintrag — dauerhafte Luecke, kein Fehler) oder naechster
+Priorität-(c)-Kandidat nach `verifiziert`-Datum (`grep -h "^verifiziert:" wiki/*.md | sort`).

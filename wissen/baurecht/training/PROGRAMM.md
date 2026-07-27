@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-27 (Run 64)
+last_updated: 2026-07-27 (Run 65)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -113,6 +113,20 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 65 (2026-07-27, Festigungsmodus, Priorität (c) Stichproben-Re-Verifikation, kein
+    Agent-Fan-out):** [[ausnahmebewilligung-und-bestandesschutz]] gewählt (letzter Check Buch-Run
+    45/46, 2026-07-15 — von Run 64 empfohlen). Vollständiger Modell-D-Wortlautabgleich §§ 218/219/
+    220 (Abs. 1-3), § 357 (Abs. 1/4/5), § 307 (Abs. 1/2), § 321, § 101, §§ 318/320 PBG gegen
+    `raw/260607_amtlich_zh_pbg.md` — **alle CONFIRMED, 0 Korrekturen**, Fassungsstand weiterhin
+    Nachtrag 133. Sekundärprüfung § 49 Abs. 3 PBG (Höhe 4 m/5 m «Besonderes Gebäude»): Zitat trifft
+    nur auf die Anhang-Fassung zu, Nuance bereits an anderer Stelle der KB ([[abstaende-und-hoehen]])
+    korrekt geführt, kein Register-Sweep-Nachzug nötig. **0 Halluzinationen, 0 Korrekturen.** 2 neue
+    Drill-Karten (2×D). Report `outputs/2026-07-27_buch-run65.md`. **«Rückstand abgebaut» NICHT
+    ausgerufen:** der Fassungsstand-Check bleibt Daueraufgabe (Leitplanke Run 48), und weitere
+    Priorität-(c)-Kandidaten mit älterem `verifiziert`-Datum sind noch nicht durchlaufen.
+    **Nächster Schritt:** Fassungsstand-Sammelcheck der verbleibenden, noch nie live gegen zhlex
+    geprüften kantonalen Erlasse fortsetzen oder nächster Priorität-(c)-Kandidat nach ältestem
+    `verifiziert`-Datum (`grep -h "^verifiziert:" wiki/*.md | sort`).
   - **Run 64 (2026-07-27, Festigungsmodus, Priorität (a) Negativsweep + Priorität (b)
     Fassungsstand-Check + Priorität (c) Re-Verifikation, kein Agent-Fan-out):** **Priorität (a):**
     vollständiger KB-weiter Sweep nach HWSchV/Hochwasserschutz/Gewässerabstand — 0 neue stale

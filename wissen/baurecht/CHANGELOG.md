@@ -4,6 +4,17 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-27 — Buch-Run 65 (Festigungsmodus, Priorität c Re-Verifikation Ausnahmebewilligung/Bestandesschutz)
+- [verifikation] **`wiki/ausnahmebewilligung-und-bestandesschutz.md`** — vollständiger Modell-D-
+  Wortlautabgleich §§ 218/219/220 (Abs. 1-3), § 357 (Abs. 1/4/5), § 307 (Abs. 1/2), § 321, § 101,
+  §§ 318/320 PBG gegen `raw/260607_amtlich_zh_pbg.md` — **alle CONFIRMED, 0 Korrekturen**,
+  Fassungsstand weiterhin Nachtrag 133. `verifiziert`-Feld aktualisiert.
+- [sekundärprüfung] § 49 Abs. 3 PBG (Höhe 4 m/5 m «Besonderes Gebäude») trifft nur auf die
+  Anhang-Fassung zu; Nuance bereits korrekt in `wiki/abstaende-und-hoehen.md` dokumentiert, kein
+  Register-Sweep-Nachzug nötig.
+- [drill] 2 neue Karten (2×D) in `training/drills.md`.
+- [report] `outputs/2026-07-27_buch-run65.md`.
+
 ## 2026-07-27 — Buch-Run 64 (Festigungsmodus, Priorität a Negativsweep + Priorität b Fassungsstand-Check VRG + Priorität c Re-Verifikation Rechtsschutz)
 - [verifikation] KB-weiter Sweep (`wiki/`, `buecher/`, `training/`) nach HWSchV/Hochwasserschutz/
   Gewässerabstand: **0 neue stale Fundorte** seit Buch-Run 50 — Priorität (a) bleibt geschlossen.

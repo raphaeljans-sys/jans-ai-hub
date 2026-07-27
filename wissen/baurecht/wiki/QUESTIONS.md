@@ -1,6 +1,25 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
-## 2026-07-27 (Buch-Run 64, Festigungsmodus, Priorität b Fassungsstand-Check + Priorität c Re-Verifikation) — VRG-Nachtrag-Drift 129→133 gefunden und geschlossen; Priorität-a-Negativsweep HWSchV/WsG bestätigt sauber
+## 2026-07-27 (Buch-Run 65, Festigungsmodus, Priorität c Re-Verifikation) — ausnahmebewilligung-und-bestandesschutz vollständig bestätigt, 0 Korrekturen
+
+[[ausnahmebewilligung-und-bestandesschutz]] (letzter Check Buch-Run 45/46, 2026-07-15 —
+empfohlen von Run 64 als ältestes verbleibendes echtes Prüfdatum) einem vollständigen Modell-D-
+Wortlautabgleich unterzogen: §§ 218/219/220 (Abs. 1-3), § 357 (Abs. 1/4/5), § 307 (Abs. 1/2),
+§ 321, § 101, §§ 318/320 PBG gegen `raw/260607_amtlich_zh_pbg.md` geprüft. **Alle Fundstellen
+CONFIRMED, 0 Korrekturen.** Fassungsstand PBG weiterhin Nachtrag 133 (Kopfzeile Z. 2206
+«1. 7. 26 - 133»), keine Drift gegenüber Run 45/46/58/64.
+
+Sekundärprüfung: § 49 Abs. 3 PBG (Höhe 4 m/5 m des «Besonderen Gebäudes») trifft wörtlich nur
+auf die **Anhang-Fassung** zu (Z. 4136-4137); die harmonisierte Hauptteil-Fassung (Z. 549-568)
+nennt nur generisch «Kleinbauten oder Anbauten» ohne Höhenangabe. Kein Fehlzitat — die
+Haupt-/Anhang-Nuance ist bereits korrekt in [[abstaende-und-hoehen]] dokumentiert, Register-Sweep
+ergab keinen Nachzugsbedarf in diesem Artikel.
+
+**0 Halluzinationen, 0 Korrekturen.** 2 neue Drill-Karten (2×D). Details:
+`outputs/2026-07-27_buch-run65.md`. **Nächster Schritt:** Fassungsstand-Sammelcheck der
+verbleibenden, noch nie live gegen zhlex geprüften kantonalen Erlasse fortsetzen (PPV Stadt
+Zürich bleibt kommunal ohne eigenen zhlex-Eintrag — dauerhafte Lücke, kein Fehler) oder nächster
+Priorität-(c)-Kandidat nach ältestem `verifiziert`-Datum ermitteln.
 
 **Priorität (a) — vorab geprüft, kein neuer Fund:** vollständiger KB-weiter Sweep
 (`grep -rniE` über `wiki/`, `buecher/`, `training/`) nach `HWSchV`/`Hochwasserschutz`/
