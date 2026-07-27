@@ -4,6 +4,26 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-27 — Buch-Run 60 (Festigungsmodus, Priorität a: Behindertenparkplatz-Kennwert-Herkunft geklärt + Priorität c: Wohnhygiene/Raumanforderungen re-verifiziert)
+- [korrektur] **`wiki/fahrzeugabstellplaetze-und-parkierung.md`** — Cross-KB-Frage (Wissens-Chef
+  Run 11, 21.07.2026) zur Herkunft des Behindertenparkplatz-Kennwerts («1 je 25 Wohnungen +
+  100 m Gehdistanz») geklärt: Wert stammt wörtlich aus dem Standardwerk (Bd. 2, S. 900), das
+  dort **SN 521 500 Korrigendum C3 (1.10.2013)** zitiert, nicht die SIA-500:2009-Basisausgabe.
+  Kein Fehlzitat/keine Halluzination — nur die Norm-Referenz war ungenau. Quellenangabe
+  präzisiert, Cross-KB-Hinweis an `normen` ergänzt (Destillat `sia-500-2009` deckt nur die
+  Basisausgabe ab). `verifiziert`-Feld nachgeführt.
+- [verifikation] **`wiki/wohnhygiene-und-raumanforderungen.md`** — Stichproben-Re-Verifikation
+  (ältestes `verifiziert`-Datum, 2026-07-13): §§ 299-306 PBG, § 40 BBV I, § 32/§ 4 ABV erneut
+  Wort für Wort gegen die amtlichen Volltexte geprüft, **CONFIRMED, 0 Korrekturen**.
+  Fassungsstand PBG (Nachtrag 133), ABV (Nachtrag 127), BBV I (Nachtrag 133) ohne Drift.
+  `verifiziert`-Feld nachgeführt.
+- [korrektur] **`wiki/INDEX.md:29`** — Stale-Status-Nebenbefund: [[wohnhygiene-und-
+  raumanforderungen]] noch als `emerging` geführt, obwohl das Artikel-Frontmatter längst
+  `established` trägt (gleiches Muster wie Run 44/54) — korrigiert.
+- [drills] 3 neue Karten in `training/drills.md` (1×A Frage→Beleg, 1×D Gegenprobe, 1×C
+  Selbsttest).
+- [report] `outputs/2026-07-27_buch-run60.md`.
+
 ## 2026-07-27 — Buch-Run 59 (Festigungsmodus, Priorität a: Cross-KB-Flag § 273/§ 260 Abs. 4 geschlossen + Priorität c: Geschosse/Kniestock re-verifiziert)
 - [korrektur] **`wiki/abstaende-und-hoehen.md`** — echte Lücke aus dem Cross-KB-Flag (Wissens-Chef
   Run 16) geschlossen: § 260 Abs. 4 PBG (Minibau, 1,5 m/2 m², vollständige Grenz- **und**

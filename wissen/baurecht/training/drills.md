@@ -2007,3 +2007,47 @@ korrigiert (Priorität a, Destillat), 0 neue Fehler (Priorität c).** 3 neue Dri
 `naturschutz-und-denkmalschutz`/`raumplanung-und-gestaltung`/`wohnhygiene-und-raumanforderungen`,
 alle zuletzt 2026-07-14 geprüft), oder Fassungsstand-Sammelcheck auf kantonale Erlasse
 ausserhalb der Run-52-54-Liste ausweiten.
+
+- **J (Modell A, Frage→Beleg):** Woher stammt der Wiki-Kennwert «Behindertenparkplatz: 1 je
+  25 Wohnungen + 1 je Besucher-Standort, Gehdistanz max. 100 m» — aus SIA 500:2009? — **A:**
+  **Nein, nicht aus der Basisausgabe.** Der Wert ist wörtlich aus dem Standardwerk (Bd. 2,
+  S. 900, § 13.5.1.5) übernommen, das dort **SN 521 500, Korrigendum C3 (1.10.2013),
+  Ziff. 9.7.2/9.7.3** zitiert. Die SIA-500:2009-Basisausgabe (normen-Destillat
+  `sia-500-2009`) regelt an derselben Stelle etwas anderes: «1 je weitere 25 **Parkplätze**»
+  (nicht «Wohnungen»), ohne 100-m-Gehdistanz. Der Norm-Wortlaut des Korrigendums selbst ist
+  kostenpflichtig und bleibt unverifiziert — Herkunft ist damit geklärt, auch wenn der
+  Normtext nicht frei zugänglich ist. _[2026-07-27]_
+- **K (Modell D, Gegenprobe):** Ist die Verifikation von §§ 299-306 PBG in
+  [[wohnhygiene-und-raumanforderungen]] (zuletzt 2026-07-13 geprüft) noch aktuell? — **A:**
+  **Ja, unverändert CONFIRMED.** Erneuter Wortlautabgleich (Buch-Run 60) gegen
+  `raw/260607_amtlich_zh_pbg.md` Z. 3060-3124 bestätigt alle acht Paragraphen exakt;
+  Fassungsstand PBG weiterhin Nachtrag 133 (Zeile 3083: «1. 7. 26 - 133»), keine Drift seit
+  Run 58/59. § 40 BBV I (Aufzugspflicht > 5 Geschosse, 210×110 cm, Tür 80 cm, > 9 Geschosse
+  2 Aufzüge) und § 32/§ 4 ABV ebenfalls unverändert wortgleich. _[2026-07-27]_
+- **L (Modell C, Selbsttest):** Ab welcher Nutzeinheiten-Zahl gilt die VHKA-Pflicht nach
+  § 9 EnerG — bei Neubauten und bei Bestandesbauten? — **A:** **Neubauten: ab 2
+  Nutzeinheiten** (§ 9 Abs. 1 EnerG). **Bestandesbauten: ab 3 Nutzeinheiten pro Gebäude**
+  (§ 9 Abs. 3 EnerG, nur bei Gesamterneuerung Heizung/Warmwasser, in Kraft seit 1.9.2025).
+  Nicht «ab 5 Nutzeinheiten» wie im Standardwerk (6. Aufl. 2019) — dieser Wert ist veraltet
+  (Fassungsstand-Korrektur bereits Buch-Run 32, live bestätigt Run 53/54, Nachtrag 129 ohne
+  weitere Drift). _[2026-07-27]_
+
+**Ergebnis Buch-Run 60 (2026-07-27, Festigungsmodus, Priorität a + c, kein Agent-Fan-out):**
+**Priorität (a):** offene Cross-KB-Frage aus Wissens-Chef Run 11 (25.07.2026) zum
+Behindertenparkplatz-Kennwert in [[fahrzeugabstellplaetze-und-parkierung]] geklärt — die
+Formulierung «1 je 25 Wohnungen + 100 m Gehdistanz» stammt wörtlich aus dem Standardwerk
+(Bd. 2, S. 900), das dort **SN 521 500 Korrigendum C3 (1.10.2013)** zitiert, nicht die
+SIA-500:2009-Basisausgabe, gegen die das normen-Destillat `sia-500-2009` verglichen hatte.
+Herkunft damit geklärt (kein Fehlzitat, keine Halluzination); der Korrigendum-Wortlaut selbst
+bleibt kostenpflichtig/unverifizierbar wie VSS SN 640 — Cross-KB-Hinweis an `normen` ergänzt.
+**Priorität (c):** [[wohnhygiene-und-raumanforderungen]] (ältestes `verifiziert`-Datum,
+2026-07-13, seit Run 33 nicht mehr geprüft) Stichproben-re-verifiziert — §§ 299-306 PBG
+vollständig gegen `raw/260607_amtlich_zh_pbg.md` Z. 3060-3124, § 40 BBV I und § 32/§ 4 ABV
+gegen ihre raw-Dateien erneut Wort für Wort geprüft. **CONFIRMED, 0 Korrekturen.**
+Fassungsstand-Nebenbefund: PBG weiterhin Nachtrag 133, ABV weiterhin Nachtrag 127, BBV I
+weiterhin Nachtrag 133 — keine Drift gegenüber den Vorläufen. **0 Halluzinationen, 1 echte
+Herkunftsklärung (Priorität a), 0 neue Fehler (Priorität c).** 3 neue Drill-Karten (1×A, 1×D,
+1×C). Report `outputs/2026-07-27_buch-run60.md`. **Nächster Schritt:** nächstältestes
+`verifiziert`-Datum als Priorität-(c)-Kandidat (`baulinien-und-abstandslinien`/
+`naturschutz-und-denkmalschutz`/`raumplanung-und-gestaltung`, alle zuletzt 2026-07-14 geprüft),
+oder Fassungsstand-Sammelcheck auf kantonale Erlasse ausserhalb der Run-52-54-Liste ausweiten.

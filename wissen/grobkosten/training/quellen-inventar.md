@@ -1,3 +1,25 @@
+## Run 11 (27.07.2026) — letzte offene `AR`-Bibliothek geprüft (leer) + Brassel-Nebenfund abschliessend geklärt (Fremdmandat)
+
+Gemäss Empfehlung aus Run 10: (1) `AR - 06 Referenzen` gesichtet, (2) der in Run 10
+zurückgestellte Brassel-Archiv-Nebenfund eingeordnet. Direkt in der Hauptsession geprüft
+(`find`/PDF-Extraktion via `pypdf`, keine Background-Subagent-Delegation — Memory-Feedback:
+Background-Subagents stallen auf OneDrive-Pfaden).
+
+| Bibliothek/Fund | Befund | Verwertbarkeit |
+|---|---|---|
+| `AR - 06 Referenzen` | Auf dieser Station komplett leer (nur `.DS_Store` + OneDrive-Marker-Datei, keine Projektordner/Dateien) | `[-]` keine Inhalte auf dieser Station synchronisiert/vorhanden |
+| `AR - 04 Honorarauftraege/_Archiv/Brassel_Architekten/201210_HARDSTRASSE_7` | Kontaktliste (`Kontakte/Kontakliste Hardstrasse 7.pdf`, Stand 24.11.2020) weist **Brassel Architekten** (Marc Schommer, Lukas Brassel) als Funktion "Architektur" aus — JANS ist in der vollständigen Beteiligtenliste NICHT genannt. Das Archiv enthält an anderer Stelle Stundenabrechnungen/Studien-Korrespondenz (z.B. `210507_VERGANI/210510 STUNDENABRECHNUNG VERGANI.docx`), die auf eine stundenbasierte JANS-Zulieferung an Brassel hindeuten, nicht auf ein eigenes JANS-Mandat. Die BKP-Dokumente selbst (`BKP/*Kosten_Modul3_BakeryCafé*.pdf`) sind zudem ein Fitout-Modul (Bakery/Café), kein Gesamtgebäude-GV — analog bereits ausgeschlossener Fälle (1318 Lorraine_Kueche, 2201 Laternengasse) | `[-]` Fremdmandat (Brassel Architekten ist Architekt des Projekts, nicht JANS) UND ausserhalb GV-Scope (Fitout-Modul) — doppelt nicht verwertbar. Schliesst den in Run 10 offen gelassenen Klärungsbedarf ab; keine weitere Prüfung der übrigen Brassel_Architekten-Unterordner nötig (gleiche Fremdmandat-Struktur zu erwarten) |
+
+**Ergebnis Run 11:** Kein neuer Rohbeleg, kein neuer Kennwert. Beide von Run 10 offen gelassenen
+Punkte sind geschlossen. Damit sind sämtliche in Run 5/6 identifizierten SharePoint-Bibliotheken
+(`AR - 01` bis `AR - 07`, `IMMO - 01/02/03/05/06`) sowie die zweite SharePoint-Bibliothek jetzt
+vollständig gesichtet — die autonome Exploration der bekannten Struktur ist erschöpft. Frage 1
+(BKP-1-9-vs-1-5) und Frage 2 (Standard-Klassifikation "norm, eloquent") bleiben ungelöst. Gemäss
+eigener Empfehlung aus Run 10 wird für Run 12 empfohlen: keine weitere Bibliotheks-Suche, sondern
+entweder (a) eine Rückfrage an Raphael Jans zu Frage 1/2 vorbereiten (als offener Punkt in
+`wiki/QUESTIONS.md` sichtbar für den nächsten interaktiven Kontakt) oder (b) auf einen
+Ereignis-Trigger warten (neuer Kostenstand aus `kostenkontrolle` bei einem laufenden Mandat).
+
 ## Run 10 (27.07.2026) — Fünftquelle-Nachschlag: `AR - 02 Wettbewerbe`, `AR - 04 Honorarauftraege`, `AR - 05 Transfer` gesichtet
 
 Gemäss Empfehlung aus Run 9 (`wiki/QUESTIONS.md`): die drei letzten aus Run 5 benannten,

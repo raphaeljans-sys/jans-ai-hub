@@ -1,5 +1,23 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## 2026-07-27 (Buch-Run 60, Festigungsmodus, Priorität a) — Behindertenparkplatz-Kennwert-Herkunft geklärt; Priorität c: wohnhygiene-und-raumanforderungen re-verifiziert
+
+**Priorität (a):** Die seit 2026-07-21 (Cross-KB Wissens-Chef Run 11) offene Frage zur
+Herkunft des Behindertenparkplatz-Kennwerts («1 je 25 Wohnungen + 100 m Gehdistanz» in
+`wiki/fahrzeugabstellplaetze-und-parkierung.md`) ist geklärt: der Wert stammt wörtlich aus
+dem Standardwerk (Bd. 2, S. 900, § 13.5.1.5), das dort **SN 521 500, Korrigendum C3
+(1.10.2013), Ziff. 9.7.2/9.7.3** zitiert — nicht die SIA-500:2009-Basisausgabe, gegen die
+Run 11 verglichen hatte. Kein Fehlzitat, keine Halluzination; Quellenangabe im Wiki
+präzisiert, Cross-KB-Hinweis an `normen` ergänzt (Destillat `sia-500-2009` deckt nur die
+Basisausgabe ab). Der Korrigendum-Wortlaut selbst bleibt kostenpflichtig/unverifizierbar
+(wie VSS SN 640) — dauerhaft offener Punkt, kein Fehler. Details:
+`outputs/2026-07-27_buch-run60.md`.
+
+**Priorität (c):** [[wohnhygiene-und-raumanforderungen]] (ältestes `verifiziert`-Datum,
+2026-07-13, seit Buch-Run 33 nicht mehr geprüft) adversarial re-verifiziert — §§ 299-306 PBG,
+§ 40 BBV I, § 32/§ 4 ABV alle wortgleich **CONFIRMED**, Fassungsstand PBG/ABV/BBV I ohne
+Drift. 0 Korrekturen.
+
 ## 2026-07-27 (Buch-Run 59, Festigungsmodus, Priorität a) — Cross-KB-Flag § 273/§ 260 Abs. 4 PBG geklärt und geschlossen
 
 Bearbeitung des Cross-KB-Eintrags vom 26.07.2026 (Wissens-Chef Run 16, siehe Archiv-Abschnitt
@@ -337,16 +355,20 @@ nur WebFetch-Zusammenfassung) — raw/260725_amtlich_ch_usg-lsv-novelle-20260401
   `grundlagen-planungs-baurecht`. Vor Promotion je ein kurzer Volltextabgleich gegen den
   zugrundeliegenden Buch-Abschnitt (Phase-2-/Interaktiv-Aufgabe).
 
-## 2026-07-21 (Cross-KB Wissens-Chef Run 11) — SIA-500-Behinderten-Parkplatz-Kennwert vs. Normtext klären
+## 2026-07-21 (Cross-KB Wissens-Chef Run 11) — SIA-500-Behinderten-Parkplatz-Kennwert vs. Normtext klären → ✅ ERLEDIGT (Buch-Run 60, 2026-07-27)
 
-`wiki/fahrzeugabstellplaetze-und-parkierung.md` nennt für Behinderten-Parkplätze «1 Platz je **25 Wohnungen**
+~~`wiki/fahrzeugabstellplaetze-und-parkierung.md` nennt für Behinderten-Parkplätze «1 Platz je **25 Wohnungen**
 (min. 1) + 1 je Besucher-Standort, Gehdistanz max. **100 m**». Adversariale Verifikation (Run 11) am
 normen-Destillat `sia-500-2009` ergab: SIA 500:2009 Ziff. 9.7.2/9.7.3 regelt «mind. 1 für Bewohner +
 1 je weitere **25 Parkplätze** + mind. 1 für Besucher», **ohne** 100-m-Gehdistanz. Der Wiki-Wert stammt
 also nicht aus SIA 500:2009 (vermutlich abgelöste Ausgabe 1988 oder eine ZH-Parkierungs-Wegleitung).
 **Zu tun:** wahre Quelle des Kennwerts belegen, dann Wert auf SIA 500:2009 Ziff. 9.7 angleichen ODER die
 Quelle korrekt benennen. Bezeichnung/Ausgabe/Ziffer + Norm-Destillat-Link sind in Run 11 gesetzt, der
-**Zahlenwert** bleibt offen (nicht raten). Die SN-Nummer 521 500 ist nicht abgelöst — nur die Ausgabe 1988.
+**Zahlenwert** bleibt offen (nicht raten). Die SN-Nummer 521 500 ist nicht abgelöst — nur die Ausgabe 1988.~~
+**Geklärt im Buch-Run 60 (2026-07-27):** Herkunft ist das Standardwerk (Bd. 2, S. 900), das dort
+**SN 521 500 Korrigendum C3 (1.10.2013)** zitiert, nicht die SIA-500:2009-Basisausgabe — kein
+Fehlzitat. Wiki-Quellenangabe präzisiert, Norm-Wortlaut des Korrigendums bleibt kostenpflichtig/
+unverifizierbar (siehe Kopfeintrag oben).
 
 ## 2026-07-20 (Cross-KB Wissens-Chef Run 10) — Meldeverfahren §§ 2a-2e BVV als eigener Verfahrenstyp fehlt → ✅ ERLEDIGT (Buch-Run 50, 2026-07-20)
 

@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-27 (Run 59)
+last_updated: 2026-07-27 (Run 60)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -113,6 +113,27 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 60 (2026-07-27, Festigungsmodus, Priorität (a) Cross-KB-Frage SIA-500-Kennwert +
+    Priorität (c) Stichproben-Re-Verifikation, kein Agent-Fan-out):** Die seit 2026-07-21
+    (Wissens-Chef Run 11) offene Cross-KB-Frage zur Herkunft des Behindertenparkplatz-
+    Kennwerts («1 je 25 Wohnungen + 100 m Gehdistanz» in `wiki/fahrzeugabstellplaetze-und-
+    parkierung.md`) geklärt: Wert stammt wörtlich aus dem Standardwerk (Bd. 2, S. 900,
+    § 13.5.1.5), das dort **SN 521 500 Korrigendum C3 (1.10.2013)** zitiert, nicht die
+    SIA-500:2009-Basisausgabe, gegen die Run 11 verglichen hatte. Kein Fehlzitat, keine
+    Halluzination — nur die Norm-Referenz war ungenau; Quellenangabe im Wiki präzisiert,
+    Cross-KB-Hinweis an `normen` ergänzt (Norm-Korrigendum-Wortlaut selbst bleibt
+    kostenpflichtig/unverifizierbar wie VSS SN 640). **Priorität (c):** [[wohnhygiene-und-
+    raumanforderungen]] (ältestes `verifiziert`-Datum, 2026-07-13, seit Run 33 nicht mehr
+    geprüft) — §§ 299-306 PBG, § 40 BBV I, § 32/§ 4 ABV erneut vollständig Wort für Wort
+    gegen die amtlichen Volltexte geprüft, **CONFIRMED, 0 materielle Korrekturen**;
+    Fassungsstand PBG/ABV/BBV I ohne Drift gegenüber Run 53/58/59. **Register-Sweep-
+    Nebenbefund:** `wiki/INDEX.md:29` führte den Artikel noch als `emerging` trotz
+    `established`-Frontmatter — korrigiert (gleiches Muster wie Run 44/54). **0
+    Halluzinationen, 1 Herkunftsklärung (Priorität a), 1 Stale-Status-Korrektur, 0 neue
+    materielle Fehler (Priorität c).** 3 neue Drill-Karten (1×A, 1×D, 1×C).
+    Report `outputs/2026-07-27_buch-run60.md`. **Nächster Schritt:** Priorität-(c)-Kandidat
+    unter den zuletzt 2026-07-14 geprüften Artikeln (`baulinien-und-abstandslinien`/
+    `naturschutz-und-denkmalschutz`/`raumplanung-und-gestaltung`).
   - **Run 59 (2026-07-27, Festigungsmodus, Priorität (a) Cross-KB-Flag + Priorität (c)
     Stichproben-Re-Verifikation, kein Agent-Fan-out):** Cross-KB-Flag der KB `energie`
     (Wissens-Chef Run 16, 26.07.2026) zu § 273/§ 260 Abs. 4 PBG bearbeitet. Zwei der drei
