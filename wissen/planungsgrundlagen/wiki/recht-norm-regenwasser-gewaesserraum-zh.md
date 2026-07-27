@@ -106,7 +106,12 @@ wassergefährdende Flüssigkeiten, Industrieabwasser, Baustellenentwässerung
 Bund: USG (7.10.1983, Vorsorge-/Verursacherprinzip), **GSchG** (24.1.1991,
 Sorgfalts-/Verursacherprinzip), **GSchV** (28.10.1998), BGF Fischereigesetz
 (21.6.1991). Kanton: **EG GSchG** (8.12.1974, kantonale Bewilligungspflicht
-für Vorkehren, welche Güte/Wassermenge eines Gewässers verändern können),
+für Vorkehren, welche Güte/Wassermenge eines Gewässers verändern können
+— ⚠ **ebenfalls per 1.6.2026 aufgehoben**, § 126 lit. a WsG; dasselbe WsG hebt
+EG GSchG **und** WWG zusammen auf. Nachfolge: planerischer Gewässerschutz
+§§ 45-48 WsG, Siedlungsentwässerung/GEP §§ 49 ff. WsG (Abschnitt C),
+Bewilligungen § 44 WsG. Führend `baurecht`; Wissens-Chef Run 18, 27.07.2026,
+am amtlichen Volltext `724.1_12.12.24_133.pdf` gegengelesen),
 GSchV-ZH (22.1.1975), **WWG** (2.6.1991, regelt Hochwasserschutz/
 Wasserbaupolizei/Gewaessernutzung/Wasserversorgung; § 18 kantonale
 Bewilligung für bauliche Veränderungen an Oberflächengewässern

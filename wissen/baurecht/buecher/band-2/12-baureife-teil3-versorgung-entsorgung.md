@@ -4,7 +4,7 @@ kapitel: 12 — Baureife (Teil 3: Rechtliche Sicherung, Versorgung, Entsorgung)
 band: 2
 seiten: 742–769
 shots: 373–386
-paragraphen: ["§ 234 PBG", "§ 236 PBG", "§ 237 PBG", "§ 173 PBG", "§ 174 PBG", "§ 105 PBG", "§ 109 LG", "§ 110 LG", "§ 111 LG", "§ 112 LG", "§ 115 LG", "Art. 19 RPG", "Art. 32c USG", "§ 27 WWG", "§ 25 WWG", "§ 26 WWG", "§ 16 FeuerwehrV", "§ 39 WWG", "§ 128 PBG", "Art. 19 GSchG", "Art. 20 GSchG", "Art. 29 GSchV", "Art. 30 GSchV", "Art. 10 GSchG", "Art. 11 GSchG", "Art. 12 GSchG", "Art. 13 GSchG", "Art. 3 GSchV", "Art. 4 GSchV", "Art. 5 GSchV", "§ 13 ff. EG GSchG (aufgehoben 1.6.2026, vgl. §§ 45-48 WsG)", "§ 16 EG GSchG (aufgehoben 1.6.2026, vgl. §§ 45-48 WsG)", "§ 232 PBG", "Art. 15 WaG", "Art. 13 WaV", "§ 110 LG", "Art. 7 EnG", "§ 8a EnerG", "Art. 106 KV", "§§ 9-13 EnerG", "Art. 45 EnG"]
+paragraphen: ["§ 234 PBG", "§ 236 PBG", "§ 237 PBG", "§ 173 PBG", "§ 174 PBG", "§ 105 PBG", "§ 109 LG", "§ 110 LG", "§ 111 LG", "§ 112 LG", "§ 115 LG", "Art. 19 RPG", "Art. 32c USG", "§ 27 WWG", "§ 25 WWG", "§ 26 WWG", "§ 16 FeuerwehrV", "§ 39 WWG", "§ 128 PBG", "Art. 19 GSchG", "Art. 20 GSchG", "Art. 29 GSchV", "Art. 30 GSchV", "Art. 10 GSchG", "Art. 11 GSchG", "Art. 12 GSchG", "Art. 13 GSchG", "Art. 3 GSchV", "Art. 4 GSchV", "Art. 5 GSchV", "§§ 14 ff. EG GSchG (aufgehoben 1.6.2026, § 126 lit. a WsG; Nachfolge §§ 49 ff. WsG, Abschnitt C Siedlungsentwaesserung)", "§ 16 EG GSchG (aufgehoben 1.6.2026, § 126 lit. a WsG; Nachfolge §§ 49 ff. WsG, Abschnitt C Siedlungsentwaesserung)", "§ 232 PBG", "Art. 15 WaG", "Art. 13 WaV", "§ 110 LG", "Art. 7 EnG", "§ 8a EnerG", "Art. 106 KV", "§§ 9-13 EnerG", "Art. 45 EnG"]
 status: emerging
 gelesen: 2026-06-30
 last_updated: 2026-06-30

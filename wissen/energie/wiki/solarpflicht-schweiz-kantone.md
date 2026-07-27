@@ -22,7 +22,7 @@ verschärfen, nicht darunter bleiben.
 |---|---|
 | Bern (ab 1.1.2026) | Keine Schwelle, 10 % aGF, ≥60 % geeignete Dachfläche, plus Parkplatz-Pflicht |
 | St. Gallen | 10 W/m² EBF + kommunale Zusatzkompetenz |
-| Basel-Landschaft (ab 1.10.2024) | PV soweit technisch/wirtschaftlich möglich |
+| ~~Basel-Landschaft (ab 1.10.2024)~~ | ⚠ **überholt (Run 56/57-Stand), nicht verwenden** — BL steht weiter unten in dieser Tabelle mit dem geklärten Stand; Doppelzeile bereinigt Wissens-Chef Run 18, 27.07.2026 |
 | Luzern | Alle Neubauten, 50 % Dachfläche — auch EFH |
 | Zürich | Vorlage Dächer >300 m² vollflächig — **noch nicht in Kraft** |
 | Aargau | **Bleibt beim Bundesminimum** (300 m²/20 % aGF) — eigene Verschärfung von Grossrats-Kommission 9:6 zur Ablehnung empfohlen |

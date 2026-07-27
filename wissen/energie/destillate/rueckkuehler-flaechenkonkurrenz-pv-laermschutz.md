@@ -121,9 +121,17 @@ Grössenordnung für eine sehr frühe Vorstudie, nicht als Bemessungsgrundlage.
 Die Vollzugshilfen zum **Bundesminimum-Modell der Solarpflicht** (Art. 45a EnG, Mantelerlass,
 umgesetzt u.a. in den Kantonen Bern, Basel-Landschaft, Aargau — nicht zu verwechseln mit dem
 älteren, andersartigen Eigenstromerzeugungsmodell EN-104/10 W/m² EBF, siehe Abgrenzung unten)
-regeln übereinstimmend, dass die **Bruttodachfläche** als Bemessungsgrundlage für die
-Solarausstattungspflicht (i.d.R. 60 % der geeigneten Bruttodachfläche) **inklusive** kleiner
-technischer Ein- und Aufbauten zu berechnen ist:
+regeln übereinstimmend, dass die **Bruttodachfläche** als Bemessungsgrundlage **inklusive** kleiner
+technischer Ein- und Aufbauten zu berechnen ist.
+
+> ⚠ **Korrektur Wissens-Chef Run 18 (27.07.2026): übereinstimmend ist nur die Abzugs-Systematik,
+> NICHT die Prozentzahl.** Hier stand «i.d.R. 60 % der geeigneten Bruttodachfläche» pauschal für
+> alle drei Kantone — das ist die Fehlerklasse «falscher Kantonskatalog». Je Kanton gilt (Belege in
+> `[[solarpflicht-schweiz-kantone]]` und `[[solarpflicht-national-mantelerlass-kantone]]`):
+> **BE** keine Flächenschwelle, 10 % aGF und ≥ 60 % der geeigneten Dachfläche, plus Parkplatz-Pflicht
+> — BE ist damit gerade **kein** Bundesminimum-Kanton · **AG** bleibt beim Bundesminimum
+> (300 m² / **20 % aGF**) · **BL** siehe Vorbehalt unten. Vor jeder Umrechnung ist zuerst die
+> **Bezugsgrösse** zu prüfen: aGF, Bruttodachfläche und W/m² EBF sind nicht ineinander umrechenbar.
 
 - **Kanton Bern**, Vollzugshilfe «Solarausstattungspflicht», Ausgabe Januar 2026, wörtlich: «Die
   Bruttofläche ist die mit den Aussenkanten begrenzte, in der Dachneigung geneigte Dachfläche
@@ -151,9 +159,19 @@ Bruttofläche zu erreichen.
 
 ### Der Ausweg: Einzelfall-Ausnahmegesuch «technische Machbarkeit», kein Automatismus
 
-Alle drei Vollzugshilfen kennen aber eine Ausnahmebewilligung bei **technischer
-Unmöglichkeit** — und die Basel-Landschaft-Vollzugshilfe benennt dabei als konkretes,
-wörtliches Beispiel genau den hier gefragten Fall der Flächenkonkurrenz mit Haustechnik:
+BE und BL kennen eine Ausnahmebewilligung bei **technischer Unmöglichkeit** — und die
+Basel-Landschaft-Vollzugshilfe benennt dabei als konkretes, wörtliches Beispiel genau den hier
+gefragten Fall der Flächenkonkurrenz mit Haustechnik:
+
+> ⚠ **Korrektur Wissens-Chef Run 18: «alle drei» stimmt für den Kanton Aargau nicht.** Das
+> AG-Merkblatt schliesst diesen Befreiungsgrund ausdrücklich aus: «Abgesehen von den in Abs. 1
+> abschliessend aufgeführten Ausnahmen, wird auf eine Befreiung aufgrund fehlender technischer
+> Möglichkeit bewusst nicht eingegangen. Es wird davon ausgegangen, dass unter Einbezug von Dach-
+> und/oder Fassadenflächen in jedem Fall eine Erfüllung der Anforderung möglich ist.» AG kennt nur
+> zwei Befreiungsgründe (Ortsbild-/Landschaftsschutz in Zonen mit erhöhten Anforderungen sowie
+> wirtschaftliche Unverhältnismässigkeit). **Für ein AG-Projekt ist die Argumentation
+> «Rückkühler belegt die Fläche» kein gangbarer Weg** — dort führt nur die Wirtschaftlichkeit oder
+> das Ausweichen auf die Fassade.
 
 > «Ist die Erstellung einer Photovoltaik-Anlage technisch nicht möglich, so hat dies die
 > gesuchstellende Person im Rahmen des ordentlichen Baubewilligungsverfahrens schriftlich und

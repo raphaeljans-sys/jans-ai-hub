@@ -150,6 +150,18 @@ Sollwerte für sanierte Bäder und Zielwerte für Neubauten, bezogen auf Gebäud
 und auf die Energiebezugsfläche (SIA 180/4), als Summe der Energiekennzahlen für Wärme und
 Elektrizität (BFE 1993, S. 14, Tabellen 1 und 2):
 
+> ⚠ **Zwei Vorbehalte direkt an den Zahlen (Wissens-Chef Run 18, 27.07.2026) — sie standen bisher
+> nur im Frontmatter und überlebten die Abfrage nicht.**
+> **(a) Stand 1993.** Diese Soll-/Zielwerte bilden den Baustandard **vor** MuKEn und **vor**
+> SIA 380/1:2009/2016 ab. Sie taugen als historischer Grössenordnungs-Anker, **nicht** als heutiger
+> Zielwert — schon damals waren sie weich (die Sanierung Muttenz 1995 erreichte 190 MJ/m³a, knapp
+> über dem Neubau-Zielwert von 180). Eine aktuelle CH-Referenz zu diesem Spezialthema fehlt (offener
+> Punkt 1).
+> **(b) Beide Bezugsgrössen sind zurückgezogen.** SIA 116:1952 (umbauter Raum) und SIA 180/4:1982
+> (EBF) führt die KB `normen` als zurückgezogen (`wissen/normen/wiki/REGISTER.md` Z. 52/108/300);
+> Nachfolge SIA 416:2003 bzw. SIA 416/1:2007. Die Übertragbarkeit dieser m³-Kennwerte auf ein
+> **GV nach SIA 416** ist nicht geprüft — vor jeder Hochrechnung Bezugsgrösse klären.
+
 - **Sollwerte Sanierung:** kleines Bad 240 MJ/m³a (67 kWh/m³a); mittleres Bad 220 MJ/m³a
   (61 kWh/m³a); grosses Bad 200 MJ/m³a (56 kWh/m³a).
 - **Zielwerte Neubau:** kleines Bad 210 MJ/m³a (58 kWh/m³a); mittleres Bad 180 MJ/m³a
@@ -238,15 +250,20 @@ zitierten Dalton-Formel — **kein Zitat einer Quelle, die Therapiebäder selbst
 - **Bezeichnungskollision bei SIA 385/1 (wichtiger Hinweis für die Praxis):** Der BFE-Bericht
   1993 zitiert «SIA 385/1: Anforderung an das Wasser und an die Wasseraufbereitungsanlagen in
   Gemeinschaftsbädern». Der aktuell im SIA-Shop geführte Titel **SIA 385/1:2020** lautet jedoch
-  «Anlagen für Trinkwarmwasser in Gebäuden» — ein völlig anderes Sachgebiet (Trinkwarmwasser
-  allgemein, nicht Badewasseraufbereitung). Es ist NICHT geklärt, ob die alte
-  Badewasser-Norm unter derselben Nummer inhaltlich ersetzt, unter einer anderen Nummer (z.B.
-  SIA 385/9 oder eine SWKI-Richtlinie) fortgeführt wurde, oder ob es sich um eine reine
-  Nummern-Wiederverwendung handelt. **Vor jedem Zitat von «SIA 385/1» im Kontext
-  Badewasseraufbereitung ist darum zwingend zu prüfen, welche Norm heute tatsächlich für die
-  Wasseraufbereitung von Bädern massgebend ist** (voraussichtlich eine SWKI-Richtlinie, siehe
-  SWKI VA106-01, oder eine neuere SIA-Fassung mit anderer Nummer) — dies ist ein offener
-  Punkt, keine gesicherte Aussage.
+  «Anlagen für Trinkwarmwasser in Gebäuden» — ein völlig anderes Sachgebiet.
+  **AUFGELÖST — Wissens-Chef Run 18 (27.07.2026), führende KB `normen`:** Es ist eine reine
+  **Nummern-Wiederverwendung**, und sie ist im Normen-Register bereits als Falle geführt
+  (`wissen/normen/wiki/REGISTER.md` Abschn. B, Z. 217/303, geprüft dort in Run 22 vom 25.07.2026,
+  also zwei Tage vor diesem Destillat). Die Kette lautet: die Badewasser-Norm **SIA 385/1:2000**
+  (zuvor 385/1:1982, ersetzte zusätzlich Empf. 385/11:1990 und 385/12:1994) ging **2011 in
+  SIA 385/9 auf**; die frei gewordene Nummer 385/1 wurde 2011 für «Anlagen für Trinkwarmwasser in
+  Gebäuden» (Nachfolge SIA 385/3:1991) wiederverwendet. **Für die Badewasseraufbereitung ist also
+  die Reihe SIA 385/9 massgebend, nicht SIA 385/1.** Fassungs-Vorbehalt: das Normen-Register führt
+  385/9 mit Ausgabe 2011, sein Konkordanz-Bestand stammt aber aus `ersetzte_normen.pdf` mit Stand
+  25.02.2013 und bildet spätere Revisionen nicht ab — der SIA-Shop weist eine **Ausgabe 385/9:2023**
+  aus («Wasser und Wasseraufbereitungsanlagen in öffentlich zugänglichen Schwimmbädern und ähnlichen
+  Einrichtungen», ersetzt 385/9:2011). Vor einem Zitat mit Ausgabejahr ist die geltende Fassung
+  darum in `normen` zu verifizieren (dort als Prüfauftrag angemeldet).
 - **Praktische Konsequenz für die Bauherrschaft:** Ein Therapiebad im Raumprogramm eines
   Pflegeheims oder Spitals ist mit hoher Wahrscheinlichkeit eine energetische **Sondernutzung**,
   die gesondert von der übrigen Wohn-/Pflegenutzung zu betrachten ist — schon weil öffentliche
@@ -272,8 +289,9 @@ zitierten Dalton-Formel — **kein Zitat einer Quelle, die Therapiebäder selbst
    Schweizer Fachnorm zur Schwimmhallen-Lüftung nur dem Titel nach identifiziert, Normtext
    nicht geprüft — voraussichtlich die ergiebigste noch ungehobene CH-Primärquelle für eine
    Vertiefung dieses Themas.
-4. **Bezeichnungskollision SIA 385/1** (Abschnitt 7) bleibt ungeklärt und ist vor jedem
-   Normzitat im Bäder-Kontext zu verifizieren.
+4. ~~**Bezeichnungskollision SIA 385/1**~~ — **geschlossen, Wissens-Chef Run 18 (27.07.2026):**
+   reine Nummern-Wiederverwendung, Badewasser läuft über SIA 385/9 (siehe Abschnitt 7). Rest-offen
+   ist nur noch das Ausgabejahr von 385/9 (2011 laut Normen-Register vs. 2023 laut SIA-Shop).
 5. **SIA 2024** (45 Raumnutzungen) nicht im Volltext geprüft — ob eine eigene Kategorie
    «Hallenbad»/«Therapiebad» mit eigenen SIA-380/1-Grenzwerten existiert, ist offen.
 6. Die in Abschnitt 5 hergeleitete «rund 40 % höherer Sättigungsdampfdruck bei 33 °C

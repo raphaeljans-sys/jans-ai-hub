@@ -172,8 +172,12 @@ Gebäudeautomation (HLKKSE+GA)**. Die Verordnungsstufe (**§ 48c BBV I**, amtlic
   MuKEn-Fünfjahres-Kadenz (§ 13d Abs. 1 EnerG kennt keine Wiederholung; die 5-Jahres-Pflicht in
   Art. 7.4 MuKEn 2025/Art. 8.4 MuKEn 2014 ist Musterrecht, das ZH nicht übernommen hat — bereits
   am 19.07.2026 im Schwester-Destillat korrigiert).
-- **Befreiung:** Betriebsstätten mit Grossverbraucher-Zielvereinbarung nach § 13a EnerG sind
-  automatisch befreit (§ 48c Abs. 1 lit. b/c BBV I) — siehe Abgrenzung Abschnitt 4.
+- **Befreiung — drei getrennte Tatbestände** (§ 48c Abs. 1 BBV I, amtlicher Wortlaut
+  `wissen/baurecht/raw/260607_amtlich_zh_bbv1.md:925-937`, führende KB `baurecht`):
+  **lit. a** Elektrizitätsverbrauch < 200'000 kWh/Jahr · **lit. b** Zielvereinbarung als
+  Grossverbraucher · **lit. c** «für die eine freiwillige Zielvereinbarung abgeschlossen wurde
+  (KMU-Modell)» — **schwellenunabhängig**, also nicht auf Grossverbraucher beschränkt.
+  Siehe Abgrenzung Abschnitt 4.
 
 ### 2.3 EVEN — die neue Vollzugsplattform (Stand 27.07.2026)
 
@@ -205,14 +209,21 @@ Abgrenzung:
 | Träger | Jede Betriebsstätte ab Schwelle | Nur wer die (höhere) Grossverbraucher-Schwelle erreicht |
 | Inhalt | Einmalige (ZH) HLKKSE+GA-Optimierung + Bericht, 10 J. Aufbewahrung | Laufende Verbrauchsanalyse + zumutbare Effizienzmassnahmen, 10-15 Jahre Vertragsdauer |
 | Vorteil bei Erfüllung | Keiner (reine Pflicht) | Bei UZV: Rückerstattung CO2-Abgabe **und** Netzzuschlag; bei KZV: Befreiung von Detailvorschriften **und** von § 13d |
-| Verhältnis zueinander | Wer eine Grossverbraucher-Zielvereinbarung hat, ist **automatisch von § 13d befreit** (§ 48c Abs. 1 lit. b/c BBV I) | — |
+| Verhältnis zueinander | Wer eine Grossverbraucher-Zielvereinbarung hat, ist von § 13d befreit (§ 48c Abs. 1 **lit. b**); eine **freiwillige** Zielvereinbarung (KMU-Modell) befreit nach **lit. c** ebenso — ohne Schwelle | — |
 
-**Praktische Konsequenz:** Ein Betrieb im Bereich **200'000-500'000 kWh Strom/Jahr** («Zwischenzone»)
-unterliegt der Betriebsoptimierungspflicht, erreicht aber die Grossverbraucher-Schwelle noch
-nicht und kann sich deshalb **nicht** über eine Zielvereinbarung befreien lassen. Erst **ab**
-0,5 GWh Strom bzw. 5 GWh Wärme eröffnet sich die Wahl zwischen behördlicher Verpflichtung und
-freiwilliger Zielvereinbarung — und bei Abschluss einer Zielvereinbarung entfällt die separate
-Betriebsoptimierungspflicht automatisch.
+**Praktische Konsequenz (korrigiert, Wissens-Chef Run 18, 27.07.2026):** Ein Betrieb im Bereich
+**200'000-500'000 kWh Strom/Jahr** («Zwischenzone») unterliegt der Betriebsoptimierungspflicht und
+erreicht die Grossverbraucher-Schwelle noch nicht — **er kann sich aber sehr wohl befreien lassen**,
+nämlich über **§ 48c Abs. 1 lit. c BBV I**: «für die eine freiwillige Zielvereinbarung abgeschlossen
+wurde (KMU-Modell)». Dieser Tatbestand ist schwellenunabhängig; die Zwischenzone ist nur sein
+praxisrelevanter Hauptanwendungsfall, weil lit. a und lit. b dort nicht greifen. Zwei Vorbehalte für
+die Bauherren-Auskunft: die Befreiung tritt **nicht automatisch** ein, sondern setzt einen
+**abgeschlossenen** Vertrag voraus (Träger act/EnAW), und die Aufnahmekriterien des KMU-Modells sind
+eine Frage des Anbieters, nicht der Verordnung — im Hub bisher nicht belegt (→ QUESTIONS).
+Ab 0,5 GWh Strom bzw. 5 GWh Wärme kommt zusätzlich die Wahl zwischen behördlicher Verpflichtung und
+Grossverbraucher-Zielvereinbarung hinzu (lit. b).
+*Diese Stelle war ein Rückfall hinter die Chef-Korrektur aus Run 16, die in
+`wissen/planungsgrundlagen/wiki/energie-energienachweis-zh-formulare.md:100-109` bereits richtig steht.*
 
 ## 4. MuKEn 2025 — die kommende Verschärfung (noch nicht geltendes Recht)
 

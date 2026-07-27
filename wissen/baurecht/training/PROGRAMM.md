@@ -152,8 +152,13 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
     Abs. 1 lit. a WsG) und `wiki/baureife-und-erschliessung.md` (Fassungs-Warnung gesetzt).
     **Bekannte §-Zuordnungen** (im Einzelnen noch zu verifizieren): § 8 → **§ 44 Abs. 1 lit. a WsG**
     (Wortlaut geprüft: «die der Nutzung von Boden, Untergrund oder Abwasser zur Gewinnung von Energie
-    oder zur Kühlung dienen») · §§ 35/36 → §§ 45/46 WsG · § 52 Abs. 1 (Rekurs) → § 122 WsG ·
-    §§ 13 ff./15/45 (Kanalisationspflicht, Anschlussgebühren) → 3./4. Abschnitt WsG.
+    oder zur Kühlung dienen») · § 35 → **§ 46 WsG** (verifiziert 27.07.2026, NICHT § 45 — die frühere
+    Pauschalzuordnung «§§ 35/36 → §§ 45/46» ist damit überholt und hier gestrichen; § 36 Abs. 2
+    bleibt offen) · § 52 Abs. 1 (Rekurs) → § 122 WsG · §§ 14 ff. (Kanalisationspflicht) → **§§ 49 ff.
+    WsG, Abschnitt C Siedlungsentwässerung** · § 45 (Anschlussgebühren) → **§§ 61/62 WsG**
+    (beides am amtlichen Volltext bestätigt, Wissens-Chef Run 18, 27.07.2026: § 61 Abs. 1 lit. b
+    «Gebühren für den Anschluss von Grundstücken, Bauten und Anlagen an die öffentliche Kanalisation»,
+    § 62 Abs. 1 «kostendeckend und verursachergerecht»).
     **Bring-Schuld separat:** Ist die **KGSchV (LS 711.11)** ebenfalls aufgehoben? § 126 WsG hebt nur
     *Gesetze* auf; die Materie von § 35 KGSchV steht heute in § 92 WsV — das indiziert die Aufhebung,
     belegt sie aber nicht. An zhlex LS 711.11 prüfen. **Drittkanal (andere KB, nur melden):**

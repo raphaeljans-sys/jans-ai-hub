@@ -404,6 +404,17 @@ Zürich bedeutet dieser Rechercheausstand konkret:
   gezielte Anfrage beim Amt für Umwelt und Energie SZ ist hier der einzig verlässliche Weg, bevor
   ein Projekt mit Abwasserwärme in SZ weitergeplant wird.
 
+  > ⚠ **ÜBERHOLT für den SZ-Teil — Wissens-Chef Run 18 (27.07.2026).** Dieser Abschnitt stützt sich
+  > nur auf Websuche. Seit Run 117 liegt die amtliche Volltext-Fassung vor:
+  > **[[abwasserwaerme-bewilligung-sz-vertiefung]]** (kEnG, kEnV, EGzGSchG SRSZ 712.110, WRG
+  > SRSZ 451.100, je per curl+pdftotext gelesen). Sie kennt einen **kantonalen Anknüpfungspunkt**,
+  > den dieser Abschnitt nicht hat: **§ 11 Abs. 2 lit. b WRG** — «Konzessionspflichtig sind
+  > insbesondere: … b) der Betrieb von Wärmepumpen» — mit Leistungsschwelle «in der Regel mehr als
+  > 50 kW» (§ 12 Abs. 2 lit. e/f WRG). Für eine SZ-Vorabklärung ist **die Vertiefung** massgebend;
+  > der dort genannte Ansprechpartner ist die kantonale Gewässerschutzfachstelle **Amt für Gewässer
+  > (AfG)** für Abwasser (§ 17 EGzGSchG) — das AfU ist für den **Grundwasser**schutz zuständig
+  > (§ 29 EGzGSchG). Beide Angaben sind richtig, aber sachbereichsabhängig; nicht verwechseln.
+
 ## Offene Punkte
 
 - **Kein aktueller (2025/2026) Abwasserwärme-spezifischer Fördersatz für Kanton Zürich
@@ -486,4 +497,5 @@ Zürich bedeutet dieser Rechercheausstand konkret:
 ## Backlinks
 
 [[waermeplanung-kommunal-zh-sz]] · [[anergienetz-kalte-fernwaerme-ch]] ·
-[[waermepumpe-systemvergleich]]
+[[waermepumpe-systemvergleich]] · [[abwasserwaerme-bewilligung-sz-vertiefung]] (führend für SZ,
+Wissens-Chef Run 18)

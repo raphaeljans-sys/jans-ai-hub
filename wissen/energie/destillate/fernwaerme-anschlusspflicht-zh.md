@@ -59,8 +59,13 @@ Planungsbeiträge bis 50 % der externen Kosten gewährt.
   nur das **Verfahren**, wenn ein Anschluss gewünscht/erforderlich ist.
 - **Qualitätsanforderung an den Wärmeverbund:** «Zugelassen sind nur Verbunde, deren Wärme zu
   mindestens 70 Prozent aus erneuerbarer Quelle, der Nutzung von Abwärme oder aus der
-  Abfallverbrennung stammt» — deckt sich mit der 70‑%-Schwelle, die auch materiell die
-  Anschlusspflicht nach § 295 Abs. 2 PBG rechtfertigt.
+  Abfallverbrennung stammt» — **Vollzugsvorgabe an den Verbund, nicht Voraussetzung der
+  Anschlussverfügung.** § 295 Abs. 2 PBG kennt keine Prozentschwelle, sondern zwei kumulative
+  Voraussetzungen: Nutzung lokaler Abwärme/erneuerbarer Energien **und** technisch-wirtschaftliche
+  Gleichwertigkeit gegenüber konventionellen Anlagen (amtlicher Wortlaut
+  `wissen/baurecht/raw/260607_amtlich_zh_pbg.md:3035-3040`). Das steht bereits in der eigenen
+  Warnung weiter oben (Z. 42-43) — der Kurzschluss war hier stehen geblieben und ist mit
+  Wissens-Chef Run 18 (27.07.2026) bereinigt.
 - **Verfahren ohne Umbauarbeiten:** einfache Meldung über «eBaugesucheZH», Bearbeitungsfrist
   30 Tage, Beilage: Situationsplan 1:500 oder 1:1000 mit rot eingetragener Hauszuleitung.
 - **Verfahren mit weiteren Umbauarbeiten:** Bewilligungspflicht, Kontaktaufnahme mit dem

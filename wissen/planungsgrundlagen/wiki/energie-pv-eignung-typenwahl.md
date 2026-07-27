@@ -270,6 +270,16 @@ S. 10-11.
 > ist **EBF × 10 W/m² (max. 30 kW)**; Flächenbedarf **8 m²/kW** (mono/polykristallin) bzw.
 > **16 m²/kW** (Dünnschicht) — Quelle Formular EN-104, Detail in
 > `[[energie-energienachweis-zh-formulare]]`.
+>
+> ⚠ **Flächenkonkurrenz Haustechnik ↔ PV-Pflichtfläche (Wissens-Chef Run 18, 27.07.2026).** Nicht
+> davon ausgehen, dass die von Rückkühlern, Lüftungszentralen oder anderer Dachtechnik belegte
+> Fläche automatisch von der Pflichtfläche abgezogen werden darf: die kantonalen Vollzugshilfen
+> rechnen die **Bruttodachfläche inklusive** kleiner technischer Auf- und Einbauten; ein Abzug
+> braucht ein **begründetes Einzelfallgesuch** — und im Kanton Aargau ist «technisch nicht möglich»
+> ausdrücklich **kein** Befreiungsgrund. Fachlich führend die KB `energie`:
+> `wissen/energie/destillate/rueckkuehler-flaechenkonkurrenz-pv-laermschutz.md`. Vor jeder
+> Umrechnung die **Bezugsgrösse** prüfen — aGF, Bruttodachfläche und W/m² EBF sind verschiedene
+> Modelle und nicht ineinander umrechenbar (der Anker oben ist das ZH-Eigenstrommodell).
 
 ## 4 — Wartungszugang Flachdach-PV: Dachausstiege (K29/Run 31, 2026-07-13)
 

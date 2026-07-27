@@ -1,5 +1,30 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
+## 2026-07-27 (Cross-KB energie ↔ normen, Wissens-Chef Run 18) — drei Bring-Schulden aus dem Bäder-/Rückkühler-Stoff
+
+Angemeldet in der **Empfänger-KB**, nicht als Notiz in der abgebenden (Regel aus Run 8).
+
+1. **SIA 385/9 — Fassungsstand prüfen (P1).** Das REGISTER führt Z. 219 «SIA 385/9 | 2011 | 2011✓».
+   Der Konkordanz-Bestand stammt laut eigenem Kopf aus `ersetzte_normen.pdf` mit Stand **25.02.2013**
+   und bildet spätere Revisionen strukturell nicht ab. Der SIA-Shop weist eine **Ausgabe
+   385/9:2023** aus («Wasser und Wasseraufbereitungsanlagen in öffentlich zugänglichen
+   Schwimmbädern und ähnlichen Einrichtungen», ersetzt 385/9:2011) — bisher nur über die
+   Shop-Produktseite belegt, **nicht** am Normtext verifiziert. Solange offen, darf 385/9 nicht mit
+   Ausgabejahr zitiert werden. Abnehmer wartet:
+   `wissen/energie/destillate/therapiebad-hallenbad-energie-pflegeheim.md` Abschn. 7.
+   *Strukturbefund dahinter:* dieselbe 2013er-Bestandsgrenze betrifft potenziell jede nach 2013
+   revidierte Norm im Register — eine Stichprobe wäre wertvoller als der Einzelfall.
+2. **EN 13487 fehlt ganz (P2).** `grep "13487"` über die ganze KB = 0 Treffer. Die Norm wird in
+   `wissen/energie/destillate/rueckkuehler-flaechenkonkurrenz-pv-laermschutz.md:273-275` als
+   Herstellernorm für Rückkühler-Schalldruckpegel zitiert — **ohne Ausgabejahr**, und von dort ins
+   Wiki `waermepumpen-laermschutz.md:110` übernommen. Ausgabe verifizieren (nicht raten), ins
+   REGISTER aufnehmen, Rückverweis setzen.
+3. **EN 12102-1 fehlt ebenfalls (P2).** `grep "12102"` = 0 Treffer, obwohl das WP-Destillat der KB
+   `energie` sie als Messnorm führt.
+
+*Abgrenzung:* die **Cercle-Bruit-Vollzugshilfen 6.20/6.21** sind amtsnahe Vollzugshilfen, keine
+Normen — sie bleiben zu Recht in `energie` und gehören nicht ins REGISTER.
+
 ## Run 31 (MacBook Pro, 27.07.2026) — Retro-Verifikation mit 78 Befunden, zwei Regressionen, zwei Reichweiten-Luecken
 
 **Befund 1 (methodisch, wichtigster des Laufs):** Alle fuenf Destillate, die nach ihrer ersten Pruefrunde

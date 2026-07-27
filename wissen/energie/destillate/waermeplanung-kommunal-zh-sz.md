@@ -214,8 +214,11 @@ Für ein Bauprojekt in Zürich oder Schwyz bedeutet das konkret:
   WebFetch-Sekundärzitat erfasst («definiert die Regeln für die Umsetzung der Transformation und
   die Stilllegung des Gasverteilnetzes») — der Volltext wurde nicht gelesen und dürfte zusätzliche,
   über § 295 PBG hinausgehende Verbindlichkeit für Stadt-Zürich-Grundeigentümer enthalten
-  (Netzausbaugebiete/Netzabbaugebiete). Separates Vertiefungsdestillat empfohlen, bevor daraus in
-  einem Bauherren-Fall zitiert wird.
+  (Netzausbaugebiete/Netzabbaugebiete). ✅ **ERLEDIGT (Run 117, 27.07.2026):** das empfohlene
+  Vertiefungsdestillat liegt vor — **[[energis-kartenwerk-stadt-zuerich]]** hat alle 23 Artikel der
+  WVV im amtlichen Volltext gelesen (Gasverbot ab 2040 Art. 16/18, gebietsweise Gasnetz-Stilllegung
+  Art. 19-20, ökologische Mindestanforderung Art. 8 lit. a). Aus der WVV darf damit zitiert werden.
+  Backlink nachgetragen durch Wissens-Chef Run 18.
 - **Andere Zürcher Gemeinden ausserhalb der Stadt Zürich** (z.B. Winterthur mit eigenem
   Wärmeverbund) wurden nicht einzeln geprüft — die kantonale Rechtsgrundlage (§ 7 EnerG) gilt
   einheitlich, die konkrete Ausgestaltung des Energieplans ist aber Gemeindesache.

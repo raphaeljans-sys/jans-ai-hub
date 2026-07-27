@@ -44,6 +44,17 @@ Der Kanton Schwyz kennt in seinem kantonalen Energiegesetz (kEnG, SRSZ 420.100) 
 Energieverordnung (kEnV, SRSZ 420.111) **keine** der zürcherischen Bereitstellungspflicht
 (§ 30a Abs. 2 BBV I: Abwärme über 2 GWh/Jahr an Dritte zu Gestehungskosten anbieten) analoge
 Bestimmung — dieser Negativbefund ist jetzt am amtlichen Volltext beider Erlasse verifiziert
+
+> ⚠ **Korrektur Wissens-Chef Run 18 (27.07.2026) — ZH-Wortlaut aus der führenden Quelle.** Der
+> ZH-Text war hier aus einem energie-Schwesterdestillat statt aus `baurecht` übernommen; dabei sind
+> zwei Dinge verrutscht. **(1)** Abs. 1 lautet amtlich «wirtschaftlich **tragbar**», nicht
+> «zumutbar» — die Behauptung, § 21 kEnV sei «nahezu wortgleich» bzw. «wortnah analog», stützt sich
+> also auf eine angeglichene Formulierung; ZH und SZ weichen im Wortlaut real ab. **(2)** Bei Abs. 2
+> fehlte der **Auslösetatbestand**: die Drittabgabepflicht greift nicht bei jeder ungenutzten
+> Abwärme über 2 GWh, sondern nur bei **Neubauten** oder bei Bestandsbauten **nach Erneuerung/Umbau
+> der Kälteerzeugung**. Ohne diesen Halbsatz erzeugt die ZH↔SZ-Tabelle in einer Standortabwägung
+> eine Pflicht, die es so nicht gibt. Führende Quelle:
+> `wissen/baurecht/raw/260607_amtlich_zh_bbv1.md:444-446` (Chef selbst gegengelesen).
 (nicht mehr nur eine Web-Vermutung aus Run 116); Schwyz kennt stattdessen nur eine allgemeine
 **Eigennutzungspflicht** für im Gebäude anfallende Abwärme (§ 21 kEnV) und ein
 **Grossverbraucher-Modell** mit Verbrauchsanalyse-Pflicht ab 5 GWh Wärme- bzw. 0,5 GWh
@@ -105,8 +116,8 @@ Antwort-Formatierungsregel — hier als KB-Artikel jedoch Markdown zulässig, Ta
 
 | Element | Kanton Zürich | Kanton Schwyz |
 |---|---|---|
-| Allgemeine Eigennutzungspflicht Abwärme | § 30a Abs. 1 BBV I: «soweit technisch/betrieblich möglich und wirtschaftlich zumutbar» | § 21 kEnV: nahezu wortgleich |
-| Bezifferte Drittabgabepflicht ab Schwelle | § 30a Abs. 2 BBV I: > 2 GWh/Jahr ungenutzte Abwärme → Dritten zu Gestehungskosten anbieten, seit 1.9.2022 | **nicht vorhanden** |
+| Allgemeine Eigennutzungspflicht Abwärme | § 30a Abs. 1 BBV I, **amtlicher Wortlaut**: «ist zu nutzen, soweit dies technisch und betrieblich möglich und wirtschaftlich **tragbar** ist» | § 21 kEnV: sinngemäss analog — **nicht** wortgleich (siehe Korrektur unten) |
+| Bezifferte Drittabgabepflicht ab Schwelle | § 30a Abs. 2 BBV I: **nur** «bei Neubauten oder bei bestehenden Bauten nach Erneuerungen und Umbauten der Kälteerzeugung» und dann > 2 GWh/Jahr ungenutzte Abwärme → Dritten zu Gestehungskosten anbieten, seit 1.9.2022 | **nicht vorhanden** |
 | Grossverbraucher-Schwellenwert | MuKEn-Modell, kantonal geregelt (ZH-Details nicht Gegenstand dieses Destillats) | § 9 kEnG: > 5 GWh/a Wärme oder > 0,5 GWh/a Strom → Verbrauchsanalyse-Pflicht, Befreiung via Zielvereinbarung |
 | Netzbau-/Anschlusspflicht | keine (auch in ZH nicht — nur Bereitstellung am Gebäude) | keine |
 | Enteignungsinstrument für Wärmeleitungen | nicht Gegenstand dieses Destillats | § 20 kEnG: Durchleitungspflicht, Gemeinderat kann Enteignung geltend machen |

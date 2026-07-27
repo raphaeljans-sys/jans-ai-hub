@@ -171,8 +171,19 @@ Es gibt **keine generelle Anschlusspflicht**, aber ein enges, funktional wirkend
   Siedlungsgebiets» bis 2040 mit thermischen Netzen erschlossen.
 - **Ökologische Mindestanforderung an jeden Gebietsauftrag/jede -konzession:** Art. 8 lit. a WVV:
   Anteil Ab-/Umweltwärme oder erneuerbare Energien am Energieträgermix **mindestens 70 %**
-  (ab 2040: 100 %) — dieselbe 70-%-Schwelle, die materiell auch die Anschlussverfügung nach
-  § 295 Abs. 2 PBG rechtfertigt (siehe `[[fernwaerme-anschlusspflicht-zh]]`).
+  (ab 2040: 100 %).
+  > ⚠ **Korrektur Wissens-Chef Run 18 (27.07.2026): die 70 % sind NICHT die Voraussetzung der
+  > Anschlussverfügung.** Hier standen bis zu diesem Lauf zwei verschiedene Normen kurzgeschlossen.
+  > Es sind drei Regeln mit verschiedenen Bezugsgrössen zu trennen: (1) **Art. 8 lit. a WVV**
+  > (städtisch) — Mindestanteil im Energieträgermix eines Gebietsauftrags; (2) **§ 47 g BBV I**
+  > (kantonal) — Erfüllungsfiktion für § 11 Abs. 1-4 EnerG beim Wärmenetzanschluss; (3) das
+  > städtische AfB-Merkblatt (Vollzug). **§ 295 Abs. 2 PBG kennt gar keine Prozentschwelle**:
+  > amtlicher Wortlaut (`wissen/baurecht/raw/260607_amtlich_zh_pbg.md:3035-3040`, führende KB
+  > `baurecht`) verlangt **zwei kumulative Voraussetzungen** — die Fernwärmeversorgung nutzt lokale
+  > Abwärme oder erneuerbare Energien **und** bietet die Wärme «zu technisch und wirtschaftlich
+  > gleichwertigen Bedingungen wie aus konventionellen Anlagen» an; die Verpflichtung ergeht stets
+  > über eine anfechtbare Verfügung. Der Gleichwertigkeits-Vorbehalt ist der praktische Hebel jeder
+  > Einsprache und fehlte hier ganz. Siehe `[[fernwaerme-anschlusspflicht-zh]]`.
 
 **Fazit rechtliche Bedeutung:** EnerGIS/die Energieplankarte begründet **keine** Anschlusspflicht
 aus sich selbst heraus. Sie ist aber die räumliche Grundlage für zwei Instrumente, die

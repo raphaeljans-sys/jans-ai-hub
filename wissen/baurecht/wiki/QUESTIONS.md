@@ -1,5 +1,43 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## 2026-07-27 (Wissens-Chef Run 18) — P1: der geltende Erlass WsG (LS 724.1) liegt nirgends im Hub
+
+**Die führende KB für den ZH-Erlassstand zitiert das WsG inzwischen an rund vierzehn Stellen —
+und hat seinen Volltext nicht.** `find` über den ganzen Hub nach `*724.1*` bzw. `*wassergesetz*`:
+**0 Treffer**. Für PBG, EnerG, BBV I, HWSchV, AbtrG und EG ZGB führt `raw/` je einen amtlichen
+Volltext (zuletzt `raw/260727_amtlich_zh_abtrg.md`, am selben Tag angelegt) — für den Erlass, der
+zwei andere ablöst und den laufenden Nachzug trägt, fehlt er. Jede WsG-Zuordnung ist damit
+derzeit unbelegbar; die eigene Programm-Notiz hält fest, das PDF sei «selbst gezogen und
+gegengelesen», abgelegt wurde es nicht.
+
+**Der Bezugsweg ist bekannt und kurz** (der Chef hat das PDF in diesem Lauf erneut gezogen und
+gegengelesen — 36 Seiten, sauber per `pdftotext -layout` lesbar):
+`https://www.notes.zh.ch/appl/zhlex_r.nsf/WebView/88B45406EADD17EDC1258DFF004AC18A/$File/724.1_12.12.24_133.pdf`
+(die generische zh.ch-`dam`-URL liefert **HTML statt PDF** — nicht diesen Weg nehmen). Die WsV
+(LS 724.11) liegt analog unter `.../AD9F7244AD3E6B67C1258DFF004B1FE8/$File/724.11_2.7.25_133.pdf`;
+beide URLs stehen bereits in `raw/260717_amtlich_zh_hwschv.md:151/169`.
+
+**Mindestumfang für `raw/2607xx_amtlich_zh_wsg.md`:** §§ 44-48 (Bewilligungen, planerischer
+Gewässerschutz, Wärmenutzungsatlas § 48 Abs. 2), §§ 49 ff. (Abschnitt C Siedlungsentwässerung),
+§§ 61/62 (Gebühren), § 119, § 122, § 126 samt Fn. 2 (Inkrafttreten 1.6.2026). Danach die zwei noch
+offenen Zuordnungen abschliessen: § 15 Abs. 3 (40-m-Nebenanlagen) und § 36 Abs. 2
+(Grundbuch-Anmerkung) — beide bisher ohne wortwörtliche Entsprechung.
+
+*In diesem Lauf am Volltext bereits verifiziert und in den Beständen nachgezogen:* § 45 = Gewässer­
+schutzbereiche **und** Grundwasserschutzareale · § 46 = Grundwasserschutzzonen · Abschnitt C beginnt
+bei § 49 (deshalb war die Frontmatter-Zuordnung «§§ 13 ff./16 → §§ 45-48» in
+`buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md` falsch) · §§ 61/62 = Anschlussgebühren,
+kostendeckend/verursachergerecht.
+
+**P2 im selben Zug: §§ 4-7 EnerG (kantonale/kommunale Energieplanung) nachziehen.**
+`raw/260712_amtlich_zh_energ.md` beschränkt sich aus historischem Grund («nur die für Kap. 17.9
+relevanten Bestimmungen») auf §§ 9-14. Die KB `energie` pflegt den Wortlaut der §§ 4-7 deshalb selbst
+(`destillate/waermeplanung-kommunal-zh-sz.md:36-60`) — Doppelspurigkeit an genau der Stelle, für die
+`baurecht` führend ist, und die kommunale Energieplanung ist über die neuen EnerGIS-/WVV-Destillate
+gerade zum aktiven Thema geworden. Die Datei ist bereits die kanonische EnerG-Ablage; es genügt, sie
+nach vorn zu erweitern. (Wissens-Chef Run 18, Befund B3 — gemeldet, nicht selbst ausgeführt:
+Inventaraufbau gehört dem Loop.)
+
 ## 2026-07-27 (Cross-KB energie ↔ baurecht, Wissens-Chef Run 17) — EG GSchG (LS 711.1) per 01.06.2026 AUFGEHOBEN, KB-weiter Nachzug offen
 
 **Die Sachfrage ist beantwortet, offen ist nur noch die Ausführung.** Belegt am amtlichen

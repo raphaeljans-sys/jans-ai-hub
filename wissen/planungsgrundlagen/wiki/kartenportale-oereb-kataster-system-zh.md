@@ -29,9 +29,9 @@ wiederkehren. Bundesrecht in Zuständigkeit Kanton/Gemeinde:
 | 73B | Nutzungsplanung: kommunale Bau- und Zonenordnung | SR 700 Art. 14/26, LS 700.1 §§ 2, 45–78, 88, 89 | Gemeinden (ARE) | Ja |
 | 76 | Planungszonen | SR 700 Art. 27, LS 700.1 § 346 | ARE | Ja |
 | 116 | Kataster der belasteten Standorte | SR 814.01 Art. 32c, SR 814.680 Art. 5, LS 712.1 § 30 | AWEL | Nein |
-| 130 | Gewässerschutzbereiche | SR 814.20 Art. 19, SR 814.201 Art. 29/30 Anh. 4, LS 711.1 § 3, LS 711.11 §§ 2/3 | AWEL | Ja |
-| 131 | Grundwasserschutzzonen | dito | Gemeinden (AWEL) | Ja |
-| 132 | Grundwasserschutzareale | SR 814.20 Art. 19, LS 711.1 §§ 3/34/37 | AWEL | Ja |
+| 130 | Gewässerschutzbereiche | SR 814.20 Art. 19, SR 814.201 Art. 29/30 Anh. 4, ~~LS 711.1 § 3~~ → **§ 45 WsG (LS 724.1)**, LS 711.11 §§ 2/3 | AWEL | Ja |
+| 131 | Grundwasserschutzzonen | dito, kantonal **§ 46 WsG** (Festsetzung Gemeindevorstand, Genehmigung Direktion) | Gemeinden (AWEL) | Ja |
+| 132 | Grundwasserschutzareale | SR 814.20 Art. 19, ~~LS 711.1 §§ 3/34/37~~ → **§ 45 WsG (LS 724.1)** | AWEL | Ja |
 | 145 | Lärmempfindlichkeitsstufen | SR 814.41 Art. 43, LS 700.21 § 14 | Gemeinden (ARE) | Ja |
 | 157 | Statische Waldgrenzen | SR 921.0 Art. 10 Abs. 2/13, SR 921.01 Art. 12a | ALN | Ja |
 | 159 | Waldabstandslinien | SR 921.0 Art. 17, LS 700.1 §§ 66/262 | Gemeinden (ARE) | Ja |
@@ -47,6 +47,17 @@ wiederkehren. Bundesrecht in Zuständigkeit Kanton/Gemeinde:
 > ([[abstaende-und-hoehen]]); Bundesrecht (SR 814.20 / 814.201) ist unverändert.
 > **Achtung Nummern-Wiederverwendung:** LS 724.11 trug bis 31.05.2026 das WWG und trägt seither die
 > WsV — bei Altdokumenten immer das Datum mitlesen. Siehe [[recht-norm-abstandsvorschriften-wald-gewaesser]].
+>
+> ⚠ **Zweiter aufgehobener Erlass in derselben Tabelle (Wissens-Chef Run 18, 27.07.2026).** Dasselbe
+> WsG hebt in § 126 **zwei** Erlasse auf — neben dem WWG auch das **EG GSchG (LS 711.1)**, ebenfalls
+> per **01.06.2026**. Die Themen 130/131/132 stützten sich hier bis zu diesem Lauf ungeflaggt auf
+> LS 711.1 und zitierten damit aufgehobenes Recht gegenüber dem AWEL, das den Nachfolgeerlass
+> bereits anwendet. Nachfolge am amtlichen Volltext (`724.1_12.12.24_133.pdf`, Wissens-Chef selbst
+> gegengelesen): **§ 45 WsG** setzt Gewässerschutzbereiche **und** Grundwasserschutzareale fest
+> (Themen 130 und 132), **§ 46 WsG** die Grundwasserschutzzonen (Thema 131); § 47 vorläufiger Schutz,
+> § 48 Grundwasser-/Gewässerschutzkarte **und Wärmenutzungsatlas**. Führend für den Erlassstand
+> bleibt die KB `baurecht` (`wissen/baurecht/buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md`,
+> `wissen/baurecht/wiki/QUESTIONS.md`). Bundesrecht (SR 814.20 Art. 19/21) unverändert.
 
 Kantonales Recht (Kt. ZH):
 
