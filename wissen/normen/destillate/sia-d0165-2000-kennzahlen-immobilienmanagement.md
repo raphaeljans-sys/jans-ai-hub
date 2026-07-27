@@ -21,7 +21,7 @@ Wohn-, Arbeits- und Gewerbefläche (VWAGF) sowie ein paralleler Kostenbaum von d
 Investitionskosten bis zu den Nettomietkosten, ergänzt um sechs explizit dokumentierte
 Abweichungen gegenüber SIA 416/DIN 277 (Anhang 3) und operative Bemessungsregeln für
 Grenzfälle wie Brüstungen, Dachschrägen und Treppenläufe (Anhang 5). Als "erste Version"
-(1) liegt der Schwerpunkt bewusst auf Flächen-/Kostenkennzahlen; Kauf-/Verkaufs-/Bewertungs-
+liegt der Schwerpunkt bewusst auf Flächen-/Kostenkennzahlen; Kauf-/Verkaufs-/Bewertungs-
 und Ertragskennzahlen waren für eine Folgeversion vorgesehen (nicht im Bestand nachweisbar).
 
 ## Geltungsbereich
@@ -317,9 +317,11 @@ NK/BMK_VA 36.6%, NK/VMF 23 CHF/m²; BK/NGF 33 CHF/m², BK/HNF 53 CHF/m², BK/BMK
 ## Anhang 1 — Flächenbaum (S. 50; Doppelseiten-Darstellung, PDF 50-51, die linke Blatthälfte trägt keine gedruckte Foliozahl)
 Vollständiger Baum SIA 416 (links) ↔ DIN 277 (rechts), Kopfebene:
 `GSF → GGF (→ AGF*, GF (→ KF, NGF[→ NF(→HNF+NNF), FF, VF])); GSF → UF (→ BUF, UUF)`.
-(Der Split KF → KFT+KFN erscheint im Original NICHT in diesem Baum, sondern erst in den
-beiden Baumdiagrammen in Anhang 4; der Split steht ausserdem im Fliesstext S. 14 und in den
-Formularen S. 29-31.) DIN-277-Hauptkategorien mit erster
+(Der Split KF → KFT+KFN erscheint im Original NICHT in diesem Baum, sondern erst im
+Baumdiagramm Anhang 4 (Abb. 16, S. 58) — und dort nur in der oberen "Vermieter"-Hälfte, wo
+KF tatsächlich in KFT/KFN aufgesplittet wird; die untere "Mieter"-Hälfte importiert KFN
+lediglich als bereits gegebene Grösse, ohne den Split erneut zu zeigen. Der Split steht
+ausserdem im Fliesstext S. 14 und in den Formularen S. 29-31.) DIN-277-Hauptkategorien mit erster
 Subcode-Zeile: HNF1-6, NNF7, FF8, VF9, BUF10 (Letztere nicht Teil der DIN 277,
 SIA-D-0165-eigene Ergänzung, S. 56 Fussnote 44). Vollständige Subcode-Liste siehe Anhang 2
 unten (identisch, hier nur Baumstruktur).
