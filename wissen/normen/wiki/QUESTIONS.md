@@ -1240,3 +1240,55 @@ sinkender Fehlerzahl je Runde (26→5, 18→3, 17→1, 17→4, 4→4 grob stabil
 - [ ] **Vierte Runde** für die fünf weiterhin speculativen Destillate ist angesichts der
   sinkenden, aber nicht auf null gelaufenen Fehlerzahlen (insbesondere `lignum-lignatec-…`
   mit nur noch 1 Befund) naheliegend — voraussichtlich nächster Batch für diese Vertiefungsstufe.
+
+### Regionale Geltung Brandschutznachweis-Arbeitshilfen fuer ZH (Run 33, recherchiert)
+
+Web-Recherche (WebSearch/WebFetch, 27.07.2026) zur oben offenen Frage «kennt die GVZ/Stadt
+Zürich eine abweichende Symbolik oder ein eigenes Verfahren?». Befund: **kein eigenes,
+abweichendes Symbolsystem** — aber ein **eigenes, anders geformtes Verfahrensformular**.
+
+- **Symbolik: kein ZH-Sonderweg.** Die Stadt Zürich (Schutz & Rettung, Abteilung
+  Einsatzplanung) schreibt in ihrem eigenen `Merkblatt Feuerwehrpläne (Einsatzpläne)`
+  (SRZ_EPL_Merkblatt_EP_V1.0, Stand 04.10.2024, Ziff. 1/3.1) wörtlich: «Feuerwehrpläne sind
+  nach dem VKF-Brandschutzmerkblatt 2003-15 «Brandschutzpläne, Flucht- und Rettungswegpläne,
+  Feuerwehrpläne» (BSM) zu erstellen» und «Für die Darstellungen sind Symbole gemäss BSM
+  Anhang B12 «Übersicht Feuerwehr-Symbole» zu verwenden». Damit ist das VKF-Merkblatt 2003-15
+  — dieselbe Quelle, auf die auch die Zentralschweizer Arbeitshilfe V.3 verweist — explizit
+  auch die amtliche Grundlage in der Stadt Zürich; Zürich ergänzt nur objektbezogene
+  Detailvorgaben (Titelblatt-Felder, DIN-824-Faltung, Planmassstäbe, Meldeweg an
+  `srz-einsatzplanung@zuerich.ch`), keine eigene Symbolik.
+  Quelle: `stadt-zuerich.ch/content/dam/web/de/planen-bauen/bauvorschriften-und-planerische-grundlagen/dokumente/sicherheit-gesundheit/brandschutz/merkblatt-einsatzplaene-feuerwehr-v1.0.pdf`
+  (per pdftotext gelesen).
+  Historisch bemerkenswert: dasselbe Merkblatt erwähnt eine «ehemalige GVZ-Anleitung (2006)»
+  für Einsatzpläne, die für Alt-Pläne noch referenziert, aber inzwischen auf die VKF-BSM-
+  Darstellung zu migrieren ist — Zürich hatte also früher einen eigenen Ansatz, ist aber
+  seither auf den gesamtschweizerischen VKF-Standard konvergiert.
+- **Verfahren: eigenes Formular, andere Form als die Zentralschweizer Anleitung.** Die Stadt
+  Zürich (Amt für Baubewilligungen + Schutz & Rettung/Feuerpolizei) führt ein eigenes
+  «Zusatzformular 3 (dem Baugesuch beizulegen) — Brandschutznachweis»: ein strukturiertes
+  Ankreuzformular (QSS-Stufe, VKF-Zertifikat-Nr. des QS-Verantwortlichen, Gebäudegeometrie,
+  RF-Klassen Tragwerk/Brandabschnitte/Fassade/Dach, Brandmauer-Klasse, technischer
+  Brandschutz, Beilagen Brandschutzpläne/-konzept), das direkt dem Baugesuchsdossier beiliegt
+  — anders in der Form als die freitextliche Zentralschweizer «Anleitung zum
+  Brandschutznachweis» V.3 (Vorprüfung per Mail-Anhang beim Brandschutzexperten, ohne
+  Unterschrift). Fussnote 2 des Zürcher Formulars verweist für Beispielpläne auf dasselbe
+  Portal `www.brandschutznachweis.ch`, das auch die Zentralschweizer Arbeitshilfe nennt.
+  Quelle: `stadt-zuerich.ch/content/dam/web/de/planen-bauen/baubewilligungen/dokumente/bewilligungsprozess/dokumente/zusatzformular-3-brandschutznachweis.pdf`
+  (per pdftotext gelesen).
+- **GVZ (kantonale Ebene) selbst:** Auf gvz.ch (Rubrik Brandschutz/Formulare) kein eigenes
+  Brandschutznachweis- oder Symbolik-Merkblatt gefunden — nur Formulare zur
+  Qualitätssicherung (Übereinstimmungserklärung, Gleichwertigkeit QSS 2); die GVZ verweist für
+  objektbezogene Fragen an die Standortgemeinde. Bestätigt (Websuche): die VKF-
+  Brandschutzvorschriften (BSV) sind über die IOTH gesamtschweizerisch für verbindlich erklärt
+  und bilden auch in Zürich die Rechtsgrundlage der Feuerpolizeipraxis — keine Hinweise auf
+  einen eigenen ZH-Normkorpus, der die VKF-Vorschriften materiell ersetzt.
+- **Praxisfolge für JANS-Projekte im Kanton Zürich:** Das Legendenblatt
+  `brandschutzplan-legende-symbole-2017.md` (VKF-Symbolik, Stand 01.01.2017) ist für
+  ZH-Projekte **direkt anwendbar** — durch die Stadt Zürich selbst amtlich referenziert. Die
+  Zentralschweizer «Anleitung zum Brandschutznachweis» V.3 ist dagegen als **Verfahrens**dokument
+  NICHT 1:1 auf ZH übertragbar: für die Stadt Zürich gilt statt der freitextlichen
+  Mail-Vorprüfung das eigene «Zusatzformular 3» (AfB + Feuerpolizei, Tel. 044 411 26 66) für den
+  Brandschutznachweis sowie das separate SRZ-Einsatzplanung-Merkblatt für Feuerwehrpläne.
+  Für andere ZH-Gemeinden ausserhalb der Stadt Zürich bleibt offen, ob sie ein eigenes Formular
+  führen oder sich an die Zentralschweizer Arbeitshilfe halten — nicht recherchiert, da
+  ausserhalb des JANS-Kerngeschäfts (Stadt Zürich) liegend.

@@ -4,14 +4,19 @@ herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direkto
 ausgabe: "Lignatec 17/2005 «Bauten in Holz – Brandschutz-Anforderungen», erschienen Juni 2005, ISSN 1421-0320; geprüft durch die Technische Kommission der Vereinigung Kantonaler Feuerversicherungen (TKB-VKF) auf materielle Übereinstimmung mit den Schweizerischen Brandschutzvorschriften VKF (Ausgabe 2003, gültig seit 1.1.2005) und als «Stand der Technik» anerkannt"
 gelesen: "alle 12 PDF-Seiten (= gedruckte Seiten 2-24 plus Titelblatt) komplett, Bild-Scan ohne Textlayer, visuell gelesen"
 datenstand: "2005 (Bezug: VKF-Brandschutzvorschriften Ausgabe 2003/gültig ab 1.1.2005) — VERALTET gegenüber der aktuellen VKF-Vorschriftengeneration 2015 (vgl. Destillat vkf-ah-1001-15-wohnbauten.md)"
-status: "speculative (dritte unabhaengige Refuter-Runde 260727, Run 32: BEANSTANDET mit 1 Befund
-  — Tab. 4 Eckwerte Wohnbauten MFH 5-6 Geschosse hatte fuer den baulichen Korridor-Wert die
-  falsche Notation (Bindestrich statt Schraegstrich), korrigiert. Alle uebrigen Stellen (Tab. 3,
-  Tab. 4 Restwerte, Tab. 5, alle vier Axonometrie-Doppelseiten, Ziff. 1-4, Literatur/Impressum
-  inkl. ISSN) bei dieser Runde CONFIRMED gegen 600-dpi-Crops. Bleibt speculative: (a) noch kein
-  Nulldurchgang erreicht, (b) unabhaengig davon bleibt der Aktualitaets-Vorbehalt gegen VKF 2015
-  bestehen, da die Quelle von 2005 ist. Historie: Run 30/31 (beide 260727) je BEANSTANDET mit
-  vielen/17 Befunden, Details Rules-Archiv bzw. vorherige Commits.)"
+status: "speculative (vierte unabhaengige Refuter-Runde 260727, Run 33: BEANSTANDET mit 1 Befund
+  — Tab. 5 (S. 15), Beschreibung der blau markierten Felder behauptete Geltung 'in ALLEN
+  Nutzungszeilen'; tatsaechlich hat die Zeile Wohnbauten EFH/REFH durchgehend KEINE farbig
+  markierten Felder (per Pixel-Crop verifiziert), korrigiert auf 'in ALLEN Nutzungszeilen AUSSER
+  Wohnbauten EFH/REFH'. Der in Run 32 korrigierte Tab.-4-Schraegstrich-Wert (Wohnbauten MFH 5-6
+  Geschosse, Korridor baulich) wurde in dieser Runde unabhaengig gegen das Original UND gegen die
+  axonometrische Parallelstelle Ziff. 5.4 (S. 23) erneut geprueft und bestaetigt korrekt. Alle
+  uebrigen Stellen (Tab. 2, Tab. 3 inkl. Beherbergungsbetriebe-Krankenhaeuser-Zeile, Tab. 4 Rest,
+  alle vier Axonometrie-Doppelseiten, Ziff. 1-4 Fliesstext, Schutzabstaende, Literatur/Impressum
+  inkl. ISSN) bei dieser Runde CONFIRMED gegen 400-dpi-Rendering (pdftoppm, eigene Crops). Bleibt
+  speculative: (a) noch kein Nulldurchgang erreicht, (b) unabhaengig davon bleibt der
+  Aktualitaets-Vorbehalt gegen VKF 2015 bestehen, da die Quelle von 2005 ist. Historie: Run 30/31/32
+  (alle 260727) BEANSTANDET mit vielen/17/1 Befunden, Details Rules-Archiv bzw. vorherige Commits.)"
 last_updated: 2026-07-27
 links: [[REGISTER]], [[vkf-ah-1001-15-wohnbauten]]
 ---
@@ -344,11 +349,12 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
   (Fluchtwege) und Flachdach/Steildach/Aussenwand/Innenwand/Decke (Dämmschicht/Zwischenschicht),
   unterteilt nach Tragwerk bb (brennbar) oder nbb (nicht brennbar).
   - Blau markierte Felder = «Keine Anwendung von Holz (bzw. brennbaren Baustoffen) im Rahmen
-    eines Standardkonzeptes» (Legende S. 15) — betrifft in ALLEN Nutzungszeilen die Wand- und
-    Deckenverkleidung der Fluchtwege (Korridor/Treppenhaus), bei 4-8 Geschossen zusätzlich die
-    Dämmschichten Aussenwand/Innenwand/Decke bei brennbarem Tragwerk (bb); die
-    Aussenwandverkleidung ist nur bei Beherbergungsbetrieben [a] (Krankenhäuser) blau, bei
-    Beherbergungsbetrieben [b] (Hotels) nicht.
+    eines Standardkonzeptes» (Legende S. 15) — betrifft in ALLEN Nutzungszeilen AUSSER Wohnbauten
+    EFH/REFH (dort durchgehend keine farbig markierten Felder, freie Holzanwendung, Refuter-
+    Korrektur 260727 Run 33) die Wand- und Deckenverkleidung der Fluchtwege (Korridor/
+    Treppenhaus), bei 4-8 Geschossen zusätzlich die Dämmschichten Aussenwand/Innenwand/Decke bei
+    brennbarem Tragwerk (bb); die Aussenwandverkleidung ist nur bei Beherbergungsbetrieben [a]
+    (Krankenhäuser) blau, bei Beherbergungsbetrieben [b] (Hotels) nicht.
   - Fussnote ① Bei Einfamilienhäusern werden keine speziellen Anforderungen an die Verwendung
     brennbarer Baustoffe mit BKZ ≥ 4.2 gestellt; in Abhängigkeit der Haustechnikanlagen können
     dennoch nicht brennbare Materialien verlangt werden.
@@ -534,3 +540,35 @@ aktuellere Lignum-Publikation zum Holzbau-Brandschutz abzugleichen.
   - Kein Nulldurchgang: das Destillat bleibt entsprechend Auftrag `status: speculative`, auch
     wenn nur noch 1 (statt 17) Befund auftrat — deutliches Zeichen der Konvergenz nach zwei
     vorangehenden Beanstandungsrunden am selben Tag.
+
+- **27.07.2026, Run 33 (vierte Runde)**: unabhängiger Refuter, PDF selbst mit `pdftoppm -r 400`
+  gerendert (kein Zugriff auf vorherige Crops), pro Doppelseite in Links-/Rechts-Haelfte
+  gesplittet (PIL) und gezielt gegen die zentralen Destillat-Aussagen gegengelesen: Seitenlayout-
+  Mapping ueber `pdfinfo` (12 A3-Seiten = 24 gedruckte Seiten, PDF-Seite N = gedruckte Seite 2N
+  links / 2N+1 rechts) verifiziert und zur Navigation genutzt. Verdikt: **BEANSTANDET, 1 Befund**.
+  - **Befund (leicht-mittelschwer)**: Tab. 5 «Sichtbare Oberflächen und Dämmschichten» (S. 15) —
+    die Destillat-Aussage zu den blau markierten Feldern («betrifft in ALLEN Nutzungszeilen die
+    Wand- und Deckenverkleidung der Fluchtwege») war zu pauschal. Per Pixel-Crop der Zeile
+    «Wohnbauten EFH/REFH» (unterste Zeile der Tabelle) verifiziert: diese Zeile hat DURCHGEHEND
+    keine einzige farbig markierte Zelle (weder blau noch grau), über die gesamte Tabellenbreite
+    (1-3 Geschosse UND 4-8 Geschosse, alle Spalten Aussenwandverkleidung/Wandverkleidung/
+    Deckenverkleidung/Bodenbelag/Fluchtwege/Dämmschicht). Konsistent mit Tab. 3/Tab. 4, wo
+    Wohnbauten EFH/REFH ebenfalls durchgehend «Keine Anforderung» tragen. Im Destillat auf
+    «in ALLEN Nutzungszeilen AUSSER Wohnbauten EFH/REFH» korrigiert.
+  - Gezielt gegengeprüft und bestätigt (0 weitere Befunde): der in Run 32 korrigierte Tab.-4-Wert
+    (Wohnbauten MFH 5-6 Geschosse, Korridor baulich «EI60/EI30(nbb)③» mit Schrägstrich) erneut
+    unabhängig gegen Tab. 4 (S. 13) UND gegen die axonometrische Parallelstelle Ziff. 5.4
+    «Korridorwand und -decke, ohne oberstes Geschoss, Baulich» (S. 23) verifiziert — beide zeigen
+    übereinstimmend den Schrägstrich, Fix bestätigt korrekt. Ausserdem gegengelesen: Tab. 3
+    Eckwerte-Zeile Beherbergungsbetriebe[a] Krankenhäuser (durchgehend R60(nbb)/EI60(nbb) von 2
+    bis 7-8 Geschossen, per Zeilen-Crop über S. 8-9 hinweg pixelgenau bestätigt), Tab. 2 komplett
+    (alle Bezeichnungsfamilien inkl. der 30-/60-Minuten-nbb-Abgrenzung und der Schrägstrich-/
+    Bindestrich-Kombinationsbezeichnungen), Ziff. 2.1-2.3 (Tragwerke, Brandabschnittsbegriffe,
+    Schutzabstände 10/7.5/5 m bzw. EFH 7/6/4 m, Nebenbauten 20 m²), Ziff. 3.1.1-3.1.3 (Treppen-
+    anlagen/Korridore/Ausbau, Bauliches Konzept vs. Sprinklerkonzept je Geschossstufe), Ziff. 4.1
+    (Fussnoten ①-⑥ Wortlaut), Axonometrie 5.1 (S. 16-17) und 5.3 (S. 20-21) vollständig Zeile für
+    Zeile, Literatur [1]-[4] und Impressum/ISSN (S. 24).
+  - Kein Nulldurchgang: das Destillat bleibt `status: speculative`. Die Fehlerdichte ist über vier
+    Runden am selben Tag deutlich gesunken (viele/17/1/1), die verbleibenden Befunde sind
+    zunehmend randständig (Legenden-/Vollständigkeits-Präzisierungen statt Zahlendreher in den
+    Kern-Feuerwiderstandswerten).

@@ -5,6 +5,31 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-27
+
+**Woechentlicher Abo-Auslastungs-Check (Mac Mini) — KEINE MESSUNG MOEGLICH, Ampel ROT
+(Messfehler, nicht Verbrauch); der seit 20.07. offene `/login` ist weiterhin nicht erfolgt.**
+`node connectors/claude-usage.mjs` bricht beim Token-Refresh ab: HTTP 400,
+`invalid_grant: Refresh token not found or invalid`, Usage-Endpunkt danach 401. Damit liegen
+**weder ein Wochen-Prozentwert noch eine Extra-Usage-Zahl** vor — die letzte belastbare Messung
+bleibt die vom 19.07. (Woche alle Modelle 31 %, Extra Usage 0.00 USD, Ampel gruen). Der Befund
+ist **kein neuer Fehler**, sondern der unveraendert offene Punkt aus dem Register (Eintrag
+20.07.): der Rotations-Bug im Connector ist seit 20.07. behoben (`persistiereRotation()`
+schreibt den rotierten Refresh-Token in die Keychain zurueck), greifen kann der Fix aber erst
+ab der naechsten gueltigen Credential. **Neuer Beleg dafuer, dass der Re-Login aussteht:**
+der Keychain-Eintrag «Claude Code-credentials» (Account `raphaeljans`) traegt als
+Aenderungsdatum unveraendert **12.07.2026 22:01 UTC** — seit 15 Tagen kein Schreibzugriff, also
+weder Re-Login noch erfolgreiche Rotations-Persistierung. **Offene JANS-Aktion (unveraendert,
+seit 7 Tagen): einmalig im interaktiven Terminal `claude` starten und `/login` ausfuehren**
+(Browser-Flow, headless nicht moeglich), danach einen Kontrolllauf
+`node connectors/claude-usage.mjs` beobachten. Solange das aussteht, ist die Abo-Auslastung
+blind — gerade unter dem am 25.07. wieder aufgehobenen Drosselzustand (Vollgas-Runner beidseitig
+aktiv) ist das die relevante Luecke, weil ein Anlaufen der Extra Usage nicht bemerkt wuerde.
+Bewusst **nur ein** Connector-Lauf (Lehre aus dem 429-Vorfall vom 20.07.: keine Zweitlaeufe zur
+Belegbeschaffung). Read-only gearbeitet, keine Abo- oder Kontoaenderung.
+
+---
+
 ## 2026-07-26
 
 **Nachtschicht Mac Mini: pendenten NAS-Commit-Sync-Task abgearbeitet + `nas-commit-now.sh`

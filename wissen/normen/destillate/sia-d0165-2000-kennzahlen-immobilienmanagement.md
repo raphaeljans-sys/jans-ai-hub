@@ -4,7 +4,7 @@ herausgeber: "SIA (Schweizerischer Ingenieur- und Architektenverein) unter Feder
 ausgabe: "SIA D 0165, Ausgabe 2000 (Copyright 2000 SIA Zürich, ISBN 3-908483-29-8); Druck Schwabe & Co. AG Muttenz, 2. Auflage 2000 Exemplare, 2002-06"
 gelesen: "Vollversion vollständig gelesen 260725 (Run 29, 4 parallele Lese-Agenten, PDF-Seiten 1-73 lückenlos); löst das bisherige 5-Seiten-Teil-Destillat (nur S.14-17) ab"
 datenstand: "Ausgabe 2000 (einzige Ausgabe, kein Nachfolgestand im Bestand oder im Gesamtverzeichnis SIA bekannt)"
-status: "speculative (dritte unabhaengige Refuter-Runde 260727: BEANSTANDET mit 4 Befunden, alle eingearbeitet, keine Regression — Details im Abschnitt Verifikationsstand. Zweite Refuter-Runde 260727, Run 31: BEANSTANDET mit 17 Befunden, alle eingearbeitet. Davon 9 substanziell, darunter EINE Regression der Runde 1 (die Honorar-Sammelcodes BKP 19-99 / EKG W1-W6 waren korrekt und wurden am 26.07. faelschlich geloescht) und ZWEI sachlich falsche Offene-Punkte-Nachtraege der Runde 1 (S.-41-Werte sind herleitbar; VF-Label S. 38 ist lesbar). Weiter korrigiert: nicht belegtes Ausgabedatum Juli 2000 (Impressum nennt nur Ausgabe 2000), Schaetzerhandbuch-Kuerzel SVGK statt SVKG, nicht existierende DIN 416, Anhang-1- und Anhang-4-Seitenzahlen. Bleibt speculative bis zu einer Runde mit sauberem Nulldurchgang.)"
+status: "speculative (vierte unabhaengige Refuter-Runde 27.07.2026, Run 33: BEANSTANDET mit 1 Befund, eingearbeitet, keine Regression — Details im Abschnitt Verifikationsstand. GEFMA-450-Fix aus Runde 3 (Kontenklasse 4xx) bestaetigt korrekt; BKP-19-99/EKG-W1-W6-Wert weiterhin korrekt vorhanden, keine erneute Regression. Dritte unabhaengige Refuter-Runde 260727: BEANSTANDET mit 4 Befunden, alle eingearbeitet, keine Regression. Zweite Refuter-Runde 260727, Run 31: BEANSTANDET mit 17 Befunden, alle eingearbeitet. Davon 9 substanziell, darunter EINE Regression der Runde 1 (die Honorar-Sammelcodes BKP 19-99 / EKG W1-W6 waren korrekt und wurden am 26.07. faelschlich geloescht) und ZWEI sachlich falsche Offene-Punkte-Nachtraege der Runde 1 (S.-41-Werte sind herleitbar; VF-Label S. 38 ist lesbar). Weiter korrigiert: nicht belegtes Ausgabedatum Juli 2000 (Impressum nennt nur Ausgabe 2000), Schaetzerhandbuch-Kuerzel SVGK statt SVKG, nicht existierende DIN 416, Anhang-1- und Anhang-4-Seitenzahlen. Bleibt speculative bis zu einer Runde mit sauberem Nulldurchgang.)"
 last_updated: 2026-07-27
 links: [[sia-416-2003]], [[din-277-1-2005]], [[din-277-2-2005]], [[REGISTER]]
 ---
@@ -418,9 +418,21 @@ Hauptgruppe in Bauteilklassen untergliedert (z.B. 41x/42x: Gründung, Aussenwän
 Innenwände, Decken, Dächer, Anlagenklassen Abwasser/Wärme/Luft/Strom/Fernmelde/
 Förderanlagen/Gebäudeautomation). Parallel-Spalten: DIN 18960(1976) mit grober 6-Punkte-
 Gliederung (Kapital/Abschreibung/Verwaltung/Betrieb/Steuern/Bauunterhalt); GEFMA 200 mit
-eigener 3-stelliger Kontenlogik (2xx Betrieb, 4xx Dienste/Instandsetzung [u.a. 420
+eigener 3-stelliger Kontenlogik (2xx Betrieb [u.a. 221/222/229 Bedienung, 223/224/225
+Inspizieren/Warten/kleine Instandsetzung, 226/490 Entsorgen], 4xx Dienste [u.a. 420
 Reinigungsdienste, 430 Sicherheitsdienste, 440 Hausmeisterdienste, 450 Dienste in
-Aussenanlagen], 5xx Sonstige Dienste [590], 6xx Objektbuchhaltung/Finanzierung).
+Aussenanlagen], 5xx Sonstige Dienste [590], 6xx Objektbuchhaltung/Finanzierung [u.a. 610
+Kostenabrechnung/Controlling, 621 Finanzierungskosten, 623 Abschreibungen, 624/626/629
+Steuern/Versicherungen/sonstige Objektbuchhaltung]).
+
+**Korrektur Run 33**: Die frühere Bucket-Bezeichnung der 4xx-Klasse als "Dienste/
+Instandsetzung" war irreführend und wurde oben zu "4xx Dienste" korrigiert. Die grosse
+Instandsetzung nach DIN-400er-Gruppe (410-440, entspricht der DIN-1976-Gruppe
+"Bauunterhaltungskosten") mappt im Original durchgehend auf den einzigen GEFMA-Code
+**230 "Unterhalt (gr. Instandsetzung)"** — das ist die 2xx-Klasse, nicht 4xx. Keiner der
+im Original für die DIN-400er-Zeile ausgewiesenen GEFMA-Codes liegt in 4xx; die
+4xx-Klasse bezeichnet im Original ausschliesslich Dienste (420/430/440/450), nicht
+Instandsetzung.
 
 ## Anhang 7 — Literaturverzeichnis (S. 67, vollständig, 17 Positionen)
 1. SIA-Empfehlung 380/1 (1988) · 2. SIA-Norm 416 (1993) · 3. DIN 277 (1987) ·
@@ -488,6 +500,29 @@ eigenen fachlichen Zusatzwert).
   betroffen (dort deckungsgleich).
 
 ## Verifikationsstand
+- **27.07.2026, vierte Runde (Run 33, unabhängiger Refuter-Agent)**: vollständiger
+  Volltextabgleich aller 73 Originalseiten (3 Lesedurchgänge à 20/20/13 Seiten) gegen jede
+  Aussage, Formel, Kennzahl, jedes Berechnungsbeispiel, den Flächenbaum, alle sechs
+  Abweichungen (Anhang 3), die Spezialfälle (Anhang 5) und die Kostengliederungs-Kreuztabelle
+  (Anhang 6) im Destillat. Gezielt geprüft: (1) GEFMA-450-Fix aus Runde 3 — **bestätigt
+  korrekt**, Code 450 "Dienste in Aussenanlagen" liegt tatsächlich in der 4xx-Klasse (Original
+  S. 65). (2) BKP-19-99/EKG-W1-W6-Sammelposition — **weiterhin korrekt und vollständig
+  vorhanden** (Original S. 32 f.), keine erneute Regression. (3) Anhang-Seitenzahlen — der in
+  Run 29 aufgedeckte und seither korrigierte PDF/Folio-Versatz hält: printed = PDF − 1 ab
+  PDF-Seite 51, bestätigt bis PDF 71 = gedruckt 70, PDF 72/73 unnummeriert (SIA-Publikations-
+  liste bzw. ISBN-Rückseite, kein Inhalt des Kennzahlenstandards). Verdikt: **BEANSTANDET**,
+  1 Befund, eingearbeitet (keine Regression). Befund: Anhang 6 (S. 63-66) bezeichnete die
+  GEFMA-200-Kontenklasse "4xx" pauschal als "Dienste/Instandsetzung". Das Original weist die
+  gesamte DIN-18960-Gruppe 400 "Instandsetzungskosten" (410-440, korrespondierend zur
+  DIN-1976-Gruppe "6. Bauunterhaltungskosten") durchgehend nur dem einzigen GEFMA-Code **230
+  "Unterhalt (gr. Instandsetzung)"** zu — das ist die 2xx-Klasse, nicht 4xx. Die 4xx-Klasse
+  enthält im Original ausschliesslich Dienste-Codes (420/430/440/450); die Bucket-Bezeichnung
+  wurde auf "4xx Dienste" korrigiert und um konkrete Code-Beispiele je Klasse ergänzt. Alle
+  übrigen Stichproben (Kapitel 1-6 vollständig gegengelesen, beide Berechnungsbeispiele
+  zahlenweise nachgerechnet, Anhang 1-2 Flächenbaum/Zuordnungstabelle, Anhang 3 sechs
+  Abweichungen, Anhang 5 Spezialfälle inkl. der doppelten "Fall A2"-Beschriftung, Anhang 7
+  Literaturverzeichnis inkl. Sicherheitsjahrbuch/-handbuch- und Raumzordnungs-/Raumzuordnungs-
+  Inkonsistenz) ohne Abweichung vom Original bestätigt.
 - **27.07.2026, Run 31**: eine unabhängige Refuter-Runde über die 13 Korrekturen der Runde 1
   (Run 29, 26.07.2026) plus 23 Stichproben. Ergebnis: 17 Befunde, alle eingearbeitet; 9 von 11
   Prioritäts-1-Punkten der Runde 1 bestätigt.

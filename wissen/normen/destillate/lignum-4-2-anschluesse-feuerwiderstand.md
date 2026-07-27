@@ -4,7 +4,7 @@ herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direkto
 ausgabe: "Lignum-Dokumentation Brandschutz, Themenblock 4 'Bauteile in Holz', Publikation 4.2; von der Technischen Kommission Brandschutz der Vereinigung Kantonaler Feuerversicherungen (TKB-VKF) auf Übereinstimmung mit den Mindestanforderungen der Schweizerischen Brandschutzvorschriften VKF, Ausgabe 2015 (BSV 2015), Stand am 01.01.2017 geprüft und am 15.12.2017 als 'Stand der Technik Papier (STP)' anerkannt; erschienen im April 2018 (Impressum S. 64)"
 gelesen: "alle 33 PDF-Seiten gelesen, davon 32 verschiedene Scans (PDF-S. 33 zeigt denselben Scan wie PDF-S. 1: Impressum gedruckte S. 64 plus Umschlag) = gedruckte Seiten 2-64 plus Umschlag inhaltlich vollstaendig erfasst, Bild-Scan ohne Textlayer, visuell gelesen in 2 Schritten (PDF-S. 1-17, PDF-S. 18-33)"
 datenstand: "VKF-Brandschutzvorschriften 2015; STP-Anerkennung 15.12.2017; Druck April 2018"
-status: "speculative (dritte unabhaengige Refuter-Runde 260727: BEANSTANDET mit 3 Befunden, alle eingearbeitet — Kap. 4.4.2/4.4.3 Beplankungsdicken vertauscht, Kap. 5.3.5 Fehlinterpretation 'hoehere statt jeweilige Anforderung', Anhang-3-Zaehlung 8 statt 7 Beispiele. Alle Korrekturen der Runden 1+2 haben standgehalten, u.a. Brettstapel/Brettschichtholz C24/GL24k, EI90-Werte Kap. 4.2.4/4.2.7.1/4.2.7.2, Mindestauflager Kap. 4.2.8.2, Temperaturkriterien 250/270 vs. 140/180 Kap. 5.2.2. Bleibt speculative bis zu einer Runde mit sauberem Nulldurchgang.)"
+status: "established (vierte unabhaengige Refuter-Runde 27.07.2026, Run 33: 0 Befunde, established. Alle drei Korrekturen der dritten Runde — Kap. 4.4.2/4.4.3 Beplankungsdicken, Kap. 5.3.5 Zusammenschluss-Interpretation, Anhang-3-Zaehlung 7 Beispiele — sowie alle Korrekturen der Runden 1+2 wurden gegen den vollstaendigen Bild-Scan erneut zeilenweise gegengeprueft und haben standgehalten, u.a. Brettstapel/Brettschichtholz C24/GL24k, EI90-Werte Kap. 4.2.4/4.2.7.1/4.2.7.2, Mindestauflager Kap. 4.2.8.2, Temperaturkriterien 250/270 vs. 140/180 Kap. 5.2.2, Abb. 320-1 Situationszuordnung, Literaturzaehlung [4]-[12]/[13]-[18], Tabelle 522-1 Estrich-/Betondicken, alle Anhang-3-Bauteilaufbauten A.3.2-A.3.8.)"
 last_updated: 2026-07-27
 links: [[REGISTER]]
 ---
@@ -567,3 +567,45 @@ Plattenränder.
   [4]-[12]/[13]-[18].
 - Status bleibt `speculative`, da diese dritte Runde noch nicht mit 0 Befunden abschliesst.
   Eine vierte Runde ist erforderlich, um `established` zu erreichen.
+
+### Vierte Runde (27.07.2026, Run 33)
+
+- Vollstaendige, unabhaengige Gegenpruefung aller 33 PDF-Seiten (Bild-Scan, gelesen in
+  zwei Schritten PDF-S. 1-17 und PDF-S. 18-33) gegen jede einzelne Aussage/Zahl/Fundstelle
+  des Destillats, adversarial mit dem Ziel, einen Fehler zu finden. Besonderes Augenmerk auf
+  die drei Runde-3-Fixes sowie auf die im Auftrag benannten Stellen (Kap. 4.2.4/4.2.7.1/4.2.7.2
+  EI90-Werte, Kap. 4.2.8.2 Mindestauflager, Kap. 5.2.2 Temperaturkriterien 250/270 vs. 140/180,
+  Brettstapel/Brettschichtholz C24/GL24k).
+- **Verifiziert und bestaetigt korrekt:**
+  1. Kap. 4.4.2 (S. 32): Mindestdicke 15 mm ohne EI30/EI60-Splittung fuer den seitlichen/oberen
+     Anschluss, Leichtbauwand-Randbedingungen (max. 3 m, Balken/Rippe oder Querausholzung
+     800 mm oder Holzwerkstoffplatte 27 mm/700 mm) — exakt wie im Original (Abb. 442-1, Legende 4).
+  2. Kap. 4.4.3 (S. 33): Beplankungsdicken EI30 22 mm/12,5 mm, EI60 46 mm/2×12,5 mm,
+     Vorholzdicke x EI30 ≥ 30 mm/EI60 ≥ 50 mm — exakt wie im Original (Abb. 443-1, Legende 1+x).
+  3. Kap. 5.3.5 (S. 41): Originalwortlaut bestaetigt "die jeweilige Anforderung an die
+     Brandschutzbekleidung auch im Anschlussbereich zu gewaehrleisten" — keine Mittelung/
+     Anhebung auf die strengere Anforderung.
+  4. Anhang 3 (S. 55-62): 7 Beispiele A.3.2-A.3.8, S. 55 (A.3.1) ist Einleitung ohne Beispiel;
+     alle sieben Bauteilaufbauten (Schichtdicken, Ständermasse, Mineralwolle-Rohdichten)
+     einzeln gegengeprueft und korrekt, inkl. der Detailabweichung Gipsfaserplatte 18 mm in
+     A.3.7 gegenueber 15 mm in A.3.3.
+  5. EI90-Werte Kap. 4.2.4 (Abdeckholz b/Ueberlappung c/Bauteildicke e), Kap. 4.2.7.1
+     (Beplankung/Abstand b), Kap. 4.2.7.2 (Fuellholz/BSP/Mineralwolle) — alle Zahlenwerte
+     exakt wie in den Original-Legenden (Abb. 424-1, 427-1, 427-2).
+  6. Kap. 4.2.8.2 Mindestauflager auf Holz (R30/R60/R90 c-Werte fuer beid-/einseitige
+     Beplankung, maximale Verbindungsmittel-Distanz d) — exakt wie im Original (Abb. 428-2).
+  7. Kap. 5.2.2 Temperaturkriterien 250/270 °C (Bekleidungen K) vs. 140/180 °C
+     (brandabschnittsbildende Bauteile), Tabelle 522-1 Estrich-/Betondicken (30/50 mm bzw.
+     60/80 mm) — exakt wie im Original (S. 35).
+  8. Kap. 3.4 Baustoff-Festigkeitsklassen Brettstapel C24, Brettschichtholz GL24k — exakt
+     wie in Tabelle 340-1.
+  9. Literaturzaehlung 22 Referenzen ([1]-[3] VKF, [4]-[12] neun Lignum-Publikationen,
+     [13]-[18] sechs SIA-Normen, [19]-[22]) — Original-Liste S. 48 durchgezaehlt, bestaetigt.
+  10. Kap. 4.3.1 Kontaktflaechen-Mindestmasse (Abb. 431-2, Fuge ein-/zweiteilig EI30/60/90),
+      Kap. 4.3.4 Bauteilfugen bis 80 mm, Kap. 5.1/5.2.3/5.3.2-5.3.9/5.4/5.5, Glossar (Kap. 7),
+      Abkuerzungen (Kap. 6), Nachweiswege Kap. 2.2.2 a-d, Anhang-1-Leitfaden (7 Schritte),
+      Anhang-2-Uebersichtstabellen A.2.2-A.2.5 — durchgehend zeilenweise gegen die Bilder
+      geprueft, keine Abweichung gefunden.
+- **Verdikt: 0 Befunde.** Keine Regression zu den Runden 1-3 festgestellt.
+- **Status auf `established` gehoben.** Vierte unabhaengige Refuter-Runde 27.07.2026 (Run 33)
+  schliesst mit sauberem Nulldurchgang ab.

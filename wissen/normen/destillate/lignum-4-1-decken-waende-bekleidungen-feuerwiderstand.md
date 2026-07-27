@@ -7,7 +7,7 @@ herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direkto
 ausgabe: "Lignum-Dokumentation Brandschutz, Themenblock 4 «Bauteile in Holz», Publikation 4.1 «Decken, Wände und Bekleidungen mit Feuerwiderstand». Erschienen Mai 2015, Nachdruck/Aktualisierung Oktober 2017. Von der TKB-VKF in Bezug auf Übereinstimmung mit den Mindestanforderungen der Schweizerischen Brandschutzvorschriften VKF, Ausgabe 2015 (BSV 2015), Stand 01.01.2017 geprüft und am 06.09.2017 als «Stand der Technik Papier (STP)» anerkannt. Laut Einleitung (S. 4) weist die vorliegende Publikation gegenüber der Erstausgabe von Mai 2015 in technischer Hinsicht keine relevanten Unterschiede auf; die Erstausgabe kann weiterhin angewendet werden."
 gelesen: "alle 40 Seiten (Teile A+B+C) komplett, Titelblatt/Impressum/Buchrücken eingeschlossen — Bild-Scan ohne Textlayer, visuell erfasst"
 datenstand: "Mai 2015 / STP-Anerkennung 06.09.2017"
-status: "speculative (dritte unabhaengige Refuter-Runde 27.07.2026: BEANSTANDET mit 5 Befunden, alle eingearbeitet, keine Regression der Run-31-Korrekturen. Befunde: [15] SIA 265/1 faelschlich in Kap. 2.2 c) statt Kap. 3.2 zitiert; Abb. 310-2 nannte faelschlich 'Massivholzplatten' in einer Baustoffliste, die diese im Original nicht enthaelt; Kap. 4.5.2.1 verzerrte 'mehrseitige Brandeinwirkung auf Querschnitte' zu 'lineare/vollflaechige Brandeinwirkung'; Kap. 5.2.2 setzte K30-RF1/K60-RF1 unbelegt mit 'Bauteil EI30-RF1'/'EI60-RF1' gleich, obwohl Tab. 522-1 nur die Bekleidungsdauer nennt. Vorherige Runde (Run 31, 260727): BEANSTANDET mit 26 Befunden aus zwei scope-getrennten Agenten [Teil A/B 12, Teil C 14], alle eingearbeitet, davon 10 substanziell (invertierte 40-mm-Abgrenzung, falsch zugeordnete 12-15-Minuten-Aussage, vertauschtes Bezugsobjekt Decken/lineare Bauteile, falsche K/F/BSP-Gruppenzuordnung, Traglast je Systemtyp statt je Klasse, Tab. 447-1 Alternativen statt Kombination, drei Faelle mit Werten aus der falschen Spalte [Tab. 442-5, 541-2, 445-1/2], Tab. 462-2 einschichtig/zweischichtig vertauscht) sowie einer zurueckgenommenen Regression (Tab. 446-1 Untergrenze 50 mm war korrekt). Bleibt speculative bis zu einer Runde mit sauberem Nulldurchgang.)"
+status: "speculative (vierte unabhaengige Refuter-Runde 27.07.2026, Run 33: BEANSTANDET mit 1 Befund — Regression aus der dritten Runde. Die dritte Runde hatte in Kap. 5.2.2 die im Original explizit belegte Gleichsetzung 'Bekleidung K30-RF1 / Bauteil EI30-RF1' (bzw. K60-RF1/EI60-RF1) faelschlich als 'unbelegt' entfernt — Tab. 522-1 nennt die Spalte im Original woertlich 'Bauteil RF1' mit Zellwert 'Bauteil EI30-RF1'/'EI60-RF1', der Fliesstext S. 59 nennt das Beispiel 'Bauteil EI30-RF1 anstelle Bekleidung K30-RF1' explizit. Hier korrigiert und praezisiert (zwei gleichwertige Alternativen, keine pauschale Klassen-Gleichsetzung). Alle anderen Runde-3-Befunde (SIA 265/1-Zitat Kap. 2.2c/3.2, Abb. 310-2 Massivholzplatten, Kap. 4.5.2.1 mehrseitige Brandeinwirkung) sowie saemtliche Run-31/Run-1-Korrekturen (40-mm-Abgrenzung, K/F/BSP-Gruppenzuordnung, Traglast je Systemtyp, Tab. 447-1, Tab. 442-5/541-2/445-1-2, Tab. 462-2, Tab. 446-1/2/3, Fugentyp Wand/Decke, VSSM, Tab. 431-3/431-4, Tab. 437-1/437-2, Tab. 441-1, Tab. 436-1) wurden in dieser Runde gegen die Original-Scans zellenweise nachgerechnet und bestaetigt — keine weitere Regression. Vorherige Runde (Run 32, 260727, dritte Runde): BEANSTANDET mit 5 Befunden (4 korrekt, 1 wie oben als Regression identifiziert). Runde davor (Run 31, 260727): BEANSTANDET mit 26 Befunden aus zwei scope-getrennten Agenten [Teil A/B 12, Teil C 14], alle eingearbeitet, davon 10 substanziell (invertierte 40-mm-Abgrenzung, falsch zugeordnete 12-15-Minuten-Aussage, vertauschtes Bezugsobjekt Decken/lineare Bauteile, falsche K/F/BSP-Gruppenzuordnung, Traglast je Systemtyp statt je Klasse, Tab. 447-1 Alternativen statt Kombination, drei Faelle mit Werten aus der falschen Spalte [Tab. 442-5, 541-2, 445-1/2], Tab. 462-2 einschichtig/zweischichtig vertauscht) sowie einer zurueckgenommenen Regression (Tab. 446-1 Untergrenze 50 mm war korrekt). Bleibt speculative bis zu einer Runde mit sauberem Nulldurchgang.)"
 last_updated: 2026-07-27
 links: [[REGISTER]]
 ---
@@ -523,16 +523,25 @@ Repräsentative Grössenordnungen (keine vollständige Wiedergabe der Varianten-
   an die Brandschutzbekleidung K30-RF1 (30/60 Min.) bzw. K60-RF1 (90 Min.).
 - **5.2.2 Brandschutzbekleidung mit Baustoffen der RF1** (S. 59): VKF-anerkannte
   Bekleidungen K gemäss Schweizerischem Brandschutzregister, Registergruppe 230,
-  klassifiziert nach EN 13501-2. Tab. 522-1 (S. 59) gibt die Mindestanforderungen an die
-  Brandschutzbekleidung selbst für 30 bzw. 60 Minuten Feuerwiderstandsdauer der
-  Bekleidung: **K30-RF1** (30 Min.) — fugenlose Estriche (zement-/kalziumsulfatgebunden)
-  30 mm bzw. Beton (Normalbeton) 60 mm; **K60-RF1** (60 Min.) — Estrich 50 mm bzw.
-  Beton 80 mm. Mindest-Bewehrungsüberdeckungen gemäss SIA 262 [13] einzuhalten.
-  (Korrektur 27.07.2026, dritte Runde: die Erstfassung hatte K30-RF1/K60-RF1 pauschal
-  «Bauteil EI30-RF1»/«Bauteil EI60-RF1» gleichgesetzt — Tab. 522-1 selbst benennt nur die
-  Feuerwiderstandsdauer der Bekleidung, nicht eine konkrete Bauteil-FW-Klasse; nach
-  Tab. 232-2 gilt K30-RF1 als Minimum sowohl für die 30- als auch für die 60-Minuten-
-  Bauteilklassen, K60-RF1 erst für die 90-Minuten-Klasse.)
+  klassifiziert nach EN 13501-2, sind einzusetzen. Anstelle von Bekleidungen K ist auch
+  der Einsatz von Bauteilen möglich, die mindestens die brandschutztechnischen Kriterien
+  Ktt-RF1 erfüllen; bei Bauteilen mit Feuerwiderstand EItt-RF1 gilt dieser Nachweis
+  (wegen des strengeren Temperaturkriteriums) als erbracht, sofern sie mindestens über
+  eine der erforderlichen Brandschutzbekleidungsdauer entsprechende Brandschutzbekleidung
+  verfügen — Originalbeispiel: «Bauteil EI30-RF1 anstelle Bekleidung K30-RF1». Tab. 522-1
+  (S. 59) stellt beide Wege einander gegenüber: für 30 Minuten **Bekleidung K30-RF1**
+  (VKF-Anerkennung, Registergruppe 230) bzw. alternativ **Bauteil EI30-RF1** über
+  fugenlose Estriche (zement-/kalziumsulfatgebunden) 30 mm oder Beton (Normalbeton)
+  60 mm; für 60 Minuten **Bekleidung K60-RF1** bzw. alternativ **Bauteil EI60-RF1** über
+  Estrich 50 mm oder Beton 80 mm. Mindest-Bewehrungsüberdeckungen gemäss SIA 262 [13]
+  einzuhalten.
+  (Korrektur 27.07.2026, vierte Runde: die dritte Runde hatte hier faelschlich die
+  K/EI-Gleichsetzung als «unbelegt» entfernt — Tab. 522-1 benennt die Spalte im Original
+  jedoch woertlich «Bauteil RF1» mit den Zellwerten «Bauteil EI30-RF1»/«Bauteil EI60-RF1»,
+  und der Fliesstext auf S. 59 nennt explizit das Beispiel «Bauteil EI30-RF1 anstelle
+  Bekleidung K30-RF1». Die dritte Runde lag falsch; hier wiederhergestellt und praezisiert:
+  es handelt sich um zwei gleichwertige ALTERNATIVEN zur Erfuellung derselben
+  Brandschutzbekleidungsdauer, nicht um eine pauschale Bauteilklassen-Gleichsetzung.)
   Installationen (z. B. Heizungsrohre) dürfen nicht in diesen Schichten geführt werden.
 - **5.2.3 Anschlüsse brandabschnittsbildender Bauteile RF1** (S. 60 f.): Anschluss
   Holzbauteil an Bauteil RF1 — Brandschutzbekleidung durchgehend ohne Unterbruch;
