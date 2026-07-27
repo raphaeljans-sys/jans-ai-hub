@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 27.07.2026 22:11:45
+Stand: 27.07.2026 22:21:54
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 21:52)
@@ -12,4 +12,4 @@ Stand: 27.07.2026 22:11:45
 - 15 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 7c5ed057 energie/QUESTIONS: Empfehlung zu Meta-Punkt M2 (eigener Skill energie) hinterlegt — ja, aber als Bauherren-Beratungs-Skill zugeschnitten; Entscheid bleibt bei Raphael
+- 33aedff7 vollgas-radar 27.07. Nachtrag: Endstand nach paralleler Leerlauf-Bereinigung (beide Runner gestoppt, wettbewerbs-dna stillgelegt, normen 1x/Tag); offener Entscheid VOLLGAS-Ende bei Raphael

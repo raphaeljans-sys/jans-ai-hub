@@ -52,6 +52,131 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### energie ↔ baurecht (Abwaerme/Prozessenergie, EG GSchG → WsG) — geprueft 2026-07-27 (Run 17)
+- **Anlass:** energie Run 116 (27.07.) legte vier neue Abwaerme-Destillate + einen Wiki-Artikel an
+  (Abwasserwaerme Kanalisation ZH/SZ, Grosskuechen-Lueftung, Serverraum-Kuehlung, Waescherei
+  Pflegeheim/Spital).
+- **Befund 1 (WIDERSPRUCH, BESTAETIGT, korrigiert — materiell, ERGIEBIGSTER BEFUND DES LAUFS):**
+  Beide KBs stuetzten die AWEL-Bewilligung fuer Waermenutzung aus Wasser auf **§ 8 EG GSchG**;
+  `energie` behauptete zugleich — ungeprueft aus dem AWEL-Glossar 2025 uebernommen — die Abloesung
+  durch das WsG und liess im selben Atemzug offen, ob das WsG ueberhaupt in Kraft sei. **Der Chef hat
+  das amtliche PDF `724.1_12.12.24_133.pdf` (zhlex) selbst gezogen und drei Stellen im Volltext
+  gegengelesen:** § 126 lit. a hebt das **Einfuehrungsgesetz zum Gewaesserschutzgesetz vom 8.12.1974
+  auf**, Fn. 2 nennt das Inkrafttreten **1. Juni 2026** (OS 81, 145), und § 44 Abs. 1 lit. a Ziff. 3
+  erfasst die Nutzung «von Boden, Untergrund oder **Abwasser** zur Gewinnung von **Energie**»
+  neu ausdruecklich. **Ergebnis: `energie` hatte sachlich recht (ohne Beleg), die laut Matrix
+  FUEHRENDE KB `baurecht` zitierte aufgehobenes Recht** — an 17 Fundorten.
+  **Ursache:** der WsG/WsV-Nachzug aus Buch-Run 50 sweepte nur den Suchbegriff «HWSchV» und wurde in
+  Run 64 als «bleibt geschlossen» verbucht; § 126 hebt aber ZWEI Erlasse auf.
+  **Verallgemeinerte Regel: nach dem NACHFOLGE-Erlass sweepen, nicht nach dem einen Erlass, der den
+  Anlass gab.** → `energie` auf § 44 Abs. 1 lit. a WsG umgestellt (historischer Vermerk, offener
+  Punkt geschlossen, Setzfehler «§ EGSchG» bereinigt); in `baurecht` die zwei konsumierten Stellen
+  direkt korrigiert, die restlichen 15 Fundorte als **Prioritaet (a) im ARBEITSREGISTER**
+  (`training/PROGRAMM.md`) mit Fundortliste, Erledigt-Kriterium und §-Zuordnungen angemeldet,
+  Zeiger in `wiki/QUESTIONS.md`. Neu enger gefasst offen: ist die **KGSchV (LS 711.11)** ebenfalls
+  aufgehoben (§ 126 hebt nur *Gesetze* auf)?
+- **Befund 2 (VERALTETES, BESTAETIGT, korrigiert):** dasselbe Destillat fuehrte das Inkrafttreten des
+  WsG als «offenen Punkt», obwohl es sowohl in `baurecht` (Nachtrag 133, Buch-Run 54) als auch im
+  energie-EIGENEN Schwester-Destillat seit dem 15.07. primaerquellen-belegt war. → geschlossen.
+- **Befund 3 (FEHLENDE QUERVERLINKUNG, gesetzt):** keine der fuenf neuen Dateien enthielt einen
+  einzigen Verweis auf `baurecht` oder `planungsgrundlagen` (grep-Zaehler je 0) — **5. Fundort** des
+  Musters «Rule `normen-referenz` greift beim SCHREIBEN nicht». Die §-Zitate selbst waren alle
+  korrekt (am Volltext geprueft, keine ZH/SZ-Verwechslung). → Querbezug-Block gesetzt.
+- **Offen an den Loop:** Anrechnungsregel Duschwasser-WRG wird in `energie` fortgeschrieben, obwohl
+  `planungsgrundlagen` fuer Nachweisregeln/Formulare fuehrend ist.
+
+### normen ↔ planungsgrundlagen (Lignum-Holzbau-Brandschutz) — geprueft 2026-07-27 (Run 17)
+- **Anlass:** normen Run 30/34/35 legte sechs neue Brandschutz-Destillate an (Lignum 4.1/4.2/Lignatec,
+  VKF AH 1001-15, VKF allgemein anerkannte Bauprodukte, Brandschutznachweis-Anleitung V.3).
+- **Befund 1 (WIDERSPRUCH, BESTAETIGT, korrigiert — materiell, GEFAEHRLICHSTER BEFUND):**
+  `brandschutz-pl03-wegweiser` kehrte die **Kapselungsregel** um: K stand als fixe 30 Minuten mit der
+  Differenz als blosser Obergrenze, statt als **Rechenwert nach unten** (Gesamtbauteil minus 30 Min.,
+  Untergrenze K30-RF1). Folge: bei **REI 90-RF1** sah **K30-RF1** zulaessig aus, wo Tab. 232-2
+  zwingend **K60-RF1** verlangt — eine **unterdimensionierte Brandschutzbekleidung**, die aus dem
+  Vorprojekt-Grobcheck in eine Ausschreibungsklausel wandern kann. → an den Normwortlaut angeglichen.
+- **Befund 2 (WIDERSPRUCH, BESTAETIGT, korrigiert — materiell):** **Wandtraglast q'd,fi** war
+  «durchgehend» je Feuerwiderstandsklasse angegeben (20/50 kN/m'), gilt aber nur fuer EINEN der
+  sieben Systemtypen. Fehler in beide Richtungen: Blockbau 50 statt 20 kN/m' (**unsichere
+  Ueberschaetzung**), Brettstapel 20 statt 70 kN/m' (unnoetig konservativ). `normen` hatte denselben
+  Fehler in Refuter-Runde 31 bei sich bereits korrigiert — in der Abnehmer-KB lief er weiter.
+  → Werte je Systemtyp eingesetzt, dazu der zweite uebersehene Punkt (90-Min.-Tabellen bestehen nur
+  fuer zwei der sieben Systeme). Bildpruefung am Original S. 46-51 durch den Verifikations-Agenten.
+- **Befund 3 (VERALTETES, korrigiert — materiell):** **Lignatec 17/2005** (TKB-VKF-Anerkennung bezogen
+  auf VKF-Ausgabe **2003**) wurde ohne Ausgabenummer, ohne Jahr und ohne Vorbehalt **vorrangig vor
+  der geltenden VKF-BSR-Tabelle** empfohlen — waehrend die fuehrende KB `normen` dieselbe Publikation
+  seit dem 26.07. als «VERALTET» kennzeichnet. Zwei KBs, dasselbe PDF, gegenlaeufige
+  Handlungsanweisung. → Vorrang umgekehrt, Vorbehalt gesetzt; festgehalten, dass die abgeleiteten
+  Healthcare-Aussagen nur tragen, weil §4b sie unabhaengig aus der geltenden BSR 15-15 belegt.
+- **Befund 4 (DOPPELSPURIGKEIT, Querbezug gesetzt):** Lignum 4.1/4.2/Lignatec wurden in beiden KBs
+  parallel gefuehrt, ohne einen einzigen Verweis in irgendeiner Richtung. → Querbezug-Block im
+  fuehrenden Destillat gesetzt, der die zwei obigen Fehler ausdruecklich benennt, damit eine kuenftige
+  Aenderung an Tab. 232-2 oder den Traglasttabellen nicht wieder an der Abnehmer-KB vorbeilaeuft.
+
+### baurecht ↔ auflagebereinigung (Nebenbestimmungen/Fristen/Rechtsmittel) — geprueft 2026-07-27 (Run 17)
+- **Anlass:** baurecht Buch-Run 67 hat `nebenbestimmungen-und-reverse` erstmals Modell-D-verifiziert;
+  Paar zuletzt am 12.07. (Run 2) geprueft.
+- **Befund 1 (FEHLENDE QUERVERLINKUNG, BESTAETIGT, korrigiert — materiell):** Der Fristen-Artikel der
+  `auflagebereinigung` — die Frist-Wahrheit dieser KB — listete sechs Einreichungszeitpunkte und
+  **keine einzige gesetzliche Frist**. Ein grep ueber die ganze KB nach «Rechtsmittel», «anfechten»,
+  «Anfechtung», «Rechtsschutz» lieferte **0 Treffer**. Fehlend: die **Rekursfrist 30 Tage**
+  (§ 22 Abs. 1/2 VRG, Baurekursgericht § 329 Abs. 1 PBG, Verwirkung § 316 Abs. 1 PBG). Materiell: wer
+  Auflagen nur «bereinigt», akzeptiert sie faktisch, waehrend die Frist parallel laeuft; Verhandeln
+  mit dem Amt hemmt sie nicht. Ebenso fehlte der Zusammenhang, der die Spalte «vor Baubeginn» lesbar
+  macht (§ 25 Abs. 1 VRG aufschiebende Wirkung, § 339 PBG Beschraenkung + Teilfreigabe).
+  → Abschnitt «Vorgelagert: die einzige gesetzliche Frist» eingesetzt (inkl. § 322 PBG Erloeschen
+  nach 3 Jahren), **Frist-Gate vor Schritt 1** im Prozessartikel: abarbeiten ODER anfechten.
+- **Befund 2 (FEHLENDE QUERVERLINKUNG, BESTAETIGT, korrigiert):** Der einzige Handoff von `baurecht`
+  in diese KB lief ueber die [[ausnahmebewilligung-und-bestandesschutz]]-Linie — ein Artikel, der nur
+  Dispens § 220 und Bestandesschutz § 357 PBG behandelt (0 Treffer fuer «Baubeginn»/«Auflage»).
+  Zustaendig ist § 321 PBG → [[nebenbestimmungen-und-reverse]]. Die Gegenrichtung war korrekt gesetzt,
+  nur die Hinrichtung griff ins Leere. → umgehaengt, § 326 lit. a PBG als Stuetze, Gegenverweis gesetzt.
+
+### wettbewerbs-dna ↔ entwurfs-referenzen ↔ grobkosten ↔ immobilienbewertung (Wohnbau-Kennwerte) — geprueft 2026-07-27 (Run 17)
+- **Anlass:** Etappe 3 des wettbewerbs-dna-Trainings abgeschlossen (Baustein B5 Wohnungsbau),
+  `wohnen-mfh-urban.json` v1.0 → v2.0, grobkosten `wiki/kennwerte.md` geaendert.
+- **Beide gemeldeten Befunde WIDERLEGT — und das ist ein POSITIV-Ergebnis.** Gesucht wurde gezielt
+  dieselbe Fehlerklasse, die beim Healthcare-Set in Run 15/16 zutraf (Kennwertband gegen die fuehrende
+  Quelle verschoben; schaerfster Kaveat beim Transfer verloren). Der Verifier hat beides verworfen:
+  der Kaveat «Zielkostendach, vom Sieger MOERAKI verfehlt» steht vollstaendig im Array
+  `entwurfs_regeln` inkl. Projektname und Fundstellenverweis (B4/B6); die Bandbreiten-Differenz
+  erklaert sich aus verschiedenen Bezugsgroessen und Scopes. **Der KB-Loop hat beim Wohnbau-Set genau
+  das richtig gemacht, was er beim Healthcare-Set falsch gemacht hatte** — zwei aufeinanderfolgende
+  Cross-Laeufe, dieselbe Fehlerklasse, beim zweiten Mal nicht mehr da. Belegter Fortschritt.
+- **Fuehrungslage bestaetigt:** fuer den **Wohnbau** ist `grobkosten` zu Recht fuehrend (anders als bei
+  Healthcare); `quelle_kb` zeigt korrekt dorthin.
+- **Struktur (gesetzt):** `grobkosten/wiki/kennwerte.md` kannte seine zwei neuen Abnehmer nicht
+  (0 Treffer fuer «entwurfs-referenzen», «parameter-set», «wettbewerbs-dna») → Abnehmer-Block gesetzt,
+  inkl. ausdruecklicher Abgrenzung, dass diese KB fuer Healthcare NICHT fuehrend ist.
+- **Offen an den Loop:** `kosten_referenz` nennt nur EINE `quelle_kb` — fuer die ebenfalls enthaltene
+  m2-HNF-Dimension fehlt der Zeiger auf die dafuer fuehrende `immobilienbewertung`.
+
+### twin ↔ spec ↔ rules (DNA-Kompilat, Kontaktliste) — geprueft 2026-07-27 (Run 17, rotierend)
+- **Anlass:** twin Batch 80 (27.07.) hat alle Facetten-Artikel geaendert; spec Run 36/37.
+- **Befund 1 (VERALTETES, BESTAETIGT, korrigiert — nicht materiell, da die Rule selbst massgeblich
+  bleibt):** `spec/wiki/environment-jans-hub.md` fuehrte als `status: established` die aktive
+  Handlungsempfehlung, direkt ueber den SMB-Mount zu committen — genau die Praxis, die am **26.07.**
+  verboten wurde (Rule `sync-kanonische-quelle` Abschnitt «NIE», neuer Kopfabschnitt in
+  `git-auto-push`, Auto-Verbesserung 260726). Der Lauf-9-Schluss hatte den Regel-Widerspruch 2026-07-13
+  per **Betriebs-Empirie** zugunsten des direkten Commits entschieden. → Nachtrag gesetzt; der Schluss
+  bleibt als Methodik-Beispiel stehen, aber mit umgekehrtem Vorzeichen. **Lehrsatz fuer den
+  Verifier-Schritt der Spec-Methode: ein Verifier aus Betriebs-Empirie belegt den Ist-Zustand, nicht
+  die Belastungsgrenze — ein daraus abgeleiteter Regel-Entscheid braucht ein Verfallsdatum oder eine
+  Re-Pruefung statt `established`.**
+- **Befund 2 (WIDERSPRUCH, BESTAETIGT — NICHT vom Chef geaendert, Entscheid Raphael):**
+  `rules/anrede-kontakte.md` fuehrt Besnik starr als «nackter Vorname-Opener», waehrend
+  `twin/wiki/beziehungsregister.md` am authentischen Beleg (21.05.2026) «Geschaetzter Besnik» +
+  direkten FG-Block belegt. Weil die Rule laut eigener Konvention VOR dem Wiki konsultiert wird, wirkt
+  der veraltete Stand. Der twin-Loop hat die Korrektur ausformuliert, aber korrekt nicht selbst in die
+  Rule geschrieben (Freigabe-Bindung, twin-CHANGELOG 2026-07-25j). **Der Chef ebenfalls nicht.**
+  → im Bericht als Entscheid vorgelegt; wirksamer als die Besnik-Zeile waere eine **generelle Klausel**
+  im Abschnitt «Konvention» (Anrede-Stufe folgt dem Gewicht des Anliegens, dreifach belegt:
+  Tschopp/Besnik/Hiltmann) — sie heilt alle Zeilen zugleich. Zustellvermerk in `twin/wiki/QUESTIONS.md`.
+- **Befund 3 (WIDERSPRUCH, ungeprueft, ebenfalls Entscheid Raphael):** **Felix Staehlin** — Rule fuehrt
+  «Karl Waechter AG», zwei juengere twin-Batches (60/61) «Staehlin AG Sanitaer». Anredeform stimmt
+  ueberein, Firmenzuordnung nicht; das Wiki ist selbst uneinheitlich. Nach Rule
+  `identifikatoren-verifizieren` ist der Firmenname ein Identifikator, der in Anschreiben, Adressblatt,
+  Submittentenliste und Werkvertrag wandert. Aus dem Korpus nicht entscheidbar → vorgelegt.
+
 ### energie ↔ normen (Koerperschall WP / SIA 181 Schallschutz) — geprueft 2026-07-26 (Run 16)
 - **Anlass:** beide KBs haben am selben Abend im Abstand von 20 Minuten zum selben Normenfeld
   geschrieben — energie Run 112 (23:07) legte das komplett neue Themenfeld «Koerperschallisolation bei

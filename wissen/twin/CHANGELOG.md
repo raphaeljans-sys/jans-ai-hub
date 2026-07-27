@@ -4,6 +4,11 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-27 — Wissens-Chef Run 17 (Cross-KB): zwei Rule-Widersprueche verifiziert und an
+  Raphael eskaliert.**
+  **[eskaliert, NICHT geaendert] `rules/anrede-kontakte.md` widerspricht `wiki/beziehungsregister.md`.** Die Kontaktliste fuehrt **Besnik** starr als «nackter Vorname-Opener ohne Anrede-Formel», waehrend das Wiki am authentischen Beleg (21.05.2026, Betreff «Gewerke/Empfehlung») zeigt, dass Raphael bei gewichtigem Anliegen «Geschaetzter Besnik» + direkten FG-Block waehlt. Weil die Rule per @-Import immer aktiv ist und laut eigener Konvention **vor** dem Wiki konsultiert wird, wirkt der veraltete Stand. Der Loop hatte das erkannt und die Korrektur woertlich ausformuliert, sie aber korrekt nicht selbst in die Rule geschrieben (Freigabe-Bindung, CHANGELOG 2026-07-25j) — **der Wissens-Chef ebenfalls nicht.** → adversarial verifiziert und im Bericht als Entscheid vorgelegt. **Wirksamer als die Besnik-Zeile waere eine generelle Klausel im Abschnitt «Konvention»:** die Notiz-Spalte nennt den Routine-Default, die Anrede-Stufe folgt zusaetzlich dem **Gewicht des konkreten Anliegens** — dreifach unabhaengig belegt (Tschopp, Besnik, Hiltmann) und heilt alle Zeilen zugleich statt einer.
+  **[eskaliert, NICHT geaendert] Felix Staehlin — welche Firma?** Die Rule fuehrt «Karl Waechter AG, Ausfuehrender» (uebernommen am 25.07. aus dem aelteren Datenpunkt Fidelity 260714j); zwei **juengere**, unabhaengige Batches (60/61, Belege 02.-13.07.2026) nennen «Staehlin AG Sanitaer», einmal mit Gewerkbezug «Waschkueche». Die Anredeform (Du) stimmt ueberein, die Firmenzuordnung nicht — das Wiki ist an dieser Stelle selbst uneinheitlich. Zwei Firmen desselben Mannes oder zwei Personen mit demselben Vornamen? Aus dem Korpus nicht entscheidbar. Nach Rule `identifikatoren-verifizieren` ist ein Firmenname ein Identifikator, der unveraendert in Anschreiben, Adressblatt, Submittentenliste und Werkvertrag wandert. → beide Punkte als Zustellvermerk in `wiki/QUESTIONS.md`.
+  Bericht: `wissen/koordination/outputs/2026-07-27_wissens-chef-run17.md`.
 - **2026-07-27 — `twin-fidelity-review` (Runde 260727l, zwoelfter Lauf des Tages, KORPUS-ABSCHLUSS
   + erste umgesetzte Arbeitsweise-Korrektur).** Kollisionsfrei (ps/PPID-Check). **Harter
   Korpus-Abschlussbeweis:** `rj@` Sent Items enthaelt keine Mail vor dem 04.07.2025 (Postfach-
@@ -783,3 +788,5 @@ Fidelity-Reports unter `outputs/`.
   Leerschlag (3. Datenpunkt). QUESTIONS: 260715 #1 als beantwortet/widerlegt geschlossen, Runde 260717
   #1–#5 angehaengt. Gehirn `rules/jans-dna.md` neu kompiliert (6 Facetten). Report:
   `outputs/2026-07-17_fidelity.md`.
+
+

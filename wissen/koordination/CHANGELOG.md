@@ -3,6 +3,69 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-27 — Run 17 (Workflow-Fan-out: 5 Lese-Agenten + 10 adversariale Verifikatoren; 8 BESTAETIGT / 2 WIDERLEGT)
+- **Verfahren:** Workflow-Tool, 15 Agenten, ~2.17 Mio. Subagent-Token, 256 Tool-Calls, 14:08 Min.
+  Zuschnitt auf das **Delta seit Run 16** (26.07., 00:45) — praktisch jede KB hat am 27.07. geschrieben.
+  Lese-Agenten ohne Schreibrecht; alle Edits vom Chef selbst. Kollisionsschutz vorab geprueft.
+  Bericht: `outputs/2026-07-27_wissens-chef-run17.md`.
+- **Ergebnis: 17 Meldungen, 10 verifiziert, 8 BESTAETIGT (5 materiell), 2 WIDERLEGT**, 15 Stellen in
+  12 Dateien korrigiert, 2 Rule-Entscheide an Raphael.
+- **[korrektur, materiell] Unterdimensionierte Brandschutzbekleidung (planungsgrundlagen).** Der
+  PL-03-Wegweiser kehrte die **Kapselungsregel** um: K stand als fixe 30 Minuten mit der Differenz als
+  blosser Obergrenze statt als Rechenwert nach unten (Gesamtbauteil minus 30 Min., Untergrenze
+  K30-RF1). Folge: bei **REI 90-RF1** sah **K30-RF1** zulaessig aus, wo Tab. 232-2 zwingend **K60-RF1**
+  verlangt — ein Fehler, der aus dem Vorprojekt-Grobcheck in eine Ausschreibungsklausel wandern kann.
+- **[korrektur, materiell] Wandtraglast auf den falschen Systemtyp verallgemeinert (planungsgrundlagen).**
+  q'd,fi stand «durchgehend» je Feuerwiderstandsklasse (20/50 kN/m'), gilt aber nur fuer EINEN der
+  sieben Lignum-Systemtypen. Beide Richtungen falsch: Blockbau 50 statt 20 kN/m' (**unsichere
+  Ueberschaetzung**), Brettstapel 20 statt 70. `normen` hatte den Fehler in Refuter-Runde 31 bei sich
+  laengst korrigiert — in der Abnehmer-KB lief er unbemerkt weiter.
+- **[korrektur, materiell, ERGIEBIGSTER BEFUND] Aufgehobener Erlass als geltende Bewilligungsgrundlage
+  (baurecht).** Erstmals lag die laut Matrix **fuehrende** KB falsch: `baurecht` fuehrte **§ 8 EG GSchG**
+  an 17 Fundorten als geltendes Recht, `energie` behauptete die Abloesung (ungeprueft, aus dem
+  AWEL-Glossar). **Der Chef hat das amtliche PDF `724.1_12.12.24_133.pdf` selbst gezogen:** § 126 lit. a
+  hebt das EG GSchG auf, Fn. 2 nennt das Inkrafttreten **1.6.2026**, § 44 Abs. 1 lit. a Ziff. 3 erfasst
+  die Abwasserenergienutzung neu ausdruecklich. **`energie` hatte recht, `baurecht` zitierte
+  aufgehobenes Recht.** Ursache: der WsG-Nachzug aus Buch-Run 50 sweepte nur «HWSchV» und galt seit
+  Run 64 als geschlossen — § 126 hebt aber ZWEI Erlasse auf. **Regel: nach dem NACHFOLGE-Erlass sweepen,
+  nicht nach dem Erlass, der den Anlass gab.** → 2 Stellen direkt korrigiert, 15 als **Prioritaet (a)
+  im ARBEITSREGISTER** angemeldet.
+- **[korrektur, materiell] Die einzige gesetzliche Frist des Bauentscheids fehlte ganz
+  (auflagebereinigung).** Der Fristen-Artikel listete sechs Einreichungszeitpunkte und keine einzige
+  gesetzliche Frist; grep nach «Rechtsmittel/anfechten/Anfechtung/Rechtsschutz» ueber die ganze KB:
+  **0 Treffer**. Fehlend die **Rekursfrist 30 Tage** (§ 22 VRG, § 329/§ 316 PBG) — wer Auflagen nur
+  «bereinigt», akzeptiert sie faktisch. → Abschnitt eingesetzt + **Frist-Gate vor Schritt 1**
+  (abarbeiten ODER anfechten).
+- **[korrektur, materiell] Veraltete Quelle mit Vorrang vor geltendem Recht (planungsgrundlagen).**
+  **Lignatec 17/2005** (VKF-Ausgabe 2003) wurde ohne Jahr und ohne Vorbehalt **vorrangig vor der
+  geltenden VKF-BSR-Tabelle** empfohlen, waehrend `normen` dieselbe Publikation als «VERALTET» fuehrt.
+  → Vorrang umgekehrt.
+- **[struktur] Handoff ins Leere (baurecht → auflagebereinigung)** ueber die Ausnahmebewilligungs-Linie
+  statt § 321 PBG/[[nebenbestimmungen-und-reverse]] → umgehaengt, Gegenverweis gesetzt.
+- **[struktur] Rule `normen-referenz` greift beim Schreiben weiterhin nicht — 5. Fundort:** keine der
+  fuenf neuen energie-Dateien hatte einen einzigen Verweis nach aussen (grep je 0); dito die neuen
+  Lignum-Destillate → Querbezug-Bloecke beidseitig gesetzt, Abnehmer-Block in `grobkosten`.
+- **[WIDERLEGT, Positiv-Ergebnis] Beide Befunde zum Wohnbau-Parameter-Set gefallen.** Gesucht wurde
+  gezielt dieselbe Fehlerklasse, die beim Healthcare-Set in Run 15/16 zutraf — der Kaveat steht
+  vollstaendig im Set, die Bandbreiten-Differenz erklaert sich aus Bezugsgroesse und Scope.
+  **Der KB-Loop hat beim zweiten Set richtig gemacht, was er beim ersten falsch gemacht hatte.**
+- **[WIRKUNGSNACHWEIS] Die Run-16-Strukturregel greift — erstmals messbar.** Der normen-Loop hat in
+  Run 30 zwei der vier ins Arbeitsregister umgehaengten Bring-Schulden tatsaechlich abgearbeitet
+  (SIA 491, SN EN 12193 mit Bestandsvermerk). Zwei Runs lang war nichts geschehen, solange sie nur in
+  der Fragenliste standen. **Diagnose verifiziert: der Ort der Anmeldung entscheidet.**
+  **7. Fundort desselben Musters:** «SIA 181:2020 re-destillieren» stand seit Run 3 — 14 Tage — nur in
+  der Fragenliste → als **P1**-Inventar-Zeile nachgetragen.
+- **[erledigt] Offener Punkt 1 aus Run 16** (Fassungsbezeichnung «Nachtrag vom 19.4.2021» im
+  Grossverbraucher-Destillat, widersprach dem eigenen Quellenverzeichnis) → auf Nachtrag 129
+  angeglichen.
+- **[ENTSCHEID RAPHAEL, nichts geaendert] Zwei Rule-Aenderungen an `anrede-kontakte.md`:** (1) generelle
+  Klausel «Anrede-Stufe folgt dem Gewicht des Anliegens» (dreifach belegt, heilt alle Zeilen zugleich;
+  Anlass Besnik) · (2) Felix Staehlin — Karl Waechter AG oder Staehlin AG Sanitaer? Zwei Firmen, ein
+  Vorname; Identifikator, der in Anschreiben und Werkvertrag wandert.
+- **[verfahren] Neue Chef-Regel:** bei einem Befund, der eine **fuehrende** Quelle korrigiert oder eine
+  Sweep-Aktion ausloest, prueft der Chef **selbst am Original** nach — die adversariale Agentenstufe
+  allein reicht dafuer nicht. Bei M-3 hat das die Richtung des Befunds umgekehrt.
+
 ## 2026-07-26 — Run 16 (Workflow-Fan-out: 5 Lese-Agenten + 10 adversariale Verifikatoren; 10 BESTAETIGT / 0 WIDERLEGT)
 - **Verfahren:** Workflow-Tool, 15 Agenten, ~2.06 Mio. Subagent-Token, 250 Tool-Calls, 10:45 Min.
   Zuschnitt bewusst eng auf das **Delta seit Run 15** (25.07., 13:20): fuenf Paare, jedes dort angesetzt,

@@ -1,5 +1,10 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-27 — Wissens-Chef Run 17 (Cross-KB): Abnehmer-Block in `wiki/kennwerte.md`
+- **[verlinkung] Die KB kannte ihre zwei neuen Abnehmer nicht** — grep ueber das ganze Wiki nach «entwurfs-referenzen», «parameter-set» und «wettbewerbs-dna»: **0 Treffer**, obwohl `wissen/entwurfs-referenzen/wiki/parameter-sets/wohnen-mfh-urban.json` (v2.0 seit 27.07.) im Feld `quelle_kb` hierher zeigt und `wissen/wettbewerbs-dna/wiki/muster/kennwerte-wohnungsbau.md` (Etappe-3-Baustein B5) dieselben Werte fuehrt. Eine kuenftige Bandaenderung waere bei beiden unbemerkt geblieben. → Abnehmer-Block gesetzt. **Werte unveraendert.**
+- **[abgrenzung mitgeschrieben]** Fuer den **Wohnbau** ist diese KB zu Recht fuehrend (das `quelle_kb`-Ziel des Sets ist korrekt) — fuer **Healthcare** ausdruecklich **nicht** (dort `immobilienbewertung/realwert-sachwert`, 826-1'420 CHF/m3 GV, Median ~1'100; das oft zitierte Teilband 1'053-1'420 betrifft nur die sechs Neubauten ab 2019), fuer **CHF/m2 HNF** ebenfalls `immobilienbewertung`, fuer den Wuest-Benchmark `skills/kostenschaetzung/referenzen/`. Damit steht die Fuehrungslage jetzt in der Datei selbst und nicht nur im Koordinations-Register.
+- Bericht: `wissen/koordination/outputs/2026-07-27_wissens-chef-run17.md`.
+
 ## 2026-07-27 — Trainings-Run 33 (Root Cause behoben: stale Runner PID 68866 beendet, Endlosschleife durchbrochen)
 
 Kein neuer Sweep, keine Inhaltsänderung an `kennwerte.md`/`quellen-inventar.md` (weiterhin
