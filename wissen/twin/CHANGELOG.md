@@ -4,6 +4,19 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-27c — `twin-mail-training` Batch 71 (nach vier Leerläufen erster neuer Korpus).** Fenster
+  ab 2026-07-25T18:11:00Z bis 2026-07-27T09:14:12Z (Sent Items rj@): 2 Treffer, davon 1 relevant (KISPI-PPTS
+  Türkonzeptplan/Türbuch-Liefermail an Betreiber Albin/Du + Fachplaner Kübler/Sie, 27.07. 08:51), 1 reines
+  Teams-System-Rauschen ignoriert. Vier Funde: (1) [[beziehungsregister]] Position in der gestapelten
+  Anrede senkt die Formalitätsstufe desselben Sie-Kontakts («werter Herr Kübler» statt «Geschätzter Herr
+  Kübler» als Zweitadressat) + Plural-Service-Satz «Euch» für gemischte Du/Sie-Gruppe; (2) [[stimme]]
+  «werter Herr» als Anrede-Zwischenstufe + drei weitere Flexionsfehler-Belege («abzugklären», «weiter
+  Planung», «von Herr») + elliptischer Absatz-Opener; (3) [[arbeitsweise]] Rollen-Bullet-Liste für
+  interne Fachstellen-Verteilung + Frist mit Datum/Uhrzeit + konditionale Eskalationsstufe als Angebot;
+  (4) [[fachsignatur]] Türfachplanung explizit als Zwischenstufe vor der Ausführungsplanung + dreistufige
+  Freigabe-Formel Kontrolle/Freigabe/Einarbeitung. `raw/_INGESTED.md` fortgeführt (kein separates raw/-File,
+  gemäss Praxis der Batches 54–70).
+
 - **2026-07-27b — `twin-fidelity-review` zweiter Lauf (Gesamt-Fidelity ~87).** Frische Session ohne
   Vorwissen, M365-MCP-Tool direkt verfügbar. Drei frische, unmittelbar aufeinanderfolgende Golds
   desselben Fadens 23.–24.10.2025 (Christoph Bopp/WOMA, STWEG Ebmatingen) — Auftragsbestätigung

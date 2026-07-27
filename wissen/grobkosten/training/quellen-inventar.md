@@ -130,6 +130,20 @@ anwenden (Preisstand-Normalisierung), sobald die MFH-Standard-Klassifikationsfra
 (`wiki/QUESTIONS.md`, Frage 2) geklärt ist — sonst neue SharePoint-Bereiche `AR - 02
 Wettbewerbe`, `AR - 04 Honorarauftraege`, `AR - 05 Transfer` (bisher ungeprüft) sichten.
 
+## Run 9 (27.07.2026) — Reine Verdichtung, kein neuer Projektordner: Teuerungs-Normalisierung angewendet
+
+Kein neuer Projektordner geprüft (keine Inventar-Zeilen-Änderung). Die in Run 8 gefundenen
+Baupreisindex-Faktoren wurden auf die vier Einzelfälle mit sauberem GV+BKP-1-5-Tripel
+angewendet (2001 Haus Deuber, 2304 Reckholdern, 8155 Niederhasli, 2620 Albertstrasse) —
+lineare Interpolation zwischen den nächsten belegten Index-Stützstellen, keine Extrapolation
+über den letzten Anker (01.04.2025) hinaus. Details: `wiki/kennwerte.md` Abschnitt "Run 9",
+`wiki/QUESTIONS.md`. Ergebnis: die Preisstand-Korrektur ändert die MFH-Streuung nur wenig —
+Frage 1/Frage 2 bleiben der eigentliche Blocker für eine Median-Bildung, nicht der Preisstand.
+
+Empfehlung für Run 10: gemäss Option (b) aus Run 8/9 neue SharePoint-Bereiche `AR - 02
+Wettbewerbe`, `AR - 04 Honorarauftraege`, `AR - 05 Transfer` sichten (bisher ungeprüft) — mit
+Fokus auf einen Fall, der die Standard-Klassifikation textlich eindeutig belegt.
+
 ## Run 7 (27.07.2026) — Vertiefung der drei Run-6-Kandidaten (kein neuer Projektordner)
 
 Gemäss Run-6-Vorschlag die drei dort identifizierten, aber nicht extrahierten Kandidaten

@@ -2326,3 +2326,19 @@ Lenggstrasse 30 (Gruner/Kübler, TeKoSi/Hiltmann, AfB/UGZ/SRZ-Auflagebereinigung
   Fenster mit langen Behörden-/Fachfragen), Tausender-Apostroph 0 (keine grossen Zahlen im Sample), «%» mit
   Leerschlag-Quote 0.0 (einziger Beleg ohne Leerschlag, siehe oben), Ellipsen 0, Grüsse «Freundliche Grüsse»
   6×/«Lieber Gruss» 1×.
+
+## Batch 71 (2026-07-27) — «werter Herr» als eigene Zwischenstufe, weitere Flexionsfehler-Belege
+
+Gewichtung: authentisch (handgetippt). Quelle: KISPI-PPTS Türkonzeptplan/Türbuch-Liefermail, 27.07.2026.
+Einziger substanzieller Treffer nach vier Leerläufen (Batch 67–70, 24.–26.07., reine Wochenend-/Mailstille).
+
+- **«werter Herr <Nachname>» als eigenständige, kühlere Sie-Stufe innerhalb einer gestapelten Anrede**
+  («Geschätzter Albin, werter Herr Kübler») — siehe [[beziehungsregister]] für die Registerlogik; stimmlich
+  bestätigt das die bereits dokumentierte Skala «Beste(r) Grüsse/Gruss» als warm-neutrale Mittelstufe (DNA-Regel)
+  um ein Anrede-seitiges Pendant.
+- **Weitere Flexionsfehler-Familie bestätigt:** «die Türfunktionen **abzugklären**» (statt abzuklären), «für die
+  **weiter** Planung» (statt weitere), «Im Anhang sende ich Euch von **Herr** Levi Hiltmann» (statt Herrn) —
+  drei Belege in einer einzigen kurzen Mail, reiht sich zur Genus-/Flexionsfehler-Familie (Batch 65/66).
+- **Elliptischer Absatz-Opener ohne Verb:** «Folgend der Link zu den Unterlagen auf der Sharepoint Platform:» —
+  Fragment statt vollständigem Satz («Folgend[t] ist der Link…»), passt zum bereits belegten Muster knapper,
+  telegrammartiger Übergabesätze vor einem Link/Anhang.

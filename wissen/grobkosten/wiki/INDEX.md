@@ -29,6 +29,11 @@ Kennwert in dieser Runde. Run 8 (Registerpflege, kein neuer Projektordner): eine
 gebliebene Extraktion (2620 Albertstrasse 7, erster realer Umbau-Einzelfall 2'500 CHF/m³)
 nachträglich registriert; extern (WebSearch/WebFetch) ein bis 2025 verketteter Zürcher
 Baukostenindex gefunden, der die Stufe-4-Teuerungs-Normalisierungsfrage aus Run 6 löst
-(fertige Umrechnungsfaktoren in `kennwerte.md`).
+(fertige Umrechnungsfaktoren in `kennwerte.md`). Run 9 wendet diese Faktoren auf die vier
+belastbarsten Einzelfälle an (lineare Interpolation, keine Extrapolation über 01.04.2025
+hinaus) — Haus Deuber und Reckholdern normalisiert, Niederhasli/Albertstrasse unverändert
+(bereits aktuell). Zeigt: die Streuung zwischen den MFH-Fällen bleibt auch nach Preisstand-
+Korrektur bestehen — Frage 1 (BKP-1-9-vs-1-5) und Frage 2 (Standard-Klassifikation) sind der
+eigentliche Blocker für eine Median-Bildung, nicht der Preisstand.
 
 Offene Fragen / Lücken: siehe [QUESTIONS.md](QUESTIONS.md).

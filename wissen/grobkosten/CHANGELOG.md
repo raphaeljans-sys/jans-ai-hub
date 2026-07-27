@@ -1,5 +1,29 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-27 — Trainings-Run 9 (Teuerungs-Normalisierung angewendet, kein neuer Projektordner)
+
+- Kollisionscheck via `ps`/`PPID`-Abgleich: einziger Treffer war die eigene Parent-Instanz,
+  keine echte Zweitinstanz auf diesem Host.
+- **Option (a) aus Run 8 umgesetzt:** die in Run 8 gefundenen Zürcher-Baukostenindex-Faktoren
+  (`raw/zuercher-index-wohnbaukosten-1939-2025.md`) auf die vier Einzelfälle mit sauberem
+  GV+BKP-1-5-Tripel angewendet. Methode: lineare Interpolation zwischen den nächsten zwei
+  belegten Jahres-Stützstellen des Index (Standardverfahren der Bauteuerungs-Indexierung,
+  keine Schätzung eines unbekannten Werts); keine Extrapolation über den letzten verfügbaren
+  Anker 01.04.2025 hinaus (Rule «Kennwerte nie raten»). Ergebnis: 2001 Haus Deuber Thalwil
+  1'086 → ≈1'250 CHF/m³ (Preisstand 10/2020, +15.1 %), 2304 Reckholdern 20 1'735 → ≈1'757
+  CHF/m³ (Preisstand 12/2023, +1.3 %); 8155 Niederhasli (07/2025) und 2620 Albertstrasse
+  (07.03.2026) liegen bereits nach dem letzten Anker und bleiben unverändert. Kein neuer
+  `raw/`-Beleg — reine Ableitung aus bereits vorliegenden Quellen. Details:
+  `wiki/kennwerte.md` (neuer Abschnitt "Run 9"), `wiki/QUESTIONS.md`.
+- **Erkenntnis:** Die Preisstand-Korrektur verringert die MFH-Streuung (Haus Deuber vs.
+  Niederhasli) nur geringfügig — bestätigt, dass Frage 1 (BKP-1-9-vs-1-5) und Frage 2
+  (Standard-Klassifikation) der eigentliche Blocker für eine Median-Bildung sind, nicht der
+  Preisstand. Keine Stufe-3-Promotion in diesem Lauf.
+- Register nachgeführt: `training/quellen-inventar.md` (Run-9-Abschnitt), `wiki/QUESTIONS.md`
+  (neuer Run-9-Eintrag, Empfehlung für Run 10: Option b — `AR - 02/04/05` sichten),
+  `wiki/INDEX.md`, `wiki/kennwerte.md` (Frontmatter + Quellen-Abschnitt). `raw/_INGESTED.md`
+  unverändert (kein neuer Roh-Beleg). Report: `outputs/2026-07-27_grobkosten-run9.md`.
+
 ## 2026-07-27 — Trainings-Run 8 (Registerpflege + Stufe-4-Baustein extern gelöst, kein neuer Projektordner)
 
 - Kollisionscheck via `ps`/`PPID`-Abgleich: einziger Treffer war die eigene Parent-Instanz,

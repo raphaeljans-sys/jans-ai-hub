@@ -1411,3 +1411,19 @@ Gewichtung: authentisch (alle 7 Mails handgetippt, keine Echo-Falle). Quelle: KI
   Kosteneinsparung, Facilitymanagement-Nummerierung), keine Sammelbegründung am Ende. Reiht sich zum bereits
   belegten Muster «Plannummer + Klasse + Ein-Wort-Begründung» (Batch 64), hier auf eine mehrpunktige
   Änderungsliste skaliert.
+
+## Batch 71 (2026-07-27) — Türfachplanung als eigene Zwischenstufe vor der Ausführungsplanung
+
+Gewichtung: authentisch (handgetippt). Quelle: KISPI-PPTS Türkonzeptplan/Türbuch-Liefermail, 27.07.2026.
+
+- **Spezialistendokument (Türkonzeptplan/Türbuch eines Subplaners) wird explizit als Zwischenstufe VOR der
+  eigenen Ausführungsplanung gekennzeichnet, nicht als Endprodukt:** «Wir werden anschliessend auf Grundlage
+  der TeKoSi Türfachplanung die Ausführungsplanung der Türen bei Jegen AG Türbauer und Gruner AG
+  Gebäudetechnikfachplaner finalisieren.» — die Planungskette Fachplaner-Grundlage → interne Fachstellen-
+  Freigabe → Ausführungsplanung wird benannt, nicht stillschweigend vorausgesetzt. Bestätigt das durchgängige
+  Muster, Koordinationsketten zwischen Subplanern transparent zu machen (vgl. Fachplaner-Delegationsketten,
+  Batch 12/28).
+- **Sicherheitskonzept + Türbuch werden an die internen Fachstellen zur «Kontrolle, Freigabe, planerischen
+  Einarbeitung» gegeben** (Betreffzeile) — dreistufige Freigabe-Formel (Kontrolle→Freigabe→Einarbeitung),
+  reiht sich zur bereits belegten Drei-Verb-Freigabekette (Batch 6/29: Prüfung/Freigabe/Weiterleitung bzw.
+  Prüfung/Unterzeichnung/Freigabe) — konsistent über verschiedene Projektphasen und Dokumenttypen hinweg.

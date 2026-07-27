@@ -1708,3 +1708,22 @@ Gewichtung: authentisch (alle 7 Mails handgetippt, keine Echo-Falle). Quelle: KI
   Stubbe/Robert Zürcher (UGZ, Sie); Martin Stegmann/Ramon Becker (UGZ, Sie); Linus Furrer (AfB, Sie «Guten Tag
   Herr Furrer»); Markus Gantenbein (SRZ, hier «sehr geehrter Herr Gantenbein», bestätigt bereits bekannten
   Kontakt mit variierender Formalitätsstufe je Anlass).
+
+## Batch 71 (2026-07-27) — Position in der gestapelten Anrede senkt die Formalitätsstufe des Sie-Kontakts
+
+Gewichtung: authentisch (handgetippt: «abzugklären», «von Herr Levi Hiltmann», «weiter Planung» — klare
+Flexionsfehler). Quelle: KISPI-PPTS Türkonzeptplan/Türbuch-Liefermail an Betreiber+Fachplaner, 27.07.2026
+(nach vier Leerläufen in Folge erster neuer Korpus seit 24.07.).
+
+- **Derselbe Sie-Kontakt bekommt in der gestapelten Anrede eine kühlere Stufe als in der Einzelmail:** Benjamin
+  Kübler war in Batch 66 als «Geschätzter Herr Kübler» (Einzelempfänger) gemappt; hier, als **zweitgereihter**
+  Empfänger hinter dem Du-Kontakt Albin, heisst es «Geschätzter Albin, **werter** Herr Kübler» — «werter» statt
+  «Geschätzter»/«sehr geehrter» als eigene, kühlere Zwischenstufe. Ergänzt das bereits belegte Formalitätsgefälle
+  innerhalb einer gestapelten Anrede (Batch 66: Guten Tag↔sehr geehrter nach Amt/Rolle) um die Variante, dass
+  auch bei dieselben Person die **Position in der Stapelung** (Haupt- vs. Zweitadressat) die Stufe senkt, nicht
+  nur die Rolle der Institution.
+- **Service-Satz im Plural «Euch» für eine gemischte Du+Sie-Empfängergruppe:** «Bei Fragen oder Unklarheiten
+  stehe ich **Euch** jederzeit gerne zur Verfügung» — der wiederkehrende Service-Satz (bislang «Dir»/«Ihnen»
+  belegt, Batch 24) erscheint hier als Plural-Variante «Euch», wenn die Empfängergruppe gemischt Du/Sie ist;
+  das Du-Element (Albin) bestimmt offenbar das grammatische Genus des kollektiven Anredepronomens, auch wenn
+  Sie-Kontakte (Kübler u.a.) mitadressiert sind.

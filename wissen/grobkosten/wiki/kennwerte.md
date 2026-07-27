@@ -1,7 +1,7 @@
 ---
 title: Grobkosten-Kennwerte (CHF/m³ GV, BKP 1–5)
 status: emerging
-last_updated: 2026-07-27
+last_updated: 2026-07-27 (Run 9)
 sources: [skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md, wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro, raw/2414-thalwil.md, raw/2518-grubenackerstrasse.md, raw/2515-wartstrasse.md, raw/2202-ackersteinstrasse.md, raw/2304-reckholdern.md, raw/kennwerte-jans-referenzdokument.md, raw/8155-niederhasli-seestrasse64.md, raw/2001-haus-deuber-thalwil.md, raw/2411-wald-haselstudstrasse.md, raw/2412-ebmatingen-grossacher.md, raw/2305-waedenswil-precheck.md, raw/2620-albertstrasse.md, raw/zuercher-index-wohnbaukosten-1939-2025.md]
 links: []
 ---
@@ -249,6 +249,36 @@ eine Median-Bildung ansteht — bisher unterbleibt die Normalisierung, weil die 
 selbst noch an anderen offenen Fragen hängt (Standard-Klassifikation, BKP-1-9-vs-1-5, siehe
 `wiki/QUESTIONS.md`).
 
+## Run 9 (27.07.2026) — Teuerungs-Normalisierung auf die vier belastbarsten Einzelfälle angewendet
+
+Gemäss Empfehlung aus `wiki/QUESTIONS.md` (Run 8, Option a): die in Run 8 gefundenen
+Baupreisindex-Faktoren (Abschnitt "Baupreisindex ZH" oben) auf die vier Einzelfälle mit
+sauberem GV+BKP-1-5-Tripel angewendet, um sie auf einen gemeinsamen Stichtag (01.04.2025,
+neuster verfügbarer Indexanker) zu bringen. **Methode:** liegt der Preisstand eines Falls
+zwischen zwei publizierten Jahres-Stützstellen des Zürcher Index, wird linear zwischen den
+beiden bekannten Werten interpoliert (Standardverfahren der Bauteuerungs-Indexierung, keine
+Schätzung eines unbekannten Werts — beide Stützpunkte sind belegt). Liegt der Preisstand
+NACH dem neusten verfügbaren Anker (01.04.2025), wird NICHT extrapoliert (Rule «Kennwerte nie
+raten») — der Fall gilt als bereits aktuell und bleibt unverändert.
+
+| Projekt | Kennwert (Original) | Preisstand | Nächste Index-Stützstellen | Interpolierter Index | Faktor auf 01.04.2025 | Kennwert (normalisiert, 01.04.2025) |
+|---|---|---|---|---|---|---|
+| 2001 Haus Deuber, Thalwil | 1'086 CHF/m³ | 10/2020 | 01.04.2020 = 1045.6 · 01.04.2021 = 1057.7 | 1045.6 + 6/12·(1057.7−1045.6) = 1051.65 | 1210.4 / 1051.65 = 1.1510 (+15.1 %) | **≈ 1'250 CHF/m³** |
+| 2304 Reckholdern 20 | 1'735 CHF/m³ | 12/2023 | 01.04.2023 = 1190.8 · 01.04.2024 = 1197.2 | 1190.8 + 8/12·(1197.2−1190.8) = 1195.07 | 1210.4 / 1195.07 = 1.0128 (+1.3 %) | **≈ 1'757 CHF/m³** |
+| 8155 Niederhasli, Seestrasse 64 | 1'032 CHF/m³ | 07/2025 | liegt NACH dem letzten Anker 01.04.2025 | — (keine Extrapolation) | ≈ 1.00 | 1'032 CHF/m³ (unverändert, bereits aktuell) |
+| 2620 Albertstrasse 7 (Umbau) | 2'500 CHF/m³ | 07.03.2026 | liegt NACH dem letzten Anker 01.04.2025 | — (keine Extrapolation) | ≈ 1.00 | 2'500 CHF/m³ (unverändert, bereits aktuell) |
+
+**Einordnung:** Diese Normalisierung löst NUR die Preisstand-Dimension. Sie hebt **keinen**
+Kennwert auf "belegt (n=…)" und löst **nicht** die in `wiki/QUESTIONS.md` weiterhin offenen
+strukturellen Fragen (Frage 1: BKP-1-9-vs-1-5-Bezeichnung bei den Pre-Check-Tool-Fällen;
+Frage 2: Standard-Klassifikation "norm, eloquent" mutmasslich Vorlagentext). Selbst nach
+Normalisierung liegen Haus Deuber (≈1'250, MFH) und Niederhasli (1'032, MFH) noch spürbar
+auseinander — eine MFH-Median-Bildung bleibt daher weiterhin bewusst zurückgestellt, bis
+diese beiden Fragen geklärt sind. 2414 Thalwil und 2518 Grubenackerstrasse (Run 2) wurden
+NICHT normalisiert: sie sind bereits aus anderen Gründen (Teilvolumen statt Gesamt-GV bzw.
+unverifiziertes Volumen) von einer Kennwert-Verwendung ausgeschlossen — eine Preisstand-
+Korrektur würde daran nichts ändern.
+
 ## Umrechnung Baumasse → Gebäudevolumen
 
 Die baurechtliche **Baumasse** (BMZ) zählt meist nur oberirdisch; das **GV SIA 416** schliesst das
@@ -328,3 +358,11 @@ kennwerte bleibt diese KB; energie liefert nur die Detail-/Betriebskosten (Wisse
   damit erstmals mit fertig nutzbaren Umrechnungsfaktoren beantwortet, aber noch nicht auf
   die bestehenden Einzelfälle angewendet (Median-Bildung hängt weiterhin an anderen offenen
   Fragen). Details/Faktoren: Abschnitt "Baupreisindex ZH" oben.
+- Run 9 (27.07.2026): die Run-8-Faktoren auf die vier belastbarsten Einzelfälle angewendet
+  (lineare Interpolation zwischen den nächsten belegten Index-Stützstellen, keine Extrapolation
+  über den letzten Anker 01.04.2025 hinaus). Haus Deuber (+15.1 % → ≈1'250 CHF/m³) und
+  Reckholdern (+1.3 % → ≈1'757 CHF/m³) normalisiert; Niederhasli und Albertstrasse liegen
+  bereits nach dem letzten Anker und bleiben unverändert. Löst nur die Preisstand-Dimension —
+  Frage 1 (BKP-1-9-vs-1-5) und Frage 2 (Standard-Klassifikation) bleiben der Blocker für eine
+  MFH-Median-Bildung. Details: Abschnitt "Run 9" oben, kein neuer `raw/`-Beleg (reine
+  Ableitung aus bereits vorliegenden Quellen).

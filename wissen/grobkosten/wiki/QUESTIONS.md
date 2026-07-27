@@ -2,6 +2,27 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-07-27 — Trainings-Run 9: Option (a) aus Run 8 umgesetzt (Teuerungs-Normalisierung), Frage 1 + 2 bleiben der Blocker
+
+- **Erledigt:** Die Run-8-Baupreisindex-Faktoren wurden auf die vier belastbarsten Einzelfälle
+  angewendet (`wiki/kennwerte.md`, Abschnitt "Run 9"). Methode: lineare Interpolation zwischen
+  den nächsten zwei belegten Jahres-Stützstellen des Zürcher Index; keine Extrapolation über den
+  letzten verfügbaren Anker (01.04.2025) hinaus. Ergebnis: Haus Deuber 1'086 → ≈1'250 CHF/m³
+  (+15.1 %), Reckholdern 1'735 → ≈1'757 CHF/m³ (+1.3 %); Niederhasli (1'032) und Albertstrasse
+  (2'500) liegen bereits nach dem letzten Anker und bleiben unverändert.
+- **Weiterhin ungelöst — jetzt der alleinige Blocker für eine MFH-Median-Bildung:** Selbst nach
+  Preisstand-Normalisierung liegen Haus Deuber (≈1'250, MFH) und Niederhasli (1'032, MFH) noch
+  ca. 20 % auseinander. Das bestätigt: die Preisstand-Dimension war NICHT die Hauptursache der
+  Streuung — Frage 1 (BKP-1-9-vs-1-5-Bezeichnung, betrifft Wald Haselstudstrasse + Pre-Check-
+  Tool-Familie) und Frage 2 (Standard-Klassifikation "norm, eloquent" mutmasslich Vorlagentext,
+  betrifft Haus Deuber + Reckholdern) bleiben beide nur durch Rückfrage an Raphael Jans bzw.
+  durch einen neuen, eindeutig klassifizierten Fall lösbar — nicht autonom in diesem Loop.
+- **Empfehlung für Run 10:** Da (a) jetzt erledigt ist, gemäss der in Run 8 genannten Option (b)
+  neue, bisher ungeprüfte SharePoint-Bibliotheken sichten: `AR - 02 Wettbewerbe`,
+  `AR - 04 Honorarauftraege`, `AR - 05 Transfer` (aus Run 5 als Kandidaten benannt, bisher keine
+  geprüft) — mit Fokus auf einen Fall, der die Standard-Klassifikation textlich eindeutig
+  belegt (Materialbeschrieb/Ausbaustandard), statt nur ein weiteres Dropdown-Label zu liefern.
+
 ## 2026-07-27 — Trainings-Run 8: Stufe-4-Baustein gelöst (Baupreisindex verkettet), Registerlücke geschlossen — neue Empfehlung für Run 9
 
 - **Gelöst:** Der in Run 6 als "möglicher, aber unbewerteter Baustein für Stufe 4" geführte

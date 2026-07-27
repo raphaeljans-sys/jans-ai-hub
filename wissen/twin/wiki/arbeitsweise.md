@@ -1612,3 +1612,21 @@ Gewichtung: authentisch (alle 7 Mails handgetippt, keine Echo-Falle). Quelle: KI
 - **Konzeptionelle Planänderungen werden als native Outlook-Buchstabenliste (A) B) C) D) E)) aufgezählt,**
   nicht als Markdown-«-»-Bullets — bestätigt, dass die Listenform bei Behördenmails technisch (Outlook-eigene
   Aufzählung), nicht stilistisch motiviert ist; kein Bruch mit dem Verbot dekorativer Formatierung.
+
+## Batch 71 (2026-07-27) — Liefermail an mehrere interne Fachstellen mit Rollen-Bullet-Liste, Frist + konditionale Eskalationsstufe
+
+Gewichtung: authentisch (handgetippt). Quelle: KISPI-PPTS Türkonzeptplan/Türbuch-Liefermail an Betreiber
+(Albin, Du) + Fachplaner (Kübler/Gruner, Sie), 27.07.2026.
+
+- **Weiterzuverteilende Fachplanungs-Dokumente werden mit einer Bullet-Liste der internen Rollen begleitet,**
+  nicht nur namentlich: «FLA Leiterin Flächenmanagement Nora Ramminger», «ELE Technischer Dienst Elektro
+  Würsch Fabian», «SIC Leiter Sicherheit und Umwelt Merci Lior» usw. — jede Person trägt ihre Funktions-Abkürzung
+  vor dem Namen, damit der Empfänger die interne Zuständigkeit ohne Rückfrage zuordnen kann. Reiht sich zum
+  Muster «Rolle vor Name» aus der Türfachplanungs-/Sicherheitskonzept-Kette.
+- **Frist explizit mit Datum UND Uhrzeit gesetzt** («bis am 31.07.26 17:00 Uhr»), nicht als vage Wochenangabe —
+  bestätigt die durchgängige Präzisions-Disziplin bei Übergabefristen an Dritte.
+- **Konditionale Eskalationsstufe als Angebot, nicht als Forderung:** «Sollte der Bedarf bestehen für eine
+  persönliche Präsentation … würden wir (Levi Hiltmann/Raphael Jans) uns über eine Termineinladung … freuen.» —
+  klassisches Wenn-dann-Muster (Bedingung+Folge, [[denken]]), hier auf der Arbeitsweise-Ebene: die nächste
+  Eskalationsstufe (persönliche Präsentation) wird offen angeboten statt vorausgesetzt, und die Terminhoheit
+  bleibt beim Empfänger («Termineinladung» statt eigener Vorschlag).
