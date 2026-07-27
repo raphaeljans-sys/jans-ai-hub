@@ -120,8 +120,45 @@ das weiter alle zwei Stunden verifizieren oder die beiden Reste als «speculativ
 akzeptieren soll. Nicht selbst entschieden (kein Leerlauf im Sinne des Auftrags — die Laeufe
 liefern echte Korrekturen), aber entscheidungsreif.
 
-**Unveraendert:** kein STOP, keine Drossel-Datei; twin-mail und twin-fidelity liefern weiter echte
-Marker und bleiben unangetastet; operative Briefings/Monitore nicht beruehrt.
+**Unveraendert:** twin-mail und twin-fidelity liefern weiter echte Marker und bleiben
+unangetastet; operative Briefings/Monitore nicht beruehrt.
+
+### Nachtrag 22:25 — Endstand nach der parallelen Bereinigung (korrigiert Teile des Eintrags oben)
+
+Waehrend dieses Laufs hat eine zweite Instanz die Leerlauf-Bereinigung zu Ende gefuehrt und dabei
+die von mir oben zur Entscheidung vorgelegten Punkte teils bereits umgesetzt. Endstand, verifiziert:
+
+- **Beide Endlos-Runner sind gestoppt** — `STOP-Macmini` (22:15) und `STOP-Macbookpro` (22:20),
+  beide mit ausfuehrlicher schriftlicher Begruendung in der Datei und dem Vermerk «Freigabe
+  Raphael». Die Begruendung deckt sich exakt mit dem Befund oben und zitiert meine eigene
+  Verifikation (PID 77522, 22:14:45, «Keine Trainings-Tasks gefunden»). Der Satz oben, beide
+  Runner liefen im Schlafmodus weiter, ist damit **ueberholt** — es laeuft keiner mehr. Die
+  STOP-Dateien werden nach dem Radar-Auftrag NICHT entfernt: der Grund ist klar, dokumentiert
+  und sachlich richtig. Wichtig, weil leicht zu verwechseln: gestoppt ist nur der zweite,
+  ungetaktete Feuermechanismus — die Lern-Loops laufen ueber ihre Scheduled Tasks weiter.
+- **`wettbewerbs-dna-training` ist ganz stillgelegt** (`enabled: false`), nicht nur woechentlich
+  getaktet wie von mir gesetzt. Angesichts von 7 Blindgaengern und 4 Delta-Null-Laeufen in Folge
+  bei einem Loop, der ausdruecklich auf Raphaels Richtungsentscheid wartet, ist das die
+  konsequentere Lesart desselben Auftrags. Reaktivierung erst nach dem Entscheid.
+- **`normen-training-nacht` auf 1x taeglich** (01:20, war 2x) — damit ist die offene Taktfrage
+  aus P3 oben beantwortet; der Loop hatte sie selbst gestellt.
+- **Mein P2-Vorschlag ist bereits gebaut:** die `vollgas-fruehwarnung` ueberwacht neu ausdruecklich
+  den Herzschlag des Radars und meldet Runner-Leerlaeufe. Genau die Luecke, die den 48-h-Blindflug
+  der Aufsicht unsichtbar gemacht hat, ist damit geschlossen.
+
+**Was jetzt noch offen bei Raphael liegt** — und der einzige Punkt, den keine Instanz selbst
+entscheiden darf: **VOLLGAS ist damit faktisch beendet.** Die naechtliche Last kommt nur noch aus
+den Registry-Tasks; das Wochenkontingent wird kuenftig bei weitem nicht mehr ausgeschoepft. Das ist
+die richtige Antwort auf den 35-Stunden-Ausfall, steht aber gegen die Anweisung vom 25.07.
+(«ausschoepfen, Wiederdrosselung nur auf meine Anweisung»). Zu entscheiden ist nicht, ob die
+Leerlaeufe abgestellt bleiben — das ist richtig so —, sondern **ob die frei gewordene Kapazitaet
+neue, materialgetriebene Arbeit bekommen soll**. Warnung aus der Erfahrung dieser Woche: einen
+Loop zu erfinden, der auf Rueckfragen an Raphael wartet, erzeugt nur neue Leerlaeufe — daran ist
+`grobkosten` binnen zwei Tagen erstickt.
+
+**Kein Mail-Versand:** die Frühwarnung hat den Vorfall heute 21:45 bereits gemeldet; eine zweite
+Mail 40 Minuten spaeter waere eine Wiederholungsmail zum selben Befund. Der offene Entscheid geht
+ueber das Tagesbriefing des `hub-chef` (08:35).
 
 ---
 
