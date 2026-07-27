@@ -62,3 +62,40 @@ Vorbehalts oben **nicht in die Haupttabelle `wiki/kennwerte.md` promoviert**, nu
 referenzierter Einzelfall mit vollem Kaveat geführt.
 
 Abrufdatum: 2026-07-27.
+
+## Nachtrag Run 14 (27.07.2026) — Formel-Ebene der PROJEKTEIGENEN Exceldateien geprüft (nicht nur des generischen Master-Tools)
+
+Run 13 hatte den BKP-1-9-vs-1-5-Faktor (1.13) nur am generischen Master-Template
+(`IMMO - 03 KNOW-HOW/05 Residualwert/Exel Tabelle/jans/Immo-02-P23D-Pre-Check_Tool_Jans.xlsx`)
+im Formel-Modus verifiziert. Dieser Lauf hat zusätzlich die beiden **projekteigenen**
+Exceldateien zu diesem Wald-Fall selbst geöffnet (`openpyxl`, `data_only=False` und
+`data_only=True`, dieselbe venv `/tmp/venv-xlsx-grobkosten`):
+- `8636 Wald Haselstudstrasse Desktopstudie/2411_Immo-02-P23D-Pre-Check_Tool_Jans.xlsx` (Miete)
+- `8636 Wald Haselstudstrasse Volumenstudie STWE/2411_Immo-Volumenstudie STWE-02-Pre-Check_Tool_Jans.xlsx` (STWE-Verkauf)
+
+**Befund 1 — Frage 1 (BKP-1-9-vs-1-5) unabhängig bestätigt, nicht nur im Master-Template:**
+Beide Dateien tragen identisches Sheet-Layout `AZ-HNF Tool`. Zelle `G48 = 1.13`, deren
+Zeilenlabel `G47` explizit **"Faktor BKP 2 zu BKP 1-5"** lautet. Dieser Faktor fliesst
+ausschliesslich in die Formeln `AF69:AF73` (z.B. `AF70 =ROUND((AC70*G37+(C58*F37))*$G$48,-3)`)
+ein, deren Summe `I56 =ROUND(SUM(AF69:AF73),-4)` mit dem Label **"Total BKP 1-9"** beschriftet
+ist. Kein zusätzlicher Rechenschritt für BKP 6-8 (Reserven) oder BKP 9 (Ausstattung) existiert
+in der Formelkette — identisch zum Run-13-Befund am Master-Template. Die Inkonsistenz ist damit
+nicht auf eine veraltete/unbereinigte Master-Kopie beschränkt, sondern auch in der tatsächlich
+für dieses Projekt verwendeten Live-Datei vorhanden.
+
+**Befund 2 — Live-Werte bestätigen die aus dem PDF extrahierten CHF/m³-Werte (keine
+Übertragungsfehler):** GV oi (`AC45`) = 5'925.72 m³ (Miete) bzw. 5'917.44 m³ (STWE) — im PDF
+beide auf "5'921 m³" gerundet/identisch dargestellt (Rundungsdifferenz von ±0.1 %, kein
+Widerspruch). Gesamttotal inkl. Parkplätze (`J56 = I56 + J50`) / GV ergibt 1'537.4 CHF/m³
+(Miete) bzw. 1'766.0 CHF/m³ (STWE) — deckt sich mit den bereits oben geführten 1'539 bzw.
+1'765 CHF/m³ (Differenz nur Rundung). Die Kostenniveau-Auswahl `E48` ist in beiden Dateien
+tatsächlich auf "durchschnittlich" gesetzt (kein leeres/generisches Dropdown-Feld) — bestätigt
+den bereits im Haupttext genannten Wert, keine neue Erkenntnis, aber Gegenprobe bestanden.
+
+**Einordnung:** Frage 1 bleibt weiterhin nicht autonom lösbar (beide Deutungen — Feldlabel
+`G47`/`G48` falsch beschriftet vs. Ausgabelabel `I48`/`I56` falsch beschriftet — sind
+rechnerisch in sich schlüssig). Der Wert dieses Nachtrags liegt darin, dass die in Run 13
+formulierte Rückfrage an Raphael jetzt nicht nur am generischen Tool, sondern auch an der
+konkreten, für diesen Kennwert tatsächlich verwendeten Projektdatei bestätigt ist — die Antwort
+auf die Run-13-Frage löst damit direkt und ohne Zusatzprüfung auch diesen Wald-Fall auf.
+Keine Änderung am geführten Kennwert (weiterhin nicht promoviert, "obere Näherung").
