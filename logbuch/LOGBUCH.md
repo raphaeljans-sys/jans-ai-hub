@@ -5,6 +5,20 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-28
+
+**Nachtschicht Mac Mini (~01:30-02:00) — Korpus-Spec `bauprodukte` geschrieben.** Nach
+Doppelarbeit-Check (dispatch-Log, CHANGELOGs mehrerer KBs) zeigte sich: die Mac-Mini-eigenen
+Loops (planungsgrundlagen, energie, synobsis) sind aktuell/gesaettigt, kein Fristen-Punkt neu
+faellig. Naechster sinnvoller Schritt war der neue Korpus `bauprodukte` (Skill
+`wissens-destillat`, Korpus 1 der Queue): die Spec fehlte noch, ohne die kein Destillat-Lauf
+starten darf. `specs/bauprodukte-spec.md` geschrieben (Ziel/Abgrenzung/Artikelschnitt/
+Bewertungskriterien/Goldstandard `wissen/normen/wiki/en-520-gipsplattentypen.md`/Verifier),
+dabei eine Fehlklassierung vorgebeugt: die erste inventarisierte Sektion "0 nach BKP Nr" ist
+laut Stichprobe CRB-/SIA-451-Kostenschulung, kein Bauprodukte-Material — als Ausnahme in der
+Spec vermerkt. Bewusst kein Destillat-Lauf selbst gestartet (das ist der naechste Schritt,
+Budgetdisziplin). CHANGELOG der KB nachgefuehrt. Kein Versand/keine Buchung/keine Publikation.
+
 ## 2026-07-27
 
 **Nachtschicht Mac Mini (~23:30-23:50) — EG-GSchG-Nachzug baurecht abgeschlossen.** Die vom
