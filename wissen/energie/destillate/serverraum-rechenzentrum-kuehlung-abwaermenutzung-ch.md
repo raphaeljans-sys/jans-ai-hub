@@ -1,7 +1,7 @@
 ---
 quelle: "Kanton Zürich, Baudirektion, Amt für Abfall, Wasser, Energie und Luft (AWEL), Bericht
-  «Rechenzentren», Version 1, 31.08.2026 [Ausgangsdatum lt. Deckblatt: 31. August 2023 - Bericht als
-  Antwort auf das dringliche Postulat KR-Nr. 315/2022] (zh.ch, 50 Seiten, amtlicher Bericht inkl.
+  «Rechenzentren», Version 1, 31.08.2023 (Bericht als Antwort auf das dringliche Postulat
+  KR-Nr. 315/2022; zh.ch, 50 Seiten, amtlicher Bericht inkl.
   externem Rechtsgutachten Kap. 4 und externem EDV-Fachbeitrag Kap. 6, vollständig per curl+pdftotext
   gelesen); Kanton Zürich, Zürcher Umweltpraxis (ZUP) Nr. 112, November 2025, Artikel «Unser
   digitaler Hunger hat Folgen» inkl. Interview Prof. Adrian Altenburger (HSLU) (zh.ch, amtliche
@@ -53,7 +53,12 @@ datenstand: "2026-07-27 (Web-Abruf); jüngste Primärquelle BFE-Kurzbericht Mai 
   Stand § 30a Abs. 2 BBV I seit 01.09.2022 unverändert; MuKEn-Basistext (Art. 1.18) unverändert seit
   Nachführung 2018, MuKEn-2025-Revision laut EnDK-Medienmitteilung vom 29.08.2025 im Raum, aber ihr
   Wortlaut zur Abwärme in dieser Recherche nicht verifiziert"
-status: emerging
+status: emerging (Gesamtdokument) — ⚠ ABER: der **Rechtsteil (Ziff. 1 und 4)** ist auf
+  **established-Niveau** primärquellen-verifiziert: § 30a Abs. 1+2 BBV I am AWEL-Bericht
+  «Rechenzentren» und Art. 1.18 Abs. 1+2 MuKEn 2025 am EnDK-Originalvolltext gegengelesen
+  (Run 116, 2026-07-27, unabhängige Gegenprüfung im Hauptlauf). Emerging bleibt das Dokument
+  wegen des nicht abschliessenden SZ-Negativbefunds sowie der nur sekundär belegten
+  ASHRAE-/PUE-/Flächen-/Lärmangaben
 last_updated: 2026-07-27
 ---
 
@@ -149,26 +154,40 @@ gestufte Normen sind zu unterscheiden:
   Negativbefund** festgehalten, nicht als Beweis der Abwesenheit (siehe Offene Punkte) — der Kt. SZ
   hat schlicht (noch) keine bekannt gewordene Rechenzentrums-Spezialregel, im Unterschied zu ZH.
 
-## 4. MuKEn: Basistext seit 2014/2018 unverändert, MuKEn-2025-Wortlaut nicht verifiziert
+## 4. MuKEn: Zürich war Pionier, MuKEn 2025 hebt die 2-GWh-Regel zum nationalen Modell
 
-- Der **verifizierte MuKEn-Basistext** (Ausgabe 2014, Nachführung 2018, Art. 1.18
-  «Abwärmenutzung», Modul V) lautet **wortidentisch mit § 30a Abs. 1 BBV I**: «Abwärme, die im
-  Gebäude anfällt, insbesondere jene aus Kälteerzeugung sowie aus gewerblichen und industriellen
-  Prozessen, ist zu nutzen, soweit dies technisch und betrieblich möglich und wirtschaftlich
-  zumutbar ist.» **Diese MuKEn-Fassung enthält KEINE dem ZH-Zusatz (§ 30a Abs. 2 BBV I,
-  2-GWh-Schwelle, Bereitstellung an Dritte zu Gestehungskosten) entsprechende Klausel** — das
-  ZH-Modell geht also über den national harmonisierten MuKEn-Basistext (Stand 2014/2018) hinaus.
-- Eine **Revision «MuKEn 2025»** wurde laut Medienecho von der EnDK-Plenarversammlung
-  beschlossen (in Sekundärquellen unterschiedlich auf 4. April 2025 bzw. 29. August 2025 datiert
-  — eine offizielle EnDK-Medienmitteilung mit Datum 29.08.2025 wurde als Existenznachweis
-  gefunden, ihr Fliesstext liess sich aber technisch nicht extrahieren). **Ob und mit welchem
-  Wortlaut die MuKEn 2025 eine Abwärme-/Rechenzentrums-Bestimmung enthält, konnte in dieser
-  Recherche NICHT im Volltext verifiziert werden** — eine automatisierte Quellen-Zusammenfassung
-  behauptete einen mit § 30a Abs. 2 BBV I praktisch identischen «Art. 1.18» mit 2-GWh-Schwelle für
-  die MuKEn 2025, dies liess sich jedoch am tatsächlich gelesenen MuKEn-Volltext (der nur die
-  Fassung 2014/2018 enthielt, ohne diese Klausel) **nicht bestätigen** und wird hier ausdrücklich
-  **nicht als Fakt übernommen**, sondern als ungeklärt markiert (siehe Offene Punkte) — ein Beispiel
-  dafür, warum jede Zahl gegen den Primärtext zu prüfen ist.
+**Nachverifikation im Hauptlauf (Run 116, 2026-07-27):** Die Recherche dieses Destillats hatte den
+MuKEn-Wortlaut nur in der Fassung **2014/Nachführung 2018** (Spiegel sz.ch) gelesen und die
+2-GWh-Klausel dort korrekt **nicht** gefunden; sie wurde deshalb zunächst als unverifizierte
+Sekundärbehauptung zurückgewiesen. Die Gegenprüfung am **EnDK-Original der MuKEn 2025**
+(endk.ch, Stand 29.08.2025, 117 S., per curl+pdftotext gelesen — dieselbe amtliche Fassung, die
+das KB-Destillat [[muken-2025-verabschiedet]] seit Run 81 verwendet) zeigt: **die Klausel existiert
+in der MuKEn 2025 und ist mit dem Zürcher § 30a Abs. 2 BBV I nahezu wortgleich.** Die
+ursprüngliche Zurückweisung war methodisch richtig (falsche Ausgabe gelesen), das Ergebnis ist
+hiermit korrigiert.
+
+- **Art. 1.18 Abs. 1 MuKEn 2025** (Modul V) ist wortgleich mit § 30a Abs. 1 BBV I (allgemeine
+  Abwärme-Nutzungspflicht, «soweit technisch und betrieblich möglich und wirtschaftlich zumutbar»).
+- **Art. 1.18 Abs. 2 MuKEn 2025** im Wortlaut: «Können bei Neubauten oder bei bestehenden Bauten
+  nach Erneuerungen und Umbauten der Kälteerzeugung jährlich mehr als 2 GWh der Abwärme nicht
+  selbst genutzt werden, ist diese in geeigneter Form Dritten zu den Gestehungskosten zur Nutzung
+  zur Verfügung zu stellen.» Zürich hat diese Regel mit RRB Nr. 840 bereits **ab 1.9.2022**
+  eingeführt, also **vor** der MuKEn-Verabschiedung (29.08.2025) — der Kanton ZH war hier Pionier,
+  nicht Nachvollzieher.
+- **Praktische Umrechnungshilfe aus den amtlichen Erläuterungen (S. 109 von 117) — der für die
+  Projektierung wichtigste Satz:** «Ein Abwärmepotenzial von mehr als 2 GWh pro Jahr ist zu
+  erwarten, wenn beispielsweise die **elektrische Dauerleistung eines Rechenzentrums 230 kW
+  übersteigt** oder bei Anlagen mit mindestens **1000 kW Abwärmeleistung während mehr als 2000
+  Stunden im Jahr**.» Damit wird die abstrakte GWh-Schwelle zu einem Kennwert, den der Architekt
+  bereits in der Vorprojektphase an der Anschlussleistung prüfen kann.
+- Die Erläuterungen bestätigen auf **nationaler** Ebene ausdrücklich den bereits für ZH belegten
+  Befund: Eigentümerschaften «können mit den heutigen gesetzlichen Grundlagen **nicht verpflichtet
+  werden, ein Wärmenetz aufzubauen**»; bei grossen ungenutzten Abwärmemengen wird den Gemeinden
+  stattdessen eine kommunale Energieplanung empfohlen.
+- ⚠ **Rechtsstatus beachten:** Die MuKEn 2025 ist eine **Empfehlung an die Kantone**, noch nicht
+  automatisch geltendes Recht (Details in [[muken-2025-verabschiedet]]). Für ein konkretes Projekt
+  gilt weiterhin das jeweilige kantonale Recht — in ZH ist die Regel über § 30a Abs. 2 BBV I aber
+  bereits **geltendes Recht**.
 
 ## 5. Kühlungstechnik und Effizienz (BFE/EnergieSchweiz, teils unter ausdrücklichem ASHRAE-Bezug)
 
@@ -410,11 +429,12 @@ mit dem kantonalen Amt für Umwelt und Energie zu verifizieren.
 
 ## Offene Punkte
 
-- **MuKEn 2025 - Wortlaut zur Abwärmenutzung nicht verifiziert.** Eine automatisierte
-  Sekundärquelle behauptete eine mit ZH identische 2-GWh-Klausel für «Art. 1.18 MuKEn 2025»; der
-  tatsächlich gelesene MuKEn-Volltext (Ausgabe 2014/Nachführung 2018) enthält diese Klausel NICHT.
-  Vor jeder Verwendung: den tatsächlichen MuKEn-2025-Text bei der EnDK (endk.ch) beschaffen und
-  Art. 1.18 im Original prüfen.
+- ~~MuKEn 2025 — Wortlaut zur Abwärmenutzung nicht verifiziert.~~ **ERLEDIGT im selben Lauf
+  (Run 116, 2026-07-27):** Art. 1.18 Abs. 1+2 MuKEn 2025 am EnDK-Originalvolltext gelesen — die
+  2-GWh-Klausel existiert und ist mit § 30a Abs. 2 BBV I nahezu wortgleich; zusätzlich die
+  230-kW-Umrechnungshilfe aus den amtlichen Erläuterungen gehoben (siehe Ziff. 4). Die
+  ursprüngliche Zurückweisung beruhte darauf, dass die Recherche die **Ausgabe 2014/2018** statt
+  der Ausgabe 2025 gelesen hatte.
 - **SIA 2068 «Energieeffizienz in Rechenzentren»**: Projektstart laut AWEL-Bericht am 8.6.2023
   beschlossen — Publikationsstatus per Juli 2026 nicht verifiziert. Vor Zitieren beim SIA (sia.ch)
   nachprüfen.
