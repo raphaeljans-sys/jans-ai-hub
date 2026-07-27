@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-27 (Run 62)
+last_updated: 2026-07-27 (Run 63)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -113,6 +113,25 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 63 (2026-07-27, Festigungsmodus, Priorität (c) Stichproben-Re-Verifikation, kein
+    Agent-Fan-out):** [[raumplanung-und-gestaltung]] gewählt (letzter verbleibender Kandidat mit
+    `verifiziert`-Datum 2026-07-14, empfohlen von Run 62). Vollständiger Modell-D-Wortlautabgleich
+    §§ 7/18/19/39/46 Abs. 3/48/49-65/69-73/346 PBG (Zonentypen-Enumeration numerus clausus § 48
+    Abs. 2, Fristen 60-Tage-Auflage § 7/Planungszone 3+2 Jahre § 346) gegen
+    `raw/260607_amtlich_zh_pbg.md` — **CONFIRMED, 0 Korrekturen** an diesem Bestand (§§ 83-89/44a
+    PBG bereits Run 43 CONFIRMED, nicht erneut geprüft). **1 echte Korrektur:** «Anspruch auf
+    Bewilligung … § 253 PBG» war fehlzugeordnet — § 253 PBG regelt nur die Nutzweise/
+    Zonenkonformität, die Anspruchsnorm ist **§ 320 PBG** (im übrigen Wiki-Bestand bereits
+    durchgängig korrekt geführt, isolierte Wiki-Kompressionsabweichung, Register-Sweep negativ:
+    keine Propagation in `wiki/INDEX.md`/`buecher/INDEX.md`/`training/curriculum.md`).
+    **0 Halluzinationen, 1 echte Korrektur, 0 neue Fehler im übrigen Bestand.** 3 neue Drill-
+    Karten (2×D, 1×A). Report `outputs/2026-07-27_buch-run63.md`. Damit ist die von Run 55
+    begonnene Liste der ältesten `verifiziert`-Daten (Stand 2026-07-14) einmal vollständig
+    durchlaufen (`baulinien-und-abstandslinien`/`naturschutz-und-denkmalschutz`/
+    `raumplanung-und-gestaltung` alle Run 61-63 re-verifiziert). **Nächster Schritt:** erneuter
+    Fassungsstand-Sammelcheck der kantonalen Erlasse gegen zhlex.zh.ch (Daueraufgabe, Leitplanke
+    Run 48, zuletzt vollständig Run 52-54) oder neuer Umlauf über die inzwischen ältesten
+    `verifiziert`-Daten (`grep -h "^verifiziert:" wiki/*.md | sort`).
   - **Run 62 (2026-07-27, Festigungsmodus, Priorität (c) Stichproben-Re-Verifikation, kein
     Agent-Fan-out):** [[baulinien-und-abstandslinien]] gewählt (letzter verbleibender Kandidat
     mit `verifiziert`-Datum 2026-07-14 vor [[raumplanung-und-gestaltung]], empfohlen von Run 61).
