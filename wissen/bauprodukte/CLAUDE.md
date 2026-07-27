@@ -8,15 +8,15 @@ Was JANS über **Bauprodukte, Systeme und Gewerke** weiss — geordnet nach BKP 
 es dieselbe Sprache spricht wie Ausschreibung, Kostenplanung und Bauleitung.
 
 Quelle: `/Volumes/daten/03 Bauprodukte_BKP` (37 Gewerke-Sektionen, gewachsene
-Produktunterlagen, Systembeschriebe, Datenblaetter, Leistungserklärungen).
+Produktunterlagen, Systembeschriebe, Datenblätter, Leistungserklärungen).
 Das Archiv ist `raw/` im Sinne der Rule `wissens-bibliothekar`: **nur lesen, nie verändern.**
 
 ## Artikelschnitt
 
 Ein Artikel je **Sache**, nicht je Quelldatei:
 
-- je **Gewerk** ein Übersichtsartikel (`bkp-271-gipserarbeiten.md`) — was gehoert dazu,
-  welche Systeme sind ueblich, welche Schnittstellen zu Nachbargewerken,
+- je **Gewerk** ein Übersichtsartikel (`bkp-271-gipserarbeiten.md`) — was gehört dazu,
+  welche Systeme sind üblich, welche Schnittstellen zu Nachbargewerken,
   welche wiederkehrenden Fehlerbilder;
 - je **Produktgattung** ein Artikel (`gipsfaserplatte.md`, `indach-pv.md`) — Aufbau,
   Kennwerte, Klassifizierung, Einsatzgrenzen;
@@ -24,7 +24,7 @@ Ein Artikel je **Sache**, nicht je Quelldatei:
 
 Ein PDF kann drei Artikel speisen; zehn PDFs können einen speisen.
 
-## Schreibregeln (ergaenzend zu `wissen/WISSEN-CLAUDE.md`)
+## Schreibregeln (ergänzend zu `wissen/WISSEN-CLAUDE.md`)
 
 1. **Datumsstempel-Pflicht.** Die Unterlagen im Archiv sind teils zehn Jahre alt. Jede
    Angabe zu Preisen, Normausgaben, Zulassungen und Produktnamen trägt den Stand des
@@ -35,16 +35,16 @@ Ein PDF kann drei Artikel speisen; zehn PDFs können einen speisen.
 3. **Normzitate** nur mit Fundstelle aus `wissen/normen/` (Rule `normen-referenz`).
    Brandschutz-Klassifizierungen zusätzlich gegen den Skill `brandschutz`.
 4. **Kein Hersteller-Marketing.** Superlative und Werbeaussagen werden nicht übernommen;
-   übernommen wird, was pruefbar ist (Kennwert, Klassifizierung, Aufbau, Grenze).
+   übernommen wird, was prüfbar ist (Kennwert, Klassifizierung, Aufbau, Grenze).
 5. **Herstellerneutral formulieren**, wo der Artikel in ein LV fliessen könnte
    (Rule 260626, Submissionsunterlagen sind neutral). Produktnamen als Beispiel
    kennzeichnen, nicht als Vorgabe.
-6. `status: established` erst bei unabhaengiger Zweitbelegung (Norm, zweites Datenblatt,
+6. `status: established` erst bei unabhängiger Zweitbelegung (Norm, zweites Datenblatt,
    eigener Projektbeleg).
 
 ## Wofür dieser KB gezogen wird
 
-`ausschreibung` (technische Anforderungen im LV) · `offertenpruefung` (ist das marktueblich)
+`ausschreibung` (technische Anforderungen im LV) · `offertenprüfung` (ist das marktüblich)
 · `brandschutz` (Klassifizierung, Leistungserklärung) · `unternehmerfindung` (welches
 Gewerk kann das) · `grobkosten`/`kostenschaetzung` (Systemwahl als Kostentreiber).
 

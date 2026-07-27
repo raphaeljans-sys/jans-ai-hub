@@ -18,18 +18,18 @@ eigene Lern-Aufgabe statt ausgebaut zu werden.
 
 ## Warum diese Reihenfolge
 
-**1. Bauprodukte zuerst — hoechster direkter Hebel.** Der Ordner ist bereits nach BKP
+**1. Bauprodukte zuerst — höchster direkter Hebel.** Der Ordner ist bereits nach BKP
 gegliedert, deckt sich also mit der Rule `bkp-2017-referenz` und mit der Sprache der
 Ausschreibung. Das Destillat speist unmittelbar `ausschreibung` (LV-Texte, technische
-Anforderungen), `offertenpruefung` (was ist marktueblich), `brandschutz`
+Anforderungen), `offertenprüfung` (was ist marktüblich), `brandschutz`
 (Klassifizierungen, Leistungserklärungen), `unternehmerfindung` und `grobkosten`.
 Jeder destillierte Gewerkeordner macht am selben Tag eine reale Arbeit schneller.
 
 **2. Büroprojekte — der eigentliche Wettbewerbsvorteil.** 22 abgewickelte Projekte sind
 Wissen, das ausserhalb dieses Büros niemand hat und das kein Modell aus dem Netz kennt.
 Ziel ist nicht die Projektdokumentation, sondern die **Lehre**: was hat der Bauherr
-tatsaechlich entschieden, wo lag die Kostenwahrheit gegenüber der Schaetzung, welche
-Behoerdenauflage kam überraschend. Geht in den bestehenden KB `projekt-lessons`.
+tatsächlich entschieden, wo lag die Kostenwahrheit gegenüber der Schätzung, welche
+Behördenauflage kam überraschend. Geht in den bestehenden KB `projekt-lessons`.
 
 **3./4. Fachbibliothek und Archiv — Breite statt Tiefe.** Gross, wertvoll, aber am
 wenigsten dringend und am aufwendigsten (viele grosse PDFs). Kommt, wenn die beiden
@@ -37,13 +37,13 @@ scharfen Korpora stehen.
 
 **Nicht in der Queue:**
 - `/Volumes/daten/05_Architekten_Synobsis` — KB saturiert (853/853, Entscheid Raphael 25.07.2026).
-- `/Volumes/daten/04_Buero/01_Buerounterlagen` — Personal/Finanzen. Nur auf ausdrueckliche
-  Freigabe, und dann in einen eigenen, zugriffsbeschraenkten KB.
+- `/Volumes/daten/04_Buero/01_Buerounterlagen` — Personal/Finanzen. Nur auf ausdrückliche
+  Freigabe, und dann in einen eigenen, zugriffsbeschränkten KB.
 
 ## Regeln für die Queue
 
 - Es wird **immer nur ein Korpus gleichzeitig** bearbeitet. Erst wenn dessen P1/P2-Positionen
-  erledigt sind (Stand `erledigt`), rueckt der nächste nach.
+  erledigt sind (Stand `erledigt`), rückt der nächste nach.
 - Ein Korpus ohne Spec unter `specs/<id>-spec.md` wird nicht destilliert — der erste Lauf
   schreibt die Spec und endet.
 - Änderungen an dieser Reihenfolge sind ein Entscheid Raphaels, kein Loop-Entscheid.

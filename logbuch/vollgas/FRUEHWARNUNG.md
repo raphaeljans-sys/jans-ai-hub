@@ -7,35 +7,35 @@ Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante 
 ## 2026-07-28 — ENTSCHEID Raphaels: der Runner bekommt eine eigene Lern-Aufgabe
 
 Beantwortet die Grundsatzfrage vom 27.07. («neue Aufgaben oder Runner ausbauen?»): **neue
-Aufgabe.** Raphael will «eine schlagkraeftige AI auskristallisieren» aus dem Wissen, das auf
-dem Server liegt — ueber MD-Dateien in ein Wiki, nach der Karpathy-Spec-Methode, mit dem
+Aufgabe.** Raphael will «eine schlagkräftige AI auskristallisieren» aus dem Wissen, das auf
+dem Server liegt — über MD-Dateien in ein Wiki, nach der Karpathy-Spec-Methode, mit dem
 idealen Modell je Phase. Umgesetzt als Skill `wissens-destillat`.
 
-**Warum das die richtige Fuellung ist.** Die 15 bestehenden KBs (1'662 MD) melden reihum
+**Warum das die richtige Füllung ist.** Die 15 bestehenden KBs (1'662 MD) melden reihum
 Delta Null — ihr Rohmaterial ist aufgebraucht, darum lief der Runner leer. Das unerschlossene
 Wissen liegt NEBEN dem Hub, auf demselben NAS: `03 Bauprodukte_BKP` (37 Gewerke nach BKP),
 `04_Buero/02_Projekte` (22 abgewickelte Projekte), `04_Buero/10_Referenzenbibliothek`,
 `02_Architektur_Archiv` (23 Themensektionen). Der Runner bekommt also nicht irgendeine
-Beschaeftigung, sondern die einzige, die noch echtes Delta erzeugt.
+Beschäftigung, sondern die einzige, die noch echtes Delta erzeugt.
 
 **Modell je Phase** (Rule 260719, «Minimum Viable Model»): Phase 0 Inventar = bash, null
 Tokens · Phase 1 Triage = Haiku 4.5 · Phase 2 Destillat = Sonnet 5 · Phase 3 Verifikation,
 Promotion, Kuratierung = Opus 5 in der Runner-Session selbst. Die teure Stufe macht
-ausschliesslich das, wofuer sie da ist: Belege pruefen, Widersprueche aufloesen, Status heben.
+ausschliesslich das, wofür sie da ist: Belege prüfen, Widersprüche auflösen, Status heben.
 
 **Kein zweiter Taktgeber** (Rule 260727): der Task `wissens-destillat` ist AD-HOC angelegt
 (kein Cron). Einziger Feuermechanismus ist der Endlos-Runner; `destillat` steht neu in dessen
-`INCLUDE_RE`. Der Runner faehrt damit genau EINEN Loop — verifiziert durch Nachbau der
+`INCLUDE_RE`. Der Runner fährt damit genau EINEN Loop — verifiziert durch Nachbau der
 Auswahllogik.
 
 **Gebaut:** `skills/wissens-destillat/` (SKILL.md, KORPUS-QUEUE.md, tools/korpus.conf,
 tools/inventar.sh, tools/destillat-lauf.sh), KB-Skelett `wissen/bauprodukte/`, Phase 0
 getestet (37 Sektionen erfasst, 134 Dateien inventarisiert, idempotent).
 
-**Diese Fruehwarnung ist neu die Ertragskontrolle** (Schritt 5b): sie misst Front-Fortschritt,
-Artikelertrag, Delta-Null-Serie und Stueckkosten je Artikel. Neue Meldegruende (f) Tokens ohne
+**Diese Frühwarnung ist neu die Ertragskontrolle** (Schritt 5b): sie misst Front-Fortschritt,
+Artikelertrag, Delta-Null-Serie und Stückkosten je Artikel. Neue Meldegründe (f) Tokens ohne
 Wissenszuwachs in 48h und (g) Queue komplett. Damit kann der Loop nicht mehr still Geld
-verbrennen, ohne dass es am naechsten Morgen sichtbar ist.
+verbrennen, ohne dass es am nächsten Morgen sichtbar ist.
 
 **Noch NICHT vollzogen — bewusst:** die STOP-Dateien beider Stationen bleiben liegen. Der
 Runner startet erst auf Raphaels Wort:

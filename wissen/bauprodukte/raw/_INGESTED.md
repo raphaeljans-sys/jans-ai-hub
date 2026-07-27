@@ -5,10 +5,10 @@ Archiv und wird dort nur gelesen:
 
     Quelle: /Volumes/daten/03 Bauprodukte_BKP
 
-Der Einarbeitungsstand wird nicht hier, sondern im Inventar des Destillat-Skills gefuehrt:
+Der Einarbeitungsstand wird nicht hier, sondern im Inventar des Destillat-Skills geführt:
 
     skills/wissens-destillat/training/bauprodukte-inventar.md    (Status je Datei)
     skills/wissens-destillat/training/bauprodukte-sektionen.md   (Fortschritt je Gewerk)
 
-Grund: das Archiv ist die kanonische Ablage des Büros. Eine Kopie nach `raw/` wuerde
+Grund: das Archiv ist die kanonische Ablage des Büros. Eine Kopie nach `raw/` würde
 eine zweite Wahrheit erzeugen (Rule `sync-kanonische-quelle`).
