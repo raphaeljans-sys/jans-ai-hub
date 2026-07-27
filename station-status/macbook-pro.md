@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 27.07.2026 19:49:24
+Stand: 27.07.2026 19:59:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 19:23)
+- Developer/jans/ai/hub  (letzte Aktivitaet 19:41)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 27.07.2026 19:49:24
 - 4 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- d809e087 nas-selfcommit: 4 Datei(en) 2026-07-27 19:45
+- 089c3ba5 twin-mail-training: Batch 78 Dry Run (beide Straenge leer, Archive-Ordner geprueft, kein neues Material)

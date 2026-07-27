@@ -1,3 +1,51 @@
+## 2026-07-27 — Run 34: fuenfte Refuter-Runde (3 Destillate), kein Nulldurchgang, Registrierung nachgeholt
+
+**Anlass.** Run 33 empfahl als naechsten Batch eine fuenfte unabhaengige Verifikationsrunde fuer
+die drei verbleibenden speculativen Lignum-/SIA-Destillate (je genau 1 Befund aus Run 33). Drei
+parallele Refuter-Agenten gefahren (Workflow-Tool erneut nicht getestet, direkter Parallel-
+Agenten-Fallback gemaess `training/PROGRAMM.md`). **Hinweis zur Nachfuehrung:** Die Destillat-
+Edits und die INDEX.md-Zeilen fuer `sia-d0165...md` und `lignum-lignatec...md` waren bereits durch
+eine vorangegangene, nicht zu Ende gefuehrte Instanz dieses Scheduled Tasks erstellt (Dateistand
+27.07.2026 18:30-19:22), aber weder im CHANGELOG/Inventar registriert noch committet; diese Runde
+hat die Registrierung nachgeholt, die INDEX-Zeile fuer `lignum-4-1...md` ergaenzt (war unvollstaendig)
+sowie dessen veraltete Frontmatter-Statuszeile (fehlte der Run-34-Befund) nachgezogen.
+
+**Kein Destillat erreicht in dieser Runde einen Nulldurchgang — alle drei bleiben `speculative`:**
+- `lignum-lignatec-brandschutz.md` — 1 Befund: Figur 1 (R/EI/REI-Uebersichtstabelle) zweimal mit
+  Fundstelle «S. 3» zitiert, physisch aber auf S. 2 platziert (Textdefinition Ziff. 1.2 steht auf
+  S. 3, daher die urspruengliche Verwechslung); beide Fundstellen korrigiert. Reine
+  Fundstellen-Ungenauigkeit, keine inhaltliche Abweichung. Tab.-4/Tab.-5-Fixe aus Run 32/33
+  unabhaengig erneut bestaetigt. Konvergenz 17→1→1→1→1, weiterhin kein Nulldurchgang.
+- `sia-d0165-2000-kennzahlen-immobilienmanagement.md` — 3 Befunde, alle vom Typ unvollstaendige
+  Wiedergabe: (1) Kap. 3.1.1 Konstruktionsflaeche KF, Auszuschliessen-Liste verkuerzt zitiert
+  («gestalterische» statt «konstruktive und gestalterische Vor-/Ruecksprünge»), ergaenzt.
+  (2) Anhang 2 HNF3-Kategorietitel verkuerzt («Produktion/Experimente» statt «Produktion, Hand-
+  und Maschinenarbeit, Experimente»), korrigiert. (3) Anhang 6 DIN-18960(1976)-Sechs-Punkte-
+  Gliederung in falscher Reihenfolge («Betrieb/Steuern» statt «Steuern/Betrieb» nach
+  Originalnummerierung), korrigiert samt Erklaerung der Verwechslungsursache (visuelle
+  Tabellenposition vs. Original-Nummerierung). GEFMA-450-Fix (Run 32), GEFMA-4xx/230-
+  Instandsetzung-Fix (Run 33) und BKP-19-99/EKG-W1-W6-Sammelposition erneut bestaetigt,
+  keine Regression.
+- `lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md` — 2 Befunde: (1) Tab. 431-2
+  (Balkendecken REI30) nannte zusaetzlich drei nicht belegte Alternativ-Querschnitte
+  (120x140/80x120/80x100 mm), die in keiner der zehn Varianten A-K vorkommen; entfernt.
+  (2) Abb. 310-2 Massivholzplatten-Fasenausnahme: eine bereits vor Rundenbeginn separat
+  korrigierte **Doppel-Regression** (Runde 3 hatte «Massivholzplatten» faelschlich aus der
+  Sechser-Aufzaehlung entfernt, Runde 4 hatte diese Entfernung faelschlich als korrekt
+  bestaetigt) wurde unabhaengig gegen den Original-Scan verifiziert und bestaetigt korrekt.
+  Fuenfte Runde in Folge mit mindestens einem Befund — noch keine Konvergenz auf 0.
+
+**Lehre:** Der Lignum-4.1-Doppel-Regressions-Fall (zwei aufeinanderfolgende Refuter-Runden
+bestaetigen denselben Fehler) zeigt, dass ein einzelner Refuter-Durchgang auch mehrfach in
+Folge fehlbar sein kann — erst eine unabhaengige Runde mit direktem Bildvergleich hat den
+Fehler aufgedeckt. Ausserdem: Scheduled-Task-Instanzen, die aus Budget-/Zeitgruenden vor der
+Registrierung enden, hinterlassen einen inkonsistenten Zwischenstand (Destillat/INDEX teilweise
+aktualisiert, CHANGELOG/Inventar/Report/Commit fehlend) — die naechste Instanz muss diesen
+Zwischenstand zuerst erkennen (Datei-Zeitstempel, `grep -rl "Run N"`) statt blind neu zu starten.
+
+Details `training/norm-inventar.md` (Run-34-Eintrag), `destillate/INDEX.md`, Report
+`outputs/2026-07-27_normen-nacht-run34.md`.
+
 ## 2026-07-27 — Run 33: vierte Refuter-Runde (4 Destillate), 1x established, regionale ZH-Geltung geklaert
 
 **Anlass.** Run 32 empfahl als naechsten Batch eine vierte unabhaengige Verifikationsrunde fuer

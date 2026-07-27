@@ -7,7 +7,34 @@ herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direkto
 ausgabe: "Lignum-Dokumentation Brandschutz, Themenblock 4 «Bauteile in Holz», Publikation 4.1 «Decken, Wände und Bekleidungen mit Feuerwiderstand». Erschienen Mai 2015, Nachdruck/Aktualisierung Oktober 2017. Von der TKB-VKF in Bezug auf Übereinstimmung mit den Mindestanforderungen der Schweizerischen Brandschutzvorschriften VKF, Ausgabe 2015 (BSV 2015), Stand 01.01.2017 geprüft und am 06.09.2017 als «Stand der Technik Papier (STP)» anerkannt. Laut Einleitung (S. 4) weist die vorliegende Publikation gegenüber der Erstausgabe von Mai 2015 in technischer Hinsicht keine relevanten Unterschiede auf; die Erstausgabe kann weiterhin angewendet werden."
 gelesen: "alle 40 Seiten (Teile A+B+C) komplett, Titelblatt/Impressum/Buchrücken eingeschlossen — Bild-Scan ohne Textlayer, visuell erfasst"
 datenstand: "Mai 2015 / STP-Anerkennung 06.09.2017"
-status: "speculative (vierte unabhaengige Refuter-Runde 27.07.2026, Run 33: BEANSTANDET mit 1 Befund — Regression aus der dritten Runde. Die dritte Runde hatte in Kap. 5.2.2 die im Original explizit belegte Gleichsetzung 'Bekleidung K30-RF1 / Bauteil EI30-RF1' (bzw. K60-RF1/EI60-RF1) faelschlich als 'unbelegt' entfernt — Tab. 522-1 nennt die Spalte im Original woertlich 'Bauteil RF1' mit Zellwert 'Bauteil EI30-RF1'/'EI60-RF1', der Fliesstext S. 59 nennt das Beispiel 'Bauteil EI30-RF1 anstelle Bekleidung K30-RF1' explizit. Hier korrigiert und praezisiert (zwei gleichwertige Alternativen, keine pauschale Klassen-Gleichsetzung). Alle anderen Runde-3-Befunde (SIA 265/1-Zitat Kap. 2.2c/3.2, Abb. 310-2 Massivholzplatten, Kap. 4.5.2.1 mehrseitige Brandeinwirkung) sowie saemtliche Run-31/Run-1-Korrekturen (40-mm-Abgrenzung, K/F/BSP-Gruppenzuordnung, Traglast je Systemtyp, Tab. 447-1, Tab. 442-5/541-2/445-1-2, Tab. 462-2, Tab. 446-1/2/3, Fugentyp Wand/Decke, VSSM, Tab. 431-3/431-4, Tab. 437-1/437-2, Tab. 441-1, Tab. 436-1) wurden in dieser Runde gegen die Original-Scans zellenweise nachgerechnet und bestaetigt — keine weitere Regression. Vorherige Runde (Run 32, 260727, dritte Runde): BEANSTANDET mit 5 Befunden (4 korrekt, 1 wie oben als Regression identifiziert). Runde davor (Run 31, 260727): BEANSTANDET mit 26 Befunden aus zwei scope-getrennten Agenten [Teil A/B 12, Teil C 14], alle eingearbeitet, davon 10 substanziell (invertierte 40-mm-Abgrenzung, falsch zugeordnete 12-15-Minuten-Aussage, vertauschtes Bezugsobjekt Decken/lineare Bauteile, falsche K/F/BSP-Gruppenzuordnung, Traglast je Systemtyp statt je Klasse, Tab. 447-1 Alternativen statt Kombination, drei Faelle mit Werten aus der falschen Spalte [Tab. 442-5, 541-2, 445-1/2], Tab. 462-2 einschichtig/zweischichtig vertauscht) sowie einer zurueckgenommenen Regression (Tab. 446-1 Untergrenze 50 mm war korrekt). Bleibt speculative bis zu einer Runde mit sauberem Nulldurchgang.)"
+status: "speculative (fuenfte unabhaengige Refuter-Runde 27.07.2026, Run 34: BEANSTANDET mit 2
+  Befunden — (1) Tab. 431-2 (Balkendecken REI30, S. 23) nannte zusaetzlich zur Bandbreite drei
+  nicht belegte Alternativ-Querschnitte (120x140/80x120/80x100 mm), die in keiner der zehn
+  Varianten A-K der Tabelle vorkommen; Satzteil entfernt. (2) Abb. 310-2 (Massivholzplatten in
+  der Fasen-Ausnahme-Aufzaehlung, S. 12) war bereits zu Beginn dieser Runde separat korrigiert
+  (siehe Historie) und wurde hier unabhaengig gegenverifiziert und bestaetigt. Regressionscheck:
+  saemtliche Korrekturen aus Runde 1-4 (40-mm-Abgrenzung, K/F/BSP-Gruppenzuordnung, Traglast je
+  Systemtyp, Tab. 447-1, Tab. 442-5/541-2/445-1-2, Tab. 462-1/462-2, Tab. 446-1/2/3, Fugentyp
+  Wand/Decke, VSSM, Tab. 431-3/431-4, Tab. 437-1/437-2, Tab. 441-1, Tab. 436-1, Kap. 2.2c/3.2
+  SIA-265/1-Zitat, Kap. 4.5.2.1 mehrseitige Brandeinwirkung, Kap. 5.2.2/Tab. 522-1 K/EI-
+  Alternative) gegen die Original-Scans erneut bestaetigt, keine Regression. Fuenfte Runde in
+  Folge mit mindestens einem Befund; kein Nulldurchgang. Historie: die dritte Runde (Run 32)
+  hatte «Massivholzplatten» faelschlich aus der Sechser-Aufzaehlung (Abb. 310-2) entfernt, die
+  vierte Runde (Run 33) hatte diese Entfernung faelschlich als korrekt bestaetigt — beide lagen
+  falsch; per direktem Bildvergleich vor Beginn der fuenften Runde wiederhergestellt (Original
+  nennt woertlich sechs Baustoffe: Vollholz, Brettstapel, Massivholzschalung, Massivholzplatten,
+  Furniersperrholz, Furnierschichtholz). Runde davor (Run 33, dritte Runde): BEANSTANDET mit 1
+  Befund — Regression aus der dritten Runde (Kap. 5.2.2 K30/K60-RF1 ↔ EI30/EI60-RF1-Gleichsetzung
+  faelschlich als unbelegt entfernt, wiederhergestellt). Vorherige Runde (Run 32, dritte Runde):
+  BEANSTANDET mit 5 Befunden (4 korrekt, 1 wie oben als Regression identifiziert). Runde davor
+  (Run 31): BEANSTANDET mit 26 Befunden aus zwei scope-getrennten Agenten [Teil A/B 12, Teil C
+  14], alle eingearbeitet, davon 10 substanziell (invertierte 40-mm-Abgrenzung, falsch
+  zugeordnete 12-15-Minuten-Aussage, vertauschtes Bezugsobjekt Decken/lineare Bauteile, falsche
+  K/F/BSP-Gruppenzuordnung, Traglast je Systemtyp statt je Klasse, Tab. 447-1 Alternativen statt
+  Kombination, drei Faelle mit Werten aus der falschen Spalte [Tab. 442-5, 541-2, 445-1/2],
+  Tab. 462-2 einschichtig/zweischichtig vertauscht) sowie einer zurueckgenommenen Regression
+  (Tab. 446-1 Untergrenze 50 mm war korrekt). Bleibt speculative bis zu einer Runde mit
+  sauberem Nulldurchgang.)"
 last_updated: 2026-07-27
 links: [[REGISTER]]
 ---
