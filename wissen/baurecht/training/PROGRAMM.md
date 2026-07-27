@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-27 (Run 68)
+last_updated: 2026-07-28 (Run 69)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -100,6 +100,18 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   raw-Datei belegt nur, dass der § **einmal** so lautete. Analog zur Grep-Falle: «existiert nicht» ist ohne
   Fassungspruefung nicht belastbar (Run 48: der Agent waere an der 2013er-Fassung beinahe zum Fehlschluss
   «§ 15m existiert nicht» gekommen).
+- **Verweisnormen ZWEITEILIG auf Fassungsstand pruefen (Pruefregel Modell D, seit Run 69):** die
+  Fassungspruefung aus Run 48 galt dem **Erlass** (gilt er noch? welcher Nachtrag?). Run 69 fand die
+  Drift eine **Ebene darunter**: bei Verweisnormen (§ 3 BBV I → Anhang Ziff. 1; § 360 Abs. 3 PBG →
+  Richtlinien/Normalien) ist der Erlass unveraendert in Kraft (BBV I: Nachtrag 133) und **nur die
+  verwiesene Anhangsziffer** aufgehoben — Anhang Ziff. 1.2/1.21 BBV I per **1.9.2022** (RRB 8.6.2022,
+  OS 77, 378, Fn. 84), womit die kantonale Verbindlicherklaerung der **SIA 181** ersatzlos wegfiel
+  (heute Art. 32 Abs. 1 LSV, Bundesrecht). Ein Fassungsstand-Check auf Erlassebene haette **nichts**
+  gefunden. Darum: bei jeder Verbindlich-/Beachtlicherklaerung und jedem Anhang-Verweis **beide
+  Teile** pruefen — Verweisnorm UND verwiesene Ziffer. Zusatz: eine Fundstelle der Form «§ N Abs. NN»
+  mit zweistelligem Absatz ist ein **Warnsignal** — im ZH-Recht meist eine verlesene **Anhangsziffer**
+  («Anhang Ziff. 1.2» → «§ 3 Abs. 12»); Absatzzahl immer gegen die tatsaechliche Absatzzahl des
+  Paragraphen halten.
 - **Register-Sweep nach jeder Korrektur (seit Run 47):** derselbe Fakt steht regelmaessig an
   5-6 Fundorten (Wiki, Destillat, `buecher/INDEX.md`, `wiki/INDEX.md`, `training/curriculum.md`,
   `training/drills.md`). Eine Korrektur nur im Fliesstext laesst **Tabellen und Register
@@ -164,6 +176,47 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
     belegt sie aber nicht. An zhlex LS 711.11 prüfen. **Drittkanal (andere KB, nur melden):**
     `planungsgrundlagen/wiki/kartenportale-oereb-kataster-system-zh.md` Z. 32/34 führt «LS 711.1
     §§ 3/34/37» als geltende ÖREB-Rechtsgrundlage der Themen 130/132 — dort mitzuziehen.
+  - **Run 69 (2026-07-28, Festigungsmodus, Priorität (c) Erst-Verifikation + Priorität (a) zwei
+    beschaffbare Lücken, kein Agent-Fan-out):** [[grundlagen-planungs-baurecht]] gewählt — der
+    **letzte** nie durch den Modell-D-Loop gelaufene Artikel (kein `verifiziert`-Feld, `emerging`
+    seit 2026-06-30). Vollständiger Wortlautabgleich §§ 317/218 Abs. 2/270 Abs. 3/238 Abs. 1/320/
+    328/360 Abs. 3 PBG gegen `raw/260607_amtlich_zh_pbg.md`, § 20 Abs. 1 lit. c VRG, § 3 + Anhang
+    BBV I, Art. 32 Abs. 1 LSV, Art. 679 ZGB (Fedlex). **3 echte Zitierfehler korrigiert:**
+    (1) **Art. 679 Abs. 2 ZGB mit invertierter Polarität** zitiert — Abs. 2 ist eine
+    Anspruchs*beschränkung* («nur, wenn … die damals geltenden Vorschriften **nicht** eingehalten
+    wurden»), die Regel trägt Abs. 1 i.V.m. Art. 684 ZGB (gleiches Muster wie Art. 164 GBV, Run 67);
+    (2) **«§ 3 Abs. 12 BBV I» existiert nicht** (§ 3 hat 4 Abs.) — verlesene **Anhangsziffer 1.2**,
+    und diese ist samt Ziff. 1.21 **per 1.9.2022 aufgehoben** (RRB 8.6.2022, OS 77, 378), womit die
+    kantonale Verbindlicherklärung der **SIA 181** wegfiel (heute Art. 32 Abs. 1 LSV);
+    (3) **§ 220 PBG als «Nebenbestimmungen» etikettiert** — amtlich «C. Ausnahmebewilligungen»,
+    Nebenbestimmungen sind § 321 PBG. **2 Präzisierungen:** § 318 PBG trägt die intertemporale Regel
+    nicht (nur Zuständigkeit; Grundsatz = Rechtsprechung VB.2012.00734, Kompressionsmuster wie
+    § 253/§ 320 in Run 63); Unangemessenheit instanzenscharf (§ 20 Abs. 1 lit. c VRG im Rekurs vs.
+    § 50 Abs. 2 VRG vor VGr). Status **emerging → established** — **damit trägt kein Wiki-Artikel
+    dieser KB mehr ein fehlendes `verifiziert`-Feld.** Register-Sweep über Destillat, beide INDEX,
+    `curriculum.md`, `drills.md`. **Priorität (a), zwei Lücken geschlossen:** (i) **KGSchV-Bring-
+    Schuld beantwortet** — die **KGSchV (LS 711.11) ist per 01.01.2022 aufgehoben** (zhlex-
+    Erlassseite: Aufhebungsdatum 01.01.2022, letzte Fassung Nachtrag 099), über vier Jahre vor dem
+    EG GSchG; Aufhebungsvermerke an 6 Fundorten gesetzt, Nachfolgeerlass 2022 aber **noch unbelegt**
+    (WsV enthält keine Aufhebungsklausel; § 92 WsV trägt die Erdwärme-Materie des § 35 KGSchV = Indiz,
+    nicht Beleg). (ii) **P1 aus Wissens-Chef Run 18 geschlossen** — `raw/260728_amtlich_zh_wsg.md`
+    und `raw/260728_amtlich_zh_wsv.md` angelegt (beide Nachtrag 133, in Kraft 01.06.2026); **§ 126
+    WsG am eigenen Volltext gegengelesen**, Aufhebung EG GSchG + WWG jetzt KB-intern belegt; die zwei
+    offenen §-Zuordnungen (§ 15 Abs. 3 40-m-Nebenanlagen, § 36 Abs. 2 Grundbuch-Anmerkung) sind an
+    **beiden** Volltexten unauffindbar und bleiben ausdrücklich offen. **Neue Frage aufgeworfen:**
+    ist SIA 380/1 noch teilverbindlich? (am geltenden BBV-I-Anhang nicht belegbar, Cross-KB an
+    `energie`/`normen`). **0 Halluzinationen, 3 echte Fehler, 1 Fassungsstand-Drift, 2 Präzisierungen,
+    1 Statuserhöhung, 2 Lücken geschlossen, 3 Fragen neu/offen.** 4 neue Drill-Karten.
+    **Neue Leitplanke eingetragen:** Verweisnormen zweiteilig prüfen (Erlass UND Anhangsziffer altern
+    getrennt) + Warnsignal «§ N Abs. NN» mit zweistelligem Absatz. Report
+    `outputs/2026-07-28_buch-run69.md`. **«Rückstand abgebaut» weiterhin NICHT ausgerufen**
+    (Leitplanke Run 48) — der Artikel galt vier Wochen als «vollständig erschlossen» und trug drei
+    substanzielle Fehler, einen davon mit umgekehrter Rechtsfolge. **Nächster Schritt:** die
+    Erst-Verifikations-Liste ist abgearbeitet; es beginnt ein **neuer Umlauf über die ältesten
+    `verifiziert`-Daten** (`grep -h "^verifiziert:" wiki/*.md | sort`; älteste Kerne
+    [[fahrzeugabstellplaetze-und-parkierung]] 2026-07-12, [[rechtsschutz-und-rechtsmittelverfahren]]
+    / [[wohnhygiene-und-raumanforderungen]] 2026-07-12/13) — alternativ die drei neu offenen Fragen
+    dieses Laufs.
   - **Run 68 (2026-07-27, Festigungsmodus, Priorität (c) Erst-Verifikation, kein Agent-Fan-out):**
     [[enteignung-und-entschaedigung]] gewählt (letzter der beiden nie durch den Modell-D-Loop
     gelaufenen `emerging`-Artikel, von Run 67 empfohlen). Vollständiger Wortlautabgleich aller
