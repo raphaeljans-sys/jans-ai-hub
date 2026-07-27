@@ -2564,3 +2564,18 @@ Website-Neuaufbau).
 Metrik (UBS-Mail, 170 W, stilmetrik.py): Du-Gross-Quote entfällt (Sie-Mail), Tausender-Apostroph 2×
 (CHF 100'000), «%» 0 Treffer, Ellipsen 0, Satzlänge ø 13.1 W, Anrede «Sehr geehrter Herr» 1×, Gruss
 «Freundliche Grüsse» 1×.
+
+## Urgenz-Titel statt Anrede + komplett grussloser Schluss bei substanzieller Korrektur (belegt Fidelity 260727k, authentisch, offen/Einzelbeleg)
+Im selben engsten Peer-Du-Register wie die Yorck-Garten-Render-Iteration (Batch 09/10, 29.08.–
+02.09.2025) findet sich ein bisher unbelegtes Opener-Muster: **«Allerletzte Bitte:»** ersetzt jede
+Anrede komplett und rahmt die Mail wie einen Titel/Reminder statt eines Briefanfangs («Autostempel
+und Schirmvordergrund», 01.09.2025, zwei inhaltlich dichte Korrekturpunkte zur Rendering-Kompo-
+sition: zweiter Baumschirm soll ins Bild ragen, ein «gestempeltes» Fahrzeug soll im 3D entfernt und
+neu gerendert werden). Die Mail endet nach dem zweiten Punkt ohne jedes Grusswort — anders als die
+bisher dokumentierte Nullform-Familie (kurze Status-/Weiterleitungsfragen, meist 1-Zeiler), hier
+bei einer **mehrpunktigen inhaltlichen Korrekturanweisung**. Tippfehler-Dichte hoch («demke»,
+«hässlich gestemmpeltw», «runter zu setzen uns von der neune situation») — Flüchtigkeitsmuster wie
+in Batch 08/09 belegt, TON übernehmen, `korrektur` zieht die Rechtschreibung glatt. Noch nicht in
+den Do-Block gehoben (Einzelbeleg); prüft, ob die Nullform-Regel auf inhaltlich dichtere, mehr-
+punktige Korrekturmails im engsten, bereits eingespielten Peer-Du zu erweitern ist. → [[fachsignatur]]
+(Bildregie-Korrektur), [[arbeitsweise]] (Reihenfolge-Punkte ohne Nummerierung im engsten Peer-Du).

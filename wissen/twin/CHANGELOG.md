@@ -4,6 +4,25 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-27 — `twin-fidelity-review` (Runde 260727k, elfter Lauf des Tages, Rueckwaerts-
+  Sweep rj@ September 2025 angerissen).** Kollisions-Check vor Beginn: der einzige gefundene
+  `claude -p`-Prozess war die eigene Traegersession (PPID-Verifikation), kein echter Standoff.
+  Vorwaerts-Sweep-Zeiger beider Konten weiterhin leer (bestaetigt gemaess Batch 78/Lauf i). Gemaess
+  Empfehlung 260727j/Batch 79 gezielt `rj@` September 2025 gezogen (103 Sent Items, bisher nicht
+  gesweept) — drei frische Golds ueber drei Register: Yorck-Bildregie-Korrektur mit Titel-Opener
+  „Allerletzte Bitte:" statt Anrede + komplett grusslosem Schluss bei mehrpunktiger Korrektur
+  (neuer Einzelbeleg, erweitert die Nullform-Familie ueber Kurz-Statusfragen hinaus), Rohner-
+  Zahlungserinnerung (bestaetigt satzweise wir/ich-Regel exakt), Bopp-Nackt-Rueckfrage „Ist die
+  E-Mail fuer mich gedacht…/Lgr" (bestaetigt bereits kartiertes Register). Ein neuer Marker in
+  `stimme.md` ergaenzt (offen/Einzelbeleg). Vier neue Fragen in `QUESTIONS.md` Runde 260727k,
+  darunter eine Querschnittsfrage zum wiederkehrenden Formalisierungs-Reflex des Zwillings im
+  engsten Peer-Du. Gesamt-Fidelity ~86; Facette Arbeitsweise (78) einzige unter Gate-Schwelle 80 —
+  Empfehlung an `twin-arbeitsweise`: Do-Block-Zusatz gegen reflexhaftes Nummerieren/Rahmen im
+  engsten, eingespielten Peer-Du. DNA-Rekompilierung geprueft: kein Compile-Drift (`build_dna.py`
+  bestaetigt „bereits aktuell"). Report: `outputs/2026-07-27k_fidelity.md`. September 2025 auf
+  `rj@` ist mit 3 von 103 Sent Items erst angerissen — naechster Batch: restliche Threads
+  (STWEG Schlossberg-Serie, Booklet-Aussendarstellung, Winterberg-Machbarkeit).
+
 - **2026-07-27 — `twin-mail-training` (Batch 79, Rueckwaerts-Sweep mail@raphaeljans.ch).**
   Vorwaerts-Sweep-Zeiger auf rj@ (ab 15:10:54Z) und mail@ (ab 17.07.) erneut bestaetigt leer
   (CLI-Check aktuell 18:25 UTC). Gemaess Methodik-Empfehlung aus Fidelity-Runde 260727j stattdessen

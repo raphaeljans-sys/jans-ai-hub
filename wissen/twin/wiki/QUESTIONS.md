@@ -3,6 +3,43 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260727k (twin-fragesteller, aus Fidelity-Review 2026-07-27k)
+
+Quelle: Drift-Report `outputs/2026-07-27k_fidelity.md` (Gesamt-Fidelity ~86; erstmals `rj@`
+September 2025 gezogen — Yorck-Bildregie-Korrektur mit Titel-Opener statt Anrede, Rohner-
+Zahlungserinnerung, Bopp-Nackt-Rückfrage). Hauptbefund: ein wiederkehrender Formalisierungs-
+Reflex des Zwillings im engsten Peer-Du. Je in 1–2 Sätzen beantwortbar.
+
+1. **„Allerletzte Bitte:" als Titel-Opener statt jeder Anrede — Dein Mittel für dringliche,
+   mehrpunktige Korrekturen im engsten Peer-Du, oder situativ (spätabendliche letzte Iteration
+   vor einem Abgabetermin)?** Bei Yorck (01.09.2025) ersetzt „Allerletzte Bitte:" komplett die
+   sonst übliche Anrede „Hoi Yorck". Setzt Du diesen Titel-Trick bewusst ein, wenn Du eine
+   Iterationsserie als „hoffentlich letzte Runde" markieren willst, unabhängig vom Kontakt, oder
+   ist das eine Yorck-spezifische Marotte in diesem einen Projekt? *Warum: würde einen neuen,
+   generalisierbaren Opener-Typ verankern statt eines Einzelbelegs.* → [[stimme]]
+2. **Grussloser Schluss auch bei einer inhaltlich dichten Mehrpunkt-Korrektur — reicht dafür
+   „engster, eingespielter Peer-Du", oder braucht es zusätzlich Zeitdruck/Späte-Uhrzeit?** Die
+   Yorck-Mail (16:48 Uhr) hat zwei echte inhaltliche Punkte, trotzdem keinen Gruss. Bisher kannte
+   der Zwilling den grusslosen Schluss nur bei kurzen Statusfragen. Ist die Vertrautheit des
+   Kontakts allein hinreichend, oder spielt die Tageszeit/der Zeitdruck (Projektdeadline) mit?
+   *Warum: würde klären, ob der Zwilling grusslose Schlüsse bei substanziellen Peer-Du-Korrekturen
+   generell anbieten darf.* → [[stimme]], [[arbeitsweise]]
+3. **Formalisierungs-Reflex allgemein: strukturierst Du im engsten, eingespielten Peer-Du bewusst
+   NIE (Nummerierung/Rahmen), auch wenn eine Mail mehrere Punkte trägt?** Über mehrere heutige
+   Funde hinweg (Yorck-Korrektur hier, Gratulations-Nachsatz in 260727j) zeigt sich: der Zwilling
+   neigt dazu, Peer-Du-Mails zu formalisieren, wo Du im echten Original roh/spontan bleibst. Ist
+   „möglichst wenig Form" bei Dir ein bewusstes Prinzip im engsten Vertrauensregister (die
+   Beziehung trägt die Kürze), oder eher Tagesform/Tippgeschwindigkeit? *Warum: würde eine
+   Querschnitts-Regel für `twin-arbeitsweise` liefern statt vieler unverbundener Einzelbelege.*
+   → [[arbeitsweise]]
+4. **Zahlungserinnerung an eine Firmen-Zahlstelle (Rohner/WOMA) — bleibt „wir" bei JEDER
+   Buchhaltungs-/Rechnungshandlung Standard, auch wenn Du als Einzelunternehmer faktisch allein
+   handelst?** Die Rohner-Mail trennt sauber „Wir möchten Sie erinnern" (Handlung) von „stehe ich
+   Ihnen zur Verfügung" (persönliche Bitte) — exakt die bestehende Regel. Gilt „wir" bei JEDER
+   Rechnungs-/Mahnhandlung, auch informelleren (z.B. an einen Du-Bauherrn), oder ist es an das
+   Sie-Register gekoppelt? *Warum: würde die Reichweite der wir/ich-Regel über das Sie-Register
+   hinaus prüfen.* → [[haltung]]
+
 ## Offen — Runde 260727j (twin-fragesteller, aus Fidelity-Review 2026-07-27j)
 
 Quelle: Drift-Report `outputs/2026-07-27j_fidelity.md` (Gesamt-Fidelity ~84; erstmals gezielt
