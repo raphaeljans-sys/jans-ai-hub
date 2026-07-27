@@ -4,6 +4,17 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-27 — `twin-fidelity-review` (Runde 260727g, sechster Lauf des Tages).** Frisches
+  Fenster `mail@raphaeljans.ch` Juni 2026 (via CLI for Microsoft 365, `npx --no-install m365`,
+  kein MCP-Tool im Sub-Agenten verfuegbar). Drei neue Golds: HEV-Schweiz-Kaltbestellung (Sie,
+  bestaetigt bestehenden Marker), nackte Statusfrage ohne jede Anrede/Gruss/Signatur an Cekdar
+  Duran/Gruner (loest offene Frage zum Duran-Register aus, `stimme.md` um neuen, bewusst NICHT
+  in den Do-Block gehobenen Beleg ergaenzt), UBS-Mail zur Firmengruendung (loest nebenbei
+  `project_jans_ag_gruendung.md`: definitiver Name «Raphael Jans AG»; Kurzsignatur-Marker auf
+  Bank-Kontakt erweitert). Report `outputs/2026-07-27g_fidelity.md`, Gesamt-Fidelity 89, alle
+  sechs Facetten ueber Schwelle 80 (durchgewunken). Drei neue Fragen in `QUESTIONS.md` Runde
+  260727g. Keine Rekompilierung (`build_dna.py`) noetig, da der Do-Block unveraendert blieb.
+
 - **2026-07-27 — `twin-mail-training` (Batch 75, rj@-Sweep fortgesetzt).** M365-CLI-Fallback
   (`~/Developer/jans-ai-hub/node_modules/.bin/m365`, SSD-Klon — der MCP-Pfad
   `mcp__microsoft-365__m365_run_command` scheiterte erneut mit „outlook: command not found";

@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-07-27
 gewichtung: authentisch
-sources: [260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -1918,6 +1918,26 @@ Leerschlag/Punkt aneinandergehängt, keine Anrede, kein Signaturblock. Das ist d
 belegte Form (unterbietet die bereits dokumentierte Betreff-als-Body-Nullform): Sie tritt nur ein,
 wenn Betreff bereits die vollständige Handlungsanweisung trägt und der Empfänger den Kontext kennt.
 Quelle: 05.06.2026, authentisch.
+
+## Nackte Statusfrage an eingespielten Fachplaner, ganz ohne Anrede/Gruss/Signatur (belegt Fidelity 260727g, authentisch, Register offen)
+
+Im schnellen Status-Nachfassen an einen aktiv im laufenden Projekt engagierten Fachplaner (Cekdar
+Duran, Gruner AG, KISPI-Team) reduziert sich die gesamte Mail auf **eine nackte Ja/Nein-Frage ohne
+jeden Rahmen**: Betreff leer, Body nur «**Alles aklar mit den Auflagepunkten?**» (12.06.2026,
+07:56 Uhr, `mail@raphaeljans.ch`) — kein Anrede-Wort, kein Gruss, keine Signatur, dazu der
+authentische Tippfehler «aklar» statt «alles klar» als Eile-Marker (reiht sich zur bereits
+belegten Flüchtigkeits-DNA). Reiht sich zur bereits dokumentierten Familie der Nullform-Mails
+(private Fwd-Intent-Zeile, interne Auftragserteilung «Betreff = Handlungsanweisung») — hier aber
+erstmals als **Frage statt Aussage/Auftrag**, und an einen Empfänger, der andernorts im Wiki mit
+vollem Sie-Register geführt ist («Geschätzter Herr Duran» in einer gestapelten Team-Anrede,
+vgl. oben). Der Blindtest mit `rules/jans-dna.md` allein erzeugte reflexhaft «Guten Morgen
+Cekdar / … / Lieber Gruss» — die kompilierte DNA setzt bei jedem Ultrakurz-Du-Reply noch einen
+Mindest-Rahmen (Opener + Kurzgruss) an, den dieser Beleg vollständig unterbietet. **Offen**, ob
+die Nullform auch bei einem eigentlich Sie-geführten Fachplaner-Kontakt eintritt, sobald der
+Vorgang eingespielt genug ist (dann Register sekundär gegenüber Tempo/Vertrautheit), oder ob
+Duran zwischenzeitlich informell auf Du gewechselt hat und die Team-Sie-Anrede veraltet ist —
+Frage an Raphael in `QUESTIONS.md`, Runde 260727g. Bis zur Klärung NICHT in den Do-Block
+gehoben (Echo-Schutz/Vorsicht vor Übergeneralisierung).
 
 ## Englischer Code-Switch «as you wish» mitten im deutschen Peer-Du-Satz (belegt Mailbatch 50, authentisch)
 

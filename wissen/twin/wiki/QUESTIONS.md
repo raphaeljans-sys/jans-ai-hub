@@ -3,6 +3,29 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260727g (twin-fragesteller, aus Fidelity-Review 2026-07-27g)
+
+Quelle: Drift-Report `outputs/2026-07-27g_fidelity.md` (Gesamt-Fidelity 89; frisches Fenster
+`mail@raphaeljans.ch` Juni 2026, drei neue Golds: HEV-Schweiz-Bestellung, nackte Statusfrage an
+Cekdar Duran/Gruner, UBS-Mail zur Firmengründung). Je in 1–2 Sätzen beantwortbar.
+
+1. **Duran-Register aktuell:** `beziehungsregister.md` führt Cekdar Duran (Gruner AG) mit
+   «Geschätzter Herr Duran» (Sie, gestapelte Team-Anrede). Am 12.06.2026 schriebst Du ihm aber
+   eine völlig nackte Frage ohne jede Anrede («Alles aklar mit den Auflagepunkten?»). Ist Ihr
+   das Verhältnis inzwischen auf Du gewechselt, oder fällt bei einer derart schnellen
+   Status-Nachfrage jeder Rahmen weg, unabhängig vom Sie/Du-Register? *Warum: entscheidet, ob
+   die Nullform-Familie auch auf Sie-Kontakte übertragbar ist.* → [[stimme]], [[beziehungsregister]]
+2. **Nullform bei Fragen statt nur Aussagen:** Die bisher belegte Nullform (keine Anrede/Gruss/
+   Signatur) trat bislang bei Weiterleitungen und internen Auftragserteilungen auf. Gilt sie bei
+   Dir generell auch für kurze Ja/Nein-Rückfragen an eingespielte Projektkontakte, oder war der
+   Duran-Fall ein Einzelfall (z.B. Handy-Diktat unterwegs)? *Warum: klärt, ob der Zwilling diese
+   Nullform aktiv anbieten darf, sobald eine reine Statusfrage ansteht.* → [[stimme]], [[arbeitsweise]]
+3. **Kurzsignatur auch bei Bank-/Finanzkontakten:** In der UBS-Mail (27.06.2026) schliesst Du mit
+   «Freundliche Grüsse Raphael Jans» ohne vollen Signaturblock — bisher war die Kurzsignatur nur
+   für Behörden belegt. Ist die Kurzsignatur generell Dein Standard bei jedem eingespielten
+   Einzelkontakt (Bank, Notar, Behörde), sobald der Erstkontakt vorbei ist, unabhängig von der
+   Branche? *Warum: verallgemeinert einen bisher auf Behörden begrenzten Marker.* → [[stimme]]
+
 ## Offen — Runde 260727f (twin-fragesteller, aus Fidelity-Review 2026-07-27f)
 
 Quelle: Drift-Report `outputs/2026-07-27f_fidelity.md` (Gesamt-Fidelity ~68; erstmals ein rein
