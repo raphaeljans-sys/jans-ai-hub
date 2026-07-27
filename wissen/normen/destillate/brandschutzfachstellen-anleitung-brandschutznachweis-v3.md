@@ -1,6 +1,6 @@
 ---
 quelle: "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/PL - 03 Brandschutz/00 Brandschutznachweis.ch/01_Brandschutznachweise/Anleitung_Brandschutznachweis_V.3.pdf"
-herausgeber: "Brandschutzfachstellen der Zentralschweiz (Logoleiste S. 1): NSV Nidwaldner Sachversicherung, Gebäudeversicherung Luzern, Kanton Schwyz, Kanton Obwalden, Kanton Uri, Gebäudeversicherung Zug — Reihe «Brandschutz + Prävention / Arbeitshilfe», publiziert über das Portal brandschutznachweis.ch"
+herausgeber: "Brandschutzfachstellen der Zentralschweiz (Logoleiste S. 1, per Bildausschnitt verifiziert): NSV (Bildmarke «Sichere Sache», volle Bezeichnung Nidwaldner Sachversicherung als externes Allgemeinwissen, nicht auf der Logoleiste ausgeschrieben), Gebäudeversicherung Luzern, Kanton Schwyz, Kanton Obwalden, Kanton Uri, Gebäudeversicherung Zug — Reihe «Brandschutz + Prävention / Arbeitshilfe»; Beispiel-Brandschutznachweise laut S. 3 über die Internetseite brandschutznachweis.ch beziehbar (Herausgeberschaft dieser Arbeitshilfe selbst nicht explizit einem Portal zugeordnet)"
 ausgabe: "Arbeitshilfe «Anleitung zum Brandschutznachweis», Version V.3 (Kopfzeile S. 1); PDF-Metadaten: erstellt 25.03.2020, Autor «Baechli»"
 ersetzt: "V.2 und älter (im Ordner nicht vorhanden; Versionsstand nur über die Kopfzeile V.3 belegt)"
 gelesen: "4/4 Seiten (vollständig, Textextrakt + Seitenbild S. 1)"
@@ -16,7 +16,7 @@ links: [[vkf-brl-11-15-qualitaetssicherung-brandschutz]], [[vkf-brandschutznorm-
 Die vierseitige Arbeitshilfe ist kein Normtext, sondern die verfahrensbezogene Anleitung der Zentralschweizer Brandschutzfachstellen: sie beschreibt, wie der Brandschutznachweis im Baubewilligungsverfahren eingebettet ist, was ein Nachweis inhaltlich enthalten muss und was auf den zugehörigen Brandschutzplänen darzustellen ist. Ihr materieller Wert für JANS liegt in zwei geschlossenen Pflichtinhalts-Listen — Textteil des Nachweises (Abschnitt D, neun Punkte) und Planinhalt (Abschnitt F, elf Punkte) — plus den formalen Vorgaben zu Massstab, Plandarstellung nach SIA 400 und Einreichungsweg. Die materiellen Anforderungswerte selbst (R/EI-Klassen, RF-Klassen, Fluchtdistanzen) stehen nicht darin, sondern in den VKF-Brandschutzvorschriften BSV 2015, auf die sie durchgehend verweist.
 
 ## Geltungsbereich und Verbindlichkeit
-- Adressiert Projektverfasser und QS-Verantwortliche Brandschutz im ordentlichen Baubewilligungsverfahren (Abschnitt A, S. 2).
+- Richtet sich sinngemäss an Projektverfasser und QS-Verantwortliche Brandschutz im Baubewilligungsverfahren (Abschnitt A, S. 2) — das Original benennt keine explizite Adressatengruppe und unterscheidet auch nicht zwischen ordentlichem und anderen Verfahrensarten; beides ist Schlussfolgerung aus dem Kontext, nicht wörtlich belegt.
 - Verbindlichkeitsgefälle sauber trennen: Die Schweizerischen Brandschutzvorschriften BSV 2015 der VKF sind gesamtschweizerisch verbindlich; diese Anleitung selbst ist eine **Arbeitshilfe** regionaler Fachstellen und hat keine eigenständige Rechtsverbindlichkeit (Kopfzeile «Arbeitshilfe» S. 1; Verbindlichkeitsaussage zu BSV 2015 in Abschnitt A, S. 2).
 - Die formellen und materiellen Anforderungen an den Nachweis legt die jeweils zuständige Brandschutzbehörde fest — inklusive des Zeitpunkts der Einreichung (mit dem Baugesuch oder erst vor Baubeginn), Abschnitt B, S. 2. Ausserhalb der Zentralschweiz ist deshalb immer die kantonale Praxis massgebend.
 
@@ -91,3 +91,19 @@ Destillat Satz für Satz gegen den vollständigen Textextrakt und das Seitenbild
 - **Bestätigt:** die Verbindlichkeitshierarchie (BSV 2015 verbindlich, dieses Blatt Arbeitshilfe) sowie die Zuständigkeitsaussage zum QS-Verantwortlichen Brandschutz nach BSR 11-15 — beide wörtlich im Abschnitt A belegt. Ebenfalls bestätigt: die Herausgeber-Logoleiste auf S. 1 mit sechs Zentralschweizer Fachstellen.
 - **Nicht belegbar und deshalb nur als offener Punkt geführt:** ob die Vorgaben ausserhalb der Zentralschweiz (insbesondere GVZ) identisch gehandhabt werden.
 - Status bleibt `emerging`: Inhalt vollständig gelesen und belegt, aber Einzelquelle ohne eigenständige Rechtsverbindlichkeit, mit regionalem Geltungsbezug und einer internen Unschärfe.
+
+## Verifikationsstand
+Datum: 27.07.2026. Erste unabhängige Verifikationsrunde (Refuter-Agent, unabhängig vom Ersteller des Destillats).
+
+Verdikt: BEANSTANDET (3 Befunde, alle geringfügig — Kerninhalt vollständig bestätigt, keine der beiden Pflichtinhalts-Listen betroffen).
+
+Vorgehen: Volltext aller 4 Seiten (pdftotext -layout) satzweise gegen das Destillat abgeglichen; PDF-Metadaten (pdfinfo) gegen die Angaben in `ausgabe:` geprüft; Logoleiste S. 1 als Bildausschnitt bei 400 dpi visuell verifiziert.
+
+Befunde:
+1. Herausgeber-Logoleiste (Frontmatter `herausgeber:`): Die Logoleiste zeigt nur die Bildmarke «NSV» mit Tagline «Sichere Sache», nicht den ausgeschriebenen Namen «Nidwaldner Sachversicherung». Die alte Fassung des Destillats gab die volle Bezeichnung ohne Kennzeichnung als externes Wissen wieder, so als stünde sie auf der Logoleiste. Korrigiert: Bildmarke und externes Wissen jetzt getrennt ausgewiesen. Alle sechs Institutionen (NSV, Gebäudeversicherung Luzern, Kanton Schwyz, Kanton Obwalden, Kanton Uri, Gebäudeversicherung Zug) sind per Bildkontrolle bestätigt.
+2. Herausgeber-Zusatz «publiziert über das Portal brandschutznachweis.ch»: Das Original sagt nur, dass Beispiel-Brandschutznachweise über diese Internetseite bezogen werden können (S. 3) — nicht, dass die Arbeitshilfe selbst dort publiziert wird. Korrigiert: Formulierung entsprechend eingeschränkt.
+3. Abschnitt «Geltungsbereich und Verbindlichkeit», erster Punkt: «im ordentlichen Baubewilligungsverfahren» und «Adressiert Projektverfasser und QS-Verantwortliche» waren als direkte Aussagen des Originals formuliert. Das Wort «ordentlich» kommt im gesamten Dokument nicht vor, und Abschnitt A benennt keine explizite Adressatengruppe — beides ist eine plausible, aber unbelegte Schlussfolgerung. Korrigiert: als Schlussfolgerung gekennzeichnet, «ordentlich» entfernt.
+
+Bestätigt ohne Korrektur (Stichprobe): PDF-Metadaten (Autor «Baechli», Erstellungsdatum 25.03.2020, exakt gemäss `pdfinfo`); Abschnitt D (neun Punkte, Reihenfolge und Bemerkungen wortgetreu); Abschnitt E (elf Punkte, wortgetreu); Abschnitt F (elf Punkte, wortgetreu) inkl. Formalvorgaben (Massstab 1:100/1:200, SIA 400:2000, Format A3 als Soll-Vorgabe); der aufgezeigte Unterschriften-Widerspruch auf S. 4 (nachvollzogen, korrekt als Widerspruch benannt); alle Seitenzitate (S. 2/2–3/3/4) gegen die tatsächliche Seitenumbruch-Position geprüft und korrekt.
+
+Status-Empfehlung: `emerging` bleibt unverändert richtig — die Befunde sind redaktionelle Präzisierungen, keine inhaltlichen Fehler an den beiden Pflichtinhalts-Listen oder den materiellen Kernaussagen; für eine Hebung auf `established` wäre ohnehin eine zweite, vom Destillat-Ersteller unabhängige Quelle oder ein zweiter Prüfdurchgang nötig, was mit dieser Runde nun vorliegt, aber angesichts der gefundenen (wenn auch kleinen) Korrekturen noch keine Hebung rechtfertigt.

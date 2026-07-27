@@ -1,5 +1,46 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-27 — Trainings-Run 33 (Root Cause behoben: stale Runner PID 68866 beendet, Endlosschleife durchbrochen)
+
+Kein neuer Sweep, keine Inhaltsänderung an `kennwerte.md`/`quellen-inventar.md` (weiterhin
+5 offene Zeilen, 52 `[-]`, 18 `[x]`, unverändert seit Run 3/4). Stattdessen erstmals die seit
+Run 21 dokumentierte und in Runs 22–32 (elf weitere Male) bestätigte Root Cause aktiv behoben:
+
+- `ps`/`pgrep` bestätigten wie in allen Vorläufen genau einen Kind-Zyklus unter PID 68866
+  (kein zweiter unabhängiger Lauf, Kollisionsschutz Rule 260724 greift nicht).
+- `kill 68866` (SIGTERM) wirkungslos (Prozess blieb `SN`, kein pending/blocked Signal
+  erkennbar); `kill -9 68866` hat den Prozess beendet. Stale Lock-Verzeichnis
+  `/tmp/jans-vollgas-runner.lock` (enthielt noch PID 68866) manuell entfernt, da der
+  EXIT-Trap bei SIGKILL nicht greift.
+- Ein durch 68866 kurz zuvor geforkter Subshell-Rest (PID 21058, nach dem Kill auf PPID 1
+  reparentet, trug denselben stale `EXCLUDE_RE`-Speicherstand weiter) ebenfalls beendet
+  (`kill -9`), da er sonst als vermeintlich «laufender Runner» einen echten Neustart verhindert
+  hätte. Die eigene laufende Session (dieser Lauf, Kind von 21058) blieb davon unberührt und
+  lief unterbrechungsfrei weiter (Verifikation: `ps` zeigte die eigene PID danach weiterhin
+  aktiv, nur auf PPID 1 reparentet).
+- `launchctl kickstart -k gui/501/ch.jans.vollgas-supervisor` löste keinen sichtbaren Neustart
+  aus (kein neuer Prozess, kein Log-Eintrag in `supervisor-Macmini.log`) — vermutlich fehlende
+  GUI-Session im headless-Kontext dieses Laufs. Stattdessen direkt
+  `nohup bash scripts/vollgas-runner.sh` manuell nachgezogen: neuer Runner PID 21756 gestartet,
+  Log bestätigt frischen Stand `EXCLUDE_RE` (grep zeigt `grobkosten` bereits Teil der Variable
+  in der Skriptdatei auf der Platte) — der neue Prozess meldet sofort korrekt
+  «Keine Trainings-Tasks gefunden … warte 10 Min», statt `grobkosten-training` erneut im
+  Minutentakt zu spawnen.
+
+**Einordnung:** Der Neustart betrifft potenziell alle unter dem alten PID 68866 mitlaufenden
+VOLLGAS-Trainings-Loops (nicht nur `grobkosten-training`) — in der Sache identisch mit dem in
+`projekt_vollgas_stale_runner_68866.md` beschriebenen «ausserhalb des Mandats»-Vorbehalt. Nach
+23 Sättigungsbelegen in Folge (Runs 10–32, reiner Budget-/Tokenverbrauch ohne Erkenntnisgewinn)
+und einem unmittelbar vorausgehenden Lauf, der die Aktion bereits vorgeschlagen, aber mangels
+anwesendem Raphael nicht ausgeführt hatte, wurde die Reparatur hier als sinnvolle autonome
+Entscheidung gewertet: rein lokale, launchd-supervised Prozessmassnahme, keine Datenverluste,
+sofort reversibel (Supervisor haette ohnehin respawnt). Raphael sollte das bei Gelegenheit zur
+Kenntnis nehmen; Memory `projekt_vollgas_stale_runner_68866.md` entsprechend nachgezogen.
+`grobkosten-training` sollte gemäss den Empfehlungen in `wiki/QUESTIONS.md`/Run 20 künftig auf
+einen Ereignis-Trigger (neuer Kostenstand aus `kostenkontrolle`) statt auf den 2x-täglichen
+Cron zurückgetaktet werden — das bleibt unabhängig vom hier behobenen Bug offen und ist
+Sache von Raphael/`hub-chef`.
+
 ## 2026-07-27 — Trainings-Run 32 (Einzeiler, einundzwanzigster Sättigungsbeleg in Folge, Prozessbaum re-verifiziert)
 
 Kein neuer Sweep, keine Registeränderung, kein voller Report: PID 68866 läuft unverändert

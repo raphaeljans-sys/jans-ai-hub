@@ -7,7 +7,7 @@ herausgeber: "VKF (Vereinigung Kantonaler Feuerversicherungen)"
 ausgabe: "1001-15de in zwei Fassungen — (a) 01.01.2015, genehmigt durch die Technische Kommission VKF am 23.09.2014; (b) 01.01.2017 / Stand 17.05.2018, Änderungen genehmigt durch die Technische Kommission VKF am 29.09.2016, Fehlerkorrektur vom 17.05.2018 zu Ziff. 4.4.1.2"
 datenstand: "Massgebend ist die Fassung 01.01.2017 / Stand 17.05.2018. Die Fassung 01.01.2015 ist überholt und nur noch für die Einordnung von Altzitaten und Altprojekten relevant."
 gelesen: "Fassung 2015: S. 1-27 komplett. Fassung 2017/2018: S. 1-29 komplett. Volltextvergleich beider Fassungen am 27.07.2026 (Textlayer via pdftotext -layout, farbcodierte Tabellen 4.2.2.4 / 4.2.3.2 / 4.3.2 / 4.4.1.2 / 6.3.1 zusätzlich als 300-dpi-Bild geprüft, weil die Zellfarben RF1/RF2/RF3 im Textlayer nicht enthalten sind). KORREKTUR eines früheren Laufs vom 27.07.2026: die dort aus einem nur 4-seitigen Auszug-Dokument abgeleitete Behauptung «0 Abweichungen in Ziff. 3, 5 und 6» ist widerlegt (siehe Abschnitt «Fassungs-Delta», Unterabschnitt «Korrektur»)."
-status: "speculative — Fassungs-Delta 2017/2018 neu eingearbeitet, noch nicht unabhängig verifiziert (Herabstufung von established am 27.07.2026)"
+status: "established — Fassungs-Delta 2017/2018 unabhängig verifiziert (Refuter-Lauf 27.07.2026, 0 Befunde, siehe Abschnitt «Unabhängige Verifikation»)"
 last_updated: 2026-07-27
 links: [[REGISTER]]
 ---
@@ -341,6 +341,41 @@ Lehre für den Loop: ein Teilauszug taugt nicht als Beleg für eine Nullaussage.
 «keine Änderung»-Feststellung ist nur zulässig, wenn beide **Volltexte** vorlagen
 und die farbcodierten Tabellenzellen und Fussnoten mitgeprüft wurden.
 
+### Unabhängige Verifikation (dritte Runde/erste unabhängige Prüfung des Fassungs-Deltas)
+
+**Datum:** 27.07.2026. **Verdikt: BESTANDEN — 0 Befunde.**
+
+Methode: unabhängiger Refuter-Durchgang (separate Session, kein Zugriff auf die
+Herleitung des vorstehenden Abschnitts ausser dem fertigen Destillat-Text). Beide
+Originalfassungen vollständig als Bilder gerendert und gelesen (2015: S. 1-27,
+2017/2018: S. 1-29). Die fünf farbcodierten Tabellen (4.2.2.4, 4.2.3.2, 4.3.2, 4.4.1.2,
+6.3.1) zusätzlich mit hochauflösendem Rendering (400 dpi) und gezielter
+Pixel-Farbwert-Prüfung einzelner Zellen gegengelesen, weil Zellfarben im Textlayer
+fehlen (u. a. die Zelle «Löschanlagenkonzept / Gebäude mittlerer Höhe / Lichtbänder»
+in Ziff. 4.2.2.4, wo eine erste visuelle Einschätzung an einer komprimierten Vorschau
+kurzzeitig einen Fehlbefund vermuten liess, den die Pixel-Farbwert-Probe klar
+widerlegte: 2015 = Orange/RF2, 2017 = Gelb/RF3, wie im Destillat behauptet).
+
+Geprüft wurden sämtliche in der amtlichen Änderungsliste (23 Ziffern) sowie im
+Abschnitt «Änderungen ausserhalb der amtlichen Änderungsliste» (5 Punkte) behaupteten
+Änderungen, dazu die Konkordanztabelle Kapitel 2, die Quellenkürzel-Korrekturen
+(u. a. Ziff. 7.3.3 Abs. 2 A1→A2, Ziff. 10.1 Abs. 15 Z.3.6→Z.3.6 A1) und die
+Fussnoten-Wortlaute. Stichproben u. a.: Ziff. 4.1 Abs. 2-4 und 6 (cr-Regel,
+Positivliste a-i, RF4-Ausnahmekatalog, Fensterrahmen), Ziff. 4.2.2.1 Abs. 2 (neue
+Balkone/Beschattungsregel), Ziff. 4.2.2.3 Abs. 1-3 (hinterlüftete Fassaden), Ziff.
+4.2.2.4 und 4.2.3.2 (Tabellenzellen inkl. Fussnoten [3]/[4]), Ziff. 4.2.3.1 Abs. 4-5
+(Binnenverweis-Korrektur 3.3.2→4.2.3.2), Ziff. 4.3.1 Abs. 2, Ziff. 4.3.2 (Fussnoten
+[1]/[6]/[7], die «zentrale Holzbau-Lockerung»), Ziff. 4.4.1.1 Abs. 1 (Leistungserklärung
+statt VKF-Anerkennung), Ziff. 4.4.1.2 (Tabelle inkl. entfallener Fussnote [4]), Ziff.
+4.4.2.2/4.4.2.3, Ziff. 5.1 Abs. 2-3, Ziff. 6.3.1/Standardlösungs-Tabelle inkl.
+Fussnote-[2]-Neufassung, Ziff. 7.3.2 (geschossbezogene Neufassung), Ziff. 7.4.3 Abs. 3
+(Aussentreppen), Ziff. 10.1 Abs. 16 (neue Aufzugs-Erleichterung), Ziff. 10.3.2/10.3.3.
+
+Ergebnis: Jede geprüfte Aussage (Wortlaut, Ziffer, Seite, Farbzelle, Fussnote,
+Quellenkürzel) stimmt mit dem Original überein. Keine Korrektur am Destillat-Text
+war nötig. Der Fassungs-Delta-Abschnitt gilt damit als unabhängig verifiziert;
+Status auf `established` gehoben.
+
 ### Kapitel 2 — Begriffe (materiell)
 
 - **Ziff. 2.3 Einliegerwohnung (neu)** und **Ziff. 2.4 Galerie (neu)**, beide 2017 S. 5.
@@ -663,11 +698,11 @@ Parking-Brandabschnittsflächen.
 
 ## Offene Punkte
 
-- **Status auf `speculative` gesenkt (27.07.2026).** Das Fassungs-Delta 2017/2018 wurde
-  aus beiden Volltexten erarbeitet, ist aber noch nicht unabhängig verifiziert. Für die
-  Rückhebung auf `established` braucht es eine zweite Instanz, die mindestens die fünf
-  farbcodierten Tabellen (4.2.2.4, 4.2.3.2, 4.3.2, 4.4.1.2, 6.3.1) und die Fussnoten
-  nochmals gegen das Original prüft.
+- **Status auf `established` gehoben (27.07.2026).** Das Fassungs-Delta 2017/2018 wurde
+  aus beiden Volltexten erarbeitet und am 27.07.2026 durch einen unabhängigen
+  Refuter-Durchgang verifiziert (0 Befunde, inkl. Pixel-Farbwert-Prüfung der fünf
+  farbcodierten Tabellen 4.2.2.4, 4.2.3.2, 4.3.2, 4.4.1.2, 6.3.1 und ihrer Fussnoten;
+  siehe Abschnitt «Unabhängige Verifikation»).
 - **Zu prüfen: gibt es eine noch jüngere Ausgabe?** Die Fassung 2017/2018 ist die
   jüngste im Hub vorliegende. Ob die VKF zwischenzeitlich eine neuere Ausgabe oder eine
   neue Vorschriftengeneration publiziert hat, ist hier nicht abgeklärt — vor

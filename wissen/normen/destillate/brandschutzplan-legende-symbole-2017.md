@@ -46,27 +46,27 @@ Diese vier Regeln sind der eigentliche Wissenswert des Blattes; die exakten RGB-
 1. **Leitfarbe je Gruppe.** Die Zuordnung ist über alle Symbole einer Gruppe konsequent durchgehalten:
    - Fluchtwege (1.0) → Grün; horizontaler Fluchtweg und freizuhaltende Fläche in helleren Grünstufen als die übrigen Fluchtwegsymbole.
    - Löscheinrichtungen (3.0) und Sprinkleranlage (4.1) → Blau.
-   - Brandmeldeanlage (4.2) und Feuerwehr (6.0) → Rot.
+   - Brandmeldeanlage (4.2) und der Grossteil der Feuerwehr-Symbole (6.0) → Rot; zwei Ausnahmen in 6.0 durchbrechen das Muster: «Zusätzlicher Zugang Feuerwehr» ist schwarz (0,0,0), «Zugang SPA-Z» ist blau (0,50,204, passend zur Sprinkler-Leitfarbe).
    - Evakuierungsanlage (4.3) → Grün (eigener, dunklerer Grünton als die Fluchtwege).
    - Entrauchung (5.1) und Überdruckbelüftung (5.2) → durchgehend Gelb.
    - Diverses (7.0) → überwiegend Schwarz/Grau; Ausnahmen mit eigener Signalfarbe sind Explosionsgefährdung (Gelb) und Personenbelegung (rote Füllung).
 2. **Klassenfarbe je Feuerwiderstand.** In Gruppe 2.1 hat **jede** Feuerwiderstandsklasse ihren eigenen RGB-Wert; die Brandmauer (REI 60 bis REI 180) ist schwarz. Die Klassen mit RF1-Anforderung liegen in der Violett-/Blau-Reihe (EI 90-RF1 violett, EI 60-RF1 blau, EI 30-RF1 hellblau), die Klassen ohne RF1-Anforderung in der Braun-/Orange-/Gelb-Reihe (EI 90 braun, EI 60 orange, EI 30 gelborange). Praktische Folge: **RF1-Anforderung und Feuerwiderstandsdauer sind im Plan gleichzeitig an der Farbe ablesbar.**
 3. **Gleiche Farbe, andere Strichart.** Die Glas-Varianten (Glas EI 90 / EI 60 / EI 30 / E 30 / RF1) tragen exakt den RGB-Wert der zugehörigen Bauteilklasse und werden allein über die **Strichart** unterschieden — im Legendenbild als gepunktete/perlschnurartige Linie statt als Vollton-Balken dargestellt (am Detailzoom Gruppe 2.1 verifiziert). Dieselbe Logik verbindet Gruppe 2.2 mit 2.1: ein Abschluss übernimmt den Farbwert seiner Feuerwiderstandsklasse (Türen/Schiebetüren/Rolltore EI 30 in der EI-30-Farbe, die E-30-Pendants in der E-30-Farbe, RF1-Abschlüsse in der RF1-Farbe).
-4. **Zweifarbige Symbole = Kontur/Füllung.** Wo zwei Werte mit den Präfixen **A:** und **I:** angegeben sind (z.B. Sprinklerzentrale, Brandmeldezentrale, Stellfläche Feuerwehr, Personenbelegung), bezeichnet A den Aussen-/Konturton und I den helleren Innen-/Füllton desselben Farbtons — sinngemäss aus der Legendendarstellung abgeleitet, das Blatt selbst schreibt die Abkürzungen nicht aus.
+4. **Zweifarbige Symbole = Kontur/Füllung.** Wo zwei Werte mit den Präfixen **A:** und **I:** angegeben sind (z.B. Sprinklerzentrale, Brandmeldezentrale, Stellfläche Feuerwehr, Personenbelegung), bezeichnet A den Aussen-/Konturton und I den Innen-/Füllton — sinngemäss aus der Legendendarstellung abgeleitet, das Blatt selbst schreibt die Abkürzungen nicht aus. Meist ist I nur eine hellere Stufe desselben Farbtons wie A (Sprinklerzentrale 0,50,204/52,148,253; Brandmeldezentrale/-Bedienstelle 255,0,0/255,132,132; Stellfläche Feuerwehr 255,0,0/255,179,179; Evakuierungszentrale/-Bedienstelle 0,138,30/0,170,30). Bei «Personenbelegung» (7.0) und den Poller-Symbolen (Blatt 2, 6.0) gilt das **nicht**: dort ist A schwarz bzw. dunkelrot (0,0,0 bzw. 76,0,0) und I ein andersfarbiger Füllton (rot 255,0,0 bzw. schwarz 0,0,0) — Kontur und Füllung sind dort zwei unterschiedliche Farben, keine Hell-/Dunkelstufe desselben Tons (Korrektur 27.07.2026, am Bild verifiziert).
 
 ## Weitere belegte Detailregeln
 - **Kennwertfelder statt reiner Piktogramme:** Mehrere Symbole tragen einen auszufüllenden Zahlenwert und sind damit zugleich Beschriftungsvorgabe — Fluchtwegbreite und Fluchtweglänge in Metern (Gruppe 1.0), Schlauchlänge des Wasserlöschpostens in Metern (3.0), Entrauchungskennwerte AÖ in m², LRWA und MRWA in m³/h, NRWA in % und in m² (5.1), Personenbelegung in Personen und Brandschutzabstand in Metern (7.0), Bezeichnung und Lage der Treppenhäuser als «TH Nr. X/Y» (7.0).
 - **Feuerwehr-Bemessungsgrösse im Symbol:** Feuerwehrzufahrt/Bewegungsfläche und Stellfläche sind auf Fahrzeuge **bis 18 t** bezogen; die Stellfläche trägt im Legendenbild das Mass **11 m × 6 m** (Gruppe 6.0, Blatt 1).
 - **Nutzungseinheiten** werden nach Gruppe 7.0 in «verschiedenen Pastellfarben» flächig unterlegt; das Blatt gibt dafür nur einen Beispielwert an — die konkrete Farbwahl je Einheit bleibt dem Planverfasser überlassen.
 - **Normbezüge in den Ergänzungssymbolen:** Gruppe 1.0 auf Blatt 2 unterscheidet den Paniktürverschluss nach **SN EN 1125** vom Notausgangsverschluss nach **SN EN 179** (bzw. «nicht abschliessbar») und kennt zusätzlich den Notöffnungstaster.
-- **Handfeuerlöscher nach Löschmittel:** Blatt 2, Gruppe 3.0 differenziert fünf Löscher-Symbole nach Löschmitteleignung — feste nicht schmelzende Stoffe, Flüssigkeiten und schmelzende feste Stoffe, Gase, Metalle, Fettbrand (entspricht der Brandklassen-Systematik A/B/C/D/F, die Zuordnung ist auf dem Blatt aber über die Stoffumschreibung und nicht über den Brandklassenbuchstaben geführt).
+- **Handfeuerlöscher nach Löschmittel:** Blatt 2, Gruppe 3.0 differenziert fünf Löscher-Symbole nach Löschmitteleignung — feste nicht schmelzende Stoffe, Flüssigkeiten und schmelzende feste Stoffe, Gase, Metalle, Fettbrand. Jedes Symbol ist ein blaues Dreieck mit dem zugehörigen Brandklassenbuchstaben **A/B/C/D/F** direkt darin **und** der ausgeschriebenen Stoffumschreibung im Begleittext — die Zuordnung zur Brandklassen-Systematik ist also unmittelbar am Symbol ablesbar (Korrektur 27.07.2026: die Erstfassung hatte behauptet, der Buchstabe erscheine auf dem Blatt nicht und die Zuordnung laufe nur über den Text — am Bild widerlegt).
 - **Photovoltaik und Stromabschaltung** sind auf Blatt 2 als eigene Symbole geführt (Wechselrichter PV, Stromabschaltung HV/PV) — ein Hinweis darauf, dass PV-Anlagen im Brandschutzplan feuerwehrrelevant zu kennzeichnen sind.
 - **Baustoff-Materialisierung (Blatt 2, Gruppe 2.3):** RF1, RF2 und RF3 haben eigene Farben (Blau / Orange / Gelborange) — ausdrücklich **nur für Detailzeichnungen**, nicht für den Brandschutzplan.
 
 ## Begriffe (soweit auf dem Blatt geführt)
 - **RWA / NRWA / MRWA / LRWA** — Rauch- und Wärmeabzug; natürliche, maschinelle bzw. mit Lüfter der Feuerwehr betriebene Anlage (Gruppe 5.1). Definitionen nicht auf dem Blatt, siehe `vkf-brl-21-15-rauch-waermeabzugsanlagen.md`.
 - **RDA** — Rauchschutz-Druckanlage (Gruppe 5.2.1). **SLA** — Spüllüftung (Gruppe 5.2.2).
-- **SPA / SPA-Z** — Sprinkleranlage bzw. Zugang zur Sprinklerzentrale (Gruppen 4.1 und 6.0).
+- **SPA / SPA-Z** — SPA bezeichnet den Sprinklerschutz (gesprinklerte Bodenfläche, Gruppe 4.1); SPA-Z die Sprinklerzentrale selbst (Gruppe 4.1). Das zusammengesetzte Symbol «Zugang SPA-Z» in Gruppe 6.0 kennzeichnet den Zugang zur Sprinklerzentrale (Korrektur 27.07.2026: die Erstfassung hatte SPA-Z direkt mit «Zugang zur Sprinklerzentrale» gleichgesetzt und SPA fälschlich als «Sprinkleranlage» statt «Sprinklerschutz» umschrieben).
 - **BMA / EVAK / WLP / TS** — Brandmeldeanlage, Evakuierungsanlage, Wasserlöschposten, Türschliesser («selbstschliessend»).
 - **AÖ** — Öffnung für natürliche Abströmung, in m² (Gruppe 5.1).
 
@@ -90,3 +90,46 @@ Beide Blätter wurden nach dem Verfassen erneut als Seitenbild gegen das Destill
 - **Bestätigt:** dass Grün in Gruppe 1.0 nicht einheitlich ist (horizontaler Fluchtweg und freizuhaltende Fläche in helleren Stufen) und dass die Evakuierungsanlage einen eigenen, dunkleren Grünton führt als die Fluchtwege.
 - **Nur sinngemäss belegbar:** die Deutung der Präfixe A: und I: als Aussen-/Innenfarbe. Das Legendenbild stützt sie (kräftige Kontur, hellere Füllung im selben Farbton), das Blatt schreibt die Abkürzungen aber nirgends aus — im Text als Ableitung gekennzeichnet.
 - **Nicht auflösbar:** die Herausgeberfrage. Kein Logo, kein Impressum, keine Autorenangabe in den PDF-Metadaten; die Zuordnung zum VKF-Merkblatt 2003-15 stützt sich allein auf den Verweis in der Anleitung V.3. Deshalb bleibt der Status `speculative`, obwohl der Blattinhalt selbst vollständig gelesen und belegt ist.
+
+## Verifikationsstand
+
+**27.07.2026 — Erste unabhängige Verifikationsrunde (Refuter-Agent).**
+
+Beide Blätter wurden in hoher Auflösung (400 dpi, gezielte Pixel-Crops auf Gruppe 2.1,
+1.0, 3.0, 4.1, 6.0, 7.0 sowie das Ergänzungsblatt) erneut Punkt für Punkt gegen das
+Destillat geprüft: Gruppeneinteilung, alle Symbolzuordnungen, sämtliche RGB-Tripel,
+Blattdatum, PDF-Metadaten und die Herausgeberfrage.
+
+**Verdikt: BEANSTANDET** — 4 Befunde, alle direkt im Destillat korrigiert.
+
+1. **(mittelschwer, korrigiert)** Regel 4 («Zweifarbige Symbole») behauptete pauschal,
+   I sei stets der «hellere Innen-/Füllton **desselben Farbtons**» wie A — widerlegt am
+   eigenen Beispiel «Personenbelegung» (7.0): dort ist A schwarz (0,0,0) und I rot
+   (255,0,0), also ein anderer Farbton, keine Hell-/Dunkelstufe. Dieselbe Abweichung
+   zeigen die Poller-Symbole auf Blatt 2 (A:76,0,0 dunkelrot / I:0,0,0 schwarz bzw.
+   A:76,0,0 / I:255,0,0). Regel entsprechend präzisiert (Regelfall vs. zwei benannte
+   Ausnahmen).
+2. **(schwerster Befund, korrigiert)** Die Aussage zu den Handfeuerlöscher-Symbolen
+   (Blatt 2, Gruppe 3.0), die Zuordnung zu den Brandklassen A/B/C/D/F laufe «über die
+   Stoffumschreibung und nicht über den Brandklassenbuchstaben», ist am Bild widerlegt:
+   jedes der fünf Dreieck-Symbole zeigt den Buchstaben A, B, C bzw. D oder F direkt im
+   Symbol. Text korrigiert.
+3. **(mittel, korrigiert)** Die Begriffsdefinition «SPA / SPA-Z — Sprinkleranlage bzw.
+   Zugang zur Sprinklerzentrale» war ungenau: Das Blatt beschriftet SPA-Z als
+   «Sprinklerzentrale» (Gruppe 4.1, Symbol 1) und SPA als «Sprinklerschutz, gesprinklerte
+   Bodenfläche» (Gruppe 4.1, Symbol 2); «Zugang zur Sprinklerzentrale» ist ein eigenes,
+   zusammengesetztes Symbol («Zugang SPA-Z») in Gruppe 6.0. Begriffe-Eintrag korrigiert.
+4. **(gering, ergänzt)** Die Leitfarben-Regel nannte «Feuerwehr (6.0) → Rot» ohne
+   Ausnahmen, obwohl zwei der acht Symbole in 6.0 abweichen («Zusätzlicher Zugang
+   Feuerwehr» schwarz, «Zugang SPA-Z» blau) — analog zu den bereits für Gruppe 7.0
+   genannten Ausnahmen. Ergänzt.
+
+**Bestätigt (keine Korrektur nötig):** alle übrigen RGB-Tripel in Gruppe 2.1
+(Feuerwiderstände, inkl. der Glas-Varianten 11–15, die exakt die Farben der Einträge
+2/3/4/9/10 tragen), die Gruppeneinteilung und die auf Blatt 2 fehlenden/leeren
+Gruppenköpfe (2.1 fehlt ganz, 5.1/5.2 stehen leer), Blattdatum 16.12.2016 auf beiden
+Blättern, PDF-Metadaten (Nitro Pro 11, ModDate 21.12.2016, 2 Seiten A3 — per `pdfinfo`
+verifiziert), die Kennwertfelder-Liste, die Feuerwehr-Bemessungsgrösse (18 t, 11 m × 6 m),
+die Normbezüge SN EN 1125/SN EN 179 sowie die Baustoff-Farben RF1/RF2/RF3 auf Blatt 2
+(Blau/Orange/Gelborange). Die Herausgeberfrage bleibt offen (kein Beleg im Dokument
+selbst) — deshalb bleibt der Status `speculative`.

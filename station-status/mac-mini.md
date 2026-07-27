@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 27.07.2026 14:20:30
+Stand: 27.07.2026 14:40:42
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:54)
+- Developer/jans/ai/hub  (letzte Aktivitaet 14:27)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 27.07.2026 14:20:30
 - 9 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 2ffc7711 grobkosten-training Run 30: neunzehnter Saettigungsbeleg in Folge, Kind-Prozess-Beweis PID 19219 <- 68866 (~1 Tag 19h23)
+- 3546c8ca wettbewerbs-dna-training Wettbewerbs-DNA unveraendert; baurecht-buch-training Run 61: naturschutz-und-denkmalschutz vollstaendig re-verifiziert (16 Fundstellen CONFIRMED, 0 Korrekturen)

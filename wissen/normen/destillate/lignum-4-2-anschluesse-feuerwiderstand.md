@@ -4,7 +4,7 @@ herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direkto
 ausgabe: "Lignum-Dokumentation Brandschutz, Themenblock 4 'Bauteile in Holz', Publikation 4.2; von der Technischen Kommission Brandschutz der Vereinigung Kantonaler Feuerversicherungen (TKB-VKF) auf Übereinstimmung mit den Mindestanforderungen der Schweizerischen Brandschutzvorschriften VKF, Ausgabe 2015 (BSV 2015), Stand am 01.01.2017 geprüft und am 15.12.2017 als 'Stand der Technik Papier (STP)' anerkannt; erschienen im April 2018 (Impressum S. 64)"
 gelesen: "alle 33 PDF-Seiten gelesen, davon 32 verschiedene Scans (PDF-S. 33 zeigt denselben Scan wie PDF-S. 1: Impressum gedruckte S. 64 plus Umschlag) = gedruckte Seiten 2-64 plus Umschlag inhaltlich vollstaendig erfasst, Bild-Scan ohne Textlayer, visuell gelesen in 2 Schritten (PDF-S. 1-17, PDF-S. 18-33)"
 datenstand: "VKF-Brandschutzvorschriften 2015; STP-Anerkennung 15.12.2017; Druck April 2018"
-status: "speculative (zweite unabhaengige Refuter-Runde 260727, Run 31: BEANSTANDET mit 18 Befunden plus 10 fehlenden Kernziffern, alle eingearbeitet. Davon 7 schwer: Brettstapel/Brettschichtholz-Festigkeitsklassen vertauscht (C24 statt GL24k), drei Faelle mit EI90-Werten faelschlich als EI60 und fehlender EI60-Zeile (Kap. 4.2.4, 4.2.7.1, 4.2.7.2), Mindestauflager dem falschen Beplankungsfall zugeordnet (Kap. 4.2.8.2), Temperaturkriterien 250/270 und 140/180 vertauscht (Kap. 5.2.2), Mineralwolle-Wert EI60 aus einem anderen Kapitel eingeschleust. Zudem drei unvollstaendige Anhang-3-Bauteilaufbauten und zwei verfaelschte Modalitaeten (Kap. 4.4.3 Aussagerichtung umgekehrt, Kap. 5.3.4 kumulative Anforderung zur Alternative erweicht). Die beiden Korrekturen der Runde 1 haben dagegen standgehalten. Bleibt speculative bis zu einer Runde mit sauberem Nulldurchgang.)"
+status: "speculative (dritte unabhaengige Refuter-Runde 260727: BEANSTANDET mit 3 Befunden, alle eingearbeitet — Kap. 4.4.2/4.4.3 Beplankungsdicken vertauscht, Kap. 5.3.5 Fehlinterpretation 'hoehere statt jeweilige Anforderung', Anhang-3-Zaehlung 8 statt 7 Beispiele. Alle Korrekturen der Runden 1+2 haben standgehalten, u.a. Brettstapel/Brettschichtholz C24/GL24k, EI90-Werte Kap. 4.2.4/4.2.7.1/4.2.7.2, Mindestauflager Kap. 4.2.8.2, Temperaturkriterien 250/270 vs. 140/180 Kap. 5.2.2. Bleibt speculative bis zu einer Runde mit sauberem Nulldurchgang.)"
 last_updated: 2026-07-27
 links: [[REGISTER]]
 ---
@@ -281,13 +281,22 @@ Ummauerungen (→ Publikation 6.1), 501/504/505 Lüftungskanäle/Brandschutzklap
 Absperrvorrichtungen, 802 Entrauchungsklappen, 803 Rauchschürzen.
 - 4.4.2 Wand- und Deckenkonstruktionen (S. 32): Holzunterkonstruktion muss Standfestigkeit
   des VKF-anerkannten Bauteils gewährleisten, ergänzend Anforderungen Kap. 4.2 umsetzen.
-  Beplankungsdicken: Abschluss EI30 → Holzwerkstoffplatte 22 mm oder Gips-/Gipsfaserplatte
-  12,5 mm; EI60 → 46 mm bzw. 2×12,5 mm. Randbedingungen: Leichtbauwand max. Höhe 3 m,
-  Balken/Rippe max. 800 mm, Holzwerkstoffplatte 27 mm mit Balken-/Rippenabstand max. 700 mm.
+  Bauteil im Anschlussbereich: Anschluss VKF-anerkanntes Bauteil seitlich oder oben →
+  Holzwerkstoffplatte oder Gips-/Gipsfaserplatte, Mindestdicke 15 mm. Randbedingungen für den
+  Anschluss einer nichttragenden Leichtbauwand auf eine Holzdecke: Leichtbauwand max. Höhe 3 m,
+  Balken/Rippe unter der Wand oder Querausholzung im Abstand max. 800 mm, oder Holzwerkstoffplatte
+  Mindestdicke 27 mm mit Balken-/Rippenabstand max. 700 mm; bei Nichteinhaltung rechnerischer
+  Nachweis gemäss [6]. [Korrektur 27.07.2026, Runde 3: die Vorversion hatte hier faelschlich die
+  Beplankungsdicken EI30 22 mm/EI60 46 mm aus Kap. 4.4.3 eingeschleust; Kap. 4.4.2 selbst nennt fuer
+  den seitlichen/oberen Anschluss nur eine einheitliche Mindestdicke von 15 mm, keine EI30/EI60-Splittung.]
 - 4.4.3 Abschlüsse (S. 33): beim Einbau von Abschlüssen in Holzkonstruktionen sind Abschlüsse
   zu verwenden, für die als Unterkonstruktion eine Leichtbauwand 'LBW' definiert ist (die in
   Frage kommende Unterkonstruktion ist in der VKF-Anerkennung/VKF-Technischen Auskunft unter
-  'Anwendung' aufgeführt); Vorholzdicke x: Abschluss EI30 ≥ 30 mm, EI60 ≥ 50 mm.
+  'Anwendung' aufgeführt); Beplankung: Abschluss EI30 → Holzwerkstoffplatte 22 mm oder
+  Gips-/Gipsfaserplatte 12,5 mm; Abschluss EI60 → Holzwerkstoffplatte 46 mm oder
+  Gips-/Gipsfaserplatte 2×12,5 mm. Vorholzdicke x: Abschluss EI30 ≥ 30 mm, EI60 ≥ 50 mm.
+  [Korrektur 27.07.2026, Runde 3: die Beplankungsdicken-Angabe fehlte in der Vorversion hier
+  vollständig und war stattdessen faelschlich unter Kap. 4.4.2 eingetragen.]
 
 ### Kapitel 5 — Anschlüsse Bauteile RF1 (S. 34-45)
 
@@ -330,9 +339,13 @@ Plattenränder.
   oder Fugenausbildung gemäss Kap. 5.4). Legende 5: Brandschutzbekleidung Ktt-RF1, Überlappung
   mit Bauteil K30-RF1 c ≥ 50 mm, K60-RF1 c ≥ 80 mm.
 - 5.3.5 Zusammenschlüsse (S. 41): bei identischer FW-Dauer der Bekleidungen feuerwiderstands-
-  fähige Zusammenführung möglich; bei unterschiedlicher FW-Dauer gilt jeweils die höhere
-  Anforderung auch im Anschlussbereich; an homogenen Bauteilen RF1 Anschliessen der
+  fähige Zusammenführung möglich; weisen die Bekleidungen je Bauteil eine unterschiedliche
+  FW-Dauer auf, bleibt die jeweilige (eigene, nicht gemittelte) Anforderung an die Bekleidung
+  auch im Anschlussbereich zu gewährleisten; an homogenen Bauteilen RF1 Anschliessen der
   Bekleidungen möglich, sofern Feuerwiderstand des homogenen Bauteils ≥ FW-Dauer der Bekleidung.
+  [Korrektur 27.07.2026, Runde 3: die Vorversion hatte "gilt jeweils die höhere Anforderung"
+  formuliert; der Originaltext ("die jeweilige Anforderung ... zu gewährleisten") sagt aus,
+  dass jede Seite ihre eigene Anforderung behält, nicht dass die strengere fuer beide gilt.]
 - 5.3.6 Auflager (S. 42): Tragsicherheit gewährleisten, Bekleidungen ohne Unterbruch zusammen-
   zuführen; Zusammenschluss sinngemäss nach Kap. 5.3.5. Auflagerwerte: REI30-RF1 mit K30-RF1 →
   kein Abbrand an Holz, Nachweis für Normaltemperatur; REI60-RF1 mit K30-RF1 → x ≥ 40 mm;
@@ -379,10 +392,13 @@ Plattenränder.
   Bauteilfugen usw.) im Normalfall massgebend sind: A.2.2 brandabschnittsbildende Bauteile an
   nicht brandabschnittsbildende (S. 51), A.2.3 an brandabschnittsbildende (S. 52), A.2.4
   Holzbauteile an Bauteile RF1 (S. 53), A.2.5 Bauteile RF1 an Bauteile RF1 (S. 54).
-- Anhang 3 Beispiele von Anschlusskonstruktionen (S. 55-62): 8 durchgerechnete Beispiele, je
-  mit Feuerwiderstandsanforderungen + Bauteilaufbau + Nachweis-Vorbereitung (Bauteilnachweis-
+- Anhang 3 Beispiele von Anschlusskonstruktionen (S. 55-62): 7 durchgerechnete Beispiele
+  (A.3.2 bis A.3.8; S. 55 = Kap. A.3.1 Einleitung, kein eigenes Beispiel), je mit Feuer-
+  widerstandsanforderungen + Bauteilaufbau + Nachweis-Vorbereitung (Bauteilnachweis-
   Fundstellen) + Anschlusskonstruktionen-Tabelle mit Kapitelverweisen; ausdrücklich KEINE
-  Musterlösungen zur Nachweisführung, dienen nur dem besseren Verständnis (Kap. A.3.1, S. 55):
+  Musterlösungen zur Nachweisführung, dienen nur dem besseren Verständnis (Kap. A.3.1, S. 55).
+  [Korrektur 27.07.2026, Runde 3: die Vorversion zählte faelschlich "8 Beispiele"; es sind
+  sieben (A.3.2-A.3.8), die achte gezählte Seite (55) ist die Einleitung ohne Beispiel.]
   - A.3.2 Geschossdecke an Wohnungstrennwand (S. 56): Wand R60+EI30 (Gipsfaserplatte 2×15 mm,
     Ständer 80×140 mm, Mineralwolle SP≥1'000°C ρ≥26 kg/m³ 140 mm, Mineralwolle SP≥1'000°C
     ρ≥26 kg/m³ 40 mm, Gegenseite identisch); Decke REI60 (Estrich 60 mm, Trittschalldämmung
@@ -465,7 +481,7 @@ Plattenränder.
   Verbunddecken) — liefert die konstruktiven Mindestmasse (Füllholzbreiten, Mineralwolle-
   Dimensionen, BSP-Stärken, Auflagerbreiten) für die konkrete Ausschreibung von Trockenbau-/
   Zimmerarbeiten-Positionen, wenn REI/EI-Anforderungen an Holzanschlüsse (Decke-Wand,
-  Wand-Wand, Auflager, Elementstösse) nachzuweisen sind. Anhang 3 (S. 55-62) liefert acht
+  Wand-Wand, Auflager, Elementstösse) nachzuweisen sind. Anhang 3 (S. 55-62) liefert sieben
   fertig durchgerechnete Referenzdetails, die sich unmittelbar für Ertüchtigungs-Factsheets
   oder Konzeptprüfungen als Vergleichsmassstab eignen (ausdrücklich keine Musterlösungen).
 - **machbarkeit / volumenstudie**: Kap. 5 (Bauteile RF1) ist relevant für Holzbauten mit
@@ -525,4 +541,29 @@ Plattenränder.
   [4]-[12] und [13]-[18]) haben der zweiten Prüfung standgehalten. Die neuen Fehler lagen
   flächig in den Legenden der Kapitel 4.2.x sowie in Kap. 5.2.2 und Anhang 3 — also in Passagen,
   die die erste Runde nicht angefasst hatte.»
-- Status bleibt `speculative`, bis eine Refuter-Runde ohne Befund abschliesst.
+
+### Dritte Runde (27.07.2026)
+
+- Vollständige, erneute Gegenprüfung aller 33 Originalseiten (Bild-Scan) gegen jede einzelne
+  Aussage des Destillats, mit besonderem Misstrauen gegen die in Runde 1/2 korrigierten Stellen.
+- **Verdikt: BEANSTANDET, 3 Befunde.** Alle drei direkt im Destillat korrigiert:
+  1. Kap. 4.4.2/4.4.3 (S. 32-33): Die Beplankungsdicken EI30 → 22 mm/12,5 mm bzw.
+     EI60 → 46 mm/2×12,5 mm waren fälschlich unter Kap. 4.4.2 (Wand-/Deckenkonstruktionen)
+     eingetragen; sie gehören zu Kap. 4.4.3 (Abschlüsse). Kap. 4.4.2 selbst nennt für den
+     seitlichen/oberen Anschluss nur eine einheitliche Mindestdicke von 15 mm ohne EI30/EI60-
+     Splittung. Beide Abschnitte korrigiert (Daten an den richtigen Ort verschoben).
+  2. Kap. 5.3.5 Zusammenschlüsse (S. 41): Die Formulierung "gilt jeweils die höhere Anforderung
+     auch im Anschlussbereich" war eine Fehlinterpretation. Der Originalwortlaut ("die jeweilige
+     Anforderung an die Brandschutzbekleidung auch im Anschlussbereich zu gewährleisten") sagt
+     aus, dass jede Seite bei unterschiedlicher Feuerwiderstandsdauer ihre EIGENE Anforderung
+     behält, nicht dass die strengere für beide gilt. Korrigiert.
+  3. Anhang 3 (S. 55-62): Die Zählung "8 durchgerechnete Beispiele" war falsch — es sind
+     7 Beispiele (A.3.2 bis A.3.8); Seite 55 (A.3.1) ist die Einleitung ohne eigenes Beispiel.
+     Korrigiert an beiden Stellen (Kernziffern-Abschnitt und JANS-Praxis-Transfer).
+- Alle in Runde 1/2 korrigierten Stellen wurden erneut geprüft und STANDGEHALTEN, insbesondere:
+  Brettstapel/Brettschichtholz-Festigkeitsklassen (C24/GL24k, Kap. 3.4), die EI90-Werte in
+  Kap. 4.2.4/4.2.7.1/4.2.7.2, das Mindestauflager in Kap. 4.2.8.2, die Temperaturkriterien
+  250/270 vs. 140/180 °C in Kap. 5.2.2, Abb. 320-1 Situationszuordnung, Literaturzählung
+  [4]-[12]/[13]-[18].
+- Status bleibt `speculative`, da diese dritte Runde noch nicht mit 0 Befunden abschliesst.
+  Eine vierte Runde ist erforderlich, um `established` zu erreichen.

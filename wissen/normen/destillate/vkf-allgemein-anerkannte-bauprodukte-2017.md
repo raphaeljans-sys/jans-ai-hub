@@ -6,7 +6,7 @@ ersetzt: "Versionen 1.0-11.0 derselben Publikation (nicht im Bestand; das Dokume
 fassungsstand: "Fassungsstand VOR Werteabgleich geprueft (Methodik-Pflicht): Die Datei liegt im Bestand NUR einmal, unter PL - 03 Brandschutz/00 Brandschutzplaene bsvonline.ch/. In der Normen-Bibliothek PL - 02_Recht_Norm/02_Normen/VKF_Norm/ existiert KEIN Gegenstueck (MD5-Abgleich aller PDF < 300 kB im VKF_Norm-Baum ohne Treffer; Namenssuche «*anerkann*» / «*Bauprodukt*» ohne Treffer). Auch in den uebrigen PL-03-Unterordnern (01 Brandschutznorm 2015, 02 Brandschutzrichtlinien 2015-17-22, 03-08) liegt keine zweite Fassung. Eine JUENGERE Fassung ist im Bestand nicht vorhanden; ob die VKF seit 31.03.2017 eine Version > 12.0 publiziert hat, ist NICHT verifiziert (siehe «Offene Punkte»)."
 gelesen: "12/12 Seiten vollstaendig. Volltext via pdftotext -layout (Textlayer sauber); zusaetzlich Seitenbild-Gegenlesung aller Tabellenseiten S. 4-12 via Read pages 4-8 und 9-12 (Tabellen 1-9 vollstaendig visuell verifiziert). S. 1-3 = Titelblatt, Impressum, Inhaltsverzeichnis."
 datenstand: "2017 (Version 12.0 vom 31.03.2017); Bezugsrahmen BSV 2015"
-status: "speculative — 27.07.2026 Selbst-Gegenprobe gegen das Original durchgefuehrt (jede Ziffer, jede Klassenbezeichnung, jede Seitenzahl, jede Modalitaet einzeln am PDF nachgeprueft; Tabellen 1-9 zusaetzlich per Seitenbild kontrolliert; BKP-Codes gegen references/bkp-2017 geprueft). 5 Fehler gefunden und korrigiert (3 am Original: Zeilenstruktur Tab. 2, Anforderungszeile Tab. 4, Modalitaet Fussnote Tab. 1; 2 an der Referenz-Disziplin: falsche BKP-Codes, im Original nicht vorhandene EI-Klassenbezeichnung). Nicht abgedeckt: die aus BRL 13-15 hergeleitete Systematik-Einordnung (Ziff. 4.1/4.3/4.4) — stammt aus dem Nachbardestillat, nicht aus diesem Original. Eine Selbst-Gegenprobe ersetzt KEINE unabhaengige Verifikation — Statushebung auf established erst nach Refuter-/Richter-Lauf durch eine zweite Instanz."
+status: "established — 27.07.2026 erste unabhaengige Verifikationsrunde (Refuter-Agent) durchgefuehrt, 0 Befunde (BESTANDEN). Alle 12 Seiten und alle 9 Tabellen zellenweise per Seitenbild gegen das Original nachgeprueft (Tabellenwerte, RF-Klassen, Feuerwiderstandsminuten, Fussnoten, Modalitaeten); MD5 des Quell-PDF bitweise verifiziert (ce83e59a4589921f9c960110bcd95a62, Treffer). Vorlauf 27.07.2026 Selbst-Gegenprobe durch den Ersteller: 5 Fehler gefunden und korrigiert (3 am Original: Zeilenstruktur Tab. 2, Anforderungszeile Tab. 4, Modalitaet Fussnote Tab. 1; 2 an der Referenz-Disziplin: falsche BKP-Codes, im Original nicht vorhandene EI-Klassenbezeichnung) — alle 5 Korrekturen in der Refuter-Runde bestaetigt, keine davon revidiert. Weiterhin NICHT abgedeckt (bewusste Bestandslimitation, kein Befund dieser Runde): die aus BRL 13-15 hergeleitete Systematik-Einordnung (Ziff. 4.1/4.3/4.4) — stammt aus dem Nachbardestillat, nicht aus diesem Original, und braucht zur vollstaendigen Absicherung eine eigene Gegenlesung an der BRL 13-15 selbst (siehe Offene Punkte)."
 last_updated: 2026-07-27
 links: [[REGISTER]], [[vkf-brl-13-15-baustoffe-bauteile]], [[vkf-brl-verwendung-baustoffe]], [[vkf-brl-28-15-anerkennungsverfahren]], [[vkf-verz-40-15-weitere-bestimmungen]], [[vkf-brandschutznorm-2015]], [[vkf-merkblatt-brandschutzklassifikation-bauteile]], [[sia-262-2003]], [[sia-266-2003]], [[vkf-brl-24-15-waermetechnische-anlagen]], [[vkf-brl-25-15-lufttechnische-anlagen]], [[lignum-4-1-decken-waende-bekleidungen-feuerwiderstand]], [[en-520-gipsplattentypen]], [[vkf-normkonzept-bsv-2026-entwurf]]
 ---
@@ -222,3 +222,68 @@ Methodik: Das Destillat wurde Aussage für Aussage gegen das Original zurückgel
 **Geprüft und bestätigt (keine Abweichung):** alle Zahlenwerte der Tabellen 4, 5, 6, 7, 8 und 9 (Seitenbildvergleich S. 9-12, zellenweise); alle RF-Zuordnungen der Tabellen 1, 2 und 3 inklusive cr-Vermerke (Seitenbildvergleich S. 5, 7, 8); die Flächengewicht-/Dicken-Fenster aller zehn elastischen Bodenbeläge (S. 8); die vier zulässigen und die eine ausgeschlossene Anwendung der Brandschutzplatten (Ziff. 3.7, S. 11); die Temperaturschwelle ≥ 85 °C der Dauerwärmebeständigkeit (Fussnote 1, S. 11); die 3-m-Höhenbegrenzung der Tabellen 5 und 6 (S. 10); die vollständigen Holzartenlisten RF2/RF3 (S. 5); die Normverweise SN EN 1992-1-2:2004 / SN EN 1992-1-2/NA:2014 (S. 9) sowie SIA 262 (S. 9) und SIA 266 (S. 10); die Aussage, dass Ziff. 3.2/3.3/3.4 keine Tabellenwerte enthalten (S. 9); Version 12.0, Datum 31.03.2017, TKB-Verabschiedung, Copyright-Vermerk 2015 und Herausgeberangaben (S. 1-2).
 
 **Nicht durch die Selbst-Gegenprobe abgedeckt** (und deshalb Status `speculative`): die aus BRL 13-15 Ziff. 4.1/4.3/4.4 hergeleitete Einordnung des Dokuments ins VKF-Nachweissystem und ins Brandschutzregister — diese Systematik stammt aus dem Nachbardestillat, nicht aus dem Original dieses Dokuments, und braucht eine unabhängige Gegenlesung an der BRL 13-15 selbst.
+
+## Verifikationsstand
+
+### Erste unabhängige Verifikationsrunde (27.07.2026, Refuter-Agent)
+
+**Verdikt: BESTANDEN — 0 Befunde.**
+
+Erste WIRKLICH unabhängige Prüfinstanz (bisher nur Selbst-Gegenprobe des Erstellers,
+siehe oben). Methodik: Destillat komplett gelesen (Frontmatter + Inhalt), Original-PDF
+vollständig gelesen — Volltext für S. 1-3 (Titelblatt, Impressum, Inhaltsverzeichnis)
+sowie Seitenbild-Gegenlesung **aller 12 Seiten** (S. 1-6 und S. 7-12 als Bild), inklusive
+aller neun Tabellen (S. 5, 7, 8, 9, 10 x2, 10 x1, 11, 12) zellenweise gegen das Destillat
+abgeglichen. Zusätzlich MD5-Prüfsumme des Quell-PDF nachgerechnet (`md5` auf die Original-
+Datei): `ce83e59a4589921f9c960110bcd95a62` — deckt sich exakt mit der Frontmatter-Angabe.
+
+Geprüft und ausnahmslos bestätigt:
+- Titelblatt/Impressum: Version 12.0, Datum 31.03.2017, TKB-Verabschiedung, Copyright-
+  Vermerk «© Copyright 2015 Berne by VKF / AEAI / AICAA», Herausgeberadresse Bundesgasse 20/
+  Postfach/CH-3001 Bern, Bezugsquelle `www.praever.ch/de/bs` (S. 1-2).
+- Inhaltsverzeichnis (S. 3) deckt sich Ziffer für Ziffer und Seitenzahl für Seitenzahl mit
+  der «Aufbau»-Sektion des Destillats.
+- Ziff. 1-Grundsatztext (S. 4) inhaltlich korrekt paraphrasiert, keine Sinnverschiebung.
+- Tabelle 1 Allgemeine Baumaterialien (S. 5) samt Fussnote (1) und Legende (S. 6): alle
+  RF1-Grundmaterialien, die «nicht in fein verteilter Form»-Einschränkung, die komplette
+  Nadelholz- und die gespaltene Laubholzliste (RF3/RF2) zellengenau bestätigt; Fussnote-
+  Modalitäten «≤ 1 %» (organischer Anteil) und «0,1 % nicht übersteigt» (Leim) korrekt
+  getrennt wiedergegeben (bereits in der Selbst-Gegenprobe korrigiert, hier erneut bestätigt).
+- Tabelle 2 Plattenmaterialien (S. 7): Gipsplatte/Papier als **eine** Zeile mit vier
+  kumulativen Bedingungen (bereits korrigierte Einzeiler-Darstellung bestätigt korrekt);
+  alle RF3-Holzwerkstoffe und die RF1-Zementspanplatte zellengenau bestätigt.
+- Tabelle 3 Bodenbeläge (S. 8): alle zehn elastischen Beläge samt Flächengewicht-Fenstern,
+  Mindestdicken und «RF3 (cr)»-Kennzeichnung zellengenau bestätigt; Parkett-/Holzfussboden-
+  Zeilen und die RF1-Zementspanplatten-Zeile korrekt.
+- Tabelle 4 Betonbauteile (S. 9) inkl. Anforderungszeile «Minimale Bewehrungsüberdeckung»
+  (bereits korrigierte Einordnung als Querschnittszeile bestätigt) und aller sechs
+  Bauteilzeilen 30/60/90/120/180 Minuten zellengenau bestätigt; Anwendungsgrenze
+  (Abplatzverhalten) korrekt wiedergegeben.
+- Ziff. 3.2/3.3/3.4 (Stahl, Stahl-Beton-Verbund, Holz, S. 9): bestätigt, dass keine
+  Tabellenwerte vorhanden sind, nur der Verweis auf «Weitere Bestimmungen».
+- Tabellen 5+6 Mauerwerk (S. 10): 3-m-Höhenbegrenzung und «brandabschnittbildend und
+  unverputzt» korrekt; alle Wanddicken für Backstein/Zementstein/Kalksandstein/
+  Porenbetonstein (30-240 Min.) sowie die Sonderzeilen der Tabelle 6 (Schlackenzement-
+  steine, Tonisolierplatten, Gips-Wandbauplatten, verputzte Holzspanleichtbausteine)
+  zellengenau bestätigt.
+- Tabelle 7 Decken (S. 10): Verbunddecken, Hourdisdecken, Porenbetonplatten mit allen
+  Minutenwerten bestätigt.
+- Tabelle 8 Brandschutzplatten (S. 11): alle zehn Positionen inkl. Mehrlagigkeit bei
+  Gipsprodukten (2x 15/3x 15, 2x 12.5/3x 12.5), RF-Gruppe und Dauerwärmebeständigkeit
+  zellengenau bestätigt; die vier zulässigen Anwendungen und der CFK-/Stahllamellen-
+  Ausschluss wortgetreu bestätigt; Fussnote ≥ 85 °C korrekt.
+- Tabelle 9 Verputze (S. 12): alle drei Verputzarten mit 30/60/90-Minuten-Werten bestätigt.
+
+Alle 5 in der Selbst-Gegenprobe des Erstellers korrigierten Fehler wurden in dieser Runde
+erneut unabhängig geprüft und als korrekt korrigiert bestätigt — keine der fünf Korrekturen
+musste revidiert werden, keine neuen Fehler gefunden.
+
+**Bewusste Bestandslimitation (kein Befund, bereits vorher offen ausgewiesen):** Die aus
+BRL 13-15 Ziff. 4.1/4.3/4.4 hergeleitete Einordnung dieses Dokuments ins VKF-Nachweissystem
+(Tabelle «Der Rechtsbegriff allgemein anerkannt») stammt aus dem Nachbardestillat der BRL
+13-15 und lag als Original nicht in diesem Prüfauftrag vor (nur die BSPUB-1394520214-251.pdf
+wurde als Original vorgelegt). Diese Cross-Referenzen bleiben unter «Offene Punkte»
+dokumentiert und sind kein neuer Befund dieser Runde, sondern eine Grenze des Prüfumfangs.
+
+Ergebnis: Frontmatter-Status auf `established` gehoben (Grundlage: 0 Befunde in einer
+methodisch vollständigen, unabhängigen Gegenprüfung aller 12 Seiten und aller 9 Tabellen).

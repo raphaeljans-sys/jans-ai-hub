@@ -4,7 +4,7 @@ herausgeber: "SIA (Schweizerischer Ingenieur- und Architektenverein) unter Feder
 ausgabe: "SIA D 0165, Ausgabe 2000 (Copyright 2000 SIA Zürich, ISBN 3-908483-29-8); Druck Schwabe & Co. AG Muttenz, 2. Auflage 2000 Exemplare, 2002-06"
 gelesen: "Vollversion vollständig gelesen 260725 (Run 29, 4 parallele Lese-Agenten, PDF-Seiten 1-73 lückenlos); löst das bisherige 5-Seiten-Teil-Destillat (nur S.14-17) ab"
 datenstand: "Ausgabe 2000 (einzige Ausgabe, kein Nachfolgestand im Bestand oder im Gesamtverzeichnis SIA bekannt)"
-status: "speculative (zweite unabhaengige Refuter-Runde 260727, Run 31: BEANSTANDET mit 17 Befunden, alle eingearbeitet. Davon 9 substanziell, darunter EINE Regression der Runde 1 (die Honorar-Sammelcodes BKP 19-99 / EKG W1-W6 waren korrekt und wurden am 26.07. faelschlich geloescht) und ZWEI sachlich falsche Offene-Punkte-Nachtraege der Runde 1 (S.-41-Werte sind herleitbar; VF-Label S. 38 ist lesbar). Weiter korrigiert: nicht belegtes Ausgabedatum Juli 2000 (Impressum nennt nur Ausgabe 2000), Schaetzerhandbuch-Kuerzel SVGK statt SVKG, nicht existierende DIN 416, Anhang-1- und Anhang-4-Seitenzahlen. Bleibt speculative bis zu einer Runde mit sauberem Nulldurchgang; die naechste Runde fokussiert auf die hier frisch geaenderten Stellen.)"
+status: "speculative (dritte unabhaengige Refuter-Runde 260727: BEANSTANDET mit 4 Befunden, alle eingearbeitet, keine Regression — Details im Abschnitt Verifikationsstand. Zweite Refuter-Runde 260727, Run 31: BEANSTANDET mit 17 Befunden, alle eingearbeitet. Davon 9 substanziell, darunter EINE Regression der Runde 1 (die Honorar-Sammelcodes BKP 19-99 / EKG W1-W6 waren korrekt und wurden am 26.07. faelschlich geloescht) und ZWEI sachlich falsche Offene-Punkte-Nachtraege der Runde 1 (S.-41-Werte sind herleitbar; VF-Label S. 38 ist lesbar). Weiter korrigiert: nicht belegtes Ausgabedatum Juli 2000 (Impressum nennt nur Ausgabe 2000), Schaetzerhandbuch-Kuerzel SVGK statt SVKG, nicht existierende DIN 416, Anhang-1- und Anhang-4-Seitenzahlen. Bleibt speculative bis zu einer Runde mit sauberem Nulldurchgang.)"
 last_updated: 2026-07-27
 links: [[sia-416-2003]], [[din-277-1-2005]], [[din-277-2-2005]], [[REGISTER]]
 ---
@@ -21,8 +21,8 @@ Wohn-, Arbeits- und Gewerbefläche (VWAGF) sowie ein paralleler Kostenbaum von d
 Investitionskosten bis zu den Nettomietkosten, ergänzt um sechs explizit dokumentierte
 Abweichungen gegenüber SIA 416/DIN 277 (Anhang 3) und operative Bemessungsregeln für
 Grenzfälle wie Brüstungen, Dachschrägen und Treppenläufe (Anhang 5). Als "erste Version"
-(1) liegt der Schwerpunkt bewusst auf Flächen-/Kostenkennzahlen; Kauf-/Verkaufs- und
-Ertragskennzahlen waren für eine Folgeversion vorgesehen (nicht im Bestand nachweisbar).
+(1) liegt der Schwerpunkt bewusst auf Flächen-/Kostenkennzahlen; Kauf-/Verkaufs-/Bewertungs-
+und Ertragskennzahlen waren für eine Folgeversion vorgesehen (nicht im Bestand nachweisbar).
 
 ## Geltungsbereich
 Immobilienmanagement/Facility- und Portfolio-Bewirtschaftung: einheitliche Definitionen für
@@ -337,7 +337,8 @@ Garderoben, Verkehrswege im Grossraum) · 2.3 Besprechungsräume · 2.4 Konstruk
 Leitstellen) · 2.7 Aufsichtsräume (Pförtner/Wache) · 2.8 Bürotechnikräume (Rechenzentren,
 EDV-Räume).
 **HNF3 Produktion/Experimente**: 3.1 Werkhallen · 3.2 Werkstätten · 3.3 Technologische Labors ·
-3.4 Physikalische/elektrotechnische Labors · 3.5 Chemische/bakteriologische Labors ·
+3.4 Physikalische/physikalisch-technische/elektrotechnische Labors ·
+3.5 Chemische/bakteriologische/morphologische Labors ·
 3.6 Tierhaltung · 3.7 Pflanzenzucht · 3.8 Küchen · 3.9 Sonderarbeitsräume.
 **HNF4 Lagern/Verteilen/Verkaufen**: 4.1 Lagerräume · 4.2 Archive/Sammlungsräume ·
 4.3 Kühlräume · 4.4 Annahme-/Ausgaberäume · 4.5 Verkaufsräume · 4.6 Ausstellungsräume.
@@ -417,8 +418,9 @@ Hauptgruppe in Bauteilklassen untergliedert (z.B. 41x/42x: Gründung, Aussenwän
 Innenwände, Decken, Dächer, Anlagenklassen Abwasser/Wärme/Luft/Strom/Fernmelde/
 Förderanlagen/Gebäudeautomation). Parallel-Spalten: DIN 18960(1976) mit grober 6-Punkte-
 Gliederung (Kapital/Abschreibung/Verwaltung/Betrieb/Steuern/Bauunterhalt); GEFMA 200 mit
-eigener 3-stelliger Kontenlogik (2xx Betrieb, 4xx Dienste/Instandsetzung, 5xx Dienste [450
-Dienste in Aussenanlagen, 590 Sonstige Dienste], 6xx Objektbuchhaltung/Finanzierung).
+eigener 3-stelliger Kontenlogik (2xx Betrieb, 4xx Dienste/Instandsetzung [u.a. 420
+Reinigungsdienste, 430 Sicherheitsdienste, 440 Hausmeisterdienste, 450 Dienste in
+Aussenanlagen], 5xx Sonstige Dienste [590], 6xx Objektbuchhaltung/Finanzierung).
 
 ## Anhang 7 — Literaturverzeichnis (S. 67, vollständig, 17 Positionen)
 1. SIA-Empfehlung 380/1 (1988) · 2. SIA-Norm 416 (1993) · 3. DIN 277 (1987) ·
@@ -497,3 +499,23 @@ eigenen fachlichen Zusatzwert).
   Passagen, die Runde 1 korrigiert oder neu hinzugefügt hatte. Das in dieser Wissensbasis seit
   Run 23/24 dokumentierte Muster — frisch nachgetragener Text ist die höchste Fehlerquelle —
   bestätigt sich hier deutlich.»
+- **27.07.2026, dritte Runde (unabhängiger Refuter-Agent)**: vollständiger Volltextabgleich
+  aller 73 Originalseiten (4 Lesedurchgänge à 20/20/20/13 Seiten) gegen jede Aussage, Formel,
+  Kennzahl, jedes Berechnungsbeispiel, Glossar-Eintrag und jede Anhang-Fundstelle im Destillat.
+  Verdikt: **BEANSTANDET**, 4 Befunde, alle eingearbeitet (keine Regression, alle vom Typ
+  unvollständige Wiedergabe). Die in Runde 2 korrigierte Regression (BKP 19-99/EKG W1-W6, S. 32
+  f.) wurde gegen das Original erneut geprüft und ist korrekt und vollständig. Befunde: (1)
+  "Das Wichtigste in 3 Sätzen" nannte bei der geplanten Folgeversion nur "Kauf-/Verkaufs- und
+  Ertragskennzahlen" und liess "Bewertungs-" aus (Original S. 4: "Kauf, Verkauf und die
+  Bewertung von Immobilien, sowie Ertragskennzahlen"; Kapitel 1 hatte es bereits korrekt,
+  jetzt angeglichen). (2) Anhang 2 (S. 52): HNF-Kategorie 3.4 verkürzt zu "Physikalische/
+  elektrotechnische Labors", Original-Titel lautet "Physikalische, physikalisch-technische,
+  elektrotechnische Labors" (Mittelglied fehlte). (3) Ebenda: HNF-Kategorie 3.5 verkürzt zu
+  "Chemische/bakteriologische Labors", Original-Titel lautet "Chemische, bakteriologische,
+  morphologische Labors" (Schlussglied fehlte). (4) Anhang 6 (S. 65): GEFMA-Code 450 "Dienste
+  in Aussenanlagen" war fälschlich der "5xx"-Kontenklasse zugeordnet, gehört aber zur
+  "4xx"-Klasse (Codes 420/430/440/450 sind alle 4xx; nur 590 ist tatsächlich 5xx). Keiner der
+  vier Befunde betrifft eine ehemals korrekt geloeschte oder neu falsch eingefügte
+  Sammelposition; die Fehlerquelle ist durchgehend Verkürzung/Kompression bei der
+  Destillation, nicht Fehlinterpretation des Originals. Bleibt speculative bis zu einer
+  Runde mit sauberem Nulldurchgang.
