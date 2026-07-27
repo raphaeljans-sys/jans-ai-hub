@@ -128,9 +128,15 @@ Verantwortung bleibt bei Bauherr/Unternehmer/Planer. Faktenbasis Detail: [[08-au
 ## JANS-Bezug
 
 - Bauleitung: Baufreigabe vor Aushub einplanen (→ `unternehmerkontrolle`, `kostenkontrolle`); die «vor
-  Baubeginn» faelligen Auflagen liefert die [[ausnahmebewilligung-und-bestandesschutz]]-Linie ueber den
-  Skill `auflagebereinigung` — die operative Frist-Zuteilung (vor Baubeginn/Arbeitsvergabe/Inbetriebnahme)
-  fuehrt der KB-Artikel `wissen/auflagebereinigung/wiki/fristenlogik-bauentscheid-zh`.
+  Baubeginn» faelligen Auflagen sind die auf den Baubeginn gestellten **Nebenbestimmungen nach § 321 PBG**,
+  deren Erfuellung § 326 lit. a PBG zur Voraussetzung des Baubeginns macht — ihre rechtliche Qualifikation
+  fuehrt die [[nebenbestimmungen-und-reverse]]-Linie, die operative Abarbeitung der Skill
+  `auflagebereinigung`; die Frist-Zuteilung (vor Baubeginn/Arbeitsvergabe/Inbetriebnahme) fuehrt der
+  KB-Artikel `wissen/auflagebereinigung/wiki/fristenlogik-bauentscheid-zh`. [Korrektur Wissens-Chef
+  Run 17, 27.07.2026: hier stand «liefert die [[ausnahmebewilligung-und-bestandesschutz]]-Linie» — jener
+  Artikel behandelt ausschliesslich Dispens § 220 PBG und Bestandesschutz § 357 PBG und enthaelt zu
+  «Baubeginn»/«Auflage» keine Fundstelle. Der Verweis auf ihn bleibt im Abschnitt «Verwandte Artikel»
+  richtig, als Handoff zur KB `auflagebereinigung` griff er ins Leere.]
 - Bestand/Umbau (Healthcare-Kernkompetenz): Asbest-Meldepflicht (Art. 3a ABV) und Bezugskontrolle
   (Austrocknung/Hygiene) frueh in `pendenzenliste`/Terminplan.
 

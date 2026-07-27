@@ -3,6 +3,34 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+> **ESKALIERT an Raphael — Wissens-Chef Run 17, 27.07.2026.** Der Cross-Lauf hat den Widerspruch
+> zwischen `wiki/beziehungsregister.md` und der **immer aktiven Rule** `rules/anrede-kontakte.md`
+> adversarial verifiziert und **bestätigt**: die Kontaktliste führt Besnik starr als «nackter
+> Vorname-Opener», während das Wiki am authentischen Beleg (21.05.2026, «Gewerke/Empfehlung») zeigt,
+> dass Raphael bei gewichtigem Anliegen «Geschätzter Besnik» + direkten FG-Block wählt. Weil die
+> Kontaktliste laut eigener Konvention **vor** dem Wiki konsultiert wird, wirkt der veraltete Stand
+> und nicht der belegte. Der Loop hat die Korrektur zu Recht nicht selbst in die Rule geschrieben
+> (Rule-Änderungen an dieser Datei sind laut CHANGELOG 2026-07-25j an Raphaels Freigabe gebunden) —
+> deshalb liegt sie jetzt im Wissens-Chef-Bericht
+> `wissen/koordination/outputs/2026-07-27_wissens-chef-run17.md` als Entscheid vor. **Der Chef hat
+> ebenfalls nichts an der Rule geändert.** Der wirksamere der beiden Vorschläge ist nicht die
+> Besnik-Zeile (Einzelbeleg), sondern eine **generelle Klausel im Abschnitt «Konvention»**: die
+> Notiz-Spalte nennt den Routine-Default, die Anrede-Stufe folgt zusätzlich dem **Gewicht des
+> konkreten Anliegens** — dreifach unabhängig belegt (Tschopp, Besnik, Hiltmann), und sie heilt alle
+> Zeilen zugleich statt einer.
+>
+> **Zweite Frage aus demselben Lauf, an Raphael — Felix Stählin: welche Firma?**
+> `rules/anrede-kontakte.md` Z. 28 führt «**Karl Wächter AG**, Ausführender» (übernommen am 25.07.
+> aus dem älteren Wiki-Datenpunkt Fidelity 260714j). Zwei **jüngere**, unabhängige Batches (60/61,
+> Belege 02.–13.07.2026) nennen dagegen «**Stählin AG Sanitär**», einmal mit Gewerkbezug
+> «Waschküche» — das Wiki ist an dieser Stelle selbst uneinheitlich. Die Anredeform (Du) stimmt in
+> beiden Fassungen überein, nur die Firmenzuordnung nicht. **Sind das zwei Firmen desselben Mannes
+> oder zwei verschiedene Personen mit demselben Vornamen?** Aus dem Korpus nicht entscheidbar —
+> beide Varianten sind belegt. Nach Rule `identifikatoren-verifizieren` ist ein Firmenname ein
+> Identifikator, der unverändert in Anschreiben, Adressblatt, Submittentenliste und Werkvertrag
+> wandert; eine falsche Firma beim richtigen Vornamen fällt erst beim Empfänger auf. Bis zur
+> Klärung: **Firmenzuordnung vor jeder Verwendung in einem Dokument verifizieren.**
+
 ## Offen — Runde 260727k (twin-fragesteller, aus Fidelity-Review 2026-07-27k)
 
 Quelle: Drift-Report `outputs/2026-07-27k_fidelity.md` (Gesamt-Fidelity ~86; erstmals `rj@`

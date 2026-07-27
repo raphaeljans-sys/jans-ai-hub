@@ -1,5 +1,32 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## 2026-07-27 (Cross-KB energie ↔ baurecht, Wissens-Chef Run 17) — EG GSchG (LS 711.1) per 01.06.2026 AUFGEHOBEN, KB-weiter Nachzug offen
+
+**Die Sachfrage ist beantwortet, offen ist nur noch die Ausführung.** Belegt am amtlichen
+WsG-Volltext (LS 724.1, Nachtrag 133, PDF `724.1_12.12.24_133.pdf` von zhlex, vom Chef selbst
+gegengelesen): «§ 126. Die nachstehenden Gesetze werden aufgehoben: a. Einführungsgesetz zum
+Gewässerschutzgesetz vom 8. Dezember 1974, b. Wasserwirtschaftsgesetz vom 2. Juni 1991»
+(6. Abschnitt Schlussbestimmungen; Inkrafttreten Fn. 2: 1. Juni 2026, OS 81, 145).
+
+**Wie das durchrutschen konnte:** Der WsG/WsV-Nachzug aus Buch-Run 50 hat nur nach **«HWSchV»**
+gesweept und wurde in Run 64 als «bleibt geschlossen» verbucht — § 126 hebt aber **zwei** Erlasse
+auf, und die 17 EG-GSchG-Zitate dieser KB blieben unberührt stehen. Aufgefallen ist es erst im
+Cross-Lauf: die KB `energie` hatte die Ablösung aus dem AWEL-Glossar übernommen (ungeprüft, aber
+richtig), während diese KB — die für den ZH-Erlassstand **führende** — den aufgehobenen Erlass als
+geltende AWEL-Bewilligungsgrundlage weiterführte. **Lehre für die Fassungspflege: nach dem
+Nachfolge-Erlass sweepen, nicht nach dem einen Erlass, der den Anlass gab.**
+
+**Der Auftrag steht im Arbeitsregister** (`training/PROGRAMM.md`, Fortschritts-Tracker, Priorität (a)
+vom 27.07.2026) — mit Fundortliste, Erledigt-Kriterium und den bekannten §-Zuordnungen. Hier nur der
+Zeiger, damit die Übergabe an beiden Orten steht (Regel aus Wissens-Chef Run 16: Fragenlisten werden
+gelesen, Arbeitsregister werden abgearbeitet).
+
+**Materielle Kurzfassung für die Zwischenzeit:** Für die Bewilligung der Wärme-/Energienutzung aus
+Wasser, Untergrund und Abwasser gilt neu **§ 44 Abs. 1 lit. a WsG** (Wortlaut geprüft: «die der
+Nutzung von Boden, Untergrund oder Abwasser zur Gewinnung von Energie oder zur Kühlung dienen»),
+nicht mehr § 8 EG GSchG. Wer bis zum Abschluss des Nachzugs ein EG-GSchG-Zitat aus dieser KB in ein
+Gesuch oder eine Behördenkorrespondenz übernimmt, zitiert aufgehobenes Recht.
+
 ## 2026-07-27 (Buch-Run 68, Festigungsmodus, Priorität c Erst-Verifikation) — enteignung-und-entschaedigung: 2× AbtrG-Zitierfehler + 1× EG-ZGB-Zitierfehler korrigiert, AbtrG erstmals live geprüft
 
 [[enteignung-und-entschaedigung]] (letzter der beiden nie durch den Modell-D-Loop

@@ -196,6 +196,24 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
   in QUESTIONS.md steht der Nachtrag mit der Begruendung. **Verallgemeinerte Regel: eine Uebergabe an
   eine KB gehoert in deren ARBEITSREGISTER, nicht nur in deren Fragenliste** — Fragenlisten werden
   gelesen, Arbeitsregister werden abgearbeitet.
+- **WIRKUNGSNACHWEIS 27.07.2026 (Run 17): die Regel greift — erster belegter Fall.** Der normen-Loop
+  hat in **Run 30 (27.07.)** zwei der vier Inventar-Zeilen tatsaechlich abgearbeitet: SIA 491 und
+  SN EN 12193 tragen jetzt den Vermerk «Bestand geprueft 260727 (Run 30): weder in PL-02 noch in PL-03
+  vorhanden — bleibt externe Bring-Schuld (SIA-Shop-Kauf), keine PL-03-Fehlklassierung», bei EN 12193
+  zusaetzlich «Nachfolgeausgabe weiterhin abzuklaeren». Dieselben vier Normen waren im Vorlauf zwei
+  Runs lang unberuehrt geblieben, solange sie nur in `wiki/QUESTIONS.md` standen. **Damit ist die
+  Run-16-Diagnose nicht nur plausibel, sondern verifiziert: der Ort der Anmeldung entscheidet, nicht
+  die Qualitaet des Eintrags.** SN 640 052 und SN 641 400 stehen weiter offen (P2, korrekt platziert).
+  Status dieses Bezugs von «angemeldet, nicht aufgegriffen» auf **«teilweise abgearbeitet, Mechanismus
+  bestaetigt»** gehoben.
+- **ANWENDUNG DER REGEL 27.07.2026 (Run 17), 7. Fundort des Musters:** Die Bring-Schuld
+  **SIA 181:2020 re-destillieren** stand seit **Run 3 (13.07.2026)** — also 14 Tage — ausschliesslich
+  in `normen/wiki/QUESTIONS.md:545` und war nie im Inventar. Genau der Ort, den der Loop nicht
+  abarbeitet; entsprechend ist in 14 Tagen nichts geschehen, waehrend `energie` (Ausgabe 2020, +4 dB)
+  und `normen` (Ausgabe 2006, +3 dB) unveraendert nebeneinander laufen. → als Inventar-Zeile mit
+  **Prioritaet P1** nachgetragen (hoeher als die vier baurecht-Schulden, weil die Rule `normen-referenz`
+  fuer LV/Werkvertrag die 2006er Fundstelle zieht), Ruecklink in QUESTIONS.md gesetzt.
+  **Beschaffung bleibt Bring-Schuld Raphael** (SIA-Shop, kostenpflichtig — Claude taetigt keine Kaeufe).
 
 
 ### energie ↔ planungsgrundlagen (EN-102-Ausgabe, Regenwasser/Versickerung, PV-Preise) — geprueft 2026-07-25 (Run 15)

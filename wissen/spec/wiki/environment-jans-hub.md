@@ -1,7 +1,7 @@
 ---
 title: Layer 3 — The Environment (= der JANS AI Hub)
 status: established
-last_updated: 2026-07-24
+last_updated: 2026-07-27
 sources: [260616_marchese_the-spec_karpathy-method_transkript.md, CLAUDE.md]
 links: [[the-spec]], [[verifier]], [[anwendung-jans]]
 ---
@@ -90,6 +90,28 @@ Option, die beide Konflikt-Parteien in Lauf 8 nicht auf dem Schirm hatten:
   ("nicht aktiv, historischer Kontext"), `sync-kanonische-quelle.md`s "Backlog"-Eintrag ist
   auf den Live-Stand korrigiert, `rules/README.md` nachgezogen. `git-auto-push.md` bleibt
   unverändert die aktive Regel — sie beschrieb den Ist-Zustand bereits korrekt.
+
+**Nachtrag 2026-07-27 (Wissens-Chef Run 17) — der Schluss von Lauf 9 ist überholt.** Die
+Betriebs-Empirie hat sich gedreht: am **26.07.2026** wurde genau diese Praxis ausdrücklich
+**verboten**. `rules/sync-kanonische-quelle.md` untersagt im Abschnitt «NIE» neu **jeden**
+git-Schreibbefehl (commit/push/pull/rebase) über den SMB-Mount auf das NAS-`.git` — «nicht durch
+Claude, nicht durch die Loops, nicht als Cron. Solche Befehle hängen unter Last uninterruptibel und
+blockieren die `.git/index.lock` für alle (belegt 25.07.2026 mehrfach)»; einziger erlaubter
+NAS-Committer ist der native `nas-selfcommit.sh` auf der Synology, auf Zuruf via `nas-commit-now.sh`.
+`rules/git-auto-push.md` trägt seit dem 26.07. einen neuen Kopfabschnitt, der die darunter stehenden
+Commit-Schritte ausdrücklich auf **andere** Repos begrenzt (lokaler SSD-Klon, Projekt-Repos); die
+Auto-Verbesserung 260726 hält dasselbe fest. **Die Lauf-9-Aussage «`git-auto-push.md` bleibt
+unverändert die aktive Regel» ist damit gegenstandslos** — die Datei wurde genau an dieser Stelle
+umgeschrieben. Der Lauf-9-Schluss «direktes Commit von jeder Station» gilt **nicht mehr als
+Handlungsanweisung**; er bleibt hier als Methodik-Beispiel stehen.
+
+**Und genau als Methodik-Beispiel ist er jetzt wertvoller als vorher — mit umgekehrtem Vorzeichen.**
+Die Empirie vom 13.07. belegte die **Abwesenheit von Schaden im damaligen Beobachtungsfenster**, nicht
+dessen Unmöglichkeit. Der Schadensfall trat am 25.07. unter Last mehrfach ein. **Lehrsatz für den
+Verifier-Schritt der Spec-Methode: ein Verifier aus Betriebs-Empirie belegt den Ist-Zustand, nicht die
+Belastungsgrenze. Ein daraus abgeleiteter Regel-Entscheid braucht ein Verfallsdatum oder eine
+Re-Prüfung — er darf nicht als `established` festgeschrieben werden.** Das ist die Ergänzung zur
+Lektion darunter: die Betriebs-Empirie durfte den Widerspruch entscheiden, aber nicht dauerhaft.
 
 **Methodische Lektion für den Loop:** ein im Audit gefundener Regel-**Widerspruch** muss
 nicht immer an Raphael eskaliert werden, wenn die **Betriebs-Empirie** (Logs, Git-Historie)

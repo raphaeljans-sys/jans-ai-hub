@@ -11,8 +11,9 @@ quelle: Energiegesetz (EnG, SR 730.0), Art. 46 "Energieverbrauch in Unternehmen"
   (sz.ch/.../energieberatung/grossverbraucher.html) via WebFetch ausgewertet
 herausgeber: Bundesamt für Energie (BFE) / Kanton Zürich (AWEL, Abteilung Energie) / Kanton Schwyz
   (Amt für Umwelt und Energie, AfU)
-ausgabe: EnG Stand 1.1.2026 (fedlex, konsolidierte Fassung); EnerG ZH Nachtrag vom 19.4.2021,
-  in Kraft seit 1.9.2022; kEnG SZ Fassung mit Änderung vom 24.6.2021, Stand konsolidiert;
+ausgabe: EnG Stand 1.1.2026 (fedlex, konsolidierte Fassung); EnerG ZH LS 730.1, konsolidierte
+  Fassung **Nachtrag 129** (Stand Publikation 1.7.2025) — §§ 13a/13d eingefügt durch G vom
+  19.4.2021, in Kraft seit 1.9.2022; kEnG SZ Fassung mit Änderung vom 24.6.2021, Stand konsolidiert;
   AWEL-/AfU-Praxisseiten Stand Abruf 25.07.2026
 gelesen: 2026-07-25
 datenstand: 2026-07-25 (EnG-Bundesebene 1.1.2026, ZH/SZ-Kantonalrecht wie oben, Praxisseiten

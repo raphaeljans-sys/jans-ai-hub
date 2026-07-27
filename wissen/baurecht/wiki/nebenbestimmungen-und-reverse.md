@@ -114,7 +114,11 @@ inhaltlich unverändert, nur die Nummer hat sich verschoben. Quelle: konsolidier
   Revers im Bauentscheid lässt sich mit diesem Raster sauber qualifizieren — und damit
   entscheiden, was **vor Baubeginn**, was **vor Arbeitsvergabe** und was **vor Inbetriebnahme**
   zu erfüllen ist. Eine «Bedingung vor Baubeginn» (Grundbuch-Eintrag) ist rechtlich eine
-  Auflage und blockiert die Baufreigabe **prozessual**, nicht die Gültigkeit.
+  Auflage und blockiert die Baufreigabe **prozessual** (§ 326 lit. a PBG), nicht die Gültigkeit.
+  Die operative Frist-Zuteilung führt `wissen/auflagebereinigung/wiki/fristenlogik-bauentscheid-zh`,
+  die Gewerk-/Planer-Zuteilung `wissen/auflagebereinigung/wiki/auflagentypen-gewerkzuteilung`.
+  Dieser Artikel ist ab dem 27.07.2026 auch der Adressat des Handoffs aus
+  [[bauausfuehrung-und-baukontrolle]] (zuvor zeigte er auf die Ausnahmebewilligungs-Linie).
 - **Risiko-Früherkennung (Skill `machbarkeit`):** Wenn ein Mangel nur über eine
   **konzeptionelle Überarbeitung** (Treppenhaus/Lift/Erschliessung) lösbar ist, droht
   **Bauverweigerung** statt Nebenbestimmung — das gehört in die Risikobeurteilung der Studie.

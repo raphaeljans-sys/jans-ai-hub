@@ -7,6 +7,41 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-27
 
+**Hub-Chef-Lauf (~21:35, verspaetet nachgeholt) — MIT Befund, Briefing versendet.** Der
+geplante 08:35-Lauf hat heute nicht stattgefunden. Signale vollstaendig eingesammelt
+(Fristen-Register + Logbuch 7-Tage-Horizont, `mail-vorfilter.sh 26` ueber alle Apple-Mail-Konten
+inkl. Posteingang/Gesendete, die relevanten Threads samt Bodies im Original geoeffnet, bexio
+`--verzug` + `--abgleich`, Kalender 8 Tage, Sync-/Remote-Queues, Entwurfsordner).
+**Kollision mit dem Radar sauber aufgeloest:** waehrend der Sammlung ist um 21:45 der
+Radar-Nachhol-Lauf (Fenster 65 h) dazwischengekommen und hat gebrieft. Der von mir zuvor
+festgestellte Zwei-Tages-Ausfall des Radars ist damit aufgeholt; die Ursache ist geklaert
+(erschoepftes Wochenlimit, nicht NAS-Mount). Mein Briefing wurde daraufhin auf die zwei
+Positionen zusammengestrichen, die der Radar NICHT abdeckt — keine Doppelmeldung.
+**Befund 1 (nur hier): KISPI BE 1171/26, Verfahrensweg fuer Auflage II.1.b geaendert.**
+M. Gantenbein (SRZ Brandschutzexperte, 27.07. 08:16, neue Adresse `markus.gantenbein2@zuerich.ch`)
+haelt fest, dass Auflagen und Baufreigabe der Feuerpolizei **nicht separat bei der Fachstelle**,
+sondern **innerhalb des Baubewilligungsverfahrens** abgehandelt und **mittels neuem Bauentscheid**
+eroeffnet werden, «sofern die neuen Brandschutzplaene mit eingereicht wurden». Das steht quer zur
+AfB-Auskunft vom 24.07. (Hottinger: fuer die weiteren Auflagen direkt an die zustaendige
+Fachstelle). RJ hat die Bedingung gleichentags selbst geschlossen: 17:10 den **unterzeichneten**
+Brandschutzplan und Bericht nachgereicht (zusaetzlich Upload im eBaugesuche-Stammprojekt).
+Status II.1.b: eingereicht und unterzeichnet, Ball bei SRZ; die Baufreigabe kommt neu ueber einen
+neuen Bauentscheid, die Terminfolge ist dadurch offen. Der Radar hat davon nur «bittet um Geduld»
+gemeldet.
+**Befund 2 (nur hier): vier fertige Entwuerfe liegen unversendet im Exchange-Postfach** —
+drei Fassungen der Prinzippläene-Rueckmeldung Los 274.01 an L. Bajrami (18.07. 09:03,
+21.07. 13:40/13:41, 24.07. 09:03) und der Nachfass Therapiekueche an T. Inniger (24.07. 09:04).
+Letzte belegte Mail an Bajrami: 17.07. 15:21. Die Vorbestellung ist auf 03.08. terminiert,
+Bajrami ist bis 11.08. abwesend. Der Entwurfsordner ist ein blinder Fleck des Radars.
+**Aktionen:** A5 — ein neuer Mail-Entwurf erstellt (Freigabe Tuerbuch/Sicherheitskonzept ueber
+die Vertretungen; An A. Spahic + D. Pfaeffli, Cc Kuebler/Ziegel/Hiltmann; SPOC-Governance
+gewahrt, kein Direktzugriff auf T. Haldemann), QS `rechtschreibung` gelb und `layout` gelb
+(Befunde eingearbeitet), twin-chef Fidelity 78 mit eingebauter Ueberarbeitung; liegt als Draft
+im Postfach, NICHT versendet. A4 — Fristen-Register und dieser Eintrag nachgefuehrt.
+**Guards:** A1 nicht qualifiziert (RE-00087 auf Mahnstufe 2 = nur Entwurf; RE-00098/99 bereits
+auf Stufe 1, Frist laeuft bis 03.08.); A2 nicht noetig (Termin 28.07. 11:30 steht bereits im
+Kalender). Keine Buchung, keine Zahlung, kein Versand ausser dem Briefing. Kein `git` ueber SMB.
+
 **Logbuch-Radar (Nachhol-Lauf 21:45, Fenster 65 h).** Der Morgenlauf 04:55 und der Lauf vom
 26.07. sind am erschoepften Wochenlimit gescheitert; dieser Lauf deckt darum 25.07. frueh bis
 27.07. abend ab. **Erledigt:** Geschirrspueler Saumstrasse 21 ist beschafft (MERX AG,

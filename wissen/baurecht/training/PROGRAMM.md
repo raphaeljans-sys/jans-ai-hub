@@ -113,6 +113,36 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **PRIORITÄT (a) NEU EINGESTELLT — Wissens-Chef Run 17 (2026-07-27), Cross-KB energie ↔ baurecht:
+    der WsG/WsV-Nachzug ist NICHT geschlossen.** Run 64 hat ihn als «bleibt geschlossen» verbucht;
+    gesweept wurde aber nur der Suchbegriff **«HWSchV»**. Das WsG hebt in § 126 **zwei** Erlasse auf:
+    «§ 126. Die nachstehenden Gesetze werden aufgehoben: a. **Einführungsgesetz zum
+    Gewässerschutzgesetz vom 8. Dezember 1974**, b. Wasserwirtschaftsgesetz vom 2. Juni 1991»
+    (Inkrafttreten Fn. 2: 1. Juni 2026; OS 81, 145). Der Chef hat § 126 und § 44 am amtlichen PDF
+    `724.1_12.12.24_133.pdf` (zhlex, Nachtrag 133) selbst gegengelesen — die Aufhebung des
+    **EG GSchG (LS 711.1)** ist damit belegt, die Zitate in dieser KB sind es nicht. **Auftrag:**
+    an allen Fundorten einen Aufhebungsvermerk + Nachfolgenorm setzen, den Buchtext (6. Aufl. 2019)
+    dabei quellentreu stehen lassen — genau das Muster des HWSchV-Nachzugs aus Run 48/50.
+    **Erledigt-Kriterium:** `grep -rniI "EG GSchG\|EGSchG\|711\.1"` über `wiki/`, `buecher/` und
+    `training/` liefert nur noch Stellen mit Aufhebungsvermerk.
+    **Offene Fundorte (Stand 27.07.2026, 15 von 17 — zwei sind bereits erledigt):**
+    `buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md` (7×) ·
+    `buecher/band-2/12-baureife-teil4-gebuehren-abfall-altlasten.md` (3×) ·
+    `buecher/band-1/02-nutzungsplanung-zonenarten-teil2.md` (2×) ·
+    `buecher/band-1/03-erschliessung-landsicherung-teil1.md` (1×) ·
+    `buecher/band-1/07-vorentscheid-auskuenfte-besondere-zustaendigkeiten.md` (1×) ·
+    `buecher/INDEX.md` · `wiki/INDEX.md` · `training/curriculum.md`.
+    **Bereits vom Chef erledigt:** `buecher/band-2/17-haustechnische-anlagen-teil3.md` (§ 8 → § 44
+    Abs. 1 lit. a WsG) und `wiki/baureife-und-erschliessung.md` (Fassungs-Warnung gesetzt).
+    **Bekannte §-Zuordnungen** (im Einzelnen noch zu verifizieren): § 8 → **§ 44 Abs. 1 lit. a WsG**
+    (Wortlaut geprüft: «die der Nutzung von Boden, Untergrund oder Abwasser zur Gewinnung von Energie
+    oder zur Kühlung dienen») · §§ 35/36 → §§ 45/46 WsG · § 52 Abs. 1 (Rekurs) → § 122 WsG ·
+    §§ 13 ff./15/45 (Kanalisationspflicht, Anschlussgebühren) → 3./4. Abschnitt WsG.
+    **Bring-Schuld separat:** Ist die **KGSchV (LS 711.11)** ebenfalls aufgehoben? § 126 WsG hebt nur
+    *Gesetze* auf; die Materie von § 35 KGSchV steht heute in § 92 WsV — das indiziert die Aufhebung,
+    belegt sie aber nicht. An zhlex LS 711.11 prüfen. **Drittkanal (andere KB, nur melden):**
+    `planungsgrundlagen/wiki/kartenportale-oereb-kataster-system-zh.md` Z. 32/34 führt «LS 711.1
+    §§ 3/34/37» als geltende ÖREB-Rechtsgrundlage der Themen 130/132 — dort mitzuziehen.
   - **Run 68 (2026-07-27, Festigungsmodus, Priorität (c) Erst-Verifikation, kein Agent-Fan-out):**
     [[enteignung-und-entschaedigung]] gewählt (letzter der beiden nie durch den Modell-D-Loop
     gelaufenen `emerging`-Artikel, von Run 67 empfohlen). Vollständiger Wortlautabgleich aller

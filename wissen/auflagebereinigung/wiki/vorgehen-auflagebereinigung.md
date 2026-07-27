@@ -18,6 +18,11 @@ Plan-/Dokumentenliste. Dieser Artikel ist die Anleitung, die der Skill
    (Ziffer, Wortlaut/Kurztext, Erwägungs-Bezug, Frist-Hinweis, Amt-Hinweis,
    SRZ-Marker). Auch die **Vorbemerkungen** (Ziff. II.1–3) — sie tragen Frist + Amt.
    → Agent `auflagen-extraktor`.
+   **Frist-Gate vor der Zuteilung:** je Auflage entscheiden, ob sie abgearbeitet **oder angefochten**
+   wird. Die Rekursfrist von 30 Tagen (§ 22 Abs. 1/2 VRG, Rekursinstanz § 329 Abs. 1 PBG) läuft
+   parallel und verwirkt (§ 316 Abs. 1 PBG); Verhandeln mit dem Amt hemmt sie nicht. Wer nur
+   bereinigt, akzeptiert. Siehe [[fristenlogik-bauentscheid-zh]], Abschnitt «Vorgelagert: die einzige
+   gesetzliche Frist». [Ergänzt Wissens-Chef Run 17, 27.07.2026]
 2. **Gewerk zuteilen** — jede Auflage einem Gewerk/Planer zuordnen (BRA/HLK/SAN/ELE/
    FKO/ARC/BAU) gemäss [[auflagentypen-gewerkzuteilung]] + Projekt-Adressliste; je
    Auflage die konkreten **Deliverables** benennen (eine Zeile pro Plan/Dokument).

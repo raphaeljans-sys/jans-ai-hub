@@ -1,15 +1,15 @@
 # Stations-Status: macbook-pro
 
-Stand: 27.07.2026 21:51:17
+Stand: 27.07.2026 22:11:45
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 21:50)
+- Developer/jans/ai/hub  (letzte Aktivitaet 21:52)
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 4 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 15 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- b1e1b37c twin-fidelity-review: 2026-07-27l (Korpus-Abschluss + Formalisierungs-Reflex behoben)
+- 7c5ed057 energie/QUESTIONS: Empfehlung zu Meta-Punkt M2 (eigener Skill energie) hinterlegt — ja, aber als Bauherren-Beratungs-Skill zugeschnitten; Entscheid bleibt bei Raphael

@@ -17,6 +17,19 @@ Destillaten. Der gemeinsame Nenner: **Abwärme, die heute über Dach weggekühlt
 gleichzeitig eine Rechtspflicht, eine Wärmequelle und eine Flächenkonkurrenz** — und alle drei
 Aspekte entscheiden sich früh, in der Vorprojektphase, nicht in der Ausführung.
 
+> **Querbezug zu den führenden KBs** [gesetzt Wissens-Chef Run 17, 27.07.2026 — dieser Artikel und
+> die vier zugehörigen Destillate hatten null Verweise nach aussen]:
+> - **ZH-Erlasswortlaut (§§-Nummern, Absätze, Fassungsstand) führt `baurecht`**, nicht diese KB:
+>   `wissen/baurecht/raw/260607_amtlich_zh_bbv1.md` (BBV I, LS 700.21) und
+>   `wissen/baurecht/raw/260712_amtlich_zh_energ.md` (EnerG, LS 730.1, Nachtrag 129). Die §§ 30a und
+>   13a/13d sind von dort zu zitieren und dürfen hier nicht materiell fortgeschrieben werden.
+>   Der Cross-Lauf hat die hiesigen §-Zitate am amtlichen Volltext gegengelesen — **alle bestätigt**,
+>   keine ZH/SZ-Verwechslung.
+> - **Nachweis-Verfahren, Formulare und EN-Nummern führt `planungsgrundlagen`**
+>   (`wiki/energie-energienachweis-zh-formulare`), diese KB die Fachphysik. Wo hier eine
+>   Anrechnungs- oder Nachweisregel entsteht (z. B. Duschwasser-WRG), gehört sie dorthin übergeben.
+> - **Norm-Fundstellen (SIA/VKF, Ziffer und Ausgabe) führt `normen`.**
+
 ## 1. Die Rechtspflicht ist zweistufig — und Zürich war Pionier
 
 | Stufe | Norm (Kt. ZH) | Inhalt |

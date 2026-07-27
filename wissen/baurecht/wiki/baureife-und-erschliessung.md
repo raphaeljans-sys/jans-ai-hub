@@ -236,7 +236,12 @@ Die zweite Hälfte der **technischen Erschliessung** (§ 236 Abs. 1 PBG; Bd 2 S.
   noch zu verifizieren. Belegquelle: raw/260712_amtlich_zh_energ.md, Z. 70-119, 261-300 —
   nachgeführt Wissens-Chef Run 9, 19.07.2026)
   und dem **Gebäudeprogramm** (Art. 45 EnG) → Schnittstelle Agent `energie-berater`.
-- **Abwasserbeseitigung:** bauliche Erstellung richtet sich nach **GSchG/EG GSchG**, nicht nach dem
+- **Abwasserbeseitigung:** bauliche Erstellung richtet sich nach **GSchG/EG GSchG** [Achtung
+  Fassungsstand, Wissens-Chef Run 17, 27.07.2026: das **EG GSchG (LS 711.1) ist per 01.06.2026
+  aufgehoben** — § 126 lit. a WsG (LS 724.1), am amtlichen Volltext `724.1_12.12.24_133.pdf`
+  gegengelesen. Nachfolge sind WsG + WsV (LS 724.11); die AWEL-Bewilligung für Wärme-/Energienutzung
+  aus Wasser und Abwasser steht neu in **§ 44 Abs. 1 lit. a WsG**. Der KB-weite Nachzug ist in
+  `training/PROGRAMM.md` und `wiki/QUESTIONS.md` angemeldet], nicht nach dem
   PBG. Im Bereich der öffentlichen Kanalisation besteht **Anschluss- und Beseitigungspflicht**
   (Art. 10/11 GSchG); eine **Baubewilligung** für Neu-/Umbauten ergeht nur bei gewährleisteter
   Abwasserbeseitigung — über die **Kanalisationsanschlussbewilligung** der Gemeinde (Art. 17 GSchG,

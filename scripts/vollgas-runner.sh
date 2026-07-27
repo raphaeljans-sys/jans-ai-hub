@@ -76,7 +76,21 @@ INCLUDE_RE='training|normen|twin|wettbewerb|spec|immob|synobsis|energie|planungs
 # `cron_target` in der SKILL.md-Frontmatter komplett und feuerte den Loop im
 # Minutenabstand statt 2x/Tag). Laeuft ab jetzt nur noch ueber den eigenen Scheduled
 # Task (cron_target "0 9,21 * * *"), analog den sechs bereits ausgeschlossenen Loops.
-EXCLUDE_RE='radar|chef|heartbeat|mahnwesen|zahlungsabgleich|hygiene|monitor|check|drosselung|messung|masterclass|woche|synobsis|grobkosten|twin|spec-training|wettbewerbs-dna|normen-training-nacht'
+# immob* 27.07.2026 aufgenommen (VOLLGAS-Chef-Radar, Leerlauf-Waechter): Raphael hat
+# `immobewertung-training` am 26.07. auf EREIGNIS-TRIGGER gestellt (Registry enabled:false,
+# naechster Lauf ueber den One-Time-Task `immobewertung-marktpuls-260901` am 01.09.2026).
+# BEIDE SKILL.md tragen aber KEIN `enabled: false` in der Frontmatter — der Runner prueft
+# nur die Frontmatter, nicht die Registry. Ohne diesen Ausschluss haette der naechste
+# Runner-Neustart den ereignisgetriggerten Loop wiederbelebt und den September-Einmal-Task
+# im Minutentakt abgefeuert (beim Neustart-Vorcheck simuliert und abgefangen).
+# baurecht-buch 27.07.2026 aufgenommen (Freigabe Raphael, Leerlauf-Bereinigung): der Loop
+# ist seit 17.07. bewusst auf WOECHENTLICH zurueckgetaktet (Festigungsmodus, Entscheid
+# Raphael, Mo 23:40). Der Runner fuhr ihn in JEDEM Zyklus, also rund stuendlich, und
+# unterlief damit die Taktentscheidung.
+# GRUNDSATZ ab 27.07.2026: ein Loop mit eigenem Scheduled Task und definiertem Takt gehoert
+# NICHT zusaetzlich in den Endlos-Zyklus — sonst laeuft er doppelt und ignoriert jede
+# Drosselung. Der Runner ist fuer Loops OHNE eigenen Takt da, nicht als zweiter Taktgeber.
+EXCLUDE_RE='radar|chef|heartbeat|mahnwesen|zahlungsabgleich|hygiene|monitor|check|drosselung|messung|masterclass|woche|synobsis|grobkosten|twin|spec-training|wettbewerbs-dna|normen-training-nacht|immob|baurecht-buch'
 
 mkdir -p "$NAS_DIR" 2>/dev/null || NAS_DIR="$HOME/.jans-vollgas-log"
 mkdir -p "$NAS_DIR"

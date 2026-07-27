@@ -1,8 +1,8 @@
 ---
 title: Fristenlogik Bauentscheid (ZH) — Einreichungszeitpunkte
 status: emerging
-last_updated: 2026-06-04
-sources: [Vorabzug Bauentscheid 2619-KISPI Stadt ZH Ziff. II.1–3, PBG §327, BVV §23]
+last_updated: 2026-07-27
+sources: [Vorabzug Bauentscheid 2619-KISPI Stadt ZH Ziff. II.1–3, PBG §327, BVV §23, § 22 VRG (LS 175.2, Nachtrag 133), PBG §§ 315/316/322/329/339]
 links: [[aemter-stadt-zuerich]], [[brandschutz-auflagen-qss]], [[vorgehen-auflagebereinigung]]
 ---
 
@@ -23,6 +23,39 @@ Plan-/Dokumentenliste.
 | **vor Ausführungsbeginn** | vor Start der Arbeiten am Gewerk | Anpassungskonzepte lufttechn. Anlagen, Abschottungen, GVZ-Projektunterlagen |
 | **vor Inbetriebnahme / feuerpol. Abnahme** | vor Nutzungsaufnahme | Übereinstimmungserklärung, nachgeführte BS-/Feuerwehrpläne, Integral-Test-Protokolle |
 | **während Bauzeit** | laufend auf der Baustelle | Luftreinhaltung, Bauabfall-Trennung, org. Brandschutz, Flucht-/Rettungswege frei |
+
+## Vorgelagert: die einzige gesetzliche Frist — 30 Tage Rekurs
+
+Die Zeitpunkte oben sind **Auflagen-Fristen aus dem Dispositiv**. Davor läuft eine Frist, die nicht
+im Bauentscheid steht und die diese KB bis zum 27.07.2026 nirgends geführt hat: die **Rekursfrist von
+30 Tagen**. «Der Rekurs ist innert 30 Tagen bei der Rekursinstanz schriftlich einzureichen»
+(§ 22 Abs. 1 VRG, LS 175.2, Fassung Nachtrag 133); der Fristenlauf beginnt **am Tag nach der
+Mitteilung** des angefochtenen Aktes (§ 22 Abs. 2 VRG). Angefochten wird **direkt beim
+Baurekursgericht** — «Anordnungen, die in Anwendung … dieses Gesetzes ergehen, können beim
+Baurekursgericht angefochten werden» (§ 329 Abs. 1 PBG); ein gemeindeinternes Einspracheverfahren
+gibt es nicht (§ 315 Abs. 3 PBG). Wer die Frist ungenutzt verstreichen lässt, hat das Rekursrecht
+**verwirkt** (§ 316 Abs. 1 PBG).
+
+**Daraus folgt die wichtigste Weiche der Auflagebereinigung:** Schritt 1 ist nicht das Zuteilen,
+sondern der Entscheid je Auflage — **abarbeiten ODER anfechten**. Wer eine Auflage nur «bereinigt»,
+akzeptiert sie faktisch; die 30 Tage laufen parallel weiter. **Verhandeln mit dem Amt oder ein
+Wiedererwägungsgesuch hemmt die Rekursfrist nicht** — bei Bedarf parallel fristwahrend rekurrieren.
+
+Ein hängiges Rechtsmittel hemmt den Bau grundsätzlich («Dem Lauf der Rekursfrist und der Einreichung
+des Rekurses kommt aufschiebende Wirkung zu», § 25 Abs. 1 VRG), aber nur beschränkt: «Rechtsmittel
+gegen eine baurechtliche Bewilligung hindern den Baubeginn und den Baufortgang nur soweit, als der
+Ausgang des Verfahrens die Bauausführung beeinflussen kann» (§ 339 Abs. 1 PBG) — eine **Teilfreigabe**
+durch den Präsidenten der Rekursinstanz ist möglich (§ 339 Abs. 2 PBG). In diesem Zustand ist die
+Spalte «vor Baubeginn» gegen den freigegebenen Teil zu lesen, nicht gegen das Gesamtprojekt.
+
+Zweite gesetzliche Frist, die hier ebenfalls gefehlt hat: baurechtliche Bewilligungen **erlöschen
+nach drei Jahren**, wenn nicht vorher mit der Ausführung begonnen worden ist (§ 322 Abs. 1 PBG; bei
+mehreren Bewilligungen ist die letzte massgeblich, Abs. 2).
+
+Führend für alles in diesem Abschnitt: `wissen/baurecht/wiki/rechtsschutz-und-rechtsmittelverfahren`
+(status `established`, gegen VRG-Nachtrag 133 verifiziert). [Ergänzt durch Wissens-Chef Run 17,
+27.07.2026 — ein grep über die ganze KB nach «Rechtsmittel», «anfechten», «Anfechtung» und
+«Rechtsschutz» lieferte zuvor **null** Treffer.]
 
 > **Querbezug KB baurecht (Rechtsgrundlage):** Die **Rechtsnatur** jeder Auflage
 > (Auflage/Bedingung/Befristung/Revers, § 321 PBG; im Zweifel Auflage) führt

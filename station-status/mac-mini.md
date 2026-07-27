@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 27.07.2026 21:43:57
+Stand: 27.07.2026 22:14:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 21:36)
+- /  (letzte Aktivitaet 21:52)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 27.07.2026 21:43:57
 - 15 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 5e99a5af spec-training Lauf 37: Scheduling-Diskrepanz aufgeloest (Registry 1x/Tag, 25.07.-Haeufung vom Vollgas-Runner); Ereignis-Trigger-Entscheid 26.07. nur halb wirksam (Registry enabled, launchd Exit 78); P1-Vorhersage bestaetigt
+- 7c5ed057 energie/QUESTIONS: Empfehlung zu Meta-Punkt M2 (eigener Skill energie) hinterlegt — ja, aber als Bauherren-Beratungs-Skill zugeschnitten; Entscheid bleibt bei Raphael

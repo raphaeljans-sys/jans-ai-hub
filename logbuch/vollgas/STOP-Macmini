@@ -1,0 +1,26 @@
+STOP fuer den Endlos-Runner auf dem Mac Mini — gesetzt 27.07.2026 22:15
+(Freigabe Raphael, Leerlauf-Bereinigung nach dem 35-Stunden-Totalausfall).
+
+GRUND: Der Mini-Runner hatte nichts mehr zu tun und meldete seit Stunden im
+Zehn-Minuten-Takt «Keine Trainings-Tasks gefunden unter ~/.claude/scheduled-tasks».
+Ursache verifiziert: saemtliche Trainings-Tasks auf dem Mac Mini tragen
+`enabled: false` in der SKILL.md-Frontmatter und werden vom Runner (Zeile 131)
+korrekt uebersprungen:
+
+  baurecht-buch-training      enabled: false
+  energie-training            enabled: false
+  normen-training-mini        enabled: false
+  planungsgrundlagen-training enabled: false
+  synobsis-batch-nacht        enabled: false  (zusaetzlich in EXCLUDE_RE)
+  grobkosten-training         in EXCLUDE_RE
+  claude-abo-auslastung       erfuellt INCLUDE_RE nicht
+
+Damit bleibt die Task-Liste leer, und der Prozess drehte endlos leer. Er verbrauchte
+dabei keine Tokens, verschleierte aber, dass der Mac Mini nichts mehr beitraegt.
+
+DIESE DATEI ENTFERNEN, sobald auf dem Mac Mini wieder mindestens ein Trainings-Loop
+aktiv geschaltet ist (Frontmatter `enabled: true`). Danach:
+  ssh mini 'nohup bash /Volumes/daten/jans-ai-hub/scripts/vollgas-runner.sh >/dev/null 2>&1 &'
+
+Der Mac Mini traegt weiterhin ueber seine App-Scheduled-Tasks bei; nur der
+Endlos-Runner ruht.

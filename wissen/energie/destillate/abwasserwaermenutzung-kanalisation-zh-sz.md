@@ -91,7 +91,8 @@ unterschiedlicher Bewilligungspflicht:
   (Bagatellgrenze, Quelle: AWEL-Leitfaden 2010, S. 25).
 - **AEN nach der ARA** (aus dem gereinigten Abwasser im ARA-Auslauf): grösstes nutzbares
   Energieangebot, da die zulässige Temperaturabsenkung dort am höchsten ist. **Ebenfalls
-  gewässerschutzrechtliche Bewilligung durch das AWEL zwingend** (§ EGSchG, § 44 WsG); zusätzlich
+  gewässerschutzrechtliche Bewilligung durch das AWEL zwingend** (§ 44 Abs. 1 lit. a WsG; bis
+  31.05.2026 § 8 EG GSchG, aufgehoben); zusätzlich
   in der Regel eine fischereirechtliche Bewilligung, bei neuer Einleitungsstelle mit
   Leitungsdurchmesser > 200 mm auch eine wasserbaupolizeiliche Bewilligung (Quelle: AWEL-Leitfaden
   2010, S. 33).
@@ -162,15 +163,26 @@ aber ökologisch heikler und bei Neubauten an die Einhaltung des Minergie-Standa
   **Sektion Siedlungsentwässerung** für Fragen der ARA-Reinigungsleistung und die **Abteilung
   Ufer- und Gewässernutzung (UGN)** für die gewässerschutzrechtliche Bewilligung; Baubewilligung
   läuft über die Gemeinde, die das AWEL im Verfahren einbezieht (AWEL-Planungshilfe 2025, S. 6).
-- **Gesetzesgrundlage**: **§ 8 EG GSchG** (Einführungsgesetz zum Gewässerschutzgesetz, LS 711.1) —
-  laut AWEL-Leitfaden 2010, S. 22: Projekte, die die Wassergüte beeinträchtigen oder die
-  Wassermenge eines Gewässers verändern könnten, sind durch das AWEL zu bewilligen. Die
-  AWEL-Planungshilfe 2025 zitiert für die Bewilligung der Nutzung des gereinigten Abwassers
-  zusätzlich **§ 44 WsG** (kantonales Wassergesetz) — das neue Wassergesetz war laut Glossar der
-  Planungshilfe 2025 **per 2025 zum Inkrafttreten vorgesehen** und ersetzt sowohl das EGSchG als
-  auch das kantonale Wasserwirtschaftsgesetz (WWG, LS 724.11). **Offener Punkt:** Ob das WsG per
-  Stand Juli 2026 tatsächlich bereits in Kraft ist, wurde in dieser Recherche nicht separat
-  verifiziert.
+- **Gesetzesgrundlage (Stand 27.07.2026, am amtlichen Volltext verifiziert)**: **§ 44 Abs. 1 lit. a
+  WsG** (Wassergesetz vom 12.12.2022, LS 724.1, in Kraft seit **1. Juni 2026**, Fassung Nachtrag 133):
+  «Die Direktion bewilligt a. die Errichtung und Änderung von Bauten und Anlagen, 1. deren Nutzung
+  die Qualität des Wassers beeinträchtigen oder die Wassermenge eines Gewässers verändern kann, …
+  3. die der Nutzung von Boden, Untergrund oder Abwasser zur Gewinnung von Energie oder zur Kühlung
+  dienen». Die **Abwasserenergienutzung ist damit neu ausdrücklich erfasst**; die Bewilligung kann
+  befristet und mit Bedingungen oder Auflagen verbunden werden (§ 44 Abs. 2 WsG).
+- **Historisch (bis 31.05.2026)**: § 8 EG GSchG (Einführungsgesetz zum Gewässerschutzgesetz vom
+  8.12.1974, LS 711.1) — laut AWEL-Leitfaden 2010, S. 22. Dieser Erlass ist per **1. Juni 2026
+  aufgehoben**: «§ 126. Die nachstehenden Gesetze werden aufgehoben: a. Einführungsgesetz zum
+  Gewässerschutzgesetz vom 8. Dezember 1974, b. Wasserwirtschaftsgesetz vom 2. Juni 1991»
+  (WsG, 6. Abschnitt Schlussbestimmungen; Inkrafttreten Fn. 2, OS 81, 145). **In Bewilligungsgesuchen
+  und Behördenkorrespondenz ist ab sofort § 44 Abs. 1 lit. a WsG zu zitieren, nicht mehr § 8 EG GSchG.**
+  [Wissens-Chef Run 17, 27.07.2026: Der zuvor hier stehende «Offene Punkt» zum Inkrafttreten des WsG
+  ist **erledigt**. Der Verifikations-Agent hat das amtliche PDF `724.1_12.12.24_133.pdf` (zhlex)
+  gezogen, der Chef hat §§ 44 und 126 sowie die Inkrafttretens-Fussnote am Volltext gegengelesen.
+  Die Glossar-Aussage der AWEL-Planungshilfe 2025, das WsG ersetze EG GSchG **und** WWG, ist damit
+  **bestätigt** — sie war hier zu Recht vermerkt, aber ungeprüft. Führend für den ZH-Erlassstand
+  bleibt `wissen/baurecht`; dort läuft der KB-weite Nachzug (`baurecht/wiki/QUESTIONS.md` und
+  `baurecht/training/PROGRAMM.md`, Eintrag 27.07.2026).]
 - **Nutzungsvereinbarung**: Zusätzlich zur Bewilligung braucht es zwingend eine
   **Nutzungsvereinbarung** zwischen Kanalisations-/ARA-Inhaber und Nutzer (Rechte/Pflichten bei
   Bau, Betrieb, Unterhalt, Rückbau, Haftung). Vergabe der Wärmeleistungskontingente in der Regel
@@ -403,9 +415,14 @@ Zürich bedeutet dieser Rechercheausstand konkret:
   amtlichen Quelle gefunden** — nur die historische (2013) Fördervoraussetzung JAZ ≥ 4/≥ 3.
   Nächster Ansatzpunkt: Wärmepumpen-Testzentrum Buchs (WPZ) oder ein Hersteller-Datenblatt einer
   konkreten Abwasserwärmepumpe (z.B. Rabtherm, Huber SE, FEKA Energiesysteme).
-  Ob und wie das Wassergesetz (WsG) des Kantons Zürich per Stand Juli 2026 tatsächlich bereits in
-  Kraft getreten ist (die Planungshilfe 2025 nennt «Inkrafttreten im Jahr 2025 vorgesehen»)
-  wurde nicht separat verifiziert.
+- **ERLEDIGT 27.07.2026 (Wissens-Chef Run 17):** Der frühere offene Punkt «Ob und wie das
+  Wassergesetz (WsG) per Stand Juli 2026 tatsächlich in Kraft getreten ist» ist am amtlichen
+  Volltext beantwortet — **in Kraft seit 1. Juni 2026** (Fn. 2, OS 81, 145), und § 126 lit. a hebt
+  das EG GSchG auf. Siehe Abschnitt «Gesetzesgrundlage».
+- **Neu, enger gefasst:** Ob die **KGSchV** (Kantonale Gewässerschutzverordnung, LS 711.11) ebenfalls
+  aufgehoben wurde, ist im Hub-Bestand **nicht** belegt — § 126 WsG hebt nur *Gesetze* auf. Die
+  Materie von § 35 KGSchV steht heute in § 92 WsV, was die Aufhebung indiziert, aber nicht beweist.
+  Vor Verwendung in einer Bewilligungsabklärung an zhlex LS 711.11 prüfen.
 - **EnerGIS Stadt Zürich**: Layername/Bedienung für die Abwasserwärme-Darstellung wurde nicht im
   Detail geprüft (Seiten-Fetch trunkiert) — für eine konkrete Adressabfrage direkt auf
   `stadt-zuerich.ch/energis/` nachschauen.

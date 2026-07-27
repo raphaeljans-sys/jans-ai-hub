@@ -818,10 +818,26 @@ Feuerwiderstandsklassen möglich, aber Bauteile mit dem Zusatz **«RF1»** (= da
 Ganzes verhält sich wie nicht brennbar) sind **beschränkt auf REI 30-RF1, REI 60-RF1 und
 REI 90-RF1** — für die höheren Klassen REI 120/180/240 sind reine Holzkonstruktionen (mit RF1-
 Bekleidung) laut dieser Publikation **nicht vorgesehen**. Mehrschichtige Bauteile mit brennbaren
-Anteilen gelten als RF1, wenn der brennbare Anteil vollständig mit RF1-Baustoffen gekapselt ist:
-minimaler Feuerwiderstand der Kapselung **K beträgt 30 Minuten**, mindestens jedoch **K30-RF1**
-und **mindestens 30 Minuten weniger als der Feuerwiderstand des Gesamtbauteils** — Zwischenräume
-sind mit RF1-Baustoffen **hohlraumfrei** zu füllen.
+Anteilen entsprechen als Gesamtkonstruktion RF1, wenn das Bauteil allseitig mit Baustoffen der RF1
+gekapselt ist. Der minimale Feuerwiderstand K der Kapselung beträgt **30 Minuten weniger als der
+Feuerwiderstand des gesamten Bauteils, jedoch mindestens K30-RF1** — also K30-RF1 bei
+R/EI/REI 30-RF1 UND bei R/EI/REI 60-RF1, **K60-RF1 ab R/EI/REI 90-RF1** (Tab. 232-2). Bei
+R/EI/REI 120/180/240-RF1 besteht das Bauteil vollständig aus Baustoffen der RF1, ein brennbarer
+Kern ist dort nicht mehr zulässig. Zwischenräume sind mit RF1-Baustoffen **hohlraumfrei** zu füllen.
+
+> **K ist ein Rechenwert nach unten, kein fixer Wert.** [Korrektur Wissens-Chef Run 17, 27.07.2026]
+> Hier stand bis zum 27.07.2026 «K beträgt 30 Minuten, mindestens jedoch K30-RF1 und mindestens
+> 30 Minuten weniger als der Feuerwiderstand des Gesamtbauteils». Das kehrte die Regel um: K erschien
+> als fixe 30 Minuten mit der Differenz als blosser Obergrenze — womit bei einem **REI 90-RF1**-Bauteil
+> eine Bekleidung **K30-RF1** zulässig ausgesehen hätte, obwohl Tab. 232-2 dort zwingend **K60-RF1**
+> verlangt. Das ist keine Formulierungsunschärfe, sondern eine unterdimensionierte Brandschutz-
+> bekleidung, die aus einem Vorprojekt-Grobcheck direkt in eine Ausschreibungsklausel oder ein
+> Brandschutzkonzept wandern kann. Massgeblich für Wortlaut und Tabellenwerte ist die führende KB
+> `normen`: `wissen/normen/destillate/lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md`
+> (Kap. 2.3 / Tab. 232-2, S. 7-9; bestätigt in Kap. 5.1 / Abb. 510-1, S. 58 — Mindestanforderung
+> K30-RF1 für 30/60 Min., K60-RF1 für 90 Min.), sechsfach refuter-verifiziert gegen den
+> 300-dpi-Originalscan. Die hiesige Fassung stammte aus Run 24 (13.07.2026) und war nie am Original
+> gegengelesen.
 
 **Bekleidungstypen (Ziff. 2.4) — drei Register, nicht verwechseln:**
 
@@ -1216,11 +1232,24 @@ Geschossen nur mit **anerkanntem Fachingenieur** und **Brandschutzkonzept vor Ba
 erstellt werden; das ausführende Unternehmen braucht ein Qualitätssicherungssystem — eine
 zusätzliche Verfahrensauflage neben der reinen Bauteil-Klassierung.
 
-**JANS-Praxisrelevanz:** Bei jedem Holzbau-Projekt (Vorprojekt-Grobcheck analog §4b, aber
-holzbau-scharf) direkt Tabelle 3 dieser Quelle statt der generischen VKF-BSR-Tabelle konsultieren
-— sie beantwortet zugleich, ob **Standardkonzept** (Holzbauweise als Bauteil-Standardlösung,
-blau markiert) oder **Objektbezogenes Konzept** (Art. 11 Brandschutznorm, nur mit Nachweis der
-Gleichwertigkeit) nötig ist.
+**⚠ JANS-Praxisrelevanz — Datenstand beachten** [korrigiert Wissens-Chef Run 17, 27.07.2026]:
+Die Publikation ist **Lignatec 17/2005** (Lignum, Juni 2005); die TKB-VKF-Anerkennung bezieht sich
+auf die **VKF-Ausgabe 2003**, also zwei Vorschriftengenerationen vor dem heute geltenden **BSV 2015**
+(mit den Revisionen 2017/2022), das dieser Wegweiser in §1 selbst als geltend führt. Die Tabelle 3
+ist deshalb **nicht** als Ersatz für die geltende VKF-BSR-Tabelle zu verwenden — massgeblich bleiben
+**BSR 15-15** (§4b) und die **AH 1001-15**; Tabelle 3 dient als holzbau-spezifische Lesehilfe und
+Plausibilisierung. Sie beantwortet dabei zugleich, ob **Standardkonzept** (Holzbauweise als
+Bauteil-Standardlösung, blau markiert) oder **Objektbezogenes Konzept** (Art. 11 Brandschutznorm,
+nur mit Nachweis der Gleichwertigkeit) nötig ist. Fassungsstand und Vorbehalt führt die dafür
+zuständige KB: `wissen/normen/destillate/lignum-lignatec-brandschutz.md` (dort seit dem 26.07.2026
+ausdrücklich als «VERALTET gegenüber der aktuellen VKF-Vorschriftengeneration 2015» gekennzeichnet).
+
+> Hier stand bis zum 27.07.2026 die gegenläufige Anweisung, «direkt Tabelle 3 dieser Quelle **statt**
+> der generischen VKF-BSR-Tabelle» zu konsultieren — ohne Ausgabenummer, ohne Erscheinungsjahr und
+> ohne Vorbehalt. Die daraus abgeleiteten Healthcare-Aussagen (Beherbergung [a] durchgängig
+> R60(nbb)/EI60(nbb), keine Sprinkler-Reduktion) bleiben belastbar, aber **nur weil §4b sie
+> unabhängig aus der geltenden BSR 15-15 belegt** — als eigenständige Quelle trägt die 2005er-Tabelle
+> sie nicht.
 
 ---
 
@@ -2306,8 +2335,27 @@ JANS-Vorprojekte:**
   sieben Systeme — einseitig/beidseitig beplankte Ständerkonstruktionen (mit/ohne Dämmung),
   Fachwerkwände (Riegelwände, Ausfachung Mauerwerk oder Holzwolle-Leichtbauplatten),
   Brettstapelwände, Blockbauwände, Wände aus mehrlagigen Massivholzplatten, Wände aus
-  Holzwerkstoffplatten. Tragende Lastannahme durchgehend **q'd = 20 kN/m' (30 Min.) bzw.
-  50 kN/m' (60/90 Min.)** je lfm Wand.
+  Holzwerkstoffplatten. Tragende Lastannahme **je Systemtyp, nicht je Feuerwiderstandsklasse**
+  (jeweils vertikale, zentrisch eingeleitete Last q'd,fi je lfm Wand, Wandhöhe max. 3 m):
+  beplankte Ständerkonstruktionen 20 kN/m' (30 Min.) bzw. 50 kN/m' (60 und 90 Min.);
+  **Brettstapelwände 70 kN/m'** für 30 UND 60 Min. (Tab. 444-1); **Blockbauwände 20 kN/m'**
+  für 30 UND 60 Min. (Tab. 445-1/445-2); Wände aus mehrlagigen Massivholzplatten 50 kN/m'
+  (Tab. 446-1/2/3). Für Fachwerkwände (Tab. 443-1) und Wände aus Holzwerkstoffplatten
+  (Tab. 447-1) nennt das Original keine Traglastannahme. Ebenfalls nicht durchgehend: **90-Minuten-
+  Tabellen bestehen nur für Ständerkonstruktionen und mehrlagige Massivholzplatten** — Brettstapel-
+  und Blockbauwände sind nur bis 60 Min., Holzwerkstoffplattenwände nur bis EI60 und Fachwerkwände
+  nur bis 30 Min. tabelliert (60 Min. dort nur über Einzelfall-Nachweis). Werte je Tabelle:
+  `wissen/normen/destillate/lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md` (Kap. 4.4).
+  [Korrektur Wissens-Chef Run 17, 27.07.2026 — hier stand «Tragende Lastannahme durchgehend
+  q'd = 20 kN/m' (30 Min.) bzw. 50 kN/m' (60/90 Min.)». Das galt nur für **ein** der sieben Systeme
+  (beplankte Ständerkonstruktionen) und lief in beide Richtungen falsch: bei Blockbauwänden wurden
+  im 60-Minuten-Bereich 50 statt der zulässigen 20 kN/m' unterstellt (**unsichere Überschätzung**),
+  bei Brettstapelwänden 20 statt 70 kN/m' (unnötig konservativ, verteuert den Vorentwurf). Der
+  Absatz ist ausdrücklich als Grundlage für die Vorprojekt-Dimensionierung ohne Beizug eines
+  Holzbauingenieurs deklariert — also genau die Stelle, an der die Zahl in Kubatur und Kosten
+  wandert. Die führende KB `normen` führt den Punkt seit Refuter-Runde 31 ausdrücklich als
+  korrigiert («Traglast je Systemtyp statt je Klasse»); Bildprüfung am Original S. 46-51 durch den
+  Verifikations-Agenten am 27.07.2026.]
 - **Abbrandbemessung (Kap. 4.5):** drei Nachweiswege — während der gesamten Branddauer
   ungeschützte Holzbauteile (Abbrandrate nach SIA 265), anfänglich geschützte Bauteile
   (höhere Abbrandrate NACH Versagen der Bekleidung/Brandschutzplatte), Stahlbauteile mit

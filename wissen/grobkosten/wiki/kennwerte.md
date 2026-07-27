@@ -9,6 +9,20 @@ links: []
 # Grobkosten-Kennwerte (CHF/m³ GV, BKP 1–5)
 
 Quelle der Wahrheit für den Skill `grobkosten-onepager` und den Agenten `grobkosten-rechner`.
+
+> **Abnehmer dieser Kennwerte — bei jeder Bandänderung mitziehen** [gesetzt Wissens-Chef Run 17,
+> 27.07.2026; zuvor null Treffer für «entwurfs-referenzen», «parameter-set» und «wettbewerbs-dna»
+> im ganzen Wiki dieser KB]:
+> - `wissen/entwurfs-referenzen/wiki/parameter-sets/wohnen-mfh-urban.json` (v2.0 seit 27.07.2026)
+>   zeigt im Feld `quelle_kb` auf diese KB — für den **Wohnbau** ist das korrekt, hier ist
+>   `grobkosten` führend.
+> - `wissen/wettbewerbs-dna/wiki/muster/kennwerte-wohnungsbau.md` (Etappe-3-Baustein B5).
+>
+> **Abgrenzung, die nicht verwischt werden darf:** Für **Healthcare** ist diese KB ausdrücklich
+> **nicht** führend — dort gilt `wissen/immobilienbewertung/wiki/realwert-sachwert.md`
+> (826–1'420 CHF/m³ GV, Median ~1'100; das oft zitierte Teilband 1'053–1'420 betrifft nur die sechs
+> Neubauten ab 2019). Für **CHF/m² HNF** führt ebenfalls `immobilienbewertung` (Wüest-Ausbaustandard-
+> Tabelle), für den **Wüest-Benchmark** (Median/Quantile) `skills/kostenschaetzung/referenzen/`.
 Bezug: **Gebäudevolumen GV nach SIA 416** (inkl. Untergeschoss), **BKP 1–5** (Gebäude, Umgebung,
 Baunebenkosten inkl. Planerhonorare), **exkl. Land (BKP 0) und Reserven/Finanzierung (BKP 6–9)**.
 Region Zürich / Zentralschweiz. Preisstand 2026. Immer als Grobschätzung ±25 % verwenden.

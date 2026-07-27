@@ -760,6 +760,28 @@ ETH Zürich.
 
 ## JANS-Praxis-Transfer
 
+> **Querbezug KB `planungsgrundlagen` — Abnehmer dieses Destillats** [gesetzt Wissens-Chef Run 17,
+> 27.07.2026]. `wissen/planungsgrundlagen/wiki/brandschutz-pl03-wegweiser` (PL-03-Wegweiser) fasst
+> diese Publikation für den Vorprojekt-Grobcheck zusammen. **Rollentrennung: dieses Destillat führt
+> Wortlaut, Ziffern und Tabellenwerte; der Wegweiser zieht sie nur und darf sie nicht materiell
+> fortschreiben** (Rule `normen-referenz`). Der Cross-Lauf vom 27.07.2026 hat dort **zwei
+> Abweichungen** gefunden, die genau aus dieser fehlenden Verbindung entstanden waren und
+> korrigiert wurden:
+> - **Kapselungsregel (Kap. 2.3 / Tab. 232-2):** der Wegweiser führte K als fixe 30 Minuten mit der
+>   Differenz als blosser Obergrenze — womit bei REI 90-RF1 eine Bekleidung K30-RF1 zulässig
+>   ausgesehen hätte statt der verlangten **K60-RF1**. K ist ein Rechenwert nach unten
+>   (Gesamtbauteil minus 30 Min., Untergrenze K30-RF1).
+> - **Traglastannahme q'd,fi (Kap. 4.4):** der Wegweiser generalisierte 20/50 kN/m' «durchgehend»
+>   je Feuerwiderstandsklasse; die Tabellen bemessen **je Systemtyp** (Brettstapel 70, Blockbau 20,
+>   Massivholzplatten 50 kN/m'). Derselbe Fehler, den die Refuter-Runde 31 hier bereits als
+>   «Traglast je Systemtyp statt je Klasse» korrigiert hatte — er lief in der Abnehmer-KB
+>   unbemerkt weiter.
+>
+> **Konsequenz für künftige Korrekturen an diesem Destillat:** eine Änderung an Tab. 232-2 oder an
+> den Traglasttabellen des Kap. 4.4 muss im PL-03-Wegweiser nachgezogen werden. Weitere Abnehmer:
+> `wissen/auflagebereinigung/wiki/brandschutz-auflagen-qss` (Auflagen-Ebene) und der Skill
+> `brandschutz`.
+
 - **brandschutz / ausschreibung**: Kernreferenz für Holzbau-Projekte mit
   Feuerwiderstandsanforderung an Decken/Wände (Wohn-, Schul-, Healthcare-Bau in
   Holzbauweise) — die Katalogtabellen (Kap. 4.3/4.4, RF1-Pendant Kap. 5.3/5.4) liefern
