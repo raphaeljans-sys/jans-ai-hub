@@ -144,6 +144,7 @@ Inputs, Ablage) steht dort und laedt beim Aufruf; hier nur der Zweck-Einzeiler.
 | `marketing` | LinkedIn-Harness, orchestriert die drei linkedin-Agenten |
 | `korrektur` | QS-Pflicht vor JEDER Ausgabe: `rechtschreibung` + `layout` parallel |
 | `wissenscheck` | KB-Audit in 7 Pruefungen (Phase 1 unbeaufsichtigt, Phase 2 interaktiv) |
+| `wissens-destillat` | NAS-Archiv nach Spec-Methode ins Wiki destillieren; Modell je Phase (bash/Haiku/Sonnet/Opus) |
 | `machbarkeit` | Machbarkeits-/Potenzialstudien Typ A (Volumen/Baurecht) + B (Wirtschaftlichkeit) |
 | `stockwerkeigentum` | STWEG: Wertquoten, Begruendung, Reglement (ZGB 712a ff.) |
 | `ankaufspruefung` | TDD vor Liegenschaftskauf, CapEx-Fahrplan nach BKP |
