@@ -4,6 +4,17 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-27 — `twin-fidelity-review` (Runde 260727i, neunter Lauf des Tages, Material
+  erschoepft).** Vor dem Goldproben-Schritt empirisch geprueft: `rj@raphaeljans.ch` Sent Items
+  seit Sweep-Endpunkt 15:10:53Z leer, `mail@raphaeljans.ch` seit 2026-07-17T06:10:17Z nur die
+  bereits destillierte Kovacs-Mail. Kompiliertes `rules/jans-dna.md` per Probe-Lauf
+  `build_dna.py` als bereits aktuell bestaetigt (kein Compile-Drift trotz Tages-Edits an
+  `stimme.md`/`haltung.md`/`beziehungsregister.md`/`fachsignatur.md`/`arbeitsweise.md`). Kein
+  Blindtest gegen wiederverwendetes Material, keine neuen QUESTIONS, keine Rekompilierung.
+  Report `outputs/2026-07-27i_fidelity_material-erschoepft.md` liefert den empirischen Beleg fuer
+  die bereits in 260727g/h vermutete abnehmende Grenznutzen-Beobachtung und wiederholt die
+  Empfehlung, den Fidelity-Takt auf 1x/Tag zurueckzufahren (Entscheid bleibt bei Raphael).
+
 - **2026-07-27 — `twin-mail-training` (Batch 77, Bookkeeping-Korrektur).** rj@-Strang seit
   15:10:54 Uhr leer bestaetigt. Mail@-Zweitstrang ab 2026-06-11 gepullt: 3 fachliche Treffer
   (Gruner/Duran-Statusfrage 12.06., UBS/Jeckelmann-Kapitaleinzahlung 27.06., Stadt-ZH/Kovacs-
