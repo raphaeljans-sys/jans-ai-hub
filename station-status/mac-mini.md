@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 27.07.2026 22:14:11
+Stand: 27.07.2026 22:24:14
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- /  (letzte Aktivitaet 21:52)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 27.07.2026 22:14:11
 - 15 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 7c5ed057 energie/QUESTIONS: Empfehlung zu Meta-Punkt M2 (eigener Skill energie) hinterlegt — ja, aber als Bauherren-Beratungs-Skill zugeschnitten; Entscheid bleibt bei Raphael
+- 932ebf92 wissens-chef Run 17: Cross-KB-Konsistenz — 8 bestaetigt (5 materiell), 2 widerlegt; Brandschutz-Kapselung K60-RF1 + Wandtraglast je Systemtyp korrigiert, EG GSchG als aufgehoben belegt (baurecht-Nachzug eroeffnet), Rekursfrist 30 Tage in auflagebereinigung ergaenzt
