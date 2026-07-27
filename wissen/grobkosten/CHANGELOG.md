@@ -1,5 +1,18 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-27 — Trainings-Run 15 (kein neuer Kennwert, vierter Sättigungsbeleg in Folge — Taktungshinweis)
+
+- Kollisionscheck via `ps`/`PPID`: einziger Treffer die eigene Prozessinstanz. Lauf begann
+  nur ~2 Min. nach dem Run-14-Commit (13:15:01 Uhr) — Empfehlung aus Run 14 ("kein weiterer
+  Sweep in unmittelbarer zeitlicher Nähe") befolgt, kein Bibliotheks-/Formel-/Ereignis-
+  Trigger-Sweep wiederholt.
+- Keine Registeränderung an `wiki/kennwerte.md`, `training/quellen-inventar.md` oder `raw/`
+  (inhaltlich identisch zu Run 14). Einziger neuer Punkt: die Taktungs-Beobachtung selbst —
+  der Scheduled Task feuert (via VOLLGAS-Runner) seit heute Mittag im Minutenabstand statt
+  gemäss `cron_target` 2x täglich; vier aufeinanderfolgende Läufe (12–15) ohne neuen
+  Kennwert bestätigen die in Run 12 festgestellte Sättigung. Details/Empfehlung:
+  `outputs/2026-07-27_grobkosten-run15.md`.
+
 ## 2026-07-27 — Trainings-Run 14 (Frage-1-Formelbefund an der projekteigenen Wald-Exceldatei bestätigt)
 
 - Kollisionscheck via `ps`/`PPID`: einziger Treffer die eigene Prozessinstanz (Lauf begann

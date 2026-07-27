@@ -2,6 +2,18 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-07-27 — Trainings-Run 15: kein neuer Kennwert, vierter Sättigungsbeleg in Folge (Run 12–15) — Taktungshinweis statt Inhaltsfrage
+
+- Lauf begann ~2 Min. nach dem Run-14-Commit; Empfehlung aus Run 14 (kein Sweep in
+  unmittelbarer zeitlicher Nähe) befolgt. Keine neue Inhaltsfrage — Frage 1/2 bleiben wie in
+  Run 12–14 beschrieben nur durch Raphael Jans direkt oder neues Material lösbar.
+- **Einziger neuer Punkt:** Beobachtung zur Taktung selbst. Der Scheduled Task
+  (`cron_target: "0 9,21 * * *"`) feuert seit heute Mittag über den VOLLGAS-Runner im
+  Minutenabstand statt 2x täglich; vier Läufe in Folge (12–15) ohne neuen Kennwert. Empfehlung
+  an `vollgas-chef-radar`/Raphael: diesen Loop jetzt auf den Ereignis-Trigger zurücktakten
+  (siehe `training/PROGRAMM.md` Endbedingung), statt im aktuellen Takt weiterlaufen zu lassen.
+  Details: `outputs/2026-07-27_grobkosten-run15.md`.
+
 ## 2026-07-27 — Trainings-Run 14: Frage-1-Formelbefund auch an der projekteigenen Wald-Exceldatei bestätigt (kein neuer Blocker, aber schärfere Beweislage)
 
 - **Kein Bibliotheks-Sweep, kein Ereignis-Trigger-Re-Check** (Empfehlung Run 13 befolgt).
