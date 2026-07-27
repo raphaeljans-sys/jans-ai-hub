@@ -1,6 +1,6 @@
 ---
 title: "Extern-Jurybericht: Ersatzneubau Wohnsiedlung Seebahnstrasse (Seebahn-Höfe), Zürich-Aussersihl — anonymer, einstufiger Projektwettbewerb im selektiven Verfahren (2014)"
-status: draft
+status: established
 last_updated: 2026-07-27
 sources:
   - "https://seebahnhoefe.ch/wp-content/uploads/2016/06/Jurybericht_Seebahnstrasse_low.pdf (Jurybericht Wohnsiedlung Seebahnstrasse, Herausgeberin Stadt Zürich / Hochbaudepartement / Amt für Hochbauten, Redaktion Moritz Marti/Britta Walti, Zürich Januar 2014, 72 Seiten, abgerufen 2026-07-27)"
@@ -66,7 +66,7 @@ Kernargumente der Jury:
 ## Verallgemeinerbare Regeln (Lessons / DNA)
 
 1. **Bei Ersatzneubauten genossenschaftlicher Siedlungen im Gestaltungsplan-Verfahren wird die Bau- und Zonenordnung explizit ausser Kraft gesetzt; die städtebaulichen Eckwerte (Wohnungszahl, Kostendach, Energieziel) werden stattdessen im Leitbild zwischen Genossenschaft(en) und Stadt verhandelt und im Wettbewerbsprogramm verbindlich präzisiert** (S. 3-4) — der Wettbewerb liefert die fachliche Legitimation für die nachfolgende Inventarentlassung und den Gestaltungsplan, nicht umgekehrt.
-2. **Ein quantitativer Wohnungszahl-Zielwert (hier rund 145) wird von der Jury als eigenständiger Wirtschaftlichkeits-/Programmindikator geführt, unabhängig vom architektonischen Rang** — selbst das Siegerprojekt wird für die Unterschreitung (140 statt 145) in den Empfehlungen zur Weiterbearbeitung explizit gerügt (S. 15), während andere unrangierte Projekte mit ähnlicher oder höherer Wohnungszahl als «wirtschaftlich gut» gewürdigt werden (S. 35, 47, 51, 59).
+2. **Ein quantitativer Wohnungszahl-Zielwert (hier rund 145) wird von der Jury als eigenständiger Wirtschaftlichkeits-/Programmindikator geführt, unabhängig vom architektonischen Rang** — selbst das Siegerprojekt wird für die Unterschreitung (140 statt 145) in den Empfehlungen zur Weiterbearbeitung explizit gerügt (S. 15), während weitere Projekte mit ähnlicher oder höherer Wohnungszahl ebenso als «wirtschaftlich gut» gewürdigt werden — darunter auch das 4.-rangierte Back to the Future (144 Wohnungen, S. 35) sowie die unrangierten Arboretum (145, S. 47), Sinus (140, S. 51) und Takeshi's Castle (148, S. 59).
 3. **Erstellungskosten werden im Bericht ausschliesslich als Prozent-Abweichung vom Kostenziel angegeben, nie als Absolutbetrag oder CHF/m3-Kennwert je Projekt** (S. 15, 27, 54-55, 59, 67) — vergleichbar mit dem in anderen JANS-Musterberichten (z.B. Universitätsspital Basel) beobachteten Muster, Wirtschaftlichkeit nur relativ/vergleichend offenzulegen.
 4. **Hindernisfreies Bauen ist ein systemischer Schwachpunkt quer durch das Teilnehmerfeld, der selbst das mit «selbstverständlich, logisch und überzeugend» gewürdigte Siegerprojekt trifft** (S. 15, 34, 50, 66-67) — bei Wohnbauten mit Blockrand-/Hoftypologie muss die hindernisfreie Erschliessung ab jedem Hauptzugang (nicht nur hofseitig) früh im Entwurf verifiziert werden.
 5. **Die Lärmschutz-Ausnahmeregelung der Lärmschutzverordnung (Aussenraum zur lärmabgewandten Seite) ist bei stark lärmbelasteten Strassenlagen eine zentrale, planungsrechtlich nutzbare Entwurfsressource** (S. 13) — ihr korrektes Einsetzen entscheidet zwischen bewilligungsfähigem und nicht bewilligungsfähigem Wohnungsgrundriss (belegt am K.-o.-Fall Emilie-Lieberherr-Hof, S. 42).
@@ -74,7 +74,7 @@ Kernargumente der Jury:
 7. **Ein ungenutzter Dachraum innerhalb des Dämmperimeters ist ein vermeidbarer, wiederkehrend gerügter Kostentreiber** — wird der Dachraum hingegen aktiv programmiert (Waschküche/Trockenraum/Estrich), gilt dies als positive, «schöne» Idee (S. 15, 47, 50).
 8. **Aufwendige, plastisch gegliederte Fassaden oder Hybridbau-Konstruktionen werden von der Jury architektonisch gewürdigt, aber unabhängig davon konsequent als Kostentreiber benannt** — architektonische Qualität und Kostenkritik werden im selben Absatz, nicht gegeneinander aufgewogen, formuliert (S. 22, 31, 54).
 9. **Bei einem Rückkommensantrag kann die Jury die Rangfolge der engeren Wahl noch am zweiten Jurytag verändern** — im vorliegenden Verfahren wurde Back to the Future nach Rückkommensantrag rückwirkend in die engere Wahl aufgenommen, während Arboretum im neu angesetzten 3. Wertungsrundgang aus der engeren Wahl ausschied (S. 11); das Verfahren bleibt damit bis zur letzten Kontrollrunde formal reversibel.
-10. **Genossenschaftliche Bauherrschaftsvertreter (Sachpreisrichter) und Fachpreisrichter können bei der Bewertung von Individualisierungsgrad und Gemeinschaftscharakter der Wohntypologie unterschiedlich urteilen** — beim (nicht rangierten) Beitrag mit hohem individuellem Wohnanteil zeigten sich «die Genossenschaftsvertreter... skeptisch», während Teile der Fachjury ihn als «Vorreiter einer modernen Interpretation des genossenschaftlichen Zusammenwohnens» wertschätzten (Schlussfolgerungen, S. 13-14).
+10. **Genossenschaftliche Bauherrschaftsvertreter (Sachpreisrichter) und Fachpreisrichter können bei der Bewertung von Individualisierungsgrad und Gemeinschaftscharakter der Wohntypologie unterschiedlich urteilen — selbst beim schliesslich zweitrangierten Projekt** — bei WALDGARTENHOF (2. Rang/2. Preis) zeigten sich «die Genossenschaftsvertreter... skeptisch» gegenüber dem hohen individuellen Wohnanteil, während Teile der Fachjury das Projekt als «Vorreiter einer modernen Interpretation des genossenschaftlichen Zusammenwohnens» wertschätzten (Schlussfolgerungen, S. 14).
 
 ## Publizierte Kennwerte
 
@@ -92,7 +92,7 @@ Der Bericht publiziert folgende numerische Werte:
 - **Preissumme**: Fr. 210'000.-- (exkl. 8 % MwSt.) für Preise und Ankäufe; Fr. 7'000.-- feste Entschädigung je eingereichtem Projekt (S. 12).
 - **Preisgelder** (exkl. MWSt.): 1. Rang Pinarello Fr. 45'000.--; 2. Rang Waldgartenhof Fr. 39'000.--; 3. Rang Broderie Fr. 29'000.--; 4. Rang Back to the Future Fr. 13'000.-- (S. 12).
 - **Wohnungszahlen je Projekt** (soweit im Fliesstext genannt, nicht durchgehend für alle 12 Projekte publiziert): Pinarello (Sieger) 140 Wohnungen (S. 15); Back to the Future 144 Wohnungen (S. 35); Arboretum 145 Wohnungen (S. 47); Sinus 140 Wohnungen (S. 51); Takeshi's Castle 148 Wohnungen (S. 59).
-- **Erstellungskosten relativ zum Zielwert** (keine Absolutbeträge): Waldgartenhof +3 % (S. 27); Barton Fink bis +2 % (S. 55); Takeshi's Castle -1 % (S. 59); Edward genau am Maximalwert (S. 67); Pinarello (Sieger) «deutlich» über Zielwert (S. 15).
+- **Erstellungskosten relativ zum Zielwert** (keine Absolutbeträge): Waldgartenhof +3 % (S. 27); Barton Fink bis +2 % (S. 54-55, Satz über Seitenumbruch geteilt); Takeshi's Castle -1 % (S. 59); Edward genau am Maximalwert (S. 67); Pinarello (Sieger) «deutlich» über Zielwert (S. 15).
 - **Flächeneffizienz**: nur bei Edward explizit publiziert, Hauptnutzfläche/Geschossfläche 66 % (S. 67).
 - **Preisgerichtstermine**: Selektion 30. Mai 2013; Beurteilung 7. und 26. November 2013 (S. 8, 11).
 
