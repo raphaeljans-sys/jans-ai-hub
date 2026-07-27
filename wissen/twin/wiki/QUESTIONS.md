@@ -3,6 +3,36 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260727e (twin-fragesteller, aus Fidelity-Review 2026-07-27e)
+
+Quelle: Drift-Report `outputs/2026-07-27e_fidelity.md` (Gesamt-Fidelity ~74; erstmals gezielt in
+`mail@raphaeljans.ch` Jan/Feb 2026 gesucht statt im mehrfach gesättigten KISPI-/rj@-Korpus —
+Baurekursgericht-Gesuchsrückzug Sie, Herzog-de-Meuron-Website-Brief an Hleb Englisch). Drei
+substanzielle Funde (Gesuchsrückzug, Fixpreis+Scope-Grenze, Design-Referenz auf Website
+uebertragen), einer davon mit spürbarer Facetten-Reibung. Je in 1–2 Sätzen beantwortbar.
+
+1. **Fixpreis-Vorschlag bei der eigenen Beauftragung — Dein genereller Reflex, sobald Du selbst
+   auftraggebende Partei bist, oder situativ beim Website-Hobby-Projekt?** Bei Hleb schlägst Du
+   USD/EUR 500 als Fixpreis vor, statt einen Stundenrahmen offen zu lassen. Würdest Du bei einer
+   grösseren eigenen Beauftragung (z.B. Steuerberater, IT-Dienstleister) ebenfalls zuerst einen
+   Fixpreis anbieten, oder ist das auf kleine, klar geschätzte Digitalprojekte beschränkt? *Warum:
+   würde die neue Fixpreis-Disziplin-Regel von der Grössenordnung des Auftrags lösen oder gezielt
+   daran binden.* → [[haltung]]
+2. **«Dear Hleb, I hope you are well» statt «Hi Hleb» — ein bewusster Formalitäts-Schub nach einer
+   längeren Pause/eigenem Versäumnis, oder Tagesform?** Mit Hleb bist Du sonst durchgehend bei «Hi
+   Hleb» (Fidelity 260725e). Hier, nach einer eigenen dokumentierten Verzögerung («I have not yet
+   had the chance…»), eröffnest Du förmlicher. Hebst Du die Anrede-Formalität an, wenn Du selbst
+   zuerst ein Versäumnis einräumen musst, auch im sonst lockeren Englisch-Freelancer-Register?
+   *Warum: würde die bisher als stabil geltende «Hi»-Registerkonstante um einen situativen
+   Formalitäts-Trigger ergänzen.* → [[stimme]], [[beziehungsregister]]
+3. **Echte Fragen und harte Anforderungen in EINER Bullet-Liste gemischt (Englisch/Freelancer) —
+   gilt die deutsche Trennregel «Nummeriert nur echte Einzelfragen, Spezifikationen bleiben offene
+   Liste» hier nicht, oder ist das Englische/der lockere Freelancer-Kontext die Ausnahme?** Die
+   Hleb-Mail listet Ja/Nein-Fragen («Do you require an advance payment?») und Hart-Anforderungen
+   («Malware infection must be completely excluded this time.») ungetrennt in einer Liste. *Warum:
+   klärt, ob die bestehende Trennregel nur fürs Deutsche/Formelle gilt oder generell.*
+   → [[arbeitsweise]]
+
 ## Offen — Runde 260727d (twin-fragesteller, aus Fidelity-Review 2026-07-27d)
 
 Quelle: Drift-Report `outputs/2026-07-27d_fidelity.md` (Gesamt-Fidelity ~78; drei frische Golds aus
