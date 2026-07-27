@@ -2,6 +2,29 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-07-27 — Trainings-Run 12: Ereignis-Trigger-Check negativ — formale Sättigung erklärt, Rücktaktung empfohlen
+
+- **Geprüft (Option b aus Run 11):** Ob seit dem letzten Check ein neuer Kostenstand aus einem
+  laufenden Mandat vorliegt. Ergebnis: `find` über die **gesamte** SharePoint-Bibliothek
+  (`OneDrive-FreigegebeneBibliotheken–JANS`) nach `*kosten*`-Dateien mit Änderungsdatum seit
+  26.07.2026 00:00 liefert **null Treffer**. Gezielt auch die drei aktiven Mandate mit bekanntem
+  Kosten-Bezug (2414 Thalwil, 2620 Albertstrasse, 2515 Wartstrasse) auf neue Dateien seit ihrem
+  jeweils letzten Check-Datum geprüft — ebenfalls keine.
+- **Formale Sättigung gemäss `training/PROGRAMM.md` Endbedingung:** Das Inventar ist strukturell
+  ausgeschöpft (alle bekannten Bibliotheken `[x]`/`[-]`, bestätigt Run 11), UND es liegt kein
+  neues Material vor, das Frage 1 (BKP-1-9-vs-1-5) oder Frage 2 (Standard-Klassifikation)
+  autonom auflösen könnte. `wiki/kennwerte.md` erreicht damit für keine Nutzungsart die Reife
+  "belegt (n=…)" — der Blocker ist nachweislich **strukturell** (zwei offene Fachfragen an
+  Raphael Jans), nicht mehr Materialmangel. Ein weiterer täglicher/mehrfach-täglicher Zyklus
+  dieses Loops verspricht keinen weiteren Ertrag, solange Frage 1/2 ungeklärt bleiben.
+- **Empfehlung:** Diesen Loop von der aktuellen Taktung (mehrfach täglich, VOLLGAS) auf einen
+  **Ereignis-Trigger** zurücktakten: nächster sinnvoller Lauf erst, wenn (a) Raphael Jans Frage
+  1/2 beantwortet (dann sofort die wartenden MFH-Einzelfälle Haus Deuber/Niederhasli/Wald neu
+  bewerten und ggf. den ersten Median bilden), oder (b) ein neuer Kostenstand mit GV-Bezug aus
+  einem laufenden Mandat abgelegt wird (`kostenkontrolle`-Output oder neue SharePoint-Datei).
+  Dies ist eine Beobachtung/Empfehlung für den nächsten interaktiven Kontakt mit Raphael — keine
+  autonome Änderung der Scheduled-Task-Taktung selbst (liegt ausserhalb der Befugnis dieses Loops).
+
 ## 2026-07-27 — Trainings-Run 11: letzte offene `AR`-Bibliothek geprüft (leer), Brassel-Nebenfund als Fremdmandat geschlossen — autonome Exploration erschöpft
 
 - **`AR - 06 Referenzen` (letzte aus Run 5 als noch offen benannte `AR`-Bibliothek):** auf dieser

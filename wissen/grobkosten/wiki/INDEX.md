@@ -48,6 +48,11 @@ ab — kein neuer Kennwert. Damit sind alle bekannten SharePoint-Bibliotheken (`
 Exploration ist erschöpft. Frage 1 (BKP-1-9-vs-1-5) und Frage 2 (Standard-Klassifikation)
 bleiben der alleinige Blocker für eine MFH-Median-Bildung — Klärung nur noch durch Rückfrage
 an Raphael Jans oder einen neuen Ereignis-Trigger (`kostenkontrolle`-Ist-Kosten laufender
-Mandate) möglich.
+Mandate) möglich. Run 12 prüft diesen Ereignis-Trigger explizit (Sweep über die gesamte
+SharePoint-Bibliothek + die drei aktiven Mandate mit Kosten-Historie) — **null neue
+Kosten-Dateien seit 26.07.2026**. Damit ist die Sättigung formal erklärt (Endbedingung
+`training/PROGRAMM.md`): kein Materialmangel mehr, sondern ein rein struktureller Blocker
+(Frage 1/2). Empfehlung an Raphael: Loop auf Ereignis-Trigger-Taktung zurückfahren statt
+weiter mehrfach täglich zu zyklieren (Details `outputs/2026-07-27_grobkosten-run12.md`).
 
 Offene Fragen / Lücken: siehe [QUESTIONS.md](QUESTIONS.md).

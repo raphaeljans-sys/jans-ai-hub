@@ -1,5 +1,28 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-27 — Trainings-Run 12 (Ereignis-Trigger-Check negativ, formale Sättigung erklärt)
+
+- Kollisionscheck via `ps`: einziger Treffer war die eigene Prozessinstanz (`claude -p` mit
+  identischem Prompt-Text), keine echte Zweitinstanz auf diesem Host.
+- Gemäss eigener Empfehlung aus Run 11 (Option b): geprüft, ob seit dem letzten Check ein neuer
+  Kostenstand mit GV-Bezug aus einem laufenden Mandat vorliegt. `find` über die gesamte
+  SharePoint-Bibliothek nach `*kosten*`-Dateien mit Änderungsdatum seit 26.07.2026 liefert
+  **null Treffer**; die drei bekannten aktiven Mandate mit Kosten-Historie (2414 Thalwil, 2620
+  Albertstrasse, 2515 Wartstrasse) haben ebenfalls keine neuen Dateien seit ihrem letzten Check.
+- **Formale Sättigung erklärt** gemäss der in `training/PROGRAMM.md` beschriebenen Endbedingung:
+  das Inventar ist strukturell ausgeschöpft (bestätigt Run 11), kein neues Material verfügbar,
+  Frage 1 (BKP-1-9-vs-1-5) und Frage 2 (Standard-Klassifikation) bleiben der alleinige, rein
+  strukturelle Blocker für eine erste "belegt (n=…)"-Promotion. Kein neuer Rohbeleg, kein neuer
+  Kennwert in diesem Lauf — bewusst kein Leerlauf-Füllwert erzeugt.
+- **Empfehlung an Raphael (nicht autonom umsetzbar):** diesen Loop von der aktuellen VOLLGAS-
+  Taktung auf einen Ereignis-Trigger zurücktakten (nächster Lauf erst bei (a) Antwort auf Frage
+  1/2 oder (b) neuem Kostenstand aus `kostenkontrolle`), statt weiter mehrfach täglich ohne
+  neues Material zu zyklieren.
+- Register nachgeführt: `wiki/QUESTIONS.md` (neuer Run-12-Eintrag), dieses CHANGELOG. Kein
+  Update an `training/quellen-inventar.md` nötig (keine neue Zeile, keine Statusänderung) und
+  keine Änderung an `wiki/kennwerte.md` (kein neuer Wert). Lauf-Report:
+  `outputs/2026-07-27_grobkosten-run12.md`.
+
 ## 2026-07-27 — Trainings-Run 11 (letzte offene `AR`-Bibliothek geprüft, Brassel-Nebenfund geschlossen — autonome Exploration erschöpft)
 
 - Kollisionscheck via `ps`/`PPID`-Abgleich: einziger Treffer war die eigene Parent-Instanz,
