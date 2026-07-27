@@ -154,7 +154,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vkf-brl-108-15-betriebsbereitschaft-bfs.md` | VKF-BSE 108-15 Betriebsbereitschaft Brandfallsteuerungen (BFS) | 2015 | established (verifiziert 260714, bestanden) |
 | `vkf-verz-40-15-weitere-bestimmungen.md` | VKF-Verzeichnis 40-15 Weitere Bestimmungen (Drittnormen je BRL/BSE) | 2015 | established (verifiziert 260714, vollstaendig — Ziff. 3.7-3.9 + Abkuerzungsverz. ergaenzt, 2 Ergaenzungen BSR 26-15) |
 | `vkf-ah-1000-15-gebaeude-geringer-abmessung.md` | VKF-Arbeitshilfe 1000-15 Gebäude mit geringer Abmessung | 2015 | established (verifiziert 260714, bestanden) |
-| `vkf-ah-1001-15-wohnbauten.md` | VKF-Arbeitshilfe 1001-15 Wohnbauten | 2015 | established (verifiziert 260714, 2 Korrekturen Ziff.7.5/12.2) |
+| `vkf-ah-1001-15-wohnbauten.md` | VKF-Arbeitshilfe 1001-15 Wohnbauten | **01.01.2017 / Stand 17.05.2018** (+ Fassung 01.01.2015 als Delta dokumentiert) | speculative (Fassungs-Delta 2017/2018 eingearbeitet 260727, noch nicht unabhaengig verifiziert; frueherer Befund «0 Abweichungen Ziff.3/5/6» widerlegt) |
 | `vkf-ah-1002-03-parkhaeuser.md` | VKF-Arbeitshilfe 1002-03d Parkhäuser | 2003 (in Kraft 2005) | established (verifiziert 260714, 1 Korrektur Tabelle 2 R30 statt EI30) |
 | `vkf-ah-1002-15-schulbauten.md` | VKF-Arbeitshilfe 1002-15 Schulbauten | 2015 | established (verifiziert 260714, Tueren-Ausnahmeregel Ziff.7.4.6 ergaenzt) |
 | `din-1045-2-2008.md` | DIN 1045-2 Tragwerke aus Beton/Stahlbeton/Spannbeton, Anwendungsnorm zu EN 206-1 | 2008-08 | established (verifiziert 260713, Fehler Expositionsklasse XF korrigiert, vollständig S.1-62/62; Q&A-Selbstbefragung Mini-Run 26 260714: 20/20 bestanden, 0 Fehler, 4 Ergänzungen) |

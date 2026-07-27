@@ -90,7 +90,7 @@ Garderobe in Eingangshalle = Nebennutzfläche).
 
 ### 3.1 Flächen- und Volumenparameter
 
-**3.1.1 Flächen nach SIA 416 und DIN 416/DIN 277** (Gliederung stützt sich auf SIA 416,
+**3.1.1 Flächen nach SIA 416 und DIN 277** (Gliederung stützt sich auf SIA 416,
 Nutzungsarten-Zuordnung auf DIN 277; Begriff "Geschossfläche" gem. SIA 416 statt "Grundfläche"
 gem. DIN 277):
 
@@ -115,8 +115,8 @@ gem. DIN 277):
   Trennwände. Auszuschliessen: gestalterische Vor-/Rücksprünge (sofern NGF unbeeinflusst),
   Fuss-/Sockelleisten, Schrammborde, vorstehende Fenster-/Türbekleidungen, Schrankwände
   (→ jeweilige HNF). `KF = GF − NGF = KFT + KFN` (tragend/nicht tragend).
-- **Nettogeschossfläche NGF**: lichte Raummasse in Fussbodenhöhe ohne Fuss-/Sockelleisten.
-  `NGF = NF + FF + VF`.
+- **Nettogeschossfläche NGF**: lichte Raummasse in Fussbodenhöhe ohne Berücksichtigung von
+  Fuss-, Sockelleisten oder Schrammborden. `NGF = NF + FF + VF`.
 - **Funktionsfläche FF**: Teil der NGF für zentrale betriebstechnische Anlagen (Haustechnik);
   dient die Anlage der Ver-/Entsorgung ANDERER Bauwerke (z.B. Heizhaus), zählt die Fläche zur NF.
 - **Verkehrsfläche VF**: Teil der NGF für Zugang/internen Verkehr/Notfall-Verlassen. Ein:
@@ -165,7 +165,8 @@ gem. DIN 277):
   z.B. `GV(GF)`.
 
 ### 3.2 Kostenparameter (Basis: Baukostenplan BKP/EKG des CRB + DIN 18960; Vollkosten inkl.
-MWST; Erhaltungskosten für Baukonstruktion/Haustechnik getrennt zu ermitteln)
+MWST; Überwachungs- und Unterhaltskosten sind für Bauwerkseinheiten und Haustechnikanlagen
+getrennt zu ermitteln, S. 19)
 
 **3.2.1 Kosten von Baumassnahmen**:
 - **Investitionskosten IK**: Baukosten + Grundstückskosten, gegliedert nach BKP 0-9 (CRB,
@@ -242,10 +243,13 @@ MWST; Erhaltungskosten für Baukonstruktion/Haustechnik getrennt zu ermitteln)
   4.19 MJ/m³ je K Abkühlung.
 
 ## 4 Berechnung der Parameter (S. 29-36)
-Reine **Berechnungsformulare** (Kaskaden-/Kontenschemata mit %-Eingabefeldern, keine
-zusätzlichen Definitionen gegenüber Kapitel 3): 4.1 Flächen-/Volumenparameter (Formular
-GF→KF→NGF→FF/VF→NF→HNF/NNF mit allen SIA-416-Subcodes FF8.x/VF9.x/NNF7.x/HNF1-6, sowie
-separates Mietflächen-Formular mit/ohne Sternchen bis LF/VTF/EMF/DMF); 4.2 Kostenparameter
+**Weitgehend Berechnungsformulare** (Kaskaden-/Kontenschemata mit %-Eingabefeldern); ergänzt
+Kapitel 3 aber um die Honorar-Sammelcodes, die Erdgas-Heizwertregel, die fünf
+Teil-Energiekennzahlen und den Volumenparameter-Verweis (Fn. 32): 4.1 Flächenparameter
+(Formular AGF→GF→KF→NGF→FF/VF→NF→HNF/NNF mit allen SIA-416-Subcodes FF8.x/VF9.x/NNF7.x/
+HNF1-6, sowie separates Mietflächen-Formular mit/ohne Sternchen bis LF/VTF/EMF/DMF;
+Volumenparameter enthält das Formular nicht, Fn. 32 verweist dafür auf SIA 416 sowie
+kantonales und kommunales Recht, S. 29); 4.2 Kostenparameter
 (Formular BKP/EKG → BauK/IK/HK/HK3; Formular Kapitalkosten→Verwaltungskosten→Betriebskosten→
 Instandsetzungskosten→BMK_VA→Abschreibungen/Rückstellungen→BMK_NA→Nebenkosten→NMK; separates
 ÜIHK/ÜUK-Formular); 4.3 Spezielle Parameter (EBF/EV-Formular mit den Heizwert-Faktoren aus
