@@ -3,6 +3,44 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260727c (twin-fragesteller, aus Fidelity-Review 2026-07-27c)
+
+Quelle: Drift-Report `outputs/2026-07-27c_fidelity.md` (Gesamt-Fidelity ~78; drei frische Golds aus
+bislang ungenutzten Quellen — `mail@raphaeljans.ch` und ein frisches Januar-2026-Fenster auf rj@ —
+CNCEST-Konsumentenreklamation Sie, Peter-Weisser-Neujahrs-Mehrprojekt-Update Du, nackter Sie-Gruss
+im Transaktions-Nachfass). Drei neue Einzelbelege, alle mit spürbarer Facetten-Relevanz. Je in 1–2
+Sätzen beantwortbar.
+
+1. **Service-Satz trotz hartem Rechtsbegehren beim anonymen Firmen-Support — Regel oder
+   Tagesform?** In der CNCEST-Reklamation («Damit liegt keine Vertragserfüllung vor», «Eine
+   Verantwortung meinerseits besteht nicht») hängst Du trotzdem den Service-Satz «Bei Fragen oder
+   Unklarheiten stehe ich Ihnen jederzeit gerne zur Verfügung» an, obwohl die bisherige Regel
+   Antrag/Gesuch OHNE Service-Satz schliessen lässt (Fidelity 260719, dort Amt/ESTV). Bleibt der
+   Service-Satz bei einer Konsumentenreklamation an ein anonymes Firmen-Postfach IMMER stehen,
+   unabhängig von der Härte des Begehrens, während er nur bei Amts-/Behörden-Gesuchen entfällt?
+   *Warum: würde die Service-Satz-Systematik um die Trennlinie B2C-Firma vs. Amt/Behörde
+   ergänzen statt sie als unerklärten Einzelfall stehen zu lassen.* → [[stimme]], [[fachsignatur]]
+2. **Ortsnamen als Block-Header bei einem Mehrprojekt-Update an denselben Kontakt — ab wie
+   vielen parallelen Projekten wechselst Du von Fliesstext auf fette Header?** Bei Peter Weisser
+   (3 Projekte: Emmen/Zürich/Oerlikon, 05.01.2026) fettest Du die Ortsnamen als Zwischentitel.
+   Würdest Du das bei nur 2 Projekten auch schon so gliedern, oder bleibt das bei 2 Fliesstext
+   mit Leerzeile (wie die bereits belegte Themen-Clusterung, 260727b #5)? *Warum: würde die neue
+   Ortsnamen-Header-Regel mit einer konkreten Schwelle versehen statt sie unbegrenzt auf jedes
+   Mehrprojekt-Update anzuwenden.* → [[arbeitsweise]]
+3. **Nackter Gruss im Sie-Nachfass — ab welcher Fadenlänge/Etabliertheit kippt es?** Der CNCEST-
+   Nachfass (09.01.2026) trägt nur «Gruss / Raphael Jans», keinen Block, vier Tage nach der
+   ausführlichen FG+Block-Reklamation im selben Faden. Ist die Schwelle «der Faden ist bereits
+   im dritten/vierten Austausch» oder eher «die konkrete Mail verlangt nur eine Ein-Satz-Bitte,
+   unabhängig von der Fadenlänge»? *Warum: würde klären, ob der Zwilling den nackten Gruss an der
+   Fadentiefe oder an der Mail-Kürze selbst festmacht — Konsequenz für alle künftigen Sie-
+   Kurznachfässe.* → [[stimme]], [[arbeitsweise]]
+4. **Neujahrswunsch als Geschäfts-Opener, gekoppelt an eine persönliche Nachfrage («Bist Du
+   wieder zurück zur Arbeit?») — Dein fester Jahreswechsel-Reflex bei jedem Du-Geschäftspartner
+   im Januar, oder situativ bei Peter?** Falls Regel: koppelst Du den Neujahrswunsch grundsätzlich
+   an eine echte Nachfrage zur Person (nicht nur eine Floskel), bevor die Sachthemen folgen?
+   *Warum: die KB kennt bisher keinen Jahreswechsel-Marker — eine Bestätigung würde einen neuen,
+   saisonal wiederkehrenden Öffner verankern.* → [[stimme]], [[beziehungsregister]]
+
 ## Offen — Runde 260727b (twin-fragesteller, aus Fidelity-Review 2026-07-27b)
 
 Quelle: Drift-Report `outputs/2026-07-27b_fidelity.md` (Gesamt-Fidelity ~87; drei frische,

@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 27.07.2026 13:30:04
+Stand: 27.07.2026 13:40:07
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:13)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:40)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 27.07.2026 13:30:04
 - 9 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 861e7fbe grobkosten-training Run 18: siebter Saettigungsbeleg in Folge, bewusst kein erneuter Sweep, Register (INDEX/QUESTIONS/CHANGELOG) nachgefuehrt
+- 27f7a17d grobkosten-training Run 20: Taktungsfehler behoben (grobkosten in vollgas-runner EXCLUDE_RE ergaenzt, laeuft ab jetzt nur ueber eigenen Scheduled Task statt Endlos-Zyklus), neunter Saettigungsbeleg ohne Register-Duplikation
