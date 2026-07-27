@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-27 (Run 66)
+last_updated: 2026-07-27 (Run 67)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -113,6 +113,29 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   substanziell geschlossen (Kap. 18 = Querverweis `brandschutz`), Cron auf **woechentlich** (`30 7 * * 1`).
   Phase-3-Laeufe verifizieren `emerging`-Belege am amtlichen Volltext (`raw/*_amtlich_zh_*.md`) und heben sie
   auf `established`, statt neue TRANSFER-Doppelseiten zu lesen.
+  - **Run 67 (2026-07-27, Festigungsmodus, Priorität (c) Erst-Verifikation, kein Agent-Fan-out):**
+    [[nebenbestimmungen-und-reverse]] gewählt (von Run 66 empfohlen, eines von drei nie durch den
+    Modell-D-Loop gelaufenen `emerging`-Artikeln). Vollständiger Wortlautabgleich §§ 320/321/326/
+    73/100/101/244/360 PBG gegen `raw/260607_amtlich_zh_pbg.md`, §§ 30/31 VRG gegen
+    `raw/260712_amtlich_zh_vrg.md`, § 16 Abs. 2 BBV I gegen `raw/260607_amtlich_zh_bbv1.md` —
+    **alle CONFIRMED, 0 Korrekturen**, Fassungsstand PBG weiterhin Nachtrag 133. **2 echte Funde**
+    bei den bisher nur sekundär belegten Bundesrechts-/VRG-Zitaten (gegen Fedlex/zhlex amtlich
+    nachgeprüft): (1) **§ 10a VRG → § 10b VRG** — Fassungsstand-Drift, in Kraft seit 1.1.2026
+    (Änderung 30.10.2023, OS Band 79: neuer § 10a VRG elektronische Benachrichtigung eingefügt,
+    bisherige §§ 10a-10d VRG zu §§ 10b-10e verschoben, Begründungspflicht inhaltlich unverändert
+    jetzt § 10b Abs. 1 VRG); (2) **Art. 164 GBV war mit invertierter Polarität zitiert** — korrigiert
+    von «müssen nur angemerkt werden» auf amtlich korrekt «müssen NICHT angemerkt werden»
+    (Fedlex `eli/cc/2011/667`, Übergangsausnahme von der erst 2012 mit Art. 962 Abs. 1 ZGB
+    eingeführten Anmerkungspflicht) — vermutlich Transkriptionsfehler bei Ersterfassung Run 11,
+    im Quell-Destillat markiert statt stillschweigend übernommen. Zusätzlich 1 Präzisierung:
+    § 326 PBG regelt die Baubeginn-Sperre, nicht direkt die Vollstreckung (§§ 30/31 VRG). Status
+    **emerging → established** angehoben, erstmaliges `verifiziert`-Feld ergänzt. Register-Sweep
+    ueber `buecher/INDEX.md`, beide betroffenen Kap.-7-Destillate, `wiki/INDEX.md`,
+    `training/drills.md`. **0 Halluzinationen, 1 Fassungsstand-Drift, 1 inhaltlicher Fehler,
+    1 Präzisierung.** 2 neue Drill-Karten (2×D). Report `outputs/2026-07-27_buch-run67.md`.
+    **«Rückstand abgebaut» weiterhin NICHT ausgerufen** (Leitplanke Run 48). **Nächster Schritt:**
+    [[enteignung-und-entschaedigung]] oder [[grundlagen-planungs-baurecht]] als verbleibende
+    nie verifizierte Priorität-(c)-Kandidaten.
   - **Run 66 (2026-07-27, Festigungsmodus, Priorität (a) Cross-KB-Nachtrag + Priorität (c)
     Erst-Verifikation, kein Agent-Fan-out):** **Priorität (c):**
     [[baurechtlicher-vorentscheid-und-voranfrage]] gewählt — einer von vier Wiki-Artikeln, die

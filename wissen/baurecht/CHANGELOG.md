@@ -4,6 +4,36 @@ Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
+## 2026-07-27 — Buch-Run 67 (Festigungsmodus, Priorität c Erst-Verifikation Nebenbestimmungen/Revers)
+- [verifikation] **`wiki/nebenbestimmungen-und-reverse.md`** — erster Modell-D-Lauf seit
+  Erstellung (2026-06-19): §§ 320/321/326/73/100/101/244/360 PBG gegen
+  `raw/260607_amtlich_zh_pbg.md`, §§ 30/31 VRG gegen `raw/260712_amtlich_zh_vrg.md`, § 16 Abs. 2
+  BBV I gegen `raw/260607_amtlich_zh_bbv1.md` — **alle CONFIRMED, 0 Korrekturen**. Status
+  **emerging → established**, erstmaliges `verifiziert`-Feld ergänzt.
+- [fund] **Fassungsstand-Drift § 10a → § 10b VRG:** Begründungspflicht-Norm für
+  Bauverweigerungen/Auflagen/Bedingungen wurde per **1.1.2026** umnummeriert (Änderung vom
+  30.10.2023 «Elektronische Verfahrenshandlungen», OS Band 79, 25.10.2024). Korrigiert in
+  `wiki/nebenbestimmungen-und-reverse.md`, `buecher/INDEX.md`, `buecher/band-1/07-
+  zustaendigkeiten-entscheide-auskuenfte.md` (Frontmatter + Offene-Punkte, Buchzitat selbst
+  unangetastet), `buecher/band-1/07-vorentscheid-auskuenfte-besondere-zustaendigkeiten.md`
+  (Frontmatter-Tag), `training/drills.md`.
+- [fund] **Art. 164 GBV mit invertierter Polarität zitiert:** KB-Fassung behauptete «Alt-Bestand
+  vor 1.1.2012 muss nur angemerkt werden», amtlicher Wortlaut (Fedlex `eli/cc/2011/667`,
+  Konsolidierung 20230101) sagt das Gegenteil: «muss NICHT angemerkt werden» (Übergangs-
+  Ausnahme von der 2012 neu eingeführten Anmerkungspflicht nach Art. 962 Abs. 1 ZGB). Korrigiert
+  in `wiki/nebenbestimmungen-und-reverse.md` + `buecher/INDEX.md`; im Quell-Destillat
+  `buecher/band-1/07-zustaendigkeiten-entscheide-auskuenfte.md` als vermutlicher
+  Transkriptionsfehler (Run 11) markiert, Buchzitat selbst stehen gelassen (Quelle treu),
+  amtlicher Befund als Korrektur davorgestellt.
+- [präzisierung] § 326 PBG regelt die **Baubeginn-Sperre** (Vorleistungspflicht auf Baubeginn
+  gestellter Auflagen), nicht direkt die Vollstreckung — die eigentlichen Zwangsmittel liefern
+  §§ 30/31 VRG. Tabelle in `wiki/nebenbestimmungen-und-reverse.md` + Register-Sweep entsprechend
+  geschärft.
+- [register-sweep] `buecher/INDEX.md:356-361`, `wiki/INDEX.md:45`, `training/drills.md:400-415`
+  nachgezogen.
+- [drill] 2 neue Karten (2×D) in `training/drills.md`.
+- [report] `outputs/2026-07-27_buch-run67.md`.
+
 ## 2026-07-27 — Buch-Run 66 (Festigungsmodus, Priorität a Cross-KB-Nachtrag PBG-Revision + Priorität c Erst-Verifikation Vorentscheid)
 - [verifikation] **`wiki/baurechtlicher-vorentscheid-und-voranfrage.md`** — erster Modell-D-Lauf
   seit Erstellung (2026-06-21): §§ 322/323/324 PBG, § 310 Abs. 3 PBG, § 315 PBG, § 213 PBG gegen

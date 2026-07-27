@@ -1,6 +1,6 @@
 ---
 name: nebenbestimmungen-und-reverse
-beschreibung: Die Nebenbestimmungen der Baubewilligung im Kt. ZH (§ 321 PBG) — Auflage, Bedingung, Befristung und der baurechtliche Revers. Kernunterscheidung: Mängel «ohne besondere Schwierigkeiten» werden via Nebenbestimmung geheilt, sonst Bauverweigerung; Auflage (erzwingbar, Verfügung bleibt gültig) vs. Bedingung (Wirksamkeit hängt am künftigen Ereignis); Revers = gemischte Nebenbestimmung; Grundbuch-Anmerkung ist nur deklaratorisch. Liefert die rechtliche Einordnung jeder Auflage aus dem Bauentscheid und ist damit die Faktenbasis für den Skill auflagebereinigung.
+beschreibung: Die Nebenbestimmungen der Baubewilligung im Kt. ZH (§ 321 PBG) — Auflage, Bedingung, Befristung und der baurechtliche Revers. Kernunterscheidung: Mängel «ohne besondere Schwierigkeiten» werden via Nebenbestimmung geheilt, sonst Bauverweigerung; Auflage (Verfügung bleibt gültig, Zwangsmittel §§ 30/31 VRG) vs. Bedingung (Wirksamkeit hängt am künftigen Ereignis); Revers = gemischte Nebenbestimmung; Grundbuch-Anmerkung ist nur deklaratorisch. Liefert die rechtliche Einordnung jeder Auflage aus dem Bauentscheid und ist damit die Faktenbasis für den Skill auflagebereinigung.
 status: established
 last_updated: 2026-07-27
 verifiziert: "2026-07-27 (Buch-Run 67, Modell-D-Wortlautabgleich vollstaendig, PBG Nachtrag 133, VRG-Begruendungspflicht seit 1.1.2026 § 10b statt § 10a)"

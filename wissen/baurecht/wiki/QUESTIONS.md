@@ -1,5 +1,40 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## 2026-07-27 (Buch-Run 67, Festigungsmodus, Priorität c Erst-Verifikation) — nebenbestimmungen-und-reverse: Fassungsstand-Drift § 10a→§10b VRG + invertierte Polarität Art. 164 GBV korrigiert
+
+[[nebenbestimmungen-und-reverse]] (von Run 66 als einer von drei nie verifizierten
+`emerging`-Artikeln benannt) einem vollständigen Modell-D-Wortlautabgleich unterzogen:
+§§ 320/321/326/73/100/101/244/360 PBG gegen `raw/260607_amtlich_zh_pbg.md`, §§ 30/31 VRG
+gegen `raw/260712_amtlich_zh_vrg.md`, § 16 Abs. 2 BBV I gegen `raw/260607_amtlich_zh_bbv1.md`
+— **alle CONFIRMED, 0 Korrekturen.**
+
+**Fund 1 — Fassungsstand-Drift § 10a → § 10b VRG:** die Begründungspflicht-Norm für
+Bauverweigerungen/Auflagen/Bedingungen wurde per **1. Januar 2026** umnummeriert (Änderung
+vom 30.10.2023 «Elektronische Verfahrenshandlungen», OS Band 79, 25.10.2024 — ein neuer § 10a
+VRG für elektronische Benachrichtigung wurde eingefügt, die bisherigen §§ 10a-10d VRG
+verschoben sich zu §§ 10b-10e VRG). Inhaltlich unverändert (Marginalie § 10b: «c. Anordnungen
+ohne Begründung»), nur die Nummer hat sich verschoben. Aktuell korrekte Fundstelle:
+**§ 10b Abs. 1 VRG**.
+
+**Fund 2 — Art. 164 GBV mit invertierter Polarität zitiert (echter inhaltlicher Fehler):** die
+KB behauptete, Alt-Bestand (rechtskräftig vor 1.1.2012 angeordnete öffentlich-rechtliche
+Eigentumsbeschränkungen) «müsse nur angemerkt werden». Amtlicher Wortlaut (Fedlex
+`eli/cc/2011/667`, Konsolidierung 20230101): das Gegenteil — «müssen im Grundbuch **nicht**
+angemerkt werden» (Übergangsausnahme von der erst 2012 mit Art. 962 Abs. 1 ZGB eingeführten
+Anmerkungspflicht). Vermutlich Transkriptionsfehler bei der Ersterfassung (Buch-Run 11,
+2026-06-19) — im Quell-Destillat als vermuteter Fehler markiert, Buchseite S. 439/440 bei
+Gelegenheit am Original-Screenshot gegenzukontrollieren.
+
+**Präzisierung:** § 326 PBG regelt die **Baubeginn-Sperre** (Vorleistungspflicht auf Baubeginn
+gestellter Auflagen), nicht direkt die Vollstreckung — die eigentlichen Zwangsmittel liefern
+§§ 30/31 VRG.
+
+**0 Halluzinationen, 1 Fassungsstand-Drift, 1 inhaltlicher Fehler, 1 Präzisierung, 0 offene
+Fragen im Kernbestand.** Status **emerging → established**. 2 neue Drill-Karten (2×D). Details:
+`outputs/2026-07-27_buch-run67.md`. **Nächster Schritt:** [[enteignung-und-entschaedigung]]
+oder [[grundlagen-planungs-baurecht]] als verbleibende nie verifizierte Priorität-(c)-
+Kandidaten.
+
 ## 2026-07-27 (Buch-Run 65, Festigungsmodus, Priorität c Re-Verifikation) — ausnahmebewilligung-und-bestandesschutz vollständig bestätigt, 0 Korrekturen
 
 [[ausnahmebewilligung-und-bestandesschutz]] (letzter Check Buch-Run 45/46, 2026-07-15 —

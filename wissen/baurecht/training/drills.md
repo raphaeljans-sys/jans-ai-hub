@@ -398,8 +398,11 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   S. 437). _[2026-06-19]_
 - **F:** Worin unterscheiden sich Auflage und Bedingung? — **A:** **Auflage** = zusaetzliche Pflicht
   (Tun/Dulden/Unterlassen); bei Nichterfuellung bleibt die Verfuegung **gueltig**, wird aber
-  **erzwungen/vollstreckt** (§ 326 PBG; §§ 30 f. VRG). **Bedingung** = Rechtswirksamkeit haengt an
-  einem **kuenftigen, ungewissen Ereignis**. Im Zweifel: Auflage (Bd 1, S. 438/442). _[2026-06-19]_
+  **erzwungen/vollstreckt** (**§§ 30/31 VRG**: Schuldbetreibung/Ersatzvornahme/unmittelbarer
+  Zwang; § 326 PBG sperrt zusaetzlich den **Baubeginn**, solange auf Baubeginn gestellte
+  Auflagen unerfuellt sind). **Bedingung** = Rechtswirksamkeit haengt an einem **kuenftigen,
+  ungewissen Ereignis**. Im Zweifel: Auflage (Bd 1, S. 438/442). _[2026-06-19, praezisiert
+  Buch-Run 67]_
 - **F:** Hat die Anmerkung eines Revers im Grundbuch konstitutive Wirkung? — **A:** **Nein**, nur
   **deklaratorisch** — die Gueltigkeit haengt an der Rechtsbestaendigkeit der Baubewilligung
   (BGE 111 Ia 183). Die «Bedingung, vor Baubeginn den Revers einzutragen», ist rechtlich eine
@@ -2298,3 +2301,50 @@ abgebaut» weiterhin NICHT ausgerufen** (Leitplanke Run 48: Daueraufgabe) — **
 verbleibende drei nie verifizierte `emerging`-Artikel ([[enteignung-und-entschaedigung]],
 [[nebenbestimmungen-und-reverse]], [[grundlagen-planungs-baurecht]]) als nächste
 Priorität-(c)-Kandidaten, oder Fortsetzung des Fassungsstand-Sammelchecks kantonaler Erlasse.
+
+## Nebenbestimmungen und Revers — Buch-Run 67 (2026-07-27, Modell D, Erst-Verifikation Priorität c)
+
+- **D (Gegenprobe/Adversarial):** Der Artikel zitiert «§ 10a Abs. 1 VRG» als Grundlage der
+  Begründungspflicht bei Bauverweigerungen/Auflagen/Bedingungen. Gilt diese Nummer noch? —
+  **A: Nein.** Mit der Änderung vom 30.10.2023 («Elektronische Verfahrenshandlungen», OS Band
+  79, **in Kraft seit 1.1.2026**) wurde ein neuer § 10a VRG (elektronische Benachrichtigung)
+  eingefügt; die bisherigen §§ 10a-10d VRG wurden zu **§§ 10b-10e VRG** verschoben (Marginalie
+  des neuen § 10b: «c. Anordnungen ohne Begründung» — inhaltlich unverändert). Die aktuell
+  richtige Fundstelle ist **§ 10b Abs. 1 VRG**. Klassischer Fassungsstand-Drift analog StrG
+  (Run 53) und VRG-Nachtragsnummer (Run 64) — hier betrifft die Drift aber die **Paragraphen-
+  Nummer selbst**, nicht nur den Nachtrag. _[2026-07-27]_
+- **D (Gegenprobe/Adversarial):** Der Artikel zitiert Art. 164 GBV so, dass Alt-Bestand
+  (rechtskräftig vor 1.1.2012 angeordnete öffentlich-rechtliche Eigentumsbeschränkungen)
+  «nur angemerkt werden müssen». Ergibt das im Kontext von Art. 962 ZGB (der die
+  Anmerkungspflicht erst 2012 einführte) überhaupt Sinn? — **A: Nein — invertierte Polarität.**
+  Amtlicher Wortlaut (Fedlex `eli/cc/2011/667`, Konsolidierung 20230101): Alt-Bestand «müssen
+  im Grundbuch **nicht** angemerkt werden» — die Übergangsbestimmung nimmt alte Fälle von der
+  neuen Pflicht aus, sie unterstellt sie ihr nicht. Die ursprüngliche KB-Fassung hatte die
+  Aussage exakt umgekehrt (vermutlich Transkriptionsfehler bei der Ersterfassung, Run 11,
+  2026-06-19) — ein Lehrbeispiel dafür, dass auch ein als «wörtlich» markiertes Buch-Zitat
+  gegen den amtlichen Text gegenzuprüfen ist, wenn die Aussage inhaltlich unplausibel wirkt.
+  _[2026-07-27]_
+
+**Ergebnis Buch-Run 67 (2026-07-27, Festigungsmodus, Priorität c, kein Agent-Fan-out):**
+[[nebenbestimmungen-und-reverse]] gewählt (von Run 66 empfohlen, eines von drei nie durch den
+Modell-D-Loop gelaufenen `emerging`-Artikeln). Vollständiger Wortlautabgleich §§ 320/321/326/
+73/100/101/244/360 PBG gegen `raw/260607_amtlich_zh_pbg.md`, §§ 30/31 VRG gegen
+`raw/260712_amtlich_zh_vrg.md`, § 16 Abs. 2 BBV I gegen `raw/260607_amtlich_zh_bbv1.md` —
+**alle CONFIRMED, 0 Korrekturen.** Fassungsstand PBG weiterhin Nachtrag 133. **2 echte Funde**
+bei den Bundesrechts-/VRG-Zitaten (nicht am Buch, sondern gegen Fedlex/zhlex amtlich geprüft,
+da bisher nur sekundär belegt): (1) **§ 10a VRG → § 10b VRG** — Fassungsstand-Drift, in Kraft
+seit 1.1.2026 (Änderung 30.10.2023, OS Band 79); (2) **Art. 164 GBV war mit invertierter
+Polarität zitiert** — korrigiert von «müssen nur angemerkt werden» auf «müssen NICHT
+angemerkt werden» (amtlich Fedlex `eli/cc/2011/667`). Zusätzlich 1 Präzisierung: § 326 PBG
+regelt die **Baubeginn-Sperre**, nicht direkt die Vollstreckung von Auflagen (das leisten
+§§ 30/31 VRG). Register-Sweep über `buecher/INDEX.md:356-361`, den Destillat-Quellartikel
+`buecher/band-1/07-zustaendigkeiten-entscheide-auskuenfte.md` (Frontmatter + Fliesstext +
+Offene-Punkte-Abschnitt), `buecher/band-1/07-vorentscheid-auskuenfte-besondere-
+zustaendigkeiten.md` (Frontmatter-Tag), `wiki/INDEX.md:45` und `training/drills.md:400-415`
+durchgeführt und korrigiert. Status **emerging → established** angehoben, erstmaliges
+`verifiziert`-Feld ergänzt. **0 Halluzinationen, 1 Fassungsstand-Drift, 1 inhaltlicher Fehler
+(invertierte Polarität), 1 Präzisierung, 0 offene Fragen im Kernbestand.** 2 neue Drill-Karten
+(2×D). Report `outputs/2026-07-27_buch-run67.md`. **«Rückstand abgebaut» weiterhin NICHT
+ausgerufen** (Leitplanke Run 48: Daueraufgabe) — **nächster Schritt:** verbleibende zwei nie
+verifizierte `emerging`-Artikel ([[enteignung-und-entschaedigung]],
+[[grundlagen-planungs-baurecht]]) als nächste Priorität-(c)-Kandidaten.
