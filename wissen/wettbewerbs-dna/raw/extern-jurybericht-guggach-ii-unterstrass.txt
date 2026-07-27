@@ -1,0 +1,1849 @@
+# Quelle: https://www.planzeit.ch/media/jurybericht_guggach_zuerich_kl.pdf (Jurybericht Wohnueberbauung Guggach II, Zuerich-Unterstrass, ca. 2014, 108 Seiten, abgerufen 2026-07-27)
+# Extrakt: pdftotext -layout, 108 Seiten, erstellt 2026-07-27
+
+WOHNÜBERBAUUNG GUGGACH II
+ZÜRICH–UNTERSTRASS
+BERICHT DES PREISGERICHTS
+                                      Inhalt
+
+
+
+Einleitung                                     5
+Ausgangslage                                   6
+Porträt Bauherrschaft                          6
+Perimeter und Umgebung                         6
+Aufgabe Projektwettbewerb                      7
+Ziele des Wettbewerbs                          8
+Verfahren                                      9
+Teilnehmerinnen und Teilnehmer                 9
+Preisgericht                               10
+Vorprüfung                                     11
+Beurteilung                                    11
+Rangierung                                     11
+Schlussfolgerungen und Empfehlung              12
+Impressionen Sitzungen Preisgericht            14
+Genehmigung                                    15
+Projektverfassende                             16
+Wettbewerbsprojekte                            19
+Impressum
+Herausgeberin:
+Pensionskasse der UBS
+
+Inhalt/Redaktion:
+Lelia Bollinger, planzeit
+Ina Hirschbiel Schmid, planzeit
+Tanja Reimer, planzeit
+
+Fotos:
+planzeit GmbH
+
+Modellfotos:
+Lukas Walpen Architekturfotograf
+
+Bezugsquelle:
+Pensionskasse der UBS
+
+Zürich, 11. Juni 2014
+                                                  Einleitung
+
+
+
+Die Pensionskasse der UBS beabsichtigt eine Wohnüberbauung auf
+dem Areal Guggach II am Fusse des Käferbergs zu erstellen. Es sollen
+moderne Wohnungen unterschiedlicher Grösse und Typologien mit
+hoher Wohnqualität und attraktiven Aussenräumen entstehen.
+Der Ort verspricht Lebensqualität: Wohnen direkt am Wald, in einem
+städtischen, sehr gut erschlossen Quartier – nicht weit vom Stadt-
+zentrum und Zürich West.
+Die Durchführung eines Projektwettbewerbs im selektiven Verfahren
+mit elf Teams hatte das Ziel, ein hervorragendes Projekt mit einer
+hohen Dichte von rund 240 Wohnungen auf den Weg zu bringen.
+Der Bericht des Preisgerichts dokumentiert diesen Weg bis hin zum
+ausgewählten Projekt, welches der Bauherrschaft zur Weiterbearbei-
+tung und Ausführung empfohlen wurde.
+Ausgangslage
+     Porträt Pensionskasse der UBS                                                    Perimeter und Umgebung
+     Die Pensionskasse der UBS wurde im Jahr 1999 bei der Fusion zwischen dem         Der Planungsperimeter umfasst die gesamte Parzelle UN4787 und ist 19’557
+     Schweizerischen Bankverein (SBV) und der Schweizerischen Bankgesellschaft        m2 gross. Er liegt am nördlichen Rand von Unterstrass direkt am Fusse des
+     (SBG) gegründet. Seit 2007 wird sie als umhüllende Pensionskasse im Bei-         Käferbergs zwischen der Käferholzstrasse und dem Familiengartenareal. Die
+     tragsprimat geführt. Sie ist solide finanziert und eine von UBS juristisch un-   Parzelle liegt in der Zone für Wohnbauten W3. Im Rahmen einer Arealüber-
+     abhängige Stiftung nach Schweizer Recht. Per Ende 2012 gehörten ihr rund         bauung kann eine maximale Ausnützung von 130% erreicht werden. Das Areal
+     23’000 Versicherte und rund 17‘000 Rentner an.                                   weist eine Neigung vom westlichen Übergang zur Käferholzstrasse nach Osten
+     Die Pensionskasse der UBS ist Eigentümerin von gesamtschweizerisch 157 Lie-      zu den Familiengärten hinunter auf. Der Zugang des Areals erfolgt über die
+     genschaften mit einem Anlagewert von rund CHF 2,5 Milliarden. Der Anteil         Käferholzstrasse.
+     der direkten Immobilienanlagen in der Schweiz bewegt sich heute bei rund
+     11.3% ihres gesamten Anlagevermögens. Die Pensionskasse der UBS investiert                                                                         W
+                                                                                                                                                           eh
+                                                                                                                                                           nta
+     in Wohn- und Geschäftshausobjekte sowie gemischte Nutzungen in grösseren                                                                               ler s
+                                                                                                                                                                    s
+                                                                                                                                                                tra
+     Städten, städtischen Agglomerationen oder regionalen Zentren der Schweiz.                                                                                   se
+
+
+     Im Wohnungsbau wird hochwertiger und attraktiver Wohnraum mit entspre-
+     chenden Anforderungen an die Architektur bevorzugt. Qualität und Nachhal-
+     tigkeit aber auch ökologische Grundsätze sind dabei wichtig.
+
+     Quartier Unterstrass
+                                                                                                 Kä
+                                                                                                  fer
+                                                                                                   holzs                                                e
+                                                                                                         ss                                          ass
+                                                                                                      tra
+                                                                                                        e                                         sen
+                                                                                                                                                     str
+                                                                                                                                                 fwie
+                                                                                                                                                Ho
+
+
+
+
+                                                                                      Innerhalb der räumlichen Entwicklungsstrategie der Stadt Zürich (RES) gehört
+                                                                                      das Gebiet Guggach zum durchgrünten Stadtkörper mit einer offenen Bau-
+                                                                                      struktur, das weiter entwickelt und gegenüber dem Bestand verdichtet werden
+                                                                                      soll. Das städtebauliche Umfeld ist sehr heterogen von Ein- und Mehrfamili-
+                                                                                      enhäusern aus unterschiedlichen Epochen mit unterschiedlicher Körnung ge-
+
+
+
+            6
+                                                                                                                                       Ausgangslage
+prägt. Das zu beplanende Areal der Pensionskasse der UBS liegt in räumlicher     mit der Ausbildung des Erdgeschosses Rechnung getragen werden.
+Nachbarschaft zur geplanten Wohnüberbauung Guggach I mit 200 Eigentums-
+wohnungen der Allreal-Gruppe und der Neubausiedlung der Genossenschaft           Aufgabe Projektwettbewerb
+der Strassenbahner, die auch Guggach 8 genannt wird. Die Lage ist jedoch von
+der Hofwiesenstrasse zurückversetzt mit starkem Bezug zum Wald.                  Allgemein
+Die Adressbildung des Entwicklungsortes ist von städtebaulich grosser Bedeu-     Die Auftraggeberin ist bestrebt auf dem Areal Guggach II mindestens 240 sowohl
+tung und soll mittels Bebauung deutlich gemacht werden. Dabei gilt es zur        städtebaulich wie auch architektonisch qualitätsvolle Mietwohnungen zu erstel-
+Qualitätssicherung sowohl typologische aber auch quantitative Festlegungen       len, welche das Areal optimal ausnützen und gleichzeitig eine hohe Lebensqua-
+zu treffen und die vielfältige Wohnstadt im durchgrünten Stadtkörper weiter      lität an diesem Ort ermöglichen.
+durch Verdichtung zu entwickeln.
+Damit das Projekt auf der Parzelle Guggach II eine Identität bekommt, werden     Mieterschaft/ Zielpublikum
+vor allem die Nähe zum Waldrand als auch die anschliessenden Erholungsge-        Aufgrund seiner zentralen Lage und Nähe zum Wald sowie verschiedenen Erho-
+biete für die Auseinandersetzung mit dem Kontext, der verträglichen Dichte,      lungsgebieten eignet sich das Areal Guggach II optimal für Familienwohnungen.
+der Gebäudehöhe und dem Überbauungsgrad wichtig sein, wobei die Hofwie-          Als Folge der Nachbarschaft zum Waidspital, zur Uni Irchel, zur ETH Höngger-
+senstrasse aufgrund ihrer Distanz nicht mehr raumdominierend ist.                berg und der nahen Verbindung zum Flughafen gehören aber auch ältere Men-
+Die geplanten Massnahmen sollen mit der Landschafts- und Freiraumquali-          schen, Singles, Wochenaufenthalter (z.B. Dozenten) und Paare ohne Kinder zum
+tät abgestimmt werden, wobei Brüche zwischen Bebauungsstruktur und Um-           Zielpublikum dieser Überbauung.
+gebung vermieden werden sollen. Das Projekt Guggach II soll als Vermittler
+zwischen der Überbauung Guggach I und der Erholungs- und Waldzone funk-          Städtebauliche Setzung
+tionieren. Um eine Kontinuität der vorhandenen baulichen Entwicklung zu          Die Setzung der Baukörper soll positive Freiräume schaffen, welche entspre-
+gewährleisten, wird ebenfalls die Beziehung der Bauten zueinander entschei-      chend dem verdichteten Bebauungsmuster ausgezeichnet zu gestalten sind.
+dend sein. In diesem Sinn hat das Amt für Städtebau gemeinsam mit der Besit-     Die Neubauten sollen sich typologisch und optisch möglichst harmonisch in die
+zerin der Grundstücke eine erste volumetrische Studie vorgenommen, die als       Nachbarschaft einfügen und auf den unterschiedlichen Kontext (Wald/ Famili-
+Grundlage für den Wettbewerb konsultiert werden sollte.                          engärten/ Wohnbauten) Bezug nehmen. Die Wohnbauten fügen sich selbstver-
+Die aufgelockerte Baustruktur spiegelt sich in den Gebietstypologien wider       ständlich in das neue Quartier ein und übernehmen die bereits angedachten
+und grenzt sich nicht gegenüber ihrer Umgebung ab. Die städtebauliche und        fussläufigen Verbindungen von und zum Areal in ihrer Anordnung auf.
+architektonische Erscheinung soll zurückhaltend und klar formuliert sein, soll
+die räumliche Durchlässigkeit am Siedlungsrand und an der Hanglage berück-       Wohnungsschlüssel
+sichtigen und im Übergang zu den Familiengärten sowie zum Freiraum, Wald         Für das Areal sind Neubauten in nachhaltiger Bauweise mit 1½-,2½-, 3½-, 4½-
+und Friedhofsgebiet vermitteln. Gleichzeitig soll die Bebauung entlang des       und 5½ - Zimmer-Wohnungen zu planen. Gefordert sind räumlich gut gestaltete
+Siedlungsrandes eine diskrete Urbanität mit qualitativ hochstehenden Freiräu-    Grundrisse, welche über einen hohen Gebrauchswert sowie über eine flexible
+men ermöglichen. Der knappen Besonnung durch die Nähe zum Wald muss              Möblierbarkeit verfügen. Beim Wohnungsgrundriss ist auf ein flächenoptimier-
+
+
+
+                                                                                                                                                      7
+Ausgangslage
+     tes Layout zu achten, welches die geforderten Grössen ideal umsetzt. Der Aus-     Ziele Projektwettbewerb
+     baustandard befindet sich im mittleren bis gehobenen Bereich.                     • Städtebaulich und architektonisch qualitätsvolle, zeitgemässe Wohnbauten,
+                                                                                         die sich sensibel ins Quartier einbinden.
+     Kindergarten/ Hort/ Erdgeschossnutzung                                            • Projekte mit maximal verträglicher Dichte, welche den Anforderungen an
+     Im Erdgeschoss ist zusätzlich zum Wohnen ein Doppelkindergarten mit einem           eine besonders gute Architektur und Einordnung entsprechen.
+     Hort vorgesehen. Der zugehörige Aussenraum ist optimal in die Siedlung zu in-     • Adäquater Umgang mit den nahestehenden Erholungszonen (Wald/ Famili-
+     tegrieren.                                                                          engärten).
+     Weitere, identitätsstiftende und zur Lebendigkeit des Quartiers beitragende       • Überzeugende Projekte, die das breite Spektrum von öffentlich, halböffent-
+     Nutzungen im Erdgeschoss sind je nach Projekt denkbar. Aus diesem Grund wird        lich und privat nutzbarem Aussenraum im Erdgeschoss vereinbaren können.
+     im Erdgeschoss ein nutzungsneutrales Grundriss-Layout empfohlen, sodass die       • Optimale Wohnungs-Layouts und Konzepte, die effizient mit den geforderten
+     Räumlichkeiten später auch wieder als Wohnungen genutzt werden könnten.             Wohnungsgrössen umgehen und das vorgeschriebene Raumprogramm und
+                                                                                         die formulierten Anforderungen bestmöglich umsetzen.
+     Aussenraum                                                                        • Wirtschaftlich vorbildliche Projekte, die ein optimales Verhältnis von Kosten
+     Für jede Wohneinheit ist ein privater, gut zu möblierender und der Wohnungs-        und Nutzen aufweisen sowie geringe Betriebs- und Unterhaltskosten ge-
+     grösse angemessener Aussenraum einzuplanen. Die Lage am Waldrand umgeben            währleisten.
+     von Familiengärten ist prädestiniert für Wohnen bis ins Erdgeschoss. Dement-      • Die Neubauten sollen den Minergie-P-Eco Standard erreichen, damit sind
+     sprechend sind auch private Vorzonen der Erdgeschosswohnungen erwünscht.            auf Stufe Wettbewerb auch die Anforderungen der 2000 Watt Gesellschaft
+     Mit der Gestaltung der gemeinsam genutzten Aussenräume soll die Wohnquali-          zu erfüllen.
+     tät zusätzlich aufgewertet werden. Eine sorgfältige, qualitativ hochwertige Ge-
+     staltung der Aussenräume sowie eine Bezugnahme auf die umliegenden Bebau-
+     ungen sowie Freiräume sind dabei zu beachten.
+
+
+
+
+            8
+                                                                                                    Verfahren, Teilnehmende
+Auftraggeberin und Art des Verfahrens                                            Teilnehmerinnen und Teilnehmer
+Die Pensionskasse der UBS veranstaltete einen anonymen, einstufigen Projekt-     • Von Ballmoos Krucker Architekten Zürich;
+wettbewerb im selektiven Verfahren. Im Rahmen der Präqualifikation nahm            Schweingruber Zulauf Landschaftsarchitekten Zürich
+das Preisgericht aufgrund der eingereichten Bewerbungsunterlagen eine Se-        • Abraha Achermann Architekten Zürich;
+lektion nach Eignung vor. Es wurden zwölf Bewerber, darunter zwei Nach-            Kolb Landschaftsarchitektur Zürich
+wuchsbüros, für den Projektwettbewerb ausgewählt.                                • ARGE Gigon Guyer Architekten und Ghisleni Planen Bauen Zürich;
+                                                                                   Vetsch Partner Landschaftsarchitekten Zürich
+Der Projektwettbewerb unterstand nicht dem öffentlichen Beschaffungswe-          • Marcel Meili, Markus Peter Architekten Zürich;
+sen. Der Projektwettbewerb orientierte sich an der Ordnung SIA 142 mit fol-        Planetage Landschaftsarchitekten Zürich
+genden Ausnahmen:                                                                • Kaschka Knapkiewicz + Axel Fickert Architekten Zürich;
+  paritätische Zusammensetzung der Jury                                            Andreas Tremp Landschaftsarchitekt Zürich
+  Regelung Nutzungsrecht                                                         • Gmür & Geschwentner Architekten Zürich;
+                                                                                   Nipkow Landschaftsarchitektur Zürich
+Beurteilungskriterien
+                                                                                 • Märkli Architekt Zürich;
+Die Beiträge wurden durch das Preisgericht nach folgenden Kriterien beurteilt,     Müller Illien Landschaftsarchitekten Zürich
+die Reihenfolge entsprach keiner Gewichtung:                                     • Esch.Sintzel Architekten Zürich,
+                                                                                   Lorenz Eugster Landschaftsarchitektur und Städtebau Zürich
+Städtebau, Architektur, Aussenraum
+                                                                                 • Vukoja Goldinger Architekten Zürich;
+  Einbindung in den stadträumlichen Kontext, Umgebungsgestaltung mit Auf-          Hoffmann & Müller Landschaftsarchitektur Zürich
+  enthaltsqualität, Erschliessung und Adressbildung                              • Bachelard Wagner Architekten Basel;
+                                                                                   Berchtold Lenzin Landschaftsarchitekten Liestal
+Funktionalität
+                                                                                 • Morger + Dettli Architekten Basel;
+  Gebrauchswert der Anlage, Einhaltung Raumprogramm und betrieblicher              Westpol Landschaftsarchitektur Basel
+  Anliegen mit hoher Wohnqualität                                                • Emwe Architekten Zürich;
+                                                                                   Tur & Partner Landschaftsarchitektur Zürich
+Wirtschaftlichkeit
+
+  Einhaltung Kostenrahmen, kostengünstige Betriebs- und Unterhaltskosten,        Das Team Esch.Sintzel Architekten und Lorenz Eugster Landschaftsarchitekt
+  schlanke, effiziente Gebäudelayouts (Statik/ Leitungsführung/ Technik etc.)    und Städtebau sagte direkt nach der Auswahl seine Teilnahme am Verfahren
+                                                                                 ab. Das Team Helle Architektur mit Schmid Landschaftsarchitekten wurde ge-
+Ökologische Nachhaltigkeit (Energiebilanz/ Bauökologie)
+                                                                                 mäss Beschluss Preisgericht nachfolgend zur Teilnahme eingeladen.
+Folgende Teilnehmerteams wurden durch das Preisgericht gemäss Präqualifi-        Das Team Morger + Dettli Architekten mit Westpol Landschaftsarchitektur ent-
+kationsentscheid für den Projektwettbewerb ausgewählt:                           schuldigte seine weitere Teilnahme am Verfahren zu einem späteren Zeitpunkt.
+
+
+
+                                                                                                                                                    9
+Preisgericht
+     Preisgericht
+
+     Sachjury:
+     • Peter Schweizer, Pensionskasse der UBS
+     • Volker Trommsdorff, Pensionskasse der UBS
+     • Bruno Kurz, Wincasa
+     • Andreas Ammann, Wüest und Partner
+     • Andreas Daenzer, Pensionskasse der UBS (Ersatz)
+
+     Fachjury:
+     • Peter Ess, Architekt (Vorsitz)
+     • Matthias Ackermann, Architekt
+     • Martina Voser, Landschaftsarchitektin
+     • Pascal Hunkeler, Amt für Städtebau
+     • Bettina Neumann, Architektin (Ersatz)
+
+     Experten:
+
+     • Projektökonomie: Werner Abplanalp, Abplanalp Affolter Partner
+     • Wirtschaftlichkeit: Ivan Antòn, Wüest und Partner, Zürich
+     • Nachhaltigkeit: Jörg Lamster, Durable
+
+
+     Vorprüfung und Sekretariat:
+
+     • Lelia Bollinger, Ina Schmid, planzeit
+
+
+
+
+            10
+                                                                                                                                              Vorprüfung
+Vorprüfung
+
+Die elf eingereichten Projekte wurden gemäss den Anforderungen des Pro-          In einem ersten Wertungsrundgang wurden die Projekte Nr. 01 «CHOCOLATE»
+gramms beurteilt, folgende Punkte wurden bei der Vorprüfung berücksichtigt:      und Nr. 08 «Raumsäulen» ausgeschieden.
+                                                                                 In einem zweiten Rundgang wurden die Projekte Nr. 03 «FOREST FLOWER SUN-
+       Termingerechtigkeit der eingereichten Projektunterlagen                   RISE», Nr. 04 «Die vier Kammern», Nr. 05 «JIM & JULES» und Nr. 07 «ADÈLE
+       Vollständigkeit der eingereichten Projektunterlagen                       35» ausgeschieden. Die Projekte Nr. 02 «Islay», Nr. 06 «BILROS», Nr. 09 «San-
+       Einhaltung Perimeter                                                      torin», Nr. 10 «Air de cour» und Nr. 11 «NEW HAVEN» waren in der engeren
+       Einhaltung der baurechtlichen Vorgaben, baupolizeilichen Vorschriften     Wahl, sie wurden intensiv diskutiert und miteinander verglichen.
+       Erfüllung Raumprogramm und Funktionalität
+       Betriebliche und funktionelle Qualitäten des Projekts                     Am zweiten Jurierungstag wurden die Ergebnisse der vertieften Vorprüfung
+       Anforderungen im Aussenraum                                               der engeren Wahl dem Preisgericht präsentiert. Nach einer Beratung der Pro-
+       Konstruktion                                                              jektbeschriebe, einer weiteren Diskussion und Erörterung der Qualität der
+       Erschliessung und Parkplätze                                              Projekte der engeren Wahl wurde dem Antrag aus dem Preisgericht stattgege-
+       Wirtschaftlichkeit und Grobkostenvergleich                                ben, das Projekt Nr. 07 «ADÈLE 35» statt dem Projekt Nr. 11 «NEW HAVEN» in
+       Nachhaltigkeit                                                            die engere Wahl und zur Preiszuteilung aufzunehmen. Das Preisgericht emp-
+                                                                                 fiehlt das Projekt Nr. 09 «Santorin» zur Weiterbearbeitung und Ausführung.
+Der Bericht der beigezogenen Experten zur Kostenermittlung, Wirtschaftlich-
+keit und Nachhaltigkeit wurden im Vorprüfungsbericht berücksichtigt. Die         Rangierung
+Vorprüfung beantragte beim Preisgericht, alle elf Projekte zur Beurteilung zu-
+zulassen.                                                                        Für Preise, Ankäufe und feste Entschädigungen stand im Rahmen dieses Wett-
+                                                                                 bewerbs eine Summe von CHF 250‘000.- (exkl. MwSt.) zur Verfügung. Jedes zur
+Beurteilung                                                                      Beurteilung zugelassene Projekt erhält eine eine feste Entschädigung von CHF
+                                                                                 10‘000.– (exkl. MwSt.). Das Preisgericht setzte die folgende Rangierung und
+Das Preisgericht tagte am 09. Mai und 02. Juni 2014. Nach einer gemeinsamen      Preiszuteilung fest:
+Arealbesichtigung und einer freien Besichtigung der Projekte nahm das Preis-
+gericht am ersten Jurierungstag vom Ergebnis der Vorprüfung Kenntnis und                1. Rang       «Santorin»		                1. Preis      Fr. 40‘000,--
+liess sämtliche Projekte zur Beurteilung zu.                                            2. Rang       «Air de cour»		             2. Preis      Fr. 35‘000,--
+                                                                                        3. Rang       «ISLAY»		                   3. Preis      Fr. 27‘000,--
+Am ersten Jurierungstag hat das Preisgericht – in Gruppen eingeteilt – zu-              4. Rang       «ADÈLE 35»                  4. Preis      Fr. 20‘000,--
+nächst alle Projekte geprüft, präsentiert und aufgrund der Kriterien eingehend          5. Rang       «BILROS»		                  5. Preis      Fr. 18‘000,--
+diskutiert. Anschliessend wurden die Projekte bezüglich ihrer konzeptionellen
+Ansätze verglichen und beurteilt.
+
+                                                                                                                                                     11
+Schlussfolgerungen
+     Schlussfolgerungen
+     Die Aufgabenstellung für den Projektwettbewerb Guggach II ist ausserordent-       entsteht ein in sich geschlossener Siedlungskörper, welcher mit dem Bebau-
+     lich anspruchsvoll und bewegt sich in verschiedener Hinsicht im Grenzbereich.     ungsmuster des Milchbuckquartiers wenig zu tun hat. Auch die erwartete Be-
+     Einerseits ist die Bauherrschaft darauf angewiesen, auf dem Areal die bestmög-    bauungsdichte sprengt den Rahmen des Milchbuckquartiers. Im Bebauungs-
+     liche Ausnützung zu erzielen, um – trotz dem hohen Landwert – Wohnungen           plan von Konrad Hippenmeier um 1936 war das Areal auch als Freihaltebereich
+     anbieten zu können, welche dem Ort angemessene Mieten aufweisen. Ande-            nicht zur Überbauung vorgesehen. Die Diskussionen im Preisgericht konzent-
+     rerseits werden trotz der verdichteten Bauweise qualitativ hochwertige Frei-      rierte sich daher auf die räumlichen Qualitäten im unmittelbaren Umfeld, ins-
+     räume, eine Vernetzung zum umliegenden Landschaftsraum, eine gute Anbin-          besondere um den Anschluss an die Siedlung Guggach I, die Raumbildung zum
+     dung zur Nachbarüberbauung Guggach I sowie eine einladende, durchgängige          Waldsaum des Käferbergs, den Übergang zum Familiengartenareal sowie die
+     Wegführung durch die Siedlung erwartet.                                           Aussenraummodulation im Siedlungsgefüge und die Durchwegung des Areals.
+     Als Zielpublikum ist eine mittelständische Mieterschaft zu vermuten, welche               Siedlungsqualitäten im Aussenraum: Die Strukturierung und Ausgestal-
+     Wohnungen im gehobenen Preissegment nachsucht. Trotzdem sollen die Woh-           tung des Siedlungsaussenraums ist für eine Überbauung mit 240 Wohnungen
+     nungsgrössen – nicht zuletzt auch aus Kostengründen – einen eher sparsamen        grundsätzlich wichtig. In Anbetracht des Ortes mit den starken umliegenden
+     Flächenbedarf aufweisen. Im Nachhaltigkeitsbereich wird das anspruchsvolle        Freiraumstrukturen, der präsenten Topografie und der geplanten städtischen
+     Level Minergie-P-Eco angestrebt.                                                  Dichte waren die Verfassenden gefordert, ein spezifisches Konzept zu entwi-
+             Das Preisgericht ist beeindruckt über die Vielfalt von Lösungen die der   ckeln. Dabei galt es nicht nur, auf die unterschiedlichen Körnungen des Kontex-
+     Wettbewerb hervorgebracht hat. Zudem ist bemerkenswert, dass sich die Pro-        tes zu reagieren und so die ökologische Vernetzung zu garantieren. Vielmehr
+     jekte bezüglich Wirtschaftlichkeit und Nachhaltigkeit in einem engen Rahmen       musste ein starker Charakter entworfen werden, der gleichzeitig Identität stif-
+     bewegen. Der Fokus der Preisgerichtsdiskussion konnte daher in erster Linie       tet und eine grosse Vielfalt an Qualitäten anbietet. Das vorgeschlagene Bild
+     auf die Projektqualitäten gerichtet werden. Dabei standen insbesondere die        und die Bespielbarkeit der Aussenräume wurden im Hinblick auf den erwar-
+     Themen Wohnungsqualität, städtebauliche Setzung, Umgang mit dem Frei-             teten Nutzungsdruck intensiv diskutiert. Dabei lag ein Augenmerk auf dem
+     raum, Vernetzung mit dem Landschaftsraum und der Nachbarüberbauung im             Angebot an privateren, hauszugehörigen Aussenräumen für unterschiedliche
+     Vordergrund.                                                                      Benutzergruppen, was wichtig zur Entwicklung eines Gemeinschaftslebens ist.
+             Das Preisgericht bedankt sich bei allen Teilnehmerinnen und Teilneh-      Des Weiteren wurde in diesem Zusammenhang die Ausgestaltung des Über-
+     mer für die interessanten Beiträge und die geleistete Arbeit. Sie ermöglichten    gangs zu den privaten Aussenräumen der Erdgeschosswohnungen diskutiert.
+     eine umfassende und differenzierte Diskussion und eine gute Güterabwägung         Eine klare Adressbildung und eine gute Auffindbarkeit der Hauszugänge ist
+     der verschiedenen Aspekte. Die nachfolgenden Themen wurden im Preisge-            bei einer Siedlung dieses Ausmasses ein sehr wichtiger Aspekt. In Anbetracht
+     richt wie folgt diskutiert:                                                       des angrenzenden Naherholungsgebietes war es der Jury jedoch ein Anliegen,
+             Städtebau: Die Geländekammer zwischen Bucheggplatz, Hofwiesens-           dass auch Nichtbewohner eingeladen werden die Siedlung zu durchqueren.
+     trasse und Käferholzstrassse blieb – mit Ausnahme der Bauten am Buchegg-
+     platz – bis vor kurzem unbebaut und wird jetzt mit den Überbauungen Guggach
+     8, Guggach I und Guggach II nahezu gleichzeitig vollständig überbaut. Durch
+     die starke Zäsur mit dem Familiengartenareal und dem westlichen Waldsaum
+
+            12
+                                                                                 Schlussfolgerungen, Empfehlung
+        Wohnungen: Aufgrund der speziellen Lage der Siedlung hatte die Be-       Empfehlungen zur Weiterbearbeitung:
+lichtung der Wohnungen einen grossen Stellenwert in der Diskussion des           Das Preisgericht empfiehlt der Bauherrschaft das Projekt Nr. 9 «Santorin»
+Preisgerichtes. Die klassische Beurteilung der Grundrissqualitäten nach Him-     unter Berücksichtigung der Hinweise im Projektbeschrieb sowie der nach-
+melsrichtungen erwies sich als nicht sehr ergiebig, da nach Süden die 25 Meter   folgenden Empfehlungen zur Weiterbearbeitung und Ausführung.
+hohe Siedlung Guggach I entsteht und auf der Westseite aufgrund des mäch-
+tigen Waldsaums zum Käferberg kaum grosse Sonnenuntergänge zu erwarten                  Das Aussenraumkonzept muss grundsätzlich verfeinert werden, vor al-
+sind. Gegen die in der Regel weniger begehrte Nord-Ost-Ausrichtung eröffnet      lem die mittlere Hofkammer und die Gestaltung der Eingangssituationen sind
+sich aber eine attraktive Fernsicht ins Glattal, welche auch als Wohnungsqua-    zu überarbeiten. Es sind zusätzliche Bäume in den Höfen zu pflanzen.
+lität zu werten ist. Die Diskussion ergab, dass Wohnungsvorschläge, die un-
+terschiedliche Ausrichtungen aufweisen und mehrere Ausblicke ermöglichen,               Im Attikabereich orientieren sich über zwei Geschosse mehrere Woh-
+unabhängig von der Besonnungssituation eine Bereicherung darstellen. Eben-       nungen zum Aussenbereich, in der weiteren Überarbeitung sind die gegensei-
+so erschliessen Projekte mit einer grossen Vielfalt von Wohnungsgrundrissen      tigen Einsichtsmöglichkeiten zu beachten.
+ein grösseres Mieterpotenzial, da ganz unterschiedliche Wohnvorstellungen
+bedient werden können. Zudem wird dadurch die Diskussion über die „op-                Die beengten räumlichen Situationen in den Küchen der 5 ½ Zimmer-
+timale Wohnungsausrichtung“ stark relativiert. Entwürfe mit einer grossen        wohnungen sind zu überarbeiten.
+Wohnungsvielfalt wurden daher Projekten vorgezogen, welche im Grundsatz
+eine spezifische Wohnungstypologie mit kleinen Variationen über die ganze              Die Materialisierung der Fassaden ist im weiteren Projektverlauf zu
+Überbauung vorschlugen.                                                          überprüfen.
+        Es zeigte sich, dass mit wenigen Ausnahmen die Projekte ein gutes Po-
+tenzial aufweisen, die angestrebten Nachhaltigkeitsziele zu erreichen. Auch            Ein effizientes Schachtsystem muss ins Grundrisskonzept eingearbeitet
+bezüglich der Wirtschaftlichkeit liegen alle Projekte in einem engen Bereich.    werden.
+Diesbezüglich wird die Wohnungsqualität und damit die Höhe des Mietzinses,
+welcher für die vorgeschlagenen Wohnungen am Markt erreicht werden kann                 Die knapp überschrittene Ausnützung ist in der weiteren Projektierung
+mindestens gleichbedeutend sein, wie die Erstellungskosten der Wohnungen.        zu korrigieren.
+Angesichts des hohen Landkostenanteils am Mietzins ist eine hohe Wohnungs-
+qualität – trotz dem sparsamen Flächenbedarf der Wohnungen – eine zentrale
+Voraussetzung für eine erfolgreiche Vermietung.
+        Aufgrund dieser Auslegeordnung kommt das Preisgericht zum Schluss,
+dass das Projekt Nr. 9 «Santorin» die gestellten Anforderungen am umfas-
+sendsten erfüllt.
+
+
+
+
+                                                                                                                                                     13
+Impressionen Sitzungen Preisgericht
+                                           Genehmigung
+Zürich, 02. Juni 2014 – Das Preisgericht
+Projektverfassende
+    Empfehlung zur Weiterbearbeitung
+    1. Rang, 1. Preis                                                           3. Rang, 3. Preis
+    Projekt 09        Santorin                                                  Projekt 02     ISLAY
+
+
+    Architektur 		                  Kaschka Knapkiewicz + Axel Fickert          Architektur 		            Abraha Achermann Architekten, Zürich
+    		Architekten, Zürich                                                       Verantwortlich		          Daniel Abraha, Stephan Achermann
+    Verantwortlich		                Kaschka Knapkiewicz + Axel Fickert          Mitarbeit 		              Deborah Vetsch, Florian Poppele,
+    Mitarbeit 		                    Fabio Schneller, Christian Maag,            		                        Laura Hunziker, Michelle Geilinger
+    		                              Ottavia Sigrist, Alex Domin                 Landschaftsarchitektur    Kolb Landschaftsarchitektur, Zürich
+    Landschaftsarchitektur          Tremp Landschaftsarchitekten, Zürich        Verantwortlich		          Thomas Kolb
+    Verantwortlich		                Andreas Tremp                               Ingenieure		              Schnetzer Puskas Ingenieure, Basel
+    Mitarbeit		                     Reto Abegg                                  Bauphysik		               Raumanzug, Zürich
+    Baumanagement                   GMS Partner, Zürich-Flughafen
+    Holzbau		                       Holzbaubüro Reusser, Winterthur
+    Ingenieure		                    Dr. Lüchinger + Meyer Bauingenieure,        4. Rang, 4. Preis
+    		Zürich                                                                    Projekt 07     ADÈLE 35
+    Bauphysik		                     BWS Bauphysik, Winterthur
+                                                                                Architektur 		            Bachelard Wagner Architekten, Basel
+                                                                                Verantwortlich		          Cédric Bachelard
+    2. Rang, 2. Preis                                                           Mitarbeit 		              Patrick Ayer, Julien Rey, Jennifer Gend,
+    Projekt 10        Air de cour                                               		                        Hervé Doutaz, Julia Brandenburg,
+                                                                                		Sven Schröter
+    Architektur 		                  VUKOJA GOLDINGER Architekten, Zürich        Landschaftsarchitektur    Berchtold.Lenzin Landschaftsarchitekten,
+    Verantwortlich		                Ivana Vukoja                                		Liestal
+    Mitarbeit 		                    Jon Garbizu Etxaide                         Verantwortlich		          Christian Lenzin
+    Landschaftsarchitektur          Hoffmann & Müller Landschaftsarchitektur,   Mitarbeit		               Lars Uellendahl, Helena Novais Gomes
+    		Zürich                                                                    Bauphysik		               Gartenmann Engineering, Basel
+    Verantwortlich		                Andreas Hoffmann
+    Mitarbeit 		                    Ana Navarro
+    Baumanagement                   b + p baurealisation, Zürich
+    Holzbau		                       Pirmin Jung, Ingenieure für Holzbau, Rain
+    HLKKS-Planung		                 Consultair, Zürich
+
+
+
+                 16
+                                                                                                       Projektverfassende
+
+5. Rang, 5. Preis                                                        Projekt 04     Die vier Kammern
+Projekt 06     BILROS
+                                                                         Architektur 		                Meili Peter Architekten, Zürich
+Architektur 		             von Ballmoos Krucker Architekten, Zürich      Verantwortlich		              Nathanaël Chollet
+Verantwortlich		           Thomas von Ballmoos                           Mitarbeit 		                  Marcel Meili, Markus Peter,
+Mitarbeit 		               Sofia Pimentel, Philipp Ullrich, Kirstin      		                            Patrick Rinderknecht, Benjamin Melly,
+		                         Leibundgut, Marcello Concari                  		                            Lukas Eschmann, Aidan O‘shea
+Landschaftsarchitektur     Schweingruber Zulauf,                         Landschaftsarchitektur        planetage Landschaftsarchitekten, Zürich
+		Landschaftsarchitekten, Zürich                                         Verantwortlich		              Marceline Hauri
+Verantwortlich		           Lukas Schweingruber                           Verkehrsplanung               IBV Hüsler, Zürich
+Baumanagement              GMS Partner, Zürich-Flughafen                 Energie+Technik               Ernst Basler + Partner, Zürich
+                                                                         Architekturvisualisierungen   nightnurse images, Zürich
+
+
+Projekt 01     CHOCOLATE
+                                                                         Projekt 05     JIM & JULES
+Architektur 		             emwe Architekten, Zürich
+Verantwortlich		           Barbara Walser                                Architektur 		                Märkli Architekt, Zürich
+Mitarbeit 		               Ersan Kilic, Linda Schaub                     Verantwortlich		              Sebastian Pater
+Landschaftsarchitektur     tur & partner, Landschaftsarchitekt, Zürich   Mitarbeit 		                  Linghui Huang, Martin Rathgeb,
+Verantwortlich		           Boris Tur                                     		                            Marchet Saratz, Claudia Zimmermann
+Ingenieure		               adali engineering, Wallisellen                Landschaftsarchitektur        Müller Illien Landschaftsarchitekten, Zürich
+Bauphysik		                a und b Bauphysik, Winterthur                 Verantwortlich		              Rita Illien
+
+
+
+Projekt 03     FOREST FLOWER SUNRISE
+
+
+Architektur 		             Gmür & Geschwentner Architekten, Zürich
+Verantwortlich		           Gabriel Gmür
+Mitarbeit 		               Jan Zangerl
+Landschaftsarchitektur     Nipkow Landschaftsarchitektur, Zürich
+Verantwortlich		           Beat Nipkow
+
+
+
+                                                                                                                                         17
+Projektverfassende
+      Projekt 08     Raumsäulen
+
+
+      Architektur 		              Gigon/ Guyer Architekten, Zürich
+      Verantwortlich		            Stefan Thommen
+      Mitarbeit 		                Urs Meyer, Janine Erzinger, Leyla Ilman,
+      		                          Lukas Mühle, Eva Rosenova
+      Landschaftsarchitektur      vetschpartner Landschaftsarchitekten,
+      		Zürich
+      Verantwortlich		            Nils Lüpke
+      Mitarbeit		                 Lilla Szabo
+      Ingenieure		                Dr. Lüchinger + Meyer Bauingenieure, Zürich
+      HLKS                        Berchtold, Ingenieurbüro für Energie und
+      		Haustechnik
+      Bauphysik		                 BAKUS Bauphysik & Akustik, Zürich
+
+
+
+      Projekt 11     NEW HAVEN
+
+
+      Architektur 		              Helle Architektur, Zürich
+      Verantwortlich		            Annette Helle
+      Mitarbeit 		                Corinne Huwyler, Nicoló Suzani, Anna Rosa,
+      		                          András Varga, Gabriela Steiner,
+      		Martin Arnold,
+      		Rosemarie Ruoss
+      Landschaftsarchitektur      Schmid Landschaftsarchitekten, Zürich
+      Verantwortlich		            André Schmid
+      Mitarbeit		                 Andrea Ferles
+
+
+
+
+         18
+Projekte
+Kaschka Knapkiewicz + Axel Fickert Architekten
+Santorin
+Empfehlung zur Weiterbearbeitung
+
+
+
+                         Projekt 09		                Santorin
+                         		                          1. Rang, 1. Preis
+
+
+                         Architektur 		              Kaschka Knapkiewicz + Axel Fickert Architekten, Zürich
+                         Landschaftsarchitektur      Tremp Landschaftsarchitekten, Zürich
+
+
+
+                  Ausgangslage für die städtebauliche Setzung stellt eine intensive Auseinandersetzung mit den spezifischen, räumlichen Qualitäten
+                  der näheren Umgebung dar. Die Hofbildung der Siedlung Guggach I und deren volumetrische Andeutung eines weiteren Hofrau-
+                  mes gegen Norden, die raumbildende Qualität des Waldrandes und die Weiträumigkeit der Schrebergartensiedlung werden als
+                  ordnende, entwurfsgenerierende Elemente interpretiert. Ausgehend von der vertieften Analyse des Ortes schlagen die Verfasser
+                  zwei komplexe Baukörper vor, welche einen gemeinsamen Hofraum bilden. Der südliche Baukörper, nimmt die vage Einladung an
+                  und generiert zusammen mit der benachbarten Siedlung Guggach I einen weiteren, hofartigen Binnenraum. Aufgrund der differen-
+                  zierten Setzung zeigt sich entlang der Hofwiesenstrasse bis zum Friedhof Nordheim eine Sequenz unterschiedlicher, spannungs-
+                  voller Hofvarianten mit dem leicht konischen, nördlichen Baukörper als adäquater Abschluss. An der Käferholzstrasse weichen
+                  die zwei westlichen Gebäudeteile vom Strassenraum zurück, so dass sie im Zusammenspiel mit dem mächtigen Waldrand eine
+                  räumlich gefasste Zugangssituation bilden und damit der gesamten Siedlung eine klare Adressbildung verschaffen. Die geschickt
+                  abgewinkelten Baukörper integrieren sich wie Passstücke in die Landschaft und werden zusammen mit der benachbarten Siedlung
+                  zum markanten Abschluss des Siedlungsraumes. Ebenfalls positiv beurteilt wird die Durchlässigkeit der Anlage über die räumlich
+                  spannungsvolle Verbindung zwischen Waldrand, Binnenraum und Schrebergartenareal. Der Anbindung der neuen Siedlung in
+                  Richtung Hofwiesenstrasse und zur Tramhaltestelle Radiostudio wird zu wenig Rechnung getragen. Nicht zu überzeugen vermag
+                  die allzu formale, wenig gebrauchstaugliche Ausgestaltung des Hofes. An sich ist der Ansatz, die Mitte als nicht betretbare Narzis-
+                  senwiese anzulegen spannend, die Begegnungszonen vor den Eingängen sind demzufolge aber zu klein ausformuliert und werden
+                  von den Veloabstellplätzen dominiert. Die Eingangssituation zwischen Siedlungsplatz und Wald gleicht einer Restfläche, der zent-
+                  rale Kreis wirkt zu formal. Auf dem Eingangsniveau schaffen chaussierte Vorgärten die nötige Distanz zu den Erschliessungswegen.
+                  An wenigen, exponierten Lagen werden Gemeinschaftsräume vorgeschlagen, was durchaus vorstellbar ist. Positiv beurteilt wird
+                  die Anbindung der Siedlung an das vorhandene Wegsystem. Das Aussenraumkonzept lässt eine grosse Vielfalt an unterschiedli-
+                  chen Stimmungen und Aufenthaltsmöglichkeiten erwarten. Überzeugend ist der Umgang mit dem Kontext: die differenzierte Aus-
+                  formulierung vom Hof und den Rändern schafft eine Grosszügigkeit und lässt die Siedlung mit der Nachbarschaft verweben. Der
+                  Fliedersaum zur klaren Abtrennung der privaten Aussenräume lässt zusammen mit den weiteren vorgeschlagenen Gehölzen eine
+                  Inszenierung der Jahreszeiten erwarten, das Abstandsgrün zu den Rändern hin wird im Hinblick auf das kleinkörnige Vis-à-Vis mit
+                  den Familiengärten kritisch beurteilt. Alles in Allem vermag die detaillierte Aussenraumgestaltung noch nicht restlos zu überzeu-
+                  gen. In Anbetracht der Länge der Gebäudekörper wäre ein bewussterer und stärkerer Einsatz von Gehölzen wünschenswert.
+
+                         20
+                                                                                                      Kaschka Knapkiewicz + Axel Fickert Architekten
+                                                                                                                                           Santorin
+                                                                                                                Empfehlung zur Weiterbearbeitung
+
+
+
+
+Grundsätzlich werden zwei gleichermassen spannungsvolle Erschliessungstypen vorgeschlagen: Ein innenliegendes, grosszügiges
+Treppenhaus, welches jeweils vier Wohnungen in den tiefen Gebäudeteilen erschliesst, und ein aussenliegender Laubengang, wel-
+cher in den schmaleren Gebäudebereichen drei bis vier Wohnungen anbindet. Die Projektverfasser schlagen ein vielfältiges An-
+gebot unterschiedlicher, aber verwandter Wohnungstypen vor. Alle Wohnungen sind durchwegs von grosser räumlicher Qualität.
+Jeder Wohnungstyp (mit Ausnahme der 1 ½ Zimmerwohnungen) weist eine mehrseitige Orientierung auf, was auch bei den 2 ½
+Zimmerwohnungen am Laubengang mit Hilfe der Lichthöfe auf überzeugende Art und Weise gelungen ist. Meist befinden sich die
+Küchen in separaten Raumnischen, aber mit engem Bezug zum Wohnraum und zur gut proportionierten Loggia. Kritisch beurteilt
+wird die beengte Küche in den 5 ½ Zimmerwohnungen, sowie das vollständige Ausblenden der Steigzonen.
+Grosses Gewicht wurde der gestalterischen Ausformulierung der Gebäude beigemessen. Die in Bezug auf die Volumetrie, den
+Öffnungsanteil der Fassaden, die Konstruktion, die Materialisierung und die Farbgestaltung differenzierte Höhenentwicklung des
+Gebäudes lassen die bis zu acht geschossigen Volumen städtisch, aber gleichzeitig sehr wohnlich erscheinen. Ob die vorgeschla-
+gene Materialisierung der Fassaden ab dem dritten Obergeschoss adäquat für eine städtische Siedlung ist, wird kritisch beurteilt.
+Die Wirtschaftlichkeit liegt dank der optimalen Ausnützung leicht über dem Durchschnitt. Das Erreichen des Minergie-P-Eco Stan-
+dards ist gewährleistet, jedoch müssen die Wohnungen in Bezug auf die Vertikalerschliessung noch optimiert werden.
+Das Projekt Santorin überzeugt aufgrund der differenzierten, ortsbaulichen Setzung, welche zusammen mit der Siedlung Guggach
+I einen angemessenen Abschluss das Stadtkörpers zu bilden vermag. Das Wohnungsangebot ist vielfältig, von überaus hoher,
+räumlicher Qualität und schafft optimale Voraussetzungen für die Vermietbarkeit. Der Aussenraum hat das Potential, ein vielfältig
+bespielbarer, Identität stiftender Siedlungsraum zu werden.
+
+
+
+                                                                                                                       21
+Kaschka Knapkiewicz + Axel Fickert Architekten
+Santorin
+Empfehlung zur Weiterbearbeitung
+
+
+
+
+                  Lageplan 1:2000
+
+                         22
+Kaschka Knapkiewicz + Axel Fickert Architekten
+                                     Santorin
+          Empfehlung zur Weiterbearbeitung
+
+
+
+
+                 23
+Kaschka Knapkiewicz + Axel Fickert Architekten
+Santorin
+Empfehlung zur Weiterbearbeitung
+
+
+
+
+                  Grundriss Erdgeschoss 1:1000
+
+                         24
+                                                      Kaschka Knapkiewicz + Axel Fickert Architekten
+                                                                                           Santorin
+                                                                Empfehlung zur Weiterbearbeitung
+
+
+
+
+Grundriss Regelgeschoss 1:1000   Ansicht Hof 1:1000
+
+                                                                       25
+Kaschka Knapkiewicz + Axel Fickert Architekten
+Santorin
+Empfehlung zur Weiterbearbeitung
+
+
+
+
+                  Wohnungsgrundriss 1:200
+
+                         26
+Kaschka Knapkiewicz + Axel Fickert Architekten
+                                     Santorin
+          Empfehlung zur Weiterbearbeitung
+
+
+
+
+                 27
+VUKOJA GOLDINGER Architekten
+Air de cour
+
+
+
+
+                        Projekt 10		                Air de cour
+                        		                          2. Rang, 2. Preis
+                        Architektur 		              VUKOJA GOLDINGER Architekten, Zürich
+                        Landschaftsarchitektur      Hoffmann & Müller Landschaftsarchitektur
+
+
+
+
+                 Dem Entwurf «Air de cour» liegt eine schlüssige städtebauliche Analyse zugrunde, welche wie folgt umschrieben ist:
+                 «In unmittelbarer Nachbarschaft ist das Wettbewerbsgebiet städtebaulich durch den Neubau Guggach I und durch die
+                 Landschaftselemente des Waldes und des Familiengartenareals gefasst. Das Areal Guggach II wird als parkartiges Glied
+                 zwischen dem Wald und den angrenzenden Schrebergärten verstanden.»
+                 Die Umsetzung im Projekt ist auf jeder Ebene schlüssig. Als Entwurfsprinzip wird der künstlerische Städtebau der 1920-
+                 er Jahre in Zürich aufgenommen und in eine durchgrünte Figur übertragen. Die Wohnsiedlung nimmt die blockrandar-
+                 tige Struktur der Überbauung Guggach I auf. Diese wird aber in den beiden unteren und den drei oberen Geschossen
+                 aufgebrochen und in einzelne Volumen transformiert. Dadurch wird auch eine Referenz an die Struktur der Siedlung
+                 Guggach 8 geschaffen. Insgesamt leistet das Projekt einen wertvollen Beitrag, die drei Siedlungen an der Käferholzs-
+                 trasse zu einem Quartier zusammenzufügen. Die ambivalente Komposition der Baukörper, welche halb Block – halb
+                 Solitär sind, verleiht der Siedlung einen eigenständigen, identitätsstiftenden Charakter, der untrennbar mit diesem Ort
+                 verbunden ist. Der architektonische Ausdruck ist schlüssig, die Materialisierung wertbeständig und nachhaltig.
+                 Grosse Aufmerksamkeit wurde der Strukturierung des Aussenraums und der Adressbildung geschenkt. Die Raumbil-
+                 dung zur Nachbarüberbauung, zum Wald und zu den Schrebergärten weist ein gutes Gleichgewicht von Offen zu Ge-
+                 schlossen und von Nähe zu Distanz auf. Besonders vermag die Gliederung des Binnenraumes zu überzeugen. Einer-
+                 seits lädt die parkartige offene Mitte zum durchqueren der Siedlung und zur Aneignung durch alle Bewohnenden ein.
+                 Andererseits werden die Spiel- und Zugangsbereiche als hauszugehörige Bereiche ausgestaltet. Die drei Zugänge sind
+                 klar als Adresse erkennbar und über den offenen Parkbereich in der Mitte gleichwertig an die Käferholzstrasse und die
+                 Hofwiesenstrasse angebunden. Die Hauszugänge sind einladend gestaltet, die Treppenhäuser (ausser 3. - 5. Geschoss)
+                 von aussen belichtet. Die Zuordnung der Aussenbereiche zu den Erdgeschosswohnungen ist gut geklärt.
+                 Das Aussenraumkonzept schlägt ein spannendes Zusammenspiel von parkartigem, sich mit dem Wald vernetzen-
+                 dem Landschaftsraum und platzartigen Eingangshöfen vor. Dies schafft eine hohe Identifizierung auf unterschiedli-
+                 chen Ebenen. Die zusammenhängende Grünfläche und die üppige Baumsetzung verleihen dem Ort eine angemessene
+                 Grosszügigkeit, die sich mit dem erweiterten Landschaftsraum vernetzt. Dieser parkartige Zwischenraum ist vielseitig
+                 durchweg- und bespielbar, die aktiven Aussenräume weisen gute Proportionen auf. Alles in allem wirkt das ganze Frei-
+                 raumangebot jedoch überinstrumentalisiert. So wäre eine stärkere Hierarchisierung der aktivierten Räume zu Gunsten
+
+                        28
+                                                                                                            VUKOJA GOLDINGER Architekten
+                                                                                                                              Air de cour
+
+
+
+
+von mehr Ruhe – vor allem in der Mitte – wünschenswert. Die Mietergärten sind ein gutes Mittel, um an den kleinkörnigen
+Kontext anzubinden, ihre explizite Lage vermag jedoch nicht restlos zu überzeugen, auch werden Aussagen zu ihrer
+Strukturierung vermisst. Die platzartigen Hofräume wurden im Hinblick auf mögliche Lärmemissionen auf ihre räumli-
+chen Qualitäten sehr kontrovers diskutiert, vor allem die Raumstimmung der sehr tiefen überdachten Eingangszonen
+konnte nicht restlos überzeugen.
+Die Wohnungen werden aus der skulpturalen Gebäudegeometrie herausgearbeitet und weisen dadurch eine Vielzahl
+unterschiedlicher Grundrisse aus. Eine durchgehende typologische Grundhaltung, welche situativ interpretiert und an-
+gepasst wird, ist jedoch zu wenig erkennbar. Allen Wohnungen gemeinsam ist ein polygonaler Wohn-/ Essbereich der
+ein interessantes Raumgefüge erzeugt. Teilweise ist die Belichtungssituation etwas unbefriedigend. Die Zimmergrössen
+orientieren sich an den minimal erwarteten Grössen, was die Nutzungsvielfalt eher limitiert. Die Vielfalt der Wohnun-
+gen vermag unterschiedliche Nutzergruppen anzusprechen. Trotz der Komplexität der Grundrisse ist die Zuordnung
+der Sanitärbereiche überraschend kompakt.
+Das Projekt weist eine durchschnittliche Wirtschaftlichkeit auf, der Standard für Minergie-P-Eco kann erreicht werden.
+Insgesamt überzeugt das Projekt durch die vielschichtigen städtebaulichen Bezugsebenen. Es leistet gleichermassen
+einen Beitrag zur Bildung eines ganzheitlichen Wohnquartiers, gestaltet einen feinen Übergang zum markanten Land-
+schaftsraum und präsentiert sich als prägende, mit diesem Ort verknüpfte Wohnüberbauung. Die Wohnungen weisen
+zwar interessante räumliche Konstellationen auf, sind im Detail jedoch von unterschiedlicher Qualität.
+
+
+
+
+                                                                                                             29
+VUKOJA GOLDINGER Architekten
+Air de Cour
+
+
+
+
+                 Lageplan 1:2000
+
+                        30
+                        VUKOJA GOLDINGER Architekten
+                                         Air de Cour
+
+
+
+
+Schnittansicht 1:1000
+
+
+
+
+                         31
+VUKOJA GOLDINGER Architekten
+Air de Cour
+
+
+
+
+                 Grundriss Erdgeschoss 1:1000
+
+                        32
+                                 VUKOJA GOLDINGER Architekten
+                                                  Air de Cour
+
+
+
+
+Grundriss Regelgeschoss 1:1000
+
+
+
+
+                                  33
+VUKOJA GOLDINGER Architekten
+Air de Cour
+
+
+
+
+                 Wohnungsgrundrisse 1:200
+
+                        34
+VUKOJA GOLDINGER Architekten
+                 Air de Cour
+
+
+
+
+ 35
+Abraha Achermann Architekten
+ISLAY
+
+
+
+
+                         Projekt 02		                ISLAY
+                         		                          3. Rang, 3. Preis
+
+
+                         Architektur 		              Abraha Achermann Architekten, Zürich
+                         Landschaftsarchitektur      Kolb Landschaftsarchitektur, Zürich
+
+
+
+
+                  Das Projekt besticht durch seinen Ansatz, das ganze Baugebiet mit einer einzigen Figur zu bespielen, die sieben Mal
+                  eingesetzt wird. Die Baukörper sind so entwickelt, dass sie die unterschiedlichen Positionen einnehmen können und
+                  sie sind dann so gesetzt, dass eine in sich stimmige Komposition entsteht. Die Beziehungen der Blickachsen und der
+                  Wegführung werden überzeugend nachgewiesen.
+                  Die Erscheinung der Häuser ist kurios und vertraut zugleich. Diese Spannung unterstützt die Grundhaltung der Projekt-
+                  verfasser auf verschiedenen Ebenen und verleiht der Siedlung einen angemessen eigenständigen Charakter. Die solide
+                  Konstruktion mit Betonelementen, geschosshohen Fenstern und verputzten Flächen ist daraus folgerichtig entwickelt.
+                  Eine langfristig werthaltige Konstruktion ist für das Gelingen dieser Art Städtebau von grosser Wichtigkeit. Die vorge-
+                  schlagene Kompaktfassade scheint dafür noch nicht das geeignete Mittel zu sein. Das prägende Thema der Kamintürme
+                  scheint noch etwas aufgesetzt und müsste weiter präzisiert werden.
+                  Das sorgfältig ausgearbeitete Aussenraumkonzept besticht durch die stimmige Übersetzung des Themas des Waldran-
+                  des und lässt eine ökologisch wertvolle Siedlungslandschaft mit unterschiedlichen Bildern im jahreszeitlichen Reigen
+                  erwarten. Die schollenartige Zonierung mittels Strauchbändern korrespondiert mit dem städtebaulichen Ansatz, lässt
+                  mehrere kleinere Siedlungsplätze entstehen und garantiert eine klare Trennung von öffentlich und privat. Die konse-
+                  quente, einheitliche Ausformulierung lässt allerdings eine stärkere Differenzierung zugunsten einer klaren Orientie-
+                  rung vermissen und wirkt nach aussen hin hermetisch. Zusätzliche Baumpflanzungen wären in Anbetracht der grossen
+                  Dichte wünschenswert. Die stichartigen Hauszugänge schaffen Konflikte mit den erdgeschossigen Wohnungen, eine
+                  einladende Vorzone vor den Eingängen fehlt. Durch die Aktivierung der Käferholzstrasse mit den publikumsorientierten
+                  Nutzungen und dem platzartigen Siedlungseingang entsteht ein angenehm rhythmisierter Strassenraum, der im Dialog
+                  zur Waldkante steht. Fraglich ist, ob die dargestellten Durchsichten und Ausblicke mit der angestrebten Dichte auch
+                  tatsächlich funktionieren.
+                  Die Grundrisse der Wohnhäuser folgen wenigen, einfachen Prinzipien. Mit diesen Regeln werden gut nutzbare und
+                  schön proportionierte Raumfolgen entwickelt. Dass sich die Wohnungen in die Länge entwickeln ist der Disposition
+                  der Baukörper geschuldet und wird durch die sehr effiziente Grunderschliessung der Siedlung mit nur sieben Treppen-
+                  häusern mehr als aufgewogen. Die Weiträumigkeit und die mehrseitige Orientierung der Wohnungen wirken sich auf
+
+                         36
+                                                                                                               Abraha Achermann Architekten
+                                                                                                                                      ISLAY
+
+
+
+
+ihren Wert sehr positiv aus. Der unerwartete Vorschlag von Cheminées in den Wohnungen wird atmosphärisch mit dem
+Wohnen am Wald begründet. Die schöne Idee wäre in Bezug auf ihre Praktikabilität zu überprüfen.
+Der Kindergarten kann gut in die Struktur integriert werden. Aufgrund der Setzung der Baukörper schwieriger zu lösen
+ist indessen die unterirdische Einstellhalle. Die vorgeschlagene Lösung wirkt steif und verzichtet leider auf den direkten
+Anschluss sämtlicher Gebäude.
+Aufgrund des hochwertigen Wohnungsangebotes und den angemessenen Erstellungskosten erweist sich das Projekt
+als wirtschaftlich. Setzung und Ausbildung der Baukörper eignen sich gut für das Erreichen des Minergie-P-Eco Stan-
+dards. Hervorzuheben sind dabei insbesondere die hohe Kompaktheit, die sorgfältige Strukturierung und die konzen-
+trierte Erschliessung der Gebäude.
+Beim Projekt «Islay» handelt es sich um einen sehr interessanten und wertvollen Beitrag, der auf allen Ebenen eigen-
+ständige, zum Teil auch unerwartete Lösungen aufzeigt. Das Projekt ist mit grosser Sorgfalt und Professionalität ausge-
+arbeitet und könnte ohne weiteres zu einer wertvollen Siedlung weiterentwickelt werden.
+
+
+
+
+                                                                                                                37
+Abraha Achermann Architekten
+ISLAY
+
+
+
+
+                  Lageplan 1:2000
+
+                         38
+                               Abraha Achermann Architekten
+                                                      ISLAY
+
+
+
+
+Grundriss Erdgeschoss 1:1000
+
+                               39
+Abraha Achermann Architekten
+ISLAY
+
+
+
+
+                  Grundriss Regelgeschoss 1:1000
+
+                         40
+                      Abraha Achermann Architekten
+                                             ISLAY
+
+
+
+
+Schnitt AA 1:1000
+
+
+
+
+Ansicht West 1:1000
+
+                      41
+Abraha Achermann Architekten
+ISLAY
+
+
+
+
+                  Wohnungsgrundriss Haus 2 1:200
+
+                         42
+Abraha Achermann Architekten
+                       ISLAY
+
+
+
+
+43
+Bachelard Wagner Architekten
+ADÈLE 35
+
+
+
+
+                         Projekt 07		                ADÈLE 35
+                         		                          4. Rang, 4. Preis
+
+
+                         Architektur 		              Bachelard Wagner Architekten, Basel
+                         Landschaftsarchitektur      Berchtold.Lenzin Landschaftsarchitekten, Liestal
+
+
+
+
+                  Die Projektverfasser schlagen zwei zum Waldrand nahezu parallel verlaufende Baukörper vor, welche zusammen einen
+                  grosszügigen, zweiseitig offenen Hofraum bilden. Das differenziert gestaltete, freistehende Ensemble erfährt über das
+                  volumetrische Zusammenspiel mit der Siedlung Guggach I eine übergeordnete Anbindung an den städtischen Kontext.
+                  Das offensichtliche Zurückweichen der östlichen Gebäudezeile aufgrund des Kindergartenvolumens schwächt die Ge-
+                  samtkomposition und wirft Fragen in Bezug auf die Hierarchie unter den Gebäuden auf. Weder die spezifische Nutzung
+                  selbst, noch der neu geschaffene Ort legitimieren eine derart heftige, volumetrische Reaktion. Das westliche Gebäude
+                  hingegen weicht in angenehmer Weise von der Käferholzstrasse zurück und schafft dadurch eine adäquate Adressbil-
+                  dung. Negativ beurteilt wird die mangelnde räumliche Durchlässigkeit zwischen Waldkante und Binnenraum.
+                  Nicht stringent ist die Anbindung der östlichen Zeile über die beengte Stichstrasse zwischen den zwei Siedlungen Gug-
+                  gach I und Guggach II. Das serielle Erschliessungsprinzip stösst hier bildhaft an die Grenzen. Die Verdoppelung der
+                  Erschliessung entlang der Parzellengrenze und die Platzbildung mit Freitreppe vor dem Kindergarten, führen zu ei-
+                  ner unbefriedigenden Situation zwischen den zwei Siedlungen. Mit Geschick bewältigen die Projektverfasser die an-
+                  spruchsvolle Topographie des Grundstückes: Mit auslaufenden Stützmauern werden Terrainversprünge aufgenommen,
+                  gleichzeitig definieren diese den Übergang zwischen öffentlichem Raum und privaten Gärten. Die Vorzone entlang der
+                  Käferholzstrasse bietet Raum für die nötige Infrastruktur der Siedlung. Hingegen wird die Ausrichtung der zum Ter-
+                  rainverlauf abgesenkten Gärten, der privaten Loggien und Wohnräume trotz ansprechender Raumhöhen, aufgrund der
+                  mangelnden Belichtungssituation und der Exposition kritisch beurteilt.
+                  Der Binnenraum überzeugt durch eine sorgfältige und gleichzeitig entspannte Gestaltung, die vielfältige Spiel- und
+                  Aufenthaltsmöglichkeiten anbietet und eine stimmige Massstäblichkeit aufweist. Die bewusst formulierten topogra-
+                  fischen Kanten zonieren nicht nur öffentliche und private Bereiche, sondern sind vielmehr wichtiger Bestandteil des
+                  bespielbaren Aussenraumes. Die vorgeschlagene Wiese über die ganze Länge des Gebäudes vermag als Übergang zu
+                  den kleinkörnigen Familiengärten nicht zu überzeugen.
+                  Die Wohngebäude werden jeweils über grosszügige, übersichtliche Eingangshallen erschlossen. Waschküchen und Ve-
+                  loräume befinden sich in unmittelbarer Nähe zu den Zugängen. Die hangseitige Zeile bietet über die Abstellräume einen
+                  zweckmässigen Zugang in den gemeinsamen Hofraum. Die einzelnen Treppenhäuser sind jeweils als Zwei- bzw. Drei-
+
+                         44
+                                                                                                         Bachelard Wagner Architekten
+                                                                                                                            ADÈLE 35
+
+
+
+
+spänner organisiert. Auf allen Geschossen werden grosszügige, in den Aussenraum greifende Loggias in der Form von
+Vierjahreszeiten-Zimmer vorgeschlagen. Dieses polygonale Element strukturiert jeweils die Wohnung, ermöglicht eine
+optimale Orientierung und Besonnung und bietet spannungsvolle Sichtbezüge in die Tiefe des Raumes. Aus dem Layout
+der 4 ½ Zimmerwohnung lassen sich sich die übrigen Wohnungstypen ableiten. Durch eine geschickte Anordnung der
+Raumabschlusselemente lässt sich eine Vielzahl unterschiedlicher Nutzungsmöglichkeiten erzielen, was hinsichtlich der
+Vermietbarkeit als sehr positiv beurteilt wird. Die räumlich spannenden Maisonette-Wohnungen mit doppelgeschossigen
+Essbereichen in den beiden obersten Geschossen bieten eine attraktive Ergänzung des Wohnungsangebotes.
+Die polygonalen Loggien und die zweigeschossigen Attikas prägen die Volumetrie der schlangenförmigen Gebäude und
+verleihen der Siedlung einen unverwechselbaren Charakter. Die stehenden Fensterelemente vermitteln einen städ-
+tischen, eleganten Ausdruck. Mit dem Einsatz verschiedener Putzstrukturen wird ein spannungsvolles Fassadenbild
+erzielt.
+Eine erste Prüfung zeigt eine durchschnittliche Wirtschaftlichkeit auf und erachtet die Erfüllung des Minergie-P-Eco
+Standards als nur bedingt realisierbar.
+Das Projekt «Adèle 35» ist ein sorgfältig ausgearbeiteter Vorschlag, welcher sich intensiv mit dem Thema Wohnen am
+Stadtrand auseinandersetzt. Der Entwurf überzeugt aufgrund eines vielfältigen, qualitativ hochstehenden Wohnungs-
+angebotes und eines identitätsstiftenden, stimmungsvollen Ausdrucks. Aufgrund der städtebaulichen Setzung bleiben
+aber Fragen in Zusammenhang mit der Erschliessung, der Adressbildung und der räumlichen und ökologischen Durch-
+lässigkeit zum Waldrand unbeantwortet.
+
+
+
+                                                                                                           45
+Bachelard Wagner Architekten
+ADÈLE 35
+
+
+
+
+                  Lageplan 1:2000
+
+                         46
+                               Bachelard Wagner Architekten
+                                                  ADÈLE 35
+
+
+
+
+Grundriss Erdgeschoss 1:1000
+
+                               47
+Bachelard Wagner Architekten
+ADÈLE 35
+
+
+
+
+                  Grundriss Regelgeschoss 1:1000
+
+                         48
+                           Bachelard Wagner Architekten
+                                              ADÈLE 35
+
+
+
+
+Schnittansicht AA 1:1000
+
+
+
+
+Ansicht West 1:1000
+
+
+
+
+                           49
+Bachelard Wagner Architekten
+ADÈLE 35
+
+
+
+
+                  Wohnungsgrundrisse 1:200
+
+                         50
+Bachelard Wagner Architekten
+                   ADÈLE 35
+
+
+
+
+51
+von Ballmoos Krucker Architekten
+BILROS
+
+
+
+
+                         Projekt 06		               BILROS
+                         		                         5. Rang, 5. Preis
+
+
+                         Architektur 		             von Ballmoos Krucker Architekten, Zürich
+                         Landschaftsarchitektur     Schweingruber Zulauf Landschaftsarchitekten, Zürich
+
+
+
+
+                 Am Rande der Siedlungsstruktur, zwischen Waldrand und Familiengärten liegt das Areal Guggach II. Das Projekt «BIL-
+                 ROS» besetzt die Parzelle mit vier grossen Volumen, welche in ihrer Körnung einen selbstverständlichen Abschluss des
+                 Quartiers bilden und eine hohe Durchlässigkeit gewährleisten.
+                 Zur Käferholzstrasse werden zwei Gebäudeköpfe als adressbildende, markante Häuserteile um einen sogenannten «Kä-
+                 ferholzplatz» angeordnet, während sich der Rest der abgetreppten Hausform von der Strasse weg orientiert. Zusam-
+                 men mit den beiden parallel zum Hang ausgerichteten Volumen im Nordosten wird eine räumliche Mitte geschaffen,
+                 dank welcher eine gute Durchwegung und Adressbildung gewährleistet werden kann.
+                 Durch die städtebauliche Setzung, die erdgeschossigen Nutzungen und die kluge Zonierung des Aussenraums erhält die
+                 Käferholzstrasse eine stimmige Rhythmisierung. Gleichzeitig fliesst über den Käferholzplatz die Stimmung des Wald-
+                 saumes bis tief in die Siedlung hinein. Das Aussenraumkonzept unterstreicht mit der Baumsetzung diese Verbindung.
+                 Das vorgeschlagene Bild einer idyllischen, baumbestandenen Wiesenlandschaft wird jedoch sehr kritisch bewertet. In
+                 Anbetracht der geplanten städtischen Dichte vermag die naturalistische Gestaltung nicht zu überzeugen, es fehlt eine
+                 Idee, wie die als geheimnisvoll gelesene Stimmung des Ortes in eine zeitgenössische, charakteristische Siedlungsland-
+                 schaft übersetzt werden kann. Das Wegenetz lässt eine stärkere Hierarchisierung zum Beispiel zu Gunsten von grosszü-
+                 gigeren Zugängen vermissen. Unverständlich ist auch der undifferenzierte Umgang mit den Rändern.
+                 Die vertikal gegliederten Gebäudevolumen bilden mit ihrer klaren Form ohne Attikaaufbauten ein äquivalentes Gegen-
+                 über zur Bebauung des Areals Guggach I. Der Klinker betont zusammen mit den stehend angeordneten Fenstern und
+                 den filigranen Staketengeländern die Vertikalität der Fassade. Dank einer schlüssigen Tragstruktur, wo Wohnungstrenn-
+                 wände und Erschliessungskerne zusammen mit der zweischaligen Klinkerkonstruktion alle statischen Anforderungen
+                 aufnehmen, können nichttragende Innenwänden eine flexible Raumgestaltungen gewährleisten.
+                 Jeder Grundriss reagiert auf die ortsspezifischen Gegebenheiten. In ausgereiften Raumabfolgen wird nahezu jeder
+                 Wohnung einen Bezug zum Hof wie auch zum Aussenraum ermöglicht. Leider wird die volumetrische Staffelung der
+                 Gebäude im Innenraum nicht immer zugunsten einer differenzierteren Mehrausrichtung der Wohnung bzw. Zimmer ge-
+                 nutzt. Die Küchen liegen bei einigen Wohnungen etwas tief im Gebäudeinnern, was zu Situationen mit wenig Tageslicht
+                 führt.Alle Wohnungen werden mit halb eingezogenen Loggien bestückt, wodurch die privaten Aussenräume zusätzlich
+
+                         52
+                                                                                                         von Ballmoos Krucker Architekten
+                                                                                                                                  BILROS
+
+
+
+
+einen geschützten Bereich aufweisen, was als sehr qualitätsvoll erachtet wird. Konsequent werden auch im Erdgeschoss
+keine privaten Gärten angeordnet, sondern der öffentliche Grünraum bis an das Volumen geführt.
+Die als Zwei- bis Vierspänner organisierten Treppenhäuser werden direkt belichtet. Die Wohnungen sind mindestens
+auf zwei Seiten orientiert, was eine optimale Besonnung mit einer durchdachten städtebaulichen Ausrichtung der Woh-
+nungen verbindet.
+Der zur Käferholzstrasse orientierte Kindergarten im Süden der Parzelle liegt gut im städtebaulichen Gefüge.
+Die Anzahl Wohnungen, Parkplätze und Veloabstellplätze werden erfüllt, der Wohnungsschlüssel fast perfekt widerge-
+geben. Jedoch erweist sich das Projekt aufgrund der zu erwartenden hohen Erstellungskosten als unwirtschaftlich. In
+Bezug auf die Nachhaltigkeit schneidet das Projekt gut ab, trotz einem verschachtelten Körper ist eine hohe Kompakt-
+heit gegeben und der Minergie-P-Eco Standard erreicht.
+Das Projekt leistet einen wertvollen stadträumlichen Beitrag. Es bleibt jedoch in seiner Haltung etwas unentschieden.
+Obwohl kein Inneres und Äusseres gesucht wird, sind die Häuser klar um einen inneren Schwerpunkt gruppiert. Die
+Aussenraumgestaltung wird kritisiert. Der Lage am Wald muss im Hinblick auf die angestrebte städtische Dichte eine
+eigenständige, zeitgenössische, landschafträumliche Idee entgegengesetzt werden.
+
+
+
+
+                                                                                                           53
+von Ballmoos Krucker Architekten
+BILROS
+
+
+
+
+                   Lageplan 1:2000
+
+                          54
+                               von Ballmoos Krucker Architekten
+                                                        BILROS
+
+
+
+
+Grundriss Erdgeschoss 1:1000
+
+                                 55
+von Ballmoos Krucker Architekten
+BILROS
+
+
+
+
+                   Grundriss Regelgeschoss 1:1000
+
+                          56
+                                  von Ballmoos Krucker Architekten
+                                                           BILROS
+
+
+
+
+Ansicht Quartier / Hof 1:1000
+
+
+
+
+Ansicht Fussgängerweg 1:1000
+
+
+
+
+Ansicht Käferholzstrasse 1:1000
+
+
+
+
+                                    57
+von Ballmoos Krucker Architekten
+BILROS
+
+
+
+
+                   Wohnungsgrundrisse 1:200
+
+                          58
+von Ballmoos Krucker Architekten
+                         BILROS
+
+
+
+
+  59
+emwe Architekten
+CHOCOLATE
+
+
+
+
+                          Projekt 01		                CHOCOLATE
+                          		
+                          Architektur 		              emwe Architekten, Zürich
+                          Landschaftsarchitektur      tur & partner Landschaftsarchitekten, Zürich
+
+
+
+
+                   Die städtebauliche Setzung folgt der Idee einer Zeilenbebauung. Die fünf in sich geknickten Zeilen sind parallel zuein-
+                   ander gesetzt und werfen sich an den äusseren Rändern der Parzelle um ein oder zwei Geschosse auf. Diese Disposition
+                   führt zu einer sehr intensiven, gleichförmigen Besetzung der Parzelle. Im Inneren der Siedlung entstehen enge, span-
+                   nungslose Aussenräume, die in einem Missverhältnis zur Masse der Gebäude stehen. Für die Wohnungen wirkt sich die
+                   Stellung der Bauten ebenfalls negativ aus, weil sich die einzelnen Häuser gegenseitig stark verschatten.
+                   Das Projekt weisst baurechtliche Verstösse (Mehrhöhenzuschlag, anrechenbare Untergeschosse) auf. Eine Realisierung
+                   in der vorgeschlagenen Form ist deshalb nicht möglich.
+                   Die formale Umsetzung der Gebäude kann nicht überzeugen. Die durchgehenden Bänder aus massiven Klinkerelemen-
+                   ten führen in Kombination mit der Abtreppung des Geländes zu einem unruhigen Gesamtbild. Die blechverkleideten
+                   Füllungen zwischen den Fenstern unterstreichen den schematischen Gesamteindruck.
+                   Die Aussenräume sind wenig differenziert ausgebildet. Das vorgeschlagene Bild der durchfliessenden Wiese mit Gehöl-
+                   zern reicht bei der angestrebten Dichte weder im Hinblick auf den Nutzungsdruck noch zur Identitätsstiftung aus. Weil
+                   alle Häuser von Norden her erschlossen werden, entstehen Nutzungskonflikte zwischen den erdgeschossigen Woh-
+                   nungen und den öffentlichen Bereichen. Die gemeinsam nutzbaren Aussenflächen beschränken sich auf eine mittlere,
+                   undifferenziert ausgearbeitete Zone. Es wird eine Vielfalt an Stimmungen und Bespielungsmöglichkeiten vermisst.
+                   Die Wohnungen sind grösstenteils nach dem gleichen, aus der Situation abgeleiteten Prinzip entwickelt: Durchgängige
+                   Wohn-/ Esszimmer dienen auch als Verteilräume für die angelagerten Schlafzimmer und Nebenräume. Die scheinbare
+                   Effizienz durch Verzicht auf reine Erschliessungsräume schränkt die Möblierbarkeit des zentralen Bereichs stark ein. Die
+                   Verwendung eines einzigen Wohnungstypus für die ganze Siedlung führt zu einem unerwünscht homogenen Angebot.
+                   Auch die Attikawohnungen werden nicht differenziert, zur Nutzung der grossen Dachflächen werden keine Aussagen
+                   gemacht.
+                   Eine erste Prüfung hat eine durchschnittliche Wirtschaftlichkeit ergeben. Das Flächenangebot muss allerdings aufgrund
+                   der oben erwähnten baurechtlichen Verstösse relativiert werden. Die grosse Abwicklung der schlanken Zeilen würde
+                   die Wirtschaftlichkeitsrechnung deutlich belasten.
+
+
+
+
+                          60
+                                                                                                                       emwe Architekten
+                                                                                                                           CHOCOLATE
+
+
+
+
+Die geringe Kompaktheit der Baukörper und der hohe Fensteranteil wirken sich auf die Nachhaltigkeit negativ aus. Das
+Erreichen des Minergie-P-Eco Standards würde schwierig, zudem ist das Projekt in diesem Bereich kaum anpassbar.
+Das Projekt überzeugt weder mit seinem städtebaulichen Ansatz, der aussenräumlichen Identität, noch mit der ar-
+chitektonischen Ausformulierung der Wohnungen und der Baukörper. Es bleibt in allen Bereichen schematisch und
+verpasst die Chance, eine spezifische Antwort auf diesen einzigartigen Ort zu geben.
+
+
+
+
+                                                                                                          61
+emwe Architekten
+CHOCOLATE
+
+
+
+
+                   Lageplan 1:2000
+
+                          62
+                                    emwe Architekten
+                                        CHOCOLATE
+
+
+
+
+Grundriss Erdgeschoss 1:1000
+
+
+                               63
+emwe Architekten
+CHOCOLATE
+
+
+
+
+                   Grundriss Regelgeschoss 1:1000
+
+                          64
+                                emwe Architekten
+                                    CHOCOLATE
+
+
+
+
+Schnittansicht AA 1:1000
+
+                           65
+emwe Architekten
+CHOCOLATE
+
+
+
+
+                   Wohnungsgrundrisse 1:200
+
+                          66
+     emwe Architekten
+         CHOCOLATE
+
+
+
+
+67
+Gmür & Geschwentner Architekten
+FOREST FLOWER SUNRISE
+
+
+
+
+                         Projekt 03		                FOREST FLOWER SUNRISE
+
+
+                         Architektur 		              Gmür & Geschwentener Architekten, Zürich
+                         Landschaftsarchitektur      Nipkow Landschaftsarchitektur, Zürch
+
+
+
+
+                  Im Unterschied zu anderen Projekten, die eher eine Homogenisierung des Baufeldes anstreben, schlägt das Projekt
+                  «Forest Flower Sunrise» eine klare Zonierung des Areals und eine Gewichtung der einzelnen Bereiche vor. Dieser Ansatz
+                  führt zu einem grossen innenliegenden Freiraum, der in Bezug zu den dreiseitig umliegenden Freibereichen unangemes-
+                  sen wirkt und der dazu führt, dass die beiden Zeilen beinahe beziehungslos zueinander stehen. Im Sinne der Differen-
+                  zierung konsequent werden die beiden Zeilen unterschieden: Am Waldrand eine dreiteilige hohe, dichte und in die Tiefe
+                  entwickelte Bebauung, an der nördlichen Kante der Parzelle eine niedrigere, lockere Zeile von Gebäuden. In Bezug auf
+                  die Aussicht wirkt diese Disposition verständlich, in Bezug auf die Besonnung sind vor allem für die oberen drei Häuser
+                  grosse Nachteile zu erwarten.
+                  Der Ausdruck der Gebäude hat etwas Irritierendes. Die Grosssiedlungen der Nachkriegsmoderne werden zwar zitiert,
+                  gleichzeitig wird die Radikalität dieser Architekturen aber nicht weiterentwickelt. Das Bild der Häuser bleibt deshalb
+                  unangenehm unbestimmt. Die vorgeschlagene Konstruktion der Aussenwände (Klinkerriemchen geschlämmt) verstärkt
+                  diesen Eindruck zusätzlich.
+                  Die städtebauliche Disposition reagiert auf die unterschiedlichen Vis-à-vis, entsprechend werden die einzelnen Aussen-
+                  räume ausformuliert: Zur Käferholzstrasse aktivieren Vorzonen den Strassenraum, allerdings wird die räumliche Quali-
+                  tät dieses schluchtartigen, schattigen Raumes stark angezweifelt. Westseitig verpasst es der vorgeschlagene Wiesen-
+                  streifen, einen stimmigen Übergang zu den Familiengärten zu schaffen. Obwohl mit den Durchgängen und den unteren
+                  Eingängen eine Durchlässigkeit gesucht wird, wirkt die Siedlung hermetisch und lässt eine räumliche und ökologische
+                  Vernetzung mit dem Kontext vermissen. Weil der Aussenraum in der Mitte der Parzelle konzentriert wird, entsteht eine
+                  sehr grosse Fläche, die in zwei Bereiche gegliedert wird. Die reliefartige Bespielung dieses Binnenraums ist zwar schön
+                  ausgearbeitet und schafft eine klare Trennung von öffentlich und privat. Die effektiv nutzbare Freifläche ist allerdings
+                  undifferenziert ausformuliert und lässt vielfältige Aufenthaltsmöglichkeiten vermissen.
+                  Die Wohnungsgrundrisse sind sorgfältig entwickelt, gut proportioniert und weisen auch eine gewisse Vielfalt auf. Aller-
+                  dings führt die Dominanz der parallelen Scheiben vor allem in den Häusern am Waldrand zu innerer Starrheit und teil-
+                  weise prekären Belichtungsverhältnissen. Gut gelöst ist die Tiefgarage, die aufgrund des grossen Abstands der Bauten
+                  in die unbebaute Mitte gelegt und deshalb strukturell eigenständig entwickelt werden kann.
+
+
+
+                         68
+                                                                                                          Gmür & Geschwentner Architekten
+                                                                                                                  FOREST FLOWER SUNRISE
+
+
+
+
+Die Wirtschaftlichkeit des Projektes liegt aufgrund der Kennzahlen leicht über dem Durchsnitt. Auffällig ist insbeson-
+dere die hohe Anzahl von Wohnungen. Für das Erreichen des Minergie-P-Eco Standards müssten einige Aspekte noch
+weiter entwickelt werden. Die Hauptschwierigkeit liegt darin, dass trotz eines relativ hohen Fensteranteils an der Fas-
+sade eine teilweise nur suboptimale Versorgung mit Tageslicht möglich ist. Die Orientierung der grossen Baukörper zum
+Waldrand ist ebenfalls problematisch.
+Das Projekt verfolgt als Grundidee die Bebauung der Parzellenränder mit hohen, dichten Bauten, welche einen grossen
+Aussenraum umfassen. Dieser Ansatz ist zwar interessant, die Vorschläge für Gebäude und Umgebung können aber
+nicht nachweisen, dass sich dieser Kraftakt wirklich lohnen könnte. Vielmehr entsteht der Eindruck, dass die Potentiale
+des Ortes mit seinen starken vorhandenen Freiraumstrukturen nicht ausgeschöpft werden. Der Vorschlag wirkt auf sich
+selbst bezogen, trotzdem entwickelt er zu wenig Kraft, als dass eine eigene Identität entstünde. So bleiben trotz den
+sorgfältig entwickelten Wohnungen grundsätzliche Vorbehalte bestehen.
+
+
+
+
+                                                                                                             69
+Gmür & Geschwentner Architekten
+FOREST FLOWER SUNRISE
+
+
+
+
+                  Lageplan 1:2000
+
+                         70
+                               Gmür & Geschwentner Architekten
+                                       FOREST FLOWER SUNRISE
+
+
+
+
+Grundriss Erdgeschoss 1:1000
+
+
+                                  71
+Gmür & Geschwentner Architekten
+FOREST FLOWER SUNRISE
+
+
+
+
+                  Grundriss Regelgeschoss 1:1000
+
+                         72
+                        Gmür & Geschwentner Architekten
+                                FOREST FLOWER SUNRISE
+
+
+
+
+Querschnitt BB 1:1000
+
+
+
+
+Ansicht Ost 1:1000
+
+                           73
+Gmür & Geschwentner Architekten
+FOREST FLOWER SUNRISE
+
+
+
+
+                  Wohnungsgrundrisse 1:200
+
+                         74
+Gmür & Geschwentner Architekten
+        FOREST FLOWER SUNRISE
+
+
+
+
+   75
+Meili Peter Architekten
+Die vier Kammern
+
+
+
+
+                           Projekt 04		                Die vier Kammern
+
+
+                           Architektur 		              Meili Peter Architekten, Zürich
+                           Landschaftsarchitektur      planetage Landschaftsarchitekten, Zürich
+
+
+
+
+                    Die Verfasser des Projektes «Die vier Kammern» schlagen einen städtebaulichen Ansatz vor, der sich explizit auf die
+                    Lage des Perimeters am Übergang von Stadt zum Landschaftsraum und Naherholungsgebiet Käferberg orientiert. Die
+                    kreuzförmige Grunddisposition spannt vier verschiedene Kammern auf, wobei mit einer differenzierten Aussenraum-
+                    gestaltung jede einen Bezug zur unmittelbaren Umgebung schafft. Als Gegensatz zu den grosszügigen, sich mit dem
+                    Freiraum verzahnenden Kammerräumen, wird im Knoten des Kreuzes ein sehr dichter, urbaner Mittelpunkt ausformu-
+                    liert, indem das Volumen an dieser Stelle in zwei Teile auseinandergezogen wird. Die Adressbildung der Gebäude wie
+                    auch die Quartierverbindung wird folgerichtig über diese Mitte geführt. Öffentliche Nutzungen im Erdgeschoss wie
+                    Gewerberaum und Kindergarten stärken zusätzlich das Zentrum der Siedlung. Dennoch wird an diesem Standort ein
+                    Zentrum von solcher Dichte kritisch diskutiert und letztendlich als Inszenierung von Urbanität am Siedlungsrand als zu
+                    angestrengt empfunden.
+                    Kohärent zum städtebaulichen Ansatz setzt sich das sehr schön ausgearbeitete Aussenraumkonzept mit der Überla-
+                    gerung von städtischen und landschaftlichen Ebenen auseinander. So entstehen spannende Platzräume, die in direk-
+                    tem Dialog mit dem Wald oder den Familiengärten stehen und ausserdem dem zu erwartenden hohen Nutzungsdruck
+                    standhalten können. Den Verfassern ist es gelungen, gleichzeitig eine grosse Vielfalt an differenzierten Aussenräumen
+                    anzubieten und doch eine einheitliche, zeitgenössische Siedlungsidentität zu schaffen.
+                    Der Ausdruck des Gebäudes wird vor allem von der horizontalen Dreiteilung der Kompaktfassade geprägt indem unter-
+                    schiedliche Putzfarben und -strukturen Sockel, Mittelteil und Dach auszeichnen. Die Gestaltung aller Gebäudeflügel ist
+                    einheitlich, wodurch die verästelte Gesamtform wieder zusammengebunden werden kann.
+                    Die innenliegenden Treppenhäuser erschliessen jeweils zwei bis vier Wohnungen. Dank der spezifischen Gebäudeab-
+                    wicklung profitieren sehr viele Wohnungen von einer zweiseitigen Ausrichtung. Innenräumlich wird diese Zweiseitigkeit
+                    mit einem über die Diagonale verbundenen Wohn- und Essbereich inszeniert. Die Schlafräume werden häufig in Grup-
+                    pen mit Bad und einem privatisierenden Vorbereich an eben diesen Diagonalraum angehängt, was zu mehrschichtigen
+                    Abfolgen führt.
+                    Im Knoten des Kreuzes entsteht jedoch trotz Mehrausrichtung für eine grössere Anzahl von Wohnungen eine kritische
+                    nachbarschaftliche Nähe.
+
+
+
+                           76
+                                                                                                                     Meili Peter Architekten
+                                                                                                                           Die vier Kammern
+
+
+
+
+Da für die Erdgeschosswohnungen jeweils eine adäquate Privatheit sichergestellt wird, ordnen sich im Westflügel zur
+Käferholzstrasse schlüssig Nebennutzungen und ein Gewerberaum auf Erdgeschossniveau an.
+Eine erste Sichtung ergibt eine durchschnittliche Wirtschaftlichkeit. In Bezug auf die Nachhaltigkeit schneidet das Pro-
+jekt gut ab. Ebenso werden alle Programpunkte wie Wohnungsanzahl und –schlüssel, Parkplatzanzahl und Raumflä-
+chenangaben erfüllt. Festgestellt wird einzig ein minimaler Verstoss gegen den Mehrhöhenzuschlag.
+Das Projekt leistet einen wertvollen Beitrag zur Auseinandersetzung mit diesem Ort, vermag jedoch aufgrund der zu
+schematischen Umsetzung der städtebaulichen Grundidee, insbesondere zu Lasten der Wohnqualität (nachbarschaft-
+liche Nähe / Ausrichtung der Wohnungen), nicht zu überzeugen. Die Materialisierung der Fassade erscheint zwar ad-
+äquat, erreicht in ihrer Ausformulierung jedoch nicht das hohe Niveau der Referenzbeispiele.
+
+
+
+
+                                                                                                              77
+Meili Peter Architekten
+Die vier Kammern
+
+
+
+
+                    Lageplan 1:2000
+
+                           78
+     Meili Peter Architekten
+           Die vier Kammern
+
+
+
+
+79
+Meili Peter Architekten
+Die vier Kammern
+
+
+
+
+                    Grundriss Erdgeschoss 1:1000
+
+                           80
+                                      Meili Peter Architekten
+                                            Die vier Kammern
+
+
+
+
+Grundriss Regelgeschoss 1:1000
+
+
+
+
+Schnittansicht FF 1:1000
+
+                                 81
+Meili Peter Architekten
+Die vier Kammern
+
+
+
+
+                    Wohnungsgrundrisse 1:200
+
+                           82
+     Meili Peter Architekten
+           Die vier Kammern
+
+
+
+
+83
+Märkli Architekt
+JIM & JULES
+
+
+
+
+                         Projekt 05		                JIM & JULES
+
+
+                         Architektur 		              Märkli Architekt, Zürich
+                         Landschaftsarchitektur      Müller Illien Landschaftsarchitekten, Zürich
+
+
+
+
+                   Die Projektverfassenden von «Jim & Jules» schlagen mit einem Ensemble aus drei orthogonalen, klaren Volumen ei-
+                   nen grossförmigen Abschluss am Siedlungsrand im Quartier Unterstrass vor. Der lange Hauptkörper rückt deutlich
+                   vom Wald ab und bildet eine starke Grenze zum offenen Grünraum der Familiengärten. Zwischen Käferholzstrasse
+                   und Hauptbau wird Platz für die beiden kleineren Gebäude und den siedlungsinternen Freiraum geschaffen sowie eine
+                   räumliche Öffnung zum Wald gesucht. Über die parallel zum Hang laufende Spielstrasse wird das Hauptgebäude er-
+                   schlossen, die privaten Gärten aufgereiht und der quartierinterne Zusammenhang gesucht. Zwischen Spielstrasse und
+                   Käferholzstrasse entsteht so eine innere Welt, welche im unmittelbaren Dialog mit den Erdgeschossnutzungen und Er-
+                   schliessungssituationen der kleineren Gebäude steht. Die Konzentration der Bebauungsstruktur zugunsten des Freirau-
+                   mes wird als Potenzial verstanden, jedoch scheint in der Umsetzung und Gestaltung der Mehrwert nicht ausgeschöpft.
+                   Insbesondere die lange Ansicht mit den Laubengängen und einer Zimmerschicht zum offenen Feld der Familiengärten
+                   erscheint zu massiv in diesem Kontext.
+                   Durch die Setzung kann nicht nur eine klare Siedlungsadresse geschaffen, sondern auch die Atmosphäre der Waldkan-
+                   te bis tief in die Siedlung hinein gezogen werden. In der Ausformulierung vermögen die Aussenräume allerdings nicht
+                   restlos zu überzeugen. Der zentrale Raum wirkt eintönig und undifferenziert nutzbar, die über die gesamte Länge des
+                   Hauses vorgeschlagene untere Wiese kann als Übergang zu den kleinkörnigen Familiengärten nicht nachvollzogen wer-
+                   den. Das Aussenraumkonzept zeugt jedoch von einem bewussten Umgang mit der Topografie, so kann mit dem sorgfäl-
+                   tigen Einsatz von Kanten und Hecken eine klare Trennung von halböffentlichen und privaten Aussenräumen garantiert
+                   werden.
+                   Die beiden L-förmigen Gebäude erhalten unterschiedliche Fassadenseiten. Die dem Wald und Quartier zugewandte
+                   Seite weist eine durchgehende horizontale Zeichnung durch vorgehängte Holzveranden aus, während die horizontale
+                   Bänderung der Fassaden zum Grünraum durch vertikale Einschübe einer verputzten Kompaktfassade unterbrochen
+                   wird. Nur halb eingezogene Loggien mit markanten Betonbrüstungen gliedern die Stirnfassaden. Ein massiv ausformu-
+                   lierter Sockel aus Ortbeton bindet alle Seiten zusammen und verankert das Gebäude im Terrain.
+                   Zwar ermöglicht die Laubengangerschliessung der beiden L-förmigen Bauten jeder Wohnung eine zweiseitige Ausrich-
+                   tung, durch deren Anordnung auf der eigentlichen Aussichtsseite der Gebäude wird an dieser privilegierten Gebäude-
+
+                         84
+                                                                                                                        Märkli Architekt
+                                                                                                                           JIM & JULES
+
+
+
+
+seite allerdings keine private Aussenraumqualität generiert, was den Typus der Laubengangerschliessung stark in Frage
+stellt.
+Vielfältige Raumabfolgen spannen von einer Fassade zur anderen, wobei Küche und Entree von der Aussicht über die
+Stadt profitieren und sich Balkone und Wohnräume zum Wald im Südwesten orientieren. Einige Wohnungen werden
+über die Küche erschlossen, was teilweise zu etwas engen Situationen führt. Durch eine differenzierte Anordnung der
+privaten Zimmer kommt ein diverses Angebot an Wohnungen und qualitativ hohen, innenräumlichen Bezügen zustan-
+de. Die Attraktivität der Wohnungen im Erdgeschoss wird jeweils mit einem privaten Vorgarten und eigenem Zugang
+erhöht. Allgemein scheint der tiefe Ausbaustandard für die im mittleren bis gehobenen Preissegment angesiedelten
+Wohnungen nicht adäquat.
+In einer ersten Bewertung erweist sich das Projekt trotz erhöhtem Wohnungsangebot als durchschnittlich wirtschaft-
+lich. Das Projekt weist eine hohe Zahl an Wohnungen aus, mit einem gut austarierten Wohnungsschlüssel. Es erreicht
+die Minergie-P-Eco Anforderungen nur bedingt und verstösst in relevanten Punkten – wie bei der Drittelsregelung bei
+der Attika und im Brandschutz – gegen die Vorschriften.
+Die Projektverfasser haben mit ihrer Lesart der Umgebung und der Einführung einer Laubengangtypologie in den Ge-
+bäuden eine eigene Sprache für das Areal entwickelt. Die städtebauliche Setzung in Zusammenhang mit der Funktiona-
+lität der Aussenräume lassen eine Siedlungsatmosphäre entstehen, die nicht restlos überzeugt.
+
+
+
+
+                                                                                                           85
+Märkli Architekt
+JIM & JULES
+
+
+
+
+                   Lageplan 1:2000
+
+                          86
+                                    Märkli Architekt
+                                       JIM & JULES
+
+
+
+
+Grundriss Erdgeschoss 1:1000
+
+                               87
+Märkli Architekt
+JIM & JULES
+
+
+
+
+                   Grundriss Regelgeschoss 1:1000
+
+                          88
+                           Märkli Architekt
+                              JIM & JULES
+
+
+
+
+Ansicht Nord 1:1000
+
+
+
+
+Schnitt Hof 1:1000
+
+                      89
+Märkli Architekt
+JIM & JULES
+
+
+
+
+                   Wohnungsgrundrisse 1:1000
+
+                          90
+     Märkli Architekt
+        JIM & JULES
+
+
+
+
+91
+Gigon/ Guyer Architekten
+Raumsäulen
+
+
+
+
+                           Projekt 08		               Raumsäulen
+                           		
+                           Architektur 		             Gigon/ Guyer Architekten, Zürich
+                           Landschaftsarchitektur     vetschpartner Landschaftsarchitekten, Zürich
+
+
+
+
+                   Mit der städtebaulichen Setzung verfolgen die Verfasser die Absicht, das von der Siedlung Guggach I vorgegebene Sied-
+                   lungsmuster einer offenen Hofbebauung weiterzuspinnen. Die vier unterschiedlichen Baukörper folgen den Rändern
+                   der Parzelle und bilden einen grosszügigen hofartigen Innenraum, welcher allerdings, aufgrund der unpräzisen Setzung
+                   der Volumen, räumlich zu wenig definiert ist.
+                   Die vorgeschlagenen Gebäudevorsprünge bieten zwar einzelnen Wohnungen eine dreiseitige Orientierung, gleichzeitig
+                   beeinträchtigen sie die übrigen Wohnungen in Bezug auf die Besonnung und schaffen im Aussenraum schlecht nutzbare
+                   Raumnischen. Unklar ist die Adressbildung der Anlage, so werden die einen Gebäude direkt von der Strasse, zwei von
+                   den Rändern und eines aus dem Binnenraum erschlossen.
+                   Die Aufdoppelung der Stichstrasse steht in Konkurrenz mit der Wegeführung im Innern der Anlage und führt zu einem
+                   an dieser Lage und in dieser Dimension fragwürdigen Quartierplatz. Kritisch beurteilt wird die Setzung des südlichen
+                   und des westlichen Baukörpers in Bezug auf die mangelhafte Belichtung direkt hinter der Siedlung Guggach I, bezie-
+                   hungsweise im Schattenbereich des Waldrandes entlang der Käferholzstrasse. Insgesamt entsteht der Eindruck, dass
+                   sich die Gebäude und die Aussenräume weder bedingen, noch ergänzen, weshalb auch die Frage nach einer sinnvollen
+                   Erschliessung und nach der Nutzbarkeit der Aussenräume unbeantwortet bleibt. Der Hofraum wirkt hermetisch und
+                   steht in keinerlei Bezug zum Wald, es entsteht eine lange geschlossene Front entlang der Käferholzstrasse. Das vorge-
+                   schlagene Aussenraumkonzept mit den Stauden und Hecken vermag ein starkes Bild zu generieren. Allerdings ist die
+                   einheitliche Ausformulierung sowohl hofseitig als auch aussenseitig unverständlich, anstatt sich zu vernetzen, schotten
+                   sich die Siedlungsräume von der Umgebung ab.
+                   Die einzelnen Treppenhäuser werden jeweils über grosszügige Eingangshallen mit den nötigen Infrastrukturräumen
+                   erschlossen. Mit einer Ausnahme sind die meisten Treppenhäuser als Drei- bzw. Vierspänner organisiert. Grundsätzlich
+                   werden drei gut organisierte Wohnungstypen angeboten: Ein durchgesteckter Wohnungstyp, eine zweiseitig über Eck
+                   angeordnete Kleinwohnung und eine mit einem dreiseitig orientierten Wohnraum ausgestattete 4 ½ Zimmerwohnung.
+                   Aus diesen Grundtypen leiten sich eine Vielzahl ähnlicher Wohnungen ab, welche sich in der Anordnung der Küchen-
+                   zeile, oder im Mass des Versatzes zwischen Wohnraum und Essbereich unterscheiden. Die Wohnungen verfügen meist
+                   über gut gelöste Eingangssituationen, sind optimal möblierbar und weisen gut proportionierte Loggien auf. Die Erdge-
+                   schosswohnungen verfügen zusätzlich zu den Loggien über private Aussensitzplätze.
+
+                           92
+                                                                                                                Gigon/ Guyer Architekten
+                                                                                                                            Raumsäulen
+
+
+
+
+Der gestalterische Ausdruck der Siedlung wird durch die vertikalen, dunklen Fensterbänder und das Spiel der unter-
+schiedlichen Keramikplatten geprägt. Die zum Teil bis zu achtgeschossigen Baukörper weisen keine Attikaausbildung
+auf, lediglich nach dem dritten Obergeschoss wird eine kleine Zäsur in der Fassadengestaltung eingeführt, welche
+allerdings den Massstab der Gebäude nicht zu brechen vermag.
+Die erste Beurteilung ergibt trotz erhöhter Anzahl Wohnungen eine mittlere Wirtschaftlichkeit. Die Ziele der Nachhal-
+tigkeit können nur bedingt erfüllt werden.
+Das Projekt «Raumsäulen» weist Mängel in der ortsbaulichen Setzung auf. Insbesondere fehlen eine adäquate Er-
+schliessung und eine schlüssige Adressbildung. Insgesamt wirken die Volumen auf sich selbst bezogen und schaffen
+es nicht, mit der Umgebung in einen Dialog zu treten und im Zusammenspiel mit den Aussenräumen einen identitäts-
+stiftenden Ort zu generieren.
+
+
+
+
+                                                                                                           93
+Gigon/ Guyer Architekten
+Raumsäulen
+
+
+
+
+                   Lageplan 1:1000
+
+                           94
+                                    Gigon/ Guyer Architekten
+                                                Raumsäulen
+
+
+
+
+Grundriss Erdgeschoss 1:1000
+
+                               95
+Gigon/ Guyer Architekten
+Raumsäulen
+
+
+
+
+                   Grundriss Regelgeschoss 1:1000
+
+                           96
+                               Gigon/ Guyer Architekten
+                                           Raumsäulen
+
+
+
+
+Schnittansicht B 1:1000
+
+                          97
+Gigon/ Guyer Architekten
+Raumsäulen
+
+
+
+
+                           98
+                                Gigon/ Guyer Architekten
+                                            Raumsäulen
+
+
+
+
+Wohnungsgrundrisse 1:500
+
+                           99
+Helle Architektur
+NEW HAVEN
+
+
+
+
+                           Projekt 11		                NEW HAVEN
+
+
+                           Architektur 		              Helle Architektur, Zürich
+                           Landschaftsarchitektur      Schmid Landschaftsarchitekten, Zürich
+
+
+
+
+                    Die städtebauliche Prämisse der Verfasserinnen und Verfasser wird folgendermassen umschrieben: «Das Gebiet Gug-
+                    gach gehört zum durchgrünten Stadtkörper mit einer offenen Baustruktur, das weiter entwickelt und gegenüber dem
+                    Bestand verdichtet werden soll.» Aus dem Schwarzplan lässt sich jedoch herauslesen, dass der Siedlungsraum vom
+                    Bucheggplatz entlang der Käferholzstrasse einen eigenen Wohn-Cluster bildet, welcher gegenüber dem Freiraum mit
+                    den Familiengärten einen abschliessenden Siedlungsrand bildet. Die gewählte Disposition überzeugt das Preisgericht
+                    nicht so richtig. Die zweiseitig geöffnete Randbebauung leistet einen zu geringen Beitrag, um eine Vernetzung oder ein
+                    Durchfliessen des umgebenden Freiraums zu bewirken. Der Strassenraum an der Käferholzstrasse zum südwestlichen
+                    Gebäudeschenkel bildet gegenüber dem wuchtigen Waldsaum einen beengten Raum. Auch mit dem Familiengarten-
+                    areal wird weder stadträumlich noch mit der Gestaltung des Grünbereichs eine schlüssige Vernetzung erreicht. Die
+                    konsequente Haltung, die Randbebauung durchgehend sieben- und sechsgeschossig auszubilden bringt die Höhen-
+                    staffelung des Geländes gut zum Ausdruck. Inkonsequent sind in diesem Zusammenhang die Abstaffelung der zwei
+                    Gebäudekörper am östlichen Ende und die prominente Positionierung des Kindergartens. Die Siedlungstypologie wird
+                    dadurch eher verwässert und der Übergang zur Siedlung Guggach I geschwächt. Die Stärke der Raumbildung liegt im
+                    schön ausformulierten südlichen Anschluss an die Siedlung Guggach I und dem grosszügigen Binnenraum der Siedlung.
+                    Die Adressbildung ist grundsätzlich klar. Alle Treppenhäuser werden über ein organisches Wegnetz aus der Mitte des
+                    Hofraums erschlossen. Die Vielzahl gleichwertiger Hauszugänge ist aber gleichzeitig auch verwirrend. Die Wegführung
+                    und die in den Hofraum ragenden Eingangsbereiche dienen gleichzeitig zur Abgrenzung des Aussenraums zwischen den
+                    Erdgeschosswohnungen und dem gemeinsamen Freiraum. Der verbleibende Hofraum für Spiel- und Aufenthalt wird
+                    dadurch etwas klein, dessen Ausgestaltung ist äusserst dürftig dargestellt. Die Hauszugänge sind räumlich uninspiriert,
+                    weisen geringe Aufenthaltsqualitäten auf und verschatten teilweise die Erdgeschosswohnungen.
+                    Das Aussenraumkonzept schafft es nicht, sich die Potentiale der städtebaulichen Setzung und des Ortes zu Nutze zu
+                    machen. Entlang der Käferholzstrasse wird zwar eine spezifische, den Strassenraum aktivierende Ausformulierung der
+                    äusseren Kruste gesucht, zu den restlichen Nachbarschaften hin wird ein einheitlicher, wenig überzeugender Vorgar-
+                    tenraum vorgeschlagen. Für den Binnenraum lässt die baumbestandene Rasen-/ Wiesenlandschaft mit dem dominan-
+                    ten Wegnetz eine Auseinandersetzung mit der geplanten städtischen Dichte vermissen. Daraus resultieren undifferen-
+
+
+
+                           100
+                                                                                                                       Helle Architektur
+                                                                                                                            NEW HAVEN
+
+
+
+
+zierte, in Anbetracht des Nutzungsdruckes ungenügend nutzbare Aussenräume. Die Anordnung des Pavillons und der
+Veloständer im Zusammenspiel mit den Bäumen lässt keine klare Absicht erkennen – es ist fraglich, ob die angestrebte
+unverwechselbare Identität entstehen kann.
+Die Wohnungsgrundrisse folgen dem Prinzip des Kammersystems, welche ihren Ursprung im qualitätsvollen bürgerli-
+chen Mietwohnungsbau des 19. und 20. Jahrhunderts haben. Leider werden diese Prinzipien nicht konsequent umge-
+setzt. In der dargestellten Wohnung im Ostflügel ist die Eingangsdiele zwar grosszügig, jedoch nicht gross genug, um
+als Aufenthalts- oder Spielort für Kinder zu dienen. Die Zwischenkammern zu den Zimmern sind kleinlich dimensioniert
+und machen so keinen Sinn. Das Einfügen der Küche in den Schlafbereich und das Trennen vom Wohnen/ Essen wider-
+spricht dem Grundprinzip dieser Wohnungstypologie. Besser gelungen ist diese Wohnungstypologie im Grundriss des
+Nordflügels. Die Anzahl Wohnungen sowie die Wohnungsverteilung entsprechen dem Raumprogramm.
+Das Projekt «NEW HAVEN» erweist sich aufgrund der Kennzahlen als durchschnittlich wirtschaftlich. Die Ziele der
+Nachhaltigkeit können jedoch dank seiner Setzung und Kompaktheit optimal umgesetzt werden.
+Das Projekt vermag in städtebaulicher Hinsicht nicht zu überzeugen. Die Einbindung der offenen Randbebauung in die
+imposante Landschaftskammer und die Vernetzung mit dem umliegenden Freiraum gelingen zu wenig. Die Wegverbin-
+dung zur Siedlung Guggach I ist eher unbedeutend ausgebildet. Der Innenhof zeigt sich als attraktiver, grosszügiger
+Aussenraum, dessen Bespielung jedoch weniger überzeugt. Bei den Wohnungen wird das Potenzial des Kammergrund-
+risses zu wenig ausgereizt. Als Alternative zu den Grundrissen mit szenisch inszenierten Wohn-/ Essbereichen wäre
+diese Wohnungstypologie grundsätzlich eine gute Möglichkeit.
+
+
+
+                                                                                                          101
+Helle Architektur
+NEW HAVEN
+
+
+
+
+                    Lageplan 1:2000
+
+                           102
+                                     Helle Architektur
+                                          NEW HAVEN
+
+
+
+
+Grundriss Erdgeschoss 1:1000
+
+                               103
+Helle Architektur
+NEW HAVEN
+
+
+
+
+                    Grundriss Regelgeschoss 1:1000
+
+                           104
+                                             Helle Architektur
+                                                  NEW HAVEN
+
+
+
+
+Ansicht und Schnitt Ostflügel 1:1000
+
+                                       105
+Helle Architektur
+NEW HAVEN
+
+
+
+
+                    106
+                                 Helle Architektur
+                                      NEW HAVEN
+
+
+
+
+Wohnungsgrundrisse 1:200
+
+                           107
+planzeit GmbH
+
+Bauherrenberatung
+Projektentwicklung
+Baukommunikation
+
+Rosengartenstrasse 1
+CH-8037 Zürich
+Telefon 044 201 37 70
+
+www.planzeit.ch
+

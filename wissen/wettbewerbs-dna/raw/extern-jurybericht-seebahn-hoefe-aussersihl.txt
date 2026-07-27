@@ -1,0 +1,1885 @@
+# Quelle: https://seebahnhoefe.ch/wp-content/uploads/2016/06/Jurybericht_Seebahnstrasse_low.pdf (Jurybericht Wohnsiedlung Seebahnstrasse / Seebahn-Hoefe, Zuerich-Aussersihl, 2016, 72 Seiten, abgerufen 2026-07-27)
+# Extrakt: pdftotext -layout, 72 Seiten, erstellt 2026-07-27
+
+P ro j ektw et tbew erb im sel ekt iv en Ver fah ren   Ja n uar 201 4                                                                                               ersatzneubau | wohnsiedlung S eeb ahnstr asse | Z ür ich- Ausser sihl
+
+
+
+
+                                                                                                                          wohnsiedlung     e r s at z n e u b a u
+                                                                                                      Zürich-Aussersihl
+
+
+
+                                                        Projektwettbewer b im selektiven Ver fahren
+
+
+                                                                                                                          Seebahnstrasse
+
+
+
+
+                                                                                                                                                                                                                 1 | 2014
+in h a lt s v e r z e i c h ni s
+
+
+
+
+  1		    Einleitung  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 3
+
+  2      Auftraggeberin, Wettbewerbsaufgabe und -ziele .  .  .  .  .  .  .  .  .  .  .  .  .  . 4
+
+  3		    Raumprogramm .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 7
+
+  4		    Teilnehmende  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 8
+
+  5		    Preisgericht  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 9
+
+  6		    Vorprüfung  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 10
+
+  7		    Beurteilung .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 11
+
+  8		    Rangierung .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 12
+
+  9		    Schlussfolgerungen  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 13
+
+  10     Empfehlungen  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 15
+
+  11     Genehmigung  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 16
+
+  12     Projektverfassende  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 17
+
+  		     Projekte Wettbewerb  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 21
+Impressum
+
+
+Herausgeberin:
+Stadt Zürich
+Hochbaudepartement
+Amt für Hochbauten
+
+
+Inhalt/Redaktion:
+Moritz Marti
+Britta Walti
+
+
+Fotos:
+Luca Zanier
+
+
+Gestaltungskonzept:
+blink design, Zürich
+
+
+Layout:
+Fabian Unold
+
+
+Druck:
+GeoPrint-Shop, Zürich
+
+
+Bezugsquelle:
+Stadt Zürich
+Amt für Hochbauten
+Lindenhofstrasse 21
+Postfach, 8021 Zürich
+ahb@zuerich.ch
+
+
+Zürich, Januar 2014
+1 	E i n l EIT U N G
+
+
+
+Die Baugenossenschaft des eidgenössischen Personals (BEP) hat ihren
+Ursprung zu Beginn des 20. Jahrhunderts, als eine Gruppe von Eisenbahnern
+bestrebt war, eine Selbsthilfeorganisation für den Wohnungsbau zu schaffen.
+Der Genossenschaft ist es ein Anliegen, die Solidarität und das einvernehm-
+liche Zusammenleben der Mitglieder zu fördern sowie für eine gute soziale
+Durchmischung zu sorgen. Sozialverträglichkeit und Nachhaltigkeit sind
+wichtige Aspekte, die auch im Leitbild verankert sind. Durch Um- und Neu-
+bauten sollen das Portfolio bedürfnisgerecht erweitert und neue Mitglieder-
+kreise gewonnen werden.
+
+Die Siedlung Seebahn wurde 1930 erbaut und entspricht heutzutage nicht mehr
+den aktuellen Bedürfnissen. Die Wohnungsgrössen sind vor allem für Mehrper-
+sonenhaushalte zu klein und der Wohnungsspiegel entspricht nicht der aktuellen
+Nachfrage. Zudem werden die Anforderungen bezüglich Schallschutz, hindernis-
+freiem Bauen und energetischen Eigenschaften nicht mehr erfüllt.
+
+Die BEP erarbeitete deshalb gemeinsam mit der Allgemeinen Baugenossen-
+schaft Zürich (ABZ), der Gemeinnützigen Bau- und Mietergenossenschaft
+Zürich (GBMZ), dem Amt für Städtebau Zürich (AfS) und der Stadtentwick-
+lung Zürich (STEZ) ein Leitbild für die Weiterentwicklung der Wohnsiedlungen
+entlang der Seebahnstrasse. Das Leitbild kam zum Schluss, dass die er-
+wähnten baulichen und strukturellen Nachteile nur durch einen Ersatzneubau
+nachhaltig beseitigt werden können. Weiter wurde aufgezeigt, dass mit
+Ersatzneubauten mehr Wohnungen als heute realisiert werden können. Dank
+eines breiteren Wohnungsmixes werden unter Berücksichtigung der Bele-
+gungsvorschriften zudem deutlich mehr Menschen als bisher in der neuen
+Siedlung ein Zuhause finden. Zur Sicherstellung der Sozialverträglichkeit
+sollen einerseits «Budget»-Wohnungen mit knappen Flächenvorgaben geplant
+und andererseits ein Anteil der neuen Wohnungen subventioniert werden.
+
+Die BEP und die ABZ entschlossen sich aufgrund der Resultate des Leitbilds,
+den Ersatz ihrer Wohnsiedlungen weiter zu verfolgen. Nach eingehender
+Interessenabwägung stellte der Stadtrat eine Entlassung der beiden Sied-
+lungen aus dem Inventar der schützenswerten Bauten und Anlagen in Aus-
+sicht und befürwortete Abweichungen von der Regelbauweise durch einen
+Gestaltungsplan. Das Resultat dieses Wettbewerbs und des anschliessenden
+Studienauftrags der ABZ sollen die Grundlagen für die beiden Verfahren
+bilden.
+
+Damit ist ein weiterer, wichtiger Schritt in Richtung Erneuerung der Wohn-
+siedlungen getan. Es ist vorgesehen, nach Abschluss des Konkurrenzverfah-
+rens der ABZ, die Inventarentlassung und die Erarbeitung des Gestaltungs-
+plans in Angriff zu nehmen. Im Jahr 2018 soll das Baugesuch für einen
+Ersatzneubau der Wohnsiedlung Seebahnstrasse eingegeben werden.
+
+
+
+
+               Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse   | Zürich-Aussersihl   3
+    2	Auf t r a gge b er i n, We ttbe we r bsAUFG AB e
+    	u n d - Z i e l e
+
+    Auftraggeberin
+    Die Baugenossenschaft des eidgenössischen Personals (BEP) beauftragte
+    das Amt für Hochbauten (AHB) mit der Durchführung eines anonymen,
+    einstufigen Projektwettbewerbs im selektiven Verfahren, um Projektvorschläge
+    für einen Ersatzneubau der Wohnsiedlung Seebahnstrasse in Zürich-Ausser-
+    sihl zu erhalten. Das Wettbewerbsverfahren orientierte sich an der Ordnung
+    SIA 142 (Ausgabe 2009), unterstand jedoch weder der Interkantonalen
+    Vereinbarung über das öffentliche Beschaffungswesen (IVöB) noch der
+    Submissionsverordnung (SVO) des Kantons Zürich.
+
+    Wettbewerbsperimeter
+    Die Parzelle AU4074 liegt in Zürich-Aussersihl im Quartier Bullinger und bildet
+    den Projektperimeter des Wettbewerbs. Das Grundstück befindet sich im
+    Besitz der BEP und weist eine Fläche von 7'313 m 2 auf.
+
+    Wettbewerbsaufgabe
+    Auf dem Grundstück der BEP sollen die bestehenden Gebäude rückgebaut
+    und eine neue Wohnsiedlung erstellt werden.
+    Die Vorgaben der Bau- und Zonenordnung kommen nicht zur Anwendung. Es
+    ist vorgesehen, zur Bewilligung des Siegerprojekts einen Gestaltungsplan
+    auszuarbeiten. Die städtebaulichen Vorgaben, die für den Entwurf vorgege-
+    ben werden, wurden im Zuge der Entwicklung des Leitbilds in Zusammenar-
+    beit der Baugenossenschaften mit der Stadt Zürich definiert und während der
+    Erarbeitung des Wettbewerbsprogramms präzisiert.
+    Eine Testplanung des Amts für Hochbauten auf Grundlage der städtebau-
+    lichen Vorgaben hatte ergeben, dass rund 145 Wohnungen erwartet werden
+    können. Der Wohnungsspiegel enthielt 2½-, 3-, 3½-, 4-, 4½- und 5½-
+    Zimmer-Wohnungen und zumietbare Einzelzimmer. Im Erdgeschoss waren
+    neben den Wohnflächen Flächen für Gemeinschaftsräume, Gewerbe und eine
+    Kindertagesstätte vorzusehen.
+
+    Die Zielkosten für den Ersatzneubau wurden auf maximal 68 Mio. Franken
+    festgelegt (BKP 1–9, inkl. 8 % MwSt., exkl. Reserven und Unvorhergesehenes).
+
+    Die BEP beabsichtigt, eine Wohnsiedlung zu erstellen, die ihren Energiebe-
+    darf möglichst CO 2 -neutral zu decken vermag.
+    Im Betrieb sollte mindestens die gewichtete Energiekennzahl von Minergie-P
+    erreicht werden (für Wohnen Mehrfamilienhaus: 30 kWh/m 2 ). Ferner wurde
+    der Standard ECO angestrebt.
+
+
+
+
+4   Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl
+Die Wettbewerbsziele wurden wie folgt definiert:
+–    Städtebaulich, architektonisch und aussenräumlich qualitätsvolle
+     und zeitgemässe Neubauten.
+–    Projekte mit einem attraktiven, begrünten Hofraum mit parkartigem
+     Charakter sowie mit quartiertypischen grünen Vorgartenbereichen.
+–    Optimale und innovative Familienwohnungen, die den spezifischen
+     Wohnbedürfnissen von Familien oder anderen Haushaltsformen mit
+     Kindern gerecht werden und die einen hohen Gebrauchswert besitzen.
+–    Attraktive Kleinwohnungen für Ein- und Mehrpersonenhaushalte ohne
+     Kinder, die von allen Generationen genutzt werden können.
+–    Wirtschaftlich vorbildliche Projekte, die niedrige Erstellungskosten
+     sowie einen kostengünstigen Betrieb und Unterhalt gewährleisten.
+–    Ökologisch nachhaltige Projekte, die die gewichtete Energiekennzahl
+     von Minergie-P erreichen.
+
+
+
+
+              Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse   | Zürich-Aussersihl   5
+Übersichtsplan Stadt Zürich
+
+
+
+
+                                                                                        (ULVPDQQKRI
+
+
+
+
+                                                                 6WD
+                                                                    XII
+                                                                       DFK
+                                                                          HUV
+                                                                              WUD
+                                                                                  VVH
+                                                 VH
+                                                UDV
+                                           QVW
+                                          DQ
+                                       (UL
+                                           VP
+
+                                                                                  DV VH
+                                                                                QV WU
+                                                                             HEDK
+                                           .D                             6H
+                                                Q]
+                                                  OHL
+                                                      VWU
+                                                         DV
+                                                            VH                                         $Q
+                                                                                                         ZD
+                                                                                                            QG
+                                                                                                              VWU
+                                                                                                                 DV
+                                                                                                                    VH
+
+
+
+
+Situation 1: 2000
+
+
+
+      6             Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl
+3 	R a ump r o g r amm
+
+
+
+Genossenschaftliches Wohnen
+Erwartet wurden rund 145 Wohnungen. Folgender Wohnungsschlüssel
+war anzustreben:
+
+Wohnungstyp		                           Anteil in %                 HNF (gem. SIA 416)
+2½-Zimmer-Wohnungen                     ca. 10 %                             60–65 m 2
+3-Zimmer-Wohnungen                      ca. 15 %                            max. 72 m 2
+3½-Zimmer-Wohnungen                     ca. 25 %                             80–85 m 2
+4-Zimmer-Wohnungen                      ca. 20 %                            max. 82 m 2
+4½-Zimmer-Wohnungen                     ca. 25 %                            95–105 m 2
+5½-Zimmer-Wohnungen                     ca. 5 %                            110–120 m 2
+
+Grundsätzlich wichtig für die Attraktivität einer Wohnung sind räumlich-architek-
+tonische Qualitäten, gute Möblierbarkeit, gute Belichtung und Besonnung, Ruhe,
+wenn möglich Aussicht sowie die Nutzbarkeit eines privaten Aussenraums.
+
+Für die Wohnungen war Folgendes zu beachten:
+–     Die Fläche des grössten Zimmers hatte mindestens 14 m 2 aufzuweisen.
+–     Die lichte Raumhöhe betrug in allen Wohngeschossen mindestens 2.5 m.
+–     Im Eingangsbereich war ausreichend Stauraum zur Verfügung
+      zu stellen.
+–     Halbe Zimmer hatten einen guten Nutzwert in den Bereichen Wohnen /
+      Küche / Essen zu erbringen.
+–     Zu jeder Wohnung war ein qualitativ hochstehender, privater Aussenbe-
+      reich vorzusehen, der entsprechend der Wohnungsgrösse zu dimen-
+      sionieren war. Die Grösse des Aussenraums hatte mindestens 2 m in
+      der Tiefe zu betragen.
+
+Zumietbare Zimmer
+Zusätzlich waren rund 15 zumietbare Zimmer mit einer Nutzfläche von rund
+20 m 2 (1 Zimmer pro 10 Wohnungen) mit eigener Nasszelle vorzusehen.
+
+Gästewohnungen
+Zu Planen galt es zudem zwei Gästewohnungen für je 2–4 Personen, die
+über einen Wohnbereich, eine Kochnische, ein Schlafzimmer und eine Nass-
+zelle mit Dusche / WC zu verfügen haben. Die Erschliessung sollte möglichst
+direkt vom Aussenraum her erfolgen, d. h. nicht über die Erschliessung der
+übrigen Wohnungen.
+
+Weitere genossenschaftliche Nutzungsräume wie zum Beispiel Bastelräume,
+einen Gemeinschaftsraum sowie flexible Nutzungsflächen waren gefordert.
+
+
+
+
+               Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse   | Zürich-Aussersihl   7
+    4	T e i l n e h m e n d e
+
+
+
+    Das Preisgericht traf sich am 30. Mai 2013 zur Genehmigung des Wettbe-
+    werbsprogramms und zur Selektion der Teilnehmenden. Insgesamt haben
+    58 Teams rechtzeitig ihre Bewerbung eingereicht. Die Bewerbungen wurden
+    auf die in den Ausschreibungsunterlagen aufgeführten Kriterien hin geprüft.
+    In mehreren Rundgängen wurden die folgenden zwölf Teams bestehend aus
+    Fachleuten der Bereiche Architektur und Landschaftsarchitektur zur Teilnahme
+    am Projektwettbewerb ausgewählt:
+
+    –      soppelsa architekten gmbh, Zürich /
+           Rosenmayr Landschaftsarchitektur GmbH, Zürich
+    –      Burkard Meyer Architekten BSA, Baden /
+           Koeber Landschaftsarchitektur, Stuttgart (D)
+    –      harder spreyermann architekten ETH / SIA / BSA AG, Zürich /
+           Martin Klauser Landschaftsarchitekt HTL / BSLA, Rorschach
+    –      Atelier Scheidegger Keller, Zürich /
+           4d AG Landschaftsarchitekten BSLA SIA, Bern
+    –      Charles Pictet Architecte FAS I SIA, Genf mit EX-M, Milano (I)
+           Atelier Descombes Rampini SA, Genf
+    –      Luca Selva Architekten ETH BSA SIA AG, Basel /
+           Appert & Zwahlen Partner AG, Landschaftsarchitekten BSLA, Cham
+    –      Adrian Streich Architekten AG, Zürich /
+           Manoa Landschaftsarchitekten GmbH, Meilen
+    –      Sergison Bates architekten, Zürich /
+           mavo gmbh, Zürich
+    –      von Ballmoos Krucker Architekten, Zürich /
+           Westpol Landschaftsarchitektur, Basel
+    –      Enzmann Fischer Partner AG, Zürich /
+           koepflipartner Landschaftsarchitekten BSLA, Luzern
+    –      Edelmann Krell, Dip. Architekten ETH SIA, Zürich /
+           Hager Partner AG, Zürich
+    –      Bosshard Vaquer Architekten GmbH, Zürich /
+           Bosshard Vaquer Architekten GmbH, Landschaftsarchitektur, Zürich
+
+
+
+
+8   Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl
+5     Preisgericht
+
+
+
+Sachpreisrichterinnen und Sachpreisrichter
+–   Kurt Altenburger, Präsident, BEP
+–   Ralf Escher, Fachvorstand Bau, BEP
+–   Erich Meier, Leiter Bau, BEP
+–   Remo Montanari, städtischer Vertreter, BEP
+–   Peter Krähenbühl, Mitglied Baukommission, BEP (Ersatz)
+
+Fachpreisrichterinnen und Fachpreisrichter
+–   Christoph Rothenhöfer, Amt für Hochbauten, Zürich (Vorsitz)
+–   Pascal Hunkeler, Amt für Städtebau, Zürich
+–   Miroslav Šik, Architekt Zürich
+–   Beat Rothen, Architekt Winterthur
+–   Christoph Schubert, Landschaftsarchitekt Zürich
+–   Anne Kaestle, Architektin Zürich (Ersatz)
+
+Expertinnen und Experten
+–   Werner Hofmann, Fachstelle Ingenieurwesen, AHB
+–   Ian Jenkinson, Fachstelle Projektökonomie, AHB
+–   Annick Lalive D'Epinay, Fachstelle Nachhaltiges Bauen, AHB
+–   Thomas Kessler, Fachstelle Energie- und Gebäudetechnik, AHB
+–   Erich Steffen, Amt für Baubewilligungen
+–   Andrea Bender, Grün Stadt Zürich Freiraum
+–   Pieder Durisch, Tiefbauamt
+–   Hansruedi Christen, Tiefbauamt
+–   Karl Gruber, Dienstabteilung Verkehr
+–   Oscar Fisler, Fachstelle Lärmschutz, UGZ
+–   Bruno Christen, Schutz und Rettung Zürich
+
+Wettbewerbsvorbereitung, Vorprüfung und Sekretariat
+–    Moritz Marti, Architekt, Projektentwicklung AHB
+–    Britta Walti, Assistentin Projektentwicklung AHB
+
+
+
+
+              Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse   | Zürich-Aussersihl   9
+     6       v o r p r üfun g
+
+
+
+     Die zwölf eingereichten Projekte wurden nach den Grundsätzen der
+     SIA-Ordnung 142, den Anforderungen des Wettbewerbsprogramms
+     und der Fragenbeantwortung auf folgende Punkte hin geprüft:
+
+     Teil 1
+     Für die Zulassung zur Beurteilung:
+     –      Termingerechtigkeit der eingereichten Unterlagen
+     –      Vollständigkeit der eingereichten Unterlagen
+
+     Antrag der Vorprüfung:
+     Die Vorprüfung beantragte dem Preisgericht alle Projekte zur Preiserteilung
+     zuzulassen.
+
+     Für die Zulassung zur Preiserteilung:
+     –     Perimeter und Baurecht
+     –     Raumprogramm
+     –     Kindertagesstätte
+     –     Aussenraum
+     –     Verkehr, Erschliessung, Parkierung
+     –     Lärmschutz
+     –     Gebäudetechnik
+     –     Tragstruktur
+     –     Wirtschaftlichkeit
+     –     Ökologische Nachhaltigkeit
+
+     Im Teil 1 der Vorprüfung wurden die Mengenangaben der Wettbewerbs-
+     kalkulation für die Vorprüfung von Projektökonomie und ökologischer Nach-
+     haltigkeit übernommen. Die Berichte der Experten sind in den Vorprüfungs-
+     bericht eingeflossen.
+
+     Teil 2
+     Die Projekte der engeren Wahl wurden auf folgende Kriterien geprüft:
+     –      Baurecht
+     –      Brandschutz
+     –      Wirtschaftlichkeit
+     –      Ökologische Nachhaltigkeit
+
+     Die Mengenangaben der Wettbewerbskalkulation wurden vertieft überprüft
+     und verifiziert.
+
+
+
+
+10   Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl
+7     B e u rt e i l u n g
+
+
+
+Das Preisgericht tagte am 7. und 26. November 2013. Der gesamte Jurie-
+rungsprozess wurde öffentlich durchgeführt.
+
+Nach einer freien Besichtigung der Projekte nahm das Preisgericht am ersten
+Jurierungstag vom Ergebnis der Vorprüfung (Teil 1) Kenntnis. Das Preisgericht
+beschloss dem Antrag der Vorprüfung stattzugeben und alle zwölf Projekte
+zur Beurteilung und Preiserteilung zuzulassen.
+
+Als Grundlage für die Beurteilung dienten die im Wettbewerbsprogramm
+aufgeführten Kriterien:
+–    Städtebau, Architektur, Aussenraum
+–    Bezug zum architektonischen und städtebaulichen Kontext
+–    Funktionalität (Gebrauchswert der Anlage, Einhaltung Raumprogramm)
+–    Wirtschaftlichkeit (Einhaltung Kostenrahmen)
+–    Ökologische Nachhaltigkeit (Energiebilanz / Bauökologie)
+
+Das Preisgericht nahm basierend auf diesen Beurteilungskriterien eine
+Gesamtwertung vor.
+
+Nachdem sich das Preisgericht eingelesen und eine erste Vorstellungsrunde
+der Projekte ohne Wertung stattgefunden hatte, fand eine Besichtigung des
+Wettbewerbsareals statt. Anschliessend wurden in zwei Wertungsrundgängen
+und anschliessenden Kontrollrundgängen die folgenden Projekte ausge-
+schieden:
+
+1. Wertungsrundgang:
+Projekte Nr. 2 «Emilie-Lieberherr-Hof», Nr. 6 «BARTON FINK»,
+Nr. 7 «Takeshi's Castle», Nr. 9 «La vela», Nr. 12 «EDWARD»
+
+2. Wertungsrundgang:
+Projekte Nr. 1 «JOKERMAN», Nr. 4 «SINUS», Nr. 5 «BACK TO THE FUTURE»
+
+Nach einem abschliessenden Kontrollrundgang verblieben die Projekte Nr. 3
+«ARBORETUM», Nr. 8 «BRODERIE», Nr. 10 «PINARELLO» und Nr. 11 «WALD-
+GARTENHOF» in der engeren Wahl. Sämtliche Projekte wurden den Fach-
+preisrichterinnen und -richtern zum Verfassen einer schriftlichen Projektbeur-
+teilung zugeteilt.
+
+Zu Beginn des zweiten Jurierungstags nahm das Preisgericht von der vertief-
+ten Vorprüfung Kenntnis und beriet die Projektbeurteilungen. Für das Projekt
+Nr. 5 «BACK TO THE FUTURE» wurde ein Rückkommensantrag gestellt. Das
+Projekt Nr. 3 «Arboretum» wurde neu im 3. Wertungsrundgang ausgeschieden,
+Projekt Nr. 5 rückwirkend in die engere Wahl aufgenommen. Nach intensiver
+Diskussion der Projekte der engeren Wahl und einem letzten Kontrollrundgang
+wurde die Rangfolge einstimmig festgelegt.
+
+
+               Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse   | Zürich-Aussersihl   11
+     8	R a n g i e r u n g
+
+
+
+     Für Preise und Ankäufe stand eine Summe von insgesamt Fr. 210'000.--
+     (exkl. 8 % MwSt.) zur Verfügung. Für jedes zur Beurteilung eingereichte
+     Projekt wurde den Teilnehmenden je eine Entschädigung von Fr. 7'000.--
+     ausgerichtet. Das Preisgericht setzte die folgende Rangierung und Preis-
+     zuteilung fest:
+
+
+
+     1. Rang | 1. Preis        Projekt Nr. 10       PINARELLO		                         Fr.	 45'000.–
+
+     2. Rang | 2. Preis        Projekt Nr. 11       WALDGARTENHOF                       Fr.   39'000.–
+
+     3. Rang | 3. Preis        Projekt Nr. 8        BRODERIE		                          Fr.   29'000.–
+
+     4. Rang | 4. Preis        Projekt Nr. 5		      BACK TO THE FUTURE                  Fr.   13'000.–
+
+
+
+
+12   Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl
+9 	SCHLU SSF OLG ER UNG e n
+
+
+
+Der Projektwettbewerb «Ersatzneubau Seebahnstrasse» trägt eine sehr grosse
+Verantwortung. Gilt es doch, einen Ersatzneubau für eine sich im Inventar der
+schützenswerten Bauten, Anlagen und Gärten der Stadt Zürich befindenden
+Siedlung zu konzipieren und dies innerhalb der Quartiererhaltungszone.
+
+Auch wenn mit einem nachfolgenden Gestaltungsplan von der baugesetz-
+lichen Grundordnung abgewichen werden kann, bleibt die Wahrung des
+Gebietscharakters massgebend. So wurde von den teilnehmenden Büros eine
+adäquate Aussage verlangt, wie ein Neubau in die Quartiererhaltungszone
+integriert werden kann und zugleich die notwendigen Antworten auf die
+ungenügende Situation der bestehenden Siedlung gefunden werden können.
+Die zu bearbeitenden Themenfelder waren mannigfaltig. Neben den städte-
+baulichen Komponenten der Gebäudevolumetrie, deren Setzung und der
+Fassadengestaltung, mussten Lösungen für die zwischen privater und öffent-
+licher Nutzung oszillierenden Bespielung des Erdgeschosses wie des Innen-
+hofes gefunden werden.
+
+Der Innenhof und die Frage, was dieser sein soll, wurde gleichermassen
+unterschiedlich von den Teilnehmenden wie von der Jury diskutiert. Ist dieser
+Teil des Freiflächenkonzepts des Quartiers Bullinger oder private Naherho-
+lungszone oder schlicht Infrastrukturfläche und Transferzone zwischen den
+einzelnen Bebauungen? Klar war, dass die Programmierung des Innenhofs
+nur mit der Ausgestaltung der Erdgeschosse, den Erschliessungskonzepten
+der Wohnungen wie der Positionierung der Drittnutzungen integral diskutiert
+werden kann.
+
+Eine weitere wichtige Erkenntnis der Jury war, dass auf Grundrissebene nur
+absolut überzeugende Beiträge für eine Prämierung in Frage kommen, welche
+die eingreifende Strategie der Inventarentlassung mit bisher vermisster Qualität
+und nachhaltigem Mehrwert plausibilisieren. Wichtige Grundlage für das
+Entwickeln qualitativer Wohnungen, war die Ausnahmeregelung der Lärm-
+schutzverordnung. Mit dieser kann unter Einhaltung bestimmter Auflagen (z. B.
+ein Aussenraum zur Lärm abgewandten Seite) deutliche Vereinfachungen der
+Lärmschutzauflagen erzielt werden. Diese Regelung wurden in einigen Beiträ-
+gen berücksichtig, so dass trotz einschneidender Lärmsituation sehr anspre-
+chende Grundrisstypologien entwickelt werden konnten.
+Trotz vieler zu berücksichtigenden Auflagen wurde der Jury ein breites Lö-
+sungsspektrum angeboten, was deutlich gewürdigt werden soll. Die unter-
+schiedlichen Interpretationen des Blockrands wie die Nutzungsszenarien des
+Innenhofs sind erstaunlich. Gleichfalls zeigte sich im Verlauf des ersten Ju-
+rytags, dass zwischen Würdigung der Auseinandersetzung und der Evaluation
+von potentiellen Siegerbeiträgen ein klarer Strich gezogen werden kann. In die
+engere Wahl, verbunden mit einem Weiterzug in den zweiten Jurytag, kamen
+die Projekte Arbortetum, BRODERIE, PINARELLO und WALDGARTENHOF.
+
+
+
+
+               Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse   | Zürich-Aussersihl   13
+     Erfreulich ist, dass alle Projekte im Rahmen der ökologischen wie ökono-
+     mischen Zielsetzung wieder zu finden sind. Einzig beim Beitrag PINARELLO
+     verursachen wenig stringente Konstruktionsentscheide Mehrkosten, welche
+     allerdings einfach zu reduzieren sein sollten.
+
+     Der zweite Jurytag war von unterschiedlichen Fragestellungen geprägt: Was
+     sucht die BEP für diesen Ort? Was ist die richtige und angemessene (Neu-)
+     Interpretation der Quartierzone und welche Grundrisse wie Hofnutzungen
+     sind die überzeugendsten? So wurde der Beitrag WALDGARTENHOF von
+     Teilen der Fachjury als überzeugenden städtebaulichen Beitrag wie als
+     Vorreiter einer modernen Interpretation des genossenschaftlichen Zusam-
+     menwohnens wertgeschätzt. Dem Konzept, welches in einem hohe Masse
+     individuelles Wohnen ermöglicht, zeigten sich die Genossenschaftsvertreter
+     allerdings skeptisch gegenüber. Arboretums Interpretation des Hofes als
+     «grünes Bild» sowie der internen Erschliessungen mittels zweier Rue Intérieur
+     faszinierte auf den ersten Blick. Irritiert zeigte sich die Jury allerdings darü-
+     ber, dass beiden tragenden Projektideen mangels direkten Zugängen nicht
+     miteinander verwoben wurden. Broderie ist geprägt von seiner klaren
+     urbanen Gestalt. Die Qualität der Wohnungen wie die gut proportionierten
+     Fassaden erfreuen. Die annexartige Volumetrie der Kindertagesstätte wie die
+     ausschliesslich auf die Strassen führenden Treppenhäuser wurden kritisch
+     diskutiert. BACK TO THE FUTURE wurde bereits am ersten Jurytag aufgrund
+     der tiefen, scheibenartigen Grundrisse nicht als potentielles Siegerprojekt
+     deklariert. Die schliessliche Rangierung auf den vierten Platz soll als aus-
+     drückliche Würdigung des sehr überzeugenden Städtebaus und der Gestal-
+     tung des Aussenraums verstanden werden.
+
+     Dank dieser unterschiedlichen Konzepte konnte die Jury auf eine sehr breite
+     Auslegeordnung zurückgreifen und vertieft diskutieren. Grosse Einigkeit
+     bestand darin, dass PINARELLO die überzeugendsten Antworten auf die
+     Summe der heterogenen Zielformulierungen der Wettbewerbsausschreibung
+     gibt. Die besondere Ausformulierung des Blockrands, der Innenhof, die
+     Erschliessungen und die Organisation des Gebäudes wirken selbstverständ-
+     lich, logisch und überzeugend. Die Bespielung des Erdgeschosses im Innen-
+     wie im Aussenraum lässt ein lebendiges Zusammenleben mit hoher Aufent-
+     haltsqualität erwarten.
+
+     Die BEP, das Amt für Hochbauten und das Preisgericht danken den Wettbe-
+     werbsteilnehmenden für die engagierte Auseinandersetzung mit diesem
+     Ersatzneubau innerhalb der Quartiererhaltungszone und der damit verbun-
+     denen besonderen Programmatik.
+
+
+
+
+14   Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl
+1 0 	E M P F EHLU N G EN
+
+
+
+Das Preisgericht empfiehlt der Bauherrschaft, das Projekt Nr. 10
+«PINARELLO» unter Berücksichtigung der Projektkritik sowie der Resultate
+der Vorprüfung weiter zu bearbeiten. Im Rahmen der weiteren Projektierung
+sollen insbesondere die nachfolgenden Punkte geklärt und weiterentwickelt
+werden:
+
+–     Kostenziel
+Gemäss der Verifizierung der Erstellungskosten durch das Amt für Hoch-
+bauten übersteigt das Siegerprojekt das Kostenziel deutlich. Die Konstrukti-
+onen des Daches, der Geschossdecken und der Innenwände wurden als
+kostentreibende Elemente identifiziert. Zudem sind teilweise teure Kastenfen-
+ster vorgesehen und der Dämmperimeter schliesst das ungenutzte Dachge-
+schoss ein. Es ist nachzuweisen, wie unter Optimierung der aufgezählten
+Punkte das Kostenziel erreicht werden kann.
+
+–      Wohnungsschlüssel
+Der gegenwärtige Wohnungsschlüssel des Projekts weist 140 Wohnungen auf und
+liegt somit unter der Vorgabe des Wettbewerbs. Insbesondere im Bereich der 3½
+– 4½-Zimmer-Wohnungen werden nicht ausreichend Wohnungen angeboten. Der
+Wohnungsschlüssel ist gemäss den Vorgaben des Wettbewerbs und im Dialog mit
+dem Auftraggeber anzupassen.
+
+–      Wohnungsgrundrisse
+Ein direkter Bezug der Toiletten zum Essraum ist zu vermeiden. Die Wohnungs-
+grundrisse sind dahingehend zu optimieren.
+
+–     Hinderfreies Bauen
+Sämtliche Wohnungen sind hindernisfrei zu erschliessen. Beim Siegerprojekt
+weisen insbesondere die Korridore und die Nasszellen der Wohnungen nicht die
+nötigen Durchgangsbreiten auf.
+
+–     Gebäudetechnik
+Ein funktionierendes Konzept der Technikräume und der Erschliessungen für die
+gebäudetechnischen Installationen ist nachzuweisen.
+
+–     Räume Dachgeschoss
+Der Dachraum des Siegerprojekts ist nicht zugänglich und teilweise auch
+nicht begehbar. Trotzdem liegt er innerhalb des Dämmperimeters, was sich
+ungünstig auf Erstellungskosten und Gebäudevolumen auswirkt. Die Funktion
+des Dachraumes ist zu klären.
+
+
+
+
+               Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse   | Zürich-Aussersihl   15
+     11 G ENEH M I G U N G
+
+
+
+     Zürich, 7. und 26. November 2013, das Preisgericht:
+
+
+
+
+     Kurt Altenburger
+
+
+
+     Ralf Escher
+
+
+
+     Erich Meier
+
+
+
+     Remo Montanari
+
+
+
+     Peter Krähenbühl (Ersatz)
+
+
+
+     Christoph Rothenhöfer (Vorsitz)
+
+
+
+     Pascal Hunkeler
+
+
+
+     Miroslav Šik
+
+
+
+     Beat Rothen
+
+
+
+     Christoph Schubert
+
+
+
+     Anne Kaestle (Ersatz)
+
+
+
+
+16   Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl
+1 2 P RO J E K TVERFASSEnde
+
+
+
+Mit der Unterzeichnung des Protokolls wurde das Wettbewerbsergebnis genehmigt
+und damit die beschlossene Rangfolge, die Festsetzung der Preissummen sowie
+die Schlussfolgerungen und Empfehlungen gutgeheissen. Bei der anschliessenden
+Öffnung der verschlossenen und anonymisierten Umschläge wurden folgende Projekt-
+verfasserinnen und -verfasser ermittelt:
+
+1. Rang | 1. Preis      PINARELLO (Antrag zur Weiterbearbeitung)
+Projekt Nr. 10 		
+Architektur:            Harder Spreyermann Architekten ETH / SIA / BSA AG
+                        Badenerstrasse 18, 8004 Zürich
+Verantwortlich:         Regula Harder, Jürg Spreyermann
+Mitarbeit:              Giulio Bettini, Cornelis Knut, Oliver Imholz, Rachelle Ong
+Landschaftsarchitektur: Martin Klauser Landschaftsarchitekt HTL / BSLA
+                        Kronenstrasse 13, 9400 Rorschach
+HLKS-Planung:           3-Plan Haustechnik AG, Winterthur
+Statik, Konstruktion:   SJB Kempter Fitze AG, Frauenfeld
+
+2. Rang | 2. Preis      WALDGARTENHOF
+Projekt Nr. 11 		
+Architektur:            Bosshard Vaquer Architekten GmbH
+                        Ankerstrasse 3, 8004 Zürich
+Verantwortlich:         Meritxell Vaquer, Daniel Bosshard
+Mitarbeit:              Serena Santini, Astrid Smitham, Corinne Weber,
+                        Lukas Mersch
+Landschaftsarchitektur: Bosshard Vaquer Architekten GmbH
+                        Ankerstrasse 3, 8004 Zürich
+Bauphysik:              BAKUS Bauphysik und Akustik GmbH, Zürich
+HLKS-Planung:           Kalt + Halbeisen Ingenieurbüro AG, Zürich
+Statik:                 Conzett Bronzini Gartmann, Chur
+Verkehrsplanung:        IBV Hüsler AG, Zürich
+
+3. Rang | 3. Preis      BRODERIE
+Projekt Nr. 8		
+Architektur:            von Ballmoos Krucker Architekten
+                        Badenerstrasse 156, 8004 Zürich
+Verantwortlich:         Bruno Krucker
+Mitarbeit:              Franziska Müller, Sophie Savary, Patrick Meier,
+                        Irina Blajev, Alexis van Hecke						
+Landschaftsarchitektur: Westpol Landschaftsarchitektur
+                        Feldbergstrasse 42, 4057 Basel
+HLKS-Planung:           3-Plan Haustechnik AG, Winterthur
+
+
+
+
+               Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse   | Zürich-Aussersihl   17
+     4. Rang | 4. Preis                BACK TO THE FUTURE
+     Projekt Nr. 5
+     Architektur:		                    Atelier Scheidegger Keller
+     				                              Griesernweg 32, 8037 Zürich
+     Verantwortlich:		                 Christian Scheidegger, Jürg Keller
+     Mitarbeit:		                      Leopold Strobel, Eveline Schneider
+     Landschaftsarchitektur:           4d AG Landschaftsarchitekten BSLA SIA
+     				                              Schönburgstrasse 52, 3013 Bern
+     Bauingenieurwesen:                Ingegneri Consulenti SA, Locarno
+     Kostenplaner /
+     Baumanagement:		                  BGS & Partner Architekten AG, Rapperswil
+     Heizungs- und Lüftungs-
+     planer / Bauphysiker:             Raumanzug GmbH, Zürich
+     Visualisierung:		                 Elektrokontor, Zürich
+
+
+
+     Verfassende der weiteren Projekte:
+
+     Projekt Nr. 1		         JOKERMAN 		
+     Architektur:		          Burkard Meyer Architekten BSA
+     				                    Martinsbergstrasse 40, 5400 Baden
+     Verantwortlich:		       Daniel Krieg
+     Mitarbeit:		            Oliver Dufner, Adrian Meyer, Andreas Signer,
+     				                    Tobias Burger, Andreas Aeschbacher,
+     				Boriana Tomova
+     Landschaftsarchitektur: Koeber Landschaftsarchitektur
+     				                    Azenbergstrasse 31, 70174 Stuttgart (D)
+     Nachhaltigkeit: 		      Lemon Consult GmbH, Zürich
+
+     Projekt Nr. 2		         Emilie-Lieberherr-Hof
+     Architektur:		          Luca Selva Architekten ETH BSA SIA AG
+     				                    Viaduktstrasse 12-14, 4058 Basel
+     Verantwortlich:		       Jonathan Benhamu
+     Mitarbeit:		            Luca Selva, Roger Braccini, Lukas Schirmann,
+     				                    Lisa Gerlach, Irene Giubbini, Kristina Krämer
+     Landschaftsarchitektur: Appert & Zwahlen Partner AG
+     				Landschaftsarchitekten BSLA
+     				                    Zugerstrasse 4, 6330 Cham
+     Modellbau:		            Burla Modellbau, Basel
+     Visualisierung:		       Maaars Visualisierungen, Zürich
+
+
+
+
+18   Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl
+Projekt Nr. 3                   Arboretum
+Architektur:                    Enzmann Fischer Partner AG
+                                Seebahnstrasse 109, 8003 Zürich
+Verantwortlich:                 Philipp Fischer
+Mitarbeit:                      René Müller, Tina Härtel, Sebastian Ritter,
+                                Dave Eickhorst, Victor Tuschick, Rebecca Volp
+Landschaftsarchitektur:         koepflipartner Landschaftsarchitekten BSLA
+                                Neustadtstrasse 3, 6003 Luzern
+Bauingenieurwesen:              HEYER KAUFMANN PARTNER, Zürich
+Baumanagement:                  Confirm Baumanagement AG, Zürich
+HLKS-Planung:                   Amstein + Walthert AG, St. Gallen
+Lärmschutz:                     Martinelli + Menti AG, Meggen
+
+Projekt Nr. 4                   SINUS
+Architektur:                    Edelmann Krell, Dipl. Architekten ETH SIA
+                                Badenerstrasse 329, 8003 Zürich
+Verantwortlich:                 Ralf Edelmann, Oliver Krell
+Mitarbeit:                      Hannah Kuby
+Landschaftsarchitektur:         Hager Partner AG
+                                Bergstrasse 50, 8032 Zürich
+
+Projekt Nr. 6		                 BARTON FINK
+Architektur:		                  Sergison Bates architekten
+				                            Mattengasse 27, 8005 Zürich
+Verantwortlich:		               Jonathan Sergison
+Mitarbeit:		                    Michael Stettler, Matt Bailey
+Landschaftsarchitektur:         mavo gmbh
+				                            Badenerstrasse 125, 8004 Zürich
+
+Projekt Nr. 7		         Takeshi's Castle
+Architektur:		          soppelsa architekten
+				                    Flurstrasse 93, 8047 Zürich
+Verantwortlich:		       Mario Soppelsa, Nino Soppelsa
+Mitarbeit:		            Maik Ilmer, Jan Westerheide
+Landschaftsarchitektur: Rosenmayr Landschaftsarchitektur GmbH
+				                    Albulastrasse 39, 8048 Zürich
+Baumanagement:		        Laterza Graf Baupartner GmbH, Zürich
+HLKS-Planung/Bauphysik: Amstein + Walthert AG, Zürich
+Visualisierungen: 		    Georg Krähenbühl, Davos Platz
+
+
+
+
+                  Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse   | Zürich-Aussersihl   19
+     Projekt Nr. 9                     La vela
+     Architektur:                      Adrian Streich Architekten AG
+                                       Badenerstrasse 156, 8004 Zürich
+     Verantwortlich:                   Adrian Streich
+     Mitarbeit:                        Roman Ziegler, Antonio Obrist, Oliver Christen,
+                                       Tobias Lindenmann
+     Landschaftsarchitektur:           Manoa Landschaftsarchitekten GmbH
+                                       Seidengasse 51, 8706 Meilen
+
+     Projekt Nr. 12		        EDWARD
+     Architektur:		          Charles Pictet Architecte
+     				                    12A, chemin Frank-Thomas, 1208 Genf
+     				mit EX-M
+     				                    Nicola Braghieri, Alessandra Spada architetti		
+        			                  via Mantova 13, 20135 Milano (I)			
+     Verantwortlich:		       Charles Pictet, Nicola Braghieri, Marco Rampini
+     Mitarbeit:		            Renaud Pidoux, Andrea Palmieri, Alessandra
+     				                    Naitana, Chiara Novelli, Christoph Alankho
+     Landschaftsarchitektur: Atelier Descombes Rampini SA
+                             Rue du Beulet 4, 1203 Genf
+
+
+
+
+20   Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl
+                                                                                        Projekte Wettbewerb
+
+
+
+
+Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl   21
+Projekt Nr. 10:                                     PINARELLO
+1. Rang | 1. Preis
+Antrag zur Weiterbearbeitung
+
+
+Architektur:                                        Das Projekt «PINARELLO» fügt sich selbstverständlich in die
+Harder Spreyermann Architekten                      einheitliche Bebauungsstruktur der Umgebung ein. Entlang der
+ETH / SIA / BSA AG                                  Seebahnstrasse tritt der geschlossene Blockrand siebengeschos-
+Badenerstrasse 18, 8004 Zürich                      sig in Erscheinung, während sich die Höhe zum Quartierinneren
+                                                    hin auf fünf Geschosse reduziert. Die Hauseingänge liegen an der
+Verantwortlich:                                     Aussenseite des Blocks und die Treppenhäuser ermöglichen
+Regula Harder, Jürg Spreyermann                     einen direkten Durchgang zum Innenhof. Der Blockrand öffnet
+                                                    sich an vier Orten und lässt dadurch eine Durchlässigkeit aus
+Mitarbeit:                                          dem Quartier zu. Die Nutzungsverteilung im Erdgeschoss folgt
+Giulio Bettini, Cornelis Knut,                      dieser Lesart, indem die Kindertagesstätte und die Gemein-
+Oliver Imholz, Rachelle Ong                         schaftsräume jeweils an den Stirnseiten angeordnet werden.
+                                                    Entlang der Längsseiten wird im Hochparterre gewohnt.
+Landschaftsarchitektur:
+Martin Klauser Landschaftsarchitekt                 Der Blockrand wirkt nach aussen ruhig und geschlossen, wäh-
+HTL / BSLA                                          rend er sich im Inneren zum Hof hin öffnet. Diese Verzahnung
+Kronenstrasse 13, 9400 Rorschach                    der privaten Aussenräume mit dem halböffentlichen Aussenraum
+                                                    wird in der Vertikalen durch grosszügige Balkone umgesetzt.
+HLKS-Planung:                                       Das Öffnungsverhalten, die horizontale Fassadengliederung und
+3-Plan Haustechnik AG, Winterthur                   die schlichte Putzfassade in den Farben des Erismannhofs
+                                                    zeugen von einer sorgfältigen Auseinandersetzung mit dem
+Statik und Konstruktion:                            Kontext. Die Fassade gliedert sich in Sockel, Hauptfassade und
+SJB Kempter Fitze AG, Frauenfeld                    Dach. Das Dach der beiden Längsbauten nimmt die Firstrichtung
+                                                    der Umgebung auf und verschleift diese an den Stirnseiten.
+                                                    Diese Dachform gibt dem Blockrand seine markante Kubatur
+                                                    und übersetzt die historischen Elemente des Quartiers in eine
+                                                    neue, eigenständige und überzeugende Erscheinungsform. Der
+                                                    vorgeschlagene Hybridbau, eine Kombination aus Holzelement-
+                                                    bau und Stahlbeton, leistet einen wertvollen Beitrag zum nach-
+                                                    haltigen Bauen. Leider ist die vorgeschlagene Konstruktions-
+                                                    weise in dieser Form noch etwas zu kostspielig.
+
+                                                    Die Organisation des Gebäudes reagiert geschickt auf die
+                                                    Lärmproblematik entlang der Seebahnstrasse. Die Grundrisse
+                                                    sind so organisiert, dass sich die Wohnbereiche sowohl zum
+                                                    Hof als auch zur Strasse öffnen, was dazu beiträgt, dass auch
+                                                    die Strassenfassade trotz Lärmbelastung belebt wird. Die
+                                                    Wohnungsgrundrisse überzeugen einerseits durch einen zentra-
+                                                    len Wohn- und Essbereich, welcher von den Verfassern als
+                                                    Mittelpunkt definiert wird. Andererseits weisen einige Woh-
+                                                    nungen aber auch eine Flexibilität auf, da die Zimmer zusätzlich
+                                                    unterteilt werden können. Der vorgegebene Wohnungsschlüssel
+                                                    wurde jedoch nicht vollumfänglich erreicht. In einigen
+                                                    Wohnungen wird die Toilette jeweils vom Wohnbereich
+                                                    her erschlossen, was nicht zu überzeugen vermag.
+
+
+
+
+     22              Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl
+                                                                                                             Projekt Nr. 10:
+                                                                                                                               PINARELLO
+
+
+
+
+Situationsmodell 1:500
+
+
+                                       Die Vorgärten sind mit Sockelmauern und Heckenkörpern gefasst
+                                       und orientieren sich an den quartiertypischen Referenzen. Im Innern
+                                       wird durch die Verfasser in Anlehnung an den Erismannhof eine klare
+                                       Freiraumfigur vorgeschlagen. Ein Erschliessungsweg entlang der
+                                       Fassade bindet die Gebäude an den Hof an und verbindet diesen
+                                       mit dem öffentlichen Strassenraum. Für die beiden Schwerpunkte
+                                       Kindertagesstätte und Mehrzweckraum werden im Hof separate
+                                       Zonen vorgeschlagen. Die Mitte ist als ruhiger, aneigenbarer Frei-
+                                       raum konzipiert. Die Umgebungsgestaltung ist klar gegliedert und
+                                       sorgfältig komponiert. Der Bezug zum Erismannhof mit seinen
+                                       Qualitäten ist augenscheinlich. Die Detailierung der einzelnen Aus-
+                                       senraumelemente sowie die im Plan ersichtlichen Möblierungsvor-
+                                       schläge sind noch sehr zurückhaltend angedeutet. Bei einer weite-
+                                       ren Bearbeitung muss diesen Elementen grösste Beachtung
+                                       geschenkt werden.
+
+
+
+
+                         Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl   23
+Projekt Nr. 11:                                     WALDGARTENHOF
+2. Rang | 2. Preis
+
+
+
+Architektur:                                        Das Projekt «WALDGARTENHOF» zeugt von einer differenzierten
+Bosshard Vaquer Architekten GmbH                    Auseinandersetzung mit den Qualitäten des bestehenden
+Ankerstrasse 3, 8004 Zürich                         Bebauungsmusters. Die offene Durchlässigkeit der umliegenden
+                                                    Wohnhöfe wird fortgesetzt, was für eine gute Einbindung der
+Verantwortlich:                                     neuen Baukörper in die Nachbarschaft sorgt. Charakteristische
+Meritxell Vaquer, Daniel Bosshard                   Gliederungselemente des Quartiers werden aufgegriffen, weiter-
+                                                    entwickelt und neu interpretiert. Der glatten Aussenseite des
+Mitarbeit:                                          Perimeters wird eine weiche Abwicklung zum Hofinneren gegen-
+Serena Santini, Astrid Smitham,                     übergestellt. Die Nahtstellen zwischen innen und aussen sind
+Corinne Weber, Lukas Mersch                         präzise artikuliert, markante Zäsuren entlang der Stichstrassen
+                                                    geben den Blick ins grüne Interieur der Überbauung preis und
+Landschaftsarchitektur:                             sorgen gekonnt für einen kontrolliert inszenierten Übergang.
+Bosshard Vaquer Architekten GmbH                    Flach geneigte Dächer mit Ziegeleindeckung betonen die cha-
+Ankerstrasse 3, 8004 Zürich                         raktervolle Physiognomie der Gebäude. Zu allen Seiten entsteht
+                                                    ein neues prägendes Gesicht.
+Bauphysik:
+BAKUS Bauphysik und Akustik GmbH,                   Die Vorgärten orientieren sich an quartiertypischen Bildern mit
+Zürich                                              einer reichhaltigen Vegetation und Sockelmauern. Die raumgrei-
+                                                    fende Ausformulierung der Fassadenfigur gliedert den Innenhof
+HLKS-Planung:                                       in verschiedene räumliche Konfigurationen, es entsteht ein
+Kalt + Halbeisen Ingenieurbüro AG,                  fliessender Raum ohne klare Hierarchien. Die Verfasser schlagen
+Zürich                                              einen stark durchgrünten Waldgarten mit grossen Bäumen (z. B.
+                                                    Rottanne, Ulme, Pappel) vor, welche im Plan zu klein dargestellt
+Statik:                                             sind. Die Topographie der Bodenebene verstärkt die kleinräu-
+Conzett Bronzini Gartmann, Chur                     mige Wirkung des Hofraumes.
+
+Verkehrsplanung:                                    Die Wohnungen sind überwiegend als Zweispänner organisiert
+IBV Hüsler AG, Zürich                               und durch natürlich belichtete Treppenhäuser erschlossen.
+                                                    Neben der Adressbildung zur Strasse wird konsequent ein
+                                                    direkter Zugang zum Hof angeboten. Da bis ins Hochparterre
+                                                    Wohnungen vorgesehen sind wirkt der Innenhof wohnlich und
+                                                    belebt. Die gemeinschaftlichen Nutzungen setzten punktuell
+                                                    Akzente. Die Kindertagesstätte orientiert sich sowohl zum
+                                                    Hofinneren als auch nach Nordwest zur Erismannstrasse, so
+                                                    dass ein vielseitiges Aussenraumangebot entsteht. Die Dachter-
+                                                    rassen bieten eine attraktive Ergänzung der gemeinsamen
+                                                    Nutzungen, hier entstehen wertvolle Orte der Gemeinschaft und
+                                                    des Rückzugs. Den Waschsalons wurde hingegen überraschend
+                                                    wenig Aufmerksamkeit geschenkt. Die Lage im Tiefparterre ist
+                                                    wenig attraktiv und entspricht nicht der Idee des Treffpunktcha-
+                                                    rakters. Auch die Anordnung einiger Gästezimmer im Tiefpar-
+                                                    terre wird kritisch beurteilt.
+
+                                                    Sämtliche Wohnungen profitieren sowohl von der urbanen
+                                                    Stadtsicht als auch vom ruhigen Innenhof. Die innere Verzah-
+
+
+     26              Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl
+                                                                                                             Projekt Nr. 11:
+                                                                                                                               WALDGARTENHOF
+
+
+
+
+Situationsmodell 1:500
+
+
+
+
+                                       nung schafft vielseitige Ausblicke, welche ganz wesentlich zu einer
+                                       bemerkenswerten Wohnqualität beitragen. Sie generiert andererseits
+                                       auch Engstellen, die nicht ganz einfach zu bewältigen sind. Bei den
+                                       generell knapp geschnittenen Wohnungsgrössen sind die Zimmer
+                                       gut möblierbar, die Wohnflächen schön zoniert und räumlich gut
+                                       ausbalanciert. Alle Wohnungen sind typologisch verwandt – dennoch
+                                       bedient ein breites Spektrum subtiler Variationen unterschiedliche
+                                       Bedürfnisse. Diese Vielfalt wird kontrovers diskutiert. An der See-
+                                       bahnstrasse sind die Zimmer der Wohnungen als Reaktion auf die
+                                       Lärmimmissionen zum Hof orientiert oder der Wohnungsgrundriss
+                                       entspricht den Anforderungen an Wohnnutzungen im lärmigen
+                                       Siedlungsraum. Dass einige lärmabgewandte Aussenräume fehlen,
+                                       wird in diesem Zusammenhang als korrigierbar eingestuft.
+
+                                       Obwohl die grosse Fassadenabwicklung im Zusammenhang mit
+                                       einem insgesamt hohen Fensteranteil eine schlechte Wirtschaftlich-
+                                       keit erwarten lassen, liegen beim WALDGARTENHOF die maximalen
+                                       Erstellungskosten nur 3 % über dem Zielwert.
+
+
+
+
+                         Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl   27
+Projekt Nr. 8:                                       BRODERIE
+3. Rang | 3. Preis
+
+
+
+Architektur:                                         Zwei unterschiedlich gestaltete Blockrandhälften definieren den
+von Ballmoos Krucker Architekten                     halboffenen Blockrand. Durch diese L-förmigen Baukörper mit
+Badenerstrasse 156, 8004 Zürich                      zwei breiten Fugen will man den Innenhof stark an die angren-
+                                                     zenden Hofräume von Erismann- und Kanzleihof angliedern. An
+Verantwortlich:                                      der Erismannstrasse liegt ein fünfgeschossiges L-Gebäude mit
+Bruno Krucker                                        grösserer Gebäudetiefe. Das schmalere C-Gebäude ist sieben-
+                                                     geschossig und schwingt mit der Seebahnstrasse. Der Hofraum
+Mitarbeit:                                           im Innern des Blocks übernimmt verschiedenste Nutzungen.
+Franziska Müller, Sophie Savary,                     Neben der flanierenden Durchwegung wird er zum zentralen Ort
+Patrick Meier, Irina Blajev,                         für die Bewohnerinnen und Bewohner. Die erhöhten Pflanzbe-
+Alexis van Hecke                                     reiche gliedern den Hof stark, fungieren allerding mehr als
+                                                     Strukturelemente denn als Aufenthaltsbereiche. Das Verhältnis
+Landschaftsarchitektur:                              zwischen dem gewünschten Öffentlichkeitsgrad, der starken
+Westpol Landschaftsarchitektur                       Präsenz der Kindertagesstätte und einem Freiraum für die
+Feldbergstrasse 42, 4057 Basel                       Bewohnerinnen und Bewohner wäre noch genau auszuloten.
+                                                     Die chaussierten Zonen entlang des Hauses dienen den Bewoh-
+HLKS-Planung: 		                                     nenden als frei bespielbare Orte für gemeinschaftliche Aktionen
+3-Plan Haustechnik AG, Winterthur                    und als Zugänge für die Einzelzimmer.
+
+                                                     Die einzelnen Häuser weisen eine klare Adresse zu den Strassen
+                                                     und zum Hof hin auf. In den Vorgärten entlang der Erismann-
+                                                     strasse werden chaussierte Flächen bis zu den Eingangsbe-
+                                                     reichen rhythmisiert angelegt. Die Vorzone wird mit Sitzele-
+                                                     menten und Veloparkplätzen möbliert. Zur Seebahnstrasse
+                                                     werden die Hochparterrewohnungen und die Zugänge im Aus-
+                                                     senraum von quartiertypischen Vorgärten begleitet. Die attrak-
+                                                     tiven Eingangshallen belebt man durch Kinderwagen- und
+                                                     Bastelräume und eine Hochparterrewohnung. Die zur Stadt
+                                                     orientierten Fassaden mit lebendig rhythmisierter französischer
+                                                     Fenestrierung gestaltet man zurückhaltend repräsentativ. Zum
+                                                     Hof hin nimmt man eine durch polygonale Balkone und Aus-
+                                                     buchtungen «gewellte» horizontale Entwicklung mit hoher
+                                                     wohnlicher Stimmung wahr.
+
+                                                     Entworfen werden zwei leicht unterschiedliche Wohnungstypen.
+                                                     An der Seebahnstrasse sind es durchgehende «Lärmtypen» mit
+                                                     einem breiten Wohnraum zur Strasse, mit attraktiver Sicht auf
+                                                     Bäume und Stadt. Die Wohnungen an der Erismannstrasse sind
+                                                     knapp ausgebildet und bieten einen grossen Raum mit Küche
+                                                     zum Hof an. Als zusätzliche Attraktion gestaltet man ein zur
+                                                     Strasse orientiertes «TV-Room». Die Wohnungen sind knapp
+                                                     dimensioniert, komfortabel und von guter räumlicher Qualität.
+                                                     Die Summe geforderter Parkplätze ist nicht ausgewiesen,
+                                                     genauso sind die Veloabstellplätze noch nicht zufriedenstellend
+                                                     projektiert. Die Kindertagesstätte löst man, was Lage, Zugang,
+
+
+     30               Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl
+                                                                                                             Projekt Nr. 8:
+                                                                                                                              BRODERIE
+
+
+
+
+Situationsmodell 1:500
+
+
+                                       Orientierung und Funktionalität betrifft, gut und architektonisch
+                                       attraktiv. Das Fazit der Lärmschutzmassnahmen fällt positiv aus.
+                                       Die stark plastischen Fassaden sind ein Kosten treibendes Element.
+                                       Zur Vergünstigung tragen gut brauchbare Wohnungen, ein gut
+                                       konzipiertes und vordimensioniertes Tragwerk und minimierte
+                                       Treppenhäuser bei. Trotz gestalterischer Vielfalt wird eine hohe
+                                       Wiederholungsrate von einigen Bauteilen projektiert. Die Raumhülle
+                                       ist wegen der architektonischen Plastizität weitläufig. Insbesondere
+                                       dünken die grundrisslichen Vespentaillen leicht übertrieben. Das
+                                       Fazit der ökologischen Nachhaltigkeit: ungefähr eingehalten, mit
+                                       einigen Schwachstellen.
+
+                                       Das Projekt überzeugt durch die Kombination des attraktiven Hof-
+                                       raums, einer klar skulpturierten urbanen Gestalt mit gut gesetzten
+                                       öffentlichen Durchgängen, zurückhaltenden und gut proportionierten
+                                       Stadtfassaden, einer wohnlichen Fassadenschicht zum Hof, präzisen
+                                       Hausadressen und einer überzeugenden, alltagsrobusten und
+                                       zugleich einfachen Wohntypologie mit einem annehmbaren Woh-
+                                       nungsschlüssel. Die Aspekte der Parkierung, Ökologie, Ökonomie
+                                       und Nebenräume bedürfen einer weiteren Bearbeitung.
+
+
+
+
+                         Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl   31
+Projekt Nr. 5:                                      BACK TO THE FUTURE
+4. Rang | 4. Preis
+
+
+
+Architektur:                                        Das Projekt «BACK TO THE FUTURE» führt die bestehende
+Atelier Scheidegger Keller                          Morphologie mit den offenen Blockrändern des Quartiers weiter.
+Griesernweg 32, 8037 Zürich                         Die sieben Geschosse hohen Querbauten ragen etwas aus dem
+                                                    Stadtkörper heraus. Sie betonen die Hofeingänge und den
+Verantwortlich:		                                   Abschluss des Hofes. Die Querbauten setzten städtebauliche
+Christian Scheidegger, Jürg Keller                  Akzente, wie sie im Quartier verschiedentlich anzutreffen sind.
+                                                    Dieses städtebauliche Verhalten, das aus dem unmittelbaren
+Mitarbeit:		                                        Kontext heraus entwickelt ist, überzeugt.
+Leopold Strobl, Eveline Schneider
+                                                    Die Vorgartenzone wird durch quartiertypische Einfassungsmau-
+Landschaftsarchitektur:                             ern vom Strassenraum abgegrenzt. Dauerhafte Staudenpflan-
+4d AG Landschaftsarchitekten BSLA SIA               zungen erweitern das Thema des Vorgartens. Im Hofraum wird
+Schönburgstrasse 52, 3013 Bern                      eine klare Innenraumfigur vorgeschlagen. Zusammen mit dem
+                                                    städtebaulichen Grundgedanken des offenen Blockrandes ergibt
+Bauingenieurwesen:                                  sich ein klar und übersichtlich gestalteter Hofraum. Die vorge-
+Ingegneri Consulenti SA, Locarcno                   schlagene Aussenraumgestaltung besticht durch eine klare
+                                                    Zonierung sowohl im Bereich der Vorgärten als auch im Innen-
+Kostenplaner / Baumanagement:                       raum. Auch wenn der vorgeschlagene Erhalt der bestehenden
+BGS & Partner Architekten AG,                       Bäume aufgrund der bestehenden bewegten Topographie noch
+Rapperswil                                          genau zu prüfen wäre, handelt es sich um ein ausgereiftes und
+                                                    gut detailliertes Freiraumkonzept. Die Qualität von Plan und
+Heizungs- und Lüftungsplaner /                      Visualisierung verspricht gleichermassen einen stimmigen
+Bauphysiker: Raumanzug GmbH, Zürich                 Aufenthaltsraum für die neuen Bewohnerinnen und Bewohner.
+                                                    Der architektonische Ausdruck der Gebäude mit den hell- bis
+Visualisierung:                                     dunkelgrau verputzten Fassaden und den starr angeordneten,
+Elektrokontor, Zürich                               lochartigen Fenstern und Balkonen wirkt etwas abweisend und
+                                                    fremd im Quartier.
+
+                                                    Durch die unterschiedlichen innerstädtischen Situationen erge-
+                                                    ben sich vier spezifische Baukörper, denen nur ein Wohnungstyp
+                                                    zugrunde liegt. Die zentral gelegenen Querbauten beinhalten im
+                                                    Erdgeschoss folgerichtig überhohe Räume, in denen der Ge-
+                                                    meinschaftsraum und die flexiblen Nutzflächen für das Quartier
+                                                    liegen. Die Kindertagesstätten sind gut gelegen im tieferen
+                                                    Baukörper an der Erismannstrasse beim Querkörper mit dem
+                                                    Gemeinschaftsraum. Alle Erdgeschosswohnungen sind als
+                                                    Hochparterrewohnungen ausgebildet. Durch die Anordnung der
+                                                    Treppe und des Lifts sind die Wohnungen nur von der Hofseite
+                                                    invalidengerecht erschlossen, aber nicht vom Haupteingang an
+                                                    den Strassenseiten, was nicht tolerierbar ist. Auch die nur
+                                                    einspurige Zufahrt zur Tiefgarage ist ungenügend. Die Abmes-
+                                                    sungen der Parkplätze in der Tiefgarage sind zu klein.
+
+                                                    Alle Wohnungen sind nach einer inneren Logik, mit der Küche im
+                                                    Zentrum der Wohnung aufgebaut, obwohl sie in unterschied-
+
+
+     34              Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl
+                                                                                                                              BACK TO THE FUTURE
+                                                                                                             Projekt Nr. 5:
+
+
+
+
+Situationsmodell 1:500
+
+
+
+
+                                       lichen Gebäudetiefen liegen. Was beim schmalen Gebäudetyp an
+                                       der Seebahnstrasse noch als Qualität erkannt werden kann, funktio-
+                                       niert mit der zentralen Küche in der Tiefe des Wohnungsgrundrisses
+                                       an der Erismannstrasse nicht mehr. Die Idee der Wohnungen ist,
+                                       eine Bricolage zu generieren, zusammengesetzt aus einzelnen
+                                       industriellen Bauteilen, wie vorfabrizierten Betonstützen, Gipswän-
+                                       den, Holztüren, Holzfenster und Küchen aus Sperrholz. Die Woh-
+                                       nungen werden durch ein Stützenraster bestimmt, welches in der
+                                       Wohnung leider wenig räumlich wirksam wird.
+
+                                       Das Projekt kann mit 144 Wohnungen als wirtschaftlich gut bezeich-
+                                       net werden. Die ökologische Nachhaltigkeit ist bezüglich Betriebse-
+                                       nergie (Minergie P) erreicht und bezüglich Erstellungsenergie,
+                                       Bauökologie knapp erreicht. Die Jury setzt mit der Preiserteilung für
+                                       das Projekt «BACK TO THE FUTURE» bewusst auch ein Zeichen für
+                                       einen gut durchdachten Städtebau und eine vertiefte, qualitativ
+                                       hochstehende Behandlung des Aussenraums. Die tieferen Woh-
+                                       nungsgrundrisse an der Erismannstrasse überzeugen leider in ihrer
+                                       Ausbildung nicht.
+
+
+
+
+                         Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl   35
+Projekt Nr. 1:                                     JOKERMAN
+
+
+
+Architektur:                                       Mit zwei sich verschränkenden Winkelbauten – siebengeschos-
+Burkard Meyer Architekten BSA                      sig zur Seebahnstrasse und fünfgeschossig zur Erismannstrasse
+Martinsbergstrasse 40, 5400 Baden                  – soll die Bebauungsstruktur des Quartiers bewusst weiterge-
+                                                   führt werden. Zwei schmale Einschnitte an den Kopfseiten,
+Verantwortlich:		                                  welche als Fugen bezeichnet werden, ermöglichen den Zugang
+Daniel Krieg                                       zum Innenhof. Die Fassaden der Obergeschosse sind bandartig
+                                                   strukturiert und bauen sich über dem geschlossen wirkenden,
+Mitarbeit: 		                                      sockelartig ausgebildeten Erdgeschoss auf. Auch hier sollen mit
+Oliver Dufner, Adrian Meyer, Andreas               der gewählten massiven Konstruktion und Fassadensprache
+Signer, Tobias Burger, Andreas Aesch-              explizit am Ort vorgefundene Elemente übernommen werden.
+bacher, Boriana Tomova                             Entlang der Erismann- und Seebahnstrasse werden durch
+                                                   niedrige Gartenmauern gefasste Vorgartenbereiche vorgeschla-
+Landschaftsarchitektur:                            gen. Zudem wird ein grosszügiger, weitgehend nicht unterkeller-
+Koeber Landschaftsarchitektur                      ter Innenhof angeboten, dessen Baumbestand erhalten bleiben
+Azenbergstrasse 31, 70174 Stuttgart (D)            soll. Der Innenhof wird in drei Teilbereiche gegliedert: Baum
+                                                   bestandene Wiese, Fläche zum Gemeinschaftsraum und Aus-
+Nachhaltigkeit:		                                  senbereich zur Kindertagesstätte. Die Erdgeschosse sind so
+Lemon Consult GmbH, Zürich                         konzipiert, dass entlang der Längskörper ausschliesslich Woh-
+                                                   nen im Hochparterre angeboten wird. Diese Wohnungen weisen
+                                                   über die privaten Aussenräume der Balkone einen individuellen
+                                                   Zugang zum Innenhof auf. An den Stirnseiten der Überbauung
+                                                   werden an der Kanzleistrasse die Zufahrt zur Tiefgarage,
+                                                   an der Stauffacherstrasse beide Kindertagesstätten sowie
+                                                   Ateliers angeboten.
+
+                                                   Die Wohnungen werden gemäss ihrer Lage unterschiedlich
+                                                   behandelt. Zur eher ruhigen Erismannstrasse werden sie als
+                                                   4-Zimmerwohnungen mit je einem zumietbaren Zimmer pro
+                                                   Treppenhaus und Etage angeboten. Diese Wohnungen werden
+                                                   über einen zentralen Koch-, Wohn- und Essbereich erschlossen
+                                                   und mit einer Loggia zum Hof belichtet und belüftet. Im An-
+                                                   schluss an die Wohnzone betritt man den räumlich separierten
+                                                   privaten Teil der Wohnung mit Schlaf- und Nassräumen. Die
+                                                   Wohnungen zur Kanzlei- und Seebahnstrasse reagieren auf die
+                                                   Lärmsituation mit unterschiedlich tiefen Loggien, welche ein
+                                                   lärmabgewandtes belüften der Aufenthaltsräume ermöglichen
+                                                   sollen. Zusätzlich zu den Etagenwohnungen bietet JOKERMAN
+                                                   in den zwei oberen Geschossen der Seebahnstrasse zwölf
+                                                   Maisonette-Wohnungen an.
+
+                                                   Durch die teilweise sehr tiefen Einschnitte der Loggien weist die
+                                                   Überbauung eine hohe Fassadenabwicklung auf, was ökologisch
+                                                   nachteilig ist. Ökonomisch hält die Abgabe die Zielwerte ein.
+                                                   Insgesamt überzeugt der Beitrag auf der Ebene des Städtebaus,
+                                                   der Bespielung des Erdgeschosses mit Zugängen und öffentli-
+
+
+      38            Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl
+                                                                                                             Projekt Nr. 1:   JOKERMAN
+
+
+
+
+Situationsmodell 1:500
+
+
+
+
+                                       chen Zonen und der Wohnungen, insbesondere im Hochparterre.
+                                       Sowohl die Vorgartensituation wie auch die innere Gliederung des
+                                       gemeinschaftlichen Hofes wirken sehr schlüssig. Die vorgeschla-
+                                       genen Abgänge aus den Hochparterrewohnungen und das Lüftungs-
+                                       konzept der Tiefgarage im Hof verwässern die ansonsten überzeu-
+                                       gende Aussenraumgestaltung. Betreffend der Wohn- und
+                                       Raumqualität der tiefen Loggien des Seebahnstrassetypus bleiben
+                                       Zweifel. Das vielfältige Wohnungsangebot gerade mit dem Zusatz
+                                       der Maisonetten wirkt im baugenossenschaftlichen Kontext als
+                                       etwas zu üppig. Die bewusst an die bestehende Umgebung ange-
+                                       passte Fassade wird als eher verschlossen und abweisend und
+                                       damit wenig überzeugend empfunden.
+
+
+
+
+                         Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl   39
+Projekt Nr. 2:                                     EMILIE-LIEBERHERR-HOF
+
+
+
+Architektur:                                       Die Blockrandüberbauung wird durch zwei unterschiedlich hohe,
+Luca Selva Architekten ETH BSA SIA AG              sich verschmelzende U-förmige Volumen gebildet. Das Volumen
+Viaduktstrasse 12-14, 4058 Basel                   zur Erismannstrasse rhythmisiert mit Vor- und Rücksprüngen den
+                                                   Strassenraum und bildet dabei an den Ecken öffentliche platzartige
+Verantwortlich:		                                  Zonen, welche die Zugänge zum Innenhof akzentuieren wollen. Die
+Jonathan Benhamu                                   Innenfassaden der Längskörper kragen ab dem 1. Obergeschoss
+                                                   aus und schaffen dadurch einen gedeckten Umlauf im Bereich des
+Mitarbeit:		                                       Erdgeschosses. Die konsequente Anordnung der Gewerbeflächen
+Luca Selva, Roger Braccini, Lukas                  im Erdgeschoss der Erismannstrasse unterstützt die gewünschte
+Schirmann, Lisa Gerlach, Irene Giubbini,           boulevardartige Interpretation dieses Strassenraums.
+Kristina Krämer
+                                                   Im Innern des Gebäudevolumens entsteht ein grüner Innenhof,
+Landschaftsarchitektur:                            welcher sich sozusagen von Fassade zu Fassade aufspannt. Im
+Appert & Zwahlen Partner AG                        Grünraum sind die verschiedenen Nutzungen wie Spielbereiche
+Landschaftsarchitekten BSLA                        oder Aussenraum für die Kindertagesstätte integriert. Es wird
+Zugerstrasse 4, 6330 Cham                          vorgeschlagen, den bestehenden Baumbestand zu erhalten. Die
+                                                   kleinen, öffentlichen Plätze leiten in den Innenhof, die Bespie-
+Modellbau:                                         lung des Sockels mit Büros, Ateliers oder Hobbyräumen fördert
+Burla Modellbau, Basel                             das Argumentarium eines «allgemeinen Sockels» gegenüber
+                                                   «privaten Wohngeschossen». Gleichwohl entsteht durch die
+Visualisierung:                                    städtebauliche Figur mit nur kleinen Durchlässen in den Innenhof
+Maaars Visualisierungen, Zürich                    eine Situation, welche einen stark introvertierten Charakter
+                                                   aufweist. Die Qualität der langen, überdeckten «Gassen» ist
+                                                   nicht unmittelbar ersichtlich. Sie wirken unter den massigen
+                                                   Baukörpern eher abweisend.
+
+                                                   Sämtliche Wohnungen werden als Zweispänner erschlossen. Die
+                                                   Zugänge an der Seebahnstrasse erfolgen über in Art und Grösse
+                                                   übermotiviert wirkende Eingangshallen. Die Wohnungen werden
+                                                   jeweils über die allgemeinen Wohn-, Ess- und Kochbereiche
+                                                   erschlossen. Während im Gebäude an der Erismannstrasse die
+                                                   Loggien zum Innenhof angeordnet sind, orientieren sich die
+                                                   Aussenräume des überbreiten Seebahnstrassenkörpers zur stark
+                                                   lärmbelasteten Strasse hin. Die Belüftung der Zimmer zur
+                                                   Seebahnstrasse erfolgt über diese Loggien. Da diese Lärm-
+                                                   schutzmassnahme nicht die ausreichende Lärmreduktion gene-
+                                                   riert, sind die Zimmer in dieser Grundriss-Konfiguration nicht für
+                                                   den dauerhaften Aufenthalt bewilligungsfähig.
+                                                   Die wärmegedämmte Betonkonstruktion wird mit keramischen
+                                                   Platten auf hinterlüfteten Trägerplatten verkleidet. Wenig diffe-
+                                                   renzierte, schablonenartige Lochfassaden überziehen die Ge-
+                                                   bäude hof- wie strassenseitig.
+
+                                                   Aufgrund einer eher ungünstigeren Kompaktheit und des hohen
+                                                   Fensteranteils wird die Abgabe als ökologisch bedingt empfeh-
+
+
+     42             Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl
+                                                                                                                              EMILIE-LIEBERHERR-HOF
+                                                                                                             Projekt Nr. 2:
+
+
+
+
+Situationsmodell 1:500
+
+
+
+
+                                       lenswert taxiert. Ökonomisch liegt das Projekt knapp über den
+                                       Zielwerten. Gesamtheitlich wirkt dieser Beitrag wenig differenziert
+                                       und schematisch. Die Qualität der Aussen- wie Innenräume kann nur
+                                       bedingt überzeugen. Die Abgabe bleibt den Nachweis von funktio-
+                                       nierenden Untergeschossen (Tiefgarage, Erschliessung, Tragstruk-
+                                       tur) schuldig.
+
+
+
+
+                         Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl   43
+Projekt Nr. 3:                                      ARBORETUM
+
+
+
+Architektur:                                        Die Ersatzneubauten folgen im Wesentlichen dem bestehenden
+Enzmann Fischer Partner AG                          Bebauungsmuster. Je eine Zeile folgt der Seebahn- und der
+Seebahnstrasse 109, 8003 Zürich                     Erismannstrasse. Zwei kleinere Bauten fassen an den Schmal-
+                                                    seiten den Hof und führen trichterförmig in den neuen, genos-
+Verantwortlich:		                                   senschaftlichen Park. Dieses städtebauliche Verhalten fügt sich
+Philipp Fischer                                     wie selbstverständlich ins Quartier ein. Auch die Strassenfassa-
+                                                    den der neuen Baukörper suchen eine angemessene Einordnung
+Mitarbeit:		                                        ins quartiertypische Fassadenbild. Die Ersatzneubauten nehmen
+Rene Müller, Tina Härtel, Sebastian                 die verschiedenen Gegebenheiten des Quartiers auf, wie So-
+Ritter, Dave Eickhorst, Victor Tuschick,            ckel-, Traufhöhen und Erkerausbildungen, auch die vorherr-
+Rebecca Volp                                        schenden Farbtöne vor Ort werden respektiert. Die Bauten
+                                                    erhalten durch dieses Verhalten aber auch keine spezifische
+Landschaftsarchitektur:                             Charakteristik ihren Nachbarn gegenüber. Im Gegensatz zu den
+koepflipartner Landschaftsarchitekten               Strassenfassaden suchen die Hoffassaden nicht die ruhige
+BSLA, Neustadtstrasse 3, 6003 Luzern                Einordnung, sondern einen eigenständigen Hintergrund für den
+                                                    Park zu finden, was sehr überzeugt. Gestalterisches Element
+Bauingenieurwesen:                                  sind die vertikalen, in sich versetzten, auskragenden Balkone.
+HEYER KAUFMANN PARTNER, Zürich                      Das Projekt schlägt entlang der Erismannstrasse keine eigent-
+                                                    liche Vorgartenzone, sondern einen mit Kies- oder Klinker
+Baumanagement:                                      belegten öffentlichen Bereich vor. Obwohl dies den geltenden
+Confirm Baumanagement AG, Zürich                    Vorschriften nicht entspricht, scheint es zusammen mit den
+                                                    angedachten publikumswirksamen Nutzungen des Erdgeschos-
+HLKS-Planung:                                       ses eine adäquate Antwort für diese spezielle Situation zu sein.
+Amstein + Walthert AG, St. Gallen                   Entlang der Seebahnstrasse findet sich die klassische Vorgar-
+                                                    tensituation wieder. Die Erschliessung des Innenhofs von der
+Lärmschutz:                                         Strasse – wie auch von den Gebäuden aus – erfolgt konsequent
+Martinelli + Menti AG, Meggen                       über vier kleine Durchgänge, wirkt aber praxisuntauglich und
+                                                    fremd. Der Innenhof ist als grüner Hof mit einfachem Wegnetz
+                                                    und verschiedenen Intarsien angelegt. Der bestehende Baumbe-
+                                                    stand soll erhalten und verdichtet werden. Der projektgebende
+                                                    Name «Arboretum» löst bei genauer Betrachtung des vorge-
+                                                    schlagenen Pflanzenspektrums sein Versprechen leider nicht ein.
+
+                                                    Prägendes Element der neuen Wohnsiedlung ist die zum Hof
+                                                    orientierte Rue Intérieur im Erdgeschoss und im Tiefparterre. Sie
+                                                    erschliesst im Baukörper an der Erismannstrasse die Waschsa-
+                                                    lons, Velo- und Kindergartenräume sowie den Gemeinschafts-
+                                                    saal und bildet eine Verbindung mit den vertikalen Wohnungs-
+                                                    treppenhäusern. Diese Idee bringt eine grosse Qualität in den
+                                                    genossenschaftlichen Wohnungsbau. Weniger versteht man,
+                                                    dass von dieser Rue Intérieur nur das Bild vom Park erlebbar ist,
+                                                    hingegen ist der Zutritt zum Park nicht vorgesehen. Die zweite
+                                                    Rue Intérieur an der Seebahnstrasse, im Tiefparterre gelegen, ist
+                                                    schon von der Lage tief im Boden mit wenig Licht und ohne
+                                                    Zutritt zum Park wenig verständlich. Die Kindertagesstätten an
+
+
+     46              Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl
+                                                                                                             Projekt Nr. 3:   ARBORETUM
+
+
+
+
+Situationsmodell 1:500
+
+
+
+
+                                       der Schmalseite des Hofes sind gut platziert. Die Typologie der
+                                       Wohnungen ist so aufgebaut, dass sie einen Rundlauf über Küche
+                                       und Entrée ermöglicht, was spannungsvoll ist. Die Wohnungen an
+                                       der Seebahnstrasse sind mit ihren offenen Grundrissen und der
+                                       Anordnung der Küchen überzeugender gestaltet. An der Erismann-
+                                       strasse fehlt den Wohnungen etwas die Grosszügigkeit mit ihren
+                                       kammerartigen Grundrissen und den zum Teil zu schmalen Küchen.
+                                       Schön sind die Erker- und Balkonanordnungen, die den Grundriss
+                                       bereichern. Leider ist auch der Dachraum der Wohnungsbauten an
+                                       der Erismannstrasse und an der Seebahnstrasse ungenutzt.
+
+                                       Das Projekt kann mit 145 Wohnungen als wirtschaftlich bezeichnet
+                                       werden. Die ökologische Nachhaltigkeit ist bezüglich Betriebsenergie
+                                       (Minergie P) und Erstellungsenergie erreicht und gut. Das Projekt ent-
+                                       wickelt die städtebauliche Setzung und die Sprache in der Architek-
+                                       tur aus dem Vorgefundenen, was durchaus ein möglicher Weg ist. Es
+                                       verpasst aber einen stärkeren, eigenen Charakter aufzubauen. Die
+                                       Wohnungsgrundrisse überzeugen nicht ganz, vor allem die Grund-
+                                       risse an der Erismannstrasse mit den schmalen, gedrungenen
+                                       Küchen sind problematisch.
+
+
+                         Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl   47
+Projekt Nr. 4:                                     SINUS
+
+
+
+Architektur:                                       Der Neubau besteht aus einer kompakten, geschlossenen
+Edelmann Krell                                     Blockrandstruktur. Durch die geschlossene Blockrandstruktur
+Dipl. Architekten ETH SIA                          und die verwinkelten Zugänge verschliesst sich der Hof zum
+Badenerstrasse 329, 8003 Zürich                    übrigen Stadtraum. Das Projekt wirkt auf sich bezogen und
+                                                   etwas fremd im Stadtkörper. Die allseitig abgeschrägten Ecken
+Verantwortlich:                                    der Hofrandbebauung geben von den Wohnungen schöne
+Ralf Edelmann, Oliver Krell                        diagonale Sichtbezüge frei, sind aber im städtebaulichen Kon-
+                                                   text wenig verständlich. Das geometrisch bewegte Giebeldach
+Mitarbeit:                                         fügt sich gut in die Dachlandschaft des Quartiers ein. Das
+Hannah Kuby                                        Projekt schlägt Vorgärten mit Hecken und Kiesbelägen vor. Der
+                                                   Innenhof ist als Intarsie im Hof mit einem umlaufenden Belags-
+Landschaftsarchitektur:                            band angelegt. Die Kindertagesstätte ist an zwei Standorten
+Hager Partner AG                                   angeordnet und als jeweils geschützter Aussenraum konzipiert.
+Bergstrasse 50, 8032 Zürich
+                                                   Das Aufgreifen des Themas eines grosszügigen Hofraumes mit
+                                                   umlaufendem Erschliessungsband ist schlüssig. Eine detaillierte
+                                                   Gestaltung des Innenhofes bleiben die Verfasser allerdings
+                                                   schuldig. Der Hof wirkt in den Plänen schematisch und wenig
+                                                   einladend. Die im Schnitt angedeutete topographische Ausfor-
+                                                   mulierung des Geländes ist im Grundriss leider nicht nachvoll-
+                                                   ziehbar dargestellt. Die vorgeschlagene Struktur mit Gräsern,
+                                                   Stauden und Sträuchern wirkt an diesem Ort fremdartig und es
+                                                   ist sehr fraglich, ob die gewünschte Trennung zwischen privat
+                                                   und öffentlich in der angedachten Form funktionieren kann.
+                                                   Durch eine leichte Erhöhung des innenliegenden Hofraumes auf
+                                                   die Höhe des Hochparterres wird es möglich, dass die Woh-
+                                                   nungen gegenüber dem Strassenraum ein Hochparterre haben
+                                                   und zum Hof ebenerdig ausgebildet sind. Die Kindertagesstätte
+                                                   auf Höhe des Strassenniveaus erhält so zudem eine schöne
+                                                   Überhöhe. Durch die Setzung der Treppenhäuser mit dem Lift
+                                                   ergibt sich in dieser Konstellation, dass Invalide den Lift nur
+                                                   über den Hofraum erreichen können, was nicht rechtmässig
+                                                   ist. Die Lagen der Kindertagesstätten an den Schmalseiten
+                                                   des Hofes sind gut gesetzt. Es ist eine schöne Idee und
+                                                   passend in der räumlichen Konzeption, die Waschküchen,
+                                                   Trockenräume und Estrichräume in den Dachräumen im 5.
+                                                   und 7. Geschoss anzuordnen.
+
+                                                   Die Zimmer der Wohnungen werden nicht über Korridore,
+                                                   sondern am räumlichen Kreuzungspunkt von vier Räumen über
+                                                   eine kleine Raumtasche erschlossen. Leider ist diese Raum-
+                                                   tasche in ihrer Dimension viel zu klein ausgebildet. Im Eingangs-
+                                                   bereich der Wohnung ist die räumliche Ausbildung einer Garde-
+                                                   robe mit diesen Abmessungen beengend und nicht ausreichend.
+                                                   Auch der Verteilraum zu den Zimmern überzeugt in seiner
+
+
+     50             Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl
+                                                                                                             Projekt Nr. 4:
+                                                                                                                              SINUS
+
+
+
+
+Situationsmodell 1:500
+
+
+
+
+                                       Dimensionierung nicht. Die inneren Raumabfolgen sind spannend
+                                       und stimmig aufgebaut. Jede Wohnung hat zwei unterschiedlich
+                                       ausgerichtete Aussenräume, die vom Inneren her gut mit den
+                                       Wohnräumen verschränkt sind. Diese Anordnung, vom Äusseren
+                                       betrachtet, ergibt eine über die ganze Fassadenfläche gleichförmige
+                                       Vorschicht über den Baukörper, die gegen den Innenhof gleich
+                                       erscheint wie gegen die Strassenräume. Vor allem die aufgelöste,
+                                       rasterartige Fassade gegen die Strassenräume erscheint fremd in
+                                       diesem Kontext.
+
+                                       Obwohl das Projekt nur 140 Wohnungen aufweist, ist es als wirt-
+                                       schaftlich gut zu bezeichnen. Die ökologische Nachhaltigkeit ist
+                                       bezüglich Betriebsenergie (Minergie P) und Erstellungsenergie
+                                       erreicht und darum empfehlenswert. Das Projekt ist in seiner städte-
+                                       baulichen Ausbildung und Setzung nicht ganz überzeugend. Die
+                                       Wohnungstypologie über eine webmusterartige Aneinanderreihung
+                                       von Räumen zu generieren, überzeugt. Es ist ein grundlegender
+                                       Beitrag zur typologischen Entwicklung eines Wohnungslayouts.
+
+
+
+
+                         Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl   51
+Projekt Nr. 6:                                      BARTON FINK
+
+
+
+Architektur:                                        Das Projekt strickt die vorgefundene Hoftypologie weiter, indem
+Sergison Bates architekten                          die Figur der Mantellinie des Grundstücks folgt. Passagen an den
+Mattengasse 27, 8005 Zürich                         Kurzseiten führen in den gemeinschaftlich genutzten Innenhof.
+                                                    Die kubische Staffelung des Blockrands reagiert auf die kontextu-
+Verantwortlich:                                     elle Massstäblichkeit, siebengeschossig an der Seebahnstrasse,
+Jonathan Sergison                                   fünfgeschossig an der Erismannstrasse. Alle Häuser weisen eine
+                                                    klare Adresse zur Strasse auf. An den Strassenkreuzungen
+Mitarbeit:                                          werden vier kleine Plätze vorgeschlagen, wobei drei Plätze den
+Michael Stettler, Matt Bailey                       Kontakt zum öffentlichen Strassenraum suchen und eine Ecksitu-
+                                                    ation den Aussenraum des Mehrzweckraumes aufnimmt. Die
+Landschaftsarchitektur:                             Vorgärten orientieren sich an quartiertypischen Bildern mit Blüten-
+mavo gmbh                                           hecken und Blütensträuchern. Der Hof im Blockinnern zitiert eine
+Badenerstrasse 125, 8004 Zürich                     an diesem Ort etwas fremd wirkende, mediterrane Landschaft
+                                                    mit charakteristischen Bäumen. Durch die sehr hoch liegende
+                                                    Unterkellerung des gesamten Hofraumes muss für die grossen
+                                                    Bäume ein ausreichender Wurzelraum geschaffen werden. Die
+                                                    aus den Schnitten ersichtliche Aufbauhöhe ist nicht ausreichend.
+
+                                                    Der Ausdruck geht vom beigen Sichtbackstein aus, den man in
+                                                    verwandter Form im Quartier vorfindet, wobei zu den Strassen
+                                                    die vertikalen Pilaster betont sind, im Gegensatz zu den horizon-
+                                                    talen Bändern im Hof. Die tektonische Dreigliederung besteht
+                                                    aus einem Betonsockel, Sichtbacksteinmauern und einem
+                                                    kräftigen Dachrand aus Beton.
+
+                                                    Öffentliche Nutzungen mit hoher Publikumsfrequenz besetzen
+                                                    die Gebäudeecken. Alle Erschliessungkerne mit Velo- und
+                                                    Kinderwagenräumen sind primär von den Strassen und sekundär
+                                                    vom Hof zugänglich. Die Kindertagesstätte liegt in der
+                                                    südwestlichen Ecke, der Gemeinschaftsraum befindet sich an
+                                                    der Kreuzung der Erismann- und Stauffacherstrasse. In den
+                                                    übrigen Gebäudeecken findet man flexible Nutzflächen wie
+                                                    Ateliers vor. Über die Kanzleistrasse werden die Einstellhalle und
+                                                    der Innenhof erschlossen. Entlang der Seebahnstrasse befinden
+                                                    sich Wohnungen mit einem Ost – West ausgerichteten Wohn-
+                                                    und Essbereich. In den zwei obersten Geschossen werden
+                                                    Maisonette – Wohnungen vorgeschlagen. Im langen Trakt
+                                                    entlang der Erismannstrasse findet man grössere Wohnungen
+                                                    mit einem nur nach Osten ausgerichteten Wohnbereich. Die
+                                                    Hälfte der Wohnungen in den polygonalisierten Ecken verfügt
+                                                    über einen nach Norden orientierten Wohnbereich.
+
+                                                    Die Kompaktheit des Baukörper unterbrechen viele unterschied-
+                                                    lich tiefe Loggien. Die Gebäudehülle ist langlebig und zugleich
+                                                    mit höheren Kosten verbunden. Eine Differenz von bis zu 2 % zu
+
+
+     54              Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl
+                                                                                                                              BARTON FINK
+                                                                                                             Projekt Nr. 6:
+
+
+
+
+Situationsmodell 1:500
+
+
+
+
+                                       den maximal zulässigen Erstellungskosten wäre zu erwarten.
+                                       Einige Bauteile sind ökologisch sorgfältig gestaltet: der aussenlie-
+                                       gende Sonnenschutz, eine auf konventionellen Spannweiten basie-
+                                       rende Raumkammerung, die selbsttragende Fassade mit guter
+                                       Speicherfähigkeit sowie das begrünte Flachdach auf der höheren
+                                       Ostseite, welches eine Solarstromanlage aufnehmen kann.
+
+                                       Spannend und charakteristisch löst das wirtschaftlich eher kostspie-
+                                       lige Projekt die urbane Gestalt, die Aussenräume, die Adressenbil-
+                                       dung der einzelnen Häuser und den architektonischen Ausdruck. Die
+                                       Wohnungstypologie vermag mit diesem hohen städtebaulichen und
+                                       architektonischen Niveau nicht Schritt zu halten. Da sie nicht die
+                                       einfache Strenge und Klarheit der Fassaden in den inneren Raum
+                                       umzusetzen vermag, oft eine zufällige Eckigkeit aufweist, dadurch
+                                       die Möblierbarkeit beeinträchtigt und zu viele Back-to-back-Typen
+                                       und solche mit nördlich orientierten Wohnbereichen aufweist.
+
+
+
+
+                         Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl   55
+Projekt Nr. 7:                                     TAKESHI'S CASTLE
+
+
+
+Architektur:                                       Das Projekt analogisiert geschlossene und segmentierte Block-
+soppelsa architekten                               ränder der Umgebung. Die unteren drei Geschosse bilden einen
+Flurstrasse 93, 8047 Zürich                        geschlossenen Block, die Geschosse über diesem Sockel sind
+                                                   durch vier schmale und tiefe Einschnitte segmentiert. Vier Tore,
+Verantwortlich:		                                  alternierend zu den Einschnitten angeordnet, erschliessen den
+Mario Soppelsa, Nino Soppelsa                      Park im Hof. Die Volumetrie des Blocks ist gestaffelt, fünf
+                                                   Geschosse entlang der Erismannstrasse und sieben Geschosse
+Mitarbeit:		                                       zur Seebahnstrasse. Jedes Haus hat eine klare Adresse zur
+Maik Ilmer, Jan Westerheide                        Strasse und zum Hof hin. Zur Eingangssituation gehören eine
+                                                   durch Hecken begrenzter Vorgarten mit Veloparkplatz, eine zum
+Landschaftsarchitektur:                            Hof durchgehende Halle mit Abstellraum.
+Rosenmayr Landschaftsarchitektur
+GmbH, Albulastrasse 39, 8048 Zürich                Die Durchgrünung im Hof arbeitet mit dem alten hochstämmigen
+                                                   Baumbestand, wodurch sich verschieden grosse begrünte
+Baumanagement:                                     Inseln, neue Wege und eine organische Gestaltung ergeben. Die
+Laterza Graf Baupartner GmbH, Zürich               Vorgartenzonen werden als grüne Vorgärten ausgebildet. Ent-
+                                                   lang der Seebahnstrasse werden die neuen Eingänge mit Baum-
+HLKS-Planung / Bauphysik:                          paaren akzentuiert. Durch die geschwungenen Wege und Inseln
+Amstein + Walthert AG, Zürich                      erhält der Innenhof einen eigenen Charakter. Die Zonen entlang
+                                                   der Fassaden wirken zusammen mit der Lage der öffentlichen
+Visualisierung:                                    Durchgänge allerdings nur konzeptionell schlüssig. Während
+Georg Krähenbühl, Davos Platz                      einmal der Erschliessungsweg entlang der Fassade geführt wird,
+                                                   entstehen gegenüberliegend grüne hausnahe Abstandsbereiche.
+                                                   Durch diesen Umstand wirkt der Hof unentschlossen. Der
+                                                   angedachte Vorschlag, dass die Hochparterrewohnungen einen
+                                                   direkten Zugang aus der Loggia in den Hof erhalten, bestärkt die
+                                                   unentschlossene Haltung des Hofs.
+
+                                                   Der Baustein der Fassaden bildet eine unterschiedlich und sehr
+                                                   frei rhythmisierte französische Fenestrierung mit filigranen
+                                                   Stakketen und aussen gefalteten Fensterläden. Die Loggien sind
+                                                   mit Holz verkleidet und gar mit einem etwas aufwendigen
+                                                   Tragwerk in Holz konstruiert. Die Fassaden weisen durch ihre
+                                                   Farbgebung ausnuancierte Felder aus Kratzputz auf. Der Farb-
+                                                   verlauf konterkariert die Einschnitte und bindet den Gebäude-
+                                                   körper wieder zu einer Einheit zusammen.
+
+                                                   Wohn-, Ess- und Küchenbereiche sind durchgehend konzipiert,
+                                                   wobei man als Reaktion auf die unterschiedliche kontextuelle
+                                                   Lage mehrere räumlich unterschiedliche Typen dieses Konzepts
+                                                   gestaltet. Die meistens zweibündigen Häuser weisen zwei
+                                                   flächengleiche Hälften auf, die entweder als eine gut proportio-
+                                                   nierte 3½-Zimmer-Wohnung oder als eine eher knappe 4-Zim-
+                                                   mer-Wohnung interpretiert werden. Im Trakt entlang der Eris-
+                                                   mannstrasse weisen die Wohnungen einen internen Parcours
+
+
+     58             Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl
+                                                                                                                              TAKESHI'S CASTLE
+                                                                                                             Projekt Nr. 7:
+
+
+
+
+Situationsmodell 1:500
+
+
+
+
+                                       durch die Küche auf. In den hohen Dächern werden Obergeschosse
+                                       der Maisonette-Wohnungen und gar Waschräume platziert.
+
+                                       Den vorgegebenen Wohnungsspiegel hält man mit 148 Wohnungen
+                                       ein. Die Wohnungsgrössen liegen beim verlangten Minimum. Eine
+                                       einfache Gebäudehülle, starke Modulrepetition und ein konventio-
+                                       nelles Tragwerk könnten zu eher günstigen Erstellungskosten führen.
+                                       Die maximal zulässigen Erstellungskosten werden um rund
+                                       1 % unterstritten. Das Fazit der ökologischen Nachhaltigkeit fällt
+                                       positiv aus. Für die Erreichung vom Minergiestandard verfügt das
+                                       Projekt über eine gute Ausgangslage. Einige kontextuell verankerte
+                                       Elemente des Städtebaus – Einschnitte und Satteldächer – sind durch
+                                       die innere Gestaltung nicht kohärent motiviert oder dürften, wie die
+                                       Waschküchen, ohne Treppen schwer benutzbar sein. Das ökono-
+                                       misch, ökologisch, baulich und zum Teil aussenräumlich gut konzi-
+                                       pierte Projekt kann man auch städtebaulich und architektonisch nicht
+                                       grundsätzlich negativ kritisieren. Lediglich der Vergleich mit anderen
+                                       Lösungen führte zum Schluss, das Projekt für die engere Auswahl
+                                       nicht auszuwählen.
+
+
+
+
+                         Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl   59
+Projekt Nr. 9:                                     LA VELA
+
+
+
+Architektur:                                       Das Projekt «La vela» greift die vierteilige Bebauungstruktur der
+Adrian Streich Architekten AG                      Umgebung auf. Die Überbauung des Gevierts setzt sich somit
+Badenerstrasse 156, 8004 Zürich                    aus zwei strassenbegleitenden Längsbauten und zwei einge-
+                                                   schobenen Stirnteilen zusammen. Das Gebäude entlang der
+Verantwortlich:		                                  Seebahnstrasse und die beiden Seitenteile sind siebengeschos-
+Adrian Streich                                     sig, während sich der Längsbau an der Erismannstrasse mit
+                                                   seinen fünf Geschossen der Umgebung anpasst. Durch das
+Mitarbeit:		                                       volumetrische Zusammenbinden dreier Gebäudeteile zu einer
+Roman Ziegler, Antonio Obrist,                     U-förmigen Figur wird die angestrebte vierteilige Grunddispositi-
+Oliver Christen, Tobias Lindenmann                 on etwas verunklärt. Die Adressbildung erfolgt entlang der
+                                                   Strassen, eine direkte Anbindung des Treppenhauses zum
+Landschaftsarchitektur:                            Innenhof ist nur teilweise gewährleistet. Die Kindertagesstätte
+Manoa Landschaftsarchitekten GmbH                  und die Gemeinschaftsräume liegen an der Seebahnstrasse und
+Seidengasse 51, 8706 Meilen                        öffnen sich zum Innenhof. In den anderen Gebäuden wird im
+                                                   Hochparterre gewohnt.
+
+                                                   Dank der Gliederung der Fassade in Sockel und Hauptkörper
+                                                   ordnet sich das Projekt in ein charakteristisches, gestalterisches
+                                                   Element der Umgebung ein und bindet die einzelnen Gebäude-
+                                                   teile wiederum zu einem Ganzen zusammen. Die Fassadenglie-
+                                                   derung wirkt insgesamt ausgewogen und ruhig. Entlang der
+                                                   Seebahnstrasse setzen die grossen Öffnungen der Treppenhäu-
+                                                   ser im Fassadenbild Akzente. Die Nutzbarkeit und der Mehrwert
+                                                   der kleinen Balkone entlang der Seebahnstrasse werden als
+                                                   kritisch erachtet.
+
+                                                   Die beiden Längsbauten sind als Zweispänner organisiert,
+                                                   während die Stirngebäude aufgrund ihrer Gebäudetiefe als
+                                                   Dreispänner geplant sind. In den Längsbauten ist der Wohnbe-
+                                                   reich jeweils nach Westen hin orientiert, während die Zimmer an
+                                                   der Ostseite angeordnet sind. Dies führt aufgrund der Lärmbela-
+                                                   stung entlang der Seebahnstrasse zu einer unbefriedigenden
+                                                   Wohnsituation. Diese Zimmerschichten tragen zudem wenig zur
+                                                   Belebung des Strassenraums respektive des Innenhofs bei.
+                                                   Seitens der Genossenschaft wird gewünscht, im Ersatzneubau
+                                                   eine andere Wohnqualität anbieten zu können. Die Flexibilität
+                                                   der Grundrisse bezüglich der Unterteilbarkeit einiger Zimmer in
+                                                   den grossen Wohnungen ist zu würdigen. Die Verfasser haben
+                                                   ein charakteristisches Element der Umgebung – Längsbauten
+                                                   mit eingeschobenen Zwischenteilen – aufgegriffen und weiter-
+                                                   entwickelt. Die Abgabe zeugt von einer differenzierten Auseinan-
+                                                   dersetzung mit der Umgebung. In der Umsetzung entsteht ein
+                                                   gutes Projekt, das jedoch in der inneren Organisation stark an
+                                                   der bestehenden Grundrissorganisation anknüpft und der BEP
+                                                   zu wenig neue Qualitäten bietet.
+
+
+     62             Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl
+                                                                                                             Projekt Nr. 9:
+                                                                                                                              LA VELA
+
+
+
+
+Situationsmodell 1:500
+
+
+
+
+                                       Die Verfasser schlagen zwei Vorgartentypen vor. Entlang der See-
+                                       bahnstrasse werden chaussierte Bereiche mit Heckenkörpern zum
+                                       Strassenraum vorgeschlagen und entlang der Erismannstrasse sind
+                                       Hecken und differenzierte Pflanzungen angedacht. Auch wenn
+                                       entlang der Seebahnstrasse keine Wohnungen im Erdgeschoss
+                                       angeordnet sind, scheint der Grünanteil der Vorgartenzone hier nicht
+                                       ausreichend zu sein. Der Innenhof erhält eine klare und übersicht-
+                                       liche Gliederung in eine Erschliessungs- und eine Aufenthaltszone.
+                                       Trotz guter Struktur des Hofs ist es unglücklich, dass nicht von allen
+                                       Gebäudeteilen auch ein Ausgang in den Hofraum ausformuliert wird.
+                                       Es entsteht der Eindruck, dass das Gewicht zu stark auf die städt-
+                                       bauliche Anbindung als auf eine gute und sichere Nutzbarkeit für die
+                                       Bewohnenden gelegt wurde. Die Gestaltung des Innenhofs ist
+                                       einfach und kompakt gehalten. Eine gute Aneignung des Hofes ist
+                                       damit gewährleistet.
+
+
+
+
+                         Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl   63
+Projekt Nr. 12:                                     EDWARD
+
+
+
+Architektur:                                        Die Autoren des Projekts «EDWARD» zeigen einen geschlos-
+Charles Pictet Architecte                           senen Blockrand, dessen Höhenprofil dem Baurecht folgt, aber
+12A, chemin Frank-Thomas, 1208 Genf                 keine städtebauliche Intention erkennen lässt. Das Projekt
+mit EX-M, Nicola Braghieri, Alessandra              reagiert weder auf die charakteristischen Qualitäten des Quar-
+Spada architetti                                    tiers im Allgemeinen noch auf die direkte Nachbarschaft im
+via Mantova 13, 20135 Milano (I)                    Besonderen. Die Erschliessung des zentralen Wohnhofes ist
+                                                    über zweigeschossige Durchstiche funktional erfüllt, der Aussa-
+Verantwortlich:		                                   gegehalt zu dessen Ausgestaltung bleibt unerfreulich spärlich.
+Nicola Braghieri, Charles Pictet, Marco             Die Freiräume sind aufgrund der Darstellung kaum beurteilbar.
+Rampini                                             Wohl finden sich auf den Visualisierungen Eindrücke einer
+                                                    durchgrünten Vorgartenzone und eines durch Umgrenzungsmau-
+Mitarbeit:		                                        ern gefassten zentralen Hofraums mit geschwungenen Wegen
+Renaud Pidoux, Andrea Palmieri,                     und einigen Bäumen. Im Schnitt sind über der flächigen Tiefga-
+Alessandra Naitana, Chiara Novelli,                 rage nur geringste Aufbauhöhen erkennbar, was die Grundkon-
+Christophe Alankho                                  zeption des Innenhofs mit ebenerdig gepflanzten Bäumen
+                                                    verunmöglicht und somit die generelle Absicht der Hofgestaltung
+Landschaftsarchitektur:                             in Frage stellt.
+Atelier Descombes Rampini SA
+4, rue due Beulet, 1203 Genf                        Das architektonische Thema ist rein aus der Fassade entwickelt:
+                                                    Ein Schachbrettmuster wird aussen tapetenartig um den Block
+                                                    gelegt, innen wechselt das Muster zu horizontal geschichteten
+                                                    Bändern. Dem Rhythmus des strengen Fassadenrasters wird der
+                                                    Grundriss komplett untergeordnet. In der Folge entstehen 3.00
+                                                    m breite Wohnräume, was als nicht tragbar eingestuft wird.
+                                                    Positiv könnte man anmerken, dass dieses Vorgehen zu einer
+                                                    gewissen Rationalisierung in Planung und Ausführung führt, so
+                                                    dass insgesamt eine gute Wirtschaftlichkeit zu erwarten ist.
+                                                    Diese wird allerdings durch den wertigen Fassadenaufbau
+                                                    teilweise wieder kompensiert. Das Projekt liegt genau innerhalb
+                                                    der maximal zulässigen Erstellungskosten. Die Kompaktheit ist
+                                                    gut, die Flächeneffizienz mit 66 % Hauptnutzfläche / Geschoss-
+                                                    fläche sogar sehr gut. Das Untergeschoss ist funktional und
+                                                    rationell.
+
+                                                    Die Wohnungen sind effizient als Zwei- und Dreispänner organi-
+                                                    siert, was teilweise zu einseitig ausgerichteten Wohnungen führt.
+                                                    Das Fehlen der lärmabgewandten Aussenbereiche ist bei dieser
+                                                    Typologie kaum zu korrigieren. Die querliegenden Treppenhäuser
+                                                    sind durchgehend nach innen gerichtet und konsumieren wert-
+                                                    volle Fassadenfläche zur ruhigen Wohnseite. Diese ablehnende
+                                                    Haltung dem gemeinsamen Innenhof gegenüber stösst insbe-
+                                                    sondere im Kontext genossenschaftlichen Wohnens auf Unver-
+                                                    ständnis. Die Anordnung der Gewerbeflächen an den expo-
+                                                    nierten Ecken ist schlüssig, wie auch die nach innen gerichteten
+                                                    Wohnnebennutzungen. Behindertentaugliche Zugänge sind nur
+
+
+     66              Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl
+                                                                                                             Projekt Nr. 12:
+                                                                                                                               EDWARD
+
+
+
+
+Situationsmodell 1:500
+
+
+
+
+                                       vom Hof aus gewährleistet. Kleinere Mängel gibt es mit gefangenen
+                                       Räumen bei der Kindertagesstätte.
+
+                                       Insgesamt bleibt die Architektur schematisch und wenig atmosphä-
+                                       risch. Die Begeisterung für das formale Spiel der Fassade wird vom
+                                       Preisgericht nicht geteilt. Vermisst wurde eine städtebaulich differen-
+                                       zierte Auseinandersetzung sowie ein innovativer Beitrag auf der
+                                       Ebene der Grundrisstypologie.
+
+
+
+
+                         Projektwettbewerb | Ersatzneubau Wohnsiedlung Seebahnstrasse | Zürich-Aussersihl   67
+
