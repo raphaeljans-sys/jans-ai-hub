@@ -424,8 +424,8 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   (städtische SIA-118-Abweichungen: Regie-Staffelrabatt, Zahlungsfrist, Abzugsdeckel) sowie ein
   Wegleitung-Auszug mit Zuschlagskriterien-Praxisbeispielen und der Sicherheitsleistungs-Staffel
   (10 %/5 %/CHF-1-Mio-Deckel). Zwei Dateien (kantonale Submissionsverordnung + IVöB-
-  Beitrittsgesetz) als wortgleiche Duplikate der bereits dokumentierten [[recht-norm-
-  submissionsverordnung-zh]] bestätigt — kein Delta. → NEU §5-§8
+  Beitrittsgesetz) als wortgleiche Duplikate der bereits dokumentierten
+  [[recht-norm-submissionsverordnung-zh]] bestätigt — kein Delta. → NEU §5-§8
   [[recht-norm-ahb-stadt-zuerich-projektstandards]], Status auf **established** gehoben.
   Restbacklog (niedrigere Priorität): 12-Bauwerkdokumentation, 16-Ingenieurwesen,
   18-Nachhaltiges-Bauen-Einzelchecklisten (26 Dateien) + ECO-BKP-Kompendium (51 S.),
@@ -614,12 +614,27 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   AWEL/Minergie/GVZ/2000-Watt/Lignum/SWKI…) → [[recht-norm-quellenlandkarte]]. Vertiefung je Bedarf.
 
 ## C — Brandschutz
-- [ ] **C39 (Run 92, 2026-07-28)** Neue 201-Byte-Datei im Lignum-4.1-Ordner (gleicher Dateiname
-  wie der Elternordner, minus einem Buchstaben `Feuerwiederstand`→`Feuerwiderstand`, mtime
-  27.07.2026 18:23) — Inhalt bisher **nicht auslesbar**: drei Versuche (`cat`, `cp` zweifach,
-  `cat` nach 5s Wartezeit) scheitern alle mit "Resource deadlock avoided" (OneDrive-EDEADLK,
-  analog K46/R52-56, hier aber persistent statt reines Sync-Timing). Für den nächsten
-  Brandschutz-Turnus vorgemerkt — bei Persistenz ggf. `mdls`/Finder-Neustart/Retry am Folgetag.
+- [ ] **C40 (Nachaudit PL-03, 2026-07-28)** **Transformation EFH → MFH: welche Bauteile müssen die
+  Brandschutzanforderungen erfüllen — alle oder nur die neuen?** Wörtlich offen im JANS-eigenen
+  Fragenkatalog `_Projekte Themen/Tragwerk Brandschutzanforderung Thalwil Bohlweg3/250304
+  Fragestellungen Brandschutz.docx` (04.03.2025), der bis zum Nachaudit nie ausgewertet war. Die
+  KB beantwortet bisher nur die **Einstufung** (EFH k. A. vs. MFH mittlerer Höhe R 60,
+  [[brandschutz-pl03-wegweiser]] §4b) — nicht den **Bestandes-Umfang** der Nachrüstpflicht bei
+  Nutzungsänderung/Aufstockung. Für JANS die teuerste Einzelfrage im Bauen im Bestand (Ertüchtigung
+  der bestehenden Tragstruktur vs. nur Neubauteile). Zu prüfende Fundstellen: Brandschutznorm 1-15
+  Art. 2 «bestehende Bauten», BSR 15-15 Ziff. 3.7, Wohnbauten-Arbeitshilfe 1001-15, § 357 PBG
+  Bestandesschutz (→ [[recht-norm-pbg-revision-bauen-im-bestand]]); Übergabe an KB `normen`
+  (Destillat `vkf-brl-15-15-*`) und ggf. Rückfrage bei der Brandschutzfachstelle/GVZ.
+- [x] **C39 — GESCHLOSSEN (Nachaudit 2026-07-28)** Die «neue 201-Byte-Datei» im Lignum-4.1-Ordner
+  ist **kein Dokument, sondern ein defekter Symlink** (203 Byte, mtime 27.07.2026 18:23): er zeigt
+  auf `06 Lignum Brandschutz/Lignum 4.1 Bauteile in Holz - Decken Waende und Bekleidungen mit
+  Feuerwiderstand` — also auf den Elternordner-Namen **ohne** den Tippfehler `Feuerwiederstand`,
+  den der reale Ordner trägt. Das Ziel existiert nicht (`test -e` = false), daher scheiterten alle
+  Leseversuche; die EDEADLK-Meldung war ein Folgefehler des OneDrive-Providers, kein Sync-Timing.
+  **Kein Wissensverlust** — der Ordner enthält unverändert nur die drei bereits volltext gelesenen
+  PDF (_A/_B/_C, alle 20.02.2025). **Aufräum-Hinweis an Raphael:** der Symlink gehört gelöscht,
+  sonst taucht er in jedem Inventarlauf erneut als Phantom-Datei auf.
+  Ursprünglich (Run 92, 2026-07-28): als unlesbare Datei für den nächsten Turnus vorgemerkt.
 - [x] **C38 (B46) (Run 60, 2026-07-25)** `Brandschutznachweis_MFH-5g-RF1_V.2_-_ohne_Logo.docx`
   (bisher nur als Existenz-Verweis in §2 geführt) vollständig gelesen — liefert ein reales,
   ausformuliertes MFH-Beispiel mit konkreter Feuerwiderstands-Matrix (R60/REI60/EI60/EI30,
@@ -834,8 +849,8 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   Design-Referenzkatalog eingearbeitet → NEU §5b [[energie-pv-eignung-typenwahl]].
 - [x] **E44 (Run 63, 2026-07-25, Token-Vollgas Scout-Fund)** Letzte unausgewertete Datei im Ordner
   `_Heizwaermebedarf/` (`_Wärmebedarf Warmwasser SIA 380_1.pdf`) gelesen — bestätigter Nicht-Fund
-  (byte-identische Tab.-24/25-Doppelseite, bereits in [[energie-heizwaermebedarf-
-  waermeerzeugerleistung]] erfasst). Domäne Energie nach vollständigem Scout-Ordnerabgleich
+  (byte-identische Tab.-24/25-Doppelseite, bereits in
+  [[energie-heizwaermebedarf-waermeerzeugerleistung]] erfasst). Domäne Energie nach vollständigem Scout-Ordnerabgleich
   ohne weitere unerschlossene PL-04-Datei; einziger offener Punkt bleibt D9 (realer MFH-/ZEV-Fall,
   wartet auf reales Projekt).
 - [x] **E41 (Run 59, 2026-07-25)** Delta-Check `pv sol premium`/`solarapp.ch`/
@@ -1084,6 +1099,21 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   (am Langnau-Benchmark nicht ausgelöst, kein Regress). → [[kartenportale-bund-geodaten]].
 
 ## F — Meta/Querschnitt
+- [ ] **F-KONSISTENZ (Nachaudit 2026-07-28)** **Sechs Phantom-Backlinks** verweisen aus acht
+  Artikeln auf Wiki-Artikel, die es nie gab: `[[u-werte-grenzwerte-ch]]` (5×),
+  `[[graue-energie]]` (4×), `[[minergie-standards]]` (2×), `[[abstaende-und-hoehen]]` (2×),
+  `[[muken-2025-anhang-4-5-daemmstaerken-leitungen]]`, `[[oelheizung-gasheizung-ersatzpflicht-zh-sz]]`,
+  `[[regenwasserbewirtschaftung-versickerung-zh]]`. Sie sind faktisch **Vorwärts-Referenzen auf
+  geplante, nie geschriebene Artikel** — kein Datenverlust, aber jeder Klick läuft ins Leere und
+  der Leser hält den Inhalt für dokumentiert. Entscheid nötig: Artikel schreiben (die Inhalte
+  stecken teilweise verstreut in [[energie-energienachweis-zh-formulare]] /
+  [[energie-heizwaermebedarf-waermeerzeugerleistung]] / [[recht-norm-abstandsvorschriften-wald-gewaesser]])
+  **oder** Links auf den real existierenden Zielartikel umbiegen. Zusätzlich zwei
+  Pfad-statt-Artikel-Links (`[[planungsgrundlagen/connectors/geo-zh.mjs]]` in
+  [[kartenportale-bund-geodaten]], `[[../grobkosten/]]` in
+  [[recht-norm-ahb-stadt-zuerich-projektstandards]]) — dort besser Backticks statt Wikilink-Syntax.
+  Bereits im selben Audit **behoben**: 6 über Zeilenumbrüche zerrissene Backlinks + 2 im INDEX
+  fehlende Artikel ([[recht-norm-rechtsprechung-vg-zh]], [[recht-norm-sanitaerraeume-planungsgrundlagen]]).
 - [x] **M2** Anbindung an `machbarkeit`/`ankaufspruefung`/`behoerden-vorabklaerung` schärfen. ✓
   **2026-07-13 (Run 22):** Lücke war einseitig (Run-21-Befund) — `planungsgrundlagen` kannte die
   drei Skills, keiner referenzierte zurück. SKILL.md aller drei ergänzt: `machbarkeit`

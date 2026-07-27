@@ -181,8 +181,8 @@ Energie-THG-Grenzwert nach Minergie-Reglement ab 01.01.2025, vollständig erneue
 dahin gilt weiterhin MuKEn 2014 (Eigenstrom 10 W/m²). Details/Artikel-Nummern →
 `[[energie-energienachweis-zh-formulare]]` §Datenstand. ZH-PDF (EN-ZH Juli 2022, EN-110-ZH Sept 2022)
 tragen «gültig bis 31.12.2025» → ab 2026 EVEN-Version verwenden. **Refresh 2026-07-14 (Run 38):**
-amtliche ZH-Überführung weiterhin nicht publiziert (Detail-Check → `[[energie-energienachweis-
-zh-formulare]]` §Datenstand). **Ungeklärter Nebenfund, NICHT amtlich verifiziert:** mehrere
+amtliche ZH-Überführung weiterhin nicht publiziert
+(Detail-Check → `[[energie-energienachweis-zh-formulare]]` §Datenstand). **Ungeklärter Nebenfund, NICHT amtlich verifiziert:** mehrere
 WebSearch-Zusammenfassungen (nicht auf eine konkrete zh.ch-Seite oder ein PDF zurückführbar —
 Massnahmenblätter GE01–GE05 der kantonalen Klimastrategie einzeln gegengeprüft, keines davon
 enthält die Aussage) behaupten unabhängig voneinander, der Kanton ZH wolle bis **2027** einen

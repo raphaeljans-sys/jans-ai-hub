@@ -2,6 +2,34 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-28 — Nachaudit PL-03 Brandschutz auf Raphaels Auftrag: Vollinventar statt Delta-Check
+Alle **153 Dateien** des Ordners `PL - 03 Brandschutz` maschinell gegen Wegweiser/INDEX/QUESTIONS/
+_INGESTED **und** die KB `normen` abgeglichen, jeder Nicht-Treffer danach inhaltlich geoeffnet.
+Ergebnis **95 % erschoepfend erschlossen**, aber vier Befunde:
+- **[luecke, materiell] Drei nie gelesene JANS-Dokumente** im Ordner Thalwil Bohlweg 3
+  (Fragenkatalog 04.03.2025, Statiker-Antwort 01.03.2025, zweites Factsheet-Blatt «Anwendung»
+  05.03.2025) — bisher war nur das Ergebnis-Factsheet katalogisiert → NEU
+  [[brandschutz-pl03-wegweiser]] §4b «Vollstaendige Aktenlage Bohlweg 3». Daraus die **wichtigste
+  neue offene Fachfrage C40**: muessen bei einer Transformation EFH → MFH **alle** Bauteile die
+  Brandschutzanforderungen erfuellen oder nur die neuen? In der ganzen KB unbeantwortet.
+- **[attribution] Vier Quellen ohne Fundstellen-Nennung** nachgetragen (IMG_0547
+  Stichwortverzeichnis Beherbergung [a] → §5d; IMG_3799 → §5ad **mit einem neuen Kennwert**:
+  200 MJ/Lfm ≈ 60-70 Elektrokabel; IMG_1515 ChatGPT-Screenshot als geprueft-aber-kein-Beleg → §4b;
+  Biwak-Mail als bestaetigter Nicht-Fund).
+- **[korrektur] C39 geschlossen:** die «unlesbare 201-Byte-Datei» aus Run 92 ist ein **defekter
+  Symlink** (Ziel ohne den Ordner-Tippfehler `Feuerwiederstand`, existiert nicht) — kein Dokument,
+  kein Wissensverlust. Aufraeum-Hinweis an Raphael: Symlink loeschen.
+- **[konsistenz] MD-Hygiene:** 6 ueber Zeilenumbrueche zerrissene Backlinks repariert, 2 seit
+  Wochen nicht im INDEX gefuehrte Artikel nachgetragen ([[recht-norm-rechtsprechung-vg-zh]],
+  [[recht-norm-sanitaerraeume-planungsgrundlagen]]), falsche Ordnerangabe `11 Projekte/` in §1
+  korrigiert. **Offen gelassen** (Entscheid Raphael, QUESTIONS F-KONSISTENZ): 6 Phantom-Backlinks
+  auf nie geschriebene Artikel (u-werte-grenzwerte-ch 5x, graue-energie 4x, minergie-standards 2x,
+  abstaende-und-hoehen 2x, +2) — alle in Energie/Kartenportale, keiner in PL-03.
+**Methodenkritik fuer den Loop:** der Frischecheck arbeitet mit `find -newer` und meldet seit Run 67
+27x «Delta Null» — er kann strukturell keine Datei finden, die von Anfang an nie gelesen wurde
+(genau der Fall Bohlweg, alle drei vom Maerz 2025). Empfehlung: quartalsweiser Vollinventar-Abgleich
+zusaetzlich zum Delta-Check. → `outputs/2026-07-28_nachaudit-pl03-brandschutz-vollinventar.md`.
+
 ## 2026-07-28 — Run 92 (Intensiv-Lauf auf Raphaels Auftrag): Recht/Norm+Brandschutz Frischecheck, 2 Refresh-Checks unveraendert, neuer OneDrive-Blocker
 Vollstaendiger Frischecheck ueber alle vier PL-Domaenen: `PL - 02_Recht_Norm` + `PL - 01
 Kartenportale` + `PL - 04 Energie` weiterhin **0 neue Dateien**; `PL - 03 Brandschutz` liefert

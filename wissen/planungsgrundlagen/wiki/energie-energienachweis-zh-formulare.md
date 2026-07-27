@@ -257,8 +257,8 @@ erfasst — offener Punkt für einen künftigen Recht/Norm-Lauf.
   Read):** ein **Volksreferendum gegen die Verordnung über die Umsetzung von § 49b PBG
   (UmV § 49b PBG)** ist am 21.11.2025 zustande gekommen (Stadt Zürich Medienmitteilung);
   Kantonsratsbeschluss vom 17.09.2025 (GR Nr. 2022/358) betrifft laut Titel **Parkplatz-
-  vorschriften** (Flexibilisierung Stadt/Land). Thematischer Bezug zu `[[recht-norm-
-  tiefgarage-erschliessung]]` möglich, aber **Primärquelle noch nicht gelesen** — als
+  vorschriften** (Flexibilisierung Stadt/Land). Thematischer Bezug zu
+  `[[recht-norm-tiefgarage-erschliessung]]` möglich, aber **Primärquelle noch nicht gelesen** — als
   offene QUESTIONS-Aufgabe vermerkt statt als Fakt übernommen (Leitplanke "nie erfinden").
   **Korrektur 2026-07-19 (Run 53):** Primärquelle jetzt gelesen (stadt-zürich.ch) — der
   Themenbezug war **falsch**. § 49b PBG regelt **preisgünstigen Wohnraum bei Mehrausnützung**,

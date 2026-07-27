@@ -1319,8 +1319,8 @@ der Backlog nicht erneut aufgemacht wird:
   Fund).
 - **«Solarstromanlagen in Bauprojekten» (FUY, 25.09.2008):** Eignungspriorität **Steildach/Flachdach
   vor Fassade**, aber **thermische Solarnutzung (Warmwasser) wird der PV grundsätzlich vorgezogen**
-  (Effizienzargument, Stand 2008 — heute durch die reale JANS-PV-Praxis in [[energie-pv-eignung-
-  typenwahl]] überholt, dort dominiert PV klar). Statische Reserve 0–50 kg/m² montageabhängig;
+  (Effizienzargument, Stand 2008 — heute durch die reale JANS-PV-Praxis in
+  [[energie-pv-eignung-typenwahl]] überholt, dort dominiert PV klar). Statische Reserve 0–50 kg/m² montageabhängig;
   Wirtschaftlichkeitsschwelle historisch 15 kWp (≈150 m² Steildach / 300 m² Flachdach) für
   Contractor-Modell über die ewz-Solarbörse — dieses Contracting-Modell ist ein Stadt-ZH-
   Spezifikum ohne kantonale Entsprechung. ⚠ Datenstand 2008, PV-Wirtschaftlichkeit seither massiv
