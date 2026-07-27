@@ -1,6 +1,10 @@
 # CHANGELOG — KB twin
 
-- **2026-07-27c — `twin-fidelity-review` dritter Lauf (Gesamt-Fidelity ~78).** Frische Session
+Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktion wird
+hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
+die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
+
+- **2026-07-27d — `twin-fidelity-review` dritter Lauf (Gesamt-Fidelity ~78).** Frische Session
   ohne Vorwissen. Bewusst neue, bislang ungenutzte Goldquellen: `mail@raphaeljans.ch` (erstmals
   als Fidelity-Testgold gezogen) + ein frisches rj@-Fenster Januar 2026. Drei Golds: CNCEST-
   Konsumentenreklamation (Sie, Vertragsverletzung/Rückabwicklung), Peter-Weisser-Neujahrs-
@@ -19,10 +23,6 @@
   Empfehlung im Report: künftige Reviews sollen weiter unerprobtes Terrain suchen (z.B.
   `mail@raphaeljans.ch` weiter ausschöpfen) statt die bereits stark gesättigten KISPI-/
   Baurechts-Fäden zu wiederholen.
-
-Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktion wird
-hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
-die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
 - **2026-07-27c — `twin-mail-training` Batch 71 (nach vier Leerläufen erster neuer Korpus).** Fenster
   ab 2026-07-25T18:11:00Z bis 2026-07-27T09:14:12Z (Sent Items rj@): 2 Treffer, davon 1 relevant (KISPI-PPTS

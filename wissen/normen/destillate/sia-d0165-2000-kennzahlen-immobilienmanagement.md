@@ -1,18 +1,18 @@
 ---
 quelle: "PL - 02_Recht_Norm/02_Normen/SIA_Norm/SIA_Normen/alle/xalt/SIA D0165_2000 Kennzahlen im Immobilienmanagement.pdf (Vollversion, 73 S., identisch mit xalt/neu/-Kopie, MD5 6bd3c2c6e10a92aec8f94278b3de3a77); Kurzfassung d 0165.pdf (5-S.-Fragment S.14-17) im Hauptordner ist dieselbe Ausgabe, nur Auszug"
 herausgeber: "SIA (Schweizerischer Ingenieur- und Architektenverein) unter Federführung der IPB (Interessengemeinschaft privater und professioneller Bauherren), gemeinsam mit SVIT (Schweizerischer Verband der Immobilien-Treuhänder); Mitträgerschaft VIV, USPI, SHEV, BWO, VZI, KBOB, ETH-Rat"
-ausgabe: "SIA D 0165, Juli 2000 (Copyright 2000 SIA Zürich, ISBN 3-908483-29-8); Druck Schwabe & Co. AG Muttenz, 2. Auflage 2000 Exemplare, 2002-06"
+ausgabe: "SIA D 0165, Ausgabe 2000 (Copyright 2000 SIA Zürich, ISBN 3-908483-29-8); Druck Schwabe & Co. AG Muttenz, 2. Auflage 2000 Exemplare, 2002-06"
 gelesen: "Vollversion vollständig gelesen 260725 (Run 29, 4 parallele Lese-Agenten, PDF-Seiten 1-73 lückenlos); löst das bisherige 5-Seiten-Teil-Destillat (nur S.14-17) ab"
-datenstand: "Juli 2000 (einzige Ausgabe, kein Nachfolgestand im Bestand oder im Gesamtverzeichnis SIA bekannt)"
-status: "destilliert VOLLSTAENDIG, adversarial verifiziert 260726 (Run 29, 3 unabhängige Refuter-Agenten, 13 Befunde alle korrigiert) — bleibt speculative bis eine folgende Verifikationsrunde einen sauberen Nulldurchgang bestätigt"
-last_updated: 2026-07-26
+datenstand: "Ausgabe 2000 (einzige Ausgabe, kein Nachfolgestand im Bestand oder im Gesamtverzeichnis SIA bekannt)"
+status: "speculative (zweite unabhaengige Refuter-Runde 260727, Run 31: BEANSTANDET mit 17 Befunden, alle eingearbeitet. Davon 9 substanziell, darunter EINE Regression der Runde 1 (die Honorar-Sammelcodes BKP 19-99 / EKG W1-W6 waren korrekt und wurden am 26.07. faelschlich geloescht) und ZWEI sachlich falsche Offene-Punkte-Nachtraege der Runde 1 (S.-41-Werte sind herleitbar; VF-Label S. 38 ist lesbar). Weiter korrigiert: nicht belegtes Ausgabedatum Juli 2000 (Impressum nennt nur Ausgabe 2000), Schaetzerhandbuch-Kuerzel SVGK statt SVKG, nicht existierende DIN 416, Anhang-1- und Anhang-4-Seitenzahlen. Bleibt speculative bis zu einer Runde mit sauberem Nulldurchgang; die naechste Runde fokussiert auf die hier frisch geaenderten Stellen.)"
+last_updated: 2026-07-27
 links: [[sia-416-2003]], [[din-277-1-2005]], [[din-277-2-2005]], [[REGISTER]]
 ---
 
 # SIA D 0165:2000 — Kennzahlen im Immobilienmanagement
 
 ## Das Wichtigste in 3 Sätzen
-Gemeinsame Dokumentation von SIA und SVIT/USPI (Juli 2000, unter Federführung der IPB), die
+Gemeinsame Dokumentation von SIA und SVIT/USPI (Ausgabe 2000, unter Federführung der IPB), die
 ein einheitliches, verbandsübergreifendes Kennzahlensystem für das Immobilienmanagement
 definiert: Flächen- und Volumenkennzahlen (Basis SIA 416 + DIN 277) sowie Kosten- und
 Mietkennzahlen (Basis Baukostenplan/EKG des CRB + DIN 18960 + GEFMA 200). Kernleistung ist
@@ -52,8 +52,8 @@ Nutzungsgrad; (2) Kostenkennzahlen — Prozesskosten/finanzielle Führung. Fokus
 ### 2.1 Flächen- und Volumenkennzahlen (S. 6-7)
 **Gebäudeflächen** (Kennzahl = Zähler/Nenner, Einheit %, ausser vermerkt):
 NF/GF · NF/(FF+VF) · HNF/GF · HNF2/GF · HNF2/API(HNF2) [m²/Stk.] · HNF2/VZÄ [m²/VZÄ] ·
-NNF/GF · FF/GF · VF/GF · NGF/GF · GF¹/GSF (Ausnützungsziffer) · BM²/GSF [m³/m²]
-(Baumassenziffer). ¹/² Für Ausnützungs-/Baumassenziffer gilt kantonales/kommunales Recht,
+NNF/GF · FF/GF · VF/GF · NGF/GF · GF¹/GSF (¹ = anrechenbare Geschossfläche, nicht die GF
+nach 3.1.1) · BM²/GSF (² = oberirdische Baumasse) [m³/m²]. Für Ausnützungs-/Baumassenziffer gilt kantonales/kommunales Recht,
 nicht diese Dokumentation — **wichtige Abgrenzung**: SIA D 0165 definiert die Kennzahl-Formel,
 nicht deren Grenzwert.
 
@@ -170,8 +170,10 @@ MWST; Erhaltungskosten für Baukonstruktion/Haustechnik getrennt zu ermitteln)
 **3.2.1 Kosten von Baumassnahmen**:
 - **Investitionskosten IK**: Baukosten + Grundstückskosten, gegliedert nach BKP 0-9 (CRB,
   SN 506 500) oder EKG A-Z (CRB, SN 506 502). **Hinweis**: diese BKP-Struktur (Stand 2000, BKP 0-9 mit BKP 6-8 als "Reserve", Honorare
-  pauschal auf BKP 1-9 bzw. EKG-Element W ohne W0 ausgewiesen, keine weitere Subgliederung im
-  Original sichtbar) ist die **historische CRB-Fassung Jahr 2000** — für aktuelle
+  pauschal auf BKP 1-9 bzw. EKG-Element W ohne W0; die Berechnungsformulare Kap. 4.2 (S. 32 f.)
+  führen sie als Sammelpositionen BKP 19-99 bzw. EKG W1-W6 und splitten sie in LM/3
+  Projektierung, LM/4 Ausschreibung, LM/5 Realisierung zu HK3) ist die **historische
+  CRB-Fassung Jahr 2000** — für aktuelle
   JANS-Outputs bleibt die **BKP-2017-Liste** massgeblich (Rule `bkp-2017-referenz.md`);
   nicht unbesehen übernehmen.
 - **Baukosten BauK**: Realisierungskosten inkl. Honorare, BKP 1-9 bzw. EKG B-Z (ohne W0).
