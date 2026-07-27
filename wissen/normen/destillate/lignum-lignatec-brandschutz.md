@@ -4,23 +4,19 @@ herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direkto
 ausgabe: "Lignatec 17/2005 «Bauten in Holz – Brandschutz-Anforderungen», erschienen Juni 2005, ISSN 1421-0320; geprüft durch die Technische Kommission der Vereinigung Kantonaler Feuerversicherungen (TKB-VKF) auf materielle Übereinstimmung mit den Schweizerischen Brandschutzvorschriften VKF (Ausgabe 2003, gültig seit 1.1.2005) und als «Stand der Technik» anerkannt"
 gelesen: "alle 12 PDF-Seiten (= gedruckte Seiten 2-24 plus Titelblatt) komplett, Bild-Scan ohne Textlayer, visuell gelesen"
 datenstand: "2005 (Bezug: VKF-Brandschutzvorschriften Ausgabe 2003/gültig ab 1.1.2005) — VERALTET gegenüber der aktuellen VKF-Vorschriftengeneration 2015 (vgl. Destillat vkf-ah-1001-15-wohnbauten.md)"
-status: "speculative (fuenfte unabhaengige Refuter-Runde 260727, Run 34: BEANSTANDET mit 1 Befund
-  — Figur 1 (R/EI/REI-Uebersichtstabelle) ist physisch auf S. 2 platziert, nicht auf S. 3 wie an
-  zwei Stellen des Destillats zitiert (die zugehoerige Textdefinition Ziff. 1.2 steht auf S. 3,
-  daher die urspruengliche Fehlzuordnung); beide Fundstellen korrigiert. Kein Nulldurchgang;
-  Historie davor (vierte unabhaengige Refuter-Runde 260727, Run 33: BEANSTANDET mit 1 Befund
-  — Tab. 5 (S. 15), Beschreibung der blau markierten Felder behauptete Geltung 'in ALLEN
-  Nutzungszeilen'; tatsaechlich hat die Zeile Wohnbauten EFH/REFH durchgehend KEINE farbig
-  markierten Felder (per Pixel-Crop verifiziert), korrigiert auf 'in ALLEN Nutzungszeilen AUSSER
-  Wohnbauten EFH/REFH'. Der in Run 32 korrigierte Tab.-4-Schraegstrich-Wert (Wohnbauten MFH 5-6
-  Geschosse, Korridor baulich) wurde in dieser Runde unabhaengig gegen das Original UND gegen die
-  axonometrische Parallelstelle Ziff. 5.4 (S. 23) erneut geprueft und bestaetigt korrekt. Alle
-  uebrigen Stellen (Tab. 2, Tab. 3 inkl. Beherbergungsbetriebe-Krankenhaeuser-Zeile, Tab. 4 Rest,
-  alle vier Axonometrie-Doppelseiten, Ziff. 1-4 Fliesstext, Schutzabstaende, Literatur/Impressum
-  inkl. ISSN) bei dieser Runde CONFIRMED gegen 400-dpi-Rendering (pdftoppm, eigene Crops). Bleibt
-  speculative: (a) noch kein Nulldurchgang erreicht, (b) unabhaengig davon bleibt der
-  Aktualitaets-Vorbehalt gegen VKF 2015 bestehen, da die Quelle von 2005 ist. Historie: Run 30/31/32
-  (alle 260727) BEANSTANDET mit vielen/17/1 Befunden, Details Rules-Archiv bzw. vorherige Commits.))"
+status: "speculative (sechste unabhaengige Refuter-Runde 260727, Run 35: BEANSTANDET mit 1 Befund
+  — Ziff. 1.2 (S. 3), Destillat gab 'Decken sind i.d.R. tragend UND brandabschnittbildend' wieder;
+  Original schreibt 'meistens' statt der Absolutformulierung 'und' ('Decken sind in der Regel
+  tragend und meistens brandabschnittbildend') — Nuance-Verlust, keine Kernwert-Verfaelschung,
+  korrigiert. Alle drei Kreuztabellen (Tab. 3/4/5, inkl. aller Run-32/33/34-Korrekturstellen per
+  Hochaufloesungs-Crop erneut pixelgenau bestaetigt), alle vier Axonometrie-Doppelseiten, Figur 1
+  (Run-34-Fix), Literatur/Impressum vollstaendig CONFIRMED gegen 300-dpi-Neurendering (24
+  Halbseiten einzeln gelesen). Kein Nulldurchgang; Fehlerdichte in den drei Kern-Tabellen seit
+  Run 32 praktisch null, verbleibende Einzelbefunde betreffen nur noch Rand-/Nuance-Praezision im
+  Fliesstext. Historie davor: Run 34 1 Befund (Figur-1-Fundstelle), Run 33 1 Befund (Tab. 5
+  EFH/REFH-Ausnahme), Run 32 1 Befund (nach 17 in Runde 2), Run 30/31 BEANSTANDET mit
+  vielen/17 Befunden. Unveraendert: Aktualitaets-Vorbehalt gegen VKF 2015 bleibt bestehen, da die
+  Quelle von 2005 ist.)"
 last_updated: 2026-07-27
 links: [[REGISTER]], [[vkf-ah-1001-15-wohnbauten]]
 ---
@@ -81,9 +77,9 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
   und brandabschnittbildend (Brandeinwirkung von einer Seite) (Figur 1, S. 2; Text/Definition
   dazu auf S. 3, Ziff. 1.2, Refuter-Korrektur 260727 Run 34).
 - Lineare Bauteile (Stützen/Träger) sind i.d.R. tragend und nicht brandabschnittbildend;
-  Decken sind i.d.R. tragend UND brandabschnittbildend. R-Bauteile haben andere
-  Rahmenbedingungen als EI-/REI-Bauteile, weil der Brand gleichzeitig von mehreren Seiten
-  einwirken kann (S. 3).
+  Decken sind i.d.R. tragend und **meistens** brandabschnittbildend (keine Absolutaussage,
+  Refuter-Korrektur 260727 Run 35). R-Bauteile haben andere Rahmenbedingungen als
+  EI-/REI-Bauteile, weil der Brand gleichzeitig von mehreren Seiten einwirken kann (S. 3).
 
 **Bezeichnungen von Bauteilen und Feuerwiderstandsklassen (Ziff. 1.3, Tabelle 2, S. 4-5)**
 - «Keine Anforderung»: Holzeinsatz ohne weiteres möglich, keine minimalen

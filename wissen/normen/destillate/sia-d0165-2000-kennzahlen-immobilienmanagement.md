@@ -4,7 +4,17 @@ herausgeber: "SIA (Schweizerischer Ingenieur- und Architektenverein) unter Feder
 ausgabe: "SIA D 0165, Ausgabe 2000 (Copyright 2000 SIA Zürich, ISBN 3-908483-29-8); Druck Schwabe & Co. AG Muttenz, 2. Auflage 2000 Exemplare, 2002-06"
 gelesen: "Vollversion vollständig gelesen 260725 (Run 29, 4 parallele Lese-Agenten, PDF-Seiten 1-73 lückenlos); löst das bisherige 5-Seiten-Teil-Destillat (nur S.14-17) ab"
 datenstand: "Ausgabe 2000 (einzige Ausgabe, kein Nachfolgestand im Bestand oder im Gesamtverzeichnis SIA bekannt)"
-status: "speculative (fuenfte unabhaengige Refuter-Runde 27.07.2026, Run 34: BEANSTANDET mit 3 Befunden, alle eingearbeitet, keine Regression — Details im Abschnitt Verifikationsstand. GEFMA-450-Fix (Run 32) und GEFMA-4xx/230-Instandsetzung-Fix (Run 33) beide bestaetigt korrekt; BKP-19-99/EKG-W1-W6-Wert weiterhin korrekt vorhanden, keine erneute Regression; beide Berechnungsbeispiele S.37-47 Zahl fuer Zahl nachgerechnet, fehlerfrei. Vierte Runde (Run 33): BEANSTANDET mit 1 Befund (GEFMA-4xx-Bucket faelschlich als Instandsetzung statt Dienste bezeichnet), eingearbeitet, keine Regression. Dritte unabhaengige Refuter-Runde 260727: BEANSTANDET mit 4 Befunden, alle eingearbeitet, keine Regression. Zweite Refuter-Runde 260727, Run 31: BEANSTANDET mit 17 Befunden, alle eingearbeitet. Davon 9 substanziell, darunter EINE Regression der Runde 1 (die Honorar-Sammelcodes BKP 19-99 / EKG W1-W6 waren korrekt und wurden am 26.07. faelschlich geloescht) und ZWEI sachlich falsche Offene-Punkte-Nachtraege der Runde 1 (S.-41-Werte sind herleitbar; VF-Label S. 38 ist lesbar). Weiter korrigiert: nicht belegtes Ausgabedatum Juli 2000 (Impressum nennt nur Ausgabe 2000), Schaetzerhandbuch-Kuerzel SVGK statt SVKG, nicht existierende DIN 416, Anhang-1- und Anhang-4-Seitenzahlen. Bleibt speculative bis zu einer Runde mit sauberem Nulldurchgang.)"
+status: "established (sechste unabhaengige Refuter-Runde 27.07.2026, Run 35: sauberer Nulldurchgang,
+  0 Befunde — erste beanstandungsfreie Runde nach fuenf vorangegangenen mit Befunden. Vollstaendiger
+  Volltext-/Bildabgleich aller 73 Seiten (4 Lesedurchgaenge), inkl. Impressum/ISBN/Anhang-Zaehlung/
+  Tabellen-Spaltenbeschriftungen/DIN-18960-Referenz gezielt gegengeprueft; beide Berechnungsbeispiele
+  S.37-47 erneut Zahl fuer Zahl nachgerechnet, GEFMA-Doppelcodierung 226/490 und GEFMA-230-Fix
+  (Runden 32/33) sowie PDF/Folio-Versatz vollstaendig bestaetigt, keine Regression. Nebenbefund ohne
+  Korrekturbedarf: Original selbst nennt fuer EV/EBF an zwei Stellen unterschiedliche Normen (SIA
+  380/1 Fussnote S.9 vs. SIA 180/4 Kap. 3.1.3/3.3) — Destillat gibt beide Stellen korrekt wieder,
+  Original-Inkonsistenz nicht separat vermerkt. Historie: fuenfte Runde (Run 34) 3 Befunde, vierte
+  Runde (Run 33) 1 Befund, dritte Runde 4 Befunde, zweite Runde (Run 31) 17 Befunde inkl. einer
+  Regression, erste Runde initiale Fehler. Alle eingearbeitet, keine offene Beanstandung mehr.)"
 last_updated: 2026-07-27
 links: [[sia-416-2003]], [[din-277-1-2005]], [[din-277-2-2005]], [[REGISTER]]
 ---

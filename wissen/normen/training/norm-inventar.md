@@ -1,5 +1,28 @@
 # Norm-Inventar — Arbeitsliste des Nacht-Loops `normen-training-nacht`
 
+- **Run 35 (MacBook Pro, 260727) — sechste Refuter-Runde fuer die 3 verbleibenden speculativen
+  Lignum-/SIA-Destillate (Run-34-Empfehlung, 3 parallele Agenten). 1x established (sauberer
+  Nulldurchgang), 2x weiterhin speculative mit neuen, vom Hauptprozess selbst gegen das Original
+  verifizierten Befunden.**
+  Kein neues Grunddestillat (PL-02 weiterhin 0 offene `[ ]`). Ergebnis je Destillat:
+  - `sia-d0165-2000-kennzahlen-immobilienmanagement.md`: **established** — sechste Runde 0
+    Befunde, erster sauberer Nulldurchgang nach fuenf Runden mit Befunden (17→4→1→3→3→0).
+    Vollstaendiger Volltext-/Bildabgleich aller 73 Seiten; Impressum/ISBN/Anhang-Zaehlung/
+    DIN-18960-Referenz gezielt gegengeprueft, beide Berechnungsbeispiele erneut nachgerechnet,
+    keine Regression.
+  - `lignum-lignatec-brandschutz.md`: bleibt `speculative` — sechste Runde 1 Befund (Ziff. 1.2,
+    S. 3: "UND brandabschnittbildend" statt Original-Nuance "meistens brandabschnittbildend"),
+    korrigiert. Konvergenz 17→1→1→1→1→1, weiterhin kein Nulldurchgang, aber Fehlerdichte in den
+    drei Kern-Tabellen seit Run 32 praktisch null.
+  - `lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md`: bleibt `speculative` — sechste
+    Runde 2 Befunde, BEIDE vom Hauptprozess selbst durch eigenes 300-dpi-Rendering der Seiten
+    51/53 vor Uebernahme gegengeprueft und bestaetigt: (1) Tab. 446-1 Gesamt-Untergrenze
+    50→60 mm (widerspricht einer frueheren "50 mm war korrekt"-Bestaetigung aus Run 30/31, die
+    selbst die fehlerhafte Stelle war), (2) Tab. 446-3 R90-Bandbreite 155-205→120-205 mm (R90-
+    Gruppe umfasst vier statt drei Spalten). Sechste Runde in Folge mit mindestens einem Befund.
+  Details `wiki` unveraendert (keine neuen offenen Fragen), Report
+  `outputs/2026-07-27_normen-nacht-run35.md`.
+
 - **Run 34 (MacBook Pro, 260727) — fuenfte Refuter-Runde fuer die 3 verbleibenden speculativen
   Lignum-/SIA-Destillate (Run-33-Empfehlung). Kein Nulldurchgang; Registrierung nachgeholt
   (Destillat-Edits waren bereits vor dieser Instanz fertig, aber ungetrackt).**

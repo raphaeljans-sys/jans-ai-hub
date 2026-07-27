@@ -7,12 +7,24 @@ herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direkto
 ausgabe: "Lignum-Dokumentation Brandschutz, Themenblock 4 «Bauteile in Holz», Publikation 4.1 «Decken, Wände und Bekleidungen mit Feuerwiderstand». Erschienen Mai 2015, Nachdruck/Aktualisierung Oktober 2017. Von der TKB-VKF in Bezug auf Übereinstimmung mit den Mindestanforderungen der Schweizerischen Brandschutzvorschriften VKF, Ausgabe 2015 (BSV 2015), Stand 01.01.2017 geprüft und am 06.09.2017 als «Stand der Technik Papier (STP)» anerkannt. Laut Einleitung (S. 4) weist die vorliegende Publikation gegenüber der Erstausgabe von Mai 2015 in technischer Hinsicht keine relevanten Unterschiede auf; die Erstausgabe kann weiterhin angewendet werden."
 gelesen: "alle 40 Seiten (Teile A+B+C) komplett, Titelblatt/Impressum/Buchrücken eingeschlossen — Bild-Scan ohne Textlayer, visuell erfasst"
 datenstand: "Mai 2015 / STP-Anerkennung 06.09.2017"
-status: "speculative (fuenfte unabhaengige Refuter-Runde 27.07.2026, Run 34: BEANSTANDET mit 2
-  Befunden — (1) Tab. 431-2 (Balkendecken REI30, S. 23) nannte zusaetzlich zur Bandbreite drei
-  nicht belegte Alternativ-Querschnitte (120x140/80x120/80x100 mm), die in keiner der zehn
-  Varianten A-K der Tabelle vorkommen; Satzteil entfernt. (2) Abb. 310-2 (Massivholzplatten in
-  der Fasen-Ausnahme-Aufzaehlung, S. 12) war bereits zu Beginn dieser Runde separat korrigiert
-  (siehe Historie) und wurde hier unabhaengig gegenverifiziert und bestaetigt. Regressionscheck:
+status: "speculative (sechste unabhaengige Refuter-Runde 27.07.2026, Run 35: BEANSTANDET mit 2
+  Befunden, beide durch eigene Bild-Nachpruefung am Original (300-dpi-Rendering S. 51/53) VOR
+  Uebernahme bestaetigt — (1) Tab. 446-1 (Waende mehrlagige Massivholzplatten REI30, S. 51):
+  Gesamt-Untergrenze war faelschlich mit 50 mm angegeben (widersprach einer frueheren Runde, die
+  50 mm als korrekt bestaetigt hatte); zellenweise Pruefung aller sieben Spalten A-G zeigt den
+  kleinsten Tabellenwert bei 60 mm (Spalten C/D, EI30) — korrigiert auf 60-115 mm. Die fruehere
+  '50 mm war korrekt'-Bestaetigung (Run 30/31) war selbst die fehlerhafte Stelle. (2) Tab. 446-3
+  (REI90, S. 53): R90-Bandbreite 'auf die tragenden R-Spalten allein bezogen' war mit 155-205 mm
+  angegeben, tatsaechlich umfasst die R90-Gruppe VIER Spalten (A-D) statt drei, kleinster Wert
+  120 mm (Spalte D) statt 155 mm — korrigiert auf 120-205 mm. Sechste Runde in Folge mit
+  mindestens einem Befund, kein Nulldurchgang; beide Befunde derselben Fehlerkategorie
+  (Spaltengruppen-Zuordnung bei zusammengesetzten Bandbreiten-Aussagen bleibt regressionsanfaellig).
+  Vorherige Runde (Run 34, fuenfte Runde): BEANSTANDET mit 2 Befunden — (1) Tab. 431-2 (Balkendecken
+  REI30, S. 23) nannte zusaetzlich zur Bandbreite drei nicht belegte Alternativ-Querschnitte
+  (120x140/80x120/80x100 mm), die in keiner der zehn Varianten A-K der Tabelle vorkommen; Satzteil
+  entfernt. (2) Abb. 310-2 (Massivholzplatten in der Fasen-Ausnahme-Aufzaehlung, S. 12) war bereits
+  zu Beginn jener Runde separat korrigiert (siehe Historie) und wurde unabhaengig gegenverifiziert
+  und bestaetigt. Regressionscheck (Run 35, alle bestaetigt, keine Regression):
   saemtliche Korrekturen aus Runde 1-4 (40-mm-Abgrenzung, K/F/BSP-Gruppenzuordnung, Traglast je
   Systemtyp, Tab. 447-1, Tab. 442-5/541-2/445-1-2, Tab. 462-1/462-2, Tab. 446-1/2/3, Fugentyp
   Wand/Decke, VSSM, Tab. 431-3/431-4, Tab. 437-1/437-2, Tab. 441-1, Tab. 436-1, Kap. 2.2c/3.2
@@ -493,9 +505,10 @@ Repräsentative Grössenordnungen (keine vollständige Wiedergabe der Varianten-
   REI-Bauteilen Decklagen vertikal (bei Decken dagegen parallel zur Tragrichtung, vgl.
   Tab. 536-1, S. 70); Lagendicke 20–40 mm, keine Doppellagen, Längsfugen der Decklagen
   verleimt, Bretterabstand in Innenlagen ≤ 6 mm. Plattendicke über die ganze Tabelle:
-  30-Min.-Bauteile 50–115 mm (Tab. 446-1), 60-Min.-Bauteile 70–155 mm (Tab. 446-2),
+  30-Min.-Bauteile 60–115 mm (Tab. 446-1), 60-Min.-Bauteile 70–155 mm (Tab. 446-2),
   90-Min.-Bauteile 60–205 mm (Tab. 446-3); auf die tragenden R-Spalten allein bezogen
-  80–110 mm (R30), 110–155 mm (R60), 155–205 mm (R90). Traglast q'd,fi = 50 kN/m'.
+  80–110 mm (R30), 110–155 mm (R60), 120–205 mm (R90, vier statt drei Spalten A-D,
+  Refuter-Korrektur 260727 Run 35). Traglast q'd,fi = 50 kN/m'.
 - Wände aus Holzwerkstoffplatten (Tab. 447-1, S. 54): EI30 entweder Tragkonstruktion
   Span-/Faser-/OSB-Platte 80 mm ohne Brandschutzplatte oder beidseitig BSP30 (Platte dann
   nur für Normaltemperatur bemessen); EI60 entweder 140 mm ohne Brandschutzplatte, oder
