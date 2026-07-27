@@ -4,6 +4,24 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-27 — `twin-fidelity-review` (Runde 260727j, zehnter Lauf des Tages, Rueckwaerts-
+  Sweep widerlegt „Material erschoepft").** Lauf i (19:35) hatte die Erschoepfung nur fuer den
+  inkrementellen Vorwaerts-Sweep (neues Material seit dem letzten Sweep-Endpunkt) empirisch
+  belegt. Diese Runde griff stattdessen gezielt in aeltere, bislang nicht gezogene Fenster
+  (`mail@raphaeljans.ch` Dez 2025, `rj@` Aug 2025 nach dem Seed-Korpus) und fand sofort drei
+  frische authentische Golds: Konsumenten-Du-Reklamation an Bio Mio/Martina (19.12.2025,
+  Emoji mitten in der Beschwerde, komplett fehlendes Grusswort vor der Signatur), vertraulicher
+  Unterlagenversand an Gerry (11.08.2025, reziproke Buero-Einladung „oder ich komme zu Dir"),
+  Ultra-Kurz-Chat „Busy oder bok" (14.08.2025, zweiter Beleg fuer „Hey," ohne Namen als Opener,
+  Gratulation als Nachsatz NACH dem Gruss). Fuenf neue Marker in `stimme.md` ergaenzt (alle als
+  „offen, Einzelbeleg" markiert, nicht in den Do-Block gehoben). Fuenf neue Fragen in
+  `QUESTIONS.md` Runde 260727j. Gesamt-Fidelity ~84 (Drift: Grusswort-Reflex, Emoji-
+  Unterschaetzung ausserhalb warm-sozial, einseitige statt reziproke Einladung, zu „logische"
+  statt spontane Reihenfolge). DNA-Rekompilierung geprueft: kein Compile-Drift (Do/Don't-
+  Bloecke unveraendert). Report: `outputs/2026-07-27j_fidelity.md`. Methodische Empfehlung an
+  `twin-mail-training`: zusaetzlich zum Vorwaerts-Sweep systematisch rueckwaerts in
+  Monatsschritten durch den historischen Korpus gehen, bevor erneut „erschoepft" gemeldet wird.
+
 - **2026-07-27 — `twin-mail-training` (Batch 78, Dry Run).** rj@ seit Sweep-Endpunkt
   15:10:54 Uhr weiterhin leer; mail@ seit dem vorgezogenen Endpunkt 2026-07-17T06:10:17Z
   ebenfalls leer (Tagesproben 18.–27.07. je 0 Treffer). Zusaetzlich den bisher ungenutzten

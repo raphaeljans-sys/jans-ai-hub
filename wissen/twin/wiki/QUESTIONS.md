@@ -3,6 +3,48 @@
 Vom Agenten `twin-fragesteller` gepflegt. Jede beantwortete Frage schärft eine Facette.
 Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/beantwortet).
 
+## Offen — Runde 260727j (twin-fragesteller, aus Fidelity-Review 2026-07-27j)
+
+Quelle: Drift-Report `outputs/2026-07-27j_fidelity.md` (Gesamt-Fidelity ~84; erstmals gezielt
+`mail@raphaeljans.ch` Dezember 2025 und ein bisher ungenutztes August-2025-Fenster auf `rj@`
+gezogen — Bio-Mio-Konsumentenreklamation Du, vertraulicher Unterlagenversand an Gerry,
+Ultra-Kurz-Chat „Busy oder bok"). Fünf neue, unbelegte Einzelfunde. Je in 1–2 Sätzen beantwortbar.
+
+1. **Kein Grusswort vor der Signatur bei einer privaten Konsumenten-Du-Mail — bewusstes
+   Minimalmuster oder reines Mobile-Artefakt?** Bei der Bio-Mio-Reklamation (19.12.2025)
+   fällt der Text nach «stehe ich Dir jederzeit gerne zur Verfügung» direkt in den
+   Signaturblock, ganz ohne «Lieber Gruss»/«Lgr»/irgendein Wort. Lässt Du bei kurzen,
+   privaten (nicht geschäftlichen) Konsumenten-Anliegen das Grusswort bewusst weg, weil der
+   Service-Satz bereits als Schluss reicht, oder war das schlicht die Mobile-Tastatur, die
+   das Wort vergessen hat? *Warum: unterscheidet einen echten Minimalstil von einem reinen
+   Tippfehler-Artefakt, das der Zwilling NICHT übernehmen sollte.* → [[stimme]]
+2. **Emoji in einer privaten Reklamation trotz Beschwerde-Ton — hängt das Emoji an
+   „privat" statt an „warm-sozial"?** Mitten in der Bio-Mio-Beschwerde schreibst Du «habe
+   mich natürlich gefreut😊» bei einem echten Überraschungsmoment. Ist die Regel eigentlich
+   nicht „nur warm-soziale Mails", sondern „jede private/nicht-geschäftliche Du-Mail, sobald
+   ein echter Moment der Freude/Überraschung auftaucht" — auch wenn der Rest der Mail eine
+   Beschwerde ist? *Warum: würde die Emoji-Achse von warm-sozial auf privat-vs-geschäftlich
+   verschieben, was viel mehr Situationen freigäbe.* → [[stimme]]
+3. **Reziproke Orts-Einladung „…oder ich komme zu Dir" — Dein Standard, oder war das bei
+   Gerry situativ (neues Büro, gerade eröffnet)?** Bisher kannte der Zwilling nur die
+   einseitige Einladung „Komm doch vorbei". Bietest Du die reziproke Variante bewusst an,
+   wenn Du selbst gerade etwas Neues zu zeigen hast (neues Büro), oder ist das dein
+   genereller Standard bei jeder Vorbeikommen-Einladung an einen Du-Kontakt? *Warum: würde
+   die bisher einseitige Geste zu einer generellen reziproken Regel erweitern oder auf den
+   Anlass „etwas Neues zeigen" begrenzen.* → [[arbeitsweise]], [[stimme]]
+4. **„Hey," ganz ohne Namen — Dein spontanster Chat-Opener, unabhängig vom Kontakt?** Der
+   zweite Beleg («Busy oder bok», 14.08.2025) zeigt «Hey,» ohne jeden Namen. Ist das für Dich
+   der lockerste, spontanste Opener überhaupt (noch vor «Hey <Vorname>»), den Du bei
+   Chat-artigen Ultra-Kurz-Nachrichten an sehr vertraute Kontakte reflexartig setzt,
+   unabhängig davon wer am anderen Ende ist? *Warum: würde die Peer-Du-Opener-Skala um eine
+   fünfte, namenlose Stufe ergänzen.* → [[stimme]]
+5. **Warmer Nachsatz NACH dem Gruss („lgr / Gratuliere für die Abgabe!") — spontane
+   Nachbemerkung oder bewusste Reihenfolge?** Fällt Dir bei Ultra-Kurz-Chats manchmal erst
+   nach dem Sign-off noch ein zusätzlicher, warmer Gedanke ein, den Du dann einfach anhängst,
+   statt die Mail neu zu ordnen? *Warum: würde eine „Chat-Postskriptum"-Regel verankern, die
+   der Zwilling bisher nicht kennt und stattdessen reflexhaft "logisch" ordnen würde.*
+   → [[arbeitsweise]], [[stimme]]
+
 ## Offen — Runde 260727g (twin-fragesteller, aus Fidelity-Review 2026-07-27g)
 
 Quelle: Drift-Report `outputs/2026-07-27g_fidelity.md` (Gesamt-Fidelity 89; frisches Fenster

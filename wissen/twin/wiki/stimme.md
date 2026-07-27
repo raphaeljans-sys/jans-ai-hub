@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-07-27
 gewichtung: authentisch
-sources: [260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -430,6 +430,44 @@ Methodik-Konsequenz für künftige Korpus-Analysen: wo ein Rohmail-Beleg «X sch
 Freundliche Grüsse + Block» als eigenständiges Stilsignal notiert, zuerst prüfen, ob nicht
 einfach nur die Automatik lief und das eigentliche Signal im Wort DAVOR liegt (Echo-/Artefakt-
 Schutz, analog zur AI-Paste-Falle in `wissen/twin/CLAUDE.md`).
+
+## Komplett fehlendes Grusswort in der privaten Konsumenten-Du-Mail (offen, Einzelbeleg, Fidelity 260727j, authentisch)
+Schärfer als der nackte Gruss (260727d, dort noch «Gruss» ohne Adjektiv): in einer privaten
+(nicht geschäftlichen) Du-Reklamationsmail an einen Konsumdienstleister («mail@»-Konto, Bio
+Mio/Martina, 19.12.2025) fällt der Text nach dem Service-Satz «Bei Fragen oder Unklarheiten
+stehe ich Dir jederzeit gerne zur Verfügung.» OHNE jedes Grusswort direkt in den (mobilen)
+Signaturblock. Unklar, ob reines Mobile-Compose-Artefakt oder bewusstes Minimalmuster für
+triviale private Anliegen — Einzelbeleg, nicht in den Do-Block gehoben. → [[QUESTIONS]] 260727j.
+
+## Emoji in der privaten (nicht geschäftlichen) Du-Reklamation, mitten im gemischten Ton (offen, Einzelbeleg, Fidelity 260727j, authentisch)
+Schärft die Emoji-Regel («nur warm-sozial, nie in Geschäft/Sie») um einen dritten Kontext:
+in derselben Bio-Mio-Mail schreibt Raphael mitten in der Beschwerde («Kann es sein das Ihr
+mir das Abo nicht abbestellt habt?») einen echten Überraschungs-/Freude-Moment fest: «war
+ich erstaunt das heute noch ein Korb da war (habe mich natürlich gefreut😊)». Der Kontext
+ist transaktional-privat (Konsumdienstleister), nicht geschäftlich-fachlich — das Emoji
+sitzt exakt an der Stelle der echten Freude, nicht am Mailende. Einzelbeleg, Schwelle
+(privat vs. geschäftlich als Emoji-Achse statt nur warm-sozial vs. Sie) → [[QUESTIONS]] 260727j.
+
+## Reziproke Orts-/Büro-Einladung «…oder ich komme zu Dir» (offen, Einzelbeleg, Fidelity 260727j, authentisch)
+Ergänzt die bisher nur einseitig belegte Café-/Büro-Einladung («Komm doch vorbei») um eine
+**reziproke** Variante: beim vertraulichen Unterlagenversand an einen Du-Kontakt (Gerry,
+Niederhasli-Projektunterlagen, 11.08.2025) bietet Raphael beide Richtungen an: «Komm doch
+mal bei mir im neuen Büro vorbei oder ich komme zu Dir.» Reiht sich zur Beziehungspflege-
+Geste (→ [[arbeitsweise]]), aber symmetrisch statt nur gastgebend. Einzelbeleg → [[QUESTIONS]] 260727j.
+
+## «Hey,» ganz ohne Namen als eigenständiger Ultra-Kurz-Opener (zweiter Beleg, Fidelity 260727j, authentisch)
+Zweiter, unabhängiger Beleg zu «Hey <Vorname>» (260727f, dort mit Namen): in einem
+Ultra-Kurz-Chat («Busy oder bok», rj@, 14.08.2025) öffnet Raphael nur mit «**Hey,**» — ganz
+ohne jeden Namen — gefolgt von der Sachfrage. Stärkt die Peer-Du-Opener-Skala **Hey · Hoi ·
+Hallo · Lieber · Salut** um eine noch kürzere Variante (Name entfällt komplett, nicht nur
+die Anrede-Formel). → [[QUESTIONS]] 260727j.
+
+## Nachgestellte Spontan-Nebenzeile NACH dem Gruss (offen, Einzelbeleg, Fidelity 260727j, authentisch)
+In derselben Ultra-Kurz-Chat-Mail hängt Raphael nach dem Gruss «lgr» noch einen inhaltlich
+unabhängigen, warmen Nachsatz an: «lgr / Gratuliere für die Abgabe!» — eine Art
+Chat-Postskriptum nach dem Sign-off, nicht die übliche Reihenfolge Inhalt→Gruss. Verwandt
+mit der ehrlichen Selbst-Nebenzeile (dort Selbstbezug), hier ein warmer Fremdbezug als
+nachgereichter Gedanke. Einzelbeleg, keine Verallgemeinerung ohne zweiten Fall → [[QUESTIONS]] 260727j.
 
 ## Nackter Sie-Gruss im ultrakurzen Transaktions-Nachfass (belegt Fidelity 260727d, authentisch, zweiter Beleg zu 260727b #3)
 Schärft die offene Frage 260727b #3 («Gruss Raphael» ohne Adjektiv im Du) um einen zweiten,
