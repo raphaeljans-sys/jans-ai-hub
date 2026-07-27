@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 27.07.2026 23:53:25
+Stand: 28.07.2026 00:13:51
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:53)
+- Developer/jans/ai/hub  (letzte Aktivitaet 00:02)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 27.07.2026 23:53:25
 - 10 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 8046d917 wissens-chef Run 18: Nachkontrolle EG-GSchG-Sweep (neuer Frontmatter-Fehler + offener Drittkanal), 70%-Kurzschluss PBG 295, 48c lit. c, Solarpflicht-Kantonskatalog, SIA 385/9, 30a BBV I — 7 bestaetigt / 3 widerlegt
+- 21495eab baurecht Run 69: grundlagen-planungs-baurecht erstverifiziert (3 Zitierfehler: Art. 679 Abs. 2 ZGB invertiert, § 3 Abs. 12 BBV I inexistent + Anhangsziffer seit 1.9.2022 aufgehoben, § 220 fehletikettiert) + KGSchV aufgehoben per 1.1.2022 + WsG/WsV-Volltexte in raw/
