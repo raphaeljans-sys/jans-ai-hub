@@ -4,6 +4,26 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-27 — `twin-chef`/Beziehungsregister Batch 74 (mail@, erstmals ausgewertetes Postfach).**
+  Dieselben drei vor-Claude-Mails (25.09.2025/13.11.2025/19.12.2025) zusaetzlich in
+  `wissen/twin/wiki/beziehungsregister.md` ausgewertet. Neue Marker: privat-konsumentischer
+  Dienstleister-Kanal (Hotel, Abo-Lieferdienst) als eigene Register-Achse; generisches
+  Firmenpostfach bei trivialer privater Service-Anfrage → namenloses „Guten Tag," + Sie
+  (verallgemeinert die bisher behoerdenspezifische Regel); Erwaermungs-Sequenz „Guten Tag
+  <Vorname>" → „Hoi <Vorname>" + Du innert fuenf Wochen bei einer Kundendienst-Mitarbeiterin
+  (Du-Kippen nicht auf Geschaeft/Projekt beschraenkt); Person-Du + Firmen-Ihr in derselben Mail
+  sauber getrennt; Register-Signatur-Kopplung (Geschaeftsblock bei Sie, Privatblock bei Du).
+  Neues Mapping Martina/Bio Mio. `sources` im Frontmatter um `260727-mailbatch-74.md` ergaenzt.
+- **2026-07-27 — `twin-mail-training` Batch 74 (mail@, erstmals ausgewertetes Postfach).**
+  Drei vor-Claude-Mails (25.09.2025/13.11.2025/19.12.2025, Hotelbuchung + Gemuese-Abo-
+  Dienstleisterin) in `wissen/twin/wiki/stimme.md` ergaenzt. Neue Marker: Signaturblock kippt
+  mit dem Beziehungsregister (Geschaeftsblock bei Sie/kuehl, Privatblock bei warmem eingespieltem
+  Du) statt starr am Absender-Postfach mail@; „50 Prozent" im Alltagsfliesstext ausgeschrieben
+  statt „%" (Register-Differenzierung Fachzahlenwerk vs. Alltagsprosa); „Grund:" als eigenes
+  Wort-Label vor der Begruendung; Emoji 😊 erstmals mitten in einer berechtigten Reklamation im
+  warmen Dienstleister-Du belegt (erweitert die Emoji-Regel um diesen Kontext); Du-Grossschreibung
+  innerhalb derselben Mail inkonsistent (Authentizitaets-, kein Echo-Signal). `sources` im
+  Frontmatter um `260727-mailbatch-74.md` ergaenzt.
 - **2026-07-27 — `twin-mail-training` Batch 73 (rj@, 11:00–12:38 Uhr).** Nach dem Sweep-Endpunkt
   von Batch 72 frisch gepullt: genau 1 neuer Treffer, eine Teams-Meeting-Einladung „Koordination
   LBW/Innerer Verglasung - Brandschutz" an Othmar Stadelmann (Estermann AG), klar handgetippt,

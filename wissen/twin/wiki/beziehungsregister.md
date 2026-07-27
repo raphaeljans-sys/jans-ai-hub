@@ -3,7 +3,7 @@ title: Beziehungsregister
 status: established
 last_updated: 2026-07-27
 gewichtung: authentisch
-sources: [260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -1740,3 +1740,38 @@ Gewichtung: authentisch (handgetippt, ein Gross-Slip «Brandschutzrelevante»). 
   Warm-formale Stufe (Geschätzte, nicht «Sehr geehrte») trotz vermutlich neuer Gewerkskoordination.
 - **Neues Mapping:** Othmar Stadelmann, Estermann AG (Metall-/Fensterbau bzw. Verglasung, Gewerk-Koordination
   Brandschutz LBW/Innere Verglasung), Sie, «Geschätzte Herren».
+
+## Batch 74 (2026-07-27) — der privat-konsumentische Dienstleister-Kanal: eigene Register-Achse, Erwärmung in fünf Wochen
+
+Gewichtung: authentisch (klar handgetippt, mehrere Tipp-/Kasus-Slips). Quelle: erstmals ausgewertetes
+Postfach mail@raphaeljans.ch, drei vor-Claude-Mails 25.09.2025 / 13.11.2025 / 19.12.2025.
+
+- **Neuer Register-Kanal: der private Konsumenten-/Alltagsdienstleister** (Hotel, Abo-Lieferdienst, Taxi).
+  Folgt derselben Logik wie der geschäftliche Kanal — Anrede aus Vertrautheit und Anlass, nicht aus dem
+  Kanal selbst —, koppelt aber Register und Signatur enger (siehe unten).
+- **Unbekanntes/generisches Firmenpostfach bei trivialer privater Service-Anfrage → namenloses «Guten Tag,»
+  + Sie:** ein deutsches Hotel-Reservationspostfach (unbekannt, generisch, rein privater Anlass) erhält
+  «Guten Tag,» MIT Komma, durchgehend Sie, «Freundliche Grüsse» + volle Geschäfts-Signatur. Deckt sich mit
+  der bereits belegten Behörden-Regel (triviale Service-Bitte an Sammelpostfach → namenloses «Guten Tag»/
+  «Grüezi»): die Regel ist damit nicht behördenspezifisch, sondern gilt für jedes generische Postfach,
+  unabhängig vom Lebensbereich (geschäftlich/behördlich/privat).
+- **Erwärmungs-Sequenz «Guten Tag <Vorname>» → «Hoi <Vorname>» + Du innert fünf Wochen** bei einer
+  Kundendienst-Mitarbeiterin eines Gemüse-Abos: 13.11.2025 «Guten Tag Martina» (Tagesgruss + Vorname, kein
+  Du/Sie im Text erkennbar), 19.12.2025 bereits «Hoi Martina», «Danke für Deine E-Mail.», «Darf ich dich
+  bitten …», «stehe ich Dir jederzeit gerne zur Verfügung» — vollständig im Du. Das Du-Kippen ist damit
+  NICHT auf Geschäft/Projekt/Meilenstein beschränkt (bisher belegt: Bauherrin nach Bauentscheid, Nova-AM,
+  Lieferant nach persönlicher Beratung) — es passiert auch im rein privaten Konsumkanal, ausgelöst allein
+  durch wiederholten persönlichen Kontakt, ohne jeden fachlichen/geschäftlichen Anlass.
+- **Person-Du und Firmen-Ihr in EINER Mail, sauber getrennt:** in derselben Mail (19.12.2025) steht «Danke
+  für Deine E-Mail» / «Darf ich dich bitten» (Person, Du) neben «Kann es sein das Ihr mir das Abo nicht
+  abbestellt habt?» / «wäre ich froh wenn ich Euch den Korb wieder zurückgeben darf» (Firma dahinter,
+  kollektives Ihr/Euch). Das kollektive «Ihr» ist hier keine Anrede-Stufe, sondern ein Adressaten-Wechsel
+  (Person versus Organisation) — verwandt mit der bereits belegten satzweisen Wir/Ich-Trennung im
+  institutionellen Auftritt, hier auf die Empfängerseite gespiegelt.
+- **Register und Signaturblock sind gekoppelt:** solange Sie oder das neutrale «Guten Tag <Vorname>» gilt,
+  steht die volle Geschäfts-Signatur (Founder I MD, Büroadresse); mit dem Kippen ins Du wechselt Raphael auf
+  die private Signatur (Wohnadresse, me.com) und lässt das Gruss-Wort ganz weg. Die Signatur ist damit ein
+  eigenständiges Register-Signal, nicht nur ein Kontakt-Anhang (→ [[stimme]] Batch 74).
+- **Neue Mappings:** Martina, Kundendienst Bio Mio (Gemüse-Abo, privat) — startet «Guten Tag Martina», kippt
+  binnen fünf Wochen auf «Hoi Martina» + Du; Firma dahinter kollektiv «Ihr/Euch». Generische Reservations-
+  postfächer (Hotellerie, Taxi) — namenloses «Guten Tag,» + Sie + volle Geschäfts-Signatur.

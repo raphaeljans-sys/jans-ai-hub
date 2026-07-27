@@ -1,22 +1,22 @@
 # QUESTIONS — KB wettbewerbs-dna
 
-Stand: 27.07.2026 (Wohnungsbau B3-Ziel 8/8 erreicht; drei neue Fragen zu Verfahrens-Sonderfaellen,
-Extrakt-Grenze Koch-Areal und der fehlenden 1. Stufe Walkeweg — je vor B4/B6 zu entscheiden)
+Stand: 27.07.2026 (Wohnungsbau B4 Muster-Synthese abgeschlossen; Verfahrens-Sonderfaelle-Frage
+geklaert, Extrakt-Grenze Koch-Areal und fehlende 1. Stufe Walkeweg bleiben offen, Entscheid vor B6)
+
+## Geklaert
+- **Wohnungsbau B4: wie mit den zwei Verfahrens-Sonderfaellen der Tranche 2 umgehen?
+  (27.07.2026, geklaert beim Anlegen von `jury-argumente-wohnungsbau.md`)**
+  (1) **Koch-Areal Zuerich** (vier parallele Verfahren) wird als EINE Quelle gefuehrt, aber in
+  einem eigenen Abschnitt 2.4 «Gemischt/Mehr-Bauherren-Areal» separat und ausdruecklich als
+  VORLAEUFIG/EINZELBELEG markiert — die Argumente aus den einzelnen Baufeldern fliessen NICHT
+  gewichtsverdoppelt in die traegertyp-uebergreifenden Abschnitte 1/3/4 ein, sondern nur, wo sie
+  eigenstaendig belegt sind (z.B. Kostenbenchmark-Auflage-Muster, Kohlelagerhalle-Freispielen).
+  (2) **Industriestrasse Luzern**: die Rangfolge des Staedtebau/Aussenraum-Strangs wird fuer alle
+  Wohnungsbau-Muster als "die" Rangfolge dieser Quelle verwendet; die getrennt gejurierte, RANG-
+  LOSE Gebaeudetypologie-Auswahl wird in Abschnitt 5 (Verfahrens-Mechanik) als eigenstaendiger
+  taktischer Befund («kein Gesamtsieger») gefuehrt, nicht in die Kriterien-Rangordnung gemischt.
 
 ## Offen
-- **Wohnungsbau B4: wie mit den zwei Verfahrens-Sonderfaellen der Tranche 2 umgehen? (27.07.2026)**
-  Zwei der acht established Wohnungsbau-Quellen brechen das uebliche Rangschema und lassen sich
-  nicht ohne Entscheid in eine gemeinsame Kriterien-Rangordnung mitteln:
-  (1) **Koch-Areal Zuerich** buendelt VIER parallele Verfahren (drei Baufelder + Quartierpark)
-  mit je eigenem Preisgericht-Teilgremium, eigenen Beurteilungskriterien (Baufeld A weicht
-  nachweislich ab) und je eigenem Sieger in EINEM Bericht — zaehlt das als eine Quelle oder als
-  vier? Vorschlag: als eine Quelle fuehren, die Argumente aber je Baufeld getrennt in die
-  Synthese geben, damit die Gewichtung nicht vervierfacht wird.
-  (2) **Industriestrasse Luzern** juriert Staedtebau/Aussenraum und Gebaeudetypologie GETRENNT
-  und bewusst ohne gemeinsames Ranking (drei gleichrangige Typologie-Auswahlen statt Rangfolge).
-  Ein «Delta zum ersten Rang» im Sinne des Musters `delta-zum-ersten-rang` existiert hier nicht.
-  Vorschlag: die staedtebauliche Rangfolge fuer das Delta-Muster verwenden, die Typologie-Auswahl
-  separat als Argumente-Quelle. Entscheid faellt beim Anlegen von `jury-argumente-wohnungsbau`.
 - **Wohnungsbau: Extrakt-Grenze Koch-Areal (27.07.2026).** Das frei zugaengliche PDF
   (49 Seiten) enthaelt nur die zusammenfassenden Kapitel 1-10 der Gesamtpublikation; die
   Einzelprojekt-Doppelseiten (laut Inhaltsverzeichnis ab S. 49/81/141/209/275) fehlen. Dadurch

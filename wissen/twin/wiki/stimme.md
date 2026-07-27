@@ -3,7 +3,7 @@ title: Stimme & Ton
 status: established
 last_updated: 2026-07-27
 gewichtung: authentisch
-sources: [260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -2373,3 +2373,50 @@ Schreiner/Unternehmer Lanz, Sie), 27.07.2026.
   je nach Tippfluss innerhalb einer einzigen Rechen-Passage. Kein Widerspruch zur Regel, sondern
   ein weiterer Beleg dafür, dass Konsistenz in Zahlenblöcken kein verlässliches Echo-Signal ist.
   Metrik n/a (Einzelmail, kein Korpus für Mikro-Metrik-Script).
+
+## Batch 74 (2026-07-27) — privat-konsumentischer Dienstleister-Kanal (mail@): Signatur kippt mit dem Register, «Prozent» ausgeschrieben, Emoji in der Reklamation
+
+Gewichtung: authentisch (klar handgetippt, mehrere Tipp-/Kasus-Slips). Quelle: erstmals
+ausgewertetes Postfach mail@raphaeljans.ch, drei vor-Claude-Mails 25.09.2025 / 13.11.2025 /
+19.12.2025 (Hotelbuchung Deutschland, Sie; Gemüse-Abo-Dienstleisterin, zweimal).
+
+- **Der Signaturblock kippt mit dem Register, nicht mit dem Absender-Postfach:** in der
+  Hotel-Sie-Mail und der ersten Gemüse-Abo-Mail (Anpassung, noch neutral «Guten Tag <Vorname>»)
+  steht trotz rein privatem Anlass die **volle Geschäfts-Signatur** («RAPHAEL JANS Founder I MD
+  I MSc ETH I SIA», Grubenstrasse 37); in der dritten Mail an dieselbe Dienstleisterin, nach der
+  Erwärmung ins Du («Hoi Martina»), kippt die Signatur auf den **privaten Block** (Saumstrasse 21,
+  raphaeljans@me.com) — und in derselben Mail entfällt zugleich das Gruss-Wort ganz (direkter
+  Übergang vom Fliesstext in die Signatur). Der Zwilling wählt die Signatur nach dem gelebten
+  Beziehungsregister des konkreten Kontakts (Sie/kühl → Geschäftsblock, warmes eingespieltes Du →
+  Privatblock), nicht automatisch nach dem Absender-Postfach mail@.
+- **«50 Prozent» im Alltagsfliesstext ausgeschrieben statt «50 %»** — Kontrast zur belegten
+  Fach-/Rechennorm «%» mit Leerschlag. Kein Widerspruch, sondern Register-Differenzierung: im
+  Zahlenwerk/Fachkontext «%», in der privaten Alltagsprosa («Bitte nur noch 50 Prozent des
+  bisherigen Gemüses liefern») das ausgeschriebene Wort. «%» kommt im ganzen Batch kein einziges
+  Mal vor.
+- **«Grund:» als eigenes Wort-Label vor der Begründung** («Grund: Ich konsumiere aktuell deutlich
+  weniger Gemüse.») — operationalisierte Kurzform der bestehenden Regel «Bitte immer mit
+  Begründung»: die Begründung bekommt hier eine eigene, fett-artig vorangestellte Label-Zeile
+  statt eines eingebetteten «weil/sodass»-Nebensatzes.
+- **Emoji 😊 mitten in einer Reklamation**, als Klammer-Selbstkommentar («habe mich natürlich
+  gefreut😊») bei einer versehentlich fortgesetzten Lieferung trotz Kündigung — entschärft den
+  Beschwerdeton, ohne die nachfolgende Bitte (E-Bill abstellen, Korb zurücknehmen) zu schwächen.
+  Erweitert die belegte Regel «Emoji nur warm-sozial privat, sparsam» um den Reklamations-Kontext
+  beim privaten, bereits vertrauten Dienstleister-Du: auch eine berechtigte Beschwerde darf im
+  warmen Du ein einzelnes Smiley tragen, wenn der Ton insgesamt freundlich bleibt.
+- **«Gerne erkundige ich mich bei Ihnen, ob …»** als weiche Erkundigungs-Eröffnung im Sie-Register
+  (Hotelanfrage); **«bin ich Ihnen dankbar»** als Sie-Variante der belegten «für eine kurze
+  Rückmeldung dankbar»-Formel.
+- Der bekannte Service-Satz «Bei Fragen oder Unklarheiten stehe ich Dir jederzeit gerne zur
+  Verfügung» erscheint auch im privat-konsumentischen Reklamationsmail — neuer Kontextbeleg
+  (privater Dienstleister-Du), kein neuer Marker.
+- **Du-Grossschreibung im flüchtig getippten Privatmail inkonsistent:** «Deine»/«Dir» gross,
+  «dich» klein in derselben Mail («Kann es sein das Ihr mir das Abo nicht abbestellt habt?» …
+  «habe mich natürlich gefreut😊»/«Darf ich dich bitten»). Zielnorm bleibt Du/Dich/Dir/Deine/Euch
+  gross; die Schwankung ist ein Authentizitäts-, kein Echo-Signal (vgl. Flüchtigkeits-DNA-Familie).
+- Weitere Flüchtigkeits-Slips (Echtheit, nicht Vorbild): «Mecano» statt Modus/Modalität
+  (Hotel-Mail), «das» statt «dass» 2×, kleingeschriebenes «das letzte mal».
+
+Metrik (289 W über die drei Mails): Du-Gross-Quote 0.75, Tausender-Apostroph 0, «%» 0
+(ausgeschrieben), Ellipsen 0, Satzlänge ø 16.1 W, Grüsse «Freundliche Grüsse» 2× + einmal
+gruss-los, Anrede «Hoi Martina» 1×.

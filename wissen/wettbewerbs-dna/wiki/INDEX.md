@@ -1,15 +1,25 @@
 # INDEX — KB wettbewerbs-dna
 
-Stand: 27.07.2026 (Etappe 3, **Baustein B2/B3 Wohnungsbau Tranche 2 — B3-Ziel Wohnungsbau
-ERREICHT, 8/8 established:** fuenf weitere externe Juryberichte in einem Lauf beschafft,
-destilliert und je unabhaengig refuter-verifiziert — koch-areal-albisrieden-altstetten,
-walkeweg-basel-genossenschaft-2, industriestrasse-luzern, waetterweid-arosa,
-brisgi-areal-baden. Damit sind fuer den Wohnungsbau alle Traegertypen des Sweeps abgedeckt
-(genossenschaftlich, stadt-gemeinde, privat-institutionell, Stiftung, gemischt Wohnen+Gewerbe)
-sowie erstmals ein alpiner Kontext (Arosa, GR) und ein Mehrfach-Baufeld-Verfahren (Koch-Areal,
-vier parallele Verfahren in einem Bericht). **Naechste Zelle: Wohnungsbau B4 Muster-Synthese**
-(`wiki/muster/jury-argumente-wohnungsbau.md`, neu anzulegen), danach B6 Kennwert-Benchmark
-und B5 Parameter-Set-Revision. — vorher 26.07.2026 (Etappe 3, **Baustein B1 Wohnungsbau
+Stand: 27.07.2026 (Etappe 3, **Baustein B4 Wohnungsbau Muster-Synthese abgeschlossen —
+`wiki/muster/jury-argumente-wohnungsbau.md` established:** Synthese aus den 8 established
+Wohnungsbau-Juryberichten (Kriterien-Rangordnung, Gewinner-Typologien je Traegertyp,
+12 Siegargumente, K.-o.-Liste, Verfahrensmechanik, Skill-Massnahmen); 5 parallele Quellen-
+Shard-Refuter + 1 Konsistenz-Refuter durchlaufen, rund 20 Korrekturen eingearbeitet
+(Seitenzahlen, zwei ueberdehnte Verallgemeinerungen, ein als Zitat ausgewiesenes Paraphrase
+korrigiert); die Waetterweid-Quelle brauchte wegen ihrer Vor-Marker-Paginierung (Fussmarker
+steht vor statt nach dem zugehoerigen Fliesstext) eine zusaetzliche direkte Nachrechnung
+gegen die Fussmarker im Rohextrakt, nachdem zwei Refuter-Durchgaenge die Konvention in
+unterschiedliche Richtungen missverstanden hatten. **Naechste Zelle: Wohnungsbau B6
+Kennwert-Benchmark** (`wiki/muster/kennwerte-wohnungsbau.md`, neu anzulegen), danach B5
+Revision `wohnen-mfh-urban.json`. — vorher 27.07.2026 (Etappe 3, **Baustein B2/B3 Wohnungsbau
+Tranche 2 — B3-Ziel Wohnungsbau ERREICHT, 8/8 established:** fuenf weitere externe
+Juryberichte in einem Lauf beschafft, destilliert und je unabhaengig refuter-verifiziert —
+koch-areal-albisrieden-altstetten, walkeweg-basel-genossenschaft-2, industriestrasse-luzern,
+waetterweid-arosa, brisgi-areal-baden. Damit sind fuer den Wohnungsbau alle Traegertypen des
+Sweeps abgedeckt (genossenschaftlich, stadt-gemeinde, privat-institutionell, Stiftung, gemischt
+Wohnen+Gewerbe) sowie erstmals ein alpiner Kontext (Arosa, GR) und ein Mehrfach-Baufeld-
+Verfahren (Koch-Areal, vier parallele Verfahren in einem Bericht). — vorher 26.07.2026
+(Etappe 3, **Baustein B1 Wohnungsbau
 erledigt — Quellen-Sweep
 `outputs/2026-07-26_etappe3-wohnungsbau-sweep.md`:** 6 Scouts (espazium/zuerich/bern-basel/
 luzern-ostschweiz/weitere-kantone/genossenschaften-stiftungen, WebSearch+curl-Verifikation)
@@ -158,6 +168,7 @@ Teil 2 Rang-Klaerung UND Teil 3 Muster-Verdichtung, siehe `training/PROGRAMM.md`
   Halden + Befund 11 «harte Vorgaben» am 24.07.2026 nachgetragen, noch nicht refuter-geprueft)
 - muster/jury-argumente-schulbauten.md — Jury-DNA Schul-/Bildungsbau: Kriterien-Rangordnung, Gewinner-Typologien je Aufgabe, 10 Siegargumente, K.-o.-Liste, Verfahrensmechanik; Basis erweitert von 11 auf **23** ausgewertete Fremd-Juryberichte + 3 eigene (Etappe-3-Schulbau-Sweep 14.07.2026, B4 abgeschlossen). Status **established** (Refuter-Erstlauf 13.07. «nicht bestanden», 10 Korrekturen eingearbeitet, fokussierter Zweitlauf 10/10 bestaetigt; Basis-Erweiterung 14.07. mit eigenem Verifikations-Hinweis im Artikel belegt)
 - muster/jury-argumente-healthcare.md — Jury-DNA Healthcare (Alters-/Pflege-/Gesundheitsbau): Kriterien-Rangordnung, Gewinner-Typologien je Subtyp (Spital/Klinik, Pflegeheim/Alterszentrum, Demenz-Sondertyp, Psychiatrie, betreutes Alterswohnen), 12 Siegargumente, K.-o.-Liste, Verfahrensmechanik, Skill-Massnahmen. Basis **8** ausgewertete Fremd-Juryberichte (subtyp-gespreizt: Spital 3×, Pflegeheim 3×, Psychiatrie/Alterswohnen je 1× = Einzelbeleg, im Text markiert). **Healthcare-Kernbefund:** betrieblich fehlerfrei + etappierbar-weiterbetreibbar + bewilligungsfähig (Brandschutz/Tageslicht) schlägt architektonischen Ausdruck. Status **established** (Etappe 3, Baustein B4, 25.07.2026: 5 Quellen-Shard-Refuter + 1 Konsistenz-Refuter bestanden; Kennwert-Zahl «Fünf»→«Sechs» harmonisiert, draft-Narrative nachgezogen)
+- muster/jury-argumente-wohnungsbau.md — Jury-DNA Wohnungsbau (gemeinnützig/genossenschaftlich/institutionell): Kriterien-Rangordnung (Kontextbezug → Wohnungsspiegel/Gemeinschaft → Bewilligungsfähigkeit → Wirtschaftlichkeit → Ausdruck), Gewinner-Typologien je Trägertyp (stadt-gemeindlich, genossenschaftlich, privat-institutionell, gemischt/Mehr-Bauherren-Areal als Einzelbeleg), 12 Siegargumente, K.-o.-Liste, Verfahrensmechanik (grösste Verfahrensvielfalt der drei Bauaufgaben: einstufig offen/selektiv, vier parallele Baufeld-Verfahren, zweistufig getrennt jurierte Disziplinen, Studienauftrag ohne Preisdifferenzierung), Skill-Massnahmen. Basis **8** ausgewertete Fremd-Juryberichte, trägertyp-gespreizt (genossenschaftlich 3×, stadt-gemeindlich/privat-institutionell je 2×, gemischt 1× = Einzelbeleg). **Wohnungsbau-Kernbefund:** Kontextbezug + Wohnungsspiegel-Konformität + Gemeinschaftskonzept entscheiden, Architektur/Fassade kostet fast nie allein den Sieg. Status **established** (Etappe 3, Baustein B4, 27.07.2026: 5 Quellen-Shard-Refuter + 1 Konsistenz-Refuter bestanden, rund 20 Korrekturen, Wätterweid-Seitenzahlen zusätzlich direkt gegen die Fussmarker im Rohextrakt nachgerechnet)
 - muster/kennwerte-schulbauten.md — **Kennwert-Benchmark Schul-/Bildungsbau (Etappe 3, Baustein B6, 20.07.2026):** Flaecheneffizienz HNF/GF **0.52–0.54** (zwei unabhaengige Quellen: Kantonsschule Wattwil Soll 0.532, eigene SIA-416-Abgabe 2507 Halden Ist 0.528), Klassenzimmer **64–75 m2** (Planungswert 75), Verhaeltnis **2 Klassenzimmer je Gruppenraum**, Cluster **3–4 Klassen je Geschoss**, Regelklasse **19–21 Schueler**, **900-m2-GF-Schwelle je Geschoss** als brandschutzgetriebener Typologie-Treiber (Muttenz + Steffisburg), Kostendach-Tabelle 10 Faelle, Neubau **1.6–1.8 Mio. CHF je Klassenzimmer** (Sonderschule 2.5), Vorpruefungs-Toleranz **±20 %** bei Finalisten-Spreizung 16–24 %. **Strukturbefund: CHF/m3 GV ist aus Schul-Juryberichten NICHT belegbar** (absolute GV-Werte in 1 von 25 Quellen) — bleibt bei `wissen/grobkosten/`. Basis 25 Quellen, **436 Kennzahlen geprueft / 431 bestaetigt / 5 verworfen**. Status **established** (25 Extraktions- + 25 unabhaengige Refuter-Agenten)
 - muster/kennwerte-healthcare.md — **Kennwert-Benchmark Healthcare (Etappe 3, Baustein B6, 25.07.2026):** Basis 12 Quellen (11 externe Juryberichte 2012–2025 + eigene Teilnahme 2101 KSSG Haus 14), Subtypen Spital/Klinik, Psychiatrie, Pflegeheim/Alterszentrum, Alterswohnen, gemischt — **strikt getrennt gefuehrt** (Betten eines Akutspitals sind kein Referenzwert fuer ein Pflegeheim). Belastbarster Kennwert: **Akutspital-Tragwerksraster 7.1–10.8 m** (9 Werte aus 2 Quellen; Schwerpunkt 7.5–8.4 m mit 7 von 9 Werten und beiden Siegerprojekten; die Jury beanstandet nur den unteren Rand — 7.1 m verunmoeglicht das Zweitbett im Notfall, 10.8 m gilt fuers Sockelgeschoss als angemessen), dazu die **Zimmerachse 4.20 m** als am besten belegter betrieblicher Grenzwert. **Strukturbefund wie Schulbau: keine CHF/m2- und CHF/m3-Kennwerte, keine Gebaeudevolumen, absolute Geschossflaechen in nur 2 von 11 externen Quellen** — die einzigen nach Geschossen und Flaechenarten aufgeschluesselten Absolutflaechen stammen aus der eigenen Abgabe 2101 (GF 3'417 m2, HNF 1'532 m2, NNF 113 m2, GV 10'922 m3, alle Summenproben aufgehend); fuer CHF/m3 bleibt `wissen/grobkosten/` fuehrend. **255 Zahlen geprueft / 218 bestaetigt / 37 verworfen** — die Refuter kippten dabei mehrere als Referenzband ausgegebene Auswahleffekte (Rasterband, Verfahrensband 7–10 Beitraege, Fensteranteil-Band, «einzige Flaecheneffizienz-Zahl»). Status **established** (4 Extraktions-Shards + 4 unabhaengige Refuter-Shards)
 - muster/jans-board-dna.md — grafische Handschrift der Abgabe-Boards + Vorgaben-Liste fuer den Agenten plakat-setzer; Basis 9 Board-Analysen. Status **established** (9 unabhaengige Quellen-Refuter 14.07.2026, 4 Korrekturen eingearbeitet: Plan-first-Zuordnung 2205, Werkplan-Vorbehalt 2205, Massstabsbeleg 2206, Alt-Neu-Praezisierung 2408)
@@ -246,10 +257,11 @@ HNF-Ziel 15'000 m2, Wohnungsspiegel mit HNF je Typ; refuter korrigierte 29 Stell
 bestaetigte die Kennwerte Zahl fuer Zahl sowie die Entscheidung, den laufenden Seitenmarkern
 statt dem um zwei Seiten versetzten Inhaltsverzeichnis zu folgen).
 
-**B3-Ziel Wohnungsbau 8/8 ERREICHT. Naechste Zelle: Wohnungsbau B4 Muster-Synthese**
-(`wiki/muster/jury-argumente-wohnungsbau.md`, neu anzulegen, 5 Quellen-Shard-Refuter +
-Konsistenz-Refuter), danach B6 Kennwert-Benchmark (`wiki/muster/kennwerte-wohnungsbau.md`)
-und B5 Revision von `entwurfs-referenzen/wiki/parameter-sets/wohnen-mfh-urban.json`.
+**B3-Ziel Wohnungsbau 8/8 ERREICHT. B4 Muster-Synthese abgeschlossen**
+(`wiki/muster/jury-argumente-wohnungsbau.md`, established, 5 Quellen-Shard-Refuter +
+Konsistenz-Refuter bestanden). **Naechste Zelle: Wohnungsbau B6 Kennwert-Benchmark**
+(`wiki/muster/kennwerte-wohnungsbau.md`, neu anzulegen), danach B5 Revision von
+`entwurfs-referenzen/wiki/parameter-sets/wohnen-mfh-urban.json`.
 
 Schul-/Bildungsbau 2012–2026: bruehl-solothurn, faellanden, froeschmatt-pratteln,
 heilpaedagogische-schule-bern, hinter-gaerten-riehen, kantonsschule-baden,

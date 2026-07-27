@@ -1,6 +1,6 @@
 ---
 title: "Jury-DNA Wohnungsbau (gemeinnützig/genossenschaftlich/institutionell) — was in Schweizer Wohnungsbau-Wettbewerben gewinnt (Synthese aus 8 ausgewerteten Juryberichten)"
-status: draft
+status: established
 last_updated: 2026-07-27
 sources:
   - "8 aktiv ausgewertete Referenz-Juryberichte in wiki/extern/ (2014–2023, Wohnungsbau: stadt-gemeindlich, genossenschaftlich, privat-institutionell, gemischt), trägertyp-gespreizt, aber pro Trägertyp schmale Basis (siehe Verifikations-Hinweis)"
@@ -48,7 +48,7 @@ oder Topografie), **Wohnungsspiegel-/Mix-Konformität** und **Gemeinschaftskonze
 und Fassadenausdruck werden zwar gewürdigt, kosten aber praktisch nie allein den Sieg und
 werden selbst beim Sieger regelmässig als «noch zu schärfen»/«zurückhaltend» kritisiert (milet:
 «eher geringe Wohnungsvielfalt», [[extern/jurybericht-reichenbachstrasse-118-bern]], S. 29;
-DREI RÖSLI: «Fassaden … wirken zu bescheiden», [[extern/jurybericht-waetterweid-arosa]], S. 20;
+DREI RÖSLI: «Fassaden … wirken zu bescheiden», [[extern/jurybericht-waetterweid-arosa]], S. 19;
 mon oncle: die Grenzabstandsunterschreitung explizit als «korrigierbar» toleriert,
 [[extern/jurybericht-industriestrasse-luzern]], S. 29). Wirtschaftlichkeit wird dagegen in den
 meisten Berichten **nicht** über absolute CHF/m²- oder CHF/m³-Kennwerte, sondern über die
@@ -56,10 +56,14 @@ Einhaltung eines vorab definierten Kostenziels (verbal oder als %-Abweichung) bz
 HNF/GF-Relation verhandelt — echte Absolutkennwerte publizieren nur zwei der acht Berichte
 (Reichenbachstrasse: CHF 3'800.-/m² GF BKP 1-5; Koch-Areal: CHF/m² HNF je Baufeld).
 
-**Verifikations-Hinweis (27.07.2026):** Diese Fassung ist **`draft`** — sie ist aus den acht
-Rohdestillaten selbst synthetisiert, hat aber noch keine eigene Refuter-Welle gegen die
-Rohextrakte durchlaufen (folgt als nächster Schritt nach Fertigstellung dieses Artikels, analog
-Healthcare). Die Basis ist trägertyp-gespreizt, pro Typ aber schmal: genossenschaftlich stützt
+**Verifikations-Hinweis (27.07.2026):** Diese Fassung ist **`established`** — sie durchlief eine
+Refuter-Welle aus fünf parallelen Quellen-Shard-Refutern gegen die acht Original-Text-Extrakte
+plus einen abschliessenden Konsistenz-Refuter (Rule 260714, analog Healthcare). Die Wätterweid-
+Zitate erwiesen sich dabei als besonders fehleranfällig (die Quelle nummeriert Seiten über einen
+Fussmarker, der VOR statt NACH dem zugehörigen Fliesstext steht — mehrere Refuter-Durchgänge
+missverstanden diese Konvention zunächst in unterschiedliche Richtungen); alle betroffenen
+Seitenangaben wurden zusätzlich direkt gegen die Fussmarker im Rohextrakt nachgerechnet und
+korrigiert. Die Basis ist trägertyp-gespreizt, pro Typ aber schmal: genossenschaftlich stützt
 sich auf 3 Quellen (robuster), stadt-gemeindlich, privat-institutionell und gemischt je auf nur
 2 bzw. 1 Quelle — Muster, die nur aus einer einzelnen Quelle stammen (insbesondere der alpine
 Kontext Wätterweid und der Vier-Verfahren-Sonderfall Koch-Areal), sind unten ausdrücklich als
@@ -84,7 +88,7 @@ zusätzlich je Baufeld unterschiedlich besetzte Kriterienkataloge, vgl.
    gestaffelter Bestandeserhalt goutiert bei mon oncle UND beim 2.-Rang-Projekt, vgl.
    [[extern/jurybericht-industriestrasse-luzern]], S. 29-30/40). Im alpinen Kontext übernimmt die
    Topografie-Reaktion (Terrassierung entlang der Höhenlinien) diese Funktion (Wätterweid DREI
-   RÖSLI, vgl. [[extern/jurybericht-waetterweid-arosa]], S. 18/21). Wer die Setzung nicht löst,
+   RÖSLI, vgl. [[extern/jurybericht-waetterweid-arosa]], S. 17/20). Wer die Setzung nicht löst,
    scheidet im 1. Rundgang aus (Guggach II: fünf Projekte scheiden im 1. Rundgang wegen
    städtebaulicher/architektonischer Schwächen bzw. baurechtlicher Verstösse aus — nur Chocolate
    vereint beide Mängel gleichzeitig, vgl. [[extern/jurybericht-guggach-ii-unterstrass]], S. 11/60).
@@ -94,7 +98,7 @@ zusätzlich je Baufeld unterschiedlich besetzte Kriterienkataloge, vgl.
    Höfe: Wohnungszahl-Zielwert unabhängig vom Rang gewürdigt, selbst beim Sieger als Rüge
    festgehalten, vgl. [[extern/jurybericht-seebahn-hoefe-aussersihl]], S. 15). Eine deutliche
    Unterschreitung der Wohnungszahl kann selbst ein architektonisch gelobtes Projekt vom 1. Rang
-   fernhalten (Wätterweid Quartett, vgl. [[extern/jurybericht-waetterweid-arosa]], S. 27).
+   fernhalten (Wätterweid Quartett, vgl. [[extern/jurybericht-waetterweid-arosa]], S. 26).
    Gemeinschaft wird dort, wo sie Bauherrenauftrag ist (Genossenschaften), als eigenständiges,
    mehrschichtig zu inszenierendes Kriterium gewertet (Koch-Areal Baufeld B: MOERAKI hat «den
    reichsten Bogen gespannt» gegen die auf eine Zone konzentrierte Lösung PLEIN SOLEIL, vgl.
@@ -113,7 +117,7 @@ zusätzlich je Baufeld unterschiedlich besetzte Kriterienkataloge, vgl.
    städtebauliche Stärke zu mindern» eingestuft, die separat benannte brandschutzrelevante
    Fassadenabstands-Kritik dagegen ohne diese ausdrückliche Milderung, S. 29; Wätterweid:
    Nachsicht bei mehreren Überschreitungen, begründet mit dem Druck, trotz knapper Parzelle
-   preisgünstige Wohnungen anzubieten, S. 11).
+   preisgünstige Wohnungen anzubieten, S. 10).
 4. **Wirtschaftlichkeit über Kostenziel-Einhaltung/HNF-GF-Effizienz** — der Korrektor der
    Endrunde, in den meisten Berichten nur relativ/qualitativ ausgewiesen. Ein absolutes,
    vorab definiertes Kostenziel (CHF/m² GF nach BKP) wird bei jedem Projekt einzeln verbal
@@ -126,7 +130,7 @@ zusätzlich je Baufeld unterschiedlich besetzte Kriterienkataloge, vgl.
 5. **Architektonischer Ausdruck / Materialisierung** — nachrangig. Wird beim Sieger regelmässig
    als Entwicklungspunkt vermerkt, nie aber als eigenständiger Ausschlussgrund verwendet (milet
    «Weiterentwicklung des Bestehenden», nicht avantgardistisch, S. 29; DREI RÖSLI «Fassaden …
-   zurückhaltend», S. 20; Werden & Wandeln «solid, aber wenig überraschend», S. 19) — rettet
+   zurückhaltend», S. 19; Werden & Wandeln «solid, aber wenig überraschend», S. 19) — rettet
    umgekehrt aber auch kein städtebaulich/funktional unterlegenes Projekt.
 
 Konsequenz für JANS: Ein Wohnungsbau-Beitrag muss auf Ebene 1, 2 und 3 fehlerfrei sein.
@@ -140,7 +144,7 @@ Architektur und Materialisierung entscheiden fast nie den Sieg allein, entscheid
 | Element | Prämiertes Muster | Belege |
 |---|---|---|
 | Grundtypologie | **Weiterbauen am Bestandsensemble** (Solitär-Cluster um gemeinsamen Hof, Höhenstaffelung aus dem Bestand abgeleitet) ODER bei alpinem Steilhang **terrassiertes Ensemble entlang der Höhenlinien** | Reichenbachstrasse milet (vier Solitäre um zentralen Hof, Weiterbauen-Strategie, [[extern/jurybericht-reichenbachstrasse-118-bern]], S. 28); Wätterweid DREI RÖSLI (drei rhythmisch abgetreppte Häuser in den Steilhang, [[extern/jurybericht-waetterweid-arosa]], S. 17-18) |
-| Erschliessung | **Zentraler, gefasster Hofraum** als Zugang (Flachland) bzw. **Treppenhaus je Haus direkt von der Quartierstrasse** (Hanglage) | milet, mittige Vertikalerschliessungskerne je Gebäude (S. 28-29); DREI RÖSLI, Autolift entlastet die Quartierstrasse (S. 18), Treppenhaus je Haus direkt von der Quartierstrasse (S. 19) |
+| Erschliessung | **Zentraler, gefasster Hofraum** als Zugang (Flachland) bzw. **Treppenhaus je Haus direkt von der Quartierstrasse** (Hanglage) | milet, mittige Vertikalerschliessungskerne je Gebäude (S. 28-29); DREI RÖSLI, Autolift entlastet die Quartierstrasse (S. 17), Treppenhaus je Haus direkt von der Quartierstrasse (S. 18) |
 | Wirtschaftlichkeit | An einem **absoluten, vorab definierten Kostenziel** gemessen und projektweise verbal eingeordnet | Reichenbachstrasse: CHF 3'800.-/m² GF BKP 1-5, unabhängige externe Kostenprüfung (S. 17) |
 
 Regel stadt-gemeindlich: Der Sieger löst den Kontextbezug (Bestand oder Topografie) konsequent.
@@ -148,7 +152,7 @@ Bei Reichenbachstrasse wird der Sieger zusätzlich fast durchgehend für **zu ge
 Wohnungsvielfalt innerhalb der gewählten Typologie** gerügt — ein Nachteil, der den 1. Rang nicht
 verhindert, aber als Weiterbearbeitungspunkt festgehalten wird (S. 29). Bei Wätterweid betreffen
 die Kritikpunkte am Sieger dagegen Grundriss-/Raumproportionsdetails (zu grosses Eckzimmer,
-unproportionierte Räume, S. 18-19), während der Wohnungsmix selbst als «umsetzbar» gilt (S. 21) —
+unproportionierte Räume, S. 18-19), während der Wohnungsmix selbst als «umsetzbar» gilt (S. 20) —
 die beiden Berichte zeigen hier unterschiedliche, nicht identische Kritikmuster.
 
 ### 2.2 Genossenschaftlich (3 Quellen)
@@ -211,7 +215,7 @@ stark Gemeinschaft/Mitbestimmung als eigenständiges Kriterium gewichtet wird.
    Bei praktisch jedem gewürdigten Projekt eines Ersatzneubaus wird die neue Setzung gegen
    Struktur/Körnung/Geometrie des unmittelbaren Bestands gemessen (Reichenbachstrasse, alle
    sieben Ränge, S. 28-88); im alpinen Kontext übernimmt die Topografie-Reaktion diese Rolle
-   (Wätterweid DREI RÖSLI S. 18/21, Quartett S. 24, ZAI S. 33 — nicht bei allen 9 Projekten belegt,
+   (Wätterweid DREI RÖSLI S. 17/20, Quartett S. 24, ZAI S. 32 — nicht bei allen 9 Projekten belegt,
    siehe Offene Punkte).
 2. **Wirtschaftlichkeit an einem vorab definierten Kostenziel messen und projektweise verbal
    einordnen — wo kein CHF-Wert publiziert wird, an der HNF/GF-Relation.** Reichenbachstrasse
@@ -220,7 +224,7 @@ stark Gemeinschaft/Mitbestimmung als eigenständiges Kriterium gewichtet wird.
 3. **Wohnungsspiegel/-mix als hartes, bei fast jedem Projekt explizit geprüftes
    Konformitätskriterium — auch beim Sieger als Defizit benannt.** Reichenbachstrasse S. 29/49-89;
    Seebahn-Höfe Wohnungszahl-Zielwert S. 15; Wätterweid Quartett trotz Qualität wegen zu tiefer
-   Wohnungszahl nicht auf Rang 1 (S. 27).
+   Wohnungszahl nicht auf Rang 1 (S. 26).
 4. **Vielfältiges, verwandtes Wohnungsangebot wird einer konsequent durchoptimierten
    Einheitstypologie vorgezogen — als Mietbarkeits-/Marktkriterium, nicht nur gestalterisch.**
    Guggach II S. 13; Industriestrasse mon oncle «Molekular- bis Clusterwohnung» als «grosse
@@ -230,10 +234,10 @@ stark Gemeinschaft/Mitbestimmung als eigenständiges Kriterium gewichtet wird.
    Werden & Wandeln Lobbys/Waschsalon (S. 19).
 6. **Klare, eindeutige Adressbildung (torartig, Vorzone, Erschliessungsfigur) wird bei praktisch
    jedem Projekt eigens gewürdigt, unabhängig vom sonstigen Rang.** Guggach II S. 20/28/36/44-45/
-   52/92/100; Wätterweid DREI RÖSLI «klar adressiert» S. 21; Brisgi S. 18/26/44.
+   52/92/100; Wätterweid DREI RÖSLI «klar adressiert» S. 20; Brisgi S. 18/26/44.
 7. **Mehrseitige Orientierung/Ausblick UND Besonnung gemeinsam als Wohnqualität — die klassische
    Südausrichtungs-Doktrin wird bei ungünstiger Kontextlage (Verschattung, Waldrand, Hanglage)
-   explizit relativiert.** Guggach II S. 13/36-37; Wätterweid DREI RÖSLI S. 19, Abusitz S. 30.
+   explizit relativiert.** Guggach II S. 13/36-37; Wätterweid DREI RÖSLI S. 20, Abusitz S. 29.
 8. **Nachhaltigkeitszertifizierung (Minergie-P/2000-Watt) wird bei jedem Projekt individuell auf
    Erreichbarkeit geprüft — «erreichbar, aber noch nicht vollumfänglich erfüllt» genügt meist.**
    Reichenbachstrasse S. 29/39/79; Seebahn-Höfe S. 4-5; Guggach II S. 21/29/36-37/45/53/61/68-69/
@@ -276,7 +280,7 @@ stark Gemeinschaft/Mitbestimmung als eigenständiges Kriterium gewichtet wird.
 - **Wohnungszahl deutlich unter der programmatischen Zielgrösse — wiegt selbst hohe
   Grundrissqualität nicht auf.** Wätterweid Quartett: «bleibt die Anzahl Wohnungen … so weit
   unter den Anforderungen … dass die Vorteile … nicht wettgemacht werden können»,
-  [[extern/jurybericht-waetterweid-arosa]], S. 27.
+  [[extern/jurybericht-waetterweid-arosa]], S. 26.
 - **Introvertierte, nach aussen abgeschottete Grossform ohne Quartierbezug.** Koch-Areal Henry/
   Heavy Duty/Cedric «zu wenig in Bezug zum Umfeld» S. 32; Industriestrasse La Bussola «wirkt im
   Quartier generell fremd» S. 105.
@@ -306,7 +310,7 @@ stark Gemeinschaft/Mitbestimmung als eigenständiges Kriterium gewichtet wird.
 Dachraum im Dämmperimeter als Kostentreiber (Seebahn-Höfe, S. 15/47); zu kleine
 Begegnungszonen/Restflächen-Charakter des Hofs (Guggach II Santorin trotz 1. Rang, S. 20); teure
 Sondererschliessung (Autolift, Hangsicherung) auch beim Sieger gegen Kosten abgewogen (Wätterweid
-DREI RÖSLI, Hangsicherung S. 19, Autolift S. 21).
+DREI RÖSLI, Hangsicherung S. 18, Autolift-Kostenkritik im Gesamturteil S. 20).
 
 ## 5. Verfahrens-Mechanik (taktisch)
 
@@ -342,7 +346,7 @@ DREI RÖSLI, Hangsicherung S. 19, Autolift S. 21).
   S. 17; Seebahn-Höfe S. 15; Guggach II S. 13; Koch-Areal S. 40-43; Walkeweg S. 12; Industriestrasse
   S. 16 [sechs Punkte]; Brisgi S. 16 [sechs Punkte]). Einzige Ausnahme: Wätterweid, dort besteht
   Kapitel 6 «Empfehlungen» nur aus einem einzigen generischen Satz ohne itemisierte Auflagenliste
-  (S. 15) — die impliziten Auflagen ergeben sich nur aus den Kritikpunkten der Gesamtwürdigung
+  (S. 14) — die impliziten Auflagen ergeben sich nur aus den Kritikpunkten der Gesamtwürdigung
   (S. 18-20). Ein «perfekter» Beitrag ist die Ausnahme; erwartet wird ein tragfähiges Konzept mit
   benannten, lösbaren Restpunkten.
 - **Kostenbenchmarks im Programm (CHF/m² HNF, differenziert nach Nutzungsart) führen bei
@@ -381,10 +385,12 @@ DREI RÖSLI, Hangsicherung S. 19, Autolift S. 21).
 
 ## Offene Punkte
 
-- **Refuter-Welle noch ausstehend.** Diese Synthese ist `draft` und wurde direkt aus den acht
-  bereits einzeln refuter-geprüften Rohdestillaten kompiliert; eine eigene Quellen-Shard- plus
-  Konsistenz-Refuter-Welle gegen die Synthese-Aussagen selbst (analog Healthcare, fünf Shards +
-  ein Konsistenz-Durchgang) steht noch aus und ist der nächste Baustein.
+- **Refuter-Welle durchlaufen (27.07.2026).** Diese Synthese durchlief fünf parallele Quellen-
+  Shard-Refuter gegen die acht Original-Text-Extrakte plus einen abschliessenden Konsistenz-
+  Refuter und wurde auf `established` gehoben (analog Schulbau/Healthcare). Insgesamt rund 20
+  Korrekturen eingearbeitet (Seitenzahlen, zwei überdehnte Verallgemeinerungen, ein als Zitat
+  ausgewiesenes Paraphrase korrigiert); die Wätterweid-Quelle brauchte wegen ihrer Vor-Marker-
+  Paginierung eine zusätzliche direkte Nachrechnung gegen die Fussmarker im Rohextrakt.
 - **Dünnster Trägertyp: gemischt/Mehr-Bauherren-Areal — nur EINE Quelle (Koch-Areal).** Alle
   Muster in Abschnitt 2.4 (Abrücken vom Bestand als Gemeinschaftsqualität, parallele Jurierung im
   Gesamtmodell, Kostenbenchmark-Auflage statt Ausschluss) sind Einzelbeleg und dürfen nicht als

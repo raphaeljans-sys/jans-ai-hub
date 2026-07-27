@@ -1,5 +1,41 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-27 — Etappe 3, B4 Wohnungsbau Muster-Synthese: `jury-argumente-wohnungsbau.md` established
+- Neuer Artikel `wiki/muster/jury-argumente-wohnungsbau.md` aus den 8 established Wohnungsbau-
+  Juryberichten synthetisiert (Reichenbachstrasse Bern, Seebahn-Höfe Zürich, Guggach II Zürich,
+  Koch-Areal Zürich, Walkeweg Basel, Industriestrasse Luzern, Wätterweid Arosa, Brisgi-Areal
+  Baden). Struktur analog Schulbau/Healthcare: Kriterien-Rangordnung (1. Kontextbezug/Setzung,
+  2. Wohnungsspiegel-/Mix-Konformität + Gemeinschaft, 3. Bewilligungsfähigkeit als Schwelle,
+  4. Wirtschaftlichkeit ueber Kostenziel/HNF-GF, 5. architektonischer Ausdruck nachrangig),
+  Gewinner-Typologien je Traegertyp (stadt-gemeindlich/genossenschaftlich/privat-institutionell/
+  gemischt), 12 wiederkehrende Siegargumente, K.-o.-Liste, Verfahrens-Mechanik, Skill-
+  Massnahmen fuer `machbarkeit`/`grobkosten-onepager`/`ausschreibung`.
+- **Wohnungsbau-Kernbefund:** anders als Healthcare (betriebliche Fehlerfreiheit entscheidet)
+  gewinnt im Wohnungsbau das Zusammenspiel aus Kontextbezug (Weiterbauen/Bestand oder
+  Topografie), Wohnungsspiegel-Konformitaet und Gemeinschaftskonzept; Architektur/Fassade wird
+  selbst beim Sieger fast durchgehend als Entwicklungspunkt vermerkt, kostet aber praktisch nie
+  allein den Sieg.
+- **Verifikation:** 5 parallele Quellen-Shard-Refuter gegen die Original-Text-Extrakte
+  (Reichenbachstrasse+Seebahn-Höfe / Guggach+Brisgi / Koch-Areal / Walkeweg+Industriestrasse /
+  Wätterweid) plus 1 abschliessender Konsistenz-Refuter. Rund 20 Korrekturen eingearbeitet:
+  zwei überdehnte Verallgemeinerungen (Mischbauweise-Anteil bei Reichenbachstrasse — der Sieger
+  selbst ist reiner Massivbau; Guggach-II-Ausscheidungsgrund faelschlich auf fuenf statt ein
+  Projekt bezogen), ein als woertliches Zitat ausgewiesenes Paraphrase (Walkeweg «über den
+  walken»/«Die Libellen»), mehrere Seitenzahl-Korrekturen. **Wätterweid Arosa erwies sich als
+  besonders fehleranfaellig**: die Quelle paginiert ueber einen Fussmarker, der VOR statt NACH
+  dem zugehoerigen Fliesstext steht — zwei aufeinanderfolgende Refuter-Durchgaenge (Quellen-Shard
+  und Konsistenz-Refuter) verstanden diese Konvention in unterschiedliche Richtungen und lieferten
+  einander widersprechende Seitenzahlen; erst eine direkte Nachrechnung gegen die Fussmarker im
+  Rohextrakt (Marker N liegt vor dem Text von Seite N) loeste den Widerspruch auf und lieferte die
+  finalen, konsistent gegengepruften Seitenangaben. Lehre: bei Quellen mit ungewoehnlicher
+  Paginierungs-Konvention lohnt sich ein einmaliger expliziter Marker-Test zu Beginn, statt die
+  Konvention bei jedem Zitat neu zu erraten — Kandidat fuer eine QUESTIONS-Notiz/Skill-Hinweis.
+- Bookkeeping: `wiki/INDEX.md` (Kopf-Stand + Muster-Sektion), `wiki/QUESTIONS.md` (Sonderfall-
+  Frage Koch-Areal/Industriestrasse als geklaert markiert), `training/ETAPPE-3.md` (Stand-Tabelle
+  + Lauf-Log) nachgefuehrt.
+- Naechste Zelle: **Wohnungsbau B6 Kennwert-Benchmark** (`wiki/muster/kennwerte-wohnungsbau.md`,
+  neu anzulegen), danach B5 Revision `entwurfs-referenzen/wiki/parameter-sets/wohnen-mfh-urban.json`.
+
 ## 2026-07-27 — Etappe 3, B2/B3 Wohnungsbau Tranche 2: B3-Ziel Wohnungsbau 8/8 ERREICHT
 - Fuenf externe Juryberichte in einem Vollgas-Lauf beschafft, destilliert und je unabhaengig
   refuter-verifiziert (10 Agenten: 5 Destillation Sonnet parallel, 5 Refuter Hauptmodell
