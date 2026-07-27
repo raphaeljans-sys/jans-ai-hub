@@ -1,5 +1,29 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-27 — Etappe 3 Wohnungsbau B2/B3 Tranche 1 (3 Destillate, alle established)
+- Aus der B1-Reserveliste (`outputs/2026-07-26_etappe3-wohnungsbau-sweep.md`, empfohlener
+  9er-Batch) traeger-gespreizt beschafft: **reichenbachstrasse-118-bern** (stadt-gemeinde,
+  Bern 2017/2018, Sieger «milet» Büro B Architekten AG), **seebahn-hoefe-aussersihl**
+  (genossenschaftlich, Zuerich-Aussersihl 2016, ABZ+BEP, Sieger «PINARELLO» Harder
+  Spreyermann Architekten), **guggach-ii-unterstrass** (privat-institutionell, Pensionskasse
+  der UBS, Zuerich-Unterstrass, Sieger «Santorin» Knapkiewicz & Fickert).
+- Alle drei PDFs vorab per curl HTTP-200 + %PDF-Signatur verifiziert, mit `pdftotext -layout`
+  ueber der OCR-Schwelle extrahiert (1'016–2'173 Zeichen/Seite, alle deutlich > 400).
+- Direkt per Agent-Tool orchestriert (3 Destillations-Agenten Sonnet parallel im Hintergrund,
+  danach 3 unabhaengige Refuter-Agenten Hauptmodell parallel im Hintergrund; 6 Agenten,
+  0 Fehler): Reichenbachstrasse 118 (Refuter fand 17 Korrekturen, v.a. systematische
+  Seitenzahl-Drift Team-/Credits-Seite vs. Fliesstext-Seite bei 6 der 7 rangierten Projekte,
+  plus 1 unbelegte Zusatzbehauptung zum Ausstand entfernt), Seebahn-Höfe (7 Korrekturen,
+  u.a. falsche Sachpreisrichter-Zaehlung, 2 sachliche Rang-Zuordnungsfehler in den
+  Verallgemeinerbaren Regeln), Guggach II (3 Korrekturen an 8 Stellen, u.a. Ersatzmitglied-
+  Status Sachjury, Seitenzahl-Drift beim Adèle-35- und Forest-Flower-Sunrise-Spread;
+  Preisgerichtsdatum von "ca. 2014" auf 09.05./02.06.2014 praezisiert und refuter-bestaetigt).
+- **Wohnungsbau B3 nun 3/8.** Naechste Zelle: B2/B3 Tranche 2 (empfohlene Fortsetzung aus
+  dem Sweep-Batch: koch-areal-albisrieden-altstetten, walkeweg-basel-genossenschaft-2,
+  industriestrasse-luzern, waetterweid-arosa, brisgi-areal-baden).
+- INDEX.md (Sektion «Externe Referenz-Juryberichte») und ETAPPE-3.md (Stand-Tabelle +
+  Lauf-Log) nachgefuehrt.
+
 ## 2026-07-26 — Etappe 3 Wohnungsbau B1 Quellen-Sweep (Vollgas-Zyklus)
 - Neuer Report `outputs/2026-07-26_etappe3-wohnungsbau-sweep.md`: 6 parallele Scout-Agenten
   (espazium/zuerich/bern-basel/luzern-ostschweiz/weitere-kantone/genossenschaften-stiftungen)

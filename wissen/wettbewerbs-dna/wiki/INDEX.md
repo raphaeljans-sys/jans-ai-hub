@@ -163,7 +163,7 @@ Teil 2 Rang-Klaerung UND Teil 3 Muster-Verdichtung, siehe `training/PROGRAMM.md`
   `grobkosten-onepager` (JANS-Grobkosten-Vorlagen). **Erfuellt den letzten offenen
   Endbedingung-Punkt Etappe 2** (Bild-Katalog indexiert).
 
-## Externe Referenz-Juryberichte (wiki/extern/) — 23/23 established (Schulbau) + 11 established (Healthcare, B3-Ziel 8 uebertroffen)
+## Externe Referenz-Juryberichte (wiki/extern/) — 23/23 established (Schulbau) + 11 established (Healthcare, B3-Ziel 8 uebertroffen) + 3 established (Wohnungsbau, B3 3/8)
 
 Healthcare (Alters-/Pflege-/Gesundheitsbau), alle established: kantonsspital-aarau-ksa (spital-klinik,
 Sieger «Dreiklang»), alterszentrum-sihlsana-adliswil (pflegeheim, Sieger «SOPHIE»),
@@ -189,6 +189,24 @@ Exklusivitaets-Behauptungen), kjpk-upk-basel (psychiatrie/Kinder- und Jugendpsyc
 43 Beitraege; refuter korrigierte 17 Stellen inkl. systematischer Seiten-Drift −1 bei allen sieben
 Team-Steckbriefen). **B3-Ziel 8 uebertroffen (11 established) — naechste Zelle Healthcare B6
 (Kennwert-Benchmark kennwerte-healthcare).**
+
+Wohnungsbau 2016–2018, alle established (Etappe-3-Sweep 26.07.2026, B2/B3 Tranche 1
+27.07.2026): reichenbachstrasse-118-bern (stadt-gemeinde, Wohnueberbauung Reichenbachstrasse
+118 Bern 2017/2018, ca. 100 preisguenstige Wohnungen + Bibliothek/Kita, Sieger «milet»
+Büro B Architekten AG; refuter korrigierte 17 Stellen, v.a. systematische Seitenzahl-Drift
+Team-/Credits-Seite vs. Fliesstext-Seite bei sechs der sieben rangierten Projekte, plus
+1 unbelegte Zusatzbehauptung entfernt), seebahn-hoefe-aussersihl (genossenschaftlich,
+Wohnsiedlung Seebahnstrasse Zuerich-Aussersihl 2016, ABZ+BEP, ~350 Wohnungen,
+Gestaltungsplan-Verfahren, Sieger «PINARELLO» Harder Spreyermann Architekten; refuter
+korrigierte 7 Stellen, u.a. Sachpreisrichter-Zaehlung und zwei sachliche Rang-/
+Zuordnungsfehler in den Verallgemeinerbaren Regeln), guggach-ii-unterstrass
+(privat-institutionell, Wohnueberbauung Guggach II Zuerich-Unterstrass, Pensionskasse der
+UBS, Sieger «Santorin» Knapkiewicz & Fickert, Preisgerichtsdatum praezisiert auf
+09.05./02.06.2014; refuter korrigierte 3 Fehler an 8 Textstellen, v.a. Ersatzmitglied-
+Status Sachjury und Seitenzahl-Drift). **Naechste Zelle: Wohnungsbau B2/B3 Tranche 2**
+(Ziel B3 8/8; empfohlener Batch in `outputs/2026-07-26_etappe3-wohnungsbau-sweep.md`:
+koch-areal-albisrieden-altstetten, walkeweg-basel-genossenschaft-2, industriestrasse-luzern,
+waetterweid-arosa, brisgi-areal-baden).
 
 Schul-/Bildungsbau 2012–2026: bruehl-solothurn, faellanden, froeschmatt-pratteln,
 heilpaedagogische-schule-bern, hinter-gaerten-riehen, kantonsschule-baden,
