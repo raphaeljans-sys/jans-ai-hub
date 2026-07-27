@@ -286,3 +286,26 @@ destillierbares Material erwartet). Naechste Rueckwaerts-Fenster gemaess Empfehl
 `rj@` Sept–Dez 2025 in Luecken pruefen, `rj@` Feb–Jun 2026 in Luecken pruefen (trotz durchgehender
 Batch-Nummerierung moeglich, dass einzelne Tage/Threads beim sequenziellen Sweep uebersprungen
 wurden, vgl. den Fidelity-Fund vom 11.08./14.08.2025).
+
+| `260727-mailbatch-80.md` | **Luecken-Sweep `rj@` September 2025** (Empfehlung 260727j/Fidelity
+260727k): Fenster 2025-09-01 bis 2025-09-12 vollstaendig gelistet (92 Sent Items), gezielt gegen
+den bereits im Wiki destillierten Bestand (Batch 12/13, Fidelity k) abgeglichen, um echte Luecken
+statt Doppelverarbeitung zu finden. 7 Kandidaten-Volltexte gelesen; 4 stellten sich als **bereits
+destilliert** heraus (Winterberg/Frick-Honorarofferte inkl. Pool-Nutzen-Zweifel = fachsignatur/
+haltung/stimme/arbeitsweise Batch 12; Farb-/Materialkonzept Stefan Tschopp = fachsignatur Zeile 64
+Batch 13; Rauspressen-Thread Yorck = bereits als Augpunkt-/Korrex-Beleg erfasst; Sam-Chermeyeff-
+Weiterleitung an Claudia Klein = zu duenn, kein Marker). 3 echte Luecken destilliert: Ankaufspruefung
+Ebmatingen an Christoph Bopp (Du, 02.09., doppelter Gruss-Block), zwei Design-Referenz-Nullform-
+Mails an Yorck von Dietze (Du, 03.09. Geländer/Mensch-AG-Referenz + 08.09. Möbel-Referenzen Prova/
+Sigma/Hay, beide ohne jede Rahmung). Mikro-Metrik ueber die 3 destillierten Mails (63 W,
+stilmetrik.py): Du-Gross-Quote 0.5, Satzlaenge ø 21.0 W, Anreden «Hoi York»/«Geschaetzter
+Christoph», Gruss «Beste Gruesse» 1x. Keine Echo-Falle (alle drei knapp/roh, keine KI-Paste-Merkmale).
+Methodischer Befund: der Luecken-Sweep-Ansatz (gegen bereits destillierten Bestand abgleichen statt
+blind neu zu lesen) ist deutlich effizienter als vollstaendiges Neu-Sichten eines Fensters — 4 von 7
+Kandidaten waren bereits erfasst, ohne Abgleich waeren das Doppel-Destillate geworden. | authentisch
+(klar handgetippt, roh/knapp) | ja (fachsignatur **neu** Design-Referenz-Nullform ohne jede Rahmung
+zwei Belege Yorck; stimme **neu** doppelter Gruss Beste-Gruesse+Signaturblock im Investor-Du) |
+
+**Naechster rj@-Luecken-Sweep:** restliches September 2025 (13.–30.09. bereits via Batch 13/14
+abgedeckt, aber ebenfalls nur stichprobenartig "5 Volltexte von 15/40 gesichtet" — weitere
+Kandidaten-Volltexte dort moeglich) sowie Oktober–Dezember 2025 gemaess Empfehlung 260727j.

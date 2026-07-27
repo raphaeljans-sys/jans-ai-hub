@@ -4,6 +4,18 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-27 — `twin-mail-training` (Batch 80, Luecken-Sweep `rj@` September 2025).**
+  Fortsetzung der Empfehlung 260727j/260727k: statt eines weiteren Vorwaerts- oder blinden
+  Rueckwaerts-Sweeps das Fenster 2025-09-01..12 (92 Sent Items) gezielt gegen den bereits im
+  Wiki destillierten Bestand abgeglichen, um echte Luecken zu finden. 7 Kandidaten gelesen, 4
+  bereits erfasst (Frick/Winterberg-Honorarofferte, Farb-/Materialkonzept Tschopp, Rauspressen-
+  Yorck-Thread, duenner Sam-Chermeyeff-Fwd), 3 neue Belege destilliert: fachsignatur (Design-
+  Referenz in absoluter Nullform, zwei Yorck-Mails ohne jede Rahmung: Geländer/Mensch-AG-Referenz
+  + Möbel-Referenzen Prova/Sigma/Hay), stimme (doppelter Gruss „Beste Gruesse"+voller
+  Signaturblock im Investor-Du an Bopp). Mikro-Metrik (63 W): Du-Gross 0.5, Satzlaenge ø 21.0 W.
+  Methodischer Befund: Luecken-Abgleich vor dem Lesen spart Doppel-Destillate. `_INGESTED.md`
+  fortgeschrieben, naechstes Fenster: restliches September 2025 + Q4 2025.
+
 - **2026-07-27 — `twin-fidelity-review` (Runde 260727k, elfter Lauf des Tages, Rueckwaerts-
   Sweep rj@ September 2025 angerissen).** Kollisions-Check vor Beginn: der einzige gefundene
   `claude -p`-Prozess war die eigene Traegersession (PPID-Verifikation), kein echter Standoff.

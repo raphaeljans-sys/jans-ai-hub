@@ -3,7 +3,7 @@ title: Fachsignatur
 status: established
 last_updated: 2026-07-27
 gewichtung: authentisch
-sources: [260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -1523,3 +1523,32 @@ Gewichtung: authentisch (mail@raphaeljans.ch, Rückwärts-Sweep, siehe [[stimme]
   must be completely excluded this time» — direkte Lehre aus einem vorangegangenen Vorfall (die alte
   Website wurde wegen Malware-Befall vom Hoster gesperrt) wird als klare Bedingung an den neuen
   Auftrag gestellt, nicht als vage Wunschformulierung.
+
+## Design-Referenz in absoluter Nullform — Link ohne jede Rahmung (belegt Mailbatch 80, authentisch, offen/Einzelbeleg)
+
+Zwei bisher ungezogene rj@-Mails an Yorck von Dietze (3D-Freelancer, engster Peer-Du) im
+September-2025-Fenster zeigen die «zweite Säule» (Design-Referenz statt Floskel) in ihrer
+knappsten belegten Form — noch unter der bereits dokumentierten Nullform-Familie, weil selbst
+die Anrede/der Gruss vollständig fehlt:
+
+- **«Geländer auf dem Obersten Dach wie Rolladen von Mensch AG: aber vertikale Lattenrichtung»**
+  (03.09.2025) — der komplette Mailinhalt besteht aus Betreffzeile + Referenz-URL
+  (menschag.ch/Projektbeispiel) + einem einzigen praezisierenden Nachsatz zur Lattenrichtung.
+  Keine Anrede, kein Gruss, keine Signatur. Die Referenz TRÄGT die ganze fachliche Aussage;
+  Raphael benennt Hersteller, Bauteiltyp (Rolladen-Prinzip als Vorbild für ein Geländer) und
+  die einzige Abweichung vom Vorbild (Lattenrichtung) in einem Satz.
+- **«Hier findest du 3D Möbel: Der Tisch Prova könnte noch gut kommen oder sonst Tisch Sigma»**
+  (08.09.2025, Dropbox-Ordner-Link) **+ «Als Gartenmöblierung hat Hay schöne Möbel:»** (zwei
+  konkrete Hay-Produkt-URLs) — Anrede «Hoi York» (ohne Komma) vorhanden, aber kein Gruss, keine
+  Signatur. Zwei benannte, real existierende Möbelreferenzen (Prova/Sigma als Tischmodelle, Hay
+  als Möbelmarke) statt einer Anforderungsbeschreibung.
+
+Beide Belege bestätigen die bestehende Fachsignatur-Regel «Design-Referenzen nur echte, benannte
+Vorbilder, nie erfunden» und schärfen sie: im engsten, eingespielten Peer-Du mit dem 3D-Freelancer
+braucht die Design-Referenz **keine Rahmung** — kein Einleitungssatz, kein Gruss, oft nicht einmal
+eine Anrede. Die Referenz selbst ersetzt die Erklärung. Deckt sich mit der in Fidelity 260727k
+beobachteten Drift-Richtung (Formalisierungs-Reflex des Zwillings): der Zwilling neigt dazu, auch
+eine reine Link-/Referenzmail rahmend einzuleiten («Hoi York, hier ein paar Vorschläge …»), wo das
+Original die Referenz roh stehen lässt. Noch nicht in den Do-Block gehoben (zwei Einzelbelege,
+beide zum selben Empfänger) → [[arbeitsweise]] (Nullform-Familie), [[stimme]] (Formalisierungs-
+Reflex-Drift).
