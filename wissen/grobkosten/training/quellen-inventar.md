@@ -107,6 +107,23 @@ Details siehe `raw/`, Verdichtung siehe `wiki/kennwerte.md`.
 Nicht geprüft in Run 2: SharePoint-Ordner ausserhalb `AR - 01 Projekte` (z.B. `AR - 07 Archiv`
 für abgeschlossene Mandate mit Schlussabrechnung) — Kandidat für Run 3.
 
+## Run 7 (27.07.2026) — Vertiefung der drei Run-6-Kandidaten (kein neuer Projektordner)
+
+Gemäss Run-6-Vorschlag die drei dort identifizierten, aber nicht extrahierten Kandidaten
+geprüft (Excel-Einsicht via `openpyxl`, lokale venv `/tmp/venv-xlsx-grobkosten`).
+
+| Kandidat | Ergebnis |
+|---|---|
+| Pre-Check-Tool 2305 Wädenswil (`IMMO - 03 KNOW-HOW/05 Residualwert/Exel Tabelle/jans/Immo-02-P23D-Pre-Check_Tool_Jans.xlsx`) | `[x]` extrahiert Run 7 → `raw/2305-waedenswil-precheck.md`: GV oi 11'724.48 m³, Baukosten-Feld trägt intern widersprüchliche Beschriftung («Faktor BKP 2 zu BKP 1-5» vs. Output-Label «Total BKP 1-9») — Frage 1 aus `QUESTIONS.md` damit NICHT gelöst, sondern mit konkretem Beleg der Tool-internen Inkonsistenz vertieft. Kennwert (1'380–1'546 CHF/m³) bewusst NICHT promoviert (wie Wald Haselstudstrasse). |
+| 2304 Waedenswil Residualwert-Tool (`AR - 03 Studien/2304 Waedenswil/…`) | `[-]` geprüft, aber nicht verwertbar: Projektnummer-/-name-Felder im Dokument leer, Zahlen (GV oi 9'080 m³, BKP1-9 12.21–13.06 Mio) nicht eindeutig demselben Projektstand zuordenbar — keine Kennwert-Übernahme ohne verifizierte Provenienz |
+| Langnau Giebelweg 12 (`IMMO - 01 Projekte/01 BEWERTUNG PROJEKTE/8135 Langnau 3338 Giebelweg 12 LB Liegenschaftsbewertung/260603_Bewertung_Giebelweg12_Langnau.md`) | `[-]` bestätigt nicht verwertbar: Erstellungskosten «≈ CHF 1.9 Mio inkl. Abbruch» ist explizit eine Residualwert-**Annahme** innerhalb einer Bewertungsrechnung (keine eigene Kostenschätzung, keine BKP-Gliederung), GV 1'152 m³ zulässig (nicht Bestandes-Ist) |
+
+**Ergebnis Run 7:** 1 neuer, aber bewusst nicht promovierter Roh-Beleg (2305 Wädenswil,
+vertieft die BKP-1-9-vs-1-5-Unklarheit statt sie zu lösen); 2 Kandidaten abschliessend als
+nicht verwertbar geschlossen. Damit sind alle drei Run-6-Kandidaten `[x]`/`[-]` bearbeitet.
+Kein neuer Kennwert in `wiki/kennwerte.md` in diesem Lauf. Offen bleibt der vierte Run-6-
+Baustein (Zürcher Baukostenindex-Referenztabelle für Stufe 4) — noch nicht bewertet.
+
 ## Run 6 (27.07.2026) — Fünfte bis achte Quelle: `AR - 03 Studien`, `IMMO - 01 Projekte`, `IMMO - 02/03/05`, zweite SharePoint-Bibliothek
 
 Vier weitere, bisher ungeprüfte SharePoint-Bereiche parallel durch vier Subagenten gesichtet

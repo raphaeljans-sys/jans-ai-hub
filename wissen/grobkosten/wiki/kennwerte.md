@@ -2,7 +2,7 @@
 title: Grobkosten-Kennwerte (CHF/m³ GV, BKP 1–5)
 status: emerging
 last_updated: 2026-07-27
-sources: [skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md, wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro, raw/2414-thalwil.md, raw/2518-grubenackerstrasse.md, raw/2515-wartstrasse.md, raw/2202-ackersteinstrasse.md, raw/2304-reckholdern.md, raw/kennwerte-jans-referenzdokument.md, raw/8155-niederhasli-seestrasse64.md, raw/2001-haus-deuber-thalwil.md, raw/2411-wald-haselstudstrasse.md, raw/2412-ebmatingen-grossacher.md]
+sources: [skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md, wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro, raw/2414-thalwil.md, raw/2518-grubenackerstrasse.md, raw/2515-wartstrasse.md, raw/2202-ackersteinstrasse.md, raw/2304-reckholdern.md, raw/kennwerte-jans-referenzdokument.md, raw/8155-niederhasli-seestrasse64.md, raw/2001-haus-deuber-thalwil.md, raw/2411-wald-haselstudstrasse.md, raw/2412-ebmatingen-grossacher.md, raw/2305-waedenswil-precheck.md]
 links: []
 ---
 
@@ -257,3 +257,11 @@ kennwerte bleibt diese KB; energie liefert nur die Detail-/Betriebskosten (Wisse
   Scope-/Bezeichnungsfragen bewusst nicht promoviert. Details `raw/8155-niederhasli-
   seestrasse64.md`, `raw/2001-haus-deuber-thalwil.md`, `raw/2411-wald-haselstudstrasse.md`,
   `raw/2412-ebmatingen-grossacher.md`.
+- Run 7 (27.07.2026): die drei in Run 6 identifizierten offenen Kandidaten vertieft (Excel-
+  Einsicht via `openpyxl`, keine neuen Projektordner). Pre-Check-Tool 2305 Wädenswil liefert
+  einen direkten Tool-internen Beleg für die ungelöste BKP-1-9-vs-1-5-Frage (dieselbe Zeile
+  beschriftet denselben Faktor einmal als «BKP 2 → BKP 1-5», einmal als «Total BKP 1-9») —
+  Kennwert (1'380–1'546 CHF/m³) bewusst NICHT promoviert. Zwei weitere Kandidaten (2304
+  Waedenswil-Tool-Variante ohne Projektbezug, Langnau Giebelweg 12 nur Annahme-Kosten)
+  abschliessend als nicht verwertbar geschlossen. Kein neuer Kennwert in dieser Tabelle.
+  Details `raw/2305-waedenswil-precheck.md`, offene Klärung in `wiki/QUESTIONS.md`.

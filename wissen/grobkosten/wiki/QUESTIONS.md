@@ -2,6 +2,32 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-07-27 — Trainings-Run 7 (Vertiefung Run-6-Kandidaten): Frage 1 bleibt offen, aber mit direktem Tool-Beleg verstärkt
+
+- **Befund:** Die drei in Run 6 identifizierten, aber nicht extrahierten Kandidaten geprüft.
+  Pre-Check-Tool 2305 Wädenswil (`raw/2305-waedenswil-precheck.md`) liefert den bisher
+  direktesten Beleg für **Offene Frage 1** (BKP-1-9-vs-BKP-1-5-Bezeichnung, siehe Run-6-Eintrag
+  unten): im selben Excel-Tool trägt derselbe Faktor (1.13) in derselben Rechenzeile zwei sich
+  widersprechende Feldbeschriftungen — «Faktor BKP 2 zu BKP 1-5» (Eingabefeld) versus «Total
+  BKP 1-9» (Ausgabefeld). Das bestätigt: die Inkonsistenz liegt im JANS-eigenen Tool selbst,
+  nicht in einer Fehlübertragung zwischen Dokumenten. Eine Auflösung ist nur durch Rücksprache
+  mit Raphael Jans (Tool-Ersteller) möglich — nicht autonom lösbar. Kennwert (1'380–1'546
+  CHF/m³) bewusst NICHT promoviert.
+- **Zweiter Kandidat (2304 Waedenswil Residualwert-Tool) geschlossen, nicht verwertbar:**
+  Projektnummer-/-name-Felder im Dokument leer — Zahlen (GV 9'080 m³, BKP1-9 12.2-13.1 Mio)
+  nicht sicher demselben Projektstand zuordenbar wie 2305 Wädenswil, obwohl im selben
+  Projektordner abgelegt (möglicher Hinweis auf eine frühere Tool-Variante oder ein anderes
+  Nutzungsszenario). Keine Übernahme ohne verifizierte Provenienz.
+- **Dritter Kandidat (Langnau Giebelweg 12) geschlossen, nicht verwertbar:** Erstellungskosten
+  im Bewertungsdokument sind explizit eine Annahme innerhalb einer Residualwertrechnung, keine
+  eigene BKP-gegliederte Kostenschätzung.
+- **Empfehlung für einen künftigen Lauf:** Frage 1 (BKP-1-9-vs-1-5) bleibt der grösste
+  strukturelle Blocker für eine MFH-Median-Bildung (betrifft mind. 3 Einzelfälle: Wald
+  Haselstudstrasse, 2305 Wädenswil, 2305 Pre-Check-Tool-Familie generell). Eine Klärung
+  erfordert entweder eine Rückfrage an Raphael (nicht autonom in diesem Loop) oder das
+  Auffinden eines Projekts mit sowohl Pre-Check-Tool-Ergebnis als auch unabhängiger,
+  klassischer BKP-1-5-Kostenschätzung zum Abgleich.
+
 ## 2026-07-27 — Trainings-Run 6 (vier neue Quellen parallel gesichtet): zwei neue Einzelfälle, drei neue offene Punkte
 
 - **Befund:** `AR - 03 Studien`, `IMMO - 01 Projekte`, `IMMO - 02/03/05` und die zweite

@@ -21,6 +21,10 @@ vier weitere Bibliotheken (`AR - 03 Studien`, `IMMO - 01/02/03/05`, zweite Bibli
 Seestrasse 64 1'032 CHF/m³ — stärkster bisheriger Beleg mit BKP-1-5-Einzelgliederung UND GV im
 selben Dokument; Haus Deuber Thalwil 1'086 CHF/m³, eBKP-H-Basis) sowie mehrere identifizierte,
 aber bewusst zurückgestellte Kandidaten (offene Fragen zu BKP-1-9-vs-1-5-Bezeichnung und
-Standard-Klassifikation, siehe `QUESTIONS.md`).
+Standard-Klassifikation, siehe `QUESTIONS.md`). Run 7 vertieft die drei Run-6-Kandidaten per
+Excel-Einsicht (`openpyxl`): das Pre-Check-Tool 2305 Wädenswil liefert einen direkten
+Tool-internen Beleg für die ungelöste BKP-1-9-vs-1-5-Frage (derselbe Faktor doppeldeutig
+beschriftet), zwei weitere Kandidaten werden als nicht verwertbar geschlossen. Kein neuer
+Kennwert in dieser Runde.
 
 Offene Fragen / Lücken: siehe [QUESTIONS.md](QUESTIONS.md).

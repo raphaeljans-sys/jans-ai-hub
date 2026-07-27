@@ -1,5 +1,28 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-27 — Trainings-Run 7 (Vertiefung der drei Run-6-Kandidaten, keine neue Quelle)
+
+- Kollisionscheck via `ps`/`PPID`-Abgleich durchgeführt: einziger Treffer war die eigene
+  Parent-Instanz dieses Laufs, keine echte Zweitinstanz auf diesem Host.
+- Lokale venv `/tmp/venv-xlsx-grobkosten` (openpyxl) angelegt, um die beiden JANS-eigenen
+  Pre-Check-Tool-Excels aus Run 6 direkt auszulesen (bisher nur als PDF/Namen bekannt).
+- **Pre-Check-Tool 2305 Wädenswil** (`IMMO - 03 KNOW-HOW/05 Residualwert/.../
+  Immo-02-P23D-Pre-Check_Tool_Jans.xlsx`) extrahiert: GV oi 11'724.48 m³, Baukosten-Feld trägt
+  intern widersprüchliche Beschriftung — derselbe Faktor (1.13) heisst im Eingabefeld «Faktor
+  BKP 2 zu BKP 1-5», im Ausgabefeld zwei Zeilen darunter «Total BKP 1-9». Das vertieft die in
+  Run 6 offen gelassene «Offene Frage 1» mit einem direkten Tool-internen Beleg, löst sie aber
+  nicht — Kennwert (1'380–1'546 CHF/m³) bewusst NICHT in `wiki/kennwerte.md` promoviert (wie
+  Wald Haselstudstrasse). Details: `raw/2305-waedenswil-precheck.md`.
+- **2304 Waedenswil Residualwert-Tool-Variante** geprüft und geschlossen: Projektnummer-/
+  -name-Felder im Dokument leer, Zahlen (GV 9'080 m³, BKP1-9 12.2-13.1 Mio) nicht sicher
+  demselben Projektstand zuordenbar — keine Übernahme ohne verifizierte Provenienz.
+- **Langnau Giebelweg 12** geprüft und geschlossen: Erstellungskosten im Bewertungsdokument
+  sind eine Annahme innerhalb einer Residualwertrechnung, keine eigene BKP-Kostenschätzung.
+- Register nachgeführt: `training/quellen-inventar.md` (Run-7-Abschnitt), `wiki/QUESTIONS.md`
+  (Frage 1 vertieft), `wiki/kennwerte.md` (Provenienz-Eintrag + Frontmatter-Source), `wiki/
+  INDEX.md`, `raw/_INGESTED.md`. Kein neuer Kennwert in dieser Runde. Report:
+  `outputs/2026-07-27_grobkosten-run7.md`.
+
 ## 2026-07-27 — Trainings-Run 6 (vier neue Quellen parallel: `AR - 03 Studien`, `IMMO - 01/02/03/05`, zweite SharePoint-Bibliothek)
 
 - Kollisionscheck via `ps` durchgeführt: einziger Treffer war die eigene Parent-Instanz dieses
