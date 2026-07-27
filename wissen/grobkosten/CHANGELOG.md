@@ -1,5 +1,18 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-27 — Trainings-Run 17 (kein neuer Kennwert, sechster Sättigungsbeleg in Folge, jetzt auf kanonischem Quellpfad bestätigt)
+
+- Kollisionscheck via `ps`: einziger Treffer die eigene Prozessinstanz. Lauf begann ~4 Min.
+  nach dem Run-16-Commit.
+- Freshness-Check diesmal nicht auf dem OneDrive-Spiegel (Run 16), sondern direkt auf dem
+  kanonischen Quellpfad `/Volumes/daten/04_Buero/02_Projekte/` (`find -iname "*kosten*"
+  -newermt "2026-07-25"`) sowie auf einen neuen `kostenkontrolle`-Ereignis-Trigger (neue
+  Schlussabrechnung seit 20.07.2026) — beide null Treffer.
+- Keine Registeränderung an `wiki/kennwerte.md`, `training/quellen-inventar.md` oder `raw/`.
+  Lauf-Report: `outputs/2026-07-27_grobkosten-run17.md`. Empfehlung unverändert: Loop auf
+  Ereignis-Trigger zurücktakten bzw. Frage 1/2 im nächsten interaktiven Kontakt mit Raphael
+  klären, statt weiterer identischer autonomer Sweeps.
+
 ## 2026-07-27 — Trainings-Run 16 (kein neuer Kennwert, fünfter Sättigungsbeleg in Folge)
 
 - Kollisionscheck via `ps`/`PPID`: einziger Treffer die eigene Prozessinstanz. Lauf begann

@@ -2,6 +2,22 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-07-27 — Trainings-Run 17: sechster Sättigungsbeleg in Folge (Run 12–17), Freshness-Check jetzt auf kanonischem Quellpfad
+
+- Lauf begann ~4 Min. nach dem Run-16-Commit. Kein Bibliotheks-/Formel-Sweep wiederholt.
+  Diesmal geprüft: `find -iname "*kosten*" -newermt "2026-07-25"` direkt auf
+  `/Volumes/daten/04_Buero/02_Projekte/` (kanonischer Quellpfad aus `training/PROGRAMM.md`,
+  Run 16 hatte nur den OneDrive-Spiegel geprüft) sowie ein neuer `kostenkontrolle`-Ereignis-
+  Trigger (neue Schlussabrechnung seit 20.07.2026) — beide null Treffer.
+- Keine neue Inhaltsfrage. Frage 1 (BKP-1-9-vs-1-5) und Frage 2 (Standard-Klassifikation
+  "norm, eloquent") bleiben nur durch Raphael Jans direkt oder neues Material lösbar.
+- Sechs aufeinanderfolgende Läufe (12–17) ohne neuen Kennwert, jetzt auch auf dem
+  kanonischen Quellpfad selbst bestätigt (nicht nur dem OneDrive-Spiegel). Ein weiterer
+  identischer Lauf ohne neues Signal liefert keinen Erkenntnisgewinn mehr. Empfehlung
+  unverändert: auf Ereignis-Trigger zurücktakten bzw. Frage 1/2 im nächsten interaktiven
+  Kontakt mit Raphael klären (liegt ausserhalb der Befugnis dieses Loops). Details:
+  `outputs/2026-07-27_grobkosten-run17.md`.
+
 ## 2026-07-27 — Trainings-Run 16: fünfter Sättigungsbeleg in Folge (Run 12–16), keine neue Frage
 
 - Lauf begann ~2 Min. nach dem Run-15-Commit. Kein Bibliotheks-/Formel-Sweep wiederholt

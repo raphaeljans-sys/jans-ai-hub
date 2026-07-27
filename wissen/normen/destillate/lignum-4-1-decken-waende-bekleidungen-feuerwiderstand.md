@@ -133,7 +133,7 @@ Vier Nachweisarten:
   Verbindungsanforderungen, nur tragende, keine brandabschnittsbildende Funktion), «Mindest-
   kantenabmessung» (nach Regeln der Holzbaukunde für Normaltemperatur ausreichend
   dimensioniert, keine zusätzlichen Anforderungen an Verbindungen, nur tragend), «R tt /
-  E tt / REI tt» (Tragfähigkeit bzw. Brandabschnittsbildung während tt Minuten; minimale
+  EI tt / REI tt» (Tragfähigkeit bzw. Brandabschnittsbildung während tt Minuten; minimale
   Anforderung an brandabschnittsbildende Bauteile ist EI30).
 - Tab. 232-2 (Anforderungen Aufbau von **Bauteilen RF1**, S. 9): R30-RF1/EI30-RF1/
   REI30-RF1 und R60-RF1/EI60-RF1/REI60-RF1 → allseitig mit RF1-Baustoffen zu bekleiden,
@@ -216,9 +216,15 @@ Definitionen und Mindestanforderungen (Auszug):
 Abweichende Baustoffe (andere Festigkeitsklasse/Rohdichte) sind in Bauteilen mit
 Feuerwiderstandsanforderungen möglich, sofern ihre brandschutztechnische
 Leistungsfähigkeit erwiesen ist (S. 13). Massgebende Dicke bei profilierten/gefasten
-Querschnitten und bei Querschnitten aus Holzwerkstoffen: Abb. 310-2 (Fasen bis 2 mm
-Tiefe bei Vollholz/Brettstapel/Massivholzschalung/-platte/Furnierwerkstoffen nicht
-berücksichtigt; bei OSB-/Span-/Faserplatten nicht erlaubt, S. 12).
+Querschnitten (Abb. 310-2, S. 12): bei Querschnitten aus Vollholz, Brettstapel,
+Massivholzschalung, Massivholzplatten, Furniersperrholz und Furnierschichtholz werden
+Fasen bis 2 mm Tiefe nicht berücksichtigt (massgebend bleibt die Nenndicke); bei
+staerkeren Profilierungen wird die verbleibende Dicke massgebend. Bei Querschnitten aus
+Holzwerkstoffen (OSB-, Span- und Faserplatten) werden Fasen bis 2 mm Tiefe ebenfalls
+nicht berücksichtigt, **andere Profilierungen sind dort jedoch generell nicht erlaubt**
+(Korrektur 260727: die Erstfassung hatte dies dahingehend verkürzt, dass bei OSB/Span/
+Faserplatten Fasen selbst nicht erlaubt seien — das Original erlaubt auch dort 2-mm-Fasen,
+verbietet nur weitergehende Profilierungen).
 
 ### 3.3 Unterkonstruktion, Befestigung, Fugenausbildung (Tab. 330-1 bis 330-3, S. 14–16)
 
@@ -231,7 +237,13 @@ berücksichtigt; bei OSB-/Span-/Faserplatten nicht erlaubt, S. 12).
   Schraubenabstand max. 150 mm; in Wandkonstruktionen für «fliegende» Stösse über
   freiem Feld zwingend), **Typ 2 «Doppel-Nut und Kamm/Doppelfeder»**, **Typ 3 «Nut und
   Kamm/Feder»**, **Typ 4 «stumpf»** (nur direkt auf Ständern/Balken zulässig, nicht über
-  freiem Feld). In Wandkonstruktionen sind über freiem Feld nur Typ 1–3 zulässig.
+  freiem Feld). Laut Tab. 330-2 gilt differenziert: **in Wandkonstruktionen** sind über
+  freiem Feld **nur Typ 1 (hinterlegt)** zulässig, direkt auf Ständer/Latte alle vier Typen;
+  **in Deckenkonstruktionen** sind über freiem Feld Typ 1–3 zulässig (direkt auf Balken/
+  Latte ebenfalls alle vier). Korrektur 260727: die Erstfassung hatte die Deckenregel
+  («über freiem Feld Typ 1–3 zulässig») fälschlich auch auf Wandkonstruktionen angewendet
+  und widersprach damit der eigenen vorangehenden Aussage, dass in Wänden über freiem Feld
+  Typ 1 zwingend ist.
 - Für Brandschutzplatten gelten besondere Fugenbestimmungen (Kap. 4.6).
 
 ### 3.4 Anschlüsse brandabschnittsbildender Bauteile (S. 17)
@@ -318,17 +330,30 @@ siehe «Offene Punkte»):
   b×h von 60×100 bis 100×220 mm (bzw. 120×140 mm), Hohlraumdämmung Mineralwolle bis
   120 mm, untere Beplankung/Deckenbekleidung je nach Variante 12–20 mm.
 - Balkendecken REI90 (Tab. 431-4, S. 25): Balken bis 120×250/140×200/160×180 mm bzw.
-  schlanker 60×180/60×240/60×160 mm mit dickerer Hohlraumdämmung (180–240 mm) und
-  z. T. Brandschutzplatte BSP60 in der unteren Beplankung/Deckenbekleidung.
+  schlanker 100×210/120×200 bzw. 60×240/60×180 mm mit dickerer Hohlraumdämmung
+  (180–240 mm) und z. T. Brandschutzplatte BSP60 in der unteren Beplankung/
+  Deckenbekleidung (Korrektur 260727: die Erstfassung nannte hier faelschlich einen Wert
+  „60×160mm", der in Tab. 431-4 nicht vorkommt — er gehoert zu Tab. 431-3, REI60).
 - Massivholzdecken REI30 mit Fugenbreite ≤ 5 mm (Tab. 435-1, S. 33): Massivholz-/
   Brettschichtholzdicke durchgehend 80×80 mm.
 - Decken aus mehrlagigen Massivholzplatten (Tab. 436-1, S. 36): Plattendicke REI30
-  100/155 mm, REI60 150–205 mm, REI90 158–200 mm, je nach Anzahl Schichten (mindestens
-  5, ggf. mindestens 7).
-- Holz-Beton-Verbunddecken (Tab. 437-1/437-2, S. 37): Betonplatte REI30 ≥ 60 mm
-  (Bewehrungsüberdeckung ≥ 20 mm), REI60 ≥ 80 mm (≥ 20 mm), REI90 ≥ 100 mm (≥ 30 mm);
-  Balkenlage/Vollholzschicht b ≥ 120–240 mm, h ≥ 200 mm, Abstand eh gemäss Bemessung
-  Lignum-Doku «Feuerwiderstandsbemessung – Bauteile und Verbindungen» [6].
+  ca. 100–155 mm, REI60 ca. 100–185 mm, REI90 ca. 150–200 mm, je nach Anzahl Schichten
+  (mindestens 5, ggf. mindestens 7). Korrektur 260727: die Erstfassung nannte für REI60
+  „150–205mm" und für REI90 „158–200mm" — der Wert 205mm ist in dieser Deckentabelle
+  nicht belegt (er stammt vermutlich aus der Wandtabelle 446-3, R90, wo 205mm real
+  vorkommt); die hier angegebenen Bandbreiten sind ein bester Näherungswert aus der
+  Bild-Neulektüre, fuer den exakten Zahlenwert bleibt Tab. 436-1 im Original massgebend.
+- Holz-Beton-Verbunddecken: **zwei unterschiedliche Systeme, nicht vermischen.**
+  Tab. 437-1 (mit Balkenlage, S. 37): Betonplatte REI30 ≥ 60 mm (Bewehrungsüberdeckung
+  ≥ 20 mm), REI60 ≥ 80 mm (≥ 20 mm), REI90 ≥ 100 mm (≥ 30 mm); Balkenlage b ≥ 120 mm
+  (REI30) bzw. b ≥ 180 mm (REI60), jeweils h ≥ 200 mm, Abstand eh ≥ 40/70 mm oder gemäss
+  Bemessung Lignum-Doku «Feuerwiderstandsbemessung – Bauteile und Verbindungen» [6]
+  (REI90 nur rechnerisch, keine Tabellenwerte). Tab. 437-2 (mit flächiger Holzschicht,
+  gleiche Betonplatten-Dimensionierung): Holzschicht h ≥ 80 mm (REI30), h ≥ 160 mm (REI60),
+  h ≥ 240 mm (REI90), Abstand eh ≥ 40/64/88 mm oder gemäss [6]. Korrektur 260727: die
+  Erstfassung hatte die b-Werte aus Tab. 437-1 (Balkenlage) mit dem h-Wert 240mm aus
+  Tab. 437-2 (flächige Holzschicht, REI90) zu einer einzigen, so nicht belegten Spanne
+  „b ≥ 120–240mm, h ≥ 200mm" vermischt.
 
 ### 4.4 Wände mit Feuerwiderstandsdauer 30/60/90 Minuten (Übersicht Abb. 440-1, S. 38)
 
@@ -354,8 +379,10 @@ zwei-/dreiseitigen Abbrand und Knicken um beide Achsen (Verweis Kap. 4.5.2.2).
 
 Repräsentative Grössenordnungen (keine vollständige Wiedergabe der Varianten-Matrix):
 - Einseitig beplankte Ständer ohne Dämmung R30 (Tab. 441-1, S. 39): Ständer
-  120×120 bis 220×80 mm (Traglast q'd = 20 kN/m'); R60: Ständer 140×100 bis
-  170×170/190×140 mm (Traglast q'd = 50 kN/m').
+  120×120 bis 220×80 mm (Traglast q'd = 20 kN/m'); R60: Ständer 180×190/200×140 mm
+  (Traglast q'd = 50 kN/m'). Korrektur 260727: die Erstfassung nannte für R60 „140×100
+  bis 170×170/190×140mm" — das sind tatsaechlich die EI60- resp. REI60-Werte derselben
+  Tabelle; der eigentliche R60-Wert (Spalten E/F) ist 180×190/200×140mm.
 - Beidseitig beplankte Ständer mit Dämmung R90 (Tab. 442-5, S. 46): Ständer
   80×215 bis 40×180 mm, Hohlraumdämmung 120–180 mm.
 - Fachwerkwände/Riegelwände R30/EI30/REI30 (Tab. 443-1, S. 47): Riegelkonstruktion
@@ -368,7 +395,10 @@ Repräsentative Grössenordnungen (keine vollständige Wiedergabe der Varianten-
   R60 90–160 mm.
 - Wände aus mehrlagigen Massivholzplatten (Tab. 446-1/2/3, S. 51–53): Decklagen
   vertikal (im Unterschied zu Decken: dort parallel zur Tragrichtung); Dicke R30
-  50–115 mm, R60 75–160 mm, R90 60–205 mm; Traglast q'd = 50 kN/m'.
+  60–115 mm, R60 70–155 mm, R90 60–205 mm; Traglast q'd = 50 kN/m' (Korrektur 260727:
+  R30/R60-Untergrenzen der Erstfassung, 50mm bzw. 75mm, waren gegenüber der Bild-
+  Neulektüre der Tab. 446-1/446-2 leicht zu niedrig bzw. zu hoch angesetzt; R90 60–205mm
+  bestätigt).
 - Wände aus Holzwerkstoffplatten (Tab. 447-1, S. 54): Tragkonstruktion (Span-/Faser-/
   OSB-Platte) 80 mm (EI30) bzw. 140 mm (EI60), kombiniert mit Brandschutzplatte BSP30
   bzw. BSP60.
@@ -575,8 +605,10 @@ ETH Zürich.
   BAFU/Aktionsplan Holz, SHF Selbsthilfefonds der Schweizerischen Wald- und
   Holzwirtschaft, BHFF Berner Holzförderungsfonds, Fonds zur Förderung der Wald- und
   Holzforschung, VKF, SIA, sowie zahlreiche Fachverbände (FFF, FRECEM, HIS, Holzbau
-  Schweiz, HWS, ISP, STE, VGQ, VSH, BSSM, WaldSchweiz) und kantonale
-  Gebäudeversicherungen/Ämter (vollständige Liste S. 79).
+  Schweiz, HWS, ISP, STE, VGQ, VSH, VSSM, WaldSchweiz) und kantonale
+  Gebäudeversicherungen/Ämter (vollständige Liste S. 79). Korrektur 260727: Erstfassung
+  schrieb fälschlich «BSSM» statt «VSSM» (Verband Schweizerischer Schreinermeister und
+  Möbelfabrikanten).
 
 ## JANS-Praxis-Transfer
 

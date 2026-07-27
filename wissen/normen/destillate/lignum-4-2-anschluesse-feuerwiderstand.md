@@ -4,7 +4,7 @@ herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direkto
 ausgabe: "Lignum-Dokumentation Brandschutz, Themenblock 4 'Bauteile in Holz', Publikation 4.2; von der Technischen Kommission Brandschutz der Vereinigung Kantonaler Feuerversicherungen (TKB-VKF) auf Übereinstimmung mit den Mindestanforderungen der Schweizerischen Brandschutzvorschriften VKF, Ausgabe 2015 (BSV 2015), Stand am 01.01.2017 geprüft und am 15.12.2017 als 'Stand der Technik Papier (STP)' anerkannt; erschienen im April 2018 (Impressum S. 64)"
 gelesen: "alle 33 PDF-Seiten (= gedruckte Seiten 2-64 plus Umschlag) komplett, Bild-Scan ohne Textlayer, visuell gelesen in 2 Schritten (PDF-S. 1-17, PDF-S. 18-33)"
 datenstand: "VKF-Brandschutzvorschriften 2015; STP-Anerkennung 15.12.2017; Druck April 2018"
-status: "speculative (noch nicht verifiziert)"
+status: "speculative (beanstandet-korrigiert, 2 Befunde: Abb. 320-1 Risikosituationen-Zuordnung Kap. 3.2 S.8 korrigiert; Literaturverzeichnis-Zaehlfehler 8→9 Lignum-Publikationen [4]-[12] korrigiert. Refuter-Verifikation 27.07.2026 gegen 33-seitigen Original-Scan, alle uebrigen Kernziffern/Tabellen/Fundstellen/Anhang-3-Beispiele bestaetigt.)"
 last_updated: 2026-07-27
 links: [[REGISTER]]
 ---
@@ -94,10 +94,16 @@ Anschlusslösungen dieser Publikation (Kap. 2.2.3, S. 7; Kap. 4.4/5.5).
 - Erlaubte Modifikationen der Anschlusslösungen (Kap. 4/5): stärker dimensionieren,
   Schichtdicken vergrössern, Schichten hinzufügen (mind. RF3, Folien mind. RF3/cr),
   zusätzlicher Einbau von Dämmung aus Baustoffen der RF1.
-- Anschlussbereiche brandabschnittsbildender Bauteile müssen dieselbe Feuerwiderstandsdauer
-  aufweisen wie die angrenzenden Bauteile (Kap. 3.2, S. 8); Ziel der Massnahmen ist, Hohlräume
-  einzuschränken und die Brandweiterleitung zu begrenzen (Abb. 320-1, vier Risikosituationen:
-  1 durchlaufende Hohlräume, 2 Elementstösse, 3 Schwachstellen im Anschlussbereich, 4 Längsfugen).
+- Anschlussbereiche brandabschnittsbildender Bauteile (Abb. 320-1, Situationen 2, 3, 4) müssen
+  dieselbe Feuerwiderstandsdauer aufweisen wie die an sie angrenzenden Bauteile (Situation 1 =
+  Referenz-Bauteil mit voller Feuerwiderstandsdauer, Kap. 3.2, S. 8); Ziel der Massnahmen ist,
+  Hohlräume in Anschlussbereichen einzuschränken und die Brandweiterleitung zu begrenzen. Der
+  Text benennt explizit nur Situation 3 (Schwachstellen im Anschlussbereich, Abbrand von innen)
+  und Situation 4 (Längsfugen, insbesondere bei Elementbauten/Kasten-/Massivholzsystemen);
+  Situation 2 bleibt im Fliesstext unbenannt (im Bild vermutlich der Anschlussbereich/
+  Elementstoss selbst, aber nicht mit Legende ausgeschrieben). [Korrektur 27.07.2026: die
+  Vorversion hatte "Situation 1" fälschlich als "durchlaufende Hohlräume" bezeichnet; laut Text
+  ist Situation 1 das angrenzende Referenzbauteil, nicht ein Hohlraum-Risiko.]
 - Vorsatzkonstruktionen (Kap. 3.3, S. 9): brandschutztechnisch nicht wirksame Wand-/Decken-
   bekleidungen, Lattenroste, Bodenaufbauten, Dämmebenen und Schichten für haustechnische
   Installationen; Leitungs-/Installationsführung grundsätzlich ausserhalb des brandschutz-
@@ -312,9 +318,10 @@ Plattenränder.
 ### Anhänge (S. 48-62)
 
 - Literaturverzeichnis (Kap. 8, S. 48): 22 Referenzen — VKF-Vorschriften/-Register [1][2][3],
-  8 Lignum-Publikationen der Dokumentation Brandschutz [4]-[12], 6 SIA-Normen [13]-[18]
-  (SN 505 260/261/262/263/265/265-1), Eurocode 5 Brandfall [19], Steeldoc Stahlbau [20],
-  DIN 4102-4 [21], Holz Brandschutz Handbuch [22].
+  9 Lignum-Publikationen der Dokumentation Brandschutz [4]-[12] (Korrektur 27.07.2026: die
+  Vorversion nannte fälschlich "8"; [4] bis [12] sind neun Referenznummern), 6 SIA-Normen
+  [13]-[18] (SN 505 260/261/262/263/265/265-1), Eurocode 5 Brandfall [19], Steeldoc Stahlbau
+  [20], DIN 4102-4 [21], Holz Brandschutz Handbuch [22].
 - Anhänge Kataloge werkstoffoptimierter Anschlusslösungen (Kap. 9, S. 48): Firmen können nach
   Kenntnisnahme durch die TKB-VKF eigene, gegenüber der Publikation optimierte
   Anschlusslösungen als Anhänge in Verkehr bringen (nicht Teil dieses Stammdokuments).

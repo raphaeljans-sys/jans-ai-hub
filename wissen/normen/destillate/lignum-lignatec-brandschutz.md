@@ -4,7 +4,7 @@ herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direkto
 ausgabe: "Lignatec 17/2005 «Bauten in Holz – Brandschutz-Anforderungen», erschienen Juni 2005, ISSN 1421-0520; geprüft durch die Technische Kommission der Vereinigung Kantonaler Feuerversicherungen (TKB-VKF) auf materielle Übereinstimmung mit den Schweizerischen Brandschutzvorschriften VKF (Ausgabe 2003, gültig seit 1.1.2005) und als «Stand der Technik» anerkannt"
 gelesen: "alle 12 PDF-Seiten (= gedruckte Seiten 2-24 plus Rückumschlag) komplett, Bild-Scan ohne Textlayer, visuell gelesen"
 datenstand: "2005 (Bezug: VKF-Brandschutzvorschriften Ausgabe 2003/gültig ab 1.1.2005) — VERALTET gegenüber der aktuellen VKF-Vorschriftengeneration 2015 (vgl. Destillat vkf-ah-1001-15-wohnbauten.md)"
-status: "speculative (noch nicht verifiziert / noch nicht gegen VKF 2015 abgeglichen)"
+status: "speculative (beanstandet-korrigiert, 2 Befunde, Refuter-Verifikation 260727 gegen Original-Scan; Aktualitaets-Vorbehalt gegen VKF 2015 bleibt Sachverhalt, nicht Mangel)"
 last_updated: 2026-07-27
 links: [[REGISTER]], [[vkf-ah-1001-15-wohnbauten]]
 ---
@@ -80,15 +80,24 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
   brandabschnittbildend sein (S. 4).
 - R30/EI30/REI30 bzw. R60/EI60/REI60: Feuerwiderstand 30 bzw. 60 Minuten unter
   Brandeinwirkung; minimale Anforderung an brandabschnittbildende Bauteile ist EI30 (S. 4-5).
-- Suffix «(nbb)» = nicht brennbar: Bauteil muss aus nicht brennbaren Baustoffen bestehen
-  (z.B. R30(nbb), R60(nbb)); Kombination «(nbb) = nicht brennbar» mit einer Holzbauklassierung
-  ist begrifflich nicht möglich (S. 5).
-- Kombinationsbezeichnungen R/EI/REI 60/EI30(nbb) bzw. 30(nbb): Bauteile mit Feuerwiderstand
-  R60(nbb)/EI60(nbb)/REI60(nbb) bzw. 30(nbb) dürfen während 30 Minuten an der Oberfläche
-  nicht entflammen; bei R30(nbb)/EI30(nbb)/REI30(nbb) und bei R60/EI30(nbb)/EI60/EI30(nbb) sind
-  brennbare Dämmungen im Innern hohlraumfrei zweilagig zu verkleiden, mind. 30 Minuten
-  Feuerwiderstand, innerhalb dieser Bauteile nur nicht brennbare Dämmungen (BKZ 6q.3) zulässig
-  (S. 4-5).
+  Bei brennbaren Dämmungen im Innern von Bauteilen R60/EI60/REI60 sind diese mit einer
+  Verkleidung mit mindestens 30 Minuten Feuerwiderstand abzudecken (S. 5).
+- R30(nbb)/EI30(nbb)/REI30(nbb): Bauteile mit dieser Bezeichnung erfüllen Tragfähigkeit bzw.
+  Raumabschluss/wärmedämmende Wirkung während 30 Minuten wie R30/EI30/REI30, dürfen aber
+  zusätzlich während 30 Minuten an der Oberfläche nicht entflammen (S. 4). Diese Familie
+  verlangt KEINE vollständig nicht brennbare Bauweise, Holzanwendung bleibt im Kern möglich.
+- Suffix «(nbb)» bei R60(nbb)/EI60(nbb)/REI60(nbb): Bauteil muss vollständig aus nicht
+  brennbaren Baustoffen bestehen; Holzanwendung ist bei dieser Bauteilklassierung wegen der
+  Zusatzbezeichnung «(nbb) = nicht brennbar» begrifflich nicht möglich (S. 5). ACHTUNG
+  Abgrenzung (Refuter-Korrektur 260727): eine Vorfassung dieses Destillats verwechselte diese
+  60-Minuten-nbb-Familie mit der 30-Minuten-Familie R30(nbb)/EI30(nbb)/REI30(nbb) (oben), die
+  keine vollständig nicht brennbare Bauweise verlangt.
+- Kombinationsbezeichnung R60/EI30(nbb) bzw. EI60/EI30(nbb)/REI60/EI30(nbb): Bauteile
+  erfüllen Tragfähigkeit/Raumabschluss/Wärmedämmung während 60 Minuten wie R60/EI60/REI60,
+  dürfen aber während 30 Minuten an der Oberfläche nicht entflammen; Hohlräume sind mit einer
+  zweilagigen Verkleidung mit mindestens 60 Minuten Feuerwiderstand abzudecken (nicht 30
+  Minuten, Refuter-Korrektur 260727), innerhalb dieser Bauteile nur nicht brennbare Dämmungen
+  (BKZ 6q.3) zulässig (S. 5).
 - EI30-nbb/REI30-nbb bzw. EI60-EI30(nbb)/REI60-EI30(nbb): Bezeichnung für brandabschnittbildende
   Wände/Decken bei Korridoren (Fluchtwegen); korridorseitig ist eine nicht brennbare
   Verkleidung (Brandkennziffer mindestens 6q.3, bei EI60-EI30(nbb) mit mind. 30 Min.
@@ -157,11 +166,17 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
   Parkhäuser/Einstellräume, Verkaufsgeschäfte ≤1200 m²/≤100 P, Landwirtschaftliche Bauten,
   Wohnbauten EFH/REFH), je Konzept Baulich/Sprinkler, mit Feuerwiderstand für Tragwerk und
   Brandabschnitt. Repräsentative Eckwerte:
-  - Wohnbauten MFH bis 2 Geschossen/600 m²: keine Anforderung (baulich) bzw. R30 mit
+  - Wohnbauten MFH bis 2 Geschossen/600 m²: keine Anforderung (baulich, 1 und oberstes
+    Geschoss) bzw. Mindestkantenabmessung (2 Geschosse bis 600 m² bb) bzw. R30 mit
     Mindestkantenabmessung (2 Geschosse über 600 m² bb); Brandabschnitt EI30.
-  - Wohnbauten MFH 3-4 Geschosse: Tragwerk R30 (baulich, Mindestkantenabmessung) bzw. R60
-    (5-8 Geschosse), Brandabschnitt EI30 bzw. EI60.
-  - Wohnbauten MFH 5-8 Geschosse: Tragwerk R60/EI30(nbb) bis R60(nbb), Brandabschnitt
+  - Wohnbauten MFH 3 Geschosse: Tragwerk R30 (baulich)/Mindestkantenabmessung (Sprinkler),
+    Brandabschnitt EI30. Wohnbauten MFH 4 Geschosse: Tragwerk R60 (baulich)/R30 (Sprinkler)
+    — NICHT R30, wie eine Vorfassung dieses Destillats für 4 Geschosse fälschlich behauptete
+    (Refuter-Korrektur 260727, verifiziert gegen Tabelle 3 S. 8-9 UND die Axonometrie
+    Ziff. 5.3 S. 20-21, die konsistent R60/R30 für 4 Geschosse zeigt); Brandabschnitt EI30②
+    (baulich).
+  - Wohnbauten MFH 5-6 Geschosse: Tragwerk R60/EI30(nbb)③ (baulich), Brandabschnitt
+    EI60/EI30(nbb)③. Wohnbauten MFH 7-8 Geschosse: Tragwerk R60(nbb), Brandabschnitt
     EI60(nbb).
   - Beherbergungsbetriebe (Krankenhäuser): ab 2 Geschossen R60(nbb)/EI60(nbb) durchgehend bis
     8 Geschosse (Standardkonzept blau hinterlegt = keine Holzbauweise als Standardkonzept).
