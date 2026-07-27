@@ -4,6 +4,54 @@ Still-by-default: pro Lauf ein datierter Einzeiler. Mail nur bei echtem Handlung
 Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante Grösse;
 «total» ist von billigem cache_read dominiert).
 
+## 2026-07-27 22:25 — UMSETZUNG (Freigabe Raphael: «Empfehlungen umsetzen, Leerlaeufe abschalten»)
+
+Bei der Umsetzung kam die eigentliche Ursache des Totalausfalls ans Licht — sie war in der
+Mail von 21:45 noch nicht bekannt und wiegt schwerer als die dort genannten drei Punkte.
+
+**Ursache: DOPPELLAUF.** Der Endlos-Runner fuhr in JEDEM Zyklus (rund stuendlich) genau die
+fuenf Loops, die bereits einen eigenen, bewusst gedrosselten Scheduled Task haben:
+baurecht-buch-training (Task: woechentlich), normen-training-nacht (2x taeglich),
+twin-fidelity-review (1x), twin-mail-training (2x), wettbewerbs-dna-training (2x). Zwei
+Mechanismen dahinter:
+1. Der laufende Runner-Prozess (PID 66891, gestartet 25.07. 19:22) hielt `EXCLUDE_RE` im
+   Speicher — die spaeteren Filter-Erweiterungen erreichten ihn nie.
+2. Der Runner liest nur das SKILL.md-Frontmatter, nicht den Registry-Zustand. Registry-seitig
+   deaktivierte Loops (immobewertung-training seit 26.07.) liefen im Runner weiter.
+
+**Ausgefuehrt:**
+- `vollgas-chef-radar` neu gefasst und frisch armiert (Takt 50 */3): neu LEERLAUF-WAECHTER mit
+  3x-/5x-Delta-Null-Schwellen, Wochen- statt nur 5h-Kontingentblick, Selbstkontrolle auf
+  verpasste eigene Laeufe. Zwei Defekte im alten Prompt behoben: er wies `git commit/push`
+  ueber den SMB-Mount an (Verstoss gegen Rule 260726, jetzt `nas-commit-now.sh`) und wertete
+  ein volles Fenster unabhaengig vom Arbeitsinhalt als Erfolg. Der reparierte Radar hat noch
+  im selben Lauf selbst gehandelt (immob-Ausschluss im Runner ergaenzt, 22:07).
+- `wettbewerbs-dna-training` deaktiviert (wartet auf Richtungsentscheid Raphaels).
+- `normen-training-nacht` von 2x auf 1x taeglich zurueckgenommen (Loop meldet Inventar als
+  inhaltlich komplett, offen nur zwei Lignum-Dokumente).
+- `immobewertung-training` war bereits registry-deaktiviert; zusaetzlich mit `immob` im
+  Runner-Filter abgesichert (sonst haette der naechste Neustart ihn wiederbelebt und den
+  One-Time-Task `immobewertung-marktpuls-260901` vorzeitig gefeuert).
+- `baurecht-buch-training` neu in `EXCLUDE_RE` — der woechentliche Task bleibt, der stuendliche
+  Runner-Zusatzlauf faellt weg.
+- Runner auf BEIDEN Stationen stillgelegt (STOP-Macbookpro, STOP-Macmini, je mit Begruendung
+  und Rueckkehr-Bedingung in der Datei). Mac Mini: alle dortigen Loops tragen `enabled: false`,
+  der Runner drehte seit Stunden leer. MacBook Pro: nach der Filter-Bereinigung meldet er
+  «Keine Trainings-Tasks gefunden» (verifiziert 22:14:45, PID 77522) — es bleibt nichts, was
+  nicht schon getaktet laeuft.
+- `vollgas-fruehwarnung` erweitert: prueft neu, ob die operativen Briefings ihr Deliverable
+  erreicht haben, ob der Radar ueberhaupt einen Herzschlag hat (Sessions, nicht nur `enabled`)
+  und ob ein Runner leer dreht.
+- Zwei neue Rules: 260727 «Kein zweiter Taktgeber» und 260727 «Leerlauf-Waechter».
+
+**Wichtig:** Das ist KEINE Drosselung des Hubs. Alle Lern-Loops laufen ueber ihre Scheduled
+Tasks weiter (twin-mail 2x, twin-fidelity 1x, normen 1x, baurecht woechentlich, wissens-chef 1x).
+Stillgelegt ist nur der zweite, ungetaktete Feuermechanismus.
+
+**Offene Grundsatzfrage an Raphael:** Soll der Endlos-Runner neue, eigene Lern-Aufgaben
+bekommen (dann definieren und die STOP-Dateien entfernen), oder bleibt die Lern-Arbeit
+dauerhaft bei den getakteten Tasks (dann Runner + Supervisor ganz ausbauen)?
+
 ## 2026-07-27 21:45 — GEMELDET (Mail an rj@ gesendet)
 
 Verbrauch teuer/total je Station (Mio):

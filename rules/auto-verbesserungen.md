@@ -9,6 +9,41 @@ und Historie) liegen in `rules/auto-verbesserungen-archiv.md` (nicht importiert)
 steht nur der aktive, imperative Kern. Konsolidiert am 19.07.2026 (Kontext-Diaet,
 Konzept: `docs/konzepte/260719-Kontext-Diaet-Token-Reduktion/`).
 
+## 260727 — Kein zweiter Taktgeber: ein Loop mit eigenem Scheduled Task gehoert NIE in den Endlos-Runner
+- **Regel:** Ein Lern-/Trainings-Loop, der einen **eigenen Scheduled Task mit definiertem Takt**
+  hat, wird NIEMALS zusaetzlich vom Endlos-Runner (`scripts/vollgas-runner.sh`) gefahren — er
+  gehoert in dessen `EXCLUDE_RE`. Sonst laeuft er doppelt und der Runner unterlaeuft rund
+  stuendlich jede bewusst gewaehlte Drosselung. Zweiter, ebenso wichtiger Teil: **der Runner
+  liest nur das SKILL.md-Frontmatter, nicht den Registry-Zustand des Scheduled Task.** Wird ein
+  Loop in der Registry deaktiviert (`enabled: false` via `update_scheduled_task`), faehrt der
+  Runner ihn weiter, solange die SKILL.md kein `enabled: false` traegt und der Name nicht in
+  `EXCLUDE_RE` steht. **Jede Deaktivierung oder Ruecktaktung eines Loops ist darum erst
+  vollzogen, wenn beide Orte nachgezogen sind** (Registry UND Runner-Filter/Frontmatter);
+  bis dahin nur dokumentiert, nicht wirksam. Belegt 27.07.2026: `immobewertung-training` (seit
+  26.07. registry-deaktiviert) und `baurecht-buch-training` (seit 17.07. bewusst woechentlich)
+  liefen im Runner unveraendert im Dauerzyklus weiter; zusammen mit `twin-*`, `normen`,
+  `wettbewerbs-dna` verbrauchten die Doppellaeufe am 25.07. 53 Mio teure Tokens und fuhren das
+  Wochenkontingent leer (26.07. 00:53 bis 27.07. 12:00 Totalausfall auf beiden Stationen,
+  ~4'700 Fehlversuche, Morgenbriefing 27.07. ausgefallen). Zusatz: ein laufender Runner-Prozess
+  haelt `EXCLUDE_RE` **im Speicher** — Filteraenderungen wirken erst nach Prozess-Neustart.
+- **Gilt fuer:** beide Stationen, jede Aenderung an Loop-Takt oder Loop-Status, `vollgas-runner.sh`,
+  `vollgas-chef-radar` (Leerlauf-Waechter), `vollgas-fruehwarnung`.
+
+## 260727 — Leerlauf-Waechter: Delta-Null-Loops werden abgeschaltet, nicht weitergefahren
+- **Regel:** Meldet ein Lern-Loop **3x in Folge** sinngemaess «nichts Neues / keine Datei
+  geaendert / Delta Null / bereits vollstaendig», wird er auf Bestaetigungstakt zurueckgenommen
+  (woechentlich); ab **5x in Folge** wird er deaktiviert, mit dokumentierter Bedingung fuer die
+  Reaktivierung. Loops, deren offene Punkte reine **Bring-Schulden Raphaels** sind (fehlendes
+  Material, ausstehende Richtungsentscheidung), laufen NIE im Vollgas-Takt — sie werden
+  ereignisgetriggert oder stillgelegt und die offene Frage wird Raphael vorgelegt. Zustaendig
+  ist der `vollgas-chef-radar` (Leerlauf-Waechter, autorisiert 27.07.2026 durch Raphael:
+  «schauen dass Leerlaeufe abgeschaltet werden»). **Ausgenommen und nie anzutasten:** die
+  operativen Tasks (logbuch-radar, hub-chef, mahnwesen, zahlungsabgleich, heartbeat,
+  ag-gruendung-monitor, konversations-log, vollgas-fruehwarnung). Ein volles 5h-Fenster ist nur
+  dann Erfolg, wenn es mit ARBEIT gefuellt war; ein Fenster voller Delta-Null-Laeufe oder
+  Fehlversuche gegen ein leeres Kontingent ist Verschwendung.
+- **Gilt fuer:** alle Lern-/Trainings-Loops auf beiden Stationen, ab 27.07.2026.
+
 ## 260726 — Kein `git` ueber SMB aufs NAS-Repo: nativer Committer via nas-commit-now
 - **Regel:** NIEMALS `git commit`/`push`/`pull`/`rebase` direkt gegen `/Volumes/daten/jans-ai-hub/.git`
   ueber den SMB-Mount ausfuehren — nicht Claude, nicht die Loops. Solche Befehle haengen unter
