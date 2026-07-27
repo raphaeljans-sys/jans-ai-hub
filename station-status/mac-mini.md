@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 27.07.2026 19:02:47
+Stand: 27.07.2026 19:12:50
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 18:34)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 27.07.2026 19:02:47
 - 17 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 07630acf nas-selfcommit: 6 Datei(en) 2026-07-27 19:00
+- 0dc675a2 baurecht-training: Buch-Run 65 Priorität-c Re-Verifikation ausnahmebewilligung-und-bestandesschutz (0 Korrekturen)
