@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 28.07.2026 07:35:00
+Stand: 28.07.2026 07:45:07
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:20)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:43)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 28.07.2026 07:35:00
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 54799755 wissens-destillat bauprodukte: BKP-281-Artikel Terrazzo/Kunststein-Bodenbelaege (07:30-Nachtschichtlauf)
+- 5fc3997d Speicher-Architektur 28.07.: Lauf-Gate als stationsweiter Prozess-Deckel, Speicher-Waechter (OneDrive-Leck 33 GB auf dem Mini), Transcript-Rotation, Nachtschicht 15x->3x entzerrt, aihub-Runner nach 7 Wochen Leerlauf abgeschaltet, Morgen-Tasks gestaffelt

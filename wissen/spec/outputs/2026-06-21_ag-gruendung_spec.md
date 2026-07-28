@@ -208,3 +208,23 @@ Der vorbereitete Post-Brief (Ordner 05) ist damit hinfaellig (Online-Weg gewaehl
   in die zweite Augusthaelfte. Empfehlung unveraendert und jetzt dringend: **telefonisch bei
   B. Jeckelmann nachfassen (UBS 044 236 48 48)** und die Notariats-Antwort versenden.
   Keine Status-Mail gesendet (nichts Neues). fristen.md nachgefuehrt.
+
+- **28.07.2026 (Monitor-Lauf, Dienstag):**
+  **NICHTS NEUES.** Sweep ueber Apple Mail (mail@raphaeljans.ch als Primaerkanal, rj@ Exchange,
+  raphaeljans@outlook.com, iCloud) ueber alle Mailboxen inkl. Entwuerfe/Geloescht/Junk: Vollsweep
+  23.–28.07. (5 Tage, lueckenlos an den 14-Tage-Sweep vom 27.07. anschliessend) plus gezielte
+  21-Tage-Suche auf UBS/Notariat/REGIX/Mathies/Jeckelmann/key4. Kein Eingang von B. Jeckelmann/UBS,
+  keiner vom Notariat Wiedikon-Zuerich (M. Mathies), keiner von REGIX. Einziger UBS-Treffer im
+  21-Tage-Fenster bleibt die generische Marketingmail «Wir sind fuer Sie da»
+  (ubs_switzerland@mailing.ubs.com, 17.07., iCloud) → per Task-Definition ausgeschlossen.
+  **Stand unveraendert:** UBS seit 27.06. jetzt **31 Tage** ohne Antwort; angepasstes Antragsformular
+  («Raphael Jans AG»/Vollliberierung) nicht eingegangen, keine IBAN, keine Kapitalbescheinigung.
+  Die Notariats-Rueckmeldung liegt weiterhin als **unversandter rj@-Entwurf vom 18.07. 08:50**
+  («Gruendung Raphael Jans AG (bisher JANS AG): Firmenname und Word-Dateien») — jetzt 10 Tage.
+  Der Einzahlungstermin «Mitte August» bleibt gefallen (Feststellung 27.07. unveraendert gueltig);
+  die Beurkundung ruecken in die zweite Augusthaelfte oder spaeter.
+  **Beurteilung:** beide offenen Schritte sind reine Bring-Schulden Raphaels, durch den Monitor
+  nicht aufloesbar — (a) telefonisch bei B. Jeckelmann nachfassen (UBS 044 236 48 48),
+  (b) den Notariats-Entwurf vom 18.07. versenden. Keine Status-Mail gesendet (nichts Neues; die
+  dringende Empfehlung ging bereits am 27.07. raus, eine Wiederholung waere reines Rauschen).
+  fristen.md nachgefuehrt.
