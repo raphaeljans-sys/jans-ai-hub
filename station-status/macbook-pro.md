@@ -1,15 +1,15 @@
 # Stations-Status: macbook-pro
 
-Stand: 28.07.2026 22:06:13
+Stand: 28.07.2026 22:26:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:05)
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:20)
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 20 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 26 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- dde224c7 vollgas-radar 28.07. 22:00: Pruefkette zu Ende gedacht — App-Scheduled-Task-Flotte ruft das Lauf-Gate NICHT (null Treffer beide Stationen), Speicherschutz dort allein via Taktentzerrung; heute Nacht folgenlos (>=2h Abstand), als Grenze in Rule 260728 verankert; P2 tapir-archicad 2.8 GB unveraendert; P3 zwei wirkungslose Write()-Zeilen in settings.json (keine Luecke, nur Log-Rauschen)
+- 027a4dd6 nas-selfcommit: 2 Datei(en) 2026-07-28 22:15
