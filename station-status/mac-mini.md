@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 28.07.2026 22:44:48
+Stand: 28.07.2026 22:54:51
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 22:40)
@@ -9,7 +9,7 @@ Stand: 28.07.2026 22:44:48
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 29 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 14 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 95959a9e nas-selfcommit: 2 Datei(en) 2026-07-28 22:30
+- 6e2bf77d energie-training Run 118: sechs neue Destillate (SWKI VA106-01, SZ-Vollzugspraxis Rechenzentren, Rueckkuehler-Flaechenkennwert ZH 70/30-Regel, SIA 2068 Publikationsstatus, Abwasserwaermepumpe JAZ/Foerderung, Grosskueche-Update) + Cross-KB-Nachtrag sia-386-bacs; FAQ F178-F183, Register nachgefuehrt
