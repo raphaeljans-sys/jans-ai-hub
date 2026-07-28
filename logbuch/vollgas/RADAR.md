@@ -30,6 +30,79 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-07-28 10:05 — [FREI] Der gestern eingebaute Speicher-Deckel hat seit heute früh JEDEN automatischen Lauf abgewiesen — er misst die falsche Grösse. Metrik korrigiert, beide Stationen verifiziert
+
+**Selbstkontrolle:** letzter Eintrag 06:55, dieser Lauf 10:05 — 3,2 h bei 3-h-Takt, kein
+verpasster Lauf. Der im 06:55-Eintrag gemeldete Stillstand (~01:10 bis ~06:50) hat sich nicht
+wiederholt.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung (`. ~/.jans-dispatch.env`)
+antwortet «OK». Kein Login-Blocker, kein Wochenlimit, kein Mail-Anlass. **Durchsatz sehr gut:**
+57 Commits seit Mitternacht, davon 19 substanziell; 18 Commits in den letzten 3 Stunden.
+
+**P1 — DAS LAUF-GATE HAT SEIT 07:34 ALLES BLOCKIERT (behoben).** Der gestern nach dem
+Speicher-Notstand eingebaute Prozess-Deckel `scripts/lauf-gate.sh` (Rule 260728) las den Wert
+`unused` aus `top` und verglich ihn mit 3000 MB (MacBook) bzw. 4000 MB (Mini). macOS meldet unter
+`unused` aber nur völlig unberührtes RAM; auf einer warmgelaufenen Maschine ist das immer nahe
+null, weil das System freien Speicher als Cache hält. Gemessen um 09:5x:
+
+| Station | `top` "unused" | real verfügbar (free+inactive+purgeable) | Speicherdruck |
+|---|---|---|---|
+| MacBook Pro | 104 MB | **4402 MB** | 1 (normal) |
+| Mac Mini | 253 MB | **14233 MB** | 1 (normal) |
+
+Beide Stationen hätten die Schwelle also nie erreicht. Der Beweis stand im Gate-Log selbst: schon
+der Einrichtungstest um 07:34 wies sich mit «nur 79 MB frei» selbst ab, meine Probe um 10:01 mit
+«nur 249 MB». Betroffen waren alle vier Aufrufer — `nachtschicht-run.sh`, `wissens-trigger.sh`,
+`cron-training-mini.sh`, `vollgas-runner.sh`. Praktische Folge, wäre es unentdeckt geblieben: die
+Nachtschicht um 23:30 hätte heute Nacht still zurückgestanden, und mit ihr der **einzige derzeit
+produktive Lern-Loop** (`wissens-destillat`). Ein leises Totalversagen genau der Art, die der
+35-Stunden-Ausfall lehren sollte — die Absicht war dokumentiert, die Wirkung nie nachgemessen.
+
+**Behoben, nicht nur gemeldet:** `frei_mb()` misst neu über `vm_stat` den Speicher, den das System
+ohne Auslagern herausgeben kann (free + inactive + purgeable). **Raphaels Schwellen (2/3 Läufe,
+3000/4000 MB) bleiben unverändert — korrigiert ist die Messung, nicht die Politik.** Zusätzlich
+eingebaut: (a) ein zweites Kriterium `kern.memorystatus_vm_pressure_level`, das eine bereits
+swappende Maschine abweist, auch wenn die Menge noch reicht — sonst hätte die Mengenkorrektur den
+Deckel in der umgekehrten Richtung entschärft; (b) ein Riegel gegen die kaputte Messung selbst:
+liefert `vm_stat` nichts Zählbares, wird der Lauf zurückgestellt und protokolliert statt
+stillschweigend durchgewunken. Nebenbei entfiel ein zweiter Fehler: die alte Fassung hätte einen
+Dezimalwert («5.2G») in Bash-Ganzzahlarithmetik gegeben und die Prüfung damit ganz übersprungen.
+
+Verifiziert auf **beiden** Stationen, positiv und negativ: normaler Lauf → Freigabe (MacBook 4419
+MB, Mini 14422 MB); künstlich hochgesetzte Schwelle → korrekt abgewiesen; `MAX_LAEUFE=0` → korrekt
+abgewiesen. Der Deckel greift also weiterhin, er greift nur nicht mehr immer.
+
+**P2 — Zwei Dokumentations-Fallen entschärft, die zur nächsten Fehlentscheidung geführt hätten.**
+- Die Registry beschrieb `wissens-destillat` als «getaktet ausschliesslich vom VOLLGAS-Endlos-Runner».
+  Das ist seit dem 27.07. 22:15/22:20 falsch: der Runner ruht per STOP-Datei auf **beiden** Stationen,
+  gefahren wird der Loop faktisch von der **Mac-Mini-Nachtschicht** (23:30/02:30/05:30). Beschreibung
+  korrigiert. Genau die Sorte Drift, vor der die Rules 260727/260728 warnen — nur diesmal in der
+  Registry statt im Runner-Filter.
+- `STOP-Macbookpro` trägt die Bedingung «entfernen, sobald es wieder einen Lern-Loop OHNE eigenen
+  Scheduled Task gibt». Diese Bedingung ist seit heute **erfüllt** (`wissens-destillat` ist «Manual
+  only», und die `KORPUS-QUEUE.md` sagt ausdrücklich, der Runner bekomme eine neue Lern-Aufgabe) —
+  wer nur diesen Absatz liest, startet den Endlos-Runner auf der Arbeitsstation und verletzt damit
+  die am selben Tag beschlossene, **jüngere** Rollentrennung 260728. Die Datei bleibt deshalb stehen;
+  die Entfernungs-Bedingung ist in der Datei neu gefasst (nur auf Raphaels Entscheid).
+
+**Leerlaufquote: keine Massnahme nötig.** Kein aktiver Loop erreicht die 3er-Schwelle.
+`wissens-destillat` 7 Artikel in einer Nacht, kein Delta-Null · `twin-mail-training` hatte vier
+Leerläufe (Batches 68–70), die Serie ist mit Batch 71 am 27.07. gebrochen · `normen`, `wissens-chef`,
+`baurecht` (Run 69), `planungsgrundlagen`-Nachaudit lieferten am 27./28.07. belegte Funde ·
+`energie` (launchd 22:30) mit Run 117 produktiv. Die gestern abgeschalteten Dauer-Leerläufe
+(`training-plg` nach 27 Nullbefunden, `wettbewerbs-dna`) bleiben abgeschaltet.
+
+**P3 — Beobachtung, keine Massnahme: 16 Stunden ohne Lern-Betrieb.** Mit gestopptem Runner und der
+heute früh von 15x auf 3x entzerrten Nachtschicht läuft zwischen ~07:30 und 23:30 auf keiner
+Station ein Lern-Loop, während das Fenster frei ist. Ich habe das **bewusst nicht** angetastet: die
+3x-Entzerrung ist zwei Stunden alt und wurde aus Speichergründen entschieden, und der Mac Mini
+trägt aktuell reale Arbeitslast (Archicad 5,5 GB, Cineware 4,1 + 3,3 GB, InDesign 4,1 GB; Swap
+7,5 von 8,2 GB belegt). Ein Hochtakten wäre gegen eine frische, gut begründete Entscheidung
+gelaufen. Vorgelegt als Frage an Raphael, nicht als Loop-Entscheid: soll der Mac Mini tagsüber
+Destillat-Läufe fahren, sobald das Gate wieder korrekt misst? Kapazität wäre da, die Korpus-Queue
+ist mit 37 Gewerke-Sektionen bei 7 Artikeln erst angebrochen.
+
 ## 2026-07-28 06:55 — [FREI] Der neue Destillat-Loop traegt: 6 Artikel in einer Nacht. Aber zwei Nachtschicht-Zyklen waren Totalausfaelle durch einen Session-Fehler, der nirgends festgehalten war — jetzt in der SKILL.md verankert
 
 **Selbstkontrolle:** letzter Eintrag 01:07, dieser Lauf 06:55 — 5,8 h Abstand bei 3-h-Takt, also

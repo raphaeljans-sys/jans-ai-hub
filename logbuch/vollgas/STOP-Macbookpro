@@ -26,3 +26,36 @@ OFFENE GRUNDSATZFRAGE AN RAPHAEL (vorgelegt 27.07.2026): Soll der Endlos-Runner
 kuenftig neue, eigene Lern-Aufgaben bekommen (dann Aufgaben definieren und diese Datei
 entfernen), oder bleibt die Lern-Arbeit dauerhaft bei den getakteten Scheduled Tasks
 (dann Runner + Supervisor ganz ausbauen)?
+
+--------------------------------------------------------------------------
+KORREKTUR 28.07.2026 10:05 (vollgas-chef-radar): DIE OBEN GENANNTE
+ENTFERNUNGS-BEDINGUNG IST SEIT HEUTE ERFUELLT — TROTZDEM BLEIBT DIESE DATEI
+STEHEN. Wer nur den oberen Absatz liest, startet den Endlos-Runner auf der
+Arbeitsstation und verletzt damit eine neuere Entscheidung.
+
+Was sich geaendert hat: mit `wissens-destillat` existiert seit dem 28.07.
+genau das, worauf der obere Absatz wartet — ein Lern-Loop OHNE eigenen
+Scheduled Task (Registry: "Manual only"). Die `KORPUS-QUEUE.md` des Skills
+sagt das ausdruecklich: "der Endlos-Runner bekommt eine neue, eigene
+Lern-Aufgabe statt ausgebaut zu werden."
+
+Warum die Datei dennoch bleibt: Rule `auto-verbesserungen` 260728
+(Rollentrennung, am selben Tag beschlossen und damit JUENGER als der obere
+Absatz) macht das MacBook Pro zur reinen ARBEITSSTATION — keine Lern-Laeufe
+waehrend der Arbeitszeit. Ein Endlos-Runner auf dieser Station ist genau
+das, was die Rollentrennung ausschliesst. Der Destillat-Loop laeuft
+stattdessen auf dem Mac Mini ueber die Nachtschicht (23:30/02:30/05:30) und
+lieferte dort in der Nacht 27./28.07. sieben Artikel — er braucht diese
+Station nicht.
+
+ENTFERNUNGS-BEDINGUNG NEU GEFASST: Diese Datei wird entfernt, wenn Raphael
+die Rollentrennung 260728 aufhebt ODER ausdruecklich Lern-Laeufe auf dem
+MacBook Pro ausserhalb der Arbeitszeit will. Nicht schon dann, wenn es
+"wieder einen Loop ohne eigenen Task gibt" — diese Bedingung allein ist
+seit heute erfuellt und trotzdem nicht hinreichend.
+
+Die im oberen Absatz vorgelegte Grundsatzfrage an Raphael ist damit zur
+Haelfte beantwortet: der Runner bekommt eine neue Lern-Aufgabe (Destillat),
+aber auf dem Mac Mini. Offen bleibt nur, ob der Runner/Supervisor auf DIESER
+Station dauerhaft ausgebaut werden soll.
+--------------------------------------------------------------------------

@@ -34,6 +34,20 @@ Konzept: `docs/konzepte/260719-Kontext-Diaet-Token-Reduktion/`).
   Neustart gab 15 GB frei — ohne jeden Eingriff an Claude. Gegenmassnahme dauerhaft:
   `scripts/speicher-waechter.sh` (launchd `ch.jans.speicher-waechter`, alle 30 Min, beide
   Stationen) startet NUR OneDrive neu, nie Claude und nie Benutzer-Anwendungen.
+- **«unused» aus `top` ist NICHT der verfuegbare Speicher — nie als Schwellwert verwenden.**
+  macOS meldet unter `unused` nur voellig unberuehrtes RAM; auf einer warmgelaufenen Maschine
+  ist das immer nahe null, weil freier Speicher als Cache gehalten wird. Massgeblich ist, was
+  das System OHNE Auslagern herausgeben kann: `vm_stat` free + inactive + purgeable, ergaenzt
+  um `sysctl kern.memorystatus_vm_pressure_level` (1=normal, 2=warnend, 4=kritisch) fuer den
+  Fall einer bereits swappenden Maschine. Belegt 28.07.2026 10:0x: `top` meldete 104 MB
+  (MacBook) bzw. 253 MB (Mini) «unused», real verfuegbar waren **4402** bzw. **14233 MB** bei
+  normalem Druck. Weil `lauf-gate.sh` in seiner ersten Fassung gegen `unused` pruefte, wies es
+  ab 07:34 **ausnahmslos jeden** automatischen Lauf ab — auf beiden Stationen, still, inkl.
+  der Nachtschicht als einzigem Treiber des produktiven Destillat-Loops. Metrik am 28.07.
+  korrigiert (Schwellen unveraendert), beide Stationen positiv UND negativ verifiziert.
+  **Verallgemeinert: eine neu eingebaute Schutzmechanik ist erst dann fertig, wenn ihr
+  Abweisungs- UND ihr Freigabepfad je einmal nachgemessen wurden** — ein Gate, das immer
+  «nein» sagt, sieht im Log genauso ruhig aus wie eines, das funktioniert.
 - **Session-Transcripts rotieren.** `~/.claude/projects` waechst unbegrenzt (28.07.: 4.3 GB
   MacBook, 5.2 GB Mini). `scripts/transcript-rotation.sh` (launchd, So 04:00) archiviert
   verlustfrei alles aelter als 14 Tage und loescht Originale ERST nach geprueftem Archiv.

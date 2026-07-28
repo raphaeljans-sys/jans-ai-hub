@@ -61,16 +61,42 @@ laufende() {
     pgrep -f "claude (-p|--print)" 2>/dev/null | wc -l | tr -d ' '
 }
 
-# --- Freien Speicher ermitteln (MB) ------------------------------------------
+# --- Verfuegbaren Speicher ermitteln (MB) ------------------------------------
+# KORREKTUR 28.07.2026 (vollgas-chef-radar): die erste Fassung las `top`s Feld
+# "unused" und wies damit AUSNAHMSLOS jeden Lauf ab. macOS meldet unter "unused"
+# nur voellig unberuehrtes RAM; auf einer warmgelaufenen Maschine ist das immer
+# nahe null, weil das System freien Speicher als Cache haelt. Gemessen am
+# 28.07. 09:5x: MacBook "104M unused" bei real 4402 MB verfuegbar, Mac Mini
+# "253M unused" bei real 14233 MB — beide Stationen haetten die Schwelle
+# (3000/4000 MB) nie erreicht. Belegt im Gate-Log: der Einrichtungstest um
+# 07:34 wurde mit "nur 79 MB frei" bereits selbst abgewiesen.
+#
+# Massgeblich ist der Speicher, den das System OHNE Auslagern herausgeben kann:
+# free + inactive + purgeable (vm_stat). Die Schwellen oben bleiben unveraendert
+# — korrigiert wird nur die Messung, nicht die Politik.
 frei_mb() {
-    local unused
-    unused=$(top -l 1 -n 0 2>/dev/null | awk '/PhysMem/ {
-        for (i=1; i<=NF; i++) if ($i ~ /unused/) { print $(i-1); exit }
-    }')
-    case "$unused" in
-        *G) echo $(( ${unused%G} * 1024 )) ;;
-        *M) echo "${unused%M}" ;;
-        *)  echo 99999 ;;
+    vm_stat 2>/dev/null | awk '
+        /page size of/  { for (i=1;i<=NF;i++) if ($i ~ /^[0-9]+$/) { ps=$i; break } }
+        /Pages free/      { f=$3+0 }
+        /Pages inactive/  { i2=$3+0 }
+        /Pages purgeable/ { p=$3+0 }
+        END {
+            if (ps=="" || ps==0) ps=4096
+            printf "%d", (f+i2+p) * ps / 1048576
+        }'
+}
+
+# --- Speicherdruck des Systems (1=normal, 2=warnend, 4=kritisch) -------------
+# Zweites, unabhaengiges Kriterium: die Mengenmessung allein uebersieht eine
+# Maschine, die zwar noch Seiten herausgeben kann, aber bereits swappt. Fehlt
+# der sysctl, gilt "normal" — das Gate soll nie an einer fehlenden Kennzahl
+# haengenbleiben.
+druck() {
+    local d
+    d=$(sysctl -n kern.memorystatus_vm_pressure_level 2>/dev/null)
+    case "$d" in
+        ''|*[!0-9]*) echo 1 ;;
+        *)           echo "$d" ;;
     esac
 }
 
@@ -79,6 +105,16 @@ frei_mb() {
 # ============================================================================
 AKTIV=$(laufende)
 FREI=$(frei_mb)
+DRUCK=$(druck)
+
+# Schutz gegen eine kaputte Messung: liefert frei_mb nichts Zaehlbares, wird
+# NICHT stillschweigend durchgewunken und auch nicht alles blockiert — der Fall
+# wird sichtbar protokolliert und der Lauf zurueckgestellt.
+case "$FREI" in
+    ''|*[!0-9]*)
+        log "ABGEWIESEN $NAME — Speichermessung unbrauchbar (vm_stat lieferte '${FREI}')."
+        exit 1 ;;
+esac
 
 if [ "$AKTIV" -ge "$MAX_LAEUFE" ]; then
     log "ABGEWIESEN $NAME — bereits $AKTIV Laeufe aktiv (Grenze $MAX_LAEUFE)."
@@ -86,13 +122,18 @@ if [ "$AKTIV" -ge "$MAX_LAEUFE" ]; then
 fi
 
 if [ "$FREI" -lt "$MIN_FREI_MB" ]; then
-    log "ABGEWIESEN $NAME — nur ${FREI} MB frei (Mindestwert ${MIN_FREI_MB} MB)."
+    log "ABGEWIESEN $NAME — nur ${FREI} MB verfuegbar (Mindestwert ${MIN_FREI_MB} MB)."
+    exit 1
+fi
+
+if [ "$DRUCK" -ge 2 ]; then
+    log "ABGEWIESEN $NAME — Speicherdruck $DRUCK (2=warnend, 4=kritisch), ${FREI} MB verfuegbar."
     exit 1
 fi
 
 # Freigabe wird nur protokolliert, wenn es eng war — sonst laeuft das Log zu.
 if [ "$AKTIV" -gt 0 ] || [ "$FREI" -lt $(( MIN_FREI_MB * 2 )) ]; then
-    log "FREIGABE $NAME — $AKTIV/$MAX_LAEUFE Laeufe, ${FREI} MB frei."
+    log "FREIGABE $NAME — $AKTIV/$MAX_LAEUFE Laeufe, ${FREI} MB verfuegbar, Druck $DRUCK."
 fi
 
 exit 0
