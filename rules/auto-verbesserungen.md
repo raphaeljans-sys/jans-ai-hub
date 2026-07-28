@@ -27,6 +27,18 @@ Konzept: `docs/konzepte/260719-Kontext-Diaet-Token-Reduktion/`).
   vollgas-supervisor · synctask-runner · wissens-trigger. **Vor jeder Takt- oder
   Stilllegungsentscheidung ALLE sechs pruefen** — das vollstaendige Inventar steht in
   `docs/konzepte/260728-Speicher-Architektur/`.
+- **Grenze des Gates benennen (gemessen 28.07.2026 22:00):** «jeder Mechanismus» oben meint
+  faktisch die vier SHELL-getriebenen (`nachtschicht-run`, `cron-training-mini`, `vollgas-runner`,
+  `wissens-trigger`). Die **App-Scheduled-Task-Flotte ruft das Gate NICHT** und kann es baulich
+  nicht — sie wird vom App-Scheduler getrieben, nicht von einem Script, das etwas vorschalten
+  koennte (`grep -rl lauf-gate ~/.claude/scheduled-tasks/` → null Treffer, beide Stationen).
+  Betroffen: die vier MacBook-Nacht-Lernlaeufe (`wissens-chef`, `normen-nacht`, `twin-mail`,
+  `twin-fidelity`) und die operativen Morgenbriefings. Fuer sie ruht der Speicherschutz allein auf
+  der **Taktentzerrung** (Stand 28.07.: mind. 2 h Abstand bei 5–25 Min Laufzeit → kein Ueberlapp).
+  **Konsequenz: wird der MacBook-Nachttakt je wieder verdichtet, greift kein Gate** — dann den
+  Gate-Aufruf als ersten Schritt in die vier Lern-Task-Prompts nehmen (operative Briefings NIE,
+  die duerfen nicht abgewiesen werden). Verallgemeinert: eine Schutzregel, die «jeder/alle» sagt,
+  ist erst geprueft, wenn nachgemessen wurde, wer sie ueberhaupt erreicht.
 - **Speicher-Ursachen zuerst MESSEN, nie raten.** `ps aux` RSS zeigt komprimierten Speicher
   NICHT und fuehrt in die Irre; massgeblich ist `top -l 1 -o mem -stats command,mem`.
   Belegt 28.07.2026: auf dem Mac Mini wies `ps` Claude mit 1.3 GB als harmlos aus, waehrend

@@ -30,6 +30,85 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-07-28 22:00 — [FREI] Die Pruefkette weiter am Ende gedacht: welche Mechanismen erreichen das Lauf-Gate ueberhaupt? Die App-Task-Flotte tut es nicht — heute Nacht folgenlos, aber unbenannt
+
+**Selbstkontrolle:** letzter Eintrag 19:00, dieser Lauf 22:00 — 3,0 h bei 3-h-Takt, kein
+verpasster Lauf.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung (`. ~/.jans-dispatch.env`)
+antwortet «OK». Kein Login-Blocker, kein Wochenlimit, kein Mail-Anlass. Endlos-Runner ruht
+unveraendert auf beiden Stationen (STOP-Dateien, Gruende aktuell und dokumentiert).
+
+**P1 — DAS LAUF-GATE DECKT WENIGER AB, ALS DIE REGEL BEHAUPTET.** Die letzten drei Laeufe haben
+die Kette Kanon → Ausfuehrungskopie → geladene Definition durchgemessen. Der naechste Schritt
+derselben Frage ist: *welche Mechanismen rufen das Gate ueberhaupt auf?* Nachgemessen
+(`grep -rl lauf-gate`), beide Stationen:
+
+| Ruft das Gate | Ruft es NICHT |
+|---|---|
+| `nachtschicht-run.sh`, `cron-training-mini.sh`, `vollgas-runner.sh`, `wissens-trigger.sh` (alle shell-getrieben) | **die gesamte App-Scheduled-Task-Flotte** — kein einziger Treffer in `~/.claude/scheduled-tasks/`, auf keiner der beiden Stationen |
+
+Rule `auto-verbesserungen` 260728 formuliert «**jeder** Mechanismus, der einen `claude`-Lauf
+automatisch startet, ruft VORHER `scripts/lauf-gate.sh`». Faktisch gilt das nur fuer die vier
+Shell-Mechanismen. Die App-Tasks werden vom App-Scheduler getrieben, nicht von einem Script, das
+ein Gate vorschalten koennte — betroffen sind auf dem MacBook die vier Nacht-Lernlaeufe
+(`wissens-chef`, `normen-nacht`, `twin-mail`, `twin-fidelity`) und die operativen Morgenbriefings.
+Fuer sie ruht der Speicherschutz allein auf der **Taktentzerrung**, nicht auf einer Messung.
+
+Das ist heute Nacht **folgenlos** — die Bahn ist geprueft und traegt:
+
+| Zeit | Station | Mechanismus | Gate |
+|---|---|---|---|
+| 22:30 | Mini | `training-energie` (launchd) | ja |
+| 23:11 | MacBook | `wissens-chef` (App-Task) | nein |
+| 23:30 / 02:30 / 05:30 | Mini | `nachtschicht` (launchd) | ja |
+| 01:28 / 03:40 / 05:45 | MacBook | `normen-nacht` / `twin-mail` / `twin-fidelity` | nein |
+
+Auf dem MacBook liegen die vier gate-losen Laeufe mindestens 2 h auseinander, bei typischen
+Laufzeiten von 5 bis 25 Minuten — kein Ueberlapp moeglich. Auf dem Mini sind beide Mechanismen
+gate-gedeckt. Der Befund ist also keine offene Gefahr, sondern eine **unbenannte Grenze**: wer die
+Regel liest, haelt den Speicherschutz fuer flaechendeckend, und die naechste Takt-Verdichtung auf
+dem MacBook wuerde genau in dieser Luecke landen. In der Rule als Grenze verankert (nicht die
+Politik geaendert). Massnahme zum Entscheid, falls der MacBook-Nachttakt je wieder verdichtet wird:
+den Gate-Aufruf als ersten Schritt in die vier Lern-Task-Prompts nehmen — die operativen Briefings
+bleiben ausgenommen, die duerfen nie abgewiesen werden.
+
+**Nebenbefund, derselbe Messfehler-Typ wie am 28.07. frueh:** `ps` weist die beiden
+`tapir-archicad`-Prozesse mit 26 MB bzw. 15 MB RSS aus, `top` mit je **1424 MB** — genau die
+Diskrepanz, wegen der Rule 260728 `top`/`vm_stat` zur Pflicht macht. Wer hier `ps` glaubt, haelt
+den groessten Einzelposten der Maschine fuer eine Randnotiz.
+
+**P2 — unveraendert offen, Entscheid Raphael.** Die beiden `tapir-archicad-mcp`-Prozesse (PID
+1405/1406, seit 15 h) halten weiter je 1424 MB, ArchiCAD ist auf dieser Station nach wie vor nicht
+geoeffnet — zusammen mit zwei Helferprozessen 2,8 GB auf einer 16-GB-Maschine mit aktuell 4166 MB
+verfuegbar. Nicht angetastet (Benutzer-Anwendung). Vorschlag unveraendert: den ArchiCAD-MCP-Server
+nur bei Bedarf laden.
+
+**P3 — zwei wirkungslose Zeilen in `.claude/settings.json` erzeugen bei JEDEM headless-Lauf zwei
+Warnzeilen.** `Write(//Volumes/daten/jans-ai-hub/**)` (Z. 29) und
+`Write(//Users/…/OneDrive-…/**)` (Z. 32) greifen nicht: Pfad-Regeln werden nur als `Edit(...)`
+ausgewertet. Funktional folgenlos, weil `Edit(*)` und `Write(*)` global in derselben allow-Liste
+stehen (Z. 6/7) — es entsteht also **keine** Berechtigungsluecke, nur Log-Rauschen. Nicht
+geaendert: eine geteilte Config ohne Funktionsgewinn anzufassen ist nicht Sache des Radars.
+Saubere Fassung waere, Z. 29 zu streichen (Z. 28 deckt den Pfad bereits als `Edit` ab) und Z. 32
+auf `Edit(...)` umzustellen.
+
+**Speicher- und Waechterlage sauber.** MacBook Pro 4166 MB verfuegbar, Mac Mini rund 12,8 GB,
+Speicherdruck beidseitig 1 (normal). Der Speicher-Waechter steht bei 29 Laeufen, letzter Exit 0,
+aktiv — und schweigt seit der 13:00-Korrektur durchgehend, also rund neun Stunden. Das Gate-Log
+zeigt seit 12:59 keinen Eintrag: korrekt, weil bis 22:30 kein gate-pflichtiger Mechanismus feuert.
+
+**Leerlaufquote: unveraendert, keine Massnahme noetig.** Kein aktiver Loop erreicht die
+3er-Schwelle. Deaktiviert und still bleiben `immobewertung`, `spec`, `wettbewerbs-dna`,
+`training-plg`.
+
+**Durchsatz: 110 Commits heute, davon 24 substanziell.** Juengster um 21:54 die Antwort auf eine
+reale Fachfrage — Report «Lueftung Therapiekueche Spital Zuerich» in `wissen/normen/outputs/` samt
+CHANGELOG. Das ist der Compounding-Loop der Rule `wissens-bibliothekar`, wie er gedacht ist: eine
+Frage Raphaels macht die KB besser, statt zu verpuffen. Ansonsten seit 19:00 nur die
+15-Minuten-Statuszeilen — unter der Rollentrennung 260728 der Sollzustand fuer die Arbeitsstation.
+Gelernt wird ab 22:30 auf dem Mac Mini.
+
 ## 2026-07-28 19:00 — [FREI] Die 16:00-Lehre eine Stufe weitergezogen: nicht nur die Datei, sondern die von launchd GELADENE Definition geprueft. Nachtschicht-Takt sauber, keine Luecke
 
 **Selbstkontrolle:** letzter Eintrag 16:00, dieser Lauf 19:00 — 3,0 h bei 3-h-Takt, kein
