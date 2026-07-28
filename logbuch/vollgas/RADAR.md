@@ -30,6 +30,73 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-07-28 06:55 — [FREI] Der neue Destillat-Loop traegt: 6 Artikel in einer Nacht. Aber zwei Nachtschicht-Zyklen waren Totalausfaelle durch einen Session-Fehler, der nirgends festgehalten war — jetzt in der SKILL.md verankert
+
+**Selbstkontrolle:** letzter Eintrag 01:07, dieser Lauf 06:55 — 5,8 h Abstand bei 3-h-Takt, also
+**ein verpasster Lauf** (03:50). Ursache erkennbar in der Registry: `twin-mail-training` (03:35),
+`twin-fidelity-review` (05:40) und `konversations-log` (06:10) tragen alle `lastRunAt` **06:50/06:55**
+— saemtliche faelligen Tasks sind in einem Nachhol-Schwung gleichzeitig gefeuert. Der Task-Runner
+dieser Station stand also zwischen ~01:10 und ~06:50 still und hat danach den Rueckstand
+abgearbeitet. Kein Kontingent-Problem (siehe unten), sondern ein Wecker-/Schlaf-Verhalten der
+Station. Vorerst nur festgehalten, nicht behandelt (P3).
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung (`. ~/.jans-dispatch.env`) antwortet
+«OK». Kein Login-Blocker, kein Wochenlimit, kein Mail-Anlass. Hinweis zur Methode fuer kuenftige
+Laeufe auf dieser Station: `timeout` existiert in der zsh-Umgebung nicht — die Probe braucht einen
+eigenen Watchdog-Subprozess.
+
+**Durchsatz: gut.** 45 Commits seit Mitternacht, 8 in den letzten 90 Minuten. Die Nacht lieferte
+substanzielle Arbeit: baurecht Run 69, wissens-chef Run 18, energie Run 117, projekt-lessons
+Bootstrap (2 Lesson-Artikel), planungsgrundlagen-Nachaudit — und erstmals der neue Destillat-Loop.
+
+**P1 — Leerlauf neuer Art: zwei Nachtschicht-Zyklen haben Budget verbraucht und nichts geliefert.**
+Der Leerlauf-Auftrag zielt auf Loops, die «nichts Neues» melden. Hier liegt ein anderer, teurerer
+Typ vor: die Zyklen **02:30 und 03:30** haben `destillat-lauf.sh` im **Hintergrund** gestartet und
+danach auf eine automatische Benachrichtigung gewartet, die nie kommt — jeder Dispatch-Lauf ist ein
+eigener Prozess, der Kindprozess stirbt beim Sessionende. Beide Protokolle enden woertlich mit
+«Ich warte jetzt auf die automatische Benachrichtigung» und null Deliverable. Der 04:30-Lauf hat den
+Fehler selbst diagnostiziert und synchron im Vordergrund nachgeholt — **aber nirgends festgeschrieben**.
+Die `SKILL.md` sagte weiterhin nur «Pipeline starten»; der naechste Lauf haette denselben Fehler
+wieder machen koennen. Das ist die eigentliche Leerlauf-Ursache dieser Nacht: nicht ein saturierter
+Korpus, sondern ein nicht persistierter Betriebsfehler.
+
+**Ausgefuehrt (Leerlauf-Waechter):**
+- `skills/wissens-destillat/SKILL.md`, Schritt 3: Pipeline **zwingend im Vordergrund** — nie im
+  Hintergrund starten und auf eine Benachrichtigung warten, mit dem Beleg der beiden verlorenen
+  Zyklen. Damit ist die Lektion an dem Ort, den der naechste Lauf liest.
+- `KORPUS-QUEUE.md` nachgefuehrt: Korpus 1 `bauprodukte` stand noch auf «Spec offen / naechster»,
+  obwohl die Spec seit 01:33 existiert und 6 Artikel geschrieben sind. Neu «in Arbeit» mit Stand.
+  Ein Register, das den eigenen Fortschritt nicht abbildet, laesst den naechsten Lauf die
+  Spec-Gate-Frage erneut stellen.
+
+**Keine Takt-Massnahme faellig.** Leerlaufquote je Loop ueber die letzten Laeufe: baurecht-buch
+(Run 69, 3 Zitierfehler gefunden), wissens-chef (Run 18, 5 materielle Fehler gefunden), energie
+(Run 117, 4 neue Themenfelder), twin-mail (Batch 79), twin-fidelity (27l), normen (Run 35) —
+alle mit echtem Delta, **kein Loop erreicht die 3x-Schwelle**. Bereits stillgelegt und unveraendert
+richtig: `wettbewerbs-dna` (wartet auf Richtungsentscheid), `immobewertung`/`spec`
+(ereignisgetriggert), `training-plg` (gestern nach 27x Delta Null abgeschaltet).
+
+**P2 — der Destillat-Loop laeuft, obwohl beide STOP-Dateien liegen. Das ist kein Widerspruch, aber
+es sollte einer weniger sein.** Die Fruehwarnung hat den Loop bewusst nicht scharf geschaltet («der
+Runner startet erst auf Raphaels Wort»). Gefeuert hat ihn trotzdem etwas: `ch.jans.nachtschicht` auf
+dem Mac Mini (stuendlich :30, Budget 5 USD) hat sich den Destillat-Auftrag ueber seine eigene
+Prioritaetenliste selbst gegriffen — und damit die 6 Artikel geliefert. **Der Endlos-Runner wird
+dafuer also gar nicht gebraucht.** Das ist ein Argument fuer Variante (a) der offenen
+Grundsatzfrage: Nachtschicht + Registry-Takte reichen, der Runner samt Supervisor kann ausgebaut
+werden. Entscheid bleibt bei Raphael; die STOP-Dateien wurden nicht angetastet.
+
+**P3 — Ertrag des ersten Destillat-Korpus.** 6 Artikel in ~10 h, Stueckkosten rund 2–3.30 USD je
+produktivem Zyklus, Beleg-Pruefung jeweils in derselben Session (Nachtschicht-Budgetdisziplin statt
+separater Kurator-Stufe). Qualitativ sauber: BKP-Codes gegen `references/bkp-2017/` verifiziert,
+Preise als 2011er-Stand datiert, offene Punkte in `QUESTIONS.md`. Der Korpus hat 37 Sektionen —
+bei diesem Tempo ist das Wochen an echter Arbeit. Damit ist die Frage vom 27.07. («hat der Hub noch
+Arbeit?») fuer absehbare Zeit beantwortet.
+
+**Kein Mail-Versand:** kein P1-Blocker, den nur Raphael loesen kann, kein erschoepftes
+Wochenkontingent. Die beiden Massnahmen liegen im Mandat.
+
+---
+
 ## 2026-07-28 01:07 — [FREI] Ein DRITTER Taktgeber gefunden: zwei launchd-Jobs auf dem Mac Mini feuern Trainings-Loops an Registry UND Runner vorbei — `training-plg` (27x Delta Null in Folge) abgeschaltet
 
 **Selbstkontrolle:** letzter Eintrag 27.07. 22:15/22:25, dieser Lauf 01:07 — rund 2,7 h Abstand

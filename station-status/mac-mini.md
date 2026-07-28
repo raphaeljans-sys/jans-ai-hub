@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 28.07.2026 06:38:08
+Stand: 28.07.2026 06:58:18
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 06:34)
@@ -12,4 +12,4 @@ Stand: 28.07.2026 06:38:08
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 32c2323c wissens-destillat bauprodukte: BKP-273-Artikel Arbeitsplatten-Verbinder (06:30-Nachtschichtlauf)
+- 64f173f4 nas-selfcommit: 2 Datei(en) 2026-07-28 06:45

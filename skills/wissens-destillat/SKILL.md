@@ -69,6 +69,13 @@ als ein weiter mit unscharfer.
    bash /Volumes/daten/jans-ai-hub/skills/wissens-destillat/tools/destillat-lauf.sh <korpus-id>
    ```
    Das Script gibt den Pfad des Batch-Protokolls aus.
+
+   **ZWINGEND im Vordergrund laufen lassen — nie im Hintergrund starten und auf eine
+   Benachrichtigung warten.** Ein Dispatch-/Nachtschicht-Lauf ist ein eigenstaendiger Prozess:
+   der Kindprozess stirbt beim Sessionende, und die erwartete Benachrichtigung kommt nie. Der
+   Lauf endet dann ohne jedes Ergebnis. Belegt 28.07.2026: die Nachtschicht-Zyklen 02:30 und
+   03:30 waren aus genau diesem Grund Totalausfaelle (Budget verbraucht, null Artikel), erkannt
+   und behoben vom 04:30-Lauf.
 4. **Phase 3 — Kurator (diese Session, Opus).** Das Protokoll und **jeden** in diesem Lauf
    geschriebenen Artikel öffnen und:
    - **Beleg-Prüfung:** jede nicht-triviale Aussage gegen die im Frontmatter genannte Quelle
