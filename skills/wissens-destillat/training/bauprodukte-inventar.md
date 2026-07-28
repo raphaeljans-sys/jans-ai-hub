@@ -178,8 +178,8 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [x] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_35mm.pdf | bauprodukte | → [[arbeitsplatten-verbinder-schreinerei]] |
 | [x] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_HETTICH_AVB_5.pdf | bauprodukte | → [[arbeitsplatten-verbinder-schreinerei]] |
 | [x] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_Zip_Bold_Mini.pdf | bauprodukte | → [[arbeitsplatten-verbinder-schreinerei]] |
-| [t] | 281 Bodenbelaege | 281 Bodenbelaege/020226 Terrazzo 1.doc | bauprodukte | P1 · Terrazzo |
-| [t] | 281 Bodenbelaege | 281 Bodenbelaege/020226 Terrazzo 2.doc | bauprodukte | P1 · Terrazzo Teil2 |
+| [x] | 281 Bodenbelaege | 281 Bodenbelaege/020226 Terrazzo 1.doc | bauprodukte | → [[terrazzo-kunststein-bodenbelaege]] |
+| [x] | 281 Bodenbelaege | 281 Bodenbelaege/020226 Terrazzo 2.doc | bauprodukte | → [[terrazzo-kunststein-bodenbelaege]] |
 | [t] | 281 Bodenbelaege | 281 Bodenbelaege/Offerte_Terrazzo_Belaege.pdf | bauprodukte | - · Kostendokument |
 | [ ] | 282 Wandbeläge | 282 Wandbeläge/2 Referenzen/180516 Materialisierung.pdf | bauprodukte | |
 | [ ] | 282 Wandbeläge | 282 Wandbeläge/2 Referenzen/SKM_C30818051015130.pdf | bauprodukte | |

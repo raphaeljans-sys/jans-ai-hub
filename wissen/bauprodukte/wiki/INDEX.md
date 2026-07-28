@@ -31,3 +31,8 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
 - [[arbeitsplatten-verbinder-schreinerei]] — Arbeitsplatten-Verbinder Vergleich
   3 Systeme (Kunststoff-Exzenter, HETTICH AVB 5, Zip Bold Mini): Bohr-Ø,
   Montagewerkzeug, Stückpreise (Stand 2011, unverifiziert)
+
+### BKP 281 — Bodenbeläge
+- [[terrazzo-kunststein-bodenbelaege]] — Kunststein-Plattenboden (281.5) vs.
+  vor Ort gegossener Terrazzo/geschliffener Beton (281.1): Aufbauvarianten,
+  Rezeptur-Hinweise, Ausführungsrisiken, Preisvergleich (Stand 2002, unverifiziert)

@@ -36,3 +36,8 @@
    Verbindersystemen (z.B. Lamello, Domino) und keine geprüften Zugkraftwerte —
    nur Marketing-Aussagen der Quelle. Vor Ausschreibung BKP 273.3 aktuelle
    Bezugsquelle/Preise neu abklären.
+8. **Terrazzo/Kunststein ohne Rutschfestigkeits-/Reinigungsangaben:**
+   [[terrazzo-kunststein-bodenbelaege]] stützt sich auf eine 2002er-Sitzungsnotiz ohne
+   R-Werte oder Norm-Klassifizierung. Für eine heutige Ausschreibung fehlt die
+   normative Einordnung (z.B. SIA/DIN Rutschfestigkeitsklassen) — nicht Teil eines
+   unbeaufsichtigten Nachtlaufs (eigene Normrecherche nötig).

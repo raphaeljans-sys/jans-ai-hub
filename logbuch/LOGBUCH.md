@@ -7,6 +7,16 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-28
 
+**Nachtschicht Mac Mini (~07:30) — Destillat-Lauf 4: Artikel BKP 281 Bodenbeläge.**
+Prio 1/2 leer/gesaettigt, Trainings-Loops laufen auf eigenem Takt (kein manueller
+Zweit-Start, Rule 260727) — daher naechste P1-Position im `bauprodukte`-Inventar
+destilliert: die zwei Terrazzo/Kunststein-Sitzungsnotizen (Kerez-Buero, 26.02.2002)
+zu `wiki/terrazzo-kunststein-bodenbelaege.md` (BKP 281.1/281.5, Aufbauvarianten,
+Rezeptur, Preisvergleich). Gegen die Quellen zurueckgeprueft, Register (INDEX/
+QUESTIONS/CHANGELOG/Inventar) nachgefuehrt, Report unter
+`wissen/bauprodukte/outputs/2026-07-28_destillat-lauf4-281-bodenbelaege.md`. Kein
+Fan-out, kein Versand. ~$2.30 von $5 Budget.
+
 **Nachtschicht Mac Mini (~01:30-02:00) — Korpus-Spec `bauprodukte` geschrieben.** Nach
 Doppelarbeit-Check (dispatch-Log, CHANGELOGs mehrerer KBs) zeigte sich: die Mac-Mini-eigenen
 Loops (planungsgrundlagen, energie, synobsis) sind aktuell/gesaettigt, kein Fristen-Punkt neu

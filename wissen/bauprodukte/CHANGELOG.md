@@ -1,5 +1,29 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-07-28 — Neuer Artikel BKP 281 Bodenbeläge (Mac Mini Nachtschicht, 07:30-Lauf)
+- **Artikel `wiki/terrazzo-kunststein-bodenbelaege.md` geschrieben** (status
+  `emerging`) aus den zwei P1-triagierten Dateien `281 Bodenbelaege/020226 Terrazzo
+  1.doc` und `020226 Terrazzo 2.doc` (Materialrecherche Architekturbüro Christian
+  Kerez Zürich, Sitzung mit Fa. Studer Frick, 26.02.2002, Projekte Schule Eschenbach
+  und MFH Forsterstrasse). Deckt zwei BKP-Subpositionen ab: Kunststein-Plattenboden
+  (281.5, zwei Verlegevarianten Mörtelbett/geklebt) und vor Ort gegossener Terrazzo/
+  geschliffener Beton (281.1, inkl. Rezeptur-Hinweise Zementgehalt/Hydrolent und der
+  im Dokument namentlich zugeschriebenen Zweischicht-Idee von J. Schwartz). Alle
+  Preise/Angaben direkt aus den zwei .doc-Dateien übernommen (per `textutil -convert
+  txt` extrahiert), keine Ergänzung, Preise explizit als 2002er-Stand markiert.
+  BKP-Codes 281.1/281.5 gegen `references/bkp-2017/BKP-2017-Liste.md` verifiziert.
+- `wiki/INDEX.md` (neue BKP-281-Sektion) und `wiki/QUESTIONS.md` (1 neuer offener
+  Punkt: keine Rutschfestigkeits-/Reinigungsangaben, normative Klassifizierung fehlt)
+  nachgeführt.
+- Inventar `skills/wissens-destillat/training/bauprodukte-inventar.md`: beide
+  Quelldateien von `[t]` auf `[x]` gesetzt. Die dritte, bereits als Kostendokument
+  triagierte Datei (`Offerte_Terrazzo_Belaege.pdf`) bewusst nicht destilliert (kein
+  Fachwissen, reine Preisofferte 2005 — siehe Inventar-Notiz).
+- Beleg-Prüfung in derselben Session durchgeführt (kein separater Kurator-Lauf,
+  Nachtschicht-Budgetdisziplin): beide Quelldokumente vollständig gelesen, alle
+  Preise/Verfahrensangaben im Artikel gegen den Volltext zurückgeprüft, keine
+  Abweichung gefunden. Kein Fan-out, keine `AskUserQuestion`.
+
 ## 2026-07-28 — Neuer Artikel BKP 273 Schreinerarbeiten (Mac Mini Nachtschicht, 06:30-Lauf)
 - **Artikel `wiki/arbeitsplatten-verbinder-schreinerei.md` geschrieben** (status
   `emerging`) aus den drei P1-triagierten Dateien in `273 Schreinerarbeiten/
