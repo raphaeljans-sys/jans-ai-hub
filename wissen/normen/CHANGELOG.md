@@ -1,3 +1,24 @@
+## 2026-07-28 — Fachanfrage Raphael: Lüftung Therapieküche (Spital Stadt Zürich, Umnutzung Büro zu psychosomatischer Wohngruppe)
+- **Report angelegt:** `outputs/2026-07-28_therapiekueche-lueftung-spital-zuerich.md` — Querschnitt
+  Baurecht ZH (PBG §§ 302/306/309, BBV I §§ 29/30/36/41 + Anhang Ziff. 2.25), Arbeitsrecht
+  (ArGV 3 Art. 16-18 + SECO-Wegleitung Art. 17, Juli 2020), Lebensmittelrecht (HyV Art. 9/10,
+  LMG Art. 2 Abs. 4 lit. c), Brandschutz (VKF-BRL 25-15 Ziff. 4.2 Küchen, Ziff. 3.8.2 Abs. 2 lit. c
+  600-m²-Grenze bei Beherbergungsbetrieben) und Lüftungsnormen (SIA 382/1:2025, SIA 382/5:2021,
+  SWKI VA102-01/VA104-01/VA105-01, SN EN 16282-1, VDI 2052).
+- **Neuer belegter Befund:** § 41 BBV I knüpft die Pflicht zur künstlichen Belüftung von
+  «Wirtschaftsküchen» an die **Unterstellung des Betriebs unter das Gastwirtschaftsgesetz**, nicht an
+  die Küchengrösse — massgebliches Abgrenzungsscharnier Produktionsküche gegen Haushaltsküche im
+  ZH-Baurecht. Ergänzend verweist der BBV-I-Anhang (Bestätigungsverzeichnis Private Kontrolle,
+  Fachbereich Klima-/Belüftungsanlagen lit. d) für Wirtschaftsküchen-Abluftanlagen auf die
+  BAFU-Empfehlung «Mindesthöhe von Kaminen über Dach», Ausgabe 2018 (Anhang Ziff. 2.25).
+- **Offen (in den Report übernommen):** die verbreitete 25-kW-Faustregel für die Pflicht zu
+  mechanischer Zu-/Abluft in gewerblichen Küchen liess sich an **keiner** Normstelle verifizieren
+  (EN 16282-1 und VDI 2052 nicht im Volltext geprüft; cci-dialog/REVEN nennen ausdrücklich kein
+  kW-Kriterium) — bis zur Verifikation nicht als normative Schwelle zitieren.
+- **Ausgaben-Disziplin:** SIA 382/1:2025 ist die geltende Ausgabe, das KB-Destillat führt 2014
+  (Re-Destillat weiterhin ausstehend, REGISTER Z. 472). Tabellenwerte (u.a. Tab. 14 Abluft-Richtwerte
+  Küche) für Bemessungen am Original der Ausgabe 2025 prüfen.
+
 ## 2026-07-27 — Wissens-Chef Run 18 (Cross-KB): drei Bring-Schulden angemeldet, davon eine mit Klassen-Charakter
 - **[register, P1] SIA 385/9 — Fassungsstand pruefen, und dahinter eine strukturelle Grenze.** Der
   Cross-KB-Lauf hat die hier in Run 22 geleistete Aufloesung der Nummern-Wiederverwendung (385/1:2000
