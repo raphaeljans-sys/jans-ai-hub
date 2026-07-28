@@ -30,6 +30,85 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-07-29 01:00 — [FREI] Das Nachtfenster traegt (drei Laeufe, drei Ergebnisse). Aber zwei Twin-Loops haben am 28.07. NICHTS geliefert — die Registry meldet sie trotzdem als gelaufen
+
+**Selbstkontrolle:** letzter Eintrag 28.07. 22:00, dieser Lauf 29.07. 00:57 — 3,0 h bei
+3-h-Takt, kein verpasster Lauf.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung (`. ~/.jans-dispatch.env`)
+antwortet «OK». Kein Login-Blocker, kein Wochenlimit, kein Mail-Anlass. Endlos-Runner ruht
+unveraendert auf beiden Stationen (STOP-Dateien, Gruende aktuell und dokumentiert).
+
+**Durchsatz: das Fenster war mit ARBEIT gefuellt.** Alle drei geplanten Laeufe der letzten
+drei Stunden haben gefeuert UND geliefert — kein Delta-Null, keine Massnahme noetig:
+
+| Zeit | Station | Loop | Ergebnis |
+|---|---|---|---|
+| 22:30 | Mini | `training-energie` | Run 118: sechs neue Destillate, FAQ F178–F183 (Commit 22:45) |
+| 23:11 | MacBook | `wissens-chef` | Run 19: Cross-KB am neuen WsG/WsV-Volltext, 7 bestaetigt / 3 widerlegt (Commit 23:36) |
+| 23:30 | Mini | `nachtschicht` → Destillat | Artikel `bkp-261-aufzuege.md`, im INDEX registriert (Commit 23:45) |
+
+**P1 — ZWEI LOOPS MIT EINEM GANZEN TAG NULL-ERTRAG, VON DER REGISTRY VERDECKT.**
+`twin-mail-training` und `twin-fidelity-review` haben am 28.07. **kein einziges Artefakt**
+erzeugt. Nachgemessen ueber vier unabhaengige Spuren:
+
+- kein Commit am 28.07. — juengster twin-mail-Stand ist **Batch 79 vom 27.07. 20:32**,
+  juengster Fidelity-Report **260727l vom 27.07. 21:50**;
+- keine Facetten-Wiki-Aenderung (`stimme`, `arbeitsweise`, `fachsignatur`, `beziehungsregister`,
+  `haltung`, `denken` — alle Stand 27.07.);
+- kein Report in `wissen/twin/outputs/` fuer den 28.07.;
+- `wissen/twin/CHANGELOG.md` endet am 27.07.
+
+Geaendert wurde am 28.07. in der ganzen KB genau **eine** Datei — `QUESTIONS.md` um 09:00,
+und zwar durch den **twin-chef-Gate**, einen anderen Mechanismus.
+
+Die Registry sagt das Gegenteil: beide Tasks tragen `lastRunAt` **2026-07-28T04:50:50Z**
+(= 06:50:50 lokal) und sehen damit gesund aus. Der 06:55-Eintrag hatte diesen
+Nachhol-Schwung bereits gesehen (vier faellige Tasks in derselben Sekunde) und ihn als
+P3-«Wecker-/Schlaf-Verhalten» abgelegt — was niemand geprueft hat, ist, ob die nachgeholten
+Laeufe danach auch **etwas abgeliefert** haben. Der Rest der Kette ist jetzt gemessen:
+`last reboot` und `kern.boottime` weisen einen **Neustart um 06:53:53** aus, also rund drei
+Minuten nach dem Start beider Laeufe. Bei typischen Laufzeiten von 5 bis 25 Minuten waren
+beide zu diesem Zeitpunkt mitten in der Arbeit. Beweisbar sind Start (06:50:50), Neustart
+(06:53:53) und Null-Ertrag; dass der Neustart die Ursache war, ist die sparsamste Erklaerung,
+nicht ein gemessener Kausalzusammenhang.
+
+**Konsequenz fuer den Leerlauf-Auftrag selbst — hier war meine Messgroesse blind.** Schritt 4
+meines Auftrags zaehlt Laeufe, die «nichts Neues» **melden**. Ein Lauf, der abgeschossen wird,
+meldet gar nichts und ist von einem stillen, gesunden Loop nicht zu unterscheiden. Und
+`lastRunAt` markiert den **Start**, nicht die Lieferung. Ein Loop kann also in der Registry
+taeglich «laufen» und trotzdem seit Tagen nichts beitragen. Massgeblich ist ab jetzt der
+**Liefer-Delta** je Loop (Commit / Datei-Aenderung / Report), nicht der Registry-Zustand.
+Als Ergaenzung zum Leerlauf-Waechter in Rule 260727 verankert.
+
+**Keine Massnahme — das ist der Gegenfall zu Delta Null.** Die beiden Loops sind nicht leer,
+sondern hungrig: der Rueckwaerts-Sweep hat am 27.07. das «Material erschoepft» zweimal
+widerlegt (Batch 79, Fidelity 260727j/k/l). Ruecktakten waere hier genau falsch.
+**Nachpruefbare Vorhersage fuer den naechsten Lauf (03:50):** `twin-mail-training` feuert
+03:39, `twin-fidelity-review` 05:44. Zeigen beide bis dahin einen Liefer-Delta, war der
+Neustart die Ursache und der Fall ist erledigt. Zeigt er sich nicht, liegt die Ursache
+tiefer und der Loop ist defekt, nicht nur unterbrochen.
+
+**P2 (unveraendert, dritter Lauf in Folge) — `tapir-archicad`-MCP haelt 2,8 GB ohne laufendes
+ArchiCAD.** PIDs 1405/1406, gestartet 06:55 direkt nach dem Neustart, je 1424 MB laut `top`
+(`ps` weist 24 bzw. 12 MB aus — dieselbe Diskrepanz wie am 28.07.). `pgrep` findet kein
+laufendes ArchiCAD. Aktuell **kein** Blocker: MacBook 4305 MB verfuegbar, Mac Mini 12872 MB,
+Druck 1 auf beiden, null laufende `claude -p`. Nicht angetastet — der Speicher-Waechter ist
+laut Rule 260728 ausdruecklich auf OneDrive begrenzt und darf Claude-Prozesse nicht neu
+starten. Bleibt Entscheid Raphaels.
+
+**P3 — eigener Messfehler, korrigiert bevor er zur Fehlmeldung wurde.** Eine
+Ad-hoc-Nachmessung des freien Speichers mit hart kodierter Seitengroesse 4096 lieferte
+1090 MB und damit scheinbar einen Gate-Defekt: das Gate haette bei einer MacBook-Schwelle von
+3000 MB abweisen muessen, gab aber frei. Der Vergleich mit der Gate-Funktion selbst
+(`frei_mb`) zeigte den Fehler auf meiner Seite — Apple Silicon nutzt **16384** Byte pro Seite,
+das Gate liest die Groesse korrekt aus `vm_stat`, real verfuegbar sind 4305 MB. Das Gate ist
+in Ordnung. Lehre in derselben Linie wie die `unused`- und `ps`-Fallen vom 28.07.: eine
+Kennzahl, die eine Schutzmechanik in Frage stellt, zuerst **mit deren eigener Funktion**
+gegenmessen, nie mit einer selbst gebauten Variante.
+
+---
+
 ## 2026-07-28 22:00 — [FREI] Die Pruefkette weiter am Ende gedacht: welche Mechanismen erreichen das Lauf-Gate ueberhaupt? Die App-Task-Flotte tut es nicht — heute Nacht folgenlos, aber unbenannt
 
 **Selbstkontrolle:** letzter Eintrag 19:00, dieser Lauf 22:00 — 3,0 h bei 3-h-Takt, kein

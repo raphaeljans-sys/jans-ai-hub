@@ -145,6 +145,18 @@ Konzept: `docs/konzepte/260719-Kontext-Diaet-Token-Reduktion/`).
   ag-gruendung-monitor, konversations-log, vollgas-fruehwarnung). Ein volles 5h-Fenster ist nur
   dann Erfolg, wenn es mit ARBEIT gefuellt war; ein Fenster voller Delta-Null-Laeufe oder
   Fehlversuche gegen ein leeres Kontingent ist Verschwendung.
+- **Nachtrag 29.07.2026 — Leerlauf am LIEFER-DELTA messen, nie am Registry-Zustand.** Die
+  Zaehlregel oben stuetzt sich auf Laeufe, die «nichts Neues» **melden**. Ein Lauf, der
+  abgeschossen wird (Neustart, Speichernot, Mount-Abfall), meldet gar nichts und ist von einem
+  stillen, gesunden Loop nicht zu unterscheiden. Verschaerfend: `lastRunAt` in der Task-Registry
+  markiert den **Start**, nicht die Lieferung — ein Loop kann dort taeglich «laufen» und seit
+  Tagen nichts beitragen. Massgeblich ist darum je Loop der **Liefer-Delta** (Commit /
+  Datei-Aenderung / Report im erwarteten Zielordner). Belegt 28.07.2026: `twin-mail-training`
+  und `twin-fidelity-review` tragen beide `lastRunAt` 06:50:50, der MacBook startete um
+  06:53:53 neu — beide Laeufe waren drei Minuten alt und lieferten null Artefakte, waehrend die
+  Registry sie als gelaufen auswies (juengster echter Stand: Batch 79 bzw. Fidelity 260727l,
+  beide vom 27.07.). **Und: Null-Ertrag ist NICHT Delta Null** — ein unterbrochener Loop wird
+  nicht rueckgetaktet, sondern beobachtet, ob der naechste planmaessige Lauf liefert.
 - **Gilt fuer:** alle Lern-/Trainings-Loops auf beiden Stationen, ab 27.07.2026.
 
 ## 260726 — Kein `git` ueber SMB aufs NAS-Repo: nativer Committer via nas-commit-now
