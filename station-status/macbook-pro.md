@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 28.07.2026 23:48:02
+Stand: 28.07.2026 23:58:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 23:41)
@@ -12,4 +12,4 @@ Stand: 28.07.2026 23:48:02
 - 22 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 003216ae nas-selfcommit: 25 Datei(en) 2026-07-28 23:45
+- 18fb30cf wissens-chef Run 19: Cross-KB-Lauf am neuen WsG/WsV-Volltext — Gewaesserraum-Festlegung auf § 18 Abs. 1 WsG korrigiert (3 KBs, OEREB-Thema 190), Konzessionsdauer Grundwasserwaerme 15-30 J. (§ 121 WsV, auch BAUHERREN-FAQ), SIA-500-Korrigenda C3:2013 + neu entdecktes C4:2019, Gebaeudekategorie Spital VIII statt IX, VKF-16-15-Luecke Nutzungseinheit, Erst-Pruefung KB bauprodukte (3 Fuehrungszeilen, SIA 312/BKP 224+288); 7 bestaetigt / 3 widerlegt
