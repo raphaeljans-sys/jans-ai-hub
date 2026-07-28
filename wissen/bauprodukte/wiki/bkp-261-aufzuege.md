@@ -3,7 +3,7 @@ title: "BKP 261 Aufzüge — Systemtypen, Kennwerte und Barrierefreiheit (Herste
 status: emerging
 last_updated: 2026-07-28
 sources: ["100426_AS_Aufzuege.pdf" (AS Aufzüge, Typ Winner, Referenz 2.1.0053.12.9, kein Datum im Dokument — Stand gemäss Dateiname 26.04.2010), "21005312.pdf" (AS Aufzüge, Handskizze «Rollstuhlgängig?», gleiches Firmenlogo wie Winner-Datenblatt, undatiert), "Graventa_lift_Technische_Daten_VANGOGH.pdf" (GARAVENTA LIFTECH AG, Küssnacht am Rigi, Sitzlift VAN GOGH, undatiert), "sch_pdf_sch3100_de.pdf" (Schindler Aufzüge AG Ebikon, Personenaufzug Schindler 3100, Druckvermerk SCH.3100.DE.12.07 = Stand Dezember 2007), "aufzug_rollstuhlgerecht.pdf" (Schmitt+Sohn Aufzüge, Kapitel 2.2 Seilpersonenaufzüge mit Maschinenraum SP, Druckdatum 27.11.2006)]
-links: [[REGISTER]]
+links: [[REGISTER]], [[sia-500-2009]]
 ---
 
 # BKP 261 Aufzüge — Systemtypen, Kennwerte und Barrierefreiheit
@@ -68,6 +68,17 @@ zwischen den Herstellern:
 - Die AS-Kategorien lassen sich nicht ohne Weiteres auf EN 81-70 zurückführen; beide
   Systematiken (Firmen-eigen vs. normbasiert) sind im Text erkennbar zu halten, wenn
   ein LV daraus zitiert.
+- **Schweizer Fundstelle nachgetragen (Kuratorstufe, gegen `wissen/normen/`
+  verifiziert):** [[sia-500-2009]] Ziff. 3.7.3/Tabelle 4 verweist selbst auf
+  SN EN 81-70 und gibt drei Kabinen-Mindestmasse vor: Standard 1.10 × 1.40 m,
+  «bedingt zulässig» kleiner 1.00 × 1.25 m, Aussenraum/hoher Personenverkehr
+  1.10 × 2.00 m. Die AS-Winner-Kabine (1250 × 1460 mm) **übertrifft rechnerisch
+  beide Masse der Standard-Kategorie** (1.25 > 1.10 m Breite, 1.46 > 1.40 m Tiefe)
+  — die AS-eigene Einstufung «bedingt rollstuhlgängig» ist also enger gefasst als
+  die SIA-500-Mindestanforderung, aus den vorliegenden Massen allein nicht ableitbar,
+  warum AS die schwächere Kategorie vergibt (evtl. Zugangsbreite/Anfahrgenauigkeit,
+  im Datenblatt nicht spezifiziert). Vor einem LV mit SIA-500-Bezug: Kabinenmass
+  gegen Tabelle 4 der Norm selbst rechnen, nicht die Herstellerkategorie übernehmen.
 
 ## Praxisregeln für JANS
 
@@ -106,6 +117,7 @@ zwischen den Herstellern:
   Hersteller neu abklären.
 - Keine Preisangaben in den Quellen — für eine Kostenschätzung sind aktuelle Offerten
   nötig (Skill `kostenschaetzung`/`ausschreibung`).
-- EN 81-70 selbst wurde hier nicht im Volltext geprüft, nur die Fundstelle aus dem
-  Schmitt+Sohn-Datenblatt übernommen — Ziffern-Detailprüfung bei Bedarf via
-  `wissen/normen/`.
+- EN 81-70 selbst (der internationale Normtext) wurde hier nicht im Volltext geprüft;
+  für die Schweiz ist ohnehin [[sia-500-2009]] Ziff. 3.7.3 die massgebliche, bereits
+  verifizierte Fundstelle (s.o.) — eine zusätzliche EN-81-70-Volltextprüfung ist nur
+  bei einem Detailkonflikt nötig.

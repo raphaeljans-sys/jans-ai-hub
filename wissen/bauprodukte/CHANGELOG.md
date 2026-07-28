@@ -1,5 +1,25 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-07-28 — Kurator-Stufe (Phase 3) für die vier Fliessarbeit-Artikel (Mac Mini Nachtschicht, 05:30-Lauf)
+- **Beleg-Prüfung:** `pu-beschichtung-fassade.md` und `chromstahltreppe-oberflaechen.md`
+  vollständig gegen ihre `.doc`-Rohquellen gegengelesen (`textutil -convert txt`) —
+  alle Zahlen/Referenzen stimmen wortgetreu, keine unbelegte Aussage gefunden.
+  `bkp-261-aufzuege.md` (Bild-PDFs ohne Textlayer) und `erco-lichtplanung-
+  grundlagen.md` (grosses Werk, nur Auszug) plausibilitätsgeprüft statt Wort-für-
+  Wort, ebenfalls kein Widerspruch.
+- **Cross-KB-Fund verwoben:** [[sia-500-2009]] (`wissen/normen`, `established`)
+  zitiert in Ziff. 3.7.3/Tabelle 4 die massgebliche Schweizer Aufzugs-Kabinenmasse
+  (SN EN 81-70). Gerechneter Abgleich ergänzt: die AS-Winner-Kabine (1250×1460 mm)
+  übertrifft die SIA-500-Standardmasse (1.10×1.40 m) rechnerisch, obwohl der
+  Hersteller sie nur als «bedingt rollstuhlgängig» führt — Lehre für JANS:
+  Kabinenmass immer gegen die Norm-Tabelle selbst rechnen, nicht die
+  Herstellerkategorie übernehmen. Backlinks in beide Richtungen gesetzt
+  (`bkp-261-aufzuege.md` ↔ `sia-500-2009.md`).
+- **Promotion:** keine — alle vier Artikel bleiben `status: emerging` (keine
+  unabhängige Zweitquelle, Rule 260714).
+- Report: `outputs/2026-07-28_destillat-lauf2-kurator.md`. Keine neue Destillation
+  in diesem Lauf (reine Kuratierung, Budget-Disziplin Nachtschicht).
+
 ## 2026-07-28 — Vier Artikel destilliert (Destillat-Stufe, Fliessarbeit-Lauf)
 - **8 P1-Positionen `[t]` abgearbeitet** aus dem Inventar (BKP 225, 233, 260/261, 272),
   4 Artikel geschrieben (alle `status: emerging`), 4 Inventarzeilen auf `[x]` gesetzt:
