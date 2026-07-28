@@ -9,6 +9,40 @@ und Historie) liegen in `rules/auto-verbesserungen-archiv.md` (nicht importiert)
 steht nur der aktive, imperative Kern. Konsolidiert am 19.07.2026 (Kontext-Diaet,
 Konzept: `docs/konzepte/260719-Kontext-Diaet-Token-Reduktion/`).
 
+## 260728 — Speicher-Deckel: jeder automatische Lauf fragt zuerst das Lauf-Gate
+- **Regel:** Jeder Mechanismus, der einen `claude`-Lauf automatisch startet, ruft VORHER
+  `scripts/lauf-gate.sh <name>` und tritt bei Exit 1 still zurueck. Das Gate zaehlt
+  stationsweit die laufenden `claude -p`-Prozesse und den freien Speicher (MacBook max. 2
+  Laeufe / min. 3 GB frei, Mini max. 3 / 4 GB). Ein Lock im eigenen Script genuegt NICHT —
+  er schuetzt nur gegen die zweite Instanz desselben Mechanismus, nicht gegen die fuenf
+  anderen. Belegt 28.07.2026: um 00:30 und 22:30 feuerten je zwei Laeufe gleichzeitig, weil
+  `nachtschicht` und ein `training`-Job denselben Zeitpunkt trafen. Verankert in
+  nachtschicht-run, cron-training-mini, vollgas-runner, wissens-trigger. NICHT in
+  `dispatch-run.sh` — der manuelle Weg vom Handy darf nie abgewiesen werden.
+- **Korrektur zu 260727/260728 (dort «es sind DREI Orte»):** Es sind **SECHS je Station**.
+  MacBook: Scheduled Tasks · vollgas-supervisor · `com.jans.aihub.runner` (alle 15 Min,
+  seit 07.06. ohne einen einzigen Job — 28.07. abgeschaltet) · synctask-runner ·
+  wissens-trigger · claude-autoupdate. Mini: Scheduled Tasks · `ch.jans.nachtschicht`
+  (15 Feuerungen taeglich, in keiner Regel je erwaehnt) · training-energie ·
+  vollgas-supervisor · synctask-runner · wissens-trigger. **Vor jeder Takt- oder
+  Stilllegungsentscheidung ALLE sechs pruefen** — das vollstaendige Inventar steht in
+  `docs/konzepte/260728-Speicher-Architektur/`.
+- **Speicher-Ursachen zuerst MESSEN, nie raten.** `ps aux` RSS zeigt komprimierten Speicher
+  NICHT und fuehrt in die Irre; massgeblich ist `top -l 1 -o mem -stats command,mem`.
+  Belegt 28.07.2026: auf dem Mac Mini wies `ps` Claude mit 1.3 GB als harmlos aus, waehrend
+  **OneDrive 33 GB** hielt (bei 32 GB RAM, 108 MB frei, Swap 9.4/10.2 GB). Ein OneDrive-
+  Neustart gab 15 GB frei — ohne jeden Eingriff an Claude. Gegenmassnahme dauerhaft:
+  `scripts/speicher-waechter.sh` (launchd `ch.jans.speicher-waechter`, alle 30 Min, beide
+  Stationen) startet NUR OneDrive neu, nie Claude und nie Benutzer-Anwendungen.
+- **Session-Transcripts rotieren.** `~/.claude/projects` waechst unbegrenzt (28.07.: 4.3 GB
+  MacBook, 5.2 GB Mini). `scripts/transcript-rotation.sh` (launchd, So 04:00) archiviert
+  verlustfrei alles aelter als 14 Tage und loescht Originale ERST nach geprueftem Archiv.
+- **Rollentrennung:** MacBook Pro = Arbeitsstation, keine Lern-Laeufe waehrend der
+  Arbeitszeit (twin-mail 28.07. von 2x auf 1x nachts zurueckgenommen). Operative
+  Morgen-Tasks mit mindestens 20 Min Abstand staffeln — vier Laeufe in 20 Minuten
+  (Stand vor dem 28.07.) sind die Hauptlast auf der 16-GB-Maschine.
+- **Gilt fuer:** beide Stationen, jeden automatischen Claude-Lauf, jede Takt-Aenderung.
+
 ## 260727 — Kein zweiter Taktgeber: ein Loop mit eigenem Scheduled Task gehoert NIE in den Endlos-Runner
 - **Regel:** Ein Lern-/Trainings-Loop, der einen **eigenen Scheduled Task mit definiertem Takt**
   hat, wird NIEMALS zusaetzlich vom Endlos-Runner (`scripts/vollgas-runner.sh`) gefahren — er

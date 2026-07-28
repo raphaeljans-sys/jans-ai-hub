@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>ch.jans.transcript-rotation</string>
+
+    <!-- Transcript-Rotation (Auftrag Raphael 28.07.2026).
+         Archiviert Session-Transcripts aelter als 14 Tage verlustfrei und
+         raeumt den Projektordner. Woechentlich Sonntag 04:00 — im Nachtfenster,
+         aber ausserhalb der Nachtschicht-Zeitpunkte (23:30 / 02:30 / 05:30).
+         Installation:
+           cp templates/launchd/ch.jans.transcript-rotation.plist ~/Library/LaunchAgents/
+           launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/ch.jans.transcript-rotation.plist -->
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>-c</string>
+        <string>S="$HOME/Developer/jans-ai-hub/scripts/transcript-rotation.sh"; [ -f "$S" ] || S="/Volumes/daten/jans-ai-hub/scripts/transcript-rotation.sh"; [ -f "$S" ] || exit 0; exec /bin/bash "$S"</string>
+    </array>
+
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Weekday</key>
+        <integer>0</integer>
+        <key>Hour</key>
+        <integer>4</integer>
+        <key>Minute</key>
+        <integer>0</integer>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <false/>
+
+    <!-- Keine StandardOutPath/StandardErrorPath auf /Volumes/daten (EX_CONFIG-Falle
+         bei SMB, belegt 27.07.2026). Das Script loggt selbst. -->
+</dict>
+</plist>

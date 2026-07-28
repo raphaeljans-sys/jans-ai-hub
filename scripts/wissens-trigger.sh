@@ -142,6 +142,16 @@ for eintrag in "${TRIGGERS[@]}"; do
         continue
     fi
 
+    # Lauf-Gate: stationsweiter Prozess-Deckel (Rule speicher-deckel 28.07.2026).
+    # Der Zweitinstanz-Schutz oben prueft nur denselben Task, nicht die
+    # Gesamtauslastung der Station.
+    GATE="$HOME/Developer/jans-ai-hub/scripts/lauf-gate.sh"
+    [ -f "$GATE" ] || GATE="/Volumes/daten/jans-ai-hub/scripts/lauf-gate.sh"
+    if [ -f "$GATE" ] && ! bash "$GATE" "wissens-trigger-$kb"; then
+        log "$kb: Lauf-Gate abgewiesen (Station ausgelastet) — uebersprungen."
+        continue
+    fi
+
     start=$(date +%s)
     antwort="$("$CLAUDE_BIN" -p --permission-mode acceptEdits --max-budget-usd 50 \
         --fallback-model sonnet --output-format text -- "$(cat "$skill")" 2>&1)"

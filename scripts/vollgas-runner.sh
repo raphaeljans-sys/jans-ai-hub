@@ -211,6 +211,18 @@ Committer ausloesen (commit+push auf der Synology, ext4, kein SMB), mit sprechen
   bash \"\$HOME/Developer/jans-ai-hub/scripts/nas-commit-now.sh\" \"<Loop>: <was geaendert>\"
 Kein git add/commit/push/pull selbst — nas-commit-now uebernimmt alles und zieht den
 SSD-Klon nach. So endet jeder Lauf sauber mit rc=0 (Rule sync-kanonische-quelle 26.07.2026)."
+        # --- Lauf-Gate: stationsweiter Prozess-Deckel -----------------------
+        # Der Runner kennt seine eigenen Laeufe, aber nicht die der Scheduled
+        # Tasks, der Nachtschicht oder des aihub-Runners. Genau diese Blindheit
+        # hat am 28.07.2026 den Speicher-Notstand ausgeloest. Das Gate zaehlt
+        # stationsweit (Rule speicher-deckel, 28.07.2026).
+        GATE="$HOME/Developer/jans-ai-hub/scripts/lauf-gate.sh"
+        [ -f "$GATE" ] || GATE="/Volumes/daten/jans-ai-hub/scripts/lauf-gate.sh"
+        if [ -f "$GATE" ] && ! bash "$GATE" "vollgas-$name"; then
+            log "GATE $name — Station ausgelastet, Lauf uebersprungen."
+            continue
+        fi
+
         START_TS=$(date +%s)
         log "START $name"
         # WICHTIG: Prompt via "--"-Separator als Positional uebergeben, NICHT inline

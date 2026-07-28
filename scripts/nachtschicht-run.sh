@@ -47,6 +47,19 @@ if ! mkdir "$LOCK" 2>/dev/null; then
 fi
 trap 'rmdir "$LOCK" 2>/dev/null' EXIT
 
+# --- Lauf-Gate (stationsweiter Prozess-Deckel) ----------------------------------
+# Der Lock oben schuetzt die Nachtschicht nur gegen SICH SELBST. Er verhindert
+# nicht, dass ein anderer Mechanismus zeitgleich feuert — belegt 28.07.2026:
+# um 00:30 und um 22:30 liefen je zwei Zyklen gleichzeitig, weil nachtschicht
+# und ein training-Job denselben Zeitpunkt trafen. Das Gate ist die gemeinsame
+# Instanz ueber alle Mechanismen (Rule speicher-deckel, 28.07.2026).
+GATE="$HOME/Developer/jans-ai-hub/scripts/lauf-gate.sh"
+[ -f "$GATE" ] || GATE="/Volumes/daten/jans-ai-hub/scripts/lauf-gate.sh"
+if [ -f "$GATE" ] && ! bash "$GATE" "nachtschicht"; then
+    log "Lauf-Gate hat abgewiesen (Station ausgelastet) — Zyklus uebersprungen."
+    exit 0
+fi
+
 # --- Repo aktualisieren (leise) --------------------------------------------------
 cd "$HOME/Developer/jans-ai-hub" 2>/dev/null && git pull --ff-only --quiet 2>/dev/null
 

@@ -31,6 +31,16 @@ if ! mkdir "$LOCK" 2>/dev/null; then
 fi
 trap 'rmdir "$LOCK" 2>/dev/null' EXIT
 
+# Lauf-Gate: stationsweiter Deckel ueber ALLE Mechanismen. Der Lock oben
+# schuetzt nur gegen einen zweiten Trainings-Dispatch, nicht gegen die
+# Nachtschicht oder einen Scheduled Task, der zeitgleich feuert (belegt
+# 28.07.2026: 22:30 nachtschicht + training-energie gleichzeitig).
+GATE="$HOME/Developer/jans-ai-hub/scripts/lauf-gate.sh"
+[ -f "$GATE" ] || GATE="/Volumes/daten/jans-ai-hub/scripts/lauf-gate.sh"
+if [ -f "$GATE" ] && ! bash "$GATE" "cron-training-${1:-?}"; then
+    echo "$(date '+%F %T') Lauf-Gate abgewiesen - $1 uebersprungen" >> "$LOG"; exit 0
+fi
+
 case "${1:-}" in
   energie)
     PROMPT="Fuehre EINEN Intensiv-Lauf des Energie-Trainings aus. Verbindlich: /Volumes/daten/jans-ai-hub/wissen/energie/training/PROGRAMM.md inkl. Sektionen Verifikations-Stufe, Intensivphase und Token-Vollgas (6-10 PDFs pro Lauf, Workflow-Parallelisierung autorisiert). Quelle PL - 04 Energie auf SharePoint/OneDrive. Register und CHANGELOG nachfuehren, Report nach outputs/, vor Commit git pull, dann committen und pushen."
