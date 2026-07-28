@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 28.07.2026 06:33:45
+Stand: 28.07.2026 06:44:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:32)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:42)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 28.07.2026 06:33:45
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 4bc35baf nas-selfcommit: 2 Datei(en) 2026-07-28 06:30
+- 32c2323c wissens-destillat bauprodukte: BKP-273-Artikel Arbeitsplatten-Verbinder (06:30-Nachtschichtlauf)
