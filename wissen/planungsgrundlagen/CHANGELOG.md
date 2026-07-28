@@ -2,6 +2,39 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-28 (abends) — Wettbewerbs-/Bautyp-Ebene Brandschutz: Scan Projekt 2408 WB BIWAK auf Raphaels Auftrag
+Auftrag Raphael: das Wettbewerbsprojekt **2408 WB BIWAK** («Grassenbiwak 2027», SAC Sektion
+Engelberg) auf brandschutzrelevante Themen scannen und pruefen, ob die dort aufgeworfenen Fragen mit
+dem vorhandenen Wissensstand beantwortbar gewesen waeren. Befund: die **Normseite war abgedeckt**
+(Kategorien [a]/[b]/[c] samt 20-Personen-Schwelle und den vier kumulativen [c]-Bedingungen in
+`normen/wiki/vkf-beherbergungskategorien`, der Ausfuehrungsteil des Falls als §4f hier), die
+**Verfahrens- und Bautypebene fehlte vollstaendig**. Drei Ergaenzungen:
+- **[neu, materiell] §4f.1 Bauherrenstandard «SAC-Wegleitung Huettenbau»** (SAC 2021, ISBN
+  978-3-85902-466-3) — im Hub bisher nirgends erfasst, obwohl in SAC-Verfahren regelmaessig
+  verbindliche Beilage. Kernfund: **«Fuer abgelegene Beherbergungsbetriebe gem. VKF sind keine nach
+  aussen oeffnenden Fluchttueren erforderlich»** (S. 66) — zitierfaehige Erleichterung, die den
+  Zielkonflikt Fluchtweg gegen Schneeverfrachtung aufloest. Dazu Korridor 1.20 m, Notbeleuchtung/
+  Signalisation, und der Personenschutz-Befund S. 73 (Unterdruck aus Abluftanlage saugt Rauch aus
+  Holzherd/Raumofen zurueck, CO-Gefahr, kontrollierte Nachstroemung zwingend).
+- **[neu, materiell] §4f.2 Der Einstufungs-Widerspruch auf Programmstufe.** Das Wettbewerbsprogramm
+  behauptet Art. 13 Kategorie **[c] bei 18 berggaengigen Personen**; die Schwelle liegt bei 20. Die
+  Fragebeantwortung 03.10.2024 raeumt das in Frage 47 selbst ein («kein Beherbergungsbetrieb»),
+  nimmt die daraus abgeleitete Fluchtweg-Auflage aus Ziff. 5.3 aber nicht zurueck. Dazu Frage 46 mit
+  dem planungsrelevantesten Satz des Verfahrens: **Toiletten und Putzraeume sind untergeordnete
+  Raeume und zaehlen NICHT als «angrenzender Raum»** — der zweite Fluchtweg darf nicht durchs WC.
+  Verallgemeinerte Lehre: Nutzungskategorie jedes Wettbewerbsprogramms gegen Originalartikel und
+  Raumprogramm nachrechnen, bevor daraus Grundrissentscheide folgen.
+- **[neu, methodisch] Skill `brandschutz` um «Modus B — Brandschutz im Wettbewerb und Vorprojekt»
+  erweitert** (Nutzungsweiche mit sieben Fragen, Programm-Audit, was auf den Wettbewerbsplan gehoert
+  und was nicht, Erlaeuterungstext, Uebergabe an den Fachplaner). Der bisherige Standard-Workflow ist
+  neu als **Modus A** (Ausfuehrungsphase) gekennzeichnet. Die Bautyp-Kennwerte bleiben hier in der
+  KB, die Methode dort im Skill — kein Doppel.
+- **Vier neue offene Fragen C41–C44:** offene Treppe/Raum-ueber-Raum und die unbelegte Vorgabe
+  «gewendelte Treppe min. 1.20 m» (C41), Personensicherheit ohne abwehrenden Brandschutz (C42),
+  Vollzugszustaendigkeit an der Kantonsgrenze OW/BE (C43), Lithium-Ionen-Batteriespeicher als
+  Brandschutzthema (C44). C41 zusaetzlich als Bring-Schuld in `normen/wiki/QUESTIONS.md` angemeldet
+  (Regel aus Run 8: Flags gehoeren in die Empfaenger-KB, nicht nur hierhin).
+
 ## 2026-07-28 — Nachaudit PL-03 Brandschutz auf Raphaels Auftrag: Vollinventar statt Delta-Check
 Alle **153 Dateien** des Ordners `PL - 03 Brandschutz` maschinell gegen Wegweiser/INDEX/QUESTIONS/
 _INGESTED **und** die KB `normen` abgeglichen, jeder Nicht-Treffer danach inhaltlich geoeffnet.

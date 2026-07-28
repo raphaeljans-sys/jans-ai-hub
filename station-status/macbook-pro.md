@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 28.07.2026 07:14:48
+Stand: 28.07.2026 07:24:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:52)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:04)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 28.07.2026 07:14:48
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 13867015 vollgas-fruehwarnung 28.07.2026: Morgenbriefing ausgefallen (NAS-Mount), erste Destillat-Ertragsmessung (6 Artikel, keine Delta-Null-Serie)
+- 5f3f2a3c nas-selfcommit: 2 Datei(en) 2026-07-28 07:15

@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 28.07.2026 07:08:24
+Stand: 28.07.2026 07:28:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 28.07.2026 07:08:24
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 13867015 vollgas-fruehwarnung 28.07.2026: Morgenbriefing ausgefallen (NAS-Mount), erste Destillat-Ertragsmessung (6 Artikel, keine Delta-Null-Serie)
+- 5f3f2a3c nas-selfcommit: 2 Datei(en) 2026-07-28 07:15

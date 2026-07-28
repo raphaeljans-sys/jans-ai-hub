@@ -614,6 +614,46 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   AWEL/Minergie/GVZ/2000-Watt/Lignum/SWKI…) → [[recht-norm-quellenlandkarte]]. Vertiefung je Bedarf.
 
 ## C — Brandschutz
+- [ ] **C44 (Wettbewerbs-Scan Grassenbiwak, 2026-07-28)** **Batteriespeicher als Brandschutzthema —
+  wie ist ein Lithium-Ionen-Hausspeicher nach BSV 2015 zu behandeln, und was aendert BSV 2026?**
+  Ausloeser: Wettbewerbsprogramm 2408 verlangt einen eigenen Raum «Batterie/Elektro» (2 m²), die
+  Fragebeantwortung Nr. 78 laesst ausdruecklich andere Typen als Bleibatterien zu (Li-Ion braucht
+  keine mechanische Lueftung). Die KB kennt Batteriespeicher bisher nur **energetisch**
+  ([[energie-betriebsenergie-pv-wirtschaftlichkeit]]) und in der Tiefgaragen-Nebenbemerkung
+  ([[recht-norm-tiefgarage-erschliessung]] «Ladegase nur bei Blei-/NiCd, nicht bei Lithium»). Die
+  BSV 2015 kennt keinen eigenen Speicher-Teil; laut `wissen/energie/CHANGELOG` erhaelt BSV 2026
+  voraussichtlich einen. Offen: eigener Brandabschnitt ja/nein, Lueftung, Abstand zu Aufenthalts-
+  und Schlafraeumen, Loeschmittel. Zu pruefen: VKF-Merkblaetter/Infoblatt Lithium-Ionen (Backlog aus
+  Blitzschutz-Lauf), SNR 464022, kantonale Merkblaetter. **Hoch relevant**, weil netzferne
+  JANS-Bauten (Huetten, Biwaks) den Speicher zwingend im Gebaeude haben.
+- [ ] **C43 (Wettbewerbs-Scan Grassenbiwak, 2026-07-28)** **Wer vollzieht den Brandschutz bei einem
+  Bauwerk auf einer Kantonsgrenze — und wie unterscheiden sich OW und BE?** Der Perimeter 2408 liegt
+  auf der Grenze Obwalden/Bern. VKF-Vorschriften gelten schweizweit, der Vollzug ist kantonal (Kt. OW:
+  Abteilung Technische Inspektorate; Kt. BE: Gebaeudeversicherung Bern GVB). Die KB dokumentiert die
+  Vollzugslandschaft bisher nur fuer ZH/SZ. Offen: Zustaendigkeitsregel bei Grenzlage, kantonale
+  Zusatzvorschriften und Bewilligungswege OW/BE, Verhaeltnis zur Baubewilligung ausserhalb Bauzone
+  (Art. 24 RPG). Auch generisch relevant fuer JANS-Projekte ausserhalb ZH.
+- [ ] **C42 (Wettbewerbs-Scan Grassenbiwak, 2026-07-28)** **Personensicherheit ohne abwehrenden
+  Brandschutz — welches Konzept traegt, wenn Feuerwehr, Loeschwasser und Alarmierung fehlen?** Die
+  vier kumulativen Bedingungen der Kategorie [c] (Begriffs-Richtlinie 10-15de, Anhang) beschreiben
+  genau diesen Zustand: keine rechtzeitige Intervention, keine genuegende Loeschwasserversorgung,
+  keine dauernde Stromversorgung (PV und Notstrom gelten ausdruecklich als ungenuegend). Die KB
+  dokumentiert die **Definition**, aber keine **Methode**: welche baulichen und organisatorischen
+  Ersatzmassnahmen die Behoerden in solchen Faellen verlangen bzw. akzeptieren (Selbstrettungs-
+  Konzept, Handfeuerloescher-Bemessung ohne Loeschwasser, Rauchwarnmelder-Vernetzung, Fluchtwege
+  direkt ins Freie, Materialisierung). Zu pruefen: BSR 18-15 Loescheinrichtungen, VKF-Arbeitshilfe
+  1000-15 (Gebaeude geringer Abmessungen), Praxis der Gebirgskantone. Direkt anwendbar auf jedes
+  JANS-Projekt in Streulage.
+- [ ] **C41 (Wettbewerbs-Scan Grassenbiwak, 2026-07-28)** **Offene Treppe und Raum-ueber-Raum in
+  Kleinstbauten — wo genau liegt die Grenze?** Im Fall 2408 hat der Brandschutzplaner zwei Punkte
+  markiert, die die KB nicht aufloest: (a) «Ist eine offene Gestaltung moeglich?» fuer die Verbindung
+  Aufenthalt (EG) zu Schlafraum (OG), (b) «Achtung Aussentreppe hat Anforderungen». Zu (b) liegt die
+  Fundstelle vor (BSR 16-15de Ziff. 2.5.2 + Anhang S. 18, Aussenwand EI 30 bzw. RF1, reduzierbar ab
+  1.2 m Abstand — Destillat `vkf-brl-16-15-flucht-rettungswege`), zu (a) nicht: unter welchen
+  Bedingungen darf die vertikale Verbindung innerhalb einer Nutzungseinheit offen bleiben, wenn
+  darueber geschlafen wird? Ebenfalls offen: die im Fall genannte Vorgabe «gewendelte Treppe min.
+  1.20 m breit» ist im Destillat nicht mit Ziffer belegt. Fuer den Wettbewerbs-Modus (Skill
+  `brandschutz`, Modus B, Stufe 0 Frage 5) die entscheidende Groesse — sie bestimmt die Schnittfigur.
 - [ ] **C40 (Nachaudit PL-03, 2026-07-28)** **Transformation EFH → MFH: welche Bauteile müssen die
   Brandschutzanforderungen erfüllen — alle oder nur die neuen?** Wörtlich offen im JANS-eigenen
   Fragenkatalog `_Projekte Themen/Tragwerk Brandschutzanforderung Thalwil Bohlweg3/250304

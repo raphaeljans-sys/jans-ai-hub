@@ -1,5 +1,28 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
+## 2026-07-28 (Cross-KB planungsgrundlagen → normen, Wettbewerbs-Scan Grassenbiwak) — zwei Fundstellen-Schulden BSR 16-15
+
+Angemeldet in der **Empfänger-KB** (Regel aus Run 8). Auslöser: Brandschutz-Scan des
+Wettbewerbsprojekts 2408 «Grassenbiwak 2027»; der Fachplaner-Kommentar nennt zwei Vorgaben, die im
+Destillat `vkf-brl-16-15-flucht-rettungswege.md` nicht ziffern-belegt sind.
+
+1. **Gewendelte Treppen — Mindestbreite (P1).** Der Brandschutzplaner (Schmitter Brandschutz GmbH,
+   18.01.2025) gibt für die Biwak-Treppe «gewendelte Treppe **min. 1.20 m** breit» vor. Im Destillat
+   BSR 16-15de fehlt eine Ziffer zu gewendelten Treppen bzw. zur Auftrittsbreite in der Lauflinie;
+   die 1.20 m stehen in der KB `planungsgrundlagen` §4f bisher **ohne Fundstelle** (als
+   Fachplaner-Aussage referiert, nicht als Norm belegt). Zu klären: Ziffer und Ausgabe in BSR 16-15de
+   (2015/2017/2022) — gilt 1.20 m generell für vertikale Fluchtwege, oder ist es eine
+   Zusatzanforderung an gewendelte Läufe? Abnehmer:
+   `wissen/planungsgrundlagen/wiki/brandschutz-pl03-wegweiser.md` §4f und Skill `brandschutz`
+   Modus B, Stufe 0 Frage 5.
+2. **Offene vertikale Verbindung innerhalb einer Nutzungseinheit über Schlafnutzung (P2).** Offen
+   ist, unter welchen Bedingungen eine Treppe innerhalb einer Nutzungseinheit **offen** bleiben darf,
+   wenn im Obergeschoss geschlafen wird («Raum-über-Raum»). Die Arbeitshilfe 1000-15de nennt für
+   Wohnnutzung «keine Anforderungen an Treppen innerhalb der Nutzungseinheit» (Ziff. 7.2.1) — ob das
+   bei Übernachtungsnutzung unterhalb der 20-Personen-Schwelle trägt, ist nicht belegt. Zu prüfen:
+   BSR 16-15de Ziff. 2.5/3.x gegen AH 1000-15de Ziff. 7.2. Führt direkt auf die Schnittfigur jedes
+   kleinen Übernachtungsbaus.
+
 ## 2026-07-27 (Cross-KB energie ↔ normen, Wissens-Chef Run 18) — drei Bring-Schulden aus dem Bäder-/Rückkühler-Stoff
 
 Angemeldet in der **Empfänger-KB**, nicht als Notiz in der abgebenden (Regel aus Run 8).
