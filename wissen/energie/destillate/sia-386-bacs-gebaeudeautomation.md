@@ -5,7 +5,7 @@ ausgabe: "SIA 386.111 Ausgabe 2022, gültig ab 01.09.2022 (Vorgänger SIA 386.11
 gelesen: "shop.sia.ch Produktseiten SIA 386.110/2007, SIA 386.110/2012, SIA 386.111 (amtliche Normmetadaten, Ausgabejahre, Gültig-ab-/Archiviert-seit-Daten, Preise, Nachfolgeregelung – 2026-07-25); energiehub-gebaeude.ch (MuKEn-2025-Fachportal, Art.-1.23-Zusammenfassung); minergie.ch/media/minergie_im_kontext_der_muken_2025.pdf (offizielle Minergie-PDF-Vergleichstabelle Minergie V2026.1 vs. MuKEn 2025, Stand 01.01.2026, per curl+pdftotext im Volltext gelesen); bafu.admin.ch/dam/it/sd-web/yzkzzz7aRAt3/Bewertung-effizienter-Regelung-in-Gebaeuden.pdf (TU-Dresden-Kurzstudie Felsmann, 15.03.2017, per curl+pdftotext im Volltext gelesen, inkl. Tabelle 1 'Desaggregieren der Effizienzfaktoren gemäss EN 15232'); eubac.org 2024-eu.bac-Studie 'Building Automation and Control Systems Impact on EPC Classes in Europe' (per curl+pdftotext im Volltext gelesen); minergie.ch/media/reglement_modul_monitoring-v2025.1.pdf und modul_raumkomfort_v1.4.0.pdf (per WebFetch geprüft, keine Automations-/BACS-Treffer); mega-planer.ch/aktuelles/normierungen (CH-Fachverband Gebäudeautomationsplaner, Normliste); Minergie-Anwendungshilfe 2025-2 (per WebFetch geprüft, keine Automations-Treffer im extrahierbaren Text)"
 datenstand: "2026-07-25 (Run 106, energie-training); SIA-Normstatus per shop.sia.ch-Abfrage 2026-07-25 amtlich verifiziert; MuKEn-2025-Art.-D.1.23-Inhalt aus zwei unabhängig konvergierenden Quellen (offizielle Minergie-Vergleichstabelle + Fachportal energiehub-gebaeude.ch), NICHT am EnDK-Originaltext selbst verbatim verifiziert (EnDK-Basismodul-PDF technisch nicht auffindbar/zugänglich); EN-15232-Effizienzfaktoren primärquellennah für Wohngebäude belegt (BAFU-Studie), Nichtwohngebäude-Tabelle weiterhin nicht belegt; CH-spezifische Investitionskosten weiterhin nicht belegt (nur EU-Durchschnittszahl aus eu.bac-Studie)"
 status: established
-last_updated: "2026-07-25"
+last_updated: "2026-07-28 (Run 118: Geltungsstatus-Nachtrag § 41a BBV I 5'000 m² vs. MuKEn-2025 2'000 m², Cross-Check zu energiemonitoring-submetering-grossverbraucher-zh-sz)"
 ---
 
 # Destillat — SIA 386 / BACS-Effizienzklassen: Gebäudeautomation im Energienachweis
@@ -173,6 +173,15 @@ aus einem realen JANS-Projekt herangezogen werden — **bewusst nicht als CH-Ken
    Gebäudeautomation mit bestimmten Monitoring-Funktionen (a–f, siehe oben). Bei Minergie-Zertifi-
    zierung greift zusätzlich das eigene, tiefer schwellende Minergie-Monitoring-Modul (ab
    1'000 m², bei Minergie-A immer) — auch dort **keine** BACS-Klassenpflicht.
+   **Geltungsstatus präzisiert (Run 118, Cross-Check zu `[[energiemonitoring-submetering-grossverbraucher-zh-sz]]`):**
+   Im **Kanton Zürich gilt heute effektiv eine höhere, nicht die MuKEn-2025-Schwelle** — § 41a BBV I
+   (LS 700.21, amtlich am Primärtext verifiziert) verlangt Gebäudeautomation nach EN-141 erst ab
+   **5'000 m² EBF** bei Neubauten der Gebäudekategorien III–XII. Die MuKEn-2025-Schwelle von
+   2'000 m² (Art. 1.23) ist **verabschiedet, aber Stand Juli 2026 noch nicht ins ZH-Recht
+   überführt** — für ein heute eingereichtes ZH-Baugesuch bleibt die 5'000-m²-Schwelle massgebend.
+   Ein Pflegeheim/Bürobau zwischen 2'000 und 5'000 m² EBF unterliegt damit in ZH **heute noch
+   keiner Automationspflicht**, sollte aber angesichts der absehbaren Verschärfung vorsorglich
+   geplant werden.
 2. **«Lohnt sich eine bessere BACS-Klasse finanziell?»** — Die Normlogik (SIA 386.111 / SN EN ISO
    52120-1, methodisch identisch zur Vorgängernorm EN 15232) ist darauf ausgelegt, genau diese
    Frage rechnerisch zu beantworten: Klasse C ist die neutrale Referenz, A/B rechnen sich
@@ -206,13 +215,18 @@ aus einem realen JANS-Projekt herangezogen werden — **bewusst nicht als CH-Ken
 - **Investitionskosten-Delta je BACS-Klasse für die Schweiz** (MFH/Gewerbebau/Healthcare) weiterhin
   keine CH-Quelle gefunden — die neue eu.bac-Zahl ist EU-Durchschnitt/Wohnungs-Fallstudie, kein
   CH-Kennwert. Als Aufgabe für ein konkretes Projekt mit realem Planerangebot vorzumerken.
-- **EN-141-Formularinhalt (Kt. ZH)** weiterhin nicht im Detail geöffnet (nur als Formularname
-  bekannt).
+- **EN-141-Formularinhalt (Kt. ZH)** — **ERLEDIGT (Run 118):** § 41a BBV I (5'000 m² EBF-
+  Schwelle, sieben Monitoring-Funktionen a–g) am amtlichen Primärtext verifiziert in
+  `[[energiemonitoring-submetering-grossverbraucher-zh-sz]]`; dort auch der Kt.-SZ-Negativbefund
+  (keine EN-141-Analogie).
 
 ## Backlinks
 - [[behaglichkeit-raumklima-kbob-ipb]] — nennt SIA 386.110:2012 bereits als Normbezug im
   Raumklima-/Heizwärmebedarfs-Kontext; bei Gelegenheit auf SIA 386.111:2022 nachführen.
 - [[en-zh-nachweis-uebersicht]] — listet EN-141 „Gebäudeautomation" im ZH-Formularkatalog.
 - [[private-kontrolle-zh]] — Formularübersicht mit Zeile 141 „Gebäudeautomation".
+- [[energiemonitoring-submetering-grossverbraucher-zh-sz]] — § 41a BBV I im Volltext (5'000 m²
+  EBF, sieben Monitoring-Funktionen), MuKEn-2025-Verschärfung auf 2'000 m² noch nicht in ZH-Recht
+  überführt (Stand Juli 2026), Kt.-SZ-Negativbefund.
 - [[muken-2025-modul-7-betriebsoptimierung-hlkkse]] — Betriebsoptimierungspflicht HLKKSE + GA, an
   die eine funktionierende Gebäudeautomation faktisch gekoppelt ist.
