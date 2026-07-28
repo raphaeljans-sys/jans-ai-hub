@@ -1,15 +1,15 @@
 # Stations-Status: mac-mini
 
-Stand: 28.07.2026 05:27:27
+Stand: 28.07.2026 05:37:32
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 05:37)
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- keine
 
 ## Hub-Git-Stand (NAS)
-- c2233009 nas-selfcommit: 2 Datei(en) 2026-07-28 05:15
+- e7878c7a wissens-destillat bauprodukte: Kurator-Stufe (4 Artikel geprueft, SIA-500-Backlink)
