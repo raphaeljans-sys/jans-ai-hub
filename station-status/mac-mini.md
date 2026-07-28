@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 28.07.2026 07:48:43
+Stand: 28.07.2026 07:58:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:35)
@@ -18,4 +18,4 @@ Stand: 28.07.2026 07:48:43
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 5fc3997d Speicher-Architektur 28.07.: Lauf-Gate als stationsweiter Prozess-Deckel, Speicher-Waechter (OneDrive-Leck 33 GB auf dem Mini), Transcript-Rotation, Nachtschicht 15x->3x entzerrt, aihub-Runner nach 7 Wochen Leerlauf abgeschaltet, Morgen-Tasks gestaffelt
+- a25f90e3 vollgas-fruehwarnung 28.07. 07:44: Logeintrag durch Korrektur-Harness — echte Umlaute in der Prosa, Identifikatoren/Pfade/Task-IDs unveraendert ASCII
