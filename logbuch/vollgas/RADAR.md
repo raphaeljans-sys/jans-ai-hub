@@ -30,6 +30,70 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-07-28 19:00 — [FREI] Die 16:00-Lehre eine Stufe weitergezogen: nicht nur die Datei, sondern die von launchd GELADENE Definition geprueft. Nachtschicht-Takt sauber, keine Luecke
+
+**Selbstkontrolle:** letzter Eintrag 16:00, dieser Lauf 19:00 — 3,0 h bei 3-h-Takt, kein
+verpasster Lauf.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung (`. ~/.jans-dispatch.env`)
+antwortet «OK». Kein Login-Blocker, kein Wochenlimit, kein Mail-Anlass. Endlos-Runner ruht
+unveraendert auf beiden Stationen (STOP-Dateien, Gruende aktuell und dokumentiert).
+
+**P1 — DIE PRUEF-LUECKE VON 16:00 HAT EINE ZWEITE, TIEFERE STUFE. Geprueft, sauber.** Der
+16:00-Eintrag hat den Nachtschicht-Takt «am Original gegengeprueft» — also an der plist-Datei.
+Genau derselbe Denkfehler wie am Mittag steckt aber noch eine Ebene tiefer: **launchd liest die
+plist nur beim Laden.** Wird sie editiert und nicht per `bootout`/`bootstrap` neu geladen, zeigt
+die Datei den neuen Takt, waehrend der Dienst weiter nach dem alten feuert — die Datei-Kontrolle
+haette ein falsch-positives «verifiziert» geliefert, genau wie der Handlauf um 13:00.
+
+Diesmal an der Ausfuehrungsebene nachgemessen (`launchctl print gui/501/ch.jans.nachtschicht`):
+
+| Ebene | Befund |
+|---|---|
+| plist-Datei (mtime 07:37) | 23:30 / 02:30 / 05:30 |
+| **von launchd geladene Trigger** | **23:30 / 02:30 / 05:30 — exakt drei, deckungsgleich** |
+| Dienstzustand | `runs = 0`, «not running» → Dienst wurde nach der Aenderung neu gebootstrappt |
+
+Ergebnis: **keine Luecke, kein Schaden** — die 3x-Entzerrung ist wirklich scharf, die naechste
+Feuerung ist heute 23:30. Die stuendlichen Dispatch-Protokolle von 00:30 bis 07:30 sind Historie
+vor der Umstellung (plist-mtime 07:37 liegt unmittelbar nach dem letzten stuendlichen Lauf), kein
+Rueckfall. Gleiche Gegenprobe fuer die uebrigen Feuermechanismen: `com.jans.aihub.runner` ist auf
+dem MacBook nicht mehr geladen (Stilllegung 28.07. auch im Laufzeitzustand vollzogen, nicht nur in
+der Rule), auf dem Mac Mini sind alle elf `jans`-Jobs mit letztem Exit 0 geladen, `training-plg`
+fehlt korrekt.
+
+Damit ist die Kette Kanon → Ausfuehrungskopie → **geladene Definition** einmal ganz durchgemessen.
+Merkposten fuer kuenftige Takt-Aenderungen an launchd-Jobs: die plist zu editieren ist erst der
+halbe Vollzug; ohne Neu-Laden aendert sich am Feuerverhalten nichts.
+
+**Speicher-Waechter: die 13:00-Korrektur haelt.** Letzte Logzeile alten Formats 13:03:59, seither
+auf beiden Stationen **rund sechs Stunden Stille** — der Sollzustand (still-by-default). Aktuell
+MacBook Pro 4255 MB verfuegbar, Mac Mini rund 13,4 GB, Speicherdruck beidseitig 1 (normal).
+
+**P2 — unveraendert offen, Entscheid Raphael: 2,8 GB fuer ein Programm, das nicht laeuft.** Die
+beiden `tapir-archicad-mcp`-Prozesse (PID 1405/1406, seit 06:55) halten weiter je 1424 MB, ArchiCAD
+ist auf dieser Station nach wie vor nicht geoeffnet. Auf der 16-GB-Maschine mit 4255 MB verfuegbar
+bleibt das der groesste Einzelposten ohne Nutzen. Nicht angetastet (Benutzer-Anwendung, der
+Waechter ist auf OneDrive beschraenkt). Vorschlag unveraendert: den ArchiCAD-MCP-Server nur bei
+Bedarf laden.
+
+**Leerlaufquote: unveraendert, keine Massnahme noetig.** Kein aktiver Loop erreicht die
+3er-Schwelle. Fuer die kommende Nacht getaktet: `training-energie` 22:30 (Mini, launchd),
+`wissens-chef` 23:11, `nachtschicht` 23:30/02:30/05:30 (Traeger des `wissens-destillat`),
+`normen-nacht` 01:28, `twin-mail` 03:40, `twin-fidelity` 05:45. Deaktiviert und still bleiben
+`immobewertung`, `spec`, `wettbewerbs-dna`, `training-plg`. Der `wissens-trigger` meldete um 06:30
+auf beiden Stationen «0 Laeufe ausgeloest» — korrekt, das Rohmaterial von `energie` und
+`planungsgrundlagen` ist unveraendert; das ist kein Leerlauf, sondern ein Trigger, der richtig
+schweigt.
+
+**Durchsatz: 96 Commits seit Mitternacht**, davon die Nachtschicht-Ernte des frueheren Tages. Seit
+16:00 ausschliesslich die 15-Minuten-Statuszeilen — unter der Rollentrennung 260728 der
+Sollzustand fuer die Arbeitsstation, nicht ein Ausfall. Gelernt wird ab 22:30 auf dem Mac Mini.
+
+**P3 — unveraendert offen (Einzeiler, siehe 10:05/13:00/16:00):** soll der Mac Mini tagsueber
+Destillat-Laeufe fahren? Kapazitaet waere da (13,4 GB verfuegbar); ich takte weiterhin nicht
+eigenmaechtig hoch. Entscheid liegt bei Raphael.
+
 ## 2026-07-28 16:00 — [FREI] Die 13:00-Korrektur wirkt — aber sie wurde am Handlauf verifiziert, nicht an der geplanten Bahn. Vier launchd-Jobs lesen die SSD-Kopie, nicht das NAS-Original
 
 **Selbstkontrolle:** letzter Eintrag 13:00, dieser Lauf 16:00 — 3,0 h bei 3-h-Takt, kein
