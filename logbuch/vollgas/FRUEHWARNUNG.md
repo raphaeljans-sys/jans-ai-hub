@@ -4,6 +4,86 @@ Still-by-default: pro Lauf ein datierter Einzeiler. Mail nur bei echtem Handlung
 Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante Grösse;
 «total» ist von billigem cache_read dominiert).
 
+## 2026-07-28 06:58 — GEMELDET (Mail an rj@ gesendet)
+
+Verbrauch teuer/total je Station (Mio), Messung 06:57:
+
+| Tag | MacBook Pro teuer | MacBook Pro total | Mac Mini teuer | Mac Mini total |
+|---|---|---|---|---|
+| 23.07. | 3.87 | 63.53 | 4.58 | 137.53 |
+| 24.07. | 3.90 | 74.20 | 3.92 | 124.16 |
+| 25.07. | 29.77 | 624.10 | 23.32 | 689.69 |
+| 26.07. | 0.00 | 0.00 | 0.00 | 0.00 |
+| 27.07. | 18.73 | 556.45 | 7.77 | 178.32 |
+| 28.07. (bis 06:57) | 1.80 | 27.93 | 1.31 | 26.86 |
+
+Korrektur zum Eintrag 27.07. 21:45: die dort genannten Tageswerte (MacBook 14.36, Mini 6.04)
+waren Zwischenstaende der 21:45-Messung; der volle Tag 27.07. schliesst bei 18.73 / 7.77.
+
+**Blockade-Status: SAUBER.** Strukturelle Pruefung (isApiErrorMessage / type=error /
+apiErrorStatus 429 + Limit-Text) ueber 30 h: 1'129 Ereignisse, ALLE dem bereits gemeldeten
+Wochenlimit-Ausfall zugehoerig, letztes Ereignis 27.07. 11:59 lokal (Reset 12:00). Seither
+kein einziges. **Interaktive Sessions mit Limit-Ereignis: 0** — alle 1'129 waren SCHEDULED.
+Kriterium (c) formal erfuellt (Erschoepfung lag im 24-h-Fenster), aber identisch mit dem am
+27.07. gemeldeten Befund → keine Wiederholungsmail dafuer.
+
+**MELDEGRUND war Kriterium (d) — operatives Briefing ohne Deliverable:**
+`logbuch-radar` startete heute 06:51, fand `/Volumes/daten` nicht (Startup-Hook meldete den
+Mount als fehlend), versuchte `ensure-nas-mounted.sh` und brach nach drei Schritten ab
+(Session c3346ea5, 20 Zeilen, Ende 06:53). Keine Briefing-Mail. Registry hat `nextRunAt`
+bereits auf 29.07. 06:54 weitergestellt → **kein automatischer Nachholversuch**, das
+Morgenbriefing 28.07. ist ohne Handeingriff verloren. Der Mount war um 06:56 wieder da
+(SMB-Flatter, Rule 260725), ein Lauf von Hand ginge durch. Ursache damit ausdruecklich
+NICHT Tokens — anderer Fehlertyp als am 27.07.
+`hub-chef-taeglich` (08:35) war zum Messzeitpunkt noch nicht faellig; `mahnwesen-verzugscheck`
+und `zahlungsabgleich-check` liefen am 27.07. abends durch.
+
+**Radar-Herzschlag: LEBT WIEDER.** RADAR.md juengster Eintrag 28.07. 06:55, dazu eine laufende
+`vollgas-chef-radar`-Session (255e38ad, 06:57). Der am 27.07. gemeldete Aufsichtsausfall
+(vier Tage ohne Lauf) ist behoben. Kriterium (e) nicht erfuellt.
+
+**Leerlauf-Kontrolle:** Runner auf BEIDEN Stationen bewusst gestoppt (STOP-Macbookpro 27.07.
+22:20, STOP-Macmini 27.07. 22:15, je mit Begruendung und Rueckkehr-Bedingung). Logs stehen
+seit 27.07. 22:14 still, kein Prozess laeuft. Das ist gewollte Stilllegung, kein Leerlauf.
+
+**Destillat-Aufsicht (erste Erhebung nach Schritt 5b):**
+- (a) Fortschritt: Korpus `bauprodukte`, Sektionen 37/37 inventarisiert, 214 Dateien
+  inventarisiert, **32 offen**. Erster Messpunkt — ab morgen gegen diesen Wert vergleichen.
+- (b) Ertrag: **6 Artikel** in `wissen/bauprodukte/wiki/` (+ INDEX + QUESTIONS), alle heute
+  zwischen 04:38 und 06:32 geschrieben: dachbegruenung-systeme, pu-beschichtung-fassade,
+  erco-lichtplanung-grundlagen, bkp-261-aufzuege, chromstahltreppe-oberflaechen,
+  arbeitsplatten-verbinder-schreinerei. Status: 6x `emerging`, 0x `established`.
+- (c) Delta-Null-Serie: **0** — alle drei Laeufe (04:30 Inventar+Artikel, 05:30 Kurator,
+  06:30 BKP 273) haben geliefert. Keine Ruecktaktung faellig.
+- (d) Stueckkosten: 3.11 Mio teuer (beide Stationen, bis 06:57) / 6 neue Artikel =
+  **~0.52 Mio je Artikel**. VORBEHALT: der Tag enthaelt auch twin-mail, twin-fidelity,
+  normen und wissens-chef — der Wert ist eine Obergrenze, nicht der reine Destillat-Preis.
+  Ab morgen als Reihe fuehren.
+- Spec-Gate: `specs/bauprodukte-spec.md` liegt vor (28.07. 01:33) — Gate haengt nicht.
+- Korpus-Queue: NICHT komplett (bauprodukte «naechster», 32 Dateien offen) → Kriterium (g)
+  nicht erfuellt.
+
+**Strukturbefund (mitgemeldet, kein eigenes Kriterium):** Der Destillat-Loop ist als
+`Manual only` angelegt mit dem Vermerk «getaktet wird der Loop ausschliesslich vom
+VOLLGAS-Endlos-Runner»; der Runner steht auf beiden Stationen still. Dass die STOP-Dateien
+liegen bleiben, ist laut Eintrag «28.07. — ENTSCHEID Raphaels» eine **bewusste** Entscheidung
+(«Der Runner startet erst auf Raphaels Wort»), KEIN vergessener Vollzug. Der beobachtbare
+Befund bleibt trotzdem: die drei Laeufe dieser Nacht kamen NICHT vom Runner, sondern von der
+Mac-Mini-Nachtschicht, die die Aufgabe ad hoc aufgriff — obwohl der Runner als «einziger
+Feuermechanismus» konzipiert ist. Das ist dieselbe Klasse von Drittmechanismus wie die
+launchd-Jobs (Rule 260727, Nachtrag 28.07.): der Loop feuert aus einer Quelle, die im Entwurf
+nicht vorgesehen ist. Solange der Runner ruht, haengt der Ertrag an dieser Zufallsquelle.
+
+KORREKTUR zur gesendeten Mail: dort ist dieser Punkt als «Rueckkehr-Bedingung erfuellt,
+vollzogen wurde sie nicht» formuliert — das liest sich wie ein Versaeumnis und ist insofern
+unpraezise, der Halt ist gewollt. Die Empfehlung selbst (Runner auf Raphaels Wort freigeben)
+deckt sich exakt mit dem hinterlegten Entscheid und bleibt unveraendert gueltig. Keine
+Korrekturmail — der Handlungsvorschlag aendert sich nicht.
+
+**Naechste Mail:** nicht fuer denselben Befund. Erst wieder bei neuer Kontingent-Erschoepfung,
+bei blockierter interaktiver Sitzung, bei erneut ausgefallenem Briefing, bei Delta-Null-Serie
+im Destillat oder wenn die Korpus-Queue komplett meldet.
+
 ## 2026-07-28 — ENTSCHEID Raphaels: der Runner bekommt eine eigene Lern-Aufgabe
 
 Beantwortet die Grundsatzfrage vom 27.07. («neue Aufgaben oder Runner ausbauen?»): **neue
