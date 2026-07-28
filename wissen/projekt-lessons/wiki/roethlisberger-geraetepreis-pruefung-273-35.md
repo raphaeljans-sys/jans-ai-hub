@@ -5,7 +5,7 @@ last_updated: 2026-07-28
 sources: [Konversations-Destillat 260718 (Abschnitt Roethlisberger Therapieküche KISPI), Logbuch-Journal 09.07./17.07./21.07.2026, Prüfbericht 260717-Pruefbericht-Geraetepreise-Roethlisberger (Projektordner LOS_273.35 Kuechenbau ROETHLISBERGER)]
 links: [wissen/projekt-lessons/wiki/kispi-lbw-rohdichte-800.md]
 gewerk: "Küchenbau / Gastro-Geräte (Therapieküche)"
-bkp: "273.35"
+bkp: "258 Kücheneinrichtungen (BKP 2017); «273.35» ist die projektinterne Los-Nummer KISPI, kein BKP-Code — korrigiert Wissens-Chef Run 19, 28.07.2026, gegen references/bkp-2017/BKP-2017-Liste.md"
 sia_phase: "5 Ausführung (SIA 112) — Ausführungsphase, Nachtragsprüfung vor Bestellentscheid"
 betroffene_skills: [offertenpruefung, unternehmerkontrolle, kostenkontrolle]
 ---

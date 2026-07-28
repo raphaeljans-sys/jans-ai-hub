@@ -1357,3 +1357,50 @@ abweichendes Symbolsystem** — aber ein **eigenes, anders geformtes Verfahrensf
   Für andere ZH-Gemeinden ausserhalb der Stadt Zürich bleibt offen, ob sie ein eigenes Formular
   führen oder sich an die Zentralschweizer Arbeitshilfe halten — nicht recherchiert, da
   ausserhalb des JANS-Kerngeschäfts (Stadt Zürich) liegend.
+
+## 2026-07-28 (Wissens-Chef Run 19) — Leitplanke Gebäudekategorien I–XII (adversarial verifiziert)
+
+**Gebäudekategorie-Nummern nie aus dem Gedächtnis setzen.** Kanonische Quellen: **§ 47a Abs. 1
+BBV I** (amtlich in `wissen/baurecht/raw/260607_amtlich_zh_bbv1.md` — KB `baurecht` ist für den
+ZH-Erlassstand führend) und **SIA 380/1, Anhang A, Tab. 24** (Destillat
+`wissen/energie/destillate/sia-380-1-standardnutzungswerte-tab24-25.md` — KB `energie` führend).
+
+Reihenfolge: I Wohnen MFH · II Wohnen EFH · III Verwaltung · IV Schulen · V Verkauf ·
+VI Restaurants · VII Versammlungslokale · **VIII Spitäler** · **IX Industrie** · X Lager ·
+XI Sportbauten · XII Hallenbäder.
+
+**Häufigster Fehler: Spital fälschlich als IX (= Industrie)** — am 28.07.2026 im Report
+`outputs/2026-07-28_therapiekueche-lueftung-spital-zuerich.md` aufgetreten und dort korrigiert.
+Die Verwechslung kostet den Grenzwert **20 statt 70 kWh/m²** sowie die falschen Standardnutzungs-
+werte (Innentemperatur 18 statt 22 °C, Qww 25 statt 100 MJ/m²·a) — bei einem Energienachweis
+rechenrelevant. Gegenprobe direkt am Verordnungstext: § 47a Abs. 2 nennt VI und XI als
+Warmwasser-Ausnahmen (Restaurants/Sportbauten) und XII als Bade-/Duschwasser-Fall (Hallenbäder);
+das geht nur bei korrekter Zuordnung auf.
+
+## 2026-07-28 (Wissens-Chef Run 19) — P1: SIA 500 Korrigenda-Nachzug, ~20 Stellen offen
+
+**Was der Chef-Lauf geleistet hat.** Der Verifikator hat die Basisausgabe `500_2009.pdf` sowie die
+Korrigenda **C3:2013** und **C4:2019** am Original beschafft und ausgewertet (shop.sia.ch,
+Preisgruppe 0 — Korrigenda sind gratis). Ergebnis in `destillate/sia-500-2009.md`: Fassungs-Feld
+`ausgabe_ueberholt` gesetzt, **Ziff. 9.7.2/9.7.3 vollständig auf C3:2013 nachgeführt** (Bezugsgrösse
+wechselt von Parkplätzen auf **Wohnungen**, neuer 100-m-Richtwert), Ziff. 3.4.1 und 3.7.3 als
+C4-betroffen markiert.
+
+**Was offen bleibt — der eigentliche Umfang.** Ziff. 9.7.2 war nur **eine von rund zwanzig** durch
+Korrigenda geänderten Stellen. **C4:2019 war dem Hub bisher vollständig unbekannt** (der Bestand
+kannte nur C1/C2 via `sia-500-auslegung` und C3 via `sia-en-13200-1-2019`); C4 ändert
+**Ziff. 3.4.1, 3.7.3, 3.7.4, 3.7.6, 3.7.7, 3.7.8 und 6.2.2**. Das Destillat ist damit an mehr
+Stellen überholt, als jetzt markiert sind. **Auftrag an den `normen`-Loop:** C3 und C4 Ziffer für
+Ziffer gegen das Destillat durchgehen und jede betroffene Stelle nachführen; danach C1/C2 im
+Volltext beschaffen (bisher nur sekundär über `sia-500-auslegung`, Stand April 2012 belegt).
+
+**Der Fehler hat die Destillat-Ebene bereits verlassen** — das ist der Grund für die Priorität:
+`wissen/bauprodukte/wiki/bkp-261-aufzuege.md` zitiert die Kabinenmasse aus **Ziff. 3.7.3** und
+rechnet ein konkretes Herstellermass dagegen. Dort ist am 28.07.2026 ein Fassungs-Vorbehalt gesetzt,
+aber erst der Nachzug hier macht die Zahlen wieder verwendbar.
+
+**Verallgemeinerte Lehre (dritte Variante der Run-8-Regel «Fassungspflege ist der blinde Fleck»).**
+Bisher hiess sie: erst den Bestand nach jüngeren **Ausgaben** durchsuchen. Neu kommt hinzu: auch
+wenn die **Ausgabe unverändert gilt**, können **Korrigenda** einzelne Ziffern materiell ändern —
+sie tragen keine neue Jahreszahl im Normtitel und sind deshalb an der Ausgabe nicht erkennbar.
+Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops dazu; sie sind gratis.

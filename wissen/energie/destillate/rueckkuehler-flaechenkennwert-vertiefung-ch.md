@@ -85,7 +85,28 @@ unabhängige Quellen.
   eine der ~40 Richtlinien (kostenpflichtig) einen solchen Wert enthält, bleibt offen — das ist
   eine Fortsetzung, keine Widerlegung des bereits im Vorlauf-Destillat dokumentierten Negativbefunds.
 
-### 2. Kanton Zürich: amtlich belegter 30 %-Flächenreserve-Wert im bereits geltenden Recht
+### 2. Kanton Zürich: 70 %-Deckel im Erlass, 30 %-Technikanteil als Vollzugsauslegung
+
+> **Korrektur Wissens-Chef Run 19, 28.07.2026 — Erlass und Vollzugshilfe waren vermischt.**
+> § 47b Abs. 1 BBV I (LS 700.21) besteht aus **genau zwei Sätzen** und lautet vollständig und
+> abschliessend: «Die Anlage zur Elektrizitätserzeugung gemäss § 10 c EnerG muss mindestens eine
+> Leistung von 10 Watt pro m² Energiebezugsfläche aufweisen. Für Photovoltaikanlagen wird eine
+> Belegung von höchstens 70% der anrechenbaren Gebäudefläche verlangt.» **Mehr steht nicht im
+> Erlass:** keine Technikreserve, keine Zweckbestimmung der restlichen 30 %, kein eigener
+> Reduktionssatz. Amtlich belegt ist also der **70-%-Deckel**; dass die verbleibenden 30 % für
+> Technikaufbauten «zur Verfügung stehen» und dass bei hohen Bauten reduziert werden kann, sind
+> Aussagen der **kantonalen Vollzugshilfe** (ZH-Leitfaden Solaranlagen, Dez. 2022, Kap. 6) — sie
+> sind für die Praxis belastbar, aber Vollzugsauslegung, nicht Verordnungswortlaut. Die
+> gesetzliche Grundlage für die Rücksicht auf hohe Bauten ist **§ 10c Abs. 3 lit. a EnerG** als
+> blosse Delegationsnorm an den Regierungsrat. Beleg: `baurecht/raw/260607_amtlich_zh_bbv1.md`
+> (KB `baurecht` ist für den ZH-Erlassstand führend).
+>
+> **Mechanik des Fehlers, zur Nachahmung nicht empfohlen:** das unten als «wörtlich» ausgewiesene
+> Blockzitat ist eine Montage aus zwei getrennten Textblöcken des Leitfadens, verbunden durch
+> «[…]». Weggefallen ist ausgerechnet der einleitende Satz, der die Verwechslung verhindert hätte:
+> «Hohe Bauten haben ein tiefes Dachfläche/EBF-Verhältnis. Die Möglichkeiten zur Installation von
+> Photovoltaikanlagen sind begrenzt. Diese Situation wird berücksichtigt, indem …». **Regel:
+> Erlasswortlaut und Vollzugshilfe nie in dasselbe Blockzitat montieren.**
 
 Der Kanton Zürich hat **bereits seit 1. September 2022** eine eigene Eigenstromerzeugungspflicht
 für Neubauten in Kraft (§ 10c EnerG ZH, konkretisiert in § 47b Abs. 1 BBV I) — **unabhängig** von
@@ -114,7 +135,7 @@ auf einem Dach, wenn auch **kein m²/kW-Kennwert**, sondern eine pauschale Fläc
 für die gesamte Kategorie «Technik», die sich Rückkühlwerk, Lift, Kamin usw. teilen müssen.
 **Wichtig für die Praxis:** Übersteigt der tatsächliche Flächenbedarf von Rückkühlwerk + übriger
 Technik diese 30 %-Reserve, ist dies **im ZH-Modell nicht als Ausnahmegrund**, sondern über die
-in § 47b Abs. 1 BBV I selbst vorgesehene Reduktionsmöglichkeit der PV-Anlagengrösse zu lösen
+in der **Vollzugshilfe** (nicht im Erlass, s. Korrekturkasten oben) vorgesehene Reduktionsmöglichkeit der PV-Anlagengrösse zu lösen
 («Bei hohen Bauten kann es vorkommen, dass auf dem Dach nicht genügend Fläche zur Verfügung
 steht. In diesem Fall wird eine Reduktion der Grösse der Photovoltaikanlage zugelassen») — ein
 anderer Mechanismus als das BE/BL-Ausnahmegesuch «technische Machbarkeit» aus dem Vorlauf-Destillat.

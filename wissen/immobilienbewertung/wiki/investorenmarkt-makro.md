@@ -1,8 +1,8 @@
 ---
 title: Investorenmarkt und Makrooekonomie
 status: established
-last_updated: 2026-07-27
-sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 3 Investorenmarkt, J. Schlaepfer; S. 162-235 vollstaendig eingearbeitet; Makro-Datenstand 2022/23), IMMO-06 Immo-Monitoring_Baupreisteuerung, IMMO-02 UBS Swiss Real Estate Bubble Index Q2-2024 (srebi-q2-2024-de.pdf, UBS CIO GWM 07.08.2024), IMMO-06 BUERO hbre/Savills Bueromarkt Zuerich 2024 (08.2024), IMMO-06 Healthcare Pflegeberichte (Obsan-Bericht 03/2022 «Bedarf an Alters- und Langzeitpflege in der Schweiz — Prognosen bis 2040», Neuchatel 2022 — Pflegebett-Bedarfsprognose +69 %/+54'335 Betten, Demografie 80+, Kosten-BIP-Anteil, Run 13), BWO Referenzzinssatz (Stand 06.2026, Web), Marktpuls 06.2026 (Web): Wuest/SMG-Mietindex Angebots-/Bestandesmieten 2026, UBS SREBI Q1-2026 0.69 «moderat» (Hotspots GR/Einsiedeln/Stadt ZH/Nidwalden), BFS Baupreisindex Apr/Okt-2025, SNB geldpolitische Lagebeurteilung 18.06.2026 (Leitzins 0.00 %, Web SRF/SNB), BWO-Referenzzinssatz-Mitteilung 01.06.2026 (bleibt 1.25 %), Wuest-Partner-Prognose 2026 Transaktionspreise/Bauinvestitionen (Web swissinfo/Blick 06.2026) + WP-Segment-Prognose Geschaeftsflaechen 2026 (Buero +0.5 %/Detailhandel −1.5 %, Web 07.2026, Run 13), SMG Swiss Marketplace Group / Homegate-Mietindex 05/2026 (133.7, +2.5 % YoY; Web, Stand 22.06.2026, Run 8), BFS Baupreisindex April 2026 (neue Basis Okt-2025 = 100 → 100.6, +1.0 % YoY; Web BFS/fachbau.ch 18.06.2026, Run 15) + Marktpuls-Web-Check 08.07.2026 (SNB 0.00 %/Referenzzins 1.25 % unveraendert, Run 15) + Marktpuls-Web-Check 12.07.2026 (Run 17): Anker unveraendert, neu massgebender Durchschnittszinssatz 31.03.2026 = 1.31 % (von 1.32 %), Web BWO-Entwicklungstabelle/SNB-Lagebeurteilung 19.06.2026/SMG-Mietindex 05-2026/UBS SREBI Q1-2026) + Marktpuls-Web-Check 27.07.2026 (Run 51, erster seit Run 17): SMG Swiss Marketplace Group Medienmitteilung «Mietindex 06/2026» vom 13.07.2026 (Juni 2026 = 134.0, +0.2 % MoM, +2.5 % YoY; Primaerquelle gegengelesen) + Wuest Partner Immo-Monitoring Q2-2026 via cash.ch vom 16.07.2026 (EFH +1.5 % QoQ/+4.3 % YoY, ETW +1.0 % QoQ/+4.3 % YoY; Primaermeldung gegengelesen); SNB-Lagebeurteilung 18.06.2026 + Terminplan (naechster Entscheid 24.09.2026), BWO-Referenzzinssatz-Bestaetigung 02.06.2026, BFS-Baupreisindex April 2026 — alle unveraendert bestaetigt]
+last_updated: 2026-07-28
+sources: [SNB-Quartalsheft 2/2026 (snb.ch, publ. 24.06.2026, Kapitel 5 "Geld- und Kapitalmarktzinsen": Rendite 10-j. Eidgenossen 0.39 % Mitte Juni / 0.34 % Mitte März 2026, Run Nachtschicht 28.07.2026 — schliesst T-Eidgenossen-Rendite), Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 3 Investorenmarkt, J. Schlaepfer; S. 162-235 vollstaendig eingearbeitet; Makro-Datenstand 2022/23), IMMO-06 Immo-Monitoring_Baupreisteuerung, IMMO-02 UBS Swiss Real Estate Bubble Index Q2-2024 (srebi-q2-2024-de.pdf, UBS CIO GWM 07.08.2024), IMMO-06 BUERO hbre/Savills Bueromarkt Zuerich 2024 (08.2024), IMMO-06 Healthcare Pflegeberichte (Obsan-Bericht 03/2022 «Bedarf an Alters- und Langzeitpflege in der Schweiz — Prognosen bis 2040», Neuchatel 2022 — Pflegebett-Bedarfsprognose +69 %/+54'335 Betten, Demografie 80+, Kosten-BIP-Anteil, Run 13), BWO Referenzzinssatz (Stand 06.2026, Web), Marktpuls 06.2026 (Web): Wuest/SMG-Mietindex Angebots-/Bestandesmieten 2026, UBS SREBI Q1-2026 0.69 «moderat» (Hotspots GR/Einsiedeln/Stadt ZH/Nidwalden), BFS Baupreisindex Apr/Okt-2025, SNB geldpolitische Lagebeurteilung 18.06.2026 (Leitzins 0.00 %, Web SRF/SNB), BWO-Referenzzinssatz-Mitteilung 01.06.2026 (bleibt 1.25 %), Wuest-Partner-Prognose 2026 Transaktionspreise/Bauinvestitionen (Web swissinfo/Blick 06.2026) + WP-Segment-Prognose Geschaeftsflaechen 2026 (Buero +0.5 %/Detailhandel −1.5 %, Web 07.2026, Run 13), SMG Swiss Marketplace Group / Homegate-Mietindex 05/2026 (133.7, +2.5 % YoY; Web, Stand 22.06.2026, Run 8), BFS Baupreisindex April 2026 (neue Basis Okt-2025 = 100 → 100.6, +1.0 % YoY; Web BFS/fachbau.ch 18.06.2026, Run 15) + Marktpuls-Web-Check 08.07.2026 (SNB 0.00 %/Referenzzins 1.25 % unveraendert, Run 15) + Marktpuls-Web-Check 12.07.2026 (Run 17): Anker unveraendert, neu massgebender Durchschnittszinssatz 31.03.2026 = 1.31 % (von 1.32 %), Web BWO-Entwicklungstabelle/SNB-Lagebeurteilung 19.06.2026/SMG-Mietindex 05-2026/UBS SREBI Q1-2026) + Marktpuls-Web-Check 27.07.2026 (Run 51, erster seit Run 17): SMG Swiss Marketplace Group Medienmitteilung «Mietindex 06/2026» vom 13.07.2026 (Juni 2026 = 134.0, +0.2 % MoM, +2.5 % YoY; Primaerquelle gegengelesen) + Wuest Partner Immo-Monitoring Q2-2026 via cash.ch vom 16.07.2026 (EFH +1.5 % QoQ/+4.3 % YoY, ETW +1.0 % QoQ/+4.3 % YoY; Primaermeldung gegengelesen); SNB-Lagebeurteilung 18.06.2026 + Terminplan (naechster Entscheid 24.09.2026), BWO-Referenzzinssatz-Bestaetigung 02.06.2026, BFS-Baupreisindex April 2026 — alle unveraendert bestaetigt]
 links: [[ertragswert-dcf]], [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[datenquellen-registry]], [[marktdaten-gemeinden/README]]
 ---
 
@@ -172,12 +172,19 @@ Aktualisierung der Kurs-Anker (Kurszahlen sind Stand 2022/23):
   Quelle: SNB-Lagebeurteilung 18.06.2026 (SRF/SNB, Web). **Bewertungsrelevanz:** das tiefe
   Zinsniveau bleibt zementiert → Diskont-/Kapitalisierungssätze auf tiefem Niveau gestützt, hohe
   Bewertungen halten ([[ertragswert-dcf]]).
-- **Rendite 10-jährige Bundesobligation (Eidgenoss): ~0.32–0.40 % (Juni 2026)** — 4.6. bei
-  0.40 %, 22.6. bei 0.32 % (leicht rückläufig im Monatsverlauf). Das ist das **risikofreie
-  Basisniveau** für die Diskontsatz-Herleitung ([[ertragswert-dcf]], JANS-Diskontsatz-Tabelle
-  D3) — nahe null, ähnlich/tiefer als im WP-Kursstand Sommer 2023, was die WP-Diskontanker
-  (Wohnbau real 2.1–3.0 %) am unteren Band stützt. Quelle: tradingeconomics / SNB-Datenportal
-  (Web, Stand 06.2026).
+- **Rendite 10-jährige Bundesobligation (Eidgenoss): 0.39 % (Mitte Juni 2026), 0.34 % (Mitte
+  März 2026)** — amtlich datierter Wert aus dem **SNB-Quartalsheft 2/2026** (publ. 24.06.2026,
+  Kapitel «Geld- und Kapitalmarktzinsen», Grafik 5.2): «Die Rendite zehnjähriger Anleihen der
+  Eidgenossenschaft lag Mitte Juni bei 0,39 % (Mitte März: 0,34 %)» — geringfügiger Anstieg
+  gegenüber der März-Lagebeurteilung (Nahost-Konflikt/Energiepreise, starke US-Arbeitsmarktdaten
+  Anfang Mai), Renditekurve seither wenige Basispunkte steiler. Löst **T-Eidgenossen-Rendite**
+  (Run 51): die vorherigen Web-Live-Snapshots (~0.32–0.51 %, tradingeconomics/investing.com,
+  ohne belastbaren Stichtag) sind damit durch einen **datierten Primärquellenwert** ersetzt.
+  Das ist das **risikofreie Basisniveau** für die Diskontsatz-Herleitung ([[ertragswert-dcf]],
+  JANS-Diskontsatz-Tabelle D3) — nahe null, ähnlich/tiefer als im WP-Kursstand Sommer 2023, was
+  die WP-Diskontanker (Wohnbau real 2.1–3.0 %) am unteren Band stützt. Quelle: SNB-Quartalsheft
+  2/2026 (snb.ch, publ. 24.06.2026, S. Kapitel 5 «Geld- und Kapitalmarktzinsen»). Nächste
+  Publikation (Quartalsheft 3/2026) ~09/2026 nachziehen.
 - **Bewertungsfolge:** tiefes Zinsniveau stützt Diskont-/Kapitalisierungssätze auf tiefem
   Niveau → hohe Bewertungen halten; aber Mietsenkungsdruck via Referenzzins dämpft den
   Bestandes-Cashflow ([[ertragswert-dcf]]).

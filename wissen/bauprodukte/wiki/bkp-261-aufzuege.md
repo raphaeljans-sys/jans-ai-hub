@@ -72,7 +72,13 @@ zwischen den Herstellern:
   verifiziert):** [[sia-500-2009]] Ziff. 3.7.3/Tabelle 4 verweist selbst auf
   SN EN 81-70 und gibt drei Kabinen-Mindestmasse vor: Standard 1.10 × 1.40 m,
   «bedingt zulässig» kleiner 1.00 × 1.25 m, Aussenraum/hoher Personenverkehr
-  1.10 × 2.00 m. Die AS-Winner-Kabine (1250 × 1460 mm) **übertrifft rechnerisch
+  1.10 × 2.00 m.
+  **⚠ Fassungs-Vorbehalt (Wissens-Chef Run 19, 28.07.2026):** diese drei Masse stammen aus der
+  **Basisausgabe SIA 500:2009**. Das Korrigendum **SN 521500/C4:2019** (gültig ab 1.10.2019)
+  ändert unter anderem **Ziff. 3.7.3** — also genau die hier zitierte Tabelle 4. Die Masse sind
+  vor jeder Bemessung und vor jedem LV mit SIA-500-Bezug am Korrigendum gegenzulesen; der
+  Kabinen-Abgleich unten steht bis dahin unter Vorbehalt. Führend ist die KB `normen`
+  (`normen/destillate/sia-500-2009.md`, dort sind alle betroffenen Ziffern markiert). Die AS-Winner-Kabine (1250 × 1460 mm) **übertrifft rechnerisch
   beide Masse der Standard-Kategorie** (1.25 > 1.10 m Breite, 1.46 > 1.40 m Tiefe)
   — die AS-eigene Einstufung «bedingt rollstuhlgängig» ist also enger gefasst als
   die SIA-500-Mindestanforderung, aus den vorliegenden Massen allein nicht ableitbar,

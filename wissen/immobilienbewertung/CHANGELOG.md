@@ -2,6 +2,25 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-28 — Training-Run 52 (Mac Mini Nachtschicht): T-Eidgenossen-Rendite geschlossen
+
+- **[luecke geschlossen]** Die in Run 51 offen gebliebene Luecke **T-Eidgenossen-Rendite**
+  (10-j-Eidgenossen-Rendite nicht datumsscharf belegbar, nur undatierte Web-Live-Snapshots
+  ~0.32–0.51 %) ist geloest: **SNB-Quartalsheft 2/2026** (publ. 24.06.2026) per PDF-Volltext
+  gefunden und gegengelesen (Kapitel 5 «Geld- und Kapitalmarktzinsen»), wörtliches Zitat: «Die
+  Rendite zehnjähriger Anleihen der Eidgenossenschaft lag Mitte Juni bei 0,39 % (Mitte März:
+  0,34 %)». Amtlich datierter Primaerwert ersetzt die zuvor bewusst nicht uebernommenen
+  Live-Snapshots.
+- **[artikel] `wiki/investorenmarkt-makro.md`** (`last_updated` 2026-07-27 → 2026-07-28):
+  Bullet «Rendite 10-jaehrige Bundesobligation» ersetzt (0.39 %/0.34 % statt Bandbreite),
+  Quelle im Frontmatter ergaenzt.
+- **[register] `wiki/wissensluecken.md`**: T-Eidgenossen-Rendite als erledigt markiert
+  (Konvention wie D-Items, `~~...~~` + Erledigt-Vermerk).
+- Kein neuer JANS-Bewertungsfall geprueft (ausserhalb des Aufgabenscopes dieses Laufs,
+  Bewertungsordner unveraendert seit Run 51 bekannt). Kein Fan-out, eine WebSearch + ein
+  WebFetch (SNB-PDF), Budget ca. 3.60 USD von 5 USD. Bericht:
+  `outputs/2026-07-28_training-run52.md`.
+
 ## 2026-07-27 — Training-Run 51: Delta-Serie durchbrochen — Marktpuls nach Drossel-Aufhebung reaktiviert
 
 - **[befund/prozess] Die Begruendung fuer 12 aufeinanderfolgende Delta-Null-Laeufe war seit dem

@@ -172,7 +172,21 @@ kantonal mit gewässerbezogenem Schutzziel):** GSB < 1 m → 11 m; 1-5 m → 6 �
 nicht an eine Flächenschwelle geknüpft); die **0,5-ha-Schwelle** ist kein Formel-Kriterium,
 sondern nur ein **Verzichtsgrund** (Abs. 4 lit. b: bei Wasserfläche < 0,5 ha kann auf die
 Festlegung verzichtet werden). In ZH ist der Gewässerraum
-grundeigentümerverbindlich (**§ 15 Abs. 1** HWSchV, heute § 19 WsG — nicht § 15d). Bei
+grundeigentümerverbindlich (**§ 15 Abs. 1** HWSchV, heute **§ 18 Abs. 1 WsG** — nicht § 15d).
+*(Korrektur Wissens-Chef Run 19, 28.07.2026, am amtlichen WsG-Volltext verifiziert: bis heute stand
+hier «§ 19 WsG». Richtig ist **§ 18 Abs. 1 WsG**, Randtitel «b. Festlegung»: «Die Direktion legt den
+Gewässerraum grundeigentümerverbindlich fest und hält ihn in einer Gewässerraumkarte fest.»
+**§ 19 WsG** trägt den Randtitel «c. Berücksichtigung der baulichen Gegebenheiten in dicht
+überbauten Gebieten» und regelt die **Anpassung**, nicht die Festlegung — siehe den eigenen
+Absatz dazu unten. Beleg: `raw/260728_amtlich_zh_wsg.md`, LS 724.1, Nachtrag 133, in Kraft seit
+01.06.2026.)*
+**Anpassung in dicht überbauten Gebieten — § 19 WsG:** Soweit keine Gründe des Hochwasserschutzes
+entgegenstehen, kann der Gewässerraum in dicht überbauten Gebieten den baulichen Gegebenheiten
+angepasst werden; der Zugang für Gewässerunterhalt und wasserbauliche Massnahmen muss
+sichergestellt bleiben (Abs. 1). **Abs. 2** nennt die Fälle, in denen eine Anpassung insbesondere
+in Betracht fällt — das ist der praktische Hebel, wenn ein festgelegter Gewässerraum die bauliche
+Nutzung einer Parzelle erheblich einschränkt (relevant für `machbarkeit`, `nutzungsstrategie`,
+`ankaufspruefung`). Bei
 **eingedolten** Fliessgewässern galt bis 31.5.2026 ein Mindestmass von 11 m (**§ 15k Abs. 3**
 HWSchV, mit Abweichung «in begründeten Fällen»). **Seit dem 01.06.2026 ist die HWSchV aufgehoben**
 (OS 81, 144): **§ 24 WsV lässt die Breite bis auf den für Unterhalt/Ersatz der Eindolung nötigen

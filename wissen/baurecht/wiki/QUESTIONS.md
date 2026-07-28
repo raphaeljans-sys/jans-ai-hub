@@ -1,5 +1,36 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## 2026-07-28 (Wissens-Chef Run 19) — P1: falsche Konkordanzzeile in `raw/260717_amtlich_zh_hwschv.md`, und der Mechanismus dahinter
+
+**Der Sachfehler.** Die Konkordanztabelle in `raw/260717_amtlich_zh_hwschv.md` führt in Z. 40
+(«Grundsatz / Zuständigkeit Festlegung») und Z. 252 als Nachfolge zu § 15 HWSchV den
+**§ 19 WsG**. Am amtlichen Volltext (`raw/260728_amtlich_zh_wsg.md`, LS 724.1, Nachtrag 133) ist
+das falsch: die grundeigentümerverbindliche Festlegung steht in **§ 18 Abs. 1 WsG** (Randtitel
+«b. Festlegung»), **§ 19 WsG** trägt den Randtitel «c. Berücksichtigung der baulichen Gegebenheiten
+in dicht überbauten Gebieten» und regelt die **Anpassung**. Systematik: § 17 Grundsatz · § 18
+Festlegung · § 19 dicht überbautes Gebiet · § 20 Besitzstand · § 21 Ausführungsrecht.
+
+**Die drei Erben sind bereits korrigiert** (Wissens-Chef Run 19, 28.07.2026):
+`wiki/abstaende-und-hoehen.md`, `planungsgrundlagen/wiki/kartenportale-oereb-kataster-system-zh.md`
+(Tabellenzeile OEREB-Thema 190 + Warnkasten) und
+`planungsgrundlagen/wiki/recht-norm-abstandsvorschriften-wald-gewaesser.md`.
+
+**Was die KB `baurecht` noch tun muss:** die Quelle selbst. Der Chef fasst `raw/` nicht an
+(Rule `wissens-bibliothekar`), deshalb liegt die Korrektur der beiden Zeilen bei dieser KB. Bis
+dahin regeneriert sich der Fehler bei jeder Konsultation der Tabelle.
+
+**Der wichtigere, strukturelle Teil — Autorentext in `raw/` wird später als amtlich zitiert.**
+Die Datei `raw/260717_amtlich_zh_hwschv.md` enthält beides: eine **vom KB-Autor geschriebene**
+Konkordanztabelle im Kopf und den **amtlichen** Wortlaut erst ab «TEIL A». Der Refuter des
+Wissens-Chef Run 8 hat die Zuordnung mit dem Satz «die Nachfolge § 19 WsG / § 11 WsV steht wörtlich
+in der **amtlichen** Konkordanztabelle» für belegt erklärt
+(`koordination/outputs/2026-07-18_wissens-chef-run8.md:60`) — und damit Autoren-Interpretation als
+Primärquelle behandelt. Die Datei markiert das im Frontmatter-Feld `umfang` sogar selbst (nur § 20
+WsG war damals abgeschrieben), es wurde nur nicht gelesen. **Empfehlung an die KB:** in jeder
+`raw/`-Datei, die neben dem amtlichen Text auch Autoren-Hilfstabellen führt, diese sichtbar als
+«KB-Autorentext, nicht amtlich» kennzeichnen — sonst wiederholt sich der Mechanismus bei jeder
+Konkordanz-, Mapping- oder Übersichtstabelle im Bestand.
+
 ## 2026-07-28 (Buch-Run 69) — P1 aus Wissens-Chef Run 18 GESCHLOSSEN: WsG + WsV liegen jetzt in `raw/`
 
 Die am 27.07. gemeldete Lücke («die führende KB zitiert das WsG an rund vierzehn Stellen und hat

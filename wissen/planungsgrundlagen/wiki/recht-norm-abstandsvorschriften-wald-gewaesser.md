@@ -103,7 +103,10 @@ In ZH lief die Festlegung bis 31.5.2026 über die **Verordnung über den Hochwas
 Wasserbaupolizei (HWSchV, §§ 15 ff., LS 724.112)** und das **Wasserwirtschaftsgesetz
 (WWG § 18, LS 724.11)**. ⚠ **HWSchV und WWG sind per 1.6.2026 aufgehoben** (OS 81, 144) und
 durch das **Wassergesetz (WsG, LS 724.1)** + die **Wasserverordnung (WsV, LS 724.11)** ersetzt;
-Festlegung heute § 19 WsG / § 11 WsV, Baudirektionsentscheid § 183 lit. b WsV. Massgebend fürs
+Festlegung heute **§ 18 Abs. 1 WsG** / § 11 WsV, Baudirektionsentscheid § 183 lit. b WsV
+*(korrigiert Wissens-Chef Run 19, 28.07.2026: hier stand «§ 19 WsG»; § 19 regelt die **Anpassung**
+des Gewässerraums in dicht überbauten Gebieten, nicht die Festlegung — am amtlichen Volltext
+`baurecht/raw/260728_amtlich_zh_wsg.md` verifiziert)*. Massgebend fürs
 Recht ist die KB `baurecht` (`[[abstaende-und-hoehen]]`, amtlich nachgeführt 17.07.2026 mit
 Konkordanztabelle alt/neu). Wissens-Chef Run 7, 2026-07-17.
 

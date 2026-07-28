@@ -36,15 +36,23 @@ wiederkehren. Bundesrecht in Zuständigkeit Kanton/Gemeinde:
 | 157 | Statische Waldgrenzen | SR 921.0 Art. 10 Abs. 2/13, SR 921.01 Art. 12a | ALN | Ja |
 | 159 | Waldabstandslinien | SR 921.0 Art. 17, LS 700.1 §§ 66/262 | Gemeinden (ARE) | Ja |
 | 160 | Waldreservate | SR 921.0 Art. 20 Abs. 4, SR 921.01 Art. 41, LS 921.11 § 9 | ALN | Nein |
-| 190 | Gewässerraum | SR 814.20 Art. 36a, SR 814.201 Art. 41a/41b, ~~LS 724.112 § 15~~ → **§ 19 WsG (LS 724.1) / § 11 WsV (LS 724.11)** | AWEL | Ja |
+| 190 | Gewässerraum | SR 814.20 Art. 36a, SR 814.201 Art. 41a/41b, ~~LS 724.112 § 15~~ → **§ 18 Abs. 1 WsG (LS 724.1) / § 11 WsV (LS 724.11)** | AWEL | Ja |
 
 > ⚠ **Nachführung kantonales Recht (Wissens-Chef Run 8, 18.07.2026).** Die Tabelle gibt die
 > amtliche Weisung Version 3 vom 01.12.2022 wieder. Die dort für Thema 190 genannte
 > **HWSchV (LS 724.112)** ist per **01.06.2026 aufgehoben** (OS 81, 144); an ihre Stelle treten das
 > **Wassergesetz WsG (LS 724.1)** und die **Wasserverordnung WsV (LS 724.11)**. Nachfolge zu
-> § 15 HWSchV: **§ 19 WsG / § 11 WsV** (Konkordanztabelle in
-> `wissen/baurecht/raw/260717_amtlich_zh_hwschv.md`). Führend für das Recht ist die KB `baurecht`
+> § 15 HWSchV: **§ 18 Abs. 1 WsG / § 11 WsV**. Führend für das Recht ist die KB `baurecht`
 > ([[abstaende-und-hoehen]]); Bundesrecht (SR 814.20 / 814.201) ist unverändert.
+>
+> **Korrektur Wissens-Chef Run 19, 28.07.2026.** Bis heute stand hier **§ 19 WsG**. Richtig ist
+> **§ 18 Abs. 1 WsG** (Randtitel «b. Festlegung»): «Die Direktion legt den Gewässerraum
+> grundeigentümerverbindlich fest und hält ihn in einer Gewässerraumkarte fest.» **§ 19 WsG**
+> betrifft die **Anpassung** des Gewässerraums in dicht überbauten Gebieten — inhaltlich das
+> Gegenteil einer Festlegungskompetenz. Wer gegenüber dem AWEL § 19 als Festlegungsnorm zitiert,
+> beruft sich auf die Ausnahmeregel. Die Zuordnung stammt aus einer KB-eigenen Konkordanztabelle
+> vom 17.07.2026, als der WsG-Volltext im Hub noch nicht vorlag; er liegt seit 28.07.2026 vor
+> (`wissen/baurecht/raw/260728_amtlich_zh_wsg.md`, LS 724.1, Nachtrag 133) und widerlegt sie.
 > **Achtung Nummern-Wiederverwendung:** LS 724.11 trug bis 31.05.2026 das WWG und trägt seither die
 > WsV — bei Altdokumenten immer das Datum mitlesen. Siehe [[recht-norm-abstandsvorschriften-wald-gewaesser]].
 >

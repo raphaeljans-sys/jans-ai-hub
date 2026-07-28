@@ -64,8 +64,16 @@ CH-Berechnungsrichtlinie SWKI VA102-01).
   1'000 m³/h 3 m/s, bis 2'000 m³/h 4 m/s, bis 4'000 m³/h 5 m/s, bis 10'000 m³/h 6 m/s,
   über 10'000 m³/h 7 m/s.
 - **§ 30 BBV I:** periodische Kontrollen für baurechtlich notwendige Anlagen anordenbar.
-- **§ 41a BBV I:** Gebäudeautomation ab 5'000 m² EBF, Gebäudekategorien III-XII (Spital
-  = Kategorie IX) — bei einem Gesamtbau relevant, nicht für die Küche allein.
+- **§ 41a BBV I:** Gebäudeautomation für Neubauten der Gebäudekategorien III–XII ab 5'000 m²
+  Energiebezugsfläche — bei einem Gesamtbau relevant, nicht für die Küche allein.
+  Ein Spital gehört zur **Gebäudekategorie VIII (Spitäler)**; **IX ist Industrie**.
+  *(Korrektur Wissens-Chef Run 19, 28.07.2026: hier stand «Spital = Kategorie IX».)*
+  Die Kategorienliste I–XII steht in **§ 47a Abs. 1 BBV I** (Spitäler 70 kWh/m², Industrie
+  20 kWh/m²) und deckt sich mit **SIA 380/1, Anhang A, Tab. 24**. Für § 41a bleibt das Ergebnis
+  gleich (III–XII umfasst beide) — die Kategorie-Nummer ist aber der Rechen-Identifikator für
+  Grenzwert und Standardnutzung und darf nicht verwechselt werden. Amtlich:
+  `wissen/baurecht/raw/260607_amtlich_zh_bbv1.md` (§ 41a, § 47a);
+  `wissen/energie/destillate/sia-380-1-standardnutzungswerte-tab24-25.md`.
 - **BBV I, Anhang Ziff. 2.25:** Die Verordnung verweist für **Abluftanlagen von
   Wirtschaftsküchen (§ 41)** ausdrücklich auf die **Empfehlungen des BAFU «Mindesthöhe
   von Kaminen über Dach», Ausgabe 2018** (Fundstelle: Bestätigungsverzeichnis Private

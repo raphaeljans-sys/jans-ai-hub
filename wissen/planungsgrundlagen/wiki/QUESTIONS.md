@@ -651,9 +651,24 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   Fundstelle vor (BSR 16-15de Ziff. 2.5.2 + Anhang S. 18, Aussenwand EI 30 bzw. RF1, reduzierbar ab
   1.2 m Abstand — Destillat `vkf-brl-16-15-flucht-rettungswege`), zu (a) nicht: unter welchen
   Bedingungen darf die vertikale Verbindung innerhalb einer Nutzungseinheit offen bleiben, wenn
-  darueber geschlafen wird? Ebenfalls offen: die im Fall genannte Vorgabe «gewendelte Treppe min.
-  1.20 m breit» ist im Destillat nicht mit Ziffer belegt. Fuer den Wettbewerbs-Modus (Skill
-  `brandschutz`, Modus B, Stufe 0 Frage 5) die entscheidende Groesse — sie bestimmt die Schnittfigur.
+  darueber geschlafen wird?
+  **TEILWEISE ERLEDIGT am 28.07.2026 (Wissens-Chef Run 19, am Original gegengelesen) — die
+  Breitenfrage.** Die Aussage «im Destillat nicht mit Ziffer belegt» war falsch: die Vorgabe ist
+  **dreifach ziffern-belegt**. **Grundmass Ziff. 2.4.5 Abs. 3 = 1.5 m** fuer gewendelte Treppen
+  (innere Auftrittsbreite min. 0.15 m); die **1.2 m bei min. 0.1 m** sind eine ziffern-gebundene
+  **Erleichterung** nach Ziff. 3.1 Abs. 2 (Gebaeude geringer Abmessungen), Ziff. 3.2.2 Abs. 1
+  (Wohnen), Ziff. 3.3.2 Abs. 1 (Buero/Gewerbe/Industrie) bzw. Ziff. 3.6.2 (Beherbergungsbetriebe [c]).
+  **Offen bleibt die Zuordnung — und sie, nicht die Breite, bestimmt die Schnittfigur.** Da §4f.2
+  `brandschutz-pl03-wegweiser` belegt, dass das Grassenbiwak mit 18 Schlafplaetzen **kein**
+  Beherbergungsbetrieb [c] ist (Fragebeantwortung 03.10.2024, Frage 47), scheidet Ziff. 3.6.2 aus.
+  Zu klaeren ist deshalb zuerst die **Lage** der Treppe: erschliesst sie **mehrere
+  Nutzungseinheiten**, greift Ziff. 3.1 Abs. 2 (1.2 m / 0.1 m). Liegt sie **innerhalb einer
+  Nutzungseinheit** — der wahrscheinliche Fall bei Aufenthalt EG / Schlafen OG —, verweist
+  Ziff. 3.1 Abs. 3 auf die nutzungsbezogenen Anforderungen, und dort gilt bei Wohnnutzung
+  **Ziff. 3.2.2 Abs. 3: «An Treppen innerhalb der Nutzungseinheit werden keine Anforderungen
+  gestellt»**. Diese beiden Absaetze fehlten im Destillat und wurden am 28.07.2026 nachgetragen.
+  Fuer den Wettbewerbs-Modus (Skill `brandschutz`, Modus B, Stufe 0 Frage 5) heisst das: **zuerst
+  die Nutzungseinheit abgrenzen, dann die Breite bestimmen** — nicht umgekehrt.
 - [ ] **C40 (Nachaudit PL-03, 2026-07-28)** **Transformation EFH → MFH: welche Bauteile müssen die
   Brandschutzanforderungen erfüllen — alle oder nur die neuen?** Wörtlich offen im JANS-eigenen
   Fragenkatalog `_Projekte Themen/Tragwerk Brandschutzanforderung Thalwil Bohlweg3/250304

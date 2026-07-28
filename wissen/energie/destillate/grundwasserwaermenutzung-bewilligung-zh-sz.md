@@ -34,18 +34,32 @@ oder 50 kW, beide unter der bundesrechtlichen **3°C-Temperaturänderungsregel**
   Gesuchseinreichung über die Standortgemeinde, Weiterleitung ans AWEL; in Spezialgebieten
   (Limmattal, Eulachtal, Töss-Abschnitt Winterthur–Wila) ist eine numerische
   Grundwassermodellierung vorgeschrieben.
-- **Mindestgrösse:** 100 kW Kälteleistung, setzt Minergie-Bauweise voraus (Quelle Stand 2017,
-  für 2026 nicht neu bestätigt — möglicherweise veraltet; ob die (nicht eingesehene)
-  Wasserverordnung WsV diesen Schwellenwert 2026 neu regelt, bleibt offen).
-- **Konzessionsdauer — Sekundärquellen-Behauptung «max. 40 Jahre» am Gesetzestext WIDERLEGT:**
-  Der vollständige WsG-Text (§§ 69, 132) wurde gezielt durchsucht. § 69 Abs. 1/2 WsG legt fest,
-  dass Umfang, Art und **Dauer** des Nutzungsrechts von der Verleihungsbehörde **im Einzelfall
-  bestimmt** werden («ist in der Regel befristet») — **ohne gesetzlichen Maximalwert**. Die
-  kursierende «40 Jahre»-Zahl beruht mutmasslich auf einer Verwechslung mit § 132 WsG (Fünfjahres-
-  Übergangsfrist für Gemeinden bei privaten Infrastruktur-Trägern der Wasserversorgung — ein
-  völlig anderer Sachverhalt). Ob eine 40-Jahre-Regel in der (noch nicht eingesehenen)
-  Wasserverordnung WsV oder der alten WWG-Konzessionsverordnung steht, ist ungeprüft und bleibt
-  offen — als Fakt aber NICHT mehr verwenden, bevor die WsV geprüft ist.
+- **Mindestgrösse:** 100 kW Kälteleistung, setzt Minergie-Bauweise voraus (AWEL-Quelle Stand 2017).
+  **Dokumentierter Negativbefund 28.07.2026 (Wissens-Chef Run 19):** die Wasserverordnung
+  (WsV, LS 724.11, in Kraft seit 01.06.2026) enthält für die Grundwasserwärmenutzung **keine**
+  Mindestgrösse — weder eine Minergie- noch eine Kälteleistungs-Untergrenze. Die 100-kW/Minergie-
+  Schwelle ist damit **AWEL-Verwaltungspraxis, nicht Verordnungsrecht**, und weiterhin nur mit
+  Stand-2017-Vorbehalt zu verwenden. Bei 200 kW kennt die WsV lediglich eine **Verfahrens**schwelle:
+  § 173 lit. b WsV zählt «Wärmenutzungen von Grundwasser bis 200 kW» zu den Vorhaben von
+  untergeordneter Bedeutung, die nach § 92 WsG im **vereinfachten Verfahren** behandelt werden
+  können — eine Verfahrenserleichterung, keine Grössenvorgabe.
+- **Konzessionsdauer — am 28.07.2026 an der Wasserverordnung GEKLÄRT: Regeldauer 15–30 Jahre.**
+  *(Diese Position korrigiert den früheren Stand dieses Destillats, der «kein gesetzlicher
+  Maximalwert» behauptete. Die damalige Einschränkung war ehrlich formuliert — «bevor die WsV
+  geprüft ist» — und ist mit dem WsV-Volltext seit 28.07.2026 einlösbar.)*
+  § 69 Abs. 1/2 WsG regelt nur das Prinzip (die Konzession bestimmt Umfang, Art und **Dauer**, sie
+  ist «in der Regel befristet») und nennt selbst keine Zahl. Die Zahlen stehen auf Verordnungsstufe:
+  **§ 121 Abs. 1 lit. b WsV** — «Nutzung von Grund- und Oberflächenwasser zur Wärmeentnahme und zum
+  Wärmeeintrag: **15–30 Jahre**». Es ist eine **Regeldauer** («in der Regel»), keine starre
+  Höchstdauer: nach **§ 121 Abs. 2 WsV** kann sie bei besonderen Verhältnissen auf längstens
+  **80 Jahre** festgelegt werden. Die kursierende **«40 Jahre» gilt für andere Nutzungsarten
+  derselben Bestimmung** — lit. a «Entnahmen von Grund- und Oberflächenwasser: 15–40 Jahre» und
+  lit. d «Inanspruchnahmen von Gewässern: 15–40 Jahre» — und ist für die **Wärme**nutzung falsch.
+  **Für die Praxis:** in Wirtschaftlichkeitsrechnungen für eine Grundwasserwärmepumpe den
+  Betrachtungs-/Amortisationshorizont der Wärmequelle mit **maximal 30 Jahren** ansetzen und die
+  Konzessionserneuerung als Risiko ausweisen (betrifft `healthcare-wirtschaftlichkeit`,
+  `machbarkeit` Typ B, `immobilienbewertung` DCF). Beleg: `baurecht/raw/260728_amtlich_zh_wsv.md`,
+  LS 724.11, Nachtrag 133.
 
 ## Kanton Schwyz
 

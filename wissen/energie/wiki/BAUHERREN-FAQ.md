@@ -2844,10 +2844,18 @@ beide vor Verwendung gegen reale Offerten gegenprüfen.
 
 **Ergänzt 2026-07-15:** Das ZH-**Wasserwirtschaftsgesetz von 1991 ist per 1. Juni 2026** durch das
 neue **Wassergesetz (WsG)** abgelöst worden — die Konzessionssystematik bleibt materiell gleich,
-neu ist ein Wärmenutzungsatlas als Planungsgrundlage. Die in Sekundärquellen kursierende Aussage
-«Konzessionsdauer max. 40 Jahre» wurde am Gesetzestext selbst geprüft und ist dort **nicht
-auffindbar** — die Dauer wird von der Behörde im Einzelfall festgelegt, ohne gesetzlichen Fixwert;
-diese Zahl bitte nicht mehr als Fakt verwenden. In Schwyz wurde die Rechtsgrundlage (§ 12 WRG,
+neu ist ein Wärmenutzungsatlas als Planungsgrundlage.
+
+**Korrigiert 2026-07-28 (Wissens-Chef Run 19) — die Konzessionsdauer ist geregelt.** Bis heute
+stand hier, ein gesetzlicher Fixwert sei «nicht auffindbar». Das galt für das **Gesetz**, war aber
+die falsche Stufe: die Zahlen stehen in der **Wasserverordnung**, die seit dem 01.06.2026 in Kraft
+ist und dem Hub seit dem 28.07.2026 im Volltext vorliegt. **§ 121 Abs. 1 lit. b WsV** nennt für die
+«Nutzung von Grund- und Oberflächenwasser zur Wärmeentnahme und zum Wärmeeintrag» eine Regeldauer
+von **15–30 Jahren**; bei besonderen Verhältnissen sind nach Abs. 2 längstens 80 Jahre möglich.
+Die kursierenden **40 Jahre gelten für die reine Wasserentnahme** (lit. a) und für Inanspruchnahmen
+von Gewässern (lit. d) — für die Wärmenutzung sind sie falsch. **Für Ihre Rechnung heisst das:**
+den Betrachtungshorizont der Wärmequelle mit höchstens **30 Jahren** ansetzen und die
+Konzessionserneuerung als Risiko im Auge behalten. Beleg: WsV, LS 724.11, Nachtrag 133. In Schwyz wurde die Rechtsgrundlage (§ 12 WRG,
 4 Wohneinheiten/50 kW) wortgetreu am Originalgesetz bestätigt, unverändert seit einer Revision 2018.
 
 **Ergänzt 2026-07-16 (vierter Rechercheanlauf):** Eine Schweizer Feldmessung für die GWWP-JAZ
