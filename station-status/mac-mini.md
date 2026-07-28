@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 28.07.2026 09:09:10
+Stand: 28.07.2026 09:29:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -18,4 +18,4 @@ Stand: 28.07.2026 09:09:10
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 447bccf0 twin-chef Gate 260728: Facetten-Konflikt internes Briefing-Genre in QUESTIONS.md vermerkt
+- 8142c3d0 nas-selfcommit: 2 Datei(en) 2026-07-28 09:15
