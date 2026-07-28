@@ -1554,3 +1554,37 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   **Kein Widerspruch** (Vorentwurf, keine Rechtswirkung) — aber die führende Recht-KB muss den
   Strang kennen, sobald er in die Vernehmlassung/Inkraftsetzung geht. Beim nächsten Buch-/Amts-Run
   aufnehmen; Querbezug ist in `planungsgrundlagen` bereits gesetzt (Run 15).
+
+## 2026-07-28 (Wissens-Chef Run 19) — zwei Befunde aus der Gegenpruefung eines WIDERLEGTEN Cross-KB-Vorwurfs
+
+Beide fielen an, als ein Verifikator einen Vorwurf gegen `projekt-lessons` **kippte** — der Vorwurf
+war falsch, aber das Gegenlesen legte zwei echte Maengel in DIESER KB frei. Keiner wurde vom Chef
+selbst korrigiert (beide brauchen die Original-Screenshots bzw. eine KB-Entscheidung).
+
+**(a) P1 — drei Saetze im Destillat sind grammatisch zerstoert und damit nicht zitierfaehig.**
+In `buecher/band-2/15-lage-von-gebaeuden-teil2d.md`, Abschnitt C «Naeherbaurecht»
+(15.8.10, § 270 Abs. 3 PBG, Buch S. 1096-1103):
+- Z. 136-138: «Die Schriftlichkeit nach § 270 Abs. 3 PBG verlangt ist, sondern lediglich als
+  Verfahrensbestimmung (§ 5 lit. l BVV) zu qualifizieren.» — **die Negation fehlt**; gemeint ist
+  erkennbar, dass die Schriftlichkeit NICHT von § 270 Abs. 3 PBG verlangt wird.
+- Z. 139-142: «… das Gebaeude des Erstbauenden ist (infolge der nachbarlichen Zustimmung) zwar
+  nicht im abstandsrechtlicher Hinsicht baurechtskonform bewilligt …» — Sinn nicht rekonstruierbar.
+- Z. 142-143: «Bei der Realisierung eines Bauvorhabens unter generellem Grenzabstand einhalten
+  (BEZ 2010 Nr. 14; BEZ 1995 Nr. 17).» — Satz ohne Subjekt und Objekt, Aussage vollstaendig verloren.
+**Warum P1:** Genau dieser dritte Satz traegt die Frage, wie sich ein **generelles** Naeherbaurecht
+bei der Realisierung auswirkt — die praktisch entscheidende Aussage des Abschnitts. Der Artikel ist
+`status: emerging`, wird aber von `wiki/abstaende-und-hoehen.md` (`status: established`) als
+Detailquelle verlinkt. **Empfehlung:** S. 1099-1101 (Shots 547-570) neu destillieren und die drei
+Saetze am Original nachfuehren, bevor irgendeine Ableitung daraus in andere KBs wandert — im
+gepruueften Fall hat ein Lese-Agent genau daraus einen falschen Schluss gezogen.
+
+**(b) Nicht vollzogener Sweep in einem `established`-Artikel.** `wiki/abstaende-und-hoehen.md`
+zitiert die 1/3-/1.3-m-Vorsprungsregel weiterhin ungebrochen als «(§ 260 Abs. 3 PBG, § 27 Abs. 1
+ABV)», **ohne den Haupt-/Anhang-Vorbehalt**. Die KB hat diese Divergenz am 27.07.2026 (Buch-Run 62)
+selbst als offene Frage markiert (`QUESTIONS.md`, `baulinien-und-abstandslinien.md` Z. 99-110):
+im Hauptteil des geltenden PBG regelt § 260 Abs. 3 die **Getrenntmessung bei seitlich gegliederten
+Gebaeuden**; die Vorsprungsregel steht in der **Anhang**-Fassung und ist fuer den Grenzabstand nach
+eigener KB-Feststellung durch § 6c ABV abgeloest. **Der Vorbehalt ist im Schwester-Artikel gesetzt,
+im Leit-Artikel nicht** — wer ueber `abstaende-und-hoehen` einsteigt (der vorgesehene Weg), bekommt
+die ungebrochene Fassung. Das ist der ausbreitungsfaehige Teil: im gepruueften Fall hat genau diese
+Stelle einen Lese-Agenten zu einer falschen Zitierempfehlung verleitet.

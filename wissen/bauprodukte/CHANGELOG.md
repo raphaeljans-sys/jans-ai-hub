@@ -1,5 +1,34 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-07-28 — Wissens-Chef Run 19: ERST-PRUEFUNG dieser KB (Cross-KB)
+- **[register, strukturell] Die KB war in `koordination/QUERBEZUEGE.md` ueberhaupt nicht
+  registriert** — weder als fuehrend fuer Produktwissen noch mit der Klarstellung, dass
+  Norm-Fundstellen und Kennwerte anderswo gefuehrt werden. **Drei Fuehrungszeilen ergaenzt:**
+  bauprodukte fuehrt **Produkt-/Systemwissen nach BKP**; **normen** fuehrt die Norm-Fundstellen
+  (inkl. Fassungsstand und **Korrigenda**); **grobkosten/immobilienbewertung** fuehren die Kennwerte
+  — historische Herstellerpreise hier nur als **datierter Zeitstand**, nie als heutiger Ansatz.
+  Genau diese Registerluecke hat den naechsten Befund erzeugt.
+- **[korrektur, materiell] Dachbegruenung: BKP-Aufteilung fehlte, CH-Norm fehlte ganz.**
+  `wiki/dachbegruenung-systeme.md` fuehrte die Dachbegruenung allein unter **BKP 224**. Massgebend
+  ist **SIA 312:2013 «Begruenung von Daechern»** (SN 564312, seit 1.11.2013) — sie liegt seit
+  laengerem als Destillat in `normen` und verlangt die Aufteilung **224 (Schichtaufbau) / 288
+  (Vegetation)**: wer alles unter 224 ausschreibt, verliert die Gaertnerleistung aus dem Devis.
+  Normabschnitt nachgetragen (Schichtdicken extensiv 80-200 mm, intensiv 120-300 bzw. 200 bis
+  >500 mm; Niederschlagsklassen-Tabelle 2; Neigungsschwellen 6°/15°), BKP-Codes gegen
+  `references/bkp-2017/` verifiziert, **beidseitige Verlinkung** zu `normen` gesetzt.
+- **[fassungs-vorbehalt] `wiki/bkp-261-aufzuege.md`:** die zitierten Kabinen-Mindestmasse stammen aus
+  **SIA 500:2009 Ziff. 3.7.3** — einer der Ziffern, die das Korrigendum **SN 521500/C4:2019** aendert
+  (im Hub bis heute unbekannt, in diesem Lauf entdeckt). Vorbehalt gesetzt; der Kabinen-Abgleich
+  steht bis zum Nachzug in `normen` unter Vorbehalt.
+- **[WIDERLEGT]** Der Vorwurf, die offene Normfrage bei Terrazzo/Kunststein sei durch
+  **SN EN 16954:2018** laengst geschlossen, kippt: fuer zementgebundene Kunststein-/Terrazzoplatten
+  ist **SIA 244:2006 «Kunststeinarbeiten»** einschlaegig. Die Umsetzung haette eine falsche
+  Normzuordnung in die neue KB gesetzt.
+- **[beobachtet, NICHT geloescht]** `.!33499!CHANGELOG.md` ist ein **0-Byte-SMB-Schreibfragment**
+  vom 28.07. 01:37; das echte CHANGELOG ist intakt, kein Datenverlust. Loeschung nur nach Rueckfrage.
+- Bericht: `koordination/outputs/2026-07-28_wissens-chef-run19.md`.
+
+
 ## 2026-07-28 — Neuer Artikel BKP 281 Bodenbeläge (Mac Mini Nachtschicht, 07:30-Lauf)
 - **Artikel `wiki/terrazzo-kunststein-bodenbelaege.md` geschrieben** (status
   `emerging`) aus den zwei P1-triagierten Dateien `281 Bodenbelaege/020226 Terrazzo

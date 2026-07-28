@@ -1,3 +1,35 @@
+## 2026-07-28 — Wissens-Chef Run 19 (Cross-KB): SIA-500-Korrigenda C3/C4, Gebaeudekategorien, VKF-Luecke
+- **[korrektur + fassungsstand, materiell — ergiebigster Befund des Laufs] SIA 500: vier Korrigenda,
+  eines davon dem Hub voellig unbekannt.** `destillate/sia-500-2009.md` fuehrte Ziff. 9.7.2 im Stand
+  der Basisausgabe. Der Verifikator hat Basisausgabe und Korrigenda am Original beschafft:
+  **C3:2013** aendert die **Bezugsgroesse von Parkplaetzen auf Wohnungen** (1 rollstuhlgerechter PP
+  pro 25 **Wohnungen**, angebrochene Einheit zaehlt) und fuehrt einen 100-m-Gehdistanz-Richtwert ein;
+  **C4:2019 war im Hub nirgends erwaehnt** und aendert Ziff. 3.4.1, 3.7.3, 3.7.4, 3.7.6, 3.7.7,
+  3.7.8, 6.2.2. Ziff. 9.7 nachgefuehrt, Frontmatter-Feld `ausgabe_ueberholt` gesetzt, C4-betroffene
+  Ziffern markiert, Verlinkung zu `sia-500-auslegung`/`sia-en-13200-1-2019` ergaenzt.
+  **Voller Nachzug (~20 Stellen) als P1 in `wiki/QUESTIONS.md`.** Der Fehler hatte die
+  Destillat-Ebene schon verlassen: `bauprodukte/wiki/bkp-261-aufzuege.md` rechnet ein Herstellermass
+  gegen die Kabinen-Tabelle aus **Ziff. 3.7.3** — dort Fassungs-Vorbehalt gesetzt.
+- **[LEHRE, dritte Variante der Run-8-Regel «Fassungspflege ist der blinde Fleck»]** Auch bei
+  **unveraenderter Ausgabe** koennen **Korrigenda** Ziffern materiell aendern. Sie tragen keine neue
+  Jahreszahl im Normtitel und sind an der Ausgabe **nicht erkennbar** — deshalb blieb C4:2019 sieben
+  Jahre unbemerkt. Bei jedem SIA-Destillat die Korrigenda-Liste des SIA-Shops pruefen (Preisgruppe 0).
+- **[korrektur, materiell] Gebaeudekategorie: Spital ist VIII, nicht IX.** Der Therapiekuechen-Report
+  (28.07.) ordnete das Spital der Kategorie **IX** zu — das ist **Industrie**. Amtlich § 47a Abs. 1
+  BBV I und SIA 380/1 Anhang A Tab. 24: **VIII = Spitaeler**. Fuer § 41a bleibt das Ergebnis gleich
+  (III-XII umfasst beide), die Nummer ist aber der Rechen-Identifikator: 20 statt 70 kWh/m²,
+  18 statt 22 °C, Qww 25 statt 100 MJ/m²·a. Korrigiert; **Leitplanke mit der Liste I-XII** in
+  `wiki/QUESTIONS.md`.
+- **[korrektur, materiell] Luecke im VKF-Destillat 16-15 — die haeufigste Praxisregel fehlte.**
+  `destillate/vkf-brl-16-15-flucht-rettungswege.md` liess in Ziff. 3.1 die Tatbestandsvoraussetzung
+  «welche mehrere Nutzungseinheiten erschliessen» und Abs. 3 weg, in Ziff. 3.2.2 den Abs. 3
+  «**An Treppen innerhalb der Nutzungseinheit werden keine Anforderungen gestellt**» (gleichlautend
+  3.3.2 Abs. 2). Das Destillat las sich, als gaelte die 1.2-m-Erleichterung generell. Beide Absaetze
+  nachgetragen; der Fund kam aus der Gegenpruefung von C41 in `planungsgrundlagen`.
+- **[verlinkt]** `destillate/sia-312-2013.md` ↔ `bauprodukte/wiki/dachbegruenung-systeme.md`.
+- Bericht: `koordination/outputs/2026-07-28_wissens-chef-run19.md`.
+
+
 ## 2026-07-28 — Fachanfrage Raphael: Lüftung Therapieküche (Spital Stadt Zürich, Umnutzung Büro zu psychosomatischer Wohngruppe)
 - **Report angelegt:** `outputs/2026-07-28_therapiekueche-lueftung-spital-zuerich.md` — Querschnitt
   Baurecht ZH (PBG §§ 302/306/309, BBV I §§ 29/30/36/41 + Anhang Ziff. 2.25), Arbeitsrecht

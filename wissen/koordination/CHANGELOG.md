@@ -3,6 +3,83 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-28 — Run 19 (Workflow-Fan-out: 5 Lese-Agenten + 10 adversariale Verifikatoren; 7 BESTAETIGT / 3 WIDERLEGT)
+- **Verfahren:** Workflow-Tool, 15 Agenten, ~2.42 Mio. Subagent-Token, 310 Tool-Calls, 20 Min.
+  Bericht: `outputs/2026-07-28_wissens-chef-run19.md`. 14 Stellen in 12 Dateien korrigiert.
+  **Der Lauf stand auf einer eingeloesten Bring-Schuld:** `baurecht` hat mit Buch-Run 69 den in
+  Run 18 als P1 gemeldeten **WsG-/WsV-Volltext** beschafft — damit waren erstmals alle ~60
+  WsG-/WsV-Fundstellen des Hubs am amtlichen Wortlaut pruefbar. Genau daraus kommen die zwei
+  gewichtigsten Befunde. Die Bring-Schuld-Mechanik hat sich damit erstmals messbar ausgezahlt.
+- **[korrektur, materiell, WICHTIGSTER BEFUND — und ein SELBSTBEFUND] Der Gewaesserraum stand
+  hub-weit auf § 19 WsG; richtig ist § 18 Abs. 1 WsG.** Das Wort «grundeigentuemerverbindlich»
+  steht woertlich und ausschliesslich in § 18 Abs. 1 (Randtitel «b. Festlegung»); § 19 heisst
+  «c. Beruecksichtigung der baulichen Gegebenheiten in dicht ueberbauten Gebieten» und regelt die
+  **Anpassung** — inhaltlich das Gegenteil. Betroffen war die Rechtsgrundlagen-Spalte von
+  **OEREB-Thema 190**, also die Angabe, die aus `planungsgrundlagen` in Behoerdenschreiben ans AWEL
+  wandert. Vier Fundorte in drei KBs korrigiert; **§ 19 WsG neu als eigene Aussage** erfasst
+  (Abs. 2 = der Hebel bei erheblicher Nutzungseinschraenkung) — er war im Hub nirgends gefuehrt,
+  weil er mit der Festlegung verwechselt wurde.
+- **[STRUKTURMUSTER, NEU — gewichtiger als der Einzelfehler] Autorentext in `raw/` wird spaeter als
+  amtlicher Wortlaut zitiert.** Die Quelle der Verbreitung ist eine **vom KB-Autor geschriebene**
+  Konkordanztabelle im Kopf von `baurecht/raw/260717_amtlich_zh_hwschv.md`; der amtliche Teil
+  beginnt erst unter «TEIL A». Der Refuter von **Run 8** erklaerte die Zuordnung mit dem Satz
+  «steht woertlich in der **amtlichen** Konkordanztabelle» fuer belegt — und behandelte damit
+  Autoren-Interpretation als Primaerquelle. Die Datei markiert das im Frontmatter-Feld `umfang`
+  selbst; es wurde nur nicht gelesen. **Regel: eine `raw/`-Datei ist nicht als Ganzes amtlich** —
+  Autoren-Hilfstabellen (Konkordanz, Mapping, Uebersicht) sind als solche zu kennzeichnen. Der
+  Chef fasst `raw/` nicht an → als P1 an `baurecht` uebergeben.
+- **[korrektur + fassungsstand, materiell — ergiebigster Einzelbefund] SIA 500: vier Korrigenda,
+  eines dem Hub sieben Jahre unbekannt.** C3:2013 aendert die **Bezugsgroesse von Parkplaetzen auf
+  Wohnungen** (1 rollstuhlgerechter PP pro 25 **Wohnungen**) plus 100-m-Richtwert; **C4:2019 war im
+  Hub nirgends erwaehnt** (aendert Ziff. 3.4.1, 3.7.3, 3.7.4, 3.7.6, 3.7.7, 3.7.8, 6.2.2). Der
+  Fehler hatte die Destillat-Ebene schon verlassen: `bauprodukte/wiki/bkp-261-aufzuege.md` rechnet
+  gegen die Kabinen-Tabelle aus **Ziff. 3.7.3**. **Dritte Variante der Run-8-Regel «Fassungspflege
+  ist der blinde Fleck»: auch bei UNVERAENDERTER Ausgabe koennen Korrigenda Ziffern materiell
+  aendern — sie tragen keine neue Jahreszahl und sind an der Ausgabe nicht erkennbar.**
+- **[korrektur, materiell, bis zum Bauherrn] Konzessionsdauer Grundwasserwaerme: 15-30 Jahre.**
+  `energie` fuehrte «kein gesetzlicher Maximalwert» — die eigene Einschraenkung («bevor die WsV
+  geprueft ist») war seit dem 28.07. einloesbar: **§ 121 Abs. 1 lit. b WsV** nennt eine Regeldauer
+  von **15-30 Jahren**; die kursierenden 40 Jahre gelten fuer **andere Litera**. **Die Stufe war
+  das Problem, nicht die Recherche** — gesucht im Gesetz, geregelt in der Verordnung. Auch
+  **BAUHERREN-FAQ F77** korrigiert, wo der Fehler den Kunden erreichte. Nebenbefund: die
+  100-kW/Minergie-Mindestgroesse steht **nicht** in der WsV → AWEL-Praxis, nicht Verordnungsrecht.
+- **[korrektur, materiell] § 47b Abs. 1 BBV I: Erlass und Vollzugshilfe waren vermischt.** Das neue
+  Rueckkuehler-Destillat gab 30-%-Technikreserve, Zweckbestimmung und PV-Reduktionsklausel als
+  Erlasswortlaut aus. Der Erlass besteht aus **genau zwei Saetzen** (10 W/m² EBF + 70-%-Deckel).
+  **Mechanik:** das als «woertlich» ausgewiesene Blockzitat war eine Montage aus zwei Textbloecken;
+  weggefallen war genau der Satz, der die Verwechslung verhindert haette. **Regel: Erlasswortlaut
+  und Vollzugshilfe nie in dasselbe Blockzitat montieren.**
+- **[korrektur, materiell] Gebaeudekategorie: Spital ist VIII, nicht IX (= Industrie).** Der neue
+  Therapiekuechen-Report verwechselte sie. Fuer § 41a bleibt das Ergebnis gleich, die Nummer ist
+  aber der Rechen-Identifikator: 20 statt 70 kWh/m². Leitplanke mit der Liste I-XII in `normen`.
+- **[ERST-PRUEFUNG] `bauprodukte` (neue KB) war im Register unsichtbar — und produzierte prompt den
+  erwarteten Fehler.** Keine Zeile in der Fuehrungs-Matrix; `dachbegruenung-systeme` fuehrte die
+  Dachbegruenung allein unter **BKP 224** und kannte **SIA 312:2013** gar nicht, obwohl das
+  Destillat laengst in `normen` liegt. Die Norm verlangt **224 (Schichtaufbau) / 288 (Vegetation)** —
+  wer alles unter 224 ausschreibt, **verliert die Gaertnerleistung aus dem Devis**. Drei
+  Fuehrungszeilen ergaenzt, Normabschnitt nachgetragen, beidseitig verlinkt.
+- **[korrektur, materiell] Luecke im VKF-Destillat 16-15, gefunden beim Pruefen eines anderen
+  Befunds.** Ziff. 3.1 liess die Tatbestandsvoraussetzung «welche mehrere Nutzungseinheiten
+  erschliessen» und Abs. 3 weg, Ziff. 3.2.2 den Abs. 3 «An Treppen **innerhalb** der Nutzungseinheit
+  werden keine Anforderungen gestellt» — die praktisch haeufigste Konstellation fehlte damit ganz.
+  C41 in `planungsgrundlagen` entsprechend neu gefasst: **zuerst die Nutzungseinheit abgrenzen,
+  dann die Breite bestimmen.**
+- **[WIDERLEGT, 3 von 10 — und zwei davon fanden echte Fehler anderswo]** (a) «70-%-Deckel nur bei
+  hohen Bauten sei Falschlesart» — es ist die **amtliche Vollzugslesart**; eine Korrektur haette die
+  Vollzugspraxis aus dem Hub entfernt. (b) «Terrazzo durch SN EN 16954:2018 abgedeckt» — falsche
+  Leitnorm, einschlaegig ist **SIA 244:2006**; die Umsetzung haette eine falsche Normzuordnung in
+  eine brandneue KB gesetzt. (c) «SBB-Lesson erhebt den Einzelfall zur Regel» — kippt an vier
+  Gruenden; **der Vorschlag war der gefaehrlichere Teil** (wollte ein «Vorsprungsprivileg § 260
+  Abs. 3 PBG» zitieren, das im geltenden PBG-Hauptteil einen anderen Gegenstand hat). Aus dem
+  Kipp-Vorgang stammen zwei echte `baurecht`-Meldungen: drei **grammatisch zerstoerte Saetze** im
+  Naeherbaurechts-Destillat und ein nicht vollzogener § 260-Sweep im `established`-Leitartikel.
+- **[gemeldet, NICHT ausgefuehrt] Loeschung braucht Freigabe:**
+  `bauprodukte/.!33499!CHANGELOG.md` ist ein 0-Byte-SMB-Schreibfragment (28.07. 01:37), das echte
+  CHANGELOG ist intakt. Kein Datenverlust; Entscheid Raphael.
+- **[ENTSCHEID RAPHAEL, unveraendert offen aus Run 17/18]** zwei Rule-Aenderungen an
+  `anrede-kontakte.md` (generelle Gewichts-Klausel; Felix Staehlin — Karl Waechter AG oder
+  Staehlin AG Sanitaer?).
+
 ## 2026-07-27 — Run 18 (Workflow-Fan-out: 5 Lese-Agenten + 10 adversariale Verifikatoren; 7 BESTAETIGT / 3 WIDERLEGT)
 - **Verfahren:** Workflow-Tool, 15 Agenten, ~2.19 Mio. Subagent-Token, 260 Tool-Calls, 13:21 Min.
   Delta seit Run 17 nur **knapp eine Stunde** — trotzdem ergiebig, weil in diesem Fenster genau das

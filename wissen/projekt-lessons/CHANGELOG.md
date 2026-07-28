@@ -2,6 +2,23 @@
 
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
+
+## 2026-07-28 — Wissens-Chef Run 19 (Cross-KB): BKP-Feld praezisiert, Haupt-Vorwurf WIDERLEGT
+- **[korrektur] `wiki/roethlisberger-geraetepreis-pruefung-273-35.md`, Frontmatter `bkp`.** Das Feld
+  trug «273.35» — einen Code, den die **BKP-2017-Liste nicht kennt** (dort existiert nur 273.3
+  «Allgemeine Schreinerarbeiten»). Kuechen-/Gastroeinrichtungen sind **BKP 258 Kuecheneinrichtungen**;
+  «273.35» ist die **projektinterne Los-Nummer** KISPI. Feld entsprechend praezisiert (Rule
+  `bkp-2017-referenz`). Titel und Fliesstext bleiben unveraendert — dort ist «Los 273.35» korrekt.
+- **[WIDERLEGT, mit deutlichem Abstand]** Der Vorwurf, `sbb-naeherbaurecht-thalwil-2414-vordach.md`
+  erhebe den Einzelfall zur ausnahmslosen Regel und uebergehe die von `baurecht` gefuehrte
+  Unterscheidung projektbezogenes/generelles Naeherbaurecht, kippt an vier unabhaengigen Gruenden:
+  die Lesson erhebt **gar keine Rechtsbehauptung**, sie dokumentiert einen belegten Projektverlauf
+  (03.-20.07.2026), und die zitierte Gegenstelle sagt das Behauptete nicht. **Der Vorschlag haette
+  Schaden angerichtet:** er wollte ein «Vorsprungsprivileg § 260 Abs. 3 PBG» in die Lesson schreiben,
+  das im geltenden Hauptteil des PBG einen anderen Gegenstand hat. Artikel bleibt unveraendert.
+- Die beim Gegenlesen gefundenen zwei echten Maengel liegen in `baurecht`, nicht hier — dort gemeldet.
+- Bericht: `koordination/outputs/2026-07-28_wissens-chef-run19.md`.
+
 Format: `- [aktion] Beschreibung (Artikel/Datei)`
 
 ## 2026-07-28 — Bootstrap fortgesetzt: zwei neue Lesson-Artikel (Nachtschicht Mac Mini)

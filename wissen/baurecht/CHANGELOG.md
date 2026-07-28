@@ -3,6 +3,32 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-28 — Wissens-Chef Run 19 (Cross-KB): erste Gegenlesung am neuen WsG-Volltext
+- **[korrektur, materiell] Gewaesserraum-Festlegung stand auf § 19 WsG — richtig ist § 18 Abs. 1 WsG.**
+  `wiki/abstaende-und-hoehen.md` fuehrte «§ 15 Abs. 1 HWSchV, heute § 19 WsG». Das Wort
+  «grundeigentuemerverbindlich» steht woertlich und ausschliesslich in **§ 18 Abs. 1 WsG** (Randtitel
+  «b. Festlegung»); **§ 19 WsG** heisst «c. Beruecksichtigung der baulichen Gegebenheiten in dicht
+  ueberbauten Gebieten» und regelt die **Anpassung**. Korrigiert; zusaetzlich **§ 19 WsG neu als
+  eigene Aussage** aufgenommen (Abs. 2 = der Hebel, wenn ein festgelegter Gewaesserraum die bauliche
+  Nutzung erheblich einschraenkt) — er war im Hub nirgends erfasst, weil er mit der Festlegung
+  verwechselt wurde. Dieselbe Korrektur in zwei `planungsgrundlagen`-Artikeln (OEREB-Thema 190).
+- **[gemeldet, NICHT ausgefuehrt — P1] Die Wurzel liegt in `raw/260717_amtlich_zh_hwschv.md`**
+  (Konkordanzzeilen Z. 40/252). Der Chef fasst `raw/` nicht an → in `wiki/QUESTIONS.md` uebergeben.
+  **Strukturbefund dahinter:** eine **vom KB-Autor geschriebene** Konkordanztabelle im Kopf einer
+  `raw/`-Datei wurde vom Refuter des Run 8 als «amtliche Konkordanztabelle» zitiert. Eine
+  `raw/`-Datei ist nicht als Ganzes amtlich — Autoren-Hilfstabellen sind als solche zu kennzeichnen.
+- **[bestaetigt, kein Handlungsbedarf]** Rund 60 WsG-/WsV-Fundstellen des Hubs gegen den neuen
+  Volltext geprueft: §§ 44/45/46/48/74/126 WsG und §§ 11/92/183/213 WsV tragen. **Der
+  EG-GSchG-Sweep aus Run 17/18 ist sauber abgeschlossen** — keine Reste ohne Aufhebungsvermerk.
+  Beide raw-Dateien sind vollstaendig (WsG §§ 1-132, WsV §§ 1-215).
+- **[gemeldet, NICHT ausgefuehrt]** Zwei Maengel aus der Gegenpruefung eines widerlegten Vorwurfs, in
+  `wiki/QUESTIONS.md`: (a) **drei grammatisch zerstoerte Saetze** in `buecher/band-2/15-lage-von-
+  gebaeuden-teil2d.md` (Abschnitt Naeherbaurecht) — nicht zitierfaehig, haben bereits einen
+  Lese-Agenten fehlgeleitet; (b) der Haupt-/Anhang-Vorbehalt zu **§ 260 Abs. 3 PBG** ist im
+  Schwester-Artikel gesetzt, im `established`-Leit-Artikel `abstaende-und-hoehen` nicht.
+- Bericht: `koordination/outputs/2026-07-28_wissens-chef-run19.md`.
+
+
 ## 2026-07-28 — Buch-Run 69 (Festigungsmodus): [[grundlagen-planungs-baurecht]] erstverifiziert — 3 echte Zitierfehler, 1 Fassungsstand-Drift eine Ebene unter dem Erlass
 - **[korrektur, materiell] Art. 679 Abs. 2 ZGB war mit invertierter Polarität zitiert.** Der Artikel
   begründete «eine Baubewilligung entbindet nicht von privatem Nachbarrecht» mit Abs. 2 und der

@@ -55,6 +55,156 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### baurecht ↔ planungsgrundlagen ↔ energie (Gegenlesung am NEUEN WsG-/WsV-Volltext) — geprueft 2026-07-28 (Run 19)
+- **Anlass:** Die in Run 18 als P1 gemeldete Luecke ist eingeloest — `baurecht` hat mit Buch-Run 69
+  `raw/260728_amtlich_zh_wsg.md` (WsG, LS 724.1, §§ 1-132) und `raw/260728_amtlich_zh_wsv.md`
+  (WsV, LS 724.11, §§ 1-215) beschafft. Erstmals waren damit ALLE rund 60 WsG-/WsV-Fundstellen des
+  Hubs am amtlichen Wortlaut pruefbar. Beide raw-Dateien auf Vollstaendigkeit geprueft: lueckenlos,
+  Frontmatter-Fassungsstand deckt sich mit dem Textkoerper — kein Befund.
+- **Am Volltext BESTAETIGT (kein Handlungsbedarf):** § 45 WsG (Gewaesserschutzbereiche UND
+  Grundwasserschutzareale, OEREB 130/132) · § 46 WsG (Grundwasserschutzzonen) · § 48 Abs. 2 WsG
+  (Waermenutzungsatlas) · § 74 Abs. 1 lit. b WsG · § 126 WsG (Aufhebung EG GSchG + WWG) · § 11 und
+  § 183 lit. b WsV · § 92 WsV · § 213 WsV · § 44 Abs. 1 lit. a Ziff. 3 WsG. **EG-GSchG-Reste ohne
+  Aufhebungsvermerk: keine mehr.** Der Sweep aus Run 17/18 ist damit sauber abgeschlossen.
+- **Befund 1 (WIDERSPRUCH, BESTAETIGT, korrigiert — Schwere hoch, 3 KBs betroffen):** Die
+  grundeigentuemerverbindliche Festlegung des Gewaesserraums wurde hub-weit auf **§ 19 WsG**
+  gestuetzt. Amtlich steht das Wort «grundeigentuemerverbindlich» woertlich und ausschliesslich in
+  **§ 18 Abs. 1 WsG** (Randtitel «b. Festlegung»); **§ 19 WsG** heisst «c. Beruecksichtigung der
+  baulichen Gegebenheiten in dicht ueberbauten Gebieten» und regelt die **Anpassung** — inhaltlich
+  das Gegenteil. Betroffen war die Rechtsgrundlagen-Spalte von **OEREB-Thema 190**, also genau die
+  Angabe, die aus `planungsgrundlagen` in Behoerdenschreiben ans AWEL wandert. Korrigiert in
+  `baurecht/wiki/abstaende-und-hoehen.md`,
+  `planungsgrundlagen/wiki/kartenportale-oereb-kataster-system-zh.md` (Tabellenzeile + Warnkasten)
+  und `planungsgrundlagen/wiki/recht-norm-abstandsvorschriften-wald-gewaesser.md`. Zusaetzlich ist
+  **§ 19 WsG neu als eigene Aussage** in `abstaende-und-hoehen` erfasst (Abs. 2 = der Hebel, wenn
+  ein festgelegter Gewaesserraum die bauliche Nutzung erheblich einschraenkt) — er war im Hub
+  nirgends als solcher gefuehrt, weil er mit der Festlegung verwechselt wurde.
+- **Der Mechanismus dahinter — NEUES STRUKTURMUSTER, gewichtiger als der Einzelfehler:**
+  **Autorentext in `raw/` wurde spaeter als amtlicher Wortlaut zitiert.** Die Quelle der
+  Verbreitung ist eine **vom KB-Autor geschriebene** Konkordanztabelle im Kopf von
+  `baurecht/raw/260717_amtlich_zh_hwschv.md`; der amtliche Teil derselben Datei beginnt erst unter
+  «TEIL A». Der Refuter von **Run 8** erklaerte die Zuordnung mit dem Satz «steht woertlich in der
+  **amtlichen** Konkordanztabelle» fuer belegt (`outputs/2026-07-18_wissens-chef-run8.md:60`) —
+  und behandelte damit Autoren-Interpretation als Primaerquelle. Die Datei markiert das im
+  Frontmatter-Feld `umfang` sogar selbst; es wurde nur nicht gelesen. **Regel daraus: eine
+  `raw/`-Datei ist nicht als Ganzes amtlich.** Fuehrt sie neben dem Erlasstext Autoren-Hilfstabellen
+  (Konkordanz, Mapping, Uebersicht), sind diese sichtbar als «KB-Autorentext, nicht amtlich» zu
+  kennzeichnen — sonst wiederholt sich der Fall bei jeder Mapping-Tabelle im Bestand.
+  Der Chef fasst `raw/` nicht an (Rule `wissens-bibliothekar`) → als P1 in
+  `baurecht/wiki/QUESTIONS.md` an die fuehrende KB uebergeben.
+- **Befund 2 (WIDERSPRUCH, BESTAETIGT, korrigiert — Schwere hoch):** `energie` fuehrte fuer die
+  Grundwasserwaerme-Konzession «**kein gesetzlicher Maximalwert**, Dauer im Einzelfall». Die
+  Einschraenkung war ehrlich formuliert («bevor die WsV geprueft ist») und ist seit dem 28.07.
+  einloesbar: **§ 121 Abs. 1 lit. b WsV** nennt fuer die Waermeentnahme/den Waermeeintrag eine
+  **Regeldauer 15-30 Jahre** (Abs. 2: bei besonderen Verhaeltnissen laengstens 80). Die kursierenden
+  **40 Jahre gelten fuer andere Litera** (lit. a Wasserentnahme, lit. d Inanspruchnahme) — fuer die
+  Waermenutzung falsch. **Die Stufe war das Problem, nicht die Recherche:** gesucht wurde im
+  **Gesetz**, geregelt ist es in der **Verordnung**. Korrigiert im Destillat UND in
+  `energie/wiki/BAUHERREN-FAQ.md` F77 — dort erreichte der Fehler den Bauherrn. Praxisfolge:
+  Amortisationshorizont der Waermequelle max. **30 Jahre** (`healthcare-wirtschaftlichkeit`,
+  `machbarkeit` Typ B, `immobilienbewertung` DCF). Nebenbefund: die 100-kW/Minergie-Mindestgroesse
+  steht **nicht** in der WsV → AWEL-Verwaltungspraxis, nicht Verordnungsrecht; § 173 lit. b WsV
+  kennt bei 200 kW nur eine **Verfahrens**schwelle (vereinfachtes Verfahren).
+- **Offen (nicht ausgefuehrt):** OEREB-Thema 130 stuetzt sich in `planungsgrundlagen` weiter
+  ungeflaggt auf die **KGSchV (LS 711.11)**, die laut eigener KB-Feststellung (Buch-Run 69) per
+  01.01.2022 aufgehoben ist; ein Nachfolgeerlass ist im Hub nicht belegt (die WsV enthaelt keine
+  Aufhebungsklausel dazu). Nicht selbst gesetzt, weil die Nachfolge unklar ist — gehoert in den
+  laufenden KGSchV-Klaerungsauftrag von `baurecht`.
+
+### normen ↔ baurecht ↔ energie (Therapiekuechen-Report, SIA 500 Korrigenda, Buch-Run 69) — geprueft 2026-07-28 (Run 19)
+- **Befund 1 (WIDERSPRUCH, BESTAETIGT, korrigiert — hoch):** Der neue Therapiekuechen-Report ordnete
+  das Spital der **Gebaeudekategorie IX** zu. Amtlich (**§ 47a Abs. 1 BBV I**) und in `energie`
+  (SIA 380/1 Anhang A Tab. 24) ist **Spital = VIII**, **IX = Industrie**. Fuer § 41a bleibt das
+  Ergebnis gleich (III-XII umfasst beide), die Nummer ist aber der Rechen-Identifikator: die
+  Verwechslung kostet **20 statt 70 kWh/m²**, Innentemperatur 18 statt 22 °C, Qww 25 statt
+  100 MJ/m²·a. Korrigiert im Report; zusaetzlich **Leitplanke mit der vollstaendigen Liste I-XII**
+  in `normen/wiki/QUESTIONS.md` gesetzt, damit die Nummern nicht wieder aus dem Gedaechtnis kommen.
+- **Befund 2 (VERALTET, BESTAETIGT, korrigiert — hoch; der ergiebigste Befund des Laufs):** Das
+  SIA-500-Destillat fuehrte Ziff. 9.7.2 im Stand der Basisausgabe 2009. Der Verifikator hat die
+  Basisausgabe UND die Korrigenda am Original beschafft: **C3:2013** aendert die **Bezugsgroesse von
+  Parkplaetzen auf Wohnungen** (1 rollstuhlgerechter PP pro 25 **Wohnungen**) und fuehrt einen
+  100-m-Gehdistanz-Richtwert ein. **Dabei ist ein dem Hub bisher voellig unbekanntes viertes
+  Korrigendum C4:2019 aufgetaucht** (aendert Ziff. 3.4.1, 3.7.3, 3.7.4, 3.7.6, 3.7.7, 3.7.8, 6.2.2).
+  Ziff. 9.7 nachgefuehrt, Fassungsfeld gesetzt, C4-betroffene Ziffern markiert; der volle Nachzug
+  (~20 Stellen) als **P1 an den `normen`-Loop** uebergeben. **Der Fehler hatte die Destillat-Ebene
+  schon verlassen:** `bauprodukte/wiki/bkp-261-aufzuege.md` rechnet ein Herstellermass gegen die
+  Kabinen-Tabelle aus **Ziff. 3.7.3** — genau eine der von C4 geaenderten Ziffern; dort
+  Fassungs-Vorbehalt gesetzt.
+- **VERALLGEMEINERTE LEHRE — dritte Variante der Run-8-Regel «Fassungspflege ist der blinde Fleck».**
+  Bisher: erst den Bestand nach juengeren **Ausgaben** durchsuchen. Neu: auch bei **unveraenderter
+  Ausgabe** koennen **Korrigenda** einzelne Ziffern materiell aendern. Sie tragen keine neue
+  Jahreszahl im Normtitel und sind an der Ausgabe **nicht erkennbar** — genau deshalb hat der Hub
+  C4:2019 sieben Jahre lang nicht gesehen. Bei jedem SIA-Destillat gehoert ein Blick in die
+  Korrigenda-Liste des SIA-Shops dazu; Korrigenda sind Preisgruppe 0 (gratis).
+- **Nicht ausgefuehrt (tief):** `normen` schreibt im Therapiekuechen-Report ZH-Erlasswortlaut
+  (BBV I §§ 29/36/41 + Anhang, PBG §§ 302/306/309) materiell fort, obwohl `baurecht` dafuer fuehrend
+  ist. Als Report (nicht Wiki-Artikel) mit korrekt zitierten Fundstellen vertretbar — bei einer
+  Promotion in die `wiki/`-Ebene aber auf Verweise umzustellen.
+
+### energie Run 118 ↔ planungsgrundlagen ↔ baurecht (sechs neue Destillate) — geprueft 2026-07-28 (Run 19)
+- **Befund (WIDERSPRUCH, BESTAETIGT, korrigiert — hoch):** Das neue Rueckkuehler-Destillat gab eine
+  **30-%-Technikreserve**, deren **Zweckbestimmung** und eine **PV-Reduktionsklausel** als Wortlaut
+  von **§ 47b Abs. 1 BBV I** aus. Der Erlass besteht aus **genau zwei Saetzen** und enthaelt nichts
+  davon: amtlich ist der **70-%-Belegungsdeckel**; alles Weitere steht in der **Vollzugshilfe**
+  (ZH-Leitfaden Solaranlagen Dez. 2022). Gesetzliche Grundlage fuer die Ruecksicht auf hohe Bauten
+  ist § 10c Abs. 3 lit. a EnerG als blosse **Delegationsnorm**. Korrekturkasten gesetzt.
+- **Mechanik (fuer die Destillat-Praxis lehrreich):** Das als «woertlich» ausgewiesene Blockzitat war
+  eine **Montage aus zwei getrennten Textbloecken**, verbunden durch «[…]» — weggefallen war genau
+  der einleitende Satz, der die Verwechslung verhindert haette. **Regel: Erlasswortlaut und
+  Vollzugshilfe nie in dasselbe Blockzitat montieren.**
+- **WIDERLEGT (wertvoller Nicht-Befund):** Der Vorwurf, zwei aeltere Artikel bezoegen den
+  70-%-Deckel faelschlich «nur auf hohe Bauten», kippt: der Bezug ist die **amtliche Vollzugslesart**
+  des ZH-Leitfadens, nicht eine Falschlesart. Haette man ihn «korrigiert», waere die Vollzugspraxis
+  aus dem Hub entfernt worden.
+
+### bauprodukte (NEUE KB) ↔ normen / grobkosten / projekt-lessons — ERST-PRUEFUNG 2026-07-28 (Run 19)
+- **Struktureller Hauptbefund (korrigiert):** Die am 28.07. entstandene KB war in dieser
+  Fuehrungs-Matrix **ueberhaupt nicht registriert** — weder als fuehrend fuer Produktwissen noch mit
+  der Klarstellung, dass Norm-Fundstellen und Kennwerte anderswo gefuehrt werden. **Drei Zeilen
+  ergaenzt** (siehe Matrix oben). Genau diese Luecke hat den naechsten Befund erzeugt.
+- **Befund (WIDERSPRUCH, BESTAETIGT, korrigiert — hoch):** `dachbegruenung-systeme` fuehrte die
+  Dachbegruenung allein unter **BKP 224** und kannte die massgebliche CH-Norm gar nicht.
+  **SIA 312:2013** liegt seit laengerem als Destillat in `normen` und verlangt die Aufteilung
+  **224 (Schichtaufbau) / 288 (Vegetation)** — wer alles unter 224 ausschreibt, verliert die
+  Gaertnerleistung aus dem Devis. Normabschnitt mit verbindlichen Schichtdicken (extensiv 80-200 mm,
+  intensiv 120-300 bzw. 200 bis >500 mm), Niederschlagsklassen-Tabelle und Neigungsschwellen
+  (6°/15°) nachgetragen, **beidseitige Verlinkung** bauprodukte ↔ normen gesetzt.
+- **WIDERLEGT (Kipp-Grund: falsche Leitnorm):** Der Vorwurf, die «fehlende normative Klassifizierung»
+  bei Terrazzo/Kunststein sei durch **SN EN 16954:2018** laengst geschlossen, kippt — fuer die
+  beschriebenen zementgebundenen Kunststein-/Terrazzoplatten ist **SIA 244:2006 «Kunststeinarbeiten»**
+  die einschlaegige CH-Norm. Die Umsetzung haette eine falsche Normzuordnung in eine neue KB gesetzt.
+- **Beobachtung ohne Handlungsbedarf:** `bauprodukte/.!33499!CHANGELOG.md` ist ein **0-Byte-
+  SMB-Schreibfragment** vom 28.07. 01:37; das echte `CHANGELOG.md` ist intakt. Kein Datenverlust.
+  **Nicht geloescht** (Rule: Loeschungen nie ohne Rueckfrage) → Entscheid Raphael, siehe Bericht.
+
+### projekt-lessons ↔ normen / auflagebereinigung / BKP  UND  planungsgrundlagen Run 92 ↔ normen — geprueft 2026-07-28 (Run 19)
+- **Befund 1 (WIDERSPRUCH, BESTAETIGT, korrigiert — hoch):** `planungsgrundlagen` C41 fuehrte die
+  Treppenbreite 1.20 m als «im Destillat nicht mit Ziffer belegt». Sie ist **dreifach belegt**:
+  Grundmass **Ziff. 2.4.5 Abs. 3 = 1.5 m** gewendelt (innere Auftrittsbreite 0.15 m), die **1.2 m
+  bei 0.1 m** sind eine ziffern-gebundene Erleichterung (Ziff. 3.1 Abs. 2 / 3.2.2 / 3.3.2 / 3.6.2).
+- **Der Verifikator fand dahinter den groesseren Fehler — eine Luecke im Norm-Destillat selbst:**
+  `normen/destillate/vkf-brl-16-15` liess in Ziff. 3.1 die Tatbestandsvoraussetzung «**welche
+  mehrere Nutzungseinheiten erschliessen**» und Abs. 3 weg, und in Ziff. 3.2.2 den Abs. 3
+  «**An Treppen innerhalb der Nutzungseinheit werden keine Anforderungen gestellt**» (gleichlautend
+  3.3.2 Abs. 2). Das Destillat las sich dadurch, als gaelte die 1.2-m-Erleichterung generell — und
+  es kannte die **praktisch haeufigste** Regel (interne Treppe) nicht. Beide Absaetze nachgetragen.
+  C41 entsprechend umgeschrieben: **zuerst die Nutzungseinheit abgrenzen, dann die Breite bestimmen.**
+- **Befund 2 (BKP, korrigiert — tief):** Die neue Lesson trug im Frontmatter `bkp: "273.35"` — ein
+  Code, den die BKP-2017-Liste nicht kennt (dort existiert nur 273.3). Kuechen-/Gastroeinrichtungen
+  sind **BKP 258**; «273.35» ist die **projektinterne Los-Nummer** KISPI. Feld praezisiert.
+- **WIDERLEGT (3 von 3 Kipp-Gruenden griffen):** Der Vorwurf, die SBB-Lesson uebergehe die
+  Unterscheidung projektbezogenes/generelles Naeherbaurecht, kippt — die Lesson erhebt gar keine
+  Rechtsbehauptung, sie dokumentiert einen belegten Projektverlauf. **Der Vorschlag haette Schaden
+  angerichtet:** er wollte ein «Vorsprungsprivileg § 260 Abs. 3 PBG» zitieren, das im geltenden
+  Hauptteil des PBG einen anderen Gegenstand hat (Getrenntmessung bei gegliederten Gebaeuden).
+- **Zwei Zusatzbefunde in `baurecht`, an die KB gemeldet (nicht selbst korrigiert):** (a) im
+  Destillat `band-2/15-lage-von-gebaeuden-teil2d.md` sind **drei Saetze des Abschnitts C
+  grammatisch zerstoert** (fehlende Negation, Satz ohne Subjekt) und damit nicht zitierfaehig —
+  ausgerechnet die Passage zum generellen Naeherbaurecht; (b) `wiki/abstaende-und-hoehen.md` zitiert
+  die 1/3-/1.3-m-Vorsprungsregel weiterhin ungebrochen als «§ 260 Abs. 3 PBG», obwohl die KB die
+  Haupt-/Anhang-Divergenz am 27.07. (Buch-Run 62) selbst als offene Frage markiert hat.
+
+
 ### baurecht ↔ planungsgrundlagen (Nachkontrolle EG-GSchG-Sweep) — geprueft 2026-07-27 (Run 18)
 - **Anlass:** Die Nachtschicht zog den in Run 17 angeordneten Sweep nach (12/15 Fundorte). Dieser
   Lauf prueft nicht das Verschwinden des Strings, sondern die **Ersetzung**.

@@ -2,6 +2,35 @@
 
 Neueste zuoberst.
 
+## 2026-07-28 — Wissens-Chef Run 19 (Cross-KB): zwei materielle Korrekturen, eine davon bis zum Bauherrn
+- **[korrektur, materiell] Konzessionsdauer Grundwasserwaerme: 15-30 Jahre, nicht «kein Maximalwert».**
+  `destillate/grundwasserwaermenutzung-bewilligung-zh-sz.md` erklaerte die Sekundaerquellen-Zahl
+  «40 Jahre» am Gesetzestext fuer widerlegt und hielt fest, es gebe **keinen gesetzlichen
+  Maximalwert**. Die eigene Einschraenkung («bevor die WsV geprueft ist») ist seit dem 28.07.
+  einloesbar: **§ 121 Abs. 1 lit. b WsV** nennt fuer «Nutzung von Grund- und Oberflaechenwasser zur
+  Waermeentnahme und zum Waermeeintrag» eine **Regeldauer 15-30 Jahre** (Abs. 2: bei besonderen
+  Verhaeltnissen laengstens 80). Die 40 Jahre gelten fuer **andere Litera** (lit. a Wasserentnahme,
+  lit. d Inanspruchnahme) — fuer die Waermenutzung falsch. **Die Stufe war das Problem, nicht die
+  Recherche:** gesucht wurde im Gesetz, geregelt ist es in der Verordnung.
+  **Auch in `wiki/BAUHERREN-FAQ.md` F77 korrigiert** — dort erreichte der Fehler den Bauherrn.
+  Praxisfolge: Amortisationshorizont der Waermequelle max. **30 Jahre**.
+  Nebenbefund: die **100-kW/Minergie-Mindestgroesse steht nicht in der WsV** → AWEL-Verwaltungspraxis,
+  nicht Verordnungsrecht; § 173 lit. b WsV kennt bei 200 kW nur eine **Verfahrens**schwelle.
+- **[korrektur, materiell] § 47b Abs. 1 BBV I: Erlass und Vollzugshilfe waren vermischt.**
+  `destillate/rueckkuehler-flaechenkennwert-vertiefung-ch.md` (Run 118) gab eine 30-%-Technikreserve,
+  deren Zweckbestimmung und eine PV-Reduktionsklausel als **Erlasswortlaut** aus. § 47b Abs. 1
+  besteht aus **genau zwei Saetzen**: 10 W/m² EBF und **70-%-Belegungsdeckel** — mehr nicht. Alles
+  Weitere ist **Vollzugshilfe** (ZH-Leitfaden Solaranlagen Dez. 2022); gesetzliche Grundlage fuer die
+  Ruecksicht auf hohe Bauten ist § 10c Abs. 3 lit. a EnerG als blosse **Delegationsnorm**.
+  Korrekturkasten gesetzt. **Mechanik:** das als «woertlich» ausgewiesene Blockzitat war eine Montage
+  aus zwei Textbloecken; weggefallen war genau der Satz, der die Verwechslung verhindert haette.
+  **Regel: Erlasswortlaut und Vollzugshilfe nie in dasselbe Blockzitat montieren.**
+- **[WIDERLEGT, wertvoller Nicht-Befund]** Der Vorwurf, zwei aeltere Artikel bezoegen den 70-%-Deckel
+  faelschlich «nur auf hohe Bauten», kippt: das ist die **amtliche Vollzugslesart**. Eine «Korrektur»
+  haette die Vollzugspraxis aus dem Hub entfernt.
+- Bericht: `koordination/outputs/2026-07-28_wissens-chef-run19.md`.
+
+
 ## 2026-07-28 — Run 118 (Intensiv-Lauf auf Auftrag Raphaels): sechs parallele Rechercheagenten + ein mechanischer Cross-KB-Nachtrag
 - **[nachtrag, mechanisch]** `destillate/sia-386-bacs-gebaeudeautomation.md`: Geltungsstatus-Nachtrag
   aus Run 117 nachgezogen — § 41a BBV I ZH verlangt Gebäudeautomation heute erst ab **5'000 m² EBF**,

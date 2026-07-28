@@ -2,6 +2,31 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-28 (Wissens-Chef Run 19, Cross-KB) — OEREB-Thema 190 auf die richtige Norm gestellt, C41 geschlossen
+- **[korrektur, materiell] OEREB-Thema 190 Gewaesserraum: § 19 WsG → § 18 Abs. 1 WsG.**
+  `wiki/kartenportale-oereb-kataster-system-zh.md` (Tabellenzeile + Warnkasten) und
+  `wiki/recht-norm-abstandsvorschriften-wald-gewaesser.md` fuehrten als Nachfolge zu § 15 HWSchV den
+  **§ 19 WsG**. Am neuen amtlichen Volltext (`baurecht/raw/260728_amtlich_zh_wsg.md`) ist das falsch:
+  «grundeigentuemerverbindlich» steht woertlich in **§ 18 Abs. 1 WsG**; **§ 19** regelt die
+  **Anpassung** in dicht ueberbauten Gebieten. Betroffen war die Rechtsgrundlagen-Spalte, also genau
+  die Angabe, die aus dieser KB in Behoerdenschreiben ans AWEL wandert — wer § 19 als
+  Festlegungsnorm zitiert, beruft sich auf die Ausnahmeregel. Fuehrend bleibt `baurecht`.
+- **[korrektur, materiell] C41 Treppenbreite war als unbelegt gefuehrt — sie ist dreifach belegt.**
+  `wiki/QUESTIONS.md` C41 hielt fest, die Vorgabe «gewendelte Treppe min. 1.20 m» sei «im Destillat
+  nicht mit Ziffer belegt». Richtig: **Grundmass Ziff. 2.4.5 Abs. 3 = 1.5 m** (innere Auftrittsbreite
+  0.15 m); die **1.2 m bei 0.1 m** sind eine ziffern-gebundene Erleichterung (Ziff. 3.1 Abs. 2 /
+  3.2.2 / 3.3.2 / 3.6.2). **Die Gegenpruefung legte den groesseren Fehler frei:** im
+  `normen`-Destillat fehlten die Absaetze, die die Erleichterung an die Erschliessung **mehrerer
+  Nutzungseinheiten** binden — und die Regel, dass an Treppen **innerhalb** der Nutzungseinheit
+  **keine** Anforderungen gestellt werden. Beide dort nachgetragen. C41 neu gefasst: da das
+  Grassenbiwak laut §4f.2 kein Beherbergungsbetrieb [c] ist, gilt **zuerst die Nutzungseinheit
+  abgrenzen, dann die Breite bestimmen** — nicht umgekehrt.
+- **[offen, gemeldet]** OEREB-Thema 130 stuetzt sich weiter ungeflaggt auf die **KGSchV (LS 711.11)**,
+  die laut `baurecht` (Buch-Run 69) per 01.01.2022 aufgehoben ist; ein Nachfolgeerlass ist im Hub
+  nicht belegt. Nicht selbst gesetzt, weil die Nachfolge unklar ist.
+- Bericht: `koordination/outputs/2026-07-28_wissens-chef-run19.md`.
+
+
 ## 2026-07-28 (abends) — Wettbewerbs-/Bautyp-Ebene Brandschutz: Scan Projekt 2408 WB BIWAK auf Raphaels Auftrag
 Auftrag Raphael: das Wettbewerbsprojekt **2408 WB BIWAK** («Grassenbiwak 2027», SAC Sektion
 Engelberg) auf brandschutzrelevante Themen scannen und pruefen, ob die dort aufgeworfenen Fragen mit
