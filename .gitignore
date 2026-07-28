@@ -50,3 +50,8 @@ dispatch/
 **/@eaDir/
 Thumbs.db
 logbuch/vollgas/monitor.html
+
+# Halbfertige Schreibvorgaenge (write-then-rename). Der 15-Min-Committer erwischt
+# sie ueber SMB gelegentlich mitten im Schreiben und committet eine leere Datei —
+# belegt 28.07.2026 (station-status/mac-mini.md.tmp in zwei Commits).
+*.tmp

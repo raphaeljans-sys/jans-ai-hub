@@ -48,6 +48,16 @@ Konzept: `docs/konzepte/260719-Kontext-Diaet-Token-Reduktion/`).
   **Verallgemeinert: eine neu eingebaute Schutzmechanik ist erst dann fertig, wenn ihr
   Abweisungs- UND ihr Freigabepfad je einmal nachgemessen wurden** — ein Gate, das immer
   «nein» sagt, sieht im Log genauso ruhig aus wie eines, das funktioniert.
+- **Eine als falsch erkannte Messgroesse sofort im ganzen Bestand suchen, nicht nur am
+  Fundort beheben** (`grep -rl "<metrik>" scripts/`). Dieselbe `unused`-Messung steckte
+  unbemerkt auch im Schwester-Script `speicher-waechter.sh`, das am selben Tag aus derselben
+  Vorlage entstand; die Korrektur am Gate um 10:05 liess sie stehen. Belegt 28.07.2026 12:57:
+  der Waechter meldete auf beiden Stationen bei JEDEM 30-Min-Lauf «nur 70-305 MB frei», waehrend
+  real 4061 MB (MacBook) bzw. 13648 MB (Mini) verfuegbar waren — 24 Fehlalarme taeglich je
+  Station, und die «OK»-Lebendzeile erschien nie. **Ein Waechter, der immer warnt, ist so blind
+  wie ein Gate, das immer blockiert:** die echte Speichernot ist vom Dauerrauschen nicht mehr
+  zu unterscheiden. Metrik am 28.07. auf `vm_stat` + Druck-Kriterium vereinheitlicht (Schwelle
+  1500 MB unveraendert), beide Stationen positiv und negativ verifiziert.
 - **Session-Transcripts rotieren.** `~/.claude/projects` waechst unbegrenzt (28.07.: 4.3 GB
   MacBook, 5.2 GB Mini). `scripts/transcript-rotation.sh` (launchd, So 04:00) archiviert
   verlustfrei alles aelter als 14 Tage und loescht Originale ERST nach geprueftem Archiv.

@@ -30,6 +30,70 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-07-28 13:00 — [FREI] Derselbe Messfehler steckte auch im Schwester-Script: der Speicher-Wächter warnte seit gestern bei JEDEM Lauf ins Leere. Behoben und beidseitig verifiziert
+
+**Selbstkontrolle:** letzter Eintrag 10:05, dieser Lauf 13:00 — 2,9 h bei 3-h-Takt, kein
+verpasster Lauf.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung (`. ~/.jans-dispatch.env`)
+antwortet «OK». Kein Login-Blocker, kein Wochenlimit, kein Mail-Anlass. Endlos-Runner ruht
+weiterhin auf beiden Stationen (STOP-Dateien, Gründe aktuell und dokumentiert) — unverändert.
+
+**P1 — DER SPEICHER-WÄCHTER HATTE DENSELBEN FEHLER WIE DAS GATE (behoben).** Die Korrektur um
+10:05 hat die falsche Messung dort behoben, wo sie aufgefallen war, und sie im Schwester-Script
+stehen lassen: `scripts/speicher-waechter.sh` (gestern aus derselben Vorlage entstanden) las
+ebenfalls `top`s Feld «unused». Folge, im Log über den ganzen Tag belegt:
+
+| Station | gemeldet (alt, 12:34) | real verfügbar (12:57) | Druck |
+|---|---|---|---|
+| MacBook Pro | «nur 108 MB frei» | **4061 MB** | 1 (normal) |
+| Mac Mini | «nur 70 MB frei» | **13648 MB** | 1 (normal) |
+
+Das sind 24 Fehlalarme je Station und Tag, seit gestern ununterbrochen, und die als
+«still-by-default» gedachte OK-Lebendzeile erschien kein einziges Mal. Der Schaden ist nicht das
+volle Log, sondern der blinde Wächter: **eine echte Speichernot wäre vom Dauerrauschen nicht mehr
+zu unterscheiden gewesen** — genau der Notstand von gestern früh hätte sich unbemerkt wiederholen
+können, obwohl ein Wächter dafür eingebaut wurde. Ein Wächter, der immer warnt, ist so blind wie
+ein Gate, das immer blockiert.
+
+Behoben, nicht nur gemeldet: `frei_mb()` misst neu über `vm_stat` (free + inactive + purgeable),
+**identisch zum Gate**, damit die beiden nicht wieder auseinanderlaufen. Zusätzlich der zweite
+Riegel wie im Gate: `kern.memorystatus_vm_pressure_level` löst jetzt auch dann eine Warnung aus,
+wenn die Menge noch reicht, die Maschine aber bereits swappt; eine unbrauchbare Messung wird
+benannt statt stillschweigend als «alles gut» gewertet. **Raphaels Schwelle (1500 MB) bleibt
+unverändert — korrigiert ist die Messung, nicht die Politik.** Nebenbei entfiel derselbe
+Dezimal-Fehler wie im Gate («5.2G» in Ganzzahlarithmetik).
+
+Verifiziert auf beiden Stationen, positiv und negativ: Normallauf → keine Zeile (still, wie
+gedacht); künstlich hochgesetzte Schwelle → Warnung mit den echten Zahlen oben. Die
+OneDrive-Neustart-Logik blieb unangetastet, sie misst über `top -o mem` bereits richtig.
+
+**Verallgemeinert und in Rule `auto-verbesserungen` 260728 verankert:** eine als falsch erkannte
+Messgrösse sofort im ganzen Bestand suchen (`grep -rl` über `scripts/`), nicht nur am Fundort
+beheben. Zwei Scripts aus derselben Vorlage erben denselben Fehler, und der zweite fällt später
+und teurer auf. Gegenprobe gemacht: ausser diesen beiden verwendet kein Script die Metrik.
+
+**P2 — Halbfertige Schreibvorgänge landeten im Git.** Der 15-Minuten-Committer erwischte über SMB
+zweimal `station-status/mac-mini.md.tmp` mitten im write-then-rename und committete eine leere
+Datei (Commits `c5fd150f`, `91937628`). Harmlos, aber es verfälscht jede Durchsatzmessung, die
+Commits zählt. `*.tmp` in `.gitignore` ergänzt; keine `.tmp` im Index, nichts nachzuräumen.
+
+**Leerlaufquote: unverändert, keine Massnahme nötig.** Kein aktiver Loop erreicht die 3er-Schwelle.
+`wissens-destillat` weiter der Träger (neuer Artikel BKP 281 Terrazzo/Kunststein aus der Nacht),
+`twin-mail` Serie seit Batch 71 gebrochen, `normen`/`wissens-chef`/`baurecht` mit belegten Funden,
+`energie` (launchd 22:30) produktiv. Die gestern abgeschalteten Dauer-Leerläufe bleiben aus.
+
+**Durchsatz: tagsüber erwartungsgemäss null.** 70 Commits seit Mitternacht, aber alle 13 seit
+10:05 sind die 15-Minuten-Statuszeilen der beiden Stationen — keine inhaltliche Arbeit. Das ist
+unter der Rollentrennung 260728 der Sollzustand, nicht ein Ausfall: gelernt wird nachts auf dem
+Mac Mini.
+
+**P3 — unverändert offen (Einzeiler, siehe 10:05):** soll der Mac Mini tagsüber Destillat-Läufe
+fahren? Das Gate misst seit 10:05 korrekt, Kapazität wäre da (13,6 GB verfügbar). Ich habe erneut
+**nicht** eigenmächtig hochgetaktet: die 3x-Entzerrung der Nachtschicht ist keine fünf Stunden alt
+und aus Speichergründen entschieden, und der Mini trägt gerade reale Last (Archicad 8 GB, Cineware
+4,2 + 3,4 GB). Entscheid liegt bei Raphael.
+
 ## 2026-07-28 10:05 — [FREI] Der gestern eingebaute Speicher-Deckel hat seit heute früh JEDEN automatischen Lauf abgewiesen — er misst die falsche Grösse. Metrik korrigiert, beide Stationen verifiziert
 
 **Selbstkontrolle:** letzter Eintrag 06:55, dieser Lauf 10:05 — 3,2 h bei 3-h-Takt, kein
