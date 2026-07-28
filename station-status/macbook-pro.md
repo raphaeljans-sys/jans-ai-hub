@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 28.07.2026 04:42:01
+Stand: 28.07.2026 04:52:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 04:41)
+- Developer/jans/ai/hub  (letzte Aktivitaet 04:46)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 28.07.2026 04:42:01
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 991b38d6 wissens-destillat bauprodukte: erster Artikel (Dachbegruenung), Fehltriage korrigiert, Pipeline-Bug (run_in_background) behoben
+- bb894671 nas-selfcommit: 7 Datei(en) 2026-07-28 04:45

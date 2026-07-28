@@ -145,7 +145,7 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [-] | 213 Montagebau in Stahl | 213 Montagebau in Stahl/Cobiax Decke.docx | bauprodukte | P1 · Hohlkörper-Deckensystem · docx enthaelt nur den Titel "Cobiax Decke", kein Fliesstext (vermutlich eingebettetes Bild/Objekt, per textutil nicht extrahierbar) |
 | [t] | 221 Fenster Aussentueren Tore | 221 Fenster Aussentueren Tore/SKM_C30817111017320.pdf | bauprodukte | P3 · Scan ohne Kontext |
 | [x] | 224 Bedachungsarbeiten | 224 Bedachungsarbeiten/020426 Dachbegruenung.doc | bauprodukte | destilliert → dachbegruenung-systeme.md |
-| [t] | 225 Spezielle Dichtungen und Daemmungen | 225 Spezielle Dichtungen und Daemmungen/021230 Beschichtung PU.doc | bauprodukte | P1 · PU-Beschichtung Dichtung |
+| [x] | 225 Spezielle Dichtungen und Daemmungen | 225 Spezielle Dichtungen und Daemmungen/021230 Beschichtung PU.doc | bauprodukte | destilliert → pu-beschichtung-fassade.md |
 | [-] | 230 Elektroanlagen | 230 Elektroanlagen/151218_Lorrainestrasse_4_1.OG.pdf | bauprodukte | Projektplan einzeln |
 | [ ] | 230 Elektroanlagen | 230 Elektroanlagen/Kostenschätzung Elektroinstallationen.docx | bauprodukte | | P2 · Elektrokostenschätzung |
 | [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180621 Bemusterung 251 Bakery.pdf | bauprodukte | Projekt-Bemusterung |
@@ -155,7 +155,7 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180706 AB 22237475.pdf | bauprodukte | Transaktionsdokument |
 | [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180706 Bestätigung Bestellung.pdf | bauprodukte | | Transaktionsdokument |
 | [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/1 Zahlungne/ZahlungInland_20180723_1719.pdf | bauprodukte | Zahlungsbeleg |
-| [t] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/de_erco_guide.pdf | bauprodukte | P1 · Produktdatenblatt ERCO |
+| [t] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/de_erco_guide.pdf | bauprodukte | P1 · Grosses Werk (435 S.), Teil 1/n destilliert (S.1-20 → erco-lichtplanung-grundlagen.md), Rest offen fuer Folgelaeufe |
 | [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/1 Wandleuchte/170123 Leuchtenauswahl Nasszellen.pdf | bauprodukte | Fehltriage korrigiert (04:37) — ist Katalog-Scrapbook mit Klebezetteln (Tic Light, Catellani+Smith, eintopf/etna Wallroth), keine Feuchtraum/IP-Inhalte trotz Dateiname |
 | [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/4 Ständerlampe/SKMBT_C28017050111200.pdf | bauprodukte | | P3 · Scan unklar |
 | [t] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Jans/151109_Optimaler.pdf | bauprodukte | P3 · Unklar datiert |
@@ -167,13 +167,13 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [t] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/MPP/Teller20cm.pdf | bauprodukte | P3 · Bauteil knapp |
 | [t] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/MPP/Teller30cm.pdf | bauprodukte | P3 · Bauteil knapp |
 | [t] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Noguchi/Akari 26A 45cm Fr285/26A Akari Papier-Leuchte von Vitra | connox.ch.pdf | bauprodukte | - · Einzelhandel Katalog |
-| [t] | 260 Transportanlagen | 260 Transportanlagen/Lift/AS/1.5x1.5/21005312.pdf | bauprodukte | P1 · Aufzugsdatenblatt |
-| [t] | 260 Transportanlagen | 260 Transportanlagen/Lift/AS/100426_AS_Aufzuege.pdf | bauprodukte | P1 · Aufzugsdatenblatt |
+| [x] | 260 Transportanlagen | 260 Transportanlagen/Lift/AS/1.5x1.5/21005312.pdf | bauprodukte | destilliert → bkp-261-aufzuege.md |
+| [x] | 260 Transportanlagen | 260 Transportanlagen/Lift/AS/100426_AS_Aufzuege.pdf | bauprodukte | destilliert → bkp-261-aufzuege.md |
 | [t] | 260 Transportanlagen | 260 Transportanlagen/Lift/AS/100426_AS_Aufzuege_Masskizze.pdf | bauprodukte | P2 · Masszeichnung |
-| [t] | 260 Transportanlagen | 260 Transportanlagen/Lift/Graventa/Graventa_lift_Technische_Daten_VANGOGH.pdf | bauprodukte | P1 · Aufzugsdatenblatt |
-| [t] | 260 Transportanlagen | 260 Transportanlagen/Lift/Schindler/sch_pdf_sch3100_de.pdf | bauprodukte | P1 · Aufzugsdatenblatt |
-| [t] | 260 Transportanlagen | 260 Transportanlagen/Lift/Schmitt_Sohn_Aufzuege/aufzug_rollstuhlgerecht.pdf | bauprodukte | P1 · Aufzug Accessibility |
-| [t] | 272 Metallbauarbeiten | 272 Metallbauarbeiten/020320 Chromstahltreppe.doc | bauprodukte | P1 · Treppensystem |
+| [x] | 260 Transportanlagen | 260 Transportanlagen/Lift/Graventa/Graventa_lift_Technische_Daten_VANGOGH.pdf | bauprodukte | destilliert → bkp-261-aufzuege.md |
+| [x] | 260 Transportanlagen | 260 Transportanlagen/Lift/Schindler/sch_pdf_sch3100_de.pdf | bauprodukte | destilliert → bkp-261-aufzuege.md |
+| [x] | 260 Transportanlagen | 260 Transportanlagen/Lift/Schmitt_Sohn_Aufzuege/aufzug_rollstuhlgerecht.pdf | bauprodukte | destilliert → bkp-261-aufzuege.md |
+| [x] | 272 Metallbauarbeiten | 272 Metallbauarbeiten/020320 Chromstahltreppe.doc | bauprodukte | destilliert → chromstahltreppe-oberflaechen.md |
 | [t] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Z_Winkel/110207_Z_Winkel.pdf | bauprodukte | P2 · Verbinder Detail |
 | [t] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_35mm.pdf | bauprodukte | P1 · Arbeitsplattenverbinder |
 | [t] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_HETTICH_AVB_5.pdf | bauprodukte | P1 · HETTICH AVB |

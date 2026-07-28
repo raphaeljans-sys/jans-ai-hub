@@ -1,5 +1,38 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-07-28 — Vier Artikel destilliert (Destillat-Stufe, Fliessarbeit-Lauf)
+- **8 P1-Positionen `[t]` abgearbeitet** aus dem Inventar (BKP 225, 233, 260/261, 272),
+  4 Artikel geschrieben (alle `status: emerging`), 4 Inventarzeilen auf `[x]` gesetzt:
+  - `wiki/pu-beschichtung-fassade.md` (BKP 225.3) aus `021230 Beschichtung PU.doc`
+    (.doc via `textutil -convert txt`) — PU-Fassadenbeschichtung, Aufbau/Verarbeitung/
+    Elastizitätsgrenzen, Stand 2002.
+  - `wiki/erco-lichtplanung-grundlagen.md` (BKP 233) aus `de_erco_guide.pdf` — grosses
+    Werk (435 Seiten laut PDF-Struktur, 62.6 MB), nur Seiten 1-20 (Kapitel Grundlagen:
+    Geschichte, Sehen/Wahrnehmen) gelesen; Lesefortschritt im Artikel-Frontmatter
+    `gelesen:` festgehalten, Rest offen für Folgeläufe (Multi-Run-Werk gemäss
+    Destillat-Anweisung). Inventarzeile bleibt bewusst NICHT auf `[x]`, sondern wird
+    im Kommentar als «Teil 1/n gelesen» geführt, da die Quelldatei weitere Läufe
+    speist (s.u. Sonderbehandlung).
+  - `wiki/bkp-261-aufzuege.md` (BKP 261, korrigiert von der ungenauen Archiv-Ordner-
+    bezeichnung «260 Transportanlagen» — 260 ist laut BKP-2017-Liste nur die
+    Übergangsposition) aus 5 Herstellerdatenblättern (AS Aufzüge Winner + Rollstuhl-
+    Skizze, Garaventa Liftech VAN GOGH, Schindler 3100, Schmitt+Sohn SP): drei
+    Systemtypen (MRL-Traktionsaufzug, Seilaufzug mit Maschinenraum, Sitzlift),
+    Kennwerte-Tabellen, Barrierefreiheit/EN 81-70.
+  - `wiki/chromstahltreppe-oberflaechen.md` (BKP 272) aus `020320 Chromstahltreppe.doc`
+    (.doc via `textutil`) — 5 Oberflächenvarianten mit Preisrangfolge Stand 2002,
+    Ausführungsrisiken (Anlauffarbe, Verzug, Abnutzung an Stufenkanten).
+- **BKP-Codes gegen `references/bkp-2017/BKP-2017-Liste.md` verifiziert**, nicht aus
+  Ordnernamen übernommen: Archiv-Ordner «260 Transportanlagen» → korrekt BKP 261
+  Aufzüge (260 ist Übergangsposition der Hauptgruppe 26); «272 Metallbauarbeiten»
+  ohne eigene Treppen-Subposition, daher generisch auf BKP 272 zitiert statt einen
+  Subcode zu erfinden.
+- `wiki/INDEX.md` (4 neue BKP-Sektionen 225/233/261/272) und `wiki/QUESTIONS.md`
+  (3 neue offene Punkte: ERCO-Restkapitel, AS-Datierung nur aus Dateiname, EN 81-70
+  nicht im Volltext geprüft) nachgeführt.
+- Kein Fan-out, keine `AskUserQuestion` (Destillat-Stufe urteilt nicht über
+  Status-Promotion und committet nicht — das macht die Kurator-Stufe).
+
 ## 2026-07-28 — Erster Artikel destilliert + Phase-0/1-Nacharbeit (Mac Mini Nachtschicht, 04:30-Lauf)
 - **Phase 0 (Inventar) abgeschlossen:** alle 37 Gewerke-Sektionen erfasst (214 Dateien
   inventarisiert, zuvor 2/37). Vorlauf: drei fruehere Nachtlaeufe (01:44/02:14/03:32)
