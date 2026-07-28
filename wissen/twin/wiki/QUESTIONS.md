@@ -2087,3 +2087,38 @@ Daraus belegt beantwortet:
   handschriftliche Protokolle oder ältere Word-Briefe im NAS-Archiv? *Warum: das ist ab jetzt der
   einzige Weg, den Zwilling substanziell weiterzubringen — ohne neue Quelle sind die Läufe auf
   Korrektur-Deltas beschränkt.* → alle Facetten
+
+## Offen — Gate 260728 (twin-chef, Fidelity-Gate internes Hub-Chef-Tagesbriefing)
+
+Erste dokumentierte Facetten-Spannung im Genre **internes Briefing an Raphael selbst** (Absender
+Hub-Chef, Empfaenger Raphael, internes Du). Beide Facetten-Agenten diagnostizierten dieselbe Luecke
+(kein naechster Schritt am Schluss), schlugen aber gegenlaeufige Heilmittel vor.
+
+1. **Wie schliesst ein internes Briefing an Dich selbst — verteilt oder gebuendelt?** `twin-denker`
+   wollte die Ausblick-Funktion **verteilt** loesen (je Entscheid ein Default-Pfad nach Batch 64,
+   «ansonsten wuerde ich dann …») und lehnte einen Schluss-Block ausdruecklich als «Doublette und
+   Floskel» ab. `twin-arbeitsweise` wertete genau dessen Fehlen als **Skelett-Fehler** (Liefer-Skelett
+   Befund/Fazit, Mailbatch 06) und forderte einen buendelnden Fazit-Block. Entscheid des Chefs 28.07.:
+   **beides, aber asymmetrisch** — Default-Pfade in den Sachblöcken, dazu ein bewusst magerer
+   Schluss-Block, der die vier Handgriffe nur noch aufzaehlt statt sie zu wiederholen. Begruendung:
+   die Batch-64-Gold-Mail traegt selbst beides (Default-Pfad UND separate Schluss-Bitte «Gib mir
+   bescheid, ob Ihr … einverstanden seid»). Belegbasis fuer das Genre bleibt aber duenn — alle
+   Skelett-Marker stammen aus AUSGEHENDEN Mails an Dritte. *Warum: das Briefing-Genre laeuft taeglich,
+   hat aber keinen einzigen authentischen Gold-Beleg. Ohne Deine Antwort raet der Zwilling.*
+   → [[arbeitsweise]], [[denken]]
+
+2. **Darf ein Briefing an Dich Fakten aus zwei Bloecken verknuepfen, die Du nicht verknuepft hast?**
+   Der Chef hat beim Betreibungs-Entscheid (RE-00087) die im selben Text stehende Tatsache ergaenzt,
+   dass **derselbe Schuldner** mit zwei weiteren Rechnungen in laufender Frist steht. Rein faktisch
+   gedeckt, aber eine vom Zwilling **erzeugte Relevanz-Aussage**, keine berichtete. Willst Du solche
+   Querverknuepfungen aktiv (Entscheidungsgrundlage vervollstaendigen) oder strikt nicht (Briefing
+   berichtet, wertet nicht)? *Warum: entscheidet, ob der Hub-Chef im Briefing mitdenken oder nur
+   rapportieren soll — Grundsatzfrage fuer alle Briefing-Laeufe.* → [[denken]], [[haltung]]
+
+3. **Traegt das interne Briefing Deinen Prosa-Ton oder darf es Listenform annehmen?** Beide Agenten
+   haben Bullets/Nummerierung bewusst vermieden (Querschnittsbefund 260727l, Formalisierungs-Reflex
+   im engsten Register). Bei acht Sachbloecken und rund einem Dutzend datierter Termine kippt reine
+   Prosa aber in Scan-Unfreundlichkeit — gerade am Handy am Morgen. Soll der Terminblock als einzige
+   Ausnahme gelistet werden duerfen? *Warum: das Briefing ist der einzige taegliche Text, den Du
+   LIEST statt schreibst — der Lesbarkeits-Massstab koennte hier ein anderer sein als der Stil-
+   Massstab.* → [[stimme]], [[arbeitsweise]]
