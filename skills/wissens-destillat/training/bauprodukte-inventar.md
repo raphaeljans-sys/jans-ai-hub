@@ -141,3 +141,83 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [-] | 0 nach BKP Nr | 0 nach BKP Nr/BKP_Ordnerregister.pdf | bauprodukte | Spec-Ausschluss Sektion 0 · Kostenplanung |
 | [-] | 0 nach BKP Nr | 0 nach BKP Nr/Baubeschrieb-Schwetti.pdf | bauprodukte | Spec-Ausschluss Sektion 0 · Kostenplanung |
 | [-] | 0 nach BKP Nr | 0 nach BKP Nr/hw_GRPR_20_2007.pdf | bauprodukte | Spec-Ausschluss Sektion 0 · Kostenplanung |
+| [ ] | 213 Montagebau in Stahl | 213 Montagebau in Stahl/BluewinTower/mobimo_05_02.pdf | bauprodukte | |
+| [ ] | 213 Montagebau in Stahl | 213 Montagebau in Stahl/Cobiax Decke.docx | bauprodukte | |
+| [ ] | 221 Fenster Aussentueren Tore | 221 Fenster Aussentueren Tore/SKM_C30817111017320.pdf | bauprodukte | |
+| [ ] | 224 Bedachungsarbeiten | 224 Bedachungsarbeiten/020426 Dachbegruenung.doc | bauprodukte | |
+| [ ] | 225 Spezielle Dichtungen und Daemmungen | 225 Spezielle Dichtungen und Daemmungen/021230 Beschichtung PU.doc | bauprodukte | |
+| [ ] | 230 Elektroanlagen | 230 Elektroanlagen/151218_Lorrainestrasse_4_1.OG.pdf | bauprodukte | |
+| [ ] | 230 Elektroanlagen | 230 Elektroanlagen/Kostenschätzung Elektroinstallationen.docx | bauprodukte | |
+| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180621 Bemusterung 251 Bakery.pdf | bauprodukte | |
+| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180623 Offerte.pdf | bauprodukte | |
+| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180703 Bestellung.pdf | bauprodukte | |
+| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180706 20180621 Bemusterung 251 Bakery.pdf | bauprodukte | |
+| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180706 AB 22237475.pdf | bauprodukte | |
+| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180706 Bestätigung Bestellung.pdf | bauprodukte | |
+| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/1 Zahlungne/ZahlungInland_20180723_1719.pdf | bauprodukte | |
+| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/de_erco_guide.pdf | bauprodukte | |
+| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/1 Wandleuchte/170123 Leuchtenauswahl Nasszellen.pdf | bauprodukte | |
+| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/4 Ständerlampe/SKMBT_C28017050111200.pdf | bauprodukte | |
+| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Jans/151109_Optimaler.pdf | bauprodukte | |
+| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Jans/272_10_Wandansicht_Esstisch_151030.pdf | bauprodukte | |
+| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Jans/31 Lichtschalter Steckdosen.pdf | bauprodukte | |
+| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Jans/A3 Schreinerplaene.pdf | bauprodukte | |
+| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Judd/ Its_Hard_To_Find_A_Good_Lamp_1993.pdf | bauprodukte | |
+| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/MPP/SKMBT_C28015121019050.pdf | bauprodukte | |
+| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/MPP/Teller20cm.pdf | bauprodukte | |
+| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/MPP/Teller30cm.pdf | bauprodukte | |
+| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Noguchi/Akari 26A 45cm Fr285/26A Akari Papier-Leuchte von Vitra | connox.ch.pdf | bauprodukte | |
+| [ ] | 260 Transportanlagen | 260 Transportanlagen/Lift/AS/1.5x1.5/21005312.pdf | bauprodukte | |
+| [ ] | 260 Transportanlagen | 260 Transportanlagen/Lift/AS/100426_AS_Aufzuege.pdf | bauprodukte | |
+| [ ] | 260 Transportanlagen | 260 Transportanlagen/Lift/AS/100426_AS_Aufzuege_Masskizze.pdf | bauprodukte | |
+| [ ] | 260 Transportanlagen | 260 Transportanlagen/Lift/Graventa/Graventa_lift_Technische_Daten_VANGOGH.pdf | bauprodukte | |
+| [ ] | 260 Transportanlagen | 260 Transportanlagen/Lift/Schindler/sch_pdf_sch3100_de.pdf | bauprodukte | |
+| [ ] | 260 Transportanlagen | 260 Transportanlagen/Lift/Schmitt_Sohn_Aufzuege/aufzug_rollstuhlgerecht.pdf | bauprodukte | |
+| [ ] | 272 Metallbauarbeiten | 272 Metallbauarbeiten/020320 Chromstahltreppe.doc | bauprodukte | |
+| [ ] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Z_Winkel/110207_Z_Winkel.pdf | bauprodukte | |
+| [ ] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_35mm.pdf | bauprodukte | |
+| [ ] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_HETTICH_AVB_5.pdf | bauprodukte | |
+| [ ] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_Zip_Bold_Mini.pdf | bauprodukte | |
+| [ ] | 281 Bodenbelaege | 281 Bodenbelaege/020226 Terrazzo 1.doc | bauprodukte | |
+| [ ] | 281 Bodenbelaege | 281 Bodenbelaege/020226 Terrazzo 2.doc | bauprodukte | |
+| [ ] | 281 Bodenbelaege | 281 Bodenbelaege/Offerte_Terrazzo_Belaege.pdf | bauprodukte | |
+| [ ] | 282 Wandbeläge | 282 Wandbeläge/2 Referenzen/180516 Materialisierung.pdf | bauprodukte | |
+| [ ] | 282 Wandbeläge | 282 Wandbeläge/2 Referenzen/SKM_C30818051015130.pdf | bauprodukte | |
+| [ ] | 284 Cheminee | 284 Cheminee/Cheminee.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/2012_MB_Fussbodenheizungen_Estrich(1).pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/2012_MB_Fussbodenheizungen_Estrich.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/9783959721622.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/Anleitung_FSG1100_D.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/Anleitung_Router_ZyXEL_NBG6617.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/IFL-schedule-Aug2017.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/Kleihues_fertig.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/OrangerEinzahlungsschein_20180313_0852.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/Planer8_Kap7.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/Seiten aus Seiten aus Praes-Arth3-2011-4STOFFWECHSEL.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/Synology_DS918+_Data_Sheet_deu_SVHW.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/WDS-Konfiguration mit NWA1100-N.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/ZahlungInland_20180223_1504.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/degewo_feuchtwangerweg_0908.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/fs-lsv-zahlungsausgang-de.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/lisfäadbf/Datenblatt-ch24.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/merkblatt-sepa-de.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/mo table.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/paustian_mirror_mirror_product_sheet.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/teilnahmeerklaerung-sepa-basislastschrift-zahlungspflichtige-de.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/wbw-002_1967_54__797_d.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Bett/Matraze/100902_Naturmatratze_Matrah_Moll.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Bett/Matraze/ikea/100902_Auswahl_IKEA_fuer_mich_Matratze_Linie_Sultan.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Bett/Matraze/ikea/Schaumstoff/170T95~O.PDF | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Bett/Matraze/ikea/latex/100903_SULTAN_ERFJORD_Latexmatratze.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Stühle/100830_REMO_Stuehle_Wohnzimmer_Die Kollektion.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Stühle/Buerostuhl/Kevi_Fritz_Jacobsen/Kevi-Katalog_0.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Stühle/Buerostuhl/Kevi_Fritz_Jacobsen/kevi.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Stühle/Buerostuhl/Kevi_Fritz_Jacobsen/kevi_catalogue_produkt_pdf_e.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Stühle/Klappstuhl Apatura (Landmann 265400) : 265400.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Tisch/Klapptisch - quadratisch Apatura (Landmann 265415) : 265415.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/Moebelhauser/Fly/katalog_fly_2011.pdf | bauprodukte | |
+| [ ] | 900 Einrichtung | 900 Einrichtung/Naturmatratze_Matrah_Moll.pdf | bauprodukte | |
+| [ ] | 921 Vorhaenge | 921 Vorhaenge/Forsterstrasse/Defitext/921_Vorhaenge.pdf | bauprodukte | |
+| [ ] | 921 Vorhaenge | 921 Vorhaenge/Forsterstrasse/Vorhaenge - WUNDERLIN/kopie/pdf/F 030430 Sonnenschutzvorhang.pdf | bauprodukte | |
+| [ ] | 921 Vorhaenge | 921 Vorhaenge/Forsterstrasse/Vorhaenge - WUNDERLIN/kopie/pdf/F 030620 pendenzen.pdf | bauprodukte | |
+| [ ] | 960 Oberflaechen | 960 Oberflaechen/5 Stühle farbe/farb_Farbtonkarte_ColorC3B6l.pdf | bauprodukte | |

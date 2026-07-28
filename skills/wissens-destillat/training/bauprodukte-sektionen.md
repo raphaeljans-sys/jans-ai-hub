@@ -6,38 +6,38 @@ Quelle: `/Volumes/daten/03 Bauprodukte_BKP` · Ziel-KB: `wissen/bauprodukte` · 
 
 - [x] 0 nach BKP Nr
 - [x] 211 Baumeisterarbeiten
-- [ ] 212 Montagebau in Beton
-- [ ] 213 Montagebau in Stahl
-- [ ] 214 Montagebau in Holz
-- [ ] 215 Montagebau als Leichtkonstruktionen
-- [ ] 216 Natur und Kunststeinarbeiten
-- [ ] 221 Fenster Aussentueren Tore
-- [ ] 222 Spenglerarbeiten
-- [ ] 223 Blitzschutz
-- [ ] 224 Bedachungsarbeiten
-- [ ] 225 Spezielle Dichtungen und Daemmungen
-- [ ] 226 Fassadenputze
-- [ ] 227 Aeussere Oberflaechenbehandlungen
-- [ ] 228 Aeussere Abschlüsse Sonnenschutz
-- [ ] 230 Elektroanlagen
-- [ ] 233 Leuchten und Lampen
-- [ ] 240 Heizungs Lueftungs Klimaanlagen
-- [ ] 251 Allgemeine Sanitaerapparate
-- [ ] 258 Kuecheneinrichtungen
-- [ ] 260 Transportanlagen
-- [ ] 271 Gipserarbeiten
-- [ ] 272 Metallbauarbeiten
-- [ ] 273 Schreinerarbeiten
-- [ ] 274 Profilit
-- [ ] 274 Spezialverglasungen
-- [ ] 275 Schliessanlagen
-- [ ] 276 Innere Abschluesse
-- [ ] 277 Elementwaende
-- [ ] 281 Bodenbelaege
-- [ ] 282 Wandbeläge
-- [ ] 284 Cheminee
-- [ ] 900 Einrichtung
-- [ ] 921 Vorhaenge
-- [ ] 941 1 Innenbeschriftungen
-- [ ] 950 Farben
-- [ ] 960 Oberflaechen
+- [x] 212 Montagebau in Beton
+- [x] 213 Montagebau in Stahl
+- [x] 214 Montagebau in Holz
+- [x] 215 Montagebau als Leichtkonstruktionen
+- [x] 216 Natur und Kunststeinarbeiten
+- [x] 221 Fenster Aussentueren Tore
+- [x] 222 Spenglerarbeiten
+- [x] 223 Blitzschutz
+- [x] 224 Bedachungsarbeiten
+- [x] 225 Spezielle Dichtungen und Daemmungen
+- [x] 226 Fassadenputze
+- [x] 227 Aeussere Oberflaechenbehandlungen
+- [x] 228 Aeussere Abschlüsse Sonnenschutz
+- [x] 230 Elektroanlagen
+- [x] 233 Leuchten und Lampen
+- [x] 240 Heizungs Lueftungs Klimaanlagen
+- [x] 251 Allgemeine Sanitaerapparate
+- [x] 258 Kuecheneinrichtungen
+- [x] 260 Transportanlagen
+- [x] 271 Gipserarbeiten
+- [x] 272 Metallbauarbeiten
+- [x] 273 Schreinerarbeiten
+- [x] 274 Profilit
+- [x] 274 Spezialverglasungen
+- [x] 275 Schliessanlagen
+- [x] 276 Innere Abschluesse
+- [x] 277 Elementwaende
+- [x] 281 Bodenbelaege
+- [x] 282 Wandbeläge
+- [x] 284 Cheminee
+- [x] 900 Einrichtung
+- [x] 921 Vorhaenge
+- [x] 941 1 Innenbeschriftungen
+- [x] 950 Farben
+- [x] 960 Oberflaechen
