@@ -82,22 +82,22 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [ ] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/04_eBKP_H/Anwender_Handbuch_eBKP-H_AWH_12_de.pdf | bauprodukte | |
 | [ ] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/04_eBKP_H/Info_CRB Online - Baukostenplan Hochbau eBKP-H.pdf | bauprodukte | |
 | [ ] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/04_eBKP_H/eBKP-H_12_de.pdf | bauprodukte | |
-| [ ] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/05_KV_Deffisierung/2013_KV_Merkblatt.pdf | bauprodukte | |
-| [ ] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/05_KV_Deffisierung/5411147.pdf | bauprodukte | |
-| [ ] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/05_KV_Deffisierung/Elementbasierter Kostenvoranschlag.pdf | bauprodukte | |
-| [ ] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/07_EAK_Elementartenkatalog_EAK195.-/CRB Online - Elementarten-Katalog EAK.pdf | bauprodukte | |
-| [ ] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/07_EAK_Elementartenkatalog_EAK195.-/CRB Online - Elementarten.pdf | bauprodukte | |
-| [ ] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/07_EAK_Elementartenkatalog_EAK195.-/EAK_Baupreisstatitik_de.pdf | bauprodukte | |
-| [ ] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/07_EAK_Elementartenkatalog_EAK195.-/EAK_Energie_de.pdf | bauprodukte | |
-| [ ] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/07_EAK_Elementartenkatalog_EAK195.-/EAK_Kosten_de.pdf | bauprodukte | |
-| [ ] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/07_EAK_Elementartenkatalog_EAK195.-/Seiten aus bp-perspektiven_referat-eBKP_referat.pdf | bauprodukte | |
-| [ ] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/08_OAK_Objektkatalog_264.-/CRB Webshop.pdf | bauprodukte | |
-| [ ] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/08_OAK_Objektkatalog_264.-/OAK_Kennwerte_de.pdf | bauprodukte | |
-| [ ] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/08_OAK_Objektkatalog_264.-/OAK_de.pdf | bauprodukte | |
-| [ ] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/08_OAK_Objektkatalog_264.-/Seiten aus bp-perspektiven_referat-eBKP_referat-2.pdf | bauprodukte | |
-| [ ] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/09_CRB-Dokumentaion 1026_e_BKP_zu_NPK/1026_de_2015.pdf | bauprodukte | |
-| [ ] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/09_CRB-Dokumentaion 1026_e_BKP_zu_NPK/CRB Online - CRB-Dokumentation 1026.pdf | bauprodukte | |
-| [ ] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/11_Kostenkennzahlen/Baubeschrieb.pdf | bauprodukte | |
+| [-] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/05_KV_Deffisierung/2013_KV_Merkblatt.pdf | bauprodukte | Kostenplanung · Schulung |
+| [-] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/05_KV_Deffisierung/5411147.pdf | bauprodukte | Kostenplanung · Schulung |
+| [-] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/05_KV_Deffisierung/Elementbasierter Kostenvoranschlag.pdf | bauprodukte | Kostenplanung · Schulung |
+| [-] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/07_EAK_Elementartenkatalog_EAK195.-/CRB Online - Elementarten-Katalog EAK.pdf | bauprodukte | Kostenplanung · Schulung |
+| [-] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/07_EAK_Elementartenkatalog_EAK195.-/CRB Online - Elementarten.pdf | bauprodukte | Kostenplanung · Schulung |
+| [-] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/07_EAK_Elementartenkatalog_EAK195.-/EAK_Baupreisstatitik_de.pdf | bauprodukte | Kostenplanung · Schulung |
+| [-] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/07_EAK_Elementartenkatalog_EAK195.-/EAK_Energie_de.pdf | bauprodukte | Kostenplanung · Schulung |
+| [-] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/07_EAK_Elementartenkatalog_EAK195.-/EAK_Kosten_de.pdf | bauprodukte | Kostenplanung · Schulung |
+| [-] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/07_EAK_Elementartenkatalog_EAK195.-/Seiten aus bp-perspektiven_referat-eBKP_referat.pdf | bauprodukte | Kostenplanung · Schulung |
+| [-] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/08_OAK_Objektkatalog_264.-/CRB Webshop.pdf | bauprodukte | Kostenplanung · Schulung |
+| [-] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/08_OAK_Objektkatalog_264.-/OAK_Kennwerte_de.pdf | bauprodukte | Kostenplanung · Schulung |
+| [-] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/08_OAK_Objektkatalog_264.-/OAK_de.pdf | bauprodukte | Kostenplanung · Schulung |
+| [-] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/08_OAK_Objektkatalog_264.-/Seiten aus bp-perspektiven_referat-eBKP_referat-2.pdf | bauprodukte | Kostenplanung · Schulung |
+| [-] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/09_CRB-Dokumentaion 1026_e_BKP_zu_NPK/1026_de_2015.pdf | bauprodukte | Kostenplanung · Schulung |
+| [-] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/09_CRB-Dokumentaion 1026_e_BKP_zu_NPK/CRB Online - CRB-Dokumentation 1026.pdf | bauprodukte | Kostenplanung · Schulung |
+| [-] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/11_Kostenkennzahlen/Baubeschrieb.pdf | bauprodukte | Kostenplanung · Schulung |
 | [ ] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/11_Kostenkennzahlen/EAK_Kosten_de.pdf | bauprodukte | |
 | [ ] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/11_Kostenkennzahlen/SIA416/01_Konzept/00_PDF/Grobkostenberechnung_SIA116_SIA416.pdf | bauprodukte | |
 | [ ] | 0 nach BKP Nr | 0 nach BKP Nr/03_Kostenplanung/11_Kostenkennzahlen/SIA416/01_Konzept/00_PDF/Jans_Grobkostenberechnung_Gebaeudeanlagen.pdf | bauprodukte | |

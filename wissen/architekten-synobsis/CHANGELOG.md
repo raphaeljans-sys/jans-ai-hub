@@ -4,6 +4,24 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-07-28 — Kein Batch (15. Leerlauf), Deaktivierung in der Registry nachvollzogen (Mac Mini)
+Nachtlauf 02:17, Host-Weiche und NAS-Mounts erfuellt. Status unveraendert **853/853,
+0 offen** (Scan-Stand steht seit 02.07.2026 still) — kein Batch gefahren, weil es nichts
+zu verarbeiten gibt und der Task seit 25.07. in seinem eigenen Kopf als «DEAKTIVIERT»
+gilt. Ursachenklaerung, warum er trotzdem feuerte: von den drei Feuermechanismen (Rule
+260727 + Nachtrag 260728) waren nur zwei nachgezogen — launchd (`ch.jans.synobsis-batch.plist`
+seit 25.07. als `.bak-stillgelegt` nicht geladen) und der Endlos-Runner (`synobsis` steht in
+`EXCLUDE_RE`, Zeile 101); die **Scheduled-Task-Registry stand weiterhin auf `enabled: true`**
+mit Cron `17 2 * * *`. Diese Luecke ist geschlossen: Task `synobsis-batch-nacht` auf
+`enabled: false` gesetzt (reversibel, Prompt und Cron erhalten), Beschreibung auf den
+Deaktivierungsgrund umgestellt. **Reaktivierung**, sobald neues Synobsis-Material eintrifft
+(`offen > 0`) — dann genuegt `enabled: true`, Runner-Ausschluss und launchd bleiben wie sie
+sind. Nebenbefund gemeldet, nicht angefasst: `baurecht-buch-training` traegt in der Registry
+ebenfalls «DEAKTIVIERT auf Mac Mini (12.07.2026)», steht aber auf `enabled: true` und lief am
+27.07. um 23:34 — gleicher Fehlertyp, gehoert dem Baurecht-Loop. Kein Fan-out, kein Subagent,
+Quelle `/Volumes/daten/05_Architekten_Synobsis` unangetastet. Protokoll:
+`outputs/2026-07-28_batch-lauf.md`.
+
 ## 2026-07-27 — Sechs offene Identitaets-Fragen aus QUESTIONS.md recherchiert (Mac Mini Nachtschicht)
 Kleiner, budgetdisziplinierter Recherche-Block (kein Fan-out, sechs WebSearches) zu
 Sektion 1/2 der QUESTIONS.md: **AASZ** (Kuerzel bleibt ungeklaert, Wettbewerbe Gockhausen/
