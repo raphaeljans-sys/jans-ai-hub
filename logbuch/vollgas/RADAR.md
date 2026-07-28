@@ -30,6 +30,76 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-07-28 16:00 — [FREI] Die 13:00-Korrektur wirkt — aber sie wurde am Handlauf verifiziert, nicht an der geplanten Bahn. Vier launchd-Jobs lesen die SSD-Kopie, nicht das NAS-Original
+
+**Selbstkontrolle:** letzter Eintrag 13:00, dieser Lauf 16:00 — 3,0 h bei 3-h-Takt, kein
+verpasster Lauf.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung (`. ~/.jans-dispatch.env`)
+antwortet «OK». Kein Login-Blocker, kein Wochenlimit, kein Mail-Anlass. Endlos-Runner ruht
+weiterhin auf beiden Stationen (STOP-Dateien, Gründe aktuell und dokumentiert) — unverändert.
+
+**P1 — DIE KORREKTUR IST WIRKSAM, DER WIRKSAMKEITSNACHWEIS VON 13:00 WAR ES NICHT.** Der
+Wächter ist seit heute Mittag auf beiden Stationen still: kein Fehlalarm mehr, verifiziert über
+die geplante Bahn (launchd: 17 Läufe, letzter Exit 0, aktiv) und einen Handlauf eben (rc=0, keine
+neue Logzeile). Der Befund von 13:00 ist damit sauber geschlossen.
+
+Beim Nachprüfen fiel aber auf, dass der damalige Nachweis den entscheidenden Schritt gar nicht
+erfasst hat. Die Zeitachse:
+
+| Zeit | Ereignis |
+|---|---|
+| 13:01 | Korrektur auf dem **NAS** gespeichert, dort von Hand verifiziert → «behoben» gemeldet |
+| **13:03:59** | **planmässiger Lauf — immer noch die ALTE Metrik** («nur 109 MB frei») |
+| 13:06 / 13:08 | SSD-Kopie via `nas-commit-now` → Pull nachgezogen (MacBook / Mini) |
+| ab 13:33 | still auf beiden Stationen — ab hier wirkt die Korrektur |
+
+Ursache: die plists starten **nicht** das NAS-Original, sondern bevorzugt die SSD-Kopie
+(`S="$HOME/Developer/…"; [ -f "$S" ] || S="/Volumes/daten/…"`). Eine NAS-seitige Korrektur wirkt
+für diese Jobs also **erst nach dem SSD-Pull** — und wer sie durch Aufruf des NAS-Scripts prüft,
+bekommt ein falsch-positives «verifiziert». Dass es diesmal gut ging, lag am Commit-Takt, nicht am
+Verfahren: wäre der Commit ausgefallen (SMB-Flatter, Rule 260725), hätte der Wächter den ganzen Tag
+weiter Fehlalarme gefeuert, während der Radar «behoben» meldet.
+
+Betroffen sind vier Jobs, MacBook Pro `speicher-waechter` + `transcript-rotation`, Mac Mini
+zusätzlich **`nachtschicht`** — und damit ausgerechnet der Taktgeber des einzigen produktiven
+Lern-Loops. Gegenprobe gemacht: **null Drift**, alle vier Script-Paare (Wächter, Gate,
+transcript-rotation, nachtschicht-run) sind auf beiden Stationen NAS-identisch (md5). Es ist also
+heute kein Schaden offen, sondern eine Prüf-Lücke geschlossen.
+
+**In Rule `auto-verbesserungen` 260728 verankert:** bei Jobs mit SSD-Vorrang gilt eine Korrektur
+erst als wirksam, wenn die **geplante Bahn** es zeigt (neue Logzeile im neuen Format bzw. belegte
+Stille) — nicht, wenn das NAS-Script von Hand das Richtige tut. Das ist die Verlängerung der
+Lehre vom 25.07. (erst nach Sicht-Verifikation als vollzogen dokumentieren) auf den Fall, dass
+Kanon und Ausführungskopie auseinanderfallen können.
+
+**P2 — grösster identifizierbarer Leerlauf-Speicher auf dem MacBook: 2,8 GB für ein Programm, das
+nicht läuft.** Zwei `tapir-archicad-mcp`-Python-Prozesse (PID 1405/1406, seit 06:55) halten je
+1424 MB, während ArchiCAD auf dieser Station **nicht** geöffnet ist (`pgrep -i archicad` leer).
+Auf der 16-GB-Maschine, deren Speicherdruck das Thema der letzten 24 Stunden war, ist das der
+grösste Einzelposten, der niemandem dient — zum Vergleich: aktuell 4017 MB verfügbar, Druck 1.
+**Nicht angetastet:** ein MCP-Server für Raphaels Werkzeug ist eine Benutzer-Anwendung, und der
+Wächter ist ausdrücklich auf OneDrive-Neustarts beschränkt. Vorschlag zum Entscheid: den
+ArchiCAD-MCP-Server nur bei Bedarf laden statt dauerhaft — das gäbe rund 2,8 GB zurück, ohne einen
+einzigen Lern-Lauf zu opfern.
+
+**Leerlaufquote: unverändert, keine Massnahme nötig.** Kein aktiver Loop erreicht die 3er-Schwelle.
+Aktiv getaktet sind `twin-mail` (03:35), `twin-fidelity` (05:40), `normen-nacht` (01:20),
+`wissens-chef` (23:10), `baurecht-buch` (Mo), `wissens-destillat` über die Nachtschicht und
+`training-energie` (22:30, Mini). Deaktiviert und still bleiben `immobewertung`, `spec`,
+`wettbewerbs-dna`, `training-plg`. Der im 13:00-Eintrag als «3x entzerrt» gemeldete
+Nachtschicht-Takt ist am Original gegengeprüft: die plist trägt tatsächlich nur noch 23:30/02:30/
+05:30 — die stündlichen Feuerungen im Log (18:30 bis 07:30) sind Historie vor der Umstellung, kein
+Rückfall.
+
+**Durchsatz: 21 substanzielle Commits heute**, davon die Nachtschicht-Ernte (Destillat-Artikel BKP
+273/281, projekt-lessons, baurecht Run 69, planungsgrundlagen PL-03-Nachaudit). Seit 13:00 nur die
+15-Minuten-Statuszeilen — unter der Rollentrennung 260728 der Sollzustand, nicht ein Ausfall.
+
+**P3 — unverändert offen (Einzeiler, siehe 10:05/13:00):** soll der Mac Mini tagsüber
+Destillat-Läufe fahren? Kapazität wäre da; ich takte weiterhin nicht eigenmächtig hoch. Entscheid
+liegt bei Raphael.
+
 ## 2026-07-28 13:00 — [FREI] Derselbe Messfehler steckte auch im Schwester-Script: der Speicher-Wächter warnte seit gestern bei JEDEM Lauf ins Leere. Behoben und beidseitig verifiziert
 
 **Selbstkontrolle:** letzter Eintrag 10:05, dieser Lauf 13:00 — 2,9 h bei 3-h-Takt, kein

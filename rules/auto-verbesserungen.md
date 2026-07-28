@@ -58,6 +58,20 @@ Konzept: `docs/konzepte/260719-Kontext-Diaet-Token-Reduktion/`).
   wie ein Gate, das immer blockiert:** die echte Speichernot ist vom Dauerrauschen nicht mehr
   zu unterscheiden. Metrik am 28.07. auf `vm_stat` + Druck-Kriterium vereinheitlicht (Schwelle
   1500 MB unveraendert), beide Stationen positiv und negativ verifiziert.
+- **Bei launchd-Jobs mit SSD-Vorrang gilt eine NAS-Korrektur erst als wirksam, wenn die GEPLANTE
+  BAHN sie zeigt** — neue Logzeile im neuen Format bzw. belegte Stille —, nie schon dann, wenn das
+  NAS-Script von Hand das Richtige tut. Vier plists starten bevorzugt die SSD-Kopie
+  (`S="$HOME/Developer/…"; [ -f "$S" ] || S="/Volumes/daten/…"`): MacBook `speicher-waechter` +
+  `transcript-rotation`, Mac Mini zusaetzlich **`nachtschicht`** (Taktgeber des einzigen produktiven
+  Lern-Loops). Fuer sie wirkt eine NAS-Aenderung ERST nach `nas-commit-now` → SSD-Pull; ein Handlauf
+  des NAS-Scripts liefert bis dahin ein falsch-positives «verifiziert». Belegt 28.07.2026: Korrektur
+  13:01 auf dem NAS gespeichert und dort verifiziert, der planmaessige 13:03:59-Lauf feuerte
+  trotzdem noch die alte Fehlmeldung; wirksam wurde sie erst mit dem Pull um 13:06/13:08. Dass kein
+  Schaden entstand, lag am Commit-Takt, nicht am Verfahren — bei ausgefallenem Commit (SMB-Flatter,
+  Rule 260725) haette der Waechter den ganzen Tag weiter Fehlalarme gefeuert, waehrend die Aufsicht
+  «behoben» meldet. Verlaengerung der 25.07.-Lehre (erst nach Sicht-Verifikation als vollzogen
+  dokumentieren) auf den Fall, dass Kanon und Ausfuehrungskopie auseinanderfallen koennen.
+  Routine-Gegenprobe: `md5` NAS gegen SSD je betroffenem Script (28.07. 16:00 beidseitig driftfrei).
 - **Session-Transcripts rotieren.** `~/.claude/projects` waechst unbegrenzt (28.07.: 4.3 GB
   MacBook, 5.2 GB Mini). `scripts/transcript-rotation.sh` (launchd, So 04:00) archiviert
   verlustfrei alles aelter als 14 Tage und loescht Originale ERST nach geprueftem Archiv.
