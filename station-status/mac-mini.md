@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 28.07.2026 07:58:47
+Stand: 28.07.2026 08:08:50
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:35)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 28.07.2026 07:58:47
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- a25f90e3 vollgas-fruehwarnung 28.07. 07:44: Logeintrag durch Korrektur-Harness — echte Umlaute in der Prosa, Identifikatoren/Pfade/Task-IDs unveraendert ASCII
+- 10bf2cc5 nas-selfcommit: 2 Datei(en) 2026-07-28 08:00
