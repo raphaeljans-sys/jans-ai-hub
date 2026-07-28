@@ -5,6 +5,24 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
 
 ## Nach BKP
 
+### BKP 225 — Spezielle Dichtungen und Dämmungen
+- [[pu-beschichtung-fassade]] — PU-Fassadenbeschichtung: Aufbau, Verarbeitung,
+  Elastizitäts-/Garantierisiken (Stand 2002, unverifiziert)
+
 ### BKP 224 — Bedachungsarbeiten
 - [[dachbegruenung-systeme]] — Extensive/intensive Dachbegrünung, drei CH-Anbieter
   (Stand 2002, unverifiziert, Systematik bleibt brauchbar)
+
+### BKP 233 — Leuchten und Lampen
+- [[erco-lichtplanung-grundlagen]] — ERCO Ratgeber Teil 1/n (S. 1-20 von ca. 435):
+  Geschichte der Lichtplanung, Kelly/Lam, Physiologie des Sehens, Beleuchtungsstärken-
+  Tabelle. Weitere Kapitel offen (Lichttechnik, Simulation, Glossar)
+
+### BKP 261 — Aufzüge
+- [[bkp-261-aufzuege]] — Systemtypen (MRL-Traktionsaufzug, Seilaufzug mit
+  Maschinenraum, Sitzlift), Kennwerte 5 Hersteller, Barrierefreiheit EN 81-70
+  (Datenblätter Stand 2006-2010)
+
+### BKP 272 — Metallbauarbeiten
+- [[chromstahltreppe-oberflaechen]] — Chromstahltreppe V2A: 5 Oberflächenvarianten,
+  Ausführungsrisiken (Anlauffarbe, Verzug, Abnutzung), Stand 2002
