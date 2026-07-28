@@ -4,6 +4,91 @@ Still-by-default: pro Lauf ein datierter Einzeiler. Mail nur bei echtem Handlung
 Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante Grösse;
 «total» ist von billigem cache_read dominiert).
 
+## 2026-07-28 07:44 — STILL (keine Mail)
+
+Zweiter Lauf desselben Tages, 46 Minuten nach dem 06:58-Lauf. Ursache erkennbar in der
+Registry: der Task-Runner dieser Station stand zwischen ~01:10 und ~06:50 still und hat
+danach den Rueckstand in einem Nachhol-Schwung abgearbeitet (`heartbeat-daily`,
+`zahlungsabgleich-check`, `konversations-log`, `twin-*` tragen alle `lastRunAt` 06:50–07:44).
+Dieser Lauf misst deshalb nur das Delta zum 06:58-Eintrag.
+
+Verbrauch teuer/total je Station (Mio), Messung 07:44:
+
+| Tag | MacBook Pro teuer | MacBook Pro total | Mac Mini teuer | Mac Mini total |
+|---|---|---|---|---|
+| 22.07. | 2.89 | 45.02 | 2.11 | 62.60 |
+| 23.07. | 3.87 | 63.53 | 4.58 | 137.53 |
+| 24.07. | 3.90 | 74.20 | 3.92 | 124.16 |
+| 25.07. | 29.77 | 624.10 | 23.32 | 689.69 |
+| 26.07. | 0.00 | 0.00 | 0.00 | 0.00 |
+| 27.07. | 18.73 | 556.45 | 7.77 | 178.32 |
+| 28.07. (bis 07:44) | 3.57 | 59.24 | 1.47 | 31.61 |
+
+Kombiniert teuer 28.07. bis 07:44: **5.03 Mio** — unauffaellig. Kriterium (b) nicht erfuellt
+(27.07. kombiniert 26.50 Mio, darunter der Schwellwert 35; die Folgetag-Regel scheitert am
+Nullwert des 26.07.).
+
+**Blockade-Status: SAUBER.** 926 strukturelle Limit-Ereignisse im 24-h-Fenster (450 MacBook Pro,
+476 Mac Mini), **alle** dem bereits gemeldeten Wochenlimit-Ausfall zugehoerig, letztes Ereignis
+27.07. 11:59 lokal (Reset 12:00). Seither keines. **Interaktive Sessions mit Limit-Ereignis: 0.**
+Der eine auf dem Mac Mini als INTERAKTIV typisierte Treffer ist der Nachtschicht-Dispatch-Prompt
+(«Nachtschicht-Zyklus Mac Mini, Fenster 18:00-09:00»), also ein Loop — die Heuristik erkennt
+diesen Opener noch nicht; fuer den naechsten Lauf als Loop-Muster vorzumerken. Kriterium (c)
+formal weiterhin im Fenster, aber identisch mit dem am 27.07. 21:45 UND 28.07. 06:58 gemeldeten
+Befund → keine Wiederholungsmail.
+
+**Operative Briefings:** `logbuch-radar` unveraendert der um 06:58 gemeldete Stand — Lauf 06:50
+abgebrochen, keine Briefing-Mail, `nextRunAt` steht auf 29.07. 06:54, also **kein automatischer
+Nachholversuch; das Morgenbriefing 28.07. bleibt ohne Handeingriff verloren**. Bereits gemeldet →
+keine zweite Mail. `hub-chef-taeglich` (faellig 08:38) und `mahnwesen-verzugscheck` (08:05) waren
+zum Messzeitpunkt noch nicht faellig; `zahlungsabgleich-check` startete 07:43 im Nachhol-Schwung
+und ist noch nicht beurteilbar — beim naechsten Lauf nachziehen.
+
+**Radar-Herzschlag: LEBT.** RADAR.md juengster Eintrag 28.07. 06:55, `lastRunAt` 06:55,
+`nextRunAt` 07:57 — weit innerhalb der 12-h-Schwelle. Kriterium (e) nicht erfuellt.
+
+**Leerlauf-Kontrolle:** kein Runner-Prozess auf beiden Stationen, Logs still seit 27.07. 22:14,
+STOP-Macbookpro (27.07. 22:15) und STOP-Macmini (28.07. 01:09) stehen mit Begruendung. Gewollte
+Stilllegung, kein Leerlauf.
+
+**Destillat-Aufsicht (zweite Erhebung, Delta zu 06:58):**
+- (a) Fortschritt: Sektionen 37/37, 214 Dateien inventarisiert. Aufschluesselung neu erhoben:
+  **146 `[-]` Spec-Ausschluss · 32 `[ ]` offen · 23 `[t]` triagiert · 13 `[x]` destilliert.**
+  **Messfehler-Korrektur:** `inventar.sh --stand` weist als `dateien_offen` **nur** die `[ ]`
+  aus. Der Wert steht seit 06:58 unveraendert auf 32 — nicht weil die Front steht, sondern weil
+  Lauf 4 zwei bereits triagierte Dateien abgearbeitet hat (`[t]` → `[x]`, die beiden
+  Terrazzo-Quellen). Die eigentliche Destillier-Arbeit passiert im Schritt `[t]` → `[x]` und ist
+  in `dateien_offen` unsichtbar. **Ab sofort ist `[x]` die Fortschrittsgroesse** (13, aus 11 vor
+  Lauf 4 abgeleitet ueber den Lauf-4-Report), nicht `dateien_offen`.
+- (b) Ertrag: **7 Artikel** (+1 seit 06:58): neu `terrazzo-kunststein-bodenbelaege.md`
+  (28.07. 07:33). Alle 7 `emerging`, 0 `established`.
+- (c) Delta-Null-Serie: **0** — vier Laeufe (04:30 Inventar+Artikel, 05:30 Kurator/Verifikation,
+  06:30 BKP 273, 07:30 BKP 281), jeder mit messbarem Ergebnis. Keine Ruecktaktung faellig.
+- (d) Stueckkosten: 5.03 Mio teuer / 7 Artikel = **~0.72 Mio je Artikel** (06:58: ~0.52). Der
+  Anstieg stammt ueberwiegend aus dem Nachhol-Schwung der Nicht-Destillat-Tasks um 07:43 und aus
+  zwei Fruehwarnungslaeufen, nicht aus teurerer Destillat-Arbeit. Wie am 06:58 vermerkt bleibt der
+  Wert eine **Obergrenze**; ein reiner Destillat-Preis braucht eine Zuordnung je Session — als
+  Verbesserung fuer den naechsten Lauf vorgemerkt.
+- Spec-Gate: `specs/bauprodukte-spec.md` (28.07. 01:33) liegt vor — haengt nicht.
+- Korpus-Queue: **nicht komplett** (bauprodukte in Arbeit) → Kriterium (g) nicht erfuellt. Die
+  Stand-Zeile in `KORPUS-QUEUE.md` nennt noch «6 Artikel (Stand 28.07. 06:30)» und ist damit einen
+  Artikel im Rueckstand — Nachfuehrung ist Sache des Destillat-Loops, nicht dieser Aufsicht.
+
+**Strukturbefund fuer den Radar (kein eigenes Kriterium, keine Mail):** Der Destillat-Loop lief
+heute Nacht **viermal, obwohl der VOLLGAS-Runner auf beiden Stationen stillsteht**. Treiber ist
+`ch.jans.nachtschicht` (launchd, Mac Mini) im Stundentakt — nicht der Runner. Die Angabe in der
+Task-Registry, der Loop werde «ausschliesslich vom VOLLGAS-Endlos-Runner» getaktet, trifft damit
+nicht zu. Das ist genau die dritte Feuerstelle aus Rule 260727 (Registry · Runner · launchd);
+hier **benigne**, weil sie Artikel produziert statt Tokens zu verbrennen — aber die Beschreibung
+gehoert an die Realitaet angeglichen, damit eine spaetere Stilllegung nicht wieder an einem
+uebersehenen Taktgeber scheitert. Zur Kenntnis an den Leerlauf-Waechter.
+
+**Meldeentscheid: KEINE Mail.** Kein Kriterium neu erfuellt; (c) und (d) sind wortgleich mit dem
+Befund, der heute 06:58 und gestern 21:45 bereits gemailt wurde. Letzte Mail: 28.07. 06:58.
+**Naechste Mail** erst bei neuer Kontingent-Erschoepfung, blockierter interaktiver Sitzung,
+einem weiteren ausgefallenen Briefing (insbesondere `hub-chef-taeglich` 08:38) oder wenn der
+Destillat-Loop Tokens ohne Ertrag verbraucht.
+
 ## 2026-07-28 06:58 — GEMELDET (Mail an rj@ gesendet)
 
 Verbrauch teuer/total je Station (Mio), Messung 06:57:
