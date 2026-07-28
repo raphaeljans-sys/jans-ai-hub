@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 28.07.2026 16:01:34
+Stand: 28.07.2026 16:11:42
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 16:01)
+- Developer/jans/ai/hub  (letzte Aktivitaet 16:03)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 28.07.2026 16:01:34
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 3e78322b nas-selfcommit: 2 Datei(en) 2026-07-28 16:00
+- ca2f53e5 vollgas-radar 28.07. 16:00: 13:00-Korrektur wirksam, aber am Handlauf statt an der geplanten Bahn verifiziert — vier launchd-Jobs (inkl. Mini-Nachtschicht) lesen die SSD-Kopie, NAS-Fix wirkt erst nach Pull (13:03:59-Lauf feuerte noch alt); Rule 260728 ergaenzt, alle Script-Paare driftfrei; P2 tapir-archicad-MCP haelt 2.8 GB ohne laufendes ArchiCAD
