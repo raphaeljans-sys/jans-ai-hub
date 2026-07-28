@@ -7,6 +7,44 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-28
 
+**Hub-Chef-Lauf (08:39, planmaessig) — MIT Befund, Briefing versendet.** Signale vollstaendig
+eingesammelt: Fristen-Register + Logbuch (7-Tage-Horizont), Konversations-Destillat 28.07.,
+`mail-vorfilter.sh 26` ueber alle Apple-Mail-Konten (Exchange, mail@, iCloud,
+raphaeljans@outlook.com; Posteingang + Gesendete Elemente), die relevanten Threads danach im
+Original samt Bodies geoeffnet, bexio `--verzug` und `--abgleich`, Kalender 8 Tage,
+Sync-/Remote-Task-Queues (beide leer), Entwurfsordner.
+**Ausgangslage: der `logbuch-radar` ist heute ausgefallen** — Start 06:51, `/Volumes/daten`
+nicht gefunden, Remount ueber `ensure-nas-mounted.sh` nach drei Schritten abgebrochen; NAS um
+06:56 wieder verfuegbar, die Registry hat den naechsten Termin bereits auf morgen weitergestellt,
+also kein automatischer Nachholversuch. Der Vollgas-Fruehwarner hat den Betriebs-/Token-Teil um
+07:02 separat gemailt (dort auch der Ertragsnachweis des neuen Destillat-Loops: sechs belegte
+`bauprodukte`-Artikel zwischen 04:38 und 06:32). Weil damit heute kein operatives Morgen-Lagebild
+existiert, traegt dieses Briefing ausnahmsweise die volle Operative statt nur die Delta-Meldung.
+**Befund 1 — der A5-Entwurf vom 27.07. ist wirksam geworden:** RJ hat die Freigabe-Mail zu
+Tuerbuch und Sicherheitskonzept ueber die Vertretungen am 27.07. **22:06 selbst versendet**
+(An A. Spahic + D. Pfaeffli, Cc Kuebler/Ziegel/Hiltmann), inhaltlich die Entwurfsfassung mit
+gewahrter SPOC-Governance. Der Draft von 21:54 liegt seither als Dublette im Entwurfsordner;
+nicht geloescht (Loeschen ist verboten).
+**Befund 2 — Verfuegbarkeitsfenster TeKoSi geschlossen:** L. Hiltmann meldet 27.07. 22:18, er sei
+nur am 28.07. im Buero, danach drei Tage abwesend und erst ab Mo 03.08. wieder fuer einen
+Teams-Termin verfuegbar. Der in der Freigabe-Mail angebotene Praesentationstermin liegt damit
+**ausserhalb** der eigenen Frist 31.07. 17:00. RJ hat 22:20 entschieden, die Praesentation diese
+Woche nicht anzubieten — kein Handlungsbedarf, als Risiko gefuehrt.
+**Befund 3 — Registerluecke geschlossen:** die beiden bald faelligen Debitoren RE-00100 (Nova,
+CHF 13'120, 30.07.) und RE-00101 (Tschopp, CHF 6'000, 31.07.) standen bisher nur in
+Nachtragstexten, nicht als eigene Aktiv-Zeilen.
+**Aktionen:** nur **A4** — Nachtrag im Fristen-Register, zwei neue Aktiv-Zeilen (RE-00100,
+RE-00101), Statusnachtrag an der Zeile 31.07. 17:00, dieser Logbuch-Eintrag.
+**Guards / bewusst unterlassen:** **A1** nicht qualifiziert (RE-00087 CHF 15'000 steht nach
+103 Tagen auf Mahnstufe 2 — Stufe 2+ ist per Whitelist immer nur Entwurf, Entscheid Raphael;
+RE-00098/99 tragen bereits die Zahlungserinnerung mit laufender Frist bis 03.08.). **A2** nicht
+noetig (28.07. 11:30 und 31.07. 10:00 stehen im Kalender). **A5 bewusst unterlassen** — zu den
+Prinzippläenen Los 274.01 liegen bereits drei unversendete Fassungen (18.07., 21.07., 24.07.),
+eine vierte waere Rauschen; und eine Nachfrage bei M. Gantenbein zur Zeitachse des neuen
+Bauentscheids waere einen Tag nach dessen ausdruecklicher Bitte um Geduld unpassend.
+Keine Zahlung, keine Buchung, keine Loeschung, kein Versand ausser dem Briefing. Kein `git`
+ueber SMB (nativer Committer).
+
 **Nachtschicht Mac Mini (~07:30) — Destillat-Lauf 4: Artikel BKP 281 Bodenbeläge.**
 Prio 1/2 leer/gesaettigt, Trainings-Loops laufen auf eigenem Takt (kein manueller
 Zweit-Start, Rule 260727) — daher naechste P1-Position im `bauprodukte`-Inventar
