@@ -1,8 +1,10 @@
 # INDEX — KB `bauprodukte`
 
-Noch keine Artikel. Der KB wird durch den Skill `wissens-destillat` aus dem
-Archiv `/Volumes/daten/03 Bauprodukte_BKP` aufgebaut.
+Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
+`/Volumes/daten/03 Bauprodukte_BKP` aufgebaut.
 
 ## Nach BKP
 
-_(wird mit dem ersten Destillat-Lauf gefüllt)_
+### BKP 224 — Bedachungsarbeiten
+- [[dachbegruenung-systeme]] — Extensive/intensive Dachbegrünung, drei CH-Anbieter
+  (Stand 2002, unverifiziert, Systematik bleibt brauchbar)

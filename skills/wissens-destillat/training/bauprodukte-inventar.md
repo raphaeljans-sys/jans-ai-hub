@@ -141,63 +141,63 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [-] | 0 nach BKP Nr | 0 nach BKP Nr/BKP_Ordnerregister.pdf | bauprodukte | Spec-Ausschluss Sektion 0 · Kostenplanung |
 | [-] | 0 nach BKP Nr | 0 nach BKP Nr/Baubeschrieb-Schwetti.pdf | bauprodukte | Spec-Ausschluss Sektion 0 · Kostenplanung |
 | [-] | 0 nach BKP Nr | 0 nach BKP Nr/hw_GRPR_20_2007.pdf | bauprodukte | Spec-Ausschluss Sektion 0 · Kostenplanung |
-| [ ] | 213 Montagebau in Stahl | 213 Montagebau in Stahl/BluewinTower/mobimo_05_02.pdf | bauprodukte | |
-| [ ] | 213 Montagebau in Stahl | 213 Montagebau in Stahl/Cobiax Decke.docx | bauprodukte | |
-| [ ] | 221 Fenster Aussentueren Tore | 221 Fenster Aussentueren Tore/SKM_C30817111017320.pdf | bauprodukte | |
-| [ ] | 224 Bedachungsarbeiten | 224 Bedachungsarbeiten/020426 Dachbegruenung.doc | bauprodukte | |
-| [ ] | 225 Spezielle Dichtungen und Daemmungen | 225 Spezielle Dichtungen und Daemmungen/021230 Beschichtung PU.doc | bauprodukte | |
-| [ ] | 230 Elektroanlagen | 230 Elektroanlagen/151218_Lorrainestrasse_4_1.OG.pdf | bauprodukte | |
-| [ ] | 230 Elektroanlagen | 230 Elektroanlagen/Kostenschätzung Elektroinstallationen.docx | bauprodukte | |
-| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180621 Bemusterung 251 Bakery.pdf | bauprodukte | |
-| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180623 Offerte.pdf | bauprodukte | |
-| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180703 Bestellung.pdf | bauprodukte | |
-| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180706 20180621 Bemusterung 251 Bakery.pdf | bauprodukte | |
-| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180706 AB 22237475.pdf | bauprodukte | |
-| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180706 Bestätigung Bestellung.pdf | bauprodukte | |
-| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/1 Zahlungne/ZahlungInland_20180723_1719.pdf | bauprodukte | |
-| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/de_erco_guide.pdf | bauprodukte | |
-| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/1 Wandleuchte/170123 Leuchtenauswahl Nasszellen.pdf | bauprodukte | |
-| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/4 Ständerlampe/SKMBT_C28017050111200.pdf | bauprodukte | |
-| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Jans/151109_Optimaler.pdf | bauprodukte | |
-| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Jans/272_10_Wandansicht_Esstisch_151030.pdf | bauprodukte | |
-| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Jans/31 Lichtschalter Steckdosen.pdf | bauprodukte | |
-| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Jans/A3 Schreinerplaene.pdf | bauprodukte | |
-| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Judd/ Its_Hard_To_Find_A_Good_Lamp_1993.pdf | bauprodukte | |
-| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/MPP/SKMBT_C28015121019050.pdf | bauprodukte | |
-| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/MPP/Teller20cm.pdf | bauprodukte | |
-| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/MPP/Teller30cm.pdf | bauprodukte | |
-| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Noguchi/Akari 26A 45cm Fr285/26A Akari Papier-Leuchte von Vitra | connox.ch.pdf | bauprodukte | |
-| [ ] | 260 Transportanlagen | 260 Transportanlagen/Lift/AS/1.5x1.5/21005312.pdf | bauprodukte | |
-| [ ] | 260 Transportanlagen | 260 Transportanlagen/Lift/AS/100426_AS_Aufzuege.pdf | bauprodukte | |
-| [ ] | 260 Transportanlagen | 260 Transportanlagen/Lift/AS/100426_AS_Aufzuege_Masskizze.pdf | bauprodukte | |
-| [ ] | 260 Transportanlagen | 260 Transportanlagen/Lift/Graventa/Graventa_lift_Technische_Daten_VANGOGH.pdf | bauprodukte | |
-| [ ] | 260 Transportanlagen | 260 Transportanlagen/Lift/Schindler/sch_pdf_sch3100_de.pdf | bauprodukte | |
-| [ ] | 260 Transportanlagen | 260 Transportanlagen/Lift/Schmitt_Sohn_Aufzuege/aufzug_rollstuhlgerecht.pdf | bauprodukte | |
-| [ ] | 272 Metallbauarbeiten | 272 Metallbauarbeiten/020320 Chromstahltreppe.doc | bauprodukte | |
-| [ ] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Z_Winkel/110207_Z_Winkel.pdf | bauprodukte | |
-| [ ] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_35mm.pdf | bauprodukte | |
-| [ ] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_HETTICH_AVB_5.pdf | bauprodukte | |
-| [ ] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_Zip_Bold_Mini.pdf | bauprodukte | |
-| [ ] | 281 Bodenbelaege | 281 Bodenbelaege/020226 Terrazzo 1.doc | bauprodukte | |
-| [ ] | 281 Bodenbelaege | 281 Bodenbelaege/020226 Terrazzo 2.doc | bauprodukte | |
-| [ ] | 281 Bodenbelaege | 281 Bodenbelaege/Offerte_Terrazzo_Belaege.pdf | bauprodukte | |
+| [-] | 213 Montagebau in Stahl | 213 Montagebau in Stahl/BluewinTower/mobimo_05_02.pdf | bauprodukte | Projektspezifisch |
+| [-] | 213 Montagebau in Stahl | 213 Montagebau in Stahl/Cobiax Decke.docx | bauprodukte | P1 · Hohlkörper-Deckensystem · docx enthaelt nur den Titel "Cobiax Decke", kein Fliesstext (vermutlich eingebettetes Bild/Objekt, per textutil nicht extrahierbar) |
+| [t] | 221 Fenster Aussentueren Tore | 221 Fenster Aussentueren Tore/SKM_C30817111017320.pdf | bauprodukte | P3 · Scan ohne Kontext |
+| [x] | 224 Bedachungsarbeiten | 224 Bedachungsarbeiten/020426 Dachbegruenung.doc | bauprodukte | destilliert → dachbegruenung-systeme.md |
+| [t] | 225 Spezielle Dichtungen und Daemmungen | 225 Spezielle Dichtungen und Daemmungen/021230 Beschichtung PU.doc | bauprodukte | P1 · PU-Beschichtung Dichtung |
+| [-] | 230 Elektroanlagen | 230 Elektroanlagen/151218_Lorrainestrasse_4_1.OG.pdf | bauprodukte | Projektplan einzeln |
+| [ ] | 230 Elektroanlagen | 230 Elektroanlagen/Kostenschätzung Elektroinstallationen.docx | bauprodukte | | P2 · Elektrokostenschätzung |
+| [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180621 Bemusterung 251 Bakery.pdf | bauprodukte | Projekt-Bemusterung |
+| [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180623 Offerte.pdf | bauprodukte | Transaktionsdokument |
+| [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180703 Bestellung.pdf | bauprodukte | Transaktionsdokument |
+| [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180706 20180621 Bemusterung 251 Bakery.pdf | bauprodukte | Projekt-Bemusterung |
+| [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180706 AB 22237475.pdf | bauprodukte | Transaktionsdokument |
+| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180706 Bestätigung Bestellung.pdf | bauprodukte | | Transaktionsdokument |
+| [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/1 Zahlungne/ZahlungInland_20180723_1719.pdf | bauprodukte | Zahlungsbeleg |
+| [t] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/de_erco_guide.pdf | bauprodukte | P1 · Produktdatenblatt ERCO |
+| [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/1 Wandleuchte/170123 Leuchtenauswahl Nasszellen.pdf | bauprodukte | Fehltriage korrigiert (04:37) — ist Katalog-Scrapbook mit Klebezetteln (Tic Light, Catellani+Smith, eintopf/etna Wallroth), keine Feuchtraum/IP-Inhalte trotz Dateiname |
+| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/4 Ständerlampe/SKMBT_C28017050111200.pdf | bauprodukte | | P3 · Scan unklar |
+| [t] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Jans/151109_Optimaler.pdf | bauprodukte | P3 · Unklar datiert |
+| [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Jans/272_10_Wandansicht_Esstisch_151030.pdf | bauprodukte | Projekt-Grundriss |
+| [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Jans/31 Lichtschalter Steckdosen.pdf | bauprodukte | Falsche Sektion |
+| [t] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Jans/A3 Schreinerplaene.pdf | bauprodukte | - · Konstruktionsplan |
+| [t] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Judd/ Its_Hard_To_Find_A_Good_Lamp_1993.pdf | bauprodukte | P3 · Designessay |
+| [t] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/MPP/SKMBT_C28015121019050.pdf | bauprodukte | P3 · Scan ohne Kontext |
+| [t] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/MPP/Teller20cm.pdf | bauprodukte | P3 · Bauteil knapp |
+| [t] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/MPP/Teller30cm.pdf | bauprodukte | P3 · Bauteil knapp |
+| [t] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Noguchi/Akari 26A 45cm Fr285/26A Akari Papier-Leuchte von Vitra | connox.ch.pdf | bauprodukte | - · Einzelhandel Katalog |
+| [t] | 260 Transportanlagen | 260 Transportanlagen/Lift/AS/1.5x1.5/21005312.pdf | bauprodukte | P1 · Aufzugsdatenblatt |
+| [t] | 260 Transportanlagen | 260 Transportanlagen/Lift/AS/100426_AS_Aufzuege.pdf | bauprodukte | P1 · Aufzugsdatenblatt |
+| [t] | 260 Transportanlagen | 260 Transportanlagen/Lift/AS/100426_AS_Aufzuege_Masskizze.pdf | bauprodukte | P2 · Masszeichnung |
+| [t] | 260 Transportanlagen | 260 Transportanlagen/Lift/Graventa/Graventa_lift_Technische_Daten_VANGOGH.pdf | bauprodukte | P1 · Aufzugsdatenblatt |
+| [t] | 260 Transportanlagen | 260 Transportanlagen/Lift/Schindler/sch_pdf_sch3100_de.pdf | bauprodukte | P1 · Aufzugsdatenblatt |
+| [t] | 260 Transportanlagen | 260 Transportanlagen/Lift/Schmitt_Sohn_Aufzuege/aufzug_rollstuhlgerecht.pdf | bauprodukte | P1 · Aufzug Accessibility |
+| [t] | 272 Metallbauarbeiten | 272 Metallbauarbeiten/020320 Chromstahltreppe.doc | bauprodukte | P1 · Treppensystem |
+| [t] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Z_Winkel/110207_Z_Winkel.pdf | bauprodukte | P2 · Verbinder Detail |
+| [t] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_35mm.pdf | bauprodukte | P1 · Arbeitsplattenverbinder |
+| [t] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_HETTICH_AVB_5.pdf | bauprodukte | P1 · HETTICH AVB |
+| [t] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_Zip_Bold_Mini.pdf | bauprodukte | P1 · Zip-System |
+| [t] | 281 Bodenbelaege | 281 Bodenbelaege/020226 Terrazzo 1.doc | bauprodukte | P1 · Terrazzo |
+| [t] | 281 Bodenbelaege | 281 Bodenbelaege/020226 Terrazzo 2.doc | bauprodukte | P1 · Terrazzo Teil2 |
+| [t] | 281 Bodenbelaege | 281 Bodenbelaege/Offerte_Terrazzo_Belaege.pdf | bauprodukte | - · Kostendokument |
 | [ ] | 282 Wandbeläge | 282 Wandbeläge/2 Referenzen/180516 Materialisierung.pdf | bauprodukte | |
 | [ ] | 282 Wandbeläge | 282 Wandbeläge/2 Referenzen/SKM_C30818051015130.pdf | bauprodukte | |
 | [ ] | 284 Cheminee | 284 Cheminee/Cheminee.pdf | bauprodukte | |
 | [ ] | 900 Einrichtung | 900 Einrichtung/00 best/2012_MB_Fussbodenheizungen_Estrich(1).pdf | bauprodukte | |
 | [ ] | 900 Einrichtung | 900 Einrichtung/00 best/2012_MB_Fussbodenheizungen_Estrich.pdf | bauprodukte | |
 | [ ] | 900 Einrichtung | 900 Einrichtung/00 best/9783959721622.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/Anleitung_FSG1100_D.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/Anleitung_Router_ZyXEL_NBG6617.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/IFL-schedule-Aug2017.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/Kleihues_fertig.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/OrangerEinzahlungsschein_20180313_0852.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/Planer8_Kap7.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/Seiten aus Seiten aus Praes-Arth3-2011-4STOFFWECHSEL.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/Synology_DS918+_Data_Sheet_deu_SVHW.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/WDS-Konfiguration mit NWA1100-N.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/ZahlungInland_20180223_1504.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/degewo_feuchtwangerweg_0908.pdf | bauprodukte | |
+| [t] | 900 Einrichtung | 900 Einrichtung/00 best/Anleitung_FSG1100_D.pdf | bauprodukte | - · Falsche Sektion |
+| [t] | 900 Einrichtung | 900 Einrichtung/00 best/Anleitung_Router_ZyXEL_NBG6617.pdf | bauprodukte | - · Falsche Sektion |
+| [t] | 900 Einrichtung | 900 Einrichtung/00 best/IFL-schedule-Aug2017.pdf | bauprodukte | - · Falsche Sektion |
+| [t] | 900 Einrichtung | 900 Einrichtung/00 best/Kleihues_fertig.pdf | bauprodukte | P3 · Scan ohne Kontext |
+| [t] | 900 Einrichtung | 900 Einrichtung/00 best/OrangerEinzahlungsschein_20180313_0852.pdf | bauprodukte | - · Zahlungsbeleg |
+| [t] | 900 Einrichtung | 900 Einrichtung/00 best/Planer8_Kap7.pdf | bauprodukte | P3 · Scan ohne Kontext |
+| [t] | 900 Einrichtung | 900 Einrichtung/00 best/Seiten aus Seiten aus Praes-Arth3-2011-4STOFFWECHSEL.pdf | bauprodukte | P3 · Scan ohne Kontext |
+| [t] | 900 Einrichtung | 900 Einrichtung/00 best/Synology_DS918+_Data_Sheet_deu_SVHW.pdf | bauprodukte | - · Falsche Sektion |
+| [t] | 900 Einrichtung | 900 Einrichtung/00 best/WDS-Konfiguration mit NWA1100-N.pdf | bauprodukte | - · Falsche Sektion |
+| [t] | 900 Einrichtung | 900 Einrichtung/00 best/ZahlungInland_20180223_1504.pdf | bauprodukte | - · Zahlungsbeleg |
+| [t] | 900 Einrichtung | 900 Einrichtung/00 best/degewo_feuchtwangerweg_0908.pdf | bauprodukte | P3 · Scan ohne Kontext |
 | [ ] | 900 Einrichtung | 900 Einrichtung/00 best/fs-lsv-zahlungsausgang-de.pdf | bauprodukte | |
 | [ ] | 900 Einrichtung | 900 Einrichtung/00 best/lisfäadbf/Datenblatt-ch24.pdf | bauprodukte | |
 | [ ] | 900 Einrichtung | 900 Einrichtung/00 best/merkblatt-sepa-de.pdf | bauprodukte | |

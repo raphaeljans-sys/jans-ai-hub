@@ -12,4 +12,7 @@
 
 ## Offen aus dem Material
 
-_(wird durch die Destillat-Läufe gefüllt)_
+3. **Aktuelle Marktübersicht Dachbegrünung fehlt:** [[dachbegruenung-systeme]] belegt
+   nur eine 2002er-Momentaufnahme (3 CH-Anbieter, unverifiziert). Für Ausschreibungen
+   BKP 224 braucht es eine eigene, aktuelle Recherche — nicht Teil eines
+   unbeaufsichtigten Nachtlaufs (Web-Recherche über mehrere Quellen).
