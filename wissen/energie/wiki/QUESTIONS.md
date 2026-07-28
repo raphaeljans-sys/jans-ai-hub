@@ -2485,3 +2485,42 @@ zutrifft.**
 4. Bezeichnungskollision SIA 385/1 (alte Norm Badewasseraufbereitung vs. aktuelle SIA 385/1:2020
    Trinkwarmwasser) aus dem Therapiebad-Destillat ungeklärt.
 5. Meta-Punkt M2 (eigenständiger Skill «energie»?) seit Run 45 spruchreif, weiterhin unentschieden.
+
+## Run 118 (2026-07-28) — sechs parallele Rechercheagenten, Run-117-Prioritätenliste abgearbeitet
+
+PDF-Inventar weiterhin erschöpft (Web-Pfad bestätigt). Vor Auftragsvergabe wurde die komplette
+Prioritätenliste aus Run 117 geprüft: Punkt 1 (Cross-KB-Nachzug sia-386-bacs) mechanisch selbst
+erledigt, Punkt 4 (SIA-385/1-Kollision) bereits durch Wissens-Chef Run 18 geschlossen vorgefunden.
+Sechs Agenten auf die restlichen Punkte plus einen Backlog-Punkt (Grossküche-Update) angesetzt.
+
+**Verifikationsstufe (Protokoll):** Keine Status-Hebung auf `established` in diesem Lauf (alle
+sechs neuen Destillate `emerging`) — die PROGRAMM-Pflicht zur Adversarial-Verify-Stufe greift
+formal nicht. Sichtprüfung durch das Hauptmodell: alle sechs Frontmatter-Quellenangaben und
+zentralen Zahlen (§ 47b BBV I 70/30-Regel, § 41a BBV I 5'000 m², SIA-2068-404-Befund, COP-Werte
+Wintower/Lausanne) stichprobenartig gegen die im jeweiligen Destillat zitierten Primärquellen
+plausibilisiert — keine Beanstandung.
+
+**Neue FAQ:** F178 (SWKI VA106-01, emerging) · F179 (SZ-Vollzugspraxis Rechenzentren, emerging) ·
+F180 (Rückkühler-Flächenkennwert ZH 70/30-Regel, emerging) · F181 (SIA 2068 Publikationsstatus,
+emerging) · F182 (Abwasserwärmepumpe JAZ/Förderung, emerging) · F183 (Grossküche-Update,
+emerging).
+
+**Verdichtung:** `wiki/abwaermenutzung-gebaeude.md` um Abschnitt "Run 118" erweitert, drei zuvor
+offene Punkte referenziert/präzisiert. Kein neuer Wiki-Themenartikel (Budget-bewusste
+Verdichtung, analog Run 117).
+
+FAQ-Stand: **183 Kernfragen (F1-F183)**. Destillate-Stand: **198** (sechs neue). Siebte
+Bestätigung in Folge (Run 111-118), dass die Sättigungsdiagnose nicht zutrifft.
+
+**Offen / Priorität nächster Lauf:**
+1. Die fünf gebündelten Kaufentscheide warten jetzt **20 Runs in Folge** auf eine Entscheidung
+   Raphaels (B1-Konsolidierung, SWKI VA105-01, SIA 385/1, SIA 385/2, SIA 384.354).
+2. Meta-Punkt M2 (eigenständiger Skill "energie"?) seit Run 45 spruchreif, weiterhin unentschieden.
+3. Energierichtplan Gemeinde Freienbach (econcept) — Volltext nicht erreichbar, bei Gelegenheit
+   direkt bei der Gemeindeverwaltung anfragen.
+4. Rabtherm-Projekt-PDFs (Wädenswil, Winterthur, EWZ Wipkingen) verlinkt, nicht geöffnet — könnten
+   die JAZ-Lücke für Abwasserwärmepumpen schliessen.
+5. SIA-2068-Direktanfrage beim SIA (sia.ch als JS-SPA nicht automatisiert auslesbar) als
+   sauberster Weg zur endgültigen Bestätigung vormerken.
+6. SWKI-Vernehmlassungs-PDF zu VA106-01 (dreifach HTTP 404) — andere URL-Struktur oder Direktanfrage
+   beim SWKI versuchen.

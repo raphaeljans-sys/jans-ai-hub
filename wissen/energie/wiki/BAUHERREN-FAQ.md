@@ -6008,3 +6008,155 @@ Lärmschutzteil ist an einer sehr aktuellen, einschlägigen Primärquelle mit pa
 Fallbeispiel belegt, der Flächenkennwert-Teil bleibt grösstenteils Negativbefund, und der
 Solarpflicht-Abzugsmechanismus ist zwar dreifach kantonal belegt, aber nicht für Zürich selbst
 verifiziert.
+
+## F178 — «Gibt es eine Schweizer Norm für die Hallenbad-Lüftung, an der ich mein Therapiebad-Projekt planen kann?»
+
+**Kurzantwort:** Die einschlägige Richtlinie SWKI VA106-01 ist per Stand 28.07.2026 weiterhin
+nicht publiziert — verbindlich bleibt die ältere SWKI 2004-1. Aus dem öffentlichen Vortrag des
+Richtlinien-Obmanns lassen sich aber bereits konkrete Entwurfswerte entnehmen.
+
+**Fachliche Begründung:** Ein 33-seitiger Vortrag von Harald Kannewischer (Obmann der
+SWKI-VA106-01-Arbeitsgruppe, 7. Schweizer Hygienetagung, Mai 2023) nennt messtechnisch
+bestätigte Verdunstungsbeiwerte von ε = 18 g/(m²·h·mbar) für Schul-/Sportbäder und ε = 22 für
+Freizeitbäder, sowie eine Vergleichsrechnung für ein 25×12,5-m-Becken: je nach angewendeter
+Norm (SWKI/VDI/ÖNORM) und Beckenrandtyp (fix/Hubboden) schwankt die erforderliche Zuluftmenge
+zwischen 19'400 und 30'600 m³/h — eine Differenz von bis zu 58 %. Bemerkenswert für die
+Therapiebad-Frage: der Entwurf begrenzt die maximale Raumlufttemperatur neu auf 34 °C, was
+exakt an der oberen Grenze der für Therapiebecken üblichen Wassertemperatur (32-34 °C) liegt.
+Eine ergänzende deutsche Fachquelle (Krantz/AB Archiv des Badewesens 10/2020) liefert einen
+Feuchte-Zielbereich von 50-65 % relativer Luftfeuchte und die Faustregel, die Lufttemperatur
+2-4 K über der Wassertemperatur zu halten. Ein eigener Energiekennwert speziell für
+Therapiebecken wurde weiterhin nicht gefunden — das bleibt ein zweifach bestätigter
+Negativbefund.
+
+**Quelle:** SWKI-Vortrag Kannewischer, 7. Schweizer Hygienetagung 2023 (swki.ch, vollständig
+gelesen); Krantz/AB Archiv des Badewesens 10/2020. Datenstand Recherche 2026-07-28 (Run 118) →
+`[[swki-va106-lueftung-hallenbaeder]]`, ergänzt `[[therapiebad-hallenbad-energie-pflegeheim]]`.
+Status **emerging** — der Publikationsstatus der Norm selbst ist zweifelsfrei negativ belegt,
+die zitierten Zahlenwerte stammen aus einem autoritativen, aber nicht-normativen Vortrag des
+Richtlinien-Verfassers.
+
+## F179 — «Gibt es in den Rechenzentrums-Gemeinden Freienbach/Wollerau (Kt. Schwyz) strengere lokale Regeln zur Abwärmenutzung?»
+
+**Kurzantwort:** Nein — weder die kantonale Vollzugspraxis noch die Baureglemente beider
+Gemeinden kennen eine Sonderregel für Rechenzentren oder Abwärme-Drittabgabe. Die Prämisse
+einer besonderen Rechenzentrums-Dichte in diesen Gemeinden liess sich zudem nicht bestätigen.
+
+**Fachliche Begründung:** Der vollständige AfU-SZ-Vollzugsdokumentensatz zum
+Grossverbraucher-Modell (Wegleitung Energieverbrauchsanalyse EVA, Richtlinie
+Zielvereinbarungen UZV, EnDK-Leitfaden) wurde gezielt nach Abwärme, Grossverbraucher,
+Rechenzentrum, Wärmenetz, Anschlusspflicht und Fernwärme durchsucht: kein Treffer für eine
+Drittabgabe- oder Rechenzentrums-spezifische Regel. Die Baureglemente Freienbach (2022) und
+Wollerau (gültig ab 20.05.2024) wurden ebenfalls im Volltext geprüft: Wollerau kennt nur ein
+freiwilliges «Energiekonzept» als Gestaltungsplan-Bonuskriterium, keine Abwärmepflicht. Die
+Recherche zu bekannten Schweizer Rechenzentrums-Standorten (AlgorithmWatch-Datenbank, sz.ch)
+verortet diese in den Kantonen ZH/AG/SH/VD, nicht im Bezirk Höfe — was den fehlenden
+Sondertatbestand plausibel erklärt. Ein Energierichtplan der Gemeinde Freienbach (econcept)
+wurde bibliografisch identifiziert, sein Volltext war jedoch nicht erreichbar.
+
+**Quelle:** AfU-SZ-Vollzugsdokumente (sz.ch, vollständig gelesen); Baureglemente Freienbach
+2022 und Wollerau 2024 (vollständig gelesen). Datenstand Recherche 2026-07-28 (Run 118) →
+`[[sz-vollzugspraxis-afu-wegleitungen-rechenzentren]]`, ergänzt
+`[[abwaerme-bereitstellungspflicht-sz]]`, `[[abwasserwaerme-bewilligung-sz-vertiefung]]`.
+Status **emerging** — vertieft zwei bestehende Negativbefunde auf Vollzugsebene, der
+Freienbach-Energierichtplan bleibt ein offener Punkt.
+
+## F180 — «Gibt es doch einen amtlichen Flächenwert für Rückkühler auf dem Dach?»
+
+**Kurzantwort:** Keinen m²/kW-Kennwert, aber im Kanton Zürich einen konkreten
+Flächenanteil: die PV-Pflicht ist auf maximal 70 % der anrechenbaren Gebäudegrundfläche
+gedeckelt, die übrigen 30 % sind ausdrücklich für technische Dachaufbauten reserviert.
+
+**Fachliche Begründung:** Weder SIA 382/1 (BFE-Publikation «Kälte effizient erzeugen»
+vollständig geprüft) noch SIA 384 liefern einen Flächenkennwert für Rückkühlwerke; der
+SWKI-Richtlinienvolltextkatalog ist kostenpflichtig und war nicht zugänglich. Neu und amtlich
+belegt: § 47b BBV I / § 10c EnerG (Kt. Zürich, bereits seit 2022 in Kraft) begrenzt die
+PV-Pflicht-Fläche auf 70 % der anrechenbaren Gebäudegrundfläche und reserviert die restlichen
+30 % ausdrücklich für «anderweitige Installationen wie Liftaufbauten usw.» — der bislang
+präziseste amtliche CH-Flächenkonkurrenzwert für Technik auf dem Dach, auch wenn kein
+absoluter m²/kW-Wert. Die Merkblätter der Kantone Luzern und St. Gallen regeln dagegen nur das
+bundesrechtliche Meldeverfahren, keine Flächenkonkurrenz (klarer Negativbefund). Die oft
+zitierte Faustregel «Hybrid-Rückkühlwerk braucht 3-4× mehr Fläche als ein Nass-System» lässt
+sich im Volltext auf eine einzelne Quelle zurückführen (Prof. Pfeiffenberger, KKA Kälte Klima
+Aktuell 03/2014) statt auf zwei unabhängige Quellen wie bisher angenommen — die
+Quellen-Konvergenz ist damit schwächer als zunächst eingeschätzt.
+
+**Quelle:** § 47b BBV I / § 10c EnerG ZH (amtlicher Gesetzestext); BFE «Kälte effizient
+erzeugen» (pubdb.bfe.admin.ch); Merkblätter Solaranlagen Kt. Luzern/St. Gallen. Datenstand
+Recherche 2026-07-28 (Run 118) → `[[rueckkuehler-flaechenkennwert-vertiefung-ch]]`, ergänzt
+`[[rueckkuehler-flaechenkonkurrenz-pv-laermschutz]]`, `[[ruckkuehlwerk-kuehlturm-legionellen-bewilligung-ch]]`.
+Status **emerging** — der ZH-Flächenanteil ist amtlich belegt, ein absoluter m²/kW-Kennwert
+bleibt unbelegt.
+
+## F181 — «Gibt es inzwischen eine SIA-Norm für die Energieeffizienz von Rechenzentren?»
+
+**Kurzantwort:** Nein, per 28.07.2026, rund drei Jahre nach dem Projektstart (8.6.2023),
+ist SIA 2068 «Energieeffizienz in Rechenzentren» weiterhin nicht im SIA-Shop erhältlich.
+
+**Fachliche Begründung:** Mehrere Produkt-URL-Proben im SIA-Shop liefern durchgehend
+«404 - Produkt nicht gefunden», im klaren Gegensatz zu einem funktionierenden Kontrollprodukt
+derselben Normenreihe (SIA 2061:2021, mit Preis und Warenkorb). Auch im Schwesterportal
+SNV-Connect fehlt SIA in der Herausgeber-Filterliste einer Rechenzentren-Suche. Der genaue
+Wortlaut der ursprünglichen SIA-Verlautbarung (ZN-Sitzung 8.6.2023) war technisch nicht
+auslesbar (sia.ch ist eine reine JavaScript-Anwendung), daher stützt sich der Befund auf
+indirekte, aber konsistente Evidenz. Als freiwillige Zwischenlösung existiert die SDEA (Swiss
+Datacenter Efficiency Association, initiiert von HPE Schweiz mit EPFL/HSLU/SDCA/asut,
+unterstützt von EnergieSchweiz/BFE): ihr «SDEA Navigator» misst zwölf Monate reale
+Betriebsdaten über vier Dimensionen und gewann im März 2026 einen «Data Centre World Award» —
+bleibt aber ein freiwilliges Label ohne Rechtswirkung.
+
+**Quelle:** SIA-Shop (shop.sia.ch, Stichproben 28.07.2026); SNV-Connect; SDEA (sdea.ch).
+Datenstand Recherche 2026-07-28 (Run 118) → `[[sia-2068-rechenzentren-publikationsstatus]]`,
+ergänzt `[[serverraum-rechenzentrum-kuehlung-abwaermenutzung-ch]]`. Status **emerging** — der
+Negativbefund selbst ist solide indirekt belegt, eine direkte SIA-Bestätigung fehlt.
+
+## F182 — «Wie gut ist eine Abwasserwärmepumpe im Vergleich zur Erdsonde, und wird sie in Zürich noch gefördert?»
+
+**Kurzantwort:** Ein amtlicher CH-Vergleichswert (JAZ/COP) fehlt weiterhin; punktuelle
+Praxiszahlen zeigen COP 4,0-5,7. Das Förderprogramm Energie Kanton Zürich 2026 kennt keine
+eigene Position für Abwasserwärme mehr.
+
+**Fachliche Begründung:** Das Feldmessprogramm des Wärmepumpen-Testzentrums Buchs (WPZ, OST)
+deckt ausschliesslich Luft/Wasser- und Sole/Wasser-Wärmepumpen ab — der Begriff «Abwasser»
+kommt im Feldmessungspaper kein einziges Mal vor (bestätigter Negativbefund). Aus
+Herstellerquellen liegen zwei punktuelle Praxiswerte vor: HUBER ThermWin am Wintower
+Winterthur (COP ca. 4,0, 440 kW Wärmeentzug/590 kW Wärmeerzeugung) und FEKA-Energiesysteme am
+Wärmenetz Lausanne Plaines-du-Loup (COP 5,7, 726 MWh im ersten Vollbetriebsjahr) — beide real,
+aber keine über eine volle Heizperiode SEPEMO-konform gemessene JAZ wie beim WPZ Buchs. Das
+frisch geprüfte Förderprogramm Energie Kanton Zürich 2026 (38 Seiten, amtlich) enthält die
+Begriffe «Abwasser», «Abwasserwärme» und «Oberflächenwasser» nirgends mehr; die verbliebene
+Kategorie «Wasser-Wasser-Wärmepumpe» (CHF 6'800) verlangt eine wasserrechtliche Konzession und
+erwähnt Probebohrungen — Indizien, dass sie faktisch auf Grundwasserbrunnen zielt, nicht auf
+Abwasserwärme (die stattdessen eine gewässerschutzrechtliche Bewilligung nach § 44 WsG
+braucht). Diese Einordnung ist plausibel, aber nicht amtlich bestätigt.
+
+**Quelle:** WPZ Buchs/OST (wp-feldmessung.ch, Paper vollständig gelesen); Huber SE/Picatech
+Huber AG Praxisberichte; gebaeudetechnik.ch-Interview FEKA-Energiesysteme; Förderprogramm
+Energie Kanton Zürich 2026 (amtliches PDF). Datenstand Recherche 2026-07-28 (Run 118) →
+`[[abwasserwaermepumpe-jaz-foerderung-vertiefung-zh]]`, ergänzt
+`[[abwasserwaermenutzung-kanalisation-zh-sz]]`, `[[wpz-buchs-feldmessung-jaz-2016-2019]]`,
+`[[foerderprogramm-energie-zh-2026]]`. Status **emerging** — punktuelle Herstellerwerte
+vorhanden, kein systematischer CH-Vergleichswert.
+
+## F183 — «Gibt es eine aktuellere Zahl als die alten 2-5 kWh/Mahlzeit für die Spital-/Pflegeheimküche?»
+
+**Kurzantwort:** Nein — trotz systematischer Suche wurde keine neuere Schweizer oder
+DACH-Studie mit einem eigenständig neu gemessenen kWh/Mahlzeit-Kennwert für institutionelle
+Grossküchen gefunden. Die alten Werte (2011/1992) bleiben die beste verfügbare Näherung.
+
+**Fachliche Begründung:** Die Suche bei GastroSuisse, hotelleriesuisse/EnAW (hotelpower.ch),
+energie.ch und CURAVIVA sowie in aktuellen deutschen Publikationen ergab keine neue
+Primärmessung. energie.ch (Schweiz, ca. 2007, E2000-Standard) bestätigt unabhängig dieselbe
+Grössenordnung von 2-5 kWh/Mahlzeit; die bei hotelpower.ch zitierte Zahl «4 kWh/Mahlzeit»
+erweist sich als dieselbe Ursprungsquelle wie im Basisdestillat, keine Neumessung. Die
+aktuellste gefundene DACH-Quelle ist ein BMG/Curacon-Gutachten 2023 zu deutschen
+Pflegeheimen, das aber nur den Gesamtgebäude-Energieverbrauch pro Bewohner misst (Strom ca.
+2'900-3'000 kWh/Jahr, Wärme ca. 7'500-7'800 kWh/Jahr), nicht küchenspezifisch. Eine 2025er
+Studie der Hochschule Weihenstephan-Triesdorf zeigt für eine Personalrestaurant-Küche (nicht
+Healthcare) eine relative Einsparung von 24,1 % je Mahlzeit nach Modernisierung, aber keinen
+absoluten Kennwert.
+
+**Quelle:** energie.ch; hotelpower.ch; BMG/Curacon-Gutachten 2023 (DE); HSWT-Studie 2025 (DE).
+Datenstand Recherche 2026-07-28 (Run 118) → `[[grosskueche-mahlzeit-energiekennwert-aktualisierung]]`,
+ergänzt `[[grosskuechen-lueftung-abluft-wrg-ch]]`. Status **emerging** — ehrlicher
+Negativbefund, alte Werte bleiben in Kraft.

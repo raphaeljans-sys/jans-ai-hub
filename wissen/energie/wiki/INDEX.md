@@ -327,3 +327,25 @@ erschöpft seit Run 65 (bestätigt, keine neuen PDFs in PL-04 Energie seit 01.07
 Bestätigung in Folge (Run 111-117), dass die Sättigungsdiagnose für neue Themenfelder nicht
 zutrifft. Destillate-Stand: **192** (sechs neue). FAQ-Stand: **177**. Wiki-Themenartikel:
 **29** (unverändert).
+
+## Run 118 (2026-07-28)
+
+Sechs parallele Rechercheagenten arbeiten die komplette Prioritätenliste aus Run 117 ab (nach
+Vorabprüfung: Punkt 1 mechanisch selbst erledigt, Punkt 4 bereits durch Wissens-Chef Run 18
+geschlossen). **SWKI VA106-01** weiterhin nicht publiziert, aber Entwurfswerte aus Obmann-Vortrag
+erschlossen → `[[swki-va106-lueftung-hallenbaeder]]`, FAQ F178. **SZ-Vollzugspraxis
+Rechenzentren/Abwärme** (AfU-Wegleitungen + Baureglemente Freienbach/Wollerau vollständig
+geprüft): kein Sonderregime, Rechenzentrums-Häufungsprämisse widerlegt →
+`[[sz-vollzugspraxis-afu-wegleitungen-rechenzentren]]`, FAQ F179. **Rückkühler-Flächenkennwert
+vertieft**: § 47b BBV I/§ 10c EnerG ZH 70/30-Regel neu belegt (präzisester amtlicher
+ZH-Flächenkonkurrenzwert), kein m²/kW-Kennwert → `[[rueckkuehler-flaechenkennwert-vertiefung-ch]]`,
+FAQ F180. **SIA 2068** drei Jahre nach Projektstart weiterhin nicht im SIA-Shop gelistet →
+`[[sia-2068-rechenzentren-publikationsstatus]]`, FAQ F181. **Abwasserwärmepumpe JAZ/Förderung**:
+kein systematischer CH-Vergleichswert, punktuelle Praxis-COP 4,0/5,7, ZH-Förderposition entfallen
+→ `[[abwasserwaermepumpe-jaz-foerderung-vertiefung-zh]]`, FAQ F182. **Grossküche-Update**:
+ehrlicher Negativbefund, alte Werte (2011/1992) bleiben beste Näherung →
+`[[grosskueche-mahlzeit-energiekennwert-aktualisierung]]`, FAQ F183. `[[abwaermenutzung-gebaeude]]`
+um Abschnitt "Run 118" erweitert. Kein neuer Wiki-Themenartikel (Budget-bewusste Verdichtung).
+Siebte Bestätigung in Folge (Run 111-118), dass die Sättigungsdiagnose nicht zutrifft.
+Destillate-Stand: **198** (sechs neue). FAQ-Stand: **183**. Wiki-Themenartikel: **29**
+(unverändert).

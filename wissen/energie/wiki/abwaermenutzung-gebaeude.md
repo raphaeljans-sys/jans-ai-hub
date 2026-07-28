@@ -1,12 +1,16 @@
 ---
 title: Abwärmenutzung am Gebäude — Rechtspflicht, Quellen und Planungsfolgen
 status: emerging
-last_updated: 2026-07-27
+last_updated: 2026-07-28
 sources: [destillate/serverraum-rechenzentrum-kuehlung-abwaermenutzung-ch.md,
   destillate/abwasserwaermenutzung-kanalisation-zh-sz.md,
   destillate/grosskuechen-lueftung-abluft-wrg-ch.md,
   destillate/waescherei-prozessenergie-pflegeheim-spital-ch.md,
-  destillate/muken-2025-verabschiedet.md, destillate/anergienetz-kalte-fernwaerme-ch.md]
+  destillate/muken-2025-verabschiedet.md, destillate/anergienetz-kalte-fernwaerme-ch.md,
+  destillate/sz-vollzugspraxis-afu-wegleitungen-rechenzentren.md,
+  destillate/rueckkuehler-flaechenkennwert-vertiefung-ch.md,
+  destillate/sia-2068-rechenzentren-publikationsstatus.md,
+  destillate/abwasserwaermepumpe-jaz-foerderung-vertiefung-zh.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]]
 ---
 
@@ -150,14 +154,35 @@ auf 54,4 dB(A); Drehzahlreduktion bei mehr parallel laufenden Geräten senkt den
 m²/kW-Flächenkennwert für Rückkühler selbst bleibt weiterhin unbelegt (nur deutsche
 Herstellerquelle).
 
+## Run 118 (2026-07-28) — SZ-Vollzugspraxis, ZH-Flächenanteil, SIA 2068 und Abwasserwärmepumpe vertieft
+
+Vier der bisher offenen Punkte gezielt nachrecherchiert:
+- **SZ-Vollzugspraxis:** Der vollständige AfU-SZ-Vollzugsdokumentensatz sowie die Baureglemente
+  Freienbach (2022) und Wollerau (2024) enthalten keine Sonderregel für Rechenzentren/Abwärme;
+  die Prämisse einer Rechenzentrums-Häufung in diesen Gemeinden liess sich zudem nicht bestätigen
+  (bekannte CH-Standorte liegen in ZH/AG/SH/VD) → [[sz-vollzugspraxis-afu-wegleitungen-rechenzentren]]
+  (FAQ F179).
+- **ZH-Flächenanteil für Technikaufbauten (löst den PV-Abzugsgrund teilweise):** § 47b BBV I /
+  § 10c EnerG (seit 2022 in Kraft) deckelt die PV-Pflicht in Zürich auf 70 % der anrechenbaren
+  Gebäudegrundfläche, 30 % sind ausdrücklich für «anderweitige Installationen wie Liftaufbauten
+  usw.» reserviert — der bislang präziseste amtliche ZH-Flächenkonkurrenzwert, wenn auch kein
+  m²/kW-Kennwert. Kt. Luzern/St. Gallen regeln dagegen keine Flächenkonkurrenz (Negativbefund)
+  → [[rueckkuehler-flaechenkennwert-vertiefung-ch]] (FAQ F180).
+- **SIA 2068:** per 28.07.2026 weiterhin nicht im SIA-Shop gelistet (drei Jahre nach
+  Projektstart) — solide indirekt belegter Negativbefund; SDEA Navigator als freiwillige
+  Zwischenlösung (Data Centre World Award März 2026) → [[sia-2068-rechenzentren-publikationsstatus]]
+  (FAQ F181).
+- **Abwasserwärmepumpe JAZ/Förderung:** kein systematischer CH-Vergleichswert zur Erdsonde, aber
+  punktuelle Praxis-COP 4,0 (Wintower Winterthur) und 5,7 (Lausanne Plaines-du-Loup); das
+  Förderprogramm Energie ZH 2026 kennt keine eigene Abwasserwärme-Position mehr
+  → [[abwasserwaermepumpe-jaz-foerderung-vertiefung-zh]] (FAQ F182).
+
 ## Offene Punkte
 
-- Kein CH-amtlicher Flächenkennwert (m²/kW) für Rückkühler selbst; ZH-spezifischer PV-Abzugsgrund
-  für technische Dachaufbauten mangels Solarpflicht-Gesetzestext weiterhin ungeklärt.
-- SZ-Negativbefunde (Abwärme-Drittabgabe, Abwasserwärme) sind primärquellen-verifiziert, aber die
-  Vollzugspraxis des AfU SZ (Wegleitungen, kommunale Sonderregeln in Rechenzentrums-Gemeinden wie
-  Freienbach/Wollerau) ist nicht geprüft.
-- SIA 2068 «Energieeffizienz in Rechenzentren»: Projektstart 8.6.2023 beschlossen,
-  Publikationsstatus per Juli 2026 unverifiziert.
+- Kein CH-amtlicher m²/kW-Flächenkennwert für Rückkühler selbst; die zitierte Faustregel
+  «3-4× mehr Fläche bei Hybridkühlung» stammt aus einer einzelnen Fachquelle (Pfeiffenberger 2014),
+  nicht aus zwei unabhängigen wie zuvor angenommen.
+- Energierichtplan Gemeinde Freienbach (econcept) bibliografisch identifiziert, Volltext nicht
+  erreichbar.
 - Die ETA-3-/Rotoren-Aussage stammt aus dem suissetec-Merkblatt, nicht aus dem kostenpflichtigen
   SIA-382/1-Normtext selbst.

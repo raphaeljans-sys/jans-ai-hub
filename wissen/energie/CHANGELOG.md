@@ -2,6 +2,35 @@
 
 Neueste zuoberst.
 
+## 2026-07-28 — Run 118 (Intensiv-Lauf auf Auftrag Raphaels): sechs parallele Rechercheagenten + ein mechanischer Cross-KB-Nachtrag
+- **[nachtrag, mechanisch]** `destillate/sia-386-bacs-gebaeudeautomation.md`: Geltungsstatus-Nachtrag
+  aus Run 117 nachgezogen — § 41a BBV I ZH verlangt Gebäudeautomation heute erst ab **5'000 m² EBF**,
+  die MuKEn-2025-Schwelle von 2'000 m² ist verabschiedet, aber noch nicht ins ZH-Recht überführt.
+  Bauherren-Transfer, Offene-Punkte und Backlinks aktualisiert.
+- **[neu]** `destillate/swki-va106-lueftung-hallenbaeder.md` — SWKI VA106-01 weiterhin nicht
+  publiziert; Entwurfswerte aus Obmann-Vortrag (Verdunstungsbeiwerte, Zuluftmengen, 34-°C-Grenze).
+  emerging, FAQ F178.
+- **[neu]** `destillate/sz-vollzugspraxis-afu-wegleitungen-rechenzentren.md` — kein
+  Rechenzentrums-Sonderregime auf SZ-Vollzugs-/Gemeindeebene (Freienbach/Wollerau), Prämisse einer
+  Rechenzentrums-Häufung dort widerlegt. emerging, FAQ F179.
+- **[neu]** `destillate/rueckkuehler-flaechenkennwert-vertiefung-ch.md` — § 47b BBV I/§ 10c EnerG ZH
+  70/30-Flächenregel neu belegt (präzisester amtlicher ZH-Wert), kein CH-m²/kW-Kennwert. emerging,
+  FAQ F180.
+- **[neu]** `destillate/sia-2068-rechenzentren-publikationsstatus.md` — SIA 2068 drei Jahre nach
+  Projektstart weiterhin nicht im SIA-Shop gelistet, SDEA Navigator als Zwischenlösung. emerging,
+  FAQ F181.
+- **[neu]** `destillate/abwasserwaermepumpe-jaz-foerderung-vertiefung-zh.md` — kein systematischer
+  JAZ-Vergleichswert Abwasserwärmepumpe vs. Erdsonde, punktuelle Praxis-COP 4,0/5,7; ZH-Förderposition
+  für Abwasserwärme entfallen. emerging, FAQ F182.
+- **[neu]** `destillate/grosskueche-mahlzeit-energiekennwert-aktualisierung.md` — ehrlicher
+  Negativbefund, keine neuere CH-/DACH-Primärmessung kWh/Mahlzeit gefunden. emerging, FAQ F183.
+- **[verdichtung]** `wiki/abwaermenutzung-gebaeude.md` um Abschnitt "Run 118" erweitert (vier
+  vorher offene Punkte referenziert/präzisiert).
+- **Register:** `destillate/INDEX.md`, `wiki/BAUHERREN-FAQ.md` (F178-F183), `wiki/INDEX.md`,
+  `wiki/QUESTIONS.md`, `training/curriculum.md` (D89), `raw/_INGESTED.md` nachgeführt.
+- FAQ-Stand: **183 Kernfragen**. Destillate-Stand: **198** (sechs neue). Siebte Bestätigung in
+  Folge (Run 111-118), dass die Sättigungsdiagnose für neue Themenfelder nicht zutrifft.
+
 ## 2026-07-27 — Wissens-Chef Run 18 (Cross-KB): fuenf materielle Korrekturen am Run-117-Material, eine Stunde nach dessen Entstehung
 - **[korrektur, materiell] 70-%-Kurzschluss in zwei Destillaten.** `energis-kartenwerk-stadt-zuerich.md:172-175`
   gab die 70-%-Schwelle der staedtischen WVV als «dieselbe Schwelle, die materiell auch die

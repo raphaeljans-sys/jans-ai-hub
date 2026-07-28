@@ -1870,3 +1870,73 @@ ausschliesslich mit eigener neuer Datei (Kollisionsschutz, Konsolidierung im Hau
    Baederenergie) nur dem Titel nach identifiziert; kein CH-amtlicher m²/kW-Flaechenkennwert fuer
    Rueckkuehler; ZH-spezifischer PV-Abzugsgrund fuer technische Dachaufbauten mangels
    Solarpflicht-Gesetzestext offen.
+
+## D89 (Run 118, 2026-07-28) — sechs parallele Rechercheagenten, gebündelte Prioritätenliste aus Run 117 abgearbeitet + Cross-KB-Nachtrag
+
+PDF-Inventar weiterhin erschöpft seit Run 65, Web-Pfad bestätigt. Vor Auftragsvergabe die gesamte
+"Offen / Priorität nächster Lauf"-Liste aus Run 117 durchgeprüft (inkl. gezieltem grep gegen
+`destillate/`, um echte Lücken von bereits Gedecktem zu trennen — Lehre aus Run 115): Punkt 1
+(Cross-KB-Nachzug sia-386-bacs) mechanisch selbst erledigt (kein Agent nötig), Punkt 4
+(SIA-385/1-Bezeichnungskollision) bereits durch Wissens-Chef Run 18 (27.07.2026) geschlossen
+vorgefunden — nicht erneut bearbeitet. Sechs `general-purpose`-Agenten parallel auf die
+verbleibenden fünf Prioritätspunkte plus einen zusätzlichen Backlog-Punkt (Grossküche-Update aus
+Run 116) angesetzt, jeder ausschliesslich mit eigener neuer Destillat-Datei (Kollisionsschutz);
+Registerkonsolidierung und Wiki-Wachstum im Hauptmodell.
+
+- **Mechanischer Cross-KB-Nachtrag (kein Agent):** `sia-386-bacs-gebaeudeautomation.md` um den in
+  Run 117 entdeckten fehlenden Geltungsstatus ergänzt — § 41a BBV I ZH verlangt Gebäudeautomation
+  heute erst ab **5'000 m² EBF**, die MuKEn-2025-Schwelle von 2'000 m² ist verabschiedet, aber noch
+  nicht ins ZH-Recht überführt. Bauherren-Transfer und Offene-Punkte-Abschnitt aktualisiert,
+  Backlink zu `[[energiemonitoring-submetering-grossverbraucher-zh-sz]]` ergänzt.
+- **D89a SWKI VA106-01 Hallenbad-Lüftung.** Publikationsstatus per 28.07.2026 weiterhin negativ
+  (SWKI 2004-1 bleibt verbindlich) — aber ein Vortrag des Richtlinien-Obmanns (7. Schweizer
+  Hygienetagung 2023, vollständig gelesen) liefert Entwurfswerte: Verdunstungsbeiwerte ε 18/22
+  g/(m²·h·mbar), Zuluftmengen-Spannweite ±58 % zwischen SWKI/VDI/ÖNORM für ein Referenzbecken, neue
+  Raumlufttemperatur-Obergrenze 34 °C (deckt sich mit der Therapiebad-Wassertemperatur-Obergrenze)
+  → `[[swki-va106-lueftung-hallenbaeder]]`, FAQ **F178**, emerging.
+- **D89b SZ-Vollzugspraxis Rechenzentren/Abwärme.** AfU-SZ-Vollzugsdokumente und die Baureglemente
+  Freienbach (2022)/Wollerau (2024) vollständig geprüft: kein Sonderregime auf Vollzugs- oder
+  Gemeindeebene. Wichtiger Nebenbefund: die Prämisse einer Rechenzentrums-Häufung in diesen
+  Gemeinden liess sich nicht bestätigen (bekannte CH-Standorte liegen laut AlgorithmWatch/sz.ch in
+  ZH/AG/SH/VD) → `[[sz-vollzugspraxis-afu-wegleitungen-rechenzentren]]`, FAQ **F179**, emerging.
+- **D89c Rückkühler-Flächenkennwert, vertieft.** Weiterhin kein CH-amtlicher m²/kW-Kennwert, aber
+  neu belegt: § 47b BBV I/§ 10c EnerG ZH (seit 2022 in Kraft) deckelt die PV-Pflicht auf 70 % der
+  anrechenbaren Gebäudegrundfläche, 30 % ausdrücklich für Technikaufbauten reserviert — präzisester
+  amtlicher ZH-Flächenkonkurrenzwert bisher. Die vielzitierte Faustregel "3-4× Fläche bei
+  Hybridkühlung" auf eine einzelne Quelle zurückgeführt (Pfeiffenberger/KKA 2014), nicht zwei
+  unabhängige wie zuvor angenommen — Quellen-Konvergenz war schwächer als gedacht
+  → `[[rueckkuehler-flaechenkennwert-vertiefung-ch]]`, FAQ **F180**, emerging.
+- **D89d SIA 2068 Publikationsstatus.** Drei Jahre nach Projektstart (8.6.2023) weiterhin nicht im
+  SIA-Shop gelistet (Kontrollprodukt-Vergleich SIA 2061:2021) — solide indirekt belegter
+  Negativbefund. SDEA Navigator als freiwillige Zwischenlösung dokumentiert (Data Centre World
+  Award März 2026) → `[[sia-2068-rechenzentren-publikationsstatus]]`, FAQ **F181**, emerging.
+- **D89e Abwasserwärmepumpe JAZ + ZH-Förderung.** WPZ-Buchs-Feldmessprogramm deckt keine
+  Abwasserwärmepumpen ab (Negativbefund); punktuelle Herstellerpraxis-COP 4,0 (Wintower Winterthur)
+  und 5,7 (Lausanne Plaines-du-Loup), aber keine SEPEMO-konforme Heizperioden-JAZ. Förderprogramm
+  Energie Kt. ZH 2026 enthält keine eigene Abwasserwärme-Position mehr
+  → `[[abwasserwaermepumpe-jaz-foerderung-vertiefung-zh]]`, FAQ **F182**, emerging.
+- **D89f Grossküche kWh/Mahlzeit, Aktualisierungsversuch.** Ehrlicher Negativbefund: keine neuere
+  CH-/DACH-Primärmessung gefunden, alte Werte (2011/1992) bleiben beste Näherung; energie.ch
+  bestätigt unabhängig dieselbe Grössenordnung (2-5 kWh/Mahlzeit)
+  → `[[grosskueche-mahlzeit-energiekennwert-aktualisierung]]`, FAQ **F183**, emerging.
+- **Verdichtung:** `wiki/abwaermenutzung-gebaeude.md` um einen neuen Abschnitt "Run 118" erweitert
+  (vier der vorherigen offenen Punkte referenziert/präzisiert), kein neuer Wiki-Themenartikel
+  (Budget-bewusste Verdichtung dieses Laufs, analog Run 117).
+
+FAQ-Stand: **183 Kernfragen (F1-F183)**. Destillate-Stand: **198** (sechs neue). **Siebte
+Bestätigung in Folge (Run 111-118), dass die Sättigungsdiagnose für neue Themenfelder nicht
+zutrifft** — alle sechs Agenten fanden echten Mehrwert trotz vertiefender statt neuer Themenwahl.
+
+### Prioritaet naechster Lauf (aus Run 118)
+1. Die fünf gebündelten Kaufentscheide warten jetzt **20 Runs in Folge** auf eine Entscheidung
+   Raphaels (B1-Konsolidierung, SWKI VA105-01, SIA 385/1, SIA 385/2, SIA 384.354) — dringende
+   Empfehlung unverändert: als kurze Bündel-Frage entscheiden, der Loop kann das nicht selbst lösen.
+2. Meta-Punkt M2 (eigenständiger Skill "energie"?) seit Run 45 spruchreif, weiterhin unentschieden.
+3. Energierichtplan Gemeinde Freienbach (econcept) bibliografisch identifiziert, Volltext nicht
+   erreichbar — bei Gelegenheit erneut versuchen (evtl. direkt bei der Gemeindeverwaltung).
+4. Rabtherm-Projekt-PDFs (mehrere ZH-Referenzen: Wädenswil, Winterthur, EWZ Wipkingen) verlinkt,
+   aber nicht geöffnet — könnten die fehlende JAZ-Lücke für Abwasserwärmepumpen schliessen.
+5. SIA-2068-Direktanfrage beim SIA selbst (sia.ch ist als JS-SPA nicht automatisiert auslesbar)
+   als sauberster Weg zur endgültigen Bestätigung des Negativbefunds vormerken.
+6. SWKI-Vernehmlassungs-PDF zu VA106-01 (im Vortrag referenziert, dreifach mit HTTP 404
+   fehlgeschlagen) — evtl. über eine andere URL-Struktur oder Anfrage beim SWKI direkt.
