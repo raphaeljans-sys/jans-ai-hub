@@ -30,3 +30,9 @@
    Normfundstelle für rollstuhlgerechte Aufzugskabinen nur aus dem Schmitt+Sohn-
    Datenblatt. Eine Ziffern-Detailprüfung gegen `wissen/normen/` steht aus, falls ein
    konkretes Projekt die genauen Kabinenmasse aus der Norm selbst braucht.
+7. **Arbeitsplatten-Verbinder nur ein Händler-Sortiment (2011):**
+   [[arbeitsplatten-verbinder-schreinerei]] vergleicht drei Systeme ausschliesslich
+   nach OPO-Oeschger-Katalogdaten von 2011. Kein Abgleich mit alternativen
+   Verbindersystemen (z.B. Lamello, Domino) und keine geprüften Zugkraftwerte —
+   nur Marketing-Aussagen der Quelle. Vor Ausschreibung BKP 273.3 aktuelle
+   Bezugsquelle/Preise neu abklären.

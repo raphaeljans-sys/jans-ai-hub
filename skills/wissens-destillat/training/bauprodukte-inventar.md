@@ -175,9 +175,9 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [x] | 260 Transportanlagen | 260 Transportanlagen/Lift/Schmitt_Sohn_Aufzuege/aufzug_rollstuhlgerecht.pdf | bauprodukte | destilliert → bkp-261-aufzuege.md |
 | [x] | 272 Metallbauarbeiten | 272 Metallbauarbeiten/020320 Chromstahltreppe.doc | bauprodukte | destilliert → chromstahltreppe-oberflaechen.md |
 | [t] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Z_Winkel/110207_Z_Winkel.pdf | bauprodukte | P2 · Verbinder Detail |
-| [t] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_35mm.pdf | bauprodukte | P1 · Arbeitsplattenverbinder |
-| [t] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_HETTICH_AVB_5.pdf | bauprodukte | P1 · HETTICH AVB |
-| [t] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_Zip_Bold_Mini.pdf | bauprodukte | P1 · Zip-System |
+| [x] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_35mm.pdf | bauprodukte | → [[arbeitsplatten-verbinder-schreinerei]] |
+| [x] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_HETTICH_AVB_5.pdf | bauprodukte | → [[arbeitsplatten-verbinder-schreinerei]] |
+| [x] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_Zip_Bold_Mini.pdf | bauprodukte | → [[arbeitsplatten-verbinder-schreinerei]] |
 | [t] | 281 Bodenbelaege | 281 Bodenbelaege/020226 Terrazzo 1.doc | bauprodukte | P1 · Terrazzo |
 | [t] | 281 Bodenbelaege | 281 Bodenbelaege/020226 Terrazzo 2.doc | bauprodukte | P1 · Terrazzo Teil2 |
 | [t] | 281 Bodenbelaege | 281 Bodenbelaege/Offerte_Terrazzo_Belaege.pdf | bauprodukte | - · Kostendokument |

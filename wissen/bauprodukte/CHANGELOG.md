@@ -1,5 +1,25 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-07-28 — Neuer Artikel BKP 273 Schreinerarbeiten (Mac Mini Nachtschicht, 06:30-Lauf)
+- **Artikel `wiki/arbeitsplatten-verbinder-schreinerei.md` geschrieben** (status
+  `emerging`) aus den drei P1-triagierten Dateien in `273 Schreinerarbeiten/
+  Zusammenzieher/` (OPO-Net-Katalogausdrucke OPO Oeschger AG, alle datiert
+  07.02.2011): Vergleich dreier Arbeitsplatten-Verbindersysteme
+  (Kunststoff-Exzenter, HETTICH AVB 5, Zip Bold Mini) nach Werkstoff, Bohr-Ø,
+  Montagewerkzeug, Plattendicke und Stückpreis (2011). Alle Zahlen/Angaben direkt
+  aus den drei PDFs übernommen, keine Ergänzung. Datumsstempel-Pflicht
+  eingehalten (Preise/Artikelnummern explizit als 2011er-Stand markiert).
+  BKP-Code 273.3 «Allgemeine Schreinerarbeiten» gegen `references/bkp-2017/
+  BKP-2017-Liste.md` verifiziert (Rule `bkp-2017-referenz`).
+- `wiki/INDEX.md` (neue BKP-273-Sektion) und `wiki/QUESTIONS.md` (1 neuer offener
+  Punkt: nur ein Händler-Sortiment, kein Systemvergleich mit Alternativen wie
+  Lamello/Domino, keine geprüften Zugkraftwerte) nachgeführt.
+- Inventar `training/bauprodukte-inventar.md`: die drei Quelldateien von `[t]` auf
+  `[x]` gesetzt (Destillat abgeschlossen).
+- Beleg-Prüfung in derselben Session durchgeführt (kein separater Kurator-Lauf,
+  Nachtschicht-Budgetdisziplin): alle Tabellenwerte gegen die drei Quell-PDFs
+  zurückgeprüft, keine Abweichung gefunden. Kein Fan-out, keine `AskUserQuestion`.
+
 ## 2026-07-28 — Kurator-Stufe (Phase 3) für die vier Fliessarbeit-Artikel (Mac Mini Nachtschicht, 05:30-Lauf)
 - **Beleg-Prüfung:** `pu-beschichtung-fassade.md` und `chromstahltreppe-oberflaechen.md`
   vollständig gegen ihre `.doc`-Rohquellen gegengelesen (`textutil -convert txt`) —

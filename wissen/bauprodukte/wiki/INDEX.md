@@ -26,3 +26,8 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
 ### BKP 272 — Metallbauarbeiten
 - [[chromstahltreppe-oberflaechen]] — Chromstahltreppe V2A: 5 Oberflächenvarianten,
   Ausführungsrisiken (Anlauffarbe, Verzug, Abnutzung), Stand 2002
+
+### BKP 273 — Schreinerarbeiten
+- [[arbeitsplatten-verbinder-schreinerei]] — Arbeitsplatten-Verbinder Vergleich
+  3 Systeme (Kunststoff-Exzenter, HETTICH AVB 5, Zip Bold Mini): Bohr-Ø,
+  Montagewerkzeug, Stückpreise (Stand 2011, unverifiziert)
