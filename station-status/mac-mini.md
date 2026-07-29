@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.07.2026 04:26:45
+Stand: 29.07.2026 04:36:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 29.07.2026 04:26:45
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 915df0c0 vollgas-radar 29.07. 04:20 Nachtrag 2: Verifikationslauf abgeschlossen — Wrapper uebergibt nachweislich ans Binary (rc 1 aus claude selbst, volle Journalzeile mit session_id/duration_ms); das rc 1 war eigener Testfehler (jans-dispatch.env nicht geladen), nicht Stationsbefund; Nebenbefund: Auth-Fehlerpfad braucht 8,5 Min wie ein erfolgreicher Trivial-Lauf
+- 7f1449af nas-selfcommit: 2 Datei(en) 2026-07-29 04:30

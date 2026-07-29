@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.07.2026 04:22:14
+Stand: 29.07.2026 04:42:32
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 03:57)
+- Developer/jans/ai/hub  (letzte Aktivitaet 04:15)
 - /Volumes/daten/jans/ai/hub  (letzte Aktivitaet 04:14)
 
 ## Laufende Arbeits-Prozesse
@@ -14,4 +14,4 @@ Stand: 29.07.2026 04:22:14
 - 3 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- 915df0c0 vollgas-radar 29.07. 04:20 Nachtrag 2: Verifikationslauf abgeschlossen — Wrapper uebergibt nachweislich ans Binary (rc 1 aus claude selbst, volle Journalzeile mit session_id/duration_ms); das rc 1 war eigener Testfehler (jans-dispatch.env nicht geladen), nicht Stationsbefund; Nebenbefund: Auth-Fehlerpfad braucht 8,5 Min wie ein erfolgreicher Trivial-Lauf
+- 7f1449af nas-selfcommit: 2 Datei(en) 2026-07-29 04:30
