@@ -1,3 +1,57 @@
+## 2026-07-29 (nachmittags) — Entscheid-Paket Raphael umgesetzt: Vorrang-Auftrag Lignum + PL-02-Kern aufgenommen
+
+- **[entscheid, strukturell] PL-02-Reichweite entschieden (Freigabe Raphael 29.07.2026).** Der seit
+  Run 31 offene Strukturentscheid ist getroffen: aufgenommen wird **nur der normrelevante Kern**,
+  alles Uebrige geht an die zustaendige KB bzw. den zustaendigen Skill. Neuer Abschnitt
+  «PL-02 Kern-Nachtrag» in `training/norm-inventar.md` mit **69 offenen Positionen**, Datei fuer
+  Datei am Bestand verifiziert statt aus dem Run-31-Report uebernommen. Damit hat der Loop nach
+  dem Lignum-Abschluss wieder echte Grundarbeit statt Bestaetigungsrunden (adressiert den
+  Leerlauf-Waechter, Rule 260727).
+- **[korrektur der Run-31-Zahlen]** Beim Verifizieren gefunden: `09_Sanitaereinrichtung` hat **14**
+  PDF statt 15 (10 davon im Unterordner `Kl Hochbau einzel/`, in der Run-31-Zaehlung unsichtbar);
+  `06_Richtlinien/BKZ` (4 PDF, hindernisfreies Bauen Kt. ZH, normnah zu SIA 500) war in Run 31
+  **gar nicht benannt** und ist neu aufgenommen; die Run-31-Tabelle zaehlte alle Dateien je Ordner,
+  die neue Liste nur PDFs — beide Zahlen sind richtig, sie messen Verschiedenes.
+  *Lehre: eine uebernommene Zaehlung ist keine verifizierte Zaehlung.*
+- **[abgrenzung, dokumentiert] Nicht aufgenommen, mit Begruendung je Bestand** — Minergie 79 und
+  eco 55 → KB `energie`, Teilungsplan STWEG 71 → Skill `stockwerkeigentum`, Projektadmin AHB 79
+  und Raumpilot/Neufert → keine Norm, `01_Gesetze` 180 → bereits Faktenbasis des Skills `baurecht`,
+  `Tiefgarage/1 VSS-Norm` → Mac-Mini-Scope, `08_Richtplan` → KB `planungsgrundlagen`,
+  `10 Lärmschutz` → enthaelt nur eine Verweisdatei. So taucht die Frage nicht ein drittes Mal auf.
+- **[cross-kb] Zwei Uebergaben geschrieben:** `wissen/energie/wiki/QUESTIONS.md` (neue Punkte
+  E-PL02-1 Minergie 79 / E-PL02-2 eco 55, plus abschliessender Beleg zu den drei nicht im Haus
+  liegenden Normen) und `skills/stockwerkeigentum/SKILL.md` (neuer Abschnitt «Bestand:
+  Teilungsplan-Empfehlungen auf SharePoint», 71 PDF, bisher in keiner KB gefuehrt).
+- **[loop-steuerung] Task-Prompt `normen-training-nacht` neu gefasst.** Neuer VORRANG-AUFTRAG vor
+  allem anderen: achte Verifikationsrunde fuer `lignum-lignatec-brandschutz.md` mit **rechnerischer
+  Zellaufnahme auch von Tab. 3 und Tab. 4** — genau die Asymmetrie, die in Run 36 drei Kernbefunde
+  erzeugt hat (die Methode war bisher nur auf Tab. 5 angewandt). Mit Endbedingung: keine
+  Kernbefunde ⇒ Quelle ausgereizt ⇒ Umstellung auf Ereignis-Trigger vorschlagen (nicht selbst
+  vornehmen). Zusaetzlich im Prompt verankert: das Lauf-Gate (Rule 260728), der Kollisionsschutz
+  (260724), `nas-commit-now` statt git ueber SMB (260726), der korrigierte Takt (1x taeglich statt
+  der veralteten Angabe «alle 2 Stunden») und die Methoden-Lehre aus Run 36.
+- **[beschaffung] Bestellliste der fehlenden Normtexte erstellt** (MD+DOCX+PDF, Ablage
+  `30 JANS AI HUB OUTPUT/normen/260729-Normen-Bestellliste/`). Preise an der jeweiligen
+  Shop-Produktseite abgelesen, nicht geschaetzt; nicht verifizierbare als «offen» ausgewiesen.
+  Stufe hoch CHF 550.00 (SIA 380/1:2016 200.00, SIA 118:2013 200.00, SIA 181:2020 150.00),
+  Stufe mittel CHF 554.00, Stufe tief 1 Preis unbestaetigt + 4 offen. **Nichts bestellt** — der
+  Kaufentscheid liegt bei Raphael.
+- **[fassungsstand, materiell — Nebenertrag der Preisrecherche] Zwei Bring-Schulden standen mit der
+  FALSCHEN Ausgabe im Register.** (a) `SIA 385/1`: die KB fuehrte die Ausgabe **2011** — die ist seit
+  31.10.2020 archiviert, gueltig ist **385/1:2020**; ein Kauf der 2011er (CHF 100.00) waere der
+  falsche gewesen. (b) `SN EN 12193`: die KB fuehrte die Ausgabe **2008** und die Nachfolgefrage
+  seit Run 30 als offen — sie ist beantwortet, gueltig ist **SN EN 12193:2019** (ab 01.08.2019,
+  ersetzt die 2008er). Beide Zeilen im Inventar nachgefuehrt.
+  *Lehre: der Beschaffungsvorgang ist selbst eine Fassungspruefung — die Shop-Produktseite nennt
+  Gueltigkeit und Vorgaenger und beantwortet damit Fragen, die im Register jahrelang offen stehen.*
+- **[posten entfaellt] VKF-Merkblatt 2003-15 ist KEIN Kaufposten** — es ist wie alle
+  VKF-Brandschutzvorschriften kostenlos ueber bsvonline.ch zu beziehen. Seit Run 32 stand es
+  faelschlich als Bring-Schuld auf der Liste; der Loop kann es selbst beschaffen.
+- **[kein handlungsbedarf] Grassenbiwak 2408:** Der Wettbewerb ist seit **23.05.2025** entschieden
+  (Jurybericht im Projektordner). Der Treppen-Befund aus Run 36 bleibt dort, wo der naechste Fall
+  ihn findet — Destillat `vkf-brl-16-15-flucht-rettungswege.md` und
+  `planungsgrundlagen/wiki/brandschutz-pl03-wegweiser.md` §4f. Keine Mail, keine Rueckfrage.
+
 ## 2026-07-29 — Normen-Run 37 (MacBook Pro, SIA/VKF): REGISTER-Stichprobe, 2013-Blindzone beziffert, fünf Register-Fehler behoben
 
 - **[register, Struktur] Die 2013-Blindzone ist erstmals beziffert statt nur beschrieben.** Der

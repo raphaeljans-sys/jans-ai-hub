@@ -2,6 +2,33 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-07-29 (Cross-KB normen → energie, Normen-Run 36) — 134 nie erfasste PDFs liegen in PL-02 und gehoeren hierher
+
+Angemeldet in der **Empfaenger-KB** (Regel aus Wissens-Chef Run 8). Auslöser: Umsetzung des
+PL-02-Strukturentscheids in der KB `normen` (Freigabe Raphael 29.07.2026). Das Normen-Inventar
+scannte bis dahin nur `PL - 02_Recht_Norm/02_Normen/`; in den uebrigen Ordnern liegen rund 680
+weitere PDFs. Beim Aufteilen fielen **zwei Bestaende dieser KB zu** — sie sind KEINE Normen und
+werden darum bewusst NICHT im Normen-Inventar gefuehrt:
+
+- [ ] **E-PL02-1 (P2): `PL - 02_Recht_Norm/06_Richtlinien/Minergie/` — 79 PDF.** Gebaeudestandard
+  Minergie/-P/-A/ECO. Unbekannt ist, welche Fassungen dort liegen und ob sie den heutigen Stand
+  abbilden (Minergie 2023er-Reglemente). Zu pruefen: Deckt die KB `energie` die Minergie-Familie
+  bereits aus anderen Quellen ab, oder ist das ein echter Bestandszugang? Vor dem Destillieren
+  Fassungsstand am Titelblatt klaeren (Methodik-Pflicht: Fassungsstand vor Werteabgleich).
+- [ ] **E-PL02-2 (P3): `PL - 02_Recht_Norm/04_Merkblätter/eco/` — 55 PDF.** eco-bau-Merkblaetter
+  (Oekologie/Bauprodukte). Vermutlich mit dem eco-bau-Bestand verwandt, den diese KB schon kennt —
+  Ueberschneidung pruefen, statt doppelt zu destillieren.
+
+Nicht angemeldet, aber zur Kenntnis: `06_Richtlinien/2000 Watt` (1 PDF) und `06_Richtlinien/SECO`
+(1 PDF) liegen im selben Bestand und koennten hierher gehoeren; sie sind im Normen-Inventar als
+«bei konkretem Bedarf einzeln nachziehen» vermerkt.
+
+**Weiterhin offen aus dem 27.07.-Eintrag (unveraendert, jetzt aber abschliessend belegt):**
+SIA 385/9:2023, SN EN 13487 und SN EN 12102-1 liegen definitiv NICHT im Haus — Normen-Run 36 hat
+den gesamten Bestand durchsucht (1'281 PDF nach Dateiname, 696 zusaetzlich nach Titelblatt).
+Externe Beschaffung noetig; eine weitere Bestandssuche eruebrigt sich.
+Beleg: `wissen/normen/outputs/2026-07-29_normen-nacht-run36.md`.
+
 ## Datenstand / Aktualisierung (hohe Prioritaet — altert schnell)
 - [x] **E-D5** U-Wert-Grenzwerte + Q_H,li belegt aus EN-102 (Dez 2018 / SIA 380/1:2009) ✓ 2026-06-06
   → `[[enfk-en-102-waermeschutz-2018]]`. Tab. 2/4/5 erfasst.

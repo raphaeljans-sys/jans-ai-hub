@@ -109,3 +109,17 @@ Flaeche**:
 - Quoten-Summe **immer** gegen 1000/1000 verifizieren — haeufigste Fehlerquelle.
 - Sonderrecht nie an zwingend gemeinschaftlichen Teilen ausweisen (Art. 712b ZGB).
 - Texterzeugnisse vor Ausgabe durch Skill `korrektur`.
+
+## Bestand: Teilungsplan-Empfehlungen auf SharePoint (Zugang 29.07.2026)
+
+Beim PL-02-Strukturentscheid der KB `normen` (Normen-Run 36) ist ein Bestand aufgetaucht, der
+fachlich hierher gehoert und in keiner KB gefuehrt wurde:
+
+**`~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/PL - 02_Recht_Norm/03_Arbeitshilfen/Teilungsplan Stockwerkeigentum Empfehlung/` — 71 PDF.**
+
+Er wurde bewusst NICHT ins Normen-Inventar aufgenommen (es sind keine Normen, sondern
+Teilungsplan-Empfehlungen/Arbeitshilfen). Vor dem naechsten STWEG-Auftrag lohnt sich ein Blick
+hinein — insbesondere fuer die Plandarstellung und die Abgrenzung Sonderrecht/gemeinschaftliche
+Teile, wo dieser Skill bisher allein aus dem ZGB argumentiert. Herausgeber und Fassungsstand sind
+am Titelblatt zu pruefen, bevor daraus zitiert wird (Rule `identifikatoren-verifizieren`).
+Beleg: `wissen/normen/training/norm-inventar.md`, Abschnitt «PL-02 Kern-Nachtrag».

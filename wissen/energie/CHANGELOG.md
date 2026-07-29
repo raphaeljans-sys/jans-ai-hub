@@ -2,6 +2,18 @@
 
 Neueste zuoberst.
 
+## 2026-07-29 (Cross-KB normen → energie, Normen-Run 36) — zwei Bestaende zugewiesen, drei Bring-Schulden abschliessend belegt
+- **[zugang] 134 nie erfasste PDFs in PL-02 gehoeren dieser KB:** `06_Richtlinien/Minergie` (79)
+  und `04_Merkblätter/eco` (55). Sie sind keine Normen und wurden darum bewusst NICHT ins
+  Normen-Inventar gezogen. Als E-PL02-1 (P2) und E-PL02-2 (P3) in `wiki/QUESTIONS.md` angemeldet,
+  je mit der Pflicht, vor dem Destillieren den Fassungsstand am Titelblatt zu klaeren und die
+  Ueberschneidung mit dem bereits bekannten eco-bau-Bestand zu pruefen.
+- **[belegt, schliesst eine Suche ab] SIA 385/9:2023, SN EN 13487 und SN EN 12102-1 liegen
+  definitiv nicht im Haus.** Normen-Run 36 hat den gesamten Bestand durchsucht (1'281 PDF nach
+  Dateiname, 696 zusaetzlich nach Titelblatt). Externe Beschaffung noetig; eine weitere
+  Bestandssuche eruebrigt sich. Beleg: `wissen/normen/outputs/2026-07-29_normen-nacht-run36.md`.
+- Geaendert: `wiki/QUESTIONS.md` (neuer Kopfeintrag).
+
 ## 2026-07-28 — Wissens-Chef Run 19 (Cross-KB): zwei materielle Korrekturen, eine davon bis zum Bauherrn
 - **[korrektur, materiell] Konzessionsdauer Grundwasserwaerme: 15-30 Jahre, nicht «kein Maximalwert».**
   `destillate/grundwasserwaermenutzung-bewilligung-zh-sz.md` erklaerte die Sekundaerquellen-Zahl
