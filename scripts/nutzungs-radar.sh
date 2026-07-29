@@ -196,6 +196,14 @@ cat <<FOOT
 - Ein Treffer belegt Verwendung im Gespraech, nicht Nutzen beim Kunden. Die
   zweite Haelfte des Growers (Wirkung beim Bauherrn) ist damit noch nicht
   gemessen — sie braucht ein Rueckmeldesignal, das der Hub heute nicht hat.
+- WICHTIG, sonst wird die Kaltliste falsch gelesen: gemessen wird, ob die
+  SKILL.md geladen wurde — nicht, ob die Faehigkeit erbracht wurde. Eine
+  Leistung kann auch ohne Skill-Load entstehen: direkt aus der CLAUDE.md-
+  Tabelle heraus, ueber einen Agenten (z.B. die linkedin-Agenten statt des
+  Skills marketing) oder von Hand. "Nie aufgerufen" heisst darum: die
+  Anleitung wurde nie gebraucht — was ein Hinweis auf einen ueberfluessigen
+  ODER auf einen vergessenen Skill ist. Welches von beidem, entscheidet der
+  Mensch, nicht dieses Script.
 
 Erzeugt von scripts/nutzungs-radar.sh
 FOOT

@@ -154,6 +154,21 @@ Arbeitsspeichers der jeweiligen Station.
 **Abgrenzung zum Gate:** Das Gate beantwortet «darf DIESER Lauf starten?» (ja/nein), das
 Script «wie viele Laeufe traegt die Station jetzt?» (eine Zahl).
 
+**Beide Pfade nachgemessen** (Lehre 28.07.: eine Schutzmechanik ist erst fertig, wenn
+Abweisungs- UND Freigabepfad je einmal belegt sind):
+- **Abweisung** — MacBook Pro, 3'820 MB frei bei Druck 2: «ABBRUCH: Speicherdruck 2 — die
+  Station swappt bereits.» Ursache des Drucks gemessen: zwei `tapir-archicad`-MCP-Prozesse
+  mit zusammen 2.8 GB (bereits als offener Punkt im Radar gefuehrt, nicht angetastet).
+- **Freigabe** — Mac Mini, 13'235 MB frei bei Druck 1, 0 aktive Laeufe: «Slots: 3 parallel
+  (Speicher traegt 3, Prozessdeckel erlaubt 3)» bei 4 Auftraegen. Rechnung stimmt:
+  (13'235 − 4'000) / 3'000 = 3, Deckel 3 − 0 = 3.
+- **Worktree-Mechanik** separat geprueft: anlegen aus dem SSD-Klon, Status-Pruefung,
+  Entfernen — alles sauber.
+
+`MAX_LAEUFE`, `MIN_FREI_MB` und `PRO_INSTANZ_MB` sind wie im Gate per Umgebungsvariable
+ueberschreibbar. Das **Druck-Kriterium bewusst nicht** — eine swappende Maschine soll sich
+nicht per Umgebungsvariable gesundschreiben lassen.
+
 ### 6. Wissen ablegen
 
 Neue KB `wissen/claude-code/` — Wissen ueber das Werkzeug, auf dem der Hub ruht:
@@ -179,9 +194,18 @@ Neue KB `wissen/claude-code/` — Wissen ueber das Werkzeug, auf dem der Hub ruh
    also **nicht**. Zu klaeren, ob das die produktiven Loops betrifft — siehe offene Punkte.
 2. **Cache-Creation dominiert die Kosten kleiner Laeufe.** Ein Testlauf mit dem Prompt
    «Antworte mit genau dem Wort: OK» erzeugte 89'618 Cache-Creation-Token und 0.54 USD —
-   bei 2 Input- und 4 Output-Token. Der Grundkontext ist der Kostentreiber, nicht die
-   Aufgabe. Das ist das staerkste Argument fuer die Kontext-Diaet und fuer wenige lange
-   statt vieler kurzer automatischer Laeufe.
+   bei 2 Input- und 4 Output-Token. Der zweite Lauf: 0.42 USD, 470 Sekunden, ein Turn, zwei
+   Zeichen Antwort. Der Grundkontext ist der Kostentreiber, nicht die Aufgabe. Das ist das
+   staerkste Argument fuer die Kontext-Diaet und dafuer, wenige lange statt vieler kurzer
+   automatischer Laeufe zu fahren.
+3. **Startzeit rund 7-8 Minuten je headless Lauf** (MCP-Server-Start). Bei Loops faellt das
+   nicht auf, macht aber jeden trivialen automatischen Lauf unwirtschaftlich.
+4. **Auch lesende git-Befehle haengen ueber SMB.** `git status --porcelain` gegen das
+   NAS-Repo lief in den 2-Minuten-Timeout, waehrend im Hintergrund ein Lauf und der
+   15-Min-Committer aktiv waren. Rule 260726 nennt nur schreibende Befehle — praezisiert
+   in `rules/betrieb-chronik.md`, Eintrag 260729.
+5. **Zwei verwaiste Claude-Worktrees** unter `.claude/worktrees/` (amazing-feistel,
+   jolly-brattain) auf einem alten Commit. Nicht angetastet, aber aufraeumenswert.
 
 ## Geaenderte und neue Dateien
 
