@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.07.2026 13:40:29
+Stand: 29.07.2026 13:50:38
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 29.07.2026 13:40:29
 - 4 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- 6c5f7b62 nas-selfcommit: 2 Datei(en) 2026-07-29 13:30
+- 7be45833 synobsis-batch: kein Batch (853/853 saturiert), Deaktivierung in Scheduled-Task-Registry nachvollzogen
