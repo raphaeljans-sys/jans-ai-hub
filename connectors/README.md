@@ -4,6 +4,38 @@ Hub-weite Connectoren zu externen Plattformen. Geodaten-Connectoren (geo-zh, geo
 geoshop) liegen beim Skill `planungsgrundlagen` — hier liegt, was keinem einzelnen
 Skill gehoert.
 
+## Werkzeug-Index (alle Connectoren des Hubs)
+
+Anthropic-Lecture 29.07.2026, Tip #3 «teach Claude to use your tools»: ein Werkzeug nuetzt
+nur, wenn Claude es kennt. Diese Tabelle ist der eine Ort, an dem **jeder** Connector steht —
+auch die, die bei einem Skill liegen. Neue Connectoren gehoeren hier eingetragen.
+
+**Konvention:** Jeder Connector wird mit `node <pfad> --hilfe` (bzw. `--help`) selbst
+befragt, bevor er benutzt wird. Die Flags unten sind der Einstieg, nicht die Referenz.
+Pfade relativ zu `/Volumes/daten/jans-ai-hub/`.
+
+| Connector | Zweck | Einstiegs-Flags | Zugang |
+|---|---|---|---|
+| `connectors/zefix.mjs` | Handelsregister CH, Firmen-/Namensprüfung | `--firm` `--available` `--search` `--canton` | Basic-Auth `~/.zefix.env` |
+| `connectors/bexio.mjs` | Debitoren, Offene Posten, Mahnwesen, Kontierung | `--offen` `--verzug` `--mahnen` (ohne `--ja` Trockenlauf) `--buchen` | PAT `~/.bexio.env` |
+| `connectors/claude-usage.mjs` | Auslastung des Claude-Abos ohne Browser | `--alles` `--lokal` `--json` | keiner |
+| `connectors/ebaugesuche-zh.mjs` | Verfahrensstand eigener Baugesuche Kt. ZH | `--liste` `--bericht` `--status` `--refresh` | Playwright-Login, Session ~10 Tage |
+| `connectors/truninger-ds3.mjs` | Projektraum DS3 (KISPI), nur lesend | `--ls` `--suche` `--holen` `--spiegeln` | `~/.truninger-ds3.env` |
+| `connectors/icloud-mail.py` | iCloud-Mail lesen/senden (privat) | `--query` `--folder` `--attach` `--to` | Keychain |
+| `connectors/versand/*.mjs` | Versand/Route Onlineshop (Skill parkiert) | siehe Abschnitt unten | je Dienst |
+| `skills/planungsgrundlagen/connectors/geo-zh.mjs` | Kt. ZH: EGRID, OEREB, Kataster, Zonenplan | `--adresse` `--egrid` `--oereb` `--produkt` | keiner |
+| `skills/planungsgrundlagen/connectors/geo-sz.mjs` | Kt. SZ: OEREB, Parzellensuche | `--parzelle` `--gemeinde` `--oereb` `--egrid` | keiner |
+| `skills/planungsgrundlagen/connectors/geoshop-zh.mjs` | Kt. ZH Geoshop: amtliche Produkte bestellen | `--produkt` `--gemeinde` `--order` `--list` | E-Mail-Bestellweg |
+| `skills/planungsgrundlagen/connectors/behoerden-zh.mjs` | Amtliche Formulare/Merkblaetter ZH spiegeln | `--list` `--check` `--sync` `--amt` | keiner |
+| `skills/planungsgrundlagen/connectors/gwr-bund.mjs` | Gebaeude-/Wohnungsregister Bund (EGID) | `--adresse` `--egid` `--egrid` | keiner |
+| `skills/unternehmerfindung/connectors/geo-maps.mjs` | Naechste Firmen je Gewerk am Bauplatz | `--gewerk` `--bkp` `--adresse` `--radius` | OSM frei, Google optional |
+| `skills/baurecht/connectors/recht-ch.mjs` | Erlasse/BZO beschaffen, OCR, Seed | `--erlass` `--bzo` `--list` `--ocr` | keiner |
+| `skills/volumenstudie/tools/render-remote.sh` | C4D-Rendering auf dem Mac Mini (Lizenz dort) | Pflichtweg fuer JEDE C4D-Arbeit | ssh Mini |
+| `.mcp.json` → `scripts/m365-mcp-server.sh` | Microsoft 365 (SharePoint/OneDrive/Outlook) | MCP-Tools `m365_*` | Zertifikat `~/.cli-m365-cert-combined.pem` |
+
+Bei fehlender Allowlist-Freigabe den Connector direkt in `.claude/settings.json` ergaenzen
+(Rule 260609) — nie am Werkzeug vorbei improvisieren.
+
 ## zefix.mjs — Zentraler Firmenindex (Handelsregister CH)
 
 Fragt den schweizweiten Handelsregister-Index **Zefix** ueber die offizielle **Zefix

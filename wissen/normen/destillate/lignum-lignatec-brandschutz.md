@@ -135,9 +135,10 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
   dem der Feuerwehr dienenden angrenzenden Terrain bzw. > 25 m Traufhöhe (Ziff. 1.4.2, S. 6).
 
 **Brandschutzkonzepte (Ziff. 1.5, S. 6)**
-- Standardkonzept (Ziff. 1.5.1): Schutzziel wird mit vorgeschriebenen Standardmassnahmen
-  erreicht; zwei Varianten — Bauliches Brandschutzkonzept (Anforderungen an Feuerwiderstand/
-  Brennbarkeit richten sich nach Lage, Geschosszahl, Nutzung, Ausdehnung) und Sprinklerkonzept
+- Standardkonzept (Ziff. 1.5.1): im Normalfall wird das Schutzziel mit vorgeschriebenen
+  Standardmassnahmen erreicht; zwei Varianten — Bauliches Brandschutzkonzept (Anforderungen an
+  Feuerwiderstand/Brennbarkeit richten sich insbesondere nach Lage, Geschosszahl, Nutzung,
+  Ausdehnung von Bauten und Anlagen oder Brandabschnitten) und Sprinklerkonzept
   (soweit Sprinkleranlagen nicht ohnehin vorgeschrieben sind, können sie bei bestimmten
   Gebäudenutzungen bis zur Hochhausgrenze ohne rechnerischen Nachweis bei der Festlegung des
   Feuerwiderstands von Tragwerken sowie brandabschnittbildender Wände/Decken berücksichtigt
@@ -157,8 +158,9 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
   c) keine unverhältnismässigen Schäden in angrenzenden Brandabschnitten.
 - Tragwerke in Untergeschossen müssen den gleichen Feuerwiderstand aufweisen wie die
   überirdischen Geschosse, mindestens aber R60(nbb) (S. 7).
-- Massgebend für den Feuerwiderstand: Geschosszahl, immobile/mobile Brandbelastung, Bauart/
-  Lage/Ausdehnung/Nutzung; Sprinkleranlagen können angemessen berücksichtigt werden (S. 7).
+- Massgebend für den Feuerwiderstand sind insbesondere: Geschosszahl, immobile/mobile
+  Brandbelastung, Bauart/Lage/Ausdehnung/Nutzung; Sprinkleranlagen können angemessen
+  berücksichtigt werden (S. 7).
 
 **Brandabschnitte (Ziff. 2.2, S. 7)**
 - Begriff: Brandabschnitte sind durch brandabschnittbildende Bauteile voneinander getrennte
@@ -179,14 +181,18 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
   1200 m² nbb»⑤ · 2 «über 600 m² bb / über 1200 m² nbb»⑤ · 3 · 4 · 5-6 · 7-8 ohne Hochhäuser;
   die m²-Grenze richtet sich je Spalte danach, ob das Tragwerk brennbar (bb) oder nicht
   brennbar (nbb) ist, Fussnote ⑤) und Nutzung (Wohnbauten
-  MFH/Büro/Schulbauten, Industrie-/Gewerbebauten q≤1000 bzw. >1000 MJ/m², Beherbergungsbetriebe
+  MFH/Büro/Schulbauten, Industrie-/Gewerbebauten q≤1000 MJ/m², Industrie-/Gewerbebauten
+  >1000 MJ/m² gemeinsam mit «Bauten mit unbekannter Nutzung» in EINER Zeile (gilt in Tab. 3,
+  4 und 5 gleichermassen; Refuter-Korrektur 260729 Run 36), Beherbergungsbetriebe
   Typ a/Krankenhäuser und Typ b/Hotels, Bauten mit grosser Personenbelegung/Verkaufsgeschäfte,
   Parkhäuser/Einstellräume, Verkaufsgeschäfte ≤1200 m²/≤100 P, Landwirtschaftliche Bauten,
   Wohnbauten EFH/REFH), je Konzept Baulich/Sprinkler, mit Feuerwiderstand für Tragwerk und
   Brandabschnitt. Repräsentative Eckwerte:
   - Wohnbauten MFH bis 2 Geschossen/600 m²: keine Anforderung (1 und oberstes Geschoss, für
-    beide Konzepte) bzw. Mindestkantenabmessung (2 Geschosse bis 600 m² bb) bzw. R30 mit
-    Mindestkantenabmessung (2 Geschosse über 600 m² bb); Brandabschnitt EI30.
+    beide Konzepte) bzw. Mindestkantenabmessung (2 Geschosse bis 600 m² bb) bzw. R30 (baulich)/
+    Mindestkantenabmessung (Sprinkler) bei 2 Geschossen über 600 m² bb — zwei alternative
+    Konzeptwerte in zwei Teilzeilen, keine kombinierte Anforderung (Refuter-Korrektur 260729
+    Run 36); Brandabschnitt EI30.
   - Wohnbauten MFH 3 Geschosse: Tragwerk R30 (baulich)/Mindestkantenabmessung (Sprinkler),
     Brandabschnitt EI30. Wohnbauten MFH 4 Geschosse: Tragwerk R60 (baulich)/R30 (Sprinkler);
     Brandabschnitt EI60② (baulich)/EI30② (Sprinkler).
@@ -315,8 +321,11 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
     260727 Runde 3: im Original steht ein Schrägstrich, nicht der Bindestrich der korridorseitigen
     Notation) bzw. EI60-EI30(nbb)②③ (Sprinkler, hier korrekt mit Bindestrich = nur fluchtwegseitig
     verkleidet). Erst
-    bei 7-8 Geschossen: Treppenhaus REI60(nbb), Korridor EI60(nbb) (blau, keine Holzbauteile
-    als Standardkonzept).
+    bei 7-8 Geschossen wird auch der Korridor EI60(nbb) (blau, keine Holzbauteile als
+    Standardkonzept); das Treppenhaus trägt REI60(nbb) dagegen bereits ab 4 Geschossen und ist
+    dort schon blau (Refuter-Korrektur 260729 Run 36: die frühere Formulierung «Erst bei 7-8
+    Geschossen: Treppenhaus REI60(nbb), Korridor EI60(nbb)» widersprach der zwei Zeilen zuvor
+    korrekt festgehaltenen Aussage; am Original S. 13 nachgeprüft).
   - Beherbergungsbetriebe (Krankenhäuser): durchgehend EI60(nbb)/REI60(nbb) (Standardkonzept
     ohne Holzbauweise, blau hinterlegt).
   - Wohnbauten EFH/REFH: «Keine Anforderung» durchgehend (Fussnote ①: bei Einfamilienhäusern
@@ -332,11 +341,11 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
 
 **Allgemeine Angaben (Ziff. 4.1, S. 14)**
 - Baustoffe werden über genormte Prüfungen oder VKF-anerkannte Verfahren klassiert.
-  Massgebende Kriterien: Brand- und Qualmverhalten, brennendes Abtropfen/Abfallen,
-  Wärmefreisetzung.
+  Massgebende Kriterien sind insbesondere: Brand- und Qualmverhalten, brennendes Abtropfen/
+  Abfallen, Wärmefreisetzung.
 - Brandkennziffer (BKZ) = Brennbarkeitsgrad (erste Zahl) + Qualmgrad (zweite Zahl).
 - Brennbare Baustoffe dürfen nur verwendet werden, wenn sie zu keiner unzulässigen
-  Gefahrenerhöhung führen. Massgebend: a) Brand-/Qualmverhalten, brennendes Abtropfen/Abfallen,
+  Gefahrenerhöhung führen. Massgebend sind insbesondere: a) Brand-/Qualmverhalten, brennendes Abtropfen/Abfallen,
   Wärmefreisetzung, Entwicklung gefährlicher Brandgase, b) Art und Umfang der Verwendung,
   c) Personenbelegung, d) Geschosszahl, e) Bauart, Lage, Ausdehnung, Nutzung von Bauten,
   Anlagen oder Brandabschnitten.
