@@ -3,45 +3,64 @@
 Der Hub misst hier zum ersten Mal nicht, was er produziert, sondern was
 tatsaechlich verwendet wird.
 
-Skills im Bestand: 50 · benutzt: 46 · kalt: 4
-Mac Mini: einbezogen (78 Signale)
+Skills im Bestand: 50 · wirklich aufgerufen: 24 · nie aufgerufen: 26
+davon nur erwaehnt (Inventar-/Audit-Spur, kein Aufruf): 22
+Mac Mini: einbezogen (91 Signale)
 Deliverables: OUTPUT-Ordner nicht erreichbar (OneDrive nicht gemountet)
 
-## 1. Benutzte Skills (nach Haeufigkeit)
+Zwei Signalklassen, bewusst getrennt: AUFGERUFEN heisst Skill-Werkzeug oder
+Read auf die SKILL.md — der Skill hat tatsaechlich gearbeitet. ERWAEHNT heisst,
+der Pfad kam irgendwo vor (Inventar-Lauf, Aufzaehlung, Zitat). Ohne diese
+Trennung gilt jeder Skill als benutzt, den ein Audit-Lauf einmal aufgelistet
+hat — und die Kaltliste ist leer, obwohl nichts genutzt wird.
 
-| Skill | Rolle | Sessions | zuletzt |
+## 1. Aufgerufene Skills (harte Nutzung)
+
+| Skill | Rolle | Aufrufe | zuletzt | nur erwaehnt |
+|---|---|---|---|---|
+| wissenscheck | maintainer | 30 | 2026-07-25 | 12 |
+| korrektur | sweeper | 18 | 2026-07-28 | 3 |
+| hub-chef | maintainer | 8 | 2026-07-28 | 24 |
+| wissens-destillat | sweeper | 7 | 2026-07-28 | 14 |
+| kostenschaetzung | builder | 3 | 2026-07-25 | 8 |
+| spec | prototyper | 3 | 2026-07-20 | 104 |
+| ausschreibung | builder | 2 | 2026-07-24 | 3 |
+| brandschutz | builder | 2 | 2026-07-28 | 4 |
+| pendenzenliste | maintainer | 2 | 2026-07-23 | 4 |
+| wettbewerb | prototyper | 2 | 2026-07-15 | 18 |
+| behoerden-vorabklaerung | prototyper | 1 | 2026-07-28 | 8 |
+| grobkosten-onepager | prototyper | 1 | 2026-07-25 | 5 |
+| healthcare-wirtschaftlichkeit | prototyper | 1 | 2026-07-25 | 8 |
+| honorarberechnung-sia102 | builder | 1 | 2026-07-15 | 1 |
+| logbuch | maintainer | 1 | 2026-07-17 | 21 |
+| mahnwesen | maintainer | 1 | 2026-07-20 | 16 |
+| normen | builder | 1 | 2026-07-15 | 5 |
+| offertenpruefung | builder | 1 | 2026-07-17 | 2 |
+| pdf2dwg | builder | 1 | 2026-07-21 | 3 |
+| planungsgrundlagen | builder | 1 | 2026-07-22 | 22 |
+| synergie-orchestrator | grower | 1 | 2026-07-28 | 11 |
+| tenant-hygiene | maintainer | 1 | 2026-07-28 | 6 |
+| terminplanung | builder | 1 | 2026-07-25 | 10 |
+| volumenstudie | prototyper | 1 | 2026-07-14 | 18 |
+
+## 2. Kaltliste — nie aufgerufen
+
+Diese Skills existieren, haben in der Messreichweite aber nie gearbeitet.
+Das ist kein Urteil ueber ihre Qualitaet: ein Skill kann fachlich gut und
+trotzdem ungenutzt sein, weil der Anlass fehlte. Es ist die Liste, ueber
+die entschieden werden muss — behalten, zusammenlegen oder stilllegen.
+Die Spalte "erwaehnt" zeigt, ob der Skill wenigstens im Blickfeld war.
+
+| Skill | Rolle | erwaehnt | zuletzt erwaehnt |
 |---|---|---|---|
-| spec | prototyper | 106 | 2026-07-28 |
 | marketing | grower | 52 | 2026-07-28 |
-| wissenscheck | maintainer | 35 | 2026-07-28 |
-| hub-chef | maintainer | 24 | 2026-07-28 |
-| planungsgrundlagen | builder | 22 | 2026-07-27 |
-| korrektur | sweeper | 21 | 2026-07-28 |
-| logbuch | maintainer | 21 | 2026-07-28 |
-| volumenstudie | prototyper | 18 | 2026-07-28 |
-| wettbewerb | prototyper | 18 | 2026-07-28 |
 | zahlungsabgleich | maintainer | 18 | 2026-07-28 |
-| mahnwesen | maintainer | 16 | 2026-07-28 |
 | twin | sweeper | 15 | 2026-07-28 |
-| wissens-destillat | sweeper | 15 | 2026-07-28 |
 | auflagebereinigung | maintainer | 11 | 2026-07-27 |
-| synergie-orchestrator | grower | 11 | 2026-07-28 |
-| terminplanung | builder | 10 | 2026-07-28 |
-| behoerden-vorabklaerung | prototyper | 9 | 2026-07-28 |
-| healthcare-wirtschaftlichkeit | prototyper | 8 | 2026-07-28 |
-| kostenschaetzung | builder | 8 | 2026-07-28 |
 | machbarkeit | prototyper | 7 | 2026-07-28 |
-| tenant-hygiene | maintainer | 6 | 2026-07-28 |
-| grobkosten-onepager | prototyper | 5 | 2026-07-25 |
 | machbarkeit-studio | prototyper | 5 | 2026-07-25 |
-| normen | builder | 5 | 2026-07-25 |
-| ausschreibung | builder | 4 | 2026-07-24 |
-| brandschutz | builder | 4 | 2026-07-28 |
-| pendenzenliste | maintainer | 4 | 2026-07-23 |
 | massgebendes-terrain | builder | 3 | 2026-07-28 |
 | oereb-schwyz | builder | 3 | 2026-07-25 |
-| offertenpruefung | builder | 3 | 2026-07-25 |
-| pdf2dwg | builder | 3 | 2026-07-25 |
 | unternehmerfindung | builder | 3 | 2026-07-25 |
 | workstation-setup | maintainer | 3 | 2026-07-28 |
 | ankaufspruefung | builder | 2 | 2026-07-19 |
@@ -52,25 +71,14 @@ Deliverables: OUTPUT-Ordner nicht erreichbar (OneDrive nicht gemountet)
 | stockwerkeigentum | builder | 2 | 2026-07-19 |
 | studien-generator | builder | 2 | 2026-07-21 |
 | website-content | grower | 2 | 2026-07-25 |
-| honorarberechnung-sia102 | builder | 1 | 2026-07-15 |
 | protokoll | builder | 1 | 2026-07-19 |
 | unternehmerkontrolle | maintainer | 1 | 2026-07-19 |
 | versandplanung | - | 1 | 2026-07-19 |
 | werkvertrag | builder | 1 | 2026-07-19 |
-
-## 2. Kaltliste — kein einziges Nutzungssignal
-
-Diese Skills existieren, wurden in der Messreichweite aber nie verwendet.
-Das ist kein Urteil ueber ihre Qualitaet: ein Skill kann fachlich gut und
-trotzdem ungenutzt sein, weil der Anlass fehlte. Es ist die Liste, ueber
-die entschieden werden muss — behalten, zusammenlegen oder stilllegen.
-
-| Skill | Rolle |
-|---|---|
-| email-preferences | - |
-| heartbeat | maintainer |
-| masterclass | sweeper |
-| telesales | grower |
+| email-preferences | - | 0 | - |
+| heartbeat | maintainer | 0 | - |
+| masterclass | sweeper | 0 | - |
+| telesales | grower | 0 | - |
 
 ## 3. Sweeper — Konsolidierungs-Kandidaten
 
@@ -78,7 +86,11 @@ Namensverwandte Skills (gemeinsamer Wortstamm). Wo beide kalt sind, ist eine
 Zusammenlegung zu pruefen; wo einer warm und einer kalt ist, ist der kalte
 vermutlich im warmen aufgegangen.
 
-- machbarkeit: machbarkeit(warm) machbarkeit-studio(warm)
+- machbarkeit: machbarkeit(kalt) machbarkeit-studio(kalt)
+
+Zusaetzlich pruefenswert: jeder kalte Skill, dessen Rolle im Hub bereits
+mehrfach besetzt ist. Die Rollen-Bilanz (scripts/rollen-bilanz.sh) zeigt,
+wo Ueberbesetzung vorliegt.
 
 ## 4. Messgrenzen
 

@@ -81,11 +81,15 @@ druck() {
 laufende() { pgrep -f "claude (-p|--print)" 2>/dev/null | wc -l | tr -d ' '; }
 
 # Stations-Politik: dieselben Werte wie im Gate, plus der Bedarf je Instanz.
+# Ueberschreibbar wie im Gate (MAX_LAEUFE/MIN_FREI_MB) — das Druck-Kriterium bewusst
+# NICHT: eine swappende Maschine soll sich nicht per Umgebungsvariable gesundschreiben
+# lassen. Wer den Deckel senken will, nimmt --slots.
 case "$STATION" in
-    Macbookpro) MAX_LAEUFE=2; MIN_FREI_MB=3000; PRO_INSTANZ_MB=3000 ;;
-    Macmini)    MAX_LAEUFE=3; MIN_FREI_MB=4000; PRO_INSTANZ_MB=3000 ;;
-    *)          MAX_LAEUFE=2; MIN_FREI_MB=3000; PRO_INSTANZ_MB=3000 ;;
+    Macbookpro) MAX_LAEUFE="${MAX_LAEUFE:-2}"; MIN_FREI_MB="${MIN_FREI_MB:-3000}" ;;
+    Macmini)    MAX_LAEUFE="${MAX_LAEUFE:-3}"; MIN_FREI_MB="${MIN_FREI_MB:-4000}" ;;
+    *)          MAX_LAEUFE="${MAX_LAEUFE:-2}"; MIN_FREI_MB="${MIN_FREI_MB:-3000}" ;;
 esac
+PRO_INSTANZ_MB="${PRO_INSTANZ_MB:-3000}"
 
 FREI=$(frei_mb); DRUCK=$(druck); AKTIV=$(laufende)
 

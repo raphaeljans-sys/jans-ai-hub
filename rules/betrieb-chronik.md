@@ -181,6 +181,21 @@ automatically or lazily?»). Konzept:
   statt interpretiert.
 - **Gilt fuer:** alle Lern-/Trainings-Loops auf beiden Stationen, ab 27.07.2026.
 
+## 260729 — Auch LESENDE git-Befehle haengen ueber SMB
+
+- **Praezisierung zu Rule 260726:** Die Rule verbietet `commit`/`push`/`pull`/`rebase` ueber
+  den SMB-Mount. Gemessen 29.07.2026: auch ein reines `git status --porcelain` gegen
+  `/Volumes/daten/jans-ai-hub` lief in den 2-Minuten-Timeout, waehrend im Hintergrund ein
+  `claude -p`-Lauf und der 15-Min-Committer aktiv waren. Lesende Befehle sind also nicht
+  automatisch sicher — sie treffen dieselbe `.git/index.lock` und dieselbe SMB-I/O-Latenz.
+- **Konsequenz:** Fuer den Zustand des NAS-Repos nicht `git status` ueber den Mount aufrufen,
+  sondern entweder den nativen Weg (`ssh` auf die Synology) nehmen oder — im Normalfall
+  ausreichend — gar nicht fragen und einfach `scripts/nas-commit-now.sh "<Message>"`
+  ausloesen; der native Committer ermittelt den Zustand selbst auf ext4. Haengt ein solcher
+  Befehl doch einmal, NICHT wiederholen (jeder Versuch bindet einen weiteren
+  uninterruptiblen Prozess), sondern auf den nativen Weg wechseln.
+- **Gilt fuer:** jede Session und jeden Loop, jeder git-Zugriff aufs NAS-Repo ueber den Mount.
+
 ## 260725 — Vollgas wieder aktiv: Drossel aufgehoben, Endlos-Runner beidseitig neu gestartet
 
 - **Regel:** Auf ausdrueckliche Anweisung Raphaels (25.07.2026) ist der Drosselzustand vom
