@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.07.2026 07:17:51
+Stand: 29.07.2026 07:27:54
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 29.07.2026 07:17:51
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6cb510a0 nas-selfcommit: 2 Datei(en) 2026-07-29 07:15
+- aa9f1c61 vollgas-fruehwarnung 29.07. 07:15: STILL (keine Mail) — Blockade sauber, Briefing 07:07 versendet, Radar lebt; Strukturbefund: Destillat-Loop seit 24h ohne erreichenden Taktgeber (wissen/bauprodukte hat keine training/PROGRAMM.md, Nachtschicht-Prioritaet 4 findet ihn nicht)

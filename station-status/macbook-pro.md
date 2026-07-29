@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.07.2026 07:14:46
+Stand: 29.07.2026 07:24:54
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:05)
@@ -13,4 +13,4 @@ Stand: 29.07.2026 07:14:46
 - 3 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- 3ffe933c logbuch-radar 29.07.: RE-00100 Kreditorenretour, Auflage II.1.b geklaert, Los 273.35 Positionsliste, Termine 06.08./13.08.
+- aa9f1c61 vollgas-fruehwarnung 29.07. 07:15: STILL (keine Mail) — Blockade sauber, Briefing 07:07 versendet, Radar lebt; Strukturbefund: Destillat-Loop seit 24h ohne erreichenden Taktgeber (wissen/bauprodukte hat keine training/PROGRAMM.md, Nachtschicht-Prioritaet 4 findet ihn nicht)
