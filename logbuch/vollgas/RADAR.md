@@ -30,6 +30,74 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-07-29 03:00 — [FREI] Raphael hat die drei offenen Entscheide freigegeben: Endlos-Runner ausgebaut, ArchiCAD-MCP beendet, Mittags-Slot als Versuch. Die Runner-Aera ist zu Ende
+
+**Selbstkontrolle:** letzter Eintrag 01:00, dieser Lauf 03:00 — interaktiv ausgeloest durch
+Raphael (Frage nach offenen Eingaben), nicht der 3-h-Takt. Kein verpasster Lauf.
+
+**Fensterzustand: FREI.** Unveraendert seit 01:00, keine neue Probe noetig.
+
+**Alle drei seit dem 27.07. wiederholt vorgelegten Punkte sind entschieden und vollzogen.**
+Vorgelegt als Plan mit Optionen, Freigabe der empfohlenen Variante.
+
+**Entscheid 1 (1A) — ArchiCAD-MCP beendet, aber der Gewinn ist ein Achtel des erwarteten.**
+PID 1405/1406 (`archicad-server`, tapir-archicad-MCP) beendet, ArchiCAD lief nicht.
+Erwartet waren nach der `top`-MEM-Anzeige (2x 1424 MB) rund 2,8 GB. Gemessen ueber `vm_stat`
+free+inactive+purgeable: **3672 MB vorher, 4010 MB nachher — plus 338 MB.** Der Rest lag
+komprimiert (Compressor 5324 MB, Swap 399 von 1024 MB belegt).
+**Dritte Messfalle derselben Familie, und die feinste:** `ps`-RSS zeigt komprimierten Speicher
+gar nicht, `top`-«unused» ist nie der verfuegbare Speicher — und der `top`-MEM-Wert eines
+Prozesses ist sein **Footprint**, nicht der Speicher, der beim Beenden frei wird. Wer eine
+Aufraeum-Massnahme mit der Footprint-Zahl begruendet, verspricht das Achtfache dessen, was sie
+liefert. In die Messdisziplin beider Aufsichts-Tasks aufgenommen. Der Server ist beim naechsten
+Start der Claude-App wieder da; ob er dauerhaft aus der Desktop-Config soll (Option 1B), haengt
+daran, wie oft die ArchiCAD-Werkzeuge gebraucht werden — offen, aber nicht dringend.
+
+**Entscheid 2 (2A) — der VOLLGAS-Endlos-Runner ist ausgebaut.** Vollzogen und verifiziert:
+
+| Ort | MacBook Pro | Mac Mini |
+|---|---|---|
+| `ch.jans.vollgas-supervisor` | bootout rc 0, plist → `.disabled-260729` | bootout rc 0, plist → `.disabled-260729` |
+| `ch.jans.vollgas-monitor` (alle 15 s) | bootout rc 0, plist → `.disabled-260729` | existierte dort nicht |
+| `launchctl list \| grep vollgas` | leer | leer |
+| Runner-Prozess | keiner | keiner |
+
+Damit endet ein Mechanismus, der historisch mehr Vorfaelle verursacht als Ertrag geliefert hat:
+er unterlief die bewusst gewaehlten Loop-Takte, verbrauchte am 25.07. 53 Mio teure Tokens und
+fuehrte in den 35-Stunden-Totalausfall. Seit dem 27.07. lag er ohnehin still, waehrend der
+Supervisor alle 180 Sekunden und der Monitor alle 15 Sekunden ins Leere liefen.
+
+**Die drei Orte sind nachgezogen, nicht nur der eine** (Rule «Deaktivierung braucht ALLE Orte»):
+- launchd auf beiden Stationen (oben);
+- beide STOP-Dateien tragen jetzt oben den Vollzug und die Klarstellung, dass ihr Entfernen
+  **nichts mehr startet** — die alten Entfernungs-Bedingungen waren eine Falle fuer den naechsten
+  Leser, sie sind ausdruecklich fuer gegenstandslos erklaert;
+- die Aufsichts-Tasks selbst: `vollgas-chef-radar` startet den Runner nicht mehr (Schritt 3 ist
+  neu «Feuermechanismen pruefen»), und beide Tasks messen neu den **Liefer-Delta** je Loop statt
+  Runner-Logs, die nie wieder frisch werden. `vollgas-fruehwarnung` empfiehlt als Drosselweg
+  nicht mehr die STOP-Datei, sondern `enabled=false` am betroffenen Task.
+
+**Entscheid 3 (3A) — Versuchs-Slot 13:30 auf dem Mac Mini, und dabei die Falle vermieden.**
+Der Slot allein waere **wirkungslos** geblieben: `nachtschicht-run.sh` beendet sich zwischen
+09:00 und 18:00 selbst — der Job haette gefeuert, sich still beendet und im Log ausgesehen wie
+ein gesunder Lauf. Beide Orte geaendert: launchd-Slot 13:30 ergaenzt (PlistBuddy, `plutil -lint`
+OK, Backup `.bak-3x-260729`) UND die Fenster-Ausnahme `MITTAG_SLOT=13` im Script, mit
+dokumentiertem Rueckbau ueber beide Orte. Guard-Logik simuliert: 8/13/19 Uhr laufen, 10/14 Uhr
+beenden sich. Die **geladene** Definition ist gegengeprueft (`launchctl print`), nicht nur die
+Datei: 23:30 / 02:30 / 05:30 / **13:30**.
+Befristet auf eine Woche; `vollgas-fruehwarnung` weist danach aus, ob der Slot geliefert hat und
+ob das Lauf-Gate ihn je abgewiesen hat — Grundlage fuer Deinen Entscheid, ob er bleibt.
+
+**P1 — offen bis zum Commit: die SSD-Vorrang-Falle.** Der launchd-Job auf dem Mini nimmt
+`$HOME/Developer/jans-ai-hub/scripts/nachtschicht-run.sh` **vor** der NAS-Fassung. Meine
+Script-Aenderung liegt auf dem NAS und wird erst nach `nas-commit-now` und dem Pull des
+Mini-Klons wirksam. Wird das versaeumt, feuert der 13:30-Slot heute in die alte Fassung und
+beendet sich still. Unmittelbar nach diesem Eintrag gesichert und auf dem Mini gegengeprueft.
+
+**Liefer-Delta: unveraendert seit 01:00**, keine Massnahme. Die dort gestellte Vorhersage zu
+`twin-mail-training` (03:39) und `twin-fidelity-review` (05:44) ist noch offen — der naechste
+Lauf prueft sie.
+
 ## 2026-07-29 01:00 — [FREI] Das Nachtfenster traegt (drei Laeufe, drei Ergebnisse). Aber zwei Twin-Loops haben am 28.07. NICHTS geliefert — die Registry meldet sie trotzdem als gelaufen
 
 **Selbstkontrolle:** letzter Eintrag 28.07. 22:00, dieser Lauf 29.07. 00:57 — 3,0 h bei

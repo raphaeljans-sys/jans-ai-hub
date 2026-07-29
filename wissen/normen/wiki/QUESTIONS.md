@@ -1,19 +1,25 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
-## Run 36 (MacBook Pro, 28.07.2026) — die 2013-Blindzone beziffert, fünf Register-Fehler belegt, Lignum-Frage entschieden
+## Run 37 (MacBook Pro, 29.07.2026) — die 2013-Blindzone beziffert und fünf Register-Fehler belegt
 
-**Ausgangslage.** Der Cross-KB-Eintrag vom 27.07. (direkt unter diesem Abschnitt) hat den Einzelfall
-SIA 385/9 geflaggt und dazugeschrieben, eine **Stichprobe wäre ergiebiger als der Einzelfall**. Run 36
-hat genau das gemacht: alle 248 SIA-Zeilen des Register-Abschnitts A maschinell gegen den realen
-Dateibestand abgeglichen, die Verdachtsfälle danach von neun Agenten **am Titelblatt des Originals**
-verifiziert.
+**Ausgangslage.** Der Cross-KB-Eintrag vom 27.07. hat den Einzelfall SIA 385/9 geflaggt und
+dazugeschrieben, eine **Stichprobe wäre ergiebiger als der Einzelfall**. Run 37 hat genau das
+gemacht: alle 248 SIA-Zeilen des Register-Abschnitts A maschinell gegen den realen Dateibestand
+abgeglichen, die Verdachtsfälle danach von neun Agenten **am Titelblatt des Originals** verifiziert.
+Schwerpunkt ist damit das REGISTER — eine Ebene, die Run 36 nicht berührt hat.
+
+**⚠ Zweitinstanz-Kollision (Lehre dieses Laufs).** Dieser Lauf startete, als Run 36 noch lief, und
+vergab zunächst selbst die Nummer 36 — derselbe Fehler wie am 25.07. bei Nummer 21. Erst beim
+Nachführen von `destillate/INDEX.md` fiel auf, dass Run 36 (abgeschlossen 29.07. 02:09) bereits die
+siebte Lignum-Runde gefahren hatte. Alle Einträge dieses Laufs wurden nachträglich auf **Run 37**
+umnummeriert. **Die Regel aus PROGRAMM.md («Run-Nummer erst nach Sicht der jüngsten `outputs/`-Datei
+belegen») wurde befolgt — sie genügt aber nicht, wenn der Vorlauf noch läuft und seine Datei erst
+später schreibt.** Nötig ist zusätzlich eine Prüfung **am Ende** des Laufs, unmittelbar vor dem
+Schreiben, sowie der `ps`-Zweitinstanz-Check (Rule 260724), der hier zwar lief, aber nur einen
+gleichnamigen Prozess sucht und einen bereits beendeten Vorlauf nicht findet.
 
 ### Geschlossen
 
-- [x] **Lignum-Taktungsfrage (offen seit Run 34, dreimal vorgelegt) — Entscheid Raphael 28.07.2026:**
-  beide Lignum-Destillate werden als «speculative, stabil» akzeptiert, keine Routine-Verifikations-
-  runden mehr; Neuprüfung erst bei Änderung der Quelle. In `training/PROGRAMM.md` verankert. Damit
-  entfallen auch die Run-35-Folgepunkte 1 (siebte Runde) und die dortige Empfehlung.
 - [x] **SIA 2020 — Register-Zeile war belegt veraltet, korrigiert.** Das Register führte «gültig 2001»;
   im Haus liegt die Ausgabe **2017**, deren Titelblatt ausdrücklich «Ersetzt Merkblatt SIA 2020:2001»
   trägt. **Die Veralterung war hausintern beweisbar** — es brauchte keine externe Quelle. Musterbeleg
@@ -30,10 +36,14 @@ verifiziert.
 - [x] **SIA 2051 — Register war korrekt, die Bestandsdatei ist falsch benannt.** Titelblatt sagt
   eindeutig SIA 2051:**2017** (SNR 592051:2017 de, genehmigt 12.09.2017); die Datei heisst
   `2051_2018.pdf`, wobei 2018 das Einscan-Datum ist. Bewusst **nicht** umbenannt (Entscheid Raphael
-  28.07.2026), nur im Register und im Destillat dokumentiert.
-- [x] **EN 13487 und EN 12102-1 — Bestandsfrage abschliessend geklärt (negativ).** Beide in
-  `PL - 02_Recht_Norm` **und** `PL - 03 Brandschutz` gesucht: **nicht vorhanden**. Damit sind sie
-  echte externe Bring-Schulden, kein Auffindungsproblem. Siehe unten.
+  29.07.2026), nur im Register und im Destillat dokumentiert.
+- [x] **EN 13487, EN 12102-1 und SIA 385/9 — Bestandssuche negativ (Doppelbefund, deckt sich mit
+  Run 36).** Unabhängig von Run 36 in `PL - 02_Recht_Norm` **und** `PL - 03 Brandschutz` gesucht:
+  keine der drei Normen ist im Haus. Run 36 kam zum selben Ergebnis und hat den Punkt bereits
+  geschlossen — hier nur als unabhängige Bestätigung vermerkt, **kein zweiter offener Punkt**.
+  Neu ergänzt hat dieser Lauf lediglich die **quellentreue Herleitung** der Register-Zeile 385/9
+  (`ersetzte_normen.pdf`: «x SIA 385/9:2011 d — 01.05.2011», ersetzt SIA 385/1:2000) plus den
+  Zitier-Vorbehalt in `wiki/REGISTER.md`.
 
 ### Neu offen
 
@@ -44,16 +54,11 @@ verifiziert.
    dort ist eine zwischenzeitliche Revision am wahrscheinlichsten. Als Warnblock mit verbindlicher
    Zitierregel in `wiki/REGISTER.md` verankert. **Vollständig schliessbar nur über ein aktuelles
    SIA-Normenverzeichnis (Abo/Kauf) — nicht vom Loop lösbar.** Eine Beschaffungs-Prioritätenliste
-   wurde bewusst nicht erstellt (Entscheid Raphael 28.07.2026: beziffern und warnen genügt vorerst).
-2. **SIA 385/9 — unverändert offen.** Register-Zeile ist quellentreu (`ersetzte_normen.pdf`:
-   «x SIA 385/9:2011 d — 01.05.2011», ersetzt SIA 385/1:2000), aber die gemeldete **Ausgabe 2023** ist
-   nicht am Normtext verifiziert und die Norm liegt in keiner der beiden Ablagen. Bis zur Beschaffung
-   gilt: nicht mit Ausgabejahr zitieren. Klassenfall von Punkt 1.
-3. **EN 13487 und EN 12102-1 beschaffen.** Beide werden von `wissen/energie` zitiert
-   (`rueckkuehler-flaechenkonkurrenz-pv-laermschutz.md:273-275` → Wiki `waermepumpen-laermschutz.md:110`),
-   EN 13487 **ohne Ausgabejahr**. Nicht im Haus → Ausgabe extern verifizieren, dann ins REGISTER
-   aufnehmen und den Rückverweis setzen. Bis dahin darf in `energie` kein Ausgabejahr ergänzt werden.
-4. **Werkzeug-Befund, an alle Loops mit Bild-Agenten:** generische `pdftoppm`-Präfixe im geteilten
+   wurde bewusst nicht erstellt (Entscheid Raphael 29.07.2026: beziffern und warnen genügt vorerst).
+2. **SIA 385/9 — Zitier-Vorbehalt bleibt.** Die Register-Zeile ist quellentreu, aber die gemeldete
+   **Ausgabe 2023** ist nicht am Normtext verifiziert. Bis zur Beschaffung gilt: nicht mit
+   Ausgabejahr zitieren. Klassenfall von Punkt 1. (Beschaffung selbst führt Run 36 als Bring-Schuld.)
+3. **Werkzeug-Befund, an alle Loops mit Bild-Agenten:** generische `pdftoppm`-Präfixe im geteilten
    Scratchpad haben in diesem Lauf **einen belegten Falsch-Positiv** erzeugt (ein Agent hielt ein
    Alt-Rendering von SIA 384.201 für die ersten Seiten von `144_2013.pdf` und meldete die Datei als
    defekt — vom Hauptprozess am Original widerlegt). Als Methodik-Pflicht 5 in `training/PROGRAMM.md`
