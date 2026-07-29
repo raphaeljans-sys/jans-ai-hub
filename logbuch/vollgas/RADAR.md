@@ -70,12 +70,20 @@ Zwei Korrekturen, beide auf dem NAS:
   wird sie durchgereicht. Nebeneffekt: ein Konfigurationsfehler loest keine drei Wiederholungen
   mehr aus, weil er als nicht wiederholbar erkennbar wird.
 
-Verifikation: `bash -n` auf beiden Scripts OK. **Abweisungspfad** zweimal nachgemessen
-(unbekannter Name und nicht ausfuehrbarer Pfad → je rc 2, Meldung nennt neu den Wert).
-**Freigabepfad**: derselbe Aufruf, der vorher in Millisekunden mit rc 2 starb, startet jetzt
-`claude` wirklich und lief zum Zeitpunkt dieses Eintrags seit ueber 13 Minuten (die beiden
-Selbsttests brauchten je rund 8 Minuten fuer ein blosses «OK»); die abschliessende Journalzeile
-steht beim naechsten Lauf zur Kontrolle.
+Verifikation, beide Pfade nachgemessen:
+- **Abweisungspfad** zweimal — unbekannter Name und nicht ausfuehrbarer Pfad, je rc 2, und die
+  Meldung nennt neu den beanstandeten Wert statt nur «nicht gefunden».
+- **Freigabepfad** zweimal — auf dem MacBook startet derselbe Aufruf, der vorher in
+  Millisekunden mit rc 2 starb, jetzt `claude` wirklich (er lief beim Schreiben dieses Eintrags
+  seit ueber 20 Minuten; die Selbsttests brauchten je rund 8 Minuten fuer ein blosses «OK»).
+  Auf dem Mini die Aufloesung direkt gegen das echte Binary gemessen: «claude» →
+  `/opt/homebrew/bin/claude`, ausfuehrbar.
+- `bash -n` auf beiden Scripts OK. Der Fix liegt auch im SSD-Klon des Mini (nachgeprueft), die
+  Nachtschicht 05:30 laeuft also in die korrigierte Fassung.
+
+Eine Randbedingung bleibt bewusst so: gibt `command -v` einen Shell-Builtin statt eines Pfades
+zurueck, bricht der Wrapper weiterhin mit rc 2 ab. Das ist richtig so, weil er ein echtes
+ausfuehrbares Binary braucht; die Meldung sagt jetzt, welcher Wert gescheitert ist.
 
 **Reichweite, die damit abgewendet ist.** Der Fehler kam mit Commit `fe6f1150` (29.07. 02:11)
 und traf ab da jeden Lauf ueber `dispatch-run.sh` oder `wissens-trigger.sh`. Betroffen waeren
