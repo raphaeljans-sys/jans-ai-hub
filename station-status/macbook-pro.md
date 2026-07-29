@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.07.2026 22:49:39
+Stand: 29.07.2026 22:59:46
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:26)
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:45)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 29.07.2026 22:49:39
 - 1 Datei(en): AR - 03 Studien / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- e5504fe8 nas-selfcommit: 9 Datei(en) 2026-07-29 22:45
+- 516115d2 Energie-Training Run 119: sieben Destillate (Rabtherm-JAZ, SWKI VA106-01, Freienbach, Regenwassernutzung, Eisspeicher, Seewasser-Aquathermie, graue Energie Holzbau/Massivbau), FAQ F184-F189, PL-02-Zugangsblockade dokumentiert
