@@ -83,6 +83,30 @@ einer amtlichen oder unabhängigen Stelle).
     Baubewilligungsantrag wird zusammen mit dem Konzessionsgesuch bei der Gemeinde eingereicht;
     diese holt im Baubewilligungsverfahren die wasserrechtliche Konzession sowie die
     gewässerschutzrechtliche Bewilligung beim AWEL ein.
+    - **Energierechtliche Beilagen zum Baugesuch (Kt. ZH) — Formularseite führt die KB
+      `planungsgrundlagen`** *(Ergänzung Wissens-Chef Run 20, 29.07.2026)*: Die wasserrechtliche
+      Konzession ist das **separate** Gesuch neben den ordentlichen Baueingabe-Beilagen. Für die
+      Wärmeerzeugung selbst ist das **WTA-Gesuch-/Meldeformular** («Gesuch-/Meldeformular für
+      Erstellung, Umbau und Betrieb von wärmetechnischen Anlagen oder stationären
+      Verbrennungsmotoren», Ausgabe Januar 2024) einzureichen, das die Wärmequelle
+      **Oberflächenwasser** ausdrücklich abdeckt und für Oberflächenwasser seinerseits auf ein
+      separates Gesuch AWEL/Gewässerschutz beziehungsweise AWEL/Wasserbau verweist; bei
+      **Neubauten** kommt das Formular **EN-103** (mit Privater Kontrolle) hinzu. Formular,
+      Zuständigkeiten und Verfahrensablauf sind dort geführt und werden hier nicht fortgeschrieben:
+      `[[energie-baueingabe-zusatzformulare]]` (KB `planungsgrundlagen`).
+    - **Kein Meldeverfahren für Seewasser-Wärmepumpen — negative Abgrenzung, keine
+      Verfahrensalternative (Kt. ZH):** Der Meldeverfahrens-Katalog von **§ 2a Abs. 1 BVV**
+      (LS 700.6) nennt bei den Wärmepumpen ausschliesslich innen aufgestellte Luft/Wasser-
+      Wärmepumpen (lit. f), aussen aufgestellte Luft/Wasser-Wärmepumpen bis 2 m³ (lit. g) und
+      Erdwärmesonden-Wärmepumpen (lit. h). Für eine **Wasser/Wasser-Wärmepumpe mit Quelle
+      Oberflächenwasser** existiert dort **keine** Position — sie bleibt im ordentlichen
+      Baubewilligungsverfahren, was mit dem Leitverfahren oben übereinstimmt. Der Verweis
+      `[[bvv-zh-meldeverfahren-klimaanlagen-waermepumpen]]` dient also der Abgrenzung; er darf
+      nicht als «Verfahrensweiche» gelesen werden, sonst entsteht der falsche Schluss, für
+      Seewasseranlagen stehe ein Meldeverfahren offen.
+    - **Kantonsabgrenzung:** WTA-Formular, EN-103 und § 2a BVV sind **Kt.-ZH-Instrumente**. Für den
+      Kanton Schwyz gilt das WRG SRSZ 451.100 (§§ 11/12, siehe unten), für den Kanton Zug das
+      Formular «Anfrage für Wasserbezug aus Oberflächengewässern» des Amts für Umwelt.
   - **Konzessionsgesuch als Leitverfahren** (OWEN als eigenständiges Projekt, z.B. ein
     Fernwärmeverbund): Gesuch direkt bei der **Abteilung Ufer- und Gewässernutzung (UGN) des
     AWEL**, die das Vorhaben prüft und mit Fachstellen (Naturschutz, Fischerei, Archäologie) und
@@ -96,6 +120,90 @@ einer amtlichen oder unabhängigen Stelle).
     oder eine andere WsG-Sondernutzungsbestimmung einschlägig ist, ist über `wissen/baurecht`
     (amtlicher WsG-Volltext) zu verifizieren, bevor die Paragraphennummer in ein Kundendokument
     wandert.
+
+> ⚠ **Korrektur Wissens-Chef Run 20, 29.07.2026 — der vorstehende offene Punkt ist für den Kanton
+> Zürich GEKLÄRT.** Der WsG-/WsV-Volltext liegt seit dem 28.07.2026 in der führenden KB `baurecht`;
+> das Destillat entstand einen Tag später und liess die Frage trotzdem offen. **Fassungsvermerk zu
+> allen folgenden Nummern: WsG (LS 724.1) und WsV (LS 724.11) in der Fassung Nachtrag 133, in Kraft
+> seit 01.06.2026** — die zitierte AWEL-Planungshilfe 2025 argumentierte noch unter altem Recht.
+> Belege: `baurecht/raw/260728_amtlich_zh_wsg.md` bzw. `…_wsv.md`.
+>
+> **Die Konzessions-Spur, paragraphengenau:**
+> - **§ 4 Abs. 1 WsG:** «Öffentliche Gewässer unterstehen der Hoheit des Kantons» (Abs. 2:
+>   Öffentlichkeit der Gewässer wird vermutet) — das ist der Beleg für den bisher nur wörtlich
+>   zitierten AWEL-Satz zur kantonalen Hoheit über die Seewärme und die Tatbestandsvoraussetzung
+>   «öffentliche Gewässer» von § 68.
+> - **§ 68 Abs. 1 lit. c WsG:** Wer öffentliche Gewässer «im Rahmen einer Sondernutzung nutzt,
+>   benötigt eine Konzession der Direktion; vorbehalten bleibt § 83 Abs. 1» (dieser Vorbehalt
+>   betrifft nur Wasserkraftanlagen über 3000 kW und berührt die OWEN nicht).
+> - **§ 119 Abs. 2 lit. c WsV:** Sondernutzung ist «die dauerhafte oder wiederkehrende Nutzung von
+>   Gewässern zur Wärmeentnahme und zum Wärmeeintrag» — der Tatbestand der Seewärmenutzung.
+> - **§ 120 Abs. 1 WsV:** «Sondernutzungen bedürfen gemäss § 68 WsG einer Konzession.»
+> - **Zweitbeleg, dass die Konzession die Wärmenutzung erfasst: § 74 Abs. 1 lit. b WsG** — die
+>   Nutzungsgebühr bemisst sich «nach dem Mass des Wärmeeintrags bzw. des Wärmeentzugs bei der
+>   Wärme- oder Kältenutzung».
+>
+> **Der oben aufgeworfene Verdacht ist negativ zu beantworten:** § 44 Abs. 1 lit. a Ziff. 3 WsG
+> erfasst Bauten und Anlagen, «die der Nutzung von Boden, Untergrund oder Abwasser zur Gewinnung
+> von Energie oder zur Kühlung dienen» — **Oberflächenwasser fehlt**; diese Bestimmung trägt die
+> OWEN-Konzession also nicht (sie trägt Abwasser- und Untergrundnutzung, wie im Abwasserwärme-
+> Destillat belegt).
+>
+> **Die zweite Spur (gewässerschutzrechtliche Bewilligung) bleibt offen — eigene Subsumtion, nicht
+> amtlich benannt.** Naheliegend ist § 44 Abs. 1 lit. a Ziff. 1 WsG (Bauten und Anlagen, «deren
+> Nutzung die Qualität des Wassers beeinträchtigen oder die Wassermenge eines Gewässers verändern
+> kann»), weil Fassungs-/Rückgabebauwerk und Wärmeeintrag genau dies bewirken. Die Bestimmung nennt
+> die Oberflächenwasser-Wärmenutzung aber **nicht ausdrücklich**; die Zuordnung ist damit eine
+> KB-eigene Subsumtion am Wortlaut, keine belegte Fundstelle. Verstärkend: eine WsV-Konkretisierung
+> für oberirdische Gewässer existiert **nicht** — § 92 WsV erfasst als Bewilligungstatbestand nur
+> den «Entzug von Erdwärme» und den «Eintrag von Wärme in das Erdreich». Vor der Verwendung in
+> einem Kundendokument ist die Bewilligungsnorm beim AWEL zu bestätigen.
+>
+> **Gebühren und Verfahrensschwelle, ebenfalls belegt:**
+> - **§ 142 WsV:** jährliche Nutzungsgebühr für Wärmeentnahmen aus einem oberirdischen Gewässer und
+>   Wärmeeinträge bis 800 kW: **Fr. 5 pro kW** höchstens zulässiger Entnahmeleistung, **Fr. 10 pro
+>   kW** höchstens zulässiger Eintragsleistung. **§ 143 WsV** für Wärmeeinträge über 800 kW:
+>   Leistungspreis Fr. 5 pro kW plus Arbeitspreis Fr. 2350 pro GWh (Januar bis März, Oktober bis
+>   Dezember) bzw. Fr. 580 pro GWh (April bis September). **§ 144 Abs. 1 WsV:** bei Entnahme UND
+>   Eintrag mit derselben Anlage wird nur der Sachverhalt mit der höheren Gebühr berücksichtigt.
+> - **§ 173 lit. d Ziff. 1 WsV:** Wasserentnahmen aus oberirdischen Gewässern «für Heiz- und
+>   Kühlzwecke bis 800 kW wasserseitiger Leistung» zählen zu den Vorhaben von untergeordneter
+>   Bedeutung, die nach § 92 WsG im **vereinfachten Verfahren** (ohne öffentliche Planauflage und
+>   Einwendungsverfahren) durchgeführt werden können — das ist die gesuchte ZH-Leistungsschwelle
+>   für die OWEN und der Erlassbeleg zur bisher nur aus der AWEL-Planungshilfe zitierten
+>   800-kW-Grenze. **Nicht vergleichbar** mit der im Destillat genannten 150-kW-Schwelle für AEN
+>   (andere Nutzungsart) und nicht mit der SZ-Schwelle von 50 kW / vier Wohneinheiten (anderer
+>   Kanton, anderer Erlass): es ist eine **Verfahrens**erleichterung, keine Mindestgrösse.
+
+- **Konzessionsdauer (Kanton Zürich): Regeldauer 15–30 Jahre** *(Ergänzung Wissens-Chef Run 20,
+  29.07.2026; das Destillat behandelte bisher nur die Verfahrensdauer, nicht die Geltungsdauer)*.
+  **§ 121 Abs. 1 lit. b WsV** — «Nutzung von Grund- und Oberflächenwasser zur Wärmeentnahme und
+  zum Wärmeeintrag: 15–30 Jahre»; der Litera-Wortlaut nennt **Oberflächenwasser** ausdrücklich und
+  gilt für Seewasser damit unmittelbar. Es ist eine **Regeldauer** («in der Regel»), keine starre
+  Höchstdauer: nach **§ 121 Abs. 2 WsV** kann sie bei besonderen Verhältnissen auf längstens
+  **80 Jahre** festgelegt werden, und **§ 121 Abs. 3 lit. a WsV** nennt als solche besonderen
+  Verhältnisse genau den Fall, dass der voraussichtliche Ertrag während der Höchstdauer nach Abs. 1
+  «nicht ausreicht, um die Anschaffungskosten der konzessionierten Bauten und Anlagen sowie der
+  notwendigen Nebenanlagen zu decken» — bei der hohen Fassungs-/Seeleitungsinvestition ist das der
+  einschlägige Verhandlungspunkt, der Deckel ist also begründungsfähig und nicht starr. Die
+  kursierenden **40 Jahre** gehören zu lit. a (Entnahmen von Grund- und Oberflächenwasser) und
+  lit. d (Inanspruchnahmen von Gewässern) und sind für die **Wärme**nutzung falsch. Abgrenzung zum
+  Grundwasser: **§ 121 Abs. 1 lit. e WsV** (Bestandsdauer, längstens 70 Jahre) gilt ausdrücklich nur
+  für «Bauten und Anlagen im Grundwasserleiter» und darf für den See **nicht** analog herangezogen
+  werden. Fassung: WsV LS 724.11, Nachtrag 133, in Kraft seit 01.06.2026; Beleg
+  `baurecht/raw/260728_amtlich_zh_wsv.md:1373`. Vertiefung im Schwester-Destillat
+  `[[grundwasserwaermenutzung-bewilligung-zh-sz]]`.
+  - **Seewasser löst mehrere Sondernutzungen aus — nur eine davon ist die Wärmenutzung.** Das
+    Wärmenutzungsrecht läuft über § 119 Abs. 2 lit. c → § 121 Abs. 1 lit. b WsV (15–30 Jahre). Die
+    **Seefassung/Seeleitung** ist eine **eigene** Sondernutzung nach § 119 Abs. 2 lit. e WsV
+    («Errichtung von Bauten und Anlagen in oberirdischen Gewässern»), für die § 121 Abs. 1 keine
+    eigene Litera nennt; naheliegend ist lit. d («Inanspruchnahmen von Gewässern: 15–40 Jahre»).
+    Diese Zuordnung ist **eigene Subsumtion, nicht amtlich bestätigt** und beim AWEL zu
+    verifizieren. Praxisfolge deshalb gespalten formulieren: Amortisationsdeckel 30 Jahre für das
+    Wärmenutzungsrecht, Dauer der Seeleitungs-/Fassungskonzession separat abklären.
+  - **Nur Kanton Zürich.** § 121 WsV ist ZH-Recht. Für SZ (WRG SRSZ 451.100), ZG und die übrigen
+    Vierwaldstättersee-Kantone ist **keine** Konzessionsdauer belegt — im Hub liegt kein SZ-WRG-
+    Volltext; siehe «Offene Punkte». Der ZH-Wert darf dort nicht stillschweigend eingesetzt werden.
 - **Kanton Schwyz** (Zugersee bei Arth, Vierwaldstättersee bei Küssnacht am Rigi): Die
   Konzessionspflicht ergibt sich aus dem kantonalen **Wasserrechtsgesetz (WRG, SRSZ 451.100)**,
   bereits am amtlichen Volltext verifiziert im KB-Destillat `abwasserwaerme-bewilligung-sz-
@@ -264,6 +372,19 @@ SZ, Vierwaldstättersee im Kt. SZ/LU/UR/OW/NW) bedeutet dieser Rechercheausstand
   In Schwyz wird die Konzessionspflicht bereits ab **50 kW** oder unter vier Wohneinheiten
   ausgelöst — für ein einzelnes Mehrfamilienhaus mit Seewasser-Wärmepumpe ist die Konzession
   damit praktisch immer Pflicht.
+- **Geltungsdauer der Konzession als Rechengrundlage, nicht nur die Verfahrensdauer** *(Ergänzung
+  Wissens-Chef Run 20, 29.07.2026)*: **Im Kanton Zürich** wird die Konzession für die Wärmenutzung
+  in der Regel auf **15 bis 30 Jahre** erteilt (§ 121 Abs. 1 lit. b WsV, Fassung Nachtrag 133 seit
+  01.06.2026). Für die Wirtschaftlichkeitsrechnung heisst das: Betrachtungs-/Amortisationshorizont
+  der Wärmequelle mit **maximal 30 Jahren** ansetzen und die Konzessionserneuerung als Risiko
+  ausweisen (betrifft `healthcare-wirtschaftlichkeit`, `machbarkeit` Typ B, `immobilienbewertung`
+  DCF) — bei Seewasser wegen der hohen Fassungs- und Leitungsinvestition gewichtiger als bei einer
+  Grundwasser-Wärmepumpe. **Gegenrichtung mitnennen, statt nur zu warnen:** derselbe Paragraph lässt
+  bei besonderen Verhältnissen längstens 80 Jahre zu, und Abs. 3 lit. a nennt ausdrücklich den Fall,
+  dass der Ertrag während der Regeldauer die Anschaffungskosten nicht deckt — genau die Lage einer
+  teuren Seeleitung. Die Verlängerung ist damit ein begründungsfähiger Verhandlungspunkt im
+  Konzessionsgesuch. Für **SZ, ZG und die Vierwaldstättersee-Kantone** ist keine Dauer belegt, dort
+  gehört sie zur Erstabklärung bei der kantonalen Fachstelle.
 - **Standort und Tiefe früh mit dem Bauingenieur/Fachplaner klären:** Die technischen
   Mindestanforderungen (Entnahme-/Rückgabetiefe 20-30 m, Sprungschicht-Lage, Muschelproblematik,
   Zwischenkreislauf-Pflicht) verlangen eine Seeleitung mit relevanter baulicher Komplexität und
@@ -287,6 +408,25 @@ SZ, Vierwaldstättersee im Kt. SZ/LU/UR/OW/NW) bedeutet dieser Rechercheausstand
   liche Konzession»), ohne Paragraphenverweis; Abgleich mit dem bereits im Hub verifizierten
   WsG-Volltext (`wissen/baurecht`) und ggf. Ergänzung hier nötig, bevor eine Paragraphennummer in
   ein Kundendokument wandert.
+  > ⚠ **Erledigt für die Konzessions-Spur (Wissens-Chef Run 20, 29.07.2026):** § 4 Abs. 1 WsG,
+  > § 68 Abs. 1 lit. c WsG, § 119 Abs. 2 lit. c WsV und § 120 Abs. 1 WsV, samt Konzessionsdauer
+  > § 121 Abs. 1 lit. b WsV und Gebühren §§ 142/143 WsV — hergeleitet und belegt im Korrekturkasten
+  > in Abschnitt 1 (WsG/WsV in der Fassung Nachtrag 133, in Kraft seit 01.06.2026). Der vorstehende
+  > Absatz bleibt als Dokumentation des früheren Stands stehen.
+- **Offen bleibt die gewässerschutzrechtliche Bewilligungsnorm für Oberflächenwasser** (Stand
+  Run 20, 29.07.2026): Für die zweite Spur der AWEL-Doppelspur «Konzession + Bewilligung» ist
+  § 44 Abs. 1 lit. a Ziff. 1 WsG nur eine **eigene Subsumtion**, keine amtlich benannte Fundstelle;
+  eine WsV-Konkretisierung für oberirdische Gewässer fehlt (§ 92 WsV erfasst nur Erdreich). Beim
+  AWEL bestätigen lassen, bevor die Nummer in ein Kundendokument wandert.
+- **Konzessionsdauer ausserhalb des Kantons Zürich nicht belegt** (Stand Run 20, 29.07.2026): Die
+  15 bis 30 Jahre stammen aus § 121 Abs. 1 lit. b WsV und gelten nur für ZH. Für SZ (WRG SRSZ
+  451.100) liegt im Hub kein amtlicher Volltext vor, für ZG und die übrigen Vierwaldstättersee-
+  Kantone ebenfalls nicht; dort ist die Dauer bei der kantonalen Fachstelle zu erfragen und darf
+  nicht mit dem ZH-Wert gefüllt werden.
+- **Dauer der Seefassungs-/Seeleitungskonzession nicht amtlich zugeordnet** (Stand Run 20,
+  29.07.2026): Die Seefassung ist eine eigene Sondernutzung nach § 119 Abs. 2 lit. e WsV, für die
+  § 121 Abs. 1 keine eigene Litera nennt. Die Zuordnung zu lit. d (15–40 Jahre) ist eigene
+  Subsumtion, nicht amtlich bestätigt — beim AWEL verifizieren.
 - **Keine belastbare COP-/JAZ-Zahl aus amtlicher oder unabhängiger Quelle speziell für
   Seewasser-Wärmepumpen gefunden** — nur der Hoval-Herstellerwert (JAZ 4-5,5). Nächster
   Ansatzpunkt: Wärmepumpen-Testzentrum Buchs (WPZ) oder ein Fachartikel der Fördergemeinschaft
@@ -348,4 +488,6 @@ SZ, Vierwaldstättersee im Kt. SZ/LU/UR/OW/NW) bedeutet dieser Rechercheausstand
 
 [[abwasserwaermenutzung-kanalisation-zh-sz]] · [[abwasserwaerme-bewilligung-sz-vertiefung]] ·
 [[anergienetz-kalte-fernwaerme-ch]] · [[waermepumpe-systemvergleich]] ·
-[[erdwaermesonden-bewilligung-zh-sz]]
+[[erdwaermesonden-bewilligung-zh-sz]] · [[grundwasserwaermenutzung-bewilligung-zh-sz]] ·
+[[bvv-zh-meldeverfahren-klimaanlagen-waermepumpen]] · [[energie-baueingabe-zusatzformulare]]
+(KB `planungsgrundlagen`, führend für Formular und Verfahrensablauf)

@@ -1,7 +1,12 @@
 ---
 title: Bauherren-FAQ Energie — belegte Antworten
 status: established
-last_updated: 2026-07-27 (Run 116: F168-F171 neu — vier parallele Rechercheagenten, Schwerpunkt
+last_updated: 2026-07-29 (Wissens-Chef Run 20, Cross-KB-Korrekturen: F186 kantonale Grundlage
+  § 97 Abs. 3 WsG ergänzt inkl. Reichweite der Gebührenfreiheit, F187 falscher Negativbefund zur
+  Bewilligungspflicht durch § 92 WsV / § 44 WsG ersetzt und die Eisspeicher-Zuordnung als eigene
+  Subsumtion gekennzeichnet, F71 von der per 01.01.2022 aufgehobenen KGSchV auf WsG/WsV/§ 209 WsV
+  umgestellt, F189 auf Median 23 % / Planungsgrösse 20-25 % präzisiert und zur Leitzahl erklärt);
+  Run 116: F168-F171 neu — vier parallele Rechercheagenten, Schwerpunkt
   «Abwärme und Prozessenergie»: Serverraum-/Rechenzentrums-Abwärme [§ 30a Abs. 2 BBV I, 2-GWh-
   Schwelle ≈ ab 230 kW elektrischer Dauerleistung, ZH als Pionier vor MuKEn 2025 Art. 1.18],
   Abwasserwärmenutzung [AWEL-Planungshilfe 2025, gebäudeintern bewilligungsfrei, Duschwasser-WRG
@@ -2661,10 +2666,36 @@ UR) mit gesetzlicher **Obergrenze CHF 25'000** pro Einzelfall (§ 10 GebV UR); e
 EFH-Standardgesuch dürfte deutlich darunter liegen, eine amtliche «typische» Zahl gibt es nicht.
 
 **Quelle:** zh.ch «Erdwärmesonden»/«Bauen in Grundwasserschutzzonen»/«Bauen in Grundwasservorkommen»
-(AWEL), GSchG Art. 19–22 + GSchV Art. 32, § 35/§ 69 KGSchV + GebV UR (Primärtext, Run 67), sz.ch
+(AWEL), GSchG Art. 19–22 + GSchV Art. 32, kantonal **§ 44 Abs. 1 lit. a Ziff. 3 und lit. f WsG +
+§ 92 WsV**, Gebühren über die Verweisnorm **§ 209 WsV** → GebV UR (§ 35/§ 69 KGSchV nur noch
+historisch, bis 31.12.2021 — siehe Korrektur unten), sz.ch
 «Wärmenutzung» → `[[erdwaermesonden-bewilligung-zh-sz]]`. Status **established** (Kernstruktur + ZH-
 Gebührenrechtsgrundlage primärquellen-verifiziert; SZ-Kosten und exakter GSchG/GSchV-Wortlaut weiterhin
 offen).
+
+> ⚠ **Korrektur Wissens-Chef Run 20, 29.07.2026 — die zitierte KGSchV ist aufgehoben, die
+> materielle Aussage bleibt gültig.** Diese Antwort stützte die ZH-Bewilligungs- und
+> Gebührengrundlage auf § 35/§ 69 KGSchV (LS 711.11). Die KGSchV ist per **01.01.2022 aufgehoben**
+> (letzte Fassung Nachtrag 099; Beleg in der führenden KB: `wissen/baurecht/wiki/QUESTIONS.md:68`).
+> Heute steht die Bewilligungspflicht zweistufig: auf Gesetzesstufe **§ 44 Abs. 1 lit. a Ziff. 3
+> WsG** (LS 724.1;
+> Bewilligung der Direktion für Bauten und Anlagen, «die der Nutzung von Boden, Untergrund oder
+> Abwasser zur Gewinnung von Energie oder zur Kühlung dienen»), für die Bohrung zusätzlich
+> **lit. f** («Bohrungen, Pump- und Markierversuche»); auf Verordnungsstufe **§ 92 WsV**
+> (LS 724.11). Beide in der Fassung Nachtrag 133, in Kraft seit 01.06.2026.
+> **Gebühren:** Der Verweisungsmechanismus des alten § 69 KGSchV lebt unverändert in **§ 209 WsV**
+> weiter — Amtshandlungen nach Wassergesetz und Wasserverordnung werden nach der
+> Gebührenverordnung zum Vollzug des Umweltrechts (**GebV UR**, LS 710.2) und nach der
+> Gebührenordnung für die Verwaltungsbehörden vom 30.06.1966 erhoben. Materiell ändert sich damit
+> nichts: keine Pauschale, reine Aufwandgebühr (§ 5 GebV UR), Obergrenze CHF 25'000 pro Einzelfall
+> (§ 10 GebV UR). **Nicht anwendbar** sind die Nutzungsgebühren-Tarife §§ 140-146 WsV (Fr. 5/kW
+> Wärmeentnahme usw.) — sie betreffen Grundwasser und oberirdische Gewässer, nicht die
+> Erdwärmesonde im Erdreich.
+> Zwei Punkte bleiben offen und sind in `[[QUESTIONS]]` angemeldet: der Fassungsstand der GebV UR
+> (im Destillat als «Stand 1.1.12 / Nachtrag 75» geführt, also vier Jahre alt) und die neu
+> einschlägige Gebührenordnung für die Verwaltungsbehörden, die noch niemand gelesen hat. Das
+> Destillat `[[erdwaermesonden-bewilligung-zh-sz]]` trägt bis zur Umstellung seiner Zitate auf
+> WsG/WsV den Status **needs-review**.
 
 ---
 
@@ -6211,7 +6242,9 @@ ursprünglich gesuchte Original bleibt Negativbefund).
 
 **Kurzantwort:** Ja — für WC-Spülung, Waschmaschine und Gartenbewässerung, sofern das
 Regenwassernetz strikt getrennt vom Trinkwassernetz bleibt, alle Leitungen/Zapfstellen als
-«Kein Trinkwasser» gekennzeichnet sind und die Anlage dem Wasserwerk gemeldet wird.
+«Kein Trinkwasser» gekennzeichnet sind und die Anlage dem Wasserwerk gemeldet wird. Im Kanton
+Zürich ist diese Nutzung ausdrücklich gesetzlich zugelassen und für das genutzte Regenwasser
+gebührenfrei (§ 97 Abs. 3 WsG, siehe Korrektur unten).
 
 **Fachliche Begründung:** Das SVGW-Merkblatt TPW 2001/1 «Regenwassernutzung» (im SVGW-Shop
 weiterhin gelistet, W10001 d) regelt die verbindlichen Kernregeln: Netztrennung, Kennzeichnung,
@@ -6222,9 +6255,28 @@ Zahl braucht es eine Sanitärplaner-Offerte. Klar abzugrenzen von der bereits be
 Versickerungs-/Entwässerungsfrage (dort geht es um die Bewilligung, hier um die Nutzung als
 Brauchwasser).
 
-**Quelle:** SVGW-Merkblatt TPW 2001/1; myky.ch; Hauser Regenwassernutzung (beide nicht-amtlich).
-Datenstand 2026-07-29 (Run 119) → `[[regenwassernutzung-brauchwasser-trinkwasserersatz-ch]]`.
-Status **established** (Normteil) / **speculative** (Kosten/Einsparung).
+**Quelle:** SVGW-Merkblatt TPW 2001/1; myky.ch; Hauser Regenwassernutzung (beide nicht-amtlich);
+kantonale Grundlage ZH § 97 Abs. 3 WsG (LS 724.1, Fassung Nachtrag 133, in Kraft seit 01.06.2026)
+über die führende KB `baurecht`. Datenstand 2026-07-29 (Run 119, korrigiert Wissens-Chef Run 20)
+→ `[[regenwassernutzung-brauchwasser-trinkwasserersatz-ch]]`, ergänzt
+`[[regenwasserbewirtschaftung-versickerung-zh]]`.
+Status **established** (Normteil + ZH-Rechtsgrundlage) / **speculative** (Kosten/Einsparung).
+
+> ⚠ **Korrektur Wissens-Chef Run 20, 29.07.2026 — die kantonale Rechtsgrundlage fehlte.** Diese
+> Antwort stützte die Zulässigkeit allein auf das SVGW-Merkblatt TPW 2001/1, also auf einen
+> Verbandstext von 2001. Im Kanton Zürich steht sie im Gesetz: **§ 97 Abs. 3 WsG** (LS 724.1,
+> Fassung Nachtrag 133, in Kraft seit 01.06.2026) — «Die Verwendung von Regenwasser als
+> Brauchwasser in getrennten Systemen ist zulässig und gebührenfrei.» Wortlaut in der führenden
+> KB: `wissen/baurecht/raw/260728_amtlich_zh_wsg.md:1374`. Für andere Kantone ist die Rechtslage
+> nicht geprüft; das SVGW-Merkblatt bleibt die schweizweite technische Grundlage.
+> **Reichweite der Gebührenfreiheit — hier nicht zu viel hineinlesen:** Sie gilt für das genutzte
+> Regenwasservolumen, nicht als Wegfall der übrigen Gebühren. Bezugspflicht (§ 97 Abs. 1 WsG) und
+> Anschlusspflicht (§ 178 WsV) an die öffentliche Wasserversorgung bleiben unberührt, die
+> Grundgebühr der Wasserversorgung fällt weiter an, und bei der Abwasser-Grundgebühr ist sowohl
+> der Schmutz- als auch der Regenwasseranfall zu berücksichtigen (§ 111 Abs. 2 WsV). Die Zisterne
+> ersetzt den Anschluss also nicht — wer die Amortisation über den vollen Wasserpreis rechnet,
+> rechnet zu günstig. Die Meldung ans Wasserwerk bleibt daneben ein eigener, vom
+> Baubewilligungsverfahren unabhängiger Schritt (SVGW-Merkblatt).
 
 ## F187 — «Unsere Parzelle liegt in einer Grundwasserschutzzone, die Erdsonde wurde uns verweigert — gibt es eine Alternative?»
 
@@ -6237,12 +6289,37 @@ Schweizer Referenzprojekte (Rapperswil-Jona JAZ 5-6, Murtenstrasse 147 Bern >4, 
 Münchenstein/Dornach) zeigen Kosten Faktor 1-2 gegenüber der Erdsonde (CH-Beispiele 75'000 CHF
 EFH bis 420'000 CHF MFH-Pilot) und eine JAZ-Bandbreite von 2,0 (Fehlauslegung) bis 6
 (CH-Pilotprojekt). Herstellerangaben (Viessmann) sind explizit als Marketing gekennzeichnet.
-Offen bleibt die konkrete kantonale Bewilligungspraxis in ZH/SZ-Grundwasserschutzzonen — dazu
-fehlt eine amtliche Primärquelle.
+Bewilligungsfrei ist der Eisspeicher im Kanton Zürich voraussichtlich nicht: § 92 Abs. 1 WsV macht
+den Entzug von Erdwärme und den Eintrag von Wärme ins Erdreich technikneutral
+bewilligungspflichtig; dass der vergrabene Speicher darunter fällt, ist allerdings die Auslegung
+dieser Wissensbasis am Wortlaut und nicht amtlich bestätigt. Offen bleibt damit die
+AWEL-Vollzugspraxis in den Grundwasserschutzzonen S1/S2, nicht aber die Existenz einer
+kantonalen Bewilligungsnorm (siehe Korrektur unten).
 
 **Quelle:** RP-Energie-Lexikon (Paschotta); 5 CH-Referenzprojekte; Viessmann (als Marketing
-markiert). Datenstand 2026-07-29 (Run 119) → `[[eisspeicher-waermepumpe-latentwaermespeicher]]`,
-ergänzt `[[heizleistung-und-waermeerzeuger]]`. Status **emerging**.
+markiert); kantonale Bewilligungsgrundlage § 92 WsV / § 44 Abs. 1 lit. a Ziff. 3 WsG über die
+führende KB `baurecht`. Datenstand 2026-07-29 (Run 119, korrigiert Wissens-Chef Run 20) →
+`[[eisspeicher-waermepumpe-latentwaermespeicher]]`, ergänzt `[[heizleistung-und-waermeerzeuger]]`,
+`[[erdwaermesonden-bewilligung-zh-sz]]`. Status **emerging**.
+
+> ⚠ **Korrektur Wissens-Chef Run 20, 29.07.2026 — der Negativbefund war falsch.** Hier stand:
+> «Offen bleibt die konkrete kantonale Bewilligungspraxis in ZH/SZ-Grundwasserschutzzonen — dazu
+> fehlt eine amtliche Primärquelle.» Die kantonale Primärquelle liegt im Hub, und zwar seit dem
+> Vortag: **§ 92 Abs. 1 WsV** (LS 724.11, Fassung Nachtrag 133, in Kraft seit 01.06.2026) — «Einer
+> Bewilligung bedürfen: a. der Entzug von Erdwärme, b. der Eintrag von Wärme in das Erdreich»,
+> technologieneutral und ohne Bohrungsbezug; auf Gesetzesstufe **§ 44 Abs. 1 lit. a Ziff. 3 WsG**
+> (LS 724.1) für Bauten und Anlagen, «die der Nutzung von Boden, Untergrund oder Abwasser zur
+> Gewinnung von Energie oder zur Kühlung dienen». Wortlaut in der führenden KB `baurecht`:
+> `raw/260728_amtlich_zh_wsv.md:1051` und `raw/260728_amtlich_zh_wsg.md:699`.
+> **Dass ein im Erdreich vergrabener Eisspeicher darunter fällt, ist eine eigene Subsumtion dieser
+> Wissensbasis am Wortlaut und nicht amtlich bestätigt:** der Speicher entzieht dem umgebenden
+> Erdreich Wärme (Regenerationspfad über die Speicherwände) und trägt beim Free Cooling Wärme ein.
+> Ein Ausnahme- oder Meldeweg ist nicht ersichtlich: § 44 Abs. 3 WsG erlaubt Ausnahmen für Fälle
+> untergeordneter Bedeutung, die zugehörige Liste in § 173 WsV nennt die Erdwärmenutzung nicht.
+> Vor einer verbindlichen Bauherren-Aussage bleibt die Rückfrage bei Gemeinde und AWEL zwingend.
+> Begriffe amtlich getrennt halten: **Grundwasserschutzzonen S1/S2/S3** nach § 46 WsG gegen
+> **Gewässerschutzbereiche Au/Ao und Grundwasserschutzareale** nach § 45 WsG; das
+> Erdsonden-Verbot betrifft S1/S2, im Bereich Au besteht Bewilligungspflicht.
 
 ## F188 — «Brauche ich für eine Seewasser-Wärmepumpe am Zürich-/Zugersee eine Konzession?»
 
@@ -6265,9 +6342,10 @@ Circulago-Projektdaten. Datenstand 2026-07-29 (Run 119) →
 
 ## F189 — «Wie viel graue Energie spart mir ein Holzbau gegenüber einem Massivbau konkret?»
 
-**Kurzantwort:** Bei einem vergleichbaren Mehrfamilienhaus rund 20-25 % weniger graue
-Treibhausgasemissionen (Median 7,5 statt 9,8 kg CO₂-eq/m² Energiebezugsfläche und Jahr). Der
-grösste Spareffekt liegt beim Dach und der Tragstruktur, nicht bei der Aussenwand.
+**Kurzantwort:** Bei einem vergleichbaren Mehrfamilienhaus im Median rund 23 % weniger graue
+Treibhausgasemissionen (7,5 statt 9,8 kg CO₂-eq/m² Energiebezugsfläche und Jahr); als
+Planungsgrösse 20-25 %. Der grösste Spareffekt liegt beim Dach und der Tragstruktur, nicht bei
+der Aussenwand.
 
 **Fachliche Begründung:** Basis sind 35 real verglichene Schweizer Objektpaare (Wüest
 Partner-Studie im Auftrag von Lignum, explizit als Branchenauftrag gekennzeichnet), ergänzt
@@ -6278,6 +6356,18 @@ CO₂-Bindung im Holz. Wichtige Einschränkung: ein schwerer Massivholz-Dachaufb
 schlechter abschneiden als ein leichter Massivbau-Aufbau — «Holz» ist kein Automatismus.
 
 **Quelle:** Wüest Partner/Lignum-Studie (35 Objektpaare); treeze/ZZ-Wancor; espazium/TEC21;
-KBOB-Faktenblatt. Datenstand 2026-07-29 (Run 119) →
+KBOB-Faktenblatt. Datenstand 2026-07-29 (Run 119, präzisiert Wissens-Chef Run 20) →
 `[[graue-energie-holzbau-vs-massivbau-vergleich-ch]]`, ergänzt `[[graue-energie]]`,
-`[[holzbau-bauphysik-clt]]`. Status **established**.
+`[[holzbau-bauphysik-clt]]`, `[[kbob-graue-treibhausgasemissionen-2025]]`.
+Status **established**.
+
+> **Präzisierung Wissens-Chef Run 20, 29.07.2026 — diese Antwort ist die Leitzahl der KB.** Die
+> Primärquelle nennt «rund 23 % tiefer» (Median 7,5 gegen 9,8 kg CO₂-eq/m² EBF·a) →
+> `[[kbob-graue-treibhausgasemissionen-2025]]`; als Planungsgrösse gilt 20-25 %. Der weiter im
+> Bestand verbreitete Satz «durchgehend 20-40 % tiefer» ist **keine belegte Bandbreite** und wird
+> durch diese Antwort ersetzt. «Durchgehend» qualifiziert allein die **Richtung**: in der
+> Wüest-Partner-Stichprobe liegt jedes der 35 Objektpaare unterhalb der Winkelhalbierenden, Holz
+> schneidet also bei jedem Paar besser ab als sein mineralischer Zwilling. Eine paarweise
+> Prozent-Bandbreite folgt daraus nicht — die Einzelfälle streuen deutlich, die espazium/
+> TEC21-Fallstudie Badenerstrasse 380 (Zürich) liegt bei rund −13 %. Für ein konkretes Projekt
+> heisst das: 20-25 % als Erwartungswert, kein Automatismus.

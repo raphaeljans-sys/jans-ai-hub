@@ -1,7 +1,7 @@
 ---
 title: Energie/HLS — Zusatzformulare zur Baueingabe (WTA, Schallschutz Aussenlärm, Versickerung)
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-07-29
 sources: [PL - 04 Energie/endk.ch (SharePoint) — WTA-Formular Ausgabe Januar 2024, Formular S Schallschutznachweis Aussenlärm, Gesuch zur Versickerung von Regenwasser (AWEL, Kt. ZH); www.awel.zh.ch/versickerung; www.baugesuche.zh.ch]
 links: [[energie-uebersicht]], [[energie-energienachweis-zh-formulare]], [[recht-norm-quellenlandkarte]], [[recht-norm-abstandsvorschriften-wald-gewaesser]]
 ---
@@ -45,6 +45,23 @@ nötig — fehlt bei bestehenden Gebäuden Seite 4 des WTA-Formulars UND das EN-
 Beilage **Lärmschutznachweis LN-1a/1b** (→ Schallschutz-Formular unten); für Erdsonden/-register/
 Grundwasser/Oberflächenwasser je ein separates **Gesuch AWEL/Gewässerschutz** oder
 **AWEL/Wasserbau**.
+
+> **Querbezug KB energie zur Quelle «Oberflächenwasser» (gesetzt Wissens-Chef Run 20, 29.07.2026).**
+> Was bei Quelle **Oberflächenwasser** (See-, Fluss-, Bachwasser; amtlich **OWEN**,
+> Oberflächenwasserenergienutzung) hinter dem oben genannten separaten Gesuch steckt, führt die KB
+> `energie`: `wissen/energie/destillate/seewasser-waermenutzung-aquathermie-zh-sz` (Konzessionspflicht,
+> **Baugesuch als Leitverfahren** mit gemeinsamer Einreichung von Baubewilligungs- und
+> Konzessionsgesuch bei der Gemeinde, Verfahrensdauer und Leistungsschwellen). Dieser Artikel bleibt
+> führend für **Formular/Verfahrensablauf** (WTA-Formular, EN-103, LN-1a/1b).
+> **Negative Abgrenzung zum Meldeverfahren, damit hier kein falscher Weg entsteht:** § 2a Abs. 1 BVV
+> kennt nur innen aufgestellte Luft/Wasser-WP (lit. f), aussen aufgestellte Luft/Wasser-WP bis 2 m³
+> (lit. g) und Erdwärmesonden-WP (lit. h). Für eine Wasser/Wasser-Wärmepumpe mit Quelle
+> Oberflächenwasser gibt es **keine** Meldeverfahrens-Position; solche Anlagen bleiben im
+> **ordentlichen Baubewilligungsverfahren**. Amtlicher Wortlaut in
+> `wissen/energie/destillate/bvv-zh-meldeverfahren-klimaanlagen-waermepumpen` (Z. 43-48).
+> **Kantonsabgrenzung:** WTA-Formular (Ausgabe Januar 2024), EN-103 und LN-1a/1b sind Kt.-ZH-Instrumente.
+> Für SZ gilt WRG SRSZ 451.100 §§ 11/12, für ZG das Formular «Anfrage für Wasserbezug aus
+> Oberflächengewässern» des Amts für Umwelt (beide im `energie`-Destillat belegt).
 
 **Ausführungskontrolle / GWR-Eintrag (Seite 5):** nach Inbetriebnahme bestätigt die **Private
 Kontrolle** (Fachbereich Heizungsanlagen, ggf. + Schutz vor Lärm bei L/W-WP) sowie eine separate

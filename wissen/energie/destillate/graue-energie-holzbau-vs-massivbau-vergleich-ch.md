@@ -17,11 +17,21 @@ ergaenzende_quellen: "Dieses Destillat fasst die bereits in `[[kbob-graue-treibh
 > absolutes Bauteil (kg CO₂-eq/m² Wandfläche, nicht amortisiert).
 
 ## Das Wichtigste in 1 Satz
-Über alle geprüften Schweizer Quellen hinweg liegt Holzbau bei der grauen Energie/den Treibhausgas­
-emissionen der Erstellung **durchgehend 20–40 % tiefer** als eine vergleichbare mineralische Bauweise
-(Median-Gesamtgebäude **7,5 vs. 9,8 kg CO₂-eq/m² EBF·a**, Wüest Partner/Lignum/BAFU, 35 reale
-Objektpaare); auf Bauteilebene ist der Effekt bei der **Tragstruktur** und der **Dachkonstruktion**
-am grössten, während Haustechnik und Innenausbau kaum unterscheiden.
+Holzbau liegt bei den Treibhausgasemissionen der Erstellung **im Median rund 23 % tiefer** als eine
+vergleichbare mineralische Bauweise (Median-Gesamtgebäude **7,5 vs. 9,8 kg CO₂-eq/m² EBF·a**, Wüest
+Partner/Lignum/BAFU, 35 reale Objektpaare), als **Planungsgrösse 20–25 %**; auf Bauteilebene ist der
+Effekt bei der **Tragstruktur** und der **Dachkonstruktion** am grössten, während Haustechnik und
+Innenausbau kaum unterscheiden.
+
+**Korrektur Wissens-Chef Run 20, 29.07.2026.** Diese Zeile lautete bis zum 29.07.2026 «Über alle
+geprüften Schweizer Quellen hinweg … durchgehend 20–40 % tiefer». Die Bandbreite war weder von der
+eigenen Tabelle unten (espazium-Fallstudie ≈ −13 %) noch vom eigenen Bauherren-Transfer (20–25 %)
+noch von der Primärquelle gedeckt, die «rund 23 % tiefer» nennt
+(`[[kbob-graue-treibhausgasemissionen-2025]]`). **«Durchgehend» qualifiziert allein die RICHTUNG und
+allein die Wüest-Partner-Stichprobe:** dort liegt jedes der 35 Objektpaare unterhalb der
+Winkelhalbierenden, Holz schneidet also bei jedem Paar besser ab als sein mineralischer Zwilling
+(Streuung Holz 5,5–9,5 / mineralisch 7,0–12,0 kg CO₂-eq/m² EBF·a). Eine paarweise Prozent-Bandbreite
+ist daraus **nicht** ableitbar und darf nicht mit «durchgehend» verbunden werden.
 
 ## Einordnung der Quellenlage — wer sagt was (Neutralitäts-Check)
 
@@ -45,13 +55,50 @@ Stadt-Zürich-Betonstudie, die **beide unabhängig von Lignum** erhoben wurden. 
 unterschiedliche, drei institutionell unabhängige Quellenpaare zeigen dieselbe Richtung — das
 stützt die Kernaussage, auch wenn keine einzelne Quelle allein "neutral" ist.
 
+## Norm-Rechenbasis (Querbezug KB `normen`, ergänzt Wissens-Chef Run 20, 29.07.2026)
+- **Rechenkette** SIA 2032 / SIA 2040 / SIA 2039 / SN EN 15804 mit Ziffern und Bezugsgrössen:
+  `wissen/normen/destillate/sia-2040-2017` (Querbezug KB `normen`: dort die Norm-Ziffern und die
+  Rechenbasis, hier die angewandten Kennwerte). Der Verweis trägt die **Rechenkette**, nicht die
+  Ziffer für die Modulabgrenzung.
+- **«SIA 2032, Modul A+B4+C»** (Zeile KBOB in der Quellen-Tabelle oben) ist dem **KBOB-Faktenblatt
+  vom 04.04.2025** entnommen (`[[kbob-graue-treibhausgasemissionen-2025]]`), nicht einem gelesenen
+  Normtext; die Ziffer in SIA 2032 selbst ist im Hub nicht abrufbar. «Modul A+B4+C» bezeichnet hier
+  die **Systemgrenze**.
+- **Bezugsfläche:** Die Werte in kg CO₂-eq/m² **EBF**·a folgen der KBOB-/Minergie-ECO-/SIA-2040-Praxis
+  (Energiebezugsfläche A_E). SIA 2040:2017 setzt die EBF ausdrücklich «in Abweichung von SIA 2032»
+  (Ziff. 2.2.2, vgl. `wissen/normen/destillate/sia-2040-2017`); SIA 2032 bezieht seine Kennwerte auf
+  die **Geschossfläche GF** (SIA 416). Die EBF darf hier also **nicht** an SIA 2032 gebunden werden,
+  vgl. den Korrekturkasten in `[[kbob-graue-treibhausgasemissionen-2025]]`.
+- **«9 kg/m²·a» (SIA 390/1)** stammt aus dem **Minergie-Nachweiskurs 2023**
+  (`[[minergie-nachweiskurs-2023-mkz-thge]]`, in dieser KB seit 17.06.2026 geführt), nicht aus einer
+  KBOB-Quelle.
+- **Lücke in `normen`:** dort existiert bisher **kein** SIA-2032-Destillat, und das dortige Register
+  führt SIA 2032 nur mit der Ausgabe 2010, während hier mit SIA 2032:2020 gearbeitet wird. Die
+  Bring-Schuld an `normen` ist damit primär **SIA 2032:2020** (Ausgaben-Lücke). SIA 390/1 ist ein
+  Vernehmlassungsentwurf ohne publizierte Ausgabe/Ziffer und bleibt bis zur Publikation ein
+  Beobachtungsposten, keine Fundstellen-Schuld.
+
 ## 1) Gesamtgebäude-Ebene: kg CO₂-eq/m² EBF·a (Wohnbauten)
 
 | Quelle | Holzbau | Mineralisch/Massivbau | Differenz | Stichprobe |
 |---|---|---|---|---|
 | Wüest Partner/Lignum/BAFU, 25.09.2025 | **7,5** (Median) | **9,8** (Median) | ≈ **−23 %** | 35 Objektpaare (25 MFH, 10 Bürobauten), Baujahr 2019–2022, je vs. digitaler Zwilling gleicher Dimension/Qualität |
 | espazium/TEC21-Fallstudie, Badenerstrasse 380 Zürich | **7,4** | 8,5 (rechnerischer Vergleichswert) | ≈ **−13 %** | 1 reales Gebäude (54 Wohnungen, 6 OG, Massivholz-Aussenwände, Baujahr 2010), Berechnung Büro für Umweltchemie (Grisli/ecoinvent v2.2/SIA 2032) |
-| Lignum-Journal (Referenzbereich, ohne Einzelstudie) | ~7,5 | 10,5–12,2 | ~20–37 % (Bandbreite je nach Studie) | keine eigene Stichprobe genannt, als Kontext-Range |
+| Lignum-Journal (Referenzbereich, ohne Einzelstudie) | ~7,5 | 10,5–12,2 | ≈ **−29 bis −39 %** | keine eigene Stichprobe genannt, als Kontext-Range |
+
+**Korrektur Wissens-Chef Run 20, 29.07.2026 (Rechenzeile Lignum-Journal).** Die Differenzspalte dieser
+Zeile lautete bis zum 29.07.2026 «~20–37 % (Bandbreite je nach Studie)» und war arithmetisch falsch:
+7,5 gegen 10,5 ergibt −29 %, 7,5 gegen 12,2 ergibt −39 %. Der korrigierte Wert ist eine **eigene
+Nachrechnung aus den beiden Randwerten**, kein Studienergebnis, und darf **nicht** als Beleg für eine
+Spannweite des Holzbau-Vorteils verwendet werden: die Quellen-Tabelle oben stuft den
+Lignum-Journal-Artikel selbst als Kontextbereich ohne eigene Studienquelle ein
+(«als Kontext, nicht als harte Primärzahl verwendet»).
+
+**Zur Streuung der Einzelfälle.** Leitzahl bleibt der Wüest-Partner-Median (rund 23 %, als
+Planungsgrösse 20–25 %). Die Einzelwerte streuen von ≈ −13 % (espazium-Fallstudie, ein Gebäude,
+Vergleichswert rechnerisch) bis zum nachgerechneten Lignum-Kontextbereich −29 bis −39 % (keine
+Primärstudie). Diese Randwerte sind die Streuung von Quellen **unterschiedlicher Belastbarkeit** und
+keine belegte Bandbreite des Holzbau-Vorteils (eigene Einordnung dieses Destillats).
 
 **Graue Energie in MJ/m²·a** (Lehrmittel-Systematik Klingler/Kasser, andere Masseinheit, nicht direkt
 mit den kg-CO₂-Werten oben verrechenbar): gut gedämmter **Massivbau ≈ 74 MJ/m²·a**, gut gedämmter
@@ -131,8 +178,9 @@ Dämmleistung** als Vergleichsbasis.
   Ziegel-/Betonmasse einer Massivwand liegt **über** dem kompletten Holzbau-Wandaufbau (Lignumdata
   vs. EPD/treeze-Beton).
 - **Auf Gesamtgebäudeebene** ist mit **rund 20–25 % weniger** grauer Treibhausgasemission bei
-  vergleichbarem MFH/Bürobau in Holzbauweise zu rechnen (Median 7,5 vs. 9,8 kg CO₂-eq/m²EBF·a,
-  35-Objektpaare-Studie) — als Planungsgrösse, nicht als Garantie für ein Einzelprojekt.
+  vergleichbarem MFH/Bürobau in Holzbauweise zu rechnen (im Median rund 23 %: 7,5 vs. 9,8 kg
+  CO₂-eq/m²EBF·a, 35-Objektpaare-Studie) — als Planungsgrösse, nicht als Garantie für ein
+  Einzelprojekt.
 - **Der grösste Bauteil-Hebel ist die Dachkonstruktion** (bis zu 38–45 % Einsparung), gefolgt von
   Geschossdecken und Aussenwand; Haustechnik und Innenausbau unterscheiden sich kaum zwischen den
   Bauweisen — dort lohnt sich die Materialdiskussion weniger.
@@ -143,8 +191,9 @@ Dämmleistung** als Vergleichsbasis.
   liegt bereits unter dem Minergie-Grenzwert für Wohnen MFH (11 kg CO₂-eq/m²EBF·a), der
   Massivbau-Median (9,8) ebenfalls — beide Bauweisen können den heutigen Minergie-Grenzwert
   erreichen, Holzbau mit mehr Reserve. Für die strengere Klimapfad-Norm SIA 390/1 (9 kg/m²·a,
-  in Vernehmlassung) liegt nur der Holzbau-Median darunter, der Massivbau-Median (9,8) knapp darüber
-  → `[[kbob-graue-treibhausgasemissionen-2025]]`.
+  in Vernehmlassung; Zahl aus dem Minergie-Nachweiskurs 2023,
+  `[[minergie-nachweiskurs-2023-mkz-thge]]`) liegt nur der Holzbau-Median darunter, der
+  Massivbau-Median (9,8) knapp darüber → `[[kbob-graue-treibhausgasemissionen-2025]]`.
 - **Diese Zahlen sind Planungsgrössen, keine projektgenaue Ökobilanz.** Für eine verbindliche
   SIA-2032-Berechnung eines konkreten Projekts bleiben die kostenpflichtigen KBOB-Ökobilanzdaten
   v8.0 mit dem effektiven Schichtaufbau die präzisere Quelle.

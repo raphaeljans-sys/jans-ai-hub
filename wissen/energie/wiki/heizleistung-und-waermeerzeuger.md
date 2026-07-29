@@ -1,7 +1,7 @@
 ---
 title: Heizleistung & Wärmeerzeuger-Dimensionierung
 status: established
-last_updated: 2026-07-25
+last_updated: 2026-07-29
 sources: [destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/waermepumpe-systemvergleich.md, destillate/fawa-jaz-feldanalyse-waermepumpen.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/cop-scop-jaz-waermepumpe-gruenenwald.md, destillate/sia-384-3-wpesti-jaz-methode.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/kaeltemittel-r290-waermepumpen-ch.md, destillate/erdwaermesonden-bewilligung-zh-sz.md, destillate/waermepumpen-system-modul-wpsm-heizkoerper-altbau.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[u-werte-grenzwerte-ch]], [[wta-formular-zh-waermetechnische-anlagen]]
 ---
@@ -109,10 +109,14 @@ bleiben trotz gezielter Nachrecherche unbelegt (nur widersprüchliche Marketing-
 Jede Erdsonden-WP braucht eine **gewässerschutzrechtliche Bewilligung**: in ZH via Gemeinde/AWEL
 (Bohrtiefe max. 500 m, Grenzabstand 2,5 m, in Grundwasserschutzzonen S1/S2 faktisch ausgeschlossen,
 im Gewässerschutzbereich Au bewilligungspflichtig), in SZ über eine kostenlose Vorabklärung beim
-Amt für Umwelt und Energie + eBau-Baugesuch. **Gebühr ZH (Run 67 primärquellen-verifiziert):**
-keine Pauschale, reine **Aufwandgebühr** (§ 35/§ 69 KGSchV + GebV UR: Zeit-Mitteltarif abzüglich
-20 %) mit gesetzlicher **Obergrenze CHF 25'000** pro Einzelfall — für ein EFH-Standardgesuch dürfte
-der effektive Betrag deutlich darunter liegen. Details → `[[erdwaermesonden-bewilligung-zh-sz]]`,
+Amt für Umwelt und Energie + eBau-Baugesuch. **Rechtsgrundlage ZH (Korrektur Wissens-Chef Run 20,
+29.07.2026):** § 44 Abs. 1 lit. a Ziff. 3 WsG (LS 724.1; für die Bohrung zusätzlich lit. f) und
+§ 92 WsV (LS 724.11), beide in dieser Fassung in Kraft seit **01.06.2026**. Die bis Run 67 hier
+zitierten § 35/§ 69 KGSchV (LS 711.11) sind **per 01.01.2022 aufgehoben** und nur noch historisch
+(bis 31.12.2021) einschlägig. **Gebühr ZH:** keine Pauschale, reine **Aufwandgebühr** (§ 209 WsV
+verweist auf die GebV UR, LS 710.2: Zeit-Mitteltarif abzüglich 20 %) mit gesetzlicher **Obergrenze
+CHF 25'000** pro Einzelfall (§ 10 GebV UR, ⚠ Fassungsstand noch zu verifizieren); für ein
+EFH-Standardgesuch dürfte der effektive Betrag deutlich darunter liegen. Details → `[[erdwaermesonden-bewilligung-zh-sz]]`,
 FAQ **F71**.
 
 ## WPSM-Zertifikat und die Heizkörper-/Altbau-Frage (F154)

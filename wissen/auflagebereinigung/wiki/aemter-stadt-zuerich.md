@@ -1,9 +1,9 @@
 ---
 title: Ämter & Adressaten der Auflagen (Stadt Zürich)
 status: emerging
-last_updated: 2026-06-04
-sources: [Vorabzug Bauentscheid 2619-KISPI Stadt ZH, PBG, BVV, BBV I, VKF-Brandschutzrichtlinien]
-links: [[fristenlogik-bauentscheid-zh]], [[auflagentypen-gewerkzuteilung]], [[brandschutz-auflagen-qss]]
+last_updated: 2026-07-29
+sources: [Vorabzug Bauentscheid 2619-KISPI Stadt ZH, PBG, BVV, BBV I, VKF-Brandschutzrichtlinien, Logbuch-Journal 24.07./25.07./27.07.2026 (KISPI Auflagebereinigung 1171/26 Lenggstrasse 30)]
+links: [[[fristenlogik-bauentscheid-zh]], [[auflagentypen-gewerkzuteilung]], [[brandschutz-auflagen-qss]], wissen/projekt-lessons/wiki/kispi-behoerden-zustaendigkeitswechsel-1171-26.md]
 ---
 
 # Ämter & Adressaten der Auflagen (Stadt Zürich)
@@ -43,5 +43,29 @@ stammen von den **städtischen** Stellen + GVZ.
 > (§ 318 PBG) und der direkte Rekurs ans Baurekursgericht (§ 329 PBG) führt
 > `wissen/baurecht/wiki/baubewilligungsverfahren` — der Rechtsanker für die «Wer-Adressat»-Logik.
 
+## Fallbezogener Zuständigkeitsstand (kein generischer Amtsstand)
+
+**Korrektur Wissens-Chef Run 20, 29.07.2026.** Die Tabelle oben führt Ämter, nicht
+Personen. Die folgenden Angaben sind **datierte, gebiets- bzw. fallbezogene Stände** aus
+einem konkreten Verfahren und **keine generische Amtszuständigkeit**. Sie dürfen nicht
+als Dauerangabe verwendet werden, sonst tauscht diese KB nur eine veraltete
+Personenangabe gegen die nächste.
+
+- **AfB, Gebiets- und Teamzuteilung:** Gebiet Weinegg (u.a. Lenggstrasse 30) gehört zu
+  **Team 5**, Ansprechperson **Linus Furrer**. Stand 24.07.2026, mitgeteilt durch
+  A. Hottinger (AfB) auf Nachfrage. Der Wechsel ist **gebietsbezogen**: A. Hottinger
+  bleibt Kreisarchitektin AfB für ihre übrigen Gebiete (so weitergeführt in
+  `rules/anrede-kontakte.md`, «Wartstrasse 8 u.a.»).
+- **UGZ, Sonderzuständigkeit nach Fallgrösse:** bei Einrichtungen dieser Grössenordnung
+  liegt die Zuständigkeit nicht bei den sonst bekannten Ansprechpersonen (Stubbe,
+  Zürcher), sondern bei einer Sonderzuständigkeit, im Fall 2619 Hr. Hansen, Stv. Shyam
+  Zala. Stand 27.07.2026, 14:41, mitgeteilt durch T. Stubbe (UGZ).
+
+Fall-Beweiskette, Ursache und die verallgemeinerbare Lesson dazu führt
+`wissen/projekt-lessons/wiki/kispi-behoerden-zustaendigkeitswechsel-1171-26.md`. Diese KB
+bleibt führend für Auflagen-Ziffer, Amt und Frist.
+
 ## Offene Punkte
-Direktnummern/Kontaktpersonen je Amt → sammeln (siehe [[QUESTIONS]]).
+Direktnummern/Kontaktpersonen je Amt → sammeln (siehe [[QUESTIONS]]). Kontaktpersonen
+haben ein Verfallsdatum: Zuständigkeit vor einer fristgebundenen Eingabe aktiv
+rückfragen, nicht aus dem E-Mail-Verlauf übernehmen.

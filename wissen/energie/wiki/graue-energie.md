@@ -1,7 +1,7 @@
 ---
 title: Graue Energie & THGE — das CO₂ im Bauteil
 status: established
-last_updated: 2026-07-21
+last_updated: 2026-07-29
 sources: [destillate/graue-energie-betriebsenergie.md, destillate/minergie-besser-planen-bauen.md, destillate/clt-bauphysik-stora-enso.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/muken-2025-verabschiedet.md, destillate/kbob-bauteilkatalog-co2-je-aufbau.md, destillate/kbob-massivbau-bauteilaufbau-co2.md]
 links: [[INDEX]], [[minergie-standards]], [[minergie-nachweiskurs-2023-mkz-thge]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[holzbau-bauphysik-clt]], [[kbob-graue-treibhausgasemissionen-2025]], [[muken-2025-verabschiedet]], [[kbob-bauteilkatalog-co2-je-aufbau]], [[kbob-massivbau-bauteilaufbau-co2]]
 ---
@@ -84,6 +84,13 @@ liefert den Rahmen (Datenstand 04.04.2025) → `[[kbob-graue-treibhausgasemissio
   Ersatz, Entsorgung) — **ohne** Betrieb/Mobilität. Messgrösse **kg CO₂-eq/m² EBF** (absolut oder /Jahr).
   Norm-Rechenkette (SIA 2032/2040/2039, EN 15804) im normen-Destillat `wissen/normen/destillate/sia-2040-2017`
   (Querbezug KB normen: dort die Norm-Ziffern/Rechenbasis, hier die angewandten Kennwerte).
+  **Präzisierung Wissens-Chef Run 20, 29.07.2026:** Die Bezugsfläche **EBF** gehört zur KBOB-/
+  Minergie-ECO-/SIA-2040-Praxis, **nicht** zu SIA 2032 — SIA 2040:2017 setzt die Energiebezugsfläche
+  A_E ausdrücklich «in Abweichung von SIA 2032» (Ziff. 2.2.2), und SIA 2032 bezieht seine Kennwerte
+  auf die **Geschossfläche GF** (SIA 416; belegt für die Ausgabe 2010, für 2032:2020 nicht am Normtext
+  verifiziert). «Modul A+B4+C» bezeichnet die Systemgrenze und ist dem KBOB-Faktenblatt entnommen, nicht
+  einem gelesenen Normtext. Die Kennwerte selbst bleiben unverändert korrekt EBF-bezogen; in `normen`
+  fehlt bisher ein SIA-2032-Destillat (Bring-Schuld SIA 2032:2020) → `[[kbob-graue-treibhausgasemissionen-2025]]`.
 - **Datenbasis:** KBOB-**Ökobilanzdaten im Baubereich v8.0 (20.02.2026)** — anerkannte Werte für
   GWP/Primärenergie/UBP je Baustoff; SIA-2032-Vorprojektwerte rechnen sie auf Bauteile herunter.
 - **Reduktionspotenzial bis 40 %** (MFH) durch Kombination baulicher Massnahmen. Die **9 Hebel**
@@ -115,8 +122,9 @@ Das sind **Zertifizierungs-Grenzwerte**, keine Durchschnittswerte — Vorsicht b
 ein konkretes Projekt.
 
 **Wüest Partner/Lignum/BAFU (25.09.2025), 35 Holzbauten vs. mineralischer Zwilling:** Median-THGE
-Gesamtgebäude **Holz 7.5 vs. Mineralisch 9.8 kg CO₂-equ./m²EBF·a** (≈23 % tiefer, durchgehend über alle
-35 Objektpaare). Je Bauteil (Median, aus Boxplot, ca.-Werte): Aussenwand ~1.4 vs. ~2.1 · Dach ~2.7 vs.
+Gesamtgebäude **Holz 7.5 vs. Mineralisch 9.8 kg CO₂-equ./m²EBF·a** (im Median ≈23 % tiefer; jedes der
+35 Objektpaare liegt unter der Winkelhalbierenden, Holz schneidet also **in der Richtung** durchgehend
+besser ab — das ist keine Prozent-Bandbreite, vgl. Korrekturkasten unten). Je Bauteil (Median, aus Boxplot, ca.-Werte): Aussenwand ~1.4 vs. ~2.1 · Dach ~2.7 vs.
 ~4.9 · Innenwände ~1.0 vs. ~1.5 · Geschossdecken ~1.5 vs. ~2.4 kg CO₂/m² Bauteil·a. Grösster Hebel: die
 **Dachkonstruktion** («38 % Einsparung auf Bauteilebene möglich») — deckt sich mit dem oben belegten
 Tragstruktur-Hebel (Klingler/Kasser 2012, 49 % / 40 % Anteil am Gesamt-GTHGE), zwei unabhängige Quellen
@@ -145,12 +153,23 @@ weiterhin nur im PRO-Abo (bestätigter Negativbefund).
 
 ## Gesamtgebäude-Synthese Holzbau vs. Massivbau (ergänzt Run 119, 2026-07-29)
 Über 35 real verglichene Schweizer Objektpaare (Wüest Partner/Lignum-Studie, Branchenauftrag
-explizit gekennzeichnet) liegt Holzbau bei der grauen Energie der Erstellung durchgehend
-**20–40 % tiefer** als vergleichbarer Massivbau (Median Gesamtgebäude **7,5 vs. 9,8 kg
-CO₂-eq/m² EBF·a**); grösster Hebel ist nicht die Aussenwand (siehe Bauteilaufbau-Zahlen oben),
+explizit gekennzeichnet) liegt Holzbau bei der grauen Energie der Erstellung **im Median rund
+23 % tiefer** als vergleichbarer Massivbau (Median Gesamtgebäude **7,5 vs. 9,8 kg CO₂-eq/m² EBF·a**),
+als **Planungsgrösse 20–25 %**; grösster Hebel ist nicht die Aussenwand (siehe Bauteilaufbau-Zahlen oben),
 sondern **Dach** (bis 38–45 % weniger) und Tragstruktur insgesamt. Der Effekt kommt nicht von
 besserer Dämmung (Massivholz dämmt schlechter als Mineralwolle), sondern von geringerer
 Materialmasse + CO₂-Bindung im Holz — ein schwerer Massivholz-Dachaufbau kann trotzdem
 schlechter abschneiden als ein leichter Massivbau-Aufbau. Unabhängiges Korrektiv: treeze/
 ZZ-Wancor-Studie 2017 (−73 % Holzriegel vs. Backstein+EPS) → `[[graue-energie-holzbau-vs-massivbau-vergleich-ch]]`,
 FAQ F189.
+
+**Korrektur Wissens-Chef Run 20, 29.07.2026.** Dieser Abschnitt nannte bis zum 29.07.2026
+«durchgehend **20–40 % tiefer**» und schrieb die Spannweite der Wüest-Partner-Stichprobe zu. Das
+trägt die Primärquelle nicht: sie nennt «rund 23 % tiefer» (Median 7,5 vs. 9,8) und belegt
+«durchgehend» ausdrücklich nur als **Richtungsaussage** — jedes der 35 Objektpaare liegt unterhalb
+der Winkelhalbierenden, bei einer Streuung Holz 5,5–9,5 / mineralisch 7,0–12,0 kg CO₂-eq/m² EBF·a.
+Eine paarweise Prozent-Bandbreite ist daraus nicht ableitbar. Leitzahl ist damit «im Median rund
+23 %, als Planungsgrösse 20–25 %» (deckt sich mit dem Bauherren-Transfer im Destillat und mit
+FAQ F189); «durchgehend» darf nur die Richtung und nur die Wüest-Partner-Stichprobe qualifizieren.
+Detail und die mitkorrigierte Rechenzeile zum Lignum-Kontextbereich →
+`[[graue-energie-holzbau-vs-massivbau-vergleich-ch]]`.

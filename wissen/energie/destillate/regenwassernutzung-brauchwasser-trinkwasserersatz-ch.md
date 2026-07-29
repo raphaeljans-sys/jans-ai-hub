@@ -27,6 +27,34 @@ beziffern das damit erschliessbare Einsparpotenzial auf rund 40 bis 55 % des hä
 Trinkwasserbedarfs bei einer Investition von der Grössenordnung 10'000 Franken für eine
 Einfamilienhaus-Zisterne.
 
+> ⚠ **Korrektur Wissens-Chef Run 20, 29.07.2026 — kantonale Rechtsgrundlage im Kt. ZH nachgetragen.**
+> Dieses Destillat stützte die Zulässigkeit der Brauchwassernutzung allein auf das SVGW-Merkblatt,
+> also auf eine Verbandsnorm. Im **Kanton Zürich** ist sie zusätzlich **gesetzlich** abgesichert:
+> **§ 97 Abs. 3 WsG** (LS 724.1) lautet «Die Verwendung von Regenwasser als Brauchwasser in
+> getrennten Systemen ist zulässig und gebührenfrei.» Fassungsvermerk: **WsG in der Fassung
+> Nachtrag 133, in Kraft seit 01.06.2026**. Beleg:
+> `baurecht/raw/260728_amtlich_zh_wsg.md:1374` (die KB `baurecht` ist für den ZH-Erlassstand und
+> den Wortlaut führend, `energie` zitiert nur).
+> **Geltungsbereich beachten:** dieses Destillat ist CH-weit angelegt (das SVGW-Merkblatt gilt
+> schweizweit), § 97 Abs. 3 WsG gilt dagegen **nur für den Kanton Zürich** — es ist die kantonale
+> Grundlage in ZH, nicht «die» Rechtsgrundlage des Destillats. Für die übrigen Kantone wurde eine
+> entsprechende Bestimmung nicht geprüft (siehe «Offene Punkte»).
+>
+> **Reichweite der Gebührenfreiheit nicht überdehnen.** «Gebührenfrei» bezieht sich auf die
+> **Verwendung des eigenen Regenwassers**, also auf das genutzte Regenwasservolumen — nicht auf
+> einen Bezug (bezogen wird nichts) und nicht auf einen Wegfall der übrigen Gebühren. Unberührt
+> bleiben nach demselben Erlass:
+> - die **Bezugspflicht** nach § 97 Abs. 1 WsG und die **Anschlusspflicht** nach § 178 WsV — die
+>   Zisterne ersetzt den Anschluss an die öffentliche Wasserversorgung nicht;
+> - die **Gebühren der Wasserversorgung**: § 100 Abs. 1 WsG erklärt für deren Finanzierung die
+>   §§ 61 ff. WsG sinngemäss anwendbar (Grundgebühr plus mengenabhängige Gebühr);
+> - die **Abwassergebühren**: § 111 Abs. 2 WsV verlangt ausdrücklich, dass die Gemeinden bei der
+>   Festsetzung der Grundgebühren «sowohl den Schmutz- als auch den Regenwasseranfall»
+>   berücksichtigen (`baurecht/raw/260728_amtlich_zh_wsv.md:1240`).
+>
+> Wer die Gebührenfreiheit auf den ganzen Wasserbezug bezieht, rechnet die Amortisation zu günstig
+> — derselbe Fehler wie eine zu teure Rechnung, nur in der anderen Richtung.
+
 ## Kernregeln aus dem SVGW-Merkblatt TPW 2001/1 (verbindlicher Normtext)
 - **Netztrennung strikt:** Trinkwasser- und Regenwasserleitungen dürfen **nicht verbunden**
   werden. Eine Rückspeisung von Regenwasser ins Trinkwassernetz ist ausgeschlossen.
@@ -88,7 +116,15 @@ nicht als belegter Kennwert zu verstehen (Rule `identifikatoren-verifizieren`).
 - **Wirtschaftlichkeit ehrlich rechnen:** Die kolportierten rund 10'000 CHF Investition und
   10 bis 20 Jahre Amortisation stammen aus Marktquellen, nicht aus einer amtlichen Kennwert-Quelle
   — für eine belastbare Aussage im Einzelfall braucht es eine Offerte eines Sanitärplaners/
-  Fachbetriebs, nicht diese Bandbreite als Zusage.
+  Fachbetriebs, nicht diese Bandbreite als Zusage. **Auf der Ertragsseite als Rechtsfolge (Kt. ZH)
+  einsetzen:** das genutzte Regenwasservolumen ist nach § 97 Abs. 3 WsG gebührenfrei — aber nur
+  dieses Volumen. Anschluss- und Bezugspflicht (§ 97 Abs. 1 WsG, § 178 WsV), die Grundgebühr der
+  Wasserversorgung (§ 100 Abs. 1 WsG i.V.m. §§ 61 ff. WsG) und die Abwassergebühren (§ 111 Abs. 2
+  WsV) bleiben bestehen und dürfen in der Amortisationsrechnung nicht wegfallen (WsG/WsV in der
+  Fassung Nachtrag 133, in Kraft seit 01.06.2026).
+- **Die Zisterne ersetzt den Anschluss an die öffentliche Wasserversorgung nicht** (Kt. ZH):
+  Bezugspflicht nach § 97 Abs. 1 WsG und Anschlusspflicht nach § 178 WsV bleiben vom Brauchwasser-
+  netz unberührt — das Brauchwassernetz ist eine Ergänzung, keine Ablösung des Trinkwasseranschlusses.
 - **Meldung ans Wasserwerk nicht vergessen** — das ist neben der Baueingabe ein eigener,
   gebäudetechnischer Meldeschritt (SVGW-Merkblatt), unabhängig vom Baubewilligungsverfahren.
 - **Kennzeichnung ist Pflicht, nicht Kür:** Jede Regenwasser-Zapfstelle/-Leitung im Gebäude
@@ -111,6 +147,16 @@ nicht als belegter Kennwert zu verstehen (Rule `identifikatoren-verifizieren`).
   eigene, tiefere Recherche (eigenes Destillat).
 - **Kantonale/kommunale Förderung** einer Regenwassernutzungsanlage (analog Solarförderung) nicht
   geprüft — offen für eine spätere Vertiefung.
+- **Gesetzliche Grundlage der Brauchwassernutzung in den übrigen Kantonen nicht geprüft** (Stand
+  Run 20, 29.07.2026): belegt ist bisher nur § 97 Abs. 3 WsG für den Kanton Zürich (siehe
+  Korrekturkasten oben). Für SZ, ZG und die weiteren JANS-Projektkantone ist offen, ob ein
+  vergleichbarer Erlass die Zulässigkeit und die Gebührenfreiheit ausdrücklich regelt; dort trägt
+  bis auf Weiteres allein das SVGW-Merkblatt plus die kommunale Praxis des Wasserwerks.
+- **Wasserversorgungsteil des ZH-Wassergesetzes (§§ 95-100 WsG, § 178 WsV) im Hub unverarbeitet:**
+  Bezugs-/Anschlusspflicht, Brauchwassernutzung und Gebührensystematik sind bisher nur im
+  amtlichen Rohtext vorhanden, nicht destilliert. Die Destillation gehört in die führende KB
+  `baurecht` (Wortlaut) beziehungsweise `planungsgrundlagen` (Verfahren), nicht in dieses
+  Destillat.
 - **Kein Bezug zu EN 1717/DIN 1988** in dieser Recherche als Schweizer Bezugsnorm bestätigt
   (deutsche Anbieterquelle nennt diese Normen, das SVGW-Merkblatt selbst zitiert sie in der
   gelesenen Fassung nicht) — bei einer konkreten Systemtrennung ist die SVGW-Praxis (freier

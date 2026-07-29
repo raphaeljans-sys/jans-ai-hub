@@ -157,6 +157,64 @@ fehlenden Verknüpfung der verstreuten Einzelziffern zu einer Entscheidungsfigur
    BSV 2026 die Treppen-Entlastung innerhalb der Nutzungseinheit antastet, ist offen (Normkonzept
    BSV 2026 liegt destilliert vor, Treppen-Eckpunkt bisher nicht gezielt geprüft).
 
+## 2026-07-29 (Cross-KB energie → normen, Wissens-Chef Run 20) — drei Bring-Schulden: SIA 2032:2020, SIA 390/1, SVGW-Regelwerk
+
+Angemeldet in der **Empfänger-KB**, nicht als Notiz in der abgebenden (Regel aus Run 8). Alle drei
+Punkte sind adversarial verifiziert; die Formulierungen unten folgen dem Verifikationsurteil, nicht
+der ursprünglichen Fundmeldung.
+
+1. **SIA 2032:2020 beschaffen und destillieren (P1) — die primäre Ausgaben-Lücke.** `normen` hat
+   **kein** SIA-2032-Destillat (`ls destillate | grep 2032` leer), SIA 2032 steht auch nicht im
+   JANS-Inventar, und `wiki/REGISTER.md` führt die Ausgabe **2010**, während `energie` durchgängig mit
+   **SIA 2032:2020** arbeitet. Belege für 2020 sind zwei unabhängige Sekundärquellen der KB `energie`
+   (KBOB-Faktenblatt «Graue Treibhausgasemissionen» 04.04.2025; MuKEn-2025-Methodikpapier Modul G);
+   der Normtext selbst ist kostenpflichtig und wurde nie eingesehen. Die Register-Zeile trägt seit
+   heute ein zeilenspezifisches ⚠-Fassungsflag, die Ausgaben-Kette bleibt bewusst unverändert
+   (Blindzone-Regel: ohne externe Gegenprüfung kein ✓/✗ setzen). **Abnehmer warten:** vier
+   `energie`-Destillate, die BAUHERREN-FAQ und `wissen/planungsgrundlagen/wiki/energie-uebersicht.md`
+   (Z. 78/160) stützen auf SIA 2032 ab. Nebenbefund derselben Lücke: `[[sia-2032]]` in
+   `destillate/sia-2040-2017.md:9` (Frontmatter `links:`) ist ein **dangling link** und bleibt es, bis
+   das Destillat existiert.
+2. **SIA 390/1 (Klimapfad-Norm) fehlt in `normen` vollständig — Beobachtungsposten, kein
+   Destillat-Auftrag (P2).** `grep -rn "390/1"`, `grep -rni "sia 390"` und `grep -rni "klimapfad"` über
+   die gesamte KB: je 0 Treffer. `energie` führt die Norm seit **Run 10, 17.06.2026** mit dem Zielwert
+   **9 kg CO2-eq/m²·a** (Kat. I–VI, inkl. PV/Erdsonde/Solarthermie) und dem ehrlichen Statusmarker «in
+   Vernehmlassung»; Fundstelle der Zahl ist der Minergie-Nachweiskurs 2023
+   (`wissen/energie/destillate/minergie-nachweiskurs-2023-mkz-thge.md:72`), **nicht** KBOB. Weil SIA
+   390/1 ein Vernehmlassungsentwurf ohne publizierte Ausgabe und ohne zitierfähige Ziffer ist, kann
+   `normen` bis zur Publikation grundsätzlich keine Fundstelle liefern: **Publikation abwarten, dann
+   destillieren und ins REGISTER aufnehmen.** Der Vernehmlassungs-Marker in `energie` ist korrekt und
+   nicht als Mangel zu behandeln.
+3. **SVGW-Regelwerk: im Hub nur als Fremdzitat vorhanden (P1 für W3, P2 für die übrigen).** `normen`
+   hat **kein einziges SVGW-Destillat** (280 Dateien in `destillate/`, keine mit svgw/w3/w10 im Namen);
+   SVGW erscheint ausschliesslich in VKF-/SIA-Bibliographien. Konkret fehlen als Norm-Fundstelle:
+   - **SVGW W3, Trinkwasserinstallationen, Ausgabe 03/2000** — bisher nur als Titelzeile in
+     `destillate/vkf-verz-40-15-weitere-bestimmungen.md:38`. Auslöser: die Rückflusssicherungs-Regel
+     («freier Auslauf/Luftstrecke statt blosser Rückflussverhinderer») in
+     `wissen/energie/destillate/regenwassernutzung-brauchwasser-trinkwasserersatz-ch.md:41-46` ruht
+     dort auf «allgemeiner SVGW-Praxis» **ohne Fundstelle**. Bis W3 im Volltext vorliegt, bleibt die
+     Regel praxisgestützt und darf nicht als Norm-Behauptung zitiert werden (Rule `normen-referenz`).
+   - **SVGW W3/E3:2020** (Hygiene, in Kraft seit 01.09.2020) und **W3/E4:2021** (Selbstkontrolle) —
+     in `wissen/energie/destillate/trinkwassererwaermung-legionellenschutz-energieeffizienz.md:161/174`
+     nur über eine Fachpresse-Zusammenfassung bzw. über Metadaten bekannt, **nicht** im Volltext.
+     Wichtig für die Zitierpraxis: beide Ergänzungen regeln **nicht** die Systemtrennung/
+     Rückflusssicherung; sie taugen als Ausgaben-Hinweis auf denselben Regelwerks-Stamm, aber **nicht**
+     als inhaltlicher Beleg für die Rückflussregel (sonst entsteht ein Scheinbeleg).
+   - **SVGW W5, Ausgabe 05/1999** (Anschluss Sprinkleranlagen ans Trinkwassernetz), **SVGW G1** und
+     **GW 1002/1+2** — ebenfalls nur als Fremdzitate in VKF-/SIA-Bibliographien.
+   - **SVGW-Merkblatt TPW 2001/1 «Regenwassernutzung»** (im SVGW-Shop als «W10001 d», Produkt-Nr.
+     250700, kostenlos, Ausgabe März 2001). Sonderfall: dieses Merkblatt liegt in `energie` bereits
+     **im Volltext gelesen** vor (Destillat `regenwassernutzung-brauchwasser-trinkwasserersatz-ch`,
+     Run 119) — hier fehlt allein die Register-Erfassung, nicht die Quelle.
+   - **SN EN 1717:2000 «Schutz Trinkwasser vor Rückfliessen»** — die im Hub tatsächlich vorhandene,
+     stärkere Fundstelle zur Rückflussthematik: `destillate/vkf-verz-40-15-weitere-bestimmungen.md:40`
+     (BSR 19-15) und `wissen/planungsgrundlagen/wiki/brandschutz-pl03-wegweiser.md:1242`.
+     **Nebenbefund für die abgebende KB (Nachweis liegt bei `energie`, hier nur vermerkt):** das
+     Regenwasser-Destillat wertet EN 1717 in seinen «Offenen Punkten» (Z. 114-117) als blosse
+     «deutsche Anbieterquelle» ab und nennt sie «nicht als Schweizer Bezugsnorm bestätigt» — das ist
+     eine Fehlabwertung einer als SN übernommenen Schweizer Norm und sachlich gewichtiger als die
+     W3-Lücke.
+
 ## 2026-07-28 (Cross-KB planungsgrundlagen → normen, Wettbewerbs-Scan Grassenbiwak) — zwei Fundstellen-Schulden BSR 16-15 — BEIDE GESCHLOSSEN 29.07.2026, siehe Run 36 oben
 
 Angemeldet in der **Empfänger-KB** (Regel aus Run 8). Auslöser: Brandschutz-Scan des

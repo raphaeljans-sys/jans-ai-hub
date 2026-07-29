@@ -2,6 +2,59 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-07-29 — Cross-KB `energie` → `grobkosten` (Wissens-Chef Run 20): Bring-Schuld Erstellungskosten Holzbau gegen Massivbau, Kalibrierung des unbelegten Zuschlags +5–15 %
+
+Angemeldet in der **Empfänger-KB**, nicht als Notiz in der abgebenden (Regel aus Run 8). Der Text
+unten folgt dem Verifikationsurteil; die ursprüngliche Fundmeldung trug einen Methodenanspruch, der
+für den Kostenteil der Quelle **nicht** belegt ist.
+
+**Die Bring-Schuld.** `wiki/kennwerte.md:200` führt in der Tabelle «Zuschläge (multiplikativ)» den
+einzigen Holz-Ansatz des Hubs: «Hoher Ausbaustandard / Nachhaltigkeit (Minergie-P, Holz) | + 5–15 % |
+je nach Zielbild». Der Wert ist ein reiner Seed **ohne Quelle** (Herkunft `CHANGELOG.md:627`,
+Anlage der KB) und vermischt zwei Treiber: die **Bauweise** (Holz gegen mineralisch) ist etwas anderes
+als der **Ausbaustandard** (Minergie-P). Rekursiver grep «holzbau|massivbau|lignum» über die gesamte KB:
+0 Treffer. Aufgabe: den Zuschlag an einer belegten Quelle kalibrieren **und** die beiden Treiber trennen.
+
+**Die Quelle, die genau die Bauweise-Achse liefert.** Wüest Partner AG (Dr. Julia Selberherr) im
+Auftrag von Lignum / Holzwirtschaft Schweiz / BAFU, «Massiv- vs. Holzbau: Erstellungskosten und
+ökologische Kennzahlen im Vergleich», Präsentation 25.09.2025, 12 Folien. Folie 4 definiert die
+Kennzahlen **BKP 1–5 pro GV, pro GF und pro HNF** (plus BKP 2 und BKP 214), teuerungsbereinigt per
+**April 2023**, Kategorie Grossregion / Wohnbauten. Folie 5 stellt Massivbau gegen Holzbau (oberes/
+unteres Preissegment) auf den Achsen GV und GF gegenüber. Das ist punktgenau die Leitkennzahl dieser
+KB (CHF/m³ GV, BKP 1–5, Wohnbau), nicht EBF, nicht HNF-only, nicht Healthcare.
+
+**Vorbedingungen und Vorbehalte, die vor der Auswertung zu klären sind:**
+
+- **Die Quelle liegt NICHT im Hub archiviert** und muss selbst gezogen werden:
+  `https://www.minergie.ch/media/3_holzbau-investionskosten-julia-selberherr.pdf` (12 Folien, 2.28 MB,
+  Textlayer vorhanden); Ergebnisplattform laut Deck: `bauenmitholz.info`. In `energie` wurde die PDF in
+  **Run 83 (21.07.2026)** gelesen, aber nur ökologisch ausgewertet; der Kostenteil wurde **nie**
+  extrahiert. `energie/raw/` enthält dazu nur den `_INGESTED.md`-Vermerk (Z. 207, WebSearch/WebFetch).
+- **Stichprobe klären, nicht übernehmen.** Die oft zitierten «35 Holzbauten gegen digitalen Zwilling»
+  gelten belegt nur für die **ökologische** Hälfte (Folie 7: Fallbeispiel Holzbau gegen digitalen
+  Zwilling in mineralischer Bauweise, gleiche Dimensionen/U-Wert/Schall). Für den **Kostenteil** weist
+  die Datengrundlagen-Folie 3 eine andere Stichprobe aus: **17 Holzbauten (Baujahr 2019–2022) gegen 50
+  reale Referenzobjekte (2001–2022)**, dazu 1 Fallbeispiel Sanierung/Aufstockung (2021) und 2
+  Modellrechnungen (2026), Erstellungskosten BKP 1–5 je CHF 5–150 Mio. Folie 2 behauptet pauschal, die
+  35 Holzbauten seien «in Bezug auf Kosten und ökologische Kennzahlen» mit dem Zwilling verglichen
+  worden; das widerspricht Folie 3 und der Darstellung auf Folie 5 (Realobjekt-Segmentierung nach
+  Preissegment, keine Paarbildung). Diese Unklarheit ist **zu klärende Vorbedingung**, keine Tatsache.
+- **Zahlenlabels fehlen.** Die Kostenkennzahlen stehen auf Folie 5 nur als **Diagramm ohne
+  Zahlenlabels**; im Textlayer existieren bloss die Achsenskalen (BKP 1–5 pro GV 500–2'000, pro GF
+  2'000–5'000). Eine Kalibrierung liefert also entweder ausdrücklich als abgelesen markierte ca.-Werte
+  (so hat es `energie` bei den ökologischen Boxplots gehandhabt) oder muss über `bauenmitholz.info` gehen.
+- **Preisstand normalisieren.** April 2023, Kategorie Grossregion/Wohnbauten. Vor dem Vergleich mit dem
+  Preisstand-2026-Band 850–1'050 CHF/m³ GV (MFH gehoben, `kennwerte.md:78`) über den verketteten
+  Zürcher Index der Wohnbaukosten (`kennwerte.md:229 ff.`) normalisieren.
+- **Ablage-Konvention:** der Kalibrierungspunkt gehört hierhin (hier steht der unbelegte Zuschlag), das
+  später destillierte numerische Referenzblatt aber nach `skills/kostenschaetzung/referenzen/` (so am
+  07.06.2026 mit dem Wüest-Benchmark gehandhabt, `kennwerte.md:25`) — beides zusammen, nicht als Alternative.
+
+**Warum die Übergabe erst jetzt kommt.** `energie` hat diese Kostenhälfte am **25.07.2026** geprüft und
+für sich verworfen, mit der Begründung «Wüest-Partner-Studien nur Gesamtgebäude-Kennwerte»
+(`wissen/energie/wiki/QUESTIONS.md:1580-1583`). Für `energie` unbrauchbar, für `grobkosten` genau die
+richtige Aggregationsstufe: erkannt, richtig charakterisiert und trotzdem nie übergeben.
+
 ## 2026-07-27 — Trainings-Run 18: siebter Sättigungsbeleg in Folge, bewusst KEIN erneuter Sweep
 
 - Kollisionscheck (`ps`, Rule 260724): einziger Treffer die eigene Prozessinstanz. Lauf

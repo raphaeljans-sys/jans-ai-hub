@@ -1,7 +1,7 @@
 ---
 title: Recht & Norm — Regenwasserentsorgung und Gewässerraum-Festlegung Kt. ZH
 status: established
-last_updated: 2026-07-18 (Run 52)
+last_updated: 2026-07-29 (Wissens-Chef Run 20)
 sources: [PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Wasser/Richtlinie_Regenwasserentsorgung_V2_2a.pdf (AWEL Kt. ZH, "Richtlinie und Praxishilfe Regenwasserentsorgung", 2005/Version 2.2 März 2006, 48 S., basiert auf VSA-Richtlinie 2002 + SN 592'000), .../Wasser/AWEL_Merkblatt_ Gewässerraum.pdf (AWEL/ARE Kt. ZH, "Festlegung des Gewässerraums bei nutzungsplanerischen Verfahren und bei Wasserbauprojekten", Juli 2014, 7 S.), PL - 02_Recht_Norm/04_Merkblätter/AWEL_Merkblatt_Versickerung.pdf (AWEL Kt. ZH, "Versickerung des Regenwassers — Grünflächen in Industrie- und Gewerbearealen doppelt nutzen", Reihe Umweltpraxis Entwässerung, Februar 2009, 12 S.)]
 links: [[recht-norm-quellenlandkarte]], [[recht-norm-abstandsvorschriften-wald-gewaesser]], [[energie-baueingabe-zusatzformulare]], [[regenwasserbewirtschaftung-versickerung-zh]] (KB energie — aktuelle Bewilligungsschwellen + Schwammstadt)
 ---
@@ -125,6 +125,39 @@ regelt bauliche Veränderungen/Eingriffe an Oberflächengewässern insb.
 Bewilligungspflicht bei Regenwassereinleitungen — ⚠ **die HWSchV wurde
 ebenfalls per 1.6.2026 aufgehoben** (OS 81, 144) und durch WsG/WsV ersetzt;
 § 15h → § 183 lit. b WsV, Bemessung §§ 22-25 WsV, Wissens-Chef Run 7).
+
+## A.2) Nutzungsseite: Regenwasser als Brauchwasser (neu, Wissens-Chef Run 20, 29.07.2026)
+
+**Warum dieser Abschnitt.** Teil A und C behandeln ausschliesslich die **Entsorgungsseite**
+(Versickerung, Einleitung, Retention, ARA) und Teil B den Gewässerraum. Die **Nutzungsseite**, also
+Regenwasser als Trinkwasserersatz für WC-Spülung, Waschmaschine und Gartenbewässerung, fehlte hier
+bisher vollständig (Cross-KB-Befund `energie` → `planungsgrundlagen`, adversarial verifiziert).
+
+- **Kantonale Rechtsgrundlage ZH:** In ZH ausdrücklich gesetzlich **zulässig und gebührenfrei in
+  getrennten Systemen** (**§ 97 Abs. 3 WsG**, LS 724.1, in Kraft seit **01.06.2026**, Nachtrag 133).
+  Wortlaut nicht hier fortschreiben, sondern in der führenden KB nachlesen:
+  `wissen/baurecht/raw/260728_amtlich_zh_wsg.md:1374`. Für andere Kantone **nicht geprüft**.
+- **⚠ Reichweite der Gebührenfreiheit, hier wird am häufigsten zu günstig gerechnet.** Gebührenfrei
+  ist die **Verwendung des eigenen Regenwasservolumens**; bezogen wird nichts. Unberührt bleiben: die
+  **Bezugs-/Anschlusspflicht** an die öffentliche Wasserversorgung (§ 97 Abs. 1 WsG, Randtitel
+  «Bezugspflicht»; § 178 WsV), die **Grundgebühr** der Wasserversorgung (§ 100 Abs. 1 WsG,
+  der für die Finanzierung sinngemäss auf §§ 61 ff. WsG verweist) sowie die
+  **Abwassergebühren**: § 111 Abs. 2 WsV verlangt ausdrücklich, dass die Gemeinden bei der Grundgebühr
+  «sowohl den Schmutz- als auch den Regenwasseranfall» berücksichtigen
+  (`wissen/baurecht/raw/260728_amtlich_zh_wsv.md:1240-1244`). **Praxisfolge:** Eine Zisterne ersetzt
+  den Anschluss an die öffentliche Wasserversorgung nicht.
+- **Technische Kernregeln und der Meldeschritt** (strikte Netztrennung vom Trinkwassernetz,
+  Kennzeichnung der Leitungen/Entnahmestellen, Meldung der Anlage ans Wasserwerk als eigener,
+  vom Baubewilligungsverfahren unabhängiger Schritt) führt die KB `energie`:
+  `wissen/energie/destillate/regenwassernutzung-brauchwasser-trinkwasserersatz-ch` (Quelle
+  SVGW-Merkblatt TPW 2001/1, im SVGW-Shop als «W10001 d», Ausgabe März 2001) sowie
+  `wissen/energie/wiki/BAUHERREN-FAQ.md` F186.
+- **Abgrenzung zu Teil A:** Nutzung und Entsorgung sind zwei Verfahren. Die Brauchwassernutzung
+  entlastet die Entsorgungsseite nicht von den Versickerungs-/Einleitungsregeln (Art. 7 Abs. 2 GSchG,
+  Kaskade), und umgekehrt sagt die Versickerungsbewilligung nichts über die Zulässigkeit der Nutzung.
+- **Offen, siehe unten:** die Fundstelle **§ 97 Abs. 3 WsG** ist im Hub bisher nur im amtlichen
+  `baurecht/raw/`-Volltext vorhanden; die Wasserversorgungsparagraphen **§§ 95-100 WsG** und
+  **§ 178 WsV** sind in keinem Wiki und keinem Destillat verarbeitet.
 
 ## B) Verfahren zur Gewässerraum-Festlegung (AWEL/ARE Merkblatt Juli 2014)
 
@@ -267,3 +300,15 @@ und ökologisch beste Variante ist — nicht nur für Gewerbe/Industrie.
   offen für einen Folgelauf.
 - `Anhang_C_Glossar_Gewässer_Umwelt_Schutz.pdf` (im selben Ordner) nicht
   gelesen — möglicher Glossar-Beitrag für künftige Artikel.
+- **Wasserversorgungs-/Nutzungsseite WsG im ganzen Hub unverarbeitet (Wissens-Chef Run 20,
+  29.07.2026).** Die Paragraphen **§§ 95-100 WsG** (Bezugspflicht, Brauchwassernutzung, Gebühren) und
+  **§ 178 WsV** (Anschlusspflicht) sind ausschliesslich im amtlichen `baurecht/raw/`-Volltext
+  vorhanden; grep über `baurecht/wiki/` und `baurecht/buecher/` nach «Bezugspflicht» und «§ 178 WsV»
+  ergibt null Treffer. **Die Destillations- und Nachweispflicht liegt bei der KB `baurecht`**
+  (Erlassstand/Wortlaut ZH), nicht bei diesem Artikel; hier bleibt nur der Verfahrensteil zu ergänzen,
+  sobald die Fundstellen destilliert sind. Zusätzlich ist die Führungsfrage bisher nur analog gedeckt:
+  die Matrix-Zeile «Kantonaler Energie-/Erlassstand ZH» in `wissen/koordination/QUERBEZUEGE.md` nennt
+  wortlautgetreu nur EnerG und BBV I, die bestehende Regenwasser-Zeile nur die GSchG-Entsorgungsseite.
+  **Vorschlag an den Wissens-Chef (nicht selbst eingetragen, `koordination/` ist Chef-Domäne):** neue
+  Matrix-Zeile «Wasserversorgung ZH: Bezugs-/Anschlusspflicht und Brauchwassernutzung (§§ 95-100 WsG,
+  § 178 WsV)» mit Führung `baurecht` (Wortlaut) und `planungsgrundlagen` (Verfahren).

@@ -1,9 +1,9 @@
 ---
 title: Layer 3 — The Environment (= der JANS AI Hub)
 status: established
-last_updated: 2026-07-27
+last_updated: 2026-07-29
 sources: [260616_marchese_the-spec_karpathy-method_transkript.md, CLAUDE.md]
-links: [[the-spec]], [[verifier]], [[anwendung-jans]]
+links: [[the-spec]], [[verifier]], [[anwendung-jans]], [[kontext-architektur]] (KB claude-code — gemessener Ist-Zustand des Environments)
 ---
 
 # Layer 3 — The Environment
@@ -22,7 +22,7 @@ Der JANS AI Hub *ist* dieser Environment-Layer, in praktisch jedem Punkt schon u
 
 | Video-Baustein | JANS AI Hub | Status |
 |---|---|---|
-| CLAUDE.md | `CLAUDE.md` (~50k, Architektur + Konventionen) | vorhanden |
+| CLAUDE.md | `CLAUDE.md` (~50k, Architektur + Konventionen) — Groessenangabe ueberholt, siehe Korrekturkasten | vorhanden |
 | LLM Knowledge Base (raw→wiki) | `wissen/` mit 16 KBs, Karpathy-Schema, KI-Bibliothekar | vorhanden, ausgebaut |
 | Skill Set | `skills/` (49 Skills), "Skills sind das primäre Interface" | vorhanden, ausgebaut |
 | Rules / Guardrails | `rules/` (22 Dateien, davon 19 @-importiert, immer aktiv) + Hooks | vorhanden, siehe Lücken-Befund unten |
@@ -31,6 +31,23 @@ Der JANS AI Hub *ist* dieser Environment-Layer, in praktisch jedem Punkt schon u
 Zählstand 2026-07-23 (Trainingslauf 26, Verifikationslauf): 16 KBs, 49 Skills (13.07.: 47),
 22 Rule-Dateien / 19 @-importiert (13.07.: 20). Diese Tabelle veraltet erfahrungsgemäss schnell
 (Skills/KBs wachsen laufend) — bei jedem Audit neu zählen statt die letzte Zahl vertrauen.
+
+Der **gemessene Ist-Zustand** des Environments — die vier Ladeschichten, das
+Grundkontext-Budget in Bytes/Token und die Entscheidungsregel «automatisch gegen lazily» —
+liegt in [[kontext-architektur]] (KB `claude-code`); dort gelten die aktuellen Zahlen. Diese
+Tabelle bleibt das **Modell** (Zuordnung Video-Baustein ↔ Hub-Baustein) und wird nicht durch
+den Messartikel ersetzt: die Layer-3-Kartierung Skill Set / Knowledge Base existiert dort
+nicht.
+
+**Korrektur Wissens-Chef Run 20, 29.07.2026.** Die Zahlen dieses Abschnitts sind überholt und
+werden hier bewusst **nicht** neu festgeschrieben, sondern auf die führende KB gezeigt.
+Eigene Messung am 29.07.2026, 23:39: `CLAUDE.md` **17'899 B** (nicht ~50k); der Grundkontext
+`CLAUDE.md` plus die 20 @-importierten Rules zusammen **96'946 B / ~24'200 Token**
+(Messweg und Zeitreihe in [[kontext-architektur]]). Zählstand heute **18 KBs · 50 Skills ·
+24 Rule-Dateien, davon 20 @-importiert** gegen die 16 / 49 / 22 / 19 vom 23.07. Die
+Byte-/Token-Werte führt ab jetzt [[kontext-architektur]]; die laufende Nachführung der
+Zählstände dieses Artikels gehört als Bring-Schuld in `wissen/spec/wiki/QUESTIONS.md`
+(noch offen, siehe Rückmeldung dieses Laufs).
 
 ## Environment-Audit Trainingslauf 8 (2026-07-13) — Befund: Rule-Datei existiert, ist aber nicht verdrahtet
 

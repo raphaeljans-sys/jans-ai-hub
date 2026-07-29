@@ -1,7 +1,7 @@
 ---
 title: Regenwasserbewirtschaftung / Versickerung — Kanton Zürich
 status: established
-last_updated: 2026-07-25
+last_updated: 2026-07-29
 datenstand: 2026-06-23 (AWEL-Formular + Hinweise; Normen VSA 2019 / SN 592 000:2012 / AWEL-Richtlinie 2022)
 sources: [destillate/regenwasserbewirtschaftung-versickerung-zh.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[greenpv-fassade-pv-begruenung-hslu]], [[recht-norm-regenwasser-gewaesserraum-zh]] (KB planungsgrundlagen — Recht/Verfahren GSchG-Kaskade + Gewaesserraum-Festlegung)
@@ -53,6 +53,18 @@ WC-Spülung, Waschmaschine und Garten als Trinkwasserersatz ist nach SVGW-Merkbl
 zulässig, sofern Regenwasser- und Trinkwassernetz strikt getrennt und gekennzeichnet sind und
 die Anlage dem Wasserwerk gemeldet wird → `[[regenwassernutzung-brauchwasser-trinkwasserersatz-ch]]`,
 FAQ F186.
+
+**Kantonale Grundlage ZH (ergänzt Wissens-Chef Run 20, 29.07.2026).** Dieser Artikel kannte bisher
+nur die Entsorgungsseite. Die **Nutzungs**seite ist im Kanton Zürich ausdrücklich gesetzlich
+geregelt: **§ 97 Abs. 3 WsG** (LS 724.1, Fassung Nachtrag 133, in Kraft seit 01.06.2026) — «Die
+Verwendung von Regenwasser als Brauchwasser in getrennten Systemen ist zulässig und gebührenfrei.»
+Wortlaut in der führenden KB: `wissen/baurecht/raw/260728_amtlich_zh_wsg.md:1374`; für andere
+Kantone nicht geprüft. Die Gebührenfreiheit betrifft nur das genutzte Regenwasservolumen:
+Bezugspflicht (§ 97 Abs. 1 WsG) und Anschlusspflicht (§ 178 WsV) an die öffentliche
+Wasserversorgung bleiben unberührt, ebenso die Grundgebühr; bei der Abwasser-Grundgebühr ist
+sowohl der Schmutz- als auch der Regenwasseranfall zu berücksichtigen (§ 111 Abs. 2 WsV). Die
+Zisterne ersetzt den Anschluss also nicht. Recht und Verfahren führt die KB `planungsgrundlagen`
+(`[[recht-norm-regenwasser-gewaesserraum-zh]]`), den Erlasswortlaut die KB `baurecht`.
 
 **Status-Hebung 2026-07-25 (Run 88):** auf `established` gehoben — Kernaussagen (Bewilligungs-
 schwellen, Metallflächen-Adsorberpflicht, Filterschichttiefe) stammen direkt aus dem amtlichen

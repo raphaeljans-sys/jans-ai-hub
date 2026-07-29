@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.07.2026 23:34:14
+Stand: 29.07.2026 23:44:16
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 23:27)
@@ -15,4 +15,4 @@ Stand: 29.07.2026 23:34:14
 - 2 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- d0bcd0c3 remote-task erledigt [Macmini]: 1 Task(s)
+- 2a6e48c6 bauprodukte: Z-Winkel destilliert (BKP 273 Schreinerarbeiten), Register nachgefuehrt

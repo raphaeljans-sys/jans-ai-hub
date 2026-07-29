@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.07.2026 23:30:07
+Stand: 29.07.2026 23:40:18
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 23:25)
@@ -19,4 +19,4 @@ Stand: 29.07.2026 23:30:07
 - 1 Datei(en): AR - 04 Honorarauftraege / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 51ac47d3 projekt-lessons: Ingest-Lauf 1 — Wurzelpfad 2619 KISPI verifiziert (SharePoint, nicht NAS), Quellen-Inventar angelegt, erstes Destillat (Rückweisung Installationsplan Lüftung)
+- 2a6e48c6 bauprodukte: Z-Winkel destilliert (BKP 273 Schreinerarbeiten), Register nachgefuehrt

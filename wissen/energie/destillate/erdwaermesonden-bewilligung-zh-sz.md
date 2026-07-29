@@ -4,8 +4,8 @@ herausgeber: Kanton Zürich (AWEL) / Bund (GSchG/GSchV) / Kanton Schwyz (Amt fü
 ausgabe: Web-Recherche, amtliche Kantons-/Stadt-Webseiten
 gelesen: 2026-07-14 (Run 66)
 datenstand: 2026-07-14 (Web-Recherche, keine explizit datierten Formulare ausser Gesuchsformular AWEL 400-003 Stand 06.2024)
-status: established (Kernstruktur + ZH-Gebührenrechtsgrundlage jetzt primärquellen-verifiziert über § 35/§ 69 KGSchV + GebV UR im Volltext gelesen, Run 67); SZ-Kostenpunkt sowie exakte Verfahrensfrist als verbindliche Norm und GSchG/GSchV-Wortlaut weiterhin nicht direkt am Bundes-Primärtext verifiziert
-last_updated: 2026-07-14 (Run 67)
+status: established (Kernstruktur; die ZH-Bewilligungs- und Gebührenrechtsgrundlage wurde vom Wissens-Chef in Run 20 auf geltendes Recht umgestellt: § 44 Abs. 1 lit. a Ziff. 3 und lit. f WsG, § 92 WsV, Gebühr über § 209 WsV mit Verweis auf die GebV UR. Die in Run 67 verifizierten § 35/§ 69 KGSchV (LS 711.11) sind per 01.01.2022 aufgehoben und nur noch historisch, bis 31.12.2021, einschlägig; Details im Korrekturkasten). Offen: Fassungsstand der GebV UR (hier als «Stand 1.1.12/Nachtrag 75» zitiert, nicht gegen den aktuellen Nachtrag verifiziert), SZ-Kostenpunkt, exakte Verfahrensfrist als verbindliche Norm sowie GSchG/GSchV-Wortlaut weiterhin nicht direkt am Bundes-Primärtext verifiziert
+last_updated: 2026-07-29 (Wissens-Chef Run 20; Fachstand Run 67)
 ---
 
 # Erdwärmesonden — Bewilligungsverfahren Kt. Zürich und Kt. Schwyz
@@ -17,12 +17,48 @@ verboten, im Gewässerschutzbereich **Au** bewilligungspflichtig nach Art. 32 GS
 läuft ein eigenständiges, analoges Verfahren über eine kostenlose Vorabklärung beim Amt für Umwelt
 und Energie plus Baugesuch via eBau.
 
+> ⚠ **Korrektur Wissens-Chef Run 20 (29.07.2026): die zitierte ZH-Rechtsgrundlage war totes Recht.**
+> Dieses Destillat stützte die zürcherische Bewilligungs- und Gebührengrundlage bis Run 67 auf die
+> **KGSchV (Verordnung über den Gewässerschutz, LS 711.11)**. Dieser Erlass ist **per 01.01.2022
+> aufgehoben** (amtlich belegt an der zhlex-Erlassseite LS 711.11 der Staatskanzlei: Erlassdatum
+> 22.01.1975, Inkraftsetzung 01.07.1975, Aufhebungsdatum 01.01.2022, letzte Fassung Nachtrag 099)
+> und war damit schon bei der Verifikation in Run 67 nicht mehr in Kraft. § 35 und § 69 KGSchV
+> gelten nur noch **historisch, bis 31.12.2021**. Geltendes Recht heute, zweistufig:
+> - **Bewilligungspflicht auf Gesetzesstufe:** § 44 Abs. 1 lit. a Ziff. 3 WsG (Wassergesetz,
+>   LS 724.1), Bewilligung der Direktion für Anlagen, «die der Nutzung von Boden, Untergrund oder
+>   Abwasser zur Gewinnung von Energie oder zur Kühlung dienen»; für die Bohrung zusätzlich § 44
+>   Abs. 1 lit. f WsG («Bohrungen, Pump- und Markierversuche»).
+> - **Bewilligungspflicht auf Verordnungsstufe:** § 92 WsV (Wasserverordnung, LS 724.11), Randtitel
+>   «Erdwärmenutzung»: «Einer Bewilligung bedürfen: a. der Entzug von Erdwärme, b. der Eintrag von
+>   Wärme in das Erdreich».
+> - **Gebühr:** § 209 WsV (8. Abschnitt, Übergangs- und Schlussbestimmungen, Randtitel «Gebühren»)
+>   verweist für Amtshandlungen nach WsG/WsV auf dieselbe **Gebührenverordnung zum Vollzug des
+>   Umweltrechts (GebV UR, LS 710.2)** wie der alte § 69 KGSchV, zusätzlich auf die
+>   **Gebührenordnung für die Verwaltungsbehörden vom 30. Juni 1966**. Der Verweisungsmechanismus
+>   lebt also unverändert weiter, nur über eine andere Trägernorm. Die materielle Kostenaussage
+>   unten (keine Pauschale, reine Aufwandgebühr nach § 5 GebV UR, Deckel CHF 25'000 nach § 10
+>   GebV UR) **bleibt damit gültig**.
+>
+> **Fassungsvermerk:** WsG und WsV gelten in dieser Fassung erst **seit 01.06.2026** (Nachtrag 133).
+> **Nicht zu verwechseln:** die Nutzungsgebühren-Tarife §§ 140–146 WsV (z.B. Fr. 5/kW
+> Wärmeentnahme) betreffen Grundwasser und oberirdische Gewässer, **nicht** die Erdwärmesonde im
+> Erdreich nach § 92 WsV; für diesen Fall sind sie nicht anwendbar. **Noch zu prüfen:** die hier
+> zitierte GebV-UR-Fassung «Stand 1.1.12/Nachtrag 75» ist vier Jahre alt, der Deckel CHF 25'000
+> ist gegen den aktuellen Nachtrag zu verifizieren (siehe «Offene Punkte»). Führende KB:
+> `baurecht` (Buch-Run 69, 28.07.2026), amtlicher Volltext im Hub
+> `wissen/baurecht/raw/260728_amtlich_zh_wsg.md:694-713` sowie
+> `wissen/baurecht/raw/260728_amtlich_zh_wsv.md:1054-1057` (§ 92) und `:2475-2479` (§ 209); vgl.
+> `wissen/baurecht/wiki/QUESTIONS.md`.
+
 ## Kanton Zürich
 
 - **Zuständigkeit:** AWEL, Abteilung Gewässerschutz, Sektion Grundwasser und Wasserversorgung.
 - **Rechtsgrundlage:** GSchG Art. 19 (Gewässerschutzbereiche, Bewilligungspflicht für Bauten/Anlagen
   in besonders gefährdeten Bereichen), Art. 20 (Grundwasserschutzzonen), Art. 21
   (Grundwasserschutzareale), GSchV Art. 32; kantonal in der Bauverfahrensverordnung (BVV) verankert.
+  Die kantonale Bewilligungspflicht selbst steht in **§ 44 Abs. 1 lit. a Ziff. 3 WsG** (für die
+  Bohrung zusätzlich lit. f) und **§ 92 WsV** (Fassung seit 01.06.2026), nicht mehr in der per
+  01.01.2022 aufgehobenen KGSchV; siehe Korrekturkasten oben.
 - **Verfahrensweg:** Gesuch «Gewässerschutzrechtliche Bewilligung für Erdwärmesonden-
   Wärmepumpenanlage» (Formular AWEL 400-003, Stand 06.2024) — Einreichung **ausschliesslich bei der
   Gemeinde** (eBaugesucheZH oder PDF), die das Verfahren koordiniert; das AWEL erteilt die
@@ -44,15 +80,20 @@ und Energie plus Baugesuch via eBau.
   kennt zusätzlich ein vereinfachtes Meldeverfahren mit **30 Tagen** Behandlungsfrist (Voraussetzung:
   Grenzabstand ≥ 2,5 m, keine Bau-/Abstandslinie, keine Schutzanordnung, keine weiteren
   Umbauarbeiten) — eine Gemeinde-Praxis, keine kantonsweite Frist.
-- **Kosten (Run 67, Rechtsgrundlage jetzt verifiziert):** Bewilligungspflicht in **§ 35 KGSchV**
-  (Verordnung über den Gewässerschutz, LS 711.11), Gebühr dazu in **§ 69 KGSchV** über Verweis auf
-  die **Gebührenverordnung zum Vollzug des Umweltrechts (GebV UR, LS 710.2)**. Es gibt **keinen
+- **Kosten (Rechtsgrundlage in Run 20, 29.07.2026, auf geltendes Recht umgestellt):**
+  Bewilligungspflicht in **§ 44 Abs. 1 lit. a Ziff. 3 WsG** (LS 724.1; für die Bohrung zusätzlich
+  lit. f) und **§ 92 WsV** (LS 724.11, Fassung seit 01.06.2026), Gebühr dazu über **§ 209 WsV** mit
+  Verweis auf die **Gebührenverordnung zum Vollzug des Umweltrechts (GebV UR, LS 710.2)** und auf
+  die Gebührenordnung für die Verwaltungsbehörden vom 30. Juni 1966. Historisch, bis 31.12.2021,
+  standen dieselben Pflichten in § 35 KGSchV und die Gebühr in § 69 KGSchV; die KGSchV (LS 711.11)
+  ist per 01.01.2022 aufgehoben, siehe Korrekturkasten oben. Es gibt **keinen
   Fixbetrag/keine Pauschale** — reine **Aufwandgebühr**: Personalkosten pro Stunde zum
   Zeit-Mitteltarif nach der BD-Weisung für Architekten-/Ingenieurhonorare **abzüglich 20 %** (§ 5
   GebV UR), plus Zuschlag bei Einsatz besonderer Messgeräte (1,2 ‰ des eingesetzten Kapitals/
   Einsatztag, § 6), plus Schreibgebühren (§ 7). Bei offensichtlichem Missverhältnis zur Bedeutung für
   den Gebührenschuldner oder überwiegendem öffentlichem Interesse ist Ermässigung/Erlass möglich
-  (§ 9). **Gesetzliche Obergrenze: CHF 25'000 pro Einzelfall** (§ 10 GebV UR) — ein Deckel, keine
+  (§ 9). **Gesetzliche Obergrenze: CHF 25'000 pro Einzelfall** (§ 10 GebV UR, ⚠ Fassungsstand
+  «Stand 1.1.12/Nachtrag 75», noch nicht gegen den aktuellen Nachtrag verifiziert): ein Deckel, keine
   Regel-Zahl; für ein EFH-Standardgesuch ohne Verbotszonen-Konflikt dürfte der effektive Betrag
   deutlich darunter liegen, eine amtlich publizierte «typische» CHF-Zahl für den Normalfall existiert
   nicht. **Geprüft und explizit nicht einschlägig:** Gebührenverordnung zum Wasserwirtschaftsgesetz
@@ -90,8 +131,15 @@ eine Zahl gegenüber dem Bauherrn kommuniziert wird.
 ## Offene Punkte
 
 - Exakte «typische» AWEL-Gebühr (CHF) für den EFH-Normalfall nicht amtlich publiziert (reine
-  Aufwandgebühr ohne Pauschale) — Rechtsgrundlage und Deckel (CHF 25'000) sind seit Run 67 jedoch
-  primärquellen-verifiziert (§ 35/§ 69 KGSchV + GebV UR).
+  Aufwandgebühr ohne Pauschale). Rechtsgrundlage und Deckel (CHF 25'000) waren in Run 67 an
+  § 35/§ 69 KGSchV + GebV UR verifiziert; die KGSchV ist jedoch per 01.01.2022 aufgehoben, die
+  Gebührengrundlage läuft heute über § 209 WsV auf dieselbe GebV UR (Korrektur Run 20, siehe
+  Korrekturkasten).
+- **Fassungsstand GebV UR (LS 710.2) offen (Run 20):** hier als «Stand 1.1.12/Nachtrag 75» zitiert,
+  also vier Jahre alt. Der Tarifmechanismus (§ 5) und der Deckel CHF 25'000 (§ 10) sind gegen den
+  aktuellen Nachtrag zu verifizieren, bevor die Zahl weiter als geltend kommuniziert wird. Ebenfalls
+  noch nicht am Volltext gelesen: die von § 209 WsV zusätzlich angerufene Gebührenordnung für die
+  Verwaltungsbehörden vom 30. Juni 1966.
 - Detaillierter Inhalt des AWEL-PDF «Tiefenbeschränkung von Erdwärmesonden» technisch nicht
   extrahierbar (nur Bild-/komprimierte Datenströme) — die 500-m-Angabe stammt aus dem Haupttext der
   Übersichtsseite, nicht aus diesem Detaildokument.
@@ -104,7 +152,14 @@ eine Zahl gegenüber dem Bauherrn kommuniziert wird.
 
 ## Quellen
 
-- § 35 + § 69 KGSchV (Verordnung über den Gewässerschutz, LS 711.11) — PDF-Volltext gelesen (Run 67).
+- ⚠ § 35 + § 69 KGSchV (Verordnung über den Gewässerschutz, LS 711.11) — PDF-Volltext gelesen
+  (Run 67); **Erlass per 01.01.2022 aufgehoben**, nur noch historisch (bis 31.12.2021) einschlägig,
+  siehe Korrekturkasten.
+- § 44 Abs. 1 lit. a Ziff. 3 und lit. f WsG (Wassergesetz, LS 724.1) sowie § 92 und § 209 WsV
+  (Wasserverordnung, LS 724.11), Fassung Nachtrag 133, in Kraft seit 01.06.2026 — amtlicher Volltext
+  im Hub: `wissen/baurecht/raw/260728_amtlich_zh_wsg.md:694-713` und
+  `wissen/baurecht/raw/260728_amtlich_zh_wsv.md:1054-1057` bzw. `:2475-2479` (führende KB
+  `baurecht`, Buch-Run 69, 28.07.2026).
 - Gebührenverordnung zum Vollzug des Umweltrechts (GebV UR, LS 710.2, Stand 1.1.12/Nachtrag 75) —
   PDF-Volltext gelesen (Run 67).
 - zh.ch «Erdwärmesonden», «Oberflächennahe Erdwärme», «Bauen in Grundwasserschutzzonen», «Bauen in

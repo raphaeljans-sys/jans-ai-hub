@@ -8,6 +8,14 @@ Wiki-Artikel überführen und hier streichen.
 - **Telefon-/Kontaktstellen Ämter:** Aus Entscheiden gesammelte Direktnummern (z.B. AfB
   Baukontrolle 044 412 28 65, TBA Strassen 044 412 23 35) in einen Kontakt-Artikel bündeln,
   sobald 2–3 Projekte vorliegen.
+  **Zusatz Wissens-Chef Run 20, 29.07.2026:** Kontaktpersonen haben ein **Verfallsdatum**.
+  Zuständigkeiten wechseln verwaltungsintern und ohne proaktive Mitteilung, teils
+  gebietsbezogen (AfB Gebiets-/Teamzuteilung), teils nach Fallgrösse (UGZ
+  Sonderzuständigkeit). Ein künftiger Kontakt-Artikel muss deshalb je Eintrag Gebiet bzw.
+  Fallbezug und ein Stand-Datum führen, und die Zuständigkeit ist vor jeder
+  fristgebundenen Eingabe aktiv rückzufragen. Belegter Fall: `wissen/projekt-lessons/wiki/
+  kispi-behoerden-zustaendigkeitswechsel-1171-26.md`; erster datierter Stand in
+  [[aemter-stadt-zuerich]], Abschnitt «Fallbezogener Zuständigkeitsstand».
 
 ## Geklärt (archiviert)
 

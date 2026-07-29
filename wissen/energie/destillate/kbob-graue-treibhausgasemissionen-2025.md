@@ -5,7 +5,7 @@ ausgabe: Version 1, 04.04.2025 (Faktenblatt) + KBOB-Oekobilanzdaten im Baubereic
 gelesen: Faktenblatt vollst. S. 1-8 (2026-06-26, via WebFetch-PDF) + KBOB-Datenstand v8.0 via Web
 datenstand: 2026-06-26 (Faktenblatt 04.04.2025; Oekobilanzdaten-Liste v8.0 20.02.2026; Norm SIA 2032:2020, SIA 390/1 in Vernehmlassung)
 status: established
-last_updated: 2026-07-21
+last_updated: 2026-07-29
 ergaenzende_quellen: (1) Minergie/eco-bau «Berechnung der Grauen Energie und der Treibhausgasemissionen bei Minergie-ECO, Minergie-P-ECO und Minergie-A-ECO-Bauten», Version 1.3 vom 31.03.2021 — https://www.minergie.ch/media/210331_berechnung_graue_energie_2021_v1-3.pdf (Basis: KBOB-Empfehlung 2009/1, Stand 2016); (2) Wüest Partner (Dr. Julia Selberherr), im Auftrag von Lignum/Holzwirtschaft Schweiz/BAFU, «Massiv- vs. Holzbau: Erstellungskosten und ökologische Kennzahlen im Vergleich», Präsentation 25.09.2025 — https://www.minergie.ch/media/3_holzbau-investionskosten-julia-selberherr.pdf (Basis: eigene Erhebung 35 Holzbauten [25 MFH, 10 Bürobauten], Baujahr 2019-2022, je verglichen mit digitalem Zwilling in mineralischer Bauweise gleicher Dimension/Qualität)
 ---
 
@@ -26,11 +26,29 @@ MFH **bis zu 40 % GTHGE-Reduktion** moeglich, wobei **Suffizienz und Bestandserh
   zur Entsorgung. Umfang gemaess **SN EN 15804 / SIA 2032**: Module **A** (Herstellung+Errichtung) +
   **B4** (Ersatz in der Nutzungsphase) + **C** (Entsorgung). **Betriebsenergie + Mobilitaet sind NICHT
   enthalten** (das sind die «Scope 1/2»-Betriebsemissionen, separat geregelt ueber CO₂-/Energiegesetz).
-- **Messgroessen (SIA 2032):**
+- **Messgrössen des KBOB-Faktenblatts / der Minergie-ECO- und SIA-2040-Praxis (Bezug
+  Energiebezugsfläche EBF bzw. A_E):**
   - Graue Treibhausgasemissionen: **GTHGE [kg CO₂-eq/m² EBF]** (absoluter Wert)
   - oder **GTHGE [kg CO₂-eq/m² EBF und Jahr]** (pro Jahr, ueber die Nutzungsdauer)
   - **Restwert Bestandsbauten:** GTHGE [kg CO₂-eq/m² EBF] — der «mitgebrachte» graue Wert, der bei
     Erhalt nicht neu anfaellt (zentrales Argument fuer Umbau statt Neubau).
+
+  **Korrektur Wissens-Chef Run 20, 29.07.2026.** Diese Messgrössen waren bis zum 29.07.2026 als
+  «Messgroessen (SIA 2032)» ausgewiesen. Das war eine falsche Norm-Zuschreibung der Bezugsfläche: die
+  EBF stammt aus der KBOB-/Minergie-ECO-/SIA-2040-Systematik. **SIA 2040:2017 setzt die
+  Energiebezugsfläche A_E ausdrücklich «in Abweichung von SIA 2032»** (Ziff. 2.2.2; Ziff. 1.1.2,
+  2.2.1, vgl. `wissen/normen/destillate/sia-2040-2017`). **SIA 2032 selbst bilanziert das ganze
+  Gebäude und bezieht seine Kennwerte auf die Geschossfläche GF** (SIA 416) — belegt im Vorwort der
+  Ausgabe **SIA 2032:2010** (graue Energie «zwischen 80 und 100 MJ pro m² Geschossfläche und Jahr», im
+  ausdrücklichen Kontrast zur EBF der Betriebsenergie) sowie bei den Merkblatt-Autoren
+  Gugerli/Frischknecht/Kasser/Lenzlinger 2008. Für die Ausgabe **SIA 2032:2020 nicht am Normtext
+  verifiziert** (kostenpflichtig, nicht gelesen); indirekt gestützt durch die Minergie/eco-bau-Anleitung
+  vom 10.02.2020 (schreibt die EBF ausdrücklich dem Minergie-Nachweis zu und leitet für den unbeheizten
+  Teil eigene Grenzwerte GW(GF−A_E) her) und durch die MuKEn-2025-Formel EBF + (GF−EBF).
+  **Keine Zahl dieses Destillats ändert sich dadurch:** die Kennwerte sind korrekt EBF-bezogen, weil
+  ihre Quellen die Minergie-/SIA-2040-Konvention anwenden. Korrigiert ist ausschliesslich die
+  Norm-Zuschreibung der Bezugsfläche. In der KB `normen` fehlt bisher ein SIA-2032-Destillat, das
+  Register führt SIA 2032 nur mit der Ausgabe 2010 — Bring-Schuld an `normen`: **SIA 2032:2020**.
 - **Datenbasis fuer die Berechnung:** **KBOB-Oekobilanzdaten im Baubereich, Version 8.0 (20.02.2026)**
   (Methodik ecoinvent) — anerkannte Grundlage fuer Primaerenergie, Treibhausgaspotenzial (GWP),
   Umweltbelastungspunkte (UBP) je Baustoff/Bauteil. SIA-2032-Vorprojektwerte rechnen diese Daten auf
@@ -83,7 +101,9 @@ MFH **bis zu 40 % GTHGE-Reduktion** moeglich, wobei **Suffizienz und Bestandserh
   **Untergeschoss/Einstellhalle reduzieren** (sehr materialintensiv) → kompakt + Leichtbau/Holz →
   langlebig + umnutzbar planen → emissionsarme Materialien waehlen.
 - **Wer das fruehzeitig will, muss es in der strategischen Phase als Ziel setzen** (Massnahme 1) —
-  spaeter ist der Hebel klein. Bei Wettbewerben: **GTHGE [kg CO₂-eq/m² EBF] als Messwert** mitbeurteilen.
+  spaeter ist der Hebel klein. Bei Wettbewerben: **GTHGE [kg CO₂-eq/m² EBF] als Messwert** mitbeurteilen
+  (Bezug Energiebezugsfläche gemäss KBOB-/Minergie-ECO-/SIA-2040-Praxis, **nicht** gemäss SIA 2032, vgl.
+  Korrektur unter «Kernbegriffe & Bezugsgroessen»).
 - **JANS-Querschnitt:** Das deckt sich mit der Healthcare-Realitaet (Spitaeler Kat. VIII = 17 kg, hoechste
   THGE-Limite) und mit «Sanieren vor Neubau» in `ankaufspruefung`/`machbarkeit`. PV/Erdsonde/Solarthermie
   zaehlen im Klimapfad zur Gesamtbilanz mit hinein.

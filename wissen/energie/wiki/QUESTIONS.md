@@ -2,6 +2,43 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-07-29 (Wissens-Chef Run 20) — Restpunkte aus den Cross-KB-Korrekturen an F186/F187/F189/F71
+
+Angemeldet beim Nachziehen der Bauherren-Seite der Befunde BES01/BES05/BES06/BES08. Was mit
+Fundstelle geschlossen werden konnte, steht jetzt in der FAQ; offen bleibt:
+
+- [ ] **E-R20-1 (P1): AWEL-Vollzugspraxis fuer Waermeentzug/Waermeeintrag im Erdreich in den
+  Grundwasserschutzzonen S1/S2.** Die Bewilligungspflicht selbst ist belegt (§ 92 Abs. 1 WsV,
+  § 44 Abs. 1 lit. a Ziff. 3 WsG, Fassung Nachtrag 133 ab 01.06.2026). Nicht belegt ist, wie das
+  AWEL einen geschlossenen, unisolierten Eisspeicher in S1/S2 behandelt. Die Zuordnung des
+  Eisspeichers unter § 92 WsV ist eine **eigene Subsumtion dieser KB am Wortlaut, nicht amtlich
+  bestaetigt** (so in FAQ F187 gekennzeichnet). Naechster Schritt: AWEL-Fachstelle direkt anfragen
+  oder eine AWEL-Praxishilfe zum Waermeeintrag beschaffen; solange bleibt F187 auf **emerging**.
+- [ ] **E-R20-2 (P2): Fassungsstand der GebV UR (LS 710.2) verifizieren.** Der Deckel CHF 25'000
+  (§ 10 GebV UR) und die Aufwandgebuehr (§ 5 GebV UR) werden aus einer Fassung «Stand 1.1.12 /
+  Nachtrag 75» zitiert, also aus einem vier Jahre alten Stand. Vor der naechsten Verwendung in
+  einem Kundendokument gegen den aktuellen Nachtrag pruefen (FAQ F71).
+- [ ] **E-R20-3 (P2): Gebuehrenordnung fuer die Verwaltungsbehoerden vom 30.06.1966 ist neu
+  einschlaegig, aber ungelesen.** § 209 WsV verweist fuer Amtshandlungen nach Wassergesetz und
+  Wasserverordnung nicht nur auf die GebV UR, sondern auch auf diese Gebuehrenordnung. Ob sie fuer
+  das Erdwaermesonden-Gesuch eigene Ansaetze oder einen anderen Deckel bringt, ist offen (FAQ F71).
+- [ ] **E-R20-4 (P2): Regenwassernutzung ausserhalb ZH.** § 97 Abs. 3 WsG (zulaessig und
+  gebuehrenfrei in getrennten Systemen) gilt nur im Kanton Zuerich und erst seit 01.06.2026; das
+  Destillat ist CH-weit angelegt. Fuer SZ und die uebrigen Kantone ist die Rechtslage nicht
+  geprueft — bis dahin traegt nur das SVGW-Merkblatt TPW 2001/1 die schweizweite Aussage (FAQ F186).
+  Hinweis zur Zustaendigkeit: die Wasserversorgungsparagraphen §§ 95-100 WsG (Bezugspflicht,
+  Brauchwasser, Gebuehren) sind hub-weit unverarbeitet; die Bring-Schuld liegt bei `baurecht`
+  (Erlasswortlaut) und `planungsgrundlagen` (Recht/Verfahren), nicht hier.
+- [ ] **E-R20-5 (P3): Konzessionsgrundlage und Konzessionsdauer fuer Seewasser-Waermenutzung in
+  SZ und ZG.** Fuer ZH ist die Regeldauer 15-30 Jahre am Gesetzestext geklaert
+  (`[[grundwasserwaermenutzung-bewilligung-zh-sz]]`); fuer Schwyz und Zug stuetzt sich der Bestand
+  auf die interkantonale AKV-Richtlinie und eine Webseiten-Kurzdarstellung, ohne dass die
+  kantonalen Gesetzestexte einzeln geprueft wurden (offene Punkte in
+  `destillate/seewasser-waermenutzung-aquathermie-zh-sz.md`). Auch die exakte
+  WsG-Paragraphennummer der Wassernutzungskonzession fuer Seen/Fluesse in ZH ist dort noch
+  offen — vor jeder Paragraphenangabe in einem Kundendokument am WsG-Volltext in `baurecht`
+  abgleichen (FAQ F188).
+
 ## 2026-07-29 (Cross-KB normen → energie, Normen-Run 36) — 134 nie erfasste PDFs liegen in PL-02 und gehoeren hierher
 
 Angemeldet in der **Empfaenger-KB** (Regel aus Wissens-Chef Run 8). Auslöser: Umsetzung des

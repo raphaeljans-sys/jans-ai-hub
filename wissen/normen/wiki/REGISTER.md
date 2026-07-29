@@ -307,7 +307,7 @@ SIA 2003:1996, SIA 2014:1996) — dort ist eine zwischenzeitliche Revision am wa
 | SIA 2029 | 2013 | 2013✓ |  |
 | SIA 2030 | 2010 | 2010✓ |  |
 | SIA 2031 | 2009 | 2009✓ |  |
-| SIA 2032 | 2010 | 2010✓ |  |
+| SIA 2032 | 2010 | 2010✓ | ⚠ **Fassungsflag Wissens-Chef Run 20, 29.07.2026.** Zwei unabhängige Sekundärquellen der KB `energie` führen seit 26.06.2026 die Fassung **SIA 2032:2020** (KBOB-Faktenblatt «Graue Treibhausgasemissionen» 04.04.2025, `wissen/energie/destillate/kbob-graue-treibhausgasemissionen-2025.md:6`; MuKEn-2025-Methodikpapier Modul G, `wissen/energie/destillate/muken-2025-modul-g-co2-grenzwerte.md:107`). Register-Stand 2010 damit vermutlich überholt. **Ausgaben-Kette bewusst unverändert:** die Bestand-Spalte ist leer (Blindzone-Regel oben), der Normtext wurde nie eingesehen (`wissen/energie/destillate/graue-energie-sanieren-vs-neubau-amortisation.md:132`) und ein Rückzugsdatum für die Ausgabe 2010 ist im Hub nicht belegt; ein gesetztes ✗ wäre selbst eine ungedeckte Gültigkeitsaussage. Zusätzliches Indiz: SIA 2032 ist ein SIA-Merkblatt, dort gilt die Regel 3 Jahre plus Verlängerung um je 3 Jahre (vgl. Zeile SIA 2020), was gegen einen Stand 2010 spricht. Zitierform bis zur Verifikation: «zuletzt bestätigt 25.02.2013, jüngere Revision nicht geprüft». Kein Destillat in `normen` vorhanden, Bring-Schuld in `QUESTIONS.md` |
 | SIA 2035 | 2009 | 2009✓ |  |
 | SIA 2036 | 2009 | 2009✓ |  |
 | SIA 2039 | 2011 | 2011✓ |  |
