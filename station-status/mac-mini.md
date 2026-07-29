@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.07.2026 07:07:49
+Stand: 29.07.2026 07:17:51
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 29.07.2026 07:07:49
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 3ffe933c logbuch-radar 29.07.: RE-00100 Kreditorenretour, Auflage II.1.b geklaert, Los 273.35 Positionsliste, Termine 06.08./13.08.
+- 6cb510a0 nas-selfcommit: 2 Datei(en) 2026-07-29 07:15

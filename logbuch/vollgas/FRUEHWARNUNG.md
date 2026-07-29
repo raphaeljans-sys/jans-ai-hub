@@ -4,6 +4,114 @@ Still-by-default: pro Lauf ein datierter Einzeiler. Mail nur bei echtem Handlung
 Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante Grösse;
 «total» ist von billigem cache_read dominiert).
 
+## 2026-07-29 07:15 — STILL (keine Mail)
+
+Verbrauch teuer/total je Station (Mio), Messung 07:15:
+
+| Tag | MacBook Pro teuer | MacBook Pro total | Mac Mini teuer | Mac Mini total |
+|---|---|---|---|---|
+| 22.07. | 1.02 | 16.66 | 0.48 | 16.67 |
+| 23.07. | 3.87 | 63.53 | 4.58 | 137.53 |
+| 24.07. | 3.90 | 74.20 | 3.92 | 124.16 |
+| 25.07. | 29.77 | 624.10 | 23.32 | 689.69 |
+| 26.07. | 0.00 | 0.00 | 0.00 | 0.00 |
+| 27.07. | 18.73 | 556.45 | 7.77 | 178.32 |
+| 28.07. | 8.35 | 191.59 | 2.16 | 53.74 |
+| 29.07. (bis 07:15) | 4.43 | 194.10 | 0.19 | 6.34 |
+
+Kombiniert teuer: 28.07. **10.51 Mio**, 29.07. bis 07:15 **4.62 Mio**. Beides unauffaellig,
+Kriterium (b) nicht erfuellt. Der 25.07.-Wert (kombiniert 53.1 Mio, ueber der 35er-Schwelle)
+ist der am 27.07. 21:45 gemeldete Befund und faellt nicht erneut an.
+
+**Messgrenze offen ausgewiesen:** der 22.07.-Wert steht heute tiefer als im Eintrag vom 28.07.
+(MacBook Pro 1.02 statt 2.89). Ursache ist die mtime-Vorfilterung ueber 6 Tage: der aelteste Tag
+im Fenster ist stets nur teilweise erfasst. Nur die Tage 23.07. bis heute sind vergleichbar.
+
+**Blockade-Status: SAUBER.** Strukturelle Pruefung (isApiErrorMessage / type=error /
+apiErrorStatus 429, kombiniert mit Limit-Textmuster) ueber beide Stationen: **0 Ereignisse im
+24-h-Fenster** (MacBook Pro 101 Dateien gescannt, Mac Mini 10). Das juengste Ereignis ueberhaupt
+liegt vor dem Fenster und gehoert zum bereits gemeldeten Wochenlimit-Ausfall vom 26./27.07.
+Kriterien (a) und (c) nicht erfuellt.
+
+**Operative Briefings: ALLE ERREICHT.** `logbuch-radar` lief heute 06:54 bis 07:07, 188 Zeilen,
+und hat die Briefing-Mail nachweislich versendet: im Postausgang rj@ liegt «Logbuch-Radar
+29.07.26: Rechnung RE-00100 von der Kreditorenstelle retourniert», 29.07. 07:07:26, dazu der
+Commit `3ffe933c`. `hub-chef-taeglich` (faellig 08:38), `mahnwesen-verzugscheck` (08:05) und
+`zahlungsabgleich-check` (08:22) waren zum Messzeitpunkt noch nicht faellig; ihre letzten Laeufe
+vom 28.07. erreichten ihr Deliverable vollstaendig. Kriterium (d) nicht erfuellt. Damit ist der
+am 28.07. gemeldete Radar-Ausfall geheilt: das Morgenbriefing steht wieder.
+
+**Radar-Herzschlag: LEBT.** Beide Signale frisch: juengster RADAR.md-Eintrag 29.07. 04:20
+(Dateistand 04:15), und eine Session mit dem Opener `vollgas-chef-radar` lief heute 07:05,
+`lastRunAt` 06:57, `nextRunAt` 07:57. Weit innerhalb der 12-h-Schwelle, Kriterium (e) nicht erfuellt.
+
+**Liefer-Delta der Lern-Loops (Nachtschicht Mac Mini, vier Slots):**
+- 22:30 `energie-training` Run 118 geliefert (sechs Destillate, FAQ-Stand 183, Commit `6e2bf77d`).
+- 23:30 `immobilienbewertung` geliefert (T-Eidgenossen-Rendite 0.39 % aus SNB-Quartalsheft 2/2026,
+  seit Run 51 offen). Er hat `grobkosten` und `immobilienbewertung`-Trainingslauf bewusst
+  uebersprungen, weil beide Register um Pause gebeten hatten. Genau so soll das laufen.
+- 02:30 **gescheitert**, Exit 2 nach 47 s, drei Versuche, leeres Ergebnisfeld. Das ist der vom
+  Radar um 04:20 gefundene und behobene `claude-run.sh`-Wrapper-Fehler, kein neuer Befund.
+- 05:30 geliefert (KB `firmengruendung-ch`, Kapitalband Art. 653s bis 653v OR am Fedlex-Volltext
+  verifiziert, neuer Artikel). Der Wrapper-Fix greift also nachweislich im Echtbetrieb.
+- Kein Loop mit Tokenverbrauch ohne Liefer-Delta, keine Delta-Null-Serie.
+
+**Destillat-Aufsicht (dritte Erhebung) — die Front steht seit 24 Stunden, aber nicht aus Leerlauf:**
+- (a) Fortschritt: Sektionen 37/37, 214 Dateien inventarisiert, Marker **147 `[-]` · 33 `[ ]` ·
+  24 `[t]` · 14 `[x]`**. Gegenueber dem 28.07. 07:44 **unveraendert**; das Inventar
+  `skills/wissens-destillat/training/bauprodukte-inventar.md` traegt bis heute den Dateistand
+  28.07. 07:33.
+- (b) Ertrag: **7 Artikel, alle `emerging`, 0 `established`** — ebenfalls unveraendert. Die beiden
+  am 28.07. 23:45 committeten Dateien `dachbegruenung-systeme.md` und `bkp-261-aufzuege.md` sind
+  **keine neuen Artikel**, sondern Korrekturen des `wissens-chef` Run 19 an bestehenden (BKP-224/288-
+  Aufteilung nach SIA 312, Fassungsvorbehalt SN 521500/C4:2019). Ohne diese Unterscheidung haette
+  die Erhebung zwei Artikel Fortschritt gemeldet, den es nicht gab.
+- (c) Delta-Null-Serie: **0.** Der Loop hat nichts Leeres produziert; er hat gar nicht gearbeitet.
+- (d) Stueckkosten: fuer 29.07. **nicht definiert** (0 neue Artikel). Fuer 28.07. 10.51 Mio teuer /
+  2 neue Destillat-Artikel = **~5.3 Mio je Artikel**, weiterhin nur eine **Obergrenze ueber den
+  ganzen Hub**: der grosse Teil des 28.07.-Verbrauchs ging an energie, normen, twin und
+  immobilienbewertung, nicht an das Destillat. Die saubere Zuordnung je Session bleibt offen und
+  ist seit dem 28.07. vorgemerkt.
+- Spec-Gate: `specs/bauprodukte-spec.md` (28.07. 01:33) liegt vor, haengt nicht.
+- Korpus-Queue: **nicht komplett**, Kriterium (g) nicht erfuellt. Die Stand-Zeile nennt weiterhin
+  «6 Artikel (Stand 28.07. 06:30)» und liegt damit unveraendert einen Artikel zurueck.
+- Kriterium (f) **nicht erfuellt**: es gab keinen Aufwand ohne Ertrag, weil es keinen Aufwand gab.
+
+**Strukturbefund fuer den Radar (Handlungsbedarf, aber kein Mail-Kriterium): der Destillat-Loop
+hat seit 24 Stunden keinen Taktgeber mehr, der ihn erreicht.** Er steht in der Registry als
+«Manual only» und wurde faktisch von der Mac-Mini-Nachtschicht getaktet. Deren Prioritaetenliste
+nennt ihn aber nirgends: Prioritaet 4 lautet «naechste faellige Trainingslektion unter
+`wissen/*/training/PROGRAMM.md`», und **`wissen/bauprodukte/` hat weder einen `training/`-Ordner
+noch eine `PROGRAMM.md`** (nachgemessen: nur baurecht, energie, grobkosten, immobilienbewertung,
+normen, planungsgrundlagen, spec und wettbewerbs-dna haben eine). Sein Inventar liegt stattdessen
+unter `skills/wissens-destillat/training/`, wo der Nachtschicht-Prompt nicht sucht. Deshalb haben
+alle vier Nachtlaeufe korrekt andere KBs gewaehlt. Der am 28.07. als «einziger produktiver
+Lern-Loop» bezeichnete Mechanismus ist damit nicht leergelaufen, sondern **unadressierbar
+geworden**. Das ist die stillere Variante desselben Fehlers und im Log genauso wenig sichtbar wie
+eine Delta-Null-Serie. Naheliegende Behebungen, Entscheid beim Radar bzw. bei Raphael: entweder
+`wissen/bauprodukte/training/PROGRAMM.md` anlegen, damit Prioritaet 4 greift, oder den
+Destillat-Loop als eigene Prioritaet in den Nachtschicht-Prompt aufnehmen, oder ihm einen eigenen
+Cron geben. Der 13:30-Versuchsslot allein loest es nicht: er wuerde dieselbe Prioritaetenliste
+abarbeiten.
+
+**Mittags-Slot 13:30 (befristeter Versuch seit 29.07.):** in `ch.jans.nachtschicht.plist`
+bestaetigt (vier Slots: 23:30, 02:30, 05:30, 13:30). Er hat heute noch nicht gefeuert. Das
+Lauf-Gate hat ihn nie abgewiesen, weil es ihn noch nie gesehen hat: `gate-Macmini.log` enthaelt
+insgesamt drei Zeilen (zwei Freigaben, eine Abweisung `radar-negativ-mini` aus dem
+Selbsttest-Abweisungspfad). Auswertung fuer Raphaels Entscheid ab dem 05.08.
+
+**Nebenbefunde, kein Handlungsbedarf:** (1) Die Journalzeile `diagnose-fix-bare` 29.07. 04:14
+(rc=1, «OAuth session expired») ist laut Radar-Nachtrag `915df0c0` der eigene Testfehler des
+Radars, nicht ein Stationsbefund; die MacBook-Pro-Anmeldung ist intakt. (2) Speicher MacBook Pro
+zum Messzeitpunkt **3'603 MB** verfuegbar (frei 64 / inaktiv 3'539 / purgeable 0), Druckstufe **2**.
+Ueber der 3-GB-Schwelle des Lauf-Gates, aber knapp; bei weiterem Absinken wuerden Laeufe auf
+dieser Station abgewiesen.
+
+**Meldeentscheid: keine Mail.** Kein einziges der Kriterien (a) bis (g) ist erfuellt, und der
+einzige echte Handlungsbedarf (Destillat ohne Taktgeber) gehoert dem Radar, der alle drei Stunden
+laeuft und dafuer die Zustaendigkeit hat. Zuletzt gemailt wurde am **28.07. 07:02** («Morgenbriefing
+28.07. ausgefallen — der NAS-Mount, nicht die Tokens»); dieser Befund ist inzwischen geheilt.
+
 ## 2026-07-28 07:44 — STILL (keine Mail)
 
 Zweiter Lauf desselben Tages, 46 Minuten nach dem 06:58-Lauf. Ursache erkennbar in der
