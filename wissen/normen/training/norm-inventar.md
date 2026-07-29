@@ -1118,12 +1118,199 @@ den gescannten Ordner, nicht den Bestand.
 ausserhalb von `02_Normen/` abgelegt — der Ordner `02_Normen/Lignum/` ist leer. Die drei Lignum-
 Destillate bleiben richtig und noetig; nur die Herkunftsaussage war es nicht.
 
-**Entscheid noetig (nicht vom Loop zu treffen):** Werden die normrelevanten Teilmengen
-(BfU, GVZ, SWKI, Suissetec, VSA, PAVIDENSA, die losen Merkblaetter, `09_Sanitaereinrichtung`)
-ins Normen-Inventar aufgenommen — oder bleibt die KB bewusst auf SIA/VKF/DIN/VSS/RAL begrenzt
-und diese Dokumente werden den Fach-Skills bzw. den KBs `energie`/`baurecht`/`stockwerkeigentum`
-zugewiesen? Eine pauschale Aufnahme aller 680 PDFs waere falsch — der Grossteil sind
+**ENTSCHIEDEN am 29.07.2026 (Freigabe Raphael):** Aufgenommen wird **nur der normrelevante
+Kern** — Arbeitsliste unten im Abschnitt «PL-02 Kern-Nachtrag». Alles Uebrige wird NICHT ins
+Normen-Inventar gezogen, sondern der zustaendigen KB bzw. dem zustaendigen Skill zugewiesen
+(Minergie/eco → `energie`, Teilungsplan STWEG → Skill `stockwerkeigentum`, Projektadmin AHB und
+Raumpilot/Neufert → keine Norm, `01_Gesetze` → Skill/KB `baurecht`, `Tiefgarage/1 VSS-Norm` →
+Mac Mini). Eine pauschale Aufnahme aller ~680 PDFs waere falsch gewesen — der Grossteil sind
 Herstellermerkblaetter, Projektadministration und Entwurfsliteratur.
 
 **Sofort-Meldung an den Mac Mini:** Der Ordner `PL - 02_Recht_Norm/Tiefgarage/1 VSS-Norm/`
 enthaelt VSS-Normen ausserhalb von `02_Normen/VSS_Norm/` und ist im Mini-Inventar zu pruefen.
+
+## PL-02 Kern-Nachtrag — aufgenommen 29.07.2026 (Entscheid Raphael)
+
+Umsetzung des Strukturentscheids aus dem Abschnitt «PL-02 Reichweite» darueber. **69 offene
+Positionen**, alle am Bestand verifiziert (Datei-fuer-Datei aufgelistet, nicht aus dem Run-31-Report
+uebernommen). Sie sind die naechste Grundarbeit des Loops, sobald der Lignum-Vorrang-Auftrag
+erfuellt ist — damit hat der Loop wieder echte Destillate statt Bestaetigungsrunden.
+
+**Korrekturen an den Run-31-Zahlen (beim Verifizieren gefunden):**
+- `09_Sanitaereinrichtung` hat **14** PDF, nicht 15 — davon 4 im Wurzelordner und 10 im
+  Unterordner `Kl Hochbau einzel/`, der in der Run-31-Zaehlung unsichtbar blieb.
+- `06_Richtlinien/BKZ` (4 PDF, hindernisfreies Bauen Kt. ZH) war in Run 31 **gar nicht benannt**,
+  gehoert aber fachlich zum Kern (normnah zu SIA 500). Neu aufgenommen, P3.
+- Die Run-31-Tabelle zaehlte **alle Dateien** je Ordner (`06_Richtlinien` 322, `04_Merkblätter` 205),
+  diese Liste zaehlt **nur PDFs** (120 bzw. 164). Beide Zahlen sind richtig, sie messen
+  Verschiedenes — beim Vergleich mit dem Run-31-Report nicht verwechseln.
+- Zwei Dubletten-Verdachtsfaelle sind vorab markiert (Suissetec Normal/low, AFS Dachlandschaften)
+  und vor dem Destillieren per MD5 zu klaeren.
+
+**Nicht aufgenommen, mit Begruendung (damit die Frage nicht ein drittes Mal auftaucht):**
+
+| Bestand | PDFs | Zuweisung |
+|---|---|---|
+| `06_Richtlinien/Minergie` | 79 | KB `energie` — Gebaeudestandard, keine Norm im Sinn dieser KB |
+| `04_Merkblätter/eco` | 55 | KB `energie` — eco-bau/Oekologie |
+| `03_Arbeitshilfen/Teilungsplan Stockwerkeigentum` | 71 | Skill `stockwerkeigentum` |
+| `04_Merkblätter/Projektadmin AHB` | 79 | keine Norm — Projektadministration Stadt ZH |
+| `05_Raumpilot`, `07_Neuffert` | 1 / 1 | Entwurfsliteratur, keine Norm |
+| `01_Gesetze` | 180 | Gesetze/Rechtsprechung — bereits die Faktenbasis des Skills `baurecht` (Bund 42, ZH 87, SZ 19, Rechtsprechung 3, Rechtsliteratur 9, Baurechtsanalysen 17), nicht Normeninventar |
+| `06_Richtlinien/Lignum Brandschutz` | 6 | bereits destilliert (MD5-identisch mit den PL-03-Kopien, Run 31 Befund 6) |
+| `Tiefgarage/1 VSS-Norm` | — | **Mac-Mini-Scope** (Stations-Split); hier nicht anfassen, im Mini-Inventar zu fuehren |
+| `08_Richtplan` | 2 | Raumplanung/Arealentwicklung — KB `planungsgrundlagen`, keine Norm |
+| `10 Lärmschutz` | 0 | enthaelt nur `Link Arbeitshilfen.docx` (Verweisdatei), kein Inhalt |
+| `06_Richtlinien` uebrige Kleinordner (2000 Watt, SECO, _Stadt Zuerich, _Kanton Basel/Zuerich) | 9 | Behoerden-/Programmrichtlinien — KB `baurecht` bzw. `energie`; bei konkretem Bedarf einzeln nachziehen |
+| `03_Arbeitshilfen` uebrige Kleinordner (Post Briefkastenanlage, Lignum, Speziale Bauteile, 2h Schatten, Baudokumentation) | 5 | gemischt, kein Normkern; bei konkretem Bedarf einzeln nachziehen |
+
+### Arbeitsliste
+
+**`06_Richtlinien/BfU`** — 9 PDF, P2
+
+bfu-Fachdokumentationen Sicherheit/Absturz — normnahe Ergaenzung zu SIA 358. Achtung Fassungsdopplung: `bfu_Gelaender und Bruestungen.pdf` und `..._2019.pdf`, juengere Fassung zuerst pruefen (Methodik-Pflicht 3).
+
+| Status | Prio | Datei | Bemerkung |
+|---|---|---|---|
+| [ ] | P2 | `06_Richtlinien/BfU/bfu_Anforderunegn Bodenbeläge.pdf` |  |
+| [ ] | P2 | `06_Richtlinien/BfU/bfu_Bodenbeläge.pdf` |  |
+| [ ] | P2 | `06_Richtlinien/BfU/bfu_Geländer und Brüstungen.pdf` |  |
+| [ ] | P2 | `06_Richtlinien/BfU/bfu_Geländer und Brüstungen_2019.pdf` |  |
+| [ ] | P2 | `06_Richtlinien/BfU/bfu_Glas in der Architektur.pdf` |  |
+| [ ] | P2 | `06_Richtlinien/BfU/bfu_Sicherheit im Wohnungsbau.pdf` |  |
+| [ ] | P2 | `06_Richtlinien/BfU/bfu_Sicherheit rechtliche Aspekte.pdf` |  |
+| [ ] | P2 | `06_Richtlinien/BfU/bfu_Treppen.pdf` |  |
+| [ ] | P2 | `06_Richtlinien/BfU/bfu_Türen und Tore.pdf` |  |
+
+**`06_Richtlinien/GVZ`** — 3 PDF, P2
+
+GVZ-Kennwerte/Merkblaetter Brandschutz Kt. ZH — regionale Ergaenzung zur VKF-Familie; klaert die in Run 31 offene Frage, ob die GVZ von den Zentralschweizer Fachstellen abweicht.
+
+| Status | Prio | Datei | Bemerkung |
+|---|---|---|---|
+| [ ] | P2 | `06_Richtlinien/GVZ/KFPM30-01MFHnbb.pdf` |  |
+| [ ] | P2 | `06_Richtlinien/GVZ/KPFM30-05Ausbau-von-Grossraumb.pdf` |  |
+| [ ] | P2 | `06_Richtlinien/GVZ/M30-17-3_RWA-Parkhaus.pdf` |  |
+
+**`06_Richtlinien/Suva`** — 4 PDF, P2
+
+Suva-Publikationen Arbeitssicherheit; Titel/Nummer am Titelblatt ermitteln (Dateinamen sind reine Bestellnummern).
+
+| Status | Prio | Datei | Bemerkung |
+|---|---|---|---|
+| [ ] | P2 | `06_Richtlinien/Suva/44006_d.pdf` |  |
+| [ ] | P2 | `06_Richtlinien/Suva/44066_D.pdf` |  |
+| [ ] | P2 | `06_Richtlinien/Suva/67001_D.pdf` |  |
+| [ ] | P2 | `06_Richtlinien/Suva/67012_d.pdf` |  |
+
+**`06_Richtlinien/SWKI`** — 1 PDF, P2
+
+SWKI-Richtlinie VA 103-1 Lueftung Parkhaeuser — ergaenzt VKF-BRL 25-15.
+
+| Status | Prio | Datei | Bemerkung |
+|---|---|---|---|
+| [ ] | P2 | `06_Richtlinien/SWKI/SWKI VA 103-1 Lüftungsanlagen für Parkhäuser.pdf` |  |
+
+**`06_Richtlinien/Suissetec`** — 2 PDF, P2
+
+Dachentwaesserung — ergaenzt SIA 271. Die zwei Dateien sind DASSELBE Dokument (Normal-/low-Aufloesung): nur EINE destillieren, die zweite als Duplikat `[-]` schliessen.
+
+| Status | Prio | Datei | Bemerkung |
+|---|---|---|---|
+| [ ] | P2 | `06_Richtlinien/Suissetec/Suissetec Richtlinie Dachentwässerung.pdf` |  |
+| [ ] | P2 | `06_Richtlinien/Suissetec/Suissetec Richtlinie Dachentwässerung_low.pdf` |  |
+
+**`06_Richtlinien/VSA`** — 3 PDF, P2
+
+Abwasserverband-Bestimmungen/SNEL — ergaenzt SN 592 Liegenschaftsentwaesserung.
+
+| Status | Prio | Datei | Bemerkung |
+|---|---|---|---|
+| [ ] | P2 | `06_Richtlinien/VSA/VSA - Dokumente - Bestimmungen.pdf` |  |
+| [ ] | P2 | `06_Richtlinien/VSA/VSA - ESBA Kanton Zürich.pdf` |  |
+| [ ] | P2 | `06_Richtlinien/VSA/VSA - SNEL.pdf` |  |
+
+**`06_Richtlinien/BKZ`** — 4 PDF, P3
+
+Hindernisfreies Bauen Kt. ZH (Behindertenkonferenz) — normnah zu SIA 500. NACHTRAG 29.07.2026: von Run 31 nicht benannt, vom Hauptprozess beim Verifizieren gefunden.
+
+| Status | Prio | Datei | Bemerkung |
+|---|---|---|---|
+| [ ] | P3 | `06_Richtlinien/BKZ/0.Mindestanforderungen_E-Version.pdf` |  |
+| [ ] | P3 | `06_Richtlinien/BKZ/BKZ - Behindertenkonferenz Kanton Zürich.pdf` |  |
+| [ ] | P3 | `06_Richtlinien/BKZ/BKZ_Checkliste.pdf` |  |
+| [ ] | P3 | `06_Richtlinien/BKZ/hindernisfrei-bauen_Sehbehig Bauen.pdf` |  |
+
+**`04_Merkblätter/Fugenlose Bodenbeläge`** — 9 PDF, P2
+
+PAVIDENSA-Merkblaetter Estriche/Abdichtungen — Faktenbasis Skill `ausschreibung` (BKP 281) und Skill `offertenpruefung`.
+
+| Status | Prio | Datei | Bemerkung |
+|---|---|---|---|
+| [ ] | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-A_01-2010_Betonoberfla__chenbearbeitung_zur_Aufnahme_von_Abdichtungen_im_Verbund.pdf` |  |
+| [ ] | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-A_03-2013_Schutzschichten.pdf` |  |
+| [ ] | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_01-2008_Spez__Bedingungen_Fussbodenheizung_02.pdf` |  |
+| [ ] | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_02-2008_Ausfu__hrung_von_Estrichen.pdf` |  |
+| [ ] | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_05-2009_Mineralfaserda__mmplatten_auf_frischen_Betondecken_oder_Ausgleichsschichten_01.pdf` |  |
+| [ ] | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_11-2009_Fugen_in_schwimmenden_Calciumsulfatestrichen.pdf` |  |
+| [ ] | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_12-2013_Verschleisswiderstand_von_Hartbeton-_und_Zement-Kunstharzbelaegen.pdf` |  |
+| [ ] | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_16-2012_Checkliste_-_Planung_und_Ausfu__hrung_von_Estrichen.pdf` |  |
+| [ ] | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_17-2012_Schwimmende_Estriche_oberflaechenfertig.pdf` |  |
+
+**`09_Sanitaereinrichtung`** — 14 PDF, P2
+
+Toilettenanlagen/Sanitaerapparate. Die `KL_Hochbau_S*`-Blaetter sind Katalogblaetter mit Ueberlappungen (S22_25 enthaelt S22-S25, S53_56 enthaelt S53-S56 — die Einzelblaetter liegen zusaetzlich unter `Kl Hochbau einzel/`): zuerst die Sammelblaetter destillieren, die Einzelblaetter dann als gedeckt `[-]` schliessen, sofern deckungsgleich.
+
+| Status | Prio | Datei | Bemerkung |
+|---|---|---|---|
+| [ ] | P2 | `09_Sanitaereinrichtung/Arbeitshilfen Sanitärapparate.pdf` |  |
+| [ ] | P2 | `09_Sanitaereinrichtung/KL_Hochbau_S22_25.pdf` |  |
+| [ ] | P2 | `09_Sanitaereinrichtung/KL_Hochbau_S53_56.pdf` |  |
+| [ ] | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S22.pdf` |  |
+| [ ] | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S23.pdf` |  |
+| [ ] | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S24.pdf` |  |
+| [ ] | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S25.pdf` |  |
+| [ ] | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S53.pdf` |  |
+| [ ] | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S54.pdf` |  |
+| [ ] | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S55.pdf` |  |
+| [ ] | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S56.pdf` |  |
+| [ ] | P2 | `09_Sanitaereinrichtung/MB_BAU_Toilettenanlagen-fuer-Personal-und-Publikum.pdf` |  |
+| [ ] | P2 | `09_Sanitaereinrichtung/Plan7_Badezimmer Alterswohnung.pdf` |  |
+| [ ] | P2 | `09_Sanitaereinrichtung/UGZ_Toilettenanlagen.pdf` |  |
+
+**Lose Merkblaetter direkt in `04_Merkblätter/`** — 20 PDF, P3
+
+Heterogen und erst am Titelblatt klassierbar. Darunter mit `SN592_Liegenschaftsentwaesserung_d.pdf` eine **echte SN-Norm** (dann P2 und ins REGISTER), Behoerden-Leitfaeden (AWEL, UGZ, AFS, Tiefbauamt), Verbands-Merkblaetter (Betonsuisse, Procap) und reine Herstellerdokumente (`Merkblatt_fuer_Ausfuehrung_REPOXIT-HB...` — nicht destillieren, `[-]` mit Begruendung). `AFS_Leitfaden Dachlandschaften.pdf` und `AFS_Leitfaden_Dachlandschaften.pdf` sind mutmasslich dasselbe Dokument (Namensvariante) — per MD5 pruefen.
+
+| Status | Prio | Datei | Bemerkung |
+|---|---|---|---|
+| [ ] | P3 | `04_Merkblätter/120206_Leitfaden_Boulevardgastronomie.pdf` |  |
+| [ ] | P3 | `04_Merkblätter/AFS_Leitfaden Dachlandschaften.pdf` |  |
+| [ ] | P3 | `04_Merkblätter/AFS_Leitfaden_Dachlandschaften.pdf` |  |
+| [ ] | P3 | `04_Merkblätter/AFS_Leitfaden_klein kunst.pdf` |  |
+| [ ] | P3 | `04_Merkblätter/AUVA Planungshilfe Anschlagsvorrichtung V101025-klein.pdf` |  |
+| [ ] | P3 | `04_Merkblätter/AWEL_Merkblatt_Versickerung.pdf` |  |
+| [ ] | P3 | `04_Merkblätter/Absturzsicherungen Richtlinie.pdf` |  |
+| [ ] | P3 | `04_Merkblätter/Bemessung Kalksandstein.pdf` |  |
+| [ ] | P3 | `04_Merkblätter/Betonsuisse_Merkblatt.pdf` |  |
+| [ ] | P3 | `04_Merkblätter/Flaechen_Wettbewerb.pdf` |  |
+| [ ] | P3 | `04_Merkblätter/GVZ_Leitfaden_Hochwassergefahrenkarte.pdf` |  |
+| [ ] | P3 | `04_Merkblätter/Merkblatt-TK004_Fluchtwege_DE.pdf` |  |
+| [ ] | P3 | `04_Merkblätter/Merkblatt_16d-06.pdf` |  |
+| [ ] | P3 | `04_Merkblätter/Merkblatt_fuer_Ausfuehrung_REPOXIT-HB_als_Decorbelag.pdf` |  |
+| [ ] | P3 | `04_Merkblätter/Procap MB_105_200910_D_rollstuhlgerechte_toiletten_oeffentlich__01.pdf` |  |
+| [ ] | P3 | `04_Merkblätter/SN592_Liegenschaftsentwaesserung_d.pdf` |  |
+| [ ] | P3 | `04_Merkblätter/Tiefbauamt_Leitfaden.pdf` |  |
+| [ ] | P3 | `04_Merkblätter/UGZ_Hindernisfreie_Aufzuege.pdf .pdf` |  |
+| [ ] | P3 | `04_Merkblätter/UGZ_Wohnungsbau_hindernisfrei.pdf` |  |
+| [ ] | P3 | `04_Merkblätter/Wegleitung für Verlegung Gartenplatten.pdf` |  |
+
+<!-- Summe: 69 -->
+
+
+**Regeln fuer diesen Abschnitt:** Es gilt derselbe Standard wie fuer SIA/VKF — Destillat nach
+Schema, danach unabhaengige Widerlegungs-Pruefung, `[x] JJMMTT` erst nach bestandener
+Verifikation, Fundstelle (Herausgeber, Ausgabe, Ziffer) zwingend. Herstellerdokumente und
+Dubletten werden mit `[-]` und Begruendung geschlossen, nicht destilliert. Herausgeber ausserhalb
+SIA/VKF gehoeren **nicht** ins `wiki/REGISTER.md` der Normfassungen, sofern sie keine SN-Nummer
+tragen — Ausnahme `SN592_Liegenschaftsentwaesserung_d.pdf`, die dort einzutragen ist.
