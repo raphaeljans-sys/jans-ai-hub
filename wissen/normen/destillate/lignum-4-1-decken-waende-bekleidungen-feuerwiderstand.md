@@ -5,9 +5,30 @@ quelle:
   - "PL - 03 Brandschutz/06 Lignum Brandschutz/Lignum 4.1 Bauteile in Holz - Decken Waende und Bekleidungen mit Feuerwiederstand/4.1 BTH Decken_ Waende und Bekleidungen mit Feuerwiderstand _C.pdf"
 herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direktor); Autoren Christoph Angehrn und Ivan Brühwiler (Josef Kolb AG, Romanshorn), Prof. Dr. Andrea Frangi (IBK ETH Zürich), Reinhard Wiederkehr (Makiol Wiederkehr AG, Beinwil am See); fachliche Begleitung Prof. Dr. Mario Fontana (IBK ETH Zürich); massgebliche Unterstützung Bundesamt für Umwelt BAFU, Aktionsplan Holz"
 ausgabe: "Lignum-Dokumentation Brandschutz, Themenblock 4 «Bauteile in Holz», Publikation 4.1 «Decken, Wände und Bekleidungen mit Feuerwiderstand». Erschienen Mai 2015, Nachdruck/Aktualisierung Oktober 2017. Von der TKB-VKF in Bezug auf Übereinstimmung mit den Mindestanforderungen der Schweizerischen Brandschutzvorschriften VKF, Ausgabe 2015 (BSV 2015), Stand 01.01.2017 geprüft und am 06.09.2017 als «Stand der Technik Papier (STP)» anerkannt. Laut Einleitung (S. 4) weist die vorliegende Publikation gegenüber der Erstausgabe von Mai 2015 in technischer Hinsicht keine relevanten Unterschiede auf; die Erstausgabe kann weiterhin angewendet werden."
-gelesen: "alle 40 Seiten (Teile A+B+C) komplett, Titelblatt/Impressum/Buchrücken eingeschlossen — Bild-Scan ohne Textlayer, visuell erfasst"
+gelesen: "alle 40 A3-Scanblaetter (Teile A+B+C, 5+15+20) = gedruckte Seiten 2-80 komplett, Titelblatt/Impressum/Buchruecken eingeschlossen — Bild-Scan ohne Textlayer, visuell erfasst. Praezisierung 260729 Run 36: je Scanblatt eine gedruckte Doppelseite, die Publikation umfasst 80 gedruckte Seiten (Impressum S. 80) — die fruehere Angabe 'alle 40 Seiten' widersprach den durchgehend bis S. 80 zitierten Seitenzahlen."
 datenstand: "Mai 2015 / STP-Anerkennung 06.09.2017"
-status: "speculative (sechste unabhaengige Refuter-Runde 27.07.2026, Run 35: BEANSTANDET mit 2
+status: "speculative (SIEBTE unabhaengige Refuter-Runde 29.07.2026, Run 36: BEANSTANDET mit 6
+  Befunden, davon nur EINER inhaltlich. (1) INHALTLICH, Kap. 4.4 zu Tab. 447-1 (S. 54): bei
+  Fugenbreite > 5 mm nannte das Destillat pauschal 'nur die BSP-Varianten' — Variante D
+  (80 mm + beidseitig BSP30) traegt in der Zelle aber Fussnote 4 'Fugenbreite maximal 5 mm',
+  ist dort also gerade ausgeschlossen; das Original nennt im Fliesstext ausdruecklich nur die
+  Varianten B respektive E. Vom Hauptprozess am eigenen 250-dpi-Rendering der S. 54 vor
+  Uebernahme bestaetigt (Fussnote 4 und Fliesstext im Bild verifiziert). (2) Formelzeichen:
+  'eh' existiert in der Publikation nicht, richtig ist e_fi (Tab. 437-1/437-2, 537-1/537-2).
+  (3) Falsche Fundstelle: die Regel zum hoeherwertigen Feuerwiderstand steht im Fliesstext
+  Kap. 2.1 (S. 5), nicht in Tab. 210-1. (4) Glossar S. 77: Brandschutzbekleidung ↔
+  Brandschutzplatte waren in den Kapitelverweisen vertauscht. (5) Tab. 462-2: Fussnote 2 steht
+  in Spalte C UND G (BSP30-RF1 und BSP60-RF1), das Destillat nannte nur BSP30-RF1.
+  (6) Frontmatter 'gelesen': 40 A3-Scanblaetter = 80 gedruckte Seiten; die Angabe 'alle 40
+  Seiten' widersprach den durchgehend bis S. 80 zitierten Seitenzahlen. Alle sechs korrigiert.
+  REGRESSIONSCHECK DER RUN-35-KORREKTUREN: alle drei zellengenau BESTAETIGT, keine Regression —
+  Tab. 446-1 (Kopfzeile selbst nachgezaehlt: R30=A+B, EI30=C+D, REI30=E+F+G; Minimum 60 in C/D)
+  60-115 mm richtig, Tab. 446-3 R90=A+B+C+D vier Spalten, 120-205 mm richtig, Gesamtbandbreite
+  60-205 mm richtig. Zusatzpruefung Tab. 446-2 (R60 110-155, gesamt 70-155 mm) ebenfalls
+  bestaetigt. Ein offener Punkt geschlossen: die letzte Variantenspalte von Tab. 447-1 ist
+  lesbar (Variante E). Kein Nulldurchgang, aber die Fehlerdichte ist erstmals klar auf
+  Formalien verlagert (5 von 6 Befunden ohne Auswirkung auf einen Kennwert).
+  Vorherige Runde (Run 35, sechste): BEANSTANDET mit 2
   Befunden, beide durch eigene Bild-Nachpruefung am Original (300-dpi-Rendering S. 51/53) VOR
   Uebernahme bestaetigt — (1) Tab. 446-1 (Waende mehrlagige Massivholzplatten REI30, S. 51):
   Gesamt-Untergrenze war faelschlich mit 50 mm angegeben (widersprach einer frueheren Runde, die
@@ -47,7 +68,7 @@ status: "speculative (sechste unabhaengige Refuter-Runde 27.07.2026, Run 35: BEA
   Tab. 462-2 einschichtig/zweischichtig vertauscht) sowie einer zurueckgenommenen Regression
   (Tab. 446-1 Untergrenze 50 mm war korrekt). Bleibt speculative bis zu einer Runde mit
   sauberem Nulldurchgang.)"
-last_updated: 2026-07-27
+last_updated: 2026-07-29
 links: [[REGISTER]]
 ---
 
@@ -135,7 +156,9 @@ Brandschutzregister VKF [2].
   dagegen nur von einer Seite (S. 5). Bei unterschiedlichen Anforderungen
   innerhalb eines Bauteils (z. B. Tragwerk R60 + Brandabschnittsbildung EI30) sind die
   Nachweise gesondert zu führen, oder das Gesamtbauteil ist mit dem höherwertigen
-  Feuerwiderstand auszuführen (Tab. 210-1, S. 5).
+  Feuerwiderstand auszuführen (S. 5, Kap. 2.1, Fliesstext — nicht Tab. 210-1, die auf derselben
+  Seite nur die Übersicht tragender und/oder brandabschnittsbildender Bauteile zeigt;
+  Fundstellen-Korrektur 260729 Run 36).
 
 ### 2.2 Nachweis des Feuerwiderstands von Bauteilen (S. 6)
 
@@ -449,11 +472,14 @@ siehe «Offene Punkte»):
 - Holz-Beton-Verbunddecken: **zwei unterschiedliche Systeme, nicht vermischen.**
   Tab. 437-1 (mit Balkenlage, S. 37): Betonplatte REI30 ≥ 60 mm (Bewehrungsüberdeckung
   ≥ 20 mm), REI60 ≥ 80 mm (≥ 20 mm), REI90 ≥ 100 mm (≥ 30 mm); Balkenlage b ≥ 120 mm
-  (REI30) bzw. b ≥ 180 mm (REI60), jeweils h ≥ 200 mm, Abstand eh ≥ 40/70 mm oder gemäss
+  (REI30) bzw. b ≥ 180 mm (REI60), jeweils h ≥ 200 mm, Verbindungsmittelabstand e_fi ≥ 40/70 mm oder gemäss
   Bemessung Lignum-Doku «Feuerwiderstandsbemessung – Bauteile und Verbindungen» [6]
   (REI90 nur rechnerisch, keine Tabellenwerte). Tab. 437-2 (mit flächiger Holzschicht,
   gleiche Betonplatten-Dimensionierung): Holzschicht h ≥ 80 mm (REI30), h ≥ 160 mm (REI60),
-  h ≥ 240 mm (REI90), Abstand eh ≥ 40/64/88 mm oder gemäss [6]. Korrektur 260727: die
+  h ≥ 240 mm (REI90), Verbindungsmittelabstand e_fi ≥ 40/64/88 mm oder gemäss [6]
+  (Schreibweise des Formelzeichens korrigiert 260729 Run 36: das Original schreibt durchgehend
+  e mit tiefgestelltem «fi» — analog q'd,fi —, nie «eh»; ebenso in Tab. 537-1/537-2, S. 71/72).
+  Korrektur 260727: die
   Erstfassung hatte die b-Werte aus Tab. 437-1 (Balkenlage) mit dem h-Wert 240mm aus
   Tab. 437-2 (flächige Holzschicht, REI90) zu einer einzigen, so nicht belegten Spanne
   „b ≥ 120–240mm, h ≥ 200mm" vermischt.
@@ -513,8 +539,13 @@ Repräsentative Grössenordnungen (keine vollständige Wiedergabe der Varianten-
   Span-/Faser-/OSB-Platte 80 mm ohne Brandschutzplatte oder beidseitig BSP30 (Platte dann
   nur für Normaltemperatur bemessen); EI60 entweder 140 mm ohne Brandschutzplatte, oder
   80 mm + beidseitig BSP30, oder beidseitig BSP60 (Platte für Normaltemperatur bemessen).
-  Bei Fugenbreite > 5 mm zwischen den Elementen sind nur die BSP-Varianten oder ein
-  rechnerischer Nachweis nach Kap. 2.2 c) zulässig (S. 54).
+  Bei Fugenbreite > 5 mm zwischen den Elementen bleiben nur die Varianten B (EI30, beidseitig
+  BSP30) bzw. E (EI60, beidseitig BSP60) oder ein rechnerischer Nachweis nach Kap. 2.2 c)
+  (S. 54); Variante D (80 mm + beidseitig BSP30) ist gemäss Fussnote 4 auf eine Fugenbreite
+  von maximal 5 mm beschränkt (Refuter-Korrektur 260729 Run 36, vom Hauptprozess am
+  250-dpi-Rendering S. 54 selbst nachgeprüft: die frühere Formulierung «nur die BSP-Varianten»
+  schloss D fälschlich ein und erlaubte damit einen Aufbau, den das Original bei Fugenbreite
+  > 5 mm gerade ausschliesst).
 
 ### 4.5 Abbrandbemessung von Holzbauteilen (S. 55)
 
@@ -563,8 +594,9 @@ Repräsentative Grössenordnungen (keine vollständige Wiedergabe der Varianten-
   (Rohdichte ≥ 450 kg/m³), Blähglimmerplatten (Rohdichte ≥ 700 kg/m³),
   Leichtbeton/Porenbeton/Gasbeton/Blähton sowie Verputze (Kalk-/Zement-/Gipsmörtel,
   Mineralfaser-/Spritzputz, Perlite-/Vermiculitemörtel). Die Schichtreihenfolge darf
-  umgekehrt werden (Fussnote 1); der Estrich bei BSP30-RF1 gilt nur für Baustoffe der
-  Brandverhaltensgruppe RF1 (Fussnote 2). Beispielwerte: BSP30 einschichtig (Variante A)
+  umgekehrt werden (Fussnote 1); der Estrich gilt bei BSP30-RF1 (Spalte C) und bei BSP60-RF1
+  (Spalte G) nur für Baustoffe der Brandverhaltensgruppe RF1 (Fussnote 2 steht in beiden
+  Spalten; Ergänzung 260729 Run 36). Beispielwerte: BSP30 einschichtig (Variante A)
   z. B. Massivholzplatte 26 mm oder Gipsplatte 18 mm; BSP30 zweischichtig (Variante B)
   z. B. Gipsplatte 9,5 + 12,5 mm oder Massivholzplatte 15 + 19 mm. BSP60 einschichtig
   (Variante D) z. B. Massivholzplatte 48 mm oder Gipsplatte 18 + 18 mm; BSP60
@@ -675,7 +707,8 @@ Brandschutzbekleidung durchgehend K60-RF1; Hohlraumdämmung Mineralwolle 90–14
 - **Brandabschnitt / brandabschnittsbildende Bauteile**: Bereiche eines Bauwerks, die
   durch brandabschnittsbildende Bauteile (Brandmauern, Wände, Decken, Brandschutz-
   abschlüsse und Abschottungen) getrennt werden bzw. diese Bereiche unterteilen.
-- **Brandschutzbekleidung / Brandschutzplatte**: siehe Kap. 2.4 und 4.6 bzw. 5.2.2.
+- **Brandschutzbekleidung**: siehe Kap. 2.4 und 5.2.2. **Brandschutzplatte**: siehe Kap. 2.4
+  und 4.6 (Glossar S. 77; die Zuordnung war bis 260729 vertauscht, Run-36-Korrektur).
 - **Brandverhaltensgruppe (RF)**: Einteilung der Baustoffe hinsichtlich ihres
   Brandverhaltens — **RF1** (kein Brandbeitrag), **RF2** (geringer Brandbeitrag), **RF3**
   (zulässiger Brandbeitrag), **RF4** (unzulässiger Brandbeitrag).
@@ -855,8 +888,10 @@ ETH Zürich.
   damit nicht pauschal, sondern beschreibt ein Risiko, das je Textabschnitt
   unterschiedlich eintritt.»
 - **Seitenzuordnung Teil C**: PDF-Seite n = gedruckte Doppelseite (40+2n)/(41+2n).
-- **Nicht lesbarer Rest**: Tab. 447-1 (S. 54) — Bezeichnung der letzten Variantenspalte
-  im Scan nicht eindeutig.
+- **Nicht lesbarer Rest — GESCHLOSSEN 260729 (Run 36):** Die letzte Variantenspalte von
+  Tab. 447-1 (S. 54) ist bei 250 dpi eindeutig lesbar: Variante **E** (EI60, beidseitig BSP60,
+  Tragkonstruktion nur für Normaltemperatur bemessen, Fussnote 1). Vom Hauptprozess am eigenen
+  Rendering bestätigt.
 
 ### 27.07.2026, dritte Runde (Einzelagent, vollständige Neulektüre aller 40 Seiten A+B+C)
 

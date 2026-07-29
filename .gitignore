@@ -1,5 +1,10 @@
 # Secrets - NIEMALS committen
-.mcp.json
+# HINWEIS 29.07.2026: .mcp.json ist bewusst NICHT mehr ignoriert. Sie enthaelt nur
+# Server-Namen, einen Script-Pfad und eine HTTPS-URL — keine Credentials. Die
+# Geheimnisse liegen in ~/.cli-m365-cert-combined.pem bzw. den *.env unten und
+# bleiben ignoriert. Eingecheckt bekommt jede Station und jeder MA die Connectoren
+# automatisch (Anthropic-Lecture Tip #7: configure MCP servers for your team and
+# check them into git). Vor jedem Commit pruefen, dass keine Secrets hineingeraten sind.
 .env
 *.env
 *.secret
@@ -22,6 +27,12 @@ output/
 sync-tasks/
 dispatch/
 *.log
+# Lauf-Journal der automatischen Laeufe (scripts/claude-run.sh, seit 29.07.2026).
+# Bewusst NICHT versioniert: es enthaelt je Lauf einen Antwort-Ausschnitt, der bei
+# operativen Laeufen (Mahnwesen, Zahlungen, Mail) Kundendaten und Betraege tragen
+# kann — das gehoert nicht ins GitHub-Backup. Der Leerlauf-Waechter liest die lokale
+# Datei seiner eigenen Station; die Loops sind ohnehin stationsgebunden verteilt.
+logbuch/laeufe/
 
 # Schwere Referenz-Binaerdateien — leben auf dem NAS, gehoeren NICHT ins Git
 # (Skills lesen sie lokal; Git haelt nur Text + leichte Assets)

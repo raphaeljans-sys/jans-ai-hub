@@ -4,7 +4,31 @@ herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direkto
 ausgabe: "Lignatec 17/2005 «Bauten in Holz – Brandschutz-Anforderungen», erschienen Juni 2005, ISSN 1421-0320; geprüft durch die Technische Kommission der Vereinigung Kantonaler Feuerversicherungen (TKB-VKF) auf materielle Übereinstimmung mit den Schweizerischen Brandschutzvorschriften VKF (Ausgabe 2003, gültig seit 1.1.2005) und als «Stand der Technik» anerkannt"
 gelesen: "alle 12 PDF-Seiten (= gedruckte Seiten 2-24 plus Titelblatt) komplett, Bild-Scan ohne Textlayer, visuell gelesen"
 datenstand: "2005 (Bezug: VKF-Brandschutzvorschriften Ausgabe 2003/gültig ab 1.1.2005) — VERALTET gegenüber der aktuellen VKF-Vorschriftengeneration 2015 (vgl. Destillat vkf-ah-1001-15-wohnbauten.md)"
-status: "speculative (sechste unabhaengige Refuter-Runde 260727, Run 35: BEANSTANDET mit 1 Befund
+status: "speculative (SIEBTE unabhaengige Refuter-Runde 260729, Run 36: BEANSTANDET mit 7 Befunden
+  — Trendbruch nach vier Runden mit je 1 Befund. Der Agent hat Tab. 5 erstmals RECHNERISCH
+  aufgenommen (Median-RGB je Zellbox ueber alle 10 Nutzungszeilen x 29 Spalten, Klassierung
+  blau/grau/weiss) statt sie nur visuell zu lesen — daraus die drei Kernbefunde 1-3, die alle
+  DERSELBEN Wurzel entstammen: die frueheren Runden hatten den Geschossblock 1-3 geprueft und
+  das Ergebnis unzulaessig auf den Block 4-8 verallgemeinert. (1) Aussenwandverkleidung: im
+  Block 4-8 blau bei [a] UND [c], grau (nicht weiss) bei Hotels [b] — widersprach den
+  ausdruecklichen Bestaetigungen aus Run 32 und Run 34; (2) blaue Daemmschicht-Felder gibt es
+  bereits im Block 1-3 (Aussenwand bei [a]); (3) Bodenbelag Treppenhaus im Block 4-8 blau bei
+  [a] und [c]. Alle drei hat der Hauptprozess VOR Uebernahme am eigenen 300-dpi-Rendering der
+  S. 15 selbst nachgezaehlt und bestaetigt. (4) Tab. 4: das Destillat widersprach sich selbst
+  (Treppenhaus REI60(nbb) ab 4 Geschossen vs. 'erst bei 7-8') — am Original S. 13 vom
+  Hauptprozess geklaert: ab 4 Geschossen Treppenhaus, erst bei 7-8 auch der Korridor.
+  (5) Tab. 3: 'R30 mit Mindestkantenabmessung' verschmolz zwei alternative Konzeptwerte
+  (baulich/Sprinkler) zu einer scheinbar kombinierten Anforderung. (6) Die Nutzungszeile
+  'Bauten mit unbekannter Nutzung' fehlte in der Aufzaehlung ganz (kommt in Tab. 3/4/5 in
+  gemeinsamer Zeile mit Industrie q>1000 vor). (7) Modalitaets-Haertung an fuenf Stellen
+  ('im Normalfall' und viermal 'insbesondere' gestrichen — nicht abschliessende Aufzaehlungen
+  wurden zu scheinbar abschliessenden). Alle sieben korrigiert. Regressionscheck der
+  Run-32/33/34/35-Korrekturstellen: alle vier bestaetigt, keine Regression — insbesondere die
+  frische Run-35-Korrektur an Ziff. 1.2 ('meistens') haelt. Kein Nulldurchgang.
+  LEHRE DIESES LAUFS: eine Runde mit nur noch 1 Randbefund ist KEIN Indiz fuer Saettigung,
+  sondern kann Ausdruck einer zu schmalen Pruefmethode sein — der Wechsel von visueller zu
+  rechnerischer Tabellenaufnahme foerderte in derselben Tabelle sofort drei Kernbefunde zutage.
+  Vorherige Runde (Run 35, sechste): BEANSTANDET mit 1 Befund
   — Ziff. 1.2 (S. 3), Destillat gab 'Decken sind i.d.R. tragend UND brandabschnittbildend' wieder;
   Original schreibt 'meistens' statt der Absolutformulierung 'und' ('Decken sind in der Regel
   tragend und meistens brandabschnittbildend') — Nuance-Verlust, keine Kernwert-Verfaelschung,
@@ -17,7 +41,7 @@ status: "speculative (sechste unabhaengige Refuter-Runde 260727, Run 35: BEANSTA
   EFH/REFH-Ausnahme), Run 32 1 Befund (nach 17 in Runde 2), Run 30/31 BEANSTANDET mit
   vielen/17 Befunden. Unveraendert: Aktualitaets-Vorbehalt gegen VKF 2015 bleibt bestehen, da die
   Quelle von 2005 ist.)"
-last_updated: 2026-07-27
+last_updated: 2026-07-29
 links: [[REGISTER]], [[vkf-ah-1001-15-wohnbauten]]
 ---
 
@@ -363,8 +387,24 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
     EFH/REFH (dort durchgehend keine farbig markierten Felder, freie Holzanwendung, Refuter-
     Korrektur 260727 Run 33) die Wand- und Deckenverkleidung der Fluchtwege (Korridor/
     Treppenhaus), bei 4-8 Geschossen zusätzlich die Dämmschichten Aussenwand/Innenwand/Decke bei
-    brennbarem Tragwerk (bb); die Aussenwandverkleidung ist nur bei Beherbergungsbetrieben [a]
-    (Krankenhäuser) blau, bei Beherbergungsbetrieben [b] (Hotels) nicht.
+    brennbarem Tragwerk (bb) sowie — ebenfalls nur im Block 4-8 — der **Bodenbelag Treppenhaus**
+    bei Beherbergungsbetrieben [a] und bei Bauten mit grosser Personenbelegung/Verkaufsgeschäften
+    [c] (der Bodenbelag Korridor bleibt dort grau; Refuter-Korrektur 260729 Run 36, vom
+    Hauptprozess am 300-dpi-Rendering S. 15 selbst nachgezählt).
+    Bereits im Block **1-3 Geschosse** ist die Dämmschicht **Aussenwand** bei
+    Beherbergungsbetrieben [a] blau (alle neun übrigen Nutzungszeilen dort weiss) — die frühere
+    Formulierung «bei 4-8 Geschossen zusätzlich die Dämmschichten» suggerierte fälschlich, im
+    Block 1-3 gebe es keine blauen Dämmschicht-Felder (Refuter-Korrektur 260729 Run 36).
+  - **Aussenwandverkleidung — je Geschossblock verschieden** (Refuter-Korrektur 260729 Run 36,
+    am Original nachgezählt; die früheren Bestätigungen aus Run 32/34 hatten nur den Block 1-3
+    geprüft und das Ergebnis unzulässig auf die ganze Tabelle verallgemeinert):
+    Im Block **1-3** ist die Aussenwandverkleidung nur bei Beherbergungsbetrieben [a]
+    (Krankenhäuser) blau; alle übrigen Nutzungszeilen sind dort weiss.
+    Im Block **4-8** ist sie bei Beherbergungsbetrieben [a] UND bei Bauten mit grosser
+    Personenbelegung/Verkaufsgeschäften [c] blau, bei allen übrigen Nutzungen — einschliesslich
+    Beherbergungsbetrieben [b] (Hotels) — **grau** (Holz nur unter bedingten Auflagen), und
+    einzig bei Wohnbauten EFH/REFH weiss. Die frühere Aussage «bei Hotels nicht» war insofern
+    irreführend, als grau keine Freigabe, sondern eine Auflagenstufe ist.
   - Fussnote ① Bei Einfamilienhäusern werden keine speziellen Anforderungen an die Verwendung
     brennbarer Baustoffe mit BKZ ≥ 4.2 gestellt; in Abhängigkeit der Haustechnikanlagen können
     dennoch nicht brennbare Materialien verlangt werden.

@@ -1,5 +1,33 @@
 # Norm-Inventar — Arbeitsliste des Nacht-Loops `normen-training-nacht`
 
+- **Run 36 (MacBook Pro, 260729) — zwei Cross-KB-Fragen zu BSR 16-15 geschlossen, siebte
+  Refuter-Runde fuer die beiden verbleibenden speculativen Lignum-Destillate. 5 parallele
+  Agenten (2 Fundstellen-Ermittler Hauptmodell, 2 Refuter Hauptmodell, 1 Bestandssuche Sonnet);
+  alle substanziellen Befunde vom Hauptprozess vor Uebernahme selbst am Original nachgeprueft.**
+  Kein neues Grunddestillat (PL-02 weiterhin 0 offene `[ ]`). Ergebnisse:
+  - `vkf-brl-16-15-flucht-rettungswege.md`: **erweitert** um den Abschnitt «Entscheidungsfigur
+    Treppen» (bleibt established). 1.20 m = Ausnahme-, 1.50 m/0.15 m = Regelwert bei gewendelten
+    Treppen; Entlastungskatalog fuer Treppen innerhalb der Nutzungseinheit ist abschliessend und
+    kennt Beherbergung nicht; Schnittfigur BSN 1-15 Art. 13 Abs. 3 lit. d. Zwei Negativbefunde
+    («Lauflinie», «offene vertikale Verbindung» kommen nicht vor). Fassungen 01.01.2017 und
+    Stand 01.12.2022 in allen einschlaegigen Ziffern textidentisch.
+  - `lignum-lignatec-brandschutz.md`: bleibt `speculative` — **siebte Runde 7 Befunde
+    (Trendbruch nach 1/1/1/1)**, ausgeloest durch den Wechsel von visueller auf rechnerische
+    Tabellenaufnahme (Median-RGB je Zellbox). Drei Kernbefunde in Tab. 5 (Geschossblock 4-8 war
+    nie separat geprueft worden), dazu Tab.-4-Selbstwiderspruch, Tab.-3-Konzeptwert-Verschmelzung,
+    fehlende Nutzungszeile «unbekannte Nutzung», Modalitaets-Haertung an 5 Stellen. Alle
+    korrigiert, keine Regression.
+  - `lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md`: bleibt `speculative` — siebte
+    Runde 6 Befunde, davon nur 1 inhaltlich (Tab. 447-1 Variante D ist bei Fugenbreite > 5 mm
+    gerade ausgeschlossen, Fussnote 4). Regressionscheck der Run-35-Korrekturen: alle drei
+    zellengenau bestaetigt. Fehlerdichte erstmals klar auf Formalien verlagert.
+  - Bestandssuche: **SIA 385/9:2023, SN EN 13487, SN EN 12102-1 definitiv nicht im Haus**
+    (1'281 PDF nach Dateiname, 696 PDF zusaetzlich nach Titelblatt durchsucht). Externe
+    Beschaffung noetig, weitere Bestandssuche eruebrigt sich.
+  Naechster Batch: achte Runde `lignum-lignatec` mit rechnerischer Aufnahme auch von Tab. 3 und
+  Tab. 4 (dort bisher nur geprueft, was das Destillat behauptet, nicht die Tabelle als ganze).
+  Report `outputs/2026-07-29_normen-nacht-run36.md`.
+
 - **Run 35 (MacBook Pro, 260727) — sechste Refuter-Runde fuer die 3 verbleibenden speculativen
   Lignum-/SIA-Destillate (Run-34-Empfehlung, 3 parallele Agenten). 1x established (sauberer
   Nulldurchgang), 2x weiterhin speculative mit neuen, vom Hauptprozess selbst gegen das Original

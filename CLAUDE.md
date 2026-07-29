@@ -87,7 +87,8 @@ chmod 600 ~/.cli-m365-cert-combined.pem ~/.cli-m365-cert-key.pem
 ```
 
 ## Multi-Station Regeln
-- **Geteilt via Git+NAS**: `.mcp.json`, `.claude/settings.json`, CLAUDE.md, NAS-Inhalte — identisch auf beiden Stationen
+- **Geteilt via Git+NAS**: `.mcp.json` (secret-frei, seit 29.07. versioniert), `.claude/settings.json`, CLAUDE.md, NAS-Inhalte — identisch auf beiden Stationen
+- **User-Level je Station**: `~/.claude/CLAUDE.md` traegt die JANS-Grundregeln in JEDE Session, auch ausserhalb des Repos. Quelle `templates/user-level/CLAUDE.md`, verteilen via `bash scripts/user-claude-sync.sh --alle`
 - **Lokal je Station (NICHT in Git)**: `settings.local.json`, `.env`, Claude-Desktop-Config, Cloudflare-Connectoren (Google/Figma/Chrome, pro Station im Browser eingerichtet)
 - Apple Mail auf beiden Stationen (gleicher iCloud-Account)
 - Nach Aenderung geteilter Configs: `/sync`
@@ -210,6 +211,14 @@ Pfad je Agent: `agents/<name>.md` auf dem NAS (Beschreibung dort massgeblich).
 | `linkedin-stratege` / `linkedin-texter` / `linkedin-engagement` | Marketing-Harness: Plan / Post / Interaktion |
 | `rechtschreibung` / `layout` | Korrektur-Harness: Orthografie / Layout, parallel (Skill `korrektur`) |
 
+## Werkzeuge / Connectoren
+
+**Der vollstaendige Werkzeug-Index steht in `connectors/README.md`** (16 Connectoren, je mit
+Zweck, Einstiegs-Flags und Zugangsweg) — dort nachschlagen, bevor eine externe Quelle von
+Hand abgefragt oder ein Weg improvisiert wird. **Konvention:** einen Connector zuerst per
+`node <pfad> --hilfe` selbst befragen. Fehlt die Allowlist-Freigabe, in
+`.claude/settings.json` ergaenzen (Rule 260609). Neue Connectoren werden im Index eingetragen.
+
 ## Custom Commands (Slash-Commands)
 | Command | Beschreibung |
 |---|---|
@@ -239,7 +248,7 @@ jans-ai-hub/                          (Git-Repo, auf jeder Station lokal)
 ├── scripts/ (setup-nas-skills.sh, git-auto-sync.sh, dispatch-run.sh, …)
 ├── CLAUDE.md
 ├── .env / .env.example               ← Credentials (NICHT committen)
-└── .mcp.json                         ← M365-Connector (NICHT committen)
+└── .mcp.json                         ← MCP-Server, versioniert (secret-frei)
 ```
 
 ## Wissens-Layer (`wissen/`)

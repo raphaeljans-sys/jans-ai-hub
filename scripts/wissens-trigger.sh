@@ -153,8 +153,12 @@ for eintrag in "${TRIGGERS[@]}"; do
     fi
 
     start=$(date +%s)
-    antwort="$("$CLAUDE_BIN" -p --permission-mode acceptEdits --max-budget-usd 50 \
-        --fallback-model sonnet --output-format text -- "$(cat "$skill")" 2>&1)"
+    # SDK-JSON seit 29.07.2026 (Anthropic-Lecture): Kennzahlen ins Lauf-Journal,
+    # Rueckgabe hier weiterhin reiner Text.
+    WRAP="$HOME/Developer/jans-ai-hub/scripts/claude-run.sh"
+    [ -f "$WRAP" ] || WRAP="/Volumes/daten/jans-ai-hub/scripts/claude-run.sh"
+    antwort="$(CLAUDE_BIN="$CLAUDE_BIN" bash "$WRAP" --name "wissens-trigger-$kb" \
+        --perm acceptEdits --budget 50 -- "$(cat "$skill")" 2>/dev/null)"
     rc=$?
     dauer=$(( $(date +%s) - start ))
     log "$kb: ENDE $task (rc=$rc, ${dauer}s): $(echo "$antwort" | tail -c 400 | tr '\n' ' ')"

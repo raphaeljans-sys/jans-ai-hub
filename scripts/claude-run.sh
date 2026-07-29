@@ -49,10 +49,19 @@ ARGS=( -p --permission-mode "$PERM" --max-budget-usd "$BUDGET"
        --fallback-model "$FALLBACK" --output-format json )
 [ -n "$MODELL" ] && ARGS+=( --model "$MODELL" )
 
+# stdout und stderr GETRENNT erfassen. Grund (gemessen 29.07.2026): claude schreibt
+# Warnungen wie «Ignoring N permissions.allow entries … workspace has not been trusted»
+# auf stderr. Mit 2>&1 landen sie VOR dem JSON im selben String, `jq` scheitert am
+# Gesamttext und der Wrapper faellt unnoetig auf den Rohtext-Pfad zurueck — die
+# Kennzahlen (cost_usd, duration_ms) gehen dabei verloren.
+ERRFILE="$(mktemp -t claude-run-err)"
+trap 'rm -f "$ERRFILE"' EXIT
+
 START=$(date +%s)
-RAW="$("$CLAUDE_BIN" "${ARGS[@]}" -- "$PROMPT" < /dev/null 2>&1)"
+RAW="$("$CLAUDE_BIN" "${ARGS[@]}" -- "$PROMPT" < /dev/null 2>"$ERRFILE")"
 RC=$?
 WALL=$(( $(date +%s) - START ))
+STDERR="$(cat "$ERRFILE" 2>/dev/null)"
 
 # --- JSON auswerten; bei Fehlschlag Rohausgabe durchreichen -------------------
 RESULT=""
@@ -64,10 +73,18 @@ if printf '%s' "$RAW" | jq -e . >/dev/null 2>&1; then
     ISERR="$(printf '%s' "$RAW"  | jq -r '.is_error // false')"
     SESSION="$(printf '%s' "$RAW"| jq -r '.session_id // ""')"
 else
-    # Kein JSON: typischerweise ein CLI-/Auth-Fehler auf stderr. Nichts verwerfen.
-    RESULT="$RAW"; COST=null; DUR=null; TURNS=null; ISERR=true; SESSION=""
+    # Kein JSON: typischerweise ein CLI-/Auth-Fehler. Nichts verwerfen — stdout UND
+    # stderr durchreichen, damit die Aufrufer (Blindgaenger-/Limit-Erkennung im
+    # vollgas-runner) den Text wie bisher sehen.
+    RESULT="$(printf '%s\n%s' "$RAW" "$STDERR")"
+    COST=null; DUR=null; TURNS=null; ISERR=true; SESSION=""
 fi
-[ -n "$RESULT" ] || RESULT="$RAW"
+# Leeres Ergebnis trotz gueltigem JSON: stderr nachschieben statt Stille liefern.
+[ -n "$RESULT" ] || RESULT="$(printf '%s\n%s' "$RAW" "$STDERR")"
+
+# Warnungen sichtbar halten, ohne sie in den Ergebnistext zu mischen: sie gehen
+# unveraendert an stderr weiter (der Aufrufer entscheidet, ob er sie mitloggt).
+[ -n "$STDERR" ] && printf '%s\n' "$STDERR" >&2
 
 # --- Journalzeile (die Grundlage der Liefer-Delta-Messung) --------------------
 if mkdir -p "$JOURNAL_DIR" 2>/dev/null; then

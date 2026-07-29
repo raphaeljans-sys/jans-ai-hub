@@ -7,7 +7,7 @@ ersetzt: "VKF-Brandschutzrichtlinie 16-15de, 01.01.2015 (Original-Ausgabe vor de
 gelesen: "S. 1-13 (Ziff. 1-5 vollstaendig); Anhang S. 14-25 gelesen (Zeichnungen/Erlaeuterungen zu Ziff. 2.3, 2.4.2, 2.4.4, 2.4.5, 2.5.1, 2.5.2, 2.5.5, 3.2.1/3.3.1/3.4.1, 3.3, 3.4.3, 3.5.2, 3.5.3); Kennwerte aus Anhang S. 17 (Treppen), S. 19 (Tuerverschluesse), S. 24 (Personenbelegung) am Original verifiziert und eingearbeitet (17.07.2026). Restlicher Anhang S. 26-35 noch nicht im Detail gelesen. Vorgaenger-Ausgabe 01.01.2015 (Datei 'Flucht & Rettungswege.pdf', 34 S.) vollstaendig gegen die Fassung 01.01.2017 abgeglichen (pdftotext-Volltextvergleich). Unabhaengige Gegenpruefung (Refuter, 17.07.2026): Personenbelegungs-Kennwerte (S. 24), Treppen-Steigungsformeln/Podeste (S. 17), Tuerverschluss-Zuordnung EN 179/EN 1125/EN 13637 (S. 19), Datierung/Ausgabe (S. 1, 2, 13) sowie die Messweise-Zuordnung Treppenbreite (S. 15) und der Anhang-Vorbehalt (S. 14) am Original nachgeprueft — keine Abweichung gefunden. NACHTRAG 25.07.2026: Fassung Stand 01.12.2022 (BSPUB-1394520214-85.pdf, 35 S.) vollstaendig per pdftotext extrahiert und Seite fuer Seite (Volltextvergleich) gegen die Fassung 01.01.2017 (Datei 16-15_rev2016_flucht_und_rettungswege.pdf, identisch mit der oben destillierten Quelle) abgeglichen; gezielt gegengelesen S. 1-2 (Titelblatt/Copyright/Aenderungsliste), S. 6 (Hauptziffern 2.4.3/2.4.4 im Kontext der Volltextextraktion), S. 12 (Hauptziffer 3.7), S. 14-16 (Anhang zu Ziff. 2.4.2-2.4.4), S. 24 (Anhang zu Ziff. 3.5.2, Personenbelegung), S. 32-34 (Anhang zu Ziff. 3.7/3.9/3.10). Siehe Abschnitt 'Fassung 01.12.2022 — Delta zur Fassung 01.01.2017' unten. NACHTRAG 25.07.2026 (Run 23): Diagnose zur Bildunterschrift Ziff. 2.4.3/2.4.4 korrigiert — per `pdftotext -layout` S. 15 beider Fassungen (nicht S. 16), keine Vertauschung zwischen den Ueberschriften, reine Umbenennung unter Ziff. 2.4.4."
 datenstand: "Ausgabe 2015 (in Kraft 01.01.2015); destilliert ab Dokumentfassung 01.01.2017 mit den IOTH-Aenderungen 17.09.2015 und 22.09.2016. Im Bestand liegt zusaetzlich die Fassung Stand 01.12.2022 (BSPUB-1394520214-85.pdf) mit drei weiteren Aenderungsstufen — Beschluss ABSV 22.03.2017 (Anhang zu Ziff. 2.4.3/2.4.4), Beschluss TKB 09.06.2021 (Ziff. 3.5.2 Personenbelegung Verkauf, ERSETZT) und Fehlerkorrektur 01.12.2022 (Anhang zu Ziff. 3.7). Alle drei sind jetzt am Original geprueft und destilliert (Personenbelegung Verkauf: Wissens-Chef Run 8, 18.07.2026; ABSV und Fehlerkorrektur: 25.07.2026, siehe Abschnitt 'Fassung 01.12.2022 — Delta zur Fassung 01.01.2017'). Ergebnis: in allen drei Faellen ist NUR der erlaeuternde Anhang (Zeichnungs-Legenden/Bildunterschriften) geaendert bzw. praezisiert worden, nicht der normative Haupttext der Ziffern 2.4.3/2.4.4 bzw. 3.7 (Ziff. 3.5.2 Personenbelegung ist die Ausnahme: dort wurde die Verkaufs-Tabelle im Anhang selbst materiell ersetzt)."
 status: established-mit-vorbehalt
-last_updated: 2026-07-25
+last_updated: 2026-07-29
 links: [[REGISTER]], [[QUESTIONS]]
 ---
 
@@ -402,6 +402,95 @@ den unveraenderten Hauptziffertext korrekt wieder. Ergaenzt wurden ausschliessli
 dieser neue Abschnitt, (b) das Frontmatter-Feld `gelesen` (Nachtrag 25.07.2026), (c) das
 Frontmatter-Feld `datenstand` (Status der drei Aenderungsstufen von «ungeprueft» auf
 «geprueft» aktualisiert, `status:` selbst nicht angetastet).
+
+## Entscheidungsfigur Treppen — Regel, Ausnahme und die Treppe INNERHALB der Nutzungseinheit
+
+*(Neu 29.07.2026, Run 36. Anlass: zwei Fragen aus dem Wettbewerbs-Scan «Grassenbiwak 2027»
+(QUESTIONS 28.07.2026). Die Einzelziffern standen bereits verstreut im Destillat — neu ist die
+Zusammenfuehrung zur Entscheidungsfigur. Alle Fundstellen vom Hauptprozess am Original
+(Fassung 01.01.2017) nachgelesen; die Fassung Stand 01.12.2022 ist in allen hier genannten
+Ziffern textidentisch, beide sind also mit gleichem Wortlaut zitierfaehig.)*
+
+### A · Treppengeometrie: 1.20 m ist die AUSNAHME, nicht die Regel
+
+| Fall | Laufbreite | innere Auftrittsbreite | Modalitaet | Fundstelle |
+|---|---|---|---|---|
+| geradlaeufige Treppe (inkl. Podeste), Grundmass | 1.2 m | — | **muss** | Ziff. 2.4.5 Abs. 3, S. 6 |
+| horizontaler Fluchtweg, Grundmass | 1.2 m | — | **muss** | Ziff. 2.4.5 Abs. 2, S. 6 |
+| **gewendelte Treppe, Grundmass** | **1.5 m** | **0.15 m** | **muss** | Ziff. 2.4.5 Abs. 3, S. 6 |
+| gewendelte Treppe, nutzungsbezogene Absenkung | 1.2 m | 0.10 m | **«sind zulaessig, sofern»** | Ziff. 3.1 Abs. 2 lit. b (S. 8/9), 3.2.2 Abs. 1 (S. 9), 3.3.2 Abs. 1 (S. 10), 3.6.2 Abs. 5 (S. 12) |
+| geradlaeufige Treppe, nutzungsbezogene Absenkung | 0.9 m | — | «kann reduziert werden» | Ziff. 3.1 Abs. 2 lit. a (S. 8), 3.2.2 Abs. 2 (S. 9) |
+
+Grafisch zusammengefasst im Anhang zu Ziff. 2.5.1, S. 17 (Wendeltreppen-Skizze mit beiden
+Wertepaaren; Bildpruefung 260729: die Skizze enthaelt keinen weiteren, im Volltext unsichtbaren
+Zahlenwert — insbesondere steht 1.2 m dort nur als Ausnahmefall).
+
+**Drei Punkte, an denen die Kurzform «gewendelte Treppe min. 1.20 m» in die Irre fuehrt:**
+1. Der Regelwert fuer gewendelte Laeufe ist **1.50 m**. Die Zusatzanforderung an gewendelte
+   Treppen ist also die **Erhoehung**, nicht die Absenkung.
+2. Die 1.20 m gelten **nur zusammen mit der inneren Auftrittsbreite ≥ 0.10 m** (im Regelfall
+   1.50 m / 0.15 m). Ohne die zweite Zahl ist die Vorgabe unvollstaendig.
+3. Die Absenkung braucht eine **der vier abschliessend aufgezaehlten Ausnahmeziffern**. Welche
+   davon einschlaegig ist, muss der Verfasser belegen — die Richtlinie liefert die Zuordnung nicht.
+
+**Nicht in dieser Richtlinie geregelt (Negativbefund, 260729 belegt):** eine Auftrittsbreite «in
+der **Lauflinie**» — der Begriff kommt in BSR 16-15de (beide Fassungen) sowie in den Arbeitshilfen
+1000-15de und 1001-15de nicht vor; gemessen wird ausschliesslich die **innere** Auftrittsbreite.
+Ebenso wenig ein Steigungs-/Schrittmasskriterium fuer gewendelte Laeufe: die Formeln 2s+a und s+a
+im Anhang S. 17 gelten laut Wortlaut nur fuer **geradlaeufige** Treppen.
+
+### B · Treppe innerhalb der Nutzungseinheit — der Entlastungskatalog ist abschliessend
+
+Die Kette lautet: **Ziff. 3.1 Abs. 3 (S. 9)** verweist fuer Treppen innerhalb der Nutzungseinheit
+auf die **nutzungsbezogenen** Anforderungen — und dort steht die Entlastung nur bei vier Nutzungen:
+
+- **Wohnen** — Ziff. 3.2.2 Abs. 3 (S. 9): an Treppen innerhalb der Nutzungseinheit werden keine
+  Anforderungen gestellt. Wortgleich in VKF-Arbeitshilfe **1000-15de Ziff. 7.2.1 Abs. 1 (S. 11)**
+  und **1001-15de Ziff. 7.4.2 Abs. 6 (S. 20)** (beides Auszuege, verbindlich ist der Normwortlaut).
+- **Buero/Gewerbe/Industrie** — Ziff. 3.3.2 Abs. 2 (S. 10)
+- **Schulen** — Ziff. 3.4.2 (S. 10)
+- **Landwirtschaft** — Ziff. 3.8 Abs. 2 (S. 13)
+
+**Beherbergung fehlt in diesem Katalog.** Ziff. 3.6 (S. 12) gewaehrt fuer [b]/[c] ausdruecklich die
+**Tuer**-Erleichterung innerhalb von Hotelsuiten (Abs. 3), aber **keine Treppen**-Erleichterung —
+ein systematisch aussagekraeftiges Schweigen. Ein ausdruecklicher Begriff «offene vertikale
+Verbindung» existiert in der Richtlinie nicht (Negativbefund 260729).
+
+**Gegenpraejudiz Schlafnutzung:** Ziff. 3.4.4 Abs. 3 (S. 11, Kindertagesstaetten) verlangt fuer
+**Schlafraeume auf Zwischengeschossen oder Galerien innerhalb der Nutzungseinheit** horizontale
+**und** vertikale Fluchtwege — die einzige Stelle, die «Schlafen ueber einem Raum innerhalb
+derselben Nutzungseinheit» ausdruecklich regelt, und sie kehrt die Entlastung um.
+
+**Die entscheidende Schnittfigur** ist nicht die 20-Personen-Schwelle, sondern
+**BSN 1-15 Art. 13 Abs. 3 lit. d** (uebernommen in Arbeitshilfe 1000-15de Ziff. 2.1 lit. b, S. 5):
+«Gebaeude mit geringen Abmessungen» setzt voraus, dass **keine Nutzung fuer schlafende Personen
+ausser einer Wohnung** vorliegt. Ist die Schlafnutzung genau **eine Wohnung**, greift die Kette
+3.1 Abs. 3 → 3.2.2 Abs. 3 und die interne Treppe ist frei. Geht die Schlafnutzung darueber hinaus,
+faellt beides gleichzeitig weg — die Gebaeudekategorie **und** die Nutzung «Wohnen».
+
+**Der haeufige Denkfehler:** «unter 20 Personen ⇒ kein Beherbergungsbetrieb ⇒ also wie Wohnen».
+Das Unterschreiten der Schwelle (BSN 1-15 Art. 13 Abs. 2 lit. a) schaltet nur **Ziff. 3.6 ab**; es
+macht die Nutzung nicht zu Wohnen. Passt keine Kategorie der Ziff. 3, gilt der allgemeine Teil
+(Ziff. 2) — und der kennt keine Entlastung fuer interne Treppen. Die Zulaessigkeit ist dann ueber
+die objektbezogene Abstimmung mit der Brandschutzbehoerde nach **Ziff. 2.1 Abs. 3** herzustellen,
+mit der Argumentationslast auf der Seite der Bauherrschaft.
+
+*Zwei Punkte, die fuer die Gegenposition sprechen und fair mitzufuehren sind:* «Nutzungseinheit»
+ist in BSR 10-15de (S. 27) als Zusammenschluss von Raeumen vergleichbarer Nutzung definiert und
+nennt **Wohngruppen und Hotelsuiten** ausdruecklich als Beispiele; und Ziff. 3.2 ist mit «Wohnen»
+ueberschrieben, nicht mit «Wohnung» — bei einer Ferienwohnung bleibt Auslegungsspielraum.
+
+### C · Quellenkritischer Nebenbefund (260729)
+
+Im Ordner `PL - 03 Brandschutz/_Projekte Themen/Treppen innerhalb Nutzungseinheit/` liegt neben
+zwei Seitenauszuegen (1001-15 S. 20, 16-15 S. 9, extrahiert 08.03.2025) die Datei `IMG_1515.jpeg`.
+Sie ist **keine Behoerden- oder Fachstellenauskunft, sondern der Screenshot einer
+ChatGPT-Konversation** — sie darf nicht als Fundstelle zitiert werden. Inhaltlich nennt sie die
+Ziffern 3.2.2 Abs. 3 und 7.4.2 Abs. 6 **oertlich korrekt**, bezeichnet 1001-15 aber faelschlich als
+«Richtlinie» (es ist eine Arbeitshilfe) und verschweigt, dass beide Fundstellen unter der
+Ueberschrift Wohnen/Wohnung stehen — genau die Einschraenkung, auf die es ankommt. Der Ordner
+dokumentiert damit eine bereits von Raphael durchgefuehrte Gegenpruefung einer KI-Aussage am
+Original; die beiden Auszuege sind der Beleg, der Screenshot nicht.
 
 ## Offene Punkte
 - Anhang S. 14-25 ist eingearbeitet (siehe Abschnitt «Anhang-Kennwerte»); der restliche Anhang

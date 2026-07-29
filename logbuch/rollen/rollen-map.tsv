@@ -1,0 +1,95 @@
+# Rollen-Register — kanonische Zuordnung Hub-Baustein -> Rolle
+# Taxonomie: prototyper | builder | sweeper | grower | maintainer
+# Konzept: docs/konzepte/260729-Rollen-Taxonomie/
+# Spalten: name <TAB> typ <TAB> rolle <TAB> begruendung
+# typ: skill | task | referenz | parkiert
+# Angelegt 29.07.2026. Aenderungen hier, nicht im Script.
+#
+# ---- SKILLS ----
+ankaufspruefung	skill	builder	Prueft eine reale Liegenschaft zu einem verbindlichen TDD-Deliverable
+auflagebereinigung	skill	maintainer	Kern ist Nachfuehrung und Fristen-Tracking nach dem Entscheid
+ausschreibung	skill	builder	Erzeugt versandfertige Devis/LV
+baurecht	skill	builder	Liefert belegte Rechtsgrundlage als Entscheidbasis
+behoerden-vorabklaerung	skill	prototyper	Erzeugt den Fragenraum vor dem Entscheid
+brandschutz	skill	builder	Erzeugt Factsheets/Nachweise
+grobkosten-onepager	skill	prototyper	Fruehe Variantenrechnung, bewusst grob
+healthcare-wirtschaftlichkeit	skill	prototyper	Szenarienrechnung in der Ideenphase
+heartbeat	skill	maintainer	System-Health
+honorarberechnung-sia102	skill	builder	Erzeugt die Honorarofferte
+hub-chef	skill	maintainer	Dach-Aufsicht ueber den laufenden Betrieb
+immobilienbewertung	skill	builder	Erzeugt das Bewertungs-Deliverable
+korrektur	skill	sweeper	Schleift jedes Erzeugnis vor Ausgabe
+kostenkontrolle	skill	maintainer	Laufende Baubuchhaltung ueber die Projektdauer
+kostenschaetzung	skill	builder	Erzeugt die belegte Kostenschaetzung
+logbuch	skill	maintainer	Fristen- und Pendenzen-Register
+machbarkeit	skill	prototyper	Erzeugt Potenzial-Varianten
+machbarkeit-studio	skill	prototyper	Interaktiver Variantenraum
+mahnwesen	skill	maintainer	Laufender Debitoren-Betrieb
+marketing	skill	grower	Bringt Erzeugtes zu Menschen
+massgebendes-terrain	skill	builder	Erzeugt den MT-Nachweis
+masterclass	skill	sweeper	Harness-Review, verdichtet Gelerntes
+normen	skill	builder	Liefert belegte Fundstellen
+nutzungsstrategie	skill	prototyper	Erzeugt und prueft Nutzungsszenarien
+oereb-schwyz	skill	builder	Beschafft den amtlichen Auszug
+offertenpruefung	skill	builder	Erzeugt Factsheet/Pruefergebnis
+pdf2dwg	skill	builder	Werkzeug, erzeugt verwendbare CAD-Datei
+pendenzenliste	skill	maintainer	Nachfuehrung offener Punkte
+planungsgrundlagen	skill	builder	Beschafft und buendelt Grundlagen
+protokoll	skill	builder	Erzeugt das Sitzungsprotokoll
+spec	skill	prototyper	Deckt das wahre Ziel auf, bevor gebaut wird
+stockwerkeigentum	skill	builder	Erzeugt Wertquoten/Begruendungsurkunde
+studien-generator	skill	builder	Dossier-Engine
+synergie-orchestrator	skill	grower	Geschaeftsmodell- und Synergie-Entwicklung
+telesales	skill	grower	Kundengewinnung
+tenant-hygiene	skill	maintainer	Tenant-Betrieb
+terminplanung	skill	builder	Erzeugt Bauprogramm/Terminplan
+twin	skill	sweeper	Fidelity-Gate, veredelt vor Ausgabe
+unternehmerfindung	skill	builder	Erzeugt die gerankte Shortlist
+unternehmerkontrolle	skill	maintainer	Laufende Ausfuehrungskontrolle
+volumenstudie	skill	prototyper	Erzeugt Volumenvarianten
+website-content	skill	grower	Bringt Projekte an die Oeffentlichkeit
+werkvertrag	skill	builder	Erzeugt den Vertrag
+wettbewerb	skill	prototyper	Erzeugt Wettbewerbsbeitraege
+wissens-destillat	skill	sweeper	Verdichtet Rohmaterial zu Lesbarem
+wissenscheck	skill	maintainer	Health-Check der Wissensbasen
+workstation-setup	skill	maintainer	Stations-Onboarding/Infrastruktur
+zahlungsabgleich	skill	maintainer	Laufender Abgleich
+versandplanung	parkiert	-	Parkiert per Entscheid 11.07.2026
+email-preferences	referenz	-	Konfiguration, keine Faehigkeit
+#
+# ---- SCHEDULED TASKS / LOOPS ----
+ag-gruendung-monitor	task	maintainer	Monitor
+baurecht-buch-training	task	prototyper	Erzeugt neues Wissen
+behoerden-zh-check	task	maintainer	Monitor
+heartbeat-daily	task	maintainer	System-Health
+hub-chef-taeglich	task	maintainer	Tagesaufsicht
+immobewertung-marktpuls-260901	task	prototyper	Erzeugt neues Wissen
+immobewertung-training	task	prototyper	Erzeugt neues Wissen
+konversations-log	task	maintainer	Gedaechtnis-Pflege
+logbuch-radar	task	maintainer	Fristen-/Lage-Radar
+mahnwesen-verzugscheck	task	maintainer	Betrieb
+masterclass-woche1	task	sweeper	Harness-Review
+normen-training-nacht	task	prototyper	Erzeugt neues Wissen
+spec-training	task	prototyper	Erzeugt neues Wissen
+syn02-spec-anstoss	task	grower	Geschaeftsmodell-Anstoss
+synergie-lauf-monatlich	task	grower	Geschaeftsmodell-Entwicklung
+tenant-hygiene-weekly	task	maintainer	Betrieb
+token-drosselung-100810	task	maintainer	Betriebssteuerung
+token-messung-140716	task	maintainer	Betriebsmessung
+twin-fidelity-review	task	sweeper	Prueft Erzeugnis-Treue
+twin-mail-training	task	prototyper	Erzeugt neue Stil-Marker
+vollgas-chef-radar	task	maintainer	Betriebsaufsicht
+vollgas-fruehwarnung	task	maintainer	Betriebsaufsicht
+wettbewerbs-dna-reaktivierung	task	maintainer	Betriebssteuerung
+wettbewerbs-dna-training	task	prototyper	Erzeugt neues Wissen
+wettbewerbs-layer-nachbrenner	task	prototyper	Erzeugt neues Wissen
+wissens-chef	task	sweeper	Aufsicht/Verdichtung des Wissens-Layers
+wissens-destillat	task	sweeper	Verdichtet Rohmaterial
+wissenscheck-monatlich	task	maintainer	Health-Check
+#
+# ---- LOOPS OHNE APP-TASK (Runner/launchd, teils stillgelegt) ----
+grobkosten-training	task	prototyper	Erzeugt neue Kennwerte; groesster Einzelposten im Runner
+energie-training	task	prototyper	Erzeugt neues Wissen; launchd Mac Mini
+planungsgrundlagen-training	task	prototyper	Erzeugt neues Wissen; launchd abgeschaltet 28.07.2026
+normen-training-mini	task	prototyper	Erzeugt neues Wissen; Mac-Mini-Haelfte des Normen-Loops
+synobsis-batch-nacht	task	prototyper	Erzeugt neues Wissen; KB saturiert, stillgelegt

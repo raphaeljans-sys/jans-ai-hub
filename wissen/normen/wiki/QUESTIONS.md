@@ -1,6 +1,72 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
-## 2026-07-28 (Cross-KB planungsgrundlagen → normen, Wettbewerbs-Scan Grassenbiwak) — zwei Fundstellen-Schulden BSR 16-15
+## Run 36 (MacBook Pro, 29.07.2026) — beide BSR-16-15-Fragen vom 28.07. geschlossen; die Frage-Prämisse war falsch
+
+**Befund 0 (methodisch, der wichtigste dieses Laufs): die beiden Fragen vom 28.07. unterstellten eine
+Lücke im Destillat, die es nicht gab.** Der Eintrag darunter schreibt, im Destillat
+`vkf-brl-16-15-flucht-rettungswege.md` «fehlt eine Ziffer zu gewendelten Treppen bzw. zur
+Auftrittsbreite». Tatsächlich standen die 1.2 m/0.1 m und die 1.5 m/0.15 m dort seit dem 17.07.2026
+(Anhang-Kennwerte, S. 17) und Ziff. 3.1 Abs. 3 / 3.2.2 Abs. 3 seit dem 28.07.2026 (Wissens-Chef
+Run 19) — teils am selben Tag, an dem die Frage gestellt wurde. **Lehre: eine Cross-KB-Frage ist vor
+dem Eintrag gegen den AKTUELLEN Stand des Ziel-Destillats zu prüfen, nicht gegen die Erinnerung der
+abgebenden KB.** Die Frage war trotzdem produktiv — nur lag die echte Lücke woanders, nämlich in der
+fehlenden Verknüpfung der verstreuten Einzelziffern zu einer Entscheidungsfigur.
+
+- [x] **P1 gewendelte Treppen 1.20 m — GESCHLOSSEN, mit Korrektur der Lesart.** Belegt in BSR 16-15de
+  (Fassungen 01.01.2017 und Stand 01.12.2022, in allen einschlägigen Ziffern textidentisch):
+  Ziff. 3.1 Abs. 2 lit. b (S. 8/9), 3.2.2 Abs. 1 (S. 9), 3.3.2 Abs. 1 (S. 10), 3.6.2 Abs. 5 (S. 12),
+  grafisch Anhang zu Ziff. 2.5.1 (S. 17). **Die Antwort auf die eigentliche Frage lautet: 1.20 m ist
+  NICHT die Zusatzanforderung an gewendelte Läufe, sondern deren nutzungsbezogener Ausnahmewert.** Der
+  Regelwert ist **1.50 m bei innerer Auftrittsbreite 0.15 m** (Ziff. 2.4.5 Abs. 3, S. 6, «muss»); die
+  1.20 m gelten nur zusammen mit **0.10 m** innerer Auftrittsbreite und nur in den vier genannten
+  Fällen («sind zulässig, sofern»). Die 1.2 m sind ausserdem das **generelle** Mindestmass für
+  geradläufige Treppen und horizontale Fluchtwege. Vollständige Entscheidungsfigur neu im Destillat,
+  Abschnitt «Entscheidungsfigur Treppen», Teil A. Alle Fundstellen vom Hauptprozess am Original
+  nachgelesen (`pdftotext -layout`, Skizzenseiten zusätzlich als Bild geprüft).
+  **Negativbefund dazu:** eine Auftrittsbreite «in der **Lauflinie**» ist in BSR 16-15de und den
+  Arbeitshilfen 1000-15de/1001-15de **nirgends** geregelt — der Begriff kommt dort nicht vor.
+- [x] **P2 offene vertikale Verbindung über Schlafnutzung — GESCHLOSSEN als «nicht gedeckt».**
+  Ziff. 2.5 trägt die Antwort nicht (dort nur zwei Absätze zu sicher begehbaren Treppen). Die
+  Verweisungsnorm ist **Ziff. 3.1 Abs. 3 (S. 9)**; der Entlastungskatalog ist mit **Wohnen (3.2.2
+  Abs. 3), Büro/Gewerbe/Industrie (3.3.2 Abs. 2), Schulen (3.4.2) und Landwirtschaft (3.8 Abs. 2)**
+  abschliessend — **Beherbergung fehlt darin**, obwohl Ziff. 3.6 Abs. 3 für Hotelsuiten ausdrücklich
+  die *Tür*-Erleichterung gewährt. Gegenpräjudiz: **Ziff. 3.4.4 Abs. 3** verlangt für Schlafräume auf
+  Galerien/Zwischengeschossen innerhalb der Nutzungseinheit horizontale **und** vertikale Fluchtwege.
+  Die entscheidende Schnittfigur ist **BSN 1-15 Art. 13 Abs. 3 lit. d** («keine Nutzung für schlafende
+  Personen ausser einer Wohnung»), nicht die 20-Personen-Schwelle: deren Unterschreiten schaltet nur
+  Ziff. 3.6 ab und macht die Nutzung **nicht** zu Wohnen. Ergebnis: für einen Übernachtungsbau mit
+  mehreren Gastschlafplätzen ist die offene interne Treppe durch keine Quelle gedeckt, aber auch nicht
+  ausdrücklich verboten — sie fällt auf den allgemeinen Teil (Ziff. 2) zurück und ist über die
+  objektbezogene Abstimmung nach **Ziff. 2.1 Abs. 3** herzustellen. Destillat-Abschnitt
+  «Entscheidungsfigur Treppen», Teil B.
+- [x] **Quellenkritischer Nebenbefund (neu, nicht gefragt):** `PL - 03 Brandschutz/_Projekte Themen/
+  Treppen innerhalb Nutzungseinheit/IMG_1515.jpeg` ist **der Screenshot einer ChatGPT-Konversation**,
+  keine Behörden- oder Fachstellenauskunft — er darf nicht als Fundstelle zitiert werden. Seine
+  Ziffernangaben sind örtlich korrekt, er nennt 1001-15 aber fälschlich «Richtlinie» (es ist eine
+  Arbeitshilfe) und verschweigt die Wohn-Beschränkung beider Fundstellen. Die zwei Seitenauszüge im
+  selben Ordner (08.03.2025) sind die bereits von Raphael durchgeführte Gegenprüfung am Original.
+  Dokumentiert im Destillat, Teil C.
+- [x] **Bring-Schulden SIA 385/9:2023, SN EN 13487, SN EN 12102-1 — Bestandssuche abgeschlossen,
+  Lückenstatus BESTÄTIGT (nicht widerlegt).** Vollständige Dateinamen-Suche über beide Ablagen
+  (`PL - 02_Recht_Norm` 1'176 PDF, `PL - 03 Brandschutz` 105 PDF) **plus** Titelblatt-Inhaltssuche
+  (`pdftotext -f 1 -l 1` + grep) über alle 591 PDF in `02_Normen` und alle 105 PDF in PL-03: kein
+  Treffer. Von 385/9 liegt nur die Ausgabe **2011** im Haus; `i385-1_2011_d.pdf` ist SIA 385/**1**,
+  nicht 385/9. Damit ist der Weg zu diesen drei Normen definitiv extern (SIA-/SNV-Bezug durch
+  Raphael); eine weitere Bestandssuche erübrigt sich. *Methodenhinweis aus dem Lauf:* macOS kennt
+  keinen `timeout`-Befehl — ein erster Scan-Durchgang lieferte deshalb still 0 Treffer, ohne
+  `pdftotext` überhaupt auszuführen. Bei Bestandssuchen die Trefferzahl gegen die Zahl tatsächlich
+  verarbeiteter Dateien prüfen, sonst sieht ein nicht gelaufener Scan wie ein negatives Ergebnis aus.
+
+**Neu offen für den nächsten Lauf:**
+1. **Achte Verifikationsrunde** für beide Lignum-Destillate. Bei `lignum-lignatec` ist sie nach dem
+   Trendbruch (7 Befunde nach vier Runden mit je 1) zwingend: die drei Kernbefunde entstammen einer
+   Prüfmethode (rechnerische Farbaufnahme der Tabelle), die auf Tab. 3 und Tab. 4 **noch nicht**
+   angewandt wurde — dort wurde nur geprüft, was das Destillat behauptet, nicht die Tabelle als ganze.
+2. **Fassungsstand-Frage BSR 16-15:** die Antworten oben sind für 2017 und 2022 gesichert. Ob die
+   BSV 2026 die Treppen-Entlastung innerhalb der Nutzungseinheit antastet, ist offen (Normkonzept
+   BSV 2026 liegt destilliert vor, Treppen-Eckpunkt bisher nicht gezielt geprüft).
+
+## 2026-07-28 (Cross-KB planungsgrundlagen → normen, Wettbewerbs-Scan Grassenbiwak) — zwei Fundstellen-Schulden BSR 16-15 — BEIDE GESCHLOSSEN 29.07.2026, siehe Run 36 oben
 
 Angemeldet in der **Empfänger-KB** (Regel aus Run 8). Auslöser: Brandschutz-Scan des
 Wettbewerbsprojekts 2408 «Grassenbiwak 2027»; der Fachplaner-Kommentar nennt zwei Vorgaben, die im

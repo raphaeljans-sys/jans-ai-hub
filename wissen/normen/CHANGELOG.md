@@ -1,3 +1,65 @@
+## 2026-07-29 — Normen-Run 36 (MacBook Pro, SIA/VKF): zwei BSR-16-15-Fragen geschlossen, siebte Refuter-Runde mit Trendbruch
+
+- **[wissen, neu] Destillat `vkf-brl-16-15-flucht-rettungswege.md` um den Abschnitt
+  «Entscheidungsfigur Treppen» erweitert** (Teil A Treppengeometrie, Teil B Treppe innerhalb der
+  Nutzungseinheit, Teil C Quellenkritik). Kern: **1.20 m ist bei gewendelten Treppen der
+  nutzungsbezogene AUSNAHME-Wert, der Regelwert ist 1.50 m bei 0.15 m innerer Auftrittsbreite**
+  (Ziff. 2.4.5 Abs. 3, S. 6, «muss»); die Absenkung auf 1.20 m/0.10 m gilt nur in vier
+  abschliessend aufgezaehlten Faellen (Ziff. 3.1 Abs. 2b, 3.2.2 Abs. 1, 3.3.2 Abs. 1, 3.6.2
+  Abs. 5). Fuer Treppen INNERHALB der Nutzungseinheit verweist Ziff. 3.1 Abs. 3 auf die
+  nutzungsbezogenen Anforderungen; der Entlastungskatalog (Wohnen 3.2.2 Abs. 3, Buero/Gewerbe/
+  Industrie 3.3.2 Abs. 2, Schulen 3.4.2, Landwirtschaft 3.8 Abs. 2) ist **abschliessend und
+  enthaelt Beherbergung nicht**, waehrend Ziff. 3.4.4 Abs. 3 fuer Schlafraeume auf Galerien
+  horizontale UND vertikale Fluchtwege verlangt. Entscheidende Schnittfigur: BSN 1-15 Art. 13
+  Abs. 3 lit. d, nicht die 20-Personen-Schwelle. Alle Fundstellen vom Hauptprozess am Original
+  nachgelesen; Fassungen 01.01.2017 und Stand 01.12.2022 in allen genannten Ziffern textidentisch.
+  Zwei Negativbefunde belegt: «Lauflinie» und «offene vertikale Verbindung» kommen in der
+  Richtlinie nicht vor.
+- **[methodik] Die Frage-Praemisse vom 28.07. war falsch.** Die Cross-KB-Frage unterstellte eine
+  Luecke im Destillat, die es nicht gab (Werte seit 17.07., Ziff. 3.1 Abs. 3 / 3.2.2 Abs. 3 seit
+  28.07. dort). **Cross-KB-Fragen kuenftig gegen den aktuellen Stand des Ziel-Destillats pruefen,
+  nicht gegen die Erinnerung der abgebenden KB.** Die echte Luecke lag in der fehlenden
+  Verknuepfung der verstreuten Einzelziffern zu einer Entscheidungsfigur.
+- **[quellenkritik] `PL - 03/_Projekte Themen/Treppen innerhalb Nutzungseinheit/IMG_1515.jpeg` ist
+  der Screenshot einer ChatGPT-Konversation**, keine Fachstellenauskunft — als Fundstelle
+  unbrauchbar (Ziffern oertlich korrekt, aber 1001-15 faelschlich als «Richtlinie» bezeichnet und
+  die Wohn-Beschraenkung verschwiegen). Im Destillat als solcher gekennzeichnet.
+- **[verifikation] Siebte Refuter-Runde `lignum-lignatec-brandschutz.md`: BEANSTANDET, 7 Befunde —
+  Trendbruch nach vier Runden mit je 1 Befund.** Der Agent nahm Tab. 5 erstmals rechnerisch auf
+  (Median-RGB je Zellbox, 10 Nutzungszeilen x 29 Spalten) statt sie visuell zu lesen; daraus drei
+  Kernbefunde derselben Wurzel: die Vorrunden hatten den Geschossblock 1-3 geprueft und das
+  Ergebnis auf den Block 4-8 verallgemeinert (Aussenwandverkleidung dort blau bei [a] UND [c] und
+  grau statt weiss bei Hotels [b]; blaue Daemmschicht-Felder existieren schon im Block 1-3;
+  Bodenbelag Treppenhaus im Block 4-8 blau bei [a] und [c]). Alle drei hat der Hauptprozess vor
+  Uebernahme am eigenen 300-dpi-Rendering der S. 15 nachgezaehlt. Dazu: Tab.-4-Selbstwiderspruch
+  (Treppenhaus REI60(nbb) ab 4 Geschossen, Korridor erst bei 7-8), Tab.-3-Verschmelzung zweier
+  Konzeptwerte, fehlende Nutzungszeile «Bauten mit unbekannter Nutzung», Modalitaets-Haertung an
+  fuenf Stellen. Alle korrigiert, keine Regression an den Run-32/33/34/35-Stellen.
+  **LEHRE: eine Runde mit nur noch einem Randbefund ist KEIN Saettigungsindiz — sie kann Ausdruck
+  einer zu schmalen Pruefmethode sein.** Der Wechsel der Aufnahmemethode foerderte in derselben,
+  viermal «bestaetigten» Tabelle sofort drei Kernbefunde zutage.
+- **[verifikation] Siebte Refuter-Runde `lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md`:
+  BEANSTANDET, 6 Befunde, davon nur einer inhaltlich** (Tab. 447-1, S. 54: bei Fugenbreite > 5 mm
+  ist Variante D wegen Fussnote 4 «Fugenbreite maximal 5 mm» gerade ausgeschlossen, das Destillat
+  liess sie mit «nur die BSP-Varianten» zu — vom Hauptprozess am 250-dpi-Rendering nachgeprueft).
+  Uebrige fuenf formal (Formelzeichen e_fi statt «eh», Fundstelle Kap. 2.1 statt Tab. 210-1,
+  Glossar-Verweise vertauscht, Fussnote 2 auch bei BSP60-RF1, 40 A3-Blaetter = 80 gedruckte
+  Seiten). **Regressionscheck der Run-35-Korrekturen: alle drei zellengenau bestaetigt.** Ein
+  offener Punkt geschlossen (Tab. 447-1 letzte Spalte = Variante E).
+- **[bestandssuche] Bring-Schulden SIA 385/9:2023, SN EN 13487, SN EN 12102-1 definitiv nicht im
+  Haus.** Dateinamen-Suche ueber beide Ablagen (1'281 PDF) plus Titelblatt-Inhaltssuche ueber alle
+  591 PDF in `02_Normen` und alle 105 PDF in PL-03: kein Treffer. Von 385/9 liegt nur die Ausgabe
+  2011 vor. Externe Beschaffung noetig; weitere Bestandssuche eruebrigt sich.
+  *Methodenhinweis:* macOS kennt keinen `timeout`-Befehl — ein erster Scan lieferte deshalb still
+  0 Treffer, ohne `pdftotext` auszufuehren. Trefferzahl immer gegen die Zahl tatsaechlich
+  verarbeiteter Dateien pruefen.
+- **[cross-kb] Antwort an `planungsgrundlagen` geliefert:** `wiki/brandschutz-pl03-wegweiser.md`
+  Abschnitt 4f um einen datierten Nachtrag ergaenzt (1.20 m als Ausnahmewert, fehlende zweite Zahl
+  0.10 m, Beherbergung nicht im Entlastungskatalog, 20-Personen-Schwelle als falsche Weiche fuer
+  die Fluchtweg-Erleichterungen) und den Fachplaner-Bullet mit Vorbehalt markiert.
+
+Report: `outputs/2026-07-29_normen-nacht-run36.md`.
+
 ## 2026-07-28 — Wissens-Chef Run 19 (Cross-KB): SIA-500-Korrigenda C3/C4, Gebaeudekategorien, VKF-Luecke
 - **[korrektur + fassungsstand, materiell — ergiebigster Befund des Laufs] SIA 500: vier Korrigenda,
   eines davon dem Hub voellig unbekannt.** `destillate/sia-500-2009.md` fuehrte Ziff. 9.7.2 im Stand

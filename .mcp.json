@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "microsoft-365": {
+      "command": "bash",
+      "args": ["scripts/m365-mcp-server.sh"]
+    },
+    "figma": {
+      "type": "http",
+      "url": "https://mcp.figma.com/mcp"
+    }
+  }
+}

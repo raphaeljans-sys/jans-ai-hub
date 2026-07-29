@@ -118,6 +118,10 @@ echo $$ > "$LOCK/pid"
 trap 'rm -rf "$LOCK"' EXIT
 
 # --- Claude-CLI auffinden ----------------------------------------------------
+# Wrapper fuer alle claude-Aufrufe (JSON-Kennzahlen ins Lauf-Journal, Text zurueck)
+RUNNER_WRAPPER="$HOME/Developer/jans-ai-hub/scripts/claude-run.sh"
+[ -f "$RUNNER_WRAPPER" ] || RUNNER_WRAPPER="/Volumes/daten/jans-ai-hub/scripts/claude-run.sh"
+
 CLAUDE_BIN="claude"
 if ! command -v "$CLAUDE_BIN" >/dev/null 2>&1; then
     for p in "$HOME/.local/bin/claude" "/opt/homebrew/bin/claude" "/usr/local/bin/claude" "$HOME/.claude/local/claude"; do
@@ -229,12 +233,15 @@ SSD-Klon nach. So endet jeder Lauf sauber mit rc=0 (Rule sync-kanonische-quelle 
         # nach -p. Die SKILL.md-Prompts beginnen mit YAML-Frontmatter ("---"); das
         # optionale Argument von -p wird sonst nicht konsumiert und der Parser liest
         # den Prompt als (unbekannte) Option -> sofort rc=1 (Blocker 12.07.2026).
-        OUT="$("$CLAUDE_BIN" -p \
-            --permission-mode "$PERM_MODE" \
-            --max-budget-usd "$BUDGET" \
-            --fallback-model sonnet \
-            --output-format text \
-            -- "$PROMPT" < /dev/null 2>&1)"
+        # SDK-JSON seit 29.07.2026 (Anthropic-Lecture): der Wrapper ruft claude mit
+        # --output-format json, schreibt die Kennzahlen ins Lauf-Journal und gibt hier
+        # weiterhin REINEN TEXT zurueck — die Blindgaenger-Erkennung unten arbeitet
+        # deshalb unveraendert auf $OUT.
+        OUT="$(CLAUDE_BIN="$CLAUDE_BIN" bash "$RUNNER_WRAPPER" \
+            --name "vollgas-$name" \
+            --perm "$PERM_MODE" \
+            --budget "$BUDGET" \
+            -- "$PROMPT" 2>/dev/null)"
         RC=$?
         DAUER=$(( $(date +%s) - START_TS ))
 
@@ -270,12 +277,11 @@ SSD-Klon nach. So endet jeder Lauf sauber mit rc=0 (Rule sync-kanonische-quelle 
             log "BLIND $name (rc=0, ${DAUER}s — Prompt kam leer an) — einmaliger Retry."
             sleep 5
             START_TS=$(date +%s)
-            OUT="$("$CLAUDE_BIN" -p \
-                --permission-mode "$PERM_MODE" \
-                --max-budget-usd "$BUDGET" \
-                --fallback-model sonnet \
-                --output-format text \
-                -- "$PROMPT" < /dev/null 2>&1)"
+            OUT="$(CLAUDE_BIN="$CLAUDE_BIN" bash "$RUNNER_WRAPPER" \
+                --name "vollgas-$name-retry" \
+                --perm "$PERM_MODE" \
+                --budget "$BUDGET" \
+                -- "$PROMPT" 2>/dev/null)"
             RC=$?
             DAUER=$(( $(date +%s) - START_TS ))
         fi

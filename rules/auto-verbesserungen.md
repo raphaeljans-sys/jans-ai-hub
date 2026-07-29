@@ -16,6 +16,22 @@ Automatik arbeitet (Runner, Gate, Waechter, Takte, launchd), liest die Chronik z
 Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0,
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`).
 
+## 260729 — Werkzeuge und Kontext-Schichten bewusst waehlen (Anthropic-Lecture)
+- **Regel:** (1) **Werkzeug-Index zuerst.** Bevor eine externe Quelle von Hand abgefragt
+  oder ein Weg improvisiert wird, in `connectors/README.md` nachschlagen (alle 16
+  Connectoren mit Zweck, Flags, Zugang) und den Connector per `--hilfe` selbst befragen.
+  Neue Connectoren werden dort eingetragen — ein Werkzeug, das Claude nicht kennt, ist
+  keines. (2) **Kontext-Schicht bewusst waehlen:** neue geteilte Regeln in den Projekt-Layer
+  (NAS, eingecheckt), stationsuebergreifende Grundregeln in `templates/user-level/CLAUDE.md`
+  (verteilen mit `scripts/user-claude-sync.sh --alle`), Rollen-/Belegwissen in eine **nicht
+  importierte** Datei. (3) **Automatische Laeufe ueber `scripts/claude-run.sh`** statt
+  direktem `claude -p` — er liefert JSON-Kennzahlen ins Lauf-Journal und gibt trotzdem
+  reinen Text zurueck. (4) **Konfiguration ist Teamgut:** `.mcp.json`, `.claude/settings.json`,
+  CLAUDE.md und Commands gehoeren versioniert; nur echte Geheimnisse (`.env`, `*.pem`)
+  bleiben lokal.
+- **Gilt fuer:** alle Stationen, alle Sessions. Konzept + Messwerte:
+  `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`, Wissen: `wissen/claude-code/`.
+
 ## Betrieb — Kurzregeln (Belege in `rules/betrieb-chronik.md`, nicht importiert)
 
 Gilt fuer jeden **automatischen** Lauf und jede Aenderung an Takt, Loop-Status oder

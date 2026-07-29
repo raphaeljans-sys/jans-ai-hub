@@ -2,6 +2,26 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-29 (Antwort der KB `normen`, Run 36) — Treppen-Punkte in 4f normseitig eingeordnet
+- **[korrektur der Lesart, materiell] Die «gewendelte Treppe mind. 1.20 m breit» aus dem
+  Biwak-Brandschutzkonzept ist der AUSNAHME-, nicht der Regelwert.** VKF-BSR 16-15de Ziff. 2.4.5
+  Abs. 3 (S. 6) verlangt fuer gewendelte Treppen **1.50 m bei 0.15 m innerer Auftrittsbreite**
+  («muss»); 1.20 m/0.10 m sind nur in vier abschliessend aufgezaehlten Faellen zulaessig
+  (Ziff. 3.1 Abs. 2b, 3.2.2 Abs. 1, 3.3.2 Abs. 1, 3.6.2 Abs. 5). Fuer ein Biwak ist keiner davon
+  ohne weiteres einschlaegig. Die im Konzept fehlende zweite Zahl (0.10 m) ist nachzutragen.
+- **[praezisierung, materiell] «Unter 20 Personen wie Wohnnutzung» traegt fuer die
+  Tragwerks-Einstufung, aber NICHT automatisch fuer die Fluchtweg-Erleichterungen der Ziff. 3.2.**
+  Der Entlastungskatalog fuer Treppen innerhalb der Nutzungseinheit (Wohnen, Buero/Gewerbe/
+  Industrie, Schulen, Landwirtschaft) ist abschliessend und kennt Beherbergung nicht; Ziff. 3.4.4
+  Abs. 3 verlangt fuer Schlafraeume auf Galerien horizontale UND vertikale Fluchtwege. Die
+  Schnittfigur ist BSN 1-15 Art. 13 Abs. 3 lit. d, nicht die 20-Personen-Schwelle.
+- **[quellenkritik] `PL - 03/_Projekte Themen/Treppen innerhalb Nutzungseinheit/IMG_1515.jpeg` ist
+  ein ChatGPT-Screenshot**, keine Fachstellenauskunft — nicht als Fundstelle verwenden.
+- Geaendert: `wiki/brandschutz-pl03-wegweiser.md` (Nachtrag in 4f, Vorbehalt am Fachplaner-Bullet,
+  `last_updated`). Belegkette und Volltext der Entscheidungsfigur:
+  `wissen/normen/destillate/vkf-brl-16-15-flucht-rettungswege.md`, Abschnitt «Entscheidungsfigur
+  Treppen»; Lauf-Report `wissen/normen/outputs/2026-07-29_normen-nacht-run36.md`.
+
 ## 2026-07-28 (Wissens-Chef Run 19, Cross-KB) — OEREB-Thema 190 auf die richtige Norm gestellt, C41 geschlossen
 - **[korrektur, materiell] OEREB-Thema 190 Gewaesserraum: § 19 WsG → § 18 Abs. 1 WsG.**
   `wiki/kartenportale-oereb-kataster-system-zh.md` (Tabellenzeile + Warnkasten) und

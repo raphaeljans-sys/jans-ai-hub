@@ -191,11 +191,13 @@ echo "────────────────────────�
 FALLBACK_MODEL="${DISPATCH_FALLBACK_MODEL:-sonnet}"
 ATTEMPT=1; MAX_ATTEMPTS=3
 while :; do
-    OUT="$("$CLAUDE_BIN" -p "$TASK" \
-        --permission-mode "$PERM_MODE" \
-        --max-budget-usd "$MAX_BUDGET" \
-        --fallback-model "$FALLBACK_MODEL" \
-        --output-format text < /dev/null 2>&1)"
+    # SDK-JSON seit 29.07.2026 (Anthropic-Lecture): Kennzahlen ins Lauf-Journal,
+    # Rueckgabe weiterhin reiner Text (die Retry-Logik unten prueft $OUT auf Inhalt).
+    WRAP="$HOME/Developer/jans-ai-hub/scripts/claude-run.sh"
+    [ -f "$WRAP" ] || WRAP="/Volumes/daten/jans-ai-hub/scripts/claude-run.sh"
+    OUT="$(CLAUDE_BIN="$CLAUDE_BIN" bash "$WRAP" --name "dispatch-versuch$ATTEMPT" \
+        --perm "$PERM_MODE" --budget "$MAX_BUDGET" --fallback "$FALLBACK_MODEL" \
+        -- "$TASK" 2>/dev/null)"
     RC=$?
     CLEAN="$(printf '%s' "$OUT" | tr -d '[:space:]')"
     # Erfolg mit Inhalt → fertig
