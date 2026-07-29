@@ -1,9 +1,10 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.07.2026 04:12:05
+Stand: 29.07.2026 04:22:14
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 03:42)
+- Developer/jans/ai/hub  (letzte Aktivitaet 03:57)
+- /Volumes/daten/jans/ai/hub  (letzte Aktivitaet 04:14)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +14,4 @@ Stand: 29.07.2026 04:12:05
 - 3 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- d79873cf vollgas-radar 29.07. 04:20 Nachtrag: Freigabepfad des Wrapper-Fix auch auf dem Mac Mini gegen das echte Binary nachgemessen (claude -> /opt/homebrew/bin/claude), Fix im Mini-SSD-Klon verifiziert, Builtin-Randbedingung dokumentiert
+- 915df0c0 vollgas-radar 29.07. 04:20 Nachtrag 2: Verifikationslauf abgeschlossen — Wrapper uebergibt nachweislich ans Binary (rc 1 aus claude selbst, volle Journalzeile mit session_id/duration_ms); das rc 1 war eigener Testfehler (jans-dispatch.env nicht geladen), nicht Stationsbefund; Nebenbefund: Auth-Fehlerpfad braucht 8,5 Min wie ein erfolgreicher Trivial-Lauf
