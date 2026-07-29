@@ -228,3 +228,30 @@ Der vorbereitete Post-Brief (Ordner 05) ist damit hinfaellig (Online-Weg gewaehl
   (b) den Notariats-Entwurf vom 18.07. versenden. Keine Status-Mail gesendet (nichts Neues; die
   dringende Empfehlung ging bereits am 27.07. raus, eine Wiederholung waere reines Rauschen).
   fristen.md nachgefuehrt.
+
+- **29.07.2026 (Monitor-Lauf, Mittwoch):**
+  **NICHTS NEUES.** Sweep ueber Apple Mail (mail@raphaeljans.ch als Primaerkanal, rj@ Exchange,
+  raphaeljans@outlook.com, iCloud) ueber alle Mailboxen inkl. Entwuerfe/Geloescht/Junk:
+  Vollsweep 25.–29.07. (4 Tage, lueckenlos an den Sweep vom 28.07. anschliessend) plus gezielte
+  25-Tage-Suche auf UBS/Notariat/REGIX/Mathies/Jeckelmann/key4/Kapital/Handelsregister;
+  Gegenprobe M365/Outlook auf rj@ (Volltext «UBS Kapitalbescheinigung Notariat Gruendung AG
+  Kapitaleinzahlungskonto», ab 20.07.) = leer. Kein Eingang von B. Jeckelmann/UBS, keiner vom
+  Notariat Wiedikon-Zuerich (M. Mathies), keiner von REGIX. UBS-Bezuege im 25-Tage-Fenster nur:
+  generische Marketingmail «Wir sind fuer Sie da» (ubs_switzerland@mailing.ubs.com, 17.07., iCloud,
+  per Task-Definition ausgeschlossen) und eine Zurich-Versicherungswerbung mit «UBS» im Betreff
+  (vip@zurich.ch, 06.07., nicht relevant).
+  **Stand unveraendert:** UBS seit 27.06. jetzt **32 Tage** ohne Antwort; angepasstes
+  Antragsformular («Raphael Jans AG»/Vollliberierung CHF 100'000) nicht eingegangen, keine IBAN,
+  keine Kapitalbescheinigung. Die Notariats-Rueckmeldung liegt weiterhin als **unversandter
+  rj@-Entwurf vom 18.07. 08:50** («Gruendung Raphael Jans AG (bisher JANS AG): Firmenname und
+  Word-Dateien») — jetzt 11 Tage. Der Einzahlungstermin «Mitte August» bleibt gefallen
+  (Feststellung 27.07. unveraendert gueltig), die Beurkundung ruecken in die zweite Augusthaelfte
+  oder spaeter.
+  **Konkreter Hebel in zwei Tagen:** der Kalendereintrag **Fr 31.07. 10:00–11:00 «UBS Termin
+  bestaetigt: Finanzierungen»** ist die naechste belegte Gelegenheit, das Kapitaleinzahlungskonto
+  direkt zu klaeren — schneller als jedes weitere Nachfassen per Mail. Beide offenen Schritte
+  bleiben Bring-Schulden Raphaels und sind durch den Monitor nicht aufloesbar: (a) UBS klaeren
+  (Termin 31.07. bzw. B. Jeckelmann, UBS 044 236 48 48), (b) den Notariats-Entwurf vom 18.07.
+  versenden. Keine Status-Mail gesendet (kein neuer Eingang; die dringende Empfehlung laeuft seit
+  27.07. taeglich ueber Radar/Hub-Chef, eine Monitor-Wiederholung waere reines Rauschen).
+  fristen.md nachgefuehrt.
