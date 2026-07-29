@@ -29,6 +29,90 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-07-29 18:57 — [FREI] Ein ruhiges Fenster, und genau darum der Blick auf die Stellen, die sonst niemand liest: die Registry-Beschreibung des einzigen produktiven Lern-Loops beschreibt seit heute früh eine Welt von vorgestern. Vierter Fund desselben Typs an einem Tag
+
+**Selbstkontrolle:** letzter Lauf 15:57 (Einträge 16:04 und 16:11), dieser Lauf 18:57 —
+3,0 h bei 3-h-Takt, kein verpasster Lauf.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung antwortet «OK» (rc 0). Kein
+Login-Blocker, kein Wochenlimit, kein Mail-Anlass. Endlos-Runner bleibt ausgebaut: auf beiden
+Stationen `launchctl list | grep vollgas` leer, beide plists auf `.disabled-260729`, kein
+Runner-Prozess. Die Nachtschicht auf dem Mini trägt weiterhin genau vier Slots
+(23/2/5/13, Minute 30). Kein Mechanismus feuert doppelt, keiner feuert, der stillgelegt sein
+sollte.
+
+**P1 — die Registry-Beschreibung von `wissens-destillat` behauptet zwei Zustände, die es
+nicht mehr gibt. Korrigiert.**
+
+Der Eintrag im Task-Register lautete bis eben, der Loop werde von der Nachtschicht getaktet
+«23:30/02:30/05:30» und der VOLLGAS-Endlos-Runner «ruht seit 27.07. 22:15/22:20 auf BEIDEN
+Stationen per STOP-Datei». Beides ist überholt: die Nachtschicht hat seit heute 02:53 einen
+**vierten** Slot (13:30), und der Runner **ruht nicht**, er ist seit heute früh **ausgebaut**
+(bootout auf beiden Stationen, plists auf `.disabled-260729`). Eine ruhende STOP-Datei lässt
+sich entfernen; ein ausgebauter Mechanismus kommt von allein nie zurück. Der Unterschied
+entscheidet, ob ein übersprungener Slot später nachgeholt wird oder ersatzlos verfällt.
+
+Das ist heute der **vierte** Fund desselben Fehlertyps: `normen` um 07:10 (ein Mini-Takt, den
+es seit 18.07. nicht mehr gab), `wettbewerbs-dna` um 12:57 (eine Programmdatei, die einen seit
+27.07. stillgelegten Takt behauptete), der Doppelarbeit-Guard um 15:57 (ein Schutz gegen einen
+Partner, den es nicht mehr gibt) — und jetzt die Registry selbst. Vier Stellen, ein Muster:
+**der Ausbau des Runners heute früh hat den ganzen Hub verändert, aber die Beschreibungen
+sind stehen geblieben.** Diese hier wiegt schwerer als die drei anderen, weil sie im
+Task-Register steht — genau der Ort, den der Nachtschicht-Lauf laut seinem Prompt zusätzlich
+konsultiert, um Takt- und Drossel-Regeln zu beachten. Ein Lauf, der dort liest, es gebe eine
+zweite Schicht, die «nur ruht», begründet damit erneut ein Ueberspringen.
+
+**Massnahme:** Beschreibung auf den Stand von heute gesetzt (vier Slots namentlich, Ausbau
+statt STOP-Datei, dazu der Satz, dass die Nachtschicht damit der **einzige** Lern-Taktgeber ist
+und ein übersprungener Slot von niemandem nachgeholt wird). **Nur die Beschreibung** —
+Takt, `enabled` und Prompt unangetastet. Es ist eine Faktenkorrektur, kein Eingriff.
+
+**Korrektur an meinem eigenen Eintrag von 15:57:** dort steht, `bauprodukte` sei «rund 40 h»
+ohne inhaltliches Delta. Das ist falsch gerechnet. Der jüngste Dateistand in
+`wissen/bauprodukte/wiki/` ist der **28.07. 23:42** — zum damaligen Eintrag also 16,2 h, jetzt
+**19,3 h**. Der Befund selbst bleibt richtig (die KB mit dem höchsten Hebel steht still), nur
+die Zahl war überzogen.
+
+**P2 — Liefer-Delta seit dem letzten Lauf (15:57): kein Lauf gefeuert, und das ist korrekt.**
+
+| Zeit | Station | Loop | Ergebnis |
+|---|---|---|---|
+| 16:00–18:57 | MacBook | — | **Kein Task fällig.** Das Register trägt zwischen 10:00 und 21:57 ausser dem Radar keinen Eintrag. Vorgesehene Tagesruhe der Arbeitsstation (Rollentrennung 28.07.), nicht Leerlauf |
+| 16:00–18:57 | Mini | — | **Kein Slot fällig.** Nächster Nachtschicht-Lauf 23:30 |
+| 12×/15min | NAS | `nas-selfcommit` | Läuft; die Commits 16:15 bis 18:45 tragen **ausschliesslich** `station-status/*.md` und **zählen nicht als Arbeit** |
+
+Letzte Journalzeile in `logbuch/laeufe/260729-laeufe.jsonl` ist unverändert der 13:34-Abschluss
+des Nachtschicht-Slots (rc 0, 252 s, 2.28 USD). **Kein Loop steht bei drei Läufen in Folge ohne
+Liefer-Delta.** Keine Rücktaktung, keine Deaktivierung.
+
+**Nachtrag zum 13:30-Slot — die Arbeit ist belegt, aber sie steht unter fremdem Namen.** Ich
+hatte um 15:57 den Commit `7be45833` als Beleg genannt. Der Inhalt stimmt (der neue Artikel
+`kispi-behoerden-zustaendigkeitswechsel-1171-26.md` liegt darin), die **Message** stammt aber
+von einem anderen Lauf: «synobsis-batch: kein Batch (853/853 saturiert)», committet 13:44, also
+zehn Minuten nach Ende des Nachtschicht-Slots. Der Nachtschicht-Lauf hat seine Dateien
+geschrieben, aber nicht selbst gesichert; der nächste Lauf hat sie mitgenommen. Für die
+Delta-Messung ist das eine Störgrösse: wer nach Commit-Messages sucht, findet diese Arbeit
+nicht und könnte den Slot fälschlich als Delta Null lesen. Belegt bleibt sie über die
+Journalzeile und den Logbuch-Eintrag. **Nicht angefasst** — das wäre ein Eingriff in den
+Lauf-Ablauf ohne Auftrag; hier nur festgehalten, damit die nächste Messung nicht darauf
+hereinfällt.
+
+**P3 — Zustand der Stationen, unverändert und weiterhin Deine Entscheidung.** Das Lauf-Gate
+weist auf dem **MacBook** weiter alles ab (gemessen: **3'168 MB** frei aus `vm_stat`
+free+inactive+purgeable, Druck **2**, `lauf-gate.sh` rc=1). Auf dem **Mac Mini** lässt es
+durch (Druck **1**, **11'900 MB** frei, rc=0) — der 23:30-Slot ist nicht gefährdet. Die Sperre
+bleibt eine reine MacBook-Sache und weiterhin latent; keine Wiederholungsmail.
+
+**Offen, unverändert seit 12:57:** `grobkosten` und `planungsgrundlagen` haben keinen
+Scheduled Task und keinen Entscheid von Dir; ihr Ausschluss hing an der `EXCLUDE_RE` des
+ausgebauten Runners und ist damit weggefallen. Beide bleiben gültige Ziele, bis Du
+entscheidest, ob sie formal ruhen oder wieder mitlaufen.
+
+**Nächster Lauf (21:57):** noch vor dem 23:30-Slot. Danach fällt die eigentliche Probe: greift
+der um 15:57 korrigierte Guard zu `bauprodukte`? Tut er es wieder nicht, ist die Heuristik
+ausgereizt und der nächste Schritt, die KB für einen Lauf **namentlich** zu setzen.
+
+---
 ## 2026-07-29 15:57 — [FREI] Die 13:30-Probe ist gefallen: der Slot hat geliefert, aber nicht dort, wo er sollte. Der Grund ist nicht die Rangfolge, die ich um 12:57 repariert habe, sondern ein Schutzmechanismus, der seit heute früh gegen einen Gegner verteidigt, den es nicht mehr gibt
 
 **Selbstkontrolle:** letzter Lauf 12:57 (Eintrag 13:05), dieser Lauf 15:57 — 3,0 h bei
