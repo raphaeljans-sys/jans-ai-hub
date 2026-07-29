@@ -12,6 +12,15 @@ Diese Liste pflegt alle bekannten Kontakte und ihre Anredeform. Sie wird laufend
 - Bei Mails, Briefen, Memo-Begleittexten immer zuerst hier nachschlagen.
 - Wenn die Anrede unklar ist: nachfragen, nicht raten.
 - Bei mehreren Empfängern im Cc/An: höflichste Anrede wählen, sofern nicht alle per Du sind.
+- **Gewicht des Anliegens schlägt den Routine-Default** (Freigabe Raphael 29.07.2026): Die
+  Notiz-Spalte nennt den **Routine-Default**. Die Anrede-Stufe folgt zusätzlich dem **Gewicht des
+  konkreten Anliegens** — ein verbindliches Ergebnis oder eine folgenreiche Bitte zieht
+  «Geschätzte/r \<Vorname\>» auch beim sonst lockersten Du-Kontakt, danach fällt der Faden wieder
+  auf den Routine-Opener zurück. Dreifach unabhängig belegt (Stefan Tschopp, Besnik/fsgbau,
+  Levi Hiltmann); konkreter Anlass ist Besnik, den die Liste starr als «nackter Vorname-Opener»
+  führt, während der authentische Beleg vom 21.05.2026 (Betreff «Gewerke/Empfehlung»)
+  «Geschätzter Besnik» + direkten FG-Block zeigt. Die Klausel heilt alle Zeilen zugleich; die
+  Einzelnotizen bleiben als Routine-Default gültig und müssen dafür nicht angepasst werden.
 
 ## Kontaktliste
 

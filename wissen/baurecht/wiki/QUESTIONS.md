@@ -15,9 +15,14 @@ Festlegung · § 19 dicht überbautes Gebiet · § 20 Besitzstand · § 21 Ausf�
 (Tabellenzeile OEREB-Thema 190 + Warnkasten) und
 `planungsgrundlagen/wiki/recht-norm-abstandsvorschriften-wald-gewaesser.md`.
 
-**Was die KB `baurecht` noch tun muss:** die Quelle selbst. Der Chef fasst `raw/` nicht an
-(Rule `wissens-bibliothekar`), deshalb liegt die Korrektur der beiden Zeilen bei dieser KB. Bis
-dahin regeneriert sich der Fehler bei jeder Konsultation der Tabelle.
+**ERLEDIGT am 29.07.2026 — die Quelle selbst.** Ursprünglich als P1 an diese KB übergeben, weil der
+Chef `raw/` nicht anfasst (Rule `wissens-bibliothekar`). **Raphael hat die Ausnahme ausdrücklich
+freigegeben** (29.07.2026), weil die betroffene Tabelle KB-Autorentext ist und der Fehler sich
+sonst bei jeder Konsultation regeneriert hätte. Umgesetzt in `raw/260717_amtlich_zh_hwschv.md`:
+Konkordanzzeile (Z. 40) und Kernbefund Ziff. 4 auf **§ 18 Abs. 1 WsG** gestellt, Korrekturvermerk
+als Kernbefund 5 aufgenommen — und die Tabelle trägt neu einen **Warnkasten «KB-AUTORENTEXT, NICHT
+AMTLICHER WORTLAUT»**, der den Zitierfehler von Run 8 ausdrücklich benennt. Die WsV-Hälfte
+«§ 11 WsV» war richtig und bleibt.
 
 **Der wichtigere, strukturelle Teil — Autorentext in `raw/` wird später als amtlich zitiert.**
 Die Datei `raw/260717_amtlich_zh_hwschv.md` enthält beides: eine **vom KB-Autor geschriebene**
@@ -26,7 +31,10 @@ Wissens-Chef Run 8 hat die Zuordnung mit dem Satz «die Nachfolge § 19 WsG / §
 in der **amtlichen** Konkordanztabelle» für belegt erklärt
 (`koordination/outputs/2026-07-18_wissens-chef-run8.md:60`) — und damit Autoren-Interpretation als
 Primärquelle behandelt. Die Datei markiert das im Frontmatter-Feld `umfang` sogar selbst (nur § 20
-WsG war damals abgeschrieben), es wurde nur nicht gelesen. **Empfehlung an die KB:** in jeder
+WsG war damals abgeschrieben), es wurde nur nicht gelesen.
+
+**Teilweise vollzogen 29.07.2026:** für DIESE Datei ist der Warnkasten gesetzt. **Offen bleibt der
+Bestand:** in jeder weiteren
 `raw/`-Datei, die neben dem amtlichen Text auch Autoren-Hilfstabellen führt, diese sichtbar als
 «KB-Autorentext, nicht amtlich» kennzeichnen — sonst wiederholt sich der Mechanismus bei jeder
 Konkordanz-, Mapping- oder Übersichtstabelle im Bestand.

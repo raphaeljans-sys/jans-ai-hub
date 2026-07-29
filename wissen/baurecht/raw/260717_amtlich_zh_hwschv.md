@@ -35,9 +35,18 @@ Der Nachtrag 95 (Fassungsstand 1.1.2017) hat den Abschnitt E **neu gegliedert**.
 Buch (6. Aufl. 2019) und in der KB verwendeten Nummern stammen teils aus der **alten**
 Fassung (Nachtrag 82, Stand 1.10.2013). Konkordanz der hier relevanten Normen:
 
+> ⚠️ **DIESE TABELLE IST KB-AUTORENTEXT, NICHT AMTLICHER WORTLAUT.** Sie ist eine
+> Zuordnungshilfe des Bibliothekars, keine amtliche Konkordanz der Staatskanzlei. Der amtliche
+> Teil dieser Datei beginnt erst unter **«TEIL A»**. Wer aus dieser Tabelle zitiert, zitiert eine
+> Interpretation — vor jeder Verwendung am Volltext gegenlesen
+> (`raw/260728_amtlich_zh_wsg.md`, `raw/260728_amtlich_zh_wsv.md`).
+> **Anlass der Warnung:** genau das ist am 18.07.2026 passiert (Wissens-Chef Run 8) — die Tabelle
+> wurde als «amtliche Konkordanztabelle» zitiert, ihre erste Zeile war falsch, und der Fehler
+> wanderte in drei KBs bis in die Rechtsgrundlagen-Spalte von OEREB-Thema 190.
+
 | Inhalt | alt (Nachtrag 82, bis 2016) | neu (Nachtrag 95, 2017–31.5.2026) | geltend ab 01.06.2026 |
 |---|---|---|---|
-| Grundsatz / Zuständigkeit Festlegung | — | § 15 | § 19 WsG / § 11 WsV |
+| Grundsatz / Zuständigkeit Festlegung | — | § 15 | **§ 18 Abs. 1 WsG** / § 11 WsV |
 | Festlegung durch Baudirektion | § 15b | § 15h | § 183 lit. b WsV |
 | Bemessung, Gerinnesohlenbreite | § 15d Abs. 1/2 | **§ 15k Abs. 1/2** | §§ 22/23 WsV |
 | **Eingedolte Fliessgewässer mind. 11 m** | § 15d Abs. 3 | **§ 15k Abs. 3** | **entfallen** → § 24 WsV (Verringerung) |
@@ -249,4 +258,20 @@ oder eine Ausnahmebewilligung gemäss § 24 WsG.
    den Vorbehalt der Hochwassersicherheit.
 
 4. **Zuständigkeits-Kette neu:** Festlegung durch die Baudirektion heute § 183 lit. b WsV
-   (i.V.m. § 19 WsG), nicht mehr § 15b/§ 15h HWSchV.
+   (i.V.m. **§ 18 Abs. 1 WsG**), nicht mehr § 15b/§ 15h HWSchV.
+
+5. **Korrektur 29.07.2026 (Wissens-Chef Run 19, Freigabe Raphael) — Verifikation am
+   WsG-Volltext.** Die Konkordanzzeile «Grundsatz / Zuständigkeit Festlegung» und Ziff. 4 oben
+   nannten bis heute **§ 19 WsG**. Richtig ist **§ 18 Abs. 1 WsG**, Randtitel «b. Festlegung»:
+   «*Die Direktion legt den Gewässerraum grundeigentümerverbindlich fest und hält ihn in einer
+   Gewässerraumkarte fest.*» **§ 19 WsG** trägt den Randtitel «c. Berücksichtigung der baulichen
+   Gegebenheiten in dicht überbauten Gebieten» und regelt die **Anpassung** des Gewässerraums —
+   inhaltlich das Gegenteil einer Festlegungskompetenz. Systematik: § 17 Grundsatz · § 18
+   Festlegung · § 19 dicht überbautes Gebiet · § 20 Besitzstand · § 21 Ausführungsrecht.
+   Die falsche Zuordnung entstand am 17.07.2026, als der WsG-Volltext im Hub noch nicht vorlag
+   (vgl. Frontmatter-Feld `umfang`: nur § 20 WsG war abgeschrieben). Er liegt seit Buch-Run 69
+   vom 28.07.2026 vor und widerlegt sie. Die WsV-Hälfte «§ 11 WsV» ist verifiziert richtig und
+   bleibt. Quelle: LS 724.1, Nachtrag 133, in Kraft seit 01.06.2026.
+   *Ausnahme-Vermerk: `raw/` wird sonst nicht editiert (Rule `wissens-bibliothekar`). Hier
+   ausdrücklich freigegeben, weil die betroffene Tabelle KB-Autorentext ist und der Fehler sich
+   sonst bei jeder Konsultation regeneriert hätte.*
