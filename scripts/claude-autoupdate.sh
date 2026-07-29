@@ -102,8 +102,22 @@ elif [ -x "$HOME/.local/bin/claude" ]; then
     else
         log "CLI: claude update FEHLGESCHLAGEN"
     fi
+elif CLI_BIN=$(command -v claude 2>/dev/null) && [ -n "$CLI_BIN" ] \
+     && CLI_REAL=$(readlink -f "$CLI_BIN" 2>/dev/null || echo "$CLI_BIN") \
+     && case "$CLI_REAL" in */node_modules/@anthropic-ai/claude-code/*) true ;; *) false ;; esac \
+     && command -v npm >/dev/null 2>&1; then
+    # npm-global-Installation (z.B. Mac Mini: npm-Prefix /opt/homebrew — sieht wie
+    # eine brew-Installation aus, ist aber KEIN Cask; der brew-Zweig oben greift
+    # deshalb nicht). Aufgenommen 30.07.2026, vollgas-radar: ohne diesen Zweig
+    # meldete der Lauf jede Nacht still «keine bekannte Installation gefunden»
+    # und der Mini blieb auf 2.1.207 stehen, waehrend er die ganze Lern-Last trug.
+    if npm install -g @anthropic-ai/claude-code@latest >> "$LOG" 2>&1; then
+        log "CLI: $CLI_VOR → $(cli_version) (npm -g, Prefix $(npm prefix -g 2>/dev/null))"
+    else
+        log "CLI: npm -g update FEHLGESCHLAGEN (Details oben im Log)"
+    fi
 else
-    log "CLI: keine bekannte Installation gefunden — uebersprungen"
+    log "CLI: keine bekannte Installation gefunden — uebersprungen (geprueft: brew-Cask, ~/.local/bin, npm-global)"
 fi
 
 # ----------------------------------------------------------------------------

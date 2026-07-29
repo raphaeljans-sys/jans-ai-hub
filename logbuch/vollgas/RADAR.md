@@ -29,6 +29,97 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-07-30 00:57 — [FREI] Der Mini-Blocker ist repariert, und die Ursache war eine andere als gestern gemeldet: dort liegt eine npm-Installation IM Homebrew-Prefix, die von aussen wie ein Cask aussieht und von keinem der beiden Update-Zweige erfasst wurde
+
+**Selbstkontrolle:** letzter Takt-Eintrag 21:57, dieser Lauf 00:57. 3,0 h bei 3-h-Takt, kein
+verpasster Lauf (der 22:15-Eintrag dazwischen war interaktiv). Nächster Lauf 03:57.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung antwortet «OK» (rc 0). Kein
+Login-Blocker, kein Wochenlimit, kein Mail-Anlass. Speicher MacBook 5,6 GB verfügbar
+(`vm_stat` free+inactive+purgeable), Druckstufe 1 — unauffällig.
+
+**Feuermechanismen: sauber.** `launchctl list | grep vollgas` auf beiden Stationen leer, beide
+plists tragen weiter `.disabled-260729`. Der Endlos-Runner bleibt ausgebaut; ich habe ihn nicht
+angefasst. Die Mini-Nachtschicht ist der einzige Lern-Taktgeber, vier Slots
+23:30 / 02:30 / 05:30 / 13:30, letzter Zyklus 23:30–23:36 mit Exit 0, nächster 02:30.
+
+**Liefer-Delta: durchgehend positiv, kein Loop zum Rücktakten.** In den letzten sechs Stunden
+acht inhaltliche Commits neben dem Selbstcommit-Rauschen: Normen Run 37 (22:20), Energie-Training
+Run 119 mit sieben Destillaten (22:45), projekt-lessons Ingest-Lauf 1 (23:2x), bauprodukte
+Z-Winkel BKP 273 (23:36), Wissens-Chef Run 20 über fünf Cross-KB-Felder (23:59),
+planungsgrundlagen Run 93 (00:49), Run-20-Nachlauf mit der Eindampfung der rollen-taxonomie
+(00:50) und die UTC-Falle in der Rule dateinamen-konvention (00:5x). Kein Loop erreicht auch nur
+einen Lauf ohne Delta; die Schwellen 3 und 5 sind nirgends berührt, entsprechend habe ich weder
+zurückgetaktet noch deaktiviert. Die beiden Twin-Loops, die am 28.07. als Delta-Null-Verdacht
+geführt wurden, haben am 29.07. geliefert (Batch 81 schliesst September 2025 ab; Fidelity-Review
+mit Report und QUESTIONS-Runde, bewusst ohne Wiki-Änderung).
+
+**P1 — repariert, Wirkung noch nicht verifiziert: der Mac Mini hängt auf CLI 2.1.207, weil
+`claude-autoupdate.sh` seine Installation nicht erkennt.** Der gestrige 21:57-Eintrag hat den
+Blocker richtig gesehen, die Ursache aber zu grob benannt («Mini hat eine npm-Installation»). Die
+Gegenprüfung zeigt das genaue Bild: `/opt/homebrew/bin/claude` ist ein Symlink nach
+`/opt/homebrew/lib/node_modules/@anthropic-ai/claude-code/bin/claude.exe`, also eine
+**npm-Global-Installation mit Prefix `/opt/homebrew`**. Von aussen sieht das aus wie Homebrew,
+`brew list --cask claude-code` findet aber nichts, `brew list --formula` ebenso wenig, und
+`~/.local/bin/claude` existiert nicht. Damit fiel der Lauf jede Nacht durch beide Zweige in den
+else-Ast und protokollierte still «keine bekannte Installation gefunden — übersprungen»,
+belegt am 27., 28. und 29.07. in `logs/claude-autoupdate/mac-mini.log`. Der MacBook Pro läuft
+demgegenüber über den brew-Zweig und ist auf 2.1.212.
+
+Behoben: dritter Zweig in `scripts/claude-autoupdate.sh`, der die npm-Global-Installation über
+den aufgelösten Symlink erkennt und `npm install -g @anthropic-ai/claude-code@latest` ausführt;
+der else-Ast benennt jetzt die drei geprüften Installationsarten, statt nur «keine bekannte» zu
+melden. `bash -n` sauber. Die Zweigwahl ist auf **beiden** Stationen nachgemessen: Mini
+→ `npm-global`, MacBook Pro → `brew` unverändert, also keine Regression. Der launchd-Job des
+Mini liest das NAS-Script direkt (kein SSD-Vorrang), die Korrektur greift damit schon um 05:15.
+
+**Bewusst NICHT von Hand nachinstalliert.** Ein `npm install -g` um 01:00 würde genau die Binary
+austauschen, die die Nachtschicht um 02:30 braucht; scheitert er halb, fällt der einzige
+Lern-Taktgeber aus. Der reparierte Mechanismus soll sich um 05:15 selbst beweisen. **Offen für
+den 06:57-Lauf: prüfen, ob `mac-mini.log` einen Versionssprung protokolliert und
+`claude --version` auf dem Mini nicht mehr 2.1.207 zeigt.** Erst dann ist der Blocker geschlossen.
+
+**Korrektur meiner eigenen 21:57-Zahl.** Dort stand, `claude` sei «auf beiden Stationen nicht via
+PATH auflösbar, nur ein einziger Fallback-Pfad existiert». Der erste Teil stimmt und ist
+nachgemessen: in einer nackten launchd-Umgebung (`env -i`) findet keine der beiden Stationen
+`claude`. Der zweite Teil ist falsch. `dispatch-run.sh` härtet den PATH um
+`/opt/homebrew/bin:/usr/local/bin:~/.local/bin:~/.bun/bin:~/.claude/local` und probiert danach
+**vier** Installationsorte durch; auf beiden Stationen löst das auf `/opt/homebrew/bin/claude`
+auf. Alles, was über `dispatch-run.sh` läuft — und damit die ganze Nachtschicht — ist abgedeckt.
+Das Restrisiko betrifft nur launchd-Jobs, die `claude` direkt aufrufen. Nebenbefund für die
+05:15-Korrektur: npm installiert in dasselbe Prefix und lässt den Symlink stehen, die Auflösung
+bleibt also unverändert.
+
+**P2 — Messlücke: die Arbeit nach Mitternacht steht in keinem Lauf-Journal.**
+`logbuch/laeufe/260730-laeufe.jsonl` existiert um 00:57 nicht, obwohl planungsgrundlagen Run 93
+und der Run-20-Nachlauf bereits committet sind. Grund ist kein Ausfall: auf dem Mini läuft seit
+00:28 eine App-Scheduled-Task-Session (PID 22620, App-eigene CLI 2.1.219), und die erreicht
+`claude-run.sh` baulich nicht — genau die Lücke, die schon beim Lauf-Gate bekannt ist. Der
+Liefer-Delta ist darum weiterhin nur über Commits und Dateistände messbar, nicht über das
+Journal. Kein Handlungsbedarf heute Nacht, aber die Journalzeile taugt nicht als alleinige
+Messgrösse, solange App-Tasks einen relevanten Teil der Arbeit tragen.
+
+**P2 — planungsgrundlagen bestätigt zum 28. Mal einen erschöpften Quellbestand.** Run 93 hält
+fest, dass unter «PL - 01 Kartenportale» seit Run 92 keine neue Datei liegt. Der Loop liefert
+trotzdem echte Arbeit (Endpunkt-Frischecheck 13/13, zwei behobene und getestete Connector-Fehler,
+eine tote Energie-URL in vier Artikeln ersetzt) — das ist ausdrücklich **kein** Delta Null, und
+nach meinen Schwellen greife ich nicht ein. Festzuhalten ist trotzdem, dass die Ingest-Aufgabe
+dieses Loops erledigt ist und er faktisch als Maintainer weiterläuft. Wenn Raphael das anders
+gewichten will, wäre hier der Punkt zum Rücktakten.
+
+**P3 — zwei wirkungslose Berechtigungsregeln, Fix blockiert.** `.claude/settings.json` trägt
+`Write(//Volumes/daten/jans-ai-hub/**)` und
+`Write(//Users/.../OneDrive-FreigegebeneBibliotheken–JANS/**)`. Beide greifen nicht, weil nur
+`Edit(...)`-Regeln gegen Dateipfade prüfen, und beide erzeugen bei **jedem** headless-Start zwei
+Warnzeilen. Die erste ist ein reines Duplikat der Zeile darüber (`Edit(//Volumes/...)`) und kann
+weg, die zweite müsste auf `Edit(...)` lauten. Ich habe den Fix versucht; der Auto-Mode-Klassifikator
+hat die Änderung an der Berechtigungsdatei abgelehnt. **Braucht Raphael** — zwei
+Zeilen, kein Risiko.
+
+**P3 — `methoden-radar` hat noch nie gefeuert.** Die Registry führt den Task als aktiv (Mo 21:00)
+ohne jedes `lastRunAt`; nächster Termin 03.08. Beim nächsten Montagslauf prüfen, ob er
+tatsächlich liefert, sonst ist er ein Baustein, der nur auf dem Papier existiert.
+
 ## 2026-07-29 22:15 — [FREI] Nachtrag zum Runner-Ausbau: drei Scripts beschrieben sich weiter als in Betrieb, und eine eingefrorene Statusseite refreshte sich alle 15 Sekunden wie ein laufender Dienst
 
 Interaktiv ausgeloest durch Raphael («mache deine Empfehlungen»), kein Takt-Lauf. Fensterzustand

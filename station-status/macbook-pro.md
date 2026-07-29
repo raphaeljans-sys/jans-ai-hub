@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.07.2026 00:51:04
+Stand: 30.07.2026 01:11:17
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 00:48)
+- Developer/jans/ai/hub  (letzte Aktivitaet 00:58)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 30.07.2026 00:51:04
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- f51bdb0c Run 20 Nachlauf: Entscheide A2/B2/C1 umgesetzt — rollen-taxonomie eingedampft (3559->1911 B, Grundkontext -412 Token), 4 ueberholte Saetze entfernt, Lesson-Titel geschaerft
+- 5bb1fee3 nas-selfcommit: 1 Datei(en) 2026-07-30 01:00
