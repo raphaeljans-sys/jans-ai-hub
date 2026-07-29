@@ -30,7 +30,121 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
-## 2026-07-29 04:20 — [FREI] Der neue SDK-Wrapper hat in der Nacht jeden Dispatch-Lauf stumm getoetet. Ursache gefunden, reproduziert, behoben — der Fehler haette ab heute auch den Mittags-Versuch und den Handy-Weg getroffen
+## 2026-07-29 07:10 — [FREI] Das Lauf-Gate steht auf dem MacBook seit fuenf Stunden dauerhaft zu — bei 3,7 GB freiem Speicher. Der Selbsttest nennt das «OK». Bisher ohne Schaden, weil der einzige Aufrufer nichts zu tun hatte
+
+**Selbstkontrolle:** letzter getakteter Lauf 03:57 (Eintrag 04:20), dieser Lauf 06:57 — 3,0 h
+bei 3-h-Takt, kein verpasster Lauf.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung antwortet «OK» (rc 0). Kein
+Login-Blocker, kein Wochenlimit, kein Mail-Anlass. Endlos-Runner bleibt ausgebaut: auf beiden
+Stationen `launchctl list | grep vollgas` leer, beide plists auf `.disabled-260729`, kein
+Runner-Prozess. Kein Mechanismus feuert doppelt.
+
+**Der Wrapper-Fix von 04:20 traegt in der Produktion.** Die Nachtschicht 05:30 auf dem Mini lief
+mit Exit 0 durch (302 s, 42 Turns) und lieferte einen belegten Artikel — genau der Lauf, der um
+02:30 noch nach 47 Sekunden mit Exit 2 stumm gestorben war. Der Auth-Fehler im Verifikationslauf
+von 04:20 war damit nachweislich mein eigener Testfehler und kein Stationsbefund.
+
+**P1 — das Lauf-Gate weist auf dem MacBook seit 02:17 ALLES ab, obwohl reichlich Speicher da
+ist.** Das Gate hat drei Kriterien: Laufzahl, Speichermenge und Speicherdruck. Die ersten beiden
+sind erfuellt (0 von 2 Laeufen, 3657 MB gegen einen Mindestwert von 3000 MB). Abgewiesen wird
+allein wegen des dritten: `kern.memorystatus_vm_pressure_level` steht auf 2, und Zeile 129 des
+Gates vetoisiert ab 2 — unabhaengig davon, wie viel Speicher frei ist.
+
+Das waere richtig, wenn Stufe 2 ein Ausnahmezustand waere. Auf dieser Station ist sie der
+Normalzustand: in den letzten 14 Halbstunden-Messungen des Speicher-Waechters steht **zwoelfmal
+Druck 2**, zweimal Druck 1. Die letzte Freigabe im Gate-Log datiert von 01:27 (`normen-training-nacht`,
+3495 MB, Druck 1); seither ausschliesslich Abweisungen — vier Selbsttest-Proben und zwei
+Radar-Proben, alle mit dem Vermerk «Speicherdruck 2», alle bei 3007 bis 3749 MB frei.
+
+**Der Selbsttest sieht das und meldet trotzdem «OK».** Er prueft den Freigabepfad, faengt die
+Abweisung ab und stuft sie in Zeile 70/71 als unbedenklich ein, sobald der Grund das Wort
+«Speicherdruck» enthaelt — mit der Begruendung, bei echter Speichernot sei die Abweisung ja
+korrekt. Das ist fuer einen kurzen Engpass richtig gedacht und unterscheidet nur nicht zwischen
+«weist gerade zu Recht ab» und «weist seit fuenf Stunden bei 3,7 GB frei ab». Um 02:38:34 wurde
+`selbsttest-freigabe` abgewiesen, acht Sekunden spaeter meldete der Selbsttest «alle Pruefungen
+bestanden». Das ist genau die Fehlerfigur, gegen die er gebaut wurde (Rollen-Taxonomie Nr. 5,
+«eine Mechanik, die immer nein sagt, sieht im Log aus wie eine, die funktioniert») — eine Ebene
+hoeher angewendet.
+
+**Schaden bisher: keiner — und das gehoert dazugesagt.** Auf dem MacBook fragt genau ein
+Mechanismus das Gate: `wissens-trigger` (06:30). Der ist ereignisgesteuert und startet nur bei
+veraendertem Rohmaterial; heute um 06:30 endete er mit «0 Lauf/Laeufe ausgeloest» und hat das
+Gate gar nicht erst erreicht. Die App-Scheduled-Tasks erreichen es baulich ohnehin nicht — darum
+haben `twin-mail-training` und `twin-fidelity-review` heute Nacht normal geliefert. Der
+Endlos-Runner ist ausgebaut. Die Sperre ist also **latent, nicht eingetreten**: sie schlaegt in
+dem Moment zu, in dem in einer beobachteten KB neues Material auftaucht, und sie verhindert
+schon jetzt jeden Parallellauf ueber `multi-claude.sh`.
+
+Ich habe die Schwelle **nicht** angetastet. Ob Druck 2 ein Veto rechtfertigen soll oder erst
+Druck 4 (kritisch), ist eine Kapazitaetsentscheidung und gehoert Dir — die Regel «kein
+eigenmaechtiges Drosseln» gilt in beide Richtungen. **Vorschlag:** Druck 2 nicht mehr als Veto,
+sondern als Verschaerfung der Mengenschwelle behandeln (bei Druck 2 z.B. den doppelten
+Mindestwert verlangen), Veto erst ab Druck 4. Dann bleibt der Schutz gegen eine wirklich
+swappende Maschine erhalten, ohne dass der Normalzustand einer warmgelaufenen Arbeitsstation das
+Tor zusperrt. Zweitens sollte der Selbsttest eine Dauer-Abweisung von einer momentanen trennen
+(z.B. Befund, wenn der Freigabepfad ueber mehrere Laeufe hinweg nie durchlaesst).
+
+**P2 — eine Task-Beschreibung behauptete elf Tage lang einen Loop, den es nicht gibt.
+Korrigiert.** `normen-training-nacht` trug im Beschreibungstext den Satz «DIN/VSS/RAL laeuft
+weiter auf dem Mac Mini» — noch in der heute frueh aktualisierten Fassung. Nachgemessen: die
+plist `ch.jans.training-normen` auf dem Mini traegt `Disabled = true`, steht nicht in
+`launchctl list`, und im Trainings-Log des Mini taucht seit dem 20.07. kein einziges
+«Start normen» auf. Abgeschaltet wurde sie am 18.07. mit der Drossel und nie wieder scharf
+gestellt.
+
+Die Stilllegung war **richtig** und wird nicht rueckgaengig gemacht: der Bestand ist fertig.
+Im Inventar sind DIN 72 Dateien, VSS 17, RAL 1, und jede Zeile traegt entweder `[x]`
+(destilliert und verifiziert, ueberwiegend zusaetzlich mit Q&A-Selbstbefragung) oder «—» (kein
+Normdokument, uebersprungen). **Null offene Positionen.** Letzter Mini-Run war Nr. 30 am 14.07.
+Falsch war also nicht der Zustand, sondern der Satz darueber. Beschreibung entsprechend
+korrigiert; die Zustaendigkeitsregel (SIA+VKF am MacBook) bleibt, nur feuert dazu kein
+Mini-Mechanismus mehr.
+
+**P3 — ein produktiver Loop laeuft ausserhalb der Aufsicht.** `ch.jans.training-energie` auf dem
+Mini (launchd, taeglich 22:30) steht in **keiner** Scheduled-Task-Registry und wird darum weder
+von diesem Radar noch von der Fruehwarnung im Liefer-Delta gefuehrt. Er ist keineswegs untaetig:
+Lauf vom 28.07. 22:30 bis 22:51 lieferte Run 118 mit sechs Destillaten, FAQ F178 bis F183 und
+Commit `6e2bf77d`. Ab sofort in der Tabelle unten mitgefuehrt. Gegenprobe am Nachbarn: das
+Schwester-Script `training-plg` wurde am 28.07. korrekt stillgelegt (plist `.disabled-260728`),
+nachdem der Loop selbst dreimal die Ruecktaktung empfohlen und die **27. Erschoepfungsbestaetigung
+in Folge** gemeldet hatte. Der Leerlauf-Waechter hat dort also funktioniert.
+
+**Eigener Messfehler — zum zweiten Mal derselbe, deshalb jetzt ein Werkzeug statt einer Notiz.**
+Meine Ad-hoc-Nachmessung des freien Speichers ergab 0,92 GB und liess das Gate defekt aussehen.
+Ursache: hart kodierte Seitengroesse 4096, waehrend Apple Silicon 16384 Byte pro Seite nutzt —
+der Wert war um exakt den Faktor vier zu klein, real sind es 3657 MB. **Denselben Fehler hatte
+ich am 28.07. 22:00 schon einmal gemacht und als P3 protokolliert**, samt der Lehre, eine
+Kennzahl immer mit der Funktion der Schutzmechanik selbst gegenzumessen. Die Notiz hat die
+Wiederholung nicht verhindert. Darum trage ich sie nicht noch einmal ein, sondern habe das Gate
+um einen lesenden Schalter erweitert: `bash scripts/lauf-gate.sh --messung` gibt Station,
+Laufzahl, verfuegbaren Speicher und Druckstufe so aus, wie das Gate sie selbst liest,
+entscheidet nichts und protokolliert nichts. Wer das Gate kuenftig nachprueft, baut die Messung
+nicht mehr nach.
+
+Beide Pfade nachgemessen, wie es die Regel fuer jede Aenderung an einer Schutzmechanik verlangt:
+`bash -n` OK · neuer Schalter auf beiden Stationen rc 0 mit plausiblen Werten (MacBook 3657 MB /
+Druck 2, Mini 12698 MB / Druck 1) · **Abweisungspfad** zweimal rc 1 (Druckveto und kuenstliche
+Mengenschwelle) · **Freigabepfad** rc 0 auf dem Mini, wo Druck 1 herrscht. Der SSD-Klon des Mini
+traegt den Schalter noch nicht und zieht ihn per Pull nach; die Entscheidungslogik ist
+unveraendert, die alte Fassung bleibt also in jedem Fall korrekt.
+
+**Liefer-Delta seit dem letzten getakteten Lauf (03:57):**
+
+| Zeit | Station | Loop | Ergebnis |
+|---|---|---|---|
+| 05:30 | Mini | `nachtschicht` | **Geliefert** — Artikel `kapitalband-und-fremdwaehrung` (KB firmengruendung-ch), zwei Artikel bereinigt, INDEX/QUESTIONS/CHANGELOG nachgefuehrt; belegt am amtlichen Fedlex-Volltext. Exit 0 nach dem Wrapper-Fix |
+| 05:44 | MacBook | `twin-fidelity-review` | **Geliefert** — Fidelity-Report 2026-07-29 (141 Zeilen), QUESTIONS +51, CHANGELOG +19. Kernbefund ist ein Messfehler-Befund des Loops selbst: schlechteres Ergebnis auf derselben Goldprobe, weil der Lauf vorhandene Marker nicht fand; Facetten-Artikel bewusst unveraendert gelassen |
+| 06:13 | MacBook | `konversations-log` | **Geliefert** — Tages-Destillat (166 Zeilen) plus Fristen-Register |
+| 06:30 | beide | `wissens-trigger` | Kein Lauf, korrekt: Rohmaterial in `energie` und `planungsgrundlagen` unveraendert. Kein Delta-Null-Befund, sondern ein Ereignis-Trigger ohne Ereignis |
+| 06:54 | MacBook | `logbuch-radar` | Zum Messzeitpunkt noch in Arbeit, nicht beurteilbar — beim naechsten Lauf nachziehen |
+| 22:30 (28.07.) | Mini | `training-energie` | **Geliefert** — Run 118, sechs Destillate, FAQ F178–F183, Commit `6e2bf77d`. Neu in dieser Tabelle, siehe P3 |
+
+Damit ist die offene Frage aus dem 04:20-Eintrag beantwortet: `twin-fidelity-review` hat
+geliefert, der Null-Tag vom 28.07. war der Neustart um 06:53 und kein kranker Loop. **Kein Loop
+steht bei drei Laeufen in Folge ohne Liefer-Delta.** Keine Ruecktaktung, keine Deaktivierung.
+
+ Ursache gefunden, reproduziert, behoben — der Fehler haette ab heute auch den Mittags-Versuch und den Handy-Weg getroffen
 
 **Selbstkontrolle:** letzter **getakteter** Lauf 00:57 (Eintrag 01:00), dieser Lauf 03:57 —
 3,0 h bei 3-h-Takt, kein verpasster Lauf. Der Eintrag 03:00 dazwischen war interaktiv.

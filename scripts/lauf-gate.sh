@@ -107,6 +107,24 @@ AKTIV=$(laufende)
 FREI=$(frei_mb)
 DRUCK=$(druck)
 
+# --- Nur-Messung (read-only) -------------------------------------------------
+# `bash lauf-gate.sh --messung` gibt genau die Kennzahlen aus, die das Gate
+# SELBST liest, entscheidet nichts und protokolliert nichts.
+# Grund (vollgas-chef-radar 29.07.2026): der Seitengroessen-Fehler — hart
+# kodierte 4096 Byte statt der auf Apple Silicon tatsaechlichen 16384 — ist mir
+# am 28.07. UND am 29.07. unterlaufen, beide Male weil ich die Messung fuer eine
+# Nachkontrolle des Gates selbst nachgebaut habe. Beide Male ergab er rund ein
+# Viertel des wahren Werts und liess das Gate faelschlich defekt aussehen. Die
+# Lehre stand nach dem ersten Mal als Notiz im RADAR und hat die Wiederholung
+# nicht verhindert. Eine Notiz ist kein Schutz — ein Werkzeug schon.
+if [ "$NAME" = "--messung" ]; then
+    printf 'Station:        %s\n' "$STATION"
+    printf 'Laeufe aktiv:   %s (Grenze %s)\n' "$AKTIV" "$MAX_LAEUFE"
+    printf 'Verfuegbar:     %s MB (Mindestwert %s MB)\n' "$FREI" "$MIN_FREI_MB"
+    printf 'Speicherdruck:  %s (1=normal, 2=warnend, 4=kritisch)\n' "$DRUCK"
+    exit 0
+fi
+
 # Schutz gegen eine kaputte Messung: liefert frei_mb nichts Zaehlbares, wird
 # NICHT stillschweigend durchgewunken und auch nicht alles blockiert — der Fall
 # wird sichtbar protokolliert und der Lauf zurueckgestellt.
