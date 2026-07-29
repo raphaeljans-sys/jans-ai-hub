@@ -142,3 +142,15 @@ weiterhin nur im PRO-Abo (bestätigter Negativbefund).
   SIA-2032:2020-Vorprojektwerte (exakte m²-Bauteilaufbauten statt Grenzwert/Median) die präzisere Quelle.
 - Konkrete Sanieren-vs-Neubau-Schwelle (Amortisation der grauen Energie): keine belegte CH-Jahreszahl
   auffindbar, siehe Negativbefund `[[graue-energie-sanieren-vs-neubau-amortisation]]`.
+
+## Gesamtgebäude-Synthese Holzbau vs. Massivbau (ergänzt Run 119, 2026-07-29)
+Über 35 real verglichene Schweizer Objektpaare (Wüest Partner/Lignum-Studie, Branchenauftrag
+explizit gekennzeichnet) liegt Holzbau bei der grauen Energie der Erstellung durchgehend
+**20–40 % tiefer** als vergleichbarer Massivbau (Median Gesamtgebäude **7,5 vs. 9,8 kg
+CO₂-eq/m² EBF·a**); grösster Hebel ist nicht die Aussenwand (siehe Bauteilaufbau-Zahlen oben),
+sondern **Dach** (bis 38–45 % weniger) und Tragstruktur insgesamt. Der Effekt kommt nicht von
+besserer Dämmung (Massivholz dämmt schlechter als Mineralwolle), sondern von geringerer
+Materialmasse + CO₂-Bindung im Holz — ein schwerer Massivholz-Dachaufbau kann trotzdem
+schlechter abschneiden als ein leichter Massivbau-Aufbau. Unabhängiges Korrektiv: treeze/
+ZZ-Wancor-Studie 2017 (−73 % Holzriegel vs. Backstein+EPS) → `[[graue-energie-holzbau-vs-massivbau-vergleich-ch]]`,
+FAQ F189.

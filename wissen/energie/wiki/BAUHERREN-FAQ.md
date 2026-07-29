@@ -6168,3 +6168,116 @@ absoluten Kennwert.
 Datenstand Recherche 2026-07-28 (Run 118) → `[[grosskueche-mahlzeit-energiekennwert-aktualisierung]]`,
 ergänzt `[[grosskuechen-lueftung-abluft-wrg-ch]]`. Status **emerging** — ehrlicher
 Negativbefund, alte Werte bleiben in Kraft.
+
+## F184 — «Wie effizient ist eine Abwasserwärmepumpe wirklich, gibt es Zahlen aus bestehenden Anlagen?»
+
+**Kurzantwort:** Für die drei bekanntesten Referenzanlagen (Wädenswil, Winterthur, EWZ
+Wipkingen) veröffentlicht der Hersteller Rabtherm selbst keine Jahresarbeitszahl, nur
+Leistungs- und Kostendaten. Andere reale Schweizer Anlagen zeigen Werte zwischen 4,0 und 7,0.
+
+**Fachliche Begründung:** Alle vier Rabtherm-Referenzblätter zu den drei Zielprojekten wurden
+vollständig gelesen — keines enthält einen JAZ/COP-Wert (Negativbefund dritte Runde bestätigt).
+Die EnergieSchweiz/BFE-Broschüre «Heizen und Kühlen mit Abwasser» liefert stattdessen zwei
+andere reale CH-Anlagen mit echten Werten: Zwingen (JAZ 4,4, Raumheizung) und Basel-Allschwil
+Bachgraben («Arbeitszahl von gegen 7», sommerlastiger Betrieb). Zusammen mit den bereits
+bekannten Werten (COP 4,0 Wintower Winterthur, COP 5,7 Lausanne) ergibt das ein Band von 4,0-7,0
+über fünf benannte Schweizer Anlagen — weiterhin keine SEPEMO-konforme Heizperioden-Messreihe.
+
+**Quelle:** Rabtherm-Referenzblätter (4, vollständig); EnergieSchweiz/BFE-Broschüre 805.691.d.
+Datenstand Recherche 2026-07-29 (Run 119) → `[[rabtherm-abwasserwaerme-jaz-projekte]]`, ergänzt
+`[[abwasserwaermepumpe-jaz-foerderung-vertiefung-zh]]`. Status **emerging**.
+
+## F185 — «Gibt es in Freienbach (SZ) einen Anschlusszwang an Fernwärme, und wo bekomme ich Erdwärme?»
+
+**Kurzantwort:** Nein, kein Anschlusszwang — der Holzwärmeverbund der Energie Aussenschwyz AG
+ist freiwillig, dort wo erschlossen. Erdwärmesonden sind auf grossen Gebietsteilen möglich
+(Faustregel bis ~180 m Tiefe unproblematisch), verbindlich entscheidet das kantonale Amt für
+Umwelt und Energie. Thermische Grundwassernutzung ist stark eingeschränkt (nur seenah, ≥50 kW).
+
+**Fachliche Begründung:** Der ursprünglich gesuchte econcept-Energierichtplan Freienbach (2013)
+ist online nicht mehr auffindbar (Website tot, Wayback nur Kurzbeschreibung). Die Gemeinde hat
+ihn faktisch durch eine neue Energieträgerkarte samt Begleitbericht (Abicht Zug AG, publiziert
+27.05.2025, vollständig gelesen) ersetzt: acht Energieträger-Zonentypen über die fünf Ortsteile,
+KBOB-Ökobilanz-Vergleich aller Systeme, Netto-Null-Zielhorizont 2050 (Gemeinde-Liegenschaften
+2040). Für eine projektgenaue Auskunft: Energie-Amt Gemeinde Freienbach, Barbara Darani,
+barbara.darani@freienbach.ch, 055 416 92 64.
+
+**Quelle:** Begleitbericht Energieträgerkarte Freienbach, Abicht Zug AG, 10.01.2026/publiziert
+27.05.2025. Datenstand 2026-07-29 (Run 119) → `[[energierichtplan-freienbach-econcept]]`, ergänzt
+`[[waermeplanung-kommunal-zh-sz]]`. Status **teilverifiziert** (Ersatzdokument established, das
+ursprünglich gesuchte Original bleibt Negativbefund).
+
+## F186 — «Darf ich Regenwasser für die WC-Spülung nutzen, und was muss ich dabei beachten?»
+
+**Kurzantwort:** Ja — für WC-Spülung, Waschmaschine und Gartenbewässerung, sofern das
+Regenwassernetz strikt getrennt vom Trinkwassernetz bleibt, alle Leitungen/Zapfstellen als
+«Kein Trinkwasser» gekennzeichnet sind und die Anlage dem Wasserwerk gemeldet wird.
+
+**Fachliche Begründung:** Das SVGW-Merkblatt TPW 2001/1 «Regenwassernutzung» (im SVGW-Shop
+weiterhin gelistet, W10001 d) regelt die verbindlichen Kernregeln: Netztrennung, Kennzeichnung,
+Meldepflicht; Trinken/Körperpflege/Lebensmittelzubereitung bleiben dem Trinkwassernetz
+vorbehalten. Die oft genannten rund 10'000 CHF Investition und 40-55 % Trinkwasser-Einsparung
+stammen nur aus zwei nicht-amtlichen Marktquellen (leicht divergierend) — für eine belastbare
+Zahl braucht es eine Sanitärplaner-Offerte. Klar abzugrenzen von der bereits behandelten
+Versickerungs-/Entwässerungsfrage (dort geht es um die Bewilligung, hier um die Nutzung als
+Brauchwasser).
+
+**Quelle:** SVGW-Merkblatt TPW 2001/1; myky.ch; Hauser Regenwassernutzung (beide nicht-amtlich).
+Datenstand 2026-07-29 (Run 119) → `[[regenwassernutzung-brauchwasser-trinkwasserersatz-ch]]`.
+Status **established** (Normteil) / **speculative** (Kosten/Einsparung).
+
+## F187 — «Unsere Parzelle liegt in einer Grundwasserschutzzone, die Erdsonde wurde uns verweigert — gibt es eine Alternative?»
+
+**Kurzantwort:** Ja, ein Eisspeicher: eine unterirdische, geschlossene Wasserzisterne liefert
+über die Kristallisationswärme beim Gefrieren die Wärmequelle für eine Sole-Wasser-Wärmepumpe,
+ohne Bohrung und ohne Grundwasserberührung — allerdings spürbar teurer als eine Erdsonde.
+
+**Fachliche Begründung:** Reifer, aber teurer Nischen-Ersatz für die Erdsonde. Fünf reale
+Schweizer Referenzprojekte (Rapperswil-Jona JAZ 5-6, Murtenstrasse 147 Bern >4, Sunnegg, Isocal
+Münchenstein/Dornach) zeigen Kosten Faktor 1-2 gegenüber der Erdsonde (CH-Beispiele 75'000 CHF
+EFH bis 420'000 CHF MFH-Pilot) und eine JAZ-Bandbreite von 2,0 (Fehlauslegung) bis 6
+(CH-Pilotprojekt). Herstellerangaben (Viessmann) sind explizit als Marketing gekennzeichnet.
+Offen bleibt die konkrete kantonale Bewilligungspraxis in ZH/SZ-Grundwasserschutzzonen — dazu
+fehlt eine amtliche Primärquelle.
+
+**Quelle:** RP-Energie-Lexikon (Paschotta); 5 CH-Referenzprojekte; Viessmann (als Marketing
+markiert). Datenstand 2026-07-29 (Run 119) → `[[eisspeicher-waermepumpe-latentwaermespeicher]]`,
+ergänzt `[[heizleistung-und-waermeerzeuger]]`. Status **emerging**.
+
+## F188 — «Brauche ich für eine Seewasser-Wärmepumpe am Zürich-/Zugersee eine Konzession?»
+
+**Kurzantwort:** Ja, immer — die Wärmeenergie des Sees gehört dem Kanton. Die Gemeinde holt im
+Baubewilligungsverfahren die wasserrechtliche Konzession und die gewässerschutzrechtliche
+Bewilligung beim AWEL (bzw. AfU SZ) ein; unter 800 kW dauert das rund 3 Monate, darüber wegen
+Ausschreibungspflicht rund 2 Monate länger.
+
+**Fachliche Begründung:** Seewasser-Wärmenutzung (amtlich «OWEN») ist in ZH/SZ/ZG und am
+Vierwaldstättersee durchgehend konzessions- und bewilligungspflichtig. Belegt über die
+AWEL-Planungshilfe 2025 (Temperatur-/Tiefenvorgaben, Eignungsgebiete Zürichsee/Greifensee/
+Pfäffikersee) und die AKV-Richtlinie Vierwaldstättersee 2017 (gemeinsame Mindestanforderungen
+der fünf Anrainerkantone inkl. Schwyz). Reale Grossprojekte: ewz Zürichsee (165 GWh Wärme/2022),
+Energieverbund Lengg (8,5 GWh Netto-Entzug), Circulago Zugersee (12/36 MW). Kein amtlich
+belegter COP/JAZ-Wert gefunden — nur eine Hoval-Herstellerangabe (4-5,5) ohne Prüfmethodik.
+
+**Quelle:** AWEL-Planungshilfe 2025; AKV-Richtlinie Vierwaldstättersee 2017; ZUP 105; ewz/
+Circulago-Projektdaten. Datenstand 2026-07-29 (Run 119) →
+`[[seewasser-waermenutzung-aquathermie-zh-sz]]`. Status **emerging** — neues Themenfeld.
+
+## F189 — «Wie viel graue Energie spart mir ein Holzbau gegenüber einem Massivbau konkret?»
+
+**Kurzantwort:** Bei einem vergleichbaren Mehrfamilienhaus rund 20-25 % weniger graue
+Treibhausgasemissionen (Median 7,5 statt 9,8 kg CO₂-eq/m² Energiebezugsfläche und Jahr). Der
+grösste Spareffekt liegt beim Dach und der Tragstruktur, nicht bei der Aussenwand.
+
+**Fachliche Begründung:** Basis sind 35 real verglichene Schweizer Objektpaare (Wüest
+Partner-Studie im Auftrag von Lignum, explizit als Branchenauftrag gekennzeichnet), ergänzt
+durch die unabhängige treeze/ZZ-Wancor-Gegenzahl und eine espazium/TEC21-Fallstudie
+(Badenerstrasse 380, Zürich). Der Effekt kommt nicht von besserer Dämmung — Massivholz dämmt
+sogar schlechter als Mineralwolle — sondern von der geringeren Materialmasse und der
+CO₂-Bindung im Holz. Wichtige Einschränkung: ein schwerer Massivholz-Dachaufbau kann trotzdem
+schlechter abschneiden als ein leichter Massivbau-Aufbau — «Holz» ist kein Automatismus.
+
+**Quelle:** Wüest Partner/Lignum-Studie (35 Objektpaare); treeze/ZZ-Wancor; espazium/TEC21;
+KBOB-Faktenblatt. Datenstand 2026-07-29 (Run 119) →
+`[[graue-energie-holzbau-vs-massivbau-vergleich-ch]]`, ergänzt `[[graue-energie]]`,
+`[[holzbau-bauphysik-clt]]`. Status **established**.

@@ -47,6 +47,13 @@ links: [[INDEX]], [[BAUHERREN-FAQ]], [[greenpv-fassade-pv-begruenung-hslu]], [[r
 - Bemessungsdetail (Mulden-/Rigolengrösse je l/s, k-Wert-Klassen) — AWEL-Regenwasserrechner/VSA.
 - Retentions-/Gründach-Anrechnung quantifizieren; andere Kantone (SZ) abweichend.
 
+## Siehe auch: Regenwassernutzung als Brauchwasser (ergänzt Run 119, 2026-07-29)
+Anderes Thema als die Versickerungsbewilligung oben: die **Nutzung** von Regenwasser für
+WC-Spülung, Waschmaschine und Garten als Trinkwasserersatz ist nach SVGW-Merkblatt TPW 2001/1
+zulässig, sofern Regenwasser- und Trinkwassernetz strikt getrennt und gekennzeichnet sind und
+die Anlage dem Wasserwerk gemeldet wird → `[[regenwassernutzung-brauchwasser-trinkwasserersatz-ch]]`,
+FAQ F186.
+
 **Status-Hebung 2026-07-25 (Run 88):** auf `established` gehoben — Kernaussagen (Bewilligungs-
 schwellen, Metallflächen-Adsorberpflicht, Filterschichttiefe) stammen direkt aus dem amtlichen
 AWEL-Gesuchsformular und sind mit zwei Fachnormen (VSA-Richtlinie, SN 592 000) hinterlegt; die

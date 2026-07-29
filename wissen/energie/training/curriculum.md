@@ -1940,3 +1940,61 @@ zutrifft** — alle sechs Agenten fanden echten Mehrwert trotz vertiefender stat
    als sauberster Weg zur endgültigen Bestätigung des Negativbefunds vormerken.
 6. SWKI-Vernehmlassungs-PDF zu VA106-01 (im Vortrag referenziert, dreifach mit HTTP 404
    fehlgeschlagen) — evtl. über eine andere URL-Struktur oder Anfrage beim SWKI direkt.
+
+## D90 (Run 119, 2026-07-29) — sieben parallele Web-Rechercheagenten, PL-04 erneut leer, PL-02-Zugangsblockade neu entdeckt
+
+PDF-Inventar PL-04 erneut vollständig geprüft (122 PDF, keine `mtime` nach 2026-07-01) — weiterhin
+erschöpft seit Run 65. Der heute vom Normen-Loop gemeldete Cross-KB-Fund (134 PDF in
+`PL - 02_Recht_Norm/06_Richtlinien/Minergie` + `04_Merkblätter/eco`) liess sich in dieser Session
+NICHT öffnen: alle drei Stichproben scheiterten mit `EDEADLK`/„Resource deadlock avoided" (Read-
+Tool, Python, pdftotext, sogar `open -a Preview`), während PL-04-Dateien im selben OneDrive-Mount
+einwandfrei lesbar sind — die Blockade ist pfadspezifisch auf `PL - 02_Recht_Norm` beschränkt.
+Kein M365-MCP-Tool (`m365_*`) in dieser Session geladen. Empfehlung an Raphael: OneDrive-Sync-
+Status dieser Bibliothek prüfen oder m365-mcp-server für einen künftigen Lauf sicherstellen.
+
+Drei Carryover-Prioritäten aus Run 118 (Rabtherm-JAZ, SWKI-VA106-01, Freienbach) plus vier neue,
+per grep bestätigte Themenlücken (Regenwassernutzung als Brauchwasser, Eisspeicher-Wärmepumpe,
+Seewasser-Wärmenutzung/Aquathermie, graue Energie Holzbau-vs-Massivbau) an sieben `general-
+purpose`-Agenten vergeben, jeder mit genau einer neuen Destillat-Datei (Kollisionsschutz);
+Registerkonsolidierung im Hauptmodell.
+
+- **D90a Rabtherm-Abwasserwärme.** Alle vier Original-Referenzblätter zu den drei Zielprojekten
+  vollständig gelesen — keines nennt JAZ/COP (dritter Negativbefund), aber die EnergieSchweiz-
+  Broschüre liefert zwei andere reale Anlagen (Zwingen JAZ 4,4, Basel-Allschwil «gegen 7») →
+  Band jetzt 4,0-7,0 über fünf Anlagen → `[[rabtherm-abwasserwaerme-jaz-projekte]]`.
+- **D90b SWKI VA106-01.** Wayback-CDX-Vollsuche bestätigt vierten Negativbefund abschliessend;
+  Nebenfund neue SWKI-Shop-Struktur + Inhaltsverzeichnis SWKI 2004-1 → `[[swki-va106-vernehmlassung-zugangsversuch]]`.
+- **D90c Energierichtplan Freienbach.** Original (econcept 2013) nicht auffindbar, aber aktuelle
+  Ersatzquelle (Energieträgerkarte Abicht Zug AG, 2025, vollständig gelesen) liefert kein
+  Anschlusszwang, Erdsonden-Tiefenrichtwert ~180 m, Gemeinde-Kontakt für Direktanfrage →
+  `[[energierichtplan-freienbach-econcept]]`, FAQ F185.
+- **D90d Regenwassernutzung als Brauchwasser.** SVGW-Merkblatt TPW 2001/1 im Volltext:
+  Netztrennung/Kennzeichnung/Meldepflicht established, Kosten/Einsparung nur speculative →
+  `[[regenwassernutzung-brauchwasser-trinkwasserersatz-ch]]`, FAQ F186, klar abgegrenzt von
+  `regenwasserbewirtschaftung-versickerung-zh`.
+- **D90e Eisspeicher-Wärmepumpe.** Reifer, teurer Ersatz für die Erdsonde in Schutzzonen; Kosten
+  Faktor 1-2, JAZ 2,0-6 je nach Auslegung; kantonale Bewilligungspraxis offen →
+  `[[eisspeicher-waermepumpe-latentwaermespeicher]]`, FAQ F187.
+- **D90f Seewasser-Wärmenutzung/Aquathermie.** Konzessionspflicht amtlich belegt (AWEL-
+  Planungshilfe 2025, AKV-Richtlinie Vierwaldstättersee), reale Grossprojekte (ewz Zürichsee,
+  Circulago Zugersee), kein amtlicher COP/JAZ-Wert → `[[seewasser-waermenutzung-aquathermie-zh-sz]]`,
+  FAQ F188, komplett neues Themenfeld.
+- **D90g Graue Energie Holzbau vs. Massivbau.** 35 reale CH-Objektpaare (Wüest Partner/Lignum,
+  Branchenauftrag gekennzeichnet) + unabhängiges Korrektiv treeze/ZZ-Wancor: Holzbau 20-40 %
+  tiefer, Median 7,5 vs. 9,8 kg CO₂-eq/m² EBF·a, grösster Hebel Dach/Tragstruktur, nicht
+  Aussenwand → `[[graue-energie-holzbau-vs-massivbau-vergleich-ch]]`, FAQ F189, established.
+- **Verdichtung:** `wiki/heizleistung-und-waermeerzeuger.md`, `wiki/
+  regenwasserbewirtschaftung-versickerung-zh.md`, `wiki/graue-energie.md` erweitert. Kein neuer
+  Wiki-Artikel (Seewasser als Kandidat für den nächsten Lauf vorgemerkt).
+
+FAQ-Stand: **189 Kernfragen (F1-F189)**. Destillate-Stand: **205** (sieben neue). Achte
+Bestätigung in Folge (Run 111-119), dass die Sättigungsdiagnose nicht zutrifft.
+
+### Prioritaet naechster Lauf (aus Run 119)
+1. Die fünf gebündelten Kaufentscheide warten jetzt **21 Runs in Folge** auf eine Entscheidung
+   Raphaels — unverändert dringende Empfehlung: als kurze Bündel-Frage entscheiden.
+2. **PL-02-Zugangsblockade klären** (OneDrive `EDEADLK` auf `PL - 02_Recht_Norm`, 134 PDF
+   Minergie/eco-bau dahinter) — höchste Priorität, siehe `wiki/QUESTIONS.md` Run-119-Eintrag.
+3. Meta-Punkt M2 (eigenständiger Skill "energie"?) seit Run 45 spruchreif, weiterhin unentschieden.
+4. Neuer Wiki-Artikel „Seewasser-/Umweltwärme aus Gewässern" (Kandidat, siehe Verdichtung oben).
+5. SIA-2068-Direktanfrage beim SIA weiterhin offen.

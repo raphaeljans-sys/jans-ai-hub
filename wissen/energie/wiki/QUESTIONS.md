@@ -2551,3 +2551,64 @@ Bestätigung in Folge (Run 111-118), dass die Sättigungsdiagnose nicht zutrifft
    sauberster Weg zur endgültigen Bestätigung vormerken.
 6. SWKI-Vernehmlassungs-PDF zu VA106-01 (dreifach HTTP 404) — andere URL-Struktur oder Direktanfrage
    beim SWKI versuchen.
+
+## Run 119 (2026-07-29) — Intensiv-Lauf auf Auftrag Raphaels, PL-04 erneut leer + PL-02-Zugangsblockade, sieben parallele Web-Rechercheagenten
+
+**PDF-Inventar:** PL-04 Energie erneut geprüft (lokal via OneDrive-Mount) — 122 PDF gesamt,
+keine Datei mit `mtime` nach 2026-07-01, Inventar bleibt seit Run 65 vollständig abgearbeitet.
+**Neuer Befund:** der heute (29.07.2026) von Normen-Run 36 gemeldete Cross-KB-Fund (134 PDF in
+`PL - 02_Recht_Norm/06_Richtlinien/Minergie/` [79] und `04_Merkblätter/eco/` [55]) konnte in
+dieser Session **nicht geöffnet werden** — jede getestete Datei (3 Stichproben) lieferte
+konsistent `EDEADLK`/„Resource deadlock avoided" beim Lesezugriff (Read-Tool, Python,
+`pdftotext`, sogar `open -a Preview` scheiterte mit Exit 1). PL-04-Dateien im selben
+OneDrive-Mount lesen sich einwandfrei — die Blockade ist spezifisch auf den Pfad
+`PL - 02_Recht_Norm` beschränkt, nicht auf einzelne Dateien. Kein M365-MCP-Tool (`m365_*`) in
+dieser Session geladen, daher kein Fallback über den Graph-Connector möglich. **Empfehlung an
+Raphael:** OneDrive-Sync-Status der Bibliothek für `PL - 02_Recht_Norm` prüfen (evtl.
+Re-Autorisierung/Scope-Ausschluss dieser Unterordner), oder m365-mcp-server für einen künftigen
+Lauf sicherstellen. Bis dahin bleibt der Web-Pfad (seit Run 65 etabliert) die einzige
+funktionierende TRANSFER-Quelle.
+
+Sieben `general-purpose`-Rechercheagenten parallel eingesetzt: drei auf Carryover-Prioritäten aus
+Run 118 (Rabtherm-JAZ, SWKI-VA106-01-Alternativzugang, Energierichtplan Freienbach), vier auf neu
+identifizierte, per `grep` gegen `destillate/`+`wiki/` bestätigte echte Lücken (Regenwassernutzung
+als Brauchwasser, Eisspeicher-Wärmepumpe, Seewasser-Wärmenutzung/Aquathermie, graue Energie
+Holzbau-vs-Massivbau-Synthese). Jeder Agent ausschliesslich mit einer eigenen neuen Datei
+(Kollisionsschutz); Registerkonsolidierung im Hauptmodell.
+
+**Ergebnisse:** `[[rabtherm-abwasserwaerme-jaz-projekte]]` (JAZ-Band 4,0-7,0 über 5 reale Anlagen
+erweitert, Zielprojekte selbst weiter ohne JAZ) · `[[swki-va106-vernehmlassung-zugangsversuch]]`
+(vierter Negativbefund, jetzt per Wayback-CDX abgesichert) · `[[energierichtplan-freienbach-econcept]]`
+(Original Negativbefund, aktuelle Ersatzquelle 2025 gefunden und vollständig ausgewertet) ·
+`[[regenwassernutzung-brauchwasser-trinkwasserersatz-ch]]` (established Normteil, FAQ F186, neu) ·
+`[[eisspeicher-waermepumpe-latentwaermespeicher]]` (FAQ F187, neu) ·
+`[[seewasser-waermenutzung-aquathermie-zh-sz]]` (FAQ F188, neu, komplett neues Themenfeld) ·
+`[[graue-energie-holzbau-vs-massivbau-vergleich-ch]]` (established, FAQ F189, neu).
+
+**Verifikationsstufe (Protokoll):** Zwei Status-Hebungen auf established (Regenwassernutzung-
+Normteil, Graue-Energie-Synthese) — beide durch primärquellenbelegte Herkunft (SVGW-Merkblatt im
+Volltext gelesen bzw. vier konvergierende CH-Quellen inkl. unabhängigem Korrektiv treeze/
+ZZ-Wancor gegen den Lignum-Branchenauftrag) plausibilisiert, keine Beanstandung durch das
+Hauptmodell.
+
+**Verdichtung:** `wiki/heizleistung-und-waermeerzeuger.md` (Eisspeicher-Abschnitt), `wiki/
+regenwasserbewirtschaftung-versickerung-zh.md` (Siehe-auch Regenwassernutzung), `wiki/
+graue-energie.md` (Gesamtgebäude-Synthese Holzbau/Massivbau) erweitert. Kein neuer Wiki-Artikel
+für Seewasser/Aquathermie angelegt (Budget-bewusste Verdichtung, analog Run 117/118) — als
+Kandidat für einen künftigen Lauf vorgemerkt (Vorschlag: eigenständiger Artikel „Umweltwärme aus
+Gewässern", verdichtet aus `seewasser-waermenutzung-aquathermie-zh-sz` +
+`abwasserwaermenutzung-kanalisation-zh-sz` + `abwasserwaerme-bewilligung-sz-vertiefung`).
+
+FAQ-Stand: **189 Kernfragen (F1-F189)**. Destillate-Stand: **205** (sieben neue). Wiki-
+Themenartikel: **29** (unverändert, drei erweitert). Achte Bestätigung in Folge (Run 111-119),
+dass die Sättigungsdiagnose für neue Themenfelder nicht zutrifft.
+
+**Offen / Priorität nächster Lauf:**
+1. Die fünf gebündelten Kaufentscheide warten jetzt **21 Runs in Folge** auf eine Entscheidung
+   Raphaels (B1-Konsolidierung, SWKI VA105-01, SIA 385/1, SIA 385/2, SIA 384.354).
+2. **PL-02-Zugangsblockade klären** (siehe oben) — höchste Priorität, 134 potenziell relevante
+   PDF (Minergie-Familie + eco-bau-Merkblätter) liegen dahinter.
+3. Meta-Punkt M2 (eigenständiger Skill "energie"?) seit Run 45 spruchreif, weiterhin unentschieden.
+4. Neuer Wiki-Artikel „Seewasser-/Umweltwärme aus Gewässern" (siehe Verdichtung oben) — Kandidat
+   für den nächsten Lauf.
+5. SIA-2068-Direktanfrage beim SIA weiterhin als sauberster Weg zur endgültigen Bestätigung offen.

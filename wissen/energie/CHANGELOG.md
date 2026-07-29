@@ -2,6 +2,28 @@
 
 Neueste zuoberst.
 
+## 2026-07-29 — Run 119 (Intensiv-Lauf, sieben parallele Web-Rechercheagenten)
+- **[zugang, Befund] PL-02-Zugangsblockade entdeckt.** Der heute vom Normen-Loop gemeldete
+  Cross-KB-Fund (134 PDF Minergie/eco-bau in `PL - 02_Recht_Norm`) liess sich nicht öffnen —
+  alle Stichproben scheitern mit `EDEADLK`/„Resource deadlock avoided" (Read-Tool, Python,
+  pdftotext, `open -a Preview`), obwohl PL-04-Dateien im selben OneDrive-Mount einwandfrei
+  lesbar sind. Kein M365-MCP-Tool geladen, daher kein Graph-Fallback. Empfehlung an Raphael:
+  OneDrive-Sync-Status der Bibliothek prüfen. PL-04 selbst erneut vollständig geprüft, weiterhin
+  seit Run 65 erschöpft.
+- **[destillate, sieben neu]** `rabtherm-abwasserwaerme-jaz-projekte` (JAZ-Band 4,0-7,0 über
+  fünf reale Anlagen, Zielprojekte selbst weiter ohne JAZ) · `swki-va106-vernehmlassung-zugangsversuch`
+  (vierter Negativbefund, CDX-abgesichert) · `energierichtplan-freienbach-econcept` (Original
+  nicht auffindbar, aktuelle Ersatzquelle 2025 ausgewertet, FAQ F185) ·
+  `regenwassernutzung-brauchwasser-trinkwasserersatz-ch` (established Normteil, FAQ F186) ·
+  `eisspeicher-waermepumpe-latentwaermespeicher` (FAQ F187) ·
+  `seewasser-waermenutzung-aquathermie-zh-sz` (FAQ F188, neues Themenfeld) ·
+  `graue-energie-holzbau-vs-massivbau-vergleich-ch` (established, FAQ F189).
+- **[verdichtung]** `wiki/heizleistung-und-waermeerzeuger.md`, `wiki/regenwasserbewirtschaftung-versickerung-zh.md`,
+  `wiki/graue-energie.md` erweitert. Kein neuer Wiki-Artikel (Seewasser als Kandidat vorgemerkt).
+- Geändert: `destillate/INDEX.md`, `wiki/BAUHERREN-FAQ.md`, `wiki/INDEX.md`, `wiki/QUESTIONS.md`,
+  `training/curriculum.md` (D90), `raw/_INGESTED.md`, drei Wiki-Artikel (siehe oben).
+- FAQ-Stand: 189 (F1-F189). Destillate-Stand: 205 (sieben neue). Report: `outputs/2026-07-29_energie-run119.md`.
+
 ## 2026-07-29 (Cross-KB normen → energie, Normen-Run 36) — zwei Bestaende zugewiesen, drei Bring-Schulden abschliessend belegt
 - **[zugang] 134 nie erfasste PDFs in PL-02 gehoeren dieser KB:** `06_Richtlinien/Minergie` (79)
   und `04_Merkblätter/eco` (55). Sie sind keine Normen und wurden darum bewusst NICHT ins

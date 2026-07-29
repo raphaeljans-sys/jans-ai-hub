@@ -177,3 +177,13 @@ Nutzungsvereinbarung. Für jeden Neubau relevant ist die kleine Variante, die **
 amtlicher JAZ-/COP-Vergleichswert Abwasser gegenüber Erdsonde/Aussenluft wurde **nicht** gefunden
 (offener Punkt) → `[[abwasserwaermenutzung-kanalisation-zh-sz]]`, Themenartikel
 `[[abwaermenutzung-gebaeude]]`, FAQ F169.
+
+## Eisspeicher als Alternative zur Erdsonde (ergänzt Run 119, 2026-07-29)
+Wo eine Erdsondenbohrung aus Gewässerschutzgründen (Grundwasserschutzzone, Quellschutzgebiet)
+nicht bewilligt wird oder kein Bohrplatz besteht, kann ein **Eisspeicher** (unterirdische,
+geschlossene Wasserzisterne, nutzt die Kristallisationswärme beim Gefrieren als Wärmequelle für
+eine Sole-Wasser-WP) die Lücke schliessen. Reifer, aber teurer Nischen-Ersatz: Kosten Faktor 1-2
+gegenüber der Erdsonde (reale CH-Beispiele 75'000 CHF EFH bis 420'000 CHF MFH-Pilotprojekt), JAZ
+2,0 (Fehlauslegung) bis 6 (CH-Pilotprojekt, Rapperswil-Jona). ⚠ Kantonale Bewilligungspraxis
+ZH/SZ-Grundwasserschutzzone nicht gefunden (offener Punkt) → `[[eisspeicher-waermepumpe-latentwaermespeicher]]`,
+FAQ F187.

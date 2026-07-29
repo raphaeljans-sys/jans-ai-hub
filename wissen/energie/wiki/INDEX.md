@@ -349,3 +349,25 @@ um Abschnitt "Run 118" erweitert. Kein neuer Wiki-Themenartikel (Budget-bewusste
 Siebte Bestätigung in Folge (Run 111-118), dass die Sättigungsdiagnose nicht zutrifft.
 Destillate-Stand: **198** (sechs neue). FAQ-Stand: **183**. Wiki-Themenartikel: **29**
 (unverändert).
+
+## Run 119 (2026-07-29)
+
+Sieben parallele Rechercheagenten: drei auf Carryover-Prioritäten aus Run 118 (Rabtherm-JAZ,
+SWKI-VA106-01-Alternativzugang, Energierichtplan Freienbach), vier auf neu identifizierte,
+per grep bestätigte Lücken (Regenwassernutzung als Brauchwasser, Eisspeicher-Wärmepumpe,
+Seewasser-Wärmenutzung/Aquathermie, graue Energie Holzbau-vs-Massivbau). **PDF-Inventar PL-04**
+erneut vollständig geprüft, weiterhin erschöpft seit Run 65. **Neuer Befund:** der heute von
+Normen-Run 36 gemeldete PL-02-Cross-KB-Fund (134 PDF Minergie/eco-bau) liess sich wegen einer
+OneDrive-Zugriffsblockade (`EDEADLK` auf allen Stichproben) nicht öffnen — dokumentiert in
+`wiki/QUESTIONS.md`, höchste Priorität für den nächsten Lauf. `[[rabtherm-abwasserwaerme-jaz-projekte]]`
+erweitert die JAZ-Bandbreite auf 4,0-7,0 über fünf reale Anlagen. `[[swki-va106-vernehmlassung-zugangsversuch]]`
+bestätigt einen vierten Negativbefund. `[[energierichtplan-freienbach-econcept]]`: Original nicht
+auffindbar, aber aktuelle Ersatzquelle (Energieträgerkarte 2025) vollständig ausgewertet.
+`[[regenwassernutzung-brauchwasser-trinkwasserersatz-ch]]` (established Normteil, FAQ F186),
+`[[eisspeicher-waermepumpe-latentwaermespeicher]]` (FAQ F187), `[[seewasser-waermenutzung-aquathermie-zh-sz]]`
+(FAQ F188, neues Themenfeld), `[[graue-energie-holzbau-vs-massivbau-vergleich-ch]]` (established,
+FAQ F189). Drei bestehende Wiki-Artikel erweitert (`heizleistung-und-waermeerzeuger`,
+`regenwasserbewirtschaftung-versickerung-zh`, `graue-energie`); kein neuer Wiki-Themenartikel
+(Budget-bewusste Verdichtung, Seewasser als Kandidat vorgemerkt). Achte Bestätigung in Folge
+(Run 111-119), dass die Sättigungsdiagnose nicht zutrifft. Destillate-Stand: **205** (sieben
+neue). FAQ-Stand: **189**. Wiki-Themenartikel: **29** (unverändert, drei erweitert).
