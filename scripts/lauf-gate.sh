@@ -144,9 +144,39 @@ if [ "$FREI" -lt "$MIN_FREI_MB" ]; then
     exit 1
 fi
 
-if [ "$DRUCK" -ge 2 ]; then
-    log "ABGEWIESEN $NAME — Speicherdruck $DRUCK (2=warnend, 4=kritisch), ${FREI} MB verfuegbar."
+# --- Speicherdruck ------------------------------------------------------------
+# Bis 29.07.2026 vetoisierte hier JEDER Druck >= 2. Auf dem MacBook Pro ist
+# Stufe 2 ("warnend") aber der Normalzustand einer warmgelaufenen
+# Arbeitsstation, nicht ein Ausnahmefall: am 29.07. standen zwoelf von vierzehn
+# Waechter-Messungen auf 2, bei durchgehend reichlich Speicher (45 Messpunkte,
+# min 3361 MB, max 4212 MB, Mittel 3651 MB gegen einen Mindestwert von 3000).
+# Folge war ein Dauerveto von 02:17 bis 13:00 — jede Probe abgewiesen, kein
+# einziger Freigabepfad. Umgestellt auf Freigabe Raphael 29.07.2026 nach dem
+# Radar-Befund vom selben Tag (Eintraege 07:10 und 12:57).
+#
+# NEU: Veto erst bei Druck 4 (kritisch). Bei Druck 2/3 bleibt die
+# Mengenschwelle unveraendert, aber der Lauf-Deckel sinkt um eins — unter Druck
+# laeuft hoechstens EIN Lauf statt zwei (Mini: zwei statt drei). Der Schutz
+# gegen eine wirklich swappende Maschine bleibt damit erhalten, ohne dass der
+# Normalzustand das Tor zusperrt.
+#
+# VERWORFEN wurde die zuerst vorgeschlagene Variante "bei Druck 2 den doppelten
+# Mindestwert verlangen": nachgemessen haette sie auf dem MacBook eine Schwelle
+# von 6000 MB gegen real maximal 4212 MB bedeutet — an keinem der 45 Messpunkte
+# des 29.07. erreicht. Sie haette das Dauerveto nur anders begruendet, statt es
+# zu beheben. Die Messung stand vor der Umsetzung, nicht danach.
+if [ "$DRUCK" -ge 4 ]; then
+    log "ABGEWIESEN $NAME — Speicherdruck $DRUCK (kritisch), ${FREI} MB verfuegbar."
     exit 1
+fi
+
+if [ "$DRUCK" -ge 2 ]; then
+    DECKEL_DRUCK=$(( MAX_LAEUFE - 1 ))
+    [ "$DECKEL_DRUCK" -lt 1 ] && DECKEL_DRUCK=1
+    if [ "$AKTIV" -ge "$DECKEL_DRUCK" ]; then
+        log "ABGEWIESEN $NAME — Speicherdruck $DRUCK (warnend): unter Druck hoechstens ${DECKEL_DRUCK} Lauf/Laeufe gleichzeitig, ${AKTIV} aktiv, ${FREI} MB verfuegbar."
+        exit 1
+    fi
 fi
 
 # Freigabe wird nur protokolliert, wenn es eng war — sonst laeuft das Log zu.

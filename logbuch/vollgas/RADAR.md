@@ -29,19 +29,50 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
-## 2026-07-29 21:57 — [FREI] Die Station, die die ganze Lern-Last traegt, laeuft auf der aeltesten Software: der CLI-Autoupdate ueberspringt den Mac Mini seit Tagen still, weil er nur nach einer brew-Installation sucht, waehrend dort eine npm-Installation liegt. 2.1.207 gegen 2.1.212
+## 2026-07-29 22:15 — [FREI] Nachtrag zum Runner-Ausbau: drei Scripts beschrieben sich weiter als in Betrieb, und eine eingefrorene Statusseite refreshte sich alle 15 Sekunden wie ein laufender Dienst
+
+Interaktiv ausgeloest durch Raphael («mache deine Empfehlungen»), kein Takt-Lauf. Fensterzustand
+unveraendert FREI, keine neue Probe. Der 3-h-Takt hat heute vollstaendig gefeuert (01:00, 03:00,
+07:10, 09:57, 12:57, 15:57, 18:57, 21:57) — kein verpasster Lauf, die 13:30-Probe ist im
+15:57-Eintrag ausgewertet.
+
+**Die Massnahme war unvollstaendig, obwohl sie als vollzogen dokumentiert war.** Der Ausbau um
+03:00 hat launchd, die STOP-Dateien und die beiden Aufsichts-Tasks nachgezogen — aber nicht die
+Scripts selbst. `vollgas-runner.sh` trug im Kopf weiter die Startanleitung
+(`nohup bash … vollgas-runner.sh &`), `vollgas-supervisor.sh` beschrieb sich als aktiven
+Keepalive-Waechter, `vollgas-monitor-build.sh` als 15-Sekunden-Job. Wer eines dieser Scripts
+oeffnet und dem Kopf folgt, startet einen Mechanismus, der abgeschaltet gehoert — dieselbe
+Fallenklasse wie die alten Entfernungs-Bedingungen in den STOP-Dateien, nur eine Ebene tiefer.
+Alle drei tragen jetzt einen Stilllegungs-Banner ganz oben, mit Grund, Ersatz
+(getaktete Tasks + Mini-Nachtschicht) und dem Weg zur Wiederbelebung.
+
+**Dazu eine Statusseite, die aktiver aussah als der Dienst, den sie zeigte.**
+`logbuch/vollgas/monitor.html` war seit 02:47 eingefroren, trug aber einen 15-Sekunden-Autorefresh
+und die Ueberschrift des «Vollgas-Herzschlags» — ein Stand von 20 Stunden, praesentiert als
+Livebild, gespeist aus Logs, die nie wieder frisch werden. Entfernt (reines Erzeugnis, gitignored,
+jederzeit neu baubar). Wer den Hub-Zustand sehen will: RADAR.md und FRUEHWARNUNG.md.
+
+**Entscheid 1B — meine Empfehlung nach der Messung: NICHT entfernen.** Der ArchiCAD-MCP bleibt in
+der Claude-Desktop-Config. Begruendung ist die Messung selbst: das Beenden der beiden Prozesse gab
+**338 MB** frei, nicht die 2,8 GB, die ihr `top`-Footprint versprach. Fuer diesen Betrag lohnt es
+nicht, die ArchiCAD-Anbindung bei jedem Bedarf von Hand ein- und auszutragen — und ein echter
+Speichermangel wird jetzt zuverlaessig erkannt (Lauf-Gate und Speicher-Waechter messen beide ueber
+`vm_stat` plus Druck-Kriterium). Damit ist der letzte offene Punkt der 03:00-Liste geschlossen;
+offen bleibt nichts, was Raphael entscheiden muesste.
+
+## 2026-07-29 21:57 — [FREI] Die Station, die die ganze Lern-Last trägt, läuft auf der ältesten Software: der CLI-Autoupdate überspringt den Mac Mini seit Tagen still, weil er nur nach einer brew-Installation sucht, während dort eine npm-Installation liegt. 2.1.207 gegen 2.1.212
 
 **Selbstkontrolle:** letzter Eintrag 18:57, dieser Lauf 21:57. 3,0 h bei 3-h-Takt, kein
-verpasster Lauf. Naechster Lauf 00:57.
+verpasster Lauf. Nächster Lauf 00:57.
 
 **Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung antwortet «OK» (rc 0). Kein
 Login-Blocker, kein Wochenlimit, kein Mail-Anlass. Endlos-Runner bleibt ausgebaut:
 `launchctl list | grep vollgas` auf beiden Stationen leer, beide plists auf
-`.disabled-260729`. Die Nachtschicht traegt weiterhin genau vier Slots (23/2/5/13, Minute 30),
+`.disabled-260729`. Die Nachtschicht trägt weiterhin genau vier Slots (23/2/5/13, Minute 30),
 daneben feuert auf dem Mini `ch.jans.training-energie` einmalig um 22:30. Kein Mechanismus
 feuert doppelt, keiner feuert, der stillgelegt sein sollte.
 
-**P1 — der Mac Mini haengt fuenf CLI-Versionen hinter dem MacBook zurueck, und der Job, der
+**P1 — der Mac Mini hängt fünf CLI-Versionen hinter dem MacBook zurück, und der Job, der
 genau das verhindern soll, meldet jeden Morgen einen erfolgreich aussehenden Lauf, ohne etwas
 zu tun.**
 
@@ -49,39 +80,39 @@ Gemessen:
 
 | Station | CLI-Version | Installationsart | brew-Cask erkannt |
 |---|---|---|---|
-| MacBook Pro | 2.1.212 | Homebrew-Cask | ja, wird taeglich aktualisiert |
+| MacBook Pro | 2.1.212 | Homebrew-Cask | ja, wird täglich aktualisiert |
 | Mac Mini | **2.1.207** | npm-global (`/opt/homebrew/bin/claude` → `lib/node_modules/@anthropic-ai/claude-code`) | **nein** |
 
 `scripts/claude-autoupdate.sh` entscheidet in Zeile 82 ueber
-`brew list --cask claude-code`. Auf dem Mini schlaegt diese Pruefung fehl, weil dort kein Cask
+`brew list --cask claude-code`. Auf dem Mini schlägt diese Prüfung fehl, weil dort kein Cask
 liegt, und der Lauf protokolliert: «CLI: keine bekannte Installation gefunden —
 uebersprungen» (Log `logs/claude-autoupdate/mac-mini.log`, 29.07. 05:15:03). Der Eintrag steht
 zwischen «Lauf gestartet» und «Lauf beendet», also im Rahmen eines fehlerfreien Laufs. Wer
-den Job an rc oder an der Existenz von Logzeilen messen wuerde, saehe eine gesunde Automatik.
+den Job an rc oder an der Existenz von Logzeilen messen würde, sähe eine gesunde Automatik.
 
 Das wiegt schwer, weil es die **falsche** Station trifft. Seit dem Ausbau des Endlos-Runners
-heute frueh ist die Mini-Nachtschicht der einzige Lern-Taktgeber des Hub. Die Station, die
-saemtliche Lern-Arbeit ausfuehrt, laeuft damit auf dem Werkzeug, das kein Mechanismus pflegt,
-waehrend die Arbeitsstation, die nachts nichts leistet, taeglich aktualisiert wird. Der
-Rueckstand ist heute harmlos (fuenf Patch-Versionen, alle Laeufe rc 0); die Mechanik dahinter
+heute früh ist die Mini-Nachtschicht der einzige Lern-Taktgeber des Hub. Die Station, die
+sämtliche Lern-Arbeit ausführt, läuft damit auf dem Werkzeug, das kein Mechanismus pflegt,
+während die Arbeitsstation, die nachts nichts leistet, täglich aktualisiert wird. Der
+Rückstand ist heute harmlos (fünf Patch-Versionen, alle Läufe rc 0); die Mechanik dahinter
 ist es nicht.
 
 **Keine Massnahme in diesem Lauf, mit Absicht.** Der Fix ist eindeutig (npm-Installationen in
 `claude-autoupdate.sh` erkennen und via `npm i -g @anthropic-ai/claude-code` nachziehen), aber
-er beruehrt das Binary, von dem jeder automatische Lauf beider Stationen abhaengt, und er
+er berührt das Binary, von dem jeder automatische Lauf beider Stationen abhängt, und er
 kollidiert mit einem Timing-Problem: der Autoupdate feuert 05:15, der Nachtschicht-Slot 05:30.
-Ein Upgrade, das den Symlink kurz austauscht, wuerde den Slot 15 Minuten spaeter kosten. Beides
-gehoert in einen dedizierten Lauf mit Sichtpruefung, nicht in eine Radar-Runde. Ein Radar
-misst und meldet; er operiert nicht am Werkzeug, mit dem er selbst laeuft.
+Ein Upgrade, das den Symlink kurz austauscht, würde den Slot 15 Minuten später kosten. Beides
+gehört in einen dedizierten Lauf mit Sichtprüfung, nicht in eine Radar-Runde. Ein Radar
+misst und meldet; er operiert nicht am Werkzeug, mit dem er selbst läuft.
 
 **P2 — ein von vier Nachtschicht-Slots ist heute 47 Sekunden nach dem Start gestorben, und
 die Ursache ist nicht mehr rekonstruierbar.**
 
 `~/Library/Logs/ch.jans.nachtschicht.log` auf dem Mini: der Slot 02:30 endete 02:30:53 mit
-**Exit 2** nach drei Versuchen, das Protokoll `dispatch/log/20260729-023006-27032.md` traegt
+**Exit 2** nach drei Versuchen, das Protokoll `dispatch/log/20260729-023006-27032.md` trägt
 einen **leeren** Ergebnisblock. Das ist Null-Ertrag durch Abbruch, nicht Delta Null durch
-erschoepftes Material: der Loop war hungrig und wurde unterbrochen. Nach meinem Auftrag wird
-hier **nicht** ruecktaktet.
+erschöpftes Material: der Loop war hungrig und wurde unterbrochen. Nach meinem Auftrag wird
+hier **nicht** rücktaktet.
 
 Ein Lauf von heute hat den Vorfall bereits erkannt und die **Sichtbarkeit** geheilt:
 `dispatch-run.sh` leitet den stderr des Wrappers seit heute ins Protokoll («Belegt 29.07.2026,
@@ -90,77 +121,77 @@ unbewiesen, weil die Diagnose zum Zeitpunkt des Vorfalls verworfen wurde. Genau 
 Fix richtig: ein Wiederholungsfall wird diagnostizierbar sein.
 
 Dazu ein eigener, heute erstmals nachgemessener Befund: **`claude` ist auf KEINER der beiden
-Stationen ueber den PATH aufloesbar**, sobald die Shell nicht interaktiv ist (auf dem Mini
-scheitert `command -v claude` auch unter normalem ssh-Login). Die gesamte Automatik haengt an
+Stationen ueber den PATH auflösbar**, sobald die Shell nicht interaktiv ist (auf dem Mini
+scheitert `command -v claude` auch unter normalem ssh-Login). Die gesamte Automatik hängt an
 der Fallback-Liste in `dispatch-run.sh`, und von deren vier Kandidaten existiert auf beiden
 Stationen genau **einer**: `/opt/homebrew/bin/claude`, selbst nur ein Symlink in die
 node_modules. `~/.local/bin/claude`, `/usr/local/bin/claude` und `~/.claude/local/claude`
-fehlen ueberall. Die Exit-Signatur 2 passt exakt auf `claude-run.sh` Zeile 51
-(«claude nicht gefunden»), was die Hypothese des Vorlaufs stuetzt, ohne sie zu beweisen.
+fehlen überall. Die Exit-Signatur 2 passt exakt auf `claude-run.sh` Zeile 51
+(«claude nicht gefunden»), was die Hypothese des Vorlaufs stützt, ohne sie zu beweisen.
 
 **P2 — die Auswahlregel der Nachtschicht schickt den Slot um 23:30 voraussichtlich auf die
-fast fertige KB und laesst die mit dem groessten Rueckstand liegen.**
+fast fertige KB und lässt die mit dem grössten Rückstand liegen.**
 
-Inhaltsstand je KB mit gueltigem `training/PROGRAMM.md` (juengste Artikeldatei in `wiki/`,
-Statuskopf-Traeger wie `spec`, `immobilienbewertung`, `wettbewerbs-dna` ausgenommen):
+Inhaltsstand je KB mit gültigem `training/PROGRAMM.md` (jüngste Artikeldatei in `wiki/`,
+Statuskopf-Träger wie `spec`, `immobilienbewertung`, `wettbewerbs-dna` ausgenommen):
 
 | KB | Inhaltsstand | offene Positionen | eigener Takt |
 |---|---|---|---|
 | grobkosten | 27.07. 22:13 (**47 h**) | 5 (Rest eines Inventars mit 52 «untauglich») | nein |
 | bauprodukte | 28.07. 23:42 (22 h) | **55** (32 offen + 23 triagiert) | nein |
 | baurecht | 28.07. 23:38 (22 h) | — | ja, Mo 23:40 |
-| energie | 28.07. 23:39 (22 h) | — | ja, taeglich 22:30 |
+| energie | 28.07. 23:39 (22 h) | — | ja, täglich 22:30 |
 | planungsgrundlagen | 29.07. 02:06 (19 h) | — | nein |
-| normen | 29.07. 02:53 (19 h) | — | ja, taeglich 01:20 |
+| normen | 29.07. 02:53 (19 h) | — | ja, täglich 01:20 |
 
-Prioritaet 4 sortiert nach «am laengsten nicht trainiert» und zieht die Zahl offener
-Positionen nur bei **aehnlichem** Stand als Tiebreaker. 47 h gegen 22 h ist nicht aehnlich,
-also gewinnt `grobkosten` mit fuenf Restpositionen gegen `bauprodukte` mit 55. Die
-`bauprodukte`-PROGRAMM.md beansprucht fuer sich ausdruecklich «hoechste Prioritaet unter den
-Destillat-Korpora», weil sie nach BKP gegliedert und damit Zulieferer fuer `ausschreibung`,
+Priorität 4 sortiert nach «am längsten nicht trainiert» und zieht die Zahl offener
+Positionen nur bei **ähnlichem** Stand als Tiebreaker. 47 h gegen 22 h ist nicht ähnlich,
+also gewinnt `grobkosten` mit fünf Restpositionen gegen `bauprodukte` mit 55. Die
+`bauprodukte`-PROGRAMM.md beansprucht für sich ausdrücklich «höchste Priorität unter den
+Destillat-Korpora», weil sie nach BKP gegliedert und damit Zulieferer für `ausschreibung`,
 `offertenpruefung`, `brandschutz` und `grobkosten` ist. Zwei Ordnungen widersprechen sich:
 die Nachtschicht ordnet nach Alter, die KORPUS-QUEUE nach Hebel.
 
-Ich melde das und greife nicht ein. Der Fall ist nicht eindeutig: fuenf Restpositionen
-abzuraeumen schliesst `grobkosten` und gibt den Slot dauerhaft frei, was fuer sich ein
-guter Zug ist. Eindeutig ist nur die Groessenordnung dahinter, und die gehoert vor
+Ich melde das und greife nicht ein. Der Fall ist nicht eindeutig: fünf Restpositionen
+abzuräumen schliesst `grobkosten` und gibt den Slot dauerhaft frei, was für sich ein
+guter Zug ist. Eindeutig ist nur die Grössenordnung dahinter, und die gehört vor
 Raphael: bei einer Einheit je Lauf und drei bis vier Slots je Nacht, die sich alle KBs
-teilen, braucht `bauprodukte` fuer 55 Positionen mehrere Wochen. Wer den Korpus mit dem
-hoechsten Hebel schneller will, muss ihm Slots **zuweisen**, nicht auf die Alterssortierung
+teilen, braucht `bauprodukte` für 55 Positionen mehrere Wochen. Wer den Korpus mit dem
+höchsten Hebel schneller will, muss ihm Slots **zuweisen**, nicht auf die Alterssortierung
 hoffen.
 
-**Liefer-Delta seit dem letzten Lauf (18:57): kein Lauf faellig, kein Lauf gefeuert.**
+**Liefer-Delta seit dem letzten Lauf (18:57): kein Lauf fällig, kein Lauf gefeuert.**
 
 | Zeit | Station | Loop | Ergebnis |
 |---|---|---|---|
-| 19:00–21:57 | beide | — | **Kein Task faellig.** Das Register traegt zwischen 10:00 und 21:57 ausser dem Radar keinen Eintrag; naechster Lern-Lauf 22:30 (`training-energie`), dann 23:10 (`wissens-chef`) und 23:30 (Nachtschicht). Vorgesehene Tagesruhe, nicht Leerlauf |
+| 19:00–21:57 | beide | — | **Kein Task fällig.** Das Register trägt zwischen 10:00 und 21:57 ausser dem Radar keinen Eintrag; nächster Lern-Lauf 22:30 (`training-energie`), dann 23:10 (`wissens-chef`) und 23:30 (Nachtschicht). Vorgesehene Tagesruhe, nicht Leerlauf |
 
 Alle 16 NAS-Commits der letzten 4 h sind `station-status`-Heartbeats (je zwei Dateien, vier
-Zeilen) und der eigene Radar-Commit von 18:57. Kein inhaltliches Delta, korrekt fuer ein
-Fenster ohne faelligen Lauf.
+Zeilen) und der eigene Radar-Commit von 18:57. Kein inhaltliches Delta, korrekt für ein
+Fenster ohne fälligen Lauf.
 
 **Tagesbilanz der vier Nachtschicht-Slots (29.07.):** 02:30 verloren (Exit 2, siehe P2),
 05:30 geliefert (`firmengruendung-ch`, Kapitalband Art. 653s–653v OR am Fedlex-Volltext
-verifiziert), 13:30 geliefert (`projekt-lessons`, KISPI-Zustaendigkeitswechsel), 23:30 steht
+verifiziert), 13:30 geliefert (`projekt-lessons`, KISPI-Zuständigkeitswechsel), 23:30 steht
 noch aus. Dazu 22:30 `energie` am Vorabend. Drei von vier Slots produktiv, einer verloren.
 
-**Speicher (gemessen, nicht geschaetzt):** MacBook Pro 3,4 GB frei+inaktiv+purgeable bei
+**Speicher (gemessen, nicht geschätzt):** MacBook Pro 3,4 GB frei+inaktiv+purgeable bei
 Pressure-Level **2**, Mac Mini 11,5 GB bei Level 1. Der MacBook-Wert liegt knapp ueber der
-3-GB-Schwelle des Lauf-Gates; er traegt heute Nacht ohnehin nur `normen` (01:20),
-`twin-mail` (03:35) und `twin-fidelity` (05:40). Der Mini hat fuer seine drei Slots reichlich
+3-GB-Schwelle des Lauf-Gates; er trägt heute Nacht ohnehin nur `normen` (01:20),
+`twin-mail` (03:35) und `twin-fidelity` (05:40). Der Mini hat für seine drei Slots reichlich
 Luft.
 
 **P3 — jeder headless-Lauf schreibt zwei Berechtigungs-Warnungen vor seine eigentliche
 Ausgabe.** Die Probe dieses Laufs antwortete nicht «OK», sondern zwei Warnzeilen und dann
-«OK»: `.claude/settings.json` fuehrt `Write(//Volumes/daten/jans-ai-hub/**)` (Zeile 29) und
+«OK»: `.claude/settings.json` führt `Write(//Volumes/daten/jans-ai-hub/**)` (Zeile 29) und
 `Write(…/OneDrive-FreigegebeneBibliotheken–JANS/**)` (Zeile 32), und Pfad-Regeln in
 `Write(...)`-Form greifen nicht, nur `Edit(...)` deckt alle schreibenden Werkzeuge ab.
 Wirkungslos ist es nicht: `Edit(*)` und `Write(*)` stehen in Zeile 6/7 und decken bereits
 alles. Die Regeln sind also reine Redundanz, ihre Warnungen aber nicht harmlos, weil
-`dispatch-run.sh` die Antwort auf Inhalt und Muster prueft und jeder Lauf sein Ergebnis mit
-zwei Fremdzeilen beginnt. Fix: Zeile 29 loeschen (Zeile 28 traegt die `Edit`-Fassung schon)
+`dispatch-run.sh` die Antwort auf Inhalt und Muster prüft und jeder Lauf sein Ergebnis mit
+zwei Fremdzeilen beginnt. Fix: Zeile 29 löschen (Zeile 28 trägt die `Edit`-Fassung schon)
 und Zeile 32 auf `Edit(...)` umstellen. Ich fasse eine Berechtigungsdatei in einer
-Radar-Runde nicht an; das gehoert in denselben dedizierten Lauf wie P1.
+Radar-Runde nicht an; das gehört in denselben dedizierten Lauf wie P1.
 
 ---
 ## 2026-07-29 18:57 — [FREI] Ein ruhiges Fenster, und genau darum der Blick auf die Stellen, die sonst niemand liest: die Registry-Beschreibung des einzigen produktiven Lern-Loops beschreibt seit heute früh eine Welt von vorgestern. Vierter Fund desselben Typs an einem Tag

@@ -1,5 +1,28 @@
 #!/bin/bash
 # ============================================================================
+# +++ AUSGEBAUT AM 29.07.2026 (Entscheid Raphael) — NICHT MEHR STARTEN +++
+# ============================================================================
+# Dieses Script ist Dokumentation, kein Betriebsmittel. Der VOLLGAS-Endlos-Runner
+# wurde auf BEIDEN Stationen stillgelegt: ch.jans.vollgas-supervisor (beide) und
+# ch.jans.vollgas-monitor (MacBook) sind per launchctl bootout entladen, die plists
+# nach *.disabled-260729 umbenannt. Es existiert kein Waechter mehr, der den Runner
+# hochziehen koennte; die STOP-Dateien in logbuch/vollgas/ sind gegenstandslos.
+#
+# GRUND: Der Runner war ein zweiter, UNGETAKTETER Feuermechanismus neben den
+# Scheduled Tasks. Er unterlief deren bewusst gewaehlte Takte, verbrauchte am
+# 25.07.2026 53 Mio teure Tokens und fuehrte in den 35-Stunden-Totalausfall vom
+# 26./27.07. Seit dem 27.07. hatte er ohnehin keine Aufgabe mehr (alle Lern-Loops
+# haben einen eigenen Task und stehen in EXCLUDE_RE).
+#
+# STATTDESSEN: getaktete Scheduled Tasks + Mac-Mini-Nachtschicht
+# (ch.jans.nachtschicht — 23:30/02:30/05:30 plus Versuchs-Slot 13:30).
+#
+# Die Anleitungen unten beschreiben den FRUEHEREN Betrieb. Wer sie befolgt, startet
+# einen Mechanismus, den Raphael abgeschaltet hat. Wiederbelebung nur auf seinen
+# ausdruecklichen Entscheid — und vorher klaeren, welche Aufgabe der Runner haben
+# soll, die nicht schon ein getakteter Task erledigt.
+# ============================================================================
+#
 # JANS AI Hub — VOLLGAS-Runner (Endlos-Loop aller Lern-/Trainings-Loops)
 # ============================================================================
 # Auftrag Raphael 12.07.2026: alle wiederkehrenden Lern-Arbeiten laufen in

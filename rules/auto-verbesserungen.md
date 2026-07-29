@@ -16,6 +16,27 @@ Automatik arbeitet (Runner, Gate, Waechter, Takte, launchd), liest die Chronik z
 Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0,
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`).
 
+## 260729b — Entscheidungsvorlagen und Agenten-Befunde gegenpruefen, bevor sie wirken
+- **Regel:** (1) **Vorlage gegen den JUENGSTEN Stand pruefen, nicht gegen den zuletzt selbst
+  gelesenen.** Bevor Raphael ein Entscheid vorgelegt wird, ist die Faktenbasis am aktuellsten
+  Lauf-/Dateistand zu verifizieren — nicht am Stand, den die eigene Session zu Beginn gelesen
+  hat. Belegt am 29.07.2026: die Lignum-Taktungsfrage wurde mit dem Stand von Run 35 vorgelegt,
+  obwohl Run 36 diesen wenige Stunden zuvor entkraeftet hatte; Raphael entschied auf falscher
+  Grundlage und musste nach der Korrektur anders entscheiden. Gilt fuer jede
+  `AskUserQuestion`-Vorlage, jedes Briefing und jede Empfehlung. (2) **Agenten-Befunde, die eine
+  Quelldatei als defekt, fremdbestueckt oder unvollstaendig melden, NIE ohne eigene Gegenpruefung
+  am Original uebernehmen** — sie fuehren zu Datei-Eingriffen und sind zugleich der
+  wahrscheinlichste Ort fuer ein Werkzeug-Artefakt. Belegt am 29.07.2026: ein Agent meldete eine
+  Norm-PDF als fehlerhaft zusammengesetzt; die Gegenpruefung am Original widerlegte das
+  vollstaendig. (3) **Beim Rendern immer ein eindeutiges, aufgabenspezifisches Datei-Praefix**
+  (`/tmp/<norm>-<runde>-`), nie generische Namen wie `tb-01.png`: parallele Agenten teilen sich
+  das Scratchpad und lesen sonst das Alt-Rendering einer fremden Quelle — genau die Ursache des
+  Falsch-Positivs unter (2).
+- **Gilt fuer:** alle Sessions mit Subagenten und alle Entscheidungsvorlagen an Raphael.
+  Fall-Dokumentation: `wissen/normen/outputs/2026-07-29_normen-nacht-run37.md`; die
+  loop-spezifische Langfassung steht als Methodik-Pflicht 5 in
+  `wissen/normen/training/PROGRAMM.md` (nicht importiert).
+
 ## 260729 — Werkzeuge und Kontext-Schichten bewusst waehlen (Anthropic-Lecture)
 - **Regel:** (1) **Werkzeug-Index zuerst.** Bevor eine externe Quelle von Hand abgefragt
   oder ein Weg improvisiert wird, in `connectors/README.md` nachschlagen (alle 16
@@ -65,9 +86,14 @@ Vorfaelle und die vollstaendigen Inventare.
 - **Headless-Remount der mobilen Station:**
   `osascript -e 'mount volume "smb://diskstation918.tail8265aa.ts.net/daten"'` — nie
   `open smb://` und nie ueber die LAN-IP; Schreiblogik idempotent halten.
-- **Zweitinstanz-Check:** vor Run-Nummer und Register-Edit per `ps`/Lock pruefen, ob derselbe
-  Loop auf demselben Host schon laeuft; wenn ja zuruecktreten und nur einen eindeutig
-  benannten `outputs/`-Report schreiben.
+- **Zweitinstanz-Check — zweistufig, sonst greift er nicht:** vor Run-Nummer und Register-Edit
+  per `ps`/Lock pruefen, ob derselbe Loop auf demselben Host schon laeuft; wenn ja zuruecktreten
+  und nur einen eindeutig benannten `outputs/`-Report schreiben. **Zusaetzlich die Run-Nummer
+  unmittelbar VOR dem Schreiben erneut gegen die juengste `outputs/`-Datei pruefen.** Beide
+  Einzelpruefungen haben je eine blinde Stelle: `ps` findet einen bereits beendeten Vorlauf
+  nicht, und die `outputs/`-Sicht zu Laufbeginn findet einen noch laufenden nicht, weil dieser
+  seine Datei erst am Ende schreibt. Belegt zweimal: 25.07.2026 (Nummer 21 doppelt) und
+  29.07.2026 (Nummer 36 doppelt, trotz bestandenem `ps`-Check).
 - **Rollentrennung:** MacBook Pro = Arbeitsstation (keine Lern-Laeufe waehrend der Arbeitszeit);
   Mac Mini traegt die rechen-/NAS-intensiven Loops. Kein Loop laeuft auf beiden Stationen.
 - **Parallele Laeufe nur ueber `scripts/multi-claude.sh`** (Worktrees auf der SSD, Instanzzahl

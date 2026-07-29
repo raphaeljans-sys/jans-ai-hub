@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.07.2026 22:03:42
+Stand: 29.07.2026 22:13:45
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -15,4 +15,4 @@ Stand: 29.07.2026 22:03:42
 - 2 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- efe24b8e nas-selfcommit: 2 Datei(en) 2026-07-29 22:00
+- 03424ffa Normen Run 37: Lignum-Taktung entschieden (Raphael 29.07.) — achte Runde fuer lignum-lignatec mit rechnerischer Aufnahme Tab. 3/4, lignum-4-1 als speculative-stabil akzeptiert; Prozessfehler offen dokumentiert (Vorlage stuetzte sich auf ueberholten Run-35-Stand), zwei Lehren im PROGRAMM verankert

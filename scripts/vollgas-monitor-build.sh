@@ -1,4 +1,16 @@
 #!/bin/bash
+# ============================================================================
+# +++ AUSGEBAUT AM 29.07.2026 (Entscheid Raphael) — NICHT MEHR LADEN +++
+# ============================================================================
+# Die Statusseite zeigte den VOLLGAS-Endlos-Runner, der ausgebaut ist (Begruendung
+# im Kopf von vollgas-runner.sh). Der launchd-Job ch.jans.vollgas-monitor (alle 15 s,
+# nur MacBook Pro) ist entladen, die plist nach *.disabled-260729 umbenannt, und die
+# erzeugte logbuch/vollgas/monitor.html wurde entfernt: sie trug einen 15-Sekunden-
+# Autorefresh und haette einen eingefrorenen Stand wie einen laufenden Betrieb
+# angezeigt. Die Quell-Logs Macbookpro.log/Macmini.log werden nicht mehr frisch.
+# Wer den Hub-Zustand sehen will: logbuch/vollgas/RADAR.md und FRUEHWARNUNG.md.
+# ============================================================================
+#
 # vollgas-monitor-build.sh — erzeugt eine selbst-aktualisierende HTML-Statusseite
 # ("Vollgas-Herzschlag") des VOLLGAS-Endlos-Runners BEIDER Stationen aus den NAS-Logs.
 #

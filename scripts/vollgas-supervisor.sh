@@ -1,4 +1,16 @@
 #!/bin/bash
+# ============================================================================
+# +++ AUSGEBAUT AM 29.07.2026 (Entscheid Raphael) — NICHT MEHR LADEN +++
+# ============================================================================
+# Dieser Waechter ist stillgelegt, weil der von ihm behuetete VOLLGAS-Endlos-Runner
+# ausgebaut wurde (Begruendung im Kopf von vollgas-runner.sh). Auf beiden Stationen
+# per `launchctl bootout` entladen, plist nach *.disabled-260729 umbenannt.
+# Wiederbelebung nur auf Raphaels ausdruecklichen Entscheid:
+#   plist zurueckbenennen, dann
+#   launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/ch.jans.vollgas-supervisor.plist
+# Der Text unten beschreibt den frueheren Betrieb.
+# ============================================================================
+#
 # vollgas-supervisor.sh — Keepalive-Waechter fuer den VOLLGAS-Endlos-Runner.
 #
 # Zweck (Auftrag Raphael 12.07.2026, Rule 260712e — Taktgeber): stirbt der Runner

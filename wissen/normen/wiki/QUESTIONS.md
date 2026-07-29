@@ -62,8 +62,14 @@ gleichnamigen Prozess sucht und einen bereits beendeten Vorlauf nicht findet.
    Scratchpad haben in diesem Lauf **einen belegten Falsch-Positiv** erzeugt (ein Agent hielt ein
    Alt-Rendering von SIA 384.201 für die ersten Seiten von `144_2013.pdf` und meldete die Datei als
    defekt — vom Hauptprozess am Original widerlegt). Als Methodik-Pflicht 5 in `training/PROGRAMM.md`
-   verankert. Ob andere KBs mit Bild-Agenten (baurecht-buch, wettbewerbs-dna) dasselbe Muster haben,
-   ist **nicht geprüft** — Hinweis an den Wissens-Chef.
+   verankert. **Reichweite geprüft und geschlossen (29.07.2026):** kein anderer Loop ist betroffen.
+   `grep` über `skills/`, `agents/`, `scripts/` und alle `wissen/*/training/` findet **keinen**
+   kodierten generischen Render-Präfix; von den 20 Scheduled Tasks nennt **allein**
+   `normen-training-nacht` überhaupt `pdftoppm`, und keiner legt Dateien nach `/tmp/` ab
+   (`baurecht-buch-training` arbeitet mit fertigen Screenshots, nicht mit eigenen Renderings).
+   Das Problem entsteht also nicht im Hub-Bestand, sondern in **ad-hoc formulierten
+   Agenten-Prompts** — deshalb als Querschnittsregel nach `rules/auto-verbesserungen.md`
+   (Eintrag 260729b) gehoben statt nur hier vermerkt.
 4. **Achte Runde `lignum-lignatec` — beschlossen, aber nicht mehr gefahren.** Die Taktungsfrage ist
    **entschieden** (Raphael, 29.07.2026, differenziert): `lignum-lignatec` bekommt eine achte Runde
    mit **rechnerischer Aufnahme von Tab. 3 und Tab. 4**; `lignum-4-1` wird als «speculative, stabil»

@@ -12,9 +12,9 @@ Zweitinstanz-Kollision mit Run 36.
 
 ## 1. Voraussetzungen und Störungen
 
-- NAS gemountet. **Der Mount ist während des Laufs viermal weggebrochen** (SMB-Idle-Stall); der Guard
-  `ensure-nas-mounted.sh` hat jeweils geheilt, um 06:51 stehen aber drei Fehlversuche in Folge im Log.
-  Vor jedem NAS-Block wurde der Guard erneut aufgerufen.
+- NAS gemountet. **Der Mount ist während des Laufs mehrfach weggebrochen** (SMB-Idle-Stall); der Guard
+  `ensure-nas-mounted.sh` hat jeweils geheilt. Vor jedem NAS-Block wurde er erneut aufgerufen.
+  Nachträgliche Diagnose siehe Abschnitt 10.
 - Zugriffs-Check auf die Original-Ablage bestanden (`pdftotext` auf `416_2003_dfi.pdf` lieferte Text).
   Keine TCC-Blockade in dieser Session.
 - **Der Read-Hook fiel zeitweise aus** («PreToolUse hook did not respond before its timeout»), womit
@@ -156,5 +156,28 @@ Entscheid auf falscher Grundlage geführt.
    Raphaels bewusst nicht erstellt.
 4. **Render-Präfix-Problem in anderen KBs** mit Bild-Agenten (baurecht-buch, wettbewerbs-dna) ist
    **nicht geprüft** — Hinweis an den Wissens-Chef.
-5. **NAS-Mount-Stabilität**: vier Abbrüche in einem Lauf, um 06:51 drei Guard-Fehlversuche in Folge.
-   Die Mount-Härtung vom Juli reicht offensichtlich nicht.
+5. **NAS-Mount-Stabilität** — diagnostiziert, siehe Abschnitt 10; Ursache nicht abschliessend geklärt.
+
+## 10. Nachtrag — NAS-Mount diagnostiziert
+
+Die Mount-Abbrüche wurden nach Laufende untersucht. **Die Härtung vom 25.07. ist intakt und aktiv:**
+`~/Library/Preferences/nsmb.conf` liegt mit `notify_off=yes`, `mc_on=no`, `signing_required=no`;
+die launchd-Jobs `com.jans.nas-keepalive` (60 s) und `com.jans.nas-auto-mount` sind geladen und ohne
+Fehlerstatus; der Mount läuft erwartungsgemäss über Tailscale und antwortet aktuell in 6 ms. Die
+frühere Vermutung «die Härtung reicht nicht» ist damit **nicht belegt**.
+
+**Korrektur einer eigenen Fehlaussage:** die drei Guard-Zeilen um 06:51:32/33/35 sind **keine drei
+Fehlversuche in Folge**, sondern drei **gleichzeitige** Guard-Aufrufe — je einer aus den parallel
+laufenden Workflow-Agenten. Sie serialisieren sich über den Lock in `nas-auto-mount.sh`.
+
+**Was das Log wirklich zeigt:** alle Abbrüche fallen in zwei Zeitfenster — 01:38-01:47 (Laufbeginn,
+viele parallele Datei-Zugriffe) und 06:51 (9-Agenten-Workflow). Ausserhalb dieser Fenster steht seit
+dem 25.07. keine einzige Störung im Log. **Die Störungen korrelieren also mit paralleler
+Agenten-Last, nicht mit Leerlauf** — was der Bezeichnung «Idle-Stall» widerspricht und die Diagnose
+in eine andere Richtung lenkt als bisher angenommen.
+
+Das ist eine Korrelation, keine bewiesene Ursache. Bewusst **keine** Infrastruktur-Änderung
+vorgenommen: die bestehende Härtung greift, und ein Umbau auf Verdacht wäre der falsche Schritt.
+Was fehlt, ist Messung — der Guard protokolliert seinen Schnellpfad nicht, weshalb unbekannt bleibt,
+wie oft der Mount kurz unavailable ist, ohne dass es auffällt. Empfehlung an den nächsten
+Infrastruktur-Lauf: Schnellpfad-Zähler ergänzen und gegen die Agenten-Parallelität auswerten.
