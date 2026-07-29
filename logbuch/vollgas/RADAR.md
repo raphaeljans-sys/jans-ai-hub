@@ -29,6 +29,103 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-07-29 15:57 — [FREI] Die 13:30-Probe ist gefallen: der Slot hat geliefert, aber nicht dort, wo er sollte. Der Grund ist nicht die Rangfolge, die ich um 12:57 repariert habe, sondern ein Schutzmechanismus, der seit heute frueh gegen einen Gegner verteidigt, den es nicht mehr gibt
+
+**Selbstkontrolle:** letzter Lauf 12:57 (Eintrag 13:05), dieser Lauf 15:57 — 3,0 h bei
+3-h-Takt, kein verpasster Lauf.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung antwortet «OK» (rc 0). Kein
+Login-Blocker, kein Wochenlimit, kein Mail-Anlass. Endlos-Runner bleibt ausgebaut: auf beiden
+Stationen `launchctl list | grep vollgas` leer, beide plists auf `.disabled-260729`, kein
+Runner-Prozess. Kein Mechanismus feuert doppelt.
+
+**P1 — der Slot hat gearbeitet, aber die groesste Luecke wieder nicht angeruehrt. Ursache
+gefunden, behoben, auf beiden Seiten gegengeprueft.**
+
+Der neue 13:30-Slot ist gefeuert (13:30:07 bis 13:34:19, Exit 0, 252 s, 2.28 USD) und hat
+geliefert: ein neuer Artikel `wissen/projekt-lessons/wiki/kispi-behoerden-zustaendigkeitswechsel-1171-26.md`
+fuellt den bisher leeren Fokus-Bereich «Koordination & Kommunikation», INDEX/QUESTIONS/CHANGELOG
+nachgefuehrt, im Commit `7be45833` gesichert. **Das ist echte Arbeit und kein Delta-Null-Befund.**
+
+Nur war das nicht das Ziel. `bauprodukte` — der Korpus mit dem hoechsten Hebel, 55 offene
+Positionen — steht im `wiki/` unveraendert auf dem **28.07. 23:42**, inzwischen **rund 40 h ohne
+inhaltliches Delta**. Der Lauf begruendet das im Protokoll (`dispatch/log/20260729-133007-925.md`)
+so: die Prioritaeten 3 und 4 seien «bereits von anderen Laeufen heute abgedeckt
+(Doppelarbeit-Guard)», darum Prioritaet 5.
+
+Diese Begruendung ist der Befund. **Es gibt keine anderen Laeufe mehr.** Der Guard im
+Lauf-Prompt eroeffnet mit dem Satz «Der Dauerschicht-Loop auf dem MacBook Pro arbeitet dieselbe
+Liste rund um die Uhr» — geschrieben fuer eine Welt mit zwei Schichten. Seit dem Ausbau des
+Endlos-Runners heute frueh ist die Nachtschicht der **einzige** Lern-Taktgeber des Hub. Ein
+Schutz gegen Doppelarbeit, der keinen Partner mehr hat, schuetzt nicht mehr vor Verschwendung,
+sondern **erzeugt sie**: er laesst den Lauf sich selbst als die Konkurrenz lesen und zwei
+Prioritaeten ueberspringen. Das ist derselbe Fehlertyp wie der `normen`-Befund von 07:10 und die
+`wettbewerbs-dna`-Programmdatei von 12:57 — eine Datei, die einen Zustand behauptet, den es
+nicht mehr gibt — nur diesmal an der Stelle, die ueber jeden einzelnen Slot entscheidet.
+
+Der zweite Teil betrifft meine eigene Reparatur von 12:57. Sie war richtig, aber sie zielte auf
+die Rangfolge. Der Guard greift **davor** und liest dieselbe verdorbene Messgroesse: er prueft
+das CHANGELOG der KB, und in `bauprodukte` stehen dort seit heute zwei Eintraege von mir — beide
+reine Struktur- und Statuspflege, beide mit heutigem Datum. Fuer den Guard sieht das aus wie
+geleistete Arbeit. Mein Warnhinweis im Statuskopf heilt den Rangfolge-Fall, aber nicht diesen.
+
+**Massnahmen (beide im Lauf-Prompt `scripts/nachtschicht-run.sh`, sonst nichts angeruehrt):**
+
+- **Doppelarbeit-Guard eng gefasst.** Der Eroeffnungssatz nennt jetzt die Lage von heute: der
+  Endlos-Runner ist ausgebaut, die Nachtschicht ist der einzige Mechanismus. Der Guard bleibt
+  bestehen, aber Ueberspringen ist nur noch bei **belegtem inhaltlichem Delta desselben Tages**
+  zulaessig (neue oder gewachsene Datei in `wiki/` bzw. `outputs/`). Ein Struktur-, Status- oder
+  Registereintrag im CHANGELOG rechtfertigt es ausdruecklich **nicht**. Im Zweifel arbeiten statt
+  ueberspringen, mit der Begruendung: ein doppelt gepruefter Artikel kostet weniger als ein leer
+  verstrichener Slot.
+- **Prioritaet 4 misst neu die richtige Groesse.** «Am laengsten nicht trainiert» bezieht sich
+  jetzt auf den letzten **inhaltlichen** Stand in `wiki/` (juengste Artikel-mtime) statt auf das
+  CHANGELOG-Datum, mit dem heutigen `bauprodukte`-Fall als Beleg im Prompt. Dazu: bei aehnlichem
+  Stand zuerst die KB mit den meisten offenen Positionen, und eine PROGRAMM.md mit
+  Stillgelegt-/Ereignis-Trigger-Statuskopf ist kein gueltiges Ziel — damit sind die Statuskoepfe
+  von 12:57 im Auswahlweg verankert und nicht mehr nur Beiwerk.
+- Der Kopfkommentar des Skripts nannte die Nachtschicht weiterhin «Schwester des
+  Dauerschicht-Loops». Auch dort auf den Stand von heute gesetzt.
+
+**Kein neuer Loop, kein neuer Takt, keine Aenderung an Register, Budget oder Slots.** Es ist
+eine Messgroessen- und Faktenkorrektur an einem vorhandenen Mechanismus.
+
+**Verifikation:** `bash -n` sauber auf beiden Seiten; NAS nativ committet
+(`nas-commit-now.sh`, kein Git ueber SMB). Wichtig war der zweite Schritt: die Nachtschicht
+startet aus dem **SSD-Klon** des Mac Mini und zieht ihr `git pull` erst **innerhalb** des
+Zyklus — die Korrektur haette den 23:30-Lauf sonst verpasst und erst um 02:30 gegriffen. Klon
+darum per ssh sofort nachgezogen und dort gegengeprueft: beide neuen Textstellen vorhanden,
+`bash -n` sauber. **Der 23:30-Lauf arbeitet mit der korrigierten Fassung.**
+
+**P2 — Liefer-Delta seit dem letzten Lauf (12:57):**
+
+| Zeit | Station | Loop | Ergebnis |
+|---|---|---|---|
+| 13:30–13:34 | Mini | `nachtschicht` (neuer Slot) | **Geliefert**, Exit 0, 252 s, 2.28 USD — neuer Artikel in `projekt-lessons`, Commit `7be45833`. Ziel verfehlt (siehe P1), aber kein Leerlauf |
+| 13:00–15:57 | MacBook | — | **Kein Task faellig.** Das Register traegt zwischen 10:00 und 16:57 ausser dem Radar selbst keinen Eintrag. Vorgesehene Tagesruhe der Arbeitsstation (Rollentrennung 28.07.), nicht Leerlauf |
+| 12×/15min | NAS | `nas-selfcommit` | Laeuft; die Commits 13:45 bis 15:45 tragen **ausschliesslich** `station-status/*.md` und **zaehlen nicht als Arbeit** |
+
+**Kein Loop steht bei drei Laeufen in Folge ohne Liefer-Delta.** Keine Ruecktaktung, keine
+Deaktivierung.
+
+**P3 — Zustand der Stationen, unveraendert und weiterhin Deine Entscheidung.** Das Lauf-Gate
+weist auf dem **MacBook** weiter alles ab (gemessen: **3580 MB** frei aus `vm_stat`
+free+inactive+purgeable, Druck **2**, `lauf-gate.sh` rc=1). Auf dem **Mac Mini** laesst es durch
+(Druck **1**, **12'298 MB** frei, rc=0) — der 23:30-Slot ist nicht gefaehrdet. Die Sperre bleibt
+eine reine MacBook-Sache und weiterhin latent; keine Wiederholungsmail.
+
+**Offen, unveraendert seit 12:57:** `grobkosten` und `planungsgrundlagen` haben keinen Scheduled
+Task und keinen Entscheid von Dir; ihr Ausschluss hing an der `EXCLUDE_RE` des ausgebauten
+Runners und ist damit weggefallen. Beide bleiben gueltige Ziele, bis Du entscheidest, ob sie
+formal ruhen oder wieder mitlaufen. Ihre Saettigung ist belegt (4 bzw. 17 Nullbefunde in Folge),
+aber daraus einen Stilllegungsvermerk zu machen waere eigenmaechtiges Drosseln.
+
+**Naechster Lauf (18:57):** nachziehen, ob der 23:30-Slot mit dem korrigierten Guard zu
+`bauprodukte` greift. Tut er es wieder nicht, liegt die Ursache nicht mehr im Prompt, sondern in
+der Auswahl selbst — dann ist der naechste Schritt, die KB fuer einen Lauf **namentlich** zu
+setzen, statt weiter an der Heuristik zu drehen.
+
+---
 ## 2026-07-29 12:57 — [FREI] Der Fix von heute frueh hat die groesste Wissensluecke sichtbar gemacht und sie zugleich ans Ende der Warteschlange gestellt. Dazu: fuenf Programmdateien, von denen keine sagt, dass sie ruht — und eine, die einen Takt behauptet, den es seit dem 27.07. nicht mehr gibt
 
 **Selbstkontrolle:** letzter Lauf 09:57 (Eintrag 10:05), dieser Lauf 12:57 — 3,0 h bei
