@@ -7,6 +7,33 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-29
 
+**Logbuch-Radar 06:55 (planmaessig, mit Befund) — der Radar laeuft nach dem Mount-Ausfall
+vom Vortag wieder.** Quellen: Register + Journal, Konversations-Destillat 29.07.,
+`mail-vorfilter.sh 26` ueber alle Apple-Mail-Konten, die relevanten Threads danach im
+Original samt Anhaengen, bexio `--verzug`, M365-Kalender, Sync- und Remote-Queues (leer).
+**Erledigt seit gestern:** der Verfahrensweg der Auflage II.1.b) im Bauentscheid 1171/26 ist
+geklaert (L. Furrer, AFB, 28.07. 12:13: keine Abaenderungsplaene, nicht ueber eBaugesuche,
+es genuegt die Bestaetigung der Feuerpolizei) und die vier Dokumente sind zugestellt —
+Download von M. Gantenbein am 29.07. 06:51 quittiert. Der Termin Koordination LBW/Innere
+Verglasung mit O. Stadelmann ist verstrichen und archiviert.
+**Neu und wichtig:** **RE-00100 (CHF 13'120, faellig 30.07.) wurde von der Kreditorenstelle
+Huwiler Services AG am 28.07. 16:47 retourniert und geloescht** — formell mangelhaft, keine
+Zahlung vor Eingang einer korrigierten PDF an `260kredi@huwiler.ch`. Am Beleg geprueft:
+MWST mit 0.00 % ausgewiesen, keine MWST-Nummer, Empfaenger Nova statt der Eigentuemerschaft
+Swiss Central City Real Estate Fund (Pfaeffikon), Absenderadresse Saumstrasse 21 statt
+Grubenstrasse 37, Leistungszeitraum nur im Stundenblatt. Die Zeile «ab 04.08.
+A1-Zahlungserinnerung» ist damit gegenstandslos. Weiter: Positionsliste Los 273.35
+Kuechenbau von S. Lanz zur Pruefung eingegangen (28.07. 16:02, bessere Konditionen erst
+naechste Woche); Besprechung KV/Baubeschrieb mit R. Steinmann fix am **13.08. 10:00**,
+Feldeggstrasse 26; Koordinationssitzung Gruner/Jans/KISPI am 06.08. 13:00 neu im Register;
+zwei unklare eBaugesuche-Aktionen vom 28.07. als «zu pruefen» aufgenommen.
+**Unveraendert offen:** RE-00087 (CHF 15'000, 104 Tage, Mahnstufe 2, Entscheid Raphael),
+RE-00098/99 (CHF 17'280, Frist 03.08.), UBS-Kapitaleinzahlungskonto seit 27.06. unbeantwortet
+(Termin 31.07. 10:00), Frist KISPI Tuerbuch/Sicherheitskonzept 31.07. 17:00.
+**Token-Tempo Vortag (28.07.):** MacBook Pro 312.13 Mio Tokens (USD 306.49),
+Mac Mini 94.32 Mio (USD 39.47), zusammen 406.45 Mio (USD 345.96 API-Aequivalent).
+Keine Mail an Dritte, kein Kalendereintrag, keine Buchung.
+
 **Methoden-Layer: Entscheide Raphael + neuer Skill-Kandidat (Session MacBook, 29.07.).**
 Nach der Vollanalyse von OneDrive `03 Prompteingaben` (Methoden-Register + Lern-Loop
 `methoden-radar`, Commit `eca112a4`) hat Raphael entschieden: (1) Drei-Marken-/Website-
