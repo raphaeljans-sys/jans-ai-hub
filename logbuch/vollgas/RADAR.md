@@ -30,6 +30,109 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-07-29 09:57 — [FREI] Der Korpus mit dem hoechsten Hebel war fuer seinen Taktgeber unsichtbar — eine fehlende Datei, seit dem 28.07. Behoben. Dazu: der Speicher-Waechter meldet achtmal taeglich eine Speichernot, die es nicht gibt
+
+**Selbstkontrolle:** letzter Lauf 06:57 (Eintrag 07:10), dieser Lauf 09:57 — 3,0 h bei
+3-h-Takt, kein verpasster Lauf.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung antwortet «OK» (rc 0). Kein
+Login-Blocker, kein Wochenlimit, kein Mail-Anlass. Endlos-Runner bleibt ausgebaut: auf beiden
+Stationen `launchctl list | grep vollgas` leer, beide plists auf `.disabled-260729`. Kein
+Mechanismus feuert doppelt.
+
+**P1 — die groesste offene Wissensluecke hat seit gestern keinen Taktgeber mehr, der sie
+findet. Ursache war eine fehlende Datei, nicht ein kranker Loop.** Die Fruehwarnung hatte um
+07:15 einen Strukturhinweis notiert; nachgemessen ist er zutreffend und schwerer, als er dort
+klingt.
+
+Die Mac-Mini-Nachtschicht ist seit dem Ausbau des Endlos-Runners der einzige Mechanismus, der
+den Destillat-Korpus takten kann. Sie waehlt ihre Aufgabe in **Prioritaet 4** ueber das Muster
+`wissen/*/training/PROGRAMM.md`. `bauprodukte` ist die einzige vorbereitete KB **ohne
+`training/`-Verzeichnis** — sie konnte von dieser Prioritaet also **nie** getroffen werden.
+Erreichbar blieb sie nur ueber Prioritaet 5 (offene `QUESTIONS.md`), wo sie als eine unter
+vielen konkurriert und verliert: die letzten Nachtschicht-Laeufe gingen an `firmengruendung-ch`.
+
+Das Bittere daran ist der Zustand des Korpus. Er ist **nicht erschoepft, sondern unerreichbar**:
+Phase 0 seit dem 28.07. komplett (37 Sektionen), 214 Dateien erfasst, davon 13 destilliert,
+23 triagiert und 32 offen — **55 offene Positionen**. Letzte inhaltliche Aenderung im `wiki/`
+am 28.07. 23:42, seither rund 34 h ohne Delta. Laut `KORPUS-QUEUE.md` ist das der Korpus mit
+dem **hoechsten direkten Hebel** von vieren, weil er nach BKP gegliedert ist und `ausschreibung`,
+`offertenpruefung`, `brandschutz` und `grobkosten` unmittelbar speist.
+
+**Behoben:** `wissen/bauprodukte/training/PROGRAMM.md` angelegt — ein Wegweiser auf die
+bestehende Buchhaltung im Destillat-Skill (Spec, Datei-Inventar, Sektionsstand, Korpus-Queue),
+dazu der Umfang je Lauf im 5-USD-Budget der Nachtschicht, die Reihenfolge nach Arbeitsnutzen und
+eine Endbedingung. **Kein neuer Loop, kein neuer Takt, keine zusaetzlichen Kosten** — die Datei
+macht nur einen vorhandenen Korpus fuer einen vorhandenen Mechanismus auffindbar; das ist
+Instandhaltung, keine Kapazitaetsentscheidung. Gegenprobe: das Nachtschicht-Muster trifft die KB
+jetzt (9 statt 8 Treffer). CHANGELOG der KB nachgefuehrt. Der naechste Nachtschicht-Lauf um
+23:30 ist die Probe aufs Exempel — beim naechsten Radar-Lauf nachziehen.
+
+**P2 — der Speicher-Waechter behauptet achtmal am Tag einen Mengenmangel, den es nicht gibt.
+Meldung korrigiert, Schwelle nicht angetastet.** Heute stehen im Waechter-Log acht Zeilen der
+Form «WARNUNG: nur 3540 MB verfuegbar (Schwelle 1500 MB)». Der gemeldete Wert liegt beim
+**Doppelten** der Schwelle, die er angeblich unterschreitet. Ursache: `KNAPP=1` wird von zwei
+Bedingungen gesetzt — Menge **oder** Speicherdruck ≥ 2 — die Meldung war aber nur fuer den
+Mengenfall getextet. Ausgeloest hat heute ausschliesslich der Druck.
+
+Das ist derselbe Fehlertyp wie der P1 von heute frueh, eine Ebene tiefer: eine Mechanik, deren
+Protokoll etwas anderes behauptet als das, was sie gemessen hat. Wer dieses Log spaeter zur
+Diagnose heranzieht — und genau dafuer existiert es — liest eine chronische Speichernot heraus,
+die nicht besteht. Die Meldung nennt jetzt den tatsaechlichen Ausloeser; bei echtem
+Mengenmangel bleibt der alte Wortlaut und hat Vorrang. **Die Schwelle selbst ist unveraendert**,
+sie gehoert zur offenen Frage aus dem 07:10-Eintrag und damit Dir.
+
+Denselben falschen Satz habe ich im Bestand gesucht, wie es die Regel verlangt
+(`grep -rn` ueber `scripts/`): drei Stellen pruefen Druck ≥ 2. Das **Lauf-Gate** formuliert
+sauber («Speicherdruck 2 (2=warnend, 4=kritisch), 3655 MB verfuegbar») und blieb unberuehrt.
+**`multi-claude.sh`** dagegen brach mit «die Station swappt bereits» ab — bei Druck 2 und
+3,3 GB frei nachweislich falsch, Stufe 2 heisst «warnend», nicht «swappt». Auch dort nur der
+Wortlaut korrigiert, die Schwelle steht. Beide Skripte `bash -n` sauber; der Waechter-Pfad in
+allen vier Kombinationen isoliert durchgerechnet (Druck-Fall, Mengen-Fall, beides, keines) —
+absichtlich isoliert, weil ein realer Waechter-Lauf OneDrive neu starten kann; der
+Abweisungspfad von `multi-claude.sh` real gegen die Station gemessen, mit der neuen Meldung.
+
+**P3 — die Beweiszeile des Waechters nannte bisher genau die Groesse, die schon einmal
+irregefuehrt hat.** Die Liste der «Groessten» kommt aus `top -stats mem`, also dem
+**Footprint**. Am 29.07. 03:00 wurde ArchiCAD-MCP wegen 1422 MB Footprint beendet und gab
+338 MB zurueck. Der Prozess laeuft inzwischen wieder (er haengt an einem MCP-Server, startet
+also mit der naechsten Sitzung von selbst) und steht heute erneut mit `python3.12=1422M` in
+jeder Waechter-Zeile — **RSS real 12 MB**, gerade nachgemessen. Die Spalte ist neu als
+«Footprint, NICHT freiwerdender Speicher» beschriftet, damit die Zeile nicht zum dritten Mal
+zum falschen Schluss einlaedt. Ein Beenden lohnt nicht und wurde unterlassen.
+
+**P3 — Beobachtung ohne Eingriff:** Prioritaet 4 der Nachtschicht globbt blind ueber alle
+`training/PROGRAMM.md` und kann damit auch KBs treffen, die stillgelegt sind
+(`wettbewerbs-dna` 27.07., `planungsgrundlagen` 28.07.) oder auf Ereignis-Trigger stehen
+(`spec`, `immobilienbewertung`). Der Lauf-Prompt traegt zwar die Auflage «Takt-/Drossel-Regeln
+beachten», verlaesst sich dabei aber auf das Urteil des Laufs statt auf die Auswahl. Nicht
+angefasst — ich habe in diesem Lauf schon zwei Skripte und eine Programmdatei angeruehrt und
+stapele nicht noch eine Prompt-Aenderung darauf. Kandidat fuer den naechsten Lauf.
+
+**Liefer-Delta seit dem letzten Lauf (06:57):**
+
+| Zeit | Station | Loop | Ergebnis |
+|---|---|---|---|
+| 07:07 | MacBook | `logbuch-radar` | **Geliefert** (Nachtrag zur offenen Zeile von 07:10) — Briefing-Mail versendet, 188 Zeilen, Commit `3ffe933c` |
+| 07:15 | MacBook | `vollgas-fruehwarnung` | **Geliefert** — still, keine Mail; Blockade-Pruefung sauber, dazu der Strukturhinweis, aus dem der P1 dieses Eintrags wurde |
+| 07:46 | MacBook | `ag-gruendung-monitor` | **Geliefert** — nichts Neues, UBS 32 Tage still, Commit `7372b368` |
+| 08:05 | MacBook | `mahnwesen-verzugscheck` | **Geliefert** — Ergebnis im Hub-Chef-Briefing belegt (RE-00087/98/99/100/101 einzeln beurteilt) |
+| 08:23 | MacBook | `zahlungsabgleich-check` | **Geliefert** — desgleichen, bexio `--abgleich` im Briefing verarbeitet |
+| 08:39 | MacBook | `hub-chef-taeglich` | **Geliefert** — Briefing mit vier Befunden, Roethlisberger-Angebot nachgerechnet (CHF 71'263.95 gegen Budget 70'000), Huwiler-Retour geklaert, Mail-Entwurf als Draft, 44 Zeilen ins Logbuch, Commit `3f3a6395` |
+| 09:40 | MacBook | `heartbeat-daily` | Zum Messzeitpunkt noch in Arbeit, nicht beurteilbar — beim naechsten Lauf nachziehen |
+| — | Mini | `nachtschicht` | Naechster Lauf 23:30; der 05:30-Lauf steht im Eintrag von 07:10 |
+
+**Kein Loop steht bei drei Laeufen in Folge ohne Liefer-Delta.** Keine Ruecktaktung, keine
+Deaktivierung. Alle sieben faelligen operativen Briefings haben ihr Deliverable erreicht.
+
+**Offen aus dem 07:10-Eintrag, unveraendert:** das Lauf-Gate weist auf dem MacBook weiter alles
+ab (jetzt 3313 MB frei, Druck 2). Seit 07:33 hat es keinen echten Aufrufer getroffen, nur meine
+eigenen Testproben — die Sperre bleibt latent. Die Entscheidung, ob Druck 2 ein Veto
+rechtfertigt oder erst Druck 4, liegt bei Dir; Vorschlag steht im Eintrag von 07:10. Keine
+Wiederholungsmail.
+
+---
+
 ## 2026-07-29 07:10 — [FREI] Das Lauf-Gate steht auf dem MacBook seit fuenf Stunden dauerhaft zu — bei 3,7 GB freiem Speicher. Der Selbsttest nennt das «OK». Bisher ohne Schaden, weil der einzige Aufrufer nichts zu tun hatte
 
 **Selbstkontrolle:** letzter getakteter Lauf 03:57 (Eintrag 04:20), dieser Lauf 06:57 — 3,0 h

@@ -98,7 +98,12 @@ echo "Speicher    : ${FREI} MB verfuegbar, Druck $DRUCK (1=normal 2=warnend 4=kr
 echo "Laeufe aktiv: $AKTIV von max. $MAX_LAEUFE"
 
 if [ "$DRUCK" -ge 2 ]; then
-    echo "ABBRUCH: Speicherdruck $DRUCK — die Station swappt bereits. Keine parallelen Laeufe."
+    # Schwelle unveraendert (Kapazitaetsentscheid, gehoert Raphael). Korrigiert ist
+    # allein die Behauptung: "die Station swappt bereits" war bei Druck 2 und
+    # 3313 MB frei nachweislich falsch — Stufe 2 heisst "warnend", nicht "swappt",
+    # und ist auf dem MacBook der Normalzustand. Die Meldung nennt jetzt nur, was
+    # gemessen wurde.
+    echo "ABBRUCH: Speicherdruck $DRUCK (2=warnend, 4=kritisch) bei ${FREI} MB frei — ab Stufe 2 keine parallelen Laeufe."
     exit 1
 fi
 case "$FREI" in ''|*[!0-9]*) echo "ABBRUCH: Speichermessung unbrauchbar ('$FREI')."; exit 1 ;; esac

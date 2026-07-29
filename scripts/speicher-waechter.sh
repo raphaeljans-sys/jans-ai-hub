@@ -156,15 +156,32 @@ case "$FREI" in
 esac
 
 KNAPP=0
-[ "$FREI" -lt "$FREI_MIN_MB" ] && KNAPP=1
-[ "$DRUCK" -ge 2 ] && KNAPP=1
+GRUND=""
+if [ "$FREI" -lt "$FREI_MIN_MB" ]; then
+    KNAPP=1
+    GRUND="nur ${FREI} MB verfuegbar (Mindestwert ${FREI_MIN_MB} MB), Druck ${DRUCK}"
+fi
+if [ "$DRUCK" -ge 2 ]; then
+    KNAPP=1
+    # Der Druck allein loest aus. Die Meldung MUSS das sagen: die alte Fassung
+    # schrieb auch hier "nur X MB verfuegbar (Schwelle 1500 MB)" und behauptete
+    # damit einen Mengenmangel, den es nicht gab — am 29.07. achtmal am Tag bei
+    # 3540 bis 3774 MB frei, also beim Doppelten der Schwelle. Wer dieses Log
+    # zur Diagnose liest, sieht sonst eine chronische Speichernot, die nicht
+    # existiert (derselbe Fehlertyp wie beim Lauf-Gate, eine Ebene tiefer).
+    [ -z "$GRUND" ] && GRUND="Speicherdruck ${DRUCK} (2=warnend, 4=kritisch) bei ${FREI} MB frei — Menge unauffaellig, Mindestwert ${FREI_MIN_MB} MB"
+fi
 
 if [ "$KNAPP" -eq 1 ] && [ "$GEHANDELT" -eq 0 ]; then
     # Die drei groessten Verbraucher mitloggen, damit die Ursache belegt ist
     # und nicht beim naechsten Mal wieder erraten werden muss.
+    # ACHTUNG beim Lesen: "top -stats mem" liefert den FOOTPRINT, NICHT den
+    # Speicher, der beim Beenden frei wird. Am 29.07. 03:00 wurde ArchiCAD-MCP
+    # wegen 1422M Footprint beendet und gab nur 338 MB zurueck (RSS real 12 MB).
+    # Darum ist die Spalte hier ausdruecklich als Footprint beschriftet.
     TOP3=$(top -l 1 -o mem -n 3 -stats command,mem 2>/dev/null \
            | tail -3 | awk '{printf "%s=%s ", $1, $2}')
-    log "WARNUNG: nur ${FREI} MB verfuegbar (Schwelle ${FREI_MIN_MB} MB), Druck ${DRUCK}. Groesste: ${TOP3}"
+    log "WARNUNG: ${GRUND}. Groesste (Footprint, NICHT freiwerdender Speicher): ${TOP3}"
 fi
 
 # Still-by-default: bei unauffaelligem Lauf nur alle 24 h eine Lebendzeile,

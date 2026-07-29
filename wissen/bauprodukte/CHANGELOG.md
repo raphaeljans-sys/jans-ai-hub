@@ -1,5 +1,26 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-07-29 — `training/PROGRAMM.md` angelegt: die KB war fuer jeden Taktgeber unsichtbar
+- **[struktur] Befund (vollgas-chef-radar 09:57, unabhaengig bestaetigt nach dem Strukturhinweis
+  der `vollgas-fruehwarnung` 07:15):** Die Mac-Mini-Nachtschicht — seit dem Ausbau des
+  Endlos-Runners der faktische Taktgeber dieses Korpus — waehlt in **Prioritaet 4** ueber das
+  Muster `wissen/*/training/PROGRAMM.md`. `bauprodukte` hatte als einzige vorbereitete KB
+  **kein `training/`-Verzeichnis** und konnte darum von dieser Prioritaet **nie** getroffen
+  werden. Erreichbar war die KB nur ueber Prioritaet 5 (offene `QUESTIONS.md`), wo sie als eine
+  unter vielen konkurrierte und verlor: die letzten Nachtschicht-Laeufe gingen an
+  `firmengruendung-ch`.
+- **[belegter Stillstand]** Letzte inhaltliche Aenderung im `wiki/` am 28.07. 23:42, seither
+  rund 34 h ohne Delta — bei **55 offenen Positionen** (32 `[ ]` offen, 23 `[t]` triagiert von
+  214 erfassten Dateien, 146 bewusst uebersprungen, 13 destilliert). Der Korpus ist also nicht
+  erschoepft, sondern unerreichbar. Laut `KORPUS-QUEUE.md` ist er der Korpus mit dem
+  **hoechsten direkten Hebel** (Nr. 1 von 4).
+- **[angelegt]** `wissen/bauprodukte/training/PROGRAMM.md` — Wegweiser auf die bestehende
+  Buchhaltung im Destillat-Skill (Spec, Inventar, Sektionsstand, Korpus-Queue), plus Umfang je
+  Lauf im 5-USD-Budget der Nachtschicht, Reihenfolge nach Arbeitsnutzen und Endbedingung.
+  **Kein neuer Loop, kein neuer Takt, keine zusaetzlichen Kosten** — die Datei macht nur einen
+  vorhandenen Korpus fuer einen vorhandenen Mechanismus auffindbar. Gegenprobe: das
+  Nachtschicht-Muster trifft die KB jetzt.
+
 ## 2026-07-29 — Aufraeumen nach Freigabe Raphael
 - **[geloescht, freigegeben]** `.!33499!CHANGELOG.md` — 0-Byte-SMB-Schreibfragment vom 28.07. 01:37,
   entstanden beim Anlegen der KB. Vor der Loeschung nochmals geprueft: 0 Byte, kein Inhalt; das

@@ -1,0 +1,70 @@
+# Trainingsprogramm — KB `bauprodukte`
+
+Zweck dieser Datei: die KB **erreichbar** machen. Die Nachtschicht des Mac Mini
+(`ch.jans.nachtschicht`) waehlt ihre Aufgabe in Prioritaet 4 ueber das Muster
+`wissen/*/training/PROGRAMM.md`. `bauprodukte` hatte als einzige vorbereitete KB kein
+`training/`-Verzeichnis und war damit fuer diesen Taktgeber **unsichtbar** — obwohl Phase 0
+(37 Sektionen inventarisiert) seit dem 28.07.2026 fertig ist und 55 Positionen offen sind.
+Angelegt vom `vollgas-chef-radar` am 29.07.2026 nach dem Strukturbefund der
+`vollgas-fruehwarnung` vom selben Tag (07:15).
+
+**Kein neuer Loop, kein neuer Takt, keine zusaetzlichen Kosten** — nur die fehlende
+Wegweiser-Datei zu bereits vorhandener Buchhaltung.
+
+## Wo der Stand wirklich steht (diese Datei fuehrt ihn NICHT)
+
+Die Buchhaltung dieses Korpus liegt beim Destillat-Skill, nicht in der KB — bewusst so
+(`raw/_INGESTED.md`: das Archiv bleibt kanonische Ablage, eine Kopie nach `raw/` erzeugte
+eine zweite Wahrheit, Rule `sync-kanonische-quelle`).
+
+| Was | Datei |
+|---|---|
+| Ziel und Abgrenzung | `skills/wissens-destillat/specs/bauprodukte-spec.md` |
+| Status je Datei | `skills/wissens-destillat/training/bauprodukte-inventar.md` |
+| Fortschritt je Gewerk | `skills/wissens-destillat/training/bauprodukte-sektionen.md` |
+| Begruendung der Reihenfolge | `skills/wissens-destillat/KORPUS-QUEUE.md` |
+| Quelle (nur lesen) | `/Volumes/daten/03 Bauprodukte_BKP` |
+
+**Stand 29.07.2026:** 37 Sektionen inventarisiert · 214 Dateien erfasst · 13 destilliert `[x]`
+· 23 triagiert `[t]` · 32 offen `[ ]` · 146 bewusst uebersprungen `[-]` · 9 Wiki-Artikel.
+
+## Umfang pro Lauf (Nachtschicht-Budget beachten)
+
+Der Nachtschicht-Lauf hat ein hartes Budget von 5 USD. Darum **eine** Einheit pro Lauf:
+
+1. **Stand lesen:** Inventar (erst `[t]`, dann `[ ]`), `wiki/QUESTIONS.md`, `CHANGELOG.md`
+   und das juengste Protokoll unter `dispatch/log/` (Doppelarbeit-Guard).
+2. **Eine Einheit destillieren:** ein Gewerk bzw. 1–3 Dateien desselben BKP-Codes zu
+   **einem** Wiki-Artikel verdichten. Nicht mehrere Gewerke im selben Lauf.
+3. **Register nachfuehren:** Inventar-Status auf `[x]` mit Datum, `wiki/INDEX.md`,
+   `wiki/QUESTIONS.md`, Sektionsstand.
+4. **CHANGELOG-Eintrag** (neueste zuoberst) und eine Journalzeile im Logbuch.
+
+Ist die naechste Einheit erkennbar zu gross (grosses PDF-Konvolut): **nicht anfangen**,
+sondern in `wiki/QUESTIONS.md` als «braucht dedizierten Lauf» vermerken und die naechste
+kleinere Einheit nehmen.
+
+## Reihenfolge
+
+Nach direktem Arbeitsnutzen, nicht nach BKP-Nummer: zuerst die Gewerke, die `ausschreibung`,
+`offertenpruefung` und `brandschutz` unmittelbar speisen (271 Gipser, 273 Schreiner,
+281 Bodenbelaege, 221 Fenster, 272 Metallbau), danach die Technik (230, 240, 251, 260),
+zuletzt Ausstattung und Oberflaechen (900, 921, 950, 960).
+
+## Leitplanken
+
+- **Nie erfinden.** Produktkennwerte, Klassifizierungen und Normverweise nur mit Fundstelle;
+  Unsicheres bleibt `speculative` mit Vermerk.
+- **BKP-Codes** gegen `references/bkp-2017/` verifizieren (Rule `bkp-2017-referenz`).
+- **Norm-Fundstellen fuehrt `normen`**, Kennwerte fuehren `grobkosten` und
+  `immobilienbewertung` — hier nur verlinken, nicht doppelt fuehren
+  (`koordination/QUERBEZUEGE.md`, Wissens-Chef Run 19).
+- **Herstellerpreise** nur als datierter Zeitstand, nie als heutiger Ansatz.
+- Echte Umlaute ä/ö/ü, Schweizer Hochdeutsch, ss statt ß.
+
+## Endbedingung
+
+Meldet das Inventar null offene und null triagierte Positionen, traegt der naechste Lauf
+«Inventar komplett» in den `CHANGELOG` ein. Diese Datei wird dann geloescht oder auf
+Bestaetigungstakt gesetzt, damit die Nachtschicht die Kapazitaet an Korpus 2
+(`buero-projekte`, siehe `KORPUS-QUEUE.md`) weitergibt.
