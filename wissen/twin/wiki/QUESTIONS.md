@@ -38,6 +38,57 @@ Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/be
 > Vollständige Belegkette und Korrekturliste im Eintrag ganz unten in dieser Datei
 > («2026-07-29 — GESCHLOSSEN: Felix Stählin gehört zu Elektro Stählin AG»).
 
+## Offen — Runde 260729 (twin-fragesteller, aus Fidelity-Review 2026-07-29)
+
+Quelle: Drift-Report `outputs/2026-07-29_fidelity.md`. Besonderheit dieses Laufs: beide
+gezogenen Golds (WOMA-Zahlungserinnerung 16.09.2025, Druckerkosten-Rechnung 25.09.2025) waren
+bereits ausgewertet — der Lauf hat deshalb **keine** neuen Marker erzeugt, sondern zwei bereits
+offene Fragen mit je einem Datenpunkt aus dem Bestand angereichert (siehe #1 und #2) und drei
+neue Fragen gefunden. Je in 1–2 Sätzen beantwortbar.
+
+1. **Kostendurchlauf statt Auftrag — fällt der Auftrags-Dank deshalb weg?** Die Druckerkosten-
+   Rechnung RE-00073 an Fabio Don (25.09.2025) ist eine Rechnung mit Belegcharakter und müsste
+   nach der belegten Regel (260708: finale Rechnungs-/Schluss-Liefermail → Service-Satz **plus**
+   «Ich bedanke mich für den Auftrag») den Auftrags-Dank tragen. Sie tut es nicht. Liegt das
+   daran, dass Du hier nichts geleistet, sondern nur **weiterverrechnet** hast (Druckerkosten,
+   Mietvertrag und Zählerstand als Nachweis im Anhang)? *Warum: würde die Auftrags-Dank-Regel um
+   die Grenze «eigener Auftrag ↔ Kostendurchlauf» ergänzen, statt den Zwilling jede Rechnung
+   bedanken zu lassen — er hat in diesem Lauf genau diesen Fehler gemacht.* → [[stimme]], [[haltung]]
+
+2. **Warum «Sehr geehrter Herr Don» an einen Sozial-Peer?** Fabio Don ist im Wiki als
+   verspieltes Sozial-Peer-Du kartiert («Tschülinonen», «Hallo Fabio»). In der Rechnungsmail
+   vom 25.09.2025 schreibst Du ihm im vollen, kalten Sie. Schaltet eine Rechnung das Register
+   grundsätzlich auf Sie hoch, auch bei einem Du-Kontakt — oder war das ein Beleg, der intern
+   weitergereicht bzw. verbucht werden musste und deshalb zitierfähig sein sollte? *Warum: klärt,
+   ob der Zwilling bei Geldbelegen an vertraute Kontakte das Register anheben soll; die
+   bestehende Regel sagt nur etwas über den GRUSS bei Geldbezug, nichts über die ANREDE.*
+   → [[beziehungsregister]], [[stimme]]
+
+3. **Wie viel Konsultation ist realistisch?** Dieser Lauf hat auf derselben Mail deutlich
+   schlechter rekonstruiert als der Lauf zwei Tage zuvor (Stimme 68 statt 87, Haltung 62 statt
+   92), weil Marker, die im Wiki stehen, nicht gefunden wurden — `stimme.md` ist auf 235 KB
+   gewachsen. Sollen die Facetten-Artikel gekürzt/konsolidiert werden (Risiko: belegte
+   Feinheiten gehen verloren), oder bleibt die Länge und der Zwilling arbeitet konsequent mit
+   gezielter Suche statt Volllektüre? *Warum: entscheidet, ob die Wissensbasis auf Vollständigkeit
+   oder auf Abrufbarkeit optimiert wird — beides zugleich geht bei dieser Grösse nicht mehr.*
+   → Querschnitt (alle Facetten)
+
+**Anreicherung bestehender Fragen (keine neuen Fragen, nur Datenpunkte):**
+
+- **→ Runde 260725b #4 (Cc-Stapelung):** Gegenbeispiel im Bestand gefunden. Die
+  WOMA-Zahlungserinnerung (16.09.2025) ist derselbe Anlasstyp — Mahnkontext, Du-Kontakt
+  Christoph Bopp im Cc — und stapelt **nicht**: die Anrede lautet allein «Geschätzter Herr
+  Rohner». Wenn Herr Tobler im 260725b-Beleg tatsächlich nur mitlas, widersprechen sich die
+  beiden Fälle; war er dagegen Ansprechpartner der Buchhaltung, ergänzen sie sich zur Regel
+  «gestapelt wird nur, wer Adressat des Anliegens ist». Die Frage bleibt damit offen, ist aber
+  jetzt an einem zweiten Fall aufgehängt.
+- **→ Runde 260727d #1 (Service-Satz trotz Begehren):** zweiter privatwirtschaftlicher Fall.
+  Die Zahlungserinnerung ist eine Forderung und trägt den Service-Satz «Bei Fragen oder
+  Unklarheiten stehe ich Ihnen jederzeit gerne zur Verfügung» — wie schon die
+  CNCEST-Reklamation. Die belegte Ausnahme «Begehren ohne Service-Satz» stammt dagegen
+  ausschliesslich aus Amts-Sprechakten (ESTV, 260719). Verdichtet die vermutete Trennlinie
+  Amt ↔ Privatwirtschaft auf zwei Fälle; entschieden ist sie damit nicht.
+
 ## Offen — Runde 260727k (twin-fragesteller, aus Fidelity-Review 2026-07-27k)
 
 Quelle: Drift-Report `outputs/2026-07-27k_fidelity.md` (Gesamt-Fidelity ~86; erstmals `rj@`

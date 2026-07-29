@@ -4,6 +4,25 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-29 — `twin-fidelity-review` (Fidelity ~73 auf ueberlappendem Material; KEINE
+  Wiki-Aenderung).** Zwei Golds gezogen (WOMA-Zahlungserinnerung 16.09.2025, Druckerkosten-
+  Rechnung RE-00073 25.09.2025) — **beide bereits ausgewertet** (Rohner: 260620/260710/260727k;
+  Don: 260620/260722), das Fenster war Stunden zuvor von Batch 81 abgeschlossen worden. Ursache
+  der Fehlannahme: Abdeckungs-Check lief als `grep … wiki raw outputs 2>/dev/null` aus einem
+  Verzeichnis ohne diese Unterordner, die Fehlermeldungen wurden unterdrueckt und die leere
+  Ausgabe als «unbelegt» gelesen. **Eigentlicher Befund:** der Blindversuch verfehlte drei Marker,
+  die im Wiki stehen (Anrede «Geschaetzter Herr Rohner», satzweise wir/ich-Fuehrung aus dem
+  `haltung.md`-Do-Block, gesichtswahrende Mahn-Bruecke) — 260727k rekonstruierte dieselbe Mail
+  mit Stimme 87 / Haltung 92, dieser Lauf mit 68 / 62. Gemessen wurde die Konsultationstiefe des
+  Reviews, nicht die Treue des Zwillings; `stimme.md` ist auf 235 KB / 2'644 Zeilen gewachsen.
+  **Aktionen:** vier zwischenzeitlich angelegte Facetten-Abschnitte und zwei Do-Block-Schaerfungen
+  wieder **zurueckgenommen** (Duplikate bzw. Vorwegnahme der offen gehaltenen Fragen 260725b #4
+  und 260727d #1); `stimme.md`/`haltung.md`/`arbeitsweise.md`/`beziehungsregister.md` gegen den
+  committeten Stand **byte-identisch verifiziert**. DNA-Rekompilierung ohne Drift («Auto-Block
+  bereits aktuell»). Neu: Report `outputs/2026-07-29_fidelity.md` + QUESTIONS-Runde 260729
+  (3 neue Fragen: Auftrags-Dank beim Kostendurchlauf, Sie-Anrede an den Sozial-Peer bei
+  Geldbelegen, Konsolidierung vs. Vollstaendigkeit der Facetten; plus je ein Datenpunkt an die
+  offenen Fragen 260725b #4 und 260727d #1).
 - **2026-07-29 — `twin-mail-training` Batch 81 (Luecken-Sweep `rj@` 13.–30.09.2025, schliesst
   September 2025 ab).** Fenster vollstaendig gelistet (11 Sent Items), 6 Volltexte gelesen, **vor**
   der Destillation gegen den Wiki-Bestand abgeglichen: **4 von 6 waren bereits destilliert**
