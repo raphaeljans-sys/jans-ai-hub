@@ -73,11 +73,18 @@ Zwei Korrekturen, beide auf dem NAS:
 Verifikation, beide Pfade nachgemessen:
 - **Abweisungspfad** zweimal — unbekannter Name und nicht ausfuehrbarer Pfad, je rc 2, und die
   Meldung nennt neu den beanstandeten Wert statt nur «nicht gefunden».
-- **Freigabepfad** zweimal — auf dem MacBook startet derselbe Aufruf, der vorher in
-  Millisekunden mit rc 2 starb, jetzt `claude` wirklich (er lief beim Schreiben dieses Eintrags
-  seit ueber 20 Minuten; die Selbsttests brauchten je rund 8 Minuten fuer ein blosses «OK»).
-  Auf dem Mini die Aufloesung direkt gegen das echte Binary gemessen: «claude» →
-  `/opt/homebrew/bin/claude`, ausfuehrbar.
+- **Freigabepfad** zweimal. Auf dem Mini die Aufloesung direkt gegen das echte Binary gemessen:
+  «claude» → `/opt/homebrew/bin/claude`, ausfuehrbar. Auf dem MacBook der volle Durchlauf: der
+  Aufruf, der vorher in Millisekunden mit rc 2 aus dem Wrapper starb, hat nach 514 Sekunden mit
+  **rc 1 aus `claude` selbst** geendet und dabei eine vollstaendige Journalzeile geschrieben
+  (`duration_ms`, `session_id`, `num_turns`). Damit ist genau das belegt, worum es geht: der
+  Wrapper loest den Namen auf und uebergibt an das Binary.
+  Das rc 1 war **mein eigener Testfehler**, kein Stationsbefund — ich habe in diesem einen
+  Aufruf `~/.jans-dispatch.env` nicht geladen, worauf die dokumentierte Falschmeldung «OAuth
+  session expired» kommt. Die Fensterprobe zu Beginn dieses Laufs, mit geladener Anmeldung,
+  antwortete «OK». Nebenbefund fuers Protokoll: der Fehlschlag brauchte 8,5 Minuten — der
+  Auth-Fehlerpfad laeuft genauso lange wie ein erfolgreicher Trivial-Lauf, was jede
+  Zeitmessung an diesem Wrapper unbrauchbar macht, solange es nicht geklaert ist.
 - `bash -n` auf beiden Scripts OK. Der Fix liegt auch im SSD-Klon des Mini (nachgeprueft), die
   Nachtschicht 05:30 laeuft also in die korrigierte Fassung.
 
@@ -120,7 +127,7 @@ Sessions duerfte offen und gewollt sein. Zu klaeren waere, ob die App Sessions n
 nicht abraeumt; das gehoert gemessen, bevor jemand aufraeumt.
 
 **P3 — das Lauf-Journal ist noch kein Messinstrument.** `logbuch/laeufe/260729-laeufe.jsonl`
-enthaelt genau zwei Zeilen, beide aus den Selbsttests. Kein produktiver Lauf der Nacht hat
+enthaelt drei Zeilen: zwei Selbsttests und meinen Verifikationslauf. Kein produktiver Lauf der Nacht hat
 hineingeschrieben — teils, weil sie am Wrapper scheiterten, teils weil sie ihn nicht benutzen.
 Der Liefer-Delta muss deshalb weiter ueber Commits und geaenderte Dateien gemessen werden, so
 wie in diesem Eintrag. Die erste Zeile der Selbsttests zeigt zudem `is_error: true` mit
