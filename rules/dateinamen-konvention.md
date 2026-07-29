@@ -61,6 +61,20 @@ Falsch: die drei Dateien lose direkt in `09_Dokumente/`.
 - Projekt-Stammordner mit Nummern-Prefix (z.B. `2414 THALWIL`)
 - Dateien, die bereits eine andere Nummerierung haben und nicht von Claude umbenannt werden sollen
 
+## Fuer Code, der Dateinamen erzeugt: NIE `toISOString()`
+
+Ein Script, das ein Datums-Prefix bildet, muss die **lokale** Zeit verwenden. In JavaScript liefert
+`new Date().toISOString().slice(0,10)` **UTC** und datiert damit jede Datei zwischen 00:00 und 02:00
+CEST (bzw. 00:00–01:00 CET im Winter) **einen Tag zurueck** — genau im Nachtfenster, in dem die
+Lern-Loops und Scheduled Tasks laufen. Richtig ist `new Date().toLocaleDateString("sv-SE")`
+(liefert `JJJJ-MM-TT`) bzw. in bash `date "+%y%m%d"`.
+
+Belegt am 30.07.2026 um 00:39 CEST: `geo-zh.mjs` erzeugte `Zonenplan-ZH_136_3338_2026-07-29.json`.
+Der Bestandssweep fand das Muster in **acht** Scripts; die vier `planungsgrundlagen`-Connectoren
+sind behoben und nachgemessen, die restlichen vier sind offen (`wissen/planungsgrundlagen/wiki/QUESTIONS.md`
+E13). Dasselbe gilt fuer **fremde** Timestamps: der SZ-OEREB-Server benennt seine PDF in UTC —
+wer den Servernamen als Datumsquelle uebernimmt, erbt den Fehler.
+
 ## Im Zweifel
 
 Bei Unsicherheit: 6-stelliges Datum verwenden (YYMMDD), Bindestrich, sprechender Titel.
