@@ -297,6 +297,7 @@ Historie der Auto-Verbesserungen: `rules/auto-verbesserungen-archiv.md` (nicht i
 @/Volumes/daten/jans-ai-hub/rules/normen-referenz.md
 @/Volumes/daten/jans-ai-hub/rules/osascript-apple-apps.md
 @/Volumes/daten/jans-ai-hub/rules/projekt-ablage-stand.md
+@/Volumes/daten/jans-ai-hub/rules/rollen-taxonomie.md
 @/Volumes/daten/jans-ai-hub/rules/spec-methode.md
 @/Volumes/daten/jans-ai-hub/rules/sync-kanonische-quelle.md
 @/Volumes/daten/jans-ai-hub/rules/umlaute-konvention.md
