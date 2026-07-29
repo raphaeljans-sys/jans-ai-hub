@@ -1,5 +1,13 @@
 # Trainingsprogramm — Lern-Loop der Spec-Methode
 
+> **STATUS: EREIGNIS-TRIGGER statt Zeittakt (Entscheid Raphael 26.07.2026, Registry-Nachzug
+> 27.07.).** Der Scheduled Task `spec-training` steht auf `enabled=false`. Dieser Loop laeuft
+> nur noch auf Zuruf bei realer Spec-Anwendung, nicht mehr nach Kalender. **Damit ist die KB
+> KEIN gueltiges Ziel fuer die Nachtschicht-Prioritaet 4** (die «am laengsten nicht
+> trainiert»-Auswahl) — ueberspringen und die naechste faellige KB nehmen. Der Abschnitt
+> «Takt & Umfang» unten beschreibt den Umfang eines Laufs, wenn ein Ereignis ihn ausloest,
+> nicht einen laufenden Takt. (Statuskopf gesetzt vom `vollgas-chef-radar` 29.07.2026.)
+
 Selbst-verbessernder Loop, der die Spec-Methode im JANS-Hub schaerft. Ziel: die Methodik
 und ihr Gate werden mit jeder realen Anwendung treffsicherer — die Methode lernt mit, wie
 Raphael arbeitet. Schwester der anderen `wissen/`-Trainings (immobilienbewertung, energie,

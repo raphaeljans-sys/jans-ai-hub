@@ -29,6 +29,116 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-07-29 12:57 — [FREI] Der Fix von heute frueh hat die groesste Wissensluecke sichtbar gemacht und sie zugleich ans Ende der Warteschlange gestellt. Dazu: fuenf Programmdateien, von denen keine sagt, dass sie ruht — und eine, die einen Takt behauptet, den es seit dem 27.07. nicht mehr gibt
+
+**Selbstkontrolle:** letzter Lauf 09:57 (Eintrag 10:05), dieser Lauf 12:57 — 3,0 h bei
+3-h-Takt, kein verpasster Lauf.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung antwortet «OK» (rc 0). Kein
+Login-Blocker, kein Wochenlimit, kein Mail-Anlass. Endlos-Runner bleibt ausgebaut: auf beiden
+Stationen `launchctl list | grep vollgas` leer, beide plists auf `.disabled-260729`, kein
+Runner-Prozess. Kein Mechanismus feuert doppelt.
+
+**Korrektur am eigenen Eintrag von 09:57:** dort steht als naechster Nachtschicht-Lauf
+«23:30». Das ist falsch. Die plist `ch.jans.nachtschicht` traegt seit **heute 02:53** vier
+statt drei Slots — **23, 2, 5 und neu 13** (Minute 30, Sicherungskopie
+`.bak-3x-260729` daneben). Die Probe auf den Fix faellt also nicht heute Nacht, sondern
+**heute um 13:30**, und der Lauf, um den es geht, ist zum Zeitpunkt dieses Eintrags noch
+nicht gefeuert. Das ist der Grund, warum dieser Eintrag nicht mit einer Erfolgsmeldung endet,
+sondern mit drei weiteren Eingriffen: das Zeitfenster war noch offen.
+
+**P1 — der Fix von 09:57 laeuft Gefahr, sich selbst aufzuheben, und er ist nicht das einzige
+Problem der Auswahl. Beides gemessen, beides behoben.**
+
+Die Nachtschicht waehlt in Prioritaet 4 «die KB, die am laengsten nicht trainiert wurde» ueber
+das Muster `wissen/*/training/PROGRAMM.md`. Neun KBs matchen. Gemessen am CHANGELOG-Datum
+ergibt das diese Reihenfolge:
+
+| Rang | KB | CHANGELOG | Zustand laut Task-Register |
+|---|---|---|---|
+| 1 | `wettbewerbs-dna` | 27.07. 19:38 | **stillgelegt** 27.07. (Freigabe Raphael) |
+| 2 | `spec` | 27.07. 22:21 | **Ereignis-Trigger** 26.07. (Entscheid Raphael) |
+| 3 | `grobkosten` | 27.07. 22:21 | kein Task; Register bat zuletzt um Pause |
+| 4 | `immobilienbewertung` | 28.07. 23:35 | **Ereignis-Trigger**, naechster Lauf 01.09. |
+| 5 | `planungsgrundlagen` | 29.07. 02:07 | kein Task; saturiert (17 Nullbefunde) |
+| … | … | … | … |
+| **9** | **`bauprodukte`** | **29.07. 10:04** | **aktiv, 55 offene Positionen** |
+
+Die vier vordersten Plaetze gehen an KBs, die aus einem Entscheid Raphaels ruhen. Und
+`bauprodukte` — der Korpus mit dem hoechsten Hebel — steht auf dem **letzten** Platz. Der
+Grund dafuer ist mein eigener Eintrag von 10:04: das Anlegen der Programmdatei hat den
+CHANGELOG auf heute gesetzt. Fuer einen datumsbasierten Auswaehler sieht eine
+Struktur-Korrektur aus wie geleistete Arbeit. Der Fix, der die KB sichtbar machen sollte, hat
+sie in derselben Bewegung ans Ende der Schlange gestellt. Ihr letzter **inhaltlicher** Stand
+ist unveraendert der 28.07. 23:42.
+
+Der zweite Teil ist der schwerere. Ich habe die fuenf ruhenden Programmdateien darauf
+geprueft, ob ein Lauf ihren Zustand ueberhaupt erkennen kann: **keine einzige** traegt einen
+Stillgelegt- oder Trigger-Vermerk. `wettbewerbs-dna` nennt im Kopf sogar weiterhin einen
+laufenden Takt («taeglich 05:22 (Scheduled Task)») — seit dem 27.07. falsch. Das ist
+derselbe Fehlertyp wie der `normen`-Befund von 07:10, nur an der Stelle, an der der
+Auswaehler tatsaechlich hinschaut: die Auflage im Lauf-Prompt lautet «Takt-/Drossel-Regeln
+beachten», aber die Datei, die der Lauf dafuer liest, behauptet das Gegenteil. Der Ausschluss
+haengt damit allein daran, dass der Lauf von sich aus zusaetzlich das Task-Register
+konsultiert — vier- bis fuenfmal hintereinander richtig, sonst geht der Slot an eine
+stillgelegte KB.
+
+**Massnahme:** Statuskopf in die Programmdateien gesetzt, dort wo ein **dokumentierter
+Entscheid Raphaels** vorliegt — `wettbewerbs-dna` (stillgelegt 27.07.), `spec` und
+`immobilienbewertung` (Ereignis-Trigger 26.07.). Jeder Kopf nennt den Entscheid, sein Datum
+und den Satz «kein gueltiges Ziel fuer die Nachtschicht-Prioritaet 4». Bei `wettbewerbs-dna`
+zusaetzlich der falsche Takt-Satz als **historisch** markiert. In `bauprodukte` ein
+Warnhinweis, dass das CHANGELOG-Datum vom 29.07. eine Struktur-Korrektur ist und nicht
+Trainingsfortschritt; massgeblich sind Dateistand in `wiki/` und Inventar. Alle vier
+CHANGELOGs nachgefuehrt.
+
+**Ausdruecklich NICHT angetastet: `grobkosten` und `planungsgrundlagen`** (Raenge 3 und 5).
+Fuer beide existiert **kein** Scheduled Task und **kein** Entscheid Raphaels zur Nachtschicht
+— ihr Ausschluss stand in der `EXCLUDE_RE` des Endlos-Runners, und der ist seit dem 29.07.
+ausgebaut. Damit ist der Ausschluss faktisch weggefallen. Ihre Saettigung ist zwar belegt
+(4 bzw. 17 Nullbefunde in Folge), aber daraus einen Stilllegungsvermerk zu machen waere
+eigenmaechtiges Drosseln und gehoert Dir. **Das ist der Punkt, an dem ich eine Entscheidung
+brauche:** sollen die beiden formal als ruhend gefuehrt werden, oder wieder mitlaufen? Bis
+dahin bleiben sie gueltige Ziele.
+
+Kein neuer Loop, kein neuer Takt, keine Aenderung an Register oder Prompt, kein inhaltlicher
+Eingriff in eine KB. Es sind Dokumentationsstaende, die an die bereits gefaellten Entscheide
+angeglichen wurden.
+
+**P2 — der Meldungs-Fix von 09:57 traegt, nachgemessen.** Der Speicher-Waechter meldet seit
+10:34 korrekt: «Speicherdruck 2 (2=warnend, 4=kritisch) bei 3626 MB frei — Menge unauffaellig,
+Mindestwert 1500 MB», dazu die Spalte «Groesste (Footprint, NICHT freiwerdender Speicher)».
+Fuenf Zeilen im neuen Wortlaut (10:34 bis 12:34), die letzte falsche um 10:04. Der
+`python3.12=1422M`-Eintrag steht weiter drin und ist weiter nur Footprint — RSS unveraendert
+zweistellig. Kein Eingriff noetig.
+
+**Offen aus dem 07:10-Eintrag, unveraendert und weiterhin Deine Entscheidung:** das Lauf-Gate
+weist auf dem MacBook alles ab (jetzt gemessen: **3481 MB frei, Druck 2**, `lauf-gate.sh`
+rc=1). Auf dem **Mac Mini** dagegen laesst es durch (Druck 1, **12'279 MB** frei) — die
+Nachtschicht ruft das Gate selbst auf, ihr 13:30-Slot ist also nicht gefaehrdet. Die Sperre
+bleibt eine reine MacBook-Sache und weiterhin latent. Keine Wiederholungsmail.
+
+**Liefer-Delta seit dem letzten Lauf (09:57):**
+
+| Zeit | Station | Loop | Ergebnis |
+|---|---|---|---|
+| 09:40 | MacBook | `heartbeat-daily` | **Geliefert** (Nachtrag zur offenen Zeile von 09:57) — Lauf beendet, `heartbeat.sh` gibt seinen Report an den Aufrufer aus und schreibt keine Datei; kein Datei-Delta zu erwarten, kein Delta-Null-Befund |
+| 10:00–12:57 | MacBook | — | **Kein Task faellig.** Zwischen 10:00 und 13:00 steht ausser dem Radar selbst kein Eintrag im Register. Das ist die vorgesehene Tagesruhe der Arbeitsstation (Rollentrennung 28.07.), nicht Leerlauf |
+| 15×/15min | NAS | `nas-selfcommit` | Laeuft, aber **zaehlt nicht als Arbeit**: alle zwoelf Commits seit 10:15 aendern ausschliesslich `station-status/mac-mini.md` + `macbook-pro.md` |
+| 13:30 | Mini | `nachtschicht` | **Steht noch aus** — der neue Slot. Probe auf den `bauprodukte`-Fix UND auf die drei Statuskoepfe. Beim naechsten Lauf (13:57) nachziehen: greift der Lauf zu `bauprodukte`, oder gewinnt eine der ruhenden KBs? |
+
+**Kein Loop steht bei drei Laeufen in Folge ohne Liefer-Delta.** Keine Ruecktaktung, keine
+Deaktivierung. Das leere Fenster 10:00–13:00 ist kein Befund: es war kein Lauf getaktet.
+
+**P3 — offener Faden fuer den naechsten Lauf.** Der Lauf-Prompt in `nachtschicht-run.sh`
+nennt den neuen Slot «13:30», die plist feuert Stunde 13 Minute 30 — das stimmt ueberein.
+Nicht angefasst habe ich den Auswahl-Mechanismus selbst: Prioritaet 4 globbt weiterhin blind
+und sortiert nach einem Datum, das, wie dieser Eintrag zeigt, auch von Struktur-Arbeit
+bewegt wird. Die Statuskoepfe heilen den Symptomfall, nicht die Messgroesse. Ob der Prompt
+auf «letzter Stand in `wiki/`» statt auf das CHANGELOG-Datum umgestellt werden soll, ist ein
+Eingriff in den Taktgeber und gehoert erst nach der 13:30-Probe entschieden.
+
+---
 
 ## 2026-07-29 09:57 — [FREI] Der Korpus mit dem hoechsten Hebel war fuer seinen Taktgeber unsichtbar — eine fehlende Datei, seit dem 28.07. Behoben. Dazu: der Speicher-Waechter meldet achtmal taeglich eine Speichernot, die es nicht gibt
 

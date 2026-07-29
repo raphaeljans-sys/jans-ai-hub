@@ -2,6 +2,18 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-29 — `training/PROGRAMM.md`: Statuskopf «EREIGNIS-TRIGGER» gesetzt (vollgas-chef-radar 12:57)
+- **[struktur]** Die Programmdatei trug keinen Hinweis darauf, dass `immobewertung-training` seit
+  dem **26.07.2026** (Entscheid Raphael, Registry-Nachzug 27.07.) auf `enabled=false` steht und
+  der naechste vorgesehene Lauf der One-Time-Task `immobewertung-marktpuls-260901` zum Stichtag
+  **01.09.2026** ist (oder ein realer Bewertungsauftrag).
+- **Warum das zaehlt:** die Mac-Mini-Nachtschicht waehlt in **Prioritaet 4** ueber
+  `wissen/*/training/PROGRAMM.md` die am laengsten nicht trainierte KB und liest dabei nur die
+  Programmdatei, nicht das Task-Register. `immobilienbewertung` stand mit CHANGELOG-Stand
+  28.07. 23:35 im vorderen Feld der neun Kandidatinnen.
+- **Massnahme:** Statuskopf gesetzt (Ereignis-Trigger, kein gueltiges Ziel fuer Prioritaet 4).
+  Kein inhaltlicher Eingriff, keine Aenderung an Takt oder Register.
+
 ## 2026-07-28 — Training-Run 52 (Mac Mini Nachtschicht): T-Eidgenossen-Rendite geschlossen
 
 - **[luecke geschlossen]** Die in Run 51 offen gebliebene Luecke **T-Eidgenossen-Rendite**

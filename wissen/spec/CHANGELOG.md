@@ -1,5 +1,18 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-29 — `training/PROGRAMM.md`: Statuskopf «EREIGNIS-TRIGGER» gesetzt (vollgas-chef-radar 12:57)
+- **[struktur]** Die Programmdatei trug keinen Hinweis darauf, dass `spec-training` seit dem
+  **26.07.2026** (Entscheid Raphael, Registry-Nachzug 27.07.) auf `enabled=false` steht und nur
+  noch **auf Zuruf bei realer Spec-Anwendung** laeuft. Ihr Abschnitt «Takt & Umfang (verbindlich)»
+  las sich damit wie ein laufender Kalendertakt.
+- **Warum das zaehlt:** die Mac-Mini-Nachtschicht waehlt in **Prioritaet 4** ueber
+  `wissen/*/training/PROGRAMM.md` die am laengsten nicht trainierte KB und liest dabei nur die
+  Programmdatei, nicht das Task-Register. `spec` war mit CHANGELOG-Stand 27.07. 22:21 die
+  **zweitaelteste** von neun Kandidatinnen.
+- **Massnahme:** Statuskopf gesetzt (Ereignis-Trigger, kein gueltiges Ziel fuer Prioritaet 4;
+  «Takt & Umfang» beschreibt den Umfang eines ausgeloesten Laufs, nicht einen Takt). Kein
+  inhaltlicher Eingriff, keine Aenderung an Takt oder Register.
+
 ## 2026-07-27 — Wissens-Chef Run 17 (Cross-KB): der Lauf-9-Schluss zum SMB-Commit ist ueberholt
 - **[korrektur] `wiki/environment-jans-hub.md` fuehrte eine seit dem 26.07. verbotene Praxis als aktive Handlungsempfehlung** (`status: established`): der Lauf-9-Schluss vom 13.07.2026 hatte den Regel-Widerspruch per Betriebs-Empirie zugunsten des **direkten git-Commits ueber den SMB-Mount** entschieden und festgehalten, `git-auto-push.md` bleibe «unveraendert die aktive Regel». Beides ist ueberholt: `rules/sync-kanonische-quelle.md` untersagt im Abschnitt «NIE» neu **jeden** git-Schreibbefehl ueber den SMB-Mount aufs NAS-`.git` (einziger erlaubter Committer ist der native `nas-selfcommit.sh`, auf Zuruf `nas-commit-now.sh`), und `git-auto-push.md` traegt seit dem 26.07. einen Kopfabschnitt, der die Commit-Schritte ausdruecklich auf **andere** Repos begrenzt (Auto-Verbesserung 260726). → Nachtrag gesetzt; der Lauf-9-Schluss gilt **nicht mehr als Handlungsanweisung**, bleibt aber als Methodik-Beispiel stehen.
 - **[lehrsatz]** Und als Methodik-Beispiel ist er jetzt wertvoller als vorher, mit umgekehrtem Vorzeichen: die Empirie vom 13.07. belegte die **Abwesenheit von Schaden im damaligen Beobachtungsfenster**, nicht dessen Unmoeglichkeit — der Schadensfall trat am 25.07. unter Last mehrfach ein. **Fuer den Verifier-Schritt der Spec-Methode: ein Verifier aus Betriebs-Empirie belegt den Ist-Zustand, nicht die Belastungsgrenze. Ein daraus abgeleiteter Regel-Entscheid braucht ein Verfallsdatum oder eine Re-Pruefung, statt als `established` festgeschrieben zu werden.**

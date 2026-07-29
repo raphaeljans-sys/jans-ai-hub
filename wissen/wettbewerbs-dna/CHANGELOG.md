@@ -1,5 +1,19 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-29 — `training/PROGRAMM.md`: Statuskopf «STILLGELEGT» gesetzt (vollgas-chef-radar 12:57)
+- **[struktur/korrektur]** Die Programmdatei nannte im Kopf weiterhin einen **aktiven Takt**
+  («taeglich 05:22 (Scheduled Task)»), obwohl der Task `wettbewerbs-dna-training` seit dem
+  **27.07.2026** auf `enabled=false` steht (Stilllegung, Freigabe Raphael, Leerlauf-Bereinigung).
+- **Warum das zaehlt:** die Mac-Mini-Nachtschicht waehlt ihre Aufgabe in **Prioritaet 4** ueber
+  das Muster `wissen/*/training/PROGRAMM.md` und nimmt die KB, die am laengsten nicht trainiert
+  wurde. Nach diesem Mass war `wettbewerbs-dna` mit CHANGELOG-Stand 27.07. 19:38 die **aelteste
+  von neun** Kandidatinnen — also die naechste, die drankommt, obwohl sie ruht. Der Auswahl-Glob
+  liest nur die Programmdatei, nicht das Task-Register; die Datei behauptete das Gegenteil.
+- **Massnahme:** Statuskopf gesetzt (STILLGELEGT, kein gueltiges Ziel fuer Prioritaet 4,
+  Reaktivierung nur durch Raphael), Takt-Satz als **historisch** markiert. Kein inhaltlicher
+  Eingriff in die KB, keine Aenderung an Takt oder Register — die Datei sagt jetzt, was ohnehin
+  seit dem 27.07. gilt.
+
 ## 2026-07-27 (Nachtschicht-Zyklus Mac Mini, 19:30) — Infra-Fix: Vollgas-Runner-Doppellauf behoben
 - Root-Cause-Fix fuer den am 25.07. gemeldeten Doppellauf (`wettbewerbs-dna-training` lief
   gleichzeitig ueber den Endlos-Runner UND den eigenen Scheduled Task, `index.lock`-Konflikt).

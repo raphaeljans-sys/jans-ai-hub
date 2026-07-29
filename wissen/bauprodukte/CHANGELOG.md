@@ -1,5 +1,17 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-07-29 — Nachtrag zum Statuskopf: der eigene CHANGELOG-Eintrag von 10:04 verstellt die Auswahl (vollgas-chef-radar 12:57)
+- **[struktur]** Der Fix von 09:57 (Anlegen von `training/PROGRAMM.md`) hat einen **Nebeneffekt**,
+  der ihn teilweise aufheben kann: er setzte den CHANGELOG dieser KB auf den **29.07. 10:04** und
+  machte sie damit zur **juengsten von neun** Kandidatinnen der Nachtschicht-Prioritaet 4 — also
+  zur letzten, die drankommt, obwohl sie mit **55 offenen Positionen** die groesste Luecke traegt.
+  Der letzte **inhaltliche** Stand datiert unveraendert vom **28.07. 23:42** (`wiki/`).
+- **Lehre:** eine Struktur-Korrektur an einer KB sieht fuer jeden datumsbasierten Auswaehler aus
+  wie geleistete Arbeit. Wer Sichtbarkeit herstellt, verschiebt damit zugleich die Rangfolge.
+- **Massnahme:** Warnhinweis im Statuskopf von `training/PROGRAMM.md` — massgeblich ist der
+  Dateistand in `wiki/` und der Inventarstand, nicht das CHANGELOG-Datum. Kein inhaltlicher
+  Eingriff, kein neuer Takt.
+
 ## 2026-07-29 — `training/PROGRAMM.md` angelegt: die KB war fuer jeden Taktgeber unsichtbar
 - **[struktur] Befund (vollgas-chef-radar 09:57, unabhaengig bestaetigt nach dem Strukturhinweis
   der `vollgas-fruehwarnung` 07:15):** Die Mac-Mini-Nachtschicht — seit dem Ausbau des

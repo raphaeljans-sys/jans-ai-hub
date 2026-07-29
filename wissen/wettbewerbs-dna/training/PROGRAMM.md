@@ -1,9 +1,18 @@
 # Trainingsprogramm — wettbewerbs-dna
 
+> **STATUS: STILLGELEGT seit 27.07.2026 (Freigabe Raphael, Leerlauf-Bereinigung).**
+> Der Scheduled Task `wettbewerbs-dna-training` steht auf `enabled=false`. Grund: ETAPPE 3
+> meldete mehrere Laeufe in Folge «nichts Neues zu destillieren, keine Datei geaendert» und
+> wartet auf eine Richtungsentscheidung Raphaels (weitere Bauaufgabe, Vertiefung oder
+> Umwidmung). **Diese KB ist KEIN gueltiges Ziel fuer die Nachtschicht-Prioritaet 4** — sie
+> ueberspringen und die naechste faellige KB nehmen. Reaktivierung nur durch Raphael.
+> (Statuskopf gesetzt vom `vollgas-chef-radar` 29.07.2026: der Takt-Satz unten behauptete
+> seit dem 27.07. einen aktiven taeglichen Lauf, den es nicht mehr gibt.)
+
 Loop: `wettbewerbs-dna-training` · Station: **MacBook Pro** (Zuteilung 12.07.2026;
-OneDrive-Archiv hier lesbar, TCC geprueft). Takt: taeglich 05:22 (Scheduled Task),
-in der Intensivphase (Regel 260712) ergaenzt durch manuelle Session-Laeufe am Tag;
-nach Ruecktaktung: Nachtfenster 22:00–06:00.
+OneDrive-Archiv hier lesbar, TCC geprueft). Takt **historisch** (bis 27.07.2026): taeglich
+05:22 (Scheduled Task), in der Intensivphase (Regel 260712) ergaenzt durch manuelle
+Session-Laeufe am Tag; nach Ruecktaktung: Nachtfenster 22:00–06:00. **Aktuell kein Takt.**
 
 ## Auftrag je Lauf
 

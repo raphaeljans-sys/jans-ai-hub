@@ -1,5 +1,14 @@
 # Trainingsprogramm — Lern-Loop der KB Immobilienbewertung
 
+> **STATUS: EREIGNIS-TRIGGER statt Zeittakt (Entscheid Raphael 26.07.2026, Registry-Nachzug
+> 27.07.).** Der Scheduled Task `immobewertung-training` steht auf `enabled=false`. Der
+> naechste vorgesehene Lauf ist der One-Time-Task `immobewertung-marktpuls-260901`
+> (Stichtag **01.09.2026**) oder ein realer Bewertungsauftrag. **Damit ist die KB KEIN
+> gueltiges Ziel fuer die Nachtschicht-Prioritaet 4** (die «am laengsten nicht
+> trainiert»-Auswahl) — ueberspringen und die naechste faellige KB nehmen. Der Abschnitt
+> «Takt & Umfang» unten beschreibt den Umfang eines ausgeloesten Laufs, nicht einen
+> laufenden Takt. (Statuskopf gesetzt vom `vollgas-chef-radar` 29.07.2026.)
+
 Selbststudium-Loop, der die KB kompoundierend verbessert: aus dem Rohmaterial (`raw/` +
 die IMMO-SharePoint-Ordner) werden laufend bessere Wiki-Artikel — damit zukuenftige
 Bewertungsanfragen Top-Resultate liefern.

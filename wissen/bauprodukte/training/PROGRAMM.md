@@ -11,6 +11,18 @@ Angelegt vom `vollgas-chef-radar` am 29.07.2026 nach dem Strukturbefund der
 **Kein neuer Loop, kein neuer Takt, keine zusaetzlichen Kosten** — nur die fehlende
 Wegweiser-Datei zu bereits vorhandener Buchhaltung.
 
+> **STATUS: AKTIV, hoechste Prioritaet unter den Destillat-Korpora** (`KORPUS-QUEUE.md`:
+> hoechster direkter Hebel, weil nach BKP gegliedert und damit Zulieferer fuer
+> `ausschreibung`, `offertenpruefung`, `brandschutz` und `grobkosten`).
+>
+> **Achtung bei der «am laengsten nicht trainiert»-Auswahl (Nachtschicht-Prioritaet 4):**
+> `CHANGELOG.md` dieser KB traegt den 29.07.2026 — das ist die **Struktur-Korrektur** des
+> `vollgas-chef-radar` (Anlegen dieser Datei), **kein Trainingslauf**. Der letzte
+> **inhaltliche** Stand datiert vom **28.07.2026 23:42** (`wiki/`), und seither ruht der
+> Korpus mit **55 offenen Positionen**. Wer hier nach CHANGELOG-Datum sortiert, haelt die
+> juengste Datei faelschlich fuer die frischeste Arbeit. Massgeblich ist der Dateistand in
+> `wiki/` und der Inventarstand unten.
+
 ## Wo der Stand wirklich steht (diese Datei fuehrt ihn NICHT)
 
 Die Buchhaltung dieses Korpus liegt beim Destillat-Skill, nicht in der KB — bewusst so
