@@ -4,6 +4,35 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-29 — `twin-mail-training` Batch 81 (Luecken-Sweep `rj@` 13.–30.09.2025, schliesst
+  September 2025 ab).** Fenster vollstaendig gelistet (11 Sent Items), 6 Volltexte gelesen, **vor**
+  der Destillation gegen den Wiki-Bestand abgeglichen: **4 von 6 waren bereits destilliert**
+  (Rohner-Zahlungserinnerung, Gabi-Demme inkl. Echo-Falle 9, Fabio-Don-Rechnung, Weisser-
+  Kanalisationsplan), 1 reiner Forward ohne Eigentext. **Neu ins Wiki:** (1) `stimme.md` —
+  Doppelgruss-Abschnitt um einen **2. Beleg** erweitert und von Einzelbeleg auf **zweifach belegt**
+  gehoben: die Fabio-Don-Rechnung zeigt den getippten Gruss **wortgleich** zum Block-Gruss
+  («Freundliche Gruesse» zweimal, kaltes Sie), was die Batch-80-Lesart «bewusste situative
+  Ergaenzung» entkraeftet — es ist schlicht Raphaels Gewohnheit, den Text selbst zu schliessen,
+  waehrend die Signatur-Automatik unabhaengig anhaengt; Nebenmarker: die **getippte Selbstbenennung
+  folgt dem Register** («Raphael» im Du ↔ «Raphael Jans, Architekt ETH SIA» im Geld-Sie), der Block
+  nie. (2) `stimme.md` — **neu** Betreff-only-Mail mit komplett leerem Body («ZSC» an Gerry
+  Scherbl, 24.09.), als Nullstufe unter der bekannten Betreff-traegt-die-Aussage-Form; **bewusst
+  mit Vorbehalt und NICHT im Do-Block**, weil Absicht vs. Fehlversand aus dem Korpus nicht
+  entscheidbar ist. (3) `arbeitsweise.md` — **neu**: Zweifel am eigenen Adressatenstatus wird in
+  **einem Satz als geschlossene Alternativfrage zurueckgespielt** statt eigenmaechtig entschieden
+  (Bopp 22.09., «Ist die E-Mail fuer mich gedacht oder soll ich die loeschen? / Lgr»). (4)
+  `beziehungsregister.md` — **neu** Identifikator-Praezisierung: Christoph Bopp fuehrt eine zweite
+  Absender-Domaene `@novaproperty.ch` neben `@woma-maur.ch` (Register unveraendert Du; seine Rolle
+  bei Nova ist unbelegt → QUESTIONS). (5) `QUESTIONS.md` — 3 neue Fragen (leere ZSC-Mail Absicht
+  oder Versehen · stoert der Doppelgruss · Bopp-Rolle bei Nova). Mikro-Metrik ueber die
+  4 authentischen Eigentexte (178 W): Satzlaenge ø 12.7 W (Korpusband bestaetigt); **Du-Gross-Quote
+  0.0 ausdruecklich als nicht aussagekraeftig markiert** (kein einziges Du-Pronomen im Fenster,
+  leerer Nenner — nicht als Stil-Abweichung lesen). **Betriebsvorfall waehrend des Laufs:** der
+  SMB-Mount brach beim Schreiben des Registers weg (bekannter Idle-Stall, Memory
+  `project_nas_mount_haerten`); force-unmount + `osascript`-Remount ueber den Tailscale-Hostnamen,
+  danach alle Schreibvorgaenge einzeln verifiziert — die vier Wiki-Edits waren durchgekommen,
+  `raw/_INGESTED.md` nicht und wurde ueber eine lokale Zwischendatei nachgezogen. Naechstes
+  Fenster: `rj@` Oktober 2025 (Abgleich-vor-Lektuere erneut Pflicht).
 - **2026-07-29 — Felix Stählin: Firma und Gewerk korrigiert (Antwort Raphael, schliesst die
   Run-17-Frage).** Fünf Stellen in `wiki/beziehungsregister.md` und eine in `wiki/stimme.md`
   führten ihn als **«Stählin AG Sanitär»** bzw. «Sanitär-Lieferant» / «Karl Wächter AG». Richtig

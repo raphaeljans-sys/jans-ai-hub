@@ -309,3 +309,47 @@ zwei Belege Yorck; stimme **neu** doppelter Gruss Beste-Gruesse+Signaturblock im
 **Naechster rj@-Luecken-Sweep:** restliches September 2025 (13.–30.09. bereits via Batch 13/14
 abgedeckt, aber ebenfalls nur stichprobenartig "5 Volltexte von 15/40 gesichtet" — weitere
 Kandidaten-Volltexte dort moeglich) sowie Oktober–Dezember 2025 gemaess Empfehlung 260727j.
+
+| `260729-mailbatch-81.md` | **Luecken-Sweep `rj@` September 2025, zweite Haelfte** (Fortsetzung
+Batch 80 gemaess dessen Empfehlung): Fenster 2025-09-13 bis 2025-09-30 **vollstaendig** gelistet
+(11 Sent Items, `totalResultCount` bestaetigt — kein Rest). 3 davon reine Microsoft-Support-Threads
+(SharePoint/OneDrive-Tickets, auftragsgemaess ignoriert, kein JANS-Stil), 1 Kalender-Annahme ohne
+Text. Von den 7 inhaltlichen Kandidaten 6 Volltexte gelesen und **vor** der Destillation gegen den
+bestehenden Wiki-Bestand abgeglichen (Methodik Batch 80). Ergebnis: **4 von 6 waren bereits
+destilliert** — Zahlungserinnerung Rohner/WOMA 16.09. (stimme «1. Mahnstufe gesichtswahrend»,
+arbeitsweise «Mahnstufe-1-Nachverfolgung»), Gabi-Demme-Mail 17.09. inkl. Echo-Falle 9 (der
+eingebettete «Lieber Michael»-Entwurf ist AI-Paste, im Wiki korrekt als Nicht-Stilquelle markiert;
+die Volltext-Lektuere bestaetigt das unabhaengig durch zwei bisher nicht notierte Signale: «ss/ß»
+in «größeren» und durchgaengig kleines «du/dir/dich» — beides Raphaels eigener Konvention
+entgegen), Fabio-Don-Rechnung 25.09. (beziehungsregister «Geld kehrt Sozial-Peer-Du ins kalte
+Sie»), Peter-Weisser-Kanalisationsplan 26.09. (stimme «Zwischen-Transmittal»). 1 Mail ohne
+Eigentext (Fwd «Inspo Bilder» an bureaulauper 30.09., reiner Weiterleitungs-Rumpf, Absenderin
+Lu van der Zee bereits gemappt) → kein Marker. **3 echte Luecken destilliert:** (a) Ultrakurz-
+Klaerungsreply an Christoph Bopp 22.09. («Hoi Christoph / Ist die E-Mail fuer mich gedacht oder
+soll ich die loeschen? / Lgr»), (b) Betreff-only-Mail «ZSC» an Gerry Scherbl 24.09. mit komplett
+leerem Body (mit Vorbehalt aufgenommen, Absicht vs. Fehlversand aus dem Korpus nicht
+entscheidbar), (c) **Status-Hebung** des Batch-80-Doppelgruss-Markers vom Einzelbeleg auf
+zweifach belegt — die Fabio-Don-Mail zeigt den getippten Gruss **wortgleich** zum Block-Gruss
+(«Freundliche Gruesse» zweimal) und damit registeruebergreifend, was die Batch-80-Lesart
+«bewusste situative Ergaenzung» entkraeftet; Nebenfund dazu: die getippte Selbstbenennung folgt
+dem Register («Raphael» im Du ↔ «Raphael Jans, Architekt ETH SIA» im Geld-Sie), der
+Signaturblock nie. Nebenbefund Identifikator: Christoph Bopp fuehrt eine **zweite
+Absender-Domaene** `@novaproperty.ch` neben `@woma-maur.ch` (Register unveraendert Du).
+Mikro-Metrik ueber die 4 authentischen Eigentexte des Fensters (178 W, stilmetrik.py, ohne
+AI-Paste-Block und ohne Forward): Satzlaenge ø 12.7 W (Korpusband 11.9–13.4 bestaetigt), Anreden
+«Hoi liebe» / «Hoi Christoph» / «Geschaetzter Herr» / «Sehr geehrter Herr» je 1x, Gruesse
+«Freundliche Gruesse» 2x + «Beste Gruesse» 1x; Du-Gross-Quote 0.0 **nicht aussagekraeftig** (kein
+einziges Du-Pronomen im Fenster, Nenner leer — nicht als Abweichung lesen); keine
+Apostroph-Zahlen/Ellipsen (registerbedingt). | authentisch (4 Eigentexte; 1 eingebetteter
+AI-Paste-Block ausgeschlossen, 3 MS-Support-Threads + 1 Forward nicht verwertet) | ja (stimme
+**erweitert** Doppelgruss-Abschnitt 2. Beleg + Status-Hebung + registerabhaengige Selbstbenennung,
+**neu** Betreff-only mit leerem Body; arbeitsweise **neu** Zweifel am eigenen Adressatenstatus als
+Ein-Satz-Alternativfrage zurueckspielen; beziehungsregister **neu** Identifikator-Praezisierung
+Bopp-Zweitdomaene; QUESTIONS **neu** 3 Fragen) |
+
+**Befund zum Sweep-Ertrag (ehrlich):** die Trefferquote faellt deutlich — Batch 80 fand 3 Luecken
+bei 7 Kandidaten, Batch 81 findet 2 neue Mails + 1 Status-Hebung bei 6 Kandidaten, bei einem
+vollstaendig (nicht stichprobenartig) gelisteten Fenster. September 2025 ist damit **abgeschlossen**
+(01.–12. via Batch 80, 13.–30. via Batch 81, beide vollstaendig gelistet). **Naechstes Fenster:**
+`rj@` Oktober 2025 — dort ist laut Wiki-Belegen (17.10./23.10./24.10.) bereits einiges destilliert,
+der Abgleich-vor-Lektuere-Schritt ist also erneut Pflicht.

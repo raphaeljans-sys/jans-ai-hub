@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-07-27
+last_updated: 2026-07-29
 gewichtung: authentisch
-sources: [260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -2597,4 +2597,47 @@ den Raphael nicht manuell entfernt, obwohl er im warmen Du-Register bereits gegr
 «Beste Grüsse» als warm-neutrale Mittelstufe auch im engen Investor-Du (nicht nur bei Sie-Handwerkern/
 -Peers, bereits breit belegt) und ergänzt: der fixe Signaturblock läuft im Investor-Du **parallel**
 zum situativen Kurzgruss, statt ihn zu ersetzen — ein Authentizitätssignal (Mail-Client-Artefakt,
-keine Claude-Glättung würde das duplizieren). Noch nicht in den Do-Block gehoben (Einzelbeleg).
+keine Claude-Glättung würde das duplizieren).
+
+**2. Beleg (Batch 81, Lücken-Sweep September 2025) — der Doppel-Gruss ist registerübergreifend
+und NICHT auf den warmen Kurzgruss beschränkt.** Rechnungs-Begleitmail an einen Sozial-Peer im
+kältesten Sie (Fabio Don, Druckerkosten RE-00073, 25.09.2025):
+> Sehr geehrter Herr Don / … / **Freundliche Grüsse** / **Raphael Jans, Architekt ETH SIA**
+> [danach ungekürzt der volle Signaturblock, erneut beginnend mit «Freundliche Grüsse /
+> RAPHAEL JANS Founder I MD …»]
+
+Hier ist der getippte Gruss **wortgleich** mit dem Block-Gruss («Freundliche Grüsse» zweimal) —
+er stapelt sich also auch dann, wenn keine Register-Differenz vorliegt. Das entkräftet die
+Batch-80-Lesart, der handgetippte Gruss sei eine bewusste *situative* Ergänzung: er ist schlicht
+**Raphaels Schreibgewohnheit, den Text selbst zu schliessen**, und der Automatik-Block hängt sich
+unabhängig davon an. Zwei Belege, zwei Register (Investor-Du / kaltes Rechnungs-Sie) → Status von
+Einzelbeleg auf **zweifach belegt** gehoben.
+
+**Neuer Teilmarker — die getippte Selbstbenennung folgt dem Register, der Block nie.** Unter dem
+handgetippten Gruss variiert Raphael, wie er sich nennt: «**Raphael**» (Investor-Du, 02.09.) ↔
+«**Raphael Jans, Architekt ETH SIA**» (kaltes Rechnungs-Sie, 25.09.) — im Geld-/Belegkontext also
+mit vollem Namen UND Berufstitel als Absender-Ausweis. Der Signaturblock darunter bleibt in beiden
+Fällen identisch («RAPHAEL JANS Founder I MD»). → Der Zwilling wählt die Selbstbenennung nach
+Register (Vorname im Du, Name + «Architekt ETH SIA» im formellen Geld-/Beleg-Sie) und **reproduziert
+den Signaturblock nie selbst** (er entsteht technisch, vgl. [[QUESTIONS]] 1274 «Lgr»-Signatur-Abschalter).
+
+## Betreff-only-Mail mit KOMPLETT leerem Body im vertrauten Fachplaner-Du (belegt Mailbatch 81, authentisch, offen/Einzelbeleg + Vorbehalt)
+
+Bisher belegt war die «ultraminimale interne Auftragserteilung», bei der der Betreff die Aussage
+trägt und der Body auf Zahl + Kürzel schrumpft (Batch 50), sowie der Betreff als alleiniger
+Call-to-Action bei voll ausformuliertem Body (Batch 62, «Anrufen: <Nummer>»). Neu ist die
+**Nullstufe darunter**: eine Mail an den vertrauten Fachplaner-Peer (Gerhard «Gerry» Scherbl,
+Wintec AG, 24.09.2025) mit dem Betreff «**ZSC**» und **gar keinem Body** — keine Anrede, kein
+Satz, kein Gruss, kein Anhang. Der Betreff ist das ganze Stichwort; die gemeinsame Vorgeschichte
+(bekannter Eishockey-/Termin-Kontext, vgl. die separat belegte ZSC-Einladung an Bopp) trägt die
+Bedeutung allein.
+
+Reiht sich in die belegte **Rohheit des engsten Peer-Du** ein (grussloser Schluss, Urgenz-Titel
+statt Anrede, spontane Reihenfolge → [[arbeitsweise]]): je enger und eingespielter der Kontakt,
+desto mehr Rahmung fällt weg — bis am Ende nur noch der Anstoss selbst übrig bleibt.
+
+**Vorbehalt (nicht glätten, nicht überinterpretieren):** «Body leer» ist hier der Befund der
+Graph-Extraktion (Body und Summary beide leer, `hasAttachments: false`). Ob Raphael die Mail
+bewusst leer abgeschickt hat oder ob es ein Fehlversand / eine abgebrochene Eingabe war, ist aus
+dem Korpus **nicht entscheidbar**. Deshalb Einzelbeleg, **nicht** in den Do-Block gehoben — der
+Zwilling erzeugt von sich aus keine leeren Mails. Frage an Raphael → [[QUESTIONS]] (Batch 81).

@@ -2160,3 +2160,23 @@ damit ein künftiger Batch die Annotation nicht erneut als Beleg liest.
 Run 19): eine Autoren-Annotation in einer `raw/`-Datei wird später als Quelle behandelt. Wo eine
 `raw/`-Datei neben dem Quellmaterial eigene Zuordnungen führt, sind diese als Annotation zu
 kennzeichnen.
+
+## Offene Fragen aus Batch 81 (Lücken-Sweep rj@ 13.–30.09.2025, gestellt 29.07.2026)
+
+1. **Die leere «ZSC»-Mail an Gerry Scherbl (24.09.2025) — Absicht oder Versehen?** Die Mail hat
+   den Betreff «ZSC» und **gar keinen Body** (kein Text, kein Anhang). Verschickst Du bei einem
+   eingespielten Peer bewusst reine Betreff-Nachrichten, wenn das Stichwort im gemeinsamen Kontext
+   alles sagt — oder war das ein Fehlversand? *Warum: davon hängt ab, ob der Zwilling die Nullform
+   «Betreff trägt alles, Body leer» je selbst erzeugen darf. Solange unklar, erzeugt er sie nicht.*
+
+2. **Doppel-Gruss: schaltest Du die Automatik-Signatur je bewusst ab?** Zwei Belege zeigen den
+   getippten Gruss direkt vor dem Signaturblock, der selbst nochmals grüsst — einmal mit anderem
+   Wortlaut (Beste Grüsse → Block, Bopp 02.09.), einmal **wortgleich** (Freundliche Grüsse zweimal,
+   Fabio Don 25.09.). Stört Dich die Doppelung, oder ist sie Dir schlicht egal? *Warum: der Zwilling
+   soll wissen, ob er den getippten Gruss als vollständigen Abschluss setzen darf (Block kommt
+   technisch dazu) oder ob er die Doppelung als Fehler behandeln und `korrektur` sie ziehen soll.*
+
+3. **Welche Rolle hast Du bei Nova Property gegenüber Christoph Bopp?** Bopp schreibt Dir sowohl
+   von `@woma-maur.ch` als auch von `@novaproperty.ch` (22.09.2025). Sind das zwei Mandate desselben
+   Partners, oder ist Nova nur der Objekt-Eigentümer im STWEG-Fall? *Warum: Identifikator-Pflicht —
+   die Zuordnung Person→Organisation wandert unverändert in Anschreiben, Adressblatt und Protokoll.*
