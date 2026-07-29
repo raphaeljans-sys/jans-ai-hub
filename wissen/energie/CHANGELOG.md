@@ -2,6 +2,79 @@
 
 Neueste zuoberst.
 
+## 2026-07-29 — Wissens-Chef Run 20 (Cross-KB): die drei neuen Wasser-Destillate nutzten den WsG-Volltext nicht, der 24 h vorher hereinkam
+- **[strukturbefund, wichtigster des Laufs] «Ein Zugang heilt keinen Bestand.»** Run 119 hat am 29.07.
+  drei Destillate im Wasserrecht angelegt (Regenwasser-Brauchwasser, Seewasser-Aquathermie,
+  Eisspeicher). Alle drei stuetzen ihre Rechtsgrundlage auf Sekundaerquellen oder erklaeren sie fuer
+  «nicht gefunden» — obwohl `baurecht` den amtlichen WsG-/WsV-Volltext am **28.07.** ins Haus geholt
+  hat. **Das Seewasser-Destillat legt neben einer bereits beantworteten Frage eine neue offene Frage
+  an:** es kennt die Konzessionsdauer nicht, die Wissens-Chef Run 19 einen Tag vorher fuer das
+  Schwester-Destillat `grundwasserwaermenutzung-bewilligung-zh-sz` geklaert hatte; der Backlink dorthin
+  fehlte ganz (0 Treffer). Ursache: das Curriculum fuehrt die Frage weiter als offen, also recherchiert
+  der Loop extern weiter. **Konsequenz fuer diese KB:** nach dem Zugang eines Erlass-Volltextes in
+  `baurecht` gehoert ein Rueckwaerts-Sweep ueber die eigenen offenen Punkte, nicht nur ein
+  Vorwaerts-Destillat.
+- **[korrektur, materiell] Seewasser: die Konzessions-Kette ist jetzt paragraphengenau belegt.**
+  Gewaesserhoheit § 4 WsG → Konzession § 68 Abs. 1 lit. c WsG → Sondernutzungs-Tatbestand
+  «Nutzung von Gewaessern zur Waermeentnahme und zum Waermeeintrag» § 119 Abs. 2 lit. c WsV →
+  Konzessionserfordernis § 120 Abs. 1 WsV; **Konzessionsdauer 15-30 Jahre** nach § 121 Abs. 1 lit. b
+  WsV (der Litera-Wortlaut nennt Grund- UND Oberflaechenwasser, gilt fuer Seewasser also unmittelbar),
+  Abs. 2 laengstens 80 Jahre. Die kursierenden 40 Jahre gehoeren zu lit. a/lit. d. Streng auf die
+  ZH-Position begrenzt: fuer SZ/ZG/Vierwaldstaettersee ist keine Dauer belegt und wurde nicht
+  gefuellt. Zusaetzlich belegt: Seewasser loest **mehrere** Sondernutzungen aus (Seefassung/Seeleitung
+  eigene nach § 119 Abs. 2 lit. e). Praxisfolge fuer die Wirtschaftlichkeit: Amortisationsdeckel
+  30 Jahre, Konzessionserneuerung als Risiko — bei Seewasser wegen der hohen Fassungs-/Leitungs-
+  investition gewichtiger als bei der Grundwasser-WP.
+- **[korrektur, materiell, erreichte den Bauherrn] Eisspeicher: der Negativbefund war falsch.** Das
+  Destillat erklaerte zweimal, es gebe keine Schweizer Primaerquelle zur Bewilligungspflicht — **§ 92
+  Abs. 1 WsV** («Einer Bewilligung beduerfen: a. der Entzug von Erdwaerme, b. der Eintrag von Waerme
+  in das Erdreich», technologieneutral, ohne Bohrungsbezug) und **§ 44 Abs. 1 lit. a Ziff. 3 WsG**
+  liegen im Hub. Der Fehler ging ueber **FAQ F187** hinaus. Korrigiert; die Anwendung auf den
+  Eisspeicher ist ausdruecklich als **KB-eigene Subsumtion** markiert (nicht AWEL-bestaetigt), offen
+  bleibt nur die Vollzugspraxis in den Schutzzonen S1/S2. Terminologie zugleich berichtigt: amtlich
+  sind «Gewaesserschutzbereiche» und «Grundwasserschutzareale» (§ 45 WsG), nicht «Gewaesserschutzareal».
+- **[korrektur, dritter Fundort einer Fehlerklasse] `erdwaermesonden-bewilligung-zh-sz` stuetzte sich
+  im Status «established» und ausdruecklich «primaerquellen-verifiziert» auf die per 01.01.2022
+  aufgehobene KGSchV** (LS 711.11), an vier Stellen plus INDEX und FAQ F71. Auf geltendes Recht
+  umgestellt (§ 44 Abs. 1 lit. a Ziff. 3/lit. f WsG, § 92 WsV). **Die Gebuehren-Nachfolge, die der
+  Erst-Befund fuer offen erklaerte, hat der Verifikations-Agent am Volltext gefunden:** § 209 WsV
+  (Uebergangs- und Schlussbestimmungen, Randtitel «Gebuehren») verweist auf dieselbe GebV UR wie der
+  alte § 69 KGSchV — der Verweisungsmechanismus lebt unveraendert weiter, nur ueber eine andere
+  Traegernorm. Die materielle Aussage (Aufwandgebuehr, Deckel CHF 25'000) bleibt damit gueltig, der
+  Status `established` traegt zu Recht. Offen nur der Fassungsstand der GebV UR.
+- **[korrektur, materiell] Regenwasser-Brauchwasser: die kantonale Grundlage fehlte.** Die
+  Zulaessigkeit ruhte allein auf einem SVGW-Merkblatt von 2001. **§ 97 Abs. 3 WsG** sagt es amtlich:
+  «Die Verwendung von Regenwasser als Brauchwasser in getrennten Systemen ist zulaessig und
+  gebuehrenfrei» (LS 724.1, Nachtrag 133, in Kraft seit 01.06.2026). Mit Geltungsbereichs-Klammer
+  eingesetzt (das Destillat ist CH-weit angelegt, § 97 gilt nur ZH). Zwei materielle Folgen: die
+  Gebuehrenfreiheit gilt **nur fuer das genutzte Regenwasservolumen** — Bezugspflicht § 97 Abs. 1 WsG,
+  Anschlusspflicht § 178 WsV und Abwassergebuehren bleiben unberuehrt und duerfen in der
+  Amortisationsrechnung nicht wegfallen. Nachgezogen in **FAQ F186**.
+- **[korrektur, materiell] Graue Energie Holzbau vs. Massivbau: «durchgehend 20-40 % tiefer» war durch
+  die eigene Datei widerlegt.** Die eigene Tabelle nennt -13 % (espazium-Fallstudie), der eigene
+  Bauherren-Transfer und FAQ F189 nennen 20-25 %; die 40-%-Obergrenze stammte allein aus einer
+  Lignum-Journal-Zeile, die die Datei selbst als «keine eigene Studienquelle» entwertet — und deren
+  Rechnung zusaetzlich arithmetisch falsch war (7,5 gegen 10,5-12,2 sind -29 bis -39 %, angegeben
+  ~20-37 %). Neu: **Median rund 23 %, Planungsgroesse 20-25 %**; «durchgehend» qualifiziert nur die
+  **Richtung** in der Wueest-Stichprobe (jedes der 35 Objektpaare unter der Winkelhalbierenden), nie
+  eine Prozent-Bandbreite. Nachgezogen in `wiki/graue-energie.md`, `destillate/INDEX.md`, FAQ F189
+  (jetzt Leitzahl) **und im Curriculum** — sonst liest ein Folgelauf die widerlegte Zahl als eigenen
+  Vorbefund wieder ein.
+- **[korrektur, Norm-Zuschreibung] «Messgroessen (SIA 2032): kg CO2-eq/m2 EBF» ist falsch.** Die
+  Bezugsflaeche EBF stammt aus der KBOB-/Minergie-/SIA-2040-Systematik; SIA 2032 bezieht auf die
+  **Geschossflaeche GF** (SIA 416), belegt im Vorwort der Ausgabe 2010, das die EBF ausdruecklich
+  kontrastiert. **Keine Vergleichszahl musste neu gerechnet werden** — die Quellen wenden die
+  Minergie-/SIA-2040-Konvention korrekt an, falsch war allein die Norm-Zuschreibung. Auch im
+  Curriculum nachgetragen.
+- **[uebergabe] Vierter Fundort des Musters «Rule `normen-referenz` greift beim SCHREIBEN nicht»:**
+  das neue graue-Energie-Destillat zitiert SIA 2032 und SIA 390/1 ohne jeden Verweis auf `normen`,
+  obwohl der Elternartikel den Link seit Run 13 traegt. Vorschlag: Pruefschritt «zitiert dieses
+  Destillat eine Norm? dann normen-Destillat verlinken» in `training/PROGRAMM.md`.
+- Geaendert: `destillate/{regenwassernutzung-brauchwasser-trinkwasserersatz-ch,seewasser-waermenutzung-aquathermie-zh-sz,eisspeicher-waermepumpe-latentwaermespeicher,erdwaermesonden-bewilligung-zh-sz,graue-energie-holzbau-vs-massivbau-vergleich-ch,kbob-graue-treibhausgasemissionen-2025,INDEX}.md`,
+  `wiki/{BAUHERREN-FAQ,graue-energie,heizleistung-und-waermeerzeuger,regenwasserbewirtschaftung-versickerung-zh,QUESTIONS}.md`,
+  `training/curriculum.md`. Bericht: `wissen/koordination/outputs/2026-07-29_wissens-chef-run20.md`.
+
+
 ## 2026-07-29 — Run 119 (Intensiv-Lauf, sieben parallele Web-Rechercheagenten)
 - **[zugang, Befund] PL-02-Zugangsblockade entdeckt.** Der heute vom Normen-Loop gemeldete
   Cross-KB-Fund (134 PDF Minergie/eco-bau in `PL - 02_Recht_Norm`) liess sich nicht öffnen —

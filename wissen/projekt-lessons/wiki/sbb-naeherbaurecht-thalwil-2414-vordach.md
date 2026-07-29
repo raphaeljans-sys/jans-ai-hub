@@ -34,7 +34,14 @@ liefert den Entwurf der zusätzlichen Vereinbarung
 (Vb_NB_Thalwil_Erweiterung-Vordach) zur Prüfung. 20.07. SBB verschiebt die
 Unterschriftenlogik (neu Eigentümer- statt SBB-Unterschrift zuerst, Versand
 postalisch) und macht klar: das aktualisierte Näherbaurecht ist **Teil der
-Auflagebereinigung** — die Baufreigabe hängt daran.
+Auflagebereinigung** — die Baufreigabe hängt daran (normseitig: eine auf den
+**Baubeginn** gestellte Nebenbestimmung nach **§ 326 lit. a PBG**; die
+schriftliche Baufreigabe der Baubehörde bestätigt diesen Zustand, sie ist kein
+eigener Begriff des Gesetzeswortlauts, vgl. `baurecht`
+[[bauausfuehrung-und-baukontrolle]]). Begriffsanschluss ergänzt Wissens-Chef
+Run 20, 29.07.2026 — gleichlautend wie im Schwester-Artikel
+[[kispi-behoerden-zustaendigkeitswechsel-1171-26]], damit die KB im
+Fristbegriff nicht in sich auseinanderläuft.
 
 ## Konsequenz
 

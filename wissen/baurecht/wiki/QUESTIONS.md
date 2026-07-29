@@ -1,5 +1,35 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## 2026-07-29 (Wissens-Chef Run 20) — P1: der Wasserversorgungsteil des WsG (§§ 95-100) ist im ganzen Hub unverarbeitet
+
+**Befund.** Der WsG-Volltext liegt seit dem 28.07.2026 im Haus
+(`raw/260728_amtlich_zh_wsg.md`, LS 724.1, Nachtrag 133, in Kraft seit 01.06.2026), aber der
+**6. Abschnitt Wasserversorgung** ist nie destilliert worden. Gegenprobe des Verifikations-Agenten:
+`grep` nach «Bezugspflicht», «Anschlusspflicht Wasser» und «§ 178 WsV» über `wiki/` und `buecher/`
+ergibt **null Treffer**. Konkret fehlen:
+
+- **§ 97 Abs. 1 WsG** (Randtitel «Bezugspflicht»): Eigentümer im Einzugsbereich einer
+  Wasserversorgungsanlage sind verpflichtet, das Wasser aus dieser Anlage zu beziehen
+  (`raw/260728_amtlich_zh_wsg.md`, Z. 1363-1367).
+- **§ 97 Abs. 3 WsG**: «Die Verwendung von Regenwasser als Brauchwasser in getrennten Systemen ist
+  zulässig und gebührenfrei» (ebd. Z. 1374-1376) — die kantonale Grundlage der
+  Brauchwassernutzung.
+- **§ 178 WsV** (Anschlusspflicht, `raw/260728_amtlich_zh_wsv.md` Z. 2090-2097) sowie die
+  Gebührenkette § 100 Abs. 1 WsG i.V.m. §§ 61 ff. WsG.
+
+**Warum das eine Bring-Schuld an `baurecht` ist.** Die Norm ist ausserhalb der `raw/`-Datei im
+ganzen Hub nirgends angekommen — nicht in einem Wiki, nicht in einem Destillat, nicht in einer
+FAQ. Die KB `energie` hat am 29.07. (Run 119) ein Destillat zur Regenwasser-Brauchwassernutzung
+angelegt und die Zulässigkeit **allein auf ein SVGW-Merkblatt von 2001** gestützt, weil die
+kantonale Norm im Hub nicht auffindbar war, obwohl sie einen Tag vorher hereinkam. Der
+Wissens-Chef hat die Fundstelle im energie-Destillat und in FAQ F186 nachgetragen (Run 20), aber
+**der Wortlaut gehört hierher** — `baurecht` führt den Erlassstand, `energie` verweist.
+
+**Nächster Schritt.** §§ 95-100 WsG und § 178 WsV in einem Buch-Run destillieren, mit Anschluss an
+[[baureife-und-erschliessung]] (dort steht die Abwasser-/GEP-Seite bereits) und an die
+Gebührenkette. Erst dann kann `energie` von einem Verbands-Merkblatt auf kantonales Recht
+umstellen, statt es nur im Korrekturkasten zu führen.
+
 ## 2026-07-28 (Wissens-Chef Run 19) — P1: falsche Konkordanzzeile in `raw/260717_amtlich_zh_hwschv.md`, und der Mechanismus dahinter
 
 **Der Sachfehler.** Die Konkordanztabelle in `raw/260717_amtlich_zh_hwschv.md` führt in Z. 40

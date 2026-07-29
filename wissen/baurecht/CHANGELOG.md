@@ -3,6 +3,27 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-29 (Wissens-Chef Run 20, Cross-KB) — P1: der Wasserversorgungsteil des WsG ist im ganzen Hub unverarbeitet
+- **[bring-schuld P1] §§ 95-100 WsG und § 178 WsV sind nie destilliert worden**, obwohl der
+  WsG-Volltext seit dem 28.07. im Haus liegt. Gegenprobe: grep nach «Bezugspflicht»,
+  «Anschlusspflicht Wasser» und «§ 178 WsV» ueber `wiki/` und `buecher/` = **null Treffer**. Betroffen
+  sind unter anderem **§ 97 Abs. 1 WsG** (Bezugspflicht im Einzugsbereich einer
+  Wasserversorgungsanlage) und **§ 97 Abs. 3 WsG** («Die Verwendung von Regenwasser als Brauchwasser
+  in getrennten Systemen ist zulaessig und gebuehrenfrei») sowie die Gebuehrenkette § 100 Abs. 1 WsG
+  i.V.m. §§ 61 ff.
+- **Warum das auffiel:** die KB `energie` hat am 29.07. ein Destillat zur
+  Regenwasser-Brauchwassernutzung angelegt und die Zulaessigkeit **allein auf ein SVGW-Merkblatt von
+  2001** gestuetzt — weil die kantonale Norm im Hub nirgends auffindbar war, obwohl sie einen Tag
+  vorher hereinkam. Der Wissens-Chef hat die Fundstelle dort und in FAQ F186 nachgetragen, **der
+  Wortlaut gehoert aber hierher**. In `wiki/QUESTIONS.md` als P1 angemeldet, mit Anschluss an
+  [[baureife-und-erschliessung]] (dort steht die Abwasser-/GEP-Seite bereits).
+- **[unveraendert offen aus Run 19]** § 260 Abs. 3 PBG ohne Haupt-/Anhang-Vorbehalt im Leit-Artikel
+  [[abstaende-und-hoehen]] (nachgeprueft, weiterhin so); drei grammatisch zerstoerte Saetze im
+  Naeherbaurechts-Destillat; Nachfolgeerlass der KGSchV (LS 711.11) weiter unbelegt — neu auch von
+  `planungsgrundlagen` (K61) und `energie` (erdwaermesonden) als Bring-Schuld hierher gemeldet.
+- Geaendert: `wiki/QUESTIONS.md`.
+
+
 ## 2026-07-29 — Freigabe Raphael: die Wurzel der § 19-WsG-Fehlzuordnung ist geschlossen
 - **[korrektur an der Quelle, Ausnahme ausdruecklich freigegeben]** `raw/260717_amtlich_zh_hwschv.md`:
   Konkordanzzeile Z. 40 und Kernbefund Ziff. 4 von **§ 19 WsG** auf **§ 18 Abs. 1 WsG** gestellt,

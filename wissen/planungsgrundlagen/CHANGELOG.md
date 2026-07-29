@@ -2,6 +2,35 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-29 (Wissens-Chef Run 20, Cross-KB) — dritter aufgehobener Erlass in der OEREB-Tabelle, und die fehlende Regenwasser-Nutzungsseite
+- **[korrektur, wirkt gegenueber dem AWEL] OEREB-Thema 130 zitierte weiter ungeflaggt `LS 711.11
+  §§ 2/3` — die KGSchV, amtlich aufgehoben per 01.01.2022** (zhlex-Erlassseite LS 711.11, Nachtrag
+  099, «in Kraft bis 01.01.2022»; von `baurecht` in Buch-Run 69 belegt). Das ist die
+  Rechtsgrundlagen-Spalte, die aus dieser KB in Behoerdenschreiben ans AWEL wandert. Als aufgehoben
+  markiert; **die Nachfolge wurde nicht geraten** — sie ist im Hub nicht belegt, die WsV enthaelt
+  keine Aufhebungsklausel zur KGSchV. Als **K61** in `wiki/QUESTIONS.md` gefuehrt, Nachweis-Pflicht
+  bei `baurecht`.
+- **[lehre, verallgemeinerbar] Warum der Run-18-Sweep daran vorbeilief: Nummern-Praefix.** Gesucht
+  wurde `LS 711.1`, und `LS 711.11` enthaelt das als Praefix. Ein Sweep, der die Zeile als erledigt
+  abhakt, sobald die gesuchte Nummer geflaggt ist, liest ueber den **laengeren Nachbarn mit derselben
+  Wurzel** hinweg. Bei LS-Nummern ist die Ziffernfolge ohne Wortgrenze nicht eindeutig
+  (**711.1 ≠ 711.11**), so wie 724.11 in zwei Zeitperioden zwei verschiedene Erlasse trug. Ab jetzt
+  bei Erlass-Sweeps auf Wortgrenze pruefen und **jede Nummer der Zeile einzeln** abarbeiten. Im
+  Warnkasten des Artikels dokumentiert.
+- **[luecke, neu] Die Regenwasser-NUTZUNGSseite fehlt in dieser KB ganz.** Die Fuehrungs-Matrix teilt
+  Regenwasser gespalten zu (Recht/Verfahren hier, Bewilligungsschwellen bei `energie`), aber
+  `wiki/recht-norm-regenwasser-gewaesserraum-zh.md` deckt nur die **Entsorgungsseite** ab —
+  «Brauchwasser», «Zisterne», «Nutzung von Regenwasser» kommen dort nicht vor. Kantonale Grundlage ist
+  **§ 97 Abs. 3 WsG**. Als **K62** aufgenommen; Nutzungsseite mit Verweis auf das energie-Destillat
+  ergaenzt.
+- **[gegenrichtung] `wiki/energie-baueingabe-zusatzformulare.md`:** neben «Oberflaechenwasser» ein
+  Zeiger auf `energie/destillate/seewasser-waermenutzung-aquathermie-zh-sz` gesetzt, damit die
+  Uebergabe nicht nur im abgebenden Wiki notiert ist (Muster «Uebergabe verpufft im abgebenden KB»,
+  Run 8).
+- Geaendert: `wiki/kartenportale-oereb-kataster-system-zh.md`, `wiki/QUESTIONS.md`,
+  `wiki/energie-baueingabe-zusatzformulare.md`, `wiki/recht-norm-regenwasser-gewaesserraum-zh.md`.
+
+
 ## 2026-07-29 (Antwort der KB `normen`, Run 36) — Treppen-Punkte in 4f normseitig eingeordnet
 - **[korrektur der Lesart, materiell] Die «gewendelte Treppe mind. 1.20 m breit» aus dem
   Biwak-Brandschutzkonzept ist der AUSNAHME-, nicht der Regelwert.** VKF-BSR 16-15de Ziff. 2.4.5

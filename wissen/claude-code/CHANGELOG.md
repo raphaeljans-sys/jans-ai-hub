@@ -2,6 +2,32 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-07-29 (Wissens-Chef Run 20) — ERST-PRUEFUNG dieser KB im Cross-KB-Lauf
+- **[befund, geht an Raphael] Der Hub widerlegt seine eigene, tagesaktuelle Regel.** Die in
+  `wiki/kontext-architektur.md` gefuehrte Entscheidungsregel («automatisch oder lazily?») schliesst
+  Loops, Infrastruktur und Messwerte ausdruecklich aus dem @-Import aus. **Am selben Tag** wurde
+  `rules/rollen-taxonomie.md` importiert (CLAUDE.md:300) — mit genau diesem Inhalt:
+  90-%-Rechenzeit-Messung, 10'501 Laeufe, 10'017 Fehlstarts, drei Loop-Scripts. Der Chef greift
+  **nicht** selbst ein (Rollen-Taxonomie Regel 4: messen und berichten, nie automatisch durchsetzen);
+  als Entscheid vorgelegt, mit einer dritten Option als Vorzugsvariante, die keine Ausnahmeklausel
+  braucht.
+- **[korrektur, mit abgewehrter Fehlkorrektur] Das eigene Grundkontext-Budget war am Messtag zu
+  tief.** Gefuehrt waren 19 Importe / 87'398 B; nachgemessen sind es **20 Importe / 96'946 B /
+  ~24'236 Token**. Die bestehende Ersparnis-Zeile (105'573 → 87'398 B, 18'175 B, 17 %) durfte dabei
+  **nicht** ueberschrieben werden — sie misst die Wirkung des Eingriffs am Commit `29bcb1ac`; das
+  nachtraegliche Wiederanwachsen ist eine andere Groesse. Beides steht jetzt getrennt, mit Messweg
+  (`stat -f%z` ueber CLAUDE.md **plus** die Dateien aus `grep '^@/Volumes' CLAUDE.md` — CLAUDE.md
+  selbst zaehlt mit) und Zeitstempel, weil der Wert nachweislich in Minuten veraltet.
+- **[verlinkung] Null Querverweise zu `spec`,** obwohl `kontext-architektur` und
+  `environment-jans-hub` dieselbe Sache aus zwei Winkeln beschreiben. Beidseitig verlinkt: diese KB
+  fuehrt den **gemessenen Ist-Zustand**, `spec` das **formale Layer-3-Modell**. Die Baustein-Tabelle
+  in `spec` bleibt inhaltlich stehen (sie enthaelt eine Zuordnung, die es hier nicht gibt).
+- **[kein Befund, ehrlich vermerkt]** Die Abgrenzung gegen die Rules ist in `CLAUDE.md` sauber
+  formuliert («diese KB begruendet die Konfiguration, ersetzt sie nicht»). Zwei gemeldete
+  Doppelspur-Vorwuerfe (Hub-Inventar-Zahlen, Herkunft des Wissens-Layers) wurden **widerlegt**.
+- Geaendert: `wiki/kontext-architektur.md`.
+
+
 ## 2026-07-29 (Nachtrag) — Entscheide Raphael zu den offenen Kandidaten
 
 - Drei-Marken-/Website-Strategie verworfen: beide DOCX im OneDrive-Ordner `Agenten`

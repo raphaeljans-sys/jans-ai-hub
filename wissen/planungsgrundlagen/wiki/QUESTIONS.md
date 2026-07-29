@@ -3,6 +3,17 @@
 Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit ✓ + Datum.
 
 ## A — Kartenportale
+- [ ] **K62 (Wissens-Chef Run 20, 2026-07-29) — Regenwasser: die NUTZUNGSseite fehlt in dieser KB
+  ganz.** Die Führungs-Matrix teilt Regenwasser gespalten zu: Recht und Verfahren führt
+  `planungsgrundlagen`, die Bewilligungsschwellen im Baugesuch führt `energie`. Der eigene Artikel
+  [[recht-norm-regenwasser-gewaesserraum-zh]] deckt aber nur die **Entsorgungsseite** ab
+  (Gewässerraum, Versickerung, Siedlungsentwässerung); «Brauchwasser», «Zisterne» und «Nutzung von
+  Regenwasser» kommen dort nicht vor. Die kantonale Grundlage der Nutzung ist **§ 97 Abs. 3 WsG**
+  («zulässig und gebührenfrei in getrennten Systemen», LS 724.1, Fassung ab 01.06.2026) — der
+  Wortlaut wird von `baurecht` geführt und ist dort als P1 angemeldet (Destillation der §§ 95-100
+  WsG). Sobald `baurecht` destilliert hat: die Verfahrensseite hier aufnehmen (Meldung ans
+  Wasserwerk als eigener gebäudetechnischer Schritt neben der Baueingabe) und den Verweis auf
+  `energie/destillate/regenwassernutzung-brauchwasser-trinkwasserersatz-ch` setzen.
 - [ ] **K61 (Wissens-Chef Run 20, 2026-07-29) — Nachfolgeerlass der KGSchV (LS 711.11) für
   OEREB-Thema 130.** Die Rechtsgrundlagen-Spalte von Thema 130 in
   [[kartenportale-oereb-kataster-system-zh]] nannte bis heute ungeflaggt **LS 711.11 §§ 2/3**

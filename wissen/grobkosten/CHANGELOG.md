@@ -1,5 +1,24 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-29 (Wissens-Chef Run 20, Cross-KB) — Kostenhaelfte einer gelesenen Studie war nie hier angekommen
+- **[bring-schuld] Die Wueest-Partner/Lignum/BAFU-Studie vom 25.09.2025 enthaelt einen
+  Erstellungskosten-Vergleich Holzbau gegen Massivbau — die KB `energie` hat die oekologische Haelfte
+  ausgewertet (Run 119), die Kostenhaelfte ist nie an `grobkosten` gelangt.** Rekursiver grep
+  «holzbau|massivbau|lignum» ueber diese KB: 0 Treffer. Zugleich ist der einzige Holz-Kostenansatz des
+  Hubs (`wiki/kennwerte.md:200`, «Hoher Ausbaustandard / Nachhaltigkeit (Minergie-P, Holz) +5-15 %»)
+  **ohne Quelle** und trennt die **Bauweise** nicht vom **Ausbaustandard** — zwei verschiedene Dinge
+  in einem Zuschlag.
+- **[praezisierung, die einen unbelegten Methodenanspruch verhindert hat]** Der Verifikations-Agent
+  hat belegt, dass die «35 Objektpaare gegen digitalen Zwilling» **nur fuer die oekologische Haelfte**
+  gelten. Der Kostenteil hat eine **andere Stichprobe**: 17 Holzbauten (2019-2022) gegen 50 reale
+  Referenzobjekte (2001-2022), dazu ein Fallbeispiel Sanierung/Aufstockung und zwei Modellrechnungen,
+  Erstellungskosten BKP 1-5 je CHF 5-150 Mio. Die Praesentation widerspricht sich hier selbst
+  (Folie 2 gegen Folie 3/5). Der QUESTIONS-Eintrag fuehrt das als **zu klaerende Vorbedingung**, nicht
+  als Tatsache — ohne diese Korrektur waere der Paarbildungs-Anspruch als Methode in diese KB
+  gewandert.
+- Geaendert: `wiki/QUESTIONS.md`.
+
+
 ## 2026-07-27 — Wissens-Chef Run 17 (Cross-KB): Abnehmer-Block in `wiki/kennwerte.md`
 - **[verlinkung] Die KB kannte ihre zwei neuen Abnehmer nicht** — grep ueber das ganze Wiki nach «entwurfs-referenzen», «parameter-set» und «wettbewerbs-dna»: **0 Treffer**, obwohl `wissen/entwurfs-referenzen/wiki/parameter-sets/wohnen-mfh-urban.json` (v2.0 seit 27.07.) im Feld `quelle_kb` hierher zeigt und `wissen/wettbewerbs-dna/wiki/muster/kennwerte-wohnungsbau.md` (Etappe-3-Baustein B5) dieselben Werte fuehrt. Eine kuenftige Bandaenderung waere bei beiden unbemerkt geblieben. → Abnehmer-Block gesetzt. **Werte unveraendert.**
 - **[abgrenzung mitgeschrieben]** Fuer den **Wohnbau** ist diese KB zu Recht fuehrend (das `quelle_kb`-Ziel des Sets ist korrekt) — fuer **Healthcare** ausdruecklich **nicht** (dort `immobilienbewertung/realwert-sachwert`, 826-1'420 CHF/m3 GV, Median ~1'100; das oft zitierte Teilband 1'053-1'420 betrifft nur die sechs Neubauten ab 2019), fuer **CHF/m2 HNF** ebenfalls `immobilienbewertung`, fuer den Wuest-Benchmark `skills/kostenschaetzung/referenzen/`. Damit steht die Fuehrungslage jetzt in der Datei selbst und nicht nur im Koordinations-Register.

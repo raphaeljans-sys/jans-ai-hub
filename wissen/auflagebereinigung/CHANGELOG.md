@@ -2,6 +2,24 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-29 (Wissens-Chef Run 20, Cross-KB) — die seit 04.06. offene Kontaktstellen-Luecke hat ihren ersten belegten Fall
+- **[verlinkung, materiell] `wiki/aemter-stadt-zuerich.md` fuehrte AfB und UGZ ohne Kenntnis eines
+  belegten Zustaendigkeitswechsels,** waehrend `projekt-lessons` den Fall seit dem 29.07. dokumentiert
+  (KISPI 1171/26): Gebiet Weinegg neu **AfB Team 5**, und beim UGZ eine **Sonderzustaendigkeit nach
+  Groesse der Einrichtung**. Die eigene Luecke stand hier seit dem **04.06.** offen ausgewiesen
+  («Direktnummern/Kontaktpersonen je Amt → sammeln»), in keine Richtung verlinkt. Bidirektional
+  verlinkt.
+- **[wie eingetragen, und warum so] Die Namen erscheinen NICHT als generische Amtszustaendigkeit,**
+  sondern nur als **datierter, gebiets-/fallbezogener Stand** (Muster «Gebiet Weinegg, u.a.
+  Lenggstrasse 30: Team 5, Ansprechperson …, Stand 27.07.2026»). Der Artikel ist ausdruecklich
+  generisch angelegt; ohne diese Form haette die KB eine veraltete Personenangabe gegen die naechste
+  getauscht — genau der Fehler, vor dem die Lesson warnt.
+- **[offener punkt erweitert]** Der Kontaktstellen-Punkt in `wiki/QUESTIONS.md` traegt jetzt den
+  Zusatz, dass **Kontaktpersonen ein Verfallsdatum haben** und ein Kontakt-Artikel ohne
+  Stand-Datierung sich selbst entwertet.
+- Geaendert: `wiki/aemter-stadt-zuerich.md`, `wiki/QUESTIONS.md`.
+
+
 ## 2026-07-27 — Wissens-Chef Run 17 (Cross-KB): die einzige gesetzliche Frist des Bauentscheids fehlte ganz
 - **[korrektur, materiell] Rekursfrist 30 Tage ergaenzt.** `wiki/fristenlogik-bauentscheid-zh.md` ist die Frist-Wahrheit dieser KB (eigene Spalte der Plan-/Dokumentenliste), listete aber sechs Einreichungszeitpunkte und **keine einzige gesetzliche Frist**. Ein grep ueber die ganze KB nach «Rechtsmittel», «anfechten», «Anfechtung» und «Rechtsschutz» lieferte **0 Treffer**. Fehlend: «Der Rekurs ist innert 30 Tagen bei der Rekursinstanz schriftlich einzureichen» (§ 22 Abs. 1 VRG, LS 175.2, Nachtrag 133; Fristenlauf ab dem Tag nach der Mitteilung, Abs. 2), Rekursinstanz ist direkt das **Baurekursgericht** (§ 329 Abs. 1 PBG, kein gemeindeinternes Einspracheverfahren nach § 315 Abs. 3 PBG), Verwirkung nach § 316 Abs. 1 PBG. **Materiell: wer Auflagen nur «bereinigt», akzeptiert sie faktisch — die Frist laeuft parallel, und Verhandeln mit dem Amt oder ein Wiedererwaegungsgesuch hemmt sie nicht.** Ebenfalls gefehlt hat der Zusammenhang, der die Spalte «vor Baubeginn» ueberhaupt lesbar macht: aufschiebende Wirkung nach § 25 Abs. 1 VRG, beschraenkt durch § 339 Abs. 1 PBG, mit moeglicher **Teilfreigabe** (Abs. 2). Dazu die zweite fehlende Frist: Erloeschen der Bewilligung nach drei Jahren (§ 322 PBG). Fuehrend: `wissen/baurecht/wiki/rechtsschutz-und-rechtsmittelverfahren` (established, gegen VRG-Nachtrag 133 verifiziert).
 - **[korrektur] Frist-Gate vor Schritt 1 gesetzt.** In `wiki/vorgehen-auflagebereinigung.md`: je Auflage zuerst entscheiden, ob sie **abgearbeitet oder angefochten** wird — vor der Gewerk-Zuteilung, nicht danach.

@@ -3,6 +3,80 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-29 — Run 20 (Workflow-Fan-out: 5 Lese-Agenten + 20 adversariale Verifikatoren; 18 BESTAETIGT / 7 WIDERLEGT)
+- **Verfahren:** zwei Workflows, 37 Agenten, ~5.37 Mio. Subagent-Token, 638 Tool-Calls, 24 Min.
+  Bericht: `outputs/2026-07-29_wissens-chef-run20.md`. **79 Korrekturen in 22 Dateien in 9 KBs.**
+  Der Lauf stand auf dem Zuwachs seit Run 19: energie-Run 119 (sieben neue Destillate), normen
+  Run 36/37, die **neu angelegte KB `claude-code`** und der vierte Lesson-Artikel.
+- **[STRUKTURMUSTER, NEU UND TRAGEND] «Ein Zugang heilt keinen Bestand.»** Der WsG-/WsV-Volltext kam
+  am 28.07. ins Haus. Die drei Wasser-Destillate, die `energie` am **29.07.** anlegte, benutzen ihn
+  nicht: sie stuetzen sich auf ein SVGW-Merkblatt von 2001 und eine AWEL-Planungshilfe oder erklaeren
+  die Rechtsgrundlage fuer «nicht gefunden». **Das Seewasser-Destillat legt neben einer bereits
+  beantworteten Frage eine neue offene Frage an** — es kennt die Konzessionsdauer nicht, die Run 19
+  einen Tag vorher fuer das Schwester-Destillat geklaert hatte, und verlinkt es nicht (0 Treffer).
+  Ursache ist mechanisch, nicht nachlaessig: das Curriculum fuehrt die Frage weiter als offen, also
+  recherchiert der Loop extern weiter. **Regel daraus: nach dem Zugang eines Erlass-Volltextes gehoert
+  ein RUECKWAERTS-Sweep ueber die offenen Punkte der abhaengigen KBs, nicht nur ein Vorwaerts-Destillat.**
+  Dritter Fundort dieser Klasse in drei Laeufen (Run 18 EG GSchG, Run 19 § 19 WsG, Run 20 hier).
+- **[LEHRE ZUR VERIFIKATION — der eigentliche Ertrag des Laufs] In 11 der 18 bestaetigten Faelle war
+  die vorgeschlagene KORREKTUR selbst falsch.** Der Befund stimmte, die Aufloesung haette einen neuen
+  Fehler eingebaut. Drei Beispiele: (a) SIA 2032 sollte im Register auf «2020✓ · 2010✗» umgeschrieben
+  werden — unzulaessig, weil kein Rueckzugsdatum fuer 2010 belegt ist; das ✗ waere dieselbe ungedeckte
+  Gueltigkeitsaussage in die andere Richtung gewesen. (b) Die Diaet-Ersparnis-Zeile in `claude-code`
+  sollte «relativiert» werden — falsch, sie misst die Wirkung des Eingriffs am Commit; das
+  Wiederanwachsen ist eine andere Groesse. (c) Die verallgemeinernde Lesson-Zeile in
+  `projekt-lessons` sollte entschaerft werden — falsch, sie ist auch fuer den zweiten Fall korrekt und
+  traegt die ganze Lesson. **Konsequenz: der Verifikations-Schritt darf nicht nur den Befund pruefen,
+  sondern muss die vorgeschlagene Aufloesung mitpruefen.** Das war in diesem Lauf erstmals
+  ausdruecklich im Auftrag der Verifikatoren und hat sich in 11 Faellen ausgezahlt.
+- **[korrektur, materiell, erreichte den Bauherrn] Zwei falsche Negativbefunde in neuen Destillaten.**
+  Das Eisspeicher-Destillat erklaerte, es gebe keine Schweizer Primaerquelle zur Bewilligungspflicht
+  (§ 92 WsV und § 44 Abs. 1 lit. a Ziff. 3 WsG liegen im Hub) — der Fehler ging ueber **FAQ F187**
+  hinaus. Das Seewasser-Destillat liess die Konzessions-Rechtsgrundlage zweimal wortgleich offen
+  (§ 68 Abs. 1 lit. c WsG → § 119 Abs. 2 lit. c → § 120 Abs. 1 WsV). Beide korrigiert, die
+  KB-eigenen Zuordnungen ausdruecklich als **Subsumtion** gekennzeichnet.
+- **[korrektur, materiell] Eine Kernaussage war durch die eigene Datei widerlegt.** «Holzbau
+  durchgehend 20-40 % tiefer» steht im Kopf des neuen graue-Energie-Destillats, waehrend dessen
+  eigene Tabelle -13 % und dessen eigener Bauherren-Transfer 20-25 % nennt; die 40-%-Obergrenze
+  stammte aus einer Zeile, die die Datei selbst als «keine Primaerzahl» entwertet — und deren Rechnung
+  zusaetzlich falsch war. Neu: **Median rund 23 %, Planungsgroesse 20-25 %**; «durchgehend» nur noch
+  fuer die **Richtung** in der Wueest-Stichprobe. Nachgezogen bis in **INDEX und Curriculum**, weil
+  ein Folgelauf die widerlegte Zahl sonst als eigenen Vorbefund wieder einliest.
+- **[dritter Fundort KGSchV] Die per 01.01.2022 aufgehobene KGSchV (LS 711.11) stand noch an zwei
+  weiteren Stellen ungeflaggt:** in OEREB-Thema 130 (`planungsgrundlagen`, die Angabe, die ans AWEL
+  geht) und im energie-Destillat `erdwaermesonden-bewilligung-zh-sz`, dort im Status «established»
+  und ausdruecklich als «primaerquellen-verifiziert». **Die Gebuehren-Nachfolge hat der
+  Verifikations-Agent am Volltext gefunden** (§ 209 WsV verweist auf dieselbe GebV UR wie der alte
+  § 69 KGSchV) — die materielle Aussage bleibt damit gueltig.
+- **[LEHRE ZUR NUMMERN-NAEHE] Warum der Run-18-Sweep an OEREB-130 vorbeilief: Praefix.** Gesucht wurde
+  `LS 711.1`, und `LS 711.11` enthaelt das als Praefix. Wer eine Zeile abhakt, sobald die gesuchte
+  Nummer geflaggt ist, liest ueber den **laengeren Nachbarn mit derselben Wurzel** hinweg. Bei
+  LS-Nummern ist die Ziffernfolge ohne Wortgrenze nicht eindeutig (**711.1 ≠ 711.11**), so wie 724.11
+  in zwei Zeitperioden zwei verschiedene Erlasse trug. **Erlass-Sweeps ab jetzt auf Wortgrenze und
+  jede Nummer der Zeile einzeln.**
+- **[ERST-PRUEFUNG `claude-code`] Der Hub widerlegt seine eigene, tagesaktuelle Regel.** Die
+  Kontext-Diaet-Regel schliesst Loops, Infrastruktur und Messwerte aus dem @-Import aus; am selben Tag
+  wurde `rules/rollen-taxonomie.md` importiert, mit genau diesem Inhalt. **Nicht selbst eingegriffen**
+  (Rollen-Taxonomie Regel 4: messen und berichten, nie automatisch durchsetzen) → Entscheid Raphael,
+  mit einer dritten Option als Vorzugsvariante. Nebenbefund: das dort gefuehrte Grundkontext-Budget war
+  **am eigenen Messtag** zu tief (nachgemessen 20 Importe / 96'946 B / ~24'236 Token statt 19 / 87'398 B).
+- **[der ehrliche Teil] 7 von 25 Befunden wurden widerlegt,** darunter zwei Doppelspur-Vorwuerfe gegen
+  die neue KB `claude-code`, ein Legionellen-Widerspruch und ein Zeitstempel-Vorwurf. Die Abgrenzung
+  von `claude-code` gegen die Rules ist sauber formuliert — dort war kein Befund.
+- **[Rueckstand aus der Umsetzung, offen benannt]** Die disjunkte Dateiaufteilung der Schreib-Agenten
+  hat alles liegen lassen, was ueber eine Gruppengrenze lief; der Chef hat das sequenziell
+  nachgeholt (INDEX-Zeilen, Curriculum-Nachtraege, Bring-Schulden in `baurecht`/`planungsgrundlagen`/
+  `spec`, Konsistenz im zweiten Lesson-Artikel). **Kein Agent durfte loeschen** — ueberholte Saetze
+  stehen mit datiertem Korrekturkasten daneben statt entfernt. Wenn Raphael die ueberholten Saetze
+  wirklich entfernt haben will, braucht das seine Freigabe.
+- **[an die fuehrenden KBs uebergeben]** P1 `baurecht`: §§ 95-100 WsG / § 178 WsV im ganzen Hub
+  unverarbeitet · K61/K62 `planungsgrundlagen`: KGSchV-Nachfolge, Regenwasser-Nutzungsseite ·
+  `normen`: SIA-2032:2020-Destillat fehlt (dangling link), SIA 390/1 nicht erfasst, SIA-500-Korrigenda
+  weiter offen · `grobkosten`: Kostenhaelfte der Wueest/Lignum-Studie · `spec`: F-ENV1 Zaehlstaende ·
+  `baurecht` unveraendert offen aus Run 19: § 260 Abs. 3 Haupt-/Anhang-Vorbehalt, drei zerstoerte
+  Saetze im Naeherbaurechts-Destillat.
+
+
 ## 2026-07-29 — Nachlauf Run 19: drei der vier offenen Entscheide umgesetzt (Freigabe Raphael)
 - **[Entscheid A umgesetzt] Rule `anrede-kontakte.md`: generelle Gewichts-Klausel eingesetzt.**
   «Die Notiz-Spalte nennt den Routine-Default. Die Anrede-Stufe folgt zusaetzlich dem **Gewicht des

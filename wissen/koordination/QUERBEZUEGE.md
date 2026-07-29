@@ -29,6 +29,10 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | Produkt-/Systemwissen nach BKP (Bauteilaufbauten, Hersteller-/Systemtypen, Verarbeitungs- und Bemusterungspraxis, historische Angebots-/Preisstände als Zeitdokument) | **bauprodukte** | normen (Norm-Fundstellen), grobkosten/immobilienbewertung (Kennwerte), projekt-lessons (Einzelfall) — NEU Run 19 (Erst-Pruefung der KB) |
 | Norm-Fundstellen IN bauprodukte-Artikeln (SIA/VKF/SN EN — Ziffer, Ausgabe, Kennwert, Fassungsstand inkl. **Korrigenda**) | **normen** | bauprodukte verweist dorthin und schreibt Normwortlaut NICHT materiell fort (Rule `normen-referenz`) — NEU Run 19 |
 | Preise/Kennwerte IN bauprodukte-Artikeln | **grobkosten** (BKP-Kennwerte) bzw. **immobilienbewertung** (Ausbaustandard) | bauprodukte fuehrt KEINE Kennwerte fuer Kalkulationen; historische Herstellerpreise nur als **datierter Zeitstand** und nie als heutiger Ansatz — NEU Run 19 |
+| Wasserversorgung ZH: Bezugs-/Anschlusspflicht und **Brauchwassernutzung** (§§ 95-100 WsG, insb. § 97 Abs. 1/3, § 178 WsV, Gebührenkette § 100 i.V.m. §§ 61 ff.) | **baurecht** (Wortlaut/§§ — im Hub noch **unverarbeitet**, als P1 angemeldet) | energie (Anwendung/Gebäudetechnik), planungsgrundlagen (Verfahren/Meldung ans Wasserwerk) — NEU Run 20 |
+| Konzessions- und Sondernutzungsrecht **oberirdischer** Gewässer (Gewässerhoheit § 4, Konzession § 68 Abs. 1 lit. c / § 74 WsG; Sondernutzungs-Tatbestände § 119, Konzessionserfordernis § 120, **Konzessionsdauer § 121** WsV) | **baurecht** (Erlasswortlaut) | energie (angewandte Bewilligungs-/Konzessionspraxis je Wärmequelle), planungsgrundlagen (Formular-/Verfahrensseite) — NEU Run 20. **Merkposten:** eine WsV-Konkretisierung der gewässerschutzrechtlichen Bewilligung für oberirdische Gewässer fehlt (§ 92 WsV erfasst nur das Erdreich) — Zuordnungen dorthin sind KB-eigene Subsumtion und als solche zu kennzeichnen |
+| Gemessener Ist-Zustand des Arbeitsplatzes/Grundkontexts (Ladeschichten, Byte-/Token-Budget, @-Import-Bestand, Messweg) | **claude-code** (`kontext-architektur`) | spec (`environment-jans-hub`) führt das formale Layer-3-Modell und verweist für Zahlen dorthin — NEU Run 20 |
+| Amt, Adressat und **Kontaktperson** je Deliverable (Zuständigkeit, Direktnummern, Teamzuteilung) | **auflagebereinigung** (`aemter-stadt-zuerich`) | projekt-lessons liefert den **datierten, fall-/gebietsbezogenen** Einzelfall-Stand, nie eine generische Amtszuständigkeit; Kontaktpersonen haben ein Verfallsdatum — NEU Run 20 |
 | Projekt-Lessons: Beweiskette eines konkreten Einzelfalls (Herkunft einer Vorgabe, Fallwerte aus Unternehmerdoku) | **projekt-lessons** | normen (generische Norm-/VKF-Kennwerte), auflagebereinigung (Auflagen-Ziffer/Amt/Frist), grobkosten/immobilienbewertung (Kennwerte) — **projekt-lessons fuehrt KEINE generischen Kennwerte oder Normfundstellen**, nur den belegten Fall — NEU Run 16 (Erst-Pruefung) |
 
 > **NEU Run 8 — zweites Struktur-Muster «Uebergabe verpufft im abgebenden KB»:** Ein Artikel erkennt
@@ -54,6 +58,154 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 > Vollzugshilfen rekonstruiert, obwohl das Norm-Destillat 3 Tage aelter war).
 
 ## Gepruefte Paare
+
+### energie ↔ baurecht ↔ planungsgrundlagen (die drei NEUEN Wasser-Destillate aus Run 119) — geprueft 2026-07-29 (Run 20)
+- **Anlass:** `energie` hat am 29.07. mit Run 119 sieben Destillate angelegt, drei davon im
+  Wasserrecht (Regenwasser-Brauchwassernutzung, Seewasser-Aquathermie, Eisspeicher). Der
+  WsG-/WsV-Volltext liegt seit dem 28.07. im Haus — erstmals konnte ein Cross-KB-Lauf **am Tag
+  nach** dem Zugang pruefen, ob die neuen Destillate ihn benutzen.
+- **Befund, der den Lauf traegt: sie benutzen ihn nicht.** Alle drei stuetzen ihre
+  Rechtsgrundlagen auf Sekundaerquellen (SVGW-Merkblatt 2001, AWEL-Planungshilfe) oder erklaeren
+  die Grundlage fuer «nicht gefunden», obwohl die amtliche Fundstelle 24 Stunden vorher hereinkam.
+  **Das Seewasser-Destillat legt neben einer bereits beantworteten Frage eine neue offene Frage
+  an:** es laesst die Konzessions-Rechtsgrundlage zweimal wortgleich offen (§ 68 Abs. 1 lit. c
+  WsG → § 119 Abs. 2 lit. c → § 120 Abs. 1 WsV) und kennt die Konzessionsdauer nicht, die
+  **Run 19 einen Tag vorher fuer das Schwester-Destillat geklaert hatte** (15-30 Jahre,
+  § 121 Abs. 1 lit. b WsV — der Litera-Wortlaut nennt Grund- UND Oberflaechenwasser, gilt fuer
+  Seewasser also unmittelbar). Backlink zum Schwester-Destillat: 0 Treffer.
+- **Strukturmuster, neu benannt: «Ein Zugang heilt keinen Bestand.»** Der Eingang eines Volltextes
+  aktualisiert die Destillate nicht, die auf seine Luecke gebaut sind — auch nicht die, die am
+  Folgetag entstehen. Der Loop recherchiert extern weiter, weil sein Curriculum die Frage als offen
+  fuehrt. Konsequenz: nach dem Zugang eines Erlass-Volltextes muss ein **Rueckwaerts-Sweep** ueber
+  die offenen Punkte der abhaengigen KBs laufen, nicht nur ein Vorwaerts-Destillat. Dritter
+  Fundort derselben Klasse in drei Laeufen (Run 18 EG GSchG, Run 19 § 19 WsG, Run 20 hier).
+- **Zweiter falscher Negativbefund:** das Eisspeicher-Destillat erklaerte, es gebe keine Schweizer
+  Primaerquelle zur Bewilligungspflicht — § 92 WsV (technologieneutral: «Entzug von Erdwaerme»,
+  «Eintrag von Waerme in das Erdreich») und § 44 Abs. 1 lit. a Ziff. 3 WsG liegen im Hub. Der
+  Fehler erreichte den Bauherrn ueber FAQ F187. Korrigiert; die Anwendung auf den Eisspeicher ist
+  ausdruecklich als KB-eigene Subsumtion gekennzeichnet, offen bleibt nur die AWEL-Vollzugspraxis
+  in den Schutzzonen S1/S2.
+- **Dritter Fundort des KGSchV-Falls (LS 711.11, aufgehoben 01.01.2022):** das Nachbar-Destillat
+  `erdwaermesonden-bewilligung-zh-sz` fuehrte sie im Status «established» und ausdruecklich als
+  «primaerquellen-verifiziert» an vier Stellen. Auf § 92 WsV umgestellt; die **Gebuehren-Nachfolge
+  hat der Verifikations-Agent am Volltext gefunden** (§ 209 WsV verweist auf dieselbe GebV UR wie
+  der alte § 69 KGSchV), womit die materielle Aussage des Destillats gueltig bleibt und der Status
+  `established` zu Recht traegt. Der Chef hatte im selben Lauf den ersten Fundort geflaggt
+  (OEREB-Thema 130, `planungsgrundlagen`) — **die energie-Seite war nie geflaggt worden.**
+- **Lehre zur Nummern-Naehe (aus dem OEREB-130-Fall):** der Run-18-Sweep suchte `LS 711.1` und las
+  ueber `LS 711.11` hinweg, weil die gesuchte Nummer als Praefix in der laengeren steckt. Bei
+  LS-Nummern ist die Ziffernfolge ohne Wortgrenze nicht eindeutig (**711.1 ≠ 711.11**), so wie
+  724.11 in zwei Zeitperioden zwei verschiedene Erlasse trug. Erlass-Sweeps ab jetzt auf
+  Wortgrenze und jede Nummer der Zeile einzeln.
+- **Status:** 8 Befunde bestaetigt, 3 widerlegt. Umgesetzt in `energie` (drei Destillate + FAQ
+  F186/F187/F71 + INDEX + Curriculum-Nachtrag), Gegenrichtungen in `planungsgrundlagen`.
+  Bring-Schulden: **P1 `baurecht`** (§§ 95-100 WsG/§ 178 WsV im ganzen Hub unverarbeitet, neue
+  Matrix-Zeile), K62 `planungsgrundlagen` (Regenwasser-Nutzungsseite fehlt ganz).
+
+### energie ↔ normen ↔ grobkosten (graue Energie Holzbau vs. Massivbau, neues Destillat) — geprueft 2026-07-29 (Run 20)
+- **Der materielle Befund liegt KB-intern:** die Kopfaussage «durchgehend 20-40 % tiefer» wurde von
+  der **eigenen Tabelle** des Destillats (-13 %, espazium-Fallstudie) und dem **eigenen
+  Bauherren-Transfer** (20-25 %) widerlegt. Die 40-%-Obergrenze stammte allein aus einer
+  Lignum-Journal-Zeile, die die Datei selbst als «keine eigene Studienquelle, als Kontext, nicht
+  als harte Primaerzahl» entwertet — und deren Rechnung zusaetzlich arithmetisch falsch war
+  (7,5 gegen 10,5-12,2 ergibt -29 bis -39 %, angegeben war ~20-37 %). Korrigiert auf **Median rund
+  23 %, Planungsgroesse 20-25 %**; «durchgehend» qualifiziert nur noch die **Richtung** in der
+  Wueest-Stichprobe (jedes der 35 Objektpaare unter der Winkelhalbierenden), nie eine
+  Prozent-Bandbreite. Nachgezogen in `wiki/graue-energie.md`, `destillate/INDEX.md`, FAQ F189
+  (dort war die Zahl schon richtig und ist jetzt die Leitzahl) und im **Curriculum**, weil sonst
+  ein Folgelauf die widerlegte Zahl als eigenen Vorbefund wieder einliest.
+- **Norm-Fehlzuschreibung, subtil und folgenreich fuer die Rechenbasis:** «Messgroessen (SIA 2032):
+  kg CO2-eq/m2 **EBF**» ist falsch — die Bezugsflaeche EBF stammt aus der KBOB-/Minergie-/
+  SIA-2040-Systematik; SIA 2032 bezieht auf die **Geschossflaeche GF** (SIA 416), belegt im Vorwort
+  der Ausgabe 2010, das die EBF ausdruecklich kontrastiert. Der Verifikations-Agent hat dabei die
+  Folgenabschaetzung des Finders entschaerft: **keine einzige Vergleichszahl muss neu gerechnet
+  werden**, weil die Quellen die Minergie-/SIA-2040-Konvention korrekt anwenden — falsch war allein
+  die Zuschreibung.
+- **Fassungsstand SIA 2032:** `normen` fuehrt im REGISTER die Ausgabe 2010 als gueltig, `energie`
+  zitiert seit dem 26.06. durchgaengig **SIA 2032:2020**. Hier hat die Verifikation die Aufloesung
+  des Finders **verhindert**: die Ausgaben-Kette auf «2020✓ · 2010✗» umzuschreiben waere
+  unzulaessig, weil das Register seit Run 37 eine eigene Beweisschwelle hat, kein hauseigenes
+  Exemplar existiert und **kein Rueckzugsdatum fuer 2010 belegt ist** — ein gesetztes ✗ waere
+  dieselbe ungedeckte Gueltigkeitsaussage, nur in die andere Richtung. Gesetzt wurde nur ein
+  ⚠-Fassungsflag in der Bemerkungsspalte.
+- **Zwei Bring-Schulden an `normen`:** SIA 2032:2020 hat im Hub **kein Destillat**, obwohl vier
+  energie-Destillate und die BAUHERREN-FAQ darauf abstuetzen (`[[sia-2032]]` in
+  `normen/destillate/sia-2040-2017.md:9` ist ein dangling link); **SIA 390/1** (Klimapfad-Norm,
+  Zielwert 9 kg CO2-eq/m2·a) ist in der fuehrenden KB ueberhaupt nicht erfasst (grep «390/1» = 0
+  Treffer), wird von `energie` aber seit dem 21.07. zitiert. Nebenbefund der Verifikation: die
+  9 kg stammen **nicht** aus KBOB, sondern aus dem Minergie-Nachweiskurs 2023 — die vom Finder
+  vorgeschlagene KBOB-Attribution waere schlechter gewesen als der Ist-Zustand.
+- **Bring-Schuld an `grobkosten`, und eine Praezisierung, die einen Methodenanspruch verhindert
+  hat:** die Wueest-Partner/Lignum/BAFU-Studie enthaelt eine **Kostenhaelfte** (Erstellungskosten
+  Holz gegen Massiv), die nie an `grobkosten` gelangt ist; dort ist der einzige Holz-Kostenansatz
+  des Hubs (`kennwerte.md:200`, «+5-15 %») unbelegt und trennt Bauweise nicht von Ausbaustandard.
+  Der Verifikator hat belegt, dass die «35 Objektpaare gegen digitalen Zwilling» **nur fuer die
+  oekologische Haelfte** gelten — der Kostenteil hat eine andere Stichprobe (17 Holzbauten gegen
+  50 Referenzobjekte). Ohne diese Korrektur waere ein unbelegter Methodenanspruch nach `grobkosten`
+  gewandert.
+- **Vierter Fundort des Musters «Rule `normen-referenz` greift beim SCHREIBEN nicht»:** das neue
+  Destillat zitiert SIA 2032 und SIA 390/1 ohne jeden Verweis auf `normen` (grep «normen» = 0
+  Treffer), obwohl der **Elternartikel den Link seit Run 13 traegt**. Die Regel wird erneut erst im
+  Cross-KB-Lauf durchgesetzt. Vorschlag an den Synergie-Orchestrator: ein Pruefschritt «zitiert
+  dieses Destillat eine Norm? dann normen-Destillat verlinken» in `energie/training/PROGRAMM.md`.
+- **Status:** 5 Befunde bestaetigt, 0 widerlegt.
+
+### claude-code ↔ spec ↔ rules — ERST-PRUEFUNG 2026-07-29 (Run 20)
+- **Anlass:** die KB `claude-code` wurde am 29.07. neu angelegt (Methoden-Register, SPW-Destillat,
+  Lecture-Artikel, Lern-Loop `methoden-radar`) und war noch nie Gegenstand einer Cross-KB-Pruefung.
+  Gefahrenlage: eine neue Methoden-KB kann doppelt fuehren, was Rules, `spec` und `docs/konzepte/`
+  schon fuehren.
+- **Der Hub widerlegt seine eigene, tagesaktuelle Regel.** Die Kontext-Diaet-Entscheidungsregel
+  («automatisch oder lazily?») schliesst Loops, Infrastruktur und Messwerte ausdruecklich aus dem
+  @-Import aus. **Am selben Tag** wurde `rules/rollen-taxonomie.md` importiert (CLAUDE.md:300) —
+  mit genau diesem Inhalt: 90-%-Rechenzeit-Messung, 10'501 Laeufe, 10'017 Fehlstarts, drei
+  Loop-Scripts. → **Entscheid Raphael, siehe Bericht.** Der Chef greift hier nicht selbst ein
+  (Rollen-Taxonomie Regel 4: Quoten werden gemessen und berichtet, nie automatisch durchgesetzt).
+- **Die eigene Messung war am Messtag schon zu tief.** `kontext-architektur.md` fuehrte 19 Importe /
+  87'398 B; die Nachmessung des Chefs ergibt **20 Importe / 96'946 B / ~24'236 Token**. Hier hat die
+  Verifikation eine falsche Korrektur abgewehrt: die Ersparnis-Zeile (105'573 → 87'398 B, 17 %)
+  durfte **nicht** ueberschrieben werden, weil sie die Wirkung des Eingriffs am Commit `29bcb1ac`
+  misst — das nachtraegliche Wiederanwachsen ist eine andere Groesse und gehoert in eine eigene
+  Zeile. Beides steht jetzt getrennt, mit Messweg (`stat -f%z` ueber CLAUDE.md **plus** die Dateien
+  aus `grep '^@/Volumes' CLAUDE.md`) und Zeitstempel, weil der Wert nachweislich in Minuten veraltet.
+- **Null Querverweise zwischen `claude-code` und `spec`,** obwohl `kontext-architektur` und
+  `environment-jans-hub` dieselbe Sache aus zwei Winkeln beschreiben (Messebene gegen formales
+  Layer-3-Modell). Beidseitig verlinkt. Die Verifikation hat auch hier gebremst: die
+  Baustein-Tabelle in `environment-jans-hub` durfte **nicht** auf einen Verweis reduziert werden —
+  sie enthaelt die Video-Baustein-Zuordnung, die in `claude-code` nicht existiert, und Kuerzen ist
+  nach Rule `wissens-bibliothekar` destruktiv.
+- **Ehrlich anzumerken:** die Abgrenzung gegen die Rules ist in `claude-code/CLAUDE.md` sauber
+  formuliert («diese KB begruendet die Konfiguration, ersetzt sie nicht») — dort war **kein
+  Befund**. Zwei gemeldete Doppelspur-Vorwuerfe (Hub-Inventar-Zahlen, Herkunft des Wissens-Layers)
+  wurden **widerlegt**.
+- **Status:** 3 Befunde bestaetigt, 2 widerlegt. Neue Matrix-Zeile, F-ENV1 in `spec/wiki/QUESTIONS.md`.
+
+### projekt-lessons ↔ auflagebereinigung ↔ baurecht (neuer Lesson-Artikel KISPI 1171/26) — geprueft 2026-07-29 (Run 20, Rotation)
+- **Chronologie-Fehler mit belegter Gegenquelle:** der Artikel schrieb, der AfB-Zustaendigkeitswechsel
+  sei erst am 27.07. sichtbar geworden und «nicht durch eine Mitteilung des Amts». Belegt ist das
+  Gegenteil aus dem **twin-Korpus**: am 24.07. adressierte RJ «Guten Tag Herr Furrer (AfB)», und die
+  Einfuehrung als neue Ansprechperson fuer Team 5 erfolgte durch Hottinger (AfB) selbst. Der
+  Verifikator hat dabei eine Uebersteuerung verhindert: die verallgemeinernde Zeile («man erfaehrt es
+  erst reaktiv») darf **nicht** entschaerft werden — sie ist auch fuer die AfB korrekt, weil die
+  Information nur auf RJs Nachfrage bei der inzwischen falschen Stelle kam. Genau das ist die
+  tragende Lesson.
+- **Die Fakten erreichten die fuehrende KB nicht:** in `auflagebereinigung/wiki/aemter-stadt-zuerich`
+  ist die Kontaktstellen-Luecke seit dem **04.06.** offen ausgewiesen, und beide betroffenen
+  Adressaten (AfB, UGZ) stehen dort ohne Kenntnis des Wechsels. Bidirektional verlinkt — mit der
+  Praezisierung des Verifikators, dass die Namen dort **nur als datierter, gebiets-/fallbezogener
+  Stand** erscheinen duerfen, nie als generische Amtszustaendigkeit: sonst tauscht die KB eine
+  veraltete Personenangabe gegen die naechste. Ausdruecklich **nicht** geschrieben, A. Hottinger sei
+  «nicht mehr zustaendig» — der Wechsel ist gebietsbezogen, und die Rule `anrede-kontakte` fuehrt
+  sie weiter als Kreisarchitektin AfB.
+- **Fristbegriff harmonisiert statt ersetzt:** «vor Baufreigabe» ist nicht falsch, nur unnormiert —
+  normseitig eine auf den Baubeginn gestellte Nebenbestimmung nach **§ 326 lit. a PBG**, wobei die
+  schriftliche Baufreigabe diesen Zustand bestaetigt. Ein blosses Ersetzen haette die operative
+  Tatsache geloescht, dass das AfB real eine Baufreigabe verlangt. Derselbe Anschluss im
+  Schwester-Artikel `sbb-naeherbaurecht-thalwil-2414-vordach` nachgezogen, damit die KB im
+  Fristbegriff nicht in sich auseinanderlaeuft. **Nicht** als Rechtsgrundlage ausgegeben: § 318 PBG
+  regelt, welches Organ Baubehoerde ist, nicht die verwaltungsinterne Gebiets-/Teamzuteilung.
+- **Status:** 3 Befunde bestaetigt, 2 widerlegt (darunter ein Zeitstempel-Vorwurf und eine
+  Doppelspur-Behauptung). Neue Matrix-Zeile «Amt/Adressat/Kontaktperson je Deliverable».
 
 ### baurecht ↔ planungsgrundlagen ↔ energie (Gegenlesung am NEUEN WsG-/WsV-Volltext) — geprueft 2026-07-28 (Run 19)
 - **Anlass:** Die in Run 18 als P1 gemeldete Luecke ist eingeloest — `baurecht` hat mit Buch-Run 69
@@ -1389,7 +1541,19 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 > Rotationsliste gegen die «geprueft»-Ueberschriften diffen. Offene Restfragen gehoeren an den
 > datierten Paar-Eintrag, nicht hierhin.
 
-- kunde-bopp ↔ machbarkeit/stockwerkeigentum/ankaufspruefung (Kunden-Kontext)
+- kunde-bopp ↔ machbarkeit/stockwerkeigentum/ankaufspruefung (Kunden-Kontext) — **einziges verbleibendes
+  Paar der Liste; seit Run 9 nicht angefasst.** Beim naechsten Lauf vorziehen, sonst wird es zur
+  Karteileiche, die die Bereinigung von Run 9 gerade verhindern wollte.
+- **Neu aufgenommen Run 20:** `bauprodukte ↔ normen ↔ grobkosten` vertieft (die KB wurde in Run 19
+  erst-geprueft, ist seither aber gewachsen und hat neu ein `training/PROGRAMM.md`) ·
+  `energie ↔ normen` fuer die vier weiteren Run-119-Destillate, die dieser Lauf nicht angefasst hat
+  (Rabtherm-JAZ, SWKI VA106, Energierichtplan Freienbach, SWKI-Zugangsprotokoll) ·
+  `claude-code ↔ rules/docs-konzepte` (die Rule-Seite des @-Import-Widerspruchs, sobald Raphael
+  entschieden hat).
+
+*Ausgetragen 29.07.2026 (Run 20):* claude-code ↔ spec ↔ rules (→ Run 20, Erst-Pruefung: 3 bestaetigt,
+2 widerlegt, beidseitig verlinkt, neue Matrix-Zeile, ein Entscheid an Raphael) · projekt-lessons ↔
+auflagebereinigung ↔ baurecht (→ Run 20, Rotation: Chronologie korrigiert, bidirektional verlinkt).
 
 *Ausgetragen 25.07.2026 (Run 15):* architekten-synobsis ↔ entwurfs-referenzen (→ Run 15, Erst-Pruefung:
 1 Widerspruch korrigiert, Erst-Verlinkung + 2 Matrix-Zeilen) · grobkosten ↔ immobilienbewertung ↔

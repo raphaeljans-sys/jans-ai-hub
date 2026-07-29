@@ -1,3 +1,25 @@
+## 2026-07-29 (Wissens-Chef Run 20, Cross-KB) — SIA 2032 Fassungsflag, zwei Bring-Schulden aufgenommen
+- **[fassungsstand, mit abgewehrter Fehlkorrektur] SIA 2032 stand im REGISTER als Ausgabe 2010
+  «gueltig» ohne Flag, waehrend `energie` seit dem 26.06. durchgaengig SIA 2032:2020 zitiert.** Die
+  urspruenglich vorgeschlagene Korrektur — Ausgaben-Kette auf «2020✓ · 2010✗» umschreiben — wurde vom
+  Verifikations-Agenten als **unzulaessig** belegt und NICHT ausgefuehrt: das Register hat seit Run 37
+  seine eigene Beweisschwelle (Zeilen mit leerer Bestand-Spalte duerfen ohne externe Gegenpruefung
+  nicht als geltend zitiert werden), es existiert **kein hauseigenes Exemplar** (also kein Titelblatt,
+  anders als beim Praezedens SIA 2020) und **kein Rueckzugsdatum fuer 2010 ist belegt**. Ein gesetztes
+  ✗ waere dieselbe ungedeckte Gueltigkeitsaussage gewesen, nur in die andere Richtung. Gesetzt wurde
+  darum **nur die Bemerkungsspalte** mit ⚠-Fassungsflag und dem Hinweis auf die beiden
+  Sekundaerquellen der KB `energie`.
+- **[bring-schuld] SIA 2032:2020 hat im Hub kein Destillat**, obwohl vier energie-Destillate und die
+  BAUHERREN-FAQ darauf abstuetzen; `[[sia-2032]]` in `destillate/sia-2040-2017.md:9` ist ein dangling
+  link. In `wiki/QUESTIONS.md` aufgenommen.
+- **[bring-schuld] SIA 390/1** (Klimapfad-Norm, Vernehmlassung, Zielwert 9 kg CO2-eq/m2·a) ist in
+  dieser KB **ueberhaupt nicht erfasst** (grep «390/1» = 0 Treffer), wird von `energie` aber seit dem
+  21.07. zitiert. Als Beobachtungsposten aufgenommen. Nebenbefund der Verifikation: die 9 kg stammen
+  **nicht** aus KBOB, sondern aus dem Minergie-Nachweiskurs 2023 — eine KBOB-Attribution waere
+  schlechter gewesen als der Ist-Zustand.
+- Geaendert: `wiki/REGISTER.md` (SIA-2032-Zeile), `wiki/QUESTIONS.md`.
+
+
 ## 2026-07-29 (nachmittags) — Entscheid-Paket Raphael umgesetzt: Vorrang-Auftrag Lignum + PL-02-Kern aufgenommen
 
 - **[entscheid, strukturell] PL-02-Reichweite entschieden (Freigabe Raphael 29.07.2026).** Der seit

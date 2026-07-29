@@ -433,7 +433,11 @@ Status: `[ ]` offen · `[~]` begonnen · `[x]` belegt (mit Datum). Reihenfolge =
 - [~] D2 Graue Energie / CO2 im Bauteil — Sanieren vs. Neubau — Groessenordnung + Tragstruktur-Hebel
   + THGE belegt 2026-06-10/-17 via Lehrmittel «Betriebsenergie» + Nachweiskurs (THGE-Grenzwerte je
   Kategorie, bauliche Hebel) → `[[graue-energie]]` (FAQ F9/F8). **KBOB-Faktenblatt graue THG-Emissionen
-  belegt 2026-06-26** (9 Reduktionshebel, SIA-2032-Messgroessen kg CO₂-eq/m² EBF, «Restwert Bestand»,
+  belegt 2026-06-26** (9 Reduktionshebel, «SIA-2032-Messgroessen kg CO₂-eq/m² EBF» — ⚠ **Zuschreibung
+  korrigiert Wissens-Chef Run 20, 29.07.2026:** die Bezugsflaeche EBF stammt aus der KBOB-/Minergie-/
+  SIA-2040-Systematik, NICHT aus SIA 2032; SIA 2032 bezieht auf die **Geschossflaeche GF** (SIA 416),
+  belegt im Vorwort der Ausgabe 2010, Vorbehalt fuer die Ausgabe 2020. Die Zahlen selbst sind korrekt
+  EBF-bezogen und muessen nicht neu gerechnet werden, falsch war nur die Norm-Zuschreibung —, «Restwert Bestand»,
   bis 40 % MFH, kommende Kantons-Grenzwerte Art. 45 EnG; Datenbasis KBOB-Oekobilanzdaten v8.0) →
   `[[kbob-graue-treibhausgasemissionen-2025]]`. Offen nur noch: konkrete kg CO₂-eq/m² je Bauteilaufbau
   (KBOB v8.0/SIA-2032-Vorprojektwerte, kostenpflichtig), Sanieren-vs-Neubau-Amortisationsschwelle.
@@ -1983,6 +1987,13 @@ Registerkonsolidierung im Hauptmodell.
   Branchenauftrag gekennzeichnet) + unabhängiges Korrektiv treeze/ZZ-Wancor: Holzbau 20-40 %
   tiefer, Median 7,5 vs. 9,8 kg CO₂-eq/m² EBF·a, grösster Hebel Dach/Tragstruktur, nicht
   Aussenwand → `[[graue-energie-holzbau-vs-massivbau-vergleich-ch]]`, FAQ F189, established.
+  > ⚠ **Nachtrag Wissens-Chef Run 20, 29.07.2026 — die hier notierte Zahl ist korrigiert.**
+  > Nicht «20-40 %», sondern **im Median rund 23 %** (7,5 vs. 9,8), als Planungsgrösse **20-25 %**.
+  > Die 40-%-Obergrenze war durch die eigene Tabelle des Destillats (-13 %) und dessen eigenen
+  > Bauherren-Transfer (20-25 %) widerlegt. «Durchgehend» qualifiziert nur die **Richtung** in der
+  > Wüest-Stichprobe, nie eine Prozent-Bandbreite. Dieser Nachtrag steht hier, weil das Curriculum
+  > die Grundlage der nächsten Läufe ist: ohne ihn liest ein Folgelauf die widerlegte Zahl als
+  > eigenen Vorbefund wieder ein. Der Curriculum-Eintrag selbst bleibt als Lauf-Protokoll stehen.
 - **Verdichtung:** `wiki/heizleistung-und-waermeerzeuger.md`, `wiki/
   regenwasserbewirtschaftung-versickerung-zh.md`, `wiki/graue-energie.md` erweitert. Kein neuer
   Wiki-Artikel (Seewasser als Kandidat für den nächsten Lauf vorgemerkt).

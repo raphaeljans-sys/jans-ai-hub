@@ -2,6 +2,19 @@
 
 Offene Punkte, die der Trainings-Loop und reale Anwendungen klären sollen.
 
+## Environment-Layer (neu Wissens-Chef Run 20, 29.07.2026)
+- F-ENV1: **Die Zählstände in [[environment-jans-hub]] haben kein Nachführungs-Verfahren.** Der
+  Artikel kartiert Marcheses Layer 3 auf den Hub (CLAUDE.md · Wissensbasis · Skill Set ·
+  Rules/Guardrails · sich verbessernder Workspace) und nennt dabei Anzahlen. Solche Zahlen
+  veralten im Hub innerhalb von Tagen, teils Minuten: die Gegenprobe von Run 20 hat gezeigt, dass
+  das parallel geführte Byte-Budget in `claude-code/wiki/kontext-architektur.md` **am eigenen
+  Messtag schon zu tief** war (gemessen 20 Importe / 96'946 B statt der dort geführten 19 /
+  87'398 B). Entweder die Zahlen mit Messweg und Zeitstempel versehen, oder sie durch einen
+  Verweis auf die messende Stelle ersetzen. **Führend für den gemessenen Ist-Zustand ist neu die
+  KB `claude-code`** ([[kontext-architektur]]); `spec` führt das formale Layer-Modell. Die
+  Baustein-Tabelle selbst bleibt hier — sie enthält die Video-Baustein-Zuordnung, die es in
+  `claude-code` nicht gibt und die nicht durch einen Verweis ersetzt werden darf.
+
 ## Methodik
 - F1: Ab welcher Aufgabengrösse lohnt der Spec-Overhead wirklich? Schwelle anhand realer
   Anwendungen kalibrieren (Gefahr: Gate nervt bei Mittelgrossem). → aus `outputs/` lernen.

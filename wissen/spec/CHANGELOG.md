@@ -1,5 +1,23 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-29 (Wissens-Chef Run 20, Cross-KB) — Erst-Verlinkung mit der neuen KB `claude-code`
+- **[verlinkung] Null Querverweise zwischen `spec` und der am 29.07. neu angelegten KB
+  `claude-code`,** obwohl `wiki/environment-jans-hub.md` (Marcheses Layer 3) und
+  `claude-code/wiki/kontext-architektur.md` (Ladeschichten, Byte-Budget) dieselbe Sache aus zwei
+  Winkeln beschreiben. Beidseitig verlinkt. Fuehrung geklaert: **`spec` fuehrt das formale
+  Layer-Modell, `claude-code` den gemessenen Ist-Zustand.**
+- **[nicht ausgefuehrt, bewusst]** Die urspruenglich vorgeschlagene Kuerzung der Baustein-Tabelle auf
+  einen Verweis wurde vom Verifikations-Agenten als falsch und destruktiv verworfen: die Tabelle
+  enthaelt die Zuordnung Video-Baustein ↔ Hub (CLAUDE.md · Wissensbasis · Skill Set ·
+  Rules/Guardrails · sich verbessernder Workspace), die in `claude-code` **nicht** existiert — ein
+  Verweis dorthin wuerde ins Leere zeigen. Tabelle inhaltlich unveraendert, nur Verweissatz ergaenzt.
+- **[offener punkt, neu] F-ENV1:** die Zaehlstaende in `environment-jans-hub` haben kein
+  Nachfuehrungs-Verfahren. Belegter Anlass: das parallel gefuehrte Byte-Budget in `claude-code` war
+  **am eigenen Messtag** schon zu tief. Entweder Messweg und Zeitstempel mitfuehren, oder auf die
+  messende Stelle verweisen.
+- Geaendert: `wiki/environment-jans-hub.md`, `wiki/QUESTIONS.md`.
+
+
 ## 2026-07-29 — `training/PROGRAMM.md`: Statuskopf «EREIGNIS-TRIGGER» gesetzt (vollgas-chef-radar 12:57)
 - **[struktur]** Die Programmdatei trug keinen Hinweis darauf, dass `spec-training` seit dem
   **26.07.2026** (Entscheid Raphael, Registry-Nachzug 27.07.) auf `enabled=false` steht und nur

@@ -171,8 +171,9 @@ der ursprünglichen Fundmeldung.
    der Normtext selbst ist kostenpflichtig und wurde nie eingesehen. Die Register-Zeile trägt seit
    heute ein zeilenspezifisches ⚠-Fassungsflag, die Ausgaben-Kette bleibt bewusst unverändert
    (Blindzone-Regel: ohne externe Gegenprüfung kein ✓/✗ setzen). **Abnehmer warten:** vier
-   `energie`-Destillate, die BAUHERREN-FAQ und `wissen/planungsgrundlagen/wiki/energie-uebersicht.md`
-   (Z. 78/160) stützen auf SIA 2032 ab. Nebenbefund derselben Lücke: `[[sia-2032]]` in
+   `energie`-Destillate stützen ihre Rechenbasis auf SIA 2032:2020 ab (insgesamt nennen elf Dateien in
+   `energie/destillate/` die Norm), dazu die BAUHERREN-FAQ und
+   `wissen/planungsgrundlagen/wiki/energie-uebersicht.md` (Z. 78/160). Nebenbefund derselben Lücke: `[[sia-2032]]` in
    `destillate/sia-2040-2017.md:9` (Frontmatter `links:`) ist ein **dangling link** und bleibt es, bis
    das Destillat existiert.
 2. **SIA 390/1 (Klimapfad-Norm) fehlt in `normen` vollständig — Beobachtungsposten, kein

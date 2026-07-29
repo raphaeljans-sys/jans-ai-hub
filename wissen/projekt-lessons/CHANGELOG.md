@@ -3,6 +3,39 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-29 (Wissens-Chef Run 20, Cross-KB) — Chronologie des neuen Lesson-Artikels korrigiert, Anschluss an die fuehrenden KBs gesetzt
+- **[korrektur, materiell, mit belegter Gegenquelle] `kispi-behoerden-zustaendigkeitswechsel-1171-26`
+  schrieb, der AfB-Wechsel sei erst am 27.07. sichtbar geworden und «nicht durch eine Mitteilung des
+  Amts».** Belegt ist das Gegenteil aus dem **twin-Korpus**: am **24.07.** adressierte RJ «Guten Tag
+  Herr Furrer (AfB)», eingefuehrt als neue Ansprechperson fuer Team 5 durch Hottinger (AfB) selbst
+  (`twin/wiki/beziehungsregister.md:386-395`). Datum und Halbsatz korrigiert, zweite Quelle in die
+  Frontmatter-`sources` aufgenommen.
+- **[nicht entschaerft, bewusst]** Die verallgemeinernde Zeile «Beides geschieht ohne proaktive
+  Mitteilung — man erfaehrt es erst reaktiv» bleibt **unangetastet**. Der Verifikations-Agent hat
+  belegt, dass sie auch fuer die AfB korrekt ist: die Information kam nur, weil RJ bei der inzwischen
+  falschen Stelle die Kontaktstellenliste nachfragte. Das ist die tragende Lesson und haette durch
+  eine Entschaerfung Schaden genommen.
+- **[verlinkung, materiell] Die neuen Amts-/Kontaktfakten hatten die fuehrende KB
+  `auflagebereinigung` nicht erreicht** — dort ist die Kontaktstellen-Luecke seit dem **04.06.** offen
+  ausgewiesen, und beide betroffenen Adressaten (AfB, UGZ) stehen ohne Kenntnis des Wechsels.
+  Bidirektional verlinkt, mit der Praezisierung, dass die Namen dort nur als **datierter, gebiets-/
+  fallbezogener Stand** erscheinen — sonst tauscht die KB eine veraltete Personenangabe gegen die
+  naechste. Ausdruecklich **nicht** geschrieben, A. Hottinger sei «nicht mehr zustaendig»: der Wechsel
+  ist gebietsbezogen, und die Rule `anrede-kontakte` fuehrt sie weiter als Kreisarchitektin AfB.
+- **[begriffsanschluss] Fristbegriff harmonisiert, nicht ersetzt:** «vor Baufreigabe» ist nicht falsch,
+  nur unnormiert — normseitig eine auf den **Baubeginn** gestellte Nebenbestimmung nach **§ 326 lit. a
+  PBG**, wobei die schriftliche Baufreigabe diesen Zustand bestaetigt. Ein blosses Ersetzen haette die
+  operative Tatsache geloescht, dass das AfB real eine Baufreigabe verlangt. **Derselbe Anschluss im
+  Schwester-Artikel `sbb-naeherbaurecht-thalwil-2414-vordach` nachgezogen**, damit die KB im
+  Fristbegriff nicht in sich auseinanderlaeuft. § 318 PBG wurde ausdruecklich **nicht** als
+  Rechtsgrundlage der Gebiets-/Teamzuteilung ausgegeben — er regelt, welches Organ Baubehoerde ist.
+- **[widerlegt]** Zwei weitere Vorwuerfe hielten der Gegenpruefung nicht stand: ein
+  UGZ-Zeitstempel-Widerspruch und die Behauptung, die generische Prozessregel entstehe hier statt im
+  fuehrenden Prozess-Artikel.
+- Geaendert: `wiki/kispi-behoerden-zustaendigkeitswechsel-1171-26.md`,
+  `wiki/sbb-naeherbaurecht-thalwil-2414-vordach.md`.
+
+
 ## 2026-07-29 (interaktive Session, nach zwei gescheiterten Remote-Dispatch-Versuchen) — Ingest-Programm Lauf 1: Wurzelpfad verifiziert, erstes Destillat
 - **Wurzelpfad 2619 KISPI korrigiert:** der in `training/PROGRAMM.md` genannte NAS-Kandidat
   `/Volumes/daten/04_Buero/02_Projekte/2619_KINDERSPITAL/` existiert nicht (dort liegt ein
