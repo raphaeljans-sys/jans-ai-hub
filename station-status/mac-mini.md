@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.07.2026 16:01:37
+Stand: 29.07.2026 16:11:40
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -15,4 +15,4 @@ Stand: 29.07.2026 16:01:37
 - 2 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- c24a5cd8 nas-selfcommit: 2 Datei(en) 2026-07-29 16:00
+- af14b007 vollgas-radar 29.07. 15:57: Eintrag auf echte Umlaute umgestellt (Auftragsvorgabe) und durch den Korrektur-Harness gefuehrt — rechtschreibung + layout je gelb, alle 6 Befunde uebernommen
