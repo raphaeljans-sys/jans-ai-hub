@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.07.2026 03:46:33
+Stand: 29.07.2026 03:56:36
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 29.07.2026 03:46:33
 - keine
 
 ## Hub-Git-Stand (NAS)
-- a597f88c nas-selfcommit: 2 Datei(en) 2026-07-29 03:45
+- 74258096 twin-mail-training Batch 81: Luecken-Sweep rj@ 13.-30.09.2025, schliesst September 2025 ab
