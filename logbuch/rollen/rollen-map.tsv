@@ -1,96 +1,107 @@
 # Rollen-Register — kanonische Zuordnung Hub-Baustein -> Rolle
 # Taxonomie: prototyper | builder | sweeper | grower | maintainer
 # Konzept: docs/konzepte/260729-Rollen-Taxonomie/
-# Spalten: name <TAB> typ <TAB> rolle <TAB> begruendung
-# typ: skill | task | referenz | parkiert
-# Angelegt 29.07.2026. Aenderungen hier, nicht im Script.
+#
+# Spalten: name <TAB> typ <TAB> rolle <TAB> begruendung <TAB> status <TAB> pfad
+#   typ:    skill | task | referenz | parkiert
+#   status: aktiv          — wird nachweislich benutzt
+#           anlassgebunden — Fach-Skill, wartet auf ein reales Projekt; Kaelte ist
+#                            KEIN Mangel, sondern Vorratshaltung
+#           ersetzt        — die Arbeit laeuft ueber einen Agenten, ein Script oder
+#                            eine Rule; die SKILL.md wird deshalb nie geladen
+#           pruefen        — nie gebraucht, Zweck offen; Entscheid Raphael
+#           parkiert       — bewusst stillgelegt
+#   pfad:   Zielbereich fuer die Liefer-Delta-Messung (git). Leer = nicht messbar.
+#
+# Angelegt 29.07.2026, Status- und Pfad-Spalte am selben Tag ergaenzt.
+# Aenderungen hier, nicht im Script.
 #
 # ---- SKILLS ----
-ankaufspruefung	skill	builder	Prueft eine reale Liegenschaft zu einem verbindlichen TDD-Deliverable
-auflagebereinigung	skill	maintainer	Kern ist Nachfuehrung und Fristen-Tracking nach dem Entscheid
-ausschreibung	skill	builder	Erzeugt versandfertige Devis/LV
-baurecht	skill	builder	Liefert belegte Rechtsgrundlage als Entscheidbasis
-behoerden-vorabklaerung	skill	prototyper	Erzeugt den Fragenraum vor dem Entscheid
-brandschutz	skill	builder	Erzeugt Factsheets/Nachweise
-grobkosten-onepager	skill	prototyper	Fruehe Variantenrechnung, bewusst grob
-healthcare-wirtschaftlichkeit	skill	prototyper	Szenarienrechnung in der Ideenphase
-heartbeat	skill	maintainer	System-Health
-honorarberechnung-sia102	skill	builder	Erzeugt die Honorarofferte
-hub-chef	skill	maintainer	Dach-Aufsicht ueber den laufenden Betrieb
-immobilienbewertung	skill	builder	Erzeugt das Bewertungs-Deliverable
-korrektur	skill	sweeper	Schleift jedes Erzeugnis vor Ausgabe
-kostenkontrolle	skill	maintainer	Laufende Baubuchhaltung ueber die Projektdauer
-kostenschaetzung	skill	builder	Erzeugt die belegte Kostenschaetzung
-logbuch	skill	maintainer	Fristen- und Pendenzen-Register
-machbarkeit	skill	prototyper	Erzeugt Potenzial-Varianten
-machbarkeit-studio	skill	prototyper	Interaktiver Variantenraum
-mahnwesen	skill	maintainer	Laufender Debitoren-Betrieb
-marketing	skill	grower	Bringt Erzeugtes zu Menschen
-massgebendes-terrain	skill	builder	Erzeugt den MT-Nachweis
-masterclass	skill	sweeper	Harness-Review, verdichtet Gelerntes
-normen	skill	builder	Liefert belegte Fundstellen
-nutzungsstrategie	skill	prototyper	Erzeugt und prueft Nutzungsszenarien
-oereb-schwyz	skill	builder	Beschafft den amtlichen Auszug
-offertenpruefung	skill	builder	Erzeugt Factsheet/Pruefergebnis
-pdf2dwg	skill	builder	Werkzeug, erzeugt verwendbare CAD-Datei
-pendenzenliste	skill	maintainer	Nachfuehrung offener Punkte
-planungsgrundlagen	skill	builder	Beschafft und buendelt Grundlagen
-protokoll	skill	builder	Erzeugt das Sitzungsprotokoll
-spec	skill	prototyper	Deckt das wahre Ziel auf, bevor gebaut wird
-stockwerkeigentum	skill	builder	Erzeugt Wertquoten/Begruendungsurkunde
-studien-generator	skill	builder	Dossier-Engine
-synergie-orchestrator	skill	grower	Geschaeftsmodell- und Synergie-Entwicklung
-telesales	skill	grower	Kundengewinnung
-tenant-hygiene	skill	maintainer	Tenant-Betrieb
-terminplanung	skill	builder	Erzeugt Bauprogramm/Terminplan
-twin	skill	sweeper	Fidelity-Gate, veredelt vor Ausgabe
-unternehmerfindung	skill	builder	Erzeugt die gerankte Shortlist
-unternehmerkontrolle	skill	maintainer	Laufende Ausfuehrungskontrolle
-volumenstudie	skill	prototyper	Erzeugt Volumenvarianten
-website-content	skill	grower	Bringt Projekte an die Oeffentlichkeit
-werkvertrag	skill	builder	Erzeugt den Vertrag
-wettbewerb	skill	prototyper	Erzeugt Wettbewerbsbeitraege
-wissens-destillat	skill	sweeper	Verdichtet Rohmaterial zu Lesbarem
-wissenscheck	skill	maintainer	Health-Check der Wissensbasen
-workstation-setup	skill	maintainer	Stations-Onboarding/Infrastruktur
-zahlungsabgleich	skill	maintainer	Laufender Abgleich
-versandplanung	parkiert	-	Parkiert per Entscheid 11.07.2026
-email-preferences	referenz	-	Konfiguration, keine Faehigkeit
+ankaufspruefung	skill	builder	Prueft eine reale Liegenschaft zu einem verbindlichen TDD-Deliverable	anlassgebunden
+auflagebereinigung	skill	maintainer	Kern ist Nachfuehrung und Fristen-Tracking nach dem Entscheid	anlassgebunden	wissen/auflagebereinigung
+ausschreibung	skill	builder	Erzeugt versandfertige Devis/LV	aktiv
+baurecht	skill	builder	Liefert belegte Rechtsgrundlage als Entscheidbasis	anlassgebunden	wissen/baurecht
+behoerden-vorabklaerung	skill	prototyper	Erzeugt den Fragenraum vor dem Entscheid	aktiv
+brandschutz	skill	builder	Erzeugt Factsheets/Nachweise	aktiv
+grobkosten-onepager	skill	prototyper	Fruehe Variantenrechnung, bewusst grob	aktiv	wissen/grobkosten
+healthcare-wirtschaftlichkeit	skill	prototyper	Szenarienrechnung in der Ideenphase	aktiv
+heartbeat	skill	maintainer	System-Health	ersetzt	scripts/heartbeat.sh
+honorarberechnung-sia102	skill	builder	Erzeugt die Honorarofferte	aktiv
+hub-chef	skill	maintainer	Dach-Aufsicht ueber den laufenden Betrieb	aktiv	logbuch
+immobilienbewertung	skill	builder	Erzeugt das Bewertungs-Deliverable	anlassgebunden	wissen/immobilienbewertung
+korrektur	skill	sweeper	Schleift jedes Erzeugnis vor Ausgabe	aktiv
+kostenkontrolle	skill	maintainer	Laufende Baubuchhaltung ueber die Projektdauer	anlassgebunden
+kostenschaetzung	skill	builder	Erzeugt die belegte Kostenschaetzung	aktiv
+logbuch	skill	maintainer	Fristen- und Pendenzen-Register	aktiv	logbuch
+machbarkeit	skill	prototyper	Erzeugt Potenzial-Varianten	anlassgebunden
+machbarkeit-studio	skill	prototyper	Interaktiver Variantenraum	anlassgebunden
+mahnwesen	skill	maintainer	Laufender Debitoren-Betrieb	aktiv
+marketing	skill	grower	Bringt Erzeugtes zu Menschen	ersetzt	agents/linkedin-stratege.md
+massgebendes-terrain	skill	builder	Erzeugt den MT-Nachweis	anlassgebunden
+masterclass	skill	sweeper	Harness-Review, verdichtet Gelerntes	pruefen
+normen	skill	builder	Liefert belegte Fundstellen	aktiv	wissen/normen
+nutzungsstrategie	skill	prototyper	Erzeugt und prueft Nutzungsszenarien	anlassgebunden
+oereb-schwyz	skill	builder	Beschafft den amtlichen Auszug	anlassgebunden
+offertenpruefung	skill	builder	Erzeugt Factsheet/Pruefergebnis	aktiv
+pdf2dwg	skill	builder	Werkzeug, erzeugt verwendbare CAD-Datei	aktiv
+pendenzenliste	skill	maintainer	Nachfuehrung offener Punkte	aktiv
+planungsgrundlagen	skill	builder	Beschafft und buendelt Grundlagen	aktiv	wissen/planungsgrundlagen
+protokoll	skill	builder	Erzeugt das Sitzungsprotokoll	anlassgebunden
+spec	skill	prototyper	Deckt das wahre Ziel auf, bevor gebaut wird	aktiv	wissen/spec
+stockwerkeigentum	skill	builder	Erzeugt Wertquoten/Begruendungsurkunde	anlassgebunden
+studien-generator	skill	builder	Dossier-Engine	anlassgebunden
+synergie-orchestrator	skill	grower	Geschaeftsmodell- und Synergie-Entwicklung	aktiv
+telesales	skill	grower	Kundengewinnung	pruefen
+tenant-hygiene	skill	maintainer	Tenant-Betrieb	aktiv
+terminplanung	skill	builder	Erzeugt Bauprogramm/Terminplan	aktiv
+twin	skill	sweeper	Fidelity-Gate, veredelt vor Ausgabe	ersetzt	rules/jans-dna.md
+unternehmerfindung	skill	builder	Erzeugt die gerankte Shortlist	anlassgebunden
+unternehmerkontrolle	skill	maintainer	Laufende Ausfuehrungskontrolle	anlassgebunden
+volumenstudie	skill	prototyper	Erzeugt Volumenvarianten	aktiv
+website-content	skill	grower	Bringt Projekte an die Oeffentlichkeit	ersetzt	agents/website-content.md
+werkvertrag	skill	builder	Erzeugt den Vertrag	anlassgebunden
+wettbewerb	skill	prototyper	Erzeugt Wettbewerbsbeitraege	aktiv	wissen/wettbewerbs-dna
+wissens-destillat	skill	sweeper	Verdichtet Rohmaterial zu Lesbarem	aktiv	wissen/bauprodukte
+wissenscheck	skill	maintainer	Health-Check der Wissensbasen	aktiv	wissen
+workstation-setup	skill	maintainer	Stations-Onboarding/Infrastruktur	ersetzt	scripts/neue-station.sh
+zahlungsabgleich	skill	maintainer	Laufender Abgleich	anlassgebunden
+versandplanung	parkiert	-	Parkiert per Entscheid 11.07.2026	parkiert
+email-preferences	referenz	-	Konfiguration, keine Faehigkeit	parkiert
 #
 # ---- SCHEDULED TASKS / LOOPS ----
-ag-gruendung-monitor	task	maintainer	Monitor
-baurecht-buch-training	task	prototyper	Erzeugt neues Wissen
-behoerden-zh-check	task	maintainer	Monitor
-heartbeat-daily	task	maintainer	System-Health
-hub-chef-taeglich	task	maintainer	Tagesaufsicht
-immobewertung-marktpuls-260901	task	prototyper	Erzeugt neues Wissen
-immobewertung-training	task	prototyper	Erzeugt neues Wissen
-konversations-log	task	maintainer	Gedaechtnis-Pflege
-logbuch-radar	task	maintainer	Fristen-/Lage-Radar
-mahnwesen-verzugscheck	task	maintainer	Betrieb
-masterclass-woche1	task	sweeper	Harness-Review
-methoden-radar	task	maintainer	Aufsicht ueber den Methoden-Layer (Register-Verifikation); destilliert nur bei neuem Material
-normen-training-nacht	task	prototyper	Erzeugt neues Wissen
-spec-training	task	prototyper	Erzeugt neues Wissen
-syn02-spec-anstoss	task	grower	Geschaeftsmodell-Anstoss
-synergie-lauf-monatlich	task	grower	Geschaeftsmodell-Entwicklung
-tenant-hygiene-weekly	task	maintainer	Betrieb
-token-drosselung-100810	task	maintainer	Betriebssteuerung
-token-messung-140716	task	maintainer	Betriebsmessung
-twin-fidelity-review	task	sweeper	Prueft Erzeugnis-Treue
-twin-mail-training	task	prototyper	Erzeugt neue Stil-Marker
-vollgas-chef-radar	task	maintainer	Betriebsaufsicht
-vollgas-fruehwarnung	task	maintainer	Betriebsaufsicht
-wettbewerbs-dna-reaktivierung	task	maintainer	Betriebssteuerung
-wettbewerbs-dna-training	task	prototyper	Erzeugt neues Wissen
-wettbewerbs-layer-nachbrenner	task	prototyper	Erzeugt neues Wissen
-wissens-chef	task	sweeper	Aufsicht/Verdichtung des Wissens-Layers
-wissens-destillat	task	sweeper	Verdichtet Rohmaterial
-wissenscheck-monatlich	task	maintainer	Health-Check
+ag-gruendung-monitor	task	maintainer	Monitor	aktiv
+baurecht-buch-training	task	prototyper	Erzeugt neues Wissen	aktiv	wissen/baurecht
+behoerden-zh-check	task	maintainer	Monitor	aktiv
+heartbeat-daily	task	maintainer	System-Health	aktiv
+hub-chef-taeglich	task	maintainer	Tagesaufsicht	aktiv	logbuch
+immobewertung-marktpuls-260901	task	prototyper	Erzeugt neues Wissen	aktiv	wissen/immobilienbewertung
+immobewertung-training	task	prototyper	Erzeugt neues Wissen	aktiv	wissen/immobilienbewertung
+konversations-log	task	maintainer	Gedaechtnis-Pflege	aktiv	logbuch/konversationen
+logbuch-radar	task	maintainer	Fristen-/Lage-Radar	aktiv	logbuch
+mahnwesen-verzugscheck	task	maintainer	Betrieb	aktiv
+masterclass-woche1	task	sweeper	Harness-Review	aktiv
+methoden-radar	task	maintainer	Aufsicht ueber den Methoden-Layer (Register-Verifikation); destilliert nur bei neuem Material	aktiv
+normen-training-nacht	task	prototyper	Erzeugt neues Wissen	aktiv	wissen/normen
+spec-training	task	prototyper	Erzeugt neues Wissen	aktiv	wissen/spec
+syn02-spec-anstoss	task	grower	Geschaeftsmodell-Anstoss	aktiv
+synergie-lauf-monatlich	task	grower	Geschaeftsmodell-Entwicklung	aktiv
+tenant-hygiene-weekly	task	maintainer	Betrieb	aktiv
+token-drosselung-100810	task	maintainer	Betriebssteuerung	aktiv
+token-messung-140716	task	maintainer	Betriebsmessung	aktiv
+twin-fidelity-review	task	sweeper	Prueft Erzeugnis-Treue	aktiv	wissen/twin
+twin-mail-training	task	prototyper	Erzeugt neue Stil-Marker	aktiv	wissen/twin
+vollgas-chef-radar	task	maintainer	Betriebsaufsicht	aktiv	logbuch/vollgas
+vollgas-fruehwarnung	task	maintainer	Betriebsaufsicht	aktiv	logbuch/vollgas
+wettbewerbs-dna-reaktivierung	task	maintainer	Betriebssteuerung	aktiv
+wettbewerbs-dna-training	task	prototyper	Erzeugt neues Wissen	aktiv	wissen/wettbewerbs-dna
+wettbewerbs-layer-nachbrenner	task	prototyper	Erzeugt neues Wissen	aktiv	wissen/wettbewerbs-dna
+wissens-chef	task	sweeper	Aufsicht/Verdichtung des Wissens-Layers	aktiv	wissen
+wissens-destillat	task	sweeper	Verdichtet Rohmaterial	aktiv	wissen/bauprodukte
+wissenscheck-monatlich	task	maintainer	Health-Check	aktiv	wissen
 #
 # ---- LOOPS OHNE APP-TASK (Runner/launchd, teils stillgelegt) ----
-grobkosten-training	task	prototyper	Erzeugt neue Kennwerte; groesster Einzelposten im Runner
-energie-training	task	prototyper	Erzeugt neues Wissen; launchd Mac Mini
-planungsgrundlagen-training	task	prototyper	Erzeugt neues Wissen; launchd abgeschaltet 28.07.2026
-normen-training-mini	task	prototyper	Erzeugt neues Wissen; Mac-Mini-Haelfte des Normen-Loops
-synobsis-batch-nacht	task	prototyper	Erzeugt neues Wissen; KB saturiert, stillgelegt
+grobkosten-training	task	prototyper	Erzeugt neue Kennwerte; groesster Einzelposten im Runner	aktiv	wissen/grobkosten
+energie-training	task	prototyper	Erzeugt neues Wissen; launchd Mac Mini	aktiv	wissen/energie
+planungsgrundlagen-training	task	prototyper	Erzeugt neues Wissen; launchd abgeschaltet 28.07.2026	parkiert	wissen/planungsgrundlagen
+normen-training-mini	task	prototyper	Erzeugt neues Wissen; Mac-Mini-Haelfte des Normen-Loops	aktiv	wissen/normen
+synobsis-batch-nacht	task	prototyper	Erzeugt neues Wissen; KB saturiert, stillgelegt	parkiert	wissen/architekten-synobsis

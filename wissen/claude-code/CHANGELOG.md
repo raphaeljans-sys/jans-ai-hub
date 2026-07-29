@@ -2,6 +2,15 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-07-29 (Nachtrag) — Entscheide Raphael zu den offenen Kandidaten
+
+- Drei-Marken-/Website-Strategie verworfen: beide DOCX im OneDrive-Ordner `Agenten`
+  geloescht (SharePoint-Papierkorb). Ordner `Prompts` komplett geloescht.
+- 4-Agenten-Blaupause (Indexer, Baueingabe-Check, Brandschutz, QA-Trace) als
+  Skill-Kandidat aufgenommen; Destillat im [[methoden-register]], Pendenz fuer
+  hub-chef im Logbuch.
+- Register + QUESTIONS nachgefuehrt, Scan-Stand neu eingefroren (8 Ordner).
+
 ## 2026-07-29 — Methoden-Register + SPW-Destillat + Lern-Loop `methoden-radar`
 
 - Vollanalyse des OneDrive-Ordners `03 Prompteingaben` (alle 9 Unterordner, Auftrag

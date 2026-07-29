@@ -5,6 +5,19 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-29
+
+**Methoden-Layer: Entscheide Raphael + neuer Skill-Kandidat (Session MacBook, 29.07.).**
+Nach der Vollanalyse von OneDrive `03 Prompteingaben` (Methoden-Register + Lern-Loop
+`methoden-radar`, Commit `eca112a4`) hat Raphael entschieden: (1) Drei-Marken-/Website-
+Strategie VERWORFEN, beide DOCX geloescht (SharePoint-Papierkorb); (2) **4-Agenten-
+Blaupause Projektordner/Baueingabe als Skill-Kandidat AUFGENOMMEN** (Indexer/manifest.csv,
+Baueingabe-Vollstaendigkeitscheck nach Referenzprozess Zuerich, Brandschutz-Nachweis-
+Matrix, QA-Trace-Matrix — Destillat in `wissen/claude-code/wiki/methoden-register.md`);
+(3) Ordner `Prompts` geloescht. **Offene Pendenz fuer hub-chef:** Umsetzungsvorschlag
+fuer den Skill-Kandidaten zur Priorisierung vorlegen (Vorstufe zu `auflagebereinigung`,
+Beruehrung mit `brandschutz`/`planungsgrundlagen`); Bauzeitpunkt entscheidet Raphael.
+
 ## 2026-07-28
 
 **Hub-Chef-Lauf (08:39, planmaessig) — MIT Befund, Briefing versendet.** Signale vollstaendig

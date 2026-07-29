@@ -100,17 +100,30 @@ ls -1 "$HUB/skills" 2>/dev/null | while read -r s; do
     [ -f "$HUB/skills/$s/SKILL.md" ] && echo "$s"
 done | sort > "$TMP/bestand"
 
+# Spalte 7 = status aus dem Register. Er entscheidet, ob Kaelte ein Befund ist:
+# ein anlassgebundener Fach-Skill ist kalt, weil kein Projekt lief — das ist
+# Vorratshaltung, kein Mangel. Ohne diese Spalte meldet der Radar baurecht und
+# werkvertrag als Karteileichen, was grob falsch waere.
 awk -F'\t' '
-    FILENAME ~ /rollen-map/ { if ($0 !~ /^#/ && NF >= 3) rolle[$1] = $3; next }
+    FILENAME ~ /rollen-map/ { if ($0 !~ /^#/ && NF >= 3) { rolle[$1] = $3; st[$1] = (NF >= 5 && $5 != "" ? $5 : "?") } next }
     FILENAME ~ /verdichtet/ { h[$1] = $2; hl[$1] = $3; w[$1] = $4; wl[$1] = $5; next }
     {
         s = $1
-        printf "%s\t%d\t%s\t%d\t%s\t%s\n", s, h[s]+0, (hl[s] == "" ? "-" : hl[s]), \
-               w[s]+0, (wl[s] == "" ? "-" : wl[s]), (s in rolle ? rolle[s] : "?")
-    }' "$MAP" "$TMP/verdichtet" "$TMP/bestand" > "$TMP/final"
+        printf "%s\t%d\t%s\t%d\t%s\t%s\t%s\n", s, h[s]+0, (hl[s] == "" ? "-" : hl[s]), \
+               w[s]+0, (wl[s] == "" ? "-" : wl[s]), (s in rolle ? rolle[s] : "?"), \
+               (s in st ? st[s] : "?")
+    }' "$MAP" "$TMP/verdichtet" "$TMP/bestand" > "$TMP/alle"
+
+# Parkiertes und reine Referenzen sind keine Skills und gehoeren nicht in die
+# Quote (versandplanung ist per Entscheid stillgelegt, email-preferences ist
+# Konfiguration).
+awk -F'\t' '$7 != "parkiert"' "$TMP/alle" > "$TMP/final"
+AUSSORTIERT=$(awk -F'\t' '$7 == "parkiert"' "$TMP/alle" | wc -l | tr -d ' ')
 
 WARM=$(awk -F'\t' '$2 > 0' "$TMP/final" | wc -l | tr -d ' ')
 KALT=$(awk -F'\t' '$2 == 0' "$TMP/final" | wc -l | tr -d ' ')
+ERWARTET=$(awk -F'\t' '$2 == 0 && ($7 == "anlassgebunden" || $7 == "ersetzt")' "$TMP/final" | wc -l | tr -d ' ')
+KLAEREN=$(awk -F'\t' '$2 == 0 && $7 != "anlassgebunden" && $7 != "ersetzt"' "$TMP/final" | wc -l | tr -d ' ')
 NURERW=$(awk -F'\t' '$2 == 0 && $4 > 0' "$TMP/final" | wc -l | tr -d ' ')
 GES=$(wc -l < "$TMP/final" | tr -d ' ')
 
@@ -130,8 +143,10 @@ cat <<HEAD
 Der Hub misst hier zum ersten Mal nicht, was er produziert, sondern was
 tatsaechlich verwendet wird.
 
-Skills im Bestand: $GES · wirklich aufgerufen: $WARM · nie aufgerufen: $KALT
-davon nur erwaehnt (Inventar-/Audit-Spur, kein Aufruf): $NURERW
+Skills im Bestand: $GES (plus $AUSSORTIERT parkierte, nicht mitgezählt)
+Wirklich aufgerufen: $WARM · nie aufgerufen: $KALT
+Von der Kälte sind $ERWARTET erwartet (anlassgebunden oder ersetzt) und
+$KLAEREN zu klären.
 Mac Mini: $MINI_STATUS
 Deliverables: $DELIV_TXT
 
@@ -151,19 +166,32 @@ sort -t$'\t' -k2,2nr "$TMP/final" | awk -F'\t' '$2 > 0 {printf "| %s | %s | %d |
 
 cat <<MID
 
-## 2. Kaltliste — nie aufgerufen
+## 2a. Kalt, aber erwartet — kein Handlungsbedarf
 
-Diese Skills existieren, haben in der Messreichweite aber nie gearbeitet.
-Das ist kein Urteil ueber ihre Qualitaet: ein Skill kann fachlich gut und
-trotzdem ungenutzt sein, weil der Anlass fehlte. Es ist die Liste, ueber
-die entschieden werden muss — behalten, zusammenlegen oder stilllegen.
-Die Spalte "erwaehnt" zeigt, ob der Skill wenigstens im Blickfeld war.
+Diese Skills wurden nie geladen, und das ist richtig so. Ein anlassgebundener
+Fach-Skill wartet auf ein reales Projekt; seine Kälte ist Vorratshaltung, kein
+Mangel. Ein ersetzter Skill wird nicht geladen, weil die Arbeit über einen
+Agenten, ein Script oder eine Rule läuft.
 
-| Skill | Rolle | erwaehnt | zuletzt erwaehnt |
+| Skill | Rolle | Status | erwähnt |
 |---|---|---|---|
 MID
 
-sort -t$'\t' -k4,4nr "$TMP/final" | awk -F'\t' '$2 == 0 {printf "| %s | %s | %d | %s |\n", $1, $6, $4, $5}'
+sort -t$'\t' -k4,4nr "$TMP/final" | awk -F'\t' '$2 == 0 && ($7 == "anlassgebunden" || $7 == "ersetzt") {printf "| %s | %s | %s | %d |\n", $1, $6, $7, $4}'
+
+cat <<MID1B
+
+## 2b. Kalt und zu klären
+
+Hier steht der echte Entscheidungsbedarf: Skills ohne Anlass-Erklärung. Ein
+Skill mit Status "aktiv", der trotzdem kalt ist, widerspricht dem Register und
+gehört ebenfalls hierhin.
+
+| Skill | Rolle | Status | erwähnt | zuletzt erwähnt |
+|---|---|---|---|---|
+MID1B
+
+sort -t$'\t' -k4,4nr "$TMP/final" | awk -F'\t' '$2 == 0 && $7 != "anlassgebunden" && $7 != "ersetzt" {printf "| %s | %s | %s | %d | %s |\n", $1, $6, $7, $4, $5}'
 
 cat <<MID2
 

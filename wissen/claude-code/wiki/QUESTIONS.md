@@ -9,11 +9,6 @@ Luecken und ungeklaerte Fragen. Wird beim Ingestieren neuen Materials abgearbeit
    Zu klaeren bei Gelegenheit: Video-URL fuer sauberen Quellenverweis in
    [[methode-spw-wissensbasis]]; danach ggf. Transkript nach raw/.
 
-0b. **Offene Kandidaten aus dem Ordner `Agenten`** (siehe [[methoden-register]]):
-   Drei-Marken-/Website-Strategie → Input fuer `synergie-orchestrator`? Baueingabe-
-   Vollstaendigkeitscheck + QA-Trace-Matrix als Skill-Kandidaten? Ordner `Prompts`
-   archivieren? Entscheid Raphael.
-
 1. **Enterprise-Policy-Ebene ungenutzt.** Die Lecture nennt
    `/Library/Application Support/ClaudeCode/CLAUDE.md` und `policies.json` als geteilte
    Enterprise-Schicht. Im Hub existiert beides nicht (geprueft 29.07., beide Stationen).
@@ -41,4 +36,7 @@ Luecken und ungeklaerte Fragen. Wird beim Ingestieren neuen Materials abgearbeit
 
 ## Beantwortet
 
-- *(noch keine)*
+- **Kandidaten aus dem Ordner `Agenten` + Ordner `Prompts`** (gestellt 29.07., entschieden
+  29.07.2026 durch Raphael): Drei-Marken-Strategie verworfen (DOCX geloescht), Ordner
+  `Prompts` geloescht, 4-Agenten-Blaupause als Skill-Kandidat aufgenommen — Destillat
+  und Stand in [[methoden-register]].
