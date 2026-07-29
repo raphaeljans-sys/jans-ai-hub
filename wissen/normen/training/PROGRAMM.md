@@ -89,24 +89,32 @@ Frischecheck auf Datei-Anzahl/Änderungsdatum ersetzt das nicht.
 **Run-Nummer erst nach Sicht der jüngsten `outputs/`-Datei belegen** — am 25.07.2026 haben zwei Läufe
 unabhängig die Nummer 21 vergeben.
 
-## Lignum-Taktung — Entscheid ZURÜCKGESTELLT (Run 37, 29.07.2026)
+## Lignum-Taktung — Entscheid Raphael 29.07.2026 (differenziert)
 
-Raphael hat am 29.07.2026 auf Vorlage von Run 37 entschieden, beide Lignum-Destillate als
-«speculative, stabil» zu akzeptieren und die Routinerunden einzustellen. **Dieser Entscheid ist
-hier bewusst NICHT als geltende Regel verankert**, weil die Vorlage auf überholten Zahlen beruhte:
-sie stützte sich auf den Stand von Run 35 («seit Runde 32 nur noch Rand- und Nuance-Befunde»),
-während Run 36 wenige Stunden zuvor genau diese Prämisse entkräftet hatte — die siebte Runde
-brachte bei `lignum-lignatec` 7 Befunde, darunter drei Kernbefunde in der viermal bestätigten
-Tab. 5, sichtbar erst durch **rechnerische** Tabellenaufnahme statt visueller Lektüre.
+Die Frage wurde Raphael zweimal vorgelegt. Die **erste** Vorlage stützte sich auf den Stand von
+Run 35 («seit Runde 32 nur noch Rand- und Nuance-Befunde») und war damit überholt: Run 36 hatte
+diese Prämisse wenige Stunden zuvor entkräftet — die siebte Runde brachte bei `lignum-lignatec`
+7 Befunde, darunter drei **Kernbefunde in der viermal bestätigten Tab. 5**, sichtbar erst durch
+**rechnerische** Tabellenaufnahme (Median-RGB je Zellbox) statt visueller Lektüre. Nach Vorlage
+der korrigierten Zahlen lautet der Entscheid:
 
-**Verbindliche Lehre daraus (gilt unabhängig vom Taktungsentscheid):** eine Runde mit wenigen
-Randbefunden ist **kein Sättigungsindiz**. Sie kann ebenso gut eine zu schmale Prüfmethode
-anzeigen. Bevor ein Destillat als «ausgereizt» gilt, muss die schärfste verfügbare Prüfmethode
-auf **alle** seine Kern-Tabellen angewandt worden sein — bei `lignum-lignatec` steht das für
-Tab. 3 und Tab. 4 noch aus.
+| Destillat | Entscheid | Begründung |
+|---|---|---|
+| `lignum-lignatec-brandschutz.md` | **Achte Runde fahren** — rechnerische Aufnahme von **Tab. 3 und Tab. 4** | genau diese Lücke hat bei Tab. 5 drei Kernbefunde erzeugt; die Methode ist dort noch nicht angewandt |
+| `lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md` | **als «speculative, stabil» akzeptiert**, keine Routinerunden mehr | rechnerische Zellprüfung ist dort Standard, 5 von 6 Befunden der siebten Runde waren formal, keine Regression |
 
-Bis zu Raphaels Neuentscheid gilt die bisherige Praxis weiter. Vorlage-Stand: `wiki/QUESTIONS.md`,
-Run-37-Eintrag Punkt 4.
+Nach der achten Runde für `lignum-lignatec` ist die Datenlage belastbar; danach ist über die
+Rücktaktung dieses Destillats neu zu entscheiden. Der Status beider bleibt bewusst `speculative`
+(nicht `established`), die dokumentierten Restbefunde bleiben im Destillat sichtbar.
+
+**Verbindliche Lehre, unabhängig vom Taktungsentscheid:** eine Runde mit wenigen Randbefunden ist
+**kein Sättigungsindiz**. Sie kann ebenso gut eine zu schmale Prüfmethode anzeigen. Bevor ein
+Destillat als «ausgereizt» gilt, muss die schärfste verfügbare Prüfmethode auf **alle** seine
+Kern-Tabellen angewandt worden sein.
+
+⚠ **Die achte Runde konnte in Run 37 nicht mehr gefahren werden** (OAuth-Token abgelaufen, alle
+Refuter-Agenten scheiterten mit 401). Sie ist die erste Aufgabe des nächsten Laufs nach erneuerter
+Anmeldung.
 
 ## Leitplanken (Qualität)
 

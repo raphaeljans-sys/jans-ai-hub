@@ -94,14 +94,20 @@
   **Die bestehende Regel greift zu kurz:** «Run-Nummer erst nach Sicht der jüngsten `outputs/`-Datei
   belegen» hilft nicht, wenn der Vorlauf noch läuft und seine Datei erst später schreibt. Nötig ist
   zusätzlich eine Prüfung unmittelbar **vor dem Schreiben**.
-- **[offen] Lignum-Taktungsentscheid zurückgestellt.** Raphael hat auf Vorlage dieses Laufs
-  entschieden, beide Lignum-Destillate als «speculative, stabil» zu akzeptieren. Die Vorlage stützte
-  sich auf den Stand von Run 35 — den Run 36 wenige Stunden zuvor **entkräftet** hatte (siebte Runde:
-  7 Befunde bei `lignum-lignatec`, drei davon Kernbefunde in der viermal bestätigten Tab. 5, sichtbar
-  erst durch rechnerische statt visueller Tabellenaufnahme). Der Entscheid wurde deshalb **nicht** in
-  `training/PROGRAMM.md` verankert und ist Raphael mit den korrigierten Zahlen neu vorzulegen.
-  Als verbindliche Lehre dort festgehalten: **eine Runde mit wenigen Randbefunden ist kein
-  Sättigungsindiz, sondern kann eine zu schmale Prüfmethode anzeigen.**
+- **[entscheid] Lignum-Taktung entschieden (Raphael, 29.07.2026) — differenziert statt pauschal.**
+  `lignum-lignatec` bekommt eine **achte Runde** mit rechnerischer Aufnahme von Tab. 3 und Tab. 4;
+  `lignum-4-1` wird als «speculative, stabil» akzeptiert (dort ist die rechnerische Zellprüfung
+  Standard, 5 von 6 Befunden der siebten Runde formal, keine Regression). In `training/PROGRAMM.md`
+  verankert. Die achte Runde **konnte nicht mehr gefahren werden** (OAuth-Token abgelaufen, alle
+  Refuter-Agenten mit 401) und ist die erste Aufgabe des nächsten Laufs.
+  **Prozessfehler dieses Laufs, offen dokumentiert:** die erste Vorlage an Raphael stützte sich auf
+  den Stand von Run 35 — den Run 36 wenige Stunden zuvor entkräftet hatte (siebte Runde: 7 Befunde,
+  drei Kernbefunde in der viermal bestätigten Tab. 5, sichtbar erst durch rechnerische statt
+  visueller Tabellenaufnahme). Raphael entschied auf dieser falschen Grundlage zunächst «beide als
+  stabil»; nach Vorlage der korrigierten Zahlen fiel der Entscheid anders aus. Zwei Lehren im
+  PROGRAMM verankert: **eine Runde mit wenigen Randbefunden ist kein Sättigungsindiz**, und **eine
+  Entscheidungsvorlage ist gegen den jüngsten Laufstand zu prüfen, nicht gegen den zuletzt selbst
+  gelesenen.**
 
 ## 2026-07-29 — Normen-Run 36 (MacBook Pro, SIA/VKF): zwei BSR-16-15-Fragen geschlossen, siebte Refuter-Runde mit Trendbruch
 

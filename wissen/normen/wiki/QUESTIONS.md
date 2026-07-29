@@ -64,18 +64,20 @@ gleichnamigen Prozess sucht und einen bereits beendeten Vorlauf nicht findet.
    defekt — vom Hauptprozess am Original widerlegt). Als Methodik-Pflicht 5 in `training/PROGRAMM.md`
    verankert. Ob andere KBs mit Bild-Agenten (baurecht-buch, wettbewerbs-dna) dasselbe Muster haben,
    ist **nicht geprüft** — Hinweis an den Wissens-Chef.
-4. **Lignum-Taktung — Entscheid Raphaels vom 29.07.2026 beruhte auf überholten Zahlen und ist
-   zurückgestellt.** Raphael hat auf Vorlage dieses Laufs entschieden, beide Lignum-Destillate als
-   «speculative, stabil» zu akzeptieren. Die Vorlage stützte sich auf den Stand von Run 35
-   («seit Runde 32 nur noch Rand- und Nuance-Befunde»). Run 36 hatte diesen Befund wenige Stunden
-   zuvor **entkräftet**: die siebte Runde brachte bei `lignum-lignatec` 7 Befunde, darunter drei
-   Kernbefunde in der viermal bestätigten Tab. 5 — sichtbar erst, als der Agent die Tabelle
-   **rechnerisch** aufnahm (Median-RGB je Zellbox) statt visuell. Die sinkende Befundzahl mass die
-   Reichweite der Prüfmethode, nicht die Qualität des Destillats. Der Entscheid wurde deshalb
-   **nicht** in `training/PROGRAMM.md` verankert; die Frage ist Raphael mit den korrigierten Zahlen
-   erneut vorzulegen. Run 36 empfiehlt, mindestens die achte Runde für `lignum-lignatec` (rechnerische
-   Aufnahme von Tab. 3 und Tab. 4) abzuwarten. Für `lignum-4-1` ist die Lage anders: dort ist die
-   rechnerische Zellprüfung Standard und die Befunde verlagern sich belegt auf Formalien.
+4. **Achte Runde `lignum-lignatec` — beschlossen, aber nicht mehr gefahren.** Die Taktungsfrage ist
+   **entschieden** (Raphael, 29.07.2026, differenziert): `lignum-lignatec` bekommt eine achte Runde
+   mit **rechnerischer Aufnahme von Tab. 3 und Tab. 4**; `lignum-4-1` wird als «speculative, stabil»
+   akzeptiert, keine Routinerunden mehr. In `training/PROGRAMM.md` verankert.
+   *Vorgeschichte, als Warnung festgehalten:* die **erste** Vorlage dieses Laufs stützte sich auf den
+   Stand von Run 35 («seit Runde 32 nur noch Rand- und Nuance-Befunde») und war überholt — Run 36
+   hatte die Prämisse wenige Stunden zuvor entkräftet (siebte Runde: 7 Befunde bei `lignum-lignatec`,
+   drei davon Kernbefunde in der viermal bestätigten Tab. 5, sichtbar erst durch rechnerische statt
+   visueller Tabellenaufnahme). Raphael hat auf dieser falschen Grundlage zunächst «beide als stabil»
+   entschieden; nach Vorlage der korrigierten Zahlen fiel der Entscheid anders aus. **Lehre: eine
+   Entscheidungsvorlage ist gegen den JÜNGSTEN Laufstand zu prüfen, nicht gegen den zuletzt selbst
+   gelesenen.**
+   ⚠ Die achte Runde **konnte nicht mehr gefahren werden** (OAuth-Token abgelaufen, alle
+   Refuter-Agenten scheiterten mit 401). Sie ist die erste Aufgabe des nächsten Laufs.
 
 **Unverändert offen:** Bring-Schulden SIA 491, SN EN 12193, SN 640 052, SN 641 400 (KB `baurecht`);
 SIA 380/1 Volltext, SIA 385/1 Volltext, SIA 118:2013, SIA 242; VKF-Merkblatt 2003-15 (externe

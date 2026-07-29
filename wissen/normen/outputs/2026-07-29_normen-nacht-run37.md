@@ -119,9 +119,22 @@ Run 36 wenige Stunden zuvor genau diese Prämisse entkräftet hatte — die sieb
 `lignum-lignatec` 7 Befunde, darunter drei Kernbefunde in der viermal bestätigten Tab. 5, sichtbar
 erst durch **rechnerische** Tabellenaufnahme (Median-RGB je Zellbox) statt visueller Lektüre.
 
-Der Entscheid wurde deshalb **nicht** in `training/PROGRAMM.md` verankert; die Frage ist Raphael mit
-den korrigierten Zahlen neu vorzulegen. Als verbindliche Lehre dort festgehalten: **eine Runde mit
-wenigen Randbefunden ist kein Sättigungsindiz, sondern kann eine zu schmale Prüfmethode anzeigen.**
+Die Frage wurde Raphael deshalb **mit den korrigierten Zahlen neu vorgelegt** — und fiel dann anders
+aus:
+
+| Destillat | Entscheid Raphael 29.07.2026 |
+|---|---|
+| `lignum-lignatec-brandschutz.md` | **achte Runde fahren**, rechnerische Aufnahme von Tab. 3 und Tab. 4 |
+| `lignum-4-1-...md` | **als «speculative, stabil» akzeptiert**, keine Routinerunden mehr |
+
+In `training/PROGRAMM.md` verankert. Die achte Runde **konnte in diesem Lauf nicht mehr gefahren
+werden** (OAuth-Token, siehe Abschnitt 1) und ist die erste Aufgabe des nächsten Laufs.
+
+Zwei Lehren, beide dort festgehalten: **eine Runde mit wenigen Randbefunden ist kein
+Sättigungsindiz, sondern kann eine zu schmale Prüfmethode anzeigen** — und: **eine
+Entscheidungsvorlage ist gegen den jüngsten Laufstand zu prüfen, nicht gegen den zuletzt selbst
+gelesenen.** Der zweite Fehler ist in diesem Lauf real passiert und hätte Raphael beinahe zu einem
+Entscheid auf falscher Grundlage geführt.
 
 ## 8. Nachgeführt
 
@@ -136,8 +149,8 @@ wenigen Randbefunden ist kein Sättigungsindiz, sondern kann eine zu schmale Pr�
 ## 9. Offen
 
 1. **Anmeldung erneuern** — sonst scheitern Subagenten im nächsten Lauf wieder am 401.
-2. **Lignum-Taktung Raphael neu vorlegen** (siehe Abschnitt 7); Run 36 empfiehlt, mindestens die achte
-   Runde für `lignum-lignatec` mit rechnerischer Aufnahme von Tab. 3 und Tab. 4 abzuwarten.
+2. **Achte Runde `lignum-lignatec`** mit rechnerischer Aufnahme von Tab. 3 und Tab. 4 — von Raphael
+   beschlossen, wegen des Token-Ausfalls nicht mehr gefahren. Erste Aufgabe des nächsten Laufs.
 3. **Die 102 blinden Register-Zeilen** sind nur über ein aktuelles SIA-Normenverzeichnis (Abo/Kauf)
    schliessbar — nicht vom Loop lösbar. Eine Beschaffungs-Prioritätenliste wurde auf Entscheid
    Raphaels bewusst nicht erstellt.
