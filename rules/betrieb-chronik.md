@@ -21,6 +21,41 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260729b — Rollen-Taxonomie im Betrieb: Takt-Entscheide, Radar-Auswertung, Schutzmechanik-Selbsttest
+
+Hierher verlagert am 29.07.2026 aus `rules/rollen-taxonomie.md` (Wissens-Chef Run 20,
+Freigabe Raphael). Grund: die Rule steht im @-Import und lädt in jede Session; diese drei
+Regeln braucht aber nur, wer tatsächlich an Loops, Takten oder Schutzmechaniken arbeitet.
+Die Kurzregel (Rollenzuordnung, Prototyper-Prüfung, kein eigenmächtiges Drosseln,
+Ertrag statt Läufe) bleibt importiert. **Kein Inhalt gelöscht, nur verlagert.**
+
+**1. Bei jeder Takt-, Drossel- oder Stilllegungsentscheidung zuerst die Rollen-Bilanz lesen**
+(`scripts/rollen-bilanz.sh [Tage]`), nicht den Einzelfall diskutieren. Die Frage lautet nicht
+«welchen Loop schalte ich ab», sondern «welche Rolle ist überbesetzt». Die Drosselentscheidung
+selbst bleibt bei Raphael (Lehre 25.07.2026).
+
+**2. Kälte ohne Statuseintrag ist kein Befund.** Ein Fach-Skill, der auf ein reales Projekt
+wartet, ist zu Recht kalt (Status `anlassgebunden`); ein Skill, dessen Arbeit über einen
+Agenten läuft, ebenso (`ersetzt`). Nur Kälte **ohne** solche Erklärung ist zu klären. Ohne
+diese Unterscheidung meldet der Nutzungs-Radar `baurecht` und `werkvertrag` als Karteileichen —
+zwei Skills, die beide zu Recht auf einen Anlass warten.
+
+**3. Jede neue Schutzmechanik wird in den Selbsttest aufgenommen**
+(`scripts/schutzmechanik-selbsttest.sh`) und dort auf **Freigabe- UND Abweisungspfad** geprüft.
+Eine Mechanik, die immer «nein» sagt, sieht im Log aus wie eine, die funktioniert
+(Lehre 28.07.2026).
+
+**Instrumente**
+
+| Script | Rolle | Wann |
+|---|---|---|
+| `scripts/rollen-bilanz.sh [Tage]` | Messung | vor Takt-/Drosselentscheiden, monatlich |
+| `scripts/nutzungs-radar.sh [Tage]` | Grower | monatlich, vor jedem neuen Skill |
+| `scripts/schutzmechanik-selbsttest.sh` | Maintainer | wöchentlich und nach jeder Änderung an einer Schutzmechanik |
+
+Reports landen in `logbuch/rollen/`. Zahlen und Fallbelege der Erstmessung:
+`docs/konzepte/260729-Rollen-Taxonomie/260729-Rollen-Taxonomie.md`, Abschnitt 4.
+
 ## 260728 — Speicher-Deckel: jeder automatische Lauf fragt zuerst das Lauf-Gate
 
 - **Regel:** Jeder Mechanismus, der einen `claude`-Lauf automatisch startet, ruft VORHER

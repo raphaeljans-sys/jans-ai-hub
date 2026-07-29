@@ -2,6 +2,72 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-30 (Training Run 93, Kartenportale + Energie) — der Quellbestand ist erschoepft, der Beleg-Apparat war es nicht
+- **[befund] 28. Erschoepfungsbestaetigung des Quellbestands:** Frischecheck aller vier PL-Ordner
+  gegen Run 92 → **0 neue oder geaenderte Inhaltsdateien** (nur OneDrive-Marker und ein `.DS_Store`).
+  Keine kuenstlichen Zusatzfragen erzeugt. Der Lauf wurde stattdessen auf die Achse gelegt, die
+  **unabhaengig vom Dateibestand erodiert** — Endpunkte, zitierte URLs, eigener Connector-Code —
+  und seit Run 54 (20.07.) nicht mehr geprueft war. Dort lagen **vier belegte Fehler**.
+- **[verifikation] Endpunkt-Frischecheck 13/13 live** am Benchmark Giebelweg 12
+  (EGRID CH879777718909): OEREB ZH+SZ, height (549.1 m ue.M.), SearchServer, identify, OGDZHWFS,
+  Zonenplan (W/1.5 · BMZ 1.5 · GH 4.5 · ES_II), Baulinien (7 + Waldgrenze), Denkmalschutz,
+  Grundwasser, Naturgefahren, STAC, WMS. EGRID/Parzelle/BFS und alle Zonenwerte unveraendert
+  gegenueber dem Erstbezug 05.06.2026 → **K63**, Messtabelle in `wiki/kartenportale-oereb-egrid-bezug.md`.
+- **[korrektur, materiell — eigener Code] Datums-Prefix war UTC statt Lokalzeit.** Alle vier
+  `planungsgrundlagen`-Connectoren bildeten `isoDate()` mit `toISOString().slice(0,10)`. Zwischen
+  00:00 und 02:00 CEST — dem Nachtfenster der Loops — datierten sie **jede Ausgabedatei einen Tag
+  zurueck**; belegt an `Zonenplan-ZH_136_3338_2026-07-29.json`, erzeugt am 30.07. um 00:39 CEST.
+  Verstoss gegen Rule `dateinamen-konvention`. Behoben in `geo-zh.mjs`, `geo-sz.mjs`,
+  `gwr-bund.mjs`, `behoerden-zh.mjs`; im selben Lauf nachgemessen → `..._2026-07-30`. **E11.**
+  Bestandssweep fand acht Vorkommen insgesamt; die vier fremden (`bexio.mjs` buchungsrelevant,
+  `shop-orders.mjs`, `recht-ch.mjs`, `oereb-schwyz/geo-sz.mjs`) bewusst nicht angetastet → **E13**
+  zur Entscheidung.
+- **[korrektur, materiell — Diagnosefaehigkeit] HTTP 204 wurde als «kein PDF» fehlgemeldet.** Ein
+  OEREB-Service antwortet auf einen ihm unbekannten EGRID mit **204 + leerem Body**, nicht mit 404
+  (fuenf Gegenproben ueber ZH und SZ). 204 ist fuer `fetch` «ok», lief also durch den `!r.ok`-Waechter
+  und scheiterte erst am content-type — mit einer Meldung, die einen Serverdefekt suggeriert, waehrend
+  in Wahrheit der **Kanton falsch gewaehlt** war. Beide Connectoren fangen den 204 jetzt eigens ab;
+  Fehler- UND Erfolgspfad je nachgemessen. **E12.** Methodenlehre mitdokumentiert: ein Endpunkt-Test
+  braucht einen **belegten** EGRID — ein erfundener liefert dasselbe 204 wie ein toter Server.
+- **[korrektur, wirkt nach aussen] Vier Energie-Artikel zitierten eine erloschene URL.**
+  `zh.ch/energienachweise` war in `energie-even-plattform-bedienung`, `energie-energienachweis-zh-formulare`,
+  `energie-private-kontrolle-zh` und `energie-uebersicht` als belegte Fundstelle mit Abrufdatum
+  gefuehrt — **gemessen HTTP 404**. Ersetzt durch die nachgemessene Vollform
+  `www.zh.ch/de/planen-bauen/bauvorschriften/bauvorschriften-gebaeude-energie/energienachweise.html`
+  (200). Bemerkenswert: `energie-private-kontrolle-zh` trug die Vollform im Fliesstext bereits,
+  waehrend die eigene Quellenzeile die tote Kurzform fuehrte — **Propagierungs-, nicht
+  Entdeckungsfehler**. **Lehre:** eine Fundstelle wird in der Form zitiert, in der sie aufrufbar ist;
+  eine gekuerzte URL ist eine Merkhilfe, keine Quelle, und entwertet den Beleg genau dann, wenn ihn
+  jemand nachpruefen will. **D14.**
+- **[korrektur] Identifikator-Verwechslung:** «EGID CH527708492462» → **EGRID** (CH + 12 Zeichen;
+  ein EGID ist 9-stellig). Bestandssweep in beiden Richtungen ueber das ganze Wiki: keine weiteren
+  Faelle. **D15.**
+- **[korrektur einer eigenen Diagnose] C39 ist kein defekter Symlink.** Das Nachaudit vom 28.07.
+  hielt die 201-Byte-Datei im Lignum-4.1-Ordner fuer einen defekten Symlink von 203 Byte. Direkt am
+  Original gemessen: `Typ=Regular File`, `Links=1`, `test -L` falsch, `file(1)` «UTF-8 text»; der
+  Inhalt ist der eigene Zielpfad, nach 201 Byte mitten im Wort abgeschnitten — Signatur einer
+  abgebrochenen Umbenenn-/Kopieroperation. Substanz der alten Diagnose blieb richtig: kein Dokument,
+  kein Wissensverlust. **Zweite Lehre:** der `Resource deadlock avoided` war **doch transient** —
+  Run 92 hielt ihn wegen mehrminuetiger Persistenz fuer strukturell. Dessen Praxis (dokumentieren
+  und verschieben statt Retries erzwingen) war damit richtig und bleibt Standard.
+- **[luecke, neu] E14:** `geo-sz.mjs` existiert zweimal und divergiert — `planungsgrundlagen`
+  (23'149 B, 22.07., mit Parzellensuche/Grundwasser/JANS-Umbenennung) gegen `oereb-schwyz`
+  (11'145 B, 07.06.). Der Skill `oereb-schwyz` arbeitet mit einer sieben Wochen alten Abspaltung
+  ohne die seither gewonnenen Faehigkeiten. Nicht eigenmaechtig zusammengefuehrt (fremder Skill).
+- **[datenstand] Kein Verstoss:** alle 25 Artikel der beiden Domaenen liegen zwischen 2026-06-05 und
+  2026-07-30, weit innerhalb der 18-Monats-Leitplanke.
+- **[praezisierung der Ruecktaktungs-Empfehlung]** Die dreifach wiederholte Empfehlung aus Run 91/92
+  bleibt richtig fuer das **Quellen-Lesen**. Sie greift aber zu kurz: Endpunkte, URLs und eigener
+  Code erodieren unabhaengig vom Dateibestand — genau dort lagen heute vier Fehler. Vorschlag an
+  Raphael: Quellen-Turnus ruecktakten, **schlanken monatlichen Endpunkt-/Link-/Connector-Check
+  behalten**.
+- Geaendert: 4 Connectoren (`geo-zh`, `geo-sz`, `gwr-bund`, `behoerden-zh`),
+  `wiki/kartenportale-oereb-egrid-bezug.md`, `wiki/energie-energienachweis-zh-formulare.md`,
+  `wiki/energie-even-plattform-bedienung.md`, `wiki/energie-private-kontrolle-zh.md`,
+  `wiki/energie-uebersicht.md`, `wiki/QUESTIONS.md`, `training/curriculum.md`.
+  Report: `outputs/2026-07-30_training-run93.md`.
+
+
 ## 2026-07-29 (Wissens-Chef Run 20, Cross-KB) — dritter aufgehobener Erlass in der OEREB-Tabelle, und die fehlende Regenwasser-Nutzungsseite
 - **[korrektur, wirkt gegenueber dem AWEL] OEREB-Thema 130 zitierte weiter ungeflaggt `LS 711.11
   §§ 2/3` — die KGSchV, amtlich aufgehoben per 01.01.2022** (zhlex-Erlassseite LS 711.11, Nachtrag

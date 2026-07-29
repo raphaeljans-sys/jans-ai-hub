@@ -3,6 +3,14 @@
 Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit ✓ + Datum.
 
 ## A — Kartenportale
+- [x] **K63 — Endpunkt-Frischecheck bestanden (Run 93, 2026-07-30)** Alle 13 in dieser KB
+  dokumentierten Bezugs-Endpunkte der Domäne wurden am realen JANS-Benchmark (Giebelweg 12,
+  EGRID CH879777718909) gemessen: **13 von 13 antworten**, Zonenplan-Werte (W/1.5, BMZ 1.5, GH 4.5,
+  ES_II) und Höhe (549.1 m ü.M.) identisch zum dokumentierten Stand, EGRID/Parzelle/BFS unverändert
+  gegenüber dem Erstbezug vom 05.06.2026. Messtabelle in [[kartenportale-oereb-egrid-bezug]].
+  Keine Endpunkt-Erosion seit Run 54 (20.07.2026). **Methodenhinweis für künftige Checks:** ein
+  Endpunkt-Test braucht einen **belegten** EGRID — ein erfundener liefert dasselbe HTTP 204 wie ein
+  toter Server und beweist nichts (→ E12).
 - [ ] **K62 (Wissens-Chef Run 20, 2026-07-29) — Regenwasser: die NUTZUNGSseite fehlt in dieser KB
   ganz.** Die Führungs-Matrix teilt Regenwasser gespalten zu: Recht und Verfahren führt
   `planungsgrundlagen`, die Bewilligungsschwellen im Baugesuch führt `energie`. Der eigene Artikel
@@ -701,15 +709,26 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   Art. 2 «bestehende Bauten», BSR 15-15 Ziff. 3.7, Wohnbauten-Arbeitshilfe 1001-15, § 357 PBG
   Bestandesschutz (→ [[recht-norm-pbg-revision-bauen-im-bestand]]); Übergabe an KB `normen`
   (Destillat `vkf-brl-15-15-*`) und ggf. Rückfrage bei der Brandschutzfachstelle/GVZ.
-- [x] **C39 — GESCHLOSSEN (Nachaudit 2026-07-28)** Die «neue 201-Byte-Datei» im Lignum-4.1-Ordner
-  ist **kein Dokument, sondern ein defekter Symlink** (203 Byte, mtime 27.07.2026 18:23): er zeigt
-  auf `06 Lignum Brandschutz/Lignum 4.1 Bauteile in Holz - Decken Waende und Bekleidungen mit
-  Feuerwiderstand` — also auf den Elternordner-Namen **ohne** den Tippfehler `Feuerwiederstand`,
-  den der reale Ordner trägt. Das Ziel existiert nicht (`test -e` = false), daher scheiterten alle
-  Leseversuche; die EDEADLK-Meldung war ein Folgefehler des OneDrive-Providers, kein Sync-Timing.
-  **Kein Wissensverlust** — der Ordner enthält unverändert nur die drei bereits volltext gelesenen
-  PDF (_A/_B/_C, alle 20.02.2025). **Aufräum-Hinweis an Raphael:** der Symlink gehört gelöscht,
-  sonst taucht er in jedem Inventarlauf erneut als Phantom-Datei auf.
+- [x] **C39 — GESCHLOSSEN, mit korrigierter Diagnose (Run 93, 2026-07-30)** Die Datei ist jetzt
+  lesbar und **kein Symlink**, sondern eine **reguläre UTF-8-Textdatei von 201 Byte**. Direkt
+  gemessen am Original: `stat` → `Modus=-rwx------  Typ=Regular File  Groesse=201  Links=1`,
+  `test -L` → falsch, `test -f` → wahr, `file(1)` → «Unicode text, UTF-8 text, with no line
+  terminators». Ihr **Inhalt** ist der eigene Ziel-Pfad, **nach 201 Byte mitten im Wort
+  abgeschnitten** (endet auf `… mit Feuerwiderst` + `a`) — also die Signatur einer abgebrochenen
+  Umbenenn-/Kopieroperation, bei der ein Pfad-String als Dateikörper geschrieben wurde. Der im
+  Inhalt genannte Ordner trägt die **korrigierte** Schreibweise `Feuerwiderstand`, der reale
+  Ordner weiterhin den Tippfehler `Feuerwiederstand`.
+  **Damit ist die Diagnose des Nachaudits vom 28.07.2026 in zwei Punkten falsch** und hier
+  korrigiert: es ist (a) kein defekter Symlink und (b) 201, nicht 203 Byte. Richtig war die
+  Substanz: kein Dokument, **kein Wissensverlust** — der Ordner enthält unverändert die drei
+  bereits volltext gelesenen PDF (`4.1 BTH … _A/_B/_C.pdf`, alle 20.02.2025, 518 KB/2.24 MB/2.83 MB).
+  **Zweite Lehre:** der `Resource deadlock avoided`-Fehler aus Run 92 war **doch transient** — Run 92
+  hielt ihn wegen mehrminütiger Persistenz für strukturell. Er löste sich ohne Zutun. Die dort
+  gewählte Praxis (dokumentieren und auf den nächsten Turnus verschieben statt Retries erzwingen)
+  war damit richtig und bleibt Standard.
+  **Aufräum-Hinweis an Raphael:** die Datei gehört gelöscht (kein Inhalt, kein Ziel), sonst taucht
+  sie in jedem Inventarlauf erneut als Phantom-Quelle auf. Nicht durch den Loop gelöscht — `raw`-/
+  SharePoint-Quellordner werden nie verändert (Rule `wissens-bibliothekar`).
   Ursprünglich (Run 92, 2026-07-28): als unlesbare Datei für den nächsten Turnus vorgemerkt.
 - [x] **C38 (B46) (Run 60, 2026-07-25)** `Brandschutznachweis_MFH-5g-RF1_V.2_-_ohne_Logo.docx`
   (bisher nur als Existenz-Verweis in §2 geführt) vollständig gelesen — liefert ein reales,
@@ -917,6 +936,27 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   SIA 261/261-1, DC bleibt unter Spannung. Solar-spezifisch, kein Doppel zu Skill `brandschutz`.
 
 ## D — Energie
+- [x] **D14 — vier Artikel zitierten eine erloschene Kurz-URL (Run 93, 2026-07-30, behoben)**
+  Die kantonale Energienachweis-Seite wurde in dieser KB als **`zh.ch/energienachweise`** zitiert,
+  in [[energie-even-plattform-bedienung]], [[energie-energienachweis-zh-formulare]],
+  [[energie-private-kontrolle-zh]] und [[energie-uebersicht]] — je mit Abrufdatum
+  (12.06./04.07.2026), also als belegte Fundstelle. **Gemessen 30.07.2026: HTTP 404**, mit und ohne
+  `www`. Es war nie eine amtliche Shortlink-Weiche, sondern eine im Text verkürzte Notation, die
+  sich nicht öffnen lässt. Ersetzt durch die nachgemessene Vollform
+  `www.zh.ch/de/planen-bauen/bauvorschriften/bauvorschriften-gebaeude-energie/energienachweise.html`
+  (HTTP 200, 93 KB). **Bemerkenswert:** [[energie-private-kontrolle-zh]] trug die korrekte Vollform
+  in §-Text (Zeile 113) bereits, während die eigene Frontmatter-Quellenzeile die tote Kurzform
+  führte — die KB kannte die richtige Adresse also und hat sie nicht propagiert. **Lehre,
+  verallgemeinerbar:** eine Fundstelle wird **in der Form zitiert, in der sie aufrufbar ist**. Eine
+  gekürzte URL ist keine Quelle, sondern eine Merkhilfe; sie entwertet den Beleg in genau dem
+  Moment, in dem ihn jemand (Behörde, Bauherr, spätere Session) nachprüfen will. Live geprüft und
+  intakt: `energievollzug.ch`, `energie-zentralschweiz.ch/vollzug/even`, `endk.ch`.
+- [x] **D15 — Identifikator-Verwechslung EGID/EGRID (Run 93, 2026-07-30, behoben)** In
+  [[energie-energienachweis-zh-formulare]] §EN-104 stand «**EGID** CH527708492462» für den realen
+  Fall Einsiedeln Parz. 3301. `CH…` + 12 Zeichen ist ein **EGRID** (eidg. Grundstückidentifikator);
+  ein EGID ist die 9-stellige eidg. Gebäudenummer (→ [[kartenportale-gwr-bund]]). Korrigiert.
+  Bestandssweep über das ganze Wiki in beiden Richtungen (`EGID CH…` und `EGRID <9 Ziffern>`):
+  **keine weiteren Fälle** — der Fehler war ein Einzelfall, nicht ein Muster.
 - [x] **E45 (Run 65, 2026-07-25, Token-Vollgas)** Korrektur zu E44: `_Literatur/
   Final_Dossier_Solararchitekur_tiefaufgeloest.pdf` (Tippfehler im Dateinamen liess es beim
   Run-63-Scout-Grep durchrutschen) enthält das vollständige TEC21-Dossier «Solares Bauen» —
@@ -1156,6 +1196,43 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   ausstehend) — bis dahin gilt MuKEn 2014 (Eigenstrom 10 W/m²).
 
 ## E — Connector/Tooling
+- [x] **E11 — Datums-Prefix war UTC statt Lokalzeit (Run 93, 2026-07-30, behoben + getestet)**
+  Alle vier `planungsgrundlagen`-Connectoren bildeten ihr Datum mit
+  `new Date().toISOString().slice(0,10)`. Das ist **UTC**: zwischen 00:00 und 02:00 CEST (Sommer;
+  00:00–01:00 CET im Winter) datierten sie jede Ausgabedatei **einen Tag zurück** — genau im
+  Nachtfenster, in dem die Lern-Loops und Scheduled Tasks laufen. Belegt am Original: um 00:39 CEST
+  am 30.07. erzeugte `geo-zh.mjs` die Datei `Zonenplan-ZH_136_3338_2026-07-29.json`. Verstoss gegen
+  Rule `dateinamen-konvention` (Datums-Prefix = tatsächliches Datum). Umgestellt auf
+  `toLocaleDateString("sv-SE")` (liefert lokales `JJJJ-MM-TT`) in `geo-zh.mjs`, `geo-sz.mjs`,
+  `gwr-bund.mjs`, `behoerden-zh.mjs`; im selben Lauf nachgemessen → `..._2026-07-30.json` und
+  `Oereb-Auszug_136_3338_2026-07-30.pdf`. Erfolgs- und Fehlerpfad je einmal geprüft.
+- [x] **E12 — HTTP 204 wurde als «kein PDF» gemeldet (Run 93, 2026-07-30, behoben + getestet)**
+  Ein OEREB-Service antwortet auf einen ihm unbekannten EGRID mit **204 + leerem Body**, nicht mit
+  404 (gemessen an ZH und SZ, je mit Fremd-EGRID). 204 ist für `fetch` «ok», lief also durch den
+  `!r.ok`-Wächter und scheiterte erst am content-type — mit der irreführenden Meldung «OEREB-Antwort
+  ist kein PDF (content-type )», die einen Serverdefekt suggeriert, während in Wahrheit der **Kanton
+  falsch gewählt** war. `geo-zh.mjs` und `geo-sz.mjs` fangen den 204 jetzt eigens ab und benennen
+  Ursache samt Abhilfe; beide Meldungen nachgemessen. Messreihe und Praxisfolgen dokumentiert in
+  [[kartenportale-oereb-egrid-bezug]].
+- [ ] **E13 — dieselbe UTC-Datumsfalle in vier Connectoren AUSSERHALB dieser KB** (neu Run 93,
+  2026-07-30). Der Bestandssweep `grep -rn "toISOString().slice(0, 10)"` über `connectors/` und
+  `skills/` fand acht Vorkommen; die vier `planungsgrundlagen`-eigenen sind behoben (E11), die
+  folgenden vier bewusst **nicht angetastet**, weil sie fremden Skills gehören und teils
+  buchungsrelevant sind:
+  `connectors/bexio.mjs:279` (`heute()` — Buchhaltung, Änderung nur mit Freigabe, Rule 260702),
+  `connectors/versand/shop-orders.mjs:44` (`HEUTE`, Skill `versandplanung` ist parkiert),
+  `skills/baurecht/connectors/recht-ch.mjs:160`,
+  `skills/oereb-schwyz/connectors/geo-sz.mjs:71`.
+  Zu entscheiden: sammelhafte Korrektur durch die jeweils zuständigen Loops.
+- [ ] **E14 — `geo-sz.mjs` existiert zweimal und divergiert** (neu Run 93, 2026-07-30):
+  `skills/planungsgrundlagen/connectors/geo-sz.mjs` (23'149 B, Stand 22.07.2026, mit
+  Parzellensuche/Grundwasser/JANS-Umbenennung, seit heute mit 204-Diagnose und lokalem Datum) gegen
+  `skills/oereb-schwyz/connectors/geo-sz.mjs` (11'145 B, Stand 07.06.2026). Der Skill
+  `oereb-schwyz` arbeitet also mit einer **sieben Wochen alten Abspaltung ohne die seither
+  gewonnenen Fähigkeiten und Korrekturen**. Kein Datenverlust, aber zwei Wahrheiten für denselben
+  Kanton. Entscheid nötig: Symlink auf die `planungsgrundlagen`-Fassung, Merge oder bewusste
+  Trennung mit Begründung. Nicht eigenmächtig zusammengeführt (fremder Skill, potenziell
+  destruktiv — Rule `wissens-bibliothekar`).
 - [x] **E1** `geo-zh.mjs` um `--produkt` erweitern. ✓ 2026-06-10: `--produkt
   height,orthofoto,dtm,bauzonen` + `--download` implementiert, end-to-end an Kat. 3338 getestet
   (graceful skip bei EGRID-only ohne Koordinate). → [[kartenportale-bund-geodaten]].

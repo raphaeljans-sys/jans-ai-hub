@@ -113,16 +113,11 @@ einer amtlichen oder unabhängigen Stelle).
     der Gemeinde koordiniert.
   - Zusätzlich in beiden Fällen: **privatrechtliche Verträge** (Durchleitungs-/Baurecht,
     Grundbucheintrag) mit Grundeigentümerinnen/-eigentümern und Gemeinde, soweit nötig.
-  - **Offener Punkt (nicht abschliessend verifiziert):** Die exakte WsG-Paragraphennummer für die
-    wasserrechtliche Wassernutzungskonzession bei Seen/Flüssen wurde in dieser Recherche nicht
-    zitiert gefunden — das bereits bestehende KB-Destillat zu Abwasserwärme belegt für Abwasser/
-    Untergrund **§ 44 Abs. 1 lit. a WsG**; ob dieselbe Bestimmung auch die OWEN-Konzession trägt
-    oder eine andere WsG-Sondernutzungsbestimmung einschlägig ist, ist über `wissen/baurecht`
-    (amtlicher WsG-Volltext) zu verifizieren, bevor die Paragraphennummer in ein Kundendokument
-    wandert.
-
-> ⚠ **Korrektur Wissens-Chef Run 20, 29.07.2026 — der vorstehende offene Punkt ist für den Kanton
-> Zürich GEKLÄRT.** Der WsG-/WsV-Volltext liegt seit dem 28.07.2026 in der führenden KB `baurecht`;
+> ⚠ **Korrektur Wissens-Chef Run 20, 29.07.2026 — hier stand ein offener Punkt, der für den Kanton
+> Zürich längst GEKLÄRT war.** Entfernt wurde die Aussage, die exakte WsG-Paragraphennummer für die
+> wasserrechtliche Konzession bei Seen und Flüssen sei «nicht zitiert gefunden» worden und § 44
+> Abs. 1 lit. a WsG (Abwasser/Untergrund) müsse erst noch abgeglichen werden.
+> Der WsG-/WsV-Volltext liegt seit dem 28.07.2026 in der führenden KB `baurecht`;
 > das Destillat entstand einen Tag später und liess die Frage trotzdem offen. **Fassungsvermerk zu
 > allen folgenden Nummern: WsG (LS 724.1) und WsV (LS 724.11) in der Fassung Nachtrag 133, in Kraft
 > seit 01.06.2026** — die zitierte AWEL-Planungshilfe 2025 argumentierte noch unter altem Recht.
@@ -403,16 +398,13 @@ SZ, Vierwaldstättersee im Kt. SZ/LU/UR/OW/NW) bedeutet dieser Rechercheausstand
 
 ## Offene Punkte
 
-- **Exakte WsG-Paragraphennummer für die Wassernutzungskonzession (Seen/Flüsse) im Kanton
-  Zürich nicht verifiziert** — die AWEL-Planungshilfe nennt die Pflicht nur textlich («wasserrecht-
-  liche Konzession»), ohne Paragraphenverweis; Abgleich mit dem bereits im Hub verifizierten
-  WsG-Volltext (`wissen/baurecht`) und ggf. Ergänzung hier nötig, bevor eine Paragraphennummer in
-  ein Kundendokument wandert.
-  > ⚠ **Erledigt für die Konzessions-Spur (Wissens-Chef Run 20, 29.07.2026):** § 4 Abs. 1 WsG,
-  > § 68 Abs. 1 lit. c WsG, § 119 Abs. 2 lit. c WsV und § 120 Abs. 1 WsV, samt Konzessionsdauer
-  > § 121 Abs. 1 lit. b WsV und Gebühren §§ 142/143 WsV — hergeleitet und belegt im Korrekturkasten
-  > in Abschnitt 1 (WsG/WsV in der Fassung Nachtrag 133, in Kraft seit 01.06.2026). Der vorstehende
-  > Absatz bleibt als Dokumentation des früheren Stands stehen.
+- > ⚠ **ERLEDIGT, Wissens-Chef Run 20, 29.07.2026 — Konzessions-Spur.** Hier stand, die exakte
+  > WsG-Paragraphennummer für die Wassernutzungskonzession bei Seen und Flüssen sei im Kanton
+  > Zürich «nicht verifiziert», weil die AWEL-Planungshilfe die Pflicht nur textlich nennt.
+  > Belegt sind: § 4 Abs. 1 WsG, § 68 Abs. 1 lit. c WsG, § 119 Abs. 2 lit. c WsV und § 120 Abs. 1
+  > WsV, samt Konzessionsdauer § 121 Abs. 1 lit. b WsV und Gebühren §§ 142/143 WsV — hergeleitet
+  > im Korrekturkasten in Abschnitt 1 (WsG/WsV in der Fassung Nachtrag 133, in Kraft seit
+  > 01.06.2026).
 - **Offen bleibt die gewässerschutzrechtliche Bewilligungsnorm für Oberflächenwasser** (Stand
   Run 20, 29.07.2026): Für die zweite Spur der AWEL-Doppelspur «Konzession + Bewilligung» ist
   § 44 Abs. 1 lit. a Ziff. 1 WsG nur eine **eigene Subsumtion**, keine amtlich benannte Fundstelle;

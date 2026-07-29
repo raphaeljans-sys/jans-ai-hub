@@ -158,13 +158,14 @@ Anlage (zu kleiner Speicher/zu wenig Regeneration) auf JAZ 2,0–2,5 einbrechen 
    existiert amtlich nicht — § 45 WsG kennt «Gewässerschutzbereiche» und
    «Grundwasserschutzareale», § 46 WsG die «Grundwasserschutzzonen».)*
    Der Eisspeicher ist eine geschlossene Zisterne ohne Kontakt zum Grundwasser und wird in den
-   Quellen deshalb durchgehend als in solchen Zonen «unbedenklich» beschrieben — **eine
-   Schweizer Primärquelle (AWEL/kantonales Amt), die dies für ZH/SZ ausdrücklich bestätigt oder
-   das Bewilligungsverfahren regelt, wurde in dieser Recherche nicht gefunden** (offener Punkt).
+   Quellen deshalb durchgehend als in solchen Zonen «unbedenklich» beschrieben.
 
-> ⚠ **Korrektur Wissens-Chef Run 20, 29.07.2026 — der Negativbefund im vorstehenden Punkt 1 ist
-> falsch: die Schweizer Primärquelle liegt im Hub.** Korrigiert wird ausschliesslich die Behauptung
-> «keine Primärquelle vorhanden»; das Destillat hat nirgends behauptet, ein Eisspeicher sei
+> ⚠ **Korrektur Wissens-Chef Run 20, 29.07.2026 — hier stand ein falscher Negativbefund: die
+> Schweizer Primärquelle liegt im Hub.** Entfernt wurde die Aussage, eine Schweizer Primärquelle
+> (AWEL/kantonales Amt), die die Unbedenklichkeit für ZH/SZ bestätigt oder das
+> Bewilligungsverfahren regelt, sei «in dieser Recherche nicht gefunden» worden.
+> Korrigiert wird ausschliesslich diese Behauptung; das Destillat hat nirgends behauptet, ein
+> Eisspeicher sei
 > bewilligungsfrei, und verlangt auf der Ebene «Offene Punkte» zu Recht die Verifikation bei
 > Gemeinde/Kanton. Der Fehler liegt also im Negativbefund, nicht in einer Freistellung.
 > Fassungsvermerk: **WsG (LS 724.1) und WsV (LS 724.11) in der Fassung Nachtrag 133, in Kraft seit
@@ -214,18 +215,16 @@ Anlage (zu kleiner Speicher/zu wenig Regeneration) auf JAZ 2,0–2,5 einbrechen 
 
 ## Offene Punkte
 
-- **Keine Schweizer Primärquelle (AWEL ZH, AfU SZ) zur Bewilligungspraxis von Eisspeichern**
-  gefunden — insbesondere ob und wie ein Eisspeicher in Grundwasserschutzzone S1/S2 tatsächlich
-  bewilligungsfrei ist, oder ob eine gewässerschutzrechtliche Meldung/Bewilligung analog zur
-  Erdsonde nötig wird (Aushub, mögliche Frostwirkung auf umliegendes Erdreich). Vor einer
-  verbindlichen Bauherren-Aussage zwingend bei der zuständigen Gemeinde/dem Kanton verifizieren.
-  > ⚠ **Teilweise erledigt, Wissens-Chef Run 20, 29.07.2026:** Der Negativbefund «keine
-  > Primärquelle» ist falsch. Die **Rechtsgrundlage** liegt im Hub — § 92 Abs. 1 WsV (Bewilligung
-  > für Entzug von Erdwärme und Eintrag von Wärme ins Erdreich) und § 44 Abs. 1 lit. a Ziff. 3 WsG,
-  > je in der Fassung Nachtrag 133, in Kraft seit 01.06.2026; ein Ausnahmeweg nach § 44 Abs. 3 WsG /
+- > ⚠ **Korrigiert, Wissens-Chef Run 20, 29.07.2026 — die Rechtsgrundlage liegt im Hub.** Hier
+  > stand, es sei «keine Schweizer Primärquelle (AWEL ZH, AfU SZ) zur Bewilligungspraxis von
+  > Eisspeichern» gefunden worden. Das ist falsch: § 92 Abs. 1 WsV (Bewilligung für Entzug von
+  > Erdwärme und Eintrag von Wärme ins Erdreich) und § 44 Abs. 1 lit. a Ziff. 3 WsG, je in der
+  > Fassung Nachtrag 133, in Kraft seit 01.06.2026; ein Ausnahmeweg nach § 44 Abs. 3 WsG /
   > § 173 WsV besteht für Erdwärmenutzungen nicht. Hergeleitet im Korrekturkasten im Abschnitt
-  > «Bauherren-Transfer». Der vorstehende Absatz bleibt als Dokumentation des früheren Stands
-  > stehen.
+  > «Bauherren-Transfer». **Offen bleibt allein die Vollzugspraxis** des AWEL in den
+  > Grundwasserschutzzonen S1/S2 und die amtliche Bestätigung der Subsumtion selbst — vor einer
+  > verbindlichen Bauherren-Aussage zwingend bei der zuständigen Gemeinde bzw. dem Kanton
+  > verifizieren.
 - **Offen bleibt (Stand Run 20, 29.07.2026) zweierlei:** erstens die **AWEL-Vollzugspraxis** für
   Eisspeicher in Grundwasserschutzzonen S1/S2 (wird eine Bewilligung nach § 92 WsV dort erteilt, und
   unter welchen Auflagen); zweitens die **amtliche Bestätigung der Subsumtion** selbst — dass ein

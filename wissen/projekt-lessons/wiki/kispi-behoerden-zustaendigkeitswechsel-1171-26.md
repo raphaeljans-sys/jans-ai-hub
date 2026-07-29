@@ -1,5 +1,5 @@
 ---
-title: "KISPI 1171/26: Zuständigkeiten bei Behörden ändern sich unangekündigt — am zuletzt bekannten Kontakt festhalten kostet Zeit"
+title: "KISPI 1171/26: Zuständigkeiten bei Behörden ändern sich ohne proaktive Mitteilung — am zuletzt bekannten Kontakt festhalten kostet Zeit"
 status: established
 last_updated: 2026-07-29
 sources: [Logbuch-Journal 24.07./25.07./27.07.2026 (Abschnitte KISPI Auflagebereinigung 1171/26 Lenggstrasse 30, Fristen-Register logbuch/fristen.md), wissen/twin/outputs/2026-07-26_fidelity.md:13-15 (M365-Pull Sent Items rj@, Mail an Furrer/Gantenbein 24.07.2026 15:30, Cc Hottinger + Team-5-Postfach), wissen/twin/raw/_INGESTED.md:176 und :182 (maschineller Sweep-Endpunkt 2026-07-24 15:30:13; im selben Fenster die «Hottinger AfB-Kontaktlisten-Nachfrage»)]
@@ -10,7 +10,7 @@ sia_phase: "5 Ausführung (SIA 112) — Auflagebereinigung während laufendem Ve
 betroffene_skills: [auflagebereinigung, behoerden-vorabklaerung, baurecht]
 ---
 
-# KISPI 1171/26: Behörden-Zuständigkeit wechselt mitten im Verfahren, ohne dass man es mitgeteilt bekommt
+# KISPI 1171/26: Behörden-Zuständigkeit wechselt mitten im Verfahren, und man erfährt es nur auf Nachfrage
 
 **Projekt:** 2619 Kinderspital Zürich, Lenggstrasse 30, Bauentscheid 1171/26 (Auflagen
 II.1.a–c). **Zeitraum:** 24.07.–27.07.2026.

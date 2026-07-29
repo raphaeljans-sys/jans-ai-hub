@@ -811,3 +811,28 @@ das Ergebnis in den passenden Wiki-Artikel.
   [[energie-energienachweis-zh-formulare]] noetig (Referenz war immer korrekt). Verbleibende
   M4-Punkte (Umlaut-Ersatzschreibung KB-weit, 2 Artikel ohne YAML-Frontmatter) bleiben offen fuer
   einen dedizierten `korrektur`-Lauf → siehe [[wiki/QUESTIONS.md]] M4.)
+- [x] Run 93 (2026-07-30, Token-Vollgas, turnusgemaess Kartenportale PL-01 + Energie PL-04)
+  **Erster Lauf seit Run 67, der wieder substanzielle Befunde liefert — aber NICHT aus neuem
+  Quellmaterial.** Frischecheck gegen Run 92: alle vier PL-Ordner **0 neue/geaenderte Inhaltsdateien**
+  (nur OneDrive-Marker `.849C9593-…` und ein `.DS_Store`) = 28. Erschoepfungsbestaetigung des
+  Quellbestands. Der Ertrag kam stattdessen aus der **Verifikation des bereits Dokumentierten**:
+  (1) **Endpunkt-Frischecheck 13/13 live** am Benchmark Giebelweg 12 (EGRID CH879777718909),
+  Zonenplan W/1.5 · BMZ 1.5 · GH 4.5 · ES_II und Hoehe 549.1 m ue.M. identisch zum Stand
+  → K63, Messtabelle in [[kartenportale-oereb-egrid-bezug]].
+  (2) **Zwei echte Connector-Fehler gefunden, behoben und nachgemessen** — UTC- statt Lokaldatum im
+  Datei-Prefix (alle vier Connectoren datierten im Nachtfenster einen Tag zurueck, belegt an
+  `Zonenplan-ZH_136_3338_2026-07-29.json` erzeugt am 30.07. um 00:39 CEST) → E11; und HTTP 204 als
+  "kein PDF" fehlgemeldet, obwohl es "Kanton kennt diesen EGRID nicht" heisst → E12. Beide
+  Fehlerpfade UND der Erfolgspfad je einmal getestet.
+  (3) **Vier Energie-Artikel zitierten eine erloschene Kurz-URL** `zh.ch/energienachweise`
+  (HTTP 404) → auf die nachgemessene Vollform ersetzt, D14; **EGID/EGRID-Verwechslung** korrigiert,
+  Bestandssweep ohne weitere Faelle, D15.
+  (4) **C39 neu diagnostiziert und die Diagnose vom 28.07. korrigiert:** die Lignum-Datei ist kein
+  defekter Symlink, sondern eine regulaere 201-Byte-UTF-8-Textdatei mit ihrem eigenen, abgeschnittenen
+  Zielpfad als Inhalt; der EDEADLK war doch transient.
+  **Lehre fuer die Ruecktaktungs-Frage:** die dreifach wiederholte Empfehlung (Run 91/92) bleibt
+  richtig fuer das QUELLEN-Lesen — neues PL-Material gibt es nicht. Sie greift aber zu kurz fuer die
+  **Verifikations-Arbeit**: Endpunkte, URLs und eigener Connector-Code erodieren unabhaengig vom
+  Dateibestand, und genau dort lagen heute vier belegte Fehler. Vorschlag an Raphael: Quellen-Turnus
+  ruecktakten, aber einen **schlanken monatlichen Endpunkt-/Link-/Connector-Check** behalten.
+  Bericht: `outputs/2026-07-30_training-run93.md`.
