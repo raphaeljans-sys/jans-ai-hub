@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 29.07.2026 13:50:36
+Stand: 29.07.2026 14:10:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:34)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:45)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 29.07.2026 13:50:36
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 7be45833 synobsis-batch: kein Batch (853/853 saturiert), Deaktivierung in Scheduled-Task-Registry nachvollzogen
+- 04a97fcb nas-selfcommit: 2 Datei(en) 2026-07-29 14:00
