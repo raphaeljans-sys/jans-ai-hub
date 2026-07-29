@@ -83,7 +83,7 @@ Gemessen:
 | MacBook Pro | 2.1.212 | Homebrew-Cask | ja, wird täglich aktualisiert |
 | Mac Mini | **2.1.207** | npm-global (`/opt/homebrew/bin/claude` → `lib/node_modules/@anthropic-ai/claude-code`) | **nein** |
 
-`scripts/claude-autoupdate.sh` entscheidet in Zeile 82 ueber
+`scripts/claude-autoupdate.sh` entscheidet in Zeile 82 über
 `brew list --cask claude-code`. Auf dem Mini schlägt diese Prüfung fehl, weil dort kein Cask
 liegt, und der Lauf protokolliert: «CLI: keine bekannte Installation gefunden —
 uebersprungen» (Log `logs/claude-autoupdate/mac-mini.log`, 29.07. 05:15:03). Der Eintrag steht
@@ -121,7 +121,7 @@ unbewiesen, weil die Diagnose zum Zeitpunkt des Vorfalls verworfen wurde. Genau 
 Fix richtig: ein Wiederholungsfall wird diagnostizierbar sein.
 
 Dazu ein eigener, heute erstmals nachgemessener Befund: **`claude` ist auf KEINER der beiden
-Stationen ueber den PATH auflösbar**, sobald die Shell nicht interaktiv ist (auf dem Mini
+Stationen über den PATH auflösbar**, sobald die Shell nicht interaktiv ist (auf dem Mini
 scheitert `command -v claude` auch unter normalem ssh-Login). Die gesamte Automatik hängt an
 der Fallback-Liste in `dispatch-run.sh`, und von deren vier Kandidaten existiert auf beiden
 Stationen genau **einer**: `/opt/homebrew/bin/claude`, selbst nur ein Symlink in die
@@ -176,7 +176,7 @@ verifiziert), 13:30 geliefert (`projekt-lessons`, KISPI-Zuständigkeitswechsel),
 noch aus. Dazu 22:30 `energie` am Vorabend. Drei von vier Slots produktiv, einer verloren.
 
 **Speicher (gemessen, nicht geschätzt):** MacBook Pro 3,4 GB frei+inaktiv+purgeable bei
-Pressure-Level **2**, Mac Mini 11,5 GB bei Level 1. Der MacBook-Wert liegt knapp ueber der
+Pressure-Level **2**, Mac Mini 11,5 GB bei Level 1. Der MacBook-Wert liegt knapp über der
 3-GB-Schwelle des Lauf-Gates; er trägt heute Nacht ohnehin nur `normen` (01:20),
 `twin-mail` (03:35) und `twin-fidelity` (05:40). Der Mini hat für seine drei Slots reichlich
 Luft.
