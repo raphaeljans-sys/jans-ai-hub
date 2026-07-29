@@ -7,6 +7,50 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-29
 
+**Hub-Chef-Lauf (08:39, planmaessig) — MIT Befund, Briefing versendet.** Signale gegenverifiziert
+nach dem Radar-Briefing von 07:07: Fristen-Register + Logbuch (7-Tage-Horizont), Konversations-
+Destillat 29.07., `mail-vorfilter.sh 26` ueber alle Apple-Mail-Konten (Exchange, mail@, iCloud,
+raphaeljans@outlook.com; Posteingang + Gesendete Elemente), die relevanten Threads danach im
+Original samt **Anhaengen** geoeffnet, bexio `--verzug` + `--abgleich`, M365-Kalender 8 Tage,
+Sync- und Remote-Task-Queues (beide leer), Entwurfsordner. Kein neuer Mail-Eingang seit gestern
+17:12; das Briefing traegt nur, was der Radar nicht hatte.
+**Befund 1 — das ueberarbeitete Roethlisberger-Angebot ist geprueft, und die Beanstandung faellt
+zu Gunsten des Unternehmers aus.** Der Radar meldete nur «Positionsliste zur Pruefung
+eingegangen». Der Anhang (`Therapiekueche KISPI ueberarbeitet 28.07.2026 O.A2628001.pdf`) wurde
+geoeffnet und nachgerechnet: Position 1.2 loest sich vollstaendig auf in Moebel CHF 9'296.65,
+Tekton-Abdeckung CHF 5'940.00, Armatur/Becken CHF 1'157.35, Geraete inkl. Holzdoppel
+CHF 19'216.00 und Einbauplanung/Montage CHF 1'340.00 = CHF 36'950.00. Der beanstandete Sprung
+kommt aus der **Schreinerarbeit**, nicht aus den Geraeten: Rational iCombi Pro XS 6-2/3 inkl.
+Kondensationshaube CHF 13'164.00 gegen RJs Annahme CHF 17'300.00, Kuehlkorpus Elit CHF 5'712.00
+gegen CHF 6'500.00 — zusammen rund CHF 4'900 **unter** der eigenen Einschaetzung. Die
+Hochschraenke sind wie verlangt als Option ausgewiesen (9 Stk. à CHF 990.00) und nicht im Total.
+Nach 3 % Rabatt betraegt das Zwischentotal **CHF 71'263.95 exkl. MwSt** gegen ein Rahmenbudget
+von CHF 70'000.00 — **Differenz CHF 1'263.95**, und Lanz erwartet naechste Woche bessere
+Lieferantenkonditionen.
+**Befund 2 — die offene Frage des Radars ist geschlossen:** die Huwiler-Retour traegt genau zwei
+Anhaenge, `re-00100.pdf` und das Stundenblatt Mai/Juni. Eine zweite Rechnung liegt **nicht** bei;
+«bei beiden Rechnungen pruefen» stammt aus der Ankreuz-Vorlage. Neu auszustellen ist allein
+RE-00100.
+**Befund 3 — die eBaugesucheZH-Session ist abgelaufen** (`--liste` bricht mit HTTP 401 ab). Die
+zwei Portal-Aktionen vom 28.07. bleiben ohne interaktiven `--login` (Mobile ID) unzuordenbar.
+**Befund 4 (Betrieb):** `diagnose-fix-bare` heute 04:14 mit «OAuth session expired and could not
+be refreshed» abgebrochen (rc=1); eine Vollgas-Fruehwarnung ist heute nicht gemailt worden.
+**Aktionen:** **A5** — ein Mail-Entwurf an S. Lanz + T. Inniger (Cc Spahic/Spoerri/Wuersch) mit
+der geprueften Herleitung, der Budgetdifferenz und der Bestaetigung der Frist 03.08. liegt als
+Draft im Postfach, NICHT versendet; QS `rechtschreibung` gelb und `layout` gelb (Befunde
+eingearbeitet), twin-chef Fidelity 76 → 88 nach einer Veredelungsrunde. Dabei eine Korrektur am
+Twin-Vorschlag: der Chef wollte die Zusammensetzung der Position 1.2 bei Lanz **erfragen** — der
+Beleg beantwortet sie bereits vollstaendig, die Frage waere unsorgfaeltig gewesen und wurde durch
+die verifizierte Herleitung ersetzt. **A4** — Fristen-Register und dieser Eintrag.
+**Guards / bewusst unterlassen:** **A1** nicht qualifiziert (RE-00087 auf Mahnstufe 2 = per
+Whitelist immer nur Entwurf; RE-00098/99 in laufender Frist bis 03.08.; RE-00100 retourniert,
+kein Verzug; RE-00101 faellig erst 31.07.). **A2** nicht noetig. Keine Zahlung, keine Buchung,
+keine Loeschung, kein Versand ausser dem Briefing. Kein `git` ueber SMB (nativer Committer).
+Ausserdem im Briefing geliefert: der vom Methoden-Layer bestellte **Priorisierungsvorschlag zur
+4-Agenten-Blaupause** (Indexer zuerst, QA-Trace zweitens, Baueingabe-Check anlassgebunden,
+Brandschutz-Matrix als Erweiterung von `brandschutz` statt als eigener Skill) — Bauentscheid
+bleibt bei Raphael.
+
 **Logbuch-Radar 06:55 (planmaessig, mit Befund) — der Radar laeuft nach dem Mount-Ausfall
 vom Vortag wieder.** Quellen: Register + Journal, Konversations-Destillat 29.07.,
 `mail-vorfilter.sh 26` ueber alle Apple-Mail-Konten, die relevanten Threads danach im
