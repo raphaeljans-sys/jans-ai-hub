@@ -176,6 +176,65 @@ Neue KB `wissen/claude-code/` — Wissen ueber das Werkzeug, auf dem der Hub ruh
 `wiki/kontext-architektur.md` (gemessener Ist-Zustand der vier Schichten samt Budget),
 `INDEX.md`, `QUESTIONS.md` (fuenf offene Punkte), `CHANGELOG.md`.
 
+### 7. Projekt-Vertrauen: ein Loop arbeitete ohne Hub-Kontext (Folgeauftrag)
+
+Dem Nebenbefund «workspace has not been trusted» wurde auf Anweisung Raphaels nachgegangen.
+Er ist kein kosmetisches Warnthema, sondern hat bereits einen Lauf gekostet.
+
+**Der Mechanismus.** Claude Code laedt `.claude/settings.json` und die Projekt-`CLAUDE.md`
+nur in einem Arbeitsverzeichnis, das in `~/.claude.json` unter
+`projects[<pfad>].hasTrustDialogAccepted: true` steht. Der Eintrag entsteht normalerweise
+durch den interaktiven Trust-Dialog — den ein headless `claude -p` nicht beantworten kann.
+Es warnt, arbeitet ohne Projekt-Kontext weiter und endet mit **rc=0**. Im Log ist ein
+solcher Lauf von einem gesunden nicht zu unterscheiden.
+
+**Gemessener Zustand (MacBook Pro, 29.07.2026):**
+
+| Pfad | Zustand |
+|---|---|
+| `~/Developer/jans-ai-hub` | vertraut |
+| `/Volumes/daten/jans-ai-hub` | **kein Eintrag** |
+| `~` (Home) | ausdruecklich `false` |
+
+**Wer betroffen war.** Die Arbeitsverzeichnisse aller Feuermechanismen geprueft:
+`vollgas-runner`, `dispatch-run` und `nachtschicht-run` wechseln in den SSD-Klon und sind
+damit **in Ordnung**. `wissens-trigger.sh` war der **einzige ohne `cd`** — und weil die
+launchd-Jobs kein `WorkingDirectory` setzen, startete er im Home-Verzeichnis.
+
+**Der Beleg.** Eigenes Log, 27.07.2026 21:52: `planungsgrundlagen-training` endete nach
+28 Sekunden mit rc=0 und einer **Rueckfrage** statt Arbeit — «Could you confirm: 1. Are you
+intentionally asking me to run this training pass right now …». Ohne Projekt-Kontext
+verstand der Lauf den SKILL.md-Prompt nicht als Auftrag im Hub. Der Loop protokollierte
+«1 Lauf ausgeloest». Genau das Muster, das der Liefer-Delta-Nachtrag beschreibt: ein Lauf,
+der stattfand und nichts lieferte.
+
+**Umgesetzt:**
+- `scripts/wissens-trigger.sh` wechselt in den SSD-Klon (NAS als Rueckfall) und
+  **protokolliert sein Arbeitsverzeichnis** in jedem Durchgang — ohne diese Zeile blieb der
+  Fehler unsichtbar. Trockenlauf verifiziert: «Arbeitsverzeichnis:
+  /Users/raphaeljans/Developer/jans-ai-hub».
+- `scripts/trust-check.sh` prueft die Hub-Pfade und setzt fehlendes Vertrauen idempotent
+  (atomar ueber temporaere Datei, mit Zeitstempel-Backup). Vertrauen wird **ausschliesslich**
+  fuer die zwei fest verdrahteten Hub-Pfade gesetzt, nie fuer einen uebergebenen Pfad und
+  nie fuers Home-Verzeichnis; ein zusaetzlicher Kontrollblick warnt, falls `~` je als
+  vertraut auftaucht. Pruefpfad verifiziert (erkennt die Luecke, Exit 1).
+- Als **Check 8** im Skill `heartbeat` verankert, damit die Luecke nicht wieder still entsteht.
+- Kurzregel im importierten Betriebs-Abschnitt, Chronik-Eintrag mit dem vollen Beleg.
+
+**Offen — braucht Raphaels Hand:** Das Setzen des Vertrauens fuer
+`/Volumes/daten/jans-ai-hub` wurde vom Sicherheits-Klassifikator blockiert (Schreibzugriff
+auf `~/.claude.json`, die Datei, die Projekt-Vertrauen steuert). Das ist angemessen — die
+Entscheidung, einem Verzeichnis die vollen Projekt-Berechtigungen zu geben, gehoert dem
+Benutzer. Zwei Wege: `bash scripts/trust-check.sh --alle` selbst ausfuehren, oder einmal
+interaktiv `claude` in `/Volumes/daten/jans-ai-hub` starten und den Dialog bestaetigen.
+**Der produktive Schaden ist davon unabhaengig bereits behoben** — die Loops laufen jetzt
+alle im vertrauten SSD-Klon.
+
+**Verallgemeinerte Lehre:** Ein automatischer Lauf muss sein Arbeitsverzeichnis kennen und
+protokollieren. `cd` ist bei headless Laeufen kein Schoenheitsdetail, sondern entscheidet,
+ob Berechtigungen und Kontext ueberhaupt geladen werden. Und rc=0 bleibt kein Beleg fuer
+geleistete Arbeit.
+
 ## Was bewusst NICHT umgesetzt wurde
 
 - **Enterprise-Policy-Ebene** (`/Library/Application Support/ClaudeCode/`): fuer zwei
@@ -188,10 +247,8 @@ Neue KB `wissen/claude-code/` — Wissen ueber das Werkzeug, auf dem der Hub ruh
 
 ## Nebenbefunde aus der Messung
 
-1. **Workspace nicht «trusted».** Headless-Laeufe aus `/Volumes/daten/jans-ai-hub` melden
-   «Ignoring 29 permissions.allow entries from .claude/settings.json: this workspace has
-   not been trusted». Die 29 Berechtigungen der geteilten `settings.json` greifen dort
-   also **nicht**. Zu klaeren, ob das die produktiven Loops betrifft — siehe offene Punkte.
+1. **Workspace nicht «trusted» — nachgegangen, ein realer Ertragsverlust gefunden.**
+   Siehe eigenen Abschnitt «Massnahme 7» unten.
 2. **Cache-Creation dominiert die Kosten kleiner Laeufe.** Ein Testlauf mit dem Prompt
    «Antworte mit genau dem Wort: OK» erzeugte 89'618 Cache-Creation-Token und 0.54 USD —
    bei 2 Input- und 4 Output-Token. Der zweite Lauf: 0.42 USD, 470 Sekunden, ein Turn, zwei
@@ -215,6 +272,7 @@ Neue KB `wissen/claude-code/` — Wissen ueber das Werkzeug, auf dem der Hub ruh
 - `scripts/user-claude-sync.sh`
 - `scripts/claude-run.sh`
 - `scripts/multi-claude.sh`
+- `scripts/trust-check.sh`
 - `.mcp.json` (auf dem NAS, neu versioniert)
 - `wissen/claude-code/` (KB mit 32 Rohbildern und 4 Wiki-Dateien)
 - dieses Konzept
@@ -223,4 +281,7 @@ Neue KB `wissen/claude-code/` — Wissen ueber das Werkzeug, auf dem der Hub ruh
 - `rules/auto-verbesserungen.md` (36'029 → rund 17'000 B, Abschnitt «Betrieb», Nachtrag 260719)
 - `CLAUDE.md` (Abschnitt «Werkzeuge / Connectoren», User-Level-Zeile, `.mcp.json`-Status)
 - `connectors/README.md` (Werkzeug-Index aller 16 Connectoren)
-- `.gitignore` (`.mcp.json` freigegeben, mit Begruendung)
+- `.gitignore` (`.mcp.json` freigegeben, `logbuch/laeufe/` ausgeschlossen, je mit Begruendung)
+- `scripts/wissens-trigger.sh` (`cd` ins Projekt + Arbeitsverzeichnis im Log)
+- `scripts/vollgas-runner.sh`, `scripts/dispatch-run.sh` (auf den JSON-Wrapper umgestellt)
+- `skills/heartbeat/SKILL.md` (Check 8: Projekt-Vertrauen)
