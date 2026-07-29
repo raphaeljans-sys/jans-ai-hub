@@ -30,6 +30,98 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 
 ---
 
+## 2026-07-29 04:20 — [FREI] Der neue SDK-Wrapper hat in der Nacht jeden Dispatch-Lauf stumm getoetet. Ursache gefunden, reproduziert, behoben — der Fehler haette ab heute auch den Mittags-Versuch und den Handy-Weg getroffen
+
+**Selbstkontrolle:** letzter **getakteter** Lauf 00:57 (Eintrag 01:00), dieser Lauf 03:57 —
+3,0 h bei 3-h-Takt, kein verpasster Lauf. Der Eintrag 03:00 dazwischen war interaktiv.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung antwortet «OK». Kein
+Login-Blocker, kein Wochenlimit, kein Mail-Anlass. Endlos-Runner bleibt ausgebaut: auf beiden
+Stationen `launchctl list | grep vollgas` leer, beide plists auf `.disabled-260729`, kein
+Runner-Prozess. Kein Mechanismus feuert doppelt.
+
+**P1 — GEFUNDEN UND BEHOBEN: der gestern Nacht eingefuehrte Wrapper `claude-run.sh` liess
+jeden Aufrufer mit Exit 2 und LEERER Ausgabe scheitern.**
+
+Befund am Liefer-Delta, nicht am Log: die Nachtschicht 02:30 auf dem Mac Mini endete nach
+**47 Sekunden mit Exit 2**, drei Versuchen und leerem Ergebnisfeld
+(`dispatch/log/20260729-023006-27032.md`). Kein Artefakt, kein Commit, keine Journalzeile.
+
+Die Ursache ist eine einzige Zeile. Der Wrapper prueft das Binary mit `[ -x "$CLAUDE_BIN" ]`.
+Die drei Aufrufer `dispatch-run.sh`, `wissens-trigger.sh` und `vollgas-runner.sh` reichen aber
+den **blossen Namen** «claude» durch, solange `command -v claude` greift — sie ersetzen ihn nur
+dann durch einen vollen Pfad, wenn er im PATH **fehlt**. `[ -x claude ]` prueft eine Datei im
+Arbeitsverzeichnis, findet keine und der Wrapper bricht ab. Die Meldung «claude nicht gefunden»
+ging auf stderr, das `dispatch-run.sh` nach `/dev/null` warf — darum sah der Lauf im Protokoll
+aus wie eine stumme API und lief dreimal ins Leere.
+
+Reproduziert vor der Korrektur: `CLAUDE_BIN=claude bash scripts/claude-run.sh …` → rc 2,
+stdout leer. Umgekehrt lief der Wrapper auf seinem **eigenen** Default (`command -v claude`)
+sauber — genau darum haben die beiden Selbsttests um 02:04 und 02:13 gruen gemeldet. Geprueft
+wurde der Wrapper, nie der **Aufrufer-Pfad**. Das ist die Hub-eigene Regel «eine Schutzmechanik
+ist erst fertig, wenn beide Pfade nachgemessen sind», hier auf die Schnittstelle angewendet.
+
+Zwei Korrekturen, beide auf dem NAS:
+- **Wurzel** (`scripts/claude-run.sh`): ein blosser Name wird zuerst ueber PATH aufgeloest, erst
+  danach auf Ausfuehrbarkeit geprueft. Das heilt alle drei Aufrufer zugleich, statt dreimal
+  denselben Fehler am Fundort zu flicken.
+- **Sichtbarkeit** (`scripts/dispatch-run.sh`): stderr des Wrappers geht nicht mehr nach
+  `/dev/null`, sondern ins Protokoll; ist die Antwort leer und liegt eine Wrapper-Meldung vor,
+  wird sie durchgereicht. Nebeneffekt: ein Konfigurationsfehler loest keine drei Wiederholungen
+  mehr aus, weil er als nicht wiederholbar erkennbar wird.
+
+Verifikation: `bash -n` auf beiden Scripts OK. **Abweisungspfad** zweimal nachgemessen
+(unbekannter Name und nicht ausfuehrbarer Pfad → je rc 2, Meldung nennt neu den Wert).
+**Freigabepfad**: derselbe Aufruf, der vorher in Millisekunden mit rc 2 starb, startet jetzt
+`claude` wirklich und lief zum Zeitpunkt dieses Eintrags seit ueber 13 Minuten (die beiden
+Selbsttests brauchten je rund 8 Minuten fuer ein blosses «OK»); die abschliessende Journalzeile
+steht beim naechsten Lauf zur Kontrolle.
+
+**Reichweite, die damit abgewendet ist.** Der Fehler kam mit Commit `fe6f1150` (29.07. 02:11)
+und traf ab da jeden Lauf ueber `dispatch-run.sh` oder `wissens-trigger.sh`. Betroffen waeren
+gewesen: die Mac-Mini-Nachtschicht 05:30 (in gut einer Stunde), der **13:30-Versuchs-Slot**,
+den Du gestern freigegeben hast, und der **Handy-Weg** ueber `dispatch-run.sh`. Der Mittags-Slot
+haette damit ein falsches Ergebnis geliefert — er waere gefeuert, waere stumm gescheitert und
+haette in der Auswertung wie ein Slot ohne Ertrag ausgesehen. Genau die Falle, die beim Einbau
+des Slots am 03:00 einmal umgangen wurde, ist ueber die andere Tuer wieder hereingekommen.
+
+**Liefer-Delta seit dem letzten getakteten Lauf (00:57):**
+
+| Zeit | Station | Loop | Ergebnis |
+|---|---|---|---|
+| 01:27 | MacBook | `normen-training-nacht` | Run 36 + Run 37 geliefert, dazu das Entscheid-Paket (Commits `fe6f1150`, `ab99790e`, `c3d58016`) |
+| 02:30 | Mini | `nachtschicht` | **Exit 2, nichts geliefert** — Ursache oben, behoben |
+| 03:39 | MacBook | `twin-mail-training` | **Batch 81 geliefert** (Commit `74258096`): 8 Dateien, drei Facetten-Wikis, CHANGELOG, QUESTIONS |
+
+Damit ist die Haelfte der Vorhersage aus dem 01:00-Eintrag eingeloest: `twin-mail-training`
+hat nach dem Null-Tag vom 28.07. wieder geliefert, der Ausfall war der Neustart um 06:53, kein
+kranker Loop. **Offen bleibt `twin-fidelity-review`** (naechster Lauf 05:44) — der uebernaechste
+Eintrag prueft ihn. Keine Ruecktaktung, keine Deaktivierung: kein Loop hat drei Laeufe in Folge
+ohne Delta.
+
+**P1 vom 03:00 ist geschlossen.** Die SSD-Vorrang-Falle des Mittags-Slots ist nachgemessen: der
+SSD-Klon des Mini traegt `MITTAG_SLOT` (Zeilen 40–44), und die **geladene** launchd-Definition
+weist 23:30 / 02:30 / 05:30 / **13:30** aus. Der Slot feuert heute in die richtige Fassung.
+
+**P2 — der MacBook Pro sammelt Claude-Sessions, der Mini nicht.** Gemessen: 56 Prozesszeilen
+gegen **4** auf dem Mini, 52 davon aelter als eine Stunde, die aelteste 21 Stunden. Speicher
+nach `vm_stat` frei+inaktiv+purgeable **3781 MB** bei Druckstufe **2** (der Mini liegt bei 1).
+Bewusst **nichts** beendet: die Lehre vom 03:00 (Footprint ist nicht der Speicher, der beim
+Beenden frei wird) gilt hier genauso, und der MacBook ist Deine Arbeitsstation — ein Teil dieser
+Sessions duerfte offen und gewollt sein. Zu klaeren waere, ob die App Sessions nach Abschluss
+nicht abraeumt; das gehoert gemessen, bevor jemand aufraeumt.
+
+**P3 — das Lauf-Journal ist noch kein Messinstrument.** `logbuch/laeufe/260729-laeufe.jsonl`
+enthaelt genau zwei Zeilen, beide aus den Selbsttests. Kein produktiver Lauf der Nacht hat
+hineingeschrieben — teils, weil sie am Wrapper scheiterten, teils weil sie ihn nicht benutzen.
+Der Liefer-Delta muss deshalb weiter ueber Commits und geaenderte Dateien gemessen werden, so
+wie in diesem Eintrag. Die erste Zeile der Selbsttests zeigt zudem `is_error: true` mit
+JSON-Bruchstueck im Ergebnis — der Rohtext-Fallback des Wrappers greift dort, wo er nicht
+sollte. Beides sollte stehen, bevor das Journal als Beleg zitiert wird.
+
+**Keine Mail.** Der Blocker war in diesem Lauf loesbar und ist geloest; er verlangt keine
+Entscheidung von Dir.
+
 ## 2026-07-29 03:00 — [FREI] Raphael hat die drei offenen Entscheide freigegeben: Endlos-Runner ausgebaut, ArchiCAD-MCP beendet, Mittags-Slot als Versuch. Die Runner-Aera ist zu Ende
 
 **Selbstkontrolle:** letzter Eintrag 01:00, dieser Lauf 03:00 — interaktiv ausgeloest durch

@@ -195,11 +195,23 @@ while :; do
     # Rueckgabe weiterhin reiner Text (die Retry-Logik unten prueft $OUT auf Inhalt).
     WRAP="$HOME/Developer/jans-ai-hub/scripts/claude-run.sh"
     [ -f "$WRAP" ] || WRAP="/Volumes/daten/jans-ai-hub/scripts/claude-run.sh"
+    # stderr des Wrappers NICHT mehr nach /dev/null: scheitert der Wrapper selbst
+    # (fehlendes Binary, unbekannte Option), stand bisher nur eine leere Antwort im
+    # Protokoll und die Ursache war unsichtbar — der Lauf sah aus wie eine stumme API.
+    # Belegt 29.07.2026 (nachtschicht 02:30, «claude nicht gefunden» ging verloren).
+    WRAP_ERR="$(mktemp -t dispatch-wrap-err)"
     OUT="$(CLAUDE_BIN="$CLAUDE_BIN" bash "$WRAP" --name "dispatch-versuch$ATTEMPT" \
         --perm "$PERM_MODE" --budget "$MAX_BUDGET" --fallback "$FALLBACK_MODEL" \
-        -- "$TASK" 2>/dev/null)"
+        -- "$TASK" 2>"$WRAP_ERR")"
     RC=$?
+    WRAP_MSG="$(cat "$WRAP_ERR" 2>/dev/null)"; rm -f "$WRAP_ERR"
     CLEAN="$(printf '%s' "$OUT" | tr -d '[:space:]')"
+    # Leere Antwort mit Wrapper-Meldung → Meldung durchreichen, damit sie im
+    # Protokoll landet und die Retry-Erkennung unten etwas zu sehen bekommt.
+    if [ -z "$CLEAN" ] && [ -n "$WRAP_MSG" ]; then
+        OUT="$WRAP_MSG"
+        CLEAN="$(printf '%s' "$OUT" | tr -d '[:space:]')"
+    fi
     # Erfolg mit Inhalt → fertig
     [ "$RC" -eq 0 ] && [ -n "$CLEAN" ] && break
     # Nur bei Verfuegbarkeits-Signatur (oder voellig leerer Antwort) wiederholen

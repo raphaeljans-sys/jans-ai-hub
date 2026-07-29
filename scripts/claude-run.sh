@@ -36,8 +36,19 @@ done
 PROMPT="${1:-}"
 [ -n "$PROMPT" ] || { echo "claude-run: kein Prompt uebergeben" >&2; exit 2; }
 
-CLAUDE_BIN="${CLAUDE_BIN:-$(command -v claude)}"
-[ -x "$CLAUDE_BIN" ] || { echo "claude-run: claude nicht gefunden" >&2; exit 2; }
+# Aufrufer reichen CLAUDE_BIN teils als BLOSSEN NAMEN durch (dispatch-run.sh,
+# wissens-trigger.sh, vollgas-runner.sh setzen "claude", solange `command -v claude`
+# greift). `[ -x claude ]` prueft dann eine Datei im Arbeitsverzeichnis und schlaegt
+# fehl — der Wrapper brach mit Exit 2 und LEEREM stdout ab, die Meldung ging auf
+# stderr und wurde vom Aufrufer verworfen. Belegt 29.07.2026: nachtschicht 02:30 auf
+# dem Mac Mini, 3 Versuche in 47 s, Ergebnis leer. Darum einen blossen Namen zuerst
+# ueber PATH aufloesen und erst danach auf Ausfuehrbarkeit pruefen.
+CLAUDE_BIN="${CLAUDE_BIN:-claude}"
+case "$CLAUDE_BIN" in
+    */*) : ;;   # bereits ein Pfad
+    *)   CLAUDE_BIN="$(command -v "$CLAUDE_BIN" 2>/dev/null || printf '%s' "$CLAUDE_BIN")" ;;
+esac
+[ -x "$CLAUDE_BIN" ] || { echo "claude-run: claude nicht gefunden ($CLAUDE_BIN)" >&2; exit 2; }
 
 HUB="/Volumes/daten/jans-ai-hub"
 [ -d "$HUB" ] || HUB="$HOME/Developer/jans-ai-hub"
