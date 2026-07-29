@@ -4,7 +4,37 @@ herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direkto
 ausgabe: "Lignatec 17/2005 «Bauten in Holz – Brandschutz-Anforderungen», erschienen Juni 2005, ISSN 1421-0320; geprüft durch die Technische Kommission der Vereinigung Kantonaler Feuerversicherungen (TKB-VKF) auf materielle Übereinstimmung mit den Schweizerischen Brandschutzvorschriften VKF (Ausgabe 2003, gültig seit 1.1.2005) und als «Stand der Technik» anerkannt"
 gelesen: "alle 12 PDF-Seiten (= gedruckte Seiten 2-24 plus Titelblatt) komplett, Bild-Scan ohne Textlayer, visuell gelesen"
 datenstand: "2005 (Bezug: VKF-Brandschutzvorschriften Ausgabe 2003/gültig ab 1.1.2005) — VERALTET gegenüber der aktuellen VKF-Vorschriftengeneration 2015 (vgl. Destillat vkf-ah-1001-15-wohnbauten.md)"
-status: "speculative (SIEBTE unabhaengige Refuter-Runde 260729, Run 36: BEANSTANDET mit 7 Befunden
+status: "speculative (ACHTE Runde 260730, Run 38: BEANSTANDET mit 7 Kernbefunden + 4 Nebenbefunden.
+  Vorrang-Auftrag Raphaels vom 29.07.2026 ausgefuehrt: die RECHNERISCHE Zellaufnahme (Median-RGB je
+  Zellbox, Klassierung gegen die am Original gemessenen Legenden-Swatches) wurde erstmals auf
+  Tab. 3 (S. 8-9) und Tab. 4 (S. 12-13) angewandt — bisher war sie nur auf Tab. 5 gelaufen. Beide
+  Tabellen vollstaendig aufgenommen: 10 Nutzungszeilen x 2 Konzeptzeilen x 7 Geschossgruppen x 2
+  Unterspalten (Tragwerk/Brandabschnitt bzw. Treppenhaus/Korridor). Kernbefunde: (1) Tab. 3 und
+  Tab. 4 haben je eine EIGENE Legende, die das Destillat nirgends wiedergab, und die Farbbedeutungen
+  weichen zwischen Tab. 3, 4 und 5 voneinander ab — 'grau' heisst in Tab. 3/4 'nicht brennbar
+  verkleidet', in Tab. 5 dagegen 'nur unter bedingten Auflagen'. (2) Tab. 4 fuehrt ZWEI Grautoene;
+  sie sind die grafische Kodierung der Schraegstrich-/Bindestrich-Notation (dunkelgrau = beidseitig,
+  hellgrau = nur fluchtwegseitig) — damit ist die Run-32/33-Korrektur erstmals methodisch unabhaengig
+  bestaetigt, keine Regression. (3) Tab. 3 Beherbergungsbetriebe [a]: die Blau-Zone beginnt beim
+  Brandabschnitt bereits in der Spalte '1 und oberstes Geschoss', nicht erst ab 2 Geschossen.
+  (4) Tab. 4 Beherbergungsbetriebe [a]: 'durchgehend' trifft die erste Spalte nicht (Treppenhaus dort
+  nur Fussnote 6, weiss; Korridor blau). (5) Tab. 3 Wohnbauten MFH 5-6 Geschosse: die Sprinkler-Werte
+  R60(3) / EI60(2)(3) fehlten ganz, obwohl fuer 4 Geschosse beide Konzepte gefuehrt wurden — und
+  gerade dort liegt der holzrelevante Unterschied (Sprinkler weiss, baulich grau). (6) Tab. 3 und
+  Tab. 4 decken die Spalten 5-6 und 7-8 fuer drei Nutzungszeilen gar nicht ab (Verkaufsgeschaefte
+  <=1200 m2, Landwirtschaft, EFH/REFH) — 'durchgehend' war dort unbelegt. (7) Tab. 3 Zeile
+  Beherbergungsbetriebe [b] Hotels fehlte in den Eckwerten vollstaendig, obwohl sie den fuer den
+  Holzbau entscheidenden Konzeptunterschied traegt (baulich ab 2 Geschossen blau, Sprinkler bis 3
+  Geschosse holzmoeglich). Nebenbefunde: die Zeilen Industrie q>1000/unbekannte Nutzung, grosse
+  Personenbelegung/Verkauf [c] und Parkhaeuser fehlten in den Tab.-3-Eckwerten; die Blau-Formulierung
+  differiert zwischen den drei Tabellen. Alle Befunde vom Hauptprozess am eigenen 300-dpi-Rendering
+  (Praefix lignatec-r8-) zellenweise nachgeprueft. Regressionscheck der Run-32/33/34/35/36-
+  Korrekturstellen: alle bestaetigt, keine Regression. Kein Nulldurchgang.
+  ENDBEDINGUNG DES VORRANG-AUFTRAGS NICHT ERFUELLT: die Quelle ist NICHT ausgereizt — die
+  Methodenumstellung hat in zwei viermal bzw. fuenfmal bestaetigten Tabellen sofort sieben
+  Kernbefunde erzeugt. Damit bestaetigt sich die Run-36-Lehre ein drittes Mal, und die
+  Rueckstufung dieses Tasks auf Ereignis-Trigger wird ausdruecklich NICHT vorgeschlagen.
+  Vorherige Runde (SIEBTE, 260729, Run 36): BEANSTANDET mit 7 Befunden
   — Trendbruch nach vier Runden mit je 1 Befund. Der Agent hat Tab. 5 erstmals RECHNERISCH
   aufgenommen (Median-RGB je Zellbox ueber alle 10 Nutzungszeilen x 29 Spalten, Klassierung
   blau/grau/weiss) statt sie nur visuell zu lesen — daraus die drei Kernbefunde 1-3, die alle
@@ -41,7 +71,7 @@ status: "speculative (SIEBTE unabhaengige Refuter-Runde 260729, Run 36: BEANSTAN
   EFH/REFH-Ausnahme), Run 32 1 Befund (nach 17 in Runde 2), Run 30/31 BEANSTANDET mit
   vielen/17 Befunden. Unveraendert: Aktualitaets-Vorbehalt gegen VKF 2015 bleibt bestehen, da die
   Quelle von 2005 ist.)"
-last_updated: 2026-07-29
+last_updated: 2026-07-30
 links: [[REGISTER]], [[vkf-ah-1001-15-wohnbauten]]
 ---
 
@@ -200,6 +230,13 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
   Räume unterschiedlicher Nutzung/Brandgefahr. Feuerwiderstand brandabschnittbildender Bauteile
   mindestens 30 Minuten; Durchgänge/Öffnungen mit Brandschutzabschlüssen (min. 30 Min.)
   abzuschliessen.
+- **Farbkodierung Tabelle 3 (Legende S. 9)** — fünf Einträge, für die Anwendung zentral und in
+  Runde 8 (260730) erstmals erfasst: **orange** = Nutzungen gemäss Brandschutzrichtlinien VKF ·
+  **gelb** = Weitere Nutzungen (beides nur die Nutzungsspalte links) · **weiss** = Holzbauteile ·
+  **grau** = Holzbauteile beidseitig nicht brennbar verkleidet · **blau** = Keine Holzbauweise als
+  Standardkonzept. ACHTUNG: Diese Legende gilt NUR für Tabelle 3. Tabelle 4 und Tabelle 5 führen
+  **abweichende** Legenden mit teils anderer Bedeutung derselben Farbe (siehe dort) — die
+  Farbbedeutung darf nicht von einer Tabelle auf die andere übertragen werden.
 - **Tabelle 3 «Tragwerke, brandabschnittbildende Wände und Decken» (S. 8-9)**: Matrix nach
   Geschosszahl über Terrain in sieben Spalten (1 und oberstes Geschoss · 2 «bis 600 m² bb / bis
   1200 m² nbb»⑤ · 2 «über 600 m² bb / über 1200 m² nbb»⑤ · 3 · 4 · 5-6 · 7-8 ohne Hochhäuser;
@@ -220,13 +257,42 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
   - Wohnbauten MFH 3 Geschosse: Tragwerk R30 (baulich)/Mindestkantenabmessung (Sprinkler),
     Brandabschnitt EI30. Wohnbauten MFH 4 Geschosse: Tragwerk R60 (baulich)/R30 (Sprinkler);
     Brandabschnitt EI60② (baulich)/EI30② (Sprinkler).
-  - Wohnbauten MFH 5-6 Geschosse: Tragwerk R60/EI30(nbb)③ (baulich), Brandabschnitt
-    EI60/EI30(nbb)③. Wohnbauten MFH 7-8 Geschosse: Tragwerk R60(nbb), Brandabschnitt
-    EI60(nbb).
-  - Beherbergungsbetriebe (Krankenhäuser): ab 2 Geschossen R60(nbb)/EI60(nbb) durchgehend bis
-    8 Geschosse (Standardkonzept blau hinterlegt = keine Holzbauweise als Standardkonzept).
-  - Wohnbauten EFH/REFH: durchgehend «Keine Anforderung» bzw. REI90 (Anmerkung ①, als
-    Brandmauer in Holzbauweise auf der Parzellengrenze bei Reiheneinfamilienhäusern).
+  - Wohnbauten MFH 5-6 Geschosse: **baulich** Tragwerk R60/EI30(nbb)③, Brandabschnitt
+    EI60/EI30(nbb)③ (beide Zellen **grau** = Holzbauteile beidseitig nicht brennbar verkleidet);
+    **Sprinkler** Tragwerk R60③, Brandabschnitt EI60②③ (beide Zellen **weiss** = Holzbauteile
+    ohne Verkleidungsauflage). Das Sprinklerkonzept ist bei 5-6 Geschossen also die deutlich
+    holzfreundlichere Variante — die Sprinkler-Werte fehlten bis Runde 8 (260730) ganz, obwohl
+    sie für 4 Geschosse aufgeführt waren.
+    Wohnbauten MFH 7-8 Geschosse: Tragwerk R60(nbb), Brandabschnitt EI60(nbb), beide **blau**
+    (keine Holzbauweise als Standardkonzept) und über beide Konzepte zusammengefasst.
+  - Beherbergungsbetriebe [a] (Krankenhäuser): **schon in der Spalte «1 und oberstes Geschoss»
+    ist der Brandabschnitt EI60(nbb) und blau**; lediglich das Tragwerk trägt dort «Keine
+    Anforderung» (weiss). Ab 2 Geschossen sind Tragwerk UND Brandabschnitt durchgehend bis 8
+    Geschosse R60(nbb)/EI60(nbb) und blau, für beide Konzepte identisch (Zellen zusammengefasst).
+    Die frühere Formulierung «ab 2 Geschossen … durchgehend» setzte den Beginn der Blau-Zone
+    eine Spalte zu spät an (Refuter-Korrektur 260730 Runde 8, rechnerische Zellaufnahme).
+  - Beherbergungsbetriebe [b] (Hotels) — bis Runde 8 (260730) in den Eckwerten gar nicht
+    erfasst, praktisch aber die entscheidende Zeile für Holzbau: Spalte «1 und oberstes
+    Geschoss» Tragwerk «Keine Anforderung», Brandabschnitt EI30 (beide weiss). **Baulich** ab
+    2 Geschossen R60(nbb)/EI60(nbb) und blau — Holzbauweise als Standardkonzept damit bereits
+    ab 2 Geschossen ausgeschlossen. **Sprinkler** dagegen bis und mit 3 Geschossen holzmöglich:
+    Tragwerk R30④ (weiss), Brandabschnitt EI30(nbb)④ (grau = beidseitig nicht brennbar
+    verkleidet); erst ab 4 Geschossen blau.
+  - Industrie-/Gewerbebauten q > 1000 MJ/m² gemeinsam mit «Bauten mit unbekannter Nutzung»:
+    baulich bereits ab der Spalte «2 über 600 m²» blau, im Sprinklerkonzept erst ab 4 Geschossen
+    (ergänzt 260730 Runde 8).
+  - Bauten mit Räumen grosser Personenbelegung / Verkaufsgeschäfte [c]: in **beiden** Konzepten
+    ab 3 Geschossen durchgehend blau (ergänzt 260730 Runde 8).
+  - Parkhäuser/Einstellräume: baulich ab 5-6 Geschossen blau, im Sprinklerkonzept erst ab 7-8
+    Geschossen (ergänzt 260730 Runde 8).
+  - Wohnbauten EFH/REFH: «Keine Anforderung» (Tragwerk) bzw. REI90① (Brandabschnitt), weiss,
+    über alle vorhandenen Spalten und nur eine Konzeptzeile (Anmerkung ①: als Brandmauer in
+    Holzbauweise auf der Parzellengrenze bei Reiheneinfamilienhäusern).
+  - **Abdeckungsgrenze der Tabelle (Refuter-Befund 260730 Runde 8)**: für die drei untersten
+    Nutzungszeilen «Verkaufsgeschäfte ≤ 1200 m²/≤ 100 P», «Landwirtschaftliche Bauten» und
+    «Wohnbauten EFH/REFH» endet die Matrix nach der Spalte «4»; für 5-6 und 7-8 Geschosse
+    existieren dort **keine Zellen**. Aussagen dieser Zeilen dürfen nicht als «durchgehend bis
+    8 Geschosse» gelesen werden — die Quelle trifft dort schlicht keine Aussage.
   - Einzelne Tabellenwerte (insbesondere in den Spalten 5-6 und 7-8 Geschosse sowie
     Fussnoten ②③④⑤) sind im Scan teils sehr klein/kontrastarm gedruckt; für die exakte
     Zellwert-Verifikation eines konkreten Falls ist Tabelle 3 im Original (S. 8-9) nachzuschlagen,
@@ -334,9 +400,24 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
   Beläge von Treppenstufen sind je nach Nutzung von Bauten/Anlagen brennbare Materialien
   zulässig.
 
+- **Farbkodierung Tabelle 4 (Legende S. 13)** — **abweichend von Tabelle 3**, mit ZWEI
+  Grautönen (erstmals erfasst 260730, Runde 8): **orange** = Nutzungen gemäss
+  Brandschutzrichtlinien VKF · **gelb** = Weitere Nutzungen · **hellgrau** = Holzbauteile im
+  Korridor (d.h. fluchtwegseitig) nicht brennbar verkleidet · **dunkelgrau** = Holzbauteile
+  beidseitig nicht brennbar verkleidet · **blau** = Keine Holzbauteile als Standardkonzept.
+  Eine eigene weisse Legendenzeile «Holzbauteile» wie in Tabelle 3 gibt es hier nicht.
+  **Die beiden Grautöne sind die grafische Kodierung der Schrägstrich-/Bindestrich-Notation**:
+  dunkelgrau trägt durchgängig die Schrägstrich-Werte (REI60/EI30(nbb), EI60/EI30(nbb)) =
+  beidseitig verkleidet, hellgrau durchgängig die Bindestrich-Werte (EI30-nbb,
+  EI60-EI30(nbb)) = nur fluchtwegseitig verkleidet. Damit lässt sich die Notation einer Zelle
+  unabhängig von der Zeichenerkennung an der Feldfarbe ablesen — die Run-32/33-Korrektur zum
+  Korridorwert Wohnbauten MFH 5-6 Geschosse ist auf diesem zweiten, methodisch unabhängigen
+  Weg bestätigt.
 - **Tabelle 4 «Fluchtwege: Treppenhaus und Korridor» (S. 12-13)**: Matrix analog Tabelle 3
   (gleiche Geschossstufen/Nutzungen), je Konzept Baulich/Sprinkler mit Feuerwiderstand
-  Treppenhaus und Korridor. Repräsentative Eckwerte:
+  Treppenhaus und Korridor. Dieselbe Abdeckungsgrenze wie Tabelle 3: für «Verkaufsgeschäfte
+  ≤ 1200 m²/≤ 100 P», «Landwirtschaftliche Bauten» und «Wohnbauten EFH/REFH» endet die Matrix
+  nach der Spalte «4» (Befund 260730 Runde 8). Repräsentative Eckwerte:
   - Wohnbauten MFH bis 3 Geschosse: Treppenhaus durchgehend REI60/EI30(nbb) (Spalte «1 und
     oberstes Geschoss» trägt nur den Fussnotenverweis ⑥), Korridor durchgehend EI30-nbb.
     REI60(nbb) beim Treppenhaus erst ab 4 Geschossen.
@@ -350,11 +431,21 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
     dort schon blau (Refuter-Korrektur 260729 Run 36: die frühere Formulierung «Erst bei 7-8
     Geschossen: Treppenhaus REI60(nbb), Korridor EI60(nbb)» widersprach der zwei Zeilen zuvor
     korrekt festgehaltenen Aussage; am Original S. 13 nachgeprüft).
-  - Beherbergungsbetriebe (Krankenhäuser): durchgehend EI60(nbb)/REI60(nbb) (Standardkonzept
-    ohne Holzbauweise, blau hinterlegt).
-  - Wohnbauten EFH/REFH: «Keine Anforderung» durchgehend (Fussnote ①: bei Einfamilienhäusern
-    keine Anforderung an den Feuerwiderstand von raumabschliessenden Bauteilen gegenüber
-    Fluchtwegen).
+  - Beherbergungsbetriebe [a] (Krankenhäuser): ab 2 Geschossen durchgehend Treppenhaus
+    REI60(nbb) und Korridor EI60(nbb), beide blau, für beide Konzepte identisch. **In der
+    Spalte «1 und oberstes Geschoss» gilt das nicht**: dort trägt das Treppenhaus nur den
+    Fussnotenverweis ⑥ (weiss, kein Feuerwiderstandswert), während der Korridor bereits
+    EI60(nbb) und blau ist. Die frühere Formulierung «durchgehend» überging diese erste Spalte
+    (Refuter-Korrektur 260730 Runde 8) — dieselbe Besonderheit, die das Destillat bei den
+    Wohnbauten MFH korrekt festhält.
+  - Beherbergungsbetriebe [b] (Hotels): baulich ab 2 Geschossen durchgehend blau; im
+    Sprinklerkonzept bis und mit 3 Geschossen **dunkelgrau** in Treppenhaus UND Korridor
+    (beidseitig nicht brennbar verkleidet, also Holzbauteile noch möglich), erst ab 4
+    Geschossen blau (ergänzt 260730 Runde 8).
+  - Wohnbauten EFH/REFH: «Keine Anforderung ①» über alle vorhandenen Spalten, weiss, nur eine
+    Konzeptzeile (Fussnote ①: bei Einfamilienhäusern keine Anforderung an den Feuerwiderstand
+    von raumabschliessenden Bauteilen gegenüber Fluchtwegen). Vorhanden sind für diese Zeile
+    nur die Spalten bis «4» (siehe Abdeckungsgrenze oben).
   - Fussnote ⑥: Das Treppenhaus hat im obersten Geschoss den gleichen Feuerwiderstand zu
     gewährleisten wie in den darunterliegenden Geschossen. Übrige Fussnoten ②③④⑤ analog
     Tabelle 3.
@@ -382,6 +473,17 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
   (Sichtbare Oberfläche) sowie Wandverkleidung/Deckenverkleidung/Bodenbelag Korridor-Treppenhaus
   (Fluchtwege) und Flachdach/Steildach/Aussenwand/Innenwand/Decke (Dämmschicht/Zwischenschicht),
   unterteilt nach Tragwerk bb (brennbar) oder nbb (nicht brennbar).
+  - **Legende Tabelle 5 (S. 15) — die dritte, wiederum abweichende Legende des Hefts**
+    (vollständig erfasst 260730, Runde 8): **weiss** = Anwendung von Holz (bzw. brennbaren
+    Baustoffen) mit BKZ ≥ 4.2 · **grau** = die detaillierten Anforderungen und möglichen
+    Schichtaufbauten sind in der Brandschutzrichtlinie VKF «Verwendung brennbarer Baustoffe»[1]
+    geregelt; Anwendung von Holz nur unter bedingten Auflagen, beispielsweise raumseitige
+    Abdeckung, feuerwiderstandsfähige Abdeckung, nicht brennbare Abdeckung, schwerbrennbare
+    Baustoffe BKZ ≥ 5.1, Flächenbegrenzung, konstruktive oder technische Brandschutzmassnahmen ·
+    **blau** = Keine Anwendung von Holz (bzw. brennbaren Baustoffen) im Rahmen eines
+    Standardkonzeptes. **Grau bedeutet hier also etwas anderes als in Tabelle 3 und Tabelle 4**
+    (dort: beidseitig bzw. fluchtwegseitig nicht brennbar verkleidet) — die drei Tabellen sind
+    farblich nicht kompatibel und dürfen nicht übereinander gelesen werden.
   - Blau markierte Felder = «Keine Anwendung von Holz (bzw. brennbaren Baustoffen) im Rahmen
     eines Standardkonzeptes» (Legende S. 15) — betrifft in ALLEN Nutzungszeilen AUSSER Wohnbauten
     EFH/REFH (dort durchgehend keine farbig markierten Felder, freie Holzanwendung, Refuter-
@@ -668,3 +770,71 @@ aktuellere Lignum-Publikation zum Holzbau-Brandschutz abzugleichen.
     bei null, die verbleibenden Einzelbefunde betreffen ausschliesslich Rand-/Fundstellenpräzision
     (Legenden-Vollständigkeit, jetzt Seitenzahl-Zuordnung einer Grafik), nicht mehr die technischen
     Kernaussagen der drei Tabellen oder der acht Axonometrien.
+
+- **30.07.2026, Run 38 (achte Runde)** — Vorrang-Auftrag Raphaels vom 29.07.2026, ausgeführt vom
+  Hauptprozess selbst (keine Refuter-Agenten). Methode: `pdftoppm -r 300 -png` mit
+  aufgabenspezifischem Präfix `lignatec-r8-` (Methodik-Pflicht 5), Gitterdetektion über
+  Dunkelpixel-Projektion, danach **Median-RGB je Zellbox** (18 % vertikaler / 10 % horizontaler
+  Innenabstand) und Klassierung gegen die **am Original gemessenen Legenden-Swatches** jeder
+  einzelnen Tabelle. Verdikt: **BEANSTANDET, 7 Kernbefunde + 4 Nebenbefunde**.
+  - **Warum diese Runde nötig war**: die rechnerische Aufnahme war bis dahin **nur auf Tabelle 5**
+    angewandt worden. Tabelle 3 und Tabelle 4 galten nach vier bzw. fünf Runden als bestätigt —
+    aber geprüft worden war jeweils nur, was das Destillat *behauptet*, nie die Tabelle als Ganzes.
+    Genau diese Asymmetrie hatte in Tabelle 5 (Run 36) drei Kernbefunde erzeugt.
+  - **Umfang der Aufnahme**: beide Tabellen vollständig — je 10 Nutzungszeilen × 2 Konzeptzeilen
+    (Baulich/Sprinkler) × 7 Geschossgruppen × 2 Unterspalten. Die Spaltengruppen wurden an der
+    Kopfzeile selbst nachgezählt (7 Gruppen: 1+oberstes · 2 bis 600 · 2 über 600 · 3 · 4 · 5-6 ·
+    7-8) und **nicht** aus dem Destillat übernommen; das Destillat lag hier richtig.
+  - **Kernbefund 1 (Legenden)**: Tabelle 3 und Tabelle 4 tragen je eine eigene, im Destillat
+    bisher nirgends wiedergegebene Legende, und die Farbbedeutungen weichen zwischen den drei
+    Tabellen ab. Tab. 3: weiss = Holzbauteile, grau = Holzbauteile beidseitig nicht brennbar
+    verkleidet, blau = Keine Holzbauweise als Standardkonzept. Tab. 4: hellgrau = im Korridor
+    (fluchtwegseitig) nicht brennbar verkleidet, dunkelgrau = beidseitig nicht brennbar
+    verkleidet, blau = Keine Holzbauteile als Standardkonzept. Tab. 5: weiss = Holz mit BKZ ≥ 4.2,
+    grau = nur unter bedingten Auflagen, blau = keine Anwendung von Holz. Da das Destillat allein
+    die Tab.-5-Bedeutung führte, lud es dazu ein, «grau» in Tab. 3/4 als «bedingte Auflagen» statt
+    als konkrete Verkleidungsanweisung zu lesen. Alle drei Legenden sind jetzt erfasst und
+    gegeneinander abgegrenzt.
+  - **Kernbefund 2 (Notationskodierung)**: die zwei Grautöne in Tab. 4 sind die grafische
+    Kodierung der Schrägstrich-/Bindestrich-Notation — dunkelgrau trägt durchgängig
+    Schrägstrich-Werte (REI60/EI30(nbb)), hellgrau durchgängig Bindestrich-Werte (EI30-nbb,
+    EI60-EI30(nbb)). Damit ist die Run-32/33-Korrektur (Wohnbauten MFH 5-6, Korridor baulich mit
+    Schrägstrich, Sprinkler mit Bindestrich) erstmals **methodisch unabhängig** bestätigt: baulich
+    dunkelgrau, Sprinkler hellgrau. Keine Regression.
+  - **Kernbefund 3 (Tab. 3, Beherbergungsbetriebe [a])**: in der Spalte «1 und oberstes Geschoss»
+    ist der Brandabschnitt bereits EI60(nbb) und blau; nur das Tragwerk trägt dort «Keine
+    Anforderung». Die Blau-Zone beginnt bei 1 Geschoss, nicht bei 2. Gleiche Fehlerwurzel wie die
+    Tab.-5-Kernbefunde aus Run 36 (Verallgemeinerung eines Spaltenblocks auf die ganze Zeile).
+  - **Kernbefund 4 (Tab. 4, Beherbergungsbetriebe [a])**: «durchgehend EI60(nbb)/REI60(nbb)»
+    trifft die erste Spalte nicht — dort trägt das Treppenhaus nur den Fussnotenverweis ⑥ (weiss),
+    der Korridor dagegen EI60(nbb) blau. Für die Zeile Wohnbauten MFH hielt das Destillat genau
+    diese Besonderheit fest, für [a] nicht.
+  - **Kernbefund 5 (Tab. 3, Wohnbauten MFH 5-6)**: die Sprinkler-Werte R60③ (Tragwerk) und
+    EI60②③ (Brandabschnitt) fehlten ganz; das Destillat nannte nur die baulichen Werte, während
+    es für 4 Geschosse beide Konzepte führt. Praktisch folgenreich: die Sprinkler-Zellen sind
+    **weiss** (Holzbauteile ohne Verkleidungsauflage), die baulichen **grau** (beidseitig nicht
+    brennbar verkleidet) — der Konzeptentscheid verändert bei 5-6 Geschossen den Holzbau
+    unmittelbar.
+  - **Kernbefund 6 (Abdeckungsgrenze beider Tabellen)**: für «Verkaufsgeschäfte ≤ 1200 m²/≤ 100 P»,
+    «Landwirtschaftliche Bauten» und «Wohnbauten EFH/REFH» enden Tab. 3 und Tab. 4 nach der Spalte
+    «4»; für 5-6 und 7-8 Geschosse existieren dort keine Zellen. Die Destillat-Formulierung
+    «durchgehend» bei EFH/REFH suggerierte eine Aussage bis 8 Geschosse, die die Quelle nicht
+    trifft.
+  - **Kernbefund 7 (Tab. 3, Beherbergungsbetriebe [b] Hotels)**: die Zeile fehlte in den Eckwerten
+    vollständig, obwohl sie den für einen Holzbau-Entscheid zentralen Konzeptunterschied trägt —
+    baulich ab 2 Geschossen blau, im Sprinklerkonzept bis und mit 3 Geschossen holzmöglich
+    (R30④ weiss / EI30(nbb)④ grau).
+  - **Nebenbefunde**: die Tab.-3-Zeilen «Industrie-/Gewerbebauten q > 1000 MJ/m² / Bauten mit
+    unbekannter Nutzung», «Bauten mit Räumen grosser Personenbelegung / Verkaufsgeschäfte [c]» und
+    «Parkhäuser/Einstellräume» fehlten in den Eckwerten (jetzt ergänzt); die Blau-Formulierung
+    differiert zwischen den drei Tabellen («Keine Holzbauweise» / «Keine Holzbauteile» / «Keine
+    Anwendung von Holz (bzw. brennbaren Baustoffen) im Rahmen eines Standardkonzeptes»).
+  - **Bestätigt ohne Befund**: Spaltenstruktur beider Tabellen (7 Geschossgruppen, selbst
+    nachgezählt); Tab. 3 Wohnbauten MFH Spalten 1+oberstes/2/3/4/7-8 sämtliche Werte; Tab. 4
+    Wohnbauten MFH sämtliche Werte inkl. der Run-32/33-Korrekturstelle; Tab. 4 Parkhäuser-Zeile
+    Zelle für Zelle; die zehn Nutzungszeilen und ihre Reihenfolge in beiden Tabellen; die Zeile
+    «Industrie q>1000» gemeinsam mit «Bauten mit unbekannter Nutzung» (Run-36-Korrektur); Tab. 5
+    Zeile Wohnbauten EFH/REFH farblos (Run-33-Korrektur).
+  - **Endbedingung des Vorrang-Auftrags NICHT erfüllt**: die Quelle ist nicht ausgereizt. Eine
+    Rückstufung auf Ereignis-Trigger wird ausdrücklich nicht vorgeschlagen. Kein Nulldurchgang,
+    `status` bleibt `speculative`.
