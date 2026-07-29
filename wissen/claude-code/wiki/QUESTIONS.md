@@ -4,6 +4,16 @@ Luecken und ungeklaerte Fragen. Wird beim Ingestieren neuen Materials abgearbeit
 
 ## Offen (29.07.2026)
 
+0a. **Quelle der «Methode SPW» nicht identifiziert.** Kanal «bettercreating…» (URL
+   abgeschnitten), Referent «Simon» (Nachname unbekannt), Kuerzel SPW nur als Wasserzeichen.
+   Zu klaeren bei Gelegenheit: Video-URL fuer sauberen Quellenverweis in
+   [[methode-spw-wissensbasis]]; danach ggf. Transkript nach raw/.
+
+0b. **Offene Kandidaten aus dem Ordner `Agenten`** (siehe [[methoden-register]]):
+   Drei-Marken-/Website-Strategie → Input fuer `synergie-orchestrator`? Baueingabe-
+   Vollstaendigkeitscheck + QA-Trace-Matrix als Skill-Kandidaten? Ordner `Prompts`
+   archivieren? Entscheid Raphael.
+
 1. **Enterprise-Policy-Ebene ungenutzt.** Die Lecture nennt
    `/Library/Application Support/ClaudeCode/CLAUDE.md` und `policies.json` als geteilte
    Enterprise-Schicht. Im Hub existiert beides nicht (geprueft 29.07., beide Stationen).

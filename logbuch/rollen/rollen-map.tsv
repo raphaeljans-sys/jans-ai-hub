@@ -69,6 +69,7 @@ konversations-log	task	maintainer	Gedaechtnis-Pflege
 logbuch-radar	task	maintainer	Fristen-/Lage-Radar
 mahnwesen-verzugscheck	task	maintainer	Betrieb
 masterclass-woche1	task	sweeper	Harness-Review
+methoden-radar	task	maintainer	Aufsicht ueber den Methoden-Layer (Register-Verifikation); destilliert nur bei neuem Material
 normen-training-nacht	task	prototyper	Erzeugt neues Wissen
 spec-training	task	prototyper	Erzeugt neues Wissen
 syn02-spec-anstoss	task	grower	Geschaeftsmodell-Anstoss

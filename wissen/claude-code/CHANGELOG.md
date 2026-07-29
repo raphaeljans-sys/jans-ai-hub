@@ -2,6 +2,25 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-07-29 — Methoden-Register + SPW-Destillat + Lern-Loop `methoden-radar`
+
+- Vollanalyse des OneDrive-Ordners `03 Prompteingaben` (alle 9 Unterordner, Auftrag
+  Raphael): Spec, Anthropic-Lecture und Archetypen waren bereits implementiert;
+  «Methode SPW» erwies sich als die Video-Blaupause des bestehenden Wissens-Layers
+  (inkl. wortgleicher 7 Audits im Skill `wissenscheck`), war aber nirgends als Quelle
+  registriert.
+- `wiki/methode-spw-wissensbasis.md` neu — Destillat der 30 Screenshots + Abgleich
+  Video ↔ Hub-Implementation (kein inhaltliches Delta gefunden).
+- `wiki/methoden-register.md` neu — kanonisches Register aller Quellen aus
+  `03 Prompteingaben` mit Destillat-/Implementations-/Trainingsstand und
+  Verifikations-Rotation; 3 offene Kandidaten fuer Raphael erfasst (Drei-Marken-
+  Strategie, Baueingabe-Check/Trace-Matrix, Ordner Prompts).
+- `raw/_INGESTED.md` neu (fehlte in dieser KB) — Lecture-Slides + externe Quellen.
+- Lern-Loop `methoden-radar` eingerichtet: `scripts/methoden-scan.sh` (deterministischer
+  Delta-Scan) + Scheduled Task woechentlich Mo 21:00. Konzept:
+  `docs/konzepte/260729-Methoden-Lern-Loop/`.
+- INDEX + QUESTIONS nachgefuehrt.
+
 ## 2026-07-29 — KB angelegt
 
 - KB `wissen/claude-code/` neu angelegt (Ordner `raw/ wiki/ outputs/`, `CLAUDE.md`,

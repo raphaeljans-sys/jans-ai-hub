@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.07.2026 02:15:57
+Stand: 29.07.2026 02:26:03
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 29.07.2026 02:15:57
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 159b7127 nas-selfcommit: 3 Datei(en) 2026-07-29 02:15
+- 83f03e82 Rollen-Taxonomie: Register, Rollen-Bilanz, Nutzungs-Radar (Grower), Schutzmechanik-Selbsttest (Maintainer), Rule + Konzept
