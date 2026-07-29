@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.07.2026 07:48:00
+Stand: 29.07.2026 07:58:05
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 29.07.2026 07:48:00
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 3c4f4f9d nas-selfcommit: 2 Datei(en) 2026-07-29 07:45
+- 7372b368 ag-gruendung-monitor 29.07.: nichts Neues, UBS 32 Tage still, Hebel UBS-Termin 31.07.

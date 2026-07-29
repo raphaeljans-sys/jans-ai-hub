@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.07.2026 07:45:12
+Stand: 29.07.2026 07:55:21
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:35)
@@ -13,4 +13,4 @@ Stand: 29.07.2026 07:45:12
 - 3 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- 3c4f4f9d nas-selfcommit: 2 Datei(en) 2026-07-29 07:45
+- 7372b368 ag-gruendung-monitor 29.07.: nichts Neues, UBS 32 Tage still, Hebel UBS-Termin 31.07.
