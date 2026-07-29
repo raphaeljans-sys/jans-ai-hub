@@ -1,19 +1,23 @@
 ---
 name: PROGRAMM
-beschreibung: Ingest-Programm fuer projekt-lessons. Erschliesst das Erfahrungswissen aus abgeschlossenen Projektordnern im NAS-Archiv Lauf um Lauf ueber drei getrennte Stufen (Destillat, Kompilat, adversarische Verifikation) und verdichtet es zu belegten Lesson-Artikeln.
+beschreibung: Ingest-Programm fuer projekt-lessons. Erschliesst das Erfahrungswissen aus JANS-Projekten Lauf um Lauf ueber drei getrennte Stufen (Destillat, Kompilat, adversarische Verifikation) und verdichtet es zu belegten Lesson-Artikeln. Pilot: 2619 Kinderspital Zuerich (laufendes Mandat).
 frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Vertiefung)
 frequenz_phase3: woechentlich (Festigung)
 scheduled_task: projekt-lessons-ingest (NOCH NICHT REGISTRIERT — siehe «Freigabe»)
-last_updated: 2026-07-29 (angelegt, Lauf 0)
+last_updated: 2026-07-29 (angelegt, Lauf 0; Pilot 2619 KISPI gesetzt)
 ---
 
-# Ingest-Programm — Projekt-Lessons aus dem NAS-Projektarchiv
+# Ingest-Programm — Projekt-Lessons
 
-**Ziel:** Das Erfahrungswissen abgeschlossener JANS-Projekte — Schlussbesprechungen,
-Mängelrückblicke, Nachtragsstreite, Terminverzüge, Behördenverfahren — aus den
-Projektordnern in belegte, verlinkte Lesson-Artikel überführen, sodass Projekt N von den
-Projekten 1…N-1 profitiert.
+**Ziel:** Das Erfahrungswissen aus JANS-Projekten — QS-Korrekturen, Auflagenbereinigung,
+Koordinationsentscheide, Nachträge, Mängel, Behördenverfahren — in belegte, verlinkte
+Lesson-Artikel überführen, sodass Projekt N von den Projekten 1…N-1 profitiert.
+
+Das gilt für **abgeschlossene wie laufende** Mandate: bei abgeschlossenen liefert die
+Schlussphase die dichteste Quelle, bei laufenden entsteht das Wissen in der Ausführung —
+und wirkt dort sofort zurück. Der Pilot (2619 KISPI) ist ein laufendes Mandat; was das
+für die Suche bedeutet, steht im nächsten Abschnitt.
 
 ## Warum dieser Loop
 
@@ -28,37 +32,82 @@ Bauleitungs-Frage wird weiterhin aus dem Gedächtnis beantwortet. Dieser Loop f�
 aus dem realen JANS-Bestand — dasselbe Problem und dieselbe Lösung wie beim
 `grobkosten`-Loop (angelegt 25.07.2026).
 
-## Quellenlage — NOCH NICHT VERIFIZIERT
+## Pilot: 2619 Kinderspital Zürich (Entscheid Raphael, 29.07.2026)
 
-**Wichtig:** Dieses Programm wurde ohne gemountetes NAS geschrieben. Die folgenden Pfade
-sind **Kandidaten**, keine Tatsachen (Rule `identifikatoren-verifizieren`). Der erste Lauf
-verifiziert sie und **trägt das Ergebnis hier nach**, mit Datum — erst dann gilt dieser
-Abschnitt als belegt.
+**Der Pilot ist ein LAUFENDES Mandat, nicht ein abgeschlossenes Projekt.** Das ist bewusst
+so gewählt und ändert, wonach gesucht wird: es gibt keine Schlussbesprechung und keine
+Schlussabrechnung, aus denen sich Lessons ablesen liessen. Stattdessen entsteht das
+Erfahrungswissen laufend — in QS-Korrekturen, Auflagenbereinigung, Fachplaner-Koordination
+und Unternehmer-Korrespondenz der Ausführungsphase.
 
-Zu prüfende Kandidaten:
+Warum trotzdem der richtige Pilot:
+
+- Er trifft den KB-Schwerpunkt «Bauen im Betrieb / Healthcare» (Fokus-Bereich 2) direkt.
+- Der bisher **einzige** Artikel in `wiki/` ist bereits ein KISPI-Artikel
+  (`kispi-lbw-rohdichte-800.md`, 23.07.2026) — die KB hat hier schon Substanz und einen
+  belegten Qualitätsmassstab (siehe «Referenz-Artikel» unten).
+- Lessons aus einem laufenden Mandat wirken **sofort** auf dasselbe Mandat zurück, statt
+  erst auf ein künftiges Projekt.
+
+Risiko, das der erste Lauf im Blick behalten muss: bei laufender Ausführung ist vieles noch
+nicht entschieden. Ein Sachverhalt, der heute wie eine Lesson aussieht, kann nächste Woche
+anders ausgehen. Deshalb im Zweifel `status: speculative` und Eintrag in `QUESTIONS.md`,
+nicht `established`.
+
+### Drei Quellen, nicht eine
+
+| Quelle | Zugriff | Was dort liegt |
+|---|---|---|
+| **Projektordner** | Dateisystem, `.../2619_KINDERSPITAL/` | Laufende Korrespondenz, Pläne, Protokolle, LOS-Dossiers |
+| **Truninger-DS3** | `connectors/truninger-ds3.mjs` (**read-only**, `~/.truninger-ds3.env`) | Bewilligungsverfahren, Submissions-LV der Erstellung, Unternehmerdokumentation |
+| **Mail** | rj@raphaeljans.ch, Gruppe kispi@ | Fachplaner-Abstimmungen, Entscheide, die nirgends abgelegt sind |
+
+Der DS3-Connector ist im Code hart auf lesend beschränkt (einzige erlaubte POST-Anfrage ist
+das Login) — er kann im Projektraum nichts verändern.
+
+### Belegte Pfadmuster
+
+Aus der Beweiskette von `wiki/kispi-lbw-rohdichte-800.md` (dort mit Fundstellen belegt),
+daher hier **verifiziert** und nicht Kandidat:
 
 ```
-/Volumes/daten/04_Buero/02_Projekte/<projekt>/
+02_Korrespondenz/4_Gruners GT Planer/296_7_Brandschutzexperte Ziegel/
+03_BKP/LOS_<nr> <gewerk> <unternehmer>/<nr> 08 Korrespondenz/
+DS3: 33 Bewilligungsverfahren/01_Eingaben
+DS3: 41.2 Dossier Submission/03_Versand/
+DS3: 70 Unternehmerdokumentation/09_Materialdeklaration
 ```
 
-Gesucht sind Dokumente mit **Rückblick-Charakter**, typischerweise in Unterordnern für
-Bauleitung, Protokolle, Abnahme oder Korrespondenz:
+Der Wurzelpfad des Projektordners selbst ist **noch nicht verifiziert** (das NAS war beim
+Anlegen dieses Programms nicht gemountet, Rule `identifikatoren-verifizieren`). Kandidat ist
+`/Volumes/daten/04_Buero/02_Projekte/2619_KINDERSPITAL/`; der erste Lauf prüft ihn und
+trägt den tatsächlichen Pfad hier nach, mit Datum.
+
+### Dokumenttypen — angepasst an ein laufendes Mandat
 
 | Dokumenttyp | Warum wertvoll |
 |---|---|
-| Schlussbesprechung / Projektabschluss | Dichtestes Material — bereits verdichtete Erfahrung |
-| Mängelliste, Abnahmeprotokoll, Garantiefall | Zeigt, was in der Ausführung wiederkehrt |
-| Nachtragsverhandlung, Regierapport-Streit | Ursachen von Kostenabweichungen |
-| Bauprogramm-Revision, Verzugsanzeige | Termin-Lessons |
-| Bauentscheid mit Auflagen, Einsprache-Korrespondenz | Behörden-Lessons |
-| Sitzungsprotokolle der Schlussphase | Koordinations-Lessons |
+| QS-Korrektur / Planvermerk eines Fachplaners | Dichteste Quelle — eine Vorgabe ohne Fundstelle ist immer eine Lesson (vgl. Referenz-Artikel) |
+| Auflagenbereinigung, Behördenkorrespondenz | Behörden-Lessons; Schnittstelle zu KB `auflagebereinigung` |
+| Sitzungs-/Koordinationsprotokoll | Koordinations-Lessons, Schnittstellen Fachplaner |
+| Nachtrag, Regierapport, Ausmass-Differenz | Kosten-Lessons in der Entstehung |
+| Unternehmerdokumentation, Materialdeklaration | Belegt, was tatsächlich verbaut ist — Gegenprobe zu Vorgaben |
+| Etappierungs-/Provisoriumsentscheid | Kern von «Bauen im Betrieb» |
 
 Nicht hierher gehört: Kostenkennwerte (→ KB `grobkosten`), Healthcare-m²-Daten
-(→ Skill `kostenschaetzung`), baurechtliche Grundsatzfragen (→ KB `baurecht`).
-Wenn ein Dokument dorthin gehört, im Inventar mit Verweis vermerken statt destillieren.
+(→ Skill `kostenschaetzung`), baurechtliche Grundsatzfragen (→ KB `baurecht`),
+Norm-Fundstellen und VKF-Kennwerte (→ KB `normen`), Auflagen-Pflichten mit Amt und Frist
+(→ KB `auflagebereinigung`). Wenn ein Dokument dorthin gehört, im Inventar mit Verweis
+vermerken statt destillieren — die Rollen-Matrix zwischen den KBs ist verbindlich.
 
-**Auswahlregel für den Pilot:** ein einziges, **abgeschlossenes** Projekt mit dichter
-Korrespondenz. Nicht das grösste, sondern das am besten dokumentierte.
+### Laufendes Mandat — zwei Zusatzpflichten
+
+- **Rule `projekt-ablage-stand`:** projektgebundene Erzeugnisse gehören in den
+  Projektordner, nicht nur nach `outputs/`. Der Referenz-Artikel führt das unter
+  «Projekt-Ablage» korrekt vor.
+- **Anonymisierung (KB-Regel):** bei einem laufenden Mandat mit namentlich beteiligten
+  Fachplanern und Unternehmern besonders streng — Sachverhalt und Regel festhalten, keine
+  Bewertung von Personen.
 
 ## Stufe 1 — Inventar zuerst (garantiert produktiv)
 
@@ -151,6 +200,23 @@ Backlinks [[artikel-name]] zu verwandten Artikeln setzen.
 
 Nach jedem Artikel: `wiki/INDEX.md` und `wiki/QUESTIONS.md` nachführen.
 
+**Referenz-Artikel — der Massstab:** `wiki/kispi-lbw-rohdichte-800.md` (23.07.2026). Er ist
+das Vorbild für alles, was Stufe B produziert, und zeigt fünf Dinge, die ein Lesson-Artikel
+können muss:
+
+1. **Nummerierte Beweiskette** statt Behauptung — hier fünf Glieder von der QS-Vorgabe über
+   das Erstellungs-LV bis zur Materialdeklaration des Unternehmers.
+2. **Jedes Glied mit vollständigem Fundort**, inklusive DS3-Dateinummer.
+3. **Explizite Negativ-Aussage** («nicht aus dem globalen Brandschutzkonzept») — was geprüft
+   und ausgeschlossen wurde, gehört in den Artikel.
+4. **Cross-KB-Einordnung**: welche Werte sind hier nur *abgeleitet* und werden von einer
+   anderen KB geführt (`normen`, `auflagebereinigung`), sodass eine Korrektur dort
+   nachgezogen werden kann.
+5. **Verallgemeinerbare Lesson als eigener Abschnitt**, mit konkretem Suchpfad fürs nächste
+   Mal — der eigentliche Wert des Artikels.
+
+Ein Artikel, der diese fünf Punkte nicht erfüllt, ist unfertig.
+
 ---
 
 ### Stufe C · Adversarische Verifikation — das eben Geschriebene angreifen
@@ -211,4 +277,13 @@ dazu gehört Raphael, nicht dem Loop.
 
 | Lauf | Datum | Projekte / Dokumente | Neue Artikel | Befunde Stufe C |
 |---|---|---|---|---|
-| 0 | 29.07.2026 | — (Programm angelegt) | — | — |
+| 0 | 29.07.2026 | — (Programm angelegt, Pilot 2619 KISPI gesetzt) | — | — |
+
+**Nächster Schritt (Lauf 1, interaktiv, NAS-Mount erforderlich):**
+
+1. Wurzelpfad `2619_KINDERSPITAL` verifizieren und oben nachtragen.
+2. `training/quellen-inventar.md` anlegen — Projektordner, DS3 und die belegten Pfadmuster
+   sichten, jedes Fundstück mit Status `[ ]`.
+3. **Stufe A auf genau EIN Dokument** anwenden, Destillat nach `raw/` schreiben.
+4. Raphael liest das Destillat gegen das Original: stimmen Zitate und Fundstellen?
+   Erst wenn ja, geht es mit Stufe B und C weiter — vorher wird nicht skaliert.
