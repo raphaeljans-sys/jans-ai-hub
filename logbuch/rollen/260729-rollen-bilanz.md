@@ -55,8 +55,17 @@ Vollauslastung entfernt; das Problem ist nicht die Menge, sondern die Verteilung
 ## 4. Ertrag je Loop
 
 Geliefert = Läufe mit rc=0. Delta Null = Lauf meldet selbst nichts Neues.
-Dateien = im Zielbereich des Loops tatsächlich geänderte Dateien laut git.
-Ein Loop mit vielen Läufen und wenigen Dateien arbeitet im Leerlauf.
+Dateien = geänderte Dateien im Zielbereich des Loops laut git.
+
+Die Dateispalte ist ein **Bereichs-Indikator, kein Urheberschaftsnachweis**.
+Sie zählt alles, was im Zielbereich geändert wurde, unabhängig davon, wer es
+geändert hat. Zwei Folgen, die man kennen muss, sonst liest man die Spalte
+falsch: bei geteiltem Zielbereich (normen-nacht und normen-mini, twin-mail und
+twin-fidelity, wettbewerbs-dna und -nachbrenner) steht bei beiden derselbe Wert,
+er ist nicht aufteilbar und nicht addierbar. Und ein stillgelegter Loop kann
+trotzdem eine hohe Zahl tragen, weil andere im selben Bereich gearbeitet haben.
+
+Verdächtig ist die Kombination: viele Läufe, wenig Stunden, Delta-Null-Meldungen.
 
 | Loop | geliefert | Delta Null | Stunden | Dateien im Zielbereich |
 |---|---|---|---|---|
@@ -83,7 +92,10 @@ Ein Loop mit vielen Läufen und wenigen Dateien arbeitet im Leerlauf.
   Trainings auf dem Mac Mini und alle interaktiven Sitzungen. Die Bilanz bildet
   den automatisierten Dauerbetrieb ab, nicht die Gesamtlast.
 - Das Liefer-Delta zählt geänderte Dateien im Zielbereich eines Loops, nicht
-  deren Wert. Zehn Zeilen Tippfehlerkorrektur zählen wie ein neuer Artikel.
+  deren Wert und nicht deren Urheber. Zehn Zeilen Tippfehlerkorrektur zählen wie
+  ein neuer Artikel, und eine fremde Änderung im selben Ordner zählt mit. Es ist
+  ein Indikator für "im Bereich passiert etwas", nicht für "dieser Loop liefert".
+  Wer Urheberschaft braucht, muss die Loops ihre Commits selbst zeichnen lassen.
 - Loops ohne hinterlegten Zielpfad im Register erscheinen mit "-". Das ist keine
   Null, sondern "nicht gemessen".
 - Delta Null stammt aus dem Selbstbericht des Laufs. Ein Lauf, der abgeschossen

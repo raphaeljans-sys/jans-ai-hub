@@ -100,6 +100,25 @@ launchctl list | grep ch.jans.synctask-runner
 **Wichtig:** Auf dem NAS-Repo NIE git-Befehle ohne `GIT_OPTIONAL_LOCKS=0` und NIE
 schreibende git-Befehle von einer Nicht-Committer-Station (SMB-index.lock-Gefahr).
 
+### 8. Projekt-Vertrauen (Trust) fuer headless Laeufe
+
+Claude Code laedt `.claude/settings.json` und die Projekt-`CLAUDE.md` **nur in einem als
+vertraut hinterlegten Arbeitsverzeichnis**. Fehlt der Eintrag, laeuft ein headless
+`claude -p` ohne Projekt-Berechtigungen und ohne Hub-Kontext weiter — mit rc=0, also
+unsichtbar. Belegt 27.07.2026: `planungsgrundlagen-training` antwortete nach 28 s mit
+Rueckfragen statt zu arbeiten (Details: `rules/betrieb-chronik.md`, Eintrag 260729).
+
+```bash
+bash /Volumes/daten/jans-ai-hub/scripts/trust-check.sh --check
+```
+
+- ✅ Beide Hub-Pfade `OK` (SSD-Klon und NAS), Exit 0
+- ❌ `LUECKE` bei einem Pfad → `bash scripts/trust-check.sh` (setzt es idempotent, mit
+  Backup) oder einmal interaktiv `claude` in dem Verzeichnis starten und den
+  Trust-Dialog bestaetigen
+- ❌ `WARNUNG … Home-Verzeichnis ist als vertraut markiert` → zurueckstellen; ein
+  vertrautes `~` gibt jeder Session von ueberall die vollen Projekt-Berechtigungen
+
 ## Output-Format
 
 Gib einen kompakten Report aus:

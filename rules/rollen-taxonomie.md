@@ -29,6 +29,20 @@ kein Mechanismus fragt, ob das Gebaute je benutzt wird. Die Erstmessung vom
    diskutieren. Die Frage lautet nicht «welchen Loop schalte ich ab», sondern
    «welche Rolle ist überbesetzt».
 
+3b. **Nie Läufe zählen, immer Ertrag.** Ein Lauf ist erst dann Arbeit, wenn er
+   mit rc=0 endet. Fehlstarts (Sekunden, leeres Kontingent, abweisendes Gate)
+   und vom Stall-Killer abgewürgte Hänger gehören getrennt ausgewiesen, nie in
+   dieselbe Summe. Belegt 29.07.2026: von 10'501 Läufen waren 10'017 Fehlstarts
+   à fünf Sekunden, und 17 Hänger verbrannten 20 % der Gesamtzeit. Wer sie
+   mitzählt, misst Betriebsstörungen und nennt sie Auslastung. Dasselbe gilt für
+   jede andere Kennzahl im Hub: zuerst fragen, was der Zähler wirklich zählt.
+
+3c. **Kälte ohne Statuseintrag ist kein Befund.** Ein Fach-Skill, der auf ein
+   reales Projekt wartet, ist zu Recht kalt (Status `anlassgebunden`); ein Skill,
+   dessen Arbeit über einen Agenten läuft, ebenso (`ersetzt`). Nur Kälte ohne
+   solche Erklärung ist zu klären. Ohne diese Unterscheidung meldet der Radar
+   `baurecht` und `werkvertrag` als Karteileichen.
+
 4. **Quoten werden gemessen und berichtet, nie automatisch durchgesetzt.**
    Zielbänder stehen im Konzept. Die Drosselentscheidung bleibt bei Raphael
    (Lehre 25.07.2026: kein eigenmächtiges Drosseln).

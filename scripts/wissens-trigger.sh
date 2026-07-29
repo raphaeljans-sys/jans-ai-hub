@@ -52,7 +52,26 @@ done
 [ -d "$REPO" ] || { echo "NAS nicht gemountet — still beendet."; exit 0; }
 mkdir -p "$STATE_DIR"
 
+# --- Arbeitsverzeichnis: IM Projekt, nicht im Home ------------------------
+# KORREKTUR 29.07.2026: Dieses Script hatte als einziger Feuermechanismus kein `cd`.
+# Die launchd-Jobs setzen kein WorkingDirectory, also startete `claude` im Home-
+# Verzeichnis — und `~` traegt in ~/.claude.json ausdruecklich
+# hasTrustDialogAccepted:false. Folge: weder die 29 Eintraege aus
+# .claude/settings.json noch die Projekt-CLAUDE.md wurden geladen. Belegt im eigenen
+# Log am 27.07.2026 21:52: planungsgrundlagen-training endete nach 28 s mit rc=0 und
+# einer RUECKFRAGE («Could you confirm: 1. Are you intentionally asking me to run this
+# training pass right now …») statt mit Arbeit — der Loop verbuchte es als
+# «1 Lauf ausgeloest». SSD-Klon bevorzugt (dort ist der Trust gesetzt, wie bei
+# vollgas-runner und dispatch-run), NAS nur als Rueckfall.
+WORKDIR="$HOME/Developer/jans-ai-hub"
+[ -d "$WORKDIR/.git" ] || WORKDIR="$REPO"
+cd "$WORKDIR" || { echo "cd $WORKDIR fehlgeschlagen — Abbruch."; exit 3; }
+
 log() { echo "$(date '+%Y-%m-%d %H:%M:%S') [$HOST] $*" | tee -a "$LOG"; }
+
+# Arbeitsverzeichnis protokollieren: ohne diese Zeile blieb unsichtbar, dass die
+# Laeufe ausserhalb des Projekts starteten (siehe Kommentar oben).
+log "Arbeitsverzeichnis: $WORKDIR"
 
 CLAUDE_BIN="${CLAUDE_BIN:-claude}"
 if ! command -v "$CLAUDE_BIN" >/dev/null 2>&1; then

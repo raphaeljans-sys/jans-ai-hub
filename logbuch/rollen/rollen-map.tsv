@@ -38,7 +38,7 @@ machbarkeit-studio	skill	prototyper	Interaktiver Variantenraum	anlassgebunden
 mahnwesen	skill	maintainer	Laufender Debitoren-Betrieb	aktiv
 marketing	skill	grower	Bringt Erzeugtes zu Menschen	ersetzt	agents/linkedin-stratege.md
 massgebendes-terrain	skill	builder	Erzeugt den MT-Nachweis	anlassgebunden
-masterclass	skill	sweeper	Harness-Review, verdichtet Gelerntes	pruefen
+masterclass	skill	sweeper	Harness-Review; nie geladen. Empfehlung 29.07.: BEHALTEN, nicht stilllegen — die Funktion ist faktisch in auto-verbesserungen und wissens-chef gewandert, Sweeper ist aber die zweitschwaechste Rolle. Entscheid Raphael offen	pruefen
 normen	skill	builder	Liefert belegte Fundstellen	aktiv	wissen/normen
 nutzungsstrategie	skill	prototyper	Erzeugt und prueft Nutzungsszenarien	anlassgebunden
 oereb-schwyz	skill	builder	Beschafft den amtlichen Auszug	anlassgebunden
@@ -51,7 +51,7 @@ spec	skill	prototyper	Deckt das wahre Ziel auf, bevor gebaut wird	aktiv	wissen/s
 stockwerkeigentum	skill	builder	Erzeugt Wertquoten/Begruendungsurkunde	anlassgebunden
 studien-generator	skill	builder	Dossier-Engine	anlassgebunden
 synergie-orchestrator	skill	grower	Geschaeftsmodell- und Synergie-Entwicklung	aktiv
-telesales	skill	grower	Kundengewinnung	pruefen
+telesales	skill	grower	Kundengewinnung; nie geladen. Empfehlung 29.07.: BEHALTEN und aktivieren statt stilllegen — Grower ist die schwaechste Rolle des Hub (0.3 h produktiv in 30 Tagen); einen der wenigen Grower-Skills zu streichen verstaerkt genau die Schieflage. Entscheid Raphael offen	pruefen
 tenant-hygiene	skill	maintainer	Tenant-Betrieb	aktiv
 terminplanung	skill	builder	Erzeugt Bauprogramm/Terminplan	aktiv
 twin	skill	sweeper	Fidelity-Gate, veredelt vor Ausgabe	ersetzt	rules/jans-dna.md

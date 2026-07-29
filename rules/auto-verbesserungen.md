@@ -73,6 +73,12 @@ Vorfaelle und die vollstaendigen Inventare.
 - **Parallele Laeufe nur ueber `scripts/multi-claude.sh`** (Worktrees auf der SSD, Instanzzahl
   aus dem real verfuegbaren Speicher; nie Worktrees ueber den SMB-Mount, nie geteilte
   Hub-Inhalte im Worktree editieren).
+- **Jeder automatische Lauf `cd`t ins Projekt und protokolliert sein Arbeitsverzeichnis.**
+  launchd setzt kein `WorkingDirectory` — ohne `cd` startet der Lauf im Home-Verzeichnis,
+  das ausdruecklich **untrusted** ist, und laedt dann WEDER `.claude/settings.json` NOCH
+  die Projekt-CLAUDE.md. Er endet trotzdem mit rc=0. Vertrauen pruefen:
+  `bash scripts/trust-check.sh --check` (Check 8 im `heartbeat`). Das Home-Verzeichnis nie
+  vertrauenswuerdig setzen.
 - **Nie ueber API-Key**, nur Abo-Anmeldung. Vor jeder Blocker-Diagnose zuerst
   `set -a; . "$HOME/.jans-dispatch.env"; set +a` laden.
 

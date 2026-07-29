@@ -181,6 +181,37 @@ automatically or lazily?»). Konzept:
   statt interpretiert.
 - **Gilt fuer:** alle Lern-/Trainings-Loops auf beiden Stationen, ab 27.07.2026.
 
+## 260729 — Ein Lauf ausserhalb des vertrauten Projekts arbeitet ohne Hub-Kontext
+
+- **Der Mechanismus:** Claude Code laedt `.claude/settings.json` (Berechtigungen) und die
+  Projekt-`CLAUDE.md` **nur**, wenn das Arbeitsverzeichnis in `~/.claude.json` unter
+  `projects[<pfad>].hasTrustDialogAccepted: true` steht. Der Eintrag entsteht sonst durch
+  den interaktiven Trust-Dialog — den ein headless `claude -p` nicht beantworten kann. Es
+  meldet dann nur «Ignoring N permissions.allow entries … this workspace has not been
+  trusted» und **arbeitet ohne Projekt-Kontext weiter, mit rc=0**. Ein solcher Lauf ist im
+  Log von einem gesunden nicht zu unterscheiden.
+- **Gemessener Zustand 29.07.2026 (MacBook Pro):** `~/Developer/jans-ai-hub` vertraut ·
+  `/Volumes/daten/jans-ai-hub` **kein Eintrag** · `~` ausdruecklich
+  `hasTrustDialogAccepted: false`.
+- **Der Schaden, belegt:** `wissens-trigger.sh` war der einzige Feuermechanismus **ohne
+  `cd`**, und die launchd-Jobs setzen kein `WorkingDirectory` — die Laeufe starteten also
+  im Home-Verzeichnis. Im eigenen Log am **27.07.2026 21:52**: `planungsgrundlagen-training`
+  endete nach 28 s mit rc=0 und einer RUECKFRAGE («Could you confirm: 1. Are you
+  intentionally asking me to run this training pass right now …») statt mit Arbeit. Der
+  Loop verbuchte es als «1 Lauf ausgeloest». Ohne Projekt-Kontext verstand der Lauf den
+  SKILL.md-Prompt nicht als Auftrag im Hub.
+- **Behoben 29.07.2026:** (a) `wissens-trigger.sh` wechselt neu in den SSD-Klon (NAS als
+  Rueckfall) und protokolliert sein Arbeitsverzeichnis in jeder Zeile — ohne diese Zeile
+  blieb der Fehler unsichtbar. (b) `scripts/trust-check.sh` prueft die Hub-Pfade und setzt
+  fehlendes Vertrauen idempotent (atomar, mit Backup); als Check 8 im Skill `heartbeat`
+  verankert. Das Home-Verzeichnis bleibt bewusst **untrusted** — waere es vertraut,
+  bekaeme jede Session von ueberall die vollen Projekt-Berechtigungen.
+- **Verallgemeinert:** Ein automatischer Lauf muss sein **Arbeitsverzeichnis kennen und
+  protokollieren**. `cd` ist bei einem headless Lauf kein Schoenheitsdetail, sondern
+  entscheidet darueber, ob Berechtigungen und Kontext ueberhaupt geladen werden. Und:
+  rc=0 ist kein Beleg fuer geleistete Arbeit — dieselbe Lehre wie beim Liefer-Delta.
+- **Gilt fuer:** jeden Feuermechanismus auf beiden Stationen, jede neue Automation.
+
 ## 260729 — Auch LESENDE git-Befehle haengen ueber SMB
 
 - **Praezisierung zu Rule 260726:** Die Rule verbietet `commit`/`push`/`pull`/`rebase` ueber

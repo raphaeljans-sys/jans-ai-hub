@@ -63,31 +63,66 @@ maintainer 32 %, prototyper 27 %, builder 23 %, sweeper 10 %, grower 7 %.
 Der Bestand wirkt ausgewogener als erwartet. Die Schieflage liegt nicht darin,
 was gebaut wurde, sondern darin, was arbeitet.
 
-### Verbrauchte Rechenzeit (30 Tage, 10'501 Läufe, 97 Stunden)
+### Lauf-Qualität, und warum die erste Fassung dieser Bilanz falsch war
 
-prototyper 90 %, sweeper 9 %, grower und maintainer zusammen unter 1 %, builder 0 %.
+Die erste Fassung zählte jede ENDE-Zeile als Lauf und jede Sekunde als Rechenzeit
+und kam zur Aussage «10'501 Läufe, 97 Stunden, 90 % Prototyper». Die Nachmessung
+zeigt, dass diese Aussage Betriebsstörungen als Auslastung ausgewiesen hat:
 
-Die Leseweise: der Teil des Hub, der ohne Raphael läuft, arbeitet fast
-ausschliesslich als Prototyper. Er erzeugt Wissen. Er verdichtet kaum, er
-misst nicht, ob das Erzeugte gebraucht wird, und er pflegt sich nicht selbst.
+| Klasse | Läufe | Stunden | Anteil | Ø Dauer |
+|---|---|---|---|---|
+| geliefert (rc=0) | 467 | 64.5 | 66 % | 498 s |
+| abgewürgt (Stall-Killer) | 17 | 19.8 | 20 % | 4'188 s |
+| Fehlstart | 10'017 | 13.4 | 14 % | 5 s |
 
-Zwei Einordnungen, damit die Zahl nicht überinterpretiert wird:
+Von 10'501 Läufen brachen also 10'017 nach durchschnittlich fünf Sekunden ab,
+gegen ein leeres Kontingent oder ein abweisendes Gate. Und 17 hängende Läufe
+verbrannten je rund 70 Minuten, bis der Stall-Killer sie beendete: ein Fünftel
+der gesamten Zeit, ohne ein einziges Ergebnis.
+
+Der Stall-Killer-Anteil war vorher unsichtbar und ist der grösste einzelne
+Hebel, der in dieser Messung sichtbar wurde.
+
+### Produktive Rechenzeit je Rolle (nur gelieferte Läufe)
+
+prototyper 59.3 Stunden und 92 %, sweeper 5.0 Stunden und 8 %, grower 0.3
+Stunden, maintainer 0.1 Stunden, builder 0.
+
+Die Schieflage bleibt also bestehen, sie ist sogar etwas deutlicher. Sie beruht
+aber jetzt auf 467 echten Läufen statt auf zehntausend Fehlstarts.
+
+Bezugsgrösse: 1'440 Stunden Wandzeit (zwei Stationen, 30 Tage). Die produktive
+Zeit entspricht 4.5 % davon. Der Hub ist weit von einer Vollauslastung entfernt.
+Das Problem ist nicht die Menge, sondern die Verteilung.
+
+Zwei Einordnungen:
 
 - Builder mit 0 % ist keine Fehlallokation, sondern Bauart. Die Builder-Skills
   arbeiten im interaktiven Betrieb mit Raphael, nicht in Dauerschleifen.
 - Die Bilanz erfasst nur Läufe über den vollgas-runner. Die App-Scheduled-Tasks
-  und die launchd-Trainings laufen daran vorbei, ihre Zeit fehlt. Die Bilanz
-  bildet den automatisierten Dauerbetrieb ab, nicht die Gesamtlast.
+  und die launchd-Trainings laufen daran vorbei, ihre Zeit fehlt.
 
-Der grösste Einzelposten ist `grobkosten-training` mit 3'956 Läufen.
+### Ertrag je Loop
+
+Der grösste produktive Posten ist `energie-training` mit 12.6 Stunden aus 69
+gelieferten Läufen, gefolgt von `planungsgrundlagen-training` mit 9.4 Stunden.
+`grobkosten-training`, in der ersten Fassung als grösster Einzelposten mit 3'956
+Läufen ausgewiesen, kommt tatsächlich auf 43 gelieferte Läufe und 2.9 Stunden.
+Die 3'956 waren fast vollständig Fehlstarts.
+
+Auffällig bleibt `synobsis-batch-nacht`: 36 gelieferte Läufe, davon 5 mit
+selbstgemeldetem Delta Null, bei einer stillgelegten und laut Register saturierten
+Wissensbasis.
 
 ### Nutzung (Reichweite der lokalen Transcripts)
 
-Von 50 Skills wurden 24 tatsächlich aufgerufen, 26 nie. Gemessen wird, ob die
-SKILL.md geladen wurde, also ob die Anleitung gebraucht wurde. Eine Leistung kann
-auch ohne Skill-Load entstehen, etwa über einen Agenten. «Nie aufgerufen» heisst
-darum: entweder überflüssig oder vergessen. Welches von beidem, entscheidet der
-Mensch.
+Von 48 Skills (ohne die zwei parkierten) wurden 24 aufgerufen und 24 nie. Von der
+Kälte sind 22 erwartet, weil der Skill anlassgebunden ist oder durch einen
+Agenten, ein Script oder eine Rule ersetzt wird. Zu klären bleiben zwei:
+`masterclass` und `telesales`.
+
+Gemessen wird, ob die SKILL.md geladen wurde, also ob die Anleitung gebraucht
+wurde. Eine Leistung kann auch ohne Skill-Load entstehen, etwa über einen Agenten.
 
 ## 5. Quoten-Regime (Vorschlag, noch nicht wirksam)
 
@@ -132,11 +167,19 @@ den `synergie-orchestrator`.
 
 1. Quoten-Regime aus Abschnitt 5 verbindlich setzen oder als reine Beobachtung
    laufen lassen.
-2. Kaltliste abarbeiten: welche der 26 nie aufgerufenen Skills werden behalten,
-   zusammengelegt oder stillgelegt.
-3. `grobkosten-training` mit 3'956 Läufen prüfen, ob der Ertrag den Anteil
-   rechtfertigt.
-4. Ob die Grower-Achse aus Abschnitt 6 als Geschäftsmodell weiterverfolgt wird.
+2. `masterclass` und `telesales`: die beiden einzigen Skills ohne Anlass-
+   Erklärung. Die Empfehlung steht im Register und lautet in beiden Fällen
+   behalten, nicht stilllegen, weil sie zu den zwei schwächsten Rollen gehören.
+   Einen Grower zu streichen, während Grower 0.3 Stunden von 64.5 hält,
+   verstärkt genau die diagnostizierte Schieflage.
+3. Die 17 abgewürgten Läufe: ein Fünftel der gesamten Zeit geht an Hänger, die
+   erst nach 70 Minuten beendet werden. Kürzere Stall-Schwelle oder Ursachen-
+   suche im betroffenen Loop ist der grösste einzelne Hebel dieser Messung.
+4. Die 10'017 Fehlstarts: sie kosten kaum Zeit, machen aber jede Lauf-Zählung
+   unbrauchbar und deuten auf einen Runner, der gegen ein leeres Kontingent
+   anrennt statt zu warten.
+5. `synobsis-batch-nacht` läuft trotz Stilllegungsvermerk und meldet Delta Null.
+6. Ob die Grower-Achse aus Abschnitt 6 als Geschäftsmodell weiterverfolgt wird.
 
 ## 8. Ablage
 

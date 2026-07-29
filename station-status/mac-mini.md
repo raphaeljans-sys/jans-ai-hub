@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.07.2026 02:26:03
+Stand: 29.07.2026 02:36:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 29.07.2026 02:26:03
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 83f03e82 Rollen-Taxonomie: Register, Rollen-Bilanz, Nutzungs-Radar (Grower), Schutzmechanik-Selbsttest (Maintainer), Rule + Konzept
+- 2bf4cbbd methoden-radar: Entscheide Raphael umgesetzt — Drei-Marken-DOCX + Ordner Prompts geloescht, 4-Agenten-Blaupause als Skill-Kandidat destilliert (Register/QUESTIONS/Logbuch), Scan-Stand neu

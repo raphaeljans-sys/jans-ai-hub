@@ -30,4 +30,21 @@ beider Stationen durchsucht. Die anderen beiden laufen in Sekunden.
 
 Neuer Skill, Agent oder Loop? Zeile in `rollen-map.tsv` ergänzen. Fehlt sie,
 taucht der Baustein in der Bilanz unter «unzugeordnet» auf und verfälscht jede
-Quote. Die Bilanz weist fehlende Einträge in Abschnitt 3b selbst aus.
+Quote. Die Bilanz weist fehlende Einträge selbst aus.
+
+Sechs Spalten, tabgetrennt: `name`, `typ`, `rolle`, `begruendung`, `status`,
+`pfad`.
+
+- `status` entscheidet, ob Kälte ein Befund ist. `anlassgebunden` heisst, der
+  Skill wartet auf ein reales Projekt und ist zu Recht kalt. `ersetzt` heisst,
+  die Arbeit läuft über einen Agenten, ein Script oder eine Rule. Nur `pruefen`
+  landet in der Klärungsliste.
+- `pfad` ist der Zielbereich für die Liefer-Delta-Messung, etwa `wissen/normen`.
+  Leer bedeutet «nicht gemessen», nicht «nichts geliefert».
+
+## Was die Zahlen NICHT sagen
+
+Ein Lauf zählt erst als Arbeit, wenn er mit rc=0 endet. Fehlstarts und vom
+Stall-Killer abgewürgte Hänger stehen in einer eigenen Klasse. Und das
+Liefer-Delta zeigt, dass im Zielbereich etwas passiert ist, nicht dass dieser
+Loop es war.

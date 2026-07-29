@@ -3,8 +3,10 @@
 Der Hub misst hier zum ersten Mal nicht, was er produziert, sondern was
 tatsaechlich verwendet wird.
 
-Skills im Bestand: 50 · wirklich aufgerufen: 24 · nie aufgerufen: 26
-davon nur erwaehnt (Inventar-/Audit-Spur, kein Aufruf): 22
+Skills im Bestand: 48 (plus 2 parkierte, nicht mitgezählt)
+Wirklich aufgerufen: 24 · nie aufgerufen: 24
+Von der Kälte sind 22 erwartet (anlassgebunden oder ersetzt) und
+2 zu klären.
 Mac Mini: einbezogen (91 Signale)
 Deliverables: OUTPUT-Ordner nicht erreichbar (OneDrive nicht gemountet)
 
@@ -18,7 +20,7 @@ hat — und die Kaltliste ist leer, obwohl nichts genutzt wird.
 
 | Skill | Rolle | Aufrufe | zuletzt | nur erwaehnt |
 |---|---|---|---|---|
-| wissenscheck | maintainer | 30 | 2026-07-25 | 12 |
+| wissenscheck | maintainer | 30 | 2026-07-25 | 13 |
 | korrektur | sweeper | 18 | 2026-07-28 | 3 |
 | hub-chef | maintainer | 8 | 2026-07-28 | 24 |
 | wissens-destillat | sweeper | 7 | 2026-07-28 | 14 |
@@ -43,42 +45,48 @@ hat — und die Kaltliste ist leer, obwohl nichts genutzt wird.
 | terminplanung | builder | 1 | 2026-07-25 | 10 |
 | volumenstudie | prototyper | 1 | 2026-07-14 | 18 |
 
-## 2. Kaltliste — nie aufgerufen
+## 2a. Kalt, aber erwartet — kein Handlungsbedarf
 
-Diese Skills existieren, haben in der Messreichweite aber nie gearbeitet.
-Das ist kein Urteil ueber ihre Qualitaet: ein Skill kann fachlich gut und
-trotzdem ungenutzt sein, weil der Anlass fehlte. Es ist die Liste, ueber
-die entschieden werden muss — behalten, zusammenlegen oder stilllegen.
-Die Spalte "erwaehnt" zeigt, ob der Skill wenigstens im Blickfeld war.
+Diese Skills wurden nie geladen, und das ist richtig so. Ein anlassgebundener
+Fach-Skill wartet auf ein reales Projekt; seine Kälte ist Vorratshaltung, kein
+Mangel. Ein ersetzter Skill wird nicht geladen, weil die Arbeit über einen
+Agenten, ein Script oder eine Rule läuft.
 
-| Skill | Rolle | erwaehnt | zuletzt erwaehnt |
+| Skill | Rolle | Status | erwähnt |
 |---|---|---|---|
-| marketing | grower | 52 | 2026-07-28 |
-| zahlungsabgleich | maintainer | 18 | 2026-07-28 |
-| twin | sweeper | 15 | 2026-07-28 |
-| auflagebereinigung | maintainer | 11 | 2026-07-27 |
-| machbarkeit | prototyper | 7 | 2026-07-28 |
-| machbarkeit-studio | prototyper | 5 | 2026-07-25 |
-| massgebendes-terrain | builder | 3 | 2026-07-28 |
-| oereb-schwyz | builder | 3 | 2026-07-25 |
-| unternehmerfindung | builder | 3 | 2026-07-25 |
-| workstation-setup | maintainer | 3 | 2026-07-28 |
-| ankaufspruefung | builder | 2 | 2026-07-19 |
-| baurecht | builder | 2 | 2026-07-19 |
-| immobilienbewertung | builder | 2 | 2026-07-19 |
-| kostenkontrolle | maintainer | 2 | 2026-07-25 |
-| nutzungsstrategie | prototyper | 2 | 2026-07-19 |
-| stockwerkeigentum | builder | 2 | 2026-07-19 |
-| studien-generator | builder | 2 | 2026-07-21 |
-| website-content | grower | 2 | 2026-07-25 |
-| protokoll | builder | 1 | 2026-07-19 |
-| unternehmerkontrolle | maintainer | 1 | 2026-07-19 |
-| versandplanung | - | 1 | 2026-07-19 |
-| werkvertrag | builder | 1 | 2026-07-19 |
-| email-preferences | - | 0 | - |
-| heartbeat | maintainer | 0 | - |
-| masterclass | sweeper | 0 | - |
-| telesales | grower | 0 | - |
+| marketing | grower | ersetzt | 53 |
+| zahlungsabgleich | maintainer | anlassgebunden | 18 |
+| twin | sweeper | ersetzt | 15 |
+| auflagebereinigung | maintainer | anlassgebunden | 11 |
+| machbarkeit | prototyper | anlassgebunden | 7 |
+| machbarkeit-studio | prototyper | anlassgebunden | 5 |
+| massgebendes-terrain | builder | anlassgebunden | 3 |
+| oereb-schwyz | builder | anlassgebunden | 3 |
+| unternehmerfindung | builder | anlassgebunden | 3 |
+| workstation-setup | maintainer | ersetzt | 3 |
+| ankaufspruefung | builder | anlassgebunden | 2 |
+| baurecht | builder | anlassgebunden | 2 |
+| immobilienbewertung | builder | anlassgebunden | 2 |
+| kostenkontrolle | maintainer | anlassgebunden | 2 |
+| nutzungsstrategie | prototyper | anlassgebunden | 2 |
+| stockwerkeigentum | builder | anlassgebunden | 2 |
+| studien-generator | builder | anlassgebunden | 2 |
+| website-content | grower | ersetzt | 2 |
+| protokoll | builder | anlassgebunden | 1 |
+| unternehmerkontrolle | maintainer | anlassgebunden | 1 |
+| werkvertrag | builder | anlassgebunden | 1 |
+| heartbeat | maintainer | ersetzt | 0 |
+
+## 2b. Kalt und zu klären
+
+Hier steht der echte Entscheidungsbedarf: Skills ohne Anlass-Erklärung. Ein
+Skill mit Status "aktiv", der trotzdem kalt ist, widerspricht dem Register und
+gehört ebenfalls hierhin.
+
+| Skill | Rolle | Status | erwähnt | zuletzt erwähnt |
+|---|---|---|---|---|
+| masterclass | sweeper | pruefen | 0 | - |
+| telesales | grower | pruefen | 0 | - |
 
 ## 3. Sweeper — Konsolidierungs-Kandidaten
 
@@ -101,5 +109,13 @@ wo Ueberbesetzung vorliegt.
 - Ein Treffer belegt Verwendung im Gespraech, nicht Nutzen beim Kunden. Die
   zweite Haelfte des Growers (Wirkung beim Bauherrn) ist damit noch nicht
   gemessen — sie braucht ein Rueckmeldesignal, das der Hub heute nicht hat.
+- WICHTIG, sonst wird die Kaltliste falsch gelesen: gemessen wird, ob die
+  SKILL.md geladen wurde — nicht, ob die Faehigkeit erbracht wurde. Eine
+  Leistung kann auch ohne Skill-Load entstehen: direkt aus der CLAUDE.md-
+  Tabelle heraus, ueber einen Agenten (z.B. die linkedin-Agenten statt des
+  Skills marketing) oder von Hand. "Nie aufgerufen" heisst darum: die
+  Anleitung wurde nie gebraucht — was ein Hinweis auf einen ueberfluessigen
+  ODER auf einen vergessenen Skill ist. Welches von beidem, entscheidet der
+  Mensch, nicht dieses Script.
 
 Erzeugt von scripts/nutzungs-radar.sh
