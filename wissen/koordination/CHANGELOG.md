@@ -3,6 +3,38 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-29 (Nachlauf Run 20) — alle drei Entscheide umgesetzt (Freigabe Raphael: Vorgaben A2/B2/C1)
+- **[Entscheid A2 umgesetzt] `rules/rollen-taxonomie.md` eingedampft, nicht aus dem Import genommen.**
+  Messwerte, Erstmessung und Zielbaender bleiben im schon vorhandenen
+  `docs/konzepte/260729-Rollen-Taxonomie/` (lagen dort bereits); die betriebsnahen Regeln
+  (Takt-/Drossel-Entscheide, Radar-Auswertung «Kaelte ohne Statuseintrag», Schutzmechanik-Selbsttest,
+  Instrumenten-Tabelle) nach `rules/betrieb-chronik.md`, Abschnitt 260729b. Im Import bleibt die
+  Kurzregel: Rollenzuordnung, Prototyper-Pruefung, kein eigenmaechtiges Drosseln, Ertrag statt
+  Laeufe. **Kein Inhalt geloescht, nur verlagert.** Gemessen: Rule 3'559 → 1'911 B (46 %),
+  Grundkontext 96'946 → 95'298 B (~24'236 → ~23'824 Token bei 20 @-Importen). Damit ist der
+  Widerspruch geheilt, ohne eine Ausnahmeklausel zu erfinden; die Governance-Frage bleibt separat
+  entscheidbar.
+- **[Lehre aus dem Zwischenschritt, verallgemeinerbar] Die Dokumentation der Diaet frisst die
+  Diaet.** Die erste eingedampfte Fassung sparte nur 874 B, weil sie zwoelf Zeilen Meta-Erklaerung
+  einbaute, um dreissig Zeilen Inhalt auszulagern. Die Begruendung des Eingriffs ist selbst
+  Vorfall-Chronik und gehoert nach derselben Regel nicht in den Grundkontext. Nach dem Kuerzen
+  verdoppelte sich die Ersparnis. **Regel: beim Eindampfen einer importierten Rule gehoert die
+  Begruendung ins Konzeptdokument oder CHANGELOG, nie in die Rule.** Festgehalten in
+  `docs/konzepte/260729-Rollen-Taxonomie/`, Abschnitt 9.
+- **[Entscheid B2 umgesetzt] Vier ueberholte Saetze in zwei Destillaten entfernt, Korrekturkasten
+  behalten.** Betroffen: die zwei Fassungen des offenen Punkts zur Konzessions-Rechtsgrundlage im
+  Seewasser-Destillat und die zwei Fassungen des falschen Negativbefunds im Eisspeicher-Destillat.
+  Jeder Kasten ist dabei **selbsttragend umformuliert** worden («hier stand …»), damit er nicht auf
+  einen entfernten Absatz verweist; die Herkunft des Fehlers bleibt damit am Ort lesbar, zusaetzlich
+  im CHANGELOG und im Registereintrag. Gegenprobe: keine haengenden «vorstehend»-Bezuege mehr,
+  Abschnittsstruktur beider Dateien intakt.
+- **[Entscheid C1 umgesetzt] Titel und H1 des Lesson-Artikels geschaerft, Dateiname unveraendert.**
+  Neu «… aendern sich ohne proaktive Mitteilung …» statt «unangekuendigt», H1 «… und man erfaehrt es
+  nur auf Nachfrage». Der Slug bleibt, damit die Verweise aus zwei Lesson-Artikeln und aus
+  `auflagebereinigung` nicht brechen. Gegenprobe: kein Reststand des alten Wortlauts ausserhalb der
+  CHANGELOGs.
+
+
 ## 2026-07-29 — Run 20 (Workflow-Fan-out: 5 Lese-Agenten + 20 adversariale Verifikatoren; 18 BESTAETIGT / 7 WIDERLEGT)
 - **Verfahren:** zwei Workflows, 37 Agenten, ~5.37 Mio. Subagent-Token, 638 Tool-Calls, 24 Min.
   Bericht: `outputs/2026-07-29_wissens-chef-run20.md`. **79 Korrekturen in 22 Dateien in 9 KBs.**

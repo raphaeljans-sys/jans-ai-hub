@@ -3,6 +3,17 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-29 (Nachlauf Run 20, Freigabe Raphael) — Titel und H1 geschaerft
+- **[Entscheid C1]** `kispi-behoerden-zustaendigkeitswechsel-1171-26`: Titel neu «KISPI 1171/26:
+  Zustaendigkeiten bei Behoerden aendern sich **ohne proaktive Mitteilung** — am zuletzt bekannten
+  Kontakt festhalten kostet Zeit» (vorher «unangekuendigt»), H1 neu «… wechselt mitten im Verfahren,
+  **und man erfaehrt es nur auf Nachfrage**». Grund: «unangekuendigt» ist fuer die Ursachenebene
+  richtig, fuer die AfB aber verkuerzt — dort kam auf Nachfrage doch eine Amtsmitteilung. Der Titel
+  ist zugleich der Ort, den ein Folgelauf zuerst liest.
+- **Dateiname/Slug unveraendert**, damit die Verweise aus `sbb-naeherbaurecht-thalwil-2414-vordach`
+  und aus `auflagebereinigung/wiki/aemter-stadt-zuerich.md` nicht brechen.
+
+
 ## 2026-07-29 (Wissens-Chef Run 20, Cross-KB) — Chronologie des neuen Lesson-Artikels korrigiert, Anschluss an die fuehrenden KBs gesetzt
 - **[korrektur, materiell, mit belegter Gegenquelle] `kispi-behoerden-zustaendigkeitswechsel-1171-26`
   schrieb, der AfB-Wechsel sei erst am 27.07. sichtbar geworden und «nicht durch eine Mitteilung des

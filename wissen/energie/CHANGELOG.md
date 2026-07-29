@@ -2,6 +2,19 @@
 
 Neueste zuoberst.
 
+## 2026-07-29 (Nachlauf Run 20, Freigabe Raphael) — vier ueberholte Saetze entfernt, Korrekturkaesten selbsttragend
+- **[Entscheid B2]** Nach Freigabe entfernt: im Seewasser-Destillat die zwei Fassungen des offenen
+  Punkts zur Konzessions-Rechtsgrundlage («exakte WsG-Paragraphennummer nicht zitiert gefunden»,
+  «nicht verifiziert»), im Eisspeicher-Destillat die zwei Fassungen des falschen Negativbefunds
+  («keine Schweizer Primaerquelle gefunden»). **Die Korrekturkaesten bleiben und sind
+  umformuliert**, sodass jeder Kasten selbst benennt, was dort stand («hier stand …») statt auf
+  einen entfernten Absatz zu verweisen. Die Herkunft des Fehlers ist damit weiter am Ort lesbar.
+  Grund fuer die Entfernung: der freistehende Altsatz ist der, den ein Folgelauf oder ein
+  Bauherren-Auszug erwischt — die Beweiskette liegt daneben dreifach (Kasten, CHANGELOG, Register).
+- Geaendert: `destillate/seewasser-waermenutzung-aquathermie-zh-sz.md`,
+  `destillate/eisspeicher-waermepumpe-latentwaermespeicher.md`.
+
+
 ## 2026-07-29 — Wissens-Chef Run 20 (Cross-KB): die drei neuen Wasser-Destillate nutzten den WsG-Volltext nicht, der 24 h vorher hereinkam
 - **[strukturbefund, wichtigster des Laufs] «Ein Zugang heilt keinen Bestand.»** Run 119 hat am 29.07.
   drei Destillate im Wasserrecht angelegt (Regenwasser-Brauchwasser, Seewasser-Aquathermie,

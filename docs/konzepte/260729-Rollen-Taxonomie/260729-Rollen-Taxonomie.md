@@ -186,3 +186,35 @@ den `synergie-orchestrator`.
 Kanonisch auf dem NAS unter `docs/konzepte/260729-Rollen-Taxonomie/`. DOCX und PDF
 sind bewusst nicht erzeugt, da es sich um ein internes Steuerungsdokument handelt
 und nicht um ein Erzeugnis mit Aussenwirkung. Auf Wunsch wird beides nachgeliefert.
+
+## 9. Nachtrag 29.07.2026 — die Rule ist eingedampft, dieses Dokument trägt die Belege
+
+**Anlass, und er ist ein Präzedenzfall.** Der Wissens-Chef hat in Run 20 (Cross-KB-Lauf) einen
+Widerspruch im Hub belegt: `rules/rollen-taxonomie.md` stand im @-Import von `CLAUDE.md` und lud
+damit in jede Session, obwohl sie die 90-%-Rechenzeit-Messung, «10'501 Läufe / 10'017 Fehlstarts /
+17 Hänger», drei Loop-Scripts und zwei datierte Vorfall-Lehren trug. Genau diese Klasse schliesst
+die Kontext-Diät-Regel **vom selben Tag** aus (`rules/auto-verbesserungen.md`, Eintrag
+260719-Nachtrag: «Belege, Messwerte und Vorfallschroniken sind nie Grundkontext»). Der Hub
+widerlegte damit eine zwei Tage alte eigene Regel.
+
+**Entscheid Raphael (29.07.2026): Variante A2 — eindampfen statt aus dem Import nehmen.** Die
+Governance-Frage, ob Baustein-Governance in jeder Session gilt, bleibt damit unangetastet; nur die
+Belege wandern. Umgesetzt:
+
+| Inhalt | Vorher | Neu |
+|---|---|---|
+| Messwerte, Erstmessung, Zielbänder, Rollendefinition | Rule (importiert) | **dieses Dokument**, Abschnitte 2–5 (lag hier schon vor) |
+| Takt-/Drossel-Entscheide, Radar-Auswertung (Kälte ohne Statuseintrag), Schutzmechanik-Selbsttest, Instrumenten-Tabelle | Rule (importiert) | `rules/betrieb-chronik.md`, Abschnitt «260729b» (nicht importiert) |
+| Rollenzuordnung, Prototyper-Prüfung, kein eigenmächtiges Drosseln, Ertrag statt Läufe | Rule | Rule (bleibt importiert, das ist die Kurzregel) |
+
+**Gemessene Wirkung, nicht geschätzt.** Rule 3'559 → 1'911 B (gespart 1'648 B, 46 %).
+Grundkontext 96'946 → 95'298 B, entspricht ~24'236 → ~23'824 Token bei 20 @-Importen.
+Messweg: `stat -f%z` über `CLAUDE.md` plus alle Dateien aus `grep '^@/Volumes' CLAUDE.md`
+(CLAUDE.md selbst zählt mit). **Kein Inhalt gelöscht, nur verlagert.**
+
+**Zwischenschritt, der eine Lehre trägt.** Die erste eingedampfte Fassung sparte nur 874 B, weil
+sie zwölf Zeilen Meta-Erklärung einbaute, um dreissig Zeilen Inhalt auszulagern — die Erklärung,
+*warum* verlagert wurde, ist selbst Vorfall-Chronik und gehört nach derselben Regel nicht in den
+Grundkontext. Nach dem Kürzen dieses Blocks verdoppelte sich die Ersparnis. **Regel daraus: beim
+Eindampfen einer importierten Rule gehört die Begründung des Eingriffs ins Konzeptdokument oder
+CHANGELOG, nie in die Rule selbst.** Sonst frisst die Dokumentation der Diät die Diät auf.
