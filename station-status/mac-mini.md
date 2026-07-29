@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.07.2026 22:13:45
+Stand: 29.07.2026 22:23:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -15,4 +15,4 @@ Stand: 29.07.2026 22:13:45
 - 2 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- 03424ffa Normen Run 37: Lignum-Taktung entschieden (Raphael 29.07.) — achte Runde fuer lignum-lignatec mit rechnerischer Aufnahme Tab. 3/4, lignum-4-1 als speculative-stabil akzeptiert; Prozessfehler offen dokumentiert (Vorlage stuetzte sich auf ueberholten Run-35-Stand), zwei Lehren im PROGRAMM verankert
+- 9d62c8bb vollgas-radar 29.07. 21:57: Korrektur-Harness nachgezogen — echte Umlaute im Eintrag gesetzt (Rule umlaute-konvention), Log-Zitat und Backtick-Pfade unveraendert als Beleg; Layout geprueft (Tabellen 4-spaltig konsistent)
