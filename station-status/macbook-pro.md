@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.07.2026 19:05:18
+Stand: 29.07.2026 19:25:37
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 19:02)
+- Developer/jans/ai/hub  (letzte Aktivitaet 19:14)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -15,4 +15,4 @@ Stand: 29.07.2026 19:05:18
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- b8c9edb6 nas-selfcommit: 2 Datei(en) 2026-07-29 19:00
+- 5a3d50c8 vollgas-radar 29.07. 18:57: P1 Registry-Beschreibung wissens-destillat behauptete drei statt vier Nachtschicht-Slots und einen nur per STOP-Datei ruhenden Endlos-Runner statt des Ausbaus vom 29.07. — korrigiert (nur Beschreibung, Takt/enabled/Prompt unberuehrt); vierter Fund desselben Typs heute; Korrektur der eigenen 15:57-Zahl (bauprodukte 19.3 h statt '40 h'); Nebenbefund: 13:30-Arbeit steckt unter fremder Commit-Message (synobsis-batch 13:44)
