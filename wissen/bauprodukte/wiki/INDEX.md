@@ -31,6 +31,9 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
 - [[arbeitsplatten-verbinder-schreinerei]] — Arbeitsplatten-Verbinder Vergleich
   3 Systeme (Kunststoff-Exzenter, HETTICH AVB 5, Zip Bold Mini): Bohr-Ø,
   Montagewerkzeug, Stückpreise (Stand 2011, unverifiziert)
+- [[z-winkel-beschlag-schreinerei]] — Z-Winkel Stahlwinkel-Beschlag (offene
+  Korpus-/Montageverbindung, 5 Grössenstufen), Abgrenzung zu den verdeckten
+  Arbeitsplatten-Verbindern (Stand 2011, unverifiziert, einzige Quelle ein Händler)
 
 ### BKP 281 — Bodenbeläge
 - [[terrazzo-kunststein-bodenbelaege]] — Kunststein-Plattenboden (281.5) vs.

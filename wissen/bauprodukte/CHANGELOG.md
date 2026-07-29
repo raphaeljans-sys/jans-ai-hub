@@ -1,5 +1,20 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-07-29 23:30 — Nachtschicht: Z-Winkel destilliert (BKP 273 Schreinerarbeiten)
+- **[destilliert]** Neuer Artikel `wiki/z-winkel-beschlag-schreinerei.md` aus
+  `273 Schreinerarbeiten/Z_Winkel/110207_Z_Winkel.pdf` (OPO-Net-Katalogausdruck OPO
+  Oeschger AG, 07.02.2011): 5 Stahlwinkel-Varianten (Bolzengrösse, Bohr-Ø, Plattengrösse,
+  Preis) für offene Korpus-/Montageverbindungen.
+- **[abgrenzung]** Bewusst nicht in [[arbeitsplatten-verbinder-schreinerei]] integriert,
+  obwohl gleiche Quelle/gleicher Tagesausdruck: der Z-Winkel ist ein offen montierter
+  Stahlwinkel, kein verdeckter Stossverbinder — andere Funktion, eigener Artikel,
+  beidseitige Verlinkung gesetzt (`links`-Frontmatter + Abschnitt «Offene Punkte»).
+- **Register nachgefuehrt:** `wiki/INDEX.md` (BKP 273), Inventar-Zeile in
+  `skills/wissens-destillat/training/bauprodukte-inventar.md` auf `[x]` mit Datum,
+  Stand-Zeile in `wissen/bauprodukte/training/PROGRAMM.md` (14 destilliert, 22 triagiert).
+- Bewusst **eine** Einheit (Budget-Disziplin Nachtschicht 5 USD, PROGRAMM.md Vorgabe
+  «eine Einheit pro Lauf»).
+
 ## 2026-07-29 — Nachtrag zum Statuskopf: der eigene CHANGELOG-Eintrag von 10:04 verstellt die Auswahl (vollgas-chef-radar 12:57)
 - **[struktur]** Der Fix von 09:57 (Anlegen von `training/PROGRAMM.md`) hat einen **Nebeneffekt**,
   der ihn teilweise aufheben kann: er setzte den CHANGELOG dieser KB auf den **29.07. 10:04** und

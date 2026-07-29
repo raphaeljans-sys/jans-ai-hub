@@ -3,7 +3,7 @@ title: "Arbeitsplatten-Verbinder — drei Systeme im Vergleich (Stand 2011, unve
 status: emerging
 last_updated: 2026-07-28
 sources: ["110207_Arbeitsplatten_Verbinder_35mm.pdf", "110207_Arbeitsplatten_Verbinder_HETTICH_AVB_5.pdf", "110207_Arbeitsplatten_Verbinder_Zip_Bold_Mini.pdf" (BKP 273 Schreinerarbeiten, alle drei OPO-Net-Katalogausdrucke OPO Oeschger AG, Kloten, datiert 07.02.2011)]
-links: [[REGISTER]]
+links: [[REGISTER]], [[z-winkel-beschlag-schreinerei]]
 ---
 
 # Arbeitsplatten-Verbinder — drei Systeme im Vergleich (Stand 2011)
@@ -92,3 +92,5 @@ Stossfugen) relevant wird.
   technisches Datenblatt mit Prüfwerten nötig, liegt in dieser Quelle nicht vor.
 - Kein Vergleich mit weiteren am Markt üblichen Systemen (z.B. Lamello-Verbinder,
   Domino-Dübel) — diese Quelle deckt nur die drei im Ordner abgelegten Produkte ab.
+- Verwandter, aber funktional anderer Beschlag aus derselben Quelle (offene statt
+  verdeckte Montage): [[z-winkel-beschlag-schreinerei]].

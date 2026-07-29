@@ -37,8 +37,11 @@ eine zweite Wahrheit, Rule `sync-kanonische-quelle`).
 | Begruendung der Reihenfolge | `skills/wissens-destillat/KORPUS-QUEUE.md` |
 | Quelle (nur lesen) | `/Volumes/daten/03 Bauprodukte_BKP` |
 
-**Stand 29.07.2026:** 37 Sektionen inventarisiert · 214 Dateien erfasst · 13 destilliert `[x]`
-· 23 triagiert `[t]` · 32 offen `[ ]` · 146 bewusst uebersprungen `[-]` · 9 Wiki-Artikel.
+**Stand 29.07.2026 (Nachtschicht 23:30):** 37 Sektionen inventarisiert · 214 Dateien erfasst
+· 14 destilliert `[x]` · 22 triagiert `[t]` · 32 offen `[ ]` · 146 bewusst uebersprungen `[-]`
+· 10 Wiki-Artikel. Letzte Einheit: BKP 273 Schreinerarbeiten, `Z_Winkel/110207_Z_Winkel.pdf`
+→ [[z-winkel-beschlag-schreinerei]] (Stahlwinkel-Beschlag, Abgrenzung zu den bestehenden
+Arbeitsplatten-Verbindern).
 
 ## Umfang pro Lauf (Nachtschicht-Budget beachten)
 

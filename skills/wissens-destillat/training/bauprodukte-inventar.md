@@ -174,7 +174,7 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [x] | 260 Transportanlagen | 260 Transportanlagen/Lift/Schindler/sch_pdf_sch3100_de.pdf | bauprodukte | destilliert → bkp-261-aufzuege.md |
 | [x] | 260 Transportanlagen | 260 Transportanlagen/Lift/Schmitt_Sohn_Aufzuege/aufzug_rollstuhlgerecht.pdf | bauprodukte | destilliert → bkp-261-aufzuege.md |
 | [x] | 272 Metallbauarbeiten | 272 Metallbauarbeiten/020320 Chromstahltreppe.doc | bauprodukte | destilliert → chromstahltreppe-oberflaechen.md |
-| [t] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Z_Winkel/110207_Z_Winkel.pdf | bauprodukte | P2 · Verbinder Detail |
+| [x] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Z_Winkel/110207_Z_Winkel.pdf | bauprodukte | destilliert 29.07.2026 → [[z-winkel-beschlag-schreinerei]] |
 | [x] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_35mm.pdf | bauprodukte | → [[arbeitsplatten-verbinder-schreinerei]] |
 | [x] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_HETTICH_AVB_5.pdf | bauprodukte | → [[arbeitsplatten-verbinder-schreinerei]] |
 | [x] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_Zip_Bold_Mini.pdf | bauprodukte | → [[arbeitsplatten-verbinder-schreinerei]] |
