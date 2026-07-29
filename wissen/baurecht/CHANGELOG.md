@@ -3,6 +3,22 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-29 — Freigabe Raphael: die Wurzel der § 19-WsG-Fehlzuordnung ist geschlossen
+- **[korrektur an der Quelle, Ausnahme ausdruecklich freigegeben]** `raw/260717_amtlich_zh_hwschv.md`:
+  Konkordanzzeile Z. 40 und Kernbefund Ziff. 4 von **§ 19 WsG** auf **§ 18 Abs. 1 WsG** gestellt,
+  Korrekturvermerk als Kernbefund 5 aufgenommen. `raw/` wird sonst nie editiert (Rule
+  `wissens-bibliothekar`) — hier von Raphael freigegeben, weil die betroffene Tabelle
+  **KB-Autorentext** ist und der Fehler sich sonst bei jeder Konsultation regeneriert haette.
+  Die WsV-Haelfte «§ 11 WsV» war richtig und bleibt.
+- **[praevention] Die Tabelle traegt neu einen Warnkasten «KB-AUTORENTEXT, NICHT AMTLICHER
+  WORTLAUT».** Er benennt den Zitierfehler von Wissens-Chef Run 8 (18.07.) ausdrücklich: dort wurde
+  die Autoren-Hilfstabelle als «amtliche Konkordanztabelle» zitiert, ihre erste Zeile war falsch,
+  und der Fehler wanderte in drei KBs bis in die Rechtsgrundlagen-Spalte von OEREB-Thema 190.
+  Der amtliche Teil der Datei beginnt erst unter «TEIL A».
+- **[offen]** Fuer die **uebrigen** `raw/`-Dateien mit Autoren-Hilfstabellen ist die Kennzeichnung
+  noch nicht vollzogen — Teil-Erledigung in `wiki/QUESTIONS.md` vermerkt.
+
+
 ## 2026-07-28 — Wissens-Chef Run 19 (Cross-KB): erste Gegenlesung am neuen WsG-Volltext
 - **[korrektur, materiell] Gewaesserraum-Festlegung stand auf § 19 WsG — richtig ist § 18 Abs. 1 WsG.**
   `wiki/abstaende-und-hoehen.md` fuehrte «§ 15 Abs. 1 HWSchV, heute § 19 WsG». Das Wort

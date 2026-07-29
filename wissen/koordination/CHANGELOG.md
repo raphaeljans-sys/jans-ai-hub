@@ -3,6 +3,34 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-29 — Nachlauf Run 19: drei der vier offenen Entscheide umgesetzt (Freigabe Raphael)
+- **[Entscheid A umgesetzt] Rule `anrede-kontakte.md`: generelle Gewichts-Klausel eingesetzt.**
+  «Die Notiz-Spalte nennt den Routine-Default. Die Anrede-Stufe folgt zusaetzlich dem **Gewicht des
+  konkreten Anliegens**: ein verbindliches Ergebnis oder eine folgenreiche Bitte zieht
+  «Geschaetzte/r <Vorname>» auch beim sonst lockersten Du-Kontakt, danach faellt der Faden wieder
+  auf den Routine-Opener zurueck.» Dreifach unabhaengig belegt (Stefan Tschopp, Besnik/fsgbau,
+  Levi Hiltmann). **Heilt alle Zeilen zugleich** — die Einzelnotizen bleiben als Routine-Default
+  gueltig und mussten nicht angepasst werden. Lag seit Run 17 (27.07.) offen.
+- **[Entscheid D1 umgesetzt] Die Wurzel der § 19-WsG-Fehlzuordnung ist geschlossen.**
+  `baurecht/raw/260717_amtlich_zh_hwschv.md` auf **§ 18 Abs. 1 WsG** korrigiert — als ausdrueckliche
+  Ausnahme von der `raw/`-Leitplanke, weil die Tabelle **KB-Autorentext** ist. Zusaetzlich
+  **Warnkasten «KB-AUTORENTEXT, NICHT AMTLICHER WORTLAUT»** gesetzt, der den Run-8-Zitierfehler
+  benennt. Damit regeneriert sich der Fehler nicht mehr; der Sweep aus Run 19 ist vollstaendig.
+- **[Entscheid C1 umgesetzt]** `bauprodukte/.!33499!CHANGELOG.md` (0 Byte) geloescht, vor der
+  Loeschung nochmals auf Leere geprueft.
+- **[Entscheid B WEITERHIN OFFEN — nur Raphael kann ihn treffen]** **Felix Staehlin: Karl Waechter AG
+  oder Staehlin AG Sanitaer?** Die Rule fuehrt «Karl Waechter AG, Ausfuehrender» (Projekt 2620),
+  zwei juengere unabhaengige twin-Batches (60/61, Belege 02.-13.07.2026) nennen «Staehlin AG
+  Sanitaer», einmal mit Gewerkbezug «Waschkueche». Anredeform (Du) stimmt ueberein, Firmenzuordnung
+  nicht. Aus dem Korpus nicht entscheidbar; ein Firmenname wandert unveraendert in Anschreiben,
+  Adressblatt, Submittentenliste und Werkvertrag (Rule `identifikatoren-verifizieren`).
+  **Bis zur Klaerung: vor jeder Verwendung in einem Dokument verifizieren.**
+- **[an die Loops, unveraendert]** SIA-500-Korrigenda-Nachzug (~20 Stellen, `normen`) · drei
+  grammatisch zerstoerte Saetze im Naeherbaurechts-Destillat (`baurecht`, braucht Buch-Run) ·
+  OEREB-Thema 130/KGSchV-Nachfolge (`baurecht`/`planungsgrundlagen`).
+
+
+
 ## 2026-07-28 — Run 19 (Workflow-Fan-out: 5 Lese-Agenten + 10 adversariale Verifikatoren; 7 BESTAETIGT / 3 WIDERLEGT)
 - **Verfahren:** Workflow-Tool, 15 Agenten, ~2.42 Mio. Subagent-Token, 310 Tool-Calls, 20 Min.
   Bericht: `outputs/2026-07-28_wissens-chef-run19.md`. 14 Stellen in 12 Dateien korrigiert.

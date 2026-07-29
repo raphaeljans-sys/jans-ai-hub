@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.07.2026 02:36:08
+Stand: 29.07.2026 02:46:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 29.07.2026 02:36:08
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 2bf4cbbd methoden-radar: Entscheide Raphael umgesetzt — Drei-Marken-DOCX + Ordner Prompts geloescht, 4-Agenten-Blaupause als Skill-Kandidat destilliert (Register/QUESTIONS/Logbuch), Scan-Stand neu
+- 63c56609 nas-selfcommit: 5 Datei(en) 2026-07-29 02:45

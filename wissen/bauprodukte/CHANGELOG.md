@@ -1,5 +1,11 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-07-29 — Aufraeumen nach Freigabe Raphael
+- **[geloescht, freigegeben]** `.!33499!CHANGELOG.md` — 0-Byte-SMB-Schreibfragment vom 28.07. 01:37,
+  entstanden beim Anlegen der KB. Vor der Loeschung nochmals geprueft: 0 Byte, kein Inhalt; das
+  echte `CHANGELOG.md` intakt (13'697 Byte). Kein Datenverlust.
+
+
 ## 2026-07-28 — Wissens-Chef Run 19: ERST-PRUEFUNG dieser KB (Cross-KB)
 - **[register, strukturell] Die KB war in `koordination/QUERBEZUEGE.md` ueberhaupt nicht
   registriert** — weder als fuehrend fuer Produktwissen noch mit der Klarstellung, dass
