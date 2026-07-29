@@ -1,3 +1,54 @@
+## 2026-07-29 — Normen-Run 37 (MacBook Pro, SIA/VKF): REGISTER-Stichprobe, 2013-Blindzone beziffert, fünf Register-Fehler behoben
+
+- **[register, Struktur] Die 2013-Blindzone ist erstmals beziffert statt nur beschrieben.** Der
+  Cross-KB-Eintrag vom 27.07. hatte notiert, eine Stichprobe wäre ergiebiger als der Einzelfall
+  SIA 385/9. Maschineller Abgleich aller 248 SIA-Zeilen des Register-Abschnitts A gegen den realen
+  Dateibestand: 71 vollständig zurückgezogen, 177 aktiv, davon 75 mit Bestand-Abgleich und
+  **102 (58 %) ohne Datei im Haus**. Für diese 102 existiert **kein hausinternes Korrektiv** gegen
+  eine Revision nach dem 25.02.2013 — SIA 385/9 ist kein Einzelfall, sondern ein Vertreter dieser
+  Klasse. 14 Zeilen tragen eine 2013-Ausgabe älter als 2003. Als Warnblock mit **verbindlicher
+  Zitierregel** in `wiki/REGISTER.md` verankert: bei leerer Bestand-Spalte darf das Ausgabejahr nicht
+  als geltend zitiert werden, zulässig ist «zuletzt bestätigt 25.02.2013, jüngere Revision nicht geprüft».
+- **[register, P1] SIA 2020 war belegt veraltet — und die Veralterung war hausintern beweisbar.**
+  Das Register führte «gültig 2001»; im Haus liegt die Ausgabe **2017**, deren Titelblatt ausdrücklich
+  «Ersetzt Merkblatt SIA 2020:2001» trägt. Zeile korrigiert (2017✓ · 2001✗, Bestand-Spalte gefüllt).
+  Das ist der Musterbeleg dafür, dass der eigene Bestand das Korrektiv zur 2013-Grenze ist, **wo eine
+  Datei vorhanden ist** — und damit zugleich der Beleg, was den 102 blinden Zeilen fehlt.
+- **[register] Fünf fehlende Zeilen ergänzt, zwei Ausgabejahre präzisiert.** Neu in Abschnitt A:
+  SIA 125:2017 (Vertragsnorm Teuerung GU/TU), SIA 144:2013 (Ordnung Leistungsofferten),
+  SIA 312:2013 (Begrünung von Dächern), SIA 180/081 und SIA 180/082 (SN EN ISO 10077-1/-2:2017) —
+  alle fünf waren destilliert, aber im Register unsichtbar. Präzisiert: SIA 343.051 ist die
+  **CH-Ausgabe 2019** (EN-Basis 14351-2:2018), SIA 384/201 die **CH-Ausgabe 2018**
+  (EN-Basis 12831-1:2017); beide Zeilen führten bisher das EN-Jahr als Ausgabejahr. Bei SIA 343.051
+  zusätzlich die unbelegte Vermutung «SN EN 14351-2:2012?» entfernt. Ferner: SIA 2051 — das Register
+  war korrekt, die **Bestandsdatei `2051_2018.pdf` ist falsch benannt** (Titelblatt 2017, 2018 ist das
+  Einscan-Datum); auf Entscheid Raphaels nicht umbenannt, nur dokumentiert. SIA 180/082 trägt zudem
+  ein falsches PDF-Title-Metadatenfeld («ISO 10077-1-2017») — im Register als Suchfalle vermerkt.
+- **[methodik, neu] Methodik-Pflicht 5 «Eindeutige Render-Präfixe» — aus einem belegten
+  Falsch-Positiv.** Ein Agent meldete als «SCHWERWIEGEND», `144_2013.pdf` beginne mit zwei Seiten der
+  Norm SIA 384.201. Der Hauptprozess hat das am Original nachgerendert und per OCR geprüft:
+  **falsch** — S. 1 ist «Ordnung SIA 144 2013», S. 3 das Innentitelblatt SN 507 144, auf S. 1-4 kein
+  Treffer auf 12831/384.201/Heizlast. Ursache: mehrere Agenten rendern mit generischen Namen
+  (`tb-001.png`) ins geteilte Scratchpad und lesen Alt-Renderings fremder Normen; ein zweiter Agent
+  (SIA 312) geriet in denselben Fehler, bemerkte ihn aber selbst. Zweite, wichtigere Teilregel:
+  Agenten-Befunde, die eine **Quelldatei als defekt oder fremdbestückt** melden, werden nie ohne
+  eigene Gegenprüfung am Original übernommen.
+- **[bookkeeping, Lehre] Zweitinstanz-Kollision — Nummer 36 doppelt vergeben.** Dieser Lauf startete,
+  während Run 36 noch lief, und vergab zunächst selbst die 36 (gleicher Fehler wie am 25.07. bei
+  Nummer 21). Auffällig wurde es erst beim Nachführen von `destillate/INDEX.md`, wo Run 36 bereits
+  seine siebte Lignum-Runde eingetragen hatte. Alle Einträge nachträglich auf **Run 37** umnummeriert.
+  **Die bestehende Regel greift zu kurz:** «Run-Nummer erst nach Sicht der jüngsten `outputs/`-Datei
+  belegen» hilft nicht, wenn der Vorlauf noch läuft und seine Datei erst später schreibt. Nötig ist
+  zusätzlich eine Prüfung unmittelbar **vor dem Schreiben**.
+- **[offen] Lignum-Taktungsentscheid zurückgestellt.** Raphael hat auf Vorlage dieses Laufs
+  entschieden, beide Lignum-Destillate als «speculative, stabil» zu akzeptieren. Die Vorlage stützte
+  sich auf den Stand von Run 35 — den Run 36 wenige Stunden zuvor **entkräftet** hatte (siebte Runde:
+  7 Befunde bei `lignum-lignatec`, drei davon Kernbefunde in der viermal bestätigten Tab. 5, sichtbar
+  erst durch rechnerische statt visueller Tabellenaufnahme). Der Entscheid wurde deshalb **nicht** in
+  `training/PROGRAMM.md` verankert und ist Raphael mit den korrigierten Zahlen neu vorzulegen.
+  Als verbindliche Lehre dort festgehalten: **eine Runde mit wenigen Randbefunden ist kein
+  Sättigungsindiz, sondern kann eine zu schmale Prüfmethode anzeigen.**
+
 ## 2026-07-29 — Normen-Run 36 (MacBook Pro, SIA/VKF): zwei BSR-16-15-Fragen geschlossen, siebte Refuter-Runde mit Trendbruch
 
 - **[wissen, neu] Destillat `vkf-brl-16-15-flucht-rettungswege.md` um den Abschnitt

@@ -71,7 +71,7 @@ Vollständigkeits-Metrik zu schmal war und reale Arbeit unsichtbar blieb. Vier P
    Beim Rendern mit `pdftoppm` IMMER ein normspezifisches Präfix verwenden (`/tmp/sia144-r1-`,
    nicht `tb-`). Mehrere Agenten teilen sich dasselbe Scratchpad; generische Namen führen dazu,
    dass ein Agent das Alt-Rendering einer **fremden Norm** liest und für seine eigene hält.
-   Belegt in Run 36 (28.07.2026): ein Agent meldete als «SCHWERWIEGEND», die Datei `144_2013.pdf`
+   Belegt in Run 37 (29.07.2026): ein Agent meldete als «SCHWERWIEGEND», die Datei `144_2013.pdf`
    beginne mit zwei Seiten der Norm SIA 384.201 (Heizlast). Die Gegenprüfung des Hauptprozesses
    am Original (eigenes Rendering + OCR) widerlegte das vollständig — S. 1 ist «Ordnung SIA 144
    2013», S. 3 das Innentitelblatt SN 507 144, auf S. 1-4 kein einziger Treffer auf
@@ -89,18 +89,24 @@ Frischecheck auf Datei-Anzahl/Änderungsdatum ersetzt das nicht.
 **Run-Nummer erst nach Sicht der jüngsten `outputs/`-Datei belegen** — am 25.07.2026 haben zwei Läufe
 unabhängig die Nummer 21 vergeben.
 
-## Entscheid Raphael 28.07.2026 — Lignum-Routinerunden entfallen
+## Lignum-Taktung — Entscheid ZURÜCKGESTELLT (Run 37, 29.07.2026)
 
-Die beiden Destillate `lignum-lignatec-brandschutz.md` und
-`lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md` haben sechs Verifikationsrunden
-durchlaufen (Konvergenz 17→1→1→1→1→1 bzw. 26→5→1→2→2). Seit Run 32 sind in den Kern-Tabellen
-keine neuen Kernwert-Fehler mehr aufgetreten; die verbleibenden Befunde sind Rand- und
-Nuance-Fragen. **Entscheid: beide werden als «speculative, stabil» akzeptiert.** Keine
-Routine-Runden mehr — eine Neuprüfung erfolgt erst, wenn sich die Quelle ändert. Der Status
-bleibt bewusst `speculative` (nicht `established`), die dokumentierten Restbefunde bleiben im
-Destillat sichtbar. Das spart je Lauf zwei teure Bild-Agenten bei absehbar geringem Ertrag.
+Raphael hat am 29.07.2026 auf Vorlage von Run 37 entschieden, beide Lignum-Destillate als
+«speculative, stabil» zu akzeptieren und die Routinerunden einzustellen. **Dieser Entscheid ist
+hier bewusst NICHT als geltende Regel verankert**, weil die Vorlage auf überholten Zahlen beruhte:
+sie stützte sich auf den Stand von Run 35 («seit Runde 32 nur noch Rand- und Nuance-Befunde»),
+während Run 36 wenige Stunden zuvor genau diese Prämisse entkräftet hatte — die siebte Runde
+brachte bei `lignum-lignatec` 7 Befunde, darunter drei Kernbefunde in der viermal bestätigten
+Tab. 5, sichtbar erst durch **rechnerische** Tabellenaufnahme statt visueller Lektüre.
 
-Die in Run 34/35 wiederholt vorgelegte Taktungsfrage ist damit beantwortet und geschlossen.
+**Verbindliche Lehre daraus (gilt unabhängig vom Taktungsentscheid):** eine Runde mit wenigen
+Randbefunden ist **kein Sättigungsindiz**. Sie kann ebenso gut eine zu schmale Prüfmethode
+anzeigen. Bevor ein Destillat als «ausgereizt» gilt, muss die schärfste verfügbare Prüfmethode
+auf **alle** seine Kern-Tabellen angewandt worden sein — bei `lignum-lignatec` steht das für
+Tab. 3 und Tab. 4 noch aus.
+
+Bis zu Raphaels Neuentscheid gilt die bisherige Praxis weiter. Vorlage-Stand: `wiki/QUESTIONS.md`,
+Run-37-Eintrag Punkt 4.
 
 ## Leitplanken (Qualität)
 

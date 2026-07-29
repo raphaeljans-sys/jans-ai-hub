@@ -64,12 +64,24 @@ gleichnamigen Prozess sucht und einen bereits beendeten Vorlauf nicht findet.
    defekt — vom Hauptprozess am Original widerlegt). Als Methodik-Pflicht 5 in `training/PROGRAMM.md`
    verankert. Ob andere KBs mit Bild-Agenten (baurecht-buch, wettbewerbs-dna) dasselbe Muster haben,
    ist **nicht geprüft** — Hinweis an den Wissens-Chef.
+4. **Lignum-Taktung — Entscheid Raphaels vom 29.07.2026 beruhte auf überholten Zahlen und ist
+   zurückgestellt.** Raphael hat auf Vorlage dieses Laufs entschieden, beide Lignum-Destillate als
+   «speculative, stabil» zu akzeptieren. Die Vorlage stützte sich auf den Stand von Run 35
+   («seit Runde 32 nur noch Rand- und Nuance-Befunde»). Run 36 hatte diesen Befund wenige Stunden
+   zuvor **entkräftet**: die siebte Runde brachte bei `lignum-lignatec` 7 Befunde, darunter drei
+   Kernbefunde in der viermal bestätigten Tab. 5 — sichtbar erst, als der Agent die Tabelle
+   **rechnerisch** aufnahm (Median-RGB je Zellbox) statt visuell. Die sinkende Befundzahl mass die
+   Reichweite der Prüfmethode, nicht die Qualität des Destillats. Der Entscheid wurde deshalb
+   **nicht** in `training/PROGRAMM.md` verankert; die Frage ist Raphael mit den korrigierten Zahlen
+   erneut vorzulegen. Run 36 empfiehlt, mindestens die achte Runde für `lignum-lignatec` (rechnerische
+   Aufnahme von Tab. 3 und Tab. 4) abzuwarten. Für `lignum-4-1` ist die Lage anders: dort ist die
+   rechnerische Zellprüfung Standard und die Befunde verlagern sich belegt auf Formalien.
 
 **Unverändert offen:** Bring-Schulden SIA 491, SN EN 12193, SN 640 052, SN 641 400 (KB `baurecht`);
 SIA 380/1 Volltext, SIA 385/1 Volltext, SIA 118:2013, SIA 242; VKF-Merkblatt 2003-15 (externe
 Beschaffung, unverändert seit Run 32); Strukturentscheid PL-02-Reichweite (Run-31-Befund 3).
 
-Report `outputs/2026-07-28_normen-nacht-run36.md`.
+Report `outputs/2026-07-29_normen-nacht-run37.md`.
 
 ## Run 36 (MacBook Pro, 29.07.2026) — beide BSR-16-15-Fragen vom 28.07. geschlossen; die Frage-Prämisse war falsch
 

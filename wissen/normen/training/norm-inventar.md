@@ -1,5 +1,38 @@
 # Norm-Inventar — Arbeitsliste des Nacht-Loops `normen-training-nacht`
 
+- **Run 37 (MacBook Pro, 260729) — REGISTER-Stichprobe: die 2013-Blindzone beziffert und fuenf
+  belegte Register-Fehler behoben. 9 Verifikations-Agenten am Titelblatt des Originals.**
+  Kein neues Grunddestillat, keine Destillat-Inhalte geaendert (alle neun geprueften Destillate
+  stimmen mit dem Original ueberein). Schwerpunkt ist das REGISTER — die Ebene, die Run 36 nicht
+  beruehrt hat. **Achtung Zweitinstanz:** dieser Lauf startete waehrend Run 36 und vergab zunaechst
+  selbst die Nummer 36; nach Sicht von `outputs/2026-07-29_normen-nacht-run36.md` auf 37
+  umnummeriert (gleicher Fehler wie am 25.07. bei Nummer 21).
+  - **Methode:** alle 248 SIA-Zeilen des Register-Abschnitts A maschinell gegen den realen
+    Dateibestand abgeglichen (`SIA_Norm/`, ohne Sprachvarianten und `xalt`), Verdachtsfaelle
+    danach je Norm von einem Agenten am Titelblatt verifiziert.
+  - **2013-Blindzone beziffert:** 248 Zeilen, davon 71 vollstaendig zurueckgezogen, 177 aktiv;
+    75 mit Bestand-Abgleich, **102 (58 %) ohne Datei im Haus**. Fuer diese 102 existiert kein
+    hausinternes Korrektiv gegen eine Revision nach dem 25.02.2013. 14 davon tragen eine
+    2013-Ausgabe aelter als 2003. Als Warnblock mit verbindlicher Zitierregel im REGISTER.
+  - **SIA 2020: Register-Zeile war belegt VERALTET** («gueltig 2001»), im Haus liegt die Ausgabe
+    2017 mit dem Titelblatt-Vermerk «Ersetzt Merkblatt SIA 2020:2001» — hausintern beweisbar,
+    ohne externe Quelle. Musterbeleg der Blindzonen-Logik.
+  - **Fuenf fehlende Register-Zeilen ergaenzt** (destilliert, aber im Register unsichtbar):
+    SIA 125:2017, SIA 144:2013, SIA 312:2013, SIA 180/081 und SIA 180/082.
+  - **Zwei Ausgabejahre praezisiert** (EN-Jahr war als Ausgabejahr gefuehrt): SIA 343.051 ist die
+    CH-Ausgabe **2019** (EN-Basis 14351-2:2018), SIA 384/201 die CH-Ausgabe **2018**
+    (EN-Basis 12831-1:2017). Bei 343.051 zusaetzlich die unbelegte Vermutung «14351-2:2012?» entfernt.
+  - **SIA 2051: Register korrekt, Dateiname falsch** — Titelblatt 2017, Datei heisst `2051_2018.pdf`
+    (2018 = Einscan-Datum). Auf Entscheid Raphaels nicht umbenannt, nur dokumentiert.
+  - **Falsch-Positiv widerlegt:** ein Agent meldete `144_2013.pdf` als fremdbestueckt (angeblich
+    zwei Seiten SIA 384.201 vorangestellt). Vom Hauptprozess am Original nachgerendert und per OCR
+    geprueft: falsch — S. 1 ist «Ordnung SIA 144 2013». Ursache: generische Render-Praefixe im
+    geteilten Scratchpad. Als Methodik-Pflicht 5 in `PROGRAMM.md` verankert.
+  - **Lignum-Taktung: Entscheid Raphaels ZURUECKGESTELLT** — die Vorlage beruhte auf dem Stand von
+    Run 35, den Run 36 wenige Stunden zuvor entkraeftet hatte. Nicht in PROGRAMM.md verankert,
+    Raphael neu vorzulegen (`wiki/QUESTIONS.md`, Run-37-Eintrag Punkt 4).
+  Report `outputs/2026-07-29_normen-nacht-run37.md`.
+
 - **Run 36 (MacBook Pro, 260729) — zwei Cross-KB-Fragen zu BSR 16-15 geschlossen, siebte
   Refuter-Runde fuer die beiden verbleibenden speculativen Lignum-Destillate. 5 parallele
   Agenten (2 Fundstellen-Ermittler Hauptmodell, 2 Refuter Hauptmodell, 1 Bestandssuche Sonnet);
