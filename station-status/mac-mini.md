@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.07.2026 13:10:13
+Stand: 29.07.2026 13:20:18
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -13,4 +13,4 @@ Stand: 29.07.2026 13:10:13
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- dc6e1c29 vollgas-radar 29.07. 12:57: P1 Nachtschicht-Prioritaet 4 waehlte die vier aeltesten KBs, die alle aus Entscheid Raphaels ruhen — keine der fuenf PROGRAMM.md trug einen Stillgelegt-Vermerk, wettbewerbs-dna behauptete sogar aktiven Takt 05:22 seit 27.07.; Statuskoepfe gesetzt (wettbewerbs-dna/spec/immobilienbewertung), grobkosten+planungsgrundlagen bewusst NICHT (kein Entscheid, waere eigenmaechtiges Drosseln, Frage an Raphael); dazu Nebeneffekt des 09:57-Fix behoben (CHANGELOG 10:04 machte bauprodukte zur juengsten statt aeltesten KB) — Warnhinweis gesetzt; Korrektur: Nachtschicht hat seit 02:53 vier Slots (23/2/5/13), Probe faellt 13:30 nicht 23:30
+- 83a98665 nas-selfcommit: 2 Datei(en) 2026-07-29 13:15
