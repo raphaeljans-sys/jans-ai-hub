@@ -1,0 +1,36 @@
+== Zeit: 2026-07-29T23:15:15+02:00 auf Macmini
+== Mount:
+/Volumes/daten
+== NAS-Repo:
+## main...github/main
+72ddf4bd nas-selfcommit: 2 Datei(en) 2026-07-29 23:15
+39ef119f remote-task: Lauf 1 projekt-lessons v2 — Diagnose-Kanal repariert (#17)
+66b507ef remote-task: Lauf 1 projekt-lessons v2 — Diagnose-Kanal repariert
+== PROGRAMM.md vor Pull:
+total 96
+drwx------  1 raphaeljans  staff  16384 Jul 29 22:45 .
+drwx------@ 1 raphaeljans  staff  16384 Jul 29 22:45 ..
+-rwx------  1 raphaeljans  staff  14564 Jul 29 22:45 PROGRAMM.md
+== Dispatch-Token vorhanden:
+1
+== runner.log (letzte 20):
+2026-07-12 18:06:03 === Start [mac-mini]: 1 Task(s) gefunden ===
+2026-07-12 18:06:03 → Starte: 20260712-orchestrierung-ping
+2026-07-12 18:06:03   OK → results/20260712-orchestrierung-ping/
+2026-07-12 18:06:03 Commit erstellt
+Current branch main is up to date.
+To github.com:raphaeljans-sys/jans-ai-hub.git
+   5c59d57c..3abf4795  main -> main
+2026-07-12 18:06:06 Push OK
+2026-07-12 18:06:06 === Ende ===
+2026-07-29 22:41:44 === Start [mac-mini]: 1 Task(s) gefunden ===
+2026-07-29 22:41:44 → Starte: 20260729-lauf1-projekt-lessons
+2026-07-29 22:44:55   FEHLER (exit 1) → results/20260729-lauf1-projekt-lessons/
+2026-07-29 22:44:55 Commit erstellt
+Current branch main is up to date.
+To github.com:raphaeljans-sys/jans-ai-hub.git
+   861b4198..4338787f  main -> main
+2026-07-29 22:44:58 Push OK
+2026-07-29 22:44:58 === Ende ===
+2026-07-29 23:15:15 === Start [mac-mini]: 1 Task(s) gefunden ===
+2026-07-29 23:15:15 → Starte: 20260729-lauf1-projekt-lessons-v2

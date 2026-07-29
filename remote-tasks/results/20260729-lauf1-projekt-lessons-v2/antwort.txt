@@ -1,0 +1,23 @@
+🛰️  JANS Dispatch — Lauf 20260729-231833-18963
+    Auftrag : Lauf 1 des Ingest-Programms projekt-lessons. Massgeblich ist /Volumes/daten/jans-ai-hub/wissen/projekt-lessons/training/PROGRAMM.md — zuerst vollstaendig lesen, ebenso wissen/projekt-lessons/CLAUDE.md. Dann NUR die vier Punkte unter 'Naechster Schritt (Lauf 1)' im Tracker ausfuehren: (1) Wurzelpfad des Projekts 2619 Kinderspital unter /Volumes/daten/04_Buero/02_Projekte/ verifizieren und im PROGRAMM-Abschnitt 'Belegte Pfadmuster' mit Datum nachtragen. (2) training/quellen-inventar.md anlegen und aus der Sichtung des Projektordners fuellen; Truninger-DS3 und Mail nur einbeziehen, wenn ohne Rueckfrage erreichbar, sonst im Inventar als offen vermerken. (3) Stufe A auf genau EIN Dokument anwenden — das nach dem Dokumenttypen-Katalog vielversprechendste (QS-Korrektur oder Koordinationsprotokoll bevorzugt). Den Stufe-A-Prompt im PROGRAMM woertlich befolgen: jede Aussage mit woertlichem Zitat und Fundstelle, Unbelegtes unter '## Unsicher', keine Interpretation. Destillat nach raw/, _INGESTED.md und Inventar nachfuehren. (4) AUSDRUECKLICH NICHT Stufe B und NICHT Stufe C — Lauf 1 endet nach dem einen Destillat, das Raphael von Hand gegenliest. Abschluss: CHANGELOG.md der KB und den Tracker im PROGRAMM (Zeile Lauf 1) nachfuehren. Alle Aenderungen NUR auf dem NAS-Pfad /Volumes/daten/jans-ai-hub/ vornehmen und am Ende dort committen und pushen (Rule sync-kanonische-quelle). Zum Schluss eine kurze Zusammenfassung ausgeben: verifizierter Wurzelpfad, Anzahl Inventar-Zeilen, gewaehltes Dokument mit Begruendung, Pfad des Destillats.
+    Repo    : /Users/raphaeljans/Developer/jans-ai-hub
+    Modus   : acceptEdits   Budget: $5
+    Log     : /Volumes/daten/jans-ai-hub/dispatch/log/20260729-231833-18963.md
+────────────────────────────────────────────────────────────
+Committet und gepusht, verifiziert am Commit-Hash `51ac47d3`.
+
+## Zusammenfassung Lauf 1
+
+**Wurzelpfad verifiziert:** Der im Programm genannte NAS-Kandidat existierte nicht — er zeigte auf ein fremdes Altarchiv. Der tatsächliche Pfad liegt auf SharePoint/OneDrive:
+`/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 01 Projekte/2619_KINDERSPITAL/`
+
+**Inventar:** `training/quellen-inventar.md` mit 36 Zeilen angelegt (Korrespondenz Gruners GT Planer/Behörden, ein BKP-Los, Auszüge aus 09_Dokumente, plus die Truninger-DS3-Sammlungsstruktur).
+
+**Gewähltes Dokument:** die QS-Rückweisung des Installationsplans Lüftung vom 29.07.2026 (`296_7_Brandschutzexperte Ziegel/260729 Rückweisung Installationsplan Lüftung/`) — der Brandschutzexperte weist dort den Plan des HLK-Fachplaners zurück (beide Gruner AG). Begründung für die Wahl: aktuellste, klar abgegrenzte QS-Korrektur mit vollständiger Beweiskette (Mailthread + unterzeichnete Stellungnahme Brandschutz mit exakten Fundstellen), noch nicht durch bestehende Wiki-Artikel abgedeckt.
+
+**Destillat:** `wissen/projekt-lessons/raw/260729-kispi-rueckweisung-installationsplan-lueftung.md` — wörtliche Zitate mit Fundstellen, Unsicheres unter „## Unsicher", keine Interpretation.
+
+Zwei vorherige Remote-Dispatch-Versuche für exakt diesen Auftrag waren an Infrastrukturfehlern gescheitert (nicht an der Aufgabe selbst); ich habe das deshalb direkt in dieser Session erledigt. Wie im Programm vorgesehen: **nur** Stufe A, Stufe B/C bewusst ausgelassen — das Destillat wartet jetzt auf Ihre Handkontrolle gegen das Original, bevor Lauf 2 mit weiteren Dokumenten und erstmals Stufe B/C fortfährt.
+────────────────────────────────────────────────────────────
+✅ Dispatch erledigt (Lauf 20260729-231833-18963).
+   Protokoll: /Volumes/daten/jans-ai-hub/dispatch/log/20260729-231833-18963.md
