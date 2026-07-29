@@ -18,13 +18,29 @@ Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
   benennt. Damit regeneriert sich der Fehler nicht mehr; der Sweep aus Run 19 ist vollstaendig.
 - **[Entscheid C1 umgesetzt]** `bauprodukte/.!33499!CHANGELOG.md` (0 Byte) geloescht, vor der
   Loeschung nochmals auf Leere geprueft.
-- **[Entscheid B WEITERHIN OFFEN — nur Raphael kann ihn treffen]** **Felix Staehlin: Karl Waechter AG
-  oder Staehlin AG Sanitaer?** Die Rule fuehrt «Karl Waechter AG, Ausfuehrender» (Projekt 2620),
-  zwei juengere unabhaengige twin-Batches (60/61, Belege 02.-13.07.2026) nennen «Staehlin AG
-  Sanitaer», einmal mit Gewerkbezug «Waschkueche». Anredeform (Du) stimmt ueberein, Firmenzuordnung
-  nicht. Aus dem Korpus nicht entscheidbar; ein Firmenname wandert unveraendert in Anschreiben,
-  Adressblatt, Submittentenliste und Werkvertrag (Rule `identifikatoren-verifizieren`).
-  **Bis zur Klaerung: vor jeder Verwendung in einem Dokument verifizieren.**
+- **[Entscheid B GESCHLOSSEN am 29.07.2026 — Antwort Raphael: Elektro Stählin AG]** Beide
+  bisherigen Zuordnungen im Hub waren falsch, auf verschiedene Weise: die Rule fuehrte
+  **«Karl Waechter AG»** (Fehlannotation — das ist ein anderer Betrieb, Ansprechpartner dort
+  **Mario Di Capua**), das twin-Wiki an fuenf Stellen **«Staehlin AG Sanitaer»** (richtige Firma,
+  **falsches Gewerk**). Richtig ist **Elektro Staehlin AG, Zuerich** (Elektroinstallationen,
+  BKP 230). Raphaels Antwort wird durch drei unabhaengige Hub-Belege gestuetzt, die vorher niemand
+  zusammengezogen hatte: `f.staehlin@staehlin-ag.ch` (`twin/raw/260714-mailbatch-51.md:8`),
+  «Index 318, **Staehlin Elektro**» in einer Serie mit BKP 230.00 Elektro
+  (`twin/raw/260714-mailbatch-48.md:19`) und «Fall Staehlin-Elektro» in
+  `rules/auto-verbesserungen-archiv.md:22`; extern verifiziert (Elektro Staehlin AG, Bolleystrasse,
+  8006 Zuerich, gegruendet 1945, Domain `staehlin-ag.ch` — deckungsgleich mit der Mailadresse).
+  Korrigiert: Rule-Zeile, fuenf Stellen in `twin/wiki/beziehungsregister.md`, eine in
+  `twin/wiki/stimme.md`. **Das Du-Register und alle Stil-Befunde bleiben gueltig** — falsch waren
+  nur Firma und Gewerk. Lag seit Run 17 (27.07.) offen.
+- **[LEHRE — zweiter Fundort derselben Fehlerklasse in zwei Tagen] Autoren-Annotation in `raw/`
+  wird spaeter als Quelle behandelt.** `twin/raw/260714-mailbatch-51.md:8` traegt dieselbe
+  Fehlannotation «Felix Staehlin, Karl Waechter AG»; der Mail-Inhalt (die Adresse) ist korrekt, die
+  **Zuordnung des Bibliothekars daneben** ist es nicht. Exakt das Muster, das Run 19 einen Tag
+  zuvor bei `baurecht/raw/260717_amtlich_zh_hwschv.md` gefunden hat. `raw/` nicht editiert; in
+  `twin/wiki/QUESTIONS.md` festgehalten, damit ein kuenftiger Batch die Annotation nicht erneut als
+  Beleg liest. **Damit ist die Regel keine Einzelfall-Beobachtung mehr, sondern hub-weit
+  belegt:** wo eine `raw/`-Datei neben dem Quellmaterial eigene Zuordnungen fuehrt, sind diese als
+  Annotation zu kennzeichnen.
 - **[an die Loops, unveraendert]** SIA-500-Korrigenda-Nachzug (~20 Stellen, `normen`) · drei
   grammatisch zerstoerte Saetze im Naeherbaurechts-Destillat (`baurecht`, braucht Buch-Run) ·
   OEREB-Thema 130/KGSchV-Nachfolge (`baurecht`/`planungsgrundlagen`).

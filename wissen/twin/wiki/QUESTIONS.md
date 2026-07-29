@@ -30,6 +30,13 @@ Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/be
 > Identifikator, der unverändert in Anschreiben, Adressblatt, Submittentenliste und Werkvertrag
 > wandert; eine falsche Firma beim richtigen Vornamen fällt erst beim Empfänger auf. Bis zur
 > Klärung: **Firmenzuordnung vor jeder Verwendung in einem Dokument verifizieren.**
+>
+> ✅ **BEANTWORTET am 29.07.2026 — beide Varianten waren falsch.** Richtig ist **Elektro Stählin AG,
+> Zürich** (Elektroinstallationen, BKP 230). «Karl Wächter AG» war eine Fehlannotation (anderer
+> Betrieb, Ansprechpartner Mario Di Capua), «Stählin AG Sanitär» das falsche Gewerk. Es sind weder
+> zwei Firmen desselben Mannes noch zwei Personen — es ist eine Firma, zweimal falsch etikettiert.
+> Vollständige Belegkette und Korrekturliste im Eintrag ganz unten in dieser Datei
+> («2026-07-29 — GESCHLOSSEN: Felix Stählin gehört zu Elektro Stählin AG»).
 
 ## Offen — Runde 260727k (twin-fragesteller, aus Fidelity-Review 2026-07-27k)
 
@@ -2122,3 +2129,34 @@ Hub-Chef, Empfaenger Raphael, internes Du). Beide Facetten-Agenten diagnostizier
    Ausnahme gelistet werden duerfen? *Warum: das Briefing ist der einzige taegliche Text, den Du
    LIEST statt schreibst — der Lesbarkeits-Massstab koennte hier ein anderer sein als der Stil-
    Massstab.* → [[stimme]], [[arbeitsweise]]
+
+## 2026-07-29 — GESCHLOSSEN: Felix Stählin gehört zu Elektro Stählin AG (Antwort Raphael)
+
+Die seit Wissens-Chef Run 17 (27.07.) offene Frage ist beantwortet. **Beide** bisherigen Zuordnungen
+im Hub waren falsch, und zwar auf verschiedene Weise:
+
+- `rules/anrede-kontakte.md` führte **«Karl Wächter AG, Ausführender»** — eine Fehlannotation.
+  Karl Wächter AG ist ein anderer Betrieb; der dortige Ansprechpartner ist **Mario Di Capua**
+  (belegt `raw/260714-mailbatch-49.md:38`).
+- Dieses Wiki führte an fünf Stellen **«Stählin AG Sanitär»** bzw. «Sanitär-Lieferant» — richtige
+  Firma, **falsches Gewerk**.
+
+**Richtig ist: Elektro Stählin AG, Zürich** (Elektroinstallationen, BKP 230). Bestätigt durch
+Raphael am 29.07.2026 und unabhängig durch drei Hub-Belege:
+`f.staehlin@staehlin-ag.ch` (`raw/260714-mailbatch-51.md:8`), «Index 318, **Stählin Elektro**»
+(`raw/260714-mailbatch-48.md:19`, in einer Serie, die BKP 230.00 Elektro enthält) und der Vermerk
+«Fall Staehlin-Elektro» in `rules/auto-verbesserungen-archiv.md:22`. Firmensitz Bolleystrasse,
+8006 Zürich, gegründet 1945, Domain `staehlin-ag.ch` — deckungsgleich mit der Mailadresse.
+
+Korrigiert am 29.07.2026: Rule-Zeile sowie fünf Stellen in `beziehungsregister.md` und eine in
+`stimme.md`.
+
+**Offen, bewusst nicht angefasst — Fehlannotation in `raw/`.**
+`raw/260714-mailbatch-51.md:8` schreibt «Felix Stählin, **Karl Wächter AG** — Unternehmer/
+Ausführender». Der Mail-Inhalt (die Adresse) ist korrekt, die **Firmen-Annotation des Bibliothekars
+daneben ist falsch**. `raw/` wird nicht editiert (Rule `wissens-bibliothekar`) — hier festgehalten,
+damit ein künftiger Batch die Annotation nicht erneut als Beleg liest.
+**Gleiche Fehlerklasse wie im Fall `baurecht/raw/260717_amtlich_zh_hwschv.md`** (Wissens-Chef
+Run 19): eine Autoren-Annotation in einer `raw/`-Datei wird später als Quelle behandelt. Wo eine
+`raw/`-Datei neben dem Quellmaterial eigene Zuordnungen führt, sind diese als Annotation zu
+kennzeichnen.

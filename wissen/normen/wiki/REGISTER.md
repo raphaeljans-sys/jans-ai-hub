@@ -19,6 +19,36 @@ diese neuere Bestandsausgabe gilt dann als vermutlich aktuell (bei Bedarf am SIA
 gegenprüfen, nur auf Zuruf; kein Auto-Web). Ein definitiver Aktualitäts-Nachweis nach 2013
 bleibt eine offene Bring-Schuld (siehe `QUESTIONS.md`).
 
+## ⚠ Die 2013-Blindzone — beziffert (Stichprobe Run 36, 28.07.2026)
+
+Der Satz oben beschreibt das Risiko; dieser Abschnitt misst es. Maschineller Abgleich aller
+Register-Zeilen des Abschnitts A gegen den realen Dateibestand (`SIA_Norm/`, ohne
+Sprachvarianten und `xalt`), Verdachtsfälle danach am Titelblatt des Originals verifiziert:
+
+| Kennzahl | Wert |
+|---|---|
+| SIA-Zeilen in Abschnitt A | 248 |
+| davon alle Ausgaben zurückgezogen | 71 |
+| **aktiv** (2013 gültige Ausgabe) | **177** |
+| davon mit Bestand-Abgleich (Datei im Haus) | 75 |
+| davon **ohne Datei im Haus → Blindzone** | **102 (58 % der aktiven)** |
+| Blindzone-Zeilen mit 2013-Ausgabe älter als 2003 | 14 |
+
+**Was das praktisch heisst.** Für die 75 Zeilen mit Bestand wirkt der eigene Bestand als
+Korrektiv: liegt im Haus eine jüngere Ausgabe, fällt die Veralterung auf (genau so wurde in
+Run 36 die Zeile SIA 2020 als veraltet entlarvt — im Haus liegt die Ausgabe 2017, die
+ausdrücklich «Ersetzt Merkblatt SIA 2020:2001» trägt). Für die **102 Zeilen ohne Datei
+existiert dieses Korrektiv nicht**: eine Revision nach dem 25.02.2013 kann hier mit
+hausinternen Mitteln grundsätzlich nicht bemerkt werden. Der Fall SIA 385/9 (Shop führt eine
+Ausgabe 2023, Register führt 2011) ist kein Einzelfall, sondern ein Vertreter dieser Klasse.
+
+**Verbindliche Regel.** Bei einer Zeile mit **leerer Bestand-Spalte** darf das Ausgabejahr
+**nicht** als geltend zitiert werden, ohne extern (SIA-Normenverzeichnis/Shop) gegengeprüft
+zu haben. Zulässig ist die Formulierung «zuletzt bestätigt 25.02.2013, jüngere Revision nicht
+geprüft». Das gilt besonders für die 14 Zeilen mit einer 2013-Ausgabe älter als 2003
+(u.a. SIA 215:1978, SIA 370/24:1979, SIA 381/3:1982, SIA 370/21:1987, SIA 380/3:1990,
+SIA 2003:1996, SIA 2014:1996) — dort ist eine zwischenzeitliche Revision am wahrscheinlichsten.
+
 ## Lese-Legende
 
 - **Gültig 2013** = die per 25.02.2013 nicht zurückgezogene deutsche Ausgabe.
@@ -81,9 +111,11 @@ bleibt eine offene Bring-Schuld (siehe `QUESTIONS.md`).
 | SIA 122 | 2012 | 2012✓ |  |
 | SIA 123 | 2013 | 2013✓ · 1970✗ |  |
 | SIA 124 | 2013 | 2013✓ · 1970✗ |  |
+| SIA 125 | **2017** (nicht im 2013-Register) | 2017✓ (Erstausgabe, kein «Ersetzt»-Vermerk) | **Nachtrag Run 36 (260728), am Titelblatt verifiziert:** «SIA 125:2017 Bauwesen 507 125 — Preisänderungen infolge Teuerung für Leistungen der General- und Totalunternehmer», **Vertragsnorm** (Vorwort S. 4, Reglement SIA 148), SN 507125:2017 de, gültig ab 2017-05-01, 16 S., «2017-05 / 1. Auflage». Bestand vollständig; Destillat `sia-125-2017.md` |
 | SIA 136 | —(alle zurueckgezogen) | 1939✗ |  |
 | SIA 142 | 2009 | 2009✓ · 1998✗ | Bestand 2009/1998 = gueltig 2013 ✓ |
 | SIA 143 | 2009 | 2009✓ | Bestand 2009 = gueltig 2013 ✓ |
+| SIA 144 | **2013** (im 2013-Register noch nicht erfasst) | 2013✓ (neues Instrument, ersetzt nichts) | **Nachtrag Run 36 (260728), am Titelblatt verifiziert:** «Ordnung SIA 144 2013 — Ordnung für Ingenieur- und Architekturleistungsofferten», SN 507 144, «2013-08 1. Auflage», genehmigt 25.05.2013, gültig ab 01.08.2013, 20 Normseiten (PDF 22 S.). Dokumentart **Ordnung** (Verfahrensordnung). Ergänzt SIA 142 (Wettbewerbe) und SIA 143 (Studienaufträge), ersetzt sie NICHT (Präambel «Entwicklung der Ordnungen»). Destillat `sia-144-2013.md` |
 | SIA 150 | 1977 | 1977✓ | Bestand 2018 → **neuer als Register 2013** (2013 gueltig: 1977); Bestand vermutlich aktuell |
 | SIA 152 | —(alle zurueckgezogen) | 1993✗ |  |
 | SIA 153 | —(alle zurueckgezogen) | 1991✗ |  |
@@ -106,6 +138,8 @@ bleibt eine offene Bring-Schuld (siehe `QUESTIONS.md`).
 | SIA 180 | 1999 | 1999✓ · 1988✗ | Bestand 2014 → **neuer als Register 2013** (2013 gueltig: 1999); **✓ Bestand 2014 als geltend BESTAETIGT** (nicht mehr «vermutlich»): Destillat `sia-180-2014` weist aus Original-PDF «SN 520180:2014 de, 1. Aufl. 2014-05, **gueltig ab 2014-07-01**, ersetzt SIA 180:1999» — deckungsgleich mit Tabelle C. Offen bleibt nur die **Korrigenda C2:2020** (Existenz belegt via Stadt-ZH-Wegleitung Ziff. 4.1.1, Inhalt nicht verifiziert) (Wissens-Chef Run 6, 16.07.2026) |
 | SIA 180/1 | —(alle zurueckgezogen) | 1988✗ |  |
 | SIA 180/4 | —(alle zurueckgezogen) | 1982✗ |  |
+| SIA 180/081 | **2017** (EN ISO) / CH-Ausgabe **2018** | SN EN ISO 10077-1:2017✓ · 2006✗ | **Nachtrag Run 36 (260728), am Titelblatt verifiziert:** «Wärmetechnisches Verhalten von Fenstern, Türen und Abschlüssen — Berechnung des Wärmedurchgangskoeffizienten — Teil 1: Allgemeines (ISO 10077-1:2017)». **Ausgabejahr 2017 = EN ISO; CH-Übernahme 1. Auflage 2018-04, gültig ab 2018-04-01** (strikt getrennt führen). Ersetzt SN EN ISO 10077-1:2006. Unveränderte Übernahme ohne nationale Vorbehalte. Reiner Scan ohne Textlayer. Destillat `sia-180-081-2017.md` |
+| SIA 180/082 | **2017** (EN ISO) / CH-Ausgabe **2018** | SN EN ISO 10077-2:2017✓ · 2012✗ | **Nachtrag Run 36 (260728), am Titelblatt verifiziert:** «… Teil 2: Numerisches Verfahren für Rahmen (ISO 10077-2:2017)». **Ausgabejahr 2017 = EN ISO; CH-Übernahme 1. Auflage 2018-04, gültig ab 2018-04-01.** Ersetzt SN EN ISO 10077-2:2012. ⚠ **Falle:** das PDF-interne Title-Metadatenfeld lautet fälschlich «ISO 10077-1-2017» (Teil **1**) — der sichtbare Inhalt ist korrekt Teil 2; metadatenbasierte Suchen führen hier in die Irre. Destillat `sia-180-082-2017.md` |
 | SIA 181 | 2006 | 2006✓ · 1988✗ | Bestand 2006 = gueltig 2013 ✓; **⚠ neuere Ausgabe SIA 181:2020** (in KB energie `wiki/schallschutz-sia181` als aktuell gefuehrt) → Re-Destillat 2020 ausstehend (Wissens-Chef Run 3, 13.07.2026) |
 | SIA 183 | —(alle zurueckgezogen) | 1996✗ |  |
 | SIA 184 | 1972 | 1972✓ | Bestand 1972 = gueltig 2013 ✓ |
@@ -188,6 +222,7 @@ bleibt eine offene Bring-Schuld (siehe `QUESTIONS.md`).
 | SIA 282 | 2011 | 2011✓ |  |
 | SIA 283 | 2009 | 2009✓ |  |
 | SIA 284 | 2011 | 2011✓ |  |
+| SIA 312 | **2013** (im 2013-Register noch nicht erfasst; Stand des Registers 25.02.2013, Norm gültig ab 01.11.2013) | 2013✓ | **Nachtrag Run 36 (260728), am Titelblatt verifiziert:** «SIA 312:2013 Bauwesen 564 312 — Begrünung von Dächern», SN 564312:2013 de, gültig ab 2013-11-01, 24 S., Preisgruppe 18. Ersetzt laut Vorwort (S. 4) die Empfehlung SIA 271/2:1994 «Flachdächer zur Begrünung» — dieser Vermerk steht NICHT auf dem Titelblatt. Destillat `sia-312-2013.md` |
 | SIA 318 | 2009 | 2009✓ · 1988✗ | Bestand 1988 → **veraltet** (2013 gueltig: 2009) |
 | SIA 320 | —(alle zurueckgezogen) | 1978✗ |  |
 | SIA 329 | 2012 | 2012✓ · 2008✗ · 1989✗ | Bestand 2018/1989 → **neuer als Register 2013** (2013 gueltig: 2012); Bestand vermutlich aktuell |
@@ -216,7 +251,7 @@ bleibt eine offene Bring-Schuld (siehe `QUESTIONS.md`).
 | SIA 384/6 | 2010 | 2010✓ |  |
 | SIA 385/1 | 2011 | 2011✓ · 2000✗ | ⚠ **NUMMERN-WIEDERVERWENDUNG — Falle, geprüft Run 22 (260725):** Die Nummer 385/1 bezeichnet zwei sachlich UNVERWANDTE Normen. 385/1:2011 = «Anlagen für Trinkwarmwasser in Gebäuden» (Bestand: nur 6-seitige Vorschau, Bring-Schuld). 385/1:2000 = «Wasser und Wasseraufbereitungsanlagen in öffentlichen Schwimmbädern» (ersetzte 385/1:1982 + Empf. 385/11:1990 + 385/12:1994; ging 2011 in **385/9** auf). Die Datei `alle/f/385_1_f.pdf` (60 S., französisch) ist die **Schwimmbad-Ausgabe 2000** und damit **KEIN** Ersatz für den fehlenden Trinkwarmwasser-Volltext — ihre Legionellen-Angaben betreffen Beckenwasser/Duschen, nicht Speicher-/Zirkulationstemperaturen im Hochbau. Die in QUESTIONS vorgeschlagene «billigste Lückenschluss»-Prüfung dieser Datei ist damit erledigt und negativ; Abschnitt B dieses Registers dokumentierte die Umnummerierung bereits |
 | SIA 385/3 | —(alle zurueckgezogen) | 1991✗ |  |
-| SIA 385/9 | 2011 | 2011✓ |  |
+| SIA 385/9 | 2011 (Stand 25.02.2013) | 2011✓ | **Quellentreu belegt (Run 36, 260728):** `ersetzte_normen.pdf` führt «x SIA 385/9:2011 d — 01.05.2011», ersetzt **SIA 385/1:2000** (Schwimmbad-Materie, siehe Abschnitt B). Das «x» heisst: per 25.02.2013 aktuell. ⚠ **Nicht mit Ausgabejahr zitieren.** Der SIA-Shop weist eine **Ausgabe 385/9:2023** aus (ersetzt 385/9:2011) — bisher nur über die Shop-Produktseite gemeldet, **nicht am Normtext verifiziert**; die Norm liegt weder in PL-02 noch in PL-03 (Run 36 in beiden Ablagen gesucht). Bis zur Beschaffung gilt: «zuletzt bestätigt 25.02.2013, jüngere Revision nicht geprüft». Klassenfall der 2013-Blindzone; Bring-Schuld in `QUESTIONS.md` |
 | SIA 385/11 | —(alle zurueckgezogen) | 1990✗ |  |
 | SIA 385/12 | —(alle zurueckgezogen) | 1994✗ |  |
 | SIA 400 | 2000 | 2000✓ · 1985✗ | Bestand 2000 = gueltig 2013 ✓ |
@@ -260,7 +295,7 @@ bleibt eine offene Bring-Schuld (siehe `QUESTIONS.md`).
 | SIA 2017 | 2000 | 2000✓ |  |
 | SIA 2018 | 2004 | 2004✓ |  |
 | SIA 2019 | —(alle zurueckgezogen) | 2000✗ |  |
-| SIA 2020 | 2001 | 2001✓ |  |
+| SIA 2020 | ~~2001~~ → **2017** | **2017✓** · 2001✗ | ⚠ **Run 36 (260728): diese Zeile war belegt VERALTET und ist korrigiert.** Das 2013-Register führte 2001 als gültig; im Haus liegt die Ausgabe **2017**, deren Titelblatt ausdrücklich «**Ersetzt Merkblatt SIA 2020:2001**» trägt — die Veralterung war also hausintern beweisbar, es brauchte keine externe Quelle. Verifiziert am Original: «SIA 2020:2017 Bauwesen 592020 — Sicherheitsleistungen des Unternehmers im Werkvertrag, Merkblatt zur Norm SIA 118», SNR 592020:2017 de, gültig ab 2017-05-01, 20 S., «2017-05 1. Auflage». Dokumentart **SIA-Merkblatt** (nach Veröffentlichung 3 Jahre gültig, Verlängerung um je 3 Jahre möglich). Destillat `sia-2020-2017.md`. **Dieser Fall ist der Musterbeleg der 2013-Blindzone oben** |
 | SIA 2021 | 2002 | 2002✓ |  |
 | SIA 2022 | 2003 | 2003✓ |  |
 | SIA 2023 | 2008 | 2008✓ · 2004✗ |  |
@@ -464,13 +499,13 @@ oder begruendet uebersprungen). Neu registriert bzw. praezisiert:
 | SIA 493 | 1997 (in Kraft 1.3.1998) | — | gilt; Deklaration ökologischer Merkmale von Bauprodukten |
 | SIA 2014 | **2017** (gültig ab 1.9.2017) | SIA 2014:1996 | gilt; CAD-Layerstruktur — **neuer als 2013-Register** |
 | SIA 2040 | **2017** (gültig ab 1.5.2017) | SIA 2040:2011 | gilt; SIA-Effizienzpfad Energie (2000-Watt) — **neuer als 2013-Register** |
-| SIA 2051 | **2017** (gültig ab 1.12.2017) | — (Erstausgabe) | gilt; BIM-Grundlagen — Datei `sia-2051-2018.md` |
+| SIA 2051 | **2017** (gültig ab 1.12.2017) | — (Erstausgabe) | gilt; BIM-Grundlagen — Datei `sia-2051-2018.md`. **Run 36 (260728) am Original bestätigt:** SNR 592051:2017 de, genehmigt 12.09.2017, gültig ab 2017-12-01, 52 Buchseiten (27 PDF-Seiten, Doppelseiten-Scan), Dokumentart **Merkblatt**. ⚠ **Die Bestandsdatei heisst `2051_2018.pdf` — der Dateiname ist falsch**, 2018 ist das Einscan-Datum (PDF-CreationDate 2018-02-07, Konica-Minolta). Das Register stimmt, die Datei ist die Fehlerquelle. Bewusst nicht umbenannt (Entscheid Raphael 28.07.2026, um Verweise nicht zu brechen) |
 | SIA 2056 (SNR 592056) | **2019** (gültig ab 1.8.2019) | SIA 380/4:2006 | gilt; Elektrizität in Gebäuden Energie-/Leistungsbedarf — **neuer als 2013-Register**; Datei `sia-592-056.md` (Teil-Destillat) |
 | SIA 370.028 (SN EN 81-28) | 2003 | — | gilt; Fern-Notruf für Aufzüge (Übernahme EN 81-28:2003) |
 | SIA 370.080 (SN EN 81-80) | 2003 (gültig ab 1.7.2004) | Merkblatt SIA 2019:2000 | gilt; Sicherheit bestehender Aufzüge SNEL (Übernahme EN 81-80) |
-| SIA 343.051 (SN EN 14351-2) | **2018** (CH gültig ab 1.1.2019) | SN EN 14351-2:2012? (Erst-CH-Übernahme) | gilt; Innentüren-Produktnorm — **neuer als 2013-Register**; Feuer/Rauch NICHT abgedeckt (EN 16034); Teil-Destillat |
+| SIA 343.051 (SN EN 14351-2) | **CH-Ausgabe 2019** · EN-Basis 2018 | SN EN 14351-2:2018 (EN) → CH-Auflage 2019-01 | gilt; Innentüren-Produktnorm — **neuer als 2013-Register**; Feuer/Rauch NICHT abgedeckt (EN 16034); Teil-Destillat. **Run 36 (260728) präzisiert:** die Spalte nannte bisher «2018», das ist das Jahr der **europäischen Basisnorm** (EN 14351-2:2018). Das **Schweizer Ausgabejahr ist 2019** (Titelblatt: «Copyright © 2019 by SIA Zurich», «2019-01 1. Auflage», gültig ab 2019-01-01). Kein «Ersetzt»-Vermerk auf dem Titelblatt — welche Vorgänger-Ausgabe abgelöst wird, bleibt unbelegt (das frühere «SN EN 14351-2:2012?» war eine Vermutung und ist entfernt) |
 | SIA 382/1 | **2014** (gültig ab 1.7.2014) | SIA 382/1:2007 | Lüftungs-/Klimaanlagen Grundlagen; Teil-Destillat (Kern S.1-63). **⚠ neuere Ausgabe SIA 382/1:2025** (ersetzt 2014, in Kraft seit 1.2.2025) — in KB energie `destillate/komfortlueftung-wrg-sia382-luftwechsel` als aktuell gefuehrt; Register-Stand 2014 ueberholt, Re-Destillat 2025 ausstehend (Quelle SIA-Shop; Wissens-Chef Run 4, 14.07.2026) |
-| SIA 384/201 (SN EN 12831-1) | **2017** (gültig ab 1.12.2018) | SN EN 12831:2003 | gilt; Norm-Heizlast-Berechnung — **neuer als 2013-Register**; Teil-Destillat |
+| SIA 384/201 (SN EN 12831-1) | **CH-Ausgabe 2018** · EN-Basis 2017 | SN EN 12831:2003 (ersetzt, Titelblatt-Vermerk) | gilt; Norm-Heizlast-Berechnung — **neuer als 2013-Register**; Teil-Destillat. **Run 36 (260728) präzisiert:** die Spalte nannte bisher «2017», das ist das Jahr der **europäischen Basisnorm** (EN 12831-1:2017 bzw. SN EN 12831-1:2017 de). Das **Schweizer Ausgabejahr ist 2018** (Titelblatt: «1. Auflage 2018-12», gültig ab 2018-12-01, Copyright 2018). 111 S. (12 national + 99 EN). Das Destillat `sia-384-201-2017.md` führt die Trennung bereits korrekt |
 | SIA 193.111 (SN EN 12063) | 1999 (gültig ab 1.8.1999) | — | gilt (Bestand); Spundwandkonstruktionen Spezialtiefbau |
 | SN EN 13200-1 | **2019** (gültig ab 1.9.2019) | SN EN 13200-1:2012 | gilt; Zuschaueranlagen Teil 1 — **neuer als 2013-Register**; Datei `sia-en-13200-1-2019.md` |
 | SIA 162.051 (SN EN 206-1) | 2000 (gültig ab 1.1.2003) | SIA V162.051:1994 / ENV 206:1990 | gilt (Bestand); Beton Teil 1 — spätere Ausgabe SN EN 206:2013 nicht im Bestand (Bring-Schuld) |

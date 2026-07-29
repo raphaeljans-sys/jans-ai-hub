@@ -4,6 +4,19 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-29 — Felix Stählin: Firma und Gewerk korrigiert (Antwort Raphael, schliesst die
+  Run-17-Frage).** Fünf Stellen in `wiki/beziehungsregister.md` und eine in `wiki/stimme.md`
+  führten ihn als **«Stählin AG Sanitär»** bzw. «Sanitär-Lieferant» / «Karl Wächter AG». Richtig
+  ist **Elektro Stählin AG, Zürich** (Elektroinstallationen, BKP 230) — bestätigt durch Raphael am
+  29.07.2026 und unabhängig durch drei Hub-Belege (`f.staehlin@staehlin-ag.ch`; «Stählin Elektro»
+  in `raw/260714-mailbatch-48.md`; «Fall Staehlin-Elektro» im Rule-Archiv). **Karl Wächter AG ist
+  ein anderer Betrieb** (Ansprechpartner Mario Di Capua) — Fehlannotation, kein Zweitmandat.
+  Das Du-Register und alle Stil-Befunde (Hoi Felix / Lieber Gruss, «Du,»-Filler, «Danke und
+  Gruss») bleiben unverändert gültig; falsch waren nur Firma und Gewerk.
+  **Gemeldet, NICHT editiert:** `raw/260714-mailbatch-51.md:8` trägt dieselbe Fehlannotation;
+  `raw/` wird nicht editiert, festgehalten in `wiki/QUESTIONS.md`. Gleiche Fehlerklasse wie
+  `baurecht/raw/260717_amtlich_zh_hwschv.md` (Wissens-Chef Run 19): Autoren-Annotation in `raw/`
+  wird später als Quelle behandelt.
 - **2026-07-27 — Wissens-Chef Run 17 (Cross-KB): zwei Rule-Widersprueche verifiziert und an
   Raphael eskaliert.**
   **[eskaliert, NICHT geaendert] `rules/anrede-kontakte.md` widerspricht `wiki/beziehungsregister.md`.** Die Kontaktliste fuehrt **Besnik** starr als «nackter Vorname-Opener ohne Anrede-Formel», waehrend das Wiki am authentischen Beleg (21.05.2026, Betreff «Gewerke/Empfehlung») zeigt, dass Raphael bei gewichtigem Anliegen «Geschaetzter Besnik» + direkten FG-Block waehlt. Weil die Rule per @-Import immer aktiv ist und laut eigener Konvention **vor** dem Wiki konsultiert wird, wirkt der veraltete Stand. Der Loop hatte das erkannt und die Korrektur woertlich ausformuliert, sie aber korrekt nicht selbst in die Rule geschrieben (Freigabe-Bindung, CHANGELOG 2026-07-25j) — **der Wissens-Chef ebenfalls nicht.** → adversarial verifiziert und im Bericht als Entscheid vorgelegt. **Wirksamer als die Besnik-Zeile waere eine generelle Klausel im Abschnitt «Konvention»:** die Notiz-Spalte nennt den Routine-Default, die Anrede-Stufe folgt zusaetzlich dem **Gewicht des konkreten Anliegens** — dreifach unabhaengig belegt (Tschopp, Besnik, Hiltmann) und heilt alle Zeilen zugleich statt einer.

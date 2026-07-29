@@ -54,3 +54,27 @@ MERKE fuer jede kuenftige Takt- oder Stilllegungsentscheidung auf dem Mini:
 es sind DREI Orte nachzuziehen, nicht zwei -- Registry, Runner-Frontmatter/
 EXCLUDE_RE UND die launchd-Jobs in ~/Library/LaunchAgents.
 --------------------------------------------------------------------------
+
+==========================================================================
+ENTSCHIEDEN 29.07.2026 (Raphael, Plan-Freigabe) — RUNNER AUSGEBAUT.
+Der VOLLGAS-Endlos-Runner wird nicht wiederbelebt. Vollzug auf dem Mac Mini
+am 29.07. 02:5x (via ssh):
+
+  launchctl bootout gui/<uid>/ch.jans.vollgas-supervisor      -> rc 0
+  ~/Library/LaunchAgents/ch.jans.vollgas-supervisor.plist -> .disabled-260729
+
+Verifiziert: `launchctl list | grep vollgas` leer, kein Runner-Prozess.
+Einen vollgas-monitor gab es auf dieser Station nicht (nur MacBook Pro).
+
+DAMIT IST DIESE DATEI NUR NOCH DOKUMENTATION. Sie zu entfernen startet
+nichts mehr. Die oben genannte Entfernungs-Bedingung ("sobald wieder ein
+Trainings-Loop enabled ist") ist gegenstandslos.
+
+Der Mac Mini traegt die Lern-Arbeit weiterhin ueber ch.jans.nachtschicht
+(23:30/02:30/05:30, seit 29.07. zusaetzlich Versuchs-Slot 13:30) und
+ch.jans.training-energie (22:30).
+
+WIEDERBELEBUNG (nur auf Raphaels Entscheid): plist zurueckbenennen,
+`launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/ch.jans.vollgas-supervisor.plist`,
+diese Datei entfernen.
+==========================================================================

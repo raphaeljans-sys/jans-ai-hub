@@ -1,10 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.07.2026 02:40:30
+Stand: 29.07.2026 02:50:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 02:40)
-- /Volumes/daten/jans/ai/hub  (letzte Aktivitaet 02:13)
+- Developer/jans/ai/hub  (letzte Aktivitaet 02:50)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +12,4 @@ Stand: 29.07.2026 02:40:30
 - 14 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 32146ac0 Trust-Befund behoben: wissens-trigger lief ohne cd im untrusted Home (Beleg 27.07. 21:52 planungsgrundlagen-training antwortete mit Rueckfrage statt Arbeit, rc=0) -> cd in SSD-Klon + Arbeitsverzeichnis im Log; trust-check.sh (idempotent, atomar, nur Hub-Pfade, nie Home) als heartbeat-Check 8; Chronik + Kurzregel + Konzept nachgefuehrt
+- 5d78fb34 Nachlauf Run 19 (Freigabe Raphael): Gewichts-Klausel in anrede-kontakte.md eingesetzt (heilt alle Zeilen zugleich); Wurzel der § 19-WsG-Fehlzuordnung in baurecht/raw/hwschv geschlossen (§ 18 Abs. 1 WsG) + Warnkasten «KB-Autorentext, nicht amtlich»; 0-Byte-SMB-Fragment in bauprodukte geloescht. OFFEN: Felix Staehlin — welche Firma

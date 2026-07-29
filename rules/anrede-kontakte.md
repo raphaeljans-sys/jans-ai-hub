@@ -34,7 +34,7 @@ Diese Liste pflegt alle bekannten Kontakte und ihre Anredeform. Sie wird laufend
 | Angela Hottinger | Stadt Zürich, Kreisarchitektin AfB | Wartstrasse 8 u.a. | Sie | Warm-formell «Geschätzte Frau Hottinger», seit Erstkontakt 2025 eingespielt |
 | Labinot Shabani | 38 Grad Gebäudetechnik GmbH, Geschäftsführer | KISPI u.a. | **Du** | «Hoi Labi»/«Guten Morgen Labinot» |
 | Albin Spahic | Universitäts-Kinderspital Zürich, Technischer Dienst | 2619 KISPI | **Du** | Per Du seit Projektstart KISPI |
-| Felix Stählin | Karl Wächter AG, Ausführender | 2620 Albertstrasse 7 | **Du** | «Hoi Felix» / «Lieber Gruss», trotz Unternehmer-Rolle |
+| Felix Stählin | **Elektro Stählin AG**, Zürich (Elektroinstallationen, BKP 230) | 2620 Albertstrasse 7 | **Du** | «Hoi Felix» / «Lieber Gruss», trotz Unternehmer-Rolle; bei gewichtigem Anlass «Geschätzter Felix». **Firma korrigiert 29.07.2026 durch Raphael** — die Liste führte bis dahin «Karl Wächter AG» (Fehlannotation; Karl Wächter AG ist ein anderer Betrieb, Ansprechpartner dort Mario Di Capua), das twin-Wiki «Stählin AG Sanitär» (falsches Gewerk). Belegt: `f.staehlin@staehlin-ag.ch`, Elektro Stählin AG, Bolleystrasse, 8006 Zürich |
 | Roman Steinmann | Nova Property Fund Management AG, Asset Manager | 2620 Albertstrasse 7 | **Du** | «Salut Roman» warm; faellt bei Mahn-/Geldkontext auf «Guten Tag» zurueck |
 | Stefan Tschopp | Bauherr-Partner | 2414 Thalwil | **Du** | «Hoi Stefan» routinemaessig; «Geschaetzter Stefan» bei gewichtigem/verbindlichem Ergebnis |
 | Yorck von Dietze | 3D-Freelancer | diverse Visualisierungen | **Du** | Skala Hey/Hoi/Hallo/Lieber je nach Anlass |

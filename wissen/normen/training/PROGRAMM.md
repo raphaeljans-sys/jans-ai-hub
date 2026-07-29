@@ -67,6 +67,20 @@ Vollständigkeits-Metrik zu schmal war und reale Arbeit unsichtbar blieb. Vier P
    Fassungen, Paarvergleich nach Seite/Dimension/Bytegrösse, bei Abweichung Extraktion und Sichtkontrolle.
    So wurde in Run 22 eine übersehene Änderung auf S. 16 der BRL 16-15 gefunden.
 
+5. **Eindeutige Render-Präfixe — und Agenten-Befunde über defekte Dateien selbst gegenprüfen.**
+   Beim Rendern mit `pdftoppm` IMMER ein normspezifisches Präfix verwenden (`/tmp/sia144-r1-`,
+   nicht `tb-`). Mehrere Agenten teilen sich dasselbe Scratchpad; generische Namen führen dazu,
+   dass ein Agent das Alt-Rendering einer **fremden Norm** liest und für seine eigene hält.
+   Belegt in Run 36 (28.07.2026): ein Agent meldete als «SCHWERWIEGEND», die Datei `144_2013.pdf`
+   beginne mit zwei Seiten der Norm SIA 384.201 (Heizlast). Die Gegenprüfung des Hauptprozesses
+   am Original (eigenes Rendering + OCR) widerlegte das vollständig — S. 1 ist «Ordnung SIA 144
+   2013», S. 3 das Innentitelblatt SN 507 144, auf S. 1-4 kein einziger Treffer auf
+   12831/384.201/Heizlast. Ein zweiter Agent (SIA 312) geriet in denselben Fehler, bemerkte ihn
+   aber selbst. **Daraus die zweite, wichtigere Pflicht:** Meldet ein Agent eine Quelldatei als
+   defekt, fremdbestückt oder unvollständig, wird dieser Befund NIE ohne eigene Gegenprüfung am
+   Original übernommen — solche Befunde sind besonders folgenreich (sie führen zu Datei-Eingriffen)
+   und zugleich der wahrscheinlichste Ort für ein Werkzeug-Artefakt.
+
 **Konsequenz für die Endbedingung.** «0 offene `[ ]`» plus «keine neuen Dateien» ist KEIN Nachweis, dass
 nichts zu tun ist — es misst nur Datei-Existenz. Vor jeder «KOMPLETT»-Meldung ist zusätzlich `wiki/QUESTIONS.md`
 durchzuarbeiten: dort liegt der eigentliche Rückstand (Run 22 hat daraus 11 Punkte geschlossen). Ein
@@ -74,6 +88,19 @@ Frischecheck auf Datei-Anzahl/Änderungsdatum ersetzt das nicht.
 
 **Run-Nummer erst nach Sicht der jüngsten `outputs/`-Datei belegen** — am 25.07.2026 haben zwei Läufe
 unabhängig die Nummer 21 vergeben.
+
+## Entscheid Raphael 28.07.2026 — Lignum-Routinerunden entfallen
+
+Die beiden Destillate `lignum-lignatec-brandschutz.md` und
+`lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md` haben sechs Verifikationsrunden
+durchlaufen (Konvergenz 17→1→1→1→1→1 bzw. 26→5→1→2→2). Seit Run 32 sind in den Kern-Tabellen
+keine neuen Kernwert-Fehler mehr aufgetreten; die verbleibenden Befunde sind Rand- und
+Nuance-Fragen. **Entscheid: beide werden als «speculative, stabil» akzeptiert.** Keine
+Routine-Runden mehr — eine Neuprüfung erfolgt erst, wenn sich die Quelle ändert. Der Status
+bleibt bewusst `speculative` (nicht `established`), die dokumentierten Restbefunde bleiben im
+Destillat sichtbar. Das spart je Lauf zwei teure Bild-Agenten bei absehbar geringem Ertrag.
+
+Die in Run 34/35 wiederholt vorgelegte Taktungsfrage ist damit beantwortet und geschlossen.
 
 ## Leitplanken (Qualität)
 

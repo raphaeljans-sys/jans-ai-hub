@@ -27,9 +27,21 @@ if [ "$HOST" != "Macmini" ] && [ "${NACHTSCHICHT_ALLOW_ANY_HOST:-0}" != "1" ]; t
     exit 0
 fi
 
-# --- Zeitfenster 18:00–08:59 ---------------------------------------------------
+# --- Zeitfenster 18:00–08:59 plus Versuchs-Slot 13:xx ---------------------------
+# ENTSCHEID Raphael 29.07.2026: befristeter Versuch mit EINEM Mittags-Slot (13:30),
+# weil zwischen ~07:30 und 23:30 auf keiner Station ein Lern-Loop lief, waehrend das
+# Kontingent frei war. Der Slot braucht ZWEI Orte: den launchd-Eintrag in
+# ch.jans.nachtschicht.plist UND diese Ausnahme — ohne sie haette der Job um 13:30
+# gefeuert und sich hier still beendet (Null-Wirkung, im Log nicht von einem gesunden
+# Lauf zu unterscheiden).
+# Der Mac Mini traegt tagsueber reale Last (ArchiCAD, Cineware); der Schutz ist das
+# Lauf-Gate weiter unten, das bei Speichernot von sich aus abweist.
+# RUECKBAU nach dem Versuch (Entscheid Raphael, Grundlage: Liefer-Delta der Woche):
+# MITTAG_SLOT auf -1 setzen ODER diese Ausnahme entfernen UND den 13:30-Eintrag aus
+# der plist nehmen — wieder beide Orte.
+MITTAG_SLOT="${MITTAG_SLOT:-13}"
 H=$(date +%H); H=$((10#$H))
-if [ "$H" -ge 9 ] && [ "$H" -lt 18 ]; then
+if [ "$H" -ge 9 ] && [ "$H" -lt 18 ] && [ "$H" -ne "$MITTAG_SLOT" ]; then
     exit 0
 fi
 
@@ -65,7 +77,7 @@ cd "$HOME/Developer/jans-ai-hub" 2>/dev/null && git pull --ff-only --quiet 2>/de
 
 log "Zyklus gestartet (Stunde $H)."
 
-PROMPT='Nachtschicht-Zyklus Mac Mini (Fenster 18:00-09:00). Arbeite an genau EINER Aufgabe mit messbarem Ergebnis, nicht an mehreren gleichzeitig.
+PROMPT='Nachtschicht-Zyklus Mac Mini (Fenster 18:00-09:00, dazu der Versuchs-Slot 13:30). Arbeite an genau EINER Aufgabe mit messbarem Ergebnis, nicht an mehreren gleichzeitig.
 
 Prioritaeten (nimm die erste, die faellig ist):
 1. remote-tasks/pending/ und sync-tasks/mac-mini/ abarbeiten

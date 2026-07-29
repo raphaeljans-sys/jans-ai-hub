@@ -59,3 +59,32 @@ Haelfte beantwortet: der Runner bekommt eine neue Lern-Aufgabe (Destillat),
 aber auf dem Mac Mini. Offen bleibt nur, ob der Runner/Supervisor auf DIESER
 Station dauerhaft ausgebaut werden soll.
 --------------------------------------------------------------------------
+
+==========================================================================
+ENTSCHIEDEN 29.07.2026 (Raphael, Plan-Freigabe) — RUNNER AUSGEBAUT.
+Die oben offene Grundsatzfrage ist beantwortet: der VOLLGAS-Endlos-Runner
+wird NICHT wiederbelebt. Vollzug auf dieser Station am 29.07. 02:5x:
+
+  launchctl bootout gui/<uid>/ch.jans.vollgas-supervisor      -> rc 0
+  launchctl bootout gui/<uid>/ch.jans.vollgas-monitor         -> rc 0
+  ~/Library/LaunchAgents/ch.jans.vollgas-supervisor.plist -> .disabled-260729
+  ~/Library/LaunchAgents/ch.jans.vollgas-monitor.plist    -> .disabled-260729
+
+Verifiziert: `launchctl list | grep vollgas` leer, kein Runner-Prozess.
+Auf dem Mac Mini identisch (dort gab es nur den Supervisor).
+
+DAMIT IST DIESE DATEI NUR NOCH DOKUMENTATION. Sie zu entfernen startet
+nichts mehr — es gibt keinen Waechter, der den Runner hochziehen koennte.
+Die oben genannten Entfernungs-Bedingungen sind gegenstandslos.
+
+Gelernt wird ausschliesslich ueber die getakteten Scheduled Tasks und die
+Mac-Mini-Nachtschicht (ch.jans.nachtschicht, seit 29.07. 23:30/02:30/05:30
+plus Versuchs-Slot 13:30). Beide Aufsichts-Tasks sind nachgezogen:
+vollgas-chef-radar und vollgas-fruehwarnung starten den Runner nicht mehr
+und messen neu den LIEFER-DELTA je Loop statt der Runner-Logs.
+
+WIEDERBELEBUNG (nur auf Raphaels Entscheid): plists zurueckbenennen,
+`launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/ch.jans.vollgas-supervisor.plist`,
+diese Datei entfernen — und vorher klaeren, welche Aufgabe der Runner haben
+soll, die nicht schon ein getakteter Task erledigt.
+==========================================================================

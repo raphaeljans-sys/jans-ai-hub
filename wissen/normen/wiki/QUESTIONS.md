@@ -1,5 +1,71 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
+## Run 36 (MacBook Pro, 28.07.2026) — die 2013-Blindzone beziffert, fünf Register-Fehler belegt, Lignum-Frage entschieden
+
+**Ausgangslage.** Der Cross-KB-Eintrag vom 27.07. (direkt unter diesem Abschnitt) hat den Einzelfall
+SIA 385/9 geflaggt und dazugeschrieben, eine **Stichprobe wäre ergiebiger als der Einzelfall**. Run 36
+hat genau das gemacht: alle 248 SIA-Zeilen des Register-Abschnitts A maschinell gegen den realen
+Dateibestand abgeglichen, die Verdachtsfälle danach von neun Agenten **am Titelblatt des Originals**
+verifiziert.
+
+### Geschlossen
+
+- [x] **Lignum-Taktungsfrage (offen seit Run 34, dreimal vorgelegt) — Entscheid Raphael 28.07.2026:**
+  beide Lignum-Destillate werden als «speculative, stabil» akzeptiert, keine Routine-Verifikations-
+  runden mehr; Neuprüfung erst bei Änderung der Quelle. In `training/PROGRAMM.md` verankert. Damit
+  entfallen auch die Run-35-Folgepunkte 1 (siebte Runde) und die dortige Empfehlung.
+- [x] **SIA 2020 — Register-Zeile war belegt veraltet, korrigiert.** Das Register führte «gültig 2001»;
+  im Haus liegt die Ausgabe **2017**, deren Titelblatt ausdrücklich «Ersetzt Merkblatt SIA 2020:2001»
+  trägt. **Die Veralterung war hausintern beweisbar** — es brauchte keine externe Quelle. Musterbeleg
+  dafür, dass der eigene Bestand das Korrektiv zur 2013-Grenze ist, wo eine Datei vorhanden ist.
+- [x] **Vier bzw. fünf fehlende Register-Zeilen ergänzt** (destilliert, aber im Register unsichtbar):
+  SIA 125:2017 (Vertragsnorm Teuerung GU/TU), SIA 144:2013 (Ordnung Leistungsofferten),
+  SIA 312:2013 (Begrünung von Dächern), SIA 180/081 und SIA 180/082 (SN EN ISO 10077-1/-2:2017).
+  Alle am Titelblatt verifiziert, Fundstellen in `wiki/REGISTER.md`.
+- [x] **Zwei Ausgabejahre präzisiert (EN-Jahr ≠ Schweizer Ausgabejahr).** SIA 343.051 ist die
+  **CH-Ausgabe 2019** (Copyright 2019, «2019-01 1. Auflage») auf EN-Basis 14351-2:**2018**;
+  SIA 384/201 ist die **CH-Ausgabe 2018** («1. Auflage 2018-12») auf EN-Basis 12831-1:**2017**.
+  Beide Zeilen nannten bisher das EN-Jahr als Ausgabejahr. Bei SIA 343.051 zusätzlich die unbelegte
+  Vermutung «SN EN 14351-2:2012?» entfernt — auf dem Titelblatt steht kein «Ersetzt»-Vermerk.
+- [x] **SIA 2051 — Register war korrekt, die Bestandsdatei ist falsch benannt.** Titelblatt sagt
+  eindeutig SIA 2051:**2017** (SNR 592051:2017 de, genehmigt 12.09.2017); die Datei heisst
+  `2051_2018.pdf`, wobei 2018 das Einscan-Datum ist. Bewusst **nicht** umbenannt (Entscheid Raphael
+  28.07.2026), nur im Register und im Destillat dokumentiert.
+- [x] **EN 13487 und EN 12102-1 — Bestandsfrage abschliessend geklärt (negativ).** Beide in
+  `PL - 02_Recht_Norm` **und** `PL - 03 Brandschutz` gesucht: **nicht vorhanden**. Damit sind sie
+  echte externe Bring-Schulden, kein Auffindungsproblem. Siehe unten.
+
+### Neu offen
+
+1. **Die 2013-Blindzone ist strukturell und beziffert: 102 von 177 aktiven Register-Zeilen (58 %)
+   haben keine Datei im Haus.** Für sie existiert **kein hausinternes Korrektiv** — eine Revision nach
+   dem 25.02.2013 kann grundsätzlich nicht bemerkt werden. 14 davon tragen eine 2013-Ausgabe älter als
+   2003 (u.a. SIA 215:1978, 370/24:1979, 381/3:1982, 370/21:1987, 380/3:1990, 2003:1996, 2014:1996) —
+   dort ist eine zwischenzeitliche Revision am wahrscheinlichsten. Als Warnblock mit verbindlicher
+   Zitierregel in `wiki/REGISTER.md` verankert. **Vollständig schliessbar nur über ein aktuelles
+   SIA-Normenverzeichnis (Abo/Kauf) — nicht vom Loop lösbar.** Eine Beschaffungs-Prioritätenliste
+   wurde bewusst nicht erstellt (Entscheid Raphael 28.07.2026: beziffern und warnen genügt vorerst).
+2. **SIA 385/9 — unverändert offen.** Register-Zeile ist quellentreu (`ersetzte_normen.pdf`:
+   «x SIA 385/9:2011 d — 01.05.2011», ersetzt SIA 385/1:2000), aber die gemeldete **Ausgabe 2023** ist
+   nicht am Normtext verifiziert und die Norm liegt in keiner der beiden Ablagen. Bis zur Beschaffung
+   gilt: nicht mit Ausgabejahr zitieren. Klassenfall von Punkt 1.
+3. **EN 13487 und EN 12102-1 beschaffen.** Beide werden von `wissen/energie` zitiert
+   (`rueckkuehler-flaechenkonkurrenz-pv-laermschutz.md:273-275` → Wiki `waermepumpen-laermschutz.md:110`),
+   EN 13487 **ohne Ausgabejahr**. Nicht im Haus → Ausgabe extern verifizieren, dann ins REGISTER
+   aufnehmen und den Rückverweis setzen. Bis dahin darf in `energie` kein Ausgabejahr ergänzt werden.
+4. **Werkzeug-Befund, an alle Loops mit Bild-Agenten:** generische `pdftoppm`-Präfixe im geteilten
+   Scratchpad haben in diesem Lauf **einen belegten Falsch-Positiv** erzeugt (ein Agent hielt ein
+   Alt-Rendering von SIA 384.201 für die ersten Seiten von `144_2013.pdf` und meldete die Datei als
+   defekt — vom Hauptprozess am Original widerlegt). Als Methodik-Pflicht 5 in `training/PROGRAMM.md`
+   verankert. Ob andere KBs mit Bild-Agenten (baurecht-buch, wettbewerbs-dna) dasselbe Muster haben,
+   ist **nicht geprüft** — Hinweis an den Wissens-Chef.
+
+**Unverändert offen:** Bring-Schulden SIA 491, SN EN 12193, SN 640 052, SN 641 400 (KB `baurecht`);
+SIA 380/1 Volltext, SIA 385/1 Volltext, SIA 118:2013, SIA 242; VKF-Merkblatt 2003-15 (externe
+Beschaffung, unverändert seit Run 32); Strukturentscheid PL-02-Reichweite (Run-31-Befund 3).
+
+Report `outputs/2026-07-28_normen-nacht-run36.md`.
+
 ## Run 36 (MacBook Pro, 29.07.2026) — beide BSR-16-15-Fragen vom 28.07. geschlossen; die Frage-Prämisse war falsch
 
 **Befund 0 (methodisch, der wichtigste dieses Laufs): die beiden Fragen vom 28.07. unterstellten eine

@@ -562,7 +562,7 @@ Dank-Formel setzen — bei Rückfragen wie bei reinen Zur-Kenntnis-Transmittals 
 warmen Register.
 
 ## «Du,» als eigenständiger Gesprächs-Filler direkt nach der Anrede (belegt Fidelity 260714j, authentisch — Einzelbeleg)
-In der operativen Unternehmer-Du-Mail (Karl Wächter AG, Felix Stählin, 14.07.2026, 12:16) setzt
+In der operativen Unternehmer-Du-Mail (**Elektro Stählin AG**, Felix Stählin, 14.07.2026, 12:16) setzt
 Raphael nach der Anrede eine eigene, isolierte Zeile «**Du,**» — als gesprochener Auftakt-Filler,
 bevor der eigentliche Inhalt («im Anhang das Angebot von REAP …») folgt: «Hoi Felix, / **Du**, im
 Anhang das Angebot von REAP bez. Waschtürme.» Grammatikalisch redundant (die Du-Anrede steht schon
