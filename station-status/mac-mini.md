@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 29.07.2026 19:22:47
+Stand: 29.07.2026 19:42:55
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -15,4 +15,4 @@ Stand: 29.07.2026 19:22:47
 - 2 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- 5a3d50c8 vollgas-radar 29.07. 18:57: P1 Registry-Beschreibung wissens-destillat behauptete drei statt vier Nachtschicht-Slots und einen nur per STOP-Datei ruhenden Endlos-Runner statt des Ausbaus vom 29.07. — korrigiert (nur Beschreibung, Takt/enabled/Prompt unberuehrt); vierter Fund desselben Typs heute; Korrektur der eigenen 15:57-Zahl (bauprodukte 19.3 h statt '40 h'); Nebenbefund: 13:30-Arbeit steckt unter fremder Commit-Message (synobsis-batch 13:44)
+- b3bba3b7 nas-selfcommit: 2 Datei(en) 2026-07-29 19:30
