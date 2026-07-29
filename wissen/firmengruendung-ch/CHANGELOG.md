@@ -3,6 +3,17 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-29 (Nachtschicht-Zyklus Mac Mini, 05:30) — Kapitalband & Fremdwährungskapital: letzte needs-verification-Lücke geschlossen
+- Neuer Artikel [[kapitalband-und-fremdwaehrung]]: Art. 621 OR (Aktienkapital in
+  Fremdwährung) und Art. 653s–653v OR (Kapitalband) direkt am Fedlex-Volltext verifiziert
+  (Filestore-Methode, Stand 01.01.2026, Rule `auto-verbesserungen.md` 260721).
+  needs-verification-Vermerke in [[statuten-ag]] und [[kapital-und-liberierung]] entfernt,
+  auf den neuen Artikel verlinkt; INDEX.md und QUESTIONS.md nachgeführt. Fazit für die
+  Raphael Jans AG: beide Instrumente aktuell ohne Mehrwert (kein Fremdwährungsgeschäft,
+  keine wiederkehrenden Kapitalrunden geplant), Klausel bei Bedarf mit Notariat.
+  Verbleibende needs-verification-Lücke der KB: nur noch Gründungskosten-Richtwerte
+  (aktuelle Offerten, [[rechtsform-vergleich]]/[[kosten-und-zeit]]).
+
 ## 2026-07-27 — QUESTIONS-Punkt geschlossen: Schwellenwerte Art. 727 OR (Mac Mini Nachtschicht, 18:30-Lauf)
 - [[revision-und-opting-out]] am Fedlex-Volltext (Filestore-Methode, OR-Stand 01.01.2026)
   verifiziert: Art. 727 OR nennt konkrete Schwellen fuer die ordentliche Revisionspflicht

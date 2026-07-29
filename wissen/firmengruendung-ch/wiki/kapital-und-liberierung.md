@@ -1,9 +1,9 @@
 ---
 title: Aktienkapital & Liberierung (AG)
 status: established
-last_updated: 2026-06-02
-sources: [260602_hra-zh_statuten-mindestinhalt.pdf, 260602_hra-zh_belege-neueintragung-ag.pdf, "Art. 621 OR", "Art. 632 OR", "Art. 633 OR", "Art. 634 OR"]
-links: [[statuten-ag]], [[errichtungsakt]], [[belege-handelsregister]], [[ag-gruendungsablauf]], [[kosten-und-zeit]]
+last_updated: 2026-07-29
+sources: [260602_hra-zh_statuten-mindestinhalt.pdf, 260602_hra-zh_belege-neueintragung-ag.pdf, "Art. 621 OR", "Art. 632 OR", "Art. 633 OR", "Art. 634 OR", "Art. 653s OR"]
+links: [[statuten-ag]], [[errichtungsakt]], [[belege-handelsregister]], [[ag-gruendungsablauf]], [[kosten-und-zeit]], [[kapitalband-und-fremdwaehrung]]
 ---
 
 # Aktienkapital & Liberierung
@@ -31,9 +31,9 @@ Gründungsbericht und Prüfungsbestätigung eines zugelassenen Revisors (siehe
 1 % auf eingebrachtes Eigenkapital, jedoch **Freibetrag CHF 1'000'000** — bei
 typischer KMU-Gründung fällt sie damit nicht an (siehe [[kosten-und-zeit]]).
 
-> *needs-verification:* Revidiertes Aktienrecht ab 01.01.2023 erlaubt u.a. Aktienkapital
-> in zugelassener Fremdwährung und das Kapitalband — bei solchen Varianten aktuellen
-> OR-Stand und Notariat beiziehen.
+> Revidiertes Aktienrecht ab 01.01.2023 erlaubt zusätzlich Aktienkapital in
+> zugelassener Fremdwährung und das Kapitalband — Details, Voraussetzungen und
+> Fedlex-Fundstellen in [[kapitalband-und-fremdwaehrung]].
 
 Agio/Kapitaleinlagereserven bei der Gründung wirken später steuerlich (einkommenssteuerfreie
 Rückzahlung) — Zusammenhang und weitere Inhaber-Steuerhebel in [[steuern-ag-inhaber]].

@@ -7,13 +7,21 @@
 ## needs-verification (zentral)
 - Gründungskosten-Richtwerte ([[rechtsform-vergleich]], [[kosten-und-zeit]]) — aktuelle
   Offerten.
-- Revidiertes Aktienrecht ab 01.01.2023 (Kapitalband, Fremdwährungskapital) —
-  [[statuten-ag]], [[kapital-und-liberierung]].
 
 ## Cross-Article-Spannungen (worth resolving)
 - Noch keine erfasst.
 
 ## Beantwortete Fragen (Archiv)
+- **Revidiertes Aktienrecht ab 01.01.2023: Kapitalband, Aktienkapital in Fremdwährung
+  (29.07.2026, Nachtschicht-Zyklus Mac Mini):** Neuer Artikel
+  [[kapitalband-und-fremdwaehrung]], Art. 621 und 653s–653v OR direkt am Fedlex-Volltext
+  verifiziert (Filestore-Methode, Stand 01.01.2026). Kernbefunde: Fremdwährungskapital
+  muss bei Errichtung Gegenwert ≥ CHF 100'000 haben, Buchführung dann in derselben
+  Währung, Wechsel per GV-Beschluss + öffentliche Beurkundung (Art. 621 OR). Kapitalband:
+  VR-Ermächtigung max. 5 Jahre, Bandbreite ±50 % des eingetragenen Kapitals, Herabsetzung
+  nur ohne vollständiges Opting-out möglich, 10 zwingende Statuten-Pflichtangaben bei
+  Einführung (Art. 653s–653t OR). needs-verification-Flags in [[statuten-ag]] und
+  [[kapital-und-liberierung]] entfernt, dort auf den neuen Artikel verlinkt.
 - **Schwellenwerte ordentliche Revision Art. 727 OR (27.07.2026, Nachtschicht-Zyklus Mac
   Mini):** [[revision-und-opting-out]] direkt am Fedlex-Volltext verifiziert (Filestore-
   Methode, Stand 01.01.2026). Bestätigt: ordentliche Revisionspflicht ab Überschreiten von

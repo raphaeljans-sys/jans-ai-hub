@@ -1,9 +1,9 @@
 ---
 title: Statuten AG — Mindestinhalt
 status: established
-last_updated: 2026-06-02
-sources: [260602_hra-zh_statuten-mindestinhalt.pdf, "Art. 626 OR", "Art. 944 OR", "Art. 950 OR", "Art. 692 OR", "Art. 693 OR", "Art. 707 ff. OR", "Art. 936a OR", "Art. 118 HRegV"]
-links: [[ag-gruendungsablauf]], [[errichtungsakt]], [[kapital-und-liberierung]], [[revision-und-opting-out]]
+last_updated: 2026-07-29
+sources: [260602_hra-zh_statuten-mindestinhalt.pdf, "Art. 626 OR", "Art. 944 OR", "Art. 950 OR", "Art. 692 OR", "Art. 693 OR", "Art. 707 ff. OR", "Art. 936a OR", "Art. 118 HRegV", "Art. 621 OR"]
+links: [[ag-gruendungsablauf]], [[errichtungsakt]], [[kapital-und-liberierung]], [[revision-und-opting-out]], [[kapitalband-und-fremdwaehrung]]
 ---
 
 # Statuten AG — Mindestinhalt
@@ -31,5 +31,5 @@ Die Statuten müssen notariell beglaubigt oder integrierender Bestandteil der
     (Art. 936a OR).
 
 > Hinweis: Mustertexte (Musterstatuten mit Namenaktien) liegen im OneDrive-Archiv.
-> *needs-verification:* Revidiertes Aktienrecht ab 01.01.2023 (z.B. Kapitalband,
-> Aktien in fremder Währung) — bei Sonderwünschen aktuellen OR-Stand prüfen.
+> Revidiertes Aktienrecht ab 01.01.2023 (Kapitalband, Aktienkapital in Fremdwährung):
+> bei Sonderwünschen siehe [[kapitalband-und-fremdwaehrung]] (Fedlex-Volltext-verifiziert).

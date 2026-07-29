@@ -23,6 +23,9 @@
 
 ### Kapital & Organe
 - [[kapital-und-liberierung]] — Mindestkapital, Bar-/Sacheinlage, Sperrkonto, Emissionsabgabe · *established*
+- [[kapitalband-und-fremdwaehrung]] — Kapitalband (Art. 653s–653v OR) und Aktienkapital in
+  Fremdwährung (Art. 621 OR), Aktienrechtsrevision 2023 · *established*
+  (Art. 621, 653s–653v OR Fedlex-Volltext-verifiziert)
 - [[revision-und-opting-out]] — Revisionsstelle & Verzicht (Opting-out) · *established*
 - [[verwaltungsrat]] — Konstituierung (Amtsdauer/Präsidium), unübertragbare Aufgaben (Art. 716a),
   Vertretung, Sorgfaltspflicht, Liquiditäts-/Kapitalverlust-/Überschuldungspflichten
@@ -43,8 +46,9 @@
 Siehe [[QUESTIONS]] — Backlog-Punkt «Verwaltungsrat» am 25.07.2026 geschlossen, keine offenen
 Coverage-Lücken mehr registriert.
 
-## Statistik (Stand 2026-07-25)
-- Artikel im Wiki: 13
-- Offene Coverage-Lücken: 0 (Verwaltungsrat am 25.07.2026 geschlossen; Steuern bei Gründung am 24.07.2026)
+## Statistik (Stand 2026-07-29)
+- Artikel im Wiki: 14
+- Offene Coverage-Lücken: 0 (Verwaltungsrat am 25.07.2026 geschlossen; Steuern bei Gründung am
+  24.07.2026; Kapitalband/Fremdwährung needs-verification am 29.07.2026 geschlossen)
 - Outputs: 3 (neue-ag-gruenden_vorgehen, health-check 2026-07-01, steuern-sparen-ag-inhaber)
 - Letzter Health-Check: 2026-07-21 (Mac Mini Nachtschicht)
