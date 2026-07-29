@@ -3,6 +3,18 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-29 (Nachtschicht-Zyklus Mac Mini, 13:30-Versuchsslot) — Vierter Lesson-Artikel: Behörden-Zuständigkeitswechsel KISPI 1171/26
+- Neuer Artikel [[kispi-behoerden-zustaendigkeitswechsel-1171-26]] (Fokus-Bereich
+  Koordination & Kommunikation, bisher leer): UGZ-Zuständigkeit lag wegen der Grösse der
+  Einrichtung nicht bei R. Zuercher, sondern bei Hr. Hansen/Stellvertreter Shyam Zala;
+  AFB-Kreisarchitektur wechselte von A. Hottinger zu L. Furrer (Team 5, Gebiet Weinegg) —
+  beide Wechsel wurden erst reaktiv sichtbar, nicht durch Mitteilung des Amts. Quelle:
+  Logbuch-Journal 24./25./27.07.2026 (`logbuch/fristen.md`). INDEX.md (Statistik 3→4
+  Artikel) und QUESTIONS.md (Bootstrap-Fortschritt, verbleibender Kandidat «Kosten &
+  Termine»: fehlende Auftragsbestätigung KISPI↔JANS als Ursache der RE-00087-Mahnkaskade)
+  nachgeführt. Kein Raw-Material nötig — direkt aus dem bereits verifizierten
+  Logbuch-Journal kompiliert.
+
 ## 2026-07-28 — Wissens-Chef Run 19 (Cross-KB): BKP-Feld praezisiert, Haupt-Vorwurf WIDERLEGT
 - **[korrektur] `wiki/roethlisberger-geraetepreis-pruefung-273-35.md`, Frontmatter `bkp`.** Das Feld
   trug «273.35» — einen Code, den die **BKP-2017-Liste nicht kennt** (dort existiert nur 273.3

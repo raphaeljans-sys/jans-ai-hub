@@ -18,10 +18,10 @@ Inhaltsverzeichnis aller Lesson-Artikel. Vom Bibliothekar gepflegt.
 - [[sbb-naeherbaurecht-thalwil-2414-vordach]] — Thalwil 2414: ein 12.76 m² Vordach im SBB-Näherbaurechtsperimeter löst eine eigene, erweiternde Vereinbarung aus, die zur JANS-Bringschuld in der Auflagebereinigung wird; Lesson: bei jeder Projektänderung im Näherbaurechtsperimeter frühzeitig aktiv die SBB-Vereinbarung erweitern lassen, nicht erst reaktiv
 
 ### Koordination & Kommunikation
-- _(noch keine)_
+- [[kispi-behoerden-zustaendigkeitswechsel-1171-26]] — KISPI 1171/26: UGZ- und AFB-Zuständigkeiten wechseln mitten im Verfahren (Fallgrösse bzw. Gebiets-/Team-Zuteilung), ohne Mitteilung ans Projekt; Lesson: bei länger laufenden Verfahren die aktuelle Zuständigkeit aktiv verifizieren statt am zuletzt bekannten Kontakt festzuhalten
 
-## Statistik (Stand 2026-07-28)
-- Artikel im Wiki: 3 (kispi-lbw-rohdichte-800, roethlisberger-geraetepreis-pruefung-273-35, sbb-naeherbaurecht-thalwil-2414-vordach — alle status established)
+## Statistik (Stand 2026-07-29)
+- Artikel im Wiki: 4 (kispi-lbw-rohdichte-800, roethlisberger-geraetepreis-pruefung-273-35, sbb-naeherbaurecht-thalwil-2414-vordach, kispi-behoerden-zustaendigkeitswechsel-1171-26 — alle status established)
 - Letzter Health-Check: 2026-07-25 (siehe outputs/2026-07-25_health-check.md)
 
 > Befüllung: Roh-Material in `raw/` ablegen → kompilieren lassen. Siehe `CLAUDE.md`.
