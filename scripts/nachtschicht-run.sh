@@ -9,7 +9,9 @@
 #
 # Ein Lauf = EIN Arbeitszyklus (eine Aufgabe, messbares Ergebnis) durch den
 # vollen JANS-Harness via dispatch-run.sh (Budget-Deckel, Logging auf NAS).
-# Schwester des Dauerschicht-/loop auf dem MacBook Pro — mit Doppelarbeit-Guard.
+# Frueher Schwester des Dauerschicht-Loops auf dem MacBook Pro. Seit dem Ausbau des
+# VOLLGAS-Endlos-Runners (29.07.2026) ist dieser Job der EINZIGE Lern-Taktgeber des Hub;
+# der Doppelarbeit-Guard im Prompt ist entsprechend eng gefasst (siehe dort).
 #
 # Installation (Mac Mini): Plist ~/Library/LaunchAgents/ch.jans.nachtschicht.plist
 # Log: ~/Library/Logs/ch.jans.nachtschicht.log + dispatch/log auf dem NAS
@@ -83,11 +85,11 @@ Prioritaeten (nimm die erste, die faellig ist):
 1. remote-tasks/pending/ und sync-tasks/mac-mini/ abarbeiten
 2. Mini-exklusive Baustelle: Synobsis Stufe 2 Embeddings (py3.12-venv) fortsetzen, falls offen
 3. Fristen-/Pendenzen-Radar aus logbuch/: Ueberfaelliges nur als Entwurf/Zusammenstellung aufbereiten — NIE selbststaendig versenden
-4. Naechste faellige Trainingslektion unter wissen/*/training/PROGRAMM.md (KB, die am laengsten nicht trainiert wurde; Takt-/Drossel-Regeln beachten)
+4. Naechste faellige Trainingslektion unter wissen/*/training/PROGRAMM.md. Massgeblich fuer «am laengsten nicht trainiert» ist der letzte INHALTLICHE Stand in wiki/ (juengste mtime einer Artikeldatei), NICHT das CHANGELOG-Datum: Struktur-, Register- und Statuspflege setzt den CHANGELOG auf heute, ohne dass ein einziger Artikel gewachsen waere (belegt 29.07.2026 an bauprodukte). Bei aehnlichem Stand zuerst die KB mit den meisten offenen Positionen. Traegt eine PROGRAMM.md einen Stillgelegt-/Ereignis-Trigger-Statuskopf, ist sie kein gueltiges Ziel; Takt-/Drossel-Regeln beachten
 5. Offene QUESTIONS.md einer KB recherchieren und als Wiki-Artikel kompilieren
 6. Sonst: wissenscheck Phase 1 (unbeaufsichtigt) auf der KB mit dem aeltesten Audit-Datum
 
-Doppelarbeit-Guard: Der Dauerschicht-Loop auf dem MacBook Pro arbeitet dieselbe Liste rund um die Uhr. Lies darum IMMER zuerst das juengste Protokoll unter dispatch/log/ (INHALTLICH, nicht nur den Namen) sowie CHANGELOG.md und Logbuch-Journal der betroffenen KB; ist die Aufgabe erledigt oder erkennbar in Arbeit, nimm die naechste Prioritaet.
+Doppelarbeit-Guard (KORRIGIERT 29.07.2026, vollgas-chef-radar): Der VOLLGAS-Endlos-Runner auf dem MacBook Pro ist seit dem 29.07.2026 AUSGEBAUT — die frueher hier behauptete zweite Schicht «rund um die Uhr» gibt es nicht mehr. Du bist der einzige Mechanismus, der diese Liste abarbeitet. Der Guard bleibt bestehen, aber er ist eng zu fassen: Lies das juengste Protokoll unter dispatch/log/ (INHALTLICH, nicht nur den Namen) sowie CHANGELOG.md und Logbuch-Journal der betroffenen KB. Ueberspringe eine Prioritaet NUR, wenn dort heute ein INHALTLICHES Delta belegt ist (neue/gewachsene Datei in wiki/ bzw. outputs/). Ein reiner Struktur-, Status- oder Registereintrag im CHANGELOG ist KEIN erledigtes Training und rechtfertigt kein Ueberspringen. Im Zweifel arbeiten statt ueberspringen — ein doppelt gepruefter Artikel kostet weniger als ein leer verstrichener Slot (belegt 29.07. 13:30: die Prioritaeten 3 und 4 wurden als «abgedeckt» uebersprungen, obwohl bauprodukte mit 55 offenen Positionen seit 28.07. 23:42 unberuehrt lag).
 
 Budget-Disziplin (Lehre aus den Laeufen 00:30/01:30 am 21.07.): Dein Lauf hat ein hartes Budget von 5 USD. Waehle NUR Aufgaben, die inklusive Verifikation und Registerpflege in ~4 USD machbar sind — keine grossen Agent-Fan-outs, keine Recherchen ueber viele Quellen. Ist die naechste faellige Aufgabe erkennbar groesser: NICHT anfangen, sondern in der QUESTIONS.md der KB als «zu gross fuer Nachtschicht-Budget, braucht dedizierten Lauf» vermerken und eine kleinere Aufgabe nehmen. Scheiterte der letzte Lauf an Budget oder Timeout an einer Aufgabe, nimm NIE dieselbe Aufgabe direkt erneut.
 
