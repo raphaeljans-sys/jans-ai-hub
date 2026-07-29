@@ -3,6 +3,16 @@
 Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit ✓ + Datum.
 
 ## A — Kartenportale
+- [ ] **K61 (Wissens-Chef Run 20, 2026-07-29) — Nachfolgeerlass der KGSchV (LS 711.11) für
+  OEREB-Thema 130.** Die Rechtsgrundlagen-Spalte von Thema 130 in
+  [[kartenportale-oereb-kataster-system-zh]] nannte bis heute ungeflaggt **LS 711.11 §§ 2/3**
+  (KGSchV), amtlich **aufgehoben per 01.01.2022** (zhlex-Erlassseite LS 711.11, Nachtrag 099;
+  belegt von `baurecht` Buch-Run 69). Jetzt als aufgehoben markiert; **die Nachfolge ist im Hub
+  nicht belegt und wurde nicht geraten**. Damit steht in der Angabe, die aus dieser KB in
+  Behördenschreiben ans AWEL wandert, weiter eine unbelegte Lücke — nicht mehr ein falsches Zitat,
+  aber auch noch keine tragfähige Grundlage. Nachweis-Pflicht liegt bei `baurecht` (dort als offene
+  Frage geführt, nächster Schritt: OS-Band 2021/2022 nach dem aufhebenden RRB). Sobald belegt: hier
+  und in der Tabellenzeile eintragen. Führend für den Erlassstand bleibt `baurecht`.
 - [x] **K59 (Run 67, 2026-07-25, Token-Vollgas)** Dateinamens-/Groessen-basierter Scout (statt
   begriffsbasiert, Lehre aus Run 65 E45) findet die bisher nie gelesene 37-MB-Rasterdatei
   `geoglatt.ch/Maur/Zonenplan.pdf` — amtlicher Zonenplan Gemeinde Maur, genehmigt 27.02.2012,

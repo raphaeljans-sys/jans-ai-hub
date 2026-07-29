@@ -78,10 +78,20 @@ DS3: 41.2 Dossier Submission/03_Versand/
 DS3: 70 Unternehmerdokumentation/09_Materialdeklaration
 ```
 
-Der Wurzelpfad des Projektordners selbst ist **noch nicht verifiziert** (das NAS war beim
-Anlegen dieses Programms nicht gemountet, Rule `identifikatoren-verifizieren`). Kandidat ist
-`/Volumes/daten/04_Buero/02_Projekte/2619_KINDERSPITAL/`; der erste Lauf prüft ihn und
-trägt den tatsächlichen Pfad hier nach, mit Datum.
+**Wurzelpfad verifiziert (Lauf 1, 29.07.2026):** Der beim Anlegen dieses Programms genannte
+Kandidat `/Volumes/daten/04_Buero/02_Projekte/2619_KINDERSPITAL/` existiert **nicht** — dieser
+NAS-Ordner enthält ein anderes, älteres Archiv (Projektnummern 10xx–16xx, nicht KISPI). Der
+tatsächliche Wurzelpfad des laufenden Mandats liegt auf SharePoint/OneDrive (Ebene «Projekt»
+gemäss Rule `projekt-ablage-stand`, nicht NAS):
+
+```
+/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 01 Projekte/2619_KINDERSPITAL/
+```
+
+Struktur passt zu den unten belegten Pfadmustern (`02_Korrespondenz/4_Gruners GT Planer/…`,
+`03_BKP/LOS_…`). Diese Station-Besonderheit gilt vermutlich für alle Stationen identisch, da
+OneDrive-Pfade kontounabhängig strukturiert sind — auf einer anderen Station ggf. gegenprüfen,
+falls der Pfad dort abweicht.
 
 ### Dokumenttypen — angepasst an ein laufendes Mandat
 
@@ -278,12 +288,18 @@ dazu gehört Raphael, nicht dem Loop.
 | Lauf | Datum | Projekte / Dokumente | Neue Artikel | Befunde Stufe C |
 |---|---|---|---|---|
 | 0 | 29.07.2026 | — (Programm angelegt, Pilot 2619 KISPI gesetzt) | — | — |
+| 1 | 29.07.2026 | 2619 KISPI — Wurzelpfad verifiziert (SharePoint/OneDrive, nicht NAS); `quellen-inventar.md` angelegt (36 Zeilen); Stufe A auf 1 Dokument (Rückweisung Installationsplan Lüftung, 296_7_Brandschutzexperte Ziegel) | — (Stufe B bewusst ausgelassen, siehe unten) | — (Stufe C bewusst ausgelassen, siehe unten) |
 
-**Nächster Schritt (Lauf 1, interaktiv, NAS-Mount erforderlich):**
+**Hinweis zu Lauf 1:** zwei vorherige Remote-Dispatch-Versuche (`20260729-lauf1-projekt-lessons`,
+`…-v2`) sind an Infrastrukturfehlern gescheitert (exit 1 bzw. Git-Remote-Fehler auf der
+Zielstation) — Lauf 1 wurde stattdessen interaktiv nachgeholt. Wie im Tracker vorgesehen: NUR
+Stufe A, Raphael liest das Destillat `raw/260729-kispi-rueckweisung-installationsplan-lueftung.md`
+gegen die drei Originaldateien gegen. Stufe B/C folgen erst nach dieser Handkontrolle (Lauf 2).
 
-1. Wurzelpfad `2619_KINDERSPITAL` verifizieren und oben nachtragen.
-2. `training/quellen-inventar.md` anlegen — Projektordner, DS3 und die belegten Pfadmuster
-   sichten, jedes Fundstück mit Status `[ ]`.
-3. **Stufe A auf genau EIN Dokument** anwenden, Destillat nach `raw/` schreiben.
-4. Raphael liest das Destillat gegen das Original: stimmen Zitate und Fundstellen?
-   Erst wenn ja, geht es mit Stufe B und C weiter — vorher wird nicht skaliert.
+**Nächster Schritt (Lauf 2, erst nach Freigabe durch Raphael):**
+
+1. Raphael prüft das Destillat gegen das Original (Zitate/Fundstellen stimmen?).
+2. Bei Freigabe: die übrigen offenen Inventar-Zeilen (Stufe A, 3–8 weitere Dokumente je Lauf),
+   danach erstmals Stufe B (ein Wiki-Artikel aus mehreren Destillaten) und Stufe C.
+3. Erst danach — ebenfalls mit Raphaels Freigabe — Registrierung als `scheduled_task`
+   (siehe Abschnitt «Freigabe» oben).

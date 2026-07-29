@@ -29,7 +29,7 @@ wiederkehren. Bundesrecht in Zuständigkeit Kanton/Gemeinde:
 | 73B | Nutzungsplanung: kommunale Bau- und Zonenordnung | SR 700 Art. 14/26, LS 700.1 §§ 2, 45–78, 88, 89 | Gemeinden (ARE) | Ja |
 | 76 | Planungszonen | SR 700 Art. 27, LS 700.1 § 346 | ARE | Ja |
 | 116 | Kataster der belasteten Standorte | SR 814.01 Art. 32c, SR 814.680 Art. 5, LS 712.1 § 30 | AWEL | Nein |
-| 130 | Gewässerschutzbereiche | SR 814.20 Art. 19, SR 814.201 Art. 29/30 Anh. 4, ~~LS 711.1 § 3~~ → **§ 45 WsG (LS 724.1)**, LS 711.11 §§ 2/3 | AWEL | Ja |
+| 130 | Gewässerschutzbereiche | SR 814.20 Art. 19, SR 814.201 Art. 29/30 Anh. 4, ~~LS 711.1 § 3~~ → **§ 45 WsG (LS 724.1)**, ~~LS 711.11 §§ 2/3~~ ⚠ aufgehoben 01.01.2022, Nachfolge unbelegt (s. Kasten) | AWEL | Ja |
 | 131 | Grundwasserschutzzonen | dito, kantonal **§ 46 WsG** (Festsetzung Gemeindevorstand, Genehmigung Direktion) | Gemeinden (AWEL) | Ja |
 | 132 | Grundwasserschutzareale | SR 814.20 Art. 19, ~~LS 711.1 §§ 3/34/37~~ → **§ 45 WsG (LS 724.1)** | AWEL | Ja |
 | 145 | Lärmempfindlichkeitsstufen | SR 814.41 Art. 43, LS 700.21 § 14 | Gemeinden (ARE) | Ja |
@@ -66,6 +66,27 @@ wiederkehren. Bundesrecht in Zuständigkeit Kanton/Gemeinde:
 > § 48 Grundwasser-/Gewässerschutzkarte **und Wärmenutzungsatlas**. Führend für den Erlassstand
 > bleibt die KB `baurecht` (`wissen/baurecht/buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md`,
 > `wissen/baurecht/wiki/QUESTIONS.md`). Bundesrecht (SR 814.20 Art. 19/21) unverändert.
+>
+> ⚠ **DRITTER aufgehobener Erlass in derselben Zeile (Wissens-Chef Run 20, 29.07.2026).** Thema 130
+> nennt neben LS 711.1 auch **LS 711.11 §§ 2/3** — das ist die **KGSchV**, und sie ist per
+> **01.01.2022 aufgehoben**: amtlich an der zhlex-Erlassseite LS 711.11 der Staatskanzlei
+> (Erlassdatum 22.01.1975, Inkraftsetzung 01.07.1975, Aufhebungsdatum 01.01.2022, letzte Fassung
+> Nachtrag 099, «in Kraft bis 01.01.2022»); belegt von `baurecht` in Buch-Run 69
+> (`wissen/baurecht/wiki/QUESTIONS.md`, `wiki/baureife-und-erschliessung.md`). Die KGSchV war damit
+> **über vier Jahre früher totes Recht als das EG GSchG** — sie fiel 2022, das EG GSchG erst 2026.
+> **Welcher Erlass die KGSchV abgelöst hat, ist im Hub nicht belegt und wird hier nicht geraten**;
+> die WsV enthält keine Aufhebungsklausel zur KGSchV. Als Bring-Schuld in `wiki/QUESTIONS.md`
+> geführt, Nachweis-Pflicht bei `baurecht` (nächster Schritt dort: OS-Band 2021/2022 nach dem
+> aufhebenden RRB durchsuchen).
+>
+> **Warum der Run-18-Sweep daran vorbeilief — Lehre für jede künftige Erlass-Nachführung:**
+> gesucht wurde nach der Nummer **LS 711.1**, und `LS 711.11` enthält diese Zeichenfolge als
+> Präfix. Ein Sweep, der die Fundstelle als erledigt abhakt, sobald die gesuchte Nummer in der
+> Zeile geflaggt ist, liest über den **längeren Nachbarn mit derselben Wurzel** hinweg. Bei
+> LS-Nummern ist die Ziffernfolge nicht eindeutig ohne Wortgrenze: **711.1 ≠ 711.11**, so wie
+> 724.11 zwei verschiedene Erlasse in zwei Zeitperioden trug (Kasten oben). Bei Erlass-Sweeps
+> darum auf Wortgrenze prüfen und jede Nummer der Zeile einzeln abarbeiten, nicht die Zeile als
+> Einheit.
 
 Kantonales Recht (Kt. ZH):
 

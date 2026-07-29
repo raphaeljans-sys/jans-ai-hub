@@ -3,6 +3,28 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-29 (interaktive Session, nach zwei gescheiterten Remote-Dispatch-Versuchen) — Ingest-Programm Lauf 1: Wurzelpfad verifiziert, erstes Destillat
+- **Wurzelpfad 2619 KISPI korrigiert:** der in `training/PROGRAMM.md` genannte NAS-Kandidat
+  `/Volumes/daten/04_Buero/02_Projekte/2619_KINDERSPITAL/` existiert nicht (dort liegt ein
+  anderes, älteres Archiv, Projektnummern 10xx–16xx). Tatsächlicher Wurzelpfad ist SharePoint/
+  OneDrive: `.../OneDrive-FreigegebeneBibliotheken–JANS/AR - 01 Projekte/2619_KINDERSPITAL/`
+  (Ebene «Projekt» gemäss Rule `projekt-ablage-stand`, nicht NAS). Im PROGRAMM nachgetragen.
+- **`training/quellen-inventar.md` neu angelegt** (36 Zeilen): Sichtung von
+  `02_Korrespondenz` (Schwerpunkt Gruners GT Planer/Brandschutzexperte Ziegel, Behörden),
+  eines LOS aus `03_BKP` (Röthlisberger), Ausschnitten aus `09_Dokumente` sowie der
+  Truninger-DS3-Sammlungsstruktur (Tiefe 1, Login ohne Rückfrage möglich). Zwei Zeilen als
+  `[-]` markiert (bereits verarbeitetes bzw. nicht einschlägiges Material), der Rest offen für
+  Folgeläufe. Mail (rj@/kispi@) in diesem Lauf nicht gesichtet — offen vermerkt.
+- **Erstes Destillat (Stufe A):** `raw/260729-kispi-rueckweisung-installationsplan-lueftung.md`
+  — QS-Brandschutzexperte weist den Lüftungs-Installationsplan des HLK-Fachplaners zurück
+  (beide Gruner AG, unterschiedliche Teams), mit wörtlichen Zitaten aus Mailthread und der
+  Stellungnahme Brandschutz vom 23.07.2026 (S. 9). `raw/_INGESTED.md` nachgeführt.
+- **Bewusst NICHT ausgeführt:** Stufe B (Kompilat) und Stufe C (adversarische Verifikation) —
+  Lauf 1 endet regelkonform nach dem einen Destillat, das Raphael von Hand gegen das Original
+  liest (Rule `wissens-bibliothekar`, PROGRAMM.md Abschnitt «Freigabe»). Tracker in
+  `training/PROGRAMM.md` (Zeile Lauf 1) nachgeführt, inkl. Hinweis auf die zwei gescheiterten
+  Remote-Dispatch-Vorversuche.
+
 ## 2026-07-29 (Nachtschicht-Zyklus Mac Mini, 13:30-Versuchsslot) — Vierter Lesson-Artikel: Behörden-Zuständigkeitswechsel KISPI 1171/26
 - Neuer Artikel [[kispi-behoerden-zustaendigkeitswechsel-1171-26]] (Fokus-Bereich
   Koordination & Kommunikation, bisher leer): UGZ-Zuständigkeit lag wegen der Grösse der
