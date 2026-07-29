@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.07.2026 04:01:55
+Stand: 29.07.2026 04:12:05
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 03:42)
@@ -13,4 +13,4 @@ Stand: 29.07.2026 04:01:55
 - 3 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- 19dca91f nas-selfcommit: 1 Datei(en) 2026-07-29 04:00
+- d79873cf vollgas-radar 29.07. 04:20 Nachtrag: Freigabepfad des Wrapper-Fix auch auf dem Mac Mini gegen das echte Binary nachgemessen (claude -> /opt/homebrew/bin/claude), Fix im Mini-SSD-Klon verifiziert, Builtin-Randbedingung dokumentiert
