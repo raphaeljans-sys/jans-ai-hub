@@ -1,8 +1,8 @@
 ---
 title: Private Kontrolle Energie Kt. ZH — wer den Energienachweis unterzeichnet
 status: established
-last_updated: 2026-07-13
-sources: [PL - 04 Energie/_Private Kontrolle/zh_komplett.pdf (Baudirektion ZH, AWEL Abt. Energie — «Private Kontrolle — Liste der Befugten, Stand April 2025»), Besondere Bauverordnung I (BBV I) vom 6. Mai 1981 LS 700.21 §§ 4-7, Bauverfahrensverordnung (BVV) § 6, zh.ch/energienachweise, PL-04/forumenergie.ch/230710_FEZ_Kurse_Fruehling_Sommer_2023_WEB.pdf + 230926_RE.pdf (Weiterbildungsanbieter, Datenstand 2023), PL - 04 Energie/wissen.minergie.ch/Kursunterlagen_230926/Download/FEZ_Kursprofil_Minergie_Nachweis_20230926-230913-120912.pdf (Kursprofil 26.09.2023) + WebSearch forumenergie.ch Kursprogramm (Run 29, 2026-07-13)]
+last_updated: 2026-07-30
+sources: [PL - 04 Energie/_Private Kontrolle/zh_komplett.pdf (Baudirektion ZH, AWEL Abt. Energie — «Private Kontrolle — Liste der Befugten, Stand April 2025»), Besondere Bauverordnung I (BBV I) vom 6. Mai 1981 LS 700.21 §§ 4-7, Bauverfahrensverordnung (BVV) § 6, www.zh.ch/de/planen-bauen/bauvorschriften/bauvorschriften-gebaeude-energie/energienachweise.html, PL-04/forumenergie.ch/230710_FEZ_Kurse_Fruehling_Sommer_2023_WEB.pdf + 230926_RE.pdf (Weiterbildungsanbieter, Datenstand 2023), PL - 04 Energie/wissen.minergie.ch/Kursunterlagen_230926/Download/FEZ_Kursprofil_Minergie_Nachweis_20230926-230913-120912.pdf (Kursprofil 26.09.2023) + WebSearch forumenergie.ch Kursprogramm (Run 29, 2026-07-13)]
 links: [[energie-uebersicht]], [[energie-energienachweis-zh-formulare]], [[recht-norm-quellenlandkarte]], [[brandschutz-pl03-wegweiser]]
 ---
 

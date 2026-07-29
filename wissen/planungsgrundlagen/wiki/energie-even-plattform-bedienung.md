@@ -1,8 +1,8 @@
 ---
 title: EVEN — Bedienung, Rollen & Workflow (energievollzug.ch)
 status: established
-last_updated: 2026-07-13
-sources: [EnDK-Schulung «EVEN — elektronischer Vollzug energetischer Nachweise / Schulung der Bewilligungsbehörden in Kantonen mit Privater Kontrolle» Version 1.4 Stand 13.10.2025 (energieagentur-sg.ch, 68 Folien), zh.ch/energienachweise (abgerufen 04.07.2026), energie-zentralschweiz.ch/vollzug/even (abgerufen 04.07.2026), energievollzug.ch, realer Fallverlauf 2619-KISPI (Projektablage + Büro-Memory, Stand 13.07.2026/Run 20)]
+last_updated: 2026-07-30
+sources: [EnDK-Schulung «EVEN — elektronischer Vollzug energetischer Nachweise / Schulung der Bewilligungsbehörden in Kantonen mit Privater Kontrolle» Version 1.4 Stand 13.10.2025 (energieagentur-sg.ch, 68 Folien), www.zh.ch/de/planen-bauen/bauvorschriften/bauvorschriften-gebaeude-energie/energienachweise.html (abgerufen 04.07.2026), energie-zentralschweiz.ch/vollzug/even (abgerufen 04.07.2026), energievollzug.ch, realer Fallverlauf 2619-KISPI (Projektablage + Büro-Memory, Stand 13.07.2026/Run 20)]
 links: [[energie-energienachweis-zh-formulare]], [[energie-uebersicht]], [[energie-private-kontrolle-zh]], [[kartenportale-gwr-bund]], [[recht-norm-quellenlandkarte]]
 ---
 
@@ -143,7 +143,7 @@ und die Aktionen **«Nachtrag einfordern»** / **«Prüfung abschliessen»**.
 
 Diese drei Freigaben spiegeln die zwei Nachweis-Zeitpunkte im ZH-Verfahren
 (`[[energie-energienachweis-zh-formulare]]`): **Projektkontrolle vor Baubeginn** → Baufreigabe;
-**Ausführungskontrolle nach Bauabschluss** → Bezugsbewilligung (zh.ch/energienachweise).
+**Ausführungskontrolle nach Bauabschluss** → Bezugsbewilligung (www.zh.ch/de/planen-bauen/bauvorschriften/bauvorschriften-gebaeude-energie/energienachweise.html).
 
 ## 7 — Portalfunktionen & Arbeitsweise (Folien 46-53)
 

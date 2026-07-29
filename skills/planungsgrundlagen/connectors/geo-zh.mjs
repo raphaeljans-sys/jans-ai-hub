@@ -522,6 +522,18 @@ async function fetchOereb(egrid, kanton) {
   if (!build) throw new Error(`Kein OEREB-Service fuer Kanton "${kanton}" hinterlegt (nur ZH validiert). EGRID ${egrid} manuell beziehen.`);
   const url = build(egrid);
   const r = await fetch(url, { headers: { "User-Agent": UA } });
+  // ACHTUNG 204: ZH und SZ antworten auf einen dem Kanton UNBEKANNTEN EGRID mit
+  // HTTP 204 + leerem Body (gemessen 30.07.2026, Training Run 93 — ZH und SZ je mit
+  // Fremd-EGRID und mit einem nicht belegten EGRID). 204 liegt im ok-Bereich von
+  // fetch, lief also bis Run 93 in die irrefuehrende Meldung "kein PDF (content-type )".
+  // Der Endpunkt ist dabei intakt; falsch ist der Kanton oder der EGRID.
+  if (r.status === 204) {
+    throw new Error(
+      `OEREB: Kanton "${kanton}" kennt EGRID ${egrid} nicht (HTTP 204, leere Antwort). `
+      + `Der Endpunkt ist erreichbar — pruefe den Kanton (--kanton) bzw. verifiziere den EGRID. `
+      + `Kein Negativbeweis fuer die Parzelle.`
+    );
+  }
   if (!r.ok) throw new Error(`OEREB HTTP ${r.status} (EGRID ${egrid})`);
   const ct = r.headers.get("content-type") || "";
   if (!ct.includes("pdf")) throw new Error(`OEREB-Antwort ist kein PDF (content-type ${ct})`);
@@ -533,8 +545,11 @@ async function fetchOereb(egrid, kanton) {
 }
 
 function isoDate() {
-  // ohne Date.* aus Args ableitbar; hier Systemdatum (Connector laeuft real, nicht im Workflow-Sandbox)
-  return new Date().toISOString().slice(0, 10);
+  // Systemdatum in LOKALER Zeit (Europe/Zurich). NICHT toISOString() — das liefert UTC und
+  // datiert jede Datei zwischen 00:00 und 02:00 CEST (genau das Nachtfenster der Lern-Loops)
+  // einen Tag zurueck; gemessen 30.07.2026 00:37 CEST -> "2026-07-29" (Training Run 93).
+  // Verstoss gegen Rule dateinamen-konvention (Datums-Prefix = tatsaechliches Datum).
+  return new Date().toLocaleDateString("sv-SE"); // sv-SE liefert JJJJ-MM-TT
 }
 
 // --- Main ----------------------------------------------------------------------

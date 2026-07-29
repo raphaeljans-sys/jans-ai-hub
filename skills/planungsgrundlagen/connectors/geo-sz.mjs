@@ -75,7 +75,9 @@ function parseArgs(argv) {
   return a;
 }
 const log = (q) => (msg) => { if (!q) process.stderr.write(msg + "\n"); };
-function isoDate() { return new Date().toISOString().slice(0, 10); }
+// LOKALE Zeit (Europe/Zurich), nicht UTC: toISOString() datiert Dateien zwischen 00:00 und
+// 02:00 CEST einen Tag zurueck (Rule dateinamen-konvention). Gemessen 30.07.2026, Run 93.
+function isoDate() { return new Date().toLocaleDateString("sv-SE"); }
 
 async function getJson(url) {
   const r = await fetch(url, { headers: { "User-Agent": UA, Accept: "application/json" } });
@@ -248,6 +250,15 @@ async function fetchGrundwasserSz(e, n, half = 5) {
 async function fetchOereb(egrid) {
   const url = OEREB_SZ(egrid);
   const r = await fetch(url, { headers: { "User-Agent": UA } });
+  // ACHTUNG 204 (gemessen 30.07.2026, Training Run 93): der SZ-Service antwortet auf einen
+  // ihm unbekannten EGRID mit HTTP 204 + leerem Body. 204 ist fuer fetch "ok", lief also in
+  // die irrefuehrende Meldung "kein PDF". Endpunkt intakt, EGRID/Kanton falsch.
+  if (r.status === 204) {
+    throw new Error(
+      `OEREB SZ: EGRID ${egrid} ist im SZ-OEREB-Register nicht vorhanden (HTTP 204, leere Antwort). `
+      + `Der Endpunkt ist erreichbar — EGRID verifizieren bzw. Kanton pruefen. Kein Negativbeweis.`
+    );
+  }
   if (!r.ok) throw new Error(`OEREB HTTP ${r.status} (EGRID ${egrid})`);
   const ct = r.headers.get("content-type") || "";
   if (!ct.includes("pdf")) throw new Error(`OEREB-Antwort ist kein PDF (content-type ${ct})`);

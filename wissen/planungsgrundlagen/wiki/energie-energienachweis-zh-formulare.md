@@ -1,8 +1,8 @@
 ---
 title: Energienachweis Kt. ZH — Fachformular-Liste (EN-ZH) & EVEN-Plattform
 status: established
-last_updated: 2026-07-19
-sources: [PL - 04 Energie/_Formulare Kanton ZH Baueingabe (EN-ZH.pdf Version Juli 2022 / EN-105.pdf Version August 2017 / EN-110-ZH.pdf Version September 2022), PL - 04 Energie/Solaranlage/EN104/26_EN-104.pdf (EnDK Version Juni 2019), zh.ch/energienachweise (abgerufen 12.06.2026), energievollzug.ch (EVEN), endk.ch + energiehub-gebäude.ch (MuKEn 2025, abgerufen 18.06.2026 + Refresh 13.07.2026), hev-zh.ch/energie-zentralschweiz.ch (Refresh 13.07.2026), EnerG/BBV I/WDV ZH, zh.ch/planen-bauen/bauvorschriften-gebaeude-energie + zh.ch/umwelt-tiere/klima/langfristige-klimastrategie + hev-zh.ch/politik/energie-umwelt/muken + aeesuisse.ch (Refresh 14.07.2026, Run 38), wissen/baurecht/raw/260712_amtlich_zh_energ.md (§ 10c-Verifikation, Run 53), stadt-zürich.ch (§ 49b PBG-Korrektur, Run 53, 2026-07-19)]
+last_updated: 2026-07-30
+sources: [PL - 04 Energie/_Formulare Kanton ZH Baueingabe (EN-ZH.pdf Version Juli 2022 / EN-105.pdf Version August 2017 / EN-110-ZH.pdf Version September 2022), PL - 04 Energie/Solaranlage/EN104/26_EN-104.pdf (EnDK Version Juni 2019), www.zh.ch/de/planen-bauen/bauvorschriften/bauvorschriften-gebaeude-energie/energienachweise.html (abgerufen 12.06.2026), energievollzug.ch (EVEN), endk.ch + energiehub-gebäude.ch (MuKEn 2025, abgerufen 18.06.2026 + Refresh 13.07.2026), hev-zh.ch/energie-zentralschweiz.ch (Refresh 13.07.2026), EnerG/BBV I/WDV ZH, zh.ch/planen-bauen/bauvorschriften-gebaeude-energie + zh.ch/umwelt-tiere/klima/langfristige-klimastrategie + hev-zh.ch/politik/energie-umwelt/muken + aeesuisse.ch (Refresh 14.07.2026, Run 38), wissen/baurecht/raw/260712_amtlich_zh_energ.md (§ 10c-Verifikation, Run 53), stadt-zürich.ch (§ 49b PBG-Korrektur, Run 53, 2026-07-19)]
 links: [[energie-uebersicht]], [[u-werte-grenzwerte-ch]], [[recht-norm-quellenlandkarte]], [[energie-pv-eignung-typenwahl]], [[energie-pv-brandschutz]], [[energie-private-kontrolle-zh]]
 ---
 
@@ -23,9 +23,19 @@ aufgehoben) wird ebenfalls in der KB `energie` geführt, primärquellen-verifizi
 
 **Seit 01.01.2026** wickelt der Kanton ZH den Energienachweis über die Plattform
 **EVEN — Elektronischer Vollzug energetischer Nachweise** ab: **`energievollzug.ch`**
-(Quelle: zh.ch/energienachweise, abgerufen 12.06.2026). Die frühere PDF-Formularfamilie
+(Quelle: www.zh.ch/de/planen-bauen/bauvorschriften/bauvorschriften-gebaeude-energie/energienachweise.html, abgerufen 12.06.2026). Die frühere PDF-Formularfamilie
 **EN-101 bis EN-141 liegt jetzt komplett auf der EVEN-Plattform** und wird dort digital
 ausgefüllt/eingereicht — die einzelnen PDF zum Download entfallen.
+
+> **Link-Frischecheck 30.07.2026 (Run 93):** `energievollzug.ch` antwortet (HTTP 200, Redirect auf
+> `www.energievollzug.ch`), ebenso `energie-zentralschweiz.ch/vollzug/even` und `endk.ch`. Die
+> **Kurzform `zh.ch/energienachweise`**, mit der diese KB die kantonale Seite bis Run 92 zitierte,
+> ist **erloschen (HTTP 404, gemessen 30.07.2026)** — sie war nie eine amtliche Shortlink-Weiche,
+> sondern eine verkürzte Notation. Gültig und nachgemessen ist die vollständige Adresse
+> `www.zh.ch/de/planen-bauen/bauvorschriften/bauvorschriften-gebaeude-energie/energienachweise.html`
+> (HTTP 200, 93 KB). In allen vier betroffenen Energie-Artikeln ersetzt. Für Behördenschreiben und
+> Quellenangaben ist ab jetzt **nur** die vollständige Adresse zu verwenden — die Kurzform lässt
+> sich nicht im Browser öffnen und entwertet die Fundstelle.
 
 > **Bedienung von EVEN** (Rollen Projektkoordination/Nachweisverfassung, Projektstruktur je EGID,
 > Ablauf, Statusmodell, Freigabe-Kaskade, Beilagen-Upload, Private Kontrolle) → eigener Artikel
@@ -78,7 +88,7 @@ Bewilligungsbehörden».
 
 Quelle: **Formular EN-104** (EnDK, Nr. 403-EN-104-001-ger, Version Juni 2019, gültig bis
 31.12.2024 → ab 2026 EN-104-ZH/EVEN). Realer JANS-Beleg: **Bezirk Einsiedeln SZ, Parz. 3301,
-EGID CH527708492462, Abbruch & Neubau EFH** — EBF neu 320 m² → notwendige Leistung **3.2 kW**,
+EGRID CH527708492462, Abbruch & Neubau EFH** — EBF neu 320 m² → notwendige Leistung **3.2 kW**,
 gedeckt mit 22 × PREFA-Solardachplatte (146 W) = 3.2 kW.
 
 - **Bemessungsformel:** **Notwendige Leistung = EBF neu × 10 W/m²**, gedeckelt auf **Maximum

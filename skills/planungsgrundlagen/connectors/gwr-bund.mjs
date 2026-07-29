@@ -173,7 +173,9 @@ async function getJson(url) {
   if (!r.ok) throw new Error(`HTTP ${r.status} bei ${url}`);
   return r.json();
 }
-function isoDate() { return new Date().toISOString().slice(0, 10); }
+// LOKALE Zeit (Europe/Zurich), nicht UTC: toISOString() datiert Dateien zwischen 00:00 und
+// 02:00 CEST einen Tag zurueck (Rule dateinamen-konvention). Gemessen 30.07.2026, Run 93.
+function isoDate() { return new Date().toLocaleDateString("sv-SE"); }
 const num = (v) => (v === null || v === undefined || v === "" ? null : Number(v));
 const fmt = (v) => (v === null ? "—" : Number(v).toLocaleString("de-CH"));
 

@@ -72,7 +72,9 @@ const slug = (s) => (s || "")
   .replace(/[äàâ]/g, "a").replace(/[öô]/g, "o").replace(/[üû]/g, "u").replace(/ß/g, "ss")
   .replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 
-function isoDate() { return new Date().toISOString().slice(0, 10); }
+// LOKALE Zeit (Europe/Zurich), nicht UTC: toISOString() datiert Dateien zwischen 00:00 und
+// 02:00 CEST einen Tag zurueck (Rule dateinamen-konvention). Gemessen 30.07.2026, Run 93.
+function isoDate() { return new Date().toLocaleDateString("sv-SE"); }
 
 function loadRegistry(pfad) {
   if (!existsSync(pfad)) throw new Error(`Registry nicht gefunden: ${pfad}`);
