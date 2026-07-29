@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 29.07.2026 22:18:10
+Stand: 29.07.2026 22:39:31
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:15)
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:26)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -11,8 +11,12 @@ Stand: 29.07.2026 22:18:10
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
 - 3 Datei(en): AR - 01 Projekte / 2414 THALWIL
 - 2 Datei(en): AR - 05 Transfer / Nescha
+- 1 Datei(en): AR - 07 Archiv / .849C9593-D756-4E56-8D6E-42412F2A707B
+- 1 Datei(en): AR - 06 Referenzen / .849C9593-D756-4E56-8D6E-42412F2A707B
+- 1 Datei(en): AR - 05 Transfer / .849C9593-D756-4E56-8D6E-42412F2A707B
+- 1 Datei(en): AR - 04 Honorarauftraege / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
-- 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 1 Datei(en): AR - 03 Studien / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 9d62c8bb vollgas-radar 29.07. 21:57: Korrektur-Harness nachgezogen — echte Umlaute im Eintrag gesetzt (Rule umlaute-konvention), Log-Zitat und Backtick-Pfade unveraendert als Beleg; Layout geprueft (Tabellen 4-spaltig konsistent)
+- efd179ca nas-selfcommit: 2 Datei(en) 2026-07-29 22:30
