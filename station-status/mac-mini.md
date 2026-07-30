@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.07.2026 21:02:49
+Stand: 30.07.2026 21:12:52
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 20:46)
@@ -12,4 +12,4 @@ Stand: 30.07.2026 21:02:49
 - 12 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- ff40471d nas-selfcommit: 2 Datei(en) 2026-07-30 21:00
+- b44fcb5c vollgas-radar 30.07. 20:57: Eintrag durch Korrektur-Harness gezogen — echte Umlaute gesetzt, Umbruch-Artefakt behoben; Lehre: parallele Agenten auf derselben Datei erzeugen scheinbar widerspruechliche Lesevorgaenge
