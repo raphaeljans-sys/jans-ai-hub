@@ -1,0 +1,21 @@
+{
+  "_zweck": "Zustandsspeicher des woechentlichen Abo-Auslastungs-Checks (Task claude-abo-auslastung). Der Check liest diese Datei zu Beginn und schreibt sie am Ende. Sie traegt den Ausfall-Zaehler, an dem die Eskalationsstufe haengt. NICHT von Hand editieren, ausser um einen Alarm bewusst zurueckzusetzen.",
+  "_felder": {
+    "letzterLauf": "Datum/Zeit des letzten Laufs (lokal, YYYY-MM-DD HH:MM)",
+    "ergebnis": "ok | ausfall",
+    "ausfaelleInFolge": "Anzahl aufeinanderfolgender Messausfaelle. 0 = zuletzt erfolgreich gemessen. Ab 2 eskaliert der Check per Mail an rj@.",
+    "letzterWert": "Woche alle Modelle in Prozent beim letzten erfolgreichen Lauf (null bei Ausfall)",
+    "letzterReset": "Reset-Zeitpunkt des Wochenfensters aus der Connector-Ausgabe",
+    "tempoFaktor": "Verbrauch-% geteilt durch verstrichene Fensterzeit-%. 1.0 = genau im Takt, >1.0 = zu schnell.",
+    "ampel": "GRUEN | GELB | ROT | SCHWARZ (Messausfall)",
+    "bemerkung": "Kurznotiz fuer den naechsten Lauf"
+  },
+  "letzterLauf": "2026-07-30 12:49",
+  "ergebnis": "ok",
+  "ausfaelleInFolge": 0,
+  "letzterWert": 66,
+  "letzterReset": "2026-08-03 12:00",
+  "tempoFaktor": 1.52,
+  "ampel": "ROT",
+  "bemerkung": "Erster erfolgreicher Lauf nach elf Tagen Blindheit (Re-Login 30.07. durch Raphael). 66 % nach nur 43 % der Fensterzeit -> Tempo-Faktor 1.52, deshalb ROT nach der neuen Tempo-Regel (die alte Schwellenlogik haette nur GELB gemeldet). Vollgas-Runner beidseitig gestoppt seit 29.07. 02:51; Empfehlung an Raphael: STOP-Flags bis zum Reset 03.08. 12:00 stehen lassen. Naechster Lauf misst gegen das frische Fenster."
+}
