@@ -8,7 +8,7 @@ ausgabe:
   - "bfu-Fachdokumentation 2.027 «Bodenbeläge – Tipps zu Planung, Bau und Unterhalt von sicheren Bodenbelägen», Autor Markus Buchser, Bern 2011, 68 S."
 gelesen: "beide PDFs sind Bild-Scans ohne Textlayer; vollständig als PNG gerendert (200 dpi Durchgang, 300 dpi für Tabellen/Impressum) und visuell gelesen: 2.032 durchgehend S. 1–26 (Titel, Impressum, Inhalt, Kap. I–IX); 2.027 Titel/Impressum/Inhalt sowie Kap. III.5 (Messmethoden/Tabellen 1–2, S. 18–19), Kap. IV (Mindestanforderungen R 9729, Tabellen 3–4, S. 22), Kap. V (Gleitfestigkeit/Verdrängungsraum, Tabelle 5, S. 23), Kap. VII (Planung/Ausführung: Fugen, Gefälle, Treppen/Rampen, Laubengänge, S. 40–42) im Detail geprüft; übrige Kapitel von 2.027 (Unfallstatistik, Belagsmaterial-Eigenschaften Kap. VI, Sanierung Kap. VIII, Reinigung Kap. IX) nur über das Inhaltsverzeichnis erfasst, nicht Volltext-gelesen"
 datenstand: "2012 (bfu-Fachdokumentation 2.032) bzw. 2011 (bfu-Fachdokumentation 2.027)"
-status: "speculative (Erstdestillat 260730 Run 38, noch nicht verifiziert)"
+status: "speculative (Erstdestillat 260730 Run 38; unabhaengige Refuter-Runde am selben Tag: BEANSTANDET mit 3 Befunden, 2 inhaltlich. Der Refuter hat saemtliche Zuordnungstabellen 9-16 der 2.032 ZELLENWEISE gegen das gerenderte Original geprueft. (1) Tab. 15 Verkehrswege: die Zeilen 'Laderampen nicht ueberdacht' (GS3 / R 12 V4) und 'Marktplaetze, Piazzas' (GS3 / R 12) waren zu einer Zeile zusammengefasst, wodurch das V4 der Laderampen verlorenging — genau der Fehlertyp, der unbemerkt in ein Leistungsverzeichnis wandert. (2) Der Zusatzhinweis zu Kruecken/Gehhilfen/Krankenstuehlen/Personenliften war an die Kuechen-Anforderung von Tab. 12 gehaengt; er steht in Wahrheit in der Einleitung zu Kap. 3 'Anforderungen Barfussbereich' (Tab. 16) und gilt dem medizinischen Nassbereich. (3) formal: Seitenangabe des Gefaelle-Absatzes um eine Seite ungenau. Beide inhaltlichen Befunde hat der Hauptprozess vor der Uebernahme am eigenen 250-dpi-Rendering der S. 23 und 24 selbst nachgeprueft und bestaetigt; alle drei eingearbeitet. BESTAETIGT vom Refuter: Titelblaetter, Impressum und ISBN beider Dokumente, saemtliche Raum-/Klasse-Zuordnungen der Tabellen 9-14 und 16 (keine vertauschte Klasse), die my-Grenzwerte GS1-GS4/GB1-GB3 (2.032 Tab. 1/2 = 2.027 Tab. 3/4, wortgleich), die Verdraengungsraum-Tabelle V4/V6/V8/V10 inkl. Gitterrost-Sonderregel, die Neigungswinkel-Baender R9-R13 und A/B/C, das wechselseitige Zitierverhaeltnis der beiden Dokumente und die Richtigkeit der eigenen gelesen-Angabe im Frontmatter. Kein Nulldurchgang. Ausgewiesene Luecke unveraendert: Kap. II, VI, VIII und IX der 2.027 nur ueber das Inhaltsverzeichnis erfasst)"
 last_updated: 2026-07-30
 links: [[REGISTER]]
 ---
@@ -140,9 +140,14 @@ im Original, hier nur die Kernwerte zur Orientierung, keine Volltext-Kopie:
   Gedecke/Tag und Grossküchen GS3/V4 (R12 V4); Verkaufsbereiche Food GS2 (R11).
 - **Gesundheitswesen (Tabelle 12, S. 22):** Patientenzimmer, Therapieräume GS1
   (R10); Küchen für Gemeinschaftsverpflegung in Krankenhäusern/Kliniken GS3
-  (R12). Zusatzhinweis: In medizinischen Abteilungen/Therapiebädern sind wegen
-  Gehhilfen, Krankenstühlen und mobilen Personenliften zusätzliche Kriterien zu
-  berücksichtigen (2.032 S. 24).
+  (R12).
+- **Zusatzhinweis zu medizinischen Abteilungen und Therapiebädern** (2.032 S. 24): wegen
+  körperlicher Behinderungen von Patienten sind zusätzliche Gesichtspunkte zu beachten —
+  Gehen mit Krücken, Befahren mit Gehhilfen, Krankenstühlen und mobilen Personenliften.
+  ACHTUNG Verortung (Refuter-Korrektur 260730 Runde 1): dieser Hinweis steht in der
+  **Einleitung zu Kapitel 3 «Anforderungen Barfussbereich»** (Tabelle 16), NICHT bei
+  Tabelle 12 und nicht bei den Küchen. Er gilt also dem medizinischen **Nassbereich**;
+  eine Vorfassung dieses Destillats hatte ihn an die Küchen-Anforderung gehängt.
 - **Öffentliche Bauten (Tabelle 13, S. 23):** Sanitärräume, Klassenräume,
   Fachräume Werken, Auditorien/Kirchen/Versammlungsräume, Museen/Kinos,
   Schalterräume, Pausenhallen gedeckt GS1 (R10); Lehrküchen in Schulen/Küchen in
@@ -152,9 +157,13 @@ im Original, hier nur die Kernwerte zur Orientierung, keine Volltext-Kopie:
   gedeckt/unterirdisch, Betankungsbereiche nicht überdacht GS3 (R12);
   Bergbahnstationen, Perron/Gleise aussen GS4 (R13, teils V4).
 - **Verkehrswege (Tabelle 15, S. 23):** Unterführungen/Passagen,
-  Waschhallen/-plätze GS2 (R11); Laderampen nicht überdacht, Marktplätze/Piazzas
-  GS3 (R12); Fussgänger-Gehwege, Laderampen überdacht, Parkflächen im Freien
-  GS2 oder GS1/V4 (R11 oder R10 V4).
+  Waschhallen/-plätze GS2 (R11); **Laderampen nicht überdacht GS3 (R12 V4 — mit
+  Verdrängungsraum-Anforderung!)**; Marktplätze/Piazzas GS3 (R12, ohne V4);
+  Fussgänger-Gehwege, Laderampen überdacht, Parkflächen im Freien GS2 oder GS1/V4
+  (R11 oder R10 V4). ACHTUNG (Refuter-Korrektur 260730 Runde 1, am Original S. 23
+  zellenweise nachgeprüft): eine Vorfassung hatte «Laderampen nicht überdacht» und
+  «Marktplätze/Piazzas» zu einer Zeile zusammengefasst und dabei das **V4 der Laderampen
+  verloren**. Wer daraus einen LV-Text ableitet, verliert die Verdrängungsraum-Pflicht.
 - **Barfussbereich (Tabelle 16, S. 24):** Badezimmer, Toiletten,
   Einzel-/Sammelumkleideräume, weitgehend trockene Barfussgänge, Sauna-/
   Ruhebereiche trocken, Beckenböden Nichtschwimmerbereich bei durchgehend
@@ -195,7 +204,8 @@ fett hervorgehoben im Original).
   ebenen Boden auftreten, gelten als potenzielle Stolperstelle (S. 40).
 - **Bei Zugangswegen zu Gebäuden gelten Absätze von mehr als 10 mm** als
   Stolpergefahr (S. 40).
-- **Oberflächengefälle zum Ablauf:** mindestens 1,5–2 % (je nach Belagsstruktur);
+- **Oberflächengefälle zum Ablauf** (S. 41; die frühere Einzelangabe «S. 40» war um eine
+  Seite ungenau, Refuter-Korrektur 260730 Runde 1)**:** mindestens 1,5–2 % (je nach Belagsstruktur);
   offene Ablaufrinnen dürfen höchstens 2 cm tief sein und dürfen weder
   Lastentransport- noch andere Verkehrswege kreuzen; Bodenabläufe/deren
   Abdeckungen müssen die gleiche Rutschhemmung wie der umgebende Belag
@@ -271,10 +281,12 @@ Buchser, bfu):
   aus dem Gedächtnis zu nennen (Rule `identifikatoren-verifizieren`).
 - Bei Healthcare-Projekten (KISPI, Alterswohnen, Reha) ist die Zeile
   «Küchen für Gemeinschaftsverpflegung in Krankenhäusern/Kliniken → GS3»
-  (2.032 Tabelle 12, S. 22) sowie der Zusatzhinweis zu Gehhilfen/Rollstühlen/
-  Personenliften (2.032 S. 24) im Erläuterungsbericht/Kostenschätzung
-  ausdrücklich zu erwähnen, da er über die generische Küchen-Anforderung
-  hinausgeht.
+  (2.032 Tabelle 12, S. 22) im Erläuterungsbericht bzw. in der Kostenschätzung ausdrücklich
+  zu erwähnen, da sie über die generische Küchen-Anforderung hinausgeht. **Getrennt davon**
+  gilt für die medizinischen Nassbereiche (Therapiebäder, Barfussbereich) der Zusatzhinweis
+  zu Krücken, Gehhilfen, Krankenstühlen und mobilen Personenliften (2.032 S. 24, Einleitung
+  Kap. 3) — die beiden Punkte betreffen verschiedene Raumtypen und wurden in einer
+  Vorfassung fälschlich verknüpft.
 - Bei Nassräumen/Bädern zwingend zwischen R-Werten (Schuhbereich, mit
   Motorenöl geprüft) und GB/A-B-C-Werten (Barfussbereich, mit Wasser/Netzmittel
   geprüft) unterscheiden — ein Produktdatenblatt, das nur eine R-Klasse

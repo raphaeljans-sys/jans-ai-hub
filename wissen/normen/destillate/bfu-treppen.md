@@ -4,7 +4,7 @@ herausgeber: "bfu – Beratungsstelle für Unfallverhütung, Postfach 8236, CH-3
 ausgabe: "Fachbroschüre 2.007.01 – 11.2009 (November 2009, © bfu 2009), 8 Seiten"
 gelesen: "alle 8 Seiten (Bild-Scan ohne nutzbaren Textlayer, als 300-dpi-Rendering visuell gelesen)"
 datenstand: "November 2009 (bfu-Fachbroschuere 2.007.01 – 11.2009)"
-status: "speculative (Erstdestillat 260730 Run 38, noch nicht verifiziert)"
+status: "speculative (Erstdestillat 260730 Run 38; unabhaengige Refuter-Runde am selben Tag: BEANSTANDET mit 10 Befunden, davon 6 Vollstaendigkeitsluecken und 4 formale. Die Vollstaendigkeitsluecken hat der Hauptprozess vor der Uebernahme selbst am 200-dpi-Rendering der S. 3, 4 und 7 nachgeprueft und alle bestaetigt: es fehlten der Kasten 'Behindertengerechte Treppen' (S. 3), ZWEI der sechs Treppenformen (Bogentreppe und Viertel-/halbgewundene Treppe, S. 4), der Einleitungsabsatz zur VSS SN 640 238 (S. 7) sowie die drei eigenstaendigen S.-7-Abschnitte Beleuchtung und Bodenbelag im Aussenraum und die Handlauf-Zusatzanforderungen (nicht als Rutschbahn benutzbar, Kleidungsstuecke duerfen sich nicht verfangen). Alle eingearbeitet. Die zwei Frontmatter-Befunde (gelesen/datenstand trugen das Bearbeitungsdatum) waren bereits vor Eingang des Refuter-Berichts zentral behoben. BESTAETIGT vom Refuter: Publikationsnummer 2.007.01 – 11.2009 am Seitenrand S. 8, saemtliche Zahlenwerte der S. 5-7 (Winkeltabelle 90/75/45/41/30/20/5 Grad mit Prozentwerten, Auftritt 25-29 cm, Steigung 17-19 cm, Schrittmassformel 62-64 cm, Zwischenpodest nach 15-18 Steigungen, Laufbreite 120/90 cm, Handlauf 4-5 cm Durchmesser und 80-90 cm Hoehe, Geländerhoehe 100/90/75 cm, Kugelprobe 12 cm, Rampenneigung 3,5/7 Grad, Treppenwege unter 20 Grad, Aussentreppen 13-18/28-35 cm und 9-12 Stufen, 30/28 Grad). Kein Nulldurchgang)"
 last_updated: 2026-07-30
 links: [[REGISTER]]
 ---
@@ -44,6 +44,10 @@ Planende und Ausführende; verweist auf SIA-Normen (358, 181, 500), DIN 18065, V
 - Fenster/Gläser im Treppenbereich: Übernehmen Gläser die Funktion einer Absturzsicherung,
   ist Verbundsicherheitsglas (VSG, Halterung auf Glas abstimmen) einzusetzen; bei
   Verletzungsgefahr Einscheibensicherheitsglas (ESG) (S. 3).
+- **Behindertengerechte Treppen** (eigener Kasten S. 3, ergänzt 260730 Runde 1): Als
+  Alternativen bzw. Ergänzungen zur Treppe sind Rampen, Treppenlifte, Hebebühnen und Aufzüge
+  vorzusehen; Treppen sowie die Freiflächen an An- und Austritt sind genügend breit
+  auszubilden (S. 3).
 - Schallschutz: In Mehrfamilien-, Reihen- und Doppelhäusern ist die sia-Norm 181
   «Schallschutz im Hochbau» einzuhalten; vorfabrizierte Treppen/Podeste auf speziellen
   Auflagern montieren, bei Holz-/Stahltreppen in Einfamilienhäusern schallmindernde
@@ -60,6 +64,14 @@ Planende und Ausführende; verweist auf SIA-Normen (358, 181, 500), DIN 18065, V
   Mehrfamilienhäusern nur mit Zwischenpodest pro Geschoss (kürzere Sturzlänge) (S. 4).
 - **Podesttreppe**: in allen Gebäudetypen geeignet, wegen kürzerer Sturzlänge bei Stürzen
   meist leichtere Unfallfolgen (S. 4).
+- **Bogentreppe**: bogenförmig und gleichmässig verzogen; benötigt mehr Platz, ist aber
+  relativ sicher zu begehen und kann einen Innenraum ästhetisch aufwerten (S. 4, ergänzt
+  260730 Runde 1 — die Form fehlte in der Erstfassung des Destillats).
+- **Viertel- oder halbgewundene Treppe**: platzsparende Form, oft in Einfamilienhäusern;
+  sicherer zu begehen als die Spindeltreppe und nicht platzintensiver (S. 4, ergänzt
+  260730 Runde 1).
+
+Damit sind alle **sechs** Treppenformen der Doppelseite S. 4 erfasst.
 
 ### Winkel und Steigungsverhältnis (S. 5)
 - Neigungswinkel nach Treppentyp: 90° Leitern, 75° Steiltreppen, 45° (100 %)
@@ -114,6 +126,15 @@ Planende und Ausführende; verweist auf SIA-Normen (358, 181, 500), DIN 18065, V
   bfu-Publikation Nr. 2.032 «Anforderungsliste Bodenbeläge» (S. 6).
 
 ### Rampen, Treppen und Treppenwege (VSS-Norm SN 640 238) (S. 7)
+- **Grundsatz** (Einleitung S. 7, ergänzt 260730 Runde 1): Die Anforderungen an Rampen,
+  Treppen und Treppenwege sind vom Schweizerischen Verband der Strassen- und
+  Verkehrsfachleute (VSS) in der SN 640 238 festgelegt. Die Anlagen sind so zu planen, dass
+  ein freier Zugang für alle potenziellen Verkehrsteilnehmenden gewährleistet ist und die
+  Ansprüche der verschiedenen Benutzergruppen möglichst gleichwertig berücksichtigt werden.
+  Zu gewährleisten sind Verkehrssicherheit (ausreichende Dimensionierung), Unfallprävention
+  (flache Gefälle, Rutschfestigkeit, Absturzsicherungen) und Sicherheit vor Übergriffen
+  (Übersichtlichkeit, Beleuchtung); zusätzlich sind die Anforderungen des
+  behindertengerechten Bauens zu erfüllen (S. 7).
 - Rampen mit einer Neigung ≤ 3,5° (6 %) — in Ausnahmefällen ≤ 7° (12 %) — gewährleisten
   eine gute Benutzbarkeit für alle; bei längeren Rampen ist ein Zwischenpodest
   einzuplanen; ist eine Rampe nicht realisierbar, sind für Gehbehinderte alternative
@@ -121,7 +142,19 @@ Planende und Ausführende; verweist auf SIA-Normen (358, 181, 500), DIN 18065, V
 - Handläufe an Rampen/Treppen/Treppenwegen: grundsätzlich beidseitig, für Erwachsene auf
   einer Höhe von ca. 90 cm, im Bedarfsfall für Kinder auf ca. 65 cm. Bei Breiten > 5 m
   sind zusätzliche Handläufe anzubringen; Anfang und Ende sollen je 30 cm über den
-  An- und Austritt verlängert werden (S. 7).
+  An- und Austritt verlängert werden (S. 7). Die Handläufe sind so auszugestalten, dass sie
+  **nicht als Rutschbahn** benutzt werden können, und so geformt, dass sich **Kleidungsstücke
+  nicht verfangen** können (S. 7, ergänzt 260730 Runde 1).
+- **Beleuchtung im Aussenraum** (S. 7, ergänzt 260730 Runde 1): Rampen, Treppen und
+  Treppenwege sind möglichst so zu konstruieren, dass ausreichende Lichtverhältnisse
+  gewährleistet sind. Für die Nacht und falls nötig auch für den Tag ist eine ausreichende
+  Beleuchtung vorzusehen, die ein sicheres Begehen erlaubt und nicht blendet; die Leuchten
+  sind vor Vandalismus zu schützen.
+- **Bodenbelag im Aussenraum** (S. 7, ergänzt 260730 Runde 1 — nicht zu verwechseln mit dem
+  Bodenbelag-Absatz zu Innentreppen auf S. 6): Die Oberfläche soll eben, rutschfest und
+  dauerhaft sein. Wasser muss gut abfliessen, Schnee einfach beiseitegeschafft werden können.
+  Es dürfen keine Bodenabsenkungen oder Wannen vorhanden sein, die eine Stolperstelle
+  darstellen oder in denen sich Eis bilden kann.
 - Treppenwege haben eine Neigung < 20° (36 %); Schrittmassformel 62–64 cm = 2 s + 1 a ist
   einzuhalten. Zweckmässige Steigungsverhältnisse ergeben sich bei Steigungen von 6–13 cm
   und einer Auftrittstiefe von 35–52 cm. Zwischenpodeste sind anzuordnen bei einer

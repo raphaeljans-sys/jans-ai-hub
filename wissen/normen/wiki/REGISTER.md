@@ -378,8 +378,16 @@ Altverträge mit Vermerk. Im `training/norm-inventar.md` in der Bemerkung markie
 | Treppen | 2.007.01 | 11.2009 | ✓ | älteste der Reihe — dito |
 | Bodenbeläge | 2.027 | 2011 | ✓ | Materialkunde, Ausführung, Sanierung, Reinigung |
 | Anforderungsliste Bodenbeläge (Gleitfestigkeit) | 2.032 | 2012 | ✓ | praxisführend für Bewertungsgruppe je Raum; zitiert 2.027 als Grundlage |
-| Sicherheit im Wohnungsbau | (siehe Destillat) | (siehe Destillat) | ✓ | bauteilbezogener Anforderungskatalog |
+| Sicherheit im Wohnungsbau | 2.034 (2.034.01) | 07.2011 (Druck 2009, Rechtsstand vor 1.1.2011) | ✓ | KEIN Bauteilkatalog, sondern rechtsvergleichende Studie: Bindungsstärke der SIA 358 je Kanton + FL für Geländer/Brüstungen/Treppen (Generalklausel/Verweis/Inkorporation); ZH: § 20 BBV I (Geländer, keine Zahl) + § 305 PBG (Treppenbreiten, beziffert) |
 | Sicherheit, rechtliche Aspekte | 2.075.01 | 02.2011 | ✓ | Kurzinfo, 2 S.; Werkeigentümerhaftung Art. 58 OR, Art. 229 StGB |
+
+⚠⚠ **Besonderer Vorbehalt zu 2.034 «Sicherheit im Wohnungsbau»:** Diese Publikation gibt
+**kantonales Recht** wieder, mit ausdrücklichem Rechtsstand «Bauerlasse konsultiert vor dem
+1.1.2011» (Vorbehalt auf S. 8 der Quelle). Kantonales Baurecht ändert häufig. Die dort zitierten
+Paragrafen — auch die Zürcher § 20 BBV I und § 305 PBG — sind deshalb **nie als geltender
+Rechtsstand zu zitieren**, sondern nur als Einstiegshinweis, welche Norm im jeweiligen Kanton
+überhaupt einschlägig ist. Der geltende Wortlaut ist über die KB `baurecht` bzw. die amtliche
+Gesetzessammlung zu verifizieren (Rule `normen-referenz` und `identifikatoren-verifizieren`).
 
 ⚠ **Zitier-Vorbehalt:** Für 2.006.01 (2010) und 2.007.01 (2009) ist nicht geprüft, ob die bfu
 inzwischen neuere Fassungen publiziert hat — im Haus liegen nur diese. Vor einer Verwendung in

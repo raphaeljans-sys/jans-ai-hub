@@ -111,3 +111,118 @@ Formalien waren. Dieses Argument galt für die alte Prüfrichtung. Die erste Run
 Richtung hat sofort einen inhaltlichen Befund erbracht. Zu entscheiden ist deshalb neu: eine weitere
 Abdeckungs-Runde freigeben, oder den Stopp bewusst bestätigen im Wissen, dass Abdeckungslücken
 bestehen können. Vorgelegt in `wiki/QUESTIONS.md`, Run-38-Eintrag Punkt 2.
+
+## 6. Regulärer Lauf — der BfU-Block aus dem PL-02 Kern-Nachtrag
+
+Erste echte Grundarbeit an dem Bestand, den Raphael am 29.07. neu ins Inventar aufgenommen hat.
+9 Dateien aus `PL - 02_Recht_Norm/06_Richtlinien/BfU/` → **7 Destillate**, jedes mit einem
+unabhängigen Refuter. Fassungsstand in jedem Fall am Dokument selbst belegt, nie aus dem
+Dateinamen — was sich zweimal ausgezahlt hat:
+
+- **«Anforderunegn Bodenbeläge» und «Bodenbeläge» sind kein Fassungspaar**, sondern zwei
+  verschiedene Publikationen: bfu 2.032 «Anforderungsliste Bodenbeläge» (Bern 2012, 30 S.) und
+  bfu 2.027 «Bodenbeläge» (Bern 2011, 68 S.). Sie zitieren einander wechselseitig.
+- **«Geländer und Brüstungen» dagegen schon**: 2.003.01 in den Fassungen 07.2012 und 01.2019, die
+  jüngere geltend. Die 2019er ergänzt quantifizierte Werte, die 2012 fehlten.
+- **«Sicherheit im Wohnungsbau» ist etwas anderes, als der Auftrag annahm.** Ich hatte es als
+  bauteilbezogenen Anforderungskatalog beschrieben; es ist eine **rechtsvergleichende Synopse**
+  der Bauvorschriften aller 26 Kantone und Liechtensteins zu Geländern, Brüstungen und Treppen,
+  mit der Frage, welche Bindungsstärke die SIA 358 je Kanton hat. Der Destillier-Agent hat das
+  erkannt und meine Fehlbeschreibung im REGISTER korrigiert — richtig so.
+
+| Destillat | Publikation | Verdikt des Refuters |
+|---|---|---|
+| `bfu-gelaender-und-bruestungen.md` | 2.003.01, 07.2012 + 01.2019 | **BESTANDEN**, 0 inhaltliche Befunde |
+| `bfu-treppen.md` | 2.007.01, 11.2009 | BEANSTANDET, 10 (6 Vollständigkeitslücken, 4 formal) |
+| `bfu-tueren-und-tore.md` | 2.005-01, 12.2012 | BEANSTANDET, 7 (2 inhaltlich, 1 Auslegungs-Kennzeichnung) |
+| `bfu-glas-in-der-architektur.md` | 2.006.01, 10.2010 | BEANSTANDET, 4 (alle formal) |
+| `bfu-sicherheit-rechtliche-aspekte.md` | 2.075.01, 02.2011 | BEANSTANDET, 2 (1 Cross-Kontamination) |
+| `bfu-bodenbelaege.md` | 2.032 (2012) + 2.027 (2011) | BEANSTANDET, 3 (2 inhaltlich — Tabellen 9-16 zellenweise geprüft) |
+| `bfu-sicherheit-im-wohnungsbau.md` | 2.034, 07.2011 | Refuter-Runde lief zum Redaktionsschluss noch |
+
+Alle gemeldeten inhaltlichen Befunde hat der Hauptprozess **vor der Übernahme selbst am eigenen
+Rendering des Originals nachgeprüft** und bestätigt, bevor sie eingearbeitet wurden.
+
+### Zwei Befunde, die über den Einzelfall hinausgehen
+
+1. **Cross-Kontamination zwischen parallel destillierten Quellen.** Im Destillat
+   `bfu-sicherheit-rechtliche-aspekte.md` stand die PrHG-Fehlerdefinition mit dem Wort
+   «berechtigterweise» — das in diesem Dokument nicht vorkommt. Es stammt aus der gleichzeitig
+   destillierten Schwester-Broschüre «Glas in der Architektur». Ich habe beide Originale
+   nebeneinander geprüft: die zwei bfu-Publikationen formulieren tatsächlich unterschiedlich.
+   **Das ist ein Fehlertyp, der erst durch Parallel-Destillation entsteht** und den eine
+   Einzelprüfung je Dokument strukturell nicht findet — nur ein Refuter, der beide Originale sieht.
+2. **Ein systematischer Frontmatter-Fehler im ganzen Batch.** Vier Destillate trugen in `gelesen`
+   und `datenstand` das heutige Bearbeitungsdatum statt der gelesenen Seiten bzw. des
+   Dokumentstands. Zentral korrigiert. Bemerkenswert: die zwei Agenten, die den grössten Aufwand
+   hatten (Bodenbeläge, Wohnungsbau), haben `gelesen` von sich aus vorbildlich ausgefüllt — inklusive
+   ehrlicher Angabe, welche Kapitel sie nur über das Inhaltsverzeichnis erfasst haben.
+
+### Der wertvollste Befund des BfU-Blocks
+
+Im Destillat `bfu-bodenbelaege.md` stand «Laderampen nicht überdacht, Marktplätze/Piazzas GS3
+(R12)» — zwei Tabellenzeilen zu einer zusammengefasst. Im Original (2.032, S. 23, Tab. 15) trägt
+«Laderampen nicht überdacht» aber **GS3 / R 12 V4**, also zusätzlich eine
+Verdrängungsraum-Anforderung; nur «Marktplätze, Piazzas» ist R 12 ohne V4. Ich habe die Tabelle
+selbst gerendert und die beiden Zeilen einzeln gelesen — der Refuter hat recht.
+
+Das ist exakt der Fehlertyp, den dieser Loop verhindern soll: das Destillat empfiehlt an anderer
+Stelle ausdrücklich, LV-Texte direkt mit diesen Klassen zu referenzieren. Ein daraus abgeleiteter
+LV-Text hätte die Verdrängungsraum-Pflicht für nicht überdachte Laderampen stillschweigend
+verloren — und niemand hätte es beim Lesen des Destillats bemerkt, weil die Aussage plausibel
+aussieht. Gefunden wurde er nur, weil der Refuter den Auftrag hatte, die Zuordnungstabellen
+**zellenweise** statt stichprobenartig zu prüfen. Dieselbe Lehre wie beim Lignatec-Heft, in einer
+anderen Quelle.
+
+### Neu im REGISTER, Abschnitt D
+
+Die bfu-Familie ist aufgenommen, mit Publikationsnummern, Ausgaben und Bestandsstatus. Zwei
+Vorbehalte sind dort festgehalten:
+
+- **bfu-Broschüren sind keine Normen**, sondern Auslegungs- und Praxishilfen; verbindlich bleibt
+  die Norm (durchgehend SIA 358, dazu SIA 500, DIN 51130/51097, VSS SN 640 238). Die Broschüre ist
+  Beleg für die «anerkannten Regeln der Baukunde», nicht deren Ersatz.
+- **Besonderer Vorbehalt zu 2.034**: die Publikation gibt kantonales Recht mit Stand vor dem
+  1.1.2011 wieder. Kantonales Baurecht ändert häufig; die dort zitierten Paragrafen — auch die
+  Zürcher § 20 BBV I und § 305 PBG — dürfen nie als geltender Rechtsstand zitiert werden, sondern
+  nur als Einstiegshinweis, welche Norm im jeweiligen Kanton einschlägig ist.
+- Dazu ein allgemeiner Zitier-Vorbehalt für die zwei ältesten Broschüren (2.006.01 von 2010,
+  2.007.01 von 2009): ob die bfu inzwischen neuere Fassungen publiziert hat, ist nicht geprüft.
+
+## 7. Werkzeug-Fallstrick, dokumentiert
+
+`pdftoppm` scheitert am En-Dash im Pfad der OneDrive-Bibliothek mit «No such file or directory» —
+obwohl `ls` und `pdfinfo` denselben String unmittelbar davor akzeptiert haben. Das ist keine
+Zugriffs-, sondern eine Encoding-Frage und damit leicht als TCC-Blockade fehlzudeuten. Lösung:
+Symlink ohne Sonderzeichen anlegen (Muster aus Rule `osascript-apple-apps`, dort bereits für
+osascript beschrieben — es gilt für die poppler-Werkzeuge genauso).
+
+## 8. Nachgeführt
+
+- `destillate/lignum-lignatec-brandschutz.md` — Legenden aller drei Tabellen, 7 Kernbefunde,
+  4 Nebenbefunde eingearbeitet; Verifikationsstand Runde 8.
+- `destillate/lignum-4-1-…-feuerwiderstand.md` — Kap. 5.2.5 ergänzt, 3 Fundstellen; Runde 8.
+- 7 neue `destillate/bfu-*.md`, davon 5 bereits mit Refuter-Verdikt im Frontmatter.
+- `destillate/INDEX.md` — beide Lignum-Zeilen neu gefasst, 7 bfu-Zeilen ergänzt.
+- `wiki/REGISTER.md` — Abschnitt D um die bfu-Familie erweitert, mit zwei Vorbehalten.
+- `wiki/QUESTIONS.md` — Run-38-Eintrag, fünf offene Punkte.
+- `training/PROGRAMM.md` — Methodik-Pflicht 6; Ergebnis der achten Runde; Vorlage zu `lignum-4-1`.
+- `training/norm-inventar.md` — Run-38-Eintrag zuoberst.
+- `CHANGELOG.md` — Kopfeintrag.
+
+## 9. Offen — und was Raphael entscheiden sollte
+
+1. **Neunte Runde `lignum-lignatec` ist fällig.** Nicht rechnerisch aufgenommen sind bisher die
+   acht Übersichtsaxonometrien (S. 16-23) und Tabelle 2 (S. 4-5). Keine Rücktaktung, bis das
+   gelaufen ist.
+2. **Entscheid zu `lignum-4-1` neu vorzulegen** (siehe Abschnitt 5): weitere Abdeckungs-Runde
+   freigeben, oder den Stopp bewusst bestätigen im Wissen um mögliche Abdeckungslücken.
+3. **Der Aktualitäts-Vorbehalt bei `lignum-lignatec` bleibt der praktisch folgenreichste offene
+   Punkt** und ist durch keine Verifikationsrunde lösbar: die Quelle datiert von 2005 und bezieht
+   sich auf die VKF-Vorschriften 2003. Sämtliche jetzt sorgfältig verifizierten Tabellenwerte
+   stehen unter diesem Vorbehalt. Ein Abgleich gegen die VKF-Generation 2015 hat nie stattgefunden.
+4. **Der PL-02-Kern-Nachtrag ist erst angefangen.** Nach BfU stehen GVZ, Suva, SWKI, Suissetec,
+   VSA, PAVIDENSA, 09_Sanitaereinrichtung und die losen Merkblätter offen.
+5. **SIA 358 hat im Hub kein Destillat** — und alle vier grossen bfu-Broschüren delegieren ihre
+   Kernwerte genau dorthin. Solange das fehlt, endet jede Geländer-/Treppen-Frage bei einer
+   Sekundärquelle. Das ist die grösste inhaltliche Lücke, die dieser Lauf sichtbar gemacht hat.

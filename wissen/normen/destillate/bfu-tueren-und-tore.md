@@ -4,7 +4,7 @@ herausgeber: "bfu – Beratungsstelle für Unfallverhütung, Postfach 8236, CH-3
 ausgabe: "Fachbroschüre 2.005-01 – 12.2012 (Dezember 2012, © bfu 2012), 8 Seiten"
 gelesen: "alle 8 Seiten (Bild-Scan ohne nutzbaren Textlayer, als 300-dpi-Rendering visuell gelesen)"
 datenstand: "Dezember 2012 (bfu-Fachbroschuere 2.005-01 – 12.2012)"
-status: "speculative (Erstdestillat 260730 Run 38, noch nicht verifiziert)"
+status: "speculative (Erstdestillat 260730 Run 38; unabhaengige Refuter-Runde am selben Tag: BEANSTANDET mit 7 Befunden. Inhaltlich: (1) der Rechtssatz auf S. 3 fehlte ganz — Tueren und Tore ohne bundesraetliche Sicherheitsanforderungen muessen nach dem Stand des Wissens und der Technik hergestellt werden (Auffangregel); (2) bei den Notfallmassnahmen fehlte die Alternative 'Ziehen des Netzsteckers'. Beide vom Hauptprozess am 200-dpi-Rendering der S. 3 selbst nachgeprueft und bestaetigt, dann ergaenzt. (3) Wichtig fuer die Anwendung: die Masse 25 mm / 40 mm bei Griffen und Druckern standen als 'Abstand zur Wand' bzw. 'Griffweite' im Destillat, obwohl das Diagramm S. 5 die beiden Bemassungen UNBESCHRIFTET zeigt — die Zuordnung war eine Auslegung des Destillier-Agenten, die als Zitat gelesen werden konnte. Jetzt ausdruecklich als Auslegung gekennzeichnet. (4) Fundstelle 'Hauptschliesskante' auf S. 6/S. 7 korrigiert (nicht S. 4). (5) unvollstaendige Publikationsliste. (6)-(7) Frontmatter-Befunde, bereits vor Eingang des Berichts zentral behoben. BESTAETIGT vom Refuter: Publikationsnummer 2.005-01 – 12.2012, die sechs Klemmstellen-Mindestabstaende je Koerperteil (Koerper 500, Bein 180, Fuss 120, Arm 120, Hand 100, Finger 25 mm) korrekt zugeordnet, die vier Schutzmassnahmen-Kategorien inkl. Kraftbegrenzung 400 N / 0,75 s, alle acht Tuer-/Tortypen der Uebersicht S. 4, Notfall-Kupplung ab 150 N / 15 kg, Kipptor 12 cm und 30-60 Grad, Schiebetueren/Falttore 8 mm, Karusselltueren 3 m Auffahrschutz. Kein Nulldurchgang)"
 last_updated: 2026-07-30
 links: [[REGISTER]]
 ---
@@ -43,6 +43,10 @@ die Verglasung von Türen (Glasqualität, Bruchsicherheit, Markierung transparen
   Gesundheitsanforderungen entsprechen (S. 3).
 - Die Anforderungen an Lifttüren sind in den Europäischen Aufzugsnormen EN 81-1 und
   EN 81-2 festgelegt (S. 3).
+- **Auffangregel** (S. 3, ergänzt 260730 Runde 1): Türen und Tore, für die der Bundesrat
+  keine grundlegenden Sicherheits- und Gesundheitsanforderungen festgelegt hat, müssen nach
+  dem **Stand des Wissens und der Technik** hergestellt werden. Damit besteht auch ohne
+  einschlägige Bundesratsvorgabe eine verbindliche Sorgfaltsschwelle.
 - Empfehlung: bei der Bestellung von Türen und Toren schriftlich festhalten, dass die
   Produkte den gesetzlichen Anforderungen, insbesondere den technischen Richtlinien und
   Normen, entsprechen müssen (S. 3).
@@ -57,8 +61,9 @@ die Verglasung von Türen (Glasqualität, Bruchsicherheit, Markierung transparen
 - Wird eine Person, ein Tier oder ein Gegenstand eingeklemmt, muss zuerst der Strom des
   Antriebs ausgeschaltet werden; unmittelbar neben dem Tor oder der Türe muss ein
   auffällig gekennzeichneter Sicherheitsschalter bzw. eine Trenneinrichtung vorhanden
-  sein, die während Wartungsarbeiten mit einem Vorhängeschloss gesichert werden kann
-  (S. 3).
+  sein, die während Wartungsarbeiten mit einem Vorhängeschloss gesichert werden kann —
+  **oder** der Antrieb kann durch Ziehen des Netzsteckers vom Stromnetz getrennt werden
+  (Alternative ergänzt 260730 Runde 1) (S. 3).
 - Türen und Tore, die sich nicht mit einer Kraft bis 150 Newton (15 kg) öffnen lassen,
   müssen vom Antrieb abgekuppelt werden können; der Ort des Kupplungsmechanismus muss
   auffällig gekennzeichnet sein (z. B. mit dem bfu-Aufkleber Nr. 2.008 «Not-Entriegelung»,
@@ -123,8 +128,12 @@ Mindestabstand angewendet werden (S. 5).
 
 ### Griffe und Drücker (S. 5)
 - Minimalmasse zur Vermeidung von Klemmstellen bei Griffen und Drückern (Türflügel in
-  Endstellung): Abstand des Drückers zur Wand/zum Anschlag mindestens 25 mm, Griffweite
-  mindestens 40 mm (S. 5).
+  Endstellung): mindestens **25 mm** und mindestens **40 mm** (S. 5). ACHTUNG Lesart: Das
+  Diagramm «Anordnung von Drückern» zeigt die beiden Bemassungen **unbeschriftet** (25 mm
+  vertikal, 40 mm horizontal am Drücker-Querschnitt). Die naheliegende Zuordnung — 25 mm =
+  Abstand des Drückers zur Wand bzw. zum Anschlag, 40 mm = Griffweite — steht so **nicht** im
+  Original und ist eine Auslegung, nicht ein Zitat (Refuter-Korrektur 260730 Runde 1). Für
+  eine verbindliche Vorgabe ist das Diagramm am Original einzusehen.
 
 ### Besondere Schutzmassnahmen bei Flügeltüren (S. 6)
 - Klemmstellen an den Nebenschliesskanten (Band- oder Scharnierseite) können vor allem
@@ -178,7 +187,9 @@ Mindestabstand angewendet werden (S. 5).
 ## Begriffe
 
 - **Hauptschliesskante** — die Schliesskante, an der Türflügel/Torblatt im geschlossenen
-  Zustand direkt aufeinander- bzw. auf den festen Rahmen treffen (S. 4, S. 7)
+  Zustand direkt aufeinander- bzw. auf den festen Rahmen treffen (S. 6, S. 7; die frühere
+  Angabe «S. 4» war falsch — dort steht nur «Klemmstellen auf der Bandseite», der Begriff
+  erscheint erstmals im Kipptor-Absatz S. 6. Refuter-Korrektur 260730 Runde 1)
 - **Nebenschliesskante** — die Schliesskante an der Band-/Scharnierseite oder an
   unebenen Flächen (z. B. Servicetüren), oft weniger gut abgesichert (S. 6–7)
 - **Klemmstelle** — Stelle, an der ein Körperteil zwischen einem bewegten Bauteil und

@@ -1,3 +1,29 @@
+## 2026-07-30 (Run 38, Nachtrag) — Neues Destillat bfu-Fachdokumentation 2.034 «Sicherheit im Wohnungsbau»
+- **[luecke geschlossen] `destillate/bfu-sicherheit-im-wohnungsbau.md`** — die neunte Datei des
+  BfU-Ordners (`PL - 02_Recht_Norm/06_Richtlinien/BfU/bfu_Sicherheit im Wohnungsbau.pdf`, 42 S.,
+  Bild-Scan) war im BfU-Block weiter unten in diesem Changelog («9 Dateien zu 7 Destillaten») noch
+  NICHT erfasst — die dortige Zaehlung war unvollstaendig. Alle 42 Seiten bei 200dpi gerendert und
+  vollstaendig gelesen (Praefix `bfu-woh-r8-`).
+- **[befund, Scope weicht vom erwarteten Auftrag ab]** Titel klingt nach einem allgemeinen
+  Bauteilkatalog (Bad/Kueche/Fenster/Boden), das Dokument ist aber eine **rechtsvergleichende
+  Studie**: bfu-Fachdokumentation 2.034, Autorin Regula Stoecklin, Bern 2011 (Druck 2009), Rechtsstand
+  vor 1.1.2011. Untersucht je Kanton + FL nur drei Fragen: allgemeine Sicherheitsvorschrift vorhanden?
+  spezielle Gelaender-/Bruestungsvorschrift? spezielle Treppenvorschrift? Und mit welcher rechtlichen
+  Bindungsstaerke (Generalklausel/Verweis dynamisch/statisch/Inkorporation) die SIA-Norm 358 dabei
+  zum Zug kommt. Kein Bad/Kueche/Boden/Fenster allgemein — das ist bereits in den 7 anderen
+  BfU-Destillaten oder gar nicht im Hub.
+- **Kernbefund ZH:** § 20 BBV I regelt Gelaender nur per Generalklausel (keine eigene Zahl), SIA 358
+  wird von der bfu-Systematik trotzdem als «beinahe zwingend» eingestuft; § 305 Abs. 1 PBG dagegen
+  bezifert Treppenbreiten direkt (1,2 m / 0,9 m in EFH). Nur Kanton ZG hat ueberhaupt keine Regelung
+  (weder allgemein noch Gelaender/Treppen) — Kompetenz liegt dort bei den Gemeinden.
+- **Haftungs-/Strafrecht:** Art. 58 OR (Vermutung sorgfaeltigen Verhaltens bei Normeinhaltung),
+  Art. 229 StGB (Baugefaehrdung), drei Gerichtsfaelle (BGer 1984 unveroeffentlicht, BGE 120 IV 300,
+  Kreisgericht Thun 1997 — Kaserne-Fenstersturz-Fall).
+- Status **speculative** (Erstdestillat, noch nicht durch eine zweite Runde verifiziert). Vollstaendige
+  Wortlaut-Tabellen (alle 26 Kantone) bewusst nicht abgeschrieben — nur die planungsrelevanten Kantone
+  mit eigenen Zahlen (BL/BE/FR/GE/LU/VD/ZH/FL) im Detail.
+  Geaendert: `destillate/bfu-sicherheit-im-wohnungsbau.md` (neu), `destillate/INDEX.md` (Zeile ergaenzt).
+
 ## 2026-07-30 (Run 38, MacBook Pro) — Vorrang-Auftrag Lignatec Tab. 3 + Tab. 4, achte Runde `lignum-4-1`, BfU-Block neu destilliert
 
 - **[verifikation, 7 Kernbefunde] `destillate/lignum-lignatec-brandschutz.md`** — Vorrang-Auftrag
