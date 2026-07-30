@@ -138,7 +138,7 @@ Dateinamen — was sich zweimal ausgezahlt hat:
 | `bfu-glas-in-der-architektur.md` | 2.006.01, 10.2010 | BEANSTANDET, 4 (alle formal) |
 | `bfu-sicherheit-rechtliche-aspekte.md` | 2.075.01, 02.2011 | BEANSTANDET, 2 (1 Cross-Kontamination) |
 | `bfu-bodenbelaege.md` | 2.032 (2012) + 2.027 (2011) | BEANSTANDET, 3 (2 inhaltlich — Tabellen 9-16 zellenweise geprüft) |
-| `bfu-sicherheit-im-wohnungsbau.md` | 2.034, 07.2011 | Refuter-Runde lief zum Redaktionsschluss noch |
+| `bfu-sicherheit-im-wohnungsbau.md` | 2.034, 07.2011 | BEANSTANDET, 2 — **keiner bei Zürich**; alle ZH-Fundstellen mehrfach bestätigt |
 
 Alle gemeldeten inhaltlichen Befunde hat der Hauptprozess **vor der Übernahme selbst am eigenen
 Rendering des Originals nachgeprüft** und bestätigt, bevor sie eingearbeitet wurden.
@@ -173,6 +173,29 @@ verloren — und niemand hätte es beim Lesen des Destillats bemerkt, weil die A
 aussieht. Gefunden wurde er nur, weil der Refuter den Auftrag hatte, die Zuordnungstabellen
 **zellenweise** statt stichprobenartig zu prüfen. Dieselbe Lehre wie beim Lignatec-Heft, in einer
 anderen Quelle.
+
+### Der unerwartete Fund: eine Kantonssynopse zum Zürcher Baurecht
+
+`bfu-sicherheit-im-wohnungsbau.md` ist nicht, wofür ich es gehalten habe. Ich hatte es im Auftrag
+als bauteilbezogenen Anforderungskatalog beschrieben; es ist eine **rechtsvergleichende Synopse**
+der Bauvorschriften aller 26 Kantone und Liechtensteins zu Geländern, Brüstungen und Treppen — mit
+der Frage, welche Bindungsstärke die SIA 358 je Kanton hat (Generalklausel / allgemeiner
+Normverweis / Inkorporation). Der Destillier-Agent hat das erkannt und meine Fehlbeschreibung im
+REGISTER korrigiert.
+
+Für ein Zürcher Büro ist das die praktisch wertvollste Quelle des ganzen Blocks: sie benennt
+§ 239 Abs. 1 und § 359 lit. h PBG, § 2 und § 20 BBV I sowie § 305 Abs. 1 PBG mit den
+Treppenbreiten (Haustüren 1,0 m · Treppen und Gänge zu dauernd genutzten Räumen 1,2 m ·
+Einfamilienhäuser und Wohnungsinneres 0,9 m) und ordnet ZH in die Gruppe der Kantone ein, denen die
+Anwendung der SIA 358 «beinahe zwingend» vorgeschrieben ist. Der Refuter hat **jede** dieser
+ZH-Fundstellen einzeln und teils an zwei unabhängigen Stellen des Originals bestätigt; keiner der
+zwei Befunde betrifft Zürich.
+
+**Der Vorbehalt wiegt hier aber schwerer als bei jeder anderen Quelle dieses Laufs**, weil es um
+geltendes Recht geht: die Publikation hat Rechtsstand vor dem 1.1.2011, also rund fünfzehn Jahre
+alt. Kantonales Baurecht ändert häufig. Die Paragrafen sind deshalb als Einstiegshinweis zu nutzen —
+welche Norm im jeweiligen Kanton überhaupt einschlägig ist — und nie als geltender Rechtsstand zu
+zitieren. So ist es im REGISTER als eigener, hervorgehobener Vorbehalt festgehalten.
 
 ### Neu im REGISTER, Abschnitt D
 

@@ -78,6 +78,22 @@
   der gleichzeitig destillierten Schwester-Broschuere «Glas in der Architektur». Vom Hauptprozess
   an BEIDEN Originalen nachgeprueft und bestaetigt: die zwei bfu-Publikationen formulieren
   tatsaechlich unterschiedlich. Korrigiert.
+- **[befund, Zuerich-relevant] `bfu-sicherheit-im-wohnungsbau.md` ist eine Kantonssynopse, kein
+  Bauteilkatalog** — sie vergleicht die Bauvorschriften aller 26 Kantone und Liechtensteins zu
+  Gelaendern, Bruestungen und Treppen und benennt die Bindungsstaerke der SIA 358 je Kanton. Fuer ZH
+  belegt: Paragraf 239 Abs. 1 und Paragraf 359 lit. h PBG, Paragraf 2 und Paragraf 20 BBV I sowie
+  Paragraf 305 Abs. 1 PBG (Treppenbreiten 1,0 / 1,2 / 0,9 m); ZH gehoert zur Gruppe mit «beinahe
+  zwingender» SIA-358-Anwendung. Der Refuter hat jede ZH-Fundstelle einzeln bestaetigt; die zwei
+  Befunde betreffen VD (faelschlich als Kanton mit bezifferter Treppenvorschrift gefuehrt — hat nur
+  eine unbezifferte Handlauf-Pflicht) und eine unvollstaendig zitierte Kumulationspflicht bei
+  Art. 229 StGB. Beide vom Hauptprozess am Original nachgeprueft und korrigiert. **Der Rechtsstand
+  liegt vor dem 1.1.2011** — als eigener Vorbehalt im REGISTER festgehalten.
+- **[befund, LV-relevant] Zellenweise Tabellenpruefung hat im BfU-Block einen zweiten stillen
+  Fehler gefunden:** im Destillat `bfu-bodenbelaege.md` waren in Tab. 15 (2.032, S. 23) die Zeilen
+  «Laderampen nicht ueberdacht» (GS3 / R 12 **V4**) und «Marktplaetze, Piazzas» (GS3 / R 12) zu
+  einer Zeile zusammengefasst — dabei ging die Verdraengungsraum-Anforderung V4 verloren. Da das
+  Destillat ausdruecklich empfiehlt, LV-Texte mit diesen Klassen zu referenzieren, waere der Fehler
+  unbemerkt in eine Ausschreibung gewandert. Am Original nachgeprueft und korrigiert.
 - **[register] `wiki/REGISTER.md` Abschnitt D:** die bfu-Familie aufgenommen, mit Publikations-
   nummern, Ausgaben und Bestandsstatus. Festgehalten, dass bfu-Broschueren **keine Normen**, sondern
   Auslegungshilfen sind (verbindlich bleibt die Norm, i.d.R. SIA 358), sowie ein **Zitier-Vorbehalt**
