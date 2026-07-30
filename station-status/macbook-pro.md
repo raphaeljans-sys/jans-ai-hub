@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.07.2026 10:47:53
+Stand: 30.07.2026 10:57:59
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 10:47)
@@ -9,7 +9,7 @@ Stand: 30.07.2026 10:47:53
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- keine
+- 1 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- c5ef6473 wettbewerbs-dna Etappe 4 REAKTIVIERT (Entscheid Raphael, Variante B vertiefen): Task enabled + neuer Vertiefungs-Prompt (V1 Tiefen-Angleich / V2 Rueckkopplung Siegargumente / V3 Verdichtung, Refuter- und Delta-Null-Meldepflicht), Statuskopf + CHANGELOG, Rolle prototyper->sweeper, Nachtschicht-Ausschluss ergaenzt; Rang-Falschaussage des Radars korrigiert (Muttenz 4. Rang, Schoental 3. Rang — nicht zweite Plaetze)
+- c5a0acf2 Arbeits-Weiche: Last-Verteilung schwerer Auftraege (3 Pfade nachgemessen, E2E gruen), Journal, Betriebs-Regel, Rollen-Map, Wochen-Review-Task 06.08.
