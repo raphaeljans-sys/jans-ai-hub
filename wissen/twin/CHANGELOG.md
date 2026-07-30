@@ -4,6 +4,41 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-30 — `twin-mail-training` Batch 82 (Lücken-Sweep Sent Items rj@, **Oktober 2025
+  vollständig gelistet**, 43 Mails, authentisch).** Methodik Batch 80/81: Abgleich gegen den
+  bereits destillierten Bestand VOR der Lektüre. 9 Kandidaten-Volltexte gelesen, davon 4 bereits
+  erfasst (Sämi-Einladung 06.10., Zahlungsfrage an den 3D-Freelancer 15.10., E-Bill 23.10., z.H.
+  Vera Schmid 31.10.). Vier Facetten erweitert:
+  · **`stimme.md`** — «Guten Abend <Vorname>,» im operativen Geschäfts-Du belegt (27.10., 17:37);
+  Wärme-Rücktritt im Thread als **Anti-Drift-Marker** («Hoi lieber Sämi» Eröffnung → «Hoi Sämi»
+  Reply, gleicher Tag); Zwei-Wort-Transmittal «zur Info» auch im Sie an die Bauherrschaft
+  (09.10.); Nachfass im Präteritum «Konnten Sie … versenden?» (22.10.); Mikro-Metrik.
+  · **`beziehungsregister.md`** — Geldkontext kühlt das Register auch in EINGEHENDER Richtung auf
+  die kälteste Sie-Stufe («Sehr geehrte Frau Fala», eingehende Zahlungsmahnung, 08.10.) im
+  Kontrast zu «Guten Tag Frau Gloor» (Sachkontext, 22.10.); vierte Anrede-Variante bei Christoph
+  Bopp als Beleg einer von der Gewichts-Achse unabhängigen **Tageszeit-Achse**; Nullform-
+  Weiterleitung an den Sozial-Peer (SIA-Einladung 20.10., ohne Eigentext) als drittes Beispiel →
+  die **Weiterleitungs-Variante ist Absicht**, abgegrenzt von der weiterhin offenen «ZSC»-Variante
+  mit komplett leerem Body ([[QUESTIONS]] Batch 81 #1 bleibt offen); Mappings Fala/Gloor.
+  · **`arbeitsweise.md`** — Reihenfolge-Ökonomie (konzeptionelle Änderungen vor die teure
+  Detail-Schlusskontrolle stellen und diese Reihenfolge dem Auftraggeber sagen); Reifegrad des
+  Zwischenstands offen deklarieren (2. Beleg → zweifach belegt); Dokument-Kohärenz über
+  Dokumentgrenzen aktiv einfordern (2. Beleg, auf Titel/Objektbezeichnung/Adressumfang
+  konkretisiert); eingehende Mahnung erledigen + terminieren + den Kontakt im selben Zug doppelt
+  nutzen; Terminvorschlag sofort als Kalendereinladung vollziehen; Altbau-Grundlagenbeschaffung
+  (Archivakten selbst bestellen, 7-Tage-Link sofort sichern und durchstellen).
+  · **`fachsignatur.md`** — **STWEG-Wertquoten-Faktorenkatalog offengelegt** (Wohnung EG f1.1 /
+  1.OG f1.15 / 2.OG f1.2, Balkon f0.25, Keller/Garage/Estrich f0.3, Aussenparkplatz f0.2;
+  projektbezogen, nicht normiert — direkt verwertbar für Skill `stockwerkeigentum` und Agent
+  `wertquoten-rechner`); Archivplan-Beschaffung AfB Stadt ZH (Terminkalender «Planauflage»,
+  Vollmacht + Ausweiskopie, CHF 51.00, Download-Link 7 Tage); Präzisierung des bestehenden
+  Materialgespür-Markers; SIA/BSA-Honorarsystematik als fachpolitisches Interesse (Einzelbeleg).
+  · **`QUESTIONS.md`** — Frage 260612 #2 («Guten Abend») **teilbeantwortet** (Existenz belegt, Ton-
+  Akzent offen); drei neue Fragen: Paste-Verdacht auf die Material-Analyse vom 14.10. (Tell:
+  «z.B.» und «z. B.» im selben Satz — Marker mit Vorbehalt versehen, **nicht** abgewertet, Rule
+  260729b), Wertquoten-Faktoren als Standard oder projektbezogen, «zur Info» gegenüber der
+  Bauherrschaft bewusst oder Eile. Quelle: `260730-mailbatch-82.md`.
+
 - **2026-07-29 — `twin-fidelity-review` (Fidelity ~73 auf ueberlappendem Material; KEINE
   Wiki-Aenderung).** Zwei Golds gezogen (WOMA-Zahlungserinnerung 16.09.2025, Druckerkosten-
   Rechnung RE-00073 25.09.2025) — **beide bereits ausgewertet** (Rohner: 260620/260710/260727k;

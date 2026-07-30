@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-07-29
+last_updated: 2026-07-30
 gewichtung: authentisch
-sources: [260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -76,6 +76,12 @@ Differenziert NACH Vertrautheit, nicht pauschal «Sehr geehrte»:
 - Mapping-Ergänzung: EFH-Bauherr Aufstockung Thalwil (privat): Du — «Guten Morgen
   <Vorname>» / «Lieber Gruss»; Holzbau-Unternehmer (AT): Sie — «Sehr geehrter Herr
   <Name>»; vertrauter Baumanager: Du, Link-Transmittal ohne Floskeln.
+- Mapping-Ergänzung (belegt Mailbatch 82): Selina Fala (sf@newcopystore.ch, newcopystore
+  ag St. Gallen, Druck-/Reprodienstleisterin, Sachbearbeiterin/Kauffrau in Ausbildung) →
+  Sie, kälteste Stufe «Sehr geehrte Frau Fala» (Zahlungsmahnungs-Kontext, 08.10.2025);
+  Janine Deborah Gloor (info@boesner.ch, boesner GmbH Künstlermaterial, Versandservice)
+  → Sie, «Guten Tag Frau Gloor» (Sach-/Musterversand-Kontext, 22.10.2025). Details/
+  Kontrast → Abschnitt «Geldkontext kühlt das Register» unten.
 
 ## Mundart als eigenes Register im rein privat-sozialen Du (belegt Fidelity 260612, authentisch)
 Bei rein privaten, branchenfernen Kontakten (Event-Bekanntschaft, Einladung) kippt das
@@ -1865,3 +1871,56 @@ Relevant ist der Befund als **Identifikator**, nicht als Stilmarker: wer eine Ma
 adressiert oder ihn einer Organisation zuordnet, darf «WOMA» nicht als seine einzige Zugehörigkeit
 behandeln (Rule `identifikatoren-verifizieren`). Welche Rolle er bei Nova Property innehat, ist
 aus dem Korpus nicht belegt → [[QUESTIONS]] (Batch 81).
+
+## Geldkontext kühlt das Register auch in EINGEHENDER Richtung auf die kälteste Sie-Stufe (belegt Mailbatch 82, authentisch)
+Bisher war nur die Richtung «eigene Rechnung an einen Sozial-Peer kippt dessen Du ins kalte Sie»
+belegt (Fabio Don). Ein neuer Datenpunkt zeigt dieselbe Kühlung auch in der **anderen** Richtung,
+bei einer eingehenden Zahlungsmahnung: die Antwort an die Sachbearbeiterin eines eingespielten
+Druck-/Reprodienstleisters (newcopystore ag, St. Gallen; Selina Fala, laut Signatur «Kauffrau in
+Ausbildung») nach deren Zahlungserinnerung zu offenen Rechnungen trägt **«Sehr geehrte Frau
+Fala»** — die kälteste Sie-Stufe (08.10.2025). Das ist bemerkenswert, weil weder der Betrieb neu
+ist noch die Sachbearbeiterin nach Rolle/Alter (Ausbildung) Distanz nahelegen würde: bei einem
+rein sachlichen Versand-/Musterkontext bekommt eine vergleichbare Lieferanten-Sachbearbeiterin
+(Janine Deborah Gloor, boesner GmbH Künstlermaterial) im selben Monat das deutlich wärmere
+«**Guten Tag Frau Gloor**» (22.10.2025). Derselbe Rollentyp (Sachbearbeiterin bei einem
+Lieferanten/Dienstleister), zwei sichtbar unterschiedliche Sie-Stufen — der Unterschied liegt
+nicht an Vertrautheit oder Rolle, sondern am **Anlass**: Geldkontext (Mahnung/offene Rechnung)
+zieht auf die kälteste Stufe, ein reines Sach-/Versandanliegen bleibt bei der warm-alltäglichen
+Mittellage. Marker: **Geld kühlt das Register, unabhängig von der Richtung des Zahlungsflusses**
+— sowohl wenn Raphael selbst mahnt, als auch wenn er auf eine eingehende Mahnung antwortet.
+Mapping siehe oben, Abschnitt «Unternehmer-/Lieferanten-Register».
+
+## Vierte Anrede-Variante bei Christoph Bopp: eine zweite, tageszeitgesteuerte Achse neben der Gewichts-Achse (belegt Mailbatch 82, authentisch)
+Batch 17 belegt bereits drei Anreden an Christoph Bopp an einem einzigen Tag («Geschätzter
+Christoph», «Hoi Christoph», «Lieber Christoph») als Beleg für «Register nach Gewicht des
+Anlasses». Ein neuer Beleg ergänzt eine **vierte** Variante an einem anderen Tag: eine
+Liefermail um 17:37 Uhr eröffnet mit «**Guten Abend Christoph,**» (27.10.2025). Marker: die
+Anrede-Wahl bei einem eingespielten Du-Geschäftspartner läuft auf **zwei unabhängigen Achsen**
+gleichzeitig — der bereits belegten Gewichts-Achse (trivial ↔ verbindlich: Hoi ↔ Geschätzter)
+und einer davon unabhängigen **Tageszeit-Achse** («Guten Morgen …» / «Guten Abend …», bereits
+für andere Kontakte belegt, → [[stimme]] «Guten Abend»-Marker). Bei Bopp treffen damit beide
+Achsen im selben Kontakt aufeinander: «Guten Abend Christoph» ist keine fünfte, neue Wärmestufe,
+sondern die Tageszeit-Variante derselben operativen Grundanrede wie «Hoi Christoph». Der Zwilling
+prüft bei jeder Anrede an einen warmen Du-Kontakt beide Achsen unabhängig, statt Tageszeit-
+Anreden nur an ausgewählten Kontakten (Weisser, Labinot) für zulässig zu halten.
+
+## Nullform-Weiterleitung an den Sozial-Peer als absichtsvolles Register-Muster geklärt (belegt Mailbatch 82, authentisch)
+Ein dritter Beleg für die rahmenlose Weiterleitung ohne jeden Eigentext an einen befreundeten
+Architektur-Peer: die SIA-Sektion-Zürich-Einladung «Zukunft der Honorarberechnung — Inputs und
+Podium» geht am 20.10.2025 an einen befreundeten Architekten-Peer (privater Sozial-Kontakt,
+vgl. «Meng Li + Stephan Müller», Mailbatch 21) **ohne jeden Eigentext** weiter — nur der
+weitergeleitete Newsletter, keine Anrede, kein Gruss, keine Intent-Zeile. Zusammen mit den
+bereits belegten Fällen (Fwd «Inspo Bilder» ohne Eigentext, 30.09.2025; Design-Referenz-Nullform
+an den 3D-Freelancer, Batch 80, zwei Belege) ist die **Nullform-Weiterleitung ein etabliertes,
+absichtsvolles Muster im Sozial-/Peer-Register**: der weitergeleitete Gegenstand selbst ist die
+ganze Botschaft («schau Dir das an»), eine Rahmung wäre Überformung, kein Versehen.
+
+**Präzise Abgrenzung — was damit geklärt ist und was nicht:** [[QUESTIONS]] (Batch 81, Frage 1)
+fragt nach der leeren «ZSC»-Mail an Gerry Scherbl (24.09.2025, Betreff ohne jeden Body UND ohne
+weitergeleiteten Inhalt) — «Absicht oder Fehlversand?». Dieser Batch klärt **nur die
+Weiterleitungs-Variante** (Betreff/Inhalt wird mitgeliefert, nur ungerahmt): dort ist die
+Nullform belegt Absicht, nicht Versehen. Die **andere** Variante — Mail mit Betreff und
+komplett leerem Body, OHNE jeden mitgelieferten Inhalt (der «ZSC»-Fall) — bleibt davon
+unberührt offen; der Vorbehalt aus [[QUESTIONS]] Batch 81 #1 gilt weiterhin unverändert. Der
+Zwilling darf die Nullform bei **Weiterleitungen** an Sozial-Peers aktiv selbst erzeugen; die
+Nullform bei einem **eigenen** Betreff ohne jeden Inhalt bleibt bis zur Klärung tabu.

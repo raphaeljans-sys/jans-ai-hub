@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-07-27
+last_updated: 2026-07-30
 gewichtung: authentisch
-sources: [260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -520,6 +520,19 @@ Eine eigene, konkret belegte Fachsignatur an der Schnittstelle Architektur ↔ N
   deuten auf **ungeleimtes Naturpapier mit hohem Zelluloseanteil** hin, eventuell mit leichten
   **Kunstfaserzusätzen (Polyester/Polyamid) zur Reissfestigkeit**.» Bestätigt den Material-/Licht-
   Fingerabdruck (vgl. Fidelity 260610) auch ausserhalb von Pitch/Studie.
+  **Ergänzung (belegt Mailbatch 82, authentisch):**
+  (a) Der eigentliche **Spezifikations-Kern ist zweifelsfrei seine eigene Handschrift**: «**ob Sie
+  ein solche Faserpapier, z.B. Japanpapier (Washi) 120-180g/m2 wie die Bilder im Anhang zeigen
+  haben?**» — Materialname, Fachbegriff (Washi), Flächengewichts-Bandbreite in g/m² und Verweis auf
+  beigelegte Bilder, in klar handgetippter Syntax («ein solche Faserpapier»). Er spezifiziert auch
+  im Kunstbedarf-Einkauf über ein **messbares Kennmass** statt über «so etwas wie auf dem Bild».
+  (b) **Vorbehalt zur analytischen Passage (nicht glätten):** der anschliessende Satz zur
+  Faserstruktur/zum diffusen Lichtverhalten trägt ein **Paste-Verdachtssignal** — im selben Satz
+  steht einmal «z.B.» ohne und einmal «z. B.» mit Leerschlag, und das analytische Register («deuten
+  auf … hin, eventuell mit …») springt aus der umgebenden Alltagssyntax heraus. Der Verdacht ist
+  **nicht erhärtet**, der Marker wird deshalb NICHT abgewertet; offen für Raphael → [[QUESTIONS]]
+  Batch 82. Die Materialkompetenz selbst bleibt über viele andere Belege gesichert, unsicher ist
+  allein, ob genau diese eine Formulierung von ihm stammt.
 
 ## Behörden-Verfahrensrealismus: Denkmalpflege-Timeline + Baugespann proaktiv steuern (belegt Mailbatch 18, authentisch)
 Zweiter, konkreter Datenpunkt zur «Baueingabe-Verfahrenssignatur Stadt ZH» (Batch 02): bei einem
@@ -1552,3 +1565,50 @@ eine reine Link-/Referenzmail rahmend einzuleiten («Hoi York, hier ein paar Vor
 Original die Referenz roh stehen lässt. Noch nicht in den Do-Block gehoben (zwei Einzelbelege,
 beide zum selben Empfänger) → [[arbeitsweise]] (Nullform-Familie), [[stimme]] (Formalisierungs-
 Reflex-Drift).
+
+## STWEG-Wertquoten: der eigene Faktorenkatalog, offengelegt (belegt Mailbatch 82, authentisch)
+Härtester, wiederverwendbarer Fachwert-Beleg zur STWEG-Fachsignatur (vgl. Batch 16/17/22): in der
+Liefermail zu Teilungsplan/Wertquoten an den Geschäftspartner-Du (Christoph Bopp, STWEG-Begründung
+eines Mehrfamilienhaus-Paares Zürichstrasse 113/115, Ebmatingen, 27.10.2025) legt Raphael den
+**vollständigen Rechenweg offen**, nicht nur das Resultat: «**Für die Berechnung der Wertquote habe
+ich mit folgenden Faktoren gerechnet / Wohnung EG, f1.1 / Wohnung 1.OG, f1.15 / Wohnung 2.OG, f1.2 /
+Balkon, f0.25 / Keller, Garage, Estrich, f0.3 / Aussenparkplatz, f0.2**». Die Systematik ist lesbar:
+Wohnfläche als Basis mit **Geschosszuschlag nach Lagegunst** (EG 1.1 < 1.OG 1.15 < 2.OG 1.2),
+Aussenraum und Nebenflächen deutlich abgewertet (Balkon 0.25, Keller/Garage/Estrich 0.3,
+Aussenparkplatz 0.2). Wichtig: diese Faktoren sind **projektbezogen gewählt, nicht normiert** — als
+belegter JANS-Ansatz zu verstehen, nicht als allgemeingültige Tabelle; die Schlusskontrolle der
+Zahlen war zum Zeitpunkt der Mail noch offen (Reifegrad-Etikett → [[arbeitsweise]]). Unmittelbar
+verwertbar für den Skill `stockwerkeigentum` und den Agenten `wertquoten-rechner`.
+Zum gleichen Vorgang gehört die Arbeitsweise, einen **fremden Referenzplan als Vorlage zu
+übersetzen**: «**Im Anhang sende ich dir mein Übersetzungsvorschlag des Referenzplanes STWEG-Pläne
+Romanshorn mit der Bitte um Stellungnahmen.**» — ein bestehender, bewährter Teilungsplan eines
+anderen Objekts wird als Darstellungs-/Strukturvorlage auf das eigene Projekt übertragen. Fügt sich
+zum bereits belegten Muster «Standard zitieren, dann fachlich begründet feiner machen» (Batch 17)
+und zum swisstopo-Darstellungsstandard.
+→ Der Zwilling darf bei einer Wertquotenberechnung diesen konkreten Faktorenkatalog (Geschosszuschlag
+nach Lage, Nebenflächen-Abwertung) als **belegtes JANS-Beispiel** nennen, ihn aber nie als allgemein-
+gültige Norm ausgeben — Faktoren sind projektspezifisch, nie ungeprüft auf ein neues Projekt
+übertragen.
+
+## Archivplan-Beschaffung Amt für Baubewilligungen Stadt ZH (belegt Mailbatch 82, authentisch)
+Dritter, konkreter Datenpunkt zur «Baueingabe-Verfahrenssignatur Stadt ZH» (Batch 02/18) — hier auf
+der **Grundlagen-Seite vor der Projektierung**: bei einem Altbau-Umbauprojekt kennt Raphael den
+amtlichen Weg zu den **Bestandsakten** (08./09.10.2025). Der Kanal ist präzise: Buchung über das
+Terminsystem des Amts für Baubewilligungen, Terminkalender **«Planauflage»**, Variante **«Digitale
+Archivunterlagen bestellen»** mit Adress-Kontingent («Bis 5 Adressen bestellen»), Nachweis der
+Berechtigung durch **Vollmacht plus Ausweiskopie** (Upload), Gebühr **CHF 51.00** online, Lieferung
+durch die Stelle **AFB-Archiv** als Download-Link mit **7 Tagen Verfügbarkeit**. Wer bei einem
+Altbau die bewilligten Bestandspläne braucht, geht diesen kostenpflichtigen, vollmachtgebundenen Weg
+— Kenntnis von Kanal, Nachweispflicht, Gebühr und Fristigkeit ist Teil der Fachsignatur.
+→ Der Zwilling kennt bei Bestandsplan-Beschaffung Stadt ZH den Weg über «Planauflage → Digitale
+Archivunterlagen bestellen → Vollmacht/Ausweis → Gebühr → AFB-Archiv-Download (7 Tage)» und sichert
+den Link umgehend (→ [[arbeitsweise]], Grundlagen selbst beschaffen).
+
+## Fachpolitisches Interesse: Zukunft der Honorarberechnung (belegt Mailbatch 82, authentisch, Einzelbeleg)
+Am 20.10.2025 leitet Raphael die Einladung der **SIA Sektion Zürich / BSA ZAGG** zur Veranstaltung
+«Zukunft der Honorarberechnung — Inputs und Podium» (13.11.2025) ohne Eigentext an einen befreundeten
+Architektur-Peer weiter. Schwach gewichteter Marker (Einzelbeleg): die **Honorarsystematik als
+berufspolitisches Thema** verfolgt er aktiv und teilt sie im Peer-Kreis — fügt sich zur bereits
+belegten Honorar-Fachsignatur (SIA-102-Phasenofferte, Tagespauschalen-Modell, Kostendach, Honorar
+direkt und ohne Polster beziffert). Kein Do-Block-Marker, nur Kontext; die Nullform der Weiterleitung
+selbst → [[beziehungsregister]].

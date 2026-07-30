@@ -353,3 +353,69 @@ vollstaendig (nicht stichprobenartig) gelisteten Fenster. September 2025 ist dam
 (01.–12. via Batch 80, 13.–30. via Batch 81, beide vollstaendig gelistet). **Naechstes Fenster:**
 `rj@` Oktober 2025 — dort ist laut Wiki-Belegen (17.10./23.10./24.10.) bereits einiges destilliert,
 der Abgleich-vor-Lektuere-Schritt ist also erneut Pflicht.
+
+| `260730-mailbatch-82.md` | **Luecken-Sweep `rj@` Oktober 2025** (Fortsetzung Batch 80/81 gemaess
+deren Empfehlung): Fenster 2025-10-01 bis 2025-10-31 **vollstaendig** gelistet (43 Sent Items).
+Vier neue Marker destilliert: (a) «Guten Abend Christoph,» 27.10. bestaetigt die Tageszeit-Anrede
+«Guten Abend <Vorname>» erstmals im operativen Geschaefts-Du (teilbeantwortet QUESTIONS 260612 #2);
+(b) Thread Saemi 06.10. zeigt Waerme-Ruecktritt «Hoi lieber Saemi» (Eroeffnung) → «Hoi Saemi»
+(Reply) als Anti-Drift-Marker; (c) Zwei-Wort-Transmittal «zur Info» 09.10. an die Bauherrschaft im
+Sie (amtliche Archivakten-Weiterleitung) erweitert die Nullform-Familie ueber das Peer-Du hinaus;
+(d) Nachfass «Konnten Sie die Papiermuster … versenden?» 22.10. an eine Lieferantin (Sie) als
+gesichtswahrende Praeteritum-Statusfrage. Weitere Funde: (e) **eingehende** Zahlungsmahnung kuehlt
+die Anrede auf die kaelteste Sie-Stufe («Sehr geehrte Frau Fala», 08.10.) im Kontrast zu «Guten Tag
+Frau Gloor» (Sachkontext, gleiche Rollenklasse, 22.10.) — das belegte Muster «Geld kuehlt» gilt
+damit in beide Richtungen, nicht nur bei der eigenen Rechnung an einen Peer; (f) **Status-Hebung
+Nullform-Weiterleitung**: die SIA-Sektion-Einladung 20.10. geht ohne jeden Eigentext an einen
+Architektur-Peer — dritter Beleg, damit ist die Weiterleitungs-Variante der Nullform als **Absicht**
+geklaert (die «ZSC»-Variante mit komplett leerem Body OHNE mitgelieferten Inhalt bleibt offen,
+QUESTIONS Batch 81 #1 unveraendert); (g) **STWEG-Wertquoten-Faktorenkatalog offengelegt** (Wohnung
+EG f1.1 / 1.OG f1.15 / 2.OG f1.2, Balkon f0.25, Keller/Garage/Estrich f0.3, Aussenparkplatz f0.2 —
+projektbezogen, nicht normiert; direkt verwertbar fuer Skill `stockwerkeigentum` / Agent
+`wertquoten-rechner`) plus Uebersetzung eines fremden Referenzplans als Vorlage; (h) Archivplan-
+Beschaffung AfB Stadt ZH als Verfahrenswissen (Terminkalender «Planauflage», Vollmacht +
+Ausweiskopie, CHF 51.00, Download-Link 7 Tage) und als Arbeitsweise (Grundlagen selbst holen,
+Fristigkeit sofort sichern und durchstellen); (i) Reihenfolge-Oekonomie «konzeptionelle Aenderungen
+der Flaechen-Schlusskontrolle vorziehen» + Reifegrad-Etikett «muss ich noch alle Zahlen
+kontrollieren» (2. Beleg) + Dokument-Kohaerenz Titel/Objektbezeichnung/Adressumfang (2. Beleg);
+(j) eingehende Mahnung wird mit Erledigungsmeldung + Eintreffdatum + eigenem Anliegen im selben Zug
+quittiert, ohne Entschuldigungs-Prosa; (k) akzeptierter Termin wird sofort als Kalendereinladung
+vollzogen, auch sozial. Abgleich vor der Lektuere (Methodik Batch 80/81): 9 Kandidaten-Volltexte
+gelesen, **4 bereits destilliert** (Saemi-Einladung 06.10., Zahlungsfrage 3D-Freelancer 15.10.,
+E-Bill Baurekursgericht 23.10., z.H. Vera Schmid 31.10.), 1 System-Share-Benachrichtigung ohne
+Eigentext, 8 MS-Support/Unsubscribe/Kalender-Annahmen auftragsgemaess ignoriert. **Echo-Pruefung
+mit offenem Ausgang (Rule 260729b):** der seit Batch 17 als Gold gefuehrte Materialgespuer-Satz vom
+14.10. («Die gleichmaessige Faserstruktur … deuten auf ungeleimtes Naturpapier … hin, eventuell mit
+… (z. B. Polyester oder Polyamid) zur Reissfestigkeit») traegt ein Paste-Signal — im selben Satz
+einmal «z.B.» ohne, einmal «z. B.» mit Leerschlag, dazu der aus der Alltagssyntax springende
+analytische Ton. Der Verdacht ist **nicht erhaertet**; der Marker wurde deshalb NICHT abgewertet,
+sondern mit Vorbehalt versehen und als Frage an Raphael gestellt. Der handgetippte
+Spezifikations-Kern («Faserpapier, z.B. Japanpapier (Washi) 120-180g/m2») ist unbestritten.
+Nebenbefund Identifikator: die Papiermuster-Lieferadresse nennt **Saumstrasse 21, 8003 Zuerich**
+neben Grubenstrasse 37 — deckt sich mit der bereits im Wiki gefuehrten privaten Zweitadresse, kein
+Widerspruch zur Rule `jans-absenderadresse`. Mikro-Metrik ueber die 5 destillierten Eigentexte
+(236 W, stilmetrik.py): Du-Gross-Quote 0.8 (ein handgetipptes kleines «dir» — Fluechtigkeits-Slip),
+Satzlaenge ø 11.8 W (leicht unter dem Korpusband 11.9–13.4, konsistent mit dem terse-operativen,
+Sie-lastigen Fenster), Anreden «Lieber Gruss» 2x/«Hoi Saemi» 1x/«Sehr geehrte Frau» 1x, Gruesse
+«Lieber Gruss» 2x/«Freundliche Gruesse» 1x, kein Tausender-Apostroph/Ellipsen/«%». | authentisch
+(klar vor-Claude; 1 Passage mit unerhaertetem Paste-Verdacht als offene Frage markiert) | ja (stimme
+**erweitert** Guten-Abend-Beleg + **neu** Waerme-Ruecktritt-Marker + **neu** zur-Info-im-Sie + **neu**
+Praeteritum-Nachfass + Metrik; beziehungsregister **neu** Geld kuehlt in eingehender Richtung +
+Tageszeit-Achse als zweite Anrede-Achse + Status-Hebung Nullform-Weiterleitung + Mappings
+Fala/Gloor; arbeitsweise **neu** Reihenfolge-Oekonomie + Mahnungs-Quittierung + Kalender-Vollzug +
+Archivakten-Beschaffung, **erweitert** Reifegrad-Etikett und Dokument-Kohaerenz je 2. Beleg;
+fachsignatur **neu** Wertquoten-Faktorenkatalog + Archivplan-Verfahren AfB + Honorarsystematik-
+Interesse, **praezisiert** Materialgespuer-Marker mit Paste-Vorbehalt; QUESTIONS 260612 #2
+teilbeantwortet + **neu** 3 Fragen) |
+
+**Befund zum Sweep-Ertrag (ehrlich):** Oktober 2025 ist der ertragreichste Luecken-Sweep der Serie —
+7 neue Marker plus 3 Status-Hebungen/Praezisierungen bei 9 Kandidaten, gegenueber 3 Luecken (Batch
+80) und 2 Luecken (Batch 81). Ursache: die drei Oktober-Batches 15/17/18 hatten das Fenster nur
+stichprobenartig gelesen («5 Volltexte» je Batch bei 15–20 gesichteten Mails), waehrend September
+via Batch 80/81 bereits vollstaendig durchgearbeitet war. Damit ist die Empfehlung 260727j
+bestaetigt: die sequenziellen Batches der Fruehphase sind systematisch unvollstaendig, und der
+Abgleich-vor-Lektuere-Schritt macht das Nacharbeiten billig. Oktober 2025 ist mit diesem Lauf
+**abgeschlossen** (vollstaendig gelistet, alle inhaltlichen Kandidaten geprueft). **Naechstes
+Fenster:** `rj@` **November 2025** (Batch 18/19/20 deckten 07.11.–20.11. ebenfalls nur
+stichprobenartig ab; Wiki-Belege existieren fuer 06.11./07.11./14.11./17.11.–20.11., der Abgleich
+ist erneut Pflicht), danach Dezember 2025 und die Luecken Feb–Jun 2026.

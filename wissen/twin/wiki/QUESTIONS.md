@@ -1914,7 +1914,10 @@ Facetten Beziehungsregister 76, Stimme 78 — neu freigelegtes Mundart-Register)
 2. **«Guten Abend <Vorname>»:** Nutzt du «Guten Abend» einfach tageszeit­abhängig (abends
    gesendet) oder hat es einen Ton-Akzent gegenüber «Hoi»/«Guten Morgen» — etwas ruhiger,
    gesetzter? *Warum: kalibriert die neu erfasste Tageszeit-Anrede.* → [[stimme]],
-   [[beziehungsregister]]
+   [[beziehungsregister]] · **TEILBEANTWORTET (Mailbatch 82, 260730):** «Guten Abend Christoph,»
+   (27.10.2025, 17:37, operatives Geschäfts-Du) belegt die Existenz der Anrede jetzt auch
+   ausserhalb des privaten Kontexts — nicht mehr nur vermutet. Offen bleibt allein der
+   Ton-Akzent (ruhiger/gesetzter gegenüber «Hoi»/«Guten Morgen»?).
 3. **«Geschätzter <Nachname>» + Du:** An welche Kontakte geht diese Mittelstufe (geschätzter
    Handwerker, per Du, aber Nachname statt Vorname) — generell an geschätzte Gewerke/Handwerker
    auf Augenhöhe, oder nur an einzelne, die du noch nicht beim Vornamen nennst? *Warum: schliesst
@@ -2231,3 +2234,35 @@ kennzeichnen.
    von `@woma-maur.ch` als auch von `@novaproperty.ch` (22.09.2025). Sind das zwei Mandate desselben
    Partners, oder ist Nova nur der Objekt-Eigentümer im STWEG-Fall? *Warum: Identifikator-Pflicht —
    die Zuordnung Person→Organisation wandert unverändert in Anschreiben, Adressblatt und Protokoll.*
+
+## Offene Fragen aus Batch 82 (Lücken-Sweep rj@ Oktober 2025, gestellt 30.07.2026)
+
+Drei Fragen aus dem vollständig gelisteten Oktober-Fenster. Je in 1–2 Sätzen beantwortbar.
+
+1. **Die Material-Analyse im Japanpapier-Mail (14.10.2025) — Dein Satz oder aus einem KI-Tool?**
+   Der Spezifikations-Kern ist zweifelsfrei handgetippt («ob Sie ein solche Faserpapier, z.B.
+   Japanpapier (Washi) 120-180g/m2 …»). Der Folgesatz dagegen trägt ein Paste-Signal: «Die
+   gleichmässige Faserstruktur und das diffuse Lichtverhalten deuten auf ungeleimtes Naturpapier
+   mit hohem Zelluloseanteil hin, eventuell mit leichten Kunstfaserzusätzen (z. B. Polyester oder
+   Polyamid) zur Reissfestigkeit.» — im **selben Satz** steht einmal «z.B.» ohne und einmal
+   «z. B.» mit Leerschlag, und das analytische Register springt aus der umgebenden Alltagssyntax.
+   *Warum: der Satz ist im Wiki seit Batch 17 als Gold-Beleg für Dein Materialgespür geführt. Ist
+   er KI-Text, muss er als Stilquelle raus (Echo-Schutz) — die Materialkompetenz selbst bleibt über
+   viele andere Belege gesichert. Ich habe den Marker deshalb NICHT abgewertet, sondern nur mit
+   Vorbehalt versehen.* → [[fachsignatur]]
+
+2. **Die Wertquoten-Faktoren — fester JANS-Ansatz oder pro Projekt neu gesetzt?** Du hast
+   Christoph Bopp Deinen Faktorenkatalog offengelegt (Wohnung EG f1.1 / 1.OG f1.15 / 2.OG f1.2,
+   Balkon f0.25, Keller/Garage/Estrich f0.3, Aussenparkplatz f0.2). Ist das Deine Standard-Staffel,
+   die Du grundsätzlich ansetzt, oder hast Du sie für dieses Objekt (Zürichstrasse 113/115) aus
+   Lage und Ausbaustand hergeleitet? *Warum: davon hängt ab, ob der Skill `stockwerkeigentum` und
+   der Agent `wertquoten-rechner` diese Zahlen als Default vorschlagen dürfen oder ob sie jedes Mal
+   projektbezogen hergeleitet werden müssen. Ein falscher Default wandert direkt in eine
+   Begründungsurkunde.* → [[fachsignatur]]
+
+3. **«zur Info» an die Bauherrschaft — bewusst so knapp?** Die amtliche Archivakten-Lieferung
+   hast Du der Bauherrin mit genau zwei Wörtern weitergeleitet (09.10.2025), ohne Anrede und Gruss,
+   damals noch im Sie-Register. Ist das Deine bewusste Transmittal-Form auch gegenüber Kundschaft,
+   oder war es die Eile des 7-Tage-Links? *Warum: die Nullform ist für Peers belegt. Der Zwilling
+   darf sie gegenüber der Bauherrschaft nur einsetzen, wenn sie dort wirklich gewollt ist — sonst
+   wirkt sie schroff.* → [[stimme]], [[arbeitsweise]]
