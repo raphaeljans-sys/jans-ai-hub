@@ -12,6 +12,11 @@ Layout: Cambria 11pt, A4, 20 mm Raender, schwarz, dezente Tabellenlinien
 Unterstuetzt: # / ## / ### Ueberschriften, Pipe-Tabellen, Aufzaehlungen (-, *),
 nummerierte Listen, Blockzitate (>), Code-Bloecke (```), **fett**, `code`, --- Trennlinie.
 
+Zeilenumbrueche (seit 30.07.2026): EINGERUECKTE Fortsetzungszeilen werden an ihren Block
+angehaengt (siehe _unwrap). Damit werden umbrochene Listenpunkte wieder ein Absatz und ein
+ueber den Umbruch laufendes **fett** wird erkannt. NICHT eingerueckte Folgezeilen bleiben
+bewusst eigene Absaetze, damit Adress-/Signaturbloecke nicht zu einer Zeile verschmelzen.
+
 Aufruf:
   python3 md2docx.py <datei.md> [--pdf]        # docx neben md; --pdf erzeugt auch PDF
   python3 md2docx.py <datei.md> -o <ziel.docx> [--pdf]

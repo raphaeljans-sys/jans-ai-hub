@@ -46,7 +46,7 @@ immobilienbewertung	skill	builder	Erzeugt das Bewertungs-Deliverable	anlassgebun
 korrektur	skill	sweeper	Schleift jedes Erzeugnis vor Ausgabe	aktiv
 kostenkontrolle	skill	maintainer	Laufende Baubuchhaltung ueber die Projektdauer	anlassgebunden
 kostenschaetzung	skill	builder	Erzeugt die belegte Kostenschaetzung	aktiv
-logbuch	skill	maintainer	Fristen- und Pendenzen-Register	aktiv	logbuch
+logbuch	skill	maintainer	Fristen- und Pendenzen-Register; fuehrt seit 31.07.2026 die drei Pflichtangaben je Zeile (seit wann, Ball, Abschlussdatum) fuer die Durchlaufzeit-Messung	aktiv	logbuch
 machbarkeit	skill	prototyper	Erzeugt Potenzial-Varianten	anlassgebunden
 machbarkeit-studio	skill	prototyper	Interaktiver Variantenraum	anlassgebunden
 mahnwesen	skill	maintainer	Laufender Debitoren-Betrieb	aktiv

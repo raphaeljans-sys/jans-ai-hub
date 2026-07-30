@@ -53,7 +53,11 @@ mkdir -p "$OUTDIR"
 # Die Tabelle ist ein Lesedokument: der Prosatext enthaelt selbst Pipes, weshalb
 # eine feste Spaltennummer unbrauchbar ist. Darum: erstes Feld = Frist, letztes
 # Feld = Status, Titel aus dem ersten Fettdruck, Rest als Suchraum fuer Marker.
-sed -n '/^## Aktiv/,$p' "$QUELLE" | grep '^| ' | grep -v '^| *Frist *|' | grep -v '^|---' \
+# Das Dokument enthaelt mehrere Tabellen mit unterschiedlichen Kopfzeilen. Ohne
+# diesen Filter landen Kopf- und Trennzeilen als "Vorgang" im Register und blaehen
+# jede Zaehlung auf.
+sed -n '/^## Aktiv/,$p' "$QUELLE" | grep '^| ' \
+| awk -F'|' 'NF >= 6 && $0 !~ /^\|[- :|]+\|$/ && $3 !~ /^ *(Was|Thema|Titel) *$/ && $2 !~ /^ *(Frist|Datum|Termin) *$/' \
 | awk -F'|' -v heute="$HEUTE_ISO" -v jahr="$JAHR" '
     function trim(s) { gsub(/^[ \t]+|[ \t]+$/, "", s); return s }
     function slug(s,   t) {
@@ -85,6 +89,7 @@ sed -n '/^## Aktiv/,$p' "$QUELLE" | grep '^| ' | grep -v '^| *Frist *|' | grep -
         status = "unklar"
         for (i = ende; i >= ende - 2 && i >= 2; i--) {
             k = tolower(trim($i))
+            if (length(k) > 24) continue                  # das ist Prosa, kein Status
             if (k ~ /^(offen|beobachten|nachfassen|erledigt|termin|zu pruefen|zu prüfen|zu klaeren|zu klären|entfaellt|entfällt|entscheid raphael|hoch|mittel|tief)/) {
                 if (k ~ /^(hoch|mittel|tief)$/) continue   # das ist die Prio-Spalte
                 status = trim($i); break

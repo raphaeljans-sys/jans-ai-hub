@@ -75,6 +75,33 @@ Jede Frist/Pendenz ist eine Zeile in `fristen.md`:
   nachweislich noch fehlt. Beim Schliessen kurz belegen (eingehend: Absender/Datum/Anliegen → ausgehend:
   Antwort Datum/Kerninhalt).
 
+### Drei Pflichtangaben je Zeile — sonst ist Durchlaufzeit nicht messbar (31.07.2026)
+
+Leitgroesse des Hubs ist seit dem 31.07.2026 **Durchlaufzeit und Wartezeit**
+(Entscheid Raphael). Gemessen wird sie von `scripts/vorgaenge-bilanz.sh`, das aus
+diesem Register `logbuch/vorgaenge/vorgaenge.tsv` erzeugt. Die Messung kann nur,
+was hier geschrieben steht — die Erstmessung fand ein Eroeffnungsdatum bei 7 von
+82 aktiven Vorgaengen und einen belegbaren Ball bei 26 von 82.
+
+Darum traegt **jede neue oder angefasste Zeile** diese drei Angaben im Text:
+
+1. **Seit wann** — die Wendung «seit <TT.MM.>» oder «seit dem <TT.MM.>» woertlich
+   im Text. Ohne sie gibt es fuer diesen Vorgang keine Durchlaufzeit, nie.
+2. **Bei wem der Ball liegt** — genau eine der belegten Wendungen:
+   `AKTION JANS` · `AKTION Raphael` · `Ball bei <Stelle>` · `Ball zurueck bei JANS`.
+   Nicht umschreiben; das Script erkennt nur diese Formen und schreibt sonst
+   ehrlich «unbekannt».
+3. **Beim Schliessen ein Datum** — «erledigt <TT.MM.>» statt nur «erledigt».
+   Erst damit laesst sich die abgeschlossene Durchlaufzeit rechnen, also die
+   eigentliche Zielgroesse.
+
+Die Angaben stehen im Fliesstext der Zeile, nicht in einer neuen Spalte: das
+Register bleibt ein Lesedokument, und die Messung holt sich, was sie braucht.
+
+**Nachfass-Regel:** Liegt ein Vorgang laenger als sieben Tage extern ohne
+Bewegung, meldet die Bilanz ihn. Der Radar legt dann einen Nachfass-Entwurf vor.
+Versendet wird nichts ohne Freigabe.
+
 ## Taeglicher Radar (Ablauf)
 
 1. Register + letzten Logbuch-Eintrag lesen.

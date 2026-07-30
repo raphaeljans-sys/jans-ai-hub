@@ -7,10 +7,10 @@ Quelle: logbuch/fristen.md · Register: logbuch/vorgaenge/vorgaenge.tsv
 
 | Grösse | Wert |
 |---|---|
-| Vorgänge insgesamt | 126 |
-| davon aktiv | 122 |
+| Vorgänge insgesamt | 86 |
+| davon aktiv | 82 |
 | davon erledigt | 4 |
-| mit Eröffnungsdatum (messbar) | 8 von 122 |
+| mit Eröffnungsdatum (messbar) | 7 von 82 |
 | mittleres Alter der messbaren | 29 Tage |
 | ältester offener Vorgang | 120 Tage |
 
@@ -20,13 +20,13 @@ Quelle: logbuch/fristen.md · Register: logbuch/vorgaenge/vorgaenge.tsv
 
 | Ball bei | Vorgänge |
 |---|---|
-| unbekannt | 96 |
+| unbekannt | 56 |
 | JANS | 19 |
 | Raphael | 5 |
 | extern: Kübler/Gruner | 1 |
 | extern: Duran/Gruner | 1 |
 
-Bei 96 von 122 aktiven Vorgängen liess sich der Ball nicht aus dem
+Bei 56 von 82 aktiven Vorgängen liess sich der Ball nicht aus dem
 Text belegen. Diese Zahl ist die wichtigste Qualitätsangabe dieser Bilanz: sie
 sagt, wie gross der blinde Fleck ist. Sie sinkt, sobald der Radar beim Eintragen
 konsequent «AKTION JANS», «AKTION Raphael» oder «Ball bei \<Stelle\>» schreibt.
@@ -42,8 +42,8 @@ wird nichts ohne Freigabe.
 
 ## 4. Was diese Bilanz noch nicht kann
 
-- **Durchlaufzeit misst nur, wo ein Eröffnungsdatum steht.** Aktuell 8 von
-  122 aktiven Vorgängen. Das Feld wird nur gesetzt, wenn im Text ausdrücklich
+- **Durchlaufzeit misst nur, wo ein Eröffnungsdatum steht.** Aktuell 7 von
+  82 aktiven Vorgängen. Das Feld wird nur gesetzt, wenn im Text ausdrücklich
   «seit \<Datum\>» steht; es wird nie geraten. Jeder neue Vorgang sollte es
   mitbekommen, dann wächst die Messbasis von selbst.
 - **Erledigte Vorgänge tragen kein Abschlussdatum.** Damit lässt sich die
@@ -53,4 +53,4 @@ wird nichts ohne Freigabe.
 - **Wartezeit ist nicht in eigene und fremde Anteile getrennt.** Dafür müsste je
   Vorgang die Ball-Historie mitlaufen, nicht nur der aktuelle Stand.
 
-Erzeugt von scripts/vorgaenge-bilanz.sh · 126 Tabellenzeilen gelesen
+Erzeugt von scripts/vorgaenge-bilanz.sh · 86 Tabellenzeilen gelesen
