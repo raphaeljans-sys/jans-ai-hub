@@ -3,3 +3,4 @@
 {"ts":"2026-07-30T10:43:07+0200","name":"test-beide-voll","station_eingabe":"mini","ziel":"queue","modus":"trocken","mini_gb":"1.2","mini_druck":"1","macbook_gb":"0.8","macbook_druck":"1","grund":"beide Stationen nicht bereit (mini 1.2 GB Druck 1 · macbook 0.8 Druck 1) — Auftrag in Mini-Queue geparkt"}
 {"ts":"2026-07-30T10:43:15+0200","name":"e2e-test","station_eingabe":"mini","ziel":"mini","modus":"ausfuehren","mini_gb":"11.0","mini_druck":"1","macbook_gb":"4.0","macbook_druck":"1","grund":"mini-frei (11.0 GB, Druck 1)"}
 {"ts":"2026-07-30T10:43:40+0200","name":"e2e-test2","station_eingabe":"mini","ziel":"mini","modus":"ausfuehren","mini_gb":"10.8","mini_druck":"1","macbook_gb":"3.9","macbook_druck":"1","grund":"mini-frei (10.8 GB, Druck 1)"}
+{"ts":"2026-07-30T11:14:12+0200","name":"testlauf","station_eingabe":"macbook","ziel":"mini","modus":"trocken","mini_gb":"10.2","mini_druck":"1","macbook_gb":"3.9","macbook_druck":"1","grund":"mini-frei (10.2 GB, Druck 1)"}
