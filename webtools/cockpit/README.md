@@ -70,6 +70,26 @@ per Meta-Refresh selbst (5 Min); launchd baut im gleichen Takt neu. Ist das NAS
 nicht gemountet, faellt der Lauf auf das lokale Repo zurueck und die Seite traegt
 den gelben Backup-Hinweis.
 
+## Zugriff von MacBook / Handy (ohne lokalen Build)
+
+Der Mac Mini serviert das gebaute Cockpit zusaetzlich als Webseite:
+`serve-cockpit.mjs` (launchd `com.jans.cockpit-web`, KeepAlive, Port 8377,
+liefert ausschliesslich die eine HTML-Datei aus — kein Verzeichniszugriff).
+
+| Von wo | URL |
+|---|---|
+| Buero (LAN) | `http://192.168.1.210:8377` |
+| ueberall (Tailscale) | `http://100.120.219.12:8377` |
+
+Nichts davon ist oeffentlich — LAN + Tailnet only. Auf dem MacBook gibt es
+zusaetzlich die Doppelklick-App **`~/Applications/JANS Cockpit.app`**
+(duenner Starter fuer `cockpit-oeffnen.sh`): nimmt zuerst den Mini-Server,
+baut sonst lokal NAS-first. Auch direkt nutzbar:
+
+```bash
+bash /Volumes/daten/jans-ai-hub/webtools/cockpit/cockpit-oeffnen.sh
+```
+
 ## Slash-Command (optional)
 
 Ein `/cockpit`-Command gehoert nach der Rule `sync-kanonische-quelle` auf das NAS
