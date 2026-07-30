@@ -4,6 +4,122 @@ Still-by-default: pro Lauf ein datierter Einzeiler. Mail nur bei echtem Handlung
 Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante Grösse;
 «total» ist von billigem cache_read dominiert).
 
+## 2026-07-30 07:15 — STILL (keine Mail)
+
+Verbrauch teuer/total je Station (Mio), Messung 07:15:
+
+| Tag | MacBook Pro teuer | MacBook Pro total | Mac Mini teuer | Mac Mini total |
+|---|---|---|---|---|
+| 23.07. | 2.88 | 48.31 | 4.58 | 137.53 |
+| 24.07. | 3.90 | 74.20 | 3.92 | 124.16 |
+| 25.07. | 29.77 | 624.10 | 23.32 | 689.69 |
+| 26.07. | 0.00 | 0.00 | 0.00 | 0.00 |
+| 27.07. | 18.73 | 556.45 | 7.77 | 178.32 |
+| 28.07. | 8.35 | 191.59 | 2.16 | 53.74 |
+| 29.07. | 9.37 | 333.30 | 2.05 | 59.73 |
+| 30.07. (bis 07:15) | 1.81 | 72.12 | 0.44 | 14.53 |
+
+Kombiniert teuer: 28.07. **10.51 Mio**, 29.07. **11.42 Mio**, 30.07. bis 07:15 **2.25 Mio**.
+Kriterium (b) nicht erfüllt: kein Tag über 35 Mio, keine zwei Folgetage über je 18 Mio.
+
+**Messgrenze offen ausgewiesen:** der 23.07.-Wert des MacBook Pro steht heute bei 2.88 statt
+3.87 wie im Eintrag vom 29.07. Ursache ist wie immer die mtime-Vorfilterung über das
+7-Tage-Fenster, die den ältesten Tag nur teilweise erfasst. Vergleichbar sind heute die Tage
+24.07. bis 30.07.
+
+**Blockade-Status: SAUBER.** Strukturelle Prüfung (isApiErrorMessage / type=error /
+apiErrorStatus 429 in Verbindung mit einem Limit-Textmuster): **0 Ereignisse im 36-h-Fenster**
+auf beiden Stationen (MacBook Pro 74 Dateien gescannt, Mac Mini 19). Kein 5-Stunden-Limit, kein
+Wochen-Limit. Kriterien (a) und (c) nicht erfüllt.
+
+**Operative Briefings: ALLE ERREICHT.** `logbuch-radar` lief heute 06:55 bis 07:07 (88
+Assistant-Turns, 87 Werkzeugaufrufe) und hat die Briefing-Mail nachweislich versendet: im
+Postausgang rj@ liegt «Logbuch-Radar 30.07.26: UBS-Blockade nach 32 Tagen gelöst, drei weitere
+Punkte geschlossen», 30.07. 07:07:15, dazu der Commit `9906f997`. `mahnwesen-verzugscheck`
+(fällig 08:05), `zahlungsabgleich-check` (08:22) und `hub-chef-taeglich` (08:38) waren zum
+Messzeitpunkt noch nicht fällig; ihre letzten Läufe vom 29.07. erreichten ihr Deliverable
+vollständig (hub-chef mit Briefing-Mail, die beiden bexio-Checks bestimmungsgemäss ohne Mail,
+da read-only und nur bei Befund meldend). Kriterium (d) nicht erfüllt.
+
+**Radar-Herzschlag: LEBT.** Beide Signale frisch: jüngster RADAR.md-Eintrag **30.07. 06:57**
+(Dateistand 07:02), und Sessions mit dem Opener `vollgas-chef-radar` liefen heute 04:57 und
+05:15; `lastRunAt` 06:57, `nextRunAt` 07:57. Weit innerhalb der 12-h-Schwelle, Kriterium (e)
+nicht erfüllt.
+
+**Der Strukturbefund von gestern ist GEHEILT — das ist der wichtigste Befund dieses Laufs.**
+Am 29.07. war der Destillat-Loop für jeden Taktgeber unadressierbar: `wissen/bauprodukte/` hatte
+keine `training/PROGRAMM.md`, weshalb Priorität 4 der Mac-Mini-Nachtschicht ihn nicht fand und
+alle vier Nachtläufe korrekt andere KBs wählten. Der Radar hat die Datei am 29.07. 09:57 angelegt
+und um 12:57 den Nebeneffekt selbst erkannt und entschärft (die Struktur-Korrektur hatte die KB
+über ihr CHANGELOG-Datum zur jüngsten von neun Kandidatinnen gemacht, also zur letzten in der
+Rangfolge; Gegenmittel ist der Warnhinweis im Statuskopf, dass der Dateistand in `wiki/` und der
+Inventarstand massgeblich sind, nicht das CHANGELOG-Datum). Wirkung nachgemessen: der
+23:30-Slot hat den Loop erreicht und geliefert.
+
+**Destillat-Aufsicht (vierte Erhebung) — Front und Ertrag bewegen sich beide wieder:**
+- (a) Fortschritt: Sektionen 37/37, 214 Dateien inventarisiert, Marker **147 `[-]` · 33 `[ ]` ·
+  23 `[t]` · 15 `[x]`**. Gegenüber dem 29.07. wanderte **eine Position von `[t]` auf `[x]`**
+  (triagiert zu destilliert); `inventar.sh --stand` weist 32 offene Dateien aus. Das Inventar
+  trägt neu den Dateistand **29.07. 23:35** statt wie zwei Läufe lang den vom 28.07. 07:33.
+- (b) Ertrag: **8 Artikel** (29.07.: 7), alle `emerging`, **0 `established`**. Neu ist
+  `wiki/z-winkel-beschlag-schreinerei.md` aus `273 Schreinerarbeiten/Z_Winkel/110207_Z_Winkel.pdf`.
+  Der Lauf hat ihn bewusst nicht in `arbeitsplatten-verbinder-schreinerei.md` integriert, obwohl
+  gleiche Quelle und gleicher Tagesausdruck: offener Stahlwinkel gegen verdeckten Stossverbinder,
+  andere Funktion, beidseitige Verlinkung gesetzt. Das ist eine saubere Abgrenzungsentscheidung,
+  kein Doppeleintrag.
+- (c) Delta-Null-Serie: **0.** Der Loop hat gearbeitet und geliefert. **Nebenbefund für den
+  Radar:** der Lauf hat **keinen `outputs/`-Report** geschrieben, der jüngste ist weiterhin
+  `2026-07-28_destillat-lauf4-281-bodenbelaege.md`. Dokumentiert wurde stattdessen über CHANGELOG
+  und Lauf-Journal. Das ist kein Leerlauf, aber eine Lücke genau in dem Pfad, über den die
+  Delta-Null-Serie gemessen werden soll: zwei Läufe in Folge ohne `outputs/`-Report würden bei
+  reiner Report-Zählung wie Stillstand aussehen. Wer die Serie künftig prüft, muss CHANGELOG und
+  Journal mitlesen oder der Loop muss den Report wieder schreiben.
+- (d) Stückkosten: **erstmals sauber je Lauf messbar, nicht mehr nur als Hub-Obergrenze.** Seit
+  dem 29.07. trägt das Lauf-Journal `cost_usd` je Lauf. Der Destillat-Lauf vom 29.07. 23:30 kostete
+  **3.81 USD** und brachte **einen** neuen Artikel, also **3.81 USD je Artikel**. Damit ist die
+  seit dem 28.07. vorgemerkte Zuordnungslücke geschlossen; die bisherige Kennzahl «rund 5.3 Mio
+  Token je Artikel» war eine Obergrenze über den ganzen Hub und ist als Massstab abgelöst.
+  Vergleichswerte derselben Nacht aus dem Journal: `baurecht-buch-training` Run 70 3.45 USD,
+  `grobkosten-training` Run 20 4.03 USD, Mittags-Slot `projekt-lessons` 2.28 USD.
+- Spec-Gate: `specs/bauprodukte-spec.md` (28.07. 01:33) liegt vor, hängt nicht.
+- Korpus-Queue: **nicht komplett** (Korpus 1 von 4 in Arbeit), Kriterium (g) nicht erfüllt. Die
+  Stand-Zeile der Queue nennt weiterhin «6 Artikel (Stand 28.07. 06:30)» und liegt damit jetzt
+  zwei Artikel zurück.
+- Kriterium (f) **nicht erfüllt**: Aufwand und Ertrag bewegen sich beide.
+
+**Liefer-Delta der Lern-Loops (letzte 24 h, gemessen an Dateien und Journal, nie an `lastRunAt`):**
+- 29.07. 13:34 Mittags-Slot: `projekt-lessons`, neuer Artikel
+  `kispi-behoerden-zustaendigkeitswechsel-1171-26.md`, geliefert (2.28 USD). Der Lauf hat
+  `bauprodukte` per Doppelarbeit-Guard bewusst übersprungen.
+- 29.07. 21:11 `wissens-chef`, 100 Minuten, Bericht plus zwei Status-Hebungen auf `established`.
+- 29.07. 23:28 `normen-training-nacht`, 57 Minuten, 363 Turns, `normen/wiki/REGISTER.md` nachgeführt.
+- 29.07. 23:30 `wissens-destillat`, neuer Artikel (siehe oben).
+- 30.07. 01:40 `twin-mail-training`, vier Facetten-Wikis geändert (stimme, beziehungsregister,
+  arbeitsweise, fachsignatur).
+- 30.07. 02:36 `baurecht-buch-training` Run 70, eine Korrektur am Artikel
+  `fahrzeugabstellplaetze-und-parkierung.md` (Verdichtungs-Drift § 242 Abs. 2 PBG).
+- 30.07. 03:45 `twin-fidelity-review`, Selbsttest und DNA neu kompiliert.
+- 30.07. 05:39 `grobkosten-training` Run 20, Bring-Schuld eingelöst, `wiki/kennwerte.md` kalibriert.
+- Summe geänderter Wiki-Artikel über alle KBs: **33 am 29.07., 17 am 30.07. bis 07:15.**
+- **Kein Loop mit Tokenverbrauch ohne Liefer-Delta, keine Delta-Null-Serie.**
+
+**Mittags-Slot 13:30 (befristeter Versuch seit 29.07.) — erste Lieferung belegt:** er hat am
+29.07. um 13:34 gefeuert und einen neuen Artikel in `projekt-lessons` geliefert. Das Lauf-Gate hat
+ihn **nie abgewiesen**; `gate-Macmini.log` trägt insgesamt vier Zeilen (drei Freigaben, eine
+Abweisung `radar-negativ-mini` aus dem Selbsttest-Abweisungspfad mit künstlicher Schwelle).
+Auswertung für Raphaels Entscheid weiterhin ab dem 05.08.
+
+**Nebenbefund, kein Handlungsbedarf:** Speicher MacBook Pro zum Messzeitpunkt **4'436 MB**
+verfügbar (frei 3'757 Seiten / inaktiv 277'313 / purgeable 2'826), Druckstufe **1** — deutlich
+entspannter als die knappen 3'603 MB von gestern. Mac Mini **11'148 MB** verfügbar, Druckstufe
+**1**. Beide über der 3-GB-Schwelle des Lauf-Gates.
+
+**Meldeentscheid: keine Mail.** Keines der Kriterien (a) bis (g) ist erfüllt. Der einzige offene
+Punkt ist der fehlende `outputs/`-Report des Destillat-Loops, und der gehört als Messpfad-Lücke
+dem Radar, der alle drei Stunden läuft. Zuletzt gemailt wurde am **28.07. 07:02**
+(«Morgenbriefing 28.07. ausgefallen — der NAS-Mount, nicht die Tokens»); dieser Befund ist
+geheilt und fällt nicht erneut an.
+
 ## 2026-07-29 07:15 — STILL (keine Mail)
 
 Verbrauch teuer/total je Station (Mio), Messung 07:15:
