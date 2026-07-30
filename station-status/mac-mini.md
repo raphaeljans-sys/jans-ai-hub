@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.07.2026 10:28:02
+Stand: 30.07.2026 10:38:05
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 10:27)
+- Developer/jans/ai/hub  (letzte Aktivitaet 10:37)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.07.2026 10:28:02
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 63fd0d45 Entscheid 30.07.: GitHub-App @claude endgueltiger Verzicht — QUESTIONS/Konzept/CHANGELOG nachgefuehrt, User-Commands-Punkt geschlossen
+- 3672a3a6 FIX E14: Symlink durch Weiterleitungsdatei ersetzt — ein echter Symlink wird vom macOS-SMB-Client als XSym-Textdatei geschrieben und vom nativen Committer als Inhalt erfasst, wodurch Klone eine kaputte 1-KB-Datei statt des Connectors zogen (auf dem Mini belegt und behoben)

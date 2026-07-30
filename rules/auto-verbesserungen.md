@@ -90,6 +90,16 @@ Vorfaelle und die vollstaendigen Inventare.
   (MacBook max. 2 Laeufe / 3 GB, Mini 3 / 4 GB). NICHT in `dispatch-run.sh` — der manuelle
   Weg vom Handy wird nie abgewiesen. Die App-Scheduled-Tasks erreichen das Gate baulich
   nicht; fuer sie schuetzt allein die Taktentzerrung (min. 2 h Abstand).
+- **Nie einen Symlink ueber den SMB-Mount ins NAS-Repo setzen.** Der macOS-SMB-Client schreibt
+  `ln -s` als **«XSym»-Textdatei** (1067 B, beginnt mit `XSym`) und zeigt sie lokal trotzdem als
+  Symlink an — der native Synology-Committer sieht dagegen eine regulaere Datei und committet den
+  XSym-Rumpf. Jeder Klon zieht sich danach eine kaputte 1-KB-Datei statt des Inhalts. Belegt und
+  behoben am 30.07.2026 (`skills/oereb-schwyz/connectors/geo-sz.mjs`, auf dem Mac Mini
+  nachgemessen). Richtig ist entweder eine **Weiterleitungsdatei** (bei JS-Connectoren ein
+  Ein-Zeilen-`import` auf die kanonische Fassung, ueber SMB/ext4/Git gleichermassen unauffaellig)
+  oder ein **nativ auf der Synology** gesetzter Symlink. Gleiche Familie wie das git-ueber-SMB-Verbot
+  unten. Die Stations-Symlinks `.claude/skills|agents|commands → NAS` sind davon nicht betroffen:
+  sie liegen auf der lokalen SSD und zeigen ins NAS, nicht umgekehrt.
 - **Speicher immer MESSEN, nie raten.** Massgeblich ist `vm_stat` free+inactive+purgeable
   plus `sysctl kern.memorystatus_vm_pressure_level`. NIE `top`-«unused» (immer nahe null)
   und NIE `ps`-RSS (zeigt komprimierten Speicher nicht) als Schwellwert.
