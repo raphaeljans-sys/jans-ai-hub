@@ -1,7 +1,7 @@
 # Vorgangs-Register — Durchlaufzeit und Wartezeit
 #
 # Erzeugt aus logbuch/fristen.md von scripts/vorgaenge-bilanz.sh.
-# Spalten: id <TAB> titel <TAB> projekt <TAB> frist <TAB> status <TAB> ball_bei <TAB> letzte_bewegung <TAB> eroeffnet
+# Spalten: id <TAB> titel <TAB> projekt <TAB> frist <TAB> status <TAB> ball_bei <TAB> letzte_bewegung <TAB> eroeffnet <TAB> geschlossen
 #
 # ball_bei wird nur gesetzt, wenn ein Marker im Text belegt ist
 # (AKTION JANS / AKTION Raphael / Ball bei X). Sonst 'unbekannt' — nie geraten.
@@ -9,89 +9,127 @@
 # ueberschrieben. Ohne dieses Feld gibt es keine Durchlaufzeit.
 #
 # Stand: 31.07.2026
-2620-albertstrasse-7-baubeschrieb-freigegebe	2620 Albertstrasse 7 — Baubeschrieb FREIGEGEBEN, jetzt hängt der KV am Entscheid vom 13	2620 Albertstrasse 7 / Nova Property	2026-08-13	offen	JANS	2026-07-29	
-2620-albertstrasse-7-baubeschrieb-zum-kv-ers	2620 Albertstrasse 7 — Baubeschrieb zum KV erstellt (Freigabe inzwischen erteilt, siehe 	2620 Albertstrasse 7 / Nova Property	entfaellt	offen	unbekannt	2026-07-29	
-4-agenten-blaupause-priorisieren-entscheid-r	4-Agenten-Blaupause priorisieren — Entscheid Raphael	Hub / Methoden	offen	offen	unbekannt	2026-07-29	
-ag-gr-ndung-der-engpass-hat-gewechselt-jetzt	AG-Gründung — der Engpass hat gewechselt: jetzt ist das Notariat der kritische Pfad	AG Raphael Jans AG	offen	offen	Raphael	2026-07-30	
-ag-gr-ndung-jetzt-l-uft-die-ubs-kette-iban-e	AG-Gründung — jetzt läuft die UBS-Kette: IBAN erwartet bis ca. 03./04.08	AG Raphael Jans AG	offen	beobachten	JANS	2026-07-29	
-ag-gruendung-firmenname-entschieden-raphael-	AG Gruendung — FIRMENNAME ENTSCHIEDEN: «Raphael Jans AG» (statt «JANS	AG Raphael Jans AG	2026-06-27	offen	Raphael	2026-06-27	
-ag-gruendung-nach-hr-eintrag-ubs-informieren	AG Gruendung — nach HR-Eintrag: UBS informieren	AG Raphael Jans AG	offen	beobachten	unbekannt		
-ag-gruendung-ubs-raphael-hat-b-jeckelmann-ub	AG Gruendung — UBS: Raphael hat B. Jeckelmann (UBS) am 27.06. 12:18 (Postfach	AG Raphael Jans AG	2026-06-27	erledigt 30.07.	Raphael	2026-07-31	2026-06-27
-albertstrasse-7-angebot-2607101-a4-vergleich	Albertstrasse 7 / Angebot 2607101 — A4-Vergleichsblatt 07.07.↔15.07	Albertstrasse 7 / 2620	2026-07-17	erledigt	unbekannt	2026-07-17	
-albertstrasse-7-bkp-275-00-schliesssystem-j-	Albertstrasse 7, BKP 275.00 Schliesssystem — J. Struebi (Portunus) sendet	Albertstrasse 7	2026-06-30	nachfassen	unbekannt	2026-06-30	
-albertstrasse-7-kispi-waschtuerme-f-staehlin	Albertstrasse 7 / KISPI-Waschtuerme — F. Staehlin (Elektro-Staehlin AG)	Albertstrasse 7 / 2619 KISPI	2026-07-15	beobachten	unbekannt	2026-07-16	
-albertstrasse-7-los-273-00-schreinerarbeiten	Albertstrasse 7, Los 273.00 Schreinerarbeiten (Hochschraenke + EI30-Tuere) —	Albertstrasse 7	2026-07-06	nachfassen	JANS	2026-07-06	
-albertstrasse-7-nova-property-rj-sendet-17-0	Albertstrasse 7 / Nova Property — RJ sendet 17.07. 12:47 an R. Steinmann die	Albertstrasse 7 / 2620	offen	beobachten	unbekannt	2026-07-17	
-baumackerstrasse-43-b24-00351-02-projekt-id-	Baumackerstrasse 43 (B24-00351.02, Projekt-ID 1840759) — AFB-Auskunft	Baumackerstrasse 43	offen	beobachten	unbekannt	2026-07-17	
-beschaffungsentscheid-arbeitsstation-ram-dim	Beschaffungsentscheid Arbeitsstation — RAM-Dimensionierung offen	Infrastruktur	offen	offen	unbekannt	2026-07-28	
-betriebsausfall-buero-beendet-nas-ds918-und-	Betriebsausfall Buero BEENDET — NAS DS918+ und Mac Mini seit 20.07. ca. 09:30 wieder onl	Infrastruktur	2026-07-00	nachfassen	unbekannt	2026-07-20	2026-07-20
-bexio-doppelimport-anfrage-neu-ueber-bexio-k	bexio-Doppelimport: Anfrage neu ueber bexio-Kontaktformular einreichen	bexio	2026-06-18	offen	unbekannt	2026-06-18	
-bexio-personal-access-token-erneuern-laeuft-	bexio Personal Access Token erneuern (laeuft ab)	bexio-Connector	2026-12-13	beobachten	unbekannt		
-brandschutz-grundsatzfrage-c40-offene-wissen	Brandschutz-Grundsatzfrage C40 (offene Wissensluecke, Kostenwirkung)	2414 Thalwil / Wissens-Layer Brandschutz	offen	offen	unbekannt	2026-07-28	
-dauerschicht-loop-macbook-pro-laeuft-mac-min	Dauerschicht-Loop MacBook Pro LAEUFT + Mac-Mini-Nachtschicht 18:00–09:00 EINGERICHTET	Infrastruktur	2026-07-00	erledigt	unbekannt	2026-07-20	
-debitor-re-00100-nova-property-fund-manageme	Debitor RE-00100 — Nova Property Fund Management AG, CHF 13'120, faellig 30.07.2026	Albertstrasse 7 / Nova	2026-07-30	beobachten	JANS	2026-07-30	
-debitor-re-00101-tschopp-gertrud-stefan-chf-	Debitor RE-00101 — Tschopp Gertrud & Stefan, CHF 6'000, faellig 31.07.2026	2414 Thalwil / Tschopp	2026-07-31	beobachten	JANS	2026-07-31	
-dr-d-chaled-22-06-zum-kv-dachausbau-folgekos	Dr. D. Chaled (22.06.) zum KV Dachausbau/Folgekosten Bahnhofstrasse: zwei	Bahnhofstrasse	2026-06-22	nachfassen	unbekannt	2026-06-22	
-dropbox-abo-verlaengert-sich-automatisch-dan	Dropbox-Abo verlaengert sich automatisch, danach jaehrlich EUR 203.88	Infrastruktur	2026-08-18	beobachten	unbekannt	2026-07-19	
-dropbox-meldet-26-07-16-04-die-hinterlegte-k	Dropbox meldet 26.07. 16:04, die hinterlegte Kreditkarte laufe Ende Monat ab	Infrastruktur	2026-07-00	offen	unbekannt	2026-07-31	
-ebaugesuchezh-einladung-abaenderungsplan-umb	eBaugesucheZH-Einladung «Abaenderungsplan Umbau Ladenflaeche» (F. Jashari	neu/extern	offen	beobachten	unbekannt	2026-07-02	
-ebaugesuchezh-meldet-28-07-zwei-neue-aktione	eBaugesucheZH meldet 28.07. zwei neue Aktionen	Baueingaben ZH	zu pruefen	zu pruefen	Raphael	2026-07-30	
-energie-als-eigener-skill-meta-punkt-m2-ruec	energie als eigener Skill (Meta-Punkt M2) — Rueckfrage Raphaels offen	Wissens-Layer energie	offen	Entscheid Raphael	unbekannt	2026-07-28	
-entscheid-raphael-scheduled-task-synobsis-ba	Entscheid Raphael: Scheduled Task synobsis-batch-nacht (Mac Mini) stilllegen	Hub-Betrieb	offen	Entscheid Raphael	unbekannt	2026-07-20	
-eproid-anfrage-b26-00705-01-via-ebaugesuchez	EPROID-Anfrage B26-00705.01 via eBaugesucheZH — Antwort pruefen, sonst	2619 KISPI	2026-06-20	nachfassen	unbekannt	2026-07-02	
-freigabe-entscheid-raphael-jurybericht-2507-	Freigabe-Entscheid Raphael: Jurybericht 2507 Halden herunterladen?	Wettbewerbs-Layer	offen	Entscheid Raphael	unbekannt	2026-07-20	2026-04-02
-g-scherbl-wintec-22-06-fuer-die-private-kont	G. Scherbl (Wintec, 22.06.) fuer die private Kontrolle (Heizung/Sanitaer	private Kontrolle	2026-06-22	nachfassen	unbekannt	2026-06-22	
-giebelweg-12-langnau-a-a-c-bopp-meldet-30-06	Giebelweg 12, Langnau a/A — C. Bopp meldet 30.06.: Einwendung gegen die	2621 Giebelweg/Bopp	2026-06-30	beobachten	unbekannt	2026-06-30	
-immobilienbewertungs-kb-saettigungsbefund-in	Immobilienbewertungs-KB: Saettigungsbefund in Zweifel	Wissens-Layer immobilienbewertung	offen	offen	unbekannt	2026-07-29	
-kaffeekosten-m-kepenek-rechnung-jan-juli-202	Kaffeekosten M. Kepenek — Rechnung Jan–Juli 2026 (CHF 30/Mt inkl. MwSt, CHF	privat/Buero	2026-07-22	beobachten	unbekannt	2026-07-22	
-kb-twin-33-von-60-registrierten-rohquellen-r	KB twin: 33 von 60 registrierten Rohquellen (raw/) fehlen physisch auf der Platte, Root-Ca	Hub-Betrieb / KB twin	offen	zu klaeren	unbekannt	2026-07-22	
-kispi-akutspital-1-og-kollision-bodenablauf-	KISPI Akutspital 1. OG — Kollision Bodenablauf Duschen ↔ Bodenheizung	2619 KISPI	offen	offen	JANS	2026-07-30	
-kispi-auflagebereinigung-1171-26-ball-bei-de	KISPI Auflagebereinigung 1171/26 — Ball bei den Fachstellen, neue Zustaendigkeiten	2619 KISPI	offen	beobachten	unbekannt	2026-07-29	
-kispi-auflagenbereinigung-vor-baufreigabe-j-	KISPI Auflagenbereinigung vor Baufreigabe: J. Ziegel (Gruner, 13.07. 14:13)	2619 KISPI	offen (verzoegert)	nachfassen	JANS	2026-07-21	2026-07-16
-kispi-baufreigabe-l-ftung-rj-hat-gruner-drin	KISPI Baufreigabe Lüftung — RJ hat Gruner dringend um den UGZ-Kontakt gebeten	2619 KISPI	offen	beobachten	extern: Kübler/Gruner	2026-07-29	
-kispi-governance-c-schaefer-02-07-haelt-fest	KISPI-Governance: C. Schaefer (02.07.) haelt fest — A. Spahic (bzw	2619 KISPI	offen	beobachten	unbekannt	2026-07-02	
-kispi-kueche-elektro-geraete-reap-s-keller-l	KISPI Kueche (Elektro/Geraete) — reap (S. Keller) liefert 14.07. 09:27 die	2619 KISPI	offen	beobachten	unbekannt	2026-07-14	
-kispi-lbw-beschichtung-fachfrage-beantwortet	KISPI LBW-Beschichtung — Fachfrage BEANTWORTET (Dauerschicht-Zyklus 35)	2619 KISPI	2026-07-00	unklar	unbekannt	2026-07-21	
-kispi-los-231-10-tekosi-ball-bei-l-hiltmann	KISPI Los 231.10 TeKoSi — Ball bei L. Hiltmann	2619 KISPI	offen	beobachten	unbekannt	2026-07-19	
-kispi-los-231-10-tuerfachplanung-l-hiltmann-	KISPI Los 231.10 Tuerfachplanung — L. Hiltmann (Tekosi) sendet 06.07. 16:00	2619 KISPI	2026-07-06	unklar	JANS	2026-07-20	
-kispi-los-273-35-kuechenbau-t-inniger-schrei	KISPI LOS 273.35 Kuechenbau — T. Inniger (Schreinermanufaktur) sendet 30.06	2619 KISPI	2026-06-30	nachfassen	JANS	2026-07-31	
-kispi-los-273-35-therapiekueche-definitive-i	KISPI Los 273.35 Therapiekueche — definitive Installationsplaene + Geraeteliste von Roet	2619 KISPI	2026-08-03	offen	JANS	2026-07-31	
-kispi-prinzippl-ne-jegen-los-274-01-tuerbau-	KISPI Prinzippläne Jegen (Los 274.01 / Tuerbau) — Rueckmeldung bis Di 21.07	2619 KISPI	2026-07-21	offen	unbekannt	2026-07-21	2026-07-17
-kispi-private-kontrolle-lueftung-en105-en110	KISPI private Kontrolle Lueftung (EN105/EN110): KONTROLLEUR-WECHSEL vollzogen	2619 KISPI	2026-07-00	beobachten	JANS	2026-07-22	
-kispi-schiebetueren-st1-st2-los-273-35-tuerb	KISPI Schiebetueren ST1/ST2 (Los 273.35, Tuerbau): RJ fixiert 14.07. die	2619 KISPI	offen	beobachten	unbekannt	2026-07-14	
-kispi-therapiekueche-32-fragen-zur-lueftung-	KISPI Therapiekueche — 32 Fragen zur Lueftung an vier Stellen formuliert, NOCH NICHT VER	2619 KISPI	offen	offen	JANS	2026-07-28	
-kispi-therapiestation-installationsplan-l-ft	KISPI Therapiestation — Installationsplan Lüftung vom QS Brandschutz zurückgewiesen	2619 KISPI	offen	beobachten	extern: Duran/Gruner	2026-07-29	
-kispi-tuerbuch-sicherheitskonzept-rueckmeldu	KISPI Tuerbuch + Sicherheitskonzept — Rueckmeldung der KISPI-Fachstellen	2619 KISPI	2026-07-31	offen	JANS	2026-07-31	
-kuehlkorpus-elit-preisauskunft-einholen	Kuehlkorpus Elit — Preisauskunft einholen	Kuechen-Strang (vgl. KISPI Los 273.35)	offen	offen	JANS	2026-07-27	
-l-merci-kispi-24-06-kommt-nicht-auf-den-plan	L. Merci (KISPI, 24.06.) kommt nicht auf den Plangrundlagen-Ordner (Tekosi-Pfad	2619 KISPI	2026-06-24	nachfassen	unbekannt	2026-06-24	
-m365-admin-zugangsdaten-wurden-per-mail-berm	M365-Admin-Zugangsdaten wurden per Mail übermittelt — Passwortwechsel empfohlen	Infrastruktur / M365	offen	offen	Raphael	2026-07-29	
-m365-zertifikat-erneuern-laeuft-ab	M365-Zertifikat erneuern (laeuft ab)	M365-Connector	2028-03-23	beobachten	unbekannt		
-mittagessen-vorschlag-m-prencipe-mail-17-06-	Mittagessen-Vorschlag M. Prencipe (Mail 17.06.) — Antwort/Termin noch offen	Netzwerk	2026-06-23	nachfassen	unbekannt	2026-06-23	
-n-ramminger-kispi-22-06-bestaetigt-die-raumn	N. Ramminger (KISPI, 22.06.) bestaetigt die Raumnummern und gibt sie frei	2619 KISPI	2026-06-22	nachfassen	unbekannt	2026-06-22	
-normen-bestellliste-kaufentscheid-raphael-au	Normen-Bestellliste — Kaufentscheid Raphael ausstehend (Geldentscheid)	Hub / normen	offen	offen	unbekannt	2026-07-29	
-normkaeufe-entscheid-raphael-ausstehend-geld	Normkaeufe — Entscheid Raphael ausstehend (Geldentscheid, echte Qualitaetsbremse)	Wissens-Layer energie/normen	offen	offen	unbekannt	2026-07-27	
-re-00087-kispi-chf-15-000-97-tage-ueberfaell	RE-00087 (Kispi, CHF 15'000) 97 Tage ueberfaellig (bexio --verzug 22.07.) —	2619 KISPI	2026-07-15	beobachten	unbekannt	2026-07-22	
-re-00098-kispi-chf-13-600-re-00099-kispi-chf	RE-00098 (KISPI, CHF 13'600) + RE-00099 (KISPI, CHF 3'680), Zahlfrist 20.07	2619 KISPI	2026-07-20	beobachten	unbekannt	2026-07-22	2026-07-22
-re-00100-restpunkte-nach-der-neuausstellung	RE-00100 — Restpunkte nach der Neuausstellung	Albertstrasse 7 / Nova	offen	offen	JANS	2026-07-29	
-re-login-login-blockiert-neu-auch-interaktiv	Re-Login /login blockiert neu auch interaktive Arbeit — Eskalation des Punktes vom 20.07	Infrastruktur/Claude-Abo	offen	offen	Raphael	2026-07-28	2026-07-12
-restposten-kontext-diaet-minimum-viable-mode	Restposten Kontext-Diaet: Minimum Viable Model fuer die mechanischen Lern-Loop-Stufen	Infrastruktur	offen	offen	unbekannt	2026-07-20	
-s-sonderegger-kispi-fragen-reduit-strom-upda	S. Sonderegger (KISPI) Fragen Reduit/Strom — Update: A. Spahic (22.06.)	2619 KISPI	2026-06-21	beobachten	unbekannt	2026-06-22	
-s-tschopp-mail-21-06-bittet-um-status-update	S. Tschopp (Mail 21.06.) bittet um Status-Update zum Aufstockungs-Projekt	Tschopp Aufstockung	2026-06-21	nachfassen	unbekannt	2026-06-24	
-saumstrasse-21-faekalgeruch-bad-whg-3-og-lin	Saumstrasse 21 — Faekalgeruch Bad Whg 3.OG links: M. Salzmann (Immobilien und	Saumstrasse 21	2026-08-00	beobachten	JANS	2026-07-16	
-saumstrasse-21-geschirrspueler-montagetermin	Saumstrasse 21 Geschirrspueler — Montagetermin an den Vermieter melden	Saumstrasse 21	offen	offen	JANS	2026-07-27	
-sharepoint-online-speicher-voll-nun-1055-04-	SharePoint-Online-Speicher voll (nun 1055.04 / 1054 GB belegt	M365/OneDrive	2026-06-18	offen	unbekannt	2026-06-24	
-sharepoint-zugriff-projektsite-jans-2619-kis	SharePoint-Zugriff Projektsite «JANS - 2619-KISPI» laeuft fuer SIEBEN Personen ab	2619 KISPI	2026-08-08	offen	JANS	2026-07-23	
-spec-interview-syn-02-zugesagt-montag	Spec-Interview SYN-02 zugesagt (Montag)	Hub / Wettbewerb	2026-08-03	offen	unbekannt	2026-07-28	
-swisssign-wallet-geraeteumzug-altes-neues-ip	SwissSign Wallet — Geraeteumzug altes → neues iPhone fuer qualifizierte	privat/IT	offen	nachfassen	unbekannt	2026-07-25	
-termin-heute-kispi-abstimmung-brandschutz-au	Termin HEUTE: KISPI_Abstimmung Brandschutz Auflagenerledigung, 10:00–10:30	2619 KISPI	2026-07-22	Termin	unbekannt	2026-07-22	2026-07-15
-termin-koordinationssitzung-gruner-jans-kisp	Termin: Koordinationssitzung Gruner / Jans / KISPI, 13:00–14:00 Teams	2619 KISPI	2026-07-23	Termin	unbekannt	2026-07-23	
-termin-koordinationssitzung-gruner-jans-kisp	Termin: Koordinationssitzung Gruner / Jans / KISPI, 13:00–14:00, Microsoft Teams	2619 KISPI	2026-08-06	Termin	unbekannt	2026-07-29	
-termin-privat-arioli-17-30	Termin (privat): «Arioli», 17:30	privat	2026-08-05	Termin	unbekannt		
-termin-privat-ubs-termin-bestaetigt-finanzie	Termin (privat): «UBS Termin bestaetigt: Finanzierungen», 10:00–11:00	AG Raphael Jans AG / privat	2026-07-31	Termin	unbekannt	2026-07-31	
-termin-saumstrasse-21-lueftungsgitter-kuehls	Termin: Saumstrasse 21 — Lueftungsgitter Kuehlschrank, Eintreffen/Lieferung	Saumstrasse 21	2026-07-23	Termin	unbekannt	2026-07-23	
-thalwil-2414-bohlweg-3-tschopp-antwort-zur-p	Thalwil 2414 / Bohlweg 3 (Tschopp) — Antwort zur Projektaenderung ist raus	2414 Thalwil/Tschopp	offen	beobachten	unbekannt	2026-07-16	
-thalwil-2414-tschopp-reduzierte-ausschreibun	Thalwil 2414 (Tschopp) reduzierte Ausschreibung — Bauherr (11.07.) legt seine	2414 Thalwil/Tschopp	offen	nachfassen	JANS	2026-07-11	
-thalwil-naeherbaurecht-2414-bohlweg-3-parz-6	Thalwil Naeherbaurecht 2414 (Bohlweg 3, Parz. 6289): SBB (T. Wiedmer)	2414 Thalwil/Tschopp	2026-07-02	beobachten	unbekannt	2026-07-21	
-ueberwachungsluecke-ag-gruendung-ag-gruendun	Ueberwachungsluecke AG-Gruendung — ag-gruendung-monitor war auf mail@ blind → BEHOBEN 	AG Raphael Jans AG	2026-07-00	erledigt	unbekannt	2026-07-21	
-vollgas-chef-radar-lauf-mit-api-error-401-oa	VOLLGAS-Chef-Radar-Lauf mit API Error: 401 OAuth access token has been revoked abgebrochen	Infrastruktur	offen	zu pruefen	unbekannt	2026-07-20	
-vollgas-zwei-entscheide-raphaels-offen	VOLLGAS — zwei Entscheide Raphaels offen	Infrastruktur/Vollgas	offen	Entscheid Raphael	unbekannt	2026-07-28	
+2620-albertstrasse-7-baubeschrieb-freigegebe	2620 Albertstrasse 7 — Baubeschrieb FREIGEGEBEN, jetzt hängt der KV am Entscheid vom 13	2620 Albertstrasse 7 / Nova Property	2026-08-13	offen	JANS	2026-07-29		
+2620-albertstrasse-7-baubeschrieb-zum-kv-ers	2620 Albertstrasse 7 — Baubeschrieb zum KV erstellt (Freigabe inzwischen erteilt, siehe 	2620 Albertstrasse 7 / Nova Property	entfaellt	offen	unbekannt	2026-07-29		
+2620-albertstrasse-7-baubeschrieb-zum-kv-von	2620 Albertstrasse 7 — Baubeschrieb zum KV von der Bauherrschaft freigegeben			erledigt	unbekannt	2026-07-30		2026-07-30
+4-agenten-blaupause-priorisieren-entscheid-r	4-Agenten-Blaupause priorisieren — Entscheid Raphael	Hub / Methoden	offen	offen	unbekannt	2026-07-29		
+ag-firmenname-jans-ag-aufgegeben-zugunsten-r	AG: Firmenname «JANS AG» aufgegeben zugunsten «Raphael Jans AG»; die			erledigt	unbekannt	2026-06-27		2026-06-27
+ag-gr-ndung-der-engpass-hat-gewechselt-jetzt	AG-Gründung — der Engpass hat gewechselt: jetzt ist das Notariat der kritische Pfad	AG Raphael Jans AG	offen	offen	Raphael	2026-07-30		
+ag-gr-ndung-die-ubs-blockade-ist-nach-32-tag	AG-Gründung — die UBS-Blockade ist nach 32 Tagen aufgelöst			erledigt	unbekannt	2026-07-30		2026-07-30
+ag-gr-ndung-jetzt-l-uft-die-ubs-kette-iban-e	AG-Gründung — jetzt läuft die UBS-Kette: IBAN erwartet bis ca. 03./04.08	AG Raphael Jans AG	offen	beobachten	JANS	2026-07-29		
+ag-gruendung-firmenname-entschieden-raphael-	AG Gruendung — FIRMENNAME ENTSCHIEDEN: «Raphael Jans AG» (statt «JANS	AG Raphael Jans AG	2026-06-27	offen	Raphael	2026-06-27		
+ag-gruendung-nach-hr-eintrag-ubs-informieren	AG Gruendung — nach HR-Eintrag: UBS informieren	AG Raphael Jans AG	offen	beobachten	unbekannt			
+ag-gruendung-ubs-raphael-hat-b-jeckelmann-ub	AG Gruendung — UBS: Raphael hat B. Jeckelmann (UBS) am 27.06. 12:18 (Postfach	AG Raphael Jans AG	2026-06-27	erledigt 30.07.	Raphael	2026-07-31	2026-06-27	
+albertstrasse-7-angebot-2607101-a4-vergleich	Albertstrasse 7 / Angebot 2607101 — A4-Vergleichsblatt 07.07.↔15.07	Albertstrasse 7 / 2620	2026-07-17	erledigt	unbekannt	2026-07-17		
+albertstrasse-7-bkp-275-00-schliesssystem-j-	Albertstrasse 7, BKP 275.00 Schliesssystem — J. Struebi (Portunus) sendet	Albertstrasse 7	2026-06-30	nachfassen	unbekannt	2026-06-30		
+albertstrasse-7-kispi-waschtuerme-f-staehlin	Albertstrasse 7 / KISPI-Waschtuerme — F. Staehlin (Elektro-Staehlin AG)	Albertstrasse 7 / 2619 KISPI	2026-07-15	beobachten	unbekannt	2026-07-16		
+albertstrasse-7-los-273-00-schreinerarbeiten	Albertstrasse 7, Los 273.00 Schreinerarbeiten (Hochschraenke + EI30-Tuere) —	Albertstrasse 7	2026-07-06	nachfassen	JANS	2026-07-06		
+albertstrasse-7-nova-property-rj-sendet-17-0	Albertstrasse 7 / Nova Property — RJ sendet 17.07. 12:47 an R. Steinmann die	Albertstrasse 7 / 2620	offen	beobachten	unbekannt	2026-07-17		
+ausmass-malerarbeiten-an-miro-albertstrasse-	Ausmass Malerarbeiten an MIRO, Albertstrasse 7 (20.06. 09:00–09:30) —			erledigt	unbekannt	2026-06-21		2026-06-21
+baumackerstrasse-43-b24-00351-02-projekt-id-	Baumackerstrasse 43 (B24-00351.02, Projekt-ID 1840759) — AFB-Auskunft	Baumackerstrasse 43	offen	beobachten	unbekannt	2026-07-17		
+beschaffungsentscheid-arbeitsstation-ram-dim	Beschaffungsentscheid Arbeitsstation — RAM-Dimensionierung offen	Infrastruktur	offen	offen	unbekannt	2026-07-28		
+besichtigung-david-bahnhofstrasse-27-am-19-0	Besichtigung David (Bahnhofstrasse 27) am 19.06. 19:00–21:00 durchgefuehrt			erledigt	unbekannt	2026-06-20		2026-06-20
+besprechung-schliessanlage-albertstrasse-7-b	Besprechung Schliessanlage Albertstrasse 7 (BKP 275.00, 22.06. 15:00–16:00			erledigt	unbekannt	2026-06-22		2026-06-22
+betriebsausfall-buero-beendet-nas-ds918-und-	Betriebsausfall Buero BEENDET — NAS DS918+ und Mac Mini seit 20.07. ca. 09:30 wieder onl	Infrastruktur	2026-07-00	nachfassen	unbekannt	2026-07-20	2026-07-20	
+bexio-doppelimport-anfrage-neu-ueber-bexio-k	bexio-Doppelimport: Anfrage neu ueber bexio-Kontaktformular einreichen	bexio	2026-06-18	offen	unbekannt	2026-06-18		
+bexio-personal-access-token-erneuern-laeuft-	bexio Personal Access Token erneuern (laeuft ab)	bexio-Connector	2026-12-13	beobachten	unbekannt			
+bexio-support-wegen-doppelimport-angeschrieb	bexio-Support wegen Doppelimport angeschrieben (Adresse support@ inaktiv, siehe			erledigt	unbekannt	2026-06-13		2026-06-13
+brandschutz-grundsatzfrage-c40-offene-wissen	Brandschutz-Grundsatzfrage C40 (offene Wissensluecke, Kostenwirkung)	2414 Thalwil / Wissens-Layer Brandschutz	offen	offen	unbekannt	2026-07-28		
+dauerschicht-loop-macbook-pro-laeuft-mac-min	Dauerschicht-Loop MacBook Pro LAEUFT + Mac-Mini-Nachtschicht 18:00–09:00 EINGERICHTET	Infrastruktur	2026-07-00	erledigt	unbekannt	2026-07-20		
+debitor-re-00100-nova-property-fund-manageme	Debitor RE-00100 — Nova Property Fund Management AG, CHF 13'120, faellig 30.07.2026	Albertstrasse 7 / Nova	2026-07-30	beobachten	JANS	2026-07-30		
+debitor-re-00101-tschopp-gertrud-stefan-chf-	Debitor RE-00101 — Tschopp Gertrud & Stefan, CHF 6'000, faellig 31.07.2026	2414 Thalwil / Tschopp	2026-07-31	beobachten	JANS	2026-07-31		
+dr-d-chaled-22-06-zum-kv-dachausbau-folgekos	Dr. D. Chaled (22.06.) zum KV Dachausbau/Folgekosten Bahnhofstrasse: zwei	Bahnhofstrasse	2026-06-22	nachfassen	unbekannt	2026-06-22		
+dropbox-abo-verlaengert-sich-automatisch-dan	Dropbox-Abo verlaengert sich automatisch, danach jaehrlich EUR 203.88	Infrastruktur	2026-08-18	beobachten	unbekannt	2026-07-19		
+dropbox-meldet-26-07-16-04-die-hinterlegte-k	Dropbox meldet 26.07. 16:04, die hinterlegte Kreditkarte laufe Ende Monat ab	Infrastruktur	2026-07-00	offen	unbekannt	2026-07-31		
+ebaugesuchezh-einladung-abaenderungsplan-umb	eBaugesucheZH-Einladung «Abaenderungsplan Umbau Ladenflaeche» (F. Jashari	neu/extern	offen	beobachten	unbekannt	2026-07-02		
+ebaugesuchezh-meldet-28-07-zwei-neue-aktione	eBaugesucheZH meldet 28.07. zwei neue Aktionen	Baueingaben ZH	zu pruefen	zu pruefen	Raphael	2026-07-30		
+energie-als-eigener-skill-meta-punkt-m2-ruec	energie als eigener Skill (Meta-Punkt M2) — Rueckfrage Raphaels offen	Wissens-Layer energie	offen	Entscheid Raphael	unbekannt	2026-07-28		
+entscheid-raphael-scheduled-task-synobsis-ba	Entscheid Raphael: Scheduled Task synobsis-batch-nacht (Mac Mini) stilllegen	Hub-Betrieb	offen	Entscheid Raphael	unbekannt	2026-07-20		
+eproid-anfrage-b26-00705-01-via-ebaugesuchez	EPROID-Anfrage B26-00705.01 via eBaugesucheZH — Antwort pruefen, sonst	2619 KISPI	2026-06-20	nachfassen	unbekannt	2026-07-02		
+freigabe-entscheid-raphael-jurybericht-2507-	Freigabe-Entscheid Raphael: Jurybericht 2507 Halden herunterladen?	Wettbewerbs-Layer	offen	Entscheid Raphael	unbekannt	2026-07-20	2026-04-02	
+g-scherbl-wintec-22-06-fuer-die-private-kont	G. Scherbl (Wintec, 22.06.) fuer die private Kontrolle (Heizung/Sanitaer	private Kontrolle	2026-06-22	nachfassen	unbekannt	2026-06-22		
+giebelweg-12-langnau-a-a-c-bopp-meldet-30-06	Giebelweg 12, Langnau a/A — C. Bopp meldet 30.06.: Einwendung gegen die	2621 Giebelweg/Bopp	2026-06-30	beobachten	unbekannt	2026-06-30		
+immobilienbewertungs-kb-saettigungsbefund-in	Immobilienbewertungs-KB: Saettigungsbefund in Zweifel	Wissens-Layer immobilienbewertung	offen	offen	unbekannt	2026-07-29		
+jans-datenaustausch-sharepoint-gastzugriff-a	JANS DATENAUSTAUSCH (SharePoint-Gastzugriff): Ablauf 10.07. verstrichen (6			erledigt	unbekannt	2026-07-11		2026-07-11
+jomos-sprinkleranlage-kispi-auftragsbestaeti	Jomos Sprinkleranlage (KISPI) — Auftragsbestaetigung 308115-79			erledigt	unbekannt	2026-07-10		2026-07-10
+kaffeekosten-m-kepenek-rechnung-jan-juli-202	Kaffeekosten M. Kepenek — Rechnung Jan–Juli 2026 (CHF 30/Mt inkl. MwSt, CHF	privat/Buero	2026-07-22	beobachten	unbekannt	2026-07-22		
+kb-twin-33-von-60-registrierten-rohquellen-r	KB twin: 33 von 60 registrierten Rohquellen (raw/) fehlen physisch auf der Platte, Root-Ca	Hub-Betrieb / KB twin	offen	zu klaeren	unbekannt	2026-07-22		
+kispi-akutspital-1-og-kollision-bodenablauf-	KISPI Akutspital 1. OG — Kollision Bodenablauf Duschen ↔ Bodenheizung	2619 KISPI	offen	offen	JANS	2026-07-30		
+kispi-auflagebereinigung-1171-26-ball-bei-de	KISPI Auflagebereinigung 1171/26 — Ball bei den Fachstellen, neue Zustaendigkeiten	2619 KISPI	offen	beobachten	unbekannt	2026-07-29		
+kispi-auflagebereinigung-bauentscheid-1171-2	KISPI Auflagebereinigung Bauentscheid 1171/26 Lenggstrasse 30 — Abaenderungsplaene (Aufl			erledigt	unbekannt	2026-07-24		2026-07-24
+kispi-auflagenbereinigung-vor-baufreigabe-j-	KISPI Auflagenbereinigung vor Baufreigabe: J. Ziegel (Gruner, 13.07. 14:13)	2619 KISPI	offen (verzoegert)	nachfassen	JANS	2026-07-21	2026-07-16	
+kispi-baufreigabe-l-ftung-rj-hat-gruner-drin	KISPI Baufreigabe Lüftung — RJ hat Gruner dringend um den UGZ-Kontakt gebeten	2619 KISPI	offen	beobachten	extern: Kübler/Gruner	2026-07-29		
+kispi-brandschutz-korrekturfassung-ziegel-er	KISPI Brandschutz Korrekturfassung Ziegel — erledigt, Bringschuld lag bei Ziegel			erledigt	unbekannt	2026-07-24		2026-07-24
+kispi-governance-c-schaefer-02-07-haelt-fest	KISPI-Governance: C. Schaefer (02.07.) haelt fest — A. Spahic (bzw	2619 KISPI	offen	beobachten	unbekannt	2026-07-02		
+kispi-kueche-elektro-geraete-reap-s-keller-l	KISPI Kueche (Elektro/Geraete) — reap (S. Keller) liefert 14.07. 09:27 die	2619 KISPI	offen	beobachten	unbekannt	2026-07-14		
+kispi-lbw-beschichtung-fachfrage-beantwortet	KISPI LBW-Beschichtung — Fachfrage BEANTWORTET (Dauerschicht-Zyklus 35)	2619 KISPI	2026-07-00	unklar	unbekannt	2026-07-21		
+kispi-los-231-10-tekosi-ball-bei-l-hiltmann	KISPI Los 231.10 TeKoSi — Ball bei L. Hiltmann	2619 KISPI	offen	beobachten	unbekannt	2026-07-19		
+kispi-los-231-10-tekosi-besprechung-auftrags	KISPI Los 231.10 TeKoSi — Besprechung Auftragsbestaetigung durchgefuehrt			erledigt	unbekannt	2026-07-24		2026-07-24
+kispi-los-231-10-tekosi-termin-auftragsbesta	KISPI Los 231.10 TeKoSi — Termin Auftragsbestaetigung durchgefuehrt			erledigt	unbekannt	2026-07-24		2026-07-24
+kispi-los-231-10-tuerfachplanung-l-hiltmann-	KISPI Los 231.10 Tuerfachplanung — L. Hiltmann (Tekosi) sendet 06.07. 16:00	2619 KISPI	2026-07-06	unklar	JANS	2026-07-20		
+kispi-los-231-10-tuerfachplanung-tekosi-ruec	KISPI Los 231.10 Tuerfachplanung TeKoSi — Rueckmeldung ist RAUS, Selbstfrist 20.07. eing			erledigt	unbekannt	2026-07-20		2026-07-20
+kispi-los-273-35-kuechenbau-t-inniger-schrei	KISPI LOS 273.35 Kuechenbau — T. Inniger (Schreinermanufaktur) sendet 30.06	2619 KISPI	2026-06-30	nachfassen	JANS	2026-07-31		
+kispi-los-273-35-roethlisberger-nachfass-ins	KISPI Los 273.35 Roethlisberger — Nachfass Installationsplaene erledigt, neue Frist 03.0			erledigt	unbekannt	2026-07-29		2026-07-27
+kispi-los-273-35-therapiekueche-definitive-i	KISPI Los 273.35 Therapiekueche — definitive Installationsplaene + Geraeteliste von Roet	2619 KISPI	2026-08-03	offen	JANS	2026-07-31		
+kispi-los-274-01-jegen-definitive-offerte-an	KISPI LOS 274.01 Jegen «definitive Offerte anfordern» — gegenstandslos			erledigt	unbekannt	2026-07-24		2026-07-24
+kispi-ppts-brandschutz-auflagebereinigung-24	KISPI PPTS Brandschutz Auflagebereinigung (24.06. 09:00–09:30 Teams, L			erledigt	unbekannt	2026-06-24		2026-06-24
+kispi-prinzippl-ne-jegen-los-274-01-tuerbau-	KISPI Prinzippläne Jegen (Los 274.01 / Tuerbau) — Rueckmeldung bis Di 21.07	2619 KISPI	2026-07-21	offen	unbekannt	2026-07-21	2026-07-17	
+kispi-private-kontrolle-lueftung-en105-en110	KISPI private Kontrolle Lueftung (EN105/EN110): KONTROLLEUR-WECHSEL vollzogen	2619 KISPI	2026-07-00	beobachten	JANS	2026-07-22		
+kispi-schiebetuer-spezifikation-st1-st2-fixi	KISPI Schiebetuer-Spezifikation ST1/ST2 fixiert (RJ 14.07. 07:03/07:51)			erledigt	unbekannt	2026-07-15		2026-07-15
+kispi-schiebetueren-st1-st2-los-273-35-tuerb	KISPI Schiebetueren ST1/ST2 (Los 273.35, Tuerbau): RJ fixiert 14.07. die	2619 KISPI	offen	beobachten	unbekannt	2026-07-14		
+kispi-therapiekueche-32-fragen-zur-lueftung-	KISPI Therapiekueche — 32 Fragen zur Lueftung an vier Stellen formuliert, NOCH NICHT VER	2619 KISPI	offen	offen	JANS	2026-07-28		
+kispi-therapiestation-installationsplan-l-ft	KISPI Therapiestation — Installationsplan Lüftung vom QS Brandschutz zurückgewiesen	2619 KISPI	offen	beobachten	extern: Duran/Gruner	2026-07-29		
+kispi-tuerbuch-sicherheitskonzept-rueckmeldu	KISPI Tuerbuch + Sicherheitskonzept — Rueckmeldung der KISPI-Fachstellen	2619 KISPI	2026-07-31	offen	JANS	2026-07-31		
+kontext-diaet-token-reduktion-umgesetzt-stat	Kontext-Diaet / Token-Reduktion — umgesetzt statt «zur Freigabe»			erledigt	unbekannt	2026-07-20		2026-07-20
+kontrolle-lueftung-even-22-06-09-00-09-30-f-	Kontrolle Lueftung EVEN (22.06. 09:00–09:30, F. Wuersch/KISPI + C			erledigt	unbekannt	2026-06-22		2026-06-22
+koordinationssitzung-gruner-jans-kispi-09-07	Koordinationssitzung Gruner/Jans/KISPI 09.07. 13:00–14:00 Teams			erledigt	unbekannt	2026-07-10		2026-07-10
+kuehlkorpus-elit-preisauskunft-einholen	Kuehlkorpus Elit — Preisauskunft einholen	Kuechen-Strang (vgl. KISPI Los 273.35)	offen	offen	JANS	2026-07-27		
+l-merci-kispi-24-06-kommt-nicht-auf-den-plan	L. Merci (KISPI, 24.06.) kommt nicht auf den Plangrundlagen-Ordner (Tekosi-Pfad	2619 KISPI	2026-06-24	nachfassen	unbekannt	2026-06-24		
+lenggstrasse-30-2026-171-0092-schutzraeume-e	Lenggstrasse 30 (2026/171/0092) Schutzraeume-/Ersatzabgaben-Rechnung —			erledigt	unbekannt	2026-07-09		2026-07-09
+m365-admin-zugangsdaten-wurden-per-mail-berm	M365-Admin-Zugangsdaten wurden per Mail übermittelt — Passwortwechsel empfohlen	Infrastruktur / M365	offen	offen	Raphael	2026-07-29		
+m365-backup-clal-na-am-selben-tag-gel-st	M365-Backup Clalüna — am selben Tag gelöst			erledigt	unbekannt	2026-07-30		2026-07-30
+m365-zertifikat-erneuern-laeuft-ab	M365-Zertifikat erneuern (laeuft ab)	M365-Connector	2028-03-23	beobachten	unbekannt			
+mittagessen-vorschlag-m-prencipe-mail-17-06-	Mittagessen-Vorschlag M. Prencipe (Mail 17.06.) — Antwort/Termin noch offen	Netzwerk	2026-06-23	nachfassen	unbekannt	2026-06-23		
+n-ramminger-kispi-22-06-bestaetigt-die-raumn	N. Ramminger (KISPI, 22.06.) bestaetigt die Raumnummern und gibt sie frei	2619 KISPI	2026-06-22	nachfassen	unbekannt	2026-06-22		
+normen-bestellliste-kaufentscheid-raphael-au	Normen-Bestellliste — Kaufentscheid Raphael ausstehend (Geldentscheid)	Hub / normen	offen	offen	unbekannt	2026-07-29		
+normkaeufe-entscheid-raphael-ausstehend-geld	Normkaeufe — Entscheid Raphael ausstehend (Geldentscheid, echte Qualitaetsbremse)	Wissens-Layer energie/normen	offen	offen	unbekannt	2026-07-27		
+r-steinmann-nova-ferien-cutoff-06-07-verstri	R. Steinmann (Nova) Ferien-Cutoff 06.07. verstrichen (in Ferien 08.-20.07.) —			erledigt	unbekannt	2026-07-20		2026-07-06
+re-00087-kispi-chf-15-000-97-tage-ueberfaell	RE-00087 (Kispi, CHF 15'000) 97 Tage ueberfaellig (bexio --verzug 22.07.) —	2619 KISPI	2026-07-15	beobachten	unbekannt	2026-07-22		
+re-00088-fehlbuchung-korrigiert-mahnung-2-ve	RE-00088 Fehlbuchung korrigiert + Mahnung 2 versendet/abgelegt (siehe Konflikt			erledigt	unbekannt	2026-06-16		2026-06-13
+re-00088-kispi-bezahlt-in-bexio-laengst-nich	RE-00088 (Kispi) — bezahlt, in bexio laengst nicht mehr im Verzug. Der			erledigt	unbekannt	2026-07-09		2026-07-09
+re-00088-nicht-mehr-offen-in-bexio-bezahlt-a	RE-00088 nicht mehr offen in bexio (bezahlt/abgeglichen); Kispi meldet Zahlung			erledigt	unbekannt	2026-06-19		2026-06-16
+re-00089-kispi-chf-15-000-faellig-18-06-nich	RE-00089 (Kispi, CHF 15'000, faellig 18.06.) nicht mehr offen in bexio			erledigt	unbekannt	2026-06-19		2026-06-19
+re-00096-tschopp-chf-6-000-faellig-16-06-nic	RE-00096 (Tschopp, CHF 6'000, faellig 16.06.) nicht mehr offen in bexio			erledigt	unbekannt	2026-06-17		2026-06-17
+re-00097-hofer-chf-500-faellig-16-06-nicht-m	RE-00097 (Hofer, CHF 500, faellig 16.06.) nicht mehr in bexio-Verzugsliste			erledigt	unbekannt	2026-07-01		2026-07-01
+re-00098-kispi-chf-13-600-re-00099-kispi-chf	RE-00098 (KISPI, CHF 13'600) + RE-00099 (KISPI, CHF 3'680), Zahlfrist 20.07	2619 KISPI	2026-07-20	beobachten	unbekannt	2026-07-22	2026-07-22	
+re-00100-korrigiert-neu-ausgestellt	RE-00100 korrigiert neu ausgestellt			erledigt	unbekannt	2026-07-31		2026-07-30
+re-00100-restpunkte-nach-der-neuausstellung	RE-00100 — Restpunkte nach der Neuausstellung	Albertstrasse 7 / Nova	offen	offen	JANS	2026-07-29		
+re-login-login-blockiert-neu-auch-interaktiv	Re-Login /login blockiert neu auch interaktive Arbeit — Eskalation des Punktes vom 20.07	Infrastruktur/Claude-Abo	offen	offen	Raphael	2026-07-28	2026-07-12	
+restposten-kontext-diaet-minimum-viable-mode	Restposten Kontext-Diaet: Minimum Viable Model fuer die mechanischen Lern-Loop-Stufen	Infrastruktur	offen	offen	unbekannt	2026-07-20		
+s-sonderegger-kispi-fragen-reduit-strom-upda	S. Sonderegger (KISPI) Fragen Reduit/Strom — Update: A. Spahic (22.06.)	2619 KISPI	2026-06-21	beobachten	unbekannt	2026-06-22		
+s-tschopp-mail-21-06-bittet-um-status-update	S. Tschopp (Mail 21.06.) bittet um Status-Update zum Aufstockungs-Projekt	Tschopp Aufstockung	2026-06-21	nachfassen	unbekannt	2026-06-24		
+saumstrasse-21-faekalgeruch-bad-whg-3-og-lin	Saumstrasse 21 — Faekalgeruch Bad Whg 3.OG links: M. Salzmann (Immobilien und	Saumstrasse 21	2026-08-00	beobachten	JANS	2026-07-16		
+saumstrasse-21-geschirrspueler-beschafft-sub	Saumstrasse 21 Geschirrspueler — beschafft, Submission gegenstandslos			erledigt	unbekannt	2026-07-27		2026-07-27
+saumstrasse-21-geschirrspueler-montagetermin	Saumstrasse 21 Geschirrspueler — Montagetermin an den Vermieter melden	Saumstrasse 21	offen	offen	JANS	2026-07-27		
+sbb-vordach-vereinbarung-thalwil-2414-jans-a	SBB-Vordach-Vereinbarung Thalwil 2414 (JANS-Aktion) raus — RJ sendet 14.07			erledigt	unbekannt	2026-07-15	2026-07-02	2026-07-15
+sharepoint-online-speicher-voll-nun-1055-04-	SharePoint-Online-Speicher voll (nun 1055.04 / 1054 GB belegt	M365/OneDrive	2026-06-18	offen	unbekannt	2026-06-24		
+sharepoint-zugriff-projektsite-jans-2619-kis	SharePoint-Zugriff Projektsite «JANS - 2619-KISPI» laeuft fuer SIEBEN Personen ab	2619 KISPI	2026-08-08	offen	JANS	2026-07-23		
+sitzung-kispi-ppts-koordination-lbw-innere-v	Sitzung KISPI PPTS (Koordination LBW/Innere Verglasung, Brandschutz, Teams			erledigt	unbekannt	2026-06-17		2026-06-17
+spec-interview-syn-02-zugesagt-montag	Spec-Interview SYN-02 zugesagt (Montag)	Hub / Wettbewerb	2026-08-03	offen	unbekannt	2026-07-28		
+swisssign-wallet-geraeteumzug-altes-neues-ip	SwissSign Wallet — Geraeteumzug altes → neues iPhone fuer qualifizierte			erledigt	unbekannt	2026-07-25		
+tekosi-gastzugriff-kontrolliert-keine-aktion	TeKoSi-Gastzugriff kontrolliert — keine Aktion noetig			erledigt	unbekannt	2026-07-24		2026-07-24
+termin-heute-kispi-abstimmung-brandschutz-au	Termin HEUTE: KISPI_Abstimmung Brandschutz Auflagenerledigung, 10:00–10:30	2619 KISPI	2026-07-22	Termin	unbekannt	2026-07-22	2026-07-15	
+termin-koordination-lbw-innere-verglasung-br	Termin Koordination LBW/Innere Verglasung (Brandschutz) mit O. Stadelmann verstrichen			erledigt	unbekannt	2026-07-28		2026-07-28
+termin-koordinationssitzung-gruner-jans-kisp	Termin: Koordinationssitzung Gruner / Jans / KISPI, 13:00–14:00, Microsoft Teams	2619 KISPI	2026-08-06	Termin	unbekannt	2026-07-29		
+termin-privat-arioli-17-30	Termin (privat): «Arioli», 17:30	privat	2026-08-05	Termin	unbekannt			
+termin-privat-fuehrung-food-faenen-fifa-muse	Termin (privat) «Fuehrung, Food & Faenen — FIFA-Museum» (15:45–21:00)			erledigt	unbekannt	2026-07-01		2026-07-01
+termin-privat-ubs-termin-bestaetigt-finanzie	Termin (privat): «UBS Termin bestaetigt: Finanzierungen», 10:00–11:00	AG Raphael Jans AG / privat	2026-07-31	Termin	unbekannt	2026-07-31		
+termin-saumstrasse-21-lueftungsgitter-kuehls	Termin: Saumstrasse 21 — Lueftungsgitter Kuehlschrank, Eintreffen/Lieferung	Saumstrasse 21	2026-07-23	Termin	unbekannt	2026-07-23		
+termin-tekosi-finale-tuer-ausfuehrungsplanun	Termin TeKoSi finale Tuer-Ausfuehrungsplanung (16:00–16:30 Teams, KISPI)			erledigt	unbekannt	2026-07-07		2026-07-07
+thalwil-2414-bohlweg-3-antwort-zur-projektae	Thalwil 2414 / Bohlweg 3 — Antwort zur Projektaenderung ist versendet (nicht			erledigt	unbekannt	2026-07-17		2026-07-17
+thalwil-2414-bohlweg-3-tschopp-antwort-zur-p	Thalwil 2414 / Bohlweg 3 (Tschopp) — Antwort zur Projektaenderung ist raus	2414 Thalwil/Tschopp	offen	beobachten	unbekannt	2026-07-16		
+thalwil-2414-tschopp-reduzierte-ausschreibun	Thalwil 2414 (Tschopp) reduzierte Ausschreibung — Bauherr (11.07.) legt seine	2414 Thalwil/Tschopp	offen	nachfassen	JANS	2026-07-11		
+thalwil-naeherbaurecht-2414-bohlweg-3-parz-6	Thalwil Naeherbaurecht 2414 (Bohlweg 3, Parz. 6289): SBB (T. Wiedmer)	2414 Thalwil/Tschopp	2026-07-02	beobachten	unbekannt	2026-07-21		
+ueberwachungsluecke-ag-gruendung-ag-gruendun	Ueberwachungsluecke AG-Gruendung — ag-gruendung-monitor war auf mail@ blind → BEHOBEN 	AG Raphael Jans AG	2026-07-00	erledigt	unbekannt	2026-07-21		
+vollgas-chef-radar-lauf-mit-api-error-401-oa	VOLLGAS-Chef-Radar-Lauf mit API Error: 401 OAuth access token has been revoked abgebrochen	Infrastruktur	offen	zu pruefen	unbekannt	2026-07-20		
+vollgas-zwei-entscheide-raphaels-offen	VOLLGAS — zwei Entscheide Raphaels offen	Infrastruktur/Vollgas	offen	Entscheid Raphael	unbekannt	2026-07-28		

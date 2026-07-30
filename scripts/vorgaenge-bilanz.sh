@@ -53,11 +53,19 @@ mkdir -p "$OUTDIR"
 # Die Tabelle ist ein Lesedokument: der Prosatext enthaelt selbst Pipes, weshalb
 # eine feste Spaltennummer unbrauchbar ist. Darum: erstes Feld = Frist, letztes
 # Feld = Status, Titel aus dem ersten Fettdruck, Rest als Suchraum fuer Marker.
+# Beide Bloecke lesen. Der Archiv-Block traegt in Spalte 1 das ABSCHLUSSDATUM —
+# ohne ihn gibt es nur das Alter der offenen Vorgaenge, nie die abgeschlossene
+# Durchlaufzeit. Die Herkunft wird markiert (A = aktiv, E = erledigt), damit ein
+# Vorgang, der von aktiv nach erledigt gewandert ist, im Merge den Archiv-Stand
+# behaelt.
 # Das Dokument enthaelt mehrere Tabellen mit unterschiedlichen Kopfzeilen. Ohne
 # diesen Filter landen Kopf- und Trennzeilen als "Vorgang" im Register und blaehen
 # jede Zaehlung auf.
-sed -n '/^## Aktiv/,$p' "$QUELLE" | grep '^| ' \
-| awk -F'|' 'NF >= 6 && $0 !~ /^\|[- :|]+\|$/ && $3 !~ /^ *(Was|Thema|Titel) *$/ && $2 !~ /^ *(Frist|Datum|Termin) *$/' \
+{
+  sed -n '/^## Aktiv/,/^## Erledigt/p' "$QUELLE" | grep '^| ' | sed 's/^/A/'
+  sed -n '/^## Erledigt/,$p'          "$QUELLE" | grep '^| ' | sed 's/^/E/'
+} \
+| awk -F'|' '$0 !~ /^.\|[- :|]+\|$/ && $3 !~ /^ *(Was|Thema|Titel) *$/ && $2 !~ /^ *(Frist|Datum|Termin) *$/ && ((substr($0,1,1) == "A" && NF >= 6) || (substr($0,1,1) == "E" && NF >= 4))' \
 | awk -F'|' -v heute="$HEUTE_ISO" -v jahr="$JAHR" '
     function trim(s) { gsub(/^[ \t]+|[ \t]+$/, "", s); return s }
     function slug(s,   t) {
@@ -75,6 +83,7 @@ sed -n '/^## Aktiv/,$p' "$QUELLE" | grep '^| ' \
     }
     {
         zeile = $0
+        herkunft = substr($1, 1, 1)          # A = aktiv, E = Archiv
         # VON HINTEN parsen: die letzten vier Felder (Quelle, Projekt, Prio,
         # Status) sind kurz und enthalten nie Pipes. Der Prosatext dagegen schon,
         # weshalb eine feste Spaltennummer von vorne regelmaessig danebengreift
@@ -100,6 +109,19 @@ sed -n '/^## Aktiv/,$p' "$QUELLE" | grep '^| ' \
         if (textbis < 3) textbis = 3
 
         frist_roh = trim($2)
+        geschlossen = ""
+
+        # Archiv-Zeile: | Abschlussdatum | Was | Quelle |. Spalte 1 IST das
+        # Abschlussdatum — die Angabe, aus der erst die abgeschlossene
+        # Durchlaufzeit entsteht.
+        if (herkunft == "E") {
+            status = "erledigt"
+            geschlossen = iso(frist_roh)
+            frist_roh = ""
+            projekt = ""
+            textbis = ende - 1
+            if (textbis < 3) textbis = 3
+        }
 
         text = ""
         for (i = 3; i <= textbis; i++) text = text (i > 3 ? " " : "") $i
@@ -155,8 +177,8 @@ sed -n '/^## Aktiv/,$p' "$QUELLE" | grep '^| ' \
 
         frist = iso(frist_roh); if (frist == "") frist = frist_roh
 
-        printf "%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n", \
-               slug(titel), titel, projekt, frist, status, ball, bewegung, eroeffnet
+        printf "%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n", \
+               slug(titel), titel, projekt, frist, status, ball, bewegung, eroeffnet, geschlossen
     }' > "$TMP/neu"
 
 ROH=$(wc -l < "$TMP/neu" | tr -d ' ')
@@ -170,24 +192,32 @@ ROH=$(wc -l < "$TMP/neu" | tr -d ' ')
 if [ -f "$REGISTER" ]; then
     awk -F'\t' '
         FILENAME ~ /vorgaenge.tsv/ {
-            if ($0 !~ /^#/ && NF >= 8) { alt_er[$1] = $8; alt_ball[$1] = $6 }
+            if ($0 !~ /^#/ && NF >= 8) { alt_er[$1] = $8; alt_ball[$1] = $6; alt_ge[$1] = (NF >= 9 ? $9 : "") }
             next
         }
         {
             er = ($8 != "" ? $8 : (($1 in alt_er) ? alt_er[$1] : ""))
+            ge = ($9 != "" ? $9 : (($1 in alt_ge) ? alt_ge[$1] : ""))
             ball = $6
             if (ball == "unbekannt" && ($1 in alt_ball) && alt_ball[$1] != "unbekannt") ball = alt_ball[$1]
-            printf "%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n", $1, $2, $3, $4, $5, ball, $7, er
-        }' "$REGISTER" "$TMP/neu" > "$TMP/merged"
+            printf "%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\t%s\n", $1, $2, $3, $4, $5, ball, $7, er, ge
+        }' "$REGISTER" "$TMP/neu" > "$TMP/roh"
 else
-    cp "$TMP/neu" "$TMP/merged"
+    cp "$TMP/neu" "$TMP/roh"
 fi
+
+# Ein Vorgang, der von aktiv nach erledigt gewandert ist, steht in beiden
+# Bloecken. Der Archiv-Stand (mit Abschlussdatum) gewinnt — sonst zaehlt derselbe
+# Vorgang doppelt und gilt weiter als offen.
+awk -F'\t' '
+    { if (!($1 in best) || ($9 != "" && best_ge[$1] == "")) { best[$1] = $0; best_ge[$1] = $9 } }
+    END { for (k in best) print best[k] }' "$TMP/roh" > "$TMP/merged"
 
 {
     echo "# Vorgangs-Register — Durchlaufzeit und Wartezeit"
     echo "#"
     echo "# Erzeugt aus logbuch/fristen.md von scripts/vorgaenge-bilanz.sh."
-    echo "# Spalten: id <TAB> titel <TAB> projekt <TAB> frist <TAB> status <TAB> ball_bei <TAB> letzte_bewegung <TAB> eroeffnet"
+    echo "# Spalten: id <TAB> titel <TAB> projekt <TAB> frist <TAB> status <TAB> ball_bei <TAB> letzte_bewegung <TAB> eroeffnet <TAB> geschlossen"
     echo "#"
     echo "# ball_bei wird nur gesetzt, wenn ein Marker im Text belegt ist"
     echo "# (AKTION JANS / AKTION Raphael / Ball bei X). Sonst 'unbekannt' — nie geraten."
@@ -215,12 +245,26 @@ KENN=$(awk -F'\t' -v heute="$HEUTE_ISO" -v schwelle="$SCHWELLE" '
         split(von, p, "-"); split(heute, q, "-")
         return jdn(q[1], q[2], q[3]) - jdn(p[1], p[2], p[3])
     }
+    function tagediff(von, bis,   p, q) {
+        if (von !~ /^[0-9]{4}-[0-9]{2}-[0-9]{2}$/) return -1
+        if (bis !~ /^[0-9]{4}-[0-9]{2}-[0-9]{2}$/) return -1
+        split(von, p, "-"); split(bis, q, "-")
+        return jdn(q[1], q[2], q[3]) - jdn(p[1], p[2], p[3])
+    }
     /^#/ || NF < 8 { next }
     {
         gesamt++
         st = tolower($5)
         offen = (st !~ /erledigt|entf/)
-        if (!offen) { erledigt++; next }
+        if (!offen) {
+            erledigt++
+            # Die eigentliche Zielgroesse: wie lange hat ein Vorgang GEDAUERT.
+            # Braucht beide Daten; fehlt eines, wird nichts geschaetzt.
+            d = tagediff($8, $9)
+            if (d >= 0) { abg[++abgn] = d; abgsumme += d
+                          if (d > abgmax) { abgmax = d; abgmaxtitel = $2 } }
+            next
+        }
         aktiv++
         ball[$6]++
         if ($6 == "unbekannt") ballunklar++
@@ -230,8 +274,18 @@ KENN=$(awk -F'\t' -v heute="$HEUTE_ISO" -v schwelle="$SCHWELLE" '
         if (b >= 0 && b > schwelle && $6 ~ /extern/) { liegt++; liegtliste = liegtliste "\n- " $2 " (" b " Tage ohne Bewegung, " $6 ")" }
     }
     END {
+        # Median der abgeschlossenen Durchlaufzeiten — robuster als das Mittel,
+        # weil einzelne Langlaeufer (32-Tage-Blockaden) es sonst verzerren.
+        med = -1
+        if (abgn > 0) {
+            for (i = 1; i <= abgn; i++) for (j = i + 1; j <= abgn; j++)
+                if (abg[j] < abg[i]) { t = abg[i]; abg[i] = abg[j]; abg[j] = t }
+            med = (abgn % 2) ? abg[int(abgn/2) + 1] : int((abg[abgn/2] + abg[abgn/2 + 1]) / 2)
+        }
         printf "gesamt\t%d\naktiv\t%d\nerledigt\t%d\nmitdatum\t%d\nsumme\t%d\nmax\t%d\nmaxtitel\t%s\nballunklar\t%d\nliegt\t%d\n", \
                gesamt, aktiv, erledigt, mitdatum, summe, max, maxtitel, ballunklar, liegt
+        printf "abgn\t%d\nabgsumme\t%d\nabgmed\t%d\nabgmax\t%d\nabgmaxtitel\t%s\n", \
+               abgn, abgsumme, med, abgmax, abgmaxtitel
         for (b in ball) printf "ball\t%s\t%d\n", b, ball[b]
         printf "liegtliste\t%s\n", liegtliste
     }' "$REGISTER" 2>/dev/null)
@@ -241,6 +295,9 @@ GESAMT=$(hole gesamt);   AKTIV=$(hole aktiv);     ERLEDIGT=$(hole erledigt)
 MITDATUM=$(hole mitdatum); SUMME=$(hole summe);   MAX=$(hole max)
 MAXTITEL=$(hole maxtitel); BALLUNKLAR=$(hole ballunklar); LIEGT=$(hole liegt)
 MITTEL=$([ "${MITDATUM:-0}" -gt 0 ] && awk "BEGIN{printf \"%.0f\", $SUMME/$MITDATUM}" || echo "-")
+ABGN=$(hole abgn); ABGSUMME=$(hole abgsumme); ABGMED=$(hole abgmed)
+ABGMAX=$(hole abgmax); ABGMAXTITEL=$(hole abgmaxtitel)
+ABGMITTEL=$([ "${ABGN:-0}" -gt 0 ] && awk "BEGIN{printf \"%.0f\", $ABGSUMME/$ABGN}" || echo "-")
 
 # ---------------------------------------------------------------------------
 # 4. Report
@@ -265,7 +322,27 @@ Quelle: logbuch/fristen.md · Register: logbuch/vorgaenge/vorgaenge.tsv
 
 Ältester: $MAXTITEL
 
-## 2. Bei wem liegt der Ball
+## 2. Abgeschlossene Durchlaufzeit — die Zielgrösse
+
+Wie lange ein Vorgang tatsächlich gedauert hat, von der Eröffnung bis zum
+Abschluss. Gerechnet wird nur, wo beide Daten belegt sind; geschätzt wird nichts.
+
+| Grösse | Wert |
+|---|---|
+| messbar abgeschlossen | $ABGN von $ERLEDIGT |
+| Median | $ABGMED Tage |
+| Mittel | $ABGMITTEL Tage |
+| längster | $ABGMAX Tage |
+
+Längster abgeschlossener Vorgang: $ABGMAXTITEL
+
+Der Median steht vor dem Mittel, weil einzelne Langläufer wie die 32-tägige
+UBS-Blockade das Mittel verzerren, während der Median den Normalfall zeigt.
+
+Bezugsbasis ist der Archiv-Block des Fristen-Registers, der die letzten 30 Tage
+führt. Ältere Abschlüsse sind dort nicht mehr enthalten und fehlen hier.
+
+## 3. Bei wem liegt der Ball
 
 | Ball bei | Vorgänge |
 |---|---|
@@ -280,20 +357,36 @@ Text belegen. Diese Zahl ist die wichtigste Qualitätsangabe dieser Bilanz: sie
 sagt, wie gross der blinde Fleck ist. Sie sinkt, sobald der Radar beim Eintragen
 konsequent «AKTION JANS», «AKTION Raphael» oder «Ball bei \<Stelle\>» schreibt.
 
-## 3. Nachfass-Schwelle ($SCHWELLE Tage)
+## 4. Nachfass-Schwelle ($SCHWELLE Tage)
 
 Vorgänge, die extern liegen und seit über $SCHWELLE Tagen keine Bewegung zeigen: **$LIEGT**
 MID
 
 printf '%s\n' "$KENN" | awk -F'\t' '$1=="liegtliste" {print $2}'
 
-cat <<FOOT
+cat <<NACHHEAD
 
 Das ist der Regelkreis: jeder Eintrag hier ist ein Kandidat für einen
 Nachfass-Entwurf. Erstellt wird er vom Skill \`logbuch\` bzw. auf Zuruf; versendet
 wird nichts ohne Freigabe.
 
-## 4. Was diese Bilanz noch nicht kann
+## 5. Nachtragsliste — aktive Vorgänge ohne Eröffnungsdatum
+
+Für diese Vorgänge lässt sich keine Durchlaufzeit rechnen, weil im Text kein
+«seit ⟨Datum⟩» steht. Rückwirkend ist das nicht zu heilen: die Angabe wurde nie
+erfasst, und Schätzen wäre schlimmer als eine Lücke. Wer eine dieser Zeilen das
+nächste Mal anfasst, trägt die Wendung nach — dann wird der Vorgang messbar.
+
+Die zuletzt bewegten zuerst, weil sie am ehesten wieder angefasst werden:
+
+NACHHEAD
+
+awk -F'\t' '!/^#/ && NF >= 8 && $8 == "" && tolower($5) !~ /erledigt|entf|termin/ {printf "%s\t%s\n", $7, $2}' \
+    "$REGISTER" | sort -rn | head -25 | awk -F'\t' '{printf "- %s%s\n", $2, ($1 != "" ? " (zuletzt bewegt " $1 ")" : "")}'
+
+cat <<FOOT
+
+## 6. Was diese Bilanz noch nicht kann
 
 - **Durchlaufzeit misst nur, wo ein Eröffnungsdatum steht.** Aktuell $MITDATUM von
   $AKTIV aktiven Vorgängen. Das Feld wird nur gesetzt, wenn im Text ausdrücklich
@@ -314,6 +407,7 @@ echo "Report:    $REPORT"
 echo "Register:  $REGISTER"
 echo
 echo "  Vorgaenge: $GESAMT gesamt, $AKTIV aktiv, $ERLEDIGT erledigt"
+echo "  Abgeschl.: $ABGN von $ERLEDIGT messbar (Median $ABGMED Tage, laengster $ABGMAX)"
 echo "  Messbar:   $MITDATUM von $AKTIV haben ein Eroeffnungsdatum (Mittel $MITTEL Tage, aeltester $MAX)"
 echo "  Ball:      bei $BALLUNKLAR von $AKTIV nicht belegbar"
 echo "  Nachfass:  $LIEGT Vorgaenge liegen extern ueber $SCHWELLE Tage ohne Bewegung"
