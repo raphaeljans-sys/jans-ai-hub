@@ -12,7 +12,11 @@ Radar-Auswertung, Schutzmechanik-Selbsttest) in `rules/betrieb-chronik.md`, Absc
 1. **Jeder neue Baustein bekommt beim Anlegen eine Rolle** im Register
    `logbuch/rollen/rollen-map.tsv`. Das gilt für Skills, Agenten und Loops. Ohne
    Registereintrag fällt der Baustein in der Bilanz unter «unzugeordnet» und verfälscht
-   jede Quote.
+   jede Quote. **Wird ein Loop umbenannt oder umgewidmet, bleibt die alte Zeile stehen**
+   (Status `erledigt`, Nachfolger in der Begründung nennen) — die Bilanz ordnet Läufe über
+   den Namen im Log zu, und ein ersetzter Name kappt die ganze Historie. Belegt 30.07.2026:
+   die Umbenennung `planungsgrundlagen-training` → `-wartung` machte 64 Läufe (9,4 h, 15 %
+   der gemessenen Zeit) mit einem Schlag unzurechenbar.
 
 2. **Vor dem Bau eines neuen Skills zuerst die Rolle bestimmen und prüfen, ob sie bereits
    überbesetzt ist.** Ein weiterer Prototyper braucht eine Begründung, warum er mehr wert

@@ -112,12 +112,21 @@ wettbewerbs-layer-nachbrenner	task	prototyper	Erzeugt neues Wissen	erledigt	wiss
 wissens-chef	task	sweeper	Aufsicht/Verdichtung des Wissens-Layers	aktiv	wissen
 wissens-destillat	task	sweeper	Verdichtet Rohmaterial	aktiv	wissen/bauprodukte
 wissenscheck-monatlich	task	maintainer	Health-Check	aktiv	wissen
+zahlungsabgleich-check	task	maintainer	Taeglicher bexio-Hygiene-Check gegen echte UBS-Eingaenge; read-only, bucht nie. Zeile am 30.07.2026 ergaenzt — der Task lief seit Wochen taeglich, war aber im Register nie erfasst	aktiv
 #
-# ---- LOOPS OHNE APP-TASK (Runner/launchd, teils stillgelegt) ----
-grobkosten-training	task	prototyper	Erzeugt neue Kennwerte; groesster Einzelposten im Runner	aktiv	wissen/grobkosten
-energie-training	task	prototyper	Erzeugt neues Wissen; launchd Mac Mini	aktiv	wissen/energie
+# ---- LOOPS OHNE APP-TASK (launchd / Mac-Mini-Nachtschicht) ----
+# Der VOLLGAS-Endlos-Runner ist am 29.07.2026 ausgebaut (plists *.disabled-260729 auf
+# beiden Stationen). Getaktet wird hier ausschliesslich ueber launchd-Jobs und die
+# Nachtschicht ch.jans.nachtschicht (Slots 23:30 / 02:30 / 05:30 / 13:30).
+grobkosten-training	task	prototyper	Erzeugt neue Kennwerte; getaktet von der Mac-Mini-Nachtschicht (Prioritaet 4). Runner-Bezug am 30.07.2026 entfernt — der Runner existiert seit dem 29.07. nicht mehr	aktiv	wissen/grobkosten
+energie-training	task	prototyper	Erzeugt neues Wissen; launchd ch.jans.training-energie auf dem Mac Mini, taeglich 22:30	aktiv	wissen/energie
+planungsgrundlagen-training	task	prototyper	AUFBAUPHASE, beendet mit Run 92 (28 Erschoepfungsbestaetigungen). Zeile bleibt stehen, damit die 632 historischen Laeufe dieses Namens in der Bilanz zugeordnet bleiben — ohne sie fielen sie unter «unzugeordnet» (belegt 30.07.2026, als die Umbenennung auf -wartung die Historie kappte). Nachfolger: planungsgrundlagen-wartung	erledigt	wissen/planungsgrundlagen
 planungsgrundlagen-wartung	task	maintainer	Umgewidmet 30.07.2026 (Entscheid Raphael): Quellen-Turnus nach 28 Erschoepfungsbestaetigungen eingestellt, neu monatlicher Endpunkt-/Link-/Connector-Check	aktiv	wissen/planungsgrundlagen
-normen-training-mini	task	prototyper	Erzeugt neues Wissen; Mac-Mini-Haelfte des Normen-Loops	parkiert	wissen/normen
+normen-training-mini	task	prototyper	Mac-Mini-Haelfte des Normen-Loops (DIN/VSS/RAL). Status am 30.07.2026 von «aktiv» auf «parkiert» korrigiert: ch.jans.training-normen ist auf dem Mini nicht geladen (nachgemessen), Inventar vollstaendig abgearbeitet (DIN 72 / VSS 17 / RAL 1, null offene Positionen), letzter Lauf Run 30 am 14.07. SIA+VKF laufen weiter ueber normen-training-nacht	parkiert	wissen/normen
 synobsis-batch-nacht	task	prototyper	Erzeugt neues Wissen; KB saturiert, stillgelegt	parkiert	wissen/architekten-synobsis
+#
+# ---- SCRIPTS & REFERENZEN (keine Loops, kein Takt) ----
+# Am 30.07.2026 aus der Loop-Sektion herausgeloest: beides feuert nicht getaktet,
+# sondern wird bei Bedarf aufgerufen.
 hub-setup-konnektor	referenz	maintainer	Kanonische Setup-Daten + Verbindungscheck aller Stationen; wird bei Infrastrukturfragen konsultiert	aktiv	connectors/hub-setup.mjs
-arbeits-weiche	task	maintainer	Last-Verteilung schwerer Auftraege auf die Station mit optimaler RAM-Auslastung; Entscheid-Journal logbuch/arbeits-weiche/	aktiv	scripts/arbeits-weiche.sh
+arbeits-weiche	script	maintainer	Last-Verteilung schwerer Auftraege auf die Station mit optimaler RAM-Auslastung; Entscheid-Journal logbuch/arbeits-weiche/. Typ am 30.07.2026 von «task» auf «script» korrigiert — es gibt keinen Scheduled Task dieses Namens	aktiv	scripts/arbeits-weiche.sh
