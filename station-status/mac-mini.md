@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 31.07.2026 00:24:19
+Stand: 31.07.2026 00:34:22
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -13,4 +13,4 @@ Stand: 31.07.2026 00:24:19
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 0b91a8a9 Rollen-Taxonomie architektonisch verankert: Command /rollen, Schutzmechanik-Selbsttest als heartbeat-Check (beide Pfade nachgemessen), Rollenpflicht im SKILL-CONTRACT, Wegweiser in CLAUDE.md
+- e3c98abb Durchlaufzeit-Messung (Leitgroesse Entscheid Raphael 31.07.): Vorgangs-Register aus fristen.md, scripts/vorgaenge-bilanz.sh mit portabler Datumsarithmetik, drei Pflichtangaben im Skill logbuch verankert, vier Scripts im Rollen-Register

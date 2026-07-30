@@ -139,6 +139,22 @@ Tasks beider Stationen (machen wird); Exit 0 nur wenn alles synchron.
 - ❌ `connection refused` auf eine 100.x-IP → Tailscale-Client einer Seite pausiert/
   ausgeloggt (Menuleisten-App pruefen), NICHT zuerst sshd verdaechtigen
 
+### 10. Grundkontext-Budget (Kontext-Diaet-Waechter)
+
+Misst den immer geladenen Grundkontext (CLAUDE.md + @-Imports + User-CLAUDE.md) und
+die zwei schnellsten Waechser einzeln, plus das Alter des letzten /doctor-Laufs:
+
+```bash
+bash /Volumes/daten/jans-ai-hub/scripts/grundkontext-messung.sh
+```
+
+- ✅ Alles unter den Schwellen (Grundkontext 100'000 Zeichen · auto-verbesserungen 22'000 ·
+  jans-dna 18'000 · Doctor-Lauf max. 35 Tage alt)
+- ⚠️ Schwelle gerissen → im Radar/Briefing melden: Kontext-Diaet-Runde bzw. /doctor faellig.
+  NIE automatisch kuerzen — die Diaet laeuft interaktiv mit Vorschlagsliste und Freigabe
+  (Vorgehen wie 30.07.2026, siehe `rules/betrieb-chronik.md` 260731). Nach jedem
+  /doctor-Lauf den Stempel aktualisieren: `date "+%Y-%m-%d" > logbuch/doctor-letzter-lauf.txt`
+
 ## Output-Format
 
 Gib einen kompakten Report aus:
@@ -153,6 +169,7 @@ Disk Space:     ✅ 47 GB frei (von 500 GB)
 Sync-Tasks:     ✅ Keine offenen Tasks
 Symlinks:       ✅ skills / agents / commands OK
 Sync-Health:    ✅ Wissens-Kette fliesst (0 Commit-Anfragen offen, NAS↔SSD gleichauf)
+Grundkontext:   ✅ 95'536 Zeichen (~23'900 est. Tokens, Schwelle 100'000); Doctor vor 1 Tag
 
 STATUS: ✅ Alles OK
 ```

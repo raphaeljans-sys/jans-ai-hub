@@ -66,3 +66,11 @@ logbuch/vollgas/monitor.html
 # sie ueber SMB gelegentlich mitten im Schreiben und committet eine leere Datei —
 # belegt 28.07.2026 (station-status/mac-mini.md.tmp in zwei Commits).
 *.tmp
+# Nachtrag 31.07.2026: das Suffix traegt zusaetzlich PID und Hash, «*.tmp» griff dafuer
+# nicht — belegt an md2docx.py.tmp.23204.7fe9ed2642be im Commit 116a19b7.
+*.tmp.*
+
+# Python-Bytecode. Entsteht, sobald ein Tool unter skills/ importiert statt aufgerufen
+# wird (belegt 31.07.2026 an studien-generator/tools/__pycache__ im selben Commit).
+__pycache__/
+*.pyc

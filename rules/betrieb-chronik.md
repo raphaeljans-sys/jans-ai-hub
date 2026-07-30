@@ -453,3 +453,19 @@ Hier nur als Chronik behalten, weil die Ursachenanalyse den Index-Mechanismus er
   Checkouts / worktrees / SSH+TMUX / parallele Jobs). Auf Anweisung Raphaels umgesetzt, aber
   mit dem am 28.07. eingezogenen Speicher-Deckel verheiratet, statt ihn zu umgehen.
 - **Gilt fuer:** beide Stationen, jeden absichtlich parallelen Claude-Start.
+
+## 260731 — Grundkontext-Waechter im heartbeat (Check 10)
+
+Kadenz-Entscheid Raphael 30./31.07.2026 nach dem /doctor-Lauf: **messen taeglich,
+auditieren monatlich, kuratieren bei Schwellwert.** Umsetzung:
+`scripts/grundkontext-messung.sh` (heartbeat Check 10) misst taeglich Grundkontext
+gesamt (CLAUDE.md + @-Imports + User-CLAUDE.md), auto-verbesserungen.md und
+jans-dna.md einzeln sowie das Alter des letzten /doctor-Laufs (Stempel
+`logbuch/doctor-letzter-lauf.txt`). Schwellen: 100'000 / 22'000 / 18'000 Zeichen,
+35 Tage. Reisst eine Schwelle: im Radar melden — die Kontext-Diaet selbst laeuft
+IMMER interaktiv (Vorschlagsliste, Archiv-Snapshot, Freigabe; danach bei DNA-Eingriff
+Fidelity-Selbsttest), Vorgehen und Messwerte des Referenzlaufs: 30.07.2026
+(Grundkontext 26'700 → 23'700 est. Tokens; Twin-Fidelity 94 nach 1 Rueckkorrektur,
+Lehre: Beleg-Parenthesen koennen Eingrenzungen tragen — Eingrenzung als Regel
+behalten, nur Datum/Zitat streichen). Beide Script-Pfade am 31.07. nachgemessen
+(Exit 0 normal, Exit 1 bei kuenstlich tiefen Schwellen).
