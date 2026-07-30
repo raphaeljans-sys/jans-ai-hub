@@ -1420,20 +1420,25 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   - `map.apps.be.ch` (Kt. Bern) antwortet **nur über `http://`**, nicht über `https://`.
   - `daten.geo.lu.ch/download/` liefert ohne Parameter 404; der Host selbst ist live (200) — das ist
     erwartetes Verhalten eines Download-Endpunkts, kein Defekt, hier nur zur Abgrenzung notiert.
-- [ ] **F-KONSISTENZ (Nachaudit 2026-07-28)** **Sechs Phantom-Backlinks** verweisen aus acht
-  Artikeln auf Wiki-Artikel, die es nie gab: `[[u-werte-grenzwerte-ch]]` (5×),
-  `[[graue-energie]]` (4×), `[[minergie-standards]]` (2×), `[[abstaende-und-hoehen]]` (2×),
-  `[[muken-2025-anhang-4-5-daemmstaerken-leitungen]]`, `[[oelheizung-gasheizung-ersatzpflicht-zh-sz]]`,
-  `[[regenwasserbewirtschaftung-versickerung-zh]]`. Sie sind faktisch **Vorwärts-Referenzen auf
-  geplante, nie geschriebene Artikel** — kein Datenverlust, aber jeder Klick läuft ins Leere und
-  der Leser hält den Inhalt für dokumentiert. Entscheid nötig: Artikel schreiben (die Inhalte
-  stecken teilweise verstreut in [[energie-energienachweis-zh-formulare]] /
-  [[energie-heizwaermebedarf-waermeerzeugerleistung]] / [[recht-norm-abstandsvorschriften-wald-gewaesser]])
-  **oder** Links auf den real existierenden Zielartikel umbiegen. Zusätzlich zwei
-  Pfad-statt-Artikel-Links (`[[planungsgrundlagen/connectors/geo-zh.mjs]]` in
-  [[kartenportale-bund-geodaten]], `[[../grobkosten/]]` in
-  [[recht-norm-ahb-stadt-zuerich-projektstandards]]) — dort besser Backticks statt Wikilink-Syntax.
-  Bereits im selben Audit **behoben**: 6 über Zeilenumbrüche zerrissene Backlinks + 2 im INDEX
+- [x] **F-KONSISTENZ (Nachaudit 2026-07-28) — GESCHLOSSEN, Fehlalarm korrigiert.** Der Audit
+  meldete zunächst «sieben Phantom-Backlinks auf nie geschriebene Artikel»
+  (`[[u-werte-grenzwerte-ch]]`, `[[graue-energie]]`, `[[minergie-standards]]`,
+  `[[abstaende-und-hoehen]]`, `[[muken-2025-anhang-4-5-daemmstaerken-leitungen]]`,
+  `[[oelheizung-gasheizung-ersatzpflicht-zh-sz]]`, `[[regenwasserbewirtschaftung-versickerung-zh]]`).
+  **Falsch.** Alle sieben Ziele existieren — als **Cross-KB-Links** in `wissen/energie/wiki/`,
+  `wissen/energie/destillate/` und `wissen/baurecht/wiki/`; der Fliesstext nennt die Ziel-KB
+  jeweils ausdrücklich («Tiefe → KB `wissen/energie`», «massgebend ist die KB `baurecht`»).
+  Der Prüf-Sweep hatte nur `planungsgrundlagen/wiki/` durchsucht. **Genau derselbe Fehlalarm
+  zum dritten Mal:** Health-Check (2 Links) → Run 68 widerlegt → dieser Audit (7 Links) →
+  hier widerlegt. **Behoben statt nur widerlegt:** `tools/wiki-konsistenz.sh` prüft Backlinks
+  jetzt gegen **alle** KBs unter `wissen/` und meldet Cross-KB-Treffer als gültig. Wer künftig
+  Backlinks prüft, nutzt dieses Script — nicht ein Ad-hoc-grep über einen einzelnen Wiki-Ordner.
+  Zwei echte Kleinbefunde bleiben (kosmetisch, kein Datenverlust): `[[planungsgrundlagen/
+  connectors/geo-zh.mjs]]` in [[kartenportale-bund-geodaten]] und `[[../grobkosten/]]` in
+  [[recht-norm-ahb-stadt-zuerich-projektstandards]] nutzen Wikilink-Syntax für einen Pfad —
+  gehören in Backticks (der Connector liegt zudem unter `skills/planungsgrundlagen/connectors/`,
+  nicht unter `planungsgrundlagen/connectors/`).
+  Im selben Audit **behoben**: 6 über Zeilenumbrüche zerrissene Backlinks + 2 im INDEX
   fehlende Artikel ([[recht-norm-rechtsprechung-vg-zh]], [[recht-norm-sanitaerraeume-planungsgrundlagen]]).
 - [x] **M2** Anbindung an `machbarkeit`/`ankaufspruefung`/`behoerden-vorabklaerung` schärfen. ✓
   **2026-07-13 (Run 22):** Lücke war einseitig (Run-21-Befund) — `planungsgrundlagen` kannte die

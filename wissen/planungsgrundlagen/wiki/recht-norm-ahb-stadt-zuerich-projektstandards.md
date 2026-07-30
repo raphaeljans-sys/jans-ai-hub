@@ -717,7 +717,7 @@ BKP 2/RI = CHF 1'402.-, BKP 2/GV = CHF 2'220.-, BKP 2/GF = CHF 7'614.-, BKP 2/HN
 Wohn-/Gesundheitsbauten, aber die **Formatvorlage selbst** ist der Fund: sie deckt sich strukturell
 mit der Logik des Skills `grobkosten-onepager` (Volumen × Kennwert), zeigt aber zusätzlich die
 **vier parallelen Bezugsgrössen RI/GV/GF/HNF nebeneinander** statt nur einer — ein Muster, das für
-die Kennwerte-KB [[../grobkosten/]] als Vorbild für die Vergleichsdarstellung mehrerer Bezugsgrössen
+die Kennwerte-KB KB `wissen/grobkosten` als Vorbild für die Vergleichsdarstellung mehrerer Bezugsgrössen
 dienen kann.
 
 ## 11. Ingenieurwesen — Tragwerk, Beton, Recycling (16-Ingenieurwesen/16.2-Richtlinien)

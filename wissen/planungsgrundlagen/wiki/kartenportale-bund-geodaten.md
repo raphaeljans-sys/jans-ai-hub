@@ -16,7 +16,7 @@ Login-freie Bezugswege für die Geodaten, die der **OEREB-Auszug NICHT enthält*
 Studie regelmässig braucht: Geländehöhe, Luftbild, digitales Terrainmodell und die
 (bundesweit harmonisierte) Bauzone. Alle vier Endpunkte sind am 2026-06-10 mit der realen
 Testparzelle **Langnau a.A. Kat. 3338 (EGRID CH879777718909, E 2682864.25 / N 1238219.125)**
-validiert und im Connector `[[planungsgrundlagen/connectors/geo-zh.mjs]]` hinterlegt
+validiert und im Connector ``skills/planungsgrundlagen/connectors/geo-zh.mjs`` hinterlegt
 (Flag `--produkt`). Ergänzt die OEREB-/EGRID-Kette aus [[kartenportale-oereb-egrid-bezug]].
 
 > Koordinatenbezug: alle Endpunkte arbeiten in **LV95 / EPSG:2056** (E=easting/Rechtswert,

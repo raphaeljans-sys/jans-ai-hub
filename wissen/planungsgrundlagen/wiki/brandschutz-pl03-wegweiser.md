@@ -927,7 +927,7 @@ Lernwert, weil dort ein typischer Fehler dokumentiert ist. Quellen: Wettbewerbsp
   **18 berggaengige Personen** aufgenommen werden». Daraus abgeleitet: «Der Fluchtweg ist ueber einen
   angrenzenden Raum zu fuehren und darf nicht ueber den Eingang zum Biwak erfolgen.»
 - **Fehler:** Art. 13 Abs. 2 lit. a nennt fuer [c] **20 oder mehr** Personen (→
-  [[../../normen/wiki/vkf-beherbergungskategorien]]). Bei 18 verbindlichen Schlafplaetzen ist die
+  KB `normen`, Artikel `vkf-beherbergungskategorien`). Bei 18 verbindlichen Schlafplaetzen ist die
   Schwelle nicht erreicht.
 - **Der Auslober raeumt das selbst ein — Frage 47:** «Gilt fuer das Grassenbiwak Art. 13, Kategorie
   [c], obwohl weniger als 20 Personen beherbergt werden?» Antwort: «**Nein** … Wenn nicht 20

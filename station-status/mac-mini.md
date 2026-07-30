@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 31.07.2026 01:14:37
+Stand: 31.07.2026 01:24:40
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 00:46)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 31.07.2026 01:14:37
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- bd388a99 Durchlaufzeit-Messung vervollstaendigt: Archiv-Block eingelesen (Abschlussdatum aus Spalte 1), abgeschlossene Durchlaufzeit mit Median, Nachtragsliste der 25 aktiven Vorgaenge ohne Eroeffnungsdatum
+- 305933cc Arbeits-Weiche als Pflicht-Einstieg getakteter Laeufe: --takt-Modus (nie queuen) + Options-Guard + Druck-2-Angleich; Nachtschicht fragt Weiche und faehrt Aushilfe-Zyklus auf dem MacBook (Prioritaeten 1+2 ausgenommen); alle Pfade nachgemessen, Chronik 260731b
