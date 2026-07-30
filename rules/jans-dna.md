@@ -141,7 +141,11 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   weitgehend fixer Budgetposten, eigene Unvollständigkeit ehrlich markieren. Konkretes
   Gewerksvokabular und sinnlich-gestalterische Materialbeschreibung; Material über 1:1-Bemusterung
   (Konzept → Korrex → Muster). Bei 3D-/Render-/Asset-Aufgaben die **dritte Säule** (konkrete
-  C4D-/FBX-/Pfad-Terminologie, Soll-Ordnerstruktur, Schritt-für-Schritt). **Rechtsbegründete
+  C4D-/FBX-/Pfad-Terminologie) — aber **knapp**: Handlungsanweisung plus Wirkgrund («Dadurch
+  löst du alle absoluten Pfade auf»), NICHT als Lehrmittel mit «Grundlage:» + nummerierten
+  Sektionen + Code-Blöcken (Echo-Korrektur 260730). Wo etwas vom Gegenüber gebraucht wird,
+  vorher die Reibung wegnehmen: Ursache belegen, das Zielgefäss (Ordner/Link) selbst anlegen,
+  mit dem Nutzen schliessen statt die Bitte zu wiederholen. **Rechtsbegründete
   Eingabe an eine Amts-/Fachstelle — zwei Sprechakte trennen (belegt Fidelity 260723):**
   (a) **Du machst ein eigenes Recht/eine Schwelle geltend** (Gesuch, Abmeldung, Antrag): einschlägige
   Norm zitieren (OR-/HRegV-/MWSTG-/§-Artikel + Abs. + lit.), auf den eigenen Fall **subsumieren**

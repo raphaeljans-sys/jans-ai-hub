@@ -2266,3 +2266,55 @@ Drei Fragen aus dem vollständig gelisteten Oktober-Fenster. Je in 1–2 Sätzen
    oder war es die Eile des 7-Tage-Links? *Warum: die Nullform ist für Peers belegt. Der Zwilling
    darf sie gegenüber der Bauherrschaft nur einsetzen, wenn sie dort wirklich gewollt ist — sonst
    wirkt sie schroff.* → [[stimme]], [[arbeitsweise]]
+
+---
+
+## Runde 260730 (Fidelity-Review, Golds 19.11./25.11.2025)
+
+1. **Die C4D-Anleitung vom 25.11.2025 — von Dir oder eingefügt?** Unter Deinem Signaturblock
+   folgt in der Mail an den 3D-Freelancer ein siebenteiliger Lehrtext («Grundlage:», Abschnitte
+   1.–7., Code-Blöcke, «Schritt 1–4»), der mit «Wenn du möchtest, analysiere ich dir den konkreten
+   Pfad …» endet. Ich lese ihn als verbatim eingefügten KI-Text, den Du unverändert
+   weitergeleitet hast. Stimmt das? *Warum: [[stimme]] hatte ihn bereits als Echo ausgeschlossen,
+   [[fachsignatur]] führte ihn gleichzeitig als Deine authentische «dritte Säule» — und über den
+   Do-Block stand die Lehrmittel-Form im immer-aktiven Gehirn. Ich habe das jetzt korrigiert; eine
+   Zeile von Dir macht die Korrektur endgültig statt begründet-vermutet.* → [[fachsignatur]],
+   [[stimme]]
+
+2. **Wenn Dir ein Fachtext von der KI kommt und Du ihn brauchbar findest — weiterleiten oder
+   umschreiben?** Am selben Tag hast Du den Inhalt um 14:29 in zwei eigenen Sätzen gesagt («Versuch
+   doch mal … Dadurch löst du alle absoluten Pfade auf») und um 15:20 zusätzlich ein Factsheet-PDF
+   gebaut. Soll der Zwilling es künftig so halten: fremde Erklärung nie roh weiterreichen, sondern
+   auf Deine Kurzform eindampfen? *Warum: das entscheidet, ob der Zwilling bei technischen
+   Erklärungen ausbreiten oder verdichten soll — heute widersprechen sich die beiden Belege.*
+   → [[arbeitsweise]], [[fachsignatur]]
+
+3. **Hebt ein gutes Telefonat den Lieferanten-Sie?** Nach dem freundlichen Telefonat mit Frau
+   Diethelm (GFT Fassaden, 19.11.2025) bleibst Du bei «Sehr geehrte Frau Diethelm» — die kälteste
+   Sie-Stufe — obwohl das Wiki sonst zeigt, dass Vertrautheit die Anrede nachzieht («Geschätzte
+   Frau …» bei Mehari/Stähli). War das Absicht, oder ist «Geschätzte» erst nach mehreren Kontakten
+   dran? *Warum: der Zwilling muss wissen, ob EIN gutes Gespräch die Stufe schon hebt oder erst
+   eine Zusammenarbeit. Zu früh gewärmt wirkt anbiedernd, zu spät distanziert.*
+   → [[beziehungsregister]]
+
+4. **Sagst Du dem Lieferanten bewusst nicht, warum es wartet?** Du schreibst nur «so bald von der
+   Bauherrschaft eine Grundbereitschaft signalisiert wird» — ohne zu erklären, dass Du das Thema
+   erst intern aufnehmen musst. Ist dieses Nicht-Erklären Absicht (interne Abläufe gehen den
+   Lieferanten nichts an), oder war es schlicht Kürze? *Warum: mein Zwilling hat genau hier einen
+   Begründungssatz ergänzt, den Du nicht schreibst — er neigt zum Erklären, wo Du zumachst.*
+   → [[haltung]], [[arbeitsweise]]
+
+5. **Ist die Erinnerung ohne Vorwurf Deine Standardform?** «Ich hatte dich bereits gebeten, mir
+   die Materialbibliotheken … zu exportieren» — nüchtern, ohne Spitze, direkt gefolgt vom
+   Eingeständnis «Da ich das Programm noch nicht vollständig beherrsche, bin ich hier auf deine
+   Unterstützung angewiesen». Erinnerst Du bei säumigen Zulieferern immer so, oder wird es beim
+   zweiten Nachfassen deutlicher? *Warum: der Zwilling braucht die Eskalationsstufe. Heute kennt
+   er nur die erste.* → [[haltung]], [[arbeitsweise]]
+
+6. **Voller Signaturblock statt «Lieber Gruss» beim gewichtigen Du-Ask — Regel oder Zufall?** Die
+   Kapital-/Abhängigkeits-Mail an den Freelancer endet mit «Freundliche Grüsse» + vollem Block,
+   nicht mit dem sonst üblichen Kurzgruss dieses Kontakts. Ist der volle Block Dein Signal «das ist
+   jetzt ernst / das ist aktenkundig»? *Warum: mein Zwilling hat hier «Lieber Gruss» gesetzt, weil
+   die Rule den Kurzgruss ans operative Register bindet. Wenn das Gewicht auch den GRUSS hebt (nicht
+   nur die Anrede), gehört das in die Rule `anrede-kontakte` neben die Anrede-Klausel.*
+   → [[stimme]], [[beziehungsregister]]

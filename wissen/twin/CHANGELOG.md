@@ -4,6 +4,33 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-30 — `twin-fidelity-review` (Fidelity ~76; KERNBEFUND: Facetten-Widerspruch aufgeloest,
+  kontaminierter Marker aus dem Gehirn entfernt).** Verfahren nach den drei Empfehlungen 260729:
+  Abdeckungs-Check vor Goldwahl (aus dem KB-Wurzelverzeichnis, ohne `2>/dev/null`, mit
+  Kontrollbegriff-Gegenprobe), gezielte Retrieval-Stufe vor der Blindfassung, Kontaminations-Vermerk
+  fuer die Connector-Vorschau (erste ~40 Woerter nicht blind, nicht gewertet).
+  **Materialstand korrigiert:** `raw/_INGESTED.md` nennt November 2025 als naechstes Sweep-Fenster
+  («nur stichprobenartig») — das Fenster wurde vollstaendig gelistet (54 Sent Items) und ist bis auf
+  EINEN Beleg (19.11., GFT/Diethelm) abgedeckt. Empfehlung an den Mail-Loop: November ueberspringen,
+  direkt Dezember 2025 bzw. die Luecken Feb–Jun 2026.
+  **Golds:** A = 19.11.2025 Lieferanten-Sie (echte Luecke; Stimme 72 / Denken 80 / Haltung 76 /
+  Beziehung 88 / Arbeitsweise 80 / Fachsignatur 65), B = 25.11.2025 3D-Freelancer (kontrollierter
+  Recall-Test auf belegtem Material; ~74 gegen ~66 am 29.07. — die gezielte Retrieval-Stufe wirkt).
+  **Kernbefund:** [[stimme]] 1075 hatte den Block unter dem Signaturblock der 25.11.-Mail bereits als
+  4. Echo-Fall (Batch 21) ausgeschlossen, waehrend [[fachsignatur]] denselben Block als Raphaels
+  authentische «dritte Saeule» fuehrte — die daraus abgeleitete Lehrmittel-Form stand ueber den
+  Do-Block seit 260614 im immer-aktiven Gehirn. Neuer, staerkster Beleg aus diesem Lauf: die
+  **Perspektive verraet den Adressaten** (der Pfad des Freelancers heisst im Block «ein fremder Pfad»,
+  «Genau das passiert bei dir» meint Raphael) plus die **Gegenprobe im selben Faden** (14:29 sagt
+  Raphael dasselbe in zwei imperativen Saetzen mit Tippfehler).
+  **Aktionen:** `fachsignatur.md` — Echo-Korrektur-Kasten mit Attribution an den Vorbefund, zwei
+  Sub-Marker durchgestrichen und begruendet zurueckgezogen (woertliche Soll-Ordnerstruktur,
+  «didaktisch ausgebreitet»), **neuer** Marker «Reibung selbst wegnehmen, bevor er bittet»
+  (Ursache belegen · Zielgefaess vorher anlegen · mit dem Nutzen schliessen · Erinnerung ohne Vorwurf),
+  Do-Block und Schluss-Direktive entsprechend eingegrenzt; `QUESTIONS.md` Runde 260730 mit 6 Fragen;
+  `rules/jans-dna.md` neu kompiliert (Auto-Block traegt die Korrektur).
+  Report: `outputs/2026-07-30_fidelity.md`.
+
 - **2026-07-30 — `twin-mail-training` Batch 82 (Lücken-Sweep Sent Items rj@, **Oktober 2025
   vollständig gelistet**, 43 Mails, authentisch).** Methodik Batch 80/81: Abgleich gegen den
   bereits destillierten Bestand VOR der Lektüre. 9 Kandidaten-Volltexte gelesen, davon 4 bereits
