@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 31.07.2026 01:34:43
+Stand: 31.07.2026 01:44:49
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -13,4 +13,4 @@ Stand: 31.07.2026 01:34:43
 - 12 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 457df689 brandschutz C41-C44: netzferner Kleinbau durchentschieden (QSS-Doppelschwelle, Selbstrettung, Vollzug OW/BE), Destillat VKF-Merkblatt 2005-15 Lithium-Ionen
+- 0da46c19 Cockpit interaktiv: cockpit-server (localhost:8737) schreibt erledigt ins Fristen-Register per Zeilen-Hash; Second-Brain-Blasenkarte im Cockpit; Buttons nur bei --interaktiv-Build (8377 bleibt statisch); MacBook launchd installiert, Mini als Sync-Task; Chronik 260731c
