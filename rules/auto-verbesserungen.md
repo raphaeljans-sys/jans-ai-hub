@@ -130,9 +130,9 @@ Vorfaelle und die vollstaendigen Inventare.
 - **Leerlauf am LIEFER-DELTA messen**, nie am Registry-`lastRunAt` (markiert den Start, nicht
   die Lieferung). Massgeblich ist die Lauf-Journalzeile in `logbuch/laeufe/YYMMDD-laeufe.jsonl`
   (seit 29.07. maschinell via `--output-format json`) plus Commit/Datei-Delta. **Die beiden
-  Journalhaelften sind NICHT gleichwertig:** die rc-/Kosten-Zeile schreibt `claude-run.sh`
+  Journalhälften sind NICHT gleichwertig:** die rc-/Kosten-Zeile schreibt `claude-run.sh`
   maschinell und beweist nur, dass der Lauf endete; die inhaltliche Ergebniszeile
-  (`loop_type`/`result`) schreibt der Loop SELBST per Prompt und fehlt regelmaessig — am
+  (`loop_type`/`result`) schreibt der Loop SELBST per Prompt und fehlt regelmässig — am
   29.07.2026 bei 0 von 8 Laeufen, obwohl mehrere davon belegt geliefert haben (Energie Run 119,
   Wissens-Chef Run 20). **Eine fehlende Ergebniszeile ist darum kein Delta Null.** Delta Null
   gilt erst, wenn auch Commit- und Datei-Delta im Laufzeitfenster leer sind. 3x Delta Null

@@ -39,71 +39,71 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
-## 2026-07-30 20:57 — [FREI] Die Messgrundlage des Leerlauf-Waechters ist halb blind: die inhaltliche Ergebniszeile im Lauf-Journal fehlte am 29.07. bei allen acht Laeufen, obwohl mehrere belegt geliefert haben. Dazu ein uebersprungener Aufsichtslauf um 16:50
+## 2026-07-30 20:57 — [FREI] Die Messgrundlage des Leerlauf-Wächters ist halb blind: die inhaltliche Ergebniszeile im Lauf-Journal fehlte am 29.07. bei allen acht Läufen, obwohl mehrere belegt geliefert haben. Dazu ein übersprungener Aufsichtslauf um 16:50
 
 **Selbstkontrolle: ein Lauf ist ausgefallen.** Letzter Eintrag 12:57, dieser Lauf 20:57 — 8,0 h
 gegen einen 4-h-Takt. Der Slot 16:50 hat nicht gefeuert: kein RADAR-Eintrag, kein Commit, und
 zwischen 15:00 und 20:15 existiert auf dem MacBook **kein einziges Session-Transcript**. Die
-Claude-App laeuft ununterbrochen seit 29.07. 22:29, ein Absturz oder Neustart scheidet also aus.
-Wahrscheinlichste Ursache ist die Taktaenderung von 13:10 selbst: das Neuarmieren der Task hat
-den naechsten Slot auf 20:50 statt 16:50 gesetzt. Pruefkriterium fuer die naechsten beiden
-Laeufe: feuern 00:57 und 04:57 planmaessig, war es ein einmaliger Effekt der Umstellung und kein
-struktureller Ausfall. Feuert erneut einer nicht, ist es ein Aufsichts-Blocker und gehoert nach P1.
+Claude-App läuft ununterbrochen seit 29.07. 22:29, ein Absturz oder Neustart scheidet also aus.
+Wahrscheinlichste Ursache ist die Taktänderung von 13:10 selbst: das Neuarmieren der Task hat
+den nächsten Slot auf 20:50 statt 16:50 gesetzt. Prüfkriterium für die nächsten beiden
+Läufe: Feuern 00:57 und 04:57 planmässig, war es ein einmaliger Effekt der Umstellung und kein
+struktureller Ausfall. Feuert erneut einer nicht, ist es ein Aufsichts-Blocker und gehört nach P1.
 
 **Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung antwortet «OK» (rc 0). Speicher
-MacBook 3,85 GB, Mini 10,23 GB (`vm_stat` free+inactive), Druckstufe je 1 — unauffaellig.
+MacBook 3,85 GB, Mini 10,23 GB (`vm_stat` free+inactive), Druckstufe je 1 — unauffällig.
 
 **Feuermechanismen: konsistent.** `vollgas-supervisor` und `vollgas-monitor` auf beiden Stationen
-entladen und als `*.disabled-260729` geparkt, STOP-Flags unveraendert vom 29.07. 02:51. Auf dem
+entladen und als `*.disabled-260729` geparkt, STOP-Flags unverändert vom 29.07. 02:51. Auf dem
 Mini geladen sind `ch.jans.nachtschicht` (Slots 23:30 / 02:30 / 05:30 / 13:30) und
 `ch.jans.training-energie` (22:30, `cron-training-mini.sh energie`); `ch.jans.training-normen`
 liegt vor, ist aber nicht geladen — korrekt, DIN/VSS/RAL sind abgearbeitet. Kein Doppelfeuer:
-zu `training-energie` existiert kein Registry-Gegenstueck, es ist der einzige Taktgeber dieses
+zu `training-energie` existiert kein Registry-Gegenstück, es ist der einzige Taktgeber dieses
 Loops. Der stehende Entscheid Raphaels vom heutigen Tag bleibt gewahrt, der Endlos-Runner wurde
 nicht angetastet.
 
-**P1 — die Kennzahl, auf die mein Abschaltmandat sich stuetzt, ist nur zur Haelfte maschinell,
-und die inhaltliche Haelfte fehlt haeufiger als sie da ist.** Das Lauf-Journal
+**P1 — die Kennzahl, auf die mein Abschaltmandat sich stützt, ist nur zur Hälfte maschinell,
+und die inhaltliche Hälfte fehlt häufiger als sie da ist.** Das Lauf-Journal
 `logbuch/laeufe/YYMMDD-laeufe.jsonl` besteht aus zwei verschiedenen Zeilentypen, was bisher
 nirgends festgehalten war. Die rc-/Kosten-Zeile schreibt `scripts/claude-run.sh` maschinell; sie
 beweist, dass ein Lauf **endete**, nicht dass er **lieferte**. Die inhaltliche Ergebniszeile
-(`loop_type` + `result`) schreibt kein Script — kein einziges unter `scripts/` enthaelt das Feld
-—, sondern der Loop **selbst** per Prompt, als letzten Arbeitsschritt. Damit faellt sie immer
+(`loop_type` + `result`) schreibt kein Script — kein einziges unter `scripts/` enthält das Feld —,
+sondern der Loop **selbst** per Prompt, als letzten Arbeitsschritt. Damit fällt sie immer
 dann aus, wenn ein Lauf vorher endet. Gemessen: am **29.07. acht rc-Zeilen und null
 Ergebniszeilen**, obwohl mindestens Energie Run 119 (sieben Destillate, 22:52) und Wissens-Chef
 Run 20 (79 Korrekturen in 22 Dateien, 23:59) an diesem Abend belegt geliefert haben. Am 30.07.
 zwei Ergebniszeilen bei sechs rc-Zeilen; dem 13:30-Slot der Nachtschicht fehlt sie, obwohl
-Commit `43ec58ac` die Lieferung (BKP 261 Aufzuege) beweist. Haette ich die 3x/5x-Regel formal auf
-das Journal angewandt, waeren am 29.07. saemtliche Lern-Loops als Delta Null gezaehlt und
-reihenweise zurueckgetaktet worden — ein Abschalten produktiver Loops auf einer Messgroesse, die
+Commit `43ec58ac` die Lieferung (BKP 261 Aufzüge) beweist. Hätte ich die 3x/5x-Regel formal auf
+das Journal angewandt, wären am 29.07. sämtliche Lern-Loops als Delta Null gezählt und
+reihenweise zurückgetaktet worden — ein Abschalten produktiver Loops auf einer Messgrösse, die
 gar nicht misst, was sie zu messen vorgibt. **Massnahme, sofort umgesetzt:** die Betriebs-Kurzregel
-«Leerlauf am LIEFER-DELTA messen» in `rules/auto-verbesserungen.md` haelt jetzt ausdruecklich
-fest, dass die beiden Journalhaelften nicht gleichwertig sind und eine fehlende Ergebniszeile
+«Leerlauf am LIEFER-DELTA messen» in `rules/auto-verbesserungen.md` hält jetzt ausdrücklich
+fest, dass die beiden Journalhälften nicht gleichwertig sind und eine fehlende Ergebniszeile
 **kein** Delta Null ist; Delta Null gilt erst, wenn auch Commit- und Datei-Delta im
-Laufzeitfenster leer sind. Der Task-Prompt des Radars brauchte keine Aenderung, er nennt die
+Laufzeitfenster leer sind. Der Task-Prompt des Radars brauchte keine Änderung, er nennt die
 Commits bereits an erster Stelle. Nicht angefasst habe ich `claude-run.sh`: eine automatische
-Liefer-Erkennung muesste `git` gegen das NAS-Repo lesen, und einen SMB-git-Aufruf in jeden
-automatischen Lauf einzubauen waere teurer als der Fehler, den er verhindert.
+Liefer-Erkennung müsste `git` gegen das NAS-Repo lesen, und einen SMB-git-Aufruf in jeden
+automatischen Lauf einzubauen wäre teurer als der Fehler, den er verhindert.
 
-**P2 — Liefer-Delta: kein Loop im Leerlauf, keine Massnahme noetig.** Seit dem letzten Eintrag
+**P2 — Liefer-Delta: kein Loop im Leerlauf, keine Massnahme nötig.** Seit dem letzten Eintrag
 lief genau ein automatischer Lauf, der 13:30-Slot der Nachtschicht, und er lieferte (BKP 261
-Aufzuege Masskizze, `43ec58ac`). Der uebrige Tag: baurecht Buch-Run 70 um 02:36 (eine Korrektur,
+Aufzüge Masskizze, `43ec58ac`). Der übrige Tag: baurecht Buch-Run 70 um 02:36 (eine Korrektur,
 Verdichtungs-Drift § 242 Abs. 2 PBG), grobkosten Run 20 um 05:39 (Bring-Schuld Lignum-Holzbau
-eingeloest). Energie lieferte zuletzt am 29.07. 22:52. Keine Delta-Null-Serie auf irgendeinem
-Loop, also kein Ruecktakten und kein Deaktivieren.
+eingelöst). Energie lieferte zuletzt am 29.07. 22:52. Keine Delta-Null-Serie auf irgendeinem
+Loop, also kein Rücktakten und kein Deaktivieren.
 
 **P3 — sieben Stunden ohne automatische Arbeit, und das ist diesmal richtig so.** Zwischen dem
 Nachtschicht-Commit 13:35 und diesem Lauf hat der Hub ausser Heartbeat-Commits nichts erzeugt;
-die einzige inhaltliche Aenderung kam um 20:13 von Raphael selbst. Das ist die bauliche Folge des
+die einzige inhaltliche Änderung kam um 20:13 von Raphael selbst. Das ist die bauliche Folge des
 Runner-Ausbaus — die Nachtschicht feuert 23:30 / 02:30 / 05:30 / 13:30, dazwischen liegt
-tagsueber eine lange Luecke, die niemand fuellt. Bei 66 % Wochenverbrauch nach 43 % der Zeit
-(Messung 12:49, Reset 03.08. 12:00) ist diese Zurueckhaltung die richtige Antwort und kein
+tagsüber eine lange Lücke, die niemand füllt. Bei 66 % Wochenverbrauch nach 43 % der Zeit
+(Messung 12:49, Reset 03.08. 12:00) ist diese Zurückhaltung die richtige Antwort und kein
 Defekt. Ich schlage keine Gegenmassnahme vor; sollte der Verbrauch bis zum Reset deutlich unter
-der linearen Fortschreibung bleiben, waere ein fuenfter Nachtschicht-Slot am fruehen Abend der
+der linearen Fortschreibung bleiben, wäre ein fünfter Nachtschicht-Slot am frühen Abend der
 naheliegende Hebel — das ist ein Entscheid Raphaels, kein Radar-Entscheid.
 
 **Schlankheit:** Regellauf, keine Tiefenuntersuchung. Die einzige Vertiefung galt dem einen
-Befund unter P1 (Journal-Schreiber lokalisiert, zwei Tage ausgezaehlt) — sie war noetig, weil der
+Befund unter P1 (Journal-Schreiber lokalisiert, zwei Tage ausgezählt) — sie war nötig, weil der
 Befund meine eigene Abschaltbefugnis betrifft.
 
 ---
