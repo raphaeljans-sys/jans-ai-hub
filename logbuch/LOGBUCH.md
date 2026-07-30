@@ -5,6 +5,53 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-30
+
+**Logbuch-Radar (06:55, planmässig) — MIT Befund, Briefing versendet.** Quellen vollständig
+abgeklopft: Register + Journal, Konversations-Destillat 30.07., `mail-vorfilter.sh 26` über alle
+sechs Apple-Mail-Konten inkl. `raphaeljans@outlook.com` (dort seit 15.07. nichts Neues), die
+relevanten Threads danach im Original samt Anhängen geöffnet, bexio `--verzug`, M365-Kalender
+und lokaler Kalender über acht Tage, Sync- und Remote-Queues (beide leer).
+
+**Erledigt und archiviert (vier Punkte, ein ungewöhnlich guter Tag):**
+
+1. **Der AG-Gründungs-Blocker bei der UBS ist nach 32 Tagen gelöst.** RJ hat am 29.07. 13:33
+   selbst bei B. Jeckelmann nachgefasst; dieser liefert 13:50 das Antragsformular auf «Raphael
+   Jans AG» («Sie können mit den weiteren Schritten fortfahren»). RJ reicht es am selben Tag bei
+   der UBS-Geschäftsstelle Wiedikon ein und löst damit zugleich die echtheitsbescheinigte
+   Ausweiskopie (14:59); Jeckelmann quittiert 16:55. Damit ist auch der Gesprächspunkt vom 29.07.
+   zur Beglaubigung erledigt. Vorbehalt am Beleg: die UBS-Ursprungsmail vom 23.06. verlangte die
+   Rücksendung per Post und warnte vor der Abgabe in einer Geschäftsstelle; Jeckelmann hat nicht
+   widersprochen. Neue Beobachtungszeile: IBAN wird bis ca. 03./04.08. erwartet.
+2. **RE-00100 ist korrigiert neu ausgestellt** (29.07. 12:31 an `260kredi@huwiler.ch`). Am Beleg
+   verifiziert: Empfänger neu Swiss Central City Real Estate Fund, Pfäffikon; Leistungszeitraum
+   01.06.–31.07.26 neu auf der Rechnung. **Präzisierung des gestrigen Befunds:** Huwiler hatte
+   nur ein Pflichtfeld angekreuzt (Empfängeradresse), nicht fünf — die MWST-Zeile war nicht
+   markiert. Der gerügte Mangel ist behoben. Restpunkte als eigene Zeile: Absenderadresse
+   weiterhin Saumstrasse 21, «von Steuer befreit» ohne MWST-Nummer, R. Steinmann nicht informiert.
+3. **Baubeschrieb 2620 ist von der Bauherrschaft freigegeben** (R. Steinmann 29.07. 16:04, ohne
+   Änderungswünsche). Der KV hängt neu am Eingriffstiefe-Entscheid vom 13.08.
+4. **M365-Backup-Vorfall gelöst** (Clalüna, 29.07. 17:48). Hygiene-Rest: die Admin-Zugangsdaten
+   gingen per Mailanhang raus, Passwortwechsel empfohlen.
+
+**Neu aufgenommen:** Kollision Bodenablauf ↔ Bodenheizung mit Küblers Antwort vom 29.07. 17:08
+(Entscheid Kupplungen gegen Bodenrückbau steht an, Kosten- und Gewährleistungsfolge) · Baufreigabe
+Lüftung, RJ bittet Kübler dringend um den Kontakt zu S. Zala/UGZ · Rückweisung des
+Installationsplans Lüftung durch den QS Brandschutz · drei weitere eBaugesuche-Verlaufseinträge
+vom 29.07., die neu das Projekt nennen (zweimal KISPI, einmal Fremdprojekt) — fünf unbesehene
+Einträge, Portal-Session weiterhin 401 · Termin 05.08. 17:30 «Arioli» (privat).
+
+**Unverändert:** bexio `--verzug` drei Positionen, alle KISPI — RE-00087 CHF 15'000 jetzt 105 Tage
+auf Mahnstufe 2 (Entscheid Stufe 3/Betreibung bei Raphael), RE-00098 CHF 13'600 und RE-00099
+CHF 3'680 je zehn Tage über Fälligkeit mit Frist 03.08., Summe CHF 32'280. Betrieb: der
+Abo-Auslastungs-Check bleibt seit dem 20.07. ohne Re-Login blind; auf dem Mac Mini ist
+`ch.jans.training-energie` weiterhin geladen, `ch.jans.training-normen` dagegen nicht (die
+Meldung «beide scharf geladen» aus dem Nachtschicht-Report trifft nur zur Hälfte zu).
+
+Keine Mail an Dritte, kein Kalendereintrag, keine Buchung — nur das Briefing an rj@.
+
+---
+
 ## 2026-07-29
 
 **Hub-Chef-Lauf (08:39, planmaessig) — MIT Befund, Briefing versendet.** Signale gegenverifiziert
