@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 31.07.2026 00:44:27
+Stand: 31.07.2026 00:54:31
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 00:46)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 31.07.2026 00:44:27
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 752a0b6c hub-chef 31.07.: RE-00100 Monitoring-Luecke, bexio-Patch vorgelegt, Gruner-Vertragsbefund, zwei Entwuerfe
+- 2488af2e nas-selfcommit: 1 Datei(en) 2026-07-31 00:45
