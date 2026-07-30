@@ -16,6 +16,26 @@ Automatik arbeitet (Runner, Gate, Waechter, Takte, launchd), liest die Chronik z
 Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0,
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`).
 
+## 260730b — Heutiges Datum messen, nie ableiten; NAS-Dateien vor dem Edit auf Frische pruefen
+- **Regel:** (1) **Das Arbeitsdatum kommt aus `date`, nie aus einem Dateiinhalt.** Vor jedem
+  datierten Eintrag (Logbuch, Register, Report, Dateiname) einmal `date "+%Y-%m-%d %H:%M %Z"`
+  ausfuehren. Belegt am 30.07.2026: der woechentliche Abo-Check schloss aus der obersten
+  Journal-Sektion («## 2026-07-26») auf «heute = 27.07.», datierte Eintrag, Tageszahlen und
+  Commit-Message falsch und sortierte den Eintrag drei Tage zu tief in die Chronik ein.
+  Verwandt, gleiche Familie: die `toISOString()`-UTC-Falle in `dateinamen-konvention.md`.
+  (2) **Ein Lesevorgang ueber den SMB-Mount kann einen VERALTETEN Dateistand liefern.** Im
+  selben Vorfall zeigte `LOGBUCH.md` ueber SMB als oberste Sektion den 26.07., waehrend real
+  bereits Sektionen bis zum 30.07. existierten — der Edit landete dadurch in der falschen
+  Sektion und wurde erst beim Rebase des nativen Committers sichtbar. Vor dem Editieren einer
+  geteilten NAS-Datei darum den Frischestand pruefen (`git log -1 --format=%ci -- <datei>` im
+  SSD-Klon bzw. erneutes Lesen unmittelbar vor dem Edit) und nach dem `nas-commit-now.sh` das
+  Ergebnis **im Ziel** verifizieren, nicht nur den rc auswerten. (3) **Jede Behauptung ueber
+  den Betriebszustand wird gemessen** (`ps`, STOP-Flags, Logzeile), nicht aus dem letzten
+  gelesenen Registerstand fortgeschrieben: derselbe Eintrag behauptete laufende Vollgas-Runner,
+  waehrend beide seit 29.07. 02:51 per STOP-Flag gestoppt waren.
+- **Gilt fuer:** alle Sessions und Scheduled Tasks, jeden datierten Eintrag, jeden Edit an
+  geteilten NAS-Inhalten.
+
 ## 260730 — Setup-/Infrastrukturfragen: zuerst den Hub-Setup-Konnektor konsultieren
 - **Regel:** Bei jeder Frage zum Hub-Setup (Stationen, IPs, SSH-Wege, Mail-Konten, Pfade,
   Git-Regeln) und bei jeder Verbindungsstoerung ZUERST

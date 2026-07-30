@@ -7,6 +7,35 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-30
 
+**Woechentlicher Abo-Auslastungs-Check (Mac Mini, 12:35) — KEINE MESSUNG MOEGLICH, Ampel ROT
+(Messfehler, nicht Verbrauch); der seit 20.07. offene `/login` ist weiterhin nicht erfolgt.**
+`node connectors/claude-usage.mjs` bricht beim Token-Refresh ab: HTTP 400,
+`invalid_grant: Refresh token not found or invalid`, Usage-Endpunkt danach 401. Damit liegen
+**weder ein Wochen-Prozentwert noch eine Extra-Usage-Zahl** vor — die letzte belastbare Messung
+bleibt die vom 19.07. (Woche alle Modelle 31 %, Extra Usage 0.00 USD, gruen), die Auslastung ist
+also seit **11 Tagen blind**. Der Befund ist **kein neuer Fehler**, sondern der unveraendert
+offene Punkt aus dem Register (Eintrag 20.07.): der Rotations-Bug im Connector ist seit 20.07.
+behoben (`persistiereRotation()` schreibt den rotierten Refresh-Token in die Keychain zurueck),
+greifen kann der Fix aber erst ab der naechsten gueltigen Credential. **Neuer Beleg dafuer, dass
+der Re-Login aussteht:** der Keychain-Eintrag «Claude Code-credentials» (Account `raphaeljans`)
+traegt als Aenderungsdatum unveraendert **12.07.2026 22:01 UTC** — seit 18 Tagen kein
+Schreibzugriff, also weder Re-Login noch erfolgreiche Rotations-Persistierung. **Offene
+JANS-Aktion (unveraendert, seit 10 Tagen): einmalig im interaktiven Terminal `claude` starten
+und `/login` ausfuehren** (Browser-Flow, headless nicht moeglich), danach einen Kontrolllauf
+`node connectors/claude-usage.mjs` beobachten. **Risiko-Einordnung, gemessen statt vermutet:**
+beide Vollgas-Runner sind derzeit **gestoppt** (STOP-Flags `logbuch/vollgas/STOP-Macmini` und
+`STOP-Macbookpro`, beide 29.07. 02:51; `ps` zeigt keinen laufenden Runner), die grosse
+unbeaufsichtigte Last liegt also aktuell still — die Blindheit ist damit **noch** kein akutes
+Kostenrisiko, wird aber genau in dem Moment eines, in dem die Runner wieder anlaufen. Bewusst
+**nur ein** Connector-Lauf (Lehre aus dem 429-Vorfall vom 20.07.: keine Zweitlaeufe zur
+Belegbeschaffung). Read-only gearbeitet, keine Abo- oder Kontoaenderung.
+**Eigener Fehler transparent:** der Eintrag lag zunaechst falsch datiert (27.07.) in der
+07-27-Sektion, mit zu kleinen Tageszahlen und der unbelegten Behauptung, die Vollgas-Runner
+liefen wieder. Ursache: das Datum wurde aus der obersten Journal-Sektion **abgeleitet** statt
+per `date` verifiziert — und der SMB-Mount lieferte beim Lesen einen veralteten Dateistand
+(oberste Sektion 07-26), waehrend real bereits Sektionen bis 07-30 existierten. Korrigiert am
+30.07.; Lehre in `rules/auto-verbesserungen.md` festgehalten.
+
 **Logbuch-Radar (06:55, planmässig) — MIT Befund, Briefing versendet.** Quellen vollständig
 abgeklopft: Register + Journal, Konversations-Destillat 30.07., `mail-vorfilter.sh 26` über alle
 sechs Apple-Mail-Konten inkl. `raphaeljans@outlook.com` (dort seit 15.07. nichts Neues), die
@@ -304,27 +333,6 @@ offenen, klar recherchierbaren Punkt aus einer QUESTIONS.md genommen: Schwellenw
 ordentliche Revision Art. 727 OR direkt am Fedlex-Volltext (Filestore-Methode) verifiziert,
 [[revision-und-opting-out]] mit den konkreten Zahlen ergaenzt, needs-verification-Flag
 entfernt, CHANGELOG/QUESTIONS nachgefuehrt.
-
-**Woechentlicher Abo-Auslastungs-Check (Mac Mini) — KEINE MESSUNG MOEGLICH, Ampel ROT
-(Messfehler, nicht Verbrauch); der seit 20.07. offene `/login` ist weiterhin nicht erfolgt.**
-`node connectors/claude-usage.mjs` bricht beim Token-Refresh ab: HTTP 400,
-`invalid_grant: Refresh token not found or invalid`, Usage-Endpunkt danach 401. Damit liegen
-**weder ein Wochen-Prozentwert noch eine Extra-Usage-Zahl** vor — die letzte belastbare Messung
-bleibt die vom 19.07. (Woche alle Modelle 31 %, Extra Usage 0.00 USD, Ampel gruen). Der Befund
-ist **kein neuer Fehler**, sondern der unveraendert offene Punkt aus dem Register (Eintrag
-20.07.): der Rotations-Bug im Connector ist seit 20.07. behoben (`persistiereRotation()`
-schreibt den rotierten Refresh-Token in die Keychain zurueck), greifen kann der Fix aber erst
-ab der naechsten gueltigen Credential. **Neuer Beleg dafuer, dass der Re-Login aussteht:**
-der Keychain-Eintrag «Claude Code-credentials» (Account `raphaeljans`) traegt als
-Aenderungsdatum unveraendert **12.07.2026 22:01 UTC** — seit 15 Tagen kein Schreibzugriff, also
-weder Re-Login noch erfolgreiche Rotations-Persistierung. **Offene JANS-Aktion (unveraendert,
-seit 7 Tagen): einmalig im interaktiven Terminal `claude` starten und `/login` ausfuehren**
-(Browser-Flow, headless nicht moeglich), danach einen Kontrolllauf
-`node connectors/claude-usage.mjs` beobachten. Solange das aussteht, ist die Abo-Auslastung
-blind — gerade unter dem am 25.07. wieder aufgehobenen Drosselzustand (Vollgas-Runner beidseitig
-aktiv) ist das die relevante Luecke, weil ein Anlaufen der Extra Usage nicht bemerkt wuerde.
-Bewusst **nur ein** Connector-Lauf (Lehre aus dem 429-Vorfall vom 20.07.: keine Zweitlaeufe zur
-Belegbeschaffung). Read-only gearbeitet, keine Abo- oder Kontoaenderung.
 
 ---
 

@@ -74,27 +74,27 @@ baurecht-buch-training	task	prototyper	Erzeugt neues Wissen	aktiv	wissen/baurech
 behoerden-zh-check	task	maintainer	Monitor	aktiv
 heartbeat-daily	task	maintainer	System-Health	aktiv
 hub-chef-taeglich	task	maintainer	Tagesaufsicht	aktiv	logbuch
-immobewertung-marktpuls-260901	task	prototyper	Erzeugt neues Wissen	aktiv	wissen/immobilienbewertung
-immobewertung-training	task	prototyper	Erzeugt neues Wissen	aktiv	wissen/immobilienbewertung
+immobewertung-marktpuls-260901	task	prototyper	Erzeugt neues Wissen	geplant	wissen/immobilienbewertung
+immobewertung-training	task	prototyper	Erzeugt neues Wissen	ereignis	wissen/immobilienbewertung
 konversations-log	task	maintainer	Gedaechtnis-Pflege	aktiv	logbuch/konversationen
 logbuch-radar	task	maintainer	Fristen-/Lage-Radar	aktiv	logbuch
 mahnwesen-verzugscheck	task	maintainer	Betrieb	aktiv
-masterclass-woche1	task	sweeper	Harness-Review	aktiv
+masterclass-woche1	task	sweeper	Harness-Review	erledigt
 methoden-radar	task	maintainer	Aufsicht ueber den Methoden-Layer (Register-Verifikation); destilliert nur bei neuem Material	aktiv
 normen-training-nacht	task	prototyper	Erzeugt neues Wissen	aktiv	wissen/normen
-spec-training	task	prototyper	Erzeugt neues Wissen	aktiv	wissen/spec
-syn02-spec-anstoss	task	grower	Geschaeftsmodell-Anstoss	aktiv
+spec-training	task	prototyper	Erzeugt neues Wissen	ereignis	wissen/spec
+syn02-spec-anstoss	task	grower	Geschaeftsmodell-Anstoss	erledigt
 synergie-lauf-monatlich	task	grower	Geschaeftsmodell-Entwicklung	aktiv
 tenant-hygiene-weekly	task	maintainer	Betrieb	aktiv
-token-drosselung-100810	task	maintainer	Betriebssteuerung	aktiv
-token-messung-140716	task	maintainer	Betriebsmessung	aktiv
+token-drosselung-100810	task	maintainer	Betriebssteuerung	vorrat
+token-messung-140716	task	maintainer	Betriebsmessung	erledigt
 twin-fidelity-review	task	sweeper	Prueft Erzeugnis-Treue	aktiv	wissen/twin
 twin-mail-training	task	prototyper	Erzeugt neue Stil-Marker	aktiv	wissen/twin
 vollgas-chef-radar	task	maintainer	Betriebsaufsicht	aktiv	logbuch/vollgas
 vollgas-fruehwarnung	task	maintainer	Betriebsaufsicht	aktiv	logbuch/vollgas
-wettbewerbs-dna-reaktivierung	task	maintainer	Betriebssteuerung	aktiv
+wettbewerbs-dna-reaktivierung	task	maintainer	Betriebssteuerung	erledigt
 wettbewerbs-dna-training	task	sweeper	Etappe 4 ab 30.07.2026 (Entscheid Raphael, Variante B): vertieft den vorhandenen Bestand statt neues Material zu erschliessen	aktiv	wissen/wettbewerbs-dna
-wettbewerbs-layer-nachbrenner	task	prototyper	Erzeugt neues Wissen	aktiv	wissen/wettbewerbs-dna
+wettbewerbs-layer-nachbrenner	task	prototyper	Erzeugt neues Wissen	erledigt	wissen/wettbewerbs-dna
 wissens-chef	task	sweeper	Aufsicht/Verdichtung des Wissens-Layers	aktiv	wissen
 wissens-destillat	task	sweeper	Verdichtet Rohmaterial	aktiv	wissen/bauprodukte
 wissenscheck-monatlich	task	maintainer	Health-Check	aktiv	wissen
@@ -103,7 +103,7 @@ wissenscheck-monatlich	task	maintainer	Health-Check	aktiv	wissen
 grobkosten-training	task	prototyper	Erzeugt neue Kennwerte; groesster Einzelposten im Runner	aktiv	wissen/grobkosten
 energie-training	task	prototyper	Erzeugt neues Wissen; launchd Mac Mini	aktiv	wissen/energie
 planungsgrundlagen-wartung	task	maintainer	Umgewidmet 30.07.2026 (Entscheid Raphael): Quellen-Turnus nach 28 Erschoepfungsbestaetigungen eingestellt, neu monatlicher Endpunkt-/Link-/Connector-Check	aktiv	wissen/planungsgrundlagen
-normen-training-mini	task	prototyper	Erzeugt neues Wissen; Mac-Mini-Haelfte des Normen-Loops	aktiv	wissen/normen
+normen-training-mini	task	prototyper	Erzeugt neues Wissen; Mac-Mini-Haelfte des Normen-Loops	parkiert	wissen/normen
 synobsis-batch-nacht	task	prototyper	Erzeugt neues Wissen; KB saturiert, stillgelegt	parkiert	wissen/architekten-synobsis
 hub-setup-konnektor	referenz	maintainer	Kanonische Setup-Daten + Verbindungscheck aller Stationen; wird bei Infrastrukturfragen konsultiert	aktiv	connectors/hub-setup.mjs
 arbeits-weiche	task	maintainer	Last-Verteilung schwerer Auftraege auf die Station mit optimaler RAM-Auslastung; Entscheid-Journal logbuch/arbeits-weiche/	aktiv	scripts/arbeits-weiche.sh
