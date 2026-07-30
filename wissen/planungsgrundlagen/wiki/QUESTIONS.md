@@ -1224,7 +1224,14 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   `skills/baurecht/connectors/recht-ch.mjs:160`,
   `skills/oereb-schwyz/connectors/geo-sz.mjs:71`.
   Zu entscheiden: sammelhafte Korrektur durch die jeweils zuständigen Loops.
-- [ ] **E14 — `geo-sz.mjs` existiert zweimal und divergiert** (neu Run 93, 2026-07-30):
+  **↳ TEILWEISE ERLEDIGT 2026-07-30** (Entscheid Raphael, ausgeführt durch `vollgas-chef-radar`):
+  `shop-orders.mjs` und `recht-ch.mjs` auf `toLocaleDateString("sv-SE")` umgestellt, `node --check`
+  sauber, Wirkung im kritischen Zeitfenster nachgemessen (Testzeitpunkt 01:00 CEST: alt `2026-07-29`,
+  neu `2026-07-30`). `geo-sz.mjs` erledigt sich über E14 (Symlink auf die bereits korrigierte
+  Fassung). **Offen bleibt bewusst nur `connectors/bexio.mjs:279`** — buchungsrelevant, Änderung
+  nur mit ausdrücklicher Einzelfreigabe Raphaels (Rule 260702). Damit ist der Bestandssweep bis auf
+  diese eine Stelle sauber.
+- [x] **E14 — `geo-sz.mjs` existiert zweimal und divergiert** (neu Run 93, 2026-07-30):
   `skills/planungsgrundlagen/connectors/geo-sz.mjs` (23'149 B, Stand 22.07.2026, mit
   Parzellensuche/Grundwasser/JANS-Umbenennung, seit heute mit 204-Diagnose und lokalem Datum) gegen
   `skills/oereb-schwyz/connectors/geo-sz.mjs` (11'145 B, Stand 07.06.2026). Der Skill
@@ -1233,6 +1240,18 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   Kanton. Entscheid nötig: Symlink auf die `planungsgrundlagen`-Fassung, Merge oder bewusste
   Trennung mit Begründung. Nicht eigenmächtig zusammengeführt (fremder Skill, potenziell
   destruktiv — Rule `wissens-bibliothekar`).
+  **✓ ERLEDIGT 2026-07-30 — Symlink** (Entscheid Raphael, ausgeführt durch `vollgas-chef-radar`).
+  Vorher gegengeprüft, dass die alte Fassung nichts Eigenes enthält: Vergleich aller Funktionen und
+  CLI-Flags ergab **keine** Position, die nur in der 07.06.-Abspaltung stünde — der Symlink ist
+  verlustfrei. `skills/oereb-schwyz/connectors/geo-sz.mjs` ist jetzt ein relativer Symlink auf
+  `../../planungsgrundlagen/connectors/geo-sz.mjs`; Ladetest über den `oereb-schwyz`-Pfad erfolgreich
+  (Connector parst und validiert Argumente). Sicherungskopie der abgelösten Fassung:
+  `/tmp/geo-sz-oereb-schwyz-backup-260730.mjs` (flüchtig, dient nur dem Rollback in dieser Sitzung —
+  die Historie steht dauerhaft im Git). Es gibt damit **eine** Wahrheit für Kt. Schwyz; der Skill
+  `oereb-schwyz` erbt Parzellensuche, Grundwasser, 204-Diagnose und lokales Datum.
+  **Nebenbefund für den Wartungslauf:** der Connector kennt kein `--hilfe`, obwohl die
+  Hub-Konvention (Rule 260729) verlangt, jeden Connector zuerst per `--hilfe` befragen zu können.
+  Nachzutragen bei der nächsten Connector-Pflege.
 - [x] **E1** `geo-zh.mjs` um `--produkt` erweitern. ✓ 2026-06-10: `--produkt
   height,orthofoto,dtm,bauzonen` + `--download` implementiert, end-to-end an Kat. 3338 getestet
   (graceful skip bei EGRID-only ohne Koordinate). → [[kartenportale-bund-geodaten]].
