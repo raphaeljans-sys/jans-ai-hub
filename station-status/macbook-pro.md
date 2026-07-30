@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.07.2026 15:20:24
+Stand: 30.07.2026 15:40:37
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -9,7 +9,7 @@ Stand: 30.07.2026 15:20:24
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 5 Datei(en): AR - 01 Projekte / 2414 THALWIL
+- 4 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 00cd4cca nas-selfcommit: 2 Datei(en) 2026-07-30 15:15
+- 79de7c82 abo-check: Eskalation bei Messausfall (Zaehler + ALARM + Mail an rj@ ab 2. Ausfall), Tempo-Faktor statt reiner Schwelle, uebersprungene Laeufe zaehlen mit; Prompt kanonisch auf NAS
