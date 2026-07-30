@@ -24,7 +24,7 @@ Liegenschaftsentwässerung. Siehe Sammel-Befund in
 
 SNEL ist die in der Aufzugsbranche gebräuchliche Kurzbezeichnung für die europäische
 Sicherheitsnorm SN-EN 81-80:2003 (in der Schweiz als SIA-Norm 370.080 publiziert), die 74
-signifikante Gefährdungspunkte bei **bestehenden** Aufzügen benennt und Massnahmen zu deren
+Gefährdungspunkte bei **bestehenden** Aufzügen benennt und Massnahmen zu deren
 Behebung vorgibt. Die Norm wurde im November 2003 vom europäischen Normungsverband CEN
 angenommen (die Schweiz ist CEN-Vollmitglied) und am 1. Juli 2004 in der Schweiz publiziert;
 die gesetzliche Umsetzungspflicht liegt bei den Kantonen, wobei gemäss dieser Quelle (Stand

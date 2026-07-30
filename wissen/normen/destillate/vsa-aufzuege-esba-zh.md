@@ -65,9 +65,13 @@ Richtlinien-Originaltext (der hier nicht vorliegt):
 - **ESBA** — Erhöhung der Sicherheit bestehender Aufzüge; Kurzbezeichnung der
   Baudirektions-Richtlinie Kanton Zürich.
 - **Anhaltegenauigkeit** — Mass für die Übereinstimmung von Kabinenboden und
-  Stockwerkniveau beim Halt (in `sia-370-080-2003.md`, Ziff. 3.4, mit ± 10 mm als
-  Zielwert nach EN 81-70 belegt — eine mögliche fachliche Brücke zwischen ESBA-Kriterium 1
-  und der Norm, aber nicht als deckungsgleich bestätigt, siehe offene Punkte).
+  Stockwerkniveau beim Halt. Belegt in `sia-370-080-2003.md`: die **Begriffsdefinition**
+  steht dort unter **Ziff. 3.4**, der **Zahlenwert ± 10 mm** dagegen unter **Ziff. 5.2.2**.
+  Eine mögliche fachliche Brücke zwischen ESBA-Kriterium 1 und der Norm, aber nicht als
+  deckungsgleich bestätigt (siehe offene Punkte).
+  *(Fundstellen-Korrektur Run 40, 31.07.2026: die Erstfassung dieses Destillats zitierte
+  den Zahlenwert ± 10 mm fälschlich unter Ziff. 3.4 — Definition und Zahlenwert waren zu
+  EINER Fundstelle verschmolzen. Refuter-Befund, am Zieldestillat nachgeprüft.)*
 
 ## JANS-Praxis-Transfer
 

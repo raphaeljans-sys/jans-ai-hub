@@ -2,6 +2,37 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-31 — Ingest Cluster A: `IMMO - 03 KNOW-HOW` gelesen, Report in `outputs/`
+- **[ingest]** Neuer Report `outputs/2026-07-31_ingest-cluster-A-knowhow.md` (8 Quellen,
+  vollstaendig gelesen, jede Aussage mit Fundstelle).
+- **Hauptquelle:** Wüest-Partner-Bewertungsbericht EFH Langenthal (Musterbericht «Beispiel»,
+  9 Seiten, 15.04.2020) — Berichtsanatomie, Wertkette 927'000 + 44'000 = 971'000, Skalen und
+  Wortanker des Qualitaetsprofils, Standard-Schwellen in CHF (Küche Basic 21'000–40'000,
+  Nasszellen Basic 11'000–30'000), Mikrolage-Positionsraster mit Einheiten, vollstaendiges
+  Glossar (NWF/BGF, Gebaeudevolumen GVA/SIA 116/SIA 416, Grundstuecksflaeche = Bauzonenanteil,
+  Zimmerzaehlregeln, Servitute, ZGB 646-651 / 712a-712t).
+- **Negativbefund festgehalten** (gegen spaetere Fehlzitierung): der Bericht enthaelt KEINEN
+  Realwert, KEINEN Landwert/Bauwert/Zeitwert, KEINE Altersentwertung, KEINEN Diskont-/
+  Kapitalisierungssatz, KEIN DCF, KEINE Verfahrensgewichtung und KEINEN SVKG/SEK/SVIT-Bezug.
+- **Kernfund Residualwert:** Sensitivitaetsgesetz «Residuumsfehler = Erloesfehler ÷
+  Bodenwertanteil», 45 Tabellenwerte gegen die Identitaet verifiziert (Quelle: Google-Vorschau,
+  Urheber unbekannt — als mathematischer Zusammenhang, nicht als empirischer Beleg fuehren).
+- **Als fachlich leer gemeldet** (gueltiges Ergebnis, nicht schoengeredet): die drei
+  Wuest-Mails (nur Kontakt/Produktlink), `1_Adressen.docx`, `_Link.docx` (eine URL:
+  Bodenpreis-Monitoring Stat. Amt ZH, `bfs=293`, Gemeinde unverifiziert) und der
+  Mentimeter-Kursfeedback-Screenshot.
+- **Vier Screenshots als Laien-/Portalquellen markiert** (ImmoScout24, businessbroker.ch,
+  businesstransaction.ch, deutsche-wertbau.de — deutsch, nicht CH): kein Fachbeleg.
+- **Fehlablage bestaetigt:** `03 Abzinsung/Bildschirmfoto 2023-12-31 um 22.00.44.png` ist ein
+  Planschriftkopf «Quartiergestaltungsplan Reckholderen», Bezirk Einsiedeln, genehmigt
+  24.03.1983 Nr. 212 — ohne jeden Bezug zur Abzinsung. Gemeldet, nicht verschoben.
+- **Offen fuer den naechsten Lauf:** die eigentlichen Residualwert-Rechenwerkzeuge des
+  SIA-Kurses Immo-02-P23D (WP-Praesentation, Residualwert-Projektbewertung.xlsx und
+  Pre-Check-Tool je in WP- und Jans-Fassung, Kursnotizen) sowie `06 Schaetzungen/` und
+  `07 FLAECHENBEZEICHNUNG/`.
+- **Artikel-Vorschlaege:** `hedonischer-bericht-anatomie` (neu) und
+  `residualwert-sensitivitaet` (neu oder als Abschnitt in `residualwertmethode`).
+
 ## 2026-07-29 — `training/PROGRAMM.md`: Statuskopf «EREIGNIS-TRIGGER» gesetzt (vollgas-chef-radar 12:57)
 - **[struktur]** Die Programmdatei trug keinen Hinweis darauf, dass `immobewertung-training` seit
   dem **26.07.2026** (Entscheid Raphael, Registry-Nachzug 27.07.) auf `enabled=false` steht und

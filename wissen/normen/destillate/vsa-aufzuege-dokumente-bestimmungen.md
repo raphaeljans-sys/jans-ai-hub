@@ -70,10 +70,10 @@ Feuerpolizei).
 | SN EN 81-41 | SIA 370.041 | Vertikale Plattformaufzüge für Personen mit eingeschränkter Beweglichkeit | nicht destilliert |
 | SN EN 81-58 | SIA 370.058 | Prüfung der Feuerwiderstandsfähigkeit von Fahrschachttüren | nicht destilliert |
 | SN EN 81-70 | SIA 370.070 | Zugänglichkeit für Personen einschl. Personen mit Behinderungen | nicht destilliert |
-| SN EN 81-71 | SIA 370.071 | Schutzmassnahmen gegen mutwillige Zerstörung (Vandalismus) | nicht destilliert |
+| SN EN 81-71 | SIA 370.071 | Schutzmassnahmen gegen mutwillige Zerstörung | nicht destilliert |
 | SN EN 81-72 | SIA 370.072 | Feuerwehraufzüge | nicht destilliert |
 | SN EN 81-73 | SIA 370.073 | Verhalten von Aufzügen im Brandfall | nicht destilliert |
-| SN EN 81-80 | SIA 370.080 | Regeln für die Erhöhung der Sicherheit bestehender Personen-/Lastenaufzüge («SNEL») | **destilliert** (`sia-370-080-2003.md`) |
+| SN EN 81-80 | SIA 370.080 | Regeln für die Erhöhung der Sicherheit bestehender Personen- und Lastenaufzüge | **destilliert** (`sia-370-080-2003.md`) |
 | SN EN 115-1+A1 | SIA 370.121 | Sicherheit von Fahrtreppen und Fahrsteigen, Teil 1: Konstruktion/Einbau | nicht destilliert |
 | SN EN 115-2 | SIA 370.122 | Fahrtreppen/Fahrsteige, Teil 2: Erhöhung der Sicherheit bestehender Anlagen | nicht destilliert |
 
