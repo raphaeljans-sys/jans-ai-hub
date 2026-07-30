@@ -365,10 +365,27 @@ Altverträge mit Vermerk. Im `training/norm-inventar.md` in der Bemerkung markie
   SWKI-Dokument, `PL - 02_Recht_Norm/06_Richtlinien/SWKI/SWKI VA 103-1 Lüftungsanlagen für
   Parkhäuser.pdf` (Priorität P2, **noch nicht destilliert**; Beleg `training/norm-inventar.md`,
   Abschnitt `06_Richtlinien/SWKI`). Reiner **Bestandseintrag ohne Gültigkeitsaussage** — Ausgabe
-  und Stand sind nicht am Original erfasst. Weitere SWKI-Richtlinien (u. a. **VA105-01:2015**,
-  Nachfolgerin von SWKI 99-3:2003, siehe `QUESTIONS.md` Abschnitt 2026-07-30) liegen **nicht** im
-  Bestand und werden hier deshalb nicht geführt. Ob SWKI überhaupt in den Scope dieser KB gehört,
-  ist offener Strukturentscheid (PL-02-Reichweite, `QUESTIONS.md` Befund 3).
+  und Stand sind nicht am Original erfasst.
+
+  **Führungsentscheid Raphael 31.07.2026 (Wissens-Chef Run 21):** SWKI gehört in den Scope dieser
+  KB, nach demselben Zuschnitt wie SIA, VKF und VSS — **`normen` führt Fundstelle, Ausgabe und
+  Fassungsstand, `energie` führt die angewandte Fachaussage** (Lüftungs-/HLK-Physik) und verweist
+  für die Ausgabe hierher. Das ist keine Scope-Ausweitung, sondern die bestehende Regel auf einen
+  weiteren Herausgeber angewandt; Präzedenz ist bfu (Run 38). Anlass war ein belegter Fehlaufwand:
+  ohne Registerzeile wollte diese KB SWKI 99-3 destillieren, obwohl die Richtlinie seit dem
+  1.8.2015 ersetzt ist und `energie` das seit dem 25.07.2026 belegt hatte.
+
+  **Was hier geführt wird und was nicht.** Die Registerzeilen tragen nur, was am Original oder am
+  Hausbestand belegt ist — für die im Haus fehlenden Volltexte gibt es **keine Gültigkeitsaussage**
+  (weder ✓ noch ✗), sonst entstünde dieselbe ungedeckte Aussage, die die Verifikation in Run 20 am
+  SIA-2032-Fall verhindert hat.
+
+| SWKI-Richtlinie | Ausgabe | Bestand | Bemerkung |
+|---|---|---|---|
+| VA 103-1 «Lüftungsanlagen für Parkhäuser» | — (nicht am Original erfasst) | ✓ Haus, **noch nicht destilliert** (P2) | `06_Richtlinien/SWKI/`, Beleg `training/norm-inventar.md`. Ergänzt VKF-BRL 25-15; einschlägig für `planungsgrundlagen/wiki/recht-norm-tiefgarage-erschliessung`. Auftrag an den Loop: destillieren (`QUESTIONS.md`, Abschnitt 2026-07-31) |
+| VA 105-01 | **2015-08** (genehmigt 02.07.2015, in Kraft 01.08.2015) | ✗ Volltext nicht im Bestand (Kap. 3-6 kostenpflichtig, Kaufentscheid offen) | **ersetzt SWKI 99-3:2003 + Beiblatt 2004.** Belegt über Titelblatt/Vorwort (OCR) in `wissen/energie/destillate/reinraum-op-klimatisierung-gesundheitsbau-ch.md`, Zweitquelle H+ eFlash 2015-09. Belegt ist «abgelöst/ersetzt», **nicht** ein förmlicher Rückzug |
+| SWKI 99-3:2003 (+ Beiblatt 2004) | 2003 | ✗ | **abgelöst per 1.8.2015** durch VA 105-01. Nicht mehr destillieren |
+| VA 106, SWKI 2004-1 | — | ✗ | in `wissen/energie` nur über Leseprobe/Verkaufsseiten bekannt (Destillat dort `emerging`). Hier bewusst **keine** Ausgabe- oder Gültigkeitsaussage |
 - **bfu (Beratungsstelle für Unfallverhütung, Bern):** Fachbroschüren/Fachdokumentationen mit
   eigener Publikationsnummer im Schema `<Nr> – <MM.JJJJ>` im Impressum; kein Rückzugsregister,
   die Fassung steht am Dokument. Aufgenommen Run 38 (30.07.2026) aus

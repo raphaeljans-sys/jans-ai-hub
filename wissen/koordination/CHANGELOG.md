@@ -3,6 +3,27 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-31 (Nachlauf Run 21) — Entscheid 6.1 umgesetzt: SWKI ist zugeordnet
+
+- **[entscheid Raphael] Die erste Matrix-Zeile mit offener Fuehrung ist wieder geschlossen.** Run 21
+  hatte SWKI bewusst als «NICHT ZUGEORDNET» eingetragen, weil die Zuordnung am seit Run 31 offenen
+  PL-02-Scope-Entscheid haengt. Die Gegenpruefung des Bestands vor der Empfehlung hat gezeigt, dass
+  die Frage kleiner ist als sie aussah: im Haus liegt **genau ein** SWKI-Dokument (VA 103-1), die
+  drei weiteren Richtlinien, die `energie` fuehrt, sind gar nicht im Bestand, und `normen` fuehrt seit
+  Run 38 mit den neun bfu-Publikationen bereits eine Nicht-SIA-Familie. Der Entscheid war damit keine
+  Scope-Frage, sondern die Anwendung der bestehenden Regel.
+- **Gesetzt:** Matrix-Zeile in `QUERBEZUEGE.md` (normen fuehrt Fundstelle/Ausgabe/Fassungsstand,
+  energie die angewandte Fachaussage) · SWKI-Tabelle in `normen/wiki/REGISTER.md` Abschnitt D mit
+  vier Zeilen, ohne Gueltigkeitsaussage fuer die nicht im Haus liegenden Volltexte · zwei Auftraege in
+  `normen/wiki/QUESTIONS.md` (VA 103-1 destillieren, Kaufentscheid VA 105-01) · Befund 3 des
+  Strukturentscheids entsprechend geschrumpft.
+- **[methodisch, notiert] Die Empfehlung stand erst nach der Bestandsmessung.** Die erste Fassung des
+  Berichts stellte die Frage als Grundsatzentscheid dar; drei Zahlen aus `training/norm-inventar.md`
+  (1 SWKI-PDF im Haus, 28 normrelevante Kern-Dateien von 322, bfu bereits gefuehrt) haben sie zur
+  Anwendungsfrage gemacht. **Vor einer Entscheidungsvorlage an Raphael gehoert die Bestandsmessung,
+  nicht danach** — sonst legt der Chef eine groessere Frage vor, als der Fall hergibt. Verwandt mit
+  der Lehre aus Run 20 (Vorlage nie gegen einen ueberholten Stand).
+
 ## 2026-07-30 — Run 21 (Workflow-Fan-out: 6 Lese-Agenten + 24 adversariale Verifikatoren; 19 BESTAETIGT / 5 WIDERLEGT)
 - **Verfahren:** zwei Workflows, 37 Agenten, ~6.02 Mio. Subagent-Token, 618 Tool-Calls, ~24 Min.
   Bericht: `outputs/2026-07-30_wissens-chef-run21.md`. **Korrekturen in 40 Dateien in 7 KBs plus drei

@@ -1,5 +1,35 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
+## 2026-07-31 (Entscheid Raphael, Wissens-Chef Run 21) — SWKI ist zugeordnet, ein Auftrag folgt daraus
+
+**Entscheid.** SWKI gehört in den Scope dieser KB, nach dem für SIA/VKF/VSS geltenden Zuschnitt:
+`normen` führt Fundstelle, Ausgabe und Fassungsstand, `energie` führt die angewandte Fachaussage
+(Lüftungs-/HLK-Physik) und verweist für die Ausgabe hierher. Keine Scope-Ausweitung, sondern die
+bestehende Regel auf einen weiteren Herausgeber; Präzedenz ist bfu (Run 38). Registerzeilen stehen in
+`wiki/REGISTER.md`, Abschnitt D. Führungsmatrix: `wissen/koordination/QUERBEZUEGE.md`.
+
+**Anlass, damit der Nutzen nachvollziehbar bleibt:** ohne Registerzeile wollte diese KB SWKI 99-3
+destillieren, obwohl die Richtlinie seit dem 1.8.2015 durch VA 105-01 ersetzt ist und `energie` das
+seit dem 25.07.2026 belegt hatte. Die Registerzeile ist billiger als der nächste Fehlaufwand.
+
+- [ ] **N-R21-1 (P2): SWKI VA 103-1 «Lüftungsanlagen für Parkhäuser» destillieren.** Das einzige
+  SWKI-Dokument im Haus (`PL - 02_Recht_Norm/06_Richtlinien/SWKI/`, Inventarzeile in
+  `training/norm-inventar.md` unverändert offen). Es ergänzt VKF-BRL 25-15 und ist unmittelbar
+  einschlägig für `wissen/planungsgrundlagen/wiki/recht-norm-tiefgarage-erschliessung`, das Run 21
+  gerade mit einem Fassungs-Vorbehalt versehen hat — die Parkhaus-Lüftung ist dort materiell geführt.
+  Beim Destillieren Ausgabe und Stand **am Deckblatt** erfassen (die Registerzeile trägt bisher
+  bewusst keine).
+- [ ] **N-R21-2 (P3, Kaufentscheid Raphael): VA 105-01:2015 Volltext.** Kap. 3-6 (Zahlenwerte) sind
+  kostenpflichtig und nicht im Bestand; Sachstand und Struktur liegen in `wissen/energie` destilliert
+  vor. Bis zum Kauf **keine** Gültigkeits- oder Zahlenaussage aus Sekundärquellen ins Register.
+
+**Was der offene PL-02-Strukturentscheid (Befund 3, Run 31) damit noch umfasst:** SWKI ist heraus,
+bfu war es bereits seit Run 38. Übrig bleibt die schmalere Frage, ob diese KB die restlichen
+Kern-Dateien des Ordners `06_Richtlinien` (GVZ 3, Suva 4, Suissetec 2, VSA 3) sowie PAVIDENSA 9 und
+`09_Sanitaereinrichtung` 15 **systematisch** abarbeitet oder nur bei konkretem Projektbedarf. Das
+Routing des Rests ist im Inventar bereits entschieden (Minergie/eco → `energie`, Teilungsplan STWEG →
+Skill `stockwerkeigentum`, Projektadmin → keine Norm).
+
 ## Run 39 (MacBook Pro, 30.07.2026) — Abdeckung von `lignum-4-1` gemessen statt geschätzt
 
 **Auftrag.** Raphael hat am 30.07. die weitere Runde freigegeben, nachdem Run 38 seine eigene
@@ -427,7 +457,8 @@ eintritt — kein Gesetz.
 
 **Befund 3 (offen, Strukturentscheid bei Raphael): das Inventar scannt aus PL-02 nur einen von elf
 Ordnern.** In den nie erfassten liegen rund 680 weitere PDFs. Der normrelevante Kern ist klein und
-benannt (BfU 9, GVZ 3, Suva 4, SWKI 1, Suissetec 2, VSA 3, PAVIDENSA 9, `09_Sanitaereinrichtung` 15,
+benannt (~~BfU 9~~ → erledigt Run 38, GVZ 3, Suva 4, ~~SWKI 1~~ → **zugeordnet, Entscheid Raphael
+31.07.2026, siehe Kopfeintrag**, Suissetec 2, VSA 3, PAVIDENSA 9, `09_Sanitaereinrichtung` 15,
 ~20 lose Merkblaetter); der Grossteil gehoert anderswohin (Minergie 79 und eco 55 → KB `energie`;
 Teilungsplan STWEG 71 → Skill `stockwerkeigentum`; Projektadmin AHB 79 → keine Norm; Raumpilot/Neufert
 → Entwurfsliteratur). Eine pauschale Aufnahme waere falsch, ein pauschales Ignorieren auch. Details in

@@ -1,3 +1,31 @@
+## 2026-07-31 (Entscheid Raphael, Wissens-Chef Run 21) — SWKI zugeordnet, Registerzeilen gesetzt
+
+- **[fuehrung] SWKI gehoert in den Scope dieser KB** — nach dem fuer SIA/VKF/VSS geltenden Zuschnitt:
+  diese KB fuehrt Fundstelle, Ausgabe und Fassungsstand, `energie` fuehrt die angewandte Fachaussage
+  (Lueftungs-/HLK-Physik) und verweist fuer die Ausgabe hierher. Keine Scope-Ausweitung, sondern die
+  bestehende Regel auf einen weiteren Herausgeber; Praezedenz ist bfu (Run 38). Der Entscheid war
+  noetig, weil die Zuordnungsluecke einen belegten Fehlaufwand erzeugt hat: ohne Registerzeile wollte
+  diese KB SWKI 99-3 destillieren, obwohl die Richtlinie seit dem 1.8.2015 ersetzt ist und `energie`
+  das seit dem 25.07.2026 belegt hatte.
+- **[register] `wiki/REGISTER.md`, Abschnitt D: SWKI-Tabelle mit vier Zeilen angelegt** — VA 103-1
+  (im Haus, noch nicht destilliert, Ausgabe bewusst leer, weil nicht am Original erfasst),
+  VA 105-01:2015 (Volltext nicht im Bestand; belegt ist «ersetzt SWKI 99-3 + Beiblatt 2004 per
+  1.8.2015» ueber Titelblatt/Vorwort mit H+ eFlash als Zweitquelle — belegt ist **abgeloest**, nicht
+  ein foermlicher Rueckzug), SWKI 99-3:2003 (abgeloest, nicht mehr destillieren), VA 106 und 2004-1
+  (bewusst **ohne** Ausgabe- oder Gueltigkeitsaussage, da in `energie` nur ueber Leseprobe und
+  Verkaufsseiten bekannt). Kein ✓ und kein ✗ fuer die nicht im Haus liegenden Volltexte — sonst
+  entstuende dieselbe ungedeckte Gueltigkeitsaussage, die die Verifikation in Run 20 am
+  SIA-2032-Fall verhindert hat.
+- **[auftrag] Zwei neue Punkte in `wiki/QUESTIONS.md`:** N-R21-1 (P2) SWKI VA 103-1 destillieren —
+  das einzige SWKI-Dokument im Haus, ergaenzt VKF-BRL 25-15 und ist unmittelbar einschlaegig fuer den
+  Tiefgaragen-Artikel in `planungsgrundlagen`, den Run 21 gerade mit einem Fassungs-Vorbehalt versehen
+  hat. N-R21-2 (P3) Kaufentscheid VA 105-01 Volltext, bis dahin keine Zahlenaussage aus Sekundaerquellen.
+- **[scope geschrumpft] Der offene PL-02-Strukturentscheid (Befund 3, Run 31) ist kleiner geworden:**
+  bfu war seit Run 38 heraus, SWKI ist es jetzt. Uebrig bleibt die Frage, ob die restlichen
+  Kern-Dateien (GVZ 3, Suva 4, Suissetec 2, VSA 3, PAVIDENSA 9, `09_Sanitaereinrichtung` 15)
+  systematisch oder nur bei Projektbedarf abgearbeitet werden.
+- Geaendert: `wiki/REGISTER.md`, `wiki/QUESTIONS.md`.
+
 ## 2026-07-30 (Run 39, MacBook Pro) — Abdeckung von `lignum-4-1` gemessen statt geschaetzt (Freigabe Raphael)
 
 - **[verifikation, 2 Befunde] `destillate/lignum-4-1-…-feuerwiderstand.md`, neunte Runde.** Raphael
