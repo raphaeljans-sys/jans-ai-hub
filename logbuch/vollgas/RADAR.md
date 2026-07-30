@@ -6,8 +6,11 @@
 > $50/Lauf). Der Radar ist wieder **TAKTGEBER, nicht mehr Schoner**: er haelt den Runner am Leben
 > und startet ihn nach jedem 5h-Reset/Login-Fix sofort neu. Ziel wieder: Wochenlimit ausschoepfen,
 > jedes 5h-Fenster maximal ausreizen (ein 5h-Fenster auf 100% ist ERFOLG, kein Fehler). Drosseln
-> nur auf erneute Anweisung Raphaels. Hinweis: die One-Time-Task token-drosselung-100810 (10.08.)
-> steht weiterhin und wuerde die Lern-Loops dann auf Sparbetrieb zuruecktakten — bei Bedarf anpassen.
+> nur auf erneute Anweisung Raphaels. ~~Hinweis: die One-Time-Task token-drosselung-100810 (10.08.)
+> steht weiterhin und wuerde die Lern-Loops dann auf Sparbetrieb zuruecktakten — bei Bedarf anpassen.~~
+> **[HINFAELLIG, 30.07.2026 06:57]** Diese Task existiert in der Registry nicht (mehr); es kommt am
+> 10.08. keine Drossel. Zweimal gegen `list_scheduled_tasks` geprueft (30.07. 03:57 und 06:57).
+> Der Regimeentscheid Raphaels darueber bleibt unveraendert gueltig.
 >
 > **REGIMEWECHSEL 14.07.2026 (Rule 260714 — DROSSELN) [HISTORISCH, aufgehoben 25.07.]:** Das Wochenlimit («Alle Modelle»)
 > ist bereits zu 81% ausgeschoepft, noch ~6 Tage bis Reset (Mo 11:59). Die maximale
@@ -27,6 +30,94 @@ Neueste Eintraege zuoberst.
 Legende: P1 = Blocker/groesster Hebel, P2 = starker Hebel, P3 = Feinschliff.
 Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt (Ziel im VOLLGAS-Regime) ·
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
+
+---
+## 2026-07-30 06:57 — [FREI] Der unzuordenbare Taktgeber existiert nicht: planungsgrundlagen Run 93 kam aus einer fremden Session, die sich eine eigene Loop-Run-Nummer gegeben hat — meine eigene 03:57-Bewertung war damit falsch und wird hier korrigiert
+
+**Selbstkontrolle:** letzter Eintrag 03:57, dieser Lauf 06:57. 3,0 h bei 3-h-Takt, kein
+verpasster Lauf. Naechster Lauf 09:57.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung antwortet «OK» (rc 0). Kein
+Login-Blocker, kein Wochenlimit, kein Mail-Anlass. Speicher MacBook 4,59 GB verfuegbar, Mini
+11,77 GB (`vm_stat` free+inactive+purgeable), Druckstufe je 1 — unauffaellig.
+
+**Liefer-Delta: positiv, nichts zum Ruecktakten.** Seit 03:57 zwei inhaltliche Lieferungen neben
+dem Selbstcommit-Rauschen: der Nachtschicht-Slot 05:30 hat `grobkosten` bearbeitet und die seit
+dem 29.07. offene Bring-Schuld aus dem Cross-KB-Befund eingeloest (Wueest/Lignum-Kostenstudie
+selbst gezogen, den bisher unbelegten Zuschlag «Minergie-P, Holz +5–15 %» in Bauweise und
+Ausbaustandard getrennt und kalibriert: unteres Preissegment ≈ Paritaet, oberes ≈ +13 %; rc 0,
+551 s, 4,03 USD), und `twin-fidelity-review` hat um 05:56 den Facetten-Widerspruch
+stimme/fachsignatur aufgeloest und die DNA neu kompiliert. Kein Loop erreicht auch nur einen Lauf
+ohne Delta; die Schwellen 3 und 5 sind nirgends beruehrt, entsprechend habe ich weder
+zurueckgetaktet noch deaktiviert.
+
+**P1 vom 03:57 — Wirkung nachgemessen, nicht nur behauptet.** Der eingebaute Ausschluss «KBs mit
+eigenem aktivem Taktgeber sind kein Ziel der Prioritaet 4» hat im ersten Slot danach gehalten:
+der 05:30-Lauf hat `baurecht` nicht mehr angefasst, sondern `grobkosten` gewaehlt — eine KB ohne
+eigenen Taktgeber, genau wie in der neuen Ausschlussliste vorgesehen. Raphaels woechentliche
+Baurecht-Drossel (naechster regulaerer Lauf Mo 03.08. 23:44) ist damit wieder intakt.
+
+**P1 — Korrektur meines eigenen letzten Eintrags: planungsgrundlagen hat gar nicht geliefert, eine
+fremde Session hat unter seinem Namen geliefert.** Ich hatte um 03:57 offen ausgewiesen, dass ich
+Run 93 (00:49) keinem Mechanismus zuordnen kann, und daraus gefolgert, der Loop lebe auf einer
+zweiten Achse weiter und duerfe darum nicht deaktiviert werden. Die Zuordnung ist jetzt
+abgeschlossen, und sie kehrt die Schlussfolgerung um. Belegt und ausgeschlossen sind alle vier
+denkbaren Taktgeber: kein Dispatch-Protokoll um 00:49 (juengste Nachbarn 23:18 und 23:30),
+kein Nachtschicht-Slot (die plist traegt genau 23/2/5/13 Uhr), kein Registry-Eintrag, kein
+crontab auf dem Mini («no crontab for raphaeljans»), und die vollstaendige Liste der geladenen
+Jobs beider Stationen enthaelt keinen plg-Job — Mini: synctask-runner, training-energie,
+git-auto-sync, nas-mount, speicher-waechter, transcript-rotation, station-status,
+claude-autoupdate, nachtschicht, wissens-trigger. Der `wissens-trigger` schliesslich, der als
+Ereignis-Taktgeber fuer genau diese KB zustaendig waere, hat um 06:30 auf beiden Stationen
+protokolliert: «planungsgrundlagen: unveraendert (n=3952) — kein Lauf». Er hat seit dem 27.07.
+nicht gefeuert.
+
+Was stattdessen geschah: die Arbeit entstand in der `wissens-chef`-Session (Scheduled Task 23:10),
+die zu diesem Zeitpunkt noch lief — ihr eigener Nachlauf-Commit steht 00:50, eine Minute nach dem
+Run-93-Commit, und ihr Run-20-Report fuehrt `planungsgrundlagen` ausdruecklich unter den neun
+betroffenen KBs (K61 KGSchV-Nachfolge, K62 Regenwasser, OEREB-Thema 130). Der Cross-KB-Lauf hat
+seine eigenen Befunde in der Ziel-KB abgearbeitet — fachlich richtig — und das Ergebnis dann als
+nummerierten «Training Run 93» der KB abgelegt, inklusive eines Zweitinstanz-Checks, der die
+Nummer 93 fuer frei erklaerte. Genau daran bin ich haengengeblieben: ein Report, der sich selbst
+als Loop-Lauf ausweist, wird von dieser Aufsicht als Loop-Lauf gezaehlt. **Folge fuer die
+Bewertung:** der planungsgrundlagen-Loop hat den 28. Nullbefund gemeldet und seither nichts mehr
+getan; er hat keinen Taktgeber und ist faktisch bereits stillgelegt. Meine 03:57-Formulierung «er
+hat gerade geliefert» war falsch. Die Umwidmung von grower zu maintainer (schlanker monatlicher
+Endpunkt-/Link-Check statt Quellen-Turnus) bleibt der richtige Vorschlag und bleibt Raphaels
+Entscheid — aber sie stuetzt sich nicht mehr auf einen lebenden Loop, sondern nur noch darauf,
+dass Endpunkte und zitierte URLs unabhaengig vom Dateibestand erodieren.
+
+**P2 — die Lehre daraus gehoert in die Messdisziplin, nicht nur in diesen Eintrag.** Ein
+Liefer-Delta ist nur dann dem Loop zuzurechnen, wenn ein Mechanismus belegt ist, der ihn gefeuert
+hat. Cross-KB-Laeufe (`wissens-chef`, Nachtschicht-Prioritaet 4) schreiben in fremde KBs und
+duerfen deren Run-Zaehler nicht weiterdrehen, sonst sieht eine erschoepfte KB von aussen lebendig
+aus. Die saubere Form waere ein Report ohne Loop-Run-Nummer, etwa
+`outputs/2026-07-30_cross-kb-wissens-chef-run20.md` in der Ziel-KB. Ich habe den bestehenden
+Report **nicht** umbenannt — Umbenennen im Wissens-Layer ist destruktiv und braucht Raphaels
+Freigabe (Rule `wissens-bibliothekar`).
+
+**P3 — der Mini-CLI-Blocker ist weg, dafuer haengt jetzt das MacBook.** Der am 00:57 eingebaute
+dritte Autoupdate-Zweig (npm-global im Homebrew-Prefix) hat sich im 05:15-Slot bewiesen: der Mini
+steht auf **2.1.220**, kommt also von 2.1.207 und ist aktuell. Neu faellt dafuer das MacBook mit
+**2.1.212** zurueck — kein Blocker, der Job `ch.jans.claude-autoupdate` ist dort geladen; ich
+beobachte, ob der naechste Slot aufschliesst. Die Journal-Messluecke hat sich verbessert:
+`260730-laeufe.jsonl` traegt jetzt **vier** Zeilen statt einer (zwei rc-Zeilen mit Kosten, zwei
+Ergebniszeilen), weiterhin nur aus den Mini-Dispatch-Laeufen; App-Tasks wie
+`twin-fidelity-review` schreiben nichts hinein, der Liefer-Delta muss dort weiter ueber Commits
+gemessen werden. Die beiden `Write(...)`-Allowlist-Regeln in `.claude/settings.json` werfen ihre
+Warnung unveraendert bei jedem Lauf — sie muessten `Edit(...)` heissen, was nur Raphael aendern
+kann. Der stale Banner-Hinweis auf `token-drosselung-100810` ist oben in dieser Datei als
+hinfaellig markiert (zweimal gegen die Registry geprueft); Raphaels Regimetext bleibt unangetastet.
+
+**Feuermechanismen: sauber.** `launchctl list | grep vollgas` auf beiden Stationen leer, beide
+plists tragen weiter `.disabled-260729` — der Endlos-Runner bleibt ausgebaut, ich habe ihn nicht
+angefasst. `ch.jans.training-normen` und `ch.jans.training-plg` sind auf dem Mini weiterhin nicht
+geladen. Der `wissens-trigger` laeuft auf beiden Stationen um 06:30, ist aber kein Doppelfeuer:
+er ueberspringt jede KB, deren Task auf der anderen Station lebt, und das MacBook meldet
+entsprechend «0 Lauf/Laeufe ausgeloest».
+
+**Kein Mail-Anlass:** Fenster frei, kein neuer P1-Blocker, der nur Raphael loesen kann, kein
+erschoepftes Wochenkontingent. Der P1 dieses Laufs war eine Korrektur meiner eigenen Bewertung.
 
 ---
 ## 2026-07-30 03:57 — [FREI] Die Nachtschicht hat baurecht gegen Raphaels woechentliche Drossel zusaetzlich gefeuert: ein zweiter Taktgeber auf einem bewusst gebremsten Loop, korrigiert und auf dem Mini nachgemessen
