@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.07.2026 07:25:34
+Stand: 30.07.2026 07:35:43
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:23)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:25)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 30.07.2026 07:25:34
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- fde465ea vollgas-fruehwarnung 30.07. 07:15: STILL, kein Kriterium erfuellt; Taktgeber-Befund vom 29.07. geheilt (Destillat via 23:30-Slot erreicht, +1 Artikel), Stueckkosten erstmals je Lauf messbar (3.81 USD/Artikel), Nebenbefund fehlender outputs-Report
+- b5855dfa nas-selfcommit: 2 Datei(en) 2026-07-30 07:30

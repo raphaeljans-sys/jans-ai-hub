@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.07.2026 07:26:45
+Stand: 30.07.2026 07:36:48
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.07.2026 07:26:45
 - keine
 
 ## Hub-Git-Stand (NAS)
-- fde465ea vollgas-fruehwarnung 30.07. 07:15: STILL, kein Kriterium erfuellt; Taktgeber-Befund vom 29.07. geheilt (Destillat via 23:30-Slot erreicht, +1 Artikel), Stueckkosten erstmals je Lauf messbar (3.81 USD/Artikel), Nebenbefund fehlender outputs-Report
+- b5855dfa nas-selfcommit: 2 Datei(en) 2026-07-30 07:30
