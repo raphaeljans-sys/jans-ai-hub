@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.07.2026 20:22:35
+Stand: 30.07.2026 20:42:43
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.07.2026 20:22:35
 - 12 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- ccbd94fa RADAR: stehender Entscheid Raphael 30.07. — Endlos-Runner bleibt ausgebaut, keine Wiederbelebung ohne ausdrueckliche Anweisung
+- c4d386a9 nas-selfcommit: 2 Datei(en) 2026-07-30 20:30
