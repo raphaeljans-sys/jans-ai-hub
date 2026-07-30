@@ -1,0 +1,3 @@
+App gebaut: /Users/raphaeljans/Applications/JANS Cockpit.app
+Start: Doppelklick in ~/Applications (oder ins Dock ziehen).
+Logik: webtools/cockpit/cockpit-oeffnen.sh (NAS-first, Mini-Server zuerst).
