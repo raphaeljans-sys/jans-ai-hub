@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.07.2026 02:32:16
+Stand: 30.07.2026 02:42:25
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 02:06)
+- Developer/jans/ai/hub  (letzte Aktivitaet 02:22)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 30.07.2026 02:32:16
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- f4251144 nas-selfcommit: 1 Datei(en) 2026-07-30 02:30
+- 13446616 Baurecht Buch-Run 70: Modell-D Re-Verifikation fahrzeugabstellplaetze-und-parkierung - Verdichtungs-Drift § 242 Abs. 2 PBG korrigiert (Interessen-Katalog gehoert zu § 245 Abs. 2 lit. a)
