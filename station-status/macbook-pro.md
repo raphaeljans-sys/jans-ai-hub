@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.07.2026 20:12:50
+Stand: 30.07.2026 20:22:58
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 20:12)
+- Developer/jans/ai/hub  (letzte Aktivitaet 20:15)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.07.2026 20:12:50
 - 6 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 9e560781 nas-selfcommit: 2 Datei(en) 2026-07-30 20:00
+- ccbd94fa RADAR: stehender Entscheid Raphael 30.07. — Endlos-Runner bleibt ausgebaut, keine Wiederbelebung ohne ausdrueckliche Anweisung
