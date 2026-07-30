@@ -130,3 +130,7 @@ synobsis-batch-nacht	task	prototyper	Erzeugt neues Wissen; KB saturiert, stillge
 # sondern wird bei Bedarf aufgerufen.
 hub-setup-konnektor	referenz	maintainer	Kanonische Setup-Daten + Verbindungscheck aller Stationen; wird bei Infrastrukturfragen konsultiert	aktiv	connectors/hub-setup.mjs
 arbeits-weiche	script	maintainer	Last-Verteilung schwerer Auftraege auf die Station mit optimaler RAM-Auslastung; Entscheid-Journal logbuch/arbeits-weiche/. Typ am 30.07.2026 von «task» auf «script» korrigiert — es gibt keinen Scheduled Task dieses Namens	aktiv	scripts/arbeits-weiche.sh
+rollen-bilanz	script	maintainer	Misst Bestand und Ertrag je Rolle; meldet die Aktualitaet der eigenen Datenquelle	aktiv	scripts/rollen-bilanz.sh
+nutzungs-radar	script	grower	Misst, welche Skills wirklich aufgerufen werden; liefert Kaltliste und Konsolidierungs-Kandidaten	aktiv	scripts/nutzungs-radar.sh
+schutzmechanik-selbsttest	script	maintainer	Prueft lauf-gate und speicher-waechter auf Freigabe- UND Abweisungspfad; haengt als Check im heartbeat	aktiv	scripts/schutzmechanik-selbsttest.sh
+vorgaenge-bilanz	script	grower	Misst Durchlaufzeit und Wartezeit aus logbuch/fristen.md (Leitgroesse ab 31.07.2026); erzeugt logbuch/vorgaenge/vorgaenge.tsv	aktiv	logbuch/vorgaenge

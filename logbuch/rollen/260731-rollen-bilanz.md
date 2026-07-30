@@ -48,11 +48,11 @@ Lesehilfe:
 | Rolle | Bausteine | davon Skills | davon Loops |
 |---|---|---|---|
 | builder | 19 | 19 | 0 |
-| grower | 6 | 4 | 2 |
-| maintainer | 31 | 12 | 17 |
+| grower | 8 | 4 | 2 |
+| maintainer | 33 | 12 | 17 |
 | prototyper | 21 | 9 | 12 |
 | sweeper | 9 | 4 | 5 |
-| **Total** | **86** | | |
+| **Total** | **90** | | |
 
 ## 3. Produktive Rechenzeit je Rolle
 
@@ -92,8 +92,8 @@ Verdächtig ist die Kombination: viele Läufe, wenig Stunden, Delta-Null-Meldung
 | normen-training-nacht | 28 | 1 | 8.2 | 2239 |
 | baurecht-buch-training | 32 | 0 | 5.8 | 1110 |
 | normen-training-mini | 33 | 0 | 5.1 | 2239 |
-| twin-fidelity-review | 33 | 1 | 5.0 | 832 |
-| twin-mail-training | 33 | 1 | 4.3 | 832 |
+| twin-fidelity-review | 33 | 1 | 5.0 | 834 |
+| twin-mail-training | 33 | 1 | 4.3 | 834 |
 | wettbewerbs-dna-training | 33 | 1 | 3.6 | 715 |
 | grobkosten-training | 43 | 3 | 2.9 | 199 |
 | spec-training | 22 | 1 | 2.6 | 306 |
