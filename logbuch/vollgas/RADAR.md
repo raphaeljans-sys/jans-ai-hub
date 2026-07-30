@@ -27,6 +27,13 @@ das WOCHENLIMIT des Max-Abos ausschoepfen, indem JEDES rollierende 5-Stunden-Fen
 ausgereizt wird. Diese Zielsetzung ist ab 14.07.2026 12:53 aufgehoben (siehe Banner).
 Neueste Eintraege zuoberst.
 
+> **STEHENDER ENTSCHEID 30.07.2026 (Raphael, wörtlich «nicht wieder beleben»):** Der
+> VOLLGAS-Endlos-Runner **bleibt ausgebaut** und wird nicht reaktiviert. Begründung aus der
+> Messung: die getakteten Scheduled Tasks und die Mac-Mini-Nachtschicht liefern den Ertrag
+> allein. Kein Radar-Lauf startet ihn, entfernt eine STOP-Datei oder lädt eine der beiden
+> `*.disabled-260729`-plists. Eine Wiederbelebung braucht eine neue, ausdrückliche Anweisung
+> Raphaels — Schweigen gilt nicht als Zustimmung.
+
 Legende: P1 = Blocker/groesster Hebel, P2 = starker Hebel, P3 = Feinschliff.
 Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt (Ziel im VOLLGAS-Regime) ·
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
