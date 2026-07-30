@@ -1345,7 +1345,7 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
 - **needs-verification — Kap. 13 Teil 2 (§§/Erlasse):** § 238 Abs. 3 PBG (Umgebung/Umschwung ohne
   Ausnützungswirkung, BEZ 2011 Nr. 6), § 239 Abs. 1/2 PBG (Regeln der Baukunde / Baumaterialien; Art. 229
   StGB, Art. 58 OR, BauPG, PrSG), § 240/§ 241 PBG (Verkehrssicherheit), **§ 16 StrAV Sichtbereiche 90/150/50 m**,
-  §§ 11/12 StrAV (Einfriedungen), Art. 6 SVG / Art. 95-99 SSV (Strassenreklamen), Art. 15 FrSV (Neobiota) —
+  §§ 11/12 StrAV (Einfriedungen) **[AUFGEHOBEN per 01.06.2020 — Nachfolgerin: Verkehrserschliessungsverordnung, RRB 17.04.2019, gleiche LS 700.4; Mauern/Einfriedigungen neu § 26, Pflanzen § 27, Kurven-Innenseite § 28, Sichtbereiche § 23. Belegt zhlex-Erlassseite LS 700.4 (Aufhebungsdatum 01.06.2020) + raw/260730_amtlich_zh_verkehrserschliessungsv.md. Das Buch (6. Aufl. 2019) und das Merkblatt der Gemeinde Thalwil zitieren noch die alte StrAV — Triage 30.07.2026]**, Art. 6 SVG / Art. 95-99 SSV (Strassenreklamen), Art. 15 FrSV (Neobiota) —
   sinngemäss nach Buch S. 858-891, am amtlichen Volltext gegenprüfen (Modell D). **§§ 239a-d (hindernisfrei)
   hier nur verwiesen → Buch S. 1269.**
 - **needs-verification — Kap. 16 Teil 3 (§§/Erlasse):** § 282/§ 284 PBG (Hochhaus > 25 m Gebäudehöhe, keine

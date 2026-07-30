@@ -23,7 +23,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Art. 15 FrSV), **Sonstige Beschaffenheit § 239** (Regeln der Baukunde § 239 Abs. 1 / Art. 229 StGB /
   Art. 58 OR, Baumaterialien § 239 Abs. 2 / BauPG / PrSG; §§ 239a-d hindernisfrei nur verwiesen → S. 1269),
   **Verkehrssicherheit §§ 240/241** (VSiV 722.15 / StrAV 700.4 / EV, Ausfahrten/Sichtbereiche **90/150/50 m**
-  § 16 StrAV, Einfriedungen §§ 11/12 StrAV, Ersatzzufahrt-Enteignung § 241), **Strassenreklamen** (Art. 6
+  § 16 StrAV, Einfriedungen §§ 11/12 StrAV **[AUFGEHOBEN per 01.06.2020 — Nachfolgerin: Verkehrserschliessungsverordnung, RRB 17.04.2019, gleiche LS 700.4; Mauern/Einfriedigungen neu § 26, Pflanzen § 27, Kurven-Innenseite § 28, Sichtbereiche § 23. Belegt zhlex-Erlassseite LS 700.4 (Aufhebungsdatum 01.06.2020) + raw/260730_amtlich_zh_verkehrserschliessungsv.md. Das Buch (6. Aufl. 2019) und das Merkblatt der Gemeinde Thalwil zitieren noch die alte StrAV — Triage 30.07.2026]**, Ersatzzufahrt-Enteignung § 241), **Strassenreklamen** (Art. 6
   SVG / Art. 95-99 SSV / § 100 Abs. 3 PBG). 17 Doppelseiten (Shot 434 = Dup 862/863). Status: `emerging`
   (§§ 242 Antennen / 248 Camping erst nach S. 891 → Folge-Shots offen). Speist [[raumplanung-und-gestaltung]].
 - [[13-fahrzeugabstellplaetze-spielflaechen-teil3]] — Kap. 13 Teil 3 / **Schluss** (S. 892-916): **Fahrzeug-

@@ -180,7 +180,7 @@ Instrumente, um Land für künftige öffentliche Werke/Erschliessungen freizuhal
 ## Rechtsgrundlagen & Verordnungsstand
 
 - Konkretisierung der Zugänglichkeit über die **Zugangsnormalien (ZN, § 237 Abs. 2 PBG)**, die
-  **Verkehrssicherheitsverordnung (VSiV)** und die **Strassenabstandsverordnung (StrAV)**.
+  **Verkehrssicherheitsverordnung (VSiV)** und die **Strassenabstandsverordnung (StrAV)**. **[AUFGEHOBEN per 01.06.2020 — Nachfolgerin: Verkehrserschliessungsverordnung, RRB 17.04.2019, gleiche LS 700.4; Mauern/Einfriedigungen neu § 26, Pflanzen § 27, Kurven-Innenseite § 28, Sichtbereiche § 23. Belegt zhlex-Erlassseite LS 700.4 (Aufhebungsdatum 01.06.2020) + raw/260730_amtlich_zh_verkehrserschliessungsv.md. Das Buch (6. Aufl. 2019) und das Merkblatt der Gemeinde Thalwil zitieren noch die alte StrAV — Triage 30.07.2026]**
 - Die zusammenführende **Erschliessungsverordnung (EV)** wird im Buch (Bd 2, S. 750) bereits als
   geltender Erlass zitiert: die Zugangskategorien stehen in **§ 11 Abs. 1 EV** (Standard) bzw.
   **§ 12 EV** (planerische Ermittlung), wobei der bisherige § 6 ZN ausdrücklich als Vorgänger
