@@ -1,0 +1,6 @@
+node   : /opt/homebrew/bin/node
+launchd: com.jans.cockpit-web geladen (KeepAlive, Port 8377)
+ERREICHBAR: http://localhost:8377
+ERREICHBAR: http://192.168.1.210:8377
+ERREICHBAR: http://100.120.219.12:8377
+Lesezeichen: Buero http://192.168.1.210:8377 · ueberall (Tailscale) http://100.120.219.12:8377
