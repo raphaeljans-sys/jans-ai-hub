@@ -4,7 +4,7 @@ herausgeber: "bfu – Beratungsstelle für Unfallverhütung, Postfach 8236, CH-3
 ausgabe: "Fachbroschüre 2.006.01 – 10.2010 (Oktober 2010, © bfu 2010), 8 Seiten"
 gelesen: "alle 8 Seiten (Textlayer via pdftotext, Tabellen und Zeichnungen zusaetzlich als 300-dpi-Rendering geprueft)"
 datenstand: "Oktober 2010 (bfu-Fachbroschuere 2.006.01 – 10.2010)"
-status: "speculative (Erstdestillat 260730 Run 38, noch nicht verifiziert)"
+status: "speculative (Erstdestillat 260730 Run 38; unabhaengige Refuter-Runde am selben Tag: BEANSTANDET mit 4 Befunden, alle formal — Drahtglas-Fundstelle S. 2 statt S. 4, fehlender TVG-Anwendungsfall bei ueblichen Fenstern, fehlende Liste weiterer bfu-Publikationen S. 8, nicht destillierter Absatz 'Eigenschaften von Glas' S. 2. Alle vier eingearbeitet bzw. als Vollstaendigkeits-Ausweis dokumentiert. BESTAETIGT vom Refuter: Publikationsnummer/Ausgabe/Herausgeber, die komplette Anwendungstabelle S. 5 zellenweise (4 Glasarten x 8 Situationen, keine Abweichung), alle Zahlenwerte (4/6/8 mm, 0,5 m2, 2,0 m, 60 cm, 650 Grad C), Glastypen-Absaetze S. 4/6, Halterung/Kanten/Vordaecher S. 7. Kein Nulldurchgang, daher speculative)"
 last_updated: 2026-07-30
 links: [[REGISTER]]
 ---
@@ -49,7 +49,9 @@ Schweizerischen Instituts für Glas am Bau (S. 2).
 - **Floatglas/Gussglas**: nur einsetzbar, wo unter normalen Bedingungen keine
   Verletzungs- oder Absturzgefahr besteht; bricht in grosse, scharfkantige,
   schwertartige Splitter; keine spezielle Kontrollmöglichkeit, Dicke ab 4 mm (S. 4).
-- **Drahtglas**: kein Sicherheitsglas im Sinn des Personenschutzes trotz Netzeinlage;
+- **Drahtglas**: kein Sicherheitsglas im Sinn des Personenschutzes trotz Netzeinlage (dieser
+  Satz steht auf **S. 2**, Spalte «Feuerpolizeiliche Aspekte», nicht auf S. 4 — Fundstellen-
+  Korrektur 260730 Run 38);
   in vertikalen Verglasungen nur über 2,0 m ab Boden (ausser in Sportstätten) einbaubar,
   als Türfüllung höchstens 0,5 m² Fläche; bei Dächern allseitig im Rahmen gehalten,
   kleine Spannweite < 60 cm, nicht begehbar/betretbar (S. 4).
@@ -66,7 +68,9 @@ Schweizerischen Instituts für Glas am Bau (S. 2).
   schriftliche Herstellerbestätigung mit Glastyp-Angabe (S. 4).
 - **Teilvorgespanntes Glas (TVG)**: geringere Abkühlung als ESG, bricht von Kante zu
   Kante ohne Splitterinseln; allein kein Sicherheitsglas; VSG aus 2 × TVG wird als
-  Absturzsicherung oder Dachverglasung bei punktförmigen Halterungen verwendet (S. 6).
+  Absturzsicherung oder Dachverglasung bei punktförmigen Halterungen verwendet (S. 6). TVG kann
+  ausserdem bei **üblichen Fenstern** eingesetzt werden, um Glasbruch durch starke
+  Temperatureinflüsse zu vermeiden (S. 6, ergänzt 260730 Run 38).
 - **Chemisch vorgespanntes Glas**: hohe Biegebruchfestigkeit/Temperaturwechsel-
   beständigkeit, allein kein Sicherheitsglas, zerbricht bei Überbelastung wie normales
   Glas, in Kombination mit VSG bei hoher Durchbiegung mit Splitterbindungs-Bedarf (S. 6).
@@ -182,6 +186,18 @@ mit konkreten Ziffern zu zitieren)
   fahren: statische Tragfähigkeit UND Gleitschutz wie Bodenbelag — Querverweis auf die
   bfu-Anforderungsliste Nr. 2.032 «Bodenbeläge» (separates Destillat, sofern in der KB
   vorhanden, sonst als offener Punkt vermerken).
+
+## Nicht destillierte Blöcke des Originals (Vollständigkeits-Ausweis, Refuter 260730 Run 38)
+
+- **S. 2, Absatz «Eigenschaften von Glas»** (Rohstoff, homogene und leicht zu reinigende
+  Oberfläche, Hygiene, Lichtdurchlässigkeit, Witterungsschutz, Wärme): bewusst nicht destilliert,
+  weil beschreibend und ohne Sicherheitsanforderung — hier als vorhanden ausgewiesen, damit die
+  Lücke nicht als Übersehen gilt.
+- **S. 8, Liste «Weitere Informationen»** — weitere bfu-Publikationen: 2.003 Geländer und
+  Brüstungen, 2.007 Treppen, 2.019 Bäderanlagen, 2.020 Sporthallen, 2.027 Bodenbeläge. Davon sind
+  2.003, 2.007 und 2.027 im Hub destilliert ([[bfu-gelaender-und-bruestungen]],
+  [[bfu-treppen]], [[bfu-bodenbelaege]]); **2.019 Bäderanlagen und 2.020 Sporthallen liegen nicht
+  im Bestand** und sind damit eine Bestandslücke.
 
 ## Offene Punkte
 

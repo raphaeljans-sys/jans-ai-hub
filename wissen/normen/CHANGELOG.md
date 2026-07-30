@@ -1,3 +1,88 @@
+## 2026-07-30 (Run 38, MacBook Pro) — Vorrang-Auftrag Lignatec Tab. 3 + Tab. 4, achte Runde `lignum-4-1`, BfU-Block neu destilliert
+
+- **[verifikation, 7 Kernbefunde] `destillate/lignum-lignatec-brandschutz.md`** — Vorrang-Auftrag
+  Raphaels vom 29.07. ausgefuehrt: die rechnerische Zellaufnahme (Median-RGB je Zellbox gegen die
+  je Tabelle EINZELN am Original gemessenen Legenden-Swatches) lief erstmals auf **Tab. 3 (S. 8-9)
+  und Tab. 4 (S. 12-13)**; bis dahin war sie nur auf Tab. 5 angewandt worden. Beide Tabellen
+  vollstaendig aufgenommen (je 10 Nutzungszeilen x 2 Konzeptzeilen x 7 Geschossgruppen x 2
+  Unterspalten), Spaltengruppen an der Kopfzeile selbst nachgezaehlt.
+  - **Kernbefund 1 — die drei Kreuztabellen fuehren DREI verschiedene Legenden**, und das Destillat
+    gab keine davon fuer Tab. 3/4 wieder. «Grau» heisst in Tab. 3 «Holzbauteile beidseitig nicht
+    brennbar verkleidet», in Tab. 4 differenziert nach hellgrau (nur fluchtwegseitig) und
+    dunkelgrau (beidseitig), in Tab. 5 dagegen «Anwendung von Holz nur unter bedingten Auflagen».
+    Da allein die Tab.-5-Bedeutung destilliert war, lud das Destillat zur Fehllesung ein. Alle drei
+    Legenden erfasst und gegeneinander abgegrenzt.
+  - **Kernbefund 2** — die zwei Grautoene in Tab. 4 sind die grafische Kodierung der
+    Schraegstrich-/Bindestrich-Notation. Damit ist die Run-32/33-Korrektur erstmals **methodisch
+    unabhaengig** bestaetigt (Farbe statt Zeichenerkennung), keine Regression.
+  - **Kernbefunde 3-7** — Beherbergungsbetriebe [a] in Tab. 3 und Tab. 4 («durchgehend» setzt die
+    erste Spalte falsch an); die Sprinkler-Werte fuer Wohnbauten MFH 5-6 Geschosse in Tab. 3
+    fehlten ganz; Tab. 3 und Tab. 4 decken die Spalten 5-6 und 7-8 fuer drei Nutzungszeilen gar
+    nicht ab (Tab. 5 dagegen schon); die Zeile Beherbergungsbetriebe [b] Hotels fehlte in den
+    Tab.-3-Eckwerten vollstaendig. Dazu 4 Nebenbefunde. Alle am eigenen 300-dpi-Rendering
+    (Praefix `lignatec-r8-`) im Ausschnitt gelesen, bevor sie uebernommen wurden.
+  - **Endbedingung des Vorrang-Auftrags NICHT erfuellt**: die Quelle ist nicht ausgereizt, die
+    Umstellung des Tasks auf Ereignis-Trigger wird ausdruecklich nicht vorgeschlagen. Noch nicht
+    rechnerisch aufgenommen: die acht Uebersichtsaxonometrien (S. 16-23) und Tabelle 2 (S. 4-5).
+- **[verifikation, 1 inhaltlicher Befund] `destillate/lignum-4-1-…-feuerwiderstand.md`** — achte
+  Runde mit **umgekehrter Fragerichtung**: statt zu pruefen, ob stimmt, was das Destillat
+  behauptet, wurde die Abdeckung gemessen (40 A3-Blaetter gerendert, per OCR alle Tabellen-/
+  Abbildungsnummern extrahiert, gegen die 66 zitierten gediffed). Fuenf Nummern fehlten; eine
+  deckte einen echten Inhaltsverlust auf: **in Kap. 5.2.5 (S. 63) fehlte der ganze Absatz zur
+  Durchfuehrung von Installationen durch brandabschnittsbildende Bauteile RF1** — Bauteilleibungen
+  gemaess Kap. 5.2.4, Durchbrueche und Leitungsdurchfuehrungen feuerwiderstandsfaehig
+  verschliessen. Das ist eine Abschottungspflicht, also ausfuehrungsrelevant. Ergaenzt, dazu drei
+  Fundstellen (Abb. 340-1, 524-1, 525-1). **Ausgewiesene Grenze:** die OCR fand nur 34 Nummern —
+  der Diff ist eine untere Schranke, kein Vollstaendigkeitsnachweis.
+- **[methodik] `training/PROGRAMM.md`: Methodik-Pflicht 6 neu.** Eine Runde, die nur prueft, was
+  das Destillat behauptet, kann grundsaetzlich nicht finden, was fehlt. Beide Fragerichtungen sind
+  zu fahren, und im Report ist auszuweisen, welche gelaufen ist. Zwei konkrete Verfahren
+  hinterlegt (rechnerische Tabellenaufnahme mit tabellenweise gemessener Legende; OCR-Abdeckungs-
+  diff mit Ausweis der OCR-Ausbeute als untere Schranke). Die Run-36-Lehre bestaetigt sich damit
+  zum dritten Mal.
+- **[neu, Grundarbeit] BfU-Block aus dem PL-02 Kern-Nachtrag destilliert** —
+  `PL - 02_Recht_Norm/06_Richtlinien/BfU/`, 9 Dateien zu 7 Destillaten, je mit unabhaengigem
+  Refuter. Fassungsstand in jedem Fall am Dokument selbst belegt, nie aus dem Dateinamen. Dabei
+  geklaert: «Anforderunegn Bodenbelaege» und «Bodenbelaege» sind **kein Fassungspaar**, sondern
+  zwei verschiedene Publikationen (bfu 2.032 Anforderungsliste 2012 und bfu 2.027 Bodenbelaege
+  2011); «Gelaender und Bruestungen» dagegen schon (07.2012 und 01.2019, letztere geltend).
+- **[befund, cross-kontamination] Refuter fand einen Fehlertyp, der bei Parallel-Destillation
+  entsteht:** im Destillat `bfu-sicherheit-rechtliche-aspekte.md` war die PrHG-Fehlerdefinition mit
+  dem Wort «berechtigterweise» wiedergegeben, das in diesem Dokument nicht steht — es stammt aus
+  der gleichzeitig destillierten Schwester-Broschuere «Glas in der Architektur». Vom Hauptprozess
+  an BEIDEN Originalen nachgeprueft und bestaetigt: die zwei bfu-Publikationen formulieren
+  tatsaechlich unterschiedlich. Korrigiert.
+- **[register] `wiki/REGISTER.md` Abschnitt D:** die bfu-Familie aufgenommen, mit Publikations-
+  nummern, Ausgaben und Bestandsstatus. Festgehalten, dass bfu-Broschueren **keine Normen**, sondern
+  Auslegungshilfen sind (verbindlich bleibt die Norm, i.d.R. SIA 358), sowie ein **Zitier-Vorbehalt**
+  fuer die zwei aeltesten Broschueren (2.006.01 von 2010, 2.007.01 von 2009) — ob die bfu inzwischen
+  neuere Fassungen publiziert hat, ist nicht geprueft; im Haus liegen nur diese.
+- **[frontmatter] Systematischer Erfassungsfehler im Batch behoben:** vier der neuen Destillate
+  trugen in `gelesen` und `datenstand` das heutige Datum statt der gelesenen Seiten bzw. des
+  Dokumentstands. Zentral korrigiert.
+- **[werkzeug] En-Dash-Falle dokumentiert:** `pdftoppm` scheitert am En-Dash im Pfad der
+  OneDrive-Bibliothek mit «No such file or directory», obwohl `ls` und `pdfinfo` denselben String
+  akzeptieren. Loesung: Symlink ohne Sonderzeichen (Muster aus Rule `osascript-apple-apps`).
+
+## 2026-07-30 (Run 38) — Neues Destillat bfu «Geländer und Brüstungen» (Fassungsvergleich 2012/2019)
+- **Neu:** `destillate/bfu-gelaender-und-bruestungen.md` — bfu-Fachbroschüre 2.003.01, Anwendungshilfe
+  zur Norm SIA 358:2010. Zwei Fassungen im Bestand (`PL - 02_Recht_Norm/06_Richtlinien/BfU/`)
+  vollstaendig gelesen und verglichen: aeltere Fassung 07.2012 (8 S.) und juengere, geltende Fassung
+  01.2019 (12 S.). Fassungsstand am Dokument selbst verifiziert (Impressumszeile + PDF-Metadaten),
+  nicht aus dem Dateinamen abgeleitet.
+- **Wesentliche inhaltliche Deltas 2012→2019** (Details samt Fundstellen im Destillat): neue 40-cm-
+  Schwelle fuer Absturzsicherungen im urbanen Strassenraum (SN 640075/SN640568); neue quantifizierte
+  Erhoehungspflicht der Schutzelement-Hoehe bei grossen Absturzhoehen (+10cm ab ~12m, +20cm bei
+  Hochhaeusern); neue Lastannahmen-Tabelle (0,8/1,6/3,0 kN/m nach Nutzung); ausfuehrliche SIA-500-
+  Anforderungen (Durchblick, Tastbarkeit, Handlauf 85–90cm); Praezisierung Bestandesschutz (entfaellt
+  bei bewilligungspflichtiger Sanierung, kein Dauerprivileg «mängelfrei»); die v1-Ausnahme «feste
+  Bruestung ab 20cm Dicke → 90cm Mindesthoehe» fehlt in v2; die gestaffelte 1–3cm-Spaltregel fuer
+  horizontale Traversen (v1) wurde durch eine Pauschalregel (max. 2cm) ersetzt.
+- 3 Seiten stichprobenartig mit 300dpi gerendert (v1 S.3+4, v2 S.7), um in Vektorgrafiken eingebettete
+  Mass-Beschriftungen gegen den Textlayer zu pruefen — keine Abweichung gefunden.
+- Status **speculative** (Erstdestillat, noch nicht durch eine zweite Runde verifiziert).
+  Geaendert: `destillate/bfu-gelaender-und-bruestungen.md` (neu), `destillate/INDEX.md` (Zeile ergaenzt).
+
 ## 2026-07-29 (Wissens-Chef Run 20, Cross-KB) — SIA 2032 Fassungsflag, zwei Bring-Schulden aufgenommen
 - **[fassungsstand, mit abgewehrter Fehlkorrektur] SIA 2032 stand im REGISTER als Ausgabe 2010
   «gueltig» ohne Flag, waehrend `energie` seit dem 26.06. durchgaengig SIA 2032:2020 zitiert.** Die

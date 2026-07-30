@@ -4,7 +4,7 @@ herausgeber: "bfu – Beratungsstelle für Unfallverhütung, Postfach 8236, CH-3
 ausgabe: "Kurzinfo 2.075.01 – 02.2011 (Februar 2011), 2 Seiten, Autorin Lisabeth Müller"
 gelesen: "beide Seiten (Textlayer via pdftotext, S. 1 zusaetzlich als Rendering geprueft)"
 datenstand: "Februar 2011 (bfu-Kurzinfo 2.075.01 – 02.2011)"
-status: "speculative (Erstdestillat 260730 Run 38, noch nicht verifiziert)"
+status: "speculative (Erstdestillat 260730 Run 38; unabhaengige Refuter-Runde am selben Tag: BEANSTANDET mit 2 Befunden. (1) INHALTLICH: die PrHG-Fehlerdefinition war mit dem Wort 'berechtigterweise' wiedergegeben, das in diesem Dokument NICHT steht — es stammt aus der Schwester-Broschuere 'Glas in der Architektur' (S. 2). Cross-Kontamination zwischen zwei gleichzeitig destillierten Quellen; vom Hauptprozess an BEIDEN Originalen nachgeprueft und bestaetigt: die zwei bfu-Publikationen formulieren die Definition tatsaechlich unterschiedlich. Korrigiert. (2) formal: eine nicht am Dokument belegte Selbstbeschreibung stand unmarkiert neben belegten Saetzen, jetzt als Einordnung des Destillats gekennzeichnet. BESTAETIGT vom Refuter: Publikationsnummer 2.075.01 – 02.2011, Autorin, 2 Seiten, Art. 363 OR, Art. 58 OR inkl. Werk-Definition und sensiblem Benutzerkreis, Art. 229 StGB, die vier Haftungsvoraussetzungen inkl. korrekter Verteilung auf S. 1/S. 2, sowie dass das Original tatsaechlich keine SR-Nummern nennt. Kein Nulldurchgang, daher speculative)"
 last_updated: 2026-07-30
 links: [[REGISTER]]
 ---
@@ -25,8 +25,9 @@ Art. 229 StGB bei Missachtung der anerkannten Regeln der Baukunde (S. 2).
 
 Zweiseitige bfu-Kurzinfo, die die rechtlichen Grundprinzipien der Bausicherheit
 (Sorgfaltspflicht, Haftpflicht, Normbezug) für Planende, Juristen und Behörden knapp
-zusammenfasst (S. 1). Kein Ersatz für eine Rechtsberatung im Einzelfall, sondern
-Orientierungshilfe zur Einordnung von Sorgfaltsregeln in der Baupraxis.
+zusammenfasst (S. 1). *(Einordnung des Destillats, nicht des Dokuments: die Kurzinfo ist
+Orientierungshilfe zur Einordnung von Sorgfaltsregeln in der Baupraxis; eine entsprechende
+Selbstbeschreibung enthält das Original nicht — Refuter-Korrektur 260730 Run 38.)*
 
 ## Kernanforderungen (mit Fundstelle)
 
@@ -89,8 +90,12 @@ Materialverwendung) — Art. 363 des Schweizerischen Obligationenrechts (OR) (S.
   unterschiedlichen Rechtsgut verursacht (S. 2).
 - Als Produkte gelten alle beweglichen Sachen (Bauteile), auch wenn sie Teil einer
   anderen beweglichen Sache oder eines Gebäudes bilden (S. 2).
-- Ein Produkt ist fehlerhaft, wenn es nicht die Sicherheit bietet, die unter
-  Berücksichtigung aller Umstände berechtigterweise erwartet werden kann (S. 2).
+- Ein Produkt ist fehlerhaft, wenn es nicht die Sicherheit bietet, die man unter
+  Berücksichtigung aller Umstände erwarten kann (S. 2). ACHTUNG Wortlaut: **ohne**
+  «berechtigterweise» — dieses Wort stand in einer Vorfassung des Destillats und stammt aus der
+  PrHG-Passage der Schwester-Broschüre «Glas in der Architektur» (dort S. 2). Vom Hauptprozess an
+  beiden Originalen nachgeprüft (Refuter-Korrektur 260730 Run 38); die beiden bfu-Publikationen
+  formulieren die PrHG-Fehlerdefinition tatsächlich unterschiedlich.
 - Auch im Rahmen der Produktehaftpflicht kommen Sicherheitsnormen zur Anwendung: Sie
   helfen, das einwandfreie Produkt zu definieren, und geben dem Hersteller Hinweise auf
   dessen Sicherheitsanforderungen (S. 2).

@@ -361,6 +361,30 @@ Altverträge mit Vermerk. Im `training/norm-inventar.md` in der Bemerkung markie
   inkl. Änderungen 2016/2017). Aktuellere BSV (Revision) nur auf Zuruf beschaffen — offene Frage.
 - **DIN / VSS / RAL:** deutsche/schweiz. Regelwerke ohne SIA-Rückzugsregister; Gültigkeit je
   Dokument beim Destillieren aus dem Deckblatt erfassen. DIN-PDFs ggf. FileOpen-DRM (dann «DRM, manuell»).
+- **bfu (Beratungsstelle für Unfallverhütung, Bern):** Fachbroschüren/Fachdokumentationen mit
+  eigener Publikationsnummer im Schema `<Nr> – <MM.JJJJ>` im Impressum; kein Rückzugsregister,
+  die Fassung steht am Dokument. Aufgenommen Run 38 (30.07.2026) aus
+  `PL - 02_Recht_Norm/06_Richtlinien/BfU/`. Diese Publikationen sind **keine Normen**, sondern
+  Auslegungs-/Praxishilfen: sie geben durchgehend die Norm SIA 358 (Geländer/Brüstungen) sowie
+  SIA 500, DIN 51130/51097 und VSS SN 640 238 wieder. **Verbindlich ist im Streitfall die Norm,
+  nicht die bfu-Broschüre** — die Broschüre ist Auslegungshilfe und Beleg für die «anerkannten
+  Regeln der Baukunde».
+
+| bfu-Publikation | Nr. | Ausgabe | Bestand | Bemerkung |
+|---|---|---|---|---|
+| Geländer und Brüstungen | 2.003.01 | **01.2019** (geltend) | ✓ beide | ersetzt die Fassung 07.2012, die ebenfalls im Haus liegt; die 2019er ergänzt quantifizierte Werte, die 2012 fehlten |
+| Türen und Tore | 2.005-01 | 12.2012 | ✓ | Klemmstellen, kraftbetätigte Tore |
+| Glas in der Architektur | 2.006.01 | 10.2010 | ✓ | älteste der Reihe — bei Verwendung auf eine neuere bfu-Fassung prüfen (nicht im Haus) |
+| Treppen | 2.007.01 | 11.2009 | ✓ | älteste der Reihe — dito |
+| Bodenbeläge | 2.027 | 2011 | ✓ | Materialkunde, Ausführung, Sanierung, Reinigung |
+| Anforderungsliste Bodenbeläge (Gleitfestigkeit) | 2.032 | 2012 | ✓ | praxisführend für Bewertungsgruppe je Raum; zitiert 2.027 als Grundlage |
+| Sicherheit im Wohnungsbau | (siehe Destillat) | (siehe Destillat) | ✓ | bauteilbezogener Anforderungskatalog |
+| Sicherheit, rechtliche Aspekte | 2.075.01 | 02.2011 | ✓ | Kurzinfo, 2 S.; Werkeigentümerhaftung Art. 58 OR, Art. 229 StGB |
+
+⚠ **Zitier-Vorbehalt:** Für 2.006.01 (2010) und 2.007.01 (2009) ist nicht geprüft, ob die bfu
+inzwischen neuere Fassungen publiziert hat — im Haus liegen nur diese. Vor einer Verwendung in
+einem laufenden Projekt ist der aktuelle Stand auf bfu.ch abzugleichen (gleiche Logik wie die
+2013-Blindzone bei SIA, siehe oben).
 
 ---
 *Aufgebaut im Nacht-Loop `normen-training-nacht`, Run 1 (Sonderprogramm), 11.07.2026.

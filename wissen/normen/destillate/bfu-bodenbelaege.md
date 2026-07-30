@@ -7,7 +7,7 @@ ausgabe:
   - "bfu-Fachdokumentation 2.032 «Anforderungsliste Bodenbeläge – Leitfaden: Anforderungen an die Gleitfestigkeit in öffentlichen und privaten Bereichen mit Rutschgefahr», Autor Markus Buchser, Bern 2012, 30 S., ISBN 978-3-908192-58-9 (Print) / 978-3-908192-59-6 (PDF)"
   - "bfu-Fachdokumentation 2.027 «Bodenbeläge – Tipps zu Planung, Bau und Unterhalt von sicheren Bodenbelägen», Autor Markus Buchser, Bern 2011, 68 S."
 gelesen: "beide PDFs sind Bild-Scans ohne Textlayer; vollständig als PNG gerendert (200 dpi Durchgang, 300 dpi für Tabellen/Impressum) und visuell gelesen: 2.032 durchgehend S. 1–26 (Titel, Impressum, Inhalt, Kap. I–IX); 2.027 Titel/Impressum/Inhalt sowie Kap. III.5 (Messmethoden/Tabellen 1–2, S. 18–19), Kap. IV (Mindestanforderungen R 9729, Tabellen 3–4, S. 22), Kap. V (Gleitfestigkeit/Verdrängungsraum, Tabelle 5, S. 23), Kap. VII (Planung/Ausführung: Fugen, Gefälle, Treppen/Rampen, Laubengänge, S. 40–42) im Detail geprüft; übrige Kapitel von 2.027 (Unfallstatistik, Belagsmaterial-Eigenschaften Kap. VI, Sanierung Kap. VIII, Reinigung Kap. IX) nur über das Inhaltsverzeichnis erfasst, nicht Volltext-gelesen"
-datenstand: 2026-07-30
+datenstand: "2012 (bfu-Fachdokumentation 2.032) bzw. 2011 (bfu-Fachdokumentation 2.027)"
 status: "speculative (Erstdestillat 260730 Run 38, noch nicht verifiziert)"
 last_updated: 2026-07-30
 links: [[REGISTER]]

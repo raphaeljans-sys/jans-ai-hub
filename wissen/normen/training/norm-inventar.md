@@ -1,5 +1,36 @@
 # Norm-Inventar — Arbeitsliste des Nacht-Loops `normen-training-nacht`
 
+- **Run 38 (MacBook Pro, 260730) — Vorrang-Auftrag Raphaels ausgefuehrt (Lignatec Tab. 3 + Tab. 4
+  rechnerisch aufgenommen, 7 Kernbefunde), achte Runde `lignum-4-1` mit neuer Methode, und Beginn
+  der regulaeren Grundarbeit am PL-02-Kern-Nachtrag: der BfU-Block destilliert.**
+  - **Vorrang-Auftrag erfuellt, Endbedingung aber NICHT erreicht.** Die rechnerische Zellaufnahme
+    (Median-RGB je Zellbox gegen die je Tabelle einzeln am Original gemessenen Legenden-Swatches)
+    lief erstmals auf Tab. 3 und Tab. 4 und erzeugte 7 Kernbefunde + 4 Nebenbefunde. Der schwerste:
+    **die drei Kreuztabellen fuehren drei verschiedene Legenden**, und «grau» heisst in Tab. 3/4
+    «nicht brennbar verkleidet», in Tab. 5 dagegen «nur unter bedingten Auflagen» — das Destillat
+    kannte nur die Tab.-5-Bedeutung. Die Quelle ist damit NICHT ausgereizt; die Umstellung des
+    Tasks auf Ereignis-Trigger wird ausdruecklich nicht vorgeschlagen.
+  - **Nebenprodukt mit eigenem Wert:** die zwei Grautoene in Tab. 4 sind die Farbkodierung der
+    Schraegstrich-/Bindestrich-Notation. Damit ist die Run-32/33-Korrektur erstmals methodisch
+    unabhaengig bestaetigt (Farbe statt Zeichenerkennung), ohne Regression.
+  - **`lignum-4-1`, achte Runde mit umgekehrter Fragerichtung** (Abdeckung messen statt
+    Behauptungen pruefen): 1 inhaltlicher Befund — in Kap. 5.2.5 fehlte der ganze Absatz zur
+    Abschottung von Installationsdurchfuehrungen durch brandabschnittsbildende Bauteile RF1 — plus
+    3 Fundstellen-Ergaenzungen. Raphaels Entscheid «stabil, keine Routinerunden mehr» ist damit neu
+    vorzulegen (`wiki/QUESTIONS.md`, Run-38-Eintrag Punkt 2).
+  - **Methodik-Pflicht 6 neu in `PROGRAMM.md`:** eine Runde, die nur prueft, was das Destillat
+    behauptet, kann grundsaetzlich nicht finden, was fehlt. Beide Fragerichtungen fahren und im
+    Report ausweisen, welche gelaufen ist.
+  - **Regulaerer Lauf — BfU-Block (PL-02 Kern-Nachtrag) destilliert**, 7 Destillate aus 9 Dateien,
+    je mit unabhaengigem Refuter. Neu im REGISTER Abschnitt D: die bfu-Familie mit Publikations-
+    nummern und Fassungen, samt Zitier-Vorbehalt fuer die zwei aeltesten Broschueren.
+  - **Werkzeug-Fallstrick dokumentiert:** `pdftoppm` scheitert am En-Dash im OneDrive-Bibliotheks-
+    pfad, obwohl `ls` und `pdfinfo` denselben String akzeptieren. Symlink ohne Sonderzeichen
+    anlegen (Muster aus Rule `osascript-apple-apps`).
+  - **Anmeldung wieder gueltig** — der 401, an dem in Run 37 alle Agenten scheiterten, trat nicht
+    mehr auf.
+  Report `outputs/2026-07-30_normen-nacht-run38.md`.
+
 - **Run 37 (MacBook Pro, 260729) — REGISTER-Stichprobe: die 2013-Blindzone beziffert und fuenf
   belegte Register-Fehler behoben. 9 Verifikations-Agenten am Titelblatt des Originals.**
   Kein neues Grunddestillat, keine Destillat-Inhalte geaendert (alle neun geprueften Destillate
