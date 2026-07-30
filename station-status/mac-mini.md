@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.07.2026 23:44:02
+Stand: 30.07.2026 23:54:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:35)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:46)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.07.2026 23:44:02
 - 12 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- b024733d Normen Run 39: Abdeckung von lignum-4-1 gemessen statt geschaetzt (Freigabe Raphael) — vollstaendige Seiten-Inventur aller 40 A3-Blaetter, Seiten 2-80 lueckenlos, 72 Nummern in der Quelle / 71 zitiert / 0 erfundene Fundstellen; die eine Luecke (Abb. 435-3) deckte einen fehlenden von vier Nachweis-Wegen auf (Verweis auf lignum-4.2, dort established); Inventur als training/l41-seiteninventur.md abgelegt; Methodik-Pflicht 6 erweitert
+- 337c1b9a spec Trainingslauf 38 (Auswertungslauf): neunte reale Spec = erste maschinen-gerichtete (Korpus bauprodukte); Kriterien-Konformitaet erstmals zaehlbar 8/8, aber Lehrsatz 'ein Kriterienkatalog ist keine Pruefinstanz' (Kabinenmass-Korrektur kam vom zweiten Loop); fuenfter Alterungsmodus 'maschinelle Selbst-Ueberholung' (Spec binnen 3 h veraltet) -> Regel keine Zaehlstaende im bindenden Teil, F-ENV1 zweitbelegt; Gate unveraendert, keine Rule-Aenderung; Registry-Diskrepanz vierter Beleg an Raphael geflaggt
