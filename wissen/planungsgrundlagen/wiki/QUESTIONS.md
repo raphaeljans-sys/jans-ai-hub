@@ -721,61 +721,14 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   Behoben in [[brandschutz-pl03-wegweiser]] §4c, historisches Zitat bleibt im Wortlaut stehen.
   Alle übrigen PL-03-Adressen (`bsvonline.ch` inkl. Unterseiten `de/aktuell`,
   `de/brandschutzvorschriften/projekt-bsv-2026`, `praever.ch`, `vkg.ch`) antworten mit 200.
-- [ ] **C44 (Wettbewerbs-Scan Grassenbiwak, 2026-07-28)** **Batteriespeicher als Brandschutzthema —
-  wie ist ein Lithium-Ionen-Hausspeicher nach BSV 2015 zu behandeln, und was aendert BSV 2026?**
-  Ausloeser: Wettbewerbsprogramm 2408 verlangt einen eigenen Raum «Batterie/Elektro» (2 m²), die
-  Fragebeantwortung Nr. 78 laesst ausdruecklich andere Typen als Bleibatterien zu (Li-Ion braucht
-  keine mechanische Lueftung). Die KB kennt Batteriespeicher bisher nur **energetisch**
-  ([[energie-betriebsenergie-pv-wirtschaftlichkeit]]) und in der Tiefgaragen-Nebenbemerkung
-  ([[recht-norm-tiefgarage-erschliessung]] «Ladegase nur bei Blei-/NiCd, nicht bei Lithium»). Die
-  BSV 2015 kennt keinen eigenen Speicher-Teil; laut `wissen/energie/CHANGELOG` erhaelt BSV 2026
-  voraussichtlich einen. Offen: eigener Brandabschnitt ja/nein, Lueftung, Abstand zu Aufenthalts-
-  und Schlafraeumen, Loeschmittel. Zu pruefen: VKF-Merkblaetter/Infoblatt Lithium-Ionen (Backlog aus
-  Blitzschutz-Lauf), SNR 464022, kantonale Merkblaetter. **Hoch relevant**, weil netzferne
-  JANS-Bauten (Huetten, Biwaks) den Speicher zwingend im Gebaeude haben.
-- [ ] **C43 (Wettbewerbs-Scan Grassenbiwak, 2026-07-28)** **Wer vollzieht den Brandschutz bei einem
-  Bauwerk auf einer Kantonsgrenze — und wie unterscheiden sich OW und BE?** Der Perimeter 2408 liegt
-  auf der Grenze Obwalden/Bern. VKF-Vorschriften gelten schweizweit, der Vollzug ist kantonal (Kt. OW:
-  Abteilung Technische Inspektorate; Kt. BE: Gebaeudeversicherung Bern GVB). Die KB dokumentiert die
-  Vollzugslandschaft bisher nur fuer ZH/SZ. Offen: Zustaendigkeitsregel bei Grenzlage, kantonale
-  Zusatzvorschriften und Bewilligungswege OW/BE, Verhaeltnis zur Baubewilligung ausserhalb Bauzone
-  (Art. 24 RPG). Auch generisch relevant fuer JANS-Projekte ausserhalb ZH.
-- [ ] **C42 (Wettbewerbs-Scan Grassenbiwak, 2026-07-28)** **Personensicherheit ohne abwehrenden
-  Brandschutz — welches Konzept traegt, wenn Feuerwehr, Loeschwasser und Alarmierung fehlen?** Die
-  vier kumulativen Bedingungen der Kategorie [c] (Begriffs-Richtlinie 10-15de, Anhang) beschreiben
-  genau diesen Zustand: keine rechtzeitige Intervention, keine genuegende Loeschwasserversorgung,
-  keine dauernde Stromversorgung (PV und Notstrom gelten ausdruecklich als ungenuegend). Die KB
-  dokumentiert die **Definition**, aber keine **Methode**: welche baulichen und organisatorischen
-  Ersatzmassnahmen die Behoerden in solchen Faellen verlangen bzw. akzeptieren (Selbstrettungs-
-  Konzept, Handfeuerloescher-Bemessung ohne Loeschwasser, Rauchwarnmelder-Vernetzung, Fluchtwege
-  direkt ins Freie, Materialisierung). Zu pruefen: BSR 18-15 Loescheinrichtungen, VKF-Arbeitshilfe
-  1000-15 (Gebaeude geringer Abmessungen), Praxis der Gebirgskantone. Direkt anwendbar auf jedes
-  JANS-Projekt in Streulage.
-- [ ] **C41 (Wettbewerbs-Scan Grassenbiwak, 2026-07-28)** **Offene Treppe und Raum-ueber-Raum in
-  Kleinstbauten — wo genau liegt die Grenze?** Im Fall 2408 hat der Brandschutzplaner zwei Punkte
-  markiert, die die KB nicht aufloest: (a) «Ist eine offene Gestaltung moeglich?» fuer die Verbindung
-  Aufenthalt (EG) zu Schlafraum (OG), (b) «Achtung Aussentreppe hat Anforderungen». Zu (b) liegt die
-  Fundstelle vor (BSR 16-15de Ziff. 2.5.2 + Anhang S. 18, Aussenwand EI 30 bzw. RF1, reduzierbar ab
-  1.2 m Abstand — Destillat `vkf-brl-16-15-flucht-rettungswege`), zu (a) nicht: unter welchen
-  Bedingungen darf die vertikale Verbindung innerhalb einer Nutzungseinheit offen bleiben, wenn
-  darueber geschlafen wird?
-  **TEILWEISE ERLEDIGT am 28.07.2026 (Wissens-Chef Run 19, am Original gegengelesen) — die
-  Breitenfrage.** Die Aussage «im Destillat nicht mit Ziffer belegt» war falsch: die Vorgabe ist
-  **dreifach ziffern-belegt**. **Grundmass Ziff. 2.4.5 Abs. 3 = 1.5 m** fuer gewendelte Treppen
-  (innere Auftrittsbreite min. 0.15 m); die **1.2 m bei min. 0.1 m** sind eine ziffern-gebundene
-  **Erleichterung** nach Ziff. 3.1 Abs. 2 (Gebaeude geringer Abmessungen), Ziff. 3.2.2 Abs. 1
-  (Wohnen), Ziff. 3.3.2 Abs. 1 (Buero/Gewerbe/Industrie) bzw. Ziff. 3.6.2 (Beherbergungsbetriebe [c]).
-  **Offen bleibt die Zuordnung — und sie, nicht die Breite, bestimmt die Schnittfigur.** Da §4f.2
-  `brandschutz-pl03-wegweiser` belegt, dass das Grassenbiwak mit 18 Schlafplaetzen **kein**
-  Beherbergungsbetrieb [c] ist (Fragebeantwortung 03.10.2024, Frage 47), scheidet Ziff. 3.6.2 aus.
-  Zu klaeren ist deshalb zuerst die **Lage** der Treppe: erschliesst sie **mehrere
-  Nutzungseinheiten**, greift Ziff. 3.1 Abs. 2 (1.2 m / 0.1 m). Liegt sie **innerhalb einer
-  Nutzungseinheit** — der wahrscheinliche Fall bei Aufenthalt EG / Schlafen OG —, verweist
-  Ziff. 3.1 Abs. 3 auf die nutzungsbezogenen Anforderungen, und dort gilt bei Wohnnutzung
-  **Ziff. 3.2.2 Abs. 3: «An Treppen innerhalb der Nutzungseinheit werden keine Anforderungen
-  gestellt»**. Diese beiden Absaetze fehlten im Destillat und wurden am 28.07.2026 nachgetragen.
-  Fuer den Wettbewerbs-Modus (Skill `brandschutz`, Modus B, Stufe 0 Frage 5) heisst das: **zuerst
-  die Nutzungseinheit abgrenzen, dann die Breite bestimmen** — nicht umgekehrt.
+- [x] **C44 — GESCHLOSSEN 2026-07-31.** Massgebend ist das **VKF-Brandschutzmerkblatt 2005-15de «Lithium-Ionen-Batterien», Stand 01.06.2021** (im Hausbestand PL-03 nicht vorhanden, von der VKG-Publikationsplattform bezogen). Einstufung nach **Energieinhalt je Brandabschnitt**: < 15 kWh = HL I, 15-100 kWh = HL II, > 100 kWh = HL III (Ziff. 3.2). Hausspeicher/Hüttenspeicher liegen in HL I: geeigneter Raum mit **mindestens EI 30**, **keine Aufstellung in Fluchtwegen und Lüftungszentralen**, **mindestens 2.5 m Abstand zu brennbaren Materialien**, dazu SN 411000 (NIN), SNR 460712, SIA 2061 (Ziff. 4.4 Abs. 3). Second-Life-Batterien ausdrücklich als erhöhtes Risiko benannt. → Destillat `normen/destillate/vkf-merkblatt-2005-15-lithium-ionen-batterien.md`, Anwendung [[brandschutz-pl03-wegweiser]] §4f.3 lit. e. **Rest-Unsicherheit:** eine ergänzende VKF-FAQ 2005-01 für LiFePO₄/LFP wird von Sekundärquellen genannt, ist aber **nicht am Original verifiziert** und deshalb nirgends als Fundstelle geführt.
+
+- [x] **C43 — GESCHLOSSEN 2026-07-31.** Kanonische Quelle ist die **VKF/VKG-«Adressliste Kantonale Brandschutzbehörden», Version 3.3, 21.01.2026** (BSPUB-1394520214-1176): je Kanton genau eine Stelle. **OW = Technische Inspektorate, Kanton Obwalden** (Verwaltungsstelle beim Amt für Arbeit, Sarnen; Leitung Thomas Häcki — derselbe Fachmann, den das Wettbewerbsprogramm 2408 als Brandschutz-Vorprüfer einsetzt). **BE = Gebäudeversicherung Bern GVB** (Monopolversicherung, Ittigen), im Baubewilligungsverfahren zusätzlich aufgeteilt zwischen GVB und der Feuerpolizei der Gemeinde je nach Nutzung, mit eigenen kantonalen Brandschutzmerkblättern. Eine Sonderregel für Bauwerke auf einer Kantonsgrenze existiert nicht und ist entbehrlich: der Brandschutz folgt der Baubewilligung und damit dem Standort. → [[brandschutz-pl03-wegweiser]] §4f.3 lit. d.
+
+- [x] **C42 — GESCHLOSSEN 2026-07-31.** Die Kategorie [c] ist ein **Erleichterungspaket** für genau den Fall, dass keine Hilfe kommt; anwendbar nur bei **gleichzeitiger** Erfüllung der vier Bedingungen aus BRL 10-15de, Anhang «zu Beherbergungsbetriebe» (S. 40) — dort gelten **PV-Anlagen und Notstromaggregate ausdrücklich als ungenügende Stromversorgung**, eine PV-Pflicht im Programm hebt die [c]-Qualifikation also nicht auf. Ersatzsystem: Wasserlöschposten für [c] **nicht** verlangt, Handfeuerlöscher **erforderlich** mit Richtwert 1 pro 600 m² und max. 40 m Gehweglinie (BSR 18-15de Anhang zu Ziff. 2 S. 8 + Ziff. 3.1.2; Begründung Ziff. 2 Abs. 4 lit. c «ohne genügenden Wasseranschluss»); Verzicht auf Alarmaufschaltung nach Rücksprache und **vernetzte Rauchwarnmelder anstelle einer BMA, sofern kein Netzstrom** (BSR 20-15de Anhang zu Ziff. 2.2.2); Hauseingangstüren müssen in [c] nicht in Fluchtrichtung öffnen (BSR 16-15de Ziff. 3.6.2 Abs. 4 — bestätigt zugleich die Aussage der SAC-Wegleitung S. 66). Tragendes Prinzip ist die **Selbstrettung**. → [[brandschutz-pl03-wegweiser]] §4f.3 lit. c.
+
+- [x] **C41 — GESCHLOSSEN 2026-07-31, beantwortet in der KB `normen`.** Die als Bring-Schuld angemeldeten Fragen hat der Normen-Loop im Abschnitt «Entscheidungsfigur Treppen» von `normen/destillate/vkf-brl-16-15-flucht-rettungswege.md` aufgelöst: (a) **1.20 m ist die Ausnahme, nicht die Regel** — Grundmass gewendelter Treppen ist 1.50 m bei innerer Auftrittsbreite 0.15 m (Ziff. 2.4.5 Abs. 3); die 1.20 m gelten nur zusammen mit innerer Auftrittsbreite ≥ 0.10 m und nur über eine der vier Ausnahmeziffern, für den Hüttenfall Ziff. 3.6.2 Abs. 5 ([c]). Eine Auftrittsbreite «in der Lauflinie» kennt die Richtlinie nicht (Negativbefund). (b) Die Entlastung «keine Anforderungen an Treppen innerhalb der Nutzungseinheit» gilt abschliessend für Wohnen, Büro/Gewerbe/Industrie, Schulen und Landwirtschaft — **Beherbergung fehlt im Katalog**; Gegenpräjudiz ist Ziff. 3.4.4 Abs. 3 (Kindertagesstätten: Schlafräume auf Zwischengeschossen/Galerien brauchen horizontale und vertikale Fluchtwege). Zusatzbefund dieses Laufs: die entscheidende zweite Schwelle ist **BSN 1-15de Art. 13 Abs. 3 lit. d** — «Gebäude mit geringen Abmessungen» setzt «keine Nutzung für schlafende Personen ausser einer Wohnung» voraus, ein Biwak mit 18 Schlafplätzen fällt also auch aus dieser Kategorie und damit aus QSS 1. → Anwendung [[brandschutz-pl03-wegweiser]] §4f.3 lit. a und b.
+
 - [ ] **C40 (Nachaudit PL-03, 2026-07-28)** **Transformation EFH → MFH: welche Bauteile müssen die
   Brandschutzanforderungen erfüllen — alle oder nur die neuen?** Wörtlich offen im JANS-eigenen
   Fragenkatalog `_Projekte Themen/Tragwerk Brandschutzanforderung Thalwil Bohlweg3/250304
@@ -1434,7 +1387,7 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   jetzt gegen **alle** KBs unter `wissen/` und meldet Cross-KB-Treffer als gültig. Wer künftig
   Backlinks prüft, nutzt dieses Script — nicht ein Ad-hoc-grep über einen einzelnen Wiki-Ordner.
   Zwei echte Kleinbefunde bleiben (kosmetisch, kein Datenverlust): `[[planungsgrundlagen/
-  connectors/geo-zh.mjs]]` in [[kartenportale-bund-geodaten]] und `[[../grobkosten/]]` in
+  connectors/geo-zh.mjs]]` in [[kartenportale-bund-geodaten]] und `../grobkosten/` (in Wikilink-Klammern) in
   [[recht-norm-ahb-stadt-zuerich-projektstandards]] nutzen Wikilink-Syntax für einen Pfad —
   gehören in Backticks (der Connector liegt zudem unter `skills/planungsgrundlagen/connectors/`,
   nicht unter `planungsgrundlagen/connectors/`).
@@ -1501,7 +1454,7 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   (amtliche Schreibweise)/`Lueem`, Verband `aeesuisse`, englische Begriffe `true`/`critique`).
   Angewandt mit dem neuen, wiederverwendbaren Werkzeug `scripts/umlaut-restore.py` +
   `scripts/umlaut-restore-mapping.json`, das Schutzzonen respektiert (Code-Blöcke, Inline-Code,
-  URLs, `[[Wikilinks]]`, Markdown-Linkziele, Pfade, Dateinamen, Slugs) — zwingend, weil
+  URLs, Wikilinks, Markdown-Linkziele, Pfade, Dateinamen, Slugs) — zwingend, weil
   Datei-/Ordnernamen und Wiki-Slugs nach `dateinamen-konvention.md` ASCII bleiben müssen.
   Verifikation nach dem Lauf: Wikilinks, URLs und Zeilenzahl **je Datei bitgleich** zum Backup;
   4'769 Zeilen in 51 Dateien inhaltlich geändert. Nebenbefund miterledigt: vorbestehender

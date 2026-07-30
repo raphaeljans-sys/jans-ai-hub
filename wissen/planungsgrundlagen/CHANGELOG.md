@@ -232,7 +232,7 @@ Wissensproduktion, keine Trainings-Run-Nummer. Report:
 - Bericht: `koordination/outputs/2026-07-28_wissens-chef-run19.md`.
 
 
-## 2026-07-28 (abends) — Wettbewerbs-/Bautyp-Ebene Brandschutz: Scan Projekt 2408 WB BIWAK auf Raphaels Auftrag
+## 2026-07-31 — Wettbewerbs-/Bautyp-Ebene Brandschutz: Scan Projekt 2408 WB BIWAK auf Raphaels Auftrag
 Auftrag Raphael: das Wettbewerbsprojekt **2408 WB BIWAK** («Grassenbiwak 2027», SAC Sektion
 Engelberg) auf brandschutzrelevante Themen scannen und pruefen, ob die dort aufgeworfenen Fragen mit
 dem vorhandenen Wissensstand beantwortbar gewesen waeren. Befund: die **Normseite war abgedeckt**
@@ -285,9 +285,16 @@ Ergebnis **95 % erschoepfend erschlossen**, aber vier Befunde:
 - **[konsistenz] MD-Hygiene:** 6 ueber Zeilenumbrueche zerrissene Backlinks repariert, 2 seit
   Wochen nicht im INDEX gefuehrte Artikel nachgetragen ([[recht-norm-rechtsprechung-vg-zh]],
   [[recht-norm-sanitaerraeume-planungsgrundlagen]]), falsche Ordnerangabe `11 Projekte/` in §1
-  korrigiert. **Offen gelassen** (Entscheid Raphael, QUESTIONS F-KONSISTENZ): 6 Phantom-Backlinks
-  auf nie geschriebene Artikel (u-werte-grenzwerte-ch 5x, graue-energie 4x, minergie-standards 2x,
-  abstaende-und-hoehen 2x, +2) — alle in Energie/Kartenportale, keiner in PL-03.
+  korrigiert; drei Pfad-in-Wikilink-Syntax-Stellen auf Backticks umgestellt (darunter ein falscher
+  Connector-Pfad: `skills/planungsgrundlagen/connectors/geo-zh.mjs`).
+- **[eigenbefund korrigiert] «Phantom-Backlinks» waren ein Fehlalarm.** Der Audit meldete zuerst
+  sieben Backlinks auf angeblich nie geschriebene Artikel (u-werte-grenzwerte-ch, graue-energie,
+  minergie-standards, abstaende-und-hoehen u. a.). **Alle sieben Ziele existieren** — als
+  Cross-KB-Links in `wissen/energie/` und `wissen/baurecht/`; der Sweep hatte nur
+  `planungsgrundlagen/wiki/` durchsucht. Derselbe Fehlalarm zum dritten Mal (Health-Check → Run 68
+  widerlegt → hier erneut), darum abgestellt statt nur widerlegt: neues
+  `wissen/tools/wiki-konsistenz.sh` prueft Frontmatter/INDEX/Backlinks gegen **alle** KBs plus
+  Skills/Agents/Rules und wertet Cross-KB-Treffer als gueltig (QUESTIONS F-KONSISTENZ geschlossen).
 **Methodenkritik fuer den Loop:** der Frischecheck arbeitet mit `find -newer` und meldet seit Run 67
 27x «Delta Null» — er kann strukturell keine Datei finden, die von Anfang an nie gelesen wurde
 (genau der Fall Bohlweg, alle drei vom Maerz 2025). Empfehlung: quartalsweiser Vollinventar-Abgleich

@@ -92,13 +92,26 @@ Phantom-Datei und blockiert den Loop mit einer Scheinaufgabe.
   als «geprüft: leer» vermerkt) → ersetzt durch das verifizierte Vollinventar (153 Dateien,
   12 Ordner + `_LINK.docx`).
 
-**Offen gelassen (Entscheid nötig, siehe QUESTIONS F-KONSISTENZ):** sechs **Phantom-Backlinks** auf
-nie geschriebene Artikel — `[[u-werte-grenzwerte-ch]]` (5×), `[[graue-energie]]` (4×),
-`[[minergie-standards]]` (2×), `[[abstaende-und-hoehen]]` (2×),
+**Korrigierter Eigenbefund (wichtig):** dieser Audit meldete zunächst sieben «Phantom-Backlinks»
+auf nie geschriebene Artikel (`[[u-werte-grenzwerte-ch]]`, `[[graue-energie]]`,
+`[[minergie-standards]]`, `[[abstaende-und-hoehen]]`,
 `[[muken-2025-anhang-4-5-daemmstaerken-leitungen]]`, `[[oelheizung-gasheizung-ersatzpflicht-zh-sz]]`,
-`[[regenwasserbewirtschaftung-versickerung-zh]]` — plus zwei Pfad-statt-Artikel-Links. Alle im
-Bereich Energie/Kartenportale, keiner in PL-03. Entweder Artikel schreiben oder Links umbiegen —
-das ist eine inhaltliche Entscheidung, keine Reparatur.
+`[[regenwasserbewirtschaftung-versickerung-zh]]`). **Das war falsch.** Alle sieben Ziele existieren
+— als **Cross-KB-Links** in `wissen/energie/wiki/`, `wissen/energie/destillate/` und
+`wissen/baurecht/wiki/`; der Fliesstext nennt die Ziel-KB jeweils ausdrücklich («Tiefe → KB
+`wissen/energie`»). Der Prüf-Sweep hatte nur `planungsgrundlagen/wiki/` durchsucht.
+
+**Das ist derselbe Fehlalarm zum dritten Mal** (Health-Check → von Run 68 widerlegt → hier erneut).
+Darum nicht nur widerlegt, sondern abgestellt: neues Script
+`/Volumes/daten/jans-ai-hub/wissen/tools/wiki-konsistenz.sh` prüft Frontmatter,
+INDEX-Registrierung und Backlinks **gegen alle KBs unter `wissen/` plus Skills/Agents/Rules**.
+Cross-KB-Links gelten dort als gültig. Wer künftig Backlinks prüft, nutzt dieses Script statt eines
+Ad-hoc-greps über einen einzelnen Wiki-Ordner.
+
+**Ebenfalls bereinigt:** drei Stellen benutzten Wikilink-Syntax für einen Pfad
+(`[[../grobkosten/]]`, `[[../../normen/wiki/vkf-beherbergungskategorien]]`,
+`[[planungsgrundlagen/connectors/geo-zh.mjs]]` — letzterer zeigte zudem auf den falschen Pfad, der
+Connector liegt unter `skills/planungsgrundlagen/connectors/`). Jetzt als Backtick-Referenz notiert.
 
 **Frontmatter/Schreibregeln:** alle 49 Artikel haben vollständiges Frontmatter
 (`title`/`status`/`last_updated`/`sources`); kein «ß» im Fliesstext (der einzige Treffer ist ein

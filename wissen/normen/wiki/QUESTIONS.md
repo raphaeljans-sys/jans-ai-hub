@@ -388,7 +388,7 @@ der ursprünglichen Fundmeldung.
      eine Fehlabwertung einer als SN übernommenen Schweizer Norm und sachlich gewichtiger als die
      W3-Lücke.
 
-## 2026-07-28 (Cross-KB planungsgrundlagen → normen, Wettbewerbs-Scan Grassenbiwak) — zwei Fundstellen-Schulden BSR 16-15 — BEIDE GESCHLOSSEN 29.07.2026, siehe Run 36 oben
+## 2026-07-31 (Cross-KB planungsgrundlagen → normen, Wettbewerbs-Scan Grassenbiwak) — zwei Fundstellen-Schulden BSR 16-15 — BEIDE GESCHLOSSEN 29.07.2026, siehe Run 36 oben
 
 Angemeldet in der **Empfänger-KB** (Regel aus Run 8). Auslöser: Brandschutz-Scan des
 Wettbewerbsprojekts 2408 «Grassenbiwak 2027»; der Fachplaner-Kommentar nennt zwei Vorgaben, die im

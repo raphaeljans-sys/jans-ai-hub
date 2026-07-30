@@ -32,7 +32,9 @@ fi
 ZIELE=$(mktemp)
 trap 'rm -f "$ZIELE"' EXIT
 {
-  find "$WISSEN" -path "*/wiki/*.md" -o -path "*/destillate/*.md" | while read -r f; do
+  # ALLE Artikel unter wissen/ (beliebige Tiefe: wiki/, destillate/, buecher/,
+  # marktdaten-gemeinden/ …), nur raw/ ausgenommen — dort liegen Quell-Dumps, keine Ziele.
+  find "$WISSEN" -name "*.md" -not -path "*/raw/*" | while read -r f; do
     basename "$f" .md
   done
   find "$HUB/skills" -maxdepth 1 -mindepth 1 -type d -exec basename {} \; 2>/dev/null
@@ -67,9 +69,13 @@ for kb in "${KBS[@]}"; do
       melde "$n:$ln" "Backlink ueber Zeilenumbruch zerrissen (loest nirgends auf)"
     done
     grep -o '\[\[[^]]*\]\]' "$f" 2>/dev/null | sed 's/^\[\[//; s/\]\]$//' | sort -u | while read -r l; do
+      # Ein Link mit Schraegstrich ist entweder ein Unterordner-Artikel (gueltig, sofern der
+      # Dateiname existiert) oder ein echter Pfad/Ordner (dann gehoert er in Backticks).
+      ziel="${l##*/}"
       case "$l" in
-        *$'\n'*|*/*) melde "$n" "Pfad/Umbruch in Wikilink-Syntax [[$l]] — Backticks verwenden" ;;
-        *) grep -qxF "$l" "$ZIELE" || melde "$n" "Ziel existiert nirgends in wissen//skills//agents//rules: [[$l]]" ;;
+        *$'\n'*) melde "$n" "Zeilenumbruch im Wikilink [[${l%%$'\n'*}…]]" ;;
+        *) grep -qxF "$ziel" "$ZIELE" \
+             || melde "$n" "Ziel existiert nirgends in wissen//skills//agents//rules: [[$l]]" ;;
       esac
     done
   done
