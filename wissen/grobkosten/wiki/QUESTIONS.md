@@ -2,6 +2,38 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-07-30 — Bring-Schuld aus Run 20 eingelöst: Holzbau-Zuschlag kalibriert, Methodenwiderspruch aufgelöst
+
+**Erledigt (Mac Mini Nachtschicht):** Die in Run 20 (29.07.2026) übergebene Wüest Partner/
+Lignum/BAFU-Studie wurde selbst gezogen (`https://www.minergie.ch/media/
+3_holzbau-investionskosten-julia-selberherr.pdf`) und ausgewertet:
+
+- **Vorbedingung 1 geklärt (Stichprobe):** Folie 3 zeigt für den Kostenteil 17 Holzbauten gegen
+  50 reale Referenzobjekte (unpaarige Gruppenauswertung), NICHT die «35 Objekte gegen digitalen
+  Zwilling»-Paarung — diese Paarungsmethodik gilt belegt nur für das ökologische Fallbeispiel
+  (Folie 7, n=1). Folie 2 vermischt beide Methoden in einer Pauschalaussage. Damit ist der von
+  `energie` übernommene Widerspruch aufgelöst, nicht nur bestätigt.
+- **Vorbedingung 2 (Zahlenlabels fehlen):** Folie 5 (Boxplots BKP1–5/GV und /GF) trägt keine
+  Zahlenwerte im Textlayer. Per Pixel-Kalibrierung der Gitterlinien (300-dpi-Rasterung,
+  Farbcode-Klassifikation der Balkensegmente) ausdrücklich als **ca.-Werte** abgelesen —
+  gleiches Vorgehen wie `energie` bei den unlabelten Treibhausgas-Boxplots.
+- **Zuschlag kalibriert:** `wiki/kennwerte.md`, Abschnitt «Zuschläge (multiplikativ)» — die
+  pauschale, unbelegte Zeile «Hoher Ausbaustandard/Nachhaltigkeit (Minergie-P, Holz) +5–15 %»
+  in Bauweise (Holz, jetzt belegt) und Ausbaustandard (Minergie-P, weiterhin unbelegt) getrennt.
+  Ergebnis (Median, auf 01.04.2025 normalisiert via Zürcher Index): Holzbau unteres
+  Preissegment ≈ **Parität** mit Massivbau (kein Aufpreis), Holzbau oberes Preissegment ≈
+  **+13 %**. Deckt sich grössenordnungsmässig mit dem bereits geführten HNF-Spread
+  (+10–20 %), verfeinert ihn um die Segment-Differenzierung.
+- **Konsistenz-Check:** Massivbau-Median (≈995 CHF/m³ GV, normalisiert) liegt innerhalb des
+  eigenen MFH-gehoben-Seed-Bands dieser KB (850–1'050) — kein Widerspruch zum bestehenden Stand.
+- **Abgelegt:** `raw/2025-wueest-lignum-massiv-vs-holzbau-erstellungskosten.md` (volle Tabellen,
+  Methodik, Preisstand-Normalisierung); Ergänzung in `skills/kostenschaetzung/referenzen/
+  20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md` (Abschnitt 3b, gemäss Ablage-Konvention
+  «Kalibrierungspunkt hier, Referenzblatt dort»).
+- **Weiterhin offen:** Diagramm-Ablesung bleibt eine Näherung (keine Originalzahlen); bei
+  Gelegenheit gegen `bauenmitholz.info` verifizieren, falls dort Zahlenwerte publiziert sind.
+  HNF-Bezug fehlt in dieser Quelle (nur GV/GF).
+
 ## 2026-07-29 — Cross-KB `energie` → `grobkosten` (Wissens-Chef Run 20): Bring-Schuld Erstellungskosten Holzbau gegen Massivbau, Kalibrierung des unbelegten Zuschlags +5–15 %
 
 Angemeldet in der **Empfänger-KB**, nicht als Notiz in der abgebenden (Regel aus Run 8). Der Text

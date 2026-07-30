@@ -2,7 +2,7 @@
 title: Grobkosten-Kennwerte (CHF/m³ GV, BKP 1–5)
 status: emerging
 last_updated: 2026-07-27 (Run 11)
-sources: [skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md, wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro, raw/2414-thalwil.md, raw/2518-grubenackerstrasse.md, raw/2515-wartstrasse.md, raw/2202-ackersteinstrasse.md, raw/2304-reckholdern.md, raw/kennwerte-jans-referenzdokument.md, raw/8155-niederhasli-seestrasse64.md, raw/2001-haus-deuber-thalwil.md, raw/2411-wald-haselstudstrasse.md, raw/2412-ebmatingen-grossacher.md, raw/2305-waedenswil-precheck.md, raw/2620-albertstrasse.md, raw/zuercher-index-wohnbaukosten-1939-2025.md]
+sources: [skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md, wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro, raw/2414-thalwil.md, raw/2518-grubenackerstrasse.md, raw/2515-wartstrasse.md, raw/2202-ackersteinstrasse.md, raw/2304-reckholdern.md, raw/kennwerte-jans-referenzdokument.md, raw/8155-niederhasli-seestrasse64.md, raw/2001-haus-deuber-thalwil.md, raw/2411-wald-haselstudstrasse.md, raw/2412-ebmatingen-grossacher.md, raw/2305-waedenswil-precheck.md, raw/2620-albertstrasse.md, raw/zuercher-index-wohnbaukosten-1939-2025.md, raw/2025-wueest-lignum-massiv-vs-holzbau-erstellungskosten.md]
 links: []
 ---
 
@@ -197,8 +197,25 @@ seriös möglich ist.
 |---|---|---|
 | Hanglage (Gefälle > 20 %) | + 5–15 % | Aushub, Hangsicherung, Baulogistik |
 | Anspruchsvoller Baugrund / Altlasten | + 5–20 % | objektabhängig, separat abklären |
-| Hoher Ausbaustandard / Nachhaltigkeit (Minergie-P, Holz) | + 5–15 % | je nach Zielbild |
+| Hoher Ausbaustandard / Nachhaltigkeit (Minergie-P) | + 5–15 % | je nach Zielbild, weiterhin unbelegter Seed |
 | Kleines Volumen (< 1'000 m³) | + 5–10 % | Fixkostendegression fehlt |
+
+**Bauweise Holz vs. Massivbau (kalibriert, Run 30.07.2026):** aus der Zuschlagszeile "Holz"
+oben herausgelöst, weil jetzt eigenständig belegt (bisher unbelegter Seed vermischte Bauweise
+und Ausbaustandard). Quelle: Wüest Partner/Lignum/BAFU, «Massiv- vs. Holzbau: Erstellungskosten
+…», 25.09.2025 (`raw/2025-wueest-lignum-massiv-vs-holzbau-erstellungskosten.md`), Diagramm-
+Ablesung (Folie 5, keine Originalzahlen im Textlayer, ca.-Werte), auf 01.04.2025 normalisiert:
+
+| Bauweise | Zuschlag ggü. Massivbau | Hinweis |
+|---|---|---|
+| Holzbau, unteres Preissegment | ≈ 0 % (Parität) | Median ≈975 vs. Massivbau ≈995 CHF/m³ GV |
+| Holzbau, oberes Preissegment | ≈ +13 % | Median ≈1'120 vs. Massivbau ≈995 CHF/m³ GV |
+
+Deckt sich grössenordnungsmässig mit dem HNF-basierten Wüest-2023-Spread in
+`skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md`
+(Holzbau +10–20 % über Massivbau) — dort ohne die Segment-Differenzierung. Ersetzt die
+pauschale "Holz +5–15 %"-Zeile für die Bauweisen-Frage; der Ausbaustandard-Zuschlag
+(Minergie-P) bleibt unabhängig davon offen/unbelegt.
 
 ## Healthcare / Spezialnutzung
 

@@ -43,6 +43,21 @@ BfS Schweizer Mittel MFH: 3'000–4'000 CHF/m² (BKP 1–5).
 
 Holzbau liegt rund 10–20 % ueber Massivbau.
 
+## 3b. Ergaenzung 30.07.2026 (GV-Basis, andere Studie): unteres Preissegment ohne Aufpreis
+
+Zweite, unabhaengige Quelle: Wüest Partner/Lignum/BAFU, «Massiv- vs. Holzbau: Erstellungskosten
+…», 25.09.2025 (Diagramm-Ablesung, Details `wissen/grobkosten/raw/2025-wueest-lignum-massiv-vs-
+holzbau-erstellungskosten.md`). Auf **CHF/m³ GV** (nicht HNF) und mit Segment-Trennung:
+
+| Bauweise | Zuschlag ggü. Massivbau (Median, normalisiert 01.04.2025) |
+|---|---|
+| Holzbau, unteres Preissegment | ≈ 0 % (Parität) |
+| Holzbau, oberes Preissegment | ≈ +13 % |
+
+Bestaetigt die Groessenordnung von Abschnitt 3, verfeinert sie aber: der Holz-Aufpreis gilt
+belegt nur fuer das obere Preissegment, im unteren Preissegment ist Holzbau auf GV-Basis mit
+Massivbau praktisch gleich teuer.
+
 ## 4. JANS-Richtwerte (Synthese, Stand 2023, inkl. Teuerung)
 
 | Anwendung | Richtwert | Bemerkung |

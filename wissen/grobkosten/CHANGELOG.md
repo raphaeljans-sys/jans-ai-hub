@@ -1,5 +1,19 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-30 (Mac Mini Nachtschicht) — Bring-Schuld aus Run 20 eingeloest: Holzbau-Zuschlag kalibriert
+Wueest Partner/Lignum/BAFU-PDF selbst gezogen (minergie.ch), Textlayer + Diagramm (Folie 5,
+300-dpi-Rasterung, Pixel-Kalibrierung der Gitterlinien) ausgewertet. Zwei Ergebnisse: (1) der von
+`energie` uebernommene Methodenwiderspruch («35 Objekte gegen digitalen Zwilling» vs. Kostenteil-
+Stichprobe) ist aufgeloest — die Zwillingspaarung gilt nur fuer das oekologische Fallbeispiel, der
+Kostenteil ist eine unpaarige 17-gegen-50-Gruppenauswertung. (2) Der bisher unbelegte, pauschale
+Zuschlag "Hoher Ausbaustandard/Nachhaltigkeit (Minergie-P, Holz) +5-15%" in `wiki/kennwerte.md`
+ist in Bauweise (Holz, jetzt kalibriert: unteres Preissegment ≈ Paritaet, oberes ≈ +13 %, Median
+normalisiert auf 01.04.2025) und Ausbaustandard (Minergie-P, weiterhin unbelegt) getrennt.
+Konsistenz-Check gegen den eigenen MFH-Seed und den bestehenden HNF-Wuest-Spread: kein Widerspruch.
+Geaendert: `wiki/kennwerte.md`, `wiki/QUESTIONS.md`, neu `raw/2025-wueest-lignum-massiv-vs-
+holzbau-erstellungskosten.md`, Ergaenzung in `skills/kostenschaetzung/referenzen/
+20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md` (Abschnitt 3b). Kein Versand, keine Publikation.
+
 ## 2026-07-29 (Wissens-Chef Run 20, Cross-KB) — Kostenhaelfte einer gelesenen Studie war nie hier angekommen
 - **[bring-schuld] Die Wueest-Partner/Lignum/BAFU-Studie vom 25.09.2025 enthaelt einen
   Erstellungskosten-Vergleich Holzbau gegen Massivbau — die KB `energie` hat die oekologische Haelfte
