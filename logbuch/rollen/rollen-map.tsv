@@ -106,3 +106,4 @@ planungsgrundlagen-wartung	task	maintainer	Umgewidmet 30.07.2026 (Entscheid Raph
 normen-training-mini	task	prototyper	Erzeugt neues Wissen; Mac-Mini-Haelfte des Normen-Loops	aktiv	wissen/normen
 synobsis-batch-nacht	task	prototyper	Erzeugt neues Wissen; KB saturiert, stillgelegt	parkiert	wissen/architekten-synobsis
 hub-setup-konnektor	referenz	maintainer	Kanonische Setup-Daten + Verbindungscheck aller Stationen; wird bei Infrastrukturfragen konsultiert	aktiv	connectors/hub-setup.mjs
+arbeits-weiche	task	maintainer	Last-Verteilung schwerer Auftraege auf die Station mit optimaler RAM-Auslastung; Entscheid-Journal logbuch/arbeits-weiche/	aktiv	scripts/arbeits-weiche.sh
