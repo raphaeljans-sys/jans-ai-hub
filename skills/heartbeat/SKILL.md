@@ -119,6 +119,21 @@ bash /Volumes/daten/jans-ai-hub/scripts/trust-check.sh --check
 - ❌ `WARNUNG … Home-Verzeichnis ist als vertraut markiert` → zurueckstellen; ein
   vertrautes `~` gibt jeder Session von ueberall die vollen Projekt-Berechtigungen
 
+### 9. Stations-Verbindungen (SSH beide Richtungen)
+
+Der Setup-Konnektor prueft von der laufenden Station aus Tailscale, Ping, Port 22
+und den SSH-Login zur Gegenstation:
+
+```bash
+node /Volumes/daten/jans-ai-hub/connectors/hub-setup.mjs --check
+```
+
+- ✅ Gegenstation Ping OK, Port 22 offen, `ssh mini` bzw. `ssh macbook` OK
+- ⚠️ MacBook Pro nicht erreichbar → normal, wenn mobil/schlafend; Auftraege via
+  `scripts/sync-task-create.sh macbook-pro …` in die NAS-Queue legen
+- ❌ `connection refused` auf eine 100.x-IP → Tailscale-Client einer Seite pausiert/
+  ausgeloggt (Menuleisten-App pruefen), NICHT zuerst sshd verdaechtigen
+
 ## Output-Format
 
 Gib einen kompakten Report aus:

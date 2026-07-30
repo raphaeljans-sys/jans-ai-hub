@@ -16,6 +16,19 @@ Automatik arbeitet (Runner, Gate, Waechter, Takte, launchd), liest die Chronik z
 Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0,
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`).
 
+## 260730 — Setup-/Infrastrukturfragen: zuerst den Hub-Setup-Konnektor konsultieren
+- **Regel:** Bei jeder Frage zum Hub-Setup (Stationen, IPs, SSH-Wege, Mail-Konten, Pfade,
+  Git-Regeln) und bei jeder Verbindungsstoerung ZUERST
+  `node /Volumes/daten/jans-ai-hub/connectors/hub-setup.mjs` befragen (`--alles` fuer die
+  Fakten, `--check` fuer den Live-Verbindungscheck von der laufenden Station aus) — nicht
+  aus dem Gedaechtnis beantworten und nicht improvisiert diagnostizieren. Die kanonische
+  Datenquelle ist `connectors/hub-setup-daten.json` (nur dort pflegen). Merksaetze aus der
+  Diagnose 30.07.2026: (1) `connection refused` auf eine 100.x-IP heisst fast immer
+  Tailscale-Client einer Seite pausiert/ausgeloggt, NICHT sshd defekt. (2) Das MacBook Pro
+  ist mobil und nie garantiert erreichbar — Standard-Kanal Mini→MacBook ist die NAS-Task-
+  Queue (`scripts/sync-task-create.sh macbook-pro …`), direkte SSH nur opportunistisch.
+- **Gilt fuer:** alle Stationen, alle Sessions, heartbeat (Check 9).
+
 ## 260729b — Entscheidungsvorlagen und Agenten-Befunde gegenpruefen, bevor sie wirken
 - **Regel:** (1) **Vorlage gegen den JUENGSTEN Stand pruefen, nicht gegen den zuletzt selbst
   gelesenen.** Bevor Raphael ein Entscheid vorgelegt wird, ist die Faktenbasis am aktuellsten

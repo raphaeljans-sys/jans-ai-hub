@@ -1,0 +1,93 @@
+{
+  "_meta": {
+    "zweck": "Kanonische Setup-Daten des JANS AI Hub. Quelle fuer connectors/hub-setup.mjs.",
+    "quelle": "CLAUDE.md (Projekt) + Netzwerk-Memory, verifiziert 30.07.2026",
+    "pflege": "Nur hier editieren (NAS), danach nas-commit-now.sh. Keine Secrets in diese Datei.",
+    "stand": "2026-07-30"
+  },
+  "stationen": {
+    "mac-mini": {
+      "rolle": "Arbeitsstation Always-On, traegt rechen-/NAS-intensive Loops, C4D-Render-Endpunkt, Dispatch-Endpunkt",
+      "lan_ip": "192.168.1.210",
+      "tailscale_ip": "100.120.219.12",
+      "tailscale_name": "macmini",
+      "hostname": "Macmini.local",
+      "ssh_alias": "mini",
+      "besonderheit": "sleep 0 (schlaeft nie), Remote Login On, Maxon-/C4D-Lizenz hier"
+    },
+    "macbook-pro": {
+      "rolle": "Mobile Arbeitsstation (Arbeitszeit: keine Lern-Loops), traegt baurecht-buch-training",
+      "lan_ip": "DHCP (im Buero-LAN wechselnd)",
+      "tailscale_ip": "100.117.99.62",
+      "tailscale_name": "macbookpro",
+      "ssh_alias": "macbook",
+      "besonderheit": "Mobil, kann schlafen/offline sein — direkte SSH-Anfragen nie garantiert, asynchron via sync-tasks"
+    },
+    "nas-ds918": {
+      "rolle": "Datei-Server + kanonische Skill-/Wissens-Bibliothek + nativer Git-Committer",
+      "lan_ip": "192.168.1.10",
+      "tailscale_ip": "100.92.246.28",
+      "tailscale_name": "diskstation918",
+      "mount_buero": "open smb://192.168.1.10/daten",
+      "mount_extern": "osascript -e 'mount volume \"smb://diskstation918.tail8265aa.ts.net/daten\"'",
+      "besonderheit": "NIE git ueber SMB auf das NAS-Repo — nur nas-commit-now.sh (Rule 260726)"
+    },
+    "opnsense": { "rolle": "Firewall/Router", "lan_ip": "192.168.1.1" },
+    "drucker": { "rolle": "Konica Minolta bizhub c300i", "lan_ip": "im LAN" }
+  },
+  "verbindungswege": {
+    "macbook_zu_mini": {
+      "weg": "ssh mini (Alias in ~/.ssh/config -> 100.120.219.12, Schluessel ~/.ssh/id_ed25519)",
+      "voraussetzung": "Tailscale auf BEIDEN Geraeten verbunden (Menuleisten-App laeuft und eingeloggt)",
+      "haeufigste_stoerung": "Tailscale-Client auf einer Seite pausiert/ausgeloggt -> 'connection refused' vom lokalen tailscaled",
+      "diagnose": "node connectors/hub-setup.mjs --check"
+    },
+    "mini_zu_macbook": {
+      "weg": "ssh macbook (Alias -> 100.117.99.62); nur opportunistisch, MacBook kann schlafen",
+      "standard": "Asynchron via NAS-Task-Queue: scripts/sync-task-create.sh macbook-pro <titel> <script>",
+      "hinweis": "Mini-Publickey muss auf dem MacBook in ~/.ssh/authorized_keys stehen"
+    },
+    "cloud_zu_stationen": {
+      "weg": "claude.ai/code hat KEIN LAN/Tailscale -> remote-tasks/pending/<station>/*.sh via git push, Ergebnis via remote-tasks/results/",
+      "latenz": "~5-10 Min"
+    },
+    "handy": { "weg": "Dispatch/Cowork -> scripts/dispatch-run.sh auf dem Mac Mini" }
+  },
+  "mail_konten": {
+    "rj@raphaeljans.ch": "Microsoft 365, geschaeftliches Hauptkonto, Standard-Absender",
+    "mail@raphaeljans.ch": "Microsoft 365, Geschaeft 2",
+    "kispi@raphaeljans.ch": "M365-Gruppe Fachplaner Kinderspital",
+    "HLEBWEB@raphaeljans.ch": "M365-Gruppe Website-Projekt",
+    "raphaeljans@me.com": "Apple/iCloud, privat",
+    "raphaeljans@outlook.com": "Outlook.com, wird im Radar mitgescannt",
+    "hinweis": "Gmail wird NICHT verwendet. Versand ueber Apple Mail (osascript, Bundle-ID com.apple.mail)."
+  },
+  "m365_connector": {
+    "app_registration": "SharePoint MCP Connector (JANS)",
+    "app_id": "80c24101-4597-48db-8388-c6e8bdc75f5f",
+    "tenant_id": "d3ea8e1a-8ecc-479d-b831-6c0784ee0b51",
+    "auth": "Certificate PEM ~/.cli-m365-cert-combined.pem (lokal pro Station, NIE in Git)",
+    "gueltig_bis": "2028-03-23"
+  },
+  "pfade": {
+    "nas_hub": "/Volumes/daten/jans-ai-hub",
+    "ssd_repo": "~/Developer/jans-ai-hub (Lese-Spiegel, Sessions starten hier)",
+    "symlinks": ".claude/{skills,agents,commands} -> NAS",
+    "output_sharepoint": "~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AD - 01 Geschaeftsfuerung/JANS AI/30 JANS AI HUB OUTPUT/",
+    "dropbox": "~/Library/CloudStorage/Dropbox",
+    "logbuch": "/Volumes/daten/jans-ai-hub/logbuch",
+    "sync_tasks": "/Volumes/daten/jans-ai-hub/sync-tasks/{macbook-pro,mac-mini,done}",
+    "remote_tasks": "/Volumes/daten/jans-ai-hub/remote-tasks"
+  },
+  "git": {
+    "nas_repo_committen": "bash /Volumes/daten/jans-ai-hub/scripts/nas-commit-now.sh \"<Message>\" — NIE git ueber SMB",
+    "github": "github.com/raphaeljans-sys/jans-ai-hub (privat, nur Backup), SSH via Port 443 ssh.github.com",
+    "auto_commit": "nas-selfcommit.sh nativ auf der Synology alle 15 Min"
+  },
+  "grundregeln_verweise": {
+    "kontext_architektur": "wissen/claude-code/wiki/kontext-architektur.md",
+    "werkzeug_index": "connectors/README.md",
+    "betrieb": "rules/betrieb-chronik.md (nicht importiert)",
+    "sync_disziplin": "rules/sync-kanonische-quelle.md"
+  }
+}

@@ -105,3 +105,4 @@ energie-training	task	prototyper	Erzeugt neues Wissen; launchd Mac Mini	aktiv	wi
 planungsgrundlagen-training	task	prototyper	Erzeugt neues Wissen; launchd abgeschaltet 28.07.2026	parkiert	wissen/planungsgrundlagen
 normen-training-mini	task	prototyper	Erzeugt neues Wissen; Mac-Mini-Haelfte des Normen-Loops	aktiv	wissen/normen
 synobsis-batch-nacht	task	prototyper	Erzeugt neues Wissen; KB saturiert, stillgelegt	parkiert	wissen/architekten-synobsis
+hub-setup-konnektor	referenz	maintainer	Kanonische Setup-Daten + Verbindungscheck aller Stationen; wird bei Infrastrukturfragen konsultiert	aktiv	connectors/hub-setup.mjs
