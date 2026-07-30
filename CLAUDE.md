@@ -231,6 +231,7 @@ Hand abgefragt oder ein Weg improvisiert wird. **Konvention:** einen Connector z
 | `/station-status` | Live-Zustand der anderen Station |
 | `/website` | Website-Content hochladen/pruefen |
 | `/korrektur` | Korrektur-Harness auf ein Erzeugnis |
+| `/rollen` | Rollen-Haushalt: Bilanz, Nutzungs-Radar, Schutzmechanik-Selbsttest |
 
 ## Baurecht-Wissensbasis (Schnellreferenz)
 `docs/baurecht/`: begriffe.md, pbg_zh.md, bzo_zh.md, verfahren.md, praxisfaelle.md.
@@ -255,6 +256,15 @@ Aktuelle KBs (Details in der jeweiligen `<kb>/CLAUDE.md`): `baurecht` (Pilot + B
 Lern-Loops: als Scheduled Tasks im Nachtfenster (Takt-Zustand siehe Rule auto-verbesserungen
 260714); Programme unter `wissen/<kb>/training/PROGRAMM.md`. Monatlicher Health-Check:
 Task `wissenscheck-monatlich`.
+
+## Rollen-Haushalt (`logbuch/rollen/`)
+
+Jeder Baustein (Skill, Agent, Loop) traegt eine der fuenf Rollen prototyper ·
+builder · sweeper · grower · maintainer im Register `logbuch/rollen/rollen-map.tsv`
+(kanonisch, von Hand gepflegt). Messung via `/rollen` bzw. `scripts/rollen-bilanz.sh`,
+`scripts/nutzungs-radar.sh`, `scripts/schutzmechanik-selbsttest.sh` (haengt im
+heartbeat). Regeln: Rule `rollen-taxonomie`. Konzept + Zielbaender:
+`docs/konzepte/260729-Rollen-Taxonomie/`.
 
 ## Wichtige Regeln
 - Jede Station arbeitet lokal; Skills via NAS-Symlink; NAS muss gemountet sein

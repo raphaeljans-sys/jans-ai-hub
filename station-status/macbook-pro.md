@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 31.07.2026 00:05:42
+Stand: 31.07.2026 00:15:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 23:54)
@@ -13,4 +13,4 @@ Stand: 31.07.2026 00:05:42
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 386c2ac0 Entscheid Raphael: SWKI zugeordnet (normen fuehrt Fundstelle/Ausgabe, energie die Fachaussage) — Matrix-Zeile, Registerzeilen, 2 Loop-Auftraege
+- 07a06aa3 nas-selfcommit: 1 Datei(en) 2026-07-31 00:15

@@ -61,6 +61,15 @@ Nie raten — Pfade aus den bestehenden Rules/Memories ziehen
 mit Projektnr./Adresse/Termin), `auftrags-dekomposition` (jeder Mehrfach-Auftrag).
 Plus die **Korrektur-Pflicht**: jedes Texterzeugnis vor Ausgabe durch Skill `korrektur`.
 
+**Rolle (Pflicht ab 29.07.2026)** — jeder neue Skill wird beim Anlegen im Register
+`logbuch/rollen/rollen-map.tsv` eingetragen: eine der fuenf Rollen (`prototyper`,
+`builder`, `sweeper`, `grower`, `maintainer`) plus `status` und optionalem
+Zielpfad. Ohne Eintrag faellt der Skill in der Rollen-Bilanz unter
+"unzugeordnet" und verfaelscht jede Quote. **Vor** dem Bau pruefen, ob die
+gewaehlte Rolle bereits ueberbesetzt ist (`bash scripts/rollen-bilanz.sh`): ein
+weiterer Prototyper braucht eine Begruendung, warum er mehr wert ist als ein
+Sweeper, der den Bestand verdichtet. Details: Rule `rollen-taxonomie.md`.
+
 **Vorgelagert / Nachgelagert** — die explizite Kette. Beispiel Bauleitungs-Lebenszyklus:
 `unternehmerfindung → ausschreibung → offertenpruefung → werkvertrag →
 unternehmerkontrolle → kostenkontrolle`. So weiss jeder Skill, woher sein Input kommt

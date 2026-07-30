@@ -203,6 +203,27 @@ else
 fi
 
 # =============================================================================
+# Schutzmechanik — Freigabe- UND Abweisungspfad (Maintainer-Rolle)
+# =============================================================================
+# Eine Schutzmechanik, die immer "nein" sagt, sieht im Log aus wie eine, die
+# funktioniert (Lehre 28.07.2026). Der Selbsttest prueft beide Richtungen und
+# haengt hier im bestehenden Health-Check statt in einem eigenen Feuermechanismus.
+schutz_ok=true
+schutz_msg=""
+SELBSTTEST="/Volumes/daten/jans-ai-hub/scripts/schutzmechanik-selbsttest.sh"
+if [ -f "$SELBSTTEST" ]; then
+    if schutz_out=$(bash "$SELBSTTEST" 2>&1); then
+        schutz_msg="✅ Schutzmechanik-Selbsttest bestanden (Gate beide Pfade, Waechter, Drift)"
+    else
+        schutz_ok=false
+        schutz_msg="⚠️  Schutzmechanik-Selbsttest: $(printf '%s' "$schutz_out" | grep -c 'BEFUND') Befund(e) → bash scripts/schutzmechanik-selbsttest.sh"
+    fi
+else
+    schutz_ok=false
+    schutz_msg="⚠️  schutzmechanik-selbsttest.sh fehlt"
+fi
+
+# =============================================================================
 # Gesamt-Status ermitteln
 # =============================================================================
 CRITICAL_FAIL=false
@@ -211,7 +232,7 @@ WARNINGS=false
 if ! $nas_ok || ! $git_ok || ! $disk_ok || ! $symlinks_ok; then
     CRITICAL_FAIL=true
 fi
-if ! $m365_ok || ! $sync_ok; then
+if ! $m365_ok || ! $sync_ok || ! $schutz_ok; then
     WARNINGS=true
 fi
 
@@ -238,7 +259,8 @@ if $JSON_MODE; then
     "m365": {"ok": $m365_ok, "message": "$m365_msg"},
     "disk": {"ok": $disk_ok, "message": "$disk_msg"},
     "sync_tasks": {"ok": $sync_ok, "message": "$sync_msg"},
-    "symlinks": {"ok": $symlinks_ok, "message": "$symlinks_msg"}
+    "symlinks": {"ok": $symlinks_ok, "message": "$symlinks_msg"},
+    "schutzmechanik": {"ok": $schutz_ok, "message": "$schutz_msg"}
   },
   "critical_failures": $CRITICAL_FAIL,
   "warnings": $WARNINGS
@@ -256,6 +278,7 @@ else
     printf "Sync-Tasks:     %s\n" "$sync_msg"
     printf "Symlinks:       %s\n" "$symlinks_msg"
     printf "Dok-Pipeline:   %s\n" "$prod_msg"
+    printf "Schutzmechanik: %s\n" "$schutz_msg"
     echo "─────────────────────────────────────────────"
     echo "STATUS: $OVERALL"
     echo ""
