@@ -2,6 +2,14 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-07-30 — Zwei offene Punkte geschlossen (GitHub-App: Verzicht · User-Commands: umgesetzt)
+- QUESTIONS Punkt 2 (`/install-github-app`): **endgueltiger Verzicht, Entscheid Raphael
+  30.07.2026** — GitHub bleibt reines Backup, kein Issue-/PR-Betrieb; nach «Beantwortet»
+  verschoben, Konzeptdokument 260729 nachgefuehrt. Nicht erneut vorschlagen.
+- QUESTIONS Punkt 3 (User-Level-Slash-Commands): umgesetzt — `~/.claude/commands` →
+  `NAS/commands` auf Mini und MacBook Pro, Onboarding via `neue-station.sh` Schritt 4b;
+  nach «Beantwortet» verschoben. Verbleibende offene Punkte neu nummeriert (0a, 1–3).
+
 ## 2026-07-29 (Wissens-Chef Run 20) — ERST-PRUEFUNG dieser KB im Cross-KB-Lauf
 - **[befund, geht an Raphael] Der Hub widerlegt seine eigene, tagesaktuelle Regel.** Die in
   `wiki/kontext-architektur.md` gefuehrte Entscheidungsregel («automatisch oder lazily?») schliesst

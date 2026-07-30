@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.07.2026 10:07:50
+Stand: 30.07.2026 10:17:56
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 10:01)
+- Developer/jans/ai/hub  (letzte Aktivitaet 10:14)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.07.2026 10:07:50
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ae7b0518 vollgas-radar 30.07. 09:57: P1 hub-chef-Tagesbriefing heute ausgefallen (API-Abbruch 09:02, Registry meldet Lauf als erfolgt, Postausgang rj@ ohne Briefing), P2 Korrektur-Fan-out als Sollbruchstelle (zahlungsabgleich wich inline aus und ueberlebte), P3 mahnwesen 1h56 durch Sync-Task-Drift aus dem SessionStart-Hook
+- 3baf6123 Freigabe-Schwelle fuer Sync-Tasks: sync-task-guard.sh, Runner+Check haengen ein, freigabe/<station>-Queue, Doku und Regeln (Anlass 30.07. SSH-Key ohne Freigabe)

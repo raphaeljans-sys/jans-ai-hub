@@ -17,24 +17,25 @@ Luecken und ungeklaerte Fragen. Wird beim Ingestieren neuen Materials abgearbeit
    Zu klaeren: braucht ein MA-Onboarding eine unveraenderliche Policy-Schicht, oder genuegt
    der NAS-Symlink-Weg?
 
-2. **`/install-github-app` nicht eingerichtet.** Die Lecture zeigt `@claude` auf Issues und
-   PRs. Der Hub nutzt GitHub nur als Backup (kein Issue-Betrieb). Zu klaeren: entsteht durch
-   Issue-basierte Auftraege ein Nutzen, oder bleibt das Handy ueber `dispatch-run.sh` der
-   bessere Weg?
-
-3. **Slash-Commands nur auf Projektebene.** `~/.claude/commands/` existiert nicht (geprueft
-   29.07.). Damit sind die zehn Hub-Commands ausserhalb des Repos nicht verfuegbar. Zu
-   klaeren: welche davon sind stationsweit sinnvoll (`/nas`, `/status`, `/m365`)?
-
-4. **Versionsbindung unbekannt.** Die Lecture nennt `/vibe`, `--resume`, `/memory` und
+2. **Versionsbindung unbekannt.** Die Lecture nennt `/vibe`, `--resume`, `/memory` und
    Sub-Ordner-CLAUDE.md, ohne Versionen zu nennen. Zu pruefen, welche davon in der hier
    installierten Fassung tatsaechlich existieren — nicht annehmen.
 
-5. **Token-Kosten des Grundkontexts pro Modell.** Gemessen wurde am 29.07. die Byte-Groesse
+3. **Token-Kosten des Grundkontexts pro Modell.** Gemessen wurde am 29.07. die Byte-Groesse
    (87'398 B nach der Diaet, grob 21'800 Token). Eine exakte Tokenzahl je Modell fehlt.
    Nutzen: erst ab der naechsten groesseren Diaet-Runde relevant.
 
 ## Beantwortet
+
+- **`/install-github-app` (@claude auf Issues/PRs)** (gestellt 29.07., entschieden
+  30.07.2026 durch Raphael): **Verzicht, endgueltig.** GitHub bleibt reines Backup ohne
+  Issue-/PR-Betrieb; Auftraege von unterwegs laufen ueber `dispatch-run.sh` (Handy) bzw.
+  `remote-tasks/`. Die App wird NICHT installiert und nicht erneut vorgeschlagen.
+
+- **Slash-Commands nur auf Projektebene** (gestellt 29.07., umgesetzt 30.07.2026):
+  `~/.claude/commands` ist auf beiden Stationen als Symlink auf `NAS/commands` gesetzt —
+  alle Hub-Commands funktionieren jetzt auch ausserhalb des Repos. Neue Stationen erhalten
+  den Symlink automatisch via `neue-station.sh` (Schritt 4b).
 
 - **Kandidaten aus dem Ordner `Agenten` + Ordner `Prompts`** (gestellt 29.07., entschieden
   29.07.2026 durch Raphael): Drei-Marken-Strategie verworfen (DOCX geloescht), Ordner

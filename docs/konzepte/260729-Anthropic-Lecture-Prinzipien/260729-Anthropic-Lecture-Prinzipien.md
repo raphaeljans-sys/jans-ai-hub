@@ -241,9 +241,11 @@ geleistete Arbeit.
   Stationen Overhead. Wird relevant, sobald weitere Mitarbeitende eigene Stationen
   bekommen. Als offener Punkt erfasst.
 - **`/install-github-app`** (@claude auf Issues/PRs): der Hub nutzt GitHub nur als Backup,
-  der Handy-Weg ueber `dispatch-run.sh` ist etabliert. Als offener Punkt erfasst.
+  der Handy-Weg ueber `dispatch-run.sh` ist etabliert. **Entschieden 30.07.2026 (Raphael):
+  endgueltiger Verzicht — die App wird nicht installiert und nicht erneut vorgeschlagen.**
 - **User-Level-Slash-Commands** (`~/.claude/commands/`): waere fuer `/nas`, `/status`,
-  `/m365` sinnvoll, aber nicht Teil des Auftrags. Als offener Punkt erfasst.
+  `/m365` sinnvoll, aber nicht Teil des Auftrags. **Umgesetzt 30.07.2026: Symlink auf
+  `NAS/commands` auf beiden Stationen; neue Stationen via `neue-station.sh` Schritt 4b.**
 
 ## Nebenbefunde aus der Messung
 
