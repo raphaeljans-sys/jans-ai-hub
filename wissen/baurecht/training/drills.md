@@ -1080,6 +1080,18 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   in **§ 245 Abs. 2 lit. a PBG** (Gemeinschaftsanlagen). Auch das Ziel «Fahrzeuge ausserhalb des
   oeffentlichen Grundes» steht in **Abs. 2** (nicht Abs. 1). _[2026-07-12]_
 
+## Run 70 (2026-07-30) — Meta-Lehre: Verdichtungs-Drift trotz korrekter Quelle
+
+- **F (Modell D, Methodik):** Diese Karteikarte (Z. 1077-1081) hatte die richtige Zuordnung des
+  Interessen-Katalogs zu § 245 Abs. 2 lit. a bereits seit 2026-07-12 — trotzdem behauptete der
+  Wiki-Artikel [[fahrzeugabstellplaetze-und-parkierung]] bis Run 70 das Gegenteil. Wie konnte das
+  passieren, obwohl die korrekte Antwort im Haus lag? — **A:** Die **Verdichtung** vom
+  Buch-Destillat in den Wiki-Fliesstext ist eine eigene Kompressionsstufe, die Fehler unabhaengig
+  von Destillat/Drills neu einfuehren kann (gleiches Muster wie Art. 679 Abs. 2 ZGB / § 220 PBG in
+  Run 69). **Lehre fuer jeden Modell-D-Lauf:** den Wiki-Artikel nicht nur gegen den amtlichen
+  Volltext abgleichen, sondern auch gegen das eigene Buch-Destillat und bestehende Drills — eine
+  bereits vorhandene Korrektur kann sonst unbemerkt wieder verlorengehen. _[2026-07-30]_
+
 ## Run 30 (2026-07-12) — Modell D Volltextabgleich §§ 233-237 / 326-329 / 340-341 PBG
 
 - **F (Modell A · Frage→Beleg):** Ein Nachbar will einer Baueingabe die «fehlende Baureife» wegen einer

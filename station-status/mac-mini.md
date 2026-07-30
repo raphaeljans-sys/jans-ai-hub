@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.07.2026 02:25:09
+Stand: 30.07.2026 02:35:13
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 02:34)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -14,4 +14,4 @@ Stand: 30.07.2026 02:25:09
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- da9e2312 Normen Run 38 (3/3): alle 7 BfU-Verifikationen abgeschlossen — Wohnungsbau ist eine Kantonssynopse (alle ZH-Fundstellen bestaetigt, VD-Kategorisierung korrigiert), Laderampen-V4 und Art.-229-Kumulationspflicht ergaenzt; Lauf-Report, INDEX, REGISTER, QUESTIONS, Inventar und CHANGELOG vollstaendig nachgefuehrt
+- f4251144 nas-selfcommit: 1 Datei(en) 2026-07-30 02:30

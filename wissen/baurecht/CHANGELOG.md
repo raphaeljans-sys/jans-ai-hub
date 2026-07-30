@@ -3,6 +3,27 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-30 (Buch-Run 70, Festigungsmodus) — Verdichtungs-Drift in [[fahrzeugabstellplaetze-und-parkierung]] korrigiert
+- **Modell-D-Wortlautabgleich** §§ 242-248 PBG (`raw/260607_amtlich_zh_pbg.md`, Fassungsstand
+  weiterhin Nachtrag 133) gegen den Wiki-Artikel `wiki/fahrzeugabstellplaetze-und-parkierung.md`
+  (ältester `verifiziert`-Kern, 2026-07-12) — ältester noch unverifizierter Kandidat laut
+  Empfehlung Run 69.
+- **1 Korrektur:** § 242 Abs. 2 PBG enthält amtlich **keinen Interessen-Katalog** — der Wiki-Artikel
+  behauptete «bei überwiegendem öffentlichem Interesse (Verkehr, Wohngebiets-/Natur-/Heimatschutz,
+  Luft, Gewässer)» als sei diese Aufzählung Teil von § 242 Abs. 2. Sie steht amtlich in
+  **§ 245 Abs. 2 lit. a PBG** (Gemeinschaftsanlagen). **Der Fehler existierte nur im Wiki-Artikel**:
+  sowohl das Buch-Destillat `buecher/band-2/13-fahrzeugabstellplaetze-spielflaechen-teil3.md`
+  (Korrektur bereits seit dem ursprünglichen Modell-D-Lauf 2026-07-12 dokumentiert) als auch eine
+  bestehende Karteikarte in `training/drills.md` (Z. 1077-1079) hatten die richtige Zuordnung —
+  die **Verdichtung** vom Destillat in den Wiki-Artikel hatte den Fehler gegen die eigene, bereits
+  korrekte Quelle re-eingeführt (dasselbe Kompressionsmuster wie Art. 679 Abs. 2 ZGB / § 220 PBG
+  in Run 69). §§ 243 Abs. 1-3, 244 Abs. 1-4, 245-248, § 309 Abs. 1 lit. b/i sonst CONFIRMED.
+- **Lehre:** Modell-D-Re-Verifikation muss den Wiki-Artikel nicht nur gegen den amtlichen Volltext,
+  sondern auch gegen das **eigene Buch-Destillat und bestehende Drills** abgleichen — eine bereits
+  im Haus vorhandene Korrektur kann durch spätere Verdichtung wieder verlorengehen.
+- Geändert: `wiki/fahrzeugabstellplaetze-und-parkierung.md` (Frontmatter + § 242 Abs. 2-Absatz),
+  `training/curriculum.md`, `outputs/2026-07-30_buch-run70.md` (neu).
+
 ## 2026-07-29 (Wissens-Chef Run 20, Cross-KB) — P1: der Wasserversorgungsteil des WsG ist im ganzen Hub unverarbeitet
 - **[bring-schuld P1] §§ 95-100 WsG und § 178 WsV sind nie destilliert worden**, obwohl der
   WsG-Volltext seit dem 28.07. im Haus liegt. Gegenprobe: grep nach «Bezugspflicht»,

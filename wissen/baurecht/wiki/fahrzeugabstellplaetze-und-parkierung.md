@@ -5,8 +5,8 @@ status: established
 kanton: ZH
 paragraphen: ["§ 242 PBG", "§ 243 PBG", "§ 244 PBG", "§ 245 PBG", "§ 246 PBG", "§ 247 PBG", "§ 248 PBG", "§ 309 Abs. 1 lit. i PBG", "Art. 44a USG", "Art. 12 Abs. 1 lit. c USG", "Art. 31 LRV"]
 quellen: ["[[13-fahrzeugabstellplaetze-spielflaechen-teil3]]", "raw/260607_amtlich_zh_pbg.md (§§ 242-249)", "raw/260713_amtlich_zh_ppv-stadt-zuerich.md (PPV Stadt Zuerich Art. 8 Abs. 5-8, amtliche Primaerquelle Fassung GRB 16.12.2015 + Leitfaden Tiefbauamt 09.07.2024)"]
-last_updated: 2026-07-27
-verifiziert: 2026-07-12 (Modell-D §§ 242-249 PBG gegen amtl. Volltext; 2 Fassungsstand-Korrekturen); 2026-07-13 (Buch-Run 33, Modell-D: PPV Stadt Zuerich Art. 8 Abs. 5-8 wortlautbelegt/Fassungsstand korrigiert; Wegleitung 1997 als weiterhin geltend bestaetigt; VSS-Veloabstellplatz-Normbezug SN 640 065 statt SN 640 060/066 korrigiert; VSS-Rampenneigungsnorm auf aktuelle Nomenklatur VSS 40 291 [2021] praezisiert); 2026-07-25 (Buch-Run 54, Fassungsstand-Check: amtliche Primaerquelle der PPV-Fassung 16.12.2015 lokalisiert und Art. 8 Abs. 5-8 direkt am Gesetzeswortlaut CONFIRMED, ersetzt die bisherige Sekundaerquellen-Absicherung ueber den Leitfaden); 2026-07-27 (Buch-Run 60, Festigungsmodus Prioritaet a: Cross-KB-Frage Run 11 zum Behindertenparkplatz-Kennwert geklaert — Wert stammt woertlich aus dem Buch-Destillat [S. 900], das SN 521 500 Korrigendum C3 [1.10.2013] Ziff. 9.7.2/9.7.3 zitiert, nicht die SIA-500:2009-Basisausgabe; Norm-Wortlaut selbst kostenpflichtig/nicht frei verifizierbar, keine Korrektur noetig)
+last_updated: 2026-07-30
+verifiziert: 2026-07-12 (Modell-D §§ 242-249 PBG gegen amtl. Volltext; 2 Fassungsstand-Korrekturen); 2026-07-13 (Buch-Run 33, Modell-D: PPV Stadt Zuerich Art. 8 Abs. 5-8 wortlautbelegt/Fassungsstand korrigiert; Wegleitung 1997 als weiterhin geltend bestaetigt; VSS-Veloabstellplatz-Normbezug SN 640 065 statt SN 640 060/066 korrigiert; VSS-Rampenneigungsnorm auf aktuelle Nomenklatur VSS 40 291 [2021] praezisiert); 2026-07-25 (Buch-Run 54, Fassungsstand-Check: amtliche Primaerquelle der PPV-Fassung 16.12.2015 lokalisiert und Art. 8 Abs. 5-8 direkt am Gesetzeswortlaut CONFIRMED, ersetzt die bisherige Sekundaerquellen-Absicherung ueber den Leitfaden); 2026-07-27 (Buch-Run 60, Festigungsmodus Prioritaet a: Cross-KB-Frage Run 11 zum Behindertenparkplatz-Kennwert geklaert — Wert stammt woertlich aus dem Buch-Destillat [S. 900], das SN 521 500 Korrigendum C3 [1.10.2013] Ziff. 9.7.2/9.7.3 zitiert, nicht die SIA-500:2009-Basisausgabe; Norm-Wortlaut selbst kostenpflichtig/nicht frei verifizierbar, keine Korrektur noetig); 2026-07-30 (Buch-Run 70, vollstaendiger Modell-D-Wortlautabgleich §§ 242-248 PBG gegen raw/260607_amtlich_zh_pbg.md, Fassungsstand weiterhin Nachtrag 133 — 1 Korrektur: § 242 Abs. 2 PBG enthaelt keinen Interessen-Katalog, dieser steht in § 245 Abs. 2 lit. a PBG; Fehler war bereits im Buch-Destillat [[13-fahrzeugabstellplaetze-spielflaechen-teil3]] seit 2026-07-12 korrekt erfasst, aber nie in den Wiki-Artikel nachgezogen worden. § 243 Abs. 1-3, § 244 Abs. 1-4, §§ 245-248, § 309 Abs. 1 lit. b/i sonst CONFIRMED, 0 weitere Korrekturen)
 ---
 
 # Fahrzeugabstellplaetze und Parkierung (Pflichtparkplaetze ZH)
@@ -23,10 +23,19 @@ kommunalen Erlass.
 - **§ 242 Abs. 1 PBG** — Gemeinde bestimmt den Normbedarf (i.d.R. nach **Geschossflaeche**;
   seit PBG-Revision 1991 sind Dach-/UG-Flaechen nur beschraenkt anrechenbar, **§ 255 PBG** →
   massgebliche Geschossflaeche klar definieren, BEZ 1994 Nr. 11).
-- **§ 242 Abs. 2 PBG** — bei ueberwiegendem oeffentlichem Interesse (Verkehr, Wohngebiets-/
-  Natur-/Heimatschutz, Luft, Gewaesser) darf die Gemeinde die Zahl **tiefer** ansetzen **und**
-  ein **Maximum** festlegen (Parkraumbeschraenkung). In Zentrums-/Arbeitsplatzlagen ist die
-  **Obergrenze oft bindender als das Minimum**.
+- **§ 242 Abs. 2 PBG** — Ziel: die Verkehrsmittel sollen **ausserhalb des oeffentlichen
+  Grundes** aufgestellt werden koennen; besteht ein **ueberwiegendes oeffentliches
+  Interesse**, darf die Gemeinde die Zahl **tiefer** ansetzen **und** die Gesamtzahl
+  begrenzen (Parkraumbeschraenkung/Maximum). In Zentrums-/Arbeitsplatzlagen ist die
+  **Obergrenze oft bindender als das Minimum**. Der amtliche Wortlaut von § 242 Abs. 2
+  selbst **nennt keinen Interessen-Katalog** — die konkrete Aufzaehlung (Verkehr, Schutz
+  von Wohngebieten, Natur- und Heimatschutzobjekten, Gewaessern) steht in **§ 245 Abs. 2
+  lit. a PBG** (Gemeinschaftsanlagen), nicht in § 242 Abs. 2. **Korrigiert Buch-Run 70
+  (2026-07-30):** die vorherige Fassung dieses Artikels hatte den Interessen-Katalog
+  faelschlich § 242 Abs. 2 zugeordnet — derselbe Fehler war im Buch-Destillat
+  [[13-fahrzeugabstellplaetze-spielflaechen-teil3]] bereits am 2026-07-12 erkannt und dort
+  korrigiert, aber nie in diesen Wiki-Artikel nachgezogen worden (Verdichtungs-Drift, Muster
+  wie Run 69 Art. 679 ZGB / § 220 PBG).
 - Steuernde Instrumente:
   - **Massnahmenplan Luftreinhaltung** (Art. 44a USG / Art. 31 LRV; ZH: Fassung 2008, Teil-
     revision 2016): behoerdenverbindliche Verwaltungsverordnung, **allein keine Grundlage
