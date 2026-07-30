@@ -292,7 +292,9 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
     Nutzungszeilen «Verkaufsgeschäfte ≤ 1200 m²/≤ 100 P», «Landwirtschaftliche Bauten» und
     «Wohnbauten EFH/REFH» endet die Matrix nach der Spalte «4»; für 5-6 und 7-8 Geschosse
     existieren dort **keine Zellen**. Aussagen dieser Zeilen dürfen nicht als «durchgehend bis
-    8 Geschosse» gelesen werden — die Quelle trifft dort schlicht keine Aussage.
+    8 Geschosse» gelesen werden — die Quelle trifft dort schlicht keine Aussage. Das ist **keine
+    durchgehende Konvention des Hefts**: Tabelle 5 führt für dieselben drei Nutzungszeilen sehr wohl
+    Zellen im Geschossblock 4-8. Die Lücke betrifft nur Tab. 3 und Tab. 4.
   - Einzelne Tabellenwerte (insbesondere in den Spalten 5-6 und 7-8 Geschosse sowie
     Fussnoten ②③④⑤) sind im Scan teils sehr klein/kontrastarm gedruckt; für die exakte
     Zellwert-Verifikation eines konkreten Falls ist Tabelle 3 im Original (S. 8-9) nachzuschlagen,

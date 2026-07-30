@@ -1,5 +1,64 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
+## Run 38 (MacBook Pro, 30.07.2026) — Vorrang-Auftrag erfüllt, Quelle aber NICHT ausgereizt
+
+**Auftrag.** Raphael hatte am 29.07. entschieden, für `lignum-lignatec-brandschutz` eine achte
+Runde zu fahren, und zwar mit der Methode, die den Befund erst sichtbar macht: die **rechnerische**
+Zellaufnahme, angewandt auf **Tab. 3 und Tab. 4** — bisher war sie nur auf Tab. 5 gelaufen. Run 37
+konnte sie nicht mehr ausführen (OAuth-Token). Run 38 hat sie ausgeführt.
+
+**Ergebnis: 7 Kernbefunde + 4 Nebenbefunde.** Die Endbedingung des Vorrang-Auftrags («keine
+Kernbefunde → Quelle ausgereizt → Umstellung auf Ereignis-Trigger vorschlagen») ist damit **nicht**
+erfüllt. Die Umstellung wird ausdrücklich nicht vorgeschlagen.
+
+### Was die Methode gefunden hat, was vier Runden nicht fanden
+
+1. **Die drei Tabellen haben drei verschiedene Legenden.** Tab. 3: weiss = Holzbauteile, grau =
+   beidseitig nicht brennbar verkleidet, blau = keine Holzbauweise als Standardkonzept. Tab. 4:
+   zusätzlich ein zweiter Grauton — hellgrau = nur fluchtwegseitig verkleidet, dunkelgrau =
+   beidseitig. Tab. 5: weiss = Holz mit BKZ ≥ 4.2, grau = nur unter bedingten Auflagen. Das
+   Destillat führte **allein die Tab.-5-Bedeutung** und lud damit dazu ein, «grau» in Tab. 3/4
+   falsch zu lesen. Alle drei Legenden sind jetzt erfasst und gegeneinander abgegrenzt.
+2. **Die zwei Grautöne in Tab. 4 sind die Farbkodierung der Schrägstrich-/Bindestrich-Notation.**
+   Damit ist die Run-32/33-Korrektur erstmals auf einem methodisch unabhängigen Weg bestätigt
+   (Farbe statt Zeichenerkennung) — keine Regression.
+3. Drei Befunde derselben Wurzel wie in Run 36: eine Aussage über einen Spaltenblock wurde auf die
+   ganze Zeile verallgemeinert (Beherbergungsbetriebe [a] in Tab. 3 und Tab. 4; «durchgehend» bei
+   EFH/REFH).
+4. Zwei Vollständigkeitsbefunde, die nur die umgekehrte Fragerichtung finden konnte: die
+   Sprinkler-Werte für Wohnbauten MFH 5-6 Geschosse in Tab. 3 fehlten ganz, und die Zeile
+   Beherbergungsbetriebe [b] Hotels fehlte in den Tab.-3-Eckwerten vollständig.
+5. **Abdeckungsgrenze der Quelle**: Tab. 3 und Tab. 4 treffen für drei Nutzungszeilen
+   (Verkaufsgeschäfte ≤ 1200 m², Landwirtschaft, EFH/REFH) für 5-8 Geschosse gar keine Aussage —
+   dort existieren keine Zellen. Das Destillat suggerierte mit «durchgehend» das Gegenteil.
+
+### Offen / vorzulegen
+
+1. **Neunte Runde `lignum-lignatec` ist fällig.** Noch nicht rechnerisch aufgenommen sind die acht
+   Übersichtsaxonometrien (S. 16-23) und Tabelle 2 (S. 4-5). Nach der geltenden Regel (Methodik-
+   Pflicht 6) darf die Quelle erst als ausgereizt gelten, wenn die schärfste Methode auf **alle**
+   ihre Teile gelaufen ist.
+2. **Entscheid zu `lignum-4-1` neu vorzulegen.** Raphael hatte es am 29.07. als «speculative,
+   stabil, keine Routinerunden mehr» akzeptiert — begründet damit, dass 5 von 6 Befunden der
+   siebten Runde Formalien waren. Die achte Runde (Abdeckungsmessung statt Behauptungsprüfung) hat
+   einen **inhaltlichen** Befund erbracht: in Kap. 5.2.5 fehlte der ganze Absatz zur Abschottung
+   von Installationsdurchführungen durch brandabschnittsbildende Bauteile RF1. Das Stabilitäts-
+   Argument galt für die alte Prüfrichtung. Zu entscheiden: weitere Abdeckungs-Runde freigeben,
+   oder den Stopp bewusst bestätigen im Wissen um mögliche Abdeckungslücken.
+3. **Die OCR-Abdeckungsmessung bei `lignum-4-1` ist unvollständig** — sie fand 34 Nummern, das
+   Destillat zitiert 66. Dichte Katalogtabellenseiten OCRn bei 200 dpi schlecht. Wer den Diff als
+   Vollständigkeitsnachweis führen will, muss die Extraktion bei höherer Auflösung oder manuell
+   vervollständigen. Bis dahin ist der Diff eine **untere Schranke**.
+4. **Der Aktualitäts-Vorbehalt bleibt unverändert offen**: `lignum-lignatec` datiert von 2005 und
+   bezieht sich auf die VKF-Vorschriften 2003. Ein Abgleich gegen die VKF-Generation 2015 hat nie
+   stattgefunden und ist durch keine Verifikationsrunde ersetzbar. Von allen offenen Punkten zu
+   diesem Destillat ist das der praktisch folgenreichste — sämtliche verifizierten Tabellenwerte
+   stehen unter diesem Vorbehalt.
+5. **Anmeldung war in Run 38 wieder gültig** (Run 37 hatte alle Agenten an einem 401 verloren).
+   Der Punkt aus Run 37 ist damit erledigt; ob es sich um eine dauerhafte oder eine temporäre
+   Heilung handelt, ist nicht feststellbar.
+
+
 ## Run 37 (MacBook Pro, 29.07.2026) — die 2013-Blindzone beziffert und fünf Register-Fehler belegt
 
 **Ausgangslage.** Der Cross-KB-Eintrag vom 27.07. hat den Einzelfall SIA 385/9 geflaggt und

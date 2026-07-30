@@ -7,7 +7,26 @@ herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direkto
 ausgabe: "Lignum-Dokumentation Brandschutz, Themenblock 4 «Bauteile in Holz», Publikation 4.1 «Decken, Wände und Bekleidungen mit Feuerwiderstand». Erschienen Mai 2015, Nachdruck/Aktualisierung Oktober 2017. Von der TKB-VKF in Bezug auf Übereinstimmung mit den Mindestanforderungen der Schweizerischen Brandschutzvorschriften VKF, Ausgabe 2015 (BSV 2015), Stand 01.01.2017 geprüft und am 06.09.2017 als «Stand der Technik Papier (STP)» anerkannt. Laut Einleitung (S. 4) weist die vorliegende Publikation gegenüber der Erstausgabe von Mai 2015 in technischer Hinsicht keine relevanten Unterschiede auf; die Erstausgabe kann weiterhin angewendet werden."
 gelesen: "alle 40 A3-Scanblaetter (Teile A+B+C, 5+15+20) = gedruckte Seiten 2-80 komplett, Titelblatt/Impressum/Buchruecken eingeschlossen — Bild-Scan ohne Textlayer, visuell erfasst. Praezisierung 260729 Run 36: je Scanblatt eine gedruckte Doppelseite, die Publikation umfasst 80 gedruckte Seiten (Impressum S. 80) — die fruehere Angabe 'alle 40 Seiten' widersprach den durchgehend bis S. 80 zitierten Seitenzahlen."
 datenstand: "Mai 2015 / STP-Anerkennung 06.09.2017"
-status: "speculative (SIEBTE unabhaengige Refuter-Runde 29.07.2026, Run 36: BEANSTANDET mit 6
+status: "speculative (ACHTE Runde 30.07.2026, Run 38: BEANSTANDET mit 1 inhaltlichen + 3 formalen
+  Befunden. NEUE METHODE (nachrangiger Teil des Vorrang-Auftrags): statt erneut zu pruefen, was das
+  Destillat behauptet, wurde die ABDECKUNG gemessen — alle 40 A3-Scanblaetter mit `pdftoppm -r 200`
+  (Praefix l41r8-) gerendert, per tesseract OCR gelesen, daraus alle Tabellen-/Abbildungsnummern
+  (Muster NNN-N) extrahiert und gegen die 66 im Destillat zitierten Nummern gediffed. Ergebnis:
+  fuenf in der Quelle belegte Nummern fehlten im Destillat (340-1, 523-1, 524-1, 525-1, 525-2).
+  Vier davon sind reine Fundstellen-Luecken (der Inhalt ist erfasst), eine hat einen echten
+  Inhaltsverlust aufgedeckt: (1) INHALTLICH, Kap. 5.2.5 (S. 63) — der ganze Absatz zur Durchfuehrung
+  von Installationen DURCH brandabschnittsbildende Bauteile RF1 fehlte (Bauteilleibungen gemaess
+  Kap. 5.2.4 ausfuehren; Durchbrueche und Leitungsdurchfuehrungen feuerwiderstandsfaehig
+  verschliessen, Verweis Brandschutzvorschriften [1]; Abb. 525-2). Das ist eine Abschottungspflicht,
+  also eine ausfuehrungsrelevante Anforderung, nicht eine Nuance. Vom Hauptprozess am eigenen
+  Rendering der S. 63 im Wortlaut nachgeprueft. (2)-(4) Fundstellen ergaenzt: Abb. 340-1
+  (Situationen 1-4, Kap. 3.4), Abb. 524-1 inkl. Bild 1 (Kap. 5.2.4), Abb. 525-1 Bild 1/2 (Kap.
+  5.2.5). GRENZE DIESER RUNDE, ausdruecklich ausgewiesen: die OCR fand nur 34 der real vorhandenen
+  Nummern (dichte Tabellenseiten OCRn schlecht), der Diff ist also eine untere Schranke — es koennen
+  weitere nicht zitierte Tabellen existieren. Die Zellwerte der Katalogtabellen wurden in dieser
+  Runde NICHT erneut geprueft (das war Gegenstand der Runden 5-7, dort ohne Regression).
+  Kein Nulldurchgang.
+  Vorherige Runde (SIEBTE, 29.07.2026, Run 36): BEANSTANDET mit 6
   Befunden, davon nur EINER inhaltlich. (1) INHALTLICH, Kap. 4.4 zu Tab. 447-1 (S. 54): bei
   Fugenbreite > 5 mm nannte das Destillat pauschal 'nur die BSP-Varianten' — Variante D
   (80 mm + beidseitig BSP30) traegt in der Zelle aber Fussnote 4 'Fugenbreite maximal 5 mm',
@@ -68,7 +87,7 @@ status: "speculative (SIEBTE unabhaengige Refuter-Runde 29.07.2026, Run 36: BEAN
   Tab. 462-2 einschichtig/zweischichtig vertauscht) sowie einer zurueckgenommenen Regression
   (Tab. 446-1 Untergrenze 50 mm war korrekt). Bleibt speculative bis zu einer Runde mit
   sauberem Nulldurchgang.)"
-last_updated: 2026-07-29
+last_updated: 2026-07-30
 links: [[REGISTER]]
 ---
 
@@ -343,7 +362,8 @@ Baustoffe, nicht fünf. Hier wiederhergestellt.)
 ### 3.4 Anschlüsse brandabschnittsbildender Bauteile (S. 17)
 
 Anschlussbereiche brandabschnittsbildender Bauteile müssen dieselbe Feuerwiderstands-
-dauer aufweisen wie die angrenzenden Bauteile. Regeln: durchgehende Fugen vermeiden;
+dauer aufweisen wie die angrenzenden Bauteile (Abb. 340-1, Situationen 2, 3 und 4 gegenüber
+Situation 1; Fundstelle ergänzt 260730 Runde 8). Regeln: durchgehende Fugen vermeiden;
 Beplankungen passgenau in Eckbereichen führen; bei mehrschichtigen Beplankungen Stösse
 in Eckbereichen versetzen; Wände kraftschlüssig an benachbarte Bauteile anschliessen;
 bei Deckenanschlüssen an Wände Auflager-Statik auch nach der geforderten
@@ -643,19 +663,27 @@ Repräsentative Grössenordnungen (keine vollständige Wiedergabe der Varianten-
   Verbindungsmittel mit Durchmesser > 10 mm sind feuerwiderstandsfähig abzudecken; die
   Abdeckung muss mindestens die Feuerwiderstandsdauer der Brandschutzbekleidung erreichen
   (S. 61).
-- **5.2.4 Bauteildurchbrüche** (S. 62): Bauteilleibungen bei Durchbrüchen für Fenster/
-  Türen/Leitungsdurchführungen mit Brandschutzbekleidung Ktt-RF1 auszukleiden (gleiche
+- **5.2.4 Bauteildurchbrüche** (S. 62, Abb. 524-1): Bauteilleibungen bei Durchbrüchen für
+  Fenster/Türen/Leitungsdurchführungen mit Brandschutzbekleidung Ktt-RF1 auszukleiden (gleiche
   Feuerwiderstandsdauer wie in der Bauteilfläche). Bei Konstruktionen aus zusammengesetzten
   Querschnitten (beplankte Wände, Balken-, Kasten-, Rippendecken) sind die Durchbrüche
-  zusätzlich mit umlaufenden Füllhölzern von mindestens 40 mm Breite zu umrahmen;
+  zusätzlich mit umlaufenden Füllhölzern von mindestens 40 mm Breite zu umrahmen
+  (Abb. 524-1, Bild 1);
   Befestigung gemäss Herstellervorgaben, Verbindungsmittelabstand max. 100 mm,
   Zwischen- und Randabstände des Herstellers beachten.
 - **5.2.5 Haustechnische Installationen** (S. 63): grundsätzlich ausserhalb der
-  brandschutztechnisch wirksamen Bauteilquerschnitte zu führen; sind Installationen in
-  dieser Ebene erforderlich, ist die Brandschutzbekleidung dahinter durchzuführen und der
-  Feuerwiderstand des verbleibenden Restquerschnitts zu gewährleisten. Bauteile RF1 sind
-  nicht ohne weiteres dauerwärmebeständig: Sicherheitsabstände zu Feuerungs-/Abgasanlagen
-  ab Aussenkante der Brandschutzbekleidung einhalten.
+  brandschutztechnisch wirksamen Bauteilquerschnitte in Installationsebenen (Bodenaufbauten,
+  Vorwandkonstruktionen, Unterdecken) zu führen (Abb. 525-1, Bild 1); sind Installationen in
+  dieser Ebene erforderlich, ist die Brandschutzbekleidung dahinter durchzuführen (Abb. 525-1,
+  Bild 2) und der Feuerwiderstand des verbleibenden Restquerschnitts zu gewährleisten.
+  **Durchführung durch brandabschnittsbildende Bauteile RF1** (Ergänzung 260730 Runde 8, im
+  Destillat bis dahin ganz fehlend): dort sind die Bauteilleibungen gemäss Kap. 5.2.4
+  (Bauteildurchbrüche) auszuführen, und Durchbrüche sowie Leitungsdurchführungen sind
+  **feuerwiderstandsfähig zu verschliessen** (Verweis auf die Brandschutzvorschriften [1]).
+  Abb. 525-2 zeigt Bauteilausbildung und Leitungsdurchführung schematisch für ein Bauteil RF1
+  aus zusammengesetztem Querschnitt und aus Vollquerschnitt. Bauteile RF1 sind nicht ohne
+  weiteres dauerwärmebeständig: Sicherheitsabstände zu Feuerungs-/Abgasanlagen ab Aussenkante
+  der Brandschutzbekleidung einhalten.
 
 ### 5.3 Decken RF1 mit Feuerwiderstandsdauer 30/60/90 Minuten (Übersicht Abb. 530-1, S. 64)
 
@@ -1051,3 +1079,42 @@ Da diese Runde einen neuen, quellenbelegten Befund ergab (Tab. 431-2), bleibt de
 **speculative**. Es handelt sich um die fünfte Runde in Folge mit mindestens einem Befund;
 ein sauberer Nulldurchgang (Voraussetzung für die Hebung auf `established`) steht weiterhin
 aus.
+
+- **30.07.2026, Run 38 (achte Runde)** — nachrangiger Teil des Vorrang-Auftrags Raphaels vom
+  29.07.2026, ausgeführt vom Hauptprozess selbst. Verdikt: **BEANSTANDET, 1 inhaltlicher +
+  3 formale Befunde**.
+  - **Methodenwechsel (der Punkt dieser Runde)**: Die Runden 1-7 haben stets geprüft, ob stimmt,
+    *was das Destillat behauptet*. Diese Runde hat stattdessen die **Abdeckung** gemessen — also
+    gesucht, was in der Quelle steht und im Destillat gar nicht vorkommt. Genau diese Umkehrung
+    hatte bei `lignum-lignatec-brandschutz` in derselben Nacht sieben Kernbefunde erzeugt.
+    Vorgehen: alle 40 A3-Scanblätter (Teile A+B+C) mit `pdftoppm -r 200 -png`, Präfix `l41r8-`
+    (Methodik-Pflicht 5), OCR mit `tesseract -l deu`, Extraktion aller Nummern im Muster NNN-N,
+    Diff gegen die 66 im Destillat zitierten Nummern.
+  - **Ergebnis des Diffs**: fünf in der Quelle belegte Nummern fehlten im Destillat — 340-1,
+    523-1, 524-1, 525-1, 525-2. Jede wurde am Original nachgeschlagen.
+  - **Befund 1 (inhaltlich, Kap. 5.2.5, S. 63)**: Das Destillat gab von Kap. 5.2.5 nur den ersten
+    und den letzten Absatz wieder. Der **mittlere Absatz fehlte vollständig**: «Bei der
+    Durchführung von Installationen durch brandabschnittsbildende Bauteile RF1 sind die
+    Bauteilleibungen gemäss Kapitel 5.2.4, Bauteildurchbrüche, auszuführen. Durchbrüche und
+    Leitungsdurchführungen sind feuerwiderstandsfähig zu verschliessen (siehe
+    Brandschutzvorschriften [1]).» — dazu der Verweis auf Abb. 525-2. Das ist die
+    Abschottungspflicht bei Installationsdurchführungen, eine ausführungsrelevante Anforderung
+    und kein Nuancenverlust. Der Wortlaut wurde vom Hauptprozess am eigenen Rendering der S. 63
+    vor der Übernahme im Bild verifiziert. Ergänzt.
+  - **Befunde 2-4 (formal, Fundstellen)**: Abb. 340-1 (Anschlussbereiche, Situationen 1-4) in
+    Kap. 3.4 ergänzt; Abb. 524-1 inkl. «Bild 1» in Kap. 5.2.4 ergänzt; Abb. 525-1 Bild 1/Bild 2
+    in Kap. 5.2.5 ergänzt. Der Inhalt dieser drei Stellen war jeweils bereits korrekt erfasst,
+    nur die Fundstelle fehlte. Abb. 523-1 ist mit dem bereits zitierten Abb. 523-2 im selben
+    Kapitel 5.2.3 abgehandelt.
+  - **Bestätigt ohne Befund**: Kap. 3.4 (Anschlüsse, alle sieben Regeln), Kap. 5.2.3 (inkl.
+    10-mm-Schaftdurchmesser-Grenze), Kap. 5.2.4 im vollen Wortlaut (Füllholz b ≥ 40 mm,
+    Verbindungsmittelabstand max. 100 mm, Hersteller-Zwischen-/Randabstände, Ktt-RF1 aus der
+    Legende Abb. 524-1).
+  - **Grenze dieser Runde, ausdrücklich ausgewiesen** (Methoden-Lehre aus Run 36): Die OCR fand
+    nur 34 der real vorhandenen Nummern — dichte Katalogtabellenseiten lesen sich bei 200 dpi
+    schlecht. Der Diff ist damit eine **untere Schranke**; es können weitere nicht zitierte
+    Tabellen existieren. Ausserdem wurden in dieser Runde **keine Zellwerte** der Katalogtabellen
+    nachgeprüft; das war Gegenstand der Runden 5-7 (dort ohne Regression). Wer die Quelle als
+    ausgereizt melden will, muss zuvor die Nummern-Extraktion bei höherer Auflösung oder manuell
+    vervollständigen.
+  - Kein Nulldurchgang, `status` bleibt `speculative`.

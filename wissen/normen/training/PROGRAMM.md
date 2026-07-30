@@ -103,8 +103,21 @@ der korrigierten Zahlen lautet der Entscheid:
 | `lignum-lignatec-brandschutz.md` | **Achte Runde fahren** — rechnerische Aufnahme von **Tab. 3 und Tab. 4** | genau diese Lücke hat bei Tab. 5 drei Kernbefunde erzeugt; die Methode ist dort noch nicht angewandt |
 | `lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md` | **als «speculative, stabil» akzeptiert**, keine Routinerunden mehr | rechnerische Zellprüfung ist dort Standard, 5 von 6 Befunden der siebten Runde waren formal, keine Regression |
 
+⚠ **Nachtrag Run 38 (30.07.2026) — der Entscheid zu `lignum-4-1` ist neu zu prüfen.** Die
+Auftragszeile des Scheduled Task verlangte für dieses Destillat trotzdem eine achte Runde
+(«nachrangig»); sie wurde gefahren, mit der neuen Methode «Abdeckung messen» statt «Behauptungen
+prüfen». Sie hat einen **inhaltlichen** Befund erbracht: in Kap. 5.2.5 (S. 63) fehlte der ganze
+Absatz zur Durchführung von Installationen durch brandabschnittsbildende Bauteile RF1 — also die
+Abschottungspflicht, eine ausführungsrelevante Anforderung. Die Einstufung «speculative, stabil,
+keine Routinerunden mehr» stützte sich darauf, dass 5 von 6 Befunden der siebten Runde Formalien
+waren. Dieses Argument trägt nicht mehr, denn es galt für die alte Prüfrichtung. **Vorlage an
+Raphael:** entweder eine weitere Abdeckungs-Runde für `lignum-4-1` freigeben (die OCR-Ausbeute war
+mit 34 von real mehr Nummern unvollständig), oder den Stopp bewusst bestätigen im Wissen, dass
+Abdeckungslücken bestehen können.
+
 Nach der achten Runde für `lignum-lignatec` ist die Datenlage belastbar; danach ist über die
-Rücktaktung dieses Destillats neu zu entscheiden. Der Status beider bleibt bewusst `speculative`
+Rücktaktung dieses Destillats neu zu entscheiden. **Run 38 hat dazu geliefert: sie ist NICHT
+belastbar genug für eine Rücktaktung** (7 Kernbefunde, siehe unten). Der Status beider bleibt bewusst `speculative`
 (nicht `established`), die dokumentierten Restbefunde bleiben im Destillat sichtbar.
 
 **Verbindliche Lehre, unabhängig vom Taktungsentscheid:** eine Runde mit wenigen Randbefunden ist
@@ -112,9 +125,44 @@ Rücktaktung dieses Destillats neu zu entscheiden. Der Status beider bleibt bewu
 Destillat als «ausgereizt» gilt, muss die schärfste verfügbare Prüfmethode auf **alle** seine
 Kern-Tabellen angewandt worden sein.
 
-⚠ **Die achte Runde konnte in Run 37 nicht mehr gefahren werden** (OAuth-Token abgelaufen, alle
-Refuter-Agenten scheiterten mit 401). Sie ist die erste Aufgabe des nächsten Laufs nach erneuerter
-Anmeldung.
+~~⚠ Die achte Runde konnte in Run 37 nicht mehr gefahren werden (OAuth-Token abgelaufen, alle
+Refuter-Agenten scheiterten mit 401).~~ **ERLEDIGT in Run 38 (30.07.2026).** Die Anmeldung war
+wieder gültig; Subagenten liefen fehlerfrei.
+
+### Ergebnis der achten Runde (Run 38, 30.07.2026) — und was daraus folgt
+
+Die rechnerische Zellaufnahme wurde auf Tab. 3 und Tab. 4 angewandt, beide vollständig
+(je 10 Nutzungszeilen × 2 Konzeptzeilen × 7 Geschossgruppen × 2 Unterspalten). Ergebnis:
+**7 Kernbefunde + 4 Nebenbefunde** — darunter drei, die dieselbe Wurzel haben wie die
+Tab.-5-Befunde aus Run 36 (eine Aussage über einen Spaltenblock wird auf die ganze Zeile
+verallgemeinert), und einer, der eine ganze Ebene der Quelle sichtbar macht: **die drei Tabellen
+führen drei verschiedene Legenden, und dieselbe Farbe bedeutet in Tab. 3/4 etwas anderes als in
+Tab. 5.** Das Destillat kannte nur die Tab.-5-Legende.
+
+**Damit ist die Endbedingung des Vorrang-Auftrags NICHT erfüllt.** Die Quelle ist nicht ausgereizt;
+die Umstellung dieses Tasks auf Ereignis-Trigger wird ausdrücklich **nicht** vorgeschlagen. Fällig
+ist eine neunte Runde, und für sie gilt dieselbe Regel wie bisher: sie muss eine Prüfmethode auf
+einen Teil der Quelle anwenden, auf dem diese Methode noch nicht gelaufen ist. Nicht mehr geprüft
+wurden bisher rechnerisch: die acht Übersichtsaxonometrien (S. 16-23) und Tabelle 2 (S. 4-5).
+
+**Die Methoden-Lehre bestätigt sich zum dritten Mal** (Run 35, Run 36, Run 38): eine Runde mit
+wenigen Randbefunden misst die Methode, nicht die Quelle. Sie ist deshalb als Methodik-Pflicht 6
+unten verankert.
+
+### Methodik-Pflicht 6 — Abdeckung messen, nicht nur Behauptungen prüfen
+
+Aus Run 38, gilt für jede Retro-Verifikation: Eine Runde, die nur prüft, ob stimmt, **was das
+Destillat behauptet**, kann grundsätzlich nicht finden, was im Destillat **fehlt**. Beide
+Fragerichtungen sind zu fahren, und im Report ist auszuweisen, welche gelaufen ist. Zwei
+praktikable Verfahren:
+- **Bei Tabellen:** die Tabelle als Ganzes rechnerisch aufnehmen (Zellraster, Median-RGB je Zelle,
+  Klassierung gegen die am Original gemessenen Legenden-Swatches) und Zelle für Zelle gegen das
+  Destillat halten — auch dort, wo das Destillat nichts behauptet. Die Legende jeder Tabelle
+  **einzeln** am Original messen; Legenden gelten nicht tabellenübergreifend.
+- **Bei umfangreichen Publikationen:** die Quelle rendern, per OCR alle Tabellen-/Abbildungsnummern
+  extrahieren und gegen die im Destillat zitierten Nummern diffen. Jede nicht zitierte Nummer am
+  Original nachschlagen. Die OCR-Ausbeute ist dabei als **untere Schranke** auszuweisen, nie als
+  Vollständigkeitsnachweis.
 
 ## Leitplanken (Qualität)
 
