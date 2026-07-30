@@ -3,10 +3,16 @@
 # Konzept: docs/konzepte/260729-Rollen-Taxonomie/
 #
 # Spalten: name <TAB> typ <TAB> rolle <TAB> begruendung <TAB> status <TAB> pfad
-#   typ:    skill | task | referenz | parkiert
-#   status: aktiv          — wird nachweislich benutzt
+#   typ:    skill | task | referenz | script | parkiert
+#   status: aktiv          — feuert bzw. wird nachweislich benutzt
 #           anlassgebunden — Fach-Skill, wartet auf ein reales Projekt; Kaelte ist
 #                            KEIN Mangel, sondern Vorratshaltung
+#           ereignis       — bewusst KEIN Zeittakt (enabled=false), feuert auf einen
+#                            Trigger: neues Quellmaterial, Stichtag, realer Auftrag
+#           geplant        — One-Time-Task, Termin liegt in der ZUKUNFT
+#           erledigt       — One-Time-Task, gefeuert und abgeschlossen; historisch
+#           vorrat         — Definition bewusst aufbewahrt, aber OHNE Registry-Eintrag
+#                            und ohne Taktgeber; feuert nicht, wartet auf Entscheid
 #           ersetzt        — die Arbeit laeuft ueber einen Agenten, ein Script oder
 #                            eine Rule; die SKILL.md wird deshalb nie geladen
 #           pruefen        — nie gebraucht, Zweck offen; Entscheid Raphael
@@ -14,6 +20,14 @@
 #   pfad:   Zielbereich fuer die Liefer-Delta-Messung (git). Leer = nicht messbar.
 #
 # Angelegt 29.07.2026, Status- und Pfad-Spalte am selben Tag ergaenzt.
+# Bereinigt 30.07.2026 (Auftrag Raphael «aufraeumen bereinigen vereinfachen strukturieren»):
+#   Beide Richtungen gegen die Task-Registry und das Dateisystem abgeglichen. Ergebnis:
+#   1 fehlende Zeile ergaenzt (zahlungsabgleich-check), 10 falsche Statuswerte korrigiert,
+#   4 Statuswerte neu eingefuehrt (ereignis/geplant/erledigt/vorrat) — vorher wurden
+#   abgelaufene One-Time-Tasks und Ereignis-Trigger alle als «aktiv» gefuehrt und
+#   verfaelschten damit jede Rollen-Quote. Skills-Seite war sauber (50 Ordner = 48 Skills
+#   + versandplanung parkiert + email-preferences referenz, keine Luecke, keine Leiche).
+#   Vierte Sektion fuer Scripts/Referenzen abgetrennt (standen faelschlich unter «Loops»).
 # Aenderungen hier, nicht im Script.
 #
 # ---- SKILLS ----
