@@ -29,6 +29,94 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-07-30 03:57 — [FREI] Die Nachtschicht hat baurecht gegen Raphaels woechentliche Drossel zusaetzlich gefeuert: ein zweiter Taktgeber auf einem bewusst gebremsten Loop, korrigiert und auf dem Mini nachgemessen
+
+**Selbstkontrolle:** letzter Eintrag 00:57, dieser Lauf 03:57. 3,0 h bei 3-h-Takt, kein
+verpasster Lauf. Naechster Lauf 06:57.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung antwortet «OK» (rc 0). Kein
+Login-Blocker, kein Wochenlimit, kein Mail-Anlass. Speicher MacBook 4,6 GB verfuegbar, Mini
+11,0 GB (`vm_stat` free+inactive+purgeable), Druckstufe je 1 — unauffaellig.
+
+**Liefer-Delta: durchgehend positiv, nichts zum Ruecktakten.** Seit 00:57 vier inhaltliche
+Commits neben dem Selbstcommit-Rauschen: Normen Run 38 in drei Teilen (02:05–02:24, Lignatec
+Tab. 3+4 rechnerisch aufgenommen, BfU-Block mit 7 Destillaten und je einem Refuter, eine
+Cross-Kontamination zwischen parallel destillierten Quellen gefunden), Baurecht Buch-Run 70
+(02:36, Verdichtungs-Drift § 242 Abs. 2 PBG korrigiert) und twin-mail-training Batch 82 (03:56,
+43 Mails, 7 neue Marker). Kein Loop erreicht auch nur einen Lauf ohne Delta; die Schwellen 3 und
+5 sind nirgends beruehrt, entsprechend habe ich weder zurueckgetaktet noch deaktiviert.
+
+**Feuermechanismen: eine echte Abweichung, sonst sauber.** `launchctl list | grep vollgas` auf
+beiden Stationen leer, beide plists tragen weiter `.disabled-260729` — der Endlos-Runner bleibt
+ausgebaut, ich habe ihn nicht angefasst. Die Mini-Nachtschicht lief im 02:30-Slot mit Exit 0
+(02:30:06–02:36:51), naechster Slot 05:30. `ch.jans.training-normen` ist auf dem Mini weiterhin
+nicht geladen (bestaetigt die Korrektur vom 29.07.), `ch.jans.training-energie` laeuft taeglich
+22:30 und hat Run 119 geliefert, `ch.jans.training-plg` traegt `.disabled-260728`.
+
+**P1 — behoben und nachgemessen: die Nachtschicht darf keinen Loop feuern, der einen eigenen
+aktiven Taktgeber hat.** Prioritaet 4 des Nachtschicht-Prompts waehlt «die naechste faellige
+Trainingslektion unter `wissen/*/training/PROGRAMM.md`» und schloss bisher nur KBs mit einem
+Stillgelegt-/Ereignis-Trigger-Statuskopf aus. `baurecht` traegt keinen solchen Kopf, sondern im
+Frontmatter `scheduled_task: baurecht-buch-training` und `frequenz_phase3: woechentlich`. Der
+zugehoerige Scheduled Task ist auf **woechentlich Mo 23:44** gedrosselt (Ruecktaktung 17.07.2026
+nach Run 48, ausdrueckliche Freigabe Raphaels) und war erst am **03.08.** wieder faellig. Die
+Nachtschicht hat ihn im 02:30-Slot trotzdem als Run 70 gefeuert. Das ist genau das Muster, das
+die Betriebs-Kurzregel verbietet: ein Loop mit eigenem Scheduled Task gehoert nie zusaetzlich in
+einen zweiten Mechanismus. Der Zusatzlauf hebelt eine bewusste Drossel-Entscheidung Raphaels aus,
+ohne dass eine der beiden Seiten die andere sieht.
+
+Behoben: Prioritaet 4 schliesst jetzt ausdruecklich jede KB mit **eigenem aktivem Taktgeber**
+(Scheduled Task oder launchd-Job, im Frontmatter oder im Takt-Abschnitt benannt) aus, mit dem
+Beleg und der aktuellen Ausschlussliste — baurecht (woechentlich Mo), energie (launchd 22:30),
+normen (taeglich 01:20) — und benennt die freien Ziele bauprodukte, grobkosten, projekt-lessons,
+planungsgrundlagen. `bash -n` sauber. **Wirkung verifiziert, nicht nur behauptet:** der
+launchd-Job des Mini liest `$HOME/Developer/jans-ai-hub/scripts/nachtschicht-run.sh` mit
+SSD-Vorrang, und diese Kopie fuehrte die neue Regel zunaechst **nicht** (Trefferzahl 0). Nach
+`nas-commit-now` und `git pull` auf dem Mini steht sie dort mit Trefferzahl 1 und sauberer
+Syntax. Damit greift die Korrektur im 05:30-Slot. Die Ausschlussliste ist bewusst
+einkompiliert statt zur Laufzeit erfragt, damit der Lauf keine Registry abfragen muss.
+
+**P2 — planungsgrundlagen meldet die 28. Quellen-Erschoepfung, liefert aber auf einer anderen
+Achse: hier ist Ruecktakten nur zur Haelfte richtig.** Run 93 (Mac Mini, ~00:49) haelt fest,
+dass in allen vier PL-Ordnern kein neues Quellmaterial liegt — der 28. Nullbefund in Folge, die
+Delta-Null-Schwelle 5 also um mehr als das Fuenffache ueberschritten. Der Loop ist damit auf der
+Quellen-Achse tot. Auf einer zweiten Achse ist er es nicht: derselbe Lauf hat vier belegte Fehler
+behoben (UTC-Datum und HTTP-204-Diagnose in zwei Connectoren, eine tote Energie-URL in vier
+Artikeln, EGID/EGRID-Verwechslung). Endpunkte, zitierte URLs und eigener Code erodieren
+unabhaengig vom Dateibestand. Der Loop schlaegt selbst das Richtige vor: Quellen-Turnus
+zurueckstellen, schlanken **monatlichen** Endpunkt-/Link-/Connector-Check behalten. Ich habe
+**nicht** deaktiviert — er hat gerade geliefert, und die Umwidmung eines Loops von grower zu
+maintainer ist eine Takt-Entscheidung Raphaels, nicht meine. Praktisch ist der Loop ohnehin schon
+ohne Taktgeber: der Scheduled Task ist aus der Registry verschwunden und die plist traegt
+`.disabled-260728`; im `cron-training-mini.sh` steht der `plg)`-Zweig nur noch als toter Code.
+**Offen und ehrlich als Luecke ausgewiesen:** ich konnte Run 93 keinem bekannten Mechanismus
+zuordnen — kein Dispatch-Protokoll um 00:49, keine geladene plist, kein Registry-Eintrag. Der
+06:57-Lauf sollte das klaeren, denn ein unzuordenbarer Taktgeber ist genau das, was diese Aufsicht
+finden soll.
+
+**P2 — der eigene Kopfbanner dieser Datei warnt vor einer Task, die es nicht mehr gibt.** Der
+Regimewechsel-Banner vom 25.07. schliesst mit «Hinweis: die One-Time-Task
+token-drosselung-100810 (10.08.) steht weiterhin und wuerde die Lern-Loops dann auf Sparbetrieb
+zuruecktakten». In der Registry existiert kein solcher Eintrag. Die Warnung ist stehengeblieben
+und wuerde einen kuenftigen Lauf eine Drossel erwarten lassen, die nie feuert. Ich habe den Banner
+nicht angefasst, weil er Raphaels Regimeentscheid dokumentiert; die Zeile gehoert aber gestrichen
+oder als erledigt markiert.
+
+**P3 — unveraendert offen, beide gehoeren Raphael.** Der Mini haengt weiter auf CLI 2.1.207; der
+gestern eingebaute dritte Zweig in `claude-autoupdate.sh` beweist sich erst um 05:15 — die Pruefung
+bleibt beim 06:57-Lauf (`mac-mini.log` auf einen Versionssprung, `claude --version` auf ≠ 2.1.207).
+Die Journal-Messluecke ist erneut belegt: `260730-laeufe.jsonl` enthaelt genau **eine**
+rc-Zeile (02:36, Mini-Nachtschicht, rc 0, 405 s, 3.45 USD); Normen Run 38, twin Batch 82 und die
+App-Tasks schreiben nichts hinein, weshalb der Liefer-Delta weiter ueber Commits gemessen werden
+muss. Die beiden `Write(...)`-Allowlist-Regeln in `.claude/settings.json` greifen weiterhin nicht
+und werfen ihre Warnung bei jedem Lauf — sie muessten `Edit(...)` heissen, was nur Raphael aendern
+kann. Aus Run 93 liegen zusaetzlich E13 (UTC-Datum in vier fremden Connectoren, `bexio.mjs` nur
+mit Freigabe) und E14 (`geo-sz.mjs` doppelt und divergent) als Entscheide vor.
+
+**Kein Mail-Anlass:** Fenster frei, kein neuer P1-Blocker, der nur Raphael loesen kann, kein
+erschoepftes Wochenkontingent. Der P1 dieses Laufs war selbst behebbar und ist behoben.
+
+---
 ## 2026-07-30 00:57 — [FREI] Der Mini-Blocker ist repariert, und die Ursache war eine andere als gestern gemeldet: dort liegt eine npm-Installation IM Homebrew-Prefix, die von aussen wie ein Cask aussieht und von keinem der beiden Update-Zweige erfasst wurde
 
 **Selbstkontrolle:** letzter Takt-Eintrag 21:57, dieser Lauf 00:57. 3,0 h bei 3-h-Takt, kein
