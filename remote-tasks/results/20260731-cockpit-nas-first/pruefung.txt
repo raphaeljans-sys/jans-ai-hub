@@ -1,0 +1,6 @@
+node        : /opt/homebrew/bin/node
+hub-wurzel  : /Volumes/daten/jans-ai-hub
+Cockpit gebaut: /Users/raphaeljans/.jans-cockpit/cockpit.html
+  Fristen: 80 offen (26 sofort/überfällig, 4 heute, 5 in 7 Tg.) · Stationen: 2 · KBs: 18
+--- Quelle-Zeile aus der erzeugten HTML ---
+Quelle: /Volumes/daten/jans-ai-hub (NAS)
