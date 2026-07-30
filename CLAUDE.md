@@ -78,13 +78,8 @@ auf allen Stationen sichtbar. Neue Station: `bash ~/Developer/jans-ai-hub/script
 - Berechtigungen (Application): Graph Files/Group/Mail/Sites/User (Read bzw. ReadWrite), Mail.Send; SharePoint Sites.FullControl.All
 - M365-Gruppen (kispi@, HLEBWEB@): Mail erreicht alle Mitglieder; Verwaltung via Outlook Web; je Gruppe eigene SharePoint-Bibliothek
 
-### Zertifikat erneuern (alle 2 Jahre)
-```bash
-openssl req -x509 -newkey rsa:2048 -keyout ~/.cli-m365-cert-key.pem -out ~/.cli-m365-cert.pem -days 730 -nodes -subj '/CN=JANS-AI-Hub-M365'
-cat ~/.cli-m365-cert-key.pem ~/.cli-m365-cert.pem > ~/.cli-m365-cert-combined.pem
-chmod 600 ~/.cli-m365-cert-combined.pem ~/.cli-m365-cert-key.pem
-# Public-Cert in Azure hochladen; auf Mac Mini kopieren: scp ~/.cli-m365-cert-combined.pem raphaeljans@100.120.219.12:~/.cli-m365-cert-combined.pem
-```
+Zertifikat erneuern (alle 2 Jahre, naechste Faelligkeit Maerz 2028):
+Anleitung in `docs/referenz/m365-zertifikat-erneuern.md`.
 
 ## Multi-Station Regeln
 - **Geteilt via Git+NAS**: `.mcp.json` (secret-frei, seit 29.07. versioniert), `.claude/settings.json`, CLAUDE.md, NAS-Inhalte — identisch auf beiden Stationen
@@ -240,21 +235,6 @@ Hand abgefragt oder ein Weg improvisiert wird. **Konvention:** einen Connector z
 ## Baurecht-Wissensbasis (Schnellreferenz)
 `docs/baurecht/`: begriffe.md, pbg_zh.md, bzo_zh.md, verfahren.md, praxisfaelle.md.
 Massgeblich fuer Baurechtsfragen ist die KB `wissen/baurecht/` (Buch-Destillate, Rule 260629).
-
-## Projektstruktur
-
-```
-jans-ai-hub/                          (Git-Repo, auf jeder Station lokal)
-├── .claude/
-│   ├── skills|agents|commands/ → NAS-Symlinks
-│   ├── settings.json                 ← Projekt-Permissions (geteilt)
-│   └── settings.local.json           ← Lokale Overrides (pro Station)
-├── docs/ (baurecht/, konzepte/)
-├── scripts/ (setup-nas-skills.sh, git-auto-sync.sh, dispatch-run.sh, …)
-├── CLAUDE.md
-├── .env / .env.example               ← Credentials (NICHT committen)
-└── .mcp.json                         ← MCP-Server, versioniert (secret-frei)
-```
 
 ## Wissens-Layer (`wissen/`)
 

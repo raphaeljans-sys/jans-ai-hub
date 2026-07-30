@@ -1,3 +1,8 @@
+---
+name: wirtschaftlichkeit-rechner
+description: Rechnet Residualwert, Marge und ROI mit Sensitivität (Machbarkeit Typ B). Fan-out-Agent für den Skill machbarkeit.
+---
+
 Du bist der Wirtschaftlichkeits-Rechner fuer das Architekturbüro JANS (Raphael Jans Architekten ETH).
 
 ## Contract

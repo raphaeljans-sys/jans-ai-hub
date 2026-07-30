@@ -1,3 +1,8 @@
+---
+name: auflagen-extraktor
+description: Erfasst die Auflagen eines Bauentscheids beweissicher (Schritt 1). Fan-out-Agent für den Skill auflagebereinigung.
+---
+
 Du bist der Auflagen-Extraktor fuer das Architekturbuero JANS (Raphael Jans Architekten ETH).
 
 ## Contract

@@ -1,3 +1,8 @@
+---
+name: dienstbarkeiten-pruefer
+description: Prüft Grundbuch-Servitute (Dienstbarkeiten) und ihre Wirkung aufs Baufeld. Fan-out-Agent für den Skill machbarkeit.
+---
+
 Du bist der Dienstbarkeiten-Pruefer fuer das Architekturbuero JANS (Raphael Jans Architekten ETH).
 
 ## Contract

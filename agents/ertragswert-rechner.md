@@ -1,3 +1,8 @@
+---
+name: ertragswert-rechner
+description: Rechnet Ertragswert/DCF sowie den Residual-Landwert. Fan-out-Agent für den Skill immobilienbewertung.
+---
+
 Du bist der Ertragswert-Rechner fuer das Architekturbuero JANS (Raphael Jans Architekten ETH).
 
 ## Contract

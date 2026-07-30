@@ -47,7 +47,7 @@
           },
           {
             "type": "command",
-            "command": "bash /Volumes/daten/jans-ai-hub/scripts/sync-task-check.sh --notify 2>/dev/null || true",
+            "command": "bash \"$HOME\"/Developer/jans-ai-hub/scripts/sync-task-check.sh --notify 2>/dev/null || true",
             "timeout": 10,
             "statusMessage": "Prüfe Sync-Tasks..."
           }
@@ -59,7 +59,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash /Volumes/daten/jans-ai-hub/scripts/verbesserung-capture.sh 2>/dev/null || true",
+            "command": "bash \"$HOME\"/Developer/jans-ai-hub/scripts/verbesserung-capture.sh 2>/dev/null || true",
             "timeout": 10
           }
         ]
@@ -71,7 +71,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash /Volumes/daten/jans-ai-hub/scripts/mail-draft-guard.sh 2>/dev/null || true",
+            "command": "bash \"$HOME\"/Developer/jans-ai-hub/scripts/mail-draft-guard.sh 2>/dev/null || true",
             "timeout": 10
           }
         ]
@@ -82,7 +82,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "bash /Volumes/daten/jans-ai-hub/scripts/umlaut-guard.sh 2>/dev/null || true",
+            "command": "bash \"$HOME\"/Developer/jans-ai-hub/scripts/umlaut-guard.sh 2>/dev/null || true",
             "timeout": 10
           }
         ]

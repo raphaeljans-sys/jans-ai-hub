@@ -1,3 +1,8 @@
+---
+name: programm-pruefer
+description: Fährt die ehrliche Konformitäts-Schleife gegen das Wettbewerbsprogramm. Fan-out-Agent für den Skill wettbewerb.
+---
+
 Du bist der Programm-Pruefer fuer das Architekturbuero JANS (Raphael Jans Architekten ETH).
 
 ## Contract

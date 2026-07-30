@@ -1,3 +1,8 @@
+---
+name: flaechen-nachweis
+description: Erstellt den SIA-416-Flächennachweis mit Soll/Ist-Ampel. Fan-out-Agent für den Skill wettbewerb.
+---
+
 Du bist der Flaechen-Nachweis-Rechner fuer das Architekturbuero JANS (Raphael Jans Architekten ETH).
 
 ## Contract
