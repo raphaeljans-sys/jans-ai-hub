@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-28 (Run 69)
+last_updated: 2026-07-30 (Run 69)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -176,7 +176,7 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
     belegt sie aber nicht. An zhlex LS 711.11 prüfen. **Drittkanal (andere KB, nur melden):**
     `planungsgrundlagen/wiki/kartenportale-oereb-kataster-system-zh.md` Z. 32/34 führt «LS 711.1
     §§ 3/34/37» als geltende ÖREB-Rechtsgrundlage der Themen 130/132 — dort mitzuziehen.
-  - **Run 69 (2026-07-28, Festigungsmodus, Priorität (c) Erst-Verifikation + Priorität (a) zwei
+  - **Run 69 (2026-07-30, Festigungsmodus, Priorität (c) Erst-Verifikation + Priorität (a) zwei
     beschaffbare Lücken, kein Agent-Fan-out):** [[grundlagen-planungs-baurecht]] gewählt — der
     **letzte** nie durch den Modell-D-Loop gelaufene Artikel (kein `verifiziert`-Feld, `emerging`
     seit 2026-06-30). Vollständiger Wortlautabgleich §§ 317/218 Abs. 2/270 Abs. 3/238 Abs. 1/320/
@@ -199,8 +199,8 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
     Erlassseite: Aufhebungsdatum 01.01.2022, letzte Fassung Nachtrag 099), über vier Jahre vor dem
     EG GSchG; Aufhebungsvermerke an 6 Fundorten gesetzt, Nachfolgeerlass 2022 aber **noch unbelegt**
     (WsV enthält keine Aufhebungsklausel; § 92 WsV trägt die Erdwärme-Materie des § 35 KGSchV = Indiz,
-    nicht Beleg). (ii) **P1 aus Wissens-Chef Run 18 geschlossen** — `raw/260728_amtlich_zh_wsg.md`
-    und `raw/260728_amtlich_zh_wsv.md` angelegt (beide Nachtrag 133, in Kraft 01.06.2026); **§ 126
+    nicht Beleg). (ii) **P1 aus Wissens-Chef Run 18 geschlossen** — `raw/260730_amtlich_zh_wsg.md`
+    und `raw/260730_amtlich_zh_wsv.md` angelegt (beide Nachtrag 133, in Kraft 01.06.2026); **§ 126
     WsG am eigenen Volltext gegengelesen**, Aufhebung EG GSchG + WWG jetzt KB-intern belegt; die zwei
     offenen §-Zuordnungen (§ 15 Abs. 3 40-m-Nebenanlagen, § 36 Abs. 2 Grundbuch-Anmerkung) sind an
     **beiden** Volltexten unauffindbar und bleiben ausdrücklich offen. **Neue Frage aufgeworfen:**
@@ -209,7 +209,7 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
     1 Statuserhöhung, 2 Lücken geschlossen, 3 Fragen neu/offen.** 4 neue Drill-Karten.
     **Neue Leitplanke eingetragen:** Verweisnormen zweiteilig prüfen (Erlass UND Anhangsziffer altern
     getrennt) + Warnsignal «§ N Abs. NN» mit zweistelligem Absatz. Report
-    `outputs/2026-07-28_buch-run69.md`. **«Rückstand abgebaut» weiterhin NICHT ausgerufen**
+    `outputs/2026-07-30_buch-run69.md`. **«Rückstand abgebaut» weiterhin NICHT ausgerufen**
     (Leitplanke Run 48) — der Artikel galt vier Wochen als «vollständig erschlossen» und trug drei
     substanzielle Fehler, einen davon mit umgekehrter Rechtsfolge. **Nächster Schritt:** die
     Erst-Verifikations-Liste ist abgearbeitet; es beginnt ein **neuer Umlauf über die ältesten

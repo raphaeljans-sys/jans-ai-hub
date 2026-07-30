@@ -132,6 +132,23 @@ Meldung «beide scharf geladen» aus dem Nachtschicht-Report trifft nur zur Häl
 
 Keine Mail an Dritte, kein Kalendereintrag, keine Buchung — nur das Briefing an rj@.
 
+**Methoden-Radar (23:07, Wochenlauf) — Vorfilter war blind, Ursache behoben.** Der
+Delta-Scan brach mit «Quelle nicht erreichbar» ab. Ursache ist NICHT ein fehlender
+OneDrive-Mount, sondern die Umbenennung des Methodenordners von «03 Prompteingaben» auf
+**«00 Prompteingaben»** (mtime 30.07. 09:49). Haette der Lauf die Fehlermeldung wie
+vorgesehen als «Mount fehlt» quittiert, waere der Radar ab sofort woechentlich blind
+gelaufen, ohne dass es auffaellt. `scripts/methoden-scan.sh` probiert jetzt «00», dann
+«03» und faellt zuletzt auf das Muster `* Prompteingaben` zurueck; die verwendete Quelle
+wird ausgewiesen. **Fuer Raphael, zwei Punkte ohne Handlungsdruck:** (1) In
+`260729 Antrophic Lecture` liegen in OneDrive noch 24 statt 32 Bildern (es fehlen
+IMG_5462/5464/5466/5471/5472/5478/5481/5485) — kein Wissensverlust, alle 32 sind
+vollstaendig in `wissen/claude-code/raw/` gesichert und das Destillat stuetzt sich darauf;
+offen bleibt nur, ob bewusst aufgeraeumt oder der Sync unvollstaendig war (nicht geraten,
+QUESTIONS 0b). (2) Verifikations-Rotation: Zeile `3 EASY STEPS - the Spec` geprueft, ohne
+Befund — Rule, Skill und KB vorhanden, `spec-training` steht mit dokumentiertem Entscheid
+(26.07.) auf Ereignis-Trigger, Liefer-Beleg vom 29.07. Nichts geloescht, nichts
+wiederhergestellt, keine Mail.
+
 ---
 
 ## 2026-07-29

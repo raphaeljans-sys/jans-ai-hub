@@ -1,5 +1,6 @@
 #!/bin/bash
-# methoden-scan.sh — deterministischer Delta-Scan ueber OneDrive "03 Prompteingaben"
+# methoden-scan.sh — deterministischer Delta-Scan ueber den OneDrive-Methodenordner
+# (heisst seit 30.07.2026 "00 Prompteingaben", vorher "03 Prompteingaben")
 #
 # Vergleicht das Ordner-Inventar (Dateizahl, juengste mtime, Bytes je Unterordner)
 # mit dem letzten gespeicherten Stand und meldet NEU / GEAENDERT / ENTFERNT.
@@ -13,11 +14,24 @@
 # Exit-Codes: 0 = kein Delta · 10 = Delta vorhanden · 2 = Quelle fehlt · 3 = NAS fehlt
 set -u
 
-SRC="$HOME/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AD - 01 Geschaeftsfuerung/JANS AI/03 Prompteingaben"
+BASE="$HOME/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AD - 01 Geschaeftsfuerung/JANS AI"
 STATE_DIR="/Volumes/daten/jans-ai-hub/logbuch/methoden-radar"
 STATE="$STATE_DIR/scan-state.tsv"
 
-[ -d "$SRC" ] || { echo "FEHLER: Quelle nicht erreichbar: $SRC"; exit 2; }
+# Der Methodenordner wurde am 30.07.2026 von "03 Prompteingaben" auf "00 Prompteingaben"
+# umbenannt. Statt eines harten Pfades die bekannten Namen der Reihe nach pruefen, damit
+# eine weitere Umbenennung des Praefix den Loop nicht wieder blind laufen laesst.
+SRC=""
+for kand in "00 Prompteingaben" "03 Prompteingaben"; do
+  [ -d "$BASE/$kand" ] && { SRC="$BASE/$kand"; break; }
+done
+# Letzter Ausweg: irgendein Ordner, der auf " Prompteingaben" endet
+if [ -z "$SRC" ] && [ -d "$BASE" ]; then
+  SRC=$(find "$BASE" -mindepth 1 -maxdepth 1 -type d -name '* Prompteingaben' | sort | head -1)
+fi
+
+[ -n "$SRC" ] && [ -d "$SRC" ] || { echo "FEHLER: Quelle nicht erreichbar (kein '* Prompteingaben' unter: $BASE)"; exit 2; }
+echo "QUELLE: $SRC" >&2
 [ -d "/Volumes/daten/jans-ai-hub" ] || { echo "FEHLER: NAS nicht gemountet"; exit 3; }
 mkdir -p "$STATE_DIR"
 

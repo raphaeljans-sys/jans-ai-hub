@@ -595,14 +595,14 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   **unberuecksichtigt** (§ 317 PBG); es ist auf dem **Zivilweg** (Bezirksgericht) durchzusetzen.
   Umgekehrt entbindet die Baubewilligung nicht vom Nachbarrecht (**Art. 679 Abs. 1** i.V.m.
   Art. 684 ZGB — **korrigiert Run 69**: frueher stand hier Abs. 2, der genau umgekehrt eine
-  Anspruchs*beschraenkung* ist). (Bd 1, S. 82 f.) _[2026-06-30, korr. 2026-07-28]_
+  Anspruchs*beschraenkung* ist). (Bd 1, S. 82 f.) _[2026-06-30, korr. 2026-07-30]_
 - **F:** Sind SIA-Normen verbindliches oeffentliches Recht? — **A:** Als Ganzes **nein**. Drei Stufen:
   **verbindlich**, wo ausdruecklich erklaert — Mechanismus **§ 3 Abs. 1/2 BBV I i.V.m. Anhang
   Ziff. 1** (**korrigiert Run 69**: «§ 3 Abs. 12 BBV I» existiert nicht; und Anhang Ziff. 1.2/1.21
   sind per 1.9.2022 aufgehoben, SIA 181 wirkt heute ueber **Art. 32 Abs. 1 LSV**);
   **beachtlich**, vom RR fuer massgeblich erklaert — Abweichung nur «aus **wichtigen Gruenden**»
   (§ 360 Abs. 3 PBG); **weitere** Normen = Ausdruck der gebotenen Sorgfalt (SIA 358, VSS 40 291).
-  (Bd 1, S. 84-86) _[2026-06-30, korr. 2026-07-28]_
+  (Bd 1, S. 84-86) _[2026-06-30, korr. 2026-07-30]_
 - **F:** Wie weit darf sich eine Bauzone erstrecken? — **A:** Hoechstens ueber den **voraussichtlichen
   Bedarf von 15 Jahren** (Art. 15 Abs. 1 RPG; § 18 lit. b PBG; Art. 75 Abs. 1 BV). (Bd 1, S. 114) _[2026-06-30]_
 - **F:** Ist der kantonale Richtplan grundeigentuemerverbindlich? — **A:** **Nein** — nur
@@ -2421,7 +2421,7 @@ verifizierte `emerging`-Artikel ([[enteignung-und-entschaedigung]],
 
 ---
 
-## Buch-Run 69 (2026-07-28) — Modell-D-Erstverifikation [[grundlagen-planungs-baurecht]] + Fassungsstand BBV-I-Anhang / KGSchV
+## Buch-Run 69 (2026-07-30) — Modell-D-Erstverifikation [[grundlagen-planungs-baurecht]] + Fassungsstand BBV-I-Anhang / KGSchV
 
 - **F (Modell D):** Ein Nachbar sagt: «Eure Baubewilligung nützt nichts, ich habe
   privatrechtliche Ansprüche — Art. 679 Abs. 2 ZGB.» Stimmt die Norm? — **A:** **Nein, er
@@ -2434,7 +2434,7 @@ verifizierte `emerging`-Artikel ([[enteignung-und-entschaedigung]],
   **nicht** eingehalten wurden» (Fedlex SR 210, Stand 01.01.2026; eingefügt per 1.1.2012,
   AS 2011 4637). Für den Entzug von Aussicht/Licht/Besonnung gilt also: **regelkonform gebaut =
   kein Anspruch**. Merksatz: Abs. 1 öffnet, Abs. 2 schliesst. Diese KB führte die Norm bis
-  Run 69 mit invertierter Polarität. _[2026-07-28]_
+  Run 69 mit invertierter Polarität. _[2026-07-30]_
 
 - **F (Modell D / Fassungsstand):** «SIA 181 ist im Kanton Zürich verbindlich erklärt — § 3
   Abs. 12 BBV I.» Zwei Fehler. Welche? — **A:** (1) **Formal:** § 3 BBV I hat **vier** Absätze;
@@ -2446,7 +2446,7 @@ verifizierte `emerging`-Artikel ([[enteignung-und-entschaedigung]],
   vor**. Geltende Grundlage ist heute Bundesrecht: **Art. 32 Abs. 1 LSV** (Mindestanforderungen
   nach SIA 181 als «anerkannte Regeln der Baukunde»), kantonal verweist § 13 BBV I pauschal aufs
   USG. Lehre: eine Verbindlicherklärung ist immer **zweiteilig** (Verweisnorm + Anhangsziffer) —
-  beide Teile altern getrennt. _[2026-07-28]_
+  beide Teile altern getrennt. _[2026-07-30]_
 
 - **F (Modell A):** Verhältnismässigkeit im PBG — in welchem Paragraphen steht das Musterbeispiel,
   und wo stehen die Nebenbestimmungen? — **A:** Musterbeispiel ist **§ 220 Abs. 1 PBG**
@@ -2457,7 +2457,7 @@ verifizierte `emerging`-Artikel ([[enteignung-und-entschaedigung]],
   etikettiert und falsch verlinkt — der Paragraph war als Verhältnismässigkeits-Beispiel richtig,
   nur die Beschriftung falsch. Weitere Anwendungsfälle: § 205 PBG (Natur-/Heimatschutz), § 238
   Abs. 1 PBG (Ästhetik, kein schöpferischer Spielraum, RB 1989 Nr. 36), § 328 PBG
-  (Fertigstellungsbefehl/Vollstreckung, BGer 1C_567/2014). _[2026-07-28]_
+  (Fertigstellungsbefehl/Vollstreckung, BGer 1C_567/2014). _[2026-07-30]_
 
 - **F (Modell D / Fassungsstand):** Darf man den GEP heute noch mit «§ 8 KGSchV» belegen? —
   **A:** **Nein.** Die Verordnung über den Gewässerschutz (KGSchV, **LS 711.11**) ist per
@@ -2467,4 +2467,4 @@ verifizierte `emerging`-Artikel ([[enteignung-und-entschaedigung]],
   Welcher Erlass sie 2022 ablöste, ist noch nicht belegt — die WsV (LS 724.11) enthält keine
   Aufhebungsklausel zur KGSchV. Lehre: die Aufhebung eines Erlasses und die Aufhebung des
   zugehörigen Ausführungserlasses passieren **nicht** zwingend gleichzeitig; beide Ebenen
-  einzeln prüfen. _[2026-07-28]_
+  einzeln prüfen. _[2026-07-30]_

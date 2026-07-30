@@ -2,6 +2,24 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-07-30 (methoden-radar, Wochenlauf 23:07) — Vorfilter war blind: Quellordner umbenannt
+- **[befund, behoben] `scripts/methoden-scan.sh` brach mit Exit 2 ab**, weil der Methodenordner
+  von «03 Prompteingaben» auf **«00 Prompteingaben»** umbenannt wurde (mtime 30.07. 09:49). Die
+  Fehlermeldung war nicht von einem fehlenden OneDrive-Mount zu unterscheiden — der Loop haette
+  sie laut eigener Vorschrift als «Mount fehlt» quittiert und waere ab sofort woechentlich blind
+  gelaufen. Script auf eine Kandidatenliste umgestellt («00», dann «03», zuletzt `find`-Muster
+  `* Prompteingaben`), verwendete Quelle wird auf stderr ausgewiesen.
+- **[befund, offen als Frage] 8 von 32 Slides fehlen in OneDrive** (`260729 Antrophic Lecture`:
+  IMG_5462/5464/5466/5471/5472/5478/5481/5485). Kein Wissensverlust — alle 32 nachgemessen
+  vollstaendig in `raw/`. Ursache nicht feststellbar, darum als QUESTIONS 0b aufgenommen statt
+  geraten. Nichts geloescht, nichts wiederhergestellt.
+- **[verifikation, ohne Befund] Rotation Zeile 1 `3 EASY STEPS - the Spec`:** `rules/spec-methode.md`,
+  `skills/spec/SKILL.md` und die 5 KB-Artikel existieren; `spec-training` enabled=false ist durch
+  Raphaels Entscheid vom 26.07. gedeckt (kein stiller Ausfall); Liefer-Beleg `wissen/spec/CHANGELOG.md`
+  29.07. Stempel gesetzt, naechste Zeile der Rotation: `Methode SPW`.
+- Geaendert: `scripts/methoden-scan.sh`, `wiki/methoden-register.md`, `wiki/QUESTIONS.md`,
+  `wiki/INDEX.md`, `docs/konzepte/260729-Methoden-Lern-Loop/`, `logbuch/LOGBUCH.md`, Scan-Stand.
+
 ## 2026-07-30 — Zwei offene Punkte geschlossen (GitHub-App: Verzicht · User-Commands: umgesetzt)
 - QUESTIONS Punkt 2 (`/install-github-app`): **endgueltiger Verzicht, Entscheid Raphael
   30.07.2026** — GitHub bleibt reines Backup, kein Issue-/PR-Betrieb; nach «Beantwortet»

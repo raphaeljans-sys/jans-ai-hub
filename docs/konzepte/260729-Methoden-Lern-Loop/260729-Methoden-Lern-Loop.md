@@ -6,7 +6,8 @@ Stand 29.07.2026 · Kanonisch auf dem NAS · Umsetzung erfolgt
 
 Raphael sammelt Methoden-Material (abfotografierte Lectures, YouTube-Destillate,
 Prompt-Ideen) im OneDrive-Ordner
-`AD - 01 Geschaeftsfuerung/JANS AI/03 Prompteingaben/`. Auftrag vom 29.07.2026:
+`AD - 01 Geschaeftsfuerung/JANS AI/00 Prompteingaben/` (zum Zeitpunkt dieses Konzepts
+«03 Prompteingaben», am 30.07.2026 umbenannt). Auftrag vom 29.07.2026:
 vertiefte Analyse aller Inhalte und ein Lern-Loop, der sicherstellt, dass diese
 Methoden permanent am Hub ueberprueft, trainiert und implementiert werden.
 

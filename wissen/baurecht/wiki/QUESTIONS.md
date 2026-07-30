@@ -3,18 +3,18 @@
 ## 2026-07-29 (Wissens-Chef Run 20) — P1: der Wasserversorgungsteil des WsG (§§ 95-100) ist im ganzen Hub unverarbeitet
 
 **Befund.** Der WsG-Volltext liegt seit dem 28.07.2026 im Haus
-(`raw/260728_amtlich_zh_wsg.md`, LS 724.1, Nachtrag 133, in Kraft seit 01.06.2026), aber der
+(`raw/260730_amtlich_zh_wsg.md`, LS 724.1, Nachtrag 133, in Kraft seit 01.06.2026), aber der
 **6. Abschnitt Wasserversorgung** ist nie destilliert worden. Gegenprobe des Verifikations-Agenten:
 `grep` nach «Bezugspflicht», «Anschlusspflicht Wasser» und «§ 178 WsV» über `wiki/` und `buecher/`
 ergibt **null Treffer**. Konkret fehlen:
 
 - **§ 97 Abs. 1 WsG** (Randtitel «Bezugspflicht»): Eigentümer im Einzugsbereich einer
   Wasserversorgungsanlage sind verpflichtet, das Wasser aus dieser Anlage zu beziehen
-  (`raw/260728_amtlich_zh_wsg.md`, Z. 1363-1367).
+  (`raw/260730_amtlich_zh_wsg.md`, Z. 1363-1367).
 - **§ 97 Abs. 3 WsG**: «Die Verwendung von Regenwasser als Brauchwasser in getrennten Systemen ist
   zulässig und gebührenfrei» (ebd. Z. 1374-1376) — die kantonale Grundlage der
   Brauchwassernutzung.
-- **§ 178 WsV** (Anschlusspflicht, `raw/260728_amtlich_zh_wsv.md` Z. 2090-2097) sowie die
+- **§ 178 WsV** (Anschlusspflicht, `raw/260730_amtlich_zh_wsv.md` Z. 2090-2097) sowie die
   Gebührenkette § 100 Abs. 1 WsG i.V.m. §§ 61 ff. WsG.
 
 **Warum das eine Bring-Schuld an `baurecht` ist.** Die Norm ist ausserhalb der `raw/`-Datei im
@@ -30,11 +30,11 @@ Wissens-Chef hat die Fundstelle im energie-Destillat und in FAQ F186 nachgetrage
 Gebührenkette. Erst dann kann `energie` von einem Verbands-Merkblatt auf kantonales Recht
 umstellen, statt es nur im Korrekturkasten zu führen.
 
-## 2026-07-28 (Wissens-Chef Run 19) — P1: falsche Konkordanzzeile in `raw/260717_amtlich_zh_hwschv.md`, und der Mechanismus dahinter
+## 2026-07-30 (Wissens-Chef Run 19) — P1: falsche Konkordanzzeile in `raw/260717_amtlich_zh_hwschv.md`, und der Mechanismus dahinter
 
 **Der Sachfehler.** Die Konkordanztabelle in `raw/260717_amtlich_zh_hwschv.md` führt in Z. 40
 («Grundsatz / Zuständigkeit Festlegung») und Z. 252 als Nachfolge zu § 15 HWSchV den
-**§ 19 WsG**. Am amtlichen Volltext (`raw/260728_amtlich_zh_wsg.md`, LS 724.1, Nachtrag 133) ist
+**§ 19 WsG**. Am amtlichen Volltext (`raw/260730_amtlich_zh_wsg.md`, LS 724.1, Nachtrag 133) ist
 das falsch: die grundeigentümerverbindliche Festlegung steht in **§ 18 Abs. 1 WsG** (Randtitel
 «b. Festlegung»), **§ 19 WsG** trägt den Randtitel «c. Berücksichtigung der baulichen Gegebenheiten
 in dicht überbauten Gebieten» und regelt die **Anpassung**. Systematik: § 17 Grundsatz · § 18
@@ -69,15 +69,15 @@ Bestand:** in jeder weiteren
 «KB-Autorentext, nicht amtlich» kennzeichnen — sonst wiederholt sich der Mechanismus bei jeder
 Konkordanz-, Mapping- oder Übersichtstabelle im Bestand.
 
-## 2026-07-28 (Buch-Run 69) — P1 aus Wissens-Chef Run 18 GESCHLOSSEN: WsG + WsV liegen jetzt in `raw/`
+## 2026-07-30 (Buch-Run 69) — P1 aus Wissens-Chef Run 18 GESCHLOSSEN: WsG + WsV liegen jetzt in `raw/`
 
 Die am 27.07. gemeldete Lücke («die führende KB zitiert das WsG an rund vierzehn Stellen und hat
 seinen Volltext nicht») ist geschlossen. Beide amtlichen Volltexte sind über den in der Meldung
 genannten `notes.zh.ch/WebView`-Weg beschafft, per `pdftotext -layout` konvertiert und abgelegt:
 
-- `raw/260728_amtlich_zh_wsg.md` — Wassergesetz (WsG), LS 724.1, vom 12.12.2022, Nachtrag 133,
+- `raw/260730_amtlich_zh_wsg.md` — Wassergesetz (WsG), LS 724.1, vom 12.12.2022, Nachtrag 133,
   in Kraft seit 01.06.2026 (OS 81, 145).
-- `raw/260728_amtlich_zh_wsv.md` — Wasserverordnung (WsV), LS 724.11, RRB vom 02.07.2025,
+- `raw/260730_amtlich_zh_wsv.md` — Wasserverordnung (WsV), LS 724.11, RRB vom 02.07.2025,
   Nachtrag 133, in Kraft seit 01.06.2026 (OS 81, 182).
 
 **§ 126 WsG am eigenen Volltext gegengelesen** (Randtitel «Aufhebung bisherigen Rechts»):
@@ -95,7 +95,7 @@ Chef-Bericht übernommene Aufhebung des EG GSchG ist damit KB-intern belegt.
    Grundbuchmeldung nach *Landumlegung*. Eine Entsprechung für die Schutzzonen-Anmerkung ist
    nicht auffindbar.
 
-## 2026-07-28 (Buch-Run 69) — KGSchV (LS 711.11) ist aufgehoben; Nachfolgeerlass noch unbelegt
+## 2026-07-30 (Buch-Run 69) — KGSchV (LS 711.11) ist aufgehoben; Nachfolgeerlass noch unbelegt
 
 **Bring-Schuld aus dem PROGRAMM-Tracker beantwortet, aber nur zur Hälfte.** Die zhlex-Erlassseite
 der Staatskanzlei zu LS 711.11 weist amtlich aus: Erlassdatum 22.01.1975, Inkraftsetzung
@@ -111,7 +111,7 @@ damit ohne Nachfolgezeiger für die Periode 2022–2026. Indiz, nicht Beleg: die
 Entzug von Erdwärme, b. der Eintrag von Wärme in das Erdreich» — am Volltext bestätigt).
 Nächster Schritt: OS-Band der Jahre 2021/2022 nach dem aufhebenden RRB durchsuchen.
 
-## 2026-07-28 (Buch-Run 69) — Ist SIA 380/1 noch «teilverbindlich»?
+## 2026-07-30 (Buch-Run 69) — Ist SIA 380/1 noch «teilverbindlich»?
 
 Das Standardwerk (Bd 1, S. 85) nennt SIA 380/1 «Thermische Energie im Hochbau» als
 teilverbindlich erklärte Norm. Am geltenden **Anhang Ziff. 1 BBV I** (Nachtrag 133) ist das
@@ -1593,7 +1593,7 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   Strang kennen, sobald er in die Vernehmlassung/Inkraftsetzung geht. Beim nächsten Buch-/Amts-Run
   aufnehmen; Querbezug ist in `planungsgrundlagen` bereits gesetzt (Run 15).
 
-## 2026-07-28 (Wissens-Chef Run 19) — zwei Befunde aus der Gegenpruefung eines WIDERLEGTEN Cross-KB-Vorwurfs
+## 2026-07-30 (Wissens-Chef Run 19) — zwei Befunde aus der Gegenpruefung eines WIDERLEGTEN Cross-KB-Vorwurfs
 
 Beide fielen an, als ein Verifikator einen Vorwurf gegen `projekt-lessons` **kippte** — der Vorwurf
 war falsch, aber das Gegenlesen legte zwei echte Maengel in DIESER KB frei. Keiner wurde vom Chef

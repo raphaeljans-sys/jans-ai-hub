@@ -1,15 +1,16 @@
 ---
-title: Methoden-Register — Quellen aus «03 Prompteingaben» und ihr Implementationsstand
+title: Methoden-Register — Quellen aus «00 Prompteingaben» und ihr Implementationsstand
 status: established
-last_updated: 2026-07-29
-sources: [OneDrive AD - 01 Geschaeftsfuerung/JANS AI/03 Prompteingaben/ (Vollanalyse 29.07.2026), scripts/methoden-scan.sh]
+last_updated: 2026-07-30
+sources: [OneDrive AD - 01 Geschaeftsfuerung/JANS AI/00 Prompteingaben/ (Vollanalyse 29.07.2026, Ordner am 30.07. von «03» auf «00» umbenannt), scripts/methoden-scan.sh]
 links: [[methode-spw-wissensbasis]], [[lecture-260729-anthropic]], [[INDEX]]
 ---
 
 # Methoden-Register
 
 Kanonisches Register aller Methoden-Quellen im OneDrive-Ordner
-`AD - 01 Geschaeftsfuerung/JANS AI/03 Prompteingaben/`. Dort sammelt Raphael
+`AD - 01 Geschaeftsfuerung/JANS AI/00 Prompteingaben/` (bis 30.07.2026 «03 Prompteingaben»,
+siehe Befund unten). Dort sammelt Raphael
 abfotografierte Lectures, Videos und Prompt-Ideen. Dieses Register stellt sicher, dass
 jede Quelle (a) destilliert, (b) implementiert und (c) dauerhaft ueberprueft wird.
 
@@ -18,11 +19,27 @@ jede Quelle (a) destilliert, (b) implementiert und (c) dauerhaft ueberprueft wir
 neues Material wird rotierend EINE Zeile verifiziert (Implementation noch aktiv?
 Training liefert?) und der Verifikations-Stempel gesetzt.
 
-## Register (Stand 29.07.2026)
+## Befund 30.07.2026 (Lauf `methoden-radar`)
+
+1. **Quellordner umbenannt: «03 Prompteingaben» → «00 Prompteingaben».** Der Vorfilter
+   `scripts/methoden-scan.sh` suchte den harten alten Pfad und brach mit Exit 2 («Quelle
+   nicht erreichbar») ab — ununterscheidbar von einem fehlenden OneDrive-Mount. Ohne
+   Pruefung haette der Loop das als «Mount fehlt» protokolliert und waere blind
+   weitergelaufen. Behoben: das Script probiert jetzt «00», dann «03» und faellt zuletzt
+   auf ein `find`-Muster `* Prompteingaben` zurueck; die verwendete Quelle wird auf stderr
+   ausgewiesen. Umbenennungszeitpunkt gemaess mtime: 30.07.2026 09:49.
+2. **Acht Bilder in `260729 Antrophic Lecture` fehlen in OneDrive** (32 → 24): IMG_5462,
+   5464, 5466, 5471, 5472, 5478, 5481, 5485. **Kein Wissensverlust** — alle 32 Slides
+   liegen vollstaendig als Kopie in `wissen/claude-code/raw/` (nachgemessen 30.07.), das
+   Destillat [[lecture-260729-anthropic]] stuetzt sich darauf. Ursache in OneDrive nicht
+   feststellbar (Aufraeumen oder unvollstaendiger Sync) — nicht geraten, als Frage in
+   QUESTIONS.md aufgenommen. Es wurde nichts geloescht und nichts wiederhergestellt.
+
+## Register (Stand 30.07.2026)
 
 | Ordner (Quelle) | Inhalt | Destillat | Implementation im Hub | Training/Ueberpruefung | Status | Letzte Verifikation |
 |---|---|---|---|---|---|---|
-| `3 EASY STEPS - the Spec` | 34 Screenshots, YT Austin Marchese / Karpathy «The Spec» | `wissen/spec/` (5 Wiki-Artikel, Transkript in raw) | Rule `spec-methode` (Gate, immer aktiv) + Skill `spec` | Task `spec-training` (seit 26.07. Ereignis-Trigger bei realer Spec-Anwendung) | implementiert | 2026-07-29 (dieser Lauf) |
+| `3 EASY STEPS - the Spec` | 34 Screenshots, YT Austin Marchese / Karpathy «The Spec» | `wissen/spec/` (5 Wiki-Artikel, Transkript in raw) | Rule `spec-methode` (Gate, immer aktiv) + Skill `spec` | Task `spec-training` (seit 26.07. Ereignis-Trigger bei realer Spec-Anwendung) | implementiert | **2026-07-30 geprueft, ohne Befund**: `rules/spec-methode.md` + `skills/spec/SKILL.md` + 5 KB-Artikel vorhanden; Registry `spec-training` enabled=false MIT dokumentiertem Entscheid (Raphael 26.07., Registry-Nachzug 27.07.) = kein stiller Ausfall; Liefer-Beleg `wissen/spec/CHANGELOG.md` 29.07. (Wissens-Chef Run 20 + Programm-Statuskopf) |
 | `Methode SPW` | 30 Screenshots, YT «Second Brain / Claude als Bibliothekar» (Karpathy-Ansatz) | [[methode-spw-wissensbasis]] (nachgeholt 29.07.) | Wissens-Layer `wissen/` + Rule `wissens-bibliothekar` + Skill `wissenscheck` (7 Audits) | Task `wissenscheck-monatlich` (1. des Monats) + `wissens-chef` (taeglich, Cross-KB) | implementiert | 2026-07-29 (dieser Lauf) |
 | `260729 Antrophic Lecture` | 32 Slides, Anthropic-Lecture Claude Code | [[lecture-260729-anthropic]] + [[kontext-architektur]] | Rule `auto-verbesserungen` 260729 + Kontext-Diaet 2.0 + `scripts/claude-run.sh` + `connectors/README.md` | Betriebsaufsicht `vollgas-fruehwarnung` (Lauf-Journal) | implementiert | 2026-07-29 (dieser Lauf) |
 | `260725 Archetypen` | 5 Screenshots, YT-Short @niklasvolland «5 Tech-Jobs» (Prototyper/Builder/Sweeper/Grower/Maintainer) | `docs/konzepte/260729-Rollen-Taxonomie/` | Rule `rollen-taxonomie` + `logbuch/rollen/rollen-map.tsv` + Scripts `rollen-bilanz.sh`, `nutzungs-radar.sh`, `schutzmechanik-selbsttest.sh` | Erstmessung 29.07.2026; weitere Bilanzen via Rollen-Scripts | implementiert | 2026-07-29 (dieser Lauf) |
@@ -62,6 +79,8 @@ Beruehrungspunkte mit `brandschutz` und `planungsgrundlagen`. Umsetzungsvorschla
 liegt beim hub-chef-Briefing (logbuch), Entscheid ueber Bauzeitpunkt bei Raphael.
 
 ## Verifikations-Rotation
+
+Naechste Zeile in der Rotation: **`Methode SPW`** (Stand 30.07.2026).
 
 Der Loop prueft pro Lauf ohne neues Material genau EINE Zeile mit Status
 «implementiert», reihum von oben nach unten: existieren die genannten Rules/Skills/
