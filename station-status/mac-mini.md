@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.07.2026 07:16:42
+Stand: 30.07.2026 07:26:45
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.07.2026 07:16:42
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 9906f997 logbuch-radar 30.07.2026: UBS-Blocker geloest, RE-00100 neu ausgestellt, Baubeschrieb 2620 freigegeben, M365-Backup ok; 6 neue/aktualisierte Registerzeilen
+- fde465ea vollgas-fruehwarnung 30.07. 07:15: STILL, kein Kriterium erfuellt; Taktgeber-Befund vom 29.07. geheilt (Destillat via 23:30-Slot erreicht, +1 Artikel), Stueckkosten erstmals je Lauf messbar (3.81 USD/Artikel), Nebenbefund fehlender outputs-Report
