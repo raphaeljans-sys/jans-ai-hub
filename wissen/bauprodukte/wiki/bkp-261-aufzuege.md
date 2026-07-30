@@ -1,8 +1,8 @@
 ---
 title: "BKP 261 Aufzüge — Systemtypen, Kennwerte und Barrierefreiheit (Herstellerdatenblätter, Stand 2006–2010)"
 status: emerging
-last_updated: 2026-07-28
-sources: ["100426_AS_Aufzuege.pdf" (AS Aufzüge, Typ Winner, Referenz 2.1.0053.12.9, kein Datum im Dokument — Stand gemäss Dateiname 26.04.2010), "21005312.pdf" (AS Aufzüge, Handskizze «Rollstuhlgängig?», gleiches Firmenlogo wie Winner-Datenblatt, undatiert), "Graventa_lift_Technische_Daten_VANGOGH.pdf" (GARAVENTA LIFTECH AG, Küssnacht am Rigi, Sitzlift VAN GOGH, undatiert), "sch_pdf_sch3100_de.pdf" (Schindler Aufzüge AG Ebikon, Personenaufzug Schindler 3100, Druckvermerk SCH.3100.DE.12.07 = Stand Dezember 2007), "aufzug_rollstuhlgerecht.pdf" (Schmitt+Sohn Aufzüge, Kapitel 2.2 Seilpersonenaufzüge mit Maschinenraum SP, Druckdatum 27.11.2006)]
+last_updated: 2026-07-30
+sources: ["100426_AS_Aufzuege.pdf" (AS Aufzüge, Typ Winner, Referenz 2.1.0053.12.9, kein Datum im Dokument — Stand gemäss Dateiname 26.04.2010), "100426_AS_Aufzuege_Masskizze.pdf" (AS Aufzüge/AS Ascenseurs, Masskizze «Swisslift» 7 Personen/535 kg, Referenz 2.1.0053.01.8, zweisprachig DE/FR, kein Datum im Dokument — Stand gemäss Dateiname 26.04.2010), "21005312.pdf" (AS Aufzüge, Handskizze «Rollstuhlgängig?», gleiches Firmenlogo wie Winner-Datenblatt, undatiert), "Graventa_lift_Technische_Daten_VANGOGH.pdf" (GARAVENTA LIFTECH AG, Küssnacht am Rigi, Sitzlift VAN GOGH, undatiert), "sch_pdf_sch3100_de.pdf" (Schindler Aufzüge AG Ebikon, Personenaufzug Schindler 3100, Druckvermerk SCH.3100.DE.12.07 = Stand Dezember 2007), "aufzug_rollstuhlgerecht.pdf" (Schmitt+Sohn Aufzüge, Kapitel 2.2 Seilpersonenaufzüge mit Maschinenraum SP, Druckdatum 27.11.2006)]
 links: [[REGISTER]], [[sia-500-2009]]
 ---
 
@@ -22,6 +22,26 @@ Transportanlagen» im Quellordner ist damit ungenau — massgebend ist BKP 261.
   1.0 m/s, Förderhöhe max. 27 m bei max. 10 Haltestellen. Kabine innen ca. 1250 × 1460 mm
   (aus Schachtmass 1500 × 1500 mm abgeleitet) — als «bedingt rollstuhlgängig»
   gekennzeichnet (s. Abschnitt Barrierefreiheit).
+- **AS Aufzüge, Masskizze «Swisslift»** (2.1.0053.01.8, zweisprachig DE/FR): gleiche
+  Kenndaten wie Winner (7 Personen/535 kg, elektro-mechanisch gearless, Antrieb im
+  Schacht integriert, zweiteilige Teleskoptüren, Zugang gleichseitig, 1.0 m/s), aber
+  **max. Förderhöhe 30 m** statt 27 m bei gleichbleibend max. 10 Haltestellen (Abweichung
+  zum Winner-Datenblatt nicht auflösbar — vermutlich zwei Vertriebsnamen derselben
+  Produktlinie mit leicht unterschiedlichem Redaktionsstand, in dieser KB nicht
+  weiter verifiziert). Liefert die durchgehende Schachtbemassung, die im Winner-Blatt
+  fehlt:
+  - **Schachtquerschnitt 1500 × 1500 mm**, Kabine 800 mm lichte Türbreite ×
+    1085 mm Kabinentiefe (Türnische 335/80 mm beidseitig) — **Option**: Türfront über
+    die ganze Schachtbreite (Kabinentiefe dann 1460 mm, Nischen 20/20 mm) = exakt das
+    Mass, das der bestehende Absatz zum Winner «aus dem Schachtmass abgeleitet» hatte.
+    Kabinenbreite 1050 mm bei beiden Varianten.
+  - **Schachtkopfhöhe 3400 mm** (Option reduzierte Schachtkopfhöhe: 2900 mm), Regel
+    **Schachtkopf ≥ min. Türhöhe + 400 mm**.
+  - **Schachtgrube 1060–1230 mm** Standard; Option reduzierte Grube 2180/2000 mm
+    (Masskizze zeigt hier zwei Varianten übereinander, Bemassung im Dokument nicht
+    eindeutig einem Wert zugeordnet — vor Verwendung beim Hersteller verifizieren).
+  - Türhöhe 2100 mm braucht Türaussparung 2280 mm (Option, +180 mm Reserve).
+  - Türöffnung links wie gezeichnet, rechts spiegelbildlich möglich.
 - **Schindler 3100** (Edition 12/2007): ebenfalls maschinenraumlos, für kleinere
   Wohngebäude bis max. 5 Haltestellen und max. 14 m Förderhöhe. Nutzlast 535–675 kg
   (7–9 Personen), Geschwindigkeit 0.63 m/s. Kernmerkmal laut Datenblatt: das
@@ -94,7 +114,10 @@ zwischen den Herstellern:
   ≥ 2000 mm und Zugang — das ist bei der Grundrissdisposition früh zu klären.
 - **Schachtkopf- und Schachtgrubenhöhe** sind bei jedem Anbieter tabelliert und
   variieren mit Tragfähigkeit/Geschwindigkeit — nie pauschal übernehmen, sondern die
-  Tabelle des gewählten Systems für die konkrete Nutzlast ziehen.
+  Tabelle des gewählten Systems für die konkrete Nutzlast ziehen. Faustregel aus der
+  AS-Masskizze für MRL-Systeme dieser Grössenklasse (535 kg/7 Pers.): Schachtkopf
+  ≥ Türhöhe + 400 mm, Standard-Schachtkopfhöhe 3400 mm (reduzierbar auf 2900 mm),
+  Schachtgrube 1060–1230 mm.
 - **Rollstuhlgängigkeit ist keine Selbstverständlichkeit** bei kleineren MRL-Aufzügen
   (Winner-Kabine nur «bedingt») — bei Bedarf früh mit Kabinenbreite/-tiefe ≥ EN-81-70-
   Mass planen, nicht erst in der Ausschreibung entdecken.
@@ -117,10 +140,19 @@ zwischen den Herstellern:
 
 ## Offene Punkte
 
-- Datierung der AS-Aufzüge-Dokumente (Winner-Datenblatt, Rollstuhlgängig-Skizze) ist
-  nur aus dem Dateinamen abgeleitet (`identifikatoren-verifizieren`), nicht aus dem
+- Datierung der AS-Aufzüge-Dokumente (Winner-Datenblatt, Masskizze, Rollstuhlgängig-Skizze)
+  ist nur aus dem Dateinamen abgeleitet (`identifikatoren-verifizieren`), nicht aus dem
   Dokument selbst — vor Verwendung in einer aktuellen Ausschreibung Aktualität beim
   Hersteller neu abklären.
+- **Widerspruch max. Förderhöhe AS-Winner (27 m) vs. AS-Masskizze «Swisslift» (30 m)**
+  bei sonst identischen Kenndaten (7 Pers./535 kg, 10 Haltestellen) — beide Dokumente
+  stammen vom selben Dateidatum (26.04.2010), keines der beiden PDF trägt eine
+  Versions-/Revisionsangabe, die den Widerspruch auflöst. Vor einer Ausschreibung mit
+  Förderhöhe nahe der Grenze (27–30 m) beim Hersteller aktuell nachfragen, nicht das
+  günstigere der beiden Masse übernehmen.
+- Die Zuordnung der beiden Schachtgrube-Varianten (1060–1230 mm Standard vs.
+  2180/2000 mm reduziert) in der Masskizze ist zeichnerisch nicht eindeutig einer
+  Konfiguration zugeordnet — bei Bedarf beim Hersteller klären statt zu raten.
 - Keine Preisangaben in den Quellen — für eine Kostenschätzung sind aktuelle Offerten
   nötig (Skill `kostenschaetzung`/`ausschreibung`).
 - EN 81-70 selbst (der internationale Normtext) wurde hier nicht im Volltext geprüft;

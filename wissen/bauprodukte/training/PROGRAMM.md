@@ -37,11 +37,13 @@ eine zweite Wahrheit, Rule `sync-kanonische-quelle`).
 | Begruendung der Reihenfolge | `skills/wissens-destillat/KORPUS-QUEUE.md` |
 | Quelle (nur lesen) | `/Volumes/daten/03 Bauprodukte_BKP` |
 
-**Stand 29.07.2026 (Nachtschicht 23:30):** 37 Sektionen inventarisiert · 214 Dateien erfasst
-· 14 destilliert `[x]` · 22 triagiert `[t]` · 32 offen `[ ]` · 146 bewusst uebersprungen `[-]`
-· 10 Wiki-Artikel. Letzte Einheit: BKP 273 Schreinerarbeiten, `Z_Winkel/110207_Z_Winkel.pdf`
-→ [[z-winkel-beschlag-schreinerei]] (Stahlwinkel-Beschlag, Abgrenzung zu den bestehenden
-Arbeitsplatten-Verbindern).
+**Stand 30.07.2026 (Nachtschicht 13:30):** 37 Sektionen inventarisiert · 214 Dateien erfasst
+· 15 destilliert `[x]` · 21 triagiert `[t]` · 32 offen `[ ]` · 146 bewusst uebersprungen `[-]`
+· 10 Wiki-Artikel (unveraendert, Ergaenzung eines bestehenden Artikels). Letzte Einheit:
+BKP 261 Aufzuege, `Lift/AS/100426_AS_Aufzuege_Masskizze.pdf` (Scan, per pdftoppm gerendert
+und gelesen) → [[bkp-261-aufzuege]] ergaenzt um Schachtbemassung (1500×1500mm, Schachtkopf
+3400/2900mm, Schachtgrube 1060-1230mm) des Produkts «Swisslift» (2.1.0053.01.8) und den
+offenen Foerderhoehen-Widerspruch (27m Winner-Blatt vs. 30m Masskizze).
 
 ## Umfang pro Lauf (Nachtschicht-Budget beachten)
 

@@ -1,5 +1,29 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-07-30 13:30 — Nachtschicht (Versuchs-Slot): AS-Aufzuege-Masskizze destilliert (BKP 261)
+- **[destilliert, Artikel ergaenzt]** `wiki/bkp-261-aufzuege.md` erweitert um die Schachtbemassung
+  aus `260 Transportanlagen/Lift/AS/100426_AS_Aufzuege_Masskizze.pdf` (gescannte technische
+  Zeichnung, per `pdftoppm` gerendert und bildlich gelesen — kein Text extrahierbar). Neu belegt:
+  Schachtquerschnitt 1500 × 1500 mm mit zwei Tuernischen-Varianten (335/80 mm bzw. volle
+  Schachtbreite 20/20 mm), Schachtkopfhoehe 3400 mm (Option 2900 mm reduziert) nach der Regel
+  Schachtkopf ≥ Tuerhoehe + 400 mm, Schachtgrube 1060-1230 mm.
+- **[Widerspruch dokumentiert, nicht aufgeloest]** Die Masskizze traegt den Produktnamen
+  «Swisslift» (Referenz 2.1.0053.01.8) mit **max. Foerderhoehe 30 m**, waehrend das bereits
+  destillierte Winner-Datenblatt (2.1.0053.12.9, gleicher Hersteller AS Aufzuege) bei sonst
+  identischen Kenndaten **27 m** angibt. Beide Dokumente teilen dasselbe Dateidatum
+  (26.04.2010) ohne Versionsvermerk — als offener Punkt im Artikel vermerkt statt spekulativ
+  aufgeloest.
+- **Register nachgefuehrt:** Inventar-Zeile in
+  `skills/wissens-destillat/training/bauprodukte-inventar.md` auf `[x]`, Stand-Zeile in
+  `wissen/bauprodukte/training/PROGRAMM.md` (15 destilliert, 21 triagiert).
+- Bewusst **eine** Einheit (Budget-Disziplin Nachtschicht-Versuchs-Slot 13:30, 5 USD).
+  Prioritaeten 1-2 der Nachtschicht-Anweisung waren an diesem Slot leer bzw. bereits erledigt
+  (Sync-/Remote-Queues leer; Synobsis Stufe 2 seit 02.07. bei 853/853 fertig und bewusst
+  deaktiviert); Prioritaet 3 (Fristen-Radar) war 7 h zuvor (06:55) bereits vollstaendig
+  gelaufen, ein konkreter Entwurfs-Kandidat (KISPI-Therapiekueche-Fragen buendeln) war wegen
+  eines OneDrive-Sync-Locks («Resource deadlock avoided» auf dem Zielordner) nicht bearbeitbar
+  — daher Ausweichen auf Prioritaet 4, hier die am laengsten unberuehrte KB.
+
 ## 2026-07-29 23:30 — Nachtschicht: Z-Winkel destilliert (BKP 273 Schreinerarbeiten)
 - **[destilliert]** Neuer Artikel `wiki/z-winkel-beschlag-schreinerei.md` aus
   `273 Schreinerarbeiten/Z_Winkel/110207_Z_Winkel.pdf` (OPO-Net-Katalogausdruck OPO

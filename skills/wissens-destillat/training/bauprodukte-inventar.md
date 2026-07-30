@@ -169,7 +169,7 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [t] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Noguchi/Akari 26A 45cm Fr285/26A Akari Papier-Leuchte von Vitra | connox.ch.pdf | bauprodukte | - · Einzelhandel Katalog |
 | [x] | 260 Transportanlagen | 260 Transportanlagen/Lift/AS/1.5x1.5/21005312.pdf | bauprodukte | destilliert → bkp-261-aufzuege.md |
 | [x] | 260 Transportanlagen | 260 Transportanlagen/Lift/AS/100426_AS_Aufzuege.pdf | bauprodukte | destilliert → bkp-261-aufzuege.md |
-| [t] | 260 Transportanlagen | 260 Transportanlagen/Lift/AS/100426_AS_Aufzuege_Masskizze.pdf | bauprodukte | P2 · Masszeichnung |
+| [x] | 260 Transportanlagen | 260 Transportanlagen/Lift/AS/100426_AS_Aufzuege_Masskizze.pdf | bauprodukte | destilliert 30.07.2026 → [[bkp-261-aufzuege]] (Schachtbemassung Swisslift) |
 | [x] | 260 Transportanlagen | 260 Transportanlagen/Lift/Graventa/Graventa_lift_Technische_Daten_VANGOGH.pdf | bauprodukte | destilliert → bkp-261-aufzuege.md |
 | [x] | 260 Transportanlagen | 260 Transportanlagen/Lift/Schindler/sch_pdf_sch3100_de.pdf | bauprodukte | destilliert → bkp-261-aufzuege.md |
 | [x] | 260 Transportanlagen | 260 Transportanlagen/Lift/Schmitt_Sohn_Aufzuege/aufzug_rollstuhlgerecht.pdf | bauprodukte | destilliert → bkp-261-aufzuege.md |
