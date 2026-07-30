@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.07.2026 16:21:00
+Stand: 30.07.2026 16:41:12
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -9,7 +9,7 @@ Stand: 30.07.2026 16:21:00
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 5 Datei(en): AR - 01 Projekte / 2414 THALWIL
+- 6 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- c000237d nas-selfcommit: 2 Datei(en) 2026-07-30 16:15
+- f28505f8 nas-selfcommit: 2 Datei(en) 2026-07-30 16:30
