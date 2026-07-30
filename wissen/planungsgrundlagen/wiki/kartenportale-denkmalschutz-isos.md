@@ -1,7 +1,7 @@
 ---
 title: Denkmalschutz/Ortsbildschutz als Planungsgrundlage — ISOS (Bund) + Archäologische Zonen/Denkmalschutzobjekte (Kt. ZH) + BILU/KDV (Kt. LU)
 status: established
-last_updated: 2026-07-25
+last_updated: 2026-07-30 (Wartungslauf 01: BAK-ISOS-URL korrigiert)
 sources:
   - PL-01 Kartenportale/CH Schweiz/gisos.bak.admin.ch/gisos.bak.admin.ch.docx (2 URLs:
     gisos.bak.admin.ch/sites, bak.admin.ch „ISOS in Kürze")

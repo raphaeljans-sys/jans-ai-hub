@@ -1,7 +1,7 @@
 ---
 title: Recht & Norm — Quellenlandkarte (PL-02)
 status: established
-last_updated: 2026-07-28 (Run 92, RPG-2-Refresh)
+last_updated: 2026-07-30 (Wartungslauf 01: zwei zh.ch-Kurznotationen auf aufrufbare Vollform)
 sources: [PL - 02_Recht_Norm (SharePoint), fedlex.admin.ch, zh.ch (RPG 2 / Klima-PBG / Denkmalschutz-Medienmitteilung 02.07.2026 / kantonaler Richtplan «Laufende Verfahren» TR2022 Vorlagen 6012/6013/6013a, abgerufen 2026-07-24), kantonsrat.zh.ch, espace-suisse.ch, are.admin.ch, sz.ch (PBG 400.100 Stand 1.2.2025 / PBV 400.111 Stand 1.2.2026 / Vollzugsverordnungs-Vorlage), bauen-im-laerm.ch, stadt-zürich.ch (§ 49b PBG + UmV-Volksabstimmung 14.06.2026), admin.ch/bauimmorecht.ch (LSV-Novelle 01.04.2026), vzgv.ch (Vorentwurf + erläuternder Bericht PBG "Erleichtertes Bauen im Bestand" 07.08.2025, abgerufen 2026-07-19), zh.ch Denkmalschutz-Medienmitteilung Refresh (WebSearch+WebFetch Run 90, 2026-07-26, unverändert)]
 links: [[kartenportale-oereb-egrid-bezug]], [[recht-norm-dispensrecht]], [[recht-norm-abstandsvorschriften-wald-gewaesser]], [[recht-norm-baurechtsanalysen-benchmarks]], [[recht-norm-raumprogramm-referenzwerke]], [[recht-norm-pbg-revision-bauen-im-bestand]], [[machbarkeit]]
 ---
@@ -158,8 +158,9 @@ Würdigung bleibt der Skill `baurecht`; hier der belegte Datenstand für Planung
   **KEVU am 03.03.2026 eine abweichende Kommissionsvorlage 6013a** an den Kantonsrat überwiesen. Der
   Bundesrat genehmigt den festgesetzten Richtplan anschliessend nach Art. 11 Abs. 1 RPG. Damit ist der
   Richtplan-Strang datierbar (RR-Überweisung 12.03.2025, KEVU 03.03.2026), die PBG-RPG-2-Anpassung
-  aber weiterhin nicht. Quelle: zh.ch/de/planen-bauen/raumplanung/richtplaene/kantonaler-richtplan/
-  laufende-verfahren.html + Erläuterungsbericht Vorlage 6013 (regierungsratsbeschluss-unterlagen 2025/263).
+  aber weiterhin nicht. Quelle: `https://www.zh.ch/de/planen-bauen/raumplanung/richtplaene/
+  kantonaler-richtplan/laufende-verfahren.html` (HTTP 200, nachgemessen 2026-07-30) +
+  Erläuterungsbericht Vorlage 6013 (regierungsratsbeschluss-unterlagen 2025/263).
 - **Refresh 2026-07-25 (Run 62, WebSearch zh.ch):** unverändert bestätigt — PBG-Umsetzung weiterhin
   ohne Fertigstellungsdatum, Bundes-Etappen 01.01./01.07.2026 (inkl. Abbruchprämie ab 01.07.2026)
   wie dokumentiert in Kraft. Kein neuer Erkenntnisgewinn seit Run 58 (24.07.).
@@ -184,8 +185,9 @@ Würdigung bleibt der Skill `baurecht`; hier der belegte Datenstand für Planung
 - Praxis-Anker JANS: relevant für Umnutzungs-/Ankaufsfaelle ausserhalb Bauzone (Stall-/
   Ökonomiegebäude, Landwirtschaftszone) → Skills [[machbarkeit]] / `nutzungsstrategie` /
   `ankaufspruefung`. Zonenkonformität/Bestandesschutz → `baurecht`.
-- ZH-Detailseite **„Bauen ausserhalb von Bauzonen"** (zh.ch/planen-bauen/bauvorschriften/
-  bauen-an-besonderer-lage) als Einstieg für Verfahrensfragen.
+- ZH-Detailseite **„Bauen ausserhalb von Bauzonen"**
+  (`https://www.zh.ch/de/planen-bauen/bauvorschriften/bauen-an-besonderer-lage.html`, HTTP 200,
+  nachgemessen 2026-07-30) als Einstieg für Verfahrensfragen.
 
 **Parallele ZH-PBG-Revision «Klimaangepasste Siedlungsentwicklung» — IN KRAFT seit 01.12.2024
 (Update 2026-07-06 Run 15):**

@@ -1,7 +1,7 @@
 ---
 title: eBau SZ — digitales Baugesuchsportal des Kantons Schwyz (Bürgerportal)
 status: emerging
-last_updated: 2026-07-14
+last_updated: 2026-07-30 (Wartungslauf 01: Einsiedeln Buero-Bauen-URL nachgefuehrt)
 sources:
   - Amt für Raumentwicklung, Baugesuchszentrale Kt. SZ — "Registrierung auf Bürgerportal von eBau"
     (v1.0, 24.03.2022, PL-01/KtSZ Schwyz/ebau-sz.ch/_Registrierung_Bürgerportal_eBau_v1.0.pdf)
@@ -115,8 +115,13 @@ entnommen — eBau selbst liefert keine Geodaten, sondern konsumiert sie als Ein
 
 ## 4b. Bezirks-Ebene: «Büro Bauen» Bezirk Einsiedeln als zuständige Baubehörde (K36, Run 40 2026-07-14)
 
-Beleg: `www.einsiedeln.ch/verwaltung/planen-bauen-umwelt-energie/buero-bauen` (Screenshot
-16.11.2023, PL-01/KtSZ Schwyz/einsiedeln.ch/). Ergänzt eBau (Abschnitt 1-3, kantonales
+Beleg: `https://www.einsiedeln.ch/verwaltung/planen-bauen-umwelt-energie/bauen` (Screenshot
+16.11.2023, PL-01/KtSZ Schwyz/einsiedeln.ch/). ⚠ *URL nachgeführt (Wartungslauf 01, 2026-07-30):
+der bis dahin zitierte Pfad `.../buero-bauen` liefert **404**; die Bezirksverwaltung führt die
+Seite heute unter `.../bauen`. Inhaltlich identisch nachgeprüft — die Seite trägt weiterhin die
+Bezeichnung «Büro Bauen» der Abteilung „Planen Bauen Umwelt Energie" und nennt dieselben
+Zuständigkeiten (Baugesuche, Einsprachen, Reklamegesuche, Formulare/Reglemente) sowie den
+eBau-Pflichtweg seit Dezember 2022.* Ergänzt eBau (Abschnitt 1-3, kantonales
 Verfahrensportal) um die **organisatorische** Seite: bei einem Bauvorhaben im Bezirk Einsiedeln
 ist das **«Büro Bauen»** (Abteilung „Planen Bauen Umwelt Energie" der Bezirksverwaltung) die
 zuständige Stelle für:

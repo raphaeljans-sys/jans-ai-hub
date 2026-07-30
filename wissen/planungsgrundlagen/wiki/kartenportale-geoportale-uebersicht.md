@@ -1,7 +1,7 @@
 ---
 title: Geoportale — welches Portal liefert was
 status: established
-last_updated: 2026-07-25
+last_updated: 2026-07-30 (Wartungslauf 01: geoglatt.ch abgeschaltet, LU-Hosts nachgefuehrt, ObjektwesenZH-URL)
 sources: [PL - 01 Kartenportale (SharePoint), api3/data/wms.geo.admin.ch (06/2026), maps.zh.ch, geodienste.ch, geoservices.zh.ch geoshopapi (zh.ch rest_schnittstelle_ogd_interface.pdf), notariate-zh.ch/de/grundbuch/elektronische-eigentumsabfrage (Run 20), zh.ch/objektwesen.html (Run 20), GEOINFO IT AG Produktblatt «Fachanwendung Baumkataster» (PL-01/Baumkataster, Run 24), Geodatenshop Kanton Luzern Kommunikation (Registrierung/Bestellung R694081564, 05/2024) + geodienste.ch Ablehnungsmail Kt. LU (03.06.2024), KtBE Bern be-geo.ch, KtZH/geoglatt.ch Maur (Run 25), KtZH Zürich/_Grundbuchamt/230301_Grundbuchamt.docx (Notariat Höngg-Zürich, Run 27), KtZH Zürich/geodatenshop.zh.ch/Geodatenshop.docx (Run 27), KtSZ Schwyz/geoshop.lisag.ch (_Link.docx, _GeoShop Standard.pdf, Produkteinformation_fuer_Datenausgabe_SZ.pdf AGI Kt. SZ 26.09.2023, realer Fall KTN 3301 Einsiedeln 16.11.2023, Run 27), PL - 01 Kartenportale/Baumkataster/map.geo.admin.ch_2024*.pdf + Baumkataster-Mac-mini-von-Raphael.pdf (Delta-Check Run 29), PL - 01 Kartenportale/Datenformate_Geokartenmaterial/XML/ (Delta-Check Run 29), PL - 01 Kartenportale/KtSZ Schwyz/gis.bezirkeinsiedeln.ch/ (231116_Vermessung.pdf, 231116_Grundstueckbeschriebpdf.pdf, 231126_Infrastruktur.pdf, 231125_Hoehendaten_Kanton.pdf, 230204_ÖREB_Kataster.pdf/231116_Auszug.pdf, realer Fall Grundstück 3301 Reckholdern 20 Willerzell, Run 31), PL - 01 Kartenportale/Hoehenlinie/ (Maur+Wald, «Benutzerkarte»/«Höhenlinien»-Druckprodukte maps.zh.ch, 11/2024, Run 31), PL - 01 Kartenportale/Geoshop/ (Geoshop Factsheet.pdf, Benutzerhandbuch_Public.pdf V8.0/1.11.2017, GeoShop Stadt Zürich infoGrips GmbH, Run 31), CH Schweiz/geodienste.ch/_Login_Account_Anmeldung/ (Login Geodienst.docx [Zugangsdaten nicht übernommen], LINK_Geodienste.docx Bestellbestätigung Kt. BE EGRID CH609835664683, Screenshot Registrierungsformular 18.12.2023, Run 38), KtBE Bern/be_map.apps.be.ch/230927_Schloss_Münchenwiler.docx (Amt für Geoinformation Kt. Bern, realer Kontakt, Run 42), CH Schweiz/gisos.bak.admin.ch/gisos.bak.admin.ch.docx (Delta-Check Run 42), PL - 01 Kartenportale/Grundstueckkataster/Regensdorf/*/Lieferschein.pdf (4 ZH-OGD-Bestellungen Geoportal Kt. ZH 05.-08.02.2024, GIS-ZH Nr. 555/557/10016/10102, Run 51), PL - 01 Kartenportale/KtLU Luzern/Gemeinden Luzern Stadt/Klimafreundlichheizen.ch (Beleg Steinhofstrasse 25, 05/2024) + Stadt Luzern 3D-Stadtmodell (poi.stadtluzern.ch webappviewer3d, Run 51), CH Schweiz/geoportal.ch/_Adresse_Betreiber.docx (Kommentar Brigitte Friemel, Service Desk GEOINFO Applications AG, Run 59), CH Schweiz/cadastre.ch/LINK.docx (Run 61), CH Schweiz/geoportal.ch/Einsiedeln/231126_in_Leitungskataster/*.PDF+.eml (Leitungskataster Gde + GSD-15269 Service-Desk-Ticket, Run 61), CH Schweiz/geodienste.ch/Maur/*.eml (Bestätigung DXF-GEOBAU ZH, Run 61), KtLU Luzern/Geodatenshop Kanton Luzern/00 Adressen/_Geoshop.docx (Run 61), KtLU Luzern/
 Geodatenshop Kanton Luzern/03 Produkte Geodatenshop/Einzelbaeume (daten.geo.lu.ch/download/
 einzbaum_ds_v1, Run 63), .../32 Höhenlinien (DTM18H1M_V2_LI_T1150422.dxf + Screenshots, Run 63),
@@ -211,7 +211,12 @@ JANS-Kerngeschäft liegt in Kt. ZH + SZ; die folgenden Portale sind bisher nur p
 PL-01 dokumentiert (einzelne Projekte ausserhalb des Kerngebiets) — hier nur ein Kurzprofil, keine
 vertiefte Bearbeitung, da kein wiederkehrender Bedarf erkennbar ist.
 
-- **Kt. Luzern — Geodatenshop Kanton Luzern** (`geodatenshop.lu.ch`): analog zum ZH-Modell
+- **Kt. Luzern — Geodatenshop Kanton Luzern** (historisch `geodatenshop.lu.ch`, heute
+  **`https://geoportal.lu.ch`** — ⚠ *Adresse nachgeführt Wartungslauf 01, 2026-07-30:*
+  `geodatenshop.lu.ch` **löst nicht mehr auf** (kein A-Record, drei Resolver gegengeprüft; auch
+  `www.`-Variante nicht). Das Nachfolgeportal `geoportal.lu.ch` antwortet mit HTTP 200 und führt
+  den **Geodatenshop** als eigenen Bereich. Der Download-Host `daten.geo.lu.ch` ist unverändert
+  live (HTTP 200); `geo.lu.ch` ist nur **mit** `www.` erreichbar): analog zum ZH-Modell
   Registrierung → Bestellung → Download; Produktkatalog u.a. DTM (1 m Raster), Höhenlinien (DXF),
   3D-Gebäudemodelle, Landschaftsmodell, Grundbuchplan, öffentlich-rechtliche
   Eigentumsbeschränkung, Denkmalverzeichnis/Bauinventar, historische Karten. Realer JANS-Beleg:
@@ -237,7 +242,8 @@ vertiefte Bearbeitung, da kein wiederkehrender Bedarf erkennbar ist.
     Gelände, Adresssuche, Mess-Werkzeug, LV95-Koordinatenanzeige (E/N + Betrachterhöhe). Datenquelle:
     Geoinformationszentrum Stadt Luzern / rawi Kanton Luzern / © swisstopo. Stadt-Äquivalent zum
     ZH-3D-Stadtmodell — als login-freie **3D-Kontext-Visualisierung** brauchbar, aber **kein
-    Geometrie-Export** (reiner Viewer; für echte 3D-Kuben LU → `geodatenshop.lu.ch`,
+    Geometrie-Export** (reiner Viewer; für echte 3D-Kuben LU → `geoportal.lu.ch` (vormals
+  `geodatenshop.lu.ch`, s.o.),
     swissBUILDINGS3D via swisstopo, → [[kartenportale-bund-geodaten]]).
 
 ### Kt.-LU-Vertiefung: Baugesuchsportal, Werkleitungen, Nachführung, historisches Terrain
@@ -271,7 +277,10 @@ vertiefte Bearbeitung, da kein wiederkehrender Bedarf erkennbar ist.
   das überkantonale Muster: die laufende AV-Nachführung liegt in der Schweiz durchgehend bei
   patentierten privaten Geometerbüros, nicht bei einer Amtsstelle direkt. Status `established`
   (Primärquelle Emch+Berger + LU-Produktkatalog-Eintrag).
-- **K48 — Historische Karten Kt. LU:** amtliches WebGIS-Tool (`kanton-luzern.ch`, Datenquelle
+- **K48 — Historische Karten Kt. LU:** amtliches WebGIS-Tool (⚠ *Host nachgeführt Wartungslauf 01,
+  2026-07-30:* der bis dahin zitierte `kanton-luzern.ch` **existiert nicht mehr** — die Domain ist
+  nicht einmal mehr delegiert (weder NS- noch SOA-Record). Der Kanton ist heute unter
+  **`https://www.lu.ch`** erreichbar (HTTP 200), die Karten unter `geoportal.lu.ch`; Datenquelle
   Bundesamt für Landestopographie/swisstopo + © Kt. Luzern) mit **Zeitschieberegler 1845-64 / 1880 /
   1930 / 1970 / 2017** und Vergleichs-Funktion an derselben Adresse. Damit besteht in Kt. LU ein
   **amtlicher, login-freier** Weg zur historischen Terrain-/Bebauungsrekonstruktion — als Ergänzung
@@ -382,8 +391,20 @@ technischen Mechanismus dahinter.
   Shapefile-Bezug **auf maximal 5 Parzellen pro Bestellung begrenzt** (kein Bulk-Download,
   anders als der direkte kantonale Geoshop-Weg in ZH/SZ). Weiterhin keine JANS-Standardnutzung
   dokumentiert, aber die Zuständigkeits-/Portalstruktur ist jetzt nachvollziehbar.
-- **`geoglatt.ch`** — regionales Gemeinde-GIS für mehrere ZH-Gemeinden (Beleg: Maur, Zonenplan.pdf),
-  analog zu kommunalen GIS-Portalen wie sie z.B. auch Stadt Luzern führt — liefert i.d.R. denselben
+- **`geoglatt.ch` — ⚠ ABGESCHALTET (gemessen 2026-07-30, Wartungslauf 01).** Die Domain ist
+  **nicht mehr delegiert**: weder A-/AAAA- noch NS-/SOA-Record, gegengeprüft über drei unabhängige
+  Resolver (System, 8.8.8.8, 1.1.1.1). *Hinweis zur Recherche:* Suchmaschinen führen die Adresse
+  noch als aktiven Treffer — der Index ist veraltet, die Messung am DNS ist massgeblich.
+  **Betreiber und Nachfolge belegt:** das Portal gehörte zum WebGIS-Angebot «geoweb» der
+  **Gossweiler Ingenieure AG**, die heute unter `https://www.gossweiler.com` auftritt und geoweb
+  dort unter `https://www.gossweiler.com/geoweb-gossweiler-ingenieure/` führt. Für ZH-Gemeinden mit
+  einem Gossweiler-Portal ist damit **kein direkter URL-Ersatz** dokumentiert — der Weg führt über
+  die jeweilige Gemeinde bzw. den Betreiber. Der kantonale OGD-WFS-Weg
+  ([[kartenportale-zonenplan-zh]]) ist davon **nicht** betroffen und bleibt der JANS-Standardweg;
+  der Altbeleg (Maur, Zonenplan.pdf, K59) bleibt als Dokument gültig, nur seine Bezugsquelle ist weg.
+  Historische Beschreibung des Portals (Stand vor der Abschaltung): regionales Gemeinde-GIS für
+  mehrere ZH-Gemeinden (Beleg: Maur, Zonenplan.pdf),
+  analog zu kommunalen GIS-Portalen wie sie z.B. auch Stadt Luzern führt — lieferte i.d.R. denselben
   Zonenplan/dieselbe Nutzungsplanung wie `maps.zh.ch`, aber mit gemeindespezifischer Kartenoberfläche
   und teils zusätzlichen kommunalen Layern (Werkleitungen, Verkehr). Kein Ersatz für den
   kantonalen OGD-WFS-Weg ([[kartenportale-zonenplan-zh]]), sondern eine alternative
