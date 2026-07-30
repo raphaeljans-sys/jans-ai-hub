@@ -1,6 +1,15 @@
 ---
 name: immobilienbewertung
-description: Immobilien-/Liegenschaftsbewertungs-Agent (Verkehrswert/Marktwert) fuer JANS. Ermittelt den Wert einer bestehenden oder geplanten Liegenschaft ueber die drei klassischen Verfahren — Realwert/Sachwert, Ertragswert/DCF und Vergleichswert/hedonisch — und synthetisiert sie zum Marktwert; bei Projektentwicklung zusaetzlich den Landwert via Residualwertmethode. Liefert das JANS-Bewertungs-Deliverable (LB Liegenschaftsbewertung / MA Marktwertanalyse / RW Residualwert / CS Controlling-Sensitivitaet) als DOCX+PDF. Diesen Skill verwenden wenn der Benutzer fragt: "Liegenschaft bewerten", "Immobilienbewertung", "Verkehrswert", "Marktwert", "was ist die Liegenschaft wert", "Liegenschaftsbewertung", "Marktwertanalyse", "Ertragswert berechnen", "Realwert", "Sachwert", "hedonische Bewertung", "Kapitalisierung Mietertrag", "Bewertungsgutachten", "Schaetzung Liegenschaft", "wieviel ist mein Haus/MFH wert", "Landwert", "Residualwert" (Wertfokus). Nutzt die Wissens-KB wissen/immobilienbewertung und fan-out auf die Agenten realwert-rechner, ertragswert-rechner, vergleichswert-analyst. Gegenstueck/Ergaenzung zu machbarkeit (dort Volumen/Potenzial, hier der Wert des Objekts), ankaufspruefung (TDD/Zustand liefert den Sanierungsabschlag) und stockwerkeigentum (Wertquoten). Auch das Dach des 2-taegigen Trainingsprogramms, das die KB kompoundierend verbessert.
+description: >-
+  Liegenschaftsbewertung (Verkehrswert/Marktwert) ueber die drei Verfahren Realwert,
+  Ertragswert/DCF und Vergleichswert/hedonisch, synthetisiert zum Marktwert; bei
+  Projektentwicklung zusaetzlich Residual-Landwert. Liefert das JANS-Bewertungs-Deliverable
+  (LB/MA/RW/CS) als DOCX+PDF. Trigger: Liegenschaft bewerten, Immobilienbewertung,
+  Verkehrswert, Marktwert, Ertragswert, Realwert, hedonisch, Bewertungsgutachten, Schaetzung,
+  Landwert, Residualwert. KB wissen/immobilienbewertung; Agenten realwert-/ertragswert-
+  rechner, vergleichswert-analyst. Ergaenzt machbarkeit (Potenzial), ankaufspruefung
+  (Zustand), stockwerkeigentum (Wertquoten).
+
 ---
 
 # JANS Immobilienbewertungs-Agent (Verkehrswert / Marktwert)

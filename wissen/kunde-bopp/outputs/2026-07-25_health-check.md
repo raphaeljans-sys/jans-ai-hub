@@ -62,6 +62,14 @@ Aussagen. Die Ueberholung ist ein Aktualitaets- statt ein Widerspruchsproblem, s
 Geprueft an `projekt-giebelweg12.md` (neu seit letztem Check): Kat.-Nr. 3338, 768 m², Zone W2,
 EGRID CH879777718909, Bestandsvolumen 904 m³, Referenzvariante 176 m³ ueber Budget,
 massgebendes Terrain 549.27 m ü.M., Attika 130.25 m², 1'259/1'267 m³, Vollmacht 22.06.2026,
+<!-- Korrekturnotiz 30.07.2026 (Wissens-Chef Run 21, Cross-KB): Die drei hier als gedeckt
+geprüften Werte «MT 549.27 m ü.M. / Attika 130.25 m² / 1'259 von 1'267 m³» waren schon am
+25.07.2026 überholt. Sie stammen aus dem Zwischenstand vom 12.06.2026 (Ausmittelung des MT,
+kein zulässiger Rechenweg). Massgeblich ist der Endstand vom 13.06.2026, Nachweis Version 3:
+Abtreppung in drei Stufen, Attika regelkonform 128.9 m², 1'162 m³ anrechenbar, Reserve 105 m³
+(belegt in PROJEKT-STAND.md und im Deliverable). Der Prüfbefund oben bleibt als historischer
+Wortlaut stehen; der Artikel projekt-giebelweg12.md ist nachgeführt. -->
+
 Einwendung 30.06.2026 an `bauamt@langnau.ch` — alle ueber die drei im Frontmatter genannten
 Quellen (PROJEKT-STAND.md, Korrespondenzordner, eigener Output vom 24.07.) gedeckt. Kein
 unbelegter Claim. `profil-christoph-bopp.md` unveraendert seit 21.07. (dort bereits sauber).

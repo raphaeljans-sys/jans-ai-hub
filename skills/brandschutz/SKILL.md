@@ -1,6 +1,15 @@
 ---
 name: brandschutz
-description: Brandschutz-Berater (Schweiz / VKF) fuer JANS. Erstellt Brandschutz-Ertuechtigungs-Factsheets, Bauleitung-Memos und Ausschreibungs-Beilagen zu Brandabschnitten, EI-Klassifizierungen (EI00/EI30/EI60), RF-Klassen (RF1/RF2/RF3), Reaktion-auf-Feuer-Klassen fuer Bodenbelaege (Bfl-s1, Cfl-s1) sowie Trockenbau-Wandaufbauten (W3xx-00, GKF vs. GKB). Diesen Skill verwenden wenn der Benutzer fragt: "Brandschutz-Ertuechtigung", "EI30 Wand", "Factsheet Bestand-Waende", "VKF Anerkennung Trockenbau", "GKF GKB", "Brandabschnitt", "Bestand-Wand auf EI30 ertuechtigen", "Konformitaetserklaerung Brandschutz", "Brandschutzplan abgleichen", "Bodenbelag im Fluchtweg", "Bfl-s1 VKF", "Leistungserklaerung Bodenbelag pruefen", "Reaktion auf Feuer", "EN 13501-1", "DoP Bodenbelag", "Feuerpolizei Akzeptanz", "Belag schon verlegt — muss ausgeschrieben werden?" — und im Wettbewerbs-/Vorprojekt-Modus (Modus B): "Brandschutz im Wettbewerb", "Brandschutz Vorprojekt", "welche Nutzungskategorie", "Beherbergungsbetrieb a/b/c", "Berghuette Brandschutz", "Biwak Brandschutz", "SAC-Huette Brandschutz", "brauche ich zwei Fluchtwege", "Fluchtweg ueber angrenzenden Raum", "QSS-Stufe", "Brandschutz im Erlaeuterungsbericht", "Wettbewerbsprogramm Brandschutz pruefen". Gegenstueck/Vorstufe zum Skill `ausschreibung` — hier wird die brandschutztechnische Grundlage erarbeitet, bevor das LV (z.B. BKP 271.10) erstellt wird oder bevor entschieden wird, ob ein bereits verbautes Produkt akzeptiert werden kann.
+description: >-
+  Brandschutz-Berater Schweiz/VKF: Ertuechtigungs-Factsheets, Bauleitungs-Memos und
+  Ausschreibungs-Beilagen zu Brandabschnitten, EI-Klassifizierungen (EI30/EI60), RF-Klassen,
+  Bodenbelaegen im Fluchtweg (Bfl-s1, EN 13501-1, DoP/Leistungserklaerung) und Trockenbau-
+  Wandaufbauten (GKF/GKB, VKF-Anerkennung); Modus B fuer Wettbewerb/Vorprojekt
+  (Nutzungskategorie, Fluchtwege, QSS-Stufe, Beherbergung a/b/c, SAC-Huette/Biwak). Trigger:
+  Brandschutz, EI30-Wand ertuechtigen, Brandabschnitt, VKF, Fluchtweg,
+  Konformitaetserklaerung, bereits verlegter Belag akzeptierbar. Vorstufe zu ausschreibung
+  (z.B. BKP 271.10).
+
 ---
 
 # JANS Brandschutz-Berater (Schweiz / VKF)

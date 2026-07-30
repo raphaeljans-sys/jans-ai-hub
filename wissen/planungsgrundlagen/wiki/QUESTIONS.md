@@ -1,8 +1,44 @@
 # QUESTIONS — offene Fragen & Wissenslücken
 
-Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit ✓ + Datum.
+Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
+
+> **Zuständigkeit seit 30.07.2026:** Der zweitägige Trainings-Loop (grower) ist **eingestellt**
+> (Entscheid Raphael nach 28 Erschöpfungsbestätigungen, Statuskopf `training/PROGRAMM.md`).
+> Zuständig ist jetzt der **monatliche Wartungslauf** `planungsgrundlagen-wartung` (maintainer):
+> er prüft Endpunkte/Links und die eigenen Connectoren und hakt hier nur **nachweislich**
+> Erledigtes ab — er produziert **kein** neues Wissen. Inhaltliche Fragen (K/R/C/D-Punkte) bleiben
+> deshalb offen stehen, bis Raphael neues Quellmaterial in die PL-Ordner legt oder ein reales
+> Projekt sie auslöst; sie sind **keine** Aufgaben des Wartungslaufs.
 
 ## A — Kartenportale
+- [x] **K64 — Link-Frischecheck PL-01: drei tote Adressen ersetzt, eine Abschaltung belegt
+  (Wartungslauf 01, 2026-07-30)** 228 in `wiki/` zitierte Adressen maschinell extrahiert und per
+  HTTP-Statuscode gemessen; Verdachtsfälle in vier Varianten (`https`/`http`, mit/ohne `www.`)
+  nachgeprüft und bei DNS-Verdacht über drei unabhängige Resolver (System, 8.8.8.8, 1.1.1.1)
+  gegengeprüft. Befunde und Behebung:
+  - **`geoglatt.ch` ist abgeschaltet** — die Domain ist nicht einmal mehr delegiert (weder A-/AAAA-
+    noch NS-/SOA-Record). Betreiber war die **Gossweiler Ingenieure AG** (WebGIS «geoweb»), heute
+    `gossweiler.com/geoweb-gossweiler-ingenieure/`. Ein direkter URL-Ersatz je Gemeinde ist **nicht**
+    belegt; als tot markiert samt Betreiber-/Nachfolgehinweis. Der kantonale OGD-WFS-Weg ist nicht
+    betroffen. ⚠ **Methodenhinweis:** die WebSearch führte `geoglatt.ch` weiterhin als aktiven
+    Treffer — **der Suchindex ist kein Erreichbarkeitsbeleg**, die DNS-/HTTP-Messung ist massgeblich.
+  - **`kanton-luzern.ch` existiert nicht mehr** (keine Delegation) → Kanton heute `www.lu.ch` (200).
+  - **`geodatenshop.lu.ch` löst nicht mehr auf** → Nachfolgeportal `geoportal.lu.ch` (200, führt den
+    «Geodatenshop»). `daten.geo.lu.ch` unverändert live; `geo.lu.ch` nur **mit** `www.`.
+  - **`zh.ch/objektwesen.html`** (404) → aufrufbare Vollform
+    `www.zh.ch/de/planen-bauen/geoinformation/objektwesen.html` (200).
+  - **Einsiedeln «Büro Bauen»**: `.../planen-bauen-umwelt-energie/buero-bauen` (404) →
+    `.../planen-bauen-umwelt-energie/bauen` (200); Inhaltsgleichheit geprüft (Bezeichnung «Büro
+    Bauen», dieselben Zuständigkeiten, eBau-Pflicht seit Dez. 2022).
+  → [[kartenportale-geoportale-uebersicht]], [[kartenportale-denkmalschutz-isos]],
+  [[kartenportale-ebau-sz-baugesuch]].
+- [ ] **K65 (neu Wartungslauf 01, 2026-07-30) — zwei Adressen antworten nur im Browser, nicht im
+  Skript.** `leitungskataster.upc.ch` liefert auf skriptierte Anfragen **HTTP 403**, und die
+  Elterndomain `www.upc.ch` hat ein **abgelaufenes TLS-Zertifikat** (curl-Fehler 60, gemessen
+  2026-07-30); `solarrechner.ch` scheitert an der TLS-Aushandlung (unrecognized name) bzw. 403.
+  Beides ist **kein Beleg für «tot»** — eine Bot-Sperre sieht wie ein Ausfall aus. Bei nächster
+  Gelegenheit im Browser gegenprüfen; Sunrise (Muttergesellschaft von UPC) ist unter `sunrise.ch`
+  live. Betrifft [[kartenportale-werkleitungskataster]] und [[energie-pv-eignung-typenwahl]].
 - [x] **K63 — Endpunkt-Frischecheck bestanden (Run 93, 2026-07-30)** Alle 13 in dieser KB
   dokumentierten Bezugs-Endpunkte der Domäne wurden am realen JANS-Benchmark (Giebelweg 12,
   EGRID CH879777718909) gemessen: **13 von 13 antworten**, Zonenplan-Werte (W/1.5, BMZ 1.5, GH 4.5,
@@ -301,6 +337,17 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   → [[kartenportale-geoportale-uebersicht]] (Offen A5).
 
 ## B — Recht & Norm
+- [x] **R75 — zwei zh.ch-Kurznotationen auf die aufrufbare Vollform gebracht (Wartungslauf 01,
+  2026-07-30)** Derselbe Fehlertyp wie D14 (Run 93): eine gekürzte URL ist eine Merkhilfe, keine
+  Quelle. In [[recht-norm-quellenlandkarte]] standen zwei `Quelle:`-Angaben in verkürzter Form, die
+  so **nicht aufrufbar** sind (403/404) — der kantonale Richtplan «Laufende Verfahren» und die
+  Detailseite «Bauen ausserhalb von Bauzonen». Beide auf die gemessene Vollform umgestellt
+  (`www.zh.ch/de/planen-bauen/raumplanung/richtplaene/kantonaler-richtplan/laufende-verfahren.html`
+  bzw. `www.zh.ch/de/planen-bauen/bauvorschriften/bauen-an-besonderer-lage.html`, je HTTP 200).
+  **Systematisch geprüft:** alle zh.ch-Kurznotationen der KB — die übrigen stehen in
+  Refresh-/Rechercheprotokollen («geprüft wurde …»), nicht als Fundstelle, und bleiben unverändert.
+  Der `zh.ch`-Host antwortet ohne `www.` und ohne `.html` grundsätzlich mit 403/404; die
+  zitierfähige Form ist immer `https://www.zh.ch/de/<pfad>.html`.
 - [ ] **R74 (Wissens-Chef Run 21, 2026-07-30) — Abschnitt 2 von
   [[recht-norm-tiefgarage-erschliessung]] materiell auf VSS 40 291:2021 umstellen.** Der ganze
   Abschnitt (Parkfeld-/Fahrgassenmasse, lichte Höhe, Rampenneigung, Kurvenverbreiterung,
@@ -662,6 +709,18 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   AWEL/Minergie/GVZ/2000-Watt/Lignum/SWKI…) → [[recht-norm-quellenlandkarte]]. Vertiefung je Bedarf.
 
 ## C — Brandschutz
+- [x] **C45 — Link-Frischecheck PL-03: die einzige tote Adresse der Domäne ersetzt (Wartungslauf 01,
+  2026-07-30)** Die in PL-02/PL-03 zitierten amtlichen Adressen waren seit Run 62 (25.07.) nicht
+  systematisch geprüft — der letzte Lauf hatte genau das als nächsten Schritt vorgeschlagen. Ergebnis
+  für PL-03: **eine** tote Adresse. Der in der VKF-Arbeitshilfe 1002-03d von **2003** gedruckte Host
+  **`bsvonline.vkf.ch` ist nicht mehr auflösbar** (weder A- noch AAAA-Record, drei Resolver
+  gegengeprüft); die Brandschutzvorschriften stehen heute unter **`www.bsvonline.ch/de`** (HTTP 200).
+  Bemerkenswert: **dieselbe KB führte die richtige Adresse `bsvonline.ch` im Musterplansatz-Abschnitt
+  (§5b–§5f) bereits korrekt** — wie schon bei D14 (Run 93) ein **Propagierungs-**, kein
+  Entdeckungsfehler: das Wissen war da und wurde nicht an die zweite Fundstelle weitergereicht.
+  Behoben in [[brandschutz-pl03-wegweiser]] §4c, historisches Zitat bleibt im Wortlaut stehen.
+  Alle übrigen PL-03-Adressen (`bsvonline.ch` inkl. Unterseiten `de/aktuell`,
+  `de/brandschutzvorschriften/projekt-bsv-2026`, `praever.ch`, `vkg.ch`) antworten mit 200.
 - [ ] **C44 (Wettbewerbs-Scan Grassenbiwak, 2026-07-28)** **Batteriespeicher als Brandschutzthema —
   wie ist ein Lithium-Ionen-Hausspeicher nach BSV 2015 zu behandeln, und was aendert BSV 2026?**
   Ausloeser: Wettbewerbsprogramm 2408 verlangt einen eigenen Raum «Batterie/Elektro» (2 m²), die
@@ -1215,7 +1274,41 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   ausstehend) — bis dahin gilt MuKEn 2014 (Eigenstrom 10 W/m²).
 
 ## E — Connector/Tooling
+- [x] **E15 — `--hilfe` funktionierte in KEINEM der fünf Connectoren (Wartungslauf 01, 2026-07-30,
+  behoben + beide Pfade nachgemessen)** Rule 260729 verlangt, jeden Connector zuerst per
+  `node <pfad> --hilfe` selbst befragen zu können. Gemessen: **alle fünf** (`geo-zh`, `geo-sz`,
+  `gwr-bund`, `geoshop-zh`, `behoerden-zh`) liefen mit `--hilfe` in die normale Argumentprüfung und
+  beendeten sich mit einer Fehlermeldung und **Exit-Code 1** — eine Hilfe-Anfrage war damit von
+  einem Bedienfehler nicht zu unterscheiden. Das war der bei E14 notierte Nebenbefund, dort auf
+  «die nächste Connector-Pflege» vertagt; das ist dieser Lauf.
+  **Lösung:** neuer gemeinsamer Baustein `connectors/_hilfe.mjs` mit `willHilfe(argv)` +
+  `hilfeAusKopf(import.meta.url)`; die Weiche steht als erste Zeile der Main-IIFE jedes Connectors.
+  `hilfeAusKopf` gibt den **Kopfkommentar der aufrufenden Datei** aus — kein zweiter, driftender
+  Hilfetext, die Hilfe ist per Konstruktion synchron zur Dokumentation im Dateikopf.
+  **Nachgemessen:** `--hilfe`/`--help`/`-h` liefern bei allen fünf Connectoren den vollen
+  AUFRUF-/FLAGS-Block mit **rc=0**; der Fehlerpfad ohne Argumente meldet unverändert **rc=1**;
+  Vollketten-Regression nach dem Patch grün (siehe E16). Auch über die Weiterleitungsdatei
+  `skills/oereb-schwyz/connectors/geo-sz.mjs` erscheint korrekt die Hilfe des gepflegten Connectors.
+- [x] **E16 — Connector-Funktionstest am realen Benchmark bestanden (Wartungslauf 01, 2026-07-30)**
+  Gemessen an den belegten JANS-Benchmarks, je vor und nach dem `--hilfe`-Patch:
+  | Test | Ergebnis |
+  |---|---|
+  | `geo-zh` Vollkette Adresse → EGRID → OEREB (Giebelweg 12) | **EGRID CH879777718909 · Parz. 3338 · BFS 136**, PDF 888 KB — identisch zum Erstbezug 05.06.2026 |
+  | `geo-zh --produkt zonenplan` | **W/1.5 (W1) · BMZ 1.5 · GH 4.5 · ES_II · inKraft** — unverändert |
+  | `geo-zh --produkt baulinien` | 7 Baulinien (nächste 116.2 m) + 1 Waldgrenze (105.6 m) — unverändert |
+  | `geo-sz --parzelle "Einsiedeln 3301"` + OEREB | **EGRID CH527708492462 · Parz. 3301 · BFS 1301**, PDF ~2.0 MB |
+  | Weiterleitung `oereb-schwyz/geo-sz.mjs` | löst denselben EGRID auf — eine Wahrheit bestätigt |
+  | `behoerden-zh --check` | **33 aktuell · 0 geändert · 0 neu · 0 TOT** (von 33) |
+  | 204-Diagnose (ZH-EGRID gegen SZ-Service und umgekehrt) | beide melden zutreffend «EGRID im Register nicht vorhanden», nicht «Serverdefekt» — E12 hält |
+  | `node --check` alle fünf Connectoren + Weiterleitungsdatei | Syntax OK |
+  Kein Connector-Code ungetestet abgelegt (Vorgabe des Wartungsauftrags).
 - [x] **E11 — Datums-Prefix war UTC statt Lokalzeit (Run 93, 2026-07-30, behoben + getestet)**
+  **↳ Nachkontrolle Wartungslauf 01 (2026-07-30):** Fix hält. Alle vier Connectoren nutzen
+  unverändert `toLocaleDateString("sv-SE")`; Gegenprobe im kritischen Zeitfenster (simuliert
+  31.07.2026 00:30 CEST) liefert lokal `2026-07-31` gegen UTC `2026-07-30` — der Unterschied ist
+  reproduziert. ⚠ Merkposten für künftige Läufe: ein Funktionstest **ausserhalb** von 00:00–02:00
+  CEST kann den Fix nicht widerlegen, weil lokal und UTC dort dasselbe Datum liefern; die
+  Codeprüfung plus Gegenprobe ist deshalb der massgebliche Nachweis, nicht der Dateiname.
   Alle vier `planungsgrundlagen`-Connectoren bildeten ihr Datum mit
   `new Date().toISOString().slice(0,10)`. Das ist **UTC**: zwischen 00:00 und 02:00 CEST (Sommer;
   00:00–01:00 CET im Winter) datierten sie jede Ausgabedatei **einen Tag zurück** — genau im
@@ -1250,6 +1343,11 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   Fassung). **Offen bleibt bewusst nur `connectors/bexio.mjs:279`** — buchungsrelevant, Änderung
   nur mit ausdrücklicher Einzelfreigabe Raphaels (Rule 260702). Damit ist der Bestandssweep bis auf
   diese eine Stelle sauber.
+  **↳ Nachkontrolle Wartungslauf 01 (2026-07-30):** Bestandssweep wiederholt
+  (`grep -rn "toISOString().slice(0, 10)" connectors/ skills/`) — **genau ein** Treffer übrig,
+  `connectors/bexio.mjs:279`. Stand unverändert; wartet weiterhin auf Raphaels Einzelfreigabe und
+  bleibt bewusst offen. Der Punkt ist damit kein Rückstand des Wartungslaufs, sondern ein
+  Entscheid-Posten.
 - [x] **E14 — `geo-sz.mjs` existiert zweimal und divergiert** (neu Run 93, 2026-07-30):
   `skills/planungsgrundlagen/connectors/geo-sz.mjs` (23'149 B, Stand 22.07.2026, mit
   Parzellensuche/Grundwasser/JANS-Umbenennung, seit heute mit 204-Diagnose und lokalem Datum) gegen
@@ -1270,7 +1368,19 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   `oereb-schwyz` erbt Parzellensuche, Grundwasser, 204-Diagnose und lokales Datum.
   **Nebenbefund für den Wartungslauf:** der Connector kennt kein `--hilfe`, obwohl die
   Hub-Konvention (Rule 260729) verlangt, jeden Connector zuerst per `--hilfe` befragen zu können.
-  Nachzutragen bei der nächsten Connector-Pflege.
+  Nachzutragen bei der nächsten Connector-Pflege. **↳ ERLEDIGT für alle fünf Connectoren, siehe E15
+  (Wartungslauf 01, 2026-07-30).**
+  ⚠ **Wortlaut-Korrektur (Wartungslauf 01, 2026-07-30) — wichtig für künftige Läufe:**
+  `skills/oereb-schwyz/connectors/geo-sz.mjs` ist **kein Symlink**, sondern eine
+  **Weiterleitungsdatei** (1'190 B, reguläre Datei; `test -L` falsch), die den gepflegten Connector
+  per `import "../../planungsgrundlagen/connectors/geo-sz.mjs"` ausführt und `process.argv`
+  unverändert durchreicht. Am Original nachgemessen und funktional bestätigt (löst
+  «Einsiedeln 3301» → EGRID CH527708492462 auf). Der Eintrag oben und der Auftragstext des
+  Scheduled Task nennen sie weiterhin «Symlink» — das ist nur die Bezeichnung, die Sache ist richtig
+  gebaut. **Nicht in einen echten Symlink «korrigieren»:** über den SMB-Mount schreibt macOS einen
+  Symlink als «XSym»-Textdatei, der native Committer erfasst deren Rumpf, und jeder Klon erbt eine
+  kaputte 1-KB-Datei statt des Connectors (Rule betrieb-chronik, belegt und behoben am 30.07.2026).
+  Die Weiterleitungsdatei ist genau die vorgeschriebene Lösung — der Dateikopf begründet das selbst.
 - [x] **E1** `geo-zh.mjs` um `--produkt` erweitern. ✓ 2026-06-10: `--produkt
   height,orthofoto,dtm,bauzonen` + `--download` implementiert, end-to-end an Kat. 3338 getestet
   (graceful skip bei EGRID-only ohne Koordinate). → [[kartenportale-bund-geodaten]].
@@ -1290,6 +1400,26 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   (am Langnau-Benchmark nicht ausgelöst, kein Regress). → [[kartenportale-bund-geodaten]].
 
 ## F — Meta/Querschnitt
+- [x] **F-QUELLBESTAND — 29. Erschöpfungsbestätigung (Wartungslauf 01, 2026-07-30)** Alle vier
+  PL-Ordner gegen den Zeitstempel des letzten Trainingslaufs (Run 92, 2026-07-28 00:35) geprüft:
+  **0 neue oder geänderte Inhaltsdateien** in `PL - 01 Kartenportale` (979 Dateien),
+  `PL - 02_Recht_Norm` (2'503), `PL - 03 Brandschutz` (152), `PL - 04 Energie` (317). Der Entscheid,
+  den grower stillzulegen, bleibt richtig; **keine Reaktivierung** zu prüfen. Nächste Prüfung im
+  nächsten Wartungslauf — legt Raphael zwischenzeitlich Material ab, meldet ohnehin der
+  `wissens-trigger`.
+- [ ] **F-LINKS-REST (neu Wartungslauf 01, 2026-07-30) — vier Adressen mit gealterter, aber nicht
+  toter Fundstelle.** Beim Frischecheck aufgefallen, bewusst **nicht** eigenmächtig umgeschrieben,
+  weil sie in der Sache noch tragen und teils als Zitat aus einer Quelle stehen:
+  - `www.eco-bau.ch/index.cfm?Nav=15&ID=16` (**404**, alte CFM-Struktur) in
+    [[recht-norm-ahb-stadt-zuerich-projektstandards]] — die Organisation firmiert heute unter
+    **`ecobau.ch`** (`eco-bau.ch` leitet dorthin, 200). Der Artikel führt die Adresse ausdrücklich
+    als «bewusste Verweis-Platzhalter» aus dem AHB-Quelldokument; ein stiller Austausch würde das
+    Zitat verfälschen. Beim nächsten inhaltlichen Anlass sauber als «Quelle nennt X, heute Y» führen.
+  - `energieheld.ch` in [[energie-pv-eignung-typenwahl]] leitet heute auf **`ckw.ch`** weiter
+    (Anbieter übernommen) — die Fundstelle zeigt nicht mehr auf den zitierten Inhalt.
+  - `map.apps.be.ch` (Kt. Bern) antwortet **nur über `http://`**, nicht über `https://`.
+  - `daten.geo.lu.ch/download/` liefert ohne Parameter 404; der Host selbst ist live (200) — das ist
+    erwartetes Verhalten eines Download-Endpunkts, kein Defekt, hier nur zur Abgrenzung notiert.
 - [ ] **F-KONSISTENZ (Nachaudit 2026-07-28)** **Sechs Phantom-Backlinks** verweisen aus acht
   Artikeln auf Wiki-Artikel, die es nie gab: `[[u-werte-grenzwerte-ch]]` (5×),
   `[[graue-energie]]` (4×), `[[minergie-standards]]` (2×), `[[abstaende-und-hoehen]]` (2×),

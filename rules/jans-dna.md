@@ -43,7 +43,8 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
 - **Do:** menschlicher Rahmen + sachlicher Kern; Signatur-Phrasen; Du gross; Apostroph-Zahlen;
   warmer, anbietender Schluss. **Gruss nach Mail-Typ, nie mechanisch nach Anrede:** operativ →
   Kurzgruss «Lieber Gruss»/«Lgr.»/«Danke und Gruss» — bei jeder kurzen operativen Bitte/Auskunft,
-  registerübergreifend, auch als Schlusszeile vor FG+Block in der Sie-Behördenmail;
+  registerübergreifend; als Schlusszeile vor FG+Block in der Sie-Behördenmail nur die kombinierte
+  Form «Danke und Gruss»;
   dokumentierend (auch im Du, auch bei «Hoi») → «Freundliche Grüsse» + voller Block.
   Dokumentierend sind Beleg-/Abwicklungsmails (Rechnung, gebuchte Abwicklung) und der
   Mandatsabschluss-Dank; operativ bleiben verhandelbares Angebot («ruf mich an»),

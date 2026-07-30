@@ -130,6 +130,19 @@ Ziel, Abgrenzung, Kriterien — bevor ich baue?"), statt blind loszulegen.
    Faktenbasis seit Bestätigung neue, gleichrangige Quellen bekommen hat — sonst baut das MVP auf
    einem veralteten Quellenstand. Diese Prüfung ist Sache des ausführenden Skills/Teams (hier
    `synergie-orchestrator`), nicht des `spec-training`-Loops selbst; die KB hält die Lehre fest.
+   **Fünfter Alterungsmodus (neu, belegt 30.07.2026, Korpus-Spec `bauprodukte`):** steuert eine
+   Spec **maschinelle Folgeläufe** statt eines menschlichen Vorhabens, altert sie nicht in Tagen,
+   sondern in **Stunden** — und zwar durch die eigene Maschine. Die Spec vom 28.07. (01:30-Lauf)
+   führte als Checkpoint «Inventar Phase 0 fortsetzen (35 von 37 Sektionen offen)»; um **04:24
+   desselben Tages** stand die Inventarisierung bei 37/37, erledigt vom nächsten Slot derselben
+   Nachtschicht. Zweitbeleg: `KORPUS-QUEUE.md` führt seit 28.07. 06:58 «6 Artikel», real sind es
+   8 Artikel / 15 destillierte Dateien.
+   **Regel daraus: keine Zählstände in den bindenden Teil einer Spec.** Wo ein Stand nötig ist,
+   wird auf das **nachführende Artefakt** verwiesen (hier `bauprodukte-sektionen.md`,
+   `bauprodukte-inventar.md`), nicht die Zahl kopiert — sonst ist der Plan-Abschnitt schon beim
+   ersten Folgelauf falsch und der Leser weiss nicht, welche Angabe gilt. Dieselbe Krankheit wie
+   [[QUESTIONS]] F-ENV1 (Zählstände ohne Nachführungs-Verfahren), hier zweitbelegt: sie betrifft
+   nicht nur Wiki-Artikel, sondern **Spec-Dokumente allgemein**.
 3. **Präzise + Verifier** — Bewertungskriterien vorab; Goldstandard als Format-Vorlage;
    zweite Prüfinstanz (`korrektur`/`twin`/`/code-review`); externes Signal via Connector.
    Wo eine **autoritative Instanz** entscheidet (Behörde/Notar/Bank), gilt deren Befund vor

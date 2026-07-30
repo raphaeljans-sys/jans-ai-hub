@@ -1,6 +1,14 @@
 ---
 name: auflagebereinigung
-description: Auflagebereinigungs-Agent fuer Bauentscheide (Baubewilligungen) — destilliert die Auflagen eines (Vorabzug-)Bauentscheids und fuehrt sie zu einer nachfuehrbaren Plan- und Dokumentenliste, gruppiert nach Planer/Gewerk, mit Amt und Frist je Deliverable. Diesen Skill verwenden wenn der Benutzer fragt: "Auflagebereinigung", "Auflagen abarbeiten", "Plan- und Dokumentenliste", "Plandokumentenliste", "Bauentscheid Auflagen", "Auflagen nach Planer", "Auflagenliste erstellen", "Bedingungen und Auflagen", "Baubewilligung Auflagen", "Bewilligungsauflagen", "wer muss was bei welchem Amt einreichen", "Auflagen Bauleitung", "Auflagen tracken", "Auflagenkontrolle". Nutzt die Wissens-KB wissen/auflagebereinigung und fan-out auf die Agenten auflagen-extraktor, planer-zuteiler, amts-fristen-zuordner, auflagen-tracker. Gegenstueck/Fortsetzung zu behoerden-vorabklaerung (dort die Fragen VOR dem Entscheid, hier die Pflichten NACH dem Entscheid); speist pendenzenliste/protokoll und die Ausfuehrungs-Skills unternehmerkontrolle/kostenkontrolle. Nutzt baurecht + brandschutz als Faktenbasis.
+description: >-
+  Destilliert die Auflagen eines (Vorabzug-)Bauentscheids zur nachfuehrbaren Plan- und
+  Dokumentenliste: gruppiert nach Planer/Gewerk, je Deliverable Amt und Frist. Trigger:
+  Auflagebereinigung, Auflagen abarbeiten, Plan- und Dokumentenliste,
+  Bauentscheid/Baubewilligung Auflagen, wer muss was bei welchem Amt einreichen, Auflagen
+  tracken. Fan-out auflagen-extraktor, planer-zuteiler, amts-fristen-zuordner, auflagen-
+  tracker; KB wissen/auflagebereinigung. Fortsetzung von behoerden-vorabklaerung (dort Fragen
+  VOR dem Entscheid, hier Pflichten danach); speist pendenzenliste und kostenkontrolle.
+
 ---
 
 # JANS Auflagebereinigungs-Agent

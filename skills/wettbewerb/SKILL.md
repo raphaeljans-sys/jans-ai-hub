@@ -1,18 +1,14 @@
 ---
 name: wettbewerb
 description: >-
-  Wettbewerbs-Harness fuer Architektur-Konkurrenzen — orchestriert aus dem
-  Wettbewerbsprogramm-PDF die pruefbaren Abgabe-Liefergegenstaende und zieht den Entwurf
-  ueber eine Konformitaets-Schleife so lange gegen das Programm, bis jede Soll-Vorgabe
-  erfuellt ist. Erzeugt/verifiziert: Raumprogramm- und Flaechen-Nachweis (SIA 416),
-  Erlaeuterungsbericht, Konzept-Schemas, Plakat-Layout-Geruest, Situationsmodell-STL (3D-Print)
-  und eine luckenlose Abgabe-Checkliste. Diesen Skill verwenden wenn der Benutzer fragt:
-  "Wettbewerb aufsetzen", "Wettbewerbsprogramm auswerten", "Konkurrenz abgeben",
-  "Abgabe-Checkliste Wettbewerb", "Raumprogramm-Nachweis", "Plakatlayout Wettbewerb",
-  "Wettbewerbsbeitrag generieren", "Flaechennachweis Abgabe". Mantelstufe wie
-  studien-generator, aber fuer Wettbewerbe statt Studien; nutzt volumenstudie (Volumen/STL),
-  machbarkeit/baurecht (Rahmen), planungsgrundlagen (Geodaten), grobkosten-onepager (Kennzahl);
-  Geometrie-/Bildproduktion bleibt Mensch + Fachwerkzeug (siehe Reife-Ampel).
+  Wettbewerbs-Harness fuer Architektur-Konkurrenzen: destilliert aus dem Programm-PDF die
+  pruefbaren Abgabe-Deliverables und zieht den Entwurf in einer Konformitaets-Schleife gegen
+  das Programm, bis jedes Soll erfuellt ist — Raumprogramm-/Flaechen-Nachweis SIA 416,
+  Erlaeuterungsbericht, Konzept-Schemas, Plakat-Geruest, Situationsmodell-STL, Abgabe-
+  Checkliste. Trigger: Wettbewerb aufsetzen, Wettbewerbsprogramm auswerten, Abgabe-Checkliste,
+  Raumprogramm-Nachweis, Plakatlayout Wettbewerb. Nutzt volumenstudie, machbarkeit/baurecht,
+  planungsgrundlagen; Agenten programm-leser/-pruefer, flaechen-nachweis, bericht-autor.
+
 ---
 
 # JANS Wettbewerbs-Harness (Programm-PDF -> verifizierte Abgabe)

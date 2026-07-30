@@ -1,6 +1,14 @@
 ---
 name: healthcare-wirtschaftlichkeit
-description: Wirtschaftlichkeits-/Rentabilitaets-Agent fuer Healthcare-Immobilien (Alters-/Pflegeheim, Betreutes Wohnen, Klinik, Reha) — destilliert aus dem JANS-Projekt 2410 WALD/Averecura (Nova Property Fund). Rechnet die Betreiber- und Investorensicht: Pflegeplatzkosten/Monat, Hotellerie-/Pensionstaxe, Erstellungskosten je Pflegeplatz, Brutto-/Nettorendite via Annuitaet (BWO-Referenzzinssatz, CURAVIVA-Abschreibung), und verifiziert das Raumprogramm (Pflegeplaetze/NF) gegen das baurechtlich Moegliche. Diesen Skill verwenden wenn der Benutzer fragt: "Pflegeheim Wirtschaftlichkeit", "Rentabilitaet Altersheim", "Pflegeplatzkosten", "Kosten pro Pflegeplatz", "Hotellerie-Taxe", "Pensionstaxe", "Healthcare Rendite", "Pflegeheim Investitionskosten", "Betreutes Wohnen rechnet sich", "CURAVIVA Abschreibung", "BWO Referenzzinssatz Rendite", "Raumprogramm Pflegeplaetze verifizieren", "Klinik Wirtschaftlichkeit". Spezialisierung des Skills machbarkeit (Studientyp B) auf Healthcare; nutzt kostenschaetzung (Healthcare-Kennwerte) und den Agenten wirtschaftlichkeit-rechner.
+description: >-
+  Wirtschaftlichkeit von Healthcare-Immobilien (Alters-/Pflegeheim, Betreutes Wohnen, Klinik,
+  Reha; Goldstandard 2410 WALD/Averecura): Pflegeplatzkosten/Monat, Hotellerie-/Pensionstaxe,
+  Erstellungskosten je Pflegeplatz, Brutto-/Nettorendite via Annuitaet (BWO-Referenzzins,
+  CURAVIVA-Abschreibung), Raumprogramm-Verifikation gegen das baurechtlich Moegliche. Trigger:
+  Pflegeheim/Klinik Wirtschaftlichkeit, Pflegeplatzkosten, Pensionstaxe, Healthcare Rendite,
+  Betreutes Wohnen rechnet sich, CURAVIVA. Spezialisierung von machbarkeit Typ B; nutzt
+  kostenschaetzung + Agent wirtschaftlichkeit-rechner.
+
 ---
 
 # JANS Healthcare-Wirtschaftlichkeits-Agent

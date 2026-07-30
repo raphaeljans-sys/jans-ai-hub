@@ -1,18 +1,14 @@
 ---
 name: logbuch
 description: >-
-  Logbuch- und Kontrollinstanz-Agent fuer den JANS AI Hub — die Aufsichts-Schicht, die den
-  Hub vom ausfuehrenden Werkzeug zur Qualitaetsinstanz fuer Raphaels Geschaeftsalltag macht.
-  Fuehrt ein persistentes Logbuch (Journal) und ein zentrales Fristen- & Pendenzen-Register
-  (NAS: logbuch/), macht proaktiv auf anstehende Fristen aufmerksam und traegt Termine in den
-  Kalender ein. Diesen Skill verwenden wenn der Benutzer fragt: "Logbuch", "was steht an",
-  "welche Fristen", "Pendenzen Hub", "was ist offen", "Termin eintragen", "erinnere mich an",
-  "Frist hinzufuegen", "was habe ich zugesagt", "Kontrolle Geschaeft", "Ueberblick offene
-  Punkte", "trag das ins Register". Laeuft taeglich im Hintergrund als Scheduled Task
-  `logbuch-radar`. Aggregiert die Fristen aus `mahnwesen`/`zahlungsabgleich` (Zahlungen),
-  `auflagebereinigung` (Behoerden), Kalender (Outlook/Google), Mails (M365) und Projekt-
-  Pendenzen. Schwester von `heartbeat` (System-Health) und `/morgen` (Briefing) — hier die
-  geschaeftliche Aufsicht. Mail-/Termin-Erzeugnisse vor Ausgabe durch `korrektur`.
+  Logbuch- und Kontrollinstanz des Hub: persistentes Journal + zentrales Fristen-/Pendenzen-
+  Register auf dem NAS (logbuch/), proaktive Fristen-Warnung, Kalendereintraege; aggregiert
+  mahnwesen/zahlungsabgleich (Zahlungen), auflagebereinigung (Behoerden), Kalender und Mails.
+  Trigger: Logbuch, was steht an, welche Fristen, was ist offen, erinnere mich an, Frist
+  hinzufuegen, trag das ins Register, was habe ich zugesagt. Laeuft taeglich als Scheduled
+  Task logbuch-radar; Schwester von heartbeat (System) und /morgen (Briefing); Erzeugnisse vor
+  Ausgabe durch korrektur.
+
 ---
 
 # JANS AI Hub — Logbuch & Kontrollinstanz

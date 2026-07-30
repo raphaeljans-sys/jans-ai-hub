@@ -1,6 +1,15 @@
 ---
 name: massgebendes-terrain
-description: Massgebendes-Terrain- und Attika-Setzungs-Harness fuer Hanglagen und Maximalvolumen (Prinzip Raphael + Blaues Buch Kap. 16.10, validiert am Fall 2621 Giebelweg 12, 12./13.06.2026). Legt das massgebende Terrain (MT) pragmatisch fest (gewachsene Referenz-Terrainlinie an unverbauter Parzellengrenze, Absenkung im Baukoerperbereich, Anbindung ans Strassenniveau, Quer-Extrusion — buchkonform: § 5 nABV, Nachbarschaftsterrain) und prueft/formt daraus: (1) die anrechenbare Baumasse als Volumen UEBER der MT-Flaeche (Rasterintegration, § 258 nPBG), (2) die Fassadenhoehe AN JEDER GEBAEUDEECKE bzw. an der unguenstigsten Stelle jeder Fassade, gemessen ab MT/Fassadenlinie — nie ausgemittelt (§ 278 nPBG); bei Verletzung Abtreppung (Stufendach = MT an talseitiger Stufenkante + Fassadenhoehe), (3) die ATTIKA-SETZUNG: Rueckversetzung an den fiktiven Traufseiten um h/2 (§ 275 Abs. 4 nPBG; Altrecht 45 Grad = volle Hoehe), fassadenbuendige Attika-Stirnseiten zaehlen zur Fassadenhoehe, Flachdach-Bruestungen zaehlen mit ausser ≥ 1 m zurueckversetzt, Dachaufbauten max. 1/2 Fassadenlaenge (§ 292 nPBG). Diesen Skill verwenden wenn der Benutzer fragt: "massgebendes Terrain", "gewachsenes Terrain", "Hangschnitt-Nachweis", "Fassadenhoehe am Hang", "Gebaeudehoehe Hanglage", "Baumasse am Hang", "Abtreppung Hang", "Terrainnachweis", "MT festlegen", "Attika setzen", "Attika-Ruecksprung", "Attikageschoss Regeln", "Maximalvolumen", "Baukoerper-Setzung", "Bruestung Fassadenhoehe", oder wenn machbarkeit/volumenstudie an einer Hangparzelle (>10 % Gefaelle) oder mit Attikageschoss Volumen/Hoehen rechnet.
+description: >-
+  Massgebendes Terrain (MT) und Attika-Setzung an Hanglagen (Blaues Buch Kap. 16.10, validiert
+  am Fall 2621 Giebelweg): legt das MT pragmatisch fest, rechnet die Baumasse als Volumen
+  UEBER der MT-Flaeche (Paragraf 258 nPBG), prueft die Fassadenhoehe an jeder Gebaeudeecke
+  (Paragraf 278 nPBG, nie ausgemittelt; bei Verletzung Abtreppung) und setzt die Attika
+  (h/2-Ruecksprung Paragraf 275 Abs. 4 nPBG, Bruestungs-/Dachaufbauten-Regeln). Trigger:
+  massgebendes/gewachsenes Terrain, Hangschnitt-Nachweis, Fassadenhoehe am Hang, Attika
+  setzen, Maximalvolumen am Hang. Wird von machbarkeit/volumenstudie an Hangparzellen (>10
+  Prozent Gefaelle) gezogen.
+
 ---
 
 # Massgebendes Terrain — MT-Festlegung und Fassadenhoehen am Hang

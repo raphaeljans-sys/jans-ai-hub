@@ -3,6 +3,50 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-30 — Run 21 (Workflow-Fan-out: 6 Lese-Agenten + 24 adversariale Verifikatoren; 19 BESTAETIGT / 5 WIDERLEGT)
+- **Verfahren:** zwei Workflows, 37 Agenten, ~6.02 Mio. Subagent-Token, 618 Tool-Calls, ~24 Min.
+  Bericht: `outputs/2026-07-30_wissens-chef-run21.md`. **Korrekturen in 40 Dateien in 7 KBs plus drei
+  Skill-Dateien** (`massgebendes-terrain`, `stockwerkeigentum`, das Wuest-Referenzblatt in
+  `kostenschaetzung`), dazu das Koordinations-Register. Der Lauf stand auf dem Zuwachs seit Run 20: normen-Run 38 (zwei
+  bfu-Destillate, Lignatec Tab. 3/4), baurecht Buch-Run 70, die am selben Tag in `grobkosten`
+  eingeloeste Holzbau-Bring-Schuld, die zwei neuen `bauprodukte`-Artikel und planungsgrundlagen Run 93.
+- **[LEHRE ZUR VERIFIKATION, zweiter Lauf in Folge und diesmal ausnahmslos] In ALLEN 24 verifizierten
+  Faellen war die vorgeschlagene KORREKTUR nicht tragfaehig** — auch in den 19, deren Befund stimmte.
+  Run 20 hatte das mit 11 von 18 erstmals gemessen; Run 21 zeigt es als Regel, nicht als Ausreisser.
+  Die Verifikationsstufe verhindert damit nicht Falschbefunde, sondern **Falschkorrekturen** — das ist
+  ihr eigentlicher Ertrag. Drei Beispiele: (a) der Kabinenmass-Fix haette 1'250 durch die Options-Tiefe
+  1'460 ersetzt und damit eine Kategorie bestaetigt, die die Standardvariante nicht erfuellt;
+  (b) der Parkierungs-Fix haette `planungsgrundlagen` zur geometrie-fuehrenden KB erklaert und so die
+  abgeloeste Normausgabe ueber den bereits sauberen `baurecht`-Pfad zurueckgeholt; (c) der
+  Giebelweg-Fix haette den Zwischenstand 1'167 m3 als Endstand zementiert (richtig: 1'162 m3).
+  **Betriebsregel daraus: kein Cross-KB-Befund wird ohne die zweite Frage umgesetzt — nicht nur
+  «stimmt der Befund», sondern «traegt die vorgeschlagene Aufloesung».**
+- **[STRUKTURMUSTER, vierter und fuenfter Fundort] «Ein Zugang heilt keinen Bestand» ist jetzt in
+  fuenf aufeinanderfolgenden Laeufen belegt** (Run 18 EG GSchG, Run 19 § 19 WsG, Run 20 WsG/WsV,
+  Run 21 zweimal). Neu daran ist der **Ursachennachweis** im Aufzugsfall: der Kurator-Report des
+  schreibenden Laufs dokumentiert, dass `wissen/normen/` gezielt durchsucht wurde — die Suche war aber
+  auf «Barrierefreiheit» verengt, das seit zwei Wochen vorliegende Brandschutz-Destillat blieb
+  unentdeckt. Der Bestand wird also nicht ignoriert, sondern **zu eng befragt**. Konsequenz fuer die
+  KB-Loops: die Bestandssuche vor einem neuen Artikel laeuft ueber ALLE Gewerke-/Themenachsen des
+  Gegenstands, nicht nur ueber die eine, die den Artikel motiviert hat.
+- **[NEU UND ORGANISATORISCH RELEVANT] Ein falscher «dauerhaft offen»-Status hatte Steuerungswirkung.**
+  Die ueberholte Aussage, die VSS-Parkierungsnormen seien kostenpflichtig und dauerhaft nicht
+  beschaffbar, stand siebenmal in `baurecht/wiki/QUESTIONS.md` und war dort **eine der drei
+  Begruendungen fuer den Vorschlag, den Loop `baurecht-buch-training` zurueckzutakten** — obwohl die
+  Norm seit dem 13.07. im Haus liegt und destilliert ist. Damit ist erstmals belegt, dass
+  Wissensfehler nicht nur Inhalte, sondern **Takt- und Ressourcenentscheide** verfaelschen. Alle
+  sieben Stellen sind erledigt-markiert, der Ruecktaktungs-Vorschlag traegt einen Korrekturvermerk;
+  die Taktung selbst entscheidet Raphael.
+- **[ROTATIONSLISTE LEER] Das seit Run 9 haengende Paar `kunde-bopp` ist geprueft** — damit ist die
+  Liste «Noch nie geprueft» erstmals abgearbeitet. Der Ertrag rechtfertigt das Vorziehen: die KB
+  konservierte einen ueberholten Projektstand, und derselbe ueberholte Stand steckte auch im
+  vermeintlich fuehrenden Traeger, dem Skill `massgebendes-terrain`.
+- **Sechs neue Zeilen in der Fuehrungsmatrix** (Pflichtparkplatz-Anzahl, Parkierungs-Geometrie,
+  Absturzsicherung, Aufzuege, SWKI als **bewusst unzugeordnet**, Projektzahlen). Die SWKI-Zeile ist
+  die erste Matrix-Zeile, die eine Fuehrung ausdruecklich OFFEN laesst, weil der Scope-Entscheid bei
+  Raphael liegt — der Chef hat sie bewusst nicht gesetzt (Rule `rollen-taxonomie` Regel 3).
+- **Drei offene Entscheide fuer Raphael** im Bericht, Abschnitt 6.
+
 ## 2026-07-29 (Nachlauf Run 20) — alle drei Entscheide umgesetzt (Freigabe Raphael: Vorgaben A2/B2/C1)
 - **[Entscheid A2 umgesetzt] `rules/rollen-taxonomie.md` eingedampft, nicht aus dem Import genommen.**
   Messwerte, Erstmessung und Zielbaender bleiben im schon vorhandenen

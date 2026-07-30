@@ -338,3 +338,29 @@ existierenden Artefakt-Eintrag verwechselt. **Ergänzte Regel:** vor jeder «hä
 den Fahrplan UND das jüngste tatsächliche Artefakt-Datum nennen, nicht das Prüfdatum. Kein neuer
 Fehlermodus des Monitors — eine Präzisionslücke des KB-Loops selbst, korrigiert in `outputs/
 2026-07-25_training-run29.md`.
+
+## Ein Kriterienkatalog ist keine Prüfinstanz (Lektion Korpus-Spec `bauprodukte`, Lauf 38, 30.07.2026)
+
+Die dritte Stufe der Methode («Bewertungskriterien vorab») ist erstmals **maschinell messbar**
+geworden: die Korpus-Spec `bauprodukte` (28.07.) schrieb sieben Kriterien fest und steuerte danach
+fünf unbeaufsichtigte Destillat-Läufe über 2.5 Tage. Ergebnis nach 8 Artikeln: Frontmatter mit
+`sources` 8/8, `status: emerging` ohne vorschnelle Promotion 8/8, Datumsstempel bei Kennwerten 8/8,
+BKP-Code 8/8, offene Fragen nach `QUESTIONS.md` statt stiller Lücke (11 Einträge). **Vorab definierte
+Kriterien wirken als Abnahme-Ersatz dort, wo nachts kein Mensch abnimmt** — das ist der bislang
+stärkste Beleg für Cherny-Stufe 3 im Hub.
+
+**Die Einschränkung ist wichtiger als der Befund.** Am 30.07. strich der `wissens-chef` (Run 21) in
+`bkp-261-aufzuege.md` eine **abgeleitete, unbelegte Kabinenbreite (1250 mm)** und ersetzte sie durch
+die belegte Masskizzen-Zahl (1050 mm); der darauf gebaute SIA-500-Abgleich kippte mit. Das ist
+Kriterium 1 (Fundstellenpflicht) und die Regel «autoritative Instanz bei Zweifel an einem Kennwert»
+in Aktion — angewandt aber **nicht vom schreibenden Loop**, der die unbelegte Ableitung selbst
+produziert und damit gegen sein eigenes Kriterium verstossen hatte, sondern von einem **zweiten,
+unabhängigen Loop**.
+
+**Regel:** ein Kriterienkatalog in der Spec ist eine Prüf-*Vorschrift*, keine Prüf-*Instanz*. Er
+wirkt erst, wenn ein anderer Prozess als der erzeugende ihn anwendet. Eine Spec, die maschinelle
+Folgeläufe steuert, muss ihre zweite Instanz darum **namentlich benennen** (hier faktisch, aber
+unausgesprochen: `wissens-chef`) — sonst prüft der Autor sich selbst, und der Katalog beschreibt
+nur, was hätte gelten sollen. Verwandt mit «Ein Mass validiert eine Änderung nur, wenn der
+Mess-Prozess die Änderung konsumiert» (Lauf 10) und «ein Flag ist keine Reparatur» (Lauf 12):
+dreimal dieselbe Familie — eine Vorschrift ohne konsumierenden Prozess bleibt wirkungslos.

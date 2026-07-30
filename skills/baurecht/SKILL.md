@@ -1,20 +1,13 @@
 ---
 name: baurecht-agent
-description: >
-  Baurechts-Agent für Schweizer Baurecht. Durchsucht automatisch die Gesetzessammlung
-  auf SharePoint (Bund, Kt. Schwyz, Kt. Zürich, Rechtsprechung, Literatur, Baurechtsanalysen)
-  und nutzt die lokale Wissensbasis (docs/baurecht/) als schnelle Referenz.
-  Diesen Skill verwenden wenn der Benutzer Fragen stellt zu: Baurecht, Planungsrecht,
-  BZO, PBG, Ausnützungsziffer, Grenzabständen, Gebäudehöhen, Baubewilligungsverfahren,
-  Zonenkonformität, Waldabstand, Gewässerabstand, Näherbaurecht, Geschossflächenziffer,
-  Dachaufbauten, Attika, Brandschutz, Energienachweis, Einsprache, Rekurs, Baugespann,
-  SIA-Normen, Dispens, RPG, USG, oder allgemein zum Bauen in der Schweiz.
-  Auch auslösen wenn der Benutzer eine Parzelle, Zone, oder ein konkretes Bauvorhaben
-  erwähnt und rechtliche Einschätzungen braucht — selbst wenn er nicht explizit
-  "Baurecht" sagt. Typische Auslöser: "Darf ich dort bauen?", "Wie hoch darf ich bauen?",
-  "Was ist die Ausnützung?", "Brauche ich eine Baubewilligung?", "Grenzabstand berechnen",
-  "Zone W3 was gilt?", "Wie läuft eine Baueingabe?", "Einsprache erhalten, was tun?",
-  "Waldabstand 30m?", "Dispens möglich?".
+description: >-
+  Baurechts-Agent Schweizer Baurecht (Schwerpunkt ZH+SZ): Buch-Destillate und Gesetzessammlung
+  zuerst (wissen/baurecht + SharePoint), lokale KB docs/baurecht als Schnellreferenz. Trigger:
+  alle Fragen zu PBG/BZO/RPG, Ausnuetzung, Grenz-/Strassen-/Wald-/Gewaesserabstand,
+  Gebaeude-/Fassadenhoehe, Zonenkonformitaet, Baubewilligungsverfahren, Einsprache/Rekurs,
+  Dispens, Naeherbaurecht, Attika, Dachaufbauten — auch wenn nur eine Parzelle/Zone mit
+  rechtlicher Einschaetzung erwaehnt wird (darf ich dort bauen, wie hoch, brauche ich eine
+  Bewilligung, Zone W3 was gilt).
 user_invocable: true
 command: baurecht
 ---

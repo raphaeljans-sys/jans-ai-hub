@@ -1,6 +1,15 @@
 ---
 name: machbarkeit
-description: Machbarkeits-, Potenzial- und Ankaufsstudie fuer Grundstuecke und Bestandsbauten — destilliert aus 6 Jahren realer JANS-Studien. Drei Studientypen: (A) Baurechts-/Volumenstudie "wie gross darf ich bauen" (Baufeld, aGF/m3/Geschosse, Vorher/Nachher-Delta bei BZO-Revision/Baulinie); (B) wirtschaftliche Potenzial-/Ankaufsstudie "lohnt es sich" (Residualwert/zahlbarer Landwert, Marge, ROI, Sensitivitaet, Controlling Fact Sheet); plus die Use-Case-/Causa-Analyse bei Umnutzung (Nutzungsszenarien vergleichen, Bestandesschutz §357). Diesen Skill verwenden wenn der Benutzer fragt: "Machbarkeit", "strategische Machbarkeit", "Machbarkeitsstudie", "Potenzialstudie", "wie gross darf ich bauen", "wieviel kleiner faellt die Baute aus", "lohnt sich der Kauf", "was ist der Boden wert", "Residualwert", "Marge Bautraeger", "BZO-Revision Auswirkung", "Baulinie verschoben", "Ausnuetzung ausrechnen", "Baufeld bestimmen", "Volumenstudie", "Baumassenreserve", "Verdichtungspotenzial", "Ausnuetzungsreserve", "Nutzungsvergleich Umbau", "was geht auf dieser Parzelle". Nutzt Skill baurecht + kostenschaetzung als Faktenbasis und fan-out auf die Agenten baulinien-analyst, dienstbarkeiten-pruefer, volumen-rechner, wirtschaftlichkeit-rechner. Gegenstueck zu ankaufspruefung (TDD/Zustand, Studientyp C) und Vorstufe zu kostenschaetzung/honorarberechnung-sia102.
+description: >-
+  Machbarkeits-, Potenzial- und Ankaufsstudie: Typ A Baurechts-/Volumenstudie (wie gross darf
+  ich bauen — Baufeld, aGF/m3/Geschosse, Vorher/Nachher bei BZO-Revision/Baulinie), Typ B
+  Wirtschaftlichkeit (lohnt es sich — Residualwert/zahlbarer Landwert, Marge, ROI,
+  Sensitivitaet, Controlling Fact Sheet), dazu Nutzungs-/Causa-Analyse bei Umnutzung
+  (Bestandesschutz Paragraf 357). Trigger: Machbarkeit(sstudie), Potenzialstudie, was geht auf
+  dieser Parzelle, Ausnuetzung ausrechnen, Baufeld bestimmen, lohnt sich der Kauf,
+  Verdichtungspotenzial, Baulinie verschoben. Nutzt baurecht + kostenschaetzung; Fan-out
+  baulinien-analyst, dienstbarkeiten-pruefer, volumen-/wirtschaftlichkeit-rechner.
+
 ---
 
 # JANS Machbarkeits-Agent (strategische Volumenstudie)

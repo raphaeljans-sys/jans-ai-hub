@@ -1,18 +1,14 @@
 ---
 name: mahnwesen
 description: >-
-  Debitoren-Mahnwesen-Agent fuer JANS — findet automatisch heraus, welche Rechnungen je
-  Debitor im Zahlungsverzug sind, und schlaegt die korrekte naechste Mahnstufe vor. Liest
-  den echten Zahlungs-/Faelligkeitsstand aus bexio (Connector connectors/bexio.mjs), nicht
-  aus archivierten PDF. Diesen Skill verwenden wenn der Benutzer fragt: "Mahnwesen", "wer ist
-  im Zahlungsverzug", "welche Rechnungen sind ueberfaellig", "offene Posten", "Debitoren
-  pruefen", "Mahnung faellig", "naechste Mahnstufe", "wen muss ich mahnen", "Zahlungsverzug",
-  "ueberfaellige Rechnungen", "Rechnung auf naechste Mahnstufe stellen", "Zahlungserinnerung
-  versenden", "Mahnlauf", "offene Rechnungen Kinderspital/Tschopp/...". Zwei Phasen: Phase 1
-  (Verzugs-Erkennung) laeuft read-only und unbeaufsichtigt (auch als Scheduled Task), Phase 2
-  (Mahnstufe erzeugen, ablegen, Zahlungsaufforderung schreiben) nur interaktiv mit Bestaetigung.
-  Nutzt den bexio-Connector (kb_invoice + kb_reminder); Gegenstueck zur Kostenkontrolle auf der
-  Debitorenseite.
+  Debitoren-Mahnwesen: erkennt aus bexio (Connector connectors/bexio.mjs, Ressourcen
+  kb_invoice + kb_reminder — nie aus PDF-Archiven), welche Rechnungen je Debitor im Verzug
+  sind, und schlaegt die korrekte naechste Mahnstufe vor. Phase 1 Verzugs-Erkennung read-only
+  und unbeaufsichtigt (auch als Scheduled Task); Phase 2 (Mahnstufe erzeugen,
+  Zahlungsaufforderung) NUR interaktiv mit Bestaetigung. Trigger: Mahnwesen, Zahlungsverzug,
+  ueberfaellige Rechnungen, offene Posten, Debitoren pruefen, naechste Mahnstufe, Mahnlauf,
+  wen muss ich mahnen.
+
 ---
 
 # JANS Debitoren-Mahnwesen

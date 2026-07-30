@@ -33,6 +33,12 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | Konzessions- und Sondernutzungsrecht **oberirdischer** Gewässer (Gewässerhoheit § 4, Konzession § 68 Abs. 1 lit. c / § 74 WsG; Sondernutzungs-Tatbestände § 119, Konzessionserfordernis § 120, **Konzessionsdauer § 121** WsV) | **baurecht** (Erlasswortlaut) | energie (angewandte Bewilligungs-/Konzessionspraxis je Wärmequelle), planungsgrundlagen (Formular-/Verfahrensseite) — NEU Run 20. **Merkposten:** eine WsV-Konkretisierung der gewässerschutzrechtlichen Bewilligung für oberirdische Gewässer fehlt (§ 92 WsV erfasst nur das Erdreich) — Zuordnungen dorthin sind KB-eigene Subsumtion und als solche zu kennzeichnen |
 | Gemessener Ist-Zustand des Arbeitsplatzes/Grundkontexts (Ladeschichten, Byte-/Token-Budget, @-Import-Bestand, Messweg) | **claude-code** (`kontext-architektur`) | spec (`environment-jans-hub`) führt das formale Layer-3-Modell und verweist für Zahlen dorthin — NEU Run 20 |
 | Amt, Adressat und **Kontaktperson** je Deliverable (Zuständigkeit, Direktnummern, Teamzuteilung) | **auflagebereinigung** (`aemter-stadt-zuerich`) | projekt-lessons liefert den **datierten, fall-/gebietsbezogenen** Einzelfall-Stand, nie eine generische Amtszuständigkeit; Kontaktpersonen haben ein Verfallsdatum — NEU Run 20 |
+| Pflichtparkplaetze: **Anzahl, Reduktion, Realerfuellung, Ersatzabgabe** (§§ 242-248 PBG, kommunale PPV) | **baurecht** | planungsgrundlagen (planerischer Kontext) — NEU Run 21 |
+| Parkierung: **Geometrie und Kennwerte** (Parkfeld-/Fahrgassenmasse, Rampenneigung, Ausrundung, Zufahrtstyp) | **normen** (`vss-40291-2021-…`, Ausgabe 2021 — die Komfortstufen A/B/C der Ausgabe 2005 sind **entfallen**) | baurecht (verweist, fuehrt bewusst keine Kennwerte), planungsgrundlagen (fuehrt sie bis Run 21 materiell aus der abgeloesten Ausgabe — Fassungs-Vorbehalt gesetzt, materielle Umstellung offen) — NEU Run 21 |
+| Absturzsicherung, Gelaender/Bruestungen: **Masse, Lastannahmen, Fassungsstand** (SIA 358, SIA 500, SN 640 075/568, bfu 2.003.01) | **normen** | baurecht (§ 239 Abs. 1, § 357 Abs. 4 PBG — Anpassungsverlangen im Bestand), planungsgrundlagen (Richtlinie Stadt Zuerich «Absturzsicherungen im Hochbau», 15-%-Schwelle — **kommunal**, nicht kantonal) — NEU Run 21. Offen: baurecht fuehrt SIA 358 offenbar in der Ausgabe 1996, normen in 2010 |
+| Aufzuege/Befoerderungsanlagen: **Brandschutz- und Barrierefreiheits-Anforderungen** (VKF-BRL 23-15, SIA 500 Ziff. 3.7.3, SN EN 81-28/-70/-80) | **normen** | bauprodukte (Produkt-/Systemwissen BKP 261; verweist und schreibt die **bedingt formulierten** Anforderungen nicht fort) — NEU Run 21 |
+| **SWKI-Richtlinien (VA105-01, VA103-1, VA106, 2004-1)** | **NICHT ZUGEORDNET** — offener Strukturentscheid Raphaels zum PL-02-Scope (`normen/wiki/QUESTIONS.md` Befund 3, seit Run 31). `energie` fuehrt vier SWKI-Richtlinien materiell, `normen` hat im Register keine SWKI-Zeile | bis zum Entscheid keine Fuehrungszeile und keine Registerzeile aus Sekundaerquellen — NEU Run 21 |
+| Zahlen eines konkreten Projekts (Volumen, Flaechen, Kennwerte, Stand) | **die Projekt-Wahrheit**: `PROJEKT-STAND.md` im Projektordner + das Deliverable (Rule `projekt-ablage-stand`) | kunde-bopp und die Skills zitieren, fuehren aber nicht; fuehrend fuer die **Methode** ist der jeweilige Skill (z.B. `massgebendes-terrain`) — NEU Run 21 |
 | Projekt-Lessons: Beweiskette eines konkreten Einzelfalls (Herkunft einer Vorgabe, Fallwerte aus Unternehmerdoku) | **projekt-lessons** | normen (generische Norm-/VKF-Kennwerte), auflagebereinigung (Auflagen-Ziffer/Amt/Frist), grobkosten/immobilienbewertung (Kennwerte) — **projekt-lessons fuehrt KEINE generischen Kennwerte oder Normfundstellen**, nur den belegten Fall — NEU Run 16 (Erst-Pruefung) |
 
 > **NEU Run 8 — zweites Struktur-Muster «Uebergabe verpufft im abgebenden KB»:** Ein Artikel erkennt
@@ -58,6 +64,154 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 > Vollzugshilfen rekonstruiert, obwohl das Norm-Destillat 3 Tage aelter war).
 
 ## Gepruefte Paare
+
+### bauprodukte ↔ normen (Aufzuege BKP 261, Rutschfestigkeit) — geprueft 2026-07-30 (Run 21)
+- **Anlass:** die am 29./30.07. entstandenen Artikel `bkp-261-aufzuege` (AS-Aufzuege-Masskizze) und
+  `z-winkel-beschlag-schreinerei`; das Paar stand seit Run 20 auf der Rotationsliste.
+- **Null-Befund, ausdruecklich festgehalten:** die BKP-Codes sind gegen `references/bkp-2017/` gedeckt
+  (261 Aufzuege, 273 Schreinerarbeiten), und alle Preisangaben (2002/2011) sind sauber als datierter
+  Zeitstand mit Neuverifikations-Vorbehalt gefuehrt — die KB haelt die Preis-Disziplin aus Run 19 ein.
+- **Der schwerste Einzelbefund des ganzen Laufs steckt aber in dieser KB, und er ist LV-relevant:**
+  der Aufzugsartikel rechnete die Kabine mit einer **aus dem Schachtmass abgeleiteten** Breite von
+  1250 mm gegen SIA 500 Tab. 4 und schloss, sie uebertreffe die Standard-Kategorie. Die am selben Tag
+  destillierte Masskizze gibt im selben Artikel «Kabinenbreite 1050 mm bei beiden Varianten» an. Der
+  Artikel widerlegte sich selbst und wies den Leser zugleich an, «gegen Tabelle 4 der Norm selbst zu
+  rechnen, nicht die Herstellerkategorie zu uebernehmen» — also der falschen Rechnung zu folgen.
+  Korrigiert: 1.05 m verfehlt die Standard-Kategorie in **jeder** Variante; «bedingt zulaessig»
+  (1.00 × 1.25 m) ist **nur** in der Options-Variante erfuellt, in der Standardvariante (1.05/1.085)
+  nicht. Die Produktidentitaet Winner/Swisslift bleibt ausdruecklich offen.
+- **Zweimal Muster «Ein Zugang heilt keinen Bestand»:** (a) das seit 14.07. established gefuehrte
+  VKF-Destillat `vkf-brl-23-15-befoerderungsanlagen` war dem Artikel unbekannt, weil die
+  Bestandssuche des schreibenden Laufs auf «Barrierefreiheit» verengt war (im Kurator-Report belegt);
+  (b) die offene Frage «Rutschfestigkeit fehlt» ist durch `bfu-bodenbelaege` (30.07.) und, aelter und
+  fuehrend, durch `sia-244-2006` Ziff. 6.7 (seit 13.07. established) beantwortet.
+- **Aktion:** beidseitig verlinkt (relative Cross-KB-Form `[[../../normen/destillate/…]]`, sonst toter
+  Link), Verweis-Saetze OHNE Kennwerte gesetzt (die VKF-Anforderungen sind bedingt formuliert), zwei
+  QUESTIONS-Punkte praezisiert, Gleitfestigkeit als LV-Pflichtangabe aufgenommen.
+- **Widerlegt:** die gemeldete «verpuffte Bring-Schuld SN EN 81-70». Der Quellartikel schliesst den
+  Punkt selbst (fuer die Schweiz ist SIA 500 Ziff. 3.7.3 massgeblich), und der Run-19-Auftrag zu den
+  Korrigenda C3/C4 deckt den Sachbedarf in `normen` bereits ab.
+
+### baurecht ↔ planungsgrundlagen ↔ normen (Parkierung) — geprueft 2026-07-30 (Run 21)
+- **Anlass:** Buch-Run 70 (30.07.) hat den Artikel `fahrzeugabstellplaetze-und-parkierung` ueberarbeitet.
+- **Die gemeldete «Verdichtungs-Drift» war vollstaendig behoben** — kein Rueckstand in Wiki, Destillat,
+  Drills, INDEX oder PROGRAMM. Der Ertrag liegt eine Ebene tiefer.
+- **Befund 1 (teuer im Alltag):** `baurecht` erklaerte die VSS-Rampenkennwerte als «needs-verification
+  wegen Kostenpflicht — vor Anwendung in einer Projektierung ist der Normtext kaeuflich zu beziehen».
+  Die Norm liegt seit 13.07.2026 im JANS-Bestand (`PL - 02_Recht_Norm/02_Normen/VSS_Norm/VSS 40 291
+  Parkieren 2021.pdf`, physisch nachgewiesen) und ist in `normen` vollstaendig destilliert und dreifach
+  verifiziert. Der Artikel wurde seither dreimal angefasst, die Aussage blieb jedes Mal stehen. Sie
+  streute in **sieben** Stellen des Steuerungsregisters `baurecht/wiki/QUESTIONS.md` — und war dort
+  **eine der drei Begruendungen fuer den Vorschlag, den Loop `baurecht-buch-training` zurueckzutakten.**
+  Ein falscher «dauerhaft offen»-Status hatte damit Steuerungswirkung. Alle sieben Stellen sind
+  erledigt-markiert (Alttext durchgestrichen stehen gelassen), der Ruecktaktungs-Vorschlag hat einen
+  Korrekturvermerk.
+- **Befund 2 (projektwirksam):** `planungsgrundlagen/wiki/recht-norm-tiefgarage-erschliessung` fuehrt
+  die ganze Tiefgaragen-Geometrie als **geltende** Planungsgrundlage aus der **abgeloesten** Ausgabe
+  SN 640 291a (2005) samt der 2021 abgeschafften Komfortstufen A/B/C — und empfiehlt ausdruecklich
+  «Komfortstufe B» als Wohnbau-Standard. Deltas: Rampenneigung 12 %/15 % statt 15 %/18 %, Fahrgasse
+  Gegenverkehr 5.00 m statt 5.50 m. Kein Fassungsvorbehalt, `grep 2021` ueber die ganze KB: 0 Treffer.
+- **Fuehrungsfrage, die den ersten Aufloesungsvorschlag kippte:** der Melde-Agent wollte `baurecht` auf
+  `planungsgrundlagen` als geometrie-fuehrend zeigen lassen. Das haette die abgeloeste Ausgabe ueber
+  den bereits sauberen Pfad zurueckgeholt. Fuehrend ist `normen`.
+- **Aktion:** Fassungs-Vorbehalt in Frontmatter und am Kopf von Abschnitt 2, `querbezug_kb_normen`-Feld
+  nach dem Muster von `brandschutz-pl03-wegweiser`, INDEX-Kernwert korrigiert, Uebergabe in
+  `normen/wiki/QUESTIONS.md` angemeldet, offener Punkt «kommunale Parkplatzverordnungen» mit dem
+  baurecht-Artikel geschlossen, bidirektional verlinkt. Der UG-Platz-Kennwert (35-47 kFr.) wurde
+  **abgegrenzt statt abgeglichen**: er ist eine Verhaeltnismaessigkeits-Schwelle der Rechtsprechung zu
+  § 244 Abs. 3 PBG, nicht der Grobkosten-Kennwert (42'000 CHF/Parkplatz) derselben Sache.
+- **Offen (Entscheid):** die materielle Umstellung des Abschnitts 2 auf die Ausgabe 2021.
+
+### normen ↔ baurecht ↔ planungsgrundlagen (Absturzsicherung, Gelaender und Bruestungen) — geprueft 2026-07-30 (Run 21)
+- **Anlass:** die zwei neuen bfu-Destillate aus normen-Run 38 (30.07.), beide bereits intern
+  refuter-geprueft. Die Pruefung zielte darum auf die Raender zu den fuehrenden KBs.
+- **Befund 1:** die Kurzfassung des Gelaender-Destillats machte aus einer zweistufigen Quelle eine
+  einzige «Erhoehungspflicht». Die Quelle trennt: die Erhoehung als solche ist Anforderung, «mindestens
+  20 cm» bei Hochhaeusern ist Soll-Vorschrift, und nur die Quantifizierung «+10 cm ab mehr als 12 m»
+  ist bfu-Empfehlung. Der naheliegende Gegenfehler waere gewesen, die ganze Aussage zur Empfehlung zu
+  erklaeren — die 40-cm-Schwelle und die Lastannahmen sind Normanforderungen (SN 640 075/568, SIA 261),
+  nicht bfu. Korrigiert wurde nur die eine Wortstelle.
+- **Befund 2:** die Bestandesschutz-Aussage verlor das tragende Merkmal **«umfangreiche»**
+  baubewilligungspflichtige Sanierungsarbeiten — aus einer Faustregel wurde eine ueberschiessende
+  Rechtsaussage, die jede bewilligungspflichtige Sanierung erfasst haette. Wiederhergestellt, dazu die
+  Einordnung «bfu-Fachpublikation, nicht rechtsverbindlich».
+- **Aktion baurecht:** der Verweis auf die Stadt-Zuercher 15-%-Schwelle sitzt jetzt bei **§ 357 Abs. 4**
+  (Anpassungsverlangen), nicht bei Abs. 1 — der gemeldete «Widerspruch» zur «keine feste Quote»-Aussage
+  war keiner: die beiden Saetze betreffen verschiedene Absaetze derselben Norm. Geltungsaussage
+  ausdruecklich «im Verfahrensgebiet der Stadt Zuerich», nicht kantonal.
+- **Neuer offener Punkt, vom Verifikator gefunden und gewichtiger als der gemeldete Befund:** baurecht
+  fuehrt SIA-358-Masse offenbar in der Ausgabe **1996**, normen die Ausgabe **2010** als geltend.
+  In `baurecht/wiki/QUESTIONS.md` angemeldet, keine Zahl geaendert.
+- **Widerlegt (2 von 4):** die «widerspruechliche Verbindlichkeits-Einstufung der SIA 358» und der
+  angeblich zu Unrecht als entfallen gefuehrte 20-cm-Bruestungswert.
+
+### normen ↔ grobkosten ↔ bauprodukte (Holzbau, Lignatec, kalibrierter Zuschlag) — geprueft 2026-07-30 (Run 21)
+- **Anlass:** am selben Tag hat `normen` (Run 38) die Lignatec-Tabellen 3/4 verarbeitet und `grobkosten`
+  den Holzbau-Zuschlag kalibriert — die Bring-Schuld aus Run 20. Idealer Testfall.
+- **Die Bring-Schuld ist echt eingeloest:** der Zuschlag ist belegt, datiert, methodisch offengelegt und
+  trennt neu Bauweise (Holz: unteres Segment ≈ Paritaet, oberes ≈ +13 %) von Ausbaustandard.
+- **Beschaedigt war sein Konsistenz-Beleg.** Die Behauptung, die aeltere HNF-Wuest-Quelle kenne keine
+  Segment-Differenzierung und stehe nicht im Widerspruch, ist gegen die Datei nachweislich falsch: sie
+  segmentiert gleich benannt und kommt auf **+11 %/+38 %** gegen ≈0 %/+13 %. Beide Datensaetze ruhen auf
+  demselben Preisstand (April 2023) — die Differenz ist also **nicht** Teuerung. Korrigiert, ohne einen
+  bestaetigenden Quervergleich zu behaupten; `raw/` blieb unangetastet, die Fehlstelle dort ist im neuen
+  QUESTIONS-Eintrag benannt statt wegretuschiert.
+- **Muster in Reinform:** die Lignum-Destillate uebergeben ausdruecklich Brandschutz-Kennwerte an
+  `grobkosten` — dort 0 Treffer angekommen, und der am selben Tag gebaute Zuschlag trug keine
+  brandschutzbedingte Anwendungsgrenze. Gesetzt als **verweisende** Anwendungsgrenze: die Stichprobe
+  (17 Holz-Neubauten) weist keine Gebaeudehoehenkategorie und keine Brandschutzanforderung je Objekt
+  aus, der Zuschlag ist bei erhoehten Anforderungen als untere Naeherung zu lesen. Ausdruecklich NICHT
+  als Schwellenregel «ab Gebaeude mittlerer Hoehe» — die Quelle ist konditional formuliert, und die
+  Anforderung fuehren die Lignum-Destillate selbst nicht (massgebend sind die VKF-Vorschriften).
+- **`bauprodukte` verhaelt sich normativ korrekt** (kein materielles Fortschreiben), war aber in beiden
+  Richtungen unverlinkt. Abnehmer-Zeile nur in 4-1 und 4-2 gesetzt, **nicht** in
+  `lignum-lignatec-brandschutz` — diese Publikation ist als VERALTET gefuehrt, und genau dieses
+  Verweis-Muster hat Run 17 in `planungsgrundlagen` schon einmal korrigieren muessen.
+
+### energie ↔ normen ↔ planungsgrundlagen (die vier in Run 20 offen gebliebenen Run-119-Destillate) — geprueft 2026-07-30 (Run 21)
+- **Gutbefund vorweg:** die wechselseitige Verlinkung Fachphysik ↔ Verfahren ist inzwischen beidseitig
+  ausgebaut, und die Run-93-Korrektur der toten Kurz-URL hat in `energie` keine Altfassung
+  hinterlassen (gemessen: null Treffer im ganzen KB).
+- **Befund 1 (Kennzahlen-Vermischung):** das Rabtherm-Destillat verkaufte Werte aus BL/BS/VD als «im
+  Kanton Zuerich beobachtete» COP-Bandbreite «4,0-7,0 ueber fuenf benannte Anlagen». Es sind **vier**
+  Anlagen aus **drei** belegten Kantonen, mit **gemischten** Kennzahlen: die «gegen 7» ist laut Quelle
+  ausdruecklich keine ganzjaehrige JAZ, COP 5,7 Lausanne ist ein Betriebswert nach dem ersten
+  Vollbetriebsjahr (kein Laborwert), und nur der Wintower liegt in ZH. Korrigiert im Destillat, im
+  Register-INDEX und per Korrekturvermerk am Lauf-Report (Protokoll-Fliesstext unveraendert).
+- **Befund 2:** Register-Eintrag Freienbach trug das unmoegliche Datum 10.01.**2026** (Publikation ein
+  Jahr vor Erstellung) und meldete eine Verdichtung als vollzogen, die nie stattfand — der Zielartikel
+  im `wiki/` existiert gar nicht.
+- **Befund 3:** `normen` will SWKI 99-3 destillieren; die Richtlinie ist seit 1.8.2015 durch
+  VA105-01:2015 ersetzt, was `energie` seit 25.07. belegt. Als **Nachtrag** gesetzt, nicht als Ersatz:
+  der quellentreue Satz «die Norm von 2008 nennt SWKI 99-3 in ihren Literaturhinweisen» bleibt stehen.
+  Beleg-Anker ist die Primaerangabe (Titelblatt VA105-01), nicht das fremde `emerging`-Destillat.
+- **Strukturbefund, nicht selbst entschieden:** **SWKI ist in der Fuehrungsmatrix ueberhaupt nicht
+  zugeordnet.** `energie` fuehrt vier SWKI-Richtlinien materiell, `normen` kennt SWKI im Register nicht.
+  Die Zuordnung haengt an Raphaels seit Run 31 offenem PL-02-Scope-Entscheid (`normen/wiki/QUESTIONS.md`
+  Befund 3, dort ausdruecklich «nicht vom Loop zu entscheiden»). Darum hier nur protokolliert, **keine**
+  Fuehrungszeile gesetzt und **keine** Registerzeile aus Sekundaerquellen gebaut.
+
+### kunde-bopp ↔ projekt-lessons ↔ machbarkeit/stockwerkeigentum/ankaufspruefung — geprueft 2026-07-30 (Run 21, Erst-Pruefung)
+- **Anlass:** das letzte verbliebene Paar der Liste «Noch nie geprueft», seit Run 9 unangetastet und
+  dort als drohende Karteileiche markiert. Damit ist die Liste abgearbeitet.
+- **Die KB ist sauber belegt und personendaten-diszipliniert, aber nach aussen praktisch unverbunden**
+  und seit 25.07. eingefroren.
+- **Schwerster Befund:** `projekt-giebelweg12` konservierte den ueberholten Zwischenstand
+  «ausgemitteltes massgebendes Terrain 549.27 m ue.M. / volle Attika 130.25 m2 / 1'259 m3», waehrend
+  der aus genau diesem Fall hervorgegangene Skill `massgebendes-terrain` die Ausmittelung als
+  unzulaessige Falle beschreibt. **Der naheliegende Fix waere selbst falsch gewesen:** die 1'167 m3 des
+  Skills sind ebenfalls nur ein Zwischenstand (Version 2, 12.06.). Der am Original verifizierte
+  Endstand (PROJEKT-STAND.md + Deliverable, 13.06.2026, Nachweis Version 3) lautet **1'162 m3
+  anrechenbar, Reserve 105 m3, Attika 128.9 m2, Abtreppung in drei Stufen**. Nachgefuehrt wurden
+  Artikel und Skill; die beiden `outputs/` haben eine datierte Korrekturnotiz statt einer Umschrift.
+- **Fuehrungsregel bestaetigt:** fuehrend fuer die **Zahlen** eines Projekts ist die Projekt-Wahrheit
+  (PROJEKT-STAND.md, Rule `projekt-ablage-stand`), fuehrend fuer die **Methode** der Skill.
+- **Weiter:** ausgerechnet `stockwerkeigentum` — laut KB der haeufigste Bopp-Auftragstyp — nannte die
+  Kunden-KB als einziger der vier Skills nicht; als neue Eingabe-Ziffer ergaenzt (ohne das ungedeckte
+  «zwingend» und ohne den fremd gefuehrten Honorar-Aspekt). Der Baar-Punkt wurde **nicht umgebucht,
+  sondern querverwiesen** — der Teilaspekt «Referenzfall fuer `ankaufspruefung`» ist erledigt, der
+  Projekt-Detailartikel und der Ausgang der Ankaufsentscheidung bleiben offen.
+- **Widerlegt:** der «dritte, strukturell veraltende Projektstand mit verwaister Nachfuehr-Pflicht».
 
 ### energie ↔ baurecht ↔ planungsgrundlagen (die drei NEUEN Wasser-Destillate aus Run 119) — geprueft 2026-07-29 (Run 20)
 - **Anlass:** `energie` hat am 29.07. mit Run 119 sieben Destillate angelegt, drei davon im
@@ -1541,15 +1695,22 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 > Rotationsliste gegen die «geprueft»-Ueberschriften diffen. Offene Restfragen gehoeren an den
 > datierten Paar-Eintrag, nicht hierhin.
 
-- kunde-bopp ↔ machbarkeit/stockwerkeigentum/ankaufspruefung (Kunden-Kontext) — **einziges verbleibendes
-  Paar der Liste; seit Run 9 nicht angefasst.** Beim naechsten Lauf vorziehen, sonst wird es zur
-  Karteileiche, die die Bereinigung von Run 9 gerade verhindern wollte.
-- **Neu aufgenommen Run 20:** `bauprodukte ↔ normen ↔ grobkosten` vertieft (die KB wurde in Run 19
-  erst-geprueft, ist seither aber gewachsen und hat neu ein `training/PROGRAMM.md`) ·
-  `energie ↔ normen` fuer die vier weiteren Run-119-Destillate, die dieser Lauf nicht angefasst hat
-  (Rabtherm-JAZ, SWKI VA106, Energierichtplan Freienbach, SWKI-Zugangsprotokoll) ·
-  `claude-code ↔ rules/docs-konzepte` (die Rule-Seite des @-Import-Widerspruchs, sobald Raphael
-  entschieden hat).
+**Stand nach Run 21: die Liste ist leer.** Alle drei in Run 20 aufgenommenen Paare und das seit Run 9
+haengende kunde-bopp-Paar sind geprueft. Die Rotation laeuft ab jetzt wieder ueber den Zuwachs.
+
+- `claude-code ↔ rules/docs-konzepte` — die Rule-Seite des @-Import-Widerspruchs. **Bleibt liegen,
+  solange der zugehoerige Governance-Entscheid Raphaels offen ist**; nicht als Karteileiche zaehlen.
+- **Neu aufgenommen Run 21:** `normen ↔ baurecht` fuer die uebrigen bfu-Destillate (Treppen, Glas,
+  Tueren/Tore, rechtliche Aspekte), die dieser Lauf nicht angefasst hat · `bauprodukte ↔ projekt-lessons`
+  (nie geprueft; die eine fuehrt Produktwissen, die andere den Einzelfall — Abgrenzung ungeklaert) ·
+  `wettbewerbs-dna ↔ entwurfs-referenzen ↔ architekten-synobsis`, sobald die am 30.07. reaktivierte
+  Etappe 4 «Vertiefung» geliefert hat.
+
+*Ausgetragen 30.07.2026 (Run 21):* kunde-bopp ↔ machbarkeit/stockwerkeigentum/ankaufspruefung (→ Run 21,
+Erst-Pruefung: 3 bestaetigt, 1 widerlegt, Giebelweg-Endstand in KB **und** Skill nachgefuehrt,
+Erst-Verlinkung, 2 Matrix-Zeilen) · bauprodukte ↔ normen ↔ grobkosten vertieft (→ Run 21: 3 bestaetigt,
+1 widerlegt, LV-relevanter Kabinenmass-Fehler korrigiert) · energie ↔ normen fuer die vier restlichen
+Run-119-Destillate (→ Run 21: 4 bestaetigt, SWKI-Zuordnungsluecke als Entscheid an Raphael).
 
 *Ausgetragen 29.07.2026 (Run 20):* claude-code ↔ spec ↔ rules (→ Run 20, Erst-Pruefung: 3 bestaetigt,
 2 widerlegt, beidseitig verlinkt, neue Matrix-Zeile, ein Entscheid an Raphael) · projekt-lessons ↔

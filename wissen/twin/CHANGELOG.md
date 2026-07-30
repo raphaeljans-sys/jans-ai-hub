@@ -4,6 +4,19 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-30 23:46 — Fidelity-Selbsttest nach Kontext-Diaet (twin-chef, Auftrag Raphael): GRUEN
+  mit EINER Rueckkorrektur.** Diff-Sicht Vor-Diaet (`1a8cd6f0`) gegen Nach-Diaet je Facette: fuenf
+  Facetten regel-vollstaendig (nur Beleg-Parenthesen/Umbrueche entfernt); in [[stimme]] EIN belegter
+  Praezisions-Verlust — die Zusammenziehung der Kurzgruss-Varianten lizenzierte «Lieber Gruss»/«Lgr.»
+  als Schlusszeile vor FG+Block in der Sie-Behoerdenmail, belegt ist dort nur die kombinierte Form
+  «Danke und Gruss» (Batch-60-Detailsektion, SRZ). Rueckkorrektur im Do-Block von `stimme.md` als
+  Regel ohne Beleg-Parenthese, `build_dna.py` neu kompiliert (15'090 → 15'132 Zeichen), Klausel in
+  der DNA verifiziert. Stichproben gegen drei Gold-Praezedenzen (Notariat-Hebung, SRZ-Schlusszeile,
+  Peer-Du-Rohheit Yorck): kompakte DNA steuert alle drei Entscheidungen eindeutig; Fidelity 94.
+  Lehre fuer kuenftige Diaeten: Beleg-Parenthesen koennen neben dem Beleg eine EINGRENZUNG tragen —
+  Eingrenzung als Regel behalten, nur Datum/Zitat streichen.
+  Report: `outputs/2026-07-30_fidelity-nach-kontext-diaet.md`.
+
 - **2026-07-30 23:12 — Kontext-Diaet der Do/Don't-Bloecke (interaktiv, Freigabe Raphael).**
   In allen sechs Facetten-Artikeln die Do/Don't-Bloecke gestrafft: saemtliche Regel-Klauseln
   und Nuancen behalten, entfernt wurden datierte Beleg-Parenthesen und Beweis-Erzaehlungen

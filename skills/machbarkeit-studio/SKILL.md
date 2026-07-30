@@ -1,6 +1,14 @@
 ---
 name: machbarkeit-studio
-description: Das interaktive Machbarkeits-Studio von JANS — der Orchestrator-Harness, der eine komplette Machbarkeits-/Potenzialstudie aus EINER Hand zu einem interaktiven Live-Studio (HTML) UND einem ablagefertigen Dossier (DOCX/PDF) verschmilzt. Kern-Differenzierer gegenueber Mitbewerbern: ein selbst-tragendes HTML-Studio, in dem der Bauherr am Tisch die Annahmen (Kostenkennwert, Verkaufspreis/Mietzins, Bautraeger-Marge, Diskontierung, Verkauf vs. Rendite) per Regler veraendert und Volumen, Erstellungskosten BKP 1-5, Residualwert/zahlbaren Landwert, Marge und Sensitivitaet fuer ALLE Varianten in Echtzeit umrechnen sieht. Diesen Skill verwenden wenn der Benutzer fragt: "Machbarkeits-Studio", "interaktive Machbarkeitsstudie", "Studie zum Mitrechnen", "Live-Studie", "Varianten interaktiv vergleichen", "Potenzialstudie als Tool", "Was-waere-wenn Machbarkeit", "Studie fuer die Bauherren-Praesentation", "Residualwert interaktiv", "Verdichtungspotenzial praesentieren" — und immer dann, wenn aus einer Parzelle/Adresse eine vollstaendige, praesentierwuerdige Machbarkeitsstudie mit Variantenvergleich und Wirtschaftlichkeit entstehen soll, die der Bauherr selbst durchspielen kann. Dach-Harness ueber die Skills machbarkeit (baurechtliche Parameter/Volumen), volumenstudie (3D-Renderings), grobkosten-onepager (Kennwerte), planungsgrundlagen (Geodaten/EGRID/OEREB via geo-zh.mjs/geo-sz.mjs), immobilienbewertung (Wertgegenkontrolle) und nutzt die Agenten baulinien-analyst, volumen-rechner, wirtschaftlichkeit-rechner. Gegenstueck/Aufwertung zu machbarkeit (dort das klassische Memo, hier das interaktive Studio + Dossier).
+description: >-
+  Orchestrator fuer die interaktive Machbarkeits-/Potenzialstudie: aus einem Lauf entstehen
+  ein selbst-tragendes HTML-Live-Studio (der Bauherr verstellt Annahmen per Regler; Volumen,
+  Kosten BKP 1-5, Residualwert, Marge und Sensitivitaet rechnen je Variante live) UND das
+  ablagefertige Dossier (DOCX/PDF). Trigger: Machbarkeits-Studio, interaktive
+  Machbarkeitsstudie, Live-Studie, Studie zum Mitrechnen, Varianten interaktiv vergleichen,
+  Studie fuer die Bauherren-Praesentation. Dach ueber machbarkeit, volumenstudie, grobkosten-
+  onepager, planungsgrundlagen, immobilienbewertung.
+
 ---
 
 # JANS Machbarkeits-Studio (interaktiver Orchestrator)

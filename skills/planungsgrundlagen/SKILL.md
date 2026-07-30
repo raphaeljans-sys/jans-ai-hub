@@ -1,21 +1,15 @@
 ---
 name: planungsgrundlagen
 description: >-
-  Planungsgrundlagen-Harness fuer JANS — beschafft und buendelt zu einer Parzelle/Adresse
-  die planerischen Grundlagen aus den vier PL-Bibliotheken (Kartenportale, Recht/Norm,
-  Brandschutz, Energie). Kernfaehigkeit: amtliche Geodaten-Beschaffung — OEREB-Auszug,
-  EGRID-Ermittlung, Grundstueckkataster, Zonenplan, Hoehenmodell, Orthofoto, Eigentumsabfrage
-  (Kt. ZH via maps.zh.ch / geo.admin.ch, kein Login noetig). Diesen Skill verwenden wenn der
-  Benutzer fragt: "OEREB-Auszug", "OEREB Kataster", "EGRID herausfinden", "Eigentumsabfrage",
-  "Grundbuch/Parzelle abfragen", "Zonenplan beschaffen", "Kataster", "Grundstueckdaten",
-  "Plangrundlagen besorgen", "Geodaten", "Hoehenmodell", "Orthofoto", "Situationsplan amtliche
-  Vermessung", "Baulinienplan", "Grundlagen fuer Parzelle/Adresse X", "Planungsunterlagen
-  zusammenstellen", "U-Wert berechnen", "PV/Solar Eignung", "Energienachweis", "welches
-  Geoportal fuer Kanton X". Nutzt den Connector connectors/geo-zh.mjs und fan-out auf die
-  Agenten geodaten-beschaffer (PL-01) und energie-berater (PL-04); fuer Recht/Norm (PL-02) und
-  Brandschutz (PL-03) ruft es die bestehenden Skills baurecht und brandschutz als Faktenbasis.
-  Speist die Wissens-KB wissen/planungsgrundlagen und die Studien-Skills machbarkeit/
-  ankaufspruefung/behoerden-vorabklaerung mit den beschafften Grundlagen.
+  Planungsgrundlagen-Harness: beschafft zu Parzelle/Adresse die amtlichen Grundlagen — EGRID,
+  OEREB-Auszug, Grundstueckkataster, Zonenplan, Baulinien, Hoehenmodell, Orthofoto,
+  Eigentumsabfrage (Kt. ZH via geo-zh.mjs/maps.zh.ch, ohne Login) — und buendelt die vier PL-
+  Bibliotheken (Kartenportale, Recht/Norm, Brandschutz, Energie inkl.
+  U-Wert/PV/Energienachweis). Trigger: OEREB-Auszug, EGRID, Zonenplan beschaffen, Kataster,
+  Geodaten, Plangrundlagen besorgen, Eigentumsabfrage, U-Wert, PV-Eignung, welches Geoportal.
+  Fan-out geodaten-beschaffer + energie-berater; speist machbarkeit, ankaufspruefung,
+  behoerden-vorabklaerung; KB wissen/planungsgrundlagen.
+
 ---
 
 # Planungsgrundlagen-Harness

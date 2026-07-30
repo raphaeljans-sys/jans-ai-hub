@@ -2,6 +2,63 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-30 (Wartungslauf 01, maintainer) — sechs tote Adressen ersetzt, eine Abschaltung belegt, `--hilfe` in allen fuenf Connectoren nachgeruestet
+Erster Lauf des umgewidmeten Loops `planungsgrundlagen-wartung`: kein Quellen-Turnus, keine
+Wissensproduktion, keine Trainings-Run-Nummer. Report:
+`outputs/2026-07-30_wartung-01.md`.
+- **[korrektur, Endpunkte] 228 zitierte Adressen gemessen, sechs tote/umgezogene ersetzt.**
+  Extraktion aus 51 Wiki-Artikeln, Messung per Statuscode mit Browser-UA; jeder Abweichler in vier
+  Varianten (`https`/`http`, mit/ohne `www.`) und bei DNS-Verdacht ueber drei unabhaengige Resolver
+  (System, 8.8.8.8, 1.1.1.1) gegengeprueft. Ersetzt: `bsvonline.vkf.ch` → `www.bsvonline.ch/de`
+  ([[brandschutz-pl03-wegweiser]]) · BAK-ISOS-Pfad → `www.bak.admin.ch/de/isos`
+  ([[kartenportale-denkmalschutz-isos]]) · `kanton-luzern.ch` → `www.lu.ch` ·
+  `geodatenshop.lu.ch` → `geoportal.lu.ch` · `zh.ch/objektwesen.html` → Vollform
+  ([[kartenportale-geoportale-uebersicht]]) · Einsiedeln `.../buero-bauen` → `.../bauen`
+  ([[kartenportale-ebau-sz-baugesuch]], Inhaltsgleichheit geprueft, nicht nur Statuscode).
+- **[befund] `geoglatt.ch` ist abgeschaltet** — Domain nicht mehr delegiert (weder A/AAAA noch
+  NS/SOA). Betreiber war Gossweiler Ingenieure AG (WebGIS «geoweb», heute `gossweiler.com`); ein
+  direkter URL-Ersatz je Gemeinde ist **nicht** belegt und wurde nicht behauptet. Als tot markiert
+  samt Betreiber-/Nachfolgehinweis; kantonaler OGD-WFS-Weg nicht betroffen. ⚠ Die WebSearch fuehrte
+  die Adresse weiterhin als aktiven Treffer — **ein Suchindex ist kein Erreichbarkeitsbeleg.**
+- **[muster] Zweiter Propagierungsfehler derselben Art wie D14.** Die heute gueltige Adresse
+  `bsvonline.ch` stand in derselben KB (Musterplansatz §5b–§5f) laengst richtig, waehrend §4c die
+  tote Form aus der Quelle von 2003 fuehrte — das Wissen war im Haus und wurde nicht weitergereicht.
+  Zwei Belege in zwei Laeufen; kuenftig feste Pruefstufe: steht die richtige Form anderswo schon da?
+- **[korrektur, systematisch] `zh.ch`-Kurznotation.** Der Host antwortet ohne `www.` und ohne
+  `.html` grundsaetzlich mit 403/404. Zwei `Quelle:`-Angaben in [[recht-norm-quellenlandkarte]] auf
+  die gemessene Vollform umgestellt; die uebrigen Kurznotationen stehen in Rechercheprotokollen,
+  nicht als Fundstelle, und bleiben bewusst unveraendert (R75).
+- **[werkzeug] `--hilfe` funktionierte in KEINEM der fuenf Connectoren** (Rule 260729): alle liefen
+  in die Argumentpruefung und endeten mit rc=1 — eine Hilfe-Anfrage war von einem Bedienfehler nicht
+  zu unterscheiden. Neuer gemeinsamer Baustein `connectors/_hilfe.mjs`; `hilfeAusKopf()` gibt den
+  **Kopfkommentar der aufrufenden Datei** aus, damit die Hilfe nicht von der Doku wegdriften kann.
+  Freigabe- und Abweisungspfad je nachgemessen (`--hilfe` rc=0, ohne Argumente rc=1), Vollketten-
+  Regression gruen (E15).
+- **[test] Connector-Funktionstest an den realen Benchmarks bestanden** (E16): `geo-zh` Vollkette
+  → EGRID CH879777718909 · Parz. 3338 · BFS 136, Zonenplan W/1.5 · BMZ 1.5 · GH 4.5 · ES_II,
+  Baulinien 7 + Waldgrenze (116.2 / 105.6 m) — alle Werte unveraendert; `geo-sz` Parzellensuche
+  «Einsiedeln 3301» → EGRID CH527708492462; `behoerden-zh --check` **33 aktuell, 0 tot**;
+  204-Diagnose beidseitig korrekt (E12 haelt). Kein ungetesteter Connector-Code abgelegt.
+- **[korrektur, Wortlaut mit Schadenspotenzial] E14: «Symlink» ist falsch.**
+  `skills/oereb-schwyz/connectors/geo-sz.mjs` ist eine **Weiterleitungsdatei** (regulaere Datei,
+  1'190 B, `test -L` falsch), die den gepflegten Connector per `import` ausfuehrt — und das ist die
+  vorgeschriebene Loesung: ueber SMB wuerde ein echter Symlink als «XSym»-Textdatei landen und jeder
+  Klon eine kaputte 1-KB-Datei erben. Warnung in QUESTIONS gesetzt, damit kein kuenftiger Lauf die
+  Bezeichnung als Defekt liest und sie «repariert».
+- **[nachkontrolle]** E11 (UTC-Datum) haelt — Codepruefung plus Gegenprobe im kritischen Fenster
+  (00:30 CEST: lokal `2026-07-31` gegen UTC `2026-07-30`); ein Test ausserhalb 00:00–02:00 CEST
+  kann den Fix nicht widerlegen. E13: Bestandssweep wiederholt, **ein** Treffer uebrig
+  (`connectors/bexio.mjs:279`) — unveraendert, wartet auf Raphaels Einzelfreigabe (Rule 260702).
+- **[struktur] QUESTIONS-Kopf klargestellt:** zustaendig ist der monatliche Wartungslauf, nicht mehr
+  der eingestellte 2-Tages-Trainingsloop; er hakt nur nachweislich Erledigtes ab und arbeitet die
+  inhaltlichen Fachfragen bewusst **nicht** ab.
+- **[quellbestand] 29. Erschoepfungsbestaetigung:** 0 neue/geaenderte Inhaltsdateien in allen vier
+  PL-Ordnern seit Run 92 (979 / 2'503 / 152 / 317 Dateien). Keine Reaktivierung als grower.
+- **[neu offen]** K65 (UPC-Leitungskataster + solarrechner.ch antworten nur im Browser — 403/
+  abgelaufenes TLS-Zertifikat, **kein** Beleg fuer «tot», Browser-Gegenpruefung vorgemerkt) ·
+  F-LINKS-REST (vier gealterte, aber tragende Fundstellen: `eco-bau.ch` als bewusstes Zitat,
+  `energieheld.ch` → `ckw.ch`, `map.apps.be.ch` nur ueber http, `daten.geo.lu.ch/download/`).
+
 ## 2026-07-30 (Wissens-Chef Run 21, Cross-KB) — Fassungs-Vorbehalt auf der abgeloesten VSS-Parkierungsnorm, Fuehrung an `normen` angemeldet
 - **[korrektur, materiell] Tiefgaragen-Geometrie stand ohne Fassungsvorbehalt auf der abgeloesten
   Ausgabe.** `wiki/recht-norm-tiefgarage-erschliessung.md` fuehrte die gesamte Geometrie des

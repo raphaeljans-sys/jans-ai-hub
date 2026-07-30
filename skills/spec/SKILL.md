@@ -1,5 +1,13 @@
 ---
-description: "Spec-Methode (Karpathy/Marchese, 'The Spec / 3 Easy Steps') fuer JANS — gleist ein groesseres Vorhaben auf, indem zuerst das WAHRE ZIEL als Spec aufgedeckt wird (Interview + Schluesselentscheide bestaetigen), dann agil in engen Scopes mit Checkpoints gearbeitet wird, mit vorab definierten Bewertungskriterien und einem Verifier (zweite Pruefinstanz/externes Signal). PROMPTS → SPECS: erst planen, dann bauen. Diesen Skill verwenden wenn der Benutzer fragt: 'Spec', 'Spec-Methode', 'die Methode anwenden', 'aufgleisen', 'Vorhaben aufsetzen', 'interview mich', 'stell mir die richtigen Fragen', 'Ziel klaeren bevor wir bauen', 'Plan Mode', 'Karpathy-Methode' — UND automatisch als erster Schritt, sobald die Rule spec-methode bei einer groesseren/mehrteiligen/mehrdeutigen/risikoreichen Anfrage anschlaegt. Gegenstueck/strategische Vorstufe zur Rule auftrags-dekomposition (dort taktische Zerlegung eines bereits klaren Auftrags); Verifier-Stufe nutzt korrektur/twin/code-review + Connectoren. Naehrt sich aus der KB wissen/spec."
+description: >-
+  Spec-Methode (Karpathy/Marchese, PROMPTS→SPECS): erst das wahre Ziel als Spec aufdecken
+  (Interview, Schluesselentscheide bestaetigen lassen), dann agil in engen Scopes mit
+  Checkpoints, Bewertungskriterien vorab und Verifier-Stufe (korrektur/twin/code-review +
+  externes Connector-Signal). Trigger: Spec, Spec-Methode, aufgleisen, Vorhaben aufsetzen,
+  interview mich, Ziel klaeren bevor wir bauen, Plan Mode, Karpathy-Methode — und automatisch
+  als erster Schritt, sobald die Rule spec-methode bei einer
+  groesseren/mehrteiligen/mehrdeutigen/risikoreichen Anfrage anschlaegt. KB wissen/spec.
+
 ---
 
 # JANS Spec-Methode (`spec`)
