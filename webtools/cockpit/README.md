@@ -2,8 +2,15 @@
 
 Die visuelle Kommandobruecke des AI Hub: EINE selbsttragende HTML-Seite, die den
 Hub-Zustand auf einen Blick zeigt — statt Markdown-Waelzen im Fristen-Register.
-Gedacht als dauerhaft offener Browser-Tab auf dem Mac Mini (Always-On) oder als
-Wandbild; die Seite laedt sich alle 5 Minuten selbst neu.
+Gedacht als dauerhaft offener Browser-Tab; die Seite laedt sich alle 5 Minuten
+selbst neu.
+
+Seit 31.07.2026 ist das Cockpit **interaktiv**: laeuft der lokale
+`cockpit-server.mjs` (http://127.0.0.1:8737, nur localhost), traegt jede offene
+Frist einen **«✓ erledigt»-Button**, der die Zeile direkt im Register
+`logbuch/fristen.md` auf «erledigt (Cockpit TT.MM.JJJJ)» setzt. Dazu zeigt die
+Sektion **«Second Brain»** den Wissens-Layer grafisch: eine Blase je KB
+(Flaeche = Wiki-Artikelbestand, Farbe = Frische, Tooltip mit Artikel/Reports/raw).
 
 ## Was es zeigt
 
@@ -14,10 +21,37 @@ Wandbild; die Seite laedt sich alle 5 Minuten selbst neu.
 | Fristen-Board | `logbuch/fristen.md` | Register-Zeilen als Karten mit Countdown-Chip, Prio-Farbkante, Projekt-Tag; gruppiert Sofort/Ueberfaellig → Heute → 7 Tage → Spaeter → Ohne Datum; Erledigtes eingeklappt |
 | Stationen | `station-status/*.md` | Live-Zustand Mac Mini + MacBook Pro (gruen wenn Stand < 30 Min) |
 | Betrieb & Queues | `remote-tasks/`, `sync-tasks/`, `logbuch/LOGBUCH.md` | Queue-Tiefe mit Eintraegen, letzte zwei Journal-Tage |
-| Wissens-Layer | `wissen/<kb>/CHANGELOG.md` | Frische je KB (heute/≤3 Tg. gruen, ≤14 gelb, aelter grau) |
+| Second Brain | `wissen/<kb>/` (wiki/outputs/raw) + CHANGELOG | Blase je KB: Flaeche = Wiki-Artikel (ohne INDEX/QUESTIONS), Farbe = Frische (≤3 Tg. gruen, ≤14 gelb), Totalzeile Artikel/Reports/Roh-Quellen |
 
-**Read-only:** das Script liest den Hub und schreibt ausschliesslich die Ziel-HTML.
-Es bucht nichts, versendet nichts, aendert keine Hub-Daten.
+**Builder read-only:** `build-cockpit.mjs` liest den Hub und schreibt ausschliesslich
+die Ziel-HTML. Die EINZIGE Schreiboperation des Systems sitzt im lokalen
+`cockpit-server.mjs` (`POST /api/erledigt`): Status-Zelle einer Registerzeile in
+`logbuch/fristen.md` auf «erledigt (Cockpit TT.MM.JJJJ)» setzen — sonst nichts.
+Es bucht nichts, versendet nichts, loescht nichts.
+
+## Interaktiver Betrieb (cockpit-server.mjs)
+
+```bash
+node webtools/cockpit/cockpit-server.mjs [--hub <pfad>] [--port 8737] [--open]
+```
+
+- Bindet NUR an `127.0.0.1` (Port 8737) — kein Zugriff aus dem Netz
+- `GET /` baut das Cockpit je Aufruf frisch (mit `--interaktiv`-Flag → ✓-Buttons)
+  und liefert es aus; eigene Zieldatei `~/.jans-cockpit/cockpit-interaktiv.html`
+- `POST /api/erledigt {hash}` markiert die Zeile; der Zeilen-Hash (cockpit-lib.mjs,
+  SHA1 ueber Frist+Was) ist stabil ueber Rebuilds. Abgewiesen wird mit klarer
+  Meldung: Zeile nicht gefunden (Register geaendert), schon erledigt, NAS nicht
+  gemountet (Guard `sync-kanonische-quelle` — geschrieben wird nur auf dem NAS)
+- Commit uebernimmt der native 15-Min-Selfcommit der Synology, nie der Server
+- Laeuft der Server im SSD-Fallback und das NAS kommt zurueck, beendet er sich
+  nach der naechsten Antwort selbst; launchd (KeepAlive) startet ihn NAS-seitig neu
+- launchd: `~/Library/LaunchAgents/com.jans.cockpit-server.plist` (KeepAlive,
+  RunAtLoad; auf dem MacBook Pro seit 31.07.2026 installiert), Logs unter
+  `/tmp/com.jans.cockpit-server.{log,err}`
+
+Der statische Mini-Webserver (Port 8377, unten) liefert dieselbe Seite OHNE
+Buttons aus — die HTML zeigt die ✓-Buttons nur, wenn sie mit `--interaktiv`
+gebaut UND ueber http geladen wurde.
 
 ## Aufruf
 
@@ -106,6 +140,9 @@ Danach kurz zusammenfassen, was das Cockpit als dringendste drei Punkte zeigt.
 
 - bexio-Live-Zahlen (Debitoren/Verzug) — braucht lokale Credentials; heute zeigen
   die Register-Zeilen den Stand
-- Klick-Aktionen (erledigen/nachfassen) — das Cockpit bleibt read-only, Aenderungen
-  laufen weiter ueber den Agenten `logbuch`
+- ~~Klick-Aktionen (erledigen)~~ — seit 31.07.2026 gebaut (`cockpit-server.mjs`);
+  weitere Aktionen (nachfassen, snoozen, neue Frist) laufen weiterhin ueber den
+  Agenten `logbuch`
+- Interaktiver Server auch auf dem Mac Mini (Sync-Task erstellt, Freigabe-Weg) —
+  dann koennte auch der 8377-Weg auf die interaktive Fassung zeigen
 - Projekt-Filter (nur 2619 KISPI etc.) per Query-Parameter

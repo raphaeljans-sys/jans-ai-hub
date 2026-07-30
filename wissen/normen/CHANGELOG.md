@@ -1,3 +1,47 @@
+## 2026-07-31 — Run 40 (MacBook Pro): drei GVZ-Richtlinien destilliert (ZH-Ergänzung zur VKF-Familie)
+
+Drei Merkblätter der Kantonalen Feuerpolizei/GVZ aus `06_Richtlinien/GVZ/` neu destilliert:
+`destillate/gvz-mfh-nicht-brennbare-bauteile.md` (Merkblatt 30.01, MFH aus nicht brennbaren
+Bauteilen, 15.02.2005), `destillate/gvz-ausbau-kombi-grossraumbueros.md` (Merkblatt 30.05,
+Ausbau Kombi-/Grossraumbüros, rev. 15.03.2008) und `destillate/gvz-rwa-parkhaus-einstellraum.md`
+(Merkblatt 30.17.3, RWA in Parkhäusern/Einstellräumen, 28.02.2011). Alle drei stützen sich auf
+§ 14 Abs. 2 FFG (kantonales Feuerpolizeigesetz) und ergänzen/konkretisieren die VKF-Vorschriften
+regional für den Kanton Zürich, ohne ihnen zu widersprechen — zwei der drei (30.05 und 30.17.3)
+zitieren explizit die VKF-Vorschriftengeneration vom 26. März 2003 (Merkblatt 30.05 die
+Brandschutznorm/-richtlinien allgemein, 30.17.3 konkret die RWA-Richtlinie «Ausgabe 2003»);
+Merkblatt 30.01 (2005) referenziert dieselbe Richtlinien-Familie ohne Ausgabejahr — offener
+Punkt im Destillat. Status aller drei speculative, Verifikation durch den Hauptprozess
+ausstehend. Alle Titelblatt-/Impressum-Angaben (Herausgeber, Merkblattnummer, Datum,
+Inkrafttreten, abgelöste Vorgänger-Merkblätter) am Original verifiziert, nicht aus dem
+Dateinamen abgeleitet.
+
+## 2026-07-31 — Run 40 (MacBook Pro): drei VSA-Dateien destilliert — Bestandsfalle aufgedeckt, Ordner betrifft Aufzüge statt Abwasser
+
+Auftrag war, drei Dateien aus `06_Richtlinien/VSA/` als Ergänzung zu SN 592 000
+(Liegenschaftsentwässerung) zu destillieren, unter der Annahme VSA = Verband Schweizer
+Abwasser- und Gewässerschutzfachleute. Am Original (Titelblatt/Logo/Impressum) zeigt sich:
+VSA = **Verband Schweizerischer Aufzugsunternehmen**; alle drei Dateien sind archivierte
+Webseiten (Safari-Druck, © 2011, 13.07.2012) zu **Aufzugssicherheit**, kein Bezug zu
+Liegenschaftsentwässerung. SNEL steht dort für «Safety Norm for Existing Lifts»
+(= SN-EN 81-80:2003 = SIA 370.080, bereits established in `sia-370-080-2003.md`), nicht für
+«Schweizer Norm für Liegenschaftsentwässerung». Details/Beleg: `wiki/QUESTIONS.md`
+Eintrag 2026-07-31.
+
+- **Neu:** `destillate/vsa-aufzuege-dokumente-bestimmungen.md` — Normenkatalog-Seite
+  (Verweisdatei, kein Fachdokument): listet die SN-EN-81-Reihe/SIA-370.xxx-Reihe +
+  Bezugsquellen; Kreuztabelle gegen den KB-Bestand (2 von 17 Teilen bereits destilliert).
+- **Neu:** `destillate/vsa-aufzuege-esba-zh.md` — VSA-Kurzdarstellung der Zürcher
+  ESBA-Richtlinie (Erhöhung der Sicherheit bestehender Aufzüge, in Kraft seit 2008): 7
+  Gefahrenkriterien, Umsetzung via Kantonale Aufzugskontrolle, 5-Jahres-Frist.
+- **Neu:** `destillate/vsa-aufzuege-snel.md` — VSA-Kurzdarstellung von SNEL/SN-EN 81-80,
+  CH-Publikation 01.07.2004, Kantone mit eigener Umsetzungsgesetzgebung (Stand 2011:
+  Genf/Zürich/Glarus).
+- Alle drei `status: speculative (Run 40 destilliert, Verifikation ausstehend)`, da reine
+  Sekundärquellen (VSA-Webseiten, nicht die Originaltexte der zitierten Richtlinien/Normen).
+- `destillate/INDEX.md` um die drei Zeilen ergänzt; `wiki/QUESTIONS.md` um 4 offene Punkte
+  (VKF-RL-2003-vs-BRL-23-15-Ablösung, ESBA-Originaltext, restliche EN-81-Teile, SVAS-VSA-
+  Verhältnis).
+
 ## 2026-07-31 — Neues Destillat VKF-Merkblatt 2005-15 «Lithium-Ionen-Batterien» (Zulieferung aus planungsgrundlagen)
 Anlass: offene Frage C44 aus dem Wettbewerbs-Scan «Grassenbiwak 2027» (Batterieraum im netzfernen
 Bau). Das Merkblatt war in der ganzen KB nicht erfasst und liegt auch nicht im Hausbestand PL-03;

@@ -1277,13 +1277,22 @@ Dachentwaesserung — ergaenzt SIA 271. Die zwei Dateien sind DASSELBE Dokument 
 
 **`06_Richtlinien/VSA`** — 3 PDF, P2
 
-Abwasserverband-Bestimmungen/SNEL — ergaenzt SN 592 Liegenschaftsentwaesserung.
+⚠ **Annotation korrigiert 31.07.2026 (Run 40, am Original nachgeprueft).** Die bisherige Zeile
+«Abwasserverband-Bestimmungen/SNEL — ergaenzt SN 592 Liegenschaftsentwaesserung» war **falsch**.
+VSA heisst hier **Verband Schweizerischer Aufzugsunternehmen** (Aufzugsbranche), nicht Verband
+Schweizer Abwasser- und Gewaesserschutzfachleute; **SNEL = «Safety Norm for Existing Lifts»**
+(SN EN 81-80:2003 = SIA 370.080), nicht «Schweizer Norm fuer Liegenschaftsentwaesserung». Beleg:
+alle drei Dateien tragen im Kopf «VERBAND SCHWEIZERISCHER AUFZUGSUNTERNEHMEN» (Gegenpruefung des
+Hauptprozesses via `pdftotext`, unabhaengig vom Destillier-Agenten). Kein Bezug zu SN 592 — die
+Liegenschaftsentwaesserung liegt unter eigenem Namen im Bestand
+(`04_Merkblätter/SN592_Liegenschaftsentwaesserung_d.pdf`). Es sind **archivierte Webseiten**
+(Safari-Druck, © 2011, archiviert 2012, je 1 Seite), keine Fachpublikationen.
 
 | Status | Prio | Datei | Bemerkung |
 |---|---|---|---|
-| [ ] | P2 | `06_Richtlinien/VSA/VSA - Dokumente - Bestimmungen.pdf` |  |
-| [ ] | P2 | `06_Richtlinien/VSA/VSA - ESBA Kanton Zürich.pdf` |  |
-| [ ] | P2 | `06_Richtlinien/VSA/VSA - SNEL.pdf` |  |
+| [x] 260731 | P2 | `06_Richtlinien/VSA/VSA - Dokumente - Bestimmungen.pdf` | Run 40 → `destillate/vsa-aufzuege-dokumente-bestimmungen.md`. **Verweisdatei/Normenkatalog-Seite** (SN-EN-81-Reihe / SIA 370.xxx + Bezugsquellen), kein eigener materieller Inhalt |
+| [x] 260731 | P2 | `06_Richtlinien/VSA/VSA - ESBA Kanton Zürich.pdf` | Run 40 → `destillate/vsa-aufzuege-esba-zh.md`. Verbands-**Zusammenfassung** der ESBA-Richtlinie der Baudirektion ZH (in Kraft 2008), nicht der Erlasstext |
+| [x] 260731 | P2 | `06_Richtlinien/VSA/VSA - SNEL.pdf` | Run 40 → `destillate/vsa-aufzuege-snel.md`. Sekundaerquelle zu SN EN 81-80:2003 / SIA 370.080; die Norm selbst ist als `sia-370-080-2003.md` destilliert |
 
 **`06_Richtlinien/BKZ`** — 4 PDF, P3
 

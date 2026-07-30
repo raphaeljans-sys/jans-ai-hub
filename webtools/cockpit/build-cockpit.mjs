@@ -23,6 +23,7 @@ import { execFileSync } from 'node:child_process';
 import { homedir } from 'node:os';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { zeilenHash, istErledigt } from './cockpit-lib.mjs';
 
 // ---------------------------------------------------------------------------
 // Argumente + Pfade
@@ -40,6 +41,11 @@ const HUB = resolve(
 );
 const OUT = resolve(arg('--out') || join(homedir(), '.jans-cockpit', 'cockpit.html'));
 const OPEN = argv.includes('--open');
+// Nur der lokale cockpit-server.mjs setzt --interaktiv: dann (und nur dann)
+// zeigt die Seite die ✓-Buttons. Der statische Mini-Webserver (Port 8377)
+// liefert dieselbe HTML ohne Flag — dort bleiben die Buttons versteckt,
+// weil sein /api/erledigt ins Leere ginge.
+const INTERAKTIV = argv.includes('--interaktiv');
 
 const NOW = new Date();
 const TZ = 'Europe/Zurich';
@@ -108,7 +114,8 @@ function parseFristen() {
     const titel = titelM ? entmd(titelM[1]) : '';
     const text = entmd(titelM ? was.replace(titelM[0], '') : was).replace(/^[\s.,;:—–-]+/, '');
 
-    const erledigt = /erledigt|umgesetzt|hinfaellig/i.test(status) || /erledigt|umgesetzt/i.test(frist);
+    const erledigt = istErledigt(status, frist);
+    const hash = zeilenHash(frist, was);
     const sofort = /sofort/i.test(frist);
     const dM = frist.match(/(\d{1,2})\.(\d{1,2})\.(\d{4})/);
     const zeitM = frist.match(/(\d{1,2}):(\d{2})/);
@@ -117,7 +124,7 @@ function parseFristen() {
       delta = tageBis(Number(dM[3]), Number(dM[2]), Number(dM[1]));
       datumTxt = `${dM[1].padStart(2, '0')}.${dM[2].padStart(2, '0')}.${dM[3]}` + (zeitM ? ` ${zeitM[0]}` : '');
     }
-    rows.push({ frist: entmd(frist), datumTxt, delta, sofort, titel, text, quelle, projekt, prio, status: entmd(status), erledigt });
+    rows.push({ frist: entmd(frist), datumTxt, delta, sofort, titel, text, quelle, projekt, prio, status: entmd(status), erledigt, hash });
   }
   return { rows, fehlt: false };
 }
@@ -228,7 +235,19 @@ function parseWissen() {
       if (neuestes) break;
     }
     const alter = neuestes === null ? null : Math.round((heuteUTC - neuestes) / 86400000);
-    kbs.push({ name: kb, alter });
+
+    // Bestand fuers Second-Brain-Bild: Wiki-Artikel (ohne INDEX/QUESTIONS),
+    // Reports in outputs/, Rohmaterial-Eintraege in raw/ (nur oberste Ebene).
+    const zaehle = (unter, filter) => {
+      try {
+        return readdirSync(join(kbDir, unter))
+          .filter(f => !f.startsWith('.') && f !== '@eaDir' && (!filter || filter(f))).length;
+      } catch { return 0; }
+    };
+    const artikel = zaehle('wiki', f => f.endsWith('.md') && !/^(INDEX|QUESTIONS)\.md$/i.test(f));
+    const outputs = zaehle('outputs');
+    const raw = zaehle('raw', f => f !== 'README.md');
+    kbs.push({ name: kb, alter, artikel, outputs, raw });
   }
   return kbs.sort((a, b) => (a.alter ?? 9e9) - (b.alter ?? 9e9));
 }
@@ -263,8 +282,8 @@ const deltaChip = r => {
 };
 
 const karte = r => `
-  <article class="karte ${prioKl(r.prio)}">
-    <header>${deltaChip(r)}<span class="chip c-projekt">${esc(r.projekt)}</span><span class="chip c-prio">${esc(r.prio)}</span></header>
+  <article class="karte ${prioKl(r.prio)}" data-hash="${esc(r.hash)}">
+    <header>${deltaChip(r)}<span class="chip c-projekt">${esc(r.projekt)}</span><span class="chip c-prio">${esc(r.prio)}</span>${r.erledigt ? '' : '<button class="done" title="Als erledigt ins Fristen-Register schreiben">✓ erledigt</button>'}</header>
     ${r.titel ? `<h3>${esc(r.titel)}</h3>` : ''}
     <p>${esc(kuerze(r.text, 300))}</p>
     <footer><span>${esc(kuerze(r.quelle, 60))}</span><span class="status">${esc(r.status)}</span></footer>
@@ -288,8 +307,22 @@ const stationHtml = s => `
   </article>`;
 
 const kbFarbe = a => a === null ? 'c-grau' : a <= 3 ? 'c-gruen' : a <= 14 ? 'c-gelb' : 'c-grau';
-const kbHtml = k => `<span class="kb ${kbFarbe(k.alter)}" title="${esc(k.name)}">
-  ${esc(k.name)}<em>${k.alter === null ? '?' : k.alter === 0 ? 'heute' : k.alter + ' Tg.'}</em></span>`;
+
+// Second Brain: eine Blase je KB — Flaeche ~ Wiki-Artikelbestand, Farbe = Frische.
+const brainMax = Math.max(1, ...wissen.map(k => k.artikel));
+const blase = k => {
+  const d = Math.round(54 + 92 * Math.sqrt(k.artikel / brainMax));
+  const frische = k.alter === null ? 'ohne Datum' : k.alter === 0 ? 'heute gepflegt' : `vor ${k.alter} Tg. gepflegt`;
+  return `<div class="blase ${kbFarbe(k.alter)}" style="width:${d}px;height:${d}px"
+    title="${esc(k.name)} — ${k.artikel} Wiki-Artikel · ${k.outputs} Reports · ${k.raw} raw · ${esc(frische)}">
+    <b>${k.artikel}</b><span>${esc(k.name)}</span></div>`;
+};
+const brainTotal = {
+  artikel: wissen.reduce((s, k) => s + k.artikel, 0),
+  outputs: wissen.reduce((s, k) => s + k.outputs, 0),
+  raw: wissen.reduce((s, k) => s + k.raw, 0),
+  frisch: wissen.filter(k => k.alter !== null && k.alter <= 3).length,
+};
 
 const warnungen = []; // rot: braucht Aufmerksamkeit
 const hinweise = [];  // gelb: Zustand, kein Alarm
@@ -372,10 +405,25 @@ h2 .anzahl{color:var(--akzent)}
 .station li{font-size:13px;color:var(--text);padding-left:14px;position:relative}
 .station li::before{content:"·";position:absolute;left:2px;color:var(--akzent)}
 .leer{color:var(--dim);font-size:13px}
-.kbs{display:flex;flex-wrap:wrap;gap:7px}
-.kb{background:var(--flaeche);border:1px solid var(--linie);border-radius:8px;
-  padding:5px 10px;font-size:12.5px;font-family:ui-monospace,Menlo,monospace}
-.kb em{font-style:normal;margin-left:7px;opacity:.85;font-size:11px}
+button.done{margin-left:auto;cursor:pointer;border:1px solid var(--gruen);color:var(--gruen);
+  background:transparent;border-radius:999px;padding:1px 10px;font-size:11.5px;
+  font-family:ui-monospace,Menlo,monospace;opacity:0;transition:opacity .15s}
+.karte:hover button.done{opacity:1}
+button.done:hover{background:var(--gruen);color:#fff}
+button.done:disabled{opacity:.5;cursor:wait}
+body.statisch button.done{display:none}
+.karte.weg{opacity:.15;transition:opacity .4s}
+.brain{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:flex-start}
+.blase{border-radius:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  text-align:center;overflow:hidden;padding:6px;border:2px solid var(--linie);background:var(--flaeche);cursor:default}
+.blase b{font-size:17px;line-height:1.1}
+.blase span{font-size:9.5px;color:var(--dim);line-height:1.15;word-break:break-word;
+  font-family:ui-monospace,Menlo,monospace;max-width:100%}
+.blase.c-gruen{border-color:var(--gruen);background:color-mix(in srgb,var(--gruen) 13%,var(--flaeche))}
+.blase.c-gelb{border-color:var(--gelb);background:color-mix(in srgb,var(--gelb) 10%,var(--flaeche))}
+.brain-total{font-size:13px;color:var(--dim);margin-bottom:12px}
+.brain-total b{color:var(--text)} .brain-total b.gruen{color:var(--gruen)}
+.legende{font-size:11px;color:var(--dim);margin-top:10px}
 .journal{background:var(--flaeche);border:1px solid var(--linie);border-radius:12px;padding:14px 16px;margin-bottom:12px}
 .journal h3{font-size:13px;color:var(--akzent);font-family:ui-monospace,Menlo,monospace;margin-bottom:6px}
 .journal li{font-size:13px;color:var(--dim);margin-left:16px;margin-bottom:3px}
@@ -389,7 +437,7 @@ summary{cursor:pointer;color:var(--dim);font-size:13px}
   font-family:ui-monospace,Menlo,monospace}
 </style>
 </head>
-<body>
+<body${INTERAKTIV ? ' data-interaktiv="1"' : ''}>
 <div class="kopf">
   <h1>JANS <b>Hub Cockpit</b></h1>
   <span class="stand">Stand ${esc(deCH(NOW, { dateStyle: 'full', timeStyle: 'short' }))} · Auto-Refresh 5 Min</span>
@@ -434,16 +482,46 @@ ${hinweise.map(w => `<div class="warn hinweis">${w}</div>`).join('')}
       <ul>${t.eintraege.map(e => `<li>${esc(e)}</li>`).join('') || '<li>—</li>'}</ul></div>`).join('')}
   </section>
   <section class="gruppe">
-    <h2>Wissens-Layer · Frische</h2>
-    <div class="kbs">${wissen.map(kbHtml).join('')}</div>
+    <h2>Second Brain · Wissens-Layer</h2>
+    <p class="brain-total"><b>${wissen.length}</b> Wissensbasen · <b>${brainTotal.artikel}</b> Wiki-Artikel ·
+      <b>${brainTotal.outputs}</b> Reports · <b>${brainTotal.raw}</b> Roh-Quellen ·
+      <b class="gruen">${brainTotal.frisch}</b> in den letzten 3 Tagen gepflegt</p>
+    <div class="brain">${[...wissen].sort((a, b) => b.artikel - a.artikel).map(blase).join('')}</div>
+    <p class="legende">Blasengrösse = Wiki-Artikelbestand · Farbe = Frische (grün ≤ 3 Tg., gelb ≤ 14 Tg.) · Details beim Überfahren</p>
   </section>
 </div>
 </div>
 
 <div class="fuss">
-  Erzeugt von webtools/cockpit/build-cockpit.mjs · read-only · Neu bauen:
-  node ${esc(join('webtools', 'cockpit', 'build-cockpit.mjs'))} --open
+  Erzeugt von webtools/cockpit/build-cockpit.mjs ·
+  <span class="nur-statisch">statische Ansicht — interaktiv (Fristen abhaken) via cockpit-server: http://127.0.0.1:8737</span><span class="nur-interaktiv">interaktiv · ✓ schreibt «erledigt» direkt ins Fristen-Register (logbuch/fristen.md)</span>
 </div>
+<script>
+(function () {
+  var interaktiv = location.protocol.indexOf('http') === 0 &&
+    document.body.getAttribute('data-interaktiv') === '1';
+  document.body.classList.add(interaktiv ? 'interaktiv' : 'statisch');
+  var st = document.createElement('style');
+  st.textContent = interaktiv ? '.nur-statisch{display:none}' : '.nur-interaktiv{display:none}';
+  document.head.appendChild(st);
+  if (!interaktiv) return;
+  document.addEventListener('click', function (ev) {
+    var btn = ev.target.closest ? ev.target.closest('button.done') : null;
+    if (!btn) return;
+    var karte = btn.closest('.karte');
+    var titel = karte.querySelector('h3');
+    if (!confirm('Im Register als erledigt markieren?\\n\\n' + (titel ? titel.textContent : ''))) return;
+    btn.disabled = true; btn.textContent = '…';
+    fetch('/api/erledigt', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ hash: karte.getAttribute('data-hash') })
+    }).then(function (r) { return r.json(); }).then(function (a) {
+      if (a.ok) { karte.classList.add('weg'); setTimeout(function () { location.reload(); }, 500); }
+      else { alert('Nicht markiert: ' + (a.meldung || 'unbekannter Fehler')); btn.disabled = false; btn.textContent = '✓ erledigt'; }
+    }).catch(function (e) { alert('Cockpit-Server nicht erreichbar: ' + e); btn.disabled = false; btn.textContent = '✓ erledigt'; });
+  });
+})();
+</script>
 </body>
 </html>
 `;

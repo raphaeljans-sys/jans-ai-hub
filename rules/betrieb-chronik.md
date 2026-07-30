@@ -21,6 +21,35 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260731c — Cockpit interaktiv: lokaler Server schreibt «erledigt» ins Fristen-Register
+
+**Was gebaut wurde.** Das Hub-Cockpit (`webtools/cockpit/`) hat eine interaktive Stufe:
+`cockpit-server.mjs` (nur 127.0.0.1:8737, launchd `com.jans.cockpit-server`, KeepAlive)
+baut die Seite je GET frisch und nimmt `POST /api/erledigt {hash}` entgegen — die einzige
+Schreiboperation: Status-Zelle der Registerzeile in `logbuch/fristen.md` auf
+«erledigt (Cockpit TT.MM.JJJJ)». Zeilenidentitaet ueber `cockpit-lib.mjs` (SHA1 ueber
+Frist+Was, stabil gegen Status-/Prio-Aenderungen). Dazu die Second-Brain-Grafik
+(Blase je KB, Flaeche = Wiki-Artikel, Farbe = Frische). MacBook Pro installiert
+31.07.2026; Mac Mini als Sync-Task erstellt (laeuft ueber die Freigabe-Schwelle,
+Persistenz).
+
+**Nachgemessene Pfade (Fixture + live).** Erfolg schreibt exakt die Zielzeile
+(Nachbarzeilen unberuehrt, Schreiben im Ziel verifiziert); Doppel-POST 409
+«schon erledigt»; fremder Hash 404; Murks-Body 400; Hub nicht auf `/Volumes/` → 409
+(Guard `sync-kanonische-quelle`, Override nur `--erlaube-lokal` fuer Fixtures). Commit
+macht der native Synology-Selfcommit, nie der Server.
+
+**Drei Fallstricke fuer Nachbauten.** (1) Der statische Mini-Webserver
+(`serve-cockpit.mjs`, 0.0.0.0:8377) liefert dieselbe HTML — Buttons erscheinen darum NUR,
+wenn mit `--interaktiv` gebaut UND per http geladen; der interaktive Server schreibt in
+die eigene Zieldatei `cockpit-interaktiv.html`, damit dem 8377-Weg nie eine
+Button-Fassung untergeschoben wird. (2) `sync-task-create.sh` schreibt /tmp-Pfade im
+Task-Inhalt auf NAS-Pfade um — bei launchd-Logpfaden (`StandardOutPath`) ist das falsch
+und musste zurueckgestellt werden; bei eingebetteten plists die Pfade nach dem Erstellen
+pruefen. (3) Startet der Server im SSD-Fallback und das NAS kommt zurueck, beendet er
+sich nach der naechsten Antwort selbst (KeepAlive startet NAS-seitig neu) — sonst bliebe
+das Abhaken stumm read-only.
+
 ## 260730 — Der Sync-Task-Runner konnte Dauerzugang setzen, ohne zu fragen (Freigabe-Schwelle)
 
 **Vorfall.** Der Mac Mini legte am 30.07.2026 um 09:32 einen Sync-Task in

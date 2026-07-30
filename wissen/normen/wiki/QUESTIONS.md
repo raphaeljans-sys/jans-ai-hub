@@ -1,5 +1,43 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
+## 2026-07-31 (Run 40, MacBook Pro) — Bestandsfalle aufgedeckt: Ordner «VSA» meint Aufzüge, nicht Abwasser/Gewässerschutz
+
+**Befund.** Der Auftrag für Run 40 sollte drei Dateien aus
+`PL - 02_Recht_Norm/06_Richtlinien/VSA/` als Ergänzung zu SN 592 000 (Liegenschafts-
+entwässerung) destillieren, unter der Annahme «VSA» = Verband Schweizer Abwasser- und
+Gewässerschutzfachleute und «SNEL» = Schweizer Norm für Liegenschaftsentwässerung. Am
+Original (Titelblatt, Logo, Impressum aller drei Dateien) zeigt sich: **VSA = Verband
+Schweizerischer Aufzugsunternehmen**, die drei Dateien sind archivierte Webseiten (Safari-
+Druck, © 2011, archiviert 13.07.2012) der Verbandswebsite zu **Aufzugssicherheit**. SNEL
+steht dort für «Safety Norm for Existing Lifts» = SN-EN 81-80:2003 = SIA 370.080 (in dieser
+KB bereits vollständig destilliert, `destillate/sia-370-080-2003.md`, status established).
+Eine Volltextsuche über den gesamten Baum `PL - 02_Recht_Norm/` nach `*vsa*`, `*abwasser*`,
+`*gewaesser*`, `*592*` (31.07.2026) fand **keine** zweite VSA-Ablage zu Abwasser/
+Gewässerschutz — die Liegenschaftsentwässerung liegt im Bestand unter eigenem Namen
+(`04_Merkblätter/SN592_Liegenschaftsentwaesserung_d.pdf`, `02_Normen/…/592056.pdf`,
+destilliert in `sia-592-056.md`).
+
+**Was gemacht wurde.** Alle drei Dateien trotzdem korrekt (als Aufzugsthema) destilliert,
+mit dem Fund prominent in Frontmatter, Titel und eigenem Abschnitt jeder Datei:
+`destillate/vsa-aufzuege-dokumente-bestimmungen.md`, `vsa-aufzuege-esba-zh.md`,
+`vsa-aufzuege-snel.md`. Keine erfundene Brücke zu SN 592 000 hergestellt.
+
+**Offene Punkte aus den drei Destillaten:**
+- [ ] **N-R40-1 (P3):** Prüfen, ob VKF-RL «Brandschutzrichtlinie Aufzugsanlagen, Ausgabe
+  2003» (in `vsa-aufzuege-dokumente-bestimmungen.md` referenziert) durch die im Bestand
+  vorhandene `vkf-brl-23-15-befoerderungsanlagen.md` (2015) abgelöst wurde — bisher nur
+  Vermutung aus Themennähe, nicht an beiden Originalen geprüft.
+- [ ] **N-R40-2 (P3):** ESBA-Originaltext der Baudirektion Kanton Zürich beschaffen und
+  gegen die VSA-Kurzfassung (7 Kriterien) verifizieren; Rechtsgrundlage (Gesetzes-/
+  Verordnungsartikel) klären.
+- [ ] **N-R40-3 (P4):** Zehn nicht destillierte Teile der EN-81-Reihe (81-1, -2, -3, -11,
+  -21, -70, -71, -72, -73, 115-1, 115-2) — nur bei konkretem Projektbedarf (Aufzugsthema
+  in Ankaufsprüfung/Ausschreibung) destillieren, kein systematischer Nachzieh-Auftrag.
+- [ ] **N-R40-4 (P4):** Verhältnis SVAS (Schweizerische Vereinigung für Aufzugssicherheit,
+  laut SNEL-Quelle Herausgeberin der Broschüre «SNEL, ESBA etc.») zum VSA (Verband
+  Schweizerischer Aufzugsunternehmen, Betreiber der archivierten Website) ungeklärt.
+
+
 ## 2026-07-31 (Entscheid Raphael, Wissens-Chef Run 21) — SWKI ist zugeordnet, ein Auftrag folgt daraus
 
 **Entscheid.** SWKI gehört in den Scope dieser KB, nach dem für SIA/VKF/VSS geltenden Zuschnitt:

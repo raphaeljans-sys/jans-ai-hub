@@ -2,15 +2,17 @@
 # ============================================================================
 # JANS Hub Cockpit — Oeffnen mit Auto-Wahl der besten Quelle
 # ============================================================================
-# 1. Live-Server des Mac Mini (Tailscale-IP, dann LAN-IP) — immer frischer
-#    5-Min-Stand, kein lokaler Build noetig
-# 2. Fallback: lokal NAS-first bauen und die Datei oeffnen
+# 1. Lokaler INTERAKTIVER Cockpit-Server (127.0.0.1:8737, launchd
+#    com.jans.cockpit-server) — einziger Weg mit ✓-erledigt-Buttons
+# 2. Live-Server des Mac Mini (Tailscale-IP, dann LAN-IP) — statisch,
+#    frischer 5-Min-Stand, kein lokaler Build noetig
+# 3. Fallback: lokal NAS-first bauen und die Datei oeffnen
 # Wird von der Doppelklick-App "JANS Cockpit.app" aufgerufen; funktioniert
 # auch direkt im Terminal.
 # ============================================================================
 set -u
 
-for u in "http://100.120.219.12:8377" "http://192.168.1.210:8377"; do
+for u in "http://127.0.0.1:8737" "http://100.120.219.12:8377" "http://192.168.1.210:8377"; do
   if curl -m 2 -sf "$u" >/dev/null 2>&1; then
     open "$u"
     exit 0
