@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.07.2026 04:03:23
+Stand: 30.07.2026 04:13:31
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 03:57)
@@ -19,4 +19,4 @@ Stand: 30.07.2026 04:03:23
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- c9a50ead twin-mail-training Batch 82: Luecken-Sweep rj@ Oktober 2025 (43 Mails vollstaendig), 7 neue Marker + 3 Status-Hebungen in stimme/beziehungsregister/arbeitsweise/fachsignatur, 3 neue QUESTIONS
+- 88a8543f vollgas-radar 30.07. 03:57: P1 Doppelfeuer behoben (Nachtschicht feuerte baurecht gegen die woechentliche Drossel; Ausschluss KBs mit eigenem Taktgeber, Wirkung auf Mini-SSD nachgemessen), P2 planungsgrundlagen 28. Quellen-Erschoepfung aber Liefer-Delta auf der Erosions-Achse, P2 stale Banner token-drosselung-100810
