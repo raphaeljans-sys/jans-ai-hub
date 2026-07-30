@@ -32,6 +32,82 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-07-30 09:57 — [FREI] Das Hub-Chef-Tagesbriefing ist heute ersatzlos ausgefallen, und die Registry weist den Lauf als erfolgt aus: eine API-Stoerung zwischen 08:23 und 09:02 hat drei operative Laeufe getroffen, zwei ueberlebten sie, einer nicht
+
+**Selbstkontrolle:** letzter Eintrag 06:57, dieser Lauf 09:57. 3,0 h bei 3-h-Takt, kein
+verpasster Lauf. Naechster Lauf 12:57.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung antwortet «OK» (rc 0). Kein
+Login-Blocker, kein Wochenlimit. Speicher MacBook 4,33 GB verfuegbar, Mini 10,93 GB
+(`vm_stat` free+inactive+purgeable), Druckstufe je 1 — unauffaellig. Die Stoerung unten war
+eine transiente Server-Stoerung, kein Kontingent-Ereignis: meine eigene Probe um 09:57 und der
+`heartbeat`-Lauf um 09:41 (rc 0) liefen beide sauber.
+
+**P1 — `hub-chef-taeglich` hat heute kein Tagesbriefing gesendet, und nur die Deliverable-Messung
+zeigt es.** Die Registry meldet `lastRunAt` 08:39 und sieht damit vollstaendig gesund aus. Der
+Lauf (Session `9951a0d4`) ist aber um **09:02:43 mit `API Error: Unable to connect to API
+(ConnectionRefused)` abgebrochen**, nach 23 Minuten, mitten in der Korrektur-Schleife ueber einen
+Entwurf an Mathies; sechs Minuten davor hatte er protokolliert «QS-Agenten liefen auf einen 529»
+und den Fan-out wiederholt. Gegenprobe am Deliverable statt am Zaehler: im Postausgang rj@
+(Exchange, «Gesendete Elemente») stehen heute `Logbuch-Radar` 07:07:15, `AG-Gruendung` 07:51:21
+und eine Geschaeftsmail 08:36:31 — **nach dem Start des Hub-Chefs um 08:39 liegt dort nichts**.
+Das Briefing ist ersatzlos verloren; Rule 260710 verlangt es taeglich.
+
+**Was ich bewusst NICHT getan habe:** den Task nachfeuern. `update_scheduled_task` kennt fuer
+einen sofortigen Lauf nur `fireAt`, und das ist laut Werkzeugbeschreibung exklusiv zum
+`cronExpression` — ein Nachschuss haette den taeglichen 08:35-Takt geloescht und damit aus einem
+verlorenen Briefing einen dauerhaften Schaden gemacht. Dazu fuehrt der Hub-Chef Whitelist-Aktionen
+der Stufe 3 aus und versendet selbst; ein Zweitlauf mit unklarem Stand des ersten ist keine
+Aufsichtsaufgabe. Der naechste regulaere Lauf ist morgen 08:39. Kein Totalausfall der
+Morgeninformation: das Logbuch-Radar-Briefing von 07:07 hat Raphael erreicht.
+
+**P2 — die Sollbruchstelle ist der Korrektur-Fan-out, und derselbe Fehler hatte zwei verschiedene
+Ausgaenge.** Dieselbe 529-Welle traf `zahlungsabgleich-check` (08:23–08:37) genauso: auch dort
+brachen `rechtschreibung` und `layout` ab, auch der Wiederholungsversuch. Dieser Lauf **wich
+inline aus**, erreichte sein Deliverable und wies die Schwaechung ausdruecklich aus statt sie als
+vollen Harness-Lauf zu verkaufen — richtig gehandelt. Der Hub-Chef dagegen wiederholte den Fan-out
+und starb am Folgefehler. Ob ein operativer Lauf eine Agenten-Ueberlastung ueberlebt, haengt damit
+heute allein daran, ob er ausweicht oder wiederholt; einen definierten Fallback hat der Skill
+`korrektur` fuer diesen Fall nicht. Das ist ein Strukturbefund fuer Raphael, keine Aufsichtsaktion
+— ich habe am Skill nichts geaendert.
+
+**P3 — `mahnwesen-verzugscheck` lief 1 h 56 statt weniger Minuten, weil der SessionStart-Hook ihm
+eine fremde Aufgabe zugespielt hat.** Start 08:05, letzte Zeile 10:01, 128 Transcript-Zeilen, dazu
+ein 500er um 08:07. Der Lauf hat neben dem read-only-Verzugscheck die offene Station-Sync-Task
+(«SSH-Diagnose Mini-Verbindung + Rueckweg-Schluessel») mit abgearbeitet, inklusive einer
+Umlaut-Korrektur an der Ergebnisdatei — inhaltlich saubere Arbeit, aber ein Verzugscheck ist nicht
+der Ort dafuer. Der Hinweis kommt aus dem SessionStart-Hook, der ihn in **jede** Session einspielt,
+auch in eng geschnittene operative Tasks. Kontingent-relevant, weil ein Minuten-Lauf so zum
+Zwei-Stunden-Lauf wird.
+
+**Liefer-Delta: seit 06:57 keine Lern-Lieferung — und das ist ausdruecklich KEIN Leerlauf-Befund.**
+Im Tagesfenster ist kein Lern-Loop getaktet: Nachtschicht 23:30 / 02:30 / 05:30 / 13:30, `normen`
+01:28, `twin` 03:40 und 05:45, `baurecht` montags 23:44. Der naechste Slot ist die Nachtschicht um
+13:30. Delta Null durch Nicht-Faelligkeit ist etwas anderes als ein Delta-Null-Loop; die Schwellen
+3 und 5 sind nirgends beruehrt. Entsprechend habe ich **nichts zurueckgetaktet und nichts
+deaktiviert**. Die einzigen Commits seit 06:57 sind der `ag-gruendung-monitor` (07:51, UBS-Blockade
+geloest) und das 15-Minuten-Selbstcommit-Rauschen der Stationsstatus-Dateien.
+
+**Feuermechanismen: sauber.** `launchctl list | grep vollgas` auf beiden Stationen leer, beide
+plists tragen weiter `.disabled-260729`; der Endlos-Runner bleibt ausgebaut und ich habe ihn nicht
+angefasst. Kein Doppelfeuer, kein wiederauferstandener Job.
+
+**Nebenbefunde.** Der Versionsrueckstand des MacBook aus dem 06:57-Eintrag ist weg: beide Stationen
+tragen jetzt `2.1.219`. Offen ausgewiesen: fuer den Mini war am 06:57 `2.1.220` notiert, heute
+misst dasselbe Verzeichnis `2.1.219` — ich loese den Widerspruch nicht auf, sondern halte nur fest,
+dass beide Stationen gleichauf sind. Das Lauf-Journal `260730-laeufe.jsonl` steht unveraendert bei
+vier Zeilen, alle aus Mini-Dispatch-Laeufen; App-Tasks schreiben weiterhin nichts hinein, weshalb
+der Liefer-Delta dort ueber Commits und Transcripts gemessen werden muss — genau das hat den P1
+heute sichtbar gemacht. Der `heartbeat` 09:41 meldet rc 0 mit einer Warnung (die eine offene
+Sync-Task, die der Mahnwesen-Lauf inzwischen erledigt hat). Die beiden `Write(...)`-Regeln in
+`.claude/settings.json` warnen unveraendert bei jedem Lauf; Raphael hat den Punkt heute um 07:54
+interaktiv vorgelegt bekommen.
+
+**Kein Mail-Anlass.** Fenster frei, kein Login-Blocker, kein erschoepftes Wochenkontingent. Der
+P1 ist ein verlorenes Deliverable durch eine transiente Server-Stoerung, die sich von selbst
+erholt hat — nichts, was nur Raphael loesen kann, und damit nach Mail-Disziplin kein Mail-Fall.
+
+---
 ## 2026-07-30 06:57 — [FREI] Der unzuordenbare Taktgeber existiert nicht: planungsgrundlagen Run 93 kam aus einer fremden Session, die sich eine eigene Loop-Run-Nummer gegeben hat — meine eigene 03:57-Bewertung war damit falsch und wird hier korrigiert
 
 **Selbstkontrolle:** letzter Eintrag 03:57, dieser Lauf 06:57. 3,0 h bei 3-h-Takt, kein
