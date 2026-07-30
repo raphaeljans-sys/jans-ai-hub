@@ -93,7 +93,7 @@ twin-mail-training	task	prototyper	Erzeugt neue Stil-Marker	aktiv	wissen/twin
 vollgas-chef-radar	task	maintainer	Betriebsaufsicht	aktiv	logbuch/vollgas
 vollgas-fruehwarnung	task	maintainer	Betriebsaufsicht	aktiv	logbuch/vollgas
 wettbewerbs-dna-reaktivierung	task	maintainer	Betriebssteuerung	aktiv
-wettbewerbs-dna-training	task	prototyper	Erzeugt neues Wissen	aktiv	wissen/wettbewerbs-dna
+wettbewerbs-dna-training	task	sweeper	Etappe 4 ab 30.07.2026 (Entscheid Raphael, Variante B): vertieft den vorhandenen Bestand statt neues Material zu erschliessen	aktiv	wissen/wettbewerbs-dna
 wettbewerbs-layer-nachbrenner	task	prototyper	Erzeugt neues Wissen	aktiv	wissen/wettbewerbs-dna
 wissens-chef	task	sweeper	Aufsicht/Verdichtung des Wissens-Layers	aktiv	wissen
 wissens-destillat	task	sweeper	Verdichtet Rohmaterial	aktiv	wissen/bauprodukte

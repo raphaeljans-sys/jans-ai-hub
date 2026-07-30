@@ -1,13 +1,41 @@
 # Trainingsprogramm — wettbewerbs-dna
 
-> **STATUS: STILLGELEGT seit 27.07.2026 (Freigabe Raphael, Leerlauf-Bereinigung).**
-> Der Scheduled Task `wettbewerbs-dna-training` steht auf `enabled=false`. Grund: ETAPPE 3
-> meldete mehrere Laeufe in Folge «nichts Neues zu destillieren, keine Datei geaendert» und
-> wartet auf eine Richtungsentscheidung Raphaels (weitere Bauaufgabe, Vertiefung oder
-> Umwidmung). **Diese KB ist KEIN gueltiges Ziel fuer die Nachtschicht-Prioritaet 4** — sie
-> ueberspringen und die naechste faellige KB nehmen. Reaktivierung nur durch Raphael.
-> (Statuskopf gesetzt vom `vollgas-chef-radar` 29.07.2026: der Takt-Satz unten behauptete
-> seit dem 27.07. einen aktiven taeglichen Lauf, den es nicht mehr gibt.)
+> ## STATUS: ETAPPE 4 — VERTIEFUNG (reaktiviert 30.07.2026, Entscheid Raphael, Variante B)
+>
+> Die Richtungsentscheidung, auf die dieser Loop seit dem 27.07. wartete, ist gefallen:
+> **vertiefen statt verbreitern**. Kein neues Quellmaterial, keine weitere Bauaufgabe — der
+> vorhandene Bestand wird in die Tiefe gezogen. Der Scheduled Task `wettbewerbs-dna-training`
+> ist wieder `enabled=true`, Takt **woechentlich Mo 02:20** (Nachtfenster). Die Rolle wechselt
+> damit von **prototyper** (erzeugt neues Wissen) zu **sweeper** (verdichtet den Bestand).
+>
+> **Ausgangsbefund, am 30.07.2026 gegen den Bestand nachgezaehlt:** Der Kern-Artikel
+> `wiki/muster/delta-zum-ersten-rang.md` deckt alle 11 Teilnahmen ab, aber sehr ungleich tief.
+> Nennungen je Dossier: 2205 (7) · 2101 (6) · 2103 (6) · 2102 (5) · 2206 (5) · 2507 (5) ·
+> 2501 (4) · 2408 (3) · **2104 (2) · 2207 (2) · 2503 (2)**. Die drei letzten sind nur
+> gestreift. Diese Schieflage ist der Arbeitsvorrat der Etappe.
+>
+> **Bausteine (je Lauf genau einer):**
+> - **V1** Tiefen-Angleich: pro Lauf eine duenn abgedeckte Teilnahme (Reihenfolge 2104, 2207,
+>   2503, dann 2408, 2501) forensisch gegen das erstrangierte Projekt stellen, mit woertlichem
+>   Zitat und Fundstelle.
+> - **V2** Rueckkopplung: die 10 bis 12 belegten Siegargumente je `jury-argumente-*`-Artikel
+>   tabellarisch gegen den eigenen Beitrag pruefen — bedient, nicht bedient, im Jurybericht so
+>   benannt? Hier wird die KB von Beschreibung zu Handlungswissen.
+> - **V3** Verdichtung: `delta-zum-ersten-rang.md` zur priorisierten Liste umbauen (was kostet
+>   am haeufigsten den Sieg, was fast nie).
+>
+> **Rang-Disziplin:** Die Raenge dieser KB sind mehrfach falsch erinnert worden — zuletzt am
+> 30.07.2026 durch den `vollgas-chef-radar` selbst, der Muttenz und Schoental gegenueber Raphael
+> als «zweite Plaetze» bezeichnete. Belegt gilt: **2102 Muttenz = 4. Rang / 3. Preis**,
+> **2206 Schoental = 3. Rang / 3. Preis**. Massgeblich sind allein `wiki/INDEX.md` und
+> `outputs/2026-07-12_rang-klaerung-2102-2206.md`, nie Gedaechtnis, Rule oder Memory.
+>
+> **Endbedingung:** Sind V1 bis V3 abgearbeitet oder findet ein Lauf nichts Substanzielles mehr,
+> wird das ausdruecklich im Report und hier vermerkt («Vertiefung erschoepft») — nicht durch
+> Struktur- und Registerpflege kaschiert. Genau daraus entstand die Stilllegung vom 27.07.
+>
+> **Kein gueltiges Ziel fuer die Nachtschicht-Prioritaet 4:** diese KB hat mit
+> `wettbewerbs-dna-training` wieder einen **eigenen aktiven Taktgeber**.
 
 Loop: `wettbewerbs-dna-training` · Station: **MacBook Pro** (Zuteilung 12.07.2026;
 OneDrive-Archiv hier lesbar, TCC geprueft). Takt **historisch** (bis 27.07.2026): taeglich

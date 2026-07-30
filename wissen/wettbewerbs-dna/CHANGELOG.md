@@ -1,5 +1,30 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-07-30 — REAKTIVIERT als ETAPPE 4 «Vertiefung» (Entscheid Raphael, Variante B)
+- **[takt/umwidmung]** Die seit dem 27.07.2026 offene Richtungsentscheidung ist gefallen:
+  **vertiefen statt verbreitern**. Kein neues Quellmaterial, keine weitere Bauaufgabe. Der
+  Scheduled Task `wettbewerbs-dna-training` steht wieder auf `enabled=true`, Takt **woechentlich
+  Mo 02:20** (vorher: taeglich in der Intensivphase — bewusst nicht wiederhergestellt, weil genau
+  der zu enge Takt die Delta-Null-Serie erzeugt hat). Rolle im Register von **prototyper** auf
+  **sweeper** gewechselt.
+- **[befund]** Arbeitsvorrat der Etappe am 30.07. gegen den Bestand **nachgezaehlt**, nicht
+  geschaetzt: `wiki/muster/delta-zum-ersten-rang.md` deckt alle 11 Teilnahmen ab, aber ungleich
+  tief — 2205 (7 Nennungen) · 2101 (6) · 2103 (6) · 2102 (5) · 2206 (5) · 2507 (5) · 2501 (4) ·
+  2408 (3) · **2104 (2) · 2207 (2) · 2503 (2)**. Die drei duennsten sind der Einstieg (V1).
+- **[bausteine]** V1 Tiefen-Angleich je Teilnahme gegen das erstrangierte Projekt · V2
+  Rueckkopplung der belegten Siegargumente aus den drei `jury-argumente-*`-Artikeln gegen den
+  jeweils eigenen Beitrag · V3 Verdichtung zur priorisierten Liste. Refuter-Pflicht wie in
+  Etappe 2/3; Endbedingung und Delta-Null-Meldepflicht ausdruecklich im Task-Prompt verankert.
+- **[korrektur einer eigenen Falschaussage]** Der `vollgas-chef-radar` hat Raphael die
+  Entscheidungsvorlage mit dem Satz unterbreitet, Muttenz und Schoental seien «die beiden zweiten
+  Plaetze» und gaelten als Goldstandard. Das ist **falsch** und stammt aus einer veralteten
+  Memory-Notiz: belegt sind **2102 Muttenz = 4. Rang / 3. Preis** und **2206 Schoental = 3. Rang /
+  3. Preis** (`wiki/INDEX.md`, `outputs/2026-07-12_rang-klaerung-2102-2206.md`, dort ist Raphaels
+  Erinnerung «2. Platz» bereits einmal widerlegt worden). Die Rang-Disziplin ist deshalb neu
+  ausdruecklich im Statuskopf und im Task-Prompt verankert. Der Entscheid «vertiefen» bleibt davon
+  unberuehrt, der Schwerpunkt richtet sich aber nach der nachgezaehlten Abdeckung, nicht nach
+  einem vermeintlichen Goldstandard.
+
 ## 2026-07-29 — `training/PROGRAMM.md`: Statuskopf «STILLGELEGT» gesetzt (vollgas-chef-radar 12:57)
 - **[struktur/korrektur]** Die Programmdatei nannte im Kopf weiterhin einen **aktiven Takt**
   («taeglich 05:22 (Scheduled Task)»), obwohl der Task `wettbewerbs-dna-training` seit dem
