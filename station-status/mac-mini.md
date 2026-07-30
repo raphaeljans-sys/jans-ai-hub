@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.07.2026 05:56:17
+Stand: 30.07.2026 06:06:20
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 05:39)
@@ -12,4 +12,4 @@ Stand: 30.07.2026 05:56:17
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d7a00256 nas-selfcommit: 7 Datei(en) 2026-07-30 05:45
+- 1a8cd6f0 twin-fidelity-review 2026-07-30: Echo-Korrektur dritte Saeule (Facetten-Widerspruch stimme/fachsignatur aufgeloest), DNA neu kompiliert, QUESTIONS 260730
