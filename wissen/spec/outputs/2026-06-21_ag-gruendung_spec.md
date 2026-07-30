@@ -255,3 +255,47 @@ Der vorbereitete Post-Brief (Ordner 05) ist damit hinfaellig (Online-Weg gewaehl
   versenden. Keine Status-Mail gesendet (kein neuer Eingang; die dringende Empfehlung laeuft seit
   27.07. taeglich ueber Radar/Hub-Chef, eine Monitor-Wiederholung waere reines Rauschen).
   fristen.md nachgefuehrt.
+
+- **30.07.2026 (Monitor-Lauf, Donnerstag): DURCHBRUCH — die UBS-Blockade ist nach 32 Tagen
+  aufgeloest, die Gruendung laeuft wieder.** Sweep ueber Apple Mail (mail@raphaeljans.ch als
+  Primaerkanal, rj@ Exchange, raphaeljans@outlook.com, iCloud), alle Mailboxen inkl.
+  Entwuerfe/Geloescht/Junk, Vollsweep 26.–30.07. plus Zielsuche auf Notariat/Mathies/Raphael
+  Jans AG/Handelsregister/REGIX/Beurkundung. Die vier relevanten Mails im Original gelesen
+  (Rule 260709), nicht aus dem Radar-Referat uebernommen:
+  1. **RJ → Jeckelmann, 29.07. 13:33** (rj@): begruendet den Namenswechsel («Da bereits eine
+     Firma mit dem Namen Jans GmbH besteht …»), verlangt das Antragsformular auf **«Raphael
+     Jans AG»**, meldet, dass die Kontoeroeffnung ueber die UBS-Mobilebanking-App im letzten
+     Schritt scheiterte, und fragt, ob er sich fuer die KEK-Bankbeziehung schon identifizieren soll.
+  2. **Jeckelmann → RJ, 29.07. 13:50:** «Dokument habe ich angepasst. Sie koennen mit den
+     weiteren Schritten fortfahren.» Die 32-Tage-Blockade endet damit — ausgeloest durch
+     Raphaels eigenes Nachfassen, nicht durch den Termin vom 31.07.
+  3. **RJ → Jeckelmann, 29.07. 14:59:** Antrag **bei der UBS-Geschaeftsstelle Wiedikon
+     eingereicht**; damit ist zugleich die Echtheitsbescheinigung der Ausweisdokumente geloest.
+  4. **Jeckelmann → RJ, 29.07. 16:55:** Dank/Gruss, **kein Widerspruch** zur Einreichung in der
+     Geschaeftsstelle. Zusatzbeleg: `sec-SH-CH-DO-NOT-REPLY@ubs.com` «UBS: Bestaetigungscode»
+     29.07. 12:50 auf mail@ (Identifikationsschritt).
+  **Vorbehalt am Beleg:** Jeckelmanns Ursprungsmail vom 23.06. verlangt ausdruecklich die
+  Ruecksendung des Original-Formulars **per Post** und warnt, die Abgabe in einer
+  Geschaeftsstelle verzoegere die Eroeffnung. Der Weg ueber Wiedikon ist mitgeteilt und
+  unwidersprochen, aber nicht der von der UBS vorgesehene — das Terminrisiko liegt hier.
+  **Neuer kritischer Pfad (Prozess aus der UBS-Mail 23.06., verifiziert):** IBAN innert **3 AT**
+  → Einzahlung **CHF 100'000** (Vollliberierung, zwingend Bank-/Postueberweisung, keine
+  Bareinzahlung) → Kapitalbescheinigung innert **2 AT** per Einschreiben → Beurkundung →
+  HR-Eintrag (5–30 AT) → Meldung an `sh-cic-onboarding-newclients@ubs.com` fuer das operative
+  Firmenkonto. Rechnung ab Einreichung 29.07.: IBAN ca. **03./04.08.**, Kapitalbescheinigung
+  ca. **06./07.08.**, Beurkundung realistisch **ab ca. 10.08.**
+  **Der Engpass hat gewechselt — jetzt ist es das Notariat.** Die Rueckmeldung an M. Mathies
+  (Notariat Wiedikon-Zuerich) liegt weiterhin als **unversandter rj@-Entwurf vom 18.07. 08:50**
+  («Gruendung Raphael Jans AG (bisher JANS AG): Firmenname und Word-Dateien»), heute **12 Tage**
+  alt; juengster Eingang von notariate-zh.ch bleibt Mathies' Mail vom 22.06., ein
+  Beurkundungstermin ist **nie vorgeschlagen** worden (letzte JANS-Mail dorthin: Terminanfrage
+  21.06.). Solange UBS blockierte, war das folgenlos; ab jetzt ist es der einzige Schritt auf dem
+  kritischen Pfad, den Raphael selbst bewegen kann — und der Notar braucht Vorlauf, um die
+  Urkunde vorzubereiten. Der Entwurf sollte **heute** raus, verbunden mit der Bitte um einen
+  Beurkundungstermin **ab ca. 10.08.**
+  **Register:** der Logbuch-Radar hat um 06:55 bereits ganze Arbeit geleistet — die
+  UBS-Blockadezeile ist auf «erledigt 30.07.» gesetzt, die Fortsetzungszeile (IBAN-Kette,
+  Nachfass-Schwelle 05.08.) neu eroeffnet. Der Monitor hat nicht gedoppelt, sondern die
+  Notariats-Prioritaet als eigene Zeile nachgetragen.
+  **Status-Mail an rj@ gesendet** (echte Phasenaenderung; Inhalt bewusst nicht das
+  Radar-Referat, sondern der eine offene Schritt Notariat + die Terminrechnung).
