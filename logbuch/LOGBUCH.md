@@ -142,9 +142,9 @@ gelaufen, ohne dass es auffaellt. `scripts/methoden-scan.sh` probiert jetzt «00
 wird ausgewiesen. **Fuer Raphael, zwei Punkte ohne Handlungsdruck:** (1) In
 `260729 Antrophic Lecture` liegen in OneDrive noch 24 statt 32 Bildern (es fehlen
 IMG_5462/5464/5466/5471/5472/5478/5481/5485) — kein Wissensverlust, alle 32 sind
-vollstaendig in `wissen/claude-code/raw/` gesichert und das Destillat stuetzt sich darauf;
-offen bleibt nur, ob bewusst aufgeraeumt oder der Sync unvollstaendig war (nicht geraten,
-QUESTIONS 0b). (2) Verifikations-Rotation: Zeile `3 EASY STEPS - the Spec` geprueft, ohne
+vollstaendig in `wissen/claude-code/raw/` gesichert und das Destillat stuetzt sich darauf.
+**Gleichentags von Raphael im Chat geklaert: bewusst aufgeraeumt**, kein Sync-Problem —
+Frage geschlossen, raw-Kopie bleibt als Belegbasis unangetastet. (2) Verifikations-Rotation: Zeile `3 EASY STEPS - the Spec` geprueft, ohne
 Befund — Rule, Skill und KB vorhanden, `spec-training` steht mit dokumentiertem Entscheid
 (26.07.) auf Ereignis-Trigger, Liefer-Beleg vom 29.07. Nichts geloescht, nichts
 wiederhergestellt, keine Mail.

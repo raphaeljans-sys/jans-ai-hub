@@ -29,11 +29,13 @@ Training liefert?) und der Verifikations-Stempel gesetzt.
    auf ein `find`-Muster `* Prompteingaben` zurueck; die verwendete Quelle wird auf stderr
    ausgewiesen. Umbenennungszeitpunkt gemaess mtime: 30.07.2026 09:49.
 2. **Acht Bilder in `260729 Antrophic Lecture` fehlen in OneDrive** (32 → 24): IMG_5462,
-   5464, 5466, 5471, 5472, 5478, 5481, 5485. **Kein Wissensverlust** — alle 32 Slides
-   liegen vollstaendig als Kopie in `wissen/claude-code/raw/` (nachgemessen 30.07.), das
-   Destillat [[lecture-260729-anthropic]] stuetzt sich darauf. Ursache in OneDrive nicht
-   feststellbar (Aufraeumen oder unvollstaendiger Sync) — nicht geraten, als Frage in
-   QUESTIONS.md aufgenommen. Es wurde nichts geloescht und nichts wiederhergestellt.
+   5464, 5466, 5471, 5472, 5478, 5481, 5485. **Geklaert am 30.07.2026 durch Raphael:
+   bewusst aufgeraeumt**, kein Sync-Problem. Kein Wissensverlust — alle 32 Slides liegen
+   vollstaendig als Kopie in `wissen/claude-code/raw/` (nachgemessen 30.07.), worauf sich
+   [[lecture-260729-anthropic]] und [[kontext-architektur]] mit Bildnummern berufen. Die
+   raw-Kopie bleibt darum unangetastet und wird nicht nachgezogen. Der neue Zaehlstand
+   (24) ist im Scan-Stand eingefroren; kuenftige Meldungen zu diesem Ordner betreffen
+   echtes Delta.
 
 ## Register (Stand 30.07.2026)
 

@@ -4,6 +4,16 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-30 23:12 — Kontext-Diaet der Do/Don't-Bloecke (interaktiv, Freigabe Raphael).**
+  In allen sechs Facetten-Artikeln die Do/Don't-Bloecke gestrafft: saemtliche Regel-Klauseln
+  und Nuancen behalten, entfernt wurden datierte Beleg-Parenthesen und Beweis-Erzaehlungen
+  (Schlichtungs-/Fidelity-/Batch-Zitate, Notariats-Beispieldaten) — die vollstaendigen
+  Praezedenzen stehen weiterhin in den Detailsektionen derselben Artikel und in Git. Danach
+  `build_dna.py` neu kompiliert (rules/jans-dna.md 15'720 → 15'090 Zeichen). Verifikation:
+  Diff gegen den letzten Commit-Stand zeigte ausschliesslich die beabsichtigten Entfernungen.
+  Hinweis an kuenftige Trainings-Laeufe: neue Praezedenzen in die Detailsektionen schreiben,
+  Do/Don't nur mit der destillierten Regel ergaenzen (ohne Beleg-Parenthese).
+
 - **2026-07-30 — `twin-fidelity-review` (Fidelity ~76; KERNBEFUND: Facetten-Widerspruch aufgeloest,
   kontaminierter Marker aus dem Gehirn entfernt).** Verfahren nach den drei Empfehlungen 260729:
   Abdeckungs-Check vor Goldwahl (aus dem KB-Wurzelverzeichnis, ohne `2>/dev/null`, mit

@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.07.2026 23:13:50
+Stand: 30.07.2026 23:23:55
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:46)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.07.2026 23:13:50
 - 12 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- ec767e88 nas-selfcommit: 31 Datei(en) 2026-07-30 23:00
+- 7cfcbc69 baurecht: Run 69 zu Run 71 umnummeriert (Kollision mit Run 70), Datumskorrektur 28.07->30.07; NEU Prioritaet (d) Umgebungs-/Gestaltungsrecht + Korpus-Queue Reglemente 2414 Thalwil (T1-T8); Scheduled Task baurecht-buch-training angepasst

@@ -9,10 +9,11 @@ Neueste Eintraege zuoberst.
   sie laut eigener Vorschrift als «Mount fehlt» quittiert und waere ab sofort woechentlich blind
   gelaufen. Script auf eine Kandidatenliste umgestellt («00», dann «03», zuletzt `find`-Muster
   `* Prompteingaben`), verwendete Quelle wird auf stderr ausgewiesen.
-- **[befund, offen als Frage] 8 von 32 Slides fehlen in OneDrive** (`260729 Antrophic Lecture`:
-  IMG_5462/5464/5466/5471/5472/5478/5481/5485). Kein Wissensverlust — alle 32 nachgemessen
-  vollstaendig in `raw/`. Ursache nicht feststellbar, darum als QUESTIONS 0b aufgenommen statt
-  geraten. Nichts geloescht, nichts wiederhergestellt.
+- **[befund, gleichentags geklaert] 8 von 32 Slides fehlen in OneDrive** (`260729 Antrophic
+  Lecture`: IMG_5462/5464/5466/5471/5472/5478/5481/5485). Zunaechst als QUESTIONS 0b aufgenommen
+  statt geraten; **Raphael am 30.07. im Chat: bewusst aufgeraeumt**, kein Sync-Problem → nach
+  «Beantwortet» verschoben. Kein Wissensverlust, alle 32 nachgemessen vollstaendig in `raw/`;
+  die raw-Kopie bleibt als Belegbasis der Destillate unangetastet.
 - **[verifikation, ohne Befund] Rotation Zeile 1 `3 EASY STEPS - the Spec`:** `rules/spec-methode.md`,
   `skills/spec/SKILL.md` und die 5 KB-Artikel existieren; `spec-training` enabled=false ist durch
   Raphaels Entscheid vom 26.07. gedeckt (kein stiller Ausfall); Liefer-Beleg `wissen/spec/CHANGELOG.md`

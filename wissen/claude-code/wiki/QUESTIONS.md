@@ -2,16 +2,7 @@
 
 Luecken und ungeklaerte Fragen. Wird beim Ingestieren neuen Materials abgearbeitet.
 
-## Offen (29.07.2026, ergaenzt 30.07.2026)
-
-0b. **Acht Slides der Anthropic-Lecture sind aus OneDrive verschwunden.** Der Ordner
-   `00 Prompteingaben/260729 Antrophic Lecture` enthaelt am 30.07.2026 noch 24 statt 32
-   Dateien; es fehlen IMG_5462, 5464, 5466, 5471, 5472, 5478, 5481, 5485. Die mtime aller
-   verbliebenen Dateien ist unveraendert (29.07. 01:32). **Kein Wissensverlust**: alle 32
-   Bilder liegen vollstaendig in `wissen/claude-code/raw/`. Zu klaeren bei Gelegenheit mit
-   Raphael: bewusst aufgeraeumt oder unvollstaendiger OneDrive-Sync? Beim zweiten Fall
-   waere die Frage, ob weitere Ordner betroffen sind. Kein Handlungsdruck, da die
-   Arbeitskopie vollstaendig ist — es wurde nichts wiederhergestellt und nichts geloescht.
+## Offen (29.07.2026)
 
 0a. **Quelle der «Methode SPW» nicht identifiziert.** Kanal «bettercreating…» (URL
    abgeschnitten), Referent «Simon» (Nachname unbekannt), Kuerzel SPW nur als Wasserzeichen.
@@ -35,6 +26,16 @@ Luecken und ungeklaerte Fragen. Wird beim Ingestieren neuen Materials abgearbeit
    Nutzen: erst ab der naechsten groesseren Diaet-Runde relevant.
 
 ## Beantwortet
+
+- **Acht fehlende Slides der Anthropic-Lecture** (gestellt 30.07.2026 vom Loop
+  `methoden-radar`, gleichentags beantwortet durch Raphael): **bewusst aufgeraeumt.**
+  Der OneDrive-Ordner `00 Prompteingaben/260729 Antrophic Lecture` enthaelt seither 24
+  statt 32 Bilder (entfernt: IMG_5462, 5464, 5466, 5471, 5472, 5478, 5481, 5485). Kein
+  Sync-Problem, keine weitere Pruefung anderer Ordner noetig. Die vollstaendigen 32
+  Slides bleiben als Belegbasis der Destillate in `wissen/claude-code/raw/` liegen und
+  werden dort NICHT nachgezogen — `raw/` ist der unveraenderliche Quell-Dump (Rule
+  `wissens-bibliothekar`), auf den sich [[lecture-260729-anthropic]] und
+  [[kontext-architektur]] mit Bildnummern berufen.
 
 - **`/install-github-app` (@claude auf Issues/PRs)** (gestellt 29.07., entschieden
   30.07.2026 durch Raphael): **Verzicht, endgueltig.** GitHub bleibt reines Backup ohne
