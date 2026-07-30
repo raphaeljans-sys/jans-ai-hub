@@ -26,10 +26,9 @@
       "mcp__ccd_session__*",
       "Read(//Volumes/daten/**)",
       "Edit(//Volumes/daten/jans-ai-hub/**)",
-      "Write(//Volumes/daten/jans-ai-hub/**)",
       "Read(//Applications/**)",
       "Read(//Users/raphaeljans/Library/CloudStorage/**)",
-      "Write(//Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/**)"
+      "Edit(//Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/**)"
     ],
     "deny": [],
     "additionalDirectories": [

@@ -1,11 +1,41 @@
 # Trainingsprogramm — Lern-Loop der KB Planungsgrundlagen
 
+> ## STATUS: UMGEWIDMET zu MAINTAINER — 30.07.2026 (Entscheid Raphael, vollgas-chef-radar 06:57)
+>
+> **Der Quellen-Turnus ist eingestellt.** Der Aufbau-Loop (grower) hat mit Run 92 sein Ende
+> erreicht: **28 Erschoepfungsbestaetigungen in Folge** — in allen vier PL-Ordnern liegt kein
+> neues Quellmaterial, die Delta-Null-Schwelle 5 war um mehr als das Fuenffache ueberschritten.
+> Der Abschnitt «Takt & Umfang» und die Domaenen-Rotation unten sind damit **historisch** und
+> beschreiben den Aufbau, nicht den laufenden Betrieb.
+>
+> **Was bleibt und warum:** Der Bestand erodiert unabhaengig vom Dateibestand — Endpunkte gehen
+> offline, zitierte URLs sterben, eigener Connector-Code faellt aus dem Tritt. Der letzte
+> Cross-KB-Lauf hat genau davon vier belegte Fehler gefunden (UTC-Datumspraefix, HTTP-204-Diagnose,
+> tote Energie-URL in vier Artikeln, EGID/EGRID-Verwechslung). Darum laeuft der Loop weiter,
+> aber als **MAINTAINER**: schlanker **monatlicher** Endpunkt-, Link- und Connector-Check.
+>
+> **Neuer Takt:** Scheduled Task `planungsgrundlagen-wartung`, monatlich am 1., 04:10.
+> **Neuer Auftrag pro Lauf** (bewusst eng, keine Wissensproduktion):
+> 1. Alle in `wiki/` zitierten Endpunkte und Download-URLs auf Erreichbarkeit pruefen (Statuscode),
+>    tote ersetzen oder als tot markieren.
+> 2. Die eigenen Connectoren (`geo-zh.mjs`, `geo-sz.mjs`, `behoerden-zh.mjs`) mit je einem realen
+>    Beispiel testen; Abweichungen beheben und den Test als Benchmark im Artikel festhalten.
+> 3. Offene E-Aufgaben in `wiki/QUESTIONS.md` sichten, nur Erledigtes abhaken.
+> 4. Report nach `outputs/JJJJ-MM-TT_wartung-NN.md`. **Keine** Trainings-Run-Nummer mehr.
+>
+> **Reaktivierung als grower** nur, wenn Raphael neues Quellmaterial in die PL-Ordner legt — dann
+> greift der `wissens-trigger` (er ueberwacht diese Ordner bereits) und meldet die Aenderung.
+>
+> **Kein gueltiges Ziel fuer die Mac-Mini-Nachtschicht** (Prioritaet 4): diese KB hat mit
+> `planungsgrundlagen-wartung` einen **eigenen aktiven Taktgeber**. Ein Zusatzlauf von dort wuerde
+> diesen Entscheid aushebeln (Belegfall baurecht Run 70, 30.07.2026).
+
 Selbststudium-Loop, der den Harness `planungsgrundlagen` kompoundierend besser macht: aus den
 vier **PL-Grundordnern** (SharePoint) werden laufend bessere Wiki-Artikel und ein staerkerer
 Connector — damit zukuenftige planerische Fragen Top-Resultate liefern. Vorbild: der
 `immobewertung-training`-Loop.
 
-## Takt & Umfang (verbindlich)
+## Takt & Umfang (HISTORISCH — Aufbauphase bis Run 92, siehe Statuskopf)
 
 - **Frequenz:** alle **2 Tage** (Scheduled Task `planungsgrundlagen-training`; sonst manuell
   via Skill `planungsgrundlagen` → "Training").

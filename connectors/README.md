@@ -16,7 +16,7 @@ Pfade relativ zu `/Volumes/daten/jans-ai-hub/`.
 
 | Connector | Zweck | Einstiegs-Flags | Zugang |
 |---|---|---|---|
-| `connectors/hub-setup.mjs` | Kanonisches Hub-Setup (Stationen, IPs, SSH, Mail, Pfade) + Live-Verbindungscheck | `--alles` `--stationen` `--wege` `--check` | keiner |
+| `connectors/hub-setup.mjs` | Kanonisches Hub-Setup (Stationen, IPs, SSH, Mail, Pfade) + Live-Verbindungscheck + Team-Beweis | `--alles` `--stationen` `--wege` `--check` `--team` | keiner |
 | `connectors/zefix.mjs` | Handelsregister CH, Firmen-/Namensprüfung | `--firm` `--available` `--search` `--canton` | Basic-Auth `~/.zefix.env` |
 | `connectors/bexio.mjs` | Debitoren, Offene Posten, Mahnwesen, Kontierung | `--offen` `--verzug` `--mahnen` (ohne `--ja` Trockenlauf) `--buchen` | PAT `~/.bexio.env` |
 | `connectors/claude-usage.mjs` | Auslastung des Claude-Abos ohne Browser | `--alles` `--lokal` `--json` | keiner |

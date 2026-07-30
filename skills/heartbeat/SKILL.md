@@ -128,6 +128,11 @@ und den SSH-Login zur Gegenstation:
 node /Volumes/daten/jans-ai-hub/connectors/hub-setup.mjs --check
 ```
 
+Tiefer Beweis auf Wunsch («arbeitet das System als Team?»): `--team` statt `--check` —
+prueft zusaetzlich Wissensstand (NAS/SSD/Gegenstation auf demselben Commit), letzte
+Commits + Lauf-Journal (getan), laufende Claude-Prozesse (tut) und Queues/Scheduled
+Tasks beider Stationen (machen wird); Exit 0 nur wenn alles synchron.
+
 - ✅ Gegenstation Ping OK, Port 22 offen, `ssh mini` bzw. `ssh macbook` OK
 - ⚠️ MacBook Pro nicht erreichbar → normal, wenn mobil/schlafend; Auftraege via
   `scripts/sync-task-create.sh macbook-pro …` in die NAS-Queue legen

@@ -102,7 +102,7 @@ wissenscheck-monatlich	task	maintainer	Health-Check	aktiv	wissen
 # ---- LOOPS OHNE APP-TASK (Runner/launchd, teils stillgelegt) ----
 grobkosten-training	task	prototyper	Erzeugt neue Kennwerte; groesster Einzelposten im Runner	aktiv	wissen/grobkosten
 energie-training	task	prototyper	Erzeugt neues Wissen; launchd Mac Mini	aktiv	wissen/energie
-planungsgrundlagen-training	task	prototyper	Erzeugt neues Wissen; launchd abgeschaltet 28.07.2026	parkiert	wissen/planungsgrundlagen
+planungsgrundlagen-wartung	task	maintainer	Umgewidmet 30.07.2026 (Entscheid Raphael): Quellen-Turnus nach 28 Erschoepfungsbestaetigungen eingestellt, neu monatlicher Endpunkt-/Link-/Connector-Check	aktiv	wissen/planungsgrundlagen
 normen-training-mini	task	prototyper	Erzeugt neues Wissen; Mac-Mini-Haelfte des Normen-Loops	aktiv	wissen/normen
 synobsis-batch-nacht	task	prototyper	Erzeugt neues Wissen; KB saturiert, stillgelegt	parkiert	wissen/architekten-synobsis
 hub-setup-konnektor	referenz	maintainer	Kanonische Setup-Daten + Verbindungscheck aller Stationen; wird bei Infrastrukturfragen konsultiert	aktiv	connectors/hub-setup.mjs
