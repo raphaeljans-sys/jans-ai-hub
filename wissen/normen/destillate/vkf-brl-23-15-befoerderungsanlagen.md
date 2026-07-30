@@ -7,7 +7,7 @@ gelesen: "S. 1-19 (komplett: Titelblatt, Impressum, Inhaltsverzeichnis, Ziff. 1-
 datenstand: "2015 (in Kraft seit 01.01.2015, Beschluss IVTH 18.09.2014)"
 status: established (verifiziert)
 last_updated: 2026-07-14
-links: [[REGISTER]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brandschutznorm-2015]]
+links: [[REGISTER]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brandschutznorm-2015]], [[bkp-261-aufzuege]]
 ---
 
 # VKF-BRL 23-15 — Beförderungsanlagen (Brandschutzrichtlinie)

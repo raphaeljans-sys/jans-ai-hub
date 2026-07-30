@@ -14,9 +14,13 @@ description: Massgebendes-Terrain- und Attika-Setzungs-Harness fuer Hanglagen un
   zonengemaesse Fassadenhoehe + Attikahoehe + Baumasse-Budget (aus Skill `baurecht`/BZO).
 - **Output:** Hangschnitt-Nachweis (Grafik + Rechnung), ggf. abgetrepptes Volumen
   (OBJ/3dm via volumenstudie-Pipeline), Kennzahlen (anrechenbare Baumasse, Hoehen je Ecke).
-- **Validierter Fall:** 2621 Giebelweg 12, Langnau a.A. (260612) — Flachannahme 1'443 m3
-  → ueber MT mit Abtreppung 1'167 m3 bei voller Attika; Deliverable
-  `12_MBS_Vorlagenstil/260612_Hangschnitt-Nachweis_Giebelweg-12.pdf`.
+- **Validierter Fall:** 2621 Giebelweg 12, Langnau a.A. (Endstand 260613, Nachweis Version 3) —
+  Flachannahme 1'443 m3 → ueber MT mit Abtreppung in drei Stufen (Stufendaecher
+  554.61 / 553.55 / 552.48 m ue.M., Fassadenhoehe 4.5 m an jeder Ecke) und regelkonform
+  gesetzter Attika 128.9 m2: **1'162 m3 anrechenbar, Reserve 105 m3**; Deliverable
+  `12_MBS_Vorlagenstil/260612_Hangschnitt-Nachweis_Giebelweg-12.pdf` (Dateiname 260612,
+  Inhalt Version 3). Der Zwischenstand 260612 Version 2 (1'167 m3 bei voller Attika
+  130.25 m2, Reserve 100 m3) ist ueberholt.
 
 ## Prinzip 1 — MT-Festlegung (pragmatisch, Bauherren-Rezept)
 

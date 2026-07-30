@@ -609,6 +609,14 @@ Systematik, nicht für punktgenaue Zahlen in einem laufenden Bewilligungsverfahr
 Erschliessungsgeometrie in [[recht-norm-tiefgarage-erschliessung]] (VSS-Normen) um die
 brandschutztechnische Seite derselben Bauaufgabe.
 
+> ⚠ **Verweis-Adresse veraltet — Ersatz belegt (Wartungslauf 01, gemessen 2026-07-30).**
+> Der in der Arbeitshilfe von 2003 gedruckte Host **`bsvonline.vkf.ch` ist nicht mehr auflösbar**
+> (weder A- noch AAAA-Record, gegengeprüft über drei unabhängige Resolver: System, 8.8.8.8,
+> 1.1.1.1). Die Brandschutzvorschriften stehen heute unter
+> **`https://www.bsvonline.ch/de`** (HTTP 200, gemessen 2026-07-30) — dieselbe Adresse, die dieser
+> Artikel im Musterplansatz-Abschnitt (§5b–§5f) bereits führt. Das Zitat oben bleibt im
+> historischen Wortlaut stehen; für den Fassungsabgleich ist `bsvonline.ch` zu verwenden.
+
 **Geltungsbereich:** Einstellräume (Parkhäuser, Garagen, Unterstände) **> 150 m²** Grundfläche für
 Motorfahrzeuge (Verbrennungsmotor) sowie E-Fahrzeuge.
 

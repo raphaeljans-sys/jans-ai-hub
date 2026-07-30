@@ -41,7 +41,10 @@ BfS Schweizer Mittel MFH: 3'000–4'000 CHF/m² (BKP 1–5).
 | Holzbau unteres Preissegment | ≈ 4'600 | ≈ 5'000 | ≈ 5'400 |
 | Holzbau oberes Preissegment | ≈ 5'200 | ≈ 6'200 | ≈ 6'700 |
 
-Holzbau liegt rund 10–20 % ueber Massivbau.
+Die Aussage «Holzbau liegt rund 10–20 % über Massivbau» bezieht sich auf die aggregierten Zeilen
+«Massivbau 2023» und «Holzbau 2023» (Median 4'500 gegen 5'400). Die Segmentzeilen darunter weichen
+davon ab: unteres Preissegment 5'000 gegen 4'500 = **+11 %**, oberes Preissegment 6'200 gegen
+4'500 = **+38 %** (richtiggestellt 30.07.2026, Wissens-Chef Run 21).
 
 ## 3b. Ergaenzung 30.07.2026 (GV-Basis, andere Studie): unteres Preissegment ohne Aufpreis
 
@@ -54,9 +57,13 @@ holzbau-erstellungskosten.md`). Auf **CHF/m³ GV** (nicht HNF) und mit Segment-T
 | Holzbau, unteres Preissegment | ≈ 0 % (Parität) |
 | Holzbau, oberes Preissegment | ≈ +13 % |
 
-Bestaetigt die Groessenordnung von Abschnitt 3, verfeinert sie aber: der Holz-Aufpreis gilt
-belegt nur fuer das obere Preissegment, im unteren Preissegment ist Holzbau auf GV-Basis mit
-Massivbau praktisch gleich teuer.
+**Kein bestätigender Quervergleich (richtiggestellt 30.07.2026, Wissens-Chef Run 21).** Die beiden
+Datensätze segmentieren gleich benannt, kommen aber zu verschiedenen Deltas: HNF-Basis (Abschnitt 3)
++11 % im unteren und +38 % im oberen Preissegment, GV-Basis hier ≈ 0 % und ≈ +13 %. Beide ruhen auf
+demselben Preisstand April 2023, die Differenz ist also nicht Teuerung, sondern Bezugsgrösse
+(HNF gegen GV), verschiedene Stichproben und beidseitige Diagramm-Ableseunschärfe. Die Spreizung
+ist ungeklärt; ein gemeinsamer Zuschlag wird daraus NICHT gebildet. Der GV-Zuschlag dieses
+Abschnitts gilt ausschliesslich für die CHF/m³-GV-Kennwerte der KB `wissen/grobkosten`.
 
 ## 4. JANS-Richtwerte (Synthese, Stand 2023, inkl. Teuerung)
 

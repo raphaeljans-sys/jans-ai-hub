@@ -1,3 +1,111 @@
+## 2026-07-30 (Run 39, MacBook Pro) — Abdeckung von `lignum-4-1` gemessen statt geschaetzt (Freigabe Raphael)
+
+- **[verifikation, 2 Befunde] `destillate/lignum-4-1-…-feuerwiderstand.md`, neunte Runde.** Raphael
+  hat die weitere Runde freigegeben, nachdem Run 38 seine eigene Abdeckungsmessung als unzureichend
+  ausgewiesen hatte (OCR fand 34 von real 72 Nummern). Statt erneut zu schaetzen wurde eine
+  **vollstaendige Seiten-Inventur** erstellt: alle 40 A3-Blaetter gerendert, in Halbseiten
+  gesplittet, je gedruckter Seite Kapitel/Tabellen/Abbildungen/Textbloecke aufgenommen, Seitenzahl
+  am Rand ABGELESEN statt aus der Blattnummer berechnet. Fuenf parallele Aufnahme-Agenten mit je
+  eigenem Render-Praefix, Diff durch den Hauptprozess.
+- **[messergebnis] Seiten 2-80 lueckenlos, 184 Einzelelemente, 72 Nummern in der Quelle, 71 im
+  Destillat zitiert, alle 74 Kapitel inhaltlich erfasst — und NULL erfundene Fundstellen.** Der
+  letzte Punkt ist der wichtigste Positiv-Befund: das Destillat erfindet keine Fundstelle. Vierzehn
+  Kapitelnummern fehlen als Nummer, ihr Inhalt aber nicht (die Decken-/Wandsystem-Kataloge sind nach
+  System und Tabelle gefuehrt statt nach Unterkapitel) — andere Gliederung, keine Luecke.
+- **[befund] Die eine Luecke war der Zeiger, nicht der Befund.** Nicht zitiert war Abbildung 435-3
+  (S. 35, Massivholzdecken mit Fugenbreite f > 5 mm) — formal geringfuegig. Die Nachpruefung dieser
+  Seite am Original (eigenes 220-dpi-Rendering) deckte den eigentlichen Fehler auf: das Original
+  nennt dort **vier** Nachweis-Wege, das Destillat fuehrte drei. Es fehlte die **Fugenausbildung
+  gemaess der Lignum-Publikation 4.2 «Anschluesse bei Bauteilen mit Feuerwiderstand» [7]** —
+  ausgerechnet der Weg, fuer den der Hub mit `lignum-4-2-anschluesse-feuerwiderstand.md` bereits ein
+  **established**-Destillat besitzt. Beide korrigiert und ueber `[[…]]` verlinkt.
+- **[neu] `training/l41-seiteninventur.md`** — die Inventur ist als dauerhaftes Arbeitsmittel in der
+  KB abgelegt: Beleg fuer die Abdeckung und Grundlage kuenftiger Runden, die nun diffen statt neu
+  inventarisieren.
+- **[methodik] `training/PROGRAMM.md`: Methodik-Pflicht 6 praezisiert und erweitert.** (a) Bei
+  umfangreichen Publikationen ist die Abdeckung per **Seiten-Inventur** zu messen, nicht per OCR zu
+  schaetzen; ein OCR-Diff ist ausdruecklich als untere Schranke auszuweisen (Beleg: 34 von 72).
+  (b) NEU: **eine fehlende Fundstelle ist ein Zeiger, kein Befund** — jede Luecke wird am Original
+  nachgelesen, nicht bloss eingetragen. Wer nur die Nummernliste abhakt, notiert hier «1 formaler
+  Befund» und uebersieht den fehlenden Nachweis-Weg.
+- **[bewertung] Taktung `lignum-4-1` ist jetzt entscheidbar** (vorher nicht): die Abdeckung ist
+  gemessen und praktisch vollstaendig, die Zellwerte waren Gegenstand der Runden 5-7 ohne Regression.
+  Eine zehnte Routinerunde hat keine erkennbare offene Frage mehr; sinnvoll waere nur noch ein
+  ereignisgetriebener Lauf bei einer neuen Fassung. Raphael vorzulegen, nicht selbst umzustellen.
+
+## 2026-07-30 (Wissens-Chef Run 21, Cross-KB) — Verbindlichkeitsstufe, Fassungspflege SWKI und vier Rueckverweise
+
+- **[korrektur] `destillate/bfu-gelaender-und-bruestungen.md`, Kurzfassung «Das Wichtigste in 3
+  Saetzen»** — der Ausreisser «eine Erhoehungspflicht der Schutzelement-Hoehe bei grossen
+  Absturzhoehen (+10 cm ab rund 12 m, +20 cm bei Hochhaeusern)» hob die Verbindlichkeitsstufe
+  gegenueber der eigenen Quelle an. Neu: «die Anforderung, die Schutzelement-Hoehe bei grossen
+  Absturzhoehen zu erhoehen, neu mit bfu-Richtwerten unterlegt (+10 cm ab mehr als 12 m,
+  mindestens +20 cm bei Hochhaeusern)». Belegt aus dem eigenen Fliesstext (Z. 32, S. 4 v2: die
+  Erhoehung als solche ist Anforderung, die Hochhaus-Regel eine Soll-Vorschrift, nur die
+  Quantifizierung «+10 cm ab mehr als 12 m» eine bfu-Empfehlung) und dem Fassungsvergleich
+  («+10 cm ab bfu-Richtwert 12 m»). Ausdruecklich NICHT angetastet: die 40-cm-Schwelle
+  (SN 640 075 / SN 640 568) und die Lastannahmen-Tabelle (SIA 261 / SN 640 568) — das sind
+  Normanforderungen, keine bfu-Empfehlungen.
+- **[richtigstellung] Eintrag vom 30.07.2026 (Run 38) weiter unten in diesem Changelog** — die
+  dortige Formulierung «neue quantifizierte Erhoehungspflicht der Schutzelement-Hoehe bei grossen
+  Absturzhoehen (+10cm ab ~12m, +20cm bei Hochhaeusern)» traegt denselben Ausreisser. Sie bleibt
+  als Historieneintrag unveraendert stehen und wird hier richtiggestellt: massgeblich ist die
+  obige Fassung («ab mehr als 12 m», Richtwert statt Pflicht).
+- **[korrektur] Merkmal «umfangreiche» wiederhergestellt** — in derselben Datei an zwei Stellen
+  (Kurzfassung und JANS-Praxis-Transfer, Zeile «baurecht») lautete die Bestandesschutz-Aussage
+  «entfaellt bei bewilligungspflichtiger Sanierung». Der Belegsatz des Destillats (Z. 94) sagt
+  «umfangreiche, baubewilligungspflichtige Sanierungsarbeiten»; ohne das tragende Merkmal wird
+  aus einer Faustregel eine ueberschiessende Rechtsaussage. Zusaetzlich an beiden Stellen die
+  Einordnung ergaenzt, dass es sich um eine bfu-Fachpublikation (Beratung/Empfehlung) handelt,
+  die fuer sich allein nicht rechtsverbindlich ist.
+- **[veraltetes] `destillate/din-1946-4-2008.md`: SWKI 99-3 ist seit 1.8.2015 abgeloest** — der
+  quellentreue Satz «Die Norm nennt selbst als verwandte Referenz SWKI 99-3 (Literaturhinweise,
+  S. 66)» bleibt stehen (eine Norm von 2008 kann keine Richtlinie von 2015 zitieren); ergaenzt
+  wurde ein **Fassungs-Nachtrag**: SWKI 99-3:2003 inkl. Beiblatt 2004 ist per 1.8.2015 durch
+  SWKI **VA105-01:2015** «Raumlufttechnische Anlagen in medizinisch genutzten Raeumen» abgeloest.
+  Nur die Gegenwarts-Empfehlung («SWKI 99-3 als primaere Quelle pruefen/destillieren») wurde auf
+  VA105-01 umgestellt. Beleg: Titelblatt/Vorwort VA105-01 (genehmigt 02.07.2015, in Kraft
+  01.08.2015), zweitbelegt H+ eFlash 2015-09, im Hub greifbar ueber
+  `wissen/energie/destillate/reinraum-op-klimatisierung-gesundheitsbau-ch.md`. Wortlaut-Vorbehalt:
+  belegt ist «abgeloest/ersetzt», NICHT «zurueckgezogen».
+- **[fassungspflege] Frontmatter derselben Datei** — `ersetzt_durch: ""` gefuellt mit
+  «DIN 1946-4:2018 (im Hub nicht destilliert, belegt ueber
+  wissen/energie/destillate/reinraum-op-klimatisierung-gesundheitsbau-ch.md)».
+- **[konsistenz] `destillate/qa/din-1946-4-2008-fragen.md`** — Frage 20 trug «Fuer Schweizer
+  Spitalprojekte ist SWKI 99-3 die primaer anzuwendende Norm» plus «Abgleich Destillat:
+  deckungsgleich». Antwort und Abgleich bleiben als Protokoll stehen, darunter steht neu ein
+  datierter Fassungs-Nachtrag mit demselben Inhalt wie im Destillat — sonst haette der naechste
+  Lauf einen selbstgemachten Widerspruch gefunden.
+- **[luecke] `wiki/QUESTIONS.md`, neuer Abschnitt zuoberst** — (1) die CH-Pendant-Luecke aus den
+  Run-3-/Run-5-Eintraegen vom 13.07.2026 auf den wirklich offenen Gegenstand umgestellt: nicht
+  «SWKI 99-3 fehlt», sondern «VA105-01-Volltext (Kap. 3-6, Zahlenwerte) nicht im Bestand,
+  Kaufentscheid offen». Die alten Eintraege bleiben als Historie unveraendert. (2) Die Uebergabe
+  der KB `planungsgrundlagen` angemeldet: sie fuehrt die Tiefgaragen-Geometrie bisher aus der
+  abgeloesten Ausgabe SN 640 291a (2005) inkl. der abgeschafften Komfortstufen A/B/C; gebraucht
+  wird ein Delta-Abgleich 2005 → 2021 gegen `vss-40291-2021-parkieren-anordnung-geometrie.md`.
+- **[bestand] `wiki/REGISTER.md`, Abschnitt D)** — Bestandseintrag zum einzigen im Haus liegenden
+  SWKI-Dokument (`SWKI VA 103-1 Lueftungsanlagen fuer Parkhaeuser`, P2, noch nicht destilliert),
+  am `training/norm-inventar.md` selbst verifiziert. **Ohne Gueltigkeitsaussage**, mit dem Vermerk,
+  dass VA105-01 nicht im Bestand liegt und der SWKI-Scope offener Strukturentscheid ist. Eine
+  Register-Zeile zu VA105-01 wurde bewusst NICHT gesetzt (Register-Praeambel «nichts erfunden»).
+- **[querverlinkung] vier Rueckverweise gesetzt, die die Gegenseite nicht setzen kann:**
+  `destillate/vkf-brl-23-15-befoerderungsanlagen.md` `links` um `[[bkp-261-aufzuege]]` ergaenzt
+  (Vorbild `sia-500-2009.md`); `destillate/vss-40291-2021-parkieren-anordnung-geometrie.md` `links`
+  um `[[fahrzeugabstellplaetze-und-parkierung]]` ergaenzt;
+  `destillate/lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md` und
+  `destillate/lignum-4-2-anschluesse-feuerwiderstand.md` je um eine Abnehmer-Zeile **bauprodukte**
+  im Praxis-Transfer erweitert (mit Statushinweis 4.2 established / 4.1 speculative) und der
+  Zielpfad des bestehenden grobkosten-Abnehmerblocks auf `wissen/grobkosten/wiki/kennwerte.md`
+  praezisiert. In `lignum-lignatec-brandschutz.md` wurde bewusst KEIN Abnehmer-Zeiger gesetzt —
+  die Publikation ist als VERALTET gefuehrt (Stand 2005 / VKF 2003).
+- Geaenderte Dateien: `destillate/bfu-gelaender-und-bruestungen.md`,
+  `destillate/din-1946-4-2008.md`, `destillate/qa/din-1946-4-2008-fragen.md`,
+  `destillate/vkf-brl-23-15-befoerderungsanlagen.md`,
+  `destillate/vss-40291-2021-parkieren-anordnung-geometrie.md`,
+  `destillate/lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md`,
+  `destillate/lignum-4-2-anschluesse-feuerwiderstand.md`, `wiki/QUESTIONS.md`,
+  `wiki/REGISTER.md`, `CHANGELOG.md`.
+
 ## 2026-07-30 (Run 38, Nachtrag) — Neues Destillat bfu-Fachdokumentation 2.034 «Sicherheit im Wohnungsbau»
 - **[luecke geschlossen] `destillate/bfu-sicherheit-im-wohnungsbau.md`** — die neunte Datei des
   BfU-Ordners (`PL - 02_Recht_Norm/06_Richtlinien/BfU/bfu_Sicherheit im Wohnungsbau.pdf`, 42 S.,

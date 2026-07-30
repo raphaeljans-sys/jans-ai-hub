@@ -1,5 +1,46 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-07-30 (Wissens-Chef Run 21, Cross-KB) — Kabinenmass korrigiert, Normverweise nachgetragen, drei neue offene Punkte
+- **[Widerspruch korrigiert, LV-relevant] `wiki/bkp-261-aufzuege.md`:** Die aus dem Schachtmass
+  1500 × 1500 mm **abgeleitete** Kabinenbreite 1250 mm ist gestrichen. Das Winner-Datenblatt
+  enthaelt gar kein Kabinenmass; belegt ist allein die AS-Masskizze «Swisslift» mit Kabinenbreite
+  1050 mm (beide Tuervarianten) und Kabinentiefe 1085 mm (Standard) bzw. 1460 mm (Option Tuerfront
+  ueber die ganze Schachtbreite). Ob Winner und Swisslift dieselbe Kabine haben, bleibt ausdruecklich
+  ungeklaert.
+- **[Folgekorrektur] Der SIA-500-Abgleich kippt damit:** vorher «uebertrifft rechnerisch beide Masse
+  der Standard-Kategorie (1.25 > 1.10 m Breite, 1.46 > 1.40 m Tiefe)», neu: 1.05 m Breite verfehlt die
+  Standard-Kategorie 1.10 × 1.40 m in **jeder** Variante; die Kategorie «bedingt zulaessig»
+  1.00 × 1.25 m ist **nur in der Options-Variante** erfuellt (1.05/1.46), in der Standardvariante
+  (1.05/1.085) nicht. Fassungs-Vorbehalt SN 521500/C4:2019 bleibt stehen. Die frueher formulierte
+  Ratlosigkeit («nicht ableitbar, warum AS die schwaechere Kategorie vergibt») wird **nicht** fuer
+  aufgeloest erklaert, sondern praezisiert und als offene Frage gefuehrt.
+- **[Querverlinkung nachgetragen] `wiki/bkp-261-aufzuege.md`:** Frontmatter `links` um
+  [[vkf-brl-23-15-befoerderungsanlagen]] und [[sia-370-028-2003]] ergaenzt; im Abschnitt
+  «Schnittstellen zu Nachbargewerken» ein Verweis-Satz auf die fuehrende KB `normen` **ohne
+  Kennwerte** (die VKF-Anforderungen an Schacht, Tueren, Kabine und Brandfallsteuerung sind bedingt
+  formuliert und werden hier nicht fortgeschrieben, Rule `normen-referenz`); in der herstellerneutralen
+  LV-Musterzeile nur ein Pruefhinweis (Brandfallsteuerung nach Ziff. 3.7 projektbezogen abklaeren),
+  keine generelle Bedingung. [[sia-370-080-2003]] bewusst NICHT verlinkt (betrifft die Nachruestung
+  bestehender Anlagen, kein Bestandsbezug im Artikel).
+- **[Cross-KB-Verweis nachgetragen] `wiki/terrazzo-kunststein-bodenbelaege.md`:** Frontmatter `links`
+  um `[[../../normen/destillate/sia-244-2006]]` und `[[../../normen/destillate/bfu-bodenbelaege]]`
+  ergaenzt (relative Form wie in `dachbegruenung-systeme.md`, sonst toter Link). Neuer datierter
+  Abschnitt «Normative Grundlage Gleitfestigkeit»: fuehrend ist **SIA 244:2006 Ziff. 6.7
+  «Gleitfestigkeit»**, die bfu-Publikationen sind nur Auslegungshilfe (im Streitfall gilt die Norm).
+  LV-Musterzeile um die Gleitfestigkeitsklasse als Pflichtangabe erweitert, als Fundstellen-Verweis
+  mit Platzhaltern statt kopierter Zahlenwerte.
+- **[QUESTIONS aktualisiert] `wiki/QUESTIONS.md`:** Punkt 8 auf «teilweise geschlossen 30.07.2026»
+  umgeschrieben, mit **zwei** verbleibenden offenen Punkten (produktbezogene Klasse fuer geschliffenen
+  Terrazzo/Kunststein **und** Reinigungs-/Pflegeverhalten). Neu aufgenommen: Punkt 9 (kein Artikel zu
+  BKP 214.1/214.3 Montagebau in Holz sowie 271.1 Trockenbau und 225.4 Brandschutzbekleidungen,
+  Normgrundlage in den Lignum-Destillaten vorhanden, `lignum-lignatec-brandschutz.md` ausdruecklich
+  NICHT heranziehen), Punkt 10 (Teilrevision 2017 der VKF-BRL 23-15 auf Aufzugsrelevanz pruefen),
+  Punkt 11 (AS-Kabinenbreite 1050 mm beim Hersteller verifizieren).
+- **Geaenderte Dateien:** `wiki/bkp-261-aufzuege.md`, `wiki/terrazzo-kunststein-bodenbelaege.md`,
+  `wiki/QUESTIONS.md`, `CHANGELOG.md`.
+- **Nicht angefasst:** `raw/` (Rule `wissens-bibliothekar`), die Gegenrichtung in `wissen/normen/`
+  (setzt ein anderer Agent), sowie alle Dateien ausserhalb dieser KB.
+
 ## 2026-07-30 13:30 — Nachtschicht (Versuchs-Slot): AS-Aufzuege-Masskizze destilliert (BKP 261)
 - **[destilliert, Artikel ergaenzt]** `wiki/bkp-261-aufzuege.md` erweitert um die Schachtbemassung
   aus `260 Transportanlagen/Lift/AS/100426_AS_Aufzuege_Masskizze.pdf` (gescannte technische

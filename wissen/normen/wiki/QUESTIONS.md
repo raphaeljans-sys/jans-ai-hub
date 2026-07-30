@@ -1,5 +1,85 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
+## Run 39 (MacBook Pro, 30.07.2026) — Abdeckung von `lignum-4-1` gemessen statt geschätzt
+
+**Auftrag.** Raphael hat am 30.07. die weitere Runde freigegeben, nachdem Run 38 seine eigene
+Abdeckungsmessung als unzureichend ausgewiesen hatte (OCR fand 34 von real 72 Nummern).
+
+**Was gemacht wurde.** Statt erneut zu schätzen, eine **vollständige Seiten-Inventur**: alle 40
+A3-Blätter gerendert, in Halbseiten gesplittet, je gedruckter Seite Kapitel, Tabellen, Abbildungen
+und eigenständige Textblöcke aufgenommen, Seitenzahl am Rand abgelesen. Fünf parallele
+Aufnahme-Agenten mit eigenen Render-Präfixen, Diff durch den Hauptprozess.
+
+| Kennzahl | Wert |
+|---|---|
+| erfasste Seiten | 2 bis 80, **lückenlos** |
+| Einzelelemente | 184 |
+| Nummern in der Quelle | 72 |
+| davon zitiert | **71** |
+| Kapitel ohne inhaltliche Entsprechung | **0** von 74 |
+| erfundene Fundstellen | **0** |
+
+**Die eine Lücke war der Zeiger, nicht der Befund.** Nicht zitiert war Abbildung 435-3 (S. 35) —
+formal geringfügig. Beim Nachlesen dieser Seite am Original zeigte sich, dass das Destillat dort
+auch **einen von vier Nachweis-Wegen** verloren hatte: die Fugenausbildung gemäss der
+Lignum-Publikation 4.2 «Anschlüsse bei Bauteilen mit Feuerwiderstand» [7] — ausgerechnet der Weg,
+für den der Hub bereits ein `established`-Destillat besitzt. Beide korrigiert und verlinkt. Als
+Methodik-Pflicht 6 verankert: **eine fehlende Fundstelle ist ein Zeiger, kein Befund.**
+
+### Offen / vorzulegen
+
+1. **Taktung `lignum-4-1` — jetzt entscheidbar, vorher nicht.** Die Abdeckung ist gemessen und
+   praktisch vollständig; die Zellwerte waren Gegenstand der Runden 5-7 (ohne Regression). Eine
+   zehnte Routinerunde hat damit keine erkennbare offene Frage mehr zu beantworten. Sinnvoll wäre
+   nur noch ein **ereignisgetriebener** Lauf, wenn eine neue Fassung der Publikation ins Haus
+   kommt. Vorzulegen, nicht selbst umzustellen.
+2. **`lignum-lignatec` bleibt offen** — dort ist die neunte Runde fällig (Axonometrien S. 16-23 und
+   Tabelle 2 sind noch nie rechnerisch aufgenommen worden), und der Aktualitäts-Vorbehalt gegen die
+   VKF-Generation 2015 ist durch keine Verifikationsrunde lösbar.
+3. **Die Seiten-Inventur ist ein wiederverwendbares Muster.** Sie liegt als
+   `training/l41-seiteninventur.md` in der KB. Für jede weitere umfangreiche Publikation, deren
+   Abdeckung belegt werden soll, ist derselbe Weg zu gehen — der OCR-Diff genügt nachweislich nicht.
+
+
+## 2026-07-30 (Wissens-Chef Run 21, Cross-KB) — zwei Lücken neu gefasst
+
+Die älteren Einträge weiter unten bleiben als Historie unverändert stehen; dieser Abschnitt
+stellt sie richtig und ersetzt sie als aktuellen Stand.
+
+1. **CH-Pendant zu DIN 1946-4 — Gegenstand korrigiert: nicht SWKI 99-3, sondern VA105-01.**
+   Die Einträge «Neue CH-Pendant-Lücke: **SWKI 99-3** … fehlt als Schweizer Pendant zu
+   DIN 1946-4» (Abschnitt Mac Mini Run 3, 13.07.2026) und «fehlende CH-Pendants (SIA 500/
+   SWKI 99-3/SIA 260er) für den SIA/VKF-Loop» (Abschnitt Run 5, 13.07.2026) benennen einen
+   überholten Gegenstand: SWKI 99-3:2003 inkl. Beiblatt 2004 ist seit dem 1.8.2015 durch die
+   SWKI-Richtlinie **VA105-01:2015** «Raumlufttechnische Anlagen in medizinisch genutzten
+   Räumen» abgelöst. Beleg: Titelblatt/Vorwort VA105-01 (Erstausgabe, genehmigt 02.07.2015,
+   in Kraft seit 01.08.2015, ersetzt SWKI 99-3:2003 + Beiblatt 2004), zweitbelegt durch
+   H+ eFlash 2015-09; im Hub greifbar über
+   `wissen/energie/destillate/reinraum-op-klimatisierung-gesundheitsbau-ch.md`. Belegt ist
+   «abgelöst/ersetzt», **nicht** ein förmlicher Rückzug.
+   **Wirklich offen ist damit nur noch:** der **Volltext von VA105-01 (Kap. 3-6 mit den
+   Zahlenwerten) liegt nicht im Bestand** — Sachstand, Geltungsbereich und Struktur sind in
+   `wissen/energie` destilliert, die kostenpflichtigen Kernkapitel nicht; der Kaufentscheid
+   liegt bei Raphael und ist offen. Eine Register-Zeile zu VA105-01 wird bewusst **nicht**
+   gesetzt (Register-Präambel «nichts erfunden»: keine Ausgabe-/Gültigkeitsaussage ohne
+   eigene Primärquelle im Haus; zum SWKI-Scope siehe den offenen Strukturentscheid
+   PL-02-Reichweite, Befund 3 weiter unten).
+   Nachgezogen im selben Zug: `destillate/din-1946-4-2008.md` (Fassungs-Nachtrag, Frontmatter
+   `ersetzt_durch`) und `destillate/qa/din-1946-4-2008-fragen.md` (Nachtrag zu Frage 20).
+
+2. **Übergabe von `planungsgrundlagen`: Tiefgaragen-Geometrie steht dort auf der abgelösten
+   Ausgabe.** `wissen/planungsgrundlagen/wiki/recht-norm-tiefgarage-erschliessung.md` führt
+   die Geometrie der Parkierungsanlage (§ 2, Komfortstufen A/B/C, Rampenneigung, Fahrgassen-
+   breiten) aus **SN 640 291a (2005)** und hat diesen Stand am 24./25.07.2026 sogar weiter
+   ausgebaut. In dieser KB gilt seit dem 14.07.2026 die Nachfolgeausgabe: `destillate/
+   vss-640291a-2005-parkieren-anordnung-geometrie.md` ist als «HISTORISCH/ERSETZT» geführt,
+   massgebend ist `destillate/vss-40291-2021-parkieren-anordnung-geometrie.md`
+   (VSS 40 291:2021-12, Volltextabgleich 32/32 S.), die keine Komfortstufen mehr kennt.
+   **Gebraucht wird ein Delta-Abgleich 2005 → 2021** je Kennwert (u. a. Rampenneigung,
+   Fahrgassenbreite Gegenverkehr, Parkfeldmasse), damit `planungsgrundlagen` den planerischen
+   Kontext auf der geltenden Ausgabe führen kann. Hier angemeldet, weil die Übergabe in die
+   **Empfänger-KB** gehört und nicht nur beim Absender notiert werden darf.
+
 ## Run 38 (MacBook Pro, 30.07.2026) — Vorrang-Auftrag erfüllt, Quelle aber NICHT ausgereizt
 
 **Auftrag.** Raphael hatte am 29.07. entschieden, für `lignum-lignatec-brandschutz` eine achte

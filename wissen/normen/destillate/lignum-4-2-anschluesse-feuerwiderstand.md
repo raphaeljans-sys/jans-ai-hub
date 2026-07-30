@@ -497,11 +497,19 @@ Plattenränder.
   Mindestrohdichten/-festigkeitsklassen (C24, GL24k, ρk-Werte) sowie die Brandschutz-
   bekleidungs-Tabelle 522-1 (Estrich-/Betondicken für K30-RF1/K60-RF1) liefern belastbare
   Kennwerte für Konstruktionsaufbauten, die in Grobkosten-Kennwerten (BKP 214/271) berück-
-  sichtigt werden sollten, wenn Feuerwiderstandsklassen vorgegeben sind.
+  sichtigt werden sollten, wenn Feuerwiderstandsklassen vorgegeben sind. Zielort der
+  Übergabe ist `wissen/grobkosten/wiki/kennwerte.md` (dort werden die CHF-Kennwerte
+  geführt, nicht hier).
 - **normen**: Verweist konsequent auf SIA 262/263/265/265-1 und SN EN 1995-1-2 (Eurocode 5,
   Brandfall) für rechnerische Nachweise — bei konkreten Bemessungsfragen ist die jeweilige
   SIA-Norm zusätzlich zu konsultieren und ggf. separat zu destillieren (noch nicht in dieser
   KB vorhanden, siehe Offene Punkte).
+- **bauprodukte**: führt das Produkt-/Systemwissen nach BKP (Bauteilaufbauten,
+  Hersteller-/Systemtypen, Bemusterung; `wissen/koordination/QUERBEZUEGE.md` Z. 29). Ein
+  künftiger Holzbau-/Bekleidungsartikel dort zieht Feuerwiderstandsklassen und Mindestmasse
+  von hier und schreibt sie nicht materiell fort (Rule `normen-referenz`). Statushinweis:
+  4.2 established, 4.1 speculative (Run 38 beanstandet) — Zellwerte vor LV-Verwendung am
+  Original prüfen.
 
 ## Offene Punkte
 

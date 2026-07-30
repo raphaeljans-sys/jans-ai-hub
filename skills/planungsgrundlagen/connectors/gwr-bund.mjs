@@ -49,6 +49,7 @@
 
 import { writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
+import { willHilfe, hilfeAusKopf } from "./_hilfe.mjs";
 
 const UA = "jans-ai-hub-gwr/1.0 (rj@raphaeljans.ch)";
 const LAYER = "ch.bfs.gebaeude_wohnungs_register";
@@ -343,6 +344,7 @@ function steckbrief(s) {
 
 // --- Main ----------------------------------------------------------------------
 (async () => {
+  if (willHilfe(process.argv)) { hilfeAusKopf(import.meta.url); return; }
   const a = parseArgs(process.argv);
   const L = log(a.quiet);
   try {

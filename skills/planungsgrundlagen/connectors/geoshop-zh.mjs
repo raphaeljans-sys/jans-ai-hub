@@ -46,6 +46,7 @@
 import { writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { execFileSync } from "node:child_process";
+import { willHilfe, hilfeAusKopf } from "./_hilfe.mjs";
 
 const API = "https://geoservices.zh.ch/geoshopapi/v1";
 const UA = "jans-ai-hub-geoshopzh/1.0 (rj@raphaeljans.ch)";
@@ -164,6 +165,7 @@ async function downloadOrder(orderId) {
 
 // --- Main ------------------------------------------------------------------------
 (async () => {
+  if (willHilfe(process.argv)) { hilfeAusKopf(import.meta.url); return; }
   const a = parseArgs(process.argv);
   const L = log(a.quiet);
   const result = { ok: false, orderId: null, produkt: null, format: null, perimeter: null, files: [] };

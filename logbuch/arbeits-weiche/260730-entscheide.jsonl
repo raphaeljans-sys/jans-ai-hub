@@ -4,3 +4,4 @@
 {"ts":"2026-07-30T10:43:15+0200","name":"e2e-test","station_eingabe":"mini","ziel":"mini","modus":"ausfuehren","mini_gb":"11.0","mini_druck":"1","macbook_gb":"4.0","macbook_druck":"1","grund":"mini-frei (11.0 GB, Druck 1)"}
 {"ts":"2026-07-30T10:43:40+0200","name":"e2e-test2","station_eingabe":"mini","ziel":"mini","modus":"ausfuehren","mini_gb":"10.8","mini_druck":"1","macbook_gb":"3.9","macbook_druck":"1","grund":"mini-frei (10.8 GB, Druck 1)"}
 {"ts":"2026-07-30T11:14:12+0200","name":"testlauf","station_eingabe":"macbook","ziel":"mini","modus":"trocken","mini_gb":"10.2","mini_druck":"1","macbook_gb":"3.9","macbook_druck":"1","grund":"mini-frei (10.2 GB, Druck 1)"}
+{"ts":"2026-07-30T23:39:49+0200","name":"sprechender-name","station_eingabe":"macbook","ziel":"mini","modus":"ausfuehren","mini_gb":"9.4","mini_druck":"1","macbook_gb":"3.8","macbook_druck":"2","grund":"mini-frei (9.4 GB, Druck 1)"}

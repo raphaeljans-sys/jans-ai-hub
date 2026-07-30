@@ -148,11 +148,19 @@ Fernkälte ist über dieses Netz nicht beziehbar.
   sich eine direkte Anfrage bei der Gemeinde (Kontakt unten) mit der konkreten Frage, ob das
   2013er-Dokument noch existiert und ob es durch die Energieträgerkarte 2025 formell abgelöst
   wurde.
-- Der Begleitbericht nennt keine Fundstelle zu einer allfälligen kommunalen
+- ~~Der Begleitbericht nennt keine Fundstelle zu einer allfälligen kommunalen
   Anschlusszwangs-Bestimmung in der Bau- und Zonenordnung (BZO) Freienbach; das wäre bei
   Bedarf separat über den Skill `baurecht`/die BZO Freienbach zu prüfen (bisher keine Aussage
   im vorliegenden Dokument, dass ein Anschlusszwang existiert — Abwesenheit einer Aussage ist
-  kein Beleg für deren Nichtexistenz auf Zonenordnungsebene).
+  kein Beleg für deren Nichtexistenz auf Zonenordnungsebene).~~
+  **ERLEDIGT (Wissens-Chef Run 21, 30.07.2026):** Die Zonenordnungsebene ist im Bestand bereits
+  belegt geprüft. `[[sz-vollzugspraxis-afu-wegleitungen-rechenzentren]]` (Run 118, 28.07.2026)
+  hat das vollständige Baureglement Freienbach (Publikationsexemplar 2022, 3049 Zeilen) gelesen;
+  die Stichwortsuche nach «Anschlusspflicht» und «Fernwärme» (zusammen mit «Abwärme»,
+  «Grossverbraucher», «Rechenzentrum», «Wärmenetz») ergab **keinen einzigen Treffer** im
+  gesamten Baureglement. Damit besteht auf kommunaler Erlassebene keine Anschlusszwangs-
+  Bestimmung; die Abwesenheit einer Aussage im Begleitbericht ist nicht mehr die einzige
+  Grundlage.
 - Die genauen maximalen Bohrtiefen für Erdwärmesonden sind gebietsscharf nicht in diesem
   Bericht enthalten (nur die Faustregel «meist bis 180 m unproblematisch»); für ein konkretes
   Bauvorhaben ist eine Einzelanfrage beim Amt für Umwelt und Energie des Kantons Schwyz nötig.

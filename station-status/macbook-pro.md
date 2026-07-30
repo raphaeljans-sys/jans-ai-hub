@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.07.2026 23:25:07
+Stand: 30.07.2026 23:35:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:15)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:30)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.07.2026 23:25:07
 - 12 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 7cfcbc69 baurecht: Run 69 zu Run 71 umnummeriert (Kollision mit Run 70), Datumskorrektur 28.07->30.07; NEU Prioritaet (d) Umgebungs-/Gestaltungsrecht + Korpus-Queue Reglemente 2414 Thalwil (T1-T8); Scheduled Task baurecht-buch-training angepasst
+- c1084300 grobkosten: bauenmitholz.info geprueft (Negativbefund), offener Verifikationspunkt geschlossen; Logbuch nachgefuehrt

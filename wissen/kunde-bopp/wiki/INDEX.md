@@ -21,7 +21,11 @@ Siehe [[QUESTIONS]]:
 - Projekt-Detailartikel: Romanshorn Hafenstrasse 46 (STWEG Schlossberg)
 - Projekt-Detailartikel: Baar Zugerstrasse 49 (TDD Hochhaus, 06/2025) — Ausgang noch offen,
   Recherche 24.07.2026 an nicht materialisierten OneDrive-Cloud-Platzhaltern gescheitert
-  (EDEADLK), braucht Lauf mit lokal verfuegbaren Dateien oder manuelles Nachziehen
+  (EDEADLK), braucht Lauf mit lokal verfuegbaren Dateien oder manuelles Nachziehen.
+  **Querverweis 30.07.2026:** Teilaspekt «Referenzfall fuer Skill `ankaufspruefung`» ist erledigt —
+  `skills/ankaufspruefung/SKILL.md`, Abschnitt «JANS-Goldstandard-Methodik (Beleg: reale TDD 2513
+  BAAR, Zugerstrasse 49)», Zeilen 78-109, bestehend seit 03.06.2026. Offen bleiben: (a) Projekt-
+  Detailartikel im Wiki, (b) Ausgang der Ankaufsentscheidung Nova/Baar.
 - Artikel `auftrags-muster-bopp` und `zusammenarbeit-lessons-bopp` ausformulieren
 
 ## Statistik (Stand 2026-07-24)

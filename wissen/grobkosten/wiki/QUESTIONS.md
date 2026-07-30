@@ -2,6 +2,62 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-07-30c (Wissens-Chef Run 21, Cross-KB) — Bring-Schuld aus `normen`: Brandschutz-Kennwerte sind nie in einen BKP-214/271-Kennwert übersetzt worden
+
+**Offen.** Bring-Schuld aus `normen` Run 30–33 (Nachtrag Run 38). Zwei der Lignum-Destillate in
+der führenden Norm-KB tragen einen ausdrücklichen Abnehmer-Auftrag an diese KB
+(`wissen/normen/destillate/lignum-4-2-anschluesse-feuerwiderstand.md`, Zeilen 496–500, zu den
+Tabellen 340-1 und 522-1; `.../lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md`,
+Zeilen 852–855, «relevant für die Grobkostenlogik BKP 214/271»). Angekommen ist davon bisher
+nichts: bis zu diesem Lauf enthielt weder `wiki/kennwerte.md` noch sonst eine Wiki-Datei dieser
+KB einen Verweis auf `normen`.
+
+- **Offen bleibt:** Die Tabellen 340-1 (Baustoffe) und 522-1 (Brandschutzbekleidungen) sind noch
+  nicht in einen Kosten-Kennwert nach BKP 214/271 übersetzt. Solange das fehlt, ist der
+  Holzbau-Zuschlag bei brandschutztechnisch erhöhten Anforderungen nur eine untere Näherung
+  (Vermerk «Anwendungsgrenze (Datenlage)» in `wiki/kennwerte.md`, gesetzt in diesem Lauf).
+- **Führung, nicht materiell fortschreiben:** Ob eine RF1-/Kapselungsanforderung im konkreten
+  Fall besteht, führen die Lignum-Destillate ausdrücklich NICHT selbst
+  (`lignum-4-2-...md`, Zeilen 492–495); massgebend sind die VKF-Brandschutzvorschriften 2015
+  bzw. die Arbeitshilfen. Diese KB zieht solche Anforderungen, sie formuliert sie nicht
+  (Rule `normen-referenz`).
+- **Gegenrichtung noch offen:** In den Abnehmer-Blöcken beider Lignum-Destillate steht nur der
+  Gattungsname «kostenschaetzung / grobkosten», kein Zielpfad. Die Präzisierung auf
+  `wissen/grobkosten/wiki/kennwerte.md` gehört in die abgebende KB `normen` und ist in diesem
+  Lauf nicht erfolgt (anderer Zuständigkeitsbereich).
+
+## 2026-07-30b (Wissens-Chef Run 21) — Korrektur: der Konsistenz-Check des Holzbau-Zuschlags war ungedeckt
+
+**Korrektur zum Eintrag «2026-07-30 — Bring-Schuld aus Run 20 eingelöst» weiter unten (bleibt als
+Beweisstand unverändert stehen).** Der dort und in `wiki/kennwerte.md` geführte Konsistenz-Beleg
+«Deckt sich grössenordnungsmässig mit dem bereits geführten HNF-Spread (+10–20 %), verfeinert ihn
+um die Segment-Differenzierung» ist nicht gedeckt.
+
+- **Der Zuschlag selbst bleibt.** Er ist sauber belegt und datiert (Wüest Partner/Lignum/BAFU,
+  25.09.2025, Diagramm-Ablesung 300 dpi, normalisiert auf 01.04.2025). Falsch war allein die
+  Behauptung, die HNF-Quelle kenne keine Segment-Differenzierung und stehe nicht im Widerspruch.
+- **Tatsächlicher Befund:** Das HNF-Referenzblatt
+  `skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md`,
+  Abschnitt 3, segmentiert gleich benannt und war zum Zeitpunkt der Kalibrierung bereits so
+  vorhanden (belegt seit mindestens 25.07.2026, git 7b4c0777). Gerechnet: unteres Segment
+  5'000 gegen Massivbau 4'500 = +11 %, oberes 6'200 gegen 4'500 = +38 % CHF/m² HNF, gegen die
+  hier geführten ≈ 0 % und ≈ +13 % auf GV-Basis.
+- **Nicht Teuerung:** Beide Datensätze ruhen auf demselben Preisstand April 2023. Die Spreizung
+  erklärt sich aus Bezugsgrösse (HNF gegen GV), verschiedenen Stichproben und beidseitiger
+  Diagramm-Ableseunschärfe. Sie bleibt **ungeklärt**; ein gemeinsamer Zuschlag wird nicht
+  gebildet.
+- **Belastbar bleibt allein der zweite Check:** Massivbau-Median ≈995 CHF/m³ GV innerhalb des
+  eigenen MFH-gehoben-Seed-Bands 850–1'050.
+- **Bekannte Fehlstelle im Destillat vom 30.07.2026:** In
+  `raw/2025-wueest-lignum-massiv-vs-holzbau-erstellungskosten.md` steht die gleichlautende
+  Fehlaussage «das untere Preissegment (≈Parität) ist in der HNF-Quelle nicht abgebildet — neue
+  Differenzierung, kein Widerspruch». Sie wird dort **bewusst nicht korrigiert** (`raw/` wird nie
+  editiert, Rule `wissens-bibliothekar`) und ist hiermit als bekannte Fehlstelle des Destillats
+  festgehalten. Massgeblich ist der korrigierte Stand in `wiki/kennwerte.md`.
+- **Korrigiert in diesem Lauf:** `wiki/kennwerte.md` (Konsistenz-Absatz),
+  `skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md`
+  (Zusammenfassung Abschnitt 3 und Schlussabsatz 3b), `CHANGELOG.md` (Richtigstellung).
+
 ## 2026-07-30 (Nachtschicht) — `bauenmitholz.info` geprüft: Negativbefund, ca.-Werte bleiben Stand
 
 **Erledigt, Nullbefund:** Der im selben Tag weiter unten offen gelassene Verifikationspunkt

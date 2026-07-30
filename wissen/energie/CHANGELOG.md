@@ -2,6 +2,49 @@
 
 Neueste zuoberst.
 
+## 2026-07-30 (Wissens-Chef Run 21, Cross-KB) — Rabtherm-Kennzahlenband entmischt, Freienbach-Register korrigiert
+- **[widerspruch] Rabtherm-Destillat: JAZ und COP waren zu einem Band «COP 4,0 bis 7,0» verrechnet
+  und falsch im Kanton Zürich verortet.** Im Bauherren-Transfer von
+  `destillate/rabtherm-abwasserwaerme-jaz-projekte.md` stand «Schätzung über die im Kanton Zürich
+  beobachtete Bandbreite realer Vergleichswerte (COP 4,0 bis 7,0 über fünf verschiedene, real
+  benannte Schweizer Anlagen)». Neu werden die vier Werte einzeln und mit ihrer jeweiligen
+  Kennzahlenart ausgewiesen: Arbeitszahl 4,4 (Zwingen BL, Raumheizung) und Arbeitszahl «gegen 7»
+  (Basel-Allschwil, sommerlastig, laut Quelle nicht auf eine ganzjährige Heizperioden-JAZ
+  übertragbar) gegenüber den Herstellerwerten COP ca. 4,0 (Wintower Winterthur ZH, Auslegungs-/
+  Bemessungspunkt) und COP 5,7 (Lausanne VD, Betriebswert nach dem ersten Vollbetriebsjahr, nicht
+  als JAZ deklariert). Festgehalten ist neu: es sind **vier** Anlagen (nicht fünf), nur der Wintower
+  liegt in ZH, und COP und Arbeitszahl sind nach `[[cop-scop-jaz-waermepumpe-gruenenwald]]`
+  verschiedene Grössen, die nicht zu einem Band verrechnet werden dürfen. Der SEPEMO-Vorbehalt
+  bleibt erhalten.
+- **[korrekturvermerk] Lauf-Report Run 119** (`outputs/2026-07-29_energie-run119.md`) trägt am Kopf
+  einen datierten Korrekturvermerk zur falschen Zusammenfassung «Band 4,0-7,0 über fünf benannte
+  Anlagen» (richtig: vier Anlagen, gemischte Kennzahlen, drei belegte Kantone ZH/VD/BL, Zuordnung
+  Basel-Allschwil in der Quelle unentschieden BL/BS). Der Fliesstext des Protokolls bleibt
+  unverändert, weil datierte Protokolle nicht rückwirkend geglättet werden.
+- **[veraltetes] Registereintrag Freienbach in `destillate/INDEX.md`:** unmögliches Datum
+  «10.01.2026» (Publikation ein Jahr vor Erstellung) auf **10.01.2025** korrigiert, belegt im
+  Destillat selbst (Frontmatter `ausgabe` und Body). Der Vermerk «ergänzt
+  waermeplanung-kommunal-zh-sz» meldete eine Verdichtung als vollzogen, die nie stattfand; er lautet
+  neu «Verdichtung offen, Vorschlag im Destillat (Abschnitt «Bezug zum Wiki»); Zielartikel im wiki/
+  existiert noch nicht».
+- **[offener punkt geschlossen]** Im Freienbach-Destillat
+  (`destillate/energierichtplan-freienbach-econcept.md`) ist der offene Punkt zur BZO-/
+  Zonenordnungsebene erledigt: `[[sz-vollzugspraxis-afu-wegleitungen-rechenzentren]]` (Run 118,
+  28.07.2026) hat das vollständige Baureglement Freienbach 2022 gelesen, Stichwortsuche nach
+  «Anschlusspflicht»/«Fernwärme» ohne einen einzigen Treffer.
+- **[teilweise erledigt]** In `destillate/waermeplanung-kommunal-zh-sz.md` sind die zwei offenen
+  Punkte zu Schwyz (kein zentrales Geoportal; Stand «EK-EE-4») für Freienbach als teilweise erledigt
+  gekennzeichnet, im dort bereits praktizierten Muster: eigene Energieträgerkarte seit 27.05.2025,
+  PDF-Publikation statt GIS-Portal; übrige Gemeinden bleiben offen.
+- **[luecke angemeldet]** Neuer Punkt **E-R21-1** in `wiki/QUESTIONS.md`: der Wiki-Themenartikel
+  «Kommunale Wärmeplanung ZH/SZ» fehlt (Slug existiert nur unter `destillate/`), zu verdichten aus
+  vier vorhandenen Destillaten. Bewusst **nicht** in diesem Lauf angelegt — das ist Aufgabe des
+  energie-Loops.
+- Geändert: `destillate/rabtherm-abwasserwaerme-jaz-projekte.md`, `destillate/INDEX.md`,
+  `destillate/energierichtplan-freienbach-econcept.md`,
+  `destillate/waermeplanung-kommunal-zh-sz.md`, `wiki/QUESTIONS.md`,
+  `outputs/2026-07-29_energie-run119.md`.
+
 ## 2026-07-29 (Nachlauf Run 20, Freigabe Raphael) — vier ueberholte Saetze entfernt, Korrekturkaesten selbsttragend
 - **[Entscheid B2]** Nach Freigabe entfernt: im Seewasser-Destillat die zwei Fassungen des offenen
   Punkts zur Konzessions-Rechtsgrundlage («exakte WsG-Paragraphennummer nicht zitiert gefunden»,

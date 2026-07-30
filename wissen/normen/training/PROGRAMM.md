@@ -146,6 +146,21 @@ verallgemeinert), und einer, der eine ganze Ebene der Quelle sichtbar macht: **d
 führen drei verschiedene Legenden, und dieselbe Farbe bedeutet in Tab. 3/4 etwas anderes als in
 Tab. 5.** Das Destillat kannte nur die Tab.-5-Legende.
 
+### Ergebnis der neunten Runde (Run 39, 30.07.2026) — Abdeckung von `lignum-4-1` gemessen
+
+Raphael hat die weitere Runde freigegeben; sie ist gefahren. Die vollständige Seiten-Inventur
+(Seiten 2-80 lückenlos, 184 Elemente, 5 parallele Aufnahme-Agenten) hat ergeben: **72 Nummern in
+der Quelle, 71 im Destillat zitiert, alle 74 Kapitel inhaltlich erfasst, null erfundene
+Fundstellen.** Die eine Lücke (Abb. 435-3) führte beim Nachlesen zu einem zweiten, schwereren
+Befund — ein fehlender Nachweis-Weg, siehe Methodik-Pflicht 6. Beide korrigiert.
+
+**Bewertung für die Taktung von `lignum-4-1`:** Die Abdeckung ist damit belastbar gemessen und
+praktisch vollständig. Was **nicht** gemessen wurde, ist die Richtigkeit jeder einzelnen Zelle der
+Katalogtabellen — das waren die Runden 5-7 (dort ohne Regression). Eine zehnte Routinerunde hat
+damit keine erkennbare offene Frage mehr zu beantworten; sinnvoll wäre nur noch ein
+ereignisgetriebener Lauf, wenn eine neue Fassung der Publikation ins Haus kommt. Vorzulegen, nicht
+selbst umzustellen.
+
 **Damit ist die Endbedingung des Vorrang-Auftrags NICHT erfüllt.** Die Quelle ist nicht ausgereizt;
 die Umstellung dieses Tasks auf Ereignis-Trigger wird ausdrücklich **nicht** vorgeschlagen. Fällig
 ist eine neunte Runde, und für sie gilt dieselbe Regel wie bisher: sie muss eine Prüfmethode auf
@@ -166,10 +181,20 @@ praktikable Verfahren:
   Klassierung gegen die am Original gemessenen Legenden-Swatches) und Zelle für Zelle gegen das
   Destillat halten — auch dort, wo das Destillat nichts behauptet. Die Legende jeder Tabelle
   **einzeln** am Original messen; Legenden gelten nicht tabellenübergreifend.
-- **Bei umfangreichen Publikationen:** die Quelle rendern, per OCR alle Tabellen-/Abbildungsnummern
-  extrahieren und gegen die im Destillat zitierten Nummern diffen. Jede nicht zitierte Nummer am
-  Original nachschlagen. Die OCR-Ausbeute ist dabei als **untere Schranke** auszuweisen, nie als
-  Vollständigkeitsnachweis.
+- **Bei umfangreichen Publikationen: Seiten-Inventur, nicht OCR-Schätzung.** Die Quelle rendern,
+  in Halbseiten splitten und je gedruckter Seite aufnehmen, welche Kapitel, Tabellen, Abbildungen
+  und eigenständigen Textblöcke dort stehen; die Seitenzahl am Rand **ablesen**, nicht aus der
+  Blattnummer berechnen. Erst dieser Bestand wird gegen das Destillat gediffed. Die Inventur wird
+  als Datei in `training/` abgelegt — sie ist der Beleg für die Abdeckung und macht jede spätere
+  Runde billig (Muster: `training/l41-seiteninventur.md`).
+  **Ein OCR-Diff genügt dafür nicht:** bei Lignum 4.1 fand die OCR 34 von real 72 Nummern, weil
+  dichte Katalogtabellen maschinell schlecht lesbar sind. Wer OCR verwendet, muss die Ausbeute
+  ausdrücklich als **untere Schranke** ausweisen und darf sie nie als Vollständigkeitsnachweis führen.
+- **Eine fehlende Fundstelle ist ein Zeiger, kein Befund.** Jede Lücke der Inventur wird am Original
+  **nachgelesen**, nicht bloss eingetragen. Belegt in Run 39: die einzige Abdeckungslücke von
+  Lignum 4.1 war eine nicht zitierte Abbildung — formal also geringfügig. Beim Nachlesen der Seite
+  zeigte sich, dass dort auch einer von vier Nachweis-Wegen fehlte. Wer nur die Nummernliste
+  abhakt, notiert «1 formaler Befund» und geht weiter.
 
 ## Leitplanken (Qualität)
 

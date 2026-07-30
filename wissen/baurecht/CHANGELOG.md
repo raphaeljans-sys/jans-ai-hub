@@ -3,6 +3,60 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-30 (Wissens-Chef Run 21, Cross-KB) — überholter «Kostenpflicht»-Status bei VSS 40 291 geschlossen, Parkierung querverlinkt, Absturzsicherung angemeldet
+- **[veraltetes] `wiki/fahrzeugabstellplaetze-und-parkierung.md`:** Die Aussage, die
+  Rampenneigungs-Kennwerte der VSS 40 291 blieben «**needs-verification wegen Kostenpflicht**» und
+  der Normtext sei vor einer Projektierung käuflich zu beziehen, war seit ihrer Eintragung
+  (Buch-Run 33, 13.07.2026) überholt: die Ausgabe **VSS 40 291:2021** liegt im JANS-Normenbestand
+  (`PL - 02_Recht_Norm/02_Normen/VSS_Norm/VSS 40 291 Parkieren 2021.pdf`) und ist in der führenden
+  KB `normen` vollständig destilliert und dreifach verifiziert
+  (`wissen/normen/destillate/vss-40291-2021-parkieren-anordnung-geometrie`, S. 1-32 gelesen, Stand
+  260714). Ersetzt durch den **Verweis auf die führende Fundstelle** — bewusst **ohne Wertkopie**
+  der Kennwerte in `baurecht` (Norm-Kennwerte und Fassungsstände führt `normen`, Führungsmatrix
+  `koordination/QUERBEZUEGE.md`). Die inhaltlich korrekte ParkingSwiss-Bestätigung der
+  Normbezeichnung bleibt unverändert stehen.
+- **[offen belassen]** Zwei Punkte ausdrücklich **nicht** als erledigt erklärt: die maximale
+  **LÄNGS**neigung von Parkfeldern (im Destillat nicht enthalten, die Norm regelt in Ziff. 18 nur
+  das Quergefälle) und das **SIA-500-Korrigendum C3** (1.10.2013) — anderer Sachverhalt, in diesem
+  Lauf nicht geklärt.
+- **[frontmatter]** `quellen` um das normen-Destillat ergänzt, `verifiziert` um einen Eintrag
+  2026-07-30 (Wissens-Chef Run 21) nachgeführt; `last_updated` stand bereits auf 2026-07-30.
+- **[querverlinkung] `wiki/fahrzeugabstellplaetze-und-parkierung.md` (Schluss):** «Siehe auch»-Block
+  um den Verweis auf die **führende** Geometrie-Fundstelle in `normen` und ergänzend auf den
+  planerischen Kontext `wissen/planungsgrundlagen/wiki/recht-norm-tiefgarage-erschliessung.md`
+  erweitert; die Rollenteilung ausdrücklich benannt (dieser Artikel führt nur Anzahl und
+  rechtliche Erfüllungspflicht).
+- **[abgrenzung]** Der UG-Platz-Wert **35-47 kFr.** ist neu ausdrücklich als
+  **Verhältnismässigkeits-Schwelle der Rechtsprechung** zu § 244 Abs. 3 PBG gekennzeichnet und vom
+  Grobkosten-Kennwert in `wissen/grobkosten/wiki/kennwerte.md` **abgegrenzt** (andere Grösse,
+  andere BKP-Abgrenzung, andere Herkunft) — bewusst **kein** «Abgleich» der beiden Zahlen.
+- **[register] `wiki/QUESTIONS.md`:** Neuer datierter Kopfeintrag zur Erledigung. Die sieben
+  Status-Stellen in den datierten Log-Abschnitten (Runs 29/33/41/43/44/46) sind mit der
+  hauseigenen `~~…~~ → erledigt`-Konvention **nachgeführt statt umgeschrieben**; beim
+  Rücktaktungs-Vorschlag für den Loop `baurecht-buch-training` (Buch-Run 46) steht neu ein
+  **Korrekturvermerk**, weil eine seiner drei Begründungen weggefallen ist. Über die Taktung
+  entscheidet Raphael, der Vorschlag wurde weder erneuert noch zurückgezogen.
+- **[querverlinkung] `wiki/ausnahmebewilligung-und-bestandesschutz.md`:** Beim Abschnitt zu
+  **§ 357 Abs. 4 PBG** (Verbesserungen verlangbar) neu der Verweis auf die Stadt-Zürcher
+  15-%-Anpassungsschwelle für Absturzsicherungen (Richtlinie «Absturzsicherungen im Hochbau»,
+  1.6.2019), ausdrücklich mit dem Vorbehalt «ausserhalb der Stadt Zürich nicht ohne weiteres
+  übertragbar» — **keine kantonale Geltungsaussage**. Anknüpfungspunkt ist bewusst Abs. 4
+  (Zumutbarkeit/Verbesserung), nicht die «keine feste Quote»-Aussage zu Abs. 1 und nicht die
+  JANS-Anwendungsliste; die Richtlinie stützt sich selbst auf § 239 Abs. 1, § 357 Abs. 4, § 358 PBG
+  und § 20 BBV I.
+- **[frage] `wiki/QUESTIONS.md`:** Offene Frage «Absturzsicherung im Bestand» angelegt — Verhältnis
+  § 357 PBG (kein numerischer Schwellenwert) zur kommunalen 15-%-Schwelle und zur bfu-Aussage,
+  letztere **mit dem tragenden Merkmal «umfangreiche»** baubewilligungspflichtige Sanierungsarbeiten
+  im Zitat und ohne kantonale Geltungsbehauptung.
+- **[frage] `wiki/QUESTIONS.md`:** Zweite offene Frage angelegt (Zusatzbefund, am Bestand
+  nachgeprüft): `baurecht` führt die Geländer-/Brüstungsmasse aus **SIA 358, Ausgabe 1996**
+  (`buecher/band-2/17-gebaeude-und-raeume-teil2-ausruestungen.md` Z. 111-115/187-189), während
+  `normen` im REGISTER (Z. 484) **SIA 358:2010** als geltend und 1996 als ersetzt führt; die Masse
+  divergieren (Regel-Mindesthöhe 90 cm gegen 100 cm; Öffnungsweite 90 mm gegen Kugelprobe 12 cm).
+  **Keine Zahl geändert** — nur die Frage angemeldet, führend ist `normen`.
+- **Geänderte Dateien:** `wiki/fahrzeugabstellplaetze-und-parkierung.md`,
+  `wiki/ausnahmebewilligung-und-bestandesschutz.md`, `wiki/QUESTIONS.md`, `CHANGELOG.md`.
+
 ## 2026-07-30 (Buch-Run 70, Festigungsmodus) — Verdichtungs-Drift in [[fahrzeugabstellplaetze-und-parkierung]] korrigiert
 - **Modell-D-Wortlautabgleich** §§ 242-248 PBG (`raw/260607_amtlich_zh_pbg.md`, Fassungsstand
   weiterhin Nachtrag 133) gegen den Wiki-Artikel `wiki/fahrzeugabstellplaetze-und-parkierung.md`

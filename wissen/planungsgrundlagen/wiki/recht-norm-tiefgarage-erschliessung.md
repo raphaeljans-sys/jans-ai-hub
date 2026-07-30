@@ -1,10 +1,10 @@
 ---
 title: Tiefgarage/Parkierung — Erschliessungsgeometrie (VSS-Normen)
 status: established
-last_updated: 2026-07-25 (Run 66)
+last_updated: 2026-07-30 (Wissens-Chef Run 21: Fassungs-Vorbehalt SN 640 291a:2005 → VSS 40 291:2021, Querbezug zu `normen` gesetzt; Inhalt Abschnitt 2 unveraendert, Stand Run 66 vom 2026-07-25)
 sources: [
   "VSS SN 640 050 «Grundstückzufahrten» (genehmigt Mai 1993, gültig, PL-02/Tiefgarage/1 VSS-Norm)",
-  "VSS SN 640 291a «Parkieren — Anordnung und Geometrie der Parkierungsanlagen» (genehmigt Dez. 2005, gültig ab 1.2.2006, ersetzt SN 640 291+292 von 1982, PL-02/Tiefgarage/1 VSS-Norm)",
+  "VSS SN 640 291a «Parkieren — Anordnung und Geometrie der Parkierungsanlagen» (genehmigt Dez. 2005, gültig ab 1.2.2006, ersetzt SN 640 291+292 von 1982, PL-02/Tiefgarage/1 VSS-Norm) — FASSUNGS-VORBEHALT (Wissens-Chef Run 21, 2026-07-30): ABGELÖSTE AUSGABE. Laut der führenden KB `normen` (Destillat `vss-640291a-2005-parkieren-anordnung-geometrie`, Frontmatter-Status «established, aber HISTORISCH/ERSETZT — nicht mehr für aktuelle Projekte verwenden», Stand 14.07.2026) ist diese Ausgabe über VSS 40 291a:2019-03 durch VSS 40 291:2021-12 ersetzt; die Komfortstufen A/B/C sind entfallen. Alle in Abschnitt 2 tabellierten Werte stammen aus SN 640 291a:2005. Für laufende Projekte gilt die Ausgabe 2021, destilliert in `wissen/normen/destillate/vss-40291-2021-parkieren-anordnung-geometrie.md`",
   "VSS SN 640 281 «Parkieren — Angebot an Parkfeldern für Personenwagen» (genehmigt Dez. 2005, gültig ab 1.2.2006, PL-02/Tiefgarage/1 VSS-Norm) — nur Bedarfsermittlung, nicht Geometrie",
   "VSS SN 640 065 «Parkieren — Bedarfsermittlung und Standortwahl von Veloparkierungsanlagen» (Ausgabe 2011-08, ersetzt SN 640 065:1996, PL-02/Tiefgarage/1 VSS-Norm)",
   "VSS SN 640 066 «Parkieren — Projektierung von Veloparkierungsanlagen» (PL-02/Tiefgarage/1 VSS-Norm, Tab. 2-5 Geometrie/Abstellsystemtypen)",
@@ -15,7 +15,8 @@ sources: [
   "Coop Genossenschaft, «Warenannahme in Verkaufsstellen — Vorgaben/Richtlinien für die Bauplanung» (Stand 10.02.2009, PL-02/Tiefgarage/2 Planungshilfen Anlieferung + 03_Arbeitshilfen/Speziale Bauteile planen) — Retail-interne Richtlinie, kein amtlicher Erlass",
   "SWKI VA103-01:2017 «Lüftungsanlagen für Parkhäuser (Mittel- und Grossgaragen)», genehmigt SWKI-Vorstand 25.11.2016, in Kraft 01.04.2017, ersetzt SWKI 96-1:1997 (PL-02/06_Richtlinien/SWKI, Run 64+66, vollständig 110 S. gelesen)"
 ]
-links: [[recht-norm-quellenlandkarte]], [[kartenportale-grundlagen-checkliste-neue-parzelle]], [[brandschutz-pl03-wegweiser]], [[machbarkeit]]
+links: [[recht-norm-quellenlandkarte]], [[kartenportale-grundlagen-checkliste-neue-parzelle]], [[brandschutz-pl03-wegweiser]], [[machbarkeit]]; KB-übergreifend als Pfadverweis (kein Wikilink, da ausserhalb dieser KB): `wissen/normen/destillate/vss-40291-2021-parkieren-anordnung-geometrie.md` (geltende Ausgabe, führend), `wissen/normen/destillate/vss-640291a-2005-parkieren-anordnung-geometrie.md` (abgelöste Ausgabe, auf der Abschnitt 2 dieses Artikels beruht), `wissen/baurecht/wiki/fahrzeugabstellplaetze-und-parkierung.md` (führt die rechtlich verbindliche Zahl der Abstellplätze: § 242 PBG i.V.m. kommunalem Erlass, nicht die VSS-Norm)
+querbezug_kb_normen: "Norm-Fundstellen (Ziffer/Ausgabe/Kennwert) der VSS-Normen sind gemäss Führungs-Matrix in der KB `normen` führend: `wissen/normen/destillate/vss-40291-2021-parkieren-anordnung-geometrie.md` (geltende Ausgabe), `wissen/normen/destillate/vss-640291a-2005-parkieren-anordnung-geometrie.md` (abgelöste Ausgabe), `vss-640050-1993`, `vss-640281-2006` + `wissen/normen/wiki/REGISTER`. Dieser Artikel liefert den PLANERISCHEN Kontext (Beschaffung, Verfahren, Anwendung), nicht die Fundstelle. Übergaben an normen laufen über `wissen/normen/wiki/QUESTIONS.md` — nicht nur als Notiz hier ablegen (Lehre aus Run 8, hier bestätigt durch Wissens-Chef Run 21: der Fassungsstand 2021 lag seit 14.07.2026 in `normen` und erreichte diesen Artikel elf Tage lang nicht)."
 ---
 
 # Tiefgarage/Parkierung — Erschliessungsgeometrie (VSS-Normen)
@@ -50,6 +51,19 @@ Befestigung auf mind. 5 m Tiefe ab Strassenrand (Verschmutzungsschutz), Entwäss
 die Strasse abfliessen.
 
 ## 2. Geometrie der Parkierungsanlage (VSS 640 291a) — die zentrale Norm
+
+> **FASSUNGS-VORBEHALT (Wissens-Chef Run 21, 2026-07-30) — vor jeder Projektanwendung lesen.**
+> Sämtliche in diesem Abschnitt 2 tabellierten Werte stammen aus **SN 640 291a:2005**. Diese
+> Ausgabe ist laut der führenden KB `normen` (Destillat
+> `vss-640291a-2005-parkieren-anordnung-geometrie`, Frontmatter-Status «established, aber
+> HISTORISCH/ERSETZT — nicht mehr für aktuelle Projekte verwenden», Stand 14.07.2026) über
+> **VSS 40 291a:2019-03** durch **VSS 40 291:2021-12** ersetzt; die **Komfortstufen A/B/C sind
+> entfallen**, die geltende Ausgabe setzt einen einheitlichen Wertesatz. Für laufende Projekte
+> gilt die Ausgabe 2021, destilliert in
+> `wissen/normen/destillate/vss-40291-2021-parkieren-anordnung-geometrie.md` — dort stehen die
+> heute massgebenden Werte und Fundstellen. Die Werte unten bleiben als Grundlage für die
+> **Beurteilung von Bestandesanlagen aus der Zeit 2006-2019** stehen; die materielle Umstellung
+> des Abschnitts auf die Ausgabe 2021 ist offen (→ `wiki/QUESTIONS.md`, R74).
 
 Gilt für Parkierungsanlagen für Personenwagen und Lieferwagen bis 3.5 t, öffentlich wie privat.
 Definiert **drei Komfortstufen A/B/C** (A = grosszügig, C = minimal/eng) — die gewählte Stufe
@@ -442,9 +456,16 @@ verzeichnis inkl. SWKI 96-1 (abgelöst), VDI 2053 (deutsches Pendant), BAFU-Beri
 
 ## Offene Punkte
 
-- Kommunale Parkplatzverordnungen (Stadt ZH, weitere Gemeinden) mit eigenen
-  Grundanforderungen/Kennzahlen — bisher nicht kartiert; bei konkretem Projekt gegen
-  kommunales Recht prüfen (Vorrang vor VSS 640 281).
+- ~~Kommunale Parkplatzverordnungen (Stadt ZH, weitere Gemeinden) mit eigenen
+  Grundanforderungen/Kennzahlen — bisher nicht kartiert.~~ **Erledigt (Wissens-Chef Run 21,
+  2026-07-30):** kartiert und geführt von der KB `baurecht` in
+  `wissen/baurecht/wiki/fahrzeugabstellplaetze-und-parkierung.md` (Parkplatzverordnung PPV Stadt
+  Zürich, Wegleitung der Baudirektion 1997). Dort steht auch die rechtlich verbindliche Zahl der
+  Abstellplätze (§ 242 PBG i.V.m. dem kommunalen Erlass), die dem Empfehlungswert der VSS 640 281
+  vorgeht. Dieser Artikel führt nur die Geometrie, nicht die Anzahl.
+- **Materielle Umstellung des Abschnitts 2 auf VSS 40 291:2021** — offen. Der Fassungs-Vorbehalt
+  am Kopf von Abschnitt 2 macht den Bestand gefahrlos, ersetzt die Werte aber nicht. Der
+  Delta-Abgleich 2005 → 2021 gehört in die führende KB `normen` (→ `wiki/QUESTIONS.md`, R74).
 - Im Ordner `1 VSS-Norm` liegen zusätzlich vor, aber (mangels JANS-Praxisrelevanz) noch nicht
   gelesen: **VSS 640 578** «Berechnung der Immissionen» (Lärm aus Parkierungsanlagen, 36 S.) und
   **722.15 Verkehrssicherheitsverordnung** (8 S.) — bei einem konkreten Lärmschutz-Fall

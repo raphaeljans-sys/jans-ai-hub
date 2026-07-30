@@ -301,6 +301,25 @@ Offene Punkte, die der Trainings-Loop (alle 2 Tage) abarbeitet. Erledigtes mit �
   → [[kartenportale-geoportale-uebersicht]] (Offen A5).
 
 ## B — Recht & Norm
+- [ ] **R74 (Wissens-Chef Run 21, 2026-07-30) — Abschnitt 2 von
+  [[recht-norm-tiefgarage-erschliessung]] materiell auf VSS 40 291:2021 umstellen.** Der ganze
+  Abschnitt (Parkfeld-/Fahrgassenmasse, lichte Höhe, Rampenneigung, Kurvenverbreiterung,
+  Kontrolleinrichtungen) schreibt die Werte der **abgelösten** Ausgabe SN 640 291a:2005 samt der
+  abgeschafften Komfortstufen A/B/C materiell fort. Die geltende Ausgabe **VSS 40 291:2021-12**
+  liegt seit 14.07.2026 als Destillat in der führenden KB `normen`
+  (`destillate/vss-40291-2021-parkieren-anordnung-geometrie.md`); das Destillat der Altausgabe
+  trägt dort ausdrücklich «HISTORISCH/ERSETZT — nicht mehr für aktuelle Projekte verwenden».
+  **Heute erledigt ist nur der Fassungs-Vorbehalt** (Kopf Abschnitt 2, `sources`-Block,
+  `querbezug_kb_normen`, INDEX-Zeile) — der Bestand ist damit gefahrlos, aber nicht aktuell.
+  **Offen bleibt der Delta-Abgleich 2005 → 2021**, der laut Führungs-Matrix in `normen` gehört
+  (Norm-Fundstellen inkl. Ausgabe/Kennwert → führend `normen`), nicht hier. Bekannte, bereits
+  belegte Deltas: Rampenneigung 12/15 % je Stufe gegen einheitlich 15 % ungedeckt / 18 % gedeckt;
+  Fahrgasse Einbahn 3.00 m gegen 3.20 m, Gegenverkehr 5.00 m gegen 5.50 m; Geltungsbereich 2005
+  «Personenwagen und Lieferwagen bis 3.5 t» gegen 2021 «Personenwagen und Motorräder»; entfallene
+  Flächenäquivalenz «3 Schrägparkfelder = 2 Behindertenparkfelder» und neue Reduktionsoption
+  2.50 m bei mind. 1.00 m BAS. **Nicht selbst umschreiben** — die Werte kommen aus `normen`, die
+  Übergabe dorthin ist anzumelden (Rule `normen-referenz`, Muster
+  [[brandschutz-pl03-wegweiser]]).
 - [x] **R73 (Run 90, 2026-07-26, Token-Vollgas)** Frischecheck `PL - 02_Recht_Norm` +
   `PL - 03 Brandschutz` gegen Run 88 (`find -newer`): 0 neue/veraenderte Dateien. Vierzehnte
   unabhängige Erschöpfungs-Bestätigung für dieses Domänenpaar, vierundzwanzigste in Folge

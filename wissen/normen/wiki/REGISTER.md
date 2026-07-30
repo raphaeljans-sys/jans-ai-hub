@@ -361,6 +361,14 @@ Altverträge mit Vermerk. Im `training/norm-inventar.md` in der Bemerkung markie
   inkl. Änderungen 2016/2017). Aktuellere BSV (Revision) nur auf Zuruf beschaffen — offene Frage.
 - **DIN / VSS / RAL:** deutsche/schweiz. Regelwerke ohne SIA-Rückzugsregister; Gültigkeit je
   Dokument beim Destillieren aus dem Deckblatt erfassen. DIN-PDFs ggf. FileOpen-DRM (dann «DRM, manuell»).
+- **SWKI (Schweizerischer Verein von Gebäudetechnik-Ingenieuren):** im Haus liegt genau **ein**
+  SWKI-Dokument, `PL - 02_Recht_Norm/06_Richtlinien/SWKI/SWKI VA 103-1 Lüftungsanlagen für
+  Parkhäuser.pdf` (Priorität P2, **noch nicht destilliert**; Beleg `training/norm-inventar.md`,
+  Abschnitt `06_Richtlinien/SWKI`). Reiner **Bestandseintrag ohne Gültigkeitsaussage** — Ausgabe
+  und Stand sind nicht am Original erfasst. Weitere SWKI-Richtlinien (u. a. **VA105-01:2015**,
+  Nachfolgerin von SWKI 99-3:2003, siehe `QUESTIONS.md` Abschnitt 2026-07-30) liegen **nicht** im
+  Bestand und werden hier deshalb nicht geführt. Ob SWKI überhaupt in den Scope dieser KB gehört,
+  ist offener Strukturentscheid (PL-02-Reichweite, `QUESTIONS.md` Befund 3).
 - **bfu (Beratungsstelle für Unfallverhütung, Bern):** Fachbroschüren/Fachdokumentationen mit
   eigener Publikationsnummer im Schema `<Nr> – <MM.JJJJ>` im Impressum; kein Rückzugsregister,
   die Fassung steht am Dokument. Aufgenommen Run 38 (30.07.2026) aus

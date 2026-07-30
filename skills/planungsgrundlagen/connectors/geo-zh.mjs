@@ -75,6 +75,7 @@
 
 import { writeFileSync, mkdirSync, existsSync } from "node:fs";
 import { join } from "node:path";
+import { willHilfe, hilfeAusKopf } from "./_hilfe.mjs";
 
 const UA = "jans-ai-hub-geozh/1.0 (rj@raphaeljans.ch)";
 
@@ -554,6 +555,7 @@ function isoDate() {
 
 // --- Main ----------------------------------------------------------------------
 (async () => {
+  if (willHilfe(process.argv)) { hilfeAusKopf(import.meta.url); return; }
   const a = parseArgs(process.argv);
   const L = log(a.quiet);
   const result = { ok: false, egrid: null, parzelle: null, bfs: null, gemeinde: null, kanton: null, coord: null, oereb: null, produkte: {}, files: [] };

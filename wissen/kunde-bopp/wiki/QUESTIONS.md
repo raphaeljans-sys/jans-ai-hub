@@ -12,6 +12,10 @@
   (deckt sich mit `feedback_background_agent_onedrive_stall`). Braucht entweder eine Session,
   in der die Dateien vorher lokal geoeffnet/heruntergeladen wurden, oder Raphael zieht den
   Ordner einmal manuell nach — dann neu versuchen.
+  **Querverweis 30.07.2026:** Teilaspekt «Referenzfall fuer Skill `ankaufspruefung`» ist erledigt —
+  `skills/ankaufspruefung/SKILL.md`, Abschnitt «JANS-Goldstandard-Methodik (Beleg: reale TDD 2513
+  BAAR, Zugerstrasse 49)», Zeilen 78-109, bestehend seit 03.06.2026. Offen bleiben: (a) Projekt-
+  Detailartikel im Wiki, (b) Ausgang der Ankaufsentscheidung Nova/Baar.
 
 ## Offene Faktenfragen
 - Standard-Rechnungsadresse / Korrespondenzweg je Rolle (woma vs. nova vs. privat vs. Feag).

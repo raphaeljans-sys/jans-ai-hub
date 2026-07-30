@@ -1,5 +1,16 @@
 # Projektstand Giebelweg 12, 8135 Langnau a/A — Stand 24.07.2026
 
+> **Korrekturnotiz 30.07.2026 (Wissens-Chef Run 21, Cross-KB).** Der Abschnitt «Ergebnis
+> Machbarkeitsstudie (Juni 2026)» unten gibt einen überholten Zwischenstand wieder und bleibt als
+> historischer Report unverändert stehen. Massgeblich ist der Endstand vom 13.06.2026 (Nachweis
+> Version 3): Lösung über Abtreppung in drei Stufen (Stufendächer 554.61 / 553.55 / 552.48 m ü.M.,
+> Fassadenhöhe 4.5 m an jeder Gebäudeecke einzeln), Attika regelkonform 128.9 m², **1'162 m³
+> anrechenbar, Reserve 105 m³**. Die im Text genannte Ausmittelung des MT auf 549.27 m ü.M. ist
+> kein zulässiger Rechenweg, sondern nur eine Statistik (min 548.00 / mean 549.27 / max 551.09).
+> Belegt an PROJEKT-STAND.md (Einträge 260612 Version 2 und 260613 Version 3) und am Deliverable
+> `12_MBS_Vorlagenstil/260612_Hangschnitt-Nachweis_Giebelweg-12.pdf` (Inhalt Version 3).
+> Nachgeführt ist der Wiki-Artikel `[[projekt-giebelweg12]]`.
+
 Beantwortet die offene Frage aus `QUESTIONS.md`: "Giebelweg 12 — Machbarkeit BZO-Revision/
 Baulinie; Auftrag 06/2026. Ergebnis-Memo nach `outputs/` und hierher zurückspeisen."
 

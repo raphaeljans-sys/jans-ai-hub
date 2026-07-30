@@ -552,7 +552,10 @@ kein Ersatz).
   eigentumsabfrage, tagesanzeiger.ch (29.08.2023 «Zürich ermöglicht Online-Abfrage von
   Grundstückbesitzerinnen»). **Separates ObjektwesenZH-GB-Projekt** (Ablauf einer neuen eCH-
   konformen Schnittstelle Grundbuch↔Datenlogistik ZH, Laufzeit Anfang 2026 bis Mitte 2027, laut
-  zh.ch/objektwesen.html) betrifft die **Backend-Anbindung**, nicht den öffentlichen Auskunftsweg.
+  `https://www.zh.ch/de/planen-bauen/geoinformation/objektwesen.html`) betrifft die
+  **Backend-Anbindung**, nicht den öffentlichen Auskunftsweg. ⚠ *Adresse präzisiert (Wartungslauf
+  01, 2026-07-30): die Kurznotation `zh.ch/objektwesen.html` war nicht aufrufbar (404); die
+  Vollform oben ist gemessen (HTTP 200).*
   Status: `established` (manueller Weg belegt aus zwei unabhängigen Quellen), Automatisierbarkeit
   bleibt `speculative` (keine API, SMS-2FA ist der Blocker).
 - **Formeller Behördenweg (Grundbuchauszug) — Abgrenzung zur Selbstbedienungs-Eigentumsabfrage

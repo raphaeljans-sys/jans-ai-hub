@@ -2,6 +2,39 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-30 (Wissens-Chef Run 21, Cross-KB) — Fassungs-Vorbehalt auf der abgeloesten VSS-Parkierungsnorm, Fuehrung an `normen` angemeldet
+- **[korrektur, materiell] Tiefgaragen-Geometrie stand ohne Fassungsvorbehalt auf der abgeloesten
+  Ausgabe.** `wiki/recht-norm-tiefgarage-erschliessung.md` fuehrte die gesamte Geometrie des
+  Abschnitts 2 (Parkfeld-/Fahrgassenmasse, lichte Hoehe, Rampenneigung, Kurvenverbreiterung)
+  aus **SN 640 291a:2005** samt der abgeschafften Komfortstufen A/B/C als geltende
+  Planungsgrundlage — mit `status: established` und Frontmatter-Aussage «gueltig ab 1.2.2006»,
+  ohne Ersetzungsvermerk. Laut der fuehrenden KB `normen` (Destillat
+  `vss-640291a-2005-parkieren-anordnung-geometrie`, Status «HISTORISCH/ERSETZT — nicht mehr fuer
+  aktuelle Projekte verwenden», Stand 14.07.2026) ist die Ausgabe ueber VSS 40 291a:2019-03
+  durch **VSS 40 291:2021-12** ersetzt. Projektwirksame Deltas: Rampenneigung 12/15 % je Stufe
+  gegen einheitlich 15 % ungedeckt / 18 % gedeckt, Fahrgasse Gegenverkehr 5.00 m gegen 5.50 m.
+  Neu traegt der Artikel einen **Fassungs-Vorbehalt** am Kopf von Abschnitt 2 und im
+  `sources`-Block; die Werte selbst bleiben unveraendert stehen (Beurteilung von
+  Bestandesanlagen 2006-2019).
+- **[struktur] `querbezug_kb_normen`-Feld gesetzt**, nach dem in dieser KB bereits erprobten
+  Muster von `wiki/brandschutz-pl03-wegweiser.md`: Norm-Fundstellen und Kennwerte fuehrt
+  `normen`, dieser Artikel liefert den planerischen Kontext. `links` um die beiden
+  normen-Destillate und den baurecht-Artikel als **Pfadverweise** ergaenzt (kein Wikilink, weil
+  KB-uebergreifend sonst tot).
+- **[erledigt] Offener Punkt «kommunale Parkplatzverordnungen bisher nicht kartiert»
+  geschlossen** — kartiert und gefuehrt von `wissen/baurecht/wiki/fahrzeugabstellplaetze-und-parkierung.md`
+  (PPV Stadt Zuerich, Wegleitung Baudirektion 1997); dort steht auch die rechtlich verbindliche
+  Zahl (§ 242 PBG i.V.m. kommunalem Erlass), die dem VSS-640-281-Empfehlungswert vorgeht.
+- **[offen] R74 in `wiki/QUESTIONS.md`:** die materielle Umstellung des Abschnitts 2 auf die
+  Ausgabe 2021 bleibt offen und gehoert laut Fuehrungs-Matrix in `normen`, nicht hierhin. Der
+  Vorbehalt macht den Bestand gefahrlos, ersetzt die Werte aber nicht.
+- **[korrektur] `wiki/INDEX.md`:** der Kernwert «Rampenneigung 12–18 % je nach
+  Komfortstufe/Deckung» trug den Fassungsstand nicht und ist neu mit dem Vorbehalt plus dem
+  geltenden Wert (15 % ungedeckt / 18 % gedeckt, ohne Stufen) versehen. Keine anderen Kernwerte
+  angetastet.
+- **Geaenderte Dateien:** `wiki/recht-norm-tiefgarage-erschliessung.md`, `wiki/INDEX.md`,
+  `wiki/QUESTIONS.md`, `CHANGELOG.md`.
+
 ## 2026-07-30 (Training Run 93, Kartenportale + Energie) — der Quellbestand ist erschoepft, der Beleg-Apparat war es nicht
 - **[befund] 28. Erschoepfungsbestaetigung des Quellbestands:** Frischecheck aller vier PL-Ordner
   gegen Run 92 → **0 neue oder geaenderte Inhaltsdateien** (nur OneDrive-Marker und ein `.DS_Store`).

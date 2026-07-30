@@ -7,7 +7,7 @@ herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direkto
 ausgabe: "Lignum-Dokumentation Brandschutz, Themenblock 4 «Bauteile in Holz», Publikation 4.1 «Decken, Wände und Bekleidungen mit Feuerwiderstand». Erschienen Mai 2015, Nachdruck/Aktualisierung Oktober 2017. Von der TKB-VKF in Bezug auf Übereinstimmung mit den Mindestanforderungen der Schweizerischen Brandschutzvorschriften VKF, Ausgabe 2015 (BSV 2015), Stand 01.01.2017 geprüft und am 06.09.2017 als «Stand der Technik Papier (STP)» anerkannt. Laut Einleitung (S. 4) weist die vorliegende Publikation gegenüber der Erstausgabe von Mai 2015 in technischer Hinsicht keine relevanten Unterschiede auf; die Erstausgabe kann weiterhin angewendet werden."
 gelesen: "alle 40 A3-Scanblaetter (Teile A+B+C, 5+15+20) = gedruckte Seiten 2-80 komplett, Titelblatt/Impressum/Buchruecken eingeschlossen — Bild-Scan ohne Textlayer, visuell erfasst. Praezisierung 260729 Run 36: je Scanblatt eine gedruckte Doppelseite, die Publikation umfasst 80 gedruckte Seiten (Impressum S. 80) — die fruehere Angabe 'alle 40 Seiten' widersprach den durchgehend bis S. 80 zitierten Seitenzahlen."
 datenstand: "Mai 2015 / STP-Anerkennung 06.09.2017"
-status: "speculative (ACHTE Runde 30.07.2026, Run 38: BEANSTANDET mit 1 inhaltlichen + 3 formalen
+status: "speculative (NEUNTE Runde 30.07.2026, Run 39, nach Freigabe Raphaels: BEANSTANDET mit 2 Befunden — aber die ABDECKUNG ist jetzt erstmals gemessen statt geschaetzt. Statt die Nummern erneut per OCR zu schaetzen (achte Runde: 34 von real 72 gefunden, ausdruecklich nur untere Schranke), wurde eine VOLLSTAENDIGE SEITEN-INVENTUR erstellt: alle 40 A3-Blaetter gerendert, in Halbseiten gesplittet, je Seite Kapitel/Tabellen/Abbildungen/Textbloecke aufgenommen, Seitenzahl am Rand abgelesen. Ergebnis: Seiten 2-80 lueckenlos, 184 Einzelelemente, 72 Nummern in der Quelle, 71 im Destillat zitiert, 74 Kapitel alle inhaltlich erfasst, und NULL erfundene Fundstellen. Die Inventur liegt als `training/l41-seiteninventur.md` in der KB und macht kuenftige Runden billig. DIE EINE LUECKE: Abbildung 435-3 (S. 35, Massivholzdecken mit Fugenbreite f > 5 mm) war nicht zitiert. Die Nachpruefung dieser Seite durch den Hauptprozess am eigenen 220-dpi-Rendering hat dort einen ZWEITEN, schwereren Befund aufgedeckt: das Original nennt VIER Nachweis-Wege, das Destillat fuehrte nur drei — es fehlte die Fugenausbildung gemaess der Lignum-Publikation 4.2 «Anschluesse bei Bauteilen mit Feuerwiderstand» [7], also ausgerechnet der Weg, fuer den der Hub mit `lignum-4-2-anschluesse-feuerwiderstand.md` bereits ein established-Destillat besitzt. Beide korrigiert und verlinkt. Kein Nulldurchgang, `status` bleibt speculative — die Zellwerte der Katalogtabellen sind Gegenstand der Runden 5-7 gewesen und wurden hier nicht erneut geprueft; die Abdeckung ist gemessen, die Richtigkeit jeder einzelnen Zelle nicht neu. Vorherige Runde (ACHTE, 30.07.2026, Run 38): BEANSTANDET mit 1 inhaltlichen + 3 formalen
   Befunden. NEUE METHODE (nachrangiger Teil des Vorrang-Auftrags): statt erneut zu pruefen, was das
   Destillat behauptet, wurde die ABDECKUNG gemessen — alle 40 A3-Scanblaetter mit `pdftoppm -r 200`
   (Praefix l41r8-) gerendert, per tesseract OCR gelesen, daraus alle Tabellen-/Abbildungsnummern
@@ -439,7 +439,7 @@ gleicher Feuerwiderstandsklasse):
 | Hohlkastendecken (starrer Verbund Rippe–Tragschicht UND Rippe–untere Beplankung) | 4.3.3, S. 29–31 | Tab. 433-1 (REI30), 433-2 (REI60), 433-3 (REI90) |
 | Brettstapeldecken | 4.3.4, S. 32 | Tab. 434-1 (REI30/60/90) |
 | Massivholzdecken, Fugenbreite f ≤ 5 mm | 4.3.5.1, S. 33 f. | Tab. 435-1 (REI30), 435-2 (REI60) |
-| Massivholzdecken, Fugenbreite f > 5 mm | 4.3.5.2, S. 35 | kein eigenes Tabellenwerk — Verweis auf Balkendecken-Tabellen 431-1 bis 431-4 (Elemente wie Balkenlage-Schicht 4 dimensioniert), beidseitige Brandschutzplatten (Kap. 4.6) oder rechnerischer Nachweis |
+| Massivholzdecken, Fugenbreite f > 5 mm | 4.3.5.2, S. 35 (Abb. 435-3) | kein eigenes Tabellenwerk — das Original nennt **vier** Nachweis-Wege: (1) Beurteilung sinngemäss den Balkendecken nach Tab. 431-1 bis 431-4, wobei die Elemente der Massivholzdecke jeweils analog der Schicht 4 (Balkenlage) dimensioniert werden; (2) beidseitiges Anbringen von Brandschutzplatten (Kap. 4.6); (3) **Fugenausbildung gemäss der Lignum-Publikation «Bauteile in Holz – Anschlüsse bei Bauteilen mit Feuerwiderstand» [7]** — im Hub als [[lignum-4-2-anschluesse-feuerwiderstand]] destilliert und dort `established`; (4) rechnerischer Nachweis nach den in Kap. 2.2 Punkt c) aufgeführten anerkannten Berechnungsverfahren. Weg (3) fehlte bis Runde 9 (260730) ganz — ausgerechnet der, für den der Hub bereits eine verifizierte Quelle hat |
 | Decken aus mehrlagigen Massivholzplatten | 4.3.6, S. 36 | Tab. 436-1 (REI30/60/90) |
 | Holz-Beton-Verbunddecken | 4.3.7, S. 37 | Tab. 437-1 (mit Balkenlage), 437-2 (mit flächiger Holzschicht) — je REI30/60/90 |
 
@@ -853,6 +853,8 @@ ETH Zürich.
   beidseitig beplankte Ständerkonstruktion, Brettstapel-/Massivholzplattenwand,
   Hohlkastendecke usw.) grenzt früh ab, welcher Systemtyp für eine geforderte
   Feuerwiderstandsklasse realistisch ist — relevant für die Grobkostenlogik BKP 214/271.
+  Zielort der Übergabe ist `wissen/grobkosten/wiki/kennwerte.md` (dort werden die
+  CHF-Kennwerte geführt, nicht hier).
 - **healthcare-wirtschaftlichkeit / machbarkeit**: Bei RF1-Anforderungen (Fluchtwege,
   Nutzungen mit eingeschränkter Personenmobilität, vgl. VKF-Arbeitshilfe 1001-15) zeigt
   Kap. 5 die verbleibenden Holzbau-Konstruktionsoptionen (REI30/60/90-RF1) und deren
@@ -862,6 +864,12 @@ ETH Zürich.
   Fugentypen 330-3, Anschlussregeln Kap. 3.4, Installationsführung Kap. 3.5/5.2.5) sind
   eine belegbare Grundlage für Ausführungs-Vorgaben und Abnahmekriterien bei
   Holzbau-Unternehmern.
+- **bauprodukte**: führt das Produkt-/Systemwissen nach BKP (Bauteilaufbauten,
+  Hersteller-/Systemtypen, Bemusterung; `wissen/koordination/QUERBEZUEGE.md` Z. 29). Ein
+  künftiger Holzbau-/Bekleidungsartikel dort zieht Feuerwiderstandsklassen und Mindestmasse
+  von hier und schreibt sie nicht materiell fort (Rule `normen-referenz`). Statushinweis:
+  4.2 established, 4.1 speculative (Run 38 beanstandet) — Zellwerte vor LV-Verwendung am
+  Original prüfen.
 
 ## Offene Punkte
 
@@ -1118,3 +1126,40 @@ aus.
     ausgereizt melden will, muss zuvor die Nummern-Extraktion bei höherer Auflösung oder manuell
     vervollständigen.
   - Kein Nulldurchgang, `status` bleibt `speculative`.
+
+- **30.07.2026, Run 39 (neunte Runde)** — nach ausdrücklicher Freigabe Raphaels, nachdem die achte
+  Runde ihre eigene Abdeckungsmessung als unzureichend ausgewiesen hatte. Verdikt: **BEANSTANDET,
+  2 Befunde** — der eigentliche Ertrag ist aber, dass die Abdeckung nun **gemessen statt geschätzt**
+  ist.
+  - **Methode.** Die achte Runde hatte die Tabellen-/Abbildungsnummern per OCR extrahiert und dabei
+    nur 34 von real 72 gefunden; der Diff war deshalb ausdrücklich nur als untere Schranke geführt.
+    Diese Runde ersetzt die Schätzung: alle 40 A3-Blätter mit `pdftoppm -r 200 -png` gerendert (je
+    Aufnahme-Agent eigenes Präfix, Methodik-Pflicht 5), in Halbseiten gesplittet, und je gedruckter
+    Seite aufgenommen, welche Kapitel, Tabellen, Abbildungen und eigenständigen Textblöcke dort
+    stehen. Die gedruckte Seitenzahl wurde am Seitenrand **abgelesen**, nicht aus der Blattnummer
+    berechnet. Fünf parallele Agenten, danach Diff durch den Hauptprozess.
+  - **Messergebnis:** Seiten 2-80 lückenlos, 184 Einzelelemente, **72 Nummern in der Quelle, 71 im
+    Destillat zitiert**, alle 74 Kapitel inhaltlich erfasst, und **null erfundene Fundstellen** —
+    jede im Destillat zitierte Nummer existiert in der Quelle wirklich. Vierzehn Kapitelnummern
+    fehlen als Nummer, ihr Inhalt aber nicht: die Decken- und Wandsystem-Kataloge sind im Destillat
+    nach System und Tabelle geführt statt nach Unterkapitel. Das ist eine andere Gliederung, keine
+    Lücke. Die Inventur ist als `training/l41-seiteninventur.md` in der KB abgelegt und macht
+    künftige Abdeckungs-Runden billig.
+  - **Befund 1 (die eine Lücke):** Abbildung 435-3 «Massivholzdecken mit einer Fugenbreite f > 5 mm»
+    (S. 35) war nicht zitiert. Fundstelle ergänzt.
+  - **Befund 2 (inhaltlich, schwerer — gefunden durch die Nachprüfung von Befund 1):** Auf derselben
+    Seite nennt das Original **vier** Wege zum Feuerwiderstandsnachweis bei Fugenbreite f > 5 mm;
+    das Destillat führte nur drei. Es fehlte: **Fugenausbildung gemäss der Lignum-Publikation
+    «Bauteile in Holz – Anschlüsse bei Bauteilen mit Feuerwiderstand» [7]** — also ausgerechnet der
+    Weg, für den der Hub mit `lignum-4-2-anschluesse-feuerwiderstand.md` bereits ein
+    **`established`**-Destillat besitzt. Vom Hauptprozess am eigenen 220-dpi-Rendering der S. 35 im
+    Wortlaut gelesen, bevor er übernommen wurde. Ergänzt und verlinkt.
+  - **Lehre.** Die Abdeckungslücke war formal (eine nicht zitierte Abbildung) — der Befund dahinter
+    nicht. Wer nur die Nummernliste abhakt, hätte hier «1 formaler Befund» notiert und weitergemacht.
+    Sichtbar wurde der fehlende Nachweis-Weg erst, weil die Lücke am Original **nachgelesen** statt
+    nur eingetragen wurde. Für die Praxis heisst das: eine fehlende Fundstelle ist ein Zeiger, kein
+    Befund.
+  - **Grenze dieser Runde, ausdrücklich ausgewiesen:** geprüft wurde die **Abdeckung**, nicht die
+    Richtigkeit jeder Zelle. Die Zellwerte der Katalogtabellen waren Gegenstand der Runden 5-7 (dort
+    ohne Regression) und wurden hier nicht erneut nachgerechnet. Kein Nulldurchgang, `status` bleibt
+    `speculative`.

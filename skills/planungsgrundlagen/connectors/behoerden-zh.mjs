@@ -48,6 +48,7 @@ import { writeFileSync, readFileSync, mkdirSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createHash } from "node:crypto";
+import { willHilfe, hilfeAusKopf } from "./_hilfe.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const UA = "jans-ai-hub-behoerdenzh/1.0 (rj@raphaeljans.ch)";
@@ -124,6 +125,7 @@ function destFor(outRoot, d, url) {
 
 // --- Main ----------------------------------------------------------------------
 (async () => {
+  if (willHilfe(process.argv)) { hilfeAusKopf(import.meta.url); return; }
   const a = parseArgs(process.argv);
   const L = log(a.quiet);
   const mode = a.sync ? "sync" : a.check ? "check" : a.list ? "list" : null;

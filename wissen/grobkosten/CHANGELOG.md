@@ -1,5 +1,36 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-30 (Wissens-Chef Run 21, Cross-KB) — Konsistenz-Beleg des Holzbau-Zuschlags richtiggestellt, Anwendungsgrenze Brandschutz ergaenzt
+- **[richtigstellung] Der Satz «Konsistenz-Check gegen den eigenen MFH-Seed und den bestehenden
+  HNF-Wuest-Spread: kein Widerspruch» im Eintrag «2026-07-30 (Mac Mini Nachtschicht) —
+  Bring-Schuld aus Run 20 eingeloest» weiter unten ist in seiner zweiten Haelfte unzutreffend.**
+  Der Alteintrag bleibt als Beweisstand unveraendert stehen. Richtig ist: Der Konsistenz-Check
+  gegen den eigenen MFH-Seed (Massivbau-Median ≈995 CHF/m³ GV im Band 850–1'050) traegt und
+  bleibt der einzige belastbare Beleg. Der Quervergleich gegen den HNF-Wueest-Spread traegt
+  NICHT: das HNF-Referenzblatt segmentiert bereits gleich benannt (belegt seit mindestens
+  25.07.2026, git 7b4c0777) und kommt auf +11 % (unteres Segment) und +38 % (oberes Segment),
+  gegen die hier gefuehrten ≈ 0 % und ≈ +13 %. Beide Datensaetze ruhen auf demselben Preisstand
+  April 2023, die Differenz ist also nicht Teuerung, sondern Bezugsgroesse (HNF gegen GV),
+  verschiedene Stichproben und beidseitige Diagramm-Ableseunschaerfe. Die Spreizung bleibt
+  ungeklaert; ein bestaetigender Quervergleich wird ausdruecklich nicht mehr behauptet.
+- **[unveraendert] Der Zuschlag selbst bleibt** (Wueest Partner/Lignum/BAFU 25.09.2025,
+  Diagramm-Ablesung 300 dpi, normalisiert 01.04.2025). Korrigiert wurde nur die Begruendung.
+- **[anwendungsgrenze] Bring-Schuld aus `normen` Run 30–33 (Nachtrag Run 38) angenommen:** Der
+  Zuschlag kannte bisher keine brandschutzbedingte Anwendungsgrenze. Neu vermerkt, dass die
+  Stichprobe (17 Holz-Neubauten 2019–2022) keine Gebaeudehoehenkategorie und keine
+  Brandschutzanforderung je Objekt ausweist und der Zuschlag bei erhoehten Anforderungen als
+  untere Naeherung zu lesen ist. Die Anforderung selbst fuehrt diese KB nicht: massgebend sind
+  die VKF-Brandschutzvorschriften 2015 bzw. die Arbeitshilfen (Rule `normen-referenz`).
+- **[raw unberuehrt]** Die gleichlautende Fehlaussage in
+  `raw/2025-wueest-lignum-massiv-vs-holzbau-erstellungskosten.md` wurde NICHT editiert
+  (Rule `wissens-bibliothekar`), sondern in `wiki/QUESTIONS.md` als bekannte Fehlstelle des
+  Destillats vom 30.07.2026 benannt.
+- **Geaendert:** `wiki/kennwerte.md` (Konsistenz-Absatz ersetzt, Absatz «Anwendungsgrenze
+  (Datenlage)» neu), `wiki/QUESTIONS.md` (zwei neue Eintraege 2026-07-30b und 2026-07-30c),
+  `skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md`
+  (Zusammenfassung Abschnitt 3 und Schlussabsatz 3b richtiggestellt). Kein Versand, keine
+  Publikation, keine Buchung.
+
 ## 2026-07-30 (Mac Mini Nachtschicht, 23:31) — bauenmitholz.info geprueft: Negativbefund, offener Punkt geschlossen
 Den vom fruehreren Lauf desselben Tages offen gelassenen Verifikationspunkt geprueft
 (Diagramm-Ablesung Folie 5 gegen `bauenmitholz.info` verifizieren, falls dort Zahlenwerte

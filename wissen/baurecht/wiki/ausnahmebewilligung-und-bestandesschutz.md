@@ -123,6 +123,11 @@ Baubehoerde verlangen, dass gegenueber dem bestehenden Zustand **Verbesserungen*
 werden, die **im oeffentlichen Interesse** liegen und **nach den Umstaenden zumutbar** sind
 (Gedanke: der Umbau verlaengert die Lebensdauer, daher ein gewisses Entgegenkommen bei der
 Anpassung; Grenze = Zumutbarkeit als Teil der Verhaeltnismaessigkeit).
+Konkretisierung in der Stadt Zuerich fuer Absturzsicherungen: Anpassungspflicht ab mehr als 15 %
+Abweichung von den geltenden Massvorschriften, darunter blosse Empfehlung unter Hinweis auf
+Art. 58 OR (Richtlinie Stadt Zuerich «Absturzsicherungen im Hochbau», 1.6.2019 — Destillat
+`wissen/planungsgrundlagen/wiki/recht-norm-arbeitshilfen-planungsdetails.md` §3). Ausserhalb der
+Stadt Zuerich nicht ohne weiteres uebertragbar.
 
 **Milderung von Bauvorschriften (§ 357 Abs. 5 PBG):** Wortlaut (amtlicher PBG-Volltext
 verifiziert, raw/260607_amtlich_zh_pbg.md Z. 3770-3773, Modell-D-Refuter 2026-07-13):

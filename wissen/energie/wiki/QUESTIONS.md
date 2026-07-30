@@ -2,6 +2,24 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-07-30 (Wissens-Chef Run 21, Cross-KB) — fehlender Wiki-Themenartikel zur kommunalen Wärmeplanung
+
+- [ ] **E-R21-1 (P2): Wiki-Themenartikel «Kommunale Wärmeplanung ZH/SZ» fehlt.** Der Slug
+  `waermeplanung-kommunal-zh-sz` existiert ausschliesslich unter `destillate/`; in `wiki/` gibt es
+  keinen entsprechenden Themenartikel. Das Freienbach-Destillat geht in seinem Abschnitt «Bezug zum
+  Wiki» von einem «bestehenden wiki-Artikel» aus — diese Prämisse trifft nicht zu, und der
+  Registereintrag in `destillate/INDEX.md` meldete deshalb bis zum 30.07.2026 eine Verdichtung als
+  vollzogen, die nie stattgefunden hat (dort korrigiert). **Anzulegen vom energie-Loop, nicht vom
+  Cross-KB-Lauf.** Zu verdichten sind die vier vorhandenen Destillate:
+  `[[waermeplanung-kommunal-zh-sz]]` (EnerG ZH, kEnG/kEnV/PBG SZ, AfU-Leitfaden),
+  `[[energierichtplan-freienbach-econcept]]` (Energieträgerkarte Freienbach 2025),
+  `[[fernwaerme-anschlusspflicht-sz]]` und
+  `[[sz-vollzugspraxis-afu-wegleitungen-rechenzentren]]` (Baureglemente Freienbach 2022 /
+  Wollerau 2024 im Volltext). Belegbare Inhalte für den Artikel: acht Energieträger-Zonentypen,
+  kein Anschlusszwang an den Holzwärmeverbund der Energie Aussenschwyz AG, Erdsonden-
+  Tiefenbeschränkung mit Faustregel 180 m (verbindlich nur via AfU SZ), thermische
+  Grundwassernutzung nur seenah bzw. ab 50 kW / vier Wohneinheiten.
+
 ## 2026-07-29 (Wissens-Chef Run 20) — Restpunkte aus den Cross-KB-Korrekturen an F186/F187/F189/F71
 
 Angemeldet beim Nachziehen der Bauherren-Seite der Befunde BES01/BES05/BES06/BES08. Was mit

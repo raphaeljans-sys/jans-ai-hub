@@ -3,7 +3,7 @@ title: "BKP 261 Aufzüge — Systemtypen, Kennwerte und Barrierefreiheit (Herste
 status: emerging
 last_updated: 2026-07-30
 sources: ["100426_AS_Aufzuege.pdf" (AS Aufzüge, Typ Winner, Referenz 2.1.0053.12.9, kein Datum im Dokument — Stand gemäss Dateiname 26.04.2010), "100426_AS_Aufzuege_Masskizze.pdf" (AS Aufzüge/AS Ascenseurs, Masskizze «Swisslift» 7 Personen/535 kg, Referenz 2.1.0053.01.8, zweisprachig DE/FR, kein Datum im Dokument — Stand gemäss Dateiname 26.04.2010), "21005312.pdf" (AS Aufzüge, Handskizze «Rollstuhlgängig?», gleiches Firmenlogo wie Winner-Datenblatt, undatiert), "Graventa_lift_Technische_Daten_VANGOGH.pdf" (GARAVENTA LIFTECH AG, Küssnacht am Rigi, Sitzlift VAN GOGH, undatiert), "sch_pdf_sch3100_de.pdf" (Schindler Aufzüge AG Ebikon, Personenaufzug Schindler 3100, Druckvermerk SCH.3100.DE.12.07 = Stand Dezember 2007), "aufzug_rollstuhlgerecht.pdf" (Schmitt+Sohn Aufzüge, Kapitel 2.2 Seilpersonenaufzüge mit Maschinenraum SP, Druckdatum 27.11.2006)]
-links: [[REGISTER]], [[sia-500-2009]]
+links: [[REGISTER]], [[sia-500-2009]], [[vkf-brl-23-15-befoerderungsanlagen]], [[sia-370-028-2003]]
 ---
 
 # BKP 261 Aufzüge — Systemtypen, Kennwerte und Barrierefreiheit
@@ -19,9 +19,14 @@ Transportanlagen» im Quellordner ist damit ungenau — massgebend ist BKP 261.
 - **AS Aufzüge, Typ Winner** (2.1.0053.12.9): 7 Personen / 535 kg, elektro-mechanischer
   Antrieb System gearless, Antrieb direkt im Schacht integriert (kein separater
   Maschinenraum). Zweiteilige Teleskop-Türen, Türnische 80 mm, Fahrgeschwindigkeit
-  1.0 m/s, Förderhöhe max. 27 m bei max. 10 Haltestellen. Kabine innen ca. 1250 × 1460 mm
-  (aus Schachtmass 1500 × 1500 mm abgeleitet) — als «bedingt rollstuhlgängig»
-  gekennzeichnet (s. Abschnitt Barrierefreiheit).
+  1.0 m/s, Förderhöhe max. 27 m bei max. 10 Haltestellen. **Kabinenmass im
+  Winner-Datenblatt nicht angegeben** (Korrektur Wissens-Chef Run 21, 30.07.2026). Die
+  AS-Masskizze «Swisslift» zum Schacht 1500 × 1500 mm gibt Kabinenbreite 1050 mm an
+  (beide Türvarianten), Kabinentiefe 1085 mm (Standard) bzw. 1460 mm (Option Türfront
+  über die ganze Schachtbreite). Ob Winner und Swisslift dieselbe Kabine haben, ist
+  ungeklärt (s. offene Punkte). Die früher aus dem Schachtmass abgeleiteten 1250 mm
+  Breite sind durch die Masskizze widerlegt. Der Winner ist im Datenblatt als «bedingt
+  rollstuhlgängig» gekennzeichnet (s. Abschnitt Barrierefreiheit).
 - **AS Aufzüge, Masskizze «Swisslift»** (2.1.0053.01.8, zweisprachig DE/FR): gleiche
   Kenndaten wie Winner (7 Personen/535 kg, elektro-mechanisch gearless, Antrieb im
   Schacht integriert, zweiteilige Teleskoptüren, Zugang gleichseitig, 1.0 m/s), aber
@@ -98,12 +103,20 @@ zwischen den Herstellern:
   ändert unter anderem **Ziff. 3.7.3** — also genau die hier zitierte Tabelle 4. Die Masse sind
   vor jeder Bemessung und vor jedem LV mit SIA-500-Bezug am Korrigendum gegenzulesen; der
   Kabinen-Abgleich unten steht bis dahin unter Vorbehalt. Führend ist die KB `normen`
-  (`normen/destillate/sia-500-2009.md`, dort sind alle betroffenen Ziffern markiert). Die AS-Winner-Kabine (1250 × 1460 mm) **übertrifft rechnerisch
-  beide Masse der Standard-Kategorie** (1.25 > 1.10 m Breite, 1.46 > 1.40 m Tiefe)
-  — die AS-eigene Einstufung «bedingt rollstuhlgängig» ist also enger gefasst als
-  die SIA-500-Mindestanforderung, aus den vorliegenden Massen allein nicht ableitbar,
-  warum AS die schwächere Kategorie vergibt (evtl. Zugangsbreite/Anfahrgenauigkeit,
-  im Datenblatt nicht spezifiziert). Vor einem LV mit SIA-500-Bezug: Kabinenmass
+  (`normen/destillate/sia-500-2009.md`, dort sind alle betroffenen Ziffern markiert).
+
+  **Kabinen-Abgleich (korrigiert Wissens-Chef Run 21, 30.07.2026 — die frühere Fassung
+  rechnete mit der aus dem Schachtmass abgeleiteten Breite 1250 mm und kam zum
+  gegenteiligen Ergebnis):** Gegen SIA 500:2009 Ziff. 3.7.3/Tabelle 4 (Breite × Tiefe)
+  gilt mit dem belegten Mass der AS-Masskizze: **1.05 m Breite verfehlt die
+  Standard-Kategorie 1.10 × 1.40 m in jeder Variante.** Die Kategorie «bedingt zulässig»
+  1.00 × 1.25 m ist **nur in der Options-Variante** erfüllt (1.05/1.46); in der
+  Standardvariante (1.05/1.085) ist auch sie nicht erfüllt. Alles unter dem Vorbehalt
+  SN 521500/C4:2019, das Ziff. 3.7.3 ändert. Die Kabine verfehlt damit sowohl die
+  SIA-Standardbreite (1.10 m) als auch die AS-eigene Kategoriebreite (1100 mm, s.o.)
+  um je 50 mm; die Herstellereinstufung «bedingt rollstuhlgängig» ist insofern
+  plausibel, der Breitenwert selbst bleibt aber beim Hersteller zu verifizieren
+  (offene Frage in `wiki/QUESTIONS.md`). Vor einem LV mit SIA-500-Bezug: Kabinenmass
   gegen Tabelle 4 der Norm selbst rechnen, nicht die Herstellerkategorie übernehmen.
 
 ## Praxisregeln für JANS
@@ -125,6 +138,8 @@ zwischen den Herstellern:
   Nutzlast X kg, Förderhöhe Y m, Kabine EN-81-70-konform (bedingt/voll rollstuhlgängig
   je nach Vorgabe)» — konkrete Produktnamen (Schindler 3100, AS Winner) nur als
   Beispiel, nicht als Vorgabe (Rule 260626 Submissionsunterlagen neutral).
+  Prüfhinweis dazu: Brandfallsteuerung nach Ziff. 3.7 der VKF-BRL 23-15 projektbezogen
+  abklären (nutzungs- und haltestellenabhängig).
 
 ## Schnittstellen zu Nachbargewerken
 
@@ -137,6 +152,16 @@ zwischen den Herstellern:
   Standard) und Brandfallsteuerung (als Option bei Schindler 3100 gelistet) sind
   gegen den Skill `brandschutz` zu prüfen, wenn sie Teil des Brandschutzkonzepts sind
   — in dieser KB nicht eigenständig verifiziert.
+  **Verweis nachgetragen (Wissens-Chef Run 21, 30.07.2026):** Führend ist die KB
+  `normen`. Die massgeblichen Anforderungen an Schacht, Türen, Kabine und
+  Brandfallsteuerung stehen in [[vkf-brl-23-15-befoerderungsanlagen]] (VKF-BRL 23-15,
+  in Kraft seit 01.01.2015; Teilrevision 2017 beachten, sie betrifft Ziff. 3.6 Abs. 2
+  und Ziff. 5.1, siehe [[vkf-brl-aenderungen-2017]]). Diese Anforderungen sind **bedingt
+  formuliert** (unter anderem abhängig davon, ob mit der Anlage mehrere Brandabschnitte
+  verbunden werden und ob die Schachttüre unmittelbar in die Nutzungseinheit führt) und
+  werden hier nicht fortgeschrieben (Rule `normen-referenz`). Die im Datenblatt
+  gelistete Brandfallsteuerung ist eine Hersteller-Option; ob sie Pflicht ist,
+  entscheidet Ziff. 3.7 nach Nutzung und Haltestellenzahl.
 
 ## Offene Punkte
 

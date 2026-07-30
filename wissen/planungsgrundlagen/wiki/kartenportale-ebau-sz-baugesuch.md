@@ -10,8 +10,8 @@ sources:
     der ersten Portal-Anwendung
   - PL-01/KtSZ Schwyz/ebau-sz.ch/230921_Anmeldung_ebau_Logindaten.docx (Kontaktperson
     Baugesuchszentrale, ohne Zugangsdaten übernommen)
-  - PL-01/KtSZ Schwyz/einsiedeln.ch/ (Screenshot 16.11.2023, www.einsiedeln.ch/verwaltung/
-    planen-bauen-umwelt-energie/buero-bauen, Run 40 2026-07-14)
+  - PL-01/KtSZ Schwyz/einsiedeln.ch/ (Screenshot 16.11.2023; URL nachgeführt Wartungslauf 01
+    2026-07-30: www.einsiedeln.ch/verwaltung/planen-bauen-umwelt-energie/bauen, Run 40 2026-07-14)
 links: [[kartenportale-geoportale-uebersicht]] [[kartenportale-naturgefahren-objektschutz]]
   [[recht-norm-quellenlandkarte]] [[kartenportale-grundlagen-checkliste-neue-parzelle]]
   [[behoerden-vorabklaerung]]

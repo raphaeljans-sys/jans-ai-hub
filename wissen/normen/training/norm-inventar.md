@@ -1,5 +1,29 @@
 # Norm-Inventar — Arbeitsliste des Nacht-Loops `normen-training-nacht`
 
+- **Run 39 (MacBook Pro, 260730) — Abdeckung von `lignum-4-1` GEMESSEN statt geschaetzt
+  (Freigabe Raphael). Vollstaendige Seiten-Inventur aller 40 A3-Blaetter, 5 parallele
+  Aufnahme-Agenten.** Kein neues Grunddestillat.
+  - **Warum:** Run 38 hatte die Abdeckung per OCR gemessen und nur 34 von real 72 Nummern gefunden;
+    der Diff war ausdruecklich nur als untere Schranke gefuehrt. Raphael hat die weitere Runde
+    freigegeben.
+  - **Methode:** alle 40 Blaetter gerendert (je Agent eigenes Praefix), in Halbseiten gesplittet,
+    je Druckseite Kapitel/Tabellen/Abbildungen/Textbloecke aufgenommen, Seitenzahl am Rand
+    ABGELESEN statt berechnet.
+  - **Ergebnis:** Seiten 2-80 lueckenlos, 184 Einzelelemente, **72 Nummern in der Quelle, 71
+    zitiert, alle 74 Kapitel inhaltlich erfasst, NULL erfundene Fundstellen.**
+  - **Die eine Luecke war der Zeiger, nicht der Befund:** Abb. 435-3 (S. 35) war nicht zitiert;
+    beim Nachlesen der Seite am Original fehlte dort auch **einer von vier Nachweis-Wegen** — die
+    Fugenausbildung nach Lignum-Publikation 4.2 [7], also der Weg, fuer den der Hub bereits ein
+    established-Destillat hat. Beide korrigiert und verlinkt.
+  - **Neu in der KB:** `training/l41-seiteninventur.md` — die Inventur als dauerhaftes
+    Arbeitsmittel; kuenftige Runden diffen dagegen statt neu zu inventarisieren.
+  - **Methodik-Pflicht 6 erweitert:** Seiten-Inventur statt OCR-Schaetzung, und **eine fehlende
+    Fundstelle ist ein Zeiger, kein Befund**.
+  - **Vorlage an Raphael:** die Taktung von `lignum-4-1` ist jetzt entscheidbar — Abdeckung
+    gemessen, Zellwerte in den Runden 5-7 ohne Regression geprueft. Eine zehnte Routinerunde hat
+    keine offene Frage mehr; sinnvoll waere nur noch ein ereignisgetriebener Lauf bei neuer Fassung.
+  Report `outputs/2026-07-30_normen-nacht-run39.md`.
+
 - **Run 38 (MacBook Pro, 260730) — Vorrang-Auftrag Raphaels ausgefuehrt (Lignatec Tab. 3 + Tab. 4
   rechnerisch aufgenommen, 7 Kernbefunde), achte Runde `lignum-4-1` mit neuer Methode, und Beginn
   der regulaeren Grundarbeit am PL-02-Kern-Nachtrag: der BfU-Block destilliert.**

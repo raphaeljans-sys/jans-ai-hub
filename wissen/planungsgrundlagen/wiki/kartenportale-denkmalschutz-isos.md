@@ -44,8 +44,12 @@ angewendet dokumentiert):
 - **Kartenportal:** `https://www.gisos.bak.admin.ch/sites` — das GIS-Portal des **Bundesamts für
   Kultur (BAK)** zum ISOS (Bundesinventar der schützenswerten Ortsbilder der Schweiz von
   nationaler Bedeutung).
-- **Erklärseite:** `https://www.bak.admin.ch/bak/de/home/baukultur/isos-und-ortsbildschutz/
-  isos-in-kuerze.html` — „ISOS in Kürze".
+- **Erklärseite:** `https://www.bak.admin.ch/de/isos` — ISOS-Einstiegsseite des BAK (HTTP 200,
+  gemessen 2026-07-30). ⚠ **Adresse korrigiert (Wartungslauf 01, 2026-07-30):** die bis dahin
+  hier geführte Fundstelle `www.bak.admin.ch/bak/de/home/baukultur/isos-und-ortsbildschutz/
+  isos-in-kuerze.html` („ISOS in Kürze") liefert **HTTP 404**; das BAK hat seinen Webauftritt auf
+  kurze Pfade umgestellt. Der Abschnittspfad `.../baukultur/isos-und-ortsbildschutz.html` leitet
+  seinerseits auf `bak.admin.ch/de/isos` weiter — daher direkt die Zieladresse zitiert.
 
 **Praxis-Einordnung (aus dem Betreff des Bundesamts, nicht selbst tiefer verifiziert):** ISOS ist
 ein **Bundesinventar** (analog BLN für Landschaften) und wirkt primär als Interessenabwägungs-

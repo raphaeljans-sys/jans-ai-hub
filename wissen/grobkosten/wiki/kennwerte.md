@@ -211,10 +211,33 @@ Ablesung (Folie 5, keine Originalzahlen im Textlayer, ca.-Werte), auf 01.04.2025
 | Holzbau, unteres Preissegment | ≈ 0 % (Parität) | Median ≈975 vs. Massivbau ≈995 CHF/m³ GV |
 | Holzbau, oberes Preissegment | ≈ +13 % | Median ≈1'120 vs. Massivbau ≈995 CHF/m³ GV |
 
-Deckt sich grössenordnungsmässig mit dem HNF-basierten Wüest-2023-Spread in
-`skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md`
-(Holzbau +10–20 % über Massivbau) — dort ohne die Segment-Differenzierung. Ersetzt die
-pauschale "Holz +5–15 %"-Zeile für die Bauweisen-Frage; der Ausbaustandard-Zuschlag
+**Verhältnis zur HNF-Quelle (korrigiert 30.07.2026, Wissens-Chef Run 21):** Das HNF-Referenzblatt
+`skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md`,
+Abschnitt 3 (Segmentzeilen belegt seit mindestens 25.07.2026, git 7b4c0777), segmentiert bereits
+gleich benannt und kommt zu anderen Deltas: Massivbau-Median 4'500, Holzbau unteres Segment 5'000
+(+11 %), oberes Segment 6'200 (+38 %) CHF/m² HNF. Beide Datensätze ruhen auf demselben Preisstand
+(April 2023), die Differenz ist also nicht Teuerung, sondern Bezugsgrösse (HNF gegen GV),
+verschiedene Stichproben und beidseitige Diagramm-Ableseunschärfe. Die Spreizung ist ungeklärt;
+der hier geführte GV-Zuschlag gilt ausschliesslich für die CHF/m³-GV-Kennwerte dieser KB. Ein
+bestätigender Quervergleich mit der HNF-Quelle wird ausdrücklich NICHT behauptet. Belastbarer
+Konsistenz-Beleg des neuen Kennwerts bleibt allein der zweite Check: Massivbau-Median ≈995 CHF/m³
+GV innerhalb des eigenen MFH-gehoben-Seed-Bands 850–1'050
+(`raw/2025-wueest-lignum-massiv-vs-holzbau-erstellungskosten.md`).
+
+**Anwendungsgrenze (Datenlage):** Die Stichprobe hinter diesem Zuschlag (17 Holz-Neubauten
+2019–2022, 10+ Wohnungen, BKP 1–5 5–150 Mio.,
+`raw/2025-wueest-lignum-massiv-vs-holzbau-erstellungskosten.md`) weist keine
+Gebäudehöhenkategorie und keine Brandschutzanforderung je Objekt aus. Ob und wie stark eine
+RF1-/Kapselungsanforderung den Aufpreis verschiebt, ist aus dieser Quelle nicht ableitbar; der
+Zuschlag ist deshalb bei brandschutztechnisch erhöhten Anforderungen (zusätzliche Bauteilstärken
+und Bekleidungsflächen in BKP 214/271) als untere Näherung zu lesen. Ob eine solche Anforderung
+im konkreten Fall besteht, führt nicht diese KB: massgebend sind die VKF-Brandschutzvorschriften
+2015 bzw. die Arbeitshilfen (`wissen/normen/destillate/vkf-brandschutznorm-2015.md`,
+`.../vkf-ah-1001-15-wohnbauten.md`); die konstruktiven Kennwerte dazu in
+`.../lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md` und
+`.../lignum-4-2-anschluesse-feuerwiderstand.md` (Rule `normen-referenz`).
+
+Ersetzt die pauschale "Holz +5–15 %"-Zeile für die Bauweisen-Frage; der Ausbaustandard-Zuschlag
 (Minergie-P) bleibt unabhängig davon offen/unbelegt.
 
 ## Healthcare / Spezialnutzung

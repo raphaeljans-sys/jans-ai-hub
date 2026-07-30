@@ -205,11 +205,22 @@ Für ein Bauprojekt in Zürich oder Schwyz bedeutet das konkret:
   Zürich (maps.zh.ch) wurde in dieser Recherche keine kantonsweite, öffentlich zugängliche
   GIS-Karte für kommunale Energiepläne in Schwyz gefunden — möglich, dass einzelne Gemeinden
   (z.B. grössere wie Freienbach, Einsiedeln, Küssnacht) eigene Kartenportale führen; nicht
-  systematisch pro Gemeinde geprüft.
+  systematisch pro Gemeinde geprüft. ✅ **TEILWEISE ERLEDIGT (Wissens-Chef Run 21, 30.07.2026):**
+  für Freienbach liegt der Nachweis vor — **[[energierichtplan-freienbach-econcept]]** (Run 119,
+  29.07.2026) belegt eine eigene, seit 27.05.2025 öffentlich publizierte Energieträgerkarte samt
+  Begleitbericht (Abicht Zug AG, 10.01.2025) auf freienbach.ch. Es handelt sich um eine
+  PDF-Publikation, nicht um ein GIS-Kartenportal; für die übrigen Gemeinden und für ein
+  kantonsweites Portal bleibt der Punkt offen.
 - **Schwyz: Stand der Umsetzung von «EK-EE-4» nicht geprüft.** Ob und welche Gemeinden über
   7'000 Einwohner (z.B. Freienbach, Einsiedeln, Küssnacht, Wollerau, Lachen) bereits einen
   Energieplan verabschiedet haben, wurde nicht recherchiert — das wäre die naheliegende
-  Vertiefung für ein konkretes Bauprojekt in einer dieser Gemeinden.
+  Vertiefung für ein konkretes Bauprojekt in einer dieser Gemeinden. ✅ **TEILWEISE ERLEDIGT
+  (Wissens-Chef Run 21, 30.07.2026):** für Freienbach ist der Stand belegt —
+  **[[energierichtplan-freienbach-econcept]]** dokumentiert die am 27.05.2025 publizierte
+  Energieträgerkarte (acht Energieträger-Zonentypen, kein Anschlusszwang an den Holzwärmeverbund
+  der Energie Aussenschwyz AG) als das heute massgebliche Instrument anstelle eines klassischen
+  Energierichtplans; ob damit «EK-EE-4» formell erfüllt ist, sagt die Quelle nicht. Einsiedeln,
+  Küssnacht, Wollerau und Lachen bleiben ungeprüft.
 - **Zürich: Wärmeversorgungsverordnung (WVV) der Stadt Zürich (in Kraft 1.7.2023)** wurde nur via
   WebFetch-Sekundärzitat erfasst («definiert die Regeln für die Umsetzung der Transformation und
   die Stilllegung des Gasverteilnetzes») — der Volltext wurde nicht gelesen und dürfte zusätzliche,

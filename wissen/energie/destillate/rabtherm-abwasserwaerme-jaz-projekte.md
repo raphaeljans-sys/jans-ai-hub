@@ -139,10 +139,16 @@ gemessene Leistungszahl) blieb erfolglos.
   Effizienzkennzahl**, mit der sich eine Betriebskostenprognose rechnen liesse. Für eine
   Wirtschaftlichkeitsrechnung an einem dieser Standorte braucht es zwingend eine eigene
   Anfrage bei Rabtherm/EWZ/Werke Wädenswil nach dem aktuellen Betriebsergebnis, oder eine
-  Schätzung über die im Kanton Zürich beobachtete Bandbreite realer Vergleichswerte (COP 4,0
-  bis 7,0 über fünf verschiedene, real benannte Schweizer Anlagen, siehe [[abwasserwaermepumpe-jaz-foerderung-vertiefung-zh]]
-  und Punkt 3 oben) — mit dem klaren Vorbehalt, dass keiner dieser Werte SEPEMO-konform über
-  eine volle Heizperiode gemessen wurde.
+  grobe Einordnung über die Bandbreite realer, benannter Schweizer Vergleichsanlagen:
+  Arbeitszahl 4,4 (Zwingen BL, Raumheizung) und Arbeitszahl «gegen 7» (Basel-Allschwil,
+  sommerlastiger Betrieb, laut Quelle nicht auf eine ganzjährige Heizperioden-JAZ übertragbar)
+  gegenüber den Herstellerwerten COP ca. 4,0 (Wintower Winterthur ZH, Auslegungs-/
+  Bemessungspunkt) und COP 5,7 (Lausanne VD, Betriebswert nach dem ersten Vollbetriebsjahr,
+  nicht als JAZ deklariert), siehe [[abwasserwaermepumpe-jaz-foerderung-vertiefung-zh]] und
+  Punkt 3 oben. Von diesen vier Anlagen liegt nur der Wintower im Kanton Zürich. COP und
+  Arbeitszahl sind nach [[cop-scop-jaz-waermepumpe-gruenenwald]] verschiedene Grössen und
+  dürfen nicht zu einem einzigen Band verrechnet werden; keiner der vier Werte ist SEPEMO-
+  konform über eine volle Heizperiode gemessen.
 - **Die 70-%-Abwasseranteil-Angabe für Winterthur-Wässerwiesen ist für eine Energienachweis-
   Betrachtung nützlicher als ein fehlender JAZ-Wert**: Sie zeigt, dass die Anlage die kantonale
   Mindestanforderung an nicht-fossile Wärmeerzeugung klar übertrifft — ein Argument, das sich

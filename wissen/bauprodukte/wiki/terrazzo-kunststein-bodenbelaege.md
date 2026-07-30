@@ -1,9 +1,9 @@
 ---
 title: "Terrazzo und Kunststein-Plattenboden — Aufbauvarianten, Kosten, Ausführungsrisiken (Materialrecherche 2002)"
 status: emerging
-last_updated: 2026-07-28
+last_updated: 2026-07-30
 sources: ["020226 Terrazzo 1.doc" (BKP 281 Bodenbeläge, Materialrecherche Architekturbüro Christian Kerez Zürich, Projekt Schule Eschenbach, Bearbeiter «WR», Sitzung Fa. Studer Frick mit Herrn Wigmann/Wigeth, datiert 26.02.2002), "020226 Terrazzo 2.doc" (dieselbe Sitzung, Projekt MFH Forsterstrasse, datiert 26.02.2002)]
-links: [[REGISTER]]
+links: [[REGISTER]], [[../../normen/destillate/sia-244-2006]], [[../../normen/destillate/bfu-bodenbelaege]]
 ---
 
 # Terrazzo und Kunststein-Plattenboden — Aufbauvarianten, Kosten, Ausführungsrisiken
@@ -24,6 +24,20 @@ sind Stand 2002 (24 Jahre alt) und ohne Neuabklärung nicht offertfähig
 (Datumsstempel-Pflicht); die **Aufbau-Systematik und die handwerklichen
 Ausführungsrisiken** bleiben als Fachwissen brauchbar, weil sie verfahrensbedingt
 sind und nicht produktspezifisch.
+
+## Normative Grundlage Gleitfestigkeit (nachgetragen Wissens-Chef Run 21, 30.07.2026, gegen `wissen/normen/` verifiziert)
+
+Die 2002er-Quelle enthält keine Rutschfestigkeitsangaben. Die normative Einordnung liegt
+in der KB `normen`, **führend ist dort SIA 244:2006 «Kunststeinarbeiten», Ziff. 6.7
+«Gleitfestigkeit»** (Destillat `wissen/normen/destillate/sia-244-2006.md`, Status
+`established`). Die Raum-Zuordnung der Gleitfestigkeits-Bewertungsgruppen steht in
+`wissen/normen/destillate/bfu-bodenbelaege.md`; die bfu-Publikationen sind
+**Auslegungshilfen, keine Normen** (im Streitfall gilt die Norm), und das Destillat
+trägt dort noch den Status `speculative`. Werte werden hier bewusst nicht
+fortgeschrieben (Rule `normen-referenz`) — für die konkrete Klasse in der jeweiligen
+Fundstelle nachlesen. Offen bleiben zwei Punkte (s. `wiki/QUESTIONS.md` Punkt 8): die
+produktbezogen erreichte Klasse für geschliffenen Terrazzo/Kunststein und das
+Reinigungs-/Pflegeverhalten.
 
 ## Kunststein-Plattenboden (BKP 281.5)
 
@@ -102,9 +116,12 @@ nachträgliche Risse im Belag.
 - **Aufbaudicke 12 cm für monolithischen Terrazzo** ist ein Anhaltspunkt für die
   Rohbau-Koordination (Deckenaufbau/lichte Höhe), nicht für die Statik.
 - Herstellerneutral formuliert für ein LV: «Bodenbelag aus Kunststein[/Terrazzo],
-  [Format/Aufbaudicke], Fuge [Breite], Oberfläche geschliffen [Schliffgrad]» — Fa.
-  Studer Frick nur als historische Beispielquelle der Sitzung, nicht als Vorgabe
-  (Rule 260626).
+  [Format/Aufbaudicke], Fuge [Breite], Oberfläche geschliffen [Schliffgrad],
+  Gleitfestigkeit gemäss bfu-Anforderungsliste 2.032, Tabelle [Nr.], Bewertungsgruppe
+  [GS…/R…]» — Fa. Studer Frick nur als historische Beispielquelle der Sitzung, nicht
+  als Vorgabe (Rule 260626). Die **Gleitfestigkeitsklasse ist Pflichtangabe**; führend
+  für die Anforderung ist SIA 244:2006 Ziff. 6.7, die Raum-/Klassenzuordnung steht im
+  bfu-Destillat der KB `normen` (Werte dort nachlesen, hier nicht fortgeschrieben).
 
 ## Offene Punkte
 

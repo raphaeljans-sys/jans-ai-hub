@@ -2,6 +2,34 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-30 (Wissens-Chef Run 21, Cross-KB) — Giebelweg-12-Endstand nachgefuehrt, Baar-Querverweis gesetzt
+- **[widerspruch] `wiki/projekt-giebelweg12.md` (Abschnitt «Machbarkeitsstudie (Juni 2026)») auf den
+  Endstand vom 13.06.2026 nachgefuehrt.** Vorher stand dort der am selben Tag verworfene
+  Zwischenstand «ausgemitteltes MT 549.27 m ue.M. → volle Attika 130.25 m2, 1'259 ≤ 1'267 m3,
+  Reserve 8 m3». Neu: Abtreppung in drei Stufen (Stufendaecher 554.61 / 553.55 / 552.48 m ue.M.,
+  Fassadenhoehe 4.5 m an jeder Ecke einzeln), Attika regelkonform 128.9 m2, **1'162 m3 anrechenbar,
+  Reserve 105 m3**. Der Mittelwert 549.27 steht neu ausdruecklich nur als MT-Statistik
+  (min 548.00 / mean 549.27 / max 551.09), nicht als Rechenweg — eine Ausmittelung ueber den
+  Fussabdruck ist unzulaessig. Fuehrung ergaenzt: Zahlen aus der Projekt-Wahrheit
+  (Rule `projekt-ablage-stand`), Methode aus Skill `massgebendes-terrain`.
+  Verifiziert am Original vor dem Edit: PROJEKT-STAND.md im Projektordner 2621 (Eintraege 260612
+  Version 2 und 260613 Version 3, Deliverable-Tabelle Zeile 260613) und Volltext des Deliverables
+  `12_MBS_Vorlagenstil/260612_Hangschnitt-Nachweis_Giebelweg-12.pdf` (Dateiname 260612, Inhalt
+  Version 3, mtime 13.06.2026 00:30). Frontmatter `last_updated` und `sources` entsprechend gesetzt.
+- **[historie] `outputs/2026-07-24_giebelweg12-projektstand.md` nicht umgeschrieben**, sondern mit
+  einer datierten Korrekturnotiz am Kopf versehen (Outputs bleiben historisch).
+- **[querverlinkung] `wiki/QUESTIONS.md` und `wiki/INDEX.md`: Baar Zugerstrasse 49 nicht umgebucht**,
+  sondern je um dieselbe Beleg-Zeile ergaenzt — Teilaspekt «Referenzfall fuer Skill
+  `ankaufspruefung`» erledigt (`skills/ankaufspruefung/SKILL.md`, Abschnitt
+  «JANS-Goldstandard-Methodik (Beleg: reale TDD 2513 BAAR, Zugerstrasse 49)», Z. 78-109, bestehend
+  seit 03.06.2026); offen bleiben Projekt-Detailartikel und Ausgang der Ankaufsentscheidung. Der
+  OneDrive-/EDEADLK-Blocker-Hinweis blieb unveraendert, weil er beide offenen Teile betrifft.
+- **[extern] Ausserhalb dieser KB mitgeaendert (kein eigener CHANGELOG):**
+  `skills/massgebendes-terrain/SKILL.md` (Validierter Fall auf 1'162 m3 / Attika 128.9 m2 / Endstand
+  260613 nachgefuehrt, Zwischenstand 1'167 m3 als ueberholt markiert) und
+  `skills/stockwerkeigentum/SKILL.md` (neue Ziffer 6 «Kunden-Kontext» in «Eingaben, die du brauchst»;
+  Kunden-KB-Zeile im Compounding-Punkt auf `wissen/kunde-<name>/`, Prototyp `kunde-bopp` konkretisiert).
+
 ## 2026-07-25 — Dritter Wissens-Health-Check (Phase 1, Mac Mini Nachtschicht)
 - Re-Audit nach 21.07.: A0 gruen · B2 gelb (dieselben 2 toten Backlinks, unveraendert seit
   01.07.) · C0 gruen (neuer Artikel `projekt-giebelweg12` sauber belegt) · D0 gruen (Sonderfall)

@@ -40,6 +40,9 @@ Wohn- und Healthcare-Bauten, Kt. Zuerich / Schwyz / Thurgau.
    Ausbaustandard, Nutzungsart, Aussenflaechen (Terrasse/Balkon/Garten anteilig), Nebenraeume.
 4. **Plaene** — Geschossplaene mit Bemassung fuer Flaechenermittlung und Sonderrechts-Abgrenzung.
 5. **Bei Pruefung** — bestehende Begruendungsurkunde / Reglement / Wertquotentabelle.
+6. **Kunden-Kontext** — Wissens-Layer `wissen/kunde-bopp/` (oder der zustaendige Kunden-KB): in
+   welcher Rolle/fuer welche Eigentuemerschaft der Auftraggeber handelt (er kann unter mehreren
+   Firmen/Absendern auftreten), bekannte Projekte, frueheres Vorgehen.
 
 ## Wissensbasis (ZGB-Grundlagen)
 
@@ -99,7 +102,8 @@ Flaeche**:
 4. **Nutzungs- und Verwaltungsreglement-Entwurf (DOCX+PDF)** — auf Wunsch.
 5. **Doppelte Ablage** (AI-Hub-Output + Projekt-Ordner).
 6. **Compounding:** taugliche Muster (Reglement-Bausteine, Gewichtungsschema) als Wiki-Artikel im
-   Wissens-Layer festhalten; kundenspezifische Eigenheiten in den Kunden-KB.
+   Wissens-Layer festhalten; kundenspezifische Eigenheiten in den Kunden-KB
+   (`wissen/kunde-<name>/`, Prototyp `kunde-bopp`).
 
 ## Hinweise / Abgrenzung
 

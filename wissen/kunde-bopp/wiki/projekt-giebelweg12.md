@@ -1,8 +1,8 @@
 ---
 title: Projekt Giebelweg 12, Langnau a/A
 status: emerging
-last_updated: 2026-07-24
-sources: [PROJEKT-STAND.md im Projektordner (Stand 16.06.2026), Korrespondenzordner 02_BH_Bopp_Christoph (Dateien bis 30.06.2026), outputs/2026-07-24_giebelweg12-projektstand.md]
+last_updated: 2026-07-30
+sources: [PROJEKT-STAND.md im Projektordner (Stand 16.06.2026), Deliverable 260612_Hangschnitt-Nachweis_Giebelweg-12.pdf (Inhalt Version 3, 13.06.2026), Korrespondenzordner 02_BH_Bopp_Christoph (Dateien bis 30.06.2026), outputs/2026-07-24_giebelweg12-projektstand.md]
 links: [[profil-christoph-bopp]]
 ---
 
@@ -16,8 +16,15 @@ Bestands mit 904 m³.
 
 Referenzvariante B (Flachdach + Attika, 3 WE, Rohgeometrie Raphaels vom 12.06.) lag zunächst 176 m³
 über dem Bonus-Baumassen-Budget (1'267 m³). Gelöst über den Hangschnitt-Nachweis massgebendes
-Terrain (ausgemitteltes MT 549.27 m ü.M.): volle Attika (130.25 m²) budgetkonform, 1'259 ≤
-1'267 m³, Reserve 8 m³. Dieses Projekt hat den Skill `massgebendes-terrain`
+Terrain mit **Abtreppung in drei Stufen** (Stufendächer 554.61 / 553.55 / 552.48 m ü.M.,
+Fassadenhöhe 4.5 m an jeder Gebäudeecke einzeln) und regelkonform gesetzter Attika von 128.9 m²:
+**1'162 m³ anrechenbar, Reserve 105 m³** (Stand 13.06.2026, Nachweis Version 3). Die MT-Statistik
+über den Fussabdruck lautet min 548.00 / mean 549.27 / max 551.09 m ü.M.; der Mittelwert ist eine
+Kennzahl, **kein Rechenweg** (eine Ausmittelung über den Fussabdruck ist unzulässig, sie schönt die
+talseitigen Ecken). Führend für die Zahlen ist die Projekt-Wahrheit (PROJEKT-STAND.md im
+Projektordner und das Deliverable `12_MBS_Vorlagenstil/260612_Hangschnitt-Nachweis_Giebelweg-12.pdf`,
+Inhalt Version 3) gemäss Rule `projekt-ablage-stand`; führend für die Methode ist der Skill
+`massgebendes-terrain`. Dieses Projekt hat den Skill `massgebendes-terrain`
 (Prinzip 4 Attika-/Baukörper-Setzung) mitbegründet.
 
 ## Baulinien-Einwendung (Stand 30.06.2026)
