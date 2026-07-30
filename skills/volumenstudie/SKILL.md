@@ -147,3 +147,22 @@ bei Bedarf `--produkt punktwolke` (swissSURFACE3D, LAZ).
 3. Attika-Rücksprung / gestaffelte Volumen (Variantensyntax erweitern)
 4. IFC-Export fuer ArchiCAD 27 (Uebergabe Studie → Projekt)
 5. Integration als Fan-out-Schritt im Skill `machbarkeit` (Typ A Volumenstudie)
+
+## Verbindliche Regeln (aus auto-verbesserungen promoviert, 30.07.2026)
+
+Gelten auch für machbarkeit, machbarkeit-studio und massgebendes-terrain.
+
+- **Immer auf das maximal zulässige Volumen** (Regel 260624): Zonen-Grundmasse prüfen
+  (baurecht/OEREB/BO) und die bindenden Maxima ausreizen (Fassaden-/Gebäudehöhe, Geschosse,
+  AZ als Deckel); aGF und GV ausweisen, Annahmen markieren.
+- **3D-/Situationsmodelle immer auf echten swisstopo-Grundlagen** (Regel 260627): Gelände
+  aus swissALTI3D, Nachbargebäude aus swissBUILDINGS3D, bei Bedarf swissSURFACE3D, Parzelle
+  aus amtlicher Vermessung — via bestehende Connectoren (geo-zh.mjs, geoshop-zh.mjs,
+  swisstopo STAC). Keine Platzhalter-Geometrie; nicht beschaffbare Grundlagen als Annahme
+  ausweisen.
+- **Baukörper ausgerichtet und gegliedert, nie schräger Quader** (Regel 260627b): Hauptachse
+  an Parzelle/Strasse bzw. dominanter Nachbarbebauung, nie achsparallel zu Landeskoordinaten;
+  architektonisch gliedern wie in den JANS-Referenz-Variantenstudien (Dachform, Staffelung,
+  Firstrichtung).
+- **C4D-Rendering immer über die Render-Weiche** (Regel 260611): `tools/render-remote.sh`
+  (rendert auf dem Mac Mini, Maxon-Lizenz dort); lokal nur mit `JANS_RENDER_LOCAL=1`.

@@ -594,11 +594,11 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   **A:** **Nein.** Privates Recht bleibt im baurechtlichen Bewilligungsverfahren grundsaetzlich
   **unberuecksichtigt** (§ 317 PBG); es ist auf dem **Zivilweg** (Bezirksgericht) durchzusetzen.
   Umgekehrt entbindet die Baubewilligung nicht vom Nachbarrecht (**Art. 679 Abs. 1** i.V.m.
-  Art. 684 ZGB — **korrigiert Run 69**: frueher stand hier Abs. 2, der genau umgekehrt eine
+  Art. 684 ZGB — **korrigiert Run 71**: frueher stand hier Abs. 2, der genau umgekehrt eine
   Anspruchs*beschraenkung* ist). (Bd 1, S. 82 f.) _[2026-06-30, korr. 2026-07-30]_
 - **F:** Sind SIA-Normen verbindliches oeffentliches Recht? — **A:** Als Ganzes **nein**. Drei Stufen:
   **verbindlich**, wo ausdruecklich erklaert — Mechanismus **§ 3 Abs. 1/2 BBV I i.V.m. Anhang
-  Ziff. 1** (**korrigiert Run 69**: «§ 3 Abs. 12 BBV I» existiert nicht; und Anhang Ziff. 1.2/1.21
+  Ziff. 1** (**korrigiert Run 71**: «§ 3 Abs. 12 BBV I» existiert nicht; und Anhang Ziff. 1.2/1.21
   sind per 1.9.2022 aufgehoben, SIA 181 wirkt heute ueber **Art. 32 Abs. 1 LSV**);
   **beachtlich**, vom RR fuer massgeblich erklaert — Abweichung nur «aus **wichtigen Gruenden**»
   (§ 360 Abs. 3 PBG); **weitere** Normen = Ausdruck der gebotenen Sorgfalt (SIA 358, VSS 40 291).
@@ -1088,7 +1088,7 @@ Antwort frei + belegt gelingt. Datum = letzte korrekte Wiederholung.
   passieren, obwohl die korrekte Antwort im Haus lag? — **A:** Die **Verdichtung** vom
   Buch-Destillat in den Wiki-Fliesstext ist eine eigene Kompressionsstufe, die Fehler unabhaengig
   von Destillat/Drills neu einfuehren kann (gleiches Muster wie Art. 679 Abs. 2 ZGB / § 220 PBG in
-  Run 69). **Lehre fuer jeden Modell-D-Lauf:** den Wiki-Artikel nicht nur gegen den amtlichen
+  Run 71). **Lehre fuer jeden Modell-D-Lauf:** den Wiki-Artikel nicht nur gegen den amtlichen
   Volltext abgleichen, sondern auch gegen das eigene Buch-Destillat und bestehende Drills — eine
   bereits vorhandene Korrektur kann sonst unbemerkt wieder verlorengehen. _[2026-07-30]_
 
@@ -2421,7 +2421,7 @@ verifizierte `emerging`-Artikel ([[enteignung-und-entschaedigung]],
 
 ---
 
-## Buch-Run 69 (2026-07-30) — Modell-D-Erstverifikation [[grundlagen-planungs-baurecht]] + Fassungsstand BBV-I-Anhang / KGSchV
+## Buch-Run 71 (2026-07-30) — Modell-D-Erstverifikation [[grundlagen-planungs-baurecht]] + Fassungsstand BBV-I-Anhang / KGSchV
 
 - **F (Modell D):** Ein Nachbar sagt: «Eure Baubewilligung nützt nichts, ich habe
   privatrechtliche Ansprüche — Art. 679 Abs. 2 ZGB.» Stimmt die Norm? — **A:** **Nein, er
@@ -2434,7 +2434,7 @@ verifizierte `emerging`-Artikel ([[enteignung-und-entschaedigung]],
   **nicht** eingehalten wurden» (Fedlex SR 210, Stand 01.01.2026; eingefügt per 1.1.2012,
   AS 2011 4637). Für den Entzug von Aussicht/Licht/Besonnung gilt also: **regelkonform gebaut =
   kein Anspruch**. Merksatz: Abs. 1 öffnet, Abs. 2 schliesst. Diese KB führte die Norm bis
-  Run 69 mit invertierter Polarität. _[2026-07-30]_
+  Run 71 mit invertierter Polarität. _[2026-07-30]_
 
 - **F (Modell D / Fassungsstand):** «SIA 181 ist im Kanton Zürich verbindlich erklärt — § 3
   Abs. 12 BBV I.» Zwei Fehler. Welche? — **A:** (1) **Formal:** § 3 BBV I hat **vier** Absätze;
@@ -2453,7 +2453,7 @@ verifizierte `emerging`-Artikel ([[enteignung-und-entschaedigung]],
   (Randtitel «C. Ausnahmebewilligungen»): «Von Bauvorschriften ist im Einzelfall zu befreien,
   wenn besondere Verhältnisse vorliegen, bei denen die Durchsetzung der Vorschriften
   **unverhältnismässig** erscheint.» **Nebenbestimmungen** (Auflagen/Bedingungen/Befristungen)
-  stehen dagegen in **§ 321 PBG**. Diese KB hatte § 220 bis Run 69 als «Nebenbestimmungen»
+  stehen dagegen in **§ 321 PBG**. Diese KB hatte § 220 bis Run 71 als «Nebenbestimmungen»
   etikettiert und falsch verlinkt — der Paragraph war als Verhältnismässigkeits-Beispiel richtig,
   nur die Beschriftung falsch. Weitere Anwendungsfälle: § 205 PBG (Natur-/Heimatschutz), § 238
   Abs. 1 PBG (Ästhetik, kein schöpferischer Spielraum, RB 1989 Nr. 36), § 328 PBG

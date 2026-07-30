@@ -153,7 +153,7 @@ unter Beachtung von Normen, die nur **subsidiaer** als anerkannte Regeln gelten.
     = Waermelieferung an mehrere Gebaeude, technisch/wirtschaftlich gleichwertige
     Gleichstellung gegenueber konventioneller Anlage (S. 1300-1301).
   - **Erdwaerme/Erdwaermesonden:** Tiefe 40-300 m; SIA-Norm 384-6 «Erdwaermesonden»
-    (Projektierung/Dimensionierung); Bewilligung/Aufsicht AWEL (§ 36 KGSchV **[Fassungsstand Buch-Run 69: die KGSchV (LS 711.11) ist per 01.01.2022 AUFGEHOBEN (zhlex-Erlassseite LS 711.11, Staatskanzlei: Erlassdatum 22.01.1975, Inkraftsetzung 01.07.1975, Aufhebungsdatum 01.01.2022, letzte Fassung Nachtrag 099). Buchtext (6. Aufl. 2019) zitiert totes Recht; Nachfolgeerlass noch nicht belegt — die WsV LS 724.11 (in Kraft 01.06.2026) enthaelt keine Aufhebungsklausel zur KGSchV. Offen in QUESTIONS.md.]**) (S. 1303).
+    (Projektierung/Dimensionierung); Bewilligung/Aufsicht AWEL (§ 36 KGSchV **[Fassungsstand Buch-Run 71: die KGSchV (LS 711.11) ist per 01.01.2022 AUFGEHOBEN (zhlex-Erlassseite LS 711.11, Staatskanzlei: Erlassdatum 22.01.1975, Inkraftsetzung 01.07.1975, Aufhebungsdatum 01.01.2022, letzte Fassung Nachtrag 099). Buchtext (6. Aufl. 2019) zitiert totes Recht; Nachfolgeerlass noch nicht belegt — die WsV LS 724.11 (in Kraft 01.06.2026) enthaelt keine Aufhebungsklausel zur KGSchV. Offen in QUESTIONS.md.]**) (S. 1303).
   - **Nutzung Erdwaerme/Luft/Wasser § 10a EnerG:** Neubau so ausruesten, dass ≤ 80 % des
     Waermebedarfs aus nicht erneuerbaren Energien (Querverweis § 47a BBV I) (S. 1302).
   - **Befoerderungsanlagen § 296 PBG (volltextverifiziert 13.07.2026, Modell D):** Aufzuege,

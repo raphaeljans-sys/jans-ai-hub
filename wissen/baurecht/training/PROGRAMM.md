@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-07-30 (Run 69)
+last_updated: 2026-07-30 (Run 71)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -100,8 +100,8 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   raw-Datei belegt nur, dass der § **einmal** so lautete. Analog zur Grep-Falle: «existiert nicht» ist ohne
   Fassungspruefung nicht belastbar (Run 48: der Agent waere an der 2013er-Fassung beinahe zum Fehlschluss
   «§ 15m existiert nicht» gekommen).
-- **Verweisnormen ZWEITEILIG auf Fassungsstand pruefen (Pruefregel Modell D, seit Run 69):** die
-  Fassungspruefung aus Run 48 galt dem **Erlass** (gilt er noch? welcher Nachtrag?). Run 69 fand die
+- **Verweisnormen ZWEITEILIG auf Fassungsstand pruefen (Pruefregel Modell D, seit Run 71):** die
+  Fassungspruefung aus Run 48 galt dem **Erlass** (gilt er noch? welcher Nachtrag?). Run 71 fand die
   Drift eine **Ebene darunter**: bei Verweisnormen (§ 3 BBV I → Anhang Ziff. 1; § 360 Abs. 3 PBG →
   Richtlinien/Normalien) ist der Erlass unveraendert in Kraft (BBV I: Nachtrag 133) und **nur die
   verwiesene Anhangsziffer** aufgehoben — Anhang Ziff. 1.2/1.21 BBV I per **1.9.2022** (RRB 8.6.2022,
@@ -118,6 +118,58 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   divergieren** (Run 47: Gewaesserraum-Tabelle widersprach dem eigenen Fliesstext ueber 2 Laeufe
   hinweg; «Art. 32bis USG» ueberlebte in 4 Registern). Nach jeder Korrektur `grep -rn` ueber alle
   sechs Dateiarten laufen lassen.
+
+## PRIORITÄT (d) — NEU 30.07.2026: Umgebungs-/Gestaltungsrecht vertiefen + Thalwil-Korpus
+
+**Auftrag Raphael, 30.07.2026**, ausgelöst durch die Eingabe «Begleitbeschrieb Projektänderung
+Bohlweg 3» vom selben Tag: die dort abgefragten Themen sollen im Loop **vertieft** werden, und
+der Baurechts-/Reglemente-Ordner des Projekts ist als **zweite Korpus-Quelle** einzuarbeiten.
+
+**Fahrplan:** `training/KORPUS-QUEUE-thalwil-reglemente.md` (8 Batches T1-T8, 243 Dateien,
+Quelle auf dem Mac Mini, vom MacBook via `ssh mini` lesbar). Pro Lauf **ein** Batch.
+
+### Die neun Themen, in denen der Harness sattelfest werden soll
+
+Alle stammen aus der realen Eingabe; die Klammer nennt den Stand in der KB.
+
+1. **Vorgarten- und Wegabstandsbereich** — Herrichtung als begrünter Vorgarten, Grünanteil,
+   zulässige Befestigung (im Wiki nur über § 238a PBG gestreift; die kommunale Regel
+   Art. 50 revBZO fehlt ganz).
+2. **Grünflächenziffer** — Berechnung, was abgezogen wird (Plattenwege!), Verhältnis zu
+   § 257 PBG (in [[nutzungsziffern]] nur kantonal, ohne Anrechnungspraxis).
+3. **Pflichtbäume** — Anzahl, Sorte/lateinischer Name, Pflanz- und Kronengrösse, Erhalt und
+   Ersatz (§ 238a Abs. 5 PBG **CONFIRMED** Run 71; kommunale Konkretisierung fehlt).
+4. **Einfriedungen, Gartenmauern, Sichtschutz** — die Vierebenen-Prüfung Zonenrecht /
+   Strassenrecht (§ 240 PBG, StrAV) / Privatrecht (§ 178 EG ZGB, 1,5 m) / Einordnung
+   (§ 238 Abs. 1 PBG). **Kein eigener Wiki-Artikel** — die grösste Lücke; Batch T2.
+5. **Negative Vorwirkung revidierter BZO** — ab wann welche Fassung, «jeweils die strengere»
+   (in [[baureife-und-erschliessung]] nur als planungsrechtliche Baureife § 234 PBG; die
+   Auslegungsfrage der BZO-Revision fehlt). Batch T1.
+6. **Einordnung § 238 Abs. 1 PBG als Verteidigungslinie** — «befriedigend, nicht optimal»,
+   objektive Massstäbe, darf ein rechtskonformes Vorhaben nicht verhindern, Begründungspflicht
+   des ablehnenden Entscheids. Rechtsprechungs-Register aufbauen.
+7. **Besondere Gebäude** — 7-%-Regel (Art. 24 Abs. 1 BZO Thalwil **CONFIRMED** Run 71 am
+   amtlichen BZO-Volltext), Verhältnis zu § 273 PBG.
+8. **Näherbaurecht** — § 218 Abs. 2 / § 270 Abs. 3 PBG (beide **CONFIRMED** Run 71), plus die
+   praktische Seite: Grundbuch, SBB als Nachbar, Aktualisierung bei Projektänderung. Batch T6.
+9. **Strassenabstandsverordnung (StrAV)** — §§ 11/12/16: Vorsprünge, Türen/Tore,
+   Materialien bis 2,5 m, Sichtbereiche 0,8 m. **Volltext fehlt in `raw/`** — beschaffen.
+
+### Gemessene Lücken aus der Eingabe vom 30.07.2026 (Beleg, dass die Vertiefung nötig ist)
+
+- **revBZO Thalwil ist nicht in der KB.** `raw/260607_amtlich_zh_bzo-thalwil.md` ist die
+  **alte** Fassung; dort ist Art. 31 «Lärmempfindlichkeitsstufen», im Begleitbeschrieb
+  dagegen «Grünflächenziffer». Die revBZO-Artikel waren aus der KB **nicht verifizierbar** —
+  die Synopse liegt im Reglemente-Ordner (Batch T1).
+- **StrAV fehlt** als Volltext, obwohl sie die Einfriedungshöhen trägt.
+- **§ 178 EG ZGB** ist belegt (`raw/260725_amtlich_zh_egzgb.md` + Destillat Kap. 22:
+  «tote Hecke/Holzwand/Mauer an Grenze bis 150 cm»), aber in **keinem** Wiki-Artikel geführt.
+
+### Verhältnis zu den bestehenden Prioritäten
+
+(d) tritt **neben** (a)-(c), nicht an deren Stelle. Reihenfolge pro Lauf weiterhin 1-2 Blöcke:
+solange die Queue offen ist, ist **ein Batch aus (d) der Regelblock**, ergänzt um (b) oder (c)
+nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeitet.
 
 ## Fortschritts-Tracker
 
@@ -176,7 +228,7 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
     belegt sie aber nicht. An zhlex LS 711.11 prüfen. **Drittkanal (andere KB, nur melden):**
     `planungsgrundlagen/wiki/kartenportale-oereb-kataster-system-zh.md` Z. 32/34 führt «LS 711.1
     §§ 3/34/37» als geltende ÖREB-Rechtsgrundlage der Themen 130/132 — dort mitzuziehen.
-  - **Run 69 (2026-07-30, Festigungsmodus, Priorität (c) Erst-Verifikation + Priorität (a) zwei
+  - **Run 71 (2026-07-30, Festigungsmodus, Priorität (c) Erst-Verifikation + Priorität (a) zwei
     beschaffbare Lücken, kein Agent-Fan-out):** [[grundlagen-planungs-baurecht]] gewählt — der
     **letzte** nie durch den Modell-D-Loop gelaufene Artikel (kein `verifiziert`-Feld, `emerging`
     seit 2026-06-30). Vollständiger Wortlautabgleich §§ 317/218 Abs. 2/270 Abs. 3/238 Abs. 1/320/
@@ -209,7 +261,7 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
     1 Statuserhöhung, 2 Lücken geschlossen, 3 Fragen neu/offen.** 4 neue Drill-Karten.
     **Neue Leitplanke eingetragen:** Verweisnormen zweiteilig prüfen (Erlass UND Anhangsziffer altern
     getrennt) + Warnsignal «§ N Abs. NN» mit zweistelligem Absatz. Report
-    `outputs/2026-07-30_buch-run69.md`. **«Rückstand abgebaut» weiterhin NICHT ausgerufen**
+    `outputs/2026-07-30_buch-run71.md`. **«Rückstand abgebaut» weiterhin NICHT ausgerufen**
     (Leitplanke Run 48) — der Artikel galt vier Wochen als «vollständig erschlossen» und trug drei
     substanzielle Fehler, einen davon mit umgekehrter Rechtsfolge. **Nächster Schritt:** die
     Erst-Verifikations-Liste ist abgearbeitet; es beginnt ein **neuer Umlauf über die ältesten

@@ -35,7 +35,7 @@ kommunalen Erlass.
   faelschlich § 242 Abs. 2 zugeordnet — derselbe Fehler war im Buch-Destillat
   [[13-fahrzeugabstellplaetze-spielflaechen-teil3]] bereits am 2026-07-12 erkannt und dort
   korrigiert, aber nie in diesen Wiki-Artikel nachgezogen worden (Verdichtungs-Drift, Muster
-  wie Run 69 Art. 679 ZGB / § 220 PBG).
+  wie Run 71 Art. 679 ZGB / § 220 PBG).
 - Steuernde Instrumente:
   - **Massnahmenplan Luftreinhaltung** (Art. 44a USG / Art. 31 LRV; ZH: Fassung 2008, Teil-
     revision 2016): behoerdenverbindliche Verwaltungsverordnung, **allein keine Grundlage

@@ -166,9 +166,10 @@ Wahlentscheidung als nachvollziehbares Stufenmodell auf, statt eine Pauschalanna
 - **Do:** Frage zuerst spiegeln (schriftlich-präzise Fragen wörtlich zitieren + «Antwort:»,
   Gesprächsfragen zusammenfassen); in Varianten denken; rechnen statt behaupten; Bedingung+
   Folge+Aufwand koppeln; bewilligungsfähigen Weg aufzeigen; Risiken benennen; Honorar als
-  Rechenergebnis **direkt und vollständig** beziffern, warm gerahmt (nie weichspülen/kleinrechnen).
+  Rechenergebnis **direkt und vollständig** beziffern, warm gerahmt (nie weichspülen/
+  kleinrechnen).
 - **Don't:** unbelegte Pauschalurteile; Zahlen erfinden (Identifikatoren/Kennwerte immer
-  verifizieren, vgl. Rule identifikatoren-verifizieren); Ja/Nein ohne Spielraum-Prüfung;
+  verifizieren, Rule identifikatoren-verifizieren); Ja/Nein ohne Spielraum-Prüfung;
   Honorarzahlen entschuldigen oder verhandelnd kleinreden.
 
 ## Wenn-dann-Stufenmodell mit Kosten-/Verfahrenskonsequenz + proaktiver Risiko-Vorgriff (belegt Mailbatch 20, authentisch)

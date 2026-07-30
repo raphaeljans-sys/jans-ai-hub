@@ -69,7 +69,7 @@ Bestand:** in jeder weiteren
 «KB-Autorentext, nicht amtlich» kennzeichnen — sonst wiederholt sich der Mechanismus bei jeder
 Konkordanz-, Mapping- oder Übersichtstabelle im Bestand.
 
-## 2026-07-30 (Buch-Run 69) — P1 aus Wissens-Chef Run 18 GESCHLOSSEN: WsG + WsV liegen jetzt in `raw/`
+## 2026-07-30 (Buch-Run 71) — P1 aus Wissens-Chef Run 18 GESCHLOSSEN: WsG + WsV liegen jetzt in `raw/`
 
 Die am 27.07. gemeldete Lücke («die führende KB zitiert das WsG an rund vierzehn Stellen und hat
 seinen Volltext nicht») ist geschlossen. Beide amtlichen Volltexte sind über den in der Meldung
@@ -95,7 +95,7 @@ Chef-Bericht übernommene Aufhebung des EG GSchG ist damit KB-intern belegt.
    Grundbuchmeldung nach *Landumlegung*. Eine Entsprechung für die Schutzzonen-Anmerkung ist
    nicht auffindbar.
 
-## 2026-07-30 (Buch-Run 69) — KGSchV (LS 711.11) ist aufgehoben; Nachfolgeerlass noch unbelegt
+## 2026-07-30 (Buch-Run 71) — KGSchV (LS 711.11) ist aufgehoben; Nachfolgeerlass noch unbelegt
 
 **Bring-Schuld aus dem PROGRAMM-Tracker beantwortet, aber nur zur Hälfte.** Die zhlex-Erlassseite
 der Staatskanzlei zu LS 711.11 weist amtlich aus: Erlassdatum 22.01.1975, Inkraftsetzung
@@ -111,7 +111,7 @@ damit ohne Nachfolgezeiger für die Periode 2022–2026. Indiz, nicht Beleg: die
 Entzug von Erdwärme, b. der Eintrag von Wärme in das Erdreich» — am Volltext bestätigt).
 Nächster Schritt: OS-Band der Jahre 2021/2022 nach dem aufhebenden RRB durchsuchen.
 
-## 2026-07-30 (Buch-Run 69) — Ist SIA 380/1 noch «teilverbindlich»?
+## 2026-07-30 (Buch-Run 71) — Ist SIA 380/1 noch «teilverbindlich»?
 
 Das Standardwerk (Bd 1, S. 85) nennt SIA 380/1 «Thermische Energie im Hochbau» als
 teilverbindlich erklärte Norm. Am geltenden **Anhang Ziff. 1 BBV I** (Nachtrag 133) ist das

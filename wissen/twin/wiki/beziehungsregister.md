@@ -414,29 +414,28 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   <Vorname>», Architektenkollege/Wettbewerbspartner→Peer-Du «Guten Morgen <Vorname>» + «Lieber
   Gruss», Privatkunde-Sie warm→Guten Tag, warm-sozial/branchenfern→Liebe/r + ev. 😊 + «Beste
   Grüsse», rein privat-sozial mit Mundart-Spiegel→Mundart, Fachplaner/extern→Sie, kalt→Sehr
-  geehrte. Behörde nach Vertrautheit UND Gewicht des Anliegens (bekannt→Geschätzte/r; unbekanntes/
-  generisches Postfach: triviale Service-/Koordinations-/Technik-Bitte→namenloses «Guten Tag»/
-  «Grüezi», gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und Herren» — dasselbe
-  Postfach hebt mit dem Gewicht des Anliegens: belegt Notariat Hottingen «Guten Tag» bei simpler
-  Koordination (Juli 2025), «Sehr geehrte Damen und Herren» beim a–f-Statutenänderungs-Ersuchen
-  (Nov 2025); gestapelt bei mehreren). Die triviale technische Service-Bitte an ein Sammelpostfach
-  trägt NUR die höfliche Kurzbitte «Bitte veranlassen Sie …» + FG+Block, OHNE Begründung/Dank-im-
-  Voraus/Service-Satz (die «Bitte-immer-mit-Begründung»-Regel gilt der substanziellen Behörden-
-  Bitte, nicht dem technischen Ein-Zeiler). Anrede mit wachsender Vertrautheit nachziehen; Opener
-  aus Anlass + Tageszeit + Vertrautheit (vormittags im operativen Du «Guten Morgen <Vorname>» als
-  Default); vermittelte/warme Erstanfrage→«Geschätzte/r», das kalte «Sehr geehrte/r» nur für
+  geehrte. Behörde nach Vertrautheit UND Gewicht des Anliegens: bekannt→Geschätzte/r;
+  unbekanntes/generisches Postfach: triviale Service-/Koordinations-/Technik-Bitte→namenloses
+  «Guten Tag»/«Grüezi», gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und
+  Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren. Die
+  triviale technische Service-Bitte an ein Sammelpostfach trägt NUR die höfliche Kurzbitte
+  «Bitte veranlassen Sie …» + FG+Block, OHNE Begründung/Dank-im-Voraus/Service-Satz (die
+  «Bitte-immer-mit-Begründung»-Regel gilt der substanziellen Behörden-Bitte, nicht dem
+  technischen Ein-Zeiler). Anrede mit wachsender Vertrautheit nachziehen; Opener aus Anlass +
+  Tageszeit + Vertrautheit (vormittags im operativen Du «Guten Morgen <Vorname>» als Default);
+  vermittelte/warme Erstanfrage→«Geschätzte/r», das kalte «Sehr geehrte/r» nur für
   Behörden-/Submissions-Erstmail. Sammelpostfach: Person im Betreff («z.H. <Name>, <Rolle>»);
   Gruppenmails je Empfänger mischen, in kurzen Team-/Pendenz-Mails Aufträge per «@Name» im
-  Fliesstext. Gruss nach Mail-Typ; Stufe nur Richtwert; Du gross; «Darf ich … bitten» stets mit
-  Begründung.
-- **Don't:** «Hoi» an Unbekannte/Behörden; steifes Sie an vertraute Du-Kontakte; Register
-  ohne Grund hochschrauben; den persönlichen Bezug weglassen; **das Anrede-Wort des Gegenübers
-  spiegeln** (widerlegt 260717: auf «Hallo Raphael» antwortet er «Guten Morgen Peter», auf «Grüezi
-  Herr Jans» antwortet er «Geschätzte Frau Frick» — Anlass/Tageszeit/Vertrautheit entscheiden, nie
-  der Opener des Eingangs); bei einer Mahn-/Zahlungs- oder sonst geschäftskritischen Mail NUR den
-  sichtbaren Haupt-Du-Empfänger adressieren, ohne die Cc-/Mitbeteiligten zu prüfen — sind mehrere
-  Personen am Vorgang beteiligt (auch nur im Cc), gestapelte Anrede + kollektives «Euch»/«Ihr»
-  setzen, nicht das singuläre «Dich» (Fidelity 260725b).
+  Fliesstext. Gruss nach Mail-Typ; Stufe nur Richtwert; Du gross; «Darf ich … bitten» stets
+  mit Begründung.
+- **Don't:** «Hoi» an Unbekannte/Behörden; steifes Sie an vertraute Du-Kontakte; Register ohne
+  Grund hochschrauben; den persönlichen Bezug weglassen; **das Anrede-Wort des Gegenübers
+  spiegeln** (auf «Hallo Raphael» antwortet er «Guten Morgen Peter», auf «Grüezi Herr Jans»
+  «Geschätzte Frau Frick» — Anlass/Tageszeit/Vertrautheit entscheiden, nie der Opener des
+  Eingangs); bei einer Mahn-/Zahlungs- oder sonst geschäftskritischen Mail NUR den sichtbaren
+  Haupt-Du-Empfänger adressieren, ohne die Cc-/Mitbeteiligten zu prüfen — sind mehrere Personen
+  am Vorgang beteiligt (auch nur im Cc), gestapelte Anrede + kollektives «Euch»/«Ihr» setzen,
+  nicht das singuläre «Dich».
 
 ## Gestapelte Anrede + kollektives «Euch» auch im harten Mahn-/Zahlungskontext (belegt Fidelity 260725b, authentisch)
 Bestätigt «Register-Mix in EINER Mail» und «Kollektives ‹Euren Einsatz› trotz gemischtem Sie/Du-

@@ -44,9 +44,18 @@ Jedes aktive Projekt hat **eine** Datei `09_Dokumente/CLAUDE/PROJEKT-STAND.md`:
 - Trennung Projekt (SharePoint) / Hub (NAS) hält das NAS-Repo frei von Projektdaten und
   die Projektordner frei von Hub-Interna.
 
+## Plattform-Downloads und Konzept-Dokumente (promoviert 30.07.2026)
+
+- **Plattform-Downloads doppelt ablegen** (Regel 260612): Projektraum-Downloads (z.B.
+  Truninger DS3) auf die geteilte Projekt-Site UND die interne Site
+  (`99 Grundlagen/<…> DOWNLOAD PROJEKTRAUM/`); Hierarchie als exakter Spiegel der Quelle
+  (identische Namen/Verschachtelung, keine Umbenennung).
+- **Konzept-/Pipeline-Dokumente kanonisch aufs NAS** (Regel 260611): nach
+  `/Volumes/daten/jans-ai-hub/docs/konzepte/` (MD als Wahrheit, DOCX/PDF daneben);
+  OneDrive-Kopie optional.
+
 ## Geltungsbereich
 
 Alle Sessions auf allen Stationen, alle projektgebundenen Skills (machbarkeit, volumenstudie,
-kostenschaetzung, ausschreibung, …). Ergänzt `sync-kanonische-quelle.md` (Hub-Inhalte),
-`dateinamen-konvention.md` (Benennung) und den Auto-Verbesserungs-Eintrag 260611
-(Konzept-Dokumente → NAS `docs/konzepte/`).
+kostenschaetzung, ausschreibung, …). Ergänzt `sync-kanonische-quelle.md` (Hub-Inhalte) und
+`dateinamen-konvention.md` (Benennung).

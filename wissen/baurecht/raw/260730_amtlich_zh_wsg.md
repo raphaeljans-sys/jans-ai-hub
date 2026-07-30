@@ -10,7 +10,7 @@ pdf_url: https://www.notes.zh.ch/appl/zhlex_r.nsf/WebView/88B45406EADD17EDC1258D
 abgerufen: 2026-07-30
 fassungsstand: "Nachtrag 133; Erlass vom 12. Dezember 2022, in Kraft seit 1. Juni 2026 (OS 81, 145). Hebt nach § 126 das EG GSchG (LS 711.1) und das Wasserwirtschaftsgesetz vom 2. Juni 1991 auf."
 lizenz: Amtlicher Text — gemeinfrei (Art. 5 URG)
-beschafft_von: Buch-Run 69 (schliesst die P1-Luecke aus wiki/QUESTIONS.md, Wissens-Chef Run 18 vom 27.07.2026)
+beschafft_von: Buch-Run 71 (schliesst die P1-Luecke aus wiki/QUESTIONS.md, Wissens-Chef Run 18 vom 27.07.2026)
 konvertierung: pdftotext -layout
 ---
 

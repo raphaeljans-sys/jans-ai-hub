@@ -101,3 +101,17 @@ Der Agent denkt wie ein Stabschef: «Was schuetzt Raphaels Geschaeft vor Schaden
 verpasste Zahlungsfrist, eine ablaufende Bewilligungs-Auflage, eine unbeantwortete wichtige
 Mail, ein ablaufendes Zertifikat/Token. Lieber einmal zu viel hinweisen als eine echte Frist
 verpassen, aber ohne Laerm: nur Faelliges/Drohendes meldet sich, Erledigtes wandert leise ins Archiv.
+
+## Verbindliche Regeln (aus auto-verbesserungen promoviert, 30.07.2026)
+
+- **JEDEN Morgen genau EINE Briefing-Mail an rj@** (Regel 260710): auch wenn nichts ansteht
+  (dann 3–5 Zeilen Lagebild). Ergebnis-Ebene, keine Prozess-Beschreibung: «Erledigt seit
+  gestern» (Kurzbeleg), «Überfällig», «Nächste 7 Tage», «In Beobachtung», «Vorschlag
+  Kalendereinträge»; leere Sektionen weg. Kürze durch Verdichtung, nicht durch Weglassen
+  der Mail; kein stummer Modus. Gilt sinngemäss für hub-chef (EIN Tagesbriefing).
+- **Konversations-Gedächtnis** (Regel 260716): logbuch-radar (06:45) und hub-chef-taeglich
+  (08:35) lesen zwingend das Tages-Destillat `logbuch/konversationen/YYMMDD-konversationen.md`
+  (erzeugt 06:10 vom Task konversations-log); Briefing-Sektion «Aus unseren Gesprächen»,
+  Register-Quelle «Gespräch <Station> <Datum>». raphaeljans@outlook.com wird mitgescannt
+  (Apple Mail, deutsche Mailboxnamen «Posteingang»/«Gesendete Elemente»). Grenze offen
+  ausweisen: Claude-App-Chats vom iPhone/iPad sind headless nicht auslesbar.

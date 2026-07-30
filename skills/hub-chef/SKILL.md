@@ -75,3 +75,8 @@ aktivieren. Gute Briefings/Entwuerfe als Muster in die passende KB zurueckspiele
 - Governance: `logbuch/AKTIONS-WHITELIST.md` (Stufe 3, v1) · Kontroll-Schicht: Skill `logbuch`
 - Services: `services/KATALOG.md` · Spec-Gate: Rule `spec-methode` fuer neue grosse Vorhaben
 - QS: Skills `korrektur` + `twin` · System-Health: `heartbeat` (bleibt eigenstaendig)
+
+## Verbindliche Regeln (Verweis)
+
+EIN Tagesbriefing pro Tag und Pflicht-Lektüre des Konversations-Destillats: verbindlich
+geregelt in `skills/logbuch/SKILL.md`, Abschnitt «Verbindliche Regeln» (Regeln 260710/260716).

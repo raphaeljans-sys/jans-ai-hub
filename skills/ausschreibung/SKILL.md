@@ -337,3 +337,13 @@ Hier gehoeren hin:
 - `offertenpruefung` — Auswertung der eingegangenen Rueckmeldungen (Phase 3)
 - `kostenschaetzung` — Plausibilitaetscheck der Anbieter-Antworten
 - `terminplanung` — Eingabefrist mit Bauprogramm abgleichen
+
+## Verbindliche Regeln (aus auto-verbesserungen promoviert, 30.07.2026)
+
+- **Submissionsunterlagen neutral und offen formulieren** (Regel 260626): keine Angabe zur
+  Vergabeart; nie offenlegen, wer/wie viele eingeladen sind; Dokumente generisch («der
+  Anbieter»), nicht auf einen Lieferanten zugeschnitten; keine Verweise auf Bestandsverträge
+  oder KBOB. Sachliche Schnittstellen-Anforderungen erlaubt.
+- **Submittentenlisten** (Regel 260601): 3 Unternehmen je Gewerk, Gewerk-Blöcke klar
+  getrennt, je Firma Kontaktperson/E-Mail/Telefon (Platzhalterlinie statt raten), Abgleich
+  gegen den realen Postausgang vor Fertigstellung.

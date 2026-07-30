@@ -7,7 +7,7 @@ Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 - **Modell-D-Wortlautabgleich** §§ 242-248 PBG (`raw/260607_amtlich_zh_pbg.md`, Fassungsstand
   weiterhin Nachtrag 133) gegen den Wiki-Artikel `wiki/fahrzeugabstellplaetze-und-parkierung.md`
   (ältester `verifiziert`-Kern, 2026-07-12) — ältester noch unverifizierter Kandidat laut
-  Empfehlung Run 69.
+  Empfehlung Run 71.
 - **1 Korrektur:** § 242 Abs. 2 PBG enthält amtlich **keinen Interessen-Katalog** — der Wiki-Artikel
   behauptete «bei überwiegendem öffentlichem Interesse (Verkehr, Wohngebiets-/Natur-/Heimatschutz,
   Luft, Gewässer)» als sei diese Aufzählung Teil von § 242 Abs. 2. Sie steht amtlich in
@@ -17,7 +17,7 @@ Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
   bestehende Karteikarte in `training/drills.md` (Z. 1077-1079) hatten die richtige Zuordnung —
   die **Verdichtung** vom Destillat in den Wiki-Artikel hatte den Fehler gegen die eigene, bereits
   korrekte Quelle re-eingeführt (dasselbe Kompressionsmuster wie Art. 679 Abs. 2 ZGB / § 220 PBG
-  in Run 69). §§ 243 Abs. 1-3, 244 Abs. 1-4, 245-248, § 309 Abs. 1 lit. b/i sonst CONFIRMED.
+  in Run 71). §§ 243 Abs. 1-3, 244 Abs. 1-4, 245-248, § 309 Abs. 1 lit. b/i sonst CONFIRMED.
 - **Lehre:** Modell-D-Re-Verifikation muss den Wiki-Artikel nicht nur gegen den amtlichen Volltext,
   sondern auch gegen das **eigene Buch-Destillat und bestehende Drills** abgleichen — eine bereits
   im Haus vorhandene Korrektur kann durch spätere Verdichtung wieder verlorengehen.
@@ -87,7 +87,7 @@ Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 - Bericht: `koordination/outputs/2026-07-30_wissens-chef-run19.md`.
 
 
-## 2026-07-30 — Buch-Run 69 (Festigungsmodus): [[grundlagen-planungs-baurecht]] erstverifiziert — 3 echte Zitierfehler, 1 Fassungsstand-Drift eine Ebene unter dem Erlass
+## 2026-07-30 — Buch-Run 71 (Festigungsmodus): [[grundlagen-planungs-baurecht]] erstverifiziert — 3 echte Zitierfehler, 1 Fassungsstand-Drift eine Ebene unter dem Erlass
 - **[korrektur, materiell] Art. 679 Abs. 2 ZGB war mit invertierter Polarität zitiert.** Der Artikel
   begründete «eine Baubewilligung entbindet nicht von privatem Nachbarrecht» mit Abs. 2 und der
   Aussage «Ansprüche können bestehen, auch wenn alle öffentlich-rechtlichen Vorschriften eingehalten
@@ -131,7 +131,7 @@ Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
   Volltexten unauffindbar und ausdrücklich offen.
 - **[frage] Neu aufgeworfen:** ist SIA 380/1 noch «teilverbindlich»? Am geltenden BBV-I-Anhang nicht
   mehr belegbar — Cross-KB-Frage an `energie`/`normen`.
-- **[drills]** 4 neue Karten. **[report]** `outputs/2026-07-30_buch-run69.md`.
+- **[drills]** 4 neue Karten. **[report]** `outputs/2026-07-30_buch-run71.md`.
 - **[leitplanke, neu]** Fassungsstand-Prüfung bei **Verweisnormen zweiteilig** führen: Erlass **und**
   verwiesene Anhangsziffer altern getrennt. Ein Check auf Erlassebene hätte die BBV-I-Drift nicht
   gefunden (BBV I selbst ist unverändert Nachtrag 133 in Kraft).

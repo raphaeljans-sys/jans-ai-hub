@@ -165,3 +165,8 @@ Bei jeder Unsicherheit (unklare Baulinien-Wirkung, kantonale Ausnuetzungs-Besond
 Gemeinde) → Luecke in `machbarkeit/wissensluecken.md` eintragen und ueber den Skill `baurecht`
 / den Wissens-Layer schliessen. Verifizierte Erkenntnisse (z.B. "so wirkt eine Baulinie in
 Gemeinde X") als Wiki-Artikel in `wissen/baurecht/` festhalten.
+
+## Verbindliche Regeln (Verweis)
+
+Maximalvolumen, swisstopo-Grundlagen und Baukörper-Ausrichtung: verbindlich geregelt in
+`skills/volumenstudie/SKILL.md`, Abschnitt «Verbindliche Regeln» (Regeln 260624/260627/260627b).

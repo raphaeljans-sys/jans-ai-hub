@@ -269,7 +269,7 @@ oder eine Ausnahmebewilligung gemäss § 24 WsG.
    inhaltlich das Gegenteil einer Festlegungskompetenz. Systematik: § 17 Grundsatz · § 18
    Festlegung · § 19 dicht überbautes Gebiet · § 20 Besitzstand · § 21 Ausführungsrecht.
    Die falsche Zuordnung entstand am 17.07.2026, als der WsG-Volltext im Hub noch nicht vorlag
-   (vgl. Frontmatter-Feld `umfang`: nur § 20 WsG war abgeschrieben). Er liegt seit Buch-Run 69
+   (vgl. Frontmatter-Feld `umfang`: nur § 20 WsG war abgeschrieben). Er liegt seit Buch-Run 71
    vom 28.07.2026 vor und widerlegt sie. Die WsV-Hälfte «§ 11 WsV» ist verifiziert richtig und
    bleibt. Quelle: LS 724.1, Nachtrag 133, in Kraft seit 01.06.2026.
    *Ausnahme-Vermerk: `raw/` wird sonst nicht editiert (Rule `wissens-bibliothekar`). Hier

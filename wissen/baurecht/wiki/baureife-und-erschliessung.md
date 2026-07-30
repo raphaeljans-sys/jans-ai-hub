@@ -246,7 +246,7 @@ Die zweite Hälfte der **technischen Erschliessung** (§ 236 Abs. 1 PBG; Bd 2 S.
   (Art. 10/11 GSchG); eine **Baubewilligung** für Neu-/Umbauten ergeht nur bei gewährleisteter
   Abwasserbeseitigung — über die **Kanalisationsanschlussbewilligung** der Gemeinde (Art. 17 GSchG,
   S. 766). Die Gemeinden führen einen **Generellen Entwässerungsplan (GEP)** (§ 8 KGSchV —
-  ⚠ **Fassungsstand, Buch-Run 69**: die **KGSchV (LS 711.11) ist per 01.01.2022 aufgehoben**,
+  ⚠ **Fassungsstand, Buch-Run 71**: die **KGSchV (LS 711.11) ist per 01.01.2022 aufgehoben**,
   amtlich belegt an der zhlex-Erlassseite LS 711.11 der Staatskanzlei [Erlassdatum 22.01.1975,
   Inkraftsetzung 01.07.1975, **Aufhebungsdatum 01.01.2022**; letzte Fassung Nachtrag 099, «in
   Kraft bis 01.01.2022»]. Der Buchtext [6. Aufl. 2019] zitiert also **totes Recht**. Welcher

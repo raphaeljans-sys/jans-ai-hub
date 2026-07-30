@@ -38,4 +38,6 @@ Festgelegt 05.05.2026. Build-Workflow, Generator-Vorlage und DXA-Detailparameter
 
 Alle DOCX/PDF fuer JANS (Factsheets, Berichte, Briefe, Memos, interne Dokumente). NICHT bei
 explizit anderem Layout-Wunsch, Briefkopf-Vorlage mit Logo, PPTX (eigene Konvention, aber
-Sektion «Sprache» gilt auch dort), XLSX. Im Zweifel: maximale Zurueckhaltung, maximale Lesbarkeit.
+Sektion «Sprache» gilt auch dort). XLSX hat ein eigenes Tabellen-Layout, folgt aber dem
+JANS-Grundsatz: Cambria, schwarz, keine dekorativen Symbole/Emojis, Status ueber
+Text/Schriftschnitt (Regel 260601). Im Zweifel: maximale Zurueckhaltung, maximale Lesbarkeit.

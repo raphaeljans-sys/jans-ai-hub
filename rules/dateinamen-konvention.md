@@ -36,6 +36,8 @@ Bindestrich, sprechender Titel** — identisch zum Namensstamm der enthaltenen D
 - Ordnername = Namensstamm der Deliverables (z.B. Ordner `260604-AfB-Fristen-Stadt-ZH/`
   enthaelt `260604-AfB-Fristen-Stadt-ZH.docx` + `.pdf` + `.md`).
 - Alle Fassungen desselben Erzeugnisses (MD/DOCX/PDF) liegen zusammen in diesem Ordner.
+- Jedes inhaltliche MD-Erzeugnis wird zusaetzlich als DOCX+PDF abgelegt (Regel 260603/04;
+  Konvertierung via `skills/studien-generator/tools/md2docx.py`).
 - Gilt auch fuer Outputs aus Skills, Agenten und dem Wissens-Layer.
 
 Richtig:

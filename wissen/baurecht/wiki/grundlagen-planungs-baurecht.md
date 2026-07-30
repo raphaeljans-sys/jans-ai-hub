@@ -2,7 +2,7 @@
 title: Grundlagen des Planungs- und Baurechts — Kanton Zürich
 status: established
 last_updated: 2026-07-30
-verifiziert: "2026-07-30 (Buch-Run 69, erster Modell-D-Wortlautabgleich seit Erstellung 2026-06-30): §§ 317/218 Abs. 2/270 Abs. 3/238 Abs. 1/320/360 Abs. 3 PBG gegen raw/260607_amtlich_zh_pbg.md (Fassungsstand Nachtrag 133), § 20 Abs. 1 lit. c VRG gegen raw/260715_amtlich_zh_vrg_beschwerde.md, § 3 BBV I + Anhang gegen raw/260607_amtlich_zh_bbv1.md (Nachtrag 133), Art. 679 ZGB gegen Fedlex ELI 24/233_245_233 Stand 20260101, Art. 32 Abs. 1 LSV gegen raw/260712_amtlich_ch_lsv-nisv.md — 3 echte Fehler korrigiert (Art. 679 Abs. 2 ZGB mit invertierter Polarität zitiert; «§ 3 Abs. 12 BBV I» existiert nicht und die einschlaegige Anhangsziffer ist seit 1.9.2022 aufgehoben; § 220 PBG als «Nebenbestimmungen» etikettiert statt als Ausnahmebewilligungen), 2 Praezisierungen (§ 318 PBG traegt die intertemporale Regel nicht im Wortlaut; Unangemessenheit § 20 Abs. 1 lit. c VRG vs. § 50 Abs. 2 VRG)."
+verifiziert: "2026-07-30 (Buch-Run 71, erster Modell-D-Wortlautabgleich seit Erstellung 2026-06-30): §§ 317/218 Abs. 2/270 Abs. 3/238 Abs. 1/320/360 Abs. 3 PBG gegen raw/260607_amtlich_zh_pbg.md (Fassungsstand Nachtrag 133), § 20 Abs. 1 lit. c VRG gegen raw/260715_amtlich_zh_vrg_beschwerde.md, § 3 BBV I + Anhang gegen raw/260607_amtlich_zh_bbv1.md (Nachtrag 133), Art. 679 ZGB gegen Fedlex ELI 24/233_245_233 Stand 20260101, Art. 32 Abs. 1 LSV gegen raw/260712_amtlich_ch_lsv-nisv.md — 3 echte Fehler korrigiert (Art. 679 Abs. 2 ZGB mit invertierter Polarität zitiert; «§ 3 Abs. 12 BBV I» existiert nicht und die einschlaegige Anhangsziffer ist seit 1.9.2022 aufgehoben; § 220 PBG als «Nebenbestimmungen» etikettiert statt als Ausnahmebewilligungen), 2 Praezisierungen (§ 318 PBG traegt die intertemporale Regel nicht im Wortlaut; Unangemessenheit § 20 Abs. 1 lit. c VRG vs. § 50 Abs. 2 VRG)."
 sources: ["§ 317 PBG", "§ 318 PBG", "§ 3 Abs. 1/2 BBV I + Anhang Ziff. 1", "§ 360 Abs. 3 PBG", "§ 218 Abs. 2 PBG", "§ 270 Abs. 3 PBG", "§ 220 PBG", "§ 321 PBG", "§ 238 Abs. 1 PBG", "§ 320 PBG", "§ 328 PBG", "§ 20 Abs. 1 lit. c VRG", "Art. 32 Abs. 1 LSV", "Art. 75 BV", "Art. 5 BV", "Art. 9 BV", "Art. 36 BV", "Art. 26 BV", "Art. 27 BV", "Art. 679 ZGB", "Art. 1–10 ZGB", 01-grundlagen.md]
 links: [[raumplanung-und-gestaltung]], [[zonenkonformitaet]], [[baubewilligungsverfahren]], [[nebenbestimmungen-und-reverse]], [[ausnahmebewilligung-und-bestandesschutz]]
 ---
@@ -40,7 +40,7 @@ sind die materiellen Bauvorschriften ([[zonenkonformitaet]], [[nutzungsziffern]]
   öffentlich-rechtliche Konformität schliesst den zivilrechtlichen Abwehr- und
   Schadenersatzanspruch aus **Art. 679 Abs. 1 ZGB** (i.V.m. Art. 684 ZGB, übermässige
   Immissionen) nicht aus (S. 83).
-  > **Korrektur Buch-Run 69 (2026-07-30):** dieser Artikel zitierte dafür bis dahin
+  > **Korrektur Buch-Run 71 (2026-07-30):** dieser Artikel zitierte dafür bis dahin
   > **Art. 679 Abs. 2 ZGB** mit **invertierter Polarität** («Ansprüche können bestehen,
   > auch wenn alle öffentlich-rechtlichen Vorschriften eingehalten sind»). Amtlicher
   > Wortlaut (Fedlex, SR 210, ELI `24/233_245_233`, Stand 01.01.2026): «*Entzieht eine
@@ -75,7 +75,7 @@ Recht** — es gibt drei Stufen:
    aufgeführt (Abs. 1); «als Verordnungsbestimmungen gelten jene, die für verbindlich, als
    Richtlinien und Normalien jene, die für beachtlich erklärt werden» (Abs. 2). Verbindlich
    ist also nur, was **Anhang Ziff. 1 BBV I** nennt.
-   > **Korrektur + Fassungsstand Buch-Run 69 (2026-07-30):** die bisherige Fundstelle
+   > **Korrektur + Fassungsstand Buch-Run 71 (2026-07-30):** die bisherige Fundstelle
    > «**§ 3 Abs. 12 BBV I**» **existiert nicht** — § 3 BBV I hat vier Absätze; gemeint war
    > erkennbar die **Anhangsziffer 1.2**, die beim Erfassen (Run 16) zu «Abs. 12» verlesen
    > wurde. Materiell schwerer wiegt: **Anhang Ziff. 1.2 und 1.21 BBV I sind aufgehoben**
@@ -124,7 +124,7 @@ Recht** — es gibt drei Stufen:
   Natur-/Heimatschutz (§ 205 PBG), sowie Fertigstellungsbefehl und Vollstreckungsmassnahmen
   (§ 328 PBG; BGer 1C_567/2014). **Nebenbestimmungen** (Auflagen/Bedingungen/Befristungen)
   stehen dagegen in **§ 321 PBG** → [[nebenbestimmungen-und-reverse]].
-  > **Korrektur Buch-Run 69 (2026-07-30):** hier stand «Nebenbestimmungen (§ 220 PBG)».
+  > **Korrektur Buch-Run 71 (2026-07-30):** hier stand «Nebenbestimmungen (§ 220 PBG)».
   > § 220 PBG regelt amtlich die **Ausnahmebewilligungen** (Randtitel «C. Ausnahme-
   > bewilligungen»), § 321 PBG die Nebenbestimmungen (Randtitel «Nebenbestimmungen»,
   > `raw/260607_amtlich_zh_pbg.md`). Der Paragraph war als Verhältnismässigkeits-Beispiel
@@ -137,7 +137,7 @@ Recht** — es gibt drei Stufen:
 - **Ermessen** (S. 93–95): Entschliessungs- vs. Auswahlermessen; pflichtgemäss
   auszuüben; Ermessensfehler (Über-/Unterschreitung/Missbrauch) sind als **Rechtsverletzung**
   in jeder Instanz rügbar (§ 20 Abs. 1 lit. a VRG). Für die blosse **Unangemessenheit** ist
-  zwischen den Instanzen zu unterscheiden (Präzisierung Buch-Run 69): im **Rekurs** ist sie
+  zwischen den Instanzen zu unterscheiden (Präzisierung Buch-Run 71): im **Rekurs** ist sie
   ein vollwertiger Rügegrund (**§ 20 Abs. 1 lit. c VRG**: «Unangemessenheit der angefochtenen
   Anordnung»), vor **Verwaltungsgericht** entfällt die Angemessenheitskontrolle (§ 50 Abs. 2
   i.V.m. § 41 VRG, vgl. [[rechtsschutz-und-rechtsmittelverfahren]]); vor Bundesgericht ohnehin
@@ -150,7 +150,7 @@ neues Recht; massgebend ist grundsätzlich das **materielle Recht zur Zeit der
 erstinstanzlichen Entscheidfällung** — und erstinstanzlich entscheidet die örtliche
 Baubehörde (**§ 318 PBG**). Tragend ist die Rechtsprechung (VB.2012.00734), nicht ein
 PBG-Wortlaut.
-> **Präzisierung Buch-Run 69 (2026-07-30):** § 318 PBG lautet amtlich vollständig «*Die
+> **Präzisierung Buch-Run 71 (2026-07-30):** § 318 PBG lautet amtlich vollständig «*Die
 > örtliche Baubehörde entscheidet über Baugesuche, soweit durch Verordnung nichts anderes
 > bestimmt ist*» (Randtitel «Zuständigkeit», `raw/260607_amtlich_zh_pbg.md`) — die Norm
 > **bezeichnet nur die erstinstanzliche Entscheidbehörde** und enthält **keine
