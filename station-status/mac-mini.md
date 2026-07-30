@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 31.07.2026 00:04:11
+Stand: 31.07.2026 00:14:14
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 23:46)
@@ -13,4 +13,4 @@ Stand: 31.07.2026 00:04:11
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 386c2ac0 Entscheid Raphael: SWKI zugeordnet (normen fuehrt Fundstelle/Ausgabe, energie die Fachaussage) — Matrix-Zeile, Registerzeilen, 2 Loop-Auftraege
+- 5b666e80 Rollen-Bilanz meldet Aktualitaet der eigenen Quelle (Runner-Logs seit 27.07. versiegt; Lauf-Journal ausgewiesen, aber bewusst nicht eingemischt solange nur Testlaeufe darin stehen)
