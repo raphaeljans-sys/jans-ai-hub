@@ -95,8 +95,14 @@ Mittelfall in `outputs/`. Keine Rule-Änderung — `rules/spec-methode.md` bleib
 Statt einer erzwungenen Top-5-Liste nur der eine Befund, der in diesem Lauf tatsächlich
 gemessen wurde (Gate nicht überdehnen gilt auch nach innen):
 
-**Registry-Diskrepanz `spec-training`.** Der Task trägt `enabled: false` (Ereignis-Trigger,
-Entscheid Raphael 26.07.), aber `lastRunAt: 2026-07-30T21:44:58Z` = **23:44 CEST heute** —
+**Registry-Diskrepanz `spec-training` — vierter Beleg, neues Merkmal.** Kein Neufund: dieselbe
+Diskrepanz ist bereits dreifach belegt (Läufe 34–36, zuletzt CHANGELOG 26.07.) und Raphael zur
+Klärung vorgelegt; dort ging es um den Widerspruch zwischen SKILL.md-Text («1x taeglich»),
+Rule-Behauptung (2x täglich) und tatsächlicher Feuerfrequenz (am 25.07. stündlich).
+
+**Neu und schärfer ist das Merkmal:** der Widerspruch betrifft jetzt den `enabled`-Schalter
+selbst. Der Task trägt `enabled: false` (Ereignis-Trigger, Entscheid Raphael 26.07., Registry-
+Nachzug 27.07.) und hat trotzdem `lastRunAt: 2026-07-30T21:44:58Z` = **23:44 CEST heute** —
 dieser Lauf. Der hinterlegte Cron wäre `10 4 * * *` (04:10), also nicht die Laufzeit; die
 Mac-Mini-Nachtschicht ist auf dieser Station nicht geladen (`launchctl list` ohne Treffer);
 im Lauf-Journal `logbuch/laeufe/260730-laeufe.jsonl` steht keine `spec`-Zeile.
@@ -130,5 +136,13 @@ F4/F5 — ehrlich vermerkt statt eine Ersatzaufgabe zu erfinden.
   wenn der Korpus wächst (heute 8 Artikel / 15 von 214 Dateien)? Besonders Kriterium 6
   (`established` erst bei unabhängiger Zweitbelegung) steht unter Druck, sobald die ersten
   Artikel eine Zweitquelle bekommen. Prüfen am Artefakt (Frontmatter), nicht am CHANGELOG-Text.
-- **Offen an Raphael/Betrieb:** die Registry-Diskrepanz aus Abschnitt 4.
+- **Offen an Raphael/Betrieb:** die Registry-Diskrepanz aus Abschnitt 4 (jetzt vierter Beleg,
+  erstmals am `enabled`-Schalter statt nur an Text/Frequenz).
+- **Umlaut-Leitplanke greift nur für eigene Edits:** die Umlaut-Kontrolle vor dem Commit ist für
+  die Dateien dieses Laufs sauber, findet aber im `CHANGELOG.md` **Ersatzschreibungen aus
+  Fremdeinträgen** (Wissens-Chef Run 17/20, vollgas-radar 29.07.: «fuer», «Aenderung»,
+  «Zaehlstaende», «taeglich»). Der KB-weite Sweep aus Lauf 26/27 hat also nicht gehalten, weil
+  **andere Loops** in diese KB schreiben und die Leitplanke nur den eigenen Output prüft. Bewusst
+  **nicht** stillschweigend umgeschrieben (fremde Historieneinträge) — als Befund für den nächsten
+  Health-Check bzw. den `wissens-chef` notiert.
 - **Nicht wieder aufwärmen:** F4/F5 sind geschlossen.

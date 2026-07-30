@@ -29,9 +29,12 @@
   sondern Spec-Dokumente allgemein. → `wiki/anwendung-jans.md` Schritt 2, `wiki/QUESTIONS.md`.
 - **[gate]** F1 unverändert: neunter Trigger korrekt+nützlich, weiterhin **kein** Überdehnungs-Beleg,
   kein genervter Mittelfall. **Keine Änderung an `rules/spec-methode.md`.**
-- **[environment-audit, geflaggt statt repariert]** Gemessene Registry-Diskrepanz: `spec-training`
-  trägt `enabled: false`, aber `lastRunAt 2026-07-30 23:44 CEST` (dieser Lauf), während der Cron
-  `10 4 * * *` lautet und die Mac-Mini-Nachtschicht auf dieser Station nicht geladen ist. **Ursache
+- **[environment-audit, vierter Beleg, geflaggt statt repariert]** Die Scheduling-Diskrepanz
+  `spec-training` ist **kein Neufund** (dreifach belegt in den Läufen 34–36, Raphael vorgelegt),
+  aber sie hat ein **neues, schärferes Merkmal**: sie betrifft jetzt den `enabled`-Schalter selbst.
+  Der Task trägt `enabled: false` (Registry-Nachzug 27.07.), aber `lastRunAt 2026-07-30 23:44 CEST`
+  (dieser Lauf), während der Cron `10 4 * * *` lautet und die Mac-Mini-Nachtschicht auf dieser
+  Station nicht geladen ist. **Ursache
   nicht belegbar und bewusst nicht erraten** (Lauf-21-Lehre: ein Artefakt ist keine Quelle für seine
   eigene Herkunft). Berührt die Betriebsregel «Deaktivierung eines Loops braucht ALLE Orte» →
   ausserhalb KB-Mandat, an Raphael/Betrieb geflaggt. Der Lauf selbst war inhaltlich berechtigt
