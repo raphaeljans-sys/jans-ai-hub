@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.07.2026 03:55:37
+Stand: 30.07.2026 04:05:40
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.07.2026 03:55:37
 - 1 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 1018b17e nas-selfcommit: 2 Datei(en) 2026-07-30 03:45
+- c9a50ead twin-mail-training Batch 82: Luecken-Sweep rj@ Oktober 2025 (43 Mails vollstaendig), 7 neue Marker + 3 Status-Hebungen in stimme/beziehungsregister/arbeitsweise/fachsignatur, 3 neue QUESTIONS

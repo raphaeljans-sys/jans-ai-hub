@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 30.07.2026 03:53:17
+Stand: 30.07.2026 04:03:23
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 03:52)
+- Developer/jans/ai/hub  (letzte Aktivitaet 03:57)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 30.07.2026 03:53:17
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 1018b17e nas-selfcommit: 2 Datei(en) 2026-07-30 03:45
+- c9a50ead twin-mail-training Batch 82: Luecken-Sweep rj@ Oktober 2025 (43 Mails vollstaendig), 7 neue Marker + 3 Status-Hebungen in stimme/beziehungsregister/arbeitsweise/fachsignatur, 3 neue QUESTIONS
