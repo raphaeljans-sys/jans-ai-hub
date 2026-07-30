@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 31.07.2026 00:14:14
+Stand: 31.07.2026 00:24:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:46)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 31.07.2026 00:14:14
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 5b666e80 Rollen-Bilanz meldet Aktualitaet der eigenen Quelle (Runner-Logs seit 27.07. versiegt; Lauf-Journal ausgewiesen, aber bewusst nicht eingemischt solange nur Testlaeufe darin stehen)
+- 0b91a8a9 Rollen-Taxonomie architektonisch verankert: Command /rollen, Schutzmechanik-Selbsttest als heartbeat-Check (beide Pfade nachgemessen), Rollenpflicht im SKILL-CONTRACT, Wegweiser in CLAUDE.md

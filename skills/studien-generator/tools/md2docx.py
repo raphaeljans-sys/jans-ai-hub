@@ -93,9 +93,52 @@ def _table(doc, rows):
                 _shade(cells[ci], "F2F2F2")
 
 
+BLOCK_START = re.compile(r"^\s*(#{1,6}\s|[-*]\s|\d+\.\s|>|\||```|---+\s*$)")
+
+
+def _unwrap(lines):
+    """Eingerueckte Fortsetzungszeilen an ihren Block anhaengen.
+
+    Warum (30.07.2026, vollgas-radar): jede physische Zeile wurde bisher zu einem
+    eigenen Absatz. Ein ueber den Umbruch laufendes **fett** war damit nie
+    erkennbar (die Inline-Regex arbeitet zeilenweise) und Listenpunkte zerfielen
+    in Bruchstuecke — der Normalfall in jeder raw-Datei des Wissens-Layers, die
+    auf ~95 Zeichen umbrochen ist.
+
+    BEWUSST ENG: zusammengefuehrt wird NUR, wenn die Folgezeile eingerueckt ist.
+    Nicht eingerueckte Folgezeilen bleiben eigene Absaetze wie bisher — sonst
+    wuerden Adress- und Signaturbloecke (Briefkopf, Absenderblock) zu einer
+    einzigen Zeile verschmelzen. Markdown-konform waere das Zusammenfuehren,
+    JANS-konform ist es nicht.
+    """
+    out, buf, in_code = [], None, False
+
+    def flush():
+        nonlocal buf
+        if buf is not None:
+            out.append(buf)
+            buf = None
+
+    for ln in lines:
+        if ln.strip().startswith("```"):
+            flush(); out.append(ln); in_code = not in_code; continue
+        if in_code:
+            out.append(ln); continue
+        if not ln.strip():
+            flush(); out.append(""); continue
+        indented = ln[:1].isspace()
+        if BLOCK_START.match(ln) or not indented or buf is None:
+            flush(); buf = ln.rstrip(); continue
+        prev = buf.rstrip()
+        # Pfad oder Wort lief ueber den Umbruch: ohne Leerschlag zusammenziehen.
+        buf = prev + ("" if prev.endswith(("/", "-")) else " ") + ln.strip()
+    flush()
+    return out
+
+
 def convert(md_path, out_path=None):
     with open(md_path, encoding="utf-8") as f:
-        lines = f.read().splitlines()
+        lines = _unwrap(f.read().splitlines())
     doc = Document(); _base(doc)
     i, n = 0, len(lines)
     in_code = False; code_buf = []

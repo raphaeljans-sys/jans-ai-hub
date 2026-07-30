@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 31.07.2026 00:15:53
+Stand: 31.07.2026 00:26:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:54)
+- Developer/jans/ai/hub  (letzte Aktivitaet 00:25)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 31.07.2026 00:15:53
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 07a06aa3 nas-selfcommit: 1 Datei(en) 2026-07-31 00:15
+- 0b91a8a9 Rollen-Taxonomie architektonisch verankert: Command /rollen, Schutzmechanik-Selbsttest als heartbeat-Check (beide Pfade nachgemessen), Rollenpflicht im SKILL-CONTRACT, Wegweiser in CLAUDE.md
