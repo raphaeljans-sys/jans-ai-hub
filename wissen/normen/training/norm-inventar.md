@@ -1203,15 +1203,15 @@ bfu-Fachdokumentationen Sicherheit/Absturz — normnahe Ergaenzung zu SIA 358. A
 
 | Status | Prio | Datei | Bemerkung |
 |---|---|---|---|
-| [ ] | P2 | `06_Richtlinien/BfU/bfu_Anforderunegn Bodenbeläge.pdf` |  |
-| [ ] | P2 | `06_Richtlinien/BfU/bfu_Bodenbeläge.pdf` |  |
-| [ ] | P2 | `06_Richtlinien/BfU/bfu_Geländer und Brüstungen.pdf` |  |
-| [ ] | P2 | `06_Richtlinien/BfU/bfu_Geländer und Brüstungen_2019.pdf` |  |
+| [x] 260730 | P2 | `06_Richtlinien/BfU/bfu_Anforderunegn Bodenbeläge.pdf` | Run 38 → `destillate/bfu-bodenbelaege (gemeinsam mit 2.027).md`, mit unabhaengigem Refuter |
+| [x] 260730 | P2 | `06_Richtlinien/BfU/bfu_Bodenbeläge.pdf` | Run 38 → `destillate/bfu-bodenbelaege (gemeinsam mit 2.032).md`, mit unabhaengigem Refuter |
+| [x] 260730 | P2 | `06_Richtlinien/BfU/bfu_Geländer und Brüstungen.pdf` | Run 38 → `destillate/bfu-gelaender-und-bruestungen (Fassung 07.2012, ersetzt).md`, mit unabhaengigem Refuter |
+| [x] 260730 | P2 | `06_Richtlinien/BfU/bfu_Geländer und Brüstungen_2019.pdf` | Run 38 → `destillate/bfu-gelaender-und-bruestungen (Fassung 01.2019, geltend).md`, mit unabhaengigem Refuter |
 | [x] 260730 | P2 | `06_Richtlinien/BfU/bfu_Glas in der Architektur.pdf` | Run 38 → `destillate/bfu-glas-in-der-architektur.md`, mit unabhaengigem Refuter |
 | [x] 260730 | P2 | `06_Richtlinien/BfU/bfu_Sicherheit im Wohnungsbau.pdf` | Run 38 → `destillate/bfu-sicherheit-im-wohnungsbau.md`, mit unabhaengigem Refuter |
 | [x] 260730 | P2 | `06_Richtlinien/BfU/bfu_Sicherheit rechtliche Aspekte.pdf` | Run 38 → `destillate/bfu-sicherheit-rechtliche-aspekte.md`, mit unabhaengigem Refuter |
 | [x] 260730 | P2 | `06_Richtlinien/BfU/bfu_Treppen.pdf` | Run 38 → `destillate/bfu-treppen.md`, mit unabhaengigem Refuter |
-| [ ] | P2 | `06_Richtlinien/BfU/bfu_Türen und Tore.pdf` |  |
+| [x] 260730 | P2 | `06_Richtlinien/BfU/bfu_Türen und Tore.pdf` | Run 38 → `destillate/bfu-tueren-und-tore.md`, mit unabhaengigem Refuter |
 
 **`06_Richtlinien/GVZ`** — 3 PDF, P2
 
