@@ -41,7 +41,9 @@ function ladeEnv() {
 function fehler(msg) { console.error(`FEHLER: ${msg}`); process.exit(1); }
 
 const ENV = ladeEnv();
-const HEUTE = new Date().toISOString().slice(0, 10);
+// LOKALES Datum, nicht UTC: toISOString() datiert zwischen 00:00 und 02:00 CEST einen Tag
+// zurueck — genau im Nachtfenster der Loops (Rule dateinamen-konvention, Beleg Run 93).
+const HEUTE = new Date().toLocaleDateString("sv-SE");
 const PICKUP_MARKER = (ENV.PICKUP_MARKER || 'pickup,abhol')
   .split(',').map(s => s.trim().toLowerCase()).filter(Boolean);
 

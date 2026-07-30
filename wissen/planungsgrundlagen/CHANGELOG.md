@@ -65,7 +65,7 @@ Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
   `wiki/kartenportale-oereb-egrid-bezug.md`, `wiki/energie-energienachweis-zh-formulare.md`,
   `wiki/energie-even-plattform-bedienung.md`, `wiki/energie-private-kontrolle-zh.md`,
   `wiki/energie-uebersicht.md`, `wiki/QUESTIONS.md`, `training/curriculum.md`.
-  Report: `outputs/2026-07-30_training-run93.md`.
+  Report: `outputs/2026-07-30_cross-kb-wissens-chef-run20.md`.
 
 
 ## 2026-07-29 (Wissens-Chef Run 20, Cross-KB) — dritter aufgehobener Erlass in der OEREB-Tabelle, und die fehlende Regenwasser-Nutzungsseite

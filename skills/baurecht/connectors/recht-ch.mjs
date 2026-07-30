@@ -157,7 +157,9 @@ function parseArgs(argv) {
   return a;
 }
 const log = (q) => (msg) => { if (!q) process.stderr.write(msg + "\n"); };
-const isoDate = () => new Date().toISOString().slice(0, 10);
+// LOKALES Datum, nicht UTC: toISOString() datiert zwischen 00:00 und 02:00 CEST einen Tag
+// zurueck — genau im Nachtfenster der Loops (Rule dateinamen-konvention, Beleg Run 93).
+const isoDate = () => new Date().toLocaleDateString("sv-SE");
 const yymmdd = () => isoDate().slice(2).replace(/-/g, "");
 
 async function fetchText(url, referer) {

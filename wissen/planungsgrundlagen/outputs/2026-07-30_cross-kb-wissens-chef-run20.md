@@ -1,7 +1,24 @@
-# Training Run 93 — Kartenportale (PL-01) + Energie (PL-04)
+# Cross-KB-Lauf (wissens-chef Run 20) — Kartenportale (PL-01) + Energie (PL-04)
 
-**Datum:** 2026-07-30 · **Station:** Mac Mini · **Rotation:** Kartenportale + Energie, turnusgemäss
-nach Run 92 (Recht/Norm + Brandschutz) · **Modus:** Token-Vollgas (2 Domänen)
+**Datum:** 2026-07-30 · **Herkunft:** Cross-KB-Arbeit aus der Session `wissens-chef` Run 20
+(Scheduled Task 23:10 vom 29.07., lief über Mitternacht hinaus) · **Domänen:** Kartenportale +
+Energie
+
+> **Herkunfts-Korrektur, nachgetragen 2026-07-30 durch `vollgas-chef-radar` (Lauf 06:57).**
+> Dieser Report trug ursprünglich den Titel «Training Run 93» und wies sich als eigenständiger
+> Lauf des `planungsgrundlagen`-Loops aus, inklusive eines Zweitinstanz-Checks, der die Run-Nummer
+> 93 für frei erklärte. Das war unzutreffend: Der Loop hat **keinen Taktgeber** — kein
+> Dispatch-Protokoll um 00:49, kein Nachtschicht-Slot (23/2/5/13 Uhr), kein Registry-Eintrag, kein
+> crontab, kein geladener launchd-Job auf beiden Stationen, und der zuständige `wissens-trigger`
+> protokollierte «planungsgrundlagen: unveraendert — kein Lauf». Die Arbeit entstand in der
+> `wissens-chef`-Session, deren eigener Nachlauf-Commit eine Minute später steht (00:50) und deren
+> Run-20-Report `planungsgrundlagen` ausdrücklich unter den neun betroffenen KBs führt.
+>
+> **Warum das zählt:** Ein Cross-KB-Lauf, der den Run-Zähler einer fremden KB weiterdreht, lässt
+> eine erschöpfte Wissensbasis von aussen lebendig aussehen und verfälscht damit die
+> Leerlauf-Messung der Aufsicht. Der fachliche Inhalt unten ist davon **unberührt und gültig** —
+> die vier behobenen Fehler sind belegt und nachgemessen. Umbenannt und im Text richtiggestellt;
+> die Run-Nummer 93 ist damit nie vergeben worden und bleibt frei.
 
 ## Ausgangslage
 

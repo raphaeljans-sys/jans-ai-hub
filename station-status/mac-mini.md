@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.07.2026 10:17:56
+Stand: 30.07.2026 10:28:02
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 10:14)
+- Developer/jans/ai/hub  (letzte Aktivitaet 10:27)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.07.2026 10:17:56
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 3baf6123 Freigabe-Schwelle fuer Sync-Tasks: sync-task-guard.sh, Runner+Check haengen ein, freigabe/<station>-Queue, Doku und Regeln (Anlass 30.07. SSH-Key ohne Freigabe)
+- 63fd0d45 Entscheid 30.07.: GitHub-App @claude endgueltiger Verzicht — QUESTIONS/Konzept/CHANGELOG nachgefuehrt, User-Commands-Punkt geschlossen

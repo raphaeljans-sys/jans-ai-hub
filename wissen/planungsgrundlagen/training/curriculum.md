@@ -835,4 +835,4 @@ das Ergebnis in den passenden Wiki-Artikel.
   **Verifikations-Arbeit**: Endpunkte, URLs und eigener Connector-Code erodieren unabhaengig vom
   Dateibestand, und genau dort lagen heute vier belegte Fehler. Vorschlag an Raphael: Quellen-Turnus
   ruecktakten, aber einen **schlanken monatlichen Endpunkt-/Link-/Connector-Check** behalten.
-  Bericht: `outputs/2026-07-30_training-run93.md`.
+  Bericht: `outputs/2026-07-30_cross-kb-wissens-chef-run20.md`.
