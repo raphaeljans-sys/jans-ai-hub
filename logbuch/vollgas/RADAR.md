@@ -39,6 +39,65 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-07-31 00:58 — [FREI] Der ertragreichste Nachtblock seit dem Runner-Ausbau: sieben Loops liefern in achtzig Minuten. Der Aufsichtstakt ist wieder in der Spur. Ein unbeaufsichtigter Lauf hat sich mit einer Rückfrage selbst entwertet
+
+**Selbstkontrolle: kein verpasster Lauf, und damit ist der 16:50-Ausfall geklärt.** Letzter
+Eintrag 20:57, dieser Lauf 00:58 — 4,0 h bei 4-h-Takt. Der 20:57-Eintrag hatte als Prüfkriterium
+gesetzt, ob 00:57 planmässig feuert; es hat gefeuert. Der übersprungene Slot am 30.07. war
+folglich der einmalige Neuarmierungseffekt der Taktumstellung von 13:10 und kein struktureller
+Ausfall der Aufsicht. Kein P1, kein weiterer Beobachtungsbedarf.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung antwortet «OK» (rc 0). Speicher
+Mini 9,32 GB, Druckstufe 1 — unauffällig. MacBook 3,11 GB bei **Druckstufe 2** (Vorlauf: 3,85 GB
+bei Stufe 1); der `speicher-waechter` ist geladen, die Verschlechterung liegt an Raphaels
+laufender Arbeitssession, keine Massnahme.
+
+**Feuermechanismen: konsistent.** `vollgas-supervisor` und `vollgas-monitor` auf beiden Stationen
+weiterhin entladen und als `*.disabled-260729` geparkt, STOP-Flags unverändert vom 29.07. 02:51.
+Geladen sind auf dem Mini `ch.jans.nachtschicht` (23:30 / 02:30 / 05:30 / 13:30) und
+`ch.jans.training-energie`; `ch.jans.training-normen` liegt vor und ist korrekt nicht geladen.
+Kein Doppelfeuer, kein wiederbelebter Job. Der stehende Entscheid Raphaels vom 30.07. ist gewahrt.
+
+**P1 — Liefer-Delta: der stärkste Nachtblock seit dem Runner-Ausbau, kein Loop im Leerlauf.**
+Zwischen 23:14 und 00:03 haben **sieben** Loops inhaltlich committet: `methoden-radar` (blinder
+Scan nach Quellordner-Umbenennung behoben, dazu Frage 0b geschlossen), `baurecht` zweimal
+(Run-Nummern-Kollision bereinigt; Triage über 243 Reglemente-Dateien 2414 Thalwil, dabei die seit
+01.06.2020 aufgehobene StrAV LS 700.4 entdeckt und an drei KB-Fundorten vermerkt), `grobkosten`
+(Verifikationspunkt bauenmitholz.info als Negativbefund geschlossen), `normen` Run 39
+(Seiten-Inventur aller 40 A3-Blätter lignum-4-1: 72 Nummern in der Quelle, 71 zitiert, **null
+erfundene Fundstellen** — die eine Lücke deckte einen fehlenden Nachweisweg auf),
+`planungsgrundlagen-wartung` 01 (228 Adressen geprüft, 6 tote ersetzt, `--hilfe` in allen fünf
+Connectoren nachgerüstet), `wissens-chef` Run 21 (Cross-KB: 19 bestätigt, 5 widerlegt, Korrekturen
+in 7 KBs und 3 Skills) und `spec` Run 38. Delta-Null-Serie: keine, auf keinem Loop. Weder
+Rücktaktung noch Deaktivierung fällig. Der 30.07. um 12:57 als «in Beobachtung» geführte
+`bauprodukte`-Loop ist damit erledigt, er lieferte am 13:30-Slot.
+
+**P2 — ein unbeaufsichtigter Nachtlauf hat sich mit einer Rückfrage selbst entwertet.** Der
+Nachtschicht-Lauf um 22:32 endete nach 158 s und 1,41 USD nicht mit einem Deliverable, sondern
+mit der Frage an Raphael, ob er eine festgefahrene Prozesskette beenden dürfe — in einem Lauf,
+bei dem niemand antwortet. Der auslösende OneDrive-Deadlock ist inzwischen verschwunden (die
+genannte PID-Kette existiert auf dem Mini nicht mehr), der 23:30-Slot lief eine Stunde später
+sauber durch. Der Sachverhalt ist also erledigt, das **Muster** nicht: ein unbeaufsichtigter Lauf,
+der fragt statt zu entscheiden und zu protokollieren, verbrennt Kontingent ohne Ertrag. Das ist
+kein Radar-Eingriff — der Prompt der Nachtschicht gehört Raphael —, aber es ist der einzige
+messbar verschwendete Lauf dieses Zeitraums und deshalb hier festgehalten. Ich taste ihn nicht an.
+
+**P3 — der Verbrauch läuft weiter deutlich über dem Vortagsschnitt, und der Treiber ist erneut
+nicht die Loop-Flotte.** MacBook-Transcripts, lokale Zeit, Definition «teuer» wie am 30.07.:
+**57,92 Mio am 30.07.** als ganzer Tag gegen rund 10 bis 11 Mio an den Vortagen, und **6,50 Mio
+allein in der ersten Stunde des 31.07.** Die Lern-Loops kosteten in derselben Nacht laut
+Lauf-Journal wenige USD; was den Verbrauch trägt, ist Raphaels laufende interaktive Session
+(Rollen-Taxonomie, md2docx, Durchlaufzeit-Messung, SWKI-Entscheid, hub-chef um 00:42). Das ist
+produktive Ausschöpfung im Sinne des Auftrags, kein Leerlauf. **Bewusst keine Mail:** die
+Fensterprobe antwortet «OK», das Wochenkontingent ist also nicht erschöpft, und der Auftrag
+kennt nur die Erschöpfung als Mail-Anlass. Den Prozentstand selbst kann ich nicht messen; die
+letzte belastbare Zahl bleibt 66 % vom 30.07. 12:49 bei Reset am 03.08. 12:00. Sollte Raphael
+vor dem Reset knapp werden, ist das sein Entscheid, nicht meiner (Lehre 25.07.).
+
+**Schlankheit:** Regellauf, keine Tiefenuntersuchung. Vier Messungen (Fenster, launchd beider
+Stationen, Commit-Delta, Verbrauch), zwei gezielte Gegenproben (PID-Kette, Journal) — sonst nichts.
+
+---
 ## 2026-07-30 20:57 — [FREI] Die Messgrundlage des Leerlauf-Wächters ist halb blind: die inhaltliche Ergebniszeile im Lauf-Journal fehlte am 29.07. bei allen acht Läufen, obwohl mehrere belegt geliefert haben. Dazu ein übersprungener Aufsichtslauf um 16:50
 
 **Selbstkontrolle: ein Lauf ist ausgefallen.** Letzter Eintrag 12:57, dieser Lauf 20:57 — 8,0 h
