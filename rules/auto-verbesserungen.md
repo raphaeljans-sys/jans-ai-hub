@@ -132,6 +132,10 @@ Vorfaelle und die vollstaendigen Inventare.
   29.07.2026 (Nummer 36 doppelt, trotz bestandenem `ps`-Check).
 - **Rollentrennung:** MacBook Pro = Arbeitsstation (keine Lern-Laeufe waehrend der Arbeitszeit);
   Mac Mini traegt die rechen-/NAS-intensiven Loops. Kein Loop laeuft auf beiden Stationen.
+- **RAM-intensive Einzelauftraege ueber `scripts/arbeits-weiche.sh` starten** (seit 30.07.2026):
+  sie misst beide Stationen (vm_stat-Regel) und waehlt den Ort — Default Mini; MacBook nur als
+  Aushilfe (LAN + Netzteil + frei + idle/ausserhalb Arbeitszeit); nie absagen, notfalls
+  Mini-Queue. Entscheide: `logbuch/arbeits-weiche/`. Wochen-Review: Task `arbeits-weiche-review`.
 - **Parallele Laeufe nur ueber `scripts/multi-claude.sh`** (Worktrees auf der SSD, Instanzzahl
   aus dem real verfuegbaren Speicher; nie Worktrees ueber den SMB-Mount, nie geteilte
   Hub-Inhalte im Worktree editieren).

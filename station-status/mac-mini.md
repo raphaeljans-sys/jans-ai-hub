@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.07.2026 10:38:05
+Stand: 30.07.2026 10:48:10
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 10:37)
+- Developer/jans/ai/hub  (letzte Aktivitaet 10:44)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.07.2026 10:38:05
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 3672a3a6 FIX E14: Symlink durch Weiterleitungsdatei ersetzt — ein echter Symlink wird vom macOS-SMB-Client als XSym-Textdatei geschrieben und vom nativen Committer als Inhalt erfasst, wodurch Klone eine kaputte 1-KB-Datei statt des Connectors zogen (auf dem Mini belegt und behoben)
+- c5ef6473 wettbewerbs-dna Etappe 4 REAKTIVIERT (Entscheid Raphael, Variante B vertiefen): Task enabled + neuer Vertiefungs-Prompt (V1 Tiefen-Angleich / V2 Rueckkopplung Siegargumente / V3 Verdichtung, Refuter- und Delta-Null-Meldepflicht), Statuskopf + CHANGELOG, Rolle prototyper->sweeper, Nachtschicht-Ausschluss ergaenzt; Rang-Falschaussage des Radars korrigiert (Muttenz 4. Rang, Schoental 3. Rang — nicht zweite Plaetze)

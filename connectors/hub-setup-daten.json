@@ -53,7 +53,12 @@
       "weg": "claude.ai/code hat KEIN LAN/Tailscale -> remote-tasks/pending/<station>/*.sh via git push, Ergebnis via remote-tasks/results/",
       "latenz": "~5-10 Min"
     },
-    "handy": { "weg": "Dispatch/Cowork -> scripts/dispatch-run.sh auf dem Mac Mini" }
+    "handy": { "weg": "Dispatch/Cowork -> scripts/dispatch-run.sh auf dem Mac Mini" },
+    "lastverteilung": {
+      "weg": "bash scripts/arbeits-weiche.sh [--wo] <name> [<prompt>] — RAM-intensive Auftraege auf die optimale Station",
+      "politik": "Default Mini; MacBook nur Aushilfe (LAN+Netzteil+frei+idle); nie absagen, notfalls Mini-Queue",
+      "journal": "logbuch/arbeits-weiche/YYMMDD-entscheide.jsonl"
+    }
   },
   "mail_konten": {
     "rj@raphaeljans.ch": "Microsoft 365, geschaeftliches Hauptkonto, Standard-Absender",
