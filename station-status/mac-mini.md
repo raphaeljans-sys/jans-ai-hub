@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 30.07.2026 07:46:50
+Stand: 30.07.2026 07:56:56
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 30.07.2026 07:46:50
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 460e08a6 nas-selfcommit: 2 Datei(en) 2026-07-30 07:45
+- 366f0e47 ag-gruendung-monitor 30.07.: UBS-Blockade nach 32 Tagen geloest (Formular Raphael Jans AG 29.07. eingereicht), Engpass wechselt aufs Notariat
