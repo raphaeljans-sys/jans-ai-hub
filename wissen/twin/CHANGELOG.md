@@ -4,6 +4,22 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-31 — Gate twin-chef (Notariatsmail Mathies, rechtsbegruendete Amtseingabe): Veredelung
+  Runde 1/3, Fidelity 78 → 91.** Vier Facetten unter Schwelle gestartet (Stimme 78 / Denken 72 /
+  Haltung 76 / Fachsignatur 74), Beziehung 88 und Arbeitsweise 80 durchgewunken. Zwei Agenten-
+  Befunde nach Rule 260729b gegengeprueft statt uebernommen: (a) Art. 951 OR am Fedlex-Volltext
+  (SR 220, Stand 20260101) verifiziert — der Einwand von `twin-fachsignatur` trifft zu, die
+  Vergleichsgruppe ist enger als im Entwurf («Firmen von Handelsgesellschaften und Genossenschaften»,
+  ein Satz, kein Absatz), die vom Agenten aus dem Gedaechtnis ergaenzten Vereine/Stiftungen/KmGK
+  dagegen NICHT; (b) der von DREI Agenten unabhaengig gemeldete Datumsfehler «Fassung vom 27.06.26»
+  ist ein **Fehlalarm** — alle drei hatten dieselbe Kausalkette geraten (Vollliberierung sei durch
+  die UBS-Freigabe vom 29.07. ausgeloest), belegt ist der Gegenteil: Entscheid und Einarbeitung am
+  27.06., Dateien `260627_*.docx` mtime 27.06.26 13:50. Musterfall fuer Rule 260729b.
+  Zwei Facetten-Widersprueche geschlichtet und in `wiki/QUESTIONS.md` (Runde 260731) vermerkt:
+  Datumsformat im Amtsregister (Chef: zweistellig, belegt schlaegt Analogie) und «ohne Service-Satz»
+  vs. Schluss-Dank (Chef: Dank bleibt — Gold C traegt ihn, drei Agenten hatten die beiden Begriffe
+  verwechselt). Kein Wiki-Artikel geaendert, nur QUESTIONS ergaenzt.
+
 - **2026-07-30 23:46 — Fidelity-Selbsttest nach Kontext-Diaet (twin-chef, Auftrag Raphael): GRUEN
   mit EINER Rueckkorrektur.** Diff-Sicht Vor-Diaet (`1a8cd6f0`) gegen Nach-Diaet je Facette: fuenf
   Facetten regel-vollstaendig (nur Beleg-Parenthesen/Umbrueche entfernt); in [[stimme]] EIN belegter

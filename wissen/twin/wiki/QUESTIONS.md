@@ -2318,3 +2318,43 @@ Drei Fragen aus dem vollständig gelisteten Oktober-Fenster. Je in 1–2 Sätzen
    die Rule den Kurzgruss ans operative Register bindet. Wenn das Gewicht auch den GRUSS hebt (nicht
    nur die Anrede), gehört das in die Rule `anrede-kontakte` neben die Anrede-Klausel.*
    → [[stimme]], [[beziehungsregister]]
+
+---
+
+## Runde 260731 (Gate twin-chef, Notariatsmail Mathies) — zwei Facetten-Spannungen, vom Chef entschieden
+
+Kontext: Fidelity-Gate über eine rechtsbegründete Eingabe an das Notariat Wiedikon-Zürich
+(Sprechakt a: eigenes Recht geltend machen, Gründung Raphael Jans AG). Die vier Facetten-Agenten
+widersprachen sich an zwei Stellen; der Chef hat kontextabhängig aufgelöst. Beide Entscheide sind
+belegt, aber je an einer Kante, die Raphael in einem Satz härten könnte.
+
+1. **Trägt die Amtseingabe das zwei- oder das vierstellige Jahr?** `twin-stilist` verlangte die
+   vierstellige Form (22.06.2026) für die aktenkundige, rechtsbegründete Eingabe und markierte die
+   Beleglage selbst als offen («Register-Analogie, kein Direktbeleg»). Das Wiki belegt die
+   **zweistellige** Form dagegen mehrfach, aber ausschliesslich operativ/Mahnung (01.02.26,
+   10.06.26, 15.06.26, 16.03.26, 31.07.26). Der Chef hat auf **zweistellig** entschieden (belegt
+   schlägt Analogie). Offen bleibt: schreibst Du in einer Eingabe, die zur Urkunde gehört, bewusst
+   vierstellig? *Warum: der Zwilling datiert heute jede Gattung gleich; wenn das Aktengewicht das
+   Datumsformat hebt, ist das ein billiger, aber sichtbarer Fidelity-Gewinn.* → [[stimme]]
+
+2. **«Ohne Service-Satz» heisst nicht «ohne Dank» — bestätigst Du die Trennung?** Drei von vier
+   Facetten-Agenten (`twin-werte`, `twin-denker`, `twin-fachsignatur`) wollten die Schlusszeile
+   **ersatzlos streichen** und beriefen sich auf die belegte Regel «Gesuch/Antrag ans Amt endet mit
+   dem Begehren, FG + Block ohne Service-Satz» (Fidelity 260719). Der Chef hat das **verworfen**:
+   der nächstliegende authentische Präzedenzfall, Gold C (Statutenänderungs-Ersuchen ans Notariat
+   Hottingen, 04.11.2025), trägt ausdrücklich «Für Ihre Antwort bin ich Ihnen dankbar» + FG + Block
+   *und* ist zugleich als «ohne Service-Satz» erfasst; die Amtsmail ans Bundesamt für Justiz
+   (21.06.2026) trägt «Besten Dank für Ihre Unterstützung». Gestrichen wurde daher nur die
+   Floskelform «bedanke ich mich bereits im Voraus», ersetzt durch die belegte Kurzform. Offen:
+   ist der **Schluss-Dank** in der Amtseingabe fix, oder fällt er weg, wenn das Begehren hart ist?
+   *Warum: drei Facetten haben Service-Satz und Dank verwechselt — die Wiki-Formulierung «ohne
+   Service-Satz» lädt zu diesem Fehlschluss ein und sollte, wenn Du bestätigst, in
+   [[stimme]]/[[fachsignatur]] um den Halbsatz «der Schluss-Dank bleibt» ergänzt werden.*
+   → [[stimme]], [[fachsignatur]], [[haltung]]
+
+3. **Nebenbefund, kein Stil: Anhang-Dateinamen widersprechen der Botschaft.** Die beiden Beilagen
+   heissen verifiziert `260627_Gruendungsurkunde_JANS-AG_Entwurf.docx` und
+   `260627_Statuten_JANS-AG.docx` (nur der Inhalt wurde auf «Raphael Jans AG» umgestellt, die
+   Dateinamen nicht). Die Mail teilt dem Notar mit, dass «JANS AG» aufgegeben ist, und hängt zwei
+   Dateien an, die «JANS-AG» im Namen tragen. → an Raphael zur Umbenennung vor Versand, keine
+   Facettenfrage.

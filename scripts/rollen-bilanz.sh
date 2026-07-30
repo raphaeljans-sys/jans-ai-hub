@@ -87,6 +87,41 @@ awk -F'\t' '{
         printf "%s\t%s\t%s\t%s\t%d\n", $1, $2, klasse, $4, leer
     }' "$TMP/laeufe" > "$TMP/klassiert"
 
+# --- 2b. Frische der Datenquelle -------------------------------------------
+# Eine Bilanz, deren Quelle versiegt ist, liefert weiter plausible Zahlen — sie
+# beschreibt nur nicht mehr die Gegenwart. Belegt am 31.07.2026: der
+# vollgas-runner schrieb seit dem 27.07. keine Zeile mehr, die Bilanz zeigte
+# aber unveraendert 467 Laeufe und 64.5 Stunden, als waere nichts geschehen.
+# Darum meldet sie ihre eigene Aktualitaet, bevor irgendeine Zahl kommt
+# (Rule auto-verbesserungen 260730b: Betriebszustand messen, nie fortschreiben).
+JUENGSTE=$(awk -F'\t' '{if ($1 > m) m = $1} END {print m}' "$TMP/laeufe")
+JUENGSTE=${JUENGSTE:-keine}
+if [ "$JUENGSTE" = "keine" ]; then
+    FRISCHE="KEINE DATEN im Messfenster — die Quelle liefert nichts."
+    FRISCHE_ALT=999
+else
+    FRISCHE_ALT=$(( ( $(date +%s) - $(date -j -f "%Y-%m-%d" "$JUENGSTE" +%s 2>/dev/null || echo 0) ) / 86400 ))
+    if [ "$FRISCHE_ALT" -le 1 ]; then
+        FRISCHE="aktuell (jüngster erfasster Lauf: $JUENGSTE)"
+    else
+        FRISCHE="VERALTET — jüngster erfasster Lauf ist $JUENGSTE, also $FRISCHE_ALT Tage her."
+    fi
+fi
+
+# Zweite, moderne Quelle: das Lauf-Journal aus scripts/claude-run.sh. Es traegt
+# rc, Laufzeit und Kosten je Lauf und waere die bessere Grundlage — solange dort
+# aber nur Test- und Dispatch-Laeufe stehen, wird es NICHT in die Rollenzahlen
+# gemischt, sondern nur ausgewiesen. Eine Quelle, die etwas anderes zaehlt als
+# sie vorgibt, ist schlimmer als eine fehlende.
+JOURNAL="$HUB/logbuch/laeufe"
+if [ -d "$JOURNAL" ]; then
+    J_N=$(cat "$JOURNAL"/*.jsonl 2>/dev/null | grep -c . )
+    J_LOOPS=$(cat "$JOURNAL"/*.jsonl 2>/dev/null | sed -nE 's/.*"loop":"([^"]+)".*/\1/p' | sort -u | tr '\n' ' ')
+    J_JUENGST=$(ls -t "$JOURNAL"/*.jsonl 2>/dev/null | head -1 | xargs -I{} basename {} 2>/dev/null)
+else
+    J_N=0; J_LOOPS=""; J_JUENGST=""
+fi
+
 # --- 3. Lauf-Qualitaet insgesamt -------------------------------------------
 QUAL=$(awk -F'\t' '{n[$3]++; s[$3]+=$4} END {for (k in n) printf "%s\t%d\t%d\n", k, n[k], s[k]}' "$TMP/klassiert")
 GES_N=$(awk -F'\t' '{s+=$2} END{print s+0}' <<<"$QUAL")
@@ -131,6 +166,24 @@ cat <<HEAD
 Messfenster: $TAGE Tage (seit $SEIT)
 Register: logbuch/rollen/rollen-map.tsv · Liefer-Delta aus: $GITQUELLE
 Taxonomie: docs/konzepte/260729-Rollen-Taxonomie/
+
+## 0. Aktualität der Datenquelle
+
+**Stand der Quelle (Runner-Logs): $FRISCHE**
+
+Diese Zeile steht vor allen Zahlen, weil eine Bilanz mit versiegter Quelle
+weiterhin plausible Werte liefert und nur nicht mehr die Gegenwart beschreibt.
+Ist der Wert veraltet, sind alle folgenden Zahlen ein historischer Befund und
+kein Betriebszustand.
+
+Zweite Quelle, Lauf-Journal (\`logbuch/laeufe/\`): $J_N Einträge, jüngste Datei
+$J_JUENGST. Erfasste Loops: $J_LOOPS
+
+Das Journal aus \`scripts/claude-run.sh\` trägt rc, Laufzeit und Kosten je Lauf
+und wäre die bessere Grundlage. Es wird hier bewusst NICHT in die Rollenzahlen
+gemischt, solange dort nur Test- und Dispatch-Läufe stehen: eine Quelle, die
+etwas anderes zählt als sie vorgibt, ist schlimmer als eine fehlende. Sobald die
+produktiven Loops über \`claude-run.sh\` laufen, wird sie zur Hauptquelle.
 
 ## 1. Lauf-Qualität — was von den Läufen überhaupt Arbeit war
 
@@ -254,6 +307,11 @@ FOOT
 
 echo "Report: $REPORT"
 echo
+if [ "$FRISCHE_ALT" -gt 1 ]; then
+    echo "  ACHTUNG Quelle: $FRISCHE"
+    echo "  Die folgenden Zahlen sind ein historischer Befund, kein Betriebszustand."
+    echo
+fi
 printf '%s\n' "$QUAL" | sort | awk -F'\t' -v g="$GES_S" '
     {printf "  %-11s %6d Laeufe  %6.1f h  %3.0f %% der Zeit\n", $1, $2, $3/3600, (g>0?100*$3/g:0)}'
 echo
