@@ -49,10 +49,14 @@ node /Volumes/daten/jans-ai-hub/webtools/cockpit/build-cockpit.mjs --open
 <plist version="1.0">
 <dict>
   <key>Label</key><string>com.jans.cockpit</string>
+  <!-- NAS-first: Script UND Daten vom NAS, SSD-Repo nur als Fallback wenn
+       /Volumes/daten beim Lauf nicht gemountet ist (Wahl je Lauf neu).
+       Node-Pfad an die Station anpassen (command -v node). -->
   <key>ProgramArguments</key>
   <array>
-    <string>/usr/local/bin/node</string>
-    <string>/Volumes/daten/jans-ai-hub/webtools/cockpit/build-cockpit.mjs</string>
+    <string>/bin/bash</string>
+    <string>-c</string>
+    <string>H=/Volumes/daten/jans-ai-hub; [ -d "$H" ] || H=$HOME/Developer/jans-ai-hub; exec /opt/homebrew/bin/node "$H/webtools/cockpit/build-cockpit.mjs" --hub "$H"</string>
   </array>
   <key>StartInterval</key><integer>300</integer>
   <key>RunAtLoad</key><true/>
