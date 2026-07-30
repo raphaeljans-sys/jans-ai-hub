@@ -5,6 +5,63 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-31
+
+**Hub-Chef-Lauf (Start 30.07. 08:39, interaktiv fortgesetzt, Abschluss 31.07. ca. 00:40) —
+MIT Befund, Briefing versendet.** Der Lauf begann planmaessig, wurde aber zur interaktiven
+Sitzung: Raphael kam waehrend Phase 5 dazu, liess sich die Entscheide als Auswahlboxen
+vorlegen und hat fuenf davon entschieden. Deshalb ueberschreitet dieser Lauf Mitternacht;
+die Signalbasis stammt vom 30.07., die Aktionen und das Briefing vom 31.07.
+
+**Signale:** Fristen-Register + Logbuch (7-Tage-Horizont), Konversations-Destillat 30.07.,
+`mail-vorfilter.sh 26` ueber alle sechs Apple-Mail-Konten inkl. `raphaeljans@outlook.com`, die
+relevanten Threads danach im Original samt Anhaengen, bexio `--verzug` und `--abgleich`,
+Outlook-Kalender ueber 8 Tage (nur Koordinationssitzung 06.08.) plus lokaler Kalender,
+Sync- und Remote-Task-Queues (beide leer), Entwurfsordner. Der Radar hatte um 07:07 und der
+AG-Gruendungs-Monitor um 07:51 bereits gemailt — dieses Briefing traegt nur das Delta.
+
+**Befund 1 (Geld, der wichtigste):** RE-00100 ueber CHF 13'120 war aus dem taeglichen
+Verzugs-Monitoring herausgefallen. Status 7 (Entwurf) gegen Status 8 bei allen anderen
+offenen Rechnungen; `--verzug` filtert 7 weg, `--offen` zaehlt es mit. Die Rechnung waere nach
+Faelligkeit nie gemeldet worden. Raphael hat den Status im Lauf selbst korrigiert; die
+Faelligkeit steht aber weiterhin auf 30.07., obwohl die korrigierte Rechnung erst am 29.07.
+rausging. **A1 fuer RE-00100 gesperrt**, bis die Faelligkeit stimmt.
+
+**Befund 2 (Betrieb):** Im selben Connector bildete `heute()` das Datum ueber `toISOString()`
+und lieferte damit im Nachtfenster den Vortag — beim Test um 00:21 stand der Stichtag auf
+2026-07-30. Bestandssweep ueber `connectors/`, `scripts/`, `skills/`: bexio.mjs war der letzte
+verbliebene Fundort dieses UTC-Fehlers. Patch gebaut und gegen die Live-Daten getestet
+(Stichtag danach korrekt, RE-00100 sichtbar, neuer Warnblock fuer nicht ueberwachte
+Rechnungen). **Nicht angewandt** — Infrastruktur, Freigabe Raphael.
+
+**Befund 3 (Recht):** Die von Raphael bestellte Pruefung der Vertragsgrundlage gegenueber
+der Gruner AG ist negativ ausgegangen. JANS hat keinen eigenen Vertrag; Auftraggeberin ist
+die Eleonorenstiftung, ein unterzeichneter Planervertrag existiert nicht. Nachfrist,
+Ersatzvornahme und Honorarabzug sind im eigenen Namen nicht durchsetzbar. Der
+Eskalations-Entwurf wurde deshalb nicht «fertiggestellt», sondern auf die tatsaechliche Rolle
+umgebaut. Fundstellen im Register.
+
+**Aktionen: A5** — zwei Mail-Entwuerfe abgelegt, beide NICHT versendet: aktualisierte Fassung
+ans Notariat Mathies (Beurkundungstermin ab ca. 10.08. statt Mitte/Ende August, zwei
+umbenannte Word-Anhaenge) und die umgebaute Fassung an B. Kuebler (Gruner, drei belegte
+offene Punkte, Frist 04.08. 17:00 vor der Sitzung am 06.08.). QS je `rechtschreibung` +
+`layout` gruen, `twin-chef` Fidelity 91 bzw. 90 nach je einer Veredelungsrunde. **A4** —
+Fristen-Register und dieser Eintrag.
+
+**Guards / bewusst unterlassen:** **A1** nicht qualifiziert (RE-00087 CHF 15'000 steht nach
+105 Tagen auf Mahnstufe 2 = per Whitelist immer nur Entwurf; RE-00098/99 in laufender Frist
+bis 03.08.; RE-00101 wird erst heute faellig; RE-00100 gesperrt, siehe oben). **A2** nicht
+noetig, alle bestaetigten Termine stehen im Kalender. Keine Zahlung, keine Buchung, keine
+Loeschung, kein Versand ausser dem Briefing. Kein `git` ueber SMB (nativer Committer).
+
+**Selbstkritik:** Beim Ergaenzen von Signatur und zweitem Anhang sind vier ueberzaehlige
+Entwuerfe entstanden, weil Apple Mail gespeicherte Entwuerfe weder im Inhalt noch bei den
+Anhaengen aendern laesst und jeder Korrekturversuch einen Neuanlauf erzwang. Das haette ein
+Blick auf die Schreibbarkeit vor dem ersten Anlegen verhindert. Die zu verwendenden
+Entwuerfe sind im Register benannt; Loeschen des Ausschusses liegt bei Raphael.
+
+---
+
 ## 2026-07-30
 
 **Register-Aufraeumlauf `fristen.md` (Auftrag Raphael, Skill `logbuch`).** Alle 271 Zeilen des Fristen-/Pendenzen-Registers gegen sich selbst (spaetere Nachtraege/Korrekturen) und gegen `LOGBUCH.md` gegengeprueft; Kernfokus die 24 Zeilen mit explizitem `Status:`-Tag (die uebrigen sind periodische Radar-/Hub-Chef-Sammeleintraege ohne Einzel-Tag). **11 Zeilen ergaenzt/umgestellt, keine geloescht:** (1) UBS-Kapitaleinzahlungskonto (Zeile ~12) offen → erledigt, Beleg Radar-Nachtrag 30.07. Befund 1; (2) AG-Gruendungs-Monitor-Eintrag (~68) Nachtrag ergaenzt, da die AG-Gruendung selbst inzwischen ebenfalls geloest ist; (3) RE-00100/RE-00101-Aktivzeile (~64) Nachtrag «teilweise ueberholt» (RE-00100 retourniert + neu ausgestellt seit 28./29.07.); (4) KB `projekt-lessons` leer-seit-Anlage (~72) Nachtrag «teilweise ueberholt» (KB seit 23.07. nicht mehr leer); (5) KISPI-Bauleitungspendenzen-Konsolidierungsauftrag (~74) offen → erledigt (Konsolidierung laut Stand 21.07. erfolgt); (6) Bueroausfall NAS+Mac Mini (~80) offen,hoch → erledigt (behoben 20.07. ca. 09:30); (7) Dauerschicht-Loop blockiert (~82) offen,mittel → erledigt (lief nach NAS-Rueckkehr wieder an); (8) Kontext-Diaet Restpunkte (~86) Hauptteil erledigt/Rest zu pruefen → vollstaendig erledigt (Minimum Viable Model + Vorfilter-Scripts belegt umgesetzt); (9) LBW-Beschichtungsfrage-Zusatz (~92) Nachtrag: beantwortet 21.07. (Dauerschicht-Zyklus 35), Hauptpunkt Roethlisberger bleibt offen; (10) SYN-02-Interview-Status (~100) offen → erledigt (Interview 21.07. abgeschlossen, Umsetzung volumen_generator.py steht aus); (11) Jegen Prinzippläene 10-Punkte-Entscheid (~90) Nachtrag: weiterhin offen, Kontext auf Stand 27.07. nachgefuehrt (7 von 10 Punkten unentschieden). **Weiterhin unveraendert offen** (gegengeprueft, keine Korrektur gefunden): KISPI-Fachplaner-Mail-Entwurf (Rueckfrage Empfaenger/Anrede), Installationsplan Lueftung QS-Brandschutz-Rueckweisung (Ball bei Gruner/Duran), Abo-Auslastungs-Re-Login (`claude` → `/login`, seit 20.07.), Beilagestrategie Feuerpolizei VKF-Nachweise (Raphaels Entscheid, kein Termin), Umlaut-Regel in fuenf Mac-Mini-Scheduled-Task-Prompts (Config, whitelist-blockiert), immobewertung-training-Ruecktaktung (Entscheid Raphael, Takt woechentlich/ereignisgesteuert), Rule-260624-Hoehenfehler Oberrieden (9.0 m statt 8.5 m traufseitig, Korrektur Raphael noch nicht erfolgt). Keine Zeile geloescht, keine Mail versendet, keine Buchung. Aenderungen direkt auf dem NAS-Repo via Edit, kein `git` ueber SMB.
