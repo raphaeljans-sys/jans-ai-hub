@@ -9,6 +9,37 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 **Register-Aufraeumlauf `fristen.md` (Auftrag Raphael, Skill `logbuch`).** Alle 271 Zeilen des Fristen-/Pendenzen-Registers gegen sich selbst (spaetere Nachtraege/Korrekturen) und gegen `LOGBUCH.md` gegengeprueft; Kernfokus die 24 Zeilen mit explizitem `Status:`-Tag (die uebrigen sind periodische Radar-/Hub-Chef-Sammeleintraege ohne Einzel-Tag). **11 Zeilen ergaenzt/umgestellt, keine geloescht:** (1) UBS-Kapitaleinzahlungskonto (Zeile ~12) offen → erledigt, Beleg Radar-Nachtrag 30.07. Befund 1; (2) AG-Gruendungs-Monitor-Eintrag (~68) Nachtrag ergaenzt, da die AG-Gruendung selbst inzwischen ebenfalls geloest ist; (3) RE-00100/RE-00101-Aktivzeile (~64) Nachtrag «teilweise ueberholt» (RE-00100 retourniert + neu ausgestellt seit 28./29.07.); (4) KB `projekt-lessons` leer-seit-Anlage (~72) Nachtrag «teilweise ueberholt» (KB seit 23.07. nicht mehr leer); (5) KISPI-Bauleitungspendenzen-Konsolidierungsauftrag (~74) offen → erledigt (Konsolidierung laut Stand 21.07. erfolgt); (6) Bueroausfall NAS+Mac Mini (~80) offen,hoch → erledigt (behoben 20.07. ca. 09:30); (7) Dauerschicht-Loop blockiert (~82) offen,mittel → erledigt (lief nach NAS-Rueckkehr wieder an); (8) Kontext-Diaet Restpunkte (~86) Hauptteil erledigt/Rest zu pruefen → vollstaendig erledigt (Minimum Viable Model + Vorfilter-Scripts belegt umgesetzt); (9) LBW-Beschichtungsfrage-Zusatz (~92) Nachtrag: beantwortet 21.07. (Dauerschicht-Zyklus 35), Hauptpunkt Roethlisberger bleibt offen; (10) SYN-02-Interview-Status (~100) offen → erledigt (Interview 21.07. abgeschlossen, Umsetzung volumen_generator.py steht aus); (11) Jegen Prinzippläene 10-Punkte-Entscheid (~90) Nachtrag: weiterhin offen, Kontext auf Stand 27.07. nachgefuehrt (7 von 10 Punkten unentschieden). **Weiterhin unveraendert offen** (gegengeprueft, keine Korrektur gefunden): KISPI-Fachplaner-Mail-Entwurf (Rueckfrage Empfaenger/Anrede), Installationsplan Lueftung QS-Brandschutz-Rueckweisung (Ball bei Gruner/Duran), Abo-Auslastungs-Re-Login (`claude` → `/login`, seit 20.07.), Beilagestrategie Feuerpolizei VKF-Nachweise (Raphaels Entscheid, kein Termin), Umlaut-Regel in fuenf Mac-Mini-Scheduled-Task-Prompts (Config, whitelist-blockiert), immobewertung-training-Ruecktaktung (Entscheid Raphael, Takt woechentlich/ereignisgesteuert), Rule-260624-Hoehenfehler Oberrieden (9.0 m statt 8.5 m traufseitig, Korrektur Raphael noch nicht erfolgt). Keine Zeile geloescht, keine Mail versendet, keine Buchung. Aenderungen direkt auf dem NAS-Repo via Edit, kein `git` ueber SMB.
 
+**NACHTRAG 30.07. ~13:15 — Abo-Check umgebaut (Freigabe Raphael im Chat): Messausfall eskaliert
+jetzt aktiv, und die Bewertung rechnet neu das VERBRAUCHSTEMPO statt nur die Schwelle.** Anlass
+sind die zwei Lehren des heutigen Laufs. **(1) Blindheit eskaliert.** Der Ausfall vom 20.07. war
+korrekt als Pendenz im Register vermerkt und blieb trotzdem zehn Tage liegen, weil eine
+Registerzeile im Tagesbriefing untergeht — im selben Zeitraum riss das Wochenlimit (26./27.07.,
+rund 5'900 abgebrochene Sessions). Neu fuehrt der Check einen Ausfall-Zaehler in
+`logbuch/abo-check/status.json`; ab dem **zweiten Ausfall in Folge** schreibt er
+`logbuch/abo-check/ALARM.md` und sendet eine kurze Mail **ausschliesslich an rj@** (Selbst-Meldung
+ohne Aussenwirkung, Praezedenz Vollgas-Fruehwarner; Mails an Dritte bleiben nach
+AKTIONS-WHITELIST verboten). Bei erfolgreicher Messung faellt der Zaehler auf 0 und die ALARM-Datei
+wird geloescht. **(2) Tempo statt Schwelle.** Neu wird `Tempo-Faktor = Verbrauch-% / verstrichene
+Fensterzeit-%` gerechnet; ROT ab Faktor 1.40. Am heutigen Wert nachgemessen: 66 % nach 43 % der
+Fensterzeit = **1.52**, also **ROT** — die alte Schwellenlogik haette nur GELB gemeldet und den
+drohenden Limit-Riss nicht angezeigt. **(3) Uebersprungene Laeufe zaehlen wie Ausfaelle.** Beim
+Pruefen fiel ein Loch im eigenen Entwurf auf: der Lauf vom 26.07. fand statt, als das Limit bereits
+erschoepft war, und brach ab, bevor er etwas schreiben konnte — ein Check, der am Limit stirbt,
+zaehlt sich selbst keinen Ausfall an. Schritt 0 prueft deshalb neu die Frische von `status.json`
+(>9 Tage = mindestens ein Lauf ausgefallen) und eskaliert nachtraeglich. **Restrisiko bewusst
+offen und im Prompt vermerkt:** faellt der Check ueber mehrere Takte aus, meldet ihn niemand, weil
+er sich nur selbst ueberwacht; ein echter Waechter waere ein reines bash-/launchd-Script ohne
+Claude-Session und ohne Token — **nicht gebaut, Infrastruktur-Entscheid Raphael**. **Ablage
+korrigiert:** der Prompt liegt neu kanonisch auf dem NAS
+(`templates/scheduled-tasks/claude-abo-auslastung/SKILL.md`) und wird von dort auf die Station
+kopiert; bisher existierte er nur lokal unter `~/.claude/scheduled-tasks/` und waere bei einem
+Stationswechsel verloren gewesen (verwandt mit dem offenen Punkt «Umlaut-Regel fehlt in fuenf
+Mac-Mini-Task-Prompts» — dieser Prompt traegt die Umlaut- und Schweizer-Hochdeutsch-Pflicht jetzt
+ausdruecklich). Nachgemessen: Station und NAS byte-identisch, `status.json` valides JSON und
+Zaehler lesbar, ALARM-Schreib- und Loeschpfad je einmal real durchlaufen, Registry-Eintrag intakt
+(enabled, naechster Lauf 02.08. 18:06). **Ungetestet bleibt der Mail-Versandpfad** — er laeuft
+erstmals beim naechsten echten Doppelausfall; ein Testversand wurde bewusst unterlassen.
+
 **NACHTRAG 30.07. 12:50 zum Abo-Check — RE-LOGIN ERFOLGT, MESSUNG LIEGT VOR, Ampel GELB;
 die Trajektorie ist der eigentliche Befund.** Raphael hat den `/login` unmittelbar nach dem
 Check ausgefuehrt (Keychain-`mdat` neu **30.07.2026 10:49:21 UTC**, vorher 12.07.), damit ist
