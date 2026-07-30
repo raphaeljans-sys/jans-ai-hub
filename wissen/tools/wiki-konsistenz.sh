@@ -37,6 +37,12 @@ trap 'rm -f "$ZIELE"' EXIT
   find "$WISSEN" -name "*.md" -not -path "*/raw/*" | while read -r f; do
     basename "$f" .md
   done
+  # Nicht jede KB fuehrt ihre Ziele als .md: `architekten-synobsis` verlinkt aus dem Wiki auf
+  # 856 Katalogeintraege `catalog/<Name>.json`. Ohne diese Zeile meldet das Script 737 gueltige
+  # Links als tot — derselbe Fehlalarm-Typ, gegen den es gebaut wurde.
+  find "$WISSEN" -path "*/catalog/*.json" | while read -r f; do
+    basename "$f" .json
+  done
   find "$HUB/skills" -maxdepth 1 -mindepth 1 -type d -exec basename {} \; 2>/dev/null
   find "$HUB/agents" -maxdepth 1 -name "*.md" -exec basename {} .md \; 2>/dev/null
   find "$HUB/rules"  -maxdepth 1 -name "*.md" -exec basename {} .md \; 2>/dev/null

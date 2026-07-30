@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 31.07.2026 01:24:40
+Stand: 31.07.2026 01:34:43
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -9,8 +9,8 @@ Stand: 31.07.2026 01:24:40
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
+- 16 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 12 Datei(en): AR - 01 Projekte / 2414 THALWIL
-- 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 305933cc Arbeits-Weiche als Pflicht-Einstieg getakteter Laeufe: --takt-Modus (nie queuen) + Options-Guard + Druck-2-Angleich; Nachtschicht fragt Weiche und faehrt Aushilfe-Zyklus auf dem MacBook (Prioritaeten 1+2 ausgenommen); alle Pfade nachgemessen, Chronik 260731b
+- 457df689 brandschutz C41-C44: netzferner Kleinbau durchentschieden (QSS-Doppelschwelle, Selbstrettung, Vollzug OW/BE), Destillat VKF-Merkblatt 2005-15 Lithium-Ionen
