@@ -379,10 +379,17 @@ echo ""
 
 - Das Setup ist idempotent — es kann auf einer bereits teilweise eingerichteten Station
   problemlos erneut ausgeführt werden.
-- Netzdaten: NAS `192.168.1.10` (LAN) / `100.92.246.28` (Tailscale), Mac Mini
-  `192.168.1.210` / `100.120.219.12` — Details in `CLAUDE.md` (Sektion Netzwerk).
+- Netzdaten und Verbindungswege: kanonisch im Setup-Konnektor —
+  `node /Volumes/daten/jans-ai-hub/connectors/hub-setup.mjs --alles` (Fakten) bzw.
+  `--check` (Live-Verbindungscheck). Kurzform: NAS `192.168.1.10` / `100.92.246.28`,
+  Mac Mini `192.168.1.210` / `100.120.219.12`.
+- SSH zwischen Stationen: Aliase `mini`/`macbook` in `~/.ssh/config` mit Dual-Pfad
+  (Match-exec prueft zuerst den LAN-Weg, faellt sonst auf die Tailscale-IP zurueck;
+  Muster siehe bestehende Configs auf Mini/MacBook). Eigenen Public-Key auf der
+  Gegenstation in `~/.ssh/authorized_keys` eintragen lassen (Einzelfreigabe Raphael).
 - Die Hub-Logik (Symlinks, launchd, Queue, Register) lebt in `scripts/neue-station.sh` —
   dort ändern, nicht hier duplizieren. Dieser Skill ist die Komfort-Hülle drumherum.
 - Bei Firmensoftware (Vectorworks, Adobe, etc.) muss der Benutzer die Lizenzen selbst
   aktivieren — das Setup beschränkt sich auf die Infrastruktur.
-- Nach dem Setup: Skill `heartbeat` laufen lassen und `/station-sync` prüfen.
+- Nach dem Setup: Skill `heartbeat` laufen lassen (inkl. Check 9 Stations-Verbindungen),
+  `node connectors/hub-setup.mjs --check` und `/station-sync` prüfen.

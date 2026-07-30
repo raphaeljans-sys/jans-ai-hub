@@ -37,15 +37,17 @@
   },
   "verbindungswege": {
     "macbook_zu_mini": {
-      "weg": "ssh mini (Alias in ~/.ssh/config -> 100.120.219.12, Schluessel ~/.ssh/id_ed25519)",
-      "voraussetzung": "Tailscale auf BEIDEN Geraeten verbunden (Menuleisten-App laeuft und eingeloggt)",
+      "weg": "ssh mini — Dual-Pfad seit 30.07.2026: Match-exec prueft LAN 192.168.1.210:22 (1 s), sonst Tailscale 100.120.219.12",
+      "voraussetzung": "Im Buero: nur LAN noetig. Extern: Tailscale auf BEIDEN Geraeten verbunden",
       "haeufigste_stoerung": "Tailscale-Client auf einer Seite pausiert/ausgeloggt -> 'connection refused' vom lokalen tailscaled",
-      "diagnose": "node connectors/hub-setup.mjs --check"
+      "diagnose": "node connectors/hub-setup.mjs --check",
+      "status": "verifiziert 30.07.2026, beide Pfade OK"
     },
     "mini_zu_macbook": {
-      "weg": "ssh macbook (Alias -> 100.117.99.62); nur opportunistisch, MacBook kann schlafen",
-      "standard": "Asynchron via NAS-Task-Queue: scripts/sync-task-create.sh macbook-pro <titel> <script>",
-      "hinweis": "Mini-Publickey muss auf dem MacBook in ~/.ssh/authorized_keys stehen"
+      "weg": "ssh macbook — Dual-Pfad seit 30.07.2026: Match-exec prueft mDNS Macbookpro.local:22, sonst Tailscale 100.117.99.62",
+      "standard": "Asynchron via NAS-Task-Queue: scripts/sync-task-create.sh macbook-pro <titel> <script> (MacBook kann schlafen/mobil sein)",
+      "hinweis": "Mini-Publickey seit 30.07.2026 in authorized_keys des MacBook (Freigabe Raphael)",
+      "status": "verifiziert 30.07.2026, beide Pfade OK"
     },
     "cloud_zu_stationen": {
       "weg": "claude.ai/code hat KEIN LAN/Tailscale -> remote-tasks/pending/<station>/*.sh via git push, Ergebnis via remote-tasks/results/",

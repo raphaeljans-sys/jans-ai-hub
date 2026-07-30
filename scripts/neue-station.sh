@@ -92,6 +92,22 @@ else
     warn "setup-nas-skills.sh meldete Fehler — manuell ausfuehren"
 fi
 
+# --- 4b. User-Level-Commands (Slash-Commands auch ausserhalb des Repos) ------
+echo "4b. User-Level-Commands"
+if ln -sfn "$NAS/commands" "$HOME/.claude/commands" 2>/dev/null; then
+    ok "~/.claude/commands → NAS (Slash-Commands ausserhalb des Repos)"
+else
+    warn "Symlink ~/.claude/commands konnte nicht gesetzt werden"
+fi
+
+# --- 4c. User-Level-CLAUDE.md (Grundregeln in jeder Session) -----------------
+echo "4c. User-Level-CLAUDE.md"
+if bash "$NAS/scripts/user-claude-sync.sh" >/dev/null 2>&1; then
+    ok "~/.claude/CLAUDE.md aus templates/user-level synchronisiert"
+else
+    warn "user-claude-sync.sh meldete Fehler — manuell ausfuehren"
+fi
+
 # --- 5. launchd-Jobs --------------------------------------------------------
 echo "5. launchd-Jobs"
 for INST in install-nas-auto-mount.sh install-auto-sync.sh install-synctask-runner.sh; do

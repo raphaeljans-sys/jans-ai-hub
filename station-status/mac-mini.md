@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.07.2026 09:57:44
+Stand: 30.07.2026 10:07:50
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 09:57)
+- Developer/jans/ai/hub  (letzte Aktivitaet 10:01)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.07.2026 09:57:44
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 670c03a0 nas-selfcommit: 2 Datei(en) 2026-07-30 09:45
+- ae7b0518 vollgas-radar 30.07. 09:57: P1 hub-chef-Tagesbriefing heute ausgefallen (API-Abbruch 09:02, Registry meldet Lauf als erfolgt, Postausgang rj@ ohne Briefing), P2 Korrektur-Fan-out als Sollbruchstelle (zahlungsabgleich wich inline aus und ueberlebte), P3 mahnwesen 1h56 durch Sync-Task-Drift aus dem SessionStart-Hook

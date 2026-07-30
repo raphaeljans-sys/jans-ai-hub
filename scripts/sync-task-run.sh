@@ -60,6 +60,8 @@ fi
 QUEUE="$REPO_NAS/sync-tasks/$STATION"
 DONE="$REPO_NAS/sync-tasks/done"
 LOGDIR="$REPO_NAS/sync-tasks/log"
+FREIGABE="$REPO_NAS/sync-tasks/freigabe/$STATION"
+GUARD="$REPO_NAS/scripts/sync-task-guard.sh"
 DISPATCH="$HOME/Developer/jans-ai-hub/scripts/dispatch-run.sh"
 
 mkdir -p "$QUEUE" 2>/dev/null   # Queue der eigenen Station existiert immer (neue Stationen)
@@ -110,6 +112,37 @@ for TASK in "${TASKS[@]}"; do
     TYP=$(grep -m1 '^typ:'   "$TASK" 2>/dev/null | cut -d: -f2- | xargs)
     TYP=${TYP:-shell}
     log "→ [$TYP] ${TITEL:-$BN}"
+
+    # --- Freigabe-Schwelle (30.07.2026) -------------------------------------
+    # Heikle Tasks (SSH-Zugang, Rechte, Persistenz, Zerstoerendes, Versand,
+    # Buchen) laufen NIE unbeaufsichtigt. Sie wandern nach freigabe/<station>/
+    # und warten dort auf ein ausdrueckliches Ja via /station-sync.
+    # Ohne Guard-Script wird NICHT stillschweigend ausgefuehrt, sondern
+    # ebenfalls zurueckgehalten — eine fehlende Schwelle darf nicht wie eine
+    # bestandene wirken.
+    if [ ! -x "$GUARD" ] && [ ! -f "$GUARD" ]; then
+        mkdir -p "$FREIGABE" 2>/dev/null
+        mv "$TASK" "$FREIGABE/$BN" 2>/dev/null && \
+            log "  ZURUECKGEHALTEN: Guard-Script fehlt ($GUARD) → freigabe/$STATION/"
+        continue
+    fi
+    if GRUENDE=$(bash "$GUARD" "$TASK" --gruende); then
+        :   # Exit 0 — harmlos, laeuft unbeaufsichtigt weiter
+    else
+        RC_GUARD=$?
+        if [ "$RC_GUARD" = "10" ]; then
+            mkdir -p "$FREIGABE" 2>/dev/null
+            if mv "$TASK" "$FREIGABE/$BN" 2>/dev/null; then
+                log "  BRAUCHT FREIGABE → freigabe/$STATION/$BN"
+                printf '%s\n' "$GRUENDE" | sed 's/^/     /' >> "$LOG"
+            else
+                log "  BRAUCHT FREIGABE, Verschieben fehlgeschlagen — NICHT ausgefuehrt, bleibt in Queue"
+            fi
+            continue
+        fi
+        log "  Guard-Fehler (Exit $RC_GUARD) — Task wird NICHT ausgefuehrt, bleibt in Queue"
+        continue
+    fi
 
     OK=1
     if [ "$TYP" = "prompt" ]; then
