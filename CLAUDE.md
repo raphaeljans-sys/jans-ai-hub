@@ -94,9 +94,14 @@ chmod 600 ~/.cli-m365-cert-combined.pem ~/.cli-m365-cert-key.pem
 - Nach Aenderung geteilter Configs: `/sync`
 
 ### Station-Sync (Task-Queue auf NAS)
-`/Volumes/daten/jans-ai-hub/sync-tasks/{macbook-pro,mac-mini,done}/` — Task erstellen via
-`scripts/sync-task-create.sh <ziel> <titel> <script>`; pruefen via `/station-sync`.
+`/Volumes/daten/jans-ai-hub/sync-tasks/{macbook-pro,mac-mini,freigabe,done}/` — Task erstellen
+via `scripts/sync-task-create.sh <ziel> <titel> <script>`; pruefen via `/station-sync`.
 **WICHTIG**: Beim Start mit gemountetem NAS IMMER zuerst `/station-sync` pruefen.
+**Freigabe-Schwelle (30.07.2026):** `scripts/sync-task-guard.sh` haelt heikle Tasks
+(SSH-Zugang, Rechte, Secrets, Persistenz, Zerstoerendes, Versand, Buchen) in
+`sync-tasks/freigabe/<station>/` zurueck — auch im unbeaufsichtigten launchd-Runner. Sie
+laufen nur nach Raphaels Einzelfreigabe (`sync-task-check.sh --freigeben <datei>`); Claude
+gibt nie selbst frei. Details: `sync-tasks/README.md`, Beleg: `rules/betrieb-chronik.md` 260730.
 
 ### Remote-Orchestrierung (Protokoll: `remote-tasks/README.md`)
 

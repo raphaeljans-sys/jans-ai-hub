@@ -21,6 +21,59 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260730 — Der Sync-Task-Runner konnte Dauerzugang setzen, ohne zu fragen (Freigabe-Schwelle)
+
+**Vorfall.** Der Mac Mini legte am 30.07.2026 um 09:32 einen Sync-Task in
+`sync-tasks/macbook-pro/`: SSH-Diagnose plus «Rueckweg-Schluessel installieren». Das
+eingebettete Script haengte einen Public Key an `~/.ssh/authorized_keys` des MacBook.
+Ich habe den Task um 09:59 via `/station-sync` angezeigt, den lesenden Diagnoseteil
+selbst ausgefuehrt, den Schluessel-Eintrag aber ausdruecklich zurueckgehalten und Raphael
+zur Freigabe vorgelegt — der Auftrag stand in einer Datei einer anderen Station, nicht in
+einer Anweisung von Raphael.
+
+**Wirkungslos.** Um **09:59:41**, wenige Minuten vor der Freigabe, hat der launchd-Job
+`ch.jans.synctask-runner` denselben Task aus derselben Queue unbeaufsichtigt abgearbeitet:
+Schluessel gesetzt, Task nach `done/` verschoben (Beleg: `sync-tasks/log/runner-202607.log`).
+Als die Freigabe eintraf, war der Eintrag bereits vorhanden; der manuelle Lauf war
+idempotent und hat nichts gedoppelt. Ergebnis und Absender waren in diesem Fall korrekt —
+der Schluessel wurde vorher gegen die Quelle geprueft und stimmte zeichengenau mit
+`~/.ssh/id_ed25519.pub` des Mini ueberein.
+
+**Der Befund ist strukturell, nicht der Einzelfall.** Jeder Task in der Stations-Queue lief
+alle 30 Min automatisch, unabhaengig von seiner Eingriffstiefe. Aus der Queue liessen sich
+damit Dauerzugang, Rechte, Persistenz (launchd) oder Zerstoerendes setzen, ohne dass eine
+Instanz vorher fragt. Ein Freigabe-Gate, das nur in der interaktiven Session sitzt, ist
+wertlos, solange ein Timer dieselbe Queue ungeprueft leert. Zweitens: eine vertraute
+**Herkunft** (eigene Station) sagt nichts ueber die **Eingriffstiefe** des Inhalts — das
+alte Vertrauensmodell hat beides gleichgesetzt.
+
+**Behoben am 30.07.2026.** Neue gemeinsame Schwelle `scripts/sync-task-guard.sh`
+(Musterkatalog: SSH-Zugang, Rechteausweitung, Keychain/Secrets, Systemschutz, Persistenz,
+Zerstoerendes, Git-Historie, Fremdcode aus dem Netz, Versand, Buchen; Exit 10 = braucht
+Freigabe). Eingehaengt in **beide** Wege: `sync-task-run.sh` (launchd) und
+`sync-task-check.sh --run`. Getroffene Tasks wandern nach `sync-tasks/freigabe/<station>/`
+und laufen nur via `--freigeben <datei>`. Bewusst grosszuegig gemustert: ein Falsch-Positiv
+kostet eine Rueckfrage, ein Falsch-Negativ kostet Zugang. Fehlt das Guard-Script, wird
+zurueckgehalten — eine fehlende Schwelle darf nicht wie eine bestandene wirken.
+
+**Beide Pfade nachgemessen** (Pflicht aus Rule 260728). Testtasks 999001 harmlos und
+999002 heikel in die Queue, dann `sync-task-run.sh`: der harmlose lief und ging nach
+`done/`, der heikle wurde mit Gruenden ins Log zurueckgehalten, und die Kontrollprobe
+`grep TEST-HEIKEL` im Log war leer, das Script ist also nicht gelaufen. Danach
+`--freigeben <datei>`: Ausfuehrung sichtbar, `done/`, Freigabe-Queue leer. Testreste
+entfernt.
+
+**Falle beim Bauen.** Ein Muster, das mit `--` beginnt (`--buchen|...`), wird von `grep`
+als Option gelesen und bricht die Pruefung fuer dieses Muster still ab, waehrend der Guard
+trotzdem Exit 0 liefert. Darum im Guard zwingend `grep -Eio -e "$REGEX"`. Aufgefallen nur,
+weil der erste Testlauf die grep-Usage-Meldung ausgab — ohne Sichtkontrolle waere eine
+tote Regel entstanden, die nach «geschuetzt» aussieht.
+
+**Offen.** Der `--notify`-Hook nennt die Zahl der zurueckgehaltenen Tasks jetzt mit; ob
+`sync-task-create.sh` schon beim Anlegen warnen soll, ist nicht umgesetzt (waere die
+frueheste Stelle, kostet aber nichts an Sicherheit, weil die Schwelle ausfuehrungsseitig
+sitzt).
+
 ## 260729b — Rollen-Taxonomie im Betrieb: Takt-Entscheide, Radar-Auswertung, Schutzmechanik-Selbsttest
 
 Hierher verlagert am 29.07.2026 aus `rules/rollen-taxonomie.md` (Wissens-Chef Run 20,
