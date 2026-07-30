@@ -1,5 +1,47 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-07-30 — Trainingslauf 38 (Auswertungslauf): die erste maschinen-gerichtete Spec
+- **Ausgewertet: die neunte reale Spec** — Korpus-Spec `bauprodukte` (28.07.), erster Fall, dessen
+  Adressat weder ein Mensch noch ein einzelnes Vorhaben ist, sondern ein **Strom unbeaufsichtigter
+  Folgeläufe** (Nachtschicht, vier Slots). Neuer, dritter Deliverable-Typ neben «entschiedene Spec»
+  und «Interview-Vorbereitung»: die **abgeleitete Spec** (Trigger jetzt, Interview gar nicht, weil
+  kein menschlicher Entscheid aussteht — Schlüsselentscheide aus gesetzten Artefakten abgeleitet,
+  echte offene Wahlen nach `QUESTIONS.md`).
+- **[befund, erstmals zählbar]** Die dritte Methodenstufe («Bewertungskriterien vorab») ist hier
+  **messbar** statt anekdotisch: nach 5 Läufen / 8 Artikeln erfüllen 8/8 die Kriterien Frontmatter
+  mit `sources`, `status: emerging` ohne vorschnelle Promotion, Datumsstempel bei Kennwerten und
+  BKP-Code; 11 Einträge in `QUESTIONS.md` statt stiller Lücken. Vorab definierte Kriterien wirken
+  als **Abnahme-Ersatz**, wo nachts kein Mensch abnimmt.
+- **[lehrsatz, wichtiger als der Befund] Ein Kriterienkatalog ist keine Prüfinstanz.** Der
+  `wissens-chef` (Run 21, 30.07.) strich in `bkp-261-aufzuege.md` eine abgeleitete, unbelegte
+  Kabinenbreite (1250 mm) zugunsten der belegten 1050 mm und kippte damit den SIA-500-Abgleich —
+  angewandt hat das Kriterium also **nicht der schreibende Loop** (der hatte gegen sein eigenes
+  Kriterium verstossen), sondern ein zweiter, unabhängiger. Konsequenz: eine Spec, die maschinelle
+  Folgeläufe steuert, muss ihre zweite Prüfinstanz **benennen**, sonst prüft der Autor sich selbst.
+  Dritter Fall derselben Familie nach «ein Mass validiert nur, wenn der Mess-Prozess konsumiert»
+  (Lauf 10) und «ein Flag ist keine Reparatur» (Lauf 12). → `wiki/verifier.md`.
+- **[korrektur-delta] Fünfter Alterungsmodus: die maschinelle Selbst-Überholung.** Die Spec
+  veraltete in ihrem Plan-Abschnitt **binnen drei Stunden** («35 von 37 Sektionen offen» um 01:30 →
+  37/37 um 04:24 desselben Tages, erledigt vom nächsten Slot der eigenen Maschine; Zweitbeleg
+  `KORPUS-QUEUE.md`, seit 28.07. 06:58 «6 Artikel» statt real 8/15). Regel daraus: **keine
+  Zählstände in den bindenden Teil einer Spec**, stattdessen Verweis auf das nachführende Artefakt.
+  Damit ist **F-ENV1 zweitbelegt und verallgemeinert**: das Problem betrifft nicht nur Wiki-Artikel,
+  sondern Spec-Dokumente allgemein. → `wiki/anwendung-jans.md` Schritt 2, `wiki/QUESTIONS.md`.
+- **[gate]** F1 unverändert: neunter Trigger korrekt+nützlich, weiterhin **kein** Überdehnungs-Beleg,
+  kein genervter Mittelfall. **Keine Änderung an `rules/spec-methode.md`.**
+- **[environment-audit, geflaggt statt repariert]** Gemessene Registry-Diskrepanz: `spec-training`
+  trägt `enabled: false`, aber `lastRunAt 2026-07-30 23:44 CEST` (dieser Lauf), während der Cron
+  `10 4 * * *` lautet und die Mac-Mini-Nachtschicht auf dieser Station nicht geladen ist. **Ursache
+  nicht belegbar und bewusst nicht erraten** (Lauf-21-Lehre: ein Artefakt ist keine Quelle für seine
+  eigene Herkunft). Berührt die Betriebsregel «Deaktivierung eines Loops braucht ALLE Orte» →
+  ausserhalb KB-Mandat, an Raphael/Betrieb geflaggt. Der Lauf selbst war inhaltlich berechtigt
+  (Trigger-Bedingung «neue reale Spec» erfüllt).
+- **[quellen]** Nichts einzuholen: F4 (Karpathy 30.06. / Cherny 03.07.) und F5 (Anthropic 27.06.)
+  bleiben vollständig eingelöst — ehrlich vermerkt statt Ersatzaufgabe erfunden.
+- Bericht: `outputs/2026-07-30_training-run38.md`. Geändert: `wiki/anwendung-jans.md`,
+  `wiki/verifier.md`, `wiki/QUESTIONS.md`.
+
+
 ## 2026-07-29 (Wissens-Chef Run 20, Cross-KB) — Erst-Verlinkung mit der neuen KB `claude-code`
 - **[verlinkung] Null Querverweise zwischen `spec` und der am 29.07. neu angelegten KB
   `claude-code`,** obwohl `wiki/environment-jans-hub.md` (Marcheses Layer 3) und

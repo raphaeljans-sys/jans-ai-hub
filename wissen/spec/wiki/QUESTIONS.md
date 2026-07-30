@@ -14,6 +14,15 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klären sollen.
   KB `claude-code`** ([[kontext-architektur]]); `spec` führt das formale Layer-Modell. Die
   Baustein-Tabelle selbst bleibt hier — sie enthält die Video-Baustein-Zuordnung, die es in
   `claude-code` nicht gibt und die nicht durch einen Verweis ersetzt werden darf.
+  - **Verallgemeinerung 30.07.2026 (Lauf 38, zweiter unabhängiger Beleg):** F-ENV1 ist kein
+    Problem der Wiki-Artikel, sondern von **Spec-Dokumenten allgemein**. Die Korpus-Spec
+    `bauprodukte` (28.07. 01:30) führte im bindenden Plan-Abschnitt «35 von 37 Sektionen offen»
+    und in der Faktenbasis «Inventarstand: 2/37» — um **04:24 desselben Tages** stand die
+    Inventarisierung bei 37/37, erledigt vom nächsten Slot der eigenen Nachtschicht (Zweitbeleg:
+    `KORPUS-QUEUE.md` führt seit 28.07. 06:58 «6 Artikel», real 8 Artikel / 15 destillierte
+    Dateien). Die Regel ist damit dieselbe wie oben, nur an einem zweiten Ort belegt: **Zählstände
+    gehören nicht in den bindenden Teil, sondern als Verweis auf das nachführende Artefakt** —
+    ausformuliert in [[anwendung-jans]] Schritt 2 als fünfter Alterungsmodus.
 
 ## Methodik
 - F1: Ab welcher Aufgabengrösse lohnt der Spec-Overhead wirklich? Schwelle anhand realer
@@ -78,6 +87,21 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klären sollen.
     «autonom, Benutzer abwesend» ist unbelegt. Lehre (Kausal-Geschwister von Lauf 10/12): **ein
     Artefakt ist keine Quelle für seine eigene Herkunft** — wer den Lauf auslöste, steht in der
     Task-Registry/Commit-Historie, nicht im Kopf des erzeugten Dokuments.
+  - Auswertung 30.07. (Lauf 38, **neunter realer Trigger + neuer Spec-Typ**): die Korpus-Spec
+    `bauprodukte` (28.07.) ist die erste Spec, deren Adressat **weder ein Mensch noch ein
+    einzelnes Vorhaben** ist, sondern ein **Strom unbeaufsichtigter Folgeläufe** (Nachtschicht,
+    vier Slots, wechselnde Modelle je Phase). Sie entstand selbst autonom, ohne Entscheide zu
+    erfinden: die Schlüsselentscheide sind aus bereits gesetzten Artefakten (`bauprodukte/
+    CLAUDE.md`, `KORPUS-QUEUE.md`, Hub-Rules) **abgeleitet**, echte offene Wahlen wanderten nach
+    `QUESTIONS.md`. Damit steht neben der **entschiedenen Spec** (Interview geführt) und der
+    **Interview-Vorbereitung** (Lauf 20/21: Trigger jetzt, Interview später) ein dritter Typ:
+    die **abgeleitete Spec** — Trigger jetzt, Interview gar nicht, weil kein menschlicher
+    Entscheid aussteht. Gate-Bewertung: mehr-Scope und hoch-einsatzig (bindend für einen ganzen
+    Korpus über Monate), korrekt+nützlich; **weiterhin kein Überdehnungs-Beleg**, weiterhin kein
+    genervter Mittelfall in `outputs/`. Schwelle unverändert, keine Rule-Änderung. Der
+    substanzielle Fund dieses Laufs liegt nicht bei der Schwelle, sondern bei der
+    Kriterien-Wirkung (→ [[verifier]] «Ein Kriterienkatalog ist keine Prüfinstanz») und beim
+    fünften Alterungsmodus (→ F-ENV1 oben, [[anwendung-jans]] Schritt 2).
 - F2: Wie kurz darf das Ziel-Interview sein, damit es hilft statt bremst? Optimal-Länge je
   Vorhabenstyp (Studie / Dokument / Mail / Strategie) sammeln.
   - Lektion AG-Gründung: das Interview muss die **Ausgangslage** explizit fixieren. Hier
