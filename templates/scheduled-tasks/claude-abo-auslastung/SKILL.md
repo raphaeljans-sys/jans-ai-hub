@@ -12,9 +12,27 @@ danach kopieren, nie nur lokal — sonst ist die Verbesserung beim nächsten Sta
 
 ## Ablauf
 
-**Schritt 0 — Zustand lesen.** Lies `/Volumes/daten/jans-ai-hub/logbuch/abo-check/status.json`.
-Daraus brauchst du `ausfaelleInFolge` (Ausfall-Zähler) und `letzterWert` (Vorwoche zum Vergleich).
+**Schritt 0 — Zustand lesen und auf Frische prüfen.** Lies
+`/Volumes/daten/jans-ai-hub/logbuch/abo-check/status.json`. Daraus brauchst du
+`ausfaelleInFolge` (Ausfall-Zähler) und `letzterWert` (Vorwoche zum Vergleich).
 Fehlt die Datei, behandle den Zähler als 0.
+
+**Übersprungene Läufe zählen wie Ausfälle.** Vergleiche `letzterLauf` mit heute (`date`). Der Takt
+ist wöchentlich; liegt der letzte Lauf **mehr als 9 Tage** zurück, ist mindestens ein Lauf
+ausgefallen, ohne sich zu melden. Erhöhe den Zähler dann um die Zahl der fehlenden Läufe und
+behandle das wie einen Messausfall nach Schritt 5, mit dem ausdrücklichen Vermerk «Check ist
+nicht gelaufen» statt «Messung fehlgeschlagen».
+
+Das ist kein Randfall, sondern der belegte gefährlichste: Der Lauf vom **26.07.2026** fand statt,
+als das Wochenlimit vollständig erschöpft war — die Session brach ab, bevor irgendetwas
+geschrieben wurde. Ein Check, der am erschöpften Limit selbst stirbt, ist genau dann still, wenn
+er am nötigsten wäre. Nachträglich sichtbar wird das nur über diese Frische-Prüfung.
+
+**Bekanntes Restrisiko, bewusst offen:** Fällt der Check über mehrere Takte hintereinander aus
+(Limit dauerhaft erschöpft, Station aus, NAS weg), meldet ihn niemand, weil er sich nur selbst
+überwacht. Ein wirklich robuster Wächter müsste ein reines bash-/launchd-Script sein, das ohne
+Claude-Session und ohne Token prüft, ob `status.json` frisch ist. Das ist **nicht** gebaut —
+Infrastruktur-Änderung, Entscheid Raphael.
 
 **Schritt 1 — Messen, genau EINMAL.**
 `node /Volumes/daten/jans-ai-hub/connectors/claude-usage.mjs`

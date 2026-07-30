@@ -32,6 +32,77 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-07-30 12:57 — [FREI] Erste Wochen-Messung seit elf Tagen liegt vor: 66 % verbraucht bei 43 % der Zeit — und die Aufsicht selbst war der groesste Einzelverbraucher des Tages, nicht die Lern-Loops
+
+**Selbstkontrolle:** letzter Eintrag 09:57, dieser Lauf 12:57. 3,0 h bei 3-h-Takt, kein
+verpasster Lauf. **Takt ab jetzt 4-stuendlich** (Begruendung unter P2), naechster Lauf 16:50.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung antwortet «OK» (rc 0). Speicher
+MacBook 4,06 GB, Mini 10,49 GB (`vm_stat` free+inactive, Druckstufe je 1) — unauffaellig.
+
+**Feuermechanismen: konsistent, keine Abweichung.** `vollgas-supervisor` und `vollgas-monitor`
+auf beiden Stationen entladen und als `*.disabled-260729` geparkt; geladen ist auf dem Mini nur
+`ch.jans.nachtschicht` mit den vier Slots 23:30 / 02:30 / 05:30 / 13:30. STOP-Flags fuer beide
+Stationen unveraendert vom 29.07. 02:51. Kein Doppelfeuer, kein wiederbelebter Job.
+
+**P1 — die Blindheit seit 19.07. ist beendet, und die erste Messung ist ein Warnsignal, dessen
+Ursache nicht dort liegt, wo wir sie vermutet haben.** Raphael hat den `/login` heute 10:49
+ausgefuehrt; der Abo-Check um 12:49 misst **Woche (alle Modelle) 66 %** bei Reset **03.08. 12:00**,
+5-h-Fenster 23 %, Extra Usage keine Zeile (also keine Kosten). Das Fenster laeuft seit 27.07.
+12:00: **3 von 7 Tagen verbraucht (43 % der Zeit) bei 66 % des Budgets** — die verbleibenden 34 %
+muessen vier Tage tragen, linear fortgeschrieben reisst das Limit am 01.08. Soweit die Messung des
+Abo-Checks, die ich nicht wiederhole. **Mein eigener Beitrag ist die Zusammensetzung, und sie
+korrigiert die naheliegende Schlussfolgerung:** heute bis 13:00 verbrauchten beide Stationen
+zusammen **24,28 Mio Token «teuer»** (MacBook 18,34 / Mini 5,94) — gegen **10,51 Mio am 28.07. und
+11,42 Mio am 29.07., jeweils ganze Tage**. Heute ist zur Halbzeit beim Doppelten eines Volltags.
+Die Lern-Loops sind dabei **nicht** der Treiber: das Lauf-Journal weist fuer heute 11,94 USD ueber
+5 Laeufe aus, fuer den 29.07. 33,92 USD ueber 7. Was den Tag treibt, ist die **interaktive Arbeit
+mit Raphael** (Rollen-Register, Hub-Cockpit, Arbeits-Weiche, Sync-Task-Guard, hub-setup-Konnektor —
+ueber zwanzig substanzielle Commits) plus der Aufsichts-Overhead. Das ist im Sinne des Auftrags
+**produktive** Ausschoepfung, kein Leerlauf. Konsequenz fuer den Entscheid: die STOP-Flags
+stehenzulassen ist richtig, aber es reicht nicht — die Loops waren nie der Haupthebel. Was in den
+letzten vier Tagen dieses Fensters knapp wird, ist der Spielraum fuer Raphaels eigene Arbeit. Der
+Entscheid darueber ist seiner (Lehre 25.07.: kein eigenmaechtiges Drosseln), und der Abo-Check hat
+ihn um 12:51 ueber Logbuch und Fristen-Register erreicht. **Bewusst keine Mail von mir** — derselbe
+Befund war sechs Minuten vor diesem Lauf schon auf dem regulaeren Weg unterwegs, und das
+Wochenkontingent ist nicht erschoepft, sondern auf Kurs dorthin.
+
+**P2 — der Radar war heute der groesste Einzelverbraucher der Station, und das habe ich abgestellt.**
+Die Aufschluesselung nach Sessions ist eindeutig: der **09:57-Lauf allein 2,57 Mio Token «teuer»
+ueber 266 Turns**, alle drei Radar-Laeufe bis 13:00 zusammen **3,68 Mio** — rund 15 % des
+Tagesverbrauchs beider Stationen und mehr als jeder einzelne Lern-Loop. Der 09:57-Lauf hat dafuer
+einen echten P1 gefunden (das ausgefallene Hub-Chef-Briefing), aber 266 Turns fuer einen Regellauf
+sind kein Dauerzustand, und **acht** solche Laeufe pro Tag am wenigsten. Der 3-h-Takt stammt aus der
+Zeit, als ein Endlos-Runner am Leben gehalten werden musste; dieser Runner ist seit 29.07.
+ausgebaut, der Takt hatte damit seinen Zweck verloren. **Ausgefuehrt:** Takt auf **4-stuendlich**
+zurueckgenommen (6 statt 8 Laeufe/Tag), Selbstkontroll-Schwelle auf 7 h angepasst, und im SKILL.md
+die Regel «Regellauf bleibt schlank» verankert — Messung und kurzer Bericht als Normalfall,
+Tiefen-Recherche nur auf einen konkreten Befund und nur auf diesen. Das ist der eine Posten, der in
+meiner eigenen Zustaendigkeit liegt; er spart, ohne einen Lern-Loop oder ein operatives Briefing
+anzutasten. Reversibel: nach dem Reset am 03.08. kann Raphael den 3-h-Takt jederzeit
+wiederherstellen, wenn er die dichtere Aufsicht will.
+
+**P3 — Liefer-Delta: kein Loop in einer Delta-Null-Serie, keine Ruecktaktung faellig.** `normen`
+Run 38 (30.07. 02:23) hat den Vorrangauftrag Lignatec Tab. 3+4 rechnerisch aufgenommen und dabei
+**sieben Kernbefunde** erzeugt, darunter drei voneinander abweichende Tabellen-Legenden, die das
+bisherige Destillat teilweise entkraeften; der Lauf schlaegt seine eigene Stilllegung ausdruecklich
+**nicht** vor, und das ist nach Sichtung des Reports korrekt. `baurecht-buch` Run 70 (02:36, eine
+Korrektur an einer Verdichtungs-Drift), `grobkosten` Run 20 (05:39, Bring-Schuld Wueest/Lignum
+eingeloest), `twin-fidelity` (05:55) und `wissens-chef` Run 20 (29.07. 23:58, heutiger Lauf um 23:10
+noch nicht faellig) liefern alle. `wettbewerbs-dna` hat Raphael heute selbst fuer Etappe 4
+reaktiviert, naechster Lauf Mo 03.08. **In Beobachtung, ohne Massnahme:** `bauprodukte` /
+`wissens-destillat` hat seit dem 28.07. 07:34 nichts geliefert. Das ist **kein** Delta Null, sondern
+Rotation: die Nachtschicht taktet mehrere Loops durch ihre vier Slots und hat diesen seit zwei Tagen
+nicht aufgerufen; alle Slots seit 29.07. beendeten mit Exit 0. Bleibt der Loop bis 01.08. ohne Zug,
+pruefe ich die Rotationsliste selbst. Der `rc=1` um 10:43 war der E2E-Test der neuen
+Arbeits-Weiche (Anmeldung nicht geladen), der Zweitversuch lief rc=0 — kein Vorfall.
+
+**Messgrenze offen ausgewiesen:** die Token-Zahlen stammen aus den Session-Transcripts beider
+Stationen, mtime-vorgefiltert auf heute, gleiche Methodenfamilie wie die FRUEHWARNUNG und damit
+mit deren Werten vergleichbar. Laufende Sessions sind zum Messzeitpunkt nur bis zum letzten
+geschriebenen Turn erfasst, die Tageswerte sind also Untergrenzen.
+
+---
 ## 2026-07-30 09:57 — [FREI] Das Hub-Chef-Tagesbriefing ist heute ersatzlos ausgefallen, und die Registry weist den Lauf als erfolgt aus: eine API-Stoerung zwischen 08:23 und 09:02 hat drei operative Laeufe getroffen, zwei ueberlebten sie, einer nicht
 
 **Selbstkontrolle:** letzter Eintrag 06:57, dieser Lauf 09:57. 3,0 h bei 3-h-Takt, kein
