@@ -1,3 +1,19 @@
+## 2026-07-31 — Neues Destillat VKF-Merkblatt 2005-15 «Lithium-Ionen-Batterien» (Zulieferung aus planungsgrundlagen)
+Anlass: offene Frage C44 aus dem Wettbewerbs-Scan «Grassenbiwak 2027» (Batterieraum im netzfernen
+Bau). Das Merkblatt war in der ganzen KB nicht erfasst und liegt auch nicht im Hausbestand PL-03;
+Original von der VKG-Publikationsplattform bezogen (BSPUB-1394520214-3688) und volltext extrahiert.
+- **Neu:** `destillate/vkf-merkblatt-2005-15-lithium-ionen-batterien.md` (Stand 01.06.2021) —
+  Hazard-Level-Systematik nach Energieinhalt **je Brandabschnitt** (< 15 / 15-100 / > 100 kWh),
+  Anforderungen Ziff. 4.4-4.6 (HL I: EI 30, kein Fluchtweg/keine Lüftungszentrale, 2.5 m Abstand zu
+  brennbaren Materialien; HL II: EI 60 oder RF1-Einzelbaute; HL III: im Freien oder heisse Bemessung).
+- **REGISTER-Zeile ergänzt** mit dem ausdrücklichen Vermerk, dass ein **Merkblatt** nicht den
+  Verbindlichkeitsgrad einer Brandschutzrichtlinie hat (Ziff. 4: «Hilfestellungen»).
+- **Offen gelassen:** die von Sekundärquellen genannte VKF-FAQ 2005-01 für LiFePO₄/LFP ist **nicht am
+  Original verifiziert** und deshalb nirgends als Fundstelle geführt.
+- Die beiden Bring-Schulden zur BSR 16-15 (gewendelte Treppen, offene Treppe über Schlafnutzung) waren
+  bereits durch den Abschnitt «Entscheidungsfigur Treppen» im BSR-16-Destillat beantwortet und sind in
+  `wiki/QUESTIONS.md` als geschlossen markiert.
+
 ## 2026-07-31 (Entscheid Raphael, Wissens-Chef Run 21) — SWKI zugeordnet, Registerzeilen gesetzt
 
 - **[fuehrung] SWKI gehoert in den Scope dieser KB** — nach dem fuer SIA/VKF/VSS geltenden Zuschnitt:

@@ -198,7 +198,12 @@ geklaert sein — nachtraeglich kostet es das Projekt.
    Behauptung im Programmtext uebernehmen (siehe Stufe 1).
 2. **Gebaeudeeinstufung** — geringer / mittlerer Hoehe / Hochhaus, Anzahl Geschosse, Geschossflaeche.
 3. **QSS-Stufe** (BSR 11-15) — bestimmt, ob ein Brandschutzplaner ins Wettbewerbsteam gehoert und ob
-   sein Honorar (BKP 298.5) in die Kostenschaetzung einzurechnen ist.
+   sein Honorar (BKP 298.5) in die Kostenschaetzung einzurechnen ist. **Immer ZWEI Schwellen pruefen,
+   nicht eine:** die Personenzahl entscheidet ueber die Nutzungskategorie (20 Personen), die
+   Schlafnutzung ueber die Gebaeudekategorie — «Gebaeude mit geringen Abmessungen» (Tor zu QSS 1)
+   setzt «keine Nutzung fuer schlafende Personen ausser einer Wohnung» voraus (BSN 1-15de Art. 13
+   Abs. 3 lit. d). Ein Uebernachtungsbau unter 20 Personen faellt durch beide Raster und landet
+   trotz geringer Groesse bei QSS 2. Details: KB-Wegweiser §4f.3 lit. a.
 4. **Fluchtwege** — einer oder zwei? Ist der Weg **ueber einen angrenzenden Raum** zulaessig, und was
    zaehlt als angrenzender Raum? (Toiletten und Putzraeume sind untergeordnete Raeume und zaehlen
    dabei NICHT — sie duerfen den zweiten Weg nicht ersetzen.)

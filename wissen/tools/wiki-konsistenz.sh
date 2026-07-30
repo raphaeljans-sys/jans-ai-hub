@@ -71,7 +71,9 @@ for kb in "${KBS[@]}"; do
     grep -o '\[\[[^]]*\]\]' "$f" 2>/dev/null | sed 's/^\[\[//; s/\]\]$//' | sort -u | while read -r l; do
       # Ein Link mit Schraegstrich ist entweder ein Unterordner-Artikel (gueltig, sofern der
       # Dateiname existiert) oder ein echter Pfad/Ordner (dann gehoert er in Backticks).
-      ziel="${l##*/}"
+      # Obsidian-Varianten mitnehmen: [[artikel|Anzeigetext]] und [[artikel#abschnitt]]
+      ziel="${l%%|*}"; ziel="${ziel%%#*}"; ziel="${ziel##*/}"
+      ziel="${ziel%"${ziel##*[![:space:]]}"}"   # Leerzeichen am Ende weg
       case "$l" in
         *$'\n'*) melde "$n" "Zeilenumbruch im Wikilink [[${l%%$'\n'*}…]]" ;;
         *) grep -qxF "$ziel" "$ZIELE" \

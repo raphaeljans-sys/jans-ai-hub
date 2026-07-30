@@ -232,6 +232,37 @@ Wissensproduktion, keine Trainings-Run-Nummer. Report:
 - Bericht: `koordination/outputs/2026-07-28_wissens-chef-run19.md`.
 
 
+## 2026-07-31 (nachts) — C41-C44 abgearbeitet: der netzferne Kleinbau ist jetzt durchentschieden
+Auftrag Raphael (Auswahl): alle vier offenen Brandschutzfragen aus dem Wettbewerbs-Scan schliessen,
+Ergebnis nur in die Wissensbasis, kein Merkblatt. Alle Antworten aus **Originalquellen** (VKF-PDFs
+aus PL-03 volltext extrahiert, zwei Publikationen von der VKG-Plattform bezogen), keine Sekundaerquelle.
+- **[neu] §4f.3 «Entscheidungsfiguren fuer den netzfernen Kleinbau»** mit vier Teilen:
+  (a) **die QSS-Falle** — ein Uebernachtungsbau unter 20 Personen ist kein Beherbergungsbetrieb, faellt
+  aber wegen «keine Nutzung fuer schlafende Personen ausser einer Wohnung» (BSN 1-15de Art. 13 Abs. 3
+  lit. d) auch aus «Gebaeude mit geringen Abmessungen» und damit aus QSS 1. Das erklaert die QSS 2 im
+  Konzept Schmitter und ist die wichtigste neue Entscheidungsregel des Laufs.
+  (b) Treppe/Raum-ueber-Raum als Kurzfassung mit Verweis auf die KB `normen`.
+  (c) **Personensicherheit ohne abwehrenden Brandschutz** als Tabelle mit sechs Fundstellen
+  (Loeschwasser/Handfeuerloescher/Alarmierung/BMA-Pflicht/Tueren) — Kernbefund: Kategorie [c] ist ein
+  **Erleichterungspaket** fuer den Fall, dass keine Hilfe kommt, und **PV gilt ausdruecklich als
+  ungenuegende Stromversorgung**, hebt die [c]-Qualifikation also nicht auf.
+  (d) **Vollzug OW/BE** aus der VKF/VKG-Adressliste V3.3 vom 21.01.2026: OW = Technische Inspektorate
+  (Verwaltungsstelle), BE = Gebaeudeversicherung Bern (Monopolversicherung, geteilte Zustaendigkeit mit
+  den Gemeinden). Eine Sonderregel fuer Grenzlagen gibt es nicht — der Brandschutz folgt dem Standort.
+  (e) **Batteriespeicher** mit dem Konflikt, den der Wettbewerb sichtbar macht: 2.5 m Abstand zu
+  brennbaren Materialien ist in einem 2-m²-Technikraum im Holzbau nicht einhaltbar.
+- **[neu, KB `normen`] Destillat VKF-Brandschutzmerkblatt 2005-15de «Lithium-Ionen-Batterien»**
+  (Stand 01.06.2021) samt REGISTER-Zeile — im Hausbestand PL-03 nicht vorhanden, von der
+  VKG-Publikationsplattform bezogen und volltext ausgewertet.
+- **[quervalidiert] Die SAC-Wegleitungs-Aussage aus §4f.1** («keine nach aussen oeffnenden Fluchttueren
+  fuer abgelegene Beherbergungsbetriebe») ist am Normtext bestaetigt: BSR 16-15de Ziff. 3.6.2 Abs. 4.
+- **C41-C44 alle geschlossen.** C41 hatte der Normen-Loop selbst beantwortet — die gestern angemeldete
+  Bring-Schuld hat dort den Abschnitt «Entscheidungsfigur Treppen» ausgeloest. Der Cross-KB-Weg aus
+  Run 8 (Flag in die Empfaenger-KB, nicht als Notiz hierhin) hat damit erstmals nachweisbar getragen.
+- **[Korrektur in eigener Sache]** Die gestern Abend geschriebenen Eintraege §4f.1/§4f.2 trugen das
+  Datum **2026-07-28**; richtig ist der 30./31.07. Das Datum war aus einem Dateistand abgeleitet statt
+  gemessen — genau der von Rule 260730b verbotene Weg. Alle Stempel korrigiert.
+
 ## 2026-07-31 — Wettbewerbs-/Bautyp-Ebene Brandschutz: Scan Projekt 2408 WB BIWAK auf Raphaels Auftrag
 Auftrag Raphael: das Wettbewerbsprojekt **2408 WB BIWAK** («Grassenbiwak 2027», SAC Sektion
 Engelberg) auf brandschutzrelevante Themen scannen und pruefen, ob die dort aufgeworfenen Fragen mit
