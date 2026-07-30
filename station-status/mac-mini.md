@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 31.07.2026 01:44:49
+Stand: 31.07.2026 01:54:52
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:46)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 31.07.2026 01:44:49
 - 12 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 0da46c19 Cockpit interaktiv: cockpit-server (localhost:8737) schreibt erledigt ins Fristen-Register per Zeilen-Hash; Second-Brain-Blasenkarte im Cockpit; Buttons nur bei --interaktiv-Build (8377 bleibt statisch); MacBook launchd installiert, Mini als Sync-Task; Chronik 260731c
+- ff1f41cb KB immobilienbewertung: Ingest Cluster A (IMMO 03 KNOW-HOW) — Wuest-Bewertungsbericht destilliert, CHANGELOG

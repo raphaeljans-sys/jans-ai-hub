@@ -289,11 +289,32 @@ const karte = r => `
     <footer><span>${esc(kuerze(r.quelle, 60))}</span><span class="status">${esc(r.status)}</span></footer>
   </article>`;
 
-const gruppe = (titel, rows, kl = '') => rows.length ? `
-  <section class="gruppe ${kl}">
-    <h2>${titel} <span class="anzahl">${rows.length}</span></h2>
+// Stichwort je Punkt fuer die zugeklappte Reiter-Vorschau: der Titelkopf vor
+// dem ersten Gedankenstrich/Punkt, sonst der Textanfang.
+const stichwort = r => {
+  const roh = (r.titel || r.text || '').split(/\s+—\s+|\s+–\s+/)[0].split('. ')[0];
+  return kuerze(entmd(roh), 38);
+};
+const themenChips = (rows, max = 14) =>
+  rows.slice(0, max).map(r => `<span class="thema">${esc(stichwort(r))}</span>`).join('') +
+  (rows.length > max ? `<span class="thema mehr">+${rows.length - max} weitere</span>` : '');
+
+// Aufklappbarer Reiter: zugeklappt Titel + Anzahl + Themen-Stichworte,
+// aufgeklappt die Karten. Klappzustand merkt sich der Browser (localStorage).
+const gruppe = (id, titel, rows, kl = '') => rows.length ? `
+  <details class="gruppe ${kl}" data-merk="${id}">
+    <summary><span class="g-titel">${titel}</span><span class="anzahl">${rows.length}</span>
+      <span class="themen">${themenChips(rows)}</span></summary>
     <div class="karten">${rows.map(karte).join('')}</div>
-  </section>` : '';
+  </details>` : '';
+
+// Reiter mit freiem Inhalt (Stationen, Betrieb, Second Brain)
+const reiter = (id, titel, chips, inhalt, kl = '') => `
+  <details class="gruppe ${kl}" data-merk="${id}">
+    <summary><span class="g-titel">${titel}</span>
+      <span class="themen">${chips}</span></summary>
+    <div class="inhalt">${inhalt}</div>
+  </details>`;
 
 const stationHtml = s => `
   <article class="station ${s.frisch !== null && s.frisch <= 30 ? 'live' : ''}">
@@ -366,18 +387,39 @@ a{color:var(--akzent)}
 .warn.hinweis{background:color-mix(in srgb,var(--gelb) 10%,var(--flaeche));border-color:var(--gelb)}
 .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin:16px 0 26px}
 .kpi{background:var(--flaeche);border:1px solid var(--linie);border-radius:12px;padding:12px 14px}
+.kpi[data-ziel]{cursor:pointer}
+.kpi[data-ziel]:hover{border-color:var(--akzent)}
 .kpi b{display:block;font-size:26px;line-height:1.1}
 .kpi span{color:var(--dim);font-size:12px;text-transform:uppercase;letter-spacing:.06em}
 .kpi.rot b{color:var(--rot)} .kpi.orange b{color:var(--orange)}
 .kpi.gelb b{color:var(--gelb)} .kpi.gruen b{color:var(--gruen)}
-.raster{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);gap:26px;align-items:start}
-@media(max-width:1100px){.raster{grid-template-columns:1fr}}
-h2{font-size:13px;text-transform:uppercase;letter-spacing:.12em;color:var(--dim);
-  margin:0 0 10px;padding-bottom:6px;border-bottom:1px solid var(--linie)}
-h2 .anzahl{color:var(--akzent)}
-.gruppe{margin-bottom:24px}
-.karten{display:grid;gap:10px}
-.karte{background:var(--flaeche);border:1px solid var(--linie);border-left:3px solid var(--linie);
+details.gruppe{background:var(--flaeche);border:1px solid var(--linie);border-left:3px solid var(--linie);
+  border-radius:12px;margin-bottom:10px;overflow:hidden}
+details.gruppe.g-rot{border-left-color:var(--rot)}
+details.gruppe.g-orange{border-left-color:var(--orange)}
+details.gruppe.g-gelb{border-left-color:var(--gelb)}
+details.gruppe.g-fertig{border-left-color:var(--gruen);opacity:.8}
+details.gruppe summary{display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;
+  padding:12px 16px;cursor:pointer;list-style:none;user-select:none}
+details.gruppe summary::-webkit-details-marker{display:none}
+details.gruppe summary::before{content:"▸";color:var(--dim);font-size:12px;transition:transform .15s}
+details.gruppe[open] summary::before{transform:rotate(90deg)}
+details.gruppe summary:hover{background:var(--flaeche2)}
+.g-titel{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:.12em}
+.anzahl{color:var(--akzent);font-weight:700;font-size:13px;font-family:ui-monospace,Menlo,monospace}
+.themen{display:flex;flex-wrap:wrap;gap:5px;flex:1;min-width:0}
+.thema{font-size:11px;border:1px solid var(--linie);color:var(--dim);border-radius:999px;
+  padding:1px 9px;font-family:ui-monospace,Menlo,monospace;white-space:nowrap;
+  overflow:hidden;text-overflow:ellipsis;max-width:340px}
+.thema.mehr{color:var(--akzent);border-color:color-mix(in srgb,var(--akzent) 50%,transparent)}
+.thema.t-gruen{color:var(--gruen);border-color:var(--gruen)}
+.thema.t-gelb{color:var(--gelb);border-color:var(--gelb)}
+details.gruppe[open] .themen{display:none}
+.karten{display:grid;gap:10px;padding:2px 14px 14px;
+  grid-template-columns:repeat(auto-fill,minmax(360px,1fr))}
+.inhalt{padding:2px 16px 14px}
+.stationen-raster{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(340px,1fr))}
+.karte{background:var(--flaeche2);border:1px solid var(--linie);border-left:3px solid var(--linie);
   border-radius:10px;padding:12px 14px}
 .karte.p-hoch{border-left-color:var(--rot)}
 .karte.p-mittel{border-left-color:var(--gelb)}
@@ -407,7 +449,7 @@ h2 .anzahl{color:var(--akzent)}
 .leer{color:var(--dim);font-size:13px}
 button.done{margin-left:auto;cursor:pointer;border:1px solid var(--gruen);color:var(--gruen);
   background:transparent;border-radius:999px;padding:1px 10px;font-size:11.5px;
-  font-family:ui-monospace,Menlo,monospace;opacity:0;transition:opacity .15s}
+  font-family:ui-monospace,Menlo,monospace;opacity:.45;transition:opacity .15s}
 .karte:hover button.done{opacity:1}
 button.done:hover{background:var(--gruen);color:#fff}
 button.done:disabled{opacity:.5;cursor:wait}
@@ -431,8 +473,6 @@ body.statisch button.done{display:none}
 .queue{background:var(--flaeche);border:1px solid var(--linie);border-radius:10px;padding:10px 12px;font-size:13px}
 .queue b{font-size:20px;display:block}
 .queue span{color:var(--dim);font-size:11.5px}
-details{margin-top:6px}
-summary{cursor:pointer;color:var(--dim);font-size:13px}
 .fuss{margin-top:36px;color:var(--dim);font-size:12px;border-top:1px solid var(--linie);padding-top:12px;
   font-family:ui-monospace,Menlo,monospace}
 </style>
@@ -448,49 +488,40 @@ ${warnungen.map(w => `<div class="warn">${w}</div>`).join('')}
 ${hinweise.map(w => `<div class="warn hinweis">${w}</div>`).join('')}
 
 <div class="kpis">
-  <div class="kpi rot"><b>${grpSofort.length}</b><span>sofort / überfällig</span></div>
-  <div class="kpi orange"><b>${grpHeute.length}</b><span>heute</span></div>
-  <div class="kpi gelb"><b>${grpBald.length}</b><span>nächste 7 Tage</span></div>
+  <div class="kpi rot" data-ziel="sofort"><b>${grpSofort.length}</b><span>sofort / überfällig</span></div>
+  <div class="kpi orange" data-ziel="heute"><b>${grpHeute.length}</b><span>heute</span></div>
+  <div class="kpi gelb" data-ziel="bald"><b>${grpBald.length}</b><span>nächste 7 Tage</span></div>
   <div class="kpi"><b>${offen.length}</b><span>offen gesamt</span></div>
-  <div class="kpi ${betrieb.queues.reduce((s, q) => s + q.anzahl, 0) ? 'gelb' : 'gruen'}">
+  <div class="kpi ${betrieb.queues.reduce((s, q) => s + q.anzahl, 0) ? 'gelb' : 'gruen'}" data-ziel="betrieb">
     <b>${betrieb.queues.filter(q => /pending|Sync/.test(q.name)).reduce((s, q) => s + q.anzahl, 0)}</b><span>Task-Queues</span></div>
-  <div class="kpi"><b>${wissen.length}</b><span>Wissens-KBs</span></div>
+  <div class="kpi" data-ziel="brain"><b>${wissen.length}</b><span>Wissens-KBs</span></div>
 </div>
 
-<div class="raster">
-<div>
-  ${gruppe('Sofort &amp; überfällig', grpSofort.sort((a, b) => (b.delta ?? 1) - (a.delta ?? 1)))}
-  ${gruppe('Heute', grpHeute)}
-  ${gruppe('Nächste 7 Tage', grpBald.sort((a, b) => a.delta - b.delta))}
-  ${gruppe('Später terminiert', grpSpaeter.sort((a, b) => a.delta - b.delta))}
-  ${gruppe('Ohne Datum (offen / beobachten / zu prüfen)', grpOhne)}
-  ${erledigt.length ? `<details><summary>Erledigt / hinfällig (${erledigt.length})</summary>
-    <div class="karten" style="margin-top:10px">${erledigt.map(karte).join('')}</div></details>` : ''}
-</div>
-<div>
-  <section class="gruppe">
-    <h2>Stationen</h2>
-    ${stationen.length ? stationen.map(stationHtml).join('') : '<p class="leer">kein station-status/ gefunden</p>'}
-  </section>
-  <section class="gruppe">
-    <h2>Betrieb &amp; Queues</h2>
-    <div class="queues">
+${gruppe('sofort', 'Sofort &amp; überfällig', grpSofort.sort((a, b) => (b.delta ?? 1) - (a.delta ?? 1)), 'g-rot')}
+${gruppe('heute', 'Heute', grpHeute, 'g-orange')}
+${gruppe('bald', 'Nächste 7 Tage', grpBald.sort((a, b) => a.delta - b.delta), 'g-gelb')}
+${gruppe('spaeter', 'Später terminiert', grpSpaeter.sort((a, b) => a.delta - b.delta))}
+${gruppe('ohne', 'Ohne Datum (offen / beobachten / zu prüfen)', grpOhne)}
+${gruppe('erledigt', 'Erledigt / hinfällig', erledigt, 'g-fertig')}
+${reiter('stationen', 'Stationen',
+  stationen.map(s => `<span class="thema ${s.frisch !== null && s.frisch <= 30 ? 't-gruen' : ''}">${esc(s.name)}${s.frisch !== null && s.frisch <= 30 ? ' · live' : s.stand ? ' · ' + esc(kuerze(s.stand, 20)) : ''}</span>`).join('') || '<span class="thema">kein station-status/ gefunden</span>',
+  `<div class="stationen-raster">${stationen.map(stationHtml).join('') || '<p class="leer">kein station-status/ gefunden</p>'}</div>`)}
+${reiter('betrieb', 'Betrieb &amp; Queues',
+  betrieb.queues.map(q => `<span class="thema ${q.anzahl ? 't-gelb' : ''}">${esc(q.name)} ${q.anzahl}</span>`).join('') +
+    (betrieb.journalTage.length ? `<span class="thema">Journal ${betrieb.journalTage.map(t => esc(t.tag.split(' ')[0])).join(' · ')}</span>` : ''),
+  `<div class="queues">
       ${betrieb.queues.map(q => `<div class="queue"><b>${q.anzahl}</b>${esc(q.name)}<br>
         <span>${q.eintraege.map(esc).join(' · ') || '—'}</span></div>`).join('') || '<p class="leer">keine Queues gefunden</p>'}
     </div>
     ${betrieb.journalTage.map(t => `<div class="journal"><h3>Journal ${esc(t.tag)}</h3>
-      <ul>${t.eintraege.map(e => `<li>${esc(e)}</li>`).join('') || '<li>—</li>'}</ul></div>`).join('')}
-  </section>
-  <section class="gruppe">
-    <h2>Second Brain · Wissens-Layer</h2>
-    <p class="brain-total"><b>${wissen.length}</b> Wissensbasen · <b>${brainTotal.artikel}</b> Wiki-Artikel ·
-      <b>${brainTotal.outputs}</b> Reports · <b>${brainTotal.raw}</b> Roh-Quellen ·
-      <b class="gruen">${brainTotal.frisch}</b> in den letzten 3 Tagen gepflegt</p>
-    <div class="brain">${[...wissen].sort((a, b) => b.artikel - a.artikel).map(blase).join('')}</div>
-    <p class="legende">Blasengrösse = Wiki-Artikelbestand · Farbe = Frische (grün ≤ 3 Tg., gelb ≤ 14 Tg.) · Details beim Überfahren</p>
-  </section>
-</div>
-</div>
+      <ul>${t.eintraege.map(e => `<li>${esc(e)}</li>`).join('') || '<li>—</li>'}</ul></div>`).join('')}`)}
+${reiter('brain', 'Second Brain · Wissens-Layer',
+  `<span class="thema">${wissen.length} KBs</span><span class="thema">${brainTotal.artikel} Wiki-Artikel</span>
+   <span class="thema">${brainTotal.outputs} Reports</span><span class="thema">${brainTotal.raw} Roh-Quellen</span>
+   <span class="thema t-gruen">${brainTotal.frisch} frisch (≤ 3 Tg.)</span>` +
+    [...wissen].sort((a, b) => b.artikel - a.artikel).slice(0, 3).map(k => `<span class="thema">${esc(k.name)} ${k.artikel}</span>`).join(''),
+  `<div class="brain">${[...wissen].sort((a, b) => b.artikel - a.artikel).map(blase).join('')}</div>
+   <p class="legende">Blasengrösse = Wiki-Artikelbestand · Farbe = Frische (grün ≤ 3 Tg., gelb ≤ 14 Tg.) · Details beim Überfahren</p>`)}
 
 <div class="fuss">
   Erzeugt von webtools/cockpit/build-cockpit.mjs ·
@@ -498,6 +529,25 @@ ${hinweise.map(w => `<div class="warn hinweis">${w}</div>`).join('')}
 </div>
 <script>
 (function () {
+  // Klappzustand der Reiter merken (ueberlebt Auto-Refresh und Reload)
+  var reiter = document.querySelectorAll('details.gruppe[data-merk]');
+  for (var i = 0; i < reiter.length; i++) (function (d) {
+    var k = 'cockpit-auf-' + d.getAttribute('data-merk');
+    try { if (localStorage.getItem(k) === '1') d.open = true; } catch (e) {}
+    d.addEventListener('toggle', function () {
+      try { localStorage.setItem(k, d.open ? '1' : '0'); } catch (e) {}
+    });
+  })(reiter[i]);
+  // KPI-Kachel klickt zur passenden Gruppe und klappt sie auf
+  document.addEventListener('click', function (ev) {
+    var kpi = ev.target.closest ? ev.target.closest('.kpi[data-ziel]') : null;
+    if (!kpi) return;
+    var ziel = document.querySelector('details.gruppe[data-merk="' + kpi.getAttribute('data-ziel') + '"]');
+    if (!ziel) return;
+    ziel.open = true;
+    ziel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+
   var interaktiv = location.protocol.indexOf('http') === 0 &&
     document.body.getAttribute('data-interaktiv') === '1';
   document.body.classList.add(interaktiv ? 'interaktiv' : 'statisch');

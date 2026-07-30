@@ -122,21 +122,39 @@ Brandabschnitte mit dem dort erforderlichen Feuerwiderstand ausführen.
 ### 6 Anforderungs-/Nachweismatrizes (Ziff. 6, siehe Anhang)
 Zwei Tabellen, RWA-Konzept gegen Brandabschnittsfläche, mit separater Sprinkler-Kennzeichnung:
 
+⚠ **Lesart der Matrizes (Korrektur Run 40, 31.07.2026 — vorher falsch destilliert).** Jede
+Flächenspalte ab 601 m² ist **diagonal zweigeteilt**: die **obere, blau hinterlegte** Teilzelle
+gilt **mit Sprinkleranlage**, die **untere, weisse** Teilzelle **ohne**. Die Legende steht unten
+rechts neben der Matrix («mit Sprinkleranlage», blaues Feld). Die Erstfassung dieses Destillats
+hat diese Zweiteilung im Bereich 601–1200 m² durchgehend übersehen und daraus in beiden
+Matrizes falsche Anforderungen abgeleitet. Refuter-Befund, vom Hauptprozess am eigenen
+220-dpi-Rendering der S. 6 zellenweise nachgeprüft und bestätigt.
+
 **6.1 Geschossweise abgetrennt** (Fussnoten: NRWA in UG nicht zulässig; RWA mit BL in UG nur
-in Geschosslage 1. UG zulässig):
-- NRWA (N1): ≤ 600 m² keine RWA nötig; 601–2400 m² «wenig sinnvoll»; 2401–4800 m² «wenig
-  sinnvoll» (mit Sprinkler); > 4800 m² **nicht zulässig**.
-- RWA mit BL (N2): ≤ 600 m² keine RWA nötig; 601–4800 m² N2 (auch mit Sprinkler N2);
-  > 4800 m² N2.
-- MRWA (N3): ≤ 600 m² keine RWA nötig; 601 m² bis 9600 m² durchgehend N3 (auch mit
-  Sprinkler N3).
+in Geschosslage 1. UG zulässig). Werte je Zelle **mit Sprinkler / ohne Sprinkler**:
+
+| RWA-Konzept | ≤ 600 m² | 601–1200 m² | 1201–2400 m² | 2401–4800 m² | 4801–9600 m² |
+|---|---|---|---|---|---|
+| NRWA (N1)* | keine RWA erforderlich | **keine RWA** / (wenig sinnvoll) | (wenig sinnvoll) / (wenig sinnvoll) | (wenig sinnvoll) / (wenig sinnvoll) | nicht zulässig |
+| RWA mit BL (N2)** | keine RWA erforderlich | **keine RWA** / N2 | N2 / N2 | N2 / N2 | N2 |
+| MRWA mit vorgegebenem Luftwechsel/h (N3) | keine RWA erforderlich | **keine RWA** / N3 | N3 / N3 | N3 / N3 | N3 |
 
 **6.2 Mehrgeschossig mit offener Verbindung zwischen den Geschossen** (dieselben Fussnoten,
-Matrix endet bei 4800 m²): deutlich strenger als 6.1 — NRWA und RWA mit BL werden bereits ab
-601 m² **nicht zulässig** (bei RWA mit BL mit Sprinkleranlage bleibt N2 zwischen 601 und
-1200 m² möglich), oberhalb bleibt **nur MRWA (N3)** ein gangbares Konzept (601–4800 m²
-durchgehend N3). Praktische Folge: Parkhäuser mit offenen, mehrgeschossigen Rampen-
-verbindungen benötigen ab mittlerer Grösse praktisch zwingend eine maschinelle RWA.
+Matrix endet bei 4800 m²):
+
+| RWA-Konzept | ≤ 600 m² | 601–1200 m² | 1201–2400 m² | 2401–4800 m² |
+|---|---|---|---|---|
+| NRWA (N1)* | keine RWA erforderlich | **keine RWA** / (wenig sinnvoll) | nicht zulässig / nicht zulässig | nicht zulässig |
+| RWA mit BL (N2)** | keine RWA erforderlich | **keine RWA** / N2 | nicht zulässig / nicht zulässig | nicht zulässig |
+| MRWA mit vorgegebenem Luftwechsel/h (N3) | keine RWA erforderlich | **keine RWA** / N3 | N3 / N3 | N3 |
+
+**Die praktisch wichtigste Zelle:** Bei einer Brandabschnittsfläche von 601–1200 m² **mit
+Sprinkleranlage** verlangt das Merkblatt in beiden Matrizes **gar keinen RWA-Nachweis**. Die
+Erstfassung dieses Destillats hätte hier zu einem unnötigen Nachweis N2 bzw. N3 geführt.
+6.2 ist oberhalb 1200 m² deutlich strenger als 6.1: NRWA und RWA mit BL sind dort **nicht
+zulässig**, es bleibt nur die maschinelle RWA (N3). Praktische Folge: Parkhäuser mit offenen,
+mehrgeschossigen Rampenverbindungen benötigen ab mittlerer Grösse praktisch zwingend eine
+maschinelle RWA — der Sprinkler-Vorteil wirkt nur bis 1200 m².
 
 ### 7 Dokumentation (Ziff. 7)
 Entrauchungskonzepte als Dokumentation in Berichtsform vor Baubeginn der Kantonalen

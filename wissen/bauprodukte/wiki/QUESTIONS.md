@@ -1,16 +1,30 @@
 # QUESTIONS — offene Fragen, Lücken und Spannungen im KB `bauprodukte`
 
-## Offen an Raphael
+## Entschieden (Raphael, 31.07.2026) — verbindlich für jeden Folgelauf
 
-1. **Aktualität des Archivs:** Wie alt dürfen Produktunterlagen sein, damit ein
-   Destillat noch Sinn ergibt? Vorschlag: alles aufnehmen, aber mit Datumsstempel;
-   Unterlagen älter als zehn Jahre nur, wenn sie ein System oder ein Prinzip
-   beschreiben (nicht ein konkretes Produkt).
-2. **Bevorzugte Systeme:** Gibt es Gewerke, in denen JANS bewusst auf ein bestimmtes
-   System setzt? Das gehört als Haltung in den KB, sonst destilliert der Loop
-   herstellerneutral an der Bürorealität vorbei.
+1. **Aktualität des Archivs — ERLEDIGT.** Alles aufnehmen, jede Angabe mit dem Stand des
+   Quelldokuments. Unterlagen **älter als zehn Jahre nur dann**, wenn sie ein **System oder
+   ein Prinzip** beschreiben — nicht ein konkretes Produkt. Konstruktionslehre bleibt also
+   erhalten, tote Produktdaten wandern nicht in eine Ausschreibung. Lässt sich das Alter
+   nicht datieren, gilt die Angabe als nicht aufnahmefähig (Datumsstempel-Pflicht,
+   `../CLAUDE.md` Schreibregel 1).
+2. **Bevorzugte Systeme — ERLEDIGT im Grundsatz, offen in der Ausführung.** Die Bürohaltung
+   wird **nicht** abgefragt, sondern **aus den eigenen Projekten abgeleitet**: beim Korpus
+   `buero-projekte` (Queue-Position 2) ermittelt der Loop, welche Systeme je Gewerk faktisch
+   wiederkehrend verbaut wurden, und legt das Ergebnis als Entwurf-Artikel
+   `bevorzugte-systeme-jans.md` zur Bestätigung vor — **nicht** selbst als `established`
+   setzen. Bis dahin bleiben die Destillate herstellerneutral (Schreibregel 5).
+   → Arbeitspunkt für Korpus 2, nicht für `bauprodukte`.
 
 ## Offen aus dem Material
+
+**Bearbeitungsreihenfolge (Entscheid Raphael, 31.07.2026):** zuerst die
+**ausschreibungsrelevanten** Punkte — das sind **4 (ERCO Lichttechnik), 9 (Holzbau und
+Bekleidungen) und 10 (VKF-Fassungsfrage)**. Sie fliessen direkt in ein LV und die
+Normgrundlage liegt jeweils schon destilliert vor. Alle übrigen Punkte bleiben stehen und
+werden **ereignisgetrieben** abgearbeitet, sobald ein reales Projekt das Gewerk berührt.
+Punkte, die eine Hersteller-Rückfrage verlangen (5, 11, teilweise 7), kann der Loop
+grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Projektfall.
 
 3. **Aktuelle Marktübersicht Dachbegrünung fehlt:** [[dachbegruenung-systeme]] belegt
    nur eine 2002er-Momentaufnahme (3 CH-Anbieter, unverifiziert). Für Ausschreibungen

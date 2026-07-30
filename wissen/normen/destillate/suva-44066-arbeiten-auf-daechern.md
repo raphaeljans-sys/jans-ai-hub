@@ -51,7 +51,10 @@ Massnahmen-Übersicht nach Dachneigung (Kapitel 2, Tabelle 2).
   Ziff. 2.1.3.2 (S. 6).
 
 ### Übersicht Schutzmassnahmen nach Dachneigung, Tabelle 2 (S. 7)
-- **Flachdächer, 0° ≤ α < 10°**: ab Absturzhöhe ≥ 3,0 m → dreiteiliger Seitenschutz
+- **Flachdächer, 0° ≤ α ≤ 10°**: ab Absturzhöhe ≥ 3,0 m → dreiteiliger Seitenschutz
+  *(Korrektur Run 40: die Erstfassung schrieb hier «< 10°». Original Tabelle 2, S. 7, führt
+  «0° ≤ α ≤ 10°» — die Grenze 10° liegt in BEIDEN Zeilen, wie Tabelle 4 auf S. 18 im selben
+  Destillat schon korrekt zitierte. Am Original nachgeprüft.)*
   (BauAV Art. 29.2).
 - **Geneigte Dächer, 10° ≤ α ≤ 60°**: ab Absturzhöhe ≥ 3,0 m → Spenglergang anbringen;
   auf bestehenden Dächern kann anstelle eines Spenglergangs eine Dachfangwand
@@ -147,6 +150,14 @@ Massnahmen-Übersicht nach Dachneigung (Kapitel 2, Tabelle 2).
   Solaranlage vorhanden ist; ein ungesicherter Verkehrsweg über das Dach führt.
   Glasoblichter sind in diesen Fällen ebenfalls normkonform zu sichern, z. B. mit
   Verbundsicherheitsglas.
+- **Grundsätze für Lichtbänder und Lichtkuppeln aus Kunststoff** (Ziff. 4.3, zweiter Teil,
+  S. 16) — **ergänzt Run 40, fehlte in der Erstfassung ganz.** Die Quelle führt dort eine
+  eigene vierteilige Grundsatzliste. Betrieblich am wichtigsten und mit eigenem Schwellenwert:
+  für den **Unterhalt der Oblichter im geöffneten Zustand** sind ab einer Absturzhöhe von
+  **mehr als 3,0 m Anschlageinrichtungen (Ankerpunkte) gemäss EN 795** für den Anseilschutz
+  anzubringen. Das ist eine Anforderung an das geöffnete Oblicht und damit unabhängig von der
+  Frage, ob das geschlossene Element durchbruchsicher ist. Am Original nachgeprüft
+  (Refuter-Befund Run 40).
 - **Unterhalt und Nutzung von Flachdächern** (S. 17–18): Grundsatz — kollektiv
   wirkende Schutzeinrichtungen (Geländer, Netz) sind erfahrungsgemäss
   wirkungsvoller und langfristig kostengünstiger als Persönliche

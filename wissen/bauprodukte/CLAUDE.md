@@ -30,6 +30,13 @@ Ein PDF kann drei Artikel speisen; zehn PDFs können einen speisen.
    Angabe zu Preisen, Normausgaben, Zulassungen und Produktnamen trägt den Stand des
    Quelldokuments (`Stand gemäss Datenblatt 03/2018`). Ohne datierbare Quelle wird die
    Angabe **nicht** aufgenommen.
+   **Altersregel (Entscheid Raphael, 31.07.2026):** Es gibt keine harte Altersgrenze.
+   Unterlagen **älter als zehn Jahre** werden aber nur destilliert, soweit sie ein **System
+   oder ein Prinzip** beschreiben (Aufbau, Wirkprinzip, Konstruktionslogik, Fehlerbild) —
+   **nicht**, soweit sie ein konkretes Produkt beschreiben (Typenbezeichnung, Sortiment,
+   Preis, Zulassungsnummer, Bezugsquelle). Aus einem alten Dokument entsteht damit ein
+   Prinzip-Artikel, nie ein Produkt-Eintrag. Im Zweifel: Prinzip aufnehmen, Produktteil
+   weglassen und den Grund im Artikel vermerken.
 2. **BKP-Codes verifiziert**, nie geraten — `references/bkp-2017/BKP-2017-Liste.md`
    (Rule `bkp-2017-referenz`).
 3. **Normzitate** nur mit Fundstelle aus `wissen/normen/` (Rule `normen-referenz`).

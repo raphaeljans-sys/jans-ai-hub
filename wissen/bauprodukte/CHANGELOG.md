@@ -1,5 +1,19 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-07-31 — Drei Grundsatzentscheide Raphaels eingearbeitet
+- **Altersregel** (Schreibregel 1 in CLAUDE.md ergänzt): keine harte Altersgrenze;
+  Unterlagen älter als zehn Jahre nur als **Prinzip/System**, nie als Produkt
+  (Typenbezeichnung, Sortiment, Preis, Zulassungsnummer, Bezugsquelle).
+- **Bevorzugte Systeme:** nicht abgefragt, sondern aus den eigenen Projekten abzuleiten.
+  Pflicht-Zusatzauftrag beim Korpus `buero-projekte` in `KORPUS-QUEUE.md` verankert;
+  Ergebnis kommt als Entwurf `bevorzugte-systeme-jans.md` zur Bestätigung, nicht als
+  gesetzter Artikel. Bis dahin bleiben alle Destillate herstellerneutral.
+- **Restfragen priorisiert:** ausschreibungsrelevant zuerst — Punkt 4 (ERCO Lichttechnik),
+  9 (Holzbau und Bekleidungen, Lignum liegt destilliert vor) und 10 (VKF-Fassungsfrage).
+  Alle übrigen ereignisgetrieben, sobald ein reales Projekt das Gewerk berührt;
+  Punkte mit Hersteller-Rückfrage (5, 11, teilweise 7) bleiben als Prüfauftrag stehen.
+- Fragen 1 und 2 in `wiki/QUESTIONS.md` damit geschlossen.
+
 ## 2026-07-30 (Wissens-Chef Run 21, Cross-KB) — Kabinenmass korrigiert, Normverweise nachgetragen, drei neue offene Punkte
 - **[Widerspruch korrigiert, LV-relevant] `wiki/bkp-261-aufzuege.md`:** Die aus dem Schachtmass
   1500 × 1500 mm **abgeleitete** Kabinenbreite 1250 mm ist gestrichen. Das Winner-Datenblatt

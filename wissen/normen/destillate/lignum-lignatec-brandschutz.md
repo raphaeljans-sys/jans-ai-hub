@@ -136,6 +136,53 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
   EI-/REI-Bauteile, weil der Brand gleichzeitig von mehreren Seiten einwirken kann (S. 3).
 
 **Bezeichnungen von Bauteilen und Feuerwiderstandsklassen (Ziff. 1.3, Tabelle 2, S. 4-5)**
+
+⚠ **Ergänzung neunte Runde (Run 40, 31.07.2026) — Tabelle 2 war bis dahin nie als Tabelle
+aufgenommen worden**, sondern nur daraufhin geprüft, was dieses Destillat behauptet. Die
+zellenweise Aufnahme (10 Zeilen, Legende mit Median-RGB gemessen, Zeichnungen Schicht für
+Schicht klassiert) fand keine einzige Falschaussage, aber sechs Vollständigkeitslücken:
+
+- **Geltungsbereich der Tabelle (Einleitungsabsatz Ziff. 1.3, S. 4) fehlte ganz** — die
+  praktisch wichtigste Lücke, weil sie die Tabelle als abschliessend erscheinen liess. Im
+  Original steht: die Angaben in Tabelle 2 gelten **nur für Bauteile mit tragender und/oder
+  brandabschnittsbildender Funktion**; Anforderungen an Bauteiloberfläche, Verkleidung und/oder
+  Schichtaufbau **gemäss der Brandschutzrichtlinie VKF «Verwendung brennbarer Baustoffe» [1]
+  sind zusätzlich zu beachten** und erlauben je nach Nutzung und Geschosszahl einen vermehrten
+  oder eingeschränkten Holzeinsatz (**siehe Kapitel 4**). Tabelle 2 allein genügt also nie.
+- **Die Legende der Tabelle (S. 5) fehlte** — sechs Kategorien: Vollholz · Baustoff brennbar ·
+  Baustoff nicht brennbar · Beton · Dämmstoff brennbar · Dämmstoff nicht brennbar. Messtechnisch
+  wichtig: **Vollholz, Baustoff brennbar und Dämmstoff brennbar sind farblich praktisch
+  identisch** (Median-RGB ~233-243) und unterscheiden sich **ausschliesslich über das
+  Linienmuster** (grosses X / Diagonalschraffur / dichte Vertikalen). Eine reine Farbklassierung
+  verwechselt sie. Beton (~111/150/188) ist klar dunkler als «Baustoff nicht brennbar»
+  (~212/232/243).
+- **Die dritte Tabellenspalte «Zeichnung (zusammengesetzter Querschnitt)» war gar nicht
+  destilliert.** Sie trägt die materielle Aussage. Fachlich am folgenreichsten: die Zeichnungen
+  zu **R30/EI30/REI30 und R60/EI60/REI60 (ohne (nbb)-Zusatz)** zeigen denselben Werkstoffaufbau
+  wie «Keine Anforderung» — Deckschicht, Dämmung und Stiel dürfen **vollständig aus brennbarem
+  Material/Holz** bestehen, solange der Zeitwert eingehalten ist. Das Destillat sagte das nie
+  positiv; es liess sich so lesen, als verlange schon die Zeitklasse nicht brennbares Material.
+- **Die F-Codes und Fussnote ① fehlten:** F30bb (Zeile R30/EI30/REI30), F30 (R30(nbb)-Familie),
+  F60bb (R60/EI60/REI60), F60 (R60(nbb)-Familie); Fussnote ①: «Klassierung nach VKF. Zuordnung
+  zur Klassierung nach EN mit Zuordnungstabelle VKF möglich.» Praxisrelevant für Altbestand und
+  Fremdunterlagen, die noch in F-Codes bezeichnet sind.
+- **Konstruktionsvarianten fehlten:** Zeile R60/EI30(nbb) zeigt zwei gleichwertige Wege — einen
+  **zweischichtigen** Deckaufbau (dünne nicht brennbare Aussenschicht auf brennbarer Trägerplatte)
+  ODER eine einlagige, durchgehend nicht brennbare Verkleidung. Zeile R60(nbb) illustriert zwei
+  Bauweisen: nicht brennbarer Skelettbau oder **Beton**-Vollquerschnitt.
+- **Zeilen 9/10 (Korridor-Familien)** nennen im Original ausdrücklich den Rückbezug «grundsätzlich
+  gelten die gleichen Anforderungen wie für EI30/REI30» bzw. «wie für EI60/REI60».
+
+**Offen, nicht als Fachbefund gewertet:** In den Zeilen R30/EI30/REI30, R60/EI60/REI60 und
+EI60-EI30(nbb) sind Deckschicht und Stiel messbar **grau unterlegt** (z.B. 177/180/179 gegen
+240/245 bei identischem Muster in «Keine Anforderung»). Die Legende auf S. 5 kennt keine
+getönte Variante. Der Effekt ist konsistent (immer Deckschicht + Stiel, nie das Dämmstofffeld),
+seine Bedeutung aber aus der Quelle nicht ableitbar — mögliche grafische Hervorhebung oder
+Druck-/Scan-Effekt. Als offene Frage geführt, nicht gedeutet.
+
+**Quellenhinweis:** Der Haus-Scan trägt auf S. 5 eine **handschriftliche Randnotiz**. Sie ist
+nicht Teil der Lignum-Drucksache und darf bei künftigen Lesungen nicht als Inhalt übernommen
+werden.
 - «Keine Anforderung»: Holzeinsatz ohne weiteres möglich, keine minimalen
   Querschnittsabmessungen oder Verbindungsanforderungen; nur bei tragenden, nicht
   brandabschnittbildenden Bauteilen (S. 4).
@@ -529,6 +576,31 @@ der heute geltenden VKF-Vorschriftengeneration 2015 potenziell überholt** (sieh
 Vier Axonometrie-Doppelseiten (je 2 Bauwerksschnitte: links Tragwerk, rechts Brandabschnitte),
 zeigen die Feuerwiderstandsanforderung je Bauteil grafisch für Standardkonzepte:
 
+⚠ **Ergänzung neunte Runde (Run 40, 31.07.2026) — die Axonometrien tragen eine zweite
+Informationsebene, die bis dahin nirgends erfasst war.** Die Runden 1-8 haben diese Seiten nur
+daraufhin gelesen, was das Destillat behauptet; erstmals wurden sie Element für Element als
+Zeichnung aufgenommen (22 bzw. 20 beschriftete Elemente, Farbmessung Median-RGB, Legende je
+Seite einzeln gemessen). Ergebnis: **kein einziger falscher Zahlenwert**, aber drei
+Vollständigkeitslücken, alle vom Hauptprozess am eigenen 300-dpi-Rendering nachgeprüft:
+
+- **«Decke = Dach — über Korridor / über Treppenhaus: Keine Anforderung» fehlte auf ALLEN vier
+  Doppelseiten** (S. 17, 19, 21, 23). Und der Satz allein wäre irreführend: «Keine Anforderung»
+  gilt nur für den **Feuerwiderstand**. Das Schnittdiagramm daneben zeigt **Dachbelag und
+  Fluchtweg-Seite beide mit der Nicht-brennbar-Signatur (BKZ 6q.3)**. Wer nur den Wert liest,
+  hält die Dachoberfläche über dem Fluchtweg für anforderungsfrei. Tabelle 5 deckt das nicht ab
+  — sie führt Flachdach/Steildach nur als **Dämmschicht**, nicht als Oberfläche über dem
+  Fluchtweg.
+- **Die Schnittdiagramme kodieren die Seitigkeit der Verkleidung mit** und bestätigen damit die
+  Run-32/33-Korrektur ein drittes, methodisch unabhängiges Mal: Treppenhauswand
+  REI60/EI30(nbb) trägt die blaue Nicht-brennbar-Signatur **beidseitig** des grauen Kerns,
+  Korridorwand EI30-nbb **nur korridorseitig**; der Bodenbelag Korridor bleibt brennbar zulässig
+  (BKZ 4.2). Auch die Beschriftungskästchen selbst kodieren das (blaue Randstreifen beidseitig
+  gegen einseitig) — Schrägstrich = beidseitig, Bindestrich = nur fluchtwegseitig.
+- **Die Legenden sind auch INNERHALB des Kapitels 5 nicht deckungsgleich:** S. 23 führt sieben
+  Einträge, S. 21 nur sechs (dort fehlt «EI60/EI30(nbb)» mit Schrägstrich). Jede Seite führt nur
+  die auf ihr tatsächlich verwendeten Werte. Legenden dieses Hefts gelten grundsätzlich nie
+  seiten- oder tabellenübergreifend.
+
 - **5.1 Bauten mit 2 Geschossen, Geschossfläche A ≤ 600 m² (S. 16-17)**: gilt für Wohnbauten
   MFH/Büro-/Schulbauten/Industrie-Gewerbebauten q≤1000 MJ/m²/Parkhäuser/Einstellräume sowie
   Verkaufsgeschäfte ≤1200 m²/≤100 P und landwirtschaftliche Bauten. Tragwerk oberstes Geschoss:
@@ -562,6 +634,9 @@ zeigen die Feuerwiderstandsanforderung je Bauteil grafisch für Standardkonzepte
   einen anerkannten Fachingenieur zu begleiten, vor Baubeginn ist ein Brandschutzkonzept
   erforderlich, das ausführende Unternehmen muss über ein Qualitätssicherungssystem verfügen
   (Fussnote [4]). Tragwerk/nicht tragende Aussenwand oberstes Geschoss: keine Anforderung.
+  Treppenlauf und Podest bei Fluchttreppen: nicht brennbar (S. 22 — **fehlte bis Run 40 im
+  5.4-Absatz**, obwohl auf der Zeichnung gleich vorhanden wie bei 5.3; reine Auslassung bei der
+  Uebertragung, kein Wertfehler).
   Tragwerk ohne oberstes Geschoss: R60/EI30(nbb) (Baulich)/R60 (Sprinkler). Tragende Aussenwand
   ohne oberstes Geschoss: R60/EI30(nbb) (Baulich)/R60 (Sprinkler) mit Aussenwandverkleidung
   nach Brandschutzrichtlinie. Nicht tragende Aussenwand ohne oberstes Geschoss: EI30 oder nicht

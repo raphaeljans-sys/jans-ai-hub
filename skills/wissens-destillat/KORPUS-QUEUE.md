@@ -31,6 +31,15 @@ Ziel ist nicht die Projektdokumentation, sondern die **Lehre**: was hat der Bauh
 tatsächlich entschieden, wo lag die Kostenwahrheit gegenüber der Schätzung, welche
 Behördenauflage kam überraschend. Geht in den bestehenden KB `projekt-lessons`.
 
+**Pflicht-Zusatzauftrag für Korpus 2 (Entscheid Raphael, 31.07.2026):** Aus diesem Korpus
+wird zusätzlich die **Bürohaltung zu bevorzugten Systemen** abgeleitet — welche Systeme je
+Gewerk faktisch wiederkehrend verbaut wurden. Ergebnis als Entwurf-Artikel
+`wissen/bauprodukte/wiki/bevorzugte-systeme-jans.md`, Status `emerging`, und Raphael zur
+Bestätigung vorlegen; **nie** selbst auf `established` heben. Hintergrund: Raphael hat die
+Frage bewusst nicht aus dem Kopf beantwortet, sondern der Ableitung aus den eigenen
+Projekten den Vorzug gegeben. Bis dieser Artikel bestätigt ist, bleiben alle
+Bauprodukte-Destillate herstellerneutral.
+
 **3./4. Fachbibliothek und Archiv — Breite statt Tiefe.** Gross, wertvoll, aber am
 wenigsten dringend und am aufwendigsten (viele grosse PDFs). Kommt, wenn die beiden
 scharfen Korpora stehen.

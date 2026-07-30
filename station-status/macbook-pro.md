@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 31.07.2026 01:47:23
+Stand: 31.07.2026 01:57:31
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 01:47)
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:57)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 31.07.2026 01:47:23
 - 16 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 75527a6c nas-selfcommit: 3 Datei(en) 2026-07-31 01:45
+- ff1f41cb KB immobilienbewertung: Ingest Cluster A (IMMO 03 KNOW-HOW) — Wuest-Bewertungsbericht destilliert, CHANGELOG
