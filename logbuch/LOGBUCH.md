@@ -7,8 +7,30 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## 2026-07-30
 
+**Register-Aufraeumlauf `fristen.md` (Auftrag Raphael, Skill `logbuch`).** Alle 271 Zeilen des Fristen-/Pendenzen-Registers gegen sich selbst (spaetere Nachtraege/Korrekturen) und gegen `LOGBUCH.md` gegengeprueft; Kernfokus die 24 Zeilen mit explizitem `Status:`-Tag (die uebrigen sind periodische Radar-/Hub-Chef-Sammeleintraege ohne Einzel-Tag). **11 Zeilen ergaenzt/umgestellt, keine geloescht:** (1) UBS-Kapitaleinzahlungskonto (Zeile ~12) offen → erledigt, Beleg Radar-Nachtrag 30.07. Befund 1; (2) AG-Gruendungs-Monitor-Eintrag (~68) Nachtrag ergaenzt, da die AG-Gruendung selbst inzwischen ebenfalls geloest ist; (3) RE-00100/RE-00101-Aktivzeile (~64) Nachtrag «teilweise ueberholt» (RE-00100 retourniert + neu ausgestellt seit 28./29.07.); (4) KB `projekt-lessons` leer-seit-Anlage (~72) Nachtrag «teilweise ueberholt» (KB seit 23.07. nicht mehr leer); (5) KISPI-Bauleitungspendenzen-Konsolidierungsauftrag (~74) offen → erledigt (Konsolidierung laut Stand 21.07. erfolgt); (6) Bueroausfall NAS+Mac Mini (~80) offen,hoch → erledigt (behoben 20.07. ca. 09:30); (7) Dauerschicht-Loop blockiert (~82) offen,mittel → erledigt (lief nach NAS-Rueckkehr wieder an); (8) Kontext-Diaet Restpunkte (~86) Hauptteil erledigt/Rest zu pruefen → vollstaendig erledigt (Minimum Viable Model + Vorfilter-Scripts belegt umgesetzt); (9) LBW-Beschichtungsfrage-Zusatz (~92) Nachtrag: beantwortet 21.07. (Dauerschicht-Zyklus 35), Hauptpunkt Roethlisberger bleibt offen; (10) SYN-02-Interview-Status (~100) offen → erledigt (Interview 21.07. abgeschlossen, Umsetzung volumen_generator.py steht aus); (11) Jegen Prinzippläene 10-Punkte-Entscheid (~90) Nachtrag: weiterhin offen, Kontext auf Stand 27.07. nachgefuehrt (7 von 10 Punkten unentschieden). **Weiterhin unveraendert offen** (gegengeprueft, keine Korrektur gefunden): KISPI-Fachplaner-Mail-Entwurf (Rueckfrage Empfaenger/Anrede), Installationsplan Lueftung QS-Brandschutz-Rueckweisung (Ball bei Gruner/Duran), Abo-Auslastungs-Re-Login (`claude` → `/login`, seit 20.07.), Beilagestrategie Feuerpolizei VKF-Nachweise (Raphaels Entscheid, kein Termin), Umlaut-Regel in fuenf Mac-Mini-Scheduled-Task-Prompts (Config, whitelist-blockiert), immobewertung-training-Ruecktaktung (Entscheid Raphael, Takt woechentlich/ereignisgesteuert), Rule-260624-Hoehenfehler Oberrieden (9.0 m statt 8.5 m traufseitig, Korrektur Raphael noch nicht erfolgt). Keine Zeile geloescht, keine Mail versendet, keine Buchung. Aenderungen direkt auf dem NAS-Repo via Edit, kein `git` ueber SMB.
+
+**NACHTRAG 30.07. 12:50 zum Abo-Check — RE-LOGIN ERFOLGT, MESSUNG LIEGT VOR, Ampel GELB;
+die Trajektorie ist der eigentliche Befund.** Raphael hat den `/login` unmittelbar nach dem
+Check ausgefuehrt (Keychain-`mdat` neu **30.07.2026 10:49:21 UTC**, vorher 12.07.), damit ist
+die seit 20.07. offene Pendenz **erledigt** und die zehntaegige Blindheit beendet. Erster
+erfolgreicher Lauf 12:49, Token-Quelle «Keychain CLI»: **Woche (alle Modelle) 66 %**
+(Reset 03.08.2026 12:00), 5-Stunden-Fenster 23 %, Woche Fable 22 %. **Extra Usage: keine Zeile
+ausgegeben** — der Connector druckt sie nur bei aktivem `extra_usage`, also entweder nicht aktiv
+oder kein Verbrauch, in beiden Faellen keine Kosten (Indizschluss wie am 19.07., bewusst **kein**
+Zweitlauf zur Belegbeschaffung — Lehre aus dem 429-Vorfall). **Ampel GELB (50–70 %), aber die
+Hochrechnung ist das Warnsignal:** das Fenster laeuft seit 27.07. 12:00, verbraucht sind erst
+**3 von 7 Tagen (43 % der Zeit) bei 66 % des Budgets** — linear fortgeschrieben waere das Limit
+rund am 01.08. gerissen, also zwei Tage vor dem Reset. Und das **bei stillstehenden
+Vollgas-Runnern** (STOP-Flags seit 29.07. 02:51): die 66 % stammen aus 1.6 Tagen Runner-Betrieb
+plus normalem Betrieb und den Scheduled Tasks. **Konsequenz:** die verbleibenden 34 % muessen
+vier Tage tragen; die Runner in diesem Fenster wieder anzulassen wuerde das Limit sicher reissen
+(wie am 26./27.07. bereits geschehen). Empfehlung an Raphael: STOP-Flags bis zum Reset am
+**03.08. 12:00** stehen lassen und die Wiederaufnahme danach mit einem gemessenen Startwert
+beginnen. Naechster planmaessiger Check-Lauf misst neu gegen das frische Fenster.
+
 **Woechentlicher Abo-Auslastungs-Check (Mac Mini, 12:35) — KEINE MESSUNG MOEGLICH, Ampel ROT
-(Messfehler, nicht Verbrauch); der seit 20.07. offene `/login` ist weiterhin nicht erfolgt.**
+(Messfehler, nicht Verbrauch); **SIEHE NACHTRAG OBEN — durch den Re-Login um 12:49 ueberholt**.
+Der seit 20.07. offene `/login` war zum Zeitpunkt dieses Laufs noch nicht erfolgt.**
 `node connectors/claude-usage.mjs` bricht beim Token-Refresh ab: HTTP 400,
 `invalid_grant: Refresh token not found or invalid`, Usage-Endpunkt danach 401. Damit liegen
 **weder ein Wochen-Prozentwert noch eine Extra-Usage-Zahl** vor — die letzte belastbare Messung

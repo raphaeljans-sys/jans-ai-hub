@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 30.07.2026 12:39:03
+Stand: 30.07.2026 12:49:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 12:37)
+- Developer/jans/ai/hub  (letzte Aktivitaet 12:47)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 30.07.2026 12:39:03
 - 2 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 16ae4fd5 nas-selfcommit: 2 Datei(en) 2026-07-30 12:30
+- 519deea0 Rollen-Register bereinigt und strukturiert (Auftrag Raphael): Registry+Dateisystem in beide Richtungen abgeglichen — 1 fehlende Zeile (zahlungsabgleich-check), 10 falsche Statuswerte, 4 neue Statuswerte (ereignis/geplant/erledigt/vorrat) statt alles als aktiv; Historien-Zeile planungsgrundlagen-training wiederhergestellt (meine Umbenennung hatte 64 Laeufe/9.4h unzurechenbar gemacht, Bilanz jetzt lueckenlos); Scripts/Referenzen als eigene Sektion, veraltete Runner-Bezuege raus; Rule rollen-taxonomie um die Umbenennungs-Lehre ergaenzt
