@@ -23,8 +23,16 @@
 #
 # AUFRUF:
 #   bash arbeits-weiche.sh --wo "<name>"              # nur entscheiden (Trockenlauf)
+#   bash arbeits-weiche.sh --takt "<name>"            # Takt-Modus (siehe unten)
 #   bash arbeits-weiche.sh "<name>" "<prompt>"        # entscheiden + ausfuehren
 #     [--budget N] [--modell M]                        # durchgereicht an claude-run.sh
+#
+# TAKT-MODUS (seit 31.07.2026, Pflicht-Einstieg fuer wiederkehrende Laeufe):
+# Fuer getaktete Feuermechanismen (nachtschicht u.a.), die die Ausfuehrung selbst
+# in der Hand behalten. Gibt auf stdout NUR das Ziel aus (mini|macbook|keine),
+# fuehrt nichts aus und legt bei beidseitiger Nichtbereitschaft KEINEN Queue-Task
+# an — ein Takt-Lauf faellt dann aus, der naechste Takt kommt von allein
+# (Queue-Eintraege wuerden sich bei jedem abgewiesenen Takt duplizieren).
 #
 # Jeder Entscheid wird protokolliert:
 #   logbuch/arbeits-weiche/YYMMDD-entscheide.jsonl
@@ -32,6 +40,8 @@
 #
 # Test-Overrides (nur fuer Pfad-Nachmessung, nie im Betrieb setzen):
 #   WEICHE_TEST_MINI_GB / WEICHE_TEST_MACBOOK_GB / WEICHE_TEST_IDLE_S
+#   WEICHE_TEST_MACBOOK_BEREIT=1  (ueberspringt LAN-/Netzteil-/Idle-Pruefung des
+#   MacBook — Speicher, Druck und Lauf-Gate bleiben scharf)
 # ============================================================================
 set -uo pipefail
 
@@ -43,6 +53,7 @@ IDLE_MIN_S=900
 
 MODUS="ausfuehren"
 if [ "${1:-}" = "--wo" ]; then MODUS="trocken"; shift; fi
+if [ "${1:-}" = "--takt" ]; then MODUS="takt"; shift; fi
 NAME="${1:-}"; shift 2>/dev/null || true
 BUDGET="50"; MODELL=""
 PROMPT=""
@@ -53,8 +64,13 @@ while [ $# -gt 0 ]; do
         *) PROMPT="$1"; shift ;;
     esac
 done
-[ -n "$NAME" ] || { echo "Verwendung: arbeits-weiche.sh [--wo] <name> [<prompt>]"; exit 2; }
-[ "$MODUS" = "trocken" ] || [ -n "$PROMPT" ] || { echo "FEHLER: Prompt fehlt (oder --wo nutzen)"; exit 2; }
+[ -n "$NAME" ] || { echo "Verwendung: arbeits-weiche.sh [--wo|--takt] <name> [<prompt>]"; exit 2; }
+# Schutz gegen Versions-Schiefstand (belegt 31.07.2026): erhaelt eine Weiche eine
+# unbekannte Option, darf sie NIE in den Ausfuehrungsmodus fallen — die alte
+# SSD-Kopie interpretierte '--takt' als Auftragsnamen und startete beinahe einen
+# 50-USD-Lauf mit sinnlosem Prompt. Unbekannte Optionen sind ein harter Fehler.
+case "$NAME" in --*) echo "FEHLER: unbekannte Option $NAME"; exit 2 ;; esac
+[ "$MODUS" != "ausfuehren" ] || [ -n "$PROMPT" ] || { echo "FEHLER: Prompt fehlt (oder --wo/--takt nutzen)"; exit 2; }
 
 HOSTKURZ="$(hostname)"
 case "$HOSTKURZ" in
@@ -100,13 +116,19 @@ ZIEL=""; GRUND=""
 mini_bereit() {
     [ -n "$MINI_GB" ] || return 1
     awk -v g="$MINI_GB" -v m="$MINI_MIN_GB" 'BEGIN {exit (g>=m)?0:1}' || return 1
-    [ "${MINI_DRUCK:-0}" -le 1 ] || return 1
+    # Druck 2 ("warnend") ist der Normalzustand einer warmgelaufenen Station und
+    # KEIN Abweisungsgrund — dieselbe Korrektur wie im Lauf-Gate am 29.07.2026
+    # (Dauerveto-Befund, Freigabe Raphael). Die scharfe Instanz bleibt gate_ok:
+    # das Lauf-Gate senkt unter Druck 2 den Lauf-Deckel und vetoisiert erst bei 4.
+    [ "${MINI_DRUCK:-0}" -le 2 ] || return 1
     gate_ok mini
 }
 
 macbook_bereit() {
     [ -n "$MB_GB" ] || return 1                                   # erreichbar
-    if [ "$ICH" = "mini" ]; then
+    if [ "${WEICHE_TEST_MACBOOK_BEREIT:-0}" = "1" ]; then
+        IDLE_S=$IDLE_MIN_S                                        # nur Pfad-Nachmessung
+    elif [ "$ICH" = "mini" ]; then
         nc -z -G 1 Macbookpro.local 22 >/dev/null 2>&1 || return 1  # im Buero-LAN
         ssh "${SSHOPT[@]}" macbook 'pmset -g batt | head -1 | grep -q "AC Power"' || return 1
         IDLE_S="${WEICHE_TEST_IDLE_S:-$(ssh "${SSHOPT[@]}" macbook \
@@ -116,7 +138,7 @@ macbook_bereit() {
         IDLE_S="${WEICHE_TEST_IDLE_S:-$(ioreg -c IOHIDSystem 2>/dev/null | awk '/HIDIdleTime/ {print int($NF/1000000000); exit}')}"
     fi
     awk -v g="$MB_GB" -v m="$MACBOOK_MIN_GB" 'BEGIN {exit (g>=m)?0:1}' || return 1
-    [ "${MB_DRUCK:-0}" -le 1 ] || return 1
+    [ "${MB_DRUCK:-0}" -le 2 ] || return 1   # Druck-2-Normalzustand, s. mini_bereit
     WT="$(date +%u)"; STD="$(date +%H)"
     if [ "$WT" -le 5 ] && [ "$STD" -ge 7 ] && [ "$STD" -lt 19 ]; then
         [ "${IDLE_S:-0}" -ge "$IDLE_MIN_S" ] || return 1          # Arbeitszeit: nur wenn idle
@@ -128,6 +150,8 @@ if mini_bereit; then
     ZIEL="mini"; GRUND="mini-frei (${MINI_GB} GB, Druck ${MINI_DRUCK})"
 elif macbook_bereit; then
     ZIEL="macbook"; GRUND="mini-ausgelastet (${MINI_GB:-?} GB), macbook-bereit (${MB_GB} GB, am Netz, idle/ausserhalb Arbeitszeit)"
+elif [ "$MODUS" = "takt" ]; then
+    ZIEL="keine"; GRUND="beide Stationen nicht bereit (mini ${MINI_GB:-?} GB Druck ${MINI_DRUCK} · macbook ${MB_GB:-nicht erreichbar} Druck ${MB_DRUCK:-?}) — Takt-Lauf faellt aus, kein Queue-Eintrag"
 else
     ZIEL="queue"; GRUND="beide Stationen nicht bereit (mini ${MINI_GB:-?} GB Druck ${MINI_DRUCK} · macbook ${MB_GB:-nicht erreichbar} Druck ${MB_DRUCK:-?}) — Auftrag in Mini-Queue geparkt"
 fi
@@ -139,6 +163,11 @@ printf '{"ts":"%s","name":"%s","station_eingabe":"%s","ziel":"%s","modus":"%s","
     "$(date +%Y-%m-%dT%H:%M:%S%z)" "$NAME" "$ICH" "$ZIEL" "$MODUS" \
     "${MINI_GB:-}" "${MINI_DRUCK:-}" "${MB_GB:-}" "${MB_DRUCK:-}" "$GRUND" >> "$JLOG"
 
+if [ "$MODUS" = "takt" ]; then
+    # Maschinen-Ausgabe fuer getaktete Aufrufer: nur das Ziel, Details im Journal.
+    echo "$ZIEL"
+    exit 0
+fi
 echo "Weiche: $NAME → $ZIEL ($GRUND)"
 [ "$MODUS" = "trocken" ] && exit 0
 

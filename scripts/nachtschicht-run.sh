@@ -61,17 +61,55 @@ if ! mkdir "$LOCK" 2>/dev/null; then
 fi
 trap 'rmdir "$LOCK" 2>/dev/null' EXIT
 
-# --- Lauf-Gate (stationsweiter Prozess-Deckel) ----------------------------------
-# Der Lock oben schuetzt die Nachtschicht nur gegen SICH SELBST. Er verhindert
-# nicht, dass ein anderer Mechanismus zeitgleich feuert — belegt 28.07.2026:
-# um 00:30 und um 22:30 liefen je zwei Zyklen gleichzeitig, weil nachtschicht
-# und ein training-Job denselben Zeitpunkt trafen. Das Gate ist die gemeinsame
-# Instanz ueber alle Mechanismen (Rule speicher-deckel, 28.07.2026).
-GATE="$HOME/Developer/jans-ai-hub/scripts/lauf-gate.sh"
-[ -f "$GATE" ] || GATE="/Volumes/daten/jans-ai-hub/scripts/lauf-gate.sh"
-if [ -f "$GATE" ] && ! bash "$GATE" "nachtschicht"; then
-    log "Lauf-Gate hat abgewiesen (Station ausgelastet) — Zyklus uebersprungen."
+# --- Arbeits-Weiche als Pflicht-Einstieg (31.07.2026) ----------------------------
+# Bis 30.07. fragte hier nur das lokale Lauf-Gate: eine Abweisung liess den Zyklus
+# ersatzlos ausfallen, obwohl das MacBook Pro nachts oft frei ist. Neu entscheidet
+# die Arbeits-Weiche (Politik 30.07.: Default Mini; MacBook nur als Aushilfe bei
+# LAN + Netzteil + frei + idle/ausserhalb Arbeitszeit). Im Takt-Modus legt sie bei
+# beidseitiger Nichtbereitschaft bewusst KEINEN Queue-Task an — der naechste
+# Stundentakt kommt von allein, Queue-Eintraege wuerden sich duplizieren.
+# Die Weiche fragt intern das Lauf-Gate der Zielstation (gate_ok) — der
+# stationsweite Prozess-Deckel (Rule speicher-deckel, 28.07.2026) bleibt scharf.
+# NAS-Kopie ZUERST (anders als beim Gate): der Takt-Modus startet kein claude,
+# das SSD-Trust-Argument greift hier nicht — dafuer lag die SSD-Kopie am 31.07.
+# eine Version zurueck und interpretierte '--takt' als Auftragsnamen (Ausfuehrungs-
+# modus statt Entscheid). Die NAS-Kopie ist kanonisch und immer aktuell.
+ZIEL="mini"
+WEICHE="/Volumes/daten/jans-ai-hub/scripts/arbeits-weiche.sh"
+[ -f "$WEICHE" ] || WEICHE="$HOME/Developer/jans-ai-hub/scripts/arbeits-weiche.sh"
+if [ -n "${NACHTSCHICHT_TEST_ZIEL:-}" ]; then
+    # Nur Pfad-Nachmessung: Weiche-Entscheid uebersteuern (nie im Betrieb setzen).
+    ZIEL="$NACHTSCHICHT_TEST_ZIEL"
+elif [ -f "$WEICHE" ]; then
+    W_ZIEL="$(bash "$WEICHE" --takt "nachtschicht" 2>/dev/null | tail -1)"
+    case "$W_ZIEL" in
+        mini|macbook|keine) ZIEL="$W_ZIEL" ;;
+        *) log "Weiche unlesbar ('$W_ZIEL') — Rueckfall auf lokales Lauf-Gate." ;;
+    esac
+else
+    log "Weiche nicht gefunden — Rueckfall auf lokales Lauf-Gate."
+fi
+
+if [ "$ZIEL" = "keine" ]; then
+    log "Weiche: keine Station bereit — Zyklus uebersprungen."
     exit 0
+fi
+
+# Test-Hook (nur Pfad-Nachmessung): Entscheid ausgeben, nichts ausfuehren.
+if [ "${NACHTSCHICHT_NUR_ENTSCHEID:-0}" = "1" ]; then
+    echo "Entscheid: $ZIEL"
+    exit 0
+fi
+
+# Lokaler Mini-Pfad: das Gate zusaetzlich direkt fragen. Deckt den Rueckfall ab
+# (Weiche fehlt/unlesbar) und kostet im Normalfall nur eine Doppelpruefung.
+if [ "$ZIEL" = "mini" ]; then
+    GATE="$HOME/Developer/jans-ai-hub/scripts/lauf-gate.sh"
+    [ -f "$GATE" ] || GATE="/Volumes/daten/jans-ai-hub/scripts/lauf-gate.sh"
+    if [ -f "$GATE" ] && ! bash "$GATE" "nachtschicht"; then
+        log "Lauf-Gate hat abgewiesen (Station ausgelastet) — Zyklus uebersprungen."
+        exit 0
+    fi
 fi
 
 # --- Repo aktualisieren (leise) --------------------------------------------------
@@ -96,6 +134,33 @@ Budget-Disziplin (Lehre aus den Laeufen 00:30/01:30 am 21.07.): Dein Lauf hat ei
 Jeder Zyklus endet mit: Ergebnis in wiki/ bzw. outputs/ auf dem NAS, CHANGELOG-Eintrag, eine Journalzeile im Logbuch (der NAS committet sich selbst, kein Git ueber SMB).
 
 Harte Grenzen: nur Aktionen gemaess logbuch/AKTIONS-WHITELIST.md. Nie E-Mails versenden, nichts publizieren, nichts buchen, nichts loeschen, keine Einkaeufe. Wenn keine sinnvolle Aufgabe ansteht: in einem Satz begruenden und sauber beenden statt Beschaeftigung zu erfinden.'
+
+# --- Aushilfe-Pfad MacBook Pro (Arbeits-Weiche, 31.07.2026) ----------------------
+# Der Mini ist ausgelastet, das MacBook bereit (LAN, Netzteil, frei, idle/Nacht).
+# Der Zyklus laeuft dort ueber DENSELBEN dispatch-run.sh (dispatch/log auf dem NAS
+# bleibt die eine Quelle fuer den Doppelarbeit-Guard). Die Aushilfe-Klausel nimmt
+# die Mini-exklusiven Prioritaeten 1+2 aus dem Spiel. Fire-and-forget wie in der
+# Weiche; gegen Ueberlappung schuetzt das Lauf-Gate der Zielstation (die Weiche
+# hat es soeben befragt, und der naechste Weiche-Entscheid zaehlt den Lauf mit).
+if [ "$ZIEL" = "macbook" ]; then
+    log "Weiche: Mini ausgelastet — Aushilfe-Zyklus auf dem MacBook Pro."
+    KLAUSEL='AUSHILFE-MODUS (Arbeits-Weiche): Du laeufst auf dem MacBook Pro, weil der Mac Mini ausgelastet ist. Die Prioritaeten 1 und 2 sind Mini-exklusiv (Task-Queues des Mini, Mini-gebundene Baustellen) — sie laesst Du vollstaendig aus und arbeitest nur an den Prioritaeten 3 bis 6. Alle uebrigen Regeln des Prompts gelten unveraendert.'
+    PFAD_LOKAL="/tmp/nachtschicht-aushilfe-$(date +%H%M%S).txt"
+    printf '%s\n\n%s' "$KLAUSEL" "$PROMPT" > "$PFAD_LOKAL"
+    DISPATCH_SCRIPT="${NACHTSCHICHT_DISPATCH_SCRIPT:-\$HOME/Developer/jans-ai-hub/scripts/dispatch-run.sh}"
+    RLOG="/tmp/nachtschicht-aushilfe-$(date +%H%M%S).log"
+    if ssh -o BatchMode=yes -o ConnectTimeout=6 -o LogLevel=ERROR macbook \
+        "cat > /tmp/nachtschicht-aushilfe-prompt.txt; set -a; . ~/.jans-dispatch.env 2>/dev/null; set +a; cd ~/Developer/jans-ai-hub && DISPATCH_ALLOW_ANY_HOST=1 DISPATCH_MAX_BUDGET_USD='${NACHTSCHICHT_BUDGET_USD:-5}' CLAUDE_CODE_PRINT_BG_WAIT_CEILING_MS='${NACHTSCHICHT_BG_WAIT_MS:-1800000}' nohup bash $DISPATCH_SCRIPT \"\$(cat /tmp/nachtschicht-aushilfe-prompt.txt)\" > '$RLOG' 2>&1 & echo gestartet" < "$PFAD_LOKAL"
+    then
+        log "Aushilfe-Zyklus auf dem MacBook gestartet (Log dort: $RLOG)."
+        rm -f "$PFAD_LOKAL"
+        exit 0
+    else
+        log "Aushilfe-Start auf dem MacBook FEHLGESCHLAGEN — Zyklus faellt aus (naechster Takt versucht es neu)."
+        rm -f "$PFAD_LOKAL"
+        exit 0
+    fi
+fi
 
 # Background-Agenten brauchen Zeit zum Fertigschreiben: Der Lauf 21.07. 00:30 wurde
 # nach dem 600-s-Default terminiert, BEVOR der Orchestrator Verifikation/Register/Commit

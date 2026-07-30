@@ -116,7 +116,11 @@ Infrastruktur. Wer daran arbeitet, liest zuerst die Chronik.
 - **RAM-intensive Einzelauftraege ueber `scripts/arbeits-weiche.sh` starten:** sie misst
   beide Stationen und waehlt den Ort (Default Mini; MacBook nur als Aushilfe; nie absagen,
   notfalls Mini-Queue). Entscheide: `logbuch/arbeits-weiche/`; Wochen-Review Task
-  `arbeits-weiche-review`.
+  `arbeits-weiche-review`. **Seit 31.07.2026 auch Pflicht-Einstieg getakteter Laeufe:**
+  `--takt <name>` gibt nur das Ziel aus (mini|macbook|keine) und queued NIE (Duplikat-Gefahr
+  bei Takten); erster Konsument ist die Nachtschicht (Aushilfe-Zyklus auf dem MacBook laesst
+  die Mini-exklusiven Prioritaeten 1+2 aus). cron-training/wissens-trigger/Sync-Task-Runner
+  bleiben bewusst stationsgebunden. Belege: `rules/betrieb-chronik.md` 260731b.
 - **Parallele Laeufe nur ueber `scripts/multi-claude.sh`** (Worktrees auf der SSD, nie ueber
   den SMB-Mount, nie geteilte Hub-Inhalte im Worktree editieren).
 - **Jeder automatische Lauf `cd`t ins Projekt** und protokolliert sein Arbeitsverzeichnis:

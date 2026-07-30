@@ -469,3 +469,52 @@ Fidelity-Selbsttest), Vorgehen und Messwerte des Referenzlaufs: 30.07.2026
 Lehre: Beleg-Parenthesen koennen Eingrenzungen tragen — Eingrenzung als Regel
 behalten, nur Datum/Zitat streichen). Beide Script-Pfade am 31.07. nachgemessen
 (Exit 0 normal, Exit 1 bei kuenstlich tiefen Schwellen).
+
+## 260731b — Arbeits-Weiche als Pflicht-Einstieg getakteter Laeufe (Takt-Modus + Nachtschicht-Aushilfe)
+
+Entscheid Raphael 31.07.2026 (AskUserQuestion, Variante «Weiche als Pflicht-Einstieg»):
+Die Lastverteilung vom 30.07. greift neu auch fuer wiederkehrende automatische Laeufe,
+nicht nur auf Zuruf. Umsetzung:
+
+- **`arbeits-weiche.sh --takt <name>`** (Maschinen-Modus): gibt auf stdout NUR das Ziel
+  aus (`mini`|`macbook`|`keine`), fuehrt nichts aus und legt bei beidseitiger
+  Nichtbereitschaft KEINEN Queue-Task an — ein Takt-Lauf faellt aus, der naechste Takt
+  kommt von allein (Queue-Eintraege wuerden sich bei jedem abgewiesenen Takt duplizieren).
+  Journal-Feld `modus:"takt"`, Ziel `keine` statt `queue`.
+- **Erster Konsument: `nachtschicht-run.sh`.** Statt nur das lokale Lauf-Gate zu fragen
+  (Abweisung = Zyklus faellt ersatzlos aus), fragt die Nachtschicht die Weiche:
+  `mini` → lokal wie bisher (Gate bleibt als Doppelpruefung/Rueckfall); `macbook` →
+  **Aushilfe-Zyklus** auf dem MacBook via ssh + denselben `dispatch-run.sh`
+  (`DISPATCH_ALLOW_ANY_HOST=1`, Budget/Ceiling identisch, dispatch/log auf dem NAS bleibt
+  die eine Quelle fuer den Doppelarbeit-Guard) mit vorangestellter AUSHILFE-Klausel:
+  Prioritaeten 1+2 (Mini-exklusiv) auslassen, nur 3-6; `keine` → Zyklus uebersprungen.
+- **Druck-Angleich:** Die Weiche verlangte Bereitschaft bei Druck <= 1 — dasselbe
+  Dauerveto-Muster, das am 29.07. im Lauf-Gate korrigiert wurde (Druck 2 = Normalzustand
+  der warmgelaufenen Station; MacBook stand bei der Messung 31.07. 01:18 real auf Druck 2).
+  Neu bereit bis Druck <= 2; die scharfe Instanz bleibt das Lauf-Gate der Zielstation
+  (Deckel-Senkung bei 2, Veto bei 4).
+- **Bewusst NICHT umgestellt:** `cron-training-mini.sh` (Stations-Split der Norm-Familien,
+  OneDrive-Quellen mit ungeklaerter TCC-Lage auf dem MacBook), `wissens-trigger.sh`
+  (Task-Dateien liegen pro Station), Sync-Task-Runner (Queue-Semantik ist stationsgebunden),
+  App-Scheduled-Tasks (erreichen das Gate baulich nicht).
+
+**Vorfall Versions-Schiefstand (belegt bei der Nachmessung):** Der erste Test lief gegen
+die SSD-Kopie der Weiche (Stand 30.07., ohne `--takt`) — sie interpretierte `--takt` als
+Auftragsnamen, fiel in den Ausfuehrungsmodus, legte einen Muell-Sync-Task an
+(`weiche---takt`, geloescht) und startete beinahe einen 50-USD-Lauf mit Prompt
+«nachtschicht» auf dem Mini (scheiterte nur an einem transienten SMB-«Operation not
+permitted»; Muster direkt danach zweifach nachgemessen, beide Wege sauber). Konsequenzen:
+(1) Weiche weist unbekannte `--`-Optionen jetzt hart ab (Exit 2, nie Ausfuehrungsmodus);
+(2) die Nachtschicht ruft fuer den Entscheid die kanonische NAS-Kopie ZUERST (Takt-Modus
+startet kein claude, das SSD-Trust-Argument greift nicht); (3) Merksatz: Der
+Fire-and-forget-ssh-Pfad (Weiche wie Aushilfe) meldet «gestartet» auch dann, wenn der
+nohup-Lauf sofort stirbt — Heilung ist der naechste Takt, Beleg das /tmp-Log der
+Zielstation.
+
+**Nachmessung 31.07.2026 (alle Pfade):** Weiche-Takt mini/macbook/keine je gruen
+(Journal 01:18, `modus:"takt"`); Options-Guard Exit 2; Nachtschicht Entscheid-Hook
+(`NACHTSCHICHT_NUR_ENTSCHEID=1`) → `mini`; Skip-Pfad bei beidseitiger Vollast →
+«Zyklus uebersprungen», rc=0; Aushilfe-Pfad E2E vom Mini mit Dispatch-Stub
+(`NACHTSCHICHT_TEST_ZIEL=macbook`, `NACHTSCHICHT_DISPATCH_SCRIPT`) → Prompt mit Klausel,
+ENV ALLOW=1/BUDGET=5/CEILING=1800000 auf dem MacBook angekommen (01:22). Test-Overrides
+dokumentiert im Script-Kopf; nie im Betrieb setzen.
