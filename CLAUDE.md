@@ -297,3 +297,4 @@ Historie der Auto-Verbesserungen: `rules/auto-verbesserungen-archiv.md` (nicht i
 @/Volumes/daten/jans-ai-hub/rules/sync-kanonische-quelle.md
 @/Volumes/daten/jans-ai-hub/rules/umlaute-konvention.md
 @/Volumes/daten/jans-ai-hub/rules/wissens-bibliothekar.md
+@/Volumes/daten/jans-ai-hub/rules/wissens-ruecklauf.md
