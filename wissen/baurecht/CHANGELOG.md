@@ -3,6 +3,15 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-31 (Wissens-Rücklauf 2414 Thalwil) — Art. 24 alt → Art. 45 revBZO, 7 %-Quote besondere Gebäude fällt
+- **[outputs]** `outputs/2026-07-31_bzo-thalwil-besondere-gebaeude-art24-art45.md`: Am Synopsen-Wortlaut
+  (16.04.2025, S. 40) belegt, dass Art. 24 BZO «Besondere Gebäude» zu Art. 45 revBZO «Klein- und
+  Anbauten» wird und die 7 %-Flächenquote aufgehoben wird (neu 50 m² je Kleinbaute + GFZ; Kernzone
+  3 % → 5 %). Praxisfolge unter negativer Vorwirkung: Nachweis doppelt führen. Erster Anwendungsfall
+  der neuen Rule `wissens-ruecklauf` (verankert 31.07.2026).
+- **[offen]** Normierungsort der 50-m²-Grenze in der revBZO nur über die Bemerkungsspalte belegt
+  → QUESTIONS-Eintrag; Artikel-Konkordanz alt/neu (Batch T1 der Triage 30.07.) weiter ausstehend.
+
 ## 2026-07-30 (Wissens-Chef Run 21, Cross-KB) — überholter «Kostenpflicht»-Status bei VSS 40 291 geschlossen, Parkierung querverlinkt, Absturzsicherung angemeldet
 - **[veraltetes] `wiki/fahrzeugabstellplaetze-und-parkierung.md`:** Die Aussage, die
   Rampenneigungs-Kennwerte der VSS 40 291 blieben «**needs-verification wegen Kostenpflicht**» und

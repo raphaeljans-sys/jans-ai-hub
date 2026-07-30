@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 31.07.2026 01:04:34
+Stand: 31.07.2026 01:14:37
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 00:46)
@@ -13,4 +13,4 @@ Stand: 31.07.2026 01:04:34
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 01775656 Rule wissens-ruecklauf: Pflicht-Schlussschritt Wissens-Ruecklauf nach substanziellen Deliverables (Entscheid Raphael 31.07.); README-Register + CLAUDE.md-Import; Anlassfall StrAV/2414 Thalwil
+- bd388a99 Durchlaufzeit-Messung vervollstaendigt: Archiv-Block eingelesen (Abschlussdatum aus Spalte 1), abgeschlossene Durchlaufzeit mit Median, Nachtragsliste der 25 aktiven Vorgaenge ohne Eroeffnungsdatum

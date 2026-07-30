@@ -1719,3 +1719,10 @@ eigener KB-Feststellung durch § 6c ABV abgeloest. **Der Vorbehalt ist im Schwes
 im Leit-Artikel nicht** — wer ueber `abstaende-und-hoehen` einsteigt (der vorgesehene Weg), bekommt
 die ungebrochene Fassung. Das ist der ausbreitungsfaehige Teil: im gepruueften Fall hat genau diese
 Stelle einen Lese-Agenten zu einer falschen Zitierempfehlung verleitet.
+
+## 2026-07-31 — revBZO Thalwil: Wo ist die 50-m²-Grenze für Kleinbauten normiert?
+Die Synopse (16.04.2025, S. 40, Bemerkungsspalte zu Art. 24 alt/Art. 45 rev) begründet die
+Aufhebung der 7 %-Quote damit, dass «die Grösse der Kleinbauten neu auf 50 m2 beschränkt ist».
+Der normierende Artikel (Begriffsteil der revBZO oder Verweis auf kantonale
+IVHB-Ausführungsbestimmungen) ist am Synopsen-Volltext noch zu verifizieren.
+Quelle: outputs/2026-07-31_bzo-thalwil-besondere-gebaeude-art24-art45.md
