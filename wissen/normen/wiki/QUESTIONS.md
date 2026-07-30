@@ -38,7 +38,10 @@ erfüllt. Die Umstellung wird ausdrücklich nicht vorgeschlagen.
    Übersichtsaxonometrien (S. 16-23) und Tabelle 2 (S. 4-5). Nach der geltenden Regel (Methodik-
    Pflicht 6) darf die Quelle erst als ausgereizt gelten, wenn die schärfste Methode auf **alle**
    ihre Teile gelaufen ist.
-2. **Entscheid zu `lignum-4-1` neu vorzulegen.** Raphael hatte es am 29.07. als «speculative,
+2. **ENTSCHIEDEN 30.07.2026 — Raphael hat eine weitere Runde freigegeben.** Der Stopp vom 29.07.
+   ist damit aufgehoben, solange die Abdeckung nicht belastbar gemessen ist. Die neunte Runde läuft
+   als **vollständige Seiten-Inventur** statt als OCR-Diff (die OCR-Ausbeute lag bei 34 von
+   mindestens 71 zitierten Nummern). Ursprüngliche Vorlage: Raphael hatte es am 29.07. als «speculative,
    stabil, keine Routinerunden mehr» akzeptiert — begründet damit, dass 5 von 6 Befunden der
    siebten Runde Formalien waren. Die achte Runde (Abdeckungsmessung statt Behauptungsprüfung) hat
    einen **inhaltlichen** Befund erbracht: in Kap. 5.2.5 fehlte der ganze Absatz zur Abschottung

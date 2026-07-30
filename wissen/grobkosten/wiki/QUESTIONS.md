@@ -2,6 +2,21 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-07-30 (Nachtschicht) — `bauenmitholz.info` geprüft: Negativbefund, ca.-Werte bleiben Stand
+
+**Erledigt, Nullbefund:** Der im selben Tag weiter unten offen gelassene Verifikationspunkt
+("Diagramm-Ablesung gegen `bauenmitholz.info` prüfen, falls dort Zahlenwerte publiziert sind")
+ist geprüft. Ergebnis: Die Seite (inkl. Unterpunkt `/baukostenrechner`) publiziert **keine**
+Tabellen — nur eine interaktive App (Wüest Partner) mit 36 anonymisierten Fallbeispielen,
+indexbereinigt in einer Grafik dargestellt. Weder die Studie vom 25.09.2025 noch Zahlenwerte
+(Median/Q1/Q3/Min/Max) sind dort verlinkt oder publiziert. Die pixel-kalibrierten ca.-Werte aus
+Run 20/heute (`raw/2025-wueest-lignum-massiv-vs-holzbau-erstellungskosten.md`) bleiben damit der
+beste verfügbare Stand — eine Ersetzung durch Originalzahlen wäre nur über die interaktive App
+selbst (kein WebFetch-Zugriff) oder direkten Kontakt zu Lignum (`info@lignum.ch`) möglich.
+Kennwerte in `kennwerte.md` bleiben unverändert (keine Korrektur nötig, nur der offene Punkt
+geschlossen). Details: `raw/2025-wueest-lignum-massiv-vs-holzbau-erstellungskosten.md`,
+Abschnitt «Verbleibende offene Punkte».
+
 ## 2026-07-30 — Bring-Schuld aus Run 20 eingelöst: Holzbau-Zuschlag kalibriert, Methodenwiderspruch aufgelöst
 
 **Erledigt (Mac Mini Nachtschicht):** Die in Run 20 (29.07.2026) übergebene Wüest Partner/

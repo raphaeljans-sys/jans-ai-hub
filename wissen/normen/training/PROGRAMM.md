@@ -110,10 +110,17 @@ prüfen». Sie hat einen **inhaltlichen** Befund erbracht: in Kap. 5.2.5 (S. 63)
 Absatz zur Durchführung von Installationen durch brandabschnittsbildende Bauteile RF1 — also die
 Abschottungspflicht, eine ausführungsrelevante Anforderung. Die Einstufung «speculative, stabil,
 keine Routinerunden mehr» stützte sich darauf, dass 5 von 6 Befunden der siebten Runde Formalien
-waren. Dieses Argument trägt nicht mehr, denn es galt für die alte Prüfrichtung. **Vorlage an
-Raphael:** entweder eine weitere Abdeckungs-Runde für `lignum-4-1` freigeben (die OCR-Ausbeute war
-mit 34 von real mehr Nummern unvollständig), oder den Stopp bewusst bestätigen im Wissen, dass
-Abdeckungslücken bestehen können.
+waren. Dieses Argument trägt nicht mehr, denn es galt für die alte Prüfrichtung. **Entscheid Raphael 30.07.2026: weitere Runde freigegeben.** Damit gilt der Stopp vom 29.07. für
+`lignum-4-1` als aufgehoben, solange die Abdeckung nicht belastbar gemessen ist.
+
+**Auflage für diese neunte Runde (Konsequenz aus der ausgewiesenen Schwäche der achten):** Die
+Abdeckung darf **nicht** erneut per OCR geschätzt werden — die Ausbeute lag bei 34 von mindestens
+71 zitierten Nummern, dichte Katalogtabellenseiten lesen sich maschinell zu schlecht. Stattdessen
+wird eine **vollständige Seiten-Inventur** erstellt: alle 40 A3-Blätter (= 80 gedruckte Seiten)
+werden gerendert, in Halbseiten gesplittet und je Seite wird aufgenommen, welche Kapitel, Tabellen,
+Abbildungen und eigenständigen Textblöcke dort stehen. Erst dieser Bestand wird gegen das Destillat
+gediffed. Die gedruckte Seitenzahl wird am Seitenrand **abgelesen**, nicht aus der Blattnummer
+berechnet.
 
 Nach der achten Runde für `lignum-lignatec` ist die Datenlage belastbar; danach ist über die
 Rücktaktung dieses Destillats neu zu entscheiden. **Run 38 hat dazu geliefert: sie ist NICHT

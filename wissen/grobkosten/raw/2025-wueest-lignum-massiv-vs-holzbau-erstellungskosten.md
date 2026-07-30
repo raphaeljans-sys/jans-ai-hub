@@ -89,8 +89,17 @@ Parität, kein Aufpreis), oberes Preissegment ≈ **+13 %**. Kein einheitlicher 
 
 ## Verbleibende offene Punkte
 
-- Diagramm-Ablesung bleibt eine Näherung (kein Original-Zahlenwert) — bei Gelegenheit gegen
-  `bauenmitholz.info` (Ergebnisplattform) verifizieren, falls dort Zahlenwerte publiziert sind.
+- Diagramm-Ablesung bleibt eine Näherung (kein Original-Zahlenwert). **Gegen `bauenmitholz.info`
+  verifiziert (30.07.2026, Nachtschicht):** Negativbefund. Die Startseite verweist auf den
+  Unterpunkt `bauenmitholz.info/baukostenrechner` — dort betreibt Wüest Partner eine
+  **interaktive App**, die 36 anonymisierte Fallbeispiele indexbereinigt in einer Grafik
+  vergleicht (keine statische Tabelle). Weder die Studie vom 25.09.2025 noch Zahlenwerte
+  (Median/Q1/Q3/Min/Max, CHF/m³ oder CHF/m²) sind auf der Seite selbst publiziert oder
+  verlinkt. Die Plattform liefert also **keine** Möglichkeit, die pixel-kalibrierten
+  ca.-Werte oben durch Originalzahlen zu ersetzen, ohne die App interaktiv zu bedienen
+  (ausserhalb des Scopes eines WebFetch-Abrufs) oder Lignum direkt zu kontaktieren
+  (`info@lignum.ch`, im App-Text als Kontaktweg genannt). Die ca.-Werte bleiben damit der
+  beste verfügbare Stand dieser KB für die Bauweise-Achse.
 - HNF-Bezug fehlt in dieser Quelle (nur GV/GF abgebildet) — keine direkte Ergänzung zur
   bestehenden HNF-Tabelle möglich.
 - "Oberes/unteres Preissegment" ist keine Standard-Klassifikation (einfach/mittel/gehoben) im

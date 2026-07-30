@@ -1,5 +1,16 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-30 (Mac Mini Nachtschicht, 23:31) — bauenmitholz.info geprueft: Negativbefund, offener Punkt geschlossen
+Den vom fruehreren Lauf desselben Tages offen gelassenen Verifikationspunkt geprueft
+(Diagramm-Ablesung Folie 5 gegen `bauenmitholz.info` verifizieren, falls dort Zahlenwerte
+publiziert sind). Ergebnis: Nullbefund — die Seite (inkl. `/baukostenrechner`) publiziert keine
+Tabellen, nur eine interaktive Wuest-Partner-App mit 36 anonymisierten Fallbeispielen als
+Grafik. Studie und Zahlenwerte sind dort nicht verlinkt. Die pixel-kalibrierten ca.-Werte
+bleiben damit der beste verfuegbare Stand; keine Kennwert-Aenderung. Geaendert:
+`raw/2025-wueest-lignum-massiv-vs-holzbau-erstellungskosten.md` (Abschnitt „Verbleibende offene
+Punkte" ergaenzt), `wiki/QUESTIONS.md`. Ein WebFetch, keine Fan-outs. Kein Versand, keine
+Publikation, keine Buchung.
+
 ## 2026-07-30 (Mac Mini Nachtschicht) — Bring-Schuld aus Run 20 eingeloest: Holzbau-Zuschlag kalibriert
 Wueest Partner/Lignum/BAFU-PDF selbst gezogen (minergie.ch), Textlayer + Diagramm (Folie 5,
 300-dpi-Rasterung, Pixel-Kalibrierung der Gitterlinien) ausgewertet. Zwei Ergebnisse: (1) der von
