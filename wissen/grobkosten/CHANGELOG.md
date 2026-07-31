@@ -1,5 +1,19 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-31 (Mac Mini Nachtschicht) — Brandschutz-Mehraufwand RF1: Mengen aus Tab. 522-1 erfasst, CHF-Kennwert bleibt offen
+Bring-Schuld aus `normen` Run 30–33/38 (QUESTIONS 2026-07-30c) teilweise eingelöst. Neuer
+Abschnitt «Brandschutz-Mehraufwand RF1» in `wiki/kennwerte.md`: Tab. 522-1
+(`wissen/normen/destillate/lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md`, Kap.
+5.3) liefert die belegte Mehrmenge Estrich fuer RF1-Decken (+30 mm K30-RF1, +50 mm K60-RF1);
+Tab. 340-1 (`.../lignum-4-2-anschluesse-feuerwiderstand.md`, Kap. 3.4) liefert nur
+Mindestguetenklassen, die im Holzbau ohnehin marktueblich sind, damit voraussichtlich ohne
+eigenen Kostentreiber. Kein CHF/m²-Kennwert gesetzt: Einheitspreise Zementestrich (CHF/m²/cm)
+und K30-RF1/K60-RF1-Bekleidung (CHF/m²) in `wissen/bauprodukte/` und
+`skills/kostenschaetzung/referenzen/` gesucht, nicht gefunden. Naechster Schritt in
+`wiki/QUESTIONS.md` 2026-07-31 als konkreter Beschaffungsauftrag (reales Devis/Offerte
+destillieren) vermerkt statt eines geschaetzten Satzes. Geaendert: `wiki/kennwerte.md`,
+`wiki/QUESTIONS.md`. Kein Versand, keine Publikation, kein Fan-out.
+
 ## 2026-07-30 (Wissens-Chef Run 21, Cross-KB) — Konsistenz-Beleg des Holzbau-Zuschlags richtiggestellt, Anwendungsgrenze Brandschutz ergaenzt
 - **[richtigstellung] Der Satz «Konsistenz-Check gegen den eigenen MFH-Seed und den bestehenden
   HNF-Wuest-Spread: kein Widerspruch» im Eintrag «2026-07-30 (Mac Mini Nachtschicht) —

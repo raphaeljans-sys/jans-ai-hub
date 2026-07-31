@@ -240,6 +240,31 @@ im konkreten Fall besteht, führt nicht diese KB: massgebend sind die VKF-Brands
 Ersetzt die pauschale "Holz +5–15 %"-Zeile für die Bauweisen-Frage; der Ausbaustandard-Zuschlag
 (Minergie-P) bleibt unabhängig davon offen/unbelegt.
 
+**Brandschutz-Mehraufwand RF1, Mengen erfasst, CHF-Kennwert noch offen (Bring-Schuld aus
+`normen` Run 30–33/38 teilweise eingelöst, 31.07.2026):** Die beiden Lignum-Tabellen aus der
+Anwendungsgrenze oben liefern unterschiedlich weit tragfähige Grössen:
+
+- **Tab. 522-1 (Kap. 5.2.2) — mengenmässig konkret:** Decken RF1 verlangen zusätzlich zur
+  Brandschutzbekleidung (K30-RF1 bzw. K60-RF1) einen dickeren Estrich als bei der
+  freien, nicht-RF1-Materialwahl — **+30 mm bei K30-RF1, +50 mm bei K60-RF1**
+  (`wissen/normen/destillate/lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md`,
+  Kap. 5.3). Das ist eine belegte Mehrmenge Zementestrich pro m² Deckenfläche gegenüber dem
+  Standard-Kennwert dieser KB, aber **kein CHF-Betrag**: diese KB führt keinen CHF/m²/cm-Satz
+  für Zementestrich und keinen CHF/m²-Satz für K30-RF1/K60-RF1-Bekleidungen (Recherche in
+  `wissen/bauprodukte/` und `skills/kostenschaetzung/referenzen/` ohne Treffer, 31.07.2026).
+- **Tab. 340-1 (Kap. 3.4) — voraussichtlich kostenneutral:** Die dort verlangten
+  Mindestfestigkeitsklassen/-rohdichten (Vollholz/Brettstapel C24, Brettschichtholz GL24k,
+  OSB ρk ≥ 550 kg/m³ usw.) entsprechen den im Holzbau ohnehin marktüblichen Standardgüten
+  — kein erkennbarer eigener Kostentreiber gegenüber dem bereits kalibrierten
+  Holzbau-Zuschlag oben. Nicht abschliessend geprüft, ob eine Bauaufgabe eine höhere Güte
+  verlangt, als ohnehin verbaut würde.
+- **Offen bleibt:** ein CHF/m²-Kennwert für BKP 214/271 (Mehrestrich + RF1-Bekleidung)
+  braucht einen Einheitspreis Zementestrich (CHF/m²/cm) und einen Einheitspreis
+  K30-RF1/K60-RF1-Bekleidung (CHF/m², z. B. Gipsplatten-Systemwand), die in keiner
+  Hub-Quelle vorliegen. Nächster Schritt: bei Gelegenheit ein reales Devis/eine
+  Unternehmerofferte mit einer dieser Positionen destillieren (`ausschreibung`-Erzeugnisse
+  oder `bauprodukte`-Korpus), statt einen Satz zu schätzen.
+
 ## Healthcare / Spezialnutzung
 
 Für Spital, Klinik, Alters-/Pflegeheim, Reha, Praxis NICHT diese m³-Werte verwenden —

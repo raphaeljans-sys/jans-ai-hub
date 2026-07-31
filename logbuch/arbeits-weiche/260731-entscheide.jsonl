@@ -8,3 +8,4 @@
 {"ts":"2026-07-31T01:28:39+0200","name":"normen-training-nacht","station_eingabe":"macbook","ziel":"mini","modus":"takt","mini_gb":"9.6","mini_druck":"1","macbook_gb":"3.0","macbook_druck":"2","grund":"mini-frei (9.6 GB, Druck 1)"}
 {"ts":"2026-07-31T01:28:55+0200","name":"normen-training-nacht","station_eingabe":"macbook","ziel":"mini","modus":"takt","mini_gb":"9.7","mini_druck":"1","macbook_gb":"3.1","macbook_druck":"2","grund":"mini-frei (9.7 GB, Druck 1)"}
 {"ts":"2026-07-31T02:30:16+0200","name":"nachtschicht","station_eingabe":"mini","ziel":"mini","modus":"takt","mini_gb":"9.3","mini_druck":"1","macbook_gb":"3.9","macbook_druck":"1","grund":"mini-frei (9.3 GB, Druck 1)"}
+{"ts":"2026-07-31T05:30:16+0200","name":"nachtschicht","station_eingabe":"mini","ziel":"mini","modus":"takt","mini_gb":"9.4","mini_druck":"1","macbook_gb":"3.7","macbook_druck":"1","grund":"mini-frei (9.4 GB, Druck 1)"}

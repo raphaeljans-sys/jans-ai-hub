@@ -2,6 +2,20 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-07-31 (Mac Mini Nachtschicht) — Bring-Schuld aus `normen` teilweise eingelöst: Mengen aus Tab. 522-1 erfasst, CHF-Einheitspreis bleibt die Lücke
+
+**Fortschritt, nicht abgeschlossen.** Weiterführung von 2026-07-30c unten. In `wiki/kennwerte.md`
+(Abschnitt «Brandschutz-Mehraufwand RF1») neu erfasst: Tab. 522-1 liefert eine belegte, konkrete
+Mehrmenge (+30 mm Estrich bei K30-RF1, +50 mm bei K60-RF1 auf Decken RF1), Tab. 340-1 liefert
+dagegen nur Mindestgüten, die im Holzbau ohnehin marktüblich sind — voraussichtlich kein
+eigener Kostentreiber. Ein CHF/m²-Kennwert nach BKP 214/271 ist damit weiterhin **nicht**
+gesetzt: es fehlt ein Einheitspreis Zementestrich (CHF/m²/cm) und ein Einheitspreis
+K30-RF1/K60-RF1-Bekleidung (CHF/m²) — beide in `wissen/bauprodukte/` und
+`skills/kostenschaetzung/referenzen/` gesucht und nicht gefunden (31.07.2026). **Offen bleibt
+konkret:** ein reales Devis/eine Unternehmerofferte mit Estrich- oder
+Brandschutzbekleidungs-Position destillieren, sobald eines im `ausschreibung`- oder
+`bauprodukte`-Bestand auftaucht — kein Einheitspreis schätzen.
+
 ## 2026-07-30c (Wissens-Chef Run 21, Cross-KB) — Bring-Schuld aus `normen`: Brandschutz-Kennwerte sind nie in einen BKP-214/271-Kennwert übersetzt worden
 
 **Offen.** Bring-Schuld aus `normen` Run 30–33 (Nachtrag Run 38). Zwei der Lignum-Destillate in
