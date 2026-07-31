@@ -299,3 +299,37 @@ Der vorbereitete Post-Brief (Ordner 05) ist damit hinfaellig (Online-Weg gewaehl
   Notariats-Prioritaet als eigene Zeile nachgetragen.
   **Status-Mail an rj@ gesendet** (echte Phasenaenderung; Inhalt bewusst nicht das
   Radar-Referat, sondern der eine offene Schritt Notariat + die Terminrechnung).
+
+- **31.07.2026 (Monitor-Lauf, Freitag, 07:47): kein neuer Eingang — die UBS-Kette laeuft
+  plangemaess; der einzige neue Befund liegt im eigenen Entwurfsordner.** Sweep ueber alle
+  Konten (Apple Mail `mail@raphaeljans.ch` als Primaerkanal, `rj@` Exchange,
+  `raphaeljans@outlook.com`, iCloud), Vollsweep 30 h ueber Posteingang/Gesendet plus
+  Zielsuche 4 Tage ueber **alle** Mailboxen inkl. Entwuerfe/Geloescht/Junk auf
+  UBS/Jeckelmann/Notariat/notariate-zh.ch/REGIX/Beurkundung/Kapital/Handelsregister.
+  **Ergebnis: nichts Neues.** Juengster UBS-Beleg bleibt Jeckelmann 29.07. 16:55; keine IBAN,
+  keine Kapitalbescheinigung, keine Antwort des Notariats (juengster Eingang von
+  `notariate-zh.ch` unveraendert Mathies 22.06.). Das ist erwartungsgemaess: gerechnet ab der
+  Einreichung in der Geschaeftsstelle Wiedikon (29.07.) ist heute **Tag 2 der drei
+  Arbeitstage** bis zur IBAN; die Nachfass-Schwelle bleibt der **05.08.**
+  **Befund (neu, weder im Radar 06:55 noch im Hub-Chef-Briefing 00:43 enthalten):
+  Verwechslungsgefahr im Entwurfsordner.** Der Hub-Chef hat den ueberholten Notariats-Entwurf
+  in der Nacht neu geschrieben (Aktion A5, 31.07. 00:33–00:36), den alten aber **nicht
+  ersetzt**. In `rj@`/Entwuerfe liegen jetzt **fuenf** Fassungen derselben Mail, am Beleg
+  geprueft (Zeichenzahl und Anhangsnamen je Entwurf ausgelesen):
+  (a) **31.07. 00:36:20 — die richtige**, 3254 Zeichen, Terminbitte «ab ca. 10.08.26», beide
+  Anhaenge `260627_Gruendungsurkunde_Raphael-Jans-AG_Entwurf.docx` und
+  `260627_Statuten_Raphael-Jans-AG.docx`;
+  (b) 31.07. 00:36:14 — identische Dublette;
+  (c) 31.07. 00:35:03 — **unvollstaendig, nur ein Anhang**;
+  (d) 31.07. 00:33:44 — Zwischenstand der Veredelungsrunde (3087 Zeichen);
+  (e) **18.07. 08:50 — die ueberholte Fassung** (2065 Zeichen): bittet um einen Termin «ab
+  Mitte oder Ende August», nennt die Einzahlung «Mitte August» (beides aus der Zeit vor der
+  UBS-Freigabe vom 29.07.) und traegt die Anhaenge noch als `..._JANS-AG...docx`.
+  Geht (e) statt (a) raus, kostet das ein bis zwei Wochen Beurkundungsvorlauf — genau den
+  Engpass, den der Hub-Chef in der Nacht aufloesen wollte. Das Loeschen der vier ueberzaehligen
+  Entwuerfe ist **bewusst nicht** durch Claude erfolgt (Loeschen von Daten bleibt bei Raphael).
+  **Zweiter Hinweis, terminlich:** heute **10:00–11:00 der Kalendereintrag «UBS Termin
+  bestaetigt: Finanzierungen»** — die guenstigste Gelegenheit, den Stand des
+  Kapitaleinzahlungskontos direkt zu erfragen, statt bis zum 05.08. zu warten.
+  **Status-Mail an rj@ gesendet** (kurz, nur der Entwurfs-Befund und der UBS-Termin; die
+  Phasenlage selbst ist unveraendert und wurde nicht wiederholt). `fristen.md` nachgefuehrt.
