@@ -1,16 +1,16 @@
 # Stations-Status: macbook-pro
 
-Stand: 31.07.2026 04:09:09
+Stand: 31.07.2026 04:29:24
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 03:50)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
 - 16 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
-- 13 Datei(en): AR - 01 Projekte / 2414 THALWIL
+- 9 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 0ee7d807 sync: twin-mail-training: Batch 83, Luecken-Sweep rj@ November 2025 (2025-11-01 bis 2025-11-30)
+- fe322146 nas-selfcommit: 2 Datei(en) 2026-07-31 04:15
