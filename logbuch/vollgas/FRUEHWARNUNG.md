@@ -4,6 +4,107 @@ Still-by-default: pro Lauf ein datierter Einzeiler. Mail nur bei echtem Handlung
 Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante Grösse;
 «total» ist von billigem cache_read dominiert).
 
+## 2026-07-31 07:15 — STILL (keine Mail)
+
+Verbrauch teuer/total je Station (Mio), Messung 07:15, Duplikate über (message.id, requestId)
+ausgeschlossen:
+
+| Tag | MacBook Pro teuer | MacBook Pro total | Mac Mini teuer | Mac Mini total |
+|---|---|---|---|---|
+| 25.07. | 29.77 | 624.10 | 23.32 | 689.69 |
+| 26.07. | 0.00 | 0.00 | 0.00 | 0.00 |
+| 27.07. | 18.73 | 556.45 | 7.77 | 178.32 |
+| 28.07. | 8.35 | 191.59 | 2.16 | 53.74 |
+| 29.07. | 9.37 | 333.30 | 2.05 | 59.73 |
+| 30.07. | 12.15 | 430.38 | 3.93 | 73.22 |
+| 31.07. (bis 07:15) | 1.75 | 54.72 | 0.43 | 14.40 |
+
+Kombiniert teuer: 29.07. **11.42 Mio**, 30.07. **16.08 Mio**, 31.07. bis 07:15 **2.18 Mio**.
+Kriterium (b) nicht erfüllt: kein Tag über 35 Mio, keine zwei Folgetage über je 18 Mio.
+
+**Wichtigster Befund dieses Laufs — der Radar misst den Verbrauch um Faktor 2 bis 4 zu hoch,
+und die Ursache ist geklärt.** Der Radar-Eintrag von 04:57 nennt für den MacBook Pro 30.07.
+**57.92 Mio** teuer und 31.07. bis 04:57 bereits **25.61 Mio**; diese Messung weist für dieselbe
+Station **12.15** bzw. **1.75 Mio** aus. Die Differenz ist kein Zeitzonen- und kein
+Fenstereffekt, sondern die fehlende Deduplizierung: Claude Code schreibt **dieselbe API-Antwort
+mehrfach in die JSONL — je Content-Block eine Zeile, alle mit identischer `usage`**. Am eigenen
+Sitzungsprotokoll dieses Laufs nachgemessen: 13 eindeutige Antworten, davon 10 mit
+Mehrfachzeilen, Beispiel `msg_011CdZZoFBbSLmv84DbKbXxN` dreimal mit identischen Werten
+(2 input / 101'434 cache_creation / 343 output). Wer roh summiert, zählt dieselben Tokens zwei-
+bis viermal. Gegenprobe auf die Alternativerklärung: **0** Schlüssel kommen in mehr als einer
+Datei vor, es sind also keine Resume-Kopien, sondern Streaming-Zeilen derselben Antwort.
+Rohsummen ohne Dedup zum Vergleich: 30.07. UTC 32.22 Mio, lokal 26.58 Mio — auch damit bleibt
+der Radar-Wert unerreicht. Für den Radar: die 3x-Regel und die Kapazitätsbeurteilung dürfen
+nicht auf der rohen Summe stehen, sonst schlägt sie bei rund der Hälfte des tatsächlichen
+Verbrauchs Alarm. Der Befund entwarnt — Raphaels Kapazität ist deutlich weniger beansprucht,
+als die Radar-Reihe seit vier Tagen nahelegt.
+
+**Blockade-Status: SAUBER.** Strukturelle Prüfung (isApiErrorMessage / type=error /
+message.type=error / apiErrorStatus 429, jeweils in Verbindung mit einem Limit-Textmuster):
+**0 Ereignisse im 26-h-Fenster** auf beiden Stationen. Kein 5-Stunden-Limit, kein Wochen-Limit.
+Kriterien (a) und (c) nicht erfüllt.
+
+**Operative Briefings: ALLE ERREICHT.** `logbuch-radar` lief heute 06:5x bis 07:11 (189 Zeilen)
+und schliesst mit «Briefing gesendet»; inhaltlicher Kern war der Thalwiler Begleitbeschrieb, den
+Raphael am 30.07. 16:35 in der Fassung 260730 mit totem Recht (StrAV) versandt hatte.
+`hub-chef-taeglich` lief zuletzt 31.07. 01:07 (366 Zeilen) und ist sauber abgeschlossen; der
+reguläre 08:35-Slot war zum Messzeitpunkt noch nicht fällig. `mahnwesen-verzugscheck` (30.07.
+10:16) und `zahlungsabgleich-check` (30.07. 08:37) erreichten ihr Deliverable; letzterer weist
+offen aus, dass die Fan-out-Agenten `rechtschreibung` und `layout` mit API-Fehler 529 abbrachen
+und die Prüfung inline erfolgte. Kriterium (d) nicht erfüllt.
+
+**Radar-Herzschlag: LEBT.** Beide Signale frisch: jüngster RADAR.md-Eintrag **31.07. 04:57**
+(Dateistand 05:02), und eine Session mit dem Opener `vollgas-chef-radar` lief um **05:03**;
+davor 00:36 und 01:02, also im 4-h-Takt. Weit innerhalb der 12-h-Schwelle, Kriterium (e) nicht
+erfüllt.
+
+**Destillat-Aufsicht (fünfte Erhebung) — Ertrag bewegt sich, die Front kaum, und die
+Inventar-Nachführung hinkt den Artikeln hinterher:**
+- (a) Fortschritt: Sektionen 37/37, 214 Dateien inventarisiert, `--stand` weist **32 offene
+  Dateien** aus — exakt wie am 30.07. Marker **147 `[-]` · 33 `[ ]` · 22 `[t]` · 16 `[x]`**:
+  gegenüber gestern wanderte **eine Position von `[t]` auf `[x]`**. Dateistand des Inventars
+  **30.07. 13:34**, also seit 18 h unberührt, obwohl seither zwei Artikel entstanden sind. Die
+  beiden Nachtläufe haben geliefert, ohne das Inventar nachzuführen; die Front unterzeichnet
+  den tatsächlichen Fortschritt.
+- (b) Ertrag: **8 inhaltliche Artikel** (plus INDEX und QUESTIONS, zusammen 10 Dateien in
+  `wiki/`), alle `emerging`, **0 `established`**. Neu seit der letzten Erhebung sind
+  `terrazzo-kunststein-bodenbelaege.md` (30.07. 23:40) und `bkp-261-aufzuege.md` (31.07. 02:38).
+  **Zählweise klargestellt:** der 30.07.-Eintrag nannte «8 Artikel», zählte aber INDEX und
+  QUESTIONS mit; vergleichbar sind 6 Artikel am 30.07. gegen 8 heute. Künftig gilt die Zahl der
+  Artikel mit `status:`-Frontmatter.
+- (c) Delta-Null-Serie: **0.** Beide Läufe seit der letzten Erhebung haben geliefert (Terrazzo
+  aus 281 Bodenbeläge, Aufzüge-Artikel plus geschlossener QUESTIONS-Punkt 10 zur
+  VKF-BRL-23-15-Teilrevision samt Cross-KB-Rücklauf nach `normen`). **Der am 30.07. gemeldete
+  Nebenbefund verschärft sich: seit dem 28.07. ist kein `outputs/`-Report mehr geschrieben
+  worden** — jüngster bleibt `2026-07-28_destillat-lauf4-281-bodenbelaege.md`, das sind jetzt
+  drei produktive Läufe in Folge, die nur über CHANGELOG und Lauf-Journal dokumentiert sind. Für
+  den Radar: eine reine Report-Zählung würde hier drei Delta-Null-Läufe sehen und die
+  Rücktaktung auslösen, obwohl der Loop durchgehend geliefert hat.
+- (d) Stückkosten je Lauf aus dem Lauf-Journal: **30.07. 23:35 = 3.43 USD** für den
+  Terrazzo-Artikel, **31.07. 02:39 = 4.19 USD** für den Aufzüge-Artikel. Reihe seit Beginn der
+  Messung: 3.81 → 3.43 → 4.19 USD je Artikel, stabil.
+- Spec-Gate: `specs/bauprodukte-spec.md` liegt vor (28.07.). Kein Hänger.
+- Korpus-Queue: Korpus 1 `bauprodukte` in Arbeit, Korpora 2 bis 4 warten. Keine Meldung
+  «KORPUS-QUEUE KOMPLETT», Kriterium (g) nicht erfüllt.
+- Kriterium (f) nicht erfüllt: der Loop hat in den letzten 48 h Tokens verbraucht **und** zwei
+  Artikel plus eine Marker-Position geliefert.
+
+**Mittags-Slot 13:30 der Mini-Nachtschicht (befristeter Versuch seit 29.07., Tag 3 von 7):**
+am 30.07. hat er geliefert — Lauf-Journal `dispatch-versuch1` 13:36:05, rc=0, 3.70 USD, und der
+Inventar-Marker-Wechsel um 13:34 fällt genau in dieses Fenster. Das Lauf-Gate hat ihn **nie
+abgewiesen**: `logbuch/speicher/gate-Macmini.log` enthält für den Slot überhaupt keinen Eintrag
+(letzte vier Zeilen 28./29.07., zwei Freigaben `energie-training`, eine Abweisung eines
+Negativtests). Vollständige Bewertung wie vorgesehen nach einer Woche.
+
+**Speicher (vm_stat free+inactive+purgeable):** MacBook Pro **3.28 GB, Druckstufe 2**, Mac Mini
+**9.45 GB, Druckstufe 1**. Der MacBook ist gegenüber der Radar-Messung von 04:57 (3.61 GB,
+Stufe 1) eine Stufe hochgegangen. Kein Meldekriterium, aber der Wert, an dem das Lauf-Gate
+greifen würde.
+
+**Meldeentscheid: keine Mail.** Kein einziges der sieben Kriterien erfüllt, und der einzige
+Befund, der nach Handlungsbedarf aussah — die steigende Verbrauchsreihe des Radars — ist als
+Messfehler nachgewiesen und entwarnt. Letzte gesendete Mail bleibt **27.07.2026 21:45**.
+
 ## 2026-07-30 07:15 — STILL (keine Mail)
 
 Verbrauch teuer/total je Station (Mio), Messung 07:15:
