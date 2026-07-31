@@ -516,7 +516,13 @@ Schwelle (B2C vs. B2B/Amt) → [[QUESTIONS]] 260727d.
   und mit geschlossener «–»-Alternativfrage + «oder» + «Hintergrund der Anfrage:» die Behörde
   zur Wahl zwingen. Beide Sprechakte enden mit FG + Block **ohne Service-Satz** (das
   Begehren/die Frage ist das Schlusswort). Honorar als durchgerechnete Offerte nüchtern
-  beziffern (Tagespauschale, «exkl. MwSt.», Geltungsdauer), warm gerahmt.
+  beziffern (Tagespauschale, «exkl. MwSt.», Geltungsdauer), warm gerahmt. Bei der Weitergabe
+  einer **Behörden-Auflage an die Bauherrschaft** deren materiellen Wortlaut übernehmen statt
+  ihn zu paraphrasieren («zwingend in Holz, mit Kämpfer und Brüstungsfeld, und ohne farbiges
+  Sonnenschutzglas») und jeden Punkt seiner **namentlichen Amtsstelle** zuordnen (UGZ Energie
+  im Bau · UGZ Gebäudeschadstoffe · Denkmalpflege · Baukontrolle · Stadtpolizei · GSZ
+  Baumerhalt · Tiefbauamt). Bei einer **Korrektur-/Planlieferung** die Plan-Metadaten
+  mitführen und ausweisen («Das Zeichnungsdatum habe ich auf 14.12.2025 gesetzt»).
 - **Don't:** Fachjargon ohne Übersetzung gegenüber Nicht-Architekten; Normwerte/Kennwerte
   raten; Theorie ohne Bewilligungsrealität; Design-Referenzen erfinden (nur belegte/echt
   gekannte nennen); **Software-/Pipeline-Verhalten raten** (C4D-/FBX-Schritte nur, wo wirklich

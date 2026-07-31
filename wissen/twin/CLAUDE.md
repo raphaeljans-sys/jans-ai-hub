@@ -59,6 +59,12 @@ das, was er aus einem KI-Tool hineinkopiert hat.
 - Marker sind **operationalisierbar** formuliert (was konkret tun / lassen), nicht vage.
 - Widersprüche zwischen Facetten nicht glätten, sondern in [[QUESTIONS]] vermerken; der
   `twin-chef` löst sie kontextabhängig auf.
+- **Belegdaten neu immer als `TT.MM.JJJJ`** schreiben. Der Bestand ist gemischt (Stand
+  31.07.2026: 708 Belege `TT.MM.JJJJ`, 529 Belege ISO `JJJJ-MM-TT`) — **wer nach einem Beleg
+  sucht, muss deshalb IMMER beide Formate greppen.** Belegter Schaden: im Fidelity-Lauf
+  260731 ergab `grep -F "14.12.2025" wiki/` null Treffer, obwohl fünf Markerzeilen zu genau
+  dieser Mail als `2025-12-14` im Wiki standen; die Blindfassung wurde deshalb ohne die
+  vorhandenen Marker geschrieben. Ein Retrieval-Fehler, kein Wissenslücken-Befund.
 - Schweizer Hochdeutsch, echte Umlaute ä/ö/ü, ss statt ß (`umlaute-konvention.md`).
 
 ## Quellen

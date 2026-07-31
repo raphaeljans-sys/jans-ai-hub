@@ -65,7 +65,12 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   um» als förmliche Behörden-Eröffnung · «Beste(r) Grüsse/Gruss» als warm-neutrale Mittelstufe.
   Emoji 😊/«:)» nur warm-sozial privat, sparsam; Mundart nur rein privat-sozial, wenn das
   Gegenüber spiegelt. Formelle Alternativfrage als «–»-Bullets + «oder»; offene Aufzählung
-  «_ », Sub-Detail «➢» darunter; iterativer Zwischenstand «kurzes OK-Feedback», Schlussabgabe
+  «_ », Sub-Detail «➢» darunter — **Zwischenregel bis QUESTIONS 260730 #3 beantwortet ist: das
+  «_ » ist das Du-Zeichen; in der formell-dokumentierenden Sie-Mail trägt auch die schlichte
+  Aufzählung «–», und die Aufzählungsform wechselt dort blockweise mit der Logik des Blocks**
+  (nummerierte Liste für eine Abfolge einzureichender Schritte, «–»-Liste für einen Satz
+  gleichrangiger Koordinationspartner, Fliesstext für eine geltende Auflage/Bedingung);
+  iterativer Zwischenstand «kurzes OK-Feedback», Schlussabgabe
   «Bitte um Prüfung und Freigabe». Im Peer-Du erlaubt: «Gel»-Opener, saloppe Superlative,
   «haha», Wunschzeile als Schluss ohne Gruss. Will Raphael einen Rückruf, kann die eigene
   Handynummer als BETREFF dienen («Anrufen: <Nummer>»), registerübergreifend: im wärmsten

@@ -471,9 +471,31 @@ NICHT Unvollstaendigkeit der Altbatches, sondern das Gegenteil — der November 
 dichter gelesen als Oktober UND zusaetzlich von zwei Fidelity-Runden als Gold-Quelle benutzt. Das
 bestaetigt die Abgleich-Methodik ein weiteres Mal: ohne den Vorabgleich waeren hier mindestens 15
 Doppel-Destillate entstanden. November 2025 ist mit diesem Lauf **abgeschlossen**. **Naechstes
-Fenster:** `rj@` **Dezember 2025** (Batch 21/22 deckten 21.11.–08.12. bzw. 10.12.–12.01. ab, beide
-stichprobenartig «5 Volltexte»; Wiki-Belege existieren fuer 01.12., der Abgleich bleibt Pflicht),
-danach die Luecken Feb–Jun 2026.
+Fenster:** ~~`rj@` **Dezember 2025**~~ — **korrigiert durch Fidelity 260731, siehe Gold-Verbrauch
+unten: Dezember 2025 ist abgeraeumt.** Naechstes Fenster daher direkt die **Luecken Feb–Jun 2026**
+(bzw. der Modalitaetswechsel auf Archiv-Dokumente, Empfehlung 3 des Reports 260731).
+
+## Gold-Verbrauch der Fidelity-Laeufe (neu 31.07.2026)
+
+Bis hierhin verbuchte dieses Register nur die Batches des **Mail-Loops**. Die **Fidelity-Laeufe**
+verbrauchen dasselbe Material als Goldproben, ohne es einzutragen — dadurch schickte das Register
+den Mail-Loop zweimal in bereits abgeraeumte Fenster (November-Fall 30.07., Dezember-Fall 31.07.).
+Ab sofort traegt jeder Fidelity-Lauf seine benutzten Golds hier ein (Empfehlung 1, Report
+`outputs/2026-07-31_fidelity.md`).
+
+**`rj@` Dezember 2025 — vollstaendig, 13 Sent Items, 8 davon substanziell:**
+
+| Datum | Mail | verbraucht durch |
+|---|---|---|
+| 01.12.2025 | Bauentscheid Wartstrasse 8 an die Bauherrschaft (Sie) | Fidelity 260704, 260718, **260731 (Gold A + Echo-Audit negativ)** |
+| 14.12.2025 | STWEG-Korrektur an den Geschaefts-Du-Partner | Fidelity 260714b, **260731 (Gold B, Rueckruf-Test)** |
+| 15.12.2025 | Rechnung re-00077 · Terminplan-Weiterleitung | belegt in `stimme`/`arbeitsweise` |
+| 16.12.2025 | aktualisierte Rechnung (Service-Satz + Auftrags-Dank) | belegt in `stimme` |
+| 19.12.2025 | Offertenvorschlag «ruf mich an» · Design-Peer-Ping | belegt, 2 QUESTIONS |
+| 21.12.2025 | «Danke Peter.» | **einzige Luecke**, trivial (Ultrakurz-Quittung, Muster bereits belegt) |
+| 29.12.2025 | Grillmotor an Hersteller-Sammelpostfach (Sie) | Fidelity 260626, 260723 |
+
+Rest: Teams-Systemmail, 2x Unsubscribe, 1x Termin-Zusage = Rauschen.
 
 <!-- abgeloest durch Batch 83: **Naechstes
 Fenster:** `rj@` **November 2025** (Batch 18/19/20 deckten 07.11.–20.11. ebenfalls nur

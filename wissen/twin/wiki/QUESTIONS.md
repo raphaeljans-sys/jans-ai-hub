@@ -2391,3 +2391,42 @@ belegt, aber je an einer Kante, die Raphael in einem Satz härten könnte.
    *Warum: der Marker ist jetzt als Do/Don't-Klausel in [[haltung]] scharf formuliert; ohne diese
    Abgrenzung könnte der Zwilling eine für den Empfänger kränkende Bedingung wörtlich ausschreiben.*
    → [[haltung]], [[beziehungsregister]]
+
+## Runde 260731b (Fidelity-Review, Golds 01.12./14.12.2025 — Rückruf-Test)
+
+1. **Plan-Metadaten in der Korrektur-Liefermail — fester Punkt?** In der STWEG-Korrektur an den
+   Geschäfts-Du-Partner (14.12.2025) meldest Du als eigenen Bullet «Das Zeichnungsdatum habe ich
+   auf 14.12.2025 gesetzt» — also nicht nur die inhaltliche Korrektur, sondern die Nachführung des
+   Plankopfs. Ist das Ausweisen der Plan-Metadaten (Zeichnungsdatum, Index/Revision, Massstab) bei
+   **jeder** korrigierten Planlieferung Dein fester Punkt, oder war es hier dem Notariatstermin
+   geschuldet, weil der Plan am Folgetag unterzeichnet wurde?
+   *Warum: sehr billig nachzubauen und für die Empfängerseite prüfrelevant — der Zwilling liefert
+   bisher nur die inhaltliche Änderung und lässt den Plankopf stumm.* → [[fachsignatur]], [[arbeitsweise]]
+
+2. **Die Dringlichkeit des Gegenübers bewusst nicht aufgreifen?** Bopps Auftragsmail ist voller
+   Termindruck («Unterzeichnungstermin bereits am Montag», «wenn es irgendwie geht … morgen Abend
+   prüfen»). Deine Antwort erwähnt den Termin mit keinem Wort, sie liefert einfach am selben Tag.
+   Ist dieses Nicht-Zurückspiegeln bewusst (Termin ist gesetzt, ihn zu wiederholen wäre
+   Nullinformation) — oder gibt es Fälle, in denen Du die Frist doch ausdrücklich quittierst, etwa
+   wenn Du sie **nicht** halten kannst?
+   *Warum: vierfach belegte Twin-Drift, jetzt als Don't im Gehirn. Die Ausnahme fehlt: verpasst der
+   Zwilling die Quittung dort, wo sie nötig wäre, wirkt er unzuverlässig statt souverän.*
+   → [[arbeitsweise]], [[haltung]]
+
+3. **Sperr-Warnung direkt am Punkt statt am Schluss — Prinzip?** In der Bauentscheid-Mail an die
+   Bauherrschaft (01.12.2025) steht «Ohne diese Bestätigung bleiben alle Bauarbeiten blockiert»
+   **innerhalb** des Gebäudeschadstoff-Punktes, nicht als zusammenfassende Warnung am Ende der
+   Liste. Setzt Du eine Konsequenz-/Sperrwarnung immer unmittelbar an den Punkt, der sie auslöst
+   (und dann höchstens einmal pro Mail), oder gibt es die gebündelte Warnung am Schluss auch?
+   *Warum: der Zwilling hat die Warnung in diesem Lauf ans Ende gestellt UND dem falschen Punkt
+   zugeordnet — die Platzierungsregel entscheidet, ob die Bauherrschaft die richtige Auflage als
+   kritisch liest.* → [[arbeitsweise]], [[denken]]
+
+4. **Wechselt die Aufzählungsform innerhalb einer Sie-Verfahrensmail bewusst mit der Blocklogik?**
+   Unterfrage zu Runde 260730 #3, jetzt an einem präziseren Befund: in derselben Hofer-Mail
+   verwendest Du **drei** Formen — nummerierte Liste für die Abfolge einzureichender Schritte,
+   «–»-Liste für die gleichrangigen Koordinationspartner, reinen Fliesstext für die geltenden
+   Auflagen (Denkmalpflege, Bauausführung). Ist das Deine Logik (Abfolge → Nummer, Menge → Strich,
+   Bedingung → Fliesstext), oder hat sich das aus dem Schreibfluss ergeben?
+   *Warum: der Zwilling verlistet reflexhaft alles; wenn die Formwahl Bedeutung trägt, kostet ihn
+   das Verlisten die Aussage.* → [[stimme]], [[arbeitsweise]]

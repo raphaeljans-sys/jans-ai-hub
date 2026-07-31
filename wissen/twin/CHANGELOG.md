@@ -4,6 +4,27 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-31 05:50 — twin-fidelity-review (Golds 01.12./14.12.2025, Rueckruf-Test): Gesamt-Fidelity 75.**
+  Stimme 77 · Denken 73 · Haltung 74 · Beziehung 89 · Fachsignatur 62 · Arbeitsweise 75. Kernbefund ist
+  keine Wissens-, sondern eine **Abruf-Luecke mit mechanischer Ursache**: das Wiki fuehrt Belegdaten
+  gemischt (708x `TT.MM.JJJJ`, 529x ISO `JJJJ-MM-TT`), ein Datums-grep in einem Format verliert rund
+  43 % der Belege. Konkret: `grep -F "14.12.2025" wiki/` = 0 Treffer, waehrend fuenf Markerzeilen zu
+  genau dieser Mail als `2025-12-14` im Wiki stehen — die Blindfassung entstand deshalb ohne die
+  vorhandenen Marker. Angewandt wurden nur ~42 % der dokumentierten Marker beider Golds. Zweiter
+  Befund: **Dezember 2025 ist als Gold-Fenster erschoepft** (7 von 8 substanziellen Mails bereits
+  durch fruehere Fidelity-Laeufe verbraucht), das Register wusste es nicht, weil es nur die Batches
+  des Mail-Loops verbucht — Registerfehler zweiter Art in zwei Tagen. **Echo-Audit** der Hofer-Mail
+  vom 01.12.2025 (dreimal als Gold benutzt, auffaellig strukturiert): Ergebnis **negativ**, bleibt
+  Gold; entscheidendes Gegensignal sind die ueber vier Bloecke uneinheitlichen Listenformen, die ein
+  Modell vereinheitlicht haette. Geaendert: `wiki/arbeitsweise.md` (Don't «Schluss nicht ueber
+  Bedingung/Nutzen hinaus verlaengern» + «was das Gegenueber selbst gesetzt hat, nicht
+  zurueckspiegeln», vier Belege, plus Beleg-Abschnitt), `wiki/stimme.md` (befristete Zwischenregel
+  zur blockweise wechselnden Aufzaehlungsform im Sie-Register), `wiki/fachsignatur.md` (Auflage im
+  materiellen Wortlaut + namentliche Amtsstellen + Plan-Metadaten bei Korrekturlieferung),
+  `CLAUDE.md` (Schreibregel Belegdatum + Grep-Pflicht beide Formate), `raw/_INGESTED.md` (neuer
+  Abschnitt «Gold-Verbrauch der Fidelity-Laeufe» + naechstes Fenster korrigiert),
+  `wiki/QUESTIONS.md` (Runde 260731b, 4 Fragen), `rules/jans-dna.md` neu kompiliert. Report:
+  `outputs/2026-07-31_fidelity.md`.
 - **2026-07-31 03:49 — twin-mail-training Batch 83: Luecken-Sweep `rj@` November 2025
   (2025-11-01 bis 2025-11-30, 54 Sent Items vollstaendig gelistet).** Abgleich vor der Lektuere
   (Methodik Batch 80–82) zeigte den November als das bisher dichteste Fenster: Batch 18–21 PLUS
