@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 31.07.2026 13:11:59
+Stand: 31.07.2026 13:22:04
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 12:58)
@@ -19,4 +19,4 @@ Stand: 31.07.2026 13:11:59
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 041920e7 vollgas-radar 31.07. 12:58: FREI, kein Leerlauf (stiller Mittag planmaessig); P2-Verbrauchsdifferenz geklaert = Subagenten-Transcripts, Chronik 260731e
+- 801f34d8 nas-selfcommit: 2 Datei(en) 2026-07-31 13:15
