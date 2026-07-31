@@ -4,7 +4,7 @@ herausgeber: "Kantonale Feuerpolizei / GVZ Gebäudeversicherung Kanton Zürich, 
 ausgabe: "Merkblatt Nr. 30.05 «Ausbau von Kombi- und Grossraumbüros», Merkblatt vom 6. Juni 2006, rev. 15. März 2008, in Kraft seit 1. April 2008 (ersetzt das gleichnamige Merkblatt der Kantonalen Feuerpolizei vom 1. Juli 2006); Auflagevermerk März 08/3000, 16 Seiten (4 Textseiten + Anhang mit 10 bebilderten Beispielseiten)"
 gelesen: "alle 16 Seiten vollständig (echter Textlayer, Acrobat Distiller erzeugt, direkt gelesen, kein Rendering nötig)"
 datenstand: "15. März 2008 (in Kraft 1. April 2008)"
-status: "speculative (Run 40 destilliert, Verifikation ausstehend)"
+status: "established (Run 40, 31.07.2026: unabhaengiger Refuter, ~55 Einzelaussagen, VERDIKT BESTANDEN. EI60/EI90-Tabelle zellengenau bestaetigt, VKF-Zitat 26.03.2003 woertlich belegt. 2 Formalien ohne Sachfolge.)"
 last_updated: 2026-07-31
 links: [[REGISTER]]
 ---

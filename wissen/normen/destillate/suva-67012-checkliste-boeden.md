@@ -4,7 +4,7 @@ herausgeber: "Suva, Gesundheitsschutz, Postfach, 6002 Luzern"
 ausgabe: "Checkliste «Böden», Suva-Bestellnummer 67012.d — im Dokument selbst keine explizite Fassungs-/Auflagenbezeichnung auffindbar (anders als bei 67001.d); PDF-Metadaten weisen CreationDate 23.01.2006 und ModDate 08.08.2007 aus, was auf eine Fassung aus diesem Zeitraum hindeutet, aber nicht als amtliches Ausgabedatum zu verwenden ist (siehe offene Punkte)"
 gelesen: "alle 4 Seiten (Textlayer vorhanden, vollständig als PDF-Text gelesen; Seite 4 ist ein leeres Massnahmenplanungs-Formular)"
 datenstand: "unklar, vermutlich 2006/2007 gemäss PDF-Metadaten — siehe offene Punkte"
-status: "speculative (Run 40 destilliert, Verifikation ausstehend)"
+status: "established (Run 40, 31.07.2026: unabhaengiger Refuter, 30 Einzelaussagen, VERDIKT BESTANDEN. Alle 20 Fragen wortweise abgeglichen. Das fehlende Ausgabedatum ist am Original bestaetigt: im Fliesstext steht keines, PDF-Metadaten CreationDate 23.01.2006 / ModDate 08.08.2007 — bleibt offene Frage.)"
 last_updated: 2026-07-31
 links: [[REGISTER]]
 ---

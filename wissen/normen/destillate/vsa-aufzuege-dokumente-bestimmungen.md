@@ -4,7 +4,7 @@ herausgeber: "VSA – Verband Schweizerischer Aufzugsunternehmen (Association de
 ausgabe: "Webseiten-Ausdruck der VSA-Website, Rubrik «Normen & Gesetze» → «Dokumente und Bestimmungen»; © 2011 VSA, als PDF archiviert (Safari-Druck) am 13.07.2012"
 gelesen: "1 Seite vollständig (kompletter Webseiten-Inhalt, kein Textlayer-Rest, Auflösung ausreichend)"
 datenstand: "2011/2012 (keine spätere Fassung im Bestand; die referenzierten Einzelnormen sind eigenständig datiert, siehe Tabelle)"
-status: "speculative (Run 40 destilliert, Verifikation ausstehend)"
+status: "established (Run 40, 31.07.2026: unabhaengiger Refuter, ~24 Einzelaussagen, VERDIKT BESTANDEN. 3 Formalien, davon zwei Zuschreibungsfehler korrigiert (Klammerzusaetze, die die Quellseite nicht traegt).)"
 last_updated: 2026-07-31
 links: [[REGISTER]]
 ---

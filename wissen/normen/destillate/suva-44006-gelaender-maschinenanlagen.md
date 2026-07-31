@@ -4,7 +4,7 @@ herausgeber: "Suva, Schweizerische Unfallversicherungsanstalt, Arbeitssicherheit
 ausgabe: "Merkblatt, Suva-Bestellnummer 44006.d — 1. Auflage September 1972, Neufassung September 2006, 7., geänderte Auflage Februar 2007 (Druckauflage 62'000 bis 69'000 Exemplare)"
 gelesen: "alle 16 Seiten (Textlayer vorhanden, vollständig als PDF-Text gelesen, keine Bildlektüre nötig)"
 datenstand: "Februar 2007 (7., geänderte Auflage)"
-status: "speculative (Run 40 destilliert, Verifikation ausstehend)"
+status: "established (Run 40, 31.07.2026: unabhaengiger Refuter, 25 Einzelaussagen, VERDIKT BESTANDEN. Alle Masse und die Fanggitter-Formel Zahl fuer Zahl bestaetigt; 3 Formalien (Seitenzitate um eine Seite verschoben).)"
 last_updated: 2026-07-31
 links: [[REGISTER]]
 ---

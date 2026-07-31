@@ -4,7 +4,7 @@ herausgeber: "VSA – Verband Schweizerischer Aufzugsunternehmen (Verbands-Kurze
 ausgabe: "Webseiten-Ausdruck der VSA-Website, Rubrik «Bestehende Anlagen» → «SNEL»; © 2011 VSA, als PDF archiviert (Safari-Druck) am 13.07.2012. Zugrundeliegende Norm: SN-EN 81-80:2003, in der Schweiz publiziert 01.07.2004 als SIA-Norm 370.080"
 gelesen: "1 Seite vollständig"
 datenstand: "2011/2012 (VSA-Zusammenfassung); zugrundeliegende Norm CEN-Beschluss November 2003, CH-Publikation 01.07.2004"
-status: "speculative (Run 40 destilliert, Verifikation ausstehend)"
+status: "established (Run 40, 31.07.2026: unabhaengiger Refuter, ~14 Einzelaussagen, VERDIKT BESTANDEN. 2 Formalien, davon der Zuschreibungsfehler «signifikante» korrigiert.)"
 last_updated: 2026-07-31
 links: [[REGISTER]]
 ---

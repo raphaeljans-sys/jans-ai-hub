@@ -4,7 +4,7 @@ herausgeber: "Schweizerisch-Liechtensteinischer Gebäudetechnikverband (suissete
 ausgabe: "Richtlinie Dachentwässerung, Gültigkeit 1. Februar 2016, Version 1.0, 81 Seiten"
 gelesen: "ca. 30 von 81 Seiten gezielt geöffnet (Bild-Scan ohne nutzbaren Textlayer, als 150-dpi-Rendering visuell gelesen): Vorwort/Impressum, Inhaltsverzeichnis, Zweck/Geltungsbereich/Normengrundlagen (Fussleiste S. 2/3 bis 6/7), Kapitel 1 Allgemeine Grundsätze vollständig (1.1 Regenmenge, 1.2 Sicherheitsfaktoren, 1.3 Abflussbeiwerte, 1.4 Leitungen, 1.5 Zusätzliche Flächen, S. 8/9 bis 14/15), Kapitel 2 Flachdach in den Kernabschnitten (Dachränder S. 24/25, Druckhöhe/Abflusswerte S. 26/27 bis 34/35, Notüberlauf 2.7 vollständig inkl. Tabellen S. 36/37 bis 42/43, Aufteilung Entwässerung/Notentwässerung 2.8 vollständig S. 44/45), Kapitel 3 Rinnen (3.1 Allgemeine Grundsätze S. 54/55, 3.7 Notentwässerung S. 72/73). Nicht im Detail gelesen: 2.2-2.6/2.9-2.13 (Beispiele Flachdächer/Terrassen im Detail, Türschwellenanschlüsse, Schutz-/Nutzschicht, gedeckte Balkone, Dachkontrollen, Retention), Kapitel 3.2-3.6/3.8-3.9 (Rinnentabellen im Detail, Freibord, Stauhöhe, Dachkontrollen Rinnen), Kapitel 4 Sonderlösungen."
 datenstand: "1. Februar 2016 (Version 1.0)"
-status: "speculative (Run 40 destilliert, Verifikation ausstehend)"
+status: "established (Run 40, 31.07.2026: unabhaengiger Refuter, 22 Einzelaussagen, VERDIKT BESTANDEN — sauberer Nulldurchgang. Auch die nicht destillierten Kapitel wurden gezielt auf einschraenkende Aussagen geprueft: keine gefunden. Die Verhaeltnis-Aussagen zu SIA 271:2007 und SN EN 12056-3 stehen woertlich als Auszug-Kennzeichnung im Original.)"
 last_updated: 2026-07-31
 links: [[REGISTER]]
 ---

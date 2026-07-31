@@ -4,7 +4,7 @@ herausgeber: "Kantonale Feuerpolizei / GVZ Gebäudeversicherung Kanton Zürich, 
 ausgabe: "Merkblatt Nr. 30.17.3 «Rauch- und Wärmeabzugsanlagen (RWA) in Parkhäusern und Einstellräumen für Motorfahrzeuge», Merkblatt vom 28. Februar 2011, in Kraft seit 11. April 2011; Auflagevermerk April 11/5000, 12 Seiten (7 Textseiten + 5-seitiger Anhang mit Formeln/Beispielen)"
 gelesen: "alle 12 Seiten vollständig (echter Textlayer, Adobe InDesign/PDF Library erzeugt, direkt gelesen, kein Rendering nötig)"
 datenstand: "28. Februar 2011 (in Kraft 11. April 2011)"
-status: "speculative (Run 40 destilliert, Verifikation ausstehend)"
+status: "speculative (Run 40, 31.07.2026: unabhaengiger Refuter, ~45 Einzelaussagen, VERDIKT BEANSTANDET mit 6 zusammenhaengenden KERNBEFUNDEN. Die diagonal zweigeteilten Matrixzellen (oben blau = mit Sprinkleranlage, unten weiss = ohne) waren im Bereich 601-1200 m2 durchgehend falsch aufgeloest; Folge waere ein unnoetiger Nachweis N2/N3 gewesen, wo das Merkblatt GAR KEINEN RWA-Nachweis verlangt. Beide Matrizes 6.1 und 6.2 vom Hauptprozess am eigenen 220-dpi-Rendering der S. 6 zellenweise nachgeprueft und als Tabelle neu gefasst. Status bewusst NICHT gehoben: die Neufassung ist noch nicht durch eine unabhaengige zweite Runde gegangen.)"
 last_updated: 2026-07-31
 links: [[REGISTER]]
 ---

@@ -975,7 +975,13 @@ Zwei Kategorien werden regelmaessig verwechselt:
 
 **Ein Biwak mit 18 Schlafplaetzen faellt durch beide Raster:** unter 20 Personen ist es kein
 Beherbergungsbetrieb, aber die Schlafnutzung von 18 Personen ist keine «eine Wohnung» — also auch
-**kein Gebaeude mit geringen Abmessungen** und damit **kein QSS 1**. Das erklaert die **QSS 2** im
+**kein Gebaeude mit geringen Abmessungen**. **Praezisierung (Trockenlauf 2507 TKHL, 31.07.2026):**
+Der Wegfall dieser Kategorie schliesst den **vereinfachten Anforderungssatz der Arbeitshilfe
+1000-15de** aus (deren Ziff. 1 Abs. 1 bezeichnet sie ausdruecklich als «Auszug der wichtigsten, im
+Normalfall geltenden» Anforderungen) — er bestimmt die QSS **nicht unmittelbar**. Die QSS kommt aus
+der Tabelle BSR 11-15de Ziff. 3.3.1 (Nutzung x Gebaeudehoehe), die die Behoerde objektspezifisch
+anpassen darf. Beide Schwellen sind zu pruefen, aber nicht gleichzusetzen. Das erklaert die
+**QSS 2** im
 Konzept Schmitter (§4f): sie folgt entweder der vorsorglichen Einstufung als [c] (BSR 11-15de
 Ziff. 3.3.1: Beherbergung [b]/[c] bei geringer Hoehe = QSS 2) oder einer objektspezifischen
 Festlegung durch die Brandschutzbehoerde, die dieselbe Ziffer ausdruecklich zulaesst

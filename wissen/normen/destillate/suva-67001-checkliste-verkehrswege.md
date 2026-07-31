@@ -4,7 +4,7 @@ herausgeber: "Suva, Gesundheitsschutz, Postfach, 6002 Luzern"
 ausgabe: "Checkliste «Verkehrswege für Personen», Suva-Bestellnummer 67001.d — Überarbeitete Fassung, April 2007"
 gelesen: "alle 4 Seiten (Textlayer vorhanden, vollständig als PDF-Text gelesen; Seite 4 ist ein leeres Massnahmenplanungs-Formular)"
 datenstand: "April 2007 (überarbeitete Fassung)"
-status: "speculative (Run 40 destilliert, Verifikation ausstehend)"
+status: "established (Run 40, 31.07.2026: unabhaengiger Refuter, 26 Einzelaussagen, VERDIKT BESTANDEN. Alle 18 Fragen wortweise abgeglichen; 2 Formalien (Seitenzitate).)"
 last_updated: 2026-07-31
 links: [[REGISTER]]
 ---

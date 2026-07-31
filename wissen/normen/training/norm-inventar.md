@@ -1243,9 +1243,9 @@ GVZ-Kennwerte/Merkblaetter Brandschutz Kt. ZH — regionale Ergaenzung zur VKF-F
 
 | Status | Prio | Datei | Bemerkung |
 |---|---|---|---|
-| [ ] | P2 | `06_Richtlinien/GVZ/KFPM30-01MFHnbb.pdf` |  |
-| [ ] | P2 | `06_Richtlinien/GVZ/KPFM30-05Ausbau-von-Grossraumb.pdf` |  |
-| [ ] | P2 | `06_Richtlinien/GVZ/M30-17-3_RWA-Parkhaus.pdf` |  |
+| [x] 260731 | P2 | `06_Richtlinien/GVZ/KFPM30-01MFHnbb.pdf` | Run 40 → `destillate/gvz-mfh-nicht-brennbare-bauteile.md` (Merkblatt Nr. 30.01, 15.02.2005, in Kraft 28.02.2005). Refuter BESTANDEN (~50 Aussagen) |
+| [x] 260731 | P2 | `06_Richtlinien/GVZ/KPFM30-05Ausbau-von-Grossraumb.pdf` | Run 40 → `destillate/gvz-ausbau-kombi-grossraumbueros.md` (Merkblatt Nr. 30.05, rev. 15.03.2008, in Kraft 01.04.2008). Refuter BESTANDEN (~55 Aussagen) |
+| [~] 260731 | P2 | `06_Richtlinien/GVZ/M30-17-3_RWA-Parkhaus.pdf` | Run 40 → `destillate/gvz-rwa-parkhaus-einstellraum.md` (Merkblatt Nr. 30.17.3, 28.02.2011). Refuter **BEANSTANDET**, 6 Kernbefunde: die diagonal zweigeteilten Matrixzellen (blau = mit Sprinkler) waren bei 601-1200 m2 falsch aufgeloest. Matrizes 6.1/6.2 vom Hauptprozess am Original neu gefasst; Status bleibt `speculative` bis zur zweiten Runde |
 
 **`06_Richtlinien/Suva`** — 4 PDF, P2
 
@@ -1253,10 +1253,10 @@ Suva-Publikationen Arbeitssicherheit; Titel/Nummer am Titelblatt ermitteln (Date
 
 | Status | Prio | Datei | Bemerkung |
 |---|---|---|---|
-| [ ] | P2 | `06_Richtlinien/Suva/44006_d.pdf` |  |
-| [ ] | P2 | `06_Richtlinien/Suva/44066_D.pdf` |  |
-| [ ] | P2 | `06_Richtlinien/Suva/67001_D.pdf` |  |
-| [ ] | P2 | `06_Richtlinien/Suva/67012_d.pdf` |  |
+| [x] 260731 | P2 | `06_Richtlinien/Suva/44006_d.pdf` | Run 40 → `destillate/suva-44006-gelaender-maschinenanlagen.md` («Gelaender an ortsfesten Zugaengen zu maschinellen Anlagen», 7. Auflage Februar 2007). Refuter BESTANDEN (25 Aussagen) |
+| [x] 260731 | P2 | `06_Richtlinien/Suva/44066_D.pdf` | Run 40 → `destillate/suva-44066-arbeiten-auf-daechern.md` («Arbeiten auf Daechern», ueberarbeitete Ausgabe Februar 2015). Refuter beanstandet, 2 Kernbefunde korrigiert (Gradgrenze <= 10 Grad; Grundsatzliste Kunststoff-Oblichter inkl. EN 795 ab 3,0 m) |
+| [x] 260731 | P2 | `06_Richtlinien/Suva/67001_D.pdf` | Run 40 → `destillate/suva-67001-checkliste-verkehrswege.md` (Checkliste, ueberarbeitete Fassung April 2007). Refuter BESTANDEN (26 Aussagen, alle 18 Fragen wortweise) |
+| [x] 260731 | P2 | `06_Richtlinien/Suva/67012_d.pdf` | Run 40 → `destillate/suva-67012-checkliste-boeden.md` (Checkliste Boeden). Refuter BESTANDEN (30 Aussagen). **Ohne Ausgabedatum im Fliesstext** — am Original bestaetigt, bleibt offene Frage |
 
 **`06_Richtlinien/SWKI`** — 1 PDF, P2
 
@@ -1264,7 +1264,7 @@ SWKI-Richtlinie VA 103-1 Lueftung Parkhaeuser — ergaenzt VKF-BRL 25-15.
 
 | Status | Prio | Datei | Bemerkung |
 |---|---|---|---|
-| [ ] | P2 | `06_Richtlinien/SWKI/SWKI VA 103-1 Lüftungsanlagen für Parkhäuser.pdf` |  |
+| [~] 260731 | P2 | `06_Richtlinien/SWKI/SWKI VA 103-1 Lüftungsanlagen für Parkhäuser.pdf` | Run 40 → `destillate/swki-va103-01-2017.md` (SWKI VA103-01:2017, Erstausgabe April 2017, 110 S.). Erfuellt Auftrag **N-R21-1**. Refuter **BEANSTANDET**, 5 Kernbefunde; drei am Original korrigiert (Anwendungsbereich NUR Mittel-/Grossgaragen ab 100 m2, Garagentypen nach Flaeche, 25-Prozent-Definition aus BSR 15-15). Nur ~45 von 110 Seiten gelesen → Status `speculative` |
 
 **`06_Richtlinien/Suissetec`** — 2 PDF, P2
 
@@ -1272,8 +1272,8 @@ Dachentwaesserung — ergaenzt SIA 271. Die zwei Dateien sind DASSELBE Dokument 
 
 | Status | Prio | Datei | Bemerkung |
 |---|---|---|---|
-| [ ] | P2 | `06_Richtlinien/Suissetec/Suissetec Richtlinie Dachentwässerung.pdf` |  |
-| [ ] | P2 | `06_Richtlinien/Suissetec/Suissetec Richtlinie Dachentwässerung_low.pdf` |  |
+| [x] 260731 | P2 | `06_Richtlinien/Suissetec/Suissetec Richtlinie Dachentwässerung.pdf` | Run 40 → `destillate/suissetec-dachentwaesserung-2016.md` (Version 1.0, gueltig ab 01.02.2016, 81 S.). Refuter BESTANDEN, **sauberer Nulldurchgang** (22 Aussagen) |
+| [-] 260731 | P2 | `06_Richtlinien/Suissetec/Suissetec Richtlinie Dachentwässerung_low.pdf` | **Dublette** — dasselbe Dokument in niedrigerer Aufloesung. MD5 verschieden, aber inhaltlich identisch: gleiche Seitenzahl (81), gleiche Seitenmasse, identisches CreationDate (11.11.2016 15:28:39 CET), sichtbar staerkere JPEG-Artefakte. Nicht destilliert |
 
 **`06_Richtlinien/VSA`** — 3 PDF, P2
 

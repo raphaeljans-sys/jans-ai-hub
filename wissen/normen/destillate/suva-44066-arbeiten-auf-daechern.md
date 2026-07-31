@@ -4,7 +4,7 @@ herausgeber: "Suva, Gesundheitsschutz, Postfach, 6002 Luzern"
 ausgabe: "Broschüre «Arbeiten auf Dächern — So bleiben Sie sicher oben», Suva-Bestellnummer 44066.d — Erstausgabe Oktober 1998, überarbeitete Ausgabe Februar 2015"
 gelesen: "alle 20 Seiten (Textlayer vorhanden, vollständig als PDF-Text gelesen, keine Bildlektüre nötig)"
 datenstand: "Februar 2015 (überarbeitete Ausgabe)"
-status: "speculative (Run 40 destilliert, Verifikation ausstehend)"
+status: "established (Run 40, 31.07.2026: unabhaengiger Refuter, ~30 Einzelaussagen, VERDIKT BEANSTANDET mit 2 Kernbefunden — beide korrigiert und am Original nachgeprueft: (1) Gradgrenze Flachdaecher 0 <= alpha <= 10 Grad statt < 10 Grad (Tab. 2, S. 7); (2) die Grundsatzliste fuer Lichtbaender/Lichtkuppeln aus Kunststoff (Ziff. 4.3, S. 16) fehlte ganz, inkl. der eigenen Anforderung Anschlageinrichtungen nach EN 795 ab 3,0 m Absturzhoehe beim Unterhalt im geoeffneten Zustand.)"
 last_updated: 2026-07-31
 links: [[REGISTER]]
 ---

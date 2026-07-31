@@ -191,7 +191,7 @@ Alles, was die Figur bestimmt (Anzahl und Lage der Fluchtwege, Treppengeometrie,
 Grenzen, Raum-ueber-Raum-Situationen, Zugang der Einsatzkraefte), muss **vor dem ersten Grundriss**
 geklaert sein — nachtraeglich kostet es das Projekt.
 
-### Stufe 0 — Nutzungsweiche (sieben Fragen, vor dem ersten Grundriss)
+### Stufe 0 — Nutzungsweiche (acht Fragen, vor dem ersten Grundriss)
 
 1. **Nutzungskategorie** nach Brandschutznorm 1-15de Art. 13 Abs. 2 — welche, und wird der
    Schwellenwert **tatsaechlich** erreicht? Personen/Plaetze aus dem Raumprogramm zaehlen, nicht die
@@ -199,11 +199,14 @@ geklaert sein — nachtraeglich kostet es das Projekt.
 2. **Gebaeudeeinstufung** — geringer / mittlerer Hoehe / Hochhaus, Anzahl Geschosse, Geschossflaeche.
 3. **QSS-Stufe** (BSR 11-15) — bestimmt, ob ein Brandschutzplaner ins Wettbewerbsteam gehoert und ob
    sein Honorar (BKP 298.5) in die Kostenschaetzung einzurechnen ist. **Immer ZWEI Schwellen pruefen,
-   nicht eine:** die Personenzahl entscheidet ueber die Nutzungskategorie (20 Personen), die
-   Schlafnutzung ueber die Gebaeudekategorie — «Gebaeude mit geringen Abmessungen» (Tor zu QSS 1)
-   setzt «keine Nutzung fuer schlafende Personen ausser einer Wohnung» voraus (BSN 1-15de Art. 13
-   Abs. 3 lit. d). Ein Uebernachtungsbau unter 20 Personen faellt durch beide Raster und landet
-   trotz geringer Groesse bei QSS 2. Details: KB-Wegweiser §4f.3 lit. a.
+   nicht eine:** die **Personenzahl** entscheidet ueber die Nutzungskategorie (20 Personen), die
+   **Nutzungsart** ueber die Gebaeudekategorie. «Gebaeude mit geringen Abmessungen» (BSN 1-15de
+   Art. 13 Abs. 3 lit. d) setzt unter anderem «keine Nutzung fuer schlafende Personen ausser einer
+   Wohnung» und «keine Nutzung als Kinderkrippe» voraus — faellt das Projekt aus dieser Kategorie,
+   ist der **vereinfachte Anforderungssatz der Arbeitshilfe 1000-15de nicht anwendbar** und es gilt
+   der volle Richtlinien-Satz. Die **QSS selbst** kommt aus der Tabelle BSR 11-15de Ziff. 3.3.1
+   (Nutzung x Gebaeudehoehe) und ist objektspezifisch durch die Brandschutzbehoerde anpassbar — die
+   beiden Schwellen sind also zu trennen, nicht gleichzusetzen. Details: KB-Wegweiser §4f.3 lit. a.
 4. **Fluchtwege** — einer oder zwei? Ist der Weg **ueber einen angrenzenden Raum** zulaessig, und was
    zaehlt als angrenzender Raum? (Toiletten und Putzraeume sind untergeordnete Raeume und zaehlen
    dabei NICHT — sie duerfen den zweiten Weg nicht ersetzen.)
@@ -215,6 +218,16 @@ geklaert sein — nachtraeglich kostet es das Projekt.
    nicht erschlossenen Bauten faellt das ganze abwehrende Konzept weg; dann traegt die
    **Selbstrettung** die Personensicherheit. Das ist ein Konzeptthema fuer den Erlaeuterungsbericht,
    kein Detail.
+8. **Brandschutzabstand zu Nachbarbauten** (BSR 15-15de Ziff. 2.2 Abs. 2) — **5 m**, wenn die
+   aeusserste Schicht **beider** Aussenwandkonstruktionen aus Baustoffen der **RF1** besteht;
+   **7.5 m**, wenn **eine** der beiden brennbar ist; **10 m**, wenn **beide** brennbar sind. Gemessen
+   zwischen den Fassaden, Auskragungen ueber 1 m vergroessern den Abstand (Ziff. 2.1);
+   Ersatzmassnahmen bei Unterschreitung siehe Ziff. 2.4. **Das ist die am staerksten
+   figurbestimmende Groesse ueberhaupt** — sie koppelt die **Materialwahl direkt an die Stellung des
+   Baukoerpers**: eine Holzfassade kostet gegenueber einer RF1-Fassade 5 m Abstand. Auf Arealen mit
+   Bestandsbauten (Schulanlagen, Werkhoefe, Campus) ist der Brandschutzabstand oft die **einzige**
+   massgebende Abstandsregel, weil Grenz- und Gebaeudeabstaende gegenueber Bauten desselben
+   Eigentuemers entfallen. Vor der ersten Setzung klaeren, nicht danach.
 
 ### Stufe 1 — Programm-Audit (Widerspruchspruefung, immer durchfuehren)
 
@@ -227,7 +240,15 @@ erreicht — und daraus werden Auflagen abgeleitet, die rechtlich nicht greifen.
 2. Schwellenwert gegen das verbindliche Raumprogramm rechnen.
 3. Fragebeantwortung gegenlesen: oft raeumt der Auslober den Fehler dort ein, ohne die daraus
    abgeleitete Auflage zurueckzunehmen.
-4. Bei Widerspruch: **Frageperiode nutzen** — praezise, geschlossene Frage stellen. Ist die Frist
+4. **Wenn das Programm gar nichts sagt** (der zweite Normalfall, haeufiger als der Widerspruch):
+   Es gibt keine Vorgabe, die man erfuellen oder bestreiten koennte — dann **stuft der Verfasser
+   selbst ein** und macht die Einstufung im Erlaeuterungstext als **Annahme** kenntlich (Kategorie,
+   Artikel, Gebaeudeeinstufung, QSS). Ein Programm, das nur pauschal auf «Brandschutzvorschriften,
+   bsvonline.ch» verweist, hat die Einstufung an die Teilnehmenden delegiert, ohne es zu sagen.
+   Achtung auf Einzelvorgaben im Raumprogramm, die eine Einstufung stillschweigend voraussetzen
+   (z. B. «Tueren muessen im Betrieb offen gehalten werden (Brandschutz)» — das impliziert
+   Brandschutzabschluesse mit Feststellanlage und damit einen Brandabschnitt an dieser Stelle).
+5. Bei Widerspruch: **Frageperiode nutzen** — praezise, geschlossene Frage stellen. Ist die Frist
    verstrichen, gilt: die **Programmvorgabe ist Wettbewerbsbedingung** (Vorpruefung prueft dagegen),
    die **Norm ist Recht**. Also die strengere der beiden erfuellen und im Erlaeuterungstext in einem
    Satz benennen, dass und warum man sie erfuellt. Nie stillschweigend die mildere waehlen.

@@ -4,7 +4,7 @@ herausgeber: "Kantonale Feuerpolizei / GVZ Gebäudeversicherung Kanton Zürich, 
 ausgabe: "Merkblatt Nr. 30.01 «Mehrfamilienhäuser MFH aus nicht brennbaren Bauteilen», Merkblatt vom 15. Februar 2005, in Kraft seit 28. Februar 2005 (ersetzt das Merkblatt «Mehrfamilienhäuser» M 2010 vom 1. November 1994); Auflagevermerk Feb.05/7500, 6 Seiten"
 gelesen: "alle 6 Seiten vollständig (echter Textlayer, PDF von Adobe InDesign/PDF Library erzeugt, direkt gelesen, kein Rendering nötig)"
 datenstand: "15. Februar 2005 (in Kraft 28. Februar 2005)"
-status: "speculative (Run 40 destilliert, Verifikation ausstehend)"
+status: "established (Run 40, 31.07.2026: unabhaengiger Refuter, ~50 Einzelaussagen, VERDIKT BESTANDEN. 2 Formalien, davon die Uebergeneralisierung bei den Servicetueren korrigiert. FW-Klassen-Tabelle Ziff. 2 zellengenau bestaetigt.)"
 last_updated: 2026-07-31
 links: [[REGISTER]]
 ---
@@ -128,7 +128,7 @@ bzw. «Schutzabstände, Brandabschnitte» (Ziff. 2.6).
   [T 30] bzw. E 30 [R 30] (abgeschlossene Zugänge zählen nicht als Fluchtweg). Bei
   > 600 m² (mit Sprinkler > 1200 m²) Entrauchungsöffnungen, ohne Nachweis min. 1 % der
   Brandabschnittsfläche. Ohne Tageslicht: sicherheitsbeleuchtete Rettungszeichen,
-  Sicherheitsbeleuchtung in Fluchtwegen. Servicetüren in Toren min. 0.9 m Lichtmass.
+  Sicherheitsbeleuchtung in Fluchtwegen. Servicetüren in Toren, **die als Fluchtwege dienen**, min. 0.9 m Lichtmass (Einschränkung ergänzt Run 40 — die Erstfassung liess sie weg und generalisierte über alle Servicetüren).
   Wasserlöschposten Pflicht, sonst ein Handfeuerlöscher Brandklasse AB je 600 m².
 - **Werkstatt-, Lager- und Kellerräume** (Ziff. 5.2): eigener Brandabschnitt, Trennung min.
   EI 30 [F 30 bb] (bei Brandbelastung > 1000 MJ/m² min. EI 60 (nbb) [F 60]); Türen EI 30 [T 30].

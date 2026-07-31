@@ -4,7 +4,7 @@ herausgeber: "VSA – Verband Schweizerischer Aufzugsunternehmen (Verbands-Zusam
 ausgabe: "Webseiten-Ausdruck der VSA-Website, Rubrik «Bestehende Anlagen» → «ESBA Kanton Zürich»; © 2011 VSA, als PDF archiviert (Safari-Druck) am 13.07.2012. Zusammengefasste Richtlinie: ESBA-Richtlinie der Baudirektion Kanton Zürich, in Kraft gesetzt 2008"
 gelesen: "1 Seite vollständig"
 datenstand: "2011/2012 (VSA-Zusammenfassung); zugrundeliegende Richtlinie in Kraft seit 2008"
-status: "speculative (Run 40 destilliert, Verifikation ausstehend)"
+status: "established (Run 40, 31.07.2026: unabhaengiger Refuter, ~13 Einzelaussagen, VERDIKT BEANSTANDET mit 1 Kernbefund — korrigiert und am Zieldestillat nachgeprueft: Definition (Ziff. 3.4) und Zahlenwert +/- 10 mm (Ziff. 5.2.2) waren zu EINER Fundstelle verschmolzen.)"
 last_updated: 2026-07-31
 links: [[REGISTER]]
 ---

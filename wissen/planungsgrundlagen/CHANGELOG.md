@@ -232,6 +232,35 @@ Wissensproduktion, keine Trainings-Run-Nummer. Report:
 - Bericht: `koordination/outputs/2026-07-28_wissens-chef-run19.md`.
 
 
+## 2026-07-31 (nachts, 2. Lauf) — Trockenlauf Modus B gegen 2507 TKHL: drei eigene Fehler gefunden und behoben
+Auftrag Raphael: den neuen Wettbewerbs-Modus des Skills `brandschutz` rueckwirkend gegen einen
+zweiten, moeglichst gegensaetzlichen Wettbewerb fahren — «Neubau Tagesbetreuung und Kindergarten
+Halden», Stadt St. Gallen (Projekt 2507). Report: `outputs/2026-07-31_trockenlauf-modus-b-2507-tkhl.md`.
+- **[Korrektur, materiell] Die QSS-Aussage aus §4f.3 lit. a war ueberdehnt.** Aus dem Biwak-Fall
+  abgeleitet stand dort, ein Bau ausserhalb der Kategorie «Gebaeude mit geringen Abmessungen» lande
+  «trotz geringer Groesse bei QSS 2». Der Kita-Fall widerlegt das: eine Kinderkrippe faellt ebenfalls
+  aus der Kategorie (AH 1000-15de Ziff. 2.1 lit. b), erreicht aber ueber die Tabelle BSR 11-15de
+  Ziff. 3.3.1 als «Schule» trotzdem QSS 1. Richtig ist: die Kategorie entscheidet ueber die
+  **Anwendbarkeit des vereinfachten Anforderungssatzes der AH 1000-15de**, nicht unmittelbar ueber die
+  QSS. Beide Stellen korrigiert.
+- **[Luecke geschlossen] Der Brandschutzabstand fehlte in der Nutzungsweiche.** Die Fragenbeantwortung
+  2507 (Frage 40) macht ihn zur **einzigen** massgebenden Abstandsregel gegenueber den Bestandsbauten
+  auf demselben Areal. BSR 15-15de Ziff. 2.2 Abs. 2: **5 m** (beide Aussenschichten RF1), **7.5 m**
+  (eine brennbar), **10 m** (beide brennbar), gemessen zwischen den Fassaden, Auskragung ueber 1 m
+  vergroessert. Das koppelt **Materialwahl und Stellung des Baukoerpers** direkt aneinander — eine
+  Holzfassade kostet 5 m Abstand — und ist damit die figurbestimmendste Groesse ueberhaupt. Sie fehlte,
+  weil sie am freistehenden Biwak schlicht nicht auftrat. Als **achte Frage** in Stufe 0 ergaenzt.
+- **[Luecke geschlossen] Der Fall «das Programm schweigt» war nicht vorgesehen.** Stufe 1 war auf den
+  Widerspruch zugeschnitten; das TKHL-Programm behauptet gar nichts und verweist nur pauschal auf
+  bsvonline.ch. Neuer Zweig: der Verfasser stuft selbst ein und deklariert die Einstufung als Annahme;
+  zusaetzlich auf Einzelvorgaben achten, die eine Einstufung stillschweigend voraussetzen (hier:
+  «Tueren muessen im Betrieb offen gehalten werden (Brandschutz)»).
+- **Was gehalten hat:** die Reihenfolge der Weiche, der Bautyp-Verweis (fuer die Kita greift
+  BSR 16-15de Ziff. 3.4.4, war auffindbar) und die Regel, dass Nachruestbares nicht auf den
+  Wettbewerbsplan gehoert.
+- **Lehre:** Eine aus **einem** Fall destillierte Methode traegt die Blindstellen dieses Falls. Der
+  Trockenlauf gegen einen bewusst gegensaetzlichen zweiten Fall ist billiger als der erste Ernstfall.
+
 ## 2026-07-31 (nachts) — C41-C44 abgearbeitet: der netzferne Kleinbau ist jetzt durchentschieden
 Auftrag Raphael (Auswahl): alle vier offenen Brandschutzfragen aus dem Wettbewerbs-Scan schliessen,
 Ergebnis nur in die Wissensbasis, kein Merkblatt. Alle Antworten aus **Originalquellen** (VKF-PDFs
