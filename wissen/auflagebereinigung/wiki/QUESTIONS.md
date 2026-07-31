@@ -59,3 +59,10 @@ Wiki-Artikel überführen und hier streichen.
   Risikogruppe 1 = 5 Jahre für Spitäler, Kosten der GVZ-Prüfungen: keine). Offen im
   Artikel vermerkt: Weisung 30.25 nicht destilliert; allfälliges Online-Portal für
   Anmeldungen im Projektfall telefonisch verifizieren.
+- **Möblierung im Fluchtweg, Schwelle (31.07.2026, Logbuch-Radar):** Ab welcher Eingriffstiefe
+  gilt eine Möblierung als «Fluchtwege tangierend» und löst damit eine eigene Planeingabe samt
+  neuer Verfügung aus? Der Beleg M. Gantenbein (SRZ, 30.07.2026) setzt die Rechtsfolge fest, grenzt
+  den Tatbestand aber nicht ab — für die Praxis entscheidend, weil davon abhängt, ob eine
+  Bestuhlung im Korridor als Möblierungsdetail oder als eigenes Verfahren zu behandeln ist. Im
+  Projektfall bei der Feuerpolizei verifizieren. Kontext:
+  `outputs/2026-07-31_moeblierung-fluchtweg-srz-praxis.md`.

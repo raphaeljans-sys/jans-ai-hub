@@ -2,6 +2,24 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-31 (Logbuch-Radar) — Möblierung im Fluchtweg ist ein eigener Verfahrensstrang, nicht Teil des Bauentscheids
+- **[neuer Report, materiell] `outputs/2026-07-31_moeblierung-fluchtweg-srz-praxis.md`** aus dem
+  Beleg M. Gantenbein (SRZ) vom 30.07.2026, Projekt 2619 KISPI: Anpassungen bei Einrichtung und
+  Möblierung, die Fluchtwege tangieren, **erfordern eine eigene Planeingabe und eine eigene
+  Verfügung** und werden bilateral mit der Feuerpolizei abgehandelt, nicht über den laufenden
+  Bauentscheid (hier ausdrücklich aus BE 1171/26 herausgelöst); situative Weiterleitung an die GVZ.
+- **[Kostenrelevanz] Klassierungs-Fallstrick belegt:** DIN 4102 und Ö-Norm 3800 werden **nicht**
+  anerkannt, massgeblich ist allein SN EN 13501-1 — trifft Möbel- und Textillieferanten aus DE/AT,
+  deren Nachweise deshalb VOR der Bestellung zu prüfen sind. Dazu die vier Bewilligungsvoraussetzungen
+  (1.2 m Durchgangsbreite, Materialisierung vorhanden, RF2 mehrschichtig mit Nachweis für sämtliche
+  Schichten, schriftliche Begründung als PDF) und der Grundsatz BSN Art. 37 / BSR 16-15 Ziff. 2.2.
+- **[Verfahrenslehre] Eine Zustellform-Auskunft der einen Amtsstelle bindet die andere nicht.** Die
+  am 28.07. auf AfB-Auskunft gewählte WeTransfer-Zustellung wurde von der Feuerpolizei gerügt; bei
+  Unterlagen im laufenden Baubewilligungsverfahren zusätzlich über eBaugesuch einreichen. Verbindet
+  sich mit dem am 29.07. dokumentierten Zuständigkeitswechsel (AfB Team 5).
+- **[offen]** Ab welcher Eingriffstiefe eine Möblierung als «Fluchtweg tangierend» gilt, ist im Beleg
+  nicht abgegrenzt → QUESTIONS.
+
 ## 2026-07-29 (Wissens-Chef Run 20, Cross-KB) — die seit 04.06. offene Kontaktstellen-Luecke hat ihren ersten belegten Fall
 - **[verlinkung, materiell] `wiki/aemter-stadt-zuerich.md` fuehrte AfB und UGZ ohne Kenntnis eines
   belegten Zustaendigkeitswechsels,** waehrend `projekt-lessons` den Fall seit dem 29.07. dokumentiert
