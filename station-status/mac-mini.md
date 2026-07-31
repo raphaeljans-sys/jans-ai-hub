@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 31.07.2026 07:16:47
+Stand: 31.07.2026 07:26:52
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -13,4 +13,4 @@ Stand: 31.07.2026 07:16:47
 - 1 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- ca9bebe3 nas-selfcommit: 1 Datei(en) 2026-07-31 07:15
+- b08f4b02 betrieb-chronik 260731d: Token-Verbrauch nur dedupliziert messen (message.id+requestId) — Streaming-Mehrfachzeilen verursachen Faktor 2-4, Beleg aus vollgas-fruehwarnung 31.07.
