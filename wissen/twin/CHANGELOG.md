@@ -4,6 +4,29 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-31 09:18 — twin-chef Gate (Hub-Chef-Tagesbriefing 31.07., Mail rj@ an rj@): Fidelity 79 → 89, Veredelung Runde 1/3.**
+  Schnell-Scan: Stimme 78 · Denken 82 · Haltung 85 · Beziehung 88 · Fachsignatur 74 · Arbeitsweise 79.
+  Drei Facetten unter der Schwelle 80, deshalb gezielter Fan-out an `twin-stilist`, `twin-fachsignatur`
+  und `twin-arbeitsweise` im VEREDELUNG-Modus (Befund-only, Merge beim Chef). Ergebnis nach Merge:
+  Stimme 89 · Denken 88 · Haltung 90 · Beziehung 90 · Fachsignatur 89 · Arbeitsweise 88.
+  **Gattungs-Vermerk (Echo-Schutz):** «Hub an Raphael» hat kein authentisches Stil-Gold — fruehere
+  Radar-/Hub-Briefings sind Claude-Erzeugnisse und wurden ausdruecklich NICHT als Massstab benutzt;
+  gewertet wurde allein gegen die sechs Facetten-Artikel und `rules/jans-dna.md`.
+  **Wirksamste Korrekturen:** (1) angekuendigte Fuenfer-Liste wurde als Fliesstext geliefert → «_ »-Bullets
+  (Doppelpunkt ist bei Raphael belegt der Listen-Ausloeser); (2) Meta-Satz «sollte Dich vorher erreichen»
+  gestrichen — Rueckspiegelung eines Termins, den der Empfaenger selbst gesetzt hat (vierfach belegtes
+  Don't, 260730/260731), Dringlichkeit stattdessen in den Betreff; (3) Fachsignatur: Bauentscheid-Nummer
+  1171/26, Amtsstellen-Zuordnung beider Kommentatoren, Grundgesamtheit 16 Annotationen, Ziff. 3.1 /
+  Tabelle 1 Typ a / haustechnische Anlagen / technischer Brandschutz, Fundstellen S. 6/7 nach Rule
+  `normen-referenz`, Stellungnahme-Metadaten (Fassung 23.07.2026, V 1.1, Jezi/Nema); (4) **fachliche
+  Ueberbehauptung entschaerft**: die drei Pruefkriterien stehen nicht nur in Art. 12, sondern auch in
+  Art. 60 als allgemeine Vollzugsformel — die Art.-12-Lesart stuetzt sich auf die Platzierung der
+  Kommentare, nicht auf Gantenbeins Wortlaut. **Chef-Schlichtung, drei Agentenvorschlaege verworfen:**
+  gerechnete «acht Hervorhebungen» (16−5−3, nicht am PDF ausgelesen → belegsichere Formulierung),
+  Versalien-Blocktitel (Mail geht als Aptos-HTML, dort fett), Ziffer am Satzanfang («5 Stellen» →
+  «Fuenf Stellen»; Ziffern nur fuer Systemwerte wie «19 Warnpositionen»). Offene Spannungen →
+  [[QUESTIONS]] Runde 260731c (3 Fragen). Erzeugnis selbst liegt im Scratchpad, nicht in der KB.
+
 - **2026-07-31 05:50 — twin-fidelity-review (Golds 01.12./14.12.2025, Rueckruf-Test): Gesamt-Fidelity 75.**
   Stimme 77 · Denken 73 · Haltung 74 · Beziehung 89 · Fachsignatur 62 · Arbeitsweise 75. Kernbefund ist
   keine Wissens-, sondern eine **Abruf-Luecke mit mechanischer Ursache**: das Wiki fuehrt Belegdaten

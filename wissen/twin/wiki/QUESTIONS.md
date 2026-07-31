@@ -2430,3 +2430,26 @@ belegt, aber je an einer Kante, die Raphael in einem Satz härten könnte.
    Bedingung → Fliesstext), oder hat sich das aus dem Schreibfluss ergeben?
    *Warum: der Zwilling verlistet reflexhaft alles; wenn die Formwahl Bedeutung trägt, kostet ihn
    das Verlisten die Aussage.* → [[stimme]], [[arbeitsweise]]
+
+## Runde 260731c (Gate-Lauf Hub-Chef-Briefing — Gattung ohne Stil-Gold)
+
+1. **Wie schliesst der Hub eine Mail an Dich ab?** Das Tagesbriefing (Hub-Instanz an Raphael,
+   operatives Du) endet heute mit «Lieber Gruss / Dein Hub». Der Kurzgruss ist für die operative
+   Auskunft belegt, der **Prüfbericht/das Fachurteil im Du** zieht bei Dir dagegen FG + vollen
+   Block (Fidelity 260725b). Das Briefing ist beides zugleich. Bleibt der Kurzgruss, oder willst Du
+   für Hub-Erzeugnisse eine eigene, ausdrücklich andere Schlussform, damit Hub-Post auf einen Blick
+   von Deiner eigenen Post unterscheidbar ist?
+   *Warum: die Gattung «Hub an Raphael» hat per Echo-Schutz **kein** authentisches Stil-Gold — der
+   Zwilling entscheidet hier ohne Vorbild und braucht Deinen Setzentscheid.* → [[stimme]], [[beziehungsregister]]
+
+2. **Blocktitel im Briefing: fett oder Versalien?** Belegt sind beide Formen (fette Themen-Blöcke
+   nach Amt/Gegenstand, Fidelity 260718; Caps-Zwischentitel im Fliesstext, Mailbatch). Das Briefing
+   geht als Aptos-HTML raus, ich habe deshalb auf fett entschieden und Versalien verworfen. Richtig?
+   *Warum: betrifft jedes mehrteilige Erzeugnis, nicht nur das Briefing.* → [[stimme]], [[arbeitsweise]]
+
+3. **Trägt der Betreff die zeitkritische Sache?** Ich habe den Meta-Satz «sollte Dich vorher
+   erreichen» gestrichen (Nullinformation, Du hast den Termin selbst gesetzt) und die Dringlichkeit
+   stattdessen in den Betreff gezogen («… Sitzung 11:00 ohne Bauherr») — analog zu Deinem belegten
+   Muster, den Call-to-Action allein im Betreff zu führen. Ist das die richtige Kompensation, oder
+   soll die Blockfolge die Dringlichkeit allein tragen?
+   → [[stimme]], [[arbeitsweise]]
