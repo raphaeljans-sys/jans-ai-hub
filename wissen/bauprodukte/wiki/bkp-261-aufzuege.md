@@ -155,8 +155,11 @@ zwischen den Herstellern:
   **Verweis nachgetragen (Wissens-Chef Run 21, 30.07.2026):** Führend ist die KB
   `normen`. Die massgeblichen Anforderungen an Schacht, Türen, Kabine und
   Brandfallsteuerung stehen in [[vkf-brl-23-15-befoerderungsanlagen]] (VKF-BRL 23-15,
-  in Kraft seit 01.01.2015; Teilrevision 2017 beachten, sie betrifft Ziff. 3.6 Abs. 2
-  und Ziff. 5.1, siehe [[vkf-brl-aenderungen-2017]]). Diese Anforderungen sind **bedingt
+  in Kraft seit 01.01.2015). **Fassungsfrage geklärt (31.07.2026):** die Teilrevision 2017
+  ([[vkf-brl-aenderungen-2017]]) ändert Ziff. 3.6 Abs. 2 materiell — Aufzugsschachttüren
+  dürfen bei einer Anlage, die nur EIN Untergeschoss bedient, direkt in eine Nutzungseinheit
+  führen (Bedingung: Feuerwiderstand nach Ziff. 3.4 Abs. 2), 2015 nicht vorgesehen — und
+  Ziff. 5.1 nur kosmetisch (RF3 → RF3 (cr), keine inhaltliche Änderung). Diese Anforderungen sind **bedingt
   formuliert** (unter anderem abhängig davon, ob mit der Anlage mehrere Brandabschnitte
   verbunden werden und ob die Schachttüre unmittelbar in die Nutzungseinheit führt) und
   werden hier nicht fortgeschrieben (Rule `normen-referenz`). Die im Datenblatt

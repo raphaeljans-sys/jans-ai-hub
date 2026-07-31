@@ -1,5 +1,17 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-07-31 (Mac Mini Nachtschicht) — QUESTIONS Punkt 10 geschlossen: VKF-BRL-23-15-Teilrevision auf Aufzüge geprüft
+Gemäss Raphaels Priorisierung (heutiger Eintrag oben: ausschreibungsrelevante Punkte 4/9/10
+zuerst) Punkt 10 bearbeitet: Delta-Destillat `vkf-brl-aenderungen-2017.md` (KB `normen`)
+gegen die BRL 23-15 geprüft. **Materiell betroffen:** neuer Abs. 2 zu Ziff. 3.6
+Untergeschosse — Aufzugsschachttüren dürfen bei Anlagen mit nur einem bedienten
+Untergeschoss direkt in eine Nutzungseinheit führen (Bedingung: Feuerwiderstand nach
+Ziff. 3.4 Abs. 2), 2015 nicht vorgesehen. Ziff. 5.1 (Fahrtreppen) nur kosmetisch (RF3 →
+RF3 (cr)). Geändert: `wiki/bkp-261-aufzuege.md` (Fassungsfrage-Absatz präzisiert),
+`wiki/QUESTIONS.md` (Punkt 10 geschlossen). Rücklauf in die abgebende KB: `normen/CHANGELOG.md`
++ `normen/destillate/vkf-brl-23-15-befoerderungsanlagen.md` (Ziff. 3.6/5.1 ergänzt, Offene-
+Punkte-Zeile aufgelöst, Frontmatter-Link nachgetragen). Kein Versand, keine Publikation.
+
 ## 2026-07-31 — Drei Grundsatzentscheide Raphaels eingearbeitet
 - **Altersregel** (Schreibregel 1 in CLAUDE.md ergänzt): keine harte Altersgrenze;
   Unterlagen älter als zehn Jahre nur als **Prinzip/System**, nie als Produkt

@@ -72,13 +72,16 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
    `lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md` (`speculative`).
    **NICHT heranziehen:** `lignum-lignatec-brandschutz.md` (Stand 2005/VKF 2003, als
    VERALTET geführt).
-10. **Teilrevision 2017 der VKF-BRL 23-15 auf Aufzugsrelevanz prüfen (aufgenommen
-    Wissens-Chef Run 21, 30.07.2026):** [[bkp-261-aufzuege]] verweist neu auf
-    `normen/destillate/vkf-brl-23-15-befoerderungsanlagen.md` (Ausgabe 2015). Die
-    Teilrevision 2017 ändert Ziff. 3.6 Abs. 2 und Ziff. 5.1
-    (`normen/destillate/vkf-brl-aenderungen-2017.md`); das 23-15-Destillat führt die
-    Prüfung, ob und wie die BRL betroffen ist, selbst noch als offen. Die Fassungsfrage
-    ist damit auch hier angemeldet, nicht nur im abgebenden KB.
+10. **Teilrevision 2017 der VKF-BRL 23-15 auf Aufzugsrelevanz geprüft — GESCHLOSSEN
+    (Mac Mini Nachtschicht, 31.07.2026).** Ergebnis: **materiell betroffen.** Ziff. 3.6
+    Abs. 2 (neu 2017): Aufzugsschachttüren dürfen bei einer Anlage, die nur EIN
+    Untergeschoss bedient, direkt in eine Nutzungseinheit führen, sofern der
+    Feuerwiderstand nach Ziff. 3.4 Abs. 2 eingehalten ist (2015 nicht vorgesehen).
+    Ziff. 5.1 (Fahrtreppen) nur kosmetisch (RF3 → RF3 (cr)). Beide Ziffern in
+    `normen/destillate/vkf-brl-23-15-befoerderungsanlagen.md` nachgetragen, [[bkp-261-aufzuege]]
+    entsprechend ergänzt. Quelle des Delta ist eine Drittanbieter-Schulungsunterlage
+    (AFC Basel), nicht der amtliche 2017er-VKF-Text — für ein rechtsverbindliches Zitat
+    der Ziff.-3.6-Ausnahme bei Bedarf am Original verifizieren.
 11. **AS-Kabinenbreite 1050 mm beim Hersteller verifizieren (aufgenommen Wissens-Chef
     Run 21, 30.07.2026):** Nach der Korrektur des Kabinenmasses in
     [[bkp-261-aufzuege]] verfehlt die Kabine sowohl die SIA-500-Standardbreite

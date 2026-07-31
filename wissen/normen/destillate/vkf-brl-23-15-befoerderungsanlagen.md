@@ -6,8 +6,8 @@ ersetzt: "unbekannt (nicht im Dokument vermerkt)"
 gelesen: "S. 1-19 (komplett: Titelblatt, Impressum, Inhaltsverzeichnis, Ziff. 1-8, Anhang mit Skizzen/Piktogramm)"
 datenstand: "2015 (in Kraft seit 01.01.2015, Beschluss IVTH 18.09.2014)"
 status: established (verifiziert)
-last_updated: 2026-07-14
-links: [[REGISTER]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brandschutznorm-2015]], [[bkp-261-aufzuege]]
+last_updated: 2026-07-31
+links: [[REGISTER]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brandschutznorm-2015]], [[bkp-261-aufzuege]], [[vkf-brl-aenderungen-2017]]
 ---
 
 # VKF-BRL 23-15 — Beförderungsanlagen (Brandschutzrichtlinie)
@@ -32,6 +32,15 @@ Ziff. 1 (S. 4): Gilt für Erstellung und Betrieb von Beförderungsanlagen (Aufzu
 - **Ziff. 3.4.1 Aufzugssteuerungen** — befindet sich Steuerung ausserhalb Schacht: (a) in Schachtfront integriert mit mind. gleichem Feuerwiderstand wie Schachttüren, rauchdicht gegen Vorraum, oder (b) freistehend/Wandnische mind. EI 30 RF1, oder (c) in separatem Brandabschnitt in RF1-Schrank; Verbindungen zwischen Brandabschnitten sinngemäss zu schützen (S. 5)
 - **Ziff. 3.5 Kabine** — tragende Kabinenstruktur aus RF1-Baustoffen; Bodenbeläge/Wand-/Deckenbekleidungen RF2 zulässig (S. 5)
 - **Ziff. 3.6 Untergeschosse** — führen Aufzugsanlagen in Untergeschosse, dürfen Schachttüren nur in Schleusen, horizontale/vertikale Fluchtwege oder feuerwiderstandsfähige Vorplätze münden (S. 5)
+  **Teilrevision 2017, neuer Abs. 2 (geprüft 31.07.2026, Quelle Delta-Destillat
+  [[vkf-brl-aenderungen-2017]] S. 29, nicht am Original der 23-15-Ausgabe 2017 selbst
+  verifiziert):** Führt eine Aufzugsanlage **nur in ein einziges Untergeschoss**, dürfen die
+  Aufzugsschachttüren abweichend vom Grundsatz oben **direkt in eine Nutzungseinheit**
+  (Betriebs-, Lagerräume usw.) führen — Bedingung: die Schachttüren müssen den nach Ziff. 3.4
+  Abs. 2 erforderlichen Feuerwiderstand aufweisen. 2015 kannte diese Ausnahme nicht.
+  Materiell relevant für JANS-Projekte mit Einzel-UG-Erschliessung (z.B. Kellerabteil-/
+  Lagerzugang) — vor 01.01.2015-Referenzierung dieser Ziffer immer gegenprüfen, ob die
+  Anlage tatsächlich nur ein UG bedient.
 - **Ziff. 3.7 Brandfallsteuerung** — Aufzüge dürfen im Brandfall nicht benützt werden (vorbehalten Feuerwehraufzüge); Aufzüge in Hochhäusern, Beherbergungsbetrieben, Verkaufsgeschäften oder Bauten mit Räumen grosser Personenbelegung, die mehr als drei Haltestellen verbinden, müssen eine Brandfallsteuerung aufweisen; mit Einschalten fährt der Fahrkorb auf Hauptzugangs-/Feuerwehrzugangsebene und wird mit geöffneter/entriegelter Tür blockiert; unmittelbar beim Aufzug auf dieser Ebene ist ein mit Einheitsschlüssel der Feuerwehr zu bedienender, dauerhaft gekennzeichneter Schlüsselschalter zu montieren; bei Brandmelde-/Sprinkleranlage muss die notwendige Brandfallsteuerung zusätzlich über diese Anlage angesteuert werden (S. 5-6)
 - **Ziff. 3.8 Zusätzliche Anforderungen an Aufzugsanlagen in Hochhäusern** — Schachttüren dürfen nicht direkt in Sicherheitstreppenhäuser münden; Feuerwiderstand E 30; Zugang nur über Vorraum oder horizontale Fluchtwege EI 90; bei Zugang über horizontale Fluchtwege sind vor den Schachttüren zusätzlich selbstschliessende, von Schachtseite jederzeit wieder öffenbare EI 30-Brandschutztüren zu erstellen (S. 6). Anhang (S. 13): drei Grundriss-Beispiele Zugang über Schleuse (RDA-belüftet) vom horizontalen Fluchtweg, von Nutzungseinheiten, bzw. mit selbstschliessendem EI 30-Abschluss gemäss SN EN 1634-1
 
@@ -58,6 +67,10 @@ Ziff. 1 (S. 4): Gilt für Erstellung und Betrieb von Beförderungsanlagen (Aufzu
 
 ### Fahrtreppen, Fahrsteige, Spezialförderanlagen (Ziff. 5, S. 10)
 - **Ziff. 5.1** — tragende/nicht tragende Teile aus RF1-Baustoffen; konstruktiv bedingte brennbare Teile (Handläufe, Tragrollen, Gurten) mindestens RF3; bei Wand-/Deckendurchbrüchen Feuer-/Rauchausbreitung begrenzen (Schiebeabschlüsse, Rauchschürzen, erhöhte Sprinklerdichte); im Bereich eines Brandes mit Kriechgangfunktion ausgerüstete Fahrtreppen/Fahrsteige in Kriechgang schalten, bei entsprechender Einrichtung (Handtaster, Brandmelde-/Sprinkleranlage) automatisch; Brandschutzbehörde entscheidet im Einzelfall über Sicherheitsstromversorgung für diese Brandfallsteuerung (S. 10)
+  **Teilrevision 2017 (geprüft 31.07.2026, Quelle [[vkf-brl-aenderungen-2017]] S. 29):**
+  die konstruktiv bedingten brennbaren Teile wechseln von «RF3» auf «RF3 (cr)» — durchgehendes
+  Kennzeichnungsmuster der Teilrevision (Baustoffe mit kritischem Verhalten waren bereits 2015
+  gemeint), **keine materielle Änderung** der Anforderung selbst.
 - **Ziff. 5.2 Spezialförderanlagen** — für Aussen-/Panoramaaufzüge, Schrägaufzüge, Aufzüge für Autosilos sowie Trottoir-/Palettenaufzüge gelten die Anforderungen für Beförderungsanlagen sinngemäss (S. 10)
 
 ### Betrieb, Wartung, weitere Bestimmungen (Ziff. 6-8, S. 10-11)
@@ -90,7 +103,12 @@ Ziff. 1 (S. 4): Gilt für Erstellung und Betrieb von Beförderungsanlagen (Aufzu
 ## Offene Punkte
 - Norm-Nr./Titel im Inventar unbekannt gewesen; jetzt geklärt: VKF-BRL 23-15de «Beförderungsanlagen», Stand 01.01.2015
 - Keine Angabe im Dokument, ob/welche Vorgänger-Ausgabe diese BRL ersetzt (anders als bei 16-15, wo «rev2016» im Dateinamen steht) — Register (`ersetzte_normen.pdf`) bei Bedarf gegenprüfen
-- Änderungsdokument `Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf` im selben Ordner nicht geprüft, ob es diese BRL betrifft — bei Anlass separat destillieren
+- **Geklärt (31.07.2026):** Änderungsdokument `Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf`
+  ist als [[vkf-brl-aenderungen-2017]] destilliert und betrifft diese BRL an zwei Stellen (Ziff.
+  3.6 Abs. 2 neu, Ziff. 5.1 cr-Kennzeichnung, siehe oben). Die Quelle ist eine
+  Drittanbieter-Schulungsunterlage (AFC Basel), nicht der amtliche VKF-Text der 2017-Ausgabe
+  selbst — für ein rechtsverbindliches Zitat der Ziff.-3.6-Neuregelung bei Bedarf gegen die
+  offizielle 2017er-Einzelrichtlinie verifizieren.
 - Referenzierte SN-EN-Normen (81-58, 81-73, 1634-1) nicht selbst im Bestand/destilliert — nur als Verweis übernommen
 - Anhang-Zeichnungen (S. 13-19) sind laut Original urheberrechtlich geschützt (Hinweis S. 19); im Destillat nur textlich beschrieben, keine Abbildungen übernommen — korrekt gemäss Urheberrecht-Regel
 

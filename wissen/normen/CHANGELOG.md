@@ -1,3 +1,18 @@
+## 2026-07-31 (Mac Mini Nachtschicht) — VKF-BRL 23-15 Fassungsfrage geklärt (Bring-Schuld aus `bauprodukte`)
+
+`wissen/bauprodukte/wiki/QUESTIONS.md` Punkt 10 verlangte zu prüfen, ob die Teilrevision 2017
+die BRL 23-15 «Beförderungsanlagen» (Aufzüge) betrifft. Gegen das bereits destillierte
+Delta-Dokument [[vkf-brl-aenderungen-2017]] (S. 29) geprüft: **ja, an zwei Stellen.**
+(1) **Materiell:** neuer Abs. 2 zu Ziff. 3.6 Untergeschosse — Aufzugsschachttüren dürfen bei
+einer Anlage, die nur EIN Untergeschoss bedient, direkt in eine Nutzungseinheit führen, sofern
+der Feuerwiderstand nach Ziff. 3.4 Abs. 2 eingehalten ist (2015 nicht vorhanden). (2) **Kosmetisch:**
+Ziff. 5.1 Fahrtreppen/Fahrsteige wechselt RF3 auf RF3 (cr), keine inhaltliche Änderung.
+`destillate/vkf-brl-23-15-befoerderungsanlagen.md` entsprechend ergänzt (beide Ziffern, Verweis
+[[vkf-brl-aenderungen-2017]] im Frontmatter nachgetragen, Offene-Punkte-Zeile aufgelöst). Quelle
+bleibt eine Drittanbieter-Schulungsunterlage (AFC Basel), nicht der amtliche 2017er-VKF-Text —
+für ein rechtsverbindliches Zitat der neuen Ziff.-3.6-Ausnahme bei Bedarf am Original verifizieren.
+Rücklauf nach `wissen/bauprodukte` (CHANGELOG dort, QUESTIONS.md Punkt 10 geschlossen).
+
 ## 2026-07-31 — Run 40 (MacBook Pro), Abschluss: neunte Lignatec-Runde + 13 Positionen PL-02-Kern verifiziert
 
 Sammeleintrag des Hauptprozesses. Die beiden Einzeleinträge unten (GVZ, VSA) stammen von den
