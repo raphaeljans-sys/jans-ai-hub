@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 31.07.2026 22:46:50
+Stand: 31.07.2026 22:56:54
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -18,4 +18,4 @@ Stand: 31.07.2026 22:46:50
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 42a63b05 nas-selfcommit: 10 Datei(en) 2026-07-31 22:45
+- fd979840 Energie Run 120: 7 neue Destillate (Sanierungsetappen, R744/CO2, Hochtemperatur-WP, Fernkaelte, Minergie-Areal, WP-Sperrzeiten, Aufzug), Wiki-Artikel umweltwaerme-gewaesser, FAQ F190-F196, PL-02-Blockade reconfirmiert

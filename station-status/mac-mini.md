@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 31.07.2026 22:43:16
+Stand: 31.07.2026 22:53:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:43)
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:46)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 31.07.2026 22:43:16
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7383ecd0 nas-selfcommit: 2 Datei(en) 2026-07-31 22:30
+- fd979840 Energie Run 120: 7 neue Destillate (Sanierungsetappen, R744/CO2, Hochtemperatur-WP, Fernkaelte, Minergie-Areal, WP-Sperrzeiten, Aufzug), Wiki-Artikel umweltwaerme-gewaesser, FAQ F190-F196, PL-02-Blockade reconfirmiert
