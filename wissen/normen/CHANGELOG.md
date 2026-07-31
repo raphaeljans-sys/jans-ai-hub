@@ -1,3 +1,50 @@
+## 2026-07-31 — Run 40 (MacBook Pro), Abschluss: neunte Lignatec-Runde + 13 Positionen PL-02-Kern verifiziert
+
+Sammeleintrag des Hauptprozesses. Die beiden Einzeleinträge unten (GVZ, VSA) stammen von den
+Destillier-Agenten und beschreiben nur ihren eigenen Teil; sie bleiben stehen. Vollständiger
+Lauf-Report: `outputs/2026-07-31_normen-nacht-run40.md`.
+
+- **[verifikation] Neunte Runde `lignum-lignatec-brandschutz.md` gefahren** — auf den beiden
+  Teilen, auf die die rechnerische Methode nie angewandt worden war: **Tabelle 2 (S. 4-5)** und
+  die **acht Axonometrien (S. 16-23)**. Ergebnis: **null falsche Zahlenwerte**, aber neun
+  Vollständigkeitsbefunde. Die drei wichtigsten, alle vom Hauptprozess am eigenen
+  300-dpi-Rendering nachgeprüft: (1) der Geltungsbereich-Absatz zu Tab. 2 fehlte ganz — die
+  Tabelle gilt nur für tragende/brandabschnittsbildende Bauteile und die VKF-Richtlinie
+  «Verwendung brennbarer Baustoffe» ist zusätzlich zu beachten; (2) die ganze Zeichnungsspalte
+  war nie destilliert, inklusive der Aussage, dass R30/R60 ohne (nbb) vollständig brennbar sein
+  dürfen; (3) «Decke = Dach über Korridor/Treppenhaus: Keine Anforderung» fehlte auf allen vier
+  Doppelseiten — und gilt nur für den Feuerwiderstand, während Dachbelag und Fluchtweg-Seite
+  nicht brennbar sein müssen. Destillat entsprechend erweitert.
+- **[methodik] Zwei Agentenbefunde zurückgestuft.** Die gemeldete «beidseitige gegen
+  korridorseitige Verkleidung» widerspricht dem Destillat nicht — sie bestätigt die
+  Run-32/33-Korrektur (Schrägstrich gegen Bindestrich) ein drittes, unabhängiges Mal. Beleg für
+  den Nutzen der Pflicht, Agentenbefunde selbst gegenzuprüfen.
+- **[grundarbeit] 13 Positionen des PL-02-Kern-Nachtrags geschlossen**, 12 neue Destillate
+  (GVZ 3, Suva 4, SWKI 1, Suissetec 1, VSA 3), je mit unabhängigem Refuter. Verdikte: 8
+  bestanden, 4 beanstandet. `suissetec-dachentwaesserung-2016.md` ist ein sauberer Nulldurchgang.
+- **[KERNBEFUND] `gvz-rwa-parkhaus-einstellraum.md` beanstandet** — der teuerste Fund des Laufs.
+  Die Anforderungsmatrizes 6.1/6.2 haben ab 601 m² **diagonal zweigeteilte Zellen** (oben blau =
+  mit Sprinkleranlage, unten weiss = ohne). Die Erstfassung löste das bei 601-1200 m² durchgehend
+  falsch auf: sie hätte ein Projekt mit Sprinkleranlage zu einem Nachweis N2/N3 verpflichtet, wo
+  das Merkblatt **gar keinen RWA-Nachweis** verlangt. Beide Matrizes am eigenen 220-dpi-Rendering
+  zellenweise nachgeprüft und als Tabelle neu gefasst; Status bleibt `speculative`.
+- **[KERNBEFUND] `swki-va103-01-2017.md` beanstandet** — erfüllt Auftrag N-R21-1. Die Richtlinie
+  gilt **nur für Mittel- und Grossgaragen ab 100 m²**; für Kleingaragen unter 100 m² gilt sie
+  **nicht** (Ziff. 0.1.2, wörtlich nachgeprüft). Garagentypen sind nach **Fläche** definiert, nicht
+  nach Abstellplätzen; die 25-Prozent-Definition der offenen Garage stammt aus **VKF-BSR 15-15**,
+  nicht 25-15. Zwei weitere Refuter-Befunde im Destillat als **ungeprüft** markiert.
+- **[korrektur] Suva 44066:** Gradgrenze Flachdächer `0° ≤ α ≤ 10°` statt `< 10°`; die
+  Grundsatzliste für Kunststoff-Oblichter (Ziff. 4.3) fehlte ganz, inklusive Anschlageinrichtungen
+  nach **EN 795 ab 3,0 m** beim Unterhalt im geöffneten Zustand. **VSA ESBA:** Definition
+  (Ziff. 3.4) und Zahlenwert ±10 mm (Ziff. 5.2.2) waren zu einer Fundstelle verschmolzen.
+  **GVZ MFH:** Übergeneralisierung bei den Servicetüren korrigiert.
+- **[inventar] VSA-Fehlannotation korrigiert** (Aufzüge statt Abwasser, SNEL = Safety Norm for
+  Existing Lifts) — dreifach belegt. **REGISTER:** SWKI-Zeile trägt jetzt Ausgabe 2017-04 und den
+  Anwendungsbereich.
+- **[betrieb] Arbeits-Weiche meldete `mini`, wurde regelkonform nicht befolgt** (Chronik 260731b
+  nimmt App-Scheduled-Tasks und die stationsgeteilten Norm-Familien aus). Der Lauf hat sich
+  zweimal am Lauf-Gate selbst gedrosselt.
+
 ## 2026-07-31 — Run 40 (MacBook Pro): drei GVZ-Richtlinien destilliert (ZH-Ergänzung zur VKF-Familie)
 
 Drei Merkblätter der Kantonalen Feuerpolizei/GVZ aus `06_Richtlinien/GVZ/` neu destilliert:

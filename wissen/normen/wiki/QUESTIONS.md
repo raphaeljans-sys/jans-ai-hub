@@ -1,5 +1,59 @@
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
+## Run 40 (MacBook Pro, 31.07.2026) — neunte Lignatec-Runde: null Wertfehler, neun Lücken
+
+**Gefahren wurde**, was Run 39 als offen ausgewiesen hatte: die rechnerische Aufnahme von
+**Tabelle 2** und den **acht Axonometrien**. Erstmals in dieser Verifikationsreihe **kein
+einziger falscher Zahlenwert** — nur Vollständigkeitsbefunde. Das ist ein anderer Befundtyp als
+in den Runden 6-8 und für die Taktungsfrage bedeutsam.
+
+### Offen / vorzulegen
+
+1. **Lignatec-Taktung bleibt NICHT entscheidbar — die Umstellung auf Ereignis-Trigger wird
+   ausdrücklich nicht vorgeschlagen.** Begründung nach der Methoden-Lehre: ungeprüft ist bisher
+   der **Fliesstext der Kapitel 1-4** (S. 3, 6-7, 10-11, 14). Er wurde nie systematisch gegen das
+   Destillat gediffed, und eine **Seiten-Inventur nach dem Muster `training/l41-seiteninventur.md`**
+   existiert für den Lignatec nicht. Das ist die nächste Methode auf einem noch ungeprüften Teil.
+   Erst danach ist die Frage redlich zu beantworten.
+2. **N-R40-1 (P1): zweite Runde für `gvz-rwa-parkhaus-einstellraum.md`.** Die Matrizes 6.1/6.2
+   sind vom Hauptprozess am Original neu gefasst worden, nachdem die Erstfassung die diagonal
+   zweigeteilten Sprinkler-Zellen bei 601-1200 m² falsch aufgelöst hatte. Die Neufassung hat noch
+   niemand unabhängig geprüft. Dringlich, weil das Merkblatt direkt in die Parkhaus-Beratung geht.
+3. **N-R40-2 (P1): zweite Runde für `swki-va103-01-2017.md`** — gleiche Lage. Zusätzlich sind
+   **65 von 110 Seiten ungelesen**, darunter die Anhänge C/D/E (Rechenformulare,
+   Anwendungsbeispiele, Simulationsmethodik), die für eine Anlagenauslegung die eigentliche
+   Grundlage sind. Zwei Refuter-Befunde (Zuordnung Zu-/Abluftgitter zu Kap. 2.5.2; Rolle der
+   12-WB/h-Schwelle im Entscheidungsdiagramm) sowie die Fussnote S. 62 zu VA104-01 sind im
+   Destillat als **ungeprüft** markiert und noch nachzumessen.
+4. **N-R40-3 (P3): Grauton in Tabelle 2 des Lignatec ungeklärt.** In den Zeilen R30/EI30/REI30,
+   R60/EI60/REI60 und EI60-EI30(nbb) sind Deckschicht und Stiel messbar grau unterlegt
+   (Median-RGB 177/180/179 gegen 240/245 bei identischem Muster in «Keine Anforderung»). Die
+   Legende auf S. 5 kennt keine getönte Variante. Der Effekt ist konsistent (immer Deckschicht +
+   Stiel, nie das Dämmstofffeld), seine Bedeutung aus der Quelle nicht ableitbar — grafische
+   Hervorhebung oder Druck-/Scan-Effekt. Nicht gedeutet.
+5. **N-R40-4 (P3): Fassungsstand Suva 67012.d «Checkliste Böden».** Im Fliesstext steht kein
+   Ausgabedatum — am Original bestätigt, kein Übersehen. PDF-Metadaten nennen CreationDate
+   23.01.2006 und ModDate 08.08.2007, das ist aber kein Fassungsbeleg. Nur über suva.ch/waswo
+   klärbar.
+6. **Bookkeeping-Widerspruch zusammenführen.** Der Abschnitt vom 31.07.2026 (Wissens-Chef Run 21,
+   unten) führt als offene Frage, ob diese KB die restlichen `06_Richtlinien`-Bestände (GVZ, Suva,
+   Suissetec, VSA, PAVIDENSA, `09_Sanitaereinrichtung`) **systematisch** abarbeitet. Das Inventar
+   hat sie am 29.07.2026 bereits als Arbeitsliste aufgenommen (Entscheid Raphael). Run 40 ist dem
+   Inventar gefolgt — es ist der spezifischere und gezeichnete Entscheid. Die beiden Stellen
+   widersprechen sich und gehören zusammengeführt.
+7. **Rest des Kern-Nachtrags: 47 Positionen offen** (PAVIDENSA 9, `09_Sanitaereinrichtung` 14,
+   BKZ 4, lose Merkblätter 20). Darunter mit `04_Merkblätter/SN592_Liegenschaftsentwaesserung_d.pdf`
+   eine echte SN-Norm, die ins REGISTER gehört.
+
+### Zwei Arbeitsfallen, die diesen Lauf Zeit gekostet haben
+
+- Die Pfadangaben im Inventar-Abschnitt «PL-02 Kern-Nachtrag» sind relativ zu
+  `PL - 02_Recht_Norm/`, **nicht** zu `02_Normen/`.
+- Dateinamen liegen teils in **NFD-Normalisierung** vor (macOS). Ein NFC-Abgleich per Script
+  schlägt dort **still** fehl — beim Nachführen des Inventars normalisieren
+  (`unicodedata.normalize('NFC', …)` auf beiden Seiten).
+
+
 ## 2026-07-31 (Run 40, MacBook Pro) — Bestandsfalle aufgedeckt: Ordner «VSA» meint Aufzüge, nicht Abwasser/Gewässerschutz
 
 **Befund.** Der Auftrag für Run 40 sollte drei Dateien aus

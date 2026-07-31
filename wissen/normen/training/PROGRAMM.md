@@ -171,6 +171,39 @@ wurden bisher rechnerisch: die acht Übersichtsaxonometrien (S. 16-23) und Tabel
 wenigen Randbefunden misst die Methode, nicht die Quelle. Sie ist deshalb als Methodik-Pflicht 6
 unten verankert.
 
+### Ergebnis der neunten Runde (Run 40, 31.07.2026) — Tabelle 2 und die acht Axonometrien
+
+Gefahren wurde, was Run 39 als offen ausgewiesen hatte: die rechnerische Aufnahme der beiden
+Teile, auf die die Methode nie angewandt worden war. **Ergebnis: null falsche Zahlenwerte, neun
+Vollständigkeitsbefunde.** Das ist erstmals in dieser Reihe ein anderer Befundtyp — die Runden
+6-8 fanden noch falsche Werte, diese Runde nur noch Lücken.
+
+Die drei folgenreichsten, alle vom Hauptprozess am eigenen 300-dpi-Rendering nachgeprüft:
+der Geltungsbereich-Absatz zu Tab. 2 fehlte ganz (die Tabelle gilt nur für tragende/
+brandabschnittsbildende Bauteile, die VKF-Richtlinie «Verwendung brennbarer Baustoffe» ist
+zusätzlich zu beachten); die ganze Zeichnungsspalte war nie destilliert, inklusive der Aussage,
+dass R30/R60 ohne (nbb) vollständig brennbar sein dürfen; und «Decke = Dach über
+Korridor/Treppenhaus: Keine Anforderung» fehlte auf allen vier Doppelseiten — der Wert gilt nur
+für den Feuerwiderstand, Dachbelag und Fluchtweg-Seite müssen nicht brennbar sein.
+
+**Bewertung für die Taktung: weiterhin NICHT entscheidbar; Ereignis-Trigger wird nicht
+vorgeschlagen.** Nach der Methoden-Lehre ist auszuweisen, was ungeprüft blieb: der **Fliesstext
+der Kapitel 1-4** (S. 3, 6-7, 10-11, 14) wurde nie systematisch gegen das Destillat gediffed, und
+eine **Seiten-Inventur** nach dem Muster `l41-seiteninventur.md` existiert für den Lignatec nicht.
+Das ist die nächste Methode auf einem noch ungeprüften Teil. Erst danach ist die Quelle nach allen
+verfügbaren Methoden geprüft und die Frage redlich zu beantworten.
+
+### Methodik-Pflicht 7 — Agentenbefunde gegen den GANZEN Bestand prüfen, nicht nur gegen die Stelle
+
+Aus Run 40. Zwei als KERNBEFUND gemeldete Punkte (Treppenhauswand beidseitig, Korridorwand nur
+korridorseitig nicht brennbar verkleidet) waren am Original **richtig beobachtet**, aber **kein
+Befund**: die Regel stand längst als Schrägstrich/Bindestrich-Notation im Destillat
+(Run-32/33-Korrektur). Der Agent hatte nur seinen Abschnitt gelesen. Daraus die Pflicht: bevor
+ein Agentenbefund als Fehler übernommen wird, ist zu prüfen, ob das Destillat die Aussage **an
+anderer Stelle** bereits führt. Sonst entstehen Scheinbefunde, und eine bestätigte Regel wird
+fälschlich als Widerspruch verbucht. Umgekehrt gilt der Ertrag: solche Beobachtungen sind
+**unabhängige Bestätigungen** und gehören als solche protokolliert.
+
 ### Methodik-Pflicht 6 — Abdeckung messen, nicht nur Behauptungen prüfen
 
 Aus Run 38, gilt für jede Retro-Verifikation: Eine Runde, die nur prüft, ob stimmt, **was das
