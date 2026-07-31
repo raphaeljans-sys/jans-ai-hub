@@ -1,7 +1,7 @@
 ---
 title: "Ingest Cluster E — IMMO-Projektordner 02–05 und _Vorlage"
 date: 2026-07-31
-status: in-arbeit
+status: abgeschlossen
 scope: "IMMO - 01 Projekte/{02 STWE, 03 TDD, 04 CONTROLLING, 05 MASSAUFNAHMEN, _Vorlage}"
 hinweis: "01 BEWERTUNG PROJEKTE ist bereits eingearbeitet und war nicht Gegenstand."
 ---
@@ -634,7 +634,7 @@ bei (Neudruck 2012).
 | **BGS Zug** | PBG BGS 721.11 und V PBG BGS 721.111 als PDF | `bgs.zg.ch/frontend/versions/pdf_file_with_annex/2266` bzw. `/2495` |
 | **GEAK** | Pflicht-Nachweis bei Subvention > CHF 10'000 | `geak.ch` (aus `LINKS.docx`) |
 
-Wichtige Einschraenkung, die der ZugMap-Report selbst vermerkt: Ausz&uuml;ge sind **teilweise
+Wichtige Einschraenkung, die der ZugMap-Report selbst vermerkt: Auszüge sind **teilweise
 generalisiert und nur fuer den Eigengebrauch**; rechtsverbindlich bleiben die Originaldokumente
 der zustaendigen Amtsstelle, Publikation in oeffentlichen Medien bewilligungspflichtig.
 Der OEREB-Auszug traegt denselben Vorbehalt («rein informativer Charakter»). Fuer eine
@@ -658,8 +658,764 @@ Unterordner `Brandschutz/` (VKF-Material, Korrespondenz Brandschutzplaner, BSPUB
 
 # TEIL 3 — `04 CONTROLLING/`
 
-(in Arbeit)
+## 3.1 Fall Niederhasli — Controlling-Fact-Sheet und Sensitivitaets-Methodik
+
+Objekt: Niederhasli, Seestrasse 64, **Kat.-Nr. 2025, 1'049 m2, Zone WE2**. Kaufpreis
+**CHF 1'490'000**. Kaeufer sind Privatpersonen (bewusst nicht uebernommen).
+
+**Baurechtliche Basis:** BZO-Totalrevision 2024. Zone WE2 erlaubt **nur Ein- und
+Doppeleinfamilienhaeuser**. Der bewertungsrelevante Punkt: **die Ausnuetzung wird nicht ueber
+AZ oder BMZ gesteuert, sondern ueber Gebaeudeabmessungen, Hoehen und Grenzabstaende**
+(IVHB-Standards implementiert, moegliche zusaetzliche Nachweispflichten wie Terrain oder
+Gutachten). Das ist die Kern-Fallstricknotiz: in einer solchen Zone laesst sich das Volumen
+nicht ueber eine Ziffer hochrechnen, sondern nur geometrisch — und die Gemeinde kann ueber
+Ortsbildschutz nachtraeglich kuerzen.
+
+**Kostenbasis (WKB):** Gesamtkosten **CHF 5.61 Mio.**; **Baukosten oberirdisch CHF 2'650/m2**
+(bezeichnet als «marktueblich mittlerer Standard, Region ZH»). Marge **8.1 %**, im Fact Sheet
+selbst als «eher knapp» bzw. «fuer Risiko eher tief» qualifiziert.
+
+**Ertragsannahmen:** **CHF 11'000/m2 HNF** — ausdruecklich «oberes Marktsegment, nur bei
+Premiumlage realistisch»; **10 TG-Plaetze à CHF 45'000** als marktgerecht bezeichnet.
+
+**Risikoraster (5 Achsen, je mit Stufe und Begruendung)** — direkt uebertragbares Muster:
+Baurecht **mittel bis hoch** (MFH in WE2 problematisch, Genehmigungsfaehigkeit fraglich) ·
+Ortsbildschutz **hoch** (Gemeinde kann Ausnutzung kuerzen) · Kostensteigerung **mittel**
+(Baukosteninflation und Anpassungen) · Marktrisiko **mittel** (hoher m2-Preis) ·
+Genehmigungsdauer **mittel** (zusaetzliche Gutachten/Terrainabklaerungen moeglich).
+
+**Fazit-Dramaturgie:** «Formale Grundlagen vertrauenswuerdig / solide. Wirtschaftlich
+ambitioniert.» Empfehlung: Vorabklaerung mit der Gemeinde plus **alternative
+Wirtschaftlichkeitsrechnung mit reduzierter Ausnutzung und konservativerem Verkaufspreis**.
+
+### Die Sensitivitaets-Methodik (der uebertragbare Kern)
+
+Zwei Kostenmodelle gegen dieselbe Ertragsreduktion:
+- **Modell A — Kosten fix:** alle Kosten bleiben gleich, unabhaengig von der Ausnuetzung.
+  Die Marge kippt entsprechend stark ins Negative.
+- **Modell B — 70/30:** 70 % Fixkosten, 30 % variable Kosten proportional zur Ausnuetzung.
+  Der Verlust bei Ausnuetzungsverlust faellt deutlich geringer aus.
+
+Getestet werden drei Punkte: 0 % / -10 % / -20 % Ausnuetzung. Ertrag skaliert linear
+(6'103'450 → 5'493'105 → 4'882'760, also exakt -10 % und -20 %).
+
+Modell A (in allen Fassungen identisch):
+
+| Ausnuetzung Δ | Ertrag CHF | Kosten A fix CHF | Marge A absolut CHF | Marge A % |
+|---|---|---|---|---|
+| 0 % | 6'103'450 | 5'609'411 | 494'039 | **8.09** |
+| -10 % | 5'493'105 | 5'609'411 | -116'306 | **-2.12** |
+| -20 % | 4'882'760 | 5'609'411 | -726'651 | **-14.88** |
+
+Aussage: **Der Break-even liegt zwischen 0 % und -10 % Ausnuetzungsverlust.** Bei einer
+Ausgangsmarge von 8.09 % und vollstaendig fixen Kosten kippt das Projekt schon bei rund
+-8 % Ausnuetzung ins Minus. Das ist die eigentliche Botschaft des Instruments.
+
+### WIDERSPRUCH: Archivfassung und Endfassung rechnen Modell B NICHT gleich
+
+Ausdruecklich benannt, nicht geglaettet. Beide Fassungen deklarieren «70 % Fixkosten,
+30 % variabel», liefern aber unterschiedliche Zahlen:
+
+| Ausnuetzung Δ | Kosten B — Endfassung | Marge B — Endfassung | Kosten B — Archiv/Tiefanalyse | Marge B — Archiv/Tiefanalyse |
+|---|---|---|---|---|
+| 0 % | 5'609'411 | 494'039 / 8.09 % | 5'609'411 | 494'039 / 8.09 % |
+| -10 % | **5'423'588** | **69'517 / 1.27 %** | **5'441'129** | **51'976 / 0.95 %** |
+| -20 % | **5'237'764** | **-355'004 / -7.27 %** | **5'272'846** | **-390'086 / -7.99 %** |
+
+Endfassung = `LINK/Tabelle.docx`/`.pdf`, `CONTROLLING & SENSITIVITÄT.pdf` (erstellt
+04.02.2026) und `_Archiv/JANS CONTROLLING & SENSITIVITÄT PROJEKT NIEDERHALSLI.pdf`
+(erstellt 11.08.2025) — alle drei tragen die **linke** Zahlenreihe.
+Archivfassung = `LINK/_Archiv/Niederhasli_Szenarien_Vergleich_Quer_Vollständig.pdf` und
+`LINK/Niederhasli_FactSheet_Tiefanalyse.pdf` — beide tragen die **rechte** Reihe.
+
+**Nachgerechnet:** Bei Gesamtkosten 5'609'411 und 30 % variablem Anteil (= 1'682'823) ergibt
+eine 10-prozentige Reduktion 168'282 weniger Kosten, also **5'441'129** — die Archivfassung
+ist arithmetisch korrekt fuer 70/30. Die Endfassung reduziert um 185'823 bzw. 371'647, was
+einem variablen Anteil von **33.1 %** entspricht, nicht 30 %. Die **ausgelieferte** Fassung
+(inkl. des JANS-Decks von 2025 und 2026) traegt damit die Abweichung; die archivierte
+Arbeitsfassung rechnet sauber. Die Grafik `LINK/Margenvergleich_Niederhasli.png`
+(Liniendiagramm Modell A blau gegen Modell B orange, x-Achse 0 %/-10 %/-20 %, y-Achse Marge %)
+zeigt Modell B bei -10 % knapp ueber null und bei -20 % bei rund -7 % — sie folgt also
+ebenfalls der Endfassung und erbt die Abweichung.
+
+Praktische Konsequenz: Der qualitative Befund (Modell B faengt den Ausnuetzungsverlust ab,
+kippt aber ebenfalls vor -20 %) haelt in beiden Fassungen. Die Zahlen selbst duerfen erst
+nach Bereinigung zitiert werden.
+
+**Zweiter Widerspruch, kleiner:** `LINK/_Archiv/Sensitivitaetsanalyse_Niederhasli.docx/.pdf`
+traegt die Ueberschrift «Sensitivitaetsanalyse» und rechnet **nur Modell A**
+(«Kostenannahme unveraendert, da gewisse Fixkosten bestehen»), waehrend die Tabelle unter
+derselben Ueberschrift in `Niederhasli_FactSheet_Tiefanalyse.pdf` («Sensitivitaetsanalyse
+mit Kosteneffekten») bereits variable Kosten enthaelt, die Spalte aber neutral «Kosten (CHF)»
+nennt. Wer nur die Spaltenkoepfe liest, verwechselt die Modelle. Zudem ist
+`LINK/_Archiv/Niederhasli_Szenarien_Vergleich.pdf` (Hochformat) im Layout **abgeschnitten** —
+die Spalten «Marge B absolut» und «Marge B» fehlen; erst die Querformat-Fassung ist
+vollstaendig. Die drei Archivfassungen sind Layout-Iterationen desselben Inhalts.
+
+## 3.2 `Juan/Oftringen/` — Wohnueberbauung Kreuzstrasse 25–39, 4665 Oftringen AG
+
+Reales Renditeobjekt mit bewilligter Aufstockung; Herkunft: Weiterleitung eines
+Treuhand-/Vermittlungspartners an JANS am **09.03.2026** (Originalmail 24.02.2026).
+Verkaufsdokumentation datiert **August 2025**, 47 Seiten.
+
+**Stammdaten:** Kataster-Nr. **196**, Grundstueckflaeche **8'639 m2**, Bauzone **Wohnzone W3
+(100 %)**, Baujahr **1986**, Renovationen diverse (u.a. **2012 Heizung**), Gebaeudevolumen
+**27'817 m3**, Gebaeudeversicherungswert **CHF 16'645'000**, Gemeinde Oftringen
+(15'143 Einwohner per 31.12.2024). Mikrolagerating Wuest Partner **5.0 / 5.0 («exzellent»)**.
+Distanzen: Einkaufen 50 m, Freizeit/Sport 100 m, Restaurant 100 m, OeV 100 m, Schule 250 m;
+Zuerich 50 min, Aarau 20 min, Luzern/Baden 30 min, Basel 40 min, Bern 45 min.
+
+**Bestand:** 46 Wohnungen (7× 2.5-Zi, 22× 3.5-Zi, 14× 4.5-Zi, 3× 5.5-Zi), Wohnflaeche
+ca. **4'419 m2**, 49 Einstellplaetze innen, 12 Abstellplaetze aussen, 4 Motorradplaetze innen.
+
+**Ertraege Bestand:** Mietzinseinnahmen **Soll CHF 746'579 netto p.a. = CHF 148/m2 p.a.** ·
+**Leerstand 70.2 %** (gezielte Entmietung fuer das Entwicklungsprojekt) · Marktmiete aktuell
+**CHF 888'585 netto p.a. = CHF 175/m2 p.a. (+19 %)**.
+
+**Entwicklungspotenzial:** **+32 Wohnungen** (46 → 78; neuer Mix 14× 1.5-Zi, 24× 2.5-Zi,
+30× 3.5-Zi, 10× 4.5-Zi), Wohnflaeche ca. **5'326 m2**, Mieterträge **CHF 1'533'230 netto p.a.
+= CHF 264/m2 p.a. (+105 %)**.
+
+**Die Quantil-Einordnung (das methodisch Wertvollste an diesem Dossier):**
+
+| Ertragsstufe | CHF/m2 p.a. | Marktquantil |
+|---|---|---|
+| Aktuelle Vermietung | **148** | ca. **<10 %-Quantil** |
+| Marktmiete Bestand | **175** | ca. **25 %-Quantil** |
+| Marktmiete nach Aufstockung | **264** | ca. **90 %-Quantil** |
+
+Diese Dreistufigkeit (Ist → Marktmiete Bestand → Marktmiete Neubauteil), jeweils gegen ein
+Quantil des lokalen Marktes gestellt, ist genau die Struktur, die der Artikel
+`vergleichswert-hedonisch` braucht: das Aufwertungspotenzial wird nicht behauptet, sondern
+als Quantilsprung ausgewiesen — mit der impliziten Warnung, dass die Zielmiete am oberen
+Rand (90 %-Quantil) liegt.
+
+**Groessen-Preis-Gradient je Wohnungstyp** (aus `Mieterspiegel_Oftringen_Aufstockung.pdf`,
+Nettomiete pro m2 NWF p.a. der 32 neuen Wohnungen):
+
+| Wohnungstyp | Flaeche m2 NWF | Nettomiete CHF/Mt | CHF/m2 p.a. |
+|---|---|---|---|
+| 1.5-Zi (klein) | 30.5 | 875–925 | **344–364** |
+| 1.5-Zi | 32.0–39.0 | 925–990 | **305–347** |
+| 2.5-Zi | 52.0–52.5 | 1'350 | **309–312** |
+| 3.5-Zi Bestand | 81.0–84.5 | 1'725 | **245–256** |
+| 4.5-Zi Bestand | 93.5–94.5 | 1'900 | **241–244** |
+
+**Der Gradient ist eindeutig und quantifiziert:** von 4.5-Zi (ca. 244 CHF/m2) zu 1.5-Zi
+(bis 364 CHF/m2) steigt der Flaechenpreis um rund **50 %**. Die kleinste Einheit (30.5 m2)
+erzielt den hoechsten m2-Preis. Das ist der Kern der Aufstockungs-Wirtschaftlichkeit:
+nicht nur mehr Flaeche, sondern **teurere Flaeche pro m2 durch kleineren Wohnungsmix**.
+Innerhalb einer Typenklasse fallen die CHF/m2 mit wachsender Flaeche (1.5-Zi: 30.5 m2 →
+364 CHF/m2, 39.0 m2 → 305 CHF/m2).
+
+**Nebenobjekte (belegte Kennwerte):**
+- **Einstellhallenplaetze:** 80 Stueck, CHF **10'400/Mt** total, **CHF 124'800 p.a.**,
+  ausgewiesen als **CHF 130 je Platz und Monat**.
+- **Bastelraeume im UG:** 16 Stueck, 11.0–24.5 m2, CHF 65–125/Mt; **CHF 60–82/m2 p.a.**,
+  Durchschnitt 205 m2 / CHF 14'940 p.a. = **73 CHF/m2 p.a.**. Der m2-Preis faellt mit der
+  Groesse (11 m2 → 82 CHF/m2, 24.5 m2 → 61 CHF/m2), also derselbe Gradient wie bei den
+  Wohnungen.
+- Kellerabteile: pauschal 8 m2 je Wohnung, nicht separat bepreist (in der Wohnungsmiete
+  enthalten).
+
+**Gebaeudeversicherungswert je Gebaeude — CHF/m3 (Realwert-Kennwerte):**
+
+| Gebaeude | Volumen m3 | GVW CHF | **CHF/m3** |
+|---|---|---|---|
+| Kreuzstrasse 25/27 | 5'586 | 3'707'000 | **664** |
+| Kreuzstrasse 29/31 | 6'003 | 3'980'000 | **663** |
+| Kreuzstrasse 33/35 | 5'732 | 3'769'000 | **658** |
+| Kreuzstrasse 37/39 | 5'161 | 3'548'000 | **688** |
+| Einstellhalle | 5'335 | 1'641'000 | **308** |
+| **Total** | **27'817** | **16'645'000** | **598** |
+
+Sehr sauberer Beleg: **Wohnbau Baujahr 1986 ≈ CHF 660/m3 GVW, Einstellhalle ≈ CHF 308/m3**,
+also rund **46 %** des Wohnbauwerts. Das Mischtotal von 598 CHF/m3 waere ohne diese Trennung
+irrefuehrend — genau der Grund, warum GVW/m3 immer nach Gebaeudetyp getrennt gefuehrt werden
+muss.
+
+**Kaufpreis und abgeleitete Bruttorenditen.** Der Verkaufspreis steht **nicht** in der
+Verkaufsdokumentation, sondern nur in der Begleitmail vom 24.02.2026:
+**CHF 26'500'000**; die Mail beziffert den Ertrag nach Umbau mit «rund CHF 1'533'000»
+(deckungsgleich mit der Dokumentation) und haelt fest, dass eine **100-%-Finanzierung**
+moeglich waere. Daraus abgeleitet (eigene Rechnung, kein Dokumentwert):
+
+| Ertragsbasis | CHF netto p.a. | Bruttorendite auf CHF 26.5 Mio. |
+|---|---|---|
+| Soll aktuell | 746'579 | **2.82 %** |
+| Marktmiete Bestand | 888'585 | **3.35 %** |
+| nach Aufstockung | 1'533'230 | **5.79 %** |
+
+Der Kaufpreis entspricht **CHF 953/m3** Gebaeudevolumen und **CHF 3'068/m2** Grundstueck; er
+liegt beim **1.59-fachen** des Gebaeudeversicherungswerts. Die Investitionsthese steht und
+faellt also vollstaendig mit der Realisierung der Aufstockung: ohne sie rentiert das Objekt
+mit 2.8–3.4 % brutto, mit ihr mit 5.8 % — und die Aufstockungskosten sind in der
+Dokumentation nicht beziffert.
+
+**Baubewilligung (der Werttreiber, belegt):** `Baubewilligung 2025-0080, 2026-02-03.pdf`,
+Gemeinde Oftringen, Abteilung Bauen Planen Umwelt, ausgestellt **02.02.2026**
+(Eingangsstempel Bauherrschaft 03.02.2026), 10 Seiten. Baugesuch Nr. **2025-0080**.
+Bauvorhaben: **Umbau und Aufstockung von 4 Mehrfamilienhaeusern, Erweiterung Tiefgarage,
+neue Umgebungsgestaltung**, Parzelle 196, Kreuzstrasse 25/27/29/31/33/35/37/39.
+**Zone W3 · AZ zulaessig 0.60 · AZ Projekt 0.80 «gemaess Art. 44 Innenentwicklung»**.
+Anschluss oeffentliche Kanalisation bestehend. Oeffentliche Auflage 26.09.–27.10.2025,
+**keine Einwendungen**.
+
+Damit ist der zweite Kandidat fuer `az-gfz-kennwerte` belegt: **Oftringen AG, Zone W3,
+AZ 0.60, erhoehbar auf 0.80 ueber die Innenentwicklungs-Bestimmung (Art. 44 BNO Oftringen)**
+— ein Bonus von **+33 %** auf die Grundausnuetzung. Die Verkaufsdokumentation vom August 2025
+sagte noch «Bewilligung im Herbst 2025 erwartet»; sie kam im Februar 2026, also mit rund
+vier Monaten Verzug — ein direkt verwertbarer Erfahrungswert zur Genehmigungsdauer
+(Auflage bis 27.10.2025, Entscheid 02.02.2026 = **rund 14 Wochen nach Auflageschluss** ohne
+Einwendungen).
+
+**Datenabweichung im Dossier (nicht geglaettet):** Der Mieterspiegel summiert
+**CHF 1'546'560 p.a.** (Wohnungen 1'406'820 + Einstellplaetze 124'800 + Bastelraeume 14'940),
+die Facts-&-Figures-Seite nennt **CHF 1'533'230 p.a.** — Differenz **CHF 13'330** (0.86 %).
+Zudem ist der dort danebenstehende Einheitswert «CHF 264/m2 p.a.» aus der **Wohnungsmiete
+allein** gerechnet (1'406'820 / 5'326 m2 = 264), waehrend die Gesamtzahl auch Parkierung und
+Bastelraeume enthaelt. Wer 264 × Wohnflaeche rechnet, kommt nicht auf das ausgewiesene Total.
+
+## 3.3 `Juan/Burg Ipsbach/` — zwei Bestandsobjekte, mit Preisdiskrepanz
+
+Beide Objekte kamen mit derselben Mail vom **24.02.2026** (an JANS weitergeleitet
+09.03.2026) als Angebote mit einer **100-%-Finanzierungskonstruktion**: Kaufpreis nominal,
+davon Eigenmittel rechnerisch 25 %, Auszahlung an den Verkaeufer, Restauszahlung an den
+Kaeufer, plus Vermittlungshonorar.
+
+### Objekt A — 5736 Burg (Menziken) AG, Plattenhofweg
+
+**BENENNUNGSFEHLER, ausdruecklich gemeldet:** Die Datei heisst
+`Dokumentation Aarburg Plattenhofweg.pdf`, das Dokument selbst betrifft aber
+**5736 BURG (MENZIKEN) AG**, nicht Aarburg. Beides sind Gemeinden im Kt. Aargau, liegen aber
+rund 30 km auseinander (Burg im Wynental bei Menziken, Aarburg am Aareknie bei Olten). Auch
+der uebergeordnete Ordnername `Burg Ipsbach` ist doppelt fehlerhaft: die zweite Gemeinde
+heisst **Ipsach** (BE), nicht «Ipsbach». Die Mail selbst schreibt korrekt «Burg,
+Plattenhofweg 9». Die Datei ist umzubenennen, bevor sie in eine Bewertung eingeht.
+
+Factsheet der Maklerfirma, **Januar 2026**, 14 Seiten.
+
+| Merkmal | Wert |
+|---|---|
+| Kataster | 4611 |
+| Grundstuecksflaeche | 1'109 m2 |
+| Gebaeudevolumen | **4'665 m3 (SIA 416)** |
+| Gebaeudeversicherungswert | **CHF 3'170'000 (Nov. 2024)** |
+| Baujahr | **1966**, saniert 1999 und 2024 |
+| Einheiten | 12 Wohnungen, 12 Parkplaetze, 4 Garagen; vollvermietet |
+| Mietertrag **brutto SOLL** | **CHF 235'580 p.a.** |
+| Mietertrag **netto SOLL** | **CHF 204'020 p.a.** |
+| Mietertrag **netto IST** | **CHF 194'472 p.a.** |
+| Verkaufspreis ab | **CHF 4.1 Mio.** |
+| Bruttorendite (Dokument) | **4.75 %** |
+
+Abgeleitete Kennwerte (eigene Rechnung): **GVW CHF 679/m3** · Kaufpreis **CHF 879/m3** und
+**CHF 3'697/m2 Grundstueck** · Kaufpreis = **1.29 × GVW** · Nebenkostenanteil
+(brutto − netto SOLL) = 31'560 = **13.4 %** der Bruttomiete · Mietausfall/Leerstand
+(netto IST gegen netto SOLL) = **4.7 %**.
+
+**RECHENFEHLER IM FACTSHEET (nicht geglaettet):** Die ausgewiesene «Bruttorendite 4.75 %»
+ist **keine** Bruttorendite. 235'580 / 4'100'000 = **5.75 %**. Der Wert 4.75 % entsteht aus
+**Nettomiete IST / Kaufpreis** (194'472 / 4'100'000 = 4.74 %). Das Dokument etikettiert eine
+Nettorendite als Bruttorendite — ein Prozentpunkt Unterschied. Fuer den Vergleich mehrerer
+Angebote muss der Nenner jedes Mal selbst nachgerechnet werden.
+
+**PREISDISKREPANZ Mail gegen Dokumentation (der wichtigste Befund dieses Ordners):**
+Die Begleitmail nennt fuer Burg einen **Kaufpreis von CHF 7'000'000**, das Factsheet einen
+**Verkaufspreis ab CHF 4'100'000**. Aufloesung: Die in der Mail als «Auszahlung Verkaeufer»
+genannte Position betraegt exakt **CHF 4'100'000** — also den Betrag der Verkaeufer
+tatsaechlich sieht. Der nominale Kaufpreis von 7.0 Mio. ist die auf die
+Finanzierungskonstruktion aufgeblaehte Zahl, aus der zusaetzlich «Auszahlung fuer Kaeufer
+max. CHF 1'150'000» und «Honorar CHF 275'000» bedient werden; die restlichen rund
+CHF 1'475'000 sind in der Mail nicht zugeordnet. Der Nominalpreis liegt damit **71 % ueber
+dem Angebotspreis der Maklerfirma**. Auf 7.0 Mio. gerechnet betruege die Bruttorendite noch
+**3.37 %** statt 5.75 %.
+
+**Sanierungsstau mit Ist-Kosten** (Sanierungsliste im Factsheet) — CHF 219'500 in vier Jahren
+verbaut, das Objekt gilt als «kein unmittelbarer Sanierungsbedarf»:
+
+| Jahr | Arbeiten | CHF |
+|---|---|---|
+| 2022 | neue Gasheizung, neuer WW-Boiler, neue Fenster ganze Liegenschaft | *nicht beziffert* |
+| 2023 | Kinderspielplatz | 6'500 |
+| 2024 | neue Sonnenstoren ganze Liegenschaft | 10'000 |
+| 2024 | Umgebungsarbeiten, Gelaender Eingang, neue Parkplaetze | 85'000 |
+| 2024 | 4 Badezimmer, Strangsanierung | 20'000 |
+| 2024 | neues Schliesssystem 12 Wohnungen inkl. Briefkasten | 18'000 |
+| 2024 | Malerarbeiten Treppenhaus und 6 Wohnungen komplett | 25'000 |
+| 2024 | neuer Bodenbelag in 5 Wohnungen komplett | 25'000 |
+| 2025 | Elektronachweise und Neuinstallation 5 Wohnungen | 5'000 |
+| 2025 | 2 Wohnungen neue Bodenbelaege, neue Badezimmer | 25'000 |
+
+Ableitbare Einheitskosten: **Badezimmer inkl. Strangsanierung ca. CHF 5'000/Stueck** (4 für
+20'000) · **Malerarbeiten Wohnung komplett ca. CHF 4'200/Stueck** (6 Whg + Treppenhaus für
+25'000) · **Bodenbelag Wohnung komplett ca. CHF 5'000/Stueck** (5 für 25'000) ·
+**Schliesssystem inkl. Briefkasten ca. CHF 1'500/Wohnung**. Das sind guenstige, klar auf
+Mieterwechsel-Standard kalkulierte Saetze; fuer eine Ankaufspruefung ist das ein Signal,
+dass hier kosmetisch und nicht substanziell saniert wurde. **Der einzige nicht bezifferte
+Posten (2022: Heizung, Boiler, Fenster gesamt) ist zugleich der teuerste** — die
+Sanierungsliste ist damit unvollstaendig als Kostenbeleg. Zusaetzlich: Die 2022 eingebaute
+Anlage ist eine **Gasheizung**, also fossil und in der Restnutzungsdauer regulatorisch,
+nicht technisch begrenzt.
+
+Weiteres Belegmaterial im Dossier, nur eingeordnet (Bildseiten ohne Textebene):
+Katasterauszug · Grundbuchauszug (5 Seiten, mit Dienstbarkeiten und Pfandstellen) ·
+Mieterspiegel (2 Seiten) · Gebaeudeversicherungsausweise · Nebenkostenzusammenstellung ·
+Verteilung Nebenkosten pro Mieter. Die Mieterdaten wurden bewusst nicht ausgewertet.
+Disclaimer der Maklerfirma: das Factsheet ist ausdruecklich **kein Referenzdokument fuer
+Anlageentscheide**, kein Angebot, kein Emissionsprospekt und keine verlaessliche Grundlage
+fuer den Kaufvertrag.
+
+### Objekt B — Ipsach BE (Vorort von Biel, rechtes Seeufer Bielersee)
+
+Dokumentation 7 Seiten, ueberwiegend Bildseiten ohne Textebene (per Rendering gelesen).
+
+| Merkmal | Wert |
+|---|---|
+| Baujahr | **1972**, gepflegter Zustand |
+| Geschosse | 3 + UG, **kein Lift** |
+| Vermietbare Flaeche | **964 m2** |
+| Gebaeudeversicherungswert 2025 | **CHF 3'000'000** |
+| Einheiten | 17 Wohnungen (1- bis 4-Zimmer), 6 Einzelgaragen, 15 Aussenparkplaetze |
+| Nettomiete SOLL/IST | **CHF 211'176 p.a.** |
+| Leerstand | **7 %** (Vermietungsquote 93 %) |
+| Heizung | **Oel (1999)** |
+| Grundstueck | **2'083 m2** |
+| Zone | **Wohnzone W3**, **Ausnuetzungsziffer 0.85** |
+| Ausbaupotenzial | **ca. 400 m2** (Dachaufstockung / Kellerausbau / Ersatzneubau moeglich) |
+| Kaufpreis (nur aus der Mail) | **CHF 6'750'000** |
+
+**Standortqualitaet und Marktbezug (der methodisch wertvolle Teil):**
+- **Standortqualitaet gemaess Wuest Partner: 2.9 / 5** — deutlich unter Oftringen (5.0/5.0).
+- **Leerstandsziffer MFH im Ort: Ø 1.5 %** gegen **7 % im Objekt** — der Leerstand ist
+  objekt-, nicht marktbedingt.
+- **Nettomiete Ipsach Ø: CHF 201/m2/Jahr**; das Objekt erzielt 211'176 / 964 =
+  **CHF 219/m2/Jahr**, also rund **9 % ueber dem Ortsdurchschnitt**.
+- **«Aktuelle Mieten im 90 %-Quantil»** — ausdruecklich vermerkt. Das ist die entscheidende
+  Aussage: **hier gibt es praktisch kein Mietsteigerungspotenzial**, im Gegensatz zu
+  Oftringen (dort <10 %-Quantil). Bei gleichzeitig 7 % Leerstand deutet das auf eine
+  ueberzogene Mietpreisstellung hin.
+- **Kaufpreis Eigentumswohnungen im Ort Ø CHF 6'320/m2** — als Referenz fuer eine
+  Abparzellierungs-/STWEG-Strategie.
+
+Abgeleitete Kennwerte (eigene Rechnung): Bruttorendite auf den Mailpreis von CHF 6'750'000 =
+**3.13 %**; auf die «Auszahlung Verkaeufer» von CHF 4'500'000 = **4.69 %**. GVW je m2
+vermietbare Flaeche = **CHF 3'112/m2**; Kaufpreis (Mail) = **2.25 × GVW**;
+Kaufpreis je m2 vermietbare Flaeche = **CHF 7'002/m2**, also **11 % ueber** dem
+Ortsdurchschnittspreis fuer Wohneigentum (6'320/m2) — und das fuer ein Renditeobjekt von
+1972 ohne Lift. Auch hier gilt die Preisdiskrepanz-Logik von Burg: die Konstruktion nennt
+6.75 Mio. nominal, dem Verkaeufer fliessen 4.5 Mio. zu.
+
+**Instandhaltungs-Historie:** bis 2012 vier Wohnungsrenovationen (Kuechen und Baeder);
+ab 2013 **72 neue Fenster (3-fach)**, 12 Baeder und 13 Kuechen erneuert, neue Bodenbelaege,
+Malerarbeiten Treppenhaus und Keller, neue Waschmaschine und Tumbler, Garagentore und
+Betonpfeiler, Technik (Expansionsgefaess, Wasserpumpe, Messgeraet). Untergeschoss mit Wasch-,
+Technik-, Lager- und Veloraum; Gemeinschaftsgarten; **Estrich nicht ausgebaut** (Bezug zum
+Ausbaupotenzial von 400 m2). Kein Lift bei 3 Vollgeschossen ist der wesentliche
+strukturelle Mangel.
+
+**Der offene Punkt bei beiden Objekten:** Weder Burg noch Ipsach nennen im Dokument
+Dienstbarkeiten oder Pfandstellen im Klartext — beim Burg-Dossier liegen fuenf Seiten
+Grundbuchauszug als Bildseiten bei, die vor einem Kaufentscheid einzeln auszuwerten sind.
+Bei Ipsach fehlt ein Grundbuchauszug im Dossier ganz.
+
+## 3.4 Ordnungsbefunde in `04 CONTROLLING/`
+
+- Drei Dateien liegen **doppelt**: `Mieterspiegel_Oftringen_Aufstockung.pdf`,
+  `Verkaufsdokumentation_Oftringen.pdf` und `Baubewilligung 2025-0080, 2026-02-03.pdf`
+  jeweils sowohl direkt in `Juan/` als auch in `Juan/Oftringen/`.
+- `CONTROLLING & SENSITIVITÄT.pdf` (04.02.2026) ist inhaltsgleich mit
+  `_Archiv/JANS CONTROLLING & SENSITIVITÄT PROJEKT NIEDERHALSLI.pdf` (11.08.2025); geaendert
+  hat sich nur die Position des JANS-Logos auf den Titelseiten. Die aeltere Fassung ist als
+  «250811 JANS CONTROLLING & SENSITIVITÄT» bereits in die KB eingearbeitet — die neuere
+  bringt inhaltlich **nichts Neues**.
+- Die Ordnernamen `Juan` und `Burg Ipsbach` sind Personen- bzw. fehlerhafte Ortsnamen und
+  folgen nicht der Dateinamen-Konvention (kein Datums-Prefix, Tippfehler «Ipsbach»).
 
 # TEIL 4 — `05 MASSAUFNAHMEN/` und `_Vorlage/`
 
-(in Arbeit)
+`find`-Befund: **`05 MASSAUFNAHMEN/` enthaelt genau ein Objekt**, `0105_01_PFAFFHAUSEN`
+(Saentisstrasse 2). Kein weiteres Objekt.
+
+## 4.1 Raumprogramm Pfaffhausen — Flaechensystematik und SIA-416-Pruefung
+
+Quelle: `06 Raumprogramm/260217 0105_01_PFAFFHAUSEN_RAUMPROGRAMM.xlsx`, Blatt `Tabelle1`,
+Kopf «JANS / 0105_01_PFAFFHAUSEN / **Stand 17.02.2026**». Nur zwei Flaechenspalten:
+**D «Nebennutzflaeche m2»** und **E «HNF m2»**.
+
+| Stockwerk | Raum | NNF m2 | HNF m2 |
+|---|---|---|---|
+| 1 — UG | Familienzimmer | | 24.5 |
+| | Waesche | | 10.0 |
+| | **Total STWE-1** | **0.0** | **34.5** |
+| 2 — EG | Garage | 30.0 | |
+| | Waesche | | 10.2 |
+| | Kueche | | 10.3 |
+| | **Flur** | | **22.8** |
+| | Bad | | 4.8 |
+| | Esszimmer | | 20.6 |
+| | Wohnzimmer | | 14.8 |
+| | **Total STWE-2** | **30.0** | **83.5** (Formel `=SUM(E18:E23)`) |
+| 3 — 1. OG | Schlafzimmer | | 14.5 |
+| | Ankleide | | 10.8 |
+| | Medienraum | | 10.8 |
+| | Bad | | 4.8 |
+| | **Gang** | | **4.6** |
+| | **Flur** | | **19.2** |
+| | Schlafzimmer | | 16.3 |
+| | Schlafzimmer | | 11.8 |
+| | **Total STWE-3** | **0.0** | **92.8** |
+| 4 — Estrich | Estrich | 57.5 | |
+| | **Total Estrich** | **57.5** | **0** |
+| **Total** | Nebennutzflaeche Garage und Estrich | **87.5** | |
+| **Total** | **Hauptnutzflaeche (HNF)** | | **210.8** |
+| | **Total Nutzflaeche Haus** | **298.3 m2** | |
+
+Arithmetik durchgehend korrekt (34.5 + 83.5 + 92.8 = 210.8; 30.0 + 57.5 = 87.5;
+210.8 + 87.5 = 298.3). Nur eine der drei Stockwerks-Summen ist als Formel hinterlegt,
+die uebrigen sind Hartwerte — dieselbe Schwaeche wie beim Biel-Wertquotenblatt.
+
+### KRITISCHE PRUEFUNG gegen SIA 416 — die Zuordnung haelt nicht
+
+**Strukturbefund:** Das Blatt kennt nur zwei Kategorien (NNF und HNF). Die
+SIA-416-Systematik gliedert die Nettogeschossflaeche dagegen in **Nutzflaeche (NF) +
+Verkehrsflaeche (VF) + Funktionsflaeche (FF)**, wobei die NF sich in HNF und NNF teilt.
+**Verkehrsflaeche und Funktionsflaeche fehlen im Blatt vollstaendig** — es gibt keine Spalte,
+in die eine Erschliessungsflaeche ueberhaupt eingetragen werden koennte. Damit landet alles
+Nicht-Nebennutzbare zwangslaeufig in der HNF.
+
+**Konkret in der HNF, obwohl Erschliessung:**
+
+| Raum | Geschoss | m2 |
+|---|---|---|
+| Flur | EG | 22.8 |
+| Flur | 1. OG | 19.2 |
+| Gang | 1. OG | 4.6 |
+| **Summe Erschliessung in der HNF** | | **46.6** |
+
+**Das sind 22.1 % der ausgewiesenen HNF von 210.8 m2.** Werden diese Flaechen als
+Verkehrsflaeche ausgeschieden, sinkt die HNF auf **164.2 m2** — die deklarierte HNF ist
+also um rund ein Viertel zu hoch. Bei einer Bewertung auf CHF/m2 HNF ist das der Unterschied
+zwischen zwei ganz verschiedenen Zahlen.
+
+**Zweiter, kleinerer Punkt:** Die beiden Waschraeume (UG 10.0, EG 10.2 = 20.2 m2) sind
+ebenfalls als HNF gefuehrt. Waschen ist eine die Hauptnutzung ergaenzende Nebennutzung;
+diese Zuordnung ist mindestens pruefbeduerftig. Werden auch sie umgehaengt, betraegt die
+HNF **144.0 m2** statt 210.8 — eine Abweichung von **46.7 %** gegenueber dem ausgewiesenen
+Wert.
+
+**Vorbehalt gemaess Rule `normen-referenz`:** Die genaue Kategorienzuordnung (insbesondere
+wohnungsinterne Flure und Waschraeume) ist vor Verwendung an der Originalnorm SIA 416 bzw.
+ueber die KB `wissen/normen` zu verifizieren; hier wird die **Struktur** beanstandet
+(fehlende VF-/FF-Kategorie und die daraus folgende Sammelzuordnung), nicht eine Ziffer
+zitiert. Der quantifizierte Befund — 46.6 m2 Erschliessungsflaeche in der HNF — steht
+unabhaengig davon.
+
+**Dritter Befund:** Der Estrich (57.5 m2) ist vollstaendig als Nebennutzflaeche gefuehrt,
+obwohl er nach dem Matterport-Befund zu **12.3 m2 aus Flaeche mit Kopfhoehe unter 1.5 m**
+besteht (siehe 4.2). Und das «Familienzimmer» im UG (24.5 m2) ist als **Hauptnutzflaeche**
+gefuehrt, obwohl Matterport dort eine **lichte Raumhoehe von 1.96 m** gemessen hat —
+fuer einen Aufenthaltsraum eine Hoehe, die in den meisten kantonalen Bauordnungen die
+Anrechenbarkeit als Wohnraum ausschliesst. Beides ist vor einer Bewertung zu klaeren.
+
+Nebenbefund: Zelle C41 enthaelt den Tippfehler «GRAGE» statt «GARAGE».
+
+## 4.2 Matterport — was es liefert und was es auslaesst
+
+Quelle: `05 Download Matterport/2Sntisstrasse_ikqtsk4d2sr6rr20zseg1yk7b.pdf` (1 Seite,
+2896 x 2048 pt, reine Grafik ohne Textebene — per Rendering gelesen) und der zugehoerige
+CSV-Export `05 Download Matterport/_Archiv/2 S ntisstrasse.csv`. Walkthrough-Link
+(`Link walk throu.docx`): `my.matterport.com/show/?m=vn233oYbHDx`.
+
+**Was Matterport liefert:**
+- Massstaebliche Grundrisse aller vier Stockwerke mit Raumbezeichnungen und
+  **Raummassen (Breite x Laenge)**.
+- Je Stockwerk die **Bruttoinnenraum-Flaeche**.
+- Im CSV je Raum zusaetzlich: **lichte Raumhoehe**, **Flaeche** und **Flaeche mit Waenden**,
+  Stockwerkzuordnung und Lage (Innen-/Aussenbereich).
+- Export in PDF, SVG, PNG, DWG und CSV (im Fall Biel zusaetzlich als DWG-Paket).
+
+**Die Flaechenbilanz auf dem Plan (woertlich):**
+
+| Position | m2 |
+|---|---|
+| Bruttoinnenraum Stockwerk 1 | 36.0 |
+| Bruttoinnenraum Stockwerk 2 | 78.7 |
+| Bruttoinnenraum Stockwerk 3 | 88.0 |
+| Bruttoinnenraum Stockwerk 4 | 45.2 |
+| **Insgesamt** | **247.9** |
+| *Ausgelassen:* Garage | 28.1 |
+| *Ausgelassen:* Balkon | 8.6 |
+| *Ausgelassen:* reduzierte Kopffreiheit | 12.3 |
+
+**Was Matterport auslaesst — und das ist die entscheidende Information:**
+1. **Garage** (28.1 m2) — nicht im Total.
+2. **Balkon** (8.6 m2) — nicht im Total.
+3. **Reduzierte Kopffreiheit** (12.3 m2) — Flaeche unter der Kopfhoehen-Schwelle, auf dem
+   Plan im Stockwerk 4 durch gestrichelte Linien mit der Beschriftung **«< 1.5 m»**
+   abgegrenzt. Matterport rechnet also mit einer **1.5-m-Grenze**, nicht mit den 1.5/2.4 m
+   der Schweizer Anrechnungspraxis.
+4. Keine Aussenmasse, keine Gebaeudehuelle, kein Volumen, keine Konstruktionsflaeche —
+   Matterport misst nur den erfassbaren Innenraum.
+5. Offene Bereiche werden **zu einem Raum zusammengefasst**: im EG fasst der CSV-Export
+   Flur, Esszimmer und Wohnzimmer zu einem einzigen «Wohnzimmer» von 48.5 m2 zusammen,
+   und Raeume ohne erkennbare Funktion erscheinen als «Sonstiges» oder «Allzweckraum».
+   Die funktionale Gliederung des Raumprogramms muss also von Hand nachgezogen werden.
+
+**Genauigkeit und Vorbehalt:** Der Plan traegt woertlich den Vermerk **«ANGABEN OHNE
+GEWAEHR»**. Ein Aufmass aus dem Matterport-Scan ist damit ausdruecklich keine
+verbindliche Vermessung. Die gemessenen Raumhoehen streuen stark und plausibel
+(1.96 m bis 2.78 m), was fuer eine reale Messung spricht, aber Deckenversprünge und
+Unterzuege koennen die Angabe je Raum verzerren.
+
+**Verhaeltnis Matterport-Total zum Raumprogramm — die Kontrollrechnung:**
+
+| Vergleich | Matterport | Raumprogramm | Delta |
+|---|---|---|---|
+| Stockwerk 1 (UG) | 36.0 (brutto innen) | 34.5 (Raumsumme) | -1.5 plausibel |
+| Stockwerk 2 (EG), ohne Garage | 78.7 (brutto innen) | 83.5 (Raumsumme) | **+4.8 unplausibel** |
+| Stockwerk 3 (1. OG) | 88.0 (brutto innen) | 92.8 (Raumsumme) | **+4.8 unplausibel** |
+| Stockwerk 4 (Estrich) | 45.2 + 12.3 = **57.5** | **57.5** | **0.0 exakt** |
+| Garage | 28.1 (ausgelassen) | 30.0 | +1.9 |
+| **Total Haus** | 247.9 + 28.1 + 12.3 = **288.3** | **298.3** | **+10.0** |
+
+Drei Schluesse:
+- **Der Estrich stimmt auf 0.1 m2 genau ueberein — und zwar nur, wenn man die 12.3 m2
+  reduzierte Kopffreiheit MITZAEHLT** (45.2 + 12.3 = 57.5). Das ist der harte Beleg dafuer,
+  dass das Raumprogramm die Flaeche unter 1.5 m Kopfhoehe voll in die Nebennutzflaeche
+  einrechnet. Fuer eine Bewertung ist diese Flaeche nicht nutzbar.
+- **In EG und 1. OG uebersteigt die Raumsumme des Raumprogramms den Bruttoinnenraum um
+  je 4.8 m2.** Eine Summe von Raum-Nettoflaechen kann rechnerisch nicht groesser sein als
+  die Bruttoinnenflaeche desselben Geschosses (die Innenwaende sind darin enthalten). Der
+  gleiche Betrag in beiden Geschossen deutet auf eine systematische Ursache hin — vermutlich
+  wurden einzelne Raeume aus der Spalte «Flaeche mit Waenden» statt «Flaeche» uebernommen.
+  Zu klaeren, bevor die Zahlen verwendet werden.
+- Das Raumprogramm liegt in Summe **10.0 m2 (3.4 %) ueber** dem um Garage und
+  Kopffreiheit ergaenzten Matterport-Total.
+
+## 4.3 Uebrige Inhalte Pfaffhausen — und ein Ordnungsbefund
+
+- `03 PLAN/` enthaelt **keine eigenen Plaene**, sondern einen leeren Unterordner
+  **`2602 BIEL`** und `link/WhatsApp Image 2026-01-30 at 21.31.05.jpeg` — beides
+  unveraenderte Reste aus dem Biel-Projektordner.
+- `04 Grundlage/` spiegelt exakt die Biel-Struktur (`00 GIS`, `00 Geodienste`, `00 Maria`,
+  `00 Matterport`, `00 Verkaufsunterlagen`) und ist **vollstaendig leer**.
+- `01 Reglement/` und `02 Wertquotenberechnung/` sind ebenfalls leer.
+- **`00 Administration/00 INFOS/_Infos.docx` enthaelt woertlich «Ernst-Schuelerstrasse 41 /
+  2502 Biel»** — die Adresse des Biel-Projekts, nicht die des Objekts in Pfaffhausen.
+
+Der Pfaffhausen-Ordner ist also eine **Kopie des Biel-Ordners**, bei der die Biel-Reste nicht
+bereinigt wurden. Fuer die Identifikatoren-Disziplin ist das ein konkretes Risiko: wer
+`_Infos.docx` als Stammdatenquelle liest, uebernimmt die falsche Adresse.
+
+Weiteres, nur eingeordnet: `00 BH KORRESPONDENZ/260216 Grundlagen/` enthaelt
+Matterport-Beispielmaterial zur Leistungsklaerung mit der Bauherrschaft
+(`CHF15_floorplanSample/` mit Composite-PDF und SVG sowie `MP_COMMERCIAL_REAL_ESTATE/` mit
+DWG, DXF, RCS-Punktwolke und CTB-Plotstil) — also die Musterlieferung, an der der
+Leistungsumfang des Aufmasses vereinbart wurde. Administrativa: Angebot `an-00036.pdf`,
+Auftrag `au-00018.pdf`, Gutschrift `gs-00006.pdf`; die Ordner `02 AUFTRAGSBESTAETIGUNG`
+und `04 LIEFERSCHEIN` sind leer.
+
+## 4.4 `_Vorlage/260611-Checkliste-Kauf-Liegenschaft/` — die JANS-Checkliste
+
+DOCX + PDF, 2 Seiten, Fusszeile «Raphael Jans Architekten ETH SIA - rj@raphaeljans.ch -
+**11.06.26**». Selbstdeklaration: «Bereinigte Uebersicht aller Themen aus dem Merkblatt
+'Kauf von Liegenschaften' des **HEV Schweiz (2026)**. Gilt fuer Privatliegenschaften als
+Hauptwohnsitz.» Aufbau: Seite 1 Themenuebersicht in fuenf Bloecken, Seite 2 die eigentliche
+Checkliste mit Ankreuzfeldern.
+
+**Finanzierungsregeln (belegt, Seite 1 und 2):**
+
+| Groesse | Wert |
+|---|---|
+| **Tragbarkeit** | Wohnkosten inkl. Amortisation und Unterhalt **max. 1/3 des Nettoeinkommens** |
+| **Eigenmittel** | mind. **20 %** des Kaufpreises, davon mind. **10 % nicht aus der 2. Saeule** |
+| **Belehnung** | max. **80 %** des Kaufpreises per Hypothek |
+| **Kalkulatorischer Zins** | **4.5 bis 5.0 %** |
+| **Amortisation** | auf **2/3 des Belehnungswertes innert 15 Jahren** (jaehrlich 1–1.25 %) |
+| **Nebenkosten** | **mindestens 1 %** des Kaufpreises p.a. |
+
+**Entscheidschwelle (die JANS-eigene Zuspitzung):** «Individuelle Checkliste. Anforderungen
+definieren; **ab 70 bis 80 % Erfuellung kaufen**.» Das ist die einzige quantifizierte
+Kaufentscheidregel im ganzen Cluster und stammt nicht aus der HEV-Systematik, sondern aus
+der Verdichtung.
+
+**Die fuenf Pruefbloecke:** (1) Finanzierung und Tragbarkeit · (2) Preis und Objekt ·
+(3) Vertrag und Abwicklung · (4) Uebergabe und Uebergang · (5) Steuern und Gebuehren.
+
+**Der TDD-Block der Checkliste — direkt anschlussfaehig an Teil 2:** Zustandsbericht Dach,
+Heizung, Sanitaer, Elektro · **Kanal-TV-Bericht der Grundleitungen** · **Elektro-
+Sicherheitsnachweis (NIV)** aktuell? · **Energiebericht / GEAK mit Sanierungsfahrplan** ·
+Unterhalts- und Nebenkostenabrechnungen **der letzten 5 Jahre** · **Investitionsbedarf als
+CapEx-Fahrplan nach BKP** · TDD durch Fachperson, falls Bericht fehlt.
+
+**Der Baurechts-Block:** Baubewilligungsakten des Bestands einsehen · OeREB-Auszug,
+Zonenplan, Baureglement beschaffen · **Ausnuetzung, Uebernutzung, Besitzstand belegen** ·
+**Eingriffstiefe: Was loest eine Baueingabe aus?** · Brandschutz, Schallschutz, Parkplaetze,
+Energie · foermliche Voranfrage bei der Gemeinde. Das ist exakt die Fragenkette, die der
+Fall Baar (Teil 2) durchgespielt hat.
+
+Weitere Blockinhalte, verdichtet: Verkaufsdokumentation (Plaene, **Grundbuchauszuege inkl.
+Dienstbarkeiten**, Kauf-/Werkvertraege, **Protokolle der STWE-Versammlungen**, Alter und
+Bausubstanz, Lage/Schulen/Infrastruktur/**Steuerfuss**) · Maklervertrag (Entschaedigung,
+Faelligkeit, Kuendigungsfrist) · Anzahlung (Vorvertraege muessen oeffentlich beurkundet
+sein, Bonitaet des Verkaeufers, **Sperrkonto**) · Kaufvertrag (Notarsentwurf,
+Gewaehrleistungsausschluss, **SIA-Norm-Verweise gelesen und verstanden**, zugesicherte
+Eigenschaften) · Uebergabe (Neubau gereinigt, Bestand besenrein; Nutzen und Gefahr;
+**Heizoeltank-Inhalt gehoert dem Verkaeufer**) · **Erneuerungsfonds STWE geht mit dem
+Eigentum ueber, Kontostand kennen** · Mietvertraege gehen von Gesetzes wegen ueber ·
+Handaenderungssteuer (kantonal, meist Erwerber) · **Grundstueckgewinnsteuer: Sicherstellung
+verlangen wegen des gesetzlichen Pfandrechts** · Steueraufschub bei Ersatzbeschaffung,
+auch bei Ersatzkauf **vor** dem Verkauf.
+
+Die beiden STWE-Bezuege (Erneuerungsfonds-Kontostand, Versammlungsprotokolle) verbinden
+diese Checkliste direkt mit Teil 1: die dort belegte Aeufnungsregel von **0.5 % des
+Gebaeudeversicherungswertes p.a.** ist der Massstab, an dem sich ein vorgefundener
+Fondsstand messen laesst.
+
+## 4.5 `_Vorlage/hef.ch/kauf_von_liegenschaften_11_gesch_tzt.pdf` — die Quelle
+
+**Fassung:** Merkblatt «Kauf von Liegenschaften» des **Hauseigentuemerverbands Schweiz**,
+Copyright-Vermerk auf jeder Seite **«© Hauseigentuemerverband Schweiz, 2026»**, 13 Seiten,
+PDF erzeugt am **15.05.2026** aus dem HEV-Formularportal (Dokumenttitel
+`hev-forms-production.panter.biz`), **kopiergeschuetzt** (AES-256, Drucken erlaubt,
+Kopieren gesperrt). Die JANS-Checkliste (11.06.2026) ist also rund vier Wochen nach dem
+Bezug der Quelle entstanden. Danebenliegend `Bestellung_3000223100.pdf` als Beleg des
+Bezugs (Administrativum). **Der Ordnername `hef.ch` ist vermutlich ein Vertipper fuer
+`hev.ch`** — Herausgeber ist der HEV Schweiz.
+
+**Vermerkte Rechtsaenderungen — der eigentliche Grund, diese Fassung zu fuehren:**
+
+**(a) Gewaehrleistung, Revision des Obligationenrechts per 1. Januar 2026.** Drei Punkte,
+alle mit demselben Uebergangsregime (nur fuer Vertraege **ab** 01.01.2026; frueher
+geschlossene Vertraege unterstehen grundsaetzlich dem alten Recht):
+- **Ruegefrist 60 Tage** nach Entdeckung, vertraglich **nicht verkuerzbar**; unterlassene
+  Ruege gilt als Genehmigung des Mangels.
+- **Zwingendes unentgeltliches Nachbesserungsrecht**, das vertraglich **nicht mehr
+  ausgeschlossen** werden kann. Es gilt nicht nur fuer Bauwerkvertraege, sondern auch beim
+  Kauf von Grundstuecken mit Neubauten, die noch zu errichten sind **oder innerhalb der
+  letzten zwei Jahre vor dem Verkauf erstellt wurden**. Ausdruecklich profitieren davon auch
+  Stockwerkeigentuemer, die eine Neubauwohnung im Erstbezug nicht ab Plan, sondern **maximal
+  zwei Jahre nach Errichtung** kaufen.
+- Die Freizeichnung (Gewaehrleistungsausschluss) bleibt im Uebrigen zulaessig und ist bei
+  Bestandesbauten weit verbreitet; die Rechtsprechung setzt ihr aber Grenzen. Empfehlung:
+  Begutachtung durch eine Fachperson **vor** Vertragsabschluss, damit Maengel und
+  Behebungskosten in die Preisverhandlung einfliessen.
+- **Abgrenzung SIA 118:** Wird im Kaufvertrag auf die Gewaehrleistungsregeln der SIA 118
+  verwiesen, ersetzen diese die gesetzlichen Maengelrechte. Dann gilt statt der 60-Tage-Frist
+  eine **zweijaehrige Ruegefrist ab Abnahme**; danach koennen fuer **weitere drei Jahre** nur
+  noch verdeckte Maengel geruegt werden, diese wiederum **innert 60 Tagen nach Entdeckung**.
+  Die Maengelruege unterbricht die Verjaehrung **nicht**; der Anspruch muss innerhalb der
+  Verjaehrungsfrist eingeklagt werden.
+- **Zugesicherte oder absichtlich verschwiegene Eigenschaften: Verjaehrung zehn Jahre.**
+
+**(b) Eigenmietwert — Systemwechsel.** Am **28.09.2025** hat das Stimmvolk mit **57.7 %**
+eine Verfassungsaenderung angenommen, die den Kantonen die Kompetenz gibt, eine Objektsteuer
+auf ueberwiegend selbstgenutzten **Zweit**liegenschaften einzufuehren; daran gekoppelt war das
+Bundesgesetz ueber den Systemwechsel bei der Wohneigentumsbesteuerung, das die Pflicht zur
+Besteuerung der Eigennutzung aufhebt. **Inkrafttreten fruehestens 1. Januar 2028**; ein
+genaues Datum lag zum Druckzeitpunkt nicht vor. Mit Inkrafttreten entfallen gleichzeitig
+die bestehenden Abzuege: **Unterhaltskosten, Versicherungspraemien, Instandstellungskosten
+bei neu erworbenen Liegenschaften und Verwaltungskosten koennen kuenftig nicht mehr
+abgezogen werden**; der Abzug fuer energetische Sanierungen wird eingeschraenkt.
+Bis dahin gilt der Eigenmietwert weiter, im Erwerbsjahr **anteilmaessig** fuer die Dauer
+der Nutzung.
+
+Bewertungsrelevanz von (b): Der Wegfall des Unterhaltsabzugs veraendert die
+Nach-Steuer-Rechnung fuer selbstgenutztes Wohneigentum und damit die Zahlungsbereitschaft —
+mit einem Zeithorizont ab fruehestens 2028. Bis dahin ist jede Nach-Steuer-Betrachtung
+in einer JANS-Bewertung mit dem Vorbehalt des angekuendigten Systemwechsels zu versehen.
+
+## 4.6 `_Vorlage/02 Stockwerkeigentum/` — der STWE-Vorlagensatz (Einordnung)
+
+Vollstaendiger Vorlagensatz, die inhaltlich ausgewerteten Teile stehen in Teil 1
+(Wertquoten-Vorlage 1.3, Begruendungs-Doktrin 1.6, Musterreglement-Herkunft 1.7). Struktur:
+`00 Administration/` (Factsheet «Teilungsplan Vorgehen» 251027 und 260112 als PDF+INDD;
+Offerten/Rechnungen; **`03 Checkliste ST/Checkliste_STWEG_Begruendung_WOMA.docx/.xlsx`**;
+`10 ChatGPT/` mit den Ebmatingen-Arbeitsstaenden) · `00 Begruendungsakt/` (die Doktrin plus
+zwei amtliche Quellen: «Die Begruendung des Stockwerkeigentums — Ihre Notariate im Kanton
+Zuerich» und «Merkblatt Begruendung Stockwerkeigentum») · `01 Aufteilungsplan/` (Referenz-
+Teilungsplaene, der Bundes-Leitfaden **«Empfehlung DigDokSTWE»** in 63 Einzelseiten mit der
+**Planvorlage auf Seite 45**, Factsheet Plandarstellung, ArchiCAD-Vorlage
+`Vorlage_EBMATINGEN_01_Zuerichstr_113_115_HNF.pln` mit Grundriss-Grundlagen und
+`02 Flaechenangaben/113 Wohnungsspiegel.xlsx`) · `02 Wertquotenberechnung/` (Vorlage +
+Archiv + `_Vorlage/Wertquotenberechnung final Grundbuch.pdf`) · `03 Reglement/`
+(Lang-/Kurzfassung, Leitfaden, Vorlagen Biel und Ebmatingen).
+
+Bemerkenswert fuer die Methodik: Die ArchiCAD-Vorlage traegt im Namen ausdruecklich **«HNF»** —
+die Aufteilungsplan-Flaechen werden also bewusst als Hauptnutzflaeche gefuehrt, was die
+Flaechendefinition aus 1.5 (Summe der Raum-Nettoflaechen innerhalb des Sonderrechts)
+bestaetigt. Die Datei `02 Wertquotenberechnung/_Vorlage/Wertquotenberechnung final
+Grundbuch.pdf` markiert den Zielzustand: die Wertquotentabelle in der Fassung, die ins
+Grundbuch geht.
+
+---
+
+# ZUSAMMENFASSUNG DER WIDERSPRUECHE UND FEHLER (Sammelstelle)
+
+Alle in diesem Lauf gefundenen inhaltlichen Bruecke, nach Schwere geordnet:
+
+1. **Biel-Reglement Ziff. 1.1** nennt «Gemeinde Maur, Grundstueck Nr. 8709» statt Biel /
+   1894 — in DOCX und PDF, in der Bestimmung, die den Gegenstand des Stockwerkeigentums
+   definiert. Vor Beurkundung zu bereinigen.
+2. **Biel Dachgeschoss 1894-6:** Teilungsplan und Uebersicht 65.0 m2, Wertquotenberechnung
+   99.3 m2 (Delta 34.3 m2) — bei gleichem Datum 01.02.2026. Die Wertquote von 100/1000
+   haengt daran.
+3. **Biel Keller 1894-1:** 5.8 gegen 13.5 m2 zwischen zwei Fassungen desselben Datums.
+4. **Biel Wertquoten-Faktoren** sind rueckwaerts auf runde Zielquoten kalibriert, nicht aus
+   einem Regime abgeleitet (7 von 7 Einheiten treffen die Zielquote auf zwei Stellen).
+5. **Ebmatingen:** zwei Dateien gleichen Namens mit verschiedenem Perimeter (113+115 gegen
+   113 allein); dieselbe Wohnung erhaelt Quote 87 bzw. 178. Zusaetzlich Zelle F47:
+   13.9 Punkte statt 4.08 (Tippfehler).
+6. **Niederhasli Modell B:** ausgelieferte Fassung und Archivfassung rechnen verschieden;
+   die ausgelieferte unterstellt faktisch 33.1 % variable Kosten, deklariert aber 30 %.
+   Die Grafik folgt der ausgelieferten Fassung.
+7. **Burg AG Factsheet:** «Bruttorendite 4.75 %» ist in Wahrheit Nettomiete IST / Kaufpreis;
+   die Bruttorendite betraegt 5.75 %.
+8. **Burg AG Preisdiskrepanz:** Mail nennt CHF 7'000'000, Factsheet CHF 4'100'000
+   (= die «Auszahlung Verkaeufer» der Mail). Nominalpreis 71 % ueber Angebotspreis.
+9. **Dateibenennung:** `Dokumentation Aarburg Plattenhofweg.pdf` betrifft **Burg (Menziken)
+   AG**, nicht Aarburg; Ordner `Burg Ipsbach` statt Ipsach; Ordner `hef.ch` statt hev.ch.
+10. **Pfaffhausen Raumprogramm:** 46.6 m2 Erschliessungsflaeche (22.1 %) in der HNF; EG und
+    1. OG uebersteigen den Matterport-Bruttoinnenraum um je 4.8 m2; Estrich zaehlt 12.3 m2
+    Flaeche unter 1.5 m Kopfhoehe voll mit; UG-«Familienzimmer» mit gemessener Raumhoehe
+    1.96 m als HNF gefuehrt.
+11. **Pfaffhausen `_Infos.docx`** enthaelt die Biel-Adresse; der ganze Ordner ist eine
+    unbereinigte Kopie des Biel-Ordners (inkl. leerem Unterordner «2602 BIEL»).
+12. **Baar 38-Grad-Offerte:** Elektro gleichzeitig im Leistungsumfang und unter «nicht
+    enthaltene Gewerke»; Wasseranalysen in der Honorartabelle und zugleich «nicht im
+    Angebot eingerechnet».
+13. **Baar GP-Offerte:** Brandschutz-Massnahmenkatalog auf «Zugerstrasse 46» statt 49
+    ueberschrieben; Waermeerzeugung als «Oelheizung» typisiert, obwohl es eine Gasheizung
+    ist; Anschreiben 28.06.2025, Fusszeile durchgehend 21.03.2025.
+14. **Oftringen:** Mieterspiegel-Total CHF 1'546'560 gegen Facts-&-Figures CHF 1'533'230
+    (Delta 13'330); der Einheitswert 264 CHF/m2 ist nur aus der Wohnungsmiete gerechnet.
+15. **Biel Projektnummern:** Ordner 2601, Unterordner und `.pln` 2602, Dateiname «ESS 2502».
+
+# ZIEL-ZUORDNUNG (Vorschlag fuer den Hauptlauf)
+
+| Befund | Ziel-Artikel |
+|---|---|
+| Nebenflaechen-Faktoren (Keller/Estrich/Garage 0.30, Balkon/Terrasse 0.25, Aussen-PP 0.20), Geschossregime 1.10/1.15/1.20, Normierung auf 1000, Perimeter-Pflicht, Rueckwaerts-Kalibrierung als Warnsignal | **neuer Artikel `wertquoten-stwe`** (bisher nicht in der KB; Agent `wertquoten-rechner` referenziert ihn) |
+| Begruendungs-Doktrin ZGB 712a ff., Pflichtbeilagen, konstitutiver Eintrag, Begriffsdisziplin, Reglement-Aufbau, Quoren, Sonderrecht/Gemeinschaft-Abgrenzung, Erneuerungsfonds 0.5 % GVW p.a. | **neuer Artikel `stwe-begruendung-reglement`**, verlinkt mit `projektstruktur-deliverables` |
+| TDD-Fragenkatalog Stufe 1, Restnutzungsdauer-Grenzen (visuell + Rohrschnitt, keine Labortests), Unsicherheitsskala ja/hoechstwahrscheinlich/vermutlich/unbekannt, Haltbarkeitsspannen (Sanitaer 15–25 J, Fenster ≤10 J, Gasheizung 1990 → 0–5 J), Honorarstruktur 14.42 Tage à CHF 1'200 | **neuer Artikel `restnutzungsdauer-tdd`** + Ergaenzung `projektstruktur-deliverables` |
+| Baar ZG: WA4/0.9 Zonentabelle, fiktive Geschosshoehen 3.0/3.5/4.5 m, UG-Bonus 30 %, Arealbebauungsbonus AZ 1.0, Attika 50 %/60 %-Regel; Oftringen AG: W3 AZ 0.60 → 0.80 via Innenentwicklung; Ipsach BE: W3 AZ 0.85; Niederhasli ZH: WE2 ohne AZ/BMZ | **`az-gfz-kennwerte`** (vier neue Eintraege) |
+| Hochhausgrenze 30 m PBG ZG § 10b, gewachsenes Terrain als Brandschutz-Bezugskote gegen OK fertig Boden EG, Hochparterre-Schwelle 1.20 m, Besitzstandsgarantie bei zonenfremder Hoehe | **`az-gfz-kennwerte`** (Abschnitt Hoehenmessung) oder neuer Artikel `hoehenmessung-hochhausgrenze`; Rueckmeldung an KB `baurecht` |
+| GVW/m3: Wohnbau 1986 ca. 660, Einstellhalle ca. 308, Wohnbau 1966 ca. 679; Kaufpreis als Vielfaches des GVW (1.29 / 1.59 / 2.25); Sanierungs-Einheitskosten Burg (Bad 5'000, Malerei 4'200/Whg, Boden 5'000/Whg) | **`realwert-sachwert`** |
+| Quantil-Methodik Oftringen (148 → <10 %, 175 → 25 %, 264 → 90 %), Groessen-Preis-Gradient (1.5-Zi bis 364 gegen 4.5-Zi 244 CHF/m2, +50 %), Ipsach 90 %-Quantil als Deckel, Nettomiete Ø Ipsach 201 CHF/m2, Kaufpreis Eigentum Ø 6'320 CHF/m2 | **`vergleichswert-hedonisch`** |
+| Bruttorenditen Oftringen (2.82/3.35/5.79 %), Burg (5.75 % korrekt), Ipsach (3.13 %); Nebenkostenanteil 13.4 %; Mietausfall 4.7 %; Nebenobjekt-Kennwerte (EHP CHF 130/Mt, Bastelraum 60–82 CHF/m2 p.a.); Sensitivitaets-Methodik Modell A/B mit Break-even-Aussage | **`ertragswert-dcf`** |
+| Wuest-Mikrolagerating 5.0/5.0 gegen 2.9/5, Leerstandsziffer Ort 1.5 % gegen Objekt 7 %, Distanzenraster, Risikoraster Niederhasli (5 Achsen mit Stufe und Begruendung) | **`qualitaetsprofil-raster`** |
+| ZugMap-Liegenschaftsreport (Bodenbedeckung in m2), OEREB ZG (Mapfish Print, oereblex-Attachment-Links, Negativliste), BGS ZG PDF-Endpunkte, GIS Biel Orientierungskopie 1:250, geodienste.ch av_lv95 DXF, Matterport (Bruttoinnenraum je Stockwerk, Auslassungen Garage/Balkon/<1.5 m, «ohne Gewaehr»), GEAK-Pflicht > CHF 10'000 | **`datenquellen-registry`** |
+| Raumprogramm-Systematik und die SIA-416-Abweichung (fehlende VF/FF-Kategorie, 46.6 m2 Erschliessung in der HNF, Kopfhoehe unter 1.5 m voll gezaehlt); Wertquoten-Flaeche = Summe der Raum-Nettoflaechen im Sonderrecht | **`flaechendefinitionen-sia`**; offene Normfrage nach `wissen/normen` bzw. `QUESTIONS.md` |
+| JANS-Checkliste Liegenschaftskauf (Tragbarkeit 1/3, Eigenmittel 20/10 %, Belehnung 80 %, kalk. Zins 4.5–5.0 %, Amortisation auf 2/3 in 15 Jahren, Nebenkosten ≥1 %, Entscheidschwelle 70–80 %), TDD-/Baurechts-Pruefbloecke, OR-Revision 01.01.2026 (60-Tage-Ruegefrist, zwingendes Nachbesserungsrecht, SIA-118-Abgrenzung, 10 Jahre bei zugesicherten Eigenschaften), Eigenmietwert-Systemwechsel ab fruehestens 01.01.2028 | **`projektstruktur-deliverables`** + eigener Abschnitt; die Rechtsaenderungen zusaetzlich als Datums-Merkposten |
+
+**Offene Fragen fuer `QUESTIONS.md`:**
+- Welche SIA-416-Kategorie tragen wohnungsinterne Flure und Waschraeume verbindlich?
+  (Originalnorm noch nicht eingesehen; betrifft alle JANS-Raumprogramme.)
+- Welche Kopfhoehen-Schwelle gilt fuer die Anrechenbarkeit von Estrich-/Dachflaechen in den
+  betroffenen Kantonen — Matterport rechnet mit 1.5 m, das ist keine CH-Norm?
+- Ist die Gebaeudehoehe Zugerstrasse 49 Baar ueber oder unter 30 m nach Bauordnung
+  (Hochparterre-Messung)? Im Dossier offen geblieben.
+- Welche der beiden Niederhasli-Modell-B-Reihen ist die gewollte — die 70/30-korrekte oder
+  die ausgelieferte?
+- Wertquoten Biel 1894-6: gilt 65.0 m2 (Teilungsplan) oder 99.3 m2 (Wertquotenrechnung)?
