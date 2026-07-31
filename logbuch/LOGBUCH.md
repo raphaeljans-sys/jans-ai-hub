@@ -5,6 +5,43 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-31 — Logbuch-Radar 06:55 (planmässig, mit Befund)
+
+**Erledigt/geschlossen:** Der Fachplaner-Punkt bei KISPI ist gegenstandslos — Raphael hat den
+Auftrag am 31.07. 01:18 ausdrücklich ad acta gelegt; die zwei Platzhalter-Entwürfe bleiben
+unversendet. Der Punkt «RJ hat Gruner um den UGZ-Kontakt gebeten» ist überholt: RJ hat den
+Kontakt am 30.07. selbst hergestellt und eine Koordinationssitzung mit dem UGZ auf Mo 03.08.
+13:30 terminiert (Zala und Stubbe UGZ, Kübler/Duran/Ziegel, Merci/Spörri).
+
+**Der wichtigste Befund:** Der Bauherr hat die überholte Fassung des Thalwiler Begleitbeschriebs
+zur Freigabe. RJ hat am 30.07. 16:35 die Fassung **260730** an S. Tschopp gesandt; die
+Korrektursession lief erst 30.07. 23:49 bis 31.07. 02:19. Am Beleg und am Dateibestand
+gegengeprüft: die versandte Fassung zitiert die aufgehobene StrAV und trägt die falsche
+Kopf-Adresse, die gültige 260731 zitiert die Verkehrserschliessungsverordnung, rechnet die halbe
+Mehrhöhe nach § 178 EG ZGB korrekt und weist beide BZO-Fassungen aus. Die 260731 ist
+nachzureichen, bevor Tschopp freigibt.
+
+**Neuer Verfahrensstrang KISPI:** M. Gantenbein (SRZ) hat die Möblierung im Fluchtweg am 30.07.
+15:39 aus dem Bauentscheid 1171/26 herausgelöst — sie braucht eine neue Planeingabe und eine
+eigene Verfügung, das Anliegen geht situativ an die GVZ. Fünf Nachweisanforderungen sind belegt
+erfasst (1.2 m Durchgangsbreite, RF2 mehrschichtig mit Nachweis für sämtliche Schichten,
+schriftliche Begründung, Klassierung nur nach SN EN 13501-1, IT nach SN EN IEC 62368-1). Bei der
+Abänderungseingabe 02 wurde nur der Abänderungsplan vom 24.07. beurteilt. Sitzung dazu heute
+11:00 (Teams, RJ Organisator, mit Merci und Ziegel).
+
+**Betrieb:** Ein Sync-Task (Cockpit-Server auf dem Mac Mini) hängt korrekt in der
+Freigabe-Schwelle und wartet auf Raphaels Einzelfreigabe. bexio: RE-00087 CHF 15'000 bei 106
+Tagen auf Mahnstufe 2, RE-00098/99 CHF 17'280 bei 11 Tagen mit Frist 03.08., RE-00100 erstmals
+als Verzug gemeldet — sachlich keiner, A1 bleibt gesperrt. Token-Tempo Vortag: MacBook Pro
+466.7 Mio Tokens / 413.81 USD, Mac Mini 94.4 Mio / 103.27 USD.
+
+**Kommt:** heute UBS 10:00, Möblierungs-Sitzung 11:00, eigene Frist Türbuch 17:00, RE-00101
+fällig; 03.08. UGZ-Termin, Zahlfrist KISPI, Röthlisberger, Spec-Interview SYN-02; 06.08.
+Koordinationssitzung und Wochen-Review Arbeits-Weiche; 08.08. läuft der SharePoint-Zugriff für
+sieben Projektbeteiligte ab.
+
+---
+
 ## 2026-07-31
 
 **Hub-Chef-Lauf (Start 30.07. 08:39, interaktiv fortgesetzt, Abschluss 31.07. ca. 00:40) —
