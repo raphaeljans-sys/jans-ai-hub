@@ -1,5 +1,25 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-07-31 (Mac Mini Nachtschicht, 23:30) — ERCO-Ratgeber auf S. 40 fortgeschrieben, Punkt 9 als Fehlannahme korrigiert
+Zwei Punkte aus der ausschreibungsrelevanten Priorisierung bearbeitet:
+- **Punkt 4 (ERCO Lichttechnik):** [[erco-lichtplanung-grundlagen]] von S. 20 auf S. 40
+  fortgeschrieben (Kapitel «Grundlagen» damit vollständig: Wahrnehmungskonstanz,
+  Gestaltgesetze, Aufmerksamkeitslenkung; Kapitel «Gestalten mit Licht» begonnen:
+  Architekturbeleuchtung Innenräume — Funktionszonen, Raumgrenzen, Architekturelemente,
+  Räume verbinden bis Innenraum-Aussenraum). Frontmatter `gelesen:` nachgeführt,
+  `last_updated` 2026-07-31. Weiterhin herstellerneutral, keine ERCO-Produktangaben
+  übernommen.
+- **Punkt 9 (Holzbau/Bekleidungen BKP 214/225/271) — als nicht bearbeitbar erkannt:**
+  Vor dem Schreibversuch die Quellordner geprüft. `214 Montagebau in Holz` und
+  `271 Gipserarbeiten` sind leere Ordner (0 Dateien), `225` enthält nur ein
+  PU-Aussenisolations-Fallbeispiel ohne Holzbau-/Bekleidungsbezug. Die Prämisse in
+  `QUESTIONS.md` («Quellarchiv führt die Sektionen») war irreführend formuliert — sie
+  bezog sich nur auf existierende Ordnernamen, nicht auf Inhalt. Punkt 9 in
+  `wiki/QUESTIONS.md` korrigiert und als geblockt (fehlendes Quellmaterial) markiert,
+  damit kein künftiger Lauf dieselbe leere Suche wiederholt. Kein Artikel geschrieben —
+  reine Normwiedergabe ohne Produktbeleg wäre gegen die KB-Schreibregel 4
+  (kein Hersteller-Marketing, aber auch kein Artikel ohne Quellsubstanz).
+
 ## 2026-07-31 (Mac Mini Nachtschicht) — QUESTIONS Punkt 10 geschlossen: VKF-BRL-23-15-Teilrevision auf Aufzüge geprüft
 Gemäss Raphaels Priorisierung (heutiger Eintrag oben: ausschreibungsrelevante Punkte 4/9/10
 zuerst) Punkt 10 bearbeitet: Delta-Destillat `vkf-brl-aenderungen-2017.md` (KB `normen`)

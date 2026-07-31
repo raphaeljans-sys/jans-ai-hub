@@ -30,12 +30,14 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
    nur eine 2002er-Momentaufnahme (3 CH-Anbieter, unverifiziert). Für Ausschreibungen
    BKP 224 braucht es eine eigene, aktuelle Recherche — nicht Teil eines
    unbeaufsichtigten Nachtlaufs (Web-Recherche über mehrere Quellen).
-4. **ERCO Ratgeber nur zu 20/435 Seiten destilliert:** [[erco-lichtplanung-grundlagen]]
-   deckt bisher nur das Kapitel «Grundlagen» (Geschichte, Sehen/Wahrnehmen). Die
-   praxisrelevanteren Kapitel «Lichttechnik» (Kennwerte lm/W, Ra, Farbtemperatur),
-   «Innenraumbeleuchtung», «Aussenraumbeleuchtung», «Lichtsteuerung», «Simulation und
-   Berechnung» sowie das Glossar sind offen — mehrere Folgeläufe nötig
-   (Lesefortschritt im Frontmatter `gelesen:` des Artikels).
+4. **ERCO Ratgeber nur zu 40/435 Seiten destilliert (Fortschritt Mac Mini Nachtschicht,
+   31.07.2026: 20 → 40):** [[erco-lichtplanung-grundlagen]] deckt jetzt das Kapitel
+   «Grundlagen» vollständig (Geschichte, Sehen/Wahrnehmen inkl. Konstanz/
+   Gestaltwahrnehmung) sowie den Beginn von «Gestalten mit Licht» (Architekturbeleuchtung
+   Innenräume, Räume verbinden bis Innenraum-Aussenraum). Die praxisrelevanteren
+   Kapitel «Lichttechnik» (Kennwerte lm/W, Ra, Farbtemperatur), «Aussenraumbeleuchtung»,
+   «Lichtsteuerung», «Simulation und Berechnung» sowie das Glossar sind weiterhin offen —
+   mehrere Folgeläufe nötig (Lesefortschritt im Frontmatter `gelesen:` des Artikels).
 5. **AS-Aufzüge-Dokumente ohne Datum im Dokument selbst:** [[bkp-261-aufzuege]] stützt
    die Datierung von `100426_AS_Aufzuege.pdf` und `21005312.pdf` nur auf den
    Dateinamen (JANS-Konvention YYMMDD). Vor Verwendung in einer aktuellen
@@ -62,16 +64,25 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
    geschliffenen Terrazzo/Kunststein und (ii) das Reinigungs-/Pflegeverhalten — 2.027
    Kap. VI (Materialeigenschaften) und Kap. IX (Reinigung) sind bisher nur über das
    Inhaltsverzeichnis erfasst.
-9. **Kein Artikel zu Holzbau und Bekleidungen, obwohl die Normgrundlage destilliert
-   vorliegt (aufgenommen Wissens-Chef Run 21, 30.07.2026):** Zu BKP 214.1/214.3
-   (Montagebau in Holz) sowie den zugehörigen Bekleidungen BKP 271.1 (Trockenbau) und
-   225.4 (Brandschutzbekleidungen) existiert noch kein Artikel, obwohl das Quellarchiv
-   die Sektionen 214, 225 und 271 führt. Die normative Grundlage liegt in
-   `wissen/normen/destillate/` bereits destilliert vor:
-   `lignum-4-2-anschluesse-feuerwiderstand.md` (`established`) und
-   `lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md` (`speculative`).
-   **NICHT heranziehen:** `lignum-lignatec-brandschutz.md` (Stand 2005/VKF 2003, als
-   VERALTET geführt).
+9. **Kein Artikel zu Holzbau und Bekleidungen — Prämisse korrigiert, GEBLOCKT mangels
+   Quellmaterial (geprüft Mac Mini Nachtschicht, 31.07.2026):** Die Behauptung «das
+   Quellarchiv führt die Sektionen 214, 225 und 271» ist nur zur Hälfte richtig: die
+   Ordner `/Volumes/daten/03 Bauprodukte_BKP/214 Montagebau in Holz` und
+   `/271 Gipserarbeiten` sind **komplett leer** (0 Dateien, Ordner unverändert seit
+   09/2003 bzw. 08/2020 — verifiziert per `find`/`ls -la`). `225 Spezielle Dichtungen
+   und Daemmungen` enthält nur ein Doku-Fallbeispiel zu einer PU-Aussenisolation
+   (Beschichtung/Fotos eines Musters), keine Holzbau-/Bekleidungs-Unterlagen. Ein
+   Artikel zu BKP 214.1/214.3 + 271.1 + 225.4 lässt sich aus diesem Korpus **nicht**
+   destillieren — die Normgrundlage (`lignum-4-2-anschluesse-feuerwiderstand.md`
+   `established`, `lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md`
+   `speculative`, `lignum-lignatec-brandschutz.md` **VERALTET, nicht heranziehen**)
+   liegt zwar bereits in `wissen/normen/destillate/`, aber ohne produktseitiges
+   Gegenstück bliebe der Artikel reine Normwiedergabe ohne Bauprodukte-Mehrwert.
+   **Weg nach vorne:** entweder eigene Projektunterlagen (Korpus 2 `buero-projekte`,
+   sobald an der Reihe) liefern reale Holzbau-Ausführungsbeispiele, oder Raphael
+   markiert das Gewerk als «kein Material vorhanden, überspringen». Kein weiterer
+   Nachtlauf soll dieses Quellarchiv erneut danach durchsuchen, ohne dass sich der
+   Bestand geändert hat.
 10. **Teilrevision 2017 der VKF-BRL 23-15 auf Aufzugsrelevanz geprüft — GESCHLOSSEN
     (Mac Mini Nachtschicht, 31.07.2026).** Ergebnis: **materiell betroffen.** Ziff. 3.6
     Abs. 2 (neu 2017): Aufzugsschachttüren dürfen bei einer Anlage, die nur EIN
