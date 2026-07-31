@@ -987,6 +987,11 @@ Bauentscheid/Terminplan … Freundliche Grüsse», ohne Service-Satz) verzichtet
   Peer Linus, 2025-11-09) und «**Hoi liebe Peter**» (an Peter Weisser, 2025-11-10) — das warme «liebe»
   rutscht im Eil-Du auf männliche Vornamen (Flüchtigkeit/Tippgeschwindigkeit, TON nicht Vorbild;
   `korrektur` setzt «lieber»). Begleitet von Mundart-Eil «**söt so passe**» (sollte so passen, 2025-11-10).
+  **Registerübergreifend belegt (Batch 83):** derselbe Slip trifft auch das formelle Sie — «**Sehr
+  geehrter Frau Costamagna**» (18.11.2025) an dieselbe Empfängerin, der er vier Tage zuvor korrekt
+  «Sehr geehrte Frau Costamagna» (14.11.2025) schrieb. Damit ist geklärt, was der Marker ist: **ein
+  Tipp-/Flüchtigkeitsfehler, keine Registerabsicht und kein Stilmittel** — er ist an kein Register
+  gebunden und nie nachzubauen.
 - Mikro-Metrik Batch 19 (345 W, Peer-Du + Behörden-/Lieferanten-Sie + STWEG-Liefer-Du gemischt):
   **Du-Gross-Quote 0.364** (neuer Spiegelungs-Tiefstwert — «dir/dich/du» klein in den warm-reziproken
   Du-Mails an Esther/Linus, vgl. Batch 12 0.286/Batch 10 0.429); Satzlänge ø **21.6 W** (deskriptiv-
