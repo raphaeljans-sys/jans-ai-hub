@@ -21,6 +21,43 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260731d — Token-Verbrauch nur DEDUPLIZIERT messen (Faktor 2 bis 4)
+
+**Die Regel.** Jede Verbrauchsmessung aus `~/.claude/projects/*/*.jsonl` muss Duplikate über
+**(message.id, requestId)** ausschliessen, bevor summiert wird. Ohne Dedup ist das Ergebnis um
+Faktor 2 bis 4 zu hoch. Massgeblich ist «teuer» = input + cache_creation + output; «total» ist
+von billigem cache_read dominiert und taugt nicht zur Beurteilung.
+
+**Warum — die technische Ursache.** Claude Code schreibt **dieselbe API-Antwort mehrfach in die
+JSONL, je Content-Block eine Zeile, alle mit identischer `usage`**. Eine Antwort mit Text plus
+zwei Werkzeugaufrufen erscheint dreimal mit denselben Zahlen. Wer roh summiert, zählt dieselben
+Tokens dreimal.
+
+**Beleg (vollgas-fruehwarnung 31.07.2026 07:15).** Am Sitzungsprotokoll des Laufs selbst
+nachgemessen: 13 eindeutige Antworten, davon 10 mit Mehrfachzeilen; `msg_011CdZZoFBbSLmv84DbKbXxN`
+dreimal mit identischen Werten (2 input / 101'434 cache_creation / 343 output). Gegenprobe auf
+die naheliegende Alternativerklärung: **0** Schlüssel kommen in mehr als einer Datei vor, es sind
+also keine Resume-/Fork-Kopien, sondern Streaming-Zeilen derselben Antwort. Wirkung am selben
+Tag, MacBook Pro 30.07.: dedupliziert **12.15 Mio** teuer, roh nach UTC-Tag 32.22 Mio, roh nach
+lokalem Tag 26.58 Mio.
+
+**Der Vorfall, den es zu vermeiden gilt.** Der `vollgas-chef-radar` misst den Verbrauch seit dem
+28.07. improvisiert, weil sein SKILL.md — anders als `vollgas-fruehwarnung` und
+`token-messung-140716` — keine Messanweisung enthält. Er meldete am 31.07. 04:57 für den MacBook
+Pro **57.92 Mio** teuer (30.07.) und eine «den vierten Tag in Folge steigende» Reihe; der
+korrekte Wert ist 12.15 Mio. Die falsche Reihe war drauf und dran, eine Drossel-Empfehlung zu
+tragen. Wer eine Kapazitäts- oder Leerlaufregel auf eine Rohsumme stellt, schlägt bei rund der
+Hälfte des tatsächlichen Verbrauchs Alarm.
+
+**Bestandssweep (durchgeführt 31.07.2026).** Kein Script unter `scripts/`, `connectors/` oder
+`skills/` summiert Tokens — die Messung findet ausschliesslich in Scheduled-Task-Prompts statt.
+Von den dreien tragen `vollgas-fruehwarnung` und `token-messung-140716` die Dedup-Pflicht
+ausdrücklich, `vollgas-chef-radar` nicht. Die Frühwarnung hat den Befund über
+`logbuch/vollgas/FRUEHWARNUNG.md` an den Radar gemeldet, sein SKILL.md aber bewusst nicht
+angetastet: der Logeintrag ist der im Auftrag vorgesehene Kanal zwischen den beiden Aufsichten.
+
+---
+
 ## 260731c — Cockpit interaktiv: lokaler Server schreibt «erledigt» ins Fristen-Register
 
 **Was gebaut wurde.** Das Hub-Cockpit (`webtools/cockpit/`) hat eine interaktive Stufe:
