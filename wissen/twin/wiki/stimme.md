@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-07-30
+last_updated: 2026-07-31
 gewichtung: authentisch
-sources: [260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -2703,3 +2703,41 @@ Du-Gross-Quote **0.8** (ein handgetipptes kleines «dir» in «sende ich dir mei
 (leicht unter dem Korpusband 11.9–13.4, konsistent mit dem terse-operativen, Sie-lastigen
 Fenster); Anreden «Lieber Gruss» 2×, «Hoi Sämi» 1×, «Sehr geehrte Frau» 1×; Grüsse «Lieber Gruss»
 2×, «Freundliche Grüsse» 1×; Tausender-Apostroph 0, Ellipsen 0, «%» nicht vorkommend.
+
+## Nachgestellter Telefonat-Dank als eigener Schlussabsatz (belegt Mailbatch 83, authentisch)
+Antwort an eine Lieferantin (Architekturberatung Fassadenbau, Sie), 19.11.2025, nach einem
+vorausgegangenen Telefongespräch: Die Mail eröffnet mit dem Standard-Dank für die schriftliche
+Rückmeldung («**Besten Dank für Ihre E-Mail.**»), erledigt die Sache, und stellt den **Dank für
+das Telefonat als eigenen Absatz ans Ende**, unmittelbar vor den Gruss: «**Danke für Ihre Zeit
+und das Telefonat von vorher.**» Der mündliche Kontakt wird also nicht in die Eröffnung
+eingebaut, sondern nachgestellt gewürdigt — die Sache steht dazwischen. Zweiter Beleg für die
+Abweichung vom Standard-Gerüst «Dank zuerst» (erster Beleg: Vendor-Technikfrage 14.11.2025, →
+[[fachsignatur]]); beide Belege stammen aus dem Lieferanten-/Vendor-Sie. → Der Zwilling darf im
+Lieferanten-Sie den Dank für ein vorausgegangenes Telefonat als kurzen Schlussabsatz vor den
+Gruss setzen, statt ihn in die Eröffnung zu ziehen.
+
+## Echo-Falle, 11. Beleg — die rahmenlose Durchleitung (Mailbatch 83)
+Betrefflose Mail an den 3D-Freelancer, 25.11.2025, 20:23: eine vollständige Erklärung zur
+Ablösung der lokalen Corona-Materialbibliothek durch Chaos Cosmos — «Die Meldung bedeutet:» →
+fettgesetzte Kernsätze → «Kernaussage:» → Bullet-Liste → Schluss-Einordnung. **Ohne Betreff,
+ohne Anrede, ohne Gruss, ohne Signatur, ohne ein einziges eigenes Wort.** Damit erstmals im
+Korpus eine Mail, die **komplett** aus Modell-Output besteht (bisherige Fallen trugen immer noch
+einen handgetippten Rahmen). Von der Stilquelle ausgeschlossen. Neue, reproduzierbare
+Detektionssignale neben den bekannten (H2-/Nummern-Struktur, En-dash in Bandbreiten,
+Times-New-Roman- oder p1/p2-Fremdstyling):
+- **Typografische Gänsefüsschen „…"** statt Raphaels Guillemets «…»;
+- **durchgehend kleines «du/dir»** in der Anrede-Position («musst du künftig», «wirst du nur») —
+  dasselbe Signal wie bei Echo-Falle 9;
+- **rahmenloser Durchleitungs-Modus**: kein Betreff und keine Grussformel, weil der Text nie für
+  eine Mail geschrieben, sondern aus einem Chatfenster kopiert wurde.
+Kontext: derselbe 3D-/C4D-Thread, in dem bereits Echo-Falle 4 (Batch 21) sitzt — dieser Faden ist
+Raphaels KI-Werkzeug-Thread und bleibt bei jedem Sweep gesondert zu prüfen.
+
+## Mikro-Metrik Mailbatch 83 (5 Eigentexte, 154 W, stilmetrik.py)
+Satzlänge ø **10.3 Wörter** — unter dem Korpusband 11.9–13.4, konsistent mit dem terse-operativen,
+stark Sie-lastigen Fenster (vier von fünf Texten sind kurze Lieferanten-/Behördenanfragen).
+Du-Gross-Quote **0.0 nicht aussagekräftig** (kein einziges Du-Pronomen im Sample, Nenner leer —
+nicht als Abweichung lesen, gleiche Lage wie Batch 81). Grüsse: «Freundliche Grüsse» 4× — der
+Sie-Default trägt auch die Ein-Satz-Mail. Anreden: «Hoi Peter» 1×, «Sehr geehrter Herr» 1×,
+«Sehr geehrte Frau» 1×, «**Sehr geehrter Frau**» 1× — der Genus-Slip erscheint hier direkt in der
+Metrik neben seiner korrekten Form. Tausender-Apostroph 0, Ellipsen 0, «%» nicht vorkommend.

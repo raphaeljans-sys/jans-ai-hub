@@ -4,6 +4,28 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+- **2026-07-31 03:49 — twin-mail-training Batch 83: Luecken-Sweep `rj@` November 2025
+  (2025-11-01 bis 2025-11-30, 54 Sent Items vollstaendig gelistet).** Abgleich vor der Lektuere
+  (Methodik Batch 80–82) zeigte den November als das bisher dichteste Fenster: Batch 18–21 PLUS
+  zwei Fidelity-Runden (Golds 19.11./25.11.) hatten den Grossteil bereits erfasst. 7
+  Kandidaten-Volltexte gelesen, **5 echte Luecken destilliert + 1 Status-Praezisierung**:
+  Behoerden-Kontaktformular als Mail-Raster zurueckgeben (AfB, 06.11.) · Parallel-Streuung an zwei
+  Kanaele derselben Organisation, zwei unabhaengige Belege (06.11. Behoerde, 14.11. Vendor) ·
+  eigene Vorleistung ausweisen vor dem Nachhaken (18.11.) · Zusage an ihre benannte Bedingung
+  koppeln + nachgestellter Telefonat-Dank (19.11.) · **Genus-Slip als registeruebergreifender
+  Tippfehler geklaert** («Sehr geehrter Frau Costamagna» 18.11. gegen «Sehr geehrte Frau» 14.11.
+  an dieselbe Empfaengerin) — damit ausdruecklich kein Stilmittel und nie nachzubauen.
+  **Echo-Falle 11**, erstmals eine vollstaendig rahmenlose Mail (betrefflos, 25.11., reiner
+  Modell-Output ohne Anrede/Gruss/Eigenwort); drei neue Detektionssignale festgehalten
+  (typografische Gaensefuesschen statt Guillemets, durchgehend kleines «du/dir», rahmenloser
+  Durchleitungs-Modus). Geaendert: `wiki/stimme.md` (Genus-Slip praezisiert, 3 neue Abschnitte),
+  `wiki/arbeitsweise.md` (Do-Block + 3 Abschnitte), `wiki/haltung.md` (Do/Don't + 1 Abschnitt),
+  `wiki/beziehungsregister.md` (Sie-Mappings Diethelm/Costamagna/Osman, «Herr + Vorname» als
+  Auskunfts-Notloesung praezisiert, Identifikator-Nebenbefund Saumstrasse 21 als 2. Beleg),
+  `wiki/QUESTIONS.md` (Runde 260731, 3 Fragen), `raw/_INGESTED.md` (Registerzeile Batch 83).
+  Mikro-Metrik 154 W: Satzlaenge ø 10.3 W, «Freundliche Gruesse» 4x, Du-Gross-Quote 0.0 mangels
+  Du-Pronomen nicht aussagekraeftig. Naechstes Fenster: `rj@` Dezember 2025.
+
 - **2026-07-31 — Gate twin-chef (Notariatsmail Mathies, rechtsbegruendete Amtseingabe): Veredelung
   Runde 1/3, Fidelity 78 → 91.** Vier Facetten unter Schwelle gestartet (Stimme 78 / Denken 72 /
   Haltung 76 / Fachsignatur 74), Beziehung 88 und Arbeitsweise 80 durchgewunken. Zwei Agenten-

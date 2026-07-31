@@ -415,7 +415,67 @@ stichprobenartig gelesen («5 Volltexte» je Batch bei 15–20 gesichteten Mails
 via Batch 80/81 bereits vollstaendig durchgearbeitet war. Damit ist die Empfehlung 260727j
 bestaetigt: die sequenziellen Batches der Fruehphase sind systematisch unvollstaendig, und der
 Abgleich-vor-Lektuere-Schritt macht das Nacharbeiten billig. Oktober 2025 ist mit diesem Lauf
-**abgeschlossen** (vollstaendig gelistet, alle inhaltlichen Kandidaten geprueft). **Naechstes
+**abgeschlossen** (vollstaendig gelistet, alle inhaltlichen Kandidaten geprueft). | `260731-mailbatch-83.md` | **Luecken-Sweep `rj@` November 2025** (Fortsetzung Batch 80/81/82 gemaess
+deren Empfehlung): Fenster 2025-11-01 bis 2025-11-30 **vollstaendig** gelistet (54 Sent Items,
+`totalResultCount` bestaetigt; davon 2 am 01.12., 1 Selbsttest an die eigene outlook.com-Adresse,
+mehrere Teams-Einladungen ohne Eigentext). Abgleich **vor** der Lektuere (Methodik Batch 80–82)
+gegen den Wiki-Bestand: der November ist ungewoehnlich dicht abgedeckt — die sequenziellen Batches
+18/19/20/21 PLUS die Fidelity-Golds (Runde 260730 nutzte Golds vom 19.11./25.11.) hatten bereits
+Notariat Hottingen 04.11., Geser/Fiesch 06.11., Baugespann-Denkmalpflege 06.11., Cavegn 07./09.11.,
+Projektausstieg E-Baueingabeportal 07.11., Ralph-Mueller-Doppelgruss 10.11., «Hoi liebe Peter»/
+«söt so passe» 10.11., Haecki/Bopp/Yorck 11.11., Hawa-Sammelpostfach 12.11., Hinder-Masse +
+Hoehenkoten 13.11., Vendor-Technikfrage Costamagna 14.11., Lueftungsstein-Reverse-Engineering
+17.11., Naeherbaurecht/Vordach + Bauamt Thalwil 17.–21.11., Bucherer-Fwd 21.11. und den
+Yorck-C4D-Thread 24./25.11. erfasst. **7 Kandidaten-Volltexte gelesen, 5 echte Luecken destilliert:**
+(a) Behoerden-Kontaktformular als Mail-Raster zurueckgeben (AfB Stadt ZH, 06.11.), (b) Parallel-
+Streuung an zwei Kanaele derselben Organisation — zwei unabhaengige Belege (AfB-Helpline +
+Bausekretariat 4 Min. Abstand wortgleich 06.11.; Vendor-Fachperson + Sammelpostfach 14.11.),
+(c) eigene Vorleistung ausweisen vor dem Nachhaken (Spam-Ordner geprueft, 18.11.), (d) Zusage an
+ihre benannte Bedingung koppeln statt vage in Aussicht stellen (Showroom-Einladung Fassadenbauer,
+19.11.) + nachgestellter Telefonat-Dank als eigener Schlussabsatz (2. Beleg fuer «Dank nicht
+zuerst»), (e) **Status-Praezisierung des Genus-Slip-Markers**: er trifft nicht nur das warme Du
+(«liebe Linus»/«Hoi liebe Peter»), sondern auch das formelle Sie — «Sehr geehrter Frau Costamagna»
+(18.11.) an dieselbe Empfaengerin, der er vier Tage zuvor korrekt «Sehr geehrte Frau» schrieb.
+Damit ist der Marker als **registeruebergreifender Tippfehler, nicht als Registerabsicht** geklaert
+und explizit nicht nachzubauen. Die Pastaplausch-Kurzmail an Weisser (03.11., «Hoi Peter / Wo ist
+das? / Lgr») und die Link-only-Mail an einen Designer (04.11.) bestaetigen bekannte Marker
+(Ultrakurz-Klaerungsreply, Nullform) ohne Neuwert. **Echo-Falle, 11. Beleg — erstmals eine
+KOMPLETT rahmenlose Mail:** die betrefflose 25.11.-Mail an den 3D-Freelancer besteht vollstaendig
+aus Modell-Output (Corona-/Cosmos-Erklaerung, «Die Meldung bedeutet:» → «Kernaussage:» → Bullets),
+ohne Anrede/Gruss/Signatur und ohne ein einziges Eigenwort; bisherige Fallen trugen immer einen
+handgetippten Rahmen. Neue reproduzierbare Detektionssignale: typografische Gaensefuesschen „…"
+statt Guillemets «…», durchgehend kleines «du/dir», rahmenloser Durchleitungs-Modus. Kontext:
+derselbe Yorck-3D-Thread, in dem Echo-Falle 4 (Batch 21) sitzt — dieser Faden ist Raphaels
+KI-Werkzeug-Thread und bleibt bei jedem Sweep gesondert zu pruefen. Nebenbefund Identifikator
+(2. Beleg nach Batch 82): Rechnungs-/Lieferadresse gegenueber dem 3D-Software-Vendor lautet
+**Saumstrasse 21, 8003 Zuerich** (private Zweitadresse) — Briefkopf/Signatur tragen unveraendert
+Grubenstrasse 37, kein Widerspruch zur Rule `jans-absenderadresse`. Mikro-Metrik ueber die 5
+destillierten Eigentexte (154 W, stilmetrik.py): Satzlaenge ø **10.3 W** (unter dem Korpusband
+11.9–13.4, konsistent mit dem terse-operativen, stark Sie-lastigen Fenster); Gruesse
+«Freundliche Gruesse» 4x; Anreden «Hoi Peter»/«Sehr geehrter Herr»/«Sehr geehrte Frau»/«Sehr
+geehrter Frau» je 1x — der Genus-Slip erscheint in der Metrik direkt neben seiner korrekten Form;
+Du-Gross-Quote 0.0 **nicht aussagekraeftig** (kein Du-Pronomen im Sample, Nenner leer, gleiche Lage
+wie Batch 81). | authentisch (5 handgetippte Eigentexte; 1 vollstaendig KI-generierte Mail
+ausgeschlossen, Teams-/Selbsttest-/Link-only-Rauschen nicht verwertet) | ja (stimme **praezisiert**
+Genus-Slip registeruebergreifend + **neu** nachgestellter Telefonat-Dank + **neu** Echo-Falle 11
+mit drei neuen Detektionssignalen + Metrik; arbeitsweise **neu** Behoerden-Formularraster +
+Parallel-Streuung + Vorleistung-vor-Nachhaken, Do-Block um drei Klauseln ergaenzt; haltung **neu**
+Zusage an benannte Bedingung koppeln, Do/Don't ergaenzt; beziehungsregister **neu** Sie-Mappings
+Diethelm/Costamagna/Osman + «Herr + Vorname» als Auskunfts-Notloesung praezisiert + Identifikator-
+Nebenbefund; QUESTIONS **neu** 3 Fragen) |
+
+**Befund zum Sweep-Ertrag (ehrlich):** November 2025 liegt zwischen Oktober (7 neue Marker bei 9
+Kandidaten) und September (2–3 bei 6–7): **5 Luecken plus 1 Status-Praezisierung bei 7 Kandidaten**,
+bei 54 vollstaendig gelisteten Mails. Der Grund fuer die geringere Ausbeute pro Mail ist diesmal
+NICHT Unvollstaendigkeit der Altbatches, sondern das Gegenteil — der November wurde von Batch 18–21
+dichter gelesen als Oktober UND zusaetzlich von zwei Fidelity-Runden als Gold-Quelle benutzt. Das
+bestaetigt die Abgleich-Methodik ein weiteres Mal: ohne den Vorabgleich waeren hier mindestens 15
+Doppel-Destillate entstanden. November 2025 ist mit diesem Lauf **abgeschlossen**. **Naechstes
+Fenster:** `rj@` **Dezember 2025** (Batch 21/22 deckten 21.11.–08.12. bzw. 10.12.–12.01. ab, beide
+stichprobenartig «5 Volltexte»; Wiki-Belege existieren fuer 01.12., der Abgleich bleibt Pflicht),
+danach die Luecken Feb–Jun 2026.
+
+<!-- abgeloest durch Batch 83: **Naechstes
 Fenster:** `rj@` **November 2025** (Batch 18/19/20 deckten 07.11.–20.11. ebenfalls nur
 stichprobenartig ab; Wiki-Belege existieren fuer 06.11./07.11./14.11./17.11.–20.11., der Abgleich
-ist erneut Pflicht), danach Dezember 2025 und die Luecken Feb–Jun 2026.
+ist erneut Pflicht), danach Dezember 2025 und die Luecken Feb–Jun 2026. -->

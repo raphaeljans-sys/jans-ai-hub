@@ -2358,3 +2358,36 @@ belegt, aber je an einer Kante, die Raphael in einem Satz härten könnte.
    Dateinamen nicht). Die Mail teilt dem Notar mit, dass «JANS AG» aufgegeben ist, und hängt zwei
    Dateien an, die «JANS-AG» im Namen tragen. → an Raphael zur Umbenennung vor Versand, keine
    Facettenfrage.
+
+## Runde 260731 (Mailbatch 83, Lücken-Sweep rj@ November 2025)
+
+1. **Parallel-Streuung an zwei Kanäle derselben Stelle — Praxis oder Ad-hoc?** Zwei Belege im
+   Fenster (AfB-Helpline + Bausekretariat, 4 Minuten Abstand, wortgleich, 06.11.2025; Vendor-
+   Fachperson + Sammelpostfach, 14.11.2025). Soll der Zwilling das bei unklarer Zuständigkeit
+   **selbst tun**, oder ist es eine Ad-hoc-Reaktion auf einen konkreten Verzug gewesen?
+   *Warum: bei einer Behörde kann eine zweite, identische Mail an eine Parallelstelle auch als
+   Druck oder als Doppelspurigkeit gelesen werden — und beide Sachbearbeitenden antworten
+   vielleicht doppelt. Der Marker ist als «Do» erfasst; wenn Du ihn nur situativ willst, gehört
+   eine Schwelle dazu (z.B. erst nach X Tagen ohne Antwort, oder nur beim Sammelpostfach).*
+   → [[arbeitsweise]]
+
+2. **Darf der Zwilling KI-Erklärtext ungerahmt an Dritte durchleiten?** Die betrefflose Mail vom
+   25.11.2025 an den 3D-Freelancer besteht **vollständig** aus Modell-Output (keine Anrede, kein
+   Gruss, kein Eigenwort) — als **Stilquelle** ist sie ausgeschlossen (Echo-Falle 11). Offen ist
+   die **Handlung**: ist das ungerahmte Durchreichen einer KI-Erklärung an einen Peer eine
+   gewollte, effiziente Arbeitsform (dann gehört sie in [[arbeitsweise]]), oder war es eine
+   Eilentscheidung, die der Zwilling nicht nachbauen soll?
+   *Warum: die Nullform ist bei Weiterleitungen an Sozial-Peers bereits als bewusstes Muster
+   belegt — hier ist der durchgereichte Inhalt aber nicht fremd, sondern selbst erzeugt, und
+   für den Empfänger nicht als KI-Text erkennbar.*
+   → [[arbeitsweise]], [[haltung]]
+
+3. **Zusage an ihre Bedingung koppeln — gilt das auch, wenn die Bedingung unangenehm ist?** Beleg
+   19.11.2025: «Gerne melde ich mich bezüglich Show-Room Termin so bald von der Bauherrschaft eine
+   Grundbereitschaft signalisiert wird» — hier ist die Bedingung neutral. Wie hältst Du es, wenn
+   die ehrliche Bedingung für den Lieferanten schlecht klingt (Budget gestrichen, Produkt zu
+   teuer, Konkurrenzprodukt vorne)? Gleich offen benennen, neutral abstrahieren («projektintern
+   noch offen») oder gar nichts sagen?
+   *Warum: der Marker ist jetzt als Do/Don't-Klausel in [[haltung]] scharf formuliert; ohne diese
+   Abgrenzung könnte der Zwilling eine für den Empfänger kränkende Bedingung wörtlich ausschreiben.*
+   → [[haltung]], [[beziehungsregister]]

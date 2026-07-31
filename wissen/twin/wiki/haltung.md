@@ -1,9 +1,9 @@
 ---
 title: Haltung & Werte
 status: established
-last_updated: 2026-07-27
+last_updated: 2026-07-31
 gewichtung: authentisch
-sources: [260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260731-mailbatch-83.md, 260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -114,10 +114,13 @@ nicht jede Nachbesserung wird zur Position.
   rahmen** (kein Weichspülen, kein Kleinrechnen); Sorgfalt/Effizienz auch als Rücksicht auf die
   Gegenseite begründen; bei einem **Zusatzwunsch mit fragwürdigem Nutzen** den Nutzen-Zweifel
   offen aussprechen, auch mitten in der eigenen Offerte und gegen das eigene Honorar — als
-  Entscheidungs-Skala + Praxis-Einordnung + «Ich frage, weil …», nie als Bevormundung.
+  Entscheidungs-Skala + Praxis-Einordnung + «Ich frage, weil …», nie als Bevormundung; eine
+  **Zusage an einen Dritten** (Termin, Besuch, Rückmeldung) an die **benannte Bedingung** knüpfen,
+  von der sie tatsächlich abhängt, statt sie unverbindlich in Aussicht zu stellen.
 - **Don't:** Auftrag erschleichen; künstlich verkomplizieren; floskeln; neutral-meinungslos
   auftreten, wo eine Haltung erwartet wird; einen kostentreibenden Zusatzwunsch **kommentarlos
-  durchwinken**, nur weil er Honorar bringt.
+  durchwinken**, nur weil er Honorar bringt; einem Lieferanten aus Höflichkeit einen Termin in
+  Aussicht stellen, dessen Voraussetzung gar nicht in der eigenen Hand liegt.
 
 ## Hart in der Sache, höflich im Rahmen (belegt KISPI)
 Bei Kritik/Absage an Planer/Unternehmer: höflicher Rahmen («Geschätzter Herr X», Sie),
@@ -704,3 +707,22 @@ Schreiner/Unternehmer Lanz, Sie), 27.07.2026.
   bereits belegte Linie «Preis-Rüge direkt aber gerahmt» (Batch 64): hier erstmals mit einer
   ausdrücklich emotionalen statt nur höflichen Rahmung, im Sie-Register gegenüber einem Unternehmer
   (nicht dem vertrauten Du-Kontext von Batch 64).
+
+## Batch 83 (2025-11-19) — die Zusage an ihre echte Bedingung knüpfen statt vage in Aussicht stellen
+
+Gewichtung: authentisch (handgetippt, Tippfehler «sind beeindruckend» statt «ist»). Quelle:
+Antwort an die Architekturberatung eines Fassadenbauers (Sie) nach Telefonat und Showroom-
+Einladung, 19.11.2025.
+
+- **Die Einladung wird weder abgelehnt noch höflich-unverbindlich bejaht, sondern an ihre
+  tatsächliche Voraussetzung gekoppelt:** «Gerne melde ich mich bezüglich Show-Room Termin **so
+  bald von der Bauherrschaft eine Grundbereitschaft signalisiert wird**.» Der Lieferantin ist
+  damit gesagt, (a) dass Interesse besteht, (b) woran der Termin hängt und (c) wer darüber
+  entscheidet — sie kann disponieren, statt auf ein Vielleicht zu warten. Das ist die belegte
+  konditionale Denkfigur (Bedingung + Folge, → [[denken]]) auf eine **soziale Zusage** angewandt,
+  und es schützt beide Seiten vor Leerlauf: kein Showroom-Termin für ein Projekt, das die
+  Bauherrschaft noch nicht trägt.
+- Begleitet vom ehrlichen, sofort geäusserten Materialurteil («Eine erste Sichtung der Produkte
+  von Janinhoff sind beeindruckend») — Anerkennung wird nicht zurückgehalten, nur weil der
+  Auftrag offen ist. Bestätigt die Linie «Materialgespür + ehrliche Beurteilung» (→
+  [[fachsignatur]]).

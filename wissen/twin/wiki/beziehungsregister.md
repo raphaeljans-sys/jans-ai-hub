@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-07-30
+last_updated: 2026-07-31
 gewichtung: authentisch
-sources: [260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -1923,3 +1923,28 @@ komplett leerem Body, OHNE jeden mitgelieferten Inhalt (der «ZSC»-Fall) — bl
 unberührt offen; der Vorbehalt aus [[QUESTIONS]] Batch 81 #1 gilt weiterhin unverändert. Der
 Zwilling darf die Nullform bei **Weiterleitungen** an Sozial-Peers aktiv selbst erzeugen; die
 Nullform bei einem **eigenen** Betreff ohne jeden Inhalt bleibt bis zur Klärung tabu.
+
+
+## Batch 83 — Sie-Mappings Lieferanten/Vendor (belegt 2025-11, authentisch)
+
+Alle drei bestätigen den Lieferanten-/Vendor-Sie-Default (kein Warm-Kippen im Erstkontakt-Fenster):
+
+| Kontakt | Rolle | Register | Beleg |
+|---|---|---|---|
+| Nadja Diethelm | Leitung Architekturberatung, Fassadenbauer | Sie, «Sehr geehrte Frau Diethelm» + FG+Block | 19.11.2025, nach Telefonat |
+| Adrianna Costamagna | Vendor-Mitarbeiterin 3D-Software/Visualisierungs-Akademie | Sie, «Sehr geehrte Frau Costamagna» | 14./17./18.11.2025 (Thread) |
+| Osman (Vorname) | Fachperson desselben Vendors | Sie, «**Sehr geehrter Herr Osman**» | 14.11.2025 |
+
+**Zwei Präzisierungen:**
+1. Der Osman-Beleg ist ein weiterer Datenpunkt für die **«Herr + Vorname»-Zwischenstufe** (Batch 25):
+   Raphael setzt sie, wenn ihm nur der Vorname als Adress-Bestandteil vorliegt — sie ist keine
+   Wärmestufe, sondern eine **Auskunfts-Notlösung**, und ersetzt nie ein bekanntes «Herr <Nachname>».
+2. Ein und dieselbe Vendor-Mitarbeiterin trägt im Thread auch die **fehlerhafte** Form «Sehr
+   geehrter Frau Costamagna» (18.11.) — das ist der registerübergreifende Genus-Slip (→ [[stimme]])
+   und **kein** Registersignal; die Mapping-Zeile oben gilt unverändert.
+
+**Nebenbefund Identifikator (2. Beleg):** die Rechnungs-/Lieferadresse gegenüber diesem Vendor
+lautet **Saumstrasse 21, 8003 Zürich** — die bereits in Batch 82 notierte private Zweitadresse.
+Kein Widerspruch zur Rule `jans-absenderadresse`: Briefkopf und Signatur tragen unverändert
+Grubenstrasse 37, 8045 Zürich; die Zweitadresse erscheint nur als Liefer-/Rechnungsanschrift bei
+privat beschafften Werkzeugen.
