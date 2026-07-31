@@ -21,6 +21,42 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260731e — Dedup allein genuegt nicht: der MESSUMFANG muss mitdefiniert werden
+
+**Die Regel.** Eine Verbrauchsmessung ist erst dann vergleichbar, wenn neben der Dedup-Pflicht
+(260731d) auch der **Umfang** festgeschrieben ist. Zwei Variablen entscheiden, und beide muessen
+im Messauftrag stehen:
+
+1. **Subagenten-Transcripts ja/nein.** Die Sitzungsprotokolle liegen unter
+   `~/.claude/projects/<projekt>/<session-id>/*.jsonl`, die Subagenten zusaetzlich eine Ebene
+   tiefer in `<session-id>/subagents/*.jsonl`. Gemessen 31.07.2026 13:10 auf dem MacBook Pro,
+   teuer in Mio: 27.07. **52.38** mit gegen **23.34** ohne · 28.07. **26.53** / **13.55** ·
+   29.07. **18.23** / **14.47** · 30.07. **27.98** / **17.83** · 31.07. bis 13:10 **5.57** /
+   **3.18**. Die Subagenten tragen also je nach Tag ein Drittel bis die Haelfte des Verbrauchs —
+   wer sie auslaesst, misst die Fan-out-Skills (korrektur, wettbewerb, machbarkeit, twin) nicht mit.
+2. **Der mtime-Vorfilter.** Wird nach Dateialter vorgefiltert, faellt eine Datei komplett aus der
+   Messung, auch wenn sie Zeilen eines erfassten Tages enthaelt. Zwei Laeufe mit
+   unterschiedlichem Stichtag liefern damit verschiedene Summen fuer denselben Tag.
+
+**Der Anlass.** Der Radar-Eintrag vom 31.07. 08:58 und die Fruehwarnung von 07:15 wiesen fuer
+dieselbe Station und denselben Tag (30.07.) **21.72** gegen **12.15 Mio** aus, beide korrekt
+dedupliziert. Der Radar hielt die Differenz als P2 fest. Ursache ist der Umfang, nicht die
+Methode. Nebenbefund: die Umfangsangabe `~/.claude/projects/*/*.jsonl` im SKILL.md der
+Fruehwarnung trifft als Glob **null Dateien** (die Protokolle liegen eine Ebene tiefer, 4127
+rekursiv gegen 0 auf dieser Ebene) — der ausfuehrende Lauf greift also weiter als sein
+schriftlicher Auftrag. Das ist zu praezisieren, wenn die Fruehwarnung das naechste Mal
+angefasst wird.
+
+**Folge fuer die Alarmschwellen.** Die Schwellen der Fruehwarnung (kein Tag ueber 35 Mio
+kombiniert, keine zwei Folgetage ueber je 18 Mio) sind an einer Reihe OHNE Subagenten kalibriert.
+Mit Subagenten haette der 27.07. mit 52.38 Mio allein auf dem MacBook ausgeloest. Schwelle und
+Umfang gehoeren zusammen entschieden: entweder beide Reihen auf «mit Subagenten» umstellen und
+die Schwellen anheben, oder ausdruecklich bei «ohne» bleiben und das im Auftrag benennen.
+Entscheid offen, kein Handlungsdruck — der laufende Verbrauch liegt in beiden Lesarten weit
+unter jeder Schwelle.
+
+---
+
 ## 260731d — Token-Verbrauch nur DEDUPLIZIERT messen (Faktor 2 bis 4)
 
 **Die Regel.** Jede Verbrauchsmessung aus `~/.claude/projects/*/*.jsonl` muss Duplikate über

@@ -39,6 +39,69 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-07-31 12:58 — [FREI] Stiller Mittag auf der Arbeitsstation, planmaessig und kein Leerlauf. Die offene Verbrauchsdifferenz aus dem 08:58-Lauf ist geklaert: es sind die Subagenten-Transcripts, nicht die Methode
+
+**Selbstkontrolle: kein verpasster Lauf.** Letzter Eintrag 08:58, dieser Lauf 12:58 — 4,0 h bei
+4-h-Takt, vierter planmaessiger Lauf in Folge.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung antwortet «OK» (rc 0). Kein
+5-Stunden-, kein Wochen-Limit.
+
+**Feuermechanismen: konsistent, keine Abweichung.** `vollgas-supervisor` und `vollgas-monitor` auf
+beiden Stationen weiterhin entladen und als `*.disabled-260729` geparkt; auf dem Mini geladen nur
+`ch.jans.nachtschicht` und `ch.jans.training-energie` neben den operativen Jobs,
+`ch.jans.training-normen` und `training-plg` liegen korrekt ungeladen vor. Registry gegengelesen:
+31 Tasks, kein Doppelfeuer, keine unerwartet scharfe Task. Der stehende Entscheid Raphaels vom
+30.07. ist gewahrt, der Endlos-Runner wurde nicht angetastet.
+
+**Liefer-Delta seit 08:58: ein Deliverable, und das ist hier der Normalzustand.** Zwischen 09:19
+und jetzt stand auf dem MacBook Pro planmaessig kein Lern-Lauf an — die Rollentrennung haelt die
+Arbeitsstation tagsueber frei, der naechste getaktete Lauf ist `normen-training-nacht` um 01:28.
+Auf dem Mini ist der naechste Nachtschicht-Slot 13:30, also noch nicht faellig. Geliefert hat in
+diesem Fenster `wissen/normen/wiki/QUESTIONS.md` (Commit 409611af, 11:30): eine neue offene Frage
+zur NIN (SN 411000) samt Rechercheergebnis, ob ein Geschirrspueler einen eigenen Endstromkreis
+braucht, mit dem sauberen Vermerk, dass die NIN nicht im PL-02-Bestand liegt und die
+Herstelleranleitung der belastbare Hebel bleibt. **Delta-Null-Serie: keine.** Weder Ruecktaktung
+noch Deaktivierung faellig. Die 14 uebrigen Commits dieses Fensters sind Selfcommits mit
+ausschliesslich `station-status/*.md` — Heartbeat-Rauschen, das auftragsgemaess nicht als Arbeit
+zaehlt; jeder einzelne wurde am Diff geprueft, nicht am Commit-Titel.
+
+**P2 aus dem 08:58-Lauf ist erledigt — Umfang, nicht Methode.** Die beiden deduplizierten Reihen
+wichen um Faktor 1,8 ab (30.07.: Radar 21,72 gegen Fruehwarnung 12,15 Mio). Ursache sind die
+**Subagenten-Transcripts** unter `<session-id>/subagents/`: gemessen fuer den MacBook Pro, teuer
+in Mio, mit gegen ohne Subagenten — 27.07. 52,38/23,34 · 28.07. 26,53/13,55 · 29.07. 18,23/14,47 ·
+30.07. 27,98/17,83 · 31.07. bis 13:10 **5,57/3,18**. Die Subagenten tragen ein Drittel bis die
+Haelfte. Zweite Umfangsvariable ist der mtime-Vorfilter, der ganze Dateien aus der Messung nimmt.
+Nebenbefund: der im SKILL.md der Fruehwarnung genannte Pfad `~/.claude/projects/*/*.jsonl` trifft
+als Glob **null Dateien** (4127 rekursiv gegen 0 auf dieser Ebene) — der Lauf greift weiter als
+sein schriftlicher Auftrag. Alles festgehalten in `rules/betrieb-chronik.md` 260731e. Der
+Verbrauch selbst ist heute in beiden Lesarten unauffaellig.
+
+**Speicher: eng, aber ohne Druck und ohne Betroffenen.** MacBook 1,40 GB frei (`vm_stat`
+free+inactive+purgeable), `kern.memorystatus_vm_pressure_level` = 1; 18 Claude-Prozesse, groesster
+475 MB RSS, die Summe ist Raphaels laufende Arbeitssession. Der Wert liegt unter der 3-GB-Schwelle
+des Lauf-Gates, das heisst ein automatischer Lauf wuerde jetzt korrekt abgewiesen — es steht heute
+tagsueber aber keiner an, die Schutzmechanik trifft also niemanden. Mini 2,30 GB, Druckstufe 1.
+
+**Beobachtung ohne Massnahme: `heartbeat-daily` feuerte 1 h 39 zu spaet** (11:19 statt 09:40).
+Alle uebrigen Morgen-Tasks lagen auf der Minute, und dieser Radar-Lauf selbst ist puenktlich —
+es ist kein Dispatcher-Problem, sondern ein Einzelfall, vermutlich Nachholen nach App-Ruhe.
+Heartbeat ist operativ und damit von jeder Ruecktaktung ausgenommen. Wiederholt es sich, wird es
+zum Befund.
+
+**P1: keiner.** Kein Blocker, kein Login-Problem, kein leeres Kontingent.
+**P2: Alarmschwelle und Messumfang zusammen entscheiden.** Die Schwellen der Fruehwarnung (35 Mio
+kombiniert je Tag, zwei Folgetage ueber je 18 Mio) sind ohne Subagenten kalibriert; mit ihnen
+haette der 27.07. allein auf dem MacBook ausgeloest. Entweder beide Reihen auf «mit Subagenten»
+umstellen und die Schwellen anheben, oder ausdruecklich bei «ohne» bleiben und das im Auftrag
+benennen. Kein Handlungsdruck, der laufende Verbrauch liegt in beiden Lesarten weit darunter.
+**P3: der Kennwert-Rest im Grobkosten-Ertrag,** unveraendert: RF1-Brandschutz-Mehraufwand
+mengenmaessig belegt, CHF-Kennwert offen — Bring-Schuld, kein Loop-Problem.
+
+**Turn-Zahl: schlanker Regellauf.** Die einzige Vertiefung galt der offenen P2-Differenz und war
+mit zwei Messbefehlen erledigt.
+
+---
 ## 2026-07-31 08:58 — [FREI] Der Morgenblock hat vollstaendig geliefert: acht getaktete Laeufe, acht Deliverables, keine Delta-Null-Serie. Die eigene Verbrauchsmessung ist nach dem Dedup-Befund der Fruehwarnung neu gerechnet und faellt deutlich tiefer aus, weicht aber von der Fruehwarnung ab
 
 **Selbstkontrolle: kein verpasster Lauf.** Letzter Eintrag 04:57, dieser Lauf 08:58 — 4,0 h bei
