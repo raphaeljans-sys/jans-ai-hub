@@ -39,6 +39,66 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-07-31 08:58 — [FREI] Der Morgenblock hat vollstaendig geliefert: acht getaktete Laeufe, acht Deliverables, keine Delta-Null-Serie. Die eigene Verbrauchsmessung ist nach dem Dedup-Befund der Fruehwarnung neu gerechnet und faellt deutlich tiefer aus, weicht aber von der Fruehwarnung ab
+
+**Selbstkontrolle: kein verpasster Lauf.** Letzter Eintrag 04:57, dieser Lauf 08:58 — 4,0 h bei
+4-h-Takt, dritter planmaessiger Lauf in Folge.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung antwortet «OK» (rc 0). Kein
+5-Stunden-, kein Wochen-Limit; die Fruehwarnung von 07:15 misst strukturell **0 Limit-Ereignisse
+im 26-h-Fenster** auf beiden Stationen.
+
+**Feuermechanismen: konsistent, keine Abweichung.** `vollgas-supervisor` und `vollgas-monitor` auf
+beiden Stationen weiterhin entladen und als `*.disabled-260729` geparkt; auf dem Mini unveraendert
+`training-plg` (disabled-260728), `training-normen` liegt vorhanden aber ungeladen vor, geladen ist
+dort nur `ch.jans.nachtschicht` neben den operativen Jobs. Registry gegengelesen: 31 Tasks, kein
+Doppelfeuer, keine unerwartet scharfe Task. Der stehende Entscheid Raphaels vom 30.07. ist gewahrt,
+der Endlos-Runner wurde nicht angetastet.
+
+**Liefer-Delta seit 04:57 — acht von acht.** Jeder getaktete Lauf des Morgenblocks hat ein
+belegtes Erzeugnis hinterlassen, nachgewiesen an Commit plus Registry-`lastRunAt`:
+`twin-fidelity-review` (05:45, Commit 7279ec2d) · `konversations-log` (06:13) · `logbuch-radar`
+(06:55, Commit 8048d34f, Thalwil-Fassungsbefund + Moeblierung Fluchtweg SRZ + UGZ-Termin 03.08.) ·
+`vollgas-fruehwarnung` (07:15, Commits 1c7e3413 + b08f4b02) · `ag-gruendung-monitor` (07:46,
+Commit bc43b1bd, kein neuer Eingang, UBS Tag 2/3) · `mahnwesen-verzugscheck` (08:05) ·
+`zahlungsabgleich-check` (08:23) · `hub-chef-taeglich` (08:39, zum Messzeitpunkt laufend). Dazu
+zwei Lern-Ertraege ausserhalb des Blocks: `grobkosten` (851f4c40, Brandschutz-Mehraufwand RF1 aus
+den Lignum-Tabellen als Menge dokumentiert, CHF-Kennwert weiterhin offen) und der
+Wissens-Ruecklauf `auflagebereinigung` (f66873b7, Moeblierung im Fluchtweg als eigener
+Verfahrensstrang). **Delta-Null-Serie: null.** Keine Ruecktaktung, keine Deaktivierung noetig.
+
+**Verbrauchsmessung neu gerechnet — und eine offene Differenz zur Fruehwarnung.** Der Befund der
+Fruehwarnung von 07:15 ist uebernommen: Claude Code schreibt dieselbe Antwort je Content-Block
+mehrfach in die JSONL, wer roh summiert zaehlt zwei- bis vierfach. Diese Messung dedupliziert
+ueber (message.id, requestId). Ergebnis MacBook Pro teuer: 28.07. **6,44** · 29.07. **13,03** ·
+30.07. **21,72** · 31.07. bis 08:58 **13,09 Mio**. Damit faellt die Reihe deutlich unter die
+Radar-Werte der letzten vier Tage (04:57 nannte fuer den 30.07. noch 57,92 Mio) — die
+Ueberschaetzung ist bestaetigt. **Sie deckt sich aber nicht mit der Fruehwarnung**, die fuer
+dieselbe Station und denselben Tag 12,15 Mio ausweist. Beide Messungen deduplizieren nach
+demselben Schluessel; der Unterschied duerfte im erfassten Verzeichnisumfang liegen (diese
+Messung scannt `~/.claude/projects` rekursiv ueber alle Projekte). Ich loese das hier bewusst
+nicht auf — beide Werte liegen weit unter der Alarmschwelle (kein Tag ueber 35 Mio kombiniert),
+es besteht kein Handlungsbedarf, und eine Forensik waere nach dem Sparsamkeitsgebot nicht
+gerechtfertigt. Naechster Radar-Lauf mit auffaelligem Verbrauch klaert den Umfang, sonst bleibt
+die Fruehwarnung die massgebliche Reihe.
+
+**Speicher: unauffaellig trotz Druckstufe 2.** MacBook 3,37 GB frei (`vm_stat` free+inactive+
+purgeable), `kern.memorystatus_vm_pressure_level` = 2. 103 Claude-Prozesse, groesster mit 293 MB
+RSS — kein einzelner Fresser, sondern die Summe der Desktop-App-Helfer plus Raphaels beginnende
+Arbeitssession am Montagmorgen. Auf der Arbeitsstation laeuft zu dieser Zeit planmaessig kein
+Lern-Loop; keine Massnahme.
+
+**P1: keiner.** Kein Blocker, kein Login-Problem, kein leeres Kontingent.
+**P2: die Verbrauchsmessung auf eine Zahl bringen.** Zwei deduplizierte Reihen mit Faktor 1,8
+Abstand sind ein Aufsichtsmangel, auch wenn beide entwarnen. Sobald ein Lauf ohnehin an die
+Rohdaten muss, wird der Verzeichnisumfang beider Messungen angeglichen und in
+`betrieb-chronik.md` festgehalten.
+**P3: der Kennwert-Rest im Grobkosten-Ertrag.** Der RF1-Brandschutz-Mehraufwand ist mengenmaessig
+belegt, der CHF-Kennwert bleibt offen — eine Bring-Schuld, kein Loop-Problem.
+
+**Turn-Zahl: schlanker Regellauf, keine Tiefenuntersuchung.**
+
+---
 ## 2026-07-31 04:57 — [FREI] Jeder gemessene Nachtlauf hat geliefert, auch der zunaechst stumm wirkende 02:30-Slot. Der Aufsichtstakt sitzt jetzt zwei Laeufe in Folge. Der Token-Verbrauch steigt den vierten Tag in Folge und ist der einzige offene Punkt
 
 **Selbstkontrolle: kein verpasster Lauf — und damit ist das Pruefkriterium abgeschlossen.** Letzter
