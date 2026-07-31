@@ -3,6 +3,27 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-31 (Wissens-Chef Run 22, Cross-KB) — Erst-Verlinkung zu bauprodukte: der KISPI-Fall loest eine blockierte Frage
+
+- **[erst-pruefung] Das Paar `bauprodukte ↔ projekt-lessons` stand seit Run 21 mit der Notiz
+  «Abgrenzung ungeklaert» auf der Rotationsliste. Die Notiz war falsch:** die Abgrenzung ist
+  dreifach gesetzt (zwei Matrix-Zeilen plus `bauprodukte/CLAUDE.md`). Beide gemeldeten
+  Doppelspur-Befunde wurden in der Verifikation **widerlegt** — diese KB fuehrt kein unzulaessiges
+  generisches Produktwissen; der KISPI-Fall ist eine belegte Einzelfall-Beweiskette, und genau das
+  ist ihre Rolle.
+- **[querverlinkung] Der echte Mangel war teurer als die vermutete Doppelspur.** Auf Artikelebene
+  existierte in **keiner Richtung** eine Verbindung zu `bauprodukte`. Das ist deshalb bitter, weil
+  jene KB ihren Artikel zu Trockenbau/Bekleidungen (QUESTIONS Punkt 9) **mangels Quellmaterial
+  blockiert** hat — die Korpus-Ordner `214 Montagebau in Holz` und `271 Gipserarbeiten` enthalten
+  null Dateien —, waehrend `kispi-lbw-rohdichte-800.md` den einzigen belegten Praxisfall des Hubs
+  zu genau diesem Gegenstand fuehrt. Die blockierte KB und ihre Loesung standen unverbunden
+  nebeneinander.
+- **Gesetzt:** neuer Abschnitt «Abnehmer in anderen KBs» in `wiki/kispi-lbw-rohdichte-800.md` mit
+  der Rollenabgrenzung (Einzelfall hier · Norm-Kennwerte `normen` · generisches Produkt-/Systemwissen
+  `bauprodukte`); Gegenrichtung als Teil-Antwort in `bauprodukte/wiki/QUESTIONS.md` Punkt 9. Das
+  Frontmatter-Feld `links` blieb **unveraendert** — es zeigt nach Schema auf Artikel, nicht auf
+  QUESTIONS-Listen; der Eintrag folgt, sobald der `bauprodukte`-Artikel existiert.
+
 ## 2026-07-31 (Nachtschicht-Zyklus Mac Mini) — Fuenfter Lesson-Artikel: fehlende Auftragsbestaetigung als verdeckte Mahnkaskaden-Ursache (KISPI RE-00087)
 - Neues Destillat `raw/260731-kispi-fehlende-auftragsbestaetigung-mahnkaskade.md` (Stufe A,
   5 belegte Aussagen aus `logbuch/LOGBUCH.md` + `logbuch/fristen.md`, Zeitraum 16.06.-31.07.2026).

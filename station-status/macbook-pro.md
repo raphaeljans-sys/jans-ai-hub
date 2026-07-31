@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 31.07.2026 23:37:20
+Stand: 31.07.2026 23:47:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:36)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:46)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 31.07.2026 23:37:20
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 50ca4ccf Nachtschicht 31.07.: bauprodukte — ERCO-Ratgeber S.20->40 fortgeschrieben, QUESTIONS Punkt 9 (Holzbau/Bekleidungen) als Fehlannahme korrigiert und geblockt
+- ab20b1d4 nas-selfcommit: 26 Datei(en) 2026-07-31 23:45

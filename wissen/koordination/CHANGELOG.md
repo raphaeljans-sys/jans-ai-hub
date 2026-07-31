@@ -3,6 +3,64 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-31 — Run 22 (Workflow-Fan-out: 6 Lese-Agenten + 25 adversariale Verifikatoren; 16 BESTAETIGT / 9 WIDERLEGT)
+- **Verfahren:** ein Workflow, 31 Agenten, ~4.83 Mio. Subagent-Token, 516 Tool-Calls, ~18.5 Min.
+  Bericht: `outputs/2026-07-31_wissens-chef-run22.md`. **Korrekturen in 15 Dateien in 7 KBs plus der
+  Skill-Referenz `kostenschaetzung`**, dazu 18 Vorkommen eines toten Pfades in 11 Dateien. Der Lauf
+  stand auf dem Zuwachs seit Run 21: Ruecklauf 2414 Thalwil, VKF-BRL-23-15-Nachtschicht in `normen`
+  und `bauprodukte`, energie Run 120 (sieben Destillate, 24 Min. vor Laufbeginn abgeschlossen),
+  grobkosten Tab. 522-1, immobilienbewertung Ingest Cluster A-E, projekt-lessons Artikel 5.
+- **[SELBSTKRITIK, und das ist der wichtigste Eintrag dieses Laufs] Ich habe die Verifikatoren
+  geprimt.** Der Prompt enthielt den Satz, die Aufloesung sei «in den Laeufen 20 und 21 in fast
+  ALLEN Faellen nicht tragfaehig» gewesen. Ergebnis: **25 von 25** Urteilen lauteten «traegt nicht»
+  — nach 24/24 in Run 21. Diese Quote ist damit **kein Messwert** und wird nicht als solcher
+  gefuehrt. Die Gegenvorschlaege waren bei eigener Nachlese am Original ueberwiegend substanziell
+  (drei belegte Beispiele im Bericht, Abschnitt 2), aber der Erwartungswert im Prompt faellt fuer
+  Run 23 ersatzlos weg. **Regel daraus: einem Verifikator nie die historische Trefferquote nennen,
+  gegen die er urteilen soll.**
+- **[teuerster Befund] Eine umgedrehte Rechtsschwelle mit direkter Bauherren-Folge.** Der am selben
+  Abend erzeugte Wiki-Artikel `energie/wiki/umweltwaerme-gewaesser.md` fuehrte die Schwyzer
+  Konzessionsschwelle als «> 50 kW oder **< 4 Wohneinheiten**»; amtlich gilt «in der Regel
+  **mindestens vier**» (§ 12 Abs. 2 lit. e/f WRG). Doppelter Fehler, denn zusaetzlich wurde eine
+  **Erteilungs**voraussetzung zum **Pflicht**ausloeser gemacht — die Konzessionspflicht selbst ist
+  nach § 11 Abs. 2 lit. b WRG groessenunabhaengig. Ein EFH am Zugersee haette daraus «keine
+  Konzession noetig» gelesen; richtig ist, dass die Konzession in der Regel **nicht erteilt** wird.
+  Der Artikel war der einzige Ausreisser gegen **fuenf** gleichlautende, korrekte Stellen derselben
+  KB: der Verdichtungsschritt Destillat → Wiki hat die Aussage gekippt, nicht die Recherche.
+- **[STRUKTURMUSTER, sechster Fundort in Folge — erstmals mit falscher SACHAUSSAGE]** «Ein Zugang
+  heilt keinen Bestand» war bisher ein Redundanz-Problem. Run 22 zeigt die teure Variante: das neue
+  Destillat `aufzug-energieeffizienz-vdi4707` schrieb SIA 2056:2019 «fuenf VDI-4707-Kategorien» zu
+  und erklaerte die Frage fuer offen — waehrend `normen` die Norm seit dem 24.07. als `established`
+  Volldestillat fuehrt (S. 1-130 gelesen) und dort **vier** Stufen **nach Gebaeudetyp** stehen.
+  `grep "4707"` ueber `normen/` liefert genau einen Treffer (Anhang G, informativ). Die
+  Sekundaerquellen-Aussage war also nicht bloss unbelegt, sondern falsch, und der Bestand haette sie
+  am selben Tag widerlegt.
+- **[ORGANISATORISCH, zweiter Beleg nach Run 21] Ein Wissensfehler steuerte wieder einen Auftrag.**
+  `baurecht/training/PROGRAMM.md` beauftragte die Beschaffung der **StrAV** — aufgehoben per
+  01.06.2020, Nachfolgeerlass seit dem 30.07.2026 in derselben KB, beschafft im Zuge derselben
+  Triage, die den Sweep angeordnet hatte. Korrigiert; dabei kam eine echte Luecke zum Vorschein, die
+  der falsche Auftrag verdeckt hatte: Vorspruenge/Tueren/Tore an der Strassengrenze haben in der
+  VErV **keine** Entsprechung.
+- **[mechanisch am wertvollsten] Ein toter Pfad an 18 Stellen in 11 Dateien:** die WsG-/WsV-
+  Volltexte heissen `260730_…`, zitiert wurden sie durchgehend als `260728_…`. Die Zeilennummern
+  stimmen exakt (drei selbst nachgeprueft) — ein reiner Dateinamen-Datumsfehler, der sich beim
+  ersten Zitat einschlich und dann fortpflanzte. Alle lebenden Vorkommen korrigiert, datierte
+  Chronik-Eintraege bewusst nicht.
+- **[Kennwerte] Die Diagramm-Ablesung war messbar zu ungenau.** Die fuehrende Kostenreferenz fuehrte
+  «aus Spread abgelesene» Werte, obwohl die exakte Quantiltabelle seit dem 31.07. im Haus liegt:
+  Holzbau oberes Segment **+44.8 % statt +38 %**. Zugleich faellt die in Run 21 gesetzte Erklaerung
+  «verschiedene Stichproben» — HNF- und GV-Reihe stammen aus **derselben Studie mit derselben
+  Stichprobe**. Die Spreizung bleibt real und ist neu als **Ursachenfrage** angemeldet.
+- **[Rotationsliste] Erst-Pruefung `bauprodukte ↔ projekt-lessons`: die Liste hatte die falsche
+  Frage.** Die Abgrenzung war nicht ungeklaert, sondern dreifach gesetzt; beide Doppelspur-Befunde
+  wurden widerlegt. Der echte Mangel war die fehlende Verlinkung — zwischen einer KB, die ihren
+  Trockenbau-Artikel **mangels Quellmaterial blockiert** hat (Korpus-Ordner leer), und dem einzigen
+  belegten Praxisfall des Hubs zu genau diesem Gegenstand. Erst-Verlinkung gesetzt.
+- **Zwei neue Matrix-Zeilen** (Aufzug-Energiebedarf → `normen`; Primaertabellen/exakte Quantile →
+  `immobilienbewertung` liefert, fuehrende Blaetter verwenden). Zwei neue Rotations-Paare.
+- **Drei offene Entscheide fuer Raphael** im Bericht, Abschnitt 10 — neu davon nur einer
+  (Verifikationstiefe der `energie`-Nachtlaeufe), die beiden anderen sind aus Run 21 uebernommen.
+
 ## 2026-07-31 (Nachlauf Run 21) — Entscheid 6.1 umgesetzt: SWKI ist zugeordnet
 
 - **[entscheid Raphael] Die erste Matrix-Zeile mit offener Fuehrung ist wieder geschlossen.** Run 21

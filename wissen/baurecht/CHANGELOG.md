@@ -3,6 +3,36 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-31 (Wissens-Chef Run 22, Cross-KB) — StrAV-Auftrag lief ins Leere, Revisionsvorbehalt 7-%-Quote gesetzt
+
+- **[veraltet, mit Steuerungswirkung] `training/PROGRAMM.md` beauftragte die Beschaffung eines
+  aufgehobenen Erlasses.** Punkt 9 der Prioritaet (d) lautete «**Strassenabstandsverordnung
+  (StrAV)** … Volltext fehlt in `raw/` — beschaffen». Die StrAV vom 19.04.1978 ist per **01.06.2020
+  aufgehoben** (Verkehrserschliessungsverordnung, Dispositiv IV lit. a), und der Nachfolgeerlass
+  liegt seit dem **30.07.2026** in dieser KB — beschafft im Zuge derselben Triage, die den
+  KB-weiten StrAV-Sweep (Batch T0) angeordnet hatte. Der Sweep hatte Curriculum und QUESTIONS nie
+  erreicht. Der naechste Lauf haette Arbeitszeit auf die Beschaffung eines toten Erlasses verwendet.
+  Zweiter Beleg nach Run 21 dafuer, dass Wissensfehler nicht nur Inhalte, sondern **Auftraege**
+  verfaelschen.
+- **Korrigiert an drei Stellen** (Z. 143-144, Punkt 9, Luecken-Abschnitt): ersetzt durch die
+  VErV-Kernparagraphen § 23 Sichtbereiche · § 26 Abstaende von Mauern und Einfriedigungen (Abs. 1
+  lit. a-c, Abs. 2) · § 27 Abstaende von Pflanzen · § 28 Kurven-Innenseite · § 29 Befreiungen, mit
+  Fassungsvorbehalt (raw ist die RRB-Erlassfassung, nicht die konsolidierte LS-Fassung).
+- **[echte Luecke, die der falsche Auftrag verdeckt hatte]** **Vorspruenge, Tueren/Tore und
+  Materialien an der Strassengrenze** (bisher §§ 11/12 StrAV) haben in der VErV **keine
+  Entsprechung**. Als offener Punkt notiert; Anschlussnorm im PBG/ABV zu suchen (§ 240 PBG,
+  § 260 Abs. 3 PBG i.V.m. ABV).
+- **[revisionsvorbehalt, keine Wertkopie] 7-%-Quote «besondere Gebaeude» Thalwil.** Der Melde-Befund
+  lautete «veraltet»; die Verifikation hat die **Kategorie korrigiert** und damit einen Fehler
+  verhindert: unter negativer Vorwirkung gilt Art. 24 Abs. 1 BZO weiter, und Arbeitsregel 2 der
+  Korpus-Queue verlangt ausdruecklich, beide Fassungen nebeneinander zu fuehren (jeweils die
+  strengere). Der Wert und das CONFIRMED bleiben deshalb stehen; ergaenzt ist allein der
+  **Revisionsvorbehalt** mit Verweis auf `outputs/2026-07-31_bzo-thalwil-besondere-gebaeude-art24-art45.md`
+  — bewusst per Verweis, ohne die unverifizierten revBZO-Zahlen (50 m², GFZ, 3 %/5 %) in die
+  Steuerdatei zu kopieren. Dasselbe Muster wie beim VSS-40-291-Fall am 30.07.
+- **[bring-schuld, offen]** Die SIA-358-Ausgabe (hier 1996, in `normen` 2010 als geltend) ist seit
+  Run 21 unveraendert offen.
+
 ## 2026-07-31 (Wissens-Rücklauf 2414 Thalwil) — Art. 24 alt → Art. 45 revBZO, 7 %-Quote besondere Gebäude fällt
 - **[outputs]** `outputs/2026-07-31_bzo-thalwil-besondere-gebaeude-art24-art45.md`: Am Synopsen-Wortlaut
   (16.04.2025, S. 40) belegt, dass Art. 24 BZO «Besondere Gebäude» zu Art. 45 revBZO «Klein- und

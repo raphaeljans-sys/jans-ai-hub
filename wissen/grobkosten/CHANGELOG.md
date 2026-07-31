@@ -1,5 +1,44 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-07-31 (Wissens-Chef Run 22, Cross-KB) — Estrich-BKP richtiggestellt, Wuest-Quantile exakt, «verschiedene Stichproben» widerlegt
+
+- **[widerspruch, teilweise] BKP-Zuordnung des Mehrestrichs war falsch — die der Holzbau-Positionen
+  nicht.** `wiki/kennwerte.md` fuehrte «ein CHF/m²-Kennwert fuer BKP **214/271** (Mehrestrich +
+  RF1-Bekleidung)». Nach der verbindlichen `references/bkp-2017/BKP-2017-Liste.md` gehoert der
+  Zementestrich/Unterlagsboden zu **281.0**; weder 214 (Montagebau in Holz) noch 271
+  (Gipserarbeiten) kennt Estriche. **Nur der Estrich korrigiert.** Die Verifikation hat den
+  urspruenglichen Vorschlag einer Pauschalersetzung «214/271 → 281.0/225.4» **verhindert**: die
+  Zuordnung «BKP 214/271» fuer zusaetzliche **Bauteilstaerken und Bekleidungsflaechen im Holzbau**
+  ist richtig (214.1/214.3 bzw. 271.1 «Trockenbauarbeiten (EI-Waende, Brandschutz)») — die Ersetzung
+  haette Holz-Bauteilstaerken unter «Estriche» gebucht und einen schwereren Fehler erzeugt als den
+  behobenen.
+- **[querverlinkung, Erwartung korrigiert] Die Preis-Bringschuld war bei `bauprodukte` strukturell
+  unerfuellbar.** Der offene Punkt verwies auf «`ausschreibung`-Erzeugnisse oder `bauprodukte`-Korpus».
+  `bauprodukte` fuehrt laut Fuehrungsmatrix aber **keine** Kalkulations-Kennwerte, und sein Korpus
+  (`/Volumes/daten/03 Bauprodukte_BKP`) enthaelt Produktunterlagen, keine Devis oder
+  Unternehmerofferten. Statt die Uebergabe dorthin zu setzen (was sie nie haette einloesen koennen),
+  ist die Erwartung hier korrigiert und auf `ausschreibung`/`offertenpruefung` umgelenkt.
+- **[querverlinkung] Healthcare-Abschnitt nannte nicht die fuehrende KB.** Er verwies allein auf den
+  Skill `kostenschaetzung`, waehrend der eigene Kopfblock korrekt `wissen/immobilienbewertung/wiki/realwert-sachwert.md`
+  als fuehrend ausweist. Zeiger ergaenzt, samt Warnung vor der Bezugsbasis: die dortigen Baender sind
+  auf **BKP 2** bezogen und nicht direkt mit den BKP-1-5-Werten dieser Seite vergleichbar.
+- **[veraltet] Die Diagramm-Ablesung war messbar zu ungenau.** Die fuehrende Referenz
+  `skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md` fuehrte
+  «aus Spread abgelesene» Naeherungswerte, obwohl die exakte Quantiltabelle der Primaerquelle seit
+  dem 31.07. im Hub liegt (`wissen/immobilienbewertung/outputs/2026-07-31_ingest-cluster-B-wuest-partner.md`,
+  vom Verifikator zusaetzlich am Original-PDF gegengelesen). Holzbau oberes Preissegment:
+  **+44.8 % statt +38 %** (6'506 gegen 4'492 CHF/m² HNF). Beide Abschnitte des Referenzblatts auf
+  die Originalquantile umgestellt, der Querverweis hier nachgefuehrt.
+- **[widerlegt, und das aendert eine Run-21-Aussage] «Verschiedene Stichproben» ist falsch.** Die
+  HNF-Reihe (S. 18/36) und die GV-Reihe (S. 34) stammen aus **derselben Wuest-Studie mit derselben
+  Stichprobe** (17 Holzbauten gegen knapp 50 Massivbau-Referenzen, Indexstand April 2023). Als
+  Erklaerung der Spreizung (+44.8 % auf HNF gegen +12.9 % auf GV) bleibt allein die Bezugsgroesse.
+  Ob die den Faktor 3.5 traegt, ist neu als **Ursachenfrage** in `wiki/QUESTIONS.md` angemeldet;
+  bis zur Klaerung wird kein gemeinsamer Zuschlag ueber beide Bezugsgroessen gebildet.
+- **[widerlegt] Lignum Tab. 522-1:** der Melde-Befund, diese KB lese die Tabelle faelschlich als
+  additive Mehrmenge, ist gefallen — die additive Lesart stammt woertlich aus der fuehrenden KB
+  `normen`. Haette der Chef ihn umgesetzt, waere `normen` gegen sich selbst korrigiert worden.
+
 ## 2026-07-31 (Mac Mini Nachtschicht) — Brandschutz-Mehraufwand RF1: Mengen aus Tab. 522-1 erfasst, CHF-Kennwert bleibt offen
 Bring-Schuld aus `normen` Run 30–33/38 (QUESTIONS 2026-07-30c) teilweise eingelöst. Neuer
 Abschnitt «Brandschutz-Mehraufwand RF1» in `wiki/kennwerte.md`: Tab. 522-1

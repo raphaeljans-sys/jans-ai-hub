@@ -1,5 +1,36 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-07-31 (Wissens-Chef Run 22, Cross-KB) — Selbstwiderspruch in bkp-261-aufzuege aufgeloest, Erst-Verlinkung zu projekt-lessons
+
+- **[widerspruch] `wiki/bkp-261-aufzuege.md` schrieb aus, was es zwei Zeilen spaeter zu unterlassen
+  versprach.** Der Absatz gab die bedingt formulierte Ziff.-3.6-Abs.-2-Neuregelung der VKF-BRL 23-15
+  (Teilrevision 2017) woertlich samt Bedingung wieder — und behauptete unmittelbar danach, diese
+  Anforderungen wuerden «hier nicht fortgeschrieben (Rule `normen-referenz`)». Das verletzte zugleich
+  die Fuehrungsmatrix, die fuer dieses Paar ausdruecklich festhaelt: fuehrend ist `normen`,
+  `bauprodukte` verweist und schreibt die bedingt formulierten Anforderungen nicht fort.
+  Zusaetzlich fehlte der Hinweis, dass `normen` dieselbe Aussage ausdruecklich als **nicht am
+  amtlichen Original der 2017er-Ausgabe verifiziert** fuehrt (Quelle ist ein Delta-Destillat aus
+  einer Drittanbieter-Schulungsunterlage).
+- **Ersetzt** durch Verweis auf die fuehrende Fundstelle plus den praktisch entscheidenden
+  Anwendungsfall (**Einzel-Untergeschoss-Erschliessung**, z. B. Kellerabteil-/Lagerzugang) — ohne
+  die Belegstufe zu duplizieren. Ein Verweis, der nicht sagt, wann er einschlaegig ist, wird nicht
+  verfolgt; die Belegstufe dagegen gehoert der fuehrenden KB, sonst wird die Kopie falsch, sobald
+  `normen` am Original verifiziert.
+- **[querverlinkung, Erst-Verlinkung] QUESTIONS Punkt 9 (Trockenbau/Bekleidungen) hat eine
+  Teil-Antwort im Haus.** Der Punkt ist mangels Quellmaterial GEBLOCKT — die Korpus-Ordner
+  `214 Montagebau in Holz` und `271 Gipserarbeiten` enthalten null Dateien. Gleichzeitig fuehrt
+  `wissen/projekt-lessons/wiki/kispi-lbw-rohdichte-800.md` (`established`) den **einzigen belegten
+  Praxisfall des Hubs** zur Trockenbau-Bekleidung: LV-Kuerzel-Lesart nach NPK 643 (DFIR bzw.
+  DFH2IR/H2/S) und die real verbauten Plattenqualitaeten — genau das produktseitige Gegenstueck, das
+  dem Korpus fehlt. Vor Run 22 gab es auf Artikelebene in **keiner Richtung** eine Verbindung.
+  Verweis gesetzt, mit der Abgrenzung: EN-520-/VKF-Kennwerte fuehrt `normen`, zu BKP 214.1/214.3 und
+  225.4 traegt der Fall nichts bei. Die Bezeichnungen 271.10/271.13 dort sind Projektnomenklatur,
+  **kein** BKP-2017-Code.
+- **[nicht uebernommen]** Die Preis-Bringschuld aus `grobkosten` (Einheitspreis Estrich und
+  RF1-Bekleidung) wurde **bewusst nicht** hier angemeldet: diese KB fuehrt laut Matrix keine
+  Kalkulations-Kennwerte, und ihr Korpus enthaelt Produktunterlagen, keine Devis. Die falsche
+  Erwartung ist stattdessen bei `grobkosten` korrigiert worden.
+
 ## 2026-07-31 (Mac Mini Nachtschicht, 23:30) — ERCO-Ratgeber auf S. 40 fortgeschrieben, Punkt 9 als Fehlannahme korrigiert
 Zwei Punkte aus der ausschreibungsrelevanten Priorisierung bearbeitet:
 - **Punkt 4 (ERCO Lichttechnik):** [[erco-lichtplanung-grundlagen]] von S. 20 auf S. 40

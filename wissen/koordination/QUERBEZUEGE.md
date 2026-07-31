@@ -39,6 +39,8 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | Aufzuege/Befoerderungsanlagen: **Brandschutz- und Barrierefreiheits-Anforderungen** (VKF-BRL 23-15, SIA 500 Ziff. 3.7.3, SN EN 81-28/-70/-80) | **normen** | bauprodukte (Produkt-/Systemwissen BKP 261; verweist und schreibt die **bedingt formulierten** Anforderungen nicht fort) — NEU Run 21 |
 | **SWKI-Richtlinien: Fundstelle, Ausgabe, Fassungsstand** (VA103-1, VA105-01, VA106, 2004-1) | **normen** (Registerzeile; Bestandseintraege ohne ungedeckte Gueltigkeitsaussage) | energie fuehrt die **angewandte Fachaussage** (Lueftung/HLK-Physik) und verweist fuer Ausgabe und Fassungsstand dorthin — **Entscheid Raphael 31.07.2026**, gesetzt Run 21. Es ist keine Scope-Ausweitung, sondern der fuer SIA/VKF/VSS geltende Zuschnitt auf einen weiteren Herausgeber; Praezedenz ist bfu (normen fuehrt seit Run 38 alle neun bfu-Publikationen) |
 | Zahlen eines konkreten Projekts (Volumen, Flaechen, Kennwerte, Stand) | **die Projekt-Wahrheit**: `PROJEKT-STAND.md` im Projektordner + das Deliverable (Rule `projekt-ablage-stand`) | kunde-bopp und die Skills zitieren, fuehren aber nicht; fuehrend fuer die **Methode** ist der jeweilige Skill (z.B. `massgebendes-terrain`) — NEU Run 21 |
+| Aufzug: **Energie- und Leistungsbedarf** (SIA 2056:2019 Ziff. 6.23 — Gl. 107, vier Nutzungsintensitaetsstufen nach Gebaeudetyp Tab. 78, Rekuperations-/Hydraulikfaktoren) | **normen** (`sia-592-056`, S. 1-130 gelesen, established) | energie fuehrt die **Geraete-/Marktseite** (VDI-4707-Effizienzklassen A-G, Standby-Anteile, Herstellerkennzahlen) und verweist fuer die Normrechnung dorthin. SIA 2056 uebernimmt die VDI-Kategorien **nicht** — NEU Run 22, nachdem energie genau das aus Sekundaerquellen behauptet hatte |
+| **Primaertabellen/exakte Quantile** aus dem OneDrive-Marktdatenbestand (Wuest, BFS, werk-material) | **immobilienbewertung** (Ingest-Reports in `outputs/`) liefert sie; **fuehrend fuer die Verwendung** bleiben `skills/kostenschaetzung/referenzen` (Wuest-Benchmark) bzw. **grobkosten** (CHF/m3 GV) | Regel aus Run 22: sobald eine exakte Primaertabelle im Hub liegt, ersetzt sie die Diagramm-Ablesung im fuehrenden Blatt — Zahlen und Provenienz immer gemeinsam bewegen |
 | Projekt-Lessons: Beweiskette eines konkreten Einzelfalls (Herkunft einer Vorgabe, Fallwerte aus Unternehmerdoku) | **projekt-lessons** | normen (generische Norm-/VKF-Kennwerte), auflagebereinigung (Auflagen-Ziffer/Amt/Frist), grobkosten/immobilienbewertung (Kennwerte) — **projekt-lessons fuehrt KEINE generischen Kennwerte oder Normfundstellen**, nur den belegten Fall — NEU Run 16 (Erst-Pruefung) |
 
 > **NEU Run 8 — zweites Struktur-Muster «Uebergabe verpufft im abgebenden KB»:** Ein Artikel erkennt
@@ -64,6 +66,116 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 > Vollzugshilfen rekonstruiert, obwohl das Norm-Destillat 3 Tage aelter war).
 
 ## Gepruefte Paare
+
+### bauprodukte ↔ projekt-lessons — ERST-PRUEFUNG 2026-07-31 (Run 22, Rotationsliste)
+- **Befund:** Die Abgrenzung war **nicht** ungeklaert, wie die Rotationsliste seit Run 21 vermutete —
+  sie ist dreifach gesetzt (Matrix-Zeilen «Produkt-/Systemwissen nach BKP» und «Projekt-Lessons»,
+  dazu `bauprodukte/CLAUDE.md`). Beide Doppelspur-Befunde der Melde-Stufe wurden **widerlegt**:
+  weder fuehrt `projekt-lessons` unzulaessig generisches Produktwissen (der KISPI-Fall ist eine
+  belegte Einzelfall-Beweiskette mit LV-Kuerzeln und real verbauten Fabrikaten), noch kollidiert der
+  geplante Artikel `bevorzugte-systeme-jans.md` mit dem Lesson-Bestand.
+- **Was wirklich fehlte, war die Verlinkung:** auf Artikelebene existierte in **keiner** Richtung eine
+  Verbindung (`grep` beidseitig 0 Treffer ausser einem allgemeinen Satz in `bauprodukte/CLAUDE.md`).
+  Das ist teuer, weil der `bauprodukte`-Korpus fuer genau dieses Gewerk **leer** ist (die Ordner
+  `214 Montagebau in Holz` und `271 Gipserarbeiten` enthalten 0 Dateien, QUESTIONS Punkt 9 ist
+  deshalb GEBLOCKT) — waehrend `projekt-lessons` den einzigen belegten Praxisfall des Hubs zur
+  Trockenbau-Bekleidung fuehrt. Die blockierte KB und ihre Loesung standen unverbunden nebeneinander.
+- **Aktion:** Erst-Verlinkung in beide Richtungen gesetzt (Teil-Antwort an `bauprodukte`
+  QUESTIONS Punkt 9; Abschnitt «Abnehmer in anderen KBs» in `kispi-lbw-rohdichte-800.md`, `links:`
+  bewusst unveraendert — das Feld zeigt auf Artikel, nicht auf QUESTIONS-Listen). **Keine neue
+  Matrix-Zeile noetig**, die bestehenden tragen. **Status: bereinigt, Paar aus der Rotation.**
+
+### baurecht ↔ planungsgrundlagen ↔ projekt-lessons (Ruecklauf 2414 Thalwil, StrAV, BZO Stadt ZH) — geprueft 2026-07-31 (Run 22)
+- **Befund 1 (bestaetigt, hoch):** `baurecht/training/PROGRAMM.md` beauftragte weiterhin die
+  **Beschaffung der StrAV** — einer seit 01.06.2020 aufgehobenen Verordnung, deren Nachfolgeerlass
+  (VErV) seit dem 30.07.2026 in derselben KB liegt. Der in der Triage angeordnete Sweep (Batch T0)
+  hatte Curriculum und QUESTIONS nicht erreicht. **Korrigiert** (drei Stellen), mit den VErV-
+  Kernparagraphen §§ 23/26/27/28/29 und dem ehrlichen Restpunkt: Vorspruenge/Tueren/Tore haben in
+  der VErV **keine** Entsprechung, die Anschlussnorm ist offen.
+- **Befund 2 (bestaetigt, Kategorie korrigiert):** die 7-%-Quote Thalwil ist **nicht** veraltet —
+  unter negativer Vorwirkung gilt sie weiter, und die KB-Arbeitsregel verlangt ausdruecklich, beide
+  Fassungen nebeneinander zu fuehren. Es fehlte allein der **Revisionsvorbehalt** im Curriculum.
+  Gesetzt, per Verweis statt Wertkopie (dasselbe Muster wie beim VSS-40-291-Fall).
+- **Befund 3 (bestaetigt, hoch):** `planungsgrundlagen` schrieb **Art. 11 Abs. 1 BZO Stadt Zuerich**
+  materiell fort — aus einer AHB-Checkliste vom 16.02.2009, also aelter als die BZO 2016. Drei
+  Abweichungen vom amtlichen Wortlaut: der Vorbehalt lautet «technisch und **betrieblich** moeglich
+  sowie wirtschaftlich **tragbar**» (nicht «zweckmaessig … zumutbar» — diese Wendung steht heute in
+  **Abs. 3**), und das Merkmal «**auch dort, wo Solaranlagen installiert sind**» fehlte vollstaendig,
+  obwohl derselbe Eintrag die PV-Kombinationsregel aufstellt. **Korrigiert** mit Fassungsvermerk und
+  Verweis in die fuehrende KB.
+- **Befund 4 (WIDERLEGT):** «der Ruecklauf blieb in baurecht liegen» — die Verifikation hat den
+  mechanischen Teil bestaetigt, die Kernbehauptung aber gekippt. **Status: bereinigt.**
+
+### energie Run 120 ↔ baurecht ↔ normen (Gewaesser, EnerG-Fassung, Aufzug) — geprueft 2026-07-31 (Run 22)
+- **Befund 1 — der teuerste des Laufs (bestaetigt, hoch):** der neue Wiki-Artikel
+  `umweltwaerme-gewaesser` drehte die Schwyzer Konzessionsschwelle um («**<** 4 Wohneinheiten» statt
+  «mindestens vier») und machte zugleich aus einer **Erteilungs**voraussetzung einen **Pflicht**-
+  ausloeser. Praxisfolge der Fehlfassung: ein EFH oder 2-3-WE-Objekt am Zuger- oder
+  Vierwaldstaettersee haette daraus «keine Konzession noetig» gelesen — richtig ist das Gegenteil
+  (konzessionspflichtig bleibt es, die Konzession wird aber in der Regel nicht erteilt). Der Artikel
+  war der **einzige Ausreisser gegen fuenf gleichlautende Stellen derselben KB**. Korrigiert an
+  beiden Fundorten (Fliesstext + Vergleichstabelle), mit Fassungsvermerk und Verweis nach `baurecht`.
+- **Befund 2 (bestaetigt, mittel, mit Aufloesung):** das Sanierungsetappen-Destillat las EnerG ZH in
+  **Nachtrag 125**, geltend ist **129**. Die Verifikation hat beide amtlichen Volltexte gezogen und
+  den Diff gefahren: das Delta besteht ausschliesslich in den neu eingefuegten §§ 2a/2b; die einzige
+  hier zitierte Norm (§ 17a lit. a) ist wortgleich. Der Punkt ist damit **geschlossen statt
+  geflaggt** — `established` bleibt.
+- **Befund 3/4 (WIDERLEGT):** die Seewasser-Bewilligungsspur wird nirgends faelschlich als
+  «paragraphengenau» ausgegeben, und die beiden R290-FAQ-Antworten widersprechen sich nicht
+  (verschiedene Leistungsklassen). **Status: bereinigt.**
+
+### normen ↔ energie ↔ bauprodukte (Aufzug-Komplex) — geprueft 2026-07-31 (Run 22)
+- **Befund 1 (bestaetigt, hoch) — «ein Zugang heilt keinen Bestand», sechster Fundort in Folge:**
+  das am 31.07. neu erzeugte Destillat `aufzug-energieeffizienz-vdi4707` schrieb SIA 2056:2019
+  **fuenf VDI-4707-Nutzungskategorien** zu und erklaerte die Frage fuer offen, weil «SIA 2056 nicht
+  im Volltext gelesen» sei — waehrend die fuehrende KB `normen` die Norm seit dem **24.07.** als
+  `established` Volldestillat fuehrt (S. 1-130 gelesen) und dort **vier** Nutzungsintensitaetsstufen
+  **nach Gebaeudetyp** belegt sind (Tab. 78). `grep "4707"` ueber `normen/` liefert genau einen
+  Treffer: den informativen Publikationshinweis in Anhang G. Die Sekundaerquellen-Aussage war also
+  nicht nur unbelegt, sondern **falsch**. Korrigiert an vier Stellen des Destillats.
+- **Befund 2 (bestaetigt, mittel) — Selbstwiderspruch:** `bauprodukte/wiki/bkp-261-aufzuege.md`
+  schrieb die bedingt formulierte Ziff.-3.6-Anforderung woertlich aus und behauptete zwei Zeilen
+  spaeter, sie werde «hier nicht fortgeschrieben (Rule `normen-referenz`)». Zugleich fehlte der
+  Hinweis, dass `normen` dieselbe Aussage ausdruecklich als **nicht am Original der 2017er-Ausgabe
+  verifiziert** fuehrt. Ersetzt durch Verweis + Anwendungsfall (Einzel-UG-Erschliessung), ohne die
+  Belegstufe zu duplizieren. **Status: bereinigt, neue Matrix-Zeile gesetzt.**
+
+### grobkosten ↔ normen ↔ bauprodukte ↔ immobilienbewertung ↔ kostenschaetzung-Ref (Kennwerte) — geprueft 2026-07-31 (Run 22)
+- **Befund 1 (WIDERLEGT, und das war wertvoll):** die Lesart von Lignum Tab. 522-1 als additive
+  Mehrmenge stammt nicht von `grobkosten`, sondern woertlich aus der fuehrenden KB `normen`. Haette
+  der Chef den Befund umgesetzt, waere die fuehrende Quelle gegen sich selbst korrigiert worden.
+- **Befund 2 (bestaetigt zu einem Drittel):** die BKP-Zuordnung «214/271» ist fuer den **Mehrestrich**
+  falsch (richtig **281.0** nach der verbindlichen BKP-2017-Liste), fuer Holz-Bauteilstaerken und
+  Bekleidungsflaechen dagegen **richtig** (214.1/214.3 bzw. 271.1). Nur der Estrich korrigiert — die
+  urspruenglich vorgeschlagene Pauschalersetzung haette die Holzbau-Positionen unter «Estriche»
+  gebucht und damit einen schwereren Fehler erzeugt als den behobenen.
+- **Befund 3 (bestaetigt):** die Preis-Bringschuld war nur bei `grobkosten` notiert. Sie ist aber bei
+  `bauprodukte` **strukturell unerfuellbar** (dessen Korpus fuehrt Produktunterlagen, keine Devis;
+  und die KB fuehrt laut Matrix ueberhaupt keine Kalkulations-Kennwerte). Statt die Uebergabe zu
+  setzen, ist die falsche Erwartung bei `grobkosten` korrigiert und auf
+  `ausschreibung`/`offertenpruefung` umgelenkt worden.
+- **Befund 4 (bestaetigt, tief):** der Healthcare-Abschnitt in `grobkosten` nannte nur den Skill
+  `kostenschaetzung`, nicht die laut Matrix fuehrende KB `immobilienbewertung`. Zeiger gesetzt,
+  inklusive Warnung vor der Bezugsbasis (BKP 2 gegen BKP 1-5). **Status: bereinigt.**
+
+### immobilienbewertung ↔ grobkosten ↔ kostenschaetzung-Ref (Ingest Cluster A-E) — geprueft 2026-07-31 (Run 22)
+- **Befund 1 (bestaetigt, hoch) — die Ablesung war messbar zu ungenau:** die fuehrende Referenz
+  `skills/kostenschaetzung/referenzen/20260607-…` fuehrte fuer den Massiv-/Holzbau-Vergleich
+  **aus dem Spread abgelesene** Naeherungswerte, obwohl die exakte Quantiltabelle der Primaerquelle
+  seit dem 31.07. im Hub liegt. Delta im oberen Holzbau-Segment: **+44.8 % statt +38 %**. Beide
+  Abschnitte (HNF und GV) auf die Originalquantile umgestellt.
+- **Befund 2 (bestaetigt, hoch):** die dort seit Run 21 stehende Erklaerung «verschiedene Stichproben»
+  ist **widerlegt** — HNF-Reihe (S. 18/36) und GV-Reihe (S. 34) stammen aus **derselben Studie mit
+  derselben Stichprobe**. Die Spreizung (+44.8 % auf HNF gegen +12.9 % auf GV) bleibt real, hat aber
+  nur noch die Bezugsgroesse als moegliche Ursache; als **Ursachenfrage** neu in
+  `grobkosten/wiki/QUESTIONS.md` angemeldet, kein gemeinsamer Zuschlag.
+- **Befund 3 (bestaetigt, hoch) — Protokollverstoss:** von fuenf Ingest-Reports (rund 370 KB) war
+  **nur Cluster A** im CHANGELOG protokolliert; kein `wiki/`-Artikel wurde angefasst. Da die KB auf
+  `enabled=false` steht (naechster Lauf 01.09.2026), waere das Material einen Monat brachgelegen.
+  Vier Eintraege nachgetragen, Einarbeitung als Ereignis-Trigger in `training/PROGRAMM.md` verankert.
+- **Befund 4/5 (WIDERLEGT):** die Flaecheneffizienz-Divergenz 0.70/0.75 ist eine bereits gefuehrte,
+  nicht neue Frage, und Cluster C baut keine zweite Heimat fuer `grobkosten`-Gegenstaende auf.
+  **Status: bereinigt, eine Ursachenfrage offen.**
 
 ### bauprodukte ↔ normen (Aufzuege BKP 261, Rutschfestigkeit) — geprueft 2026-07-30 (Run 21)
 - **Anlass:** die am 29./30.07. entstandenen Artikel `bkp-261-aufzuege` (AS-Aufzuege-Masskizze) und
@@ -1700,11 +1812,17 @@ haengende kunde-bopp-Paar sind geprueft. Die Rotation laeuft ab jetzt wieder ueb
 
 - `claude-code ↔ rules/docs-konzepte` — die Rule-Seite des @-Import-Widerspruchs. **Bleibt liegen,
   solange der zugehoerige Governance-Entscheid Raphaels offen ist**; nicht als Karteileiche zaehlen.
-- **Neu aufgenommen Run 21:** `normen ↔ baurecht` fuer die uebrigen bfu-Destillate (Treppen, Glas,
-  Tueren/Tore, rechtliche Aspekte), die dieser Lauf nicht angefasst hat · `bauprodukte ↔ projekt-lessons`
-  (nie geprueft; die eine fuehrt Produktwissen, die andere den Einzelfall — Abgrenzung ungeklaert) ·
-  `wettbewerbs-dna ↔ entwurfs-referenzen ↔ architekten-synobsis`, sobald die am 30.07. reaktivierte
-  Etappe 4 «Vertiefung» geliefert hat.
+- **Neu aufgenommen Run 21, weiterhin offen:** `normen ↔ baurecht` fuer die uebrigen bfu-Destillate
+  (Treppen, Glas, Tueren/Tore, rechtliche Aspekte) · `wettbewerbs-dna ↔ entwurfs-referenzen ↔
+  architekten-synobsis`, sobald die am 30.07. reaktivierte Etappe 4 «Vertiefung» geliefert hat.
+- **Neu aufgenommen Run 22:** `immobilienbewertung ↔ entwurfs-referenzen ↔ wettbewerbs-dna`, sobald
+  die fuenf Ingest-Reports vom 31.07. ins Wiki eingearbeitet sind (vorher ist der Bestand nicht
+  vergleichbar) · `spec ↔ claude-code ↔ twin` (Methodik-Dreieck, seit Run 20 nur paarweise beruehrt).
+
+*Ausgetragen 31.07.2026 (Run 22):* `bauprodukte ↔ projekt-lessons` (→ Run 22, Erst-Pruefung: beide
+Doppelspur-Befunde widerlegt, die Abgrenzung war laengst dreifach gesetzt; der echte Mangel war die
+fehlende Verlinkung zwischen einer blockierten KB und dem einzigen Praxisfall, der sie loesen kann —
+Erst-Verlinkung gesetzt, keine neue Matrix-Zeile noetig).
 
 *Ausgetragen 30.07.2026 (Run 21):* kunde-bopp ↔ machbarkeit/stockwerkeigentum/ankaufspruefung (→ Run 21,
 Erst-Pruefung: 3 bestaetigt, 1 widerlegt, Giebelweg-Endstand in KB **und** Skill nachgefuehrt,

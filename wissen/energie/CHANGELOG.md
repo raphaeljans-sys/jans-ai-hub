@@ -2,6 +2,47 @@
 
 Neueste zuoberst.
 
+## 2026-07-31 (Wissens-Chef Run 22, Cross-KB) — SZ-Konzessionsschwelle umgedreht, SIA-2056-Zuschreibung falsch, EnerG-Fassung geklaert
+
+- **[widerspruch, schwerwiegend] `wiki/umweltwaerme-gewaesser.md`: die Schwyzer Konzessionsschwelle
+  war umgedreht.** Der Artikel fuehrte «Schwelle > 50 kW oder **< 4 Wohneinheiten**» (Fliesstext
+  Z. 28-29 und Vergleichstabelle). Amtlich gilt nach § 12 Abs. 2 lit. e/f WRG SRSZ 451.100 «wobei
+  diese **in der Regel mindestens vier** betragen muss» — belegt im eigenen Destillat
+  `grundwasserwaermenutzung-bewilligung-zh-sz` (WRG §§ 11/12 im Volltext gelesen). Doppelter Fehler:
+  zusaetzlich war eine **Erteilungs**voraussetzung zum **Pflicht**ausloeser gemacht worden; die
+  Konzessionspflicht selbst ist nach § 11 Abs. 2 lit. b WRG groessenunabhaengig. **Praxisfolge der
+  Fehlfassung:** ein EFH oder 2-3-WE-Objekt am Zuger- oder Vierwaldstaettersee haette daraus «keine
+  Konzession noetig» gelesen — richtig ist, dass es konzessionspflichtig bleibt, die Konzession aber
+  in der Regel **nicht erteilt** wird. Beide Fundorte korrigiert und um die Unterscheidung
+  Pflicht/Erteilung ergaenzt. Der Artikel war der **einzige Ausreisser gegen fuenf gleichlautende,
+  korrekte Stellen dieser KB** — gekippt ist die Aussage im Verdichtungsschritt Destillat → Wiki,
+  nicht in der Recherche.
+- **[querverlinkung] Gewaesser-Artikel:** Fassungsvermerk und Verweis in die fuehrende KB `baurecht`
+  ergaenzt (WsG LS 724.1 / WsV LS 724.11, je Nachtrag 133, in Kraft seit 01.06.2026). Fuer die
+  SZ-Nummer ist ausdruecklich vermerkt, dass im Hub **kein** amtlicher Volltext liegt.
+- **[widerspruch] `destillate/aufzug-energieeffizienz-vdi4707.md`: SIA 2056 hat die VDI-Kategorien
+  gar nicht.** Das Destillat schrieb der Norm an drei Stellen «die fuenf VDI-4707-Nutzungskategorien»
+  zu und erklaerte die Frage fuer offen, weil die Norm «nicht im Volltext gelesen» sei. Die fuehrende
+  KB `normen` fuehrt SIA 2056:2019 seit dem **24.07.2026** als `established` Volldestillat
+  (`sia-592-056`, S. 1-130 gelesen, am Original verifiziert): Ziff. 6.23 rechnet mit **vier**
+  Nutzungsintensitaetsstufen **nach Gebaeudetyp** (Tab. 78, Krankenhaus = «stark»), VDI 4707-1:2009
+  erscheint nur als informativer Publikationshinweis in Anhang G. Vier Stellen berichtigt, offener
+  Punkt aufgeloest. **Lehre fuer diese KB:** die Bestandssuche vor einem neuen Destillat muss ueber
+  die **Norm**achse laufen, nicht nur ueber die Gegenstandsachse — sieben parallele Rechercheagenten
+  suchten nach «Aufzug/VDI», keiner nach «SIA 2056».
+- **[veraltet, aufgeloest statt geflaggt] `destillate/etappierte-energetische-sanierung-zh-sz.md`:**
+  gelesen wurde EnerG ZH in **Nachtrag 125**, geltend ist **129**. Der Fassungsabgleich wurde
+  gefahren (beide amtlichen Volltexte gezogen): das Delta besteht ausschliesslich in den neu
+  eingefuegten §§ 2a/2b; die hier allein zitierte Delegationsnorm § 17a lit. a ist wortgleich.
+  **Kein Fassungsdrift**, `established` bleibt. Vermerk im Frontmatter und unter «Rechtsgrundlagen».
+- **[toter pfad] 12 Vorkommen von `260728_amtlich_zh_wsg.md` / `…_wsv.md` korrigiert** — die Dateien
+  heissen `260730_…`. Zeilennummern stimmten exakt; reiner Dateinamen-Datumsfehler.
+- **[offen, als Bring-Schuld notiert]** Run 120 hat die Verifikationsstufe budget-bewusst reduziert
+  und das protokolliert; zwei der sieben neuen Destillate trugen einen im Cross-KB-Lauf bestaetigten
+  Fehler. Der Gewaesser-Artikel verdient eine vollstaendige Gegenlesung durch diese KB, nicht nur die
+  zwei Punktkorrekturen des Chefs. Entscheid zur kuenftigen Verifikationstiefe liegt bei Raphael
+  (Bericht `wissen/koordination/outputs/2026-07-31_wissens-chef-run22.md`, Abschnitt 10.1).
+
 ## 2026-07-31 (Run 120) — sieben neue Destillate, Seewasser-Wiki-Artikel, PL-02-Blockade reconfirmiert
 - Sieben parallele `general-purpose`-Rechercheagenten (Kollisionsschutz: je eine eigene neue
   Destillat-Datei), Registerkonsolidierung im Hauptmodell: `etappierte-energetische-sanierung-zh-sz`

@@ -2,6 +2,30 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-31 (Wissens-Chef Run 22, Cross-KB) — BZO Art. 11 Stadt Zuerich stand im vorrevidierten Wortlaut, toter WsG-Pfad korrigiert
+
+- **[widerspruch] `wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md` schrieb Art. 11 Abs. 1 BZO
+  Stadt Zuerich materiell fort — aus einer AHB-Checkliste vom 16.02.2009**, also aus einer
+  Sekundaerquelle, die aelter ist als die BZO 2016. Drei belegte Abweichungen vom amtlichen Wortlaut
+  (`wissen/baurecht/raw/260607_amtlich_zh_bzo-zurich-stadt.md`):
+  1. Der Vorbehalt lautet amtlich «technisch und **betrieblich** moeglich sowie wirtschaftlich
+     **tragbar**», nicht «soweit **zweckmaessig** sowie technisch und wirtschaftlich **zumutbar**» —
+     und die zitierte Wendung steht heute in **Abs. 3** (Nachruest-Verlangen bei bestehenden
+     Mehrfamilienhaeusern), nicht in Abs. 1.
+  2. Das Merkmal «**auch dort, wo Solaranlagen installiert sind**» fehlte vollstaendig — obwohl
+     derselbe Eintrag die PV-Kombinationsregel (Panelabstand, Bautenschutzmatte) aufstellt und auf
+     [[energie-pv-eignung-typenwahl]] verweist. Genau der Fall, den die Norm ausdruecklich erfasst.
+  3. Kein Fassungsvermerk, obwohl die Fassung amtlich ausgewiesen ist (GRB 30.11.2016, in Kraft
+     seit 01.11.2018, STRB 686/2018).
+  **Korrigiert** mit amtlichem Wortlaut, Fassungsvermerk und Verweis in die fuehrende KB `baurecht`;
+  die Rollenteilung ist im Text benannt (dieser Artikel zitiert, er schreibt nicht fort).
+- **[toter pfad] Drei Verweise auf `260728_amtlich_zh_wsg.md` / `…_wsv.md` korrigiert** — die
+  Dateien heissen `260730_…`. Der datierte CHANGELOG-Eintrag vom 28.07. bleibt bewusst unveraendert.
+- **[bring-schuld, offen seit Run 21]** Die materielle Umstellung von
+  `wiki/recht-norm-tiefgarage-erschliessung.md` auf VSS 40 291:2021 steht weiterhin aus; der
+  Fassungs-Vorbehalt haelt den Bestand gefahrlos, die Werte laufen aber weiter in
+  Machbarkeitsstudien ein. Entscheid ueber einen Vorrang-Auftrag liegt bei Raphael.
+
 ## 2026-07-30 (Wartungslauf 01, maintainer) — sechs tote Adressen ersetzt, eine Abschaltung belegt, `--hilfe` in allen fuenf Connectoren nachgeruestet
 Erster Lauf des umgewidmeten Loops `planungsgrundlagen-wartung`: kein Quellen-Turnus, keine
 Wissensproduktion, keine Trainings-Run-Nummer. Report:
