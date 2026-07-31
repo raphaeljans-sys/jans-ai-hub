@@ -39,6 +39,54 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-07-31 20:58 — [FREI] Abendfenster planmaessig ohne getakteten Lern-Lauf, kein Leerlauf-Befund; naechster Ertrag ab 23:11 erwartet
+
+**Selbstkontrolle: kein verpasster Lauf.** Letzter Eintrag 16:58, dieser Lauf 20:58 — 4,0 h bei
+4-h-Takt, sechster planmaessiger Lauf in Folge.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung antwortet «OK» (rc 0). Weder
+5-Stunden- noch Wochen-Limit.
+
+**Feuermechanismen: konsistent, keine Abweichung gegenueber 16:58.** MacBook Pro: geladen nur die
+operativen Jobs (`claude-alwayson`, `claude-autoupdate`, `speicher-waechter`, `synctask-runner`,
+`transcript-rotation`, `wissens-trigger`); `vollgas-supervisor` und `vollgas-monitor` weiterhin
+ungeladen und als `*.disabled-260729` geparkt. Mac Mini: geladen `ch.jans.nachtschicht` und
+`ch.jans.training-energie` neben den operativen Jobs, `training-normen` und `training-plg` korrekt
+ungeladen, `vollgas-supervisor` dort ebenfalls `.disabled-260729`. Registry gegengelesen: 31 Tasks,
+kein Doppelfeuer, keine unerwartet scharfe Task. Der stehende Entscheid Raphaels vom 30.07. ist
+gewahrt — nichts angetastet.
+
+**Liefer-Delta seit 16:58: null, und das ist hier der planmaessige Zustand, kein Leerlauf.** In
+diesem Fenster war auf keiner Station ein Lern-Lauf getaktet: das MacBook Pro bleibt nach der
+Rollentrennung tagsueber und abends frei (naechster Lauf `normen-training-nacht` 01:27), und der
+naechste Mini-Nachtschicht-Slot ist 23:30. Der naechstfaellige Lauf ueberhaupt ist `wissens-chef`
+um 23:11. **Damit greift die Delta-Null-Regel nicht** — sie zaehlt Laeufe ohne Ertrag, nicht
+Fenster ohne Lauf; es ist kein Loop gelaufen, der nichts geliefert haette. Weder Ruecktaktung noch
+Deaktivierung faellig. Die 15 Commits dieses Fensters sind ausnahmslos Selfcommits mit exakt
+`station-status/mac-mini.md` und `station-status/macbook-pro.md` — am aggregierten Diff geprueft,
+nicht am Commit-Titel, und auftragsgemaess nicht als Arbeit gezaehlt.
+
+**Letzter belegter Ertrag bleibt der Mini-Slot 13:30** (Journalzeile 13:36, rc 0, 348 s, 34 Turns,
+3.04 USD): der fuenfte Lesson-Artikel in `wissen/projekt-lessons` zu RE-00087. Davor 02:39
+`training-bauprodukte` (VKF-BRL 23-15 mit Cross-KB-Ruecklauf nach `normen`) und 05:36
+`training-grobkosten` (Estrich-Mehrmenge K30/K60-RF1 dokumentiert, CHF-Kennwert bleibt offen und
+ist als Beschaffungsauftrag praezisiert). Drei Nachtschicht-Slots, drei gelieferte Deliverables —
+der Tag ist ertragsseitig sauber.
+
+**Speicher: beide Stationen entspannt.** MacBook Pro 5,12 GB frei (`vm_stat` free+inactive+
+purgeable), Druckstufe 1; Mac Mini 9,36 GB, Druckstufe 1. Kein Eingriff noetig.
+
+**Massnahmen: keine.** Regellauf schlank gehalten (rund 9 Turns), keine Tiefen-Recherche
+ausgeloest, weil kein Befund sie verlangt hat.
+
+P1 — keiner. Kein Blocker, kein Login-Problem, kein Kontingent-Engpass. Keine Mail (kein
+Mail-Anlass nach der Mail-Disziplin).
+P2 — unveraendert aus 16:58 (Einzeiler): der Tagesertrag haengt strukturell an der Nachtschicht des
+Mac Mini; faellt sie aus, holt sie niemand nach. Bisher kein Vorfall, nur die Struktur benannt.
+P3 — unveraendert offen aus 12:58 (Einzeiler): der Glob `~/.claude/projects/*/*.jsonl` im SKILL.md
+der Fruehwarnung trifft null Dateien; reine Dokumentationskorrektur, nicht dringlich.
+
+---
 ## 2026-07-31 16:58 — [FREI] Nachmittag ohne Befund: ein echtes Deliverable aus dem Mini-13:30-Slot, keine Delta-Null-Serie, keine Massnahme faellig
 
 **Selbstkontrolle: kein verpasster Lauf.** Letzter Eintrag 12:58, dieser Lauf 16:58 — 4,0 h bei
