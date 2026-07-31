@@ -1363,9 +1363,19 @@ der Backlog nicht erneut aufgemacht wird:
   Aufnahme→Messung→Massnahmen→Kommunikation bei Innenraumklima-Beschwerden; Grundsatz **"Ziel ist,
   die Medien zu orientieren, bevor deren Recherche beginnt"** — Kommunikations-Checkliste, keine
   technische Kennzahl.
-- **«Dachbegrünung» (Checkliste, FUY, 16.02.2009):** Rechtsgrundlage **BZO Art. 11 Abs. 1** (Flach-
-  dächer sind zu begrünen, "soweit zweckmässig sowie technisch und wirtschaftlich zumutbar") — ein
-  bisher nicht dokumentierter BZO-Artikel, Cross-Ref [[recht-norm-quellenlandkarte]]. Kennzahlen:
+- **«Dachbegrünung» (Checkliste, FUY, 16.02.2009):** Die Checkliste nennt als Rechtsgrundlage
+  **Art. 11 Abs. 1 BZO Stadt Zürich** und gibt ihn mit «soweit zweckmässig sowie technisch und
+  wirtschaftlich zumutbar» wieder — **das ist nicht der geltende Wortlaut** (korrigiert 31.07.2026,
+  Wissens-Chef Run 22). Massgebend ist die Fassung gemäss GRB vom 30.11.2016, in Kraft seit
+  01.11.2018 (STRB Nr. 686/2018): in allen Zonen ist der nicht als begehbare Terrasse genutzte
+  Bereich eines Flachdachs ökologisch wertvoll zu begrünen, **auch dort, wo Solaranlagen
+  installiert sind**; die Pflicht besteht, soweit dies **technisch und betrieblich möglich sowie
+  wirtschaftlich tragbar** ist. Die Wendung «technisch und wirtschaftlich zumutbar» steht heute in
+  **Abs. 3** (Nachrüst-Verlangen bei bestehenden Mehrfamilienhäusern), nicht in Abs. 1. Wortlaut und
+  Fassungsstand des BZO-Rechts führt die KB `baurecht` — `wissen/baurecht/raw/260607_amtlich_zh_bzo-zurich-stadt.md`
+  (Art. 11, Fassungsfussnote ebd.); dieser Artikel zitiert und schreibt den Wortlaut nicht fort.
+  Die Solar-Klausel ist für die PV-Kombination unten unmittelbar einschlägig.
+  Cross-Ref [[recht-norm-quellenlandkarte]]. Kennzahlen:
   Regenwasserrückhalt 40–90 %, Wärmeleitzahl dichtes Graspolster λ=0.17 W/m²K vs. erdfeuchtes
   Substrat λ=0.6 W/m²K; PV-Kombination-Regel **Panelabstand <80 cm → niedrigwachsende
   Samenmischung + Substrattiefe punktuell auf 5 cm reduziert**, Bautenschutzmatte unter der

@@ -211,13 +211,16 @@ Ablesung (Folie 5, keine Originalzahlen im Textlayer, ca.-Werte), auf 01.04.2025
 | Holzbau, unteres Preissegment | ≈ 0 % (Parität) | Median ≈975 vs. Massivbau ≈995 CHF/m³ GV |
 | Holzbau, oberes Preissegment | ≈ +13 % | Median ≈1'120 vs. Massivbau ≈995 CHF/m³ GV |
 
-**Verhältnis zur HNF-Quelle (korrigiert 30.07.2026, Wissens-Chef Run 21):** Das HNF-Referenzblatt
-`skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md`,
-Abschnitt 3 (Segmentzeilen belegt seit mindestens 25.07.2026, git 7b4c0777), segmentiert bereits
-gleich benannt und kommt zu anderen Deltas: Massivbau-Median 4'500, Holzbau unteres Segment 5'000
-(+11 %), oberes Segment 6'200 (+38 %) CHF/m² HNF. Beide Datensätze ruhen auf demselben Preisstand
-(April 2023), die Differenz ist also nicht Teuerung, sondern Bezugsgrösse (HNF gegen GV),
-verschiedene Stichproben und beidseitige Diagramm-Ableseunschärfe. Die Spreizung ist ungeklärt;
+**Verhältnis zur HNF-Quelle (korrigiert 30.07.2026 Run 21, präzisiert 31.07.2026 Run 22):** Das
+HNF-Referenzblatt `skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md`,
+Abschnitt 3, führt seit dem 31.07.2026 die **exakten Quantile** der Primärquelle statt der früheren
+Diagramm-Ablesung: Massivbau-Median 4'492, Holzbau unteres Segment 4'980 (+10.9 %), oberes Segment
+6'506 (**+44.8 %**, nicht +38 %) CHF/m² HNF. **Neu belegt und zu korrigieren:** die beiden Reihen
+stammen aus **derselben Wüest-Studie mit derselben Stichprobe** (17 Holzbauten / knapp 50
+Massivbau-Referenzen, Indexstand April 2023) — HNF auf S. 18/36, GV auf S. 34. Die frühere
+Aussage «verschiedene Stichproben und beidseitige Diagramm-Ableseunschärfe» ist damit **widerlegt**.
+Als Erklärung der Spreizung bleibt allein die **Bezugsgrösse** (HNF nur oberirdisch gegen GV
+Gesamtvolumen). Der Grund für die Grössenordnung der Spreizung ist weiterhin ungeklärt;
 der hier geführte GV-Zuschlag gilt ausschliesslich für die CHF/m³-GV-Kennwerte dieser KB. Ein
 bestätigender Quervergleich mit der HNF-Quelle wird ausdrücklich NICHT behauptet. Belastbarer
 Konsistenz-Beleg des neuen Kennwerts bleibt allein der zweite Check: Massivbau-Median ≈995 CHF/m³
@@ -258,18 +261,39 @@ Anwendungsgrenze oben liefern unterschiedlich weit tragfähige Grössen:
   — kein erkennbarer eigener Kostentreiber gegenüber dem bereits kalibrierten
   Holzbau-Zuschlag oben. Nicht abschliessend geprüft, ob eine Bauaufgabe eine höhere Güte
   verlangt, als ohnehin verbaut würde.
-- **Offen bleibt:** ein CHF/m²-Kennwert für BKP 214/271 (Mehrestrich + RF1-Bekleidung)
-  braucht einen Einheitspreis Zementestrich (CHF/m²/cm) und einen Einheitspreis
-  K30-RF1/K60-RF1-Bekleidung (CHF/m², z. B. Gipsplatten-Systemwand), die in keiner
-  Hub-Quelle vorliegen. Nächster Schritt: bei Gelegenheit ein reales Devis/eine
-  Unternehmerofferte mit einer dieser Positionen destillieren (`ausschreibung`-Erzeugnisse
-  oder `bauprodukte`-Korpus), statt einen Satz zu schätzen.
+- **Offen bleibt** ein CHF/m²-Kennwert für zwei getrennt zu buchende Positionen (BKP-Codes
+  richtiggestellt 31.07.2026, Wissens-Chef Run 22, gegen `references/bkp-2017/BKP-2017-Liste.md`):
+  - **Mehrestrich → BKP 281.0 «Estriche (Unterlagsböden)»**, nicht 214 oder 271. Gebraucht wird
+    ein Einheitspreis Zementestrich (CHF/m²/cm).
+  - **RF1-Bekleidung → BKP 271.1 «Trockenbauarbeiten (EI-Wände, Brandschutz)»** bzw., wo als
+    reine Brandschutzbekleidung ausgeschrieben, **BKP 225.4 «Brandschutzbekleidungen und dgl.»**.
+    Gebraucht wird ein Einheitspreis K30-RF1/K60-RF1 (CHF/m², z. B. Gipsplatten-Systemwand).
+
+  Beide Einheitspreise liegen in keiner Hub-Quelle vor. **Nicht bei `bauprodukte` erwarten:**
+  jene KB führt laut Führungsmatrix ausdrücklich keine Kalkulations-Kennwerte, und ihr Korpus
+  (`/Volumes/daten/03 Bauprodukte_BKP`) enthält Produktunterlagen, keine Devis oder
+  Unternehmerofferten. Nächster Schritt ist deshalb ein reales Devis aus dem
+  `ausschreibung`-/`offertenpruefung`-Bestand, statt einen Satz zu schätzen.
+  *(Die Zuordnung «BKP 214/271» weiter oben für zusätzliche **Bauteilstärken und
+  Bekleidungsflächen im Holzbau** bleibt richtig — 214.1/214.3 Montagebau in Holz, 271.1
+  Trockenbau; nur der Estrich war dort falsch einsortiert.)*
 
 ## Healthcare / Spezialnutzung
 
-Für Spital, Klinik, Alters-/Pflegeheim, Reha, Praxis NICHT diese m³-Werte verwenden —
-stattdessen die belegten **m²-NF-Kennwerte (Wüest Partner)** aus dem Skill `kostenschaetzung`
-(`referenzen/20260302-Kostenkennwerte-Healthcare-Neubau-Umbauten.pdf`).
+Für Spital, Klinik, Alters-/Pflegeheim, Reha, Praxis NICHT diese m³-Werte verwenden. Diese KB
+führt für Healthcare bewusst **keine** Kennwerte (Führungsmatrix `wissen/koordination/QUERBEZUEGE.md`;
+siehe auch den Kopfblock dieser Seite).
+
+- **CHF/m³ GV und CHF je Pflegeplatz** führt `wissen/immobilienbewertung/wiki/realwert-sachwert.md`
+  — dort im Original nachschlagen, nie von hier zitieren. Achtung: die dortigen Bänder sind auf
+  **BKP 2 (Gebäude)** bezogen und deshalb nicht direkt mit den BKP-1-5-Werten dieser Seite
+  vergleichbar; der obere Endpunkt trägt einen Vorbehalt.
+- **CHF/m² NF** (Neubau und Umbau) führt der Skill `kostenschaetzung`
+  (`referenzen/20260302-Kostenkennwerte-Healthcare-Neubau-Umbauten.pdf`).
+- Für die Wirtschaftlichkeitsrechnung: Skill `healthcare-wirtschaftlichkeit`.
+
+*(Zeiger auf die führende KB ergänzt 31.07.2026, Wissens-Chef Run 22 — der Abschnitt nannte bisher
+nur den Skill und damit nicht die laut Matrix führende Quelle.)*
 
 ## Umbau / Sanierung
 

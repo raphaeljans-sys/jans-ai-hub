@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 31.07.2026 23:33:32
+Stand: 31.07.2026 23:43:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:33)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:35)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 31.07.2026 23:33:32
 - keine
 
 ## Hub-Git-Stand (NAS)
-- eb57541f nas-selfcommit: 3 Datei(en) 2026-07-31 23:30
+- 50ca4ccf Nachtschicht 31.07.: bauprodukte — ERCO-Ratgeber S.20->40 fortgeschrieben, QUESTIONS Punkt 9 (Holzbau/Bekleidungen) als Fehlannahme korrigiert und geblockt

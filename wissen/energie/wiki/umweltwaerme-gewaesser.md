@@ -25,8 +25,23 @@ Luft-/Erdwärmepumpe.
 ## 1. Seewasser (Aquathermie / OWEN)
 - **Immer konzessions- und bewilligungspflichtig** — der Kanton ist Hoheitsträger über die
   Seewärme (ZH: § 68 Abs. 1 lit. c WsG + § 119 Abs. 2 lit. c WsV, Konzessionsdauer 15-30 Jahre
-  gemäss § 121 Abs. 1 lit. b WsV; SZ: § 11 Abs. 2 lit. b WRG SRSZ 451.100, Schwelle > 50 kW oder
-  < 4 Wohneinheiten).
+  gemäss § 121 Abs. 1 lit. b WsV; SZ: § 11 Abs. 2 lit. b WRG SRSZ 451.100 — der Betrieb von
+  Wärmepumpen an einem öffentlichen Gewässer ist **grössenunabhängig** konzessionspflichtig).
+  **Erlasswortlaut und Fassungsstand des ZH-Rechts führt die KB `baurecht`** (Führungsmatrix
+  `koordination/QUERBEZUEGE.md`): WsG LS 724.1 und WsV LS 724.11, je Fassung Nachtrag 133, in
+  Kraft seit 01.06.2026 — `wissen/baurecht/raw/260730_amtlich_zh_wsg.md` bzw. `…_wsv.md`. Dieser
+  Artikel führt nur die angewandte Bewilligungs- und Konzessionspraxis. Für die SZ-Nummer liegt
+  im Hub kein amtlicher Volltext, sondern das Destillat `[[grundwasserwaermenutzung-bewilligung-zh-sz]]`
+  (WRG §§ 11/12 im Volltext gelesen, Fassung 1.2.2020).
+- **SZ — Grössenschwelle ist eine Erteilungs-, keine Pflichtvoraussetzung** (korrigiert 31.07.2026,
+  Wissens-Chef Run 22): § 12 Abs. 2 lit. e/f WRG regelt den *Gesuchsinhalt* und verlangt «in der
+  Regel mindestens vier» Wohneinheiten bzw. «in der Regel mehr als 50 kW …, sofern nicht mindestens
+  vier Wohneinheiten … versorgt werden»; die 50-kW-Schwelle ist der 4-Wohneinheiten-Schwelle
+  ausdrücklich **nachrangig**. Konzessionen werden also nur erteilt, wenn **mindestens** 50 kW oder
+  **mindestens** vier Wohneinheiten erreicht werden (so auch der Energierichtplan Freienbach,
+  `[[energierichtplan-freienbach-econcept]]`). **Praxisfolge:** ein EFH oder ein 2-3-WE-Objekt am
+  Zuger- oder Vierwaldstättersee ist nicht etwa konzessionsfrei — es bleibt konzessionspflichtig,
+  bekommt die Konzession aber in der Regel **nicht**.
 - **Verfahrensdauer ZH:** rund 3 Monate unter 800 kW, + 2 Monate bei Ausschreibungspflicht darüber.
 - **Technik:** Entnahme/Rückgabe deutlich unterhalb der Sprungschicht (ZH-Richtwert 20-30 m,
   Vierwaldstättersee 20-35 m), max. 7 °C Temperaturänderung, Zwischenkreislauf-Pflicht (nie
@@ -65,7 +80,7 @@ Luft-/Erdwärmepumpe.
 
 | Quelle | Bewilligungspflicht ZH | Bewilligungspflicht SZ | Amtlicher COP/JAZ-Wert | Reife der Rechtsgrundlage |
 |---|---|---|---|---|
-| Seewasser | Konzession + Bewilligung (immer) | Konzession ab 50 kW / <4 WE | nein (nur Herstellerwert) | hoch (WsG/WsV paragraphengenau) |
+| Seewasser | Konzession + Bewilligung (immer) | Konzession immer; **erteilt** i.d.R. nur ab 50 kW **oder** ≥ 4 WE | nein (nur Herstellerwert) | ZH hoch (WsG/WsV paragraphengenau, Fassung Nachtrag 133); SZ Destillat, kein Volltext im Hub |
 | Abwasser Kanalisation/ARA | Bewilligung ab Mindestgrösse | **keine Regelung (Negativbefund)** | nein (Vergleichswerte anderer Anlagen) | ZH hoch, SZ nicht vorhanden |
 | Duschwasser-WRG (gebäudeintern) | kein Bewilligungsthema | kein Bewilligungsthema | pauschal 10 % WW-Bedarf (EN-101) | hoch, CH-weit harmonisiert |
 | Grundwasser | Konzession | Vorabklärung/eBau | teils vorhanden | hoch |

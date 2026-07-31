@@ -136,7 +136,7 @@ bisher vollständig (Cross-KB-Befund `energie` → `planungsgrundlagen`, adversa
 - **Kantonale Rechtsgrundlage ZH:** In ZH ausdrücklich gesetzlich **zulässig und gebührenfrei in
   getrennten Systemen** (**§ 97 Abs. 3 WsG**, LS 724.1, in Kraft seit **01.06.2026**, Nachtrag 133).
   Wortlaut nicht hier fortschreiben, sondern in der führenden KB nachlesen:
-  `wissen/baurecht/raw/260728_amtlich_zh_wsg.md:1374`. Für andere Kantone **nicht geprüft**.
+  `wissen/baurecht/raw/260730_amtlich_zh_wsg.md:1374`. Für andere Kantone **nicht geprüft**.
 - **⚠ Reichweite der Gebührenfreiheit, hier wird am häufigsten zu günstig gerechnet.** Gebührenfrei
   ist die **Verwendung des eigenen Regenwasservolumens**; bezogen wird nichts. Unberührt bleiben: die
   **Bezugs-/Anschlusspflicht** an die öffentliche Wasserversorgung (§ 97 Abs. 1 WsG, Randtitel
@@ -144,7 +144,7 @@ bisher vollständig (Cross-KB-Befund `energie` → `planungsgrundlagen`, adversa
   der für die Finanzierung sinngemäss auf §§ 61 ff. WsG verweist) sowie die
   **Abwassergebühren**: § 111 Abs. 2 WsV verlangt ausdrücklich, dass die Gemeinden bei der Grundgebühr
   «sowohl den Schmutz- als auch den Regenwasseranfall» berücksichtigen
-  (`wissen/baurecht/raw/260728_amtlich_zh_wsv.md:1240-1244`). **Praxisfolge:** Eine Zisterne ersetzt
+  (`wissen/baurecht/raw/260730_amtlich_zh_wsv.md:1240-1244`). **Praxisfolge:** Eine Zisterne ersetzt
   den Anschluss an die öffentliche Wasserversorgung nicht.
 - **Technische Kernregeln und der Meldeschritt** (strikte Netztrennung vom Trinkwassernetz,
   Kennzeichnung der Leitungen/Entnahmestellen, Meldung der Anlage ans Wasserwerk als eigener,

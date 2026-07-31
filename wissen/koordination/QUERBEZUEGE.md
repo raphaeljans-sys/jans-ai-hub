@@ -363,7 +363,7 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ### baurecht ↔ planungsgrundlagen ↔ energie (Gegenlesung am NEUEN WsG-/WsV-Volltext) — geprueft 2026-07-28 (Run 19)
 - **Anlass:** Die in Run 18 als P1 gemeldete Luecke ist eingeloest — `baurecht` hat mit Buch-Run 69
-  `raw/260728_amtlich_zh_wsg.md` (WsG, LS 724.1, §§ 1-132) und `raw/260728_amtlich_zh_wsv.md`
+  `raw/260730_amtlich_zh_wsg.md` (WsG, LS 724.1, §§ 1-132) und `raw/260730_amtlich_zh_wsv.md`
   (WsV, LS 724.11, §§ 1-215) beschafft. Erstmals waren damit ALLE rund 60 WsG-/WsV-Fundstellen des
   Hubs am amtlichen Wortlaut pruefbar. Beide raw-Dateien auf Vollstaendigkeit geprueft: lueckenlos,
   Frontmatter-Fassungsstand deckt sich mit dem Textkoerper — kein Befund.

@@ -52,7 +52,7 @@ wiederkehren. Bundesrecht in Zuständigkeit Kanton/Gemeinde:
 > Gegenteil einer Festlegungskompetenz. Wer gegenüber dem AWEL § 19 als Festlegungsnorm zitiert,
 > beruft sich auf die Ausnahmeregel. Die Zuordnung stammt aus einer KB-eigenen Konkordanztabelle
 > vom 17.07.2026, als der WsG-Volltext im Hub noch nicht vorlag; er liegt seit 28.07.2026 vor
-> (`wissen/baurecht/raw/260728_amtlich_zh_wsg.md`, LS 724.1, Nachtrag 133) und widerlegt sie.
+> (`wissen/baurecht/raw/260730_amtlich_zh_wsg.md`, LS 724.1, Nachtrag 133) und widerlegt sie.
 > **Achtung Nummern-Wiederverwendung:** LS 724.11 trug bis 31.05.2026 das WWG und trägt seither die
 > WsV — bei Altdokumenten immer das Datum mitlesen. Siehe [[recht-norm-abstandsvorschriften-wald-gewaesser]].
 >

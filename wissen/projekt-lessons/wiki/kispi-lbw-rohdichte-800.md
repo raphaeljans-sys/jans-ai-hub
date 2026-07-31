@@ -76,3 +76,18 @@ DS3: 41.2 Dossier Submission (LV) und 70 Unternehmerdokumentation (Materialdekla
 Berichte im Projektordner: `03_BKP/LOS_271.10 Gipserarbeiten ESTERMANN/271.10 08
 Korrespondenz/260723 VKF Anerkennungen/` (260723-Bericht-VKF-Anerkennungen-LBW,
 260723-Bericht-Beilagestrategie-VKF-Feuerpolizei).
+
+## Abnehmer in anderen KBs
+
+*(gesetzt 31.07.2026, Wissens-Chef Run 22 — Erst-Verlinkung des Paars
+`bauprodukte ↔ projekt-lessons`.)*
+
+Dieser Fall ist derzeit der **einzige belegte Praxisfall des Hubs** zur Trockenbau-Bekleidung
+und damit das produktseitige Gegenstück, das dem `bauprodukte`-Korpus fehlt: die Ordner
+`214 Montagebau in Holz` und `271 Gipserarbeiten` des Quellarchivs sind leer, weshalb der
+geplante Artikel dort blockiert ist (`wissen/bauprodukte/wiki/QUESTIONS.md`, Punkt 9). Wer
+diesen Artikel anlegt, liest zuerst hier.
+
+Abgrenzung: dieser Artikel führt den **belegten Einzelfall** (Herkunft der Vorgabe, LV-Kürzel,
+verbaute Fabrikate), nicht die generischen Norm-Kennwerte — die führt `wissen/normen/` — und
+nicht generisches Produkt-/Systemwissen nach BKP, das führt `wissen/bauprodukte/`.

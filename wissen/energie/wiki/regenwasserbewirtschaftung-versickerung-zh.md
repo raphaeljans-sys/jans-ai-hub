@@ -58,7 +58,7 @@ FAQ F186.
 nur die Entsorgungsseite. Die **Nutzungs**seite ist im Kanton Zürich ausdrücklich gesetzlich
 geregelt: **§ 97 Abs. 3 WsG** (LS 724.1, Fassung Nachtrag 133, in Kraft seit 01.06.2026) — «Die
 Verwendung von Regenwasser als Brauchwasser in getrennten Systemen ist zulässig und gebührenfrei.»
-Wortlaut in der führenden KB: `wissen/baurecht/raw/260728_amtlich_zh_wsg.md:1374`; für andere
+Wortlaut in der führenden KB: `wissen/baurecht/raw/260730_amtlich_zh_wsg.md:1374`; für andere
 Kantone nicht geprüft. Die Gebührenfreiheit betrifft nur das genutzte Regenwasservolumen:
 Bezugspflicht (§ 97 Abs. 1 WsG) und Anschlusspflicht (§ 178 WsV) an die öffentliche
 Wasserversorgung bleiben unberührt, ebenso die Grundgebühr; bei der Abwasser-Grundgebühr ist

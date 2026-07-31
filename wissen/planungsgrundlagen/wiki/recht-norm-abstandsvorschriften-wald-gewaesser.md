@@ -106,7 +106,7 @@ durch das **Wassergesetz (WsG, LS 724.1)** + die **Wasserverordnung (WsV, LS 724
 Festlegung heute **§ 18 Abs. 1 WsG** / § 11 WsV, Baudirektionsentscheid § 183 lit. b WsV
 *(korrigiert Wissens-Chef Run 19, 28.07.2026: hier stand «§ 19 WsG»; § 19 regelt die **Anpassung**
 des Gewässerraums in dicht überbauten Gebieten, nicht die Festlegung — am amtlichen Volltext
-`baurecht/raw/260728_amtlich_zh_wsg.md` verifiziert)*. Massgebend fürs
+`baurecht/raw/260730_amtlich_zh_wsg.md` verifiziert)*. Massgebend fürs
 Recht ist die KB `baurecht` (`[[abstaende-und-hoehen]]`, amtlich nachgeführt 17.07.2026 mit
 Konkordanztabelle alt/neu). Wissens-Chef Run 7, 2026-07-17.
 

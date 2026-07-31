@@ -83,6 +83,18 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
    markiert das Gewerk als «kein Material vorhanden, überspringen». Kein weiterer
    Nachtlauf soll dieses Quellarchiv erneut danach durchsuchen, ohne dass sich der
    Bestand geändert hat.
+
+   **Teil-Antwort zur Bekleidungs-Seite liegt bereits im Hub (nachgetragen 31.07.2026,
+   Wissens-Chef Run 22):** Für die Trockenbau-Bekleidung existiert mit
+   `wissen/projekt-lessons/wiki/kispi-lbw-rohdichte-800.md` (2619 KISPI, `established`) ein
+   belegter Praxisfall — LV-Kürzel-Lesart nach NPK 643 (DFIR bzw. DFH2IR/H2/S, je Seite
+   2 Lagen 12.5 mm) und die im Bestand tatsächlich verbauten Plattenqualitäten. Das ist genau
+   das produktseitige Gegenstück, das dem Korpus fehlt; beim Anlegen des Artikels **zuerst dort
+   lesen**. Die EN-520-/VKF-Kennwerte selbst führt `wissen/normen/`, nicht `bauprodukte`
+   (Matrix-Zeile «Norm-Fundstellen in bauprodukte-Artikeln»). Zu BKP 214.1/214.3 (Holzbau) und
+   225.4 (Brandschutzbekleidungen) trägt der Fall nichts bei — diese Teilfragen bleiben offen.
+   Die Bezeichnungen 271.10/271.13 im Lesson-Artikel sind Projektnomenklatur, **kein**
+   BKP-2017-Code.
 10. **Teilrevision 2017 der VKF-BRL 23-15 auf Aufzugsrelevanz geprüft — GESCHLOSSEN
     (Mac Mini Nachtschicht, 31.07.2026).** Ergebnis: **materiell betroffen.** Ziff. 3.6
     Abs. 2 (neu 2017): Aufzugsschachttüren dürfen bei einer Anlage, die nur EIN

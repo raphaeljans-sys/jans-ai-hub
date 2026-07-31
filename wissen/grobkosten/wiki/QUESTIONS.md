@@ -2,6 +2,26 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-07-31 (Wissens-Chef Run 22) — Warum läuft dieselbe Stichprobe je nach Bezugsgrösse so weit auseinander?
+
+**Ursachenfrage, keine Belegfrage mehr.** Neu belegt ist: die HNF-Reihe (S. 18/36) und die
+GV-Reihe (S. 34) des Wüest-/Lignum-/BAFU-Berichts «Holzbaukennzahlen für Investoren»
+(26.04.2024) stammen aus **derselben Studie mit derselben Stichprobe** (17 Holzbauten gegen
+knapp 50 Massivbau-Referenzen, Indexstand April 2023). Die bisherige Erklärung «verschiedene
+Stichproben und beidseitige Diagramm-Ableseunschärfe» ist damit widerlegt (Primärtabellen:
+`wissen/immobilienbewertung/outputs/2026-07-31_ingest-cluster-B-wuest-partner.md`).
+
+Offen bleibt die **Grössenordnung**: der Holzbau-Aufpreis im oberen Preissegment beträgt auf
+HNF-Basis **+44.8 %** (6'506 gegen 4'492), auf GV-Basis nur **+12.9 %** (1'100 gegen 974). Als
+Erklärung bleibt allein die Bezugsgrösse — HNF zählt definitionsgemäss nur oberirdische
+Nutzfläche, GV das ganze Volumen —, was den Faktor 3.5 aber nicht ohne Weiteres trägt.
+Zu prüfen: unterscheiden sich die Holzbau-Objekte systematisch in der Flächeneffizienz
+(dickere Wandaufbauten → weniger HNF bei gleichem GV), oder erfassen die beiden Tabellen
+unterschiedliche Teilmengen der Stichprobe? Der Bericht liegt vor
+(`IMMO - 04 Marktpreise/wuest partner/Wuest Reports/Holzbaukennzahlen/`), S. 9 definiert die
+Quantile, die Methodik ist dort nachzulesen. **Bis zur Klärung wird kein gemeinsamer Zuschlag
+über beide Bezugsgrössen gebildet.**
+
 ## 2026-07-31 (Mac Mini Nachtschicht) — Bring-Schuld aus `normen` teilweise eingelöst: Mengen aus Tab. 522-1 erfasst, CHF-Einheitspreis bleibt die Lücke
 
 **Fortschritt, nicht abgeschlossen.** Weiterführung von 2026-07-30c unten. In `wiki/kennwerte.md`

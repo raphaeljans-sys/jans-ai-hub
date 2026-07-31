@@ -58,7 +58,7 @@ oder 50 kW, beide unter der bundesrechtlichen **3°C-Temperaturänderungsregel**
   **Für die Praxis:** in Wirtschaftlichkeitsrechnungen für eine Grundwasserwärmepumpe den
   Betrachtungs-/Amortisationshorizont der Wärmequelle mit **maximal 30 Jahren** ansetzen und die
   Konzessionserneuerung als Risiko ausweisen (betrifft `healthcare-wirtschaftlichkeit`,
-  `machbarkeit` Typ B, `immobilienbewertung` DCF). Beleg: `baurecht/raw/260728_amtlich_zh_wsv.md`,
+  `machbarkeit` Typ B, `immobilienbewertung` DCF). Beleg: `baurecht/raw/260730_amtlich_zh_wsv.md`,
   LS 724.11, Nachtrag 133.
 
 ## Kanton Schwyz

@@ -140,7 +140,8 @@ Alle stammen aus der realen Eingabe; die Klammer nennt den Stand in der KB.
 3. **Pflichtbäume** — Anzahl, Sorte/lateinischer Name, Pflanz- und Kronengrösse, Erhalt und
    Ersatz (§ 238a Abs. 5 PBG **CONFIRMED** Run 71; kommunale Konkretisierung fehlt).
 4. **Einfriedungen, Gartenmauern, Sichtschutz** — die Vierebenen-Prüfung Zonenrecht /
-   Strassenrecht (§ 240 PBG, StrAV) / Privatrecht (§ 178 EG ZGB, 1,5 m) / Einordnung
+   Strassenrecht (§ 240 PBG, VErV §§ 23/26/27/28 — StrAV per 01.06.2020 aufgehoben) /
+   Privatrecht (§ 178 EG ZGB, 1,5 m) / Einordnung
    (§ 238 Abs. 1 PBG). **Kein eigener Wiki-Artikel** — die grösste Lücke; Batch T2.
 5. **Negative Vorwirkung revidierter BZO** — ab wann welche Fassung, «jeweils die strengere»
    (in [[baureife-und-erschliessung]] nur als planungsrechtliche Baureife § 234 PBG; die
@@ -148,12 +149,33 @@ Alle stammen aus der realen Eingabe; die Klammer nennt den Stand in der KB.
 6. **Einordnung § 238 Abs. 1 PBG als Verteidigungslinie** — «befriedigend, nicht optimal»,
    objektive Massstäbe, darf ein rechtskonformes Vorhaben nicht verhindern, Begründungspflicht
    des ablehnenden Entscheids. Rechtsprechungs-Register aufbauen.
-7. **Besondere Gebäude** — 7-%-Regel (Art. 24 Abs. 1 BZO Thalwil **CONFIRMED** Run 71 am
-   amtlichen BZO-Volltext), Verhältnis zu § 273 PBG.
+7. **Besondere Gebäude** — 7-%-Regel (Art. 24 Abs. 1 BZO Thalwil, **geltende Fassung**,
+   **CONFIRMED** Run 71 am amtlichen BZO-Volltext `raw/260607_amtlich_zh_bzo-thalwil.md`),
+   Verhältnis zu § 273 PBG. **Revisionsvorbehalt (nachgetragen 31.07.2026, Wissens-Chef Run 22):**
+   die Synopse vom 16.04.2025 überführt Art. 24 in Art. 45 revBZO «Klein- und Anbauten» und hebt
+   die 7-%-Quote auf; Nachfolgeregel und deren Normierungsort sind **offen** (Batch T1). Beleg:
+   `outputs/2026-07-31_bzo-thalwil-besondere-gebaeude-art24-art45.md`. Es gilt Arbeitsregel 2 der
+   Korpus-Queue — beide Fassungen nebeneinander führen, jeweils die strengere. Der Wert bleibt
+   also nachweispflichtig; hier wird verwiesen, nicht kopiert.
 8. **Näherbaurecht** — § 218 Abs. 2 / § 270 Abs. 3 PBG (beide **CONFIRMED** Run 71), plus die
    praktische Seite: Grundbuch, SBB als Nachbar, Aktualisierung bei Projektänderung. Batch T6.
-9. **Strassenabstandsverordnung (StrAV)** — §§ 11/12/16: Vorsprünge, Türen/Tore,
-   Materialien bis 2,5 m, Sichtbereiche 0,8 m. **Volltext fehlt in `raw/`** — beschaffen.
+9. **Strassenrecht Einfriedungen/Sichtbereiche** — massgeblich ist seit 01.06.2020 die
+   **Verkehrserschliessungsverordnung (VErV, LS 700.4, RRB vom 17.04.2019)**; die
+   Strassenabstandsverordnung (StrAV) vom 19.04.1978 ist **aufgehoben** (Dispositiv IV lit. a,
+   Volltext liegt seit 30.07.2026 in `raw/260730_amtlich_zh_verkehrserschliessungsv.md`).
+   **Nicht mehr beschaffen** (korrigiert 31.07.2026, Wissens-Chef Run 22 — der Auftrag war seit
+   dem 30.07. gegenstandslos, der Nachfolgeerlass lag bereits in derselben KB).
+   Zu bearbeiten sind die Kernparagraphen der VErV: § 23 Sichtbereiche dauernd freizuhalten ·
+   § 26 Abstände von Mauern und Einfriedigungen (Abs. 1 lit. a offene Einfriedigungen, lit. b
+   bis 0,8 m in allen Strassenbereichen, lit. c über 0,8 m nur an geraden Strecken und an der
+   Kurven-Aussenseite; Abs. 2 bis 0,5 m bei fehlendem Fussgängerschutz) · § 27 Abstände von
+   Pflanzen (4 m Bäume, 0,5 m Sträucher/Hecken, Reduktion auf 2 m bei Quartierstrassen/Ortsbild) ·
+   § 28 Innenseite von Kurven · § 29 Befreiungen.
+   **Offen und separat zu klären:** Vorsprünge, Türen/Tore und Materialien an der Strassengrenze
+   (bisher §§ 11/12 StrAV) haben in der VErV keine erkennbare Entsprechung — Anschlussnorm im
+   PBG/ABV suchen (§ 240 PBG, § 260 Abs. 3 PBG i.V.m. ABV). **Fassungsvorbehalt:** die raw-Datei
+   ist die RRB-Erlassfassung, nicht die konsolidierte LS-Fassung; vor einem Zitat in einem
+   ausgehenden Dokument gegen zhlex konsolidiert prüfen.
 
 ### Gemessene Lücken aus der Eingabe vom 30.07.2026 (Beleg, dass die Vertiefung nötig ist)
 
@@ -161,7 +183,9 @@ Alle stammen aus der realen Eingabe; die Klammer nennt den Stand in der KB.
   **alte** Fassung; dort ist Art. 31 «Lärmempfindlichkeitsstufen», im Begleitbeschrieb
   dagegen «Grünflächenziffer». Die revBZO-Artikel waren aus der KB **nicht verifizierbar** —
   die Synopse liegt im Reglemente-Ordner (Batch T1).
-- **StrAV fehlt** als Volltext, obwohl sie die Einfriedungshöhen trägt.
+- ~~**StrAV fehlt** als Volltext, obwohl sie die Einfriedungshöhen trägt.~~ → **erledigt
+  30.07.2026:** die StrAV ist seit 01.06.2020 aufgehoben; der Nachfolgeerlass VErV liegt in
+  `raw/260730_amtlich_zh_verkehrserschliessungsv.md` (Erlassfassung, nicht konsolidiert).
 - **§ 178 EG ZGB** ist belegt (`raw/260725_amtlich_zh_egzgb.md` + Destillat Kap. 22:
   «tote Hecke/Holzwand/Mauer an Grenze bis 150 cm»), aber in **keinem** Wiki-Artikel geführt.
 

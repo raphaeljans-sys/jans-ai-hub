@@ -32,38 +32,57 @@ Reserven/Finanzierung (BKP 6–9).
 Median MFH 2'800/m² GF → auf HNF (HNF ≈ 0.70 × GF) ≈ 4'000/m² HNF; +20 % Teuerung ≈ 4'800/m² HNF.
 BfS Schweizer Mittel MFH: 3'000–4'000 CHF/m² (BKP 1–5).
 
-## 3. Bauweise Massivbau vs. Holzbau (2023, CHF/m² HNF, BKP 1–5; aus Spread abgelesen)
+## 3. Bauweise Massivbau vs. Holzbau (CHF/m² HNF, BKP 1–5, exakte Quantile, Preisstand April 2023)
 
-| Bauweise | unterer | Median | oberer |
-|---|---|---|---|
-| Massivbau 2023 | ≈ 3'500 | **≈ 4'500** | ≈ 7'000 |
-| Holzbau 2023 | ≈ 4'700 | **≈ 5'400** | ≈ 6'700 |
-| Holzbau unteres Preissegment | ≈ 4'600 | ≈ 5'000 | ≈ 5'400 |
-| Holzbau oberes Preissegment | ≈ 5'200 | ≈ 6'200 | ≈ 6'700 |
+**Quelle:** Wüest Partner / Lignum Holzwirtschaft Schweiz / BAFU, «Holzbaukennzahlen für
+Investoren — Wohnbauten», Teil 1/2 Kostenkennzahlen, Abschlussbericht 26.04.2024, S. 18 und
+S. 36 (identische Tabelle). Stichprobe 17 Holzbau-Neubauten gegen knapp 50 Massivbau-
+Referenzobjekte, unpaarige Gruppenauswertung; alle Werte auf Indexstand April 2023 indexiert,
+inkl. MWST, ohne Förderungen, exkl. Tiefgarage; HNF definitionsgemäss nur oberirdisch.
+Vor jeder Verwendung Teuerung nach Abschnitt 5 aufrechnen.
 
-Die Aussage «Holzbau liegt rund 10–20 % über Massivbau» bezieht sich auf die aggregierten Zeilen
-«Massivbau 2023» und «Holzbau 2023» (Median 4'500 gegen 5'400). Die Segmentzeilen darunter weichen
-davon ab: unteres Preissegment 5'000 gegen 4'500 = **+11 %**, oberes Preissegment 6'200 gegen
-4'500 = **+38 %** (richtiggestellt 30.07.2026, Wissens-Chef Run 21).
+| Datensatz | 10 % | 30 % | 50 % Median | 70 % | 90 % |
+|---|---|---|---|---|---|
+| Massivbau 2023 | 3'100 | 3'894 | **4'492** | 5'002 | 6'900 |
+| Holzbau 2023 gesamt | 4'749 | 5'094 | **5'466** | 6'070 | 6'587 |
+| Holzbau unteres Preissegment | 4'687 | 4'800 | 4'980 | 5'144 | 5'499 |
+| Holzbau oberes Preissegment | 5'561 | 6'021 | 6'506 | 6'566 | 6'653 |
 
-## 3b. Ergaenzung 30.07.2026 (GV-Basis, andere Studie): unteres Preissegment ohne Aufpreis
+Aufpreis gegenüber dem Massivbau-Median 4'492: Holzbau gesamt **+21.7 %**, unteres Preissegment
+**+10.9 %**, oberes Preissegment **+44.8 %**.
 
-Zweite, unabhaengige Quelle: Wüest Partner/Lignum/BAFU, «Massiv- vs. Holzbau: Erstellungskosten
-…», 25.09.2025 (Diagramm-Ablesung, Details `wissen/grobkosten/raw/2025-wueest-lignum-massiv-vs-
-holzbau-erstellungskosten.md`). Auf **CHF/m³ GV** (nicht HNF) und mit Segment-Trennung:
+*Exakte Quantile eingesetzt 31.07.2026 (Wissens-Chef Run 22). Die früheren, aus dem Spread
+abgelesenen Näherungswerte und die daraus gerechneten Deltas (+11 % / +38 %, Run 21) sind
+damit überholt; die Ablesung lag im oberen Segment rund 7 Prozentpunkte zu tief. Die
+Primärtabelle liegt seit dem 31.07.2026 im Hub —
+`wissen/immobilienbewertung/outputs/2026-07-31_ingest-cluster-B-wuest-partner.md`.*
 
-| Bauweise | Zuschlag ggü. Massivbau (Median, normalisiert 01.04.2025) |
-|---|---|
-| Holzbau, unteres Preissegment | ≈ 0 % (Parität) |
-| Holzbau, oberes Preissegment | ≈ +13 % |
+## 3b. Dieselbe Studie auf GV-Basis: unteres Preissegment ohne Aufpreis
 
-**Kein bestätigender Quervergleich (richtiggestellt 30.07.2026, Wissens-Chef Run 21).** Die beiden
-Datensätze segmentieren gleich benannt, kommen aber zu verschiedenen Deltas: HNF-Basis (Abschnitt 3)
-+11 % im unteren und +38 % im oberen Preissegment, GV-Basis hier ≈ 0 % und ≈ +13 %. Beide ruhen auf
-demselben Preisstand April 2023, die Differenz ist also nicht Teuerung, sondern Bezugsgrösse
-(HNF gegen GV), verschiedene Stichproben und beidseitige Diagramm-Ableseunschärfe. Die Spreizung
-ist ungeklärt; ein gemeinsamer Zuschlag wird daraus NICHT gebildet. Der GV-Zuschlag dieses
-Abschnitts gilt ausschliesslich für die CHF/m³-GV-Kennwerte der KB `wissen/grobkosten`.
+**Richtiggestellt 31.07.2026 (Wissens-Chef Run 22): es ist KEINE zweite, unabhängige Studie.**
+Die GV-Reihe steht in demselben Wüest-Bericht wie Abschnitt 3, auf S. 34, und ruht auf derselben
+Stichprobe (17 Holzbauten / knapp 50 Massivbau-Referenzen) und demselben Indexstand April 2023.
+Die frühere Einordnung als «zweite, unabhängige Quelle» mit «verschiedenen Stichproben» war
+falsch. Exakte Quantile (CHF/m³ GV, BKP 1–5):
+
+| Datensatz | 10 % | 30 % | 50 % Median | 70 % | 90 % |
+|---|---|---|---|---|---|
+| Massivbau 2023 | 701 | 846 | **974** | 1'137 | 1'548 |
+| Holzbau 2023 gesamt | 863 | 956 | 1'066 | 1'133 | 1'278 |
+| Holzbau unteres Preissegment | 772 | 912 | 958 | 1'053 | 1'139 |
+| Holzbau oberes Preissegment | 1'015 | 1'066 | **1'100** | 1'194 | 1'799 |
+
+Aufpreis gegenüber dem Massivbau-Median 974: unteres Preissegment **−1.6 %** (Parität), oberes
+Preissegment **+12.9 %**, gesamt +9.4 %.
+
+**Die Spreizung zwischen den beiden Bezugsgrössen ist real und bleibt bestehen** (oberes Segment
++44.8 % auf HNF gegen +12.9 % auf GV), sie hat aber **nicht** die bisher vermutete Ursache: da
+Stichprobe, Studie und Preisstand identisch sind, bleibt allein die **Bezugsgrösse** als Erklärung
+— HNF zählt definitionsgemäss nur oberirdische Nutzfläche, GV das ganze Volumen. Ein gemeinsamer
+Zuschlag wird daraus weiterhin NICHT gebildet. Der GV-Zuschlag gilt ausschliesslich für die
+CHF/m³-GV-Kennwerte der KB `wissen/grobkosten`, der HNF-Zuschlag ausschliesslich für Abschnitt 3.
+Warum dieselbe Stichprobe je nach Bezugsgrösse so weit auseinanderläuft, ist als offene Frage in
+`wissen/grobkosten/wiki/QUESTIONS.md` angemeldet.
 
 ## 4. JANS-Richtwerte (Synthese, Stand 2023, inkl. Teuerung)
 

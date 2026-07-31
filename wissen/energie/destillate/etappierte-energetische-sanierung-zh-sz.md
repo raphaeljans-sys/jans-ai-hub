@@ -1,7 +1,7 @@
 ---
-quelle: "Energiegesetz (EnerG) Kt. ZH, LS 730.1, Nachtrag 125 (Stand 1.7.2024); Wärmedämmvorschriften (WDV) Kt. ZH, LS 700.211, vom 8. Juni 2022 (in Kraft seit 1.9.2022); Kantonales Energiegesetz (KEnG) Kt. SZ, SRSZ 420.100, Stand 1.2.2025; Energieverordnung (KEnV) Kt. SZ, SRSZ 420.111, Stand 1.2.2025 — alle vier Erlasse im Volltext (PDF) gelesen, nicht nur Übersichtsseiten"
+quelle: "Energiegesetz (EnerG) Kt. ZH, LS 730.1 — gelesen wurde die konsolidierte Fassung Nachtrag 125 (Stand 1.7.2024, 13 S.); geltend ist Nachtrag 129 (Publikation 1.7.2025, 14 S.), Fassungsstand geführt und geprüft durch die KB baurecht (`wissen/baurecht/raw/260712_amtlich_zh_energ.md`, Führungsmatrix `koordination/QUERBEZUEGE.md`); Fassungsabgleich siehe Vermerk unter «Rechtsgrundlagen»; Wärmedämmvorschriften (WDV) Kt. ZH, LS 700.211, vom 8. Juni 2022 (in Kraft seit 1.9.2022); Kantonales Energiegesetz (KEnG) Kt. SZ, SRSZ 420.100, Stand 1.2.2025; Energieverordnung (KEnV) Kt. SZ, SRSZ 420.111, Stand 1.2.2025 — alle vier Erlasse im Volltext (PDF) gelesen, nicht nur Übersichtsseiten"
 herausgeber: "Baudirektion Kanton Zürich (Gesetzessammlung ZH-Lex); Regierungsrat/Kantonsrat Kanton Schwyz (Systematische Rechtssammlung SRSZ)"
-ausgabe: "EnerG ZH Nachtragsnummer 125 (gültig ab 1.7.2024); WDV ZH vom 8.6.2022; KEnG SZ Stand SRSZ 1.2.2025 (Änderung vom 11.9.2024, in Kraft seit 1.1.2025); KEnV SZ Stand SRSZ 1.2.2025"
+ausgabe: "EnerG ZH gelesen in Nachtrag 125 (gültig ab 1.7.2024); geltender Stand Nachtrag 129 (1.7.2025) — Fassungsabgleich 125→129 durchgeführt und ohne Folge für dieses Destillat (Wissens-Chef Run 22, 31.07.2026); WDV ZH vom 8.6.2022; KEnG SZ Stand SRSZ 1.2.2025 (Änderung vom 11.9.2024, in Kraft seit 1.1.2025); KEnV SZ Stand SRSZ 1.2.2025"
 gelesen: "Volltext-PDFs direkt bezogen und gelesen 2026-07-31: EnerG ZH (notes.zh.ch, 13 S.), WDV ZH (zh.ch, 10 S., §§1-12 gelesen), KEnG SZ (sz.ch, 10 S., vollständig gelesen), KEnV SZ (sz.ch, §§1-30 gelesen); ergänzend WebSearch zu AWEL-Wegleitungen, EVEN-Vollzug und einer allfälligen Zusammenrechnungs-/Etappierungs-Regel (keine amtliche Fundstelle dazu gefunden, siehe Offene Punkte)"
 datenstand: 2026-07-31
 status: established
@@ -27,6 +27,15 @@ unabhaengig davon gelten die materiellen Einzelanforderungen (U-Werte) in **jede
 zwingend fuer die von dieser Etappe betroffenen Bauteile, auch wenn kein formeller Nachweis noetig ist.
 
 ## Rechtsgrundlagen im Überblick
+
+> **Fassungsabgleich EnerG ZH 125 → 129 (nachgetragen 31.07.2026, Wissens-Chef Run 22).** Gelesen
+> wurde Nachtrag 125 (1.7.2024, 13 S.), geltend ist Nachtrag 129 (1.7.2025, 14 S.). Der Diff der
+> beiden Volltexte besteht ausschliesslich in der Einfügung der **§§ 2a/2b EnerG** (Gesetz vom
+> 4. Dezember 2023, in Kraft seit 1.7.2025, Beteiligung des Kantons an Energieversorgungs-
+> Körperschaften). Die hier allein zitierte Delegationsnorm **§ 17a lit. a EnerG** ist in beiden
+> Fassungen wortgleich. **Für die Aussagen dieses Destillats besteht kein Fassungsdrift**; der
+> `established`-Status bleibt. Erlasswortlaut und Fassungsstand führt die KB `baurecht`
+> (`raw/260712_amtlich_zh_energ.md`, Fassungsstand geprüft 25.07.2026).
 
 | | Kanton Zürich | Kanton Schwyz |
 |---|---|---|

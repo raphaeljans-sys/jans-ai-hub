@@ -33,7 +33,7 @@ Einfamilienhaus-Zisterne.
 > **§ 97 Abs. 3 WsG** (LS 724.1) lautet «Die Verwendung von Regenwasser als Brauchwasser in
 > getrennten Systemen ist zulässig und gebührenfrei.» Fassungsvermerk: **WsG in der Fassung
 > Nachtrag 133, in Kraft seit 01.06.2026**. Beleg:
-> `baurecht/raw/260728_amtlich_zh_wsg.md:1374` (die KB `baurecht` ist für den ZH-Erlassstand und
+> `baurecht/raw/260730_amtlich_zh_wsg.md:1374` (die KB `baurecht` ist für den ZH-Erlassstand und
 > den Wortlaut führend, `energie` zitiert nur).
 > **Geltungsbereich beachten:** dieses Destillat ist CH-weit angelegt (das SVGW-Merkblatt gilt
 > schweizweit), § 97 Abs. 3 WsG gilt dagegen **nur für den Kanton Zürich** — es ist die kantonale
@@ -50,7 +50,7 @@ Einfamilienhaus-Zisterne.
 >   §§ 61 ff. WsG sinngemäss anwendbar (Grundgebühr plus mengenabhängige Gebühr);
 > - die **Abwassergebühren**: § 111 Abs. 2 WsV verlangt ausdrücklich, dass die Gemeinden bei der
 >   Festsetzung der Grundgebühren «sowohl den Schmutz- als auch den Regenwasseranfall»
->   berücksichtigen (`baurecht/raw/260728_amtlich_zh_wsv.md:1240`).
+>   berücksichtigen (`baurecht/raw/260730_amtlich_zh_wsv.md:1240`).
 >
 > Wer die Gebührenfreiheit auf den ganzen Wasserbezug bezieht, rechnet die Amortisation zu günstig
 > — derselbe Fehler wie eine zu teure Rechnung, nur in der anderen Richtung.

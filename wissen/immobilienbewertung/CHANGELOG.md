@@ -2,6 +2,33 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-31 (Wissens-Chef Run 22, Cross-KB) — Protokoll-Nachtrag: Ingest Cluster B, C, D und E waren nie eingetragen
+
+- **[protokollpflicht] Vier von fuenf Ingest-Reports des Laufs vom 31.07.2026 fehlten in diesem
+  CHANGELOG.** Eingetragen war nur Cluster A. Die uebrigen vier liegen seit demselben Lauf in
+  `outputs/`, wurden aber weder hier noch in `raw/_INGESTED.md` protokolliert — ein Verstoss gegen
+  die Protokollpflicht der Rule `wissens-bibliothekar`. Der Cluster-D-Report existierte (01:43)
+  bereits, als der Cluster-A-Eintrag geschrieben wurde (01:53), und wurde uebersprungen.
+  Nachgetragen (Quellordner je Report im Kopf ausgewiesen):
+  - `outputs/2026-07-31_ingest-cluster-B-wuest-partner.md` — `IMMO - 04 Marktpreise/wuest partner/`,
+    sechs Quellen gelesen. **Wichtigster Inhalt:** die exakten Quantiltabellen des Berichts
+    «Holzbaukennzahlen fuer Investoren» (26.04.2024) auf CHF/m2 HNF (S. 18/36) und CHF/m3 GV (S. 34).
+  - `outputs/2026-07-31_ingest-cluster-C-bfs-werkmaterial.md` — BFS-Statistik, werk-material.online,
+    Lignum/keevalue/Stadt Zuerich/comparis.
+  - `outputs/2026-07-31_ingest-cluster-D-bodenpreise-kennwerte.md` — `IMMO - 05 Bodenpreise` und
+    `IMMO - 06 Kennwerte` (Restbestand); KI-Ausgaben darin sind markiert und nach dem Echo-Schutz
+    **nicht** als Beleg verwendbar.
+  - `outputs/2026-07-31_ingest-cluster-E-projekte.md` — `IMMO - 01 Projekte/{02 STWE, 03 TDD,
+    04 CONTROLLING, 05 MASSAUFNAHMEN, _Vorlage}`; enthaelt die Ziel-Zuordnung fuer den Hauptlauf.
+- **Status aller fuenf Reports: Report vorhanden, Wiki-Einarbeitung steht aus.** Kein `wiki/`-Artikel
+  wurde angefasst (juengste Wiki-Datei 28.07.). Da der Scheduled Task auf `enabled=false` steht und
+  der naechste vorgesehene Lauf der 01.09.2026 ist, laegen die Reports sonst rund einen Monat brach —
+  deshalb ist die Einarbeitung neu als Ereignis-Trigger in `training/PROGRAMM.md` verankert.
+- **Erster Abnehmer hat bereits gezogen:** die exakten Wuest-Quantile aus Cluster B sind am
+  31.07.2026 in die fuehrende Referenz `skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md`
+  eingesetzt worden und haben dort die abgelesenen Naeherungswerte abgeloest (oberes Holzbau-Segment
+  +44.8 % statt +38 %).
+
 ## 2026-07-31 — Ingest Cluster A: `IMMO - 03 KNOW-HOW` gelesen, Report in `outputs/`
 - **[ingest]** Neuer Report `outputs/2026-07-31_ingest-cluster-A-knowhow.md` (8 Quellen,
   vollstaendig gelesen, jede Aussage mit Fundstelle).

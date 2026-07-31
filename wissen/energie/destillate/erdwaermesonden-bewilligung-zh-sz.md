@@ -46,8 +46,8 @@ und Energie plus Baugesuch via eBau.
 > zitierte GebV-UR-Fassung «Stand 1.1.12/Nachtrag 75» ist vier Jahre alt, der Deckel CHF 25'000
 > ist gegen den aktuellen Nachtrag zu verifizieren (siehe «Offene Punkte»). Führende KB:
 > `baurecht` (Buch-Run 69, 28.07.2026), amtlicher Volltext im Hub
-> `wissen/baurecht/raw/260728_amtlich_zh_wsg.md:694-713` sowie
-> `wissen/baurecht/raw/260728_amtlich_zh_wsv.md:1054-1057` (§ 92) und `:2475-2479` (§ 209); vgl.
+> `wissen/baurecht/raw/260730_amtlich_zh_wsg.md:694-713` sowie
+> `wissen/baurecht/raw/260730_amtlich_zh_wsv.md:1054-1057` (§ 92) und `:2475-2479` (§ 209); vgl.
 > `wissen/baurecht/wiki/QUESTIONS.md`.
 
 ## Kanton Zürich
@@ -157,8 +157,8 @@ eine Zahl gegenüber dem Bauherrn kommuniziert wird.
   siehe Korrekturkasten.
 - § 44 Abs. 1 lit. a Ziff. 3 und lit. f WsG (Wassergesetz, LS 724.1) sowie § 92 und § 209 WsV
   (Wasserverordnung, LS 724.11), Fassung Nachtrag 133, in Kraft seit 01.06.2026 — amtlicher Volltext
-  im Hub: `wissen/baurecht/raw/260728_amtlich_zh_wsg.md:694-713` und
-  `wissen/baurecht/raw/260728_amtlich_zh_wsv.md:1054-1057` bzw. `:2475-2479` (führende KB
+  im Hub: `wissen/baurecht/raw/260730_amtlich_zh_wsg.md:694-713` und
+  `wissen/baurecht/raw/260730_amtlich_zh_wsv.md:1054-1057` bzw. `:2475-2479` (führende KB
   `baurecht`, Buch-Run 69, 28.07.2026).
 - Gebührenverordnung zum Vollzug des Umweltrechts (GebV UR, LS 710.2, Stand 1.1.12/Nachtrag 75) —
   PDF-Volltext gelesen (Run 67).

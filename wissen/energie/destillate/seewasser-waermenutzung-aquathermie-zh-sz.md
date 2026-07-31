@@ -121,7 +121,7 @@ einer amtlichen oder unabhängigen Stelle).
 > das Destillat entstand einen Tag später und liess die Frage trotzdem offen. **Fassungsvermerk zu
 > allen folgenden Nummern: WsG (LS 724.1) und WsV (LS 724.11) in der Fassung Nachtrag 133, in Kraft
 > seit 01.06.2026** — die zitierte AWEL-Planungshilfe 2025 argumentierte noch unter altem Recht.
-> Belege: `baurecht/raw/260728_amtlich_zh_wsg.md` bzw. `…_wsv.md`.
+> Belege: `baurecht/raw/260730_amtlich_zh_wsg.md` bzw. `…_wsv.md`.
 >
 > **Die Konzessions-Spur, paragraphengenau:**
 > - **§ 4 Abs. 1 WsG:** «Öffentliche Gewässer unterstehen der Hoheit des Kantons» (Abs. 2:
@@ -186,7 +186,7 @@ einer amtlichen oder unabhängigen Stelle).
   Grundwasser: **§ 121 Abs. 1 lit. e WsV** (Bestandsdauer, längstens 70 Jahre) gilt ausdrücklich nur
   für «Bauten und Anlagen im Grundwasserleiter» und darf für den See **nicht** analog herangezogen
   werden. Fassung: WsV LS 724.11, Nachtrag 133, in Kraft seit 01.06.2026; Beleg
-  `baurecht/raw/260728_amtlich_zh_wsv.md:1373`. Vertiefung im Schwester-Destillat
+  `baurecht/raw/260730_amtlich_zh_wsv.md:1373`. Vertiefung im Schwester-Destillat
   `[[grundwasserwaermenutzung-bewilligung-zh-sz]]`.
   - **Seewasser löst mehrere Sondernutzungen aus — nur eine davon ist die Wärmenutzung.** Das
     Wärmenutzungsrecht läuft über § 119 Abs. 2 lit. c → § 121 Abs. 1 lit. b WsV (15–30 Jahre). Die

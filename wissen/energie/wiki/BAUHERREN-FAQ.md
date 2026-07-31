@@ -6267,7 +6267,7 @@ Status **established** (Normteil + ZH-Rechtsgrundlage) / **speculative** (Kosten
 > Verbandstext von 2001. Im Kanton Zürich steht sie im Gesetz: **§ 97 Abs. 3 WsG** (LS 724.1,
 > Fassung Nachtrag 133, in Kraft seit 01.06.2026) — «Die Verwendung von Regenwasser als
 > Brauchwasser in getrennten Systemen ist zulässig und gebührenfrei.» Wortlaut in der führenden
-> KB: `wissen/baurecht/raw/260728_amtlich_zh_wsg.md:1374`. Für andere Kantone ist die Rechtslage
+> KB: `wissen/baurecht/raw/260730_amtlich_zh_wsg.md:1374`. Für andere Kantone ist die Rechtslage
 > nicht geprüft; das SVGW-Merkblatt bleibt die schweizweite technische Grundlage.
 > **Reichweite der Gebührenfreiheit — hier nicht zu viel hineinlesen:** Sie gilt für das genutzte
 > Regenwasservolumen, nicht als Wegfall der übrigen Gebühren. Bezugspflicht (§ 97 Abs. 1 WsG) und
@@ -6310,7 +6310,7 @@ führende KB `baurecht`. Datenstand 2026-07-29 (Run 119, korrigiert Wissens-Chef
 > technologieneutral und ohne Bohrungsbezug; auf Gesetzesstufe **§ 44 Abs. 1 lit. a Ziff. 3 WsG**
 > (LS 724.1) für Bauten und Anlagen, «die der Nutzung von Boden, Untergrund oder Abwasser zur
 > Gewinnung von Energie oder zur Kühlung dienen». Wortlaut in der führenden KB `baurecht`:
-> `raw/260728_amtlich_zh_wsv.md:1051` und `raw/260728_amtlich_zh_wsg.md:699`.
+> `raw/260730_amtlich_zh_wsv.md:1051` und `raw/260730_amtlich_zh_wsg.md:699`.
 > **Dass ein im Erdreich vergrabener Eisspeicher darunter fällt, ist eine eigene Subsumtion dieser
 > Wissensbasis am Wortlaut und nicht amtlich bestätigt:** der Speicher entzieht dem umgebenden
 > Erdreich Wärme (Regenerationspfad über die Speicherwände) und trägt beim Free Cooling Wärme ein.

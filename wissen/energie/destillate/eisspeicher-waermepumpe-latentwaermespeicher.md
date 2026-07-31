@@ -170,7 +170,7 @@ Anlage (zu kleiner Speicher/zu wenig Regeneration) auf JAZ 2,0–2,5 einbrechen 
 > Gemeinde/Kanton. Der Fehler liegt also im Negativbefund, nicht in einer Freistellung.
 > Fassungsvermerk: **WsG (LS 724.1) und WsV (LS 724.11) in der Fassung Nachtrag 133, in Kraft seit
 > 01.06.2026**; Belege in der führenden KB `baurecht`
-> (`raw/260728_amtlich_zh_wsv.md:1052`, `raw/260728_amtlich_zh_wsg.md:699`).
+> (`raw/260730_amtlich_zh_wsv.md:1052`, `raw/260730_amtlich_zh_wsg.md:699`).
 >
 > **Was amtlich belegt ist (Kt. ZH):**
 > - **§ 92 Abs. 1 WsV** (Randtitel «Erdwärmenutzung»): «Einer Bewilligung bedürfen: a. der Entzug

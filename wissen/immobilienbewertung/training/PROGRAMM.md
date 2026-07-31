@@ -8,6 +8,13 @@
 > trainiert»-Auswahl) — ueberspringen und die naechste faellige KB nehmen. Der Abschnitt
 > «Takt & Umfang» unten beschreibt den Umfang eines ausgeloesten Laufs, nicht einen
 > laufenden Takt. (Statuskopf gesetzt vom `vollgas-chef-radar` 29.07.2026.)
+>
+> **ZUSAETZLICHER EREIGNIS-TRIGGER (gesetzt 31.07.2026, Wissens-Chef Run 22):** Einarbeitung der
+> fuenf Ingest-Reports vom 31.07.2026 (`outputs/2026-07-31_ingest-cluster-A…E`) in die
+> `wiki/`-Artikel. Die Ziel-Zuordnung je Befund liegt im Cluster-E-Report vor; die offenen Punkte
+> aus B und C gehoeren nach `wiki/wissensluecken.md` (diese KB fuehrt keine QUESTIONS.md). Ohne
+> diesen Anker laegen rund 370 KB destillierten Materials bis zum 01.09.2026 brach — die Reports
+> sind geschrieben, aber im Wiki ist noch nichts davon angekommen.
 
 Selbststudium-Loop, der die KB kompoundierend verbessert: aus dem Rohmaterial (`raw/` +
 die IMMO-SharePoint-Ordner) werden laufend bessere Wiki-Artikel — damit zukuenftige
