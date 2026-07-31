@@ -5,6 +5,17 @@ Wiki-Artikel überführen und hier streichen.
 
 ## Offen
 
+- **Was verlangt der Behördenkommentar «Art. 12» konkret?** (aufgeworfen 31.07.2026, Hub-Chef,
+  Fall 2619 KISPI / BE 1171/26 Ziff. 16). Drei der fünf Textkommentare von SRZ zur Stellungnahme
+  Brandschutz bestehen nur aus «Art. 12» bzw. «Art. 12!», gesetzt bei der Beurteilung nach
+  Löschanlagenkonzept und bei der Nutzungsdefinition. Belegt ist allein die Fundstelle:
+  Art. 12 VKF-Brandschutznorm 1-15de:2015 = Nachweisverfahren (`wissen/normen/destillate/
+  vkf-brandschutznorm-1-15de-bspub57.md`). **Nicht belegt** ist, ob die Behörde damit die
+  ausdrückliche Deklaration als Nachweisverfahren erwartet (statt/neben dem Standardkonzept
+  nach Art. 10) oder etwas anderes meint. Zu klären durch die Verfasserin der Stellungnahme
+  (Gruner AG) bei der Behörde; die Antwort gehört danach als Muster in den Wiki-Artikel, weil
+  Ein-Wort-Normverweise in Behördenkommentaren wiederkehren dürften.
+
 - **Telefon-/Kontaktstellen Ämter:** Aus Entscheiden gesammelte Direktnummern (z.B. AfB
   Baukontrolle 044 412 28 65, TBA Strassen 044 412 23 35) in einen Kontakt-Artikel bündeln,
   sobald 2–3 Projekte vorliegen.

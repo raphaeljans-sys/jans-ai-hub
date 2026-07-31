@@ -2,6 +2,25 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-07-31 (Hub-Chef) — Der materielle Gehalt einer Behördenantwort kann vollständig in PDF-Kommentaren stecken
+- **[neuer Report, methodisch] `outputs/2026-07-31_behoerdenantwort-in-pdf-kommentaren.md`** aus dem
+  Beleg M. Gantenbein (SRZ) vom 31.07.2026 07:59 zur Auflage Ziff. 16 des BE 1171/26, Projekt 2619
+  KISPI: der Mailtext besteht aus drei Sätzen und verweist mit «siehe Anhang» auf **16 PDF-Annotationen**
+  (5 mit Text, 3 Stempel «Frage») in der Stellungnahme Brandschutz. Wer das PDF nur ablegt oder nur
+  seinen Fliesstext liest, verliert die Auflage vollständig. **Konsequenz für Schritt 1 des Skills
+  (`auflagen-extraktor`): die Annotationsebene programmatisch auslesen** (`pypdf`, `/Annots` →
+  `/Contents` + `/T`), nicht visuell durchsehen — Freitextfelder liegen im Layout über dem Fliesstext
+  und landen in der reinen Textextraktion mitten in fremden Absätzen.
+- **[Verfahrenslehre] Ein unveränderter Rückversand ist selbst ein Befund.** Der mitgeschickte
+  Brandschutzplan war byte-identisch (SHA1) mit dem eingereichten — der technische Beleg für «keine
+  Anmerkungen mehr». Umgekehrt heisst abweichende Prüfsumme bei gleichem Dateinamen: das Dokument
+  trägt neue Information und darf nie unter dem Originalnamen abgelegt werden.
+- **[Fachbezug, als Lesart markiert] «Art. 12»** in drei Kommentaren aufgelöst über die Normen-KB:
+  Art. 12 VKF-BSN 1-15de:2015 = **Nachweisverfahren**, geprüft auf Vollständigkeit,
+  Nachvollziehbarkeit und Plausibilität — wörtlich die drei Kriterien des Mailtexts. Ob die Behörde
+  damit die Deklaration als Nachweisverfahren statt als Standardkonzept nach Art. 10 verlangt, ist
+  **nicht** festgestellt, sondern von Gruner bei der Behörde zu klären. In QUESTIONS aufgenommen.
+
 ## 2026-07-31 (Logbuch-Radar) — Möblierung im Fluchtweg ist ein eigener Verfahrensstrang, nicht Teil des Bauentscheids
 - **[neuer Report, materiell] `outputs/2026-07-31_moeblierung-fluchtweg-srz-praxis.md`** aus dem
   Beleg M. Gantenbein (SRZ) vom 30.07.2026, Projekt 2619 KISPI: Anpassungen bei Einrichtung und

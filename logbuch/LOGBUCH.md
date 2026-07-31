@@ -5,6 +5,60 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-07-31 — Hub-Chef 08:39 (planmässig, mit Befund, Briefing versendet)
+
+**Signale:** Fristen-Register + Logbuch (7-Tage-Horizont), Konversations-Destillat 31.07.
+(14 Themenblöcke), `mail-vorfilter.sh 26` über alle Apple-Mail-Konten, die neuen Threads
+danach im Original samt Anhängen, bexio `--verzug` und `--abgleich`, M365-Kalender über
+8 Tage, Sync- und Remote-Queues, Entwurfsordner, heutige Loop-Outputs. Radar (07:08) und
+AG-Gründungs-Monitor (07:52) hatten bereits gemailt; dieses Briefing trägt nur das Delta —
+und beide Befunde sind **nach** diesen Mails eingegangen.
+
+**Befund 1 (der wichtigste): SRZ hat die Auflage Ziff. 16 des Bauentscheids 1171/26
+beantwortet.** M. Gantenbein am 31.07. 07:59: zum revidierten Brandschutzplan **keine
+Anmerkungen mehr**, die Stellungnahme ist zu überarbeiten. Der zurückgesandte Brandschutzplan
+ist byte-identisch mit dem Bestand vom 27.07. — die Freigabe ist damit sachlich belegt. Die
+Stellungnahme Brandschutz (Gruner, Fassung 23.07., Version 1.1) kam mit **16 Annotationen**
+zurück, davon fünf mit Text; der materielle Gehalt steht **ausschliesslich in den
+PDF-Kommentaren**, der Mailtext nennt nur «siehe Anhang». Kernpunkte: dreimal «Art. 12» auf
+S. 5 (= Nachweisverfahren nach VKF-Brandschutznorm 1-15de:2015, dieselben drei Prüfkriterien
+wie im Mailtext, belegt im KB-Destillat), die Herkunft der Feuerwiderstandswerte aus dem
+übergeordneten Konzept (S. 6), der Möblierungs-Passus (S. 7), die selbständige
+Folgeschliessung der Fluchtwegelemente (S. 9) und «und angrenzende Brandabschnitte im
+Geschoss» plus «warum?» (S. 11). Ball bei Gruner, Koordination JANS; die Sitzung heute 11:00
+mit J. Ziegel ist die nächste Gelegenheit, die Punkte zu traktandieren.
+
+**Befund 2: L. Merci hat die Sitzung von heute 11:00 abgesagt** (31.07. 08:11, «Abgelehnt»,
+«wie gestern besprochen»). Der Termin selbst steht am M365-Kalender unverändert und ist nicht
+abgesagt; nach Mercis Absage ist die Bauherrschaft aber nicht mehr vertreten. Damit ist der
+Radar-Befund von 07:08 («die Sitzung steht heute um 11:00 mit Merci und Ziegel») überholt.
+Entscheid Raphael: mit Ziegel allein führen oder verschieben.
+
+**Aktionen: A3** — die kommentierte Stellungnahme im KISPI-Projektordner abgelegt
+(`09_Dokumente/01 BAUEINGABE/5_Auflagebereinigung/II.1b SRZ Feuerpolizei/260731-SRZ-Rueckmeldung-Ziff16/`),
+bewusst umbenannt, weil die unkommentierte Ausgangsfassung unter identischem Dateinamen im
+selben Ordner liegt und sonst überschrieben worden wäre; Bestand nach der Ablage nachgemessen
+und unverändert. Der Brandschutzplan wurde nicht dupliziert (byte-identisch). **A4** —
+Fristen-Register und dieser Eintrag.
+
+**Guards / bewusst unterlassen:** **A1** nicht qualifiziert, obwohl `--abgleich` sauber lief
+(die 19 Warnpositionen sind historisch, keine der fünf offenen Rechnungen ist als Phantom
+markiert): RE-00087 CHF 15'000 nach 106 Tagen auf Mahnstufe 2 = per Whitelist immer nur
+Entwurf; RE-00098/99 in laufender Frist bis 03.08.; RE-00100 weiterhin gesperrt, solange die
+Fälligkeit auf 30.07. steht; RE-00101 wird erst heute fällig. **A2** nicht qualifiziert — die
+drei Kalendervorschläge des Radars sind eigene Erinnerungen, keine in einer Mail bestätigten
+Termine. **A5** bewusst nicht genutzt: ein Mail-Entwurf an Gruner wäre zwei Stunden vor der
+Sitzung mit demselben Adressaten Leerlauf; die fünf Kommentare gehen belegt ins Briefing, das
+vor 11:00 vorliegt. Keine Zahlung, keine Buchung, keine Löschung, kein Versand ausser dem
+Briefing. Kein `git` über SMB.
+
+**Lehre (Wissens-Rücklauf):** Eine Behördenrückmeldung kann ihren gesamten materiellen Gehalt
+in PDF-Kommentaren tragen, während der Mailtext nur «siehe Anhang» sagt. Wer das PDF bloss
+ablegt oder nur seinen Fliesstext liest, verliert die Auflage vollständig. Als Report in die
+KB `auflagebereinigung` zurückgespielt.
+
+---
+
 ## 2026-07-31 — Logbuch-Radar 06:55 (planmässig, mit Befund)
 
 **Erledigt/geschlossen:** Der Fachplaner-Punkt bei KISPI ist gegenstandslos — Raphael hat den
